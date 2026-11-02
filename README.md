@@ -10,6 +10,7 @@ A research edition of the **German radio cryptograms in Childs's 1918 collection
 
 ## Selected results
 
+- **[Additional source readings](experiments/corpus_recovery/README.md):** the Dutch courier Vreede, Helsinki return transport for the Ostsee Division, Burkhardt's oil-company assignment, two Richter inquiries and the situation in Reval. Seven records fix 932/938 raw positions; all editorial repairs and unresolved numeral labels remain visible.
 - **[p153a](cases/p153a.md) / [p153b](cases/p153b.md): new substantial partial decipherment.** A shared 18-column key recovers 60/66 first-part positions and 33/54 raw second-part positions. The ammunition-report reconstruction gives a 50/54-position conditional template, with every fill and emendation recorded.
 - **Repeated and re-encrypted messages recover missing text.** The [Munich courier notice](cases/other/courier_munich.md) has a direct continuation and an explicitly qualified first part. A later key supplies [Kremp's departure request](cases/other/kremp.md) unchanged and independently quotes [the previously published Warsaw query](cases/other/mackensen_warsaw.md). [Osthoff](cases/other/osthoff.md), [Glatz](cases/other/glatz.md), [p152](cases/p152.md) and [p158](cases/p158.md) retain their complete source evidence.
 - **Finance and naval administration:** [p205 A](cases/other/p205_A.md) requests thirty million kroner, initially five million; [p205 B](cases/other/p205_B.md) ends report submissions while requiring war diaries to continue. The six source parts fix 750/757 raw positions; four editorial substitutions and the remaining reference digits are explicit.
@@ -52,7 +53,7 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](cases/p215.md) | Apparent Entente troop-transport report | Prior partial; conditional Kosch interpretation | Norbert (2017) |
 | [p217](cases/p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 87 reviewed records
+## Other ciphertexts — 94 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
@@ -61,6 +62,7 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p77 B](cases/context/radio_instructions.md#p77-b--call-sign-instruction-for-konia) | Konia radio call sign and wavelengths | Direct reading; one word normalized | icekylinx and GPT-6 Astra Pro (2026) |
 | [p85 B](cases/other/p85_B.md) | Telephone censorship through Budapest | 99/99 raw positions; two word repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p89 A2](cases/supplementary/p89_A2.md) | Shipping and railway routing to Nikolayev | Earlier reading; one source glyph uncertain | Ayush Agarwal; review by D. Bourdeau (2026) |
+| [p92 A](cases/other/p92_A.md) | Dutch courier Vreede to travel via Braila to Constantinople | 214/214 raw positions; one explicit word repair | icekylinx and GPT-6 Astra Pro (2026) |
 | [p96 B](cases/other/p96_B.md) | Entry permission for Filittis and family | 180/181 raw positions; Copenhagen repair costed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p107 D](cases/supplementary/p107_D.md) | Acknowledgment of operational telegrams | Earlier reading; parenthesized glyphs retained | Ayush Agarwal; review by D. Bourdeau (2026) |
 | [p109 B](cases/p109.md) | Evening enemy-division report toward Belgrade | Near-parallel supporting p 109; word alternatives remain | icekylinx and GPT-6 Astra Pro (2026) |
@@ -128,6 +130,7 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p198 E](cases/context/transport_197_198.md) | Repeated lorry, trailer and petrol-pump order | Literal duplicate-group deletion; partial reading | icekylinx and GPT-6 Astra Pro (2026) |
 | [p201 B1](cases/other/p201_p206_orders.md) | Report positions reached and expected border crossings | 105/105 unchanged; clear source origin date 15 November | icekylinx and GPT-6 Astra Pro (2026) |
 | [p201 B2](cases/other/p201_p206_orders.md) | Specify units and travel mode; acknowledge receipt | 86/89 raw positions; shared order reference with p206 | icekylinx and GPT-6 Astra Pro (2026) |
+| [p203 C](cases/other/richter_aleppo.md) | Inquiry about Richter at the Aleppo radio park | 93/96 raw positions; postal digits remain coupled and unknown | icekylinx and GPT-6 Astra Pro (2026) |
 | [p204 A](cases/other/p204_A.md) | Local radio station to be handed over to Poland | 69/70 raw positions; Monday 18 implies FD=8 conditionally | icekylinx and GPT-6 Astra Pro (2026) |
 | [p205 A1](cases/other/p205_A.md) | Thirty-million-kroner request; shortage of banknotes | 118/118 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p205 A2](cases/other/p205_A.md) | Vienna bank transfer to Kronstadt for German administration | 152/152 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |
@@ -138,6 +141,11 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p206 A1](cases/other/p201_p206_orders.md) | Confirm receipt of earlier departure and reporting orders | 175/184 raw positions; complete source part reassembled | icekylinx and GPT-6 Astra Pro (2026) |
 | [p206 A2](cases/other/p201_p206_orders.md) | References to disarmament, armistice and position-report orders | 179/200 raw positions; shared reference/date conditionally implies VA=5 | icekylinx and GPT-6 Astra Pro (2026) |
 | [p206 A3](cases/other/p201_p206_orders.md) | Report division locations and acknowledge the present order | 115/124 raw positions; duplicated wording and unknown serial retained | icekylinx and GPT-6 Astra Pro (2026) |
+| [p210 A1](cases/other/p210_A.md) | Helsinki: confirm return transport for the Ostsee Division | 93/93 raw positions; one adjacent-coordinate swap | icekylinx and GPT-6 Astra Pro (2026) |
+| [p210 A2](cases/other/p210_A.md) | Ships may be sent; identify a suitable embarkation port | 115/115 raw positions; two explicit substitutions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p210 B](cases/other/p210_B.md) | End of Consul Burkhardt's oil-company assignment | 158/158 raw positions; five word repairs; date labels literal | icekylinx and GPT-6 Astra Pro (2026) |
+| [p210 C](cases/other/richter_aleppo.md) | Fuller inquiry about NCO Kurt Richter in Aleppo | 201/204 raw positions; six substitutions and three fills | icekylinx and GPT-6 Astra Pro (2026) |
+| [p210 D](cases/other/p210_D.md) | Request for a report on the situation in Reval | 58/58 raw positions; one explicit word repair | icekylinx and GPT-6 Astra Pro (2026) |
 | [p211 B lower1](cases/other/p211_key_schedule.md) | Retain the November Ringbahn key | 107/107 raw positions; three spelling repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p211 B lower2](cases/other/p211_key_schedule.md) | Use November keys for December traffic | 92/92 unchanged; first and last schedule dates stated | icekylinx and GPT-6 Astra Pro (2026) |
 | [p211 B lower3](cases/other/p211_key_schedule.md) | Schedule endpoint and receipt acknowledgment | 66/67 raw positions; one invalid-glyph fill | icekylinx and GPT-6 Astra Pro (2026) |

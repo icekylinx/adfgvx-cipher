@@ -75,3 +75,7 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 Search budgets describe completed computations, not confidence levels. Models, controls, seeds, source hashes, exact solver versions, and dependencies are documented beside each experiment. Large corpora, generated model binaries and executables are excluded. Compact completed-case best fits are retained as explicitly unaccepted diagnostic records. The independent model builder reproduces its recorded hashes; the earlier upstream model is pinned separately because it contains previously solved traffic.
 
 The [methods guide](../docs/methods.md) explains the evidence layers and why an exact language-score optimum can still be a wrong plaintext.
+
+## Further source-reviewed messages
+
+[Additional corpus recovery](corpus_recovery/README.md) preserves seven source records and five readable editions, with independent coordinate arithmetic and exact editorial repair costs.

@@ -4,7 +4,7 @@
 
 **icekylinx and GPT-6 Astra Pro · 2 November 2026**
 
-The edition contains 22 challenge entries and 87 other source-reviewed
+The edition contains 22 challenge entries and 94 other source-reviewed
 records in the [two reading tables](../cases/README.md). **p73, p170 and p198 D remain
 wholly open.** Other entries range from complete prior readings to partial
 recoveries and source-linked reconstructions; they are not all independently
@@ -16,6 +16,7 @@ defensible.
 
 | Result | Evidence gained | What remains unresolved |
 |---|---|---|
+| [Helsinki, Dutch courier and personnel inquiries](../experiments/corpus_recovery/README.md) | Seven additional records fix 932/938 positions from 1,876 source slots. Five readable editions cover return transport, a Dutch courier, Burkhardt, Richter and Reval. | Seventeen coordinate substitutions and three erasure fills are separate editorial proposals; the Richter postal fields cannot be equated under the unchanged keys. |
 | [Munich couriers](../cases/other/courier_munich.md) | Five records give a direct 67/68-position continuation and a 134-position first-part candidate, with 118 positions supported across both audited damage models. | First-part wording and geometry are conditional; names and part association remain qualified. Unit 602 depends on the separate historical key inference. |
 | [Operational reports](../cases/other/nov9_operational_reports.md) | A complete repeat supplies the missing 20-coordinate prefix while retaining all 184 received coordinates; a conservative union fixes 97/102 positions. | Word repairs and place-name fills remain explicit. Previously audited French unit evidence favors the 6th Reserve Division, while cipher arithmetic still permits 5/6. |
 | [Kremp](../cases/other/kremp.md) and [Warsaw](../cases/other/mackensen_warsaw.md) across different keys | The later Kremp message is unchanged and complete; the Warsaw query has a 92-position quotation under another key. | Earlier source garbles have exact repair costs; the Warsaw closing reference is still damaged and prior interpretation credit is retained. |
