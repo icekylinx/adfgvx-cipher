@@ -1,4 +1,4 @@
-# Reproducible searches
+# Experiments and source verification
 
 [ADFGVX Cipher](../README.md) · [Readable cases](../cases/README.md) · [Methods guide](../docs/methods.md)
 
@@ -11,6 +11,10 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Source-reviewed corpus readings](corpus_readings/README.md) | Nine source parts, two assembled multipart messages and one exact repeated suffix | Separate raw and editorial layers; p123 deletion aliases exhaustively checked for the stated candidate; p218 treaty context does not replace source evidence. |
+| [Osthoff and Glatz parallel witnesses](corpus_attack/SOURCE_FAMILIES.md) | Six source records, 407 candidate plaintext positions | 403 positions have complete coordinate-pair support; three emendations and one damaged-glyph fill remain explicit. |
+| [p205 financial and naval orders](corpus_joint/README.md) | Two messages in six parts; 1,514 source coordinates | 750/757 raw positions fixed; four editorial substitutions; six reference positions remain unknown. |
+| [Station control and Seifert traffic](p170_continuation/README.md) | Nine source records, 913 slots; seven message groups | Earlier readings credited; source-preserving fills, duplicate transmission and global digit alternatives checked independently. |
 | [p187b adjacent-coordinate repair](p187b_adjacent_swap/README.md) | All 141 adjacent swaps under the published partial key | One swap explains both of Norbert's 2017 word corrections; 140 coordinates remain unchanged and all seven ending unknowns remain. |
 | [All-target source retrieval](source_similarity_extension/README.md) | All 22 challenge entries against 788 OCR blocks; 17,336 comparisons | Established parallels recur; same-page self matches are shown separately, and new local candidates remain distinct from source evidence. |
 | [p73 primary-source follow-up](p73_primary_followup/README.md) | Late-period Kress memoir, Lepsius documents 439–444 and the institutional Kress-name search | No matching incoming radiogram found in the inspected scopes; an apparent date match belongs to 1917. |

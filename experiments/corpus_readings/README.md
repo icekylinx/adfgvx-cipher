@@ -7,11 +7,14 @@ corpus into image-checked messages, exact coordinate certificates and annotated
 German readings. The published period keys remain credited to George Lasry and
 the historical and research sources recorded in `data/keys.json`.
 
-The first batch includes [telephone censorship through Budapest](../../cases/other/p85_B.md),
+The edition includes [telephone censorship through Budapest](../../cases/other/p85_B.md),
 [entry permission for Filittis and family](../../cases/other/p96_B.md), and
 [an instruction to use radio for important messages](../../cases/other/p111_B.md).
-The first part of the p120–p123 multipart instruction is also source-checked;
-the remaining parts are being assembled before its full case page is issued.
+Two assembled multipart messages add [the instruction to Feigenhaus](../../cases/other/p120_p123.md)
+and [the Kress/Tiflis withdrawal notice](../../cases/other/p218_A.md).
+Nine full message parts and one repeated transmitted suffix have inspected
+source layers. The p123 third part has one explicit deletion; p218 keeps
+all three original message lengths and itemizes every editorial substitution.
 
 ## Evidence layers
 
@@ -29,6 +32,12 @@ every complete editorial candidate with both implementations. Known-coordinate
 substitutions, erasure fills, deletions and unchanged coordinates are counted
 separately. Orthographic insertions appearing only in the readable prose are
 explicitly outside a same-length certificate.
+
+The p122 witness is checked as an exact 164-coordinate suffix of p120,
+not as a new short transposition frame. For p123 part 3, all 297 possible
+one-coordinate deletions are compared against the stated candidate; the
+two minimizing indices delete adjacent identical letters and yield one
+repaired stream. The source records retain the scope of that conditional check.
 
 ```sh
 python3 experiments/corpus_readings/verify.py --verify

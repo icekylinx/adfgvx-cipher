@@ -155,9 +155,236 @@
       "expected_raw": "FEIGENHAUSKONSTANTINOPELXSECHSHUNDERTSIEBZEHNBEICHTVATERZWEIHUNDERTDREIUNDNEUNZIGNACHDEMDIKTATORANWEISYNGGEGEBENNOTSCHREIEINANDREASNICHTVORZUNEHMENHABENWIRUNSNOCHMALSMITHERKULESINVERBINDUNGGESETZTX",
       "editorial_same_length": "FEIGENHAUSKONSTANTINOPELXSECHSHUNDERTSIEBZEHNBEICHTVATERZWEIHUNDERTDREIUNDNEUNZIGNACHDEMDIKTATORANWEISUNGGEGEBENNOTSCHREIEINANDREASNICHTVORZUNEHMENHABENWIRUNSNOCHMALSMITHERKULESINVERBINDUNGGESETZTX",
       "editorial_notes": [
-        "This is explicitly only the first of three parts; the other two source parts are being inspected before a complete-message reading is issued.",
-        "The source spells FFXDD in the final row; the OCR had replaced one valid F with an erasure."
+        "Part 1 of the three-part instruction continued by p123 A2 and A3. The header says 1956 here and 1056 in the later copy/parts; both forms are retained.",
+        "The source spells FFXDD in the final row; the OCR had replaced one valid F with an erasure.",
+        "The p122 D capture is an exact repeated suffix beginning at source index 230, independently confirming the last 164 coordinates; it is not counted as a separate full message."
       ]
+    },
+    {
+      "printed_page": 123,
+      "pdf_page_1based": 126,
+      "heading": "4th NOVEMBER, 1918. (Continued)",
+      "key_id": "Nov4-6",
+      "header": "OSM v OUI (08.40 p.m., November 4th); 1056 (3 TEILE); 2 TL; RICHI-232",
+      "id": "p123_A2",
+      "section": "A, part 2 of 3",
+      "declared_coordinate_length": 232,
+      "ocr_blocks": [
+        "p123_ocr_block1",
+        "p123_ocr_block2"
+      ],
+      "source_rows": [
+        "FAADA FFXVV AVGXV ADAVA XFXAV FFVXX VXXFA VX---",
+        "----- ----- ----- AFAXD AGXAX DXADG AVXDF XAFDX",
+        "FXAFV VDAAX VXDAV AFGVX FAVFV AFAFG XXAVG XGFFA",
+        "GVAGV AXVFX FXFVF AAAFX AXFAF FAXFF FXGXX AVFXV",
+        "XAXXV XFFAV ?XAAA XGFAA FVAVV GAXAV AXFAV AXXXA",
+        "FXXFV FAXVG ADADV GAXAG FAFGG AAXFG DX"
+      ],
+      "crop_pdf_points": [
+        65,
+        210,
+        530,
+        365
+      ],
+      "source_image": "sources/excerpts/other_p123_A2.png",
+      "expected_raw": "HERKU?ESABLEH?TVERANTW?RTUNGFU?RNEUENOT?CHREIEX?NFOLGED??SENKOEN?ENWIRAU1?EINENFA?LNEUE?OJ?CHRE?EI?ANDRE?SV?RNEH?EN?",
+      "editorial_same_length": "HERKULESABLEHNTVERANTWORTUNGFUERNEUENOTSCHREIEXINFOLGEDESSENKOENNENWIRAUFKEINENFALLNEUENOTSCHREIEINANDREASVORNEHMENX",
+      "uncertain_source_glyphs": [
+        {
+          "source_index": 170,
+          "notation": "?",
+          "reason": "The first glyph of group 35 is badly struck/marked and cannot be read securely from the scan. The question mark is transcription notation, not a printed question mark."
+        }
+      ],
+      "editorial_notes": [
+        "The source prints 18 dash positions at indices 37:55. One additional damaged glyph at index 170 is conservatively left unread.",
+        "The complete conditional wording needs 19 erasure fills and two valid-coordinate substitutions; all other coordinates remain unchanged.",
+        "Notschreie, Andreas and Herkules are retained literally. Their specific intended referents are not established by this cryptographic reading."
+      ]
+    },
+    {
+      "printed_page": 123,
+      "pdf_page_1based": 126,
+      "heading": "4th NOVEMBER, 1918. (Continued)",
+      "key_id": "Nov4-6",
+      "header": "OSM v OUI (08.40 p.m., November 4th); 1056 (3 TEILE); 3 TL; RICHI-296",
+      "id": "p123_A3",
+      "section": "A, part 3 of 3",
+      "declared_coordinate_length": 296,
+      "ocr_blocks": [
+        "p123_ocr_block3",
+        "p123_ocr_block4"
+      ],
+      "source_rows": [
+        "FAADG XFAGV FDGXV FAXVA XAGFF XAVAV AFDVF AFXXX",
+        "AAVAV AXXXF FXAFX XVXXA VFXAV FVAXX VFFAA AXXAF",
+        "VXAAV AGGFV DGAGV AFXFX XDVXX XFFGF DVXFA VAFAA",
+        "VVFXA XAVFX XFAXA DXXVX AXVAX AFXXX AAFVF GGDXF",
+        "AFADF VGXXF VXGDA XAXAD GVXXA VDDAX GVFGX AXGXA",
+        "VGFXV GDXVA VAAXX VXXAVA GAXXV AXFGV XXAVG FAFGX",
+        "VFGXA XVVFD FAXDD XAAFA GAGVG XFVFA AVAAV DAFVA",
+        "DXXDF XAFXA XFVFX A"
+      ],
+      "crop_pdf_points": [
+        70,
+        380,
+        530,
+        540
+      ],
+      "source_image": "sources/excerpts/other_p123_A3.png",
+      "geometry_deleted_source_indices": [
+        211
+      ],
+      "audit_all_single_deletions": true,
+      "expected_raw": "SIEWOLLENDESHALBUNSERENANWEISUNGENENTSPRECHENDSICHVERHALTENXDRAHTETWASIHRINANIETRACHTVERAENDERTERPOLITISCHERLARENUNMEHRZUTUNGEDENKTXREICHSVERSORGUNG",
+      "editorial_same_length": "SIEWOLLENDESHALBUNSERENANWEISUNGENENTSPRECHENDSICHVERHALTENXDRAHTETWASIHRINANBETRACHTVERAENDERTERPOLITISCHERLAGENUNMEHRZUTUNGEDENKTXREICHSVERSORGUNG",
+      "editorial_notes": [
+        "The literal source contains 297 coordinates against declared 296. Its local groups VAAXX VXXAVA contain eleven coordinates.",
+        "Deleting either repeated A at original index 211 or 212 gives the same 296-coordinate stream and a largely readable text. The certificate uses index 211 as the canonical representative. This is a conditional source repair, not an OCR omission.",
+        "Under that deletion, AN I ETRACHT and LA R E still require two explicit valid-coordinate substitutions to read ANBETRACHT and LAGE.",
+        "The exact candidate-cost audit checks every one of the 297 possible one-coordinate deletions. It measures the stated candidate, not all possible German readings; equal best indices 211 and 212 represent one repaired stream.",
+        "The cleartext footer WP NF OSM v OUI DD is outside the RICHI ciphertext and is excluded."
+      ]
+    },
+    {
+      "id": "p218_A1",
+      "printed_page": 218,
+      "pdf_page_1based": 221,
+      "section": "A, part 1 of 3",
+      "heading": "25th NOVEMBER, 1918.",
+      "header": "NKJ v LP (02.10 p.m., November 25th); FUER COS 0950 (11/25) 3 TLE; 1 TL; RICHI-282",
+      "declared_coordinate_length": 282,
+      "key_id": "Nov25-28",
+      "ocr_blocks": [
+        "p218_ocr_block1"
+      ],
+      "source_rows": [
+        "FFFGF FXVDD FDFGV XAVFF DFFGX DXFVX FFDFD XDGVA",
+        "VXFGV GVXVX XDFVF DXAXA VDGVF XXVGV GAFGF XVDDD",
+        "GAFGF AXGDF FVXDX AFDFF XVGVD FAXFV XFFDV XDVAF",
+        "DFXGV XXGAF XXGFA XFVGG AFDGD XVXDV -FGDV XDFAD",
+        "GVDXG GFGFG FDDFX FGDGX FFFDD FDFGG DDDGD FAFGG",
+        "DGDAF XDFXV GVDVF DDFXV AVDFF DFFFD XFAGV XGGDX",
+        "AFDFA XGXVD FFVGA XDAXG AFVAA FGAFF DFXXX FGVGD",
+        "FD"
+      ],
+      "crop_pdf_points": [
+        60,
+        175,
+        535,
+        310
+      ],
+      "render_scale": 3,
+      "source_image": "sources/excerpts/other_p218_A1.png",
+      "expected_raw": "G9NERALVONKRESSTIFLISXAUFTELXNRX163XART4KELRO?MJ1WAFFENSTILLSFANDSVERTRAGESBESTIMMTXALLEDEUTSCHAZTRUPPENDIESICHGEGE8CAERTIGINGEBIETENBEFINDEN",
+      "editorial_same_length": "GENERALVONKRESSTIFLISXAUFTELXNRX163XARTIKELROEM12WAFFENSTILLSTANDSVERTRAGESBESTIMMTXALLEDEUTSCHENTRUPPENDIESICHGEGENWAERTIGINGEBIETENBEFINDEN",
+      "editorial_notes": [
+        "Every printed valid coordinate remains literal in the source layer. The separate candidate corrects the recorded garbles and fills one printed dash. No geometry change or key reassignment is used.",
+        "The candidate Article XII is supported by the independently published text of the 11 November 1918 armistice; the raw damaged reference RO?MJ1 remains visible."
+      ]
+    },
+    {
+      "id": "p218_A2",
+      "printed_page": 218,
+      "pdf_page_1based": 221,
+      "section": "A, part 2 of 3",
+      "heading": "25th NOVEMBER, 1918.",
+      "header": "NKJ v LP (02.10 p.m., November 25th); FUER COS 0950 (11/25) 3 TLE; 2 TL; RICHI-284",
+      "declared_coordinate_length": 284,
+      "key_id": "Nov25-28",
+      "ocr_blocks": [
+        "p218_ocr_block2"
+      ],
+      "source_rows": [
+        "VAADD AFGAV FVXVG DDDXD FGXDD GXVAV FAGDF DAGXD",
+        "GXXAX DGXXF FFFFA FDFAX DFDXD FA-VX FFXFF XFXXF",
+        "GXFAG FXDAG GXFXD XGGVF VDVXG ADFAA VFDFA FFGDF",
+        "DGFXA FXFFG FAGDG AAXXD XGXDX FXDFA AVFDX XFDFA",
+        "FXDFF XXFDF ADDXG FVGDA AFVAD AXAXD FFFVF FDVDD",
+        "VFFFF XDDFX DFDAG VGXFD GVXDX XFFXA FDXGD DDFDX",
+        "FXDFX DAAFA AADGD DAXDF VGGDF FVFFX VFDAF AFDXG",
+        "XDFG"
+      ],
+      "crop_pdf_points": [
+        60,
+        302,
+        535,
+        404
+      ],
+      "render_scale": 3,
+      "source_image": "sources/excerpts/other_p218_A2.png",
+      "expected_raw": "DIEVORDEMKRIEGZURUSZLANDGEHOERTENXHABENXSOBALDDIEALLIIERTENUNTERBERUEC?SICHTIGUNGDERJNNERENLAGEDIESERGEBIETEDPNAUGENBLICKFUERGEKOMMENERACHTENX",
+      "editorial_same_length": "DIEVORDEMKRIEGZURUSSLANDGEHOERTENXHABENXSOBALDDIEALLIIERTENUNTERBERUECKSICHTIGUNGDERINNERENLAGEDIESERGEBIETEDENAUGENBLICKFUERGEKOMMENERACHTENX",
+      "editorial_notes": [
+        "Every printed valid coordinate remains literal in the source layer. The separate candidate corrects the recorded garbles and fills one printed dash. No geometry change or key reassignment is used.",
+        "The wording is a paraphrase of Article XII; no verbatim identity with the legal text is assumed."
+      ]
+    },
+    {
+      "id": "p218_A3",
+      "printed_page": 218,
+      "pdf_page_1based": 221,
+      "section": "A, part 3 of 3",
+      "heading": "25th NOVEMBER, 1918.",
+      "header": "NKJ v LP (02.10 p.m., November 25th); FUER COS 0950 (11/25) 3 TLE; 3 TL; RICHI-278",
+      "declared_coordinate_length": 278,
+      "key_id": "Nov25-28",
+      "ocr_blocks": [
+        "p218_ocr_block3"
+      ],
+      "source_rows": [
+        "FDGVX GFFDV GDVXD FAXDX DGVGG XGFFF DGFFF DVXAD",
+        "DFAGD GAFXA AXFAX AAAFD XDXAF AAXXV FGDFX FAFDG",
+        "GFDFF DAFAX VGDAD DFFGX GAGAA FAFVA AFVFD DDFFX",
+        "DFAXD FDXGG FXFGA AFFGA ADGDF AFFDG DXGGV GVAXF",
+        "XVFXF FFDDA DDDDF AFDFX VFXGF AAFFA GXXFF XGDXA",
+        "FAFVF FGAFA VFVFX DGGAX FFFFF XAXDV XDADX AXVGG",
+        "FFAXG XFGGA -VFFD DFGAD FAGXD XFDFX XFXDF FXD"
+      ],
+      "crop_pdf_points": [
+        60,
+        406,
+        535,
+        491
+      ],
+      "render_scale": 3,
+      "source_image": "sources/excerpts/other_p218_A3.png",
+      "expected_raw": "INDIEDEUTSCHENGRENZENZURUECKZUKEHRWNXDIEALLIIERTENHABENBISHERDIEZURUECKZIEHUNGDERKEUTSCHENSCHUTZWACHEAU?TIFLISNICHTVERLANGTXAUSWAERTIGESAMT",
+      "editorial_same_length": "INDIEDEUTSCHENGRENZENZURUECKZUKEHRENXDIEALLIIERTENHABENBISHERDIEZURUECKZIEHUNGDERDEUTSCHENSCHUTZWACHEAUSTIFLISNICHTVERLANGTXAUSWAERTIGESAMT",
+      "editorial_notes": [
+        "Every printed valid coordinate remains literal in the source layer. The separate candidate corrects the recorded garbles and fills one printed dash. No geometry change or key reassignment is used.",
+        "The wording is a paraphrase of Article XII; no verbatim identity with the legal text is assumed."
+      ]
+    }
+  ],
+  "source_repetitions": [
+    {
+      "id": "p122_D_suffix",
+      "printed_page": 122,
+      "pdf_page_1based": 125,
+      "section": "D, part-1 suffix capture",
+      "header": "OSM v OUI (08.33 p.m., November 4th); 1056 (3 TEILE); 1 TL; RICHI-164?",
+      "source_rows": [
+        "FXFXG XAAVA XXVFV VGAXA AVAFV VVFFX FGFAF DVXVG",
+        "DGAXX AVFFA XXAXV AFXXX AAXXV VVGXX VGAFX XAXFD",
+        "AFAVX XXVAX AVAFV AAAVV DAAXF XAFDX DFAGX XXXVA",
+        "GGXGF XDXDF VAVGF GXXDA FFXDD VXADA AFXGV FXGAD",
+        "AXDV"
+      ],
+      "crop_pdf_points": [
+        105,
+        590,
+        535,
+        730
+      ],
+      "source_image": "sources/excerpts/other_p122_D_suffix.png",
+      "match_message_id": "p120_B1",
+      "match_source_span": [
+        230,
+        394
+      ],
+      "notes": "All 164 coordinates equal the suffix of the full first part. The OCR block omitted the final four AXDV. The printed length has a following question mark; no second complete plaintext is decoded from this truncated capture."
     }
   ]
 }

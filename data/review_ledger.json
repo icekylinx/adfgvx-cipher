@@ -2341,6 +2341,164 @@
           "cases/other/p111_B.md"
         ]
       }
+    },
+    {
+      "id": "osthoff_source_pair_recovery",
+      "scope": [
+        "p138_A1",
+        "p138_A2",
+        "p148_C1",
+        "p149_A2"
+      ],
+      "claim_reviewed": "Four source witnesses recover the two-part Osthoff reassignment order.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "source_supported_reconstruction_with_three_explicit_emendations",
+      "result": "Every one of the 121 first-part candidate letters has complete pair support after one missing-group alignment. The second part has 115/118 supported positions; DEM, ERSBATL and REGMTS remain three editorial emendations. The corrected p149 stream needs three substitutions, two forming one adjacent swap. The published period key and external priority are preserved.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/corpus_attack/source_pairs.json",
+          "experiments/corpus_attack/source_pair_results.json",
+          "cases/other/osthoff.md"
+        ]
+      }
+    },
+    {
+      "id": "glatz_source_pair_recovery",
+      "scope": [
+        "p140_B",
+        "p149_C"
+      ],
+      "claim_reviewed": "Parallel sources recover an enquiry about Glatz and a military construction detachment.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "source_supported_body_with_one_damaged_glyph_reading",
+      "result": "The candidate has complete pair support for 167/168 positions. Reading the p140 damaged glyph as G supplies the I in KONSTANTINOPEL and preserves all 335 legible coordinates. The p149 copy requires four substitutions; the preferred place-name costs one more than the unconstrained minimum. ERBETETEN remains literal.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/corpus_attack/source_pair_results.json",
+          "cases/other/glatz.md"
+        ]
+      }
+    },
+    {
+      "id": "p205_finance_and_naval_messages",
+      "scope": [
+        "p205_A1",
+        "p205_A2",
+        "p205_A3",
+        "p205_A4",
+        "p205_B1",
+        "p205_B2"
+      ],
+      "claim_reviewed": "Six source parts form financial-transfer and naval-reporting messages.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "direct_partial_readings_with_exact_editorial_costs",
+      "result": "The Nov16-18 key fixes 750/757 positions in 1514 source coordinates. The body requests thirty million kroner with an initial five million and discontinues report/diary submissions while retaining the duty to keep diaries. Four single-coordinate substitutions give the readable edition; six reference-digit positions remain unknown.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/corpus_joint/p205_inputs.json",
+          "experiments/corpus_joint/p205_readings.json",
+          "cases/other/p205_A.md",
+          "cases/other/p205_B.md"
+        ]
+      }
+    },
+    {
+      "id": "station_and_seifert_source_edition",
+      "scope": [
+        "p168_A",
+        "p168_B",
+        "p169_A",
+        "p172_A",
+        "p172_B",
+        "p174_B",
+        "p174_C",
+        "p174_D",
+        "p174_E"
+      ],
+      "claim_reviewed": "Nine source records give station-control reports and Seifert service exchanges.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "source_review_with_prior_attribution_and_qualified_fills",
+      "result": "An independent verifier checks 913 slots, a repeated odd-length source with explicit deletion aliases, two identical listening instructions, four explicit substitutions, and all five attainable hundreds digits. The source distinguishes destroyed records from keys kept in personal custody. Prior Childs/Lasry-team station-control interpretation credit is retained.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p170_continuation/seifert_records.json",
+          "cases/other/seifert.md"
+        ]
+      }
+    },
+    {
+      "id": "p120_p123_multipart_assembly",
+      "scope": [
+        "p120_B1",
+        "p122_D_suffix",
+        "p123_A2",
+        "p123_A3"
+      ],
+      "claim_reviewed": "Three parts and a repeated suffix form the instruction to Feigenhaus.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "conditional_complete_reading_with_literal_special_vocabulary",
+      "result": "The 461-position candidate uses five valid-coordinate substitutions, nineteen erasure fills and one deletion. The p122 witness matches the last 164 p120 coordinates exactly. Of 297 deletion positions for the stated third-part candidate, only adjacent aliases 211/212 attain the two-substitution minimum. Special terms and their unestablished referents remain literal.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/corpus_readings/selected_sources.json",
+          "experiments/corpus_readings/certificates.json",
+          "cases/other/p120_p123.md"
+        ]
+      }
+    },
+    {
+      "id": "p218_kress_armistice_message",
+      "scope": [
+        "p218_A1",
+        "p218_A2",
+        "p218_A3"
+      ],
+      "claim_reviewed": "Three parts carry a Foreign Office notice to Kress about the armistice withdrawal condition.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "source_reviewed_conditional_body_with_independent_documentary_context",
+      "result": "The published Nov25-28 key fixes 419/422 raw positions. The readable edition requires 16 valid-coordinate substitutions and three fills, preserving 825 known coordinates. Article XII of the armistice corroborates the intended provision but does not prove the damaged RO?MJ1 reference unchanged. The statement that no Tiflis-guard withdrawal has yet been demanded is the telegram's own assertion.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/corpus_readings/certificates.json",
+          "cases/other/p218_A.md"
+        ]
+      }
     }
   ]
 }

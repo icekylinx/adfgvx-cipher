@@ -161,6 +161,29 @@ def audit_message(message, key, corpus):
             'valid_source_coordinates_preserved': len(frame)-len(edits)-len(fills),
             'independent_reencryption_agrees': True,
         }
+        if message.get('audit_all_single_deletions'):
+            assert len(analysis) == len(encrypted) + 1
+            trials = []
+            for deleted in range(len(analysis)):
+                test = analysis[:deleted] + analysis[deleted+1:]
+                trials.append({
+                    'deleted_source_index': deleted,
+                    'deleted_source_glyph': literal[deleted],
+                    'known_coordinate_substitutions': sum(
+                        a != '?' and a != b for a, b in zip(test, encrypted)),
+                    'erasure_fills': test.count('?'),
+                })
+            best = min(t['known_coordinate_substitutions'] for t in trials)
+            minima = [t['deleted_source_index'] for t in trials
+                      if t['known_coordinate_substitutions'] == best]
+            report['all_single_deletions_for_stated_candidate'] = {
+                'scope': 'Every one-coordinate deletion; the stated plaintext and published key remain fixed. This does not enumerate all German plaintexts.',
+                'minimum_known_coordinate_substitutions': best,
+                'minimizing_deleted_source_indices': minima,
+                'distinct_minimizing_repaired_streams': len({
+                    analysis[:i] + analysis[i+1:] for i in minima}),
+                'trials': trials,
+            }
     elif '?' not in reading['plaintext']:
         assert encrypt(reading['plaintext'], key['column_rank_order'], key['square']) == frame
         report['complete_raw_plaintext_reencrypts_exactly'] = True
@@ -181,7 +204,7 @@ def build(pdf=None):
     for message in sources['messages']:
         assert keys[message['key_id']]['known_cell_count'] == 36
         reports.append(audit_message(message, keys[message['key_id']], corpus))
-    return {
+    result = {
         'schema': 'adfgvx-corpus-readings-certificate-v1',
         'project': 'ADFGVX Cipher',
         'authors': 'icekylinx and GPT-6 Astra Pro',
@@ -198,6 +221,27 @@ def build(pdf=None):
             'priority_limit': 'No first-decipherment priority is claimed for these corpus messages.',
         },
     }
+    if sources.get('source_repetitions'):
+        by_id = {m['id']: m for m in reports}
+        repetitions = []
+        for repeat in sources['source_repetitions']:
+            literal = ''.join(''.join(repeat['source_rows']).split())
+            assert all(c in COORDS for c in literal)
+            start, stop = repeat['match_source_span']
+            full = by_id[repeat['match_message_id']]['literal_ciphertext']
+            assert full[start:stop] == literal
+            assert len(literal) == stop - start
+            repetitions.append({
+                **repeat,
+                'literal_ciphertext': literal,
+                'matched_coordinate_count': len(literal),
+                'exact_transmitted_suffix_match': stop == len(full),
+                'scope': 'An exact transmitted substring of the longer witness; not a separately decrypted complete message under a shorter frame.',
+            })
+            result['source_crop_hashes'][repeat['source_image']] = sha(
+                ROOT / repeat['source_image'])
+        result['source_repetitions'] = repetitions
+    return result
 
 
 def main():

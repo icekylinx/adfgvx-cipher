@@ -47,7 +47,7 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](p215.md) | Apparent Entente troop-transport report | Prior partial; conditional Kosch interpretation | Norbert (2017) |
 | [p217](p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 34 reviewed records
+## Other ciphertexts — 62 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
@@ -60,17 +60,36 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p107 D](supplementary/p107_D.md) | Acknowledgment of operational telegrams | Earlier reading; parenthesized glyphs retained | Ayush Agarwal; review by D. Bourdeau (2026) |
 | [p109 B](p109.md) | Evening enemy-division report toward Belgrade | Near-parallel supporting p 109; word alternatives remain | icekylinx and GPT-6 Astra Pro (2026) |
 | [p111 B](other/p111_B.md) | Use radio for important messages | 154/154 direct positions; no coordinate edits | icekylinx and GPT-6 Astra Pro (2026) |
+| [p120 B1](other/p120_p123.md) | Instruction to Feigenhaus; contact with Herkules | 197/197 raw positions; one word repair | icekylinx and GPT-6 Astra Pro (2026) |
+| [p122 D suffix](other/p120_p123.md) | Repeat of the Feigenhaus instruction, part 1 | Exact 164-coordinate suffix; not a separate complete message | icekylinx and GPT-6 Astra Pro (2026) |
+| [p123 A2](other/p120_p123.md) | Responsibility for further Notschreie declined | 97/116 raw positions; explicit conditional completion | icekylinx and GPT-6 Astra Pro (2026) |
+| [p123 A3](other/p120_p123.md) | Follow instructions; report plans after political change | One-coordinate deletion; two further substitutions | icekylinx and GPT-6 Astra Pro (2026) |
 | [p134 B](context/radio_instructions.md#p134-b--repeat-a-fourth-period-telegram-in-the-fifth) | Repeat a fourth-period telegram in the fifth | 50/51 raw positions; wording partly editorial | icekylinx and GPT-6 Astra Pro (2026) |
 | [p136 B1](p152.md#raw-p136-b1-parallel-plaintext) | Silk purchases in the Caucasus; first part | Full raw reading; supports the p 152 fragment | icekylinx and GPT-6 Astra Pro (2026) |
 | [p136 B2](p152.md#raw-continuation-witnesses) | Resell goods whose transport is not assured | Continuation; one coordinate supplied by a parallel | icekylinx and GPT-6 Astra Pro (2026) |
+| [p138 A1](other/osthoff.md) | Osthoff's Turkey posting cancelled, first witness | Missing group supplied by p148; all 121 candidate letters witnessed | icekylinx and GPT-6 Astra Pro (2026) |
+| [p138 A2](other/osthoff.md) | Osthoff reassigned to a railway replacement battalion | Shared source garbles; three proposed word repairs | icekylinx and GPT-6 Astra Pro (2026) |
+| [p140 B](other/glatz.md) | Enquiry about Glatz's whereabouts | 167/168 letters witnessed; one damaged-glyph fill | icekylinx and GPT-6 Astra Pro (2026) |
+| [p148 C1](other/osthoff.md) | Osthoff's posting cancellation, clearer repeat | 120/121 raw positions; remaining letter supplied by p138 | icekylinx and GPT-6 Astra Pro (2026) |
+| [p149 A2](other/osthoff.md) | Repeated Osthoff reassignment and cabinet-order closing | 115/118 letters witnessed; three editorial changes | icekylinx and GPT-6 Astra Pro (2026) |
+| [p149 C](other/glatz.md) | Enquiry about Glatz's whereabouts | Parallel with four coordinate disagreements; raw errors retained | icekylinx and GPT-6 Astra Pro (2026) |
 | [p152 E2](p152.md#raw-continuation-witnesses) | Parallel continuation of the silk instruction | Direct raw reading with residual garbles | icekylinx and GPT-6 Astra Pro (2026) |
 | [p155 A1](context/p155.md) | Asgard arrival at Poti and troop pickup | 84/85 raw positions; source glyph remains erased | icekylinx and GPT-6 Astra Pro (2026) |
 | [p155 A2](context/p155.md) | Asgard/Tresivolus shipping continuation | Conditional single-coordinate loss repair | icekylinx and GPT-6 Astra Pro (2026) |
 | [p159 B](p158.md#component-readings) | Munich routing and army-key instruction | Reconstruction from repeated transmissions | Childs (1918); review: icekylinx and GPT-6 Astra Pro |
 | [p159 C](p158.md#component-readings) | Munich–Innsbruck routing and army-key instruction | Source-supported one-coordinate deletion | icekylinx and GPT-6 Astra Pro (2026) |
 | [p164 A4](context/p164_A4.md) | Dismounted cavalry west of an unidentified MIRCO | 87/99 raw positions; full proposal explicitly repaired | icekylinx and GPT-6 Astra Pro (2026) |
+| [p168 A](other/seifert.md) | Station under a soldiers' council; operation unchanged | 92/92 raw positions; spelling omission retained | Lasry, Niebel, Kopal and Wacker |
+| [p168 B](other/seifert.md) | Cologne soldiers' council plans to occupy a radio station | Two explicit coordinate repairs | Childs; Lasry, Niebel, Kopal and Wacker |
 | [p168 C](p158.md#earlier-historical-reading-of-a-component) | Repeated Munich routing order 11338 | Parallel witness to the p 159 B component | Childs (1918); review: icekylinx and GPT-6 Astra Pro |
 | [p168 D](p158.md#component-readings) | Repeated Munich–Innsbruck routing instruction | Parallel witness to the p 159 C component | icekylinx and GPT-6 Astra Pro (2026) |
+| [p169 A](other/seifert.md) | Repeated station-control report | Conditional one-coordinate deletion; clearer p168 witness | icekylinx and GPT-6 Astra Pro (2026) |
+| [p172 A](other/seifert.md) | Records destroyed; cipher keys still in personal custody | 67/68 positions; one supported erasure fill | icekylinx and GPT-6 Astra Pro (2026) |
+| [p172 B](other/seifert.md) | Immediate radio-listening instruction | Identical to p174 D; hundreds digit remains 5-9 | icekylinx and GPT-6 Astra Pro (2026) |
+| [p174 B](other/seifert.md) | Request notification when Seifert arrives | 36/37 raw positions; two glyph readings retained | icekylinx and GPT-6 Astra Pro (2026) |
+| [p174 C](other/seifert.md) | Query about Seifert's return | 24/24 positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
+| [p174 D](other/seifert.md) | Repeated immediate listening instruction | Identical to p172 B; no digit inferred from repetition | icekylinx and GPT-6 Astra Pro (2026) |
+| [p174 E](other/seifert.md) | Seifert has departed | Two explicit coordinate repairs for the name | icekylinx and GPT-6 Astra Pro (2026) |
 | [p185 C](p189.md) | Vehicle provision impossible; await orders | Direct raw reading; source parallel for p 189 A | icekylinx and GPT-6 Astra Pro (2026) |
 | [p185 D](context/transport.md#p185-d-source-and-gap-model) | Movement via DHFN and readiness instruction | 91/99 positions under an unproved five-loss geometry | icekylinx and GPT-6 Astra Pro (2026) |
 | [p186 A1](context/p186.md#part-1--richi-170) | Monitor Russian and Polish army traffic | Earlier reading; three explicit erasure fills | Lasry team and Norbert (2017); review: icekylinx and GPT-6 Astra Pro |
@@ -87,6 +106,15 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p198 B](context/transport_197_198.md) | Repeated equipment transport to Darmstadt | Clearer near-parallel; editorial changes explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p198 C](context/transport.md#independent-transport-context) | Repeated lorry departure and Sunday stay | Direct partial reading; separate from challenge D | icekylinx and GPT-6 Astra Pro (2026) |
 | [p198 E](context/transport_197_198.md) | Repeated lorry, trailer and petrol-pump order | Literal duplicate-group deletion; partial reading | icekylinx and GPT-6 Astra Pro (2026) |
+| [p205 A1](other/p205_A.md) | Thirty-million-kroner request; shortage of banknotes | 118/118 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |
+| [p205 A2](other/p205_A.md) | Vienna bank transfer to Kronstadt for German administration | 152/152 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |
+| [p205 A3](other/p205_A.md) | Initial five million in mixed denominations; confirm sufficiency | 117/117 raw positions; unchanged source | icekylinx and GPT-6 Astra Pro (2026) |
+| [p205 A4](other/p205_A.md) | Further requests to the General War Treasury; reference digits | 94/99 raw positions; reference digits unresolved | icekylinx and GPT-6 Astra Pro (2026) |
+| [p205 B1](other/p205_B.md) | End submissions to the dissolved Naval Warfare Command | 160/160 raw positions; unchanged source | icekylinx and GPT-6 Astra Pro (2026) |
+| [p205 B2](other/p205_B.md) | Continue keeping war diaries; naval reporting addressees | 109/111 raw positions; reference digits unresolved | icekylinx and GPT-6 Astra Pro (2026) |
+| [p218 A1](other/p218_A.md) | Kress/Tiflis notice: armistice Article XII | 140/141 raw positions; article-number repair explicit | icekylinx and GPT-6 Astra Pro (2026) |
+| [p218 A2](other/p218_A.md) | Allied judgment governs withdrawal from former Russian territory | 141/142 raw positions; four substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
+| [p218 A3](other/p218_A.md) | No Allied demand yet to withdraw the Tiflis guard | 138/139 raw positions; two substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
 
 The catalogue covers source-reviewed records with published reading evidence; the wider OCR search pool contains additional unreviewed ciphertext candidates. Earlier authors retain their credits. Current source review and new research use **icekylinx and GPT-6 Astra Pro**; a review credit does not assert first-decipherment priority.
 <!-- READING-CATALOG:END -->

@@ -1,10 +1,11 @@
-# Research status and the next discriminating evidence
+# Research status
 
 [ADFGVX Cipher](../README.md) · [Case guide](../cases/README.md) · [Methods](methods.md) · [Experiments](../experiments/README.md)
 
 **icekylinx and GPT-6 Astra Pro · 2 November 2026**
 
-The edition contains 22 challenge entries. **p73, p170 and p198 D remain
+The edition contains 22 challenge entries and 62 other source-reviewed
+records in the [two reading tables](../cases/README.md). **p73, p170 and p198 D remain
 wholly open.** Other entries range from complete prior readings to partial
 recoveries and source-linked reconstructions; they are not all independently
 solved original ciphertexts. [Each case](../cases/README.md) states its own
@@ -15,6 +16,11 @@ defensible.
 
 | Result | Evidence gained | What remains unresolved |
 |---|---|---|
+| [Osthoff](../cases/other/osthoff.md) and [Glatz](../cases/other/glatz.md) | Six witnesses recover readable military-mission messages; 403/407 candidate positions have complete pair support in a witness. | Three shared source garbles require editorial emendation; one Glatz letter needs a damaged-glyph reading. |
+| [p205 finance](../cases/other/p205_A.md) and [naval reporting](../cases/other/p205_B.md) | Six source parts fix 750/757 raw positions and give two complete readable bodies. | Four coordinate substitutions and six unresolved reference positions remain explicit. |
+| [Seifert and station traffic](../cases/other/seifert.md) | Source-checked reports distinguish records destroyed from cipher keys kept in personal custody, alongside short service messages and duplicates. | The missing hundreds digit and personal identity are not inferred; earlier station-report readings keep their authorship. |
+| [Feigenhaus instruction](../cases/other/p120_p123.md) | Three parts are assembled; a second intercept confirms an exact 164-coordinate suffix. | One deletion, five substitutions and nineteen fills remain conditional; special-vocabulary referents are unknown. |
+| [Kress/Tiflis notice](../cases/other/p218_A.md) | Three parts concern Article XII and the German guard; an independent treaty text identifies the provision. | The readable version uses sixteen substitutions and three fills; the damaged article number is not raw recovery. |
 | [p146 duplicate group](../cases/p146.md) | A literal five-coordinate duplicate can be removed while preserving every retained coordinate; 117/122 positions are fixed before filling the missing group. | The supplied group and resulting call-sign interpretation remain explicit hypotheses. |
 | [p187b adjacent swap](../cases/p187b.md) | One `AD → DA` swap explains both of Norbert's earlier word corrections. All 141 adjacent boundaries were checked. | The seven ending unknowns remain; the historical origin of the reversal is not identified. |
 | [p109 near-parallel](../cases/p109.md) | An additional source supports the body; exact multi-witness optimization exposes alternatives and their edit costs. | Language ranking does not resolve every word or the `SAVE`/`SAVA` choice. |
@@ -25,6 +31,13 @@ defensible.
 ## Highest-value next directions
 
 ### 1. Add independent source constraints
+
+The wider-corpus work now supplies readable positive examples of this route:
+repeat transmissions can recover missing groups and individual coordinate
+pairs, and multipart assembly can recover the body without changing a key.
+Continue searching for both direct ciphertext repeats and re-encrypted
+copies whose plaintext overlaps under different published keys. Only
+image-reviewed witnesses enter the reading catalogue.
 
 For p198, the [constructive domain proof](../experiments/p198_letter_bounds/domain_witnesses.json)
 shows that each individual position can contain any alphabet symbol in some

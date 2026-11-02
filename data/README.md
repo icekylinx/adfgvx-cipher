@@ -17,6 +17,14 @@ Question marks retain unresolved source evidence or square cells. They are never
 
 Research and editorial attribution: **icekylinx and GPT-6 Astra Pro**. Earlier readings retain their individually recorded authors and dates.
 
+Additional source editions live with their verifiers in
+[corpus_readings](../experiments/corpus_readings/README.md),
+[corpus_attack](../experiments/corpus_attack/SOURCE_FAMILIES.md),
+[corpus_joint](../experiments/corpus_joint/README.md) and
+[p170_continuation](../experiments/p170_continuation/README.md).
+The reading catalogue links each individual source record to its case and
+the exact evidence files, including repeated transmissions and multipart messages.
+
 After adding a reviewed case to the reading catalogue, run
 `python3 -m adfgvx.catalog` to regenerate both tables. The `--check` option
 checks their agreement, unique identifiers and evidence links without editing.

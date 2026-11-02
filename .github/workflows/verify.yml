@@ -25,7 +25,13 @@ jobs:
       - name: Check the challenge and wider-corpus reading tables
         run: python -m adfgvx.catalog --check
       - name: Verify wider-corpus source readings
-        run: python experiments/corpus_readings/verify.py --verify
+        run: |
+          python experiments/corpus_readings/verify.py --verify
+          python experiments/corpus_attack/build_source_pairs.py --verify
+          python experiments/corpus_attack/verify_source_pairs.py
+          python experiments/corpus_joint/build_readings.py experiments/corpus_joint/p205_inputs.json experiments/corpus_joint/p205_readings.json --verify
+          python experiments/corpus_joint/verify_p205.py
+          python experiments/p170_continuation/verify_seifert.py
       - name: Check recorded truncation constraints
         run: python experiments/known_key/verify_p170.py experiments/known_key/p170_experiment.json
       - name: Build search engines and check controls
