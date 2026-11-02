@@ -1,0 +1,57 @@
+{
+  "reviewed_source_sha256": "734370188df5594b61b4b4f52db892cd594584a894787898e90ca28e3df17221",
+  "independent_fresh_compilation_and_seven_historical_reruns": [
+    {
+      "width": 14,
+      "segmentations": 3003,
+      "solutions": 0,
+      "complete": true
+    },
+    {
+      "width": 16,
+      "segmentations": 1820,
+      "solutions": 0,
+      "complete": true
+    },
+    {
+      "width": 18,
+      "segmentations": 18564,
+      "solutions": 2,
+      "complete": true
+    },
+    {
+      "width": 20,
+      "segmentations": 125970,
+      "solutions": 0,
+      "complete": true
+    },
+    {
+      "width": 22,
+      "segmentations": 1,
+      "solutions": 0,
+      "complete": true
+    },
+    {
+      "width": 24,
+      "segmentations": 2704156,
+      "solutions": 0,
+      "complete": true
+    },
+    {
+      "width": 26,
+      "segmentations": 325,
+      "solutions": 0,
+      "complete": true
+    }
+  ],
+  "independent_substring_exclusion_proof_reproduced": true,
+  "total_segmentations": 2853839,
+  "review_findings": [
+    "No concrete correctness blocker found in the scoped even-width algorithm.",
+    "The repeated-letter component filter is necessary, so it cannot discard a valid key.",
+    "Every ordered equal-height chunk pair is considered; global lmap/cmap consistency and used-chunk constraints are maintained with correct rollback.",
+    "Second-message offsets are recomputed from its own 108-coordinate geometry.",
+    "The two returned width-18 representations and the two explicit source mismatches match archived outputs."
+  ],
+  "scope": "Post-discovery conditional consistency only; no new plaintext discovery or all-width uniqueness claim."
+}

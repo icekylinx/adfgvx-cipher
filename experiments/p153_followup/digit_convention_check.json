@@ -1,0 +1,3493 @@
+{
+  "convention": "Each A..J is immediately followed by its matching digit 0..9 in the fill sequence.",
+  "results": [
+    {
+      "case": "p153_core_19",
+      "examined_routes": 16,
+      "linear_and_cyclic_variants": 32,
+      "compatible_variants": 0,
+      "cases": [
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 17,
+              "required": "2",
+              "known": "M"
+            },
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 27,
+              "required": "3",
+              "known": "H"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 31,
+              "required": "4",
+              "known": "A"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 5,
+              "required": "6",
+              "known": "I"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 17,
+              "required": "2",
+              "known": "M"
+            },
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 27,
+              "required": "3",
+              "known": "H"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 31,
+              "required": "4",
+              "known": "A"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 5,
+              "required": "6",
+              "known": "I"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 30,
+              "required": "0",
+              "known": "E"
+            },
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 17,
+              "required": "2",
+              "known": "M"
+            },
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 27,
+              "required": "3",
+              "known": "H"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "reason": "No following cell in the linear fill route."
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 5,
+              "required": "6",
+              "known": "I"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 30,
+              "required": "0",
+              "known": "E"
+            },
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 17,
+              "required": "2",
+              "known": "M"
+            },
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 27,
+              "required": "3",
+              "known": "H"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 5,
+              "required": "6",
+              "known": "I"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 30,
+              "required": "0",
+              "known": "E"
+            },
+            {
+              "letter": "B",
+              "cell": 18,
+              "following_cell": 29,
+              "required": "1",
+              "known": "V"
+            },
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 25,
+              "required": "3",
+              "known": "N"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "reason": "No following cell in the linear fill route."
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "6",
+              "known": "U"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 26,
+              "required": "7",
+              "known": "D"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 4,
+              "required": "8",
+              "known": "G"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 30,
+              "required": "0",
+              "known": "E"
+            },
+            {
+              "letter": "B",
+              "cell": 18,
+              "following_cell": 29,
+              "required": "1",
+              "known": "V"
+            },
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 25,
+              "required": "3",
+              "known": "N"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 5,
+              "required": "4",
+              "known": "I"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "6",
+              "known": "U"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 26,
+              "required": "7",
+              "known": "D"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 4,
+              "required": "8",
+              "known": "G"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 25,
+              "required": "3",
+              "known": "N"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 31,
+              "required": "4",
+              "known": "A"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "6",
+              "known": "U"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 26,
+              "required": "7",
+              "known": "D"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 4,
+              "required": "8",
+              "known": "G"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 25,
+              "required": "3",
+              "known": "N"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 31,
+              "required": "4",
+              "known": "A"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "6",
+              "known": "U"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 26,
+              "required": "7",
+              "known": "D"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 4,
+              "required": "8",
+              "known": "G"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 17,
+              "required": "2",
+              "known": "M"
+            },
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 27,
+              "required": "3",
+              "known": "H"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 31,
+              "required": "4",
+              "known": "A"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 5,
+              "required": "6",
+              "known": "I"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "reason": "No following cell in the linear fill route."
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 17,
+              "required": "2",
+              "known": "M"
+            },
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 27,
+              "required": "3",
+              "known": "H"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 31,
+              "required": "4",
+              "known": "A"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 5,
+              "required": "6",
+              "known": "I"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 30,
+              "required": "8",
+              "known": "E"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 25,
+              "required": "3",
+              "known": "N"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 31,
+              "required": "4",
+              "known": "A"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "6",
+              "known": "U"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 26,
+              "required": "7",
+              "known": "D"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 4,
+              "required": "8",
+              "known": "G"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 25,
+              "required": "3",
+              "known": "N"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 31,
+              "required": "4",
+              "known": "A"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "6",
+              "known": "U"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 26,
+              "required": "7",
+              "known": "D"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 4,
+              "required": "8",
+              "known": "G"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 30,
+              "required": "0",
+              "known": "E"
+            },
+            {
+              "letter": "B",
+              "cell": 18,
+              "following_cell": 17,
+              "required": "1",
+              "known": "M"
+            },
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 25,
+              "required": "3",
+              "known": "N"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 29,
+              "required": "4",
+              "known": "V"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "6",
+              "known": "U"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 26,
+              "required": "7",
+              "known": "D"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 4,
+              "required": "8",
+              "known": "G"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 30,
+              "required": "0",
+              "known": "E"
+            },
+            {
+              "letter": "B",
+              "cell": 18,
+              "following_cell": 17,
+              "required": "1",
+              "known": "M"
+            },
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 25,
+              "required": "3",
+              "known": "N"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 29,
+              "required": "4",
+              "known": "V"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "6",
+              "known": "U"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 26,
+              "required": "7",
+              "known": "D"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 4,
+              "required": "8",
+              "known": "G"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 30,
+              "required": "0",
+              "known": "E"
+            },
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 17,
+              "required": "2",
+              "known": "M"
+            },
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 27,
+              "required": "3",
+              "known": "H"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 5,
+              "required": "6",
+              "known": "I"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "reason": "No following cell in the linear fill route."
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 30,
+              "required": "0",
+              "known": "E"
+            },
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 17,
+              "required": "2",
+              "known": "M"
+            },
+            {
+              "letter": "D",
+              "cell": 26,
+              "following_cell": 27,
+              "required": "3",
+              "known": "H"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 5,
+              "required": "6",
+              "known": "I"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 35,
+              "required": "8",
+              "known": "R"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 22,
+              "required": "2",
+              "known": "Z"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 1,
+              "required": "4",
+              "known": "T"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 22,
+              "required": "2",
+              "known": "Z"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 1,
+              "required": "4",
+              "known": "T"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 25,
+              "required": "0",
+              "known": "N"
+            },
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 22,
+              "required": "2",
+              "known": "Z"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 31,
+              "required": "4",
+              "known": "A"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 21,
+              "required": "7",
+              "known": "S"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "reason": "No following cell in the linear fill route."
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 25,
+              "required": "0",
+              "known": "N"
+            },
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 22,
+              "required": "2",
+              "known": "Z"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 31,
+              "required": "4",
+              "known": "A"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 21,
+              "required": "7",
+              "known": "S"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 25,
+              "required": "0",
+              "known": "N"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 35,
+              "required": "6",
+              "known": "R"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 21,
+              "required": "7",
+              "known": "S"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "reason": "No following cell in the linear fill route."
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 25,
+              "required": "0",
+              "known": "N"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 35,
+              "required": "6",
+              "known": "R"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 21,
+              "required": "7",
+              "known": "S"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 30,
+              "required": "8",
+              "known": "E"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 5,
+              "required": "6",
+              "known": "I"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 5,
+              "required": "6",
+              "known": "I"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 22,
+              "required": "2",
+              "known": "Z"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "reason": "No following cell in the linear fill route."
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 22,
+              "required": "2",
+              "known": "Z"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 5,
+              "required": "4",
+              "known": "I"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 30,
+              "required": "0",
+              "known": "E"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "6",
+              "known": "U"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 30,
+              "required": "0",
+              "known": "E"
+            },
+            {
+              "letter": "G",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "6",
+              "known": "U"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 25,
+              "required": "0",
+              "known": "N"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 21,
+              "required": "7",
+              "known": "S"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 34,
+              "required": "8",
+              "known": "L"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 25,
+              "required": "0",
+              "known": "N"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 21,
+              "required": "7",
+              "known": "S"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 34,
+              "required": "8",
+              "known": "L"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 25,
+              "required": "0",
+              "known": "N"
+            },
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 22,
+              "required": "2",
+              "known": "Z"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "reason": "No following cell in the linear fill route."
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 21,
+              "required": "7",
+              "known": "S"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 4,
+              "required": "8",
+              "known": "G"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 31,
+              "following_cell": 25,
+              "required": "0",
+              "known": "N"
+            },
+            {
+              "letter": "C",
+              "cell": 16,
+              "following_cell": 22,
+              "required": "2",
+              "known": "Z"
+            },
+            {
+              "letter": "E",
+              "cell": 30,
+              "following_cell": 35,
+              "required": "4",
+              "known": "R"
+            },
+            {
+              "letter": "H",
+              "cell": 27,
+              "following_cell": 21,
+              "required": "7",
+              "known": "S"
+            },
+            {
+              "letter": "I",
+              "cell": 5,
+              "following_cell": 4,
+              "required": "8",
+              "known": "G"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "reported_p217_positive_control",
+      "examined_routes": 16,
+      "linear_and_cyclic_variants": 32,
+      "compatible_variants": 2,
+      "cases": [
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": true,
+          "conflicts": [],
+          "necessary_pair_placement_witness": "TRUPE4NVSC2H7I8B1G6A0D3F5J9KLMOQWXYZ"
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": true,
+          "conflicts": [],
+          "necessary_pair_placement_witness": "TRUPE4NVSC2H7I8B1G6A0D3F5J9KLMOQWXYZ"
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 18,
+              "required": "0",
+              "known": "6"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 8,
+              "required": "2",
+              "known": "S"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 20,
+              "required": "3",
+              "known": "0"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 22,
+              "required": "5",
+              "known": "3"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 23,
+              "required": "6",
+              "known": "F"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 10,
+              "required": "7",
+              "known": "2"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 18,
+              "required": "0",
+              "known": "6"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 8,
+              "required": "2",
+              "known": "S"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 20,
+              "required": "3",
+              "known": "0"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 22,
+              "required": "5",
+              "known": "3"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 23,
+              "required": "6",
+              "known": "F"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 10,
+              "required": "7",
+              "known": "2"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 18,
+              "required": "0",
+              "known": "6"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 14,
+              "required": "1",
+              "known": "8"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 8,
+              "required": "2",
+              "known": "S"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 20,
+              "required": "3",
+              "known": "0"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "4",
+              "known": "P"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 22,
+              "required": "5",
+              "known": "3"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 16,
+              "required": "6",
+              "known": "1"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 10,
+              "required": "7",
+              "known": "2"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 12,
+              "required": "8",
+              "known": "7"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 24,
+              "required": "9",
+              "known": "5"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 18,
+              "required": "0",
+              "known": "6"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 14,
+              "required": "1",
+              "known": "8"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 8,
+              "required": "2",
+              "known": "S"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 20,
+              "required": "3",
+              "known": "0"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "4",
+              "known": "P"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 22,
+              "required": "5",
+              "known": "3"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 16,
+              "required": "6",
+              "known": "1"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 10,
+              "required": "7",
+              "known": "2"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 12,
+              "required": "8",
+              "known": "7"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 24,
+              "required": "9",
+              "known": "5"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 14,
+              "required": "1",
+              "known": "8"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "4",
+              "known": "P"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 29,
+              "required": "5",
+              "known": "M"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 16,
+              "required": "6",
+              "known": "1"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 17,
+              "required": "7",
+              "known": "G"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 12,
+              "required": "8",
+              "known": "7"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 24,
+              "required": "9",
+              "known": "5"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 14,
+              "required": "1",
+              "known": "8"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "4",
+              "known": "P"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 29,
+              "required": "5",
+              "known": "M"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 16,
+              "required": "6",
+              "known": "1"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 17,
+              "required": "7",
+              "known": "G"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 12,
+              "required": "8",
+              "known": "7"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 24,
+              "required": "9",
+              "known": "5"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 12,
+              "required": "5",
+              "known": "7"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 6,
+              "required": "6",
+              "known": "N"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 0,
+              "required": "7",
+              "known": "T"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 12,
+              "required": "5",
+              "known": "7"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 6,
+              "required": "6",
+              "known": "N"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 0,
+              "required": "7",
+              "known": "T"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 14,
+              "required": "1",
+              "known": "8"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "4",
+              "known": "P"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 17,
+              "required": "5",
+              "known": "G"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 16,
+              "required": "6",
+              "known": "1"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 5,
+              "required": "7",
+              "known": "4"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 12,
+              "required": "8",
+              "known": "7"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 24,
+              "required": "9",
+              "known": "5"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 14,
+              "required": "1",
+              "known": "8"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "4",
+              "known": "P"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 17,
+              "required": "5",
+              "known": "G"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 16,
+              "required": "6",
+              "known": "1"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 5,
+              "required": "7",
+              "known": "4"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 12,
+              "required": "8",
+              "known": "7"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 24,
+              "required": "9",
+              "known": "5"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 18,
+              "required": "0",
+              "known": "6"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 14,
+              "required": "1",
+              "known": "8"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 8,
+              "required": "2",
+              "known": "S"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 20,
+              "required": "3",
+              "known": "0"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "4",
+              "known": "P"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 22,
+              "required": "5",
+              "known": "3"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 16,
+              "required": "6",
+              "known": "1"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 10,
+              "required": "7",
+              "known": "2"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 12,
+              "required": "8",
+              "known": "7"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 24,
+              "required": "9",
+              "known": "5"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 18,
+              "required": "0",
+              "known": "6"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 14,
+              "required": "1",
+              "known": "8"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 8,
+              "required": "2",
+              "known": "S"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 20,
+              "required": "3",
+              "known": "0"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "4",
+              "known": "P"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 22,
+              "required": "5",
+              "known": "3"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 16,
+              "required": "6",
+              "known": "1"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 10,
+              "required": "7",
+              "known": "2"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 12,
+              "required": "8",
+              "known": "7"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 24,
+              "required": "9",
+              "known": "5"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 18,
+              "required": "0",
+              "known": "6"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 8,
+              "required": "2",
+              "known": "S"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 20,
+              "required": "3",
+              "known": "0"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 22,
+              "required": "5",
+              "known": "3"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 11,
+              "required": "6",
+              "known": "H"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 10,
+              "required": "7",
+              "known": "2"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "rows",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 18,
+              "required": "0",
+              "known": "6"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 8,
+              "required": "2",
+              "known": "S"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 20,
+              "required": "3",
+              "known": "0"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 22,
+              "required": "5",
+              "known": "3"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 11,
+              "required": "6",
+              "known": "H"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 10,
+              "required": "7",
+              "known": "2"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 25,
+              "required": "0",
+              "known": "J"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 21,
+              "required": "1",
+              "known": "D"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 15,
+              "required": "2",
+              "known": "B"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 27,
+              "required": "3",
+              "known": "K"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 10,
+              "required": "4",
+              "known": "2"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 29,
+              "required": "5",
+              "known": "M"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 23,
+              "required": "6",
+              "known": "F"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 17,
+              "required": "7",
+              "known": "G"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 19,
+              "required": "8",
+              "known": "A"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 31,
+              "required": "9",
+              "known": "Q"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 25,
+              "required": "0",
+              "known": "J"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 21,
+              "required": "1",
+              "known": "D"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 15,
+              "required": "2",
+              "known": "B"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 27,
+              "required": "3",
+              "known": "K"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 10,
+              "required": "4",
+              "known": "2"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 29,
+              "required": "5",
+              "known": "M"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 23,
+              "required": "6",
+              "known": "F"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 17,
+              "required": "7",
+              "known": "G"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 19,
+              "required": "8",
+              "known": "A"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 31,
+              "required": "9",
+              "known": "Q"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 13,
+              "required": "0",
+              "known": "I"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 9,
+              "required": "1",
+              "known": "C"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 3,
+              "required": "2",
+              "known": "P"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 15,
+              "required": "3",
+              "known": "B"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 10,
+              "required": "4",
+              "known": "2"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 17,
+              "required": "5",
+              "known": "G"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 11,
+              "required": "6",
+              "known": "H"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 5,
+              "required": "7",
+              "known": "4"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 7,
+              "required": "8",
+              "known": "V"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 19,
+              "required": "9",
+              "known": "A"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 13,
+              "required": "0",
+              "known": "I"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 9,
+              "required": "1",
+              "known": "C"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 3,
+              "required": "2",
+              "known": "P"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 15,
+              "required": "3",
+              "known": "B"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 10,
+              "required": "4",
+              "known": "2"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 17,
+              "required": "5",
+              "known": "G"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 11,
+              "required": "6",
+              "known": "H"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 5,
+              "required": "7",
+              "known": "4"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 7,
+              "required": "8",
+              "known": "V"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 19,
+              "required": "9",
+              "known": "A"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 13,
+              "required": "0",
+              "known": "I"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 9,
+              "required": "1",
+              "known": "C"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 3,
+              "required": "2",
+              "known": "P"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 15,
+              "required": "3",
+              "known": "B"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 35,
+              "required": "4",
+              "known": "Z"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 17,
+              "required": "5",
+              "known": "G"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 11,
+              "required": "6",
+              "known": "H"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 5,
+              "required": "7",
+              "known": "4"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 7,
+              "required": "8",
+              "known": "V"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 19,
+              "required": "9",
+              "known": "A"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 13,
+              "required": "0",
+              "known": "I"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 9,
+              "required": "1",
+              "known": "C"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 3,
+              "required": "2",
+              "known": "P"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 15,
+              "required": "3",
+              "known": "B"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 35,
+              "required": "4",
+              "known": "Z"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 17,
+              "required": "5",
+              "known": "G"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 11,
+              "required": "6",
+              "known": "H"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 5,
+              "required": "7",
+              "known": "4"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 7,
+              "required": "8",
+              "known": "V"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 19,
+              "required": "9",
+              "known": "A"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 25,
+              "required": "0",
+              "known": "J"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 21,
+              "required": "1",
+              "known": "D"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 15,
+              "required": "2",
+              "known": "B"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 27,
+              "required": "3",
+              "known": "K"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 29,
+              "required": "5",
+              "known": "M"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 23,
+              "required": "6",
+              "known": "F"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 17,
+              "required": "7",
+              "known": "G"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 19,
+              "required": "8",
+              "known": "A"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 31,
+              "required": "9",
+              "known": "Q"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": false,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 25,
+              "required": "0",
+              "known": "J"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 21,
+              "required": "1",
+              "known": "D"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 15,
+              "required": "2",
+              "known": "B"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 27,
+              "required": "3",
+              "known": "K"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 29,
+              "required": "5",
+              "known": "M"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 23,
+              "required": "6",
+              "known": "F"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 17,
+              "required": "7",
+              "known": "G"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 19,
+              "required": "8",
+              "known": "A"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 31,
+              "required": "9",
+              "known": "Q"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 25,
+              "required": "0",
+              "known": "J"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 21,
+              "required": "1",
+              "known": "D"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 15,
+              "required": "2",
+              "known": "B"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 27,
+              "required": "3",
+              "known": "K"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 10,
+              "required": "4",
+              "known": "2"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 29,
+              "required": "5",
+              "known": "M"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 23,
+              "required": "6",
+              "known": "F"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 17,
+              "required": "7",
+              "known": "G"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 19,
+              "required": "8",
+              "known": "A"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 31,
+              "required": "9",
+              "known": "Q"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 25,
+              "required": "0",
+              "known": "J"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 21,
+              "required": "1",
+              "known": "D"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 15,
+              "required": "2",
+              "known": "B"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 27,
+              "required": "3",
+              "known": "K"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 10,
+              "required": "4",
+              "known": "2"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 29,
+              "required": "5",
+              "known": "M"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 23,
+              "required": "6",
+              "known": "F"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 17,
+              "required": "7",
+              "known": "G"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 19,
+              "required": "8",
+              "known": "A"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 31,
+              "required": "9",
+              "known": "Q"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 25,
+              "required": "0",
+              "known": "J"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 21,
+              "required": "1",
+              "known": "D"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 15,
+              "required": "2",
+              "known": "B"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 27,
+              "required": "3",
+              "known": "K"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "4",
+              "known": "P"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 29,
+              "required": "5",
+              "known": "M"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 23,
+              "required": "6",
+              "known": "F"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 17,
+              "required": "7",
+              "known": "G"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 19,
+              "required": "8",
+              "known": "A"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 31,
+              "required": "9",
+              "known": "Q"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": false,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 25,
+              "required": "0",
+              "known": "J"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 21,
+              "required": "1",
+              "known": "D"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 15,
+              "required": "2",
+              "known": "B"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 27,
+              "required": "3",
+              "known": "K"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 3,
+              "required": "4",
+              "known": "P"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 29,
+              "required": "5",
+              "known": "M"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 23,
+              "required": "6",
+              "known": "F"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 17,
+              "required": "7",
+              "known": "G"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 19,
+              "required": "8",
+              "known": "A"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 31,
+              "required": "9",
+              "known": "Q"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 13,
+              "required": "0",
+              "known": "I"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 9,
+              "required": "1",
+              "known": "C"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 3,
+              "required": "2",
+              "known": "P"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 15,
+              "required": "3",
+              "known": "B"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 33,
+              "required": "4",
+              "known": "X"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 17,
+              "required": "5",
+              "known": "G"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 11,
+              "required": "6",
+              "known": "H"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 5,
+              "required": "7",
+              "known": "4"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 7,
+              "required": "8",
+              "known": "V"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 19,
+              "required": "9",
+              "known": "A"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": false
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 13,
+              "required": "0",
+              "known": "I"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 9,
+              "required": "1",
+              "known": "C"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 3,
+              "required": "2",
+              "known": "P"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 15,
+              "required": "3",
+              "known": "B"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 33,
+              "required": "4",
+              "known": "X"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 17,
+              "required": "5",
+              "known": "G"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 11,
+              "required": "6",
+              "known": "H"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 5,
+              "required": "7",
+              "known": "4"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 7,
+              "required": "8",
+              "known": "V"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 19,
+              "required": "9",
+              "known": "A"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": false,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 13,
+              "required": "0",
+              "known": "I"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 9,
+              "required": "1",
+              "known": "C"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 3,
+              "required": "2",
+              "known": "P"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 15,
+              "required": "3",
+              "known": "B"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 10,
+              "required": "4",
+              "known": "2"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 17,
+              "required": "5",
+              "known": "G"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 11,
+              "required": "6",
+              "known": "H"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 5,
+              "required": "7",
+              "known": "4"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 7,
+              "required": "8",
+              "known": "V"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 19,
+              "required": "9",
+              "known": "A"
+            }
+          ]
+        },
+        {
+          "route": {
+            "axis": "columns",
+            "outer_reverse": true,
+            "inner_reverse": true,
+            "snake": true
+          },
+          "cyclic": true,
+          "compatible": false,
+          "conflicts": [
+            {
+              "letter": "A",
+              "cell": 19,
+              "following_cell": 13,
+              "required": "0",
+              "known": "I"
+            },
+            {
+              "letter": "B",
+              "cell": 15,
+              "following_cell": 9,
+              "required": "1",
+              "known": "C"
+            },
+            {
+              "letter": "C",
+              "cell": 9,
+              "following_cell": 3,
+              "required": "2",
+              "known": "P"
+            },
+            {
+              "letter": "D",
+              "cell": 21,
+              "following_cell": 15,
+              "required": "3",
+              "known": "B"
+            },
+            {
+              "letter": "E",
+              "cell": 4,
+              "following_cell": 10,
+              "required": "4",
+              "known": "2"
+            },
+            {
+              "letter": "F",
+              "cell": 23,
+              "following_cell": 17,
+              "required": "5",
+              "known": "G"
+            },
+            {
+              "letter": "G",
+              "cell": 17,
+              "following_cell": 11,
+              "required": "6",
+              "known": "H"
+            },
+            {
+              "letter": "H",
+              "cell": 11,
+              "following_cell": 5,
+              "required": "7",
+              "known": "4"
+            },
+            {
+              "letter": "I",
+              "cell": 13,
+              "following_cell": 7,
+              "required": "8",
+              "known": "V"
+            },
+            {
+              "letter": "J",
+              "cell": 25,
+              "following_cell": 19,
+              "required": "9",
+              "known": "A"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source_keys_sha256": "de2bf77437c7f8c7081eaa20b1088fd1159c0a02ad8ca39fd35f52890fbeff47",
+  "historical_digits_assigned": 0,
+  "scope": "Standard coordinate labels; row/column major, either axis direction, optional serpentine reversal, with or without cyclic wrap. This does not cover arbitrary label permutations, other digit mappings, other generators, or extra source errors.",
+  "positive_control_scope": "Uses the reported p217 full-square convention only to check implementation; it does not re-establish disputed handwriting assignments."
+}

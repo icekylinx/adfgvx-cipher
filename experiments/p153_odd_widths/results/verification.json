@@ -1,0 +1,598 @@
+{
+  "negative_control": {
+    "kind": "summary",
+    "width": 19,
+    "complete": true,
+    "stop_reason": "completed",
+    "segmentations": 19,
+    "locally_feasible_segmentations": 0,
+    "search_nodes": 0,
+    "solutions": 0,
+    "minimum_second_crib_known_coordinate_mismatches": null,
+    "cpu_seconds": 9e-06,
+    "mismatch_histogram": {}
+  },
+  "generated_utc": "2026-11-02T11:09:55.978130+00:00",
+  "source_sha256": "7913d3e715df908fcbbb7e993e9809c0fe8e89b5eed5da5810515c87d95adf17",
+  "input_sha256": "91d0fb2698efe4095411a42b6672ab081f045453f85edb4e8bc7a3de2eef4a5c",
+  "historical": [
+    {
+      "kind": "summary",
+      "width": 15,
+      "complete": true,
+      "stop_reason": "completed",
+      "segmentations": 455,
+      "locally_feasible_segmentations": 0,
+      "search_nodes": 0,
+      "solutions": 0,
+      "minimum_second_crib_known_coordinate_mismatches": null,
+      "cpu_seconds": 0.000197,
+      "mismatch_histogram": {}
+    },
+    {
+      "kind": "summary",
+      "width": 17,
+      "complete": true,
+      "stop_reason": "completed",
+      "segmentations": 2380,
+      "locally_feasible_segmentations": 612,
+      "search_nodes": 1224,
+      "solutions": 0,
+      "minimum_second_crib_known_coordinate_mismatches": null,
+      "cpu_seconds": 0.006575,
+      "mismatch_histogram": {}
+    },
+    {
+      "kind": "summary",
+      "width": 18,
+      "complete": true,
+      "stop_reason": "completed",
+      "segmentations": 18564,
+      "locally_feasible_segmentations": 2924,
+      "search_nodes": 5888,
+      "solutions": 2,
+      "minimum_second_crib_known_coordinate_mismatches": 2,
+      "cpu_seconds": 0.020185,
+      "mismatch_histogram": {
+        "2": 2
+      }
+    },
+    {
+      "kind": "summary",
+      "width": 19,
+      "complete": true,
+      "stop_reason": "completed",
+      "segmentations": 19,
+      "locally_feasible_segmentations": 18,
+      "search_nodes": 36,
+      "solutions": 0,
+      "minimum_second_crib_known_coordinate_mismatches": null,
+      "cpu_seconds": 0.000211,
+      "mismatch_histogram": {}
+    },
+    {
+      "kind": "summary",
+      "width": 21,
+      "complete": true,
+      "stop_reason": "completed",
+      "segmentations": 54264,
+      "locally_feasible_segmentations": 30040,
+      "search_nodes": 63378,
+      "solutions": 0,
+      "minimum_second_crib_known_coordinate_mismatches": null,
+      "cpu_seconds": 0.292569,
+      "mismatch_histogram": {}
+    },
+    {
+      "kind": "summary",
+      "width": 23,
+      "complete": true,
+      "stop_reason": "completed",
+      "segmentations": 100947,
+      "locally_feasible_segmentations": 69876,
+      "search_nodes": 171033,
+      "solutions": 0,
+      "minimum_second_crib_known_coordinate_mismatches": null,
+      "cpu_seconds": 1.241002,
+      "mismatch_histogram": {}
+    },
+    {
+      "kind": "summary",
+      "width": 25,
+      "complete": true,
+      "stop_reason": "completed",
+      "segmentations": 480700,
+      "locally_feasible_segmentations": 122305,
+      "search_nodes": 244799,
+      "solutions": 0,
+      "minimum_second_crib_known_coordinate_mismatches": null,
+      "cpu_seconds": 2.00313,
+      "mismatch_histogram": {}
+    }
+  ],
+  "controls": [
+    {
+      "width": 15,
+      "seed": 2026110315,
+      "truth_ranks": [
+        15,
+        13,
+        3,
+        11,
+        6,
+        7,
+        12,
+        8,
+        14,
+        10,
+        5,
+        4,
+        9,
+        1,
+        2
+      ],
+      "truth_square": "65AP2E9ZLMCVHDBJ18I0TNOYS7F3QGR4KXWU",
+      "truth_plaintexts": [
+        "ANORDNUNGENVOM7TEN11TENNR232BEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+        "MUNITIONSBESTANDDERNACHHUTARTILLERIEMELDENX4XGXR123BXA"
+      ],
+      "source_erasures": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "deliberate_known_coordinate_errors": [
+        0,
+        1
+      ],
+      "true_rank_present": true,
+      "summary": {
+        "kind": "summary",
+        "width": 15,
+        "complete": true,
+        "stop_reason": "completed",
+        "segmentations": 455,
+        "locally_feasible_segmentations": 70,
+        "search_nodes": 155,
+        "solutions": 1,
+        "minimum_second_crib_known_coordinate_mismatches": 2,
+        "cpu_seconds": 0.000607,
+        "mismatch_histogram": {
+          "2": 1
+        }
+      },
+      "truth_used_only_for_generation_and_verification": true
+    },
+    {
+      "width": 17,
+      "seed": 2026110317,
+      "truth_ranks": [
+        10,
+        7,
+        8,
+        3,
+        11,
+        17,
+        13,
+        12,
+        6,
+        9,
+        15,
+        5,
+        2,
+        4,
+        1,
+        14,
+        16
+      ],
+      "truth_square": "ZHTCQUA20B57OV4NIWSFJXK9P6LR3GYDME81",
+      "truth_plaintexts": [
+        "ANORDNUNGENVOM7TEN11TENNR232BEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+        "MUNITIONSBESTANDDERNACHHUTARTILLERIEMELDENX4XGXR123BXA"
+      ],
+      "source_erasures": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "deliberate_known_coordinate_errors": [
+        0,
+        1
+      ],
+      "true_rank_present": true,
+      "summary": {
+        "kind": "summary",
+        "width": 17,
+        "complete": true,
+        "stop_reason": "completed",
+        "segmentations": 2380,
+        "locally_feasible_segmentations": 384,
+        "search_nodes": 785,
+        "solutions": 1,
+        "minimum_second_crib_known_coordinate_mismatches": 2,
+        "cpu_seconds": 0.005378,
+        "mismatch_histogram": {
+          "2": 1
+        }
+      },
+      "truth_used_only_for_generation_and_verification": true
+    },
+    {
+      "width": 18,
+      "seed": 2026110318,
+      "truth_ranks": [
+        9,
+        15,
+        12,
+        3,
+        8,
+        16,
+        18,
+        11,
+        14,
+        2,
+        5,
+        17,
+        7,
+        6,
+        13,
+        1,
+        10,
+        4
+      ],
+      "truth_square": "V3XK4D0UHTWIPJ6EFL97AZNB2OQGRSY1CM58",
+      "truth_plaintexts": [
+        "ANORDNUNGENVOM7TEN11TENNR232BEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+        "MUNITIONSBESTANDDERNACHHUTARTILLERIEMELDENX4XGXR123BXA"
+      ],
+      "source_erasures": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "deliberate_known_coordinate_errors": [
+        0,
+        1
+      ],
+      "true_rank_present": true,
+      "summary": {
+        "kind": "summary",
+        "width": 18,
+        "complete": true,
+        "stop_reason": "completed",
+        "segmentations": 18564,
+        "locally_feasible_segmentations": 3030,
+        "search_nodes": 6117,
+        "solutions": 2,
+        "minimum_second_crib_known_coordinate_mismatches": 2,
+        "cpu_seconds": 0.02084,
+        "mismatch_histogram": {
+          "2": 2
+        }
+      },
+      "truth_used_only_for_generation_and_verification": true
+    },
+    {
+      "width": 19,
+      "seed": 2026110319,
+      "truth_ranks": [
+        2,
+        4,
+        14,
+        19,
+        9,
+        18,
+        13,
+        8,
+        7,
+        16,
+        3,
+        10,
+        5,
+        6,
+        12,
+        15,
+        1,
+        11,
+        17
+      ],
+      "truth_square": "1BD9CUOAGZ86VFQS2N5PI4E0J7R3XLWHKYMT",
+      "truth_plaintexts": [
+        "ANORDNUNGENVOM7TEN11TENNR232BEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+        "MUNITIONSBESTANDDERNACHHUTARTILLERIEMELDENX4XGXR123BXA"
+      ],
+      "source_erasures": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "deliberate_known_coordinate_errors": [
+        0,
+        1
+      ],
+      "true_rank_present": true,
+      "summary": {
+        "kind": "summary",
+        "width": 19,
+        "complete": true,
+        "stop_reason": "completed",
+        "segmentations": 19,
+        "locally_feasible_segmentations": 19,
+        "search_nodes": 56,
+        "solutions": 1,
+        "minimum_second_crib_known_coordinate_mismatches": 2,
+        "cpu_seconds": 0.000332,
+        "mismatch_histogram": {
+          "2": 1
+        }
+      },
+      "truth_used_only_for_generation_and_verification": true
+    },
+    {
+      "width": 21,
+      "seed": 2026110321,
+      "truth_ranks": [
+        1,
+        19,
+        2,
+        16,
+        7,
+        3,
+        10,
+        6,
+        13,
+        15,
+        9,
+        21,
+        8,
+        11,
+        17,
+        5,
+        18,
+        4,
+        12,
+        20,
+        14
+      ],
+      "truth_square": "NPH6G7F3SBQXZ2O98140IYVAWEDLMRCJ5KTU",
+      "truth_plaintexts": [
+        "ANORDNUNGENVOM7TEN11TENNR232BEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+        "MUNITIONSBESTANDDERNACHHUTARTILLERIEMELDENX4XGXR123BXA"
+      ],
+      "source_erasures": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "deliberate_known_coordinate_errors": [
+        0,
+        1
+      ],
+      "true_rank_present": true,
+      "summary": {
+        "kind": "summary",
+        "width": 21,
+        "complete": true,
+        "stop_reason": "completed",
+        "segmentations": 54264,
+        "locally_feasible_segmentations": 16709,
+        "search_nodes": 33560,
+        "solutions": 1,
+        "minimum_second_crib_known_coordinate_mismatches": 2,
+        "cpu_seconds": 0.161337,
+        "mismatch_histogram": {
+          "2": 1
+        }
+      },
+      "truth_used_only_for_generation_and_verification": true
+    },
+    {
+      "width": 23,
+      "seed": 2026110323,
+      "truth_ranks": [
+        16,
+        22,
+        5,
+        20,
+        6,
+        1,
+        18,
+        4,
+        2,
+        14,
+        21,
+        9,
+        13,
+        23,
+        15,
+        11,
+        3,
+        17,
+        19,
+        7,
+        12,
+        8,
+        10
+      ],
+      "truth_square": "Q1FC356P0IDT7EWK2ZNAGXJSHR4L9VBM8OYU",
+      "truth_plaintexts": [
+        "ANORDNUNGENVOM7TEN11TENNR232BEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+        "MUNITIONSBESTANDDERNACHHUTARTILLERIEMELDENX4XGXR123BXA"
+      ],
+      "source_erasures": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "deliberate_known_coordinate_errors": [
+        0,
+        1
+      ],
+      "true_rank_present": true,
+      "summary": {
+        "kind": "summary",
+        "width": 23,
+        "complete": true,
+        "stop_reason": "completed",
+        "segmentations": 100947,
+        "locally_feasible_segmentations": 47948,
+        "search_nodes": 107149,
+        "solutions": 1,
+        "minimum_second_crib_known_coordinate_mismatches": 2,
+        "cpu_seconds": 0.956965,
+        "mismatch_histogram": {
+          "2": 1
+        }
+      },
+      "truth_used_only_for_generation_and_verification": true
+    },
+    {
+      "width": 25,
+      "seed": 2026110325,
+      "truth_ranks": [
+        4,
+        21,
+        7,
+        9,
+        23,
+        20,
+        1,
+        17,
+        14,
+        19,
+        15,
+        5,
+        18,
+        6,
+        2,
+        16,
+        12,
+        22,
+        8,
+        3,
+        24,
+        11,
+        10,
+        25,
+        13
+      ],
+      "truth_square": "PLDYMG5FBKHTUZ4R9EJW38XCVI27SNA1Q0O6",
+      "truth_plaintexts": [
+        "ANORDNUNGENVOM7TEN11TENNR232BEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+        "MUNITIONSBESTANDDERNACHHUTARTILLERIEMELDENX4XGXR123BXA"
+      ],
+      "source_erasures": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "deliberate_known_coordinate_errors": [
+        0,
+        1
+      ],
+      "true_rank_present": true,
+      "summary": {
+        "kind": "summary",
+        "width": 25,
+        "complete": true,
+        "stop_reason": "completed",
+        "segmentations": 480700,
+        "locally_feasible_segmentations": 436427,
+        "search_nodes": 1220020,
+        "solutions": 1,
+        "minimum_second_crib_known_coordinate_mismatches": 2,
+        "cpu_seconds": 7.112007,
+        "mismatch_histogram": {
+          "2": 1
+        }
+      },
+      "truth_used_only_for_generation_and_verification": true
+    }
+  ],
+  "all_returned_keys_independently_reencrypted": true,
+  "scope": "Post-discovery exact consistency under the supplied first crib, odd widths 15 through 25 plus an even width-18 overlap, standard per-part resetting and injective square. No unrestricted historical uniqueness or digit recovery claim."
+}

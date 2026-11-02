@@ -6,7 +6,7 @@ A unified edition of the **22 German radio cryptograms** in Klaus Schmeh and Geo
 
 ## Results
 
-- **p153a / p153b: new substantial partial decipherment.** A shared 18-column key recovers 60 of 66 ordinary-letter positions in part 5 and 33 of 54 raw positions in part 6. A coherent ammunition-report reconstruction requires twelve erasure fills and two explicit coordinate emendations; dates, numbers and trailing text remain unresolved.
+- **p153a / p153b: new substantial partial decipherment.** A shared 18-column key recovers 60 of 66 plaintext positions in part 5 and 33 of 54 raw positions in part 6. A coherent ammunition-report reconstruction requires twelve erasure fills and two explicit coordinate emendations; dates, numbers and trailing text remain unresolved.
 
 - **p152:** the damaged challenge fragment matches the fuller p136 transmission. The parallel recovers the body and continuation; every supplied or changed coordinate is recorded.
 - **p158:** the challenge combines portions of two separate messages. An exhaustive alignment identifies the split; repaired component copies decrypt and re-encrypt exactly.
@@ -60,7 +60,7 @@ The [p155 Kress-route shipping message](cases/context/p155.md) adds two source-c
 
 ## Review coverage
 
-The [review ledger](data/review_ledger.json) currently records **66 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
+The [review ledger](data/review_ledger.json) currently records **68 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
 
 A September 2026 mass-solution claim is retained with its [reproducibility assessment](data/reviews/unsupported_claim_checks.json) and **Jozef Krajcovic's earlier critique**. Its published constants and selected substrings do not provide a reproducible full reading; no target is marked solved on that basis.
 
@@ -77,7 +77,7 @@ The verifier checks independent ADFGVX arithmetic, eight full source roundtrips,
 
 ## Search methods
 
-The [experiment index](experiments/README.md) records completed search bounds, positive controls, scoring failures, and reproducible code. The p153 work enumerates column-length segmentations at widths 14, 16 and 18, then uses bounded pairing, order and square searches. The width-18 refinement produced the new partial reading. A separate exact post-discovery crib check, independently implemented twice, establishes its narrow key-equivalence and emendation constraints.
+The [experiment index](experiments/README.md) records completed search bounds, positive controls, scoring failures, and reproducible code. The p153 work enumerates column-length segmentations at widths 14, 16 and 18, then uses bounded pairing, order and square searches. The width-18 refinement produced the new partial reading. A separate exact post-discovery crib check, independently implemented twice, establishes its narrow key-equivalence and emendation constraints. Complete checks over every integer width from 14 through 26 leave only width 18 for the sixty-letter crib.
 
 ## Contents
 

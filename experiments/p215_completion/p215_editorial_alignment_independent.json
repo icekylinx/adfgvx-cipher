@@ -1,0 +1,33 @@
+{
+  "schema": "p215-editorial-alignment-independent-review-v1",
+  "passed": true,
+  "review_date": "2026-11-02",
+  "independent_method": "Banded suffix dynamic program over source index and insertion count; independent explicit-column ADFGVX encryption; no repository code imported.",
+  "root_records_compared_exactly": 131,
+  "exhaustive_small_control_cases": 2303,
+  "source_slots": 248,
+  "source_known_coordinates": 237,
+  "source_sha256": "2d592c8717f19a4cff2f10740a2fe0a72144f9500d30ab37383d84f743297615",
+  "editorial_plaintext_sha256": "e409fd4c7f2d9ebed0d935a2a5b9cf076be740c15172fb09ff4acd63323f75df",
+  "root_alignment_artifact_sha256": "09dd370ab7808dcc072f170468a94b9b24913bee7b32ea63263e2afcfce9ef16",
+  "full_editorial_result": {
+    "removed_plaintext_index": null,
+    "plaintext_length": 130,
+    "required_insertions": 12,
+    "minimum_known_coordinate_substitutions": 166,
+    "optimal_source_preserving_injections": 1644084
+  },
+  "best_one_letter_deletions": [
+    {
+      "removed_plaintext_index": 8,
+      "plaintext_length": 129,
+      "required_insertions": 10,
+      "minimum_known_coordinate_substitutions": 27,
+      "optimal_source_preserving_injections": 6355
+    }
+  ],
+  "recurrence_review": "The two choices either align the next original slot to the next target coordinate, charging one for a known-symbol contradiction, or consume one extra target coordinate. They partition the strictly increasing injections, so tied counts add without double counting. A source erasure contributes zero cost but remains a distinct preserved source slot.",
+  "interpretation": "Under the stated fixed key and a model retaining every source slot in order, the full 130-letter editorial text requires 12 inserted coordinates plus at least 166 known-coordinate substitutions. Among all 130 one-letter deletions, deleting V at zero-based plaintext index 8 is the sole minimum: 10 insertions and at least 27 substitutions, attained by 6355 increasing source-to-target injections.",
+  "scope_limit": "This rules out the tested editorial wording as a missing-coordinate-only explanation under the fixed key. It does not rule out a different key, received-coordinate deletion or rearrangement, other plaintext edits, or more extensive historical corruption. The injection counts describe positional alignments to a fixed target ciphertext, not different recovered plaintexts, independent historical witnesses, or probabilities.",
+  "new_historical_letters_accepted": 0
+}

@@ -1611,6 +1611,47 @@
         "experiments/p153_crib/independent/algorithm_review.json"
       ],
       "conditional_uniqueness": "Two independent exact enumerators find only the recovered key and its pair-swap/square-transpose equivalent at width18 when conditioned on the 60-letter first-part crib. Each partial key still admits 17! square completions; this is not a claim of global historical uniqueness."
+    },
+    {
+      "id": "2017_comment_author_identity_scope",
+      "scope": [
+        "prior_work_attribution"
+      ],
+      "claim_reviewed": "Full-name expansions of the first-name-only 2017 comment authors are independently established.",
+      "attribution": {
+        "reviewers": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02"
+      },
+      "result": "The primary thread displays Armin, Norbert, Thomas and Max Baertl. The first three full-name expansions appear in later indexes but no exact identity link was established in this review. The edition therefore uses their primary displayed names; Max Baertl remains unchanged. This is not evidence that the expanded identities are wrong.",
+      "evidence": [
+        "data/reviews/attribution_review_2017.json"
+      ],
+      "status": "attribution_qualification"
+    },
+    {
+      "id": "p215_arbitrary_insertion_geometry_bound",
+      "scope": [
+        "p215"
+      ],
+      "claim_reviewed": "Changing only the locations of inserted coordinates could reconcile Baertl's earlier editorial completion with the source.",
+      "attribution": {
+        "prior_completion": "Max Baertl, 2017 comment 39",
+        "exact_alignment_audit": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02"
+      },
+      "result": "With the attested key and all source positions preserved, the full 130-letter completion requires at least 166 known-coordinate substitutions plus 12 insertions. Across all 130 single-plaintext-letter deletions and arbitrary placements of 10 inserted coordinates, the minimum remains 27 substitutions; only deletion of original plaintext index 8 attains it, with 6,355 optimal injections.",
+      "limits": "This bound does not include received-coordinate deletions or rearrangements. No new plaintext is accepted.",
+      "evidence": [
+        "experiments/p215_completion/editorial_alignment.json",
+        "experiments/p215_completion/check_editorial_alignment.py"
+      ],
+      "status": "verified_exact_conditional_lower_bound"
     }
   ]
 }

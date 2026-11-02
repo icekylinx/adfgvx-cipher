@@ -1,0 +1,75 @@
+{
+  "schema": "adfgvx-attribution-review-v1",
+  "review_date": "2026-11-02",
+  "scope": "Public display names in the original 2017 ADFGVX discussion and later expansions of those names.",
+  "primary_thread": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+  "method": "Inspected the original HTML author headers and all 56 numbered comments. No profile-derived or private identifier was used to infer an identity.",
+  "primary_display_names": [
+    {
+      "display_name": "Armin",
+      "representative_comment": 13,
+      "comment_date": "2017-03-01",
+      "anchor": "comment-852373",
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852373",
+      "later_expansion": "Armin Krauß",
+      "recommended_credit": "Armin (2017 comment author)"
+    },
+    {
+      "display_name": "Norbert",
+      "representative_comment": 15,
+      "comment_date": "2017-03-01",
+      "anchor": "comment-852622",
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852622",
+      "later_expansion": "Norbert Biermann",
+      "recommended_credit": "Norbert (2017 comment author)"
+    },
+    {
+      "display_name": "Thomas",
+      "representative_comment": 27,
+      "comment_date": "2017-03-02",
+      "anchor": "comment-853089",
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853089",
+      "later_expansion": "Thomas Bosbach",
+      "recommended_credit": "Thomas (2017 comment author)"
+    },
+    {
+      "display_name": "Max Baertl",
+      "representative_comment": 39,
+      "comment_date": "2017-03-11",
+      "anchor": "comment-858010",
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-858010",
+      "additional_direct_comments": [
+        16,
+        17
+      ],
+      "recommended_credit": "Max Baertl"
+    }
+  ],
+  "expansion_sources": [
+    {
+      "url": "https://github.com/0wwafa/adfgvx-1918#credits",
+      "locator": "README, Credits",
+      "finding": "Lists Armin Krauß, Norbert Biermann and Thomas Bosbach as the 2017 manual solvers. The credit sentence provides no exact source establishing the full-name-to-comment mapping."
+    },
+    {
+      "url": "https://dbourdeau.github.io/cyphersolver/adfgvx.html",
+      "locator": "Source byline and historical discussion",
+      "finding": "Expands Norbert to Norbert Biermann while retaining Armin and Thomas. No exact primary identity linkage is supplied in the inspected discussion."
+    },
+    {
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2021/07/29/die-friedman-ring-challenge-von-armin-krauss/",
+      "author": "Klaus Schmeh",
+      "date": "2021-07-29",
+      "finding": "Names Armin Krauß as a challenge solver and Thomas Bosbach as a contributor to a different puzzle."
+    },
+    {
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2021/05/05/geloest-die-verschluesselten-briefe-von-karl-i-an-seinen-sohn/",
+      "author": "Klaus Schmeh",
+      "date": "2021-05-05",
+      "finding": "Names Norbert Biermann and Thomas Bosbach as participants in the Charles I letter decipherment and describes their blog comments on that separate challenge."
+    }
+  ],
+  "verdict": "Use the exact primary display names for the 2017 ADFGVX contributions. Max Baertl is already the displayed name and should remain unchanged.",
+  "limitation": "This bounded review does not show that the expanded identities are wrong. The later articles establish public cryptanalysis activity under those full names, but the inspected material does not explicitly connect each full name to the specific 2017 ADFGVX comments. A display-name credit preserves demonstrated attribution without deciding an unverified identity mapping.",
+  "repository_review": "Read-only inspection. Individual case credits already use Armin, Norbert and Thomas; AUTHORS.md was the principal location requiring the qualification."
+}

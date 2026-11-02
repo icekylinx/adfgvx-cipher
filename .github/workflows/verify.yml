@@ -42,3 +42,14 @@ jobs:
           python experiments/p153_crib/verify_and_control.py --engine /tmp/p153-enumerate
           python experiments/p153_crib/independent/enumerate_independent.py --input experiments/p153_crib/historical_input.txt --output /tmp/p153-independent.json
           python experiments/p153_corpus/run_screen.py --verify
+      - name: Check even-width exclusions and arbitrary p215 insertions
+        if: matrix.python == '3.13'
+        run: |
+          python experiments/p153_even_widths/check_exclusions.py --output /tmp/p153-even-exclusions.json
+          python experiments/p215_completion/check_editorial_alignment.py
+          python experiments/p215_completion/p215_editorial_alignment_independent.py --prior-readings data/prior_readings.json --expected experiments/p215_completion/editorial_alignment.json
+      - name: Verify row-crossing odd-width geometry
+        if: matrix.python == '3.13'
+        run: |
+          cc -O3 -std=c11 -Wall -Wextra -Werror experiments/p153_odd_widths/enumerate_components.c -o /tmp/p153-components
+          python experiments/p153_odd_widths/run_and_verify.py --engine /tmp/p153-components --output /tmp/p153-components-results

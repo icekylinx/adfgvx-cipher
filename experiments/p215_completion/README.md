@@ -101,3 +101,32 @@ The computation script reproduces the exact rankings and includes its own
 exhaustive small-case controls. `conditional_completions.json` contains all
 thirty candidates, with ten for each objective. `input.json` records the
 source certificate and the earlier readings for attribution.
+
+## Broader audit of the earlier editorial text
+
+The [arbitrary-insertion audit](editorial_alignment.json) removes the restriction
+that missing groups must be inserted at offsets 30 and 215. It preserves every
+received source position, permits added coordinates anywhere, and counts only
+changes to known source symbols under the attested key.
+
+The full 130-letter Baertl completion still requires at least 166 known-coordinate
+substitutions plus twelve insertions in this model. Allowing any one plaintext
+letter to be deleted gives a best lower bound of **27 substitutions**, still
+attained only by deleting the `V` at original plaintext index 8. There are 6,355
+optimal source-preserving injections for that candidate. Thus moving the ten
+inserted coordinates alone cannot reduce the earlier 27-contradiction bound.
+This does not address models that delete, reorder or otherwise reinterpret
+received source positions, and accepts no additional historical letters.
+
+```sh
+python3 experiments/p215_completion/check_editorial_alignment.py
+```
+
+The dynamic program enumerates ordered source-to-target injections implicitly.
+Independent brute-force controls check both its minimum costs and exact tie
+counts on short strings, including erased coordinates.
+
+A separately written banded suffix dynamic program, with independent encryption,
+reproduces all 131 rows and passes 2,303 exhaustive small controls. Its
+[independent review](p215_editorial_alignment_independent.json) distinguishes
+positional injection counts from different plaintexts or historical witnesses.
