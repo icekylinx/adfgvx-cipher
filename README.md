@@ -6,9 +6,11 @@ Readings, source criticism, and reproducible cryptanalysis of German radio traff
 
 **icekylinx and GPT-6 Astra Pro** · [Read the messages](cases/README.md) · [Research status](docs/research-status.md) · [Methods](docs/methods.md) · [Sources](sources/README.md) · [Citation](CITATION.cff)
 
-A unified edition of the **22 German radio cryptograms** in Klaus Schmeh and George Lasry's challenge: original source transcription, earlier decipherments, corrections, new source relationships, and reproducible verification.
+A research edition of the **German radio cryptograms in Childs's 1918 collection**: the 22 Lasry–Schmeh challenge entries and a growing catalogue of other messages, with readable plaintexts, original source transcriptions, earlier credits and reproducible decryption evidence.
 
 ## Selected results
+
+- **Wider-corpus readings:** [p85 B](cases/other/p85_B.md) explains Hungarian telephone censorship, [p96 B](cases/other/p96_B.md) grants family entry permission, and [p111 B](cases/other/p111_B.md) orders radio use for important messages. Each has an inspected source image, a direct decode and an exact map of any editorial repairs.
 
 - **[p153a](cases/p153a.md) / [p153b](cases/p153b.md): new substantial partial decipherment.** A shared 18-column key recovers 60 of 66 plaintext positions in part 5 and 33 of 54 raw positions in part 6. The ammunition-report reconstruction and separator interpretation yield a 50/54-position conditional template. Every fill, emendation and remaining date/number dependency is explicit.
 - **[p146](cases/p146.md):** a literal duplicate-group repair preserves all 239 retained coordinates and fixes 117/122 plaintext positions before filling the missing group. The most likely text announces a new radio call sign.
@@ -20,64 +22,87 @@ A unified edition of the **22 German radio cryptograms** in Klaus Schmeh and Geo
 - **[p189](cases/p189.md):** a clearer p185 near-parallel supports a conditional partial reading. All ten optimal source-preserving alignments are retained.
 - **Earlier results remain part of the edition.** The 2017 readings and September 2026 p176b/p217 publications retain their original authorship. Raw decipherment, conjectural repair, and historical interpretation are distinguished.
 
-Three entries remain wholly open: **p73, p170, p198**. A source-linked recovery or contextual reading is not counted as an independently solved original ciphertext.
+Among the 22 challenge entries, three remain wholly open: **p73, p170, p198**. A source-linked recovery or contextual reading is not counted as an independently solved original ciphertext.
 
-All current source reviews, arithmetic audits, and new editorial work are by **icekylinx and GPT-6 Astra Pro**. The final column credits the earlier public reading or the new recovery named in that row. Each case gives the most likely readable text, its meaning, and unresolved details.
+All current source reviews, arithmetic audits, and new editorial work are by **icekylinx and GPT-6 Astra Pro**. The tables credit the earlier public reading or the present recovery/review named in that row. Each case gives the most likely readable text, its meaning, and unresolved details.
 
+<!-- READING-CATALOG:START -->
 ## The 22 challenge entries
 
-| Entry | Current result | Reading or recovery credit |
-|---|---|---|
-| [p73](cases/p73.md) | Open | — |
-| [p100](cases/p100.md) | Prior body reading; source audit | Armin (2017) |
-| [p105](cases/p105.md) | Prior body reading; source audit | Norbert (2017) |
-| [p109](cases/p109.md) | Prior body; new source parallel | Norbert (2017) |
-| [p132](cases/p132.md) | Prior body reading; source audit | Thomas (fragment) and Norbert (body), 2017 |
-| [p146](cases/p146.md) | Prior body; duplicate-group repair | Norbert (2017) |
-| [p152](cases/p152.md) | Source-linked body | icekylinx and GPT-6 Astra Pro (2026) |
-| [p153a](cases/p153a.md) | New partial: 60/66 ordinary-letter positions | icekylinx and GPT-6 Astra Pro (2026) |
-| [p153b](cases/p153b.md) | New raw partial; conditional body and footer | icekylinx and GPT-6 Astra Pro (2026) |
-| [p158](cases/p158.md) | Composite sources identified | icekylinx and GPT-6 Astra Pro (2026) |
-| [p164a](cases/p164a.md) | Prior partial; constraint audit | Norbert (2017) |
-| [p164b](cases/p164b.md) | Prior partial; constraint audit | Norbert (2017) |
-| [p170](cases/p170.md) | Open | — |
-| [p171](cases/p171.md) | Prior body reading; source audit | Norbert (2017) |
-| [p176a](cases/p176a.md) | Prior body reading; source audit | Norbert (2017) |
-| [p176b](cases/p176b.md) | Prior contextual reading; constraint audit | Prinz and GPT-6 Astra (2026) |
-| [p187](cases/p187.md) | Prior body reading; source audit | George Lasry and Norbert (2017) |
-| [p187b](cases/p187b.md) | Prior body; adjacent-swap explanation | George Lasry and Norbert (2017) |
-| [p189](cases/p189.md) | Conditional partial | icekylinx and GPT-6 Astra Pro (2026) |
-| [p198](cases/p198.md) | Open | — |
-| [p215](cases/p215.md) | Prior partial; conditional Kosch interpretation | Norbert (2017) |
-| [p217](cases/p217.md) | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
+These retain the original challenge identifiers. Page numbers alone do not identify a message: p198 is section D, while p198 B/C/E are separate records below.
 
-## Supplementary frontier results
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p73](cases/p73.md) | Message routed to General von Kress | Open | — |
+| [p100](cases/p100.md) | Enemy divisions approaching Belgrade | Prior body reading; source audit | Armin (2017) |
+| [p105](cases/p105.md) | Naval telegram acknowledgments | Prior body reading; source audit | Norbert (2017) |
+| [p109](cases/p109.md) | Evening report; likely Sava crossing | Prior body; new source parallel | Norbert (2017) |
+| [p132](cases/p132.md) | Repeat-transmission instructions for Eilvese | Prior body reading; source audit | Thomas (fragment) and Norbert (body), 2017 |
+| [p146](cases/p146.md) | Kerch radio call-sign instruction | Prior body; duplicate-group repair | Norbert (2017) |
+| [p152](cases/p152.md) | Silk purchases and transport from the Caucasus | Source-linked body | icekylinx and GPT-6 Astra Pro (2026) |
+| [p153a](cases/p153a.md) | Earlier orders; action still to be completed | New partial: 60/66 ordinary-letter positions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p153b](cases/p153b.md) | Rearguard artillery ammunition report | New raw partial; conditional body and footer | icekylinx and GPT-6 Astra Pro (2026) |
+| [p158](cases/p158.md) | Routing and army-key instructions | Composite sources identified | icekylinx and GPT-6 Astra Pro (2026) |
+| [p164a](cases/p164a.md) | Temesvar / MIRCO contextual fragments | Prior partial; constraint audit | Norbert (2017) |
+| [p164b](cases/p164b.md) | Height 828 and an uneventful situation report | Prior partial; constraint audit | Norbert (2017) |
+| [p170](cases/p170.md) | Short intercept; original length uncertain | Open | — |
+| [p171](cases/p171.md) | Ruble rates and expectations about Russia | Prior body reading; source audit | Norbert (2017) |
+| [p176a](cases/p176a.md) | Breakthrough toward the north or northeast | Prior body reading; source audit | Norbert (2017) |
+| [p176b](cases/p176b.md) | Army positions near Peterreve and Versecz | Prior contextual reading; constraint audit | Prinz and GPT-6 Astra (2026) |
+| [p187](cases/p187.md) | Monitoring Russian and Polish army traffic | Prior body reading; source audit | George Lasry and Norbert (2017) |
+| [p187b](cases/p187b.md) | Teleprinter failure and written reporting | Prior body; adjacent-swap explanation | George Lasry and Norbert (2017) |
+| [p189](cases/p189.md) | Apparent vehicle request / await orders | Conditional partial | icekylinx and GPT-6 Astra Pro (2026) |
+| [p198](cases/p198.md) | CHI intercept with a five-coordinate shortfall | Open | — |
+| [p215](cases/p215.md) | Apparent Entente troop-transport report | Prior partial; conditional Kosch interpretation | Norbert (2017) |
+| [p217](cases/p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-The October 2026 readings below were first submitted by **Ayush Agarwal** and reviewed by **D. Bourdeau**. This edition checks the original images and corrects source counts or masked coordinates. They do not change the 22-target total.
+## Other ciphertexts — 34 reviewed records
 
-| Record | Content | Current review |
-|---|---|---|
-| [p89 A2](cases/supplementary/p89_A2.md) | Shipping and railway routing to Nikolayev | 290 coordinates / 145 letters; one damaged glyph remains uncertain. |
-| [p107 D](cases/supplementary/p107_D.md) | Acknowledgment of operational telegrams | 176 coordinates; printed and parenthesized letters retained separately. |
-| [p187 C](cases/supplementary/p187_C.md) | Connection with Mackensen's army | 134 coordinates; source `FFXXV` restores `M` in the raw `MIS`. |
+Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
-## Contextual records
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p77 B](cases/context/radio_instructions.md#p77-b--call-sign-instruction-for-konia) | Konia radio call sign and wavelengths | Direct reading; one word normalized | icekylinx and GPT-6 Astra Pro (2026) |
+| [p85 B](cases/other/p85_B.md) | Telephone censorship through Budapest | 99/99 raw positions; two word repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
+| [p89 A2](cases/supplementary/p89_A2.md) | Shipping and railway routing to Nikolayev | Earlier reading; one source glyph uncertain | Ayush Agarwal; review by D. Bourdeau (2026) |
+| [p96 B](cases/other/p96_B.md) | Entry permission for Filittis and family | 180/181 raw positions; Copenhagen repair costed | icekylinx and GPT-6 Astra Pro (2026) |
+| [p107 D](cases/supplementary/p107_D.md) | Acknowledgment of operational telegrams | Earlier reading; parenthesized glyphs retained | Ayush Agarwal; review by D. Bourdeau (2026) |
+| [p109 B](cases/p109.md) | Evening enemy-division report toward Belgrade | Near-parallel supporting p 109; word alternatives remain | icekylinx and GPT-6 Astra Pro (2026) |
+| [p111 B](cases/other/p111_B.md) | Use radio for important messages | 154/154 direct positions; no coordinate edits | icekylinx and GPT-6 Astra Pro (2026) |
+| [p134 B](cases/context/radio_instructions.md#p134-b--repeat-a-fourth-period-telegram-in-the-fifth) | Repeat a fourth-period telegram in the fifth | 50/51 raw positions; wording partly editorial | icekylinx and GPT-6 Astra Pro (2026) |
+| [p136 B1](cases/p152.md#raw-p136-b1-parallel-plaintext) | Silk purchases in the Caucasus; first part | Full raw reading; supports the p 152 fragment | icekylinx and GPT-6 Astra Pro (2026) |
+| [p136 B2](cases/p152.md#raw-continuation-witnesses) | Resell goods whose transport is not assured | Continuation; one coordinate supplied by a parallel | icekylinx and GPT-6 Astra Pro (2026) |
+| [p152 E2](cases/p152.md#raw-continuation-witnesses) | Parallel continuation of the silk instruction | Direct raw reading with residual garbles | icekylinx and GPT-6 Astra Pro (2026) |
+| [p155 A1](cases/context/p155.md) | Asgard arrival at Poti and troop pickup | 84/85 raw positions; source glyph remains erased | icekylinx and GPT-6 Astra Pro (2026) |
+| [p155 A2](cases/context/p155.md) | Asgard/Tresivolus shipping continuation | Conditional single-coordinate loss repair | icekylinx and GPT-6 Astra Pro (2026) |
+| [p159 B](cases/p158.md#component-readings) | Munich routing and army-key instruction | Reconstruction from repeated transmissions | Childs (1918); review: icekylinx and GPT-6 Astra Pro |
+| [p159 C](cases/p158.md#component-readings) | Munich–Innsbruck routing and army-key instruction | Source-supported one-coordinate deletion | icekylinx and GPT-6 Astra Pro (2026) |
+| [p164 A4](cases/context/p164_A4.md) | Dismounted cavalry west of an unidentified MIRCO | 87/99 raw positions; full proposal explicitly repaired | icekylinx and GPT-6 Astra Pro (2026) |
+| [p168 C](cases/p158.md#earlier-historical-reading-of-a-component) | Repeated Munich routing order 11338 | Parallel witness to the p 159 B component | Childs (1918); review: icekylinx and GPT-6 Astra Pro |
+| [p168 D](cases/p158.md#component-readings) | Repeated Munich–Innsbruck routing instruction | Parallel witness to the p 159 C component | icekylinx and GPT-6 Astra Pro (2026) |
+| [p185 C](cases/p189.md) | Vehicle provision impossible; await orders | Direct raw reading; source parallel for p 189 A | icekylinx and GPT-6 Astra Pro (2026) |
+| [p185 D](cases/context/transport.md#p185-d-source-and-gap-model) | Movement via DHFN and readiness instruction | 91/99 positions under an unproved five-loss geometry | icekylinx and GPT-6 Astra Pro (2026) |
+| [p186 A1](cases/context/p186.md#part-1--richi-170) | Monitor Russian and Polish army traffic | Earlier reading; three explicit erasure fills | Lasry team and Norbert (2017); review: icekylinx and GPT-6 Astra Pro |
+| [p186 A2](cases/context/p186.md#part-2--richi-174) | Encrypted reporting and teleprinter failure | 80/87 conservative raw positions; ending unresolved | Lasry team and Norbert (2017); review: icekylinx and GPT-6 Astra Pro |
+| [p187 C](cases/supplementary/p187_C.md) | Connection with Mackensen's army | Earlier reading; source correction checked | Ayush Agarwal; review by D. Bourdeau (2026) |
+| [p189 C](cases/context/p189_C.md) | Instruction to use the December key; IRRTUM | 61/62 raw positions; two explicit substitutions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p189 E](cases/context/transport.md#independent-transport-context) | Pump, cars and trailers | Direct partial reading; counts unresolved | icekylinx and GPT-6 Astra Pro (2026) |
+| [p193 E](cases/context/transport.md#independent-transport-context) | Sprung cart for attachment; a car | Direct partial reading; one unknown cell | icekylinx and GPT-6 Astra Pro (2026) |
+| [p194 A](cases/context/transport.md#independent-transport-context) | Arranged departure to Hanau via DHFN | Near-parallel; composite fixes 86/87 positions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p196 B](cases/context/transport.md#independent-transport-context) | Repeated arranged departure to Hanau | Near-parallel; time digit remains unresolved | icekylinx and GPT-6 Astra Pro (2026) |
+| [p197 C](cases/context/transport_197_198.md) | Transport of radio equipment to Darmstadt | Missing-group hypothesis checked against p 198 B | icekylinx and GPT-6 Astra Pro (2026) |
+| [p197 D](cases/context/transport_197_198.md) | Lorry, trailer and petrol-pump instruction | Partial witness; readable reconstruction costed | icekylinx and GPT-6 Astra Pro (2026) |
+| [p197 E](cases/context/transport.md#independent-transport-context) | Lorry departure and men remaining until Sunday | Partial near-parallel; time and count unresolved | icekylinx and GPT-6 Astra Pro (2026) |
+| [p198 B](cases/context/transport_197_198.md) | Repeated equipment transport to Darmstadt | Clearer near-parallel; editorial changes explicit | icekylinx and GPT-6 Astra Pro (2026) |
+| [p198 C](cases/context/transport.md#independent-transport-context) | Repeated lorry departure and Sunday stay | Direct partial reading; separate from challenge D | icekylinx and GPT-6 Astra Pro (2026) |
+| [p198 E](cases/context/transport_197_198.md) | Repeated lorry, trailer and petrol-pump order | Literal duplicate-group deletion; partial reading | icekylinx and GPT-6 Astra Pro (2026) |
 
-[p164 A4](cases/context/p164_A4.md) supports a conditional reading about dismounted cavalry west of an unidentified `MIRCO`. The source fixes 87 of 99 letters; the complete editorial hypothesis requires nine known-coordinate substitutions and thirteen erasure fills. It does not change p164a or p164b to solved.
-
-[The p185/p189 transport conversation](cases/context/transport.md) adds seven source records. Two near-parallel transport orders combine to fix 86 of 87 letters; a separate p185 D missing-group hypothesis fixes 91 of 99 letters conditionally. All 194 possible gap placements and both pairs of disagreeing witnesses remain available.
-
-[Four further p197/p198 witnesses](cases/context/transport_197_198.md) identify equipment for Darmstadt and a lorry/trailer/petrol-pump instruction. A literal duplicate-group deletion restores one source's declared length. Their readable composites retain exact edit costs, unresolved digits and linked number fields; they do not solve the p198 D challenge.
-
-The [p155 Kress-route shipping message](cases/context/p155.md) adds two source-checked parts. Its Asgard/Tresivolus context is independently corroborated in a contemporary diary; it does not determine p73's date or key.
-
-[The p77 and p134 radio instructions](cases/context/radio_instructions.md) add source-checked call-sign and repeat-transmission context for p146 and p132.
-
-[p189 C](cases/context/p189_C.md) adds a key-use instruction with 61/62 raw positions fixed. Two explicitly mapped substitutions give its most likely wording. The directly decoded `DEZEMBER` and `IRRTUM` remain visible alongside the 15 November header; no explanation of that date tension is assumed.
+The catalogue covers source-reviewed records with published reading evidence; the wider OCR search pool contains additional unreviewed ciphertext candidates. Earlier authors retain their credits. Current source review and new research use **icekylinx and GPT-6 Astra Pro**; a review credit does not assert first-decipherment priority.
+<!-- READING-CATALOG:END -->
 
 ## Review coverage
 
-The [review ledger](data/review_ledger.json) currently records **97 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
+The [review ledger](data/review_ledger.json) currently records **98 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
 
 A September 2026 mass-solution claim is retained with its [reproducibility assessment](data/reviews/unsupported_claim_checks.json) and **Jozef Krajcovic's earlier critique**. Its published constants and selected substrings do not provide a reproducible full reading; no target is marked solved on that basis.
 
@@ -108,20 +133,18 @@ The [exact digit/Q/Y frontier](experiments/p198_category_frontier/README.md) sup
 
 ## Contents
 
-| Path | Contents |
-|---|---|
-| `cases/` | Readings, qualifications, original credits, and source links |
-| `docs/research-status.md` | Current result boundaries and the next evidence or method that could reduce ambiguity |
-| `docs/methods.md` | A reader's guide to the cipher, evidence layers, exact searches and their limits |
-| `data/messages.json` | All 22 source records, legacy transcriptions, and conservative analysis layers |
-| `data/keys.json` | 25 historical, comparison, reported, or newly recovered partial keys; provenance and unknown cells retained |
-| `data/prior_readings.json` | 35 attributed earlier readings/fragments and 25 recomputed repair variants |
-| `data/supplementary_readings.json` | Three October 2026 readings and their primary-source corrections |
-| `data/review_ledger.json` | Claim-by-claim findings, earlier criticism, and exact attribution |
-| `data/certificates/` | Machine-readable source, edit, and plaintext evidence |
-| `adfgvx/` | Independent cipher and verification code |
-| `experiments/` | Portable attacks, bounded results, controls, and model provenance |
-| `sources/` | Bibliography and selected source excerpts |
+- `cases/`: Readings, qualifications, original credits, and source links
+- `docs/research-status.md`: Current result boundaries and the next evidence or method that could reduce ambiguity
+- `docs/methods.md`: A reader's guide to the cipher, evidence layers, exact searches and their limits
+- `data/messages.json`: All 22 source records, legacy transcriptions, and conservative analysis layers
+- `data/keys.json`: 25 historical, comparison, reported, or newly recovered partial keys; provenance and unknown cells retained
+- `data/prior_readings.json`: 35 attributed earlier readings/fragments and 25 recomputed repair variants
+- `data/supplementary_readings.json`: Three October 2026 readings and their primary-source corrections
+- `data/review_ledger.json`: Claim-by-claim findings, earlier criticism, and exact attribution
+- `data/certificates/`: Machine-readable source, edit, and plaintext evidence
+- `adfgvx/`: Independent cipher and verification code
+- `experiments/`: Portable attacks, bounded results, controls, and model provenance
+- `sources/`: Bibliography and selected source excerpts
 
 Identifiers use the printed page number. `p187` and `p187b` are the two parts listed separately in the original challenge. A question mark means unresolved evidence, never an arbitrary completed square cell. Original German text is preserved as data; editorial material is in English.
 

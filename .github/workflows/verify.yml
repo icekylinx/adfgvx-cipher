@@ -22,6 +22,10 @@ jobs:
           python-version: ${{ matrix.python }}
       - name: Recompute core source and cipher certificates
         run: python -m adfgvx.verify
+      - name: Check the challenge and wider-corpus reading tables
+        run: python -m adfgvx.catalog --check
+      - name: Verify wider-corpus source readings
+        run: python experiments/corpus_readings/verify.py --verify
       - name: Check recorded truncation constraints
         run: python experiments/known_key/verify_p170.py experiments/known_key/p170_experiment.json
       - name: Build search engines and check controls

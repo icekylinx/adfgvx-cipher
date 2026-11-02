@@ -2314,6 +2314,33 @@
           "experiments/p73_primary_followup/ARCHIVE_ACCESS.md"
         ]
       }
+    },
+    {
+      "id": "wider_corpus_first_readable_batch",
+      "scope": [
+        "p85_B",
+        "p96_B",
+        "p111_B"
+      ],
+      "claim_reviewed": "Source-checked known-key decoding recovers three additional readable bodies outside the 22 challenge.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "direct_source_readings_with_separate_editorial_repairs",
+      "result": "p 85 B fixes 99/99 raw positions; Budapest/Funkspruch normalization changes two known coordinates and the displayed missing e remains editorial. p 96 B fixes 180/181; Copenhagen uses one invalid-C erasure fill and one valid-coordinate substitution. p 111 B fixes 154/154 and re-encrypts all 308 coordinates unchanged. Every source date and unnormalized spelling is retained; published period keys keep their prior credit.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/corpus_readings/selected_sources.json",
+          "experiments/corpus_readings/certificates.json",
+          "cases/other/p85_B.md",
+          "cases/other/p96_B.md",
+          "cases/other/p111_B.md"
+        ]
+      }
     }
   ]
 }

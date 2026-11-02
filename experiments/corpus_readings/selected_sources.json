@@ -1,0 +1,163 @@
+{
+  "schema": "adfgvx-corpus-readings-source-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System, Childs collection",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "pdf_bytes": 156848258,
+    "inspection": "The complete source page and enlarged message crops were visually inspected. Literal invalid source glyphs are retained; no editorial plaintext repair changes this transcription."
+  },
+  "messages": [
+    {
+      "id": "p85_B",
+      "printed_page": 85,
+      "pdf_page_1based": 88,
+      "section": "B",
+      "heading": "30th OCTOBER, 1918.",
+      "header": "LP v OSM (9.42 p.m., October 31st); (30) ZU 1500 UKS; RICHI-198",
+      "declared_coordinate_length": 198,
+      "key_id": "Oct28-31",
+      "ocr_blocks": [
+        "p85_ocr_block3"
+      ],
+      "source_rows": [
+        "XDAAA AXXAX FAXAD DAVDG ADAVF XXAAV DDDXA AADVD",
+        "VXDAD FDGXA AXDGF VAXVF GFGAV AAADX FDVXA XGVFF",
+        "VDDAD DVDDD DADDA VADAF VGXXD FVADG GAFXX AAXDG",
+        "XFXXG DDXAF DXAGG AXGDD DAXXD FFAAD VXFFG AXVAV",
+        "AFAGA AVDAA AXDAD GDXDD DFXXX DAGDD XXGDG XGA"
+      ],
+      "crop_pdf_points": [
+        40,
+        500,
+        550,
+        675
+      ],
+      "source_image": "sources/excerpts/other_p85_B.png",
+      "expected_raw": "FERNSPRECHVERBINDUNGUEBERBUD9PESTUNTERLIGTUNGARISCHERCENSURXVERBINDUNGDAHERNURMITFUPKSPRUCHMOEGLICH",
+      "editorial_same_length": "FERNSPRECHVERBINDUNGUEBERBUDAPESTUNTERLIGTUNGARISCHERCENSURXVERBINDUNGDAHERNURMITFUNKSPRUCHMOEGLICH",
+      "editorial_notes": [
+        "The same-length candidate changes BUD9PEST to BUDAPEST and FUPKSPRUCH to FUNKSPRUCH; the certificate records the precise source-coordinate cost.",
+        "The reader-facing spelling unterliegt adds an E to raw UNTERLIGT. That extra plaintext character is an editorial orthographic restoration, not part of the fixed-length re-encryption certificate.",
+        "Raw CENSUR is retained as historical spelling; punctuation and word spacing are editorial."
+      ]
+    },
+    {
+      "id": "p96_B",
+      "printed_page": 96,
+      "pdf_page_1based": 99,
+      "section": "B",
+      "heading": "1st NOVEMBER, 1918.",
+      "header": "UKS v LP (8.11 p.m., November 1st); 1800 (1/11) POLITISCHE ABTL BUKAREST; RICHI-362",
+      "declared_coordinate_length": 362,
+      "key_id": "Nov1-3",
+      "ocr_blocks": [
+        "p96_ocr_block2"
+      ],
+      "source_rows": [
+        "XDXVV VGDGV VAAFG VGFXX GDGVD VGDGX GAXAG FXFGV",
+        "GGGGF VDAGG VGDDG GDXDX DDDGV VFGVV DXVGV GGADV",
+        "GGXDG DGVGV VAGGA DXVXX GXFGF GGFDA XDFAG DGDGV",
+        "XAFVX DDVVA GXFXA FVGAD AFFGF GGAVD GFAAV FXGFG",
+        "VXVVV VDFVG AXXXX GXVFX GGXGG FDAXD DADVX XDXFF",
+        "FGDDD AXVGD XAXGF GDVGV ADGAD ACVGD ADGFF FAVGF",
+        "AVXVV DXAGV ADDAX AAFGV DADVF XFAVA GXDGD XFGAA",
+        "ADXFV FGFGA GGXDV VGDFD XVGVV FGXGD GAGAG AXGFA",
+        "VVDDX FGVAG AGAGX VADFA VDVGF XVDDG XDADG DDXXG",
+        "FF"
+      ],
+      "crop_pdf_points": [
+        65,
+        420,
+        550,
+        700
+      ],
+      "source_image": "sources/excerpts/other_p96_B.png",
+      "expected_raw": "NRX605XAUFTELEGRAMMNRX536XRHEINBABENXANXHORSTMANNXNACHMITTEILUNGPASSZENTRALESTELLVERTRETENDENGENERALSTABESISTNUNMEHREINREISEXFILITTISXMITFAMILIEAUSXKOPENH?HENXGENEHMIGTXAUSWAERTIGXX",
+      "editorial_same_length": "NRX605XAUFTELEGRAMMNRX536XRHEINBABENXANXHORSTMANNXNACHMITTEILUNGPASSZENTRALESTELLVERTRETENDENGENERALSTABESISTNUNMEHREINREISEXFILITTISXMITFAMILIEAUSXKOPENHAGENXGENEHMIGTXAUSWAERTIGXX",
+      "editorial_notes": [
+        "The printed C in group ACVGD is outside the ADFGVX coordinate alphabet. It remains C in the literal source and is masked as one coordinate erasure only for analysis.",
+        "KOPENHAGEN is the likely place-name; it repairs the raw KOPENH?HEN. The certificate distinguishes the invalid-glyph fill from changes to valid printed coordinates.",
+        "Filittis, Rheinbaben and Horstmann are retained as decoded names without identifying the individuals."
+      ]
+    },
+    {
+      "id": "p111_B",
+      "printed_page": 111,
+      "pdf_page_1based": 114,
+      "section": "B",
+      "heading": "3rd NOVEMBER, 1918.",
+      "header": "FUER NKJ, ASO, RAT v LP (2.54 a.m., November 5th); 2315 (3.11); RICHI-308",
+      "declared_coordinate_length": 308,
+      "key_id": "Nov1-3",
+      "ocr_blocks": [
+        "p111_ocr_block2"
+      ],
+      "source_rows": [
+        "DAVDG VGDGV ADGAF VVDAG VGDVA XFXFA FDAXD XVXVG",
+        "GGVGD GDXDA DGVVA AVAAD XVGFX DDGDX DFXGV FGAVF",
+        "XDAFG DXAXD FAGGV GVDVD AXAGF GGXVV DXXAX VDVFD",
+        "AVGDF VGVXA VVGFG VVGAF GAFAX FFVDG FVAGX FGVAD",
+        "DVAGG GGAVD ADVAD GXXGF DVGDX AGGDA XXGDV FAXFF",
+        "DADFG VADGG GVGXG DXAVA FDXXD DAAAD VGDVA DXAFD",
+        "XGXVV AGGAG GADGD DGVDX DXAXG DGGVD AGVAD ADXDD",
+        "DVDFF FVAGG GXDGD VVDVG GDAVG DXG"
+      ],
+      "crop_pdf_points": [
+        40,
+        460,
+        545,
+        700
+      ],
+      "source_image": "sources/excerpts/other_p111_B.png",
+      "expected_raw": "FUERXCHEFXMITTELMEERDIVISIONXBXMXKXNATEKOXWEGENXUNSICHERHEITXDERXKABELVERBINDUNGENXFUERXWICHTIGEXMELUNGENXFUNKSPRUCHXBENUTZENXADMIRALSTABX18266XDXROEMX2XX",
+      "editorial_same_length": null,
+      "editorial_notes": [
+        "All 154 raw plaintext characters are fixed by valid source coordinates and the complete published key; no source correction is used.",
+        "The reader-facing Mel[d]ungen supplies the missing D in raw MELUNGEN. This is an editorial spelling restoration, not a new decrypted character or a coordinate repair.",
+        "B.M.K. and NATEKO are retained without an unsupported expansion. ROEM 2 is a literal reference to a Roman numeral, presented without changing the raw digit.",
+        "The page heading and internal stamp are 3 November, while the reception header prints 5 November. Both are retained."
+      ]
+    },
+    {
+      "id": "p120_B1",
+      "printed_page": 120,
+      "pdf_page_1based": 123,
+      "section": "B, part 1 of 3",
+      "heading": "4th NOVEMBER, 1918.",
+      "header": "OSM v OUI (8.32 p.m., November 4th); 1956 3 TEILE; 1 TL; RICHI-394",
+      "declared_coordinate_length": 394,
+      "key_id": "Nov4-6",
+      "ocr_blocks": [
+        "p120_ocr_block2"
+      ],
+      "source_rows": [
+        "VXAXG FADVV FXVXX XVVXX VVADX XFFAV FDGXG FAVAX",
+        "FAGXV XVFXD XXXVV VXAVX FFVXD FFAVX GFGFX FADXF",
+        "FVGVX XGXFF XFGVX XGAFX XXAVA AXAAX AXGDA FXDGV",
+        "AVFXV VXFAX XDFXG AGXAV XGFAF XVVDA GAFAF FVGFX",
+        "XAFGV AVGVG FXFAX XVAGA VFVGV DXXAD AXVVF VFFVX",
+        "FXXFX VAXAV XAFAA GAAXF GVXAF GFXXA FXFXG XAAVA",
+        "XXVFV VGAXA AVAFV VVFFX FGFAF DVXVG DGAXX AVFFA",
+        "XXAXV AFXXX AAXXV VVGXX VGAFX XAXFD AFAVX XXVAX",
+        "AVAFV AAAVV DAAXF XAFDX DFAGX XXXVA GGXGF XDXDF",
+        "VAVGF GXXDA FFXDD VXADA AFXGV FXGAD AXDV"
+      ],
+      "crop_pdf_points": [
+        45,
+        320,
+        545,
+        480
+      ],
+      "source_image": "sources/excerpts/other_p120_B1.png",
+      "expected_raw": "FEIGENHAUSKONSTANTINOPELXSECHSHUNDERTSIEBZEHNBEICHTVATERZWEIHUNDERTDREIUNDNEUNZIGNACHDEMDIKTATORANWEISYNGGEGEBENNOTSCHREIEINANDREASNICHTVORZUNEHMENHABENWIRUNSNOCHMALSMITHERKULESINVERBINDUNGGESETZTX",
+      "editorial_same_length": "FEIGENHAUSKONSTANTINOPELXSECHSHUNDERTSIEBZEHNBEICHTVATERZWEIHUNDERTDREIUNDNEUNZIGNACHDEMDIKTATORANWEISUNGGEGEBENNOTSCHREIEINANDREASNICHTVORZUNEHMENHABENWIRUNSNOCHMALSMITHERKULESINVERBINDUNGGESETZTX",
+      "editorial_notes": [
+        "This is explicitly only the first of three parts; the other two source parts are being inspected before a complete-message reading is issued.",
+        "The source spells FFXDD in the final row; the OCR had replaced one valid F with an erasure."
+      ]
+    }
+  ]
+}

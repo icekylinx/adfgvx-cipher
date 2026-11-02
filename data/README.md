@@ -5,6 +5,7 @@
 | File or directory | Content |
 |---|---|
 | [messages.json](messages.json) | The 22 challenge entries, original and legacy transcriptions, conservative analysis layers, and header conventions |
+| [reading_catalog.json](reading_catalog.json) | The common source for both reader-facing tables: 22 challenge entries and individually identified source-reviewed ciphertexts elsewhere in the collection |
 | [keys.json](keys.json) | Historical, comparison, reported, and newly recovered partial keys, with provenance and unknown cells preserved |
 | [prior_readings.json](prior_readings.json) | Earlier attributed readings, exact repair variants, and recomputed arithmetic |
 | [supplementary_readings.json](supplementary_readings.json) | The October 2026 supplementary readings and their primary-source corrections |
@@ -15,3 +16,9 @@
 Question marks retain unresolved source evidence or square cells. They are never silently filled by a language-model best fit. Case pages present readable editorial text; these records preserve the exact evidence behind it.
 
 Research and editorial attribution: **icekylinx and GPT-6 Astra Pro**. Earlier readings retain their individually recorded authors and dates.
+
+After adding a reviewed case to the reading catalogue, run
+`python3 -m adfgvx.catalog` to regenerate both tables. The `--check` option
+checks their agreement, unique identifiers and evidence links without editing.
+Uninspected OCR candidates belong in the research inputs, not in the reviewed
+reading table.
