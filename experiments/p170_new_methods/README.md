@@ -253,6 +253,52 @@ records and checks the improving-checkpoint logs before archiving their
 hashes and counts; it refuses incomplete campaigns. Full runtime checkpoint
 logs are not required for the offline arithmetic verifier.
 
+### Audit the original runtime logs from the delivery ZIP
+
+[`audit_original_logs.py`](audit_original_logs.py) separately checks the original
+102 JSONL logs and their complete result sidecars against the frozen records.
+It needs only the Python standard library. It independently re-encrypts every
+logged incumbent, checks supplied square anchors, verifies both original binary
+and source identities, and checks the instrumented counter arithmetic. It reads
+the binaries without executing them and does not repeat any search.
+
+From the extracted `adfgvx-cipher/` directory, run this exact command:
+
+```sh
+python experiments/p170_new_methods/audit_original_logs.py \
+  --cross-period-logs reproduction-assets/p170-book-run \
+  --radio-rank-logs reproduction-assets/p170-matched-rank-controls \
+  --radio-historical-logs reproduction-assets/p170-radio-historical \
+  --original-engine reproduction-assets/p170-engines/anchored_joint \
+  --counted-engine reproduction-assets/p170-engines/counted_anchored_joint \
+  --output /tmp/p170-original-log-audit.json
+```
+
+All five asset paths and the report path are explicit CLI arguments, so another
+layout can use the same script. Repository inputs derive from the script's
+location, and their frozen SHA-256 values are checked without requiring Git.
+The report's `repository_commit` is optional metadata and may be null outside
+a checkout; `--source-commit` can supply a known commit label. No original
+workspace path is required. A mismatch produces a nonzero exit status and a
+JSON failure report.
+
+The original-asset audit checks **102 final incumbents, 102 entire sidecars and
+761 logged incumbents**. Only **90 logs** have pre-existing SHA-256 pins in the
+committed `runtime_log_inventory`. The other **12 radio-rank control logs** were
+first hashed in the final original-log audit; their final states and complete
+sidecars match the frozen records, but this does not create an earlier hash
+inventory retrospectively.
+
+The **40 instrumented sidecars** contain **3,902,267,094 fitness calls**, including
+**601,058,006 book-objective calls** and **3,301,209,088 radio-mixture calls**.
+Those counters were captured from the engine's stderr after successful
+completion. The separate original stderr bytes were not retained; this audit
+checks the preserved parsed counters and their arithmetic, without independently
+recounting those historical calls. JSONL files contain improving candidates,
+not terminal counters. The **7,000,000,000 slots** for the **62 uninstrumented
+book jobs** remain configured loop slots, not measured fitness calls or counts
+of distinct states. These limits remain explicit in every audit report.
+
 ## Attribution audit
 
 The separate [Lasry paper audit](lasry_attribution_audit.md) and its
