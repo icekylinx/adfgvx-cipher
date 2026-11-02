@@ -8,6 +8,10 @@ Source transcription, cipher checks and editorial work: **icekylinx and GPT-6 As
 
 ## Read the messages
 
+The prior body credit for p168 A also applies to its repeated content at
+**p169 A**. Identification of the repeat, its exact coordinate differences,
+and the present source edition remain our contribution.
+
 Square brackets mark supplied letters or abbreviation expansions. Punctuation, capitalization and word spacing are editorial.
 
 | Source | Readable German | Meaning and exact qualification |

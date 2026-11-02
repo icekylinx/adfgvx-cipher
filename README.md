@@ -86,10 +86,10 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p107 D](cases/supplementary/p107_D.md) | Acknowledgment of operational telegrams | Earlier reading; parenthesized glyphs retained | Ayush Agarwal; review by D. Bourdeau (2026) |
 | [p109 B](cases/p109.md) | Evening enemy-division report toward Belgrade | Near-parallel supporting p 109; word alternatives remain | icekylinx and GPT-6 Astra Pro (2026) |
 | [p111 B](cases/other/p111_B.md) | Use radio for important messages | 154/154 direct positions; no coordinate edits | icekylinx and GPT-6 Astra Pro (2026) |
-| [p120 B1](cases/other/p120_p123.md) | Instruction to Feigenhaus; contact with Herkules | 197/197 raw positions; one word repair | icekylinx and GPT-6 Astra Pro (2026) |
-| [p122 D suffix](cases/other/p120_p123.md) | Repeat of the Feigenhaus instruction, part 1 | Exact 164-coordinate suffix; not a separate complete message | icekylinx and GPT-6 Astra Pro (2026) |
-| [p123 A2](cases/other/p120_p123.md) | Responsibility for further Notschreie declined | 97/116 raw positions; explicit conditional completion | icekylinx and GPT-6 Astra Pro (2026) |
-| [p123 A3](cases/other/p120_p123.md) | Follow instructions; report plans after political change | One-coordinate deletion; two further substitutions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p120 B1](cases/other/p120_p123.md) | Instruction to Feigenhaus; contact with Herkules | 197/197 raw positions; one word repair | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p122 D suffix](cases/other/p120_p123.md) | Repeat of the Feigenhaus instruction, part 1 | Exact 164-coordinate suffix; not a separate complete message | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p123 A2](cases/other/p120_p123.md) | Responsibility for further Notschreie declined | 97/116 raw positions; explicit conditional completion | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p123 A3](cases/other/p120_p123.md) | Follow instructions; report plans after political change | One-coordinate deletion; two further substitutions | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p131 B](cases/other/kremp.md) | Kremp asks for his departure date | 82/84 raw positions; later second-key body supports repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p134 B](cases/context/radio_instructions.md#p134-b--repeat-a-fourth-period-telegram-in-the-fifth) | Repeat a fourth-period telegram in the fifth | 50/51 raw positions; wording partly editorial | icekylinx and GPT-6 Astra Pro (2026) |
 | [p136 B1](cases/p152.md#raw-p136-b1-parallel-plaintext) | Silk purchases in the Caucasus; first part | Full raw reading; supports the p 152 fragment | icekylinx and GPT-6 Astra Pro (2026) |
@@ -113,8 +113,8 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p155 A1](cases/context/p155.md) | Asgard arrival at Poti and troop pickup | 84/85 raw positions; source glyph remains erased | icekylinx and GPT-6 Astra Pro (2026) |
 | [p155 A2](cases/context/p155.md) | Asgard/Tresivolus shipping continuation | Conditional single-coordinate loss repair | icekylinx and GPT-6 Astra Pro (2026) |
 | [p158 C2](cases/other/courier_munich.md) | Notify GRUKONACH and telegraph the couriers arrival | 67/68 unchanged; 602 only under the separate historical key inference | icekylinx and GPT-6 Astra Pro (2026) |
-| [p159 B](cases/p158.md#component-readings) | Munich routing and army-key instruction | Reconstruction from repeated transmissions | Childs (1918); review: icekylinx and GPT-6 Astra Pro |
-| [p159 C](cases/p158.md#component-readings) | Munich–Innsbruck routing and army-key instruction | Source-supported one-coordinate deletion | icekylinx and GPT-6 Astra Pro (2026) |
+| [p159 B](cases/p158.md#component-readings) | Munich routing and army-key instruction | Reconstruction from repeated transmissions | Prior body: Childs (1918), Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p159 C](cases/p158.md#component-readings) | Munich–Innsbruck routing and army-key instruction | Source-supported one-coordinate deletion | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p159 D](cases/other/kremp.md) | Kremp recovered and requests a departure date | 98/98 positions, 196/196 coordinates unchanged | icekylinx and GPT-6 Astra Pro (2026) |
 | [p162 A1](cases/other/courier_munich.md) | Repeated Munich courier departure notice | Companion to p153 E1; 118/134 positions supported across both models | icekylinx and GPT-6 Astra Pro (2026) |
 | [p163 A13](cases/other/p163_A.md) | Keep Crajova and Bucharest occupied until final evacuation | 126/134 raw positions; ten substitutions and six fills; opening unresolved | icekylinx and GPT-6 Astra Pro (2026) |
@@ -130,9 +130,9 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p167 A3](cases/other/nov9_operational_reports.md) | Complete-frame repeat of the operational-report ending | Supplies p166 prefix; conservative combined template 97/102 fixed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p168 A](cases/other/seifert.md) | Station under a soldiers' council; operation unchanged | 92/92 raw positions; spelling omission retained | Lasry, Niebel, Kopal and Wacker |
 | [p168 B](cases/other/seifert.md) | Cologne soldiers' council plans to occupy a radio station | Two explicit coordinate repairs | Childs; Lasry, Niebel, Kopal and Wacker |
-| [p168 C](cases/p158.md#earlier-historical-reading-of-a-component) | Repeated Munich routing order 11338 | Parallel witness to the p 159 B component | Childs (1918); review: icekylinx and GPT-6 Astra Pro |
-| [p168 D](cases/p158.md#component-readings) | Repeated Munich–Innsbruck routing instruction | Parallel witness to the p 159 C component | icekylinx and GPT-6 Astra Pro (2026) |
-| [p169 A](cases/other/seifert.md) | Repeated station-control report | Conditional one-coordinate deletion; clearer p168 witness | icekylinx and GPT-6 Astra Pro (2026) |
+| [p168 C](cases/p158.md#earlier-historical-reading-of-a-component) | Repeated Munich routing order 11338 | Parallel witness to the p 159 B component | Prior body: Childs (1918), Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p168 D](cases/p158.md#component-readings) | Repeated Munich–Innsbruck routing instruction | Parallel witness to the p 159 C component | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p169 A](cases/other/seifert.md) | Repeated station-control report | Conditional one-coordinate deletion; clearer p168 witness | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p170 B1](cases/other/nov9_operational_reports.md) | Parallel cavalry and northward-march report | Different from open p170 A; repairs and prose expansions explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p170 B2](cases/other/nov9_operational_reports.md) | Alpenkorps at Ujverbasz and the 9 November march | 117/119 raw positions; place fill and historical numeral separated | icekylinx and GPT-6 Astra Pro (2026) |
 | [p172 A](cases/other/seifert.md) | Records destroyed; cipher keys still in personal custody | 67/68 positions; one supported erasure fill | icekylinx and GPT-6 Astra Pro (2026) |
@@ -206,7 +206,7 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p211 B lower1](cases/other/p211_key_schedule.md) | Retain the November Ringbahn key | 107/107 raw positions; three spelling repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p211 B lower2](cases/other/p211_key_schedule.md) | Use November keys for December traffic | 92/92 unchanged; first and last schedule dates stated | icekylinx and GPT-6 Astra Pro (2026) |
 | [p211 B lower3](cases/other/p211_key_schedule.md) | Schedule endpoint and receipt acknowledgment | 66/67 raw positions; one invalid-glyph fill | icekylinx and GPT-6 Astra Pro (2026) |
-| [p214 B](cases/other/mackensen_warsaw.md) | Forwarded quotation of the Warsaw query | 85/92 direct quote positions match p181 under a different key | icekylinx and GPT-6 Astra Pro (2026) |
+| [p214 B](cases/other/mackensen_warsaw.md) | Forwarded quotation of the Warsaw query | 85/92 direct quote positions match p181 under a different key | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p217 A1](cases/other/p217_A.md) | Scholtz divisions march into the assembly area | 114/114 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |
 | [p217 A2](cases/other/p217_A.md) | Coal shortages stop transport; troop locations near Oroshaza | 120/120 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |
 | [p217 A3](cases/other/p217_A.md) | Army headquarters at Szolnok; battalions apparently misdirected | 114/114 baseline positions; place and numerical fields unresolved | icekylinx and GPT-6 Astra Pro (2026) |

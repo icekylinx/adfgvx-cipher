@@ -41,6 +41,10 @@ transcription and exact repair accounting. It does not claim first
 decipherment of the query or treat the previously published interpretation
 as independent cryptographic evidence.
 
+The same prior body credit applies to the quoted query within **p214 B**.
+Its forwarding introduction, cross-key source relationship and damaged footer
+are assessed separately in this edition.
+
 ## Sources and direct readings
 
 | Witness | Source header | Published key | Direct reading |
