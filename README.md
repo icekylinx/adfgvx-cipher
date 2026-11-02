@@ -47,7 +47,7 @@ python3 -m adfgvx.verify
 python3 -m adfgvx.verify --json
 ```
 
-The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips, the p152 suffix alternatives, the p158 splice and glyph variants, every p189 source-preserving alignment and plaintext domain, and 24 explicit reconstructions of 14 earlier-readable entries. Odd-length ciphertext cannot silently lose a coordinate.
+The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips, the p152 suffix alternatives, the p158 splice and glyph variants, every p189 source-preserving alignment and plaintext domain, and 25 explicit reconstructions of 14 earlier-readable entries. The p164/p215 checks also reproduce uncertainty counts and contradictions in later completions. Odd-length ciphertext cannot silently lose a coordinate.
 
 ## Contents
 
@@ -55,8 +55,8 @@ The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips
 |---|---|
 | `cases/` | Readings, qualifications, original credits, and source links |
 | `data/messages.json` | All 22 source records, legacy transcriptions, and conservative analysis layers |
-| `data/keys.json` | 23 audited historical or comparison keys; provenance and unknown cells retained |
-| `data/prior_readings.json` | 34 attributed earlier readings/fragments and 24 recomputed repair variants |
+| `data/keys.json` | 24 historical, comparison, or reported keys; provenance and unknown cells retained |
+| `data/prior_readings.json` | 34 attributed earlier readings/fragments and 25 recomputed repair variants |
 | `data/certificates/` | Machine-readable source, edit, and plaintext evidence |
 | `adfgvx/` | Independent cipher and verification code |
 | `sources/` | Bibliography and selected source excerpts |

@@ -472,7 +472,25 @@
           "audited": "?"
         }
       ],
-      "category": "published_period_or_CHI_key"
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-01",
+        "comment": 20,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "VF",
+            "proposed": "5"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "6"
+          }
+        ]
+      }
     },
     {
       "id": "Nov10-12",
@@ -581,7 +599,37 @@
         }
       ],
       "category": "published_period_or_CHI_key",
-      "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42."
+      "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+      "previously_published_completion": {
+        "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 26,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "FD",
+            "proposed": "5"
+          },
+          {
+            "row_column": "GF",
+            "proposed": "6"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "7"
+          },
+          {
+            "row_column": "XG",
+            "proposed": "8"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "9"
+          }
+        ]
+      }
     },
     {
       "id": "Nov13-15a",
@@ -790,7 +838,49 @@
           "audited": "?"
         }
       ],
-      "category": "published_period_or_CHI_key"
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 24,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "AD",
+            "proposed": "2"
+          },
+          {
+            "row_column": "AF",
+            "proposed": "3"
+          },
+          {
+            "row_column": "FV",
+            "proposed": "4"
+          },
+          {
+            "row_column": "FX",
+            "proposed": "7"
+          },
+          {
+            "row_column": "GA",
+            "proposed": "8"
+          },
+          {
+            "row_column": "GD",
+            "proposed": "9"
+          },
+          {
+            "row_column": "VG",
+            "proposed": "Q"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "Y"
+          }
+        ]
+      }
     },
     {
       "id": "Nov16-18",
@@ -1619,6 +1709,48 @@
           12
         ]
       }
+    },
+    {
+      "id": "TRUPPENVERSCHIEBUNG-2026-reported",
+      "keyword": "TRUPPENVERSCHIEBUNG",
+      "column_rank_order": [
+        16,
+        13,
+        17,
+        11,
+        12,
+        3,
+        9,
+        19,
+        4,
+        14,
+        15,
+        2,
+        7,
+        8,
+        5,
+        1,
+        18,
+        10,
+        6
+      ],
+      "column_count": 19,
+      "coordinate_order": "ADFGVX",
+      "square": "TRUPE?NVSC2H7I?B1G6A0D3F5J9KLMOQWXYZ",
+      "reported_full_square": "TRUPE4NVSC2H7I8B1G6A0D3F5J9KLMOQWXYZ",
+      "category": "published_2026_key_claim",
+      "provenance": {
+        "source_ref": "prinz_p217",
+        "keyword_image": "https://substack-post-media.s3.amazonaws.com/public/images/14bbd7e0-16d8-4d08-a638-8eafc691d62a_998x148.jpeg",
+        "square_image": "https://substack-post-media.s3.amazonaws.com/public/images/7172db67-de32-4e63-92ef-05d15fe829eb_861x737.jpeg",
+        "verification": "The published image crops visibly contain this keyword/rank line and square. The complete parent manuscript and the reported December 9 date were not independently obtained."
+      },
+      "notes": [
+        "The two question marks preserve uncertainty between handwritten 4/8 labels. Their reported assignment is given separately, not silently promoted to the conservative source layer.",
+        "The source image distinguishes underlined zero at GF from letter O at XA.",
+        "The published p217 body and the naval-log context support the reported assignment; they are not an independent recovery of every unused square cell.",
+        "This key is not one of the fourteen period keys published by Lasry."
+      ]
     }
   ]
 }

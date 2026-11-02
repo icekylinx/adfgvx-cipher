@@ -12,6 +12,7 @@ from .cipher import decrypt, encrypt, self_check, SYMBOLS, plaintext_domains, tr
 from .alignment import find_switch, table, alignment
 from .projection import analyze, untranspose as project_untranspose, transpose as project_transpose
 from . import prior
+from . import constraints164, constraints215
 
 ROOT=Path(__file__).resolve().parent.parent
 
@@ -50,7 +51,7 @@ def p158():
         assert len(result['optimal_switches'])==1
         assert result['optimal_switches'][0]['p158_split']==130
         splits.append({'layer':name,'cost':result['minimum_cost'],'split':130})
-    count=0
+    count=0;masked=[]
     for layer in data['source_layers']['layers'].values():
         for first in 'XV':
             for second in 'XD':
@@ -58,8 +59,15 @@ def p158():
                 result=find_switch(''.join(a),cert['source_B'],cert['source_C'])
                 assert {r['p158_split'] for r in result['optimal_switches']}=={130}
                 count+=1
+        a=list(layer['ciphertext']);a[55]=a[126]='?'
+        result=find_switch(''.join(a),cert['source_B'],cert['source_C'])
+        assert len(result['optimal_switches'])==1 and result['optimal_switches'][0]['p158_split']==130
+        expected_cost=17 if len(a)==232 else 22
+        assert result['minimum_cost']==expected_cost
+        masked.append({'slots':len(a),'minimum_cost':expected_cost,'split':130})
     return {'status':'PASS','classification':'composite_source_identification',
-            'exact_component_roundtrips':roundtrips,'splits':splits,'glyph_variants_checked':count}
+            'exact_component_roundtrips':roundtrips,'splits':splits,'glyph_variants_checked':count,
+            'both_ambiguous_glyphs_masked':masked}
 
 
 def p152():
@@ -141,12 +149,15 @@ def main():
     try:decrypt('A',[1],'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
     except ValueError:pass
     else:raise AssertionError('Odd-length input was silently truncated')
-    results={'arithmetic':'PASS','cases':{'p152':p152(),'p158':p158(),'p189':p189()},
+    results={'arithmetic':'PASS','cases':{'p152':p152(),'p158':p158(),'p189':p189(),
+             'p164':constraints164.verify(certificate('p164')),
+             'p215':constraints215.verify(certificate('p215'))},
              'prior_readings':prior_readings()}
     if args.json:print(json.dumps(results,indent=2))
     else:
         print('PASS: independent ADFGVX arithmetic and odd-length guard')
-        for name,record in results['cases'].items():print(f"PASS: {name} — {record['classification']}")
+        for name,record in results['cases'].items():
+            print(f"PASS: {name} — {record.get('classification', 'exact uncertainty and prior-reading constraints')}")
         print('Seven exact source roundtrips; exhaustive correspondence and domain checks passed.')
         previous=results['prior_readings']
         print(f"PASS: {previous['messages']} prior entries, {previous['published_readings']} attributed readings, "

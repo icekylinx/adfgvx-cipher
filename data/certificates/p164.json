@@ -1,0 +1,816 @@
+{
+  "format_version": 2,
+  "finding": "Separate source-preserving p164 constraints, contextual siblings, and the explicit guesses in the 2017 partial readings.",
+  "key": {
+    "id": "Nov7-9",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "unassigned_symbols": "56",
+    "source": "data/keys.json, Nov7-9"
+  },
+  "sources": [
+    {
+      "id": "p164_A3",
+      "printed_page": 164,
+      "pdf_page_1based": 167,
+      "header": "A) --- v UKS (4.41 a.m., November 9th), 3 TL, RICHI-242",
+      "advertised_length": 242,
+      "ciphertext_grouped": "F?G?X FGXXD DAFVD AX?GD XXDGV XXGVA VAADF DVVVV\nFVDV? ???VV ?FG?? GX??? ????? ????? ????? ?????\n????? ????? ????? ????? ????? ????? ????? ?????\n????? XGADG G???? XVDAG XGXXG VGDGV VVFVV GFVFA\nVDGXG XXDAV XFDDV VVGVV V?VDD VXFFF XVDGG VXAGV\nGXVVG VVDGA VDVXV VXXGD DGAXF DX?DG VGVXX VAGDG\nDD",
+      "ciphertext": "F?G?XFGXXDDAFVDAX?GDXXDGVXXGVAVAADFDVVVVFVDV????VV?FG??GX????????????????????????????????????????????????????????????????????XGADGG????XVDAGXGXXGVGDGVVVFVVGFVFAVDGXGXXDAVXFDDVVVGVVV?VDDVXFFFXVDGGVXAGVGXVVGVVDGAVDVXVVXXGDDGAXFDX?DGVGVXXVAGDGDD",
+      "transcribed_slot_count": 242,
+      "known_symbol_count": 158,
+      "erased_slots": 84,
+      "normalization": "Interior groups are five slots; each printed erasure run is expanded to preserve that layout. This is a source-layout reading, not a plaintext-based correction.",
+      "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+      "notes": [
+        "The entire third line of eight five-slot erased groups is missing from the online transcription. Norbert comment42 already noted this in March2017.",
+        "Group11 appears as -FG- in the degraded scan; expanded here to ?FG?? following the printed group alignment. Group12 expanded GX??? similarly. These expansions should remain explicit assumptions."
+      ]
+    },
+    {
+      "id": "p164_A4",
+      "printed_page": 164,
+      "pdf_page_1based": 167,
+      "header": "A) --- v UKS (4.41 a.m., November 9th), 4 TL, RICHI-188",
+      "advertised_length": 188,
+      "ciphertext_grouped": "A?XXD XA??? DDVG? XDADG FDVDD DDFDG VVVXD DVDVG\nGVGXV VGXXG ?VXDF VAXAF X?AAF DVD?? DVV?X XAADD\nDFGVG DFDDV XGVGV GVGVD XGDVD DFAVA DGVXD DDVDX\nVGVVV VXVXV VAVVX XGFVX D??XX VVVXD DVDDA DGFDX\nXVGFD GXGVX XVGDG G?GVV DVDAA DADXD DDGDX AXV",
+      "ciphertext": "A?XXDXA???DDVG?XDADGFDVDDDDFDGVVVXDDVDVGGVGXVVGXXG?VXDFVAXAFX?AAFDVD??DVV?XXAADDDFGVGDFDDVXGVGVGVGVDXGDVDDFAVADGVXDDDVDXVGVVVVXVXVVAVVXXGFVXD??XXVVVXDDVDDADGFDXXVGFDGXGVXXVGDGG?GVVDVDAADADXDDDGDXAXV",
+      "transcribed_slot_count": 198,
+      "known_symbol_count": 185,
+      "erased_slots": 13,
+      "normalization": "Interior groups are five slots; each printed erasure run is expanded to preserve that layout. This is a source-layout reading, not a plaintext-based correction.",
+      "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+      "notes": [
+        "Sibling part4 is not one of the22 challenge entries. Received198slots versus advertised188. The198-slot reading directly decrypts to recognizable tactical language under Nov7-9, so the header length alone does not justify deletion.",
+        "Manual source transcript independently rechecked after known-key agent identified three copied glyph errors: group7 VVVXD, group8 DVDVG, group15 DVV?X. All are now visually confirmed. Other garbles may remain in the historical source."
+      ]
+    },
+    {
+      "id": "p164_A5",
+      "printed_page": 164,
+      "pdf_page_1based": 167,
+      "header": "A) --- v UKS (4.41 a.m., November 9th), 5 TL, RICHI-177",
+      "advertised_length": 177,
+      "ciphertext_grouped": "VFGAG DDFFX FDVDD AXADV FGD?? ???VX DXGGA VDGGG\nVGVDD DDXDX VDDDV VDGGV FXGFA DGDAF FVFFX DGFVX\nFXXVA GGGVA F???? ??VVD GVGVA XXXXF XVGVV ?ADVG\nVFXXD VVXGX VGXXG GVXXV VGXV? ?VVDD ????? ?????\n????? ????? ????? ??",
+      "ciphertext": "VFGAGDDFFXFDVDDAXADVFGD?????VXDXGGAVDGGGVGVDDDDXDXVDDDVVDGGVFXGFADGDAFFVFFXDGFVXFXXVAGGGVAF??????VVDGVGVAXXXXFXVGVV?ADVGVFXXDVVXGXVGXXGGVXXVVGXV??VVDD???????????????????????????",
+      "transcribed_slot_count": 177,
+      "known_symbol_count": 136,
+      "erased_slots": 41,
+      "normalization": "Interior groups are five slots; each printed erasure run is expanded to preserve that layout. This is a source-layout reading, not a plaintext-based correction.",
+      "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+      "notes": [
+        "The final line contains three full erased five-slot groups and a final pair, for177total. The odd total is source-attested but not consistent with ordinary complete ADFGVX.",
+        "Some online normalization produces180slots by expanding punctuation incorrectly."
+      ]
+    },
+    {
+      "id": "p164_C1",
+      "raw_ciphertext": "V?VVAXGVDVXDAGDXAVXXGDAADFAVVFXDXGADDGVXVX?DVDVXGVDGCFXVGVXXVVXXFGDDAFXXGDDFAFDXXDGXXVAVFXFFVVAVVDGGXXDXFFXVDAAGVAGFDDGVGDVDGVVDFVXVFVD?DDVDVVVVGGDXXVDGDDGXDVVVDAGV?GVVDVVVVVXFGVDGVFVVXDXVDFFFDDGGDXDVXGDDVGGXDFVVGVVVGVGVXFVFXVDDGAGDADGVDFDAXXDDDDDA",
+      "ciphertext": "V?VVAXGVDVXDAGDXAVXXGDAADFAVVFXDXGADDGVXVX?DVDVXGVDG?FXVGVXXVVXXFGDDAFXXGDDFAFDXXDGXXVAVFXFFVVAVVDGGXXDXFFXVDAAGVAGFDDGVGDVDGVVDFVXVFVD?DDVDVVVVGGDXXVDGDDGXDVVVDAGV?GVVDVVVVVXFGVDGVFVVXDXVDFFFDDGGDXDVXGDDVGGXDFVVGVVVGVGVXFVFXVDDGAGDADGVDFDAXXDDDDDA",
+      "plaintext": "AOKX11ABENDM?LDUNG8XC1X1?XLAGSTE0?1XARMEEAM7X11XABENDSXDONA?UEBERGANG219XIXDXBEENDZTXBELGRADXSEMUMLEBHAFTERUEBSR?ETZVERKEHRX",
+      "key_period": "Nov7-9",
+      "provenance": "Independent manual transcription and second-agent visual check of every group. Row2group3 has literal C in DGCFX; preserved in raw source and masked as erasure for analysis.",
+      "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+    },
+    {
+      "id": "p164_D",
+      "raw_ciphertext": "FXDDVFVVVGAAVAFXVGXDVGGVXDDVAXAFVFXXGFVVGVVGVAFDAAGAFVGGVVXGAVGGDDGXXDDFAGDXXVFXFGGVGVVGVFGAVDVVVVFAVDXDVDFXDXFXFDDV",
+      "ciphertext": "FXDDVFVVVGAAVAFXVGXDVGGVXDDVAXAFVFXXGFVVGVVGVAFDAAGAFVGGVVXGAVGGDDGXXDDFAGDXXVFXFGGVGVVGVFGAVDVVVVFAVDXDVDFXDXFXFDDV",
+      "plaintext": "ANOXHXLXDORTNOXRMX1A11329OPXGEHXERHAITENOXKXMXRMX1AI1312OP",
+      "key_period": "Nov7-9",
+      "provenance": "Independent manual transcription, then all groups checked by a second agent against source_audit/childs_p164.png. Row3group2 corrected to source-attested VVGVF.",
+      "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+    }
+  ],
+  "variants": [
+    {
+      "id": "A3_source_only",
+      "source_id": "p164_A3",
+      "scope": "Source coordinates only; no repair or completion",
+      "expected_analysis": {
+        "corrected_length": 242,
+        "known_coordinates": 158,
+        "erased_coordinates": 84,
+        "raw_partial_plaintext": "???X?X?1?T???E?A?X?E?????N?S?E?????V?P?T??FN?X?N?M??1??R???D??V??X?I?C??A1?W?S?E??NF?U?D????G??E?D???????O?G???????S?T???",
+        "fixed_plaintext_characters": 42,
+        "compatible_plaintexts_for_each_fixed_digit_assignment": "231582123678838102672736490567111386503858361810075859110326173696",
+        "compatible_plaintext_intersection_across_digit_assignments": "0",
+        "distinct_compatible_plaintexts_across_both_digit_assignments": "463164247357676205345472981134222773007716723620151718220652347392",
+        "full_analysis_sha256": "c8eef074ab9cca3668e45c75495ec3a78f92d094502e758566cb7c406405bf8f"
+      }
+    },
+    {
+      "id": "A3_comment42_known_edits_only",
+      "source_id": "p164_A3",
+      "scope": "2017 prior-art known-symbol substitutions only; all original erasures retained",
+      "known_symbol_substitutions": [
+        {
+          "source_index": 12,
+          "observed": "F",
+          "replacement": "X"
+        },
+        {
+          "source_index": 49,
+          "observed": "V",
+          "replacement": "X"
+        },
+        {
+          "source_index": 55,
+          "observed": "G",
+          "replacement": "D"
+        },
+        {
+          "source_index": 56,
+          "observed": "X",
+          "replacement": "V"
+        },
+        {
+          "source_index": 239,
+          "observed": "G",
+          "replacement": "D"
+        }
+      ],
+      "expected_analysis": {
+        "corrected_length": 242,
+        "known_coordinates": 158,
+        "erased_coordinates": 84,
+        "raw_partial_plaintext": "???X?X?N?T???S?A?X?E?????N?S?E?????V?P?T??FN?X?N?M??1??R???D??V??X?I?C??AC?W?S?E??ND?U?D????G??E?D???????O?G???????S?T???",
+        "fixed_plaintext_characters": 42,
+        "compatible_plaintexts_for_each_fixed_digit_assignment": "231582123678838102672736490567111386503858361810075859110326173696",
+        "compatible_plaintext_intersection_across_digit_assignments": "0",
+        "distinct_compatible_plaintexts_across_both_digit_assignments": "463164247357676205345472981134222773007716723620151718220652347392",
+        "full_analysis_sha256": "10beccbf3293ed16c67004832e8fd9180d926f7125838a5ba1765fbee93516f1"
+      }
+    },
+    {
+      "id": "A3_comment47_date_variant_known_edits_only",
+      "source_id": "p164_A3",
+      "scope": "2017 revised date hypothesis; F at source12 remains unchanged",
+      "known_symbol_substitutions": [
+        {
+          "source_index": 49,
+          "observed": "V",
+          "replacement": "X"
+        },
+        {
+          "source_index": 55,
+          "observed": "G",
+          "replacement": "D"
+        },
+        {
+          "source_index": 56,
+          "observed": "X",
+          "replacement": "V"
+        },
+        {
+          "source_index": 239,
+          "observed": "G",
+          "replacement": "D"
+        }
+      ],
+      "expected_analysis": {
+        "corrected_length": 242,
+        "known_coordinates": 158,
+        "erased_coordinates": 84,
+        "raw_partial_plaintext": "???X?X?1?T???S?A?X?E?????N?S?E?????V?P?T??FN?X?N?M??1??R???D??V??X?I?C??AC?W?S?E??ND?U?D????G??E?D???????O?G???????S?T???",
+        "fixed_plaintext_characters": 42,
+        "compatible_plaintexts_for_each_fixed_digit_assignment": "231582123678838102672736490567111386503858361810075859110326173696",
+        "compatible_plaintext_intersection_across_digit_assignments": "0",
+        "distinct_compatible_plaintexts_across_both_digit_assignments": "463164247357676205345472981134222773007716723620151718220652347392",
+        "full_analysis_sha256": "fa1702e58489adb564f62afa9bac2536f1ee4b174f971d759c62f1ac5b1c0f7e"
+      }
+    },
+    {
+      "id": "A3_comment42_full_proposal",
+      "source_id": "p164_A3",
+      "scope": "2017 conjectural partial completion: five known-symbol changes and63 filled erasures",
+      "known_symbol_substitutions": [
+        {
+          "source_index": 12,
+          "observed": "F",
+          "replacement": "X"
+        },
+        {
+          "source_index": 49,
+          "observed": "V",
+          "replacement": "X"
+        },
+        {
+          "source_index": 55,
+          "observed": "G",
+          "replacement": "D"
+        },
+        {
+          "source_index": 56,
+          "observed": "X",
+          "replacement": "V"
+        },
+        {
+          "source_index": 239,
+          "observed": "G",
+          "replacement": "D"
+        }
+      ],
+      "erasure_fills": [
+        {
+          "source_index": 1,
+          "replacement": "D"
+        },
+        {
+          "source_index": 44,
+          "replacement": "G"
+        },
+        {
+          "source_index": 45,
+          "replacement": "D"
+        },
+        {
+          "source_index": 46,
+          "replacement": "G"
+        },
+        {
+          "source_index": 47,
+          "replacement": "V"
+        },
+        {
+          "source_index": 50,
+          "replacement": "V"
+        },
+        {
+          "source_index": 54,
+          "replacement": "X"
+        },
+        {
+          "source_index": 57,
+          "replacement": "V"
+        },
+        {
+          "source_index": 58,
+          "replacement": "V"
+        },
+        {
+          "source_index": 59,
+          "replacement": "X"
+        },
+        {
+          "source_index": 61,
+          "replacement": "D"
+        },
+        {
+          "source_index": 62,
+          "replacement": "X"
+        },
+        {
+          "source_index": 66,
+          "replacement": "G"
+        },
+        {
+          "source_index": 67,
+          "replacement": "F"
+        },
+        {
+          "source_index": 68,
+          "replacement": "X"
+        },
+        {
+          "source_index": 69,
+          "replacement": "A"
+        },
+        {
+          "source_index": 70,
+          "replacement": "A"
+        },
+        {
+          "source_index": 71,
+          "replacement": "X"
+        },
+        {
+          "source_index": 72,
+          "replacement": "V"
+        },
+        {
+          "source_index": 74,
+          "replacement": "A"
+        },
+        {
+          "source_index": 75,
+          "replacement": "A"
+        },
+        {
+          "source_index": 79,
+          "replacement": "D"
+        },
+        {
+          "source_index": 80,
+          "replacement": "X"
+        },
+        {
+          "source_index": 81,
+          "replacement": "A"
+        },
+        {
+          "source_index": 82,
+          "replacement": "D"
+        },
+        {
+          "source_index": 83,
+          "replacement": "D"
+        },
+        {
+          "source_index": 84,
+          "replacement": "D"
+        },
+        {
+          "source_index": 86,
+          "replacement": "G"
+        },
+        {
+          "source_index": 87,
+          "replacement": "X"
+        },
+        {
+          "source_index": 91,
+          "replacement": "X"
+        },
+        {
+          "source_index": 92,
+          "replacement": "V"
+        },
+        {
+          "source_index": 93,
+          "replacement": "D"
+        },
+        {
+          "source_index": 94,
+          "replacement": "D"
+        },
+        {
+          "source_index": 95,
+          "replacement": "G"
+        },
+        {
+          "source_index": 96,
+          "replacement": "D"
+        },
+        {
+          "source_index": 97,
+          "replacement": "G"
+        },
+        {
+          "source_index": 98,
+          "replacement": "A"
+        },
+        {
+          "source_index": 99,
+          "replacement": "G"
+        },
+        {
+          "source_index": 101,
+          "replacement": "A"
+        },
+        {
+          "source_index": 103,
+          "replacement": "A"
+        },
+        {
+          "source_index": 104,
+          "replacement": "D"
+        },
+        {
+          "source_index": 105,
+          "replacement": "D"
+        },
+        {
+          "source_index": 106,
+          "replacement": "G"
+        },
+        {
+          "source_index": 107,
+          "replacement": "A"
+        },
+        {
+          "source_index": 108,
+          "replacement": "D"
+        },
+        {
+          "source_index": 109,
+          "replacement": "V"
+        },
+        {
+          "source_index": 110,
+          "replacement": "X"
+        },
+        {
+          "source_index": 111,
+          "replacement": "V"
+        },
+        {
+          "source_index": 113,
+          "replacement": "V"
+        },
+        {
+          "source_index": 114,
+          "replacement": "V"
+        },
+        {
+          "source_index": 115,
+          "replacement": "D"
+        },
+        {
+          "source_index": 116,
+          "replacement": "V"
+        },
+        {
+          "source_index": 117,
+          "replacement": "V"
+        },
+        {
+          "source_index": 118,
+          "replacement": "V"
+        },
+        {
+          "source_index": 119,
+          "replacement": "V"
+        },
+        {
+          "source_index": 120,
+          "replacement": "F"
+        },
+        {
+          "source_index": 122,
+          "replacement": "V"
+        },
+        {
+          "source_index": 123,
+          "replacement": "G"
+        },
+        {
+          "source_index": 131,
+          "replacement": "G"
+        },
+        {
+          "source_index": 132,
+          "replacement": "D"
+        },
+        {
+          "source_index": 134,
+          "replacement": "V"
+        },
+        {
+          "source_index": 181,
+          "replacement": "V"
+        },
+        {
+          "source_index": 227,
+          "replacement": "A"
+        }
+      ],
+      "expected_analysis": {
+        "corrected_length": 242,
+        "known_coordinates": 221,
+        "erased_coordinates": 21,
+        "raw_partial_plaintext": "???X?XINXTEMESVARXBEFRIEDNISXE?????V?P?T??FN?XUNDM??1??R??XDIEVONXMIRCONACHWESTENUNDSUEDENWEGXLEIDERWEGEVOMGEGNERBESETZTX",
+        "fixed_plaintext_characters": 101,
+        "compatible_plaintexts_for_each_fixed_digit_assignment": "21936950640377856",
+        "compatible_plaintext_intersection_across_digit_assignments": "0",
+        "distinct_compatible_plaintexts_across_both_digit_assignments": "43873901280755712",
+        "full_analysis_sha256": "194bfd301ffc418985d46b5ce5abea8947498357b476f04d3a86aff75efe16c9"
+      }
+    },
+    {
+      "id": "A4_source_only",
+      "source_id": "p164_A4",
+      "scope": "New contextual sibling; received198slots retained despite188header",
+      "expected_analysis": {
+        "corrected_length": 198,
+        "known_coordinates": 185,
+        "erased_coordinates": 13,
+        "raw_partial_plaintext": "VORG?OSSDX?A?GESESSEK?NX4X1XGXD?AGXGTIESSWES?LX?IRCOAUFGTAER0EREFGEGNERX?IY?OWURDE?OMGEGNER??SETSTX",
+        "fixed_plaintext_characters": 87,
+        "compatible_plaintexts_for_each_fixed_digit_assignment": "13060694016",
+        "compatible_plaintext_intersection_across_digit_assignments": "7558272000",
+        "distinct_compatible_plaintexts_across_both_digit_assignments": "18563116032",
+        "full_analysis_sha256": "176ec2ea5e03063095affc33fa3929782a116f48886e86b2c067e9fa1a1aeba9"
+      }
+    },
+    {
+      "id": "A5_comment41_geometry_only",
+      "source_id": "p164_A5",
+      "scope": "2017 length repair only; raw177is odd and cannot be complete ordinary ADFGVX",
+      "deletions": [
+        {
+          "source_index": 3,
+          "observed": "A"
+        },
+        {
+          "source_index": 176,
+          "observed": "?"
+        }
+      ],
+      "insertions": [
+        {
+          "source_index": 18,
+          "value": "?"
+        }
+      ],
+      "expected_analysis": {
+        "corrected_length": 176,
+        "known_coordinates": 135,
+        "erased_coordinates": 41,
+        "raw_partial_plaintext": "ELXD??HO??EX828?OE??LX9IR?O???NS?KE?J???EI?NI?SE??NB?DE?TU??XX?KM?1A??31?XO?XR??SF?2O?D?",
+        "fixed_plaintext_characters": 53,
+        "compatible_plaintexts_for_each_fixed_digit_assignment": "80204967233062404407033075859456",
+        "compatible_plaintext_intersection_across_digit_assignments": "26860481246069102984822784000000",
+        "distinct_compatible_plaintexts_across_both_digit_assignments": "133549453220055705829243367718912",
+        "full_analysis_sha256": "8f0bfcf5243a3debfe9a1c0f0aeb988d83d929894d488ecb142bea96000acab2"
+      }
+    },
+    {
+      "id": "A5_comment41_known_edits_only",
+      "source_id": "p164_A5",
+      "scope": "2017 geometry and two known-symbol substitutions; all original erasures retained",
+      "known_symbol_substitutions": [
+        {
+          "source_index": 80,
+          "observed": "F",
+          "replacement": "V"
+        },
+        {
+          "source_index": 109,
+          "observed": "F",
+          "replacement": "G"
+        }
+      ],
+      "deletions": [
+        {
+          "source_index": 3,
+          "observed": "A"
+        },
+        {
+          "source_index": 176,
+          "observed": "?"
+        }
+      ],
+      "insertions": [
+        {
+          "source_index": 18,
+          "value": "?"
+        }
+      ],
+      "expected_analysis": {
+        "corrected_length": 176,
+        "known_coordinates": 135,
+        "erased_coordinates": 41,
+        "raw_partial_plaintext": "ELXD??HO??EX828?OE??LX9IR?O???NS?KE?N???EI?NI?SE??NB?DE?TU??XX?KM?1A??31?XO?XR??SF?2O?D?",
+        "fixed_plaintext_characters": 53,
+        "compatible_plaintexts_for_each_fixed_digit_assignment": "80204967233062404407033075859456",
+        "compatible_plaintext_intersection_across_digit_assignments": "32232577495282923581787340800000",
+        "distinct_compatible_plaintexts_across_both_digit_assignments": "128177356970841885232278810918912",
+        "full_analysis_sha256": "3b65eb467f20eff031f40bb175c78afc73e42f6d376fa2a65037ab4938fbd446"
+      }
+    },
+    {
+      "id": "A5_comment41_full_proposal",
+      "source_id": "p164_A5",
+      "scope": "2017 conjectural partial completion: geometry, two known-symbol substitutions and25 filled erasures",
+      "known_symbol_substitutions": [
+        {
+          "source_index": 80,
+          "observed": "F",
+          "replacement": "V"
+        },
+        {
+          "source_index": 109,
+          "observed": "F",
+          "replacement": "G"
+        }
+      ],
+      "erasure_fills": [
+        {
+          "source_index": 23,
+          "replacement": "A"
+        },
+        {
+          "source_index": 27,
+          "replacement": "X"
+        },
+        {
+          "source_index": 91,
+          "replacement": "V"
+        },
+        {
+          "source_index": 92,
+          "replacement": "G"
+        },
+        {
+          "source_index": 93,
+          "replacement": "V"
+        },
+        {
+          "source_index": 115,
+          "replacement": "G"
+        },
+        {
+          "source_index": 144,
+          "replacement": "V"
+        },
+        {
+          "source_index": 145,
+          "replacement": "V"
+        },
+        {
+          "source_index": 151,
+          "replacement": "V"
+        },
+        {
+          "source_index": 152,
+          "replacement": "X"
+        },
+        {
+          "source_index": 154,
+          "replacement": "G"
+        },
+        {
+          "source_index": 155,
+          "replacement": "X"
+        },
+        {
+          "source_index": 156,
+          "replacement": "V"
+        },
+        {
+          "source_index": 160,
+          "replacement": "V"
+        },
+        {
+          "source_index": 161,
+          "replacement": "D"
+        },
+        {
+          "source_index": 162,
+          "replacement": "F"
+        },
+        {
+          "source_index": 163,
+          "replacement": "A"
+        },
+        {
+          "source_index": 164,
+          "replacement": "F"
+        },
+        {
+          "source_index": 165,
+          "replacement": "D"
+        },
+        {
+          "source_index": 168,
+          "replacement": "D"
+        },
+        {
+          "source_index": 169,
+          "replacement": "V"
+        },
+        {
+          "source_index": 170,
+          "replacement": "D"
+        },
+        {
+          "source_index": 171,
+          "replacement": "D"
+        },
+        {
+          "source_index": 172,
+          "replacement": "G"
+        },
+        {
+          "source_index": 173,
+          "replacement": "X"
+        }
+      ],
+      "deletions": [
+        {
+          "source_index": 3,
+          "observed": "A"
+        },
+        {
+          "source_index": 176,
+          "observed": "?"
+        }
+      ],
+      "insertions": [
+        {
+          "source_index": 18,
+          "value": "?"
+        }
+      ],
+      "expected_analysis": {
+        "corrected_length": 176,
+        "known_coordinates": 160,
+        "erased_coordinates": 16,
+        "raw_partial_plaintext": "ELXDIEHOEHEX828HOEHELX9IR?OXSONSTKEINEEREIGNISSEVONBEDEUTUNGXX?KM?1A??31?XO?XR??SF?2O?D?",
+        "fixed_plaintext_characters": 76,
+        "compatible_plaintexts_for_each_fixed_digit_assignment": "2821109907456",
+        "compatible_plaintext_intersection_across_digit_assignments": "1959104102400",
+        "distinct_compatible_plaintexts_across_both_digit_assignments": "3683115712512",
+        "full_analysis_sha256": "3735eb260200c8b239f5446b70c3ec696e10c71564014c2646fe42537f197898"
+      }
+    },
+    {
+      "id": "C1_source_only",
+      "source_id": "p164_C1",
+      "scope": "Source-only contextual five-part UKS transmission; relationship to A3-A5 is plausible but unproved",
+      "expected_analysis": {
+        "corrected_length": 248,
+        "known_coordinates": 243,
+        "erased_coordinates": 5,
+        "raw_partial_plaintext": "AOKX11ABENDM?LDUNG8XC1X1?XLAGSTE0?1XARMEEAM7X11XABENDSXDONA?UEBERGANG219XIXDXBEENDZTXBELGRADXSEMUMLEBHAFTERUEBSR?ETZVERKEHRX",
+        "fixed_plaintext_characters": 119,
+        "compatible_plaintexts_for_each_fixed_digit_assignment": "7776",
+        "compatible_plaintext_intersection_across_digit_assignments": "7776",
+        "distinct_compatible_plaintexts_across_both_digit_assignments": "7776",
+        "full_analysis_sha256": "3e2e1879543d5836bce32b2364c790f00b598672767e2578e9a429f507ad8904"
+      }
+    },
+    {
+      "id": "D_source_only",
+      "source_id": "p164_D",
+      "scope": "Source-only contextual acknowledgement; no cryptographic repair",
+      "expected_analysis": {
+        "corrected_length": 116,
+        "known_coordinates": 116,
+        "erased_coordinates": 0,
+        "raw_partial_plaintext": "ANOXHXLXDORTNOXRMX1A11329OPXGEHXERHAITENOXKXMXRMX1AI1312OP",
+        "fixed_plaintext_characters": 58,
+        "compatible_plaintexts_for_each_fixed_digit_assignment": "1",
+        "compatible_plaintext_intersection_across_digit_assignments": "1",
+        "distinct_compatible_plaintexts_across_both_digit_assignments": "1",
+        "full_analysis_sha256": "7b9a203d34affa43a93314a47ea90b75d0c0ec6e684718be25975c18db6ff92c"
+      }
+    }
+  ],
+  "prior_art": {
+    "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+    "comments": [
+      41,
+      42,
+      43,
+      44,
+      47
+    ],
+    "author": "Norbert",
+    "dates": [
+      "2017-03-13",
+      "2017-03-14"
+    ],
+    "note": "The original author explicitly described the fillings as suggestions and gave no guarantee. Lowercase ciphertext was conjectural; struck letters were corrections/deletions. The current audit preserves that distinction."
+  },
+  "comment44_revised_prefix_audit": {
+    "proposed_prefix": "ELXDIEHOEHEX828XOXHXLXMIRCOXSONSTKEINEEREIGNISSEVONBEDEUTUNGXX",
+    "compared_to": "A5_comment41_known_edits_only",
+    "incompatible_positions": [
+      {
+        "plaintext_index": 17,
+        "proposed": "X",
+        "allowed": "E",
+        "coordinate_pair": "DV"
+      },
+      {
+        "plaintext_index": 22,
+        "proposed": "M",
+        "allowed": "9",
+        "coordinate_pair": "GF"
+      }
+    ],
+    "note": "The revised OXHXLXMIRCO reading needs additional known-coordinate changes: two coordinates for E→X at plaintext17 and one for9→M at22. It is not forced by the two previously declared substitutions alone."
+  },
+  "caveats": [
+    "The source normalization assumes five-slot interior groups; several poorly printed erasure runs on A3 do not reveal exact placement independently. Those assumptions are retained in each source record.",
+    "Raw A5 has177source slots, an odd total. Ordinary complete ADFGVX requires an even number. The176-slot model is inherited from prior art and is explicitly conditional.",
+    "A3 comment42 fills63erased coordinates and changes five known ones. A5 comment41 fills25erased coordinates and changes two known ones in addition to its length repair. These are not new observations.",
+    "Nov7-9 square cells for digits5and6 are unassigned. The audit enumerates both globally consistent assignments and reports their union; it never assigns the digit independently at each occurrence.",
+    "The new A4 sibling and C1 contextual helper have direct readable fragments but retain source garbles. They do not uniquely supply the erased positions of A3 or A5.",
+    "C1 is an earlier five-part UKS transmission on the same date, and its evening report concerns the Danube crossing at Belgrade. Its identity with the A3-A5 multipart message remains a hypothesis.",
+    "The printedp163eighteen-part message is separate and cannot be silently used as the missing first two parts."
+  ]
+}
