@@ -1,0 +1,177 @@
+# German tonnage and proposed ship sales to Turkey
+
+**Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
+
+A three-part Marineamt instruction says that selling German ships to
+Turkey is advisable only in the most extreme emergency. It warns that the
+Turkish interest appears to be acquiring German tonnage more than
+transporting Germans away, requires immediate payment and authorization,
+and gives price terms for `GENERAL` and a second vessel whose received
+name varies between `KERKIJRA` and `KEHKYRA`.
+
+This is distinct from the [Corcovado sale correspondence](corcovado_sale_terms.md).
+The primary source is J. Rives Childs, *General Solution of the ADFGVX
+Cipher System*, printed p177, PDF p180, record B. Its page heading says
+November 11, 1918; the receipt line says `NKJ v LP (2.55 a.m., November 12th)`;
+the origin line reads `1410 (11/11)`, `3 TLE`. These dates are retained as
+printed.
+
+The [literal source edition](../../experiments/turkish_tonnage/inputs.json)
+uses the published `Nov10-12` partial square and transposition order.
+The [exact certificate](../../experiments/turkish_tonnage/certificates.json)
+contains every source coordinate, raw plaintext domain, proposed repair
+and the two tied models of the second part. Published key authorship is
+preserved in the inputs. A bounded check found no explicit body discussion
+of this ship-sale instruction in the checked Lasry and colleagues paper,
+its corresponding dissertation chapter or the cached 55 comments on the
+2017 ScienceBlogs post. No universal historical-priority claim is made.
+
+## B1: sale only in an extreme emergency
+
+The first part contains all 330 advertised slots. The first 40 coordinates,
+which were split into a separate block by the OCR extraction, are simply
+the first printed grid row. They are retained in their original order.
+Source index 280 is the invalid `C` at the beginning of `CGVAD`.
+The raw 165-position reading is:
+
+```text
+MMDXXAUFTELEGRAMMVOM?X11XVERKAUFGENERALKERKIJRANURIMAEUSSERSTENNOTFALLRATSAMX?ONHIERWIRDERSUCHTA3SWA?FENSTILLSTANDSBEDINGUNGABTRANSPORT?ITDEUTSCHERTONNAGEZUERWIRKENX
+```
+
+Three observed-coordinate substitutions and the invalid-coordinate fill
+produce this 164/165-position candidate:
+
+```text
+MMDXXAUFTELEGRAMMVOM?X11XVERKAUFGENERALKERKIJRANURIMAEUSSERSTENNOTFALLRATSAMXVONHIERWIRDERSUCHTALSWAFFENSTILLSTANDSBEDINGUNGABTRANSPORTMITDEUTSCHERTONNAGEZUERWIRKENX
+```
+
+Addressed to the M.M.D., it refers to a telegram of an unresolved November
+date. Sale of `GENERAL` and `KERKIJRA` is advisable only in the most extreme
+emergency. The sender is trying to obtain transport using German tonnage
+as an armistice condition.
+
+The source's eight-character `KERKIJRA` is preserved. It is not silently
+shortened to the seven-character spelling proposed in the third part.
+The unknowns in `?ON` and `?IT` come from unfilled numerical cells, so their
+ordinary-word repairs to `VON` and `MIT` explicitly change received
+coordinates; they are not consequences of filling those key cells.
+
+## B2: Turkish motives and immediate payment
+
+The second part advertises 296 coordinates but prints **295 valid
+coordinates**. Row 6, group 7 is `GDXV`, with only four letters.
+The representative model inserts a single erased coordinate at boundary
+232, inside that deficient group. Its raw 148-position reading is:
+
+```text
+WUNSCHDERTUERKENRICHTETSICHWOHLMEHRAUFERWERBDEUTSCHERTONNAGEALSAUFABTRANSPORTD?UTSCHERXVORSICHTGEBOTENXXREEDERWOLLENNURGEGENSOFORTIIEKASSEV?RKAUFENX
+```
+
+All **296** possible single-loss boundaries are screened against the same
+ordinary-word candidate. **Boundaries 232 and 233 tie** for the minimum of
+two changes to observed coordinates. The second tied model has the raw
+fragment `ABTRANSPORTDEUTSCHER?VORSICHT`, instead of the first model's
+`ABTRANSPORTD?UTSCHERXVORSICHT`. Both fill the inserted coordinate with `X`,
+restoring the same five-letter group `GDXXV`, and both give the identical
+complete corrected ciphertext.
+
+Two observed-coordinate changes, plus that one missing-coordinate fill,
+yield this exactly reencryptable candidate:
+
+```text
+WUNSCHDERTUERKENRICHTETSICHWOHLMEHRAUFERWERBDEUTSCHERTONNAGEALSAUFABTRANSPORTDEUTSCHERXVORSICHTGEBOTENXXREEDERWOLLENNURGEGENSOFORTIGEKASSEVERKAUFENX
+```
+
+The sender suspects that the Turkish aim is more to acquire German tonnage
+than to transport Germans away. Caution is required. The shipowners wish
+to sell only for immediate cash payment. The source does not distinguish
+which of the adjacent identical `X` coordinates was lost, and the edition
+does not force a unique loss boundary.
+
+## B3: prior authorization and prices
+
+All 374 coordinates are valid. The raw 187-position reading is:
+
+```text
+FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGVNEHMIGUNGXFORDERUNGGENERAL1200MARKKEHKYRATAUSEN?MARKFUERZRUTTOREGISTERTONNEXXMARINEAMTXXA?S22?4?
+```
+
+Four observed-coordinate substitutions support this candidate:
+
+```text
+FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGENEHMIGUNGXFORDERUNGGENERAL1200MARKKERKYRATAUSENDMARKFUERBRUTTOREGISTERTONNEXXMARINEAMTXXA?S22?4?
+```
+
+If the recipient regards sale as impossible to postpone, it must report
+by telegraph. It must not sell without authorization. The price clause
+reads `GENERAL1200MARKKERKYRATAUSENDMARKFUERBRUTTOREGISTERTONNE`: 1,200 marks
+for General and 1,000 marks for the second vessel, per gross register ton.
+The first `1200MARK` field is directly observed in full. The second amount
+is raw `TAUSEN?`; the final `D` is an explicit one-coordinate ordinary-word
+repair. The `Z` to `B` in `BRUTTO` and the `H` to `R` in the candidate
+`KERKYRA` are also priced repairs.
+
+No external ship identification is needed to decode these words, and this
+edition does not claim to settle the vessels' later histories. The whole
+reference ending remains `A?S22?4?` under the unchanged partial key.
+
+## Applying the separate XX=6 hypothesis
+
+The Corcovado package separately argues that the Marineamt office/file
+prefix is `A6S`, using a later independently observed `SECHS`. It keeps that
+association conditional. This edition applies its **Nov10–12 `XX=6`**
+hypothesis uniformly to every source and repaired variant; the p177
+reference is not used to derive the hypothesis anew.
+
+| Physical occurrence | Plaintext index | Source indices | Conditional effect |
+| --- | ---: | --- | --- |
+| B1 referred date | 20 | 270, 22 | `VOM?X11` becomes `VOM6X11` |
+| B2 received ordinary word | 139 | 293, 108 | `V?RKAUFEN` becomes **`V6RKAUFEN`** |
+| B3 office prefix | 180 | 327, 45 | `A?S` becomes `A6S` |
+| B3 reference tail | 184 | 210, 281 | `22?4?` becomes `2264?` |
+
+All indices are zero-based. The B2 occurrence is a received garble under
+the condition; it is retained, not suppressed. The independent
+ordinary-word repair changes that received `XX` pair to the known pair
+for `E`, so this conditional `6` is absent from the repaired candidate.
+Only the other three fixed positions persist after ordinary-word repairs.
+Both B2 frame alternatives include the same physical `V6RKAUFEN` effect.
+
+Every marginal-domain change is retained as well. In B1, the raw domains
+at positions 77 (`FD`) and 135 (`GF`) shrink from `56789` to `5789`, while
+position 100 (`?F`) shrinks from `056789BFHR` to `05789BFHR`. In the alternate
+B2 gap-233 model, position 86 (`G?`) shrinks from `56789DJLMX` to
+`5789DJLMX`; the representative gap-232 model instead retains a different
+raw erasure at position 78, domain `2CEHQW`. In B3, both raw `GF` positions,
+138 and 186, shrink from `56789` to `5789`. Position 138 is separately
+repaired to the `D` of `TAUSEND`; position 186 remains unresolved.
+
+The conditional date `6/11` has not been independently tied to an earlier
+same-vessel telegram. It must not be used to select a presumed original
+message and then cited as proof of its own key assignment. No reference
+tail is equated to a Corcovado reference.
+
+## Scope and verification
+
+The three records have **999 printed slots**, **998 valid coordinates**,
+and **1,000 modeled coordinates**, yielding **500 plaintext positions**.
+The raw source models fix **490** positions. Nine observed-coordinate
+substitutions, one invalid-`C` fill and one missing-coordinate fill give
+**496/500** fixed candidate positions. The separate conditional `XX=6`
+layer fixes three additional candidate positions, giving **499/500**.
+The final reference cell `GF` retains the domain `5789`.
+
+The [verifier](../../experiments/turkish_tonnage/verify.py) recomputes the
+independent transposition and raw domains, every exact repair, all 296 gap
+candidates, both tied models and all eight conditional source/candidate
+variants. Full readings reencrypt exactly; partial readings retain their
+explicit unresolved coordinates and domains.
+
+```bash
+python experiments/turkish_tonnage/verify.py --verify
+python experiments/turkish_tonnage/verify.py --verify --pdf /path/to/childs.pdf
+```
+
+The PDF option verifies the complete primary source hash and rerenders all
+three crops pixel-for-pixel. The conditional dependency is bound by its
+certificate hash, with the baseline square left unchanged.

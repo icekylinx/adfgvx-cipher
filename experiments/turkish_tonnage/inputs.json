@@ -1,0 +1,341 @@
+{
+  "schema": "adfgvx-turkish-tonnage-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov10-12",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      9,
+      12,
+      7,
+      11,
+      3,
+      8,
+      16,
+      6,
+      14,
+      2,
+      10,
+      15,
+      5,
+      13,
+      1,
+      4
+    ],
+    "column_count": 16,
+    "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+    "square_rows": [
+      "4ARUT1",
+      "OIFSKN",
+      "3?BZPV",
+      "LD?JMX",
+      "CWHQ2E",
+      "?G0?Y?"
+    ],
+    "known_cell_count": 31,
+    "missing_plaintext_symbols": "56789",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 242,
+        "pdf_page_1based": 245,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "The historical appendix also labels this table December 1-3."
+    ],
+    "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+    "baseline_differences": [
+      {
+        "coordinate": "FD",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GF",
+        "baseline": "6",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "7",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XG",
+        "baseline": "8",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XX",
+        "baseline": "9",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+    "previously_published_completion": {
+      "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-02",
+      "comment": 26,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "FD",
+          "proposed": "5"
+        },
+        {
+          "row_column": "GF",
+          "proposed": "6"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "7"
+        },
+        {
+          "row_column": "XG",
+          "proposed": "8"
+        },
+        {
+          "row_column": "XX",
+          "proposed": "9"
+        }
+      ]
+    }
+  },
+  "source_images": [
+    {
+      "id": "p177_B1",
+      "path": "sources/p177_B1.png",
+      "printed_page": 177,
+      "pdf_page_1based": 180,
+      "crop_pdf_points": [
+        42,
+        285,
+        512,
+        430
+      ],
+      "render_scale": 4,
+      "sha256": "46264e35742a89e7061b640eca3fc514e6d5422e19106c8e1ab11cf018c8a7e2"
+    },
+    {
+      "id": "p177_B2",
+      "path": "sources/p177_B2.png",
+      "printed_page": 177,
+      "pdf_page_1based": 180,
+      "crop_pdf_points": [
+        60,
+        433,
+        512,
+        527
+      ],
+      "render_scale": 4,
+      "sha256": "a45d8b1c8ce4b5696893bb10b86844b76db1dbdb2b9abfbd5a905e350b2db91a"
+    },
+    {
+      "id": "p177_B3",
+      "path": "sources/p177_B3.png",
+      "printed_page": 177,
+      "pdf_page_1based": 180,
+      "crop_pdf_points": [
+        60,
+        531,
+        512,
+        652
+      ],
+      "render_scale": 4,
+      "sha256": "367eab14c05cb3f908e1520c2074aad615d7070c9c8425626c4face76cdf8d97"
+    }
+  ],
+  "records": [
+    {
+      "id": "p177_B1",
+      "printed_page": 177,
+      "pdf_page_1based": 180,
+      "source_section": "B1",
+      "source_image_id": "p177_B1",
+      "key_id": "Nov10-12",
+      "header": "B) NKJ v LP (2.55 a.m., November 12th); 1410 (11/11); 3 TLE; 1 TL RICHI-330",
+      "page_date_heading": "11th NOVEMBER, 1918.",
+      "source_rows": [
+        "DGADD DDDAD GADAD AGVAD XDXVF GDVAX DAFAX DAGAX",
+        "XGGDV DDDAD AVDVD DDDGA FVFVX FVXGX DXDDX DXFFA",
+        "DDAAA AGAAD ADAAV ADAAD DVXXV FXDVG DVFGD AFDVX",
+        "VGXGV FFVAA VADDA DAGAD AVVDD AAXXV DFFDX GDDGX",
+        "GDFGX GAGGX VADDA VVFDD XADVX AAAGA AAVVG FDVDD",
+        "GFAAD AVXXX XFFXV GDFGV DGXVX XVVVV XDXGG AVFXA",
+        "GXDDD FDFGD XGADG XFAFV XVDVV GXDGX XDAGA AGGVV",
+        "CGVAD ADVGD FXDDF XXADD FFGDF FVXFG VGAVD GDAGA",
+        "AAGFX FVAAD"
+      ],
+      "source_slots": 330,
+      "advertised_length": 330,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "MMDXXAUFTELEGRAMMVOM?X11XVERKAUFGENERALKERKIJRANURIMAEUSSERSTENNOTFALLRATSAMX?ONHIERWIRDERSUCHTA3SWA?FENSTILLSTANDSBEDINGUNGABTRANSPORT?ITDEUTSCHERTONNAGEZUERWIRKENX",
+      "readable_candidate": "MMDXXAUFTELEGRAMMVOM?X11XVERKAUFGENERALKERKIJRANURIMAEUSSERSTENNOTFALLRATSAMXVONHIERWIRDERSUCHTALSWAFFENSTILLSTANDSBEDINGUNGABTRANSPORTMITDEUTSCHERTONNAGEZUERWIRKENX",
+      "notes": [
+        "The first 40 coordinates occupy the first printed grid row and are retained in normal reading order; the earlier OCR had split them into a separate block.",
+        "The first glyph of CGVAD, source index 280, is a literal invalid C and is a source erasure.",
+        "The raw ship spelling KERKIJRA is retained. No length-changing normalization to KERKYRA is made."
+      ]
+    },
+    {
+      "id": "p177_B2",
+      "printed_page": 177,
+      "pdf_page_1based": 180,
+      "source_section": "B2",
+      "source_image_id": "p177_B2",
+      "key_id": "Nov10-12",
+      "header": "B) NKJ v LP (2.55 a.m., November 12th); 1410 (11/11); 3 TLE; 2 TL RICHI-296",
+      "page_date_heading": "11th NOVEMBER, 1918.",
+      "source_rows": [
+        "VDDGA ADADA FXGDX DDAAF VAGDF DVVXA XXXGX FDAVV",
+        "AAVXA DVDDV VVDFD XXGVF VXDXG XDXAD AGGGV AGVAD",
+        "DAVGA GVADA AGXFD DFXXF FFDVD XXDXX AADVV VVADF",
+        "DAFVG XAVVX GAFFF FDDAA GAXXX DXXVA ADVVD DADAD",
+        "VAGVA DDVDV VDVAG AGAVD AADDD GVDAF XADFV GFFXA",
+        "DVXXD FFDXD GXGGV AXFAX FGFDX VAXGA GDXV XDFFD",
+        "DVAAD AGAAA AVVVV DDVAF VXFFX VAFDF FXFGA VVDVV",
+        "VAFVV FAVDA GDDDX G"
+      ],
+      "source_slots": 295,
+      "advertised_length": 296,
+      "model": {
+        "kind": "single_missing_coordinate",
+        "representative_source_boundary": 232,
+        "all_tied_source_boundaries": [
+          232,
+          233
+        ]
+      },
+      "expected_raw": "WUNSCHDERTUERKENRICHTETSICHWOHLMEHRAUFERWERBDEUTSCHERTONNAGEALSAUFABTRANSPORTD?UTSCHERXVORSICHTGEBOTENXXREEDERWOLLENNURGEGENSOFORTIIEKASSEV?RKAUFENX",
+      "readable_candidate": "WUNSCHDERTUERKENRICHTETSICHWOHLMEHRAUFERWERBDEUTSCHERTONNAGEALSAUFABTRANSPORTDEUTSCHERXVORSICHTGEBOTENXXREEDERWOLLENNURGEGENSOFORTIGEKASSEVERKAUFENX",
+      "notes": [
+        "The source contains 295 valid coordinates under RICHI-296. Row 6, group 7 is the four-letter GDXV, at source indices 230-233.",
+        "All 296 one-loss boundaries are screened against the same ordinary-word candidate. Gaps 232 and 233 tie globally at two changes to observed coordinates. Both fill X and lead to identical full ciphertext.",
+        "Representative gap 232 is a bookkeeping choice, not a claim of unique loss placement."
+      ]
+    },
+    {
+      "id": "p177_B3",
+      "printed_page": 177,
+      "pdf_page_1based": 180,
+      "source_section": "B3",
+      "source_image_id": "p177_B3",
+      "key_id": "Nov10-12",
+      "header": "B) NKJ v LP (2.55 a.m., November 12th); 1410 (11/11); 3 TLE; 3 TL RICHI-374",
+      "page_date_heading": "11th NOVEMBER, 1918.",
+      "source_rows": [
+        "ADAFV GAVGA DDAVX VDDAV GGVGV GDDDF GVDVX XXAVV",
+        "DFDXX XGVVV ADAVV AVFDA AAAGA VDAGG FFGFX XVXXV",
+        "XDFXF FGFVX XVVDA AFDGV FDDVG DXVVA DAAGA VAFFF",
+        "XDDFF VFXDG DFDVG DXDDA FADAV DDDVD XAVVG XDVAA",
+        "AGAAX XADXV AAFAX XFFDF FFXAF XFDAD DAVDG AFDVX",
+        "GDXDV ADAGA XGADV VAAAV ADVDX ADAAA DVVDD XGGFX",
+        "GDDXD DGXXV VXXFV DXAFV FFDFD AFXXX DDXFV XGAFV",
+        "VXAGD FGDFF XFFVA DVXGV VVXDV DDADX DAFAA AVGDG",
+        "DAAAD DDXDD XXXFD GXGAF FDXVD FGGXX GGAAV DVGVV",
+        "DVDXA AAAGF XDDA"
+      ],
+      "source_slots": 374,
+      "advertised_length": 374,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGVNEHMIGUNGXFORDERUNGGENERAL1200MARKKEHKYRATAUSEN?MARKFUERZRUTTOREGISTERTONNEXXMARINEAMTXXA?S22?4?",
+      "readable_candidate": "FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGENEHMIGUNGXFORDERUNGGENERAL1200MARKKERKYRATAUSENDMARKFUERBRUTTOREGISTERTONNEXXMARINEAMTXXA?S22?4?",
+      "notes": [
+        "All 374 source coordinates are valid.",
+        "The proposed same-length KEHKYRA to KERKYRA repair is an editorial spelling proposal; the earlier raw KERKIJRA is not silently shortened.",
+        "The whole office/reference ending A?S22?4? is kept unresolved in the baseline reading.",
+        "TAUSEN? uses an unfilled digit cell in the raw ciphertext. The word repair to TAUSEND changes one observed coordinate; it is not a digit assignment."
+      ]
+    }
+  ],
+  "conditional_key_layer": {
+    "path": "experiments/corcovado_sale_terms/certificates.json",
+    "sha256": "24c8644ccd2754d77d015ea796e6ba87938fd6e6c6eaca06706ab42db8d15b66",
+    "field": "conditional_office_prefix_layers.Nov10-12_layer",
+    "assignment": {
+      "XX": "6"
+    },
+    "status": "Propagation of the separately stated Corcovado office-prefix hypothesis; not a new independent key derivation.",
+    "no_reference_tail_equality_assumed": true,
+    "no_baseline_key_change": true
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "No explicit p177 three-part ship-sale body discussion was located in the checked paper text."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "No explicit p177 three-part ship-sale body discussion was located in the checked ADFGVX chapter."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit GENERAL/KERKYRA ship-sale body reading was located in the cached 55 comments."
+    }
+  }
+}

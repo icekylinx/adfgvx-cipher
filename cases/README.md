@@ -47,12 +47,16 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
 | [p217](p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 176 reviewed records
+## Other ciphertexts — 183 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p62 A](other/october_requests.md#p62-a--sofia-leaves-the-ring-circuit) | Sofia leaves the ring circuit; clear acknowledgment annotations retained | 62/62 raw positions; exact source frame; no repair | icekylinx and GPT-6 Astra Pro (2026) |
+| [p62 B](other/october_requests.md#p62-b--date-groups-before-weather-observation-telegrams) | Date groups requested before weather-observation telegrams | Conditional two-deletion layout; 91/93 raw positions; two known substitutions and two erasure fills | icekylinx and GPT-6 Astra Pro (2026) |
+| [p63 A](other/october_requests.md#p63-a--a-partially-readable-inspector-request) | Partial inspector request with Kress agreement and Gemoll signature | 114/135 positions proposed; 21-character technical span unassigned; 12 substitutions and two fills | icekylinx and GPT-6 Astra Pro (2026) |
+| [p65 A](other/october_requests.md#p65-a--accelerate-westernhagens-return) | Westernhagen urged to return with a market report before purchases begin | 130/130 raw positions; five explicit coordinate repairs; literal 0 retained | icekylinx and GPT-6 Astra Pro (2026) |
 | [p66 A](other/october_staffing.md#p66-a--an-abbreviated-tiflis-unit-response) | Abbreviated Tiflis mounted-unit and location response | 95/95 raw positions; no repair; unit abbreviations retained | icekylinx and GPT-6 Astra Pro (2026) |
 | [p66 B](other/october_staffing.md#p66-b--repeat-the-garbled-medical-telegram) | Leading medical officer asked to repeat a garbled telegram | 142/142 raw positions; two explicit coordinate substitutions | icekylinx and GPT-6 Astra Pro (2026) |
 | [p66 C1](other/october_staffing.md#p66-c1-and-p67-a2--bavarian-command-appointments) | Graf von Seyboltstorff ordered to the 4th Bavarian Cavalry Brigade | 143/143 raw positions; one surname-ending coordinate repair; both unit numerals 4 direct | icekylinx and GPT-6 Astra Pro (2026) |
@@ -142,6 +146,9 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p174 C](other/seifert.md) | Query about Seifert's return | 24/24 positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
 | [p174 D](other/seifert.md) | Repeated immediate listening instruction | Identical to p172 B; no digit inferred from repetition | icekylinx and GPT-6 Astra Pro (2026) |
 | [p174 E](other/seifert.md) | Seifert has departed | Two explicit coordinate repairs for the name | icekylinx and GPT-6 Astra Pro (2026) |
+| [p177 B1](other/turkish_tonnage.md) | Proposed sales of GENERAL and raw KERKIJRA only in an extreme emergency | 161/165 raw; three coordinate changes and one invalid-C fill; referred date separately conditional | icekylinx and GPT-6 Astra Pro (2026); published period key credited separately |
+| [p177 B2](other/turkish_tonnage.md) | Warning that Turkey seeks tonnage rather than transport; immediate cash payment required | 146/148 raw; two tied source-supported loss positions give the same complete candidate | icekylinx and GPT-6 Astra Pro (2026); published period key credited separately |
+| [p177 B3](other/turkish_tonnage.md) | Authorization required before sale; GENERAL 1200 marks and proposed KERKYRA 1000 marks per gross register ton | 183/187 raw; four coordinate repairs; office/reference digits separately conditional | icekylinx and GPT-6 Astra Pro (2026); published period key credited separately |
 | [p178 part 1](other/naval_armistice_order.md) | Immediate forwarding to all naval forces | Prior body; 119/119 raw; one explicit coordinate repair | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |
 | [p178 part 2](other/naval_armistice_order.md) | Armistice at noon 11 November; cease all war actions | Prior body; short VXDX group repaired; 154/155 raw | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |
 | [p178 part 3](other/naval_armistice_order.md) | Assemble at bases; send enciphered notice to U-boats | Prior body; short AFGA group repaired; 137/140 raw | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |

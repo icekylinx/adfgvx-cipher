@@ -32,6 +32,7 @@ jobs:
           python experiments/corpus_extension/verify.py --verify
           python experiments/october_caucasus/verify.py --verify
           python experiments/october_staffing/verify.py --verify
+          python experiments/october_requests/verify.py --verify
           python experiments/operational_recovery/verify.py --verify
           python experiments/late_key_interpretation/verify.py --verify
           python experiments/nov14_retransmissions/verify.py --verify
@@ -41,6 +42,7 @@ jobs:
           python experiments/siedlce_withdrawal/verify.py --verify
           python experiments/black_sea_shipping/verify.py --verify
           python experiments/corcovado_sale_terms/verify.py --verify
+          python experiments/turkish_tonnage/verify.py --verify
           python experiments/boots_request/geometry.py --verify
           python experiments/boots_request/verify.py --verify
           python experiments/aviation_connection/verify.py --verify

@@ -11,6 +11,8 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [October routing and requests](october_requests/README.md) | Four records; 842 printed slots; all 17,578 two-deletion layouts checked for the weather instruction | Exact Sofia reading, repaired Westernhagen request, conditional weather geometry and explicitly partial inspector text. |
+| [Turkish ship purchases](turkish_tonnage/README.md) | Three parts; 999 printed slots; 490/500 raw fixed positions | Both short-group ties, all repairs and every favorable or inconvenient effect of the separate XX=6 condition retained. |
 | [Boots and clothing request](boots_request/README.md) | Two parts; one displaced group; all 1,297 distinct one-group-move frames checked | 196/200 proposed positions; posthoc word-mask qualification, exact repairs and all connective witnesses retained. |
 | [Corcovado terms and reply](corcovado_sale_terms/README.md) | Six records; 2,120 slots; 1,051/1,060 raw fixed positions | Same-vessel name witness and separate A6S condition; no currency, reference-tail or disposition inference. |
 | [October staffing and service traffic](october_staffing/README.md) | Six exact frames; 1,264 slots; 630/632 raw positions | Four source-coordinate substitutions and two erasure fills; brigade/regiment numerals 4 are directly observed. |
