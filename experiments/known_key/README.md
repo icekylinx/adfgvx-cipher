@@ -1,6 +1,6 @@
 # Portable ranking reproduction
 
-These scripts reproduce two bounded experiments by **IceKylin and GPT-6 Astra**. Their language scores rank hypotheses; they do not certify a historical plaintext. The arithmetic certificates and their standard-library verifiers remain the authority for source preservation and plaintext constraints.
+These scripts reproduce two bounded experiments by **icekylinx and GPT-6 Astra Pro**. Their language scores rank hypotheses; they do not certify a historical plaintext. The arithmetic certificates and their standard-library verifiers remain the authority for source preservation and plaintext constraints.
 
 ## Model provenance
 

@@ -1,6 +1,6 @@
 # Joint ADFGVX search: page 153
 
-Authors: **IceKylin and GPT-6 Astra**.
+Authors: **icekylinx and GPT-6 Astra Pro**.
 
 This small research suite attacks the two page 153 fragments jointly, with an
 unknown substitution square and transposition. It records bounded searches,

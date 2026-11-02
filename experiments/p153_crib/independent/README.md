@@ -1,6 +1,6 @@
 # Independent validation of the page 153 candidate
 
-Authors: **IceKylin and GPT-6 Astra**.
+Authors: **icekylinx and GPT-6 Astra Pro**.
 
 This package independently checks a candidate discovered by the joint search.
 It adds no blind recovery claim. It separates the exact received text,

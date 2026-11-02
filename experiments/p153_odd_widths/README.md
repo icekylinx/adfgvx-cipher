@@ -1,6 +1,6 @@
 # Page 153: exact component check at odd widths
 
-Authors: **IceKylin and GPT-6 Astra**.
+Authors: **icekylinx and GPT-6 Astra Pro**.
 
 **The supplied sixty-letter first-part crib has no compatible key at widths
 15, 17, 19, 21, 23 or 25.** All six searches completed. A width-18 overlap

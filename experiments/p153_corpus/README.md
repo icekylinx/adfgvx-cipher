@@ -1,6 +1,6 @@
 # Fixed p153 CHI key: source-corpus retrieval experiment
 
-Prepared by IceKylin and GPT-6 Astra on 2 November 2026.
+Prepared by icekylinx and GPT-6 Astra Pro on 2 November 2026.
 
 ## Result
 

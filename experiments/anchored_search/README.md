@@ -1,6 +1,6 @@
 # Anchored substitution-square search
 
-Authors: **IceKylin and GPT-6 Astra**.
+Authors: **icekylinx and GPT-6 Astra Pro**.
 
 This bounded experiment keeps the attested cells of a historical substitution
 square fixed while searching an arbitrary column order and, where necessary,

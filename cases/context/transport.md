@@ -1,6 +1,24 @@
-# p185 D: a conditional transport-context reading
+# Transport traffic — p185/p189 and parallel messages
+
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
 
 **Status: source-preserving partial reading under a plausible, unproved gap geometry.** This supplementary intercept is outside the 22-message challenge. Its header reads `CM v CZ (20.15 p.m., November 13th), 21.00, RIZI-198`, but the body contains 193 slots: 192 valid ADFGVX coordinates and one literal `Y`. The raw `Y` is retained in the source layer and treated as one unknown coordinate in analysis.
+
+**Current transcription, comparison and verification:** icekylinx and GPT-6 Astra Pro. Historical keys and source witnesses retain the provenance recorded in the certificate.
+
+## Most likely readings
+
+| Record | Readable German text | Meaning and uncertainty |
+|---|---|---|
+| p185 D, conditional gap | […] marschiert […] morgen 1500 ueber DHFN. [Abmarschbereit sein]. […] Seifert. | Movement tomorrow at 15:00 via `DHFN`, with an apparent instruction to be ready. The opening and vehicle/formation wording are damaged; the gap position is unproved. |
+| p193 E | Kleiner Federwagen zu[m] Anhaengen hier. Kommt Auto. | A small sprung cart for attachment is available; the message mentions a car. Punctuation and the `M` are editorial. |
+| p194 A / p196 B composite | Abtransport in verabredeter Weise Freitag DHFN 1?00. Wagen bereithalten. Marschziel Hanau. Seifert. | Departure as arranged on Friday; keep vehicles ready; Hanau is the destination. Every selected coordinate is attested in one of the two witnesses, but one time digit remains unknown. |
+| p197 E / p198 C | Lastauto 1?00 abgefahren. Ich bleibe mit ? Mann bis Sonntag. Alles Gute, auf Wiedersehen. [Seifert]. Gruss Bocho. | The truck has departed; the sender remains with an unknown number of men until Sunday. The signature is normalized editorially; neither witness spells it exactly this way. |
+| p189 E | Ja, Hebepumpe aus Blech. Kommen ? Autos. Hier ? Anhaenger. | A pump, motor vehicles and trailers are mentioned. The counts and the punctuation remain uncertain. This is not the p189 challenge entry. |
+
+Brackets mark editorial interpretations; `?` retains an unresolved character. `DHFN`, `STATMET` and `BOCHO` are not expanded or geographically identified. The exact readings and witness disagreements follow below.
+
+## p185 D source and gap model
 
 ![Literal p185 D source excerpt](../../sources/excerpts/childs_p185_D.png)
 

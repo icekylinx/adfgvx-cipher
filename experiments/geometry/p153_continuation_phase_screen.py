@@ -69,7 +69,7 @@ def main():
     observed = [full[0], full[1][:5] + '?' * 15 + full[1][20:]]
     actual = [decode(ct, ranks, key['square'])[1] for ct, ranks in zip(observed, effective)]
     assert all(a == '?' or a == b for text, truth in zip(actual, plain_parts) for a, b in zip(text, truth))
-    output = {'format_version': 1, 'authors': ['IceKylin', 'GPT-6 Astra'],
+    output = {'format_version': 1, 'authors': ['icekylinx', 'GPT-6 Astra Pro'],
               'scope': __doc__, 'source_parts': parts, 'key_count': len(keys),
               'tested_key_sign_pairs': len(candidates),
               'unique_key_effective_rank_pairs': len({(c['key_id'], tuple(c['part6_effective_ranks'])) for c in candidates}),

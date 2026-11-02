@@ -1,6 +1,6 @@
 # Recovered-square reuse: final bounded supplement
 
-Authors: **IceKylin and GPT-6 Astra**.
+Authors: **icekylinx and GPT-6 Astra Pro**.
 
 Six searches fixed the nineteen ordinary-letter cells recovered from page 153,
 while varying every column rank and all other square cells. Page 73 and page

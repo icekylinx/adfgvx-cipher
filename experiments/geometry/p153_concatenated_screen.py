@@ -103,7 +103,7 @@ def main():
                'observed_parts': control_parts, 'recovered_partial_plaintext': partial,
                'fixed_plaintext_characters': len(partial) - partial.count('?'),
                'all_fixed_characters_correct': True}
-    output = {'format_version': 1, 'authors': ['IceKylin', 'GPT-6 Astra'],
+    output = {'format_version': 1, 'authors': ['icekylinx', 'GPT-6 Astra Pro'],
               'scope': __doc__, 'source_parts': parts,
               'source_headers': {mid: messages[mid]['source']['header_transcription'] for mid in parts},
               'source_model_prior': 'The separate CHI-132 and CHI-108 part headers favor separate rectangles; concatenation is a low-prior alternative tested explicitly.',

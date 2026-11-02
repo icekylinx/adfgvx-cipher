@@ -1,6 +1,6 @@
 # Page 153 follow-up: replay, key reuse and completion limits
 
-Authors: **IceKylin and GPT-6 Astra**.
+Authors: **icekylinx and GPT-6 Astra Pro**.
 
 This package records the decisive solver replay and bounded follow-up tests
 after the page-153 partial recovery. It leaves the canonical historical

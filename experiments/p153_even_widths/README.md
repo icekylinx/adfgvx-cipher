@@ -1,6 +1,6 @@
 # Page 153: exact first-crib validation across even widths
 
-Authors: **IceKylin and GPT-6 Astra**.
+Authors: **icekylinx and GPT-6 Astra Pro**.
 
 **Among even widths 14, 16, 18, 20, 22, 24 and 26, only width 18 can encode the
 specified sixty first-part letters while preserving its 132 source coordinates.**

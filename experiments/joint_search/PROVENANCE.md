@@ -67,6 +67,6 @@ baseline, commit `083921732d7c18e52424336ab4160fada5c61b4b`. The curated C engin
 and portable Python helpers were written for this investigation; this package
 does not contain the baseline's source files or its solution-trained model.
 
-Authorship of this research implementation: **IceKylin and GPT-6 Astra**.
+Authorship of this research implementation: **icekylinx and GPT-6 Astra Pro**.
 The parent repository's license applies. Synthetic control success is an
 implementation/calibration result, not a new historical decipherment.

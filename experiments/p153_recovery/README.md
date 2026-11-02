@@ -150,8 +150,7 @@ credits it rather than claiming the joint-analysis idea as new.
 Column-pair methods, coincidence statistics and heuristic transposition search
 have modern precedent in Lasry, Niebel, Kopal and Wacker,
 [*Deciphering ADFGVX messages from the Eastern Front of World War I*](https://doi.org/10.1080/01611194.2016.1169461).
-This implementation and its new partial recovery are by **IceKylin and
-GPT-6 Astra**. A targeted review of the archived discussions, current public
+This implementation and its new partial recovery are by **icekylinx and GPT-6 Astra Pro**. A targeted review of the archived discussions, current public
 solver material and primary-source text found no previous matching reading;
 that bounded search is not a proof of worldwide priority.
 
