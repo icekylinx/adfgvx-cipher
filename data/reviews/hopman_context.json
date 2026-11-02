@@ -1,0 +1,84 @@
+{
+  "schema": "adfgvx-hopman-primary-context-v1",
+  "created_utc": "2026-11-02",
+  "source": {
+    "id": "hopman_diary_1918_edition1971",
+    "author": "Albert Hopman",
+    "editor": "Winfried Baumgart",
+    "title": "Von Brest-Litovsk zur deutschen Novemberrevolution: Aus den Tagebuechern, Briefen und Aufzeichnungen von Alfons Paquet, Wilhelm Groener und Albert Hopman, Maerz bis November 1918",
+    "publication_place": "Goettingen",
+    "publisher": "Vandenhoeck & Ruprecht",
+    "publication_year": 1971,
+    "type": "Published edition of contemporary primary diaries; the original manuscript was not inspected",
+    "institution": "Bayerische Staatsbibliothek, Munich",
+    "call_number": "Germ.g. 573 w-47",
+    "catalogue_url": "https://digitale-sammlungen.de/en/details/bsb00042051",
+    "iiif_manifest": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00042051/manifest",
+    "institution_rights_statement": "https://rightsstatements.org/vocab/InC/1.0/",
+    "publication_note": "Link to institutional images. Full modern-edition page images and OCR are research intermediates and are not included as deliverables."
+  },
+  "entries": [
+    {
+      "id": "p155_hopman_ship_parallel",
+      "scope": [
+        "p155_A1",
+        "p155_A2",
+        "p73_context_only"
+      ],
+      "diary_dates": [
+        "1918-11-07",
+        "1918-11-09"
+      ],
+      "printed_pages": [
+        637,
+        639
+      ],
+      "image_pages": [
+        647,
+        649
+      ],
+      "urls": [
+        "https://digitale-sammlungen.de/en/view/bsb00042051?page=647",
+        "https://digitale-sammlungen.de/en/view/bsb00042051?page=649"
+      ],
+      "verification": "Both page images visually checked against institutional OCR.",
+      "summary": "Hopman records Asgard and Tresivolos arriving at Sevastopol at 09:00 on November 7, a decision to unload and return them to Poti, and Asgard leaving for Poti on November 9. This closely corroborates the p155 two-part shipping message.",
+      "ciphertext_spelling": "The unedited decrypted text has TRESIVOLUS twice; the diary edition prints Tresivolos. The spelling difference remains explicit.",
+      "limits": "No source coordinate, missing-slot position, p73 date, or p73 key follows uniquely from this contextual match."
+    },
+    {
+      "id": "p217_hopman_independent_context",
+      "scope": [
+        "p217"
+      ],
+      "diary_dates": [
+        "1918-11-24",
+        "1918-11-26"
+      ],
+      "printed_pages": [
+        650,
+        652
+      ],
+      "image_pages": [
+        660,
+        662
+      ],
+      "urls": [
+        "https://digitale-sammlungen.de/en/view/bsb00042051?page=660",
+        "https://digitale-sammlungen.de/en/view/bsb00042051?page=662"
+      ],
+      "verification": "Both page images visually checked against institutional OCR.",
+      "summary": "Hopman records Canterbury arriving at Sevastopol on November 24 and the Allied squadron arriving after 11:00 on November 26. This is independent German-side support for the existing naval interpretation, complementing the British ship logs.",
+      "credit_note": "The p217 body was published by Prinz and GPT-6 Astra on September 17, 2026; the 24 STEN coordinate correction was proposed by Christian Horvat on September 21. These diary links add corroboration, not new decipherment priority.",
+      "limits": "Historical agreement supports the reported AX=4 assignment but does not authenticate the reported key manuscript or prove a unique cipher reconstruction."
+    }
+  ],
+  "negative_scope": {
+    "printed_pages_inspected": [
+      630,
+      631,
+      632
+    ],
+    "result": "The inspected October 26-31 diary entries did not provide an exact p73 telegram parallel. This is a local negative result, not an exhaustive archival conclusion."
+  }
+}

@@ -1333,6 +1333,171 @@
         "message_id": "p217",
         "field": "source_scope_comparison"
       }
+    },
+    {
+      "id": "p73_date_and_same_route_context",
+      "scope": [
+        "p73",
+        "p155_A1",
+        "p155_A2"
+      ],
+      "claim_reviewed": "The two dates of p73 can be resolved from neighbouring traffic or a longer October25-27 companion.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02",
+        "kind": "Current source search and independent visual transcription review; earlier date uncertainty credited to Norbert and George Lasry"
+      },
+      "review_status": "date_unresolved_context_verified",
+      "result": "No additional October25-27 cryptogram was identified in the complete-book OCR search; direct source inspection confirms the log sequence October5 on pp68-69, October6 on pp70-72, October26 on p73, and October28 on pp74-76. Page155 A has the same POT v NKJ route and General von Kress addressee, but an explicit November7 transmitted date and November8 reception at02:28, five minutes before p73's printed02:33 reception. Its170-coordinate first part decrypts with the known November7-9 key; its185-coordinate continuation is one coordinate short of the186 header and admits several coherent single-erasure insertion placements. This does not establish p73's date, key or body.",
+      "verification_evidence": {
+        "artifact": "reviews/p73_source_context.json",
+        "source_crops": [
+          "p68_p77_header_contact.png",
+          "p155_kress_A_crop.png"
+        ],
+        "prior_uncertainty_sources": [
+          {
+            "author": "Norbert",
+            "date": "2017-02-26",
+            "comment": 8,
+            "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-851947"
+          },
+          {
+            "author": "George Lasry",
+            "date": "2017-02-27",
+            "comment": 12,
+            "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-851956"
+          }
+        ],
+        "limit": "The negative companion search cannot exclude unlabelled or misdated records. No chronology-based plaintext repair is used."
+      }
+    },
+    {
+      "id": "p155_hopman_ship_parallel",
+      "scope": [
+        "p155_A1",
+        "p155_A2",
+        "p73_context_only"
+      ],
+      "claim_reviewed": "Hopman records Asgard and Tresivolos arriving at Sevastopol at 09:00 on November 7, a decision to unload and return them to Poti, and Asgard leaving for Poti on November 9. This closely corroborates the p155 two-part shipping message.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02",
+        "kind": "Independent contextual source comparison; earlier decipherment credits retained"
+      },
+      "review_status": "independently_corroborated_context_only",
+      "result": "No source coordinate, missing-slot position, p73 date, or p73 key follows uniquely from this contextual match.",
+      "verification_evidence": {
+        "artifact": "reviews/hopman_context.json",
+        "entry_id": "p155_hopman_ship_parallel",
+        "source": "https://digitale-sammlungen.de/en/details/bsb00042051",
+        "printed_pages": [
+          637,
+          639
+        ],
+        "urls": [
+          "https://digitale-sammlungen.de/en/view/bsb00042051?page=647",
+          "https://digitale-sammlungen.de/en/view/bsb00042051?page=649"
+        ],
+        "verification": "Both page images visually checked against institutional OCR."
+      }
+    },
+    {
+      "id": "p217_hopman_independent_context",
+      "scope": [
+        "p217"
+      ],
+      "claim_reviewed": "Hopman records Canterbury arriving at Sevastopol on November 24 and the Allied squadron arriving after 11:00 on November 26. This is independent German-side support for the existing naval interpretation, complementing the British ship logs.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02",
+        "kind": "Independent contextual source comparison; earlier decipherment credits retained"
+      },
+      "review_status": "independently_corroborated_context_only",
+      "result": "Historical agreement supports the reported AX=4 assignment but does not authenticate the reported key manuscript or prove a unique cipher reconstruction.",
+      "verification_evidence": {
+        "artifact": "reviews/hopman_context.json",
+        "entry_id": "p217_hopman_independent_context",
+        "source": "https://digitale-sammlungen.de/en/details/bsb00042051",
+        "printed_pages": [
+          650,
+          652
+        ],
+        "urls": [
+          "https://digitale-sammlungen.de/en/view/bsb00042051?page=660",
+          "https://digitale-sammlungen.de/en/view/bsb00042051?page=662"
+        ],
+        "verification": "Both page images visually checked against institutional OCR."
+      }
+    },
+    {
+      "id": "p176b_unit_identification_conflict",
+      "scope": [
+        "p176b"
+      ],
+      "claim_reviewed": "The context-supplied digit 6 securely identifies the German 6th Reserve Division in the Balkans in November 1918.",
+      "attribution": {
+        "author": "prinz, with GPT-6 Astra",
+        "date": "2026-09-19",
+        "url": "https://www.prinzai.com/p/another-wwi-german-radio-cipher-falls"
+      },
+      "review_status": "unresolved_conflict_between_historical_sources",
+      "result": "The cited French telegram really prints a 6th reserve infantry division while reporting the situation on November 11. However the U.S. War Department divisional history places the German 6th Reserve Division in France in 1918 and says it was dissolved shortly after its relief in early August. The French report is therefore contextual support for the published wording, not a fully reconciled unit identification. No alternative digit or unit is assigned here, and the three unassigned square cells remain unassigned.",
+      "verification_evidence": {
+        "french_source": {
+          "url": "https://real-eod.mtak.hu/19844/13/documents.pdf",
+          "locator": "Document 39, printed page 79, PDF page 153; report 5.956/3 dated November 19, 1918",
+          "inspection": "The printed numeral 6 and reserve designation were visually rechecked in the page image."
+        },
+        "us_source": {
+          "title": "Histories of Two Hundred and Fifty-one Divisions of the German Army Which Participated in the War (1914-1918)",
+          "author": "U.S. War Department, compiled from AEF Intelligence Section records",
+          "publication_year": 1920,
+          "url": "https://www.gutenberg.org/cache/epub/55620/pg55620-images.html",
+          "locator": "6th Reserve Division, printed pages 131-133, subsection 1918 / France"
+        },
+        "limits": [
+          "The French edition is a printed transcription of a primary intelligence report, not a photograph of the original telegram.",
+          "The report may contain an identification error or refer to a formation not yet identified; the present evidence does not decide this.",
+          "A parallel historical report does not recover missing ciphertext coordinates or establish an unknown substitution cell."
+        ]
+      }
+    },
+    {
+      "id": "p176b_staff_reuse_reconciles_unit_history",
+      "scope": [
+        "p176b"
+      ],
+      "claim_reviewed": "The original 6th Reserve Division\u2019s August 1918 dissolution makes a November 6.R.D. reference in the Balkans historically impossible.",
+      "attribution": {
+        "author": "IceKylin and GPT-6 Astra source review",
+        "date": "2026-11-02"
+      },
+      "review_status": "apparent_conflict_substantially_reconciled_by_staff_reuse",
+      "supersedes_interpretation_in": "p176b_unit_identification_conflict",
+      "result": "The original infantry formation was dissolved, but that does not exclude continued employment of its headquarters. Ruhmeshalle unserer alten Armee, 5th edition, volume 1, p385 explicitly places 6.R.-D. in the Macedonia/Serbia retreat and lists its November return through Hungary. Cron\u2019s organizational history separately says the dissolved division\u2019s staff was to be used in Macedonia. The French 6e D.I. r\u00e9serve wording is therefore contextually plausible; no unknown cipher cell or missing digit is assigned.",
+      "verification_evidence": {
+        "artifact": "reviews/p176b_unit_context.json",
+        "primary_chronology_url": "https://denstorekrig1914-1918.dk/wp-content/uploads/2021/05/Ruhmeshalle_unsere_alten_Armee_5_Aufl_Bd-1_s_342-497s.pdf",
+        "locator": "Printed p385, PDF page 46; title-page statement of official archival support on PDF page 1",
+        "image": "../sources/excerpts/ruhmeshalle_6rd_p385.png",
+        "inspection": "Title page and full chronology page visually inspected. The Prussian 6.R.-D. entry is separate from the Bavarian 6th Reserve Division entry.",
+        "limitations": [
+          "The source is an interwar compilation, not an original November 1918 order or exact plaintext parallel.",
+          "The exact publication year of the undated retrieved 5th-edition title pages is not assumed.",
+          "Cron\u2019s online English text has problematic dates in the next sentences; only its explicit staff-reuse statement is used.",
+          "Historical contextual support remains distinct from recovery of the three unknown substitution cells."
+        ]
+      }
     }
   ]
 }

@@ -12,7 +12,7 @@ from .cipher import decrypt, encrypt, self_check, SYMBOLS, plaintext_domains, tr
 from .alignment import find_switch, table, alignment
 from .projection import analyze, untranspose as project_untranspose, transpose as project_transpose
 from . import prior
-from . import constraints164, constraints215, supplementary, editorial164, transport
+from . import constraints164, constraints215, supplementary, editorial164, transport, context155
 
 ROOT=Path(__file__).resolve().parent.parent
 
@@ -212,6 +212,21 @@ def transport_context():
     return result
 
 
+def kress_companion():
+    record=certificate('p155');result=context155.verify(record)
+    ranks=record['key']['column_rank_order'];square=record['key']['square']
+    keys=json.loads((ROOT/'data/keys.json').read_text())['keys']
+    key=next(k for k in keys if k['id']==record['key']['id'])
+    assert (ranks,square)==(key['column_rank_order'],key['square'])
+    for section in record['sections']:
+        for variant in section['variants']:
+            ct=variant['model_ciphertext']
+            assert plaintext_domains(ct,ranks,square)==variant['plaintext_domains']
+            assert transpose(untranspose(ct,ranks),ranks)==ct
+    result.update(status='PASS',classification='source_checked_shipping_context',independent_domain_crosscheck=True)
+    return result
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--json',action='store_true');args=parser.parse_args()
     assert self_check()
@@ -222,7 +237,7 @@ def main():
     results={'arithmetic':'PASS','cases':{'p152':p152(),'p158':p158(),'p189':p189(),
              'p164':constraints164.verify(certificate('p164')),
              'p215':constraints215.verify(certificate('p215')),'p164_A4_editorial':p164_editorial(),
-             'transport_context':transport_context()},
+             'transport_context':transport_context(),'p155_context':kress_companion()},
              'prior_readings':prior_readings(),'supplementary_readings':supplementary_readings()}
     if args.json:print(json.dumps(results,indent=2))
     else:

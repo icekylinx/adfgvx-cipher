@@ -15,19 +15,19 @@ Five entries remain wholly open: **p73, p153a, p153b, p170, p198**. A source-lin
 
 | Entry | Reviewed state | First reading or present contribution |
 |---|---|---|
-| `p73` | Open | — |
+| [p73](cases/p73.md) | Open | — |
 | [p100](cases/p100.md) | Prior body reading; source audit | Armin (2017 comment author) |
 | [p105](cases/p105.md) | Prior body reading; source audit | Norbert (2017 comment author) |
 | [p109](cases/p109.md) | Prior body reading; source audit | Norbert (2017 comment author) |
 | [p132](cases/p132.md) | Prior body reading; source audit | Thomas (fragment), Norbert (body) |
 | [p146](cases/p146.md) | Prior body reading; source audit | Norbert (2017 comment author) |
 | [p152](cases/p152.md) | Source-linked body | This review, 2026 |
-| `p153a` | Open | — |
-| `p153b` | Open | — |
+| [p153a](cases/p153a.md) | Open | — |
+| [p153b](cases/p153b.md) | Open | — |
 | [p158](cases/p158.md) | Composite sources identified | This review, 2026 |
 | [p164a](cases/p164a.md) | Prior partial; constraint audit | Norbert (2017 comment author) |
 | [p164b](cases/p164b.md) | Prior partial; constraint audit | Norbert (2017 comment author) |
-| `p170` | Open | — |
+| [p170](cases/p170.md) | Open | — |
 | [p171](cases/p171.md) | Prior body reading; source audit | Norbert (2017 comment author) |
 | [p176a](cases/p176a.md) | Prior body reading; source audit | Norbert (2017 comment author) |
 | [p176b](cases/p176b.md) | Prior contextual reading; constraint audit | Prinz (2026 publication) |
@@ -35,7 +35,7 @@ Five entries remain wholly open: **p73, p153a, p153b, p170, p198**. A source-lin
 | [p187](cases/p187.md) | Prior body reading; source audit | George Lasry, Norbert (2017 comment author) |
 | [p187b](cases/p187b.md) | Prior body reading; source audit | George Lasry, Norbert (2017 comment author) |
 | [p189](cases/p189.md) | Conditional partial | This review, 2026 |
-| `p198` | Open | — |
+| [p198](cases/p198.md) | Open | — |
 | [p217](cases/p217.md) | Prior body reading; correction verified | Prinz (2026 publication), Christian Horvat (later correction) |
 
 ## Supplementary frontier results
@@ -53,6 +53,8 @@ The October 2026 readings below were first submitted by **Ayush Agarwal** and re
 [p164 A4](cases/context/p164_A4.md) supports a conditional reading about dismounted cavalry west of an unidentified `MIRCO`. The source fixes 87 of 99 letters; the complete editorial hypothesis requires nine known-coordinate substitutions and thirteen erasure fills. It does not change p164a or p164b to solved.
 
 [The p185/p189 transport conversation](cases/context/transport.md) adds seven source records. Two near-parallel transport orders combine to fix 86 of 87 letters; a separate p185 D missing-group hypothesis fixes 91 of 99 letters conditionally. All 194 possible gap placements and both pairs of disagreeing witnesses remain available.
+
+The [p155 Kress-route shipping message](cases/context/p155.md) adds two source-checked parts. Its Asgard/Tresivolus context is independently corroborated in a contemporary diary; it does not determine p73's date or key.
 
 ## Review coverage
 

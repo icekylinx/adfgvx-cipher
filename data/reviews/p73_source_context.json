@@ -1,0 +1,165 @@
+{
+  "schema": "adfgvx-p73-source-context-v1",
+  "date": "2026-11-02",
+  "prepared_by": [
+    "IceKylin",
+    "GPT-6 Astra"
+  ],
+  "target": "p73",
+  "finding": "No additional October25-27 same-network ciphertext has been identified in the complete book; a directly comparable November7/8 route is present on p155. The target remains open.",
+  "target_header": {
+    "page_heading": "26th OCTOBER, 1918.",
+    "interception_header": "POT v NKJ (2.33 a.m., November 8th)",
+    "clear_text": "FUR COS GENERAL VON KRESS 0911 (26)",
+    "advertised_length": 178,
+    "interpretation": "Radio sender NKJ, recipient POT, ultimate addressee as printed COS / General von Kress. Both date layers are preserved."
+  },
+  "prior_observation": {
+    "question": {
+      "author": "Norbert",
+      "date": "2017-02-26",
+      "comment": 8,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-851947"
+    },
+    "unresolved_response": {
+      "author": "George Lasry",
+      "date": "2017-02-27",
+      "comment": 12,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-851956"
+    }
+  },
+  "companion_search": {
+    "whole_log_scope": "Printed pages57-230, existing full-page OCR; explicit October25/26/27 and numerical25/10-27/10 forms searched.",
+    "direct_visual_scope": "Printed pages68-77, each heading and date directly inspected.",
+    "verified_heading_sequence": {
+      "68": "October5",
+      "69": "October5",
+      "70": "October6",
+      "71": "October6",
+      "72": "October6",
+      "73": "October26",
+      "74": "October28",
+      "75": "October28",
+      "76": "October28",
+      "77": "October29"
+    },
+    "result": "Only p73 is clearly assigned to October25-27. No longer companion has been identified.",
+    "limit": "An unlabelled, badly OCR-read or misdated companion cannot be excluded by this negative search.",
+    "image": "p68_p77_header_contact.png"
+  },
+  "same_route_context": {
+    "source_page": 155,
+    "page_heading": "7th NOVEMBER, 1918.",
+    "header": "POT v NKJ (2.28 a.m., November 8th)",
+    "clear_text": "FUER COS GENERAL V KRESS 2035 (7) KR 2 TLE",
+    "relation": "Same literal route/addressee; reception is five minutes before p73's printed reception. Different transmitted date and time. No ciphertext identity is claimed.",
+    "source_image": "sources/excerpts/childs_p155_A.png",
+    "part1": {
+      "advertised_length": 170,
+      "received_length": 170,
+      "raw_group_lines": [
+        "AXAAG DAXAX AFGXX GDDXG DGXAF GXGXV VXDAV XDDVV",
+        "DVXXX GGFXG AXAGF DVAXA XGGAV DFGXA GADXG GVXGV",
+        "DDGVV FVACG XFVAV DXGVD GGVDV AXGVV XXGVV XVXXG",
+        "DDVXD XVGAA DFXFG XDDDD XGGDX VVGGX GGDDD XGVDD",
+        "XADGG FXDDG"
+      ],
+      "raw_literal": "AXAAGDAXAXAFGXXGDDXGDGXAFGXGXVVXDAVXDDVVDVXXXGGFXGAXAGFDVAXAXGGAVDFGXAGADXGGVXGVDDGVVFVACGXFVAVDXGVDGGVDVAXGVVXXGVVXVXXGDDVXDXVGAADFXFGXDDDDXGGDXVVGGXGGDDDXGVDDXADGGFXDDG",
+      "analysis_ciphertext": "AXAAGDAXAXAFGXXGDDXGDGXAFGXGXVVXDAVXDDVVDVXXXGGFXGAXAGFDVAXAXGGAVDFGXAGADXGGVXGVDDGVVFVA?GXFVAVDXGVDGGVDVAXGVVXXGVVXVXXGDDVXDXVGAADFXFGXDDDDXGGDXVVGGXGGDDDXGVDDXADGGFXDDG",
+      "key_id": "Nov7-9",
+      "raw_plaintext": "DAMPFERASGARDEINTRIFFTPOTIPOTIIO?AUSSICHTLICHINNAECHSTENTAGENUMDORTBEFINDLBCHETRUPPEN",
+      "note": "The source has FVACG in group18, where C is outside ADFGVX and remains erased. No plaintext-driven repair is applied."
+    },
+    "part2": {
+      "advertised_length": 186,
+      "received_length": 185,
+      "raw_group_lines": [
+        "DDXAD GAXDV DXDDV XDGGF XAGVD XDVVG AGGVA VFVDV",
+        "XVVXG VXXXF GVDXG VGDAD FVXXG VVAGV DADGX DVDAF",
+        "GVDVG XGXGG FDVFG VVDGV GGVDD DXAVD XVVDV VDFGV",
+        "XVXDV VXDVX GXXDD XXDDG GAXVD ADXDD VDXVV GVVXX",
+        "VDVVV GVVVD GGFDV AD--G DFDDF"
+      ],
+      "raw_literal": "DDXADGAXDVDXDDVXDGGFXAGVDXDVVGAGGVAVFVDVXVVXGVXXXFGVDXGVGDADFVXXGVVAGVDADGXDVDAFGVDVGXGXGGFDVFGVVDGVGGVDDDXAVDXVVDVVDFGVXVXDVVXDVXGXXDDXXDDGGAXVDADXDDVDXVVGVVXXVDVVVGVVVDGGFDVAD--GDFDDF",
+      "analysis_ciphertext": "DDXADGAXDVDXDDVXDGGFXAGVDXDVVGAGGVAVFVDVXVVXGVXXXFGVDXGVGDADFVXXGVVAGVDADGXDVDAFGVDVGXGXGGFDVFGVVDGVGGVDDDXAVDXVVDVVDFGVXVXDVVXDVXGXXDDXXDDGGAXVDADXDDVDXVVGVVXXVDVVVGVVVDGGFDVAD??GDFDDF",
+      "key_id": "Nov7-9",
+      "model": "Insert one erased coordinate, preserving all183 valid source coordinates and two printed dashes.",
+      "all_gap_positions_tested": 186,
+      "top_language_ranked_candidates": [
+        {
+          "insert_unknown_before_source_0based": 183,
+          "plaintext": "ABZUHOLE?XASGARDXA?GARDXTRESIVOLUSXTRESIVOLUSX7X11XHIEREINGELAUFENXE?4FANGBESTLUTIGENXXBQZXKX",
+          "score": -5.900959171189202,
+          "model_ciphertext": "DDXADGAXDVDXDDVXDGGFXAGVDXDVVGAGGVAVFVDVXVVXGVXXXFGVDXGVGDADFVXXGVVAGVDADGXDVDAFGVDVGXGXGGFDVFGVVDGVGGVDDDXAVDXVVDVVDFGVXVXDVVXDVXGXXDDXXDDGGAXVDADXDDVDXVVGVVXXVDVVVGVVVDGGFDVAD??GDFD?DF"
+        },
+        {
+          "insert_unknown_before_source_0based": 185,
+          "plaintext": "ABZUHOLE?XASGARDXA?GARDXTRESIVOLUSXTRESIVOLUSX7X11XHIEREINGELAUFENXEZ4FANGBESTCUTIGENXXB?ZXKX",
+          "score": -5.955549475881789,
+          "model_ciphertext": "DDXADGAXDVDXDDVXDGGFXAGVDXDVVGAGGVAVFVDVXVVXGVXXXFGVDXGVGDADFVXXGVVAGVDADGXDVDAFGVDVGXGXGGFDVFGVVDGVGGVDDDXAVDXVVDVVDFGVXVXDVVXDVXGXXDDXXDDGGAXVDADXDDVDXVVGVVXXVDVVVGVVVDGGFDVAD??GDFDDF?"
+        },
+        {
+          "insert_unknown_before_source_0based": 184,
+          "plaintext": "ABZUHOLE?XASGARDXA?GARDXTRESIVOLUSXTRESIVOLUSX7X11XHIEREINGELAUFENXEZ4FANGBEST?UTIGENXXBQZXKX",
+          "score": -5.992463024457296,
+          "model_ciphertext": "DDXADGAXDVDXDDVXDGGFXAGVDXDVVGAGGVAVFVDVXVVXGVXXXFGVDXGVGDADFVXXGVVAGVDADGXDVDAFGVDVGXGXGGFDVFGVVDGVGGVDDDXAVDXVVDVVDFGVXVXDVVXDVXGXXDDXXDDGGAXVDADXDDVDXVVGVVXXVDVVVGVVVDGGFDVAD??GDFDD?F"
+        },
+        {
+          "insert_unknown_before_source_0based": 0,
+          "plaintext": "XK?9XBD0EXABZUHOLE?XASGARDXA?GARDXTRESIVOLUSXTRESIVOLUSX7X11XHIEREINGELAUFENXEZ4FANGBESTCUTIG",
+          "score": -6.049383571412828,
+          "model_ciphertext": "?DDXADGAXDVDXDDVXDGGFXAGVDXDVVGAGGVAVFVDVXVVXGVXXXFGVDXGVGDADFVXXGVVAGVDADGXDVDAFGVDVGXGXGGFDVFGVVDGVGGVDDDXAVDXVVDVVDFGVXVXDVVXDVXGXXDDXXDDGGAXVDADXDDVDXVVGVVXXVDVVVGVVVDGGFDVAD??GDFDDF"
+        },
+        {
+          "insert_unknown_before_source_0based": 181,
+          "plaintext": "ABZUHOLE?XASGARDXA?GARDXTRESIVOLUSXTRESIVOLUSX7X?1XHIEREIN1ELAUFENXEZ4FANGBESTLUTIGENXXBQZXKX",
+          "score": -6.071072220802307,
+          "model_ciphertext": "DDXADGAXDVDXDDVXDGGFXAGVDXDVVGAGGVAVFVDVXVVXGVXXXFGVDXGVGDADFVXXGVVAGVDADGXDVDAFGVDVGXGXGGFDVFGVVDGVGGVDDDXAVDXVVDVVDFGVXVXDVVXDVXGXXDDXXDDGGAXVDADXDDVDXVVGVVXXVDVVVGVVVDGGFDVAD??GD?FDDF"
+        }
+      ],
+      "limit": "A coherent continuation does not establish a unique missing-coordinate position. No guessed letters or source substitutions are applied.",
+      "research_scan_filename_not_distributed": "p155_A2_single_slot_scan.json",
+      "published_constraint_certificate": "data/certificates/p155.json"
+    },
+    "independent_source_verification": "A second agent independently compared every grouped coordinate against the source crop, including A1 literal FVACG, A2 AD--G and final DFDDF, and confirmed both headers and received lengths."
+  },
+  "historical_delay_context": {
+    "source": "Friedrich Freiherr Kress von Kressenstein, Meine Mission im Kaukasus, memoir dated October 12, 1943; German-language edition published in Tbilisi, 2001.",
+    "url": "https://de.scribd.com/document/46043064/General-Der-Artillerie-a-D-Friedrich-Freiherr-Kress-von-Kressenstein-MEINE-MISSION-IM-KAUKASUS",
+    "locators": [
+      "Memoir paragraph ending before printed page 50: delayed telegrams and radio range",
+      "Printed pages 62-63: first direct revolution news on the night of November 9/10"
+    ],
+    "summary": "Kress recalls that Berlin telegrams sometimes took weeks, that the initial equipment reached Constantinople but not Germany, and that the larger Tiflis station first received the German revolution announcement.",
+    "inference_limit": "This supports the general possibility of delayed relay traffic, not the actual date, key or plaintext of p73. The memoir was written decades later."
+  },
+  "archive_leads_unretrieved": [
+    {
+      "reference": "Politisches Archiv des Auswaertigen Amts, Russland 97a, volume 27",
+      "described_item": "Kress to OHL, October 22, copied in Lersner to Foreign Office, October 26, 1918",
+      "source": "Winfried Baumgart, German Caucasus policy study, footnote 289",
+      "url": "https://openscience.ub.uni-mainz.de/server/api/core/bitstreams/19e5318f-7b9b-4ab1-ba90-5be25c049b40/content",
+      "limit": "Opposite direction to p73 and not obtained as an original telegram; it is an archive lead, not a candidate plaintext."
+    },
+    {
+      "reference": "PAAA R 11061, Russland 97a, Akten betreffend Russisch-Asien, volume 27",
+      "source": "Matthias Dornfeldt and Enrico Seewald, article on German-Azerbaijani relations, note 28",
+      "url": "https://irs-az.com/new/pdf/201512/1449672933925976347.pdf",
+      "limit": "A scholarly bibliographic cross-reference for the older volume designation. The original archive item has not been retrieved."
+    }
+  ],
+  "p155_historical_context_reference": {
+    "artifact": "hopman_context.json",
+    "entry_id": "p155_hopman_ship_parallel",
+    "summary": "Hopman records Asgard and Tresivolos arriving at Sevastopol at 09:00 on November 7, a decision to unload and return them to Poti, and Asgard leaving for Poti on November 9. This closely corroborates the p155 two-part shipping message.",
+    "limit": "No source coordinate, missing-slot position, p73 date, or p73 key follows uniquely from this contextual match."
+  },
+  "calendar_hypothesis": {
+    "observation": "October 26 Julian corresponds to November 8 Gregorian in 1918, exactly matching the two printed dates.",
+    "status": "unverified metadata hypothesis; not a date correction",
+    "counter_evidence": "The Georgian National Archives exhibits a Transcaucasian Sejm law adopted on April 13, 1918 replacing the Julian calendar with the Gregorian calendar. Late-1918 German military radio traffic cannot simply be assumed to use Old Style dates.",
+    "official_primary_document_exhibition": "https://archive.gov.ge/en/2018-1/amierkavkasiis-respublikisa-da-seimis-100-tslistavi-1",
+    "prior_art_check": "No explicit Julian/Gregorian discussion was found in the archived 2017 challenge comments. The underlying date discrepancy was already raised by Norbert and acknowledged by Lasry.",
+    "effect_on_analysis": "Preserve both source date layers and both key-period possibilities. No ciphertext, key assignment or plaintext is changed."
+  }
+}
