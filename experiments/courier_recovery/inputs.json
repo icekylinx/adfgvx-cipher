@@ -1,0 +1,302 @@
+{
+  "schema": "adfgvx-courier-source-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System, Childs intercept collection",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "pdf_bytes": 156848258
+  },
+  "source_images": [
+    {
+      "path": "sources/p151_D.png",
+      "printed_page": 151,
+      "pdf_page_1based": 154,
+      "crop_pdf_points": [
+        60,
+        600,
+        540,
+        690
+      ],
+      "render_scale": 3,
+      "sha256": "3ff0e01662fe5b9c26b7fa1b9bd1d3015bcef11ececda2c210d40d2b8a7dc78a"
+    },
+    {
+      "path": "sources/p153_DE.png",
+      "printed_page": 153,
+      "pdf_page_1based": 156,
+      "crop_pdf_points": [
+        60,
+        575,
+        540,
+        780
+      ],
+      "render_scale": 3,
+      "sha256": "8d10321a1311400f631370534d07f9ec3927bf0fccecefa6de2eadc5245db12c"
+    },
+    {
+      "path": "sources/p158_C.png",
+      "printed_page": 158,
+      "pdf_page_1based": 161,
+      "crop_pdf_points": [
+        60,
+        370,
+        540,
+        480
+      ],
+      "render_scale": 3,
+      "sha256": "0f5f8189ac6ed136804375c4aceb7e96afa187dd1261a7bdc799b5127e01f159"
+    },
+    {
+      "path": "sources/p162_A.png",
+      "printed_page": 162,
+      "pdf_page_1based": 165,
+      "crop_pdf_points": [
+        60,
+        100,
+        540,
+        345
+      ],
+      "render_scale": 3,
+      "sha256": "e9353c4bb6ca8594e643a78d0046399e72aec04ed95711e2d46058223d6d0979"
+    }
+  ],
+  "key_snapshot": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "p153_E1",
+      "printed_page": 153,
+      "pdf_page_1based": 156,
+      "header": "E) RVV v N4 (9.00 a.m., November 9th). 2120 (SY) 2 TLE. 1 TL RICHI-268.",
+      "source_rows": [
+        "GXAXX XAVXA FXADG GDAXX GGXAV XDDDF DDDAG ADVDG",
+        "VXDVDD XXXVX VXDXG XVVXX VGXAX DDVVA DXXVX VXGAD",
+        "AAAXA XXAFA DAXVG ADDDA VXXXV DDDAA ADAGX DVGGD",
+        "GDVVG GFDXG GVXGD DGGVD DDVDD GGXVG VXGGX VDDFD",
+        "DDDGG GAGVD DVVVD FVDGG FVVFV GVXDD XDXDD AXVGG",
+        "GDVGG XGVVD VDGGD VVDVV VDGVV DVDGD XXAFV AADXG",
+        "DFAVX DGXXD DGDDV FFX"
+      ],
+      "source_image": "sources/p153_DE.png",
+      "advertised_length": 268,
+      "ocr_block_id": "p153_ocr_block6",
+      "uncertain_source_indices": [],
+      "notes": [
+        "The source visibly contains the six-letter group VXDVDD; none of its coordinates is silently removed.",
+        "The literal body contains 259 slots despite the RICHI-268 label."
+      ]
+    },
+    {
+      "id": "p162_A1",
+      "printed_page": 162,
+      "pdf_page_1based": 165,
+      "header": "A) RVV v N4 (04.09 a.m., November 9th). 2120 (SY) 2 TEILE. 1 TL RICHI-268.",
+      "source_rows": [
+        "GXAXX XAVXA FXADG GDAXX GGXAV XDDDF DDDAG ADVDG",
+        "VXDVDD XXXVX VXDXG XVVXX VGXAX DDVVA DXXVX VXGAD",
+        "AAAXA XXAFA DAXVG ADDDA VXXXV DDDAA ADAGX DVGGD",
+        "GDVVG GFDXG GVXGD DGGVD DDVDD GGXVG VXGGX VXGGX",
+        "VDDFD DDDGG GAGVD DVVVD FVDGG FVVFV GVXDD XDXDD",
+        "AXVGG GDVGG XGVVD VDGGD VVDVV VDGVV DVDGD XXAFV",
+        "AADXG FGAVX DGXXD DGDDV FFX"
+      ],
+      "source_image": "sources/p162_A.png",
+      "advertised_length": 268,
+      "ocr_block_id": "p162_ocr_block1",
+      "uncertain_source_indices": [
+        154
+      ],
+      "notes": [
+        "The fourth glyph of the first VXGGX group is overstruck. G is the displayed reading; the independent analysis masks that slot as unknown.",
+        "Both consecutive VXGGX groups are retained. The literal body contains 264 slots, including the six-letter group VXDVDD."
+      ]
+    },
+    {
+      "id": "p151_D2",
+      "printed_page": 151,
+      "pdf_page_1based": 154,
+      "header": "D) SY v N4 (0.04 a.m., November 9th). 2 TL RICHI-136.",
+      "source_rows": [
+        "AGGDD XGFVD VVFGX XDDAV GFGGV VVGVG XDDAD VFGAX",
+        "XAGVA VVVFX DXXFG XFXXX AVXDG GVXVX VVVGX GDDVD",
+        "GXDDG GDDDX GGXVD FDDXD XVAFD GXAXV DXVXX DFGDV",
+        "VDXFV GXDDD VAGGG V"
+      ],
+      "source_image": "sources/p151_D.png",
+      "advertised_length": 136,
+      "ocr_block_id": "p151_ocr_block5",
+      "uncertain_source_indices": [],
+      "notes": [
+        "Source group XVAFD differs from the XVAVD of both other copies; it is retained.",
+        "The following group is GXAXV, confirmed in an enlarged source crop."
+      ]
+    },
+    {
+      "id": "p153_D2",
+      "printed_page": 153,
+      "pdf_page_1based": 156,
+      "header": "D) RVV v N4 (8.16 a.m., November 9th). 2 TL RICHI-136.",
+      "source_rows": [
+        "AGGDD XGFVD VVFGX XDDAV GFGGV VVGVG XDDAD VFGAX",
+        "XAGVA VVVFX DXXFG XFXXX AVXXG GVXVX VVVGX GDDVD",
+        "GXDDG GDDDX GGXVD FDDXD XVAVD GXAXV DXVXX DFGDV",
+        "VDXFV GXDDD VAGGG V"
+      ],
+      "source_image": "sources/p153_DE.png",
+      "advertised_length": 136,
+      "ocr_block_id": "p153_ocr_block5",
+      "uncertain_source_indices": [],
+      "notes": [
+        "The source group AVXXG is retained; it produces BENACHWICHTIGEN rather than the BENACHRICHTIGEN in both other witnesses."
+      ]
+    },
+    {
+      "id": "p158_C2",
+      "printed_page": 158,
+      "pdf_page_1based": 161,
+      "header": "C) -- v N4 (01.00 a.m., November 9th). (1st TL missing). 2 TL RICHI-136.",
+      "source_rows": [
+        "AGGDD XGFVD VVFGX XDDAV GFGGV VVGVG XDDAD VFGAX",
+        "XAGVA VVVFX DXXFG XFXXX AVXDG GVXVX VVVGX GDDVD",
+        "GXDDG GDDDX GGXVD FDDXD XVAVD GXAXV DXVXX DFGDV",
+        "VDXFV GXDDD VAGGG V"
+      ],
+      "source_image": "sources/p158_C.png",
+      "advertised_length": 136,
+      "ocr_block_id": "p158_ocr_block4",
+      "uncertain_source_indices": [],
+      "notes": [
+        "N4 DD after the final V is a separate service ending, not a ciphertext group.",
+        "All 136 printed ciphertext coordinates are retained."
+      ]
+    }
+  ],
+  "first_part_candidate": {
+    "plaintext": "ANINGENIEURINSPEKTIONMUENCHENXGEFRXGERAUSUNDFELDGRXMAHRERALSKURIERMITFUNKBETRIEBSUNTERLAGENFUERGRUKONACH?02X7UHRABDSNACHDORTABGEFAHREN",
+    "unresolved_cell_by_position": {
+      "104": 26
+    },
+    "model": "Retain every source slot in order; insert exactly enough slots to attain the printed length 268; minimize changes to valid retained coordinates. The candidate is editorial, not established by this optimization.",
+    "notes": [
+      "The editorial reconstruction retains the name-like strings GERAUS and MAHRER without identifying individuals. Their U and H are not supported under every fit of both alignment models.",
+      "FELDGR remains an unexpanded, uncertain abbreviation.",
+      "The field GRUKONACH?02 uses the same unassigned square cell VF as the directly read continuation; the possible digit is 5 or 6.",
+      "The first-part/second-part association is strongly supported by the part numbers, same senders/routes and matching reference, but is not an explicit cross-reference printed in the log."
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "schema": "adfgvx-historical-context-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "status": "Historically supported completion; cipher-only alternatives remain 5/6",
+  "prior_repo_review": "data/reviews/p176b_unit_context.json",
+  "new_application": "The French telegram and German calendar were already reviewed for p176b. This certificate applies that existing historical evidence to newly source-edited p166/p167/p170 B reports and their different November 7–9 square; it makes no first-discovery claim for the historical sources or p176b plaintext.",
+  "base_key_id": "Nov7-9",
+  "published_partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+  "column_rank_order": [
+    6,
+    12,
+    7,
+    15,
+    1,
+    11,
+    16,
+    5,
+    8,
+    14,
+    3,
+    18,
+    9,
+    13,
+    2,
+    17,
+    20,
+    10,
+    19,
+    4
+  ],
+  "contextual_square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+  "contextual_cell_assignments": {
+    "VF": "6",
+    "XA": "5"
+  },
+  "basis": "The historical identity of the reserve division supplies VF=6; the remaining unused digit supplies XA=5 under the bijective square convention. Neither assignment is made in data/keys.json.",
+  "sources": [
+    {
+      "id": "franchet_1918_11_19",
+      "source_type": "Contemporary operational telegram, reproduced in a later scholarly source edition",
+      "publication_title": "Documents diplomatiques français sur l’histoire du Bassin des Carpates, 1918–1932",
+      "volume": "I: Octobre 1918 – Août 1919",
+      "document_collectors": [
+        "Magda Ádám",
+        "György Litván",
+        "Mária Ormos"
+      ],
+      "editor": "Magda Ádám",
+      "publisher": "Akadémiai Kiadó",
+      "publication_place": "Budapest",
+      "publication_year": 1993,
+      "isbn": "963 05 6659 1",
+      "document_number": 39,
+      "telegram_number": "5.956/3",
+      "sender": "General Franchet d’Esperey, Commander in Chief of the Allied Armies of the Orient",
+      "recipients": [
+        "Clemenceau",
+        "Marshal Foch"
+      ],
+      "transmission_location": "Salonique",
+      "transmission_date_time": "1918-11-19 22:40",
+      "reported_situation_date": "1918-11-11",
+      "document_printed_pages": [
+        79,
+        80,
+        81,
+        82
+      ],
+      "relevant_printed_page": 79,
+      "relevant_pdf_page_1based": 153,
+      "archive_reference_as_printed_on_page_82": "AG.4N58 c/63. d/10.",
+      "url": "https://real-eod.mtak.hu/19844/13/documents.pdf",
+      "catalog_url": "https://real-eod.mtak.hu/19844/",
+      "pdf_sha256": "58e53d24d64eab1be9083d1665e5ce3f42ae4c97dab30acc68f47134e6e247e9",
+      "short_quote": "217° — 219° D.I. Nagy-Backskerek—Verschatz) 6° D.I. réserve",
+      "observation": "The report explicitly includes the 6th Reserve Division with the reconstituted German 11th Army; the same paragraph lists the Alpenkorps and the 217th and 219th divisions in the Nagy-Backskerek–Verschatz area. The matching units and geography support reading 6 in the earlier German reports. This is historical corroboration, not an independent decipherment of the received coordinates."
+    },
+    {
+      "id": "ruhmeshalle_calendar",
+      "source_type": "Retrospective battle calendar compiled from official archival material",
+      "publication_title": "Ruhmeshalle unserer alten Armee",
+      "volume": "I",
+      "edition": "5., völlig neubearbeitete Auflage in zwei Bänden",
+      "publisher": "Verlag für Militärgeschichte und deutsches Schrifttum",
+      "publication_place": "Berlin / Fürstenwalde",
+      "publication_year": null,
+      "year_qualification": "No date is visible in the downloaded extract; it is not labeled as the 1927 edition.",
+      "url": "https://denstorekrig1914-1918.dk/wp-content/uploads/2021/05/Ruhmeshalle_unsere_alten_Armee_5_Aufl_Bd-1_s_342-497s.pdf",
+      "pdf_sha256": "5fe203b85865dc92d27385e921ae1efd02e6c1211df2222902d6875f925bb857",
+      "relevant_printed_pages": [
+        382,
+        385
+      ],
+      "relevant_pdf_pages_1based": [
+        43,
+        46
+      ],
+      "observations": [
+        {
+          "printed_page": 385,
+          "unit": "6. R.D.",
+          "period": "1918-11-06 to 1918-12-15",
+          "paraphrase": "The calendar lists a return march from the Balkans through Hungary after the Serbian retreat and the Save/Danube crossing."
+        },
+        {
+          "printed_page": 382,
+          "unit": "5. R.D.",
+          "period": "1918-11-05 to 1918-11-11",
+          "paraphrase": "The calendar places this division in withdrawal fighting before the Antwerp–Meuse position."
+        }
+      ]
+    }
+  ],
+  "views": [
+    {
+      "id": "p166_A2",
+      "base_layer": "explicitly edited same-length candidate in military_records.json",
+      "ciphertext": "AGVXXXADDDAVXFXAAADFGDVXFDXAXDXGGFGXXGVXVDDVVVVGADVVXXFVFDAVAAXXGVAAGAFGXVDAXVXGVDGDAAFAXVADGDGGDVXVVVVVXDFGVVGGDVGFADFVXVDGFDGGDVDXDDGXGXDVVGXVXXFFDXVDDGVXADVXXVXDXDAADAFXGDGVADFDVXVGXVDXDVDVFVXXVXAXDXGXVDDDXVVA",
+      "ciphertext_changes_for_contextual_digit": 0,
+      "cipher_only_plaintext": "ABMARSCH217XIXDXUND?XRXDXNACHNORDENOHNEFEINDBERUEHRUNGXALPENKORPSWIRDUMVERBASZXFRAGEZEICHENXZUMABTRANSPORT",
+      "contextual_plaintext": "ABMARSCH217XIXDXUND6XRXDXNACHNORDENOHNEFEINDBERUEHRUNGXALPENKORPSWIRDUMVERBASZXFRAGEZEICHENXZUMABTRANSPORT",
+      "new_contextual_position_0based": 19,
+      "cipher_only_domain": "56",
+      "square_cell": "VF",
+      "selected_digit": "6"
+    },
+    {
+      "id": "p170_B1",
+      "base_layer": "explicitly edited same-length candidate in military_records.json",
+      "ciphertext": "DDDADAVFAFXDXVAXDDGVAXXDDGGDAXVFVFDAGAVGAVDVVGVGVVDXVVXGXVXXDXDXDDAXXFAGVDAXFFDVXVAAAAXDGVGXXXADVDGGDXFVAGXVDVVFDFGVVXVXDXVFGDVDGVDGDVVDVDVGXDDVVGVGDFVDGGFDDVVGVDVGXDXVDDXXDXVDXVXDDXVDGVXVDVVGAGVVXVDVGGVXGVDGVGFXVVXGGXAAXVXXDAXDAAAAGVDG",
+      "ciphertext_changes_for_contextual_digit": 0,
+      "cipher_only_plaintext": "ABENMELDUNGXSERBXKAVALLERIEPETERWADEINUNDFEHERTEMPLOMEINGERUECKTXXABMARSCH217XIXDXUND?XRXDNACHNORDENOHNEFEINBERUEHRUNG",
+      "contextual_plaintext": "ABENMELDUNGXSERBXKAVALLERIEPETERWADEINUNDFEHERTEMPLOMEINGERUECKTXXABMARSCH217XIXDXUND6XRXDNACHNORDENOHNEFEINBERUEHRUNG",
+      "new_contextual_position_0based": 85,
+      "cipher_only_domain": "56",
+      "square_cell": "VF",
+      "selected_digit": "6"
+    },
+    {
+      "id": "p170_B2",
+      "base_layer": "explicitly edited same-length candidate in military_records.json",
+      "ciphertext": "AADDGVXDADADADGGDGXFXGDAVXAADGVGVDVXXXDDDFXVGXXVVFAGDVVXGVVXAXXDGVDAXVFDGDXGVAGXGDVXAAFDFVXFXVDFGXGGVAVGAAFADVVDGVGDVDVADFXVVGFDVDVDXDDVVVVFGGDXADVVVDVGGXXGVVXVGFGDDGFDGXGGVVVDGVXDXDADGXDDXDGDVXXVDVGGXVDGFFDXFVFXGVXDGAADFDVGDDAAGDDFVFDDAG",
+      "ciphertext_changes_for_contextual_digit": 0,
+      "cipher_only_plaintext": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT",
+      "contextual_plaintext": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND6XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT",
+      "new_contextual_position_0based": 64,
+      "cipher_only_domain": "56",
+      "square_cell": "VF",
+      "selected_digit": "6"
+    },
+    {
+      "id": "p166_A3_composite",
+      "base_layer": "explicitly edited same-length candidate in military_records.json",
+      "ciphertext": "ADFVFDDDVXDGVDDXVDAFGGXGXDADVFVVDFXGXXGXVVVXVGGDXXGDGVVGGDAXADDFXFXDAGVVGVADAXDVVFDFXDAXDGVDXVVGDGVXVFDDFVGDXXVGXVDVVGXVDDAGGVFDGVVVAGVVVFGVXVGVDGVGGVDVVVDGVDVGVFFFVFFVXDGFFGVDGVDVDVGGGVAGVAAFFFDVVXFDVXVG",
+      "ciphertext_changes_for_contextual_digit": 0,
+      "cipher_only_plaintext": "BEREITGESTELLTX219XX217XUND?XRXDXSETZEN9X11XMARSCHINLINENAGYBESKEREKXWERSCHETZFORTXOXKXMX1AXNO11319OPX",
+      "contextual_plaintext": "BEREITGESTELLTX219XX217XUND6XRXDXSETZEN9X11XMARSCHINLINENAGYBESKEREKXWERSCHETZFORTXOXKXMX1AXNO11319OPX",
+      "new_contextual_position_0based": 27,
+      "cipher_only_domain": "56",
+      "square_cell": "VF",
+      "selected_digit": "6"
+    }
+  ],
+  "limitations": [
+    "The primary telegram describes the situation on 11 November and was transmitted on 19 November; the German intercepts are dated 9 November.",
+    "The two-digit ambiguity is not resolved by ciphertext arithmetic alone.",
+    "The source-derived prefix and all pre-existing editorial corrections remain separately documented. Selecting the historical digit adds no ciphertext substitutions.",
+    "The historical context supports the reserve-division identification; it does not certify every other occurrence of an unknown cell in a corrupted intercept.",
+    "The later-key p176b message requires its own source and key analysis; the November7–9 mapping does not automatically transfer."
+  ]
+}

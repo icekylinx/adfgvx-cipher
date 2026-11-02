@@ -32,6 +32,11 @@ jobs:
           python experiments/corpus_joint/build_readings.py experiments/corpus_joint/p205_inputs.json experiments/corpus_joint/p205_readings.json --verify
           python experiments/corpus_joint/verify_p205.py
           python experiments/p170_continuation/verify_seifert.py
+          python experiments/p170_continuation/verify_military.py
+          python experiments/p170_continuation/verify_military_context.py
+          python experiments/courier_recovery/build.py --verify
+          python experiments/courier_recovery/verify.py
+          python experiments/open_targets_continuation/verify.py --verify
       - name: Check recorded truncation constraints
         run: python experiments/known_key/verify_p170.py experiments/known_key/p170_experiment.json
       - name: Build search engines and check controls

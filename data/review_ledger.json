@@ -2499,6 +2499,193 @@
           "cases/other/p218_A.md"
         ]
       }
+    },
+    {
+      "id": "courier_repeated_parts",
+      "scope": [
+        "p153_E1",
+        "p162_A1",
+        "p151_D2",
+        "p153_D2",
+        "p158_C2"
+      ],
+      "claim_reviewed": "Repeated courier records support a direct continuation and a qualified first-part reconstruction.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_source_and_inference_limits",
+      "result": "Three continuation witnesses fix 67/68 positions directly. For the fixed 134-position first-part candidate, every minimum alignment is retained in two damage models; 123 positions have unchanged-pair support in the insertion-only model and 118 across both models. The part association and the name-like strings remain qualified.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/courier_recovery/inputs.json",
+          "experiments/courier_recovery/certificate.json",
+          "cases/other/courier_munich.md"
+        ]
+      }
+    },
+    {
+      "id": "military_prefix_and_parallel",
+      "scope": [
+        "p166_A1",
+        "p166_A2",
+        "p166_A3",
+        "p167_A3",
+        "p170_B1",
+        "p170_B2"
+      ],
+      "claim_reviewed": "An independently received prefix restores a damaged operational report and links differently framed parallels.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_source_and_inference_limits",
+      "result": "The complete p167 witness supplies the missing first 20 coordinates of p166 A3 while preserving all 184 received coordinates. Offset 20 uniquely minimizes disagreement among 21 placements. The conservative union fixes 97/102 positions. Six source records preserve 1,248 slots; all repairs are separate from raw evidence.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p170_continuation/military_records.json",
+          "experiments/p170_continuation/military_context.json",
+          "cases/other/nov9_operational_reports.md"
+        ]
+      }
+    },
+    {
+      "id": "nov7_9_conditional_unit_digit",
+      "scope": [
+        "p166_A2",
+        "p166_A3",
+        "p170_B1",
+        "p170_B2",
+        "p158_C2"
+      ],
+      "claim_reviewed": "Previously audited contemporary unit evidence supports a conditional Nov7-9 digit assignment.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_source_and_inference_limits",
+      "result": "The French telegram already cited in the p176b review names the 6th Reserve Division with the same 217th/219th divisions and Alpenkorps. Applying this historical identification to the newly edited reports selects VF=6, XA=5 without extra coordinate edits; cipher-only 5/6 witnesses and the base key remain unchanged. The same conditional square gives courier unit 602, not an independent digit deduction.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p170_continuation/military_records.json",
+          "experiments/p170_continuation/military_context.json",
+          "experiments/courier_recovery/inputs.json",
+          "experiments/courier_recovery/certificate.json"
+        ]
+      }
+    },
+    {
+      "id": "kremp_cross_key_body",
+      "scope": [
+        "p131_B",
+        "p149_B",
+        "p159_D"
+      ],
+      "claim_reviewed": "An unchanged reading under a later key supplies the body of earlier damaged Kremp messages.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_source_and_inference_limits",
+      "result": "The p159 message fixes 98/98 positions from 196 unchanged coordinates. Its 51-character body matches 48/51 directly fixed p149 positions; three exact coordinate substitutions repair p149. p131 separately needs four substitutions and two fills. Address spelling differences remain literal.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/open_targets_continuation/inputs.json",
+          "experiments/open_targets_continuation/certificates.json",
+          "cases/other/kremp.md"
+        ]
+      }
+    },
+    {
+      "id": "warsaw_cross_key_quote",
+      "scope": [
+        "p181_A",
+        "p214_B"
+      ],
+      "claim_reviewed": "A later quotation provides an independent-key witness to the previously published Warsaw query.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_source_and_inference_limits",
+      "result": "The 92-position quotation has 85 matching direct positions. p214 supplies the p181 erasure; p181 supports three p214 substitutions and three fills. The p214 closing reference remains damaged. Lasry and coauthors retain prior interpretation credit; their 13 November date and the source 12 November date are distinguished.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/open_targets_continuation/inputs.json",
+          "experiments/open_targets_continuation/certificates.json",
+          "cases/other/mackensen_warsaw.md"
+        ]
+      }
+    },
+    {
+      "id": "ringbahn_december_schedule",
+      "scope": [
+        "p211_B_lower1",
+        "p211_B_lower2",
+        "p211_B_lower3"
+      ],
+      "claim_reviewed": "The assembled message instructs December reuse of November Ringbahn keys.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_source_and_inference_limits",
+      "result": "Three parts retain 532 source slots and 265/266 raw positions. The directly readable schedule says 1 December like 10 November through 21 December like 30 November. Three spelling substitutions and one invalid-glyph fill are recorded. A 19 November heading, 22 November receipt and successful Nov4-6 key use remain distinct; the instruction does not prove subsequent compliance.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/open_targets_continuation/inputs.json",
+          "experiments/open_targets_continuation/certificates.json",
+          "cases/other/p211_key_schedule.md"
+        ]
+      }
+    },
+    {
+      "id": "nov16_18_conditional_date_digits",
+      "scope": [
+        "p204_A",
+        "p201_B1",
+        "p201_B2",
+        "p206_A1",
+        "p206_A2",
+        "p206_A3",
+        "p205_A4"
+      ],
+      "claim_reviewed": "Calendar context and a shared order reference support two separate conditional square assignments.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_source_and_inference_limits",
+      "result": "The p204 Monday 1? date uniquely gives 18 within November 1918 under the unchanged injective base square, conditionally setting FD=8. The p201/p206 common 11{FA}{VV}2 reference and matching reporting subject, with the clear p201 origin 15/11, conditionally set VA=5. Together these fix seven local positions and p205 A4 position 86 with zero new source edits. Assumptions, shared variables and remaining digits are retained.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/open_targets_continuation/inputs.json",
+          "experiments/open_targets_continuation/certificates.json",
+          "cases/other/p204_A.md",
+          "cases/other/p201_p206_orders.md"
+        ]
+      }
     }
   ]
 }

@@ -4,7 +4,7 @@
 
 **icekylinx and GPT-6 Astra Pro · 2 November 2026**
 
-The edition contains 22 challenge entries and 62 other source-reviewed
+The edition contains 22 challenge entries and 87 other source-reviewed
 records in the [two reading tables](../cases/README.md). **p73, p170 and p198 D remain
 wholly open.** Other entries range from complete prior readings to partial
 recoveries and source-linked reconstructions; they are not all independently
@@ -16,6 +16,10 @@ defensible.
 
 | Result | Evidence gained | What remains unresolved |
 |---|---|---|
+| [Munich couriers](../cases/other/courier_munich.md) | Five records give a direct 67/68-position continuation and a 134-position first-part candidate, with 118 positions supported across both audited damage models. | First-part wording and geometry are conditional; names and part association remain qualified. Unit 602 depends on the separate historical key inference. |
+| [Operational reports](../cases/other/nov9_operational_reports.md) | A complete repeat supplies the missing 20-coordinate prefix while retaining all 184 received coordinates; a conservative union fixes 97/102 positions. | Word repairs and place-name fills remain explicit. Previously audited French unit evidence favors the 6th Reserve Division, while cipher arithmetic still permits 5/6. |
+| [Kremp](../cases/other/kremp.md) and [Warsaw](../cases/other/mackensen_warsaw.md) across different keys | The later Kremp message is unchanged and complete; the Warsaw query has a 92-position quotation under another key. | Earlier source garbles have exact repair costs; the Warsaw closing reference is still damaged and prior interpretation credit is retained. |
+| [Ringbahn schedule](../cases/other/p211_key_schedule.md) and [order/date constraints](../cases/other/p201_p206_orders.md) | Three parts instruct November-key reuse for December. Separate calendar and order-reference assumptions add seven fixed local positions and one p205 reference digit. | An instruction does not prove compliance. FD=8 and VA=5 remain conditional assignments; original squares and all raw domains are unchanged. |
 | [Osthoff](../cases/other/osthoff.md) and [Glatz](../cases/other/glatz.md) | Six witnesses recover readable military-mission messages; 403/407 candidate positions have complete pair support in a witness. | Three shared source garbles require editorial emendation; one Glatz letter needs a damaged-glyph reading. |
 | [p205 finance](../cases/other/p205_A.md) and [naval reporting](../cases/other/p205_B.md) | Six source parts fix 750/757 raw positions and give two complete readable bodies. | Four coordinate substitutions and six unresolved reference positions remain explicit. |
 | [Seifert and station traffic](../cases/other/seifert.md) | Source-checked reports distinguish records destroyed from cipher keys kept in personal custody, alongside short service messages and duplicates. | The missing hundreds digit and personal identity are not inferred; earlier station-report readings keep their authorship. |

@@ -7,7 +7,6 @@ Uses independent column reconstruction, with no model, search or cipher imports.
 from pathlib import Path
 import argparse
 import hashlib
-import itertools
 import json
 
 ROOT = Path(__file__).resolve().parents[2]

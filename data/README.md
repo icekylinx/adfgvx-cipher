@@ -20,8 +20,10 @@ Research and editorial attribution: **icekylinx and GPT-6 Astra Pro**. Earlier r
 Additional source editions live with their verifiers in
 [corpus_readings](../experiments/corpus_readings/README.md),
 [corpus_attack](../experiments/corpus_attack/SOURCE_FAMILIES.md),
-[corpus_joint](../experiments/corpus_joint/README.md) and
-[p170_continuation](../experiments/p170_continuation/README.md).
+[corpus_joint](../experiments/corpus_joint/README.md),
+[p170_continuation](../experiments/p170_continuation/README.md),
+[courier_recovery](../experiments/courier_recovery/README.md) and
+[open_targets_continuation](../experiments/open_targets_continuation/README.md).
 The reading catalogue links each individual source record to its case and
 the exact evidence files, including repeated transmissions and multipart messages.
 
