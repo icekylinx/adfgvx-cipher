@@ -16,27 +16,27 @@ Five entries remain wholly open: **p73, p153a, p153b, p170, p198**. A source-lin
 | Entry | Reviewed state | First reading or present contribution |
 |---|---|---|
 | `p73` | Open | — |
-| `p100` | Prior body reading; source audit | Armin (2017 comment author) |
-| `p105` | Prior body reading; source audit | Norbert (2017 comment author) |
-| `p109` | Prior body reading; source audit | Norbert (2017 comment author) |
-| `p132` | Prior body reading; source audit | Norbert (2017 comment author) |
-| `p146` | Prior body reading; source audit | Norbert (2017 comment author) |
+| [p100](cases/p100.md) | Prior body reading; source audit | Armin (2017 comment author) |
+| [p105](cases/p105.md) | Prior body reading; source audit | Norbert (2017 comment author) |
+| [p109](cases/p109.md) | Prior body reading; source audit | Norbert (2017 comment author) |
+| [p132](cases/p132.md) | Prior body reading; source audit | Thomas (fragment), Norbert (body) |
+| [p146](cases/p146.md) | Prior body reading; source audit | Norbert (2017 comment author) |
 | [p152](cases/p152.md) | Source-linked body | This review, 2026 |
 | `p153a` | Open | — |
 | `p153b` | Open | — |
 | [p158](cases/p158.md) | Composite sources identified | This review, 2026 |
-| `p164a` | Prior partial; constraint audit | Norbert (2017 comment author) |
-| `p164b` | Prior partial; constraint audit | Norbert (2017 comment author) |
+| [p164a](cases/p164a.md) | Prior partial; constraint audit | Norbert (2017 comment author) |
+| [p164b](cases/p164b.md) | Prior partial; constraint audit | Norbert (2017 comment author) |
 | `p170` | Open | — |
-| `p171` | Prior body reading; source audit | Norbert (2017 comment author) |
-| `p176a` | Prior body reading; source audit | Norbert (2017 comment author) |
-| `p176b` | Prior contextual reading; constraint audit | Prinz (2026 publication) |
-| `p215` | Prior partial; constraint audit | Norbert (2017 comment author) |
-| `p187` | Prior body reading; source audit | George Lasry, Norbert (2017 comment author) |
-| `p187b` | Prior body reading; source audit | George Lasry, Norbert (2017 comment author) |
+| [p171](cases/p171.md) | Prior body reading; source audit | Norbert (2017 comment author) |
+| [p176a](cases/p176a.md) | Prior body reading; source audit | Norbert (2017 comment author) |
+| [p176b](cases/p176b.md) | Prior contextual reading; constraint audit | Prinz (2026 publication) |
+| [p215](cases/p215.md) | Prior partial; constraint audit | Norbert (2017 comment author) |
+| [p187](cases/p187.md) | Prior body reading; source audit | George Lasry, Norbert (2017 comment author) |
+| [p187b](cases/p187b.md) | Prior body reading; source audit | George Lasry, Norbert (2017 comment author) |
 | [p189](cases/p189.md) | Conditional partial | This review, 2026 |
 | `p198` | Open | — |
-| `p217` | Prior body reading; correction verified | Prinz (2026 publication), Christian Horvat (later correction) |
+| [p217](cases/p217.md) | Prior body reading; correction verified | Prinz (2026 publication), Christian Horvat (later correction) |
 
 ## Verify
 
@@ -47,7 +47,7 @@ python3 -m adfgvx.verify
 python3 -m adfgvx.verify --json
 ```
 
-The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips, the p152 suffix alternatives, the p158 splice and glyph variants, and every p189 source-preserving alignment and plaintext domain. Odd-length ciphertext cannot silently lose a coordinate.
+The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips, the p152 suffix alternatives, the p158 splice and glyph variants, every p189 source-preserving alignment and plaintext domain, and 24 explicit reconstructions of 14 earlier-readable entries. Odd-length ciphertext cannot silently lose a coordinate.
 
 ## Contents
 
@@ -56,6 +56,7 @@ The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips
 | `cases/` | Readings, qualifications, original credits, and source links |
 | `data/messages.json` | All 22 source records, legacy transcriptions, and conservative analysis layers |
 | `data/keys.json` | 23 audited historical or comparison keys; provenance and unknown cells retained |
+| `data/prior_readings.json` | 34 attributed earlier readings/fragments and 24 recomputed repair variants |
 | `data/certificates/` | Machine-readable source, edit, and plaintext evidence |
 | `adfgvx/` | Independent cipher and verification code |
 | `sources/` | Bibliography and selected source excerpts |

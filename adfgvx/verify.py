@@ -8,9 +8,10 @@ import argparse
 import hashlib
 import json
 
-from .cipher import decrypt, encrypt, self_check, SYMBOLS, plaintext_domains
+from .cipher import decrypt, encrypt, self_check, SYMBOLS, plaintext_domains, transpose, untranspose
 from .alignment import find_switch, table, alignment
 from .projection import analyze, untranspose as project_untranspose, transpose as project_transpose
+from . import prior
 
 ROOT=Path(__file__).resolve().parent.parent
 
@@ -113,6 +114,26 @@ def p189():
             'invariant_plaintext':result['all_path_invariant_plaintext']}
 
 
+def prior_readings():
+    path=ROOT/'data/prior_readings.json'
+    document=json.loads(path.read_text())
+    result=prior.verify(path)
+    catalog={x['id']:x for x in json.loads((ROOT/'data/messages.json').read_text())['messages']}
+    for entry in document['messages']:
+        assert entry['analysis_ciphertext']==catalog[entry['id']]['transcript']['analysis_ciphertext']
+        ranks=entry['key']['column_rank_order'];square=entry['key']['square']
+        for variant in entry['verified_variants']:
+            verified=variant['verification']
+            assert untranspose(verified['corrected_ciphertext'],ranks)==verified['intermediate_stream_before_edits']
+            after=verified['intermediate_stream_after_edits']
+            paired=after[:2*verified['decoded_plaintext_length']]
+            assert after[len(paired):]==verified['unpaired_intermediate_suffix']
+            assert plaintext_domains(transpose(paired,ranks),ranks,square)==verified['plaintext_domains']
+    result['independent_domain_crosscheck']=True
+    result['published_readings']=sum(len(x['published_readings']) for x in document['messages'])
+    return result
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--json',action='store_true');args=parser.parse_args()
     assert self_check()
@@ -120,12 +141,16 @@ def main():
     try:decrypt('A',[1],'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
     except ValueError:pass
     else:raise AssertionError('Odd-length input was silently truncated')
-    results={'arithmetic':'PASS','cases':{'p152':p152(),'p158':p158(),'p189':p189()}}
+    results={'arithmetic':'PASS','cases':{'p152':p152(),'p158':p158(),'p189':p189()},
+             'prior_readings':prior_readings()}
     if args.json:print(json.dumps(results,indent=2))
     else:
         print('PASS: independent ADFGVX arithmetic and odd-length guard')
         for name,record in results['cases'].items():print(f"PASS: {name} — {record['classification']}")
         print('Seven exact source roundtrips; exhaustive correspondence and domain checks passed.')
+        previous=results['prior_readings']
+        print(f"PASS: {previous['messages']} prior entries, {previous['published_readings']} attributed readings, "
+              f"{previous['verified_variants']} reconstruction variants, independent domain checks")
 
 
 if __name__=='__main__':main()
