@@ -1678,6 +1678,143 @@
         "experiments/p215_completion/check_editorial_alignment.py"
       ],
       "status": "verified_exact_conditional_lower_bound"
+    },
+    {
+      "id": "p132_vorher_prior_credit",
+      "scope": [
+        "p132"
+      ],
+      "claim_reviewed": "The VORHER interpretation predates this edition.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-12",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-858211",
+        "comment": 40
+      },
+      "review_status": "verified_prior_interpretation",
+      "result": "Norbert comment40 already proposes GEBET VORHER and its one-coordinate repair.",
+      "verification_evidence": {
+        "artifact": "../experiments/source_followup/attribution_followup.json"
+      }
+    },
+    {
+      "id": "p146_duplicate_group_repair",
+      "scope": [
+        "p146"
+      ],
+      "claim_reviewed": "Deleting one literal duplicate XAAXV and inserting five unknown coordinates gives a cleaner retained-source model.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "earlier_body": "Norbert, comment19, 2017-03-01"
+      },
+      "review_status": "independently_verified_conditional_repair",
+      "result": "239 retained known coordinates unchanged;117/122 plaintext positions fixed;7776 source-compatible completions in the representative geometry;18 alignments for the chosen full interpretation.",
+      "verification_evidence": {
+        "artifact": "certificates/p146_duplicate_group.json",
+        "independent_review": "reviews/p146_duplicate_independent.json"
+      }
+    },
+    {
+      "id": "p109_same_page_parallel",
+      "scope": [
+        "p109"
+      ],
+      "claim_reviewed": "Printed p109 B provides an independent imperfect near-parallel to target sectionD.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "earlier_target_body": "Norbert, comment18, 2017-03-01"
+      },
+      "review_status": "source_checked_parallel_with_explicit_editorial_changes",
+      "result": "200 known-coordinate agreements and42 disagreements after the earlier target repair; supports SAVA/UEBERGANG and BELGRAD ERKANNT, while timestamps and endings remain unresolved.",
+      "verification_evidence": {
+        "artifact": "certificates/p109_parallel.json"
+      }
+    },
+    {
+      "id": "three_editorial_coordinate_audits",
+      "scope": [
+        "p109",
+        "p132",
+        "p146"
+      ],
+      "claim_reviewed": "Readable normalizations have explicit coordinate-level costs and prior attribution.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ]
+      },
+      "review_status": "verified_arithmetic_not_historical_uniqueness",
+      "result": "All three same-length proposals have full coordinate maps through the earlier repairs; source transcriptions remain unchanged.",
+      "verification_evidence": {
+        "artifact": "certificates/editorial_readings.json"
+      }
+    },
+    {
+      "id": "p77_call_sign_context",
+      "scope": [
+        "p77_B",
+        "p146"
+      ],
+      "claim_reviewed": "A complete source reading supplies ERHAELT RUFNAMEN and spelling words for a Konia call-sign change;175/175 characters fixed.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "prior_context": "Historical source and previously published keys; p186 relationship was already identified by Norbert comment53."
+      },
+      "review_status": "source_checked_with_explicit_limits",
+      "result": "A complete source reading supplies ERHAELT RUFNAMEN and spelling words for a Konia call-sign change;175/175 characters fixed.",
+      "verification_evidence": {
+        "artifact": "../experiments/source_followup/source_context.json"
+      }
+    },
+    {
+      "id": "p134_period_context",
+      "scope": [
+        "p134_B",
+        "p132"
+      ],
+      "claim_reviewed": "Source-checked fourth/fifth-period repeat instruction;50/51 characters fixed, malformed glyph masked.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "prior_context": "Historical source and previously published keys; p186 relationship was already identified by Norbert comment53."
+      },
+      "review_status": "source_checked_with_explicit_limits",
+      "result": "Source-checked fourth/fifth-period repeat instruction;50/51 characters fixed, malformed glyph masked.",
+      "verification_evidence": {
+        "artifact": "../experiments/source_followup/source_context.json"
+      }
+    },
+    {
+      "id": "p186_conservative_glyphs_and_suffix",
+      "scope": [
+        "p186",
+        "p187b"
+      ],
+      "claim_reviewed": "Two questionable V interpretations kept separate from the conservative layer; all nine one-character suffix deletions fail under injective square completion.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "prior_context": "Historical source and previously published keys; p186 relationship was already identified by Norbert comment53."
+      },
+      "review_status": "source_checked_with_explicit_limits",
+      "result": "Two questionable V interpretations kept separate from the conservative layer; all nine one-character suffix deletions fail under injective square completion.",
+      "verification_evidence": {
+        "artifact": "../experiments/source_followup/p186_source_and_suffix_delta.json"
+      }
     }
   ]
 }

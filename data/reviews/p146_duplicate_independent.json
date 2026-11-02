@@ -1,0 +1,281 @@
+{
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "p146",
+  "status": "Independent audit of a conditional duplicate-deletion repair; not a uniqueness claim",
+  "source_layer": "data/prior_readings.json p146 analysis_ciphertext, visually compared against Childs printed p146 / PDF149",
+  "source_sha256": "613ea306fb93cfa66fcc60c476e9082fd35df4eefa4935427fa46b8407b8aec9",
+  "source_length": 244,
+  "key_id": "Nov4-6",
+  "duplicate": {
+    "zero_based_ranges": [
+      [
+        220,
+        225
+      ],
+      [
+        225,
+        230
+      ]
+    ],
+    "group": "XAAXV",
+    "visually_confirmed_in_scan": true,
+    "either_deletion_produces_identical_string": true
+  },
+  "insertion": {
+    "zero_based_original_offset": 45,
+    "width": 5,
+    "assumed_most_likely_filling": "AAXAA",
+    "visible_gap_at_insertion_location": false
+  },
+  "retained_observed_coordinate_count": 239,
+  "retained_observed_coordinate_substitutions": 0,
+  "conditional_partial": "FUNKSTELLEKERTSCHERHAE?TAB12X1?XRUFNAME?RICHARD?MILKARLX?UNKSTELLENDORTIGENBEREICHSBENACHRICHTIGENXNACHRICHTENCHEF4BG7834X",
+  "conditional_fixed_plaintext_count": 117,
+  "plaintext_length": 122,
+  "unknown_plaintext_positions": [
+    22,
+    30,
+    39,
+    47,
+    56
+  ],
+  "proposed_plaintext": "FUNKSTELLEKERTSCHERHAELTAB12X11XRUFNAMENRICHARDEMILKARLXFUNKSTELLENDORTIGENBEREICHSBENACHRICHTIGENXNACHRICHTENCHEF4BG7834X",
+  "roundtrip_verified": true,
+  "prior_repair_cipher_disagreements": [
+    {
+      "received_index": 45,
+      "prior_repair": "F",
+      "duplicate_repair": "A"
+    },
+    {
+      "received_index": 46,
+      "prior_repair": "V",
+      "duplicate_repair": "A"
+    },
+    {
+      "received_index": 232,
+      "prior_repair": "A",
+      "duplicate_repair": "F"
+    },
+    {
+      "received_index": 233,
+      "prior_repair": "X",
+      "duplicate_repair": "D"
+    }
+  ],
+  "unknown_coordinate_choices": [
+    {
+      "received_index": 45,
+      "alternatives_relative_to_AAXAA": {
+        "A": [],
+        "D": [
+          [
+            22,
+            "L",
+            "P"
+          ]
+        ],
+        "F": [
+          [
+            22,
+            "L",
+            "9"
+          ]
+        ],
+        "G": [
+          [
+            22,
+            "L",
+            "6"
+          ]
+        ],
+        "V": [
+          [
+            22,
+            "L",
+            "I"
+          ]
+        ],
+        "X": [
+          [
+            22,
+            "L",
+            "N"
+          ]
+        ]
+      }
+    },
+    {
+      "received_index": 46,
+      "alternatives_relative_to_AAXAA": {
+        "A": [],
+        "D": [
+          [
+            30,
+            "1",
+            "7"
+          ]
+        ],
+        "F": [
+          [
+            30,
+            "1",
+            "W"
+          ]
+        ],
+        "G": [
+          [
+            30,
+            "1",
+            "H"
+          ]
+        ],
+        "V": [
+          [
+            30,
+            "1",
+            "F"
+          ]
+        ],
+        "X": [
+          [
+            30,
+            "1",
+            "L"
+          ]
+        ]
+      }
+    },
+    {
+      "received_index": 47,
+      "alternatives_relative_to_AAXAA": {
+        "A": [
+          [
+            39,
+            "N",
+            "L"
+          ]
+        ],
+        "D": [
+          [
+            39,
+            "N",
+            "P"
+          ]
+        ],
+        "F": [
+          [
+            39,
+            "N",
+            "9"
+          ]
+        ],
+        "G": [
+          [
+            39,
+            "N",
+            "6"
+          ]
+        ],
+        "V": [
+          [
+            39,
+            "N",
+            "I"
+          ]
+        ],
+        "X": []
+      }
+    },
+    {
+      "received_index": 48,
+      "alternatives_relative_to_AAXAA": {
+        "A": [],
+        "D": [
+          [
+            47,
+            "E",
+            "X"
+          ]
+        ],
+        "F": [
+          [
+            47,
+            "E",
+            "K"
+          ]
+        ],
+        "G": [
+          [
+            47,
+            "E",
+            "V"
+          ]
+        ],
+        "V": [
+          [
+            47,
+            "E",
+            "Z"
+          ]
+        ],
+        "X": [
+          [
+            47,
+            "E",
+            "9"
+          ]
+        ]
+      }
+    },
+    {
+      "received_index": 49,
+      "alternatives_relative_to_AAXAA": {
+        "A": [],
+        "D": [
+          [
+            56,
+            "F",
+            "U"
+          ]
+        ],
+        "F": [
+          [
+            56,
+            "F",
+            "Z"
+          ]
+        ],
+        "G": [
+          [
+            56,
+            "F",
+            "Y"
+          ]
+        ],
+        "V": [
+          [
+            56,
+            "F",
+            "G"
+          ]
+        ],
+        "X": [
+          [
+            56,
+            "F",
+            "4"
+          ]
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "Deletion of a visibly duplicated group is an emendation hypothesis, not a verified transmission history.",
+    "The five-coordinate insertion before original offset45 has no printed erasure marker; its location is a structural reconstruction.",
+    "The AAXAA filling is selected by German reading/context. In the complete fixed square all7776 fillings decode, so encryption alone does not select it.",
+    "The resulting date12.11 is later than the November6 message date, consistent with an announced future call-sign change, but not independent proof.",
+    "The proposed new reading must be credited as a refinement of the already published Norbert2017 body and repair location, not a first decipherment of the entire message."
+  ]
+}

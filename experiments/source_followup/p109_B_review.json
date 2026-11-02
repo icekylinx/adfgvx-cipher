@@ -1,0 +1,47 @@
+{
+  "format_version": 1,
+  "project": "ADFGVX Cipher",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "case": "p109 B",
+  "review_type": "Independent visual source transcription and comparison",
+  "source": {
+    "title": "Childs intercept collection",
+    "printed_page": 109,
+    "pdf_page_1based": 112,
+    "section": "B",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "render": "Poppler pdftoppm, 300 dpi; full page and enlarged section independently inspected",
+    "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+  },
+  "header_literal": "UKS v ZÖN (11.03 p.m., November 3rd); VEVE 1715 AN LP UD 2130; RICHI-248",
+  "grouped_ciphertext": "XGGGG GFDFG GAXGF FFVGG VDXDX DAGXF DGXGX AAGDX\nDADDD ADXAG GADGV FGGXD FGVVG XXAXA FDVVV XXFXV\nDVGXG VDAAD GXDAA XFVAX DGVGG GDAVG F-VGD DVFGF\nVDVVX DGFDD VVXDX VDADX XVVX- V--GF GVVVV AGXGG\nXGGDA FGADV VDAFG AADAD GDXXV GDXVA AADGV XGGGX\nAGGDG VGD-V FAFAX GGVGV FAD-G FAXAD GVFDD DAVGV\nFAGAG VGD",
+  "analysis_ciphertext": "XGGGGGFDFGGAXGFFFVGGVDXDXDAGXFDGXGXAAGDXDADDDADXAGGADGVFGGXDFGVVGXXAXAFDVVVXXFXVDVGXGVDAADGXDAAXFVAXDGVGGGDAVGF?VGDDVFGFVDVVXDGFDDVVXDXVDADXXVVX?V??GFGVVVVAGXGGXGGDAFGADVVDAFGAADADGDXXVGDXVAAADGVXGGGXAGGDGVGD?VFAFAXGGVGVFAD?GFAXADGVFDDDAVGVFAGAGVGD",
+  "coordinates": 248,
+  "known_coordinates": 242,
+  "erasure_indices_0based": [
+    111,
+    144,
+    146,
+    147,
+    208,
+    223
+  ],
+  "comparison_with_initial_root_transcription": {
+    "equal_after_whitespace_and_erasure_normalization": true,
+    "differing_indices_0based": []
+  },
+  "visual_notes": [
+    "The first line, fourth group reads FFVGG; the F is not an invalid T.",
+    "Second line, third group reads GADGV.",
+    "Six printed dashes occur at distinct coordinate slots; V--GF has two erased slots.",
+    "No extra coordinate, parenthesized annotation, handwritten repair or ambiguous glyph was adopted."
+  ],
+  "limits": [
+    "This checks transcription against the available scan, not against an original intercepted message.",
+    "A matching transcription does not establish that all historical source characters are correct.",
+    "The reception time differs from target D on the same page; a relationship must be justified by the recorded symbol comparison, not header equality."
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "date": "2026-11-02",
+  "project": "ADFGVX Cipher",
+  "index_convention": "Zero based",
+  "source_transcriptions_unchanged": true,
+  "schema": "adfgvx-p146-duplicate-group-v1",
+  "status": "Source-preserving retained-coordinate repair, with explicit five-coordinate completion",
+  "source": {
+    "printed_page": 146,
+    "pdf_page_1based": 149,
+    "section": "B",
+    "image": "sources/excerpts/childs_p146_B.png",
+    "analysis_reference": "data/prior_readings.json#p146",
+    "header": "UKS v LP (06.43 a.m., November 7th); UKS AS FUER COS 2100 (6/11); RICHI-244"
+  },
+  "attribution": {
+    "earlier_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker",
+    "earlier_body_and_gap_hypothesis": "Norbert, 2017-03-01, comment 19",
+    "new_duplicate-group_repair_and_readable_review": "icekylinx and GPT-6 Astra Pro"
+  },
+  "reading": "FUNKSTELLE KERTSCH ERHAELT AB 12.[11] RUFNAMEN RICHARD EMIL KARL. FUNKSTELLEN DORTIGEN BEREICHS BENACHRICHTIGEN. NACHRICHTENCHEF 4BG7834",
+  "limits": [
+    "A missing group and a duplicated group are the stated damage model, not directly witnessed transmission events.",
+    "The source contains two adjacent identical XAAXV groups; their identities cannot be distinguished after deleting one.",
+    "The five proposed coordinates AAXAA supply L, 1, N, E, F at the unresolved plaintext positions.",
+    "For an ordinary day.month date, the remaining month character in 12.1? is conditionally 1; no date is independently recovered from the absent coordinate.",
+    "The suffix 4BG7834 is not expanded. Alternative alignments for the chosen complete reading are retained."
+  ],
+  "analysis": {
+    "source_sha256": "613ea306fb93cfa66fcc60c476e9082fd35df4eefa4935427fa46b8407b8aec9",
+    "source_slots": 244,
+    "source_known_coordinates": 244,
+    "identical_printed_groups": {
+      "first_start": 220,
+      "second_start": 225,
+      "group": "XAAXV"
+    },
+    "representative_inserted_unknown_group_start": 45,
+    "retained_known_coordinates": 239,
+    "substitutions_to_retained_coordinates": 0,
+    "unfilled_plaintext": "FUNKSTELLEKERTSCHERHAE?TAB12X1?XRUFNAME?RICHARD?MILKARLX?UNKSTELLENDORTIGENBEREICHSBENACHRICHTIGENXNACHRICHTENCHEF4BG7834X",
+    "fixed_plaintext_positions": 117,
+    "plaintext_positions": 122,
+    "unresolved_domains": [
+      {
+        "plaintext_index": 22,
+        "allowed_characters": "69ILNP"
+      },
+      {
+        "plaintext_index": 30,
+        "allowed_characters": "17FHLW"
+      },
+      {
+        "plaintext_index": 39,
+        "allowed_characters": "69ILNP"
+      },
+      {
+        "plaintext_index": 47,
+        "allowed_characters": "9EKVXZ"
+      },
+      {
+        "plaintext_index": 56,
+        "allowed_characters": "4FGUYZ"
+      }
+    ],
+    "compatible_plaintexts_at_representative_geometry": 7776,
+    "variants": [
+      {
+        "id": "unfilled",
+        "edits": [
+          {
+            "start": 45,
+            "end": 45,
+            "removed": "",
+            "inserted": "?????"
+          },
+          {
+            "start": 225,
+            "end": 230,
+            "removed": "XAAXV",
+            "inserted": ""
+          }
+        ],
+        "analysis": {
+          "corrected_ciphertext": "FVFAFDXAXXGXDXAGVVXXFFFAXDXDXFAGVFVAXAXVVAFXA?????XFGVDXGAXAVAVVXXVDVAAXAFAFFFXVDVXAVAXFGADFFGAXAADGDAVAXGVGVAVXVGXAXXFXXVFAXXXAVVFAAVAFXAVXVGAGXFGFFVAFAVDFXADADVAVXXXVGAFXDGXAAAFDAVAAFGVVFADXVFXAFFVAFVFGXDVFDAXGXXFVFAVDXAAAVXAAXVXAFDXAXDGFGXXV",
+          "corrected_ciphertext_length": 244,
+          "intermediate_stream_before_edits": "AVDVXXFFXGXAFAAXAXFAFFFAVAXAXGXDAGFAVAAGVFFA?XXAVFVGAADGFDAAA?FDVADVAVXXVFXFFA?XVAVXXDAGVFVADFF?XFVXAXFFVFVAAXFD?VDVXXFFXGXAFAAXAXFAXXDFGAVAXAVXVVFAXXVGFAVAFAVXXDAGXGVGFAXXVFXDAGVAVXXDAGXAVXVVFAXXFDXXVFXDAGVAVXXDAGXAFAXXXDAGFAAVXVVGVVADVDGGXVFD",
+          "intermediate_stream_after_edits": "AVDVXXFFXGXAFAAXAXFAFFFAVAXAXGXDAGFAVAAGVFFA?XXAVFVGAADGFDAAA?FDVADVAVXXVFXFFA?XVAVXXDAGVFVADFF?XFVXAXFFVFVAAXFD?VDVXXFFXGXAFAAXAXFAXXDFGAVAXAVXVVFAXXVGFAVAFAVXXDAGXGVGFAXXVFXDAGVAVXXDAGXAVXVVFAXXFDXXVFXDAGVAVXXDAGXAFAXXXDAGFAAVXVVGVVADVDGGXVFD",
+          "raw_partial_plaintext": "FUNKSTELLEKERTSCHERHAE?TAB12X1?XRUFNAME?RICHARD?MILKARLX?UNKSTELLENDORTIGENBEREICHSBENACHRICHTIGENXNACHRICHTENCHEF4BG7834X",
+          "plaintext_domains": [
+            "F",
+            "U",
+            "N",
+            "K",
+            "S",
+            "T",
+            "E",
+            "L",
+            "L",
+            "E",
+            "K",
+            "E",
+            "R",
+            "T",
+            "S",
+            "C",
+            "H",
+            "E",
+            "R",
+            "H",
+            "A",
+            "E",
+            "69ILNP",
+            "T",
+            "A",
+            "B",
+            "1",
+            "2",
+            "X",
+            "1",
+            "17FHLW",
+            "X",
+            "R",
+            "U",
+            "F",
+            "N",
+            "A",
+            "M",
+            "E",
+            "69ILNP",
+            "R",
+            "I",
+            "C",
+            "H",
+            "A",
+            "R",
+            "D",
+            "9EKVXZ",
+            "M",
+            "I",
+            "L",
+            "K",
+            "A",
+            "R",
+            "L",
+            "X",
+            "4FGUYZ",
+            "U",
+            "N",
+            "K",
+            "S",
+            "T",
+            "E",
+            "L",
+            "L",
+            "E",
+            "N",
+            "D",
+            "O",
+            "R",
+            "T",
+            "I",
+            "G",
+            "E",
+            "N",
+            "B",
+            "E",
+            "R",
+            "E",
+            "I",
+            "C",
+            "H",
+            "S",
+            "B",
+            "E",
+            "N",
+            "A",
+            "C",
+            "H",
+            "R",
+            "I",
+            "C",
+            "H",
+            "T",
+            "I",
+            "G",
+            "E",
+            "N",
+            "X",
+            "N",
+            "A",
+            "C",
+            "H",
+            "R",
+            "I",
+            "C",
+            "H",
+            "T",
+            "E",
+            "N",
+            "C",
+            "H",
+            "E",
+            "F",
+            "4",
+            "B",
+            "G",
+            "7",
+            "8",
+            "3",
+            "4",
+            "X"
+          ],
+          "decoded_plaintext_length": 122,
+          "fixed_plaintext_characters": 117,
+          "unpaired_intermediate_suffix": "",
+          "coordinate_transposition_roundtrip": true,
+          "all_decoded_letters_reencode_to_paired_stream": null,
+          "ordinary_complete_adfgvx_roundtrip": false
+        }
+      },
+      {
+        "id": "readable_hypothesis",
+        "edits": [
+          {
+            "start": 45,
+            "end": 45,
+            "removed": "",
+            "inserted": "AAXAA"
+          },
+          {
+            "start": 225,
+            "end": 230,
+            "removed": "XAAXV",
+            "inserted": ""
+          }
+        ],
+        "analysis": {
+          "corrected_ciphertext": "FVFAFDXAXXGXDXAGVVXXFFFAXDXDXFAGVFVAXAXVVAFXAAAXAAXFGVDXGAXAVAVVXXVDVAAXAFAFFFXVDVXAVAXFGADFFGAXAADGDAVAXGVGVAVXVGXAXXFXXVFAXXXAVVFAAVAFXAVXVGAGXFGFFVAFAVDFXADADVAVXXXVGAFXDGXAAAFDAVAAFGVVFADXVFXAFFVAFVFGXDVFDAXGXXFVFAVDXAAAVXAAXVXAFDXAXDGFGXXV",
+          "corrected_ciphertext_length": 244,
+          "intermediate_stream_before_edits": "AVDVXXFFXGXAFAAXAXFAFFFAVAXAXGXDAGFAVAAGVFFAAXXAVFVGAADGFDAAAAFDVADVAVXXVFXFFAXXVAVXXDAGVFVADFFAXFVXAXFFVFVAAXFDAVDVXXFFXGXAFAAXAXFAXXDFGAVAXAVXVVFAXXVGFAVAFAVXXDAGXGVGFAXXVFXDAGVAVXXDAGXAVXVVFAXXFDXXVFXDAGVAVXXDAGXAFAXXXDAGFAAVXVVGVVADVDGGXVFD",
+          "intermediate_stream_after_edits": "AVDVXXFFXGXAFAAXAXFAFFFAVAXAXGXDAGFAVAAGVFFAAXXAVFVGAADGFDAAAAFDVADVAVXXVFXFFAXXVAVXXDAGVFVADFFAXFVXAXFFVFVAAXFDAVDVXXFFXGXAFAAXAXFAXXDFGAVAXAVXVVFAXXVGFAVAFAVXXDAGXGVGFAXXVFXDAGVAVXXDAGXAVXVVFAXXFDXXVFXDAGVAVXXDAGXAFAXXXDAGFAAVXVVGVVADVDGGXVFD",
+          "raw_partial_plaintext": "FUNKSTELLEKERTSCHERHAELTAB12X11XRUFNAMENRICHARDEMILKARLXFUNKSTELLENDORTIGENBEREICHSBENACHRICHTIGENXNACHRICHTENCHEF4BG7834X",
+          "plaintext_domains": [
+            "F",
+            "U",
+            "N",
+            "K",
+            "S",
+            "T",
+            "E",
+            "L",
+            "L",
+            "E",
+            "K",
+            "E",
+            "R",
+            "T",
+            "S",
+            "C",
+            "H",
+            "E",
+            "R",
+            "H",
+            "A",
+            "E",
+            "L",
+            "T",
+            "A",
+            "B",
+            "1",
+            "2",
+            "X",
+            "1",
+            "1",
+            "X",
+            "R",
+            "U",
+            "F",
+            "N",
+            "A",
+            "M",
+            "E",
+            "N",
+            "R",
+            "I",
+            "C",
+            "H",
+            "A",
+            "R",
+            "D",
+            "E",
+            "M",
+            "I",
+            "L",
+            "K",
+            "A",
+            "R",
+            "L",
+            "X",
+            "F",
+            "U",
+            "N",
+            "K",
+            "S",
+            "T",
+            "E",
+            "L",
+            "L",
+            "E",
+            "N",
+            "D",
+            "O",
+            "R",
+            "T",
+            "I",
+            "G",
+            "E",
+            "N",
+            "B",
+            "E",
+            "R",
+            "E",
+            "I",
+            "C",
+            "H",
+            "S",
+            "B",
+            "E",
+            "N",
+            "A",
+            "C",
+            "H",
+            "R",
+            "I",
+            "C",
+            "H",
+            "T",
+            "I",
+            "G",
+            "E",
+            "N",
+            "X",
+            "N",
+            "A",
+            "C",
+            "H",
+            "R",
+            "I",
+            "C",
+            "H",
+            "T",
+            "E",
+            "N",
+            "C",
+            "H",
+            "E",
+            "F",
+            "4",
+            "B",
+            "G",
+            "7",
+            "8",
+            "3",
+            "4",
+            "X"
+          ],
+          "decoded_plaintext_length": 122,
+          "fixed_plaintext_characters": 122,
+          "unpaired_intermediate_suffix": "",
+          "coordinate_transposition_roundtrip": true,
+          "all_decoded_letters_reencode_to_paired_stream": true,
+          "ordinary_complete_adfgvx_roundtrip": true
+        }
+      }
+    ],
+    "all_insertion_deletion_fits_for_readable_hypothesis": [
+      {
+        "deletion_start_in_source": 219,
+        "insertion_start_in_retained_stream": 44,
+        "inserted_coordinates": "AAAXA"
+      },
+      {
+        "deletion_start_in_source": 219,
+        "insertion_start_in_retained_stream": 45,
+        "inserted_coordinates": "AAXAA"
+      },
+      {
+        "deletion_start_in_source": 220,
+        "insertion_start_in_retained_stream": 44,
+        "inserted_coordinates": "AAAXA"
+      },
+      {
+        "deletion_start_in_source": 220,
+        "insertion_start_in_retained_stream": 45,
+        "inserted_coordinates": "AAXAA"
+      },
+      {
+        "deletion_start_in_source": 221,
+        "insertion_start_in_retained_stream": 44,
+        "inserted_coordinates": "AAAXA"
+      },
+      {
+        "deletion_start_in_source": 221,
+        "insertion_start_in_retained_stream": 45,
+        "inserted_coordinates": "AAXAA"
+      },
+      {
+        "deletion_start_in_source": 222,
+        "insertion_start_in_retained_stream": 44,
+        "inserted_coordinates": "AAAXA"
+      },
+      {
+        "deletion_start_in_source": 222,
+        "insertion_start_in_retained_stream": 45,
+        "inserted_coordinates": "AAXAA"
+      },
+      {
+        "deletion_start_in_source": 223,
+        "insertion_start_in_retained_stream": 44,
+        "inserted_coordinates": "AAAXA"
+      },
+      {
+        "deletion_start_in_source": 223,
+        "insertion_start_in_retained_stream": 45,
+        "inserted_coordinates": "AAXAA"
+      },
+      {
+        "deletion_start_in_source": 224,
+        "insertion_start_in_retained_stream": 44,
+        "inserted_coordinates": "AAAXA"
+      },
+      {
+        "deletion_start_in_source": 224,
+        "insertion_start_in_retained_stream": 45,
+        "inserted_coordinates": "AAXAA"
+      },
+      {
+        "deletion_start_in_source": 225,
+        "insertion_start_in_retained_stream": 44,
+        "inserted_coordinates": "AAAXA"
+      },
+      {
+        "deletion_start_in_source": 225,
+        "insertion_start_in_retained_stream": 45,
+        "inserted_coordinates": "AAXAA"
+      },
+      {
+        "deletion_start_in_source": 226,
+        "insertion_start_in_retained_stream": 44,
+        "inserted_coordinates": "AAAXA"
+      },
+      {
+        "deletion_start_in_source": 226,
+        "insertion_start_in_retained_stream": 45,
+        "inserted_coordinates": "AAXAA"
+      },
+      {
+        "deletion_start_in_source": 227,
+        "insertion_start_in_retained_stream": 44,
+        "inserted_coordinates": "AAAXA"
+      },
+      {
+        "deletion_start_in_source": 227,
+        "insertion_start_in_retained_stream": 45,
+        "inserted_coordinates": "AAXAA"
+      }
+    ],
+    "group_boundary_fits": [
+      {
+        "deletion_start_in_source": 220,
+        "insertion_start_in_retained_stream": 45,
+        "inserted_coordinates": "AAXAA"
+      },
+      {
+        "deletion_start_in_source": 225,
+        "insertion_start_in_retained_stream": 45,
+        "inserted_coordinates": "AAXAA"
+      }
+    ]
+  }
+}

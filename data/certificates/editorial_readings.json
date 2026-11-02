@@ -1,0 +1,625 @@
+{
+  "schema": "adfgvx-explicit-editorial-readings-v1",
+  "title": "ADFGVX Cipher: explicit editorial reading audit",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "date": "2026-11-02",
+  "source_transcriptions_unchanged": true,
+  "index_convention": "Zero based; changes are additional to the individually named earlier repair.",
+  "readings": [
+    {
+      "message_id": "p109",
+      "baseline_variant": "norbert18",
+      "status": "Conditional editorial reading supported by a separately transcribed near-parallel",
+      "compact_plaintext": "OXKXMXABENDMELUNGXSAVAXUEBERGANGLETZTERTEILEBEENDETX1WEITEREFDLXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSEXXASOXK511",
+      "interpretation": "The last elements have completed the Sava crossing; one further enemy division was observed marching on Belgrade; no other events. ABENDMELUNG and the uncertain closing string are retained.",
+      "attribution": {
+        "underlying_reading": "Norbert, comment 18, 2017-03-01",
+        "source": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852658",
+        "editorial_and_source_review": "icekylinx and GPT-6 Astra Pro"
+      },
+      "limits": [
+        "Same-length wording, conditional on the earlier ten-coordinate deletion/reconstruction.",
+        "The neighboring p109 B witness supports the interpretation but retains its own errors and different ending.",
+        "The final digits are copied from the earlier raw reading, not historically interpreted."
+      ],
+      "audit": {
+        "analysis_source_sha256": "c888f413d015334e7b5136fa6675ae5ab62620059d1c616e469bc0a3d687c709",
+        "baseline_plaintext": "OXKXMXABECDPELUNGXS4V4XUMBJRGA8GLETZTEVTVILEBEEVUETX1WEITEDEFDUXNIV5IMMARSCH4UFBELGRADERKAVV2XSONSTKEINEEDMILNISSEXXASOXK511",
+        "plaintext_length": 124,
+        "plaintext_changes": [
+          {
+            "index": 9,
+            "baseline": "C",
+            "proposed": "N"
+          },
+          {
+            "index": 11,
+            "baseline": "P",
+            "proposed": "M"
+          },
+          {
+            "index": 19,
+            "baseline": "4",
+            "proposed": "A"
+          },
+          {
+            "index": 21,
+            "baseline": "4",
+            "proposed": "A"
+          },
+          {
+            "index": 24,
+            "baseline": "M",
+            "proposed": "E"
+          },
+          {
+            "index": 26,
+            "baseline": "J",
+            "proposed": "E"
+          },
+          {
+            "index": 30,
+            "baseline": "8",
+            "proposed": "N"
+          },
+          {
+            "index": 38,
+            "baseline": "V",
+            "proposed": "R"
+          },
+          {
+            "index": 40,
+            "baseline": "V",
+            "proposed": "E"
+          },
+          {
+            "index": 47,
+            "baseline": "V",
+            "proposed": "N"
+          },
+          {
+            "index": 48,
+            "baseline": "U",
+            "proposed": "D"
+          },
+          {
+            "index": 58,
+            "baseline": "D",
+            "proposed": "R"
+          },
+          {
+            "index": 62,
+            "baseline": "U",
+            "proposed": "L"
+          },
+          {
+            "index": 64,
+            "baseline": "N",
+            "proposed": "D"
+          },
+          {
+            "index": 67,
+            "baseline": "5",
+            "proposed": "X"
+          },
+          {
+            "index": 76,
+            "baseline": "4",
+            "proposed": "A"
+          },
+          {
+            "index": 90,
+            "baseline": "V",
+            "proposed": "N"
+          },
+          {
+            "index": 91,
+            "baseline": "V",
+            "proposed": "N"
+          },
+          {
+            "index": 92,
+            "baseline": "2",
+            "proposed": "T"
+          },
+          {
+            "index": 105,
+            "baseline": "D",
+            "proposed": "R"
+          },
+          {
+            "index": 106,
+            "baseline": "M",
+            "proposed": "E"
+          },
+          {
+            "index": 108,
+            "baseline": "L",
+            "proposed": "G"
+          }
+        ],
+        "extra_coordinate_changes": [
+          {
+            "plaintext_index": 9,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 18,
+            "pre_sender_repair_index": 18,
+            "corrected_ciphertext_index": 53,
+            "source_index": 53,
+            "source_coordinate": "D",
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "G",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 9,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 19,
+            "pre_sender_repair_index": 19,
+            "corrected_ciphertext_index": 27,
+            "source_index": 27,
+            "source_coordinate": "D",
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "G",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 11,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 23,
+            "pre_sender_repair_index": 23,
+            "corrected_ciphertext_index": 80,
+            "source_index": null,
+            "source_coordinate": null,
+            "baseline_coordinate": "X",
+            "proposed_coordinate": "D",
+            "source_relation": "earlier reconstructed block; no unique source-slot map"
+          },
+          {
+            "plaintext_index": 19,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 39,
+            "pre_sender_repair_index": 39,
+            "corrected_ciphertext_index": 198,
+            "source_index": 208,
+            "source_coordinate": "D",
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "G",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 21,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 43,
+            "pre_sender_repair_index": 43,
+            "corrected_ciphertext_index": 146,
+            "source_index": 156,
+            "source_coordinate": "D",
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "G",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 24,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 49,
+            "pre_sender_repair_index": 49,
+            "corrected_ciphertext_index": 2,
+            "source_index": 2,
+            "source_coordinate": "D",
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "G",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 26,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 53,
+            "pre_sender_repair_index": 53,
+            "corrected_ciphertext_index": 172,
+            "source_index": 182,
+            "source_coordinate": "A",
+            "baseline_coordinate": "A",
+            "proposed_coordinate": "G",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 30,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 61,
+            "pre_sender_repair_index": 61,
+            "corrected_ciphertext_index": 82,
+            "source_index": null,
+            "source_coordinate": null,
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "G",
+            "source_relation": "earlier reconstructed block; no unique source-slot map"
+          },
+          {
+            "plaintext_index": 38,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 77,
+            "pre_sender_repair_index": 77,
+            "corrected_ciphertext_index": 200,
+            "source_index": 210,
+            "source_coordinate": "G",
+            "baseline_coordinate": "G",
+            "proposed_coordinate": "A",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 40,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 80,
+            "pre_sender_repair_index": 80,
+            "corrected_ciphertext_index": 83,
+            "source_index": null,
+            "source_coordinate": null,
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "V",
+            "source_relation": "earlier reconstructed block; no unique source-slot map"
+          },
+          {
+            "plaintext_index": 47,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 94,
+            "pre_sender_repair_index": 94,
+            "corrected_ciphertext_index": 57,
+            "source_index": 57,
+            "source_coordinate": "D",
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "G",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 48,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 96,
+            "pre_sender_repair_index": 96,
+            "corrected_ciphertext_index": 201,
+            "source_index": 211,
+            "source_coordinate": "A",
+            "baseline_coordinate": "A",
+            "proposed_coordinate": "G",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 58,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 116,
+            "pre_sender_repair_index": 116,
+            "corrected_ciphertext_index": 46,
+            "source_index": 46,
+            "source_coordinate": "G",
+            "baseline_coordinate": "G",
+            "proposed_coordinate": "D",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 62,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 125,
+            "pre_sender_repair_index": 125,
+            "corrected_ciphertext_index": 6,
+            "source_index": 6,
+            "source_coordinate": "A",
+            "baseline_coordinate": "A",
+            "proposed_coordinate": "F",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 64,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 129,
+            "pre_sender_repair_index": 129,
+            "corrected_ciphertext_index": 176,
+            "source_index": 186,
+            "source_coordinate": "G",
+            "baseline_coordinate": "G",
+            "proposed_coordinate": "A",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 67,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 134,
+            "pre_sender_repair_index": 134,
+            "corrected_ciphertext_index": 203,
+            "source_index": 213,
+            "source_coordinate": "G",
+            "baseline_coordinate": "G",
+            "proposed_coordinate": "D",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 76,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 153,
+            "pre_sender_repair_index": 153,
+            "corrected_ciphertext_index": 204,
+            "source_index": 214,
+            "source_coordinate": "D",
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "G",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 90,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 180,
+            "pre_sender_repair_index": 180,
+            "corrected_ciphertext_index": 101,
+            "source_index": 111,
+            "source_coordinate": "D",
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "G",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 91,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 182,
+            "pre_sender_repair_index": 182,
+            "corrected_ciphertext_index": 9,
+            "source_index": 9,
+            "source_coordinate": "D",
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "G",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 92,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 185,
+            "pre_sender_repair_index": 185,
+            "corrected_ciphertext_index": 22,
+            "source_index": 22,
+            "source_coordinate": "D",
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "X",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 105,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 210,
+            "pre_sender_repair_index": 210,
+            "corrected_ciphertext_index": 207,
+            "source_index": 217,
+            "source_coordinate": "G",
+            "baseline_coordinate": "G",
+            "proposed_coordinate": "D",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 106,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 213,
+            "pre_sender_repair_index": 213,
+            "corrected_ciphertext_index": 90,
+            "source_index": 100,
+            "source_coordinate": "D",
+            "baseline_coordinate": "D",
+            "proposed_coordinate": "G",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 108,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 216,
+            "pre_sender_repair_index": 216,
+            "corrected_ciphertext_index": 77,
+            "source_index": null,
+            "source_coordinate": null,
+            "baseline_coordinate": "A",
+            "proposed_coordinate": "F",
+            "source_relation": "earlier reconstructed block; no unique source-slot map"
+          }
+        ],
+        "extra_coordinate_change_count": 23,
+        "changes_at_unchanged_known_source_coordinates": 19,
+        "changes_inside_earlier_reconstruction": 4,
+        "proposed_corrected_ciphertext": "XGGFGGFDFGGAXGFVFVGGVDXGVGAGXFDGVGXAAGDFDADGFADXAGGADGVFGGXDFGVVGXXAXADDVVVXXFVVDXGVGVDAADGXDAAVFXAXGGVGGGDAVGFDVGDGVFGFVDVVXDFFDDVVXDXVDADXXVVXVVGFGFGVVVVAGXGGXGFDAFGADVVDGFGAADADGDXXVGGXVAAADGVXGGGXAGGDGVGDXVFAFAXGDVGVFADGDFAXADGVFDDDAVGVFAGAGVGD",
+        "prior_sender_error_model_retained": [],
+        "reencryption_verified": true
+      }
+    },
+    {
+      "message_id": "p132",
+      "baseline_variant": "norbert37_displayed_rectangle",
+      "status": "Coordinate audit of an earlier editorial interpretation",
+      "compact_plaintext": "FUEREILVESEXWIEDERHOLETTELEGRXVONVIERTERPERIODEINFUENFTERXGEBETVORHER5MINXVVV",
+      "interpretation": "For Eilvese: repeat the telegram from the fourth period in the fifth; send VVV for five minutes beforehand.",
+      "attribution": {
+        "underlying_reading": "Thomas and Norbert, 2017; displayed rectangle in Norbert comment 37",
+        "VORHER_interpretation": "Norbert, comment 40, 2017-03-12",
+        "source": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-858211",
+        "other_readable_normalizations": "Compare Max Baertl, comment 39, 2017-03-11",
+        "coordinate_review": "icekylinx and GPT-6 Astra Pro"
+      },
+      "limits": [
+        "Retains the earlier sender-error hypothesis: remove one duplicated V after inverse transposition.",
+        "The displayed rectangle already contains two erasure fills and one known-coordinate change.",
+        "VORHER is an attributed 2017 interpretation, not a new decipherment by this project."
+      ],
+      "audit": {
+        "analysis_source_sha256": "7fc4c994c703c1399a618d9b4a5f9af92a9ef006e286a38b4113b2c17c1f87f3",
+        "baseline_plaintext": "FFEREILVESEXWIEDERHOLETTELEGRXVONVIERTERPERIODEINFUTNFTERXGEBETSORHER5MINXVVV",
+        "plaintext_length": 77,
+        "plaintext_changes": [
+          {
+            "index": 1,
+            "baseline": "F",
+            "proposed": "U"
+          },
+          {
+            "index": 51,
+            "baseline": "T",
+            "proposed": "E"
+          },
+          {
+            "index": 63,
+            "baseline": "S",
+            "proposed": "V"
+          }
+        ],
+        "extra_coordinate_changes": [
+          {
+            "plaintext_index": 1,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 2,
+            "pre_sender_repair_index": 2,
+            "corrected_ciphertext_index": 64,
+            "source_index": 64,
+            "source_coordinate": "A",
+            "baseline_coordinate": "A",
+            "proposed_coordinate": "D",
+            "source_relation": "unchanged known source coordinate"
+          },
+          {
+            "plaintext_index": 51,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 102,
+            "pre_sender_repair_index": 103,
+            "corrected_ciphertext_index": 88,
+            "source_index": 88,
+            "source_coordinate": "A",
+            "baseline_coordinate": "X",
+            "proposed_coordinate": "F",
+            "source_relation": "earlier emended known source coordinate"
+          },
+          {
+            "plaintext_index": 63,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 126,
+            "pre_sender_repair_index": 127,
+            "corrected_ciphertext_index": 52,
+            "source_index": 52,
+            "source_coordinate": "X",
+            "baseline_coordinate": "X",
+            "proposed_coordinate": "F",
+            "source_relation": "unchanged known source coordinate"
+          }
+        ],
+        "extra_coordinate_change_count": 3,
+        "changes_at_unchanged_known_source_coordinates": 2,
+        "changes_inside_earlier_reconstruction": 1,
+        "proposed_corrected_ciphertext": "AAXAXFXAVFAAFADVFGFAGVAGXFDVXXFAVAGXXDAADXFAFFFFFAFAFXAAVXGVVFAFDGAAXVAVAXFAGVXVAFVXAFVAFAVGAFAVVAAAXFFFXXADAGAVADFAFGXVFGVFXXGDAAXGAXAVDVDAVADVXFGFAXFVVGF",
+        "prior_sender_error_model_retained": [
+          {
+            "start": 56,
+            "end": 57,
+            "removed": "V",
+            "inserted": "",
+            "reason": "Norbert's hypothesized duplicated V during fractionation, before columnar transposition",
+            "evidence": "2017 sender-error hypothesis"
+          }
+        ],
+        "reencryption_verified": true
+      }
+    },
+    {
+      "message_id": "p146",
+      "baseline_variant": "norbert19",
+      "status": "Conditional same-length editorial reading",
+      "compact_plaintext": "FUNKSTELLEKERTSCHERHAELTAB12X11XRUFNAMENRICHARDEMILKARLXFUNKSTELLENDORTIGENBEREICHSBENACHRICHTIGENXNACHRICHTENCHEF4BG7834X",
+      "interpretation": "The Kerch radio station receives the call sign Richard Emil Karl from 12 November; notify radio stations in the area.",
+      "attribution": {
+        "underlying_reading": "Norbert, comment 19, 2017-03-01",
+        "source": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852664",
+        "editorial_review": "icekylinx and GPT-6 Astra Pro"
+      },
+      "limits": [
+        "The date 12 November is an editorial reading, not a newly observed source date.",
+        "Earlier inserted/reduced groups remain part of the baseline repair.",
+        "The closing 4BG7834 is retained without expanding it."
+      ],
+      "audit": {
+        "analysis_source_sha256": "613ea306fb93cfa66fcc60c476e9082fd35df4eefa4935427fa46b8407b8aec9",
+        "baseline_plaintext": "FUNKSTELLEKERTSCHERHAE9TRB12X1FXR4FNAMENRICHARDEMILKARLXFUNKSTELLENDORTIGENBEREICHSBENACHRICHTIGENXNACHRICHTENCHEF4BG7834X",
+        "plaintext_length": 122,
+        "plaintext_changes": [
+          {
+            "index": 22,
+            "baseline": "9",
+            "proposed": "L"
+          },
+          {
+            "index": 24,
+            "baseline": "R",
+            "proposed": "A"
+          },
+          {
+            "index": 30,
+            "baseline": "F",
+            "proposed": "1"
+          },
+          {
+            "index": 33,
+            "baseline": "4",
+            "proposed": "U"
+          }
+        ],
+        "extra_coordinate_changes": [
+          {
+            "plaintext_index": 22,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 44,
+            "pre_sender_repair_index": 44,
+            "corrected_ciphertext_index": 45,
+            "source_index": null,
+            "source_coordinate": null,
+            "baseline_coordinate": "F",
+            "proposed_coordinate": "A",
+            "source_relation": "earlier reconstructed block; no unique source-slot map"
+          },
+          {
+            "plaintext_index": 24,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 49,
+            "pre_sender_repair_index": 49,
+            "corrected_ciphertext_index": 232,
+            "source_index": null,
+            "source_coordinate": null,
+            "baseline_coordinate": "A",
+            "proposed_coordinate": "F",
+            "source_relation": "earlier reconstructed block; no unique source-slot map"
+          },
+          {
+            "plaintext_index": 30,
+            "coordinate_in_pair": 1,
+            "paired_stream_index": 61,
+            "pre_sender_repair_index": 61,
+            "corrected_ciphertext_index": 46,
+            "source_index": null,
+            "source_coordinate": null,
+            "baseline_coordinate": "V",
+            "proposed_coordinate": "A",
+            "source_relation": "earlier reconstructed block; no unique source-slot map"
+          },
+          {
+            "plaintext_index": 33,
+            "coordinate_in_pair": 0,
+            "paired_stream_index": 66,
+            "pre_sender_repair_index": 66,
+            "corrected_ciphertext_index": 233,
+            "source_index": null,
+            "source_coordinate": null,
+            "baseline_coordinate": "X",
+            "proposed_coordinate": "D",
+            "source_relation": "earlier reconstructed block; no unique source-slot map"
+          }
+        ],
+        "extra_coordinate_change_count": 4,
+        "changes_at_unchanged_known_source_coordinates": 0,
+        "changes_inside_earlier_reconstruction": 4,
+        "proposed_corrected_ciphertext": "FVFAFDXAXXGXDXAGVVXXFFFAXDXDXFAGVFVAXAXVVAFXAAAXAAXFGVDXGAXAVAVVXXVDVAAXAFAFFFXVDVXAVAXFGADFFGAXAADGDAVAXGVGVAVXVGXAXXFXXVFAXXXAVVFAAVAFXAVXVGAGXFGFFVAFAVDFXADADVAVXXXVGAFXDGXAAAFDAVAAFGVVFADXVFXAFFVAFVFGXDVFDAXGXXFVFAVDXAAAVXAAXVXAFDXAXDGFGXXV",
+        "prior_sender_error_model_retained": [],
+        "reencryption_verified": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,1602 @@
+{
+  "format_version": 1,
+  "project": "ADFGVX Cipher",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "input_hashes": {
+    "ocr_blocks": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc",
+    "layout_code": "23408a36f5ff25c0e6106f3c44d32cf2ac10a6448e7cdf694203efeefecdd02c",
+    "keys": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "messages": "c398d5e1ebd2fed170bc0bddee111235bf7fb68b34de0a68455693c13a6a63b6"
+  },
+  "blocks": 788,
+  "keys": 24,
+  "models_evaluated": 165216,
+  "search_terms": {
+    "p109": [
+      "SAVA",
+      "UEBERGANG",
+      "LETZTER",
+      "BEENDET",
+      "ERKANNT",
+      "BELGRAD",
+      "ABENDMEL",
+      "WEITERE",
+      "FDLXDIV"
+    ],
+    "p132": [
+      "EILVESE",
+      "WIEDERHO",
+      "TELEGR",
+      "PERIODE",
+      "FUENFTER",
+      "VORHER",
+      "5MIN"
+    ],
+    "p146": [
+      "KERTSCH",
+      "RICHARD",
+      "EMILKARL",
+      "RUFNAM",
+      "RUFZEICH",
+      "FUNKSTELLE",
+      "NACHRICHTEN",
+      "12X11"
+    ]
+  },
+  "direct_ciphertext_similarity": {
+    "p109": [
+      {
+        "id": "p109_ocr_block6",
+        "printed_page": 109,
+        "source_slots": 257,
+        "shared_sevengrams": 237,
+        "sequence_matching_characters": 255,
+        "longest_matching_run": 183
+      },
+      {
+        "id": "p109_ocr_block3",
+        "printed_page": 109,
+        "source_slots": 248,
+        "shared_sevengrams": 66,
+        "sequence_matching_characters": 208,
+        "longest_matching_run": 23
+      },
+      {
+        "id": "p151_ocr_block4",
+        "printed_page": 151,
+        "source_slots": 154,
+        "shared_sevengrams": 3,
+        "sequence_matching_characters": 62,
+        "longest_matching_run": 9
+      },
+      {
+        "id": "p203_ocr_block1",
+        "printed_page": 203,
+        "source_slots": 132,
+        "shared_sevengrams": 3,
+        "sequence_matching_characters": 23,
+        "longest_matching_run": 9
+      },
+      {
+        "id": "p186_ocr_block4",
+        "printed_page": 186,
+        "source_slots": 309,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 102,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p94_ocr_block4",
+        "printed_page": 94,
+        "source_slots": 310,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 97,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p205_ocr_block7",
+        "printed_page": 205,
+        "source_slots": 222,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 95,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p177_ocr_block4",
+        "printed_page": 177,
+        "source_slots": 295,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 90,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p225_ocr_block2",
+        "printed_page": 225,
+        "source_slots": 254,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 90,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p164_ocr_block6",
+        "printed_page": 164,
+        "source_slots": 248,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 86,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p171_ocr_block1",
+        "printed_page": 171,
+        "source_slots": 316,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 80,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p178_ocr_block3",
+        "printed_page": 178,
+        "source_slots": 280,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 75,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p97_ocr_block2",
+        "printed_page": 97,
+        "source_slots": 241,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 66,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p228_ocr_block5",
+        "printed_page": 228,
+        "source_slots": 176,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 60,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p192_ocr_block1",
+        "printed_page": 192,
+        "source_slots": 231,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 57,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p224_ocr_block3",
+        "printed_page": 224,
+        "source_slots": 176,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 54,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p206_ocr_block2",
+        "printed_page": 206,
+        "source_slots": 328,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 47,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p224_ocr_block5",
+        "printed_page": 224,
+        "source_slots": 260,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 35,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p124_ocr_block3",
+        "printed_page": 124,
+        "source_slots": 40,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 33,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p72_ocr_block5",
+        "printed_page": 72,
+        "source_slots": 274,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 15,
+        "longest_matching_run": 8
+      }
+    ],
+    "p132": [
+      {
+        "id": "p132_ocr_block2",
+        "printed_page": 132,
+        "source_slots": 155,
+        "shared_sevengrams": 134,
+        "sequence_matching_characters": 154,
+        "longest_matching_run": 95
+      },
+      {
+        "id": "p189_ocr_block3",
+        "printed_page": 189,
+        "source_slots": 120,
+        "shared_sevengrams": 5,
+        "sequence_matching_characters": 62,
+        "longest_matching_run": 11
+      },
+      {
+        "id": "p197_ocr_block3",
+        "printed_page": 197,
+        "source_slots": 120,
+        "shared_sevengrams": 4,
+        "sequence_matching_characters": 61,
+        "longest_matching_run": 10
+      },
+      {
+        "id": "p134_ocr_block1",
+        "printed_page": 134,
+        "source_slots": 425,
+        "shared_sevengrams": 4,
+        "sequence_matching_characters": 59,
+        "longest_matching_run": 10
+      },
+      {
+        "id": "p188_ocr_block3",
+        "printed_page": 188,
+        "source_slots": 268,
+        "shared_sevengrams": 3,
+        "sequence_matching_characters": 70,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p105_ocr_block1",
+        "printed_page": 105,
+        "source_slots": 308,
+        "shared_sevengrams": 3,
+        "sequence_matching_characters": 69,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p126_ocr_block2",
+        "printed_page": 126,
+        "source_slots": 242,
+        "shared_sevengrams": 3,
+        "sequence_matching_characters": 64,
+        "longest_matching_run": 9
+      },
+      {
+        "id": "p123_ocr_block4",
+        "printed_page": 123,
+        "source_slots": 260,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 89,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p126_ocr_block1",
+        "printed_page": 126,
+        "source_slots": 267,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 72,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p80_ocr_block2",
+        "printed_page": 80,
+        "source_slots": 485,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 72,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p82_ocr_block2",
+        "printed_page": 82,
+        "source_slots": 450,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 72,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p138_ocr_block4",
+        "printed_page": 138,
+        "source_slots": 279,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 70,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p216_ocr_block1",
+        "printed_page": 216,
+        "source_slots": 240,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 70,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p120_ocr_block2",
+        "printed_page": 120,
+        "source_slots": 394,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 63,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p176_ocr_block6",
+        "printed_page": 176,
+        "source_slots": 272,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 58,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p123_ocr_block5",
+        "printed_page": 123,
+        "source_slots": 339,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 51,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p128_ocr_block4",
+        "printed_page": 128,
+        "source_slots": 196,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 49,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p221_ocr_block2",
+        "printed_page": 221,
+        "source_slots": 194,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 48,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p216_ocr_block6",
+        "printed_page": 216,
+        "source_slots": 190,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 34,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p205_ocr_block6",
+        "printed_page": 205,
+        "source_slots": 320,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 30,
+        "longest_matching_run": 8
+      }
+    ],
+    "p146": [
+      {
+        "id": "p146_ocr_block2",
+        "printed_page": 146,
+        "source_slots": 240,
+        "shared_sevengrams": 234,
+        "sequence_matching_characters": 240,
+        "longest_matching_run": 240
+      },
+      {
+        "id": "p185_ocr_block1",
+        "printed_page": 185,
+        "source_slots": 240,
+        "shared_sevengrams": 5,
+        "sequence_matching_characters": 81,
+        "longest_matching_run": 9
+      },
+      {
+        "id": "p220_ocr_block2",
+        "printed_page": 220,
+        "source_slots": 200,
+        "shared_sevengrams": 5,
+        "sequence_matching_characters": 56,
+        "longest_matching_run": 11
+      },
+      {
+        "id": "p139_ocr_block6",
+        "printed_page": 139,
+        "source_slots": 172,
+        "shared_sevengrams": 4,
+        "sequence_matching_characters": 72,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p113_ocr_block1",
+        "printed_page": 113,
+        "source_slots": 262,
+        "shared_sevengrams": 4,
+        "sequence_matching_characters": 61,
+        "longest_matching_run": 9
+      },
+      {
+        "id": "p134_ocr_block1",
+        "printed_page": 134,
+        "source_slots": 425,
+        "shared_sevengrams": 3,
+        "sequence_matching_characters": 87,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p200_ocr_block2",
+        "printed_page": 200,
+        "source_slots": 393,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 111,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p192_ocr_block4",
+        "printed_page": 192,
+        "source_slots": 267,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 99,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p130_ocr_block1",
+        "printed_page": 130,
+        "source_slots": 390,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 93,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p194_ocr_block2",
+        "printed_page": 194,
+        "source_slots": 280,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 90,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p201_ocr_block6",
+        "printed_page": 201,
+        "source_slots": 315,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 89,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p141_ocr_block4",
+        "printed_page": 141,
+        "source_slots": 382,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 75,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p136_ocr_block4",
+        "printed_page": 136,
+        "source_slots": 269,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 73,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p121_ocr_block6",
+        "printed_page": 121,
+        "source_slots": 222,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 70,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p98_ocr_block5",
+        "printed_page": 98,
+        "source_slots": 226,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 69,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p124_ocr_block2",
+        "printed_page": 124,
+        "source_slots": 312,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 67,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p213_ocr_block3",
+        "printed_page": 213,
+        "source_slots": 236,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 61,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p215_ocr_block4",
+        "printed_page": 215,
+        "source_slots": 207,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 59,
+        "longest_matching_run": 8
+      },
+      {
+        "id": "p153_ocr_block4",
+        "printed_page": 153,
+        "source_slots": 108,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 54,
+        "longest_matching_run": 7
+      },
+      {
+        "id": "p128_ocr_block4",
+        "printed_page": 128,
+        "source_slots": 196,
+        "shared_sevengrams": 2,
+        "sequence_matching_characters": 53,
+        "longest_matching_run": 7
+      }
+    ]
+  },
+  "ranked_retrieval": {
+    "p109": [
+      {
+        "id": "p164_ocr_block6",
+        "printed_page": 164,
+        "pdf_page_1based": 167,
+        "key": "Nov7-9",
+        "matching_terms": [
+          "UEBERGANG",
+          "BELGRAD"
+        ],
+        "retrieval_score": 130,
+        "plaintext_hypothesis": "AOKX11ABENDM?LDUNG8XC1?1?XLAGSTE0?1XARMEEAM7X11XABENDSXDONA?UEBERGANG219XIXDXBEENDZTXBELGRADXSEMUMLEBHAFT?RUEBER?ETZVERKEHRX",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "V?VVAXGVDVXDAGDXAVXXGDAADFAVVFXDXGADDGVXVX?DVDVXGVDG?FXVGVXXVVXXFGDDAFXXGDDFAFDXXDGXXVAVFXFFVVAVVDGGXXDXFFXVDAAGVAGFDDGVGDVDGV?DFVXVFVD?DDVDVVVVGGDXVVDGDDGXDVVVDAGV?GVVDVVVVVXFGVDGVFVVXDXVDFFFDDGGDXDVXGDDVGGXDFVVGVVVGVGVXF?FXVDDGAGDADGVDFDAXXDDDDDA",
+        "context_headers_ocr": [
+          "C) ZON v UKS (2.57 a.m., November 9th)"
+        ]
+      },
+      {
+        "id": "p109_ocr_block3",
+        "printed_page": 109,
+        "pdf_page_1based": 112,
+        "key": "Nov1-3",
+        "matching_terms": [
+          "BEENDET",
+          "ERKANNT"
+        ],
+        "retrieval_score": 98,
+        "plaintext_hypothesis": "OX?XMXABENDM?LUNGXSAV?5UEB0RG4V?L?5ZTERXALLEBEENDETXHNEITAREFDLXD?VXIMEARSCHAUFBML7RADERKANNTXSONSTKEIVMER?IGNIXSE?XAXOXKX16",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "XGGGGGFDFGGAXGFFFVGGVDXDXDAGXFDGXGXAAGDXDADDDADXAGGADGVFGGXDFGVVGXXAXAFDVVVXXFXVDVGXGVDAADGXDAA?FVAXDGVGGGDAVGF?VGDDVFGFVDVVXDGFDDVVXDXVDADXXVVX?V??GFGVVVVAGXGGXGGDAFGADVVDAFGAADADGDXXVGDXVAAADG?XGGGXAGGDGVGD?VFAFAXGGVGVFAD?GFAXADGVFDDDAVGVFAGAGVGD",
+        "context_headers_ocr": [
+          "B) UKS v Z0N (11.03 p.m., November 3rd)"
+        ]
+      },
+      {
+        "id": "p111_ocr_block1",
+        "printed_page": 111,
+        "pdf_page_1based": 114,
+        "key": "Nov1-3",
+        "matching_terms": [
+          "ABENDMEL"
+        ],
+        "retrieval_score": 64,
+        "plaintext_hypothesis": "OK?XOK?XABENDMEL?UNGXANSA?EXDONAUXR?HEALPXKO?P?ERREICH?R?UMSUED?I?HUJVINE?X?JVIDEK?2?9219IDUXG?KX5353",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "VAGDGVAVVAVDAVAVXAVFXAVFAXGAFVXVVGDGAAVADDDGGGGVGVAAXXVGAXAAAAAVVGXGVADAAFGGVVDVDGGGGXGGXV???????????????DXADFDADXXF?GGXXVVDDAXVFDADFAGDAXAGVXDDDDFVGXGFDDVGXXGVFAGDAAAFVADDAVDVDVDGDAGGDGAGGXXVGXXADGGVAX",
+        "context_headers_ocr": [
+          "(Employed between Berlin and the Black Sea Area)",
+          "3rd NOVEMBER, 1918.",
+          "A) NKJ v --- (3.44 a.m., November 4th)"
+        ]
+      },
+      {
+        "id": "p112_ocr_block1",
+        "printed_page": 112,
+        "pdf_page_1based": 115,
+        "key": "Nov1-3",
+        "matching_terms": [
+          "ABENDMEL"
+        ],
+        "retrieval_score": 64,
+        "plaintext_hypothesis": "OK?XOKMXABENDMELDU?GXANSAVEXDONOUXRUHKALPXKORPSNRREICLTR3UMSUEBLIC?UJVID?KXUJVIDEKX219?19IDUX?XKX5353",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 2,
+            "ocr_group": "VAV?VA",
+            "layout_hypothesis": "AV?VA",
+            "method": "left"
+          },
+          {
+            "group": 10,
+            "ocr_group": "GGVGV?",
+            "layout_hypothesis": "GVGV?",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "VAGDGAV?VAVDAVAVXAVFXAVFAXGAFVXVVGDGAAVADDDGGGVGV?AAXXVGAXAAAAAV?GXGVADAAFGGVVDVDGGGGXG?XVVXDAFDDGGAAFFVXDXADFDADXXFDGGAXVVDDAXVFDADFAGDAXAGVXDDDD?VGXGFDDVGXXGVFAGDAAA?VADDAVDVDVDGDAGGDGAGGXXVGXXADGAVAX",
+        "context_headers_ocr": [
+          "(Employed between Berlin and the Black Sea Area)",
+          "3rd NOVEMBER, 1918.",
+          "A) --- v 20N (2.33 a.m., November 4th)",
+          "2030 (3) 3 TLE"
+        ]
+      },
+      {
+        "id": "p220_ocr_block3",
+        "printed_page": 220,
+        "pdf_page_1based": 223,
+        "key": "Nov25-28",
+        "matching_terms": [
+          "ABENDMEL"
+        ],
+        "retrieval_score": 64,
+        "plaintext_hypothesis": "ABENDMELDUNG13XJJ22ALPEXKX16X1ZUIGEXESHABE7MITANFAENGENER?EICHT1J0IDXTISHAFOELDVARXPRDXNAGQMAGOCS81J8XKONDOROS",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "XVVFDGADGFVGFDAFXXXAFDFGXADXVVVFAVVXXGGXDDFXFAFFGAVXDFGXAVFXDDFDAFDFGFFDAVAVDVVXDFVXDXFVXDGFGVDVFXVAXGDVVFXXFVFFADXXDFV?VDVDAVXFAFFXDADXXDXVGVXFAFGADAAXGXXDAGDADDXAXDAFADGGGXDXFXVVDADXVGVGFGFDDDXDDGFDDFDVGFDFFXGADXAXFGDX",
+        "context_headers_ocr": [
+          "B) UKS v ZON (09.54 p.i., Novewber 25th) :"
+        ]
+      },
+      {
+        "id": "p229_ocr_block1",
+        "printed_page": 229,
+        "pdf_page_1based": 232,
+        "key": "Nov28-Dec1",
+        "matching_terms": [
+          "ABENDMEL"
+        ],
+        "retrieval_score": 64,
+        "plaintext_hypothesis": "ABENDMELDGYVY26YXXYY8YRYDYISTM3TANFANGBISTISZAFOELDVARAUFGE0UECKTYU?TERBRINGUNGSRAUMDERJX5YUYJX0YIYDYUNVERAENDERTY",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 11,
+            "ocr_group": "FG?GFD",
+            "layout_hypothesis": "G?GFD",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "GAAGFDFXXXVVGVVAAFDFFVFFFAAVDFXFDVAVFFFXXAFGVXVDVVG?GFDFAXAAXAVVVVFVVFFVGVFXDVXVAVGFVGXXFVDDDAVVGVFAXXVVVFADGDXXDVFGFVXVDGVVGAVGAGXXGFGGXVDAVFXFXDFGXDDFDFXXGAAFXAVDGFGFXGAFFXFGDFAAGAVDFXAGAFGGAAFVDFVAFGAXVXGVFAXFFVFAAGFVVFGFFAAF",
+        "context_headers_ocr": [
+          "(Ewployed between Berlin and Black Sea Area)",
+          "30th NOVEMBER, 1918.",
+          "A) HP v ZON (9-58 p.t., December lat)",
+          "1930 (30/11) FUR OKM 3 TEILE"
+        ]
+      },
+      {
+        "id": "p115_ocr_block1",
+        "printed_page": 115,
+        "pdf_page_1based": 118,
+        "key": "Nov1-3",
+        "matching_terms": [
+          "BELGRAD"
+        ],
+        "retrieval_score": 49,
+        "plaintext_hypothesis": "DONAUNEIXBELGRADXSEMENDIAXUNDDENEIEMARSCFIN?UEXSUEUNGARNBEABSICLTIGENXWAKHRENDDIEOUFGABEDE?SUEDLX",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 1,
+            "ocr_group": "VGGGV?",
+            "layout_hypothesis": "GGGV?",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 1,
+        "ciphertext_hypothesis": "GGGV?XDVGDAXADVAFFAAGVVADVVFGGAAGVADAXGGVDGGGADVFGXAGDAVDGVGDVGFGGAGGGGGAXDAGFDXGDXVGDXGDVFGGDXVADFVAADVGGDGAAFGGFGGVAVDAGVADGAGAVAVDDAXGGXDVVGAGVDVGGAVXAVDGVAGVGGFAAAGGGAFVGXFGGAADXAAGGXDDFDGA?",
+        "context_headers_ocr": [
+          "(Employed between Berlin and the Black Sea Area)",
+          "$rd_ NOVEMBER, 1918.",
+          "(Continued)",
+          "A) LP v NKJ (7,06 pem., November 4th)",
+          "NKJ AN LP VON UKS AN OHL 2000 (3) 13 TLE"
+        ]
+      },
+      {
+        "id": "p163_ocr_block2",
+        "printed_page": 163,
+        "pdf_page_1based": 166,
+        "key": "Nov7-9",
+        "matching_terms": [
+          "LETZTER"
+        ],
+        "retrieval_score": 49,
+        "plaintext_hypothesis": "BLEIBENMUESSENUNDIHREENDGUELTIGERAEUMUNGMITEINEMS1HLAGEYFOLGENMUSSXBEFEHLZULETZTERERER9E??TXOKMXIX?X2C4?BLEI?BZURBESET?UNG",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 4,
+        "ciphertext_hypothesis": "DDXAGXADDFVAAGDAAFGGDVGGDXAAXADDAVDDVDGGGGXV?VXVGGVDVGVFDGVXGDDDAVDDDGGDXDDDDGDXVAVFADGADDGDDADAGDXXDADXVDGGDDVXVGXDVFGDXFVVGDVDFDVXADXXVGFXVVVVDFGGVVFVXVVFGVVXVGVGVXVVFXVDXVVGDGXDVDVGGXXXDDADAV?GFGDVFXXVVVGVVGVVGGXDDVDXDAGDFDXGDVGAAVGXDDDD????",
+        "context_headers_ocr": []
+      },
+      {
+        "id": "p178_ocr_block3",
+        "printed_page": 178,
+        "pdf_page_1based": 181,
+        "key": "Nov10-12",
+        "matching_terms": [
+          "WEITERE"
+        ],
+        "retrieval_score": 49,
+        "plaintext_hypothesis": "STUETZTUNKTENSAMMEL?NACHANWEISUNGDERIMMEDIATBEFEHLSHABERX2XXANALLEUBOOTEISTBIQAUFWEITERESGESC?LUESSELTZUG?BENXW?FFENSTILLSTANDABGESCHLOSSENX",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 14,
+            "ocr_group": "AFGA",
+            "layout_hypothesis": "?AFGA",
+            "method": "left"
+          },
+          {
+            "group": 34,
+            "ocr_group": "DDDVV?",
+            "layout_hypothesis": "DDVV?",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "AGVDVVAGVAVAAAGFDVXXDDFDDADVAAXGXFAAGVVADGAAVVDFVADDGVFXXXFAXGXGG?AFGAAVAGDVAAAAGFVDADXXXXFVFXFFDGXXXDAXADVDGDGVVDVXDXDDVVGVADXDGXGVXXGFXVGXDDGAXGVGGDDDVXDGXDFDADGVFDDVV?AGAGGVVXXDDAVXGDDGXFGXXGXVDDDFXADFGXDFADGVDAGVFXDVDFAGDDDAADDDDFAADDAVGDDDVGGDGVXFXAGXFVXVDAVVXVAAVGFFDDVVDAVG",
+        "context_headers_ocr": []
+      },
+      {
+        "id": "p179_ocr_block5",
+        "printed_page": 179,
+        "pdf_page_1based": 182,
+        "key": "Nov13-15b",
+        "matching_terms": [
+          "WEITERE"
+        ],
+        "retrieval_score": 49,
+        "plaintext_hypothesis": "DRINGENDEHEIMATSURLAUBEHABENBISAUFWEITERESGAENZLICHZUUNTERBLEIBENXCHEFDESGENSTABESNRXRM1A11???GEHOPEZ??0?X",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "AAVAFVFFAAGFFAFAVGFDFFGDFXVXXGXVVAFVAXAFXAVAXXXVGXVAFFAFADGXFDXGDGDXVAXXVAXDXFFGAFFFXGAGVFADGFGAVFFXXXADXDXXFXVXAAXXVDDFVGADAXAADGVAAFXVXFAFAFFVAVXAAAXXAXXGDVVADFFFFAGAVVGFGAGGAFVGVGFDXVGVXGAFXFFFVGFVXVVXVVFAVFAX",
+        "context_headers_ocr": []
+      },
+      {
+        "id": "p205_ocr_block5",
+        "printed_page": 205,
+        "pdf_page_1based": 208,
+        "key": "Nov16-18",
+        "matching_terms": [
+          "WEITERE"
+        ],
+        "retrieval_score": 49,
+        "plaintext_hypothesis": "SONSTXANFORDERTXWEITEREXSUMMEXBEIXGENERALXKRIEGSKASSEXZWEIGSTELLEXBERL2NXKX?XBDXNRX1???STRICH11XB?X",
+        "unpaired_intermediate_coordinate": "?",
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "XXAFXVAGDADAAGDGAGXXVXAFXVAGDAAFXAAXXGXXXXVAGGGDGGXDAXGAVAVVDGAAGDAAGXGXDGDGVDGXFAFADGAFGXDFDFXFDDAFVFXXFGXAAAXFGXADXXXXVAFVFGGAGXAAGXXXAFGDDXDDGGGXXGFDGVADVAAXAGGAVGAAFAGADAFGDVDAFAVFGXFDAXXVXAAVDX?",
+        "context_headers_ocr": []
+      },
+      {
+        "id": "p210_ocr_block3",
+        "printed_page": 210,
+        "pdf_page_1based": 213,
+        "key": "Nov19-21",
+        "matching_terms": [
+          "BEENDET"
+        ],
+        "retrieval_score": 49,
+        "plaintext_hypothesis": "ANKONSULXBURKHARDTXTIFLISXIHREUFTRAGFUE3KRIEGSSCH1IEROELGESE8LJCHAFTAMXJXDEZEMBERBEENDETXKXRXAXXNRX455XJJXJ4XAXNCHXKRIEGSMINISTERIUMALLGEMXKRIEGSDEPARTEMENTXX",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "DGFGVFGFVXVGDVFFVDVXGVFFXXFGFFGXFVVFFAXDFAXGGDFFADFFFAVFVXAXAGFXFGGXAVXVGGVXGVGFFGDXVDXFFFDGFDVVAGDFXGFGGADVFGXVXVGFAFXGXGDAXXXXDGVDVDFADDFFGAXXFDDXVXGAFDVGFDDVDDDXDDFFFFAVDVXFGDVDXDDFXDADDVFDFVDAGFGAGXFFGFFAXFGFFDFFDFDDVVGFDVADGXFFFVDXXDGAAGDAFXGFDVVFDAGAFAFGGGFXDFGVGFXFAVDADDDFGXDDFGGFFAXVDGGGFFGVDFFFFFGFGFFFVFGX",
+        "context_headers_ocr": [
+          "B) COS v LP (02.58 p.m., November 20th)",
+          "17.30 (20/11)"
+        ]
+      },
+      {
+        "id": "p229_ocr_block5",
+        "printed_page": 229,
+        "pdf_page_1based": 232,
+        "key": "Nov28-Dec1",
+        "matching_terms": [
+          "WEITERE"
+        ],
+        "retrieval_score": 49,
+        "plaintext_hypothesis": "NHCHWEITEREAKKSABGE0EBENW1RDENKHENNENYTELRAM?SCHLUS?UMMITTE?LUNGWIRDGEBETENWIEVIELK?NN1NABGEGEB?NWERDENKOENNENYH?MRMXCX0?40Y",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "GVFDVDFAVFFVXDVXVVVFVXVVFXAVFVVGAAXAGGFXFADGDDXGDGFAFVVFXDAFGFXVXXFAXXFVVFVVFXFXVXGXXFXGFXFAGFDGGAGVGAVG?DGGGAAFGDVAFGDGAGFGFVXXVGGGXGVVFD??GFGAGFDFVAGAXAFDXDAAG?DGGVGGFAXVVADFGFGAVAAGXXADAGXVFDAAGAAGGDVAFFVFGFVGXXVXGDVVFVX??FX?VVFXAXXVVFXFGAFFAFVG",
+        "context_headers_ocr": []
+      },
+      {
+        "id": "p97_ocr_block3",
+        "printed_page": 97,
+        "pdf_page_1based": 100,
+        "key": "Nov1-3",
+        "matching_terms": [
+          "WEITERE"
+        ],
+        "retrieval_score": 49,
+        "plaintext_hypothesis": "AKONACH18XBZGDRTRM3CNRX25089XXGEHZUZIFF1XUEBEWSGROEHRENDUNMOELZU2XFOLGTWEITERESXNACHCHEFRM4B49240X",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "DFXAVVFVGGXAGFGGFDVDXXDXAFGVDFXVVGXXAVGVGFDVDVFAAGVDGGXVAVGFXVAFDFDGAFDVDGDDDGDFGGXDXXAVAXVDFFDADGGAADXGDADDADXDXGFAVXVGFVDXVXFAVGAGDVFVDAFGDFFAVDGFFADAGAAGGDDVDGAAVDXAFFVFAXGDGFDGAGVFDADAGFGADFXD",
+        "context_headers_ocr": [
+          "C) UKS v LP (8.15 p.m., November ist)",
+          "1330 (1/11)"
+        ]
+      },
+      {
+        "id": "p151_ocr_block6",
+        "printed_page": 151,
+        "pdf_page_1based": 154,
+        "key": "TRUPPENVERSCHIEBUNG-2026-reported",
+        "matching_terms": [
+          "SAVA"
+        ],
+        "retrieval_score": 16,
+        "plaintext_hypothesis": "IOZHY6RQ3X0HZ1DVRJ61JAXLAXYJFXYHRLV1TFLHYZNPDQ3SC6ZACPO5SLM3WVJK6LQQ0CWD19YNLQSAVAXJRYVV?LLG2RYF3Q?VCVUXHSIJ?CIV1",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 1,
+        "ciphertext_hypothesis": "DVVADVAXDAFFADDDGADFDFGFXXDDVXVDFXDVXVVDDDDFDVDGXDXVXAGFVVADXAGXDFXAXVDADXDGGVVXXDDDAGFGXGVGDDDDXXXXXXGG??DVGDGVDVDDXGADDXXGXGDDVFXXGVXAGFDDXDDGVXVDVXVDXDVGVVADDGDVDDGGGVAGVGGVDGFGFXVFVDVVGXXFVGDGVDXDGFGDVAGAVVADXVXFGAXGFXDVV?",
+        "context_headers_ocr": [
+          "E) LP v NKJ = (7,09 a.m., November 9th)"
+        ]
+      },
+      {
+        "id": "p153_ocr_block3",
+        "printed_page": 153,
+        "pdf_page_1based": 156,
+        "key": "Nov1-3",
+        "matching_terms": [
+          "SAVA"
+        ],
+        "retrieval_score": 16,
+        "plaintext_hypothesis": "YS33YSAVAL4YG7J0D1ROSR3VK7RMFU0AX0U?KXDVZD6TKXOMPQ3ZCQ3KAPBMIJ58W?",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 13,
+            "ocr_group": "DXXGGG",
+            "layout_hypothesis": "XXGGG",
+            "method": "left"
+          },
+          {
+            "group": 16,
+            "ocr_group": "V?VFAX",
+            "layout_hypothesis": "?VFAX",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "VFVAXFXDADADVGXFAVGDVDDDADXGAAAXVGVFVDADDXADADVVAVGFXDAGDDDGXXGGG?VXDXFVVAV?VFAXFXDXAFAVVGGXAVXVFVXVFGFVAXGAAVXXGDXXFVXFXGGVADAVAFDG",
+        "context_headers_ocr": [
+          "C) FAR v CGH = (11.55 p.m., Wovember Sth)"
+        ]
+      },
+      {
+        "id": "p172_ocr_block7",
+        "printed_page": 172,
+        "pdf_page_1based": 175,
+        "key": "Oct28-31",
+        "matching_terms": [
+          "SAVA"
+        ],
+        "retrieval_score": 16,
+        "plaintext_hypothesis": "AI1VERMDPU98VIU3UPD5SAVAB7CURXXMJ7UZGEW6OHLJOHA41VU63XL3HXA6F?W6KKMN37RZRMWQ17TD?TTSFUPS3?WPYUDXO0?VNX88ZG8?0G9Y8WTQ?VOU",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 4,
+        "ciphertext_hypothesis": "ADVGADVFFXXXFGFFFFVGFAVGDAVDFDGF?AVFGXGVVVXVXXGGGDXVFDAADVAFDADAGDGDVDXAXFDXDXAXXXVXFAADFVVXADADVGGVVXXDVXXXXDXGXFXDVAAVVDFDGVADVVADDDDGGADFVFGAVDAGVDFGVFXXGXXFFAXXFXGXFDVDDXXGAFFAXDVDDDVDVDDAFVAAFVGVDADAAVFDGAXXDGXVGFXFVFXAFXXGGGVFADV?????",
+        "context_headers_ocr": [
+          "E) SY v MAX (7.21 p.m., November 10th)"
+        ]
+      },
+      {
+        "id": "p174_ocr_block1",
+        "printed_page": 174,
+        "pdf_page_1based": 177,
+        "key": "Worked-example-VIKINGSCROWNHOTEL",
+        "matching_terms": [
+          "SAVA"
+        ],
+        "retrieval_score": 16,
+        "plaintext_hypothesis": "32QFY228SAVA6JL55I2KSUMUQZCC6YPBS5IF7POARUTIY2MWNPSSG4IU?GISJ076?7US24FVY?",
+        "unpaired_intermediate_coordinate": "X",
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 3,
+        "ciphertext_hypothesis": "DVDXAVDVAFFDFFDDDDGGVAGADDGAXGDVAAXGGDDDADVVVAVDDXXVAGDGFVDAGVDXXXFDDDXAAFDVVVVVGXGDADDGVVFXXFFXVVFFDVXXXXFXVDXXFXVDDFXVAAAFXXDXAAFDDAXAGDDGGGVAGA???",
+        "context_headers_ocr": [
+          "(DISTRIBUTION \"B\")",
+          "10th NOVEMBER, 1916.",
+          "| A) --- v ZO'N (07.24 pene, November 10th)"
+        ]
+      },
+      {
+        "id": "p204_ocr_block3",
+        "printed_page": 204,
+        "pdf_page_1based": 207,
+        "key": "Nov19-21",
+        "matching_terms": [
+          "SAVA"
+        ],
+        "retrieval_score": 16,
+        "plaintext_hypothesis": "7G44N93BVLBY8H6LLY70DUNSAVA08ZTV1BW8HTCGHBUN00G?7A6VLC47Z8GCBNN6QCD428V084NEQ2XKQSDXLEM3N4CE?BB2Y809Z7FNGRN09LG4PLWC8T",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "AGXGVAAVXFAGAVAGXVAGDXAGDFDDDXGXFDXXAXDXAFXGDXAFADAGDAFFDFADAGDADGFDAAXAXVFAXAV?VVXFVXGXAXADGXAAGDDDGFAAAXVAXXGAGGGAXDXDXAAVDAXDXAXVXDDXAFXDADDVGAFDDAAXGAGDVFADGXXAGAADGAADDDGGDDVFDXDDAVDAADDGG?AXDGAGGGADXDGXVVVDGDDAADGDGXGFAXXXXXXDVDGD",
+        "context_headers_ocr": [
+          "Cc) KOoW v WAU (1.50 a.m., November 18th)",
+          "0115 (17) 2 TLE"
+        ]
+      },
+      {
+        "id": "p66_ocr_block2",
+        "printed_page": 66,
+        "pdf_page_1based": 69,
+        "key": "Jul22",
+        "matching_terms": [
+          "SAVA"
+        ],
+        "retrieval_score": 16,
+        "plaintext_hypothesis": "J?DJ?K?R?ACUJD?NOIFISMR?RP??VNBJA??B?T??RW?E??M?E?RLPKK?B?1?TI??LIDGXFX???J??B1S?O??ZDNOE?CPHMWJKG?WRGXSAVA?O?EO?G??MKZ??CJ1?T??D??EZTG??NCD?",
+        "unpaired_intermediate_coordinate": "X",
+        "group_layout_hypotheses": [
+          {
+            "group": 8,
+            "ocr_group": "DAVA",
+            "layout_hypothesis": "?DAVA",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 3,
+        "ciphertext_hypothesis": "GVGVFFVGVFVGAADXFFGXDXXAXAFGFDDDFDD?DAVAGGFFGFVFFFFFDGFXDFVFVGDAVVFXXVFVDVAVAFFDDDVDFGAXVVGFDAVFVGFFVADFAGFGVVDFFVFDDVGFDFAVVVDDXAVVGFFVAVGFFGGGXDGXFDDDADAXDVAFAXXXAAAADGVGAFXGFFGFDXDDADGGFADGGFDXAGFGGGFVXADGXDXA?DGFXDFFXGGAAADAXFGGGAXDXAGAXAFAFFAAFFXFVAADXXDDGGDGAADGGGADFFXDXVVG???",
+        "context_headers_ocr": [
+          "B) =-- v NKJ (3.11 a.m., October 6th)",
+          "DEUTSCHE DELEGATION KAUKASUS _ 1812 (5)"
+        ]
+      }
+    ],
+    "p132": [
+      {
+        "id": "p132_ocr_block2",
+        "printed_page": 132,
+        "pdf_page_1based": 135,
+        "key": "Nov4-6",
+        "matching_terms": [
+          "EILVESE",
+          "WIEDERHO"
+        ],
+        "retrieval_score": 113,
+        "plaintext_hypothesis": "FFEREILVESEXWIEDERHOLETT?LEGGWD3?MYMFLWF7M?FS7KFNT8RLTIWFWUAFQLL3F1QF7PZNMDQQ",
+        "unpaired_intermediate_coordinate": "G",
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "AAXAXFXAVFAAFADVFGFAGVAGXFDVXXFAVAGXXDAADXFAFFFFFAFAXXAAVXG?VFAFAGAAXVAVAXFAGVXVAFVXAFVAAAVGAFAVVAAAXFF??XADAGAVADFAFGXVFGVFXXGDAAXGAXAVDVDAVADVXFGFAXFVVGF",
+        "context_headers_ocr": [
+          "B) LP v NKJ (6.13 pem., November 5th)",
+          "SSD EILT SOFORT LOESEN 1410 (5)"
+        ]
+      },
+      {
+        "id": "p77_ocr_block1",
+        "printed_page": 77,
+        "pdf_page_1based": 80,
+        "key": "Oct28-31",
+        "matching_terms": [
+          "WIEDERHO",
+          "TELEGR"
+        ],
+        "retrieval_score": 100,
+        "plaintext_hypothesis": "ZUERXBXDX5XMXKAUKASUSXTIFLISXXERBITT4NXWIEDERHOLUNGXCHIFFRIERTENXTELEGRAMMSXVOMXEINUNDZWANZIGSTENXZEHNTENXCHIXZ53X12X10XUNTERSCHRIFTXX1874XSTRICHXZ?ROTX692XX",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "FVDFADAAGXAXXAAAGXDGDVXADGFXXXAXAAVDFAADAAXVXDFAXDXAXXAFDAAXXVADDDX?XFXAAAXVXADXXVADVVAVVAAVAAXXAVFAFGDAGAGVXXFGAVDDXXXAAXXXDAADXDFVVAAFXGVAXVDAAAAVAXXAXVXDVVFXXFGXDAGAGADAAAGGAGFXFFFVFXAXXXFDADAXFVAXXAAAAAFAAAFXDAXAXXVXFVXVADDAAFDDDFAXAXVDAAAAXDVVAADXGDXADXDXAADXDXXGGXGXDAXGAFXFADVAVADXXDXAFFADXAGAXDAFGFXVAAAFGF",
+        "context_headers_ocr": [
+          "(Employed between Berlin and the Black Sea Area)",
+          "A) NKJ v LP (4,11 p.m., October 29th)",
+          "0110 (29/10)"
+        ]
+      },
+      {
+        "id": "p97_ocr_block1",
+        "printed_page": 97,
+        "pdf_page_1based": 100,
+        "key": "Nov1-3",
+        "matching_terms": [
+          "WIEDERHO",
+          "TELEGR"
+        ],
+        "retrieval_score": 100,
+        "plaintext_hypothesis": "SOFORTIGEWIEDERHOLUNGDO?TIGENTELEGRXKOFCHIX56XX30STRICH10XXROEMX2XDX8XONHXVOMX30STRICH10XXKXMXANCH",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 16,
+            "ocr_group": "A?FXAG",
+            "layout_hypothesis": "?FXAG",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "XVXDXDDVXDFGFXDFFXADDFGGAVDAVFGADFXDADXDFDGAGGXAGGVGGVGVDDGAADAGGGVVDDXAVAD?FXAGGVVGAGAXFXADXDADDXVXDAVVFVVDFDGDXVGAAFFADVDFAFAAXDDFDXFAFVXXDDDDGVFVDDXGXFDVAGFVFXDDXGDGDGDAVGDXAAAFAXAXFXFAFFGDVGFV",
+        "context_headers_ocr": [
+          "(DISTRIBUTION \"B\")",
+          "(Employed between Berlin and the Black Sea Area)",
+          "lst NOVEMBER, 1918.",
+          "A) OSM v LP (8.50 p.m., November 1st)"
+        ]
+      },
+      {
+        "id": "p134_ocr_block2",
+        "printed_page": 134,
+        "pdf_page_1based": 137,
+        "key": "Nov4-6",
+        "matching_terms": [
+          "WIEDERHO"
+        ],
+        "retrieval_score": 64,
+        "plaintext_hypothesis": "EGLV2SSEXT?LEGRXDE8X4XPORIODEINX5XWIEDERHOLENXOSMXX",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "GFVVFGFFVDADAAFFFXXVDXVGGFADGFDAFXFAFDFXAXVAVAVAGVXFAXAXAGFFXADFAFFDVDGDGVDXAXV?DDXXXAGDAFFXXADDADAFAF",
+        "context_headers_ocr": [
+          "6th NOVEMBER, 1918.",
+          "B) LP v NKJ (4,02 a.m., November 6th)",
+          "0530 (6)"
+        ]
+      },
+      {
+        "id": "p216_ocr_block4",
+        "printed_page": 216,
+        "pdf_page_1based": 219,
+        "key": "Nov22-24",
+        "matching_terms": [
+          "WIEDERHO"
+        ],
+        "retrieval_score": 64,
+        "plaintext_hypothesis": "ERBITTENWIEDERHOLUNGBEURTEILUNGDERLAG?BESONDERSAUSLEGUNGDESWAFFENSTILLSTANDESFUYROKMXXOKMY?YY7Y1OPX",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 8,
+            "ocr_group": "XXVGGD",
+            "layout_hypothesis": "XVGGD",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 1,
+        "ciphertext_hypothesis": "VXDFVVDXFVGGVAFAAAVGGXGFGAXVVVGDAAXXVGGDGDVFVFGVFFGVGVFVFAFGVGAVGGFDXVFAFFFGADDFADAAGAADXGDVFGXDGFFVGGFVXDFAAAADFGAAXFFVXDFGFXDFV?GXAFAFFFGFGDVFXXXFXVGXFVFVXAAAFADFGAVAFXXFVVFGGXVFDDDAVFDXXGFDAAVAA?",
+        "context_headers_ocr": []
+      },
+      {
+        "id": "p107_ocr_block1",
+        "printed_page": 107,
+        "pdf_page_1based": 110,
+        "key": "Nov1-3",
+        "matching_terms": [
+          "PERIODE"
+        ],
+        "retrieval_score": 49,
+        "plaintext_hypothesis": "WIRXRUFENXSIEXJEDEXRIN7BAHNPERIODEX0345NACHIHREMVERKEHRXWELLE1200",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "AVGDDVDVAGADAFGXDGGDVAVAAGGADXVDVFXDGGDVGDDGDXGAAVVVFVFGDXXGGVGFFFDAGGVVVXAVGAGDFAGVXVFFGVGXADADADAGVFFDADXDGDXGAVVXDGFGDAVAAXGAGF",
+        "context_headers_ocr": [
+          "(Employed between Berlin and the Black Sea Area)",
+          "2nd NOVEMBER, 1918.",
+          "A) UXS v ZON (9,10 p.m., November 2nd)"
+        ]
+      },
+      {
+        "id": "p117_ocr_block2",
+        "printed_page": 117,
+        "pdf_page_1based": 120,
+        "key": "Nov1-3",
+        "matching_terms": [
+          "PERIODE"
+        ],
+        "retrieval_score": 49,
+        "plaintext_hypothesis": "ALKENMAU?ENGENAVNTENZEITHNW8RDXY?ZDDENALTENVINGBAHNZEITENAUFLPJOERENXIMMORINNAECHZTERPERIODEWDHXNURNOCHITOCHI?FV8W4AFCJ?N8RJBIDK",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 2,
+        "ciphertext_hypothesis": "DDFGGAAAFVGAGAGGAGXVAVFVGGXGGAXVXGGXDXXAAGDAAGAGXGGGXVVGDGGGVGVFFFVGGD?GDFVDAAADVVFVXFFAXVAADADGXXDGVXVFGGXA?VDGFGAGAVDGAGGGGDFGDXGDDGDXGGFGDDDAADDVVGXXGVAGAAVVGXGGAADAGFGDVGAFFVGVGAGGFGDFFFDFVADGDGDGAGGGGGXGGGVXADGGGFVGFVDVGGDVVVGAAVGADDDDFDAVGVFDGVDDAA??",
+        "context_headers_ocr": [
+          "B) OUI v OSM (1.20 a.m., November 4th)",
+          "ZEICHEN KLEBEN ANDERS GEBEN 1900 (3) SSD"
+        ]
+      },
+      {
+        "id": "p120_ocr_block1",
+        "printed_page": 120,
+        "pdf_page_1based": 123,
+        "key": "Nov4-6",
+        "matching_terms": [
+          "EILVESE"
+        ],
+        "retrieval_score": 49,
+        "plaintext_hypothesis": "DEU?SCHMILIATTACHEXXKJDORTX8303X18XISTHELTERESVER?NL?SSTXKANN8ORSCHAFTAUCHUNGEDAEMPFTXEILVESEEMPFANGENNACHCHEF4B47883X",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 38,
+            "ocr_group": "XXF?VA",
+            "layout_hypothesis": "XF?VA",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "?XFGAFGVVFXVGVVGXDFXXFVAFXXDXFDXAXDVFVXXVXADGFAFGAFFXADGXAAXVFAVAGFAFXADDAGXAXAFFXDDXFAFAAXAVFAXVFXFDVAVXXAFFVGDVFFAVDXGDAVGGFAAFDVXXVFDXXVVVDGGXGGFVXADAXDVAX?VGXVFAADGXAGGFAXDXGXDVAVDVXF?VADADFXAFGDAAFDDXXVFGXFFGXGXADFAVADFAAVAXFVXXAXV",
+        "context_headers_ocr": [
+          "(Employed between Berlin and the Black Sea Area)",
+          "4th NOVEMBER, 1918.",
+          "A) OSM v OUI (11.16 p.m., November 4th)",
+          "1950 (4)"
+        ]
+      },
+      {
+        "id": "p60_ocr_block2",
+        "printed_page": 60,
+        "pdf_page_1based": 63,
+        "key": "Sep19-21",
+        "matching_terms": [
+          "PERIODE"
+        ],
+        "retrieval_score": 49,
+        "plaintext_hypothesis": "AUFUNSZUHOERENXXWIRRUFGNZUBEGINNJEDERPERIODEYUCHWENNNIC2TSVORLIEGTYNXXNKJXNKJ",
+        "unpaired_intermediate_coordinate": "X",
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "GXGXFVXDFGGDADFVFFFXDDFVVGVXFGGFGGGFXDDDFDGFDAGGDGVGFGXADXDVVDDGDGFGFXDGDAFXDXXXFFXFXDXDFAFXGXFFDFXGVAGXFAAFGVGGGXAGGGFDGXFGAVGVGGGXXXDGGADFGGFXXDVGVDGAVGD",
+        "context_headers_ocr": []
+      },
+      {
+        "id": "p104_ocr_block1",
+        "printed_page": 104,
+        "pdf_page_1based": 107,
+        "key": "Nov1-3",
+        "matching_terms": [
+          "TELEGR"
+        ],
+        "retrieval_score": 36,
+        "plaintext_hypothesis": "ZUKUNFTEMPFANGALLERTELEGRAMMEDURCHXFXTXBESTAETIGENXXOX?XLXRMX1XAX104359XOP",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "VAADGDXAVFVVFFDXDXFGDFDAAVVAGGDDVAVXFFFAFGDVDXAVGAAVGVVGXFVXAFDDDDFDAFXAGAG?GVVGVXAXXVGFDGDDGFFXXVXXGGVDDXDXAXGAVGAXFAXGXVXXGFFDFXXXAGVADXDXAGDFXGDX",
+        "context_headers_ocr": [
+          "ist NOVEMBER, 1918.",
+          "A) NKJ (COS) v LP (8.03 p.m., November 3rd)",
+          "WH UKS (1/11) 1300 3 TEILE 4",
+          "(let and 2nd Teile missing)"
+        ]
+      },
+      {
+        "id": "p123_ocr_block5",
+        "printed_page": 123,
+        "pdf_page_1based": 126,
+        "key": "Nov4-6",
+        "matching_terms": [
+          "TELEGR"
+        ],
+        "retrieval_score": 36,
+        "plaintext_hypothesis": "ANSCHLIESSENDXTELEGRAMMXROEMISCHX3XDX8511XVOM027XOKTOAERXISTXAUSREISEXDIREKTORSXT4SCHASCHELXUNOERXJETZIGENXVERHMEL4NISSENXRWTRAM?DR?HTAN?WOR?XAUS?AE?TIGX?OEM?SCHX?XD?8698",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 24,
+            "ocr_group": "????",
+            "layout_hypothesis": "?????",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "DDFXDDAXXXGFXXAVAVFFXXGGFFXGGGXVAGXXXDFDXAVFFFVFDGXAFAFFGFFDADXDADFAFVAAFXXGFAXDXFDFAGXVFXDXAXAVFVDFAFXGDGVGVAFDFVA?????VGFAFGXAFAVXVGFFXGVDXGVADAGDFAXAVFXDAFGGXXFAAFDFAXXFGVAXDVGGFXAFDGAFAVFGXXA?????GXAVDGFDFFDVAADVAFADFAVDFAXXXDDAVGVFDVAXGFFXDAAVAXADDXFAAXXVXFVXFXAVDXGFVFXDFVAFVAFGADVAFGFAFXVAVXXXXXVXVDFVVDAAXXVAVAXFAAAGDFGXAAVFAXFXVFGV",
+        "context_headers_ocr": [
+          "B) NKJ v LP (04.50 p.m., November 4th)",
+          "As! Uns nee (4,21) OBERKOMMANDO BESATZUNGSHRERES VERWALTUNGS-"
+        ]
+      },
+      {
+        "id": "p128_ocr_block3",
+        "printed_page": 128,
+        "pdf_page_1based": 131,
+        "key": "Nov4-6",
+        "matching_terms": [
+          "TELEGR"
+        ],
+        "retrieval_score": 36,
+        "plaintext_hypothesis": "ANH9IMZRSTELLT?DNKENSTATIONAUSDRUEK?IC7?NZUHEISENXTELEGRAMMEVORALLENANDERENZUGEBENXD?SCHEINBAR?ILITAER?SCHETELE?RAMME?EV?RZUGTWERWNXHORSTCANN",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 47,
+            "ocr_group": "ADF?",
+            "layout_hypothesis": "?ADF?",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "XAGXDXVVAFAVGXVFXXXGADAFXD?VAFAFGAAXFVAFADAAXXAVFVXAVF?AVXFXXAXFVGVDADXFFFXDGFA?AVVXXGAGVFVAVXFFDDXVGFAFVFAVVXAVAFAXXAFXAGAGXVXFX?GAXFAFVFXFAAFXVAFVGFXFXFAAFFVG??VGVAGAXDXVAVFVGADVAXFVFVVFDXAFFVAAGAAXXADDFAAAXXXAXVAXXFAV?FXGXFDVGV?ADF?XAXXXXXDVFFAXAFXXVXXVAFGFXAFFXXAXXFVXFXVVFVXFFX",
+        "context_headers_ocr": []
+      },
+      {
+        "id": "p151_ocr_block3",
+        "printed_page": 151,
+        "pdf_page_1based": 154,
+        "key": "Nov7-9",
+        "matching_terms": [
+          "TELEGR"
+        ],
+        "retrieval_score": 36,
+        "plaintext_hypothesis": "OXOXLXOW?DHRTIGESTELEGRCMMRCEMX1AYOX1Q212OPXGEHXERHFLDENHOXKXMXBPXRO?MX1AK130?",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 1,
+        "ciphertext_hypothesis": "FGAXADVXAGFFVFFGVDAVDXVDVDFGDGFVGDGVVXGFVDVGVVVVADFFXAFDDAFDDAFFDAFVVAVVVVDVVVXVDDADVDXXVVDXVVXXDGXXDDDGFXGVAGVDGGXXFGVGFAVXGVXVDVVXX?VVFVVGVAXDAFAVA?DDGDV?",
+        "context_headers_ocr": [
+          "B) NKJ v UKS (11.30 pem., November 7th)"
+        ]
+      },
+      {
+        "id": "p205_ocr_block3",
+        "printed_page": 205,
+        "pdf_page_1based": 208,
+        "key": "Nov16-18",
+        "matching_terms": [
+          "TELEGR"
+        ],
+        "retrieval_score": 36,
+        "plaintext_hypothesis": "MOEGLICHXWIENERXBANKVEREINXWIENXUEBERWEISTXHEUTEXTELEGRAPHISCHXANXOESTERRXUNGARISCHEBANKXKRONSTADTXZURXVERFUEGUNG?DEUTSCHERXETAPPENVWRWALTUNGXZUNAECHSTX",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "XVVGAFAGXAFXAGAFDXFDFXADGGFAGVDAGDGAFADDADVAAGXXVXVDDAFDXXFDXAFDAAAAAVXAXXA?XAFFDGXGDXDFAAXAAAAAXAXVAGDAADXGFFDVAGAAGXGADVAFDXXADAXDXVXAVXFAXGGAXFDGADXXDADFDGDDXDAXADXFDAVDDDXXGAVAGXDADDDDGAXDAADFAGXXAFXFADVDAADDVAVGDXGFGAADAXAGDGXXXXDDXVDXGDGXAAAAXXXDFXDXFDAAXGFDGADXXAFXXDAAGDDXDDXDDDAGVGAFXGDGGVFGGVAG",
+        "context_headers_ocr": []
+      },
+      {
+        "id": "p64_ocr_block1",
+        "printed_page": 64,
+        "pdf_page_1based": 67,
+        "key": "Oct4-6",
+        "matching_terms": [
+          "TELEGR"
+        ],
+        "retrieval_score": 36,
+        "plaintext_hypothesis": "HP?MXB?NEDIKTXVERTR?TERKUKAOKXINATORXATOMXXER?UCHEDRI?GEOEZUSTELJUNJFOLGENDENT2LEGRXUX1ER?NLASSUNGDASSANTWXTELEGRXANHERUEBYR?ITTELTWIRDXXGEBRSEDERNOBELXATOMXX?RAHTETVOURAETE",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 8,
+            "ocr_group": "FAX?",
+            "layout_hypothesis": "?FAX?",
+            "method": "left"
+          },
+          {
+            "group": 24,
+            "ocr_group": "AFFX",
+            "layout_hypothesis": "?AFFX",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "?GDDDFGFAFDDGDGDXAXAXGDAGXADAGGAVFF?FAX?FXADFVFVFDVDFAVDVFGDGFXGFVVVDFXVAVDGF?V?VFFGVFGFDVVFFVVADGVDFADDGFFGFVFGVAG?AFFXFDVFVFVXFGDGFFFVGVGAGDGDFVFFXDFVAVXGDFF?DGDFGGAVDFDGVGGDDDXAFXAGGGXAAVFGFADGFXAXXGDFVGVDGDXAXGXAFAFDFFVDVADAXXD?DDDFGDGFGAVXDGFFGFDGAGVDGGADGDAGAAXGXFDGAGXFGGDGXXFADAXXAGXXXDXXDDGXDFDFFADGGDAAXXAAAAXDXXGDDGFXFDGDFVFXDAFGFFDFVV",
+        "context_headers_ocr": [
+          "A) --- v NKJ (3.23 a.m., October 5th)",
+          "(Beginning lost)"
+        ]
+      },
+      {
+        "id": "p66_ocr_block2",
+        "printed_page": 66,
+        "pdf_page_1based": 69,
+        "key": "Oct4-6",
+        "matching_terms": [
+          "TELEGR"
+        ],
+        "retrieval_score": 36,
+        "plaintext_hypothesis": "ANXLEITENDENSANITAETSOFFZXXDORTIGZSTELEGRXNR131X232ISTVERSTUE?MELTBITTENOCHMALSDRAHTENXXARMEEARZTO?ERKOMMANDO?E?ATZUNGSH?ERZSRUMAEN?ENNR8586X3",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 8,
+            "ocr_group": "DAVA",
+            "layout_hypothesis": "?DAVA",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 4,
+        "ciphertext_hypothesis": "GVGVFFVGVFVGAADXFFGXDXXAXAFGFDDDFDD?DAVAGGFFGFVFFFFFDGFXDFVFVGDAVVFXXVFVDVAVAFFDDDVDFGAXVVGFDAVFVGFFVADFAGFGVVDFFVFDDVGFDFAVVVDDXAVVGFFVAVGFFGGGXDGXFDDDADAXDVAFAXXXAAAADGVGAFXGFFGFDXDDADGGFADGGFDXAGFGGGFVXADGXDXA?DGFXDFFXGGAAADAXFGGGAXDXAGAXAFAFFAAFFXFVAADXXDDGGDGAADGGGADFFXDXVVG????",
+        "context_headers_ocr": [
+          "B) =-- v NKJ (3.11 a.m., October 6th)",
+          "DEUTSCHE DELEGATION KAUKASUS _ 1812 (5)"
+        ]
+      },
+      {
+        "id": "p96_ocr_block2",
+        "printed_page": 96,
+        "pdf_page_1based": 99,
+        "key": "Nov1-3",
+        "matching_terms": [
+          "TELEGR"
+        ],
+        "retrieval_score": 36,
+        "plaintext_hypothesis": "NRX605XAUFTELEGRAMMNRX536XRHEINBABENXANXHORSTMANNXNACHMITTEILUNGPASSZENTRALESTELLVERTRETENDENGENERALSTABESISTNUNMEHREINREISEXFILITTISXMITFAMILIEAUSXKOPENH?HENXGENEHMIGTXAUSWAERTIGXX",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "XDXVVVGDGVVAAFGVGFXXGDGVDVGDGXGAXAGFXFGVGGGGFVDAGGVGDDGGDXDXDDDGVVFGVVDXVGVGGADVGGXDGDGVGVVAGGADXVXXGXFGFGGFDAXDFAGDGDGVXAFVXDDVVAGXFXAFVGADAFFGFGGAVDGFAAVFXGFGVXVVVVDFVGAXXXXGXVFXGGXGGFDAXDDADVXXDXFFFGDDDAXVGDXAXGFGDVGVADGADA?VGDADGFFFAVGFAVXVVDXAGVADDAXAAFGVDADVFXFAVAGXDGDXFGAAADXFVFGFGAGGXDVVGDFDXVGVVFGXGDGAGAGAXGFAVVDDXFGVAGAGAGXVADFAVDVGFXVDDGXDADGDDXXGFF",
+        "context_headers_ocr": [
+          "B) UKS v LP (8,11 p.m., November 1st)",
+          "1800 (1/11) POLITISCHE ABTL BUKAREST"
+        ]
+      },
+      {
+        "id": "p141_ocr_block5",
+        "printed_page": 141,
+        "pdf_page_1based": 144,
+        "key": "NSA-undated-CHI-example-18",
+        "matching_terms": [
+          "5MIN"
+        ],
+        "retrieval_score": 16,
+        "plaintext_hypothesis": "V8N6JT2CAG0YWVJN9VZ?ZH?I9J?W7Y8YI?A3AFW6CVRLV0NEZ?PZ3W7W59N1QHJ6H5C???M4KZL8WRR7R9R1NC8KRKNRT0YAH??R84LHIKQAEBRNPJ1C5C3YNHPPNNYRPJ7K99VPY5MINYYW5BK4FIZAE2?35VHWA6O6T0Q1UL",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 24,
+            "ocr_group": "AX?A",
+            "layout_hypothesis": "?AX?A",
+            "method": "left"
+          }
+        ],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "VGAADFAFFAAVVXGFAADGXG?AFVXAVAVXXGFFVDAAFAAGAAVXXDFAVAFVXXADDXFFXDAGVAAADDAGFXFAVGGXFFAFGXAVAVDVF?VFAADFFAVAAFAGXAF?AX?AXAXADVDGXFFVDG?GFAADFFFDGVFAG?XAXGFVVX?VVFAXAFFDXVXFFFVVDDDXGVAFXDVFGXDFVAAFAVGXAVVFXDGDXFAVVVDDGF?VXAFAVVVAXAFXVAVAV?ADXXVVAXAXXFVXXFDVXAVFAXDXAVAXAFGVXXADXXAFVDAGAFFXXX?AXAFAXVXFAXVAFVFFV?FFDFXVFAFAGXAGFDXVAFAAXXFAFXDA",
+        "context_headers_ocr": [
+          "B) ASO v LP (08.19 p.m., November 6th)",
+          "FUER ASO 1920 (6/11)"
+        ]
+      },
+      {
+        "id": "p142_ocr_block1",
+        "printed_page": 142,
+        "pdf_page_1based": 145,
+        "key": "Nov4-6",
+        "matching_terms": [
+          "5MIN"
+        ],
+        "retrieval_score": 16,
+        "plaintext_hypothesis": "G9BONSLKX04Q0XW05MINCVVHEDA64IH8EYK4P1UNM7OEOZNSAEFNSWIEDE?X0IT5",
+        "unpaired_intermediate_coordinate": "A",
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 1,
+        "ciphertext_hypothesis": "AGDVAXXDFDDVGVFVVXXDAAXXDFGXGDXGGFFFAXDFXDXFDVDXFFAXDFDVFXAXDGAGVXVFVGFVFFXGGGXXXFFXFDFAAAVXFGAVXAAXXXGVGGVAFADXFFGFXVAVVAFDAGDA?",
+        "context_headers_ocr": [
+          "(Employed between Berlin and the Black Sea Area)",
+          "6th NOVEMBER, 1918.",
+          "A) XJ ZON v LP (08.25 p.m., November 6th)",
+          "FUER Z0N 1900 (6/11)"
+        ]
+      },
+      {
+        "id": "p192_ocr_block1",
+        "printed_page": 192,
+        "pdf_page_1based": 195,
+        "key": "Worked-example-VIKINGSCROWNHOTEL",
+        "matching_terms": [
+          "5MIN"
+        ],
+        "retrieval_score": 16,
+        "plaintext_hypothesis": "DQU1B545UB6EE5ZN30ZYP5VCV4UMP4GZVRATU9WY82L7N985CGE2TJR8U4BL6?4W9RE2EXYKI9UJMZBY2CQ45MINKX8Z849PPL7E79HVEDV9MN8CXRL",
+        "unpaired_intermediate_coordinate": "G",
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "FFAVFFVFGGGGXGXDADVFGGGFFAVFFVXFAGVVXVXVDVXDXFFVVXDXVVXGVXDDVVVXXADDDVXVGAG?GGDXAXXGXFFAFFXXAFAFXGVVGVGVVXVFFXFXXXVVDXGAAFGXXAXVDFDFXFFFGFXAAFFADDGDAGAAFAFAAFFVXDXGVFAFFFAAVXAAAGVXAAFDAAVAAGVFVAAGXGVVAFAAGFVAGAGAFXVAFFFXAXXXXFAFFAA",
+        "context_headers_ocr": [
+          "(Employed between Berlin and the Black Sea Area)",
+          "14th, NOVEMBER, 1918."
+        ]
+      },
+      {
+        "id": "p219_ocr_block3",
+        "printed_page": 219,
+        "pdf_page_1based": 222,
+        "key": "Nov4-6",
+        "matching_terms": [
+          "5MIN"
+        ],
+        "retrieval_score": 16,
+        "plaintext_hypothesis": "ATZEKO9N1H5MG1BR7HPVU8CKIMGSU541DGPJLT9O01Q2M85ASW5KX5MRNP9PICYNTXSGLS6ADLDMPDXMKS0SD8CAVOMKLAGKPETKNP6TV9K9XUQKKPKA2FLDZ3QAG5P0UMVNYD98M1DJQK8GU0AI4CVM?S6ZFM1D?D5MINKP6?9VTC9D8?G",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 4,
+        "ciphertext_hypothesis": "AVVDADFXFFGFXFFXAXVXDADXVGDDVDFVXGXGDDFDDVFDFGAFDDGDVFFFGFDFFFXGAXVGFXAAGXAFFVVFDAFDXVFDDAXXFXFXDADFDXFGDFVVDFDVXDFGAFFVXGVXXFVAAFDFFXAXVFGFDDXVXFFVXGDVDGFXXFXVXFFVADGDFAVDAAXXFXGFFXDVDFFADFFAGVXDFVXDDVXFFDFGGDXVXGDXVDGXXFDGDGFFVVVAXAVFAFFGXGAXDVDXVFAXDFADXXVAXFXAXFVFGFXFFXADXXAXDXGFDFAFVXAVXXGFGFAGGDDDDFFFGDFVGDXVFFDVXDXVVFFXFXGGDXAXXXAXVADXVFDXDVAXVV????",
+        "context_headers_ocr": [
+          "B) UKS v BSL (09.16 p.u., Noverber 27th)",
+          "1800 (11/25)"
+        ]
+      }
+    ],
+    "p146": [
+      {
+        "id": "p77_ocr_block2",
+        "printed_page": 77,
+        "pdf_page_1based": 80,
+        "key": "Oct28-31",
+        "matching_terms": [
+          "RUFNAM",
+          "NACHRICHTEN"
+        ],
+        "retrieval_score": 157,
+        "plaintext_hypothesis": "NACHRICHTENCHEFXDRAHTETXMITX4XBX49338XXFUNKERABTLGXOSMANIEXXZUXDORTX2032XFUNKERABT3GXKONIAXERHAELTXRUFNAMENXNATHANXOTTOXKARLXWELLENXVONXDORTXFESTLEGENXXADMIRALSTABX17830XDX2XX",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "DGXAXXXFAGAGXAXXXFFDXGADGXGAXFAXFVGXVGAVDFAVDFVDAXGXGAXAXAAAFGFAAXXAXADAADAFXGGXAAXADDXDVXAXFFAFAXFGADGGVAXADXXFAXVGADDAXXADADDAGAXFGADXXAAAXDDXXDDVVVVXAAVXAAAFAGXFFVXXAFXVVVVAVAVFADVGAXXFAFFAXAAVAVXAAAFFFXXDAAXXVGXAVAGXFVVFDGFXVXXAADFXADXAAFFGGGGXXFGDAAFGVXFXXAAXAFFDXDFAXAVXXVVVXAXAXAAXAVFXVXAAXFXGGFADVGFVFGXFGAXGFFVADXXFAXXVAAAXDXVDXAAGGAAXDXAGGV",
+        "context_headers_ocr": [
+          "B) OSM v LP (6.47 g.m., Ootover 30th)"
+        ]
+      },
+      {
+        "id": "p192_ocr_block4",
+        "printed_page": 192,
+        "pdf_page_1based": 195,
+        "key": "Nov13-15b",
+        "matching_terms": [
+          "NACHRICHTEN"
+        ],
+        "retrieval_score": 121,
+        "plaintext_hypothesis": "KWHXLPXUEBERMITTELTALLEVORLI?GENDENWICHTIGENNACHRICHTENFUERHEIMATDIENSTSTE?LENSOWIEXOHLXUNDUMGEKEHRTXKMXALLGXKRIEGSDEPXNRX?5?1115XANCH",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [
+          {
+            "group": 22,
+            "ocr_group": "FVGA",
+            "layout_hypothesis": "FVGA?",
+            "method": "right"
+          }
+        ],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "VGVAXAAAFFVXDGAFAXDVADAAVFXVDVAADDXXXAXVAXGFXAFDDVXXGFXFAXXVAXVXFDVAFFXXXXFXXVAFXDDDXFXXVXXGVAXVVDDAAFDFAFVGA?FAGFFDVAXGVXADVGGDVDXVDAXXFVXXFXFXFFFGGVGAFGVVFAFAAGDDGDADFFXAAGXDDXXFVFGFFAFXXVXXVXGADDXVXVDFFAVAVDFFFVGVDXGFGFGAFAFAAAFGVVFVF?AADFAFXVVVFGVDFVXVVAAXFDAXXFDV",
+        "context_headers_ocr": [
+          "B)NKJ v LP (08.56 pem., Novemoer 1ith)",
+          "NKJ FUER 20'N 17.30 (15/11)"
+        ]
+      },
+      {
+        "id": "p203_ocr_block2",
+        "printed_page": 203,
+        "pdf_page_1based": 206,
+        "key": "Nov16-18",
+        "matching_terms": [
+          "NACHRICHTEN"
+        ],
+        "retrieval_score": 121,
+        "plaintext_hypothesis": "KMXABTXNACHRICHTENMITTELXERBITTETNACHRICHTUEBERVERB?EIBXHPTMX?XBORRIES?GENXKDOX??X",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 4,
+        "ciphertext_hypothesis": "XDAXXGAVXADXDGXAXGDGDFADAVXAFXGAFAFXGAXVDDVDGDXAGXAXXAVADGXFXXAXDXXGXDXGAXVFXGXXADDVDGXADDDFDFVDVAVAVAGXVAGAGXAGGDXAXDXAAADXAAGXDXFAXADDGGFDXGDXDXXFAGXGDGDDXVXD????",
+        "context_headers_ocr": [
+          "18th, NOVEMBER, 1918.",
+          "B) IWE v LP (03.48 s.m., November 18th)",
+          "FUER IWE v LP 14.55 (18/11)"
+        ]
+      },
+      {
+        "id": "p203_ocr_block3",
+        "printed_page": 203,
+        "pdf_page_1based": 206,
+        "key": "Nov16-18",
+        "matching_terms": [
+          "NACHRICHTEN"
+        ],
+        "retrieval_score": 121,
+        "plaintext_hypothesis": "KMXABTXNACHRICHTENMITTELXERBITTETNACHRICHTVERBLEIBUNTFFZXRICHTERXFUNKERPARKXALEPPOXFELDPOSTX???X",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "XDAXXVAAVGADXDGFFXFVGDGDDAXGVAXAFXGFGXAXXGAXAFDFVVDGDXDFXXFAXXAVAGDFXGXXXAXDGXVAVDXGAXDDDVGXXADDFDDXFXADDVVFVAAVDVAVAXDDFFXVAGAFDGGAGDXAXDVXGGADXAAXAVXXFAXADDXAGXDXGDGXFXGVFAGXXFXDFVDXVXVAAXGA",
+        "context_headers_ocr": [
+          "C)eRY2 veuPs (03252, age Noveaber 18th)",
+          "IWE KOW AS FUER XYZ 14.50 (18/11)"
+        ]
+      },
+      {
+        "id": "p210_ocr_block4",
+        "printed_page": 210,
+        "pdf_page_1based": 213,
+        "key": "Nov19-21",
+        "matching_terms": [
+          "NACHRICHTEN"
+        ],
+        "retrieval_score": 121,
+        "plaintext_hypothesis": "IS0XEBERDENUNTEROFFZXKURTXRICHTERXALEPPOXARMEENACHRICHTENPARKXJ527XDEUTSCLEFELDPOSTX227XAUSKUNFTUEBER3ETZIGENSTANDORTOWERVERBLEIBZUERFAHRENJXNRXQ90STRICHJJXJ4XAXNCHX?RIEGSMINISTXALLGEMXKRI?GSDEPARTEMENTXX",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "FXAFAFFVFFXFXXFVGAGFFFFFXXGFDFGGFFGXFGFGXFVFVDGXXVGVDFXAXGGVGGGFGGAAAGXGVFVGXAXGVGDFGAFFDVDGDFAAFGVXVFXADGDDDXDXDXXDXFDDDVGXFFFAXAGFFXFFFAADFFGFFGVFGDFDVXFDVAXGDGVDGXVXGFGFDVDGFGDDADDGAFGDGXAFDDVFDVAFFFDDDXDDXGDGAGVXDVFFFFDFXGFVXFAFDXXGAFFXDVGFDXGGGFVGFXFGFFGDGXAXXADFGGDFDXFDDDGGXDFDDFXGFADDAAGXFGAXAF?VFGVFFDDFFVVFGDDDDDDVDXXFVDVVVVAGFFFDFXXDGDFDVGDDDFDAFDXDGAFGXGXVVAVAVFVVDXXDXGGFV?GFDFXFGFXVVGXGFFFFVAVD",
+        "context_headers_ocr": [
+          "c) XYZ v LP soaeee p.m. November 20th)",
+          "17-40 (20/11)"
+        ]
+      },
+      {
+        "id": "p62_ocr_block1",
+        "printed_page": 62,
+        "pdf_page_1based": 65,
+        "key": "Oct4-6",
+        "matching_terms": [
+          "NACHRICHTEN"
+        ],
+        "retrieval_score": 121,
+        "plaintext_hypothesis": "SOFIAXAUSRINGBAHNVERKEHRAUSGESCHIEDENXXNACHRICHTENCHEF4BX49287",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "GGVFVXXAXFVFXDGDGFAVFDGVVFGFXVXFADADFFVVDFVVGDVDAVVGAXGAAFDDDFFVAAVGDAAXXDXFGVDXXGDGVVXXAAVXFADVGDDXDDFXAGDAAGAGXAGFVVADFDDX",
+        "context_headers_ocr": [
+          "A) ASO v LP = (04,50 pam., October 4th)",
+          "1030 (4,10)"
+        ]
+      },
+      {
+        "id": "p168_ocr_block2",
+        "printed_page": 168,
+        "pdf_page_1based": 171,
+        "key": "Nov7-9",
+        "matching_terms": [
+          "FUNKSTELLE"
+        ],
+        "retrieval_score": 100,
+        "plaintext_hypothesis": "SOLDATENRA9?C?ELNXWIRDBALDFUNKSTELLEBESETZENXVERSUCHTSCKONFUNKSPRUECHEAUFZUGEBEN",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "DFGDDGDXXVADAXFGGDXDGVADDGGVVVVGVXDDGXAFDGADGFXXFVXGDVVAXDDDVFAADXXGDFDDDXGXXXXVDDXVVVXXXFDXVDGDVGXXVXVVDVDDVDDVX?VVFXGVX?XDXDADGVVVDGDXVDVVAGVGXGVDAADXAAXDDXVD",
+        "context_headers_ocr": [
+          "B) SY _v N4 (9,40 a.m., November 9th)"
+        ]
+      },
+      {
+        "id": "p150_ocr_block2",
+        "printed_page": 150,
+        "pdf_page_1based": 153,
+        "key": "Nov4-6",
+        "matching_terms": [
+          "12X11"
+        ],
+        "retrieval_score": 25,
+        "plaintext_hypothesis": "OHLOPXXOKMXHATVORBEREITUN?ENSOGETROFFE??ASSAUFB?FEHLXXVERGLXDORT1A11118OP2XXDERABMARSCHVOM12X11AB",
+        "unpaired_intermediate_coordinate": null,
+        "group_layout_hypotheses": [],
+        "trailing_erasure_hypothesis": 0,
+        "ciphertext_hypothesis": "AVAGAVGXAVAFAVAXGFADGAADVXAVFAVAFFFAXV??VADFADGVXFFVADVGDFVAXGFADGXGFV?GGADAFXAAFFAAFFFAAAADFAFFAAVGVAAXGFAVXDAFDAXAAXVADVDVGVGAXAXAAAFAFXXXV?FAAXXFGFAXVDDGAVGVFGDAVVVFFFDGGFGFVFAGFGGAVXVGAXADXD",
+        "context_headers_ocr": [
+          "B) LP v NKJ (--- November 7th)",
+          "2100 (6) VON UKS 5 TLE"
+        ]
+      }
+    ]
+  },
+  "limits": [
+    "All OCR and layout candidates remain unverified until the source image is checked.",
+    "The score is a deterministic retrieval aid, not a likelihood or confidence.",
+    "The search cannot exclude missing source records, unmodelled errors or different keys.",
+    "Trailing erasures are exploratory OCR hypotheses, not observed source gaps."
+  ]
+}

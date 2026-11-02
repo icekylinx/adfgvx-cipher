@@ -12,7 +12,7 @@ from .cipher import decrypt, encrypt, self_check, SYMBOLS, plaintext_domains, tr
 from .alignment import find_switch, table, alignment
 from .projection import analyze, untranspose as project_untranspose, transpose as project_transpose
 from . import prior
-from . import constraints164, constraints215, supplementary, editorial164, transport, context155
+from . import constraints164, constraints215, supplementary, editorial164, transport, context155, editorial, source_recovery
 
 ROOT=Path(__file__).resolve().parent.parent
 
@@ -308,6 +308,11 @@ def reviewed_parallels():
         assert len(ct)==row['length']
         assert decrypt(ct,ranks,square)==row['raw_partial_plaintext']
         assert transpose(untranspose(ct,ranks),ranks)==ct
+        if 'conservative_ciphertext' in row:
+            conservative=row['conservative_ciphertext']
+            assert len(conservative)==len(ct)
+            assert all(a=='?' or a==b for a,b in zip(conservative,ct))
+            assert decrypt(conservative,ranks,square)==row['conservative_raw_partial_plaintext']
     geography=json.loads((ROOT/'data/reviews/p164_geography.json').read_text())
     editorial=certificate('p164_A4_editorial');key=editorial['key']
     original=editorial['full_editorial_hypothesis']['analysis']['corrected_ciphertext']
@@ -332,7 +337,8 @@ def main():
              'p164':constraints164.verify(certificate('p164')),
              'p215':constraints215.verify(certificate('p215')),'p164_A4_editorial':p164_editorial(),
              'transport_context':transport_context(),'p155_context':kress_companion(),
-             'reviewed_parallels':reviewed_parallels(),'p215_completions':p215_completions()},
+             'reviewed_parallels':reviewed_parallels(),'p215_completions':p215_completions(),
+             'editorial_readings':editorial.verify(),'source_recovery':source_recovery.verify()},
              'prior_readings':prior_readings(),'supplementary_readings':supplementary_readings()}
     if args.json:print(json.dumps(results,indent=2))
     else:

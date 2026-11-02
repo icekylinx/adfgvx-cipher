@@ -1,0 +1,1585 @@
+{
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "date": "2026-11-02",
+  "project": "ADFGVX Cipher",
+  "index_convention": "Zero based",
+  "source_transcriptions_unchanged": true,
+  "schema": "adfgvx-p109-source-parallel-v1",
+  "status": "Newly reviewed primary-source near-parallel; conditional editorial reading",
+  "source_B": {
+    "printed_page": 109,
+    "pdf_page_1based": 112,
+    "section": "B",
+    "image": "sources/excerpts/childs_p109_B.png",
+    "header": "UKS v ZON (11.03 p.m., November 3rd); VEVE 1715 AN LP UD 2130; RICHI-248",
+    "ciphertext_grouped": "XGGGG GFDFG GAXGF FFVGG VDXDX DAGXF DGXGX AAGDX\nDADDD ADXAG GADGV FGGXD FGVVG XXAXA FDVVV XXFXV\nDVGXG VDAAD GXDAA XFVAX DGVGG GDAVG F-VGD DVFGF\nVDVVX DGFDD VVXDX VDADX XVVX- V--GF GVVVV AGXGG\nXGGDA FGADV VDAFG AADAD GDXXV GDXVA AADGV XGGGX\nAGGDG VGD-V FAFAX GGVGV FAD-G FAXAD GVFDD DAVGV\nFAGAG VGD",
+    "ciphertext": "XGGGGGFDFGGAXGFFFVGGVDXDXDAGXFDGXGXAAGDXDADDDADXAGGADGVFGGXDFGVVGXXAXAFDVVVXXFXVDVGXGVDAADGXDAAXFVAXDGVGGGDAVGF?VGDDVFGFVDVVXDGFDDVVXDXVDADXXVVX?V??GFGVVVVAGXGGXGGDAFGADVVDAFGAADADGDXXVGDXVAAADGVXGGGXAGGDGVGD?VFAFAXGGVGVFAD?GFAXADGVFDDDAVGVFAGAGVGD",
+    "independent_transcription_review": "experiments/source_followup/p109_B_review.json"
+  },
+  "source_D": {
+    "printed_page": 109,
+    "pdf_page_1based": 112,
+    "section": "D",
+    "image": "sources/excerpts/childs_p109_D.png",
+    "header": "UKS v ZON (0.35 a.m., November 3rd); Beginning jammed; RIZI-258",
+    "analysis_reference": "data/prior_readings.json#p109"
+  },
+  "attribution": {
+    "earlier_target_reading": "Norbert, 2017-03-01, comment 18",
+    "earlier_editorial_alternative": "Max Baertl, 2017-03-11, comment 39",
+    "parallel_review_and_revised_interpretation": "icekylinx and GPT-6 Astra Pro"
+  },
+  "limits": [
+    "The two printed timestamps and differing endings are retained; an exact retransmission identity is not assumed as an established fact.",
+    "The readable 124-character interpretation is not a zero-edit decipherment of either copy.",
+    "Under a common-plaintext model it lies four known-coordinate substitutions above the absolute minimum, at three plaintext positions.",
+    "A source spelling ABENDMELUNG is retained in the compact proposal; the uncertain closing characters are not interpreted."
+  ],
+  "analysis": {
+    "source_B_sha256": "26ff224094efbd84abbca1485a46cc49c40c146d329402ed2db4b9b627c78af8",
+    "source_B_analysis": {
+      "corrected_ciphertext": "XGGGGGFDFGGAXGFFFVGGVDXDXDAGXFDGXGXAAGDXDADDDADXAGGADGVFGGXDFGVVGXXAXAFDVVVXXFXVDVGXGVDAADGXDAAXFVAXDGVGGGDAVGF?VGDDVFGFVDVVXDGFDDVVXDXVDADXXVVX?V??GFGVVVVAGXGGXGGDAFGADVVDAFGAADADGDXXVGDXVAAADGVXGGGXAGGDGVGD?VFAFAXGGVGVFAD?GFAXADGVFDDDAVGVFAGAGVGD",
+      "corrected_ciphertext_length": 248,
+      "intermediate_stream_before_edits": "AGDXV?DXVDDXXGGVVGGGGAVDV?AFAAGGFFDXDVXGDGV?GXAAVGGVFADAFFXDDG?FAFXGGXDFFXVGDADXXGAFAFVGGVVGVGGGGAVGFXDXVFGGVGADFXXGDAVGAVGAAFDXGAA?DGDXADVDVGXGDADVDDVFXGAAAVGVVDAFFGDAXGGAVGDAVVXGGGGGFXDXDVAGGGDVFXVVVGADDGVDVGDAVGADFFGGADDXDVVGD?DXXGDXAGDXVVDXXFXX",
+      "intermediate_stream_after_edits": "AGDXV?DXVDDXXGGVVGGGGAVDV?AFAAGGFFDXDVXGDGV?GXAAVGGVFADAFFXDDG?FAFXGGXDFFXVGDADXXGAFAFVGGVVGVGGGGAVGFXDXVFGGVGADFXXGDAVGAVGAAFDXGAA?DGDXADVDVGXGDADVDDVFXGAAAVGVVDAFFGDAXGGAVGDAVVXGGGGGFXDXDVAGGGDVFXVVVGADDGVDVGDAVGADFFGGADDXDVVGD?DXXGDXAGDXVVDXXFXX",
+      "raw_partial_plaintext": "OX?XMXABENDM?LUNGXSAV?5UEB0RG4V?LA5ZTERXALLEBEENDETXHNEITAREFDLXD?VXIMEARSCHAUFBML7RADERKANNTXSONSTKEIVMEREIGNIXSE?XAXOXKX16",
+      "plaintext_domains": [
+        "O",
+        "X",
+        "EHJKMP",
+        "X",
+        "M",
+        "X",
+        "A",
+        "B",
+        "E",
+        "N",
+        "D",
+        "M",
+        "EHJKMP",
+        "L",
+        "U",
+        "N",
+        "G",
+        "X",
+        "S",
+        "A",
+        "V",
+        "EHJKMP",
+        "5",
+        "U",
+        "E",
+        "B",
+        "0",
+        "R",
+        "G",
+        "4",
+        "V",
+        "1GHLWZ",
+        "L",
+        "A",
+        "5",
+        "Z",
+        "T",
+        "E",
+        "R",
+        "X",
+        "A",
+        "L",
+        "L",
+        "E",
+        "B",
+        "E",
+        "E",
+        "N",
+        "D",
+        "E",
+        "T",
+        "X",
+        "H",
+        "N",
+        "E",
+        "I",
+        "T",
+        "A",
+        "R",
+        "E",
+        "F",
+        "D",
+        "L",
+        "X",
+        "D",
+        "9FILOU",
+        "V",
+        "X",
+        "I",
+        "M",
+        "E",
+        "A",
+        "R",
+        "S",
+        "C",
+        "H",
+        "A",
+        "U",
+        "F",
+        "B",
+        "M",
+        "L",
+        "7",
+        "R",
+        "A",
+        "D",
+        "E",
+        "R",
+        "K",
+        "A",
+        "N",
+        "N",
+        "T",
+        "X",
+        "S",
+        "O",
+        "N",
+        "S",
+        "T",
+        "K",
+        "E",
+        "I",
+        "V",
+        "M",
+        "E",
+        "R",
+        "E",
+        "I",
+        "G",
+        "N",
+        "I",
+        "X",
+        "S",
+        "E",
+        "CRSVXZ",
+        "X",
+        "A",
+        "X",
+        "O",
+        "X",
+        "K",
+        "X",
+        "1",
+        "6"
+      ],
+      "decoded_plaintext_length": 124,
+      "fixed_plaintext_characters": 118,
+      "unpaired_intermediate_suffix": "",
+      "coordinate_transposition_roundtrip": true,
+      "all_decoded_letters_reencode_to_paired_stream": null,
+      "ordinary_complete_adfgvx_roundtrip": false
+    },
+    "source_D_reference": {
+      "message": "p109",
+      "variant": "norbert18"
+    },
+    "known_coordinate_agreements": 200,
+    "known_coordinate_disagreements": 42,
+    "source_B_erasure_indices": [
+      111,
+      144,
+      146,
+      147,
+      208,
+      223
+    ],
+    "candidate_comparisons": [
+      {
+        "source": "p109_B",
+        "known_coordinate_disagreements_with_candidate": [
+          {
+            "index": 3,
+            "observed": "G",
+            "proposed": "F"
+          },
+          {
+            "index": 15,
+            "observed": "F",
+            "proposed": "V"
+          },
+          {
+            "index": 23,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 24,
+            "observed": "X",
+            "proposed": "V"
+          },
+          {
+            "index": 25,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 32,
+            "observed": "X",
+            "proposed": "V"
+          },
+          {
+            "index": 39,
+            "observed": "X",
+            "proposed": "F"
+          },
+          {
+            "index": 43,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 44,
+            "observed": "D",
+            "proposed": "F"
+          },
+          {
+            "index": 70,
+            "observed": "F",
+            "proposed": "D"
+          },
+          {
+            "index": 78,
+            "observed": "X",
+            "proposed": "V"
+          },
+          {
+            "index": 81,
+            "observed": "V",
+            "proposed": "X"
+          },
+          {
+            "index": 83,
+            "observed": "X",
+            "proposed": "V"
+          },
+          {
+            "index": 95,
+            "observed": "X",
+            "proposed": "V"
+          },
+          {
+            "index": 97,
+            "observed": "V",
+            "proposed": "X"
+          },
+          {
+            "index": 100,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 115,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 126,
+            "observed": "G",
+            "proposed": "F"
+          },
+          {
+            "index": 162,
+            "observed": "G",
+            "proposed": "F"
+          },
+          {
+            "index": 172,
+            "observed": "A",
+            "proposed": "G"
+          },
+          {
+            "index": 186,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 216,
+            "observed": "G",
+            "proposed": "D"
+          },
+          {
+            "index": 224,
+            "observed": "G",
+            "proposed": "D"
+          }
+        ],
+        "count": 23
+      },
+      {
+        "source": "p109_D_after_Norbert18",
+        "known_coordinate_disagreements_with_candidate": [
+          {
+            "index": 2,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 6,
+            "observed": "A",
+            "proposed": "F"
+          },
+          {
+            "index": 9,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 22,
+            "observed": "D",
+            "proposed": "X"
+          },
+          {
+            "index": 27,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 46,
+            "observed": "G",
+            "proposed": "D"
+          },
+          {
+            "index": 53,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 57,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 77,
+            "observed": "A",
+            "proposed": "F"
+          },
+          {
+            "index": 80,
+            "observed": "X",
+            "proposed": "D"
+          },
+          {
+            "index": 82,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 83,
+            "observed": "D",
+            "proposed": "V"
+          },
+          {
+            "index": 90,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 101,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 146,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 172,
+            "observed": "A",
+            "proposed": "G"
+          },
+          {
+            "index": 176,
+            "observed": "G",
+            "proposed": "A"
+          },
+          {
+            "index": 198,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 200,
+            "observed": "G",
+            "proposed": "A"
+          },
+          {
+            "index": 201,
+            "observed": "A",
+            "proposed": "G"
+          },
+          {
+            "index": 203,
+            "observed": "G",
+            "proposed": "D"
+          },
+          {
+            "index": 204,
+            "observed": "D",
+            "proposed": "G"
+          },
+          {
+            "index": 207,
+            "observed": "G",
+            "proposed": "D"
+          }
+        ],
+        "count": 23
+      }
+    ],
+    "common_plaintext_model": {
+      "assumption": "Both witnesses are readings of one 124-position plaintext after the named earlier D repair; source timings and different endings are not independently resolved.",
+      "minimum_total_known_coordinate_substitutions": 42,
+      "readable_candidate_total_known_coordinate_substitutions": 46,
+      "positions_outside_minimum_cost_domains": [
+        {
+          "plaintext_index": 21,
+          "proposed": "A",
+          "minimum_cost_characters": "4M",
+          "extra_substitutions": 1
+        },
+        {
+          "plaintext_index": 26,
+          "proposed": "E",
+          "minimum_cost_characters": "0J",
+          "extra_substitutions": 2
+        },
+        {
+          "plaintext_index": 40,
+          "proposed": "E",
+          "minimum_cost_characters": "AV",
+          "extra_substitutions": 1
+        }
+      ],
+      "domains": [
+        {
+          "plaintext_index": 0,
+          "pair_B": "AG",
+          "pair_D": "AG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "O",
+          "readable_candidate_character": "O",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 1,
+          "pair_B": "DX",
+          "pair_D": "DX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "X",
+          "readable_candidate_character": "X",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 2,
+          "pair_B": "V?",
+          "pair_D": "VV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "K",
+          "readable_candidate_character": "K",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 3,
+          "pair_B": "DX",
+          "pair_D": "DX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "X",
+          "readable_candidate_character": "X",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 4,
+          "pair_B": "VD",
+          "pair_D": "VD",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "M",
+          "readable_candidate_character": "M",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 5,
+          "pair_B": "DX",
+          "pair_D": "DX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "X",
+          "readable_candidate_character": "X",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 6,
+          "pair_B": "XG",
+          "pair_D": "XG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "A",
+          "readable_candidate_character": "A",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 7,
+          "pair_B": "GV",
+          "pair_D": "GV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "B",
+          "readable_candidate_character": "B",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 8,
+          "pair_B": "VG",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 9,
+          "pair_B": "GG",
+          "pair_D": "DD",
+          "minimum_cost": 2,
+          "minimum_cost_characters": "8CNV",
+          "readable_candidate_character": "N",
+          "readable_candidate_cost": 2
+        },
+        {
+          "plaintext_index": 10,
+          "pair_B": "GA",
+          "pair_D": "GA",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "D",
+          "readable_candidate_character": "D",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 11,
+          "pair_B": "VD",
+          "pair_D": "VX",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "MP",
+          "readable_candidate_character": "M",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 12,
+          "pair_B": "V?",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 13,
+          "pair_B": "AF",
+          "pair_D": "AF",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "L",
+          "readable_candidate_character": "L",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 14,
+          "pair_B": "AA",
+          "pair_D": "AA",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "U",
+          "readable_candidate_character": "U",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 15,
+          "pair_B": "GG",
+          "pair_D": "GG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "N",
+          "readable_candidate_character": "N",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 16,
+          "pair_B": "FF",
+          "pair_D": "FF",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "G",
+          "readable_candidate_character": "G",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 17,
+          "pair_B": "DX",
+          "pair_D": "DX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "X",
+          "readable_candidate_character": "X",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 18,
+          "pair_B": "DV",
+          "pair_D": "DV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "S",
+          "readable_candidate_character": "S",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 19,
+          "pair_B": "XG",
+          "pair_D": "XD",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "4A",
+          "readable_candidate_character": "A",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 20,
+          "pair_B": "DG",
+          "pair_D": "DG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "V",
+          "readable_candidate_character": "V",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 21,
+          "pair_B": "V?",
+          "pair_D": "XD",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "4M",
+          "readable_candidate_character": "A",
+          "readable_candidate_cost": 2
+        },
+        {
+          "plaintext_index": 22,
+          "pair_B": "GX",
+          "pair_D": "DX",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "5X",
+          "readable_candidate_character": "X",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 23,
+          "pair_B": "AA",
+          "pair_D": "AA",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "U",
+          "readable_candidate_character": "U",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 24,
+          "pair_B": "VG",
+          "pair_D": "VD",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "EM",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 25,
+          "pair_B": "GV",
+          "pair_D": "GV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "B",
+          "readable_candidate_character": "B",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 26,
+          "pair_B": "FA",
+          "pair_D": "VA",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "0J",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 3
+        },
+        {
+          "plaintext_index": 27,
+          "pair_B": "DA",
+          "pair_D": "DA",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "R",
+          "readable_candidate_character": "R",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 28,
+          "pair_B": "FF",
+          "pair_D": "FF",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "G",
+          "readable_candidate_character": "G",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 29,
+          "pair_B": "XD",
+          "pair_D": "XG",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "4A",
+          "readable_candidate_character": "A",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 30,
+          "pair_B": "DG",
+          "pair_D": "GD",
+          "minimum_cost": 2,
+          "minimum_cost_characters": "8CNV",
+          "readable_candidate_character": "N",
+          "readable_candidate_cost": 2
+        },
+        {
+          "plaintext_index": 31,
+          "pair_B": "?F",
+          "pair_D": "FF",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "G",
+          "readable_candidate_character": "G",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 32,
+          "pair_B": "AF",
+          "pair_D": "AF",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "L",
+          "readable_candidate_character": "L",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 33,
+          "pair_B": "XG",
+          "pair_D": "VG",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "AE",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 34,
+          "pair_B": "GX",
+          "pair_D": "FX",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "5T",
+          "readable_candidate_character": "T",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 35,
+          "pair_B": "DF",
+          "pair_D": "DF",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "Z",
+          "readable_candidate_character": "Z",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 36,
+          "pair_B": "FX",
+          "pair_D": "FX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "T",
+          "readable_candidate_character": "T",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 37,
+          "pair_B": "VG",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 38,
+          "pair_B": "DA",
+          "pair_D": "DG",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "RV",
+          "readable_candidate_character": "R",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 39,
+          "pair_B": "DX",
+          "pair_D": "FX",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "TX",
+          "readable_candidate_character": "T",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 40,
+          "pair_B": "XG",
+          "pair_D": "DG",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "AV",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 2
+        },
+        {
+          "plaintext_index": 41,
+          "pair_B": "AF",
+          "pair_D": "AD",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "IL",
+          "readable_candidate_character": "I",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 42,
+          "pair_B": "AF",
+          "pair_D": "AF",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "L",
+          "readable_candidate_character": "L",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 43,
+          "pair_B": "VG",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 44,
+          "pair_B": "GV",
+          "pair_D": "GV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "B",
+          "readable_candidate_character": "B",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 45,
+          "pair_B": "VG",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 46,
+          "pair_B": "VG",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 47,
+          "pair_B": "GG",
+          "pair_D": "DG",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "NV",
+          "readable_candidate_character": "N",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 48,
+          "pair_B": "GA",
+          "pair_D": "AA",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "DU",
+          "readable_candidate_character": "D",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 49,
+          "pair_B": "VG",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 50,
+          "pair_B": "FX",
+          "pair_D": "FX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "T",
+          "readable_candidate_character": "T",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 51,
+          "pair_B": "DX",
+          "pair_D": "DX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "X",
+          "readable_candidate_character": "X",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 52,
+          "pair_B": "VF",
+          "pair_D": "XF",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "1H",
+          "readable_candidate_character": "1",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 53,
+          "pair_B": "GG",
+          "pair_D": "GF",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "NW",
+          "readable_candidate_character": "W",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 54,
+          "pair_B": "VG",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 55,
+          "pair_B": "AD",
+          "pair_D": "AD",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "I",
+          "readable_candidate_character": "I",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 56,
+          "pair_B": "FX",
+          "pair_D": "FX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "T",
+          "readable_candidate_character": "T",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 57,
+          "pair_B": "XG",
+          "pair_D": "VG",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "AE",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 58,
+          "pair_B": "DA",
+          "pair_D": "GA",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "DR",
+          "readable_candidate_character": "R",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 59,
+          "pair_B": "VG",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 60,
+          "pair_B": "AV",
+          "pair_D": "AV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "F",
+          "readable_candidate_character": "F",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 61,
+          "pair_B": "GA",
+          "pair_D": "GA",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "D",
+          "readable_candidate_character": "D",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 62,
+          "pair_B": "AF",
+          "pair_D": "AA",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "LU",
+          "readable_candidate_character": "L",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 63,
+          "pair_B": "DX",
+          "pair_D": "DX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "X",
+          "readable_candidate_character": "X",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 64,
+          "pair_B": "GA",
+          "pair_D": "GG",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "DN",
+          "readable_candidate_character": "D",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 65,
+          "pair_B": "A?",
+          "pair_D": "AD",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "I",
+          "readable_candidate_character": "I",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 66,
+          "pair_B": "DG",
+          "pair_D": "DG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "V",
+          "readable_candidate_character": "V",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 67,
+          "pair_B": "DX",
+          "pair_D": "GX",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "5X",
+          "readable_candidate_character": "X",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 68,
+          "pair_B": "AD",
+          "pair_D": "AD",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "I",
+          "readable_candidate_character": "I",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 69,
+          "pair_B": "VD",
+          "pair_D": "VD",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "M",
+          "readable_candidate_character": "M",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 70,
+          "pair_B": "VG",
+          "pair_D": "VD",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "EM",
+          "readable_candidate_character": "M",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 71,
+          "pair_B": "XG",
+          "pair_D": "XG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "A",
+          "readable_candidate_character": "A",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 72,
+          "pair_B": "DA",
+          "pair_D": "DA",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "R",
+          "readable_candidate_character": "R",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 73,
+          "pair_B": "DV",
+          "pair_D": "DV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "S",
+          "readable_candidate_character": "S",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 74,
+          "pair_B": "DD",
+          "pair_D": "DD",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "C",
+          "readable_candidate_character": "C",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 75,
+          "pair_B": "VF",
+          "pair_D": "VF",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "H",
+          "readable_candidate_character": "H",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 76,
+          "pair_B": "XG",
+          "pair_D": "XD",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "4A",
+          "readable_candidate_character": "A",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 77,
+          "pair_B": "AA",
+          "pair_D": "AA",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "U",
+          "readable_candidate_character": "U",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 78,
+          "pair_B": "AV",
+          "pair_D": "AV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "F",
+          "readable_candidate_character": "F",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 79,
+          "pair_B": "GV",
+          "pair_D": "GV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "B",
+          "readable_candidate_character": "B",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 80,
+          "pair_B": "VD",
+          "pair_D": "VG",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "EM",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 81,
+          "pair_B": "AF",
+          "pair_D": "AF",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "L",
+          "readable_candidate_character": "L",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 82,
+          "pair_B": "FG",
+          "pair_D": "FF",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "7G",
+          "readable_candidate_character": "G",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 83,
+          "pair_B": "DA",
+          "pair_D": "DA",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "R",
+          "readable_candidate_character": "R",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 84,
+          "pair_B": "XG",
+          "pair_D": "XG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "A",
+          "readable_candidate_character": "A",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 85,
+          "pair_B": "GA",
+          "pair_D": "GA",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "D",
+          "readable_candidate_character": "D",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 86,
+          "pair_B": "VG",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 87,
+          "pair_B": "DA",
+          "pair_D": "DA",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "R",
+          "readable_candidate_character": "R",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 88,
+          "pair_B": "VV",
+          "pair_D": "VV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "K",
+          "readable_candidate_character": "K",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 89,
+          "pair_B": "XG",
+          "pair_D": "XG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "A",
+          "readable_candidate_character": "A",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 90,
+          "pair_B": "GG",
+          "pair_D": "DG",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "NV",
+          "readable_candidate_character": "N",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 91,
+          "pair_B": "GG",
+          "pair_D": "DG",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "NV",
+          "readable_candidate_character": "N",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 92,
+          "pair_B": "FX",
+          "pair_D": "FD",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "2T",
+          "readable_candidate_character": "T",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 93,
+          "pair_B": "DX",
+          "pair_D": "DX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "X",
+          "readable_candidate_character": "X",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 94,
+          "pair_B": "DV",
+          "pair_D": "DV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "S",
+          "readable_candidate_character": "S",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 95,
+          "pair_B": "AG",
+          "pair_D": "AG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "O",
+          "readable_candidate_character": "O",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 96,
+          "pair_B": "GG",
+          "pair_D": "GG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "N",
+          "readable_candidate_character": "N",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 97,
+          "pair_B": "DV",
+          "pair_D": "DV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "S",
+          "readable_candidate_character": "S",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 98,
+          "pair_B": "FX",
+          "pair_D": "FX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "T",
+          "readable_candidate_character": "T",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 99,
+          "pair_B": "VV",
+          "pair_D": "VV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "K",
+          "readable_candidate_character": "K",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 100,
+          "pair_B": "VG",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 101,
+          "pair_B": "AD",
+          "pair_D": "AD",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "I",
+          "readable_candidate_character": "I",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 102,
+          "pair_B": "DG",
+          "pair_D": "GG",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "NV",
+          "readable_candidate_character": "N",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 103,
+          "pair_B": "VD",
+          "pair_D": "VG",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "EM",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 104,
+          "pair_B": "VG",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 105,
+          "pair_B": "DA",
+          "pair_D": "GA",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "DR",
+          "readable_candidate_character": "R",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 106,
+          "pair_B": "VG",
+          "pair_D": "VD",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "EM",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 107,
+          "pair_B": "AD",
+          "pair_D": "AD",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "I",
+          "readable_candidate_character": "I",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 108,
+          "pair_B": "FF",
+          "pair_D": "AF",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "GL",
+          "readable_candidate_character": "G",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 109,
+          "pair_B": "GG",
+          "pair_D": "GG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "N",
+          "readable_candidate_character": "N",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 110,
+          "pair_B": "AD",
+          "pair_D": "AD",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "I",
+          "readable_candidate_character": "I",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 111,
+          "pair_B": "DX",
+          "pair_D": "DV",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "SX",
+          "readable_candidate_character": "S",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 112,
+          "pair_B": "DV",
+          "pair_D": "DV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "S",
+          "readable_candidate_character": "S",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 113,
+          "pair_B": "VG",
+          "pair_D": "VG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "E",
+          "readable_candidate_character": "E",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 114,
+          "pair_B": "D?",
+          "pair_D": "DX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "X",
+          "readable_candidate_character": "X",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 115,
+          "pair_B": "DX",
+          "pair_D": "DX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "X",
+          "readable_candidate_character": "X",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 116,
+          "pair_B": "XG",
+          "pair_D": "XG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "A",
+          "readable_candidate_character": "A",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 117,
+          "pair_B": "DX",
+          "pair_D": "DV",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "SX",
+          "readable_candidate_character": "S",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 118,
+          "pair_B": "AG",
+          "pair_D": "AG",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "O",
+          "readable_candidate_character": "O",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 119,
+          "pair_B": "DX",
+          "pair_D": "DX",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "X",
+          "readable_candidate_character": "X",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 120,
+          "pair_B": "VV",
+          "pair_D": "VV",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "K",
+          "readable_candidate_character": "K",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 121,
+          "pair_B": "DX",
+          "pair_D": "GX",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "5X",
+          "readable_candidate_character": "5",
+          "readable_candidate_cost": 1
+        },
+        {
+          "plaintext_index": 122,
+          "pair_B": "XF",
+          "pair_D": "XF",
+          "minimum_cost": 0,
+          "minimum_cost_characters": "1",
+          "readable_candidate_character": "1",
+          "readable_candidate_cost": 0
+        },
+        {
+          "plaintext_index": 123,
+          "pair_B": "XX",
+          "pair_D": "XF",
+          "minimum_cost": 1,
+          "minimum_cost_characters": "16",
+          "readable_candidate_character": "1",
+          "readable_candidate_cost": 1
+        }
+      ],
+      "candidate_is_source_fixed": false
+    }
+  }
+}

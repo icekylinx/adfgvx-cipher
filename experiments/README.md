@@ -4,6 +4,9 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Additional source and attribution checks](source_followup/README.md) | p77/p134 contextual readings, p109 transcription, p132 prior credit, p186 suffix constraints | Source images reviewed; exact arithmetic and a complete nine-deletion suffix obstruction. |
+| [Source-guided recoveries](source_recovery/README.md) | p146 literal duplicate deletion; p109 same-page near-parallel | All retained p146 coordinates preserved; p109 editorial disagreements explicitly counted. |
+| [Editorial reading audit](editorial_review/README.md) | p109, p132, p146 same-length readable proposals | Full change maps; Norbert's 2017 VORHER interpretation retains priority. |
 | [Fixed-rank and dictionary searches](fixed_search/README.md) | 144 fixed-rank cases, 1,352 dictionary-selected cases, 136 p198 refinements; completed counts are timestamped in the ledger | Exact input layers, model hashes, warm starts, and legacy limitations are retained. All three case families are complete in the final snapshot. |
 | [Coordinate and geometry screen](fixed_search/README.md) | 20,666,880 evaluations across known squares, label permutations and readout conventions | A planted control ranks first; unchanged targets produce no accepted reading. |
 | [p153 recovered key and text](p153_recovery/README.md) | Blind candidate, complete lineage, nineteen-letter core square, raw and emended layers | Dates and numbers unassigned; twelve erasure fills and two explicit emendations for the proposed part-6 body. |

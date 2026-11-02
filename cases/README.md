@@ -28,9 +28,9 @@ The identifiers follow the original challenge's printed page numbers. `p187` and
 | [p73](p73.md) | Message routed to General von Kress | Open |
 | [p100](p100.md) | Enemy divisions approaching Belgrade | Earlier body reproduced after repairs |
 | [p105](p105.md) | Naval telegram acknowledgments | Earlier damaged body reproduced |
-| [p109](p109.md) | Evening report; likely Sava crossing | Earlier damaged body; new editorial interpretation |
-| [p132](p132.md) | Repeat-transmission instructions for Eilvese | Earlier sender-error model; new editorial interpretation |
-| [p146](p146.md) | Kerch radio call-sign instruction | Earlier damaged body; new editorial interpretation |
+| [p109](p109.md) | Evening report; likely Sava crossing | Earlier body; reviewed source parallel |
+| [p132](p132.md) | Repeat-transmission instructions for Eilvese | Earlier sender-error and wording proposals, audited |
+| [p146](p146.md) | Kerch radio call-sign instruction | Duplicate-group repair; 117/122 positions before filling |
 | [p152](p152.md) | Silk purchases and transport from the Caucasus | Body recovered through a fuller parallel source |
 | [p153a](p153a.md) | Earlier orders; action still to be completed | New partial reading |
 | [p153b](p153b.md) | Rearguard artillery ammunition report | New partial reading; conditional body |
@@ -62,6 +62,7 @@ These October 2026 readings were published by **Ayush Agarwal** and previously r
 
 | Record | What it contributes |
 |---|---|
+| [p77/p134 radio instructions](context/radio_instructions.md) | Independent call-sign and repeat-transmission formulas supporting p146 and p132. |
 | [p155 shipping message](context/p155.md) | Asgard and Tresivolus, troop pickup at Poti, and independently checked diary context; the route also appears in p73. |
 | [p164 A4 cavalry report](context/p164_A4.md) | A conditional dismounted-cavalry reading with all nine known-coordinate changes and thirteen fills explicit. |
 | [p185/p189 transport traffic](context/transport.md) | Seven source records, two near-parallel pairs, an 86/87-character composite transport order and the conditional p185 D gap model. |

@@ -12,6 +12,8 @@ A unified edition of the **22 German radio cryptograms** in Klaus Schmeh and Geo
 
 - **p153a / p153b: new substantial partial decipherment.** A shared 18-column key recovers 60 of 66 plaintext positions in part 5 and 33 of 54 raw positions in part 6. A coherent ammunition-report reconstruction requires twelve erasure fills and two explicit coordinate emendations; dates, numbers and trailing text remain unresolved.
 
+- **p146:** a literal duplicate-group repair preserves all 239 retained coordinates and fixes 117/122 plaintext positions before filling the missing group. The most likely text announces a new radio call sign.
+- **p109:** a newly reviewed same-page near-parallel supports a Sava-crossing report and an enemy division observed marching toward Belgrade; all remaining editorial changes are explicit.
 - **p152:** the damaged challenge fragment matches the fuller p136 transmission. The parallel recovers the body and continuation; every supplied or changed coordinate is recorded.
 - **p158:** the challenge combines portions of two separate messages. An exhaustive alignment identifies the split; repaired component copies decrypt and re-encrypt exactly.
 - **p189:** a clearer p185 near-parallel supports a conditional partial reading. All ten optimal source-preserving alignments are retained.
@@ -26,9 +28,9 @@ All current source reviews, arithmetic audits, and new editorial work are by **i
 | [p73](cases/p73.md) | Open | — |
 | [p100](cases/p100.md) | Prior body reading; source audit | Armin (2017 comment author) |
 | [p105](cases/p105.md) | Prior body reading; source audit | Norbert (2017 comment author) |
-| [p109](cases/p109.md) | Prior body reading; source audit | Norbert (2017 comment author) |
+| [p109](cases/p109.md) | Prior body; new source parallel | Norbert (2017 comment author) |
 | [p132](cases/p132.md) | Prior body reading; source audit | Thomas (fragment), Norbert (body) |
-| [p146](cases/p146.md) | Prior body reading; source audit | Norbert (2017 comment author) |
+| [p146](cases/p146.md) | Prior body; duplicate-group repair | Norbert (2017 comment author) |
 | [p152](cases/p152.md) | Source-linked body | icekylinx and GPT-6 Astra Pro (2026) |
 | [p153a](cases/p153a.md) | New partial: 60/66 ordinary-letter positions | icekylinx and GPT-6 Astra Pro (2026) |
 | [p153b](cases/p153b.md) | New raw partial; conditional 42-letter body | icekylinx and GPT-6 Astra Pro (2026) |
@@ -64,9 +66,11 @@ The October 2026 readings below were first submitted by **Ayush Agarwal** and re
 
 The [p155 Kress-route shipping message](cases/context/p155.md) adds two source-checked parts. Its Asgard/Tresivolus context is independently corroborated in a contemporary diary; it does not determine p73's date or key.
 
+[The p77 and p134 radio instructions](cases/context/radio_instructions.md) add source-checked call-sign and repeat-transmission context for p146 and p132.
+
 ## Review coverage
 
-The [review ledger](data/review_ledger.json) currently records **68 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
+The [review ledger](data/review_ledger.json) currently records **75 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
 
 A September 2026 mass-solution claim is retained with its [reproducibility assessment](data/reviews/unsupported_claim_checks.json) and **Jozef Krajcovic's earlier critique**. Its published constants and selected substrings do not provide a reproducible full reading; no target is marked solved on that basis.
 
@@ -92,7 +96,7 @@ The [experiment index](experiments/README.md) records completed search bounds, p
 | `cases/` | Readings, qualifications, original credits, and source links |
 | `data/messages.json` | All 22 source records, legacy transcriptions, and conservative analysis layers |
 | `data/keys.json` | 25 historical, comparison, reported, or newly recovered partial keys; provenance and unknown cells retained |
-| `data/prior_readings.json` | 34 attributed earlier readings/fragments and 25 recomputed repair variants |
+| `data/prior_readings.json` | 35 attributed earlier readings/fragments and 25 recomputed repair variants |
 | `data/supplementary_readings.json` | Three October 2026 readings and their primary-source corrections |
 | `data/review_ledger.json` | Claim-by-claim findings, earlier criticism, and exact attribution |
 | `data/certificates/` | Machine-readable source, edit, and plaintext evidence |
