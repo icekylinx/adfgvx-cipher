@@ -1,0 +1,2301 @@
+{
+  "schema": "adfgvx-late-key-propagation-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "indexing": "Zero-based plaintext and source indices; null is an earlier inserted gap.",
+  "dependency_sha256": {
+    "data/certificates/p215.json": "cf69f9d4c41d492732ba04267676faeacf45fc751ce242a4d9f185e26fa21abc",
+    "experiments/operational_recovery/inputs.json": "32d9098d4c9f3451fce6b380754525d4cfb850f41afafa462d679fac8f12acfe",
+    "experiments/open_targets_continuation/inputs.json": "3e725d540949ed1b654d15d5e9282e49acf6ba2029443fbead7e606ffed9a1d8",
+    "experiments/corpus_extension/certificates.json": "dc852929f04f8662cd7893d0d0faa0480fc40ae2253a34a7de43f5c33512376c"
+  },
+  "conditional_squares": {
+    "Nov22-24": [
+      {
+        "id": "historical_digits",
+        "square": "?NZ?6XS?C?I21?RBEKL?FD?GMTHUVWA?O?P?",
+        "assignments": {
+          "Y": "1",
+          "J": "2",
+          "2": "6"
+        },
+        "remaining_symbols": "0345789JQY"
+      }
+    ],
+    "Nov28-Dec1": [
+      {
+        "id": "historical_digits",
+        "square": "?63GP?9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+        "assignments": {
+          "X": "1",
+          "J": "2",
+          "8": "6",
+          "4": "8",
+          "5": "9",
+          "2": "3"
+        },
+        "remaining_symbols": "0457JQXY"
+      },
+      {
+        "id": "separator_convention",
+        "square": "?63GPX9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+        "assignments": {
+          "X": "1",
+          "J": "2",
+          "8": "6",
+          "4": "8",
+          "5": "9",
+          "2": "3",
+          "Y": "X"
+        },
+        "remaining_symbols": "0457JQY"
+      },
+      {
+        "id": "lexical_y",
+        "square": "Y63GPX9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+        "assignments": {
+          "X": "1",
+          "J": "2",
+          "8": "6",
+          "4": "8",
+          "5": "9",
+          "2": "3",
+          "Y": "X",
+          "7": "Y"
+        },
+        "remaining_symbols": "0457JQ"
+      },
+      {
+        "id": "lexical_q",
+        "square": "Y63GPX9OQHF??UDNI??8TLV1EAR?2ZBKMCSW",
+        "assignments": {
+          "X": "1",
+          "J": "2",
+          "8": "6",
+          "4": "8",
+          "5": "9",
+          "2": "3",
+          "Y": "X",
+          "7": "Y",
+          "Q": "Q"
+        },
+        "remaining_symbols": "0457J"
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "p215_norbert32",
+      "key_id": "Nov22-24",
+      "interpretation": "Norbert 2017 two-gap geometry; no new source repair",
+      "source_coordinate_edits": [],
+      "baseline": "ABSXMI?I5XNA6M?LD?XS4NXS4?XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXN??OHLXKOR1S??OSCHX3Y52",
+      "interpretations": [
+        {
+          "layer": "historical_digits",
+          "square": "?NZ?6XS?C?I21?RBEKL?FD?GMTHUVWA?O?P?",
+          "conditional_plaintext": "ABSXMI?I?XNA?M?LD?XS?NXS??XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXN??OHLXKOR?S??OSCHX?1?6",
+          "fixed_positions": 102,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 126,
+              "pair": "FA",
+              "source_indices": [
+                87,
+                110
+              ],
+              "domain": "1",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 128,
+              "pair": "AV",
+              "source_indices": [
+                146,
+                235
+              ],
+              "domain": "6",
+              "baseline_label": "2"
+            }
+          ],
+          "witness": {
+            "square": "0NZ36XS4C5I217RBEKL8FD9GMTHUVWAJOQPY",
+            "filled_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDAFAAAAAAADDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVAFAAGDDAFGGADVFFDXAAAVDFAAAXXADGFFDFFXAAAAAAAVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+            "plaintext": "ABSXMI0IJXNA9M1LDXXS4NXS40XNZRZDAKERMSCZXBRINGTENT6N3EFLHTTEZWO0IVI0IONENXNEUSRELAEND6RXENGLXUXFZATZXXMITXNZ3OHLXKORYSNXOSCHX71J6",
+            "is_proposed_historical_reading": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "p214_B",
+      "key_id": "Nov22-24",
+      "interpretation": "Unchanged source; earlier quotation repairs are not applied here",
+      "source_coordinate_edits": [],
+      "baseline": "ANOKMXHIEREINGINGFOLGENDERFUNKSPRUCHX?ERBI3TENUM?EHEN?NACHRICHTOBGERUECHT?OMANMARSCHMACKENSENSAUFWARACHAUWAHRXSOLDATENRATWARSCHA8XXAOKYYXRMYAQY?5X",
+      "interpretations": [
+        {
+          "layer": "historical_digits",
+          "square": "?NZ?6XS?C?I21?RBEKL?FD?GMTHUVWA?O?P?",
+          "conditional_plaintext": "ANOKMXHIEREINGINGFOLGENDERFUNKSPRUCHX?ERBI?TENUM?EHEN?NACHRICHTOBGERUECHT?OMANMARSCHMACKENSENSAUFWARACHAUWAHRXSOLDATENRATWARSCHA?XXAOK11XRM1A?1??X",
+          "fixed_positions": 137,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 134,
+              "pair": "FA",
+              "source_indices": [
+                184,
+                290
+              ],
+              "domain": "1",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 135,
+              "pair": "FA",
+              "source_indices": [
+                144,
+                238
+              ],
+              "domain": "1",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 139,
+              "pair": "FA",
+              "source_indices": [
+                171,
+                277
+              ],
+              "domain": "1",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 142,
+              "pair": "FA",
+              "source_indices": [
+                118,
+                51
+              ],
+              "domain": "1",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "0NZ36XS4C5I217RBEKL8FD9GMTHUVWAJOQPY",
+            "filled_ciphertext": "VAGAADDDAXXDAFFDFFFDFAXVAAFGDDAXXXGVFAXVVFDDXAXAXDAAFXVDAGAFXFAXAXDAVFXFAFFDVXADDGFDFFADAFAXDAGVFFDVDDVVVFFFFVAGXFXAVXFXXGVVFFFAGDFFFDFAVFFFFVGDFAVDGVAVDVFAXFGDXFFFVAVVXAXFXGFVVVVXDDGFFAADFXXVFADAAFXAAGDADFVAXXXFXVAAVDFFAFFFXAXVFXAFVFVFGAAFGXFGFVDVFXAAVGAFVVVVXVFXVVFXGVDVAGADGAFXVFGFGAAFAFAX",
+            "plaintext": "ANOKMXHIEREINGINGFOLGENDERFUNKSPRUCHXXERBI7TENUMXEHENLNACHRICHTOBGERUECHT6OMANMARSCHMACKENSENSAUFWARACHAUWAHRXSOLDATENRATWARSCHAQXXAOK11XRM1A013JX",
+            "is_proposed_historical_reading": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "p226_B2_raw",
+      "key_id": "Nov28-Dec1",
+      "interpretation": "Unchanged source",
+      "source_coordinate_edits": [],
+      "baseline": "ZAHLENREIHENVONRUECKWAERTSGELESENYSODASSXYXSZ8HLEN3Y5Y9YX5YX0YUYSYWYYBENUTZENSIEGLEICHESMITUNFYANTWORTYY",
+      "interpretations": [
+        {
+          "layer": "historical_digits",
+          "square": "?63GP?9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESEN?SODASS1?1SZ6HLEN??9???19?1??U?S?W??BENUTZENSIEGLEICHESMITUNF?ANTWORT??",
+          "fixed_positions": 87,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 40,
+              "pair": "GX",
+              "source_indices": [
+                109,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 42,
+              "pair": "GX",
+              "source_indices": [
+                18,
+                96
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 45,
+              "pair": "AD",
+              "source_indices": [
+                57,
+                161
+              ],
+              "domain": "6",
+              "baseline_label": "8"
+            },
+            {
+              "plaintext_index": 52,
+              "pair": "DA",
+              "source_indices": [
+                201,
+                136
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 56,
+              "pair": "GX",
+              "source_indices": [
+                111,
+                33
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 57,
+              "pair": "DA",
+              "source_indices": [
+                176,
+                124
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 59,
+              "pair": "GX",
+              "source_indices": [
+                189,
+                46
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            }
+          ],
+          "witness": {
+            "square": "063GP49O5HF7JUDNIQX8TLV1EARY2ZBKMCSW",
+            "filled_ciphertext": "VVVVXGAAFVXVADVXAXGFAXVVGXXVDFGXAXVDGFGGGDADVXXXAVDDFDVVVAAAXXDDGVFVXXDDFVFVAAAFFAVGXXGAVDXGAGGVXXXXXAFXVFFGFGVGXFAXFDGAVXXGAXFGVFAVXGFXAGXGGGFFGAVVGXDAVAXXGDDADDXXAVGVFVDVXAAFDAGGFGGFXVDXAGAVFFDVGXGFVDVAFXFV",
+            "plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESEN4SODASS141SZ6HLENQ494741941Y4U4S4W44BENUTZENSIEGLEICHESMITUNF4ANTWORT44",
+            "is_proposed_historical_reading": false
+          }
+        },
+        {
+          "layer": "separator_convention",
+          "square": "?63GPX9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENXSODASS1X1SZ6HLEN?X9X?X19X1?XUXSXWXXBENUTZENSIEGLEICHESMITUNFXANTWORTXX",
+          "fixed_positions": 101,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 33,
+              "pair": "AX",
+              "source_indices": [
+                173,
+                121
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 40,
+              "pair": "GX",
+              "source_indices": [
+                109,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 41,
+              "pair": "AX",
+              "source_indices": [
+                174,
+                122
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 42,
+              "pair": "GX",
+              "source_indices": [
+                18,
+                96
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 45,
+              "pair": "AD",
+              "source_indices": [
+                57,
+                161
+              ],
+              "domain": "6",
+              "baseline_label": "8"
+            },
+            {
+              "plaintext_index": 51,
+              "pair": "AX",
+              "source_indices": [
+                188,
+                45
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 52,
+              "pair": "DA",
+              "source_indices": [
+                201,
+                136
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 53,
+              "pair": "AX",
+              "source_indices": [
+                58,
+                162
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 55,
+              "pair": "AX",
+              "source_indices": [
+                6,
+                84
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 56,
+              "pair": "GX",
+              "source_indices": [
+                111,
+                33
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 57,
+              "pair": "DA",
+              "source_indices": [
+                176,
+                124
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 58,
+              "pair": "AX",
+              "source_indices": [
+                20,
+                98
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 59,
+              "pair": "GX",
+              "source_indices": [
+                189,
+                46
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 61,
+              "pair": "AX",
+              "source_indices": [
+                59,
+                163
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 63,
+              "pair": "AX",
+              "source_indices": [
+                7,
+                85
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 65,
+              "pair": "AX",
+              "source_indices": [
+                177,
+                125
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 67,
+              "pair": "AX",
+              "source_indices": [
+                190,
+                47
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 68,
+              "pair": "AX",
+              "source_indices": [
+                203,
+                138
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 94,
+              "pair": "AX",
+              "source_indices": [
+                76,
+                154
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 102,
+              "pair": "AX",
+              "source_indices": [
+                77,
+                155
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 103,
+              "pair": "AX",
+              "source_indices": [
+                12,
+                90
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "063GPX9O4HF57UDNIJQ8TLV1EARY2ZBKMCSW",
+            "filled_ciphertext": "VVVVXGAAFVXVADVXAXGFAXVVGXXVDFGXAXVDGFGGGDADVXXXAVDDFDVVVAAAXXDDGVFVXXDDFVFVAAAFFAVGXXGAVDXGAGGVXXXXXAFXVFFGFGVGXFAXFDGAVXXGAXFGVFAVXGFXAGXGGGFFGAVVGXDAVAXXGDDADDXXAVGVFVDVXAAFDAGGFGGFXVDXAGAVFFDVGXGFVDVAFXFV",
+            "plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENXSODASS1X1SZ6HLENJX9X5X19X1YXUXSXWXXBENUTZENSIEGLEICHESMITUNFXANTWORTXX",
+            "is_proposed_historical_reading": false
+          }
+        },
+        {
+          "layer": "lexical_y",
+          "square": "Y63GPX9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENXSODASS1X1SZ6HLEN?X9X?X19X1?XUXSXWXXBENUTZENSIEGLEICHESMITUNFXANTWORTXX",
+          "fixed_positions": 101,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 33,
+              "pair": "AX",
+              "source_indices": [
+                173,
+                121
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 40,
+              "pair": "GX",
+              "source_indices": [
+                109,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 41,
+              "pair": "AX",
+              "source_indices": [
+                174,
+                122
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 42,
+              "pair": "GX",
+              "source_indices": [
+                18,
+                96
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 45,
+              "pair": "AD",
+              "source_indices": [
+                57,
+                161
+              ],
+              "domain": "6",
+              "baseline_label": "8"
+            },
+            {
+              "plaintext_index": 51,
+              "pair": "AX",
+              "source_indices": [
+                188,
+                45
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 52,
+              "pair": "DA",
+              "source_indices": [
+                201,
+                136
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 53,
+              "pair": "AX",
+              "source_indices": [
+                58,
+                162
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 55,
+              "pair": "AX",
+              "source_indices": [
+                6,
+                84
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 56,
+              "pair": "GX",
+              "source_indices": [
+                111,
+                33
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 57,
+              "pair": "DA",
+              "source_indices": [
+                176,
+                124
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 58,
+              "pair": "AX",
+              "source_indices": [
+                20,
+                98
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 59,
+              "pair": "GX",
+              "source_indices": [
+                189,
+                46
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 61,
+              "pair": "AX",
+              "source_indices": [
+                59,
+                163
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 63,
+              "pair": "AX",
+              "source_indices": [
+                7,
+                85
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 65,
+              "pair": "AX",
+              "source_indices": [
+                177,
+                125
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 67,
+              "pair": "AX",
+              "source_indices": [
+                190,
+                47
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 68,
+              "pair": "AX",
+              "source_indices": [
+                203,
+                138
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 94,
+              "pair": "AX",
+              "source_indices": [
+                76,
+                154
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 102,
+              "pair": "AX",
+              "source_indices": [
+                77,
+                155
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 103,
+              "pair": "AX",
+              "source_indices": [
+                12,
+                90
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "Y63GPX9O0HF45UDNI7J8TLV1EARQ2ZBKMCSW",
+            "filled_ciphertext": "VVVVXGAAFVXVADVXAXGFAXVVGXXVDFGXAXVDGFGGGDADVXXXAVDDFDVVVAAAXXDDGVFVXXDDFVFVAAAFFAVGXXGAVDXGAGGVXXXXXAFXVFFGFGVGXFAXFDGAVXXGAXFGVFAVXGFXAGXGGGFFGAVVGXDAVAXXGDDADDXXAVGVFVDVXAAFDAGGFGGFXVDXAGAVFFDVGXGFVDVAFXFV",
+            "plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENXSODASS1X1SZ6HLEN7X9X4X19X1QXUXSXWXXBENUTZENSIEGLEICHESMITUNFXANTWORTXX",
+            "is_proposed_historical_reading": false
+          }
+        },
+        {
+          "layer": "lexical_q",
+          "square": "Y63GPX9OQHF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENXSODASS1X1SZ6HLEN?X9X?X19X1?XUXSXWXXBENUTZENSIEGLEICHESMITUNFXANTWORTXX",
+          "fixed_positions": 101,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 33,
+              "pair": "AX",
+              "source_indices": [
+                173,
+                121
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 40,
+              "pair": "GX",
+              "source_indices": [
+                109,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 41,
+              "pair": "AX",
+              "source_indices": [
+                174,
+                122
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 42,
+              "pair": "GX",
+              "source_indices": [
+                18,
+                96
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 45,
+              "pair": "AD",
+              "source_indices": [
+                57,
+                161
+              ],
+              "domain": "6",
+              "baseline_label": "8"
+            },
+            {
+              "plaintext_index": 51,
+              "pair": "AX",
+              "source_indices": [
+                188,
+                45
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 52,
+              "pair": "DA",
+              "source_indices": [
+                201,
+                136
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 53,
+              "pair": "AX",
+              "source_indices": [
+                58,
+                162
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 55,
+              "pair": "AX",
+              "source_indices": [
+                6,
+                84
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 56,
+              "pair": "GX",
+              "source_indices": [
+                111,
+                33
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 57,
+              "pair": "DA",
+              "source_indices": [
+                176,
+                124
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 58,
+              "pair": "AX",
+              "source_indices": [
+                20,
+                98
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 59,
+              "pair": "GX",
+              "source_indices": [
+                189,
+                46
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 61,
+              "pair": "AX",
+              "source_indices": [
+                59,
+                163
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 63,
+              "pair": "AX",
+              "source_indices": [
+                7,
+                85
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 65,
+              "pair": "AX",
+              "source_indices": [
+                177,
+                125
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 67,
+              "pair": "AX",
+              "source_indices": [
+                190,
+                47
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 68,
+              "pair": "AX",
+              "source_indices": [
+                203,
+                138
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 94,
+              "pair": "AX",
+              "source_indices": [
+                76,
+                154
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 102,
+              "pair": "AX",
+              "source_indices": [
+                77,
+                155
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 103,
+              "pair": "AX",
+              "source_indices": [
+                12,
+                90
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "Y63GPX9OQHF04UDNI578TLV1EARJ2ZBKMCSW",
+            "filled_ciphertext": "VVVVXGAAFVXVADVXAXGFAXVVGXXVDFGXAXVDGFGGGDADVXXXAVDDFDVVVAAAXXDDGVFVXXDDFVFVAAAFFAVGXXGAVDXGAGGVXXXXXAFXVFFGFGVGXFAXFDGAVXXGAXFGVFAVXGFXAGXGGGFFGAVVGXDAVAXXGDDADDXXAVGVFVDVXAAFDAGGFGGFXVDXAGAVFFDVGXGFVDVAFXFV",
+            "plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENXSODASS1X1SZ6HLEN5X9X0X19X1JXUXSXWXXBENUTZENSIEGLEICHESMITUNFXANTWORTXX",
+            "is_proposed_historical_reading": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "p226_B2_earlier_word_repairs",
+      "key_id": "Nov28-Dec1",
+      "interpretation": "Only the previously certified ordinary-word repairs",
+      "source_coordinate_edits": [
+        {
+          "source_index": 57,
+          "before": "A",
+          "after": "V"
+        },
+        {
+          "source_index": 63,
+          "before": "D",
+          "after": "X"
+        }
+      ],
+      "baseline": "ZAHLENREIHENVONRUECKWAERTSGELESENYSODASSXYXSZAHLEN3Y5Y9YX5YX0YUYSYWYYBENUTZENSIEGLEICHESMITUNSYANTWORTYY",
+      "interpretations": [
+        {
+          "layer": "historical_digits",
+          "square": "?63GP?9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESEN?SODASS1?1SZAHLEN??9???19?1??U?S?W??BENUTZENSIEGLEICHESMITUNS?ANTWORT??",
+          "fixed_positions": 87,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 40,
+              "pair": "GX",
+              "source_indices": [
+                109,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 42,
+              "pair": "GX",
+              "source_indices": [
+                18,
+                96
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 52,
+              "pair": "DA",
+              "source_indices": [
+                201,
+                136
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 56,
+              "pair": "GX",
+              "source_indices": [
+                111,
+                33
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 57,
+              "pair": "DA",
+              "source_indices": [
+                176,
+                124
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 59,
+              "pair": "GX",
+              "source_indices": [
+                189,
+                46
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            }
+          ],
+          "witness": {
+            "square": "063GP49O5HF7JUDNIQX8TLV1EARY2ZBKMCSW",
+            "filled_ciphertext": "VVVVXGAAFVXVADVXAXGFAXVVGXXVDFGXAXVDGFGGGDADVXXXAVDDFDVVVVAAXXDXGVFVXXDDFVFVAAAFFAVGXXGAVDXGAGGVXXXXXAFXVFFGFGVGXFAXFDGAVXXGAXFGVFAVXGFXAGXGGGFFGAVVGXDAVAXXGDDADDXXAVGVFVDVXAAFDAGGFGGFXVDXAGAVFFDVGXGFVDVAFXFV",
+            "plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESEN4SODASS141SZAHLENQ494741941Y4U4S4W44BENUTZENSIEGLEICHESMITUNS4ANTWORT44",
+            "is_proposed_historical_reading": false
+          }
+        },
+        {
+          "layer": "separator_convention",
+          "square": "?63GPX9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENXSODASS1X1SZAHLEN?X9X?X19X1?XUXSXWXXBENUTZENSIEGLEICHESMITUNSXANTWORTXX",
+          "fixed_positions": 101,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 33,
+              "pair": "AX",
+              "source_indices": [
+                173,
+                121
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 40,
+              "pair": "GX",
+              "source_indices": [
+                109,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 41,
+              "pair": "AX",
+              "source_indices": [
+                174,
+                122
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 42,
+              "pair": "GX",
+              "source_indices": [
+                18,
+                96
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 51,
+              "pair": "AX",
+              "source_indices": [
+                188,
+                45
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 52,
+              "pair": "DA",
+              "source_indices": [
+                201,
+                136
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 53,
+              "pair": "AX",
+              "source_indices": [
+                58,
+                162
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 55,
+              "pair": "AX",
+              "source_indices": [
+                6,
+                84
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 56,
+              "pair": "GX",
+              "source_indices": [
+                111,
+                33
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 57,
+              "pair": "DA",
+              "source_indices": [
+                176,
+                124
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 58,
+              "pair": "AX",
+              "source_indices": [
+                20,
+                98
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 59,
+              "pair": "GX",
+              "source_indices": [
+                189,
+                46
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 61,
+              "pair": "AX",
+              "source_indices": [
+                59,
+                163
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 63,
+              "pair": "AX",
+              "source_indices": [
+                7,
+                85
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 65,
+              "pair": "AX",
+              "source_indices": [
+                177,
+                125
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 67,
+              "pair": "AX",
+              "source_indices": [
+                190,
+                47
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 68,
+              "pair": "AX",
+              "source_indices": [
+                203,
+                138
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 94,
+              "pair": "AX",
+              "source_indices": [
+                76,
+                154
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 102,
+              "pair": "AX",
+              "source_indices": [
+                77,
+                155
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 103,
+              "pair": "AX",
+              "source_indices": [
+                12,
+                90
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "063GPX9O4HF57UDNIJQ8TLV1EARY2ZBKMCSW",
+            "filled_ciphertext": "VVVVXGAAFVXVADVXAXGFAXVVGXXVDFGXAXVDGFGGGDADVXXXAVDDFDVVVVAAXXDXGVFVXXDDFVFVAAAFFAVGXXGAVDXGAGGVXXXXXAFXVFFGFGVGXFAXFDGAVXXGAXFGVFAVXGFXAGXGGGFFGAVVGXDAVAXXGDDADDXXAVGVFVDVXAAFDAGGFGGFXVDXAGAVFFDVGXGFVDVAFXFV",
+            "plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENXSODASS1X1SZAHLENJX9X5X19X1YXUXSXWXXBENUTZENSIEGLEICHESMITUNSXANTWORTXX",
+            "is_proposed_historical_reading": false
+          }
+        },
+        {
+          "layer": "lexical_y",
+          "square": "Y63GPX9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENXSODASS1X1SZAHLEN?X9X?X19X1?XUXSXWXXBENUTZENSIEGLEICHESMITUNSXANTWORTXX",
+          "fixed_positions": 101,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 33,
+              "pair": "AX",
+              "source_indices": [
+                173,
+                121
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 40,
+              "pair": "GX",
+              "source_indices": [
+                109,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 41,
+              "pair": "AX",
+              "source_indices": [
+                174,
+                122
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 42,
+              "pair": "GX",
+              "source_indices": [
+                18,
+                96
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 51,
+              "pair": "AX",
+              "source_indices": [
+                188,
+                45
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 52,
+              "pair": "DA",
+              "source_indices": [
+                201,
+                136
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 53,
+              "pair": "AX",
+              "source_indices": [
+                58,
+                162
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 55,
+              "pair": "AX",
+              "source_indices": [
+                6,
+                84
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 56,
+              "pair": "GX",
+              "source_indices": [
+                111,
+                33
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 57,
+              "pair": "DA",
+              "source_indices": [
+                176,
+                124
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 58,
+              "pair": "AX",
+              "source_indices": [
+                20,
+                98
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 59,
+              "pair": "GX",
+              "source_indices": [
+                189,
+                46
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 61,
+              "pair": "AX",
+              "source_indices": [
+                59,
+                163
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 63,
+              "pair": "AX",
+              "source_indices": [
+                7,
+                85
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 65,
+              "pair": "AX",
+              "source_indices": [
+                177,
+                125
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 67,
+              "pair": "AX",
+              "source_indices": [
+                190,
+                47
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 68,
+              "pair": "AX",
+              "source_indices": [
+                203,
+                138
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 94,
+              "pair": "AX",
+              "source_indices": [
+                76,
+                154
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 102,
+              "pair": "AX",
+              "source_indices": [
+                77,
+                155
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 103,
+              "pair": "AX",
+              "source_indices": [
+                12,
+                90
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "Y63GPX9O0HF45UDNI7J8TLV1EARQ2ZBKMCSW",
+            "filled_ciphertext": "VVVVXGAAFVXVADVXAXGFAXVVGXXVDFGXAXVDGFGGGDADVXXXAVDDFDVVVVAAXXDXGVFVXXDDFVFVAAAFFAVGXXGAVDXGAGGVXXXXXAFXVFFGFGVGXFAXFDGAVXXGAXFGVFAVXGFXAGXGGGFFGAVVGXDAVAXXGDDADDXXAVGVFVDVXAAFDAGGFGGFXVDXAGAVFFDVGXGFVDVAFXFV",
+            "plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENXSODASS1X1SZAHLEN7X9X4X19X1QXUXSXWXXBENUTZENSIEGLEICHESMITUNSXANTWORTXX",
+            "is_proposed_historical_reading": false
+          }
+        },
+        {
+          "layer": "lexical_q",
+          "square": "Y63GPX9OQHF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENXSODASS1X1SZAHLEN?X9X?X19X1?XUXSXWXXBENUTZENSIEGLEICHESMITUNSXANTWORTXX",
+          "fixed_positions": 101,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 33,
+              "pair": "AX",
+              "source_indices": [
+                173,
+                121
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 40,
+              "pair": "GX",
+              "source_indices": [
+                109,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 41,
+              "pair": "AX",
+              "source_indices": [
+                174,
+                122
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 42,
+              "pair": "GX",
+              "source_indices": [
+                18,
+                96
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 51,
+              "pair": "AX",
+              "source_indices": [
+                188,
+                45
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 52,
+              "pair": "DA",
+              "source_indices": [
+                201,
+                136
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 53,
+              "pair": "AX",
+              "source_indices": [
+                58,
+                162
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 55,
+              "pair": "AX",
+              "source_indices": [
+                6,
+                84
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 56,
+              "pair": "GX",
+              "source_indices": [
+                111,
+                33
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 57,
+              "pair": "DA",
+              "source_indices": [
+                176,
+                124
+              ],
+              "domain": "9",
+              "baseline_label": "5"
+            },
+            {
+              "plaintext_index": 58,
+              "pair": "AX",
+              "source_indices": [
+                20,
+                98
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 59,
+              "pair": "GX",
+              "source_indices": [
+                189,
+                46
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 61,
+              "pair": "AX",
+              "source_indices": [
+                59,
+                163
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 63,
+              "pair": "AX",
+              "source_indices": [
+                7,
+                85
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 65,
+              "pair": "AX",
+              "source_indices": [
+                177,
+                125
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 67,
+              "pair": "AX",
+              "source_indices": [
+                190,
+                47
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 68,
+              "pair": "AX",
+              "source_indices": [
+                203,
+                138
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 94,
+              "pair": "AX",
+              "source_indices": [
+                76,
+                154
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 102,
+              "pair": "AX",
+              "source_indices": [
+                77,
+                155
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 103,
+              "pair": "AX",
+              "source_indices": [
+                12,
+                90
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "Y63GPX9OQHF04UDNI578TLV1EARJ2ZBKMCSW",
+            "filled_ciphertext": "VVVVXGAAFVXVADVXAXGFAXVVGXXVDFGXAXVDGFGGGDADVXXXAVDDFDVVVVAAXXDXGVFVXXDDFVFVAAAFFAVGXXGAVDXGAGGVXXXXXAFXVFFGFGVGXFAXFDGAVXXGAXFGVFAVXGFXAGXGGGFFGAVVGXDAVAXXGDDADDXXAVGVFVDVXAAFDAGGFGGFXVDXAGAVFFDVGXGFVDVAFXFV",
+            "plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENXSODASS1X1SZAHLEN5X9X0X19X1JXUXSXWXXBENUTZENSIEGLEICHESMITUNSXANTWORTXX",
+            "is_proposed_historical_reading": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "p227_B_raw",
+      "key_id": "Nov28-Dec1",
+      "interpretation": "Unchanged source",
+      "source_coordinate_edits": [],
+      "baseline": "BITTEFUNKSPRUECHEANXXYARMEEUNDUNTERSTEL6TEFORMATIONENUNMITTELBARANZOENGEBENY",
+      "interpretations": [
+        {
+          "layer": "historical_digits",
+          "square": "?63GP?9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "BITTEFUNKSPRUECHEAN11?ARMEEUNDUNTERSTEL?TEFORMATIONENUNMITTELBARANZOENGEBEN?",
+          "fixed_positions": 73,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 19,
+              "pair": "GX",
+              "source_indices": [
+                135,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 20,
+              "pair": "GX",
+              "source_indices": [
+                145,
+                98
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            }
+          ],
+          "witness": {
+            "square": "063GP49O5HF7JUDNIQX8TLV1EARY2ZBKMCSW",
+            "filled_ciphertext": "FDVFGGXVVGAFVVDFGVFADAFFFVVDAFFXDVDAADXDVAFVXFXFFXVFGVFVAGGFGAFFFAFVGAFVGFXGXXVXGGFFVXVVDAAADFGAADXGFFGGADGDDGDGDGVAXFAFDAGFXVVVVDGFVGVGFXDVVDAVFGFGVFGV",
+            "plaintext": "BITTEFUNKSPRUECHEAN114ARMEEUNDUNTERSTELXTEFORMATIONENUNMITTELBARANZOENGEBEN4",
+            "is_proposed_historical_reading": false
+          }
+        },
+        {
+          "layer": "separator_convention",
+          "square": "?63GPX9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "BITTEFUNKSPRUECHEAN11XARMEEUNDUNTERSTEL?TEFORMATIONENUNMITTELBARANZOENGEBENX",
+          "fixed_positions": 75,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 19,
+              "pair": "GX",
+              "source_indices": [
+                135,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 20,
+              "pair": "GX",
+              "source_indices": [
+                145,
+                98
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 21,
+              "pair": "AX",
+              "source_indices": [
+                41,
+                116
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 75,
+              "pair": "AX",
+              "source_indices": [
+                142,
+                38
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "063GPX9O4HF57UDNIJQ8TLV1EARY2ZBKMCSW",
+            "filled_ciphertext": "FDVFGGXVVGAFVVDFGVFADAFFFVVDAFFXDVDAADXDVAFVXFXFFXVFGVFVAGGFGAFFFAFVGAFVGFXGXXVXGGFFVXVVDAAADFGAADXGFFGGADGDDGDGDGVAXFAFDAGFXVVVVDGFVGVGFXDVVDAVFGFGVFGV",
+            "plaintext": "BITTEFUNKSPRUECHEAN11XARMEEUNDUNTERSTELQTEFORMATIONENUNMITTELBARANZOENGEBENX",
+            "is_proposed_historical_reading": false
+          }
+        },
+        {
+          "layer": "lexical_y",
+          "square": "Y63GPX9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "BITTEFUNKSPRUECHEAN11XARMEEUNDUNTERSTEL?TEFORMATIONENUNMITTELBARANZOENGEBENX",
+          "fixed_positions": 75,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 19,
+              "pair": "GX",
+              "source_indices": [
+                135,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 20,
+              "pair": "GX",
+              "source_indices": [
+                145,
+                98
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 21,
+              "pair": "AX",
+              "source_indices": [
+                41,
+                116
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 75,
+              "pair": "AX",
+              "source_indices": [
+                142,
+                38
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "Y63GPX9O0HF45UDNI7J8TLV1EARQ2ZBKMCSW",
+            "filled_ciphertext": "FDVFGGXVVGAFVVDFGVFADAFFFVVDAFFXDVDAADXDVAFVXFXFFXVFGVFVAGGFGAFFFAFVGAFVGFXGXXVXGGFFVXVVDAAADFGAADXGFFGGADGDDGDGDGVAXFAFDAGFXVVVVDGFVGVGFXDVVDAVFGFGVFGV",
+            "plaintext": "BITTEFUNKSPRUECHEAN11XARMEEUNDUNTERSTELJTEFORMATIONENUNMITTELBARANZOENGEBENX",
+            "is_proposed_historical_reading": false
+          }
+        },
+        {
+          "layer": "lexical_q",
+          "square": "Y63GPX9OQHF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "BITTEFUNKSPRUECHEAN11XARMEEUNDUNTERSTEL?TEFORMATIONENUNMITTELBARANZOENGEBENX",
+          "fixed_positions": 75,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 19,
+              "pair": "GX",
+              "source_indices": [
+                135,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 20,
+              "pair": "GX",
+              "source_indices": [
+                145,
+                98
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 21,
+              "pair": "AX",
+              "source_indices": [
+                41,
+                116
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 75,
+              "pair": "AX",
+              "source_indices": [
+                142,
+                38
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "Y63GPX9OQHF04UDNI578TLV1EARJ2ZBKMCSW",
+            "filled_ciphertext": "FDVFGGXVVGAFVVDFGVFADAFFFVVDAFFXDVDAADXDVAFVXFXFFXVFGVFVAGGFGAFFFAFVGAFVGFXGXXVXGGFFVXVVDAAADFGAADXGFFGGADGDDGDGDGVAXFAFDAGFXVVVVDGFVGVGFXDVVDAVFGFGVFGV",
+            "plaintext": "BITTEFUNKSPRUECHEAN11XARMEEUNDUNTERSTEL7TEFORMATIONENUNMITTELBARANZOENGEBENX",
+            "is_proposed_historical_reading": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "p227_B_earlier_word_repairs",
+      "key_id": "Nov28-Dec1",
+      "interpretation": "Only the previously certified ordinary-word repairs",
+      "source_coordinate_edits": [
+        {
+          "source_index": 61,
+          "before": "A",
+          "after": "G"
+        }
+      ],
+      "baseline": "BITTEFUNKSPRUECHEANXXYARMEEUNDUNTERSTELLTEFORMATIONENUNMITTELBARANZOENGEBENY",
+      "interpretations": [
+        {
+          "layer": "historical_digits",
+          "square": "?63GP?9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "BITTEFUNKSPRUECHEAN11?ARMEEUNDUNTERSTELLTEFORMATIONENUNMITTELBARANZOENGEBEN?",
+          "fixed_positions": 74,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 19,
+              "pair": "GX",
+              "source_indices": [
+                135,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 20,
+              "pair": "GX",
+              "source_indices": [
+                145,
+                98
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            }
+          ],
+          "witness": {
+            "square": "063GP49O5HF7JUDNIQX8TLV1EARY2ZBKMCSW",
+            "filled_ciphertext": "FDVFGGXVVGAFVVDFGVFADAFFFVVDAFFXDVDAADXDVAFVXFXFFXVFGVFVAGGFGGFFFAFVGAFVGFXGXXVXGGFFVXVVDAAADFGAADXGFFGGADGDDGDGDGVAXFAFDAGFXVVVVDGFVGVGFXDVVDAVFGFGVFGV",
+            "plaintext": "BITTEFUNKSPRUECHEAN114ARMEEUNDUNTERSTELLTEFORMATIONENUNMITTELBARANZOENGEBEN4",
+            "is_proposed_historical_reading": false
+          }
+        },
+        {
+          "layer": "separator_convention",
+          "square": "?63GPX9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "BITTEFUNKSPRUECHEAN11XARMEEUNDUNTERSTELLTEFORMATIONENUNMITTELBARANZOENGEBENX",
+          "fixed_positions": 76,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 19,
+              "pair": "GX",
+              "source_indices": [
+                135,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 20,
+              "pair": "GX",
+              "source_indices": [
+                145,
+                98
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 21,
+              "pair": "AX",
+              "source_indices": [
+                41,
+                116
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 75,
+              "pair": "AX",
+              "source_indices": [
+                142,
+                38
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "063GPX9O4HF57UDNIJQ8TLV1EARY2ZBKMCSW",
+            "filled_ciphertext": "FDVFGGXVVGAFVVDFGVFADAFFFVVDAFFXDVDAADXDVAFVXFXFFXVFGVFVAGGFGGFFFAFVGAFVGFXGXXVXGGFFVXVVDAAADFGAADXGFFGGADGDDGDGDGVAXFAFDAGFXVVVVDGFVGVGFXDVVDAVFGFGVFGV",
+            "plaintext": "BITTEFUNKSPRUECHEAN11XARMEEUNDUNTERSTELLTEFORMATIONENUNMITTELBARANZOENGEBENX",
+            "is_proposed_historical_reading": false
+          }
+        },
+        {
+          "layer": "lexical_y",
+          "square": "Y63GPX9O?HF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "BITTEFUNKSPRUECHEAN11XARMEEUNDUNTERSTELLTEFORMATIONENUNMITTELBARANZOENGEBENX",
+          "fixed_positions": 76,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 19,
+              "pair": "GX",
+              "source_indices": [
+                135,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 20,
+              "pair": "GX",
+              "source_indices": [
+                145,
+                98
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 21,
+              "pair": "AX",
+              "source_indices": [
+                41,
+                116
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 75,
+              "pair": "AX",
+              "source_indices": [
+                142,
+                38
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "Y63GPX9O0HF45UDNI7J8TLV1EARQ2ZBKMCSW",
+            "filled_ciphertext": "FDVFGGXVVGAFVVDFGVFADAFFFVVDAFFXDVDAADXDVAFVXFXFFXVFGVFVAGGFGGFFFAFVGAFVGFXGXXVXGGFFVXVVDAAADFGAADXGFFGGADGDDGDGDGVAXFAFDAGFXVVVVDGFVGVGFXDVVDAVFGFGVFGV",
+            "plaintext": "BITTEFUNKSPRUECHEAN11XARMEEUNDUNTERSTELLTEFORMATIONENUNMITTELBARANZOENGEBENX",
+            "is_proposed_historical_reading": false
+          }
+        },
+        {
+          "layer": "lexical_q",
+          "square": "Y63GPX9OQHF??UDNI??8TLV1EAR?2ZBKMCSW",
+          "conditional_plaintext": "BITTEFUNKSPRUECHEAN11XARMEEUNDUNTERSTELLTEFORMATIONENUNMITTELBARANZOENGEBENX",
+          "fixed_positions": 76,
+          "propagated_assignments": [
+            {
+              "plaintext_index": 19,
+              "pair": "GX",
+              "source_indices": [
+                135,
+                31
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 20,
+              "pair": "GX",
+              "source_indices": [
+                145,
+                98
+              ],
+              "domain": "1",
+              "baseline_label": "X"
+            },
+            {
+              "plaintext_index": 21,
+              "pair": "AX",
+              "source_indices": [
+                41,
+                116
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            },
+            {
+              "plaintext_index": 75,
+              "pair": "AX",
+              "source_indices": [
+                142,
+                38
+              ],
+              "domain": "X",
+              "baseline_label": "Y"
+            }
+          ],
+          "witness": {
+            "square": "Y63GPX9OQHF04UDNI578TLV1EARJ2ZBKMCSW",
+            "filled_ciphertext": "FDVFGGXVVGAFVVDFGVFADAFFFVVDAFFXDVDAADXDVAFVXFXFFXVFGVFVAGGFGGFFFAFVGAFVGFXGXXVXGGFFVXVVDAAADFGAADXGFFGGADGDDGDGDGVAXFAFDAGFXVVVVDGFVGVGFXDVVDAVFGFGVFGV",
+            "plaintext": "BITTEFUNKSPRUECHEAN11XARMEEUNDUNTERSTELLTEFORMATIONENUNMITTELBARANZOENGEBENX",
+            "is_proposed_historical_reading": false
+          }
+        }
+      ]
+    }
+  ],
+  "p215_footer": {
+    "pattern": "a1b6",
+    "a_and_b_domain": "0345789JQY",
+    "distinct_a_and_b": true,
+    "source_positions": [
+      {
+        "plaintext_index": 125,
+        "pair": "FD",
+        "source_indices": [
+          11,
+          170
+        ],
+        "domain": "0345789JQY"
+      },
+      {
+        "plaintext_index": 126,
+        "pair": "FA",
+        "source_indices": [
+          87,
+          110
+        ],
+        "domain": "1"
+      },
+      {
+        "plaintext_index": 127,
+        "pair": "XD",
+        "source_indices": [
+          223,
+          23
+        ],
+        "domain": "0345789JQY"
+      },
+      {
+        "plaintext_index": 128,
+        "pair": "AV",
+        "source_indices": [
+          146,
+          235
+        ],
+        "domain": "6"
+      }
+    ],
+    "all_90_assignments_have_global_source_preserving_witnesses": true,
+    "possible_values": [
+      "0136",
+      "0146",
+      "0156",
+      "0176",
+      "0186",
+      "0196",
+      "01J6",
+      "01Q6",
+      "01Y6",
+      "3106",
+      "3146",
+      "3156",
+      "3176",
+      "3186",
+      "3196",
+      "31J6",
+      "31Q6",
+      "31Y6",
+      "4106",
+      "4136",
+      "4156",
+      "4176",
+      "4186",
+      "4196",
+      "41J6",
+      "41Q6",
+      "41Y6",
+      "5106",
+      "5136",
+      "5146",
+      "5176",
+      "5186",
+      "5196",
+      "51J6",
+      "51Q6",
+      "51Y6",
+      "7106",
+      "7136",
+      "7146",
+      "7156",
+      "7186",
+      "7196",
+      "71J6",
+      "71Q6",
+      "71Y6",
+      "8106",
+      "8136",
+      "8146",
+      "8156",
+      "8176",
+      "8196",
+      "81J6",
+      "81Q6",
+      "81Y6",
+      "9106",
+      "9136",
+      "9146",
+      "9156",
+      "9176",
+      "9186",
+      "91J6",
+      "91Q6",
+      "91Y6",
+      "J106",
+      "J136",
+      "J146",
+      "J156",
+      "J176",
+      "J186",
+      "J196",
+      "J1Q6",
+      "J1Y6",
+      "Q106",
+      "Q136",
+      "Q146",
+      "Q156",
+      "Q176",
+      "Q186",
+      "Q196",
+      "Q1J6",
+      "Q1Y6",
+      "Y106",
+      "Y136",
+      "Y146",
+      "Y156",
+      "Y176",
+      "Y186",
+      "Y196",
+      "Y1J6",
+      "Y1Q6"
+    ],
+    "additional_all_four_characters_are_digits_assumption": {
+      "possible_values": [
+        "0136",
+        "0146",
+        "0156",
+        "0176",
+        "0186",
+        "0196",
+        "3106",
+        "3146",
+        "3156",
+        "3176",
+        "3186",
+        "3196",
+        "4106",
+        "4136",
+        "4156",
+        "4176",
+        "4186",
+        "4196",
+        "5106",
+        "5136",
+        "5146",
+        "5176",
+        "5186",
+        "5196",
+        "7106",
+        "7136",
+        "7146",
+        "7156",
+        "7186",
+        "7196",
+        "8106",
+        "8136",
+        "8146",
+        "8156",
+        "8176",
+        "8196",
+        "9106",
+        "9136",
+        "9146",
+        "9156",
+        "9176",
+        "9186"
+      ],
+      "count": 42,
+      "leading_zero_allowed": true
+    }
+  },
+  "limits": [
+    "Historical formation identifications and lexical/separator assumptions remain optional.",
+    "The earlier published key files and raw source transcripts are unchanged.",
+    "Cleared labels share one global unused-symbol pool; per-position domains are not independent.",
+    "A witness is one arbitrary consistent square/erasure completion, not recovered historical text.",
+    "The p215 gap geometry and all unresolved source coordinates remain exactly as before."
+  ]
+}

@@ -4,7 +4,7 @@
 
 **icekylinx and GPT-6 Astra Pro · 2 November 2026**
 
-The edition contains 22 challenge entries and 125 other source-reviewed
+The edition contains 22 challenge entries and 133 other source-reviewed
 records in the [two reading tables](../cases/README.md). **p73, p170 and p198 D remain
 wholly open.** Other entries range from complete prior readings to partial
 recoveries and source-linked reconstructions; they are not all independently
@@ -16,6 +16,8 @@ defensible.
 
 | Result | Evidence gained | What remains unresolved |
 |---|---|---|
+| [Late numeral interpretation](../experiments/late_key_interpretation/README.md) | One declared Nov22 map makes p215’s ending `?1?6` and p214’s closing label `AOK11`; a separate Nov28 map identifies the 11th Army in p227. | These depend on explicit unit and separator hypotheses. p215 retains 90 coupled ending possibilities, or 42 under a further numerical-field assumption; its 21 unknown coordinates remain. |
+| [Late operational reports](../experiments/operational_recovery/README.md) | Eight parts fix 815/816 positions under the baseline labels. Several unchanged unit fields support consistent, separately stated numerical interpretations. | Twenty-one coordinate substitutions and one fill remain editorial; historical unit identifications are conditional. The French source itself queries the 89th Division, and the cavalry-brigade number remains unresolved. |
 | [October Caucasus traffic](../cases/other/october_caucasus.md) | Nine parts cover Kress personnel and money, Westernhagen, Tiflis electrical equipment, Violetta cargo and radio timings. Explicit layouts fix 928/968 raw positions common to their retained alternatives. | One printed strikeout is applied; other duplicate deletions, short-group repairs, quantities and word repairs remain conditional. The interrupted second equipment part is not deciphered. |
 | [Late key-sharing instructions](../cases/other/late_november_cipher_instructions.md) | Two p228 parts preserve all 320 coordinates and directly read the BSL–UKS agreement. Three further ciphertexts and a cleartext notice document missing December tables, numerical-code instructions and unreadable ITOCHI traffic. | The numerical example is damaged and its first part missing; the agreement does not identify an unresolved challenge key. |
 | [Romanian withdrawal order](../cases/other/p163_A.md) and [Temesvar station move](../cases/other/p164_B.md) | Six framed records fix 608/730 raw positions. The surviving bodies cover the Bucharest garrison, Danube boats and headquarters movements. | The edition costs 56 substitutions and 100 fills; the heavily damaged part-15 prefix is conditional. An odd-length jammed fragment receives no complete reading. |

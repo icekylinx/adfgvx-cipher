@@ -99,3 +99,7 @@ python3 experiments/open_targets_continuation/verify.py --verify
 
 George Lasry's period-key publication is credited separately from this source
 review and comparison by **icekylinx and GPT-6 Astra Pro**.
+
+## Later conditional reading of the p214 closing label
+
+The independent [late-key interpretation](../../experiments/late_key_interpretation/README.md) applies the p217-derived Nov22–24 numeral hypothesis to the unchanged p214 B source. Its baseline `AOKYY` becomes `AOK11`, consistent with the 11th Army headquarters. The remaining reference stays damaged, and this optional map does not alter the earlier quoted body or its repair costs.

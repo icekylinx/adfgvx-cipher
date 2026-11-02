@@ -1,0 +1,361 @@
+{
+  "schema": "adfgvx-operational-source-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "inspection": "Full pages180,217,230 and enlarged source crops visually checked. All 8 source frames agree with their printed lengths."
+  },
+  "keys": {
+    "Nov10-12": {
+      "id": "Nov10-12",
+      "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "column_rank_order": [
+        9,
+        12,
+        7,
+        11,
+        3,
+        8,
+        16,
+        6,
+        14,
+        2,
+        10,
+        15,
+        5,
+        13,
+        1,
+        4
+      ],
+      "credit": "Published Lasry-team period key; full attribution in data/keys.json."
+    },
+    "Nov22-24": {
+      "id": "Nov22-24",
+      "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+      "column_rank_order": [
+        6,
+        12,
+        16,
+        7,
+        14,
+        22,
+        11,
+        18,
+        1,
+        15,
+        8,
+        10,
+        20,
+        2,
+        13,
+        21,
+        3,
+        17,
+        19,
+        5,
+        9,
+        4
+      ],
+      "credit": "Published Lasry-team period key; full attribution in data/keys.json."
+    },
+    "Nov28-Dec1": {
+      "id": "Nov28-Dec1",
+      "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "column_rank_order": [
+        9,
+        3,
+        14,
+        10,
+        2,
+        8,
+        15,
+        4,
+        16,
+        11,
+        5,
+        13,
+        6,
+        12,
+        1,
+        7
+      ],
+      "credit": "Published Lasry-team period key; full attribution in data/keys.json."
+    }
+  },
+  "interpretation_layers": {
+    "Nov22-24": {
+      "ambiguous_baseline_labels": "0123456789JQY",
+      "layers": [
+        {
+          "id": "historical_digits",
+          "assignments": {
+            "Y": "1",
+            "J": "2",
+            "2": "6"
+          },
+          "basis": [
+            "Unchanged rawYYARME \u219211.Armee",
+            "Unchanged rawY2LDW \u219216.Ldw.D.",
+            "Unchanged rawJJ2ID \u2192226.I.D.",
+            "Unchanged raw2RD \u21926.R.D.",
+            "Independent contemporary French telegram39 identifies those formations. Other consequences include AMJJ\u219222 and RIRJY\u2192RIR21."
+          ]
+        }
+      ]
+    },
+    "Nov28-Dec1": {
+      "ambiguous_baseline_labels": "0123456789JQXY",
+      "layers": [
+        {
+          "id": "historical_digits",
+          "assignments": {
+            "X": "1",
+            "J": "2",
+            "8": "6",
+            "4": "8",
+            "5": "9",
+            "2": "3"
+          },
+          "basis": [
+            "The simultaneous unit identifications are rawJJ8\u2192226, rawX8\u219216.Ldw., rawJX4\u2192218, raw45\u219289, and raw82\u219263.",
+            "The French telegram39 lists226th Infantry,16th Landwehr,218th Infantry and89th Infantry; its303rd Division also matches the repeated digit pattern in raw2L2 if middleL is a separate garble.",
+            "The63rd corps reading agrees with the independently edited p163 parts15/18, themselves carrying an explicit historical digit assumption and editorial completion. This corroboration is conditional, not a new cipher-only proof of63.",
+            "The contemporary French list itself prints \"89e D.I.?\". The 89th Division identification, and therefore baseline5\u21929, is weaker and remains tentative even within this contextual hypothesis."
+          ]
+        },
+        {
+          "id": "separator_convention",
+          "assignments": {
+            "Y": "X"
+          },
+          "basis": [
+            "A display convention: read the repeated rawY separator label as canonicalX. It does not prove that the historical encipherer literally usedX."
+          ]
+        },
+        {
+          "id": "lexical_y",
+          "assignments": {
+            "7": "Y"
+          },
+          "basis": [
+            "The rawBA7R abbreviation and the proposed LIVAZEN7 place spelling both support ordinary-letterY. The sourceC\u2192Z place repair is separately counted. This is a lexical inference, not an independently printed key."
+          ]
+        },
+        {
+          "id": "lexical_q",
+          "assignments": {
+            "Q": "Q"
+          },
+          "basis": [
+            "The unchanged raw p230 A4 QUART abbreviation has Q at plaintext position80 (one-based), cellDF, from source coordinates10 and96. The neighboring HEUPT-to-HAUPT repair does not change this Q. Reading the abbreviation as Quartier supports Q as an ordinary letter; this is a separate lexical assumption, not part of the historical numeric map."
+          ]
+        }
+      ]
+    }
+  },
+  "historical_source": {
+    "path": "experiments/p170_continuation/military_context.json",
+    "sha256": "d824700644f4f39103ec1e3d13a2b6e682c0f6b8443393767945d035a5522225",
+    "source_id": "franchet_1918_11_19",
+    "relevant_printed_page": 79,
+    "pdf_page_1based": 153,
+    "caveat": "The French intelligence telegram is contemporary evidence, not a proof of every formation identification in a later German message."
+  },
+  "records": [
+    {
+      "id": "p180_A3",
+      "printed_page": 180,
+      "pdf_page_1based": 183,
+      "part_number": 3,
+      "source_header": "(?) NOVEMBER, 1918 (handwritten date retained in image); A) --- v ZON (--- --- (?) November); 3 TL RICHI-156",
+      "advertised_length": 156,
+      "source_rows": [
+        "XDXDA AAVDG AAFAF -XDVD DDGGX GVVGD FDDDG FXGAF",
+        "DADVA DDDAV XFXXV DAVAG AADAV AVDFX VXDXX XXFDV",
+        "DGDGG VDAXA AVAGD DGXGD DDVDV XXFDX GAXVV XGFVX",
+        "DGXDX DDGGF DAAVX DGDDF ADXDX VXDGG DVADG D"
+      ],
+      "source_crop": "sources/childs_p180_A.png",
+      "source_crop_sha256": "0d395253187715c25604c235bb935419b930b17e9b819ce9f0e3cdf7265f8545",
+      "key_id": "Nov10-12",
+      "editorial_recipe": {
+        "text": "BEIGIURGIUFOLGTFEINDLANGSAMXBRAILAXFOCSANIGERAEUMTX11XARMEEKEINEEREIGNISSEXOKM",
+        "pair_overrides": [],
+        "space": "Published baseline labels; later interpretations of a label do not alter coordinates."
+      },
+      "editorial_note": "The proposed 11th Army reading edits a fully received unknown-square cell to the already known 1 cell; it does not assign a second 1 in the square. The unknown original date remains unresolved."
+    },
+    {
+      "id": "p217_A1",
+      "printed_page": 217,
+      "pdf_page_1based": 220,
+      "part_number": 1,
+      "source_header": "24th NOVEMBER, 1918; A) LP v NKJ (01.36 a.m., November 26th); VON UKS 2230 (11/24) FUER LP (BSL) 5 TLE",
+      "advertised_length": 228,
+      "source_rows": [
+        "GDFVA VFDVD DFDXA GAAXX FXAFA DVGXG XFFFG XVDFG",
+        "ADAAA VVGFA XVDVV VDVGV FDFFF FXGVA GGVGA VAAFX",
+        "VAAXD DGADA VVGGD DXDFA AVVGF DVAXF XDAAV FFFXV",
+        "AXFVG AFXAD DVADX AFDGG VFFVG AXVFF GVAGX AXVFX",
+        "AGVDV GXGDX XXFAA GFXVF DXAFA XXVAX DGAFV DDAXA",
+        "AFGDV AAGVV FVXFA DVFDX VAGAV FDA"
+      ],
+      "source_crop": "sources/childs_p217_A.png",
+      "source_crop_sha256": "255d8f9c904ffab2d05ebf79388097f962f01ab5dfea6e3eddd56e2cb1e33edc",
+      "key_id": "Nov22-24",
+      "editorial_recipe": {
+        "text": "ANOHLUNDKMXVONGJDO28NOCHKEENNENACHRICHTXOKSCHOLTZXY2XLDWXDXUNDJJ2XIDMAERSCHEIMVERSAMMLUNGSRAUMXNACHHUTJJ2XIDSUEDLX",
+        "pair_overrides": [],
+        "space": "Published baseline labels; later interpretations of a label do not alter coordinates."
+      },
+      "editorial_note": "Raw KEENNE is retained; ordinary reading \"keine\" requires an editorial shortening outside the ciphertext recipe. MAERSCHE is retained as printed-key output."
+    },
+    {
+      "id": "p217_A2",
+      "printed_page": 217,
+      "pdf_page_1based": 220,
+      "part_number": 2,
+      "source_header": "24th NOVEMBER, 1918; A) LP v NKJ (01.36 a.m., November 26th); VON UKS 2230 (11/24) FUER LP (BSL) 5 TLE",
+      "advertised_length": 240,
+      "source_rows": [
+        "DFFFD GFXVA FXAXV XDDDA FVXVF GFXFA FDGFV AFVXF",
+        "XFAAV VVXDD FGFXF FAVVA FXGFA VAADX XADXA ADFAX",
+        "DFDFV XADFD FFGFA XXFAD AXVVF AFAAA XFVVF XXGDF",
+        "VXGDD VAGVF VFXAV VXAVX AVAGV XXDDF VAVAV FXAVF",
+        "GXADX XAAFG AADXA AFGVA GVVAG DXVVA FXVAA XGFXF",
+        "GAVFG VAAXF FAAAV DFAVF FDXAA XGFXA XAVAF AAFDX"
+      ],
+      "source_crop": "sources/childs_p217_A.png",
+      "source_crop_sha256": "255d8f9c904ffab2d05ebf79388097f962f01ab5dfea6e3eddd56e2cb1e33edc",
+      "key_id": "Nov22-24",
+      "editorial_recipe": {
+        "text": "RIMNICXVALCEAXXYYARMEEXALPENKORPSUNVERAENDERTXAMJJXWEGENKOHLENMANGELSKEINABTRANSPORTX2RXDXRAUMSUEDOESTLXOROSHAZAXJYQ2XDX",
+        "pair_overrides": [],
+        "space": "Published baseline labels; later interpretations of a label do not alter coordinates."
+      }
+    },
+    {
+      "id": "p217_A3",
+      "printed_page": 217,
+      "pdf_page_1based": 220,
+      "part_number": 3,
+      "source_header": "24th NOVEMBER, 1918; A) LP v NKJ (01.36 a.m., November 26th); VON UKS 2230 (11/24) FUER LP (BSL) 5 TLE",
+      "advertised_length": 228,
+      "source_rows": [
+        "DVXAD AFGXF FFXXV VXFGD GGDXX GFFFF AVFAV DGGDA",
+        "VVFDF VFVVX DFFGA DFGFF ADAVD FDFVG DDVFX FFFAF",
+        "AVVFX GFVFG AXDVF AAVDV DGFVA FFFGF AAAVF GAXAF",
+        "AVGDD FAFVA VFFFG VAXDD GDFGV AVAXX DVGAV AXFAF",
+        "VXFGV AXAAA VXVVF VVAXX FVFGD DXFDA VXFFG FFFFF",
+        "ADDAF GAVGX GADVG VGXGD FVDFV VAD"
+      ],
+      "source_crop": "sources/childs_p217_A.png",
+      "source_crop_sha256": "255d8f9c904ffab2d05ebf79388097f962f01ab5dfea6e3eddd56e2cb1e33edc",
+      "key_id": "Nov22-24",
+      "editorial_recipe": {
+        "text": "INGESTRIGEMRAUMVERBLIEBENXAOKXSZOLNOKXYXBATLXRIRJYIMPOEST4ENEINGETROFFENXVERBLEIBDERBE6DEDENANDERENBTLNEUNBEKANNTX",
+        "pair_overrides": [],
+        "space": "Published baseline labels; later interpretations of a label do not alter coordinates."
+      },
+      "editorial_note": "The damaged BE6DEDEN span and POEST4EN are retained. No exact number of battalions or place spelling is forced through that damage."
+    },
+    {
+      "id": "p217_A4",
+      "printed_page": 217,
+      "pdf_page_1based": 220,
+      "part_number": 4,
+      "source_header": "24th NOVEMBER, 1918; A) LP v NKJ (01.36 a.m., November 26th); VON UKS 2230 (11/24) FUER LP (BSL) 5 TLE",
+      "advertised_length": 196,
+      "source_rows": [
+        "VDGFG DVVVV AVDXG GFDFD VVXFA AFGVF VAFFD DDVFA",
+        "FAGDX GVVAF GVGDV XVDDA VXFFV FVVAX XGFFF GVDAV",
+        "VFFDF DAADG FGXVF VDAFD XDVFF XAFAX VVFGV DVDDV",
+        "XVAFF XFVAF DXDAF AFVAX FGVVV GFFDD VFAVX AGFDA",
+        "AVFGG DXVAD GFAAG VGVDV DAXGF FDAFF VFAFD V"
+      ],
+      "source_crop": "sources/childs_p217_A.png",
+      "source_crop_sha256": "255d8f9c904ffab2d05ebf79388097f962f01ab5dfea6e3eddd56e2cb1e33edc",
+      "key_id": "Nov22-24",
+      "editorial_recipe": {
+        "text": "ANSCHEINENDFEHLGELEITETXCECHENVERWEIGERNAUFENTHALTXWOLLENAUCHDURCHFAHRTNURNACHENTWAFFNUNGGESTATTEN",
+        "pair_overrides": [],
+        "space": "Published baseline labels; later interpretations of a label do not alter coordinates."
+      }
+    },
+    {
+      "id": "p217_A5",
+      "printed_page": 217,
+      "pdf_page_1based": 220,
+      "part_number": 5,
+      "source_header": "24th NOVEMBER, 1918; A) LP v NKJ (01.36 a.m., November 26th); VON UKS 2230 (11/24) FUER LP (BSL) 5 TLE",
+      "advertised_length": 122,
+      "source_rows": [
+        "XDFFA XGVFF XGDFF FVFVA AAGFA AVFVG FFAAG FFGVV",
+        "VAXXX DFXFX DDDFV DDGGA VAVFF VAVFV VVDVA XFFFA",
+        "VVXFX DVFVA GAVXA AVAXD AXVFG XFFAA FGFDG AADXA",
+        "VA"
+      ],
+      "source_crop": "sources/childs_p217_A.png",
+      "source_crop_sha256": "255d8f9c904ffab2d05ebf79388097f962f01ab5dfea6e3eddd56e2cb1e33edc",
+      "key_id": "Nov22-24",
+      "editorial_recipe": {
+        "text": "MASSOWBUDAPESTISTERSUCHTXLETZTEREFRAGENZUKLAERENXOKMYAYY7YMOP",
+        "pair_overrides": [],
+        "space": "Published baseline labels; later interpretations of a label do not alter coordinates."
+      }
+    },
+    {
+      "id": "p230_A3",
+      "printed_page": 230,
+      "pdf_page_1based": 233,
+      "part_number": 3,
+      "source_header": "30th NOVEMBER, 1918; A) BSL v ZON (09.26 p.m., December 1st); 2200; 1st and 2d TL missing",
+      "advertised_length": 232,
+      "source_rows": [
+        "AGFGF DGXGG FAAGA VDGGF VFFVV GVXGV GGGDV GDFVD",
+        "FXDDX FADFF GVFGG FGFGX VXGAF AADGA FFFFX VAFVV",
+        "FVFAX DXXFG XXGXF FVFXX FDFGF GDDFD AAFAD FVFGV",
+        "AGGGV XVVAA VVDXV XXAXD XGVGF GVXFF XFGVA XAADD",
+        "FVDXF AVVDV XVDVX AFFXD XXGGX GFGVD AXAAX AVVXF",
+        "AAFAF VVFXX FXAFG FVAFX VFXXD GVAAV XD"
+      ],
+      "source_crop": "sources/childs_p230_A.png",
+      "source_crop_sha256": "f82fafa74726399970a62fac5e8565739ef243b660973557c8da290358378834",
+      "key_id": "Nov28-Dec1",
+      "editorial_recipe": {
+        "text": "JJ8YIYDYNORDWESTLYHERMANNSTADTYX8YLDWYDIVYUMMUEHLBACHYJX4YDIVYIMRAUMEHATSZEGYLIVAZEN7YYDRITTENSYYGENKDOY82KRONSTADTY",
+        "pair_overrides": [],
+        "space": "Published baseline labels; later interpretations of a label do not alter coordinates."
+      },
+      "editorial_note": "A repaired raw Y label in IYD and after KRONSTADT is interpreted as the canonical separator only in the separate separator layer."
+    },
+    {
+      "id": "p230_A4",
+      "printed_page": 230,
+      "pdf_page_1based": 233,
+      "part_number": 4,
+      "source_header": "30th NOVEMBER, 1918; A) BSL v ZON (09.26 p.m., December 1st); 2200; 1st and 2d TL missing",
+      "advertised_length": 230,
+      "source_rows": [
+        "GXFVF VVDVD XVGAA FDVVF XVADV FAVAD FDFXG FFDGD",
+        "GGDAD VGXVF VGVAF AXXFA GVXDV AVAFG XGAFV AVAXA",
+        "GGVXX FGFFF VDDDA FGDXF XFDGD DVAXG FDXFV GAXGA",
+        "AVXXA FDXVG AXFXD XDFFF DFGGD GVVAX VAFAD XGDXF",
+        "DDAFG VXGFD AFDFX FDADF XFVGG DXDAV AXAVX XGVXD",
+        "FDFFF AGXGG GVGVA VFGXX ADVGV FADDG"
+      ],
+      "source_crop": "sources/childs_p230_A.png",
+      "source_crop_sha256": "f82fafa74726399970a62fac5e8565739ef243b660973557c8da290358378834",
+      "key_id": "Nov28-Dec1",
+      "editorial_recipe": {
+        "text": "45YUND2L2YDIVYUMKRONSTADTY0YBA7RYKAVYBRIGYUMFOGARASVERSAMMELTYYOKMYVERLEGTHAUPTQUARTYNACHMUEHLBACHYYOKMXANRZXXU26OP",
+        "pair_overrides": [],
+        "space": "Published baseline labels; later interpretations of a label do not alter coordinates."
+      },
+      "editorial_note": "The second division number retains raw 2L2, and the cavalry-brigade number retains raw0. Neither 303 nor7 is assigned by this package."
+    }
+  ]
+}

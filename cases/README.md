@@ -44,10 +44,10 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p187b](p187b.md) | Teleprinter failure and written reporting | Prior body; adjacent-swap explanation | George Lasry and Norbert (2017) |
 | [p189](p189.md) | Apparent vehicle request / await orders | Conditional partial | icekylinx and GPT-6 Astra Pro (2026) |
 | [p198](p198.md) | CHI intercept with a five-coordinate shortfall | Open | — |
-| [p215](p215.md) | Apparent Entente troop-transport report | Prior partial; conditional Kosch interpretation | Norbert (2017) |
+| [p215](p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
 | [p217](p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 125 reviewed records
+## Other ciphertexts — 133 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
@@ -127,6 +127,7 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p174 C](other/seifert.md) | Query about Seifert's return | 24/24 positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
 | [p174 D](other/seifert.md) | Repeated immediate listening instruction | Identical to p172 B; no digit inferred from repetition | icekylinx and GPT-6 Astra Pro (2026) |
 | [p174 E](other/seifert.md) | Seifert has departed | Two explicit coordinate repairs for the name | icekylinx and GPT-6 Astra Pro (2026) |
+| [p180 A3](other/p180_A.md) | Enemy follows withdrawal near Giurgiu; Braila and Focsani evacuated | 77/78 raw positions; nine substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p181 A](other/mackensen_warsaw.md) | Warsaw Soldiers Council asks about Mackensens advance | Prior query interpretation; later quote supplies one source erasure | Lasry, Niebel, Kopal and Wacker; source comparison: icekylinx and GPT-6 Astra Pro (2026) |
 | [p185 C](p189.md) | Vehicle provision impossible; await orders | Direct raw reading; source parallel for p 189 A | icekylinx and GPT-6 Astra Pro (2026) |
 | [p185 D](context/transport.md#p185-d-source-and-gap-model) | Movement via DHFN and readiness instruction | 91/99 positions under an unproved five-loss geometry | icekylinx and GPT-6 Astra Pro (2026) |
@@ -166,6 +167,11 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p211 B lower2](other/p211_key_schedule.md) | Use November keys for December traffic | 92/92 unchanged; first and last schedule dates stated | icekylinx and GPT-6 Astra Pro (2026) |
 | [p211 B lower3](other/p211_key_schedule.md) | Schedule endpoint and receipt acknowledgment | 66/67 raw positions; one invalid-glyph fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p214 B](other/mackensen_warsaw.md) | Forwarded quotation of the Warsaw query | 85/92 direct quote positions match p181 under a different key | icekylinx and GPT-6 Astra Pro (2026) |
+| [p217 A1](other/p217_A.md) | Scholtz divisions march into the assembly area | 114/114 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |
+| [p217 A2](other/p217_A.md) | Coal shortages stop transport; troop locations near Oroshaza | 120/120 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |
+| [p217 A3](other/p217_A.md) | Army headquarters at Szolnok; battalions apparently misdirected | 114/114 baseline positions; place and numerical fields unresolved | icekylinx and GPT-6 Astra Pro (2026) |
+| [p217 A4](other/p217_A.md) | Czechs demand disarmament before troop transit | 98/98 raw positions; two word repairs | icekylinx and GPT-6 Astra Pro (2026) |
+| [p217 A5](other/p217_A.md) | Massow in Budapest asked to clarify transit and disarmament | 61/61 raw positions; two word repairs; reference unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p218 A1](other/p218_A.md) | Kress/Tiflis notice: armistice Article XII | 140/141 raw positions; article-number repair explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p218 A2](other/p218_A.md) | Allied judgment governs withdrawal from former Russian territory | 141/142 raw positions; four substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p218 A3](other/p218_A.md) | No Allied demand yet to withdraw the Tiflis guard | 138/139 raw positions; two substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
@@ -178,6 +184,8 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p227 B](other/late_november_cipher_instructions.md) | Send telegrams for the army and subordinate formations directly | 76/76 raw positions; separately costed word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p228 C1](other/late_november_cipher_instructions.md) | December key agreement involving UKS, ZOEN and BSL | 88/88 raw positions | icekylinx and GPT-6 Astra Pro (2026) |
 | [p228 C2](other/late_november_cipher_instructions.md) | Use the same key in BSL–UKS traffic; UKS agrees | 72/72 raw positions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p230 A3](other/p230_A.md) | Division locations near Hermannstadt and Muehlbach | 116/116 baseline positions; seven substitutions; conditional unit labels | icekylinx and GPT-6 Astra Pro (2026) |
+| [p230 A4](other/p230_A.md) | Forces near Kronstadt and Fogaras; OKM headquarters moves | 115/115 baseline positions; one substitution; conditional unit labels | icekylinx and GPT-6 Astra Pro (2026) |
 
 The catalogue covers source-reviewed records with published reading evidence; the wider OCR search pool contains additional unreviewed ciphertext candidates. Earlier authors retain their credits. Current source review and new research use **icekylinx and GPT-6 Astra Pro**; a review credit does not assert first-decipherment priority.
 <!-- READING-CATALOG:END -->

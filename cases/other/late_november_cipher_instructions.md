@@ -57,6 +57,10 @@ BITTEFUNKSPRUECHEANXXYARMEEUNDUNTERSTEL6TEFORMATIONENUNMITTELBARANZOENGEBENY
 
 Restoring `UNTERSTELLTE` costs one coordinate substitution. The raw army field **`XX`** is retained, without silently treating it as an Arabic number or Roman numeral. [Source image](../../experiments/corpus_extension/sources/p227_B.png).
 
+## Separate historical interpretation of the army field
+
+The later [unit-based key-label review](../../experiments/late_key_interpretation/README.md) applies the optional p230 map to p227 B. Baseline `X→1` and the separate `Y→X` separator convention give **11th Army**; with the already counted one-coordinate repair of `UNTERSTELLTE`, the instruction asks for telegrams to the 11th Army and subordinate formations to be sent directly to ZOEN. The baseline text above remains the unchanged-key result. Applying the same declared layers to p226 B2 leaves its numerical examples damaged and does not recover the missing code rule.
+
 ## A cleartext request to avoid an unreadable cipher
 
 p227 C, headed `BSL v UKS`, `2316 (11/28) K. M. BERLIN`, says that parts 3 and 4 of a referenced War Department message in **ITOCHI** cannot be deciphered. It requests **RICHI or plaintext**, then asks that ciphering be avoided if possible in future. This is a directly visible unencrypted source notice, not a new cryptanalytic result. The literal misspellings and the trailing forwarding annotation are retained in the input record. [Source image](../../experiments/corpus_extension/sources/p227_C.png).

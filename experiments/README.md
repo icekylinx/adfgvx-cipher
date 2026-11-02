@@ -11,6 +11,8 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Late-key interpretation propagation](late_key_interpretation/README.md) | Four previously reviewed records under explicit partial-square maps; p215 ending `?1?6` | Every global square remains injective; all 90 p215 ending assignments have witnesses, and original gaps, labels and editorial costs stay separate. |
+| [Late operational source edition](operational_recovery/README.md) | Eight records, 1,632 source slots; 815/816 raw baseline-label positions fixed | Exact local repair costs; optional injective numeral and rare-letter maps supported by contemporary unit evidence, with source uncertainty retained. |
 | [October Caucasus source edition](october_caucasus/README.md) | Nine readable records, 1,994 source slots; retained layouts share 928/968 fixed raw positions | Source strikeout and conditional duplicate/short-group models are distinct; disputed quantities and all repair costs remain explicit. An interrupted continuation is retained without a reading. |
 | [Withdrawal-order source edition](withdrawal_recovery/README.md) | Seven source records; six explicit frames fix 608/730 raw positions | Every substitution and fill costed; part-15 reconstruction and shared digit inference remain conditional, and the odd jammed fragment remains unframed. |
 | [Kiel, internment and cipher-instruction sources](corpus_extension/README.md) | Fourteen ciphertexts and one cleartext notice; exact duplicate and group-restoration models | Prior readings retain credit; two unchanged key-sharing parts, all source images and separately priced word repairs. |
