@@ -105,3 +105,14 @@ witnesses, and every conditional digit effect. It binds the later
 `black_sea_shipping/inputs.json` by SHA-256 and rederives the five-letter
 `SECHS` witness from its literal source. The second command additionally
 checks the full primary PDF hash and rerenders every crop pixel-for-pixel.
+
+## Independent office context
+
+The Bundesarchiv's institutional description of the Reichsmarineamt lists
+A VI S as the maritime transport division in 1914 and describes its 1917
+organization. This independently supports the office interpretation used
+above. The [source note](office_context.json) distinguishes the
+retrieved institutional catalogue from the underlying uninspected business
+plans. Identifying particular telegram fields with that office and assuming
+they were copied correctly remain conditional; no source certificate or
+published square is changed.

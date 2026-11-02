@@ -161,3 +161,12 @@ every repair in original printed coordinates, and joint bijective-square
 witnesses. Re-encryption establishes the stated conditional consistency
 and edit costs; it does not establish the historical cause of the group
 displacement or remove the four unresolved plaintext positions.
+
+## Separate historical context
+
+The [Breslau supplement](breslau_context/README.md) provides a visually checked
+1917 official decree naming the VI Army Corps deputy command at Breslau.
+It supports an optional extra D→G source repair, taking 196/200 to 197/200
+fixed positions if that institutional identification is adopted. The original
+GD cell cannot be filled with 6 under the unchanged square; quantity and
+connective remain open. The primary inputs and certificate are unchanged.

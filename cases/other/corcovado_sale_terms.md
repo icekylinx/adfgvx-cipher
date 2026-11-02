@@ -276,3 +276,14 @@ crop pixel-for-pixel. The conditional layer also binds and rederives the
 later `SECHS` witness from the independently preserved p200 source
 transcription. It does not assume that the sale was completed or settle
 the vessel's eventual history.
+
+## Independent office context
+
+The Bundesarchiv's institutional description of the Reichsmarineamt lists
+A VI S as the maritime transport division in 1914 and describes its 1917
+organization. This independently supports the office interpretation used
+above. The [source note](../../experiments/corcovado_sale_terms/office_context.json) distinguishes the
+retrieved institutional catalogue from the underlying uninspected business
+plans. Identifying particular telegram fields with that office and assuming
+they were copied correctly remain conditional; no source certificate or
+published square is changed.
