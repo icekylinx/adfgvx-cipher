@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reconcile the source edition against the preserved pre-session catalogue.
+"""Reconcile the preserved start and end catalogues of the source extension.
 
 ADFGVX Cipher -- icekylinx and GPT-6 Astra Pro. Apache-2.0.
 Counts describe reviewed physical records, not first decipherments.
@@ -21,7 +21,7 @@ def sha(path):
 
 def build():
     old = json.loads((HERE / 'baseline_reading_catalog.json').read_text())
-    current = json.loads((ROOT / 'data/reading_catalog.json').read_text())
+    current = json.loads((HERE / 'final_reading_catalog.json').read_text())
     assert len(old['challenge']) == len(current['challenge']) == 22
     assert len(old['other']) == 87
     old_rows = {r['id']: r for r in old['other']}
@@ -49,7 +49,7 @@ def build():
             'prepared_by': 'icekylinx and GPT-6 Astra Pro',
             'baseline_commit': BASELINE,
             'baseline_catalogue_sha256': sha(HERE / 'baseline_reading_catalog.json'),
-            'current_catalogue_sha256': sha(ROOT / 'data/reading_catalog.json'),
+            'current_catalogue_sha256': sha(HERE / 'final_reading_catalog.json'),
             'challenge_entries_before': 22, 'challenge_entries_after': 22,
             'other_source_records_before': 87,
             'other_source_records_after': len(rows),

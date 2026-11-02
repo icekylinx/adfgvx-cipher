@@ -25,6 +25,7 @@ jobs:
       - name: Check the challenge and wider-corpus reading tables
         run: |
           python -m adfgvx.catalog --check
+          python -m adfgvx.navigation --check
           python experiments/session_review/verify.py --verify
       - name: Verify wider-corpus source readings
         run: |

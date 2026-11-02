@@ -1,109 +1,37 @@
-# The Warsaw query and its later quotation — p181 A / p214 B
+# Reading location
 
-[Case guide](../README.md) · [ADFGVX Cipher](../../README.md)
+**The Warsaw query and its later quotation — p181 A / p214 B**
 
-**Status:** A 92-character query on p181 is quoted inside a later message on
-p214 under a different key. The two direct readings agree at **85 of 92**
-aligned positions; their complementary evidence supports a complete query
-with every proposed source change recorded. **Source comparison and edition:**
-icekylinx and GPT-6 Astra Pro. This is a supplementary message, not a new
-solution to an open challenge.
+[Open the complete source edition](../military/mackensen_warsaw.md) · [Browse this topic](../military/README.md)
 
-## Reading
+This earlier URL remains available for published links and preserved
+research records. The complete reading, source evidence and credits are
+maintained at the new location.
 
-> Erbitten umgehend Nachricht, ob Geruecht vom Anmarsch Mackensens auf
-> Warschau wahr. Soldatenrat Warschau.
+## Preserved section links
 
-**Meaning:** The Warsaw Soldiers' Council asks for an immediate report on
-whether the rumor of Mackensen's advance on Warsaw is true. The query does
-not itself establish that such an advance occurred.
+<a id="the-warsaw-query-and-its-later-quotation--p181-a--p214-b"></a>
 
-The later message begins:
+[The Warsaw query and its later quotation — p181 A / p214 B](../military/mackensen_warsaw.md#the-warsaw-query-and-its-later-quotation--p181-a--p214-b)
 
-> An OKM. Hier einging folgender Funkspruch: [the above query].
+<a id="reading"></a>
 
-The address and quotation-introducing sentence are directly decoded.
-The raw separator immediately before the quote and the damaged closing
-reference remain unresolved. No sender identity or final serial number is
-supplied from context.
+[Reading](../military/mackensen_warsaw.md#reading)
 
-## Prior publication and date discrepancy
+<a id="prior-publication-and-date-discrepancy"></a>
 
-Lasry, Niebel, Kopal and Wacker already discuss the Warsaw query in section
-6.4 of [*Deciphering ADFGVX messages from the Eastern Front of World War I*](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf),
-DOI [10.1080/01611194.2016.1169461](https://doi.org/10.1080/01611194.2016.1169461).
-Their narrative assigns it to **13 November**. The inspected p181 page heading
-and intercept header both print **12 November**. The source date is retained
-here; the discrepancy is not silently resolved.
+[Prior publication and date discrepancy](../military/mackensen_warsaw.md#prior-publication-and-date-discrepancy)
 
-The present contribution is the cross-key quotation link, direct source
-transcription and exact repair accounting. It does not claim first
-decipherment of the query or treat the previously published interpretation
-as independent cryptographic evidence.
+<a id="sources-and-direct-readings"></a>
 
-The same prior body credit applies to the quoted query within **p214 B**.
-Its forwarding introduction, cross-key source relationship and damaged footer
-are assessed separately in this edition.
+[Sources and direct readings](../military/mackensen_warsaw.md#sources-and-direct-readings)
 
-## Sources and direct readings
+<a id="verification"></a>
 
-| Witness | Source header | Published key | Direct reading |
-| --- | --- | --- | ---: |
-| [p181 A / PDF p184](../../experiments/open_targets_continuation/sources/childs_p181_selected.png) | `NKJ v LP (06.43 p.m., November 12th); 15.50; RICHI-184` | `Nov10-12` | 91/92 positions fixed |
-| [p214 B / PDF p217](../../experiments/open_targets_continuation/sources/childs_p214_selected.png) | `--- v UKS (07.05 p.m., November 22d); 1630 (11/22); RICHI-292` | `Nov22-24` | 141/146 positions fixed |
+[Verification](../military/mackensen_warsaw.md#verification)
 
-The unmodified p181 reading is:
+<a id="later-conditional-reading-of-the-p214-closing-label"></a>
 
-```text
-ERBITTENUMGEHENDNACHRICHTOBGERUECHTVOMANMARSCHMACKEN?ENSAUFWARSCHAUWAHRXSOLDATENRATWARSCHAUX
-```
+[Later conditional reading of the p214 closing label](../military/mackensen_warsaw.md#later-conditional-reading-of-the-p214-closing-label)
 
-Its only unknown plaintext position comes from the printed invalid coordinate
-`C` in group `AACDD`. The later quote supplies the missing `S` in
-`MACKENSENS`. Filling source index **17** with `G` preserves all **183 valid
-coordinates**; the resulting 92-character text re-encrypts exactly. No
-unknown square cell is assigned.
-
-The p214 source decodes as:
-
-```text
-ANOKMXHIEREINGINGFOLGENDERFUNKSPRUCHX?ERBI3TENUM?EHEN?NACHRICHTOBGERUECHT?OMANMARSCHMACKENSENSAUFWARACHAUWAHRXSOLDATENRATWARSCHA8XXAOKYYXRMYAQY?5X
-```
-
-Its 92-position quotation starts at plaintext index **38**. The p181 text
-supports three changes to fixed p214 characters and three erasure fills:
-
-| Quote position, zero based | p181 | Direct p214 | Consequence |
-| ---: | :---: | :---: | --- |
-| 4 | T | 3 | One known-coordinate substitution in p214. |
-| 10 | G | ? | One p214 erasure fill. |
-| 15 | D | ? | One p214 erasure fill. |
-| 35 | V | ? | Fill the invalid printed `S` coordinate in p214. |
-| 52 | ? | S | Fill the invalid printed `C` coordinate in p181. |
-| 62 | S | A | One known-coordinate substitution in p214. |
-| 90 | U | 8 | One known-coordinate substitution in p214. |
-
-The p214 substitutions are source indices **242: F→V**, **208: X→D** and
-**170: X→V**. The fills are **4: –→G**, **56: –→G** and **165: S→V**.
-The quote reconstruction changes no other source slot. The two remaining
-erasures outside the quotation, and the questionable fixed letters in the
-ending `XAOKYYXRMYAQY?5X`, are not repaired.
-
-## Verification
-
-The [input package](../../experiments/open_targets_continuation/inputs.json)
-contains the literal groups, prior-publication note, headers and source image
-hashes. The [certificate](../../experiments/open_targets_continuation/certificates.json)
-reproduces the quote alignment and each coordinate cost with an independent
-column-offset inverse, checked against the project decoder.
-
-```sh
-python3 experiments/open_targets_continuation/verify.py --verify
-```
-
-George Lasry's period-key publication is credited separately from this source
-review and comparison by **icekylinx and GPT-6 Astra Pro**.
-
-## Later conditional reading of the p214 closing label
-
-The independent [late-key interpretation](../../experiments/late_key_interpretation/README.md) applies the p217-derived Nov22–24 numeral hypothesis to the unchanged p214 B source. Its baseline `AOKYY` becomes `AOK11`, consistent with the 11th Army headquarters. The remaining reference stays damaged, and this optional map does not alter the earlier quoted body or its repair costs.
+Navigation maintained by **icekylinx and GPT-6 Astra Pro**.
