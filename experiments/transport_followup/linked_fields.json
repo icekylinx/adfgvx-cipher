@@ -1,0 +1,230 @@
+{
+  "project": "ADFGVX Cipher",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "review_date": "2026-11-02",
+  "historical_digits_assigned": false,
+  "input_sha256": {
+    "p185_D_transport.json": "4d2ec54fa8a8fa1d7b2a902519e05ee94d4894ef4cc9a44510acfbc11aabc926",
+    "p197_p198_transport.json": "9cb285bfa1e0e2dafc6c9841f55447e910e4063103b071925d636b0286053950"
+  },
+  "shared_key_id": "Nov13-15b",
+  "unused_symbols": "234789QY",
+  "occurrences": [
+    {
+      "source_id": "p194_A",
+      "field": "planned_hour_units",
+      "plaintext_index": 42,
+      "coordinate_pair": "FV",
+      "square_cell": 16,
+      "geometry": "Literal source analysis",
+      "reconstructed_ciphertext_indices": [
+        91,
+        70
+      ],
+      "original_source_indices": [
+        91,
+        70
+      ]
+    },
+    {
+      "source_id": "p196_B",
+      "field": "planned_hour_units",
+      "plaintext_index": 42,
+      "coordinate_pair": "FV",
+      "square_cell": 16,
+      "geometry": "Literal source analysis",
+      "reconstructed_ciphertext_indices": [
+        91,
+        70
+      ],
+      "original_source_indices": [
+        91,
+        70
+      ]
+    },
+    {
+      "source_id": "p197_E",
+      "field": "departed_hour_units",
+      "plaintext_index": 9,
+      "coordinate_pair": "AF",
+      "square_cell": 2,
+      "geometry": "Literal source analysis",
+      "reconstructed_ciphertext_indices": [
+        47,
+        151
+      ],
+      "original_source_indices": [
+        47,
+        151
+      ]
+    },
+    {
+      "source_id": "p197_E",
+      "field": "remaining_men",
+      "plaintext_index": 35,
+      "coordinate_pair": "GD",
+      "square_cell": 19,
+      "geometry": "Literal source analysis",
+      "reconstructed_ciphertext_indices": [
+        178,
+        4
+      ],
+      "original_source_indices": [
+        178,
+        4
+      ]
+    },
+    {
+      "source_id": "p198_C",
+      "field": "departed_hour_units",
+      "plaintext_index": 9,
+      "coordinate_pair": "AF",
+      "square_cell": 2,
+      "geometry": "Literal source analysis",
+      "reconstructed_ciphertext_indices": [
+        47,
+        151
+      ],
+      "original_source_indices": [
+        47,
+        151
+      ]
+    },
+    {
+      "source_id": "p198_C",
+      "field": "remaining_men",
+      "plaintext_index": 35,
+      "coordinate_pair": "GD",
+      "square_cell": 19,
+      "geometry": "Literal source analysis",
+      "reconstructed_ciphertext_indices": [
+        178,
+        4
+      ],
+      "original_source_indices": [
+        178,
+        4
+      ]
+    },
+    {
+      "source_id": "p198_E",
+      "field": "lorry_tonnage",
+      "plaintext_index": 10,
+      "coordinate_pair": "FV",
+      "square_cell": 16,
+      "geometry": "Declared duplicate deletion or dash-relocation hypothesis",
+      "reconstructed_ciphertext_indices": [
+        71,
+        54
+      ],
+      "original_source_indices": [
+        76,
+        59
+      ]
+    },
+    {
+      "source_id": "p197_D",
+      "field": "lorry_tonnage",
+      "plaintext_index": 10,
+      "coordinate_pair": "FV",
+      "square_cell": 16,
+      "geometry": "Declared duplicate deletion or dash-relocation hypothesis",
+      "reconstructed_ciphertext_indices": [
+        71,
+        54
+      ],
+      "original_source_indices": [
+        71,
+        54
+      ]
+    },
+    {
+      "source_id": "p198_B",
+      "field": "readiness_hour_units",
+      "plaintext_index": 74,
+      "coordinate_pair": "GA",
+      "square_cell": 18,
+      "geometry": "Literal source analysis",
+      "reconstructed_ciphertext_indices": [
+        103,
+        80
+      ],
+      "original_source_indices": [
+        103,
+        80
+      ]
+    },
+    {
+      "source_id": "p197_C",
+      "field": "readiness_hour_units",
+      "plaintext_index": 74,
+      "coordinate_pair": "GA",
+      "square_cell": 18,
+      "geometry": "Declared five-slot gap hypothesis",
+      "reconstructed_ciphertext_indices": [
+        103,
+        80
+      ],
+      "original_source_indices": [
+        98,
+        75
+      ]
+    }
+  ],
+  "field_order": [
+    "planned_hour_units_and_lorry_tonnage",
+    "departed_hour_units",
+    "readiness_hour_units",
+    "remaining_men"
+  ],
+  "square_cells": [
+    16,
+    2,
+    18,
+    19
+  ],
+  "unconditional_relationships": [
+    "The planned departure hour's units character and the lorry tonnage use FV.",
+    "The reported departure hour instead uses AF; those characters must differ under a bijective shared square.",
+    "The readiness-hour character GA and remaining-men character GD are distinct from both and from each other."
+  ],
+  "scenarios": [
+    {
+      "assumptions": "All four unresolved fields are ordinary single decimal digits; retain the stated source geometries and partial key.",
+      "field_assignments": 360,
+      "full_square_completions": 8640
+    },
+    {
+      "assumptions": "Also treat 13.45 as the departure report's same-day origin time and require its stated 1<AF>00 departure to be no later.",
+      "field_assignments": 120,
+      "full_square_completions": 2880,
+      "departed_hour_digit_domain": [
+        "2",
+        "3"
+      ],
+      "departed_times": [
+        "12:00",
+        "13:00"
+      ]
+    },
+    {
+      "assumptions": "Also identify the scheduled and departed movements and assume departure was not earlier than the scheduled hour.",
+      "field_assignments": 12,
+      "full_square_completions": 288,
+      "conditional_cells": {
+        "FV": "2",
+        "AF": "3"
+      },
+      "conditional_reading": "Planned 12:00, departed 13:00, a 2-ton lorry; the other two digits remain distinct members of 4789."
+    }
+  ],
+  "limitations": [
+    "The chronology, same-movement relation and no-early-departure condition are semantic hypotheses, not received coordinates.",
+    "No ranking or probability is assigned to these scenarios; the narrowest scenario is not promoted to recovered historical digits.",
+    "Headers and source errors could invalidate the semantic assumptions. All raw fields and the historical key remain unchanged.",
+    "The readiness passage has additional 0/X and 5/F disagreements; interpreting it as a clock also selects between those observed alternatives."
+  ]
+}

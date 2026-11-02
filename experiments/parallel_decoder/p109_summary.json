@@ -1,0 +1,7855 @@
+{
+  "schema": "adfgvx-parallel-decoder-summary-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "p109",
+  "status": "Exact model rankings and source costs, with no accepted new historical letters",
+  "minimum_cost_common_body_top_one": "ABENDMELUNGXSAVMXUEB0RGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE",
+  "all_four_runs_agree_at_their_minimum_coordinate_cost": true,
+  "completion_counts": [
+    {
+      "global_plaintext_span": [
+        0,
+        124
+      ],
+      "coordinate_types": {
+        "two_agree": 200,
+        "one_observed": 6,
+        "two_disagree": 42
+      },
+      "count_polynomial": "(1+5x^2)^two_agree * (2+4x)^two_disagree * (1+5x)^one_observed",
+      "counts_by_exact_excess_budget": [
+        "4398046511104",
+        "501377302265856",
+        "32277263344992256",
+        "1509233640750448640",
+        "56706014778826424320",
+        "1806185457482888904704",
+        "50411342415326122868736"
+      ],
+      "total_through_maximum_budget": "52275775904267282415616"
+    },
+    {
+      "global_plaintext_span": [
+        6,
+        114
+      ],
+      "coordinate_types": {
+        "two_agree": 173,
+        "two_disagree": 39,
+        "one_observed": 4
+      },
+      "count_polynomial": "(1+5x^2)^two_agree * (2+4x)^two_disagree * (1+5x)^one_observed",
+      "counts_by_exact_excess_budget": [
+        "549755813888",
+        "53876069761024",
+        "3045097453125632",
+        "126093092984979456",
+        "4220717825532100608",
+        "120267481258301325312",
+        "3012469097575949008896"
+      ],
+      "total_through_maximum_budget": "3137086489276046114816"
+    }
+  ],
+  "shared_top_one_body_intervals": [
+    {
+      "global_plaintext_span": [
+        67,
+        114
+      ],
+      "text": "XIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE",
+      "length": 47,
+      "top_one_hypotheses_compared": 28,
+      "positions_unique_in_minimum_cost_domains": 33,
+      "positions_selected_from_multiple_minimum_cost_letters": 14
+    },
+    {
+      "global_plaintext_span": [
+        27,
+        52
+      ],
+      "text": "RGANGLETZTERXALLEBEENDETX",
+      "length": 25,
+      "top_one_hypotheses_compared": 28,
+      "positions_unique_in_minimum_cost_domains": 15,
+      "positions_selected_from_multiple_minimum_cost_letters": 10
+    },
+    {
+      "global_plaintext_span": [
+        6,
+        21
+      ],
+      "text": "ABENDMELUNGXSAV",
+      "length": 15,
+      "top_one_hypotheses_compared": 28,
+      "positions_unique_in_minimum_cost_domains": 12,
+      "positions_selected_from_multiple_minimum_cost_letters": 3
+    },
+    {
+      "global_plaintext_span": [
+        53,
+        66
+      ],
+      "text": "WEITEREFDUXDI",
+      "length": 13,
+      "top_one_hypotheses_compared": 28,
+      "positions_unique_in_minimum_cost_domains": 8,
+      "positions_selected_from_multiple_minimum_cost_letters": 5
+    }
+  ],
+  "at_most_budget_envelopes": [
+    {
+      "scope": "full",
+      "objective": "military_quad",
+      "tie_order": "Higher language score, then lower coordinate cost, then ASCII lexical text",
+      "every_exact_budget_improves_the_best_at_most_score": true,
+      "best_with_at_most_budget": [
+        {
+          "maximum_allowed_excess_budget": 0,
+          "selected_exact_excess_budget": 0,
+          "integer_objective": -10720628684,
+          "plaintext": "OXKXMXABENDMELUNGXSAVMXUEB0RGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSEXXAXOXKX11"
+        },
+        {
+          "maximum_allowed_excess_budget": 1,
+          "selected_exact_excess_budget": 1,
+          "integer_objective": -10381357864,
+          "plaintext": "OXKXMXABENDMELUNGXSAVMXUEBURGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSEXXAXOXKX11"
+        },
+        {
+          "maximum_allowed_excess_budget": 2,
+          "selected_exact_excess_budget": 2,
+          "integer_objective": -10181777776,
+          "plaintext": "OXKXMXABENDMELUNGXSAVEXUEBURGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSEXXAXOXKX11"
+        },
+        {
+          "maximum_allowed_excess_budget": 3,
+          "selected_exact_excess_budget": 3,
+          "integer_objective": -10011406336,
+          "plaintext": "OXKXMXABENDMELUNGXSAVEXUEBURGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSERXASOXKX11"
+        },
+        {
+          "maximum_allowed_excess_budget": 4,
+          "selected_exact_excess_budget": 4,
+          "integer_objective": -9848660884,
+          "plaintext": "OXKXMXABENDMELUNGXSAVEXUEBURGANGLETZTERXALLEBEENDETXZWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSERXASOXKX11"
+        },
+        {
+          "maximum_allowed_excess_budget": 5,
+          "selected_exact_excess_budget": 5,
+          "integer_objective": -9729731532,
+          "plaintext": "OXKXMXABENDMELUNGXSAVEXUEBURGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIEXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSERXASOXKX11"
+        },
+        {
+          "maximum_allowed_excess_budget": 6,
+          "selected_exact_excess_budget": 6,
+          "integer_objective": -9566986080,
+          "plaintext": "OXKXMXABENDMELUNGXSAVEXUEBURGANGLETZTERXALLEBEENDETXZWEITEREFDUXDIEXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSERXASOXKX11"
+        }
+      ]
+    },
+    {
+      "scope": "full",
+      "objective": "military_mixed_30_70",
+      "tie_order": "Higher language score, then lower coordinate cost, then ASCII lexical text",
+      "every_exact_budget_improves_the_best_at_most_score": true,
+      "best_with_at_most_budget": [
+        {
+          "maximum_allowed_excess_budget": 0,
+          "selected_exact_excess_budget": 0,
+          "integer_objective": -15975983712724,
+          "plaintext": "OXKXMXABENDMELUNGXSAVMXUEB0RGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSEXXAXOXKX11"
+        },
+        {
+          "maximum_allowed_excess_budget": 1,
+          "selected_exact_excess_budget": 1,
+          "integer_objective": -15662523749236,
+          "plaintext": "OXKXMXABENDMELUNGXSAVMXUMBURGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSEXXAXOXKX11"
+        },
+        {
+          "maximum_allowed_excess_budget": 2,
+          "selected_exact_excess_budget": 2,
+          "integer_objective": -15371739110896,
+          "plaintext": "OXKXMXABENDMELUNGXSAVMXUEBERGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSEXXAXOXKX11"
+        },
+        {
+          "maximum_allowed_excess_budget": 3,
+          "selected_exact_excess_budget": 3,
+          "integer_objective": -15114432444692,
+          "plaintext": "OXKXMXABENDMELUNGXSAVMXUEBERGANGLETZTERXALLEBEENDETXZWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSEXXAXOXKX11"
+        },
+        {
+          "maximum_allowed_excess_budget": 4,
+          "selected_exact_excess_budget": 4,
+          "integer_objective": -14943299264068,
+          "plaintext": "OXKXMXABENDMELUNGXSAVMXUEBERGANGLETZTERXALLEBEENDETXZWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSESXAXOXKX11"
+        },
+        {
+          "maximum_allowed_excess_budget": 5,
+          "selected_exact_excess_budget": 5,
+          "integer_objective": -14715744904784,
+          "plaintext": "OXKXMXABENDMELUNGXSAVMXUEBERGANGLETZTERXALLEBEENDETXZWEITEREFDUXDIEXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSEXXAXOXKX11"
+        },
+        {
+          "maximum_allowed_excess_budget": 6,
+          "selected_exact_excess_budget": 6,
+          "integer_objective": -14544611724160,
+          "plaintext": "OXKXMXABENDMELUNGXSAVMXUEBERGANGLETZTERXALLEBEENDETXZWEITEREFDUXDIEXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSESXAXOXKX11"
+        }
+      ]
+    },
+    {
+      "scope": "body",
+      "objective": "military_quad",
+      "tie_order": "Higher language score, then lower coordinate cost, then ASCII lexical text",
+      "every_exact_budget_improves_the_best_at_most_score": true,
+      "best_with_at_most_budget": [
+        {
+          "maximum_allowed_excess_budget": 0,
+          "selected_exact_excess_budget": 0,
+          "integer_objective": -8751148768,
+          "plaintext": "ABENDMELUNGXSAVMXUEB0RGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        },
+        {
+          "maximum_allowed_excess_budget": 1,
+          "selected_exact_excess_budget": 1,
+          "integer_objective": -8411877948,
+          "plaintext": "ABENDMELUNGXSAVMXUEBURGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        },
+        {
+          "maximum_allowed_excess_budget": 2,
+          "selected_exact_excess_budget": 2,
+          "integer_objective": -8212297860,
+          "plaintext": "ABENDMELUNGXSAVEXUEBURGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        },
+        {
+          "maximum_allowed_excess_budget": 3,
+          "selected_exact_excess_budget": 3,
+          "integer_objective": -8049552408,
+          "plaintext": "ABENDMELUNGXSAVEXUEBURGANGLETZTERXALLEBEENDETXZWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        },
+        {
+          "maximum_allowed_excess_budget": 4,
+          "selected_exact_excess_budget": 4,
+          "integer_objective": -7930623056,
+          "plaintext": "ABENDMELUNGXSAVEXUEBURGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIEXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        },
+        {
+          "maximum_allowed_excess_budget": 5,
+          "selected_exact_excess_budget": 5,
+          "integer_objective": -7767877604,
+          "plaintext": "ABENDMELUNGXSAVEXUEBURGANGLETZTERXALLEBEENDETXZWEITEREFDUXDIEXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        },
+        {
+          "maximum_allowed_excess_budget": 6,
+          "selected_exact_excess_budget": 6,
+          "integer_objective": -7671490100,
+          "plaintext": "ABENDMELUNGXSAVEXUEBERGANGLETZTERXALLEBEENDETXZWEITEREFDUXDIEXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        }
+      ]
+    },
+    {
+      "scope": "body",
+      "objective": "military_mixed_30_70",
+      "tie_order": "Higher language score, then lower coordinate cost, then ASCII lexical text",
+      "every_exact_budget_improves_the_best_at_most_score": true,
+      "best_with_at_most_budget": [
+        {
+          "maximum_allowed_excess_budget": 0,
+          "selected_exact_excess_budget": 0,
+          "integer_objective": -11492919566112,
+          "plaintext": "ABENDMELUNGXSAVMXUEB0RGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        },
+        {
+          "maximum_allowed_excess_budget": 1,
+          "selected_exact_excess_budget": 1,
+          "integer_objective": -11221134198720,
+          "plaintext": "ABENDMELUNGXSAVMXUMBURGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        },
+        {
+          "maximum_allowed_excess_budget": 2,
+          "selected_exact_excess_budget": 2,
+          "integer_objective": -10968920723196,
+          "plaintext": "ABENDMELUNGXSAVMXUEBERGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        },
+        {
+          "maximum_allowed_excess_budget": 3,
+          "selected_exact_excess_budget": 3,
+          "integer_objective": -10745767199328,
+          "plaintext": "ABENDMELUNGXSAVMXUEBERGANGLETZTERXALLEBEENDETXZWEITEREFDUXDIVXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        },
+        {
+          "maximum_allowed_excess_budget": 4,
+          "selected_exact_excess_budget": 4,
+          "integer_objective": -10623175674360,
+          "plaintext": "ABENDMELUNGXSAVMXUEBERGANGLETZTERXALLEBEENDETXHWEITEREFDUXDIEXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        },
+        {
+          "maximum_allowed_excess_budget": 5,
+          "selected_exact_excess_budget": 5,
+          "integer_objective": -10400022150492,
+          "plaintext": "ABENDMELUNGXSAVMXUEBERGANGLETZTERXALLEBEENDETXZWEITEREFDUXDIEXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        },
+        {
+          "maximum_allowed_excess_budget": 6,
+          "selected_exact_excess_budget": 6,
+          "integer_objective": -10295346206580,
+          "plaintext": "ABENDMELUNGXSAVEXUEBERGANGLETZTERXALLEBEENDETXZWEITEREFDUXDIEXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE"
+        }
+      ]
+    }
+  ],
+  "post_hoc_phrase_probes": [
+    {
+      "word": "SAVA",
+      "global_plaintext_span": [
+        18,
+        22
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 2,
+      "word_coordinate_cost": 3,
+      "word_cost_by_witness": {
+        "B": 1,
+        "D_after_Norbert18": 2
+      },
+      "extra_coordinate_cost_needed": 1,
+      "minimum_full_message_cost_if_only_this_word_is_required": 43,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 6,
+              "rank": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "SAVE",
+      "global_plaintext_span": [
+        18,
+        22
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 2,
+      "word_coordinate_cost": 3,
+      "word_cost_by_witness": {
+        "B": 0,
+        "D_after_Norbert18": 3
+      },
+      "extra_coordinate_cost_needed": 1,
+      "minimum_full_message_cost_if_only_this_word_is_required": 43,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "SAVM",
+      "global_plaintext_span": [
+        18,
+        22
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 2,
+      "word_coordinate_cost": 2,
+      "word_cost_by_witness": {
+        "B": 0,
+        "D_after_Norbert18": 2
+      },
+      "extra_coordinate_cost_needed": 0,
+      "minimum_full_message_cost_if_only_this_word_is_required": 42,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            }
+          ]
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "SAV4",
+      "global_plaintext_span": [
+        18,
+        22
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 2,
+      "word_coordinate_cost": 2,
+      "word_cost_by_witness": {
+        "B": 1,
+        "D_after_Norbert18": 1
+      },
+      "extra_coordinate_cost_needed": 0,
+      "minimum_full_message_cost_if_only_this_word_is_required": 42,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            }
+          ]
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "UEBERGANG",
+      "global_plaintext_span": [
+        23,
+        32
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 5,
+      "word_coordinate_cost": 7,
+      "word_cost_by_witness": {
+        "B": 4,
+        "D_after_Norbert18": 3
+      },
+      "extra_coordinate_cost_needed": 2,
+      "minimum_full_message_cost_if_only_this_word_is_required": 44,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "UEBURGANG",
+      "global_plaintext_span": [
+        23,
+        32
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 5,
+      "word_coordinate_cost": 6,
+      "word_cost_by_witness": {
+        "B": 3,
+        "D_after_Norbert18": 3
+      },
+      "extra_coordinate_cost_needed": 1,
+      "minimum_full_message_cost_if_only_this_word_is_required": 43,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "UMBURGANG",
+      "global_plaintext_span": [
+        23,
+        32
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 5,
+      "word_coordinate_cost": 6,
+      "word_cost_by_witness": {
+        "B": 4,
+        "D_after_Norbert18": 2
+      },
+      "extra_coordinate_cost_needed": 1,
+      "minimum_full_message_cost_if_only_this_word_is_required": 43,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 1
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 1
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "UEB0RGANG",
+      "global_plaintext_span": [
+        23,
+        32
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 5,
+      "word_coordinate_cost": 5,
+      "word_cost_by_witness": {
+        "B": 2,
+        "D_after_Norbert18": 3
+      },
+      "extra_coordinate_cost_needed": 0,
+      "minimum_full_message_cost_if_only_this_word_is_required": 42,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            }
+          ]
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "TEILE",
+      "global_plaintext_span": [
+        39,
+        44
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 3,
+      "word_coordinate_cost": 4,
+      "word_cost_by_witness": {
+        "B": 3,
+        "D_after_Norbert18": 1
+      },
+      "extra_coordinate_cost_needed": 1,
+      "minimum_full_message_cost_if_only_this_word_is_required": 43,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        }
+      ]
+    },
+    {
+      "word": "XALLE",
+      "global_plaintext_span": [
+        39,
+        44
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 3,
+      "word_coordinate_cost": 3,
+      "word_cost_by_witness": {
+        "B": 0,
+        "D_after_Norbert18": 3
+      },
+      "extra_coordinate_cost_needed": 0,
+      "minimum_full_message_cost_if_only_this_word_is_required": 42,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "1WEITERE",
+      "global_plaintext_span": [
+        52,
+        60
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 4,
+      "word_coordinate_cost": 4,
+      "word_cost_by_witness": {
+        "B": 3,
+        "D_after_Norbert18": 1
+      },
+      "extra_coordinate_cost_needed": 0,
+      "minimum_full_message_cost_if_only_this_word_is_required": 42,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 4,
+              "rank": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "HWEITERE",
+      "global_plaintext_span": [
+        52,
+        60
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 4,
+      "word_coordinate_cost": 4,
+      "word_cost_by_witness": {
+        "B": 2,
+        "D_after_Norbert18": 2
+      },
+      "extra_coordinate_cost_needed": 0,
+      "minimum_full_message_cost_if_only_this_word_is_required": 42,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 5
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            }
+          ]
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 4
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 4
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ZWEITERE",
+      "global_plaintext_span": [
+        52,
+        60
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 4,
+      "word_coordinate_cost": 5,
+      "word_cost_by_witness": {
+        "B": 3,
+        "D_after_Norbert18": 2
+      },
+      "extra_coordinate_cost_needed": 1,
+      "minimum_full_message_cost_if_only_this_word_is_required": 43,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "FDLXDIV",
+      "global_plaintext_span": [
+        60,
+        67
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 2,
+      "word_coordinate_cost": 2,
+      "word_cost_by_witness": {
+        "B": 0,
+        "D_after_Norbert18": 2
+      },
+      "extra_coordinate_cost_needed": 0,
+      "minimum_full_message_cost_if_only_this_word_is_required": 42,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": []
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "FDUXDIV",
+      "global_plaintext_span": [
+        60,
+        67
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 2,
+      "word_coordinate_cost": 2,
+      "word_cost_by_witness": {
+        "B": 1,
+        "D_after_Norbert18": 1
+      },
+      "extra_coordinate_cost_needed": 0,
+      "minimum_full_message_cost_if_only_this_word_is_required": 42,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "FDUXDIE",
+      "global_plaintext_span": [
+        60,
+        67
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 2,
+      "word_coordinate_cost": 4,
+      "word_cost_by_witness": {
+        "B": 2,
+        "D_after_Norbert18": 2
+      },
+      "extra_coordinate_cost_needed": 2,
+      "minimum_full_message_cost_if_only_this_word_is_required": 44,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ERKANNT",
+      "global_plaintext_span": [
+        86,
+        93
+      ],
+      "minimum_cost_for_this_span_without_word_constraint": 3,
+      "word_coordinate_cost": 3,
+      "word_cost_by_witness": {
+        "B": 0,
+        "D_after_Norbert18": 3
+      },
+      "extra_coordinate_cost_needed": 0,
+      "minimum_full_message_cost_if_only_this_word_is_required": 42,
+      "reported_rankings": [
+        {
+          "scope": "full",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "full",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_quad",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "scope": "body",
+          "objective": "military_mixed_30_70",
+          "top_one_budgets": [
+            {
+              "excess_budget": 0
+            },
+            {
+              "excess_budget": 1
+            },
+            {
+              "excess_budget": 2
+            },
+            {
+              "excess_budget": 3
+            },
+            {
+              "excess_budget": 4
+            },
+            {
+              "excess_budget": 5
+            },
+            {
+              "excess_budget": 6
+            }
+          ],
+          "reported_top_ten_occurrences": [
+            {
+              "excess_budget": 0,
+              "rank": 1
+            },
+            {
+              "excess_budget": 0,
+              "rank": 2
+            },
+            {
+              "excess_budget": 0,
+              "rank": 3
+            },
+            {
+              "excess_budget": 0,
+              "rank": 4
+            },
+            {
+              "excess_budget": 0,
+              "rank": 5
+            },
+            {
+              "excess_budget": 0,
+              "rank": 6
+            },
+            {
+              "excess_budget": 0,
+              "rank": 7
+            },
+            {
+              "excess_budget": 0,
+              "rank": 8
+            },
+            {
+              "excess_budget": 0,
+              "rank": 9
+            },
+            {
+              "excess_budget": 0,
+              "rank": 10
+            },
+            {
+              "excess_budget": 1,
+              "rank": 1
+            },
+            {
+              "excess_budget": 1,
+              "rank": 2
+            },
+            {
+              "excess_budget": 1,
+              "rank": 3
+            },
+            {
+              "excess_budget": 1,
+              "rank": 4
+            },
+            {
+              "excess_budget": 1,
+              "rank": 5
+            },
+            {
+              "excess_budget": 1,
+              "rank": 6
+            },
+            {
+              "excess_budget": 1,
+              "rank": 7
+            },
+            {
+              "excess_budget": 1,
+              "rank": 8
+            },
+            {
+              "excess_budget": 1,
+              "rank": 9
+            },
+            {
+              "excess_budget": 1,
+              "rank": 10
+            },
+            {
+              "excess_budget": 2,
+              "rank": 1
+            },
+            {
+              "excess_budget": 2,
+              "rank": 2
+            },
+            {
+              "excess_budget": 2,
+              "rank": 3
+            },
+            {
+              "excess_budget": 2,
+              "rank": 4
+            },
+            {
+              "excess_budget": 2,
+              "rank": 5
+            },
+            {
+              "excess_budget": 2,
+              "rank": 6
+            },
+            {
+              "excess_budget": 2,
+              "rank": 7
+            },
+            {
+              "excess_budget": 2,
+              "rank": 8
+            },
+            {
+              "excess_budget": 2,
+              "rank": 9
+            },
+            {
+              "excess_budget": 2,
+              "rank": 10
+            },
+            {
+              "excess_budget": 3,
+              "rank": 1
+            },
+            {
+              "excess_budget": 3,
+              "rank": 2
+            },
+            {
+              "excess_budget": 3,
+              "rank": 3
+            },
+            {
+              "excess_budget": 3,
+              "rank": 4
+            },
+            {
+              "excess_budget": 3,
+              "rank": 5
+            },
+            {
+              "excess_budget": 3,
+              "rank": 6
+            },
+            {
+              "excess_budget": 3,
+              "rank": 7
+            },
+            {
+              "excess_budget": 3,
+              "rank": 8
+            },
+            {
+              "excess_budget": 3,
+              "rank": 9
+            },
+            {
+              "excess_budget": 3,
+              "rank": 10
+            },
+            {
+              "excess_budget": 4,
+              "rank": 1
+            },
+            {
+              "excess_budget": 4,
+              "rank": 2
+            },
+            {
+              "excess_budget": 4,
+              "rank": 3
+            },
+            {
+              "excess_budget": 4,
+              "rank": 4
+            },
+            {
+              "excess_budget": 4,
+              "rank": 5
+            },
+            {
+              "excess_budget": 4,
+              "rank": 6
+            },
+            {
+              "excess_budget": 4,
+              "rank": 7
+            },
+            {
+              "excess_budget": 4,
+              "rank": 8
+            },
+            {
+              "excess_budget": 4,
+              "rank": 9
+            },
+            {
+              "excess_budget": 4,
+              "rank": 10
+            },
+            {
+              "excess_budget": 5,
+              "rank": 1
+            },
+            {
+              "excess_budget": 5,
+              "rank": 2
+            },
+            {
+              "excess_budget": 5,
+              "rank": 3
+            },
+            {
+              "excess_budget": 5,
+              "rank": 4
+            },
+            {
+              "excess_budget": 5,
+              "rank": 5
+            },
+            {
+              "excess_budget": 5,
+              "rank": 6
+            },
+            {
+              "excess_budget": 5,
+              "rank": 7
+            },
+            {
+              "excess_budget": 5,
+              "rank": 8
+            },
+            {
+              "excess_budget": 5,
+              "rank": 9
+            },
+            {
+              "excess_budget": 5,
+              "rank": 10
+            },
+            {
+              "excess_budget": 6,
+              "rank": 1
+            },
+            {
+              "excess_budget": 6,
+              "rank": 2
+            },
+            {
+              "excess_budget": 6,
+              "rank": 3
+            },
+            {
+              "excess_budget": 6,
+              "rank": 4
+            },
+            {
+              "excess_budget": 6,
+              "rank": 5
+            },
+            {
+              "excess_budget": 6,
+              "rank": 6
+            },
+            {
+              "excess_budget": 6,
+              "rank": 7
+            },
+            {
+              "excess_budget": 6,
+              "rank": 8
+            },
+            {
+              "excess_budget": 6,
+              "rank": 9
+            },
+            {
+              "excess_budget": 6,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "joint_editorial_phrase_cost": {
+    "phrases": [
+      "SAVA or SAVE at18",
+      "UEBERGANG at23",
+      "TEILE at39"
+    ],
+    "minimum_excess_for_these_disjoint_constraints": 4,
+    "minimum_full_coordinate_cost": 46,
+    "scope": "Exact source-cost arithmetic; does not say the resulting full sentence is a model optimum or historical truth."
+  },
+  "source_nomenclature_context": {
+    "url": "https://www.archivinformationssystem.at/detail.aspx?ID=7182872",
+    "repository": "Austrian State Archives",
+    "record": "AT-OeStA/KA NL B/522.4.10",
+    "document_date": "1918-10-26",
+    "catalogue_title": "Durchschlag eines Befehls an Ludwig Kralik zum \u00dcbergang \u00fcber Save und Donau",
+    "scope": "The archive catalogue uses Save for the river in a contemporary crossing-order record. The original document image was not inspected, and this is not a parallel plaintext witness."
+  },
+  "limits": [
+    "Both scoring objectives use the same independently sourced corpus. Agreement is sensitivity evidence, not statistically independent evidence.",
+    "The model rankings do not endorse SAVM, UEBURGANG, LETZTERXALLE, HWEITERE, FDU, or DIEX as historical readings.",
+    "No signature, call sign, digit, or ending is assigned from a language-model optimum.",
+    "Absence from a reported top-ten list is not an impossibility proof or a global rank calculation.",
+    "The42-cost minimum and2^42 count assume one common full plaintext and the fixed earlier repair of D; different endings may have been sent."
+  ]
+}

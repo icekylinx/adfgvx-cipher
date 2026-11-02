@@ -1,0 +1,54 @@
+{
+  "verified": true,
+  "source_records": 4,
+  "all_coordinate_domain_sets_verified": true,
+  "source_coordinates_preserved_under_explicit_geometries": true,
+  "exact_duplicate_deletion_alternatives": 2,
+  "d_erasure_positions": [
+    74,
+    75
+  ],
+  "c_five_slot_gap_positions": [
+    64,
+    65
+  ],
+  "c_geometry_ciphertexts_identical": true,
+  "editorial_support": {
+    "lorry_and_petrol_pump": {
+      "support_counts": {
+        "complete_pair_in_at_least_one_witness": 66,
+        "observed_coordinate_composite": 1,
+        "requires_unattested_coordinate_emendation": 3
+      },
+      "minimum_combined_coordinate_cost": 8,
+      "editorial_minimum_combined_coordinate_cost": 13,
+      "specified_cost_by_witness": [
+        8,
+        5
+      ],
+      "positions_outside_minimum_cost_domains": [
+        34,
+        35,
+        51
+      ]
+    },
+    "equipment_for_darmstadt": {
+      "support_counts": {
+        "complete_pair_in_at_least_one_witness": 91,
+        "requires_erasure_fill": 1
+      },
+      "minimum_combined_coordinate_cost": 18,
+      "editorial_minimum_combined_coordinate_cost": 19,
+      "specified_cost_by_witness": [
+        6,
+        11
+      ],
+      "positions_outside_minimum_cost_domains": [
+        51
+      ]
+    }
+  },
+  "separate_p198_D_target_solved": false,
+  "original_historical_plaintexts_proved": false,
+  "certificate_sha256": "9cb285bfa1e0e2dafc6c9841f55447e910e4063103b071925d636b0286053950"
+}

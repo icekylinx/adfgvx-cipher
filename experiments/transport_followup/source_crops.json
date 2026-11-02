@@ -1,0 +1,48 @@
+{
+  "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+  "transformation": "Page rendering and rectangular crop only; no glyph alteration.",
+  "crops": [
+    {
+      "filename": "sources/excerpts/childs_p197_CD.png",
+      "printed_page": 197,
+      "pdf_page_1based": 200,
+      "render_dpi": 300,
+      "crop_pixels_xywh": [
+        235,
+        1950,
+        2050,
+        920
+      ],
+      "sha256": "61fae45cde3ff5f9fd730cb0f17dff1086eba678ba53739429ec37bda1d919a7",
+      "command": "pdftoppm -f 200 -singlefile -r 300 -x 235 -y 1950 -W 2050 -H 920 -png /path/to/childs.pdf sources/excerpts/childs_p197_CD"
+    },
+    {
+      "filename": "sources/excerpts/childs_p198_B.png",
+      "printed_page": 198,
+      "pdf_page_1based": 201,
+      "render_dpi": 300,
+      "crop_pixels_xywh": [
+        235,
+        1370,
+        2100,
+        450
+      ],
+      "sha256": "e449b064ad5f5058bbf4218087beda316c2ae5c4237765578c1fb704dfacbf80",
+      "command": "pdftoppm -f 201 -singlefile -r 300 -x 235 -y 1370 -W 2100 -H 450 -png /path/to/childs.pdf sources/excerpts/childs_p198_B"
+    },
+    {
+      "filename": "sources/excerpts/childs_p198_E.png",
+      "printed_page": 198,
+      "pdf_page_1based": 201,
+      "render_dpi": 300,
+      "crop_pixels_xywh": [
+        230,
+        2660,
+        2050,
+        480
+      ],
+      "sha256": "1fe8fbd0361fdae598d20a72ca5187f3fbf8febb5b4b23069ef4a7f1fb9f7b3e",
+      "command": "pdftoppm -f 201 -singlefile -r 300 -x 230 -y 2660 -W 2050 -H 480 -png /path/to/childs.pdf sources/excerpts/childs_p198_E"
+    }
+  ]
+}

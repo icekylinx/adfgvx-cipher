@@ -33,7 +33,7 @@ The identifiers follow the original challenge's printed page numbers. `p187` and
 | [p146](p146.md) | Kerch radio call-sign instruction | Duplicate-group repair; 117/122 positions before filling |
 | [p152](p152.md) | Silk purchases and transport from the Caucasus | Body recovered through a fuller parallel source |
 | [p153a](p153a.md) | Earlier orders; action still to be completed | New partial reading |
-| [p153b](p153b.md) | Rearguard artillery ammunition report | New partial reading; conditional body |
+| [p153b](p153b.md) | Rearguard artillery ammunition report | New partial reading; conditional body and linked footer |
 | [p158](p158.md) | Routing and army-key instructions | Two component sources identified |
 | [p164a](p164a.md) | Temesvar / MIRCO contextual fragments | Earlier conjectural partial reading |
 | [p164b](p164b.md) | Height 828 and an uneventful situation report | Earlier conjectural partial reading |
@@ -45,7 +45,7 @@ The identifiers follow the original challenge's printed page numbers. `p187` and
 | [p187b](p187b.md) | Teleprinter failure and written reporting | Earlier partial body; closing text unresolved |
 | [p189](p189.md) | Apparent vehicle request / await orders | Conditional reading through a near-parallel |
 | [p198](p198.md) | CHI intercept with a five-coordinate shortfall | Open |
-| [p215](p215.md) | Apparent Entente troop-transport report | Earlier partial reading; full fluent text unsupported |
+| [p215](p215.md) | Apparent Entente troop-transport report | Earlier partial; new conditional Corps Kosch interpretation |
 | [p217](p217.md) | British cruiser and Allied squadron at Sevastopol | Earlier body; date correction separately credited |
 
 ## Supplementary decipherments
@@ -66,5 +66,6 @@ These October 2026 readings were published by **Ayush Agarwal** and previously r
 | [p155 shipping message](context/p155.md) | Asgard and Tresivolus, troop pickup at Poti, and independently checked diary context; the route also appears in p73. |
 | [p164 A4 cavalry report](context/p164_A4.md) | A conditional dismounted-cavalry reading with all nine known-coordinate changes and thirteen fills explicit. |
 | [p185/p189 transport traffic](context/transport.md) | Seven source records, two near-parallel pairs, an 86/87-character composite transport order and the conditional p185 D gap model. |
+| [p197/p198 equipment and lorry orders](context/transport_197_198.md) | Four further witnesses, a literal duplicate-group repair, and readable composites with every extra coordinate change counted. |
 
 For the exact source layers use [the message catalog](../data/messages.json); for prior proposals use [the attributed reading registry](../data/prior_readings.json). [The review ledger](../data/review_ledger.json) records the scope and outcome of individual checks.

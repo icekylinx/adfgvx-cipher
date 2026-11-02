@@ -1,0 +1,301 @@
+{
+  "schema": "adfgvx-source-similarity-image-review-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System, Childs collection",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "pdf_bytes": 156848258,
+    "page_convention": "Printed page n is PDF page n+3 for these intercept pages."
+  },
+  "corpus_sha256": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc",
+  "indexing": "Zero-based, half-open coordinate spans. Query coordinates use the unchanged catalog analysis transcription.",
+  "selection": "The highest affine-local-score non-self OCR block for each of p73, p170 and p198 in the complete 788-block retrieval.",
+  "reviews": [
+    {
+      "query_id": "p73",
+      "block_id": "p105_ocr_block4",
+      "printed_page": 105,
+      "designation": "C, part 1",
+      "header": "NKJ v LP (4.55 p.m., November 2nd); FUER UKS 2/11 1300 3 TEILE; 1 TL; RICHI-238",
+      "printed_length_field": 238,
+      "source_rows": [
+        "GVGDG XXVFF FADXD GVFAA XGVGV GDVAF FAVFA GXDXV",
+        "DGXVV DFVVA GGGXX XGDXX GFXAG VXXXV DFDVG DGVXF",
+        "GVADF DXAGD VGAXG DXDGV AGXXF XDGDX DAFVD GXGXX",
+        "DXVAX XDDFD DGADF AGVDG FFDFG AFXVF DVGAV FDXDF",
+        "AVXVX VDGAA GVVGA XVFGX GAXXX FFGDD AADFA FXGAG",
+        "VGDGD FAVDG GDDFX GXDXD GVDAG VGXVA AFVVX XDX"
+      ],
+      "source_note": "All six rows are visible. The OCR block has 199 slots and omits the first 40-coordinate row; its other errors are retained in the separate OCR layer.",
+      "pdf_page_1based": 108,
+      "query": "D??FXGDVDXDGGAAAGFFDDVDXFXFGGDDAVGDDDADGDGFGGDDVVDXDGDAFDDXGXXDGXAVDXXDDGADDFGFAGVDXVFDXFDDFDDDFXDFGXFXVFDDDXXDXGDAGXFDGDDVFXGAXDFVFDVDXVXDFXDDXFDFVDGFDGDADGDGXXFGXFAAAXXXDXAGVXD",
+      "query_slots": 178,
+      "layers": {
+        "raw_corpus_ocr": {
+          "ciphertext": "DGXVVDFVVAGGGXXXGDXXGFXAGVXXXVDFDVGD?GVXFGVADFDXAGDVGAXGDXDGVAGXXFXDGDXDAFVDGXGXXDXVAXXDDFDDGADFAGVDGFFDFGAFXVFDVGAVFDXDFAVXVXVDGAAGVVGAXVFGXGAXXXFFGDDAADFAFXGAGVGDGDFAVDGGDDFXGXDXDGVDAGVGXVAAFVVXXDX",
+          "slots": 199,
+          "known_coordinates": 198,
+          "longest_exact_run": 5,
+          "full_query_fitting_cost": 98,
+          "optimal_local_alignment": {
+            "local_score": 23,
+            "query_span": [
+              50,
+              83
+            ],
+            "corpus_span": [
+              66,
+              100
+            ],
+            "known_exact_matches": 26,
+            "known_substitutions": 2,
+            "erasure_pairs": 0,
+            "gap_slots": 11,
+            "gap_runs": 6,
+            "aligned_query": "XDG--DAF-DDXGXXDGXAVDXX---DDGADDFGFAGVD",
+            "aligned_corpus": "XDGDXDAFVDGXGXXD-X-VAXXDDFDDGAD---FAGVD",
+            "known_substitution_pairs": [
+              [
+                57,
+                76
+              ],
+              [
+                67,
+                84
+              ]
+            ],
+            "erasure_pairs_indices": []
+          }
+        },
+        "image_reviewed_transcript": {
+          "ciphertext": "GVGDGXXVFFFADXDGVFAAXGVGVGDVAFFAVFAGXDXVDGXVVDFVVAGGGXXXGDXXGFXAGVXXXVDFDVGDGVXFGVADFDXAGDVGAXGDXDGVAGXXFXDGDXDAFVDGXGXXDXVAXXDDFDDGADFAGVDGFFDFGAFXVFDVGAVFDXDFAVXVXVDGAAGVVGAXVFGXGAXXXFFGDDAADFAFXGAGVGDGDFAVDGGDDFXGXDXDGVDAGVGXVAAFVVXXDX",
+          "slots": 238,
+          "known_coordinates": 238,
+          "longest_exact_run": 5,
+          "full_query_fitting_cost": 98,
+          "optimal_local_alignment": {
+            "local_score": 23,
+            "query_span": [
+              50,
+              83
+            ],
+            "corpus_span": [
+              105,
+              139
+            ],
+            "known_exact_matches": 26,
+            "known_substitutions": 2,
+            "erasure_pairs": 0,
+            "gap_slots": 11,
+            "gap_runs": 6,
+            "aligned_query": "XDG--DAF-DDXGXXDGXAVDXX---DDGADDFGFAGVD",
+            "aligned_corpus": "XDGDXDAFVDGXGXXD-X-VAXXDDFDDGAD---FAGVD",
+            "known_substitution_pairs": [
+              [
+                57,
+                115
+              ],
+              [
+                67,
+                123
+              ]
+            ],
+            "erasure_pairs_indices": []
+          }
+        }
+      },
+      "assessment": "No parallel transmission established. A short local resemblance does not account for the full target."
+    },
+    {
+      "query_id": "p170",
+      "block_id": "p110_ocr_block3",
+      "printed_page": 110,
+      "designation": "C",
+      "header": "NKJ v LP (5.09 p.m., November 3rd); FUER UKS 0520 (3/11); RICHI-398",
+      "printed_length_field": 398,
+      "source_rows": [
+        "VAGDF XVFGG AGFVG DGGXD XXGVG DAAXD GAAFF AGFDG",
+        "XXXVV GDXXG FXDXV GGVFG FAVGG DADXV FAGVG DGFVV",
+        "DAXDD AVVDV VFDGF DAADV AGXAG ADDFG XVXAX DGDGG",
+        "GGDAG GVVGD DVXGG AXGFD GADAX VGDGX GVFAX XGVVF",
+        "AXVAF GDVGA VXVDX GVXFF AGDVV GDVXV DAXDX XXVVA",
+        "GAGAA VXVXG ADXDV AXVVF DFFXG VGXGX AAXDD AXGGD",
+        "DXAVG FDVDA VFDAX FGDDF AGGXG GVDGD XDGDG DGVVD",
+        "AGDVF AFGXA VXFGA AVVAD FDVGV AFFVA VFVXG AGGXV",
+        "GFADA VGGGD XVFDV GDAXA GXGVF VADVD AAGVG VVVAV",
+        "VGDVD AFGVG VXGGD DADFG GAXXD VGDVX XXGAA DGV"
+      ],
+      "source_note": "Ten printed rows give 398 coordinates. Image review changes the OCR input length from 399 to 398; the short p170 similarity remains confined to the end of rows 9 and 10.",
+      "pdf_page_1based": 113,
+      "query": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "query_slots": 106,
+      "layers": {
+        "raw_corpus_ocr": {
+          "ciphertext": "VAGDFXVFGGAGFVGDGGXDXXGVGDAAXDGAAFFAGFDGXXXVVGDXXGFXDXVGGVFGFAVGGDADXVFAGVGDGFVVDAXDDAVVDVVFDGFDAADVAGXAGADDFGXVXAXDGDGGGGDAGGVVGDDVXGGAXGFDGADAXVGDGXGVFAXXGVV?AXVAFGDVGAVXVDXGVXFFAGDVVGDVXVDAXD?XXVVAGAGAAVXVXGADXDVAXVVFDFFXGVGXGXAAXDDAXGGDDXAVGFDVDAVFDAXFGDDFAGGXGGVDGDXDGDGDGVVVDAGDVFAFGXAVXFGAAVVADFDVGVAFFVAVFVXGAGGXVGFADAVGGGDXVFDVGDAXAGXGVFVADVDAAGVGVVVAVVGDVDAFGVGVXGGDDADFGGAXXDVGDVXXXGAADGV",
+          "slots": 399,
+          "known_coordinates": 397,
+          "longest_exact_run": 7,
+          "full_query_fitting_cost": 58,
+          "optimal_local_alignment": {
+            "local_score": 27,
+            "query_span": [
+              35,
+              55
+            ],
+            "corpus_span": [
+              352,
+              372
+            ],
+            "known_exact_matches": 18,
+            "known_substitutions": 1,
+            "erasure_pairs": 0,
+            "gap_slots": 2,
+            "gap_runs": 2,
+            "aligned_query": "AGVGVVV-VVGDADAFGDVGV",
+            "aligned_corpus": "AGVGVVVAVVGDVDAFG-VGV",
+            "known_substitution_pairs": [
+              [
+                46,
+                364
+              ]
+            ],
+            "erasure_pairs_indices": []
+          }
+        },
+        "image_reviewed_transcript": {
+          "ciphertext": "VAGDFXVFGGAGFVGDGGXDXXGVGDAAXDGAAFFAGFDGXXXVVGDXXGFXDXVGGVFGFAVGGDADXVFAGVGDGFVVDAXDDAVVDVVFDGFDAADVAGXAGADDFGXVXAXDGDGGGGDAGGVVGDDVXGGAXGFDGADAXVGDGXGVFAXXGVVFAXVAFGDVGAVXVDXGVXFFAGDVVGDVXVDAXDXXXVVAGAGAAVXVXGADXDVAXVVFDFFXGVGXGXAAXDDAXGGDDXAVGFDVDAVFDAXFGDDFAGGXGGVDGDXDGDGDGVVDAGDVFAFGXAVXFGAAVVADFDVGVAFFVAVFVXGAGGXVGFADAVGGGDXVFDVGDAXAGXGVFVADVDAAGVGVVVAVVGDVDAFGVGVXGGDDADFGGAXXDVGDVXXXGAADGV",
+          "slots": 398,
+          "known_coordinates": 398,
+          "longest_exact_run": 7,
+          "full_query_fitting_cost": 58,
+          "optimal_local_alignment": {
+            "local_score": 27,
+            "query_span": [
+              35,
+              55
+            ],
+            "corpus_span": [
+              351,
+              371
+            ],
+            "known_exact_matches": 18,
+            "known_substitutions": 1,
+            "erasure_pairs": 0,
+            "gap_slots": 2,
+            "gap_runs": 2,
+            "aligned_query": "AGVGVVV-VVGDADAFGDVGV",
+            "aligned_corpus": "AGVGVVVAVVGDVDAFG-VGV",
+            "known_substitution_pairs": [
+              [
+                46,
+                363
+              ]
+            ],
+            "erasure_pairs_indices": []
+          }
+        }
+      },
+      "assessment": "No parallel transmission established. A short local resemblance does not account for the full target."
+    },
+    {
+      "query_id": "p198",
+      "block_id": "p154_ocr_block1",
+      "printed_page": 154,
+      "designation": "A, part 2",
+      "header": "UKS v ZON (11.55 p.m., November 7th); 2 TL; RICHI-162",
+      "printed_length_field": 162,
+      "source_rows": [
+        "FXFXF AADVX XDDAV DFGXX DAAXV VDFDVD XXFVA",
+        "DAFXA FGVFV AFXFV XXVDV XVAXV DVVVG XXFAD",
+        "DVDXF AFXXA FAGFV VFXFF GGVFA XGXVF GAFAA",
+        "AFVGX ADGVA VF"
+      ],
+      "source_note": "The page itself prints 118 coordinates, including the six-letter group VDFDVD, despite the RICHI-162 field. No padding, deletion or assumed reconstruction is made.",
+      "pdf_page_1based": 157,
+      "query": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+      "query_slots": 165,
+      "layers": {
+        "raw_corpus_ocr": {
+          "ciphertext": "FXFXFAADVXXDDAVDFGXXDAAXVVDFDV?XXFVADAFXAFGVFVAFXFVXXVDVXVAXVDVVVGXXFADDVDXFAFXXAFAGFVVFXFFGGVFAXGXVFGAFAAAFVGXADGVAVF",
+          "slots": 118,
+          "known_coordinates": 117,
+          "longest_exact_run": 5,
+          "full_query_fitting_cost": 93,
+          "optimal_local_alignment": {
+            "local_score": 21,
+            "query_span": [
+              110,
+              133
+            ],
+            "corpus_span": [
+              85,
+              111
+            ],
+            "known_exact_matches": 20,
+            "known_substitutions": 2,
+            "erasure_pairs": 0,
+            "gap_slots": 5,
+            "gap_runs": 4,
+            "aligned_query": "VVXXFFGXGVF--GX-FGGFAAAF-GX",
+            "aligned_corpus": "VVFXFFG-GVFAXGXVFGAFAAAFVGX",
+            "known_substitution_pairs": [
+              [
+                112,
+                87
+              ],
+              [
+                125,
+                102
+              ]
+            ],
+            "erasure_pairs_indices": []
+          }
+        },
+        "image_reviewed_transcript": {
+          "ciphertext": "FXFXFAADVXXDDAVDFGXXDAAXVVDFDVDXXFVADAFXAFGVFVAFXFVXXVDVXVAXVDVVVGXXFADDVDXFAFXXAFAGFVVFXFFGGVFAXGXVFGAFAAAFVGXADGVAVF",
+          "slots": 118,
+          "known_coordinates": 118,
+          "longest_exact_run": 5,
+          "full_query_fitting_cost": 94,
+          "optimal_local_alignment": {
+            "local_score": 21,
+            "query_span": [
+              110,
+              133
+            ],
+            "corpus_span": [
+              85,
+              111
+            ],
+            "known_exact_matches": 20,
+            "known_substitutions": 2,
+            "erasure_pairs": 0,
+            "gap_slots": 5,
+            "gap_runs": 4,
+            "aligned_query": "VVXXFFGXGVF--GX-FGGFAAAF-GX",
+            "aligned_corpus": "VVFXFFG-GVFAXGXVFGAFAAAFVGX",
+            "known_substitution_pairs": [
+              [
+                112,
+                87
+              ],
+              [
+                125,
+                102
+              ]
+            ],
+            "erasure_pairs_indices": []
+          }
+        }
+      },
+      "assessment": "No parallel transmission established. A short local resemblance does not account for the full target."
+    }
+  ],
+  "limits": [
+    "Only these three leading candidates were newly transcribed from the original page images.",
+    "The full corpus remains an unverified OCR retrieval aid, not an edition of all printed ciphertext.",
+    "No image-reviewed transcript here is substituted into data/messages.json or used to propose a plaintext."
+  ]
+}

@@ -1,0 +1,1059 @@
+{
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "status": "Conditional editorial interpretation; not an exact historical decryption.",
+  "source_certificate": "data/certificates/p215.json",
+  "source_certificate_sha256": "cf69f9d4c41d492732ba04267676faeacf45fc751ce242a4d9f185e26fa21abc",
+  "index_convention": "All character and coordinate indices are zero-based; end positions are exclusive.",
+  "key": {
+    "id": "Nov22-24",
+    "column_rank_order": [
+      6,
+      12,
+      16,
+      7,
+      14,
+      22,
+      11,
+      18,
+      1,
+      15,
+      8,
+      10,
+      20,
+      2,
+      13,
+      21,
+      3,
+      17,
+      19,
+      5,
+      9,
+      4
+    ],
+    "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "source": "data/keys.json, Nov22-24"
+  },
+  "geometry": {
+    "source": "Norbert,comment32,2017-03-03",
+    "insertions": [
+      {
+        "original_index": 30,
+        "count": 5
+      },
+      {
+        "original_index": 215,
+        "count": 5
+      }
+    ],
+    "resulting_length": 258,
+    "note": "This is a published correction hypothesis, not the printed length. The page advertises248symbols. Missing coordinates remain erased."
+  },
+  "raw_partial_plaintext": "ABSXMI?I5XNA6M?LD?XS4NXS4?XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXN??OHLXKOR1S??OSCHX3Y52",
+  "segments": [
+    {
+      "id": "mili5",
+      "plaintext_start": 4,
+      "plaintext_end_exclusive": 9,
+      "raw_segment": "MI?I5",
+      "proposal": "MILI5",
+      "note": "Unexpanded identifier; L is allowed but not independently established.",
+      "incompatible_plaintext_positions": [],
+      "known_coordinate_substitutions": [],
+      "erased_coordinate_fills": [
+        {
+          "plaintext_index": 6,
+          "proposed_character": "L",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 222,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "G"
+        }
+      ],
+      "partially_reencrypted_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXD?F???????DDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGV?FA?GDDAFGG?DVFFDX???VDFAAAXXADGFFDFFX??G????VAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+      "raw_plaintext_after_declared_segment_repair": "ABSXMILI5XNA6M?LD?XS4NXS4?XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXN??OHLXKOR1S??OSCHX3Y52",
+      "counts": {
+        "plaintext_length": 5,
+        "incompatible_plaintext_positions": 0,
+        "known_coordinate_substitutions": 0,
+        "erased_coordinate_fills": 1,
+        "source_erasure_fills": 0,
+        "inserted_gap_fills": 1
+      }
+    },
+    {
+      "id": "midi5",
+      "plaintext_start": 4,
+      "plaintext_end_exclusive": 9,
+      "raw_segment": "MI?I5",
+      "proposal": "MIDI5",
+      "note": "Earlier shortened identifier; D needs one known-coordinate change.",
+      "incompatible_plaintext_positions": [
+        {
+          "plaintext_index": 6,
+          "baseline_allowed_characters": "ALMQSY",
+          "proposed_character": "D"
+        }
+      ],
+      "known_coordinate_substitutions": [
+        {
+          "plaintext_index": 6,
+          "proposed_character": "D",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 12,
+          "original_ciphertext_index": 12,
+          "observed": "A",
+          "proposed": "G"
+        }
+      ],
+      "erased_coordinate_fills": [
+        {
+          "plaintext_index": 6,
+          "proposed_character": "D",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 222,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "G"
+        }
+      ],
+      "partially_reencrypted_ciphertext": "VGADAFAXADXFGXFFVXDDXXXDXD?F???????DDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGV?FA?GDDAFGG?DVFFDX???VDFAAAXXADGFFDFFX??G????VAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+      "raw_plaintext_after_declared_segment_repair": "ABSXMIDI5XNA6M?LD?XS4NXS4?XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXN??OHLXKOR1S??OSCHX3Y52",
+      "counts": {
+        "plaintext_length": 5,
+        "incompatible_plaintext_positions": 1,
+        "known_coordinate_substitutions": 1,
+        "erased_coordinate_fills": 1,
+        "source_erasure_fills": 0,
+        "inserted_gap_fills": 1
+      }
+    },
+    {
+      "id": "eilmeldg",
+      "plaintext_start": 10,
+      "plaintext_end_exclusive": 18,
+      "raw_segment": "NA6M?LD?",
+      "proposal": "EILMELDG",
+      "note": "Earlier editorial expansion; the raw prefix does not force this word.",
+      "incompatible_plaintext_positions": [
+        {
+          "plaintext_index": 10,
+          "baseline_allowed_characters": "N",
+          "proposed_character": "E"
+        },
+        {
+          "plaintext_index": 11,
+          "baseline_allowed_characters": "A",
+          "proposed_character": "I"
+        },
+        {
+          "plaintext_index": 12,
+          "baseline_allowed_characters": "6",
+          "proposed_character": "L"
+        }
+      ],
+      "known_coordinate_substitutions": [
+        {
+          "plaintext_index": 10,
+          "proposed_character": "E",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 93,
+          "original_ciphertext_index": 88,
+          "observed": "A",
+          "proposed": "F"
+        },
+        {
+          "plaintext_index": 10,
+          "proposed_character": "E",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 35,
+          "original_ciphertext_index": 30,
+          "observed": "D",
+          "proposed": "V"
+        },
+        {
+          "plaintext_index": 11,
+          "proposed_character": "I",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 58,
+          "original_ciphertext_index": 53,
+          "observed": "X",
+          "proposed": "D"
+        },
+        {
+          "plaintext_index": 11,
+          "proposed_character": "I",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 129,
+          "original_ciphertext_index": 124,
+          "observed": "A",
+          "proposed": "V"
+        },
+        {
+          "plaintext_index": 12,
+          "proposed_character": "L",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 70,
+          "original_ciphertext_index": 65,
+          "observed": "V",
+          "proposed": "A"
+        }
+      ],
+      "erased_coordinate_fills": [
+        {
+          "plaintext_index": 14,
+          "proposed_character": "E",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 200,
+          "original_ciphertext_index": 195,
+          "observed": "?",
+          "proposed": "V"
+        },
+        {
+          "plaintext_index": 17,
+          "proposed_character": "G",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 223,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "G"
+        }
+      ],
+      "partially_reencrypted_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXD?F???????VDAVFVGXDFFXDGFVVVFAGXXDAFAGDDFAVDGAAVXFAFDXAFDGADVAFFVVFFFAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAVXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGV?FA?GDDAFGG?DVFFDXV??VDFAAAXXADGFFDFFX???G???VAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+      "raw_plaintext_after_declared_segment_repair": "ABSXMI?I5XEILMELDGXS4NXS4?XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXN??OHLXKOR1S??OSCHX3Y52",
+      "counts": {
+        "plaintext_length": 8,
+        "incompatible_plaintext_positions": 3,
+        "known_coordinate_substitutions": 5,
+        "erased_coordinate_fills": 2,
+        "source_erasure_fills": 1,
+        "inserted_gap_fills": 1
+      }
+    },
+    {
+      "id": "kertsch",
+      "plaintext_start": 33,
+      "plaintext_end_exclusive": 40,
+      "raw_segment": "KER?SC?",
+      "proposal": "KERTSCH",
+      "note": "Likely place name; the two erased letters permit T and H.",
+      "incompatible_plaintext_positions": [],
+      "known_coordinate_substitutions": [],
+      "erased_coordinate_fills": [
+        {
+          "plaintext_index": 36,
+          "proposed_character": "T",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 202,
+          "original_ciphertext_index": 197,
+          "observed": "?",
+          "proposed": "D"
+        },
+        {
+          "plaintext_index": 39,
+          "proposed_character": "H",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 225,
+          "original_ciphertext_index": 215,
+          "observed": "?",
+          "proposed": "V"
+        }
+      ],
+      "partially_reencrypted_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXD?F???????DDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGV?FA?GDDAFGG?DVFFDX??DVDFAAAXXADGFFDFFX?????V?VAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+      "raw_plaintext_after_declared_segment_repair": "ABSXMI?I5XNA6M?LD?XS4NXS4?XN?R?DAKERTSCHXBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXN??OHLXKOR1S??OSCHX3Y52",
+      "counts": {
+        "plaintext_length": 7,
+        "incompatible_plaintext_positions": 0,
+        "known_coordinate_substitutions": 0,
+        "erased_coordinate_fills": 2,
+        "source_erasure_fills": 2,
+        "inserted_gap_fills": 0
+      }
+    },
+    {
+      "id": "ententeflotte",
+      "plaintext_start": 47,
+      "plaintext_end_exclusive": 60,
+      "raw_segment": "ENT?N?EFLHTTE",
+      "proposal": "ENTENTEFLOTTE",
+      "note": "Plausible wording for the Entente fleet.",
+      "incompatible_plaintext_positions": [
+        {
+          "plaintext_index": 52,
+          "baseline_allowed_characters": "078BDU",
+          "proposed_character": "T"
+        },
+        {
+          "plaintext_index": 56,
+          "baseline_allowed_characters": "H",
+          "proposed_character": "O"
+        }
+      ],
+      "known_coordinate_substitutions": [
+        {
+          "plaintext_index": 52,
+          "proposed_character": "T",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 192,
+          "original_ciphertext_index": 187,
+          "observed": "G",
+          "proposed": "D"
+        },
+        {
+          "plaintext_index": 56,
+          "proposed_character": "O",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 181,
+          "original_ciphertext_index": 176,
+          "observed": "V",
+          "proposed": "X"
+        }
+      ],
+      "erased_coordinate_fills": [
+        {
+          "plaintext_index": 50,
+          "proposed_character": "E",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 226,
+          "original_ciphertext_index": 216,
+          "observed": "?",
+          "proposed": "F"
+        },
+        {
+          "plaintext_index": 52,
+          "proposed_character": "T",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 28,
+          "original_ciphertext_index": 28,
+          "observed": "?",
+          "proposed": "V"
+        }
+      ],
+      "partially_reencrypted_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXD?FV??????DDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGX?FA?GDDAFGD?DVFFDX???VDFAAAXXADGFFDFFX??????FVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+      "raw_plaintext_after_declared_segment_repair": "ABSXMI?I5XNA6M?LD?XS4NXS4?XN?R?DAKER?SC?XBRINGTENTENTEFLOTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXN??OHLXKOR1S??OSCHX3Y52",
+      "counts": {
+        "plaintext_length": 13,
+        "incompatible_plaintext_positions": 2,
+        "known_coordinate_substitutions": 2,
+        "erased_coordinate_fills": 2,
+        "source_erasure_fills": 2,
+        "inserted_gap_fills": 0
+      }
+    },
+    {
+      "id": "zwodivisionen",
+      "plaintext_start": 60,
+      "plaintext_end_exclusive": 73,
+      "raw_segment": "ZWO?IVI?IONEN",
+      "proposal": "ZWODIVISIONEN",
+      "note": "Plausible count and unit word; this does not identify the units.",
+      "incompatible_plaintext_positions": [],
+      "known_coordinate_substitutions": [],
+      "erased_coordinate_fills": [
+        {
+          "plaintext_index": 63,
+          "proposed_character": "D",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 29,
+          "original_ciphertext_index": 29,
+          "observed": "?",
+          "proposed": "G"
+        },
+        {
+          "plaintext_index": 63,
+          "proposed_character": "D",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 193,
+          "original_ciphertext_index": 188,
+          "observed": "?",
+          "proposed": "G"
+        },
+        {
+          "plaintext_index": 67,
+          "proposed_character": "S",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 182,
+          "original_ciphertext_index": 177,
+          "observed": "?",
+          "proposed": "D"
+        }
+      ],
+      "partially_reencrypted_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXD?F?G?????DDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFA?GDDAFGGGDVFFDX???VDFAAAXXADGFFDFFX???????VAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+      "raw_plaintext_after_declared_segment_repair": "ABSXMI?I5XNA6M?LD?XS4NXS4?XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWODIVISIONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXN??OHLXKOR1S??OSCHX3Y52",
+      "counts": {
+        "plaintext_length": 13,
+        "incompatible_plaintext_positions": 0,
+        "known_coordinate_substitutions": 0,
+        "erased_coordinate_fills": 3,
+        "source_erasure_fills": 3,
+        "inserted_gap_fills": 0
+      }
+    },
+    {
+      "id": "neuseelaender",
+      "plaintext_start": 74,
+      "plaintext_end_exclusive": 87,
+      "raw_segment": "?EUSRELAEND?R",
+      "proposal": "NEUSEELAENDER",
+      "note": "Earlier reading; the nationality and any deployment remain uncorroborated.",
+      "incompatible_plaintext_positions": [
+        {
+          "plaintext_index": 78,
+          "baseline_allowed_characters": "R",
+          "proposed_character": "E"
+        }
+      ],
+      "known_coordinate_substitutions": [
+        {
+          "plaintext_index": 78,
+          "proposed_character": "E",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 76,
+          "original_ciphertext_index": 71,
+          "observed": "F",
+          "proposed": "V"
+        }
+      ],
+      "erased_coordinate_fills": [
+        {
+          "plaintext_index": 74,
+          "proposed_character": "N",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 30,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "A"
+        },
+        {
+          "plaintext_index": 85,
+          "proposed_character": "E",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 31,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "F"
+        }
+      ],
+      "partially_reencrypted_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXD?F??AF???DDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAVDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGV?FA?GDDAFGG?DVFFDX???VDFAAAXXADGFFDFFX???????VAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+      "raw_plaintext_after_declared_segment_repair": "ABSXMI?I5XNA6M?LD?XS4NXS4?XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENXNEUSEELAENDERXENGLXUXF?ATZ?XMITXN??OHLXKOR1S??OSCHX3Y52",
+      "counts": {
+        "plaintext_length": 13,
+        "incompatible_plaintext_positions": 1,
+        "known_coordinate_substitutions": 1,
+        "erased_coordinate_fills": 2,
+        "source_erasure_fills": 0,
+        "inserted_gap_fills": 2
+      }
+    },
+    {
+      "id": "franzo",
+      "plaintext_start": 95,
+      "plaintext_end_exclusive": 101,
+      "raw_segment": "F?ATZ?",
+      "proposal": "FRANZO",
+      "note": "Earlier abbreviated French nationality reading.",
+      "incompatible_plaintext_positions": [
+        {
+          "plaintext_index": 98,
+          "baseline_allowed_characters": "T",
+          "proposed_character": "N"
+        },
+        {
+          "plaintext_index": 100,
+          "baseline_allowed_characters": "1GJKWX",
+          "proposed_character": "O"
+        }
+      ],
+      "known_coordinate_substitutions": [
+        {
+          "plaintext_index": 98,
+          "proposed_character": "N",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 101,
+          "original_ciphertext_index": 96,
+          "observed": "V",
+          "proposed": "A"
+        },
+        {
+          "plaintext_index": 100,
+          "proposed_character": "O",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 78,
+          "original_ciphertext_index": 73,
+          "observed": "X",
+          "proposed": "F"
+        }
+      ],
+      "erased_coordinate_fills": [
+        {
+          "plaintext_index": 96,
+          "proposed_character": "R",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 32,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "F"
+        },
+        {
+          "plaintext_index": 100,
+          "proposed_character": "O",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 185,
+          "original_ciphertext_index": 180,
+          "observed": "?",
+          "proposed": "X"
+        }
+      ],
+      "partially_reencrypted_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXD?F????F??DDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDFAFDGADVAFFVVFFAAXDGVVAAXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGV?FAXGDDAFGG?DVFFDX???VDFAAAXXADGFFDFFX???????VAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+      "raw_plaintext_after_declared_segment_repair": "ABSXMI?I5XNA6M?LD?XS4NXS4?XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXFRANZOXMITXN??OHLXKOR1S??OSCHX3Y52",
+      "counts": {
+        "plaintext_length": 6,
+        "incompatible_plaintext_positions": 2,
+        "known_coordinate_substitutions": 2,
+        "erased_coordinate_fills": 2,
+        "source_erasure_fills": 1,
+        "inserted_gap_fills": 1
+      }
+    },
+    {
+      "id": "nur_ohl",
+      "plaintext_start": 106,
+      "plaintext_end_exclusive": 112,
+      "raw_segment": "N??OHL",
+      "proposal": "NUROHL",
+      "note": "Possible distribution restriction, not a recovered instruction.",
+      "incompatible_plaintext_positions": [
+        {
+          "plaintext_index": 107,
+          "baseline_allowed_characters": "CFHORZ",
+          "proposed_character": "U"
+        },
+        {
+          "plaintext_index": 108,
+          "baseline_allowed_characters": "078BDU",
+          "proposed_character": "R"
+        }
+      ],
+      "known_coordinate_substitutions": [
+        {
+          "plaintext_index": 107,
+          "proposed_character": "U",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 197,
+          "original_ciphertext_index": 192,
+          "observed": "F",
+          "proposed": "G"
+        },
+        {
+          "plaintext_index": 108,
+          "proposed_character": "R",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 55,
+          "original_ciphertext_index": 50,
+          "observed": "G",
+          "proposed": "F"
+        }
+      ],
+      "erased_coordinate_fills": [
+        {
+          "plaintext_index": 107,
+          "proposed_character": "U",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 33,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "V"
+        },
+        {
+          "plaintext_index": 108,
+          "proposed_character": "R",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 220,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "F"
+        }
+      ],
+      "partially_reencrypted_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXD?F?????V?DDAVFVGXDFFXDGFVVVFAFXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGV?FA?GDDAFGG?DVFGDX???VDFAAAXXADGFFDFFXF??????VAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+      "raw_plaintext_after_declared_segment_repair": "ABSXMI?I5XNA6M?LD?XS4NXS4?XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXNUROHLXKOR1S??OSCHX3Y52",
+      "counts": {
+        "plaintext_length": 6,
+        "incompatible_plaintext_positions": 2,
+        "known_coordinate_substitutions": 2,
+        "erased_coordinate_fills": 2,
+        "source_erasure_fills": 0,
+        "inserted_gap_fills": 2
+      }
+    },
+    {
+      "id": "korps_kosch",
+      "plaintext_start": 113,
+      "plaintext_end_exclusive": 124,
+      "raw_segment": "KOR1S??OSCH",
+      "proposal": "KORPSXKOSCH",
+      "note": "New editorial lead: Corps Kosch, with an explicit separator.",
+      "incompatible_plaintext_positions": [
+        {
+          "plaintext_index": 116,
+          "baseline_allowed_characters": "1",
+          "proposed_character": "P"
+        },
+        {
+          "plaintext_index": 118,
+          "baseline_allowed_characters": "3459NT",
+          "proposed_character": "X"
+        }
+      ],
+      "known_coordinate_substitutions": [
+        {
+          "plaintext_index": 116,
+          "proposed_character": "P",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 22,
+          "original_ciphertext_index": 22,
+          "observed": "X",
+          "proposed": "V"
+        },
+        {
+          "plaintext_index": 118,
+          "proposed_character": "X",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 198,
+          "original_ciphertext_index": 193,
+          "observed": "D",
+          "proposed": "X"
+        }
+      ],
+      "erased_coordinate_fills": [
+        {
+          "plaintext_index": 118,
+          "proposed_character": "X",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 34,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "A"
+        },
+        {
+          "plaintext_index": 119,
+          "proposed_character": "K",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 221,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "F"
+        }
+      ],
+      "partially_reencrypted_ciphertext": "VGADAFAXADXFAXFFVXDDXXVDXD?F??????ADDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGV?FA?GDDAFGG?DVFFXX???VDFAAAXXADGFFDFFX?F?????VAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+      "raw_plaintext_after_declared_segment_repair": "ABSXMI?I5XNA6M?LD?XS4NXS4?XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXN??OHLXKORPSXKOSCHX3Y52",
+      "counts": {
+        "plaintext_length": 11,
+        "incompatible_plaintext_positions": 2,
+        "known_coordinate_substitutions": 2,
+        "erased_coordinate_fills": 2,
+        "source_erasure_fills": 0,
+        "inserted_gap_fills": 2
+      }
+    },
+    {
+      "id": "korpsfrisch",
+      "plaintext_start": 113,
+      "plaintext_end_exclusive": 124,
+      "raw_segment": "KOR1S??OSCH",
+      "proposal": "KORPSFRISCH",
+      "note": "Baertl comment39 reading, compared at the same position and length.",
+      "incompatible_plaintext_positions": [
+        {
+          "plaintext_index": 116,
+          "baseline_allowed_characters": "1",
+          "proposed_character": "P"
+        },
+        {
+          "plaintext_index": 118,
+          "baseline_allowed_characters": "3459NT",
+          "proposed_character": "F"
+        },
+        {
+          "plaintext_index": 119,
+          "baseline_allowed_characters": "1GJKWX",
+          "proposed_character": "R"
+        },
+        {
+          "plaintext_index": 120,
+          "baseline_allowed_characters": "O",
+          "proposed_character": "I"
+        }
+      ],
+      "known_coordinate_substitutions": [
+        {
+          "plaintext_index": 116,
+          "proposed_character": "P",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 22,
+          "original_ciphertext_index": 22,
+          "observed": "X",
+          "proposed": "V"
+        },
+        {
+          "plaintext_index": 118,
+          "proposed_character": "F",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 198,
+          "original_ciphertext_index": 193,
+          "observed": "D",
+          "proposed": "F"
+        },
+        {
+          "plaintext_index": 119,
+          "proposed_character": "R",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 56,
+          "original_ciphertext_index": 51,
+          "observed": "X",
+          "proposed": "F"
+        },
+        {
+          "plaintext_index": 120,
+          "proposed_character": "I",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 103,
+          "original_ciphertext_index": 98,
+          "observed": "X",
+          "proposed": "D"
+        },
+        {
+          "plaintext_index": 120,
+          "proposed_character": "I",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 45,
+          "original_ciphertext_index": 40,
+          "observed": "F",
+          "proposed": "V"
+        }
+      ],
+      "erased_coordinate_fills": [
+        {
+          "plaintext_index": 118,
+          "proposed_character": "F",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 34,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "G"
+        },
+        {
+          "plaintext_index": 119,
+          "proposed_character": "R",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 221,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "F"
+        }
+      ],
+      "partially_reencrypted_ciphertext": "VGADAFAXADXFAXFFVXDDXXVDXD?F??????GDDAVFVGXDFVXDGFVVVFAGFXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXDVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGV?FA?GDDAFGG?DVFFFX???VDFAAAXXADGFFDFFX?F?????VAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+      "raw_plaintext_after_declared_segment_repair": "ABSXMI?I5XNA6M?LD?XS4NXS4?XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXN??OHLXKORPSFRISCHX3Y52",
+      "counts": {
+        "plaintext_length": 11,
+        "incompatible_plaintext_positions": 4,
+        "known_coordinate_substitutions": 5,
+        "erased_coordinate_fills": 2,
+        "source_erasure_fills": 0,
+        "inserted_gap_fills": 2
+      }
+    },
+    {
+      "id": "body_with_kosch",
+      "plaintext_start": 33,
+      "plaintext_end_exclusive": 125,
+      "raw_segment": "KER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRELAEND?RXENGLXUXF?ATZ?XMITXN??OHLXKOR1S??OSCHX",
+      "proposal": "KERTSCHXBRINGTENTENTEFLOTTEZWODIVISIONENXNEUSEELAENDERXENGLXUXFRANZOXMITXNUROHLXKORPSXKOSCHX",
+      "note": "Readable editorial segment; prefix and final reference remain unresolved. All costs are explicit.",
+      "incompatible_plaintext_positions": [
+        {
+          "plaintext_index": 52,
+          "baseline_allowed_characters": "078BDU",
+          "proposed_character": "T"
+        },
+        {
+          "plaintext_index": 56,
+          "baseline_allowed_characters": "H",
+          "proposed_character": "O"
+        },
+        {
+          "plaintext_index": 78,
+          "baseline_allowed_characters": "R",
+          "proposed_character": "E"
+        },
+        {
+          "plaintext_index": 98,
+          "baseline_allowed_characters": "T",
+          "proposed_character": "N"
+        },
+        {
+          "plaintext_index": 100,
+          "baseline_allowed_characters": "1GJKWX",
+          "proposed_character": "O"
+        },
+        {
+          "plaintext_index": 107,
+          "baseline_allowed_characters": "CFHORZ",
+          "proposed_character": "U"
+        },
+        {
+          "plaintext_index": 108,
+          "baseline_allowed_characters": "078BDU",
+          "proposed_character": "R"
+        },
+        {
+          "plaintext_index": 116,
+          "baseline_allowed_characters": "1",
+          "proposed_character": "P"
+        },
+        {
+          "plaintext_index": 118,
+          "baseline_allowed_characters": "3459NT",
+          "proposed_character": "X"
+        }
+      ],
+      "known_coordinate_substitutions": [
+        {
+          "plaintext_index": 52,
+          "proposed_character": "T",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 192,
+          "original_ciphertext_index": 187,
+          "observed": "G",
+          "proposed": "D"
+        },
+        {
+          "plaintext_index": 56,
+          "proposed_character": "O",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 181,
+          "original_ciphertext_index": 176,
+          "observed": "V",
+          "proposed": "X"
+        },
+        {
+          "plaintext_index": 78,
+          "proposed_character": "E",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 76,
+          "original_ciphertext_index": 71,
+          "observed": "F",
+          "proposed": "V"
+        },
+        {
+          "plaintext_index": 98,
+          "proposed_character": "N",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 101,
+          "original_ciphertext_index": 96,
+          "observed": "V",
+          "proposed": "A"
+        },
+        {
+          "plaintext_index": 100,
+          "proposed_character": "O",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 78,
+          "original_ciphertext_index": 73,
+          "observed": "X",
+          "proposed": "F"
+        },
+        {
+          "plaintext_index": 107,
+          "proposed_character": "U",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 197,
+          "original_ciphertext_index": 192,
+          "observed": "F",
+          "proposed": "G"
+        },
+        {
+          "plaintext_index": 108,
+          "proposed_character": "R",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 55,
+          "original_ciphertext_index": 50,
+          "observed": "G",
+          "proposed": "F"
+        },
+        {
+          "plaintext_index": 116,
+          "proposed_character": "P",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 22,
+          "original_ciphertext_index": 22,
+          "observed": "X",
+          "proposed": "V"
+        },
+        {
+          "plaintext_index": 118,
+          "proposed_character": "X",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 198,
+          "original_ciphertext_index": 193,
+          "observed": "D",
+          "proposed": "X"
+        }
+      ],
+      "erased_coordinate_fills": [
+        {
+          "plaintext_index": 36,
+          "proposed_character": "T",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 202,
+          "original_ciphertext_index": 197,
+          "observed": "?",
+          "proposed": "D"
+        },
+        {
+          "plaintext_index": 39,
+          "proposed_character": "H",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 225,
+          "original_ciphertext_index": 215,
+          "observed": "?",
+          "proposed": "V"
+        },
+        {
+          "plaintext_index": 50,
+          "proposed_character": "E",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 226,
+          "original_ciphertext_index": 216,
+          "observed": "?",
+          "proposed": "F"
+        },
+        {
+          "plaintext_index": 52,
+          "proposed_character": "T",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 28,
+          "original_ciphertext_index": 28,
+          "observed": "?",
+          "proposed": "V"
+        },
+        {
+          "plaintext_index": 63,
+          "proposed_character": "D",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 29,
+          "original_ciphertext_index": 29,
+          "observed": "?",
+          "proposed": "G"
+        },
+        {
+          "plaintext_index": 63,
+          "proposed_character": "D",
+          "coordinate_half": 1,
+          "augmented_ciphertext_index": 193,
+          "original_ciphertext_index": 188,
+          "observed": "?",
+          "proposed": "G"
+        },
+        {
+          "plaintext_index": 67,
+          "proposed_character": "S",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 182,
+          "original_ciphertext_index": 177,
+          "observed": "?",
+          "proposed": "D"
+        },
+        {
+          "plaintext_index": 74,
+          "proposed_character": "N",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 30,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "A"
+        },
+        {
+          "plaintext_index": 85,
+          "proposed_character": "E",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 31,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "F"
+        },
+        {
+          "plaintext_index": 96,
+          "proposed_character": "R",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 32,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "F"
+        },
+        {
+          "plaintext_index": 100,
+          "proposed_character": "O",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 185,
+          "original_ciphertext_index": 180,
+          "observed": "?",
+          "proposed": "X"
+        },
+        {
+          "plaintext_index": 107,
+          "proposed_character": "U",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 33,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "V"
+        },
+        {
+          "plaintext_index": 108,
+          "proposed_character": "R",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 220,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "F"
+        },
+        {
+          "plaintext_index": 118,
+          "proposed_character": "X",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 34,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "A"
+        },
+        {
+          "plaintext_index": 119,
+          "proposed_character": "K",
+          "coordinate_half": 0,
+          "augmented_ciphertext_index": 221,
+          "original_ciphertext_index": null,
+          "observed": "?",
+          "proposed": "F"
+        }
+      ],
+      "partially_reencrypted_ciphertext": "VGADAFAXADXFAXFFVXDDXXVDXD?FVGAFFVADDAVFVGXDFFXDGFVVVFAFXXXAFAGDDFAVDGVAVXFAVDFAFDGADVAFFVVFFAAXDGVVAAXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGXDFAXGDDAFGDGDVFGXX??DVDFAAAXXADGFFDFFXFF???VFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+      "raw_plaintext_after_declared_segment_repair": "ABSXMI?I5XNA6M?LD?XS4NXS4?XN?R?DAKERTSCHXBRINGTENTENTEFLOTTEZWODIVISIONENXNEUSEELAENDERXENGLXUXFRANZOXMITXNUROHLXKORPSXKOSCHX3Y52",
+      "counts": {
+        "plaintext_length": 92,
+        "incompatible_plaintext_positions": 9,
+        "known_coordinate_substitutions": 9,
+        "erased_coordinate_fills": 15,
+        "source_erasure_fills": 8,
+        "inserted_gap_fills": 7
+      }
+    }
+  ],
+  "limits": [
+    "The geometry remains Norbert comment32's two missing five-coordinate groups.",
+    "History may favor an interpretation but supplies no missing ciphertext symbols.",
+    "The Kosch proposal contradicts two known source coordinates and is therefore an editorial repair.",
+    "The two source changes are on the printed page; both inserted-gap fills remain unobserved.",
+    "The present audit compares fixed positions and does not search alternate error geometries."
+  ]
+}

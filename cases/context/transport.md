@@ -55,7 +55,7 @@ Six additional source-checked intercepts decrypt directly with the same historic
 - **p198 C, November 15, header `CM v CZ`:** `LASTAUTO1?00ABGEFAHRENXICHBLEIBEMIT?MANNBISSONNTAGXALLESGUTEAUFWIEDERSEHENXSEHFERTXGRUSSBOCHO`
 - **p189 E, November 15, header `CZ v CM`:** `JAHEBEPUMPEAUSBLECHXKOMMEN?AUTOSXHIER?ANH?ENGER`. This is a different intercept from the p189 challenge target.
 
-The p194/p196 pair repeats `DHFN` and names `HANAU` as the march destination. It has 171 of 174 raw coordinates in common; disagreements are at indices 82 (`K/X`), 167 (`X/V`), and 173 (`D/G`). The p197/p198 pair agrees at 183 of 186 coordinates, differing at indices 59 (`V/A`), 63 (`A/V`), and 67 (`G/A`). Neither last-car copy supplies an exact `SEIFERT` signature; `SEHFERT` is not silently corrected.
+The p194/p196 pair repeats `DHFN` and names `HANAU` as the march destination. It has 171 of 174 raw coordinates in common; disagreements are at indices 82 (`K/X`), 167 (`X/V`), and 173 (`D/G`). The p197/p198 pair agrees at 183 of 186 coordinates, differing at indices 59 (`V/A`), 63 (`A/V`), and 67 (`G/A`). Neither lorry-message copy supplies an exact `SEIFERT` signature; `SEHFERT` is not silently corrected.
 
 For the transport-order pair, a separately labelled source-supported composite takes `X` at index 82 and `V` at index 167 from p196 while retaining p194's `D` at index 173. It reads:
 
@@ -72,5 +72,10 @@ python3 -m adfgvx.transport
 ```
 
 This analysis does not fully solve p189 and does not add a solved item to the 22-message total.
+
+Four [additional p197/p198 witnesses](transport_197_198.md) now connect the
+conversation with equipment for Darmstadt, a lorry, a trailer and a petrol
+pump. Their duplicate-group and missing-coordinate hypotheses have separate
+source and arithmetic certificates.
 
 Source images: [p189](../../sources/excerpts/childs_p189_context.png), [p193](../../sources/excerpts/childs_p193_context.png), [p194](../../sources/excerpts/childs_p194_context.png), [p196](../../sources/excerpts/childs_p196_context.png), [p197](../../sources/excerpts/childs_p197_context.png), [p198](../../sources/excerpts/childs_p198_context.png). Header order is `recipient v sender`; see [source conventions](../../sources/README.md).

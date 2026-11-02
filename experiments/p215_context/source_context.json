@@ -1,0 +1,119 @@
+{
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "status": "Historical context for an explicitly conditional p215 editorial reading.",
+  "edition": {
+    "title": "Von Brest-Litovsk zur deutschen Novemberrevolution: Aus den Tagebuechern, Briefen und Aufzeichnungen von Alfons Paquet, Wilhelm Groener und Albert Hopman, Maerz bis November 1918",
+    "editor": "Winfried Baumgart",
+    "publisher": "Vandenhoeck & Ruprecht, Goettingen",
+    "publication_year": 1971,
+    "institution": "Bayerische Staatsbibliothek",
+    "identifier": "bsb00042051",
+    "catalogue_url": "https://www.digitale-sammlungen.de/en/details/bsb00042051",
+    "iiif_manifest": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00042051/manifest",
+    "note": "The dated primary texts and the 1971 editor's explanatory notes are identified separately below. The page images are linked, not redistributed."
+  },
+  "reviewed_evidence": [
+    {
+      "id": "crimea_command_directive",
+      "source_kind": "Contemporaneous official directive reproduced in the edition",
+      "document_date": "1918-04-29",
+      "document_title": "Richtlinien fuer die Taetigkeit der Kaiserlichen Marine in der Ukraine und Krim",
+      "archive_reference_as_printed": "MGFA, PG 69257",
+      "printed_page": 485,
+      "note": 137,
+      "image_page": 495,
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00042051_00495/full/1800,/0/default.jpg",
+      "visual_review": true,
+      "finding": "Item 4 identifies General Kosch as the German commander in Crimea and places the proposed Marineabteilung Krim under him tactically and organizationally.",
+      "limit": "This establishes the person and command context, not the letters of p215."
+    },
+    {
+      "id": "kosch_identity_note",
+      "source_kind": "1971 editorial biographical annotation, not a contemporary document",
+      "printed_page": 294,
+      "note": 145,
+      "image_page": 300,
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00042051_00300/full/1800,/0/default.jpg",
+      "visual_review": true,
+      "finding": "The editor identifies Robert Kosch as leader of General Command 52 from August 1916 until the end of the war.",
+      "limit": "This is editorial identification; it does not decode the final literal reference 3Y52."
+    },
+    {
+      "id": "hopman_19181115",
+      "source_kind": "Albert Hopman's contemporaneous diary as edited in 1971",
+      "document_date": "1918-11-15",
+      "printed_page": 645,
+      "image_page": 655,
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00042051_00655/full/1800,/0/default.jpg",
+      "visual_review": true,
+      "finding": "Kosch and Engelien visit from Simferopol to discuss evacuating the 15th Landwehr Division by sea.",
+      "limit": "This is a German evacuation discussion, not evidence for the p215 report's two Allied divisions."
+    },
+    {
+      "id": "hopman_19181120",
+      "source_kind": "Albert Hopman's contemporaneous diary as edited in 1971",
+      "document_date": "1918-11-20",
+      "printed_page": 648,
+      "image_page": 658,
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00042051_00658/full/1800,/0/default.jpg",
+      "visual_review": true,
+      "finding": "The diary records GK 52 asking whether the mine barrage had been cleared.",
+      "limit": "This shows relevant command activity shortly before p215's intercepted date; it is not a parallel transmission."
+    },
+    {
+      "id": "hopman_19181122",
+      "source_kind": "Albert Hopman's contemporaneous diary as edited in 1971",
+      "document_date": "1918-11-22",
+      "printed_page": 649,
+      "image_page": 659,
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00042051_00659/full/1800,/0/default.jpg",
+      "visual_review": true,
+      "finding": "At 08:00 Hopman receives notice from the Allied admirals at Constantinople: a British cruiser with destroyers is expected on Sunday and an Allied squadron on Tuesday.",
+      "date_interpretation": "Within the dated diary entry, these are 24 and 26 November 1918.",
+      "limit": "The entry describes expected naval arrivals at Sevastopol; it neither quotes p215 nor confirms its troop composition."
+    }
+  ],
+  "allied_fleet_order": {
+    "source_kind": "Digitized contemporary memorandum copy and enclosure",
+    "institution": "Australian War Memorial",
+    "collection": "Papers of Cyril John Percy Hill",
+    "accession": "RCDIG0000179",
+    "item_title": "Instructions for the conduct of the Allied fleet proceeding to Sevastopol",
+    "memorandum_number": "51468",
+    "document_date": "1918-11-24",
+    "transcription_page": "https://transcribe.awm.gov.au/transcription/item/rcdig0000179-4",
+    "transcription_status_at_review": "Awaiting approval; original images checked for the stated facts.",
+    "original_images_reviewed": [
+      "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-07/61771-rcdig0000179-page51.jpg",
+      "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-07/61774-rcdig0000179-page54.jpg"
+    ],
+    "findings": [
+      "The main Allied fleet is to leave Constantinople for Sevastopol on 25 November.",
+      "Canterbury, Northesk and Bisson are recorded as having left on 23 November; Adamant and E.21 are to meet the fleet on 26 November.",
+      "Enclosure 1 organizes the destroyers in two divisions."
+    ],
+    "limits": [
+      "This later order supplies independent naval context and supports the broad arrival chronology relevant to p217.",
+      "It does not establish that p215's Divisionen refers to destroyers.",
+      "It does not confirm any New Zealand landing or the composition of the p215 report's proposed divisions."
+    ]
+  },
+  "bounded_searches": {
+    "official_diary_fulltext_search": {
+      "endpoint": "https://api.digitale-sammlungen.de/iiif/services/search/v1/bsb00042051",
+      "terms": ["Kosch", "Kertsch", "Kerč", "Neuseeländer", "Neuseel", "Divisionen", "Mili", "52"],
+      "finding": "Kosch and GK 52 contexts were identified. No independently corroborating two-divisions/New Zealanders passage was found in the reviewed diary material.",
+      "limit": "Search depends on spelling, OCR and the edition's selection; no claim of absence from the full archival record is made."
+    },
+    "childs_ocr_corpus": {
+      "script": "retrieve_context.py",
+      "output": "retrieval_results.json",
+      "blocks": 788,
+      "historical_keys": 24,
+      "models_evaluated": 165216,
+      "finding": "No new source-verified p215 retransmission or expansion of MI?I5 was found. The MILI5 hit on p209 is embedded in unrelated garble under an undated key and is rejected as contextual support.",
+      "limit": "The search uses unverified OCR and bounded group/tail hypotheses; the p215 two-missing-group geometry itself is outside that retrieval model."
+    }
+  }
+}

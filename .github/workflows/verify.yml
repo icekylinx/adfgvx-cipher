@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-python@v7.1.0
         with:
           python-version: ${{ matrix.python }}
-      - name: Recompute every published certificate
+      - name: Recompute core source and cipher certificates
         run: python -m adfgvx.verify
       - name: Check recorded truncation constraints
         run: python experiments/known_key/verify_p170.py experiments/known_key/p170_experiment.json
@@ -39,6 +39,17 @@ jobs:
         run: |
           python experiments/source_followup/verify_context.py --verify
           python experiments/source_followup/audit_p186.py --verify
+      - name: Verify linked p153 fields and key-construction bounds
+        if: matrix.python == '3.13'
+        run: |
+          python experiments/p153_extension/analyze.py --verify
+          python experiments/p153_key_structure/analyze.py --verify
+      - name: Verify transport parallels and editorial context
+        run: |
+          python experiments/transport_followup/verify_transport_families.py
+          python experiments/transport_followup/analyze_linked_fields.py --verify
+          python experiments/p215_context/audit_interpretation.py --check
+          python experiments/parallel_decoder/summarize.py --verify
       - name: Recompute exhaustive p153 crib constraints
         if: matrix.python == '3.13'
         run: |

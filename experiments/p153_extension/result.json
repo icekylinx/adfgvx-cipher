@@ -1,0 +1,1818 @@
+{
+  "schema": "adfgvx-p153-shared-cell-extension-v1",
+  "title": "ADFGVX Cipher: p153 shared-cell and conditional-date constraints",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "date": "2026-11-02",
+  "status": "Exact follow-up of the accepted partial recovery; no new unconditional digit or source repair.",
+  "evidence_sha256": "b1d950e93df2c9a246fcf61e5d95b7f940d0ad683a8442aa6a582d514185c413",
+  "tail_source_map": [
+    {
+      "plaintext_position": 42,
+      "received_coordinate_positions": [
+        28,
+        52
+      ],
+      "received_digraph": "AF"
+    },
+    {
+      "plaintext_position": 43,
+      "received_coordinate_positions": [
+        58,
+        106
+      ],
+      "received_digraph": "DV"
+    },
+    {
+      "plaintext_position": 44,
+      "received_coordinate_positions": [
+        64,
+        34
+      ],
+      "received_digraph": "AF"
+    },
+    {
+      "plaintext_position": 45,
+      "received_coordinate_positions": [
+        95,
+        41
+      ],
+      "received_digraph": "AV"
+    },
+    {
+      "plaintext_position": 46,
+      "received_coordinate_positions": [
+        77,
+        23
+      ],
+      "received_digraph": "AF"
+    },
+    {
+      "plaintext_position": 47,
+      "received_coordinate_positions": [
+        89,
+        47
+      ],
+      "received_digraph": "XX"
+    },
+    {
+      "plaintext_position": 48,
+      "received_coordinate_positions": [
+        101,
+        17
+      ],
+      "received_digraph": "A?"
+    },
+    {
+      "plaintext_position": 49,
+      "received_coordinate_positions": [
+        5,
+        71
+      ],
+      "received_digraph": "?V"
+    },
+    {
+      "plaintext_position": 50,
+      "received_coordinate_positions": [
+        83,
+        11
+      ],
+      "received_digraph": "A?"
+    },
+    {
+      "plaintext_position": 51,
+      "received_coordinate_positions": [
+        29,
+        53
+      ],
+      "received_digraph": "GA"
+    },
+    {
+      "plaintext_position": 52,
+      "received_coordinate_positions": [
+        59,
+        107
+      ],
+      "received_digraph": "AF"
+    },
+    {
+      "plaintext_position": 53,
+      "received_coordinate_positions": [
+        65,
+        35
+      ],
+      "received_digraph": "XD"
+    }
+  ],
+  "shared_cell": {
+    "digraph": "DV",
+    "square_cell": 10,
+    "part5_positions": [
+      25,
+      27
+    ],
+    "part6_position": 43,
+    "conclusion": "The first and last serial character and the footer character are identical under every shared-square completion."
+  },
+  "conditional_part6": {
+    "plain_template": "MUNITIONSBESTAND DER NACHHUTARTILLERIE MELDEN X <gamma> X G X R <u><v><w> B X A",
+    "position_string": "MUNITIONSBESTANDDERNACHHUTARTILLERIEMELDENX?XGXR???BXA",
+    "fixed_positions": 50,
+    "total_positions": 54,
+    "conditions": [
+      "The previously certified 42-letter body with twelve erased-coordinate fills and two A-to-X emendations.",
+      "The separately stated AF=X footer-separator interpretation."
+    ],
+    "unconditional_core_fixed_positions": 33,
+    "unresolved_footer_digraphs": {
+      "u": "A?",
+      "v": "?V",
+      "w": "A?"
+    },
+    "coupling": [
+      "u=v implies u=v=G.",
+      "v=w implies v=w=G.",
+      "u=w is otherwise allowed."
+    ],
+    "interpretation": "No expansion of the G, R, B or A initials, military unit, signature or padding is asserted."
+  },
+  "date_models": {
+    "common_conditions": [
+      "FA is a one-character ordinary decimal day.",
+      "GD GD is a two-character ordinary decimal month between 1 and 12.",
+      "DV VA DV is a three-character decimal serial.",
+      "Distinct square cells have distinct plaintext symbols."
+    ],
+    "forced_within_these_conditions": {
+      "month": 11,
+      "GD": "1",
+      "FA_not": "1",
+      "DV_not": "1",
+      "VA_not": "1"
+    },
+    "extra_condition_nonfuture": "The referenced order is dated in 1918 no later than the received 8 November message; this is not ciphertext evidence.",
+    "models": [
+      {
+        "nonfuture_date": false,
+        "serial_has_no_leading_zero": false,
+        "count": 448,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "months": [
+          11
+        ],
+        "assignments_sha256": "5998cd850cfe6029ebde9d8ad034aaa1011f2cffbd73e2b21269f4fe49e06b75"
+      },
+      {
+        "nonfuture_date": true,
+        "serial_has_no_leading_zero": false,
+        "count": 392,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "months": [
+          11
+        ],
+        "assignments_sha256": "2be1e9d1faf1263da1d8f317ad5e27b72dc4b0884d2a60e4f4d871c4f8bff388"
+      },
+      {
+        "nonfuture_date": false,
+        "serial_has_no_leading_zero": true,
+        "count": 392,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "months": [
+          11
+        ],
+        "assignments_sha256": "b09513ba4c33676a4d75414a3d2de4575fbb33326446c721ea1562c2b594c7f4"
+      },
+      {
+        "nonfuture_date": true,
+        "serial_has_no_leading_zero": true,
+        "count": 343,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "months": [
+          11
+        ],
+        "assignments_sha256": "a05ef968fe80570436d292537c31d1e7691dd198b7e75ef059fcb1effbe474ba"
+      }
+    ],
+    "historical_digit_claim": "No day or serial is selected. GD=1 is conditional on decimal-calendar interpretation, not an independently recovered square cell."
+  },
+  "remaining_ambiguity": {
+    "per_fixed_decimal_assignment": {
+      "square_completions": 479001600,
+      "remaining_erasure_fills_per_square": 216,
+      "distinct_footer_triples": 2537,
+      "count_formula": "25*(5+12) + 11*12*(5+11) = 2537"
+    },
+    "nonfuture_allowing_leading_zero": {
+      "date_serial_assignments": 392,
+      "distinct_joint_plaintext_pairs": 994504
+    },
+    "nonfuture_no_leading_zero": {
+      "date_serial_assignments": 343,
+      "distinct_joint_plaintext_pairs": 870191
+    },
+    "scope": "Conditions include AF=X and the existing body emendation/fill hypothesis. All unassigned square letters/digits and three residual source erasures are free; no language or historical ranking is added."
+  },
+  "other_square_reuse": {
+    "model": "Any independent permutations of six rows and six columns, optionally transposing the square; all established letter identities preserved.",
+    "excluded_key_count": 23,
+    "proof": "Bijections preserve equality of row and column coordinates for every pair of known letters. Each recorded witness violates one such equality.",
+    "witnesses": [
+      {
+        "key_id": "Sep19-21",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          }
+        ]
+      },
+      {
+        "key_id": "Oct4-6",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "B"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                5
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "B"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                5
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Oct28-31",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "B"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "B"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Nov1-3",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                5,
+                3
+              ],
+              [
+                4,
+                3
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "L"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                5,
+                3
+              ],
+              [
+                0,
+                2
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          }
+        ]
+      },
+      {
+        "key_id": "Nov4-6",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "B"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                2
+              ],
+              [
+                4,
+                3
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "B"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                2
+              ],
+              [
+                4,
+                3
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Nov7-9",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "C"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "C"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Nov10-12",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "D"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            "source_cells": [
+              [
+                0,
+                1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "D"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            "source_cells": [
+              [
+                0,
+                1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Nov13-15a",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "B"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                2
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "B"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                2
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Nov13-15b",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "C"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "C"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Nov16-18",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "C"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "C"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Nov19-21",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "C"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "C"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Nov22-24",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                5,
+                0
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                5,
+                0
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          }
+        ]
+      },
+      {
+        "key_id": "Nov25-28",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "G"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                0,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                1,
+                1
+              ],
+              [
+                5,
+                1
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Nov28-Dec1",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "L"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                1
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                1
+              ],
+              [
+                4,
+                0
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          }
+        ]
+      },
+      {
+        "key_id": "CHI-Nov13",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "D"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            "source_cells": [
+              [
+                0,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "D"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            "source_cells": [
+              [
+                0,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Jul18",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          }
+        ]
+      },
+      {
+        "key_id": "Jul22",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "D"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                2
+              ],
+              [
+                5,
+                2
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "D"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                2
+              ],
+              [
+                5,
+                2
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Aug3",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                3,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                3,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          }
+        ]
+      },
+      {
+        "key_id": "Aug8-9",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "D"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            "source_cells": [
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "D"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            "source_cells": [
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "Aug20",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "C"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                3,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "C"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "source_cells": [
+              [
+                3,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "NSA-undated-CHI-example-18",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                0
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "E"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "column",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                4,
+                0
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "equal_in_target": true,
+            "equal_in_source": false
+          }
+        ]
+      },
+      {
+        "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "B"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "B"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "source_cells": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      },
+      {
+        "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+        "obstructions": [
+          {
+            "transpose_square": false,
+            "letters": [
+              "A",
+              "D"
+            ],
+            "target_axis": "row",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            "source_cells": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          },
+          {
+            "transpose_square": true,
+            "letters": [
+              "A",
+              "D"
+            ],
+            "target_axis": "column",
+            "compared_source_axis": "row",
+            "target_cells": [
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            "source_cells": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "equal_in_target": false,
+            "equal_in_source": true
+          }
+        ]
+      }
+    ],
+    "skipped": [
+      {
+        "key_id": "NSA-June1-CHI-21",
+        "reason": "No attested square cells; no reuse exclusion possible."
+      }
+    ],
+    "limits": "This rejects only the recorded squares under the stated relabeling model. It does not exclude a related keyword, arbitrary cell permutation, different square or additional source errors.",
+    "positive_controls": [
+      "Known full extension with independent row/column relabeling passes.",
+      "Its transposed version passes the transposed invariant."
+    ]
+  },
+  "verification": {
+    "independent_coordinate_map": true,
+    "raw_core_decodes_reproduced": true,
+    "every_date_assignment_roundtripped": true,
+    "all_216_residual_erasure_fills_per_assignment_roundtripped": true,
+    "footer_union_matches_independent_count": true,
+    "input_sources_changed": false
+  }
+}

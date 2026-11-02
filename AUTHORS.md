@@ -11,6 +11,6 @@ The historical foundation is J. Rives Childs's collection and the work of wartim
 
 The 1934 general-solution paper credits **Frank B. Rowlett, Solomon Kullback, and Abraham Sinkov** for the general methods. **William F. Friedman** edited the historical technical reports; their publication dates are kept separate from the dates of the wartime records.
 
-The November 2, 2026 **p153a/p153b partial decipherment**, recovered shared transposition and nineteen-letter square are by **icekylinx and GPT-6 Astra Pro**. Norbert's earlier joint-analysis suggestion is credited in both cases. The present conditional crib proof and source emendation audit are separate from that blind discovery.
+The 2 November 2026 **p153a/p153b partial decipherment**, recovered shared transposition and nineteen-letter square are by **icekylinx and GPT-6 Astra Pro**. Norbert's earlier joint-analysis suggestion is credited in both cases. The present conditional crib proof and source emendation audit are separate from that blind discovery.
 
 The 2017 comment authors Armin, Norbert and Thomas are credited under their displayed names. Full-name expansions in later indexes are [recorded but not independently identified with these comments](data/reviews/attribution_review_2017.json).

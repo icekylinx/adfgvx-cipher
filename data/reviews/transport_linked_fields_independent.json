@@ -1,0 +1,313 @@
+{
+  "schema": "adfgvx-transport-linked-fields-independent-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "review_date": "2026-11-02",
+  "status": "Passed: source-index arithmetic and scenario counts; conditional historical interpretation remains unproved.",
+  "historical_digits_recovered": false,
+  "input_sha256": {
+    "data/certificates/p185_D_transport.json": "4d2ec54fa8a8fa1d7b2a902519e05ee94d4894ef4cc9a44510acfbc11aabc926",
+    "data/certificates/p197_p198_transport.json": "9cb285bfa1e0e2dafc6c9841f55447e910e4063103b071925d636b0286053950",
+    "experiments/transport_followup/analyze_linked_fields.py": "59ed90956613f2da030315130ddaa41aff6a0508984d3c124001da74ceea5bde",
+    "experiments/transport_followup/linked_fields.json": "88b216ef59051e817f6398dcdb09df92ca3547826d458f79ea3b2688e78079c5",
+    "cases/context/transport_197_198.md": "57bf84aa59ef9b0c2dee1d894c84eff9133a52f450757a0834e3e3e47bad8ab6"
+  },
+  "independent_method": {
+    "implementation": "No project decoder or linked-fields analyzer function was imported. Column offsets were reconstructed directly from the stated ciphertext length and rank list.",
+    "source_index_formula": "For coordinate-stream offset t: source_index = sum(length[d] for rank[d] < rank[t mod width]) + floor(t / width), where length[d] = floor(n / width) + (d < n mod width).",
+    "pair_positions": "The field positions were checked against independently decoded surrounding raw text, then compared with the reported occurrence matrix.",
+    "geometry_checks": "All supplied tied gap, duplicate-deletion and erasure-relocation geometries were checked; every listed field uses two retained known source coordinates and has the same pair and original indices in all ties.",
+    "scenario_counting": "Enumerated all 8^4 ordered field tuples, retaining distinct values, then decimal digits and the stated time inequalities. Counted remaining square completions independently as 4! per field tuple.",
+    "source_scope": "Arithmetic review against the literal source transcriptions in the two existing certificates; this review did not independently re-transcribe the page images."
+  },
+  "occurrences_checked": [
+    {
+      "source_id": "p194_A",
+      "field": "planned_hour_units",
+      "plaintext_index": 42,
+      "checked_geometry_count": 1,
+      "coordinate_pair": "FV",
+      "square_cell": 16,
+      "original_source_indices": [
+        91,
+        70
+      ],
+      "raw_plaintext_window": "TCGDHFN1?00XWAGEN",
+      "raw_plaintext_window_start": 34
+    },
+    {
+      "source_id": "p196_B",
+      "field": "planned_hour_units",
+      "plaintext_index": 42,
+      "checked_geometry_count": 1,
+      "coordinate_pair": "FV",
+      "square_cell": 16,
+      "original_source_indices": [
+        91,
+        70
+      ],
+      "raw_plaintext_window": "TAGDHFN1?00XWAGEN",
+      "raw_plaintext_window_start": 34
+    },
+    {
+      "source_id": "p197_E",
+      "field": "departed_hour_units",
+      "plaintext_index": 9,
+      "checked_geometry_count": 1,
+      "coordinate_pair": "AF",
+      "square_cell": 2,
+      "original_source_indices": [
+        47,
+        151
+      ],
+      "raw_plaintext_window": "ASTAUTO1?00A?GEFA",
+      "raw_plaintext_window_start": 1
+    },
+    {
+      "source_id": "p197_E",
+      "field": "remaining_men",
+      "plaintext_index": 35,
+      "checked_geometry_count": 1,
+      "coordinate_pair": "GD",
+      "square_cell": 19,
+      "original_source_indices": [
+        178,
+        4
+      ],
+      "raw_plaintext_window": "LEIBEMIT?MANNBISS",
+      "raw_plaintext_window_start": 27
+    },
+    {
+      "source_id": "p198_C",
+      "field": "departed_hour_units",
+      "plaintext_index": 9,
+      "checked_geometry_count": 1,
+      "coordinate_pair": "AF",
+      "square_cell": 2,
+      "original_source_indices": [
+        47,
+        151
+      ],
+      "raw_plaintext_window": "ASTAUTO1?00ABGEFA",
+      "raw_plaintext_window_start": 1
+    },
+    {
+      "source_id": "p198_C",
+      "field": "remaining_men",
+      "plaintext_index": 35,
+      "checked_geometry_count": 1,
+      "coordinate_pair": "GD",
+      "square_cell": 19,
+      "original_source_indices": [
+        178,
+        4
+      ],
+      "raw_plaintext_window": "LEIBEMIT?MANNBISS",
+      "raw_plaintext_window_start": 27
+    },
+    {
+      "source_id": "p198_E",
+      "field": "lorry_tonnage",
+      "plaintext_index": 10,
+      "checked_geometry_count": 2,
+      "coordinate_pair": "FV",
+      "square_cell": 16,
+      "original_source_indices": [
+        76,
+        59
+      ],
+      "raw_plaintext_window": "KOMMTEIN?TONNENAM",
+      "raw_plaintext_window_start": 2
+    },
+    {
+      "source_id": "p197_D",
+      "field": "lorry_tonnage",
+      "plaintext_index": 10,
+      "checked_geometry_count": 2,
+      "coordinate_pair": "FV",
+      "square_cell": 16,
+      "original_source_indices": [
+        71,
+        54
+      ],
+      "raw_plaintext_window": "KOMMTEIN?TONNENAU",
+      "raw_plaintext_window_start": 2
+    },
+    {
+      "source_id": "p198_B",
+      "field": "readiness_hour_units",
+      "plaintext_index": 74,
+      "checked_geometry_count": 1,
+      "coordinate_pair": "GA",
+      "square_cell": 18,
+      "original_source_indices": [
+        103,
+        80
+      ],
+      "raw_plaintext_window": "TBIS16X0?XFBETR?E",
+      "raw_plaintext_window_start": 66
+    },
+    {
+      "source_id": "p197_C",
+      "field": "readiness_hour_units",
+      "plaintext_index": 74,
+      "checked_geometry_count": 2,
+      "coordinate_pair": "GA",
+      "square_cell": 18,
+      "original_source_indices": [
+        98,
+        75
+      ],
+      "raw_plaintext_window": "TB??16X0?05?ETRBT",
+      "raw_plaintext_window_start": 66
+    }
+  ],
+  "alternate_geometry_checks": [
+    {
+      "source_id": "p198_E",
+      "all_tied_geometry_checks": [
+        {
+          "geometry": "delete literal indices [15, 16, 17, 18, 19]",
+          "coordinate_pair": "FV",
+          "square_cell": 16,
+          "reconstructed_ciphertext_indices": [
+            71,
+            54
+          ],
+          "original_source_indices": [
+            76,
+            59
+          ],
+          "raw_plaintext_window": "KOMMTEIN?TONNENAM",
+          "raw_plaintext_window_start": 2
+        },
+        {
+          "geometry": "delete literal indices [20, 21, 22, 23, 24]",
+          "coordinate_pair": "FV",
+          "square_cell": 16,
+          "reconstructed_ciphertext_indices": [
+            71,
+            54
+          ],
+          "original_source_indices": [
+            76,
+            59
+          ],
+          "raw_plaintext_window": "KOMMTEIN?TONNENAM",
+          "raw_plaintext_window_start": 2
+        }
+      ]
+    },
+    {
+      "source_id": "p197_D",
+      "all_tied_geometry_checks": [
+        {
+          "geometry": "relocate erasure to 74",
+          "coordinate_pair": "FV",
+          "square_cell": 16,
+          "reconstructed_ciphertext_indices": [
+            71,
+            54
+          ],
+          "original_source_indices": [
+            71,
+            54
+          ],
+          "raw_plaintext_window": "KOMMTEIN?TONNENAU",
+          "raw_plaintext_window_start": 2
+        },
+        {
+          "geometry": "relocate erasure to 75",
+          "coordinate_pair": "FV",
+          "square_cell": 16,
+          "reconstructed_ciphertext_indices": [
+            71,
+            54
+          ],
+          "original_source_indices": [
+            71,
+            54
+          ],
+          "raw_plaintext_window": "KOMMTEIN?TONNENAU",
+          "raw_plaintext_window_start": 2
+        }
+      ]
+    },
+    {
+      "source_id": "p197_C",
+      "all_tied_geometry_checks": [
+        {
+          "geometry": "insert five erasures before 64",
+          "coordinate_pair": "GA",
+          "square_cell": 18,
+          "reconstructed_ciphertext_indices": [
+            103,
+            80
+          ],
+          "original_source_indices": [
+            98,
+            75
+          ],
+          "raw_plaintext_window": "TB??16X0?05?ETRBT",
+          "raw_plaintext_window_start": 66
+        },
+        {
+          "geometry": "insert five erasures before 65",
+          "coordinate_pair": "GA",
+          "square_cell": 18,
+          "reconstructed_ciphertext_indices": [
+            103,
+            80
+          ],
+          "original_source_indices": [
+            98,
+            75
+          ],
+          "raw_plaintext_window": "TB??16X0?05?ETRBT",
+          "raw_plaintext_window_start": 66
+        }
+      ]
+    }
+  ],
+  "arithmetic": {
+    "unused_symbols": "234789QY",
+    "unknown_square_cells": 8,
+    "all_bijective_square_completions": 40320,
+    "field_order": [
+      "FV planned hour / tonnage",
+      "AF reported departure hour",
+      "GA apparent readiness hour",
+      "GD remaining men"
+    ],
+    "decimal_assignment_formula": "6 * 5 * 4 * 3 = 360",
+    "same_day_assignment_formula": "2 choices for AF (2 or 3) * 5 * 4 * 3 = 120",
+    "same_movement_no_early_assignment_formula": "AF=3 and FV=2; then 4 * 3 = 12",
+    "field_assignment_counts": [
+      360,
+      120,
+      12
+    ],
+    "full_square_completion_counts": [
+      8640,
+      2880,
+      288
+    ],
+    "narrowest_conditional_cells": {
+      "FV": "2",
+      "AF": "3"
+    },
+    "narrowest_remaining_GA_GD_domain": "Distinct members of 4789"
+  },
+  "presentation_review": [
+    "The case labels the decimal, same-day, same-movement and no-early-departure requirements as additional unproved assumptions. Its preferred plaintext and historical square keep the unresolved digits.",
+    "The equality of tonnage and planned-hour fields, and inequality with the reported-hour field, are exact within the supplied partial key and explicitly declared source geometries.",
+    "The readiness field is described as apparent; reading it as a clock also requires choosing among the independently recorded 0/X and 5/F disagreements.",
+    "The 13.45 field is observed in both departure headers. Treating it as a same-day origin clock is a premise, not a source-independent chronology result. Receipt and origin fields must not be assumed to share a clock without evidence.",
+    "No scenario is assigned a probability or promoted to recovered historical digits."
+  ],
+  "limits": [
+    "Source transcriptions, the published partial key and repair geometries remain inputs; this arithmetic audit does not independently establish their historical correctness.",
+    "The 360/120/12 counts are conditional field assignments, not posterior probabilities or an estimate of historical confidence.",
+    "All 12 narrowest assignments retain unresolved GA and GD. This review supplies no chosen values for them."
+  ]
+}

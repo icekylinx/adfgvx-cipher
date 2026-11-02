@@ -1768,7 +1768,7 @@
           "icekylinx",
           "GPT-6 Astra Pro"
         ],
-        "prior_context": "Historical source and previously published keys; p186 relationship was already identified by Norbert comment53."
+        "prior_context": "Historical source and previously published period key; no first-decipherment priority is asserted for this contextual message."
       },
       "review_status": "source_checked_with_explicit_limits",
       "result": "A complete source reading supplies ERHAELT RUFNAMEN and spelling words for a Konia call-sign change;175/175 characters fixed.",
@@ -1788,7 +1788,7 @@
           "icekylinx",
           "GPT-6 Astra Pro"
         ],
-        "prior_context": "Historical source and previously published keys; p186 relationship was already identified by Norbert comment53."
+        "prior_context": "Historical source and previously published period key; no first-decipherment priority is asserted for this contextual message."
       },
       "review_status": "source_checked_with_explicit_limits",
       "result": "Source-checked fourth/fifth-period repeat instruction;50/51 characters fixed, malformed glyph masked.",
@@ -1814,6 +1814,199 @@
       "result": "Two questionable V interpretations kept separate from the conservative layer; all nine one-character suffix deletions fail under injective square completion.",
       "verification_evidence": {
         "artifact": "../experiments/source_followup/p186_source_and_suffix_delta.json"
+      }
+    },
+    {
+      "id": "p153_linked_fields",
+      "scope": [
+        "p153a",
+        "p153b"
+      ],
+      "claim_reviewed": "Shared footer cell and conditional decimal fields preserve exact dependencies.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_model_and_source_limits",
+      "result": "The existing repair and AF=X hypothesis give 50/54 part-6 positions; raw 33/54 is unchanged. Decimal/chronology assumptions leave 392 date/serial assignments with leading zeros allowed; each permits 2,537 footer triples. No numeral is selected.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p153_extension/README.md",
+          "experiments/p153_extension/result.json"
+        ]
+      }
+    },
+    {
+      "id": "p153_key_structure_bounds",
+      "scope": [
+        "p153a",
+        "p153b"
+      ],
+      "claim_reviewed": "Tested historical key constructions cannot justify missing digits.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_model_and_source_limits",
+      "result": "All 23 other nonempty squares fail exact row/column-relabeling invariants. The bounded shared-keyword construction model excludes the recovered p153 core; 128 generated controls pass. Dictionary and phrase searches produce no p153 key.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p153_key_structure/README.md",
+          "experiments/p153_key_structure/result.json",
+          "experiments/p153_key_structure/keyword_search.json"
+        ]
+      }
+    },
+    {
+      "id": "p109_exact_multi_witness_decoder",
+      "scope": [
+        "p109"
+      ],
+      "claim_reviewed": "Exact source-cost and language optimization tests competing readable proposals without a crib.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_model_and_source_limits",
+      "result": "All 280 candidates re-encrypt. The 28 first-ranked results share 47 positions, 33 already source-unique at minimum cost and 14 model-selected. SAVE/SAVA have equal total word cost; TEILE is not selected by the reported top-ten lists.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/parallel_decoder/p109_results.json",
+          "experiments/parallel_decoder/p109_summary.json"
+        ]
+      }
+    },
+    {
+      "id": "p197_p198_transport_families",
+      "scope": [
+        "p197_C",
+        "p198_B",
+        "p197_D",
+        "p198_E"
+      ],
+      "claim_reviewed": "Four additional transport witnesses support equipment and lorry readings with explicit repairs.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_model_and_source_limits",
+      "result": "Two source pairs; 186 missing-group placements and 142 dash placements exhausted. Preferred specified letters require minimum combined costs 19 versus 18 and 13 versus 8 respectively. The p198 D challenge remains open.",
+      "verification_evidence": {
+        "artifacts": [
+          "data/certificates/p197_p198_transport.json",
+          "data/reviews/p197_p198_transport_independent.json"
+        ]
+      }
+    },
+    {
+      "id": "transport_linked_number_fields",
+      "scope": [
+        "p194_A",
+        "p196_B",
+        "p197_E",
+        "p198_C",
+        "p197_C",
+        "p198_B",
+        "p197_D",
+        "p198_E"
+      ],
+      "claim_reviewed": "The same square couples the planned-hour character and lorry tonnage; the reported-hour character differs.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_model_and_source_limits",
+      "result": "Exact FV/AF/GA/GD source mappings retained. Decimal fields, same-day chronology and a no-early-departure scenario leave 360, 120 and 12 field assignments respectively. These semantic scenarios do not assign historical digits or alter the key.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/transport_followup/linked_fields.json",
+          "data/reviews/transport_terminology.json",
+          "data/reviews/transport_linked_fields_independent.json"
+        ]
+      }
+    },
+    {
+      "id": "p215_kosch_context",
+      "scope": [
+        "p215",
+        "p217"
+      ],
+      "claim_reviewed": "A historically grounded Corps Kosch interpretation is cheaper than the earlier Frisch proposal.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_model_and_source_limits",
+      "result": "KORPSXKOSCH needs 2 known-coordinate changes plus 2 inserted-gap fills; KORPSFRISCH needs 5 changes. The proposed 92-character body needs 9 changes and 15 fills. Primary documents support Kosch and naval chronology, not the proposed Allied troop composition.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p215_context/interpretation_costs.json",
+          "experiments/p215_context/source_context.json"
+        ]
+      }
+    },
+    {
+      "id": "p153_independent_header_review",
+      "scope": [
+        "p153a",
+        "p153b"
+      ],
+      "claim_reviewed": "A full-page 31-page OCR/header check adds bounded evidence about missing companion parts.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_with_explicit_model_and_source_limits",
+      "result": "Printed pages 140\u2013170 retrieve p153 FKR/CGH and 2250; two approximate false hits are excluded visually. Known date/length OCR mistakes prevent a global absence claim.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p153_headers/review.json"
+        ]
+      }
+    },
+    {
+      "id": "open_target_source_similarity",
+      "scope": [
+        "p73",
+        "p170",
+        "p198"
+      ],
+      "claim_reviewed": "Direct ciphertext similarity can retrieve known damaged or partial sources but establishes no new parallel for the three open targets.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "bounded_negative_with_positive_controls_and_source_inspection",
+      "result": "26,792 comparisons across 788 OCR blocks; known and seeded controls rank as expected. Original images for the three leading open-target hits retain only short local resemblances. No key or plaintext is inferred.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/source_similarity/results.json",
+          "experiments/source_similarity/source_inspections.json"
+        ]
       }
     }
   ]
