@@ -4,7 +4,7 @@
 
 **icekylinx and GPT-6 Astra Pro · 2 November 2026**
 
-The edition contains 22 challenge entries and 183 other source-reviewed
+The edition contains 22 challenge entries and 187 other source-reviewed
 records in the [two reading tables](../cases/README.md). **p73, p170 and p198 D remain
 wholly open.** Other entries range from complete prior readings to partial
 recoveries and source-linked reconstructions; they are not all independently
@@ -16,7 +16,8 @@ defensible.
 
 | Result | Evidence gained | What remains unresolved |
 |---|---|---|
-| [October routing, weather and requests](../cases/other/october_requests.md) | Sofia leaves the ring circuit; Westernhagen is asked to return; weather reports need date groups; an inspector request is partly read. | The weather geometry needs two conditional deletions. The inspector edition leaves its difficult 21-position expression unassigned; its costly full normalization is unaccepted. |
+| [Constantinople civilian enquiry](../cases/other/constantinople_civilians.md) | Four parts fix 624/628 raw positions and recover an enquiry about civilians, Swedish-legation verification, and an appeal to the Supreme War Council independently corroborated by contemporary diplomatic texts. | The raw headcount is 0YY, with no conventional number assigned. Seventeen word repairs, two erasure fills, two insertions and one deletion are explicit; seven competing final-part frames remain. |
+| [October routing, weather and requests](../cases/other/october_requests.md) | Sofia leaves the Ringbahnverkehr; Westernhagen is asked to return; weather reports need date groups; an inspector request is partly read. | The weather geometry needs two conditional deletions. The inspector edition leaves its difficult 21-position expression unassigned; its costly full normalization is unaccepted. |
 | [German tonnage and proposed Turkish purchases](../cases/other/turkish_tonnage.md) | Three parts explain emergency sale, immediate cash and prior authorization, with 490/500 raw positions fixed; both short-group repairs are preserved. | Nine word repairs remain editorial. The separate A6S hypothesis fixes three candidate positions but also creates a visible raw-word garble; its referenced date has no independent earlier witness. |
 | [Boots and clothing for Oderberg](../cases/other/p191_A.md) | One displaced five-coordinate group restores the second part; 196/200 positions follow from four substitutions and twelve dash fills. All one-group moves and a matched control are checked. | The geometry comparison uses posthoc word anchors. Corps/quantity symbols and one full connective domain remain open; no key cell is filled by plausibility. |
 | [Corcovado sale terms and reply](../cases/other/corcovado_sale_terms.md) | Six records directly establish a 10-million price, conditions of sale, and a later Turkish-crew report. A spelled-out office number supports conditional digit constraints across keys. | Currency and later disposition are unstated. Seventeen coordinate substitutions and five fills are costed; the A6S inference preserves its same-office assumption and distinct reference tails. |

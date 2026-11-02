@@ -11,6 +11,7 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Constantinople civilians and diplomatic appeal](constantinople_civilians/README.md) | Four source parts; 624/628 fixed raw positions; masked exhaustive gap/deletion screens | Raw 0YY headcount retained; all seven final-part frames and every repair cost preserved; contemporary official diplomatic texts corroborate subject and routing only. |
 | [October routing and requests](october_requests/README.md) | Four records; 842 printed slots; all 17,578 two-deletion layouts checked for the weather instruction | Exact Sofia reading, repaired Westernhagen request, conditional weather geometry and explicitly partial inspector text. |
 | [Turkish ship purchases](turkish_tonnage/README.md) | Three parts; 999 printed slots; 490/500 raw fixed positions | Both short-group ties, all repairs and every favorable or inconvenient effect of the separate XX=6 condition retained. |
 | [Boots and clothing request](boots_request/README.md) | Two parts; one displaced group; all 1,297 distinct one-group-move frames checked | 196/200 proposed positions; posthoc word-mask qualification, exact repairs and all connective witnesses retained. |

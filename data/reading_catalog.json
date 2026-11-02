@@ -2836,10 +2836,10 @@
       "label": "p62 A",
       "printed_page": 62,
       "source_section": "A",
-      "subject": "Sofia leaves the ring circuit; clear acknowledgment annotations retained",
+      "subject": "Sofia leaves the Ringbahnverkehr; clear acknowledgment annotations retained",
       "status": "62/62 raw positions; exact source frame; no repair",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
-      "path": "cases/other/october_requests.md#p62-a--sofia-leaves-the-ring-circuit",
+      "path": "cases/other/october_requests.md#p62-a--sofia-leaves-the-ringbahnverkehr",
       "source_reviewed": true,
       "evidence": [
         "experiments/october_requests/inputs.json",
@@ -2889,6 +2889,70 @@
       "evidence": [
         "experiments/october_requests/inputs.json",
         "experiments/october_requests/certificates.json"
+      ]
+    },
+    {
+      "id": "p221_B1",
+      "label": "p221 B1",
+      "printed_page": 221,
+      "source_section": "B1",
+      "subject": "Enquiry about German civilians, mainly women and children, reportedly leaving Constantinople; raw headcount 0YY",
+      "status": "148/149 raw; quantity-masked unique gap227; one word repair; numerical headcount unassigned",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
+      "path": "cases/other/constantinople_civilians.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/constantinople_civilians/inputs.json",
+        "experiments/constantinople_civilians/certificates.json",
+        "experiments/constantinople_civilians/historical_context.json"
+      ]
+    },
+    {
+      "id": "p221_B2",
+      "label": "p221 B2",
+      "printed_page": 221,
+      "source_section": "B2",
+      "subject": "Verify civilian departures and whereabouts through the Swedish legation",
+      "status": "171/172 raw; unique deletion134 in six-letter group; four word repairs and one dash fill",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
+      "path": "cases/other/constantinople_civilians.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/constantinople_civilians/inputs.json",
+        "experiments/constantinople_civilians/certificates.json",
+        "experiments/constantinople_civilians/historical_context.json"
+      ]
+    },
+    {
+      "id": "p221_B3",
+      "label": "p221 B3",
+      "printed_page": 221,
+      "source_section": "B3",
+      "subject": "Troop-transport enquiry and request to allow German civilians to remain in Turkey",
+      "status": "173/174 raw; three coordinate changes and one invalid-Y fill; Wilson passage independently corroborated by FRUS",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
+      "path": "cases/other/constantinople_civilians.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/constantinople_civilians/inputs.json",
+        "experiments/constantinople_civilians/certificates.json",
+        "experiments/constantinople_civilians/historical_context.json"
+      ]
+    },
+    {
+      "id": "p221_B4",
+      "label": "p221 B4",
+      "printed_page": 221,
+      "source_section": "B4",
+      "subject": "Appeal referred to Allies and Supreme War Council; civilian transit through Ukraine impossible",
+      "status": "132/133 raw; source-local gap190 and six broader tied frames retained; exact candidate and FRUS context",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
+      "path": "cases/other/constantinople_civilians.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/constantinople_civilians/inputs.json",
+        "experiments/constantinople_civilians/certificates.json",
+        "experiments/constantinople_civilians/historical_context.json"
       ]
     }
   ]

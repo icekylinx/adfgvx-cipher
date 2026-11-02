@@ -15,7 +15,7 @@ The [source package](../../experiments/october_requests/README.md) preserves
 costed editorial changes and re-encrypted witnesses. No new key or first
 historical decipherment is claimed.
 
-## p62 A — Sofia leaves the ring circuit
+## p62 A — Sofia leaves the Ringbahnverkehr
 
 Header: `ASO v LP (04.50 p.m., October 4th); 1030 (4.10); RICHI-124`.
 The heading is October 4, 1918. All 62 plaintext positions are directly fixed:
@@ -26,9 +26,10 @@ SOFIAXAUSRINGBAHNVERKEHRAUSGESCHIEDENXXNACHRICHTENCHEF4BX49287
 
 > Sofia. Aus Ringbahnverkehr ausgeschieden. Nachrichtenchef 4B. 49287.
 
-The notice says that Sofia has left the `Ringbahnverkehr`. In this radio
-traffic context, “ring-circuit traffic” is the cautious operational reading;
-the text does not describe a particular urban railway. The reference
+The notice says that Sofia has left the `Ringbahnverkehr`. The radio-traffic
+context suggests a circuit-service meaning, but an independent contemporary
+definition of the term has not been established here. The German token is
+therefore retained without a definite technical expansion. The reference
 `4BX49287` is literal and is not expanded into an unprinted formation or date.
 There is no coordinate substitution, erasure fill or layout change.
 

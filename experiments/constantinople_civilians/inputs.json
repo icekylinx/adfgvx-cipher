@@ -1,0 +1,308 @@
+{
+  "schema": "adfgvx-constantinople-civilians-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov25-28",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      21,
+      9,
+      6,
+      14,
+      10,
+      20,
+      1,
+      16,
+      18,
+      7,
+      15,
+      4,
+      11,
+      22,
+      5,
+      17,
+      23,
+      2,
+      12,
+      8,
+      19,
+      3,
+      13
+    ],
+    "column_count": 23,
+    "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "square_rows": [
+      "HQ05DK",
+      "ZAOYM6",
+      "BEIWTJ",
+      "7PSCFL",
+      "V94132",
+      "NGURX8"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p221_B1",
+      "path": "sources/p221_B1.png",
+      "printed_page": 221,
+      "pdf_page_1based": 224,
+      "crop_pdf_points": [
+        79,
+        332,
+        500,
+        444
+      ],
+      "render_scale": 4,
+      "sha256": "1025b6fccbec2425557bfd4495f9f1220943827359eb7921f6bca4ac1759cf31"
+    },
+    {
+      "id": "p221_B2",
+      "path": "sources/p221_B2.png",
+      "printed_page": 221,
+      "pdf_page_1based": 224,
+      "crop_pdf_points": [
+        95,
+        449,
+        500,
+        543
+      ],
+      "render_scale": 4,
+      "sha256": "deb00c1231e1e00805e6b73e06b7b6145501bbfab7f9c0413193b573f5f8b384"
+    },
+    {
+      "id": "p221_B3",
+      "path": "sources/p221_B3.png",
+      "printed_page": 221,
+      "pdf_page_1based": 224,
+      "crop_pdf_points": [
+        95,
+        549,
+        500,
+        640
+      ],
+      "render_scale": 4,
+      "sha256": "6987065e667b71b4e5b87f30e563a626622e6ccc98083e99d32d0e0f7ddeb7c7"
+    },
+    {
+      "id": "p221_B4",
+      "path": "sources/p221_B4.png",
+      "printed_page": 221,
+      "pdf_page_1based": 224,
+      "crop_pdf_points": [
+        95,
+        642,
+        500,
+        717
+      ],
+      "render_scale": 4,
+      "sha256": "f660a2c83600c2b95e18231fa7bff07aad88f986f94b41db6b7fd2f36c194d1d"
+    }
+  ],
+  "records": [
+    {
+      "id": "p221_B1",
+      "printed_page": 221,
+      "pdf_page_1based": 224,
+      "source_section": "B1",
+      "source_image_id": "p221_B1",
+      "key_id": "Nov25-28",
+      "header": "B) XYZ v LP (06.14 a.m., November 26th); 1300 (25/11); 4 TLE; 1 TL RICHI-298",
+      "page_date_heading": "25th NOVEMBER, 1918 (continued).",
+      "source_rows": [
+        "FGFAX FDFAF AFFAG FADDV XFXAD AAXDF VDGDD XFXVV",
+        "FXFFF VGFXG AVGVX XXAXD FGDDF XDFVV XADFA FVXFD",
+        "GGXXG FDADX FDFVF AXFGD FVFVD FDFGG GFAAX FDAFX",
+        "FDVAA XXXAF GDDDF DFXGV VAGFF FAXFG GDFAD AXGXD",
+        "FDAFG AXDAG DFAAA DDGFA GFDAD FDAFX AXGFD ADDGX",
+        "GVAGV FFGFA XDFFF VDFXF XAXFG ADDG FDGXV DFDAG",
+        "FFDDA XVGDX FXFFA FAFDD DDAXD GAXGA GFFGF GDXDG",
+        "DXAFF AVGVF GFDGD XGX"
+      ],
+      "source_slots": 297,
+      "advertised_length": 298,
+      "model": {
+        "kind": "single_missing_coordinate",
+        "source_boundary": 227
+      },
+      "expected_raw": "ANDEUTSCHENGESCHAEFTSTRAEGERKONSTANTINOPELXHIERVORLIEGENMELDUNGENWONACH0YYDEUTSCHEZI?ILPERSONENHAUPTSAECHLICHXRAUENKINDERVONDORTHIERHERABGEREISTSINDX",
+      "readable_candidate": "ANDEUTSCHENGESCHAEFTSTRAEGERKONSTANTINOPELXHIERVORLIEGENMELDUNGENWONACH0YYDEUTSCHEZIVILPERSONENHAUPTSAECHLICHFRAUENKINDERVONDORTHIERHERABGEREISTSINDX",
+      "geometry_stencil": "ANDEUTSCHENGESCHAEFTSTRAEGERKONSTANTINOPELXHIERVORLIEGENMELDUNGENWONACH???DEUTSCHEZIVILPERSONENHAUPTSAECHLICHFRAUENKINDERVONDORTHIERHERABGEREISTSINDX",
+      "notes": [
+        "There are 297 observed coordinates under RICHI-298. The four-letter ADDG group occupies source positions 225-228.",
+        "All three headcount positions are masked during the geometry search; the recovered raw headcount is 0YY, with no numerical relabelling.",
+        "Gap 227 uniquely minimizes the ordinary-word stencil cost among all 298 insertion boundaries."
+      ]
+    },
+    {
+      "id": "p221_B2",
+      "printed_page": 221,
+      "pdf_page_1based": 224,
+      "source_section": "B2",
+      "source_image_id": "p221_B2",
+      "key_id": "Nov25-28",
+      "header": "B) XYZ v LP (06.14 a.m., November 26th); 1300 (25/11); 4 TLE; 2 TL RICHI-344",
+      "page_date_heading": "25th NOVEMBER, 1918 (continued).",
+      "source_rows": [
+        "FFFDD FAFDD AFXGA GXAAF XFFGG FAAFX AGGGV GVFFF",
+        "VAFGV VFFFV DDFDF AFGXA XXGFX FXGXG FXFDF FGADA",
+        "XFFXD FAVDG DFVAA XGDXV DFFDD AXDDA FAGXF FFAGV",
+        "AXGFV GVDDF AXDGXF FVFFX VXAGA FVFDA XDGVF AXAFD",
+        "XDFAA AAFAF GXFDX GAXDF FFXVF VFDXF XXXFF DAGVA",
+        "DAGFA A-FGA VFVFD DDXAX GXFXV FDXDX VXFXX DDGAG",
+        "XGGAF AFVFV GDXDF VAAAA FAGGD VDFDV DXDDD AFGDF",
+        "DXFXV FGDGX AFVFD XDXAF DGDFD GGFFF FDAFF GFGDX",
+        "AXVXA GFFVG FAGDV XDFAF GXAG"
+      ],
+      "source_slots": 345,
+      "advertised_length": 344,
+      "model": {
+        "kind": "single_surplus_coordinate",
+        "source_index": 134
+      },
+      "expected_raw": "BITTEDURCHVERMITTELUNGSCHWEDISCHERGESANDTSCHAFTDRAHTENOBMELDUNGZUTREFFENDWANNUNDWOHINABREISEERFOLGTXW6SUEBERVERBLEIBBEKANNTISTUNDUMWELCHEKA?EGORIENNUNPERSONENESSICHHANDELTX",
+      "readable_candidate": "BITTEDURCHVERMITTELUNGSCHWEDISCHERGESANDTSCHAFTDRAHTENOBMELDUNGZUTREFFENDWANNUNDWOHINABREISEERFOLGTXWASUEBERVERBLEIBBEKANNTISTUNDUMWELCHEKATEGORIENVONPERSONENESSICHHANDELTX",
+      "geometry_stencil": "BITTEDURCHVERMITTELUNGSCHWEDISCHERGESANDTSCHAFTDRAHTENOBMELDUNGZUTREFFENDWANNUNDWOHINABREISEERFOLGTXWASUEBERVERBLEIBBEKANNTISTUNDUMWELCHEKATEGORIENVONPERSONENESSICHHANDELTX",
+      "notes": [
+        "There are 345 printed slots under RICHI-344. The six-letter AXDGXF group occupies source positions 130-135.",
+        "Removing source index 134, the second X in that group, uniquely minimizes the fixed ordinary-word stencil cost among all 345 deletions.",
+        "The printed dash at source index 207 is retained as an erasure."
+      ]
+    },
+    {
+      "id": "p221_B3",
+      "printed_page": 221,
+      "pdf_page_1based": 224,
+      "source_section": "B3",
+      "source_image_id": "p221_B3",
+      "key_id": "Nov25-28",
+      "header": "B) XYZ v LP (06.14 a.m., November 26th); 1300 (25/11); 4 TLE; 3 TL RICHI-348",
+      "page_date_heading": "25th NOVEMBER, 1918 (continued).",
+      "source_rows": [
+        "FAXAX DGFFD FFAFF AFVGD FFXAX ADDXX GXFXV AVXAA",
+        "AFXFF VXVDD XAAFG VFGDV XFXAG DXDGF GGXAF FGFDF",
+        "FXGFV XFFFF VDFVX VDGXG DFGDV ADFGD DXXAD XDXGD",
+        "FAXFG VFDXF DDFAF FXFDD DXAFV XAAAX FAFAF DGDFX",
+        "XFGDF FFFAX DFDXV FAFFX GGAGG GFVFA XVDDF DXFDV",
+        "FDXFF DFGVF FFGDA GDAAG GDFDX AFVFA FAGFF DGDGV",
+        "FDGFG GXAAF GXGGF GFFVA VAXGD XXXXF VXXDX FDGAF",
+        "XDXAA DDVAD XFFVX GFVFA GVFVG DFDFD GFFAX DGADY",
+        "DXXFD FFGFX VXGXD FFXVF FAFAF FDG"
+      ],
+      "source_slots": 348,
+      "advertised_length": 348,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "BITTEFERNERDRAHTEN?EBERSTANDDERTRUPPENTRANSPORTEUNDALLGEMEINELZGEDERDEUTSCHENI8DERTUERKEIX0NSERERSUCHENUMBELASSUNGDERDEUTSCHENZIVILPERSONENINDERTUERKEIISTVONPRAESIDENTWILSONX",
+      "readable_candidate": "BITTEFERNERDRAHTENUEBERSTANDDERTRUPPENTRANSPORTEUNDALLGEMEINELAGEDERDEUTSCHENINDERTUERKEIXUNSERERSUCHENUMBELASSUNGDERDEUTSCHENZIVILPERSONENINDERTUERKEIISTVONPRAESIDENTWILSONX",
+      "geometry_stencil": "BITTEFERNERDRAHTENUEBERSTANDDERTRUPPENTRANSPORTEUNDALLGEMEINELAGEDERDEUTSCHENINDERTUERKEIXUNSERERSUCHENUMBELASSUNGDERDEUTSCHENZIVILPERSONENINDERTUERKEIISTVONPRAESIDENTWILSONX",
+      "notes": [
+        "There are 348 printed slots, matching the header. The last glyph of DGADY, source index 319, is an invalid Y and remains an erasure.",
+        "Raw numerical-looking labels in I8 and 0NSER are retained before separately priced ordinary-word repairs."
+      ]
+    },
+    {
+      "id": "p221_B4",
+      "printed_page": 221,
+      "pdf_page_1based": 224,
+      "source_section": "B4",
+      "source_image_id": "p221_B4",
+      "key_id": "Nov25-28",
+      "header": "B) XYZ v LP (06.14 a.m., November 26th); 1300 (25/11); 4 TLE; 4 TL RICHI-266",
+      "page_date_heading": "25th NOVEMBER, 1918 (continued).",
+      "source_rows": [
+        "DAFFD GVVFV GXDFV FVXGX AGVVX AFDFF XXXDX FFDVX",
+        "XGAXD XFVDG XFFAX XXFAX DFFDD FFDDX ADVGF FXVFG",
+        "XGFFG AAFAD AFVXX DDDGF DXVFX FFGFD FAXAX GFDXF",
+        "FGGGX DFVXA FDFDG FFGFF GGDGD XGFVF DXGXV FAXFX",
+        "GXGVG AADGG DDDAD ADGFA AXDDF FDDXA XDXG FGGVX",
+        "FXVFF XGFFF DXXFV DXGAX AXGFG XFAAD FGADA DXVXA",
+        "DVXAG DGXDX DAFGD FFFDX AXVDF F"
+      ],
+      "source_slots": 265,
+      "advertised_length": 266,
+      "model": {
+        "kind": "single_missing_coordinate",
+        "source_boundary": 190
+      },
+      "expected_raw": "DENALLWEERTENUNDDEMOBERKRWEGSR6TINPARISVORQELEGTWORDE?XBEFOERDERUNGDERZIVILPERSONENDURCHXUKRAINEXZURZELTUNMYEGLICHXXYUSWAERTIGBERLINX",
+      "readable_candidate": "DENALLIIERTENUNDDEMOBERKRIEGSRATINPARISVORGELEGTWORDENXBEFOERDERUNGDERZIVILPERSONENDURCHXUKRAINEXZURZEITUNMOEGLICHXXAUSWAERTIGBERLINX",
+      "geometry_stencil": "DENALLIIERTENUNDDEMOBERKRIEGSRATIN?????VORGELEGTWORDENXBEFOERDERUNGDERZIVILPERSONENDURCHX???????XZURZEITUNMOEGLICHXX?????????????????",
+      "notes": [
+        "There are 265 valid coordinates under RICHI-266. The four-letter XDXG group occupies source positions 190-193.",
+        "The primary model places the lost coordinate at boundary 190, the best fit constrained to that deficient group.",
+        "The broader body-only screen masks PARIS, UKRAINE and the entire footer. Its six globally tied minima are 181-186, outside the deficient group. All are retained, with their distinct raw texts and full repair prices.",
+        "The full-text stencil has three cheaper broad minima, 184-186. These are not silently substituted for the source-local model."
+      ]
+    }
+  ],
+  "historical_context": {
+    "path": "historical_context.json",
+    "sha256": "3810ea409d633a44f796ee69362583c60642c2b11d0b5824e7e4b43cf8b54198"
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "The paper explicitly discusses p221 A in the Mackensen section, but no explicit p221 B civilian-enquiry body discussion was located. The present edition covers only B1-B4."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "The ADFGVX chapter explicitly cites p221 A, not this four-part B message; no explicit B body discussion was located in the checked text."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit p221 B, Wilson or civilian-enquiry body reading was located in the cached 55 comments."
+    }
+  }
+}

@@ -58,13 +58,13 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](cases/p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
 | [p217](cases/p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 183 reviewed records
+## Other ciphertexts — 187 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
-| [p62 A](cases/other/october_requests.md#p62-a--sofia-leaves-the-ring-circuit) | Sofia leaves the ring circuit; clear acknowledgment annotations retained | 62/62 raw positions; exact source frame; no repair | icekylinx and GPT-6 Astra Pro (2026) |
+| [p62 A](cases/other/october_requests.md#p62-a--sofia-leaves-the-ringbahnverkehr) | Sofia leaves the Ringbahnverkehr; clear acknowledgment annotations retained | 62/62 raw positions; exact source frame; no repair | icekylinx and GPT-6 Astra Pro (2026) |
 | [p62 B](cases/other/october_requests.md#p62-b--date-groups-before-weather-observation-telegrams) | Date groups requested before weather-observation telegrams | Conditional two-deletion layout; 91/93 raw positions; two known substitutions and two erasure fills | icekylinx and GPT-6 Astra Pro (2026) |
 | [p63 A](cases/other/october_requests.md#p63-a--a-partially-readable-inspector-request) | Partial inspector request with Kress agreement and Gemoll signature | 114/135 positions proposed; 21-character technical span unassigned; 12 substitutions and two fills | icekylinx and GPT-6 Astra Pro (2026) |
 | [p65 A](cases/other/october_requests.md#p65-a--accelerate-westernhagens-return) | Westernhagen urged to return with a market report before purchases begin | 130/130 raw positions; five explicit coordinate repairs; literal 0 retained | icekylinx and GPT-6 Astra Pro (2026) |
@@ -236,6 +236,10 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p218 A1](cases/other/p218_A.md) | Kress/Tiflis notice: armistice Article XII | 140/141 raw positions; article-number repair explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p218 A2](cases/other/p218_A.md) | Allied judgment governs withdrawal from former Russian territory | 141/142 raw positions; four substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p218 A3](cases/other/p218_A.md) | No Allied demand yet to withdraw the Tiflis guard | 138/139 raw positions; two substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
+| [p221 B1](cases/other/constantinople_civilians.md) | Enquiry about German civilians, mainly women and children, reportedly leaving Constantinople; raw headcount 0YY | 148/149 raw; quantity-masked unique gap227; one word repair; numerical headcount unassigned | icekylinx and GPT-6 Astra Pro (2026); published period key credited separately |
+| [p221 B2](cases/other/constantinople_civilians.md) | Verify civilian departures and whereabouts through the Swedish legation | 171/172 raw; unique deletion134 in six-letter group; four word repairs and one dash fill | icekylinx and GPT-6 Astra Pro (2026); published period key credited separately |
+| [p221 B3](cases/other/constantinople_civilians.md) | Troop-transport enquiry and request to allow German civilians to remain in Turkey | 173/174 raw; three coordinate changes and one invalid-Y fill; Wilson passage independently corroborated by FRUS | icekylinx and GPT-6 Astra Pro (2026); published period key credited separately |
+| [p221 B4](cases/other/constantinople_civilians.md) | Appeal referred to Allies and Supreme War Council; civilian transit through Ukraine impossible | 132/133 raw; source-local gap190 and six broader tied frames retained; exact candidate and FRUS context | icekylinx and GPT-6 Astra Pro (2026); published period key credited separately |
 | [p225 A](cases/other/late_november_cipher_instructions.md) | November key material retained because December tables are absent | 110/116 raw positions | icekylinx and GPT-6 Astra Pro (2026) |
 | [p226 B2](cases/other/late_november_cipher_instructions.md) | Numerical sequences read backward; missing first part | 104/104 raw positions; separately costed word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p226 C1](cases/other/mackensen_internment.md) | Mackensen internment: Entente demands and withdrawal assurances | 172/172 raw positions; separately costed word repairs | Prior body: Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro (2026) |
