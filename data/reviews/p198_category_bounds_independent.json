@@ -1,0 +1,221 @@
+{
+  "schema": "adfgvx-common24-independent-pair-dp-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "verified": true,
+  "input_hashes": {
+    "experiments/p198_letter_bounds/category_bounds.json": "c04726affb281d5b4b92f65034c70b06c2d844e28a1d4b988ea7f2f0627308b6",
+    "experiments/p198_exact_sparse/inputs.json": "25a745508359aa6d85876f60747ae2dfdcbf20586d54539ae0d572d97bc16e8a",
+    "experiments/p198_letter_bounds/exact_letter_bounds.cpp": "0f7e8ef517e24f774678cc113c94a8b91dc3fbb4362673f0474a178eeae80244",
+    "experiments/p198_letter_bounds/verify_category_exact.py": "8f20bf4dd7d9b262a08cda5ec4e34b83ddcfc52813fbde711cf49a5c8ce0ed7f"
+  },
+  "category": "ABCDEFGHIJKLMNOPRSTUVWXZ",
+  "partial_square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+  "ranks": [
+    4,
+    11,
+    5,
+    14,
+    9,
+    7,
+    16,
+    1,
+    12,
+    15,
+    6,
+    10,
+    3,
+    13,
+    8,
+    2
+  ],
+  "observed_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+  "observed_ciphertext_sha256": "47fd6108a49d0729f24a20b070bc652f666f35c86a4790dfc5a22ee7684c40a8",
+  "invariant_cell_mask": [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "complete_square_extensions_covered": 40320,
+  "independent_algorithm": "Each fixed column-loss allocation determines received column segments. The additive objective separates into adjacent physical column pairs. Independent two-dimensional insertion-alignment DPs optimize each pair; summing their optima is exact for that allocation. All 15,504 allocations are enumerated.",
+  "category_invariance": "Every unknown square cell contains Q, Y, or a digit and scores zero; all 40,320 complete-square extensions have the identical category mask.",
+  "generated_C_source_adaptations_hash_verified": "a4b89b437bec9ef286c3fd84ad84cac74104cd029e6450b3e0ad54f86515fec3",
+  "C_engine_invoked": false,
+  "repository_cipher_functions_imported": false,
+  "small_exhaustive_controls": [
+    {
+      "width": 4,
+      "nominal_coordinates": 12,
+      "missing": 1,
+      "exhaustive_witnesses": 72,
+      "both_signs_and_canonical_witnesses_agree": true,
+      "checks": [
+        {
+          "maximize": false,
+          "exact_count": 1,
+          "canonical_loss_positions": [
+            2
+          ],
+          "canonical_fill": "X"
+        },
+        {
+          "maximize": true,
+          "exact_count": 5,
+          "canonical_loss_positions": [
+            6
+          ],
+          "canonical_fill": "F"
+        }
+      ]
+    },
+    {
+      "width": 6,
+      "nominal_coordinates": 14,
+      "missing": 2,
+      "exhaustive_witnesses": 3276,
+      "both_signs_and_canonical_witnesses_agree": true,
+      "checks": [
+        {
+          "maximize": false,
+          "exact_count": 0,
+          "canonical_loss_positions": [
+            0,
+            4
+          ],
+          "canonical_fill": "GX"
+        },
+        {
+          "maximize": true,
+          "exact_count": 7,
+          "canonical_loss_positions": [
+            3,
+            6
+          ],
+          "canonical_fill": "AA"
+        }
+      ]
+    },
+    {
+      "width": 16,
+      "nominal_coordinates": 20,
+      "missing": 2,
+      "exhaustive_witnesses": 6840,
+      "both_signs_and_canonical_witnesses_agree": true,
+      "checks": [
+        {
+          "maximize": false,
+          "exact_count": 5,
+          "canonical_loss_positions": [
+            7,
+            12
+          ],
+          "canonical_fill": "GV"
+        },
+        {
+          "maximize": true,
+          "exact_count": 10,
+          "canonical_loss_positions": [
+            0,
+            5
+          ],
+          "canonical_fill": "AA"
+        }
+      ]
+    }
+  ],
+  "total_small_witnesses": 10188,
+  "historical_exact": {
+    "maximum_category_count": 75,
+    "column_allocations": 15504,
+    "maximizing_column_allocations": 2,
+    "pair_subproblems_solved": 903,
+    "pair_cache_hits": 123129
+  },
+  "reported_C_witness": {
+    "square": "HQYBMUF15PX0DJLR2347S6VONKZ8AWITEGC9",
+    "losses": [
+      63,
+      71,
+      101,
+      105,
+      114
+    ],
+    "fill": "AAFAA",
+    "plaintext": "I3DTWDUOW2ZLTW5V3MPVIVGOAZZUL2RTB95V3WLAUUL3SDHREWPBCSFCVZXFVFNRJZD0KSETFICJRWGCVKMGV",
+    "counts": {
+      "common24": 75,
+      "Q": 0,
+      "Y": 0,
+      "digits": 10
+    },
+    "retained_source_coordinates": 165,
+    "reencryption_verified": true
+  },
+  "true_key_positive_control": {
+    "maximum_category_count": 85,
+    "column_allocations": 15504,
+    "maximizing_column_allocations": 8,
+    "pair_subproblems_solved": 903,
+    "pair_cache_hits": 123129
+  },
+  "necessary_digits_plus_Q_plus_Y_minimum": 10,
+  "attainable_digits_minimum_when_QY_absent": 10,
+  "histogram_only_relaxation": {
+    "plaintext_multiset": {
+      "E": 35,
+      "P": 18,
+      "B": 6,
+      "H": 6,
+      "A": 20
+    },
+    "completed_coordinate_counts": {
+      "A": 18,
+      "D": 18,
+      "F": 35,
+      "G": 24,
+      "V": 40,
+      "X": 35
+    },
+    "added_coordinates": "VVVVV",
+    "common24_count": 85,
+    "interpretation": "A multiset witness only, not a transposition/source witness. The ten-character obstruction depends on fixed rank order and loss geometry."
+  },
+  "limits": [
+    "The partial square, transposition, and exactly-five-loss model remain hypotheses.",
+    "The full category optimum is recomputed here, but no language plausibility or historical reading is asserted.",
+    "The independent DP checks count optima; canonical historical witness ordering is not needed for the bound."
+  ]
+}

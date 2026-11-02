@@ -1,0 +1,125 @@
+{
+  "schema": "adfgvx-p187b-adjacent-swap-independent-review-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "review_date": "2026-11-02",
+  "result": "Passed independent primary-image, bounded prior-art and coordinate-arithmetic review.",
+  "reviewed_file_sha256": {
+    "experiments/p187b_adjacent_swap/audit.py": "f8954b1ed41987aef7b842736ca6fc41c4a6b6a1f31057aedb9a038b1b023a9e",
+    "experiments/p187b_adjacent_swap/result.json": "e6d923c4304427d7bd9c4b94db1cb4cc7a6fda964c50be23444eef41ec06defb",
+    "data/messages.json": "1e4013252eb54065435ae1591abea729df8e40e482a6fe57165b512a9ba9c373",
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "sources/excerpts/childs_p187_A2_swap.png": "f16c7e265c1baf8003a3d17cdcebdfde45bb293d4cf7a2691d751f23d0587fd3"
+  },
+  "source_inspection": {
+    "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "pdf_bytes": 156848258,
+    "printed_page": 187,
+    "pdf_page_1based": 190,
+    "section": "A2",
+    "header": "SU v LP (07.52 a.m., November 13th); 10.50 MK (13/11) 2 TLE; 2 TL; RICHI-142",
+    "source_rows": [
+      "AFAFF AXDVA VVVVF ADVFA GXGVX AGVAX AXGGA AAAAA",
+      "ADDVV XVGAG AGXVV FGAAF VVXGD GGAVG VFDVD VDDDV",
+      "DXFAD DDDAX ADVVG AAFFG XGXAG GDADF VFXDA DGDDG",
+      "GAAXD VDFAD FFDDX VADDV GD"
+    ],
+    "ciphertext": "AFAFFAXDVAVVVVFADVFAGXGVXAGVAXAXGGAAAAAAADDVVXVGAGAGXVVFGAAFVVXGDGGAVGVFDVDVDDDVDXFADDDDAXADVVGAAFFGXGXAGGDADFVFXDADGDDGGAAXDVDFADFFDDXVADDVGD",
+    "coordinates": 142,
+    "source_erasures": 0,
+    "crop_path": "sources/excerpts/childs_p187_A2_swap.png",
+    "crop_pdf_points": [
+      40,
+      305,
+      505,
+      365
+    ],
+    "crop_scale": 4,
+    "visual_finding": "The entire printed page and the fourfold-resolution crop of all four A2 ciphertext rows were inspected. The twenty-sixth five-coordinate group clearly reads VDFAD. Its final AD, at zero-based source indices 128 and 129, is unambiguous and agrees with the catalog. The crop preserves the RICHI-142 label and neighboring groups.",
+    "source_status": "DA is a proposed emendation of the printed AD, not a new glyph reading or an OCR correction."
+  },
+  "prior_art_review": {
+    "scope": "The full HTML body of Norbert comment 53 and the complete comments 49 through 56 in the cached 2017 thread were read. This is a bounded attribution check, not a global novelty search.",
+    "comment_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878079",
+    "author": "Norbert",
+    "date": "2017-05-03",
+    "comment": 53,
+    "prior_normalized_words": "nicht arbeitet",
+    "description": "Norbert first gives the uncorrected word string, then supplies the correct words in his readable German sentence. He also identifies the earlier p186 transmission. His stated key-label changes are separate substitution-label refinements. The checked discussion does not specify a VDFAD-to-VDFDA group repair, the adjacent source swap, or its source indices.",
+    "exact_mechanism_found_in_checked_comments": false,
+    "cached_full_html_sha256": "ef75a098cede408418ecada375e26ea9895e89200174d613cd36f4b080ac65af",
+    "comment53_html_block_sha256": "5afcab7b7a811b6272850024cdfd8d4a5c8270f31c898c369d72694c763e5a32",
+    "cache_context_note": "The session already retained the full public HTML. A live web-tool re-open during this check returned HTTP502; the reviewed cached HTML includes author, date, full comment body and neighboring comments.",
+    "credit_conclusion": "Norbert retains plaintext-normalization priority. The present audit maps the exact coordinate mechanism and source cost; no global novelty or first-decipherment claim is made."
+  },
+  "independent_arithmetic": {
+    "method": "Explicit column lengths and per-column start offsets, independent of the root audit source_map implementation. Every candidate also passes a coordinate-cell roundtrip without completing any unknown square cell.",
+    "tested_adjacent_boundaries": 141,
+    "matching_left_indices": [
+      128
+    ],
+    "matching_indices": [
+      128,
+      129
+    ],
+    "uniqueness_scope": "The entire stated partial reading under the fixed published ranks and partial square, among the 141 tested adjacent source boundaries.",
+    "checks_sha256": "58a4254f69d181f7fb2c98a1271c44ba7f8e396ed500ccf50468af902a45a81c",
+    "group_before": "VDFAD",
+    "group_after": "VDFDA",
+    "changes": [
+      {
+        "plaintext_index": 27,
+        "before": "T",
+        "after": "C",
+        "source_pair_indices": [
+          128,
+          65
+        ],
+        "pair_before": "AG",
+        "pair_after": "DG"
+      },
+      {
+        "plaintext_index": 35,
+        "before": "C",
+        "after": "T",
+        "source_pair_indices": [
+          129,
+          66
+        ],
+        "pair_before": "DG",
+        "pair_after": "AG"
+      }
+    ],
+    "source_positions_unchanged": 140,
+    "source_positions_changed": 2,
+    "adjacent_swap_operations": 1,
+    "coordinate_histogram_preserved": true,
+    "insertions": 0,
+    "deletions": 0,
+    "erasure_fills": 0,
+    "new_square_assignments": 0,
+    "raw_partial_reading": "SOWEITFERNSCHREIBERVERBDGNITHTARBEICETXRESTSCHRIFTLICHXNACHCHEF?X??????",
+    "conditional_partial_reading": "SOWEITFERNSCHREIBERVERBDGNICHTARBEITETXRESTSCHRIFTLICHXNACHCHEF?X??????",
+    "fixed_positions_before": 64,
+    "fixed_positions_after": 64,
+    "plaintext_positions": 71,
+    "unknown_plaintext_positions": [
+      63,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "unassigned_square_cells": 14,
+    "all_completions_argument": "Only the two coordinate pairs AG and DG change; they exchange places. Both are attested cells, T and C. Every other pair remains exactly identical. Therefore every injective completion of the fourteen unknown square cells leaves this two-letter repair unchanged; no guessed assignment is needed."
+  },
+  "limitations": [
+    "The mechanism is a source-efficient explanation of words already proposed in 2017, not new plaintext priority.",
+    "The source visibly reads AD. The evidence does not establish whether a historical error occurred in enciphering, transmission, interception or later copying.",
+    "The seven unresolved ending positions stay unresolved and the known-position count remains 64/71.",
+    "The uniqueness claim is restricted to single adjacent swaps under the named fixed key and complete stated partial-reading comparison."
+  ]
+}

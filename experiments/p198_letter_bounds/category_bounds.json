@@ -1,0 +1,535 @@
+{
+  "schema": "adfgvx-common24-category-bound-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case_id": "p198_Nov13-15b",
+  "input_sha256": "25a745508359aa6d85876f60747ae2dfdcbf20586d54539ae0d572d97bc16e8a",
+  "base_letter_bounds_sha256": "a5e794f7e3248a00f0c7ccc4b30194f46c620e587dc9cb63e0dc7e148c1426fb",
+  "base_engine_sha256": "0f7e8ef517e24f774678cc113c94a8b91dc3fbb4362673f0474a178eeae80244",
+  "generated_engine_sha256": "a4b89b437bec9ef286c3fd84ad84cac74104cd029e6450b3e0ad54f86515fec3",
+  "declared_source_adaptations": [
+    {
+      "exact_original": "const int letter = cell_letters[6 * first + second] < 26;",
+      "replacement": "const int symbol = cell_letters[6 * first + second];\n                        const int letter = symbol < 26 && symbol != 16 && symbol != 24;",
+      "required_occurrences": 1
+    },
+    {
+      "exact_original": "ordinary_letter_count",
+      "replacement": "target_category_count",
+      "required_occurrences": 1
+    },
+    {
+      "exact_original": "best_signed_letter_count",
+      "replacement": "best_signed_category_count",
+      "required_occurrences": 1
+    },
+    {
+      "exact_original": "\\\"maximize_letters\\\"",
+      "replacement": "\\\"maximize_target_category\\\"",
+      "required_occurrences": 1
+    }
+  ],
+  "target_category": "ABCDEFGHIJKLMNOPRSTUVWXZ",
+  "partial_square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+  "representative_complete_square": "HQYBMUF15PX0DJLR2347S6VONKZ8AWITEGC9",
+  "invariance_reason": "All 24 target letters are already assigned in the partial square. Every remaining cell is Q, Y or a digit, outside this target category, so all 8! square completions have identical category scores for every coordinate frame.",
+  "complete_square_extensions_covered": 40320,
+  "loss_and_fill_witnesses_per_complete_square": "8670506592384",
+  "controls": {
+    "total_witnesses_enumerated": 10188,
+    "records": [
+      {
+        "case": {
+          "column_rank_order": [
+            3,
+            1,
+            4,
+            2
+          ],
+          "observed_ciphertext": "DFFVGADXAFF",
+          "missing_count": 1
+        },
+        "square": "HQYBMUF15PX0DJLR2347S6VONKZ8AWITEGC9",
+        "source_control_plaintext": "QY12ER",
+        "nominal_coordinates": 12,
+        "witnesses_enumerated": 72,
+        "checks": [
+          {
+            "exact_search": {
+              "nominal_coordinates": 12,
+              "observed_coordinates": 11,
+              "missing_coordinates": 1,
+              "width": 4,
+              "maximize_target_category": false,
+              "target_category_count": 1,
+              "best_signed_category_count": -1,
+              "allocation_count_total": 4,
+              "allocation_start": 0,
+              "allocations_completed": 4,
+              "all_allocations_completed": true,
+              "maximum_active_states": 2,
+              "state_visits": 40,
+              "transitions_considered": 48,
+              "missing_full_ciphertext_positions": [
+                2
+              ],
+              "filled_missing_coordinates": "X",
+              "losses_per_physical_column": [
+                0,
+                1,
+                0,
+                0
+              ]
+            },
+            "verification": {
+              "representative_plaintext": "QY529R",
+              "filled_ciphertext": "DFXFVGADXAFF",
+              "category_counts": {
+                "target24": 1,
+                "Q": 1,
+                "Y": 1,
+                "digits": 3
+              },
+              "source_coordinates_preserved": 11,
+              "changed_retained_coordinates": 0,
+              "count_selected_coordinate_fills": 1,
+              "reencryption_verified": true,
+              "accepted_historical_plaintext": false
+            },
+            "matches_exhaustive_optimum": true
+          },
+          {
+            "exact_search": {
+              "nominal_coordinates": 12,
+              "observed_coordinates": 11,
+              "missing_coordinates": 1,
+              "width": 4,
+              "maximize_target_category": true,
+              "target_category_count": 5,
+              "best_signed_category_count": 5,
+              "allocation_count_total": 4,
+              "allocation_start": 0,
+              "allocations_completed": 4,
+              "all_allocations_completed": true,
+              "maximum_active_states": 2,
+              "state_visits": 40,
+              "transitions_considered": 48,
+              "missing_full_ciphertext_positions": [
+                6
+              ],
+              "filled_missing_coordinates": "F",
+              "losses_per_physical_column": [
+                1,
+                0,
+                0,
+                0
+              ]
+            },
+            "verification": {
+              "representative_plaintext": "JM5RED",
+              "filled_ciphertext": "DFFVGAFDXAFF",
+              "category_counts": {
+                "target24": 5,
+                "Q": 0,
+                "Y": 0,
+                "digits": 1
+              },
+              "source_coordinates_preserved": 11,
+              "changed_retained_coordinates": 0,
+              "count_selected_coordinate_fills": 1,
+              "reencryption_verified": true,
+              "accepted_historical_plaintext": false
+            },
+            "matches_exhaustive_optimum": true
+          }
+        ]
+      },
+      {
+        "case": {
+          "column_rank_order": [
+            4,
+            1,
+            6,
+            2,
+            5,
+            3
+          ],
+          "observed_ciphertext": "DGFDVVAGAFAX",
+          "missing_count": 2
+        },
+        "square": "HQYBMUF15PX0DJLR2347S6VONKZ8AWITEGC9",
+        "source_control_plaintext": "QY2STAB",
+        "nominal_coordinates": 14,
+        "witnesses_enumerated": 3276,
+        "checks": [
+          {
+            "exact_search": {
+              "nominal_coordinates": 14,
+              "observed_coordinates": 12,
+              "missing_coordinates": 2,
+              "width": 6,
+              "maximize_target_category": false,
+              "target_category_count": 0,
+              "best_signed_category_count": 0,
+              "allocation_count_total": 21,
+              "allocation_start": 0,
+              "allocations_completed": 21,
+              "all_allocations_completed": true,
+              "maximum_active_states": 4,
+              "state_visits": 323,
+              "transitions_considered": 393,
+              "missing_full_ciphertext_positions": [
+                0,
+                4
+              ],
+              "filled_missing_coordinates": "GX",
+              "losses_per_physical_column": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ]
+            },
+            "verification": {
+              "representative_plaintext": "8YQQ926",
+              "filled_ciphertext": "GDGFXDVVAGAFAX",
+              "category_counts": {
+                "target24": 0,
+                "Q": 2,
+                "Y": 1,
+                "digits": 4
+              },
+              "source_coordinates_preserved": 12,
+              "changed_retained_coordinates": 0,
+              "count_selected_coordinate_fills": 2,
+              "reencryption_verified": true,
+              "accepted_historical_plaintext": false
+            },
+            "matches_exhaustive_optimum": true
+          },
+          {
+            "exact_search": {
+              "nominal_coordinates": 14,
+              "observed_coordinates": 12,
+              "missing_coordinates": 2,
+              "width": 6,
+              "maximize_target_category": true,
+              "target_category_count": 7,
+              "best_signed_category_count": 7,
+              "allocation_count_total": 21,
+              "allocation_start": 0,
+              "allocations_completed": 21,
+              "all_allocations_completed": true,
+              "maximum_active_states": 4,
+              "state_visits": 323,
+              "transitions_considered": 393,
+              "missing_full_ciphertext_positions": [
+                3,
+                6
+              ],
+              "filled_missing_coordinates": "AA",
+              "losses_per_physical_column": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                1
+              ]
+            },
+            "verification": {
+              "representative_plaintext": "KHMBTDS",
+              "filled_ciphertext": "DGFADVAVAGAFAX",
+              "category_counts": {
+                "target24": 7,
+                "Q": 0,
+                "Y": 0,
+                "digits": 0
+              },
+              "source_coordinates_preserved": 12,
+              "changed_retained_coordinates": 0,
+              "count_selected_coordinate_fills": 2,
+              "reencryption_verified": true,
+              "accepted_historical_plaintext": false
+            },
+            "matches_exhaustive_optimum": true
+          }
+        ]
+      },
+      {
+        "case": {
+          "column_rank_order": [
+            3,
+            13,
+            2,
+            12,
+            1,
+            11,
+            15,
+            8,
+            9,
+            4,
+            5,
+            14,
+            6,
+            10,
+            7,
+            16
+          ],
+          "observed_ciphertext": "FFFXFFAADAGGFFAFAV",
+          "missing_count": 2
+        },
+        "square": "HQYBMUF15PX0DJLR2347S6VONKZ8AWITEGC9",
+        "source_control_plaintext": "DERQY3BMEL",
+        "nominal_coordinates": 20,
+        "witnesses_enumerated": 6840,
+        "checks": [
+          {
+            "exact_search": {
+              "nominal_coordinates": 20,
+              "observed_coordinates": 18,
+              "missing_coordinates": 2,
+              "width": 16,
+              "maximize_target_category": false,
+              "target_category_count": 5,
+              "best_signed_category_count": -5,
+              "allocation_count_total": 124,
+              "allocation_start": 0,
+              "allocations_completed": 124,
+              "all_allocations_completed": true,
+              "maximum_active_states": 4,
+              "state_visits": 1764,
+              "transitions_considered": 1830,
+              "missing_full_ciphertext_positions": [
+                7,
+                12
+              ],
+              "filled_missing_coordinates": "GV",
+              "losses_per_physical_column": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ]
+            },
+            "verification": {
+              "representative_plaintext": "ER2QYY6MDL",
+              "filled_ciphertext": "FFFXFFAGADAGVGFFAFAV",
+              "category_counts": {
+                "target24": 5,
+                "Q": 1,
+                "Y": 2,
+                "digits": 2
+              },
+              "source_coordinates_preserved": 18,
+              "changed_retained_coordinates": 0,
+              "count_selected_coordinate_fills": 2,
+              "reencryption_verified": true,
+              "accepted_historical_plaintext": false
+            },
+            "matches_exhaustive_optimum": true
+          },
+          {
+            "exact_search": {
+              "nominal_coordinates": 20,
+              "observed_coordinates": 18,
+              "missing_coordinates": 2,
+              "width": 16,
+              "maximize_target_category": true,
+              "target_category_count": 10,
+              "best_signed_category_count": 10,
+              "allocation_count_total": 124,
+              "allocation_start": 0,
+              "allocations_completed": 124,
+              "all_allocations_completed": true,
+              "maximum_active_states": 4,
+              "state_visits": 1764,
+              "transitions_considered": 1830,
+              "missing_full_ciphertext_positions": [
+                0,
+                5
+              ],
+              "filled_missing_coordinates": "AA",
+              "losses_per_physical_column": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "verification": {
+              "representative_plaintext": "LRBHFLDMIL",
+              "filled_ciphertext": "AFFFXAFFAADAGGFFAFAV",
+              "category_counts": {
+                "target24": 10,
+                "Q": 0,
+                "Y": 0,
+                "digits": 0
+              },
+              "source_coordinates_preserved": 18,
+              "changed_retained_coordinates": 0,
+              "count_selected_coordinate_fills": 2,
+              "reencryption_verified": true,
+              "accepted_historical_plaintext": false
+            },
+            "matches_exhaustive_optimum": true
+          }
+        ]
+      }
+    ]
+  },
+  "exact_search": {
+    "nominal_coordinates": 170,
+    "observed_coordinates": 165,
+    "missing_coordinates": 5,
+    "width": 16,
+    "maximize_target_category": true,
+    "target_category_count": 75,
+    "best_signed_category_count": 75,
+    "allocation_count_total": 15504,
+    "allocation_start": 0,
+    "allocations_completed": 15504,
+    "all_allocations_completed": true,
+    "maximum_active_states": 32,
+    "state_visits": 26763352,
+    "transitions_considered": 34407272,
+    "missing_full_ciphertext_positions": [
+      63,
+      71,
+      101,
+      105,
+      114
+    ],
+    "filled_missing_coordinates": "AAFAA",
+    "losses_per_physical_column": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "verification": {
+    "representative_plaintext": "I3DTWDUOW2ZLTW5V3MPVIVGOAZZUL2RTB95V3WLAUUL3SDHREWPBCSFCVZXFVFNRJZD0KSETFICJRWGCVKMGV",
+    "filled_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVAFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXAFAFXAXXVGXFVDAVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+    "category_counts": {
+      "target24": 75,
+      "Q": 0,
+      "Y": 0,
+      "digits": 10
+    },
+    "source_coordinates_preserved": 165,
+    "changed_retained_coordinates": 0,
+    "count_selected_coordinate_fills": 5,
+    "reencryption_verified": true,
+    "accepted_historical_plaintext": false
+  },
+  "positive_control": {
+    "case_id": "control_Nov13-15b",
+    "exact_search": {
+      "nominal_coordinates": 170,
+      "observed_coordinates": 165,
+      "missing_coordinates": 5,
+      "width": 16,
+      "maximize_target_category": true,
+      "target_category_count": 85,
+      "best_signed_category_count": 85,
+      "allocation_count_total": 15504,
+      "allocation_start": 0,
+      "allocations_completed": 15504,
+      "all_allocations_completed": true,
+      "maximum_active_states": 32,
+      "state_visits": 26763352,
+      "transitions_considered": 34407272,
+      "missing_full_ciphertext_positions": [
+        0,
+        1,
+        2,
+        9,
+        13
+      ],
+      "filled_missing_coordinates": "FAAAA",
+      "losses_per_physical_column": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "verification": {
+      "representative_plaintext": "DERSTARUELDITDIEBRUICKEHEIDEMDORFNUZWIELERBENUTABARESTBETTENEITGREBEFEHREUEHERMITTEDN",
+      "filled_ciphertext": "FAAFFFFAFAAXFAGFVFGGAFXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVFFGAAGVDFXDDDVVXAFFAFAGXXXVXXVXAF",
+      "category_counts": {
+        "target24": 85,
+        "Q": 0,
+        "Y": 0,
+        "digits": 0
+      },
+      "source_coordinates_preserved": 165,
+      "changed_retained_coordinates": 0,
+      "count_selected_coordinate_fills": 5,
+      "reencryption_verified": true,
+      "accepted_historical_plaintext": false
+    }
+  },
+  "maximum_target24_positions": 75,
+  "necessary_minimum_digits_plus_Q_plus_Y": 10,
+  "separate_necessary_minimum_digits": 3,
+  "attainable_minimum_digits_conditional_on_no_Q_or_Y": 10,
+  "limits": [
+    "The historical number of digits, Q and Y is unknown; these conditions do not reject or authenticate the key.",
+    "The two inequalities are necessary conditions, not a complete digit/Q/Y trade-off frontier.",
+    "The representative maximum-count text is a source-feasible witness, not a plausible plaintext proposal.",
+    "The all-square claim concerns the fixed Nov13-15b partial square, fixed ranks and exactly five source deletions."
+  ],
+  "newly_accepted_historical_plaintext_characters": 0
+}

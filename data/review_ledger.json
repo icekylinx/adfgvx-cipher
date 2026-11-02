@@ -1256,7 +1256,7 @@
           "Printed page42 / PDF page50: November20 report on order11338",
           "Childs complete Aegean scan, printed p168 C / PDF page171: RVV v N4; VON SY"
         ],
-        "source_crop": "nsa_header_convention_printed_p9.png",
+        "source_crop": "../sources/excerpts/nsa_header_convention_p9.png",
         "metadata_correction": "Transport context p193 E now states recipient absent. All original literal headers are preserved."
       }
     },
@@ -1280,37 +1280,6 @@
         "artifact": "certificates/p185_D_transport.json",
         "verifier": "../adfgvx/transport.py",
         "case": "../cases/context/transport.md"
-      }
-    },
-    {
-      "id": "header_direction_convention",
-      "scope": [
-        "source_catalog",
-        "transport_context",
-        "p73",
-        "p158"
-      ],
-      "claim_reviewed": "The printed routing convention X v Y identifies X as recipient and Y as sender, not the reverse.",
-      "attribution": {
-        "authors": [
-          "icekylinx",
-          "GPT-6 Astra Pro"
-        ],
-        "date": "2026-11-02",
-        "kind": "Independent cross-check of primary routing prose and adjacent message headers"
-      },
-      "review_status": "verified_from_explicit_primary_examples",
-      "result": "On printed p9 the 1935 report explicitly describes a July24 message sent by LP (Berlin) to COS (Tiflis) through NKJ (Nicolaiev), then prints NKJ v LP and FUER COS. It describes the other message as COS to OSM (Constantinople), then prints OSM v COS. Thus CM v CZ denotes CZ to CM; -- v CM has an absent recipient and a known sender CM. The independent November20 report describes SY (Spa) to RVV through N4, agreeing with p168 C header RVV v N4 and its VON SY origin notation. A radio sender/recipient need not be the ultimate author/addressee because a relay can intervene.",
-      "verification_evidence": {
-        "source_id": "nsa_summary",
-        "source_url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf",
-        "locators": [
-          "Printed page9 / PDF page17: explicit July24 routes and both headers",
-          "Printed page42 / PDF page50: November20 report on order11338",
-          "Childs complete Aegean scan, printed p168 C / PDF page171: RVV v N4; VON SY"
-        ],
-        "source_crop": "../sources/excerpts/nsa_header_convention_p9.png",
-        "metadata_correction": "Transport context p193 E now states recipient absent. All original literal headers are preserved."
       }
     },
     {
@@ -2211,6 +2180,138 @@
         "artifacts": [
           "experiments/p198_joint_six/results.json",
           "experiments/open_targets/heldout_control_scores.json"
+        ]
+      }
+    },
+    {
+      "id": "p198_single_position_domain_proof",
+      "scope": [
+        "p198"
+      ],
+      "claim_reviewed": "Every individual plaintext position has the full alphabet domain under each frozen complete key and unrestricted five-loss geometry.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "constructive_feasibility_proof_with_complete_position_symbol_checks",
+      "result": "For each of two frozen keys, every one of 85 positions and 36 symbols has an explicitly constructed five-loss witness. All 6,120 witnesses preserve the 165 received coordinates, decode to the requested symbol and re-encrypt exactly. The quantifiers allow a different witness for each choice; arbitrary full plaintexts need not be feasible, so the joint digit bound is unaffected. No historical character is newly accepted.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p198_letter_bounds/domain_witnesses.py",
+          "experiments/p198_letter_bounds/domain_witnesses.json"
+        ]
+      }
+    },
+    {
+      "id": "p187b_adjacent_swap_mechanism",
+      "scope": [
+        "p187b"
+      ],
+      "claim_reviewed": "One adjacent received-coordinate swap explains both of Norbert's 2017 word normalizations under the published key.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "exact_conditional_repair_with_prior_plaintext_credit",
+      "result": "Swapping source indices 128/129 AD→DA changes only plaintext 27 T→C and 35 C→T, restoring NICHT/ARBEITET. All 140 other coordinates and the histogram remain unchanged;64/71 positions stay fixed. The printed VDFAD is source-checked. All 141 adjacent swaps are exhausted and this is the only one producing the stated partial text. No unknown ending or historical error mechanism is inferred.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p187b_adjacent_swap/result.json",
+          "data/reviews/p187b_adjacent_swap_independent.json"
+        ]
+      }
+    },
+    {
+      "id": "p198_partial_square_category_bound",
+      "scope": [
+        "p198"
+      ],
+      "claim_reviewed": "An exact category objective counts the 24 ordinary letters other than Q/Y across all partial-key completions.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "exact_model_free_bound_independently_recomputed",
+      "result": "Under fixed Nov 13–15 b ranks and all five-loss/fill witnesses, at most 75 of 85 positions can be ordinary letters other than Q/Y. Thus digits+Q+Y is at least 10, and a Q/Y-free witness with ten digits attains the bound. Every unknown square cell belongs outside the 24-letter category, so all 40,320 completions are covered. A separate pairwise Python solver recomputes the global optimum; the historical category counts remain unknown.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p198_letter_bounds/category_bounds.json",
+          "data/reviews/p198_category_bounds_independent.json"
+        ]
+      }
+    },
+    {
+      "id": "p198_partial_square_category_frontier",
+      "scope": [
+        "p198"
+      ],
+      "claim_reviewed": "An exact two-objective frontier jointly constrains digit and Q/Y counts in every partial-key completion and five-loss witness.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "exact_model_free_pareto_frontier_with_independent_full_recomputation",
+      "result": "The global nondominated (digits,Q/Y) count pairs are (3,13),(4,6),(5,5),(6,4),(7,3),(8,2),(9,1),(10,0). Three digits require at least 13 Q/Y occurrences. All 28 memberships and 15,504 allocations per membership cover 40,320 completions. Two independent algorithms agree;285,264 short exhaustive membership/loss/fill witnesses include an incomparable two-point control. Full source-preserving witnesses establish attainability without accepting historical text.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p198_category_frontier/results.json",
+          "data/reviews/p198_pareto_independent.json"
+        ]
+      }
+    },
+    {
+      "id": "p198_historical_six_gram_optimum",
+      "scope": [
+        "p198"
+      ],
+      "claim_reviewed": "A calibrated six-gram objective is fully optimized over all five-loss/fill witnesses under a frozen CHI13 completion.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "exact_fixed_key_scoring_result_without_accepted_plaintext",
+      "result": "The best six-gram witness uses losses 16,26,37,78,122 and fills FDGVV; its integer score is −12,562,934,248. The entire source is preserved, but the output remains unreadable. Its 48 partial-square singleton positions depend on the selected geometry and are not new recovered letters. Independent score and source checks, plus all 7,776 fills at the old four-gram geometry, show the improvement requires a different loss mask.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p198_six_historical/results.json",
+          "data/reviews/p198_six_historical_independent.json"
+        ]
+      }
+    },
+    {
+      "id": "p73_official_archive_access_route",
+      "scope": [
+        "p73"
+      ],
+      "claim_reviewed": "Official archive guidance supplies a concrete retrieval route for previously recorded, uninspected literature leads.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "collection_metadata_verified_individual_telegram_unretrieved",
+      "result": "The Foreign Office lists RZ 201 as completely digitized and describes signature searches RZ* plus an older R item number. This yields catalogue queries RZ*11061 and RZ*11064. The linked application timed out in public text retrieval; no individual record, date, wording, timestamp, length or p73 match was obtained. The existing archival leads remain uninspected.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p73_primary_followup/archive_access.json",
+          "experiments/p73_primary_followup/ARCHIVE_ACCESS.md"
         ]
       }
     }

@@ -42,7 +42,7 @@ The identifiers follow the original challenge's printed page numbers. `p187` and
 | [p176a](p176a.md) | Breakthrough toward the north or northeast | Earlier body proposal; additional repairs explicit |
 | [p176b](p176b.md) | Army positions near Peterreve and Versecz | Earlier body; unit digits contextual |
 | [p187](p187.md) | Monitoring Russian and Polish army traffic | Earlier body reproduced; one editorial word repair |
-| [p187b](p187b.md) | Teleprinter failure and written reporting | Earlier partial body; closing text unresolved |
+| [p187b](p187b.md) | Teleprinter failure and written reporting | One adjacent swap explains two earlier word corrections; closing unresolved |
 | [p189](p189.md) | Apparent vehicle request / await orders | Conditional reading through a near-parallel |
 | [p198](p198.md) | CHI intercept with a five-coordinate shortfall | Open |
 | [p215](p215.md) | Apparent Entente troop-transport report | Earlier partial; new conditional Corps Kosch interpretation |

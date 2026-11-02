@@ -39,6 +39,7 @@ jobs:
         run: |
           python experiments/source_followup/verify_context.py --verify
           python experiments/source_followup/audit_p186.py --verify
+          python experiments/p187b_adjacent_swap/audit.py --verify
       - name: Verify linked p153 fields and key-construction bounds
         if: matrix.python == '3.13'
         run: |
@@ -55,7 +56,15 @@ jobs:
         run: |
           python experiments/p198_joint_exact/verify_recorded.py
           python experiments/p198_letter_bounds/verify_recorded.py
+          python experiments/p198_letter_bounds/domain_witnesses.py --verify
           python experiments/p198_joint_six/verify_recorded.py
+          python experiments/p198_six_historical/verify_recorded.py
+      - name: Recompute the exact partial-key category bound
+        run: python experiments/p198_letter_bounds/verify_category_exact.py --verify
+      - name: Recompute the exact digit and Q/Y frontier
+        run: |
+          python experiments/p198_category_frontier/verify_recorded.py
+          python experiments/p198_category_frontier/verify_independent.py --verify
       - name: Verify completed open-target inputs and bounds
         run: python experiments/open_targets/verify_light.py
       - name: Recompute exhaustive p153 crib constraints

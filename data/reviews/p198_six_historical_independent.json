@@ -1,0 +1,99 @@
+{
+  "schema": "adfgvx-p198-historical-six-independent-review-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "review_date": "2026-11-02",
+  "result": "Passed independent source-witness, original-model score, selected-geometry domain and earlier-mask exhaustive checks. The README singleton-count typo was corrected before this review was frozen.",
+  "reviewed_file_sha256": {
+    "experiments/p198_six_historical/README.md": "650819d8000c3ea72fafd827607dc2678076a4c1bc4ab889da5b6921d630d407",
+    "experiments/p198_six_historical/compute.py": "9408a2d9f8aec54254ac96bf48c564e5674912a8d9db25ea32cdb17ce649ecb3",
+    "experiments/p198_six_historical/results.json": "53acd240ecc6ef3e39865fe4dd640bf7ae41e66ee4ca2abebab7697bf26dd84c",
+    "experiments/p198_six_historical/verify_recorded.py": "a815fb86c54ed1df29f625d9bec3cf0050203e80460a4129c910bce771ec253e",
+    "experiments/p198_joint_six/exact_joint_six.cpp": "c1526da2a6ade2064b8a5636c6e6fa5a09baff91a05310d72ec884efcba73cee",
+    "experiments/p198_joint_six/results.json": "c43153fb3ee586eaf8a2ee9cbfe2924454106dd08dc4aac823b098ffc79846c0",
+    "experiments/p198_joint_exact/results.json": "a9ba07498feb7ccfafd62f9ff65bbe4ba64fcbdfc4fd0af79f7ca474e25487bd",
+    "experiments/p198_exact_sparse/inputs.json": "25a745508359aa6d85876f60747ae2dfdcbf20586d54539ae0d572d97bc16e8a",
+    "data/reviews/p198_joint_six_independent.json": "f5e43ed2663c4e0afde731105b5566f014ec2a8715deb3da874d0674508dae25"
+  },
+  "review_scope": {
+    "family": "One frozen heuristic completion of the recorded CHI-Nov13 partial square and fixed column order; exactly five losses from a 170-coordinate frame preserving all 165 received coordinates.",
+    "full_optimizer_independently_rerun": false,
+    "exact_engine": "The engine source hash is unchanged from the independently reviewed synthetic six-gram calibration. Its coverage, state representation, prefix dominance and canonical tie arguments carry over to this input.",
+    "whole_partial_key_family_optimized": false,
+    "accepted_historical_plaintext_characters": 0
+  },
+  "independent_methods": {
+    "model_hashes": {
+      "quad": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+      "six": "79e1474e78afa0d208ffe4306b31ed3531786c2fc6a0c7efb4d2f3a7fd5e4b5a"
+    },
+    "six_model_entries_loaded_as_independent_dictionary": 914057,
+    "model_scores": "Read all nonempty sparse six-gram entries into a separate Python dictionary without reusing the engine lookup. Read four-gram float32 values directly by byte offset. Convert every used value to exact integer units through its rational numerator and denominator.",
+    "cipher_arithmetic": "Explicit column lengths and start offsets for inverse transposition and a separate forward column traversal for re-encryption; no repository cipher or optimizer module imported.",
+    "partial_domains": "Enumerate coordinate-pair cells consistent with each observed half-coordinate; unassigned cells admit every still-unused alphabet symbol. Compare all 85 per-position domains with the report, retaining their global square-assignment dependence.",
+    "old_mask_check": "Enumerate all 6^5 coordinate-fill vectors under the earlier four-gram loss mask, decode each and compute its original six-gram score; break equal scores lexically by the complete plaintext to match the finite-domain comparison."
+  },
+  "verified_historical_winner": {
+    "plaintext": "O9Y29MLBC16TIU4N0KZ7166SUC002WZPHEEINEMUSIKEHK6SAPMZSO4VJZRJY4SXNBG3C5B19C21UEYEGE39F",
+    "loss_positions": [
+      16,
+      26,
+      37,
+      78,
+      122
+    ],
+    "fills": "FDGVV",
+    "source_coordinates_preserved": 165,
+    "source_coordinate_changes": 0,
+    "complete_reencryption_verified": true,
+    "scores": {
+      "quad_integer_sum": -12424953460,
+      "six_integer_sum": -12562934248
+    },
+    "six_mean": -9.360115414857864
+  },
+  "verified_geometry_conditional_domains": {
+    "gap_touched_plaintext_positions": [
+      32,
+      35,
+      36,
+      41
+    ],
+    "complete_square_singletons_before_fills": 81,
+    "partial_square_singletons_before_fills": 48,
+    "unknown_square_labels_in_frozen_completion": 14
+  },
+  "earlier_mask_comparison": {
+    "earlier_quad_winner_scores": {
+      "quad_integer_sum": -10598447632,
+      "six_integer_sum": -12850329496
+    },
+    "fills_independently_enumerated": 7776,
+    "best_six_integer_score": -12850329496,
+    "lexical_best_plaintext": "N9YTEUENT16726SSJKZ01WEPLC062EMUSEEZHKISS0K1SOEVOMMYY4SXC1RBC5D1ENGEUEJEG329FF31GJ3UT",
+    "new_geometry_integer_six_advantage": 287395248,
+    "conclusion": "At this fixed key, refilling the earlier four-gram mask cannot attain the new score. The strictly better six-gram score therefore requires a different loss geometry."
+  },
+  "recorded_full_search_coverage": {
+    "column_loss_allocations": 15504,
+    "loss_and_fill_witnesses": "8670506592384",
+    "distinct_plaintext_count_claimed": false,
+    "maximum_active_states": 16807,
+    "visited_prefix_states": 1694119422,
+    "transitions": 3324639982
+  },
+  "presentation_review": [
+    "The full model-selected text is printed without promoting isolated readable substrings.",
+    "The supplied historical square contains fourteen heuristic labels, unlike the supplied true square in the positive synthetic calibration.",
+    "The singleton counts are explicitly conditional on the selected geometry and are not counted as newly recovered letters.",
+    "The comparison table is a rescoring of two feasible candidates; no full historical mixed-objective search is claimed.",
+    "The report distinguishes an exact conditional language optimum from a historically authenticated key, damage model or plaintext.",
+    "The initial README count of eighty complete-key singleton positions was corrected to eighty-one. The five gaps affect only four pairs: indices 32,35,36,41."
+  ],
+  "limits": [
+    "The entire full-space optimization was not repeated by this independent review; its unchanged reviewed engine and complete run record support the exactness claim, while independent checks establish the winner score and feasibility.",
+    "The result does not optimize or bound other completions of the partial square, other column orders, other numbers of losses, or coordinate substitutions.",
+    "Even the 48 singleton positions under the recorded partial square depend on the selected geometry. They are not fixed throughout the unrestricted loss family.",
+    "No historical p198 plaintext is accepted from this experiment or review."
+  ]
+}

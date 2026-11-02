@@ -1,0 +1,316 @@
+{
+  "schema": "adfgvx-p198-single-position-domain-witnesses-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "input_sha256": {
+    "experiments/p198_exact_sparse/inputs.json": "25a745508359aa6d85876f60747ae2dfdcbf20586d54539ae0d572d97bc16e8a",
+    "data/messages.json": "1e4013252eb54065435ae1591abea729df8e40e482a6fe57165b512a9ba9c373"
+  },
+  "indexing": "All plaintext and completed-ciphertext positions are zero-based. Loss positions refer to the 170-coordinate completed ciphertext, not the 165-coordinate received text.",
+  "result": "Every one of the 85 plaintext positions can contain any of the 36 alphabet symbols in a source-compatible five-loss witness, under each of the two frozen complete-key hypotheses.",
+  "quantifiers": "For each key, for each position, and for each symbol there exists a potentially different witness. This does not say that arbitrary symbols can be chosen independently at all 85 positions in one common witness.",
+  "proof": [
+    "A fixed columnar transposition is a permutation of the 170 coordinate positions. A chosen plaintext position therefore has two distinct preimages in the transmitted frame.",
+    "Choose those two preimages as losses, and choose any three other distinct frame positions as the remaining losses. The construction uses the three smallest available positions.",
+    "Place the 165 received coordinates, unchanged and in order, in the remaining 165 frame positions. This is always possible and preserves the entire received source.",
+    "A complete bijective square contains every alphabet symbol exactly once. Fill the chosen target pair with the two coordinates of the requested symbol; fill the other three loss positions with A.",
+    "Inverse transposition and pair decoding then produce the requested symbol at the chosen position. Re-encryption returns the constructed full frame; deleting its five chosen losses returns the source.",
+    "The construction works independently for all 85 positions and all 36 symbols. Therefore no single plaintext position is fixed throughout this unrestricted five-loss family, even though joint restrictions across positions can hold."
+  ],
+  "construction_rules": {
+    "nominal_coordinates": 170,
+    "received_coordinates": 165,
+    "losses": 5,
+    "target_pair_loss_positions": "The two ciphertext preimages of the selected plaintext position.",
+    "other_loss_positions": "The three smallest distinct frame positions outside the target pair.",
+    "target_pair_fills": "The requested symbol pair in the fixed complete square.",
+    "other_loss_fills": "AAA",
+    "source_order": "All received coordinates fill the non-loss positions in increasing ciphertext order."
+  },
+  "digest_format": "SHA-256 of canonical JSON records, each encoded as ASCII with sorted keys, separators comma/colon without spaces, and one trailing newline. Record order: case_id lexical order, plaintext position 0 through 84, then symbol order ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789. Selected examples show the exact record fields. No witness is omitted from the digest or verification.",
+  "total_constructive_witnesses_checked": 6120,
+  "combined_witness_stream_sha256": "38416167fea71d7ab01f6d96b8741daa853650e8bd4fbf76d5ced030cda8ce1a",
+  "cases": [
+    {
+      "case_id": "p198_CHI-Nov13",
+      "column_rank_order": [
+        3,
+        13,
+        2,
+        12,
+        1,
+        11,
+        15,
+        8,
+        9,
+        4,
+        5,
+        14,
+        6,
+        10,
+        7,
+        16
+      ],
+      "fixed_complete_square": "AROT8WHQJC2YSVU7I6DXBPM3451NZELFK0G9",
+      "fixed_square_status": "One heuristic completion of the recorded partial square, frozen for conditional alignment optimization; not an established historical square.",
+      "source_ciphertext_sha256": "47fd6108a49d0729f24a20b070bc652f666f35c86a4790dfc5a22ee7684c40a8",
+      "plaintext_positions_verified": 85,
+      "attainable_domain_at_every_individual_position": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "constructive_witnesses_checked": 3060,
+      "received_coordinates_preserved_per_witness": 165,
+      "received_coordinates_changed_per_witness": 0,
+      "inserted_coordinates_per_witness": 5,
+      "target_pair_among_inserted_coordinates_per_witness": 2,
+      "other_inserted_coordinates_per_witness": 3,
+      "all_witnesses_reencrypt_exactly": true,
+      "all_requested_symbols_attained": true,
+      "witness_stream_sha256": "a293639a16a683654475556b72b9fefa69644d655fdf2a139ee130002e5902a2",
+      "selected_examples": [
+        {
+          "case_id": "p198_CHI-Nov13",
+          "plaintext_position": 0,
+          "requested_symbol": "A",
+          "target_coordinate_pair": "AA",
+          "target_ciphertext_indices_in_pair_order": [
+            22,
+            128
+          ],
+          "other_loss_positions": [
+            0,
+            1,
+            2
+          ],
+          "loss_positions": [
+            0,
+            1,
+            2,
+            22,
+            128
+          ],
+          "filled_missing_coordinates": "AAAAA",
+          "completed_ciphertext": "AAADFVXVXGAXDGXVXDVGVGADVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFAGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+          "plaintext": "A9W2924JCJW86BLPNB87E6E4O0C026I7HE671WZBL01E213SS2GZSKSVU15JHA4VTPG3Y5UBYEM17E3EZBW9K"
+        },
+        {
+          "case_id": "p198_CHI-Nov13",
+          "plaintext_position": 42,
+          "requested_symbol": "Z",
+          "target_coordinate_pair": "VV",
+          "target_ciphertext_indices_in_pair_order": [
+            5,
+            111
+          ],
+          "other_loss_positions": [
+            0,
+            1,
+            2
+          ],
+          "loss_positions": [
+            0,
+            1,
+            2,
+            5,
+            111
+          ],
+          "filled_missing_coordinates": "AAAVV",
+          "completed_ciphertext": "AAADFVVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXVFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+          "plaintext": "BWW2924JC9W86BLPNJ87E6E4OBC026I7H0671WZBLEZE213SS01ZSKSVU2GJHA4VT153Y5UBYPG17E3EZEM9K"
+        },
+        {
+          "case_id": "p198_CHI-Nov13",
+          "plaintext_position": 84,
+          "requested_symbol": "0",
+          "target_coordinate_pair": "XG",
+          "target_ciphertext_indices_in_pair_order": [
+            95,
+            43
+          ],
+          "other_loss_positions": [
+            0,
+            1,
+            2
+          ],
+          "loss_positions": [
+            0,
+            1,
+            2,
+            43,
+            95
+          ],
+          "filled_missing_coordinates": "AAAGX",
+          "completed_ciphertext": "AAADFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFGDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+          "plaintext": "J9W292EJNYW86BLPTBW7Z644JK20J667LN77ZWZBS9EEH1MSSCKZSK6VOZZJYA4VCBF3C5SBENM1UEBEG3890"
+        },
+        {
+          "case_id": "p198_CHI-Nov13",
+          "plaintext_position": 84,
+          "requested_symbol": "9",
+          "target_coordinate_pair": "XX",
+          "target_ciphertext_indices_in_pair_order": [
+            95,
+            43
+          ],
+          "other_loss_positions": [
+            0,
+            1,
+            2
+          ],
+          "loss_positions": [
+            0,
+            1,
+            2,
+            43,
+            95
+          ],
+          "filled_missing_coordinates": "AAAXX",
+          "completed_ciphertext": "AAADFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFXDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+          "plaintext": "J9W292EJNYW86BLPTBW7Z644JK20J667LN77ZWZBS9EEH1MSSCKZSK6VOZZJYA4VCBF3C5SBENM1UEBEG3899"
+        }
+      ]
+    },
+    {
+      "case_id": "p198_Nov13-15b",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "fixed_complete_square": "H8YBMUF15PX0DJLR74Q9S6VONKZ3AWITEGC2",
+      "fixed_square_status": "One heuristic completion of the recorded partial square, frozen for conditional alignment optimization; not an established historical square.",
+      "source_ciphertext_sha256": "47fd6108a49d0729f24a20b070bc652f666f35c86a4790dfc5a22ee7684c40a8",
+      "plaintext_positions_verified": 85,
+      "attainable_domain_at_every_individual_position": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "constructive_witnesses_checked": 3060,
+      "received_coordinates_preserved_per_witness": 165,
+      "received_coordinates_changed_per_witness": 0,
+      "inserted_coordinates_per_witness": 5,
+      "target_pair_among_inserted_coordinates_per_witness": 2,
+      "other_inserted_coordinates_per_witness": 3,
+      "all_witnesses_reencrypt_exactly": true,
+      "all_requested_symbols_attained": true,
+      "witness_stream_sha256": "e4d40f27fa7e8cd56fc0db677f46da1e90477531116bd672cbeb2afabb0b62dc",
+      "selected_examples": [
+        {
+          "case_id": "p198_Nov13-15b",
+          "plaintext_position": 0,
+          "requested_symbol": "A",
+          "target_coordinate_pair": "VV",
+          "target_ciphertext_indices_in_pair_order": [
+            31,
+            105
+          ],
+          "other_loss_positions": [
+            0,
+            1,
+            2
+          ],
+          "loss_positions": [
+            0,
+            1,
+            2,
+            31,
+            105
+          ],
+          "filled_missing_coordinates": "AAAVV",
+          "completed_ciphertext": "AAADFVXVXGAXDGXVXDVGVGDVADXFFADVVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFVXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+          "plaintext": "AOGIWWOWW7TDTN5K2XRQII362SA8LWBOC45S475V3437SAI24U5UCODKZZLXVDD7ME50KNYG8HPRRLP7CK7IV"
+        },
+        {
+          "case_id": "p198_Nov13-15b",
+          "plaintext_position": 42,
+          "requested_symbol": "Z",
+          "target_coordinate_pair": "VF",
+          "target_ciphertext_indices_in_pair_order": [
+            89,
+            68
+          ],
+          "other_loss_positions": [
+            0,
+            1,
+            2
+          ],
+          "loss_positions": [
+            0,
+            1,
+            2,
+            68,
+            89
+          ],
+          "filled_missing_coordinates": "AAAFV",
+          "completed_ciphertext": "AAADFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFFGVVVGGGXVFXFXXFVDVVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+          "plaintext": "Z4TIWZOW2XGDT25K2V7QIN362LZ8LDBOA4PS4W5VRUZ7SVI2WWZUC7DKYE5XVWD7MYL0KDYGTNPRRQP7VKXIV"
+        },
+        {
+          "case_id": "p198_Nov13-15b",
+          "plaintext_position": 84,
+          "requested_symbol": "0",
+          "target_coordinate_pair": "DX",
+          "target_ciphertext_indices_in_pair_order": [
+            126,
+            158
+          ],
+          "other_loss_positions": [
+            0,
+            1,
+            2
+          ],
+          "loss_positions": [
+            0,
+            1,
+            2,
+            126,
+            158
+          ],
+          "filled_missing_coordinates": "AAADX",
+          "completed_ciphertext": "AAADFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXDFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXXFGAGFADDFX",
+          "plaintext": "W7TITNSW2XRDDIP9CSAQLW36G458O7YOW43SEAFCLU57VOIWAZLUADDJ8E5XJNLCMHP06LBRCK7RCO0COWCI0"
+        },
+        {
+          "case_id": "p198_Nov13-15b",
+          "plaintext_position": 84,
+          "requested_symbol": "9",
+          "target_coordinate_pair": "GD",
+          "target_ciphertext_indices_in_pair_order": [
+            126,
+            158
+          ],
+          "other_loss_positions": [
+            0,
+            1,
+            2
+          ],
+          "loss_positions": [
+            0,
+            1,
+            2,
+            126,
+            158
+          ],
+          "filled_missing_coordinates": "AAAGD",
+          "completed_ciphertext": "AAADFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXGFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVDXFGAGFADDFX",
+          "plaintext": "W7TITNSW2XRDDIP9CSAQLW36G458O7YOW43SEAFCLU57VOIWAZLUADDJ8E5XJNLCMHP06LBRCK7RCO0COWCI9"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "The complete squares are frozen heuristic hypotheses, not established historical p198 keys. The feasibility argument is conditional on those keys and the stated unrestricted loss model.",
+    "The theorem concerns individual-position domains. It does not make every entire plaintext feasible and does not conflict with the separately proved at-least-three-digit joint bound for the Nov13-15b partial-square family.",
+    "A restriction to consecutive five-coordinate losses, independently fixed loss positions, or additional source evidence would define a different family and can reduce individual-position domains.",
+    "The inserted values and full example plaintexts are proof witnesses, not recovered text or likely historical readings. No language score is computed."
+  ],
+  "newly_accepted_historical_plaintext_characters": 0
+}

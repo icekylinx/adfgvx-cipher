@@ -2,7 +2,7 @@
 
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md)
 
-**Status: source-preserving partial reading under a plausible, unproved gap geometry.** This supplementary intercept is outside the 22-message challenge. Its header reads `CM v CZ (20.15 p.m., November 13th), 21.00, RIZI-198`, but the body contains 193 slots: 192 valid ADFGVX coordinates and one literal `Y`. The raw `Y` is retained in the source layer and treated as one unknown coordinate in analysis.
+**Status: source-preserving partial reading under a plausible, unproved gap geometry.** This supplementary **p185 D** intercept is outside the 22-message challenge. Its header reads `CM v CZ (20.15 p.m., November 13th), 21.00, RIZI-198`, but the body contains 193 slots: 192 valid ADFGVX coordinates and one literal `Y`. The raw `Y` is retained in the source layer and treated as one unknown coordinate in analysis.
 
 **Current transcription, comparison and verification:** icekylinx and GPT-6 Astra Pro. Historical keys and source witnesses retain the provenance recorded in the certificate.
 

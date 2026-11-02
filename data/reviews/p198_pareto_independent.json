@@ -1,0 +1,1912 @@
+{
+  "schema": "adfgvx-independent-digit-QY-pareto-review-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "verified": true,
+  "input_hashes": {
+    "experiments/p198_category_frontier/results.json": "cb05be3f0f0355c78fcea5e9c4469ad67bd21023db9f2452425027997c8909ce",
+    "experiments/p198_exact_sparse/inputs.json": "25a745508359aa6d85876f60747ae2dfdcbf20586d54539ae0d572d97bc16e8a",
+    "experiments/p198_category_frontier/compute.py": "fcf9a9c286d6b048cb8b537ca4cf737c21e93bb164b4bd620d94887f0ddb3f77",
+    "experiments/p198_category_frontier/verify_independent.py": "591e46552229d3a92e54fa18236bd5500251433f2570ee923fa24396ff4a6b20"
+  },
+  "source_coordinates_preserved": 165,
+  "column_rank_order": [
+    4,
+    11,
+    5,
+    14,
+    9,
+    7,
+    16,
+    1,
+    12,
+    15,
+    6,
+    10,
+    3,
+    13,
+    8,
+    2
+  ],
+  "partial_square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+  "complete_square_extensions_covered": 40320,
+  "membership_classes_recomputed": 28,
+  "loss_allocations_per_membership": 15504,
+  "distinct_pair_problems_per_membership": 903,
+  "independent_implementation": "A separately written vector-cost pair alignment DP, with an explicit reusable geometry pool and direct nondominance operations; no primary optimizer or repository cipher arithmetic is imported.",
+  "exactness": "For fixed column segments, each adjacent physical column pair has independent fill/loss choices and additive count costs. Dominated prefixes with the same consumed-source state can never improve a common continuation. Pair-frontier sums and unions over every allocation and membership preserve all globally nondominated pairs.",
+  "small_exhaustive_controls": [
+    {
+      "width": 4,
+      "nominal_coordinates": 12,
+      "losses": 1,
+      "memberships": 28,
+      "loss_fill_witnesses_per_membership": 72,
+      "membership_loss_fill_witnesses": 2016,
+      "maximum_frontier_size": 2,
+      "checks": [
+        {
+          "QY_cell_indices": [
+            1,
+            2
+          ],
+          "frontier": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            16
+          ],
+          "frontier": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            17
+          ],
+          "frontier": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            18
+          ],
+          "frontier": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            19
+          ],
+          "frontier": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            27
+          ],
+          "frontier": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            35
+          ],
+          "frontier": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            16
+          ],
+          "frontier": [
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            17
+          ],
+          "frontier": [
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            18
+          ],
+          "frontier": [
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            19
+          ],
+          "frontier": [
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            27
+          ],
+          "frontier": [
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            35
+          ],
+          "frontier": [
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            17
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            18
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            19
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            27
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            35
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            17,
+            18
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            17,
+            19
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            17,
+            27
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            17,
+            35
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            18,
+            19
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            18,
+            27
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            18,
+            35
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            19,
+            27
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            19,
+            35
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            27,
+            35
+          ],
+          "frontier": [
+            [
+              4,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 6,
+      "nominal_coordinates": 14,
+      "losses": 2,
+      "memberships": 28,
+      "loss_fill_witnesses_per_membership": 3276,
+      "membership_loss_fill_witnesses": 91728,
+      "maximum_frontier_size": 1,
+      "checks": [
+        {
+          "QY_cell_indices": [
+            1,
+            2
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            16
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            17
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            18
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            19
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            27
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            16
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            17
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            18
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            19
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            27
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            17
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            18
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            19
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            27
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            17,
+            18
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            17,
+            19
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            17,
+            27
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            17,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            18,
+            19
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            18,
+            27
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            18,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            19,
+            27
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            19,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            27,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 16,
+      "nominal_coordinates": 20,
+      "losses": 2,
+      "memberships": 28,
+      "loss_fill_witnesses_per_membership": 6840,
+      "membership_loss_fill_witnesses": 191520,
+      "maximum_frontier_size": 1,
+      "checks": [
+        {
+          "QY_cell_indices": [
+            1,
+            2
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            16
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            17
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            18
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            19
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            27
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            1,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            16
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            17
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            18
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            19
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            27
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            2,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            17
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            18
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            19
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            27
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            16,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            17,
+            18
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            17,
+            19
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            17,
+            27
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            17,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            18,
+            19
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            18,
+            27
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            18,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            19,
+            27
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            19,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "QY_cell_indices": [
+            27,
+            35
+          ],
+          "frontier": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "small_membership_loss_fill_witnesses": 285264,
+  "incomparable_small_control_frontier": [
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "membership_frontiers": [
+    {
+      "QY_cell_indices": [
+        1,
+        2
+      ],
+      "frontier": [
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        1,
+        16
+      ],
+      "frontier": [
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        1,
+        17
+      ],
+      "frontier": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        1,
+        18
+      ],
+      "frontier": [
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        1,
+        19
+      ],
+      "frontier": [
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        1,
+        27
+      ],
+      "frontier": [
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        1,
+        35
+      ],
+      "frontier": [
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        2,
+        16
+      ],
+      "frontier": [
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        2,
+        17
+      ],
+      "frontier": [
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          16,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        2,
+        18
+      ],
+      "frontier": [
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        2,
+        19
+      ],
+      "frontier": [
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        2,
+        27
+      ],
+      "frontier": [
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        2,
+        35
+      ],
+      "frontier": [
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        16,
+        17
+      ],
+      "frontier": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          17,
+          2
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        16,
+        18
+      ],
+      "frontier": [
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        16,
+        19
+      ],
+      "frontier": [
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        16,
+        27
+      ],
+      "frontier": [
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        16,
+        35
+      ],
+      "frontier": [
+        [
+          3,
+          13
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        17,
+        18
+      ],
+      "frontier": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        17,
+        19
+      ],
+      "frontier": [
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        17,
+        27
+      ],
+      "frontier": [
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        17,
+        35
+      ],
+      "frontier": [
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        18,
+        19
+      ],
+      "frontier": [
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        18,
+        27
+      ],
+      "frontier": [
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        18,
+        35
+      ],
+      "frontier": [
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        19,
+        27
+      ],
+      "frontier": [
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        19,
+        35
+      ],
+      "frontier": [
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          12,
+          0
+        ]
+      ]
+    },
+    {
+      "QY_cell_indices": [
+        27,
+        35
+      ],
+      "frontier": [
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    }
+  ],
+  "historical_membership_frontier_witnesses_verified": 108,
+  "global_frontier": [
+    [
+      3,
+      13
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      10,
+      0
+    ]
+  ],
+  "global_frontier_witnesses_verified": 8,
+  "bounds_with_at_most_QY": [
+    {
+      "QY_budget": 0,
+      "minimum_attainable_digits": 10
+    },
+    {
+      "QY_budget": 1,
+      "minimum_attainable_digits": 9
+    },
+    {
+      "QY_budget": 2,
+      "minimum_attainable_digits": 8
+    },
+    {
+      "QY_budget": 3,
+      "minimum_attainable_digits": 7
+    },
+    {
+      "QY_budget": 4,
+      "minimum_attainable_digits": 6
+    },
+    {
+      "QY_budget": 5,
+      "minimum_attainable_digits": 5
+    },
+    {
+      "QY_budget": 6,
+      "minimum_attainable_digits": 4
+    },
+    {
+      "QY_budget": 7,
+      "minimum_attainable_digits": 4
+    },
+    {
+      "QY_budget": 8,
+      "minimum_attainable_digits": 4
+    },
+    {
+      "QY_budget": 9,
+      "minimum_attainable_digits": 4
+    },
+    {
+      "QY_budget": 10,
+      "minimum_attainable_digits": 4
+    },
+    {
+      "QY_budget": 11,
+      "minimum_attainable_digits": 4
+    },
+    {
+      "QY_budget": 12,
+      "minimum_attainable_digits": 4
+    },
+    {
+      "QY_budget": 13,
+      "minimum_attainable_digits": 3
+    },
+    {
+      "QY_budget": 14,
+      "minimum_attainable_digits": 3
+    },
+    {
+      "QY_budget": 15,
+      "minimum_attainable_digits": 3
+    }
+  ],
+  "three_digit_minimum_QY": 13,
+  "zero_QY_minimum_digits": 10,
+  "limits": [
+    "Only the recorded partial square, transposition, and exactly-five-loss source model are covered.",
+    "A Pareto frontier contains nondominated count pairs, not every attainable count pair.",
+    "No historical digit/Q/Y count, readable plaintext, key acceptance, or key rejection is inferred.",
+    "Witnesses are checked for feasibility; no global lexical-canonical witness rule is asserted."
+  ]
+}

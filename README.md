@@ -4,7 +4,7 @@ Readings, source criticism, and reproducible cryptanalysis of German radio traff
 
 [![Research checks](https://github.com/icekylinx/adfgvx-cipher/actions/workflows/verify.yml/badge.svg)](https://github.com/icekylinx/adfgvx-cipher/actions/workflows/verify.yml) [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
-**icekylinx and GPT-6 Astra Pro** · [Read the messages](cases/README.md) · [How the readings are established](docs/methods.md) · [Sources](sources/README.md) · [Citation](CITATION.cff)
+**icekylinx and GPT-6 Astra Pro** · [Read the messages](cases/README.md) · [Research status](docs/research-status.md) · [Methods](docs/methods.md) · [Sources](sources/README.md) · [Citation](CITATION.cff)
 
 A unified edition of the **22 German radio cryptograms** in Klaus Schmeh and George Lasry's challenge: original source transcription, earlier decipherments, corrections, new source relationships, and reproducible verification.
 
@@ -12,6 +12,7 @@ A unified edition of the **22 German radio cryptograms** in Klaus Schmeh and Geo
 
 - **[p153a](cases/p153a.md) / [p153b](cases/p153b.md): new substantial partial decipherment.** A shared 18-column key recovers 60 of 66 plaintext positions in part 5 and 33 of 54 raw positions in part 6. The ammunition-report reconstruction and separator interpretation yield a 50/54-position conditional template. Every fill, emendation and remaining date/number dependency is explicit.
 - **[p146](cases/p146.md):** a literal duplicate-group repair preserves all 239 retained coordinates and fixes 117/122 plaintext positions before filling the missing group. The most likely text announces a new radio call sign.
+- **[p187b](cases/p187b.md):** one adjacent coordinate swap explains both of Norbert's earlier word corrections, `NICHT` and `ARBEITET`. The other 140 coordinates and all seven unresolved ending positions remain unchanged.
 - **[p109](cases/p109.md):** a same-page near-parallel and an exact multi-witness decoder support the report of an enemy division marching toward Belgrade. The river-name alternatives `SAVE`/`SAVA` and the remaining editorial word choices stay visible.
 - **[p215](cases/p215.md):** `Korps Kosch` fits the damaged closing with two known-coordinate changes, compared with five for the earlier `KORPSFRISCH`. Contemporary command records support the interpretation; the full message remains partial.
 - **[p152](cases/p152.md):** the damaged challenge fragment matches the fuller p136 transmission. The parallel recovers the body and continuation; every supplied or changed coordinate is recorded.
@@ -44,7 +45,7 @@ All current source reviews, arithmetic audits, and new editorial work are by **i
 | [p176a](cases/p176a.md) | Prior body reading; source audit | Norbert (2017) |
 | [p176b](cases/p176b.md) | Prior contextual reading; constraint audit | Prinz and GPT-6 Astra (2026) |
 | [p187](cases/p187.md) | Prior body reading; source audit | George Lasry and Norbert (2017) |
-| [p187b](cases/p187b.md) | Prior body reading; source audit | George Lasry and Norbert (2017) |
+| [p187b](cases/p187b.md) | Prior body; adjacent-swap explanation | George Lasry and Norbert (2017) |
 | [p189](cases/p189.md) | Conditional partial | icekylinx and GPT-6 Astra Pro (2026) |
 | [p198](cases/p198.md) | Open | — |
 | [p215](cases/p215.md) | Prior partial; conditional Kosch interpretation | Norbert (2017) |
@@ -76,7 +77,7 @@ The [p155 Kress-route shipping message](cases/context/p155.md) adds two source-c
 
 ## Review coverage
 
-The [review ledger](data/review_ledger.json) currently records **92 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
+The [review ledger](data/review_ledger.json) currently records **97 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
 
 A September 2026 mass-solution claim is retained with its [reproducibility assessment](data/reviews/unsupported_claim_checks.json) and **Jozef Krajcovic's earlier critique**. Its published constants and selected substrings do not provide a reproducible full reading; no target is marked solved on that basis.
 
@@ -103,11 +104,14 @@ The [joint scattered-loss decoder](experiments/p198_joint_exact/README.md) exact
 
 The [six-gram extension](experiments/p198_joint_six/README.md) recovers one complete control, its exact loss positions and their values under two objectives. A second control still has a better-scoring wrong competitor. These calibrated successes and failures guide further attacks without changing the historical target statuses.
 
+The [exact digit/Q/Y frontier](experiments/p198_category_frontier/README.md) supplies a language-model-free constraint on all 40,320 completions of one p198 partial key: an 85-character reading with just three digits must have at least thirteen Q/Y positions; a Q/Y-free reading needs at least ten digits. Two implementations recompute the full finite scope, and concrete witnesses attain every reported boundary point. This sharpens future proposal checks without declaring a plaintext or excluding the key.
+
 ## Contents
 
 | Path | Contents |
 |---|---|
 | `cases/` | Readings, qualifications, original credits, and source links |
+| `docs/research-status.md` | Current result boundaries and the next evidence or method that could reduce ambiguity |
 | `docs/methods.md` | A reader's guide to the cipher, evidence layers, exact searches and their limits |
 | `data/messages.json` | All 22 source records, legacy transcriptions, and conservative analysis layers |
 | `data/keys.json` | 25 historical, comparison, reported, or newly recovered partial keys; provenance and unknown cells retained |

@@ -1,0 +1,118 @@
+{
+  "schema": "adfgvx-p187b-adjacent-swap-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "date": "2026-11-02",
+  "scope": "Fixed published CHI-Nov13 ranks and attested square cells; no language model, no new cell assignments.",
+  "index_convention": "All indices are zero-based unless explicitly labeled.",
+  "prior_plaintext_credit": {
+    "author": "Norbert",
+    "date": "2017-05-03",
+    "comment": 53,
+    "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878079"
+  },
+  "source": {
+    "message_id": "p187b",
+    "printed_page": 187,
+    "pdf_page_1based": 190,
+    "received_coordinates": 142,
+    "ciphertext": "AFAFFAXDVAVVVVFADVFAGXGVXAGVAXAXGGAAAAAAADDVVXVGAGAGXVVFGAAFVVXGDGGAVGVFDVDVDDDVDXFADDDDAXADVVGAAFFGXGXAGGDADFVFXDADGDDGGAAXDVDFADFFDDXVADDVGD",
+    "ciphertext_sha256": "1ab2c961d00b71889fc066f356c4627705de9f9a6a86ec5fa71986ab0b70167f"
+  },
+  "key": {
+    "id": "CHI-Nov13",
+    "ranks": [
+      3,
+      13,
+      2,
+      12,
+      1,
+      11,
+      15,
+      8,
+      9,
+      4,
+      5,
+      14,
+      6,
+      10,
+      7,
+      16
+    ],
+    "partial_square": "AROT?WH??C??SVU?I?DXBP?????NZELFK?G?"
+  },
+  "raw_partial_reading": "SOWEITFERNSCHREIBERVERBDGNITHTARBEICETXRESTSCHRIFTLICHXNACHCHEF?X??????",
+  "conditional_partial_reading": "SOWEITFERNSCHREIBERVERBDGNICHTARBEITETXRESTSCHRIFTLICHXNACHCHEF?X??????",
+  "adjacent_swap": {
+    "received_indices_zero_based": [
+      128,
+      129
+    ],
+    "received_positions_one_based": [
+      129,
+      130
+    ],
+    "printed_group_number_one_based": 26,
+    "printed_group": "VDFAD",
+    "repaired_group": "VDFDA",
+    "before": "AD",
+    "after": "DA",
+    "known_coordinate_substitutions_if_counted_separately": 2,
+    "unchanged_coordinates": 140,
+    "coordinate_histogram_unchanged": true
+  },
+  "conditional_ciphertext": "AFAFFAXDVAVVVVFADVFAGXGVXAGVAXAXGGAAAAAAADDVVXVGAGAGXVVFGAAFVVXGDGGAVGVFDVDVDDDVDXFADDDDAXADVVGAAFFGXGXAGGDADFVFXDADGDDGGAAXDVDFDAFFDDXVADDVGD",
+  "changed_plaintext_positions": [
+    {
+      "plaintext_position_zero_based": 27,
+      "raw": "T",
+      "repaired": "C",
+      "raw_digraph": "AG",
+      "repaired_digraph": "DG",
+      "received_coordinate_indices_zero_based": [
+        128,
+        65
+      ]
+    },
+    {
+      "plaintext_position_zero_based": 35,
+      "raw": "C",
+      "repaired": "T",
+      "raw_digraph": "DG",
+      "repaired_digraph": "AG",
+      "received_coordinate_indices_zero_based": [
+        129,
+        66
+      ]
+    }
+  ],
+  "fixed_plaintext_positions_before_and_after": 64,
+  "total_plaintext_positions": 71,
+  "unresolved_plaintext_positions": [
+    63,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+  ],
+  "exhaustive_adjacent_swap_check": {
+    "tested": 141,
+    "matches": [
+      128
+    ],
+    "checks_sha256": "58a4254f69d181f7fb2c98a1271c44ba7f8e396ed500ccf50468af902a45a81c",
+    "uniqueness_scope": "Only among the 141 single adjacent swaps under this fixed key, requiring the entire stated partial reading."
+  },
+  "verification": {
+    "raw_and_repaired_complete_witness_roundtrips": true,
+    "arbitrary_completion_is_not_historical_evidence": true,
+    "all_unknown_square_completions_leave_the_two_repairs_unchanged": true
+  },
+  "limitations": [
+    "The printed AD is retained as received evidence; DA is an editorial transposition hypothesis.",
+    "This does not identify where the historical error arose or establish that it was a transcription error.",
+    "No new plaintext priority is claimed for the words already normalized by Norbert.",
+    "The seven unresolved ending positions and fourteen unassigned square cells remain unresolved."
+  ]
+}

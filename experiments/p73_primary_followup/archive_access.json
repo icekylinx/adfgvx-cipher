@@ -1,0 +1,44 @@
+{
+  "schema": "adfgvx-p73-archive-access-v1",
+  "project": "ADFGVX Cipher",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "review_date": "2026-11-02",
+  "scope": "Official collection-level digitization and catalogue guidance; no individual record or telegram retrieved.",
+  "official_sources": [
+    {
+      "url": "https://archiv.diplo.de/arc-de/digitalisierte-und-einsehbare-bestaende-invenio--2404424",
+      "publisher": "Federal Foreign Office, Political Archives",
+      "observed_statement": "RZ 201 / Abteilung IA is listed as completely digitized and viewable in invenio.",
+      "supports": "Collection-level availability only."
+    },
+    {
+      "url": "https://archiv.diplo.de/arc-de/im-archiv-forschen/bestellen-und-zitieren-mit-invenio",
+      "publisher": "Federal Foreign Office, Political Archives",
+      "observed_statement": "For former central-office R item numbers, search RZ* followed by the old number in the signature field; the Political Archives use a separate invenio account.",
+      "supports": "Catalogue-query method and service identity, not verification of the candidate items."
+    }
+  ],
+  "derived_catalogue_queries": [
+    "RZ*11061",
+    "RZ*11064"
+  ],
+  "prior_leads_file": "data/reviews/p73_source_context.json",
+  "public_text_fetches": [
+    {
+      "url": "https://politisches-archiv.diplo.de/invenio/login.xhtml",
+      "result": "Text retrieval timed out; no individual catalogue data obtained."
+    },
+    {
+      "url": "https://politisches-archiv.diplo.de/hilfe/bin/view/Main/",
+      "result": "Gateway error; no help-page contents obtained."
+    }
+  ],
+  "new_ciphertext_coordinates": 0,
+  "new_plaintext_characters": 0,
+  "date_layer_changed": false,
+  "limitations": [
+    "No current item title or exact R-to-RZ item correspondence was directly checked.",
+    "No original October26 telegram image, German wording, timestamp or encrypted length was retrieved.",
+    "A complete collection-level digitization statement does not prove that a candidate item matches p73."
+  ]
+}
