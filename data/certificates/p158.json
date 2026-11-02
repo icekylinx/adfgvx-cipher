@@ -1,0 +1,726 @@
+{
+  "schema_version": 1,
+  "claim": "Composite-source identification",
+  "components": {
+    "title": "Exact source-backed component readings for the composite p158 cryptogram",
+    "date": "2026-11-02",
+    "key": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "readings": [
+      {
+        "id": "p159B_supported_V",
+        "raw_ciphertext": "GDDFVVXRDDAVVFGXXVDDXVADDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGVVVGVDDGDXVAVGGAAAXGAVFADVDADDVAXVDVVDDDGADAXFAXXFXDVVDDXDGDDAXVAVDXVVXDVDVDXDGDXGVFVVGGVDFVVAVDFDADVDFXVXDAVXVXVDVDD--XDVDGDDDGDXDXXXDVVVVGVGVXVVVVFADDXVDXGXDXAVFDXVGVXVVVVVGVVXDVVXADXVXXDVGXAVVGDVAADGDVFVXFVXGFAXDDGDFA",
+        "edits": [
+          {
+            "start": 20,
+            "end": 25,
+            "before": "XVADD",
+            "after": "",
+            "evidence": "The group is duplicated in p159B; p158D and p168C contain only one copy."
+          },
+          {
+            "start": 110,
+            "end": 110,
+            "before": "",
+            "after": "GFFXF",
+            "evidence": "The missing group appears in both p158D and p168C."
+          },
+          {
+            "start": 177,
+            "end": 179,
+            "before": "--",
+            "after": "AG",
+            "evidence": "The corresponding p168C group is DDAGX."
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "before": "R",
+            "after": "V",
+            "evidence": "Invalid R replaced with the differing observation in p158D; this choice is not uniquely determined."
+          }
+        ],
+        "corrected_ciphertext": "GDDFVVXVDDAVVFGXXVDDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGVVVGVDDGDXVAVGGAAAXGAVFADVDADDVAXVDVVDDDGADAXFAXXFGFFXFXDVVDDXDGDDAXVAVDXVVXDVDVDXDGDXGVFVVGGVDFVVAVDFDADVDFXVXDAVXVXVDVDDAGXDVDGDDDGDXDXXXDVVVVGVGVXVVVVFADDXVDXGXDXAVFDXVGVXVVVVVGVVXDVVXADXVXXDVGXAVVGDVAADGDVFVXFVXGFAXDDGDFA",
+        "raw_plaintext": "UEBER2XBAYRXGENXHDOXMUENCXENXXAN7XRSSXDIVXXLA3DSBERGXAN0LECHXXNICHTDURCHKABELXARMEESCHLUESSELDOWPELTXEMPFANGBESTXXOXHXLXRMX1ANRX11338GEHXORX",
+        "status": "Supported reconstruction with explicitly competing reading at ciphertext coordinate7; plaintext still contains historical garbles."
+      },
+      {
+        "id": "p159B_supported_F",
+        "raw_ciphertext": "GDDFVVXRDDAVVFGXXVDDXVADDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGVVVGVDDGDXVAVGGAAAXGAVFADVDADDVAXVDVVDDDGADAXFAXXFXDVVDDXDGDDAXVAVDXVVXDVDVDXDGDXGVFVVGGVDFVVAVDFDADVDFXVXDAVXVXVDVDD--XDVDGDDDGDXDXXXDVVVVGVGVXVVVVFADDXVDXGXDXAVFDXVGVXVVVVVGVVXDVVXADXVXXDVGXAVVGDVAADGDVFVXFVXGFAXDDGDFA",
+        "edits": [
+          {
+            "start": 20,
+            "end": 25,
+            "before": "XVADD",
+            "after": "",
+            "evidence": "The group is duplicated in p159B; p158D and p168C contain only one copy."
+          },
+          {
+            "start": 110,
+            "end": 110,
+            "before": "",
+            "after": "GFFXF",
+            "evidence": "The missing group appears in both p158D and p168C."
+          },
+          {
+            "start": 177,
+            "end": 179,
+            "before": "--",
+            "after": "AG",
+            "evidence": "The corresponding p168C group is DDAGX."
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "before": "R",
+            "after": "F",
+            "evidence": "Invalid R replaced with the differing observation in p168C; this choice is not uniquely determined."
+          }
+        ],
+        "corrected_ciphertext": "GDDFVVXFDDAVVFGXXVDDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGVVVGVDDGDXVAVGGAAAXGAVFADVDADDVAXVDVVDDDGADAXFAXXFGFFXFXDVVDDXDGDDAXVAVDXVVXDVDVDXDGDXGVFVVGGVDFVVAVDFDADVDFXVXDAVXVXVDVDDAGXDVDGDDDGDXDXXXDVVVVGVGVXVVVVFADDXVDXGXDXAVFDXVGVXVVVVVGVVXDVVXADXVXXDVGXAVVGDVAADGDVFVXFVXGFAXDDGDFA",
+        "raw_plaintext": "UEBER2XBAYRXGENXHDOXMUENCXENXXAN7XRSSXDIVXXLA3DSBERGXAN0LECHXXNICHTDURCH1ABELXARMEESCHLUESSELDOWPELTXEMPFANGBESTXXOXHXLXRMX1ANRX11338GEHXORX",
+        "status": "Supported reconstruction with explicitly competing reading at ciphertext coordinate7; plaintext still contains historical garbles."
+      },
+      {
+        "id": "p159C_one_deletion",
+        "raw_ciphertext": "GDXXDVDGAGVGGXXGVFADDVFVGVDVAAXAXGVDGFAVGGVVXGGAVVDGXVDVADVFAAAVXGXVVDFFVDVDGXFVVDDVDAXVAAXVFXDDDVAXXFAAAXDVVDVGAVXVDXDDXXGGDXXVGFVXAVDVVFGDDVVXGVVFAGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGGDFVGVGVDGVVVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+        "edits": [
+          {
+            "start": 148,
+            "end": 149,
+            "before": "A",
+            "after": "",
+            "evidence": "Six-symbol group VVFAGV has an extra A; corresponding p158D suffix has VVFGV, and header242 agrees after removal."
+          }
+        ],
+        "corrected_ciphertext": "GDXXDVDGAGVGGXXGVFADDVFVGVDVAAXAXGVDGFAVGGVVXGGAVVDGXVDVADVFAAAVXGXVVDFFVDVDGXFVVDDVDAXVAAXVFXDDDVAXXFAAAXDVVDVGAVXVDXDDXXGGDXXVGFVXAVDVVFGDDVVXGVVFGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGGDFVGVGVDGVVVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+        "raw_plaintext": "UEBER2XBAIRXGENKMDXMUENCHENAN4XBAIRXDIVXJNSBRUCKXNICHTDURCHKAHELXARMEE0HIDOPPELTXEMPFANGSBESTAETGXANOXHXLXX1A113V7GEHXOPX",
+        "status": "Exact raw decryption after source-supported one-symbol deletion; retain remaining plaintext garbles."
+      }
+    ],
+    "claims_limit": "These are component readings and source-backed repairs. No single plaintext is asserted for the composite p158 stream, and no new key recovery is claimed. Historical novelty of the splice diagnosis requires the separate source audit.",
+    "square_note": "Two digit cells (VF and XA) remain unknown in the audited published key. None of the four component readings uses them; no arbitrary digit completion is needed.",
+    "p168_transcription_note": "The p168C full transcription has an unresolved five-versus-six-symbol group (VDADD/VDADDD). Its full raw decryption is deliberately omitted from this certificate. Local group correspondences used to support p159B repairs remain visible in the scan."
+  },
+  "splice": {
+    "indexing": "zero-based; ends exclusive",
+    "source_B": "GDDFVVX?DDAVVFGXXVDDXVADDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGVVVGVDDGDXVAVGGAAAXGAVFADVDADDVAXVDVVDDDGADAXFAXXFXDVVDDXDGDDAXVAVDXVVXDVDVDXDGDXGVFVVGGVDFVVAVDFDADVDFXVXDAVXVXVDVDD??XDVDGDDDGDXDXXXDVVVVGVGVXVVVVFADDXVDXGXDXAVFDXVGVXVVVVVGVVXDVVXADXVXXDVGXAVVGDVAADGDVFVXFVXGFAXDDGDFA",
+    "source_C": "GDXXDVDGAGVGGXXGVFADDVFVGVDVAAXAXGVDGFAVGGVVXGGAVVDGXVDVADVFAAAVXGXVVDFFVDVDGXFVVDDVDAXVAAXVFXDDDVAXXFAAAXDVVDVGAVXVDXDDXXGGDXXVGFVXAVDVVFGDDVVXGVVFAGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGGDFVGVGVDGVVVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+    "method": "exhaustive dynamic programming over every split and every source endpoint",
+    "limitations": "Restricted two-source correspondence test; not a historical mechanism proof or a unified decryption.",
+    "variants": {
+      "with_handwritten_insertions": {
+        "ciphertext": "GDDFVVXVDDVVVFGXXVDDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGX??GVDDGDXVAVGGAAAXGAFFADVDADDVAXVDVVDDDGADAXFAXXFGFFXFXDVVDDXDGDDAXVAVXXVVVVFGDVVFGDVVFGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGDDFVGVGVDGVGVVDADVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+        "length": 242,
+        "sha256": "da5fb1a14210c671978974bcf8ea36748f4ccfca9845f67f3a63dd928095823b",
+        "minimum_cost": 24,
+        "optimal_switches": [
+          {
+            "p158_split": 130,
+            "B_prefix_end": 130,
+            "C_suffix_start": 135,
+            "prefix_alignment": {
+              "p158_aligned": "GDDFVVXVDDVVVFG.X...XV.DDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGX??GVDDGDXVAVGGAAAXGAFFADVDADDVAXVDVVDDDGADAXFAXXFGFFXFXDVVDDXDGDDAXVAVXXVV",
+              "parallel_source_aligned": "GDDFVVX?DDAVVFGXXVDDXVADDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGVVVGVDDGDXVAVGGAAAXGAVFADVDADDVAXVDVVDDDGADAXFA.X....XFXDVVDDXDGDDAXVAVDXVV",
+              "counts": {
+                "exact_known_matches": 118,
+                "erasure_compatible": 3,
+                "known_substitutions": 4,
+                "source_only": 5,
+                "p158_only": 5
+              },
+              "edit_cost": 14
+            },
+            "suffix_alignment": {
+              "p158_aligned": "VVFG.DVVFGDVVF.GVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGDDFVGVGVDGVGVVDADVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+              "parallel_source_aligned": "VVFGDDVVXG.VVFAGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGGDFVGVGVD..GVV...VVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+              "counts": {
+                "exact_known_matches": 104,
+                "source_only": 2,
+                "known_substitutions": 2,
+                "p158_only": 6
+              },
+              "edit_cost": 10
+            }
+          }
+        ]
+      },
+      "typed_only": {
+        "ciphertext": "GDDFVVXVDDVVVFGXXVDDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGX??GVDDGDXVAVGGAAAXGAFFADVDADDVAXVDVVDDDGADAXFAXXFGFFXFXDVVDDXDGDDAXVAVXXVVVVFGDVVFGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGDDFVGVGVDGVGVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+        "length": 232,
+        "sha256": "9b1368e71da40867f5f3a68ca9dd6ff497cd83dbce4fe102b51784065c98ffc4",
+        "minimum_cost": 19,
+        "optimal_switches": [
+          {
+            "p158_split": 130,
+            "B_prefix_end": 130,
+            "C_suffix_start": 141,
+            "prefix_alignment": {
+              "p158_aligned": "GDDFVVXVDDVVVFG.X...XV.DDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGX??GVDDGDXVAVGGAAAXGAFFADVDADDVAXVDVVDDDGADAXFAXXFGFFXFXDVVDDXDGDDAXVAVXXVV",
+              "parallel_source_aligned": "GDDFVVX?DDAVVFGXXVDDXVADDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGVVVGVDDGDXVAVGGAAAXGAVFADVDADDVAXVDVVDDDGADAXFA.X....XFXDVVDDXDGDDAXVAVDXVV",
+              "counts": {
+                "exact_known_matches": 118,
+                "erasure_compatible": 3,
+                "known_substitutions": 4,
+                "source_only": 5,
+                "p158_only": 5
+              },
+              "edit_cost": 14
+            },
+            "suffix_alignment": {
+              "p158_aligned": "VVFGDVVF.GVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGDDFVGVGVDGVGVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+              "parallel_source_aligned": "VVXG.VVFAGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGGDFVGVGVDGVVVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+              "counts": {
+                "exact_known_matches": 98,
+                "known_substitutions": 3,
+                "p158_only": 1,
+                "source_only": 1
+              },
+              "edit_cost": 5
+            }
+          }
+        ]
+      }
+    }
+  },
+  "source_layers": {
+    "id": "p158_D",
+    "source": {
+      "title": "General Solution of the ADFGVX Cipher System",
+      "author": "J. Rives Childs",
+      "printed_page": 158,
+      "pdf_page_1based": 161,
+      "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+      "local_image": "childs_p158.png",
+      "detail_image": "childs_p158_D.png"
+    },
+    "header_transcription": "D) RW v SY (09.43 p.m., November 8th), 1803 (8/11), RICHI-242",
+    "advertised_length": 242,
+    "layers": {
+      "typed_only": {
+        "ciphertext": "GDDFVVXVDDVVVFGXXVDDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGX??GVDDGDXVAVGGAAAXGAFFADVDADDVAXVDVVDDDGADAXFAXXFGFFXFXDVVDDXDGDDAXVAV?XVVVVFGDVVFGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGDDFVGVGVDGVGVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+        "length": 232,
+        "group_count_including_short_final": 47
+      },
+      "typed_plus_handwriting": {
+        "ciphertext": "GDDFVVXVDDVVVFGXXVDDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGX??GVDDGDXVAVGGAAAXGAFFADVDADDVAXVDVVDDDGADAXFAXXFGFFXFXDVVDDXDGDDAXVAV?XVVVVFGDVVFGDVVFGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGDDFVGVGVDGVGVVDADVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+        "length": 242,
+        "group_count_including_short_final": 49
+      }
+    },
+    "groups": [
+      {
+        "augmented_group_1based": 1,
+        "line_1based": 1,
+        "column_1based": 1,
+        "layer": "typed",
+        "typed_group_1based": 1,
+        "transcription": "GDDFV",
+        "augmented_offset_0based": 0
+      },
+      {
+        "augmented_group_1based": 2,
+        "line_1based": 1,
+        "column_1based": 2,
+        "layer": "typed",
+        "typed_group_1based": 2,
+        "transcription": "VXVDD",
+        "augmented_offset_0based": 5
+      },
+      {
+        "augmented_group_1based": 3,
+        "line_1based": 1,
+        "column_1based": 3,
+        "layer": "typed",
+        "typed_group_1based": 3,
+        "transcription": "VVVFG",
+        "augmented_offset_0based": 10
+      },
+      {
+        "augmented_group_1based": 4,
+        "line_1based": 1,
+        "column_1based": 4,
+        "layer": "typed",
+        "typed_group_1based": 4,
+        "transcription": "XXVDD",
+        "augmented_offset_0based": 15
+      },
+      {
+        "augmented_group_1based": 5,
+        "line_1based": 1,
+        "column_1based": 5,
+        "layer": "typed",
+        "typed_group_1based": 5,
+        "transcription": "XVADD",
+        "augmented_offset_0based": 20
+      },
+      {
+        "augmented_group_1based": 6,
+        "line_1based": 1,
+        "column_1based": 6,
+        "layer": "typed",
+        "typed_group_1based": 6,
+        "transcription": "VVFGV",
+        "augmented_offset_0based": 25
+      },
+      {
+        "augmented_group_1based": 7,
+        "line_1based": 1,
+        "column_1based": 7,
+        "layer": "typed",
+        "typed_group_1based": 7,
+        "transcription": "VDDVV",
+        "augmented_offset_0based": 30
+      },
+      {
+        "augmented_group_1based": 8,
+        "line_1based": 1,
+        "column_1based": 8,
+        "layer": "typed",
+        "typed_group_1based": 8,
+        "transcription": "DVAXV",
+        "augmented_offset_0based": 35
+      },
+      {
+        "augmented_group_1based": 9,
+        "line_1based": 2,
+        "column_1based": 1,
+        "layer": "typed",
+        "typed_group_1based": 9,
+        "transcription": "XVGVV",
+        "augmented_offset_0based": 40
+      },
+      {
+        "augmented_group_1based": 10,
+        "line_1based": 2,
+        "column_1based": 2,
+        "layer": "typed",
+        "typed_group_1based": 10,
+        "transcription": "GVXDD",
+        "augmented_offset_0based": 45
+      },
+      {
+        "augmented_group_1based": 11,
+        "line_1based": 2,
+        "column_1based": 3,
+        "layer": "typed",
+        "typed_group_1based": 11,
+        "transcription": "XVVVG",
+        "augmented_offset_0based": 50
+      },
+      {
+        "augmented_group_1based": 12,
+        "line_1based": 2,
+        "column_1based": 4,
+        "layer": "typed",
+        "typed_group_1based": 12,
+        "transcription": "X??GV",
+        "augmented_offset_0based": 55
+      },
+      {
+        "augmented_group_1based": 13,
+        "line_1based": 2,
+        "column_1based": 5,
+        "layer": "typed",
+        "typed_group_1based": 13,
+        "transcription": "DDGDX",
+        "augmented_offset_0based": 60
+      },
+      {
+        "augmented_group_1based": 14,
+        "line_1based": 2,
+        "column_1based": 6,
+        "layer": "typed",
+        "typed_group_1based": 14,
+        "transcription": "VAVGG",
+        "augmented_offset_0based": 65
+      },
+      {
+        "augmented_group_1based": 15,
+        "line_1based": 2,
+        "column_1based": 7,
+        "layer": "typed",
+        "typed_group_1based": 15,
+        "transcription": "AAAXG",
+        "augmented_offset_0based": 70
+      },
+      {
+        "augmented_group_1based": 16,
+        "line_1based": 2,
+        "column_1based": 8,
+        "layer": "typed",
+        "typed_group_1based": 16,
+        "transcription": "AFFAD",
+        "augmented_offset_0based": 75
+      },
+      {
+        "augmented_group_1based": 17,
+        "line_1based": 3,
+        "column_1based": 1,
+        "layer": "typed",
+        "typed_group_1based": 17,
+        "transcription": "VDADD",
+        "augmented_offset_0based": 80
+      },
+      {
+        "augmented_group_1based": 18,
+        "line_1based": 3,
+        "column_1based": 2,
+        "layer": "typed",
+        "typed_group_1based": 18,
+        "transcription": "VAXVD",
+        "augmented_offset_0based": 85
+      },
+      {
+        "augmented_group_1based": 19,
+        "line_1based": 3,
+        "column_1based": 3,
+        "layer": "typed",
+        "typed_group_1based": 19,
+        "transcription": "VVDDD",
+        "augmented_offset_0based": 90
+      },
+      {
+        "augmented_group_1based": 20,
+        "line_1based": 3,
+        "column_1based": 4,
+        "layer": "typed",
+        "typed_group_1based": 20,
+        "transcription": "GADAX",
+        "augmented_offset_0based": 95
+      },
+      {
+        "augmented_group_1based": 21,
+        "line_1based": 3,
+        "column_1based": 5,
+        "layer": "typed",
+        "typed_group_1based": 21,
+        "transcription": "FAXXF",
+        "augmented_offset_0based": 100
+      },
+      {
+        "augmented_group_1based": 22,
+        "line_1based": 3,
+        "column_1based": 6,
+        "layer": "typed",
+        "typed_group_1based": 22,
+        "transcription": "GFFXF",
+        "augmented_offset_0based": 105
+      },
+      {
+        "augmented_group_1based": 23,
+        "line_1based": 3,
+        "column_1based": 7,
+        "layer": "typed",
+        "typed_group_1based": 23,
+        "transcription": "XDVVD",
+        "augmented_offset_0based": 110
+      },
+      {
+        "augmented_group_1based": 24,
+        "line_1based": 3,
+        "column_1based": 8,
+        "layer": "typed",
+        "typed_group_1based": 24,
+        "transcription": "DXDGD",
+        "augmented_offset_0based": 115
+      },
+      {
+        "augmented_group_1based": 25,
+        "line_1based": 4,
+        "column_1based": 1,
+        "layer": "typed",
+        "typed_group_1based": 25,
+        "transcription": "DAXVA",
+        "augmented_offset_0based": 120
+      },
+      {
+        "augmented_group_1based": 26,
+        "line_1based": 4,
+        "column_1based": 2,
+        "layer": "typed",
+        "typed_group_1based": 26,
+        "transcription": "V?XVV",
+        "augmented_offset_0based": 125
+      },
+      {
+        "augmented_group_1based": 27,
+        "line_1based": 4,
+        "column_1based": 3,
+        "layer": "typed",
+        "typed_group_1based": 27,
+        "transcription": "VVFGD",
+        "augmented_offset_0based": 130
+      },
+      {
+        "augmented_group_1based": 28,
+        "line_1based": 4,
+        "column_1based": 4,
+        "layer": "handwritten",
+        "typed_group_1based": null,
+        "transcription": "VVFGD",
+        "augmented_offset_0based": 135
+      },
+      {
+        "augmented_group_1based": 29,
+        "line_1based": 4,
+        "column_1based": 5,
+        "layer": "typed",
+        "typed_group_1based": 28,
+        "transcription": "VVFGV",
+        "augmented_offset_0based": 140
+      },
+      {
+        "augmented_group_1based": 30,
+        "line_1based": 4,
+        "column_1based": 6,
+        "layer": "typed",
+        "typed_group_1based": 29,
+        "transcription": "DDDAG",
+        "augmented_offset_0based": 145
+      },
+      {
+        "augmented_group_1based": 31,
+        "line_1based": 4,
+        "column_1based": 7,
+        "layer": "typed",
+        "typed_group_1based": 30,
+        "transcription": "GVXDG",
+        "augmented_offset_0based": 150
+      },
+      {
+        "augmented_group_1based": 32,
+        "line_1based": 4,
+        "column_1based": 8,
+        "layer": "typed",
+        "typed_group_1based": 31,
+        "transcription": "XDDVV",
+        "augmented_offset_0based": 155
+      },
+      {
+        "augmented_group_1based": 33,
+        "line_1based": 5,
+        "column_1based": 1,
+        "layer": "typed",
+        "typed_group_1based": 32,
+        "transcription": "XXVDG",
+        "augmented_offset_0based": 160
+      },
+      {
+        "augmented_group_1based": 34,
+        "line_1based": 5,
+        "column_1based": 2,
+        "layer": "typed",
+        "typed_group_1based": 33,
+        "transcription": "VVVXG",
+        "augmented_offset_0based": 165
+      },
+      {
+        "augmented_group_1based": 35,
+        "line_1based": 5,
+        "column_1based": 3,
+        "layer": "typed",
+        "typed_group_1based": 34,
+        "transcription": "DXXVX",
+        "augmented_offset_0based": 170
+      },
+      {
+        "augmented_group_1based": 36,
+        "line_1based": 5,
+        "column_1based": 4,
+        "layer": "typed",
+        "typed_group_1based": 35,
+        "transcription": "VADDF",
+        "augmented_offset_0based": 175
+      },
+      {
+        "augmented_group_1based": 37,
+        "line_1based": 5,
+        "column_1based": 5,
+        "layer": "typed",
+        "typed_group_1based": 36,
+        "transcription": "GGGDX",
+        "augmented_offset_0based": 180
+      },
+      {
+        "augmented_group_1based": 38,
+        "line_1based": 5,
+        "column_1based": 6,
+        "layer": "typed",
+        "typed_group_1based": 37,
+        "transcription": "AXVFX",
+        "augmented_offset_0based": 185
+      },
+      {
+        "augmented_group_1based": 39,
+        "line_1based": 5,
+        "column_1based": 7,
+        "layer": "typed",
+        "typed_group_1based": 38,
+        "transcription": "VDGDD",
+        "augmented_offset_0based": 190
+      },
+      {
+        "augmented_group_1based": 40,
+        "line_1based": 5,
+        "column_1based": 8,
+        "layer": "typed",
+        "typed_group_1based": 39,
+        "transcription": "FVGVG",
+        "augmented_offset_0based": 195
+      },
+      {
+        "augmented_group_1based": 41,
+        "line_1based": 6,
+        "column_1based": 1,
+        "layer": "typed",
+        "typed_group_1based": 40,
+        "transcription": "VDGVG",
+        "augmented_offset_0based": 200
+      },
+      {
+        "augmented_group_1based": 42,
+        "line_1based": 6,
+        "column_1based": 2,
+        "layer": "handwritten",
+        "typed_group_1based": null,
+        "transcription": "VVDAD",
+        "augmented_offset_0based": 205
+      },
+      {
+        "augmented_group_1based": 43,
+        "line_1based": 6,
+        "column_1based": 3,
+        "layer": "typed",
+        "typed_group_1based": 41,
+        "transcription": "VVDAD",
+        "augmented_offset_0based": 210
+      },
+      {
+        "augmented_group_1based": 44,
+        "line_1based": 6,
+        "column_1based": 4,
+        "layer": "typed",
+        "typed_group_1based": 42,
+        "transcription": "VVVGA",
+        "augmented_offset_0based": 215
+      },
+      {
+        "augmented_group_1based": 45,
+        "line_1based": 6,
+        "column_1based": 5,
+        "layer": "typed",
+        "typed_group_1based": 43,
+        "transcription": "VVXVD",
+        "augmented_offset_0based": 220
+      },
+      {
+        "augmented_group_1based": 46,
+        "line_1based": 6,
+        "column_1based": 6,
+        "layer": "typed",
+        "typed_group_1based": 44,
+        "transcription": "GGXFA",
+        "augmented_offset_0based": 225
+      },
+      {
+        "augmented_group_1based": 47,
+        "line_1based": 6,
+        "column_1based": 7,
+        "layer": "typed",
+        "typed_group_1based": 45,
+        "transcription": "XVXGV",
+        "augmented_offset_0based": 230
+      },
+      {
+        "augmented_group_1based": 48,
+        "line_1based": 6,
+        "column_1based": 8,
+        "layer": "typed",
+        "typed_group_1based": 46,
+        "transcription": "VDDDX",
+        "augmented_offset_0based": 235
+      },
+      {
+        "augmented_group_1based": 49,
+        "line_1based": 7,
+        "column_1based": 1,
+        "layer": "typed",
+        "typed_group_1based": 47,
+        "transcription": "XF",
+        "augmented_offset_0based": 240
+      }
+    ],
+    "glyph_uncertainties": [
+      {
+        "augmented_group_1based": 12,
+        "position_in_group_1based": 1,
+        "printed_or_overwritten_glyph": "Overwritten and unclear; online transcript gives X; V-like lower trace visible.",
+        "chosen_transcription": "X",
+        "alternatives": [
+          "X",
+          "V"
+        ],
+        "note": "This choice is inherited from the challenge transcription and is not source-certain."
+      },
+      {
+        "augmented_group_1based": 12,
+        "positions_in_group_1based": [
+          2,
+          3
+        ],
+        "chosen_transcription": "??",
+        "note": "Two marked erasures are present."
+      },
+      {
+        "augmented_group_1based": 26,
+        "position_in_group_1based": 2,
+        "chosen_transcription": "?",
+        "online_transcription": "X",
+        "source_possible_reading": "D",
+        "alternatives": [
+          "D",
+          "X"
+        ],
+        "note": "The typewritten glyph is damaged. A D-like reading matches the parallel sources, but the primary layer remains uncertain."
+      }
+    ],
+    "handwritten_insertions": [
+      {
+        "augmented_group_1based": 28,
+        "after_typed_group_1based": 27,
+        "text": "VVFGD",
+        "note": "A handwritten repetition following the typed VVFGD."
+      },
+      {
+        "augmented_group_1based": 42,
+        "after_typed_group_1based": 40,
+        "text": "VVDAD",
+        "note": "A handwritten group preceding an identical typed VVDAD; its placement is reversed in some punctuation-only online annotations, without changing the symbol string."
+      }
+    ],
+    "source_policy": "Question marks preserve marked erasures or unresolved glyphs. No source is silently corrected using a proposed plaintext.",
+    "relation_hypothesis": "Prefix closely matches p159B / p168C; suffix closely matches p159C / p168D. See separate alignment and certificate files. This is a splice diagnosis, not evidence that the concatenated artifact has one ordinary plaintext."
+  }
+}

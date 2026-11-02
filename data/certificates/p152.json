@@ -1,0 +1,290 @@
+{
+  "format_version": 1,
+  "created_utc": "2026-11-02T08:24:00Z",
+  "finding": "The p152 first-part challenge is a damaged, truncated parallel of p136 B1. The full p136 B1 directly decrypts at 314 received symbols, despite a RICHI-304 header.",
+  "key": {
+    "id": "Nov4-6",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "coordinate_alphabet": "ADFGVX",
+    "source": "source_audit/audited_keys.json",
+    "unknown_square_cells": []
+  },
+  "index_convention": "All indices are zero-based and refer to original source strings unless explicitly stated otherwise.",
+  "source_decryptions": [
+    {
+      "id": "p136_B1",
+      "source_ciphertext": "AXDXFFGFGFFVDVAFXXAFAAVAXXVAVFVFVVAFGFXXVVXVAXGVVFGXGFFVVGFXVAXDVXVAFFVDDAXDFXAXVXFDXVXXGXAXFDAAVAFAFAFVXXFAFAAADXDGAFFXXFAAVFDADDAXAFFAAAFXGXDVAXXGFFAGXFXAAFFFAFFXFVVVVFVVVFAVGXVFFFVXXAVGVAAXXXXXXAFXAAVAXFFXVAXGXFFFDXAAXXFAGVFVDXAAFFGDDFDVVAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVGFFVXXFXXXGFGXGFAFXXGXGFAAAVFFXVFDFVVVAX",
+      "advertised_length": 304,
+      "source_length": 314,
+      "edits": [],
+      "corrected_ciphertext": "AXDXFFGFGFFVDVAFXXAFAAVAXXVAVFVFVVAFGFXXVVXVAXGVVFGXGFFVVGFXVAXDVXVAFFVDDAXDFXAXVXFDXVXXGXAXFDAAVAFAFAFVXXFAFAAADXDGAFFXXFAAVFDADDAXAFFAAAFXGXDVAXXGFFAGXFXAAFFFAFFXFVVVVFVVVFAVGXVFFFVXXAVGVAAXXXXXXAFXAAVAXFFXVAXGXFFFDXAAXXFAGVFVDXAAFFGDDFDVVAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVGFFVXXFXXXGFGXGFAFXXGXGFAAAVFFXVFDFVVVAX",
+      "plaintext": "FUERKAISERLICHEDEUTSCHEDELEGATIONFUERMAIERHALLERXTIFLISXNUMMERSECHSZEHNVERANLASSELXDGSSIMKAPKKSUSGEKAUFTEXSEIDEXSEIDENGARNEXABFAEHLEXSTRUSENXDETENABTRANSPORT",
+      "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+      "printed_page": 136,
+      "source_sha256": "7f545accfddc1d798288d11d3b16b76f3b0f58d92be60413bf0d1f65171e9639"
+    },
+    {
+      "id": "p136_B2",
+      "source_ciphertext": "GVVVAVADXVFGGVAFFDAFXAFAXAFADDFXXVAXFVFFAVGGVXVDAXGVAFVXFFGFDXAXVAXXGAAAVAXXGGFXVFXFXDVFAXAXAVFXAAXXDXAVDVAAVFAVFFXAGAADFXVAXXXVXGXVDAXFVFXAADVXDGADAAVAVVVVXDADXAFFXVAGFVFFAFVXFXVAFFVXXVAGFDAXAXDXFADFAAAFXVXVAXGFFFFXGXVVGAXGXAFFVAFAVGVAAFAXVDGAFFXAXAVDVDGXAVXVGFAFXGXVD",
+      "advertised_length": 270,
+      "source_length": 269,
+      "edits": [
+        {
+          "operation": "insert",
+          "index": 164,
+          "value": "F",
+          "support": "p152 E part2 has five-symbol group X A F F F at the matching position; p136 B2 prints the four-symbol group X A F F."
+        }
+      ],
+      "corrected_ciphertext": "GVVVAVADXVFGGVAFFDAFXAFAXAFADDFXXVAXFVFFAVGGVXVDAXGVAFVXFFGFDXAXVAXXGAAAVAXXGGFXVFXFXDVFAXAXAVFXAAXXDXAVDVAAVFAVFFXAGAADFXVAXXXVXGXVDAXFVFXAADVXDGADAAVAVVVVXDADXAFFFXVAGFVFFAFVXFXVAFFVXXVAGFDAXAXDXFADFAAAFXVXVAXGFFFFXGXVVGAXGXAFFVAFAVGVAAFAXVDGAFFXAXAVDVDGXAVXVGFAFXGXVD",
+      "plaintext": "NICHTUNBEDINGTSICHERGESTELLTXISTNACHMOXG9ICHKEITDORTWIEDERVERKAUFTWERDENXMERCATORKRIEGSAMTKRNEGSROHS4OFFQBTEILUNGXRX138XSTRICHXELFXKRAX",
+      "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+      "printed_page": 136,
+      "source_sha256": "ffb62e156d70c32e045ee7d8696066e49e8b486fdf121e904a178f9813dca061"
+    },
+    {
+      "id": "p152_E_part2",
+      "source_ciphertext": "GVVVAVADXVFGGVAFFDAFXAFAXAFADDFXXVAXFVFFAVGVVXVDAXGVAFVXFFGFDXAXVAXXGAAAVAXXGGFXVFXFXDVFAXAXAVFXAAXXDXAVDVAAVFAVFFXAGAADFXVAXXXXXGXVDAXFVFXAADVXDGADAAVAVVVVXGADXAFFFXVAGFVFFAVVXFXVAFFVXVAAGFDAXAXAXFADFAAAFXVXVAXGFFFFXFXVVGAXGXAAFVAFAVGVAAFAXVDGAGFXAXAVDVDGXAVXVGFAFXGXVD",
+      "advertised_length": 280,
+      "source_length": 270,
+      "edits": [],
+      "corrected_ciphertext": "GVVVAVADXVFGGVAFFDAFXAFAXAFADDFXXVAXFVFFAVGVVXVDAXGVAFVXFFGFDXAXVAXXGAAAVAXXGGFXVFXFXDVFAXAXAVFXAAXXDXAVDVAAVFAVFFXAGAADFXVAXXXXXGXVDAXFVFXAADVXDGADAAVAVVVVXGADXAFFFXVAGFVFFAVVXFXVAFFVXVAAGFDAXAXAXFADFAAAFXVXVAXGFFFFXFXVVGAXGXAAFVAFAVGVAAFAXVDGAGFXAXAVDVDGXAVXVGFAFXGXVD",
+      "plaintext": "NICHTPNBEDINGTSICHERGESTELLTXISTNACHMOEGLICHKEITDORTWIODERVERKAUFTWERDENXMERCATORKRIEGMAMTKRIEGSROHSTOFFABTEILUNGXRX138VSTRICHXELF8KRAX",
+      "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+      "printed_page": 152,
+      "source_sha256": "87b46c307ba88b993c9245674dd6cd6ba9d3eb2e5019361a446dd712c0172972"
+    }
+  ],
+  "p152_source_link": {
+    "source_ciphertext": "FXVADFDXAAXXFAGVFVDXAAGFDDFDV?VAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVXFVXX?FXXXGFGXGFAFXXGXGFAAAVFFXXFDFVVVAX",
+    "received_length": 104,
+    "source_erasure_indices": [
+      29,
+      69
+    ],
+    "parallel_id": "p136_B1",
+    "fixed_group_aligned_offset": 210,
+    "matching_known_symbols": 88,
+    "differing_known_symbols": 14,
+    "erased_slots": 2,
+    "prefix_restored_from_parallel": "AXDXFFGFGFFVDVAFXXAFAAVAXXVAVFVFVVAFGFXXVVXVAXGVVFGXGFFVVGFXVAXDVXVAFFVDDAXDFXAXVXFDXVXXGXAXFDAAVAFAFAFVXXFAFAAADXDGAFFXXFAAVFDADDAXAFFAAAFXGXDVAXXGFFAGXFXAAFFFAFFXFVVVVFVVVFAVGXVFFFVXXAVGVAAXXXXXXAFXAAVAXFFXVA",
+    "tail_replacements": [
+      {
+        "index": 0,
+        "observed": "F",
+        "replacement": "X",
+        "source_index": 210,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 1,
+        "observed": "X",
+        "replacement": "G",
+        "source_index": 211,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 2,
+        "observed": "V",
+        "replacement": "X",
+        "source_index": 212,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 3,
+        "observed": "A",
+        "replacement": "F",
+        "source_index": 213,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 4,
+        "observed": "D",
+        "replacement": "F",
+        "source_index": 214,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 22,
+        "observed": "G",
+        "replacement": "F",
+        "source_index": 232,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 24,
+        "observed": "D",
+        "replacement": "G",
+        "source_index": 234,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 26,
+        "observed": "F",
+        "replacement": "D",
+        "source_index": 236,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 27,
+        "observed": "D",
+        "replacement": "F",
+        "source_index": 237,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 28,
+        "observed": "V",
+        "replacement": "D",
+        "source_index": 238,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 29,
+        "observed": "?",
+        "replacement": "V",
+        "source_index": 239,
+        "reason": "Erasure filled from parallel source"
+      },
+      {
+        "index": 64,
+        "observed": "X",
+        "replacement": "G",
+        "source_index": 274,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 66,
+        "observed": "V",
+        "replacement": "F",
+        "source_index": 276,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 67,
+        "observed": "X",
+        "replacement": "V",
+        "source_index": 277,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      },
+      {
+        "index": 69,
+        "observed": "?",
+        "replacement": "X",
+        "source_index": 279,
+        "reason": "Erasure filled from parallel source"
+      },
+      {
+        "index": 95,
+        "observed": "X",
+        "replacement": "V",
+        "source_index": 305,
+        "reason": "Alternate reading from parallel source; historical error direction is not established"
+      }
+    ],
+    "reconstructed_ciphertext": "AXDXFFGFGFFVDVAFXXAFAAVAXXVAVFVFVVAFGFXXVVXVAXGVVFGXGFFVVGFXVAXDVXVAFFVDDAXDFXAXVXFDXVXXGXAXFDAAVAFAFAFVXXFAFAAADXDGAFFXXFAAVFDADDAXAFFAAAFXGXDVAXXGFFAGXFXAAFFFAFFXFVVVVFVVVFAVGXVFFFVXXAVGVAAXXXXXXAFXAAVAXFFXVAXGXFFFDXAAXXFAGVFVDXAAFFGDDFDVVAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVGFFVXXFXXXGFGXGFAFXXGXGFAAAVFFXVFDFVVVAX",
+    "plaintext": "FUERKAISERLICHEDEUTSCHEDELEGATIONFUERMAIERHALLERXTIFLISXNUMMERSECHSZEHNVERANLASSELXDGSSIMKAPKKSUSGEKAUFTEXSEIDEXSEIDENGARNEXABFAEHLEXSTRUSENXDETENABTRANSPORT",
+    "alignment_caveat": "Offset210 is a transparent group-aligned comparison, not a claimed unique minimum-edit path. A unit-cost suffix edit model has tied better alignments beginning at211..214, so the exact historical insertion/deletion sequence is undetermined. This certificate records the transformation to an independent historical parallel, not recovery of missing symbols from p152 alone."
+  },
+  "interpretation": {
+    "first_part_raw": "FUER KAISERLICHE DEUTSCHE DELEGATION FUER MAIER HALLER X TIFLIS X NUMMER SECHSZEHN VERANLASSEL X DGSS IM KAPKKSUS GEKAUFTE X SEIDE X SEIDENGARNE X ABFAEHLE X STRUSEN X DETEN ABTRANSPORT",
+    "conservative_english": "Addressed to the Imperial German delegation, for [MAIER] Haller, Tiflis. Number sixteen. It concerns silk, silk yarn, waste and coarse outer cocoon filaments (Strusen) purchased in the Caucasus, whose transport is not absolutely assured; the continuation directs that they be resold locally where possible. The signature refers to Mercator and the War Office raw materials department. Names and other malformed words are not cryptographically normalized here.",
+    "caveat": "The direct decipherment retains malformed German and any historical transmission or transcription errors. Readable normalizations such as KAPKKSUS -> KAUKASUS are interpretations, not certified plaintext changes.",
+    "strusen_term_note": "STRUSEN is an attested silk-industry term for silk waste or coarse outer cocoon filaments, not a plaintext garble. This contextual identification does not change the ciphertext.",
+    "strusen_sources": [
+      "https://dingler.bbaw.de/articles/ar128114.html",
+      "https://www.bazg.admin.ch/dam/ezv/de/dokumente/archiv/a5/tares_d6/50_seide.pdf.download.pdf/50_seide.pdf"
+    ]
+  },
+  "prior_art_check": {
+    "checked_utc": "2026-11-02T08:21:22Z",
+    "queries": [
+      "\"ADFGVX\" \"MAIERHALLER\"",
+      "\"ADFGVX\" \"SEIDENGARNE\"",
+      "\"ADFGVX\" \"ABTRANSPORT\" \"Mercator\"",
+      "\"ADFGVX\" \"p152\"",
+      "\"ADFGVX\" \"Haller\" \"Tiflis\"",
+      "\"ADFGVX\" \"NICHTUNBEDINGT\""
+    ],
+    "result": "No matching public decipherment found in this limited search. The 0wwafa/adfgvx-1918 repository lists p152 as open. This is not proof that no prior decipherment exists.",
+    "baseline_url": "https://github.com/0wwafa/adfgvx-1918"
+  },
+  "independent_suffix_audit": {
+    "minimum_cost": 11,
+    "optimal_offsets": [
+      214,
+      213,
+      212,
+      211
+    ],
+    "alignments": [
+      {
+        "p158_aligned": "FXVADFDXAAXXFAGVFVDXAAGF.DDFDV?VAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVXFVXX?FXXXGFGXGFAFXXGXGFAAAVFFXXFDFVVVAX",
+        "parallel_source_aligned": "F....FDXAAXXFAGVFVDXAAFFGDDFD.VVAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVGFFVXXFXXXGFGXGFAFXXGXGFAAAVFFXVFDFVVVAX",
+        "counts": {
+          "exact_known_matches": 92,
+          "p158_only": 5,
+          "known_substitutions": 5,
+          "source_only": 1,
+          "erasure_compatible": 2
+        },
+        "edit_cost": 11
+      },
+      {
+        "p158_aligned": "FXVADFDXAAXXFAGVFVDXAAGF.DDFDV?VAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVXFVXX?FXXXGFGXGFAFXXGXGFAAAVFFXXFDFVVVAX",
+        "parallel_source_aligned": "F...FFDXAAXXFAGVFVDXAAFFGDDFD.VVAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVGFFVXXFXXXGFGXGFAFXXGXGFAAAVFFXVFDFVVVAX",
+        "counts": {
+          "exact_known_matches": 92,
+          "p158_only": 4,
+          "known_substitutions": 6,
+          "source_only": 1,
+          "erasure_compatible": 2
+        },
+        "edit_cost": 11
+      },
+      {
+        "p158_aligned": "FXVADFDXAAXXFAGVFVDXAAGF.DDFDV?VAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVXFVXX?FXXXGFGXGFAFXXGXGFAAAVFFXXFDFVVVAX",
+        "parallel_source_aligned": ".X.FFFDXAAXXFAGVFVDXAAFFGDDFD.VVAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVGFFVXXFXXXGFGXGFAFXXGXGFAAAVFFXVFDFVVVAX",
+        "counts": {
+          "p158_only": 3,
+          "exact_known_matches": 92,
+          "known_substitutions": 7,
+          "source_only": 1,
+          "erasure_compatible": 2
+        },
+        "edit_cost": 11
+      },
+      {
+        "p158_aligned": "FXVADFDXAAXXFAGVFVDXAAGF.DDFDV?VAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVXFVXX?FXXXGFGXGFAFXXGXGFAAAVFFXXFDFVVVAX",
+        "parallel_source_aligned": "GX.FFFDXAAXXFAGVFVDXAAFFGDDFD.VVAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVGFFVXXFXXXGFGXGFAFXXGXGFAAAVFFXVFDFVVVAX",
+        "counts": {
+          "known_substitutions": 8,
+          "exact_known_matches": 92,
+          "p158_only": 2,
+          "source_only": 1,
+          "erasure_compatible": 2
+        },
+        "edit_cost": 11
+      }
+    ]
+  }
+}

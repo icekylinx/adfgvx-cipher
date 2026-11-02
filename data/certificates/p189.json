@@ -1,0 +1,171 @@
+{
+  "format_version": 1,
+  "finding": "A newly located near-parallel p185 C directly reads under the Nov13-15b key. Source-guided gap geometry yields a partial p189 reading while preserving every received valid symbol.",
+  "key": {
+    "id": "Nov13-15b",
+    "column_rank_order": [
+      4,
+      11,
+      5,
+      14,
+      9,
+      7,
+      16,
+      1,
+      12,
+      15,
+      6,
+      10,
+      3,
+      13,
+      8,
+      2
+    ],
+    "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+    "coordinate_alphabet": "ADFGVX",
+    "source": "source_audit/audited_keys.json",
+    "unassigned_symbols": "QY234789"
+  },
+  "p185": {
+    "header": "C) CM v CZ (18.03 p.m., November 13th), 18.35, RIZI-96",
+    "ciphertext": "DXGAGGXAAVVFFAXFVXXVADAXXXGAVDFAXAXVFVFFVVAVAVDXGVXXVGFXAAFAGAVVGAXXFXXXFXVFADFGXGXVFDFFDFXAXDFF",
+    "plaintext": "GESTELLUNGAUTUUNMOEGLICHXBEFEHLABWARTENXIXVRENTE",
+    "received_length": 96,
+    "advertised_length": 96,
+    "edits": [],
+    "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 185
+  },
+  "p189": {
+    "header": "A) CZ v CM (7.15 a.m., November 13th), 1835, RIZI-46",
+    "raw_grouped": "DUGAG GRAAV V--AX FVXXV ADAXX AGAVD UGXAX VUXUU\n---VA VDXVX XXVGV XAAVA GAXXG AXXFX VXXFX XGVVU\nDFFXD XAXDV",
+    "raw_ciphertext": "DUGAGGRAAVV--AXFVXXVADAXXAGAVDUGXAXVUXUU---VAVDXVXXXVGVXAAVAGAXXGAXXFXVXXFXXGVVUDFFXDXAXDV",
+    "erasure_normalized_ciphertext": "D?GAGG?AAVV??AXFVXXVADAXXAGAVD?GXAXV?X?????VAVDXVXXXVGVXAAVAGAXXGAXXFXVXXFXXGVV?DFFXDXAXDV",
+    "received_length": 90,
+    "valid_coordinates": 78,
+    "uncertain_source_positions": [
+      {
+        "index": 1,
+        "glyph": "U"
+      },
+      {
+        "index": 6,
+        "glyph": "R"
+      },
+      {
+        "index": 11,
+        "glyph": "-"
+      },
+      {
+        "index": 12,
+        "glyph": "-"
+      },
+      {
+        "index": 30,
+        "glyph": "U"
+      },
+      {
+        "index": 36,
+        "glyph": "U"
+      },
+      {
+        "index": 38,
+        "glyph": "U"
+      },
+      {
+        "index": 39,
+        "glyph": "U"
+      },
+      {
+        "index": 40,
+        "glyph": "-"
+      },
+      {
+        "index": 41,
+        "glyph": "-"
+      },
+      {
+        "index": 42,
+        "glyph": "-"
+      },
+      {
+        "index": 79,
+        "glyph": "U"
+      }
+    ],
+    "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 189,
+    "normalization_rule": "Preserve A,D,F,G,V,X exactly; mask all six printed U glyphs, the printed R, and five dashes as erased coordinates. No U to V substitution is assumed."
+  },
+  "caveats": [
+    "The alignment uses ciphertext similarity to p185; it is not an independent proof of identical message content.",
+    "The minimum source-preserving alignment has ten equally optimal paths. A broader alignment that permits received-symbol deletions has96 minima of the same cost21.",
+    "Every valid p189 source coordinate is retained, including15 disagreements with the selected p185 alignment. Those disagreements produce malformed plaintext and are not corrected.",
+    "The printed callsign directions are reversed. The same clear1835header and extensive ciphertext agreement support a relationship, but historical message identity is still an inference.",
+    "The p185 exact plaintext has malformed AUTU and a garbled ending; these are retained.",
+    "A possible Morse-loss explanation for U is that F(..-.) loses its final dot or X(-..-) loses its initial dash. This is a hypothesis, not a transcription repair.",
+    "Unassigned square cells remain unknown. No language model chooses characters in the certificate."
+  ],
+  "interpretation": {
+    "p185_literal_spacing": "GESTELLUNG AUTU UNMOEGLICH X BEFEHL ABWARTEN X I X VRENTE",
+    "conservative_english": "Provision of [AUTU] is impossible. Await orders. The ending remains uncertain. AUTU may mean AUTO, but no plaintext substitution is certified.",
+    "p189_status": "Partial source-linked reading. No complete plaintext is claimed."
+  },
+  "expected_projection": {
+    "cost": 21,
+    "path_count": 10,
+    "all_path_character_domains": [
+      "G",
+      "234789CEGIQTY",
+      "234789AKNQWYZ",
+      "T",
+      "234789CEGIQTY",
+      "234789ACMQVXY",
+      "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "N",
+      "234789BHMQUY",
+      "234789QY",
+      "234789BHMQUY",
+      "T",
+      "O",
+      "U",
+      "N",
+      "U",
+      "O",
+      "234789CEGIQTY",
+      "G",
+      "L",
+      "I",
+      "234789CEGIQTY",
+      "H",
+      "0",
+      "B",
+      "234789CEGIQTY",
+      "F",
+      "E",
+      "H",
+      "234789DJLQRY",
+      "A",
+      "B",
+      "A",
+      "234789AKNQWYZ",
+      "2346789BGPQRY",
+      "W",
+      "C",
+      "234789AKNQWYZ",
+      "X",
+      "I",
+      "X",
+      "2346789OQSVY",
+      "2346789BGPQRY",
+      "T",
+      "N",
+      "234789CEGIQTY",
+      "234789CEGIQTY"
+    ],
+    "all_path_invariant_plaintext": "G??T????N???TOUNUO?GLI?H0B?FEH?ABA??WC?XIX??TN??",
+    "selected_raw_partial_plaintext": "GE?T????NU??TOUNUO?GLI?H0B?FEH?ABA??WC?XIX??TN??",
+    "full_analysis_sha256": "5f8ed91483ed6aa9016d546644cebc08085fcf0f14f953f79e5642de20d629de"
+  }
+}

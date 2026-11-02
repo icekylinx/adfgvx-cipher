@@ -1,0 +1,108 @@
+{
+  "childs": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "edition_year": 2000,
+    "historical_report_year": 1934,
+    "intercept_record_year": 1918,
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "catalogue_url": "https://richardbean.id.au/misc/kryptos/aegean-park-press.html",
+    "kind": "Historical report containing the intercept logs and key appendix",
+    "page_convention": "Printed page n is PDF page n+3 in the 248-page public scan."
+  },
+  "challenge": {
+    "title": "Unsolved ADFGVX messages from World War I",
+    "author": "Klaus Schmeh, with challenge material supplied by George Lasry",
+    "url": "https://scienceblogs.de/klausis-krypto-kolumne/unsolved-adfxvx-messages-from-world-war-i/",
+    "kind": "Original 22-entry challenge, images, and web transcription"
+  },
+  "discussion_2017": {
+    "title": "The Top 50 unsolved encrypted messages: 46",
+    "author": "Klaus Schmeh and named comment authors",
+    "date": "2017-02-23",
+    "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+    "kind": "Prior solutions, repairs, key corrections, and discussion",
+    "numbered_comment_count": 56
+  },
+  "lasry_paper": {
+    "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+    "authors": [
+      "George Lasry",
+      "Ingo Niebel",
+      "Nils Kopal",
+      "Arno Wacker"
+    ],
+    "date": "2017",
+    "journal": "Cryptologia 41(2), 101-136; published online in 2016",
+    "url": "https://doi.org/10.1080/01611194.2016.1169461",
+    "author_copy": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+    "public_author_manuscript_copy": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+    "kind": "Modern cryptanalytic reconstruction and historical study"
+  },
+  "lasry_thesis": {
+    "title": "A Methodology for the Cryptanalysis of Classical Ciphers with Search Metaheuristics",
+    "author": "George Lasry",
+    "date": "2018",
+    "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+    "locator": "Chapter 6; final key table 6.2 on printed page 99",
+    "kind": "Author's final published key table and methodological account"
+  },
+  "nsa_summary": {
+    "title": "German Ciphers During the Campaign of 1918",
+    "url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf",
+    "kind": "Declassified historical report; a different work from the complete Childs book",
+    "page_convention": "Printed page n is PDF page n+8 in this 63-page file."
+  },
+  "prinz_p217": {
+    "title": "GPT-6 Astra solves a WWI German radio cipher",
+    "author": "Prinz",
+    "date": "2026-09-17",
+    "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+    "kind": "Prior published p217 body reading and keyword claim"
+  },
+  "prinz_p176b": {
+    "title": "Another WWI German radio cipher falls",
+    "author": "Prinz",
+    "date": "2026-09-19",
+    "url": "https://www.prinzai.com/p/another-wwi-german-radio-cipher-falls",
+    "kind": "Prior published p176b omission geometry and contextual reading"
+  },
+  "horvat_p217": {
+    "author": "Christian Horvat",
+    "date": "2026-09-21",
+    "url": "https://www.prinzai.com/p/another-wwi-german-radio-cipher-falls",
+    "locator": "Comment correcting p217 group 19, AVXFF to AVXVF",
+    "kind": "Prior correction producing 24STEN in place of S4STEN"
+  },
+  "keyword_verifier": {
+    "title": "Cipher-break verification",
+    "url": "https://github.com/swarm-ai-research/cipher-break-verification",
+    "kind": "Reproducible keyword/known-plaintext consistency check; not independent manuscript provenance"
+  },
+  "french_telegram": {
+    "title": "Documents diplomatiques francais sur l'histoire du bassin des Carpates, volume I",
+    "editors": [
+      "Magda Adam",
+      "Gyorgy Litvan",
+      "Maria Ormos"
+    ],
+    "publication_year": 1993,
+    "url": "https://real-eod.mtak.hu/19844/13/documents.pdf",
+    "locator": "Document 39, printed pages 79-82, PDF pages 153-156",
+    "document": "Telegram 5.956/3, Salonika, 19 November 1918, 22:40; Franchet d'Esperey to Clemenceau and Foch",
+    "archive_reference": "AG.4N58 c/63. d/10.",
+    "kind": "Published edition of a primary document; contextual evidence for p176b unit identifications",
+    "limitation": "The report describes the situation on 11 November. It does not supply the missing ciphertext or uniquely determine any square cell."
+  },
+  "bourdeau": {
+    "title": "ADFGVX challenge status and analysis",
+    "author": "D. Bourdeau",
+    "url": "https://dbourdeau.github.io/cyphersolver/adfgvx.html",
+    "kind": "Modern secondary summary, useful but not complete as to September 2026 p176b prior art"
+  },
+  "baseline": {
+    "title": "adfgvx-1918",
+    "url": "https://github.com/0wwafa/adfgvx-1918",
+    "kind": "Prior public implementation and legacy transcription used as a reproducibility baseline"
+  }
+}

@@ -1,0 +1,820 @@
+{
+  "schema": "adfgvx-1918-message-catalog-v1",
+  "created_utc": "2026-11-02",
+  "prepared_by": [
+    "IceKylin",
+    "GPT-6 Astra"
+  ],
+  "scope": "The 22 entries of the original Schmeh/Lasry challenge; source observations, prior readings, and new relationships remain distinct.",
+  "normalization": {
+    "cipher_alphabet": "ADFGVX",
+    "unknown_marker": "?",
+    "rule": "No plaintext-derived correction is silently merged into the raw source layer. Literal invalid letters are preserved raw and masked in analysis. Explicit layout assumptions override literal dash widths only when documented.",
+    "header_warning": "An advertised length is metadata, not proof that the surviving ciphertext has that length or is complete."
+  },
+  "sources_file": "../sources/registry.json",
+  "messages": [
+    {
+      "id": "p73",
+      "source": {
+        "ref": "childs",
+        "printed_page": 73,
+        "pdf_page_1based": 76,
+        "section": "A",
+        "heading_date": "26 October 1918",
+        "header_transcription": "POT v NKJ (2.33 a.m., November 8th); FUR COS GENERAL VON KRESS 0911 (26); RICHI-178",
+        "advertised_length": 178
+      },
+      "transcript": {
+        "raw_source_grouped": "D--FX GDVDX DGGAA AGFFD DVDXF XFGGD DAVGD DDADG DGFGG DDVVD XDGDA FDDXG XXDGX AVDXX DDGAD DFGFA GVDXV FDXFD DFDDD FXDFG XFXVF DDDXX DXGDA GXFDG DDVFX GAXDF VFDVD XVXDF XDDXF DFVDG FDGDA DGDGX XFGXF AAAXX XDXAG VXD",
+        "raw_source_compact": "D--FXGDVDXDGGAAAGFFDDVDXFXFGGDDAVGDDDADGDGFGGDDVVDXDGDAFDDXGXXDGXAVDXXDDGADDFGFAGVDXVFDXFDDFDDDFXDFGXFXVFDDDXXDXGDAGXFDGDDVFXGAXDFVFDVDXVXDFXDDXFDFVDGFDGDADGDGXXFGXFAAAXXXDXAGVXD",
+        "analysis_ciphertext": "D??FXGDVDXDGGAAAGFFDDVDXFXFGGDDAVGDDDADGDGFGGDDVVDXDGDAFDDXGXXDGXAVDXXDDGADDFGFAGVDXVFDXFDDFDDDFXDFGXFXVFDDDXXDXGDAGXFDGDDVFXGAXDFVFDVDXVXDFXDDXFDFVDGFDGDADGDGXXFGXFAAAXXXDXAGVXD",
+        "analysis_slots": 178,
+        "known_adfgvx_coordinates": 176,
+        "uncertain_coordinates": 2,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "D–FX GDVDX DGGAA AGFFD DVDXF XFGGD DAVGD DDADG DGFGG DDVVD XDGDA FDDXG XXDGX AVDXX DDGAD DFGFA GVDXV FDXFD DFDDD FXDFG XFXVF DDDXX DXGDA GXFDG DDVFX GAXDF VFDVD XVXDF XDDXF DFVDG FDGDA DGDGX XFGXF AAAXX XDXAG VXD"
+      },
+      "prior_work": {
+        "status": "open",
+        "credited_to": [],
+        "source_refs": []
+      },
+      "key_reference": "none established",
+      "notes": [
+        "The page heading says 26 October; the interception line says 8 November. George Lasry already acknowledged the conflict in 2017 comment 12. No date is silently chosen."
+      ]
+    },
+    {
+      "id": "p100",
+      "source": {
+        "ref": "childs",
+        "printed_page": 100,
+        "pdf_page_1based": 103,
+        "section": "A",
+        "heading_date": "1 November 1918",
+        "header_transcription": "UKS v ZON (1.44 a.m., November 2nd); 2016 (1) 2 TLE; RICHI-122",
+        "advertised_length": 122
+      },
+      "transcript": {
+        "raw_source_grouped": "VDDAD AADFG VVVAV GDAFV TAFGV DDVXF DFGGA AGXAA GGVAD XGAXV XAXGA XAGAX DDGDG VFFAX GDFGF DVGFA ADVVG VXGDV GGDDA DAVAG FXDFV ADVDG FGDDF GDAVG AA",
+        "raw_source_compact": "VDDADAADFGVVVAVGDAFVTAFGVDDVXFDFGGAAGXAAGGVADXGAXVXAXGAXAGAXDDGDGVFFAXGDFGFDVGFAADVVGVXGDVGGDDADAVAGFXDFVADVDGFGDDFGDAVGAA",
+        "analysis_ciphertext": "VDDADAADFGVVVAVGDAFV?AFGVDDVXFDFGGAAGXAAGGVADXGAXVXAXGAXAGAXDDGDGVFFAXGDFGFDVGFAADVVGVXGDVGGDDADAVAGFXDFVADVDGFGDDFGDAVGAA",
+        "analysis_slots": 122,
+        "known_adfgvx_coordinates": 121,
+        "uncertain_coordinates": 1,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "VDDAD AADFG VVVAV GDAFV VAFGV DDVXF DFGGA AGXAA GGVAD XGAXV XAXGA XAGAX DDGDG VFFAX GDFGF DVGFA ADVVG VXGDV GGDDA DAVAG FXDFV ADVDG FGDDF GDAVG AA"
+      },
+      "prior_work": {
+        "status": "read_2017",
+        "credited_to": [
+          "Armin (2017 comment author)"
+        ],
+        "source_refs": [
+          "discussion_2017"
+        ]
+      },
+      "key_reference": "Nov1-3",
+      "notes": [
+        "The full scan prints TAFGV in group 5. The legacy web transcript has VAFGV. T is preserved literally and masked in the conservative analysis layer; the legacy V is not a source observation.",
+        "Armin's published reading, with the published DG insertion and T interpreted as A, agrees with all 121 valid original coordinates. The legacy V instead produces a different letter in STOERUNG."
+      ]
+    },
+    {
+      "id": "p105",
+      "source": {
+        "ref": "childs",
+        "printed_page": 105,
+        "pdf_page_1based": 108,
+        "section": "B",
+        "heading_date": "2 November 1918",
+        "header_transcription": "--- v --- (9.22 p.m., November 2nd); 2020 (2/11); RICHI-290",
+        "advertised_length": 290
+      },
+      "transcript": {
+        "raw_source_grouped": "GAGVA AXADF XVAXV XGVDA XDGAF ADFFG FXXXV DAGDX DXDXX VVGGX AVDAG GGFDG GAFXD XAGAA FFDGD XGDVD VGGAF XDXAF AVDXF VVDGX DDFFX DADDG VGDGD XVXXG DGDDG FFFGV ADVXD VXFXD GXAAD DVXXG VDAXX VAXDX GFDDV VFVDA VXADD GFAFD GAVXA GVDGA FFDDD GAGAG DGFDF XFDXG GFDDG VGAFA XFGAV DGGVF XGDGD FDXVX XAXGD XGGGV GDXGX XGVDF VXAAV GDXDX DGADX GVAAD FXGGV DGGAX",
+        "raw_source_compact": "GAGVAAXADFXVAXVXGVDAXDGAFADFFGFXXXVDAGDXDXDXXVVGGXAVDAGGGFDGGAFXDXAGAAFFDGDXGDVDVGGAFXDXAFAVDXFVVDGXDDFFXDADDGVGDGDXVXXGDGDDGFFFGVADVXDVXFXDGXAADDVXXGVDAXXVAXDXGFDDVVFVDAVXADDGFAFDGAVXAGVDGAFFDDDGAGAGDGFDFXFDXGGFDDGVGAFAXFGAVDGGVFXGDGDFDXVXXAXGDXGGGVGDXGXXGVDFVXAAVGDXDXDGADXGVAADFXGGVDGGAX",
+        "analysis_ciphertext": "GAGVAAXADFXVAXVXGVDAXDGAFADFFGFXXXVDAGDXDXDXXVVGGXAVDAGGGFDGGAFXDXAGAAFFDGDXGDVDVGGAFXDXAFAVDXFVVDGXDDFFXDADDGVGDGDXVXXGDGDDGFFFGVADVXDVXFXDGXAADDVXXGVDAXXVAXDXGFDDVVFVDAVXADDGFAFDGAVXAGVDGAFFDDDGAGAGDGFDFXFDXGGFDDGVGAFAXFGAVDGGVFXGDGDFDXVXXAXGDXGGGVGDXGXXGVDFVXAAVGDXDXDGADXGVAADFXGGVDGGAX",
+        "analysis_slots": 290,
+        "known_adfgvx_coordinates": 290,
+        "uncertain_coordinates": 0,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "GAGVA AXADF XVAXV XGVDA XDGAF ADFFG FXXXV DAGDX DXDXX VVGGX AVDAG GGFDG GAFXD XAGAA FFDGD XGDVD VGGAF XDXAF AVDXF VVDGX DDFFX DADDG VGDGD XVXXG DGDDG FFFGV ADVXD VXFXD GXAAD DVXXG VDAXX VAXDX GFDDV VFVDA VXADD GFAFD GAVXA GVDGA FFDDD GAGAG DGFDF XFDXG GFDDG VGAFA XFGAV FGGVF XGXAD FDXVX XAXGD XGGGV GDXGX XGVDF VXAAV GDXDX DGADX GVAAD FXGGV DGGAX"
+      },
+      "prior_work": {
+        "status": "read_2017",
+        "credited_to": [
+          "Norbert (2017 comment author)"
+        ],
+        "source_refs": [
+          "discussion_2017"
+        ]
+      },
+      "key_reference": "Nov1-3",
+      "notes": [
+        "The full scan prints DGGVF and XGDGD in groups 46 and 47. The legacy web transcript has FGGVF and XGXAD. The differing zero-based coordinates are 225, 232, and 233."
+      ]
+    },
+    {
+      "id": "p109",
+      "source": {
+        "ref": "childs",
+        "printed_page": 109,
+        "pdf_page_1based": 112,
+        "section": "D",
+        "heading_date": "3 November 1918",
+        "header_transcription": "UKS v ZON (0.35 a.m., November 3rd); (Beginning jammed); RIZI-258",
+        "advertised_length": 258
+      },
+      "transcript": {
+        "raw_source_grouped": "XGDFG GADFD GAXGF VFVGG VDDGV GADXF DGVGX AAGDF DADGF AGXAG GADDV FGDXD FGVVG XXAXA DDVVV XXAXA DDVVV XXFXV DVDDG VDAAD DXDAA VFXAX GDVGG GDAVG FDVGD GVFGF VDVVX DFFDD VVXDX VDADX XVVXV VDFGF GVVVV AGXGG XGFDA FGADV VDAFG AGDAD GDXXV GGXVA AADGV XGGDX GAGGD VGGXV FAFAX GDVGV FADGD FAXAD GVFDD DAVGV FAGAG VGD",
+        "raw_source_compact": "XGDFGGADFDGAXGFVFVGGVDDGVGADXFDGVGXAAGDFDADGFAGXAGGADDVFGDXDFGVVGXXAXADDVVVXXAXADDVVVXXFXVDVDDGVDAADDXDAAVFXAXGDVGGGDAVGFDVGDGVFGFVDVVXDFFDDVVXDXVDADXXVVXVVDFGFGVVVVAGXGGXGFDAFGADVVDAFGAGDADGDXXVGGXVAAADGVXGGDXGAGGDVGGXVFAFAXGDVGVFADGDFAXADGVFDDDAVGVFAGAGVGD",
+        "analysis_ciphertext": "XGDFGGADFDGAXGFVFVGGVDDGVGADXFDGVGXAAGDFDADGFAGXAGGADDVFGDXDFGVVGXXAXADDVVVXXAXADDVVVXXFXVDVDDGVDAADDXDAAVFXAXGDVGGGDAVGFDVGDGVFGFVDVVXDFFDDVVXDXVDADXXVVXVVDFGFGVVVVAGXGGXGFDAFGADVVDAFGAGDADGDXXVGGXVAAADGVXGGDXGAGGDVGGXVFAFAXGDVGVFADGDFAXADGVFDDDAVGVFAGAGVGD",
+        "analysis_slots": 258,
+        "known_adfgvx_coordinates": 258,
+        "uncertain_coordinates": 0,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "XGDFG GADFD GAXGF VFVGG VDDGV GADXF DGVGX AAGDF DADGF AGXAG GADDV FGDXD FGVVG XXAXA DDVVV XXAXA DDVVV XXFXV DVDDG VDAAD DXDAA VFXAX GDVGG GDAVG FDVGD GVFGF VDVVX DFFDD VVXDX VDADX XVVXV VDFGF GVVVV AGXGG XGFDA FGADV VDAFG AGDAD GDXXV GGXVA AADGV XGGDX GAGGD VGGXV FAFAX GDVGV FADGD FAXAD GVFDD DAVGV FAGAG VGD"
+      },
+      "prior_work": {
+        "status": "read_2017",
+        "credited_to": [
+          "Norbert (2017 comment author)"
+        ],
+        "source_refs": [
+          "discussion_2017"
+        ]
+      },
+      "key_reference": "Nov1-3",
+      "notes": [
+        "The source explicitly says Beginning jammed. Repeated groups are retained; their later removal is a repair, not a transcription."
+      ]
+    },
+    {
+      "id": "p132",
+      "source": {
+        "ref": "childs",
+        "printed_page": 132,
+        "pdf_page_1based": 135,
+        "section": "B",
+        "heading_date": "5 November 1918",
+        "header_transcription": "LP v NKJ (6.13 p.m., November 5th); SSD EILT SOFORT LOESEN 1410 (5); RIZI-155",
+        "advertised_length": 155
+      },
+      "transcript": {
+        "raw_source_grouped": "AAXAX FXAVF AAFAD VFGFA GVAGX FDVXX FAVAG XXDAA DXFAF FFFFA FAXXA AVXGV VFAFA GAAXV AVAXF AGVXV AFVXA FVAAA VGAFA VVAAA XFF-- XADAG AVADF AFGXV FGVFX XGDAA XGAXA VDVDA VADVX FGFAX FVVGF",
+        "raw_source_compact": "AAXAXFXAVFAAFADVFGFAGVAGXFDVXXFAVAGXXDAADXFAFFFFFAFAXXAAVXGVVFAFAGAAXVAVAXFAGVXVAFVXAFVAAAVGAFAVVAAAXFF--XADAGAVADFAFGXVFGVFXXGDAAXGAXAVDVDAVADVXFGFAXFVVGF",
+        "analysis_ciphertext": "AAXAXFXAVFAAFADVFGFAGVAGXFDVXXFAVAGXXDAADXFAFFFFFAFAXXAAVXGVVFAFAGAAXVAVAXFAGVXVAFVXAFVAAAVGAFAVVAAAXFF??XADAGAVADFAFGXVFGVFXXGDAAXGAXAVDVDAVADVXFGFAXFVVGF",
+        "analysis_slots": 155,
+        "known_adfgvx_coordinates": 153,
+        "uncertain_coordinates": 2,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "AAXAX FXAVF AAFAD VFGFA GVAGX FDVXX FAVAG XXDAA DXFAF FFFFA FAXXA AVXGV VFAFA GAAXV AVAXF AGVXV AFVXA FVAAA VGAFA VVAAA XFF– XADAG AVADF AFGXV FGVFX XGDAA XGAXA VDVDA VADVX FGFAX FVVGF"
+      },
+      "prior_work": {
+        "status": "read_2017",
+        "credited_to": [
+          "Norbert (2017 comment author)"
+        ],
+        "source_refs": [
+          "discussion_2017"
+        ]
+      },
+      "key_reference": "Nov4-6",
+      "notes": [
+        "The two erased coordinates in XFF-- are preserved. Norbert's 2017 solution uses a sender-stage extra V, not simply a received-ciphertext deletion."
+      ]
+    },
+    {
+      "id": "p146",
+      "source": {
+        "ref": "childs",
+        "printed_page": 146,
+        "pdf_page_1based": 149,
+        "section": "B",
+        "heading_date": "6 November 1918",
+        "header_transcription": "UKS v LP (06.43 a.m., November 7th); UKS AS FUER COS 2100 (6/11); NACHRICHTEN KOMMANDEUR DEUTSCHE DELEGATION TIFLIS; RICHI-244",
+        "advertised_length": 244
+      },
+      "transcript": {
+        "raw_source_grouped": "FVFAF DXAXX GXDXA GVVXX FFFAX DXDXF AGVFV AXAXV VAFXA XFGVD XGAXA VAVVX XVDVA AXAFA FFFXV DVXAV AXFGA DFFGA XAADG DAVAX GVGVA VXVGX AXXFX XVFAX XXAVV FAAVA FXAVX VGAGX FGFFV AFAVD FXADA DVAVX XXVGA FXDGX AAAFD AVAAF GVVFA DXVFX AFFVA FVFGX DVFDA XGXXF VFAVD XAAAV XAAXV XAAXV XAFDX AXDGF GXXV",
+        "raw_source_compact": "FVFAFDXAXXGXDXAGVVXXFFFAXDXDXFAGVFVAXAXVVAFXAXFGVDXGAXAVAVVXXVDVAAXAFAFFFXVDVXAVAXFGADFFGAXAADGDAVAXGVGVAVXVGXAXXFXXVFAXXXAVVFAAVAFXAVXVGAGXFGFFVAFAVDFXADADVAVXXXVGAFXDGXAAAFDAVAAFGVVFADXVFXAFFVAFVFGXDVFDAXGXXFVFAVDXAAAVXAAXVXAAXVXAFDXAXDGFGXXV",
+        "analysis_ciphertext": "FVFAFDXAXXGXDXAGVVXXFFFAXDXDXFAGVFVAXAXVVAFXAXFGVDXGAXAVAVVXXVDVAAXAFAFFFXVDVXAVAXFGADFFGAXAADGDAVAXGVGVAVXVGXAXXFXXVFAXXXAVVFAAVAFXAVXVGAGXFGFFVAFAVDFXADADVAVXXXVGAFXDGXAAAFDAVAAFGVVFADXVFXAFFVAFVFGXDVFDAXGXXFVFAVDXAAAVXAAXVXAAXVXAFDXAXDGFGXXV",
+        "analysis_slots": 244,
+        "known_adfgvx_coordinates": 244,
+        "uncertain_coordinates": 0,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "FVFAF DXAXX GXDXA GVVXX FFFAX DXDXF AGVFV AXAXV VAFXA XFGVD XGAXA VAVVX XVDVA AXAFA FFFXV DVXAV AXFGA DFFGA XAADG DAVAX GVGVA VXVGX AXXFX XVFAX XXAVV FAAVA FXAVX VGAGX FGFFV AFAVD FXADA DVAVX XXVGA FXDGX AAAFD AVAAF GVVFA DXVFX AFFVA FVFGX DVFDA XGXXF VFAVD XAAAV XAAXV XAAXV XAFDX AXDGF GXXV"
+      },
+      "prior_work": {
+        "status": "read_2017",
+        "credited_to": [
+          "Norbert (2017 comment author)"
+        ],
+        "source_refs": [
+          "discussion_2017"
+        ]
+      },
+      "key_reference": "Nov4-6",
+      "notes": [
+        "The clear addressee line identifies the German delegation at Tiflis and is not ciphertext."
+      ]
+    },
+    {
+      "id": "p152",
+      "source": {
+        "ref": "childs",
+        "printed_page": 152,
+        "pdf_page_1based": 155,
+        "section": "E1",
+        "heading_date": "7 November 1918",
+        "header_transcription": "NKJ v LP (9.10 p.m., November 7th); 1 TL; RICHI----",
+        "advertised_length": null
+      },
+      "transcript": {
+        "raw_source_grouped": "FXVAD FDXAA XXFAG VFVDX AAGFD DFDV- VAAVA AXVGX GDAXA AGVAV ADAFD DGVDD FVAVX FVXX- FXXXG FGXGF AFXXG XGFAA AVFFX XFDFV VVAX",
+        "raw_source_compact": "FXVADFDXAAXXFAGVFVDXAAGFDDFDV-VAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVXFVXX-FXXXGFGXGFAFXXGXGFAAAVFFXXFDFVVVAX",
+        "analysis_ciphertext": "FXVADFDXAAXXFAGVFVDXAAGFDDFDV?VAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVXFVXX?FXXXGFGXGFAFXXGXGFAAAVFFXXFDFVVVAX",
+        "analysis_slots": 104,
+        "known_adfgvx_coordinates": 102,
+        "uncertain_coordinates": 2,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "FXVAD FDXAA XXFAG VFVDX AAGFD DFDVv VAAVA AXVGX GDAXA AGVAV ADAFD DGVDD FVAVX FVXXv FXXXG FGXGF AFXXG XGFAA AVFFX XFDFV VVAX"
+      },
+      "prior_work": {
+        "status": "open",
+        "credited_to": [],
+        "source_refs": []
+      },
+      "key_reference": "Nov4-6 strongly supported by sibling",
+      "notes": [
+        "DFDV- and FVXX- end in erasures; online lower-case v does not establish V.",
+        "No numeric original length is preserved for part 1. Its 104 received coordinates match a damaged tail of the 314-coordinate p136 B1 transmission.",
+        "Part 2 has 270 received coordinates despite RICHI-280 and is independently readable with the 4-6 November key."
+      ],
+      "session_source_relationships": [
+        {
+          "type": "damaged_tail_of",
+          "target": "p136_B1",
+          "evidence": "source parallel and independent alignment certificate"
+        }
+      ]
+    },
+    {
+      "id": "p153a",
+      "source": {
+        "ref": "childs",
+        "printed_page": 153,
+        "pdf_page_1based": 156,
+        "section": "C5",
+        "heading_date": "8 November 1918",
+        "header_transcription": "FKR v CGH (11.55 p.m., November 8th); 2250; 5 TL; CHI-132",
+        "advertised_length": 132
+      },
+      "transcript": {
+        "raw_source_grouped": "VFVAX FXDAD ADVGX FAVGD VDDDA DXGAA AXVGV FVDAD DXADA DVVAV GFXDA GDDDG DXGGG VVXDX FVVAV VVFAX FXDXA FAVVG GXAVX VFVXV FGFVA XGAAV XXGDX XFVXF XGGVA DAVAF DG",
+        "raw_source_compact": "VFVAXFXDADADVGXFAVGDVDDDADXGAAAXVGVFVDADDXADADVVAVGFXDAGDDDGDXGGGVVXDXFVVAVVVFAXFXDXAFAVVGGXAVXVFVXVFGFVAXGAAVXXGDXXFVXFXGGVADAVAFDG",
+        "analysis_ciphertext": "VFVAXFXDADADVGXFAVGDVDDDADXGAAAXVGVFVDADDXADADVVAVGFXDAGDDDGDXGGGVVXDXFVVAVVVFAXFXDXAFAVVGGXAVXVFVXVFGFVAXGAAVXXGDXXFVXFXGGVADAVAFDG",
+        "analysis_slots": 132,
+        "known_adfgvx_coordinates": 132,
+        "uncertain_coordinates": 0,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "VFVAX FXDAD ADVGX FAVGD VDDDA DXGAA AXVGV FVDAD DXADA DVVAV GFXDA GDDDG DXGGG VVXDX FVVAV VVFAX FXDXA FAVVG GXAVX VFVXV FGFVA XGAAV XXGDX XFVXF XGGVA DAVAF DG"
+      },
+      "prior_work": {
+        "status": "open",
+        "credited_to": [],
+        "source_refs": []
+      },
+      "key_reference": "unknown CHI key",
+      "notes": [
+        "This is part 5 of a transmission dated 8 November. Parts 1-4 were not found in the inspected book corpus. The known 13 November CHI key is not automatically applicable."
+      ]
+    },
+    {
+      "id": "p153b",
+      "source": {
+        "ref": "childs",
+        "printed_page": 153,
+        "pdf_page_1based": 156,
+        "section": "C6",
+        "heading_date": "8 November 1918",
+        "header_transcription": "FKR v CGH (11.55 p.m., November 8th); 2250; 6 TL; CHI-108",
+        "advertised_length": 108
+      },
+      "transcript": {
+        "raw_source_grouped": "AXVAA ----- ----- ----- DDAFF VAXAG GADAF DXAXX XVDGD XVXFF GXFAV VAADA GXXXA XDDGV AVAXV AXAAV VXVAV GXAXX FGXXF AAAFX VADFD XVF",
+        "raw_source_compact": "AXVAA---------------DDAFFVAXAGGADAFDXAXXXVDGDXVXFFGXFAVVAADAGXXXAXDDGVAVAXVAXAAVVXVAVGXAXXFGXXFAAAFXVADFDXVF",
+        "analysis_ciphertext": "AXVAA???????????????DDAFFVAXAGGADAFDXAXXXVDGDXVXFFGXFAVVAADAGXXXAXDDGVAVAXVAXAAVVXVAVGXAXXFGXXFAAAFXVADFDXVF",
+        "analysis_slots": 108,
+        "known_adfgvx_coordinates": 93,
+        "uncertain_coordinates": 15,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "AXVAA —– —– —– DDAFF VAXAG GADAF DXAXX XVDGD XVXFF GXFAV VAADA GXXXA XDDGV AVAXV AXAAV VXVAV GXAXX FGXXF AAAFX VADFD XVF"
+      },
+      "prior_work": {
+        "status": "open",
+        "credited_to": [],
+        "source_refs": []
+      },
+      "key_reference": "unknown CHI key",
+      "notes": [
+        "This is part 6 of the same 8 November transmission. Three full erased five-coordinate groups follow AXVAA."
+      ]
+    },
+    {
+      "id": "p158",
+      "source": {
+        "ref": "childs",
+        "printed_page": 158,
+        "pdf_page_1based": 161,
+        "section": "D",
+        "heading_date": "8 November 1918",
+        "header_transcription": "RW v SY (09.43 p.m., November 8th); 1803 (8/11); RICHI-242",
+        "advertised_length": 242
+      },
+      "transcript": {
+        "raw_source_grouped": "GDDFV VXVDD VVVFG XXVDD XVADD VVFGV VDDVV DVAXV XVGVV GVXDD XVVVG X??GV DDGDX VAVGG AAAXG AFFAD VDADD VAXVD VVDDD GADAX FAXXF GFFXF XDVVD DXDGD DAXVA V?XVV VVFGD VVFGD VVFGV DDDAG GVXDG XDDVV XXVDG VVVXG DXXVX VADDF GGGDX AXVFX VDGDD FVGVG VDGVG VVDAD VVDAD VVVGA VVXVD GGXFA XVXGV VDDDX XF",
+        "raw_source_compact": "GDDFVVXVDDVVVFGXXVDDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGX??GVDDGDXVAVGGAAAXGAFFADVDADDVAXVDVVDDDGADAXFAXXFGFFXFXDVVDDXDGDDAXVAV?XVVVVFGDVVFGDVVFGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGDDFVGVGVDGVGVVDADVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+        "analysis_ciphertext": "GDDFVVXVDDVVVFGXXVDDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGX??GVDDGDXVAVGGAAAXGAFFADVDADDVAXVDVVDDDGADAXFAXXFGFFXFXDVVDDXDGDDAXVAV?XVVVVFGDVVFGDVVFGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGDDFVGVGVDGVGVVDADVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+        "analysis_slots": 242,
+        "known_adfgvx_coordinates": 239,
+        "uncertain_coordinates": 3,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "GDDFV VXVDD VVVFG XXVDD XVADD VVFGV VDDVV DVAXV XVGVV GVXDD XVVVG X–GV DDGDX VAVGG AAAXG AFFAD VDADD VAXVD VVDDD GADAX FAXXF GFFXF XDVVD DXDGD DAXVA VXXVV VVFGD (VVFGD) VVFGV DDDAG GVXDG XDDVV XXVDG VVVXG DXXVX VADDF GGGDX AXVFX VDGDD FVGVG VDGVG VVDAD {VVDAD} VVVGA VVXVD GGXFA XVXGV VDDDX XF",
+        "physical_layers": {
+          "typed_only": {
+            "ciphertext": "GDDFVVXVDDVVVFGXXVDDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGX??GVDDGDXVAVGGAAAXGAFFADVDADDVAXVDVVDDDGADAXFAXXFGFFXFXDVVDDXDGDDAXVAV?XVVVVFGDVVFGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGDDFVGVGVDGVGVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+            "length": 232,
+            "group_count_including_short_final": 47
+          },
+          "typed_plus_handwriting": {
+            "ciphertext": "GDDFVVXVDDVVVFGXXVDDXVADDVVFGVVDDVVDVAXVXVGVVGVXDDXVVVGX??GVDDGDXVAVGGAAAXGAFFADVDADDVAXVDVVDDDGADAXFAXXFGFFXFXDVVDDXDGDDAXVAV?XVVVVFGDVVFGDVVFGVDDDAGGVXDGXDDVVXXVDGVVVXGDXXVXVADDFGGGDXAXVFXVDGDDFVGVGVDGVGVVDADVVDADVVVGAVVXVDGGXFAXVXGVVDDDXXF",
+            "length": 242,
+            "group_count_including_short_final": 49
+          }
+        },
+        "raw_source_grouped_policy": "Conservative symbol reading, including two handwritten insertions; question marks preserve source ambiguity."
+      },
+      "prior_work": {
+        "status": "open_before_this_audit",
+        "credited_to": [],
+        "source_refs": []
+      },
+      "key_reference": "Nov7-9 for separate source components",
+      "notes": [
+        "Typed text has 232 slots. Two handwritten repeated groups add ten slots, producing the 242-slot augmented layer.",
+        "The augmented layer is a near-splice of p159 B/p168 C and p159 C/p168 D. It is not established to be one encrypted plaintext.",
+        "One additional damaged glyph is masked conservatively; see the group-level source layers for all alternatives."
+      ],
+      "session_source_relationships": [
+        {
+          "type": "composite_of",
+          "targets": [
+            "p159_B",
+            "p159_C"
+          ],
+          "corroborating_targets": [
+            "p168_C",
+            "p168_D"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p164a",
+      "source": {
+        "ref": "childs",
+        "printed_page": 164,
+        "pdf_page_1based": 167,
+        "section": "A3",
+        "heading_date": "8 November 1918",
+        "header_transcription": "--- v UKS (4.41 a.m., November 9th); 3 TL; RICHI-242",
+        "advertised_length": 242
+      },
+      "transcript": {
+        "raw_source_grouped": "F?G?X FGXXD DAFVD AX?GD XXDGV XXGVA VAADF DVVVV\nFVDV? ???VV ?FG?? GX??? ????? ????? ????? ?????\n????? ????? ????? ????? ????? ????? ????? ?????\n????? XGADG G???? XVDAG XGXXG VGDGV VVFVV GFVFA\nVDGXG XXDAV XFDDV VVGVV V?VDD VXFFF XVDGG VXAGV\nGXVVG VVDGA VDVXV VXXGD DGAXF DX?DG VGVXX VAGDG\nDD",
+        "raw_source_compact": "F?G?XFGXXDDAFVDAX?GDXXDGVXXGVAVAADFDVVVVFVDV????VV?FG??GX????????????????????????????????????????????????????????????????????XGADGG????XVDAGXGXXGVGDGVVVFVVGFVFAVDGXGXXDAVXFDDVVVGVVV?VDDVXFFFXVDGGVXAGVGXVVGVVDGAVDVXVVXXGDDGAXFDX?DGVGVXXVAGDGDD",
+        "analysis_ciphertext": "F?G?XFGXXDDAFVDAX?GDXXDGVXXGVAVAADFDVVVVFVDV????VV?FG??GX????????????????????????????????????????????????????????????????????XGADGG????XVDAGXGXXGVGDGVVVFVVGFVFAVDGXGXXDAVXFDDVVVGVVV?VDDVXFFFXVDGGVXAGVGXVVGVVDGAVDVXVVXXGDDGAXFDX?DGVGVXXVAGDGDD",
+        "analysis_slots": 242,
+        "known_adfgvx_coordinates": 158,
+        "uncertain_coordinates": 84,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "F-G-X FGXXD DAFVD AX-GD XXDGV XXGVA VAADF DVVVV FVDV- —VV -FG– GX— —– —– —– —– —– XGADG G—- XVDAG XGXXG VGDGV VVFVV GFVFA VDGXG XXDAV XFDDV VVGVV V-VDD VXFFF XVDGG VXAGV GXVVG VVDGA VDVXV VXXGD DGAXF DX-DG VGVXX VAGDG DD",
+        "raw_source_grouped_policy": "Five-slot source-layout transcription; ambiguous dash widths are expanded explicitly, rather than represented as literal dash counts."
+      },
+      "prior_work": {
+        "status": "partial_2017",
+        "credited_to": [
+          "Norbert (2017 comment author)"
+        ],
+        "source_refs": [
+          "discussion_2017"
+        ]
+      },
+      "key_reference": "Nov7-9",
+      "notes": [
+        "The online transcript omits an entire 40-slot erased line. Norbert identified that omission in 2017 comment 42.",
+        "The 242-slot analysis layer expands erasure runs to the printed five-slot layout. Group 11 is represented as ?FG?? and group 12 as GX???; these are explicit layout assumptions."
+      ]
+    },
+    {
+      "id": "p164b",
+      "source": {
+        "ref": "childs",
+        "printed_page": 164,
+        "pdf_page_1based": 167,
+        "section": "A5",
+        "heading_date": "8 November 1918",
+        "header_transcription": "--- v UKS (4.41 a.m., November 9th); 5 TL; RICHI-177",
+        "advertised_length": 177
+      },
+      "transcript": {
+        "raw_source_grouped": "VFGAG DDFFX FDVDD AXADV FGD?? ???VX DXGGA VDGGG\nVGVDD DDXDX VDDDV VDGGV FXGFA DGDAF FVFFX DGFVX\nFXXVA GGGVA F???? ??VVD GVGVA XXXXF XVGVV ?ADVG\nVFXXD VVXGX VGXXG GVXXV VGXV? ?VVDD ????? ?????\n????? ????? ????? ??",
+        "raw_source_compact": "VFGAGDDFFXFDVDDAXADVFGD?????VXDXGGAVDGGGVGVDDDDXDXVDDDVVDGGVFXGFADGDAFFVFFXDGFVXFXXVAGGGVAF??????VVDGVGVAXXXXFXVGVV?ADVGVFXXDVVXGXVGXXGGVXXVVGXV??VVDD???????????????????????????",
+        "analysis_ciphertext": "VFGAGDDFFXFDVDDAXADVFGD?????VXDXGGAVDGGGVGVDDDDXDXVDDDVVDGGVFXGFADGDAFFVFFXDGFVXFXXVAGGGVAF??????VVDGVGVAXXXXFXVGVV?ADVGVFXXDVVXGXVGXXGGVXXVVGXV??VVDD???????????????????????????",
+        "analysis_slots": 177,
+        "known_adfgvx_coordinates": 136,
+        "uncertain_coordinates": 41,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "VFGAG DDFFX FDVDD AXADV FGD– —VX DXGGA VDGGG VGVDD DDXDX VDDDV VDGGV FXGFA DGDAF FVFFX DGFVX FXXVA GGGVA F—- –VVD GVGVA XXXXF XVGVV -ADVG VFXXD VVXGX VGXXG GVXXV VGXV- -VVDD —– —– —– —– —– —",
+        "raw_source_grouped_policy": "Five-slot source-layout transcription; ambiguous dash widths are expanded explicitly, rather than represented as literal dash counts."
+      },
+      "prior_work": {
+        "status": "partial_2017",
+        "credited_to": [
+          "Norbert (2017 comment author)"
+        ],
+        "source_refs": [
+          "discussion_2017"
+        ]
+      },
+      "key_reference": "Nov7-9",
+      "notes": [
+        "The source layout contains 177 slots, including a final erased pair. Expanding all punctuation to five-slot groups would incorrectly produce 180.",
+        "An odd number of coordinates requires an explicit error model before complete ADFGVX decoding."
+      ]
+    },
+    {
+      "id": "p170",
+      "source": {
+        "ref": "childs",
+        "printed_page": 170,
+        "pdf_page_1based": 173,
+        "section": "A",
+        "heading_date": "9 November 1918",
+        "header_transcription": "--- v --- (11.24 p.m., November 9th); RICHI [handwritten 106]",
+        "advertised_length": null,
+        "handwritten_count": 106
+      },
+      "transcript": {
+        "raw_source_grouped": "AAGVG VVDAG GAGAV AGGAA VAXGV AAAXF AAXAF AGVGV VVVVG DADAF GDVGV GVGAD XAGAA GXGGA GVFVG XGXAG GGAFA XGFXX AGXVG VFDVX VDFGX V",
+        "raw_source_compact": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "analysis_ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "analysis_slots": 106,
+        "known_adfgvx_coordinates": 106,
+        "uncertain_coordinates": 0,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "AAGVG VVDAG GAGAV AGGAA VAXGV AAAXF AAXAF AGVGV VVVVG DADAF GDVGV GVGAD XAGAA GXGGA GVFVG XGXAG GGAFA XGFXX AGXVG VFDVX VDFGX V"
+      },
+      "prior_work": {
+        "status": "open",
+        "credited_to": [],
+        "source_refs": []
+      },
+      "key_reference": "none established",
+      "notes": [
+        "106 is handwritten, while RICHI is typed. Both call signs are absent and no transmitted numeric length or part number survives. A complete 106-coordinate cryptogram is a hypothesis, not a source fact."
+      ]
+    },
+    {
+      "id": "p171",
+      "source": {
+        "ref": "childs",
+        "printed_page": 171,
+        "pdf_page_1based": 174,
+        "section": "A1",
+        "heading_date": "9 November 1918",
+        "header_transcription": "COS v NKJ (1.58 a.m., November 10th); COS POT FUR GENERAL VON KRESS 1425 (9/11) 3 TLE; 1 TL; RICHI-314",
+        "advertised_length": 314
+      },
+      "transcript": {
+        "raw_source_grouped": "AAVGF DDADX XDAAV GXAGX AFVAA ADDXD AXDDD DGDDD AAGDV VGVXD GDVDV GVVVV VVGXV VDFVG GVVDV DDVGX DVXVX XGAXA -DDDX XDDXD XXAXD VDXVX ADAGD AGXGA ADDVV XGXDD GDVFA --FFA XGDDX G--VVD VVXDF GVVDG VGVAG GXVXV VVVVD VXVGG VGGXG GVVGD GXXVG GVVXX DXDDG VDVVV DDDGG XVVGD DXXDD GGVDX XVVVD GGXGV DGVFA DDDAX ADDGD VGDDX XVDVD DVVDV XGVGX XVXXV XXGVA GAGFD XDDAD AXGXD AXXAV DXXGX DVAX",
+        "raw_source_compact": "AAVGFDDADXXDAAVGXAGXAFVAAADDXDAXDDDDGDDDAAGDVVGVXDGDVDVGVVVVVVGXVVDFVGGVVDVDDVGXDVXVXXGAXA-DDDXXDDXDXXAXDVDXVXADAGDAGXGAADDVVXGXDDGDVFA--FFAXGDDXG--VVDVVXDFGVVDGVGVAGGXVXVVVVVDVXVGGVGGXGGVVGDGXXVGGVVXXDXDDGVDVVVDDDGGXVVGDDXXDDGGVDXXVVVDGGXGVDGVFADDDAXADDGDVGDDXXVDVDDVVDVXGVGXXVXXVXXGVAGAGFDXDDADAXGXDAXXAVDXXGXDVAX",
+        "analysis_ciphertext": "AAVGFDDADXXDAAVGXAGXAFVAAADDXDAXDDDDGDDDAAGDVVGVXDGDVDVGVVVVVVGXVVDFVGGVVDVDDVGXDVXVXXGAXA?DDDXXDDXDXXAXDVDXVXADAGDAGXGAADDVVXGXDDGDVFA??FFAXGDDXG?VVDVVXDFGVVDGVGVAGGXVXVVVVVDVXVGGVGGXGGVVGDGXXVGGVVXXDXDDGVDVVVDDDGGXVVGDDXXDDGGVDXXVVVDGGXGVDGVFADDDAXADDGDVGDDXXVDVDDVVDVXGVGXXVXXVXXGVAGAGFDXDDADAXGXDAXXAVDXXGXDVAX",
+        "analysis_slots": 314,
+        "known_adfgvx_coordinates": 310,
+        "uncertain_coordinates": 4,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "AAVGF DDADX XDAAV GXAGX AFVAA ADDXD AXDDD DGDDD AAGDV VGVXD GDVDV GVVVV VVGXV VDFVG GVVDV DDVGX DVXVX XGAXA -DDDX XDDXD XXAXD VDXVX ADAGD AGXGA ADDVV XGXDD GDVFA –FFA XGDDX G-VVD VVXDF GVVDG VGVAG GXVXV VVVVD VXVGG VGGXG GVVGD GXXVG GVVXX DXDDG VDVVV DDDGG XVVGD DXXDD GGVDX XVVVD GGXGV DGVFA DDDAX ADDGD VGDDX XVDVD DVVDV XGVGX XVXXV XXGVA GAGFD XDDAD AXGXD AXXAV DXXGX DVAX"
+      },
+      "prior_work": {
+        "status": "read_2017",
+        "credited_to": [
+          "Norbert (2017 comment author)"
+        ],
+        "source_refs": [
+          "discussion_2017"
+        ]
+      },
+      "key_reference": "Nov7-9",
+      "notes": [
+        "The source's G--VVD erasure run occupies one five-symbol group. The analysis layer treats it as G?VVD to preserve that layout. The raw visual run is retained separately."
+      ]
+    },
+    {
+      "id": "p176a",
+      "source": {
+        "ref": "childs",
+        "printed_page": 176,
+        "pdf_page_1based": 179,
+        "section": "A4",
+        "heading_date": "10 November 1918",
+        "header_transcription": "LP v NKJ (5.40 p.m., November 10th); VON UKS KR 0915 (10/11) 6 TLE; 4 TL; RICHI-224",
+        "advertised_length": 224
+      },
+      "transcript": {
+        "raw_source_grouped": "VVAVD ADDDD DFGGV DGAXG AVDAV AVDAD GAVD AV---\nFXFXX XXAFA XAFGV ADAVV ADADD AXXFA ADAAD VDFGA\nVDVAD VAADG VVVFX VFDDX DFFXX GXGVV VDXGD VVDVV\nAFDV- ADV-- GFDAG XXFFD GFXDD AXFGD DAXDX AXVFF\nDAGAG XXDXV DXVGA AVVGD GGFVA GF--- VXXVD VVFXX\nVDVFV VDDDG ADAA-",
+        "raw_source_compact": "VVAVDADDDDDFGGVDGAXGAVDAVAVDADGAVDAV---FXFXXXXAFAXAFGVADAVVADADDAXXFAADAADVDFGAVDVADVAADGVVVFXVFDDXDFFXXGXGVVVDXGDVVDVVAFDV-ADV--GFDAGXXFFDGFXDDAXFGDDAXDXAXVFFDAGAGXXDXVDXVGAAVVGDGGFVAGF---VXXVDVVFXXVDVFVVDDDGADAA-",
+        "analysis_ciphertext": "VVAVDADDDDDFGGVDGAXGAVDAVAVDADGAVDAV???FXFXXXXAFAXAFGVADAVVADADDAXXFAADAADVDFGAVDVADVAADGVVVFXVFDDXDFFXXGXGVVVDXGDVVDVVAFDV?ADV??GFDAGXXFFDGFXDDAXFGDDAXDXAXVFFDAGAGXXDXVDXVGAAVVGDGGFVAGF???VXXVDVVFXXVDVFVVDDDGADAA?",
+        "analysis_slots": 214,
+        "known_adfgvx_coordinates": 204,
+        "uncertain_coordinates": 10,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "VVAVD ADDDD DFGGV DGAXG AVDAV AVDAD GAVDA AVXXX FXFXX XXAFA XAFGV ADAVV ADADD AXXFA ADAAD VDFGA VDVAD VAADG VVVFX VFDDX DFFXX GXGVV VDXGD VVDVV AFDVX ADVXX GFDAG XXFFD GFXDD AXFGD DAXDX AXVFF DAGAG XXDXV DXVGA AVVGD GGFVA GFAXX VXXVD VVFXX VDVFV VDDDG ADAA"
+      },
+      "prior_work": {
+        "status": "read_2017",
+        "credited_to": [
+          "Norbert (2017 comment author)"
+        ],
+        "source_refs": [
+          "discussion_2017"
+        ]
+      },
+      "key_reference": "Nov10-12",
+      "notes": [
+        "The source contains literal erasures AV---, AFDV-, ADV--, GF---, and ADAA-. The legacy transcript silently fills these with letters.",
+        "The group GAVD has only four printed letters. With all literal erasure marks counted, this source layer has 214 slots, of which 204 are known. Padding GAVD or dropping the final erasure is a separate model.",
+        "The header advertises 224. A ten-coordinate shortfall does not by itself locate the missing coordinates."
+      ]
+    },
+    {
+      "id": "p176b",
+      "source": {
+        "ref": "childs",
+        "printed_page": 176,
+        "pdf_page_1based": 179,
+        "section": "B1",
+        "heading_date": "10 November 1918",
+        "header_transcription": "LP v ZON (3.38 a.m., November 11th); 2305 (10) 3 TLE; 1 TL; RICHI-240",
+        "advertised_length": 240
+      },
+      "transcript": {
+        "raw_source_grouped": "GGDAA FXAVD FFFDG XXAGV XXXDV XAAFV GAGAF VFAGA VDDDD AVXGF FAFXG XXXXX GAVAA AAGDV GGGVA AXDVX XXFAD FXXXX DGVDG FDVGD DAADV XXXFV XGXXD XGGGG AGVDG VAGGG DVVDF VAFAV VVXDF DFFFF XXXAX XGVDX XFXDF FXXDX XXXXV GGGDA FGGDX VVVAA FDVFX XVXXF VGGFG DAAFV GGGGX AVVVV",
+        "raw_source_compact": "GGDAAFXAVDFFFDGXXAGVXXXDVXAAFVGAGAFVFAGAVDDDDAVXGFFAFXGXXXXXGAVAAAAGDVGGGVAAXDVXXXFADFXXXXDGVDGFDVGDDAADVXXXFVXGXXDXGGGGAGVDGVAGGGDVVDFVAFAVVVXDFDFFFFXXXAXXGVDXXFXDFFXXDXXXXXVGGGDAFGGDXVVVAAFDVFXXVXXFVGGFGDAAFVGGGGXAVVVV",
+        "analysis_ciphertext": "GGDAAFXAVDFFFDGXXAGVXXXDVXAAFVGAGAFVFAGAVDDDDAVXGFFAFXGXXXXXGAVAAAAGDVGGGVAAXDVXXXFADFXXXXDGVDGFDVGDDAADVXXXFVXGXXDXGGGGAGVDGVAGGGDVVDFVAFAVVVXDFDFFFFXXXAXXGVDXXFXDFFXXDXXXXXVGGGDAFGGDXVVVAAFDVFXXVXXFVGGFGDAAFVGGGGXAVVVV",
+        "analysis_slots": 220,
+        "known_adfgvx_coordinates": 220,
+        "uncertain_coordinates": 0,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "GGDAA FXAVD FFFDG XXAGV XXXDV XAAFV GAGAF VFAGA VDDDD AVXGF FAFXG XXXXX GAVAA AAGDV GGGVA AXDVX XXFAD FXXXX DGVDG FDVGD DAADV XXXFV XGXXD XGGGG AGVDG VAGGG DVVDF VAFAV VVXDF DFFFF XXXAX XGVDX XFXDF FXXDX XXXXV GGGDA FGGDX VVVAA FDVFX XVXXF VGGFG DAAFV GGGGX AVVVV"
+      },
+      "prior_work": {
+        "status": "partial_published_2026",
+        "credited_to": [
+          "Prinz (2026 publication)"
+        ],
+        "source_refs": [
+          "prinz_p176b",
+          "french_telegram"
+        ]
+      },
+      "key_reference": "Nov10-12",
+      "notes": [
+        "The header advertises 240 but 220 coordinates are received. The 20-coordinate insertion at received offset 160 was published on 19 September 2026.",
+        "The 217/219/6 unit-number interpretation is supported by a French intelligence telegram, but remains external historical context rather than uniquely recovered cipher digits."
+      ]
+    },
+    {
+      "id": "p215",
+      "source": {
+        "ref": "childs",
+        "printed_page": 215,
+        "pdf_page_1based": 218,
+        "section": "C",
+        "heading_date": "22 November 1918",
+        "header_transcription": "UKS v BSL (08.42 p.m., November 22nd); 1905 (11/22); RICHI-248",
+        "advertised_length": 248
+      },
+      "transcript": {
+        "raw_source_grouped": "VGADA FAXAD XFAXF FVXDD XXXDX D-F-- DDAVF VGXDF FXDGF VVVFA GXXXA FAGDD FAVDG VAVXF AFDXA FDGAD VAFFV VFFAA XDGVV AVXXV GDFDF VVGDF AAFAV FVXGG VFAAA XXDAV AVFFA DAFAA XAGGA DADVD FVVDF GAAVA AXADV DAXVF DFGDF GV-FA -GDDA FGG-D VFFDX ---VD FAAAX XADGF FDFFX --VAA AAXXV XFXDF XGFDA VAADF DDVVX XXF",
+        "raw_source_compact": "VGADAFAXADXFAXFFVXDDXXXDXD-F--DDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGV-FA-GDDAFGG-DVFFDX---VDFAAAXXADGFFDFFX--VAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+        "analysis_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXD?F??DDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGV?FA?GDDAFGG?DVFFDX???VDFAAAXXADGFFDFFX??VAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+        "analysis_slots": 248,
+        "known_adfgvx_coordinates": 237,
+        "uncertain_coordinates": 11,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "VGADA FAXAD XFAXF FVXDD XXXDX D-F– DDAVF VGXDF FXDGF VVVFA GXXXA FAGDD FAVDG VAVXF AFDXA FDGAD VAFFV VFFAA XDGVV AVXXV GDFDF VVGDF AAFAV FVXGG VFAAA XXDAV AVFFA DAFAA XAGGA DADVD FVVDF GAAVA AXADV DAXVF DFGDF GV-FA -GDDA FGG-D VFFDX —VD FAAAX XADGF FDFFX –VAA AAXXV XFXDF XGFDA VAADF DDVVX XXF"
+      },
+      "prior_work": {
+        "status": "partial_2017",
+        "credited_to": [
+          "Norbert (2017 comment author)"
+        ],
+        "source_refs": [
+          "discussion_2017"
+        ]
+      },
+      "key_reference": "Nov22-24",
+      "notes": [
+        "The source has 248 slots, 237 known and 11 erased. The 2017 two-gap model adds ten coordinates and leaves a partial reading.",
+        "A fluent later completion is not a strict ciphertext solution: several supplied letters contradict known coordinates under the proposed geometry."
+      ]
+    },
+    {
+      "id": "p187",
+      "source": {
+        "ref": "childs",
+        "printed_page": 187,
+        "pdf_page_1based": 190,
+        "section": "A1",
+        "heading_date": "13 November 1918",
+        "header_transcription": "SU v LP (07.52 a.m., November 13th); 10.50 MK (13/11) 2 TLE; 1 TL; CHI-212",
+        "advertised_length": 212
+      },
+      "transcript": {
+        "raw_source_grouped": "FFVXV GVVXA XFAFA DAXVX GADDV VVAVV VXVFV GVAAX VVADA DVFAD XGDDF GVAAD VAVGA VFDAF FFDFF AVAFV DXFAF AAFXA FXXAG XXDXA DGFAX GFGAD XFGFF VAAXG FADAA AFDXG VGAFX FXDXX ADADD FGADA GVAFA AGXGD XGXAX VGGXF FDXAG XDAGX AXFAV FFVVV AAFAV FFVAA ADFAG FAFDV DF",
+        "raw_source_compact": "FFVXVGVVXAXFAFADAXVXGADDVVVAVVVXVFVGVAAXVVADADVFADXGDDFGVAADVAVGAVFDAFFFDFFAVAFVDXFAFAAFXAFXXAGXXDXADGFAXGFGADXFGFFVAAXGFADAAAFDXGVGAFXFXDXXADADDFGADAGVAFAAGXGDXGXAXVGGXFFDXAGXDAGXAXFAVFFVVVAAFAVFFVAAADFAGFAFDVDF",
+        "analysis_ciphertext": "FFVXVGVVXAXFAFADAXVXGADDVVVAVVVXVFVGVAAXVVADADVFADXGDDFGVAADVAVGAVFDAFFFDFFAVAFVDXFAFAAFXAFXXAGXXDXADGFAXGFGADXFGFFVAAXGFADAAAFDXGVGAFXFXDXXADADDFGADAGVAFAAGXGDXGXAXVGGXFFDXAGXDAGXAXFAVFFVVVAAFAVFFVAAADFAGFAFDVDF",
+        "analysis_slots": 212,
+        "known_adfgvx_coordinates": 212,
+        "uncertain_coordinates": 0,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "FFVXV GVVXA XFAFA DAXVX GADDV VVAVV VXVFV GVAAX VVADA DVFAD XGDDF GVAAD VAVGA VFDAF FFDFF AVAFV DXFAF AAFXA FXXAG XXDXA DGFAX GFGAD XFGFF VAAXG FADAA AFDXG VGAFX FXDXX ADADD FGADA GVAFA AGXGD XGXAX VGGXF FDXAG XDAGX AXFAV FFVVV AAFAV FFVAA ADFAG FAFDV DF"
+      },
+      "prior_work": {
+        "status": "read_2017",
+        "credited_to": [
+          "George Lasry",
+          "Norbert (2017 comment author)"
+        ],
+        "source_refs": [
+          "discussion_2017"
+        ]
+      },
+      "key_reference": "CHI-Nov13",
+      "notes": [
+        "The FFVXV target and AFAFF continuation are on printed page 187. A different FXVVF item is on printed page 191; the labels must not be conflated."
+      ]
+    },
+    {
+      "id": "p187b",
+      "source": {
+        "ref": "childs",
+        "printed_page": 187,
+        "pdf_page_1based": 190,
+        "section": "A2",
+        "heading_date": "13 November 1918",
+        "header_transcription": "SU v LP (07.52 a.m., November 13th); 10.50 MK (13/11) 2 TLE; 2 TL; RICHI-142",
+        "advertised_length": 142
+      },
+      "transcript": {
+        "raw_source_grouped": "AFAFF AXDVA VVVVF ADVFA GXGVX AGVAX AXGGA AAAAA ADDVV XVGAG AGXVV FGAAF VVXGD GGAVG VFDVD VDDDV DXFAD DDDAX ADVVG AAFFG XGXAG GDADF VFXDA DGDDG GAAXD VDFAD FFDDX VADDV GD",
+        "raw_source_compact": "AFAFFAXDVAVVVVFADVFAGXGVXAGVAXAXGGAAAAAAADDVVXVGAGAGXVVFGAAFVVXGDGGAVGVFDVDVDDDVDXFADDDDAXADVVGAAFFGXGXAGGDADFVFXDADGDDGGAAXDVDFADFFDDXVADDVGD",
+        "analysis_ciphertext": "AFAFFAXDVAVVVVFADVFAGXGVXAGVAXAXGGAAAAAAADDVVXVGAGAGXVVFGAAFVVXGDGGAVGVFDVDVDDDVDXFADDDDAXADVVGAAFFGXGXAGGDADFVFXDADGDDGGAAXDVDFADFFDDXVADDVGD",
+        "analysis_slots": 142,
+        "known_adfgvx_coordinates": 142,
+        "uncertain_coordinates": 0,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "AFAFF AXDVA VVVVF ADVFA GXGVX AGVAX AXGGA AAAAA ADDVV XVGAG AGXVV FGAAF VVXGD GGAVG VFDVD VDDDV DXFAD DDDAX ADVVG AAFFG XGXAG GDADF VFXDA DGDDG GAAXD VDFAD FFDDX VADDV GD"
+      },
+      "prior_work": {
+        "status": "read_2017",
+        "credited_to": [
+          "George Lasry",
+          "Norbert (2017 comment author)"
+        ],
+        "source_refs": [
+          "discussion_2017"
+        ]
+      },
+      "key_reference": "CHI-Nov13",
+      "notes": [
+        "The continuation is printed RICHI-142 even though the preceding part is CHI-212. This inconsistent label is preserved.",
+        "The conservative shared CHI square has 22 known injective cells. Two speculative tail labels are not established, and a duplicate X in the baseline square is invalid."
+      ]
+    },
+    {
+      "id": "p189",
+      "source": {
+        "ref": "childs",
+        "printed_page": 189,
+        "pdf_page_1based": 192,
+        "section": "A",
+        "heading_date": "14 November 1918",
+        "header_transcription": "CZ v CM (7.15 a.m., November 13th); 1835; RIZI-46",
+        "advertised_length": 46
+      },
+      "transcript": {
+        "raw_source_grouped": "DUGAG GRAAV V--AX FVXXV ADAXX AGAVD UGXAX VUXUU\n---VA VDXVX XXVGV XAAVA GAXXG AXXFX VXXFX XGVVU\nDFFXD XAXDV",
+        "raw_source_compact": "DUGAGGRAAVV--AXFVXXVADAXXAGAVDUGXAXVUXUU---VAVDXVXXXVGVXAAVAGAXXGAXXFXVXXFXXGVVUDFFXDXAXDV",
+        "analysis_ciphertext": "D?GAGG?AAVV??AXFVXXVADAXXAGAVD?GXAXV?X?????VAVDXVXXXVGVXAAVAGAXXGAXXFXVXXFXXGVV?DFFXDXAXDV",
+        "analysis_slots": 90,
+        "known_adfgvx_coordinates": 78,
+        "uncertain_coordinates": 12,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "DVGAG G-AAV V–AX FVXXV ADAXX AGAVD VGXAX VVXVV —VA VDXVX XXVGV XAAVA GAXXG AXXFX VXXFX XGVVV DFFXD XAXDV"
+      },
+      "prior_work": {
+        "status": "open",
+        "credited_to": [],
+        "source_refs": []
+      },
+      "key_reference": "Nov13-15b supported by p185 parallel",
+      "notes": [
+        "The source contains six literal U letters, one literal R, and five erasure marks. All twelve are masked in the conservative layer. The legacy conversion U to V is not a source observation.",
+        "A 96-coordinate p185 C transmission is a strong near-parallel, but the call signs are reversed and the lengths/date labels disagree. Its plaintext is not automatically an exact solution of p189."
+      ],
+      "session_source_relationships": [
+        {
+          "type": "near_parallel_of",
+          "target": "p185_C",
+          "qualification": "substantial differences and conflicting metadata remain"
+        }
+      ]
+    },
+    {
+      "id": "p198",
+      "source": {
+        "ref": "childs",
+        "printed_page": 198,
+        "pdf_page_1based": 201,
+        "section": "D",
+        "heading_date": "15 November 1918",
+        "header_transcription": "PZU v CM (18.27 p.m., November 15th); 18.45; CHI-170",
+        "advertised_length": 170
+      },
+      "transcript": {
+        "raw_source_grouped": "DFVXV XGAXD GXVXD VGVGD VADXF FADVX XXVFV AAXGF DGFFA VXAVV VXVFV GFVFG DGVFG FFFGV VVGGG XVFXF XXFVD VDFDD FXAAX VVXAA FXXXV GXFVD VVXXF FGXGV FGXFG GFAAA FGXVV FXXXF FADXD AFXFV VDGVX FGAGF ADDFX",
+        "raw_source_compact": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "analysis_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "analysis_slots": 165,
+        "known_adfgvx_coordinates": 165,
+        "uncertain_coordinates": 0,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "DFVXV XGAXD GXVXD VGVGD VADXF FADVX XXVFV AAXGF DGFFA VXAVV VXVFV GFVFG DGVFG FFFGV VVGGG XVFXF XXFVD VDFDD FXAAX VVXAA FXXXV GXFVD VVXXF FGXGV FGXFG GFAAA FGXVV FXXXF FADXD AFXFV VDGVX FGAGF ADDFX"
+      },
+      "prior_work": {
+        "status": "open",
+        "credited_to": [],
+        "source_refs": []
+      },
+      "key_reference": "none established",
+      "notes": [
+        "CHI-170 is advertised but 165 coordinates are received. No full erased group is explicitly marked in the surviving text."
+      ]
+    },
+    {
+      "id": "p217",
+      "source": {
+        "ref": "childs",
+        "printed_page": 217,
+        "pdf_page_1based": 220,
+        "section": "C",
+        "heading_date": "24 November 1918",
+        "header_transcription": "LP v NKJ (01.27 a.m., November 27th); SSD LP VON ASO FUER ADMIRAL UND OHL 2030; RICHI-170; BMK 10534 NKJ 724 MR TEL IST VOM (24/11)",
+        "advertised_length": 170
+      },
+      "transcript": {
+        "raw_source_grouped": "DXXXG GVXAX ADXVD GDAAA DGXAG AVDGV FAFAA DFFFG XFVXD DVDVF GFVVV AADXG AAVAV AAXDG VADDD DVADG FAGVV GVVGD AVXFF DAADV FFAXG VDVDD AGDVF XAAVA ADDAF FDFAA GXVAA GAFXD ADFFX AVDAA DADXX AADVA XVVAD FDVAA",
+        "raw_source_compact": "DXXXGGVXAXADXVDGDAAADGXAGAVDGVFAFAADFFFGXFVXDDVDVFGFVVVAADXGAAVAVAAXDGVADDDDVADGFAGVVGVVGDAVXFFDAADVFFAXGVDVDDAGDVFXAAVAADDAFFDFAAGXVAAGAFXDADFFXAVDAADADXXAADVAXVVADFDVAA",
+        "analysis_ciphertext": "DXXXGGVXAXADXVDGDAAADGXAGAVDGVFAFAADFFFGXFVXDDVDVFGFVVVAADXGAAVAVAAXDGVADDDDVADGFAGVVGVVGDAVXFFDAADVFFAXGVDVDDAGDVFXAAVAADDAFFDFAAGXVAAGAFXDADFFXAVDAADADXXAADVAXVVADFDVAA",
+        "analysis_slots": 170,
+        "known_adfgvx_coordinates": 170,
+        "uncertain_coordinates": 0,
+        "verification": "Visually checked against the complete historical scan; layout qualifications are explicit in notes.",
+        "legacy_web_grouped": "DXXXG GVXAX ADXVD GDAAA DGXAG AVDGV FAFAA DFFFG XFVXD DVDVF GFVVV AADXG AAVAV AAXDG VADDD DVADG FAGVV GVVGD AVXFF DAADV FFAXG VDVDD AGDVF XAAVA ADDAF FDFAA GXVAA GAFXD ADFFX AVDAA DADXX AADVA XVVAD FDVAA"
+      },
+      "prior_work": {
+        "status": "reading_published_2026",
+        "credited_to": [
+          "Prinz (2026 publication)",
+          "Christian Horvat (later correction)"
+        ],
+        "source_refs": [
+          "prinz_p217",
+          "horvat_p217",
+          "keyword_verifier"
+        ]
+      },
+      "key_reference": "TRUPPENVERSCHIEBUNG",
+      "notes": [
+        "The header and clear tail support 24 November as the message date and 27 November as the interception date.",
+        "Prinz published the keyword TRUPPENVERSCHIEBUNG and body reading on 17 September 2026. The claimed separate 1919 manuscript key provenance was not independently obtained.",
+        "Christian Horvat's 21 September correction of group 19 from AVXFF to AVXVF is prior art; it yields 24STEN rather than S4STEN."
+      ]
+    }
+  ]
+}
