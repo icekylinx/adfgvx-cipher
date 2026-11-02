@@ -1,0 +1,405 @@
+{
+  "schema": "adfgvx-zitag-purchase-order-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov1-3",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      3,
+      16,
+      4,
+      15,
+      7,
+      12,
+      18,
+      6,
+      17,
+      8,
+      19,
+      1,
+      13,
+      10,
+      2,
+      14,
+      11,
+      9,
+      5
+    ],
+    "column_count": 19,
+    "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+    "square_rows": [
+      "UILOF9",
+      "RCZVSX",
+      "02G7QT",
+      "D8WNB5",
+      "JMHEKP",
+      "Y41A36"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 239,
+        "pdf_page_1based": 242,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p102_A",
+      "path": "sources/p102_A.png",
+      "printed_page": 102,
+      "pdf_page_1based": 105,
+      "crop_pdf_points": [
+        75,
+        150,
+        505,
+        265
+      ],
+      "render_scale": 4,
+      "sha256": "4a3d6a8144acaaf93881fc5160119496172e4687d9518f5bb72e3433bda676a6"
+    },
+    {
+      "id": "p103_D",
+      "path": "sources/p103_D.png",
+      "printed_page": 103,
+      "pdf_page_1based": 106,
+      "crop_pdf_points": [
+        45,
+        685,
+        515,
+        795
+      ],
+      "render_scale": 4,
+      "sha256": "be0f5f972c52aa2c9ee590dec881efedf8ca0c78980161a3446e96ac3ffa9c54"
+    },
+    {
+      "id": "p106_B",
+      "path": "sources/p106_B.png",
+      "printed_page": 106,
+      "pdf_page_1based": 109,
+      "crop_pdf_points": [
+        65,
+        497,
+        535,
+        695
+      ],
+      "render_scale": 4,
+      "sha256": "dbafad53b41addfabc2c9f4ff7a1f370cdf6c5cd04bc2934fe15c5b630cc241e"
+    },
+    {
+      "id": "p103_B1",
+      "path": "sources/p103_B1.png",
+      "printed_page": 103,
+      "pdf_page_1based": 106,
+      "crop_pdf_points": [
+        45,
+        350,
+        515,
+        480
+      ],
+      "render_scale": 4,
+      "sha256": "b2675b9e0eaa5aae405ee2fd7601a1702016606a44fe38473a78e1bb814dc25b"
+    },
+    {
+      "id": "p103_B2",
+      "path": "sources/p103_B2.png",
+      "printed_page": 103,
+      "pdf_page_1based": 106,
+      "crop_pdf_points": [
+        60,
+        480,
+        515,
+        570
+      ],
+      "render_scale": 4,
+      "sha256": "07aa204c6444d71540f8cf8e4d0d3a9268ffc1826af3c8aeed9552b986ccaee4"
+    },
+    {
+      "id": "p103_heading",
+      "path": "sources/p103_heading.png",
+      "printed_page": 103,
+      "pdf_page_1based": 106,
+      "crop_pdf_points": [
+        80,
+        229,
+        500,
+        248
+      ],
+      "render_scale": 4,
+      "sha256": "159dcd41878b893b58a3d9b6ba5f523d346705ef06da09d87116a0d25be7828f"
+    }
+  ],
+  "records": [
+    {
+      "id": "p102_A",
+      "printed_page": 102,
+      "pdf_page_1based": 105,
+      "source_section": "A",
+      "source_image_id": "p102_A",
+      "key_id": "Nov1-3",
+      "page_heading": "1st NOVEMBER, 1918.",
+      "header": "A) --- v --- (--- November 2nd); (1/11) BEVOLLMAECHTIGTE PREUSS KRIGSMINISTERIUMS KONSTANTINOPEL; RICHI-180",
+      "source_rows": [
+        "FGFXD DGAGF ADAVG ADGAF VGGVA VFFAG DDAFX DDDFD",
+        "VGDAD VDAGD DAFGF GFVGG XGGGG AXXVD VGVGA FGVFV",
+        "XDGDX DAXAD DFDAX DGVFG VFDGV GVGAA VDXAG FGDAA",
+        "DDXVV AFVFV GAAAF AVGAV FVDGA GGFVX ADGDA GXGFV",
+        "FDFAG GDVGD GDGVV AGXFV"
+      ],
+      "source_slots": 180,
+      "advertised_length": 180,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "FUERXZITAGVOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSIVHERNXZITAG",
+      "readable_candidate": "FUERXZITAGXOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG",
+      "notes": [
+        "The source contains exactly the advertised number of printed slots; no length adjustment is used.",
+        "All apparent OCR erasures are visually present coordinates. The printed source differs from p106 B at only index55."
+      ]
+    },
+    {
+      "id": "p103_D",
+      "printed_page": 103,
+      "pdf_page_1based": 106,
+      "source_section": "D",
+      "source_image_id": "p103_D",
+      "key_id": "Nov1-3",
+      "page_heading": "1st NOVEMBER, 1918.",
+      "header": "D) OSM v LP (7.08 a.m., November 2nd); 2210 (1/11) BEVOLLMAECHTIGTE PREUSS KRIEGSMINISTERIUMS' KONSTANTINOPLE; RICHI-180",
+      "source_rows": [
+        "FGFXD DGAGF ADAVG ADGAF VGGVA VFFAX DDAFX DDDFD",
+        "VGDAD VDAGD DAFGF DFVGG XGGGG AXXVD VGVGA FGVFV",
+        "XDGDX DAXAD DFDAX DGVFG VFDGV GVGAA VDXAG FGDAA",
+        "DDXVV AFVFV GAAAF AVGAV FVDGA GGFVX ADGDA GXGFV",
+        "FDGAG GDVGD GDGVV AGXFV"
+      ],
+      "source_slots": 180,
+      "advertised_length": 180,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "FUERXZITAGXOENENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG",
+      "readable_candidate": "FUERXZITAGXOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG",
+      "notes": [
+        "The source contains exactly the advertised number of printed slots; no length adjustment is used.",
+        "VFFAX and FDGAG are literal source readings, not silently replaced by their cross-copy alternatives."
+      ]
+    },
+    {
+      "id": "p106_B",
+      "printed_page": 106,
+      "pdf_page_1based": 109,
+      "source_section": "B",
+      "source_image_id": "p106_B",
+      "key_id": "Nov1-3",
+      "page_heading": "1st NOVEMBER, 1918.",
+      "header": "B) NKJ v LP (8.11 p.m., November 2nd); 1/11 2210 BEVOLLMAECHTIGTE PREUSS KRIGSMINISTERIUMS KONSTANTINOPEL; RICHI-180",
+      "source_rows": [
+        "FGFXD DGAGF ADAVG ADGAF VGGVA VFFAG DDAFX DDDFD",
+        "VGDAD VDAGD DAFGF DFVGG XGGGG AXXVD VGVGA FGVFV",
+        "XDGDX DAXAD DFDAX DGVFG VFDGV GVGAA VDXAG FGDAA",
+        "DDXVV AFVFV GAAAF AVGAV FVDGA GGFVX ADGDA GXGFV",
+        "FDFAG GDVGD GDGVV AGXFV"
+      ],
+      "source_slots": 180,
+      "advertised_length": 180,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "FUERXZITAGVOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG",
+      "readable_candidate": "FUERXZITAGXOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG",
+      "notes": [
+        "The source contains exactly the advertised number of printed slots; no length adjustment is used.",
+        "The printed XGGGG is a five-character group; an earlier six-character OCR rendering XXGGGG is not a source insertion."
+      ]
+    },
+    {
+      "id": "p103_B1",
+      "printed_page": 103,
+      "pdf_page_1based": 106,
+      "source_section": "B1",
+      "source_image_id": "p103_B1",
+      "key_id": "Nov1-3",
+      "page_heading": "1st NOVEMBER, 1918.",
+      "header": "B) FÜR COS v NKJ (0.43 a.m., November 3rd); HPTM WESTGRNHAGEN ODER KARL MÜLLER DTSCH WIRTSCHAFTS ABTLG; 1845 (1) 2 TLE; 1 TL RICHI-274",
+      "source_rows": [
+        "DFVGD DDAFF VGGGV GDDGF AVDXD ADGGA DGGAG DVGDG",
+        "DGVVV DGVGA GDADF GAAAG XGGVA FVAVV VGXXX FAVFG",
+        "AGADV FGAAG XFGGG DFVGX GFVVX VXDXD DAGDV DGGXV",
+        "GAFXX AXXXX FVGXG VDGFF GDAVX XFXVG AGDAF XGFAD",
+        "XAFGG VVVFF GAXVX VGGDA AFFVG AVVFX FAXFV XGADA",
+        "DGGXF GGAGA ADVAV FAAAV FVVAG DAAXD FDGDV DGXGD",
+        "AGADX FADDD VFGAG AFDDV DFGGA VVAVD DXGV"
+      ],
+      "source_slots": 274,
+      "advertised_length": 274,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "DEUTSCHKAUFDRAHTETNRX5XXBEXTAETIQEN4TEWEGRXINDEDENBESCHAFBUNG6MILLIONENRUBE1ERSUCHGXXERLEDIGTDURCHUNSERTELEGRXNRX3XDASSNUR5EREITSBEZAHLTE",
+      "readable_candidate": "DEUTSCHKAUFDRAHTETNRX5XXBESTAETIGENXTELEGRXINDENENBESCHAFFUNG6MILLIONENRUBELERSUCHTXXERLEDIGTDURCHUNSERTELEGRXNRX3XDASSNURBEREITSBEZAHLTE",
+      "notes": [
+        "The source contains exactly the advertised number of printed slots; no length adjustment is used.",
+        "The final group is the observed four-character DXGV. Earlier OCR DXX?V introduced an extra slot and spoiled the geometry.",
+        "The candidate preserves raw reference5, amount6 and reference3. Raw4,1,5 inside ordinary words are separately repaired and retained in the audit.",
+        "INDENEN and abbreviated TELEGR are contextual repairs; no preposition, article or omitted source word is added."
+      ]
+    },
+    {
+      "id": "p103_B2",
+      "printed_page": 103,
+      "pdf_page_1based": 106,
+      "source_section": "B2",
+      "source_image_id": "p103_B2",
+      "key_id": "Nov1-3",
+      "page_heading": "1st NOVEMBER, 1918.",
+      "header": "B) FÜR COS v NKJ (0.43 a.m., November 3rd); HPTM WESTGRNHAGEN ODER KARL MÜLLER DTSCH WIRTSCHAFTS ABTLG; 1845 (1) 2 TLE; 2 TL RICHI-254",
+      "source_rows": [
+        "GG-VF GFAGD GAADG GAXXG GDXAV DVAVV DAVFA DGFFV",
+        "XFGXX GFFXF VDAGD ADXGG AADAV AVXVG GDVFV GGFDG",
+        "DGDGV AVFFG XGFFD GFAXA GVXVG DAGGX FCXGD ADDDV",
+        "GVGDX FGGAF GAGVA DGGAX GAGDG VAGVD GVGVF GGAFD",
+        "GFVGD GVDDV GGVGD GVGDG VVVGA DGXGA GDXFG VFXDV",
+        "XAGFV VVAFV GVXVA GAGFV VDDFV VDFAA AVG-G VGFFV",
+        "AVGAD AGFGV GGVA"
+      ],
+      "source_slots": 254,
+      "advertised_length": 254,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "PARTIENVERLADENWERDENSOL?ENXSTORNIERETSAEMTLXA?DEREKONTRAKTE?EGENALLGEMEINERLAGEXERSUCHENWESTERNHAGENNOCHMALSSOFORTIGERUECKKEHR",
+      "readable_candidate": "PARTIENVERLADENWERDENSOLLENXSTORNIERETSAEMTLXANDEREKONTRAKTEWEGENALLGEMEINERLAGEXERSUCHENWESTERNHAGENNOCHMALSSOFORTIGERUECKKEHR",
+      "notes": [
+        "The source contains exactly the advertised number of printed slots; no length adjustment is used.",
+        "The source contains printed dashes in GG-VF and AVG-G and an invalid C in FCXGD. The candidate fills only these three slots.",
+        "WESTERNHAGEN is fully observed in the plaintext; the heading prints WESTGRNHAGEN. No particular individual is identified."
+      ]
+    }
+  ],
+  "cross_copy_records": [
+    "p102_A",
+    "p103_D",
+    "p106_B"
+  ],
+  "cross_copy_candidate": "FUERXZITAGXOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG",
+  "cross_copy_assumption": "These three closely matching 180-coordinate copies carry the same intended text. The readable common candidate selects witnessed alternatives by ordinary-word context; it is not a coordinate-majority rule.",
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "No explicit discussion of these ZITAG purchase-order bodies was located in the bounded text check (ZITAG, DEUTSCHKAUF, WESTERNHAGEN and purchase/contract terms)."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "No explicit discussion of these ZITAG purchase-order bodies was located in the bounded text check (ZITAG, DEUTSCHKAUF, WESTERNHAGEN and purchase/contract terms)."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit ZITAG, DEUTSCHKAUF or WESTERNHAGEN body was located in the cached 55-comment snapshot; other RUBEL hits concern the separately credited p171 challenge."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p102_ocr_block1",
+        "p103_ocr_block2",
+        "p103_ocr_block3",
+        "p103_ocr_block5",
+        "p106_ocr_block5"
+      ],
+      "unreviewed_retrieval": "experiments/p73_new_methods/retrieval_inputs.json",
+      "retrieval_blocks": [
+        "p102_ocr_block1",
+        "p103_ocr_block3",
+        "p103_ocr_block5",
+        "p106_ocr_block5"
+      ],
+      "cached_pool_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "frozen_prior_candidate_records": [
+        {
+          "block": "p102_ocr_block1",
+          "key": "Nov1-3",
+          "score": -4.504777655881994,
+          "plaintext": "FUERXZITAGVOHNENU?MERNIC?TSWEI?ER?AUFENUNDNICHTSWEITERVERLADEN?LLESMOEGLICHSTSIVHERNXZITAG"
+        },
+        {
+          "block": "p103_ocr_block2",
+          "key": "Nov1-3",
+          "score": -7.211233368286719,
+          "plaintext": "DEU9S2HKAUFDCAETETNRX5XXBEXTAETIQJN4TEWEGJXMNDEDENWESCHAFBUNW6IILLIONJNSUBE1ERSDCZGXXERLJDIGTDURCH0N3ERTELE2RXNRX3XDASS?UR5EREFTSBEZAHLTV"
+        },
+        {
+          "block": "p103_ocr_block3",
+          "key": "Nov1-3",
+          "score": -4.110447161964008,
+          "plaintext": "PARTIENVERLADENWERDENSOL?ENXSTORNIERETSAEMTLXA?DEREKONTRAKTE?EGENALLGEMEINERLAGEXERSUCHENWESTERNHAGENNOCHMALSSOFORTIGERUECKKEHR"
+        },
+        {
+          "block": "p103_ocr_block5",
+          "key": "Nov1-3",
+          "score": -4.0642533274902695,
+          "plaintext": "FUERXZITAGXOENENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG"
+        },
+        {
+          "block": "p106_ocr_block5",
+          "key": "Nov1-3",
+          "score": -4.096726157199377,
+          "plaintext": "FUERXZITAGVOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG"
+        }
+      ],
+      "interpretation": "The stop-order copies and B2 predate this edition as unreviewed readable screen candidates. B1 had a badly degraded 275-coordinate OCR candidate; the source has274. This is source correction and a priced edition, not a first historical decipherment claim."
+    }
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "schema": "adfgvx-military-allowance-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p129_B1",
+      "path": "sources/p129_B1.png",
+      "printed_page": 129,
+      "pdf_page_1based": 132,
+      "crop_pdf_points": [
+        75,
+        528,
+        505,
+        786
+      ],
+      "render_scale": 4,
+      "sha256": "17daa36f90a93279592b94b2e676fcb73a96149558e1bb08a584d5e918457be6"
+    },
+    {
+      "id": "p129_heading",
+      "path": "sources/p129_heading.png",
+      "printed_page": 129,
+      "pdf_page_1based": 132,
+      "crop_pdf_points": [
+        75,
+        223,
+        505,
+        248
+      ],
+      "render_scale": 4,
+      "sha256": "22830fc37cbaa0b306add8551bc3d4669e0c7cf33d0c8db21b1d538bdb75e5c7"
+    },
+    {
+      "id": "p133_A2",
+      "path": "sources/p133_A2.png",
+      "printed_page": 133,
+      "pdf_page_1based": 136,
+      "crop_pdf_points": [
+        75,
+        205,
+        505,
+        502
+      ],
+      "render_scale": 4,
+      "sha256": "b1706b9f10bd65ab1f96370d4c1e68f7876facde2d8506d09f0b3c05779a1692"
+    },
+    {
+      "id": "p133_A3",
+      "path": "sources/p133_A3.png",
+      "printed_page": 133,
+      "pdf_page_1based": 136,
+      "crop_pdf_points": [
+        75,
+        513,
+        505,
+        782
+      ],
+      "render_scale": 4,
+      "sha256": "bc067becc92c2d2dcece9ae2922e14d61f4196fec1dd890944fae282a1e1e5ee"
+    },
+    {
+      "id": "p134_A4",
+      "path": "sources/p134_A4.png",
+      "printed_page": 134,
+      "pdf_page_1based": 137,
+      "crop_pdf_points": [
+        55,
+        166,
+        535,
+        490
+      ],
+      "render_scale": 4,
+      "sha256": "06961ecabc622045539c97edd0240314e18357c2a65457f03f5a010f1abea4fb"
+    }
+  ],
+  "records": [
+    {
+      "id": "p129_B1",
+      "printed_page": 129,
+      "pdf_page_1based": 132,
+      "source_section": "B1",
+      "message_part": 1,
+      "message_total_parts": 4,
+      "source_image_id": "p129_B1",
+      "key_id": "Nov4-6",
+      "page_heading": "5th NOVEMBER, 1918. (Continued)",
+      "common_receipt_header": "NKJ FUER COS v LP (7.18 a.m., November 6th)",
+      "common_origin_header": "2400 (5/11) 4 TEILE",
+      "header": "B) NKJ FUER COS v LP (7.18 a.m., November 6th); 2400 (5/11) 4 TEILE; 1 TL RICHI-398",
+      "source_rows": [
+        "FFAVF FAXAX GDXFA DAFGX GDAGD XAFAX AFFDV XAXGA",
+        "AXAFA DFXFG VAVVF GFGFA XAAVX AXAAX VGFXV GGVVG",
+        "FAFXX AVVFX XFAFV XAAXA VXXXV VVFFG AAAGV AFDXA",
+        "GAFXX DXVVA VFDGF XVFX- GAGVA XAAVX VFXVA XGXXV",
+        "AXFDD DAFGF GDVDD XFXFA AVXAG FAADA AAFAX XDAVA",
+        "XXXXF FXGXF VGVXV XAVXD FXADF ADFXX FVGFD VAFAV",
+        "GDAGA AFFGV FFGXG XGFFD VXAAX VDXVA FGFDX CFGVV",
+        "VDDGD AXFVG AGFXV FFFDA VFVXV XVFAX AVFAV ADFXF",
+        "GVXFX FAXXG AVXAF GXVXA VADXX AGDXX FXAVA DVFVV",
+        "AXVAV XAFAX XXXFD DFGFV FGFVD FDAFA XDVAX VFA"
+      ],
+      "source_slots": 398,
+      "advertised_length": 398,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "?UXMXRMX30NRX228XFUERSELBSTVERPFLEGERDORTFESTGESETETEBEKOESTBGUNGSGELDERSINUZUHOCHUNDMUESSENAUCHFUERRUECKLIEGENDEZEITBEANSTANDETWERDENXSCHWEDISCHEGEVUE?RNISSEKOENNENNICHTALSSASSGEBENDANGESEHENWERDENX",
+      "readable_candidate": "ZUXMXRMX30NRX228XFUERSELBSTVERPFLEGERDORTFESTGESETZTEBEKOESTIGUNGSGELDERSINDZUHOCHUNDMUESSENAUCHFUERRUECKLIEGENDEZEITBEANSTANDETWERDENXSCHWEDISCHEGEBUEHRNISSEKOENNENNICHTALSMASSGEBENDANGESEHENWERDENX",
+      "notes": [
+        "The literal source length equals the advertised length. No source coordinate is inserted or deleted.",
+        "The printed dash in XVFX- and invalid C in CFGVV are retained literally and modeled as erasures.",
+        "The first two words and all reference symbols remain separate from the expanded interpretation; RM30 and NR228 are not normalized.",
+        "Earlier OCR gave DXVVA an extra leading uncertain slot; the source group is five observed letters."
+      ]
+    },
+    {
+      "id": "p133_A2",
+      "printed_page": 133,
+      "pdf_page_1based": 136,
+      "source_section": "A2",
+      "message_part": 2,
+      "message_total_parts": 4,
+      "source_image_id": "p133_A2",
+      "key_id": "Nov4-6",
+      "page_heading": "5th NOVEMBER, 1918. (Continued)",
+      "common_receipt_header": "NKJ FUER COS v LP (7.18 a.m., November 6th)",
+      "common_origin_header": "2400 (5/11) 4 TEILE",
+      "header": "A) NKJ FUER COS v LP (7.18 a.m., November 6th); 2400 (5/11) 4 TEILE; 2 TL RICHI-452",
+      "source_rows": [
+        "AFXVV VFFAA VFAXX VXDVV XXFFX DXXAA AFGXF XXDAF",
+        "GXFFA VADAA XVXAG DAVFA AAAFX AVDAA XXFVA XXFVF",
+        "FAXXV AVXXG XXVVF VAVXA AXAXF AXXVD XFFFX VVAGV",
+        "FVDXV DAVVF VDXFV GFAFA FXDVV XVAXV DXFAD AXFFA",
+        "GVXXA VGVAA VXAFX FAXXV FVFDV FGAVF DAXAX VAAFA",
+        "VVVXF XFFGA VAVAF GAAVA VXFXF FDAGG FXAVG VDAFG",
+        "XXDXV XVFDV FXXAV AVGXA FXFXV AGFVV FXGVG VAXGL",
+        "FFXFA DXXXD AXAVG FFDVA AVAFG XFVAV GXVAA DADFG",
+        "GVVAF AAAFV VAVGA DAVFA DVXGF DAVVF FVDFD VXXDF",
+        "AXAXA DAGAX ADVAA VXXXV VXAVA VFDAF AVVFA FFFVF",
+        "AXADX DVXFV AFVXA VAFFX GVFVX XGXAF FXXDF DVFGA",
+        "XDGXG FXXVX VA"
+      ],
+      "source_slots": 452,
+      "advertised_length": 452,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "HOHESELBSTBEKOESTIGUNGSGELDERBILDENDAUERNDERANREIZSICHDERALSREGELGEDACHTENNATURALVERPFLEGUNGZUENTZIEHENXHERABSETZ?NGDAHERDNBEDINGTERFORDERLICHXBEINEUFESTSETZUNGSINDDIEFUEREINEFELDKOSTPORTIONAUFZUWENDENDENPREISEZUGRUNDEZDLEGENX",
+      "readable_candidate": "HOHESELBSTBEKOESTIGUNGSGELDERBILDENDAUERNDENANREIZSICHDERALSREGELGEDACHTENNATURALVERPFLEGUNGZUENTZIEHENXHERABSETZUNGDAHERUNBEDINGTERFORDERLICHXBEINEUFESTSETZUNGSINDDIEFUEREINEFELDKOSTPORTIONAUFZUWENDENDENPREISEZUGRUNDEZULEGENX",
+      "notes": [
+        "The literal source length equals the advertised length. No source coordinate is inserted or deleted.",
+        "The first-row group VXDVV has five observed letters, not the six-letter OCR VXADVV.",
+        "The last group of row7 is VAXGL, with literal invalid L; the candidate fills that slot with D.",
+        "BEI NEUFESTSETZUNG is fully observed after source correction; the candidate does not invent this phrase."
+      ]
+    },
+    {
+      "id": "p133_A3",
+      "printed_page": 133,
+      "pdf_page_1based": 136,
+      "source_section": "A3",
+      "message_part": 3,
+      "message_total_parts": 4,
+      "source_image_id": "p133_A3",
+      "key_id": "Nov4-6",
+      "page_heading": "5th NOVEMBER, 1918. (Continued)",
+      "common_receipt_header": "NKJ FUER COS v LP (7.18 a.m., November 6th)",
+      "common_origin_header": "2400 (5/11) 4 TEILE",
+      "header": "A) NKJ FUER COS v LP (7.18 a.m., November 6th); 2400 (5/11) 4 TEILE; 3 TL RICHI-486",
+      "source_rows": [
+        "VAGAG XXDXF AVAAA VAVAX XAVAA XAXAF XFDXG VADXX",
+        "XXVVF AGDGF XVXVF AXXXD GFVFV FXGAD XDXXA VAFXD",
+        "DAGAF VVAVF DAVFX AFAAA XGXXG AXAVX DFFFX DAXVX",
+        "XVGVV DAXGA FXAVA DAAVA GVVXX XFFFV VAAGX GXXVV",
+        "AGVXX XFXVX FXAVA DDVFV VXADX DAFGF FXAVF VVFGF",
+        "VAXXV GXVXX AADAF GDFFA XAVAX AAAVF VAFFV XDDVA",
+        "XGDDF XVADG VFXVF AXXVV AFAFD XXXVF VFXAX FFGVV",
+        "FXFAV AAAVV AFAFA GAVVX VFGFX XAAVA GFXFG FVVXV",
+        "XFAXV DVVXF GXDVF FVXGX VXGAF GDAFA XXXGF DXGXA",
+        "AVGGF AVVDG FDFDF VXVFA GXGFF VADVG AVGDF XDAXV",
+        "XAVFA DXXXA XFXFV AAVXF FXVXD DAXAD VXXXA XDXAF",
+        "XVDXA FAXXA VAGXA FAXGX VFAXF FAVVX XVAVD AAXGX",
+        "GXFVD A"
+      ],
+      "source_slots": 486,
+      "advertised_length": 486,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "NATURALVERPFLEGUNGMUSSREGELBILDENXDIESEDURCHGEMEINSAMENEINKAUFXUMPREISENICHTUNNOETIGINHOEHEZUTREIBENUNDDURCHEINRICHTUNGDEUTSCHERSPEISEHAEUSERNACHMOEGLICHKEITFOERDERNSODASSSELBSTVERPFLEGUNGAUFTATSAECHLICHNICHTZUUMGEHENDEFAELLEBESCHRAENKTBLEIBTX",
+      "readable_candidate": "NATURALVERPFLEGUNGMUSSREGELBILDENXDIESEDURCHGEMEINSAMENEINKAUFXUMPREISENICHTUNNOETIGINHOEHEZUTREIBENUNDDURCHEINRICHTUNGDEUTSCHERSPEISEHAEUSERNACHMOEGLICHKEITFOERDERNSODASSSELBSTVERPFLEGUNGAUFTATSAECHLICHNICHTZUUMGEHENDEFAELLEBESCHRAENKTBLEIBTX",
+      "notes": [
+        "The literal source length equals the advertised length. No source coordinate is inserted or deleted.",
+        "The first group is exactly VAGAG, not the seven-slot OCR VAGAG??.",
+        "The complete final GXFVD A is visually present and was omitted by earlier OCR.",
+        "All 243 plaintext letters are fixed by the source and unchanged key, with zero observed-coordinate substitutions or erasure fills."
+      ]
+    },
+    {
+      "id": "p134_A4",
+      "printed_page": 134,
+      "pdf_page_1based": 137,
+      "source_section": "A4",
+      "message_part": 4,
+      "message_total_parts": 4,
+      "source_image_id": "p134_A4",
+      "key_id": "Nov4-6",
+      "page_heading": "5th NOVEMBER, 1918. (Continued)",
+      "common_receipt_header": "NKJ FUER COS v LP (7.18 a.m., November 6th)",
+      "common_origin_header": "2400 (5/11) 4 TEILE",
+      "header": "A) NKJ FUER COS v LP (7.18 a.m., November 6th); 2400 (5/11) 4 TEILE; 4 TL RICHI-424",
+      "source_rows": [
+        "FVFFG FAVFX GFAXG FXFGV GVAAV VVFXV AXGXA VFXDV",
+        "GAAXA AXFDA AXAXA XVAXF AVFVD VXVAF VXAFV XVAFX",
+        "VVFGX VFGAG XXVVV GFGVA XAVXV AVFVF AXVAV AFXVF",
+        "FXDDV XGGXA VAVDV DVGXD AAXXF VXAFV XDAAA VAFXA",
+        "AVXAA XVVGX XVDAV AFXVG XADXV FFVDF AAFAF AVXVV",
+        "DAVAG VXAXA DAXGG AFXXA DAGGG XFVXV FFVXF DVVGX",
+        "DGXXF XFXAX FGXGX AFXVA XADFD AVVVA XAFDX XXFFG",
+        "FVVVF XDFFA VFVFV AXDAX AAFAX FDVAA FVXDF VXFDA",
+        "XFDDF XAXFF XDVXF FAXXF GAAFA DAVDF VXAXD XXFAA",
+        "VAXFA FDXFA FXGFD ADGXA VAVXA XFVXG VVXAF XFDVF",
+        "VGXAF AXFFA VVXDX AVXVF DAFA"
+      ],
+      "source_slots": 424,
+      "advertised_length": 424,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "BALDIGEMITTEILUNGDESDORTSEITSVERANLASSTENERBETEN0BEANTRAGTETEUERUNGSZULAGEKANNNICHTGEWAEHRTWERDENXZULAGEREGELUNGMUSSNACHPASCHEXRMX2XVORSCHRIFTERFOLGENXKRIEGSMINISTERIUMARMEEVERWALTUNGSDEPARTEMENTXNRX1235X18XGXBX1",
+      "readable_candidate": "BALDIGEMITTEILUNGDESDORTSEITSVERANLASSTENERBETENXBEANTRAGTETEUERUNGSZULAGEKANNNICHTGEWAEHRTWERDENXZULAGEREGELUNGMUSSNACHPASCHEXRMX2XVORSCHRIFTERFOLGENXKRIEGSMINISTERIUMARMEEVERWALTUNGSDEPARTEMENTXNRX1235X18XGXBX1",
+      "notes": [
+        "The literal source length equals the advertised length. No source coordinate is inserted or deleted.",
+        "The candidate changes raw0 between ERBETEN and BEANTRAGTE to X with one explicitly priced coordinate substitution.",
+        "PASCHE, RM2 and the entire NR1235X18XGXB X1 reference remain unchanged. PASCHE is not expanded into an unverified bibliographic identity."
+      ]
+    }
+  ],
+  "cross_page_assembly": {
+    "basis": "Explicit matching receipt and origin headers, total4 parts, part numbers1–4, and printed Continued annotations. The pages are not consecutive; physical adjacency alone is not assumed.",
+    "record_order": [
+      "p129_B1",
+      "p133_A2",
+      "p133_A3",
+      "p134_A4"
+    ],
+    "shared_receipt": "NKJ FUER COS v LP (7.18 a.m., November 6th)",
+    "shared_origin": "2400 (5/11) 4 TEILE"
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "No explicit allowance-message body discussion was located in the bounded text check for BEKOESTIGUNG, SELBSTVERPFLEGUNG, NATURALVERPFLEGUNG, TEUERUNG, PASCHE and allowances."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "No explicit allowance-message body discussion was located in the bounded text check for BEKOESTIGUNG, SELBSTVERPFLEGUNG, NATURALVERPFLEGUNG, TEUERUNG, PASCHE and allowances."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No allowance-message body was located in the cached 55-comment snapshot using German allowance/ration/Pasche terms."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p129_ocr_block4",
+        "p129_ocr_block5",
+        "p133_ocr_block1",
+        "p133_ocr_block2",
+        "p134_ocr_block1"
+      ],
+      "frozen_prior_candidate_records": [
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p133_ocr_block1",
+          "key": "Nov4-6",
+          "score": -4.287777641841344,
+          "plaintext": "HOHESELBSTBEKOESTIGUNGSGELDERBILDENDAUERND?RANREIZSICHDERALSREGELGEDACHTENNATURALVERPFLEGUNGZUENTZIEHENXHERABSETZ?NGD??ERDNBEDINGTERFORDERLICHXBEINEFFESTSETXUNGSINDDIEFUEREINEFELDKOSTPORTIONAUFZUWENDENDENPREISEZUGRUNDEZDLEGENX"
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p133_ocr_block2",
+          "key": "Nov4-6",
+          "score": -9.153061980501228,
+          "plaintext": "4GKUL1DVFKJ7HA19NT34HIRMEWM9LFYGSKN8THTWCETRX7?ZRFMGCY?SEIBJLKIM5KINDGRNEWL?0HM9DZ8NZA4RLR94EWUK9ZNPOCITTJL74M4N36RMRG9NL1131CJTR0ALEMFIDD4T0HNGIRX4IND64DZ4JS0R9ESL9GNEVRE5H1RNLT3MGKTHG78KVLLY148QEWNF6DWWS4T4?HXETR01LZIF4?8URTMRSMEE1M8NBFIN3"
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p134_ocr_block1",
+          "key": "Nov4-6",
+          "score": -4.444417384775673,
+          "plaintext": "BALDIGEMITTEILUNGDESDORTSEITSVERANLASSTENERBETEN0BEANTRAGTETEUERUNGSZULAGEKANNNICHTGEWAEHRTWERDENXZULAGEREGELUNGMUSSNACHPASCHEXRMX2XVORSCHRIFTERFOLGENXKRIEGSMINISTER?UMARMEEVERWALTUNGSDEPARTEMENTXNRX1235X18XGXBX1"
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p129_ocr_block4+p129_ocr_block5",
+          "key": "Nov4-6",
+          "score": -4.4440598475104345,
+          "plaintext": "?UXMXRMX30NRX228XFUERSELBSTVERPFLEGERDORTFESTGESETETEBEKOESTBG?NGSGELDERSINUZUHOCHUNDMUESSENAUCHFUERRUECKLIEGENDEZEITBEANSTANDETWERDENXSCHWEDISCHEGEVUE?RNISSEKOENNENNICHTALSSASSGEBENDANGESEHENWERDENX"
+        }
+      ],
+      "interpretation": "Parts1,2,4 already had readable unreviewed OCR-derived candidates. The old part3 candidate used482 coordinates and was unreadable; the source has486. This edition restores that source geometry and certifies every reading, without claiming first historical decipherment."
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schema": "adfgvx-liman-troop-reports-input-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 222,
+    "pdf_page_1based": 225,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "crop": "sources/childs_p222_A.png",
+    "crop_sha256": "b8dcecd88167f84b7cac917ec8e3d8c4052d5f125e45f0679e9a0ddff53dbd0f",
+    "crop_rectangle_pdf_points": [
+      62,
+      205,
+      535,
+      402
+    ],
+    "crop_scale": 3.1,
+    "page_heading_literal": "26th NOVEMBER, 1918.",
+    "header_literal": "A) XY v LP (02.56 a.m., December 18th, G.H.Q.American E.F.); 0900 (26/11) 2 TEILE",
+    "date_scope": "The page heading and origin-time line say November 26, while the parenthetical line says December 18. Both are preserved; the edition does not resolve the chronology."
+  },
+  "key": {
+    "id": "Nov25-28",
+    "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "column_rank_order": [
+      21,
+      9,
+      6,
+      14,
+      10,
+      20,
+      1,
+      16,
+      18,
+      7,
+      15,
+      4,
+      11,
+      22,
+      5,
+      17,
+      23,
+      2,
+      12,
+      8,
+      19,
+      3,
+      13
+    ]
+  },
+  "prior_credit": {
+    "key_recovery": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker",
+    "doi": "10.1080/01611194.2016.1169461",
+    "bounded_body_check": "No explicit p222/Liman/Haidarpascha body example was located in the inspected author paper, supplementary canonical readings, or current catalog. This is not an exhaustive priority search.",
+    "earlier_computations": [
+      {
+        "record": "p222_A1",
+        "source": "/tmp/cross_key_plaintexts.json",
+        "block": "p222_ocr_block1",
+        "layer": "unreviewed OCR-derived candidate"
+      },
+      {
+        "record": "p222_A2",
+        "source": "experiments/p73_new_methods/retrieval_inputs.json",
+        "block": "p222_ocr_block2",
+        "layer": "unreviewed OCR-derived candidate"
+      }
+    ],
+    "contribution": "Visually checked source edition, exact coordinate repair costs, unchanged raw labels, and separate lexical interpretation; not first computation of both plaintext candidates or a new period-key recovery."
+  },
+  "records": [
+    {
+      "id": "p222_A1",
+      "source_rows": [
+        "FAGDG XADAD FFFDD XFGGX XDFVF FGDDF DGFXG FFVFG",
+        "AFVFA DFVXD DDXFX GGXVD DXDFD AFFFF GXFDD DDFGF",
+        "DGFGX DFVXG AVAAG AFGXA FFAXV FDGFA DGFGV VDVXX",
+        "GDDDA DXAFA ADVDF DFXVF DXXFF FVXAA FFFVD DDDXV",
+        "DGGDF ADGDX AFFDD DAXDF AAVDV DXFFD XDDAX FXFDA",
+        "GAAXV DVGDF AFFX"
+      ],
+      "advertised_length": 214,
+      "source_slot_count": 214,
+      "expected_raw": "GENERALVONLIMANXXBITTEREGELMAESSIG9EDEWOCHEABTRANSPORTESTAERKEUNDZUSTANDDERBEIKONSTANTINOPELUNDHAIDARPASCHA",
+      "editorial_text": "GENERALVONLIMANXXBITTEREGELMAESSIG9EDEWOCHEABTRANSPORTESTAERKEUNDZUSTANDDERBEIKONSTANTINOPELUNDHAIDARPASCHA"
+    },
+    {
+      "id": "p222_A2",
+      "source_rows": [
+        "FFXAF AXXXG XGFDF VADFD XDXFX VFDFD FFFDF AFXDD",
+        "GXXFV GFFDX VFAGV DVGVX FAAFX VFGVA FDGVX FDDGG",
+        "DGFFX VAGDX DFVAX XAAXD GVXFX AXVXD FVDXF GAGAX",
+        "DADFV FFDVG FGVFV FVDVF XDAVF XVVXD ADFDX DDFVF",
+        "ADFDG VXFAF FDFAF AFAXA XDXXX GGDDA FVGFF VGDXX"
+      ],
+      "advertised_length": 200,
+      "source_slot_count": 200,
+      "expected_raw": "BEFINDLICHENTRUPPENUNDBESOXDEREWUENSCHEMELDENXXBITTEEMPFANGSBESTAETIGUNGXXOHLXROEMXJAXJJ201XGEHXOPXX",
+      "editorial_text": "BEFINDLICHENTRUPPENUNDBESONDEREWUENSCHEMELDENXXBITTEEMPFANGSBESTAETIGUNGXXOHLXROEMXJAXJJ201XGEHXOPXX"
+    }
+  ],
+  "lexical_note": {
+    "raw_token": "9EDE",
+    "possible_intended_word": "JEDE",
+    "scope": "Optional lexical interpretation only. It is not applied to the baseline square or source, and a complete bijection would also have to reassign the old raw J cell. The independently edited p224 C1 has MA9OR under this same period square; both use raw 9 at VD.",
+    "other_package": "experiments/breslau_staff_transfer/",
+    "numeric_footer_retained": "ROEMXJAXJJ201"
+  }
+}

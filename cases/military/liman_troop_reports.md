@@ -1,0 +1,96 @@
+# Reports requested from General von Liman
+
+**Source edition and verification: icekylinx and GPT-6 Astra Pro.**
+
+This two-part telegram requests regular information about troops near
+Constantinople and Haidarpascha: their return transport, strength, condition
+and special requirements. It also requests acknowledgment. Almost the whole
+ordinary-language body is readable directly from the received coordinates.
+
+The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
+[printed p222, PDF p225](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
+The [preserved source image](../../experiments/liman_troop_reports/sources/childs_p222_A.png)
+shows the heading `26th NOVEMBER, 1918.`, followed by:
+
+```text
+A) XY v LP (02.56 a.m., December 18th, G.H.Q.American E.F.)
+0900 (26/11) 2 TEILE
+```
+
+The November heading and origin date and the December reception-line date
+are all retained. The edition does not resolve that chronological distinction.
+
+## A1: the requested reports
+
+The first part has exactly 214 valid coordinates, matching `RICHI-214`.
+Under the unchanged published `Nov25-28` square and ranks, its direct
+107-position reading is:
+
+```text
+GENERALVONLIMANXXBITTEREGELMAESSIG9EDEWOCHEABTRANSPORTESTAERKEUNDZUSTANDDERBEIKONSTANTINOPELUNDHAIDARPASCHA
+```
+
+There is **no source repair** in this part. In ordinary words, it addresses
+General von Liman and asks for regular reports on troop transport, strength
+and condition at the two named places. Reading `9EDE WOCHE` as *jede Woche*
+(every week) is a separate lexical interpretation.
+
+The raw `9` is at plaintext index 34, coordinate pair `VD`, supplied by
+received indices 114 and 189. The source-certified p224 C1 personnel order
+also has `MA9OR` at this same square cell; see the
+[separate staff-transfer edition](../people/breslau_staff_transfer.md). These two
+lexical contexts suggest an intended `J`, but this edition retains the
+published labels. Simply replacing `9` by `J` in the complete square would
+duplicate its existing `J`; a full historical interpretation must also
+account for the old `J` cell and the remaining labels.
+
+## A2: special requirements and acknowledgment
+
+The second part has exactly 200 valid coordinates, matching `RICHI-200`.
+Its direct reading is:
+
+```text
+BEFINDLICHENTRUPPENUNDBESOXDEREWUENSCHEMELDENXXBITTEEMPFANGSBESTAETIGUNGXXOHLXROEMXJAXJJ201XGEHXOPXX
+```
+
+One observed-coordinate substitution gives:
+
+```text
+BEFINDLICHENTRUPPENUNDBESONDEREWUENSCHEMELDENXXBITTEEMPFANGSBESTAETIGUNGXXOHLXROEMXJAXJJ201XGEHXOPXX
+```
+
+The change is received index **132**, printed group **27**, coordinate **3**:
+`V` to `A`. It replaces the `X` in `BESOXDERE` with `N`. The text then asks
+for reports about the troops present and any special requirements, followed
+by a request to acknowledge receipt. The footer `OHL ROEM JA JJ201 GEH OP`
+retains every raw label; no order number or numeral interpretation is supplied.
+
+## Evidence, scope and credit
+
+| Quantity | Count |
+| --- | ---: |
+| Physical source parts | 2 |
+| Received valid coordinates | 414 |
+| Raw positions fixed as published-square labels | 207 / 207 |
+| Observed-coordinate substitutions | 1 |
+| Erasure fills, insertions, deletions or block moves | 0 |
+| Changes to the published square | 0 |
+
+The [inputs](../../experiments/liman_troop_reports/inputs.json) retain the manual
+rows, exact header and image hash. The
+[certificate](../../experiments/liman_troop_reports/certificates.json) records
+all source-position pairs, the one repair and every untouched numeral or
+`J/Q/Y` field. Both raw readings and both edition readings reencrypt exactly.
+The numerical count of fixed labels does not certify the original values
+of unresolved numeral or rare-letter labels.
+
+The period key is credited to **George Lasry, Ingo Niebel, Nils Kopal and
+Arno Wacker**, [2016, DOI 10.1080/01611194.2016.1169461](https://doi.org/10.1080/01611194.2016.1169461).
+Both bodies already existed as unreviewed OCR-derived candidates; A2 is
+also in the frozen p73 retrieval corpus. No explicit p222/Liman body example
+was located in the bounded author-paper, supplementary-reading and catalog
+check. This source edition makes no universal first-decipherment claim.
+
+```sh
+python experiments/liman_troop_reports/verify.py --verify
+```

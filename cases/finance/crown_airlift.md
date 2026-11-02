@@ -1,0 +1,123 @@
+# Crown airlift to Kronstadt and Hermannstadt
+
+**Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
+printed p174, PDF p177, A1–A3. **Edition:** icekylinx and GPT-6 Astra Pro.
+The source is a three-part message dated 10 November 1918, with header
+`--- v ZO'N (07.24 p.m., November 10th); 17.50 3 TLE`.
+
+The message describes an urgent shortage of crowns and requests daily
+delivery of one million crowns by ordinary aircraft, alternately to
+Kronstadt and Hermannstadt. An explicitly interrupted final part can be
+read as requesting small-denomination notes. This is evidence of a
+request, not proof of completed flights or receipt of cash.
+
+The period square and transposition are unchanged. The source images,
+literal rows, every coordinate-to-plaintext map and exact candidate
+edits are in [the experiment](../../experiments/crown_airlift/README.md).
+
+## p174 A1
+
+The source advertises and prints **146 coordinates**. The raw 73-character
+plaintext requires no repair:
+
+```text
+ANXOHLXOPXXKRONENBEDARFSEHRDRINGENDXBITTETAEGLICHMITGEWOEHNLICHEMFLUGZEUG
+```
+
+With editorial spacing:
+
+> An OHL, Op. Kronenbedarf sehr dringend. Bitte täglich mit gewöhnlichem Flugzeug …
+
+## p174 A2
+
+The source advertises and prints **146 slots**. One printed glyph is `C`,
+outside the ADFGVX coordinate alphabet, and is retained as an erasure in
+the model. The raw reading is:
+
+```text
+EINEMILLIONKRONENABWECHSWLNDNACHXKRONSTADTXUXHERMANNSTADTXFELDKR?EGSKASSE
+```
+
+The explicit ordinary-word candidate is:
+
+```text
+EINEMILLIONKRONENABWECHSELNDNACHXKRONSTADTXUXHERMANNSTADTXFELDKRIEGSKASSE
+```
+
+This changes observed source coordinate **103 from D to X**, repairing
+`ABWECHSWLND`, and fills the invalid printed `C` at source index **80**
+with **D**, producing the missing `I` in `FELDKRIEGSKASSE`. Indices are
+zero-based. The candidate encrypts exactly to the certified repaired
+ciphertext; no coordinate is inserted or removed in this part.
+
+With editorial spacing, continuing A1:
+
+> … eine Million Kronen abwechselnd nach Kronstadt u. Hermannstadt. Feldkriegskasse …
+
+The exact unpunctuated office word at the boundary with A3 is retained;
+the edition does not invent a missing verb or office address.
+
+## p174 A3
+
+The source indicator is **RICHI-98**, but only **79 coordinates** are
+printed, followed by **“Did not finish.”** The second line begins with a
+complete `GAVGX` group that earlier OCR omitted. Appending 19 absent
+coordinates gives the declared source model and raw 49-position reading:
+
+```text
+INM???LICHS???EINEN???EINEN???DENLX???1A4A1????OP
+```
+
+The first 33 positions admit the ordinary-word candidate:
+
+```text
+INMOEGLICHSTKLEINENSCHEINENSENDENLX???1A4A1????OP
+```
+
+With editorial spacing, its readable prefix is:
+
+> In möglichst kleinen Scheinen senden …
+
+The candidate fills 12 absent coordinates and makes **zero substitutions
+to the 79 observed coordinates**. Seven absent coordinates remain
+unfilled. In particular, the observed `L` immediately after `SENDEN` is
+not silently changed to a separator, and `1A4A1` is not converted into a
+date or reference number.
+
+Ordinary words alone leave a geometry ambiguity. Screening all 80
+positions for one gap of 19 coordinates, while masking the last 16
+plaintext positions, finds these three zero-substitution fits:
+
+| Gap before source index | Raw reading |
+|---:|---|
+| 77 | `INM???LICHS???EINEN???EINEN????ENLXO???A4A1????OP` |
+| 78 | `INM???LICHS???EINEN???EINEN???DENLX????A4A1????OP` |
+| 79 | `INM???LICHS???EINEN???EINEN???DENLX???1A4A1????OP` |
+
+All three support the same ordinary prefix without observed-coordinate
+changes. The primary gap at 79 follows the source interruption, rather
+than selecting a plausible-looking reference field. Every tied fit is
+retained in the certificate. The absent letters remain an editorial
+candidate, even when the candidate fits all observed pairs exactly.
+
+## Attribution and reproducibility
+
+The published Nov10–12 square and ranks supply the cryptographic key.
+The first two bodies also predate this edition as unreviewed repository
+OCR-derived screen results, now frozen with their original hashes.
+This edition adds visual source correction, a documented reconstruction
+of the interrupted third part and exact repair costs. Bounded checks of
+the Lasry et al. paper, dissertation chapter and cached comment thread
+did not locate an explicit discussion of this message; that does not
+establish historical priority.
+
+The three physical records contain **371 source slots**, of which **370**
+are valid coordinates. Their declared models contain **195 plaintext
+positions**, with **175 fixed raw positions** and **188 fixed positions**
+after the explicit candidates. These are source-edition counts, not 188
+newly discovered plaintext characters or new key assignments.
+
+```bash
+python experiments/crown_airlift/verify.py --verify
+python experiments/crown_airlift/verify.py --verify --pdf /path/to/childs.pdf
+```

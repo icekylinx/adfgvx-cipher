@@ -1,0 +1,354 @@
+{
+  "schema": "adfgvx-crown-airlift-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov10-12",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      9,
+      12,
+      7,
+      11,
+      3,
+      8,
+      16,
+      6,
+      14,
+      2,
+      10,
+      15,
+      5,
+      13,
+      1,
+      4
+    ],
+    "column_count": 16,
+    "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+    "square_rows": [
+      "4ARUT1",
+      "OIFSKN",
+      "3?BZPV",
+      "LD?JMX",
+      "CWHQ2E",
+      "?G0?Y?"
+    ],
+    "known_cell_count": 31,
+    "missing_plaintext_symbols": "56789",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 242,
+        "pdf_page_1based": 245,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "The historical appendix also labels this table December 1-3."
+    ],
+    "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+    "baseline_differences": [
+      {
+        "coordinate": "FD",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GF",
+        "baseline": "6",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "7",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XG",
+        "baseline": "8",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XX",
+        "baseline": "9",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+    "previously_published_completion": {
+      "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-02",
+      "comment": 26,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "FD",
+          "proposed": "5"
+        },
+        {
+          "row_column": "GF",
+          "proposed": "6"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "7"
+        },
+        {
+          "row_column": "XG",
+          "proposed": "8"
+        },
+        {
+          "row_column": "XX",
+          "proposed": "9"
+        }
+      ]
+    }
+  },
+  "source_images": [
+    {
+      "id": "p174_A1",
+      "path": "sources/p174_A1.png",
+      "printed_page": 174,
+      "pdf_page_1based": 177,
+      "crop_pdf_points": [
+        65,
+        150,
+        540,
+        270
+      ],
+      "render_scale": 4,
+      "sha256": "41af2f6f3beb2220dbcf262bb1c33cc326c4e3ff5ddbcf7a1bbb184a9d8e157e"
+    },
+    {
+      "id": "p174_A2",
+      "path": "sources/p174_A2.png",
+      "printed_page": 174,
+      "pdf_page_1based": 177,
+      "crop_pdf_points": [
+        85,
+        277,
+        540,
+        337
+      ],
+      "render_scale": 4,
+      "sha256": "48970e7b8bf170703b8951d4e741db766da8b06ffede4cab2dd6e3b677524fc6"
+    },
+    {
+      "id": "p174_A3",
+      "path": "sources/p174_A3.png",
+      "printed_page": 174,
+      "pdf_page_1based": 177,
+      "crop_pdf_points": [
+        85,
+        345,
+        540,
+        390
+      ],
+      "render_scale": 4,
+      "sha256": "8e7228e84c52aca11133d7f55c4028cb8fc8bf337b82b36f140adb534fe36775"
+    }
+  ],
+  "records": [
+    {
+      "id": "p174_A1",
+      "printed_page": 174,
+      "pdf_page_1based": 177,
+      "source_section": "A1",
+      "source_image_id": "p174_A1",
+      "key_id": "Nov10-12",
+      "page_heading": "10th NOVEMBER, 1918.",
+      "header": "A) --- v ZO'N (07.24 p.m., November 10th); 17.50 3 TLE; 1 TL RICHI-146",
+      "source_rows": [
+        "DVDXA VDVAF FDFFD DDDGG VAGAD DGAXG DVAAX GGDDD",
+        "ADVVV AVDDX XVAGD GFVDA GVDXX XFDDD XAAFD VVVVV",
+        "GXGDA DDGVV FXXFF XVVFF DVXXX XFXVD XXFXV DDFXV",
+        "AAAFX XDXAA FDDAX AGDDG GGVAG A"
+      ],
+      "source_slots": 146,
+      "advertised_length": 146,
+      "source_annotation": null,
+      "model": {
+        "kind": "identity",
+        "missing_tail_coordinates": 0
+      },
+      "expected_raw": "ANXOHLXOPXXKRONENBEDARFSEHRDRINGENDXBITTETAEGLICHMITGEWOEHNLICHEMFLUGZEUG",
+      "readable_candidate": "ANXOHLXOPXXKRONENBEDARFSEHRDRINGENDXBITTETAEGLICHMITGEWOEHNLICHEMFLUGZEUG",
+      "notes": [
+        "The source is fully observed; its plaintext requires no coordinate repair."
+      ]
+    },
+    {
+      "id": "p174_A2",
+      "printed_page": 174,
+      "pdf_page_1based": 177,
+      "source_section": "A2",
+      "source_image_id": "p174_A2",
+      "key_id": "Nov10-12",
+      "page_heading": "10th NOVEMBER, 1918.",
+      "header": "A) --- v ZO'N (07.24 p.m., November 10th); 17.50 3 TLE; 2 TL RICHI-146",
+      "source_rows": [
+        "GVDVA AGADV FXXXX GAVDD FDAGD DXAXG FDFDF GGDVV",
+        "AVADD XVDDA GXXGD DAGDA AGVXX FXFXX FDVDD VGGGA",
+        "CVDDV ADVAG ADADA VVDXX XDXDX DVVDX AXFAV XDVGG",
+        "AVDDG DGDDA ADGFV DDVDV GDADV D"
+      ],
+      "source_slots": 146,
+      "advertised_length": 146,
+      "source_annotation": null,
+      "model": {
+        "kind": "identity",
+        "missing_tail_coordinates": 0
+      },
+      "expected_raw": "EINEMILLIONKRONENABWECHSWLNDNACHXKRONSTADTXUXHERMANNSTADTXFELDKR?EGSKASSE",
+      "readable_candidate": "EINEMILLIONKRONENABWECHSELNDNACHXKRONSTADTXUXHERMANNSTADTXFELDKRIEGSKASSE",
+      "notes": [
+        "The first glyph in the third row is printed C, outside the coordinate alphabet; it is retained literally and modeled as an erasure.",
+        "The ordinary candidate repairs ABWECHSWLND to ABWECHSELND and fills FELDKR?EGSKASSE to FELDKRIEGSKASSE."
+      ]
+    },
+    {
+      "id": "p174_A3",
+      "printed_page": 174,
+      "pdf_page_1based": 177,
+      "source_section": "A3",
+      "source_image_id": "p174_A3",
+      "key_id": "Nov10-12",
+      "page_heading": "10th NOVEMBER, 1918.",
+      "header": "A) --- v ZO'N (07.24 p.m., November 10th); 17.50 3 TLE; 3 TL RICHI-98",
+      "source_rows": [
+        "DDDVA DXVAX VAGDD DGADD DXDAG VVGAF AVGGA XDVVV",
+        "GAVGX XXXDV DDDAF XGVDG FXFXX ADDAX XXAVA XXDX"
+      ],
+      "source_slots": 79,
+      "advertised_length": 98,
+      "source_annotation": "Did not finish",
+      "model": {
+        "kind": "append_missing_tail",
+        "missing_tail_coordinates": 19
+      },
+      "expected_raw": "INM???LICHS???EINEN???EINEN???DENLX???1A4A1????OP",
+      "readable_candidate": "INMOEGLICHSTKLEINENSCHEINENSENDENLX???1A4A1????OP",
+      "notes": [
+        "The intact GAVGX group at the start of the second row was omitted by earlier OCR.",
+        "The printed 98-character indicator and explicit interruption support the declared 19-coordinate missing-tail model; this is a source model, not an assertion that every original coordinate was correctly copied.",
+        "The candidate fills only the first 33 ordinary-word positions. It retains the observed L after SENDEN and the entire received suffix.",
+        "An unconstrained one-gap screen has three zero-substitution fits, at gaps 77, 78, 79. All are retained separately; ordinary words alone do not prove the exact suffix geometry."
+      ]
+    }
+  ],
+  "a3_ordinary_word_prefix": "INMOEGLICHSTKLEINENSCHEINENSENDEN",
+  "a3_gap_screen": {
+    "missing_coordinate_count": 19,
+    "all_gap_positions_inclusive": [
+      0,
+      79
+    ],
+    "geometry_selection": "The primary gap 79 follows the printed interruption; the ordinary-word prefix alone ties gaps 77, 78, 79.",
+    "mask": "Only the first 33 letters are tested; all final 16 plaintext positions are masked."
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "No explicit p174 A crown-airlift body discussion was located in the bounded paper text check."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "No explicit p174 A crown-airlift body discussion was located in the bounded ADFGVX chapter check."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No p174, KRONE, KRONSTADT, HERMANNSTADT, FLUGZEUG, MILLION, KLEINEN or SCHEINEN occurrence was located in the cached 55-comment snapshot."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p174_ocr_block1",
+        "p174_ocr_block2",
+        "p174_ocr_block3",
+        "p174_ocr_block4"
+      ],
+      "source_corpus_note": "The first two bodies already occur in unreviewed OCR-derived decryption candidates. The A3 OCR loses the intact GAVGX group and the source interruption is not represented there.",
+      "unreviewed_retrieval": "experiments/p73_new_methods/retrieval_inputs.json",
+      "interpretation": "The edition adds visual transcription, a missing-tail reconstruction with tied alternative frames, and exact repair certificates. It makes no first historical decipherment claim.",
+      "frozen_prior_candidate_records": [
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p174_ocr_block1",
+          "key": "Nov10-12",
+          "score": -4.692735627719334,
+          "plaintext": "ANXOHLXOPXXKRONENBEDARFSEHRDRINGENDXBITTETAEGLICHMITGEWOEHNLICHEMFLUGZEUG"
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p174_ocr_block2+p174_ocr_block3",
+          "key": "Nov10-12",
+          "score": -4.799159996437304,
+          "plaintext": "EINEMILLIONKRONENABWECHSWLNDNACHXKRONSTADTXUXHERMANNSTADTXFELDKR?EGSKASSE"
+        }
+      ],
+      "retrieval_blocks": [
+        "p174_ocr_block1"
+      ]
+    }
+  }
+}

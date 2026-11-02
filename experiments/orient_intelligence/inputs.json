@@ -1,0 +1,526 @@
+{
+  "schema": "adfgvx-orient-intelligence-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov1-3",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      3,
+      16,
+      4,
+      15,
+      7,
+      12,
+      18,
+      6,
+      17,
+      8,
+      19,
+      1,
+      13,
+      10,
+      2,
+      14,
+      11,
+      9,
+      5
+    ],
+    "column_count": 19,
+    "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+    "square_rows": [
+      "UILOF9",
+      "RCZVSX",
+      "02G7QT",
+      "D8WNB5",
+      "JMHEKP",
+      "Y41A36"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 239,
+        "pdf_page_1based": 242,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p92_heading",
+      "path": "sources/p92_heading.png",
+      "printed_page": 92,
+      "pdf_page_1based": 95,
+      "crop_pdf_points": [
+        55,
+        145,
+        535,
+        162
+      ],
+      "render_scale": 4,
+      "sha256": "fa7152b3314075f4bbefd123b9287b098e9d795ef04a3c132670ed08b8e30ba8"
+    },
+    {
+      "id": "p92_B1",
+      "path": "sources/p92_B1.png",
+      "printed_page": 92,
+      "pdf_page_1based": 95,
+      "crop_pdf_points": [
+        55,
+        470,
+        535,
+        745
+      ],
+      "render_scale": 4,
+      "sha256": "118ec9a7fb5a53858f0bb60203854fe2530992c3f8864c29c506d45e3d661c37"
+    },
+    {
+      "id": "p93_heading",
+      "path": "sources/p93_heading.png",
+      "printed_page": 93,
+      "pdf_page_1based": 96,
+      "crop_pdf_points": [
+        75,
+        190,
+        520,
+        215
+      ],
+      "render_scale": 4,
+      "sha256": "4fcedd88ef9afcb26dc47a93ab19a8d0bbb519c93adfee26571bec9f05035499"
+    },
+    {
+      "id": "p93_A2",
+      "path": "sources/p93_A2.png",
+      "printed_page": 93,
+      "pdf_page_1based": 96,
+      "crop_pdf_points": [
+        75,
+        215,
+        520,
+        417
+      ],
+      "render_scale": 4,
+      "sha256": "8f0623cce42d344db04939b6a0320eb57699f345060e13c35d776aa4758f35d5"
+    },
+    {
+      "id": "p93_A3",
+      "path": "sources/p93_A3.png",
+      "printed_page": 93,
+      "pdf_page_1based": 96,
+      "crop_pdf_points": [
+        90,
+        426,
+        520,
+        621
+      ],
+      "render_scale": 4,
+      "sha256": "2e6459340503f6481fa1d84ff2fda62ce81e35c107af2ac4f8c19738ccee069f"
+    },
+    {
+      "id": "p93_A4",
+      "path": "sources/p93_A4.png",
+      "printed_page": 93,
+      "pdf_page_1based": 96,
+      "crop_pdf_points": [
+        90,
+        630,
+        520,
+        797
+      ],
+      "render_scale": 4,
+      "sha256": "5c44ea7b47291db31ce8153fe7bb314a1c2380b567a2c4584d950bc358d28fcd"
+    },
+    {
+      "id": "p94_A5",
+      "path": "sources/p94_A5.png",
+      "printed_page": 94,
+      "pdf_page_1based": 97,
+      "crop_pdf_points": [
+        50,
+        157,
+        525,
+        472
+      ],
+      "render_scale": 4,
+      "sha256": "e11d0e546cd9816a0b83f44ac3135067c70f557811f5b930fbe87cc13bd98fc3"
+    },
+    {
+      "id": "p94_A6",
+      "path": "sources/p94_A6.png",
+      "printed_page": 94,
+      "pdf_page_1based": 97,
+      "crop_pdf_points": [
+        60,
+        480,
+        525,
+        681
+      ],
+      "render_scale": 4,
+      "sha256": "0ae2ae69af916ea73325d5ac12bae32345e2a2df1eb4ffc40d8dbc63ddca247e"
+    }
+  ],
+  "records": [
+    {
+      "id": "p92_B1",
+      "printed_page": 92,
+      "pdf_page_1based": 95,
+      "source_section": "B1",
+      "message_part": 1,
+      "message_total_parts": 6,
+      "source_image_id": "p92_B1",
+      "key_id": "Nov1-3",
+      "page_heading": "1st NOVEMBER, 1918.",
+      "common_receipt_header": "OSM v LP (4.20 p.m., November 1st)",
+      "common_address_header": "SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O",
+      "common_origin_header": "(1/11) 0415 6 TEILE",
+      "header": "B) OSM v LP (4.20 p.m., November 1st); SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O; (1/11) 0415 6 TEILE; 1 TL RICHI-328",
+      "source_rows": [
+        "DVADF DGFVD VADGF VXVFG VGXDX DGVVV XVADG GFGAF",
+        "FDGGD VGADA XVVGA ADAAX DGVVD XDDAF GAVAD GVGVV",
+        "DGGDG VDXVA GXDDD XAADF AAAVA GAVVG DVXXA GDGXG",
+        "AXVAG ADFGX FDVXG GXGXA AXDFA GXDDD XGAXA AVAAG",
+        "ADXDA XFDGD GGDDF FGFGA DADAG GADXA ADVFF AAFGV",
+        "FGDDX DFFFA XAAFA XVVFG AVGXG DGVGG GFAVG AGGDD",
+        "XGAFD DDGXV DFVVF XDFDA AFDDA XDVGD DGDGA GGDDV",
+        "GAAVX DADXV DDGDF VAXFG AAFDA GVXFX DDGDG FXGFD",
+        "VDGAG FAG"
+      ],
+      "source_slots": 328,
+      "advertised_length": 328,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "DEUTSCQERNOOSMOHLZUGLFUERUNTERSTNOXBERICHTIGUNGZUVORTRXNOTORIENTVOMX30X10X2ABSATZSYRIENXMUSSAMSCHLUSSHEISSENXALSOANSCHEINENDX7XINDXDIVX60XGEMXDIVXODEDXFALLSX54XUSWX",
+      "readable_candidate": "DEUTSCHERNOOSMOHLZUGLFUERUNTERSTNOXBERICHTIGUNGZUVORTRXNOTORIENTVOMX30X10X2ABSATZSYRIENXMUSSAMSCHLUSSHEISSENXALSOANSCHEINENDX7XINDXDIVX60XGEMXDIVXODERXFALLSX54XUSWX",
+      "notes": [
+        "The literal source length equals the advertised length. No source coordinate is inserted or deleted.",
+        "The candidate repairs DEUTSCQER to DEUTSCHER, also witnessed by the unchanged clear header, and ODED to ODER.",
+        "The correction to the earlier30October note is carried as source text; the earlier note is not supplied or reconstructed here.",
+        "The division labels7,60,54 and the date30X10 remain unchanged."
+      ]
+    },
+    {
+      "id": "p93_A2",
+      "printed_page": 93,
+      "pdf_page_1based": 96,
+      "source_section": "A2",
+      "message_part": 2,
+      "message_total_parts": 6,
+      "source_image_id": "p93_A2",
+      "key_id": "Nov1-3",
+      "page_heading": "1st NOVEMBER, 1918.",
+      "common_receipt_header": "OSM v LP (4.20 p.m., November 1st)",
+      "common_address_header": "SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O",
+      "common_origin_header": "(1/11) 0415 6 TEILE",
+      "header": "A) OSM v LP (4.20 p.m., November 1st); SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O; (1/11) 0415 6 TEILE; 2 TL RICHI-252",
+      "source_rows": [
+        "GDFAD VAXGV DAADV DGGFG GVGDG DDGXA XGGDV FGAAG",
+        "AXFDD GVGFD FVVXA XDXVG AAAAF GGXVF FADGV GVGDX",
+        "DDDGD GAGFG DAADA GXDAF GDGDD VFGDG DVGFD VAFVG",
+        "FXDVG VAGDV XGFGF ADGGF AAFXF AADXG VDFAX FGVDF",
+        "XGGVG AGDDA DFVXX VGVGG FAXFG GAAVX AGXXV FAGFG",
+        "FFAFD AGGAG AFDDG AXDVG GGGVA DFFXG XAXFV FAFFX",
+        "GXAAX GXXAF GA"
+      ],
+      "source_slots": 252,
+      "advertised_length": 252,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "VORTRAGSNOTIZENX31X10X1918XORIENTROEMX1XSYRIENBEVORSTEHENDELANDUNGINALEXANDRETTENACHFLIEGERMELUNGVOM29X10FUHREINGELEITZUGVONX2",
+      "readable_candidate": "VORTRAGSNOTIZENX31X10X1918XORIENTROEMX1XSYRIENBEVORSTEHENDELANDUNGINALEXANDRETTENACHFLIEGERMELUNGVOM29X10FUHREINGELEITZUGVONX2",
+      "notes": [
+        "The literal source length equals the advertised length. No source coordinate is inserted or deleted.",
+        "Earlier OCR merged all three p93 parts into one977-slot block. The source explicitly marks independent252,394,328-coordinate parts totaling974. The edition follows those printed boundaries.",
+        "FLIEGERMELUNG is retained as received; the apparent omitted D is not inserted into a fixed-length ciphertext.",
+        "The complete126-position text re-encrypts to the unchanged source."
+      ]
+    },
+    {
+      "id": "p93_A3",
+      "printed_page": 93,
+      "pdf_page_1based": 96,
+      "source_section": "A3",
+      "message_part": 3,
+      "message_total_parts": 6,
+      "source_image_id": "p93_A3",
+      "key_id": "Nov1-3",
+      "page_heading": "1st NOVEMBER, 1918.",
+      "common_receipt_header": "OSM v LP (4.20 p.m., November 1st)",
+      "common_address_header": "SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O",
+      "common_origin_header": "(1/11) 0415 6 TEILE",
+      "header": "A) OSM v LP (4.20 p.m., November 1st); SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O; (1/11) 0415 6 TEILE; 3 TL RICHI-394",
+      "source_rows": [
+        "FVADG VXDFF GGGAG DVVFA FDGAX FXDGF GFGVG GDDGA",
+        "GFGVG VGVFV DDGAV DAAXG FFDXD AVXGG ADXAD ADGAG",
+        "VGVGX VAGAA XAGXF GGDDF FFFGG FDGDG GVAAV GFVVG",
+        "XDVXA AGXGD GXGFG VGDAV GXGGG VDVXV VVGGG ADDDX",
+        "DGDGD GGFFD GAGFA VGGAX FAFAG DGAGF GDFVA XXVAG",
+        "DDGXA VGVAD GVVXX DFVDD XFFVF GXGXG AAFFX GFGDA",
+        "VADVG GGGVX VXADA ADFFA GGAVX FGFVA DAAXD XFXAX",
+        "VGDGV DAAFA DADGX ADDVG DADVD VFGGG FFGDX DGVGD",
+        "XAAAA AVVAV XDGVX GXDGX ADGAX DGAGV GXVGX AAAVG",
+        "AXGFV FDFVG VAFDV DDAVF AVGVA GGVVG DAAF"
+      ],
+      "source_slots": 394,
+      "advertised_length": 394,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "GROESZERENTRANSPORTERN1KREUZERXUX4XTORPEDOBOOTENX40XKMXSUEDWESTLXALEXANDRETTEINFAHRTRICHTUNGALEXANDRETTEAUSZERDEMWURDEINDERBUCHTVONXARSUSXEINGROSZESSCHIFFBEOBACHTETNACHALLDENMELDUNGENDERLETZTENTAGE",
+      "readable_candidate": "GROESZERENTRANSPORTERN1KREUZERXUX4XTORPEDOBOOTENX40XKMXSUEDWESTLXALEXANDRETTEINFAHRTRICHTUNGALEXANDRETTEAUSZERDEMWURDEINDERBUCHTVONXARSUSXEINGROSZESSCHIFFBEOBACHTETNACHALLDENMELDUNGENDERLETZTENTAGE",
+      "notes": [
+        "The literal source length equals the advertised length. No source coordinate is inserted or deleted.",
+        "Earlier OCR merged all three p93 parts into one977-slot block. The source explicitly marks independent252,394,328-coordinate parts totaling974. The edition follows those printed boundaries.",
+        "The received SZ spellings GROESZEREN,AUSZERDEM,GROSZES remain unchanged.",
+        "XARSUSX is read with the surrounding X separators; no T or other geographic letter is inferred.",
+        "All197 positions are direct unchanged-source readings."
+      ]
+    },
+    {
+      "id": "p93_A4",
+      "printed_page": 93,
+      "pdf_page_1based": 96,
+      "source_section": "A4",
+      "message_part": 4,
+      "message_total_parts": 6,
+      "source_image_id": "p93_A4",
+      "key_id": "Nov1-3",
+      "page_heading": "1st NOVEMBER, 1918.",
+      "common_receipt_header": "OSM v LP (4.20 p.m., November 1st)",
+      "common_address_header": "SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O",
+      "common_origin_header": "(1/11) 0415 6 TEILE",
+      "header": "A) OSM v LP (4.20 p.m., November 1st); SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O; (1/11) 0415 6 TEILE; 4 TL RICHI-328",
+      "source_rows": [
+        "FVGVF AXXGF XVDVG FGDGV AGGFA DGGAF GVVAA GVFXV",
+        "VGAGD AVGDF DAVDA ADADD XFDGA FFGDG VDVVV AVVXG",
+        "DVVAA GGGDV DVFGV AVFVA DFADG FAGAG FXVAX XFVVG",
+        "AAAFG GDVGD AAGDG GGGFX DGDXG VVVAA DXDGV GGGAD",
+        "GGDAF VGADD ADGFV VXDAV VAGGV FGGGG VVVAD DXGGD",
+        "GFXXG GAVGD GVAAG FFXDA GGFGV DVDGG FAVDG DXAGD",
+        "DGFDD AVAFG DXFDG XGVDA AFDAA GAFVA VDAVX AVDAD",
+        "ADXVG AGVGG AVAVV GAGDV XADFA XAGVA DFXVA VGFAG",
+        "ADXVV GGV"
+      ],
+      "source_slots": 328,
+      "advertised_length": 328,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "UEBERGESTEIGERTENSCHIFFVERKEHRVORDERXSYRISCHENXKUESTEUNDDERTAETIGKEITDERAUFKLAERUNGSFAHRZEUGEVORXALEXANDRETTEXMUSSMITUNMITTELBARBEVORSTEHENDENLANDUNGSVERSUCHENINDER",
+      "readable_candidate": "UEBERGESTEIGERTENSCHIFFVERKEHRVORDERXSYRISCHENXKUESTEUNDDERTAETIGKEITDERAUFKLAERUNGSFAHRZEUGEVORXALEXANDRETTEXMUSSMITUNMITTELBARBEVORSTEHENDENLANDUNGSVERSUCHENINDER",
+      "notes": [
+        "The literal source length equals the advertised length. No source coordinate is inserted or deleted.",
+        "Earlier OCR merged all three p93 parts into one977-slot block. The source explicitly marks independent252,394,328-coordinate parts totaling974. The edition follows those printed boundaries.",
+        "The source groups VVVAD and DXGGD each have five observed letters, not the longer OCR forms.",
+        "All164 positions are direct unchanged-source readings."
+      ]
+    },
+    {
+      "id": "p94_A5",
+      "printed_page": 94,
+      "pdf_page_1based": 97,
+      "source_section": "A5",
+      "message_part": 5,
+      "message_total_parts": 6,
+      "source_image_id": "p94_A5",
+      "key_id": "Nov1-3",
+      "page_heading": "1st NOVEMBER, 1918.",
+      "common_receipt_header": "OSM v LP (4.20 p.m., November 1st)",
+      "common_address_header": "SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O",
+      "common_origin_header": "(1/11) 0415 6 TEILE",
+      "header": "A) OSM v LP (4.20 p.m., November 1st); SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O; (1/11) 0415 6 TEILE; 5 TL RICHI-368",
+      "source_rows": [
+        "GDGV- AVDFG VAVGX DFGVG GVGVG VVAFD VVGAD GFVGF",
+        "VGAGF AXXDD VXFXG GXFAG DXVXG GVGAF GAAAD GAGAX",
+        "VAAXD FDGDG FXFGV VFFGG DXXFV XVGDF VFVGV XDXFF",
+        "VGFGD GVXFA DGFGX XXGAG DVDXD VXADV AAFDX GFGDV",
+        "DGVVA DGGDG VFVAG VDGDV DDAFG ADXAD AAFXX GXDGV",
+        "DDFAG VDVFF XDDXF VDFFD XDGFF VXDXA GDAAD GVDDA",
+        "DGVVD GGVAA VGFFD GGFDD AAVFV DVGDG ADXGG AGADX",
+        "DFGAX VVGFF VVGFG VGDGG AVGDD AGGGX FGDAF GADAF",
+        "FAAXF VAGDV GVGDX AAFDG FAXXA VGFXD AVADD DGFGG",
+        "DDGDD AAD"
+      ],
+      "source_slots": 368,
+      "advertised_length": 368,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "BUCHTVONALEXANDRETTEXGERECHNETWERDENXROEMX2?MESOPOTAMIENX7NGLISCHERVORMARSCHAMXTIGRISXNACHENGLORIENTBERICHTGRIFFENENGLISCHETRUPPENAMX29X10XDIETUERKISCHENSTELLUNGENNOERDLXKALATXSHERGATX",
+      "readable_candidate": "BUCHTVONALEXANDRETTEXGERECHNETWERDENXROEMX2XMESOPOTAMIENXENGLISCHERVORMARSCHAMXTIGRISXNACHENGLORIENTBERICHTGRIFFENENGLISCHETRUPPENAMX29X10XDIETUERKISCHENSTELLUNGENNOERDLXKALATXSHERGATX",
+      "notes": [
+        "The literal source length equals the advertised length. No source coordinate is inserted or deleted.",
+        "The printed dash in GDGV- is modeled as an erasure; the candidate fills it to X at the section boundary.",
+        "The source groups VXFXG and XDXFF correct earlier OCR and directly yield ALEXANDRETTE and TRUPPEN.",
+        "The candidate changes raw7 inside 7NGLISCHER to E by a single coordinate substitution; all military and date labels are retained."
+      ]
+    },
+    {
+      "id": "p94_A6",
+      "printed_page": 94,
+      "pdf_page_1based": 97,
+      "source_section": "A6",
+      "message_part": 6,
+      "message_total_parts": 6,
+      "source_image_id": "p94_A6",
+      "key_id": "Nov1-3",
+      "page_heading": "1st NOVEMBER, 1918.",
+      "common_receipt_header": "OSM v LP (4.20 p.m., November 1st)",
+      "common_address_header": "SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O",
+      "common_origin_header": "(1/11) 0415 6 TEILE",
+      "header": "A) OSM v LP (4.20 p.m., November 1st); SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O; (1/11) 0415 6 TEILE; 6 TL RICHI-350",
+      "source_rows": [
+        "AVGGV GGAVF ADFDG GXVXF DVVDV GGVAA DDXFG AXFFF",
+        "GXFGD DVFXA DFDGV GGAGV VVDFG VXGAD GVVVF VVFVV",
+        "VGADV GGDAV XFGXG VGAFV GVGGG VGVDD GAGFD DGAGA",
+        "FGGFA VAGXD ADGGG GAAAG GAVGV XXVGA DVDDG VAVDG",
+        "FAFDX VAVGD GAFVG VVGDA GFGGG GDDVG GAGGD GVXAG",
+        "DGAGF GAGFF AAGGF DFAGA ADFGA XAFFV XDAAA DVVDG",
+        "VVDGV GGGAA VDFGV GVGGD AGVGG XDGVG DDDFF GGVXV",
+        "FAXAA VDFGA VVDGG GGGGG DAGDG VFGFV GFAGG VGVGA",
+        "XVADG VDVDA VVGDX GVGGD VGDAA VXGFG"
+      ],
+      "source_slots": 350,
+      "advertised_length": 350,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "ANUNDDRANGENNACHHEFTIGENANSCHEINENDSCHWERENKAEMPFENINDIESTELLUNGENEINTEILEDERTUERKENDIEZUENTKOMMENVERSUCHTENWURDENANGEBLICHDURCHBRITISCHEKAVALLERIEABGESCHNITTENXABTFREMDEHEERE",
+      "readable_candidate": "ANUNDDRANGENNACHHEFTIGENANSCHEINENDSCHWERENKAEMPFENINDIESTELLUNGENEINTEILEDERTUERKENDIEZUENTKOMMENVERSUCHTENWURDENANGEBLICHDURCHBRITISCHEKAVALLERIEABGESCHNITTENXABTFREMDEHEERE",
+      "notes": [
+        "The literal source length equals the advertised length. No source coordinate is inserted or deleted.",
+        "Every one of the350 coordinates is visually present; KAVALLERIE and HEERE are complete raw words.",
+        "ANSCHEINEND and ANGEBLICH are retained as qualifications on the reported fighting and cavalry action."
+      ]
+    }
+  ],
+  "cross_page_assembly": {
+    "basis": "Explicit shared receipt, address and origin headers, six numbered parts and printed Continued annotations.",
+    "record_order": [
+      "p92_B1",
+      "p93_A2",
+      "p93_A3",
+      "p93_A4",
+      "p94_A5",
+      "p94_A6"
+    ],
+    "shared_receipt": "OSM v LP (4.20 p.m., November 1st)",
+    "shared_address": "SSD DEUTSCHER N O OSM OHL ZUGL FUER UNTERST N O",
+    "shared_origin": "(1/11) 0415 6 TEILE"
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "The work discusses Foreign Armies reporting in general, but no explicit body discussion of this six-part Alexandretta/Kalat Shergat report was located in the bounded text check. General source context is not a claim to priority over earlier researchers."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "The work discusses Foreign Armies reporting in general, but no explicit body discussion of this six-part Alexandretta/Kalat Shergat report was located in the bounded text check. General source context is not a claim to priority over earlier researchers."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit body was located in the cached55-comment snapshot using SYRIEN,ALEXANDRETTE,MESOPOTAMIEN,SHERGAT,ARSUS and Foreign Armies terms."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p92_ocr_block2",
+        "p93_ocr_block1",
+        "p94_ocr_block1",
+        "p94_ocr_block2",
+        "p94_ocr_block3",
+        "p94_ocr_block4"
+      ],
+      "frozen_prior_candidate_records": [
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p92_ocr_block2",
+          "key": "Nov1-3",
+          "score": -5.355714263382906,
+          "plaintext": "DEUTSCQERNOOSMOHLZUGLFUERUNTERSTNOXBERICHTIGUNGZUVORTRXNOTORIENTVOMX30X10X2ABSATZSYRIENXMUSSAMSCHLUSSHEISSENXALSOANSCHEINENDX7XINDXDIVX60XGEMXDIVXODEDXFALLSX54XUSWX",
+          "ciphertext_length": 328
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p93_ocr_block1",
+          "key": "Nov1-3",
+          "score": -9.305787508720172,
+          "plaintext": "Z2HJM?208VDM8X8BBNYV3IECIQEI8ZJ4J82PQNKD45EUTU4LBENSMS6ZN8SQGU38V8IL1D7FFTWWDACEB5FJECNX4BDWV02MBRNGBCOZNBJIOKSYJR7DJABDZFO4D9UVNI09IEND?5IF0VJ2NMKSK757TVFZKI7B0BRCOF3D6TENS3GJ?EPOWZR4RO71PB6KCVVOEQJI50D?ADUN4KASPVSDRZ7KEYTSN7NLKDOTN4HMHYFEAVYBAIODWMVVCN?O4VE57GC7DRP0P77OOC76RVITPYX0LN14NAU0CVHHF5EV1MU?N8UNDEJSVGNN3DJNVVROLICECKR12UUDV1HNUH8EYOV1OIR?5UWOB5NIANOBVEUA2P1VTD0KOEVJU6TOINTXRUTEEE?9J05QJNOT9PIC5W41HE2IBX09RE?IMUVYVGUM8VOQYIQ0HOA01?2OHME?ECNE477IDNZINOWOFZV7GNHHU5A8MJB0MHLD",
+          "ciphertext_length": 977
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p94_ocr_block1+p94_ocr_block2",
+          "key": "Nov1-3",
+          "score": -4.5594951190517445,
+          "plaintext": "BUCHTVONALERANDRETTEXGERECHNETWERDENXROEMX2?MESOPOTAMIENX7NGLISCHERVORMARSCHAMXTIGRISXNACHENGLORIENTBERICHTGRIFFENENGLISCHE0RUPPENAMX29X10XDIETUERKISCHENSTELLUNGENNOERDLXKALATXSHERGATX",
+          "ciphertext_length": 368
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p94_ocr_block3+p94_ocr_block4",
+          "key": "Nov1-3",
+          "score": -3.7968089739481607,
+          "plaintext": "ANUNDDRANGENNACHHEFTIGENANSCHEINENDSCHWERENKAEMPFENINDIESTELLUNGENEINTEILEDERTUERKENDIEZUENTKOMMENVERSUCHTENWURDENANGEBLICHDURCHBRITISCHE?AVALLERIEABGESCHNITTENXABTFREMDEHE?RE",
+          "ciphertext_length": 350
+        }
+      ],
+      "interpretation": "Parts1,5,6 had prior readable unreviewed candidates. Parts2–4 were merged into a single977-slot unreadable candidate; the source provides separate252,394,328 slots. This is source recovery and a reversible edition, not a first historical decipherment claim."
+    }
+  }
+}

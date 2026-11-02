@@ -94,5 +94,7 @@ Old paths in prior catalogues, ledgers and experiment proposals continue to work
 through the compatibility pages.
 
 For research boundaries, use the [current research status](research-status.md).
+The [publication history](publication-history.md) maps the original local
+commits to their exact-content public equivalents.
 For the distinction between a direct reading, source-linked reconstruction and
 editorial repair, use the [methods guide](methods.md).

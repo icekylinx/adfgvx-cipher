@@ -65,6 +65,15 @@ jobs:
           python experiments/courier_recovery/build.py --verify
           python experiments/courier_recovery/verify.py
           python experiments/open_targets_continuation/verify.py --verify
+      - name: Verify source editions added after publication
+        run: |
+          python experiments/crown_airlift/verify.py --verify
+          python experiments/zitag_purchase_orders/verify.py --verify
+          python experiments/military_allowances/verify.py --verify
+          python experiments/orient_intelligence/verify.py --verify
+          python experiments/liman_troop_reports/verify.py --verify
+          python experiments/military_intendant_remit/verify.py --verify
+          python experiments/neuhof_demobilization/verify.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |
           python experiments/p198_word_search/verify.py
