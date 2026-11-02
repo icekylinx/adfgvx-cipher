@@ -1,0 +1,60 @@
+{
+  "title": "Optional independent-source follow-up leads",
+  "date_utc": "2026-11-02",
+  "credit": "icekylinx and GPT-6 Astra Pro",
+  "status": "No independently certified link between the p224 officer and a named historical individual or a 1918 appointment at 40 Reserve Corps. No new visually certified surname witness. No key assignment or source repair follows from this note.",
+  "scope": "Bounded public searches across two search engines, including the surname with 40. Reserve, XL. Reserve, Reservekorps, Generalstab, Generalstabe, Stabschef, Chef des, Breslau, and 1917/1918; selected public army-list catalogues. Not an exhaustive archival search.",
+  "leads": [
+    {
+      "source": "Deutscher Reichsanzeiger, 21 April 1913, no. 94, p. 4",
+      "url": "https://digi.bib.uni-mannheim.de/reichsanzeiger/ocr/film/tesseract-4.0.0-20181201/126-9532/0243.hocr",
+      "scan_viewer": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/126-9532/0243.jp2",
+      "coverage": "Retrieved OCR names v. Strzemieczny at the staff of IR 143 in personnel notices. No first name or 1918 corps role was established.",
+      "access_limit": "The scan viewer previously returned HTTP 403; no bypass attempted."
+    },
+    {
+      "source": "Darmstadt newspaper, 24 February 1913, page 2",
+      "url": "https://exist.ulb.tu-darmstadt.de/3/v/pa000219-0046",
+      "linked_image": "https://tudigit.ulb.tu-darmstadt.de/image/Za-150-1913-1/3/19130224_0002.jpg",
+      "coverage": "Downloaded public text layer names a Hauptmann v. Strzemieczny of IR 143 at Strasbourg. This supports a spelling lead only.",
+      "access_limit": "The explicitly linked image returned HTTP 503; the surname was not visually certified."
+    },
+    {
+      "source": "Halle newspaper, 22 August 1906",
+      "url": "https://opendata2.uni-halle.de/retrieve/3de495b0-1df6-444c-b805-e57b6bce2423/16872166X190608221.pdf",
+      "coverage": "Search text concerns a lieutenant in Feldartillerie-Regiment 25.",
+      "access_limit": "The attempted PDF download returned Anubis bot-check HTML. No challenge bypass or visual certification."
+    },
+    {
+      "source": "Halle newspaper, 16 September 1911",
+      "url": "https://opendata2.uni-halle.de/retrieve/268cccb0-da55-4a8e-a6e5-b739554f3475/16872166X191109161.pdf",
+      "coverage": "Search text reports an Oberleutnant of Feldartillerie-Regiment 25 promoted captain and assigned adjutant to 17 Feldartillerie-Brigade. It does not establish a 1918 corps appointment.",
+      "access_limit": "Search text only; no visual certification. This follow-up did not retry Halle after the observed bot-check limit."
+    },
+    {
+      "source": "1926 Ehren-Rangliste, Silesian Digital Library",
+      "url": "https://sbc.org.pl/dlibra/publication/392685/edition/370076/ehren-rangliste-des-ehemaligen-deutschen-heeres-auf-grund-der-ranglistern-von-1914-mit-den-inzwischen-eingetretenen-veranderungen-herausgegeben-vom",
+      "indexed_alias": "https://www.sbc.org.pl/dlibra/publication/392685/edition/370076",
+      "coverage": "Public catalogue identifies a digitized PDF edition; its contents were not retrieved. A concrete future lead if the public service becomes available.",
+      "access_limit": "Direct catalogue requests returned HTTP 503. No private endpoint or restricted route was used."
+    },
+    {
+      "source": "1895 Prussian army list, Internet Archive",
+      "url": "https://archive.org/details/ranglistederkoe00armegoog",
+      "coverage": "The 1301-page original scan was retrieved and the name-register region around printed p. 1252 inspected. The relevant outer column is cut at the image edge; no full surname or identity was certified. Absence of an OCR hit is not an absence finding.",
+      "access_limit": "Public original available. The text-PDF derivative has many blank image pages and supplied no evidence."
+    },
+    {
+      "source": "1914 army-list excerpt, Internet Archive",
+      "url": "https://archive.org/details/rangliste-1914",
+      "coverage": "A 21-page modern compilation pairs contemporary page photographs with transcription, mainly headquarters material. Its text contains no Strzemieczny hit; it is not the complete army list. The first page was visually inspected.",
+      "access_limit": "Public excerpt available; no relevant surname or corps appointment located."
+    }
+  ],
+  "interpretation_limits": [
+    "Do not identify the IR 143 infantry captain, the 17 Feldartillerie-Brigade adjutant, or the reserve lieutenant in other results with each other solely from their surname.",
+    "Later secondary biographies of Ernst von Strzemieczny do not establish that he is the p224 officer.",
+    "The independent 1917 Breslau VI Corps decree has no surname linkage.",
+    "The p224 STRZEMIECZNQ to Strzemieczny reading remains a lexical hypothesis; no Q to Y or numerical reassignment is applied."
+  ]
+}

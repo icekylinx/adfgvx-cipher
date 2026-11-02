@@ -104,6 +104,15 @@ digit permutation; none of the four objective variants recovers a complete
 literal numerical text in that sample. Families reused in several cipher
 conditions are not independent historical samples.
 
+The [exact digit-symmetry audit](../experiments/radio_domain_model/digit_symmetry/README.md)
+strengthens that limitation without another stochastic campaign. One perfect
+class candidate has 360 equally scored literal digit relabellings, including
+truth. Two others have 3,628,800 each but exclude truth because their repeated
+digits have the wrong equality pattern. Class accuracy, recoverable equality
+structure and literal accuracy are distinct claims. All small orbits and all
+3,359,232 entries across the two class tables are independently checked; the
+two 10! orbit sizes are proved by counting, not claimed as full enumerations.
+
 The [p73 methods](../experiments/p73_new_methods/README.md) add square-component
 reuse, spacing models, full-hidden-square word controls and exact
 substitution-invariant source retrieval. All 47,819 reported retrieval

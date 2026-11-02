@@ -1,0 +1,75 @@
+{
+  "schema": "adfgvx-digit-class-adapter-check-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "certificate_sha256": "21f9b14bd2ee707fbdcc2edefa57ae095d89de247e3f05efc039004c9eefb71b",
+  "model_checks": [
+    {
+      "model": "book_class",
+      "filename": "book_class36_quad.bin",
+      "sha256": "15d4dfe14120e09c7b940cd9f3b9640fb2dcf62b5b5d2f5146838d99913678f2",
+      "exact_bitwise_adapter_entries_checked": 1679616,
+      "collapsed_classes": 27,
+      "all_entries_factor_through_digit_class": true
+    },
+    {
+      "model": "radio_class",
+      "filename": "radio_book_class36_quad.bin",
+      "sha256": "dc7cc00449ef40d3d35e3295c110c7f663099f00368eec8b74e575a912a4658f",
+      "exact_bitwise_adapter_entries_checked": 1679616,
+      "collapsed_classes": 27,
+      "all_entries_factor_through_digit_class": true
+    }
+  ],
+  "row_scores": [
+    {
+      "result_id": "numeric_holdout_0_CHI-Nov13_book_class",
+      "exact_candidate_score": -351.67739391326904,
+      "exact_truth_score": -351.67739391326904,
+      "generator_scores_exactly_equal": true
+    },
+    {
+      "result_id": "numeric_holdout_0_CHI-Nov13_radio_class",
+      "exact_candidate_score": -343.18358850479126,
+      "exact_truth_score": -343.18358850479126,
+      "generator_scores_exactly_equal": true
+    },
+    {
+      "result_id": "numeric_holdout_1_Nov13-15b_book_class",
+      "exact_candidate_score": -360.6019678115845,
+      "exact_truth_score": -360.6019678115845,
+      "generator_scores_exactly_equal": true
+    },
+    {
+      "result_id": "numeric_holdout_1_Nov13-15b_radio_class",
+      "exact_candidate_score": -361.6747362613678,
+      "exact_truth_score": -364.31580543518066,
+      "generator_scores_exactly_equal": true
+    },
+    {
+      "result_id": "numeric_holdout_2_Nov10-12_book_class",
+      "exact_candidate_score": -370.53657746315,
+      "exact_truth_score": -373.5191135406494,
+      "generator_scores_exactly_equal": true
+    },
+    {
+      "result_id": "numeric_holdout_2_Nov10-12_radio_class",
+      "exact_candidate_score": -364.7587468624115,
+      "exact_truth_score": -368.12424325942993,
+      "generator_scores_exactly_equal": true
+    },
+    {
+      "result_id": "numeric_holdout_3_Nov7-9_book_class",
+      "exact_candidate_score": -387.31151270866394,
+      "exact_truth_score": -388.46019291877747,
+      "generator_scores_exactly_equal": true
+    },
+    {
+      "result_id": "numeric_holdout_3_Nov7-9_radio_class",
+      "exact_candidate_score": -371.1528391838074,
+      "exact_truth_score": -372.13045024871826,
+      "generator_scores_exactly_equal": true
+    }
+  ],
+  "total_adapter_entries_checked": 3359232,
+  "total_generator_score_checks": 38
+}

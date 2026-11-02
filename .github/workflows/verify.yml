@@ -68,6 +68,7 @@ jobs:
         run: |
           python experiments/p198_word_search/verify.py
           python experiments/radio_domain_model/verify.py
+          python experiments/radio_domain_model/digit_symmetry/verify.py
           python experiments/p170_new_methods/verify.py
           python experiments/p73_new_methods/verify.py --skip-assignment
       - name: Independently verify all reported source-retrieval assignments

@@ -135,13 +135,26 @@ to one class**, each out of 85:
 | **Exact literal texts** | **0 / 4** | **0 / 4** | **0 / 4** | **0 / 4** |
 | **Exact class texts** | **1 / 4** | **0 / 4** | **2 / 4** | **1 / 4** |
 
-The folded score does recover two class sequences under the book objective,
-but cannot identify the remaining digit permutation. Other failed controls
+The folded score recovers two class sequences under the book objective,
+but class agreement does not establish the numeric equality pattern or the
+digit labels. Other failed controls
 still contain ordinary-word errors that score above truth. The mixture does
 not establish an advantage in this sample. The completed 16 runs use
 **732,130,000 mutation proposals**. The [dataset](numeric_dataset.json) freezes
 the authored strings and truth-generation seeds; [results](numeric_loss_controls.json)
 retain every candidate, truth score, final counter and original log hash.
+
+The [exact digit-symmetry audit](digit_symmetry/README.md) now distinguishes
+those two limitations. Keeping a recorded candidate's letters, ranks, losses
+and fills fixed, permuting its `k` unanchored digits gives exactly `k!` complete
+squares and `k! / (k-r)!` literal texts, where `r` such digits occur in the text.
+The Nov13b folded-book candidate has **360** such literal texts, including the
+truth. Both CHI candidates instead have **3,628,800** literal texts in their
+respective orbits, yet neither orbit contains the true text: each repeats one
+digit at two positions where the truth has different digits. Their perfect
+85/85 class agreement therefore hides a wrong equality pattern as well as
+unresolved labels. The proof, small-orbit enumeration and complete bitwise
+check of both class lookup tables are separate from stochastic search.
 
 ## 5. Conditional p198 follow-up
 
@@ -167,6 +180,7 @@ re-encrypts every archived result:
 
 ```sh
 python experiments/radio_domain_model/verify.py
+python experiments/radio_domain_model/digit_symmetry/verify.py
 ```
 
 Rebuild the models with NumPy; the recorded environment used NumPy 2.3.5:

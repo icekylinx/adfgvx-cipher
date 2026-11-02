@@ -46,6 +46,10 @@ A separate 1913 *Deutscher Reichsanzeiger* OCR entry attests the spelling
 to the officer in p224 was found. It is retained only as a spelling lead,
 with no applied `Q→Y` assignment.
 
+The optional [follow-up leads](followup_leads.json) record the bounded
+independent-source search and its access limits. They add no certified
+individual identification, surname image, or key assignment.
+
 ## Source and credit
 
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher

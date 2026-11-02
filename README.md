@@ -8,6 +8,8 @@ Readings, source criticism, and reproducible cryptanalysis of German radio traff
 
 A research edition of the **German radio cryptograms in Childs's 1918 collection**: the 22 Lasry–Schmeh challenge entries and a growing catalogue of other messages, with readable plaintexts, original source transcriptions, earlier credits and reproducible decryption evidence.
 
+[This extension in detail](docs/extension-review-2026-11-02.md) · [Exact before/after inventory](experiments/session_review/README.md)
+
 ## Selected results
 
 - **[Corcovado sale terms](cases/other/corcovado_sale_terms.md) and [Turkish tonnage purchases](cases/other/turkish_tonnage.md):** nine parts describe a proposed ship sale, immediate cash, seizure risk, interest, German resale rights and evacuation use. A later telegram spells out the Marineamt office number; cross-key propagation preserves both the useful reference constraints and an inconvenient resulting garble. The separate [Black Sea cargo edition](cases/other/black_sea_shipping.md) retains the Lasry team's earlier supply-message body credit.

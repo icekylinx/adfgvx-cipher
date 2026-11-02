@@ -1,0 +1,1191 @@
+{
+  "schema": "adfgvx-fixed-candidate-digit-symmetry-certificate-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "input_sha256": "fcc36af4e080c48a7fd753d7655ba0da5088d375caa25fb63cdab11960c8f207",
+  "indexing": "All positions are zero-based.",
+  "counting_scope": "Exact orbit of each frozen candidate under permutations of unanchored digits; other possible letter placements or loss frames are outside this count.",
+  "theorem": {
+    "square_orbit": "k!",
+    "literal_plaintext_orbit": "k!/(k-r)!",
+    "plaintext_stabilizer": "(k-r)!",
+    "ciphertext": "Joint label permutation preserves each coordinate pair, hence full transposed ciphertext, loss projection and coordinate fill.",
+    "objective": "Each digit maps to the same class; any objective factoring through this class string is unchanged. The recorded objectives have word_weight=0."
+  },
+  "summary": {
+    "recorded_candidates": 8,
+    "truth_class_exact_but_literal_wrong": 3,
+    "class_exact_rows_with_truth_in_fixed_plaintext_orbit": 1,
+    "class_exact_rows_with_digit_equality_conflicts": 2,
+    "fully_enumerated_rows": 6,
+    "total_small_orbit_permutations_checked": 1684,
+    "generator_checks_across_all_rows": 38,
+    "ten_factorial_orbits_fully_enumerated": 0,
+    "historical_digit_assignments": 0
+  },
+  "rows": [
+    {
+      "result_id": "numeric_holdout_0_CHI-Nov13_book_class",
+      "control_id": "numeric_holdout_0_CHI-Nov13",
+      "model": "book_class",
+      "fixed_column_rank_order": [
+        3,
+        13,
+        2,
+        12,
+        1,
+        11,
+        15,
+        8,
+        9,
+        4,
+        5,
+        14,
+        6,
+        10,
+        7,
+        16
+      ],
+      "fixed_loss_positions": [
+        3,
+        62,
+        64,
+        90,
+        91
+      ],
+      "fixed_coordinate_fill": "XAGFV",
+      "base_square": "AROT7WHQ9C43SVUYI1DXBP58JM2NZELFK0G6",
+      "base_plaintext": "NRX980XDERTRANSPORTMIT28WAGENISTAM61NOVEMBERUM3403EINGETROFFENXWEITERFAHRTUM3564XBITT",
+      "complete_ciphertext": "GAAXXVVXAFFAAAAVGDAFAGVVAAAVXAVAGXAVGGFGXDXGXVAFAVXVXGGFVFFDVGAXGGGAVDAADDFDDXXDVDXDGGAFVVFVVADADAFADXXDAXDGGVXXXDGFVDDDADFXFVGFGXFXADGDXDDGGGVFDVGDVDAVVFAFXVVAAGXGXVGXAV",
+      "complete_ciphertext_sha256": "d80f57855c96eaf3c67935a0a0da3058610b1cbbd50e2063f1f1d192af4b91aa",
+      "received_ciphertext_sha256": "7607e89c6cc9875f2c040876ec2f8fcde8922bd328e802dd501c9abfe8c7ce46",
+      "anchored_digits": "",
+      "permutable_unanchored_digits": "0123456789",
+      "k": 10,
+      "permutable_digits_occurring_in_candidate_plaintext": "012345689",
+      "r": 9,
+      "distinct_complete_squares_in_this_digit_orbit": 3628800,
+      "plaintext_stabilizer_permutations": 1,
+      "distinct_literal_plaintexts_in_this_digit_orbit": 3628800,
+      "fixed_digit_class_plaintext": "NRX###XDERTRANSPORTMIT##WAGENISTAM##NOVEMBERUM####EINGETROFFENXWEITERFAHRTUM####XBITT",
+      "proof_checks": {
+        "adjacent_transposition_generators_checked": 9,
+        "all_generators": [
+          {
+            "swap": [
+              "0",
+              "1"
+            ],
+            "square": "AROT7WHQ9C43SVUYI0DXBP58JM2NZELFK1G6",
+            "plaintext": "NRX981XDERTRANSPORTMIT28WAGENISTAM60NOVEMBERUM3413EINGETROFFENXWEITERFAHRTUM3564XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "1",
+              "2"
+            ],
+            "square": "AROT7WHQ9C43SVUYI2DXBP58JM1NZELFK0G6",
+            "plaintext": "NRX980XDERTRANSPORTMIT18WAGENISTAM62NOVEMBERUM3403EINGETROFFENXWEITERFAHRTUM3564XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "2",
+              "3"
+            ],
+            "square": "AROT7WHQ9C42SVUYI1DXBP58JM3NZELFK0G6",
+            "plaintext": "NRX980XDERTRANSPORTMIT38WAGENISTAM61NOVEMBERUM2402EINGETROFFENXWEITERFAHRTUM2564XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "3",
+              "4"
+            ],
+            "square": "AROT7WHQ9C34SVUYI1DXBP58JM2NZELFK0G6",
+            "plaintext": "NRX980XDERTRANSPORTMIT28WAGENISTAM61NOVEMBERUM4304EINGETROFFENXWEITERFAHRTUM4563XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "4",
+              "5"
+            ],
+            "square": "AROT7WHQ9C53SVUYI1DXBP48JM2NZELFK0G6",
+            "plaintext": "NRX980XDERTRANSPORTMIT28WAGENISTAM61NOVEMBERUM3503EINGETROFFENXWEITERFAHRTUM3465XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "5",
+              "6"
+            ],
+            "square": "AROT7WHQ9C43SVUYI1DXBP68JM2NZELFK0G5",
+            "plaintext": "NRX980XDERTRANSPORTMIT28WAGENISTAM51NOVEMBERUM3403EINGETROFFENXWEITERFAHRTUM3654XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "6",
+              "7"
+            ],
+            "square": "AROT6WHQ9C43SVUYI1DXBP58JM2NZELFK0G7",
+            "plaintext": "NRX980XDERTRANSPORTMIT28WAGENISTAM71NOVEMBERUM3403EINGETROFFENXWEITERFAHRTUM3574XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "7",
+              "8"
+            ],
+            "square": "AROT8WHQ9C43SVUYI1DXBP57JM2NZELFK0G6",
+            "plaintext": "NRX970XDERTRANSPORTMIT27WAGENISTAM61NOVEMBERUM3403EINGETROFFENXWEITERFAHRTUM3564XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "8",
+              "9"
+            ],
+            "square": "AROT7WHQ8C43SVUYI1DXBP59JM2NZELFK0G6",
+            "plaintext": "NRX890XDERTRANSPORTMIT29WAGENISTAM61NOVEMBERUM3403EINGETROFFENXWEITERFAHRTUM3564XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          }
+        ],
+        "full_enumeration": {
+          "performed": false,
+          "permutations_checked": 0,
+          "reason": "The exact count follows from the free square action and plaintext stabilizer; only a generating set is explicitly checked."
+        }
+      },
+      "truth_comparison": {
+        "same_digit_class_text_as_truth": true,
+        "truth_in_fixed_candidate_plaintext_orbit": false,
+        "literal_matches": 70,
+        "class_matches": 85,
+        "length": 85,
+        "all_compatibility_conflicts": [
+          {
+            "kind": "same_candidate_digit_different_truth_digits",
+            "candidate_digit": "8",
+            "positions": [
+              4,
+              23
+            ],
+            "truth_digits": [
+              "7",
+              "6"
+            ]
+          },
+          {
+            "kind": "different_candidate_digits_same_truth_digit",
+            "truth_digit": "6",
+            "positions": [
+              23,
+              35
+            ],
+            "candidate_digits": [
+              "8",
+              "1"
+            ]
+          }
+        ],
+        "explicit_equality_conflict": {
+          "kind": "same_candidate_digit_different_truth_digits",
+          "candidate_digit": "8",
+          "positions": [
+            4,
+            23
+          ],
+          "truth_digits": [
+            "7",
+            "6"
+          ]
+        }
+      }
+    },
+    {
+      "result_id": "numeric_holdout_0_CHI-Nov13_radio_class",
+      "control_id": "numeric_holdout_0_CHI-Nov13",
+      "model": "radio_class",
+      "fixed_column_rank_order": [
+        3,
+        13,
+        2,
+        12,
+        1,
+        11,
+        15,
+        8,
+        9,
+        4,
+        5,
+        14,
+        6,
+        10,
+        7,
+        16
+      ],
+      "fixed_loss_positions": [
+        4,
+        62,
+        66,
+        90,
+        91
+      ],
+      "fixed_coordinate_fill": "FAGFV",
+      "base_square": "AROTQWH86C02SVUJI4DXBP75YM1NZELFK3G9",
+      "base_plaintext": "NRX653XDERTRANSPORTMIT15WAGENISTAM44NOVEMBERUM2032EINGETROFFENXWEITERFAHRTUM2790XBITT",
+      "complete_ciphertext": "GAAXFVVXAFFAAAAVGDAFAGVVAAAVXAVAGXAVGGFGXDXGXVAFAVXVXGGFVFFDVGAXGGGAVDAADDFDDXXDVDXDGGAFVVFVVADADAFADXXDAXDGGVXXXDGFVDDDADFXFVGFGXFXADGDXDDGGGVFDVGDVDAVVFAFXVVAAGXGXVGXAV",
+      "complete_ciphertext_sha256": "e9821229621595387e78b5ee8f9612471b410f3d83c26cca5c963105baa51f51",
+      "received_ciphertext_sha256": "7607e89c6cc9875f2c040876ec2f8fcde8922bd328e802dd501c9abfe8c7ce46",
+      "anchored_digits": "",
+      "permutable_unanchored_digits": "0123456789",
+      "k": 10,
+      "permutable_digits_occurring_in_candidate_plaintext": "012345679",
+      "r": 9,
+      "distinct_complete_squares_in_this_digit_orbit": 3628800,
+      "plaintext_stabilizer_permutations": 1,
+      "distinct_literal_plaintexts_in_this_digit_orbit": 3628800,
+      "fixed_digit_class_plaintext": "NRX###XDERTRANSPORTMIT##WAGENISTAM##NOVEMBERUM####EINGETROFFENXWEITERFAHRTUM####XBITT",
+      "proof_checks": {
+        "adjacent_transposition_generators_checked": 9,
+        "all_generators": [
+          {
+            "swap": [
+              "0",
+              "1"
+            ],
+            "square": "AROTQWH86C12SVUJI4DXBP75YM0NZELFK3G9",
+            "plaintext": "NRX653XDERTRANSPORTMIT05WAGENISTAM44NOVEMBERUM2132EINGETROFFENXWEITERFAHRTUM2791XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "1",
+              "2"
+            ],
+            "square": "AROTQWH86C01SVUJI4DXBP75YM2NZELFK3G9",
+            "plaintext": "NRX653XDERTRANSPORTMIT25WAGENISTAM44NOVEMBERUM1031EINGETROFFENXWEITERFAHRTUM1790XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "2",
+              "3"
+            ],
+            "square": "AROTQWH86C03SVUJI4DXBP75YM1NZELFK2G9",
+            "plaintext": "NRX652XDERTRANSPORTMIT15WAGENISTAM44NOVEMBERUM3023EINGETROFFENXWEITERFAHRTUM3790XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "3",
+              "4"
+            ],
+            "square": "AROTQWH86C02SVUJI3DXBP75YM1NZELFK4G9",
+            "plaintext": "NRX654XDERTRANSPORTMIT15WAGENISTAM33NOVEMBERUM2042EINGETROFFENXWEITERFAHRTUM2790XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "4",
+              "5"
+            ],
+            "square": "AROTQWH86C02SVUJI5DXBP74YM1NZELFK3G9",
+            "plaintext": "NRX643XDERTRANSPORTMIT14WAGENISTAM55NOVEMBERUM2032EINGETROFFENXWEITERFAHRTUM2790XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "5",
+              "6"
+            ],
+            "square": "AROTQWH85C02SVUJI4DXBP76YM1NZELFK3G9",
+            "plaintext": "NRX563XDERTRANSPORTMIT16WAGENISTAM44NOVEMBERUM2032EINGETROFFENXWEITERFAHRTUM2790XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "6",
+              "7"
+            ],
+            "square": "AROTQWH87C02SVUJI4DXBP65YM1NZELFK3G9",
+            "plaintext": "NRX753XDERTRANSPORTMIT15WAGENISTAM44NOVEMBERUM2032EINGETROFFENXWEITERFAHRTUM2690XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "7",
+              "8"
+            ],
+            "square": "AROTQWH76C02SVUJI4DXBP85YM1NZELFK3G9",
+            "plaintext": "NRX653XDERTRANSPORTMIT15WAGENISTAM44NOVEMBERUM2032EINGETROFFENXWEITERFAHRTUM2890XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "8",
+              "9"
+            ],
+            "square": "AROTQWH96C02SVUJI4DXBP75YM1NZELFK3G8",
+            "plaintext": "NRX653XDERTRANSPORTMIT15WAGENISTAM44NOVEMBERUM2032EINGETROFFENXWEITERFAHRTUM2780XBITT",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          }
+        ],
+        "full_enumeration": {
+          "performed": false,
+          "permutations_checked": 0,
+          "reason": "The exact count follows from the free square action and plaintext stabilizer; only a generating set is explicitly checked."
+        }
+      },
+      "truth_comparison": {
+        "same_digit_class_text_as_truth": true,
+        "truth_in_fixed_candidate_plaintext_orbit": false,
+        "literal_matches": 70,
+        "class_matches": 85,
+        "length": 85,
+        "all_compatibility_conflicts": [
+          {
+            "kind": "same_candidate_digit_different_truth_digits",
+            "candidate_digit": "5",
+            "positions": [
+              4,
+              23
+            ],
+            "truth_digits": [
+              "7",
+              "6"
+            ]
+          },
+          {
+            "kind": "same_candidate_digit_different_truth_digits",
+            "candidate_digit": "4",
+            "positions": [
+              34,
+              35
+            ],
+            "truth_digits": [
+              "1",
+              "6"
+            ]
+          },
+          {
+            "kind": "different_candidate_digits_same_truth_digit",
+            "truth_digit": "6",
+            "positions": [
+              23,
+              35
+            ],
+            "candidate_digits": [
+              "5",
+              "4"
+            ]
+          },
+          {
+            "kind": "different_candidate_digits_same_truth_digit",
+            "truth_digit": "1",
+            "positions": [
+              34,
+              78
+            ],
+            "candidate_digits": [
+              "4",
+              "9"
+            ]
+          }
+        ],
+        "explicit_equality_conflict": {
+          "kind": "same_candidate_digit_different_truth_digits",
+          "candidate_digit": "5",
+          "positions": [
+            4,
+            23
+          ],
+          "truth_digits": [
+            "7",
+            "6"
+          ]
+        }
+      }
+    },
+    {
+      "result_id": "numeric_holdout_1_Nov13-15b_book_class",
+      "control_id": "numeric_holdout_1_Nov13-15b",
+      "model": "book_class",
+      "fixed_column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "fixed_loss_positions": [
+        71,
+        78,
+        106,
+        122,
+        167
+      ],
+      "fixed_coordinate_fill": "XDDVD",
+      "base_square": "H73BMUF15PX0DJLR2YQ4S6VONKZ9AWITEGC8",
+      "base_plaintext": "AX6XSX3718XANMARINEAMTXDAMPFERLIEGTSEIT13NOVEMBERIMHAFENXZAHLUNG450000MARKNOCHNICHTEI",
+      "complete_ciphertext": "VVVAFVAAXXFDGAADFAGVAAVDFXAXVAVVDXVXAFDGFXDXVAXVXVDVADAXFXADADAGVFGDXVVXADAFFXDXVXVXGDXDXGAVDVXVVDGAVAXXAVDAVFFGVDGVGVAXXXVFDXXFVVFDGFAVAVXAVGAAFFDAFAVFFFVFXVADVVDGGAADGX",
+      "complete_ciphertext_sha256": "bd1e580b528fa6fddc309ebe7f6d5dafc06975cbe498c505a356543f40b16634",
+      "received_ciphertext_sha256": "02bb83411194343efb1ef3e7a9f152bec292e74518370ce5d46089ede703d5ec",
+      "anchored_digits": "0156",
+      "permutable_unanchored_digits": "234789",
+      "k": 6,
+      "permutable_digits_occurring_in_candidate_plaintext": "3478",
+      "r": 4,
+      "distinct_complete_squares_in_this_digit_orbit": 720,
+      "plaintext_stabilizer_permutations": 2,
+      "distinct_literal_plaintexts_in_this_digit_orbit": 360,
+      "fixed_digit_class_plaintext": "AX#XSX####XANMARINEAMTXDAMPFERLIEGTSEIT##NOVEMBERIMHAFENXZAHLUNG######MARKNOCHNICHTEI",
+      "proof_checks": {
+        "adjacent_transposition_generators_checked": 5,
+        "all_generators": [
+          {
+            "swap": [
+              "2",
+              "3"
+            ],
+            "square": "H72BMUF15PX0DJLR3YQ4S6VONKZ9AWITEGC8",
+            "plaintext": "AX6XSX2718XANMARINEAMTXDAMPFERLIEGTSEIT12NOVEMBERIMHAFENXZAHLUNG450000MARKNOCHNICHTEI",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "3",
+              "4"
+            ],
+            "square": "H74BMUF15PX0DJLR2YQ3S6VONKZ9AWITEGC8",
+            "plaintext": "AX6XSX4718XANMARINEAMTXDAMPFERLIEGTSEIT14NOVEMBERIMHAFENXZAHLUNG350000MARKNOCHNICHTEI",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "4",
+              "7"
+            ],
+            "square": "H43BMUF15PX0DJLR2YQ7S6VONKZ9AWITEGC8",
+            "plaintext": "AX6XSX3418XANMARINEAMTXDAMPFERLIEGTSEIT13NOVEMBERIMHAFENXZAHLUNG750000MARKNOCHNICHTEI",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "7",
+              "8"
+            ],
+            "square": "H83BMUF15PX0DJLR2YQ4S6VONKZ9AWITEGC7",
+            "plaintext": "AX6XSX3817XANMARINEAMTXDAMPFERLIEGTSEIT13NOVEMBERIMHAFENXZAHLUNG450000MARKNOCHNICHTEI",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "8",
+              "9"
+            ],
+            "square": "H73BMUF15PX0DJLR2YQ4S6VONKZ8AWITEGC9",
+            "plaintext": "AX6XSX3719XANMARINEAMTXDAMPFERLIEGTSEIT13NOVEMBERIMHAFENXZAHLUNG450000MARKNOCHNICHTEI",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          }
+        ],
+        "full_enumeration": {
+          "performed": true,
+          "permutations_checked": 720,
+          "distinct_complete_squares": 720,
+          "distinct_literal_plaintexts": 360,
+          "lexicographic_permutation_stream_sha256": "88f9637c1ed06b7e29cb53627218f046e1b14553a709b8311b1f6a10ed9ae0dd"
+        }
+      },
+      "truth_comparison": {
+        "same_digit_class_text_as_truth": true,
+        "truth_in_fixed_candidate_plaintext_orbit": true,
+        "literal_matches": 80,
+        "class_matches": 85,
+        "length": 85,
+        "all_compatibility_conflicts": [],
+        "required_used_digit_map": {
+          "3": "2",
+          "7": "8",
+          "8": "4",
+          "4": "3"
+        },
+        "example_full_digit_permutation": {
+          "3": "2",
+          "7": "8",
+          "8": "4",
+          "4": "3",
+          "2": "7",
+          "9": "9"
+        },
+        "full_digit_permutations_yielding_truth": 2,
+        "example_truth_square_in_this_orbit": "H82BMUF15PX0DJLR7YQ3S6VONKZ9AWITEGC4",
+        "example_truth_square_equals_original_truth_square": false
+      }
+    },
+    {
+      "result_id": "numeric_holdout_1_Nov13-15b_radio_class",
+      "control_id": "numeric_holdout_1_Nov13-15b",
+      "model": "radio_class",
+      "fixed_column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "fixed_loss_positions": [
+        71,
+        78,
+        105,
+        122,
+        167
+      ],
+      "fixed_coordinate_fill": "XGGVD",
+      "base_square": "H89BMUF15PX0DJLRQY74S6VONKZ3AWITEGC2",
+      "base_plaintext": "3X6XSX98X2XANMARINEAMTXDAMPFERLIEGTSEIT49NOVEMBERIMHAFENXZAHLUNG450000MARKNOCHNICHTEI",
+      "complete_ciphertext": "VVVAFVAAXXFDGAADFAGVAAVDFXAXVAVVDXVXAFDGFXDXVAXVXVDVADAXFXADADAGVFGDXVVXADAFFXGXVXVXGDXDXGAVDVXVVDGAVAXXAGVAVFFGVDGVGVAXXXVFDXXFVVFDGFAVAVXAVGAAFFDAFAVFFFVFXVADVVDGGAADGX",
+      "complete_ciphertext_sha256": "5d28e5a5f0ff5dd1effdbfae944682f4cca323c3e727d9864320893503231560",
+      "received_ciphertext_sha256": "02bb83411194343efb1ef3e7a9f152bec292e74518370ce5d46089ede703d5ec",
+      "anchored_digits": "0156",
+      "permutable_unanchored_digits": "234789",
+      "k": 6,
+      "permutable_digits_occurring_in_candidate_plaintext": "23489",
+      "r": 5,
+      "distinct_complete_squares_in_this_digit_orbit": 720,
+      "plaintext_stabilizer_permutations": 1,
+      "distinct_literal_plaintexts_in_this_digit_orbit": 720,
+      "fixed_digit_class_plaintext": "#X#XSX##X#XANMARINEAMTXDAMPFERLIEGTSEIT##NOVEMBERIMHAFENXZAHLUNG######MARKNOCHNICHTEI",
+      "proof_checks": {
+        "adjacent_transposition_generators_checked": 5,
+        "all_generators": [
+          {
+            "swap": [
+              "2",
+              "3"
+            ],
+            "square": "H89BMUF15PX0DJLRQY74S6VONKZ2AWITEGC3",
+            "plaintext": "2X6XSX98X3XANMARINEAMTXDAMPFERLIEGTSEIT49NOVEMBERIMHAFENXZAHLUNG450000MARKNOCHNICHTEI",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "3",
+              "4"
+            ],
+            "square": "H89BMUF15PX0DJLRQY73S6VONKZ4AWITEGC2",
+            "plaintext": "4X6XSX98X2XANMARINEAMTXDAMPFERLIEGTSEIT39NOVEMBERIMHAFENXZAHLUNG350000MARKNOCHNICHTEI",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "4",
+              "7"
+            ],
+            "square": "H89BMUF15PX0DJLRQY47S6VONKZ3AWITEGC2",
+            "plaintext": "3X6XSX98X2XANMARINEAMTXDAMPFERLIEGTSEIT79NOVEMBERIMHAFENXZAHLUNG750000MARKNOCHNICHTEI",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "7",
+              "8"
+            ],
+            "square": "H79BMUF15PX0DJLRQY84S6VONKZ3AWITEGC2",
+            "plaintext": "3X6XSX97X2XANMARINEAMTXDAMPFERLIEGTSEIT49NOVEMBERIMHAFENXZAHLUNG450000MARKNOCHNICHTEI",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "8",
+              "9"
+            ],
+            "square": "H98BMUF15PX0DJLRQY74S6VONKZ3AWITEGC2",
+            "plaintext": "3X6XSX89X2XANMARINEAMTXDAMPFERLIEGTSEIT48NOVEMBERIMHAFENXZAHLUNG450000MARKNOCHNICHTEI",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          }
+        ],
+        "full_enumeration": {
+          "performed": true,
+          "permutations_checked": 720,
+          "distinct_complete_squares": 720,
+          "distinct_literal_plaintexts": 720,
+          "lexicographic_permutation_stream_sha256": "f77ea71d981b4bd38cad1d2fe01a934e1b53f60f66421e303ae0cb28de52307e"
+        }
+      },
+      "truth_comparison": {
+        "same_digit_class_text_as_truth": false,
+        "truth_in_fixed_candidate_plaintext_orbit": false,
+        "literal_matches": 78,
+        "class_matches": 83,
+        "length": 85,
+        "all_compatibility_conflicts": [
+          {
+            "kind": "target_not_permutable",
+            "position": 0,
+            "candidate": "3",
+            "truth": "A"
+          },
+          {
+            "kind": "fixed_symbol_mismatch",
+            "position": 8,
+            "candidate": "X",
+            "truth": "1"
+          },
+          {
+            "kind": "target_not_permutable",
+            "position": 39,
+            "candidate": "4",
+            "truth": "1"
+          }
+        ]
+      }
+    },
+    {
+      "result_id": "numeric_holdout_2_Nov10-12_book_class",
+      "control_id": "numeric_holdout_2_Nov10-12",
+      "model": "book_class",
+      "fixed_column_rank_order": [
+        9,
+        12,
+        7,
+        11,
+        3,
+        8,
+        16,
+        6,
+        14,
+        2,
+        10,
+        15,
+        5,
+        13,
+        1,
+        4
+      ],
+      "fixed_loss_positions": [
+        72,
+        91,
+        113,
+        119,
+        161
+      ],
+      "fixed_coordinate_fill": "VGDXV",
+      "base_square": "4ARUT1OIFSKN37BZPVLD9JMXCWHQ2E8G06Y5",
+      "base_plaintext": "TNDIEFUNSSTELLEONTXWELLENLAENGE690XTAEGLICHUM0709UND1630HIERBEREITXNEUERAERUFAB18NOVE",
+      "complete_ciphertext": "DDVXGXXVAAXAXXDVXFXFXGAGAGVDVGADXAXGAFFXFXAVGVXFFAVFDXDXVGDFXGXDDAGXVADAVDDVXDXFXXXFAADDDGDGVDAXDGGXVXXVAAXGVAFAGDVXXVGXXFDFFDDAGXAXDDAFXFVGVDAGAFVDVFAADXFGXGDDVVVAAGADAF",
+      "complete_ciphertext_sha256": "3775119886f3f011d5d834ccf95916a3a016c2b1f39169edb5019ac56d3022c1",
+      "received_ciphertext_sha256": "6474b9c81f7d7aa7a47206ea62b8813c143ed316db6a17f4ed0cd45842975d8d",
+      "anchored_digits": "01234",
+      "permutable_unanchored_digits": "56789",
+      "k": 5,
+      "permutable_digits_occurring_in_candidate_plaintext": "6789",
+      "r": 4,
+      "distinct_complete_squares_in_this_digit_orbit": 120,
+      "plaintext_stabilizer_permutations": 1,
+      "distinct_literal_plaintexts_in_this_digit_orbit": 120,
+      "fixed_digit_class_plaintext": "TNDIEFUNSSTELLEONTXWELLENLAENGE###XTAEGLICHUM####UND####HIERBEREITXNEUERAERUFAB##NOVE",
+      "proof_checks": {
+        "adjacent_transposition_generators_checked": 4,
+        "all_generators": [
+          {
+            "swap": [
+              "5",
+              "6"
+            ],
+            "square": "4ARUT1OIFSKN37BZPVLD9JMXCWHQ2E8G05Y6",
+            "plaintext": "TNDIEFUNSSTELLEONTXWELLENLAENGE590XTAEGLICHUM0709UND1530HIERBEREITXNEUERAERUFAB18NOVE",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "6",
+              "7"
+            ],
+            "square": "4ARUT1OIFSKN36BZPVLD9JMXCWHQ2E8G07Y5",
+            "plaintext": "TNDIEFUNSSTELLEONTXWELLENLAENGE790XTAEGLICHUM0609UND1730HIERBEREITXNEUERAERUFAB18NOVE",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "7",
+              "8"
+            ],
+            "square": "4ARUT1OIFSKN38BZPVLD9JMXCWHQ2E7G06Y5",
+            "plaintext": "TNDIEFUNSSTELLEONTXWELLENLAENGE690XTAEGLICHUM0809UND1630HIERBEREITXNEUERAERUFAB17NOVE",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "8",
+              "9"
+            ],
+            "square": "4ARUT1OIFSKN37BZPVLD8JMXCWHQ2E9G06Y5",
+            "plaintext": "TNDIEFUNSSTELLEONTXWELLENLAENGE680XTAEGLICHUM0708UND1630HIERBEREITXNEUERAERUFAB19NOVE",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          }
+        ],
+        "full_enumeration": {
+          "performed": true,
+          "permutations_checked": 120,
+          "distinct_complete_squares": 120,
+          "distinct_literal_plaintexts": 120,
+          "lexicographic_permutation_stream_sha256": "74ea2abd69cf2a11023f5e5d733a5e8daba8cce5c2b9dd5d5686b3aeeb521c61"
+        }
+      },
+      "truth_comparison": {
+        "same_digit_class_text_as_truth": false,
+        "truth_in_fixed_candidate_plaintext_orbit": false,
+        "literal_matches": 74,
+        "class_matches": 80,
+        "length": 85,
+        "all_compatibility_conflicts": [
+          {
+            "kind": "fixed_symbol_mismatch",
+            "position": 0,
+            "candidate": "T",
+            "truth": "A"
+          },
+          {
+            "kind": "fixed_symbol_mismatch",
+            "position": 8,
+            "candidate": "S",
+            "truth": "K"
+          },
+          {
+            "kind": "fixed_symbol_mismatch",
+            "position": 16,
+            "candidate": "N",
+            "truth": "S"
+          },
+          {
+            "kind": "target_not_permutable",
+            "position": 48,
+            "candidate": "9",
+            "truth": "0"
+          },
+          {
+            "kind": "fixed_symbol_mismatch",
+            "position": 57,
+            "candidate": "I",
+            "truth": "O"
+          },
+          {
+            "kind": "fixed_symbol_mismatch",
+            "position": 73,
+            "candidate": "E",
+            "truth": "N"
+          }
+        ]
+      }
+    },
+    {
+      "result_id": "numeric_holdout_2_Nov10-12_radio_class",
+      "control_id": "numeric_holdout_2_Nov10-12",
+      "model": "radio_class",
+      "fixed_column_rank_order": [
+        9,
+        12,
+        7,
+        11,
+        3,
+        8,
+        16,
+        6,
+        14,
+        2,
+        10,
+        15,
+        5,
+        13,
+        1,
+        4
+      ],
+      "fixed_loss_positions": [
+        72,
+        91,
+        113,
+        117,
+        161
+      ],
+      "fixed_coordinate_fill": "VGDGG",
+      "base_square": "4ARUT1OIFSKN35BZPVLD7JMXCWHQ2E9G08Y6",
+      "base_plaintext": "UNDIEFUNKSTELLEOSTXDELLENLAENGE870XTAEGLICHUM0507UND1830HIERBEREITXNEUERAERUFAB19NOVE",
+      "complete_ciphertext": "DDVXGXXVAAXAXXDVXFXFXGAGAGVDVGADXAXGAFFXFXAVGVXFFAVFDXDXVGDFXGXDDAGXVADAVDDVXDXFXXXFAADDDGDGVDAXDGGXVXXVAAXGVAFAGDVXXGVGXFDFFDDAGXAXDDAFXFVGVDAGAFVDVFAADXFGXGDDVGVAAGADAF",
+      "complete_ciphertext_sha256": "bf7e814b6b02da5b20f75fe39aec777e1cc3bb132257f59ae8cec6d1ea457d78",
+      "received_ciphertext_sha256": "6474b9c81f7d7aa7a47206ea62b8813c143ed316db6a17f4ed0cd45842975d8d",
+      "anchored_digits": "01234",
+      "permutable_unanchored_digits": "56789",
+      "k": 5,
+      "permutable_digits_occurring_in_candidate_plaintext": "5789",
+      "r": 4,
+      "distinct_complete_squares_in_this_digit_orbit": 120,
+      "plaintext_stabilizer_permutations": 1,
+      "distinct_literal_plaintexts_in_this_digit_orbit": 120,
+      "fixed_digit_class_plaintext": "UNDIEFUNKSTELLEOSTXDELLENLAENGE###XTAEGLICHUM####UND####HIERBEREITXNEUERAERUFAB##NOVE",
+      "proof_checks": {
+        "adjacent_transposition_generators_checked": 4,
+        "all_generators": [
+          {
+            "swap": [
+              "5",
+              "6"
+            ],
+            "square": "4ARUT1OIFSKN36BZPVLD7JMXCWHQ2E9G08Y5",
+            "plaintext": "UNDIEFUNKSTELLEOSTXDELLENLAENGE870XTAEGLICHUM0607UND1830HIERBEREITXNEUERAERUFAB19NOVE",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "6",
+              "7"
+            ],
+            "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E9G08Y7",
+            "plaintext": "UNDIEFUNKSTELLEOSTXDELLENLAENGE860XTAEGLICHUM0506UND1830HIERBEREITXNEUERAERUFAB19NOVE",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "7",
+              "8"
+            ],
+            "square": "4ARUT1OIFSKN35BZPVLD8JMXCWHQ2E9G07Y6",
+            "plaintext": "UNDIEFUNKSTELLEOSTXDELLENLAENGE780XTAEGLICHUM0508UND1730HIERBEREITXNEUERAERUFAB19NOVE",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          },
+          {
+            "swap": [
+              "8",
+              "9"
+            ],
+            "square": "4ARUT1OIFSKN35BZPVLD7JMXCWHQ2E8G09Y6",
+            "plaintext": "UNDIEFUNKSTELLEOSTXDELLENLAENGE970XTAEGLICHUM0507UND1930HIERBEREITXNEUERAERUFAB18NOVE",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          }
+        ],
+        "full_enumeration": {
+          "performed": true,
+          "permutations_checked": 120,
+          "distinct_complete_squares": 120,
+          "distinct_literal_plaintexts": 120,
+          "lexicographic_permutation_stream_sha256": "8b761c668d7dc74fb157cf31c7e356f262533b74bb3c27d4cdc2a0bf14e1b542"
+        }
+      },
+      "truth_comparison": {
+        "same_digit_class_text_as_truth": false,
+        "truth_in_fixed_candidate_plaintext_orbit": false,
+        "literal_matches": 77,
+        "class_matches": 81,
+        "length": 85,
+        "all_compatibility_conflicts": [
+          {
+            "kind": "fixed_symbol_mismatch",
+            "position": 0,
+            "candidate": "U",
+            "truth": "A"
+          },
+          {
+            "kind": "fixed_symbol_mismatch",
+            "position": 19,
+            "candidate": "D",
+            "truth": "W"
+          },
+          {
+            "kind": "target_not_permutable",
+            "position": 48,
+            "candidate": "7",
+            "truth": "0"
+          },
+          {
+            "kind": "fixed_symbol_mismatch",
+            "position": 57,
+            "candidate": "I",
+            "truth": "O"
+          },
+          {
+            "kind": "fixed_symbol_mismatch",
+            "position": 73,
+            "candidate": "E",
+            "truth": "N"
+          }
+        ]
+      }
+    },
+    {
+      "result_id": "numeric_holdout_3_Nov7-9_book_class",
+      "control_id": "numeric_holdout_3_Nov7-9",
+      "model": "book_class",
+      "fixed_column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ],
+      "fixed_loss_positions": [
+        39,
+        71,
+        81,
+        145,
+        152
+      ],
+      "fixed_coordinate_fill": "DFXXV",
+      "base_square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "base_plaintext": "FUGR235XDERBEFEHLNR1947VOM16NOVEMBERWIRDUM2300AUSGEFUEHRTX3KOMPANTENBLEIBENBIS18NOVEM",
+      "complete_ciphertext": "DDFAGAAGGVXVGAVXDDVAAVAGGVGXVGGDADXAXAVDVVXAGGADFDXAGVDAXAGFGDFDVVXXAXDFAXGDGVDGDXAXGGVFFDVAXAXDFAVVXVGADGXDVVGDVXVDXGGFVXAVFXFGXAXGGDDXDDVGFGVVGXAXFDDDVXDFFXDVDFXAXADDGF",
+      "complete_ciphertext_sha256": "d864fbd5e5c9ac98b7db276faccd9234bb6dcd409bfb9aa61201ea9542f21cc0",
+      "received_ciphertext_sha256": "f320e1fed81e0095f4c1ca12dee93a87d5c9010cc7d4c1067755a0f8c2cb04f9",
+      "anchored_digits": "01234789",
+      "permutable_unanchored_digits": "56",
+      "k": 2,
+      "permutable_digits_occurring_in_candidate_plaintext": "56",
+      "r": 2,
+      "distinct_complete_squares_in_this_digit_orbit": 2,
+      "plaintext_stabilizer_permutations": 1,
+      "distinct_literal_plaintexts_in_this_digit_orbit": 2,
+      "fixed_digit_class_plaintext": "FUGR###XDERBEFEHLNR####VOM##NOVEMBERWIRDUM####AUSGEFUEHRTX#KOMPANTENBLEIBENBIS##NOVEM",
+      "proof_checks": {
+        "adjacent_transposition_generators_checked": 1,
+        "all_generators": [
+          {
+            "swap": [
+              "5",
+              "6"
+            ],
+            "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+            "plaintext": "FUGR236XDERBEFEHLNR1947VOM15NOVEMBERWIRDUM2300AUSGEFUEHRTX3KOMPANTENBLEIBENBIS18NOVEM",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          }
+        ],
+        "full_enumeration": {
+          "performed": true,
+          "permutations_checked": 2,
+          "distinct_complete_squares": 2,
+          "distinct_literal_plaintexts": 2,
+          "lexicographic_permutation_stream_sha256": "321e10383586b1ea2c975c76d530a6aab86edcda1eb4ee4d72f61d429dd9f65c"
+        }
+      },
+      "truth_comparison": {
+        "same_digit_class_text_as_truth": false,
+        "truth_in_fixed_candidate_plaintext_orbit": false,
+        "literal_matches": 82,
+        "class_matches": 84,
+        "length": 85,
+        "all_compatibility_conflicts": [
+          {
+            "kind": "fixed_symbol_mismatch",
+            "position": 65,
+            "candidate": "T",
+            "truth": "I"
+          }
+        ]
+      }
+    },
+    {
+      "result_id": "numeric_holdout_3_Nov7-9_radio_class",
+      "control_id": "numeric_holdout_3_Nov7-9",
+      "model": "radio_class",
+      "fixed_column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ],
+      "fixed_loss_positions": [
+        39,
+        71,
+        81,
+        145,
+        152
+      ],
+      "fixed_coordinate_fill": "DFXXV",
+      "base_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "base_plaintext": "FUGR236XDERBEFEHLNR1947VOM15NOVEMBERWIRDUM2300AUSGEFUEHRTX3KOMPANTENBLEIBENBIS18NOVEM",
+      "complete_ciphertext": "DDFAGAAGGVXVGAVXDDVAAVAGGVGXVGGDADXAXAVDVVXAGGADFDXAGVDAXAGFGDFDVVXXAXDFAXGDGVDGDXAXGGVFFDVAXAXDFAVVXVGADGXDVVGDVXVDXGGFVXAVFXFGXAXGGDDXDDVGFGVVGXAXFDDDVXDFFXDVDFXAXADDGF",
+      "complete_ciphertext_sha256": "d864fbd5e5c9ac98b7db276faccd9234bb6dcd409bfb9aa61201ea9542f21cc0",
+      "received_ciphertext_sha256": "f320e1fed81e0095f4c1ca12dee93a87d5c9010cc7d4c1067755a0f8c2cb04f9",
+      "anchored_digits": "01234789",
+      "permutable_unanchored_digits": "56",
+      "k": 2,
+      "permutable_digits_occurring_in_candidate_plaintext": "56",
+      "r": 2,
+      "distinct_complete_squares_in_this_digit_orbit": 2,
+      "plaintext_stabilizer_permutations": 1,
+      "distinct_literal_plaintexts_in_this_digit_orbit": 2,
+      "fixed_digit_class_plaintext": "FUGR###XDERBEFEHLNR####VOM##NOVEMBERWIRDUM####AUSGEFUEHRTX#KOMPANTENBLEIBENBIS##NOVEM",
+      "proof_checks": {
+        "adjacent_transposition_generators_checked": 1,
+        "all_generators": [
+          {
+            "swap": [
+              "5",
+              "6"
+            ],
+            "square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+            "plaintext": "FUGR235XDERBEFEHLNR1947VOM16NOVEMBERWIRDUM2300AUSGEFUEHRTX3KOMPANTENBLEIBENBIS18NOVEM",
+            "ciphertext_unchanged": true,
+            "loss_and_fill_unchanged": true,
+            "class_text_unchanged": true
+          }
+        ],
+        "full_enumeration": {
+          "performed": true,
+          "permutations_checked": 2,
+          "distinct_complete_squares": 2,
+          "distinct_literal_plaintexts": 2,
+          "lexicographic_permutation_stream_sha256": "460a3fd09c4fc24e3f00501caeb897085317fe14ca39d316a25d25defaa964ce"
+        }
+      },
+      "truth_comparison": {
+        "same_digit_class_text_as_truth": false,
+        "truth_in_fixed_candidate_plaintext_orbit": false,
+        "literal_matches": 84,
+        "class_matches": 84,
+        "length": 85,
+        "all_compatibility_conflicts": [
+          {
+            "kind": "fixed_symbol_mismatch",
+            "position": 65,
+            "candidate": "T",
+            "truth": "I"
+          }
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "Counts are exact per recorded candidate orbit, not totals over every possible full-square completion or loss geometry.",
+    "The eight rows are separate optimization outcomes; their orbit sizes must not be added as if their unions were disjoint.",
+    "An 85/85 class match need not preserve the true digit-equality pattern; the two CHI rows demonstrate this explicitly.",
+    "These invented controls establish an identifiability limit of the declared objective, not any historical numerical value."
+  ]
+}
