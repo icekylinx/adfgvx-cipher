@@ -1,0 +1,64 @@
+#!/usr/bin/env python3
+"""Check both equivalent p153 rank representations against a pinned wordlist."""
+import argparse
+import hashlib
+import json
+from pathlib import Path
+
+PIN = '3573b3957d004f1b3dc8b84f24bd944234e52c75fe596a8381e1dcf9de0a0495'
+RANKS = [16, 7, 13, 4, 15, 8, 17, 3, 1, 12, 14, 2, 5, 9, 10, 18, 11, 6]
+MASK19 = '?T?UGI???????WO?CMB??SZ??NDH?VEA??LR'
+MASK20 = '?TXUGI???????WO?CMB??SZ??NDH?VEA??LR'
+
+
+def ranks(word):
+    result = [0] * len(word)
+    for rank, column in enumerate(sorted(range(len(word)), key=lambda i: (word[i], i)), 1):
+        result[column] = rank
+    return result
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--wordlist', type=Path, required=True)
+    parser.add_argument('--output', type=Path, required=True)
+    args = parser.parse_args()
+    data = args.wordlist.read_bytes()
+    assert hashlib.sha256(data).hexdigest() == PIN
+    words = data.decode('ascii').splitlines()
+    assert len(words) == 724720 and words == sorted(set(words))
+    assert all(word.isalpha() and word.isupper() for word in words)
+    words18 = [word for word in words if len(word) == 18]
+    equivalent = [RANKS[i ^ 1] for i in range(18)]
+    hits = {'discovered': [], 'pair_swapped_and_square_transposed': []}
+    for word in words18:
+        order = ranks(word)
+        if order == RANKS:
+            hits['discovered'].append(word)
+        if order == equivalent:
+            hits['pair_swapped_and_square_transposed'].append(word)
+    result = {
+        'wordlist_sha256': PIN, 'normalized_word_count': len(words),
+        'width_18_word_count': len(words18),
+        'distinct_width_18_rank_permutations': len({tuple(ranks(word)) for word in words18}),
+        'rank_convention': 'One-based transmission ranks indexed by physical column; repeated keyword letters are ranked from left to right.',
+        'discovered_ranks': RANKS, 'equivalent_ranks': equivalent,
+        'matches': hits,
+        'conclusion': 'No exact keyword match in either representation of this pinned dictionary. This bounded result does not exclude a different keyword, phrase, spelling, ranking convention or generated transposition.',
+        'square_evidence_layers': {
+            'first_part_60_letter_crib': {'partial_square': MASK19, 'specified_cells': 19,
+                'unassigned_cells': 17, 'unconstrained_bijective_completions': '355687428096000',
+                'scope': 'Conditional mappings implied by the discovered clear-word crib and received coordinates; no historical keyword or date/number assignment is inferred.'},
+            'optional_footer_separator_interpretation': {'partial_square': MASK20, 'specified_cells': 20,
+                'extra_cell_index': 2, 'extra_coordinate_pair': 'AF', 'extra_character': 'X',
+                'unassigned_cells': 16, 'unconstrained_bijective_completions': '20922789888000',
+                'scope': 'The additional X is a plausible interpretation of part-6 separators. It is absent from the first-part 60-letter crib and is not an independently forced twentieth cell.'}
+        },
+        'equivalence': 'Swap the two physical columns in every adjacent pair and transpose the 6 by 6 square. Both even-length messages have identical heights within each adjacent column pair, so all ciphertext constraints are preserved.'
+    }
+    args.output.write_text(json.dumps(result, indent=2) + '\n')
+    print(json.dumps({'words18': len(words18), 'matches': hits}))
+
+
+if __name__ == '__main__':
+    main()

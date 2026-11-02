@@ -3,7 +3,7 @@
   "cases": [
     {
       "id": "p153",
-      "kind": "historical_unresolved",
+      "kind": "historical_partial_recovery",
       "ids": [
         "p153a",
         "p153b"
@@ -210,6 +210,104 @@
       ],
       "square": "O8TVB9JPGL0F1UNICQA5WKX67Y4HDE2MRS3Z",
       "generation_seed": 2026110518,
+      "erased_positions_part2": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "plaintext_used_in_training": false,
+      "key_and_plaintext_for_evaluation_only": true
+    },
+    {
+      "id": "original_control_k14",
+      "kind": "invented_control",
+      "ciphertexts": [
+        "FVDDVAFVAXFDAXGFDAVVVFFGGDGDADFVADGVAAAGGVAAVVVGDXAAGGGAGAFGGAVVAAGDVVGFFGDAGVVGFAAVAGXAAADVGGFADDGFAAVFGXAAVFDXFAXAVVFFGAAGGVGAAGGV",
+        "AAAAA???????????????FAFVGGGAVGAGAVVGGADGDAFFDDVFGGVVAVAAXFGXVAGGGGGGVFVGGVGFAXGXXGDAGFVFFAXXGAAVAVDDAVGXVAAA"
+      ],
+      "plaintexts": [
+        "DERBEFEHLZUMABMARSCHISTNICHTEINGETROFFENXDIEFUNKSTELLEWARTETXENDEX",
+        "ALLETRUPPENVERBLEIBENBISZURNEUENWEISUNGANBISHERIGEMORT"
+      ],
+      "ranks": [
+        11,
+        4,
+        6,
+        9,
+        3,
+        13,
+        2,
+        14,
+        8,
+        7,
+        10,
+        1,
+        12,
+        5
+      ],
+      "square": "5HVITQX8MLSYDOJUN7E4FPW1R2KC9ZG60BA3",
+      "generation_seed": 2026110614,
+      "erased_positions_part2": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "plaintext_used_in_training": false,
+      "key_and_plaintext_for_evaluation_only": true
+    },
+    {
+      "id": "fresh_control_k14",
+      "kind": "invented_control",
+      "ciphertexts": [
+        "GFAGFXFGVGFDGDVAVDFDXGFVGDGDVGXGADGDVDXAVXGDDGGFFFFAGGXAGFFADFDVFXAFVADVDDVGXDDFFDGAGADDDFDXDDFFGAVAVGGVDFGAGAGFDFDFXFGFGDAXFFXAGFDA",
+        "AFGAG???????????????AGVFGFAFGGDDFFDAGGAVFFVFDDGFGAAFFADDXVDFDVGFVFDFDAADVDFFDGGGAXFGFDVFAAADAXFDFFXFGAVXGDGX"
+      ],
+      "plaintexts": [
+        "DASREGIMENTSETZTDENMARSCHBEITAGESANBRUCHFORTXWEITEREBEFEHLEFOLGENX",
+        "DIEFUNKSTELLEBLEIBTBISACHTUHRAMALTENSTANDORTERREICHBAR"
+      ],
+      "ranks": [
+        9,
+        3,
+        7,
+        13,
+        11,
+        8,
+        12,
+        2,
+        6,
+        5,
+        4,
+        10,
+        1,
+        14
+      ],
+      "square": "KUAHCP4F6R0ZN9TJBSWED35IGLV2XYQM7O18",
+      "generation_seed": 2026110714,
       "erased_positions_part2": [
         5,
         6,

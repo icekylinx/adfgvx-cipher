@@ -1,6 +1,6 @@
 {
   "schema": "adfgvx-cli-regressions-v1",
-  "passed": 19,
+  "passed": 24,
   "synthetic_flat_models_are_not_training_data": true,
   "cases": [
     {
@@ -24,42 +24,67 @@
       "nonempty_incumbent_required": true
     },
     {
-      "case": "pair solver rejects malformed square 4",
+      "case": "pair_marginal rejects malformed square 4",
       "returncode": 2,
       "nonempty_incumbent_required": false
     },
     {
-      "case": "pair solver rejects malformed square 5",
+      "case": "pair_marginal rejects malformed square 5",
       "returncode": 2,
       "nonempty_incumbent_required": false
     },
     {
-      "case": "pair solver rejects malformed square 6",
+      "case": "pair_marginal rejects malformed square 6",
       "returncode": 2,
       "nonempty_incumbent_required": false
     },
     {
-      "case": "pair solver records initial state with one proposal",
+      "case": "pair_marginal records initial state with one proposal",
       "returncode": 0,
       "nonempty_incumbent_required": true
     },
     {
-      "case": "pair solver rejects odd coordinates",
+      "case": "pair_marginal rejects odd coordinates",
       "returncode": 2,
       "nonempty_incumbent_required": false
     },
     {
-      "case": "exact-domain solver rejects malformed complete square 9",
+      "case": "joint_rectangle_warm rejects malformed square 9",
       "returncode": 2,
       "nonempty_incumbent_required": false
     },
     {
-      "case": "exact-domain solver rejects malformed complete square 10",
+      "case": "joint_rectangle_warm rejects malformed square 10",
       "returncode": 2,
       "nonempty_incumbent_required": false
     },
     {
-      "case": "exact-domain solver rejects malformed complete square 11",
+      "case": "joint_rectangle_warm rejects malformed square 11",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "joint_rectangle_warm records initial state with one proposal",
+      "returncode": 0,
+      "nonempty_incumbent_required": true
+    },
+    {
+      "case": "joint_rectangle_warm rejects odd coordinates",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "exact-domain solver rejects malformed complete square 14",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "exact-domain solver rejects malformed complete square 15",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "exact-domain solver rejects malformed complete square 16",
       "returncode": 2,
       "nonempty_incumbent_required": false
     },

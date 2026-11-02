@@ -1,0 +1,1770 @@
+{
+  "schema": "adfgvx-p153-partial-recovery-v1",
+  "status": "Substantial partial reading; unresolved numeral identities, trailing text, erasures, and two printed-coordinate anomalies.",
+  "message_ids": [
+    "p153a",
+    "p153b"
+  ],
+  "source_date": "1918-11-08",
+  "source_header": "FKR v CGH, 11.55 p.m., 2250; labels 5 TL CHI-132 and 6 TL CHI-108. Multipart traffic with at least six parts; no explicit total part count.",
+  "source_transcription_unchanged": true,
+  "ciphertexts": [
+    "VFVAXFXDADADVGXFAVGDVDDDADXGAAAXVGVFVDADDXADADVVAVGFXDAGDDDGDXGGGVVXDXFVVAVVVFAXFXDXAFAVVGGXAVXVFVXVFGFVAXGAAVXXGDXXFVXFXGGVADAVAFDG",
+    "AXVAA???????????????DDAFFVAXAGGADAFDXAXXXVDGDXVXFFGXFAVVAADAGXXXAXDDGVAVAXVAXAAVVXVAVGXAXXFGXXFAAAFXVADFDXVF"
+  ],
+  "ciphertext_sha256": [
+    "f6d233389e90259078412b59cfb64786569947861bd15792d66eb3afb18b0c6c",
+    "074df6362db6a685f3fb12032e6db7277cdd39d871c03197ba23b491dd6b1689"
+  ],
+  "received_coordinate_counts": [
+    132,
+    108
+  ],
+  "observed_coordinate_counts": [
+    132,
+    93
+  ],
+  "erased_positions": [
+    [],
+    [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  ],
+  "ranks": [
+    16,
+    7,
+    13,
+    4,
+    15,
+    8,
+    17,
+    3,
+    1,
+    12,
+    14,
+    2,
+    5,
+    9,
+    10,
+    18,
+    11,
+    6
+  ],
+  "rank_convention": "One-based transmission ranks indexed by physical column; character positions are zero-based.",
+  "raw_search_square": "KTXUGI38J416PWOYCMBF5SZQ2NDH0VEA79LR",
+  "raw_search_decodes": [
+    "ANORDNUNGENVOMPTENFFTENNR121BEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+    "M?N?T?ONSB?S?A?DDERNA?H?UTARTI?G?RIEMEL?K?X1XGXR???BXA"
+  ],
+  "raw_label_warning": "The fitted P/F/digit labels and rare cells are not recovered literal plaintext characters.",
+  "core_partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+  "core_known_cells": 19,
+  "optional_separator_partial_square": "?TXUGI???????WO?CMB??SZ??NDH?VEA??LR",
+  "optional_separator_interpretation": "X at cell 2 is a plausible separator interpretation, separate from the 19-letter core.",
+  "core_decodes": [
+    "ANORDNUNGENVOM?TEN??TENNR???BEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+    "M?N?T?ONSB?S?A?DDERNA?H?UTARTI?G?RIEMEL??????G?R???B?A"
+  ],
+  "core_letter_positions": [
+    60,
+    33
+  ],
+  "clear_spans_part5": [
+    {
+      "start": 0,
+      "end_exclusive": 14,
+      "text": "ANORDNUNGENVOM"
+    },
+    {
+      "start": 15,
+      "end_exclusive": 18,
+      "text": "TEN"
+    },
+    {
+      "start": 20,
+      "end_exclusive": 25,
+      "text": "TENNR"
+    },
+    {
+      "start": 28,
+      "end_exclusive": 66,
+      "text": "BEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN"
+    }
+  ],
+  "part5_readable_pattern": "ANORDNUNGEN VOM <alpha>TEN <beta><beta>TEN NR <gamma><delta><gamma> BEZIEHEN LASSEN SOWEIT NOCH NICHT GESCHEHEN",
+  "numeral_cells": [
+    {
+      "label": "alpha_day",
+      "square_cell": 12,
+      "coordinates": "FA",
+      "positions_in_part5": [
+        14
+      ],
+      "assigned_plaintext": null
+    },
+    {
+      "label": "beta_repeated_month",
+      "square_cell": 19,
+      "coordinates": "GD",
+      "positions_in_part5": [
+        18,
+        19
+      ],
+      "assigned_plaintext": null
+    },
+    {
+      "label": "gamma_serial",
+      "square_cell": 10,
+      "coordinates": "DV",
+      "positions_in_part5": [
+        25,
+        27
+      ],
+      "assigned_plaintext": null
+    },
+    {
+      "label": "delta_serial",
+      "square_cell": 24,
+      "coordinates": "VA",
+      "positions_in_part5": [
+        26
+      ],
+      "assigned_plaintext": null
+    }
+  ],
+  "numeral_constraints": "The four cells are distinct in an injective square. November=11 is contextual, not assigned here; that interpretation makes gamma different from 1, so fitted NR121 is not a recovered number.",
+  "part6_body_hypothesis": {
+    "text": "MUNITIONSBESTANDDERNACHHUTARTILLERIEMELDEN",
+    "english": "Report the ammunition inventory of the rearguard artillery.",
+    "status": "Linguistic reconstruction with twelve source erasures and two explicit coordinate emendations; not the untouched literal decode.",
+    "unchanged_observed_coordinates_matching_body": 70,
+    "observed_coordinates_constrained_by_body": 72,
+    "inferred_erased_coordinates": [
+      {
+        "received_position": 6,
+        "proposed_coordinate": "X"
+      },
+      {
+        "received_position": 7,
+        "proposed_coordinate": "D"
+      },
+      {
+        "received_position": 8,
+        "proposed_coordinate": "G"
+      },
+      {
+        "received_position": 9,
+        "proposed_coordinate": "A"
+      },
+      {
+        "received_position": 10,
+        "proposed_coordinate": "D"
+      },
+      {
+        "received_position": 12,
+        "proposed_coordinate": "X"
+      },
+      {
+        "received_position": 13,
+        "proposed_coordinate": "D"
+      },
+      {
+        "received_position": 14,
+        "proposed_coordinate": "V"
+      },
+      {
+        "received_position": 15,
+        "proposed_coordinate": "V"
+      },
+      {
+        "received_position": 16,
+        "proposed_coordinate": "F"
+      },
+      {
+        "received_position": 18,
+        "proposed_coordinate": "G"
+      },
+      {
+        "received_position": 19,
+        "proposed_coordinate": "A"
+      }
+    ],
+    "inferred_erased_plaintext_letters": [
+      {
+        "plaintext_position": 1,
+        "proposed_letter": "U",
+        "received_digraph": "A?",
+        "surviving_coordinate_consistent": true
+      },
+      {
+        "plaintext_position": 3,
+        "proposed_letter": "I",
+        "received_digraph": "A?",
+        "surviving_coordinate_consistent": true
+      },
+      {
+        "plaintext_position": 5,
+        "proposed_letter": "I",
+        "received_digraph": "A?",
+        "surviving_coordinate_consistent": true
+      },
+      {
+        "plaintext_position": 10,
+        "proposed_letter": "E",
+        "received_digraph": "X?",
+        "surviving_coordinate_consistent": true
+      },
+      {
+        "plaintext_position": 12,
+        "proposed_letter": "T",
+        "received_digraph": "A?",
+        "surviving_coordinate_consistent": true
+      },
+      {
+        "plaintext_position": 14,
+        "proposed_letter": "N",
+        "received_digraph": "V?",
+        "surviving_coordinate_consistent": true
+      },
+      {
+        "plaintext_position": 21,
+        "proposed_letter": "C",
+        "received_digraph": "F?",
+        "surviving_coordinate_consistent": true
+      },
+      {
+        "plaintext_position": 23,
+        "proposed_letter": "H",
+        "received_digraph": "V?",
+        "surviving_coordinate_consistent": true
+      },
+      {
+        "plaintext_position": 30,
+        "proposed_letter": "L",
+        "received_digraph": "X?",
+        "surviving_coordinate_consistent": true
+      },
+      {
+        "plaintext_position": 32,
+        "proposed_letter": "E",
+        "received_digraph": "X?",
+        "surviving_coordinate_consistent": true
+      },
+      {
+        "plaintext_position": 39,
+        "proposed_letter": "D",
+        "received_digraph": "V?",
+        "surviving_coordinate_consistent": true
+      },
+      {
+        "plaintext_position": 41,
+        "proposed_letter": "N",
+        "received_digraph": "V?",
+        "surviving_coordinate_consistent": true
+      }
+    ],
+    "printed_coordinate_disagreements": [
+      {
+        "received_position": 3,
+        "printed": "A",
+        "body_requires": "X"
+      },
+      {
+        "received_position": 4,
+        "printed": "A",
+        "body_requires": "X"
+      }
+    ],
+    "source_scan_confirms_printed_AA": true,
+    "constrained_received_stream": "AXVXX?XDGAD?XDVVF?GADDA?FVAX??GADA??XAXXX?DGDXV?FFGX??VVAA??GXXX??DDGVA?AXVAX?AVVXV?VGXAX?FGXXF?AAFXV?DFDX??",
+    "unresolved_erased_received_positions": [
+      5,
+      11,
+      17
+    ],
+    "trailing_plaintext_positions": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  "source_coordinate_maps": [
+    [
+      {
+        "plaintext_position": 0,
+        "received_coordinate_positions": [
+          110,
+          43
+        ],
+        "received_digraph": "XD",
+        "square_cell": 31,
+        "core_letter": "A",
+        "raw_search_label": "A",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 1,
+        "received_coordinate_positions": [
+          87,
+          21
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 2,
+        "received_coordinate_positions": [
+          102,
+          51
+        ],
+        "received_digraph": "FF",
+        "square_cell": 14,
+        "core_letter": "O",
+        "raw_search_label": "O",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 3,
+        "received_coordinate_positions": [
+          118,
+          14
+        ],
+        "received_digraph": "XX",
+        "square_cell": 35,
+        "core_letter": "R",
+        "raw_search_label": "R",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 4,
+        "received_coordinate_positions": [
+          0,
+          80
+        ],
+        "received_digraph": "VF",
+        "square_cell": 26,
+        "core_letter": "D",
+        "raw_search_label": "D",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 5,
+        "received_coordinate_positions": [
+          95,
+          7
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 6,
+        "received_coordinate_positions": [
+          29,
+          59
+        ],
+        "received_digraph": "AG",
+        "square_cell": 3,
+        "core_letter": "U",
+        "raw_search_label": "U",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 7,
+        "received_coordinate_positions": [
+          66,
+          125
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 8,
+        "received_coordinate_positions": [
+          73,
+          36
+        ],
+        "received_digraph": "AV",
+        "square_cell": 4,
+        "core_letter": "G",
+        "raw_search_label": "G",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 9,
+        "received_coordinate_positions": [
+          111,
+          44
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 10,
+        "received_coordinate_positions": [
+          88,
+          22
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 11,
+        "received_coordinate_positions": [
+          103,
+          52
+        ],
+        "received_digraph": "VX",
+        "square_cell": 29,
+        "core_letter": "V",
+        "raw_search_label": "V",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 12,
+        "received_coordinate_positions": [
+          119,
+          15
+        ],
+        "received_digraph": "FF",
+        "square_cell": 14,
+        "core_letter": "O",
+        "raw_search_label": "O",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 13,
+        "received_coordinate_positions": [
+          1,
+          81
+        ],
+        "received_digraph": "FX",
+        "square_cell": 17,
+        "core_letter": "M",
+        "raw_search_label": "M",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 14,
+        "received_coordinate_positions": [
+          96,
+          8
+        ],
+        "received_digraph": "FA",
+        "square_cell": 12,
+        "core_letter": null,
+        "raw_search_label": "P",
+        "uncertainty": "unassigned_square_cell"
+      },
+      {
+        "plaintext_position": 15,
+        "received_coordinate_positions": [
+          30,
+          60
+        ],
+        "received_digraph": "AD",
+        "square_cell": 1,
+        "core_letter": "T",
+        "raw_search_label": "T",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 16,
+        "received_coordinate_positions": [
+          67,
+          126
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 17,
+        "received_coordinate_positions": [
+          74,
+          37
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 18,
+        "received_coordinate_positions": [
+          112,
+          45
+        ],
+        "received_digraph": "GD",
+        "square_cell": 19,
+        "core_letter": null,
+        "raw_search_label": "F",
+        "uncertainty": "unassigned_square_cell"
+      },
+      {
+        "plaintext_position": 19,
+        "received_coordinate_positions": [
+          89,
+          23
+        ],
+        "received_digraph": "GD",
+        "square_cell": 19,
+        "core_letter": null,
+        "raw_search_label": "F",
+        "uncertainty": "unassigned_square_cell"
+      },
+      {
+        "plaintext_position": 20,
+        "received_coordinate_positions": [
+          104,
+          53
+        ],
+        "received_digraph": "AD",
+        "square_cell": 1,
+        "core_letter": "T",
+        "raw_search_label": "T",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 21,
+        "received_coordinate_positions": [
+          120,
+          16
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 22,
+        "received_coordinate_positions": [
+          2,
+          82
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 23,
+        "received_coordinate_positions": [
+          97,
+          9
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 24,
+        "received_coordinate_positions": [
+          31,
+          61
+        ],
+        "received_digraph": "XX",
+        "square_cell": 35,
+        "core_letter": "R",
+        "raw_search_label": "R",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 25,
+        "received_coordinate_positions": [
+          68,
+          127
+        ],
+        "received_digraph": "DV",
+        "square_cell": 10,
+        "core_letter": null,
+        "raw_search_label": "1",
+        "uncertainty": "unassigned_square_cell"
+      },
+      {
+        "plaintext_position": 26,
+        "received_coordinate_positions": [
+          75,
+          38
+        ],
+        "received_digraph": "VA",
+        "square_cell": 24,
+        "core_letter": null,
+        "raw_search_label": "2",
+        "uncertainty": "unassigned_square_cell"
+      },
+      {
+        "plaintext_position": 27,
+        "received_coordinate_positions": [
+          113,
+          46
+        ],
+        "received_digraph": "DV",
+        "square_cell": 10,
+        "core_letter": null,
+        "raw_search_label": "1",
+        "uncertainty": "unassigned_square_cell"
+      },
+      {
+        "plaintext_position": 28,
+        "received_coordinate_positions": [
+          90,
+          24
+        ],
+        "received_digraph": "GA",
+        "square_cell": 18,
+        "core_letter": "B",
+        "raw_search_label": "B",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 29,
+        "received_coordinate_positions": [
+          105,
+          54
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 30,
+        "received_coordinate_positions": [
+          121,
+          17
+        ],
+        "received_digraph": "GV",
+        "square_cell": 22,
+        "core_letter": "Z",
+        "raw_search_label": "Z",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 31,
+        "received_coordinate_positions": [
+          3,
+          83
+        ],
+        "received_digraph": "AX",
+        "square_cell": 5,
+        "core_letter": "I",
+        "raw_search_label": "I",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 32,
+        "received_coordinate_positions": [
+          98,
+          10
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 33,
+        "received_coordinate_positions": [
+          32,
+          62
+        ],
+        "received_digraph": "VG",
+        "square_cell": 27,
+        "core_letter": "H",
+        "raw_search_label": "H",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 34,
+        "received_coordinate_positions": [
+          69,
+          128
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 35,
+        "received_coordinate_positions": [
+          76,
+          39
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 36,
+        "received_coordinate_positions": [
+          114,
+          47
+        ],
+        "received_digraph": "XV",
+        "square_cell": 34,
+        "core_letter": "L",
+        "raw_search_label": "L",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 37,
+        "received_coordinate_positions": [
+          91,
+          25
+        ],
+        "received_digraph": "XD",
+        "square_cell": 31,
+        "core_letter": "A",
+        "raw_search_label": "A",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 38,
+        "received_coordinate_positions": [
+          106,
+          55
+        ],
+        "received_digraph": "GG",
+        "square_cell": 21,
+        "core_letter": "S",
+        "raw_search_label": "S",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 39,
+        "received_coordinate_positions": [
+          122,
+          18
+        ],
+        "received_digraph": "GG",
+        "square_cell": 21,
+        "core_letter": "S",
+        "raw_search_label": "S",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 40,
+        "received_coordinate_positions": [
+          4,
+          84
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 41,
+        "received_coordinate_positions": [
+          99,
+          11
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 42,
+        "received_coordinate_positions": [
+          33,
+          63
+        ],
+        "received_digraph": "GG",
+        "square_cell": 21,
+        "core_letter": "S",
+        "raw_search_label": "S",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 43,
+        "received_coordinate_positions": [
+          70,
+          129
+        ],
+        "received_digraph": "FF",
+        "square_cell": 14,
+        "core_letter": "O",
+        "raw_search_label": "O",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 44,
+        "received_coordinate_positions": [
+          77,
+          40
+        ],
+        "received_digraph": "FD",
+        "square_cell": 13,
+        "core_letter": "W",
+        "raw_search_label": "W",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 45,
+        "received_coordinate_positions": [
+          115,
+          48
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 46,
+        "received_coordinate_positions": [
+          92,
+          26
+        ],
+        "received_digraph": "AX",
+        "square_cell": 5,
+        "core_letter": "I",
+        "raw_search_label": "I",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 47,
+        "received_coordinate_positions": [
+          107,
+          56
+        ],
+        "received_digraph": "AD",
+        "square_cell": 1,
+        "core_letter": "T",
+        "raw_search_label": "T",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 48,
+        "received_coordinate_positions": [
+          123,
+          19
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 49,
+        "received_coordinate_positions": [
+          5,
+          85
+        ],
+        "received_digraph": "FF",
+        "square_cell": 14,
+        "core_letter": "O",
+        "raw_search_label": "O",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 50,
+        "received_coordinate_positions": [
+          100,
+          12
+        ],
+        "received_digraph": "FV",
+        "square_cell": 16,
+        "core_letter": "C",
+        "raw_search_label": "C",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 51,
+        "received_coordinate_positions": [
+          34,
+          64
+        ],
+        "received_digraph": "VG",
+        "square_cell": 27,
+        "core_letter": "H",
+        "raw_search_label": "H",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 52,
+        "received_coordinate_positions": [
+          71,
+          130
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 53,
+        "received_coordinate_positions": [
+          78,
+          41
+        ],
+        "received_digraph": "AX",
+        "square_cell": 5,
+        "core_letter": "I",
+        "raw_search_label": "I",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 54,
+        "received_coordinate_positions": [
+          116,
+          49
+        ],
+        "received_digraph": "FV",
+        "square_cell": 16,
+        "core_letter": "C",
+        "raw_search_label": "C",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 55,
+        "received_coordinate_positions": [
+          93,
+          27
+        ],
+        "received_digraph": "VG",
+        "square_cell": 27,
+        "core_letter": "H",
+        "raw_search_label": "H",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 56,
+        "received_coordinate_positions": [
+          108,
+          57
+        ],
+        "received_digraph": "AD",
+        "square_cell": 1,
+        "core_letter": "T",
+        "raw_search_label": "T",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 57,
+        "received_coordinate_positions": [
+          124,
+          20
+        ],
+        "received_digraph": "AV",
+        "square_cell": 4,
+        "core_letter": "G",
+        "raw_search_label": "G",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 58,
+        "received_coordinate_positions": [
+          6,
+          86
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 59,
+        "received_coordinate_positions": [
+          101,
+          13
+        ],
+        "received_digraph": "GG",
+        "square_cell": 21,
+        "core_letter": "S",
+        "raw_search_label": "S",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 60,
+        "received_coordinate_positions": [
+          35,
+          65
+        ],
+        "received_digraph": "FV",
+        "square_cell": 16,
+        "core_letter": "C",
+        "raw_search_label": "C",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 61,
+        "received_coordinate_positions": [
+          72,
+          131
+        ],
+        "received_digraph": "VG",
+        "square_cell": 27,
+        "core_letter": "H",
+        "raw_search_label": "H",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 62,
+        "received_coordinate_positions": [
+          79,
+          42
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 63,
+        "received_coordinate_positions": [
+          117,
+          50
+        ],
+        "received_digraph": "VG",
+        "square_cell": 27,
+        "core_letter": "H",
+        "raw_search_label": "H",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 64,
+        "received_coordinate_positions": [
+          94,
+          28
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 65,
+        "received_coordinate_positions": [
+          109,
+          58
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      }
+    ],
+    [
+      {
+        "plaintext_position": 0,
+        "received_coordinate_positions": [
+          90,
+          36
+        ],
+        "received_digraph": "FX",
+        "square_cell": 17,
+        "core_letter": "M",
+        "raw_search_label": "M",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 1,
+        "received_coordinate_positions": [
+          72,
+          18
+        ],
+        "received_digraph": "A?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 2,
+        "received_coordinate_positions": [
+          84,
+          42
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 3,
+        "received_coordinate_positions": [
+          96,
+          12
+        ],
+        "received_digraph": "A?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 4,
+        "received_coordinate_positions": [
+          0,
+          66
+        ],
+        "received_digraph": "AD",
+        "square_cell": 1,
+        "core_letter": "T",
+        "raw_search_label": "T",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 5,
+        "received_coordinate_positions": [
+          78,
+          6
+        ],
+        "received_digraph": "A?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 6,
+        "received_coordinate_positions": [
+          24,
+          48
+        ],
+        "received_digraph": "FF",
+        "square_cell": 14,
+        "core_letter": "O",
+        "raw_search_label": "O",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 7,
+        "received_coordinate_positions": [
+          54,
+          102
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 8,
+        "received_coordinate_positions": [
+          60,
+          30
+        ],
+        "received_digraph": "GG",
+        "square_cell": 21,
+        "core_letter": "S",
+        "raw_search_label": "S",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 9,
+        "received_coordinate_positions": [
+          91,
+          37
+        ],
+        "received_digraph": "GA",
+        "square_cell": 18,
+        "core_letter": "B",
+        "raw_search_label": "B",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 10,
+        "received_coordinate_positions": [
+          73,
+          19
+        ],
+        "received_digraph": "X?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 11,
+        "received_coordinate_positions": [
+          85,
+          43
+        ],
+        "received_digraph": "GG",
+        "square_cell": 21,
+        "core_letter": "S",
+        "raw_search_label": "S",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 12,
+        "received_coordinate_positions": [
+          97,
+          13
+        ],
+        "received_digraph": "A?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 13,
+        "received_coordinate_positions": [
+          1,
+          67
+        ],
+        "received_digraph": "XD",
+        "square_cell": 31,
+        "core_letter": "A",
+        "raw_search_label": "A",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 14,
+        "received_coordinate_positions": [
+          79,
+          7
+        ],
+        "received_digraph": "V?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 15,
+        "received_coordinate_positions": [
+          25,
+          49
+        ],
+        "received_digraph": "VF",
+        "square_cell": 26,
+        "core_letter": "D",
+        "raw_search_label": "D",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 16,
+        "received_coordinate_positions": [
+          55,
+          103
+        ],
+        "received_digraph": "VF",
+        "square_cell": 26,
+        "core_letter": "D",
+        "raw_search_label": "D",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 17,
+        "received_coordinate_positions": [
+          61,
+          31
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 18,
+        "received_coordinate_positions": [
+          92,
+          38
+        ],
+        "received_digraph": "XX",
+        "square_cell": 35,
+        "core_letter": "R",
+        "raw_search_label": "R",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 19,
+        "received_coordinate_positions": [
+          74,
+          20
+        ],
+        "received_digraph": "VD",
+        "square_cell": 25,
+        "core_letter": "N",
+        "raw_search_label": "N",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 20,
+        "received_coordinate_positions": [
+          86,
+          44
+        ],
+        "received_digraph": "XD",
+        "square_cell": 31,
+        "core_letter": "A",
+        "raw_search_label": "A",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 21,
+        "received_coordinate_positions": [
+          98,
+          14
+        ],
+        "received_digraph": "F?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 22,
+        "received_coordinate_positions": [
+          2,
+          68
+        ],
+        "received_digraph": "VG",
+        "square_cell": 27,
+        "core_letter": "H",
+        "raw_search_label": "H",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 23,
+        "received_coordinate_positions": [
+          80,
+          8
+        ],
+        "received_digraph": "V?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 24,
+        "received_coordinate_positions": [
+          26,
+          50
+        ],
+        "received_digraph": "AG",
+        "square_cell": 3,
+        "core_letter": "U",
+        "raw_search_label": "U",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 25,
+        "received_coordinate_positions": [
+          56,
+          104
+        ],
+        "received_digraph": "AD",
+        "square_cell": 1,
+        "core_letter": "T",
+        "raw_search_label": "T",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 26,
+        "received_coordinate_positions": [
+          62,
+          32
+        ],
+        "received_digraph": "XD",
+        "square_cell": 31,
+        "core_letter": "A",
+        "raw_search_label": "A",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 27,
+        "received_coordinate_positions": [
+          93,
+          39
+        ],
+        "received_digraph": "XX",
+        "square_cell": 35,
+        "core_letter": "R",
+        "raw_search_label": "R",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 28,
+        "received_coordinate_positions": [
+          75,
+          21
+        ],
+        "received_digraph": "AD",
+        "square_cell": 1,
+        "core_letter": "T",
+        "raw_search_label": "T",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 29,
+        "received_coordinate_positions": [
+          87,
+          45
+        ],
+        "received_digraph": "AX",
+        "square_cell": 5,
+        "core_letter": "I",
+        "raw_search_label": "I",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 30,
+        "received_coordinate_positions": [
+          99,
+          15
+        ],
+        "received_digraph": "X?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 31,
+        "received_coordinate_positions": [
+          3,
+          69
+        ],
+        "received_digraph": "AV",
+        "square_cell": 4,
+        "core_letter": "G",
+        "raw_search_label": "G",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 32,
+        "received_coordinate_positions": [
+          81,
+          9
+        ],
+        "received_digraph": "X?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 33,
+        "received_coordinate_positions": [
+          27,
+          51
+        ],
+        "received_digraph": "XX",
+        "square_cell": 35,
+        "core_letter": "R",
+        "raw_search_label": "R",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 34,
+        "received_coordinate_positions": [
+          57,
+          105
+        ],
+        "received_digraph": "AX",
+        "square_cell": 5,
+        "core_letter": "I",
+        "raw_search_label": "I",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 35,
+        "received_coordinate_positions": [
+          63,
+          33
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 36,
+        "received_coordinate_positions": [
+          94,
+          40
+        ],
+        "received_digraph": "FX",
+        "square_cell": 17,
+        "core_letter": "M",
+        "raw_search_label": "M",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 37,
+        "received_coordinate_positions": [
+          76,
+          22
+        ],
+        "received_digraph": "XA",
+        "square_cell": 30,
+        "core_letter": "E",
+        "raw_search_label": "E",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 38,
+        "received_coordinate_positions": [
+          88,
+          46
+        ],
+        "received_digraph": "XV",
+        "square_cell": 34,
+        "core_letter": "L",
+        "raw_search_label": "L",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 39,
+        "received_coordinate_positions": [
+          100,
+          16
+        ],
+        "received_digraph": "V?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 40,
+        "received_coordinate_positions": [
+          4,
+          70
+        ],
+        "received_digraph": "AA",
+        "square_cell": 0,
+        "core_letter": null,
+        "raw_search_label": "K",
+        "uncertainty": "unassigned_square_cell"
+      },
+      {
+        "plaintext_position": 41,
+        "received_coordinate_positions": [
+          82,
+          10
+        ],
+        "received_digraph": "V?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 42,
+        "received_coordinate_positions": [
+          28,
+          52
+        ],
+        "received_digraph": "AF",
+        "square_cell": 2,
+        "core_letter": null,
+        "raw_search_label": "X",
+        "uncertainty": "unassigned_square_cell"
+      },
+      {
+        "plaintext_position": 43,
+        "received_coordinate_positions": [
+          58,
+          106
+        ],
+        "received_digraph": "DV",
+        "square_cell": 10,
+        "core_letter": null,
+        "raw_search_label": "1",
+        "uncertainty": "unassigned_square_cell"
+      },
+      {
+        "plaintext_position": 44,
+        "received_coordinate_positions": [
+          64,
+          34
+        ],
+        "received_digraph": "AF",
+        "square_cell": 2,
+        "core_letter": null,
+        "raw_search_label": "X",
+        "uncertainty": "unassigned_square_cell"
+      },
+      {
+        "plaintext_position": 45,
+        "received_coordinate_positions": [
+          95,
+          41
+        ],
+        "received_digraph": "AV",
+        "square_cell": 4,
+        "core_letter": "G",
+        "raw_search_label": "G",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 46,
+        "received_coordinate_positions": [
+          77,
+          23
+        ],
+        "received_digraph": "AF",
+        "square_cell": 2,
+        "core_letter": null,
+        "raw_search_label": "X",
+        "uncertainty": "unassigned_square_cell"
+      },
+      {
+        "plaintext_position": 47,
+        "received_coordinate_positions": [
+          89,
+          47
+        ],
+        "received_digraph": "XX",
+        "square_cell": 35,
+        "core_letter": "R",
+        "raw_search_label": "R",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 48,
+        "received_coordinate_positions": [
+          101,
+          17
+        ],
+        "received_digraph": "A?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 49,
+        "received_coordinate_positions": [
+          5,
+          71
+        ],
+        "received_digraph": "?V",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 50,
+        "received_coordinate_positions": [
+          83,
+          11
+        ],
+        "received_digraph": "A?",
+        "square_cell": null,
+        "core_letter": null,
+        "raw_search_label": "?",
+        "uncertainty": "coordinate_erasure"
+      },
+      {
+        "plaintext_position": 51,
+        "received_coordinate_positions": [
+          29,
+          53
+        ],
+        "received_digraph": "GA",
+        "square_cell": 18,
+        "core_letter": "B",
+        "raw_search_label": "B",
+        "uncertainty": "core_letter_assignment"
+      },
+      {
+        "plaintext_position": 52,
+        "received_coordinate_positions": [
+          59,
+          107
+        ],
+        "received_digraph": "AF",
+        "square_cell": 2,
+        "core_letter": null,
+        "raw_search_label": "X",
+        "uncertainty": "unassigned_square_cell"
+      },
+      {
+        "plaintext_position": 53,
+        "received_coordinate_positions": [
+          65,
+          35
+        ],
+        "received_digraph": "XD",
+        "square_cell": 31,
+        "core_letter": "A",
+        "raw_search_label": "A",
+        "uncertainty": "core_letter_assignment"
+      }
+    ]
+  ],
+  "attribution": {
+    "joint_analysis_suggestion": "Norbert, September 17, 2017, comment 56, comment-918886; proposed joint/separate analysis but supplied no key or plaintext.",
+    "discussion_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-918886",
+    "modern_method_precedent": "Lasry, Niebel, Kopal and Wacker, Cryptologia 41(2), DOI 10.1080/01611194.2016.1169461.",
+    "implementation_authors": [
+      "IceKylin",
+      "GPT-6 Astra"
+    ]
+  },
+  "generated_utc": "2026-11-02T10:55:55.605140+00:00"
+}

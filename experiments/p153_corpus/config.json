@@ -1,0 +1,47 @@
+{
+  "schema": "adfgvx-fixed-p153-key-screen-v1",
+  "rank": [
+    16,
+    7,
+    13,
+    4,
+    15,
+    8,
+    17,
+    3,
+    1,
+    12,
+    14,
+    2,
+    5,
+    9,
+    10,
+    18,
+    11,
+    6
+  ],
+  "body_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+  "coordinate_order": "ADFGVX",
+  "second_model": "Assign AF=X as a separately labelled hypothesis.",
+  "controls": [
+    {
+      "id": "p153a",
+      "printed_page": 153,
+      "pdf_page_1based": 156,
+      "ciphertext": "VFVAXFXDADADVGXFAVGDVDDDADXGAAAXVGVFVDADDXADADVVAVGFXDAGDDDGDXGGGVVXDXFVVAVVVFAXFXDXAFAVVGGXAVXVFVXVFGFVAXGAAVXXGDXXFVXFXGGVADAVAFDG",
+      "source_crop": "../source_crops/p153_CHI_parts5_6.png"
+    },
+    {
+      "id": "p153b",
+      "printed_page": 153,
+      "pdf_page_1based": 156,
+      "ciphertext": "AXVAA???????????????DDAFFVAXAGGADAFDXAXXXVDGDXVXFFGXFAVVAADAGXXXAXDDGVAVAXVAXAAVVXVAVGXAXXFGXXFAAAFXVADFDXVF",
+      "source_crop": "../source_crops/p153_CHI_parts5_6.png"
+    }
+  ],
+  "filter_for_ranked_candidate": {
+    "minimum_known_plaintext_slots": 20,
+    "minimum_fully_observed_quadgrams": 5
+  },
+  "scope_limit": "Only a fixed-key OCR retrieval screen. Missing companions, alternative lengths, unmodelled source corruption and unknown substitution cells prevent exclusion of a same-key message."
+}

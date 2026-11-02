@@ -31,6 +31,47 @@ def edited(raw, edits):
     return result
 
 
+def p153():
+    record=certificate('p153');ranks=record['ranks'];square=record['raw_search_square']
+    partial=record['core_partial_square'];ciphertexts=record['ciphertexts']
+    catalog={m['id']:m for m in json.loads((ROOT/'data/messages.json').read_text())['messages']}
+    keys={k['id']:k for k in json.loads((ROOT/'data/keys.json').read_text())['keys']}
+    key=keys['CHI-Nov8-2026-recovery']
+    assert key['column_rank_order']==ranks and key['square']==partial
+    assert len(set(square))==36 and sum(c!='?' for c in partial)==19
+    counts=[]
+    for i,(mid,ct) in enumerate(zip(record['message_ids'],ciphertexts)):
+        assert catalog[mid]['transcript']['analysis_ciphertext']==ct
+        assert hashlib.sha256(ct.encode()).hexdigest()==record['ciphertext_sha256'][i]
+        assert decrypt(ct,ranks,square)==record['raw_search_decodes'][i]
+        assert decrypt(ct,ranks,partial)==record['core_decodes'][i]
+        domains=plaintext_domains(ct,ranks,partial)
+        counts.append(sum(len(d)==1 for d in domains))
+        witness=''.join(d[0] for d in plaintext_domains(ct,ranks,square))
+        regenerated=encrypt(witness,ranks,square)
+        assert all(a=='?' or a==b for a,b in zip(ct,regenerated))
+        stream=untranspose(ct,ranks)
+        for pos,row in enumerate(record['source_coordinate_maps'][i]):
+            assert row['plaintext_position']==pos
+            assert row['received_digraph']==stream[2*pos:2*pos+2]
+            assert ''.join(ct[j] for j in row['received_coordinate_positions'])==row['received_digraph']
+    assert counts==record['core_letter_positions']==[60,33]
+    assert encrypt(record['raw_search_decodes'][0],ranks,square)==ciphertexts[0]
+    body=record['part6_body_hypothesis'];text=body['text']+'?'*12
+    interim=''.join('??' if ch=='?' else SYMBOLS[partial.index(ch)//6]+SYMBOLS[partial.index(ch)%6] for ch in text)
+    expected=transpose(interim,ranks)
+    assert expected==body['constrained_received_stream']
+    differences=[{'received_position':i,'printed':a,'body_requires':b} for i,(a,b) in enumerate(zip(ciphertexts[1],expected)) if a!='?' and b!='?' and a!=b]
+    fills=[{'received_position':i,'proposed_coordinate':b} for i,(a,b) in enumerate(zip(ciphertexts[1],expected)) if a=='?' and b!='?']
+    assert differences==body['printed_coordinate_disagreements'] and [d['received_position'] for d in differences]==[3,4]
+    assert fills==body['inferred_erased_coordinates'] and len(fills)==12
+    assert len({r['square_cell'] for r in record['numeral_cells']})==4
+    return {'status':'PASS','classification':'new_substantial_partial_decipherment',
+            'unchanged_source_coordinates':225,'ordinary_letter_positions':counts,
+            'body_hypothesis_erasure_fills':12,'body_hypothesis_known_coordinate_changes':2,
+            'unassigned_numeral_cells':4}
+
+
 def p158():
     data=certificate('p158');comp=data['components'];roundtrips=[]
     for record in comp['readings']:
@@ -287,7 +328,7 @@ def main():
     try:decrypt('A',[1],'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
     except ValueError:pass
     else:raise AssertionError('Odd-length input was silently truncated')
-    results={'arithmetic':'PASS','cases':{'p152':p152(),'p158':p158(),'p189':p189(),
+    results={'arithmetic':'PASS','cases':{'p152':p152(),'p153':p153(),'p158':p158(),'p189':p189(),
              'p164':constraints164.verify(certificate('p164')),
              'p215':constraints215.verify(certificate('p215')),'p164_A4_editorial':p164_editorial(),
              'transport_context':transport_context(),'p155_context':kress_companion(),
@@ -298,7 +339,7 @@ def main():
         print('PASS: independent ADFGVX arithmetic and odd-length guard')
         for name,record in results['cases'].items():
             print(f"PASS: {name} — {record.get('classification', 'exact uncertainty and prior-reading constraints')}")
-        print('Seven exact source roundtrips; exhaustive correspondence and domain checks passed.')
+        print('Eight full source roundtrips; conditional source-preservation and domain checks passed.')
         previous=results['prior_readings']
         print(f"PASS: {previous['messages']} prior entries, {previous['published_readings']} attributed readings, "
               f"{previous['verified_variants']} reconstruction variants, independent domain checks")

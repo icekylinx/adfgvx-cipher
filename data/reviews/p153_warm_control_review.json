@@ -1,0 +1,61 @@
+{
+  "independent_arithmetic_verified": true,
+  "engine_source_sha256": "901e3d5591ae5f832d11db313647fb82e33f07ca33ef9d543248697767ec6450",
+  "control_results": [
+    {
+      "record": "rectangle_exact/warm18_original_control_0000.json",
+      "sha256": "dc08a28707afff2a4fc48a4f31518af17d51bc9ae8da9b1294cf6a3fe2a122fa",
+      "checks": [
+        {
+          "part_index": 0,
+          "known_coordinates": 132,
+          "mismatch_source_indices": [],
+          "excluded_truth_plaintext_indices": [],
+          "fully_observed_letters": 66,
+          "correct_fully_observed_letters": 66
+        },
+        {
+          "part_index": 1,
+          "known_coordinates": 93,
+          "mismatch_source_indices": [],
+          "excluded_truth_plaintext_indices": [],
+          "fully_observed_letters": 39,
+          "correct_fully_observed_letters": 39
+        }
+      ]
+    },
+    {
+      "record": "rectangle_exact/warm18_fresh_control_0008.json",
+      "sha256": "e05e91e82cd780afe362b26eb5283ccd9e5d098de63dfe89d3166cac881fb859",
+      "checks": [
+        {
+          "part_index": 0,
+          "known_coordinates": 132,
+          "mismatch_source_indices": [],
+          "excluded_truth_plaintext_indices": [],
+          "fully_observed_letters": 66,
+          "correct_fully_observed_letters": 66
+        },
+        {
+          "part_index": 1,
+          "known_coordinates": 93,
+          "mismatch_source_indices": [
+            102
+          ],
+          "excluded_truth_plaintext_indices": [
+            6
+          ],
+          "fully_observed_letters": 39,
+          "correct_fully_observed_letters": 39
+        }
+      ]
+    }
+  ],
+  "code_review": [
+    "Even length, injective full-square or fully unknown seed, valid permutation ranks, positive budgets and valid coordinate alphabet are checked. The initial state enters the global incumbent before proposals.",
+    "A component-column permutation co is restricted to equal height classes across all messages, so bs[row*K+co[column]] remains within the source geometry. The output rank ranks[co[column]] is the corresponding physical-column rank.",
+    "Pair swaps preserve both component height classes. Single-column swaps may change pair identities; the experiment does not enumerate arbitrary segmentations during this stage.",
+    "Whole-cell wildcard scoring drops surviving half-coordinate information. The exact-domain refinement is evaluated separately and its fresh control still misses source 102."
+  ],
+  "scope": "No sustained optimizer was run; independent arithmetic and code inspection only. The original control matches all 225 known coordinates; the fresh control matches 224/225 and is not a complete recovery."
+}

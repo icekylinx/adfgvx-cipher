@@ -1,0 +1,44 @@
+{
+  "candidate_selection": "Maximum normalized wildcard objective across all twenty candidates; no truth filter.",
+  "all_controls_match_every_observed_coordinate": false,
+  "historical_expansion_authorized_by_this_calibration": false,
+  "historical_expansion_performed_despite_half_coordinate_failure": true,
+  "historical_expansion_scope": "Bounded 40-candidate follow-up, motivated by recovery of both transpositions and all 105 fully observed characters in both controls. Fresh K18 still fails one observed half-coordinate; no full-control or exclusion claim.",
+  "controls": [
+    {
+      "case": "warm18_original_control",
+      "source": "rectangle_warm/original_control_0000.json",
+      "evaluation": {
+        "observed_coordinate_mismatch_positions": [
+          [],
+          []
+        ],
+        "every_observed_coordinate_matches": true,
+        "observed_coordinates": 225,
+        "control_plaintext_used_only_for_evaluation": true
+      },
+      "independent_score_error": 2.8274360630575757e-10,
+      "restarts": 30,
+      "iterations_per_restart": 60000
+    },
+    {
+      "case": "warm18_fresh_control",
+      "source": "rectangle_warm/fresh_control_0008.json",
+      "evaluation": {
+        "observed_coordinate_mismatch_positions": [
+          [],
+          [
+            102
+          ]
+        ],
+        "every_observed_coordinate_matches": false,
+        "observed_coordinates": 225,
+        "control_plaintext_used_only_for_evaluation": true
+      },
+      "independent_score_error": 4.425890764991891e-10,
+      "restarts": 30,
+      "iterations_per_restart": 60000
+    }
+  ],
+  "engine_source_sha256": "901e3d5591ae5f832d11db313647fb82e33f07ca33ef9d543248697767ec6450"
+}

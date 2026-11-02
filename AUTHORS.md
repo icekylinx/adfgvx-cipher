@@ -10,3 +10,5 @@ The historical foundation is J. Rives Childs's collection and the work of wartim
 **Ayush Agarwal (@AyushAg1002)** published the three supplementary body readings in October 2026, with AI assistance as described in his submission. **D. Bourdeau** performed the earlier arithmetic review and maintains the public result index. This edition contributes the later source-image and constraint audit.
 
 The 1934 general-solution paper credits **Frank B. Rowlett, Solomon Kullback, and Abraham Sinkov** for the general methods. **William F. Friedman** edited the historical technical reports; their publication dates are kept separate from the dates of the wartime records.
+
+The November 2, 2026 **p153a/p153b partial decipherment**, recovered shared transposition and nineteen-letter square are by **IceKylin and GPT-6 Astra**. Norbert's earlier joint-analysis suggestion is credited in both cases. The present conditional crib proof and source emendation audit are separate from that blind discovery.

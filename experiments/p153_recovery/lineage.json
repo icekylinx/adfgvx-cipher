@@ -1,0 +1,51 @@
+{
+  "schema": "adfgvx-p153-search-lineage-v1",
+  "complete_length_class_stage": {
+    "width": 18,
+    "segmentations": 18564,
+    "restarts_per_segmentation": 10,
+    "iterations_per_restart": 5000,
+    "seed": 2026110293,
+    "selected_segmentation_rank_zero_based": 5,
+    "long_column_mask": 53448
+  },
+  "pairing_diversity": {
+    "selected_segmentations": 10,
+    "restarts_per_segmentation": 2000,
+    "iterations_per_restart": 5000,
+    "seed": 2026110301,
+    "retained_pairings_per_segmentation": 20,
+    "selected_pairing_rank_within_segmentation": 3,
+    "flattened_candidate_index": 103
+  },
+  "initial_square_fit": {
+    "restarts": 50,
+    "iterations": 30000,
+    "seed": 3908847635
+  },
+  "fixed_pair_language_fit": {
+    "restarts": 100,
+    "iterations": 60000,
+    "seed": 3908847636
+  },
+  "component_column_warm_fit": {
+    "restarts": 100,
+    "iterations": 100000,
+    "seed": 322283886,
+    "best_restart": 49,
+    "square_and_pairing_supplied_from_previous_blind_fit": true,
+    "source_sha256": "901e3d5591ae5f832d11db313647fb82e33f07ca33ef9d543248697767ec6450",
+    "binary_sha256": "1a13e39820c69dc54de8cb165e3a7af46a66e3b874830b218b977c3dc16869fd"
+  },
+  "model_sha256": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+  "model_training": "Independent German books; no attacked traffic, candidate, or synthetic control text used for training.",
+  "model_adaptation": "Military-domain weighting was chosen earlier after independent control failures.",
+  "case_record_sha256": "b29d486d8c2040006b3d743bd0801792e5a418ada678f7d8fa14dd4c9275067f",
+  "fixed_pair_record_sha256": "be021ff9f69dc81384a5b6165338cecfcc37d71893c050b6277ede8e99be41a9",
+  "unchanged_input_sha256": "495f9113e5ac5c9efb77950f1560df35be5cc28fa25f980c145d5e31bc1021c5",
+  "discovery_before_source_emendation": true,
+  "all_first_40_historical_component_column_candidates_completed": true,
+  "source_record": "rectangle_warm/p153_0103.json",
+  "archived_fixed_pair_engine_version": "1-pre-initial-incumbent-fix",
+  "component_column_engine_version": "joint_rectangle_warm, separate strict-input/initial-incumbent revision"
+}

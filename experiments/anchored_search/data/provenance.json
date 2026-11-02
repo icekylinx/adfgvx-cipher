@@ -1,0 +1,43 @@
+{
+  "capture_utc": "2026-11-02T10:51:25.201124+00:00",
+  "files": {
+    "archived_runner": {
+      "reference": "root_attack/src/run_anchored_squares.py",
+      "sha256": "eb1e498bd9277c54407582328e677f190d5d26a8d4b95c62ac806a6d36bd7f1c",
+      "bytes": 5869
+    },
+    "engine_source": {
+      "reference": "experiments/joint_search/src/anchored_joint.c",
+      "sha256": "b45b91e6a776332feee4e3d8207dbb73deb3032a3b1c0ad03af2e64224652168",
+      "bytes": 6976
+    },
+    "engine_binary": {
+      "reference": "experiments/joint_search/bin/anchored_joint",
+      "sha256": "40e0b6b356f24e8d12a26c809ca80c11d5adebfab926f39a213469ec64af435e",
+      "bytes": 21224
+    },
+    "model": {
+      "reference": "alternative_attack/models/german_military37_quad_marginal.bin",
+      "sha256": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+      "bytes": 7496644
+    },
+    "shared_model_builder": {
+      "reference": "experiments/joint_search/tools/build_models.py",
+      "sha256": "9e312568db9646feb46288892ad8735ba3c13f669d2b460c625503e5841371f2",
+      "bytes": 7932
+    },
+    "source_keys": {
+      "reference": "data/keys.json",
+      "sha256": "ffae38f2bd2b1ebeb2f0c33336cb6aab40c7cd6df27f5b58e46bf7021b67e34d",
+      "bytes": 53084
+    },
+    "source_messages": {
+      "reference": "data/messages.json",
+      "sha256": "9bce937e9df12535d0f85447efac6cfec9c2a26fc7f53d3cb578a33d96de13cd",
+      "bytes": 49312
+    }
+  },
+  "shared_dependencies": "The engine and model builder are reused from experiments/joint_search; no C engine, book or binary model is copied here.",
+  "model_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?",
+  "model_scope": "37^4 float32 wildcard marginal quadgrams derived from the independent military36 table; a whole-cell wildcard sums all possible plaintext symbols and does not retain the surviving half of a coordinate pair."
+}

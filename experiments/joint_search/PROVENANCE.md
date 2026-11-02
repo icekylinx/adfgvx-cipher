@@ -5,7 +5,7 @@
 The two target fragments are in Appendix B, printed page 153 of the Aegean Park
 Press volume *General Solution of the ADFGVX Cipher System*. The inspected
 [public scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
-records `FKR v CGH`,11.55p.m.,November 8, 1918, transmission 2250, parts 5 and 6,
+records `FKR v CGH`, 11.55 p.m., November 8, 1918, transmission 2250, parts 5 and 6,
 with declared coordinate counts 132 and 108. The parent source audit supplies
 the detailed edition/date distinctions and the source image. This suite
 uses the source-audited transcription and never changes an observed coordinate.
@@ -37,7 +37,7 @@ describes Western CHI daily keys, so reuse must not be silently assumed.
 
 The principal modern precedent is George Lasry, Ingo Niebel, Nils Kopal and
 Arno Wacker, *Deciphering ADFGVX messages from the Eastern Front of World War I*,
-Cryptologia 41(2),101–136 (2017; online 2016),
+Cryptologia 41(2), 101–136 (2017; online 2016),
 [DOI 10.1080/01611194.2016.1169461](https://doi.org/10.1080/01611194.2016.1169461).
 A [public manuscript copy](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf)
 is available. Pair and quadruplet coincidence statistics, heuristic
@@ -63,7 +63,7 @@ book encountered in an earlier broad corpus list, is excluded entirely.
 
 The source corpus and initial arithmetic checks were cross-checked against
 the MIT-licensed [0wwafa/adfgvx-1918](https://github.com/0wwafa/adfgvx-1918)
-baseline, commit`083921732d7c18e52424336ab4160fada5c61b4b`. The curated C engines
+baseline, commit `083921732d7c18e52424336ab4160fada5c61b4b`. The curated C engines
 and portable Python helpers were written for this investigation; this package
 does not contain the baseline's source files or its solution-trained model.
 

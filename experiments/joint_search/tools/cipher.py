@@ -5,7 +5,7 @@ ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 
 def validate(ranks):
     if not ranks or sorted(ranks) != list(range(1, len(ranks)+1)):
-        raise ValueError('Column ranks must be a permutation of1..width')
+        raise ValueError('Column ranks must be a permutation of 1..width')
 
 
 def indices(length, ranks):
@@ -34,14 +34,14 @@ def cells(ciphertext, ranks):
 
 def decrypt(ciphertext, ranks, square):
     if len(square) != 36 or sorted(square) != sorted(ALPHABET):
-        raise ValueError('A complete square must be a permutation of the36-character alphabet')
+        raise ValueError('A complete square must be a permutation of the 36-character alphabet')
     return ''.join('?' if ch == '?' else square[ALPHABET.index(ch)]
                    for ch in cells(ciphertext, ranks))
 
 
 def encrypt(plaintext, ranks, square):
     if len(square) != 36 or sorted(square) != sorted(ALPHABET):
-        raise ValueError('A complete square must be a permutation of the36-character alphabet')
+        raise ValueError('A complete square must be a permutation of the 36-character alphabet')
     interim = ''.join(SYMBOLS[square.index(ch)//6]+SYMBOLS[square.index(ch)%6]
                       for ch in plaintext)
     return ''.join(interim[i] for i in indices(len(interim), ranks))

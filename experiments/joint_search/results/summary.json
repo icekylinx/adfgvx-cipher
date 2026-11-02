@@ -1,7 +1,10 @@
 {
-  "generated_utc": "2026-11-02T10:21:13.316218+00:00",
-  "verified_new_historical_plaintexts": 0,
-  "historical_p153_status": "unresolved",
+  "generated_utc": "2026-11-02T11:00:26.292591+00:00",
+  "complete_historical_plaintexts_recovered": 0,
+  "substantial_historical_partial_recoveries": 1,
+  "historical_p153_status": "Shared width-18 transposition and conservative 19-letter square recovered; numerals, trailing text and two printed-coordinate anomalies remain unresolved.",
+  "partial_recovery_certificate": "../../data/certificates/p153.json",
+  "partial_recovery_explanation": "../p153_recovery/README.md",
   "historical_language_candidates_completed": 200,
   "language_budget_per_case": {
     "initial_square_restarts": 50,
@@ -38,8 +41,41 @@
   "language_result_scope": "High-scoring strings remain diagnostics. Exact segmentation coverage is not exhaustive key or square coverage.",
   "controls_are_small_calibration_sample": true,
   "retained_failures": [
-    "FreshK16 wildcard square has one surviving-coordinate mismatch despite105/105 fully observed characters.",
-    "FreshK18 best profile uses only7/9 true unordered pairs despite the true segmentation ranking first.",
+    "Fresh K16 wildcard square has one surviving-coordinate mismatch despite 105/105 fully observed characters.",
+    "Fresh K18 best profile uses only 7/9 true unordered pairs despite the true segmentation ranking first.",
+    "Retaining the true K18 pairing does not guarantee language recovery within the specified search budget.",
     "One numeric anchored control fails the exact transposition; digit identities are poorly recovered."
+  ],
+  "language_stages": [
+    {
+      "source": "segmentation_language",
+      "complete": true,
+      "completed_candidates": 220
+    },
+    {
+      "source": "segmentation16_full_language",
+      "complete": true,
+      "completed_candidates": 200
+    },
+    {
+      "source": "segmentation18_language",
+      "complete": true,
+      "completed_candidates": 120
+    },
+    {
+      "source": "pairing_diversity/language",
+      "complete": true,
+      "completed_candidates": 240
+    },
+    {
+      "source": "segmentation14_language",
+      "complete": true,
+      "completed_candidates": 80
+    },
+    {
+      "source": "rectangle_warm",
+      "complete": true,
+      "completed_candidates": 80
+    }
   ]
 }

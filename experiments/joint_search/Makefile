@@ -3,7 +3,7 @@ CFLAGS ?= -O3 -std=c11 -Wall -Wextra
 LDLIBS ?= -lm
 
 PROGRAMS = segmentation_rank segmentation_profile_batch subsolve_marginal \
-           pair_marginal anchored_joint joint_domain_subsolve6 pair_order_rank
+           pair_marginal joint_rectangle_warm anchored_joint joint_domain_subsolve6 pair_order_rank
 BINARIES = $(addprefix bin/,$(PROGRAMS))
 
 .PHONY: all check clean

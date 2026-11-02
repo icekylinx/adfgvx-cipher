@@ -6,12 +6,14 @@ A unified edition of the **22 German radio cryptograms** in Klaus Schmeh and Geo
 
 ## Results
 
+- **p153a / p153b: new substantial partial decipherment.** A shared 18-column key recovers 60 of 66 ordinary-letter positions in part 5 and 33 of 54 raw positions in part 6. A coherent ammunition-report reconstruction requires twelve erasure fills and two explicit coordinate emendations; dates, numbers and trailing text remain unresolved.
+
 - **p152:** the damaged challenge fragment matches the fuller p136 transmission. The parallel recovers the body and continuation; every supplied or changed coordinate is recorded.
 - **p158:** the challenge combines portions of two separate messages. An exhaustive alignment identifies the split; repaired component copies decrypt and re-encrypt exactly.
 - **p189:** a clearer p185 near-parallel supports a conditional partial reading. All ten optimal source-preserving alignments are retained.
 - **Earlier results remain part of the edition.** The 2017 readings and September 2026 p176b/p217 publications retain their original authorship. Raw decipherment, conjectural repair, and historical interpretation are distinguished.
 
-Five entries remain wholly open: **p73, p153a, p153b, p170, p198**. A source-linked recovery or contextual reading is not counted as an independently solved original ciphertext.
+Three entries remain wholly open: **p73, p170, p198**. A source-linked recovery or contextual reading is not counted as an independently solved original ciphertext.
 
 | Entry | Reviewed state | First reading or present contribution |
 |---|---|---|
@@ -22,8 +24,8 @@ Five entries remain wholly open: **p73, p153a, p153b, p170, p198**. A source-lin
 | [p132](cases/p132.md) | Prior body reading; source audit | Thomas (fragment), Norbert (body) |
 | [p146](cases/p146.md) | Prior body reading; source audit | Norbert (2017 comment author) |
 | [p152](cases/p152.md) | Source-linked body | This review, 2026 |
-| [p153a](cases/p153a.md) | Open | — |
-| [p153b](cases/p153b.md) | Open | — |
+| [p153a](cases/p153a.md) | New partial: 60/66 ordinary-letter positions | IceKylin and GPT-6 Astra (2026) |
+| [p153b](cases/p153b.md) | New raw partial; conditional 42-letter body | IceKylin and GPT-6 Astra (2026) |
 | [p158](cases/p158.md) | Composite sources identified | This review, 2026 |
 | [p164a](cases/p164a.md) | Prior partial; constraint audit | Norbert (2017 comment author) |
 | [p164b](cases/p164b.md) | Prior partial; constraint audit | Norbert (2017 comment author) |
@@ -58,7 +60,7 @@ The [p155 Kress-route shipping message](cases/context/p155.md) adds two source-c
 
 ## Review coverage
 
-The [review ledger](data/review_ledger.json) currently records **64 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
+The [review ledger](data/review_ledger.json) currently records **66 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
 
 A September 2026 mass-solution claim is retained with its [reproducibility assessment](data/reviews/unsupported_claim_checks.json) and **Jozef Krajcovic's earlier critique**. Its published constants and selected substrings do not provide a reproducible full reading; no target is marked solved on that basis.
 
@@ -71,11 +73,11 @@ python3 -m adfgvx.verify
 python3 -m adfgvx.verify --json
 ```
 
-The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips, the p152 suffix alternatives, the p158 splice and glyph variants, every p189 source-preserving alignment and plaintext domain, and 25 explicit reconstructions of 14 earlier-readable entries. Three supplementary source and published layers are verified as well. The p164 A4 editorial hypothesis and seven transport-context records have separate certificates and independent coordinate/domain checks. The p164/p215 checks also reproduce uncertainty counts and contradictions in later completions. Odd-length ciphertext cannot silently lose a coordinate.
+The verifier checks independent ADFGVX arithmetic, eight full source roundtrips, the p152 suffix alternatives, the p158 splice and glyph variants, every p189 source-preserving alignment and plaintext domain, and 25 explicit reconstructions of 14 earlier-readable entries. Three supplementary source and published layers are verified as well. The p164 A4 editorial hypothesis and seven transport-context records have separate certificates and independent coordinate/domain checks. The p164/p215 checks also reproduce uncertainty counts and contradictions in later completions. The p153 certificate verifies the unchanged sources, all coordinate mappings, the nineteen-letter square, and the exact twelve-fill/two-emendation body hypothesis. Odd-length ciphertext cannot silently lose a coordinate.
 
 ## Search methods
 
-The [experiment index](experiments/README.md) records completed search bounds, positive controls, scoring failures, and reproducible code. The p153 work enumerates all 900,900 width-16 and 18,564 width-18 column-length segmentations, with heuristic pairing/order searches afterward. This has not produced a new open-target reading.
+The [experiment index](experiments/README.md) records completed search bounds, positive controls, scoring failures, and reproducible code. The p153 work enumerates column-length segmentations at widths 14, 16 and 18, then uses bounded pairing, order and square searches. The width-18 refinement produced the new partial reading. A separate exact post-discovery crib check, independently implemented twice, establishes its narrow key-equivalence and emendation constraints.
 
 ## Contents
 
@@ -83,7 +85,7 @@ The [experiment index](experiments/README.md) records completed search bounds, p
 |---|---|
 | `cases/` | Readings, qualifications, original credits, and source links |
 | `data/messages.json` | All 22 source records, legacy transcriptions, and conservative analysis layers |
-| `data/keys.json` | 24 historical, comparison, or reported keys; provenance and unknown cells retained |
+| `data/keys.json` | 25 historical, comparison, reported, or newly recovered partial keys; provenance and unknown cells retained |
 | `data/prior_readings.json` | 34 attributed earlier readings/fragments and 25 recomputed repair variants |
 | `data/supplementary_readings.json` | Three October 2026 readings and their primary-source corrections |
 | `data/review_ledger.json` | Claim-by-claim findings, earlier criticism, and exact attribution |

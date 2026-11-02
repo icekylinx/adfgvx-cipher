@@ -38,12 +38,13 @@ def main():
 
         def pair_input(square,ciphertext='AAAAAAAA',ranks='1 2'):
             return f'{q37} 2 1 1 0 1\n{square}\n{ranks}\n{ciphertext}\n'
-        for square in ['!'*36,'A'*36,'A'+'?'*35]:
-            run('pair solver rejects malformed square '+str(len(results)),
-                'pair_marginal',stdin=pair_input(square))
-        run('pair solver records initial state with one proposal',
-            'pair_marginal',stdin=pair_input('?'*36),expected=0,output=True)
-        run('pair solver rejects odd coordinates','pair_marginal',stdin=pair_input('?'*36,'AAAAAAA'))
+        for program in ['pair_marginal', 'joint_rectangle_warm']:
+            for square in ['!'*36,'A'*36,'A'+'?'*35]:
+                run(program+' rejects malformed square '+str(len(results)),
+                    program,stdin=pair_input(square))
+            run(program+' records initial state with one proposal',
+                program,stdin=pair_input('?'*36),expected=0,output=True)
+            run(program+' rejects odd coordinates',program,stdin=pair_input('?'*36,'AAAAAAA'))
 
         base=[q36,six,.7,'AAAAAAAAAAAA',1,1,0]
         for square in ['!'*36,'A'*36,'?'*36]:

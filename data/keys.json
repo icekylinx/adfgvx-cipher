@@ -1751,6 +1751,47 @@
         "The published p217 body and the naval-log context support the reported assignment; they are not an independent recovery of every unused square cell.",
         "This key is not one of the fourteen period keys published by Lasry."
       ]
+    },
+    {
+      "id": "CHI-Nov8-2026-recovery",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        16,
+        7,
+        13,
+        4,
+        15,
+        8,
+        17,
+        3,
+        1,
+        12,
+        14,
+        2,
+        5,
+        9,
+        10,
+        18,
+        11,
+        6
+      ],
+      "column_count": 18,
+      "square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+      "category": "new_partial_key_recovery",
+      "provenance": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02",
+        "certificate": "data/certificates/p153.json",
+        "method": "Shared-key, separately reset p153 parts 5 and 6; bounded blind column/square search followed by exact conditional verification."
+      },
+      "notes": [
+        "Nineteen ordinary-letter cells are retained. The X separator is a separate interpretation; date and number cells remain unassigned.",
+        "Reversing every adjacent column pair and transposing the square yields an equivalent key representation. No original keyword has been recovered.",
+        "Norbert suggested joint and separate attacks in 2017 comment 56, without a key or plaintext."
+      ]
     }
   ]
 }

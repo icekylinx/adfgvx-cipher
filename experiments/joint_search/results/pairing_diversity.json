@@ -1,0 +1,134 @@
+[
+  {
+    "case": "original_control",
+    "width": 18,
+    "segmentations": 1,
+    "restarts_per_segmentation": 2000,
+    "iterations_per_restart": 5000,
+    "requested_proposal_slots": 10000000,
+    "restart_candidates": 2000,
+    "maximum_independent_score_error": 5.023537141823908e-11,
+    "every_cell_stream_checked": true,
+    "seconds": 2.5211048126220703,
+    "segment_summaries": [
+      {
+        "segmentation_rank_zero_based": 0,
+        "long1_mask": 16539,
+        "unique_pairings_retained": 95,
+        "true_unoriented_pairing_rank_zero_based": 0,
+        "pairing_candidates_sent_to_language": 20
+      }
+    ],
+    "seed": 2026110301,
+    "scope": "Multiple pairing basins from ranked segmentations; bounded stochastic search."
+  },
+  {
+    "case": "fresh_control",
+    "width": 18,
+    "segmentations": 1,
+    "restarts_per_segmentation": 2000,
+    "iterations_per_restart": 5000,
+    "requested_proposal_slots": 10000000,
+    "restart_candidates": 2000,
+    "maximum_independent_score_error": 4.994760161025624e-11,
+    "every_cell_stream_checked": true,
+    "seconds": 3.4083476066589355,
+    "segment_summaries": [
+      {
+        "segmentation_rank_zero_based": 0,
+        "long1_mask": 61600,
+        "unique_pairings_retained": 62,
+        "true_unoriented_pairing_rank_zero_based": 2,
+        "pairing_candidates_sent_to_language": 20
+      }
+    ],
+    "seed": 2026110301,
+    "scope": "Multiple pairing basins from ranked segmentations; bounded stochastic search."
+  },
+  {
+    "case": "p153",
+    "width": 18,
+    "segmentations": 10,
+    "restarts_per_segmentation": 2000,
+    "iterations_per_restart": 5000,
+    "requested_proposal_slots": 100000000,
+    "restart_candidates": 20000,
+    "maximum_independent_score_error": 6.397016250048182e-11,
+    "every_cell_stream_checked": true,
+    "seconds": 22.805856466293335,
+    "segment_summaries": [
+      {
+        "segmentation_rank_zero_based": 0,
+        "long1_mask": 137289,
+        "unique_pairings_retained": 22,
+        "true_unoriented_pairing_rank_zero_based": null,
+        "pairing_candidates_sent_to_language": 20
+      },
+      {
+        "segmentation_rank_zero_based": 1,
+        "long1_mask": 136261,
+        "unique_pairings_retained": 52,
+        "true_unoriented_pairing_rank_zero_based": null,
+        "pairing_candidates_sent_to_language": 20
+      },
+      {
+        "segmentation_rank_zero_based": 2,
+        "long1_mask": 180880,
+        "unique_pairings_retained": 44,
+        "true_unoriented_pairing_rank_zero_based": null,
+        "pairing_candidates_sent_to_language": 20
+      },
+      {
+        "segmentation_rank_zero_based": 3,
+        "long1_mask": 198336,
+        "unique_pairings_retained": 45,
+        "true_unoriented_pairing_rank_zero_based": null,
+        "pairing_candidates_sent_to_language": 20
+      },
+      {
+        "segmentation_rank_zero_based": 4,
+        "long1_mask": 136259,
+        "unique_pairings_retained": 33,
+        "true_unoriented_pairing_rank_zero_based": null,
+        "pairing_candidates_sent_to_language": 20
+      },
+      {
+        "segmentation_rank_zero_based": 5,
+        "long1_mask": 53448,
+        "unique_pairings_retained": 61,
+        "true_unoriented_pairing_rank_zero_based": null,
+        "pairing_candidates_sent_to_language": 20
+      },
+      {
+        "segmentation_rank_zero_based": 6,
+        "long1_mask": 198184,
+        "unique_pairings_retained": 51,
+        "true_unoriented_pairing_rank_zero_based": null,
+        "pairing_candidates_sent_to_language": 20
+      },
+      {
+        "segmentation_rank_zero_based": 7,
+        "long1_mask": 70213,
+        "unique_pairings_retained": 63,
+        "true_unoriented_pairing_rank_zero_based": null,
+        "pairing_candidates_sent_to_language": 20
+      },
+      {
+        "segmentation_rank_zero_based": 8,
+        "long1_mask": 49546,
+        "unique_pairings_retained": 52,
+        "true_unoriented_pairing_rank_zero_based": null,
+        "pairing_candidates_sent_to_language": 20
+      },
+      {
+        "segmentation_rank_zero_based": 9,
+        "long1_mask": 82316,
+        "unique_pairings_retained": 35,
+        "true_unoriented_pairing_rank_zero_based": null,
+        "pairing_candidates_sent_to_language": 20
+      }
+    ],
+    "seed": 2026110301,
+    "scope": "Multiple pairing basins from ranked segmentations; bounded stochastic search."
+  }
+]

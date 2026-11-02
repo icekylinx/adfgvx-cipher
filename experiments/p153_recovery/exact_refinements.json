@@ -1,0 +1,94 @@
+{
+  "complete": true,
+  "cases": [
+    {
+      "case": "p153_two_coordinate_hypothesis",
+      "ranks": [
+        16,
+        7,
+        13,
+        4,
+        15,
+        8,
+        17,
+        3,
+        1,
+        12,
+        14,
+        2,
+        5,
+        9,
+        10,
+        18,
+        11,
+        6
+      ],
+      "best": {
+        "score": -5.694519915,
+        "restart": 10,
+        "square": "7TKUGI3426X9PWO0CMBFQSZ51NDHJVEAY8LR",
+        "plaintexts": [
+          "ANORDNUNGENVOMPTENFFTENNRX1XBEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+          "M?N?T?ONSB?S?A?DDERNA?H?UTARTI?L?RIEMEL?E?KXKGKR???BKA"
+        ],
+        "objective": "mixed_four_sixgram_exact_coordinate_domains",
+        "cross_message_windows": false
+      },
+      "interims": [
+        "XDVDFFXXVFVDAGVDAVXAVDVXFFFXFAADXAVDGDGDADXAVDVDXXDVVADVGAXAGVAXXAVGXAVDXVXDGGGGXAVDGGFFFDXAAXADVDFFFVVGVDAXFVVGADAVXAGGFVVGXAVGXAVD",
+        "FXA?VDA?ADA?FFVDGGGAX?GGA?XDV?VFVFXAXXVDXDF?VGV?AGADXDXXADAXX?XVX?XXAXXAFXXAXVV?XAV?AFDVAFAVAFXXA??VA?GAAFXD"
+      ],
+      "restarts": 50,
+      "iterations_per_restart": 80000,
+      "seed": 2389946819,
+      "sixgram_weight": 0.7,
+      "independent_score_error": 8.547207386300215e-11,
+      "source_ciphertext_changed": true
+    },
+    {
+      "case": "p153_unchanged",
+      "ranks": [
+        16,
+        7,
+        13,
+        4,
+        15,
+        8,
+        17,
+        3,
+        1,
+        12,
+        14,
+        2,
+        5,
+        9,
+        10,
+        18,
+        11,
+        6
+      ],
+      "best": {
+        "score": -5.793513537,
+        "restart": 5,
+        "square": "9T4UGIQ67JX3FWOVCPBM2SZ51NDH0KEA8YLR",
+        "plaintexts": [
+          "ANORDNUNGENKOPFTENMMTENNRX1XBEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+          "P?N?T?ONSB?S?A?DDERNA?H?UTARTI?G?RIEPEL?9?4X4G4R???B4A"
+        ],
+        "objective": "mixed_four_sixgram_exact_coordinate_domains",
+        "cross_message_windows": false
+      },
+      "interims": [
+        "XDVDFFXXVFVDAGVDAVXAVDVXFFFXFAADXAVDGDGDADXAVDVDXXDVVADVGAXAGVAXXAVGXAVDXVXDGGGGXAVDGGFFFDXAAXADVDFFFVVGVDAXFVVGADAVXAGGFVVGXAVGXAVD",
+        "FXA?VDA?ADA?FFVDGGGAX?GGA?XDV?VFVFXAXXVDXDF?VGV?AGADXDXXADAXX?AVX?XXAXXAFXXAXVV?AAV?AFDVAFAVAFXXA??VA?GAAFXD"
+      ],
+      "restarts": 50,
+      "iterations_per_restart": 80000,
+      "seed": 2098205011,
+      "sixgram_weight": 0.7,
+      "independent_score_error": 4.4430059631395125e-10,
+      "source_ciphertext_changed": false
+    }
+  ],
+  "warning": "The emended branch changes only received coordinates 3 and 4 of part 6 from A to X. It is separate from the untouched source."
+}

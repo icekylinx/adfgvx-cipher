@@ -30,3 +30,15 @@ jobs:
       - name: Build fixed-search engines and verify their input layers
         if: matrix.python == '3.13'
         run: make -C experiments/fixed_search check
+      - name: Verify new p153 source layers and conditional completions
+        run: |
+          python experiments/p153_recovery/verify_certificate.py
+          python experiments/p215_completion/verify_completions.py
+          python experiments/anchored_search/verify_results.py
+      - name: Recompute exhaustive p153 crib constraints
+        if: matrix.python == '3.13'
+        run: |
+          cc -O3 -std=c11 -Wall -Wextra -Werror -o /tmp/p153-enumerate experiments/p153_crib/enumerate.c
+          python experiments/p153_crib/verify_and_control.py --engine /tmp/p153-enumerate
+          python experiments/p153_crib/independent/enumerate_independent.py --input experiments/p153_crib/historical_input.txt --output /tmp/p153-independent.json
+          python experiments/p153_corpus/run_screen.py --verify

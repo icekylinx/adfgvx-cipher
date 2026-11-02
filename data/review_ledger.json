@@ -1540,6 +1540,77 @@
         "experiments/p215_completion/verification.json"
       ],
       "status": "verified conditional computation"
+    },
+    {
+      "id": "p153_source_and_prior_art_boundaries",
+      "scope": [
+        "p153a",
+        "p153b"
+      ],
+      "claim_reviewed": "The joint CHI candidate must be checked against the original source, earlier published readings, and the historical distinction between CHI and RICHI traffic.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02",
+        "kind": "Independent source and bounded prior-art review"
+      },
+      "review_status": "source_verified_and_no_prior_matching_reading_located",
+      "result": "The original page explicitly dates the two CHI parts to November 8 and labels them parts 5 and 6, with lengths 132 and 108. Part 6 preserves exactly 15 printed dashes after the first five-coordinate group. Its first group is clearly AXVAA: any change to the final two A coordinates is an explicit emendation, not a source-transcription correction. A bounded search of the archived 2017 challenge comments, current Bourdeau/baseline material, the complete book OCR, the independently decrypted source index, and NSA report texts found no earlier reading matching the newly recovered phrases. Public web searches combining ADFGVX with ANORDNUNGEN and MUNITIONSBESTAND also found no matching solution. This search does not prove unrestricted worldwide novelty.",
+      "verification_evidence": {
+        "primary_source": "J. Rives Childs collection, printed p. 153 / Aegean PDF p. 156",
+        "source_crop": "sources/excerpts/p153_CHI_parts5_6.png",
+        "historical_distinction_source": "German Military Ciphers from February to November 1918 (1935), printed p. 14 / PDF p. 22",
+        "historical_distinction_url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf",
+        "historical_distinction_crop": "sources/excerpts/nsa_CHI_RICHI_distinction_p14.png",
+        "historical_distinction": "Childs distinguishes western CHI messages with daily key changes from eastern RICHI messages with multi-day key periods. The p153 order therefore cannot be assigned to the Balkan 11th Army merely from its position in a RICHI-labelled source log. FKR and CGH remain unidentified station calls.",
+        "phrases_checked": [
+          "ANORDNUNGEN ... VOM",
+          "BEZIEHEN LASSEN",
+          "SOWEIT NOCH NICHT GESCHEHEN",
+          "MUNITIONSBESTAND",
+          "NACHHUTARTILLERIE"
+        ],
+        "limit": "This entry records archival and prior-art checks; the independent cipher certificate supplies the mathematical verification and its explicit uncertainty domains.",
+        "artifact": "data/reviews/p153_source_review.json",
+        "prior_joint_attack_suggestion": {
+          "author": "Norbert",
+          "date": "2017-09-17",
+          "comment": 56,
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-918886",
+          "finding": "Joint and separate attacks were explicitly suggested; no plaintext or key was posted."
+        },
+        "comment_scope": "The primary thread has 56 numbered comments. Bourdeau's 70-record extraction mixes the thread with unrelated sidebar lines; all 56 original comments were checked.",
+        "part_count_limit": "Parts 5 and 6 are labelled; no total count is printed."
+      }
+    },
+    {
+      "id": "p153_new_partial_recovery",
+      "scope": [
+        "p153a",
+        "p153b"
+      ],
+      "claim_reviewed": "The shared unknown key for the two November 8 CHI fragments yields a substantial new partial reading.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02",
+        "earlier_joint_attack_suggestion": "Norbert, 2017 comment 56",
+        "modern_method_precedent": "Lasry, Niebel, Kopal and Wacker, 2016/2017"
+      },
+      "status": "new_partial_recovery_independently_verified",
+      "result": "A blind width-18 component-column refinement yields coherent German. A conservative 19-cell square fixes 60/66 and 33/54 raw positions. The forty-two-letter ammunition-report hypothesis needs 12 erasure fills and exactly two printed A-to-X emendations. Date, number and trailing text remain unresolved.",
+      "verification_evidence": [
+        "data/certificates/p153.json",
+        "data/reviews/p153_independent_check.json",
+        "experiments/p153_recovery/lineage.json",
+        "experiments/p153_crib/verification.json",
+        "experiments/p153_crib/independent/algorithm_review.json"
+      ],
+      "conditional_uniqueness": "Two independent exact enumerators find only the recovered key and its pair-swap/square-transpose equivalent at width18 when conditioned on the 60-letter first-part crib. Each partial key still admits 17! square completions; this is not a claim of global historical uniqueness."
     }
   ]
 }

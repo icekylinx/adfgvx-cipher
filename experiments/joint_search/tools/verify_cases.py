@@ -31,6 +31,7 @@ def main():
         regenerated = [encrypt(text, ranks, square) for text in case['plaintexts']]
         differences = [mismatches(ct, out) for ct, out in zip(case['ciphertexts'], regenerated)]
         assert differences == record['observed_coordinate_mismatch_positions']
+        assert record['expected_success'] == (not any(differences))
         verified += 1
     ranking = []
     expected = json.loads((ROOT/'results/segmentation16_ranking.json').read_text())
@@ -50,7 +51,7 @@ def main():
                       'verified_recorded_control_outputs':verified,
                       'known_failures_preserved':sum(any(row['observed_coordinate_mismatch_positions']) for row in records),
                       'exact_segmentation_recall_checks':ranking,
-                      'historical_plaintext_claims':0}, indent=2))
+                      'scope':'Synthetic controls and source-independent ranking checks; the separate p153 certificate verifies the historical partial recovery.'}, indent=2))
 
 
 if __name__ == '__main__': main()

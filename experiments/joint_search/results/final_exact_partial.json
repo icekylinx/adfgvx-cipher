@@ -1,0 +1,47 @@
+{
+  "status": "stopped_after_postprocessing_error_and_recovery",
+  "planned_cases": 11,
+  "completed_cases": 3,
+  "completed": [
+    {
+      "case": "k14_p153",
+      "input_rank_zero_based": 16,
+      "score": -7.148390132,
+      "evaluation": null,
+      "independent_score_error": 3.873159570844109e-10
+    },
+    {
+      "case": "k14_fresh_control",
+      "input_rank_zero_based": 1,
+      "score": -5.309788499,
+      "evaluation": {
+        "observed_coordinate_mismatch_positions": [
+          [],
+          []
+        ],
+        "every_observed_coordinate_matches": true,
+        "observed_coordinates": 225,
+        "control_plaintext_used_only_for_evaluation": true
+      },
+      "independent_score_error": 7.312106475865221e-11
+    },
+    {
+      "case": "k14_original_control",
+      "input_rank_zero_based": 4,
+      "score": -5.011920842,
+      "evaluation": {
+        "observed_coordinate_mismatch_positions": [
+          [],
+          []
+        ],
+        "every_observed_coordinate_matches": true,
+        "observed_coordinates": 225,
+        "control_plaintext_used_only_for_evaluation": true
+      },
+      "independent_score_error": 4.6817660859233e-11
+    }
+  ],
+  "cause": "A historical fixture was incorrectly passed as evaluation truth despite lacking plaintexts. The wrapper was corrected; the already successful C output was independently rechecked without rerunning search.",
+  "remaining_cases": "Deferred after the p153 K18 partial recovery; no claim of complete coverage.",
+  "requested_proposal_slots_completed": 3600000
+}

@@ -6,7 +6,7 @@
     "GPT-6 Astra"
   ],
   "target": "p73",
-  "finding": "No additional October25-27 same-network ciphertext has been identified in the complete book; a directly comparable November7/8 route is present on p155. The target remains open.",
+  "finding": "No additional October 25–27 same-network ciphertext has been identified in the complete book; a directly comparable November 7/8 route is present on p155. The target remains open.",
   "target_header": {
     "page_heading": "26th OCTOBER, 1918.",
     "interception_header": "POT v NKJ (2.33 a.m., November 8th)",
@@ -53,7 +53,7 @@
     "header": "POT v NKJ (2.28 a.m., November 8th)",
     "clear_text": "FUER COS GENERAL V KRESS 2035 (7) KR 2 TLE",
     "relation": "Same literal route/addressee; reception is five minutes before p73's printed reception. Different transmitted date and time. No ciphertext identity is claimed.",
-    "source_image": "sources/excerpts/childs_p155_A.png",
+    "source_image": "p155_kress_A_crop.png",
     "part1": {
       "advertised_length": 170,
       "received_length": 170,
@@ -84,6 +84,7 @@
       "analysis_ciphertext": "DDXADGAXDVDXDDVXDGGFXAGVDXDVVGAGGVAVFVDVXVVXGVXXXFGVDXGVGDADFVXXGVVAGVDADGXDVDAFGVDVGXGXGGFDVFGVVDGVGGVDDDXAVDXVVDVVDFGVXVXDVVXDVXGXXDDXXDDGGAXVDADXDDVDXVVGVVXXVDVVVGVVVDGGFDVAD??GDFDDF",
       "key_id": "Nov7-9",
       "model": "Insert one erased coordinate, preserving all183 valid source coordinates and two printed dashes.",
+      "search_results_file": "p155_A2_single_slot_scan.json",
       "all_gap_positions_tested": 186,
       "top_language_ranked_candidates": [
         {
@@ -117,9 +118,7 @@
           "model_ciphertext": "DDXADGAXDVDXDDVXDGGFXAGVDXDVVGAGGVAVFVDVXVVXGVXXXFGVDXGVGDADFVXXGVVAGVDADGXDVDAFGVDVGXGXGGFDVFGVVDGVGGVDDDXAVDXVVDVVDFGVXVXDVVXDVXGXXDDXXDDGGAXVDADXDDVDXVVGVVXXVDVVVGVVVDGGFDVAD??GD?FDDF"
         }
       ],
-      "limit": "A coherent continuation does not establish a unique missing-coordinate position. No guessed letters or source substitutions are applied.",
-      "research_scan_filename_not_distributed": "p155_A2_single_slot_scan.json",
-      "published_constraint_certificate": "data/certificates/p155.json"
+      "limit": "A coherent continuation does not establish a unique missing-coordinate position. No guessed letters or source substitutions are applied."
     },
     "independent_source_verification": "A second agent independently compared every grouped coordinate against the source crop, including A1 literal FVACG, A2 AD--G and final DFDDF, and confirmed both headers and received lengths."
   },
@@ -146,6 +145,17 @@
       "source": "Matthias Dornfeldt and Enrico Seewald, article on German-Azerbaijani relations, note 28",
       "url": "https://irs-az.com/new/pdf/201512/1449672933925976347.pdf",
       "limit": "A scholarly bibliographic cross-reference for the older volume designation. The original archive item has not been retrieved."
+    },
+    {
+      "reference": "PAAA R 11064, Russland 97a No. 2, file concerning Caucasian Azerbaijan; the modern RZ 201/11064 form appears in subsequent scholarly citations but was not checked against the archive catalogue.",
+      "described_item": "Undersecretary Hilmar von dem Bussche, Berlin, to the German mission, October 26, 1918.",
+      "source": "Kemal Ozcan and Fatih Colak, The Reports of the German Committee in Caucasia in 1918 about Azerbaijan, VIII International Congress on Ataturk, volume 2 (Ankara, 2017), printed pp. 1327 and 1329, note 32.",
+      "url": "https://atam.gov.tr/wp-content/uploads/2023/06/VIII.-ULUSLARARASI-ATATURK-KONGRESI-II.-CILT.pdf",
+      "accessible_text_mirror": "https://studylibtr.com/doc/5106051/v%C4%B1%C4%B1%C4%B1.-uluslararas%C4%B1-atat%C3%BCrk-kongresi",
+      "reported_subject": "The reply discusses the proposed sale of military equipment to Georgia and asks whether Kress can move by sea to join German forces in Ukraine.",
+      "precursor_metadata": "The authors date the preceding Kress proposal to October 22 and identify a Foreign Office receipt on October 25 at 11:20 in note 31.",
+      "bibliographic_caution": "Najafli and Eyvazova (2020), reference 16, describe the October 26 item with a conflicting Tiflis-to-Foreign-Office direction, although their narrative also describes a Berlin reply. The more precise 2017 citation is retained as a retrieval lead.",
+      "limit": "No original telegram image, German wording, 09:11 timestamp, cipher key, or match to the 89 plaintext slots of p73 has been obtained. The subject is not used as a crib or a plaintext claim."
     }
   ],
   "p155_historical_context_reference": {

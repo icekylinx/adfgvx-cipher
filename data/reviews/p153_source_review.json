@@ -1,0 +1,175 @@
+{
+  "schema": "adfgvx-p153-source-review-v1",
+  "review_date": "2026-11-02",
+  "prepared_by": [
+    "IceKylin",
+    "GPT-6 Astra"
+  ],
+  "targets": [
+    "p153a",
+    "p153b"
+  ],
+  "summary": "The original source supports a joint analysis of two CHI blocks numbered 5 and 6, intercepted on November 8. No earlier published reading matching the recovered wording was located. Norbert explicitly suggested a joint attack in 2017; this methodological priority is credited separately from the present recovery.",
+  "primary_source": {
+    "title": "General Solution of the ADFGVX Cipher System, Aegean Park Press collection of Childs material",
+    "printed_page": 153,
+    "pdf_page_1based": 156,
+    "section": "C",
+    "public_scan_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "crop": "sources/excerpts/p153_CHI_parts5_6.png",
+    "dated_heading": "8th NOVEMBER, 1918.",
+    "interception_header": "FKR v CGH (11.55 p.m., November 8th)",
+    "clear_header": "2250",
+    "direction": "The notation recipient v sender identifies CGH as the radio sender and FKR as the recipient. No station-to-unit identification is established.",
+    "part_labels": [
+      "5 TL / CHI-132",
+      "6 TL / CHI-108"
+    ],
+    "part_count_limit": "Only the labels 5 TL and 6 TL are present. The source does not state a total count; describe these as parts 5 and 6 of a multipart message, or at least six parts.",
+    "transcription_finding": "The literal groups agree with the source catalog. Part 5 contains 132 valid coordinates. Part 6 contains 108 slots, including exactly 15 explicit dashes at zero-based indices 5 through 19.",
+    "first_group_part6": "AXVAA",
+    "source_glyph_verdict": "The fourth and fifth glyphs of AXVAA are clearly printed A and A. Changing either to X requires an explicit source emendation; it is not justified as correcting a modern visual transcription.",
+    "missing_companions": "No matching earlier or later part was identified in the whole-book header and ciphertext searches. This is a bounded negative search, not proof that no other copy survives elsewhere.",
+    "crop_sha256": "670048096e1bd71593fe06a4aafe66e8c3fd63d5fdcdfdaab9259f0703004f81"
+  },
+  "header_convention_evidence": {
+    "title": "German Military Ciphers from February to November 1918",
+    "publication_year": 1935,
+    "printed_page": 9,
+    "pdf_page_1based": 17,
+    "url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf",
+    "evidence": "The prose identifies LP-to-COS traffic via NKJ and prints NKJ v LP; it identifies COS-to-OSM traffic and prints OSM v COS. These examples establish the direction convention used here."
+  },
+  "CHI_scope_evidence": {
+    "title": "German Military Ciphers from February to November 1918",
+    "publication_year": 1935,
+    "printed_page": 14,
+    "pdf_page_1based": 22,
+    "url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf",
+    "crop": "sources/excerpts/nsa_CHI_RICHI_distinction_p14.png",
+    "finding": "Childs distinguishes western CHI messages with daily key changes from eastern RICHI messages with multi-day key periods.",
+    "limit": "This is historical system-level context. It does not identify CGH or FKR, prove a specific formation, or rule out exceptional use of a CHI key in eastern traffic. The new reading must not automatically inherit the Balkan 11th Army setting of neighbouring RICHI material.",
+    "crop_sha256": "e71b8782ec5b3eddc2da5c2e54c3907ed168c4e830b2583dad9a28ab42b73b98",
+    "documented_exception": {
+      "printed_page": 168,
+      "pdf_page_1based": 171,
+      "section": "D",
+      "header": "RVV v N4 (9.20 p.m., November 9th); 1750; CHI-242",
+      "finding": "The source explicitly labels this eastern-route block CHI, although the independently established p158 component parallel decrypts with the RICHI November 7–9 key. Its label was visually rechecked. A CHI label alone does not prove the geographic origin or exact key family of every individual intercept."
+    }
+  },
+  "prior_art": [
+    {
+      "author": "Thomas",
+      "date": "2017-03-02",
+      "comment": 30,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853101",
+      "finding": "Asked Lasry for the Western Front keys used by CHI messages; no p153 plaintext was supplied."
+    },
+    {
+      "author": "Norbert",
+      "date": "2017-09-17",
+      "comment": 56,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-918886",
+      "finding": "Explicitly recommended trying the p153 VFVAX and AXVAA blocks together and separately because both have a CHI identifier, while noting the limited amount of ciphertext. No recovered key or plaintext appears in the comment."
+    },
+    {
+      "author": "Daniel Bourdeau",
+      "date": "2026-10-26",
+      "url": "https://dbourdeau.github.io/cyphersolver/adfgvx.html",
+      "finding": "The locally retrieved current page still lists both p153 CHI blocks as open; its known-key searches do not provide this reading."
+    }
+  ],
+  "phrase_search": {
+    "query_template": "ANORDNUNGEN VOM ?TEN ??TEN NR ??? BEZIEHEN LASSEN SOWEIT NOCH NICHT GESCHEHEN",
+    "additional_terms": [
+      "MUNITIONSBESTAND",
+      "NACHHUTARTILLERIE",
+      "BEZIEHEN LASSEN",
+      "SOWEIT NOCH NICHT GESCHEHEN"
+    ],
+    "corpora_checked": [
+      "All 56 numbered comments in the original 2017 challenge HTML",
+      "The Bourdeau archived comment extraction and current ADFGVX/further-ADFGVX pages",
+      "The public baseline repository and current issue 181 discussion",
+      "Prinz September 17 and September 19 publications and relevant comments",
+      "Complete available Childs source OCR, including the independently decrypted OCR-derived message index",
+      "The NSA Childs report and General Solution text"
+    ],
+    "public_web_check": "Exact and component phrase queries, including ADFGVX with ANORDNUNGEN or MUNITIONSBESTAND, returned no matching earlier p153 reading.",
+    "result": "No prior matching plaintext located in the checked material.",
+    "limit": "No date digits, message-number digits, unit number, erased coordinate or plaintext letter is assigned from this negative search. The cryptanalytic certificate, not the historical context, establishes compatibility with the received coordinates."
+  },
+  "comment_count_audit": {
+    "primary_numbered_comments": 56,
+    "primary_unique_comment_ids": 56,
+    "primary_last_comment": "Norbert, #56, September 17, 2017",
+    "secondary_claim": "Bourdeau describes 70 comments.",
+    "secondary_file_observation": "The extracted text has 55 line-start numbered records because comment 35 is merged into comment 34, followed by 15 unrelated recent-comment sidebar lines. It still contains all 56 numbered thread comments.",
+    "correction": "Report 56 numbered comments reviewed. The sidebar entries are not additional ADFGVX thread contributions."
+  },
+  "new_key_corpus_screen": {
+    "method": "Fixed recovered rank with the 19-cell body square, plus a separately labelled AF=X model; existing OCR group-length variants retained as explicit hypotheses.",
+    "rank": [
+      16,
+      7,
+      13,
+      4,
+      15,
+      8,
+      17,
+      3,
+      1,
+      12,
+      14,
+      2,
+      5,
+      9,
+      10,
+      18,
+      11,
+      6
+    ],
+    "body_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+    "ocr_blocks": 788,
+    "key_layout_models": 10896,
+    "source_scope": "Printed pages 57–230, with focused inspection of nearby CHI headers on printed pages 140–170.",
+    "controls": [
+      {
+        "id": "p153a",
+        "body_only": "anordnungenvom?ten??tennr???beziehenlassensoweitnochnichtgeschehen",
+        "with_AF_X": "anordnungenvom?ten??tennr???beziehenlassensoweitnochnichtgeschehen",
+        "slots": 132
+      },
+      {
+        "id": "p153b",
+        "body_only": "m?n?t?onsb?s?a?dderna?h?utarti?g?riemel??????g?r???b?a",
+        "with_AF_X": "m?n?t?onsb?s?a?dderna?h?utarti?g?riemel???x?xgxr???bxa",
+        "slots": 108
+      }
+    ],
+    "result": "The two p153 blocks are the only coherent matches identified. No additional same-key companion was accepted.",
+    "limitations": "The unverified OCR may split, merge, omit or misread source blocks. This screen does not exclude a companion obscured by unmodelled transcription errors. No high-scoring random string was treated as plaintext.",
+    "research_script": "screen_new_chi_key.py",
+    "research_results": "new_chi_corpus_screen.json",
+    "input_index_sha256": "b1398b9f96e8940406107f847454951277940c11ce1eba8b271df36114f4feff",
+    "reproducible_experiment": "experiments/p153_corpus/",
+    "reproduction_command": "python run_screen.py --verify",
+    "verification": "Passed: 788 blocks, 10,896 fixed-key layout/square models, all-model SHA-256 34ae75827f4989f25fc5b48bd9168e142a63e13ab42ccb11593a5fcbb85ddb21."
+  },
+  "call_sign_identification_limit": {
+    "author": "Phillip B. Whitehead",
+    "title": "Notes on the Liaison Service and the Liaison Intelligence Service of the German Army during the World War",
+    "url": "https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_214/41760659079980.pdf",
+    "printed_pages": [
+      22,
+      23
+    ],
+    "pdf_pages_1based": [
+      28,
+      29
+    ],
+    "evidence": "The primary report describes daily changes of call names from March 1918 and deliberate lateral traffic intended to obscure formation boundaries. Printed page 23 was visually checked.",
+    "limit": "This provides a general reason to require date-specific evidence before identifying CGH or FKR with a unit. It does not identify either call sign or establish the geographic origin of p153."
+  }
+}

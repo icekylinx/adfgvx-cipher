@@ -1,0 +1,205 @@
+{
+  "stages": [
+    {
+      "source_folder": "segmentation_language",
+      "complete": true,
+      "completed_candidates": 220,
+      "cases": [
+        {
+          "case": "fresh_control",
+          "completed_candidates": 10,
+          "best_normalized_wildcard_score": -4.202111728341709,
+          "control_maximum_fully_observed_characters_correct": 105,
+          "control_fully_observed_character_count": 105,
+          "control_exact_coordinate_successes": 0
+        },
+        {
+          "case": "original_control",
+          "completed_candidates": 10,
+          "best_normalized_wildcard_score": -4.223286585396508,
+          "control_maximum_fully_observed_characters_correct": 105,
+          "control_fully_observed_character_count": 105,
+          "control_exact_coordinate_successes": 1
+        },
+        {
+          "case": "p153",
+          "completed_candidates": 200,
+          "best_normalized_wildcard_score": -5.340137790857143,
+          "control_maximum_fully_observed_characters_correct": null,
+          "control_fully_observed_character_count": null,
+          "control_exact_coordinate_successes": 0
+        }
+      ],
+      "requested_initial_square_proposal_slots": 330000000,
+      "requested_joint_refinement_proposal_slots": 1320000000,
+      "control_truth_used_only_for_evaluation": true,
+      "complete_historical_plaintexts_recovered": 0,
+      "substantial_historical_partial_recoveries": 0
+    },
+    {
+      "source_folder": "segmentation16_full_language",
+      "complete": true,
+      "completed_candidates": 200,
+      "cases": [
+        {
+          "case": "p153",
+          "completed_candidates": 200,
+          "best_normalized_wildcard_score": -5.27657530506,
+          "control_maximum_fully_observed_characters_correct": null,
+          "control_fully_observed_character_count": null,
+          "control_exact_coordinate_successes": 0
+        }
+      ],
+      "requested_initial_square_proposal_slots": 300000000,
+      "requested_joint_refinement_proposal_slots": 1200000000,
+      "control_truth_used_only_for_evaluation": true,
+      "complete_historical_plaintexts_recovered": 0,
+      "substantial_historical_partial_recoveries": 0
+    },
+    {
+      "source_folder": "segmentation18_language",
+      "complete": true,
+      "completed_candidates": 120,
+      "cases": [
+        {
+          "case": "fresh_control",
+          "completed_candidates": 10,
+          "best_normalized_wildcard_score": -4.969237042242424,
+          "control_maximum_fully_observed_characters_correct": 12,
+          "control_fully_observed_character_count": 105,
+          "control_exact_coordinate_successes": 0
+        },
+        {
+          "case": "original_control",
+          "completed_candidates": 10,
+          "best_normalized_wildcard_score": -4.89962372016,
+          "control_maximum_fully_observed_characters_correct": 9,
+          "control_fully_observed_character_count": 105,
+          "control_exact_coordinate_successes": 0
+        },
+        {
+          "case": "p153",
+          "completed_candidates": 100,
+          "best_normalized_wildcard_score": -5.119966537813602,
+          "control_maximum_fully_observed_characters_correct": null,
+          "control_fully_observed_character_count": null,
+          "control_exact_coordinate_successes": 0
+        }
+      ],
+      "requested_initial_square_proposal_slots": 180000000,
+      "requested_joint_refinement_proposal_slots": 720000000,
+      "control_truth_used_only_for_evaluation": true,
+      "complete_historical_plaintexts_recovered": 0,
+      "substantial_historical_partial_recoveries": 0
+    },
+    {
+      "source_folder": "pairing_diversity/language",
+      "complete": true,
+      "completed_candidates": 240,
+      "cases": [
+        {
+          "case": "fresh_control",
+          "completed_candidates": 20,
+          "best_normalized_wildcard_score": -4.8278957193,
+          "control_maximum_fully_observed_characters_correct": 27,
+          "control_fully_observed_character_count": 105,
+          "control_exact_coordinate_successes": 0
+        },
+        {
+          "case": "original_control",
+          "completed_candidates": 20,
+          "best_normalized_wildcard_score": -5.051694229194029,
+          "control_maximum_fully_observed_characters_correct": 56,
+          "control_fully_observed_character_count": 105,
+          "control_exact_coordinate_successes": 0
+        },
+        {
+          "case": "p153",
+          "completed_candidates": 200,
+          "best_normalized_wildcard_score": -5.16372275542857,
+          "control_maximum_fully_observed_characters_correct": null,
+          "control_fully_observed_character_count": null,
+          "control_exact_coordinate_successes": 0
+        }
+      ],
+      "requested_initial_square_proposal_slots": 360000000,
+      "requested_joint_refinement_proposal_slots": 1440000000,
+      "control_truth_used_only_for_evaluation": true,
+      "complete_historical_plaintexts_recovered": 0,
+      "substantial_historical_partial_recoveries": 0
+    },
+    {
+      "source_folder": "segmentation14_language",
+      "complete": true,
+      "completed_candidates": 80,
+      "cases": [
+        {
+          "case": "fresh_control",
+          "completed_candidates": 10,
+          "best_normalized_wildcard_score": -4.289462390244389,
+          "control_maximum_fully_observed_characters_correct": 105,
+          "control_fully_observed_character_count": 105,
+          "control_exact_coordinate_successes": 1
+        },
+        {
+          "case": "original_control",
+          "completed_candidates": 10,
+          "best_normalized_wildcard_score": -4.298367458285714,
+          "control_maximum_fully_observed_characters_correct": 105,
+          "control_fully_observed_character_count": 105,
+          "control_exact_coordinate_successes": 1
+        },
+        {
+          "case": "p153",
+          "completed_candidates": 60,
+          "best_normalized_wildcard_score": -5.28483824520603,
+          "control_maximum_fully_observed_characters_correct": null,
+          "control_fully_observed_character_count": null,
+          "control_exact_coordinate_successes": 0
+        }
+      ],
+      "requested_initial_square_proposal_slots": 120000000,
+      "requested_joint_refinement_proposal_slots": 480000000,
+      "control_truth_used_only_for_evaluation": true,
+      "complete_historical_plaintexts_recovered": 0,
+      "substantial_historical_partial_recoveries": 0
+    },
+    {
+      "source_folder": "rectangle_warm",
+      "complete": true,
+      "completed_candidates": 80,
+      "cases": [
+        {
+          "case": "fresh_control",
+          "completed_candidates": 20,
+          "best_normalized_wildcard_score": -4.267921635641791,
+          "control_maximum_fully_observed_characters_correct": 105,
+          "control_fully_observed_character_count": 105,
+          "control_exact_coordinate_successes": 0
+        },
+        {
+          "case": "original_control",
+          "completed_candidates": 20,
+          "best_normalized_wildcard_score": -4.346771891434243,
+          "control_maximum_fully_observed_characters_correct": 105,
+          "control_fully_observed_character_count": 105,
+          "control_exact_coordinate_successes": 2
+        },
+        {
+          "case": "p153",
+          "completed_candidates": 40,
+          "best_normalized_wildcard_score": -4.81354756040201,
+          "control_maximum_fully_observed_characters_correct": null,
+          "control_fully_observed_character_count": null,
+          "control_exact_coordinate_successes": 0
+        }
+      ],
+      "requested_initial_square_proposal_slots": 0,
+      "requested_joint_refinement_proposal_slots": 800000000,
+      "control_truth_used_only_for_evaluation": true,
+      "complete_historical_plaintexts_recovered": 0,
+      "substantial_historical_partial_recoveries": 1
+    }
+  ],
+  "score_scope": "Wildcard scores lose half-coordinate information and cannot certify a historical plaintext. The exact-domain control certificates are separate records."
+}

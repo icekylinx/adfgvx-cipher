@@ -26,6 +26,10 @@ def main():
     parser.add_argument('--initial-restarts', type=int, default=50)
     parser.add_argument('--restarts', type=int, default=100)
     parser.add_argument('--iterations', type=int, default=60000)
+    parser.add_argument('--component-columns', action='store_true',
+                        help='Refine individual component columns after the fixed-pair stage')
+    parser.add_argument('--component-restarts', type=int, default=100)
+    parser.add_argument('--component-iterations', type=int, default=100000)
     parser.add_argument('--exact-restarts', type=int, default=30)
     parser.add_argument('--exact-iterations', type=int, default=60000)
     parser.add_argument('--six-weight', type=float, default=.7)
@@ -56,26 +60,39 @@ def main():
                           capture_output=True, text=True, check=True)
     pair = best(proc.stdout)
     assert [decrypt(ct, pair['ranks'], pair['square']) for ct in ciphertexts] == pair['plaintexts']
-    interims = [untranspose(ct, pair['ranks']) for ct in ciphertexts]
+    component = None
+    current = pair
+    if args.component_columns:
+        raw = f'{model} {width} {args.component_restarts} {args.component_iterations} {args.seed+2} 2\n'
+        raw += pair['square']+'\n'+' '.join(map(str, pair['ranks']))+'\n'
+        raw += '\n'.join(ciphertexts)+'\n'
+        proc = subprocess.run([str(ROOT/'bin/joint_rectangle_warm')], input=raw,
+                              capture_output=True, text=True, check=True)
+        component = best(proc.stdout)
+        assert [decrypt(ct, component['ranks'], component['square']) for ct in ciphertexts] == component['plaintexts']
+        current = component
+    interims = [untranspose(ct, current['ranks']) for ct in ciphertexts]
     proc = subprocess.run([str(ROOT/'bin/joint_domain_subsolve6'),
                            str(args.models/'german_military36_quad.bin'),
                            str(args.models/'german_military36_sixgram.bin'),
                            str(args.six_weight), '|'.join(interims),
                            str(args.exact_restarts), str(args.exact_iterations),
-                           str(args.seed+2), pair['square']], capture_output=True, text=True, check=True)
+                           str(args.seed+3 if args.component_columns else args.seed+2), current['square']],
+                          capture_output=True, text=True, check=True)
     final = best(proc.stdout)
-    assert [decrypt(ct, pair['ranks'], final['square']) for ct in ciphertexts] == final['plaintexts']
+    assert [decrypt(ct, current['ranks'], final['square']) for ct in ciphertexts] == final['plaintexts']
     evaluation = None
     if 'plaintexts' in case:
-        regenerated = [encrypt(text, pair['ranks'], final['square']) for text in case['plaintexts']]
+        regenerated = [encrypt(text, current['ranks'], final['square']) for text in case['plaintexts']]
         differences = [mismatches(ct, out) for ct, out in zip(ciphertexts, regenerated)]
         evaluation = dict(observed_coordinate_mismatch_positions=differences,
                           every_observed_coordinate_matches=not any(differences),
                           evaluation_key_never_supplied_to_search=True)
     record = dict(case=args.case, selected_profile_rank_zero_based=args.rank,
                   input_candidate=candidate, initial_square_fit=initial,
-                  wildcard_pair_refinement=pair, exact_coordinate_refinement=final,
-                  ranks=pair['ranks'], interims=interims, evaluation=evaluation,
+                  wildcard_pair_refinement=pair, component_column_refinement=component,
+                  exact_coordinate_refinement=final,
+                  ranks=current['ranks'], interims=interims, evaluation=evaluation,
                   seed=args.seed, independent_decryption_checks=True,
                   model_hashes={path.name:hashlib.sha256(path.read_bytes()).hexdigest()
                                 for path in [model,args.models/'german_military36_quad.bin',

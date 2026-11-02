@@ -1,0 +1,48 @@
+{
+  "root_enumerator_sha256": "7af5d966ecc5146220bfad24206398420735ff33e8d9f52b9ad94af961a6b752",
+  "historical_root_and_independent_results_equal": true,
+  "segmentations": 18564,
+  "locally_feasible_segmentations": 4,
+  "partial_key_solutions": 2,
+  "both_have_exact_source_edits": [
+    {
+      "source_index": 3,
+      "observed": "A",
+      "proposed": "X"
+    },
+    {
+      "source_index": 4,
+      "observed": "A",
+      "proposed": "X"
+    }
+  ],
+  "distinct_first_crib_letter_cells": 19,
+  "conditional_full_square_completions_per_representation": "355687428096000",
+  "controls": [
+    {
+      "label": "positive",
+      "solutions": 2,
+      "independent_python_equals_root_c": true,
+      "true_rank_present": true
+    },
+    {
+      "label": "negative",
+      "solutions": 0,
+      "independent_python_equals_root_c": true,
+      "true_rank_present": false
+    }
+  ],
+  "completeness_argument": [
+    "A width-18, length-132 rectangle has six physical columns of height 8 and twelve of height 7. Choosing the six long transmitted chunks enumerates all C(18,6)=18,564 segmentations.",
+    "Physical adjacent columns 0/1,2/3,4/5 have height 8; the remaining six physical pairs have height 7. Every ordered pair of distinct transmitted chunks of the required height is considered for each physical pair.",
+    "Local candidate constraints enforce that each crib letter maps to one cell and no two crib letters share a cell. Global recursion selects each transmitted chunk exactly once and extends the same injective letter/cell mapping.",
+    "These conditions are both necessary and sufficient for an ordinary width-18 transposition and some complete injective 6 by 6 square satisfying the first crib. Every partial mapping extends to a complete square. The six question-mark positions impose no letter/digit assignments.",
+    "The second crib does not prune candidate search. Its 42 letters are all among the 19 first-crib letters. Independent re-encryption of its fixed 108-slot geometry shows exactly the reported known-coordinate contradictions for both solutions."
+  ],
+  "limits": [
+    "The result is conditional on the discovered 60-letter crib, width 18, ordinary row-major input/column-readout geometry, unchanged first-part source, and resetting transposition for the second part. It is not a blind recovery or a probability of correctness.",
+    "Exactly two partial keys means two transposition representations with the same 19 constrained square cells, not two complete historical keys. Each has 17! unconstrained completions before optional interpretations or further evidence.",
+    "The 20th X cell is a separate footer-separator interpretation and is not used in this enumeration.",
+    "The algorithm input requires every second-crib letter to have been assigned by the first crib. This condition holds for the archived historical input and generated controls."
+  ]
+}
