@@ -1,0 +1,123 @@
+--- a/src/subsolve_marginal.c
++++ b/src/subsolve_marginal.c
+@@ -49,7 +49,7 @@
+     printf("{\"score\":%.8f,\"square\":\"%s\",\"plaintext\":\"%s\",\"restart\":%d,\"iteration\":%d}\n",score/valid_windows,sq,pt,restart,iteration);fflush(stdout);
+ }
+ int main(int argc,char **argv) {
+-    if(argc<6||argc>7){fprintf(stderr,"usage: subsolve model cells restarts iterations seed [initial]\n");return 2;}
++    if(argc<6){fprintf(stderr,"usage: subsolve model cells restarts iterations seed [initial]\n");return 2;}
+     FILE *f=fopen(argv[1],"rb");if(!f){perror("quad model");return 2;}
+     size_t qlen=fread(quad,sizeof(float),QSIZE,f);fclose(f);
+     if(qlen!=1874161){fprintf(stderr,"invalid marginal model size\n");return 2;}
+@@ -67,18 +67,6 @@
+     int restarts=atoi(argv[3]),iterations=atoi(argv[4]);rng=strtoull(argv[5],0,10)+1;
+     if(restarts<1||iterations<1)return 2;
+     if(!rng)rng=1;
+-    int initial[36],hasinitial=argc==7;
+-    if(hasinitial){
+-        if(strlen(argv[6])!=36)return 2;
+-        int used[36]={0},missing[36],nm=0;
+-        for(int i=0;i<36;i++){
+-            initial[i]=symbol(argv[6][i]);
+-            if(initial[i]<0){if(argv[6][i]!='?')return 2;}
+-            else if(used[initial[i]]++)return 2;
+-        }
+-        for(int i=0;i<36;i++)if(!used[i])missing[nm++]=i;
+-        for(int i=0;i<36;i++)if(initial[i]<0)initial[i]=missing[--nm];
+-    }
+     int freq[36]={0},order[36];for(int i=0;i<n;i++)if(ct[i]>=0)freq[ct[i]]++;
+     for(int i=0;i<36;i++)order[i]=i;
+     for(int i=0;i<36;i++)for(int j=i+1;j<36;j++)if(freq[order[j]]>freq[order[i]]){int t=order[i];order[i]=order[j];order[j]=t;}
+@@ -88,10 +76,15 @@
+     double global=-1e99;int globalkey[36];
+     for(int rs=0;rs<restarts;rs++) {
+         int key[36];for(int i=0;i<36;i++)key[order[i]]=symbol(priority[i]);
+-        if(hasinitial && rs%4==0)memcpy(key,initial,sizeof key);
++        if(argc>6 && strlen(argv[6])==36 && rs%4==0) {
++            int used[36]={0},missing[36],nm=0;
++            for(int i=0;i<36;i++){key[i]=symbol(argv[6][i]);if(key[i]>=0)used[key[i]]++;}
++            int valid=1;for(int i=0;i<36;i++)if(used[i]>1)valid=0;
++            if(valid){for(int i=0;i<36;i++)if(!used[i])missing[nm++]=i;for(int i=0;i<36;i++)if(key[i]<0)key[i]=missing[--nm];}
++            else for(int i=0;i<36;i++)key[order[i]]=symbol(priority[i]);
++        }
+         else for(int j=0;j<(rs?40:0);j++){int a=ri(36),b=ri(36),t=key[a];key[a]=key[b];key[b]=t;}
+         double current=fitness(key);int marks[MAXN]={0},epoch=0,indices[MAXN];
+-        if(current>global+1e-5){global=current;memcpy(globalkey,key,sizeof key);}
+         for(int it=0;it<iterations;it++) {
+             int a=ri(36),b=ri(36);if(a==b || (!freq[a]&&!freq[b]))continue;
+             int count=0;epoch++;
+--- a/src/pair_marginal.c
++++ b/src/pair_marginal.c
+@@ -71,14 +71,8 @@
+     if(scanf("%1023s%d%d%d%llu%d",path,&K,&restarts,&iters,&seed,&nmsg)!=6||K<2||K>MAXK||nmsg<1||nmsg>MAXM||K%2||restarts<1||iters<1)return 2;
+     H=K/2;state=seed;FILE*f=fopen(path,"rb");if(!f||fread(quad,sizeof(float),QSIZE,f)!=QSIZE)return 3;fclose(f);
+     if(scanf("%36s",initial)!=1||strlen(initial)!=36)return 2;
+-    int used[36]={0},questions=0;hasinitial=1;
+-    for(int i=0;i<36;i++){
+-        startsq[i]=idx(initial[i],AL);
+-        if(startsq[i]<0){if(initial[i]!='?')return 2;questions++;}
+-        else if(used[startsq[i]]++)return 2;
+-    }
+-    if(questions&&questions!=36)return 2;
+-    hasinitial=questions==0;
++    int used[36]={0};hasinitial=1;
++    for(int i=0;i<36;i++){startsq[i]=idx(initial[i],AL);if(startsq[i]<0||used[startsq[i]])hasinitial=0;else used[startsq[i]]=1;}
+     int seen[MAXK]={0};
+     for(int i=0;i<K;i++)if(scanf("%d",&ranks[i])!=1||ranks[i]<1||ranks[i]>K||seen[ranks[i]-1]++)return 2;
+     for(int m=0;m<nmsg;m++){
+@@ -104,7 +98,6 @@
+         else{for(int i=0;i<36;i++)sq[order[i]]=idx(priority[i],AL);for(int j=0;j<(rs?20:0);j++){int a=ri(36),b=ri(36),t=sq[a];sq[a]=sq[b];sq[b]=t;}}
+         if(rs&&nmoves)for(int j=0;j<2+ri(H);j++){int z=ri(nmoves),a=moves[z][0],b=moves[z][1],t=po[a];po[a]=po[b];po[b]=t;}
+         double cur=fitness();
+-        if(cur>global){global=cur;memcpy(gs,sq,sizeof(sq));memcpy(gp,po,sizeof(po));memcpy(go,ori,sizeof(ori));}
+         for(int it=0;it<iters;it++){
+             if(norders && it%5000==4999)cur=optimize_order();
+             int mv=ri(10),pair=nmoves&&mv<2,flip=mv==2,a,b,t;if(pair){int z=ri(nmoves);a=moves[z][0];b=moves[z][1];t=po[a];po[a]=po[b];po[b]=t;}
+--- a/src/joint_domain_subsolve6.c
++++ b/src/joint_domain_subsolve6.c
+@@ -82,9 +82,7 @@
+     printf("],\"objective\":\"mixed_four_sixgram_exact_coordinate_domains\",\"cross_message_windows\":false}\n");fflush(stdout);
+ }
+ int main(int argc,char **argv){
+-    if(argc<8||argc>9){fprintf(stderr,"usage: joint_domain_subsolve6 QUAD SIX SIX_WEIGHT INTERIMS RESTARTS ITERATIONS SEED [SQUARE]\n");return 2;}
+-    int restarts=atoi(argv[5]),iterations=atoi(argv[6]);
+-    if(restarts<1||iterations<1)return 2;
++    if(argc<8){fprintf(stderr,"usage: joint_domain_subsolve6 QUAD SIX SIX_WEIGHT INTERIMS RESTARTS ITERATIONS SEED [SQUARE]\n");return 2;}
+     FILE *f=fopen(argv[1],"rb");if(!f||fread(qlog,sizeof(float),QSIZE,f)!=QSIZE)return 3;fclose(f);
+     for(int i=0;i<QSIZE;i++)qprob[i]=pow(10.0,qlog[i]);
+     if(!g6_load(argv[2]))return 3;
+@@ -119,14 +117,9 @@
+     for(int i=0;i<36;i++)order[i]=i;
+     for(int i=0;i<36;i++)for(int j=i+1;j<36;j++)if(freq[order[j]]>freq[order[i]]){int t=order[i];order[i]=order[j];order[j]=t;}
+     const char *priority="ENISRATDHULCGMXOBWFKZPVJYQ0123456789";
+-    state=strtoull(argv[7],0,10);
+-    int initial[36],hasinitial=argc==9,used[36]={0};
+-    if(hasinitial&&strlen(argv[8])!=36)return 2;
+-    if(hasinitial)for(int i=0;i<36;i++){
+-        initial[i]=idx(argv[8][i],AL);
+-        if(initial[i]<0||used[initial[i]])return 2;
+-        used[initial[i]]=1;
+-    }
++    int restarts=atoi(argv[5]),iterations=atoi(argv[6]);state=strtoull(argv[7],0,10);
++    int initial[36],hasinitial=argc>8&&strlen(argv[8])==36,used[36]={0};
++    if(hasinitial)for(int i=0;i<36;i++){initial[i]=idx(argv[8][i],AL);if(initial[i]<0||used[initial[i]]){hasinitial=0;break;}used[initial[i]]=1;}
+     int bestkey[36];double global=-1e100,printed=-1e100;
+     for(int rs=0;rs<restarts;rs++){
+         int key[36];double cache[MAXWIN];
+--- a/src/anchored_joint.c
++++ b/src/anchored_joint.c
+@@ -76,12 +76,11 @@
+         else if(used[anchors[i]]++)return 2;
+     }
+     int nr=0;for(int i=0;i<36;i++)if(!used[i])remaining[nr++]=i;if(nr!=nu)return 2;
+-    int hasinitial=1,seen[MAXK]={0},nonzero=0;
++    int hasinitial=1,seen[MAXK]={0};
+     for(int i=0;i<k;i++){
+         int rank;if(scanf("%d",&rank)!=1||rank<0||rank>k)return 2;
+-        if(!rank)hasinitial=0;else{if(seen[rank-1]++)return 2;initial[rank-1]=i;nonzero++;}
++        if(!rank)hasinitial=0;else{if(seen[rank-1]++)return 2;initial[rank-1]=i;}
+     }
+-    if(nonzero&&nonzero!=k)return 2;
+     for(int m=0;m<nmsg;m++){
+         if(scanf("%4095s",buf)!=1)return 2;
+         ns[m]=strlen(buf);if(ns[m]%2||ns[m]<8)return 2;

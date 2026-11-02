@@ -1,0 +1,45 @@
+{
+  "format_version": 1,
+  "model_kind": "German A-Z quadgram log10 table, 26**4 little-endian float32 values",
+  "upstream_repository": "https://github.com/0wwafa/adfgvx-1918",
+  "upstream_commit": "083921732d7c18e52424336ab4160fada5c61b4b",
+  "upstream_author_credit": "0wwafa/adfgvx-1918 contributors; their model and build inputs are used for heuristic scoring, not credited as new cryptanalytic results",
+  "quad26": {
+    "url": "https://raw.githubusercontent.com/0wwafa/adfgvx-1918/083921732d7c18e52424336ab4160fada5c61b4b/data/quad.bin",
+    "bytes": 1827904,
+    "sha256": "a39714514cd2884605b1b04a2f65565fcf33aec1f7162bcd1b472c7108601009"
+  },
+  "upstream_build_script": {
+    "url": "https://raw.githubusercontent.com/0wwafa/adfgvx-1918/083921732d7c18e52424336ab4160fada5c61b4b/src/build_model.py",
+    "sha256": "40d3829c8fbab1f3ef9360c8b6178fa5323e05d2450e157878ca1c90460b1c89"
+  },
+  "upstream_military_vocabulary": {
+    "url": "https://raw.githubusercontent.com/0wwafa/adfgvx-1918/083921732d7c18e52424336ab4160fada5c61b4b/data/military_vocab.txt",
+    "sha256": "fae9b589aafa8d8ef47cebe2650233a46cfc4d870cb0633b7a73967512cde22a",
+    "includes_previously_solved_1918_readings": true,
+    "p171_body_occurrences": 15
+  },
+  "upstream_documented_corpus_ids": [
+    22367,
+    2407,
+    6099,
+    5323,
+    21000,
+    34811,
+    24571
+  ],
+  "upstream_documented_corpus_url_template": "https://www.gutenberg.org/cache/epub/{id}/pg{id}.txt",
+  "upstream_documented_processing": "Concatenate available downloaded Gutenberg texts and military_vocab.txt; lowercase, transliterate German umlauts and sharp s, strip nonletters, count overlapping quadgrams, assign log10 count/total and log10(0.01/total) floor.",
+  "upstream_generation_limit": "The build script is published, but historical downloaded corpus bytes and per-request successes are not pinned in the repository. The script silently skips failed downloads. Rebuilding from live URLs is not guaranteed to recreate the distributed binary. Exact score reproduction therefore uses the pinned, checksummed quad.bin.",
+  "upstream_license_url": "https://raw.githubusercontent.com/0wwafa/adfgvx-1918/083921732d7c18e52424336ab4160fada5c61b4b/LICENSE",
+  "local_marginal_builder": "marginal_model.py",
+  "local_builder_authors": [
+    "IceKylin",
+    "GPT-6 Astra"
+  ],
+  "local_builder_description": "Convert the upstream A-Z table to normalized probabilities, add 3 percent independent digit mass, marginalize compatible cells for each of 49 coordinate patterns, and form four-pattern correlations. Unknown square assignments are averaged uniformly only for scoring.",
+  "p185_single_term": "Log ratio of joint coordinate-pattern probability to independent row/column probabilities",
+  "p170_single_term": "Log marginal coordinate-pattern probability",
+  "language_scores_are_heuristic": true,
+  "no_large_model_binaries_bundled": true
+}

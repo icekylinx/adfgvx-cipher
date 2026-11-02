@@ -56,7 +56,7 @@ The October 2026 readings below were first submitted by **Ayush Agarwal** and re
 
 ## Review coverage
 
-The [review ledger](data/review_ledger.json) currently records **55 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
+The [review ledger](data/review_ledger.json) currently records **57 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
 
 A September 2026 mass-solution claim is retained with its [reproducibility assessment](data/reviews/unsupported_claim_checks.json) and **Jozef Krajcovic's earlier critique**. Its published constants and selected substrings do not provide a reproducible full reading; no target is marked solved on that basis.
 
@@ -71,6 +71,10 @@ python3 -m adfgvx.verify --json
 
 The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips, the p152 suffix alternatives, the p158 splice and glyph variants, every p189 source-preserving alignment and plaintext domain, and 25 explicit reconstructions of 14 earlier-readable entries. Three supplementary source and published layers are verified as well. The p164 A4 editorial hypothesis and seven transport-context records have separate certificates and independent coordinate/domain checks. The p164/p215 checks also reproduce uncertainty counts and contradictions in later completions. Odd-length ciphertext cannot silently lose a coordinate.
 
+## Search methods
+
+The [experiment index](experiments/README.md) records completed search bounds, positive controls, scoring failures, and reproducible code. The p153 work enumerates all 900,900 width-16 and 18,564 width-18 column-length segmentations, with heuristic pairing/order searches afterward. This has not produced a new open-target reading.
+
 ## Contents
 
 | Path | Contents |
@@ -83,6 +87,7 @@ The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips
 | `data/review_ledger.json` | Claim-by-claim findings, earlier criticism, and exact attribution |
 | `data/certificates/` | Machine-readable source, edit, and plaintext evidence |
 | `adfgvx/` | Independent cipher and verification code |
+| `experiments/` | Portable attacks, bounded results, controls, and model provenance |
 | `sources/` | Bibliography and selected source excerpts |
 
 Identifiers use the printed page number. `p187` and `p187b` are the two parts listed separately in the original challenge. A question mark means unresolved evidence, never an arbitrary completed square cell. Original German text is preserved as data; editorial material is in English.

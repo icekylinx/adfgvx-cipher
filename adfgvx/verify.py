@@ -137,6 +137,16 @@ def prior_readings():
             paired=after[:2*verified['decoded_plaintext_length']]
             assert after[len(paired):]==verified['unpaired_intermediate_suffix']
             assert plaintext_domains(transpose(paired,ranks),ranks,square)==verified['plaintext_domains']
+        scope=entry.get('source_scope_comparison')
+        if scope:
+            keys=json.loads((ROOT/'data/keys.json').read_text())['keys']
+            key=next(k for k in keys if k['id']=='TRUPPENVERSCHIEBUNG-2026-reported')
+            assert scope['source_conservative_square']==key['square']
+            for variant in entry['verified_variants']:
+                ct=variant['verification']['corrected_ciphertext']
+                values=plaintext_domains(ct,ranks,key['square'])
+                assert values[scope['ambiguous_plaintext_position']]==scope['domain']
+                assert sum(len(d)==1 for d in values)==scope['fixed_plaintext_letters']
     result['independent_domain_crosscheck']=True
     result['published_readings']=sum(len(x['published_readings']) for x in document['messages'])
     return result

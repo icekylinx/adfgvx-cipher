@@ -1,0 +1,26 @@
+{
+  "verified_control_fixtures": 10,
+  "verified_recorded_control_outputs": 4,
+  "known_failures_preserved": 1,
+  "exact_segmentation_recall_checks": [
+    {
+      "case": "original_control",
+      "iid_rank_zero_based": 1208,
+      "collision_rank_zero_based": 2316
+    },
+    {
+      "case": "fresh_control",
+      "iid_rank_zero_based": 916,
+      "collision_rank_zero_based": 11354
+    }
+  ],
+  "historical_plaintext_claims": 0,
+  "c_build_exit_code": 0,
+  "c_build_flags": "-O3 -std=c11 -Wall -Wextra",
+  "compiler_warnings": 0,
+  "model_rebuild_status": "passed",
+  "model_rebuild_validation": "model_rebuild_validation.json",
+  "canonical_engine_version": "2-input-validation-and-initial-incumbent",
+  "cli_regression_cases_passed": 19,
+  "legacy_source_restore_hashes_verified": 4
+}

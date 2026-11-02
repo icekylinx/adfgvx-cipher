@@ -863,7 +863,7 @@
               "end": 95,
               "removed": "XXAXADDVVVXXFXVDVDDG",
               "inserted": "XXAVVXXDDG",
-              "reason": "Reduce original groups 16–19 to XXAVV XXDDG",
+              "reason": "Reduce original groups 16\u201319 to XXAVV XXDDG",
               "evidence": "published repair"
             }
           ],
@@ -2970,7 +2970,7 @@
           "kind": "revised partial prefix",
           "compact_plaintext": "ELXDIEHOEHEX828XOXHXLXMIRCOXSONSTKEINEEREIGNISSEVONBEDEUTUNGXX",
           "notes": [
-            "The E→X change at plaintext 17 contradicts two known coordinates;9→M at 22 contradicts one. The prior two known-symbol repairs do not justify this revised prefix."
+            "The E\u2192X change at plaintext 17 contradicts two known coordinates;9\u2192M at 22 contradicts one. The prior two known-symbol repairs do not justify this revised prefix."
           ]
         },
         {
@@ -3641,7 +3641,7 @@
             "coordinate_pair": "GF"
           }
         ],
-        "note": "The revised OXHXLXMIRCO reading needs additional known-coordinate changes: two coordinates for E→X at plaintext17 and one for9→M at22. It is not forced by the two previously declared substitutions alone."
+        "note": "The revised OXHXLXMIRCO reading needs additional known-coordinate changes: two coordinates for E\u2192X at plaintext17 and one for9\u2192M at22. It is not forced by the two previously declared substitutions alone."
       },
       "detailed_constraint_certificate": "p164_constraints_certificate.json"
     },
@@ -3687,7 +3687,7 @@
       },
       "notes": [
         "The source's G--VVD group is normalized as G?VVD under the explicitly stated five-slot group-layout assumption.",
-        "Beyond the repair list, the published ciphertext changes source 108 V→F and 311 V→X. Both are retained explicitly here.",
+        "Beyond the repair list, the published ciphertext changes source 108 V\u2192F and 311 V\u2192X. Both are retained explicitly here.",
         "The raw plaintext has KURSETARK. Baertl's later KURSESTARK is an editorial addition, not the exact raw decryption."
       ],
       "published_readings": [
@@ -3763,7 +3763,7 @@
               "end": 125,
               "removed": "ADDVV",
               "inserted": "ADDFX",
-              "reason": "Group 25 ADDVV→ADDFX",
+              "reason": "Group 25 ADDVV\u2192ADDFX",
               "evidence": "published repair"
             },
             {
@@ -3779,7 +3779,7 @@
               "end": 150,
               "removed": "G?VVD",
               "inserted": "XDVVD",
-              "reason": "Original group 30 G?VVD→XDVVD",
+              "reason": "Original group 30 G?VVD\u2192XDVVD",
               "evidence": "published repair"
             },
             {
@@ -3787,7 +3787,7 @@
               "end": 170,
               "removed": "GXVXV",
               "inserted": "VXXVV",
-              "reason": "Original group 34 GXVXV→VXXVV",
+              "reason": "Original group 34 GXVXV\u2192VXXVV",
               "evidence": "published repair"
             },
             {
@@ -3803,7 +3803,7 @@
               "end": 312,
               "removed": "V",
               "inserted": "X",
-              "reason": "Implicit final-group correction DVAX→DXAX",
+              "reason": "Implicit final-group correction DVAX\u2192DXAX",
               "evidence": "published repair"
             }
           ],
@@ -4796,7 +4796,7 @@
       },
       "notes": [
         "The primary header is RICHI-240 and 220 coordinates were received. This independently supports a 20-coordinate shortage, but does not determine the missing symbols.",
-        "The three unit digits use unassigned Nov 10–12 square cells. They cannot be fixed from this ciphertext and the attested key alone.",
+        "The three unit digits use unassigned Nov 10\u201312 square cells. They cannot be fixed from this ciphertext and the attested key alone.",
         "The 217/219/6 wording is supported by an independently checked French report dated 19 November describing 11 November forces. That is contextual evidence, distinct from a cryptographic assignment of the missing digits."
       ],
       "published_readings": [
@@ -5988,9 +5988,10 @@
         "unassigned_symbols": "0135789BJMQVY"
       },
       "notes": [
-        "The partial square and 19-column TRUPPENVERSCHIEBUNG key are sufficient for every letter used in this 85-letter message.",
-        "The claimed 1919 manuscript and December 9 key attribution were reported by the 2026 author. This audit verifies arithmetic and attested cells, not the unexamined manuscript provenance.",
-        "Christian Horvat suggested the AVXFF→AVXVF correction in a 2026-09-21 comment on the September 19 follow-up article. It changes only S4STEN to 24 STEN."
+        "The reported partial square and 19-column TRUPPENVERSCHIEBUNG key determine all 85 letters, conditional on AX=4. The primary-source crop leaves AX and FF as the unresolved pair {4,8}; only AX occurs in this message, at plaintext position 40.",
+        "The source-crop-conservative square fixes 84 of 85 letters and gives S?STEN in the received text, or 2?STEN after Horvat's coordinate repair. Its remaining digit has domain {4,8}; assigning 4 is the reported and context-supported interpretation, not an unambiguous source glyph.",
+        "The claimed 1919 manuscript and December 9 key attribution were reported by the 2026 author. This catalog verifies the reported key's arithmetic; the separate source audit records the manuscript evidence and its ambiguities.",
+        "Christian Horvat suggested the AVXFF\u2192AVXVF correction in a 2026-09-21 comment on the September 19 follow-up article. It changes the first character of S4STEN to 2 and does not independently resolve the following digit."
       ],
       "published_readings": [
         {
@@ -6147,7 +6148,7 @@
               "end": 94,
               "removed": "F",
               "inserted": "V",
-              "reason": "Group 19 AVXFF→AVXVF",
+              "reason": "Group 19 AVXFF\u2192AVXVF",
               "evidence": "Christian Horvat's 2026-09-21 suggested correction"
             }
           ],
@@ -6253,7 +6254,17 @@
             "ordinary_complete_adfgvx_roundtrip": true
           }
         }
-      ]
+      ],
+      "source_scope_comparison": {
+        "source_conservative_square": "TRUPE?NVSC2H7I?B1G6A0D3F5J9KLMOQWXYZ",
+        "fixed_plaintext_letters": 84,
+        "plaintext_length": 85,
+        "ambiguous_plaintext_position": 40,
+        "coordinate_pair": "AX",
+        "domain": "48",
+        "unused_coupled_coordinate_pair": "FF",
+        "prior_variant_condition": "Both historical variants below retain the reported AX=4 assignment for exact comparison with their original publications."
+      }
     }
   ]
 }

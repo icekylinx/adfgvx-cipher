@@ -1,0 +1,140 @@
+[
+  {
+    "case": "fresh_control_k16",
+    "stage": "wildcard_pair_refinement",
+    "ranks": [
+      13,
+      10,
+      2,
+      12,
+      16,
+      1,
+      6,
+      5,
+      8,
+      14,
+      4,
+      15,
+      11,
+      3,
+      9,
+      7
+    ],
+    "square": "JRDWBINAMYTLGEU07V4PC9H2Z1FK5QX8S36O",
+    "plaintexts": [
+      "DASREGIMENTSETZTDENMARSCHBEITAGESANBRUCHFORTXWEITEREBEFEHLEFOLGENX",
+      "D?EFUN?ST?LLEB?EI?TBIS?CH?UHRA?AL?ENST?ND??TER?EI??BAR"
+    ],
+    "observed_coordinate_mismatch_positions": [
+      [],
+      [
+        67
+      ]
+    ],
+    "input_profile_rank_zero_based": 4,
+    "all_fully_observed_plaintext_characters_recovered": true,
+    "expected_success": false
+  },
+  {
+    "case": "original_control_k16",
+    "stage": "wildcard_pair_refinement",
+    "ranks": [
+      15,
+      4,
+      11,
+      3,
+      14,
+      7,
+      5,
+      1,
+      2,
+      16,
+      13,
+      9,
+      8,
+      12,
+      10,
+      6
+    ],
+    "square": "5YN21MDCKEWFR93OV7U0HQ4XTISGJAPBZL68",
+    "plaintexts": [
+      "DERBEFEHLZUMABMARSCHISTNICHTEINGETROFFENXDIEFUNKSTELLEWARTETXENDEX",
+      "A?LE?RUPP?NV?RBLE?BE?BISZ?RN?UENW?IS?NGAN?I??ERIGEM??T"
+    ],
+    "observed_coordinate_mismatch_positions": [
+      [],
+      []
+    ],
+    "input_profile_rank_zero_based": 0,
+    "all_fully_observed_plaintext_characters_recovered": true,
+    "expected_success": true
+  },
+  {
+    "case": "fresh_control_k16",
+    "stage": "exact_coordinate_refinement",
+    "ranks": [
+      13,
+      10,
+      2,
+      12,
+      16,
+      1,
+      6,
+      5,
+      8,
+      14,
+      4,
+      15,
+      11,
+      3,
+      9,
+      7
+    ],
+    "square": "6RDWBINAMKTLGEU92J17CQHPZ8F045X3SYVO",
+    "plaintexts": [
+      "DASREGIMENTSETZTDENMARSCHBEITAGESANBRUCHFORTXWEITEREBEFEHLEFOLGENX",
+      "D?EFUN?ST?LLEB?EI?TBIS?CH?UHRA?AL?ENST?ND??TER?EI??BAR"
+    ],
+    "observed_coordinate_mismatch_positions": [
+      [],
+      []
+    ],
+    "input_profile_rank_zero_based": 4,
+    "independent_score_error": 3.0871483147620893e-10,
+    "expected_success": true
+  },
+  {
+    "case": "original_control_k16",
+    "stage": "exact_coordinate_refinement",
+    "ranks": [
+      15,
+      4,
+      11,
+      3,
+      14,
+      7,
+      5,
+      1,
+      2,
+      16,
+      13,
+      9,
+      8,
+      12,
+      10,
+      6
+    ],
+    "square": "15NQ6MDCKEWFR2JOV9U0H74XTISG3APBZL8Y",
+    "plaintexts": [
+      "DERBEFEHLZUMABMARSCHISTNICHTEINGETROFFENXDIEFUNKSTELLEWARTETXENDEX",
+      "A?LE?RUPP?NV?RBLE?BE?BISZ?RN?UENW?IS?NGAN?I??ERIGEM??T"
+    ],
+    "observed_coordinate_mismatch_positions": [
+      [],
+      []
+    ],
+    "input_profile_rank_zero_based": 0,
+    "independent_score_error": 4.6417625299000065e-10,
+    "expected_success": true
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "generated_utc": "2026-11-02T10:21:13.316218+00:00",
+  "verified_new_historical_plaintexts": 0,
+  "historical_p153_status": "unresolved",
+  "historical_language_candidates_completed": 200,
+  "language_budget_per_case": {
+    "initial_square_restarts": 50,
+    "initial_square_iterations": 30000,
+    "pair_square_restarts": 100,
+    "pair_square_iterations": 60000
+  },
+  "exact_domain_cases_completed": 22,
+  "exact_domain_budget_per_case": {
+    "restarts": 30,
+    "iterations": 60000,
+    "sixgram_weight": 0.7
+  },
+  "anchored_historical_widths_completed": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "anchored_historical_budget_per_width": {
+    "restarts": 500,
+    "iterations": 80000
+  },
+  "segmentation16_full_complete": true,
+  "language_result_scope": "High-scoring strings remain diagnostics. Exact segmentation coverage is not exhaustive key or square coverage.",
+  "controls_are_small_calibration_sample": true,
+  "retained_failures": [
+    "FreshK16 wildcard square has one surviving-coordinate mismatch despite105/105 fully observed characters.",
+    "FreshK18 best profile uses only7/9 true unordered pairs despite the true segmentation ranking first.",
+    "One numeric anchored control fails the exact transposition; digit identities are poorly recovered."
+  ]
+}

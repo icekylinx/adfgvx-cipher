@@ -1,0 +1,84 @@
+{
+  "format_version": 1,
+  "reviewer": "Independent known-key-analysis agent for IceKylin and GPT-6 Astra",
+  "scope": "CPU-light read-only review of the alternative_attack portable suite. No sustained stochastic optimizer was run.",
+  "successful_checks": [
+    "All ten synthetic fixtures reproduce every received coordinate under their construction keys.",
+    "All four stored control certificates reproduce their exact plaintexts and mismatch positions independently; the fresh wildcard-stage failure is precisely second-part source index 67, and both exact-domain outputs preserve all 225 observed coordinates.",
+    "The K16 length-class count is C(16,4)*C(12,4)=900900; its exact matching objectives are explicitly relaxed and do not constitute a complete-key bound.",
+    "The K18 length-class count is C(18,6)=18564; the fixed-pairing order count is 3!*6!=4320 and orientation count is 2**8=256 after global coordinate-transpose equivalence.",
+    "Both K18 diagnostic input pairings include all nine true unordered pairs with the correct long/short classes.",
+    "Independent IC2, IC3 and profile calculations at both true keys and twelve top/cutoff retained candidates agree within 2.35e-11.",
+    "Canonical comparison under global pair reversal confirms the original K18 true key is absent from all retained top 2000 lists; the fresh oracle pairing has true-key ranks 1259 and 589 in the reported metrics.",
+    "Freshly compiled pair_marginal, anchored_joint and joint_domain_subsolve6 correctly reject odd coordinate-message lengths."
+  ],
+  "issues_reported_for_author_correction": [
+    {
+      "id": "evaluation-mask-wording",
+      "kind": "claim wording",
+      "detail": "The true K16 class masks are supplied for diagnostic recall before language fitting. They do not affect candidate enumeration, scoring or retention. Wording that says no true segmentation is supplied should explicitly distinguish this evaluation-only input.",
+      "author_response": "Author confirmed wording corrected."
+    },
+    {
+      "id": "invalid-initial-square",
+      "kind": "input validation",
+      "detail": "pair_marginal, subsolve_marginal and joint_domain_subsolve6 accepted a supplied 36-character exclamation-mark square and exited successfully, falling back or treating invalid symbols as unknown. This conflicts with the documented square alphabet.",
+      "affects_recorded_valid_control_certificates": false,
+      "author_response": "Corrected canonical sources independently recompiled; all 19 real regression cases passed. The restoration patch independently reproduced the four archived pre-fix source hashes."
+    },
+    {
+      "id": "zero-budget-domain-solver",
+      "kind": "input validation",
+      "detail": "joint_domain_subsolve6 accepted zero restarts and exited successfully with empty output.",
+      "affects_recorded_positive_budget_results": false,
+      "author_response": "Corrected canonical sources independently recompiled; all 19 real regression cases passed. The restoration patch independently reproduced the four archived pre-fix source hashes."
+    },
+    {
+      "id": "initial-incumbent",
+      "kind": "search bookkeeping",
+      "detail": "subsolve_marginal and pair_marginal do not store initial fitness in their global incumbent before proposals. A valid subsolve_marginal run with cell stream AAAAAAAA, one restart, one iteration and seed 0 through 5 exits successfully with no output because its only proposal is skipped. A best initial seed can also be lost before it is recorded.",
+      "affects_cryptographic_arithmetic_of_stored_results": false,
+      "caveat": "Fixing the initial-incumbent behavior can change stochastic trajectories; old completed runs should retain their original code provenance.",
+      "author_response": "Corrected canonical sources independently recompiled; all 19 real regression cases passed. The restoration patch independently reproduced the four archived pre-fix source hashes."
+    },
+    {
+      "id": "generated-artifacts",
+      "kind": "packaging",
+      "detail": "The working portable tree contains generated executables and __pycache__; MANIFEST excludes them. Publication should use the manifest or explicit exclusions."
+    }
+  ],
+  "pair_order_independent_checks": [
+    {
+      "case": "original_control",
+      "true_pairing_and_height_classes_present": true,
+      "checked_top_and_cutoff_candidates": 6,
+      "maximum_objective_error": 1.7834622667578515e-12,
+      "true_objectives": {
+        "ic2": 57.33397037744864,
+        "ic3": 9.25925925925926,
+        "profile_composite": -23.761746359329276
+      }
+    },
+    {
+      "case": "fresh_control",
+      "true_pairing_and_height_classes_present": true,
+      "checked_top_and_cutoff_candidates": 6,
+      "maximum_objective_error": 2.3462121134798508e-11,
+      "true_objectives": {
+        "ic2": 50.43859649122807,
+        "ic3": 2.6730820636193533,
+        "profile_composite": -18.40981035849115
+      }
+    }
+  ],
+  "overall": "The stored cryptographic control claims and exact subproblem counts checked out. The reported parser and incumbent issues were corrected and independently retested. The four archived source versions are exactly recoverable. These bounded negative searches remain evidence about tested procedures and do not exclude other keys or geometries.",
+  "post_correction_verification": {
+    "regression_cases_passed": 19,
+    "fresh_independent_compilation": true,
+    "archived_sources_restored_and_hash_checked": 4,
+    "details": [
+      "alternative_review/corrected_cli_retest.json",
+      "alternative_review/archive_restore_retest.json"
+    ]
+  }
+}

@@ -1312,6 +1312,27 @@
         "source_crop": "../sources/excerpts/nsa_header_convention_p9.png",
         "metadata_correction": "Transport context p193 E now states recipient absent. All original literal headers are preserved."
       }
+    },
+    {
+      "id": "p217_conservative_digit_domain",
+      "scope": [
+        "p217"
+      ],
+      "claim_reviewed": "The published 85-letter reading is reproduced under the reported AX=4 assignment; the source-crop-conservative key fixes 84 letters.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_source_scope_qualification",
+      "result": "AX and FF remain the coupled 4/8 pair in the conservative key. AX occurs once, at plaintext index 40; FF is unused. The received reading is S?STEN and Horvat's repair gives 2?STEN. Existing 85-letter variants remain attributed and exactly reencrypted under their explicit AX=4 condition. Contextual agreement does not remove the source-glyph ambiguity.",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p217",
+        "field": "source_scope_comparison"
+      }
     }
   ]
 }

@@ -1,0 +1,560 @@
+{
+  "schema": "adfgvx-joint-portable-cases-v1",
+  "cases": [
+    {
+      "id": "p153",
+      "kind": "historical_unresolved",
+      "ids": [
+        "p153a",
+        "p153b"
+      ],
+      "date": "1918-11-08",
+      "source": "Childs, General Solution of the ADFGVX Cipher System, printed p.153",
+      "header": "FKR v CGH, 11.55 p.m., 2250; 5 TL CHI-132 and 6 TL CHI-108",
+      "ciphertexts": [
+        "VFVAXFXDADADVGXFAVGDVDDDADXGAAAXVGVFVDADDXADADVVAVGFXDAGDDDGDXGGGVVXDXFVVAVVVFAXFXDXAFAVVGGXAVXVFVXVFGFVAXGAAVXXGDXXFVXFXGGVADAVAFDG",
+        "AXVAA???????????????DDAFFVAXAGGADAFDXAXXXVDGDXVXFFGXFAVVAADAGXXXAXDDGVAVAXVAXAAVVXVAVGXAXXFGXXFAAAFXVADFDXVF"
+      ],
+      "received_lengths": [
+        132,
+        108
+      ],
+      "erased_symbol_count": 15,
+      "shared_key_is_an_attack_hypothesis": true
+    },
+    {
+      "id": "original_control_k16",
+      "kind": "invented_control",
+      "ciphertexts": [
+        "DXFAGGGADVVDDDXGGFFDAAAAXAGADGXFAGXAGVFDXVFXFGFFXAAADFADGGDAVADADAXDFDXAGGGVAVADVDDXVDVDVVGGXAFGFVFDXVVDGDDFGDGFVDDDXFVDGVFDGXDGXXGX",
+        "GVGFF???????????????GXAGFVFGDFDAVVFAGFFXDGFDADDXGXVDVFAADAFGAXXVAVVXDVGDXDADDGGAFFXGADVXAXFVVAVXDXDAVAGFGAFA"
+      ],
+      "plaintexts": [
+        "DERBEFEHLZUMABMARSCHISTNICHTEINGETROFFENXDIEFUNKSTELLEWARTETXENDEX",
+        "ALLETRUPPENVERBLEIBENBISZURNEUENWEISUNGANBISHERIGEMORT"
+      ],
+      "ranks": [
+        4,
+        15,
+        3,
+        11,
+        7,
+        14,
+        1,
+        5,
+        16,
+        2,
+        9,
+        13,
+        12,
+        8,
+        6,
+        10
+      ],
+      "square": "1DRUTP4C9QIBNK6HSZYEO5GL8WV7J3MF0XA2",
+      "generation_seed": 2026110216,
+      "erased_positions_part2": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "plaintext_used_in_training": false,
+      "key_and_plaintext_for_evaluation_only": true
+    },
+    {
+      "id": "fresh_control_k16",
+      "kind": "invented_control",
+      "ciphertexts": [
+        "FVADADDDDDFADXFDXXAFAFDFAFDADFAFDDFFXVVDFAXDAADFVFVFDVXDDFFDDAXAXDDGFGAFFFDFVFFVVAAVXFGFVFDADVDXDXAAFAGXVDGDDDDVDAVXAVDDFGDXXDDFDAAF",
+        "DXVFD???????????????DAXDDAAFXVVAVVVDAGDDAFDFDADFFAAXFDXFGDDFFVXVXFXDDDDDAXDVVVXFADAGDAAFDXDFDDAVFDVDDFDDFFAG"
+      ],
+      "plaintexts": [
+        "DASREGIMENTSETZTDENMARSCHBEITAGESANBRUCHFORTXWEITEREBEFEHLEFOLGENX",
+        "DIEFUNKSTELLEBLEIBTBISACHTUHRAMALTENSTANDORTERREICHBAR"
+      ],
+      "ranks": [
+        13,
+        10,
+        2,
+        12,
+        16,
+        1,
+        6,
+        5,
+        8,
+        14,
+        4,
+        15,
+        11,
+        3,
+        9,
+        7
+      ],
+      "square": "9RDWBINAMKTLGEUY6P0JC4H2ZQF15VX3S87O",
+      "generation_seed": 2026110316,
+      "erased_positions_part2": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "plaintext_used_in_training": false,
+      "key_and_plaintext_for_evaluation_only": true
+    },
+    {
+      "id": "original_control_k18",
+      "kind": "invented_control",
+      "ciphertexts": [
+        "ADFFDGAFDFFDGDDDGXAXDVDAXVVGFXADXGDFVFDDADADDDDDFVFAFXGAADVXDGDDDADVVXGXFDVFGVDGDDDFADAVDAFXVVXDDAVGFVDGGADFXFGAGFXGDDFAVADADADGDDGV",
+        "AGDFG???????????????ADFDVVDDVXDXAVVDFAXDFXVGVXAAAAGXADAAXXGDXAXFAGXVGDAXDDADFAVAFDDDFDAVXDDFAGFVDDFFGADDADDG"
+      ],
+      "plaintexts": [
+        "DERBEFEHLZUMABMARSCHISTNICHTEINGETROFFENXDIEFUNKSTELLEWARTETXENDEX",
+        "ALLETRUPPENVERBLEIBENBISZURNEUENWEISUNGANBISHERIGEMORT"
+      ],
+      "ranks": [
+        4,
+        15,
+        2,
+        5,
+        1,
+        8,
+        18,
+        13,
+        14,
+        6,
+        9,
+        11,
+        7,
+        12,
+        17,
+        3,
+        16,
+        10
+      ],
+      "square": "B16DLRPEAMN3IX7H8UG0FVKSCTQ254YJWZ9O",
+      "generation_seed": 2026110418,
+      "erased_positions_part2": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "plaintext_used_in_training": false,
+      "key_and_plaintext_for_evaluation_only": true
+    },
+    {
+      "id": "fresh_control_k18",
+      "kind": "invented_control",
+      "ciphertexts": [
+        "VVVAGVDXVAFAADFAVGXVAXVXDVADDXFXAXDGGAAVGGVFXVGAFXGAXAFVVFDVVFFVGXXXVVXFVAXVDVVXFGXXXXXXGGFFVGVFFFXGDVVFFGFFXXAFDFDXXFFXFFGFGGFGAFXA",
+        "AAFFV???????????????XXFFFDFDAVXGGAAXFGVGAGFDAXAXGGFXFAFVDFXFFAGGVFDVAAVVVDFGGVVVAVXXVXFGGFGGVFFFXXGDFGGXGFFV"
+      ],
+      "plaintexts": [
+        "DASREGIMENTSETZTDENMARSCHBEITAGESANBRUCHFORTXWEITEREBEFEHLEFOLGENX",
+        "DIEFUNKSTELLEBLEIBTBISACHTUHRAMALTENSTANDORTERREICHBAR"
+      ],
+      "ranks": [
+        14,
+        15,
+        8,
+        16,
+        13,
+        6,
+        4,
+        17,
+        11,
+        12,
+        5,
+        7,
+        3,
+        18,
+        2,
+        9,
+        1,
+        10
+      ],
+      "square": "O8TVB9JPGL0F1UNICQA5WKX67Y4HDE2MRS3Z",
+      "generation_seed": 2026110518,
+      "erased_positions_part2": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "plaintext_used_in_training": false,
+      "key_and_plaintext_for_evaluation_only": true
+    },
+    {
+      "id": "anchored_letter_control_k16",
+      "kind": "invented_control",
+      "ciphertexts": [
+        "VGDAFXXAFAVVVAAVAGGXGDDXVVAVGXDVAVVGAAVXGXAAAFAVXDGGXAVXXVVAAAGGAAXAAADGAGFVFXDVXXGVGDFXADVAGXFAFXADVADVDFVVDADVFGXDAFVFGAVXXXAGDDFF",
+        "GFAAG???????????????AFAADADFVGAAADVGFAAAAAXGAGXFVFAFVAAGVAAAVXXAVAAGAFDXGFVXFGGFGFVDAVVDAFAGGFXXGDVAGFXVDAXA"
+      ],
+      "plaintexts": [
+        "DASREGIMENTSETZTDENMARSCHBEITAGESANBRUCHFORTXWEITEREBEFEHLEFOLGENX",
+        "DIEFUNKSTELLEBLEIBTBISACHTUHRAMALTENSTANDORTERREICHBAR"
+      ],
+      "ranks": [
+        11,
+        9,
+        5,
+        12,
+        2,
+        3,
+        15,
+        14,
+        8,
+        16,
+        6,
+        1,
+        10,
+        4,
+        13,
+        7
+      ],
+      "square": "AROT0WH3YC7JSVU5I2DXBP8Q1M4NZELFK6G9",
+      "generation_seed": 6258672144880816314,
+      "erased_positions_part2": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "plaintext_used_in_training": false,
+      "key_and_plaintext_for_evaluation_only": true
+    },
+    {
+      "id": "anchored_letter_control_k20",
+      "kind": "invented_control",
+      "ciphertexts": [
+        "VVADAVGVAAXDAGAVDDFAVFFFXGAAXXAAFVFFAGXDGGAGXXXAGGAVGVVDVGXVFGVAVDAADAAVVXGGGGXVAXDXAXVAGDDGVAADVXVXVFVAAXAADFVAFAVAVXVGFFXXDAADXFXA",
+        "AAAAF???????????????VGXFAGDVVAXAADFGGGDVVAVAFXDVVXFFFAXGDAAAGGDAVFVFADFAAXXVGAVDAFAGXXXAADAFXFAAGGXGGDVAAAFF"
+      ],
+      "plaintexts": [
+        "DASREGIMENTSETZTDENMARSCHBEITAGESANBRUCHFORTXWEITEREBEFEHLEFOLGENX",
+        "DIEFUNKSTELLEBLEIBTBISACHTUHRAMALTENSTANDORTERREICHBAR"
+      ],
+      "ranks": [
+        5,
+        3,
+        18,
+        20,
+        6,
+        17,
+        11,
+        7,
+        9,
+        14,
+        8,
+        19,
+        10,
+        13,
+        4,
+        16,
+        1,
+        12,
+        15,
+        2
+      ],
+      "square": "AROTMWH41C3QSVU9IYDXBP06875NZELFK2GJ",
+      "generation_seed": 1681431621769085606,
+      "erased_positions_part2": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "plaintext_used_in_training": false,
+      "key_and_plaintext_for_evaluation_only": true
+    },
+    {
+      "id": "anchored_letter_control_k22",
+      "kind": "invented_control",
+      "ciphertexts": [
+        "GFFAGVVXGADAAAAADXFVADAXVAVGXFVAVAVVXGFDVAXGXFGDAGAFXAGAXDXGAVDVADGDAGDDFADGVXVAVFAXVGXAGVVGADXVGVAXVXAXGGXAAAFAXGDVFDVXXVVFFXAVGAFV",
+        "GXAAV???????????????GVAAGVFAAAVFDADFXFGVXFAGDXVADDFVDVAAAAGVGDVAFVFAFAGGAAAGAAFFAAGGVXGXDXFXADAGAXGFVFAXXAFV"
+      ],
+      "plaintexts": [
+        "DASREGIMENTSETZTDENMARSCHBEITAGESANBRUCHFORTXWEITEREBEFEHLEFOLGENX",
+        "DIEFUNKSTELLEBLEIBTBISACHTUHRAMALTENSTANDORTERREICHBAR"
+      ],
+      "ranks": [
+        1,
+        3,
+        11,
+        18,
+        13,
+        9,
+        22,
+        20,
+        14,
+        8,
+        7,
+        5,
+        4,
+        2,
+        17,
+        16,
+        15,
+        21,
+        6,
+        10,
+        19,
+        12
+      ],
+      "square": "AROT0WH95C72SVUQI3DXBPMY48JNZELFK6G1",
+      "generation_seed": 18158527488785358402,
+      "erased_positions_part2": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "plaintext_used_in_training": false,
+      "key_and_plaintext_for_evaluation_only": true
+    },
+    {
+      "id": "anchored_numeric_control_k16",
+      "kind": "invented_control",
+      "ciphertexts": [
+        "GFXDFDFAVFVAFXGAFXDAAAGADGDADVFAGXXGDAXAXDFAGGGAGDFDFXVFAGFVFAGGAAFDVDDDDXADFVFDAXADAGVVAAGDDVAFAFGADFGAADVDVVAGDDAFADXDDGXVVFVAAVXV",
+        "FADFG???????????????VFFGFVVXAFAGXDVVFVXXAFFAVDXXGFFAFVDXAAXADGVAAFGAXGFDGVVGVFDFXAGGDVFFVVFDAXXDVVAVXGAGDAVX"
+      ],
+      "plaintexts": [
+        "AM17NOVEMBERUM06UHRBEGINNTDERMARSCHZUMBAHNHOFXDERSTABFOLGTSPAETERX",
+        "DIEKOMPANIEBLEIBTBIS09UHRIMQUARTIERXNEUEBEFEHLEFOLGENX"
+      ],
+      "ranks": [
+        10,
+        13,
+        4,
+        6,
+        14,
+        3,
+        11,
+        7,
+        2,
+        1,
+        15,
+        9,
+        8,
+        12,
+        16,
+        5
+      ],
+      "square": "AROT8WHM7CQ2SVU3I6DXBP45901NZELFKYGJ",
+      "generation_seed": 9674842640135140047,
+      "erased_positions_part2": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "plaintext_used_in_training": false,
+      "key_and_plaintext_for_evaluation_only": true
+    },
+    {
+      "id": "anchored_numeric_control_k20",
+      "kind": "invented_control",
+      "ciphertexts": [
+        "ADDFDAAXXAAGAADVDGAXXAXAXGGVGADFDAGAVGXGDFFFDGAAVVADAAVGVDXAAXVVDAXVDFVAAFGFFAAAGVDVVVAFFGFGXGGVAFGVAXAVAVDFAFAVGAGGFDXFXGVDADVAAGAF",
+        "GVFFF???????????????XDFVDDAVGFGXVXFFXVGVGAGXAFAADXVDVVGXAFVDGVAAXAAGXVXGAVVVFFAVXFGDAVVGGAGXFXAXXDAFVDAVFFFA"
+      ],
+      "plaintexts": [
+        "AM17NOVEMBERUM06UHRBEGINNTDERMARSCHZUMBAHNHOFXDERSTABFOLGTSPAETERX",
+        "DIEKOMPANIEBLEIBTBIS09UHRIMQUARTIERXNEUEBEFEHLEFOLGENX"
+      ],
+      "ranks": [
+        8,
+        2,
+        16,
+        3,
+        7,
+        11,
+        10,
+        18,
+        9,
+        5,
+        6,
+        19,
+        14,
+        17,
+        13,
+        4,
+        20,
+        1,
+        15,
+        12
+      ],
+      "square": "AROT8WH19CJ2SVUYI3DXBP06M45NZELFK7GQ",
+      "generation_seed": 10345943048713138775,
+      "erased_positions_part2": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "plaintext_used_in_training": false,
+      "key_and_plaintext_for_evaluation_only": true
+    },
+    {
+      "id": "anchored_numeric_control_k22",
+      "kind": "invented_control",
+      "ciphertexts": [
+        "GVADXAVFAGFXAAFDXXAFVGFAVADDAAFFXFAAVFGADVXDVAAGVDGDAGDGAVGVVXFAAGDFVDGXFDAAAVDADAGXGFAVDGADVGDAXVGFXAFAAFVFFXDADDFVGVAGXVAFFDVDVVGA",
+        "FAAXG???????????????AFAGVVGGFAVAADAAVAFXAGDVAVFAVVVGFVFXDAXGGFVXGFFXVFFVXFAFFXAFVVGDXFFVXVVGDDXXDDXXVVXVVAGV"
+      ],
+      "plaintexts": [
+        "AM17NOVEMBERUM06UHRBEGINNTDERMARSCHZUMBAHNHOFXDERSTABFOLGTSPAETERX",
+        "DIEKOMPANIEBLEIBTBIS09UHRIMQUARTIERXNEUEBEFEHLEFOLGENX"
+      ],
+      "ranks": [
+        3,
+        16,
+        12,
+        7,
+        22,
+        20,
+        18,
+        17,
+        9,
+        15,
+        4,
+        6,
+        13,
+        14,
+        5,
+        8,
+        10,
+        2,
+        1,
+        19,
+        11,
+        21
+      ],
+      "square": "AROT0WHJ6CM5SVUQI7DXBP938Y1NZELFK2G4",
+      "generation_seed": 10918248408387845744,
+      "erased_positions_part2": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "plaintext_used_in_training": false,
+      "key_and_plaintext_for_evaluation_only": true
+    }
+  ]
+}

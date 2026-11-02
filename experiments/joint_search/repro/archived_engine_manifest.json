@@ -1,0 +1,30 @@
+{
+  "recorded_utc": "2026-11-02T10:17:57.496459+00:00",
+  "engines": [
+    {
+      "name": "subsolve_marginal",
+      "source_sha256": "2feee41c26a6dab326074a198a0b2667f348702f0ef59dbc0f3b3446ee10da86",
+      "binary_sha256": "377182185c9d32fa281f0dd726be99088c0d7df6326efbafcccc831e5465d9c9",
+      "source_file": "src/subsolve_marginal.c"
+    },
+    {
+      "name": "pair_marginal",
+      "source_sha256": "0f9a099b1f34d654cca6208ca9df88a96d61e41a6026d83128ccf60cb995e78a",
+      "binary_sha256": "bc28ba4cc3a6d3aabb94b117cc9509a287e24ee1bfce31a30d12564531df29aa",
+      "source_file": "src/pair_marginal.c"
+    },
+    {
+      "name": "joint_domain_subsolve6",
+      "source_sha256": "8d783485ada82c2c7b684dc9e560e5abd333fa159bce2b665023111a2ab3c8ef",
+      "binary_sha256": "788a208ad4fb23e5d3a05b65f079752b008f0b69c1f72c100d46aa9122a24db0",
+      "source_file": "src/joint_domain_subsolve6.c"
+    },
+    {
+      "name": "anchored_joint",
+      "source_sha256": "f5c5463065ed02bddd8995f7df7fbee5fa1441d3afb0990bc8b744e25c1eefd1",
+      "binary_sha256": "f9c6ed0a281b2dad9731a4fb8eb7d13da190f08082814534470621066b5796d2",
+      "source_file": "src/anchored_joint.c"
+    }
+  ],
+  "scope": "Preserved source before initial-incumbent and strict optional-square fixes. Ongoing historical search binaries remain unchanged. Prior parser-only hardening and formatting do not alter these archived valid-input objectives or proposal rules."
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "case": "original_control",
+    "retained_segmentations": 30138,
+    "restarts_per_segmentation": 5,
+    "proposals_per_restart": 2000,
+    "requested_proposal_slots": 301380000,
+    "seconds": 75.32888436317444,
+    "max_independent_score_error": 7.212719310700777e-11,
+    "every_cell_stream_checked": true,
+    "true_segmentation_result": {
+      "rank_zero_based": 0,
+      "profile_score": -21.278507031649,
+      "ranks": [
+        15,
+        4,
+        11,
+        3,
+        5,
+        1,
+        2,
+        16,
+        13,
+        9,
+        14,
+        7,
+        10,
+        6,
+        8,
+        12
+      ],
+      "cells": [
+        "GJ5JLMUJ76F35S3FM0UZ0HCYZHYJZU1CJYPLLMCJXGJLSZIC0Y77JJ3KMYYXJJGCJX",
+        "3?J?M74S4?Q?MC75J?J?550Z6?C?SMCJK?0?CZ31C???JZZM1J??YF"
+      ]
+    },
+    "best_profile_score": -21.278507031649,
+    "stage1_scope": "Exact enumeration of all900900 segmentations under two stated surrogates.",
+    "stage2_scope": "Bounded stochastic global pairing and orientation search within the retained union; no plaintext or square supplied.",
+    "input_segments_sha256": "84951cbbaffb22bbb2215717f0560fba593892b0b8416dc82ad4a284e26e00e6",
+    "output_sha256": "34576d978a4b4e02cf132bb779fb164bea124f186332e0f94dee1c6fc7f42931"
+  },
+  {
+    "case": "fresh_control",
+    "retained_segmentations": 29991,
+    "restarts_per_segmentation": 5,
+    "proposals_per_restart": 2000,
+    "requested_proposal_slots": 299910000,
+    "seconds": 73.27161955833435,
+    "max_independent_score_error": 7.755573960821494e-11,
+    "every_cell_stream_checked": true,
+    "true_segmentation_result": {
+      "rank_zero_based": 4,
+      "profile_score": -8.184623813932,
+      "ranks": [
+        13,
+        10,
+        2,
+        12,
+        16,
+        1,
+        6,
+        5,
+        4,
+        15,
+        8,
+        14,
+        11,
+        3,
+        9,
+        7
+      ],
+      "cells": [
+        "CH6BMNFINGK6KNYKCNGIBH6UWENFHKMN6HGEOBUW09BKD4NFKNBNNE0NWLN0L9MNG4",
+        "C?N0GO?6K?LLEN?NF?KE6F?UW?OWHB?HL?NGK6?GC??KBN?NF??EBH"
+      ]
+    },
+    "best_profile_score": -5.750106409438,
+    "stage1_scope": "Exact enumeration of all900900 segmentations under two stated surrogates.",
+    "stage2_scope": "Bounded stochastic global pairing and orientation search within the retained union; no plaintext or square supplied.",
+    "input_segments_sha256": "30928c7b8c838fe077ad235d790cc58d77ae8c7855a93695aaee58490fa08699",
+    "output_sha256": "d1665e8b0621d257be3fa80ea0d32227337e3a7d373bcc058ab80ca261b5ee7f"
+  },
+  {
+    "case": "p153",
+    "retained_segmentations": 31677,
+    "restarts_per_segmentation": 5,
+    "proposals_per_restart": 2000,
+    "requested_proposal_slots": 316770000,
+    "seconds": 66.3129780292511,
+    "max_independent_score_error": 7.125322554202285e-11,
+    "every_cell_stream_checked": true,
+    "true_segmentation_result": null,
+    "best_profile_score": -37.249136970786,
+    "stage1_scope": "Exact enumeration of all900900 segmentations under two stated surrogates.",
+    "stage2_scope": "Bounded stochastic global pairing and orientation search within the retained union; no plaintext or square supplied.",
+    "input_segments_sha256": "f558fbe2200883e223e0b7e8bef3b87aabef92ef3378f576166a6166faffd92a",
+    "output_sha256": "ce15701cfd2bf3471edbff62420f8b1f6f1c1d5b8718ba6b5da391a18443b4fe"
+  }
+]

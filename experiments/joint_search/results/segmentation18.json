@@ -1,0 +1,111 @@
+[
+  {
+    "case": "original_control",
+    "width": 18,
+    "segmentation_count": 18564,
+    "restarts_per_segmentation": 10,
+    "proposals_per_restart": 5000,
+    "requested_proposal_slots": 928200000,
+    "true_segmentation_result": {
+      "rank_zero_based": 0,
+      "profile_score": -15.402369026024,
+      "correct_unoriented_pairs": 9,
+      "total_pairs": 9,
+      "ranks": [
+        4,
+        15,
+        5,
+        2,
+        8,
+        1,
+        10,
+        16,
+        12,
+        7,
+        13,
+        18,
+        11,
+        9,
+        3,
+        17,
+        6,
+        14
+      ],
+      "cells": [
+        "DH4YHAPUH76T7NNT4AYUCUC7ZEKZHC9KZH4DUPHPCZSHIRZ1HY7HYK6N4ZIKKHHDHI",
+        "??YB6H4?K??VCYHA?4A?Z4XA7?CK?67HHR?ZR?DUCNA?ZH??K9DT?H"
+      ]
+    },
+    "best_profile_score": -15.402369026024,
+    "every_cell_stream_checked": true,
+    "maximum_independent_score_error": 6.707523425575346e-11,
+    "seconds": 202.09883213043213,
+    "segments_sha256": "9f1af382f3d1be8c2b2629b0f84bc3089558ac600139ea1794e6134b64dbe527",
+    "ciphertexts_sha256": "13b4d00331ea937446f9c4f9e41a1af084e58fd9405690012bc79d2074f7b27d",
+    "results_sha256": "13b946cd71b275fccd5d8066ad19a1bbed896f7220d5b058316b580fa7474723",
+    "scope": "Every length-class segmentation; bounded stochastic pairing and orientation; no square or plaintext supplied."
+  },
+  {
+    "case": "fresh_control",
+    "width": 18,
+    "segmentation_count": 18564,
+    "restarts_per_segmentation": 10,
+    "proposals_per_restart": 5000,
+    "requested_proposal_slots": 928200000,
+    "true_segmentation_result": {
+      "rank_zero_based": 0,
+      "profile_score": -8.816011635457,
+      "correct_unoriented_pairs": 7,
+      "total_pairs": 9,
+      "ranks": [
+        6,
+        13,
+        16,
+        8,
+        15,
+        14,
+        12,
+        11,
+        7,
+        2,
+        18,
+        3,
+        17,
+        4,
+        9,
+        5,
+        10,
+        1
+      ],
+      "cells": [
+        "XD28RURH8XMOM8M838DLOXYWR08DMU8UDNRY0IR5ARWM1U8P8M8M38W8585ATTN1O8",
+        "8U2I???UMTT8Y???TYUYMD??XOIDRWD??L5ODMX2??OM88RR0??UE?"
+      ]
+    },
+    "best_profile_score": -8.816011635457,
+    "every_cell_stream_checked": true,
+    "maximum_independent_score_error": 6.74162947689183e-11,
+    "seconds": 195.41842365264893,
+    "segments_sha256": "9f1af382f3d1be8c2b2629b0f84bc3089558ac600139ea1794e6134b64dbe527",
+    "ciphertexts_sha256": "557e73f5f18df36c3928392816566adb07a64a353c8038fa67f37bc8af887d80",
+    "results_sha256": "c0c8ab157f891a3ec947244914ff0ddf4ab5332f917c04e8472b6424227b56eb",
+    "scope": "Every length-class segmentation; bounded stochastic pairing and orientation; no square or plaintext supplied."
+  },
+  {
+    "case": "p153",
+    "width": 18,
+    "segmentation_count": 18564,
+    "restarts_per_segmentation": 10,
+    "proposals_per_restart": 5000,
+    "requested_proposal_slots": 928200000,
+    "true_segmentation_result": null,
+    "best_profile_score": -24.339926811847,
+    "every_cell_stream_checked": true,
+    "maximum_independent_score_error": 7.356959486060077e-11,
+    "seconds": 194.6355266571045,
+    "segments_sha256": "9f1af382f3d1be8c2b2629b0f84bc3089558ac600139ea1794e6134b64dbe527",
+    "ciphertexts_sha256": "23dfd867c40afd9ea2ebec93162d820ee5d4463a9c513c27da62cacdade79c53",
+    "results_sha256": "7dce4020fe760a20039eedaaceb6759fbab3413b3dfc1682c137891433b7ce26",
+    "scope": "Every length-class segmentation; bounded stochastic pairing and orientation; no square or plaintext supplied."
+  }
+]

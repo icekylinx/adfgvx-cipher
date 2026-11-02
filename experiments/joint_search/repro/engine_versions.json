@@ -1,0 +1,29 @@
+{
+  "canonical_version": "2-input-validation-and-initial-incumbent",
+  "archived_search_version": "1-pre-initial-incumbent-fix",
+  "archived_source_manifest": "repro/archived_engine_manifest.json",
+  "engines": [
+    {
+      "engine": "subsolve_marginal",
+      "corrected_source_sha256": "1b05130da1935dfa63b7c303518e835613c4ca2bb1615d21128cf7d47c63cb34",
+      "archived_source_sha256": "2feee41c26a6dab326074a198a0b2667f348702f0ef59dbc0f3b3446ee10da86"
+    },
+    {
+      "engine": "pair_marginal",
+      "corrected_source_sha256": "236d47c87b85692f975da10c709e0143927266dfc2b8efd72528747449bd9cf9",
+      "archived_source_sha256": "0f9a099b1f34d654cca6208ca9df88a96d61e41a6026d83128ccf60cb995e78a"
+    },
+    {
+      "engine": "joint_domain_subsolve6",
+      "corrected_source_sha256": "b0ff0ad0766d6556a59985d624fcfcde70dfe28279ef07264eccd2abf7322b6d",
+      "archived_source_sha256": "8d783485ada82c2c7b684dc9e560e5abd333fa159bce2b665023111a2ab3c8ef"
+    },
+    {
+      "engine": "anchored_joint",
+      "corrected_source_sha256": "b45b91e6a776332feee4e3d8207dbb73deb3032a3b1c0ad03af2e64224652168",
+      "archived_source_sha256": "f5c5463065ed02bddd8995f7df7fbee5fa1441d3afb0990bc8b744e25c1eefd1"
+    }
+  ],
+  "patch_semantics": "Apply the reverse patch inside a separate copy to restore the archived source snapshots. Do not silently mix corrected and archived best-score logs.",
+  "qualification": "The snapshots preserve archived valid-input proposal/incumbent behavior. Earlier parser-only hardening or formatting may postdate the recorded binary build. Reencryption certificates are independently checkable without optimizer replay."
+}

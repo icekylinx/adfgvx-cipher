@@ -22,3 +22,8 @@ jobs:
           python-version: ${{ matrix.python }}
       - name: Recompute every published certificate
         run: python -m adfgvx.verify
+      - name: Check recorded truncation constraints
+        run: python experiments/known_key/verify_p170.py experiments/known_key/p170_experiment.json
+      - name: Build search engines and check controls
+        if: matrix.python == '3.13'
+        run: make -C experiments/joint_search check

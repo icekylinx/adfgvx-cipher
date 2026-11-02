@@ -1,0 +1,95 @@
+{
+  "controls": [
+    {
+      "kind": "summary",
+      "enumerated_transpositions": 1105920,
+      "relative_orientations": 256,
+      "compatible_pair_orders": 4320,
+      "retained_per_metric": 2000,
+      "second_message_pair_offset": 0,
+      "cpu_seconds": 1.691873,
+      "case": "original_control",
+      "scope": "Pairing supplied by blind segmentation/profile rank0; no control key supplied to enumeration.",
+      "true_key_ranks_within_retained_lists": {},
+      "top100_per_metric_unique_keys": 295,
+      "maximum_independent_score_error": 8.690648201081785e-11,
+      "every_retained_cell_stream_checked": true,
+      "seconds": 2.8264667987823486
+    },
+    {
+      "kind": "summary",
+      "enumerated_transpositions": 1105920,
+      "relative_orientations": 256,
+      "compatible_pair_orders": 4320,
+      "retained_per_metric": 2000,
+      "second_message_pair_offset": 0,
+      "cpu_seconds": 1.721634,
+      "case": "fresh_control",
+      "scope": "Oracle true pairing supplied for this diagnostic; all relative orientations and pair orders are enumerated.",
+      "true_key_ranks_within_retained_lists": {
+        "ic2": 1259,
+        "profile_composite": 589
+      },
+      "top100_per_metric_unique_keys": 228,
+      "maximum_independent_score_error": 7.65538743507932e-11,
+      "every_retained_cell_stream_checked": true,
+      "seconds": 3.035383462905884
+    }
+  ],
+  "independent_threshold_check": [
+    {
+      "case": "original_control",
+      "true_objectives": {
+        "ic2": 57.33397037744864,
+        "ic3": 9.25925925925926,
+        "profile_composite": -23.76174635933106
+      },
+      "retention_cutoffs": {
+        "ic2": {
+          "ic2": 69.912609238452,
+          "ic3": 5.877167205407,
+          "profile_composite": -37.338763895959
+        },
+        "ic3": {
+          "ic2": 74.056378404204,
+          "ic3": 12.982797792924,
+          "profile_composite": -31.408769577294
+        },
+        "profile_composite": {
+          "ic2": 48.245614035088,
+          "ic3": 5.107252298264,
+          "profile_composite": -18.924637702602
+        }
+      },
+      "true_key_pairing_and_height_classes_are_in_the_enumerated_space": true
+    },
+    {
+      "case": "fresh_control",
+      "true_objectives": {
+        "ic2": 50.43859649122807,
+        "ic3": 2.6730820636193533,
+        "profile_composite": -18.409810358467688
+      },
+      "retention_cutoffs": {
+        "ic2": {
+          "ic2": 48.245614035088,
+          "ic3": 2.553626149132,
+          "profile_composite": -61.962953271269
+        },
+        "ic3": {
+          "ic2": 35.750766087845,
+          "ic3": 7.017543859649,
+          "profile_composite": -62.226013187481
+        },
+        "profile_composite": {
+          "ic2": 39.950062421973,
+          "ic3": 0.0,
+          "profile_composite": -19.847287811629
+        }
+      },
+      "true_key_pairing_and_height_classes_are_in_the_enumerated_space": true
+    }
+  ],
+  "historical_expansion_performed": false,
+  "reason": "The original control true key is absent from every retained top2000 ranking, despite its true pairing being present."
+}

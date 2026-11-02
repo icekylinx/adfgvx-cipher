@@ -1,0 +1,102 @@
+{
+  "schema": "adfgvx-cli-regressions-v1",
+  "passed": 19,
+  "synthetic_flat_models_are_not_training_data": true,
+  "cases": [
+    {
+      "case": "substitution rejects malformed square 0",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "substitution rejects malformed square 1",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "substitution rejects malformed square 2",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "substitution records initial state with one skipped proposal",
+      "returncode": 0,
+      "nonempty_incumbent_required": true
+    },
+    {
+      "case": "pair solver rejects malformed square 4",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "pair solver rejects malformed square 5",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "pair solver rejects malformed square 6",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "pair solver records initial state with one proposal",
+      "returncode": 0,
+      "nonempty_incumbent_required": true
+    },
+    {
+      "case": "pair solver rejects odd coordinates",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "exact-domain solver rejects malformed complete square 9",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "exact-domain solver rejects malformed complete square 10",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "exact-domain solver rejects malformed complete square 11",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "exact-domain solver rejects zero restarts",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "exact-domain solver rejects zero iterations",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "exact-domain solver rejects odd coordinates",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "exact-domain solver emits its initial incumbent",
+      "returncode": 0,
+      "nonempty_incumbent_required": true
+    },
+    {
+      "case": "anchor solver rejects partially specified rank list",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "anchor solver rejects odd coordinates",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    },
+    {
+      "case": "anchor solver rejects invalid unknown glyph",
+      "returncode": 2,
+      "nonempty_incumbent_required": false
+    }
+  ]
+}

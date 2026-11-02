@@ -1,0 +1,191 @@
+[
+  {
+    "kind": "summary",
+    "enumerated_segmentations": 900900,
+    "precomputed_column_states": 560,
+    "retained_per_metric": 20000,
+    "best_unigram_bound": -117.058815362744,
+    "best_collision_excess": 15.951117899992,
+    "unigram_cutoff": -119.904149681022,
+    "collision_cutoff": 9.463094945111,
+    "has_evaluation_key": true,
+    "true_unigram_bound": -118.843731288791,
+    "true_collision_excess": 11.392119393142,
+    "strictly_better_unigram_segmentations": 1208,
+    "strictly_better_collision_segmentations": 2316,
+    "tied_unigram_segmentations": 1,
+    "tied_collision_segmentations": 1,
+    "true_unigram_rank_zero_based": 1208,
+    "true_collision_rank_zero_based": 2316,
+    "cpu_seconds": 1.170397,
+    "case": "original_control",
+    "wall_seconds": 1.4060120582580566,
+    "retained_union_segmentations": 30138,
+    "source_monograms": "root_attack/data/military_models/provenance.json",
+    "source_metadata_sha256": "fd8aa53d054dd895eb0f87f41e4cfb771856f172b461ad4eb659fa9ab1638377",
+    "input_sha256": "a2e8e77d0032dbab2415e3e4db5257ed6eee9f2ae5c8d4e0b245fe9450334e90",
+    "candidate_file_sha256": "cc6b92bc271138c6db6b20d9c7c26a0e0d25cb87d54332fe826752c0ed21424f",
+    "independent_matching_checks": [
+      {
+        "metric": "unigram_bound",
+        "rank_zero_based": 0,
+        "absolute_error": 1.5631940186722204e-13
+      },
+      {
+        "metric": "unigram_bound",
+        "rank_zero_based": 1,
+        "absolute_error": 1.5631940186722204e-13
+      },
+      {
+        "metric": "unigram_bound",
+        "rank_zero_based": 2,
+        "absolute_error": 2.842170943040401e-14
+      },
+      {
+        "metric": "collision_excess",
+        "rank_zero_based": 0,
+        "absolute_error": 1.4566126083082054e-13
+      },
+      {
+        "metric": "collision_excess",
+        "rank_zero_based": 1,
+        "absolute_error": 1.7763568394002505e-13
+      },
+      {
+        "metric": "collision_excess",
+        "rank_zero_based": 2,
+        "absolute_error": 1.7408297026122455e-13
+      }
+    ],
+    "stderr": "",
+    "exactness_scope": "All900900 length-class segmentations and each class maximum-weight perfect matching are enumerated exactly under each stated surrogate; global square consistency, relative pair orientations, and pair order are deferred.",
+    "bound_scope": "Upper bound only for the independent-letter relaxation with per-pair substitution and independent half-coordinate relaxations. Not an upper bound for the full language objective.",
+    "evaluation_key_used_only_for_recall": true
+  },
+  {
+    "kind": "summary",
+    "enumerated_segmentations": 900900,
+    "precomputed_column_states": 560,
+    "retained_per_metric": 20000,
+    "best_unigram_bound": -114.25588825091,
+    "best_collision_excess": 15.062175183793,
+    "unigram_cutoff": -116.84802123812,
+    "collision_cutoff": 9.17960005674,
+    "has_evaluation_key": true,
+    "true_unigram_bound": -115.73367859512,
+    "true_collision_excess": 9.661250082932,
+    "strictly_better_unigram_segmentations": 916,
+    "strictly_better_collision_segmentations": 11354,
+    "tied_unigram_segmentations": 1,
+    "tied_collision_segmentations": 1,
+    "true_unigram_rank_zero_based": 916,
+    "true_collision_rank_zero_based": 11354,
+    "cpu_seconds": 1.208658,
+    "case": "fresh_control",
+    "wall_seconds": 1.5856106281280518,
+    "retained_union_segmentations": 29991,
+    "source_monograms": "root_attack/data/military_models/provenance.json",
+    "source_metadata_sha256": "fd8aa53d054dd895eb0f87f41e4cfb771856f172b461ad4eb659fa9ab1638377",
+    "input_sha256": "1de41a4cbf88a975a74a4eef862080657e3659a404a4c76d3c14716f8705d299",
+    "candidate_file_sha256": "7a86ac01809b3145dac748475eeb5460fd9f613944122d72f7fd753d55fdedc6",
+    "independent_matching_checks": [
+      {
+        "metric": "unigram_bound",
+        "rank_zero_based": 0,
+        "absolute_error": 2.5579538487363607e-13
+      },
+      {
+        "metric": "unigram_bound",
+        "rank_zero_based": 1,
+        "absolute_error": 7.105427357601002e-14
+      },
+      {
+        "metric": "unigram_bound",
+        "rank_zero_based": 2,
+        "absolute_error": 4.831690603168681e-13
+      },
+      {
+        "metric": "collision_excess",
+        "rank_zero_based": 0,
+        "absolute_error": 4.600764214046649e-13
+      },
+      {
+        "metric": "collision_excess",
+        "rank_zero_based": 1,
+        "absolute_error": 2.5934809855243657e-13
+      },
+      {
+        "metric": "collision_excess",
+        "rank_zero_based": 2,
+        "absolute_error": 3.517186542012496e-13
+      }
+    ],
+    "stderr": "",
+    "exactness_scope": "All900900 length-class segmentations and each class maximum-weight perfect matching are enumerated exactly under each stated surrogate; global square consistency, relative pair orientations, and pair order are deferred.",
+    "bound_scope": "Upper bound only for the independent-letter relaxation with per-pair substitution and independent half-coordinate relaxations. Not an upper bound for the full language objective.",
+    "evaluation_key_used_only_for_recall": true
+  },
+  {
+    "kind": "summary",
+    "enumerated_segmentations": 900900,
+    "precomputed_column_states": 560,
+    "retained_per_metric": 20000,
+    "best_unigram_bound": -117.455476950494,
+    "best_collision_excess": 14.614638926222,
+    "unigram_cutoff": -120.02949331426,
+    "collision_cutoff": 8.862487846188,
+    "has_evaluation_key": false,
+    "true_unigram_bound": 0.0,
+    "true_collision_excess": 0.0,
+    "strictly_better_unigram_segmentations": 0,
+    "strictly_better_collision_segmentations": 0,
+    "tied_unigram_segmentations": 0,
+    "tied_collision_segmentations": 0,
+    "true_unigram_rank_zero_based": -1,
+    "true_collision_rank_zero_based": -1,
+    "cpu_seconds": 1.332972,
+    "case": "p153",
+    "wall_seconds": 1.7418859004974365,
+    "retained_union_segmentations": 31677,
+    "source_monograms": "root_attack/data/military_models/provenance.json",
+    "source_metadata_sha256": "fd8aa53d054dd895eb0f87f41e4cfb771856f172b461ad4eb659fa9ab1638377",
+    "input_sha256": "495f9113e5ac5c9efb77950f1560df35be5cc28fa25f980c145d5e31bc1021c5",
+    "candidate_file_sha256": "48b02d393817b6106afd6fda248c970cbe2929f4e7e4982aace33886a5675f6d",
+    "independent_matching_checks": [
+      {
+        "metric": "unigram_bound",
+        "rank_zero_based": 0,
+        "absolute_error": 3.694822225952521e-13
+      },
+      {
+        "metric": "unigram_bound",
+        "rank_zero_based": 1,
+        "absolute_error": 5.115907697472721e-13
+      },
+      {
+        "metric": "unigram_bound",
+        "rank_zero_based": 2,
+        "absolute_error": 3.836930773104541e-13
+      },
+      {
+        "metric": "collision_excess",
+        "rank_zero_based": 0,
+        "absolute_error": 1.1191048088221578e-13
+      },
+      {
+        "metric": "collision_excess",
+        "rank_zero_based": 1,
+        "absolute_error": 2.9665159217984183e-13
+      },
+      {
+        "metric": "collision_excess",
+        "rank_zero_based": 2,
+        "absolute_error": 3.836930773104541e-13
+      }
+    ],
+    "stderr": "",
+    "exactness_scope": "All900900 length-class segmentations and each class maximum-weight perfect matching are enumerated exactly under each stated surrogate; global square consistency, relative pair orientations, and pair order are deferred.",
+    "bound_scope": "Upper bound only for the independent-letter relaxation with per-pair substitution and independent half-coordinate relaxations. Not an upper bound for the full language objective.",
+    "evaluation_key_used_only_for_recall": false
+  }
+]

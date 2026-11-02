@@ -120,6 +120,7 @@ def compare_reading(plaintext, result):
 def verify(path):
     document = json.loads(Path(path).read_text())
     checked = []
+    source_scope_checks = []
     for entry in document["messages"]:
         for variant in entry["verified_variants"]:
             result = compute_variant(entry["analysis_ciphertext"], entry["key"], variant)
@@ -150,7 +151,31 @@ def verify(path):
             assert len(before) == len(after)
             expected = [{"index":i,"observed":a,"replacement":b,"kind":"erasure fill" if a=="?" else "known-symbol correction"} for i,(a,b) in enumerate(zip(before,after)) if a!=b]
             assert expected == stages["additional_changes_in_first_stage_coordinates"]
-    return {"messages": len(document["messages"]), "verified_variants": len(checked), "checks_passed": True, "variants": checked}
+        scope = entry.get("source_scope_comparison")
+        if scope is not None:
+            source_key = {**entry["key"], "square": scope["source_conservative_square"]}
+            for variant in entry["verified_variants"]:
+                result = compute_variant(entry["analysis_ciphertext"], source_key, variant)
+                i = scope["ambiguous_plaintext_position"]
+                pairs = [result["intermediate_stream_after_edits"][j:j + 2]
+                         for j in range(0, 2 * result["decoded_plaintext_length"], 2)]
+                assert result["decoded_plaintext_length"] == scope["plaintext_length"]
+                assert result["fixed_plaintext_characters"] == scope["fixed_plaintext_letters"]
+                assert result["plaintext_domains"][i] == scope["domain"]
+                assert pairs[i] == scope["coordinate_pair"]
+                assert pairs.count(scope["coordinate_pair"]) == 1
+                assert scope["unused_coupled_coordinate_pair"] not in pairs
+                assert result["coordinate_transposition_roundtrip"]
+                source_scope_checks.append({
+                    "message_id": entry["id"], "variant": variant["id"],
+                    "raw_partial_plaintext": result["raw_partial_plaintext"],
+                    "fixed_characters": result["fixed_plaintext_characters"],
+                    "ambiguous_plaintext_position": i,
+                    "domain": result["plaintext_domains"][i],
+                })
+    return {"messages": len(document["messages"]), "verified_variants": len(checked),
+            "checks_passed": True, "variants": checked,
+            "source_scope_comparisons": source_scope_checks}
 
 
 if __name__ == "__main__":
