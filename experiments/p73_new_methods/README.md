@@ -210,6 +210,16 @@ Their provenance remains attached, including editorial assumptions. An
 editorial corpus string is a retrieval hypothesis, not an independent witness.
 Open-challenge language candidates are not corpus entries.
 
+A final [source-snapshot audit](results/retrieval_provenance_audit.json)
+records a provenance limitation: two earlier naval package files were edited
+in place before their full JSON bytes were retained. Their original file-level
+hashes therefore cannot be rechecked from the delivered snapshots. All 25
+selected naval field references still match the current source edition exactly,
+and their complete text remains frozen in `retrieval_inputs.json`, so retrieval
+replay is intact. The earlier Tiflis input and certificate bytes are recoverable
+exactly and identified separately. No missing original bytes or hashes were
+silently reconstructed or replaced.
+
 The experiment includes 50 p73 rank hypotheses, one frequency-preserving
 shuffle of each, and two positive queries with five deliberately altered
 positions. It produces 47,819 best query/corpus alignments.
