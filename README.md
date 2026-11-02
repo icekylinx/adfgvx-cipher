@@ -38,6 +38,22 @@ Five entries remain wholly open: **p73, p153a, p153b, p170, p198**. A source-lin
 | `p198` | Open | — |
 | [p217](cases/p217.md) | Prior body reading; correction verified | Prinz (2026 publication), Christian Horvat (later correction) |
 
+## Supplementary frontier results
+
+The October 2026 readings below were first submitted by **Ayush Agarwal** and reviewed by **D. Bourdeau**. This edition checks the original images and corrects source counts or masked coordinates. They do not change the 22-target total.
+
+| Record | Content | Current review |
+|---|---|---|
+| [p89 A2](cases/supplementary/p89_A2.md) | Shipping and railway routing to Nikolayev | 290 coordinates / 145 letters; one damaged glyph remains uncertain. |
+| [p107 D](cases/supplementary/p107_D.md) | Acknowledgment of operational telegrams | 176 coordinates; printed and parenthesized letters retained separately. |
+| [p187 C](cases/supplementary/p187_C.md) | Connection with Mackensen's army | 134 coordinates; source `FFXXV` restores `M` in the raw `MIS`. |
+
+## Review coverage
+
+The [review ledger](data/review_ledger.json) currently records **48 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
+
+A September 2026 mass-solution claim is retained with its [reproducibility assessment](data/reviews/unsupported_claim_checks.json) and **Jozef Krajcovic's earlier critique**. Its published constants and selected substrings do not provide a reproducible full reading; no target is marked solved on that basis.
+
 ## Verify
 
 Python 3.10 or later; standard library only:
@@ -47,7 +63,7 @@ python3 -m adfgvx.verify
 python3 -m adfgvx.verify --json
 ```
 
-The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips, the p152 suffix alternatives, the p158 splice and glyph variants, every p189 source-preserving alignment and plaintext domain, and 25 explicit reconstructions of 14 earlier-readable entries. The p164/p215 checks also reproduce uncertainty counts and contradictions in later completions. Odd-length ciphertext cannot silently lose a coordinate.
+The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips, the p152 suffix alternatives, the p158 splice and glyph variants, every p189 source-preserving alignment and plaintext domain, and 25 explicit reconstructions of 14 earlier-readable entries. Three supplementary source and published layers are verified as well. The p164/p215 checks also reproduce uncertainty counts and contradictions in later completions. Odd-length ciphertext cannot silently lose a coordinate.
 
 ## Contents
 
@@ -57,6 +73,8 @@ The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips
 | `data/messages.json` | All 22 source records, legacy transcriptions, and conservative analysis layers |
 | `data/keys.json` | 24 historical, comparison, or reported keys; provenance and unknown cells retained |
 | `data/prior_readings.json` | 34 attributed earlier readings/fragments and 25 recomputed repair variants |
+| `data/supplementary_readings.json` | Three October 2026 readings and their primary-source corrections |
+| `data/review_ledger.json` | Claim-by-claim findings, earlier criticism, and exact attribution |
 | `data/certificates/` | Machine-readable source, edit, and plaintext evidence |
 | `adfgvx/` | Independent cipher and verification code |
 | `sources/` | Bibliography and selected source excerpts |

@@ -12,7 +12,7 @@ from .cipher import decrypt, encrypt, self_check, SYMBOLS, plaintext_domains, tr
 from .alignment import find_switch, table, alignment
 from .projection import analyze, untranspose as project_untranspose, transpose as project_transpose
 from . import prior
-from . import constraints164, constraints215
+from . import constraints164, constraints215, supplementary
 
 ROOT=Path(__file__).resolve().parent.parent
 
@@ -142,6 +142,24 @@ def prior_readings():
     return result
 
 
+def supplementary_readings():
+    path=ROOT/'data/supplementary_readings.json'
+    result=supplementary.verify(path)
+    document=json.loads(path.read_text())
+    for record in document['messages']:
+        ranks=record['key']['column_rank_order'];square=record['key']['square']
+        for layer,field in [('source','source_ciphertext_literal_letters'),
+                            ('conservative_source','source_ciphertext_conservative'),
+                            ('published','published_ciphertext')]:
+            verified=record[layer+'_verification'];ciphertext=record[field]
+            assert not verified['unpaired_suffix']
+            assert plaintext_domains(ciphertext,ranks,square)==verified['plaintext_domains']
+            if verified['full_plaintext_roundtrip']:
+                assert encrypt(verified['plaintext'],ranks,square)==ciphertext
+    result['independent_domain_crosscheck']=True
+    return result
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--json',action='store_true');args=parser.parse_args()
     assert self_check()
@@ -152,7 +170,7 @@ def main():
     results={'arithmetic':'PASS','cases':{'p152':p152(),'p158':p158(),'p189':p189(),
              'p164':constraints164.verify(certificate('p164')),
              'p215':constraints215.verify(certificate('p215'))},
-             'prior_readings':prior_readings()}
+             'prior_readings':prior_readings(),'supplementary_readings':supplementary_readings()}
     if args.json:print(json.dumps(results,indent=2))
     else:
         print('PASS: independent ADFGVX arithmetic and odd-length guard')
@@ -162,6 +180,7 @@ def main():
         previous=results['prior_readings']
         print(f"PASS: {previous['messages']} prior entries, {previous['published_readings']} attributed readings, "
               f"{previous['verified_variants']} reconstruction variants, independent domain checks")
+        print('PASS: three supplementary records, all source and published layers independently checked')
 
 
 if __name__=='__main__':main()

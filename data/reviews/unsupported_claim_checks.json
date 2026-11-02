@@ -1,0 +1,133 @@
+{
+  "schema": "adfgvx-unsupported-prior-claim-checks-v1",
+  "review_date": "2026-11-02",
+  "claim_source": {
+    "author": "Hongki Min",
+    "date": "2026-09-21",
+    "url": "https://klausschmeh.net/adfgvx-top-50-cipher-mystery-solved-by-aiwwi/#comment-193",
+    "report_dateline": "2026-09-22"
+  },
+  "earlier_critique": {
+    "author": "Jozef Krajcovic",
+    "date": "2026-09-22",
+    "url": "https://klausschmeh.net/adfgvx-top-50-cipher-mystery-solved-by-aiwwi/#comment-197"
+  },
+  "reported_constants": {
+    "square": "GU62CQ3EYKN981H0M5DSVBPXIJF7LZRATWO4",
+    "column_dump_order": [
+      12,
+      3,
+      18,
+      2,
+      19,
+      13,
+      4,
+      15,
+      20,
+      5,
+      14,
+      7,
+      1,
+      16,
+      17,
+      8,
+      9,
+      11,
+      6,
+      10
+    ],
+    "column_height_deltas_one_based": {
+      "1": -2,
+      "2": 1,
+      "3": -1,
+      "4": -2,
+      "5": -1,
+      "6": 0,
+      "7": -1,
+      "8": 2,
+      "9": 1,
+      "10": 0,
+      "11": 1,
+      "12": 0,
+      "13": 2,
+      "14": -1,
+      "15": -1,
+      "16": 1,
+      "17": 1,
+      "18": 2,
+      "19": 1,
+      "20": 0
+    }
+  },
+  "arithmetic_checks": {
+    "square_length": 36,
+    "square_distinct_symbols": 36,
+    "column_order_is_permutation_1_to_20": true,
+    "slip_delta_sum": 3,
+    "slip_absolute_sum": 21
+  },
+  "benchmark_strings": {
+    "CT1": "2NKMGZALLQNUXOCBHXKN5GWJ7Z9BBMBEX7BZMGIX804OITOSW0IBTX7SZ5V7R01BT6786WJZYDV3K6G7JA8DGR7NEINRUECKEYN10G833FD",
+    "CT2": "1BMWB47T205XXDWMLDK8GQMUBNXDWGYXLCW1KPGENHA9RU3BHEC1J3H28CI6U67H3ZAMLQKK9OMB1QKNM3KL2Z67BMDQJ2ZQIX8RTOW0KN",
+    "CT3": "9XZV6GKRM9XLLICHYAZ9FLNJNGC1WHAAXAELQ3IAVS7D0BN8JFG2WGOBMU9IG9BEZGS63RN7XMBVNB0JR6MX7VG5PP0"
+  },
+  "benchmark_checks": {
+    "CT1": {
+      "length": 107,
+      "claimed_substrings": {
+        "OITOS": {
+          "present": true,
+          "offset_zero_based": 43
+        },
+        "EINRUECKE": {
+          "present": true,
+          "offset_zero_based": 88
+        }
+      }
+    },
+    "CT2": {
+      "length": 106,
+      "claimed_substrings": {
+        "GEN": {
+          "present": true,
+          "offset_zero_based": 38
+        }
+      }
+    },
+    "CT3": {
+      "length": 91,
+      "claimed_substrings": {
+        "UNICH": {
+          "present": false,
+          "offset_zero_based": -1
+        },
+        "LDATEN": {
+          "present": false,
+          "offset_zero_based": -1
+        },
+        "MUNICH": {
+          "present": false,
+          "offset_zero_based": -1
+        },
+        "DATEN": {
+          "present": false,
+          "offset_zero_based": -1
+        },
+        "SOLDATENRAT": {
+          "present": false,
+          "offset_zero_based": -1
+        }
+      }
+    }
+  },
+  "missing_reproducibility_material": [
+    "Exact Childs message identifiers and received ciphertexts",
+    "A deterministic specification of how the slip vector changes column boundaries and preserves or replaces coordinates",
+    "The complete scoring function and semantic-anchor weights",
+    "A direct encrypt/decrypt verifier",
+    "Readable full plaintexts",
+    "An anchor-free or withheld-message evaluation"
+  ],
+  "conclusion": "The supplied constants are syntactically valid, but the claim of a mass decipherment is not supported by a reproducible mapping or the printed benchmark text. The arithmetic and absent-substring observations were already made by Krajcovic. No challenge target is reclassified on this evidence.",
+  "scope_limit": "No particular undefined slip algorithm has been refuted. The checks concern the published evidence and its explicit benchmark assertions."
+}

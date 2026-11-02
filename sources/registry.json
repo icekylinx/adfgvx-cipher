@@ -3,12 +3,16 @@
     "title": "General Solution of the ADFGVX Cipher System",
     "author": "J. Rives Childs",
     "edition_year": 2000,
-    "historical_report_year": 1934,
+    "edition_year_evidence": "Lasry et al. cite the Aegean Park Press edition as 2000. The inspected imprint page in this scan does not itself print a publication year; the cover's 2002 B 3922 is a library accession/call label.",
+    "isbn": "0-89412-284-3",
+    "technical_paper_publication_year": 1934,
+    "technical_paper_date_evidence": "The main report reproduces the text and examples of General Solution for the ADFGVX Cipher System, whose separate US Government Printing Office title page explicitly prints Washington: 1934 (source nsa_general_solution). This is a publication date, not an asserted original composition date.",
+    "historical_manuscript_date": "The editor's introduction says the Childs paper was written after World War I and was later published in part in the 1930s; it gives no precise composition year.",
     "intercept_record_year": 1918,
     "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
     "catalogue_url": "https://richardbean.id.au/misc/kryptos/aegean-park-press.html",
     "kind": "Historical report containing the intercept logs and key appendix",
-    "page_convention": "Printed page n is PDF page n+3 in the 248-page public scan."
+    "page_convention": "For the intercept log and key appendix used here, printed page n is PDF page n+3 in the 248-page public scan. The initial frontmatter and omitted blank pages do not follow this rule."
   },
   "challenge": {
     "title": "Unsolved ADFGVX messages from World War I",
@@ -23,6 +27,22 @@
     "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
     "kind": "Prior solutions, repairs, key corrections, and discussion",
     "numbered_comment_count": 56
+  },
+  "schmeh_followup_2026": {
+    "title": "ADFGVX: Top 50 cipher mystery solved by AI",
+    "author": "Klaus Schmeh and named comment authors",
+    "date": "2026-09-21",
+    "url": "https://klausschmeh.net/adfgvx-top-50-cipher-mystery-solved-by-aiwwi/",
+    "kind": "Challenge curator's report on the p217 reading; also hosts an unsupported mass-solution claim and a contemporaneous critique"
+  },
+  "childs_1919_catalogue": {
+    "title": "The History and Principles of German Military Ciphers, 1914-1918",
+    "author": "J. R. Childs",
+    "date": "1919",
+    "url": "https://www.nsa.gov/Portals/75/documents/about/cryptologic-heritage/museum/national-cryptologic-museum-library-catalog.pdf",
+    "locator": "National Cryptologic Museum Library catalogue, call number Z103.3.C5",
+    "kind": "Institutional catalogue record, not the manuscript itself",
+    "limitation": "The complete manuscript was not independently obtained. The catalogue establishes a holding, not the provenance or date of the reported TRUPPENVERSCHIEBUNG crops."
   },
   "lasry_paper": {
     "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
@@ -49,9 +69,25 @@
   },
   "nsa_summary": {
     "title": "German Military Ciphers from February to November 1918",
+    "author": "J. R. Childs, with added notes by H. C. Skinner and William F. Friedman",
+    "editor": "William F. Friedman",
+    "publication_year": 1935,
+    "foreword_date": "1934-06-25",
+    "composition_evidence": "The foreword says Childs wrote the report about December 1918; it separately identifies added notes 7 and 12, the latter prepared in January 1919.",
+    "date_locator": "Publication year on PDF page 5; foreword date and composition statement on PDF page 7.",
     "url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf",
     "kind": "Declassified historical report; a different work from the complete Childs book",
     "page_convention": "Printed page n is PDF page n+8 in this 63-page file."
+  },
+  "nsa_general_solution": {
+    "title": "General Solution for the ADFGVX Cipher System",
+    "corporate_author": "War Department, Signal Intelligence Section, War Plans and Training Division",
+    "publication_year": 1934,
+    "publisher": "United States Government Printing Office, Washington",
+    "url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_269/41784769082379.pdf",
+    "locator": "Register No.129; publication year on PDF page4; solution attribution in printed page2 footnote1",
+    "kind": "The earlier technical paper reproduced in the opening section of the Aegean Park Press volume; distinct from the 1919 Childs manuscript and the 1935 German Military Ciphers report",
+    "attribution_note": "The paper credits the general solution to F. B. Rowlett, S. Kullback and A. Sinkov, and cites Childs's earlier report for wartime special-case methods. The Aegean title page describes its text as derived from a paper by Childs; these statements should not be collapsed into sole authorship of every method."
   },
   "prinz_p217": {
     "title": "GPT-6 Astra solves a WWI German radio cipher",

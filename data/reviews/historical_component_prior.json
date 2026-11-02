@@ -1,0 +1,83 @@
+{
+  "schema": "adfgvx-historical-component-prior-v1",
+  "review_date": "2026-11-02",
+  "source": {
+    "author": "J. R. Childs",
+    "editor": "William F. Friedman",
+    "title": "German Military Ciphers from February to November 1918",
+    "report_date": "1918-11-20",
+    "publication_year": 1935,
+    "printed_page": 42,
+    "pdf_page_one_based": 50,
+    "url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf"
+  },
+  "foreword_evidence": {
+    "printed_page": "iii",
+    "pdf_page_one_based": 7,
+    "date": "1934-06-25",
+    "summary": "Friedman attributes the report, written about December 1918, to J. R. Childs, with added notes 7 and 12 by other authors. The relevant passage is note 6."
+  },
+  "historical_header": {
+    "origin": "SY (Spa)",
+    "destination": "RVV (location unknown in the report)",
+    "relay": "N4 (location unknown in the report)",
+    "sent_time": "21:03",
+    "sent_date": "1918-11-09",
+    "interception_station": "G.H.Q., American E.F."
+  },
+  "historical_german_reading": "UEBER 2 BAYRISCHE GENERAL-KOMMANDO, MUENCHEN: AN 7 RESERVENDIVISION: LANDWEHR REGIMENT; AN FECH: NICHT DURCH KABEL. ARMEESCHLUESSEL DOPPELT. EMPFANG BESTAETIGEN: O.H.L. ROEM. 1 ANR. 11338. GEHEIMORDRE.",
+  "historical_english_reading": "To the 7th Reserve Division, Landwehr Rgt., for the Director of Railways; via the 2d Bavarian Army Staff: Do not send by cable. Key for the army is a double encipherment. Acknowledge receipt: Higher Command; 1 ANR 11338. Secret Order.",
+  "current_coordinate_derived_reading": {
+    "certificate": "../certificates/p158.json",
+    "variant": "p159B_supported_V",
+    "plaintext": "UEBER2XBAYRXGENXHDOXMUENCXENXXAN7XRSSXDIVXXLA3DSBERGXAN0LECHXXNICHTDURCHKABELXARMEESCHLUESSELDOWPELTXEMPFANGBESTXXOXHXLXRMX1ANRX11338GEHXORX"
+  },
+  "parallel_identification": {
+    "status": "Strongly supported historical body parallel",
+    "matches": [
+      "SY/RVV/N4 route",
+      "November 9 retransmission date",
+      "2nd Bavarian General Command and Munich",
+      "7th reserve formation",
+      "Not by cable",
+      "Army key doubled",
+      "Acknowledgement",
+      "O.H.L. and order number 11338"
+    ],
+    "date_qualification": "The p159 copy is dated November 8, while p168 C is dated November 9 and records interception at 21:03. The historical prose appears to refer to the latter copy; it does not explain the duplicated dates or distinguish transmission from interception time."
+  },
+  "textual_comparison": [
+    {
+      "historical": "GENERAL-KOMMANDO, MUENCHEN",
+      "coordinate_derived": "GENXHDOXMUENCXEN",
+      "assessment": "Expanded historical reading repairs two observed letters in the current component layer; the expansion is not a literal equal-length plaintext."
+    },
+    {
+      "historical": "AN 7 RESERVENDIVISION",
+      "coordinate_derived": "AN7XRSSXDIV",
+      "assessment": "Historical expansion is consistent with a garbled abbreviation, but is not a directly observed spelling."
+    },
+    {
+      "historical": "LANDWEHR REGIMENT; AN FECH",
+      "coordinate_derived": "LA3DSBERGXAN0LECH",
+      "assessment": "The historical interpretation differs materially. The current coordinate sequence more closely resembles Landsberg an/am Lech, but exact correction and place-name wording remain editorial."
+    },
+    {
+      "historical": "ARMEESCHLUESSEL DOPPELT",
+      "coordinate_derived": "ARMEESCHLUESSELDOWPELT",
+      "assessment": "The historical reading supports the apparent double-transposition instruction while changing an observed W to P."
+    },
+    {
+      "historical": "EMPFANG BESTAETIGEN",
+      "coordinate_derived": "EMPFANGBEST",
+      "assessment": "The historical wording expands a source abbreviation."
+    },
+    {
+      "historical": "11338. GEHEIMORDRE",
+      "coordinate_derived": "11338GEHXORX",
+      "assessment": "The distinctive order number matches exactly; the historical reading expands abbreviations."
+    }
+  ],
+  "cipher_interpretation": "The surrounding historical paragraph explicitly identifies a separate double-transposition cipher confirmed by this RICHI ADFGVX message. It does not establish two complete ADFGVX encipherments.",
+  "credit_consequence": "Order 11338 had a historical reading by 1918 and publication by 1935. The present contribution concerns the p158 composite relationship, explicit source-layer comparisons and repair certificates, not first recovery of this component body."
+}

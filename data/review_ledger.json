@@ -1,0 +1,1093 @@
+{
+  "schema": "adfgvx-1918-prior-work-review-v1",
+  "date": "2026-11-02",
+  "prepared_by": [
+    "IceKylin",
+    "GPT-6 Astra"
+  ],
+  "scope": "Source-aware review of published prior readings, repairs, key claims, attribution, and historical context. Claims are paraphrased precisely; raw plaintext and arithmetic live in the referenced certificates.",
+  "conventions": {
+    "verified": "A claim was checked within the stated evidence scope. It does not imply universal uniqueness or discovery priority.",
+    "editorial": "Fluent wording, unit identifications, and digit assignments are not substituted for observed ciphertext.",
+    "positions": "Zero based unless expressly stated. Group numbers in historical commentary are one based."
+  },
+  "reviewed_inventory": {
+    "discussion_2017_numbered_comments": 56,
+    "prior_target_entries_with_readings": 14,
+    "verified_prior_variants": 25,
+    "prinz_articles": 2,
+    "technical_prinz_comments": 1,
+    "bourdeau_current_target_files": 6,
+    "supplementary_github_issues": 1,
+    "schmeh_2026_followup_comments": 4
+  },
+  "entries": [
+    {
+      "id": "prior_p100",
+      "scope": [
+        "p100"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "Armin",
+        "date": "2017-03-01",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852373",
+        "comment": 13
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier body verified after explicit erasure resolution and two-coordinate insertion",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p100",
+        "verified_variants": [
+          "armin_declared_insertion_only",
+          "armin_body_exact"
+        ],
+        "qualifications": [
+          "The scan prints T at source 20 in TAFGV; it is outside ADFGVX and remains unknown in the analysis layer.",
+          "The A interpretation at source 20 is required by the published STOERUNG. A legacy V transcription yields STOERFNG instead."
+        ]
+      }
+    },
+    {
+      "id": "prior_p105",
+      "scope": [
+        "p105"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-01",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852622",
+        "comment": 15
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier raw body reproduced exactly; repaired stream still has an unpaired coordinate",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p105",
+        "verified_variants": [
+          "norbert15",
+          "norbert15_with_explicit_orphan_deletion"
+        ],
+        "qualifications": [
+          "The scan's groups 46/47 are DGGVF and XGDGD. Legacy web groups FGGVF/XGXAD introduce three spurious coordinate differences.",
+          "Deleting three coordinates from 290 gives 287. The last intermediate D is preserved as an explicit undecoded suffix, not silently discarded.",
+          "The unpaired D corresponds to original source 244, the final D of group 49 XAXGD. Explicitly deleting it gives 286 coordinates and an ordinary complete roundtrip of the same 143-letter body. This is a present verification clarification, not a new plaintext discovery."
+        ]
+      }
+    },
+    {
+      "id": "prior_p109",
+      "scope": [
+        "p109"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-01",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852658",
+        "comment": 18
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier damaged but readable raw body reproduced exactly",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p109",
+        "verified_variants": [
+          "norbert18"
+        ],
+        "qualifications": []
+      }
+    },
+    {
+      "id": "prior_p132",
+      "scope": [
+        "p132"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "Thomas",
+        "date": "2017-03-02",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853089",
+        "comment": 27
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier sender-error model verified; displayed rectangle contains an additional known-symbol edit",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p132",
+        "verified_variants": [
+          "norbert37_source_preserving",
+          "norbert37_displayed_rectangle"
+        ],
+        "qualifications": [
+          "The 155-coordinate received text is odd. Norbert's model removes one V after inverse transposition, before pairing; it is not a received-ciphertext deletion.",
+          "The marked extra V is intermediate 56. Adjacent identical Vs make the exact position within that run unidentifiable; removing intermediate 57 yields the same repaired stream.",
+          "The displayed 2017 rectangle also changes source 88 A to X, beyond its two explicitly suggested erasure fillings. Without this extra change the raw word is FU1NFTER, not FUTNFTER."
+        ]
+      }
+    },
+    {
+      "id": "prior_p146",
+      "scope": [
+        "p146"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-01",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852664",
+        "comment": 19
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier damaged but readable raw body reproduced exactly",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p146",
+        "verified_variants": [
+          "norbert19"
+        ],
+        "qualifications": []
+      }
+    },
+    {
+      "id": "prior_p164a",
+      "scope": [
+        "p164a"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-14",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-859165",
+        "comment": 42
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier partial reading verified as a conjectural completion; source alone fixes 42 of 121 letters",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p164a",
+        "verified_variants": [
+          "A3_source_only",
+          "A3_comment42_known_edits_only",
+          "A3_comment47_date_variant_known_edits_only",
+          "A3_comment42_full_proposal"
+        ],
+        "qualifications": [
+          "The online legacy transcript omitted an entire 40-coordinate erased row. The full-source layer retains 242 slots, 158 known and 84 erased.",
+          "Comment 42 requires five changes to known coordinates and 63 guessed erasure fillings. These guesses are attributed, never upgraded to observations.",
+          "The square's two unassigned cells are 5/6 in unknown order. The independent full certificate enumerates both global assignments."
+        ]
+      }
+    },
+    {
+      "id": "prior_p164b",
+      "scope": [
+        "p164b"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-13",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-858452",
+        "comment": 41
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier partial reading verified as a conjectural completion; later revised prefix needs additional source changes",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p164b",
+        "verified_variants": [
+          "A5_comment41_geometry_only",
+          "A5_comment41_known_edits_only",
+          "A5_comment41_full_proposal"
+        ],
+        "qualifications": [
+          "The actual received source has 177 slots, not the 180 produced by the legacy dash-expansion parser.",
+          "Comment 41 deletes source 3 A, inserts an unknown coordinate before 18, and drops the final erasure 176, giving 176 slots; it additionally changes two known symbols and fills 25 erasures."
+        ]
+      }
+    },
+    {
+      "id": "prior_p171",
+      "scope": [
+        "p171"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-01",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+        "comment": 20
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier raw body reproduced exactly; two extra corrections are implicit in its published ciphertext",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p171",
+        "verified_variants": [
+          "norbert20"
+        ],
+        "qualifications": [
+          "The source's G--VVD group is normalized as G?VVD under the explicitly stated five-slot group-layout assumption.",
+          "Beyond the repair list, the published ciphertext changes source 108 V→F and 311 V→X. Both are retained explicitly here.",
+          "The raw plaintext has KURSETARK. Baertl's later KURSESTARK is an editorial addition, not the exact raw decryption."
+        ]
+      }
+    },
+    {
+      "id": "prior_p176a",
+      "scope": [
+        "p176a"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-02",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+        "comment": 26
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier suggested body is reproducible only with additional plaintext-derived corrections",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p176a",
+        "verified_variants": [
+          "norbert26_declared_blocks_source_layout",
+          "norbert26_alternative_gap_inside_short_group",
+          "norbert26_proposed_body_exact_certificate"
+        ],
+        "qualifications": [
+          "The primary source has 214 literal slots, 204 valid coordinates and 10 erased slots. Its GAVD group is short and the final ADAA- has a printed erasure.",
+          "The filled legacy transcript silently inserts a coordinate after GAVD and removes the final erasure. The source-based repair below makes this geometry explicit.",
+          "Norbert explicitly said additional minor changes were needed, but did not publish their positions. The exact-body certificate derives these additional edits from his proposed wording; it is not independent evidence that every word is correct.",
+          "Among five possible missing-slot positions within the short GAVD group, insertion after G requires 13 additional known-symbol changes plus 7 unknown-slot fills to encode the prior wording; insertion after the whole group, as implied by the legacy filled transcript, requires 16. This comparison is conditioned on the prior wording, not independent recovery."
+        ]
+      }
+    },
+    {
+      "id": "prior_p176b",
+      "scope": [
+        "p176b"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "prinz and GPT-6 Astra",
+        "date": "2026-09-19",
+        "url": "https://www.prinzai.com/p/another-wwi-german-radio-cipher-falls"
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier 2026 body verified after its published missing 20-coordinate block; three unit-number cells remain unassigned",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p176b",
+        "verified_variants": [
+          "prinz2026_missing20"
+        ],
+        "qualifications": [
+          "The primary header is RICHI-240 and 220 coordinates were received. This independently supports a 20-coordinate shortage, but does not determine the missing symbols.",
+          "The three unit digits use unassigned Nov 10–12 square cells. They cannot be fixed from this ciphertext and the attested key alone.",
+          "The 217/219/6 wording is supported by an independently checked French report dated 19 November describing 11 November forces. That is contextual evidence, distinct from a cryptographic assignment of the missing digits."
+        ]
+      }
+    },
+    {
+      "id": "prior_p187",
+      "scope": [
+        "p187"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "George Lasry",
+        "date": "2017-05-03",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878059",
+        "comment": 50
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier joint key recovery verified; incomplete substitution square and residual garbles preserved",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p187",
+        "verified_variants": [
+          "audited_CHI_direct"
+        ],
+        "qualifications": [
+          "Norbert first proposed the shared-key attack in comment 49 on 2017-04-30; George Lasry recovered the key in comment 50 on 2017-05-03; Norbert refined symbol labels in comment 53 the same day.",
+          "The two received texts contain 354 coordinates, 177 plaintext slots. The initial combined publication has 173 letters and incorrectly describes 356 coordinates; four ending slots are not covered by that published string.",
+          "Fourteen square cells remain unassigned. In particular j/x labels were suggested to be digits, not proved to be 0/01."
+        ]
+      }
+    },
+    {
+      "id": "prior_p187b",
+      "scope": [
+        "p187b"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "George Lasry",
+        "date": "2017-05-03",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878059",
+        "comment": 50
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier joint key recovery verified; incomplete substitution square and residual garbles preserved",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p187b",
+        "verified_variants": [
+          "audited_CHI_direct"
+        ],
+        "qualifications": [
+          "Norbert first proposed the shared-key attack in comment 49 on 2017-04-30; George Lasry recovered the key in comment 50 on 2017-05-03; Norbert refined symbol labels in comment 53 the same day.",
+          "The two received texts contain 354 coordinates, 177 plaintext slots. The initial combined publication has 173 letters and incorrectly describes 356 coordinates; four ending slots are not covered by that published string.",
+          "Fourteen square cells remain unassigned. In particular j/x labels were suggested to be digits, not proved to be 0/01."
+        ]
+      }
+    },
+    {
+      "id": "prior_p215",
+      "scope": [
+        "p215"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-03",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853562",
+        "comment": 32
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier partial reading verified exactly; later fluent completion contradicts known coordinates",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p215",
+        "verified_variants": [
+          "norbert32"
+        ],
+        "qualifications": [
+          "The primary 248-slot transcript has 237 known coordinates and 11 erasures. Two inserted unknown groups increase the geometry to 258 slots.",
+          "The model fixes 109 of 129 plaintext letters and leaves 6^21 compatible completions under the fixed complete square.",
+          "Baertl's 130-letter editorial text has the wrong length for this geometry. Even its best single-letter deletion contradicts 27 known coordinates at 20 plaintext positions."
+        ]
+      }
+    },
+    {
+      "id": "prior_p217",
+      "scope": [
+        "p217"
+      ],
+      "claim_reviewed": "The attributed author published a body reading or partial reconstruction for this target.",
+      "attribution": {
+        "author": "prinz and GPT-6 Astra",
+        "date": "2026-09-17",
+        "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio"
+      },
+      "review_status": "verified_with_explicit_qualifications",
+      "result": "Earlier 2026 body reproduced exactly; later one-symbol 24 STEN correction independently verified",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p217",
+        "verified_variants": [
+          "prinz2026_source_exact",
+          "horvat2026_24sten"
+        ],
+        "qualifications": [
+          "The partial square and 19-column TRUPPENVERSCHIEBUNG key are sufficient for every letter used in this 85-letter message.",
+          "The claimed 1919 manuscript and December 9 key attribution were reported by the 2026 author. This audit verifies arithmetic and attested cells, not the unexamined manuscript provenance.",
+          "Christian Horvat suggested the AVXFF→AVXVF correction in a 2026-09-21 comment on the September 19 follow-up article. It changes only S4STEN to 24 STEN."
+        ]
+      }
+    },
+    {
+      "id": "keys_final_table",
+      "scope": [
+        "key_catalog"
+      ],
+      "claim_reviewed": "Fourteen period keys and their recovered square cells were published by the Lasry team.",
+      "attribution": {
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "date": "2017",
+        "url": "https://doi.org/10.1080/01611194.2016.1169461",
+        "locator": "Table 2; public author manuscript PDF page 16"
+      },
+      "review_status": "verified",
+      "result": "The final paper table and Lasry thesis Table 6.2 were inspected. Some square cells remain blank in the modern final tables; historical blank cells must not be confused with cells recovered by the modern authors.",
+      "verification_evidence": {
+        "artifact": "keys.json",
+        "source_manuscript": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf"
+      }
+    },
+    {
+      "id": "key_completion_Nov7-9",
+      "scope": [
+        "Nov7-9"
+      ],
+      "claim_reviewed": "Norbert printed a full square, including cells omitted in the final scholarly table.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-01",
+        "comment": 20,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668"
+      },
+      "review_status": "preserved_as_prior_hypothesis",
+      "result": "The completion predates the later baseline repositories. Its extra cells are preserved with attribution, but not promoted to independently established values.",
+      "verification_evidence": {
+        "artifact": "keys.json",
+        "field": "previously_published_completion"
+      }
+    },
+    {
+      "id": "key_completion_Nov10-12",
+      "scope": [
+        "Nov10-12"
+      ],
+      "claim_reviewed": "Norbert printed a full square, including cells omitted in the final scholarly table.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-02",
+        "comment": 26,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025"
+      },
+      "review_status": "preserved_as_prior_hypothesis",
+      "result": "The completion predates the later baseline repositories. Its extra cells are preserved with attribution, but not promoted to independently established values.",
+      "verification_evidence": {
+        "artifact": "keys.json",
+        "field": "previously_published_completion"
+      }
+    },
+    {
+      "id": "key_completion_Nov13-15b",
+      "scope": [
+        "Nov13-15b"
+      ],
+      "claim_reviewed": "Norbert printed a full square, including cells omitted in the final scholarly table.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-02",
+        "comment": 24,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772"
+      },
+      "review_status": "preserved_as_prior_hypothesis",
+      "result": "The completion predates the later baseline repositories. Its extra cells are preserved with attribution, but not promoted to independently established values.",
+      "verification_evidence": {
+        "artifact": "keys.json",
+        "field": "previously_published_completion"
+      }
+    },
+    {
+      "id": "key_dash_positions",
+      "scope": [
+        "key_catalog"
+      ],
+      "claim_reviewed": "Expanding PDF dash runs restores the incomplete square strings.",
+      "attribution": {
+        "author": "Daniel Bourdeau",
+        "date": "2026-09-15",
+        "url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/adfgvx/NOTES.md",
+        "locator": "The keys, machine-readable"
+      },
+      "review_status": "qualified",
+      "result": "Length 36 alone does not establish the positions of missing cells. Lasry comment 11 supplies explicit rows, and the final paper table resolves the row boundaries.",
+      "verification_evidence": {
+        "primary_correction": {
+          "author": "George Lasry",
+          "date": "2017-02-27",
+          "comment": 11,
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-851955"
+        },
+        "artifact": "keys.json"
+      }
+    },
+    {
+      "id": "CHI_first_joint_attack",
+      "scope": [
+        "p187",
+        "p187b"
+      ],
+      "claim_reviewed": "The two November 13 parts can be attacked under one CHI key.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-04-30",
+        "comment": 49,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-876804"
+      },
+      "review_status": "verified_prior_credit",
+      "result": "Norbert proposed the joint attack before Lasry recovered the column key on May 3. Norbert then refined substitution labels in comment 53.",
+      "verification_evidence": {
+        "recovery": {
+          "author": "George Lasry",
+          "date": "2017-05-03",
+          "comment": 50,
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878059"
+        },
+        "refinement": {
+          "author": "Norbert",
+          "date": "2017-05-03",
+          "comment": 53,
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878079"
+        }
+      }
+    },
+    {
+      "id": "CHI_substitution_injectivity",
+      "scope": [
+        "p187",
+        "p187b"
+      ],
+      "claim_reviewed": "The reconstructed CHI square contains 24 assigned cells.",
+      "attribution": {
+        "author": "Daniel Bourdeau",
+        "date": "2026-09-15",
+        "url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/adfgvx/keys.json",
+        "locator": "Last key record"
+      },
+      "review_status": "corrected",
+      "result": "The public square assigns X twice. Its speculative terminal J/X labels are not established plaintext. The conservative square retains 22 injective assignments and leaves 14 cells unknown.",
+      "verification_evidence": {
+        "artifact": "keys.json",
+        "key_id": "CHI-Nov13",
+        "prior_refinement": {
+          "author": "Norbert",
+          "date": "2017-05-03",
+          "comment": 53,
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878079"
+        }
+      }
+    },
+    {
+      "id": "CHI_lengths",
+      "scope": [
+        "p187",
+        "p187b"
+      ],
+      "claim_reviewed": "The joint recovery used 356 ciphertext coordinates.",
+      "attribution": {
+        "author": "George Lasry",
+        "date": "2017-05-03",
+        "comment": 50,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878059"
+      },
+      "review_status": "corrected",
+      "result": "The two source parts contain 212 and 142 coordinates: 354 total, 177 plaintext slots. The initially published combined plaintext contains 173 letters; its missing four final slots must remain explicit.",
+      "verification_evidence": {
+        "artifacts": [
+          "message_catalog.json",
+          "prior_readings.json"
+        ]
+      }
+    },
+    {
+      "id": "CHI_retransmission",
+      "scope": [
+        "p187",
+        "p187b",
+        "p186_A1",
+        "p186_A2"
+      ],
+      "claim_reviewed": "The body repeats an earlier message on Childs page 186 under a different key.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-05-03",
+        "comment": 53,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878079"
+      },
+      "review_status": "verified_with_qualification",
+      "result": "The body parallel is prior art and is independently confirmed from p186. Different abbreviations, separators, and terminal cell patterns prevent copying the entire ending or inferring 0/01 from it.",
+      "verification_evidence": {
+        "source_file": "reviews/p186_chi_parallel.json",
+        "independent_check": "The observed tail patterns cannot be identified slot for slot without assigning an already used digit to an unknown square cell."
+      }
+    },
+    {
+      "id": "CHI_daily_change",
+      "scope": [
+        "p153a",
+        "p153b",
+        "p187",
+        "p187b",
+        "p198"
+      ],
+      "claim_reviewed": "Three-day key periods apply to the challenge traffic generally.",
+      "attribution": {
+        "author": "Daniel Bourdeau",
+        "date": "2026-10-26",
+        "url": "https://dbourdeau.github.io/cyphersolver/adfgvx.html",
+        "locator": "Key-period discussion"
+      },
+      "review_status": "qualified",
+      "result": "The historical report distinguishes daily CHI changes from three-day RICHI changes. The November 13 CHI key is a control, not evidence that November 8 or 15 used the same key.",
+      "verification_evidence": {
+        "source": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf",
+        "locator": "Printed pages 41-42"
+      }
+    },
+    {
+      "id": "p153_joint_prior",
+      "scope": [
+        "p153a",
+        "p153b"
+      ],
+      "claim_reviewed": "The two November 8 CHI parts might be solved jointly.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-09-17",
+        "comment": 56,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-918886"
+      },
+      "review_status": "verified_prior_credit",
+      "result": "This research direction was already suggested by Norbert. Current joint-search experiments are new implementations, not a new proposal of the shared-key idea."
+    },
+    {
+      "id": "wrong_p187_image",
+      "scope": [
+        "p187",
+        "p187b"
+      ],
+      "claim_reviewed": "An initially posted page-187 image displayed a different message.",
+      "attribution": {
+        "author": "George Lasry",
+        "date": "2017-03-02",
+        "comment": 29,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853091"
+      },
+      "review_status": "verified",
+      "result": "Lasry acknowledged the incorrect image. The target beginning FFVXV and its AFAFF continuation are on printed page 187; the unrelated FXVVF example on p191 must not be substituted.",
+      "verification_evidence": {
+        "artifacts": [
+          "message_catalog.json"
+        ],
+        "header_observation": {
+          "author": "Norbert",
+          "date": "2017-04-30",
+          "comment": 49,
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-876804"
+        }
+      }
+    },
+    {
+      "id": "p73_date",
+      "scope": [
+        "p73"
+      ],
+      "claim_reviewed": "The page date and interception date disagree.",
+      "attribution": {
+        "author": "George Lasry",
+        "date": "2017-02-27",
+        "comment": 12,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-851956"
+      },
+      "review_status": "verified_prior_credit",
+      "result": "The heading says 26 October and interception line says 8 November. The conflict was already acknowledged in 2017; neither date is silently chosen.",
+      "verification_evidence": {
+        "artifact": "messages.json",
+        "message_id": "p73"
+      }
+    },
+    {
+      "id": "p164_missing_row",
+      "scope": [
+        "p164a"
+      ],
+      "claim_reviewed": "The web transcript omits a full erased line.",
+      "attribution": {
+        "author": "Norbert",
+        "date": "2017-03-14",
+        "comment": 42,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-859165"
+      },
+      "review_status": "verified_prior_credit",
+      "result": "The primary source has 242 slots, including the omitted 40-slot line. The 202-coordinate web layer understates uncertainty.",
+      "verification_evidence": {
+        "artifact": "messages.json",
+        "message_id": "p164a"
+      }
+    },
+    {
+      "id": "p215_editorial_completion",
+      "scope": [
+        "p215"
+      ],
+      "claim_reviewed": "Baertl supplied a fluent completed reading after Norbert's partial solution.",
+      "attribution": {
+        "author": "Max Baertl",
+        "date": "2017-03-11",
+        "comment": 39,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-858010"
+      },
+      "review_status": "qualified",
+      "result": "The editorial text has 130 letters against 129 slots in Norbert's geometry. Even the best single-letter deletion conflicts at 20 plaintext positions and 27 known ciphertext coordinates. It is preserved as an attributed editorial hypothesis.",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p215",
+        "earlier_audit": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/adfgvx/texts/vgada_partial_reading.md"
+      }
+    },
+    {
+      "id": "callsign_identifications",
+      "scope": [
+        "historical_context"
+      ],
+      "claim_reviewed": "The traffic call signs identify the relay and receiving stations.",
+      "attribution": {
+        "author": "George Lasry",
+        "date": "2017-03-02",
+        "comment": 28,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853090"
+      },
+      "review_status": "preserved_as_attributed_context",
+      "result": "Lasry corrected earlier speculative identifications, including UKS/MAC as Bucharest and ZON as Mackensen headquarters. These contextual identifications do not determine erased ciphertext."
+    },
+    {
+      "id": "prinz_p217_key_images",
+      "scope": [
+        "p217"
+      ],
+      "claim_reviewed": "A TRUPPENVERSCHIEBUNG key from a separate Childs manuscript deciphers p217.",
+      "attribution": {
+        "author": "Prinz, with GPT-6 Astra",
+        "date": "2026-09-17",
+        "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio"
+      },
+      "review_status": "partly_verified",
+      "result": "The published crops visibly contain the keyword, 19-column ranks, and a 6x6 square. The body arithmetic reproduces the published reading. The complete parent manuscript and the reported December 9 key-date provenance have not been independently obtained.",
+      "verification_evidence": {
+        "artifact": "keys.json",
+        "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+        "limitation": "The keyword alone does not specify interspersed digit positions in the square."
+      }
+    },
+    {
+      "id": "prinz_p217_date",
+      "scope": [
+        "p217"
+      ],
+      "claim_reviewed": "The p217 intercept is associated with November 27.",
+      "attribution": {
+        "author": "Prinz",
+        "date": "2026-09-17",
+        "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio"
+      },
+      "review_status": "clarified",
+      "result": "November 27 is the interception date. The original heading and clear tail identify the telegram as dated November 24. A claimed December 9 key date is separate metadata.",
+      "verification_evidence": {
+        "artifact": "messages.json",
+        "message_id": "p217"
+      }
+    },
+    {
+      "id": "horvat_p217_date_digit",
+      "scope": [
+        "p217"
+      ],
+      "claim_reviewed": "Changing AVXFF to AVXVF in group 19 yields the date 24 rather than S4.",
+      "attribution": {
+        "author": "Christian Horvat",
+        "date": "2026-09-21",
+        "url": "https://www.prinzai.com/p/another-wwi-german-radio-cipher-falls/comment/342221967"
+      },
+      "review_status": "verified_prior_credit",
+      "result": "A single received-coordinate change at zero-based position 93, F to V, changes only S4STEN to 24STEN. This correction was published before the present work.",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p217",
+        "variant": "horvat2026_24sten"
+      }
+    },
+    {
+      "id": "canterbury_primary_context",
+      "scope": [
+        "p217"
+      ],
+      "claim_reviewed": "HMS Canterbury reached Sevastopol on November 24, followed by an Allied squadron on November 26.",
+      "attribution": {
+        "author": "Prinz",
+        "date": "2026-09-17",
+        "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio"
+      },
+      "review_status": "independently_corroborated",
+      "result": "The original HMS Canterbury logs were inspected. November 24 records securing to Sevastopol harbour buoys at 10:20; November 26 records the Allied squadron arriving around 11:30. This supports the existing historical interpretation, not cipher-cell uniqueness.",
+      "verification_evidence": {
+        "archive": "UK Admiralty ship log ADM53-36995",
+        "images": [
+          "https://s3.amazonaws.com/oldweather/ADM53-36995/0015_0.jpg",
+          "https://s3.amazonaws.com/oldweather/ADM53-36995/0016_0.jpg"
+        ],
+        "transcription": "https://www.naval-history.net/OWShips-WW1-06-HMS_Canterbury.htm"
+      }
+    },
+    {
+      "id": "prinz_p176b_missing_block",
+      "scope": [
+        "p176b"
+      ],
+      "claim_reviewed": "A missing block of 20 coordinates after received offset 160 explains the unread body.",
+      "attribution": {
+        "author": "Prinz, with GPT-6 Astra",
+        "date": "2026-09-19",
+        "url": "https://www.prinzai.com/p/another-wwi-german-radio-cipher-falls"
+      },
+      "review_status": "verified_prior_credit",
+      "result": "The omission geometry and published reconstruction reproduce the earlier readable body. The present independent rediscovery is credited as verification, not a new decipherment.",
+      "verification_evidence": {
+        "artifact": "prior_readings.json",
+        "message_id": "p176b",
+        "variant": "prinz2026_missing20"
+      }
+    },
+    {
+      "id": "prinz_p176b_digits",
+      "scope": [
+        "p176b"
+      ],
+      "claim_reviewed": "The report concerns the 217th, 219th, and 6th Reserve formations.",
+      "attribution": {
+        "author": "Prinz",
+        "date": "2026-09-19",
+        "url": "https://www.prinzai.com/p/another-wwi-german-radio-cipher-falls"
+      },
+      "review_status": "contextually_supported_not_cipher_unique",
+      "result": "The French telegram explicitly lists 217, 219, and 6th Reserve; it describes the situation on November 11. This supports the proposed interpretation but does not recover missing cipher symbols or prove unused square assignments. The source enumerates 217 and 219, not every division from 217 through 219.",
+      "verification_evidence": {
+        "source": {
+          "title": "Documents diplomatiques francais sur l'histoire du bassin des Carpates, volume I",
+          "editors": [
+            "Magda Adam",
+            "Gyorgy Litvan",
+            "Maria Ormos"
+          ],
+          "publication_year": 1993,
+          "url": "https://real-eod.mtak.hu/19844/13/documents.pdf",
+          "locator": "Document 39, printed pages 79-82, PDF pages 153-156",
+          "document": "Telegram 5.956/3, Salonika, 19 November 1918, 22:40; Franchet d'Esperey to Clemenceau and Foch",
+          "archive_reference": "AG.4N58 c/63. d/10.",
+          "kind": "Published edition of a primary document; contextual evidence for p176b unit identifications",
+          "limitation": "The report describes the situation on 11 November. It does not supply the missing ciphertext or uniquely determine any square cell."
+        },
+        "artifact": "prior_readings.json",
+        "message_id": "p176b"
+      }
+    },
+    {
+      "id": "independent_keyword_verifier",
+      "scope": [
+        "p217"
+      ],
+      "claim_reviewed": "An independent repository reproduces the p217 reading under the reported key.",
+      "attribution": {
+        "author": "swarm-ai-research/cipher-break-verification contributors",
+        "url": "https://github.com/swarm-ai-research/cipher-break-verification",
+        "revision": "da1b709"
+      },
+      "review_status": "verified_with_scope_limit",
+      "result": "The code and data confirm arithmetic consistency. They do not independently authenticate the original manuscript, the December 9 date, key uniqueness, or priority of discovery."
+    },
+    {
+      "id": "bourdeau_status_count",
+      "scope": [
+        "all_22"
+      ],
+      "claim_reviewed": "The updated summary counts ten read, three partial, and nine open messages.",
+      "attribution": {
+        "author": "Daniel Bourdeau",
+        "date": "2026-10-26",
+        "url": "https://dbourdeau.github.io/cyphersolver/adfgvx.html"
+      },
+      "review_status": "corrected",
+      "result": "The table omits Prinz's September 19 p176b partial recovery. Before the present session, the evidence supports ten body-readable entries, four partial entries, and eight entries without a comparable prior reading. These are body-level labels, not claims of flawless full plaintext."
+    },
+    {
+      "id": "bourdeau_comment_count",
+      "scope": [
+        "prior_art_inventory"
+      ],
+      "claim_reviewed": "The 2017 thread contains 70 comments.",
+      "attribution": {
+        "author": "Daniel Bourdeau",
+        "date": "2026-10-26",
+        "url": "https://dbourdeau.github.io/cyphersolver/adfgvx.html"
+      },
+      "review_status": "corrected",
+      "result": "The target discussion has 56 numbered comments. The 70-item page count includes unrelated sidebar entries. All 56 target comments were reviewed."
+    },
+    {
+      "id": "bourdeau_negative_search_scope",
+      "scope": [
+        "remaining_targets"
+      ],
+      "claim_reviewed": "No known key fits the open texts after the implemented block-edit searches.",
+      "attribution": {
+        "author": "Daniel Bourdeau",
+        "date": "2026-10-26",
+        "url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/adfgvx/NOTES.md"
+      },
+      "review_status": "qualified",
+      "result": "A bounded negative search is not a proof of a new key or impossibility. Twenty-coordinate omissions, long truncation, and mixed-message composites exceed the small block edits; source errors also alter the input. The existing code remains useful as a baseline."
+    },
+    {
+      "id": "baseline_source_layers",
+      "scope": [
+        "p100",
+        "p105",
+        "p152",
+        "p164a",
+        "p164b",
+        "p171",
+        "p176a",
+        "p189"
+      ],
+      "claim_reviewed": "The legacy web transcript is suitable as a literal copy of the historical source.",
+      "attribution": {
+        "author": "Legacy challenge transcription and later implementations",
+        "url": "https://github.com/0wwafa/adfgvx-1918",
+        "revision": "0839217"
+      },
+      "review_status": "corrected",
+      "result": "The source catalog separates original glyphs, explicit layout assumptions, legacy conversions, and later repairs. Material differences include T at p100, three p105 glyphs, p152 erasures, p164 line/length errors, p176a silently filled erasures, and six literal U letters at p189.",
+      "verification_evidence": {
+        "artifact": "messages.json"
+      }
+    },
+    {
+      "id": "residue_scope",
+      "scope": [
+        "all_22"
+      ],
+      "claim_reviewed": "The 22 posted items represent the entire unrecovered Childs corpus.",
+      "attribution": {
+        "author": "Scope clarification against modern paper",
+        "url": "https://doi.org/10.1080/01611194.2016.1169461"
+      },
+      "review_status": "clarified",
+      "result": "The paper reports 668 cryptograms in 460 radio messages, with 618 recovered. Its 50 residual cryptograms include 36 with many missing letters and 14 of correct length. The posted 22-entry challenge is a selected subset; page and multipart counts must not be conflated."
+    },
+    {
+      "id": "source_relations_priority",
+      "scope": [
+        "p152",
+        "p158",
+        "p189"
+      ],
+      "claim_reviewed": "The present session identifies three source relationships absent from the checked prior summaries.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02",
+        "kind": "Current independent source audit"
+      },
+      "review_status": "bounded_prior_art_search",
+      "result": "The 2017 discussion, current Bourdeau page/target notes, baseline repository, September 2026 reports and comments were checked. No earlier publication of these three relationships was found in that bounded corpus. This is not a universal or unpublished-priority claim.",
+      "verification_evidence": {
+        "artifact": "messages.json",
+        "relations": [
+          "p152 damaged tail of p136 B1",
+          "p158 near-splice of p159 B/C, corroborated by p168 C/D",
+          "p189 near-parallel of p185 C with substantial differences"
+        ]
+      }
+    },
+    {
+      "id": "ayush_supplementary_prior",
+      "scope": [
+        "p89_A2",
+        "p107_D",
+        "p187_C"
+      ],
+      "claim_reviewed": "Three additional existing-key body readings were proposed outside the 22-entry challenge.",
+      "attribution": {
+        "author": "Ayush Agarwal (@AyushAg1002)",
+        "date": "2026-10-28",
+        "url": "https://github.com/dbourdeau/cyphersolver/issues/181"
+      },
+      "review_status": "independently_source_checked",
+      "result": "The current audit checked all three source images and reproduced all published repaired-layer outputs. Source counts are 290, 176, and 134; the latter two differ from the issue counts. Explicitly printed letters recover extra fixed cells that the published layers had masked. Editorial expansions and global novelty remain unresolved. These entries do not increase the original 22-target count.",
+      "verification_evidence": {
+        "artifact": "supplementary_readings.json",
+        "verifier": "verify_supplementary_readings.py",
+        "followup": "https://github.com/dbourdeau/cyphersolver/issues/181#issuecomment-6477052766",
+        "later_closure": "https://github.com/dbourdeau/cyphersolver/issues/181#issuecomment-6565111693"
+      }
+    },
+    {
+      "id": "schmeh_2026_followup",
+      "scope": [
+        "p217"
+      ],
+      "claim_reviewed": "The challenge curator reported the September 2026 p217 decipherment.",
+      "attribution": {
+        "author": "Klaus Schmeh",
+        "date": "2026-09-21",
+        "url": "https://klausschmeh.net/adfgvx-top-50-cipher-mystery-solved-by-aiwwi/"
+      },
+      "review_status": "verified_attribution",
+      "result": "Schmeh reported the Prinz result and treated the Top 50 entry as solved. This does not establish that all 22 posted items were deciphered, or independently authenticate the reported manuscript key date."
+    },
+    {
+      "id": "hongki_2026_mass_claim",
+      "scope": [
+        "remaining_targets"
+      ],
+      "claim_reviewed": "One 20-column key, substitution square, and column slip vector decipher all remaining messages.",
+      "attribution": {
+        "author": "Hongki Min",
+        "date": "2026-09-21",
+        "url": "https://klausschmeh.net/adfgvx-top-50-cipher-mystery-solved-by-aiwwi/#comment-193",
+        "earlier_comment": 192,
+        "report_dateline": "2026-09-22"
+      },
+      "review_status": "not_reproducible_as_published",
+      "result": "No exact Childs identifiers, input ciphertexts, deterministic slip rule, code, or complete readable plaintexts were supplied. The quoted CT3 benchmark lacks both of its claimed diagnostic substrings. The supplied deltas sum to +3 with absolute sum 21; the report does not define how Morse-element loss becomes ciphertext-coordinate loss. Its rewarded cribs are not independent validation. This claim does not change the target status.",
+      "verification_evidence": {
+        "artifact": "reviews/unsupported_claim_checks.json",
+        "scope_limit": "These checks identify missing evidence and internal inconsistencies. They do not claim to disprove every possible future model using the reported constants."
+      }
+    },
+    {
+      "id": "krajcovic_2026_critique",
+      "scope": [
+        "remaining_targets"
+      ],
+      "claim_reviewed": "The mass-solution claim needs anchor ablation, exact inputs, a deterministic verifier, and a withheld-message check.",
+      "attribution": {
+        "author": "Jozef Krajcovic",
+        "date": "2026-09-22",
+        "url": "https://klausschmeh.net/adfgvx-top-50-cipher-mystery-solved-by-aiwwi/#comment-197"
+      },
+      "review_status": "verified_prior_credit",
+      "result": "Krajcovic had already identified the absent CT3 substrings, the +3/21 slip-vector arithmetic, and the circular use of rewarded target strings. The present checks reproduce those observations; they are not new criticisms.",
+      "verification_evidence": {
+        "artifact": "reviews/unsupported_claim_checks.json"
+      }
+    },
+    {
+      "id": "historical_p158_component_reading",
+      "scope": [
+        "p158",
+        "p159_B",
+        "p168_C"
+      ],
+      "claim_reviewed": "The November 20, 1918 report already quoted a reading of order 11338, which is a component of the present p158 source relationship.",
+      "attribution": {
+        "author": "J. R. Childs; collected report edited by William F. Friedman",
+        "date": "1918-11-20",
+        "publication_year": 1935,
+        "url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf",
+        "locator": "Printed page 42, PDF page 50"
+      },
+      "review_status": "verified_prior_credit_with_text_differences",
+      "result": "The historical report identifies SY to RVV via N4 at 21:03 on November 9, consistent with the p168 retransmission. It already describes the order about a double transposition. Its expanded German and English place/unit interpretations differ from the coordinate-derived component reading and must remain a distinct historical interpretation. The present contribution is the p158 composite-source diagnosis and explicit repairs, not the first recovery of order 11338.",
+      "verification_evidence": {
+        "artifact": "reviews/historical_component_prior.json",
+        "interpretation_limit": "ARMEESCHLUESSEL DOPPELT concerns the separate army transposition cipher; this does not establish two complete ADFGVX encipherments."
+      }
+    }
+  ]
+}

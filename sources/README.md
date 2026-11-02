@@ -18,3 +18,9 @@ The included excerpts reproduce the historical US government source pages needed
 
 `STRUSEN` is a genuine silk-trade term, not an error requiring normalization. [Guérin-Mèneville's 1853 report in the Polytechnisches Journal](https://dingler.bbaw.de/articles/ar128114.html), volume 128, p. 451, identifies it with the outer cocoon layer. This independently supports the commodity context of the raw decipherment.
 
+
+## Bibliographic distinctions
+
+The Aegean volume's 2000 edition date is supported by Lasry's bibliography; the inspected imprint is undated. Its opening technical paper matches *General Solution for the ADFGVX Cipher System*, Register 129, whose separate government title page states 1934. That publication date is distinct from the date of Childs's wartime records and from the composition date of the earlier manuscript.
+
+*German Military Ciphers from February to November 1918* is a different report, published in 1935 with Friedman's foreword dated 25 June 1934. The foreword dates Childs's underlying report to about December 1918 and identifies later added notes. Exact source identifiers and evidence are in [the registry](registry.json).
