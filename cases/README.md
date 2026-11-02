@@ -47,7 +47,7 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
 | [p217](p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 133 reviewed records
+## Other ciphertexts — 141 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
@@ -133,11 +133,19 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p185 D](context/transport.md#p185-d-source-and-gap-model) | Movement via DHFN and readiness instruction | 91/99 positions under an unproved five-loss geometry | icekylinx and GPT-6 Astra Pro (2026) |
 | [p186 A1](context/p186.md#part-1--richi-170) | Monitor Russian and Polish army traffic | Earlier reading; three explicit erasure fills | Lasry team and Norbert (2017); review: icekylinx and GPT-6 Astra Pro |
 | [p186 A2](context/p186.md#part-2--richi-174) | Encrypted reporting and teleprinter failure | 80/87 conservative raw positions; ending unresolved | Lasry team and Norbert (2017); review: icekylinx and GPT-6 Astra Pro |
-| [p187 C](supplementary/p187_C.md) | Connection with Mackensen's army | Earlier reading; source correction checked | Ayush Agarwal; review by D. Bourdeau (2026) |
+| [p187 C](supplementary/p187_C.md) | Connection with Mackensen's army | Earlier body; source audit and exact four-coordinate repair cost | Ayush Agarwal; review by D. Bourdeau (2026) |
+| [p187 D1](other/p187_D.md) | Aircraft connection to Mackensen impossible for technical reasons | 76-character suffix under a five-loss model; two substitutions; opening references unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p189 C](context/p189_C.md) | Instruction to use the December key; IRRTUM | 61/62 raw positions; two explicit substitutions | icekylinx and GPT-6 Astra Pro (2026) |
 | [p189 E](context/transport.md#independent-transport-context) | Pump, cars and trailers | Direct partial reading; counts unresolved | icekylinx and GPT-6 Astra Pro (2026) |
+| [p190 A](other/nov14_radio_retransmissions.md) | Pilot representative of the Warsaw soldiers’ council arrives in Berlin | 117/118 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
+| [p190 B](other/nov14_radio_retransmissions.md) | Request a backup station for NKJ; Sevastopol proposed | 82/88 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
+| [p190 D](other/nov14_radio_retransmissions.md) | Ask whether NKJ relays Mackensen messages and how contact is maintained | 92/93 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
+| [p190 E](other/nov14_radio_retransmissions.md) | Request a backup station for NKJ; Sevastopol proposed | 82/88 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
+| [p193 A](other/nov14_radio_retransmissions.md) | Ask whether NKJ relays Mackensen messages and how contact is maintained | 94/94 candidate letters independently witnessed across the pair | icekylinx and GPT-6 Astra Pro (2026) |
+| [p193 B](other/nov14_radio_retransmissions.md) | Interrupted pilot-arrival notice; exact suffix of p194 B | 85 missing coordinates and 85 raw letters restored by independent copy | icekylinx and GPT-6 Astra Pro (2026) |
 | [p193 E](context/transport.md#independent-transport-context) | Sprung cart for attachment; a car | Direct partial reading; one unknown cell | icekylinx and GPT-6 Astra Pro (2026) |
 | [p194 A](context/transport.md#independent-transport-context) | Arranged departure to Hanau via DHFN | Near-parallel; composite fixes 86/87 positions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p194 B](other/nov14_radio_retransmissions.md) | Pilot representative of the Warsaw soldiers’ council arrives in Berlin | 139/140 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
 | [p196 B](context/transport.md#independent-transport-context) | Repeated arranged departure to Hanau | Near-parallel; time digit remains unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p197 C](context/transport_197_198.md) | Transport of radio equipment to Darmstadt | Missing-group hypothesis checked against p 198 B | icekylinx and GPT-6 Astra Pro (2026) |
 | [p197 D](context/transport_197_198.md) | Lorry, trailer and petrol-pump instruction | Partial witness; readable reconstruction costed | icekylinx and GPT-6 Astra Pro (2026) |

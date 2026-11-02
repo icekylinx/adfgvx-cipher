@@ -1,0 +1,76 @@
+{
+  "schema": "adfgvx-p187-aviation-input-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "printed_page": 187,
+    "pdf_page_1based": 190,
+    "crop": "sources/childs_p187_D.png",
+    "crop_rectangle_pdf_points": [
+      30,
+      600,
+      530,
+      726
+    ],
+    "crop_scale": 4,
+    "crop_sha256": "5ef36e877b407a538ca5a137f0143d3609166d8bf5bfe62b253256a9ab6d097f",
+    "header": "D) NKJ v LP (03.04 a.m., November13th); FUER UKS20.12 (13/11) [unclear multipart total] TLE;1TL RICHI-252; (Continued)",
+    "header_caveat": "The total-parts glyph is preserved in the image and not asserted. The origin and intercept times appear in the same-date header as printed; no chronological correction is supplied."
+  },
+  "key": {
+    "id": "Nov13-15a",
+    "square": "JZLH?R??S?T?MKDWU?V?B?P??FAO?GIX?CNE",
+    "column_rank_order": [
+      13,
+      8,
+      6,
+      16,
+      7,
+      18,
+      1,
+      14,
+      9,
+      20,
+      10,
+      15,
+      17,
+      2,
+      3,
+      11,
+      5,
+      19,
+      4,
+      12
+    ],
+    "credit": "Published Lasry-team period key, attribution in data/keys.json."
+  },
+  "source_rows": [
+    "XXFAX GDXXX XXXGD DDXFD VDGXX FFFAD FVVAA AFXAV",
+    "XXVXX XXXXX VXFGX FADXF VXXXG XXFXV FXFAF XAAVA",
+    "XVXDA XXGFV VAADX VFFVX FAXXD XXVXD XXAVF VFVXA",
+    "AAXXF XDGFX AVGXD GXAVX VDDXX XDAXX VDDVD GXAFV",
+    "DXVDD AVDFV DVDXV -GFVVV VVXFD XDVDD XDGDX ADXVG",
+    "FFXXX XDFXF XXVXD VXVFX AXAFG XAXGD AGVFD VVVGA",
+    "DDDAA DG"
+  ],
+  "source_mark": {
+    "literal_position_0based": 175,
+    "character": "-",
+    "candidate_interpretation": "Non-coordinate mark before a complete five-coordinate GFVVV group. This is a framing hypothesis, not a deletion of an observed ADFGVX letter."
+  },
+  "frame_hypothesis": {
+    "advertised_length": 252,
+    "inserted_coordinates": 5,
+    "gap_boundaries_0based": [
+      245,
+      246
+    ],
+    "primary_boundary": 245,
+    "meaning": "A boundary is the number of received coordinates before the proposed missing group, after excluding the source mark."
+  },
+  "candidate_suffix": "VERBINDUNGXMITXRXODERXGXFLUGZEUGENXZXZTXAUSXTECHNISCHENXGRUENDENXUNMOEGLICHX",
+  "prefix_policy": "Retain every baseline source reading and unknown square cell before the 76-character suffix. In particular keep WORT, RM, and unresolved reference fields unchanged."
+}

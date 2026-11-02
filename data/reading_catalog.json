@@ -1000,12 +1000,14 @@
       "printed_page": 187,
       "source_section": "C",
       "subject": "Connection with Mackensen's army",
-      "status": "Earlier reading; source correction checked",
+      "status": "Earlier body; source audit and exact four-coordinate repair cost",
       "credit": "Ayush Agarwal; review by D. Bourdeau (2026)",
       "path": "cases/supplementary/p187_C.md",
       "source_reviewed": true,
       "evidence": [
-        "data/supplementary_readings.json"
+        "data/supplementary_readings.json",
+        "experiments/aviation_connection/companion_inputs.json",
+        "experiments/aviation_connection/companion_certificate.json"
       ]
     },
     {
@@ -2135,6 +2137,126 @@
       "evidence": [
         "experiments/operational_recovery/inputs.json",
         "experiments/operational_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p190_A",
+      "label": "p190 A",
+      "printed_page": 190,
+      "source_section": "A",
+      "subject": "Pilot representative of the Warsaw soldiers’ council arrives in Berlin",
+      "status": "117/118 raw positions; cross-key comparison",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p190_B",
+      "label": "p190 B",
+      "printed_page": 190,
+      "source_section": "B",
+      "subject": "Request a backup station for NKJ; Sevastopol proposed",
+      "status": "82/88 raw positions; cross-key comparison",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p190_D",
+      "label": "p190 D",
+      "printed_page": 190,
+      "source_section": "D",
+      "subject": "Ask whether NKJ relays Mackensen messages and how contact is maintained",
+      "status": "92/93 raw positions; cross-key comparison",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p190_E",
+      "label": "p190 E",
+      "printed_page": 190,
+      "source_section": "E",
+      "subject": "Request a backup station for NKJ; Sevastopol proposed",
+      "status": "82/88 raw positions; cross-key comparison",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p193_A",
+      "label": "p193 A",
+      "printed_page": 193,
+      "source_section": "A",
+      "subject": "Ask whether NKJ relays Mackensen messages and how contact is maintained",
+      "status": "94/94 candidate letters independently witnessed across the pair",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p193_B",
+      "label": "p193 B",
+      "printed_page": 193,
+      "source_section": "B",
+      "subject": "Interrupted pilot-arrival notice; exact suffix of p194 B",
+      "status": "85 missing coordinates and 85 raw letters restored by independent copy",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p194_B",
+      "label": "p194 B",
+      "printed_page": 194,
+      "source_section": "B",
+      "subject": "Pilot representative of the Warsaw soldiers’ council arrives in Berlin",
+      "status": "139/140 raw positions; cross-key comparison",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p187_D1",
+      "label": "p187 D1",
+      "printed_page": 187,
+      "source_section": "D1",
+      "subject": "Aircraft connection to Mackensen impossible for technical reasons",
+      "status": "76-character suffix under a five-loss model; two substitutions; opening references unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p187_D.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/aviation_connection/inputs.json",
+        "experiments/aviation_connection/certificate.json"
       ]
     }
   ]

@@ -33,6 +33,9 @@ jobs:
           python experiments/october_caucasus/verify.py --verify
           python experiments/operational_recovery/verify.py --verify
           python experiments/late_key_interpretation/verify.py --verify
+          python experiments/nov14_retransmissions/verify.py --verify
+          python experiments/aviation_connection/verify.py --verify
+          python experiments/aviation_connection/verify_companion.py --verify
           python experiments/corpus_attack/build_source_pairs.py --verify
           python experiments/corpus_attack/verify_source_pairs.py
           python experiments/corpus_joint/build_readings.py experiments/corpus_joint/p205_inputs.json experiments/corpus_joint/p205_readings.json --verify
