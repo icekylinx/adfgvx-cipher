@@ -1,0 +1,63 @@
+{
+  "checked_utc": "2026-11-02T10:26:08.244772+00:00",
+  "all_archived_binaries_identical": false,
+  "engines": [
+    {
+      "engine": "subsolve",
+      "source_sha256": "a2fac33ae2a03292c488db09d1b36f0968e88ab07616c050e5c4047816b45e95",
+      "rebuilt_binary_sha256": "e7f0b53002e83438bdbcb10c336fc86a2287756e293e349b2c168acc77178fde",
+      "archived_binary_sha256": "1e5b2f42f4ae1d4c5c4cafb14ebdbde13aeb5c4d2135cd95d28906bb1604a212",
+      "byte_identical": false,
+      "compiler_command": [
+        "cc",
+        "-O3",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "src/subsolve.c",
+        "-lm",
+        "-o",
+        "bin/subsolve"
+      ],
+      "compiler_warnings": ""
+    },
+    {
+      "engine": "marginal_subsolve",
+      "source_sha256": "c931c29edcd066d77dd6aa4fe5f513a95cb740efc74cff1666f068a515d44f36",
+      "rebuilt_binary_sha256": "f8f386213eb1aeadb5d60ae6c8c8778271964bdf158d6904c07f44c5fc714ca6",
+      "archived_binary_sha256": "f8f386213eb1aeadb5d60ae6c8c8778271964bdf158d6904c07f44c5fc714ca6",
+      "byte_identical": true,
+      "compiler_command": [
+        "cc",
+        "-O3",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "src/marginal_subsolve.c",
+        "-lm",
+        "-o",
+        "bin/marginal_subsolve"
+      ],
+      "compiler_warnings": ""
+    },
+    {
+      "engine": "marginal_subsolve6",
+      "source_sha256": "ccbc34b2bcbb05217723a64b24d419f2c6fdfff81c81620c5fb2d573dad7663f",
+      "rebuilt_binary_sha256": "ad73a4006f29efb852f67381904c54b89136c8bff06451a360621e251b599ca4",
+      "archived_binary_sha256": "ad73a4006f29efb852f67381904c54b89136c8bff06451a360621e251b599ca4",
+      "byte_identical": true,
+      "compiler_command": [
+        "cc",
+        "-O3",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "src/marginal_subsolve6.c",
+        "-lm",
+        "-o",
+        "bin/marginal_subsolve6"
+      ],
+      "compiler_warnings": "In file included from /workspace/scratch/0fd4d7c5f02b/adfgvx1918/known_key_attack/publication/fixed_search/src/marginal_subsolve6.c:14:\n/workspace/scratch/0fd4d7c5f02b/adfgvx1918/known_key_attack/publication/fixed_search/src/sixgram_model.h:32:14: warning: \u2018g6_lookup\u2019 defined but not used [-Wunused-function]\n   32 | static float g6_lookup(uint32_t code) {\n      |              ^~~~~~~~~\n"
+    }
+  ]
+}

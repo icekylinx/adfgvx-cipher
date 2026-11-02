@@ -1,0 +1,51 @@
+{
+  "checks_passed": true,
+  "stages": [
+    {
+      "stage": "normalize",
+      "passed": true,
+      "seconds": 2.996632916998351,
+      "details": {
+        "words": 724720,
+        "sha256": "3573b3957d004f1b3dc8b84f24bd944234e52c75fe596a8381e1dcf9de0a0495",
+        "maximum_length": 25
+      }
+    },
+    {
+      "stage": "profiles",
+      "passed": true,
+      "seconds": 1.6195073960006994,
+      "details": [
+        {
+          "message": "p73",
+          "samples": 10800,
+          "sha256": "fdfd40d9cfb1c36a0cd6daad32681c7fa4a4e8dbc65109e2f53535c513b3f726",
+          "exact_match": true
+        },
+        {
+          "message": "p170",
+          "samples": 10800,
+          "sha256": "06a84f9a63a3706433040e0bd9931fa6afa62c32e390e15377f8a4b15caf5ce5",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "stage": "select",
+      "passed": true,
+      "seconds": 7.7983183409996855,
+      "details": [
+        {
+          "message": "p73",
+          "selection_records": 720,
+          "exact_match": true
+        },
+        {
+          "message": "p170",
+          "selection_records": 720,
+          "exact_match": true
+        }
+      ]
+    }
+  ]
+}

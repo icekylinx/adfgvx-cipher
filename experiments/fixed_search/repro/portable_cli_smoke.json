@@ -1,0 +1,37 @@
+{
+  "checks_passed": true,
+  "tiny_budgets_are_not_historical_search_results": true,
+  "cases": [
+    {
+      "family": "fixed",
+      "canonical_model_hashes": true,
+      "exact_case": "p73__Sep19-21",
+      "trace_nonempty": true,
+      "candidate_arithmetic_checked": true,
+      "accepted_plaintext": false,
+      "same_recipe_resume_passes": true,
+      "different_recipe_resume_rejected": true
+    },
+    {
+      "family": "dictionary",
+      "canonical_model_hashes": true,
+      "exact_case": "p170__de200f619d328c56",
+      "trace_nonempty": true,
+      "candidate_arithmetic_checked": true,
+      "accepted_plaintext": false,
+      "same_recipe_resume_passes": true,
+      "different_recipe_resume_rejected": true
+    },
+    {
+      "family": "gap",
+      "canonical_model_hashes": true,
+      "exact_case": "p198__CHI-Nov13__gap000",
+      "trace_nonempty": true,
+      "candidate_arithmetic_checked": true,
+      "accepted_plaintext": false,
+      "same_recipe_resume_passes": true,
+      "different_recipe_resume_rejected": true
+    }
+  ],
+  "changed_recipe_rejection_preserves_existing_run_manifest": true
+}

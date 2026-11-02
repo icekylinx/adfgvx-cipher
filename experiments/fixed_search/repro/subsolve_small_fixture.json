@@ -1,0 +1,19 @@
+{
+  "source_case": "p152__Oct28-31",
+  "restarts": 3,
+  "iterations": 1000,
+  "seed": 3725988552,
+  "checks": [
+    {
+      "binary": "../root_attack/subsolve36",
+      "output": "{\"score\":-5.96001518,\"square\":\"UQLM9K3C5VAESF4ZBHWRJY78XDP0OGI216TN\",\"plaintext\":\"?PSB?PFLOGIERSENSXKSANNAIVOMXZWISSAUGTESIDEJ2M10MYLH\",\"restart\":0,\"iteration\":1000}\n",
+      "sha256": "fc102271594f32f9af0caf8b9f3d94c1c77aa85d50de1ee8fe5d9462d8be9e57"
+    },
+    {
+      "binary": "publication/fixed_search/bin/subsolve",
+      "output": "{\"score\":-5.96001518,\"square\":\"UQLM9K3C5VAESF4ZBHWRJY78XDP0OGI216TN\",\"plaintext\":\"?PSB?PFLOGIERSENSXKSANNAIVOMXZWISSAUGTESIDEJ2M10MYLH\",\"restart\":0,\"iteration\":1000}\n",
+      "sha256": "fc102271594f32f9af0caf8b9f3d94c1c77aa85d50de1ee8fe5d9462d8be9e57"
+    }
+  ],
+  "outputs_identical": true
+}

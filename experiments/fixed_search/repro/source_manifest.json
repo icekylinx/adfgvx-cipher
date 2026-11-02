@@ -1,0 +1,101 @@
+{
+  "capture_utc": "2026-11-02T10:25:46.684480+00:00",
+  "archived_python_sources": [
+    {
+      "path": "root_attack/src/run_fixed_transposition.py",
+      "sha256": "5097a3d8c6011608cbe3ea49e69ccd669fcd21d9d719c88d7acf8f78796d6a9b",
+      "bytes": 3337
+    },
+    {
+      "path": "root_attack/src/run_dictionary_permutation_fits.py",
+      "sha256": "e537bd9dc4191881784d527cfd2eaae58f4bcb1ee39096dc2983b570b34aa013",
+      "bytes": 4933
+    },
+    {
+      "path": "root_attack/src/run_gap_domain_refinement.py",
+      "sha256": "45afbe7805a54a7dce3d0da414f3f24a894cafd03e3d3b1ec44e809e9165f48e",
+      "bytes": 3263
+    },
+    {
+      "path": "root_attack/src/coordinate_geometry_screen.py",
+      "sha256": "c1c9623d9d60a11a9bb8c854732fd881f0ae246bd911022d51025079d7707a75",
+      "bytes": 4742
+    },
+    {
+      "path": "root_attack/src/build_models.py",
+      "sha256": "8bbcc5344a4e6396ee502f88e5165c545988abc3f1cbf88962e19b48274eacf8",
+      "bytes": 4244
+    },
+    {
+      "path": "root_attack/src/build_military_models.py",
+      "sha256": "85e2503afa4cf54d011fe389e0ed4f64062ceee0d52c6dd863b70007af8573d4",
+      "bytes": 4177
+    },
+    {
+      "path": "root_attack/src/cipher.py",
+      "sha256": "674fc8837d4d7c878ec63ea7a77736bb842e238d01941731ff755ff16878295c",
+      "bytes": 3641
+    }
+  ],
+  "C_sources": [
+    {
+      "path": "src/subsolve.c",
+      "sha256": "a2fac33ae2a03292c488db09d1b36f0968e88ab07616c050e5c4047816b45e95",
+      "engine_source_preserved_without_edits": true
+    },
+    {
+      "path": "src/marginal_subsolve.c",
+      "sha256": "c931c29edcd066d77dd6aa4fe5f513a95cb740efc74cff1666f068a515d44f36",
+      "engine_source_preserved_without_edits": true
+    },
+    {
+      "path": "src/marginal_subsolve6.c",
+      "sha256": "ccbc34b2bcbb05217723a64b24d419f2c6fdfff81c81620c5fb2d573dad7663f",
+      "engine_source_preserved_without_edits": true
+    },
+    {
+      "path": "src/sixgram_model.h",
+      "sha256": "2c2e95cfb6f8b4d96066ad8c600bf82ebbc349c6b1ffcab90b40d6dd5122daeb"
+    }
+  ],
+  "archived_binaries_not_distributed": [
+    {
+      "path": "root_attack/subsolve36",
+      "sha256": "1e5b2f42f4ae1d4c5c4cafb14ebdbde13aeb5c4d2135cd95d28906bb1604a212",
+      "bytes": 21024,
+      "mtime_utc": "2026-11-02T07:58:48.912321+00:00"
+    },
+    {
+      "path": "root_attack/bin/marginal_subsolve",
+      "sha256": "f8f386213eb1aeadb5d60ae6c8c8778271964bdf158d6904c07f44c5fc714ca6",
+      "bytes": 25272,
+      "mtime_utc": "2026-11-02T08:34:10.649884+00:00"
+    },
+    {
+      "path": "root_attack/bin/marginal_subsolve6",
+      "sha256": "ad73a4006f29efb852f67381904c54b89136c8bff06451a360621e251b599ca4",
+      "bytes": 25752,
+      "mtime_utc": "2026-11-02T08:35:28.490319+00:00"
+    }
+  ],
+  "source_binary_caveat": "Both marginal coordinate-domain engines rebuild byte for byte identically. The retained older subsolve.c produces a different executable hash but reproduces the complete selected archived trace and the small deterministic fixture exactly; binary equivalence for every input is not claimed.",
+  "additional_archived_sources": [
+    {
+      "path": "alternative_attack/dictionary_short_cases.py",
+      "sha256": "178256e29a46b14f842ded5b7d518286b95e1c3aa2d5e43972b9d3afbc55d223"
+    },
+    {
+      "path": "alternative_attack/dictionary_profile.c",
+      "sha256": "55c1dc92e1b55b3821e76bea6715cc3231b96f49181f87c983e348b3cc487c33"
+    },
+    {
+      "path": "alternative_attack/summarize_dictionary.py",
+      "sha256": "90873a7141581d4efffb880ba2b8d82f6e3acb0226d7b7c9d66a84cf16f1a49d"
+    },
+    {
+      "path": "alternative_attack/build_profile.py",
+      "sha256": "28fdbc79a8414078386f9e4751e25dc13e2c799b6808753c43acb7f59a8f5b01"
+    }
+  ],
+  "resolved_binary_timestamp_note": "Both marginal_subsolve.c and marginal_subsolve6.c compile to byte-identical archived executables under the recorded compiler command. The later six-gram source mtime is not an unresolved reproducibility issue."
+}

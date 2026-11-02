@@ -1,0 +1,281 @@
+{
+  "format_version": 1,
+  "general_sources": [
+    {
+      "id": 22367,
+      "url": "https://www.gutenberg.org/cache/epub/22367/pg22367.txt",
+      "sha256": "359d3f5983c812393f4bd7ee49a350ffffc7d476015e58d6b84b6c848dd2b0e9",
+      "title": "Die Verwandlung",
+      "language": "German"
+    },
+    {
+      "id": 2407,
+      "url": "https://www.gutenberg.org/cache/epub/2407/pg2407.txt",
+      "sha256": "3642f9c98c1bbca55adf25296f4f623bda69c6d47cff46ed5f423053816a19c4",
+      "title": "Die Leiden des jungen Werther — Band 1",
+      "language": "German"
+    },
+    {
+      "id": 6099,
+      "url": "https://www.gutenberg.org/cache/epub/6099/pg6099.txt",
+      "sha256": "67f9ede9e23455bc8b951fb0cb8af361389b899edc3977a50d41976655050e2c",
+      "title": "Les Fleurs du Mal",
+      "language": "French"
+    },
+    {
+      "id": 5323,
+      "url": "https://www.gutenberg.org/cache/epub/5323/pg5323.txt",
+      "sha256": "fc2cc841038004b845426452f808e6537045604d66d2878c7007a8909e9240df",
+      "title": "Effi Briest",
+      "language": "German"
+    },
+    {
+      "id": 21000,
+      "url": "https://www.gutenberg.org/cache/epub/21000/pg21000.txt",
+      "sha256": "c82c2d61713437aa807950c6460a0e8aabd9c4df85a466e9d59712b7f8f93ea7",
+      "title": "Faust: Eine Tragödie [erster Teil]",
+      "language": "German"
+    },
+    {
+      "id": 34811,
+      "url": "https://www.gutenberg.org/cache/epub/34811/pg34811.txt",
+      "sha256": "59b2688c4de9b74ccc7feca9051c22fd5202fa31b58fe0e5f54b79d3f895d375",
+      "title": "Buddenbrooks: Verfall einer Familie",
+      "language": "German"
+    },
+    {
+      "id": 24571,
+      "url": "https://www.gutenberg.org/cache/epub/24571/pg24571.txt",
+      "sha256": "4e9c8c4a0d21435af0207adc7f0cffdd3a4ebc0696526eb572f5639f77c08672",
+      "title": "Der Struwwelpeter",
+      "language": "German"
+    }
+  ],
+  "general_model": {
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+    "entries": 1679616,
+    "total_weighted_windows": 19310451,
+    "distinct_windows": 61316,
+    "floor": -9.285792416944805,
+    "mixture_weights": {
+      "letters_and_digits": 5,
+      "sentence_X": 3,
+      "word_X": 1
+    },
+    "training_includes_challenge_plaintexts": false,
+    "monograms": {
+      "P": 118134,
+      "R": 1259775,
+      "O": 474309,
+      "D": 907074,
+      "U": 842598,
+      "C": 612801,
+      "E": 3274398,
+      "B": 361449,
+      "Y": 11367,
+      "J": 42273,
+      "A": 1153800,
+      "N": 1891548,
+      "S": 1311318,
+      "L": 650574,
+      "X": 584187,
+      "T": 1079901,
+      "H": 997614,
+      "I": 1462986,
+      "F": 284832,
+      "G": 551250,
+      "M": 521874,
+      "W": 322227,
+      "V": 133803,
+      "Z": 207963,
+      "K": 242172,
+      "2": 666,
+      "3": 468,
+      "1": 1197,
+      "9": 153,
+      "7": 369,
+      "Q": 3267,
+      "6": 360,
+      "4": 342,
+      "0": 2421,
+      "5": 540,
+      "8": 603
+    },
+    "sha256": "cbc02525fbf50d231054dd6ab642882d385a0ab31f96dcd4139b85cceaeece59"
+  },
+  "military_model": {
+    "sources": [
+      {
+        "id": 22367,
+        "url": "https://www.gutenberg.org/cache/epub/22367/pg22367.txt",
+        "sha256": "359d3f5983c812393f4bd7ee49a350ffffc7d476015e58d6b84b6c848dd2b0e9",
+        "title": "Die Verwandlung",
+        "language": "German",
+        "domain_weight": 1,
+        "group": "general_German"
+      },
+      {
+        "id": 2407,
+        "url": "https://www.gutenberg.org/cache/epub/2407/pg2407.txt",
+        "sha256": "3642f9c98c1bbca55adf25296f4f623bda69c6d47cff46ed5f423053816a19c4",
+        "title": "Die Leiden des jungen Werther — Band 1",
+        "language": "German",
+        "domain_weight": 1,
+        "group": "general_German"
+      },
+      {
+        "id": 5323,
+        "url": "https://www.gutenberg.org/cache/epub/5323/pg5323.txt",
+        "sha256": "fc2cc841038004b845426452f808e6537045604d66d2878c7007a8909e9240df",
+        "title": "Effi Briest",
+        "language": "German",
+        "domain_weight": 1,
+        "group": "general_German"
+      },
+      {
+        "id": 21000,
+        "url": "https://www.gutenberg.org/cache/epub/21000/pg21000.txt",
+        "sha256": "c82c2d61713437aa807950c6460a0e8aabd9c4df85a466e9d59712b7f8f93ea7",
+        "title": "Faust: Eine Tragödie [erster Teil]",
+        "language": "German",
+        "domain_weight": 1,
+        "group": "general_German"
+      },
+      {
+        "id": 34811,
+        "url": "https://www.gutenberg.org/cache/epub/34811/pg34811.txt",
+        "sha256": "59b2688c4de9b74ccc7feca9051c22fd5202fa31b58fe0e5f54b79d3f895d375",
+        "title": "Buddenbrooks: Verfall einer Familie",
+        "language": "German",
+        "domain_weight": 1,
+        "group": "general_German"
+      },
+      {
+        "id": 24571,
+        "url": "https://www.gutenberg.org/cache/epub/24571/pg24571.txt",
+        "sha256": "4e9c8c4a0d21435af0207adc7f0cffdd3a4ebc0696526eb572f5639f77c08672",
+        "title": "Der Struwwelpeter",
+        "language": "German",
+        "domain_weight": 1,
+        "group": "general_German"
+      },
+      {
+        "id": 30695,
+        "url": "https://www.gutenberg.org/cache/epub/30695/pg30695.txt",
+        "sha256": "5ca60f3f932403fb1827c22b2efe779b70a34e99e8e1ee709474b584fe19742e",
+        "bytes": 814141,
+        "retrieved_utc": "2026-11-02T08:36:17.828716+00:00",
+        "title": "Aus meinem Leben",
+        "author": "Paul von Hindenburg",
+        "language": "German",
+        "domain_weight": 2,
+        "group": "wartime_German"
+      },
+      {
+        "id": 48715,
+        "url": "https://www.gutenberg.org/cache/epub/48715/pg48715.txt",
+        "sha256": "18c9e0e49decba359483a07adb3fe1b56c8d5826127f59c03ff3b9f0e27fdfe8",
+        "bytes": 342917,
+        "retrieved_utc": "2026-11-02T08:36:17.730047+00:00",
+        "title": "Der Weltkrieg, I. Band",
+        "author": "Karl Helfferich",
+        "language": "German",
+        "domain_weight": 2,
+        "group": "wartime_German"
+      },
+      {
+        "id": 48921,
+        "url": "https://www.gutenberg.org/cache/epub/48921/pg48921.txt",
+        "sha256": "2afd2085237d52631611cdba27a567e52ea6f40c9c80fa58f4d62d634ca1c5f6",
+        "bytes": 631710,
+        "retrieved_utc": "2026-11-02T08:36:17.848516+00:00",
+        "title": "Der Weltkrieg, II. Band",
+        "author": "Karl Helfferich",
+        "language": "German",
+        "domain_weight": 2,
+        "group": "wartime_German"
+      },
+      {
+        "id": 52159,
+        "url": "https://www.gutenberg.org/cache/epub/52159/pg52159.txt",
+        "sha256": "eab676c23c17f856a4280855ab4fcb4ef2b31ac3f7f74483682358573b2c1b8f",
+        "bytes": 1010438,
+        "retrieved_utc": "2026-11-02T08:36:41.168022+00:00",
+        "title": "Der Weltkrieg, III. Band",
+        "author": "Karl Helfferich",
+        "language": "German",
+        "domain_weight": 2,
+        "group": "wartime_German"
+      }
+    ],
+    "training_includes_challenge_plaintexts": false,
+    "stream_weights": {
+      "plain": 5,
+      "sentence_X": 3,
+      "word_X": 1
+    },
+    "domain_weights": {
+      "general_German": 1,
+      "wartime_German": 2
+    },
+    "monograms": {
+      "P": 364644,
+      "R": 4260753,
+      "O": 1435923,
+      "D": 2850876,
+      "U": 2666268,
+      "C": 1770165,
+      "E": 10383948,
+      "B": 1067607,
+      "Y": 26577,
+      "J": 105831,
+      "A": 3392370,
+      "N": 5927166,
+      "S": 3933342,
+      "L": 1948950,
+      "X": 1632377,
+      "T": 3207267,
+      "H": 2703780,
+      "I": 4386060,
+      "F": 1006218,
+      "G": 1949058,
+      "M": 1387800,
+      "W": 858429,
+      "V": 501183,
+      "Z": 662157,
+      "K": 768528,
+      "2": 49392,
+      "3": 34848,
+      "1": 101457,
+      "9": 43641,
+      "7": 27621,
+      "Q": 9783,
+      "6": 25200,
+      "4": 29052,
+      "0": 38943,
+      "5": 31050,
+      "8": 27927
+    },
+    "quad": {
+      "weighted_windows": 59615813,
+      "distinct": 97759,
+      "floor": -9.77536147094435,
+      "sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d"
+    },
+    "six": {
+      "weighted_windows": 59615561,
+      "distinct": 914057,
+      "floor": -9.77535963514886,
+      "hash_size": 2097152,
+      "sha256": "79e1474e78afa0d208ffe4306b31ed3531786c2fc6a0c7efb4d2f3a7fd5e4b5a"
+    },
+    "scope": "Domain adaptation motivated by short military-text controls; no historical target candidate is used as training data."
+  },
+  "excluded_source": {
+    "id": 6099,
+    "reason": "The actual cached book is French and is excluded, despite its appearance in the initial ID list."
+  },
+  "normalization": "German umlauts become AE/OE/UE, sharp-s becomes SS, uppercase A-Z and digits retained; three streams have relative weights 5 joined, 3 sentence-boundary X, 1 word-boundary X.",
+  "binary_conventions": "Little-endian IEEE float32, alphabet ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789. Six-grams use the documented G6HASH2 sparse linear-probing table.",
+  "training_includes_challenge_plaintexts": false
+}

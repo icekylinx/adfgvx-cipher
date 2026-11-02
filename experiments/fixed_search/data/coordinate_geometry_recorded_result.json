@@ -1,0 +1,3237 @@
+{
+  "scope": "Enumerate coordinate relabelings and route conventions without source edits.\nAll720 common permutations of ADFGVX and both pair orientations are tested.\nRank conventions: normal/inverse; optional physical-column mirror, descending\nread order, and reversal within each column. p198 has an explicit five-slot gap.\nN-gram scores only rank candidates; no score threshold certifies plaintext.\n",
+  "evaluated_hypotheses": 20666880,
+  "keys": 23,
+  "input_variants": 39,
+  "seconds": 35.97150921821594,
+  "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+  "unknown_window_score": -7.4,
+  "control": {
+    "id": "synthetic_route_relabel_control",
+    "ciphertext": "DVDVGGVDFVFDGVFVAVVDDAVAVVXDVXFXVVVAVFGDVXFXVFVVDXVDAVFGDVXAXVXGFDXVGFXFDVFGDVXVDVXFVAVGFDXADFXFFGXGFVDXXFFFDFXVGAGVGXFVVXVVFDXXFDVDGXFXXDGXVGVVDGDVVGXFDGDGFXXVVVFXFVXGVGGVGXDDDX",
+    "expected_plaintext": "ANXDASXOBERKOMMANDOXMELDUNGXUEBERXDENXMARSCHXDERXTRUPPENXUNDXDENXZUSTANDXDERXBAHNSTRECKEX",
+    "construction_key": "Nov1-3",
+    "construction_route": {
+      "rank_convention": "inverse",
+      "mirror_columns": false,
+      "descending_read_order": false,
+      "reverse_each_column": true
+    }
+  },
+  "control_recovered_at_rank_one": true,
+  "results": {
+    "synthetic_route_relabel_control": [
+      {
+        "score": -4.012704372406006,
+        "plaintext": "ANXDASXOBERKOMMANDOXMELDUNGXUEBERXDENXMARSCHXDERXTRUPPENXUNDXDENXZUSTANDXDERXBAHNSTRECKEX",
+        "coordinate_relabeling": "FVAXGD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 86,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov1-3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.049921989440918,
+        "plaintext": "SK81NSTRECAPBNDXDERIH65DENXZUONIUPPENXI14FCHXDESX8IRXDENXFNKWDUNGXI3SDMMANDO8FJDASXOBPN8A",
+        "coordinate_relabeling": "FVAXGD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 86,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov1-3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.071875095367432,
+        "plaintext": "?GFV?HE?XA?PZW??RX?????ZZTHINVOM?K??HC??UZTENIVHHVEIV???REB?OZUXSTUTRR???Z????ZIEHNS?T?OO",
+        "coordinate_relabeling": "AXGVFD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 26,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.099983215332031,
+        "plaintext": "VI?I??TSUE?D?BS??OZCT??UF???ZRATTOLSFS?FISE?I?RF???DTH?U?B?????KW?EURERO?SVI??RM?DEXHEFI?",
+        "coordinate_relabeling": "ADVFGX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 17,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.1156110763549805,
+        "plaintext": "I?I?X?M?B??ET?AX?VNI?NO?E??E?B?D?A?Z???EA?BA???NSOPO??TXNAERVI?AT??LF?ICS???XIENGAN?T???S",
+        "coordinate_relabeling": "VXFAGD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.137423992156982,
+        "plaintext": "?O?XV?EVD?X??DSS?FF???D?R?O?OMXIZ?OXN?GASTERAGD?BXASM?TI?S?R?F?IGNES???XE?NWE?E?N?VMMSXN?",
+        "coordinate_relabeling": "VDFAXG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 15,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.151360034942627,
+        "plaintext": "?R???ZR??I?F???GERFRZO?I??FP??????EJTZHHERE?HTF??I?NALOGESFESZE?G?NGEPOPER?SCOBG?GT????XE",
+        "coordinate_relabeling": "FADGXV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 26,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.161462306976318,
+        "plaintext": "??F?IVIOG?WEE?FN?IM?EUGTI?A??ISM?AR?FNMENKAUTT??ZV?CU?D?WLE?CS??SEIISESKA??R?CUAIXITC?W?S",
+        "coordinate_relabeling": "AXDVGF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 22,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.162369251251221,
+        "plaintext": "?N?C?PSEXS??CEN?DB??CPATI??PU?SU?F?E?ZP?WC?TFW?EXE?SZENUHRODENNG?NON?ZARU?Z?CEOUN??I???G?",
+        "coordinate_relabeling": "AGDFXV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 17,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.167718410491943,
+        "plaintext": "?A?OHANESH??VS???A?MBGV????HXALTSDO?AG?AADIVK?SG?LIXB?GAT??????DI?HR?G?F??BV?V???A??ND?E?",
+        "coordinate_relabeling": "VFAXDG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 14,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.176031112670898,
+        "plaintext": "ENSTSL???RIEG?XA?MEM?P?ERI?SBUEBC?W?BF????NRTME?W?R?E?RK??JW?ATEN?C?RWM??XM??UM?R?G?RAMHV",
+        "coordinate_relabeling": "DGFXVA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug20",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.182063579559326,
+        "plaintext": "Z?V?G?OA??A????FERIRT?DA?FKW?K?HA???LILLU??T?E????T?????F?KDF??FLZ???IK???F?BWOLEIGR?UL??",
+        "coordinate_relabeling": "GDAVXF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 10,
+        "total_quadgram_windows": 86,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.18580961227417,
+        "plaintext": "K??G??NO?SO??BUSK?C?VU??K?OUN?FW?KSK?W?ITFA??K?TK?KIINEK?BN?GX????II?O?D?PUO??NPURGESA?KB",
+        "coordinate_relabeling": "DGVAFX",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 10,
+        "total_quadgram_windows": 86,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.186155796051025,
+        "plaintext": "??T??T?NHEANDBX??PT?XTXG?FCH???S????M???ZETHN?X?NGUE?EP?M?P??XOM?G?WM?H?PTD?PFEC?N?NCHMEA",
+        "coordinate_relabeling": "XAGDFV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.1877031326293945,
+        "plaintext": "NX?CXD?GXTF?T?BLIE?BENNGLN?N??RKBENTV??E?IXUA??E??KTMAJEXB?MI?FUCLR?TLRDIENX?ZMK?NLIM?KE?",
+        "coordinate_relabeling": "GAFDXV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 24,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.191840648651123,
+        "plaintext": "?NEE??P??NHI??RV?CNHT?OOKI?ZXTEZUPOPR??CITEETHC?RKLE??R??ICII?CX?G?IAVE?IM?O?XW??IZEPR?KE",
+        "coordinate_relabeling": "FVDGXA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 19,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.193027019500732,
+        "plaintext": "?U?XFTWSIOS?GENFTD??R?ZR?SR?BI?KRNEA?XX?NMINSLO?CZ?ZEUGF?N??D?RNGEM?VU?HCEMOF????N?MGEBTC",
+        "coordinate_relabeling": "DVAGFX",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 24,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.19356107711792,
+        "plaintext": "?E?DNL?W??A?NIOGOC?U?Z??RU??NXZEILN??MG?EITMK?IBW?UUWM?G?T?PCR??E?PAF??UKNERRNGETXIZZ?DRX",
+        "coordinate_relabeling": "DVAXFG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 21,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.200298309326172,
+        "plaintext": "S?E?VDABS??S?MK?OBX?K?DM?DSOX?C??O?SEA?????DZ?X??MB?DOR?????E??Z???MI?ODENPAC?M?ENIZ?X?MD",
+        "coordinate_relabeling": "VGDFXA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 8,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.2056403160095215,
+        "plaintext": "?J?BUSHE?K?NKZ?IG?LMG?TRGULXAT1????LBT?UXGRASGB??WCB???E?JX?FMO??US?BEER?EC?J?HXSWAERG?AE",
+        "coordinate_relabeling": "XGVDAF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 19,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul22",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.205687999725342,
+        "plaintext": "N?I?FSENW?TLEU?A?S?SPPDL?WH?N??RPGWAGED???SWIAG????F?KL?LS?AIGNC?RDEUEF?PVE??MXEROBGL?W?E",
+        "coordinate_relabeling": "DFAXGV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 22,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.205988883972168,
+        "plaintext": "???E??ZMUN???WA?A?USVONV?SZN?TO?W????I?U?WHICZW?MUSSMIV?KHV????V?R??L?ZSC???????HTWOO?E?T",
+        "coordinate_relabeling": "AXFGDV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.209342002868652,
+        "plaintext": "S?O?CUEZV?IBRZHONPUC?DAABA?IRNUREB??PVONSXZUN???OX?B???SZ?O???NCS??IS?O?UOE?WGX?KSX??US??",
+        "coordinate_relabeling": "XAGDFV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 21,
+        "total_quadgram_windows": 86,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.210776329040527,
+        "plaintext": "DNHSP??TZ?NAKVB?T??WTH?CAMPENXHALSGH?EDS?G?E?LM?HX?GNNXH??HM?TPC?XMCL?N?SASTE??Z?T??FIHNM",
+        "coordinate_relabeling": "XDVGFA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 21,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.211219310760498,
+        "plaintext": "DXBEZXT?GZO??G??SXB??A?BI??ZVXU?G?ESXANXX?M?LIGADUMV??AX?I??BB??M?ZKBA?CND????D?NX??T?S??",
+        "coordinate_relabeling": "VGDFAX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 15,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.2158308029174805,
+        "plaintext": "?EBSTGE?NEFP?MRK?N?XXHXGZ??E??BNXN??K?IXN??T?UEIDEMZ?RFL?P?MT?SMX??JKTIINGA?DRIALDZ?FLEE?",
+        "coordinate_relabeling": "GAFVXD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 22,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.216510772705078,
+        "plaintext": "?A?KD?HREGTEUX?E?XO?N?E?C?HAARNNSI?KHHF??FU?ZKDU?HDDP?EH?IHENEX?DTX?D?W??H?I?EKPFDXR?UNW?",
+        "coordinate_relabeling": "DGAXFV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 20,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.219965934753418,
+        "plaintext": "?????X???HOA?GT?BGEVE?B???NB??MV?CS??EA?A?T?BNXBESIRTXFG??EAG?P???H???OLGA?G?PE??AME????O",
+        "coordinate_relabeling": "VAGXFD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.220098972320557,
+        "plaintext": "???Z??EEGORR?COZ?IR??GF???VJT???NI??HB?E?XZ?ZPER??A???VZT?RK?M?C?NGEX??BG?ITS?HENEAF?CE??",
+        "coordinate_relabeling": "FAVGXD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 8,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.220172882080078,
+        "plaintext": "A?TUA????V??O?HAHZD?OV??V?PERWI?HLEREH?N??SOO?II?CPO?AUMO??VPF?IW?EUC?O?O?EPN?ZC????H?FN?",
+        "coordinate_relabeling": "AVGXDF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 8,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      }
+    ],
+    "p73": [
+      {
+        "score": -7.083906173706055,
+        "plaintext": "???HRE?D?L?V??R???UTS?F?P?I??TKDB?R?HI????U?MALW?W?P??RINSEIEHERIMKWDD??O?L?Z?OESX??DX?B?",
+        "coordinate_relabeling": "DGAFVX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 16,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.102945804595947,
+        "plaintext": "?NFAFKEE?ZHEXV??ZA??U???W?NZ?COV?P?N?AV?H?EESTXCH?XX?OSTEHNUV?PA?NXHEDENZZ???T??ERG??Z???",
+        "coordinate_relabeling": "XFGVAD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 21,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.108087539672852,
+        "plaintext": "C??EEEI?NA?C?JXH?VCPR?T?GGBELCH?I??ISPATIGEMJEUX?G?C?R?XIMHEMREE?FCE?AJDG??EP?RH???LGEVCI",
+        "coordinate_relabeling": "FXVGDA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 26,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.10877799987793,
+        "plaintext": "LENEH???ZZ?ENS????UT?OI???KN??NR??INITESESUE?KKGLENARGDZZK?SS?Z???VZZ?E??PB??D?U?T?FS?GZG",
+        "coordinate_relabeling": "GVAXDF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 19,
+        "total_quadgram_windows": 86,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.115710735321045,
+        "plaintext": "X?3??2T4?V?O??NENESE?EEXINSOEPIRFU?WS?3BGX?A41W?NOTTGEGIM?M?PY?VAC?G?A?CVP?MO?I?NCHZ?MSSG",
+        "coordinate_relabeling": "GXVAFD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 23,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov10-12",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.121660232543945,
+        "plaintext": "?NMUE??TB????EUDENGSIN?UR?IR??AGMI??G?O?GIGHB?HBX?SN???GO??TT???ITN?FB????RODUC????N?XH?U",
+        "coordinate_relabeling": "DFXGVA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.123183727264404,
+        "plaintext": "GKH??G?WR?KDN???PK?OWDLR??E?GIRGE?K??EA?GEARAGEBI??UG?BELA????PK??X?FE?KH?KGA??UKLEN?????",
+        "coordinate_relabeling": "GXAVDF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 86,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.127813339233398,
+        "plaintext": "SNEEEIT??SU?EWDK?UZBEEF??TZ?HNTU?NGX?WZ???LBLERX?GM?XZWE??DEEB????GX??P????NI?TMGEFEWE??D",
+        "coordinate_relabeling": "AXDVGF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 19,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.141643524169922,
+        "plaintext": "?FEP?O?OX?NN?DC??EH?X?F?KU??ZDG??F??LG?IU????AH??PRD?ONETANNENO????P??T???XSG?P??K?TNXNON",
+        "coordinate_relabeling": "AVGDFX",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 10,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.144676208496094,
+        "plaintext": "?X?KCR?S?DB?V?VRIAERDDE??S?R?S?HMABEARIVX?LEPPD?I?EWOIXI??BLOWS?KE??Z??O?IRBE?DR?AWDH?ET?",
+        "coordinate_relabeling": "DGAFVX",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 22,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.161865234375,
+        "plaintext": "MXNENDERIII?FDUEBDTS?IS?LD?I?TB?XWUE???KICCOB?SENU?DL??DLTDI?D??TFT????GAAIT?IAOI?KFB??TA",
+        "coordinate_relabeling": "VGFADX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 23,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.164252758026123,
+        "plaintext": "XDN???R???W?NNG???LTUXR??IX?EGIE??R???H?PLS?HBK??ZV?KT?WT??ETONI??ERHORGNEFFR?S??TT??HE?Z",
+        "coordinate_relabeling": "DFVGXA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.164278984069824,
+        "plaintext": "U???M?R????G?EP???LNGRUI?NN?NDERAM?F?M??N??D?G?ODSC?VIMFER?M??E?DFG?UTIVKD??TEXND?FD?VD??",
+        "coordinate_relabeling": "DFAGVX",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 15,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.164989948272705,
+        "plaintext": "UALIENKMI?T???TIKVI?EE?S?T?V??F?O?IT?MEC?OOB??TIPV?AXI?K??E?A?P?I?XKO?KP?O?IEELI??E?PI?HL",
+        "coordinate_relabeling": "AGXDVF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.166390895843506,
+        "plaintext": "SEWDH?AZM?LBA?DL?AGST?G?UMBR?W???OAW??N???RA??DINEBAEL?????LI?PH?EALDDAG?DBM???L?NVU?LM?P",
+        "coordinate_relabeling": "DAGFVX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.166775703430176,
+        "plaintext": "?T???IS??CKU?????TARMTO???M?KILA?MN?ASEKAMA??U??V?RTU?SAES????I?M?TID?I??K?E??GUISITIV???",
+        "coordinate_relabeling": "VGFXAD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 14,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.167512893676758,
+        "plaintext": "ETEG?U?C?PGE??UF?E??D?C?IRO???L?RC?DGX???KEARXHEPM?EANO?Z?R?UBNET?R??P??A?WB?DHEIND?IC?CU",
+        "coordinate_relabeling": "AXGVDF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.167973041534424,
+        "plaintext": "?LL?LAHD?A?CHAZN?K?GC?ZK??G?HF?H???WL?AEW?PEDEETAL?SPA?DOELD??L??DARANSDZ?????NRAC??W?WSE",
+        "coordinate_relabeling": "DAGXFV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 16,
+        "total_quadgram_windows": 86,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.172476768493652,
+        "plaintext": "A????W?L?LGARSH?DDUW?A?A?VAZDELTA?K?KG?AGLLSOS???AVH????S?L??T?G??AH??S?ZLASELA?DC?ISTUS?",
+        "coordinate_relabeling": "DAVFGX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 19,
+        "total_quadgram_windows": 86,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.172704696655273,
+        "plaintext": "?K??HCHTAU????GSZWASAGTW??RW??RCDR?T?AUWAE??W??LH??HR?A?E???OV?O?XB?K?ZX?A?KOAZG?RRERAOW?",
+        "coordinate_relabeling": "FAXDGV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 19,
+        "total_quadgram_windows": 86,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.173778533935547,
+        "plaintext": "GEUC?NIIN?J?OL?ILC???Z??GGA??CRNF??T??LIE?NMIZ?????MERP????ENLUI?RHE??E?VJ??N?ELGIEREO??I",
+        "coordinate_relabeling": "FXVGDA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.1742448806762695,
+        "plaintext": "XGENEKO?G?EDA??B?DE????G?NUEWEC?ENSFORW?EC??GPTIRGN??DD?RW???P?CXXZ?RO?TK?BG??DFXE????GG?",
+        "coordinate_relabeling": "AXDFGV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 17,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.177433490753174,
+        "plaintext": "0?JG?AU?CD?T?DRS?U??J?N?C?I?LBBIENEPERKBANXUO??MG0?X?PS??AM?SO???T?EEA?T?VRX?MMNB?J?IAA?N",
+        "coordinate_relabeling": "DGXAFV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 15,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug20",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.1805548667907715,
+        "plaintext": "KSME???I??H?OXO??GU???URBIB?PIKF?GHUG??OSBAU???P?ZULT?S?B?HATLINEURDC?RTN??HU????GL?FBU?D",
+        "coordinate_relabeling": "DXAVGF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 16,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.1834235191345215,
+        "plaintext": "WERNAAROHN?OATT?XV?ZD????IB?OLERXU?HA?CA???X?CH?NDTEDAAURPLC?Z??AW?DTA?WSTHV?UVXFLA?ZDL?N",
+        "coordinate_relabeling": "FAGVXD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 25,
+        "total_quadgram_windows": 86,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.185705184936523,
+        "plaintext": "?U?WIEERK?KX??F?T??V??????KU?K??RVEK?E??FXDK?WVZ?Z?Z??RIKUTEEI??LUTIHS?F??I?AH?IUI?I??MLI",
+        "coordinate_relabeling": "AGDFXV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.1864495277404785,
+        "plaintext": "IX???HE??ITR???FU?IXFRIS??I?HAR?ACI??K???VUM??TIGKLU?ITOWT?P???TFV?TTT?TI?VIEFFAER?WI??F?",
+        "coordinate_relabeling": "XGVDAF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 86,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.186614990234375,
+        "plaintext": "EC??W?WSA?????NRZDARANSD?ELD??L?OL?SPA?DA?PEDEETW??WL?AE??G?HF?H?K?GC?ZK?A?CHAZN?LL?LAHD?",
+        "coordinate_relabeling": "DAGXFV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 14,
+        "total_quadgram_windows": 86,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.188623428344727,
+        "plaintext": "?UFU?UN?PNE??AC??X?DUNTX????WLT?ONDUF??PMT?ZO??AUA?RAH?XGEA??Z??P??ATU?RDESK??????F?F?TU?",
+        "coordinate_relabeling": "AVDXGF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 86,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.1904168128967285,
+        "plaintext": "?AWDH?ET?IRBE?DR?E??Z??OK?BLOWS???EWOIXII?LEPPD?XABEARIVMS?R?S?H?AERDDE?IDB?V?VR?X?KCR?S?",
+        "coordinate_relabeling": "DGAFVX",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 20,
+        "total_quadgram_windows": 86,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      }
+    ],
+    "p153a": [
+      {
+        "score": -6.947425842285156,
+        "plaintext": "??UR??U????WEHRO?WC?U?W?Z??FTENBU?IP?K?XC?I??MT??KL?GAESSAGN??N???",
+        "coordinate_relabeling": "XFDAGV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 10,
+        "total_quadgram_windows": 63,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -6.999713897705078,
+        "plaintext": "F??????V??OFTI??T?G?????RRLENFAHRI??X?I??FAS?DH?HEU??F?ESGAL?TB?TX",
+        "coordinate_relabeling": "AFVGXD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 10,
+        "total_quadgram_windows": 63,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.015304088592529,
+        "plaintext": "ALFEL?RBESARAFR?E?MV?R?MIGAGTEHU?A?Z?U?GB?XG???ZWEL???AVKT??H?GHBH",
+        "coordinate_relabeling": "AXDGFV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 17,
+        "total_quadgram_windows": 63,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.047587871551514,
+        "plaintext": "ISR?S?PENZUXES?U?HXADMIS??KCE???S?I??AUSNZ?BT???KRL?I?PINOGE??AK?B",
+        "coordinate_relabeling": "DXVAGF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 14,
+        "total_quadgram_windows": 63,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.068609237670898,
+        "plaintext": "TXAL?TB?SGU??F?EHEAS?DH??F??X?I?RILENFAHRRG?????T?OFTI?????????VF?",
+        "coordinate_relabeling": "AFVGXD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 63,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.086877346038818,
+        "plaintext": "?SF??RHOBENVIC???ARGW?H?X?DN?E?????ITSRAW?CU???BE??U?ED?SC??SZ??W?",
+        "coordinate_relabeling": "AXGFDV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 10,
+        "total_quadgram_windows": 63,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.089240074157715,
+        "plaintext": "?MXNGZOXK?KEITI??B?LB???V?LF?NXLASIMEARKXA?D??CT?NXB??XK?ZEC??I?MT",
+        "coordinate_relabeling": "FDGAXV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 17,
+        "total_quadgram_windows": 63,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.089809417724609,
+        "plaintext": "?CI???EXEIAUGT??N?TV?A?REXUNS???ARAB?ASR?KUT?N?PLT?MB??H?N?T?UKZ?R",
+        "coordinate_relabeling": "GVADFX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 9,
+        "total_quadgram_windows": 63,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.090260982513428,
+        "plaintext": "EVURYM?O?YVE?W?HE?P?H?MKTM?U??LF?L?T???DCIDEREEF????2O?QJ?MFANEREH",
+        "coordinate_relabeling": "FAVXGD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 15,
+        "total_quadgram_windows": 63,
+        "key_id": "Nov16-18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.095925331115723,
+        "plaintext": "?H?R?UOR?R?????D?GVV?BAARXGZZFBHSS?SOPT?U???ER?XLCHOEH?UNGSTESENSE",
+        "coordinate_relabeling": "DVGXAF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 23,
+        "total_quadgram_windows": 63,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.096944808959961,
+        "plaintext": "OJ?MHWA?M?GCV?H?1WLJHLMUNSSUNISEMF?F?MSICM?CHR?NS???BXI?PDENEF?1?X",
+        "coordinate_relabeling": "AGXFVD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 21,
+        "total_quadgram_windows": 63,
+        "key_id": "Aug20",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.099249362945557,
+        "plaintext": "0N?RR?VCRKISTX?MTXUN?B?URNLTKAUHEGEAN1?CC1T??J1IUSXN?WTBT?F?NESPXS",
+        "coordinate_relabeling": "XGDFVA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 28,
+        "total_quadgram_windows": 63,
+        "key_id": "Aug20",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.103725433349609,
+        "plaintext": "??S?XS??WENSTN?FP?R??RM??VBA??U??C?FBLEORGFR?HXSOO?T??I??FKD?Z?K??",
+        "coordinate_relabeling": "XGAFDV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 63,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.10972261428833,
+        "plaintext": "WGVE?M???TVI?F?H?EMERTF?F???P??G?GMT?RW?NZESX?LGTF?MOEVAN??VXANZX?",
+        "coordinate_relabeling": "VDXGFA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 63,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.112663745880127,
+        "plaintext": "ID?V?XI?MDG?DOSXSIEZO??I??D?OA?V?DW?SBG?JX?ENSULJX??ECWZ???X?CS??I",
+        "coordinate_relabeling": "FDGVXA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 63,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.113196849822998,
+        "plaintext": "S?BFE??I?XTU?S??KR?M?P?EZ?P?Z?E?AS?B???XLEO??SUEBERZBLG?VE???S??BM",
+        "coordinate_relabeling": "DFVXAG",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 8,
+        "total_quadgram_windows": 63,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.125347137451172,
+        "plaintext": "?F?OX?CINDG??BACARA?FFSJ?NX???R?SV?EBT?OZXC?VD?SU?UTTENOHLSTN?DKUL",
+        "coordinate_relabeling": "XDGAVF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 16,
+        "total_quadgram_windows": 63,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.133188247680664,
+        "plaintext": "SNENWA?IU??KA?XURXGLDGC?ZWICHE?U??ZPP?????S?K????ZN?HX?L??BGB??W??",
+        "coordinate_relabeling": "VFDAXG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 63,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.142301559448242,
+        "plaintext": "K?OHATXANZEL?BT?L???D??AN?ICS??SLTG?UGAM??KXKA?ASOC?M??S??CCDRR?L?",
+        "coordinate_relabeling": "FGAVXD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 63,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.150809288024902,
+        "plaintext": "O?ZKMW?AIAWI?ZTBINETDUMG?K??HF?VP??VF?N?VTT?G?A?XZEU?DVP?NFX??AW??",
+        "coordinate_relabeling": "DFAXGV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 63,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.154582500457764,
+        "plaintext": "?BDG??ZP?CU?ED?JMEU?DHG?B?STHMAUGELD?RAKI???1?G?FKAWJ?E?K??EMSHOFT",
+        "coordinate_relabeling": "VGXDAF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 15,
+        "total_quadgram_windows": 63,
+        "key_id": "Jul22",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.161782741546631,
+        "plaintext": "RI?KZ?KR?LWG?LO?Z??I?P?ZNI??C??US?DF?OK??HNXSD??C?R?OBV??ASVERSC??",
+        "coordinate_relabeling": "GXFADV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 6,
+        "total_quadgram_windows": 63,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.16263484954834,
+        "plaintext": "UIW?O?AK?SGRE?OL?BTA?DSASSUED??U?OXSK?R?SW?ETF?M?AP?MXSH?V??HF?LGM",
+        "coordinate_relabeling": "FXAGDV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 8,
+        "total_quadgram_windows": 63,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.164772987365723,
+        "plaintext": "?CEXSAUSTZ???WA???FVRFISTV?GNI?N?AK??KS??D?U?S?SNEG??HHN?DGGR??O?M",
+        "coordinate_relabeling": "GDVAFX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 63,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.165668487548828,
+        "plaintext": "?MFANEREHF????2O?QJ?DCIDEREEF?LF?L?T?H?H?MKTM?U?VE?W?HE?KEVURYM?O?",
+        "coordinate_relabeling": "FAVXGD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 17,
+        "total_quadgram_windows": 63,
+        "key_id": "Nov16-18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.171753406524658,
+        "plaintext": "?V?WW?K?HBDF?VISN??B?BW?P??ROFFZWEITEC?G??M?HL???SOME??B?FXE?EKZFB",
+        "coordinate_relabeling": "XFAVGD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 63,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.173610687255859,
+        "plaintext": "S??C??CSZ?DM??XZ??????K?O??GT?H?VHW?KXC?UBO?VWANTASAXFEIHLVERSVTHH",
+        "coordinate_relabeling": "GVXAFD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 19,
+        "total_quadgram_windows": 63,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.174383640289307,
+        "plaintext": "CNZERIC?F?ACU???XUNSLEARL?B?T?TRZ??GW??KC?X?TZ?ZE????IRF?OC?MTDOIE",
+        "coordinate_relabeling": "DVAXGF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 63,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.177049160003662,
+        "plaintext": "?BF??O????L?D??M?UIZ??C??N?IIR?UMUK?ZXIK?DZASIENZIGBOTBC?C?KXI??O?",
+        "coordinate_relabeling": "VDFAXG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 14,
+        "total_quadgram_windows": 63,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.177914619445801,
+        "plaintext": "??NRUMASXFPD?ZO??VBW?HZ??????U?G?AC?NV????ATEUMIGZ?UHTG???HM???NP?",
+        "coordinate_relabeling": "DVXGFA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 63,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      }
+    ],
+    "p153b": [
+      {
+        "score": -7.043044090270996,
+        "plaintext": "T?PA????G???O??OA??K?TNF???N?A?XERXKL?U?TINKAIK?T?T??O",
+        "coordinate_relabeling": "GVADXF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 51,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.043696403503418,
+        "plaintext": "H??H?DWARW???A??EHON?O1??VO?2G????GINND????ZLINX??N??E",
+        "coordinate_relabeling": "DXFGVA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 51,
+        "key_id": "Nov16-18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.061938285827637,
+        "plaintext": "?????EVS???FENWIS???RXN?C??F?KS?P??GUREIV??P?F??X??NKT",
+        "coordinate_relabeling": "VDXAFG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 6,
+        "total_quadgram_windows": 51,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.084707260131836,
+        "plaintext": "?UV??ESSEH??AW??PL?SIMMX???G??UINIL??C1?1?SAUT?OUW?S?T",
+        "coordinate_relabeling": "AGDFXV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 51,
+        "key_id": "Jul22",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.094901084899902,
+        "plaintext": "?TIK????A??EO?SNL?E??DB?GG?Z?ITERTEI?F?GR??T??N?ZI?IV?",
+        "coordinate_relabeling": "GVDXAF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 4,
+        "total_quadgram_windows": 51,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.116280555725098,
+        "plaintext": "????GJEX???X???FGEAUSG??XTTZEO?T??CKXSOS?J???LG??S?I??",
+        "coordinate_relabeling": "XFAGVD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 51,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.127295970916748,
+        "plaintext": "?E???WEGERD??VZ??D?????F?O????BZELN???GG??F??EH?CXG??G",
+        "coordinate_relabeling": "VAGFDX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 5,
+        "total_quadgram_windows": 51,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.138850688934326,
+        "plaintext": "H?XSIEU?B?I?XC?C?JX?R???JP?HC????HD?ZIJ?G???GENZI?C??C",
+        "coordinate_relabeling": "XDVFGA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 4,
+        "total_quadgram_windows": 51,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.144176959991455,
+        "plaintext": "?EIF???????T???VH?T??SM?OO?C?IETUETI?K?OUXLEX?V?CI?IG?",
+        "coordinate_relabeling": "GVADXF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 51,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.145562648773193,
+        "plaintext": "??ITE?F???HHOCHEI????I??I??C??RZ??HD???A???PD?T?PI??LE",
+        "coordinate_relabeling": "GXFAVD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 4,
+        "total_quadgram_windows": 51,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.145596504211426,
+        "plaintext": "M?L???LIGTH?T???H?D?????VIN?A?X?HUC?X?LLTEX?L?WD?VT???",
+        "coordinate_relabeling": "FGXVDA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 4,
+        "total_quadgram_windows": 51,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.151134014129639,
+        "plaintext": "X??NG???O??EUFTME??S??C?K??FUGN?C??B?XVM???FTNOC???DAT",
+        "coordinate_relabeling": "VXAGFD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 6,
+        "total_quadgram_windows": 51,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.157678127288818,
+        "plaintext": "5?1TR??F?U?EJESTB?7A?ENERSL???SJD?EV??Y?2?XVOI???9ITO5",
+        "coordinate_relabeling": "AFGXVD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 9,
+        "total_quadgram_windows": 51,
+        "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.161141395568848,
+        "plaintext": "AM??F???GEBI?DR????UU??KKX????G????L??X?EERRAN??L??ZL?",
+        "coordinate_relabeling": "XAVGDF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 4,
+        "total_quadgram_windows": 51,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.166422367095947,
+        "plaintext": "BW???SONEN??RF??K?E?H???W???B??????LEUC????XPRE?T??GPW",
+        "coordinate_relabeling": "AGFDXV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 4,
+        "total_quadgram_windows": 51,
+        "key_id": "Aug20",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.167524337768555,
+        "plaintext": "?????N?A?SG??S?U?UE??X?AWU??????RH???FDENXS???U???????",
+        "coordinate_relabeling": "VAXDFG",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 3,
+        "total_quadgram_windows": 51,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.170543670654297,
+        "plaintext": "??K?HHE?????X?ME????PFSV??T?OIDEX???AUGET???ZDENR?I?S?",
+        "coordinate_relabeling": "GDXAVF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 51,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.178477764129639,
+        "plaintext": "CG?B?IE????W?KXV?B????MS???O??AFUO?U?SRERB???TSFABES?K",
+        "coordinate_relabeling": "VFADGX",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 51,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.178651332855225,
+        "plaintext": "??????KG?L????ZM?????BOOTKR????P?KM??LSKN?????OP??????",
+        "coordinate_relabeling": "XFVGAD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 4,
+        "total_quadgram_windows": 51,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.180147171020508,
+        "plaintext": "CXG??GT?NN???EGGE?????V??S???????RL????ZEDR??BEGNEW???",
+        "coordinate_relabeling": "XADFGV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 5,
+        "total_quadgram_windows": 51,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.183362007141113,
+        "plaintext": "?DRUSG???B??ALTED??G??E?URX?????C?X?A??B?X?N?F??????C?",
+        "coordinate_relabeling": "DGVAFX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 4,
+        "total_quadgram_windows": 51,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.1859450340271,
+        "plaintext": "???XC?RT?C?C?HCHWEL?D??XKORNA?R?MBA????????N?2?L?A?Q1X",
+        "coordinate_relabeling": "XAFVGD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 6,
+        "total_quadgram_windows": 51,
+        "key_id": "Nov16-18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.186339855194092,
+        "plaintext": "EP?R????KFT?N??X?NVIE??TU?S?D??DWERKD??VF?RN????UCH?V?",
+        "coordinate_relabeling": "GDXAFV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 4,
+        "total_quadgram_windows": 51,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.188478946685791,
+        "plaintext": "??U???DXEU??F??RGEE?I???V?UOO?BI??EHRAST???O??F?T????Z",
+        "coordinate_relabeling": "GDVAXF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 5,
+        "total_quadgram_windows": 51,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.189043998718262,
+        "plaintext": "OC??H?9EMKX4?Y?LLUSSX?O?SEHEX3?H?DNACLU?L?96?F9O?P?NJ?",
+        "coordinate_relabeling": "DAFXVG",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 51,
+        "key_id": "NSA-undated-CHI-example-18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.19072961807251,
+        "plaintext": "?????R??ASE??S?D?DK??I??XDV??????BF???NKRIS???DLUFFT??",
+        "coordinate_relabeling": "GFADXV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 5,
+        "total_quadgram_windows": 51,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.191983222961426,
+        "plaintext": "RRLEBH??B?J?R?MX??R?LE?N?I??O?AF?R?O??C?K?IG?G??ULTRE?",
+        "coordinate_relabeling": "XFGDVA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 5,
+        "total_quadgram_windows": 51,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.193649768829346,
+        "plaintext": "LG???FGEGR???TZ????????W?X????BZG?I??DEELLW??GH?SOE??E",
+        "coordinate_relabeling": "VDFGAX",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 5,
+        "total_quadgram_windows": 51,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.193810939788818,
+        "plaintext": "?L??PC???GEERRK????N?S??A???DMO??ARN??GOTI??BM???EP??G",
+        "coordinate_relabeling": "XAGDFV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 4,
+        "total_quadgram_windows": 51,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.193946361541748,
+        "plaintext": "????X?HX??W??LA???P??K?F??Z??E?H??NACHAT???BZ?RB???ZLU",
+        "coordinate_relabeling": "VDFXGA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 3,
+        "total_quadgram_windows": 51,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      }
+    ],
+    "p170": [
+      {
+        "score": -6.409059524536133,
+        "plaintext": "M?O??DTEILFEETCIERXS?DTATGINOEFENR?T???B?GMO?GDUNTAS?",
+        "coordinate_relabeling": "GVDFXA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 26,
+        "total_quadgram_windows": 50,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -6.925378799438477,
+        "plaintext": "GLLDUSGER??FMZ?P?R?JI?IGAUGERELAPKA??HS?K?R?RWC?G?ULW",
+        "coordinate_relabeling": "ADXFVG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 16,
+        "total_quadgram_windows": 50,
+        "key_id": "Jul22",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -6.9355149269104,
+        "plaintext": "?E??MRT?JN??NHXK?IFE??V?U?B??F?NXNO??I?ANNTELN??HEINE",
+        "coordinate_relabeling": "XFGVAD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 8,
+        "total_quadgram_windows": 50,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -6.958070278167725,
+        "plaintext": "MMGEMSC?STNU?J???KTK?H??XTKAMLEER0?WWU??XMMMEUER??K0U",
+        "coordinate_relabeling": "VFDXGA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 17,
+        "total_quadgram_windows": 50,
+        "key_id": "Aug20",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -6.959489822387695,
+        "plaintext": "RER??K0K??XMMMERER0?WWP?XTKAMLV?KTK?HESTNU?J?UMGEMSCN",
+        "coordinate_relabeling": "VFDXGA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 18,
+        "total_quadgram_windows": 50,
+        "key_id": "Aug20",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -6.966869354248047,
+        "plaintext": "???T?ITEX????PG????X?VEINENZ?B?NKFR????GT?P?TUNT?I?T?",
+        "coordinate_relabeling": "DAFXVG",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 50,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -6.967413902282715,
+        "plaintext": "RF???ABEIBH??????O??D??E??KNV?UR??IN??E?SRETW??BARUEH",
+        "coordinate_relabeling": "XADGFV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 8,
+        "total_quadgram_windows": 50,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -6.970395565032959,
+        "plaintext": "?RSGLNENVENGAESIXMWEBEPSO??WJHHS?HH??FG?E???ZDESURUP?",
+        "coordinate_relabeling": "AXVGDF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 28,
+        "total_quadgram_windows": 50,
+        "key_id": "Nov16-18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -6.974801063537598,
+        "plaintext": "GDG?DP??N??TIMATGGENEV?PU?UCR?FUX?ORDITA?JMG?KU?IPT?I",
+        "coordinate_relabeling": "XGDVFA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 50,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -6.978702545166016,
+        "plaintext": "?E?IXNIE?TENB?REC??RUMUER?R?BNE?M???IPENIMU?0C?CRA?0O",
+        "coordinate_relabeling": "GXDVAF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 10,
+        "total_quadgram_windows": 50,
+        "key_id": "Aug20",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -6.9929351806640625,
+        "plaintext": "O?EA?LCV????L?I?H???M?K?EMI??XESS?IESSISST?FXO?OFSM??",
+        "coordinate_relabeling": "GAVXDF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 50,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -6.997619152069092,
+        "plaintext": "ARUEH??BSRETW?E???IN??UR??KNV??E?O??D???IBH??ABERF???",
+        "coordinate_relabeling": "XADGFV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 50,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.007429122924805,
+        "plaintext": "A?L?Z??EP??HDZZ?D?HWX?HEHLM??L?ADZP?DFELTAEINDD??A?E?",
+        "coordinate_relabeling": "AVXFGD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 50,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.011417388916016,
+        "plaintext": "PD??EIS??OSX?LGU?VBIB?KB?LKMU?F?RG?BR?IBDIEAUDESUKF??",
+        "coordinate_relabeling": "GFDXVA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 50,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.014244556427002,
+        "plaintext": "PHS?HEINE?K?GS?????SENOINFU?UX?FGT????SZA??SEA????X??",
+        "coordinate_relabeling": "GAXVFD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 50,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.016692638397217,
+        "plaintext": "S?H??ESTEKAD?IK??EU?K?LS?UL?AEUHK?ULU??D???B???ASTELK",
+        "coordinate_relabeling": "XGDFAV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 9,
+        "total_quadgram_windows": 50,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.017216205596924,
+        "plaintext": "LTURERZELI?PRETZ??AATFK?R??HSVIRAERET?LTFZUJUZ?P?LJ?A",
+        "coordinate_relabeling": "GXDFVA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 23,
+        "total_quadgram_windows": 50,
+        "key_id": "Jul22",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.019258975982666,
+        "plaintext": "CTTDP?BV???V?NOAE?DOFE?R?VIOND?AT?ITUSLEEINHETIC?OMEN",
+        "coordinate_relabeling": "GVAFXD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 18,
+        "total_quadgram_windows": 50,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.021488189697266,
+        "plaintext": "?Y?QZLQ??F???TD?W?E??FF?E?W?FE?SIF??ODWARGESTO??F?DJI",
+        "coordinate_relabeling": "ADXFGV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 8,
+        "total_quadgram_windows": 50,
+        "key_id": "Nov16-18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.026289463043213,
+        "plaintext": "??E?LT?DIER?AGC?ACC?DTE?RX?LDG?AAMKL?GBGULNINFENMADAD",
+        "coordinate_relabeling": "FDGXVA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 16,
+        "total_quadgram_windows": 50,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.035778999328613,
+        "plaintext": "GBG??RUMU????BR?TTHERUTEVIG???JFBG??IN??RGHAT?PU?J???",
+        "coordinate_relabeling": "VDAGFX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 50,
+        "key_id": "Aug20",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.0370965003967285,
+        "plaintext": "O?IU?A?ZLUERIAD?PV?IEZK?D?AAALEINAU?R??A?C????B?D??D?",
+        "coordinate_relabeling": "VDXAFG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 50,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.037525653839111,
+        "plaintext": "?NN?ENDD?O?NDTAUFC?TKA?I?IA?H?????PKC?ARNXN??NIN??UTG",
+        "coordinate_relabeling": "VGAXFD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 50,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.0412468910217285,
+        "plaintext": "W?I???R?MDR?TESOBREIUL?L?I?WG?BKLBKUO?I?DRIA?W??DATIH",
+        "coordinate_relabeling": "GDVXAF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 14,
+        "total_quadgram_windows": 50,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.049482345581055,
+        "plaintext": "?UPG?KTWU?KEB?K?U??D?????ICE?IEERANEAD??EI?I?BNB??R??",
+        "coordinate_relabeling": "GXDFAV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 7,
+        "total_quadgram_windows": 50,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.049639701843262,
+        "plaintext": "DATIHW??DRIA??I?LBKUO?BK?I?WGL?LBREIUESOMDR?T?R?W?I??",
+        "coordinate_relabeling": "GDVXAF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 15,
+        "total_quadgram_windows": 50,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.0555315017700195,
+        "plaintext": "VB?IHO???KTEERTTREO?UX??H?BEZA?LIV?HPR?NHR?BOEMIE??KN",
+        "coordinate_relabeling": "XVAFGD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 50,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.059610366821289,
+        "plaintext": "?EOU???LSK????W??????USEINDTSA?LABZ?AGV?ZLA?INUDE?AIR",
+        "coordinate_relabeling": "VDGAFX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 9,
+        "total_quadgram_windows": 50,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.060235977172852,
+        "plaintext": "O??AHMAIXI??V?ZD??HAXEIL?JH???MZ?D?BUNGAH??LA???LJD?A",
+        "coordinate_relabeling": "VGDAFX",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 10,
+        "total_quadgram_windows": 50,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      },
+      {
+        "score": -7.065117359161377,
+        "plaintext": "MALETN?GLS?OH??UZ?FNF?KF??KDUHB?X?EFXENFANT?UAT?UKB??",
+        "coordinate_relabeling": "FDGVXA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 50,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": null
+      }
+    ],
+    "p198": [
+      {
+        "score": -7.023392677307129,
+        "plaintext": "KT?BMXGEXME?P?GIKB?E???AKAUA?????NLESPLOEW?DFC?NA?K?M?V??OLXA?SOENEA?C?T?OA?NK?????MI",
+        "coordinate_relabeling": "AVGDFX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 18,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 50
+      },
+      {
+        "score": -7.034309387207031,
+        "plaintext": "AW?????BG?B?G?CB?SIGTSTERKG??SE?UZR?E?KN?W?UF?ORNURMO????RXK???F??GW?CCRA?OMXENF??MKR",
+        "coordinate_relabeling": "DAVFXG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 15,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 30
+      },
+      {
+        "score": -7.043428897857666,
+        "plaintext": "TS??NANNM?N?AFGETD?X?B???EWNPOEPX?O?ZFERXFRUHEUSVO??WGF?SR?RFPN????KE?I?EST?K???CX???",
+        "coordinate_relabeling": "XAGDFV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 22,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 105
+      },
+      {
+        "score": -7.052126407623291,
+        "plaintext": "?GF?BUENBUNDETSZ??K?P??BU??G?RRNZEEDOC?BNP??N?F?TXNN?BX?EF?E?MXO?UWS???H?U?N?B?L?Z???",
+        "coordinate_relabeling": "GAXDFV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 16,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 165
+      },
+      {
+        "score": -7.052234172821045,
+        "plaintext": "KT??MXGEXMEPP?GIKB?E?M?AKAUA??R??NLESPLO???DFC?NAEK?M?V??OL?A?SOENEA?C?T?OA?NKR????MI",
+        "coordinate_relabeling": "AVGDFX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 17,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 40
+      },
+      {
+        "score": -7.0535888671875,
+        "plaintext": "P?NV?CHTERZEX?UC???LB?UN??TIAIABRF????LTENT??P?L?K?KHF?GZ?OKXD?O?XFZ??XUNSN??EI?NN??T",
+        "coordinate_relabeling": "FAXGVD",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 15,
+        "total_quadgram_windows": 82,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 70
+      },
+      {
+        "score": -7.061248779296875,
+        "plaintext": "H?RNF?NIL??LT??N?G??TPETUCKENLM??C?T?NGUNMO?S?LA??PKEF???O?M?P?ANKNOWX?L?PFDA??W?NXFI",
+        "coordinate_relabeling": "DGAXFV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 18,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 105
+      },
+      {
+        "score": -7.070686340332031,
+        "plaintext": "?KM???F?USL??MH?ELG??P?B???MN??F?O?KEILLIAF?T??N?S?TV???????????T?I??LUMUNGXEMDO?F?D?",
+        "coordinate_relabeling": "VDXAGF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 125
+      },
+      {
+        "score": -7.074110984802246,
+        "plaintext": "WWTLINENFELDM?Z??HUXG????W?ICKZ?A??OV?KISDR?N?CTW??TI??GRI???W?U?ER??B????FK?OHG??F?H",
+        "coordinate_relabeling": "XDFAGV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 14,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 20
+      },
+      {
+        "score": -7.07411527633667,
+        "plaintext": "AI???R?BGE??G?CB?WIGTSTERBG??SE?UZ??E?KN?W?UF?OR??RMO????KSK???F?GGW?CCR?OOMXENFR?AKR",
+        "coordinate_relabeling": "DAVFXG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 5
+      },
+      {
+        "score": -7.074538707733154,
+        "plaintext": "?NF??PKT?HSDU?C??LXHEINW?D?XFAHN?X?XTNA??BKG??KNERNED?M?FRDE???OB?ZI?HN?BGV?VS?VX?DGS",
+        "coordinate_relabeling": "XDFAGV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 95
+      },
+      {
+        "score": -7.075334548950195,
+        "plaintext": "SDR??C?OZI??STI??????FP?????P?U???L?D?DE?PA??D?Z?NDCOO?O?SG??P????NN??AGIENACHSD?DSAT",
+        "coordinate_relabeling": "XDVFGA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 10,
+        "total_quadgram_windows": 82,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 65
+      },
+      {
+        "score": -7.0761613845825195,
+        "plaintext": "?AIMKELA?DXIVAB??U?LZ?VN??AAU?DH??EHRERDAMVL?U?VG?UA?A??C??DZS?DTLDIEFWM???HDGLEDAMBT",
+        "coordinate_relabeling": "VDAXGF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 27,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 165
+      },
+      {
+        "score": -7.076572895050049,
+        "plaintext": "H?L?I?SUNKODI?H?FW?H??LMAECHS???KMO??????X??C???X?WAZ?RH?D??HMDAE???A??KOVH???OESS?I?",
+        "coordinate_relabeling": "FADVXG",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 85
+      },
+      {
+        "score": -7.08182430267334,
+        "plaintext": "??ID?????????U???BC?K??L???LZNAC????R?VED?IB??KTL??EN?FDIEVOMKL??T?LW??OPELUT?AEP?K?M",
+        "coordinate_relabeling": "ADXVGF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 20
+      },
+      {
+        "score": -7.0826215744018555,
+        "plaintext": "RZEUND?NIVENEP?ZO?LV?X??S1DB?DW?5KBM?CLU?J????5KZUOD?65T0?U?HEUENMEXK?IIE?R???HN?SK?W",
+        "coordinate_relabeling": "DGXVAF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 19,
+        "total_quadgram_windows": 82,
+        "key_id": "Nov13-15b",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 120
+      },
+      {
+        "score": -7.0832037925720215,
+        "plaintext": "?VHHN???RHI?RE??S?KARP???BA?BDN??LKENX?I?C?UENDEFEA?EBDA?XO?IVD?X???U??PV??S?R??USED?",
+        "coordinate_relabeling": "ADXVGF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 95
+      },
+      {
+        "score": -7.086424350738525,
+        "plaintext": "L?IDKF?OLZUXD?MJ??T??I?D???DPHEBERXF?TZD?JZF?P?TSC?E??IP?ASTEKLP?TZ?AKK?B??KEEES?LXD?",
+        "coordinate_relabeling": "VGDAXF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 16,
+        "total_quadgram_windows": 82,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 0
+      },
+      {
+        "score": -7.0876336097717285,
+        "plaintext": "ESE??????X??P?D?EFDIRDI?Z???DU?NNIR??W?V?GF????ALESOERDO?F?GWILR??K?L?EUTWL?G??ARD???",
+        "coordinate_relabeling": "DGAFVX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 15,
+        "total_quadgram_windows": 82,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 70
+      },
+      {
+        "score": -7.08826208114624,
+        "plaintext": "KT?BMXGEXMEPP?GIKB?E?M?AKAUA??R??NLESPLO?W?DFC?NA?K?M?V??OL?A?SOENEA?C?T?OA?NK?????MI",
+        "coordinate_relabeling": "AVGDFX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 17,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 45
+      },
+      {
+        "score": -7.090122699737549,
+        "plaintext": "ZA?IAFOLLAUU?OK?I???????UF???V???RURH?PFC????DC?HR???KSLIEE??HP??URENFE?F?????O?Z?OG?",
+        "coordinate_relabeling": "XAGFDV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 130
+      },
+      {
+        "score": -7.090159893035889,
+        "plaintext": "SDR??C?OZZ??STI??????FP?????P?U???L?D?DEZ?A??D?ZB?DCOO?O??G??P????NN??AGIENACHSD?DSAT",
+        "coordinate_relabeling": "XDVFGA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 9,
+        "total_quadgram_windows": 82,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 55
+      },
+      {
+        "score": -7.09118127822876,
+        "plaintext": "HW?E??SM?P????XE?????NV?WR?TE?RPFRI?UENWEKLFV?NXFUNDT??SALXKUNTXE?PLC?K?G???XA?CP?D?M",
+        "coordinate_relabeling": "XDVAFG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 19,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 125
+      },
+      {
+        "score": -7.093479633331299,
+        "plaintext": "BHG?EOO?LENE??CHIWM??AF?NE?NPO?W?ZEENINIEDIT?RT??UEGRC?E?TMD?C??ZV?TKE????HGM??ELD?Z?",
+        "coordinate_relabeling": "VADXFG",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 95
+      },
+      {
+        "score": -7.094541072845459,
+        "plaintext": "BH??N??WINTELL?HU?DS???LTNLPE?C??ANETUTUNSUH?KP???N?K?KN?PD?M?O?AGX?ON???FH?D?FNISF?F",
+        "coordinate_relabeling": "DGAXFV",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 17,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 85
+      },
+      {
+        "score": -7.095189571380615,
+        "plaintext": "WWTLINENFELDM?W??HUXG??B?W?ICKZ?A?BOV?KISD?AN?CTW??T???GRI????IU?ER??B????FK?OHG?WF?H",
+        "coordinate_relabeling": "XDFAGV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 10
+      },
+      {
+        "score": -7.097009658813477,
+        "plaintext": "?DR??C?O?I??STI??????FP?????P?U???L?D?DEIPA??D?Z?NDCOO?OESG??P????NN??AGIENACHSD?DSA?",
+        "coordinate_relabeling": "XDVFGA",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 82,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 70
+      },
+      {
+        "score": -7.097102642059326,
+        "plaintext": "FSPS?KURN?XMS?F??LK???XROENPORXI?XBSCHIENX?NLON?ZC?BU?IN???UXZO??N??Z?ZH???R??S?K??IP",
+        "coordinate_relabeling": "DAFGXV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 17,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": 5
+      },
+      {
+        "score": -7.097709655761719,
+        "plaintext": "O?VXX??A??BL??HRXUNENHW?X?UERHOXFO?ARRA??VF?ZV??INGTANL?GH?NZFFWIV???G???A??TLCG?UR?S",
+        "coordinate_relabeling": "XGVFDA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 21,
+        "total_quadgram_windows": 82,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 135
+      },
+      {
+        "score": -7.0983405113220215,
+        "plaintext": "HURNF?NIL??LT??N?G??TP?TUCKENL???C?T?N?UNMO?S??A??PKEF???O?M?PEANKNOWXML?PFDA?XW?NXFI",
+        "coordinate_relabeling": "DGAXFV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 18,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 110
+      },
+      {
+        "score": -7.099883079528809,
+        "plaintext": "??ID?????????U?M?BC?K??L?L?LZNAC??V?R?VED?I?S?KTL??E?XFDIEVOMKRE?T?LW???PELUT?AEP?K?M",
+        "coordinate_relabeling": "ADXVGF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 30
+      },
+      {
+        "score": -7.099898815155029,
+        "plaintext": "E?N?AU?XNISTT?WU???VPD??AD?????AI???CE????X?O?FM?OSWIRMG?EGO?O?GITSMX?SONXNA??PREPF?X",
+        "coordinate_relabeling": "GAVFXD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 15,
+        "total_quadgram_windows": 82,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 0
+      },
+      {
+        "score": -7.100307464599609,
+        "plaintext": "A?B?D?MZ??A?UZ??N?XMXBUENF?ZWB?HEABHL?L????MAWAUDIEZBZ?F????XR??PMV???O????H?VM??Z??N",
+        "coordinate_relabeling": "GVDAXF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 16,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 145
+      },
+      {
+        "score": -7.101162910461426,
+        "plaintext": "????WTH???G?C????PAENRE?GG???E?XP??U???G???ELTZ??ZDR???HSZUN?G?C?ISTGRL??RGVERLO?Z?ZV",
+        "coordinate_relabeling": "GFXAVD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 82,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": 145
+      },
+      {
+        "score": -7.10117769241333,
+        "plaintext": "?G?GRMMEXO?VBESTONA?VPU?O??W??LNPA?PS?ULH??1JH?FHN?A?ISIMOE?2?G????LL2?HMEIGH?W??LK??",
+        "coordinate_relabeling": "XFAVDG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 16,
+        "total_quadgram_windows": 82,
+        "key_id": "Nov16-18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 50
+      },
+      {
+        "score": -7.101846218109131,
+        "plaintext": "N?U??VXI?SN?ABBEHRNALFV?XRIV???H???F?FRIES?GX?B?U??VS?L?BF?W????I???E??U?A?BC?D?S?KD?",
+        "coordinate_relabeling": "ADXFVG",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": 5
+      },
+      {
+        "score": -7.1021552085876465,
+        "plaintext": "KT??M?GEXMEPP?GIKB?E?MMAKAUA??R?GNLESPLO?Z?DFC?NAEK?M?V??OL???SOENEA?C?T?OA?NKR????MI",
+        "coordinate_relabeling": "AVGDFX",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 18,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 35
+      },
+      {
+        "score": -7.102414131164551,
+        "plaintext": "???E?X??N?????IP?T?I?MHF?SN?C?KENUSP????OCX??FTL?O??E?IM??RM??O?N?AXSTIZAUELLDORP??O?",
+        "coordinate_relabeling": "AVGDXF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 15,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 40
+      },
+      {
+        "score": -7.104560852050781,
+        "plaintext": "KSABELT????ZK?D??W?L?RH??ZLAUFD?WRF?K?TZZ??ODP?DN??EGS?L??AZXB?RG???V?TBB??GGANZN????",
+        "coordinate_relabeling": "DFAGXV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 82,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": 115
+      },
+      {
+        "score": -7.104560852050781,
+        "plaintext": "KSABELT????ZK?DL?W?L?RH??ZLAUFD?WRF?K?T?Z??ODP??N??EGS????AZXB?RG?T?V?TBB??GGANZN?E??",
+        "coordinate_relabeling": "DFAGXV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 82,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": 120
+      },
+      {
+        "score": -7.10488224029541,
+        "plaintext": "WGH?U?M?K???M???ERNF?OO??D???I?E?H?B???UEGEWAL?BB??????NHIMSIH?OB??T?H??R?IUK?PHK??HA",
+        "coordinate_relabeling": "DVGAXF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 9,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 20
+      },
+      {
+        "score": -7.1050124168396,
+        "plaintext": "WWTLINENFELDM?ZG?H?XG???EW??CKZ?A??OV?KISDR?N??TW??TIO?G?I???WIU?FR??B????FI?OHG??F?H",
+        "coordinate_relabeling": "XDFAGV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 30
+      },
+      {
+        "score": -7.106161117553711,
+        "plaintext": "?ER?A?RNB??XERVAB?I?E??KB?HTZ?IWD??D?SABL??H?I?EP????AT?IVDU??UT?Z?F?MKEH?HAUFINIEGI?",
+        "coordinate_relabeling": "DVFAXG",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 45
+      },
+      {
+        "score": -7.1068010330200195,
+        "plaintext": "?FZV?WZ??EG??L?UNDIEGOG?L?S?E?F?G?K??DS?P????E?BHO?LLUSHAND?FFOH??F???FLZXS??SS??K???",
+        "coordinate_relabeling": "GDXFAV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 82,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 80
+      },
+      {
+        "score": -7.1077094078063965,
+        "plaintext": "????WTH?Z?G?C???EPAENRE?GG???E?XC??U???GC??E?TZ??ZDR???HLZUN?G?C?IST?RL?BRGVERLOSZ?ZS",
+        "coordinate_relabeling": "GFXAVD",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 13,
+        "total_quadgram_windows": 82,
+        "key_id": "CHI-Nov13",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": false
+        },
+        "gap_position": 130
+      },
+      {
+        "score": -7.108401298522949,
+        "plaintext": "WWTL?NENFELDM????HUXG????W?ICKZ?A?BOV?KISDRAN?CTW??TI??GRI???WIU?ER??B????FK?OHG??F?H",
+        "coordinate_relabeling": "XDFAGV",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 15
+      },
+      {
+        "score": -7.108550071716309,
+        "plaintext": "??G???UW?TV??L???S?PXG???FERBUELEI??ZVTJ????SBN?Z?RELIGBL?Z?E?JB????H??FZ?X???EZI????",
+        "coordinate_relabeling": "GFDVXA",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 11,
+        "total_quadgram_windows": 82,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": false
+        },
+        "gap_position": 30
+      },
+      {
+        "score": -7.1092963218688965,
+        "plaintext": "?AIMKELADDXIVAB?TU?LZ?VNT?AAU?DHN?EHRERD?MVL?U?V??UA?A?????DZS?D?LDIEFWM???HDGLEDAMBT",
+        "coordinate_relabeling": "VDAXGF",
+        "swapped_pair_orientation": false,
+        "known_quadgram_windows": 25,
+        "total_quadgram_windows": 82,
+        "key_id": "Jul18",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": true,
+          "reverse_each_column": true
+        },
+        "gap_position": 160
+      },
+      {
+        "score": -7.109633922576904,
+        "plaintext": "ML???UOGESU?AIBO?E?NEUD?M?A??ONESU??R?BK?JPI?PA?UDESED??E?CF?I?HGJ???W?NL??P?BA?L?I?I",
+        "coordinate_relabeling": "GDVAXF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 10,
+        "total_quadgram_windows": 82,
+        "key_id": "Nov13-15a",
+        "route": {
+          "rank_convention": "inverse",
+          "mirror_columns": false,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 95
+      },
+      {
+        "score": -7.109838008880615,
+        "plaintext": "OX???OS?VIT???RA?N?TBARMXEIFEM?DR?G?CC??G?RNKW??NM?SXT?EF?GO?NM?LGD?E??EERMA??A?URSZ?",
+        "coordinate_relabeling": "DVGAXF",
+        "swapped_pair_orientation": true,
+        "known_quadgram_windows": 12,
+        "total_quadgram_windows": 82,
+        "key_id": "Aug3",
+        "route": {
+          "rank_convention": "normal",
+          "mirror_columns": true,
+          "descending_read_order": false,
+          "reverse_each_column": true
+        },
+        "gap_position": 45
+      }
+    ]
+  },
+  "classification": "Unvalidated ranked candidates; historical verification is required."
+}

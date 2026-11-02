@@ -1,0 +1,275 @@
+{
+  "format_version": 1,
+  "file_count": 52,
+  "total_bytes": 2502599,
+  "excludes": [
+    "executables",
+    "binary models",
+    "books",
+    "normalized wordlists",
+    "Python caches",
+    "generated work outputs"
+  ],
+  "files": [
+    {
+      "path": "Makefile",
+      "bytes": 389,
+      "sha256": "ed030fdc52f1212d1ee61d82e8dd6952838093ea96f8fc4a13f105639ed62cf0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11758,
+      "sha256": "7fc3271af279ac192665c717d0024cd55a087fcc50c48b45f3a5eacbeb10b110"
+    },
+    {
+      "path": "data/WORDLIST_COPYING",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "data/best_fits.json",
+      "bytes": 1105192,
+      "sha256": "65264117859369e9ea197400394c0648bf888c14ae7dc1452afbb478f98db569"
+    },
+    {
+      "path": "data/completion_snapshot.json",
+      "bytes": 256234,
+      "sha256": "a4acbfc190a978dcfe90d7252de7aa1692edf587fc11b634814503177ed0d70a"
+    },
+    {
+      "path": "data/coordinate_geometry_recorded_result.json",
+      "bytes": 112584,
+      "sha256": "3ed60541f0c92049886b833ca95d7d5eaa157afd2d821b90ff22b879635ea91d"
+    },
+    {
+      "path": "data/dictionary_candidates.json",
+      "bytes": 695994,
+      "sha256": "a9ce44d840af14e8f012966b127df0db0c38b931e8b80c0177eb6a792d2d9dd6"
+    },
+    {
+      "path": "data/dictionary_profiles/p170_profile.json",
+      "bytes": 3360,
+      "sha256": "120d593881198d9cbe6473560402fc0681b194d5b4c39be3d6ece77960d41456"
+    },
+    {
+      "path": "data/dictionary_profiles/p170_profile.txt",
+      "bytes": 866,
+      "sha256": "06a84f9a63a3706433040e0bd9931fa6afa62c32e390e15377f8a4b15caf5ce5"
+    },
+    {
+      "path": "data/dictionary_profiles/p73_profile.json",
+      "bytes": 3504,
+      "sha256": "46791a8070674da1ecd624c71589976c29e8fc1384d66130d6705821d3eecb72"
+    },
+    {
+      "path": "data/dictionary_profiles/p73_profile.txt",
+      "bytes": 997,
+      "sha256": "fdfd40d9cfb1c36a0cd6daad32681c7fa4a4e8dbc65109e2f53535c513b3f726"
+    },
+    {
+      "path": "data/geometry_repository/data/keys.json",
+      "bytes": 53084,
+      "sha256": "ffae38f2bd2b1ebeb2f0c33336cb6aab40c7cd6df27f5b58e46bf7021b67e34d"
+    },
+    {
+      "path": "data/geometry_repository/data/messages.json",
+      "bytes": 1198,
+      "sha256": "179d9844662ee8246dcaac3645f28af3e3d838308865edfee41b4967632c05af"
+    },
+    {
+      "path": "data/input_layers.json",
+      "bytes": 65591,
+      "sha256": "7655ee7858e1829fd3fa28998ff78628bb643557d61594d727947880d41073e1"
+    },
+    {
+      "path": "data/model_provenance.json",
+      "bytes": 8931,
+      "sha256": "2428a00a7a4dc4e6cf9ba218af0ed1b1896e242d9e505acd90f02d4b21a971e0"
+    },
+    {
+      "path": "data/p198_warm_starts.json",
+      "bytes": 59340,
+      "sha256": "61bf93fa50b4fe816da187748aa2c70e9aebcbc444fdc4c90301ed473eca6002"
+    },
+    {
+      "path": "data/wordlist_provenance.json",
+      "bytes": 2111,
+      "sha256": "dfd59f3b254f7fb0eb08a80cf7da54ff6da04050a598005d3069ef2d1a4ef3b1"
+    },
+    {
+      "path": "repro/archived_build_military_models.py",
+      "bytes": 4177,
+      "sha256": "85e2503afa4cf54d011fe389e0ed4f64062ceee0d52c6dd863b70007af8573d4"
+    },
+    {
+      "path": "repro/archived_build_models.py",
+      "bytes": 4244,
+      "sha256": "8bbcc5344a4e6396ee502f88e5165c545988abc3f1cbf88962e19b48274eacf8"
+    },
+    {
+      "path": "repro/archived_cipher.py",
+      "bytes": 3641,
+      "sha256": "674fc8837d4d7c878ec63ea7a77736bb842e238d01941731ff755ff16878295c"
+    },
+    {
+      "path": "repro/archived_coordinate_geometry_screen.py",
+      "bytes": 4742,
+      "sha256": "c1c9623d9d60a11a9bb8c854732fd881f0ae246bd911022d51025079d7707a75"
+    },
+    {
+      "path": "repro/archived_run_dictionary_permutation_fits.py",
+      "bytes": 4933,
+      "sha256": "e537bd9dc4191881784d527cfd2eaae58f4bcb1ee39096dc2983b570b34aa013"
+    },
+    {
+      "path": "repro/archived_run_fixed_transposition.py",
+      "bytes": 3337,
+      "sha256": "5097a3d8c6011608cbe3ea49e69ccd669fcd21d9d719c88d7acf8f78796d6a9b"
+    },
+    {
+      "path": "repro/archived_run_gap_domain_refinement.py",
+      "bytes": 3263,
+      "sha256": "45afbe7805a54a7dce3d0da414f3f24a894cafd03e3d3b1ec44e809e9165f48e"
+    },
+    {
+      "path": "repro/binary_rebuild_check.json",
+      "bytes": 2353,
+      "sha256": "fb2d69276d82820c186240c026471962bce6cf1af34c2cdc97d496c672032d99"
+    },
+    {
+      "path": "repro/dictionary_rebuild_verification.json",
+      "bytes": 1182,
+      "sha256": "e1447b9b6fb8f7453c6082ce286b9c3424827c8237fca34fd67baabe5efd65c0"
+    },
+    {
+      "path": "repro/geometry_verification.json",
+      "bytes": 295,
+      "sha256": "4ac8d292fde924ee4f84da02c6e230bee4089476a302a7a1dcb0e7fa9fbb6846"
+    },
+    {
+      "path": "repro/input_verification.json",
+      "bytes": 2549,
+      "sha256": "e463eba8edbc9b9adb211797094218ae5411c1e6a6476319a24b3d3a9df082c8"
+    },
+    {
+      "path": "repro/model_rebuild_verification.json",
+      "bytes": 601,
+      "sha256": "687034caf7c79a960872888f7ca4e83cf571225757a901b2189494f97fb10b7d"
+    },
+    {
+      "path": "repro/portable_cli_smoke.json",
+      "bytes": 1123,
+      "sha256": "665ec9afc4c99ad7cafde70e836a4d986e966b802268d1d964762b4621ca0f45"
+    },
+    {
+      "path": "repro/source_manifest.json",
+      "bytes": 3959,
+      "sha256": "a9824b8510567bfb876df1482a21f98520de2f7a8638f053a80e86177e45a208"
+    },
+    {
+      "path": "repro/subsolve_archived_case_replay.json",
+      "bytes": 386,
+      "sha256": "aa1aeb59735d15b472b8b97ee62c3e27aa7046498da076099b4bcdbf71975931"
+    },
+    {
+      "path": "repro/subsolve_compiler_variants.json",
+      "bytes": 702,
+      "sha256": "74f6fda1f64d845b7360350376262e473f6931c643ff87af7cced232cf753c49"
+    },
+    {
+      "path": "repro/subsolve_small_fixture.json",
+      "bytes": 842,
+      "sha256": "3cb3f2098ac2e96f79887ecec6079e732ba060230391b0275e49923de71a0bde"
+    },
+    {
+      "path": "repro/toolchain.json",
+      "bytes": 161,
+      "sha256": "d7be795ea90dfaf6951657ed00a531e8afe811dc5161563959a3cb2f0c8136cc"
+    },
+    {
+      "path": "src/cipher.py",
+      "bytes": 2200,
+      "sha256": "84c289a63371eb964dc35de923aeff08e039ede781c6da6edb6dc341fedc201f"
+    },
+    {
+      "path": "src/coordinate_geometry_screen.py",
+      "bytes": 4743,
+      "sha256": "6366abe6423d9b256ff025ab3deb415aed9c70e7d46f0ecea9d36be48090a932"
+    },
+    {
+      "path": "src/dictionary_profile.c",
+      "bytes": 2809,
+      "sha256": "55c1dc92e1b55b3821e76bea6715cc3231b96f49181f87c983e348b3cc487c33"
+    },
+    {
+      "path": "src/marginal_subsolve.c",
+      "bytes": 6129,
+      "sha256": "c931c29edcd066d77dd6aa4fe5f513a95cb740efc74cff1666f068a515d44f36"
+    },
+    {
+      "path": "src/marginal_subsolve6.c",
+      "bytes": 7155,
+      "sha256": "ccbc34b2bcbb05217723a64b24d419f2c6fdfff81c81620c5fb2d573dad7663f"
+    },
+    {
+      "path": "src/run_dictionary_permutation_fits.py",
+      "bytes": 162,
+      "sha256": "c60b1b18a7bbca3e66073a58ed28f82ab24fcc8d0801f44334474015ed8d3926"
+    },
+    {
+      "path": "src/run_fixed_transposition.py",
+      "bytes": 147,
+      "sha256": "e998a54ad8f8e8a3a80d583b7dec6020111a434a08d7d899ac8cb7a2a33801de"
+    },
+    {
+      "path": "src/run_gap_domain_refinement.py",
+      "bytes": 152,
+      "sha256": "8abcaab839fe32023eb91ec9cf7195610a2d7e289838812ee6d719aa07511791"
+    },
+    {
+      "path": "src/search_common.py",
+      "bytes": 13752,
+      "sha256": "19e533dec2789465b1e6690bafcf14692bd6099d3f46504b7bfe4fab03e412b8"
+    },
+    {
+      "path": "src/sixgram_model.h",
+      "bytes": 1680,
+      "sha256": "2c2e95cfb6f8b4d96066ad8c600bf82ebbc349c6b1ffcab90b40d6dd5122daeb"
+    },
+    {
+      "path": "src/subsolve.c",
+      "bytes": 5011,
+      "sha256": "a2fac33ae2a03292c488db09d1b36f0968e88ab07616c050e5c4047816b45e95"
+    },
+    {
+      "path": "tools/build_models.py",
+      "bytes": 7010,
+      "sha256": "736f72a332ae3c5e05665df666de1cc693f29ae06367339c3ec334b003104d9a"
+    },
+    {
+      "path": "tools/dictionary_pipeline.py",
+      "bytes": 8285,
+      "sha256": "81828282caa9fc07474f2d353c938be2ac392815fcebb1497861edfeb9383056"
+    },
+    {
+      "path": "tools/refresh_results.py",
+      "bytes": 5750,
+      "sha256": "38471697aa5e17f6b3734d65498b3057482e10545edd3cbab2b0240354a3d8ae"
+    },
+    {
+      "path": "tools/verify_geometry.py",
+      "bytes": 3030,
+      "sha256": "6a2ac494028e1d541e91c329cdc597bc3703b383d1ca8751d77226d302be7732"
+    },
+    {
+      "path": "tools/verify_inputs.py",
+      "bytes": 2706,
+      "sha256": "7a79403f731551fab0f3bd9147e5d4b6336fe0a6912d34479e40368c0cbd41b0"
+    },
+    {
+      "path": "tools/write_manifest.py",
+      "bytes": 1207,
+      "sha256": "42aa3262179c6c6df96e58dc151a77e65c092f491699cfb16455d7cf2596bd37"
+    }
+  ]
+}

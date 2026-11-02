@@ -10,18 +10,30 @@
       "source_type": "Contemporary French military telegram reproduced in a documentary edition",
       "author": "General Franchet d\u2019Esperey",
       "date": "1918-11-19",
-      "locator": "Telegram 5956/3,document 39,printed pp 79\u201380; archive AG.4N58 c/63 d/10",
+      "locator": "Telegram 5956/3, document 39,printed pp 79\u201380; archive AG.4N58 c/63 d/10",
       "url": "https://real-eod.mtak.hu/19844/13/documents.pdf",
       "observation": "The original printed entry really says 6e D.I. r\u00e9serve under the reconstituted German 11th Army; 217th and 219th divisions are also named. The report describes the situation on November 11.",
       "verification": "Visually checked in source_audit/french_telegram_pdfp153.png; no digit or unit-type correction was made.",
-      "limitations": "This is an intelligence report, not necessarily an independent observation of every formation. The underlying November 1918 archival telegram itself was not retrieved."
+      "limitations": "This is an intelligence report, not necessarily an independent observation of every formation. The underlying November 1918 archival telegram itself was not retrieved.",
+      "documentary_edition": {
+        "title": "Documents diplomatiques fran\u00e7ais sur l\u2019histoire du bassin des Carpates, 1918\u20131932",
+        "volume": "I: October 1918\u2013August 1919",
+        "editors": [
+          "Magda \u00c1d\u00e1m",
+          "Gy\u00f6rgy Litv\u00e1n",
+          "M\u00e1ria Ormos"
+        ],
+        "publisher": "Akad\u00e9miai Kiad\u00f3, Budapest",
+        "year": 1993,
+        "isbn": "9630566591"
+      }
     },
     {
       "id": "us_1920_history",
       "source_type": "U.S. War Department intelligence history",
       "title": "Histories of Two Hundred and Fifty-One Divisions of the German Army Which Participated in the War (1914\u20131918)",
       "date": "1920",
-      "locator": "6th Reserve Division,printed pp 131\u2013133; composition footnote and 1918 narrative",
+      "locator": "6th Reserve Division, printed pp 131\u2013133; composition footnote and 1918 narrative",
       "url": "https://www.gutenberg.org/cache/epub/55620/pg55620-images.html",
       "observation": "The composition footnote dates the original division\u2019s dissolution to August 23, 1918. The narrative says its men were used as drafts for the 5th and 6th Divisions.",
       "limits": "The short entry ends with this dissolution and does not trace the subsequent employment of the headquarters staff."
@@ -40,7 +52,7 @@
       "publisher": "Verlag f\u00fcr Milit\u00e4rgeschichte und deutsches Schrifttum, Berlin/F\u00fcrstenwalde",
       "publication_year": null,
       "publication_year_note": "The retrieved title pages carry no date; this review does not force a year from inconsistent secondary catalogues.",
-      "locator": "Printed p385, PDF page 46 in the pp342\u2013497 excerpt",
+      "locator": "Printed p. 385, PDF page 46 in the pp. 342\u2013497 excerpt",
       "url": "https://denstorekrig1914-1918.dk/wp-content/uploads/2021/05/Ruhmeshalle_unsere_alten_Armee_5_Aufl_Bd-1_s_342-497s.pdf",
       "source_image": "sources/excerpts/ruhmeshalle_6rd_p385.png",
       "source_pdf_sha256": "5fe203b85865dc92d27385e921ae1efd02e6c1211df2222902d6875f925bb857",
@@ -67,8 +79,8 @@
           "event": "Return march from the Balkans through Hungary."
         }
       ],
-      "verification": "Title page and printed p385 inspected visually. The title page states that the compilation used official material with support from the Reichsarchiv in Potsdam and the Bavarian War Archive in Munich.",
-      "host_provenance": "Den Store Krig is a collaborative historical project whose editors include Museum S\u00f8nderjylland staff;see https://denstorekrig1914-1918.dk/om-krigen/.",
+      "verification": "Title page and printed p. 385 inspected visually. The title page states that the compilation used official material with support from the Reichsarchiv in Potsdam and the Bavarian War Archive in Munich.",
+      "host_provenance": "Den Store Krig is a collaborative historical project whose editors include Museum S\u00f8nderjylland staff; see https://denstorekrig1914-1918.dk/om-krigen/.",
       "limits": "The chronology does not itself explain the distinction between the disbanded infantry formation and the continuing headquarters, or identify the exact cryptogram."
     },
     {
@@ -77,15 +89,17 @@
       "author": "Hermann Cron",
       "title": "Imperial German Army 1914\u201318: Organisation, Structure, Orders of Battle",
       "translator": "C. F. Colton",
-      "locator": "Printed p104, paragraph after the 1918 divisional dissolution list",
+      "locator": "Printed p. 104, paragraph after the 1918 divisional dissolution list",
       "url": "https://studylib.net/doc/28482691/imperial-german-army--1914-18-organisation--structure--or...",
       "observation": "Cron explicitly says the staff of the dissolved 6th Reserve Division was to be used further in Macedonia.",
-      "verification": "The online transcription was read; the original German edition was not retrieved.",
-      "limits": "The immediately following dates in the online English text are internally problematic and are not used in this review."
+      "verification": "The typeset English page was inspected visually at PDF page 105, printed p. 104; the original German passage was not retrieved.",
+      "limits": "The problematic dates in the next sentences are present in the typeset English page, not merely an online OCR error. They are not used here. The directly stated staff reuse is independently consistent with the German chronology.",
+      "alternate_pdf_url": "https://prussia.online/Data/Book/im/imperial-german-army-1914-18/Cron%20H.%20Imperial%20German%20Army%2C%201914-18.%20Organisation%2C%20Structure%2C%20Orders%20of%20Battle%20%282006%29%2C%20OCR.pdf",
+      "edition_note": "The retrieved frontmatter says the English edition was published in 2001, gives copyright 2002, and identifies this copy as the 2006 paperback reprint. The original German book was published in 1937."
     },
     {
       "id": "laule_retrospective_lead",
-      "source_type": "Retrospective 1938 German newspaper career notice,search-index text only",
+      "source_type": "Retrospective 1938 German newspaper career notice, search-index text only",
       "title": "Oberst Laule notice",
       "url": "https://opendata2.uni-halle.de/retrieve/c1a93a04-df1e-4a54-a12d-a7adc4f64b50/16818797781938080501.pdf",
       "observation": "The indexed career notice says Laule became the division\u2019s second general-staff officer in autumn 1918, went to Macedonia, and retreated with the 11th Army under General von Steuben.",

@@ -1,0 +1,57 @@
+{
+  "objectives": [
+    {
+      "id": "general_quad",
+      "seconds": 0.00647217099685804,
+      "best": "ABSXMILI5XNA6MELDXXS4NXS4NXNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+      "score": -6.14077349503835,
+      "dp_counts": {
+        "maximum_retained_suffix_states": 36,
+        "transitions_considered": 9238,
+        "retained_prefixes_per_suffix": 10
+      }
+    },
+    {
+      "id": "military_quad",
+      "seconds": 0.006006239000271307,
+      "best": "ABSXMILI5XNA6MELDXXS4NXS42XNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+      "score": -6.037518308276222,
+      "dp_counts": {
+        "maximum_retained_suffix_states": 36,
+        "transitions_considered": 9238,
+        "retained_prefixes_per_suffix": 10
+      }
+    },
+    {
+      "id": "military_mixed_30_70",
+      "seconds": 0.015426497000589734,
+      "best": "ABSXMILI5XNA6MELDXXS4NXS42XNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWODIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+      "score": -7.570190093200511,
+      "dp_counts": {
+        "maximum_retained_suffix_states": 216,
+        "transitions_considered": 20450,
+        "retained_prefixes_per_suffix": 10
+      }
+    }
+  ],
+  "top_one_disagreements": [
+    {
+      "plaintext_index": 25,
+      "source_domain": "27NQXZ",
+      "model_top_one_letters": {
+        "general_quad": "N",
+        "military_quad": "2",
+        "military_mixed_30_70": "2"
+      }
+    },
+    {
+      "plaintext_index": 63,
+      "source_domain": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "model_top_one_letters": {
+        "general_quad": "L",
+        "military_quad": "L",
+        "military_mixed_30_70": "D"
+      }
+    }
+  ]
+}

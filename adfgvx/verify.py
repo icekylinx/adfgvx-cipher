@@ -227,6 +227,59 @@ def kress_companion():
     return result
 
 
+def p215_completions():
+    folder=ROOT/'experiments/p215_completion'
+    inputs=json.loads((folder/'input.json').read_text())
+    result=json.loads((folder/'conditional_completions.json').read_text())
+    assert hashlib.sha256((folder/'input.json').read_bytes()).hexdigest()==result['input_sha256']
+    assert hashlib.sha256((ROOT/inputs['source_certificate_reference']).read_bytes()).hexdigest()==inputs['source_certificate_sha256_at_capture']
+    catalog=json.loads((ROOT/'data/messages.json').read_text())['messages']
+    source=next(x for x in catalog if x['id']=='p215')['transcript']['analysis_ciphertext']
+    assert inputs['source_ciphertext']==source
+    ranks=inputs['key']['column_rank_order'];square=inputs['key']['square']
+    raw=inputs['augmented_ciphertext'];mapping=inputs['augmented_to_original_index']
+    domains=plaintext_domains(raw,ranks,square)
+    assert domains==[d['possible_characters'] for d in inputs['domains']]
+    count=0
+    for objective in result['objectives']:
+        for record in objective['completions']:
+            text=record['plaintext'];ct=encrypt(text,ranks,square)
+            assert ct==record['reencrypted_augmented_ciphertext']
+            assert all(c in d for c,d in zip(text,domains))
+            assert all(a=='?' or a==b for a,b in zip(raw,ct))
+            restored=''.join(c for c,i in zip(ct,mapping) if i is not None)
+            assert len(restored)==len(source) and all(a=='?' or a==b for a,b in zip(source,restored))
+            assert record['known_coordinate_changes']==0 and not record['accepted_as_historical_plaintext']
+            count+=1
+    assert count==30 and result['newly_accepted_plaintext_characters']==0
+    return {'status':'PASS','classification':'conditional_language_ranked_completions',
+            'completions_checked':count,'known_source_coordinates_preserved_per_completion':237,
+            'newly_accepted_historical_letters':0}
+
+
+def reviewed_parallels():
+    records=json.loads((ROOT/'data/reviews/p186_chi_parallel.json').read_text())
+    keys={k['id']:k for k in json.loads((ROOT/'data/keys.json').read_text())['keys']}
+    for row in records:
+        raw=row['ciphertext'];ct=''.join(c if c in SYMBOLS else '?' for c in raw)
+        assert ''.join(row['ciphertext_grouped'].split())==raw
+        key=keys[row['key_id']];ranks=key['column_rank_order'];square=key['square']
+        assert len(ct)==row['length']
+        assert decrypt(ct,ranks,square)==row['raw_partial_plaintext']
+        assert transpose(untranspose(ct,ranks),ranks)==ct
+    geography=json.loads((ROOT/'data/reviews/p164_geography.json').read_text())
+    editorial=certificate('p164_A4_editorial');key=editorial['key']
+    original=editorial['full_editorial_hypothesis']['analysis']['corrected_ciphertext']
+    trial=encrypt(geography['spelling_counterfactual']['plaintext'],key['column_rank_order'],key['square'])
+    diffs=[{'source_index':i,'raw_source':editorial['raw_source_ciphertext'][i],
+            'MIRCO_editorial_value':a,'MIROC_counterfactual_value':b,
+            'source_was_known':editorial['raw_source_ciphertext'][i]!='?'}
+           for i,(a,b) in enumerate(zip(original,trial)) if a!=b]
+    assert diffs==geography['spelling_counterfactual']['coordinate_changes_relative_to_MIRCO_editorial_model']
+    return {'status':'PASS','classification':'attributed_parallel_and_counterfactual_checks',
+            'p186_sources_checked':len(records),'MIRCO_to_MIROC_additional_known_changes':sum(d['source_was_known'] for d in diffs)}
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--json',action='store_true');args=parser.parse_args()
     assert self_check()
@@ -237,7 +290,8 @@ def main():
     results={'arithmetic':'PASS','cases':{'p152':p152(),'p158':p158(),'p189':p189(),
              'p164':constraints164.verify(certificate('p164')),
              'p215':constraints215.verify(certificate('p215')),'p164_A4_editorial':p164_editorial(),
-             'transport_context':transport_context(),'p155_context':kress_companion()},
+             'transport_context':transport_context(),'p155_context':kress_companion(),
+             'reviewed_parallels':reviewed_parallels(),'p215_completions':p215_completions()},
              'prior_readings':prior_readings(),'supplementary_readings':supplementary_readings()}
     if args.json:print(json.dumps(results,indent=2))
     else:

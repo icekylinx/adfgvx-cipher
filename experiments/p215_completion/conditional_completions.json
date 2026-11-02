@@ -1,0 +1,4251 @@
+{
+  "format_version": 1,
+  "input_sha256": "c17593c2f123bdda3b2f43c0a223402cd94f0ac779de55eae21b09a1f9214973",
+  "model_sha256": {
+    "general_quad": "cbc02525fbf50d231054dd6ab642882d385a0ab31f96dcd4139b85cceaeece59",
+    "military_quad": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+    "military_six": "79e1474e78afa0d208ffe4306b31ed3531786c2fc6a0c7efb4d2f3a7fd5e4b5a"
+  },
+  "top_k": 10,
+  "optimization_scope": "Exact top K in the recorded finite letter domains for each specified additive log-table objective, with lexical tie breaking. This is a model ranking, not a recovery claim or posterior probability.",
+  "geometry_status": "Conditional on Norbert's previously published two missing-group hypothesis; the primary header itself says 248 coordinates.",
+  "source_known_coordinates": 237,
+  "source_fixed_plaintext_characters": 109,
+  "model_selected_coordinates_per_completion": 21,
+  "newly_accepted_plaintext_characters": 0,
+  "compatible_plaintext_count": "21936950640377856",
+  "controls": {
+    "exhaustive_controls": [
+      {
+        "markov_order": 3,
+        "exhaustive_completions": 64,
+        "top_k": 12,
+        "exact_match": true
+      },
+      {
+        "markov_order": 5,
+        "exhaustive_completions": 64,
+        "top_k": 12,
+        "exact_match": true
+      }
+    ],
+    "lexical_tie_control_passed": true
+  },
+  "objectives": [
+    {
+      "id": "general_quad",
+      "order": 3,
+      "integer_denominator_for_display": 2113929216,
+      "coefficient4": 1,
+      "coefficient6": 0,
+      "integer_log_scale": 16777216,
+      "top_k": 10,
+      "dp_counts": {
+        "maximum_retained_suffix_states": 36,
+        "transitions_considered": 9238,
+        "retained_prefixes_per_suffix": 10
+      },
+      "seconds": 0.00647217099685804,
+      "completions": [
+        {
+          "rank": 1,
+          "integer_objective": -12981160500,
+          "display_score": -6.14077349503835,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS4NXNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVDDVDFAAAXXADGFFDFFXFGGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 2,
+          "integer_objective": -12982073108,
+          "display_score": -6.141205206749931,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS4NXNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVDDVDFAAAXXADGFFDFFXFGGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 3,
+          "integer_objective": -12988106332,
+          "display_score": -6.144059239871918,
+          "plaintext": "ABSXMILI5XNA6MELDGXS4NXS4NXNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVDDVDFAAAXXADGFFDFFXFGGGXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 4,
+          "integer_objective": -12989018940,
+          "display_score": -6.144490951583499,
+          "plaintext": "ABSXMILI5XNA6MELDGXS4NXS4NXNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVDDVDFAAAXXADGFFDFFXFGGGXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 5,
+          "integer_objective": -12992911820,
+          "display_score": -6.146332489119636,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS4NXNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOEIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGFAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGVDVFFDXVDDVDFAAAXXADGFFDFFXFGGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 6,
+          "integer_objective": -12993824428,
+          "display_score": -6.146764200831217,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS4NXNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWOEIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGFAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGVDVFFDXVDDVDFAAAXXADGFFDFFXFGGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 7,
+          "integer_objective": -12994677820,
+          "display_score": -6.147167900251964,
+          "plaintext": "ABSXMILI5XNA6MELDWXS4NXS4NXNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVDDVDFAAAXXADGFFDFFXFGGVXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 8,
+          "integer_objective": -12994778332,
+          "display_score": -6.147215447728596,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS4NXNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STWOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVDDVDFAAAXXADGFFDFFXFVGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 9,
+          "integer_objective": -12995590428,
+          "display_score": -6.147599611963544,
+          "plaintext": "ABSXMILI5XNA6MELDWXS4NXS4NXNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVDDVDFAAAXXADGFFDFFXFGGVXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 10,
+          "integer_objective": -12995690940,
+          "display_score": -6.147647159440177,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS4NXNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STWOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVDDVDFAAAXXADGFFDFFXFVGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        }
+      ]
+    },
+    {
+      "id": "military_quad",
+      "order": 3,
+      "integer_denominator_for_display": 2113929216,
+      "coefficient4": 1,
+      "coefficient6": 0,
+      "integer_log_scale": 16777216,
+      "top_k": 10,
+      "dp_counts": {
+        "maximum_retained_suffix_states": 36,
+        "transitions_considered": 9238,
+        "retained_prefixes_per_suffix": 10
+      },
+      "seconds": 0.006006239000271307,
+      "completions": [
+        {
+          "rank": 1,
+          "integer_objective": -12762886344,
+          "display_score": -6.037518308276222,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS42XNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVVDVDFAAAXXADGFFDFFXFGGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 2,
+          "integer_objective": -12763687264,
+          "display_score": -6.037897185673789,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS42XNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STWOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVVDVDFAAAXXADGFFDFFXFVGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 3,
+          "integer_objective": -12763821392,
+          "display_score": -6.037960635291205,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS42XNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVVDVDFAAAXXADGFFDFFXFGGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 4,
+          "integer_objective": -12764622312,
+          "display_score": -6.038339512688773,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS42XNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STWOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVVDVDFAAAXXADGFFDFFXFVGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 5,
+          "integer_objective": -12766795792,
+          "display_score": -6.039367683350094,
+          "plaintext": "ABSXMILI5XNA6MELDGXS4NXS42XNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVVDVDFAAAXXADGFFDFFXFGGGXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 6,
+          "integer_objective": -12767596712,
+          "display_score": -6.039746560747662,
+          "plaintext": "ABSXMILI5XNA6MELDGXS4NXS42XNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STWOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVVDVDFAAAXXADGFFDFFXFVGGXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 7,
+          "integer_objective": -12767730840,
+          "display_score": -6.039810010365078,
+          "plaintext": "ABSXMILI5XNA6MELDGXS4NXS42XNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVVDVDFAAAXXADGFFDFFXFGGGXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 8,
+          "integer_objective": -12768531760,
+          "display_score": -6.040188887762645,
+          "plaintext": "ABSXMILI5XNA6MELDGXS4NXS42XNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STWOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVVDVDFAAAXXADGFFDFFXFVGGXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 9,
+          "integer_objective": -12774274160,
+          "display_score": -6.0429053457956465,
+          "plaintext": "ABSXMILI5XNA6MELDWXS4NXS42XNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVVDVDFAAAXXADGFFDFFXFGGVXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 10,
+          "integer_objective": -12775075080,
+          "display_score": -6.043284223193214,
+          "plaintext": "ABSXMILI5XNA6MELDWXS4NXS42XNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWOLIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STWOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGADVFFDXVVDVDFAAAXXADGFFDFFXFVGVXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "A",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        }
+      ]
+    },
+    {
+      "id": "military_mixed_30_70",
+      "order": 5,
+      "integer_denominator_for_display": 2621272227840,
+      "coefficient4": 372,
+      "coefficient6": 882,
+      "integer_log_scale": 16777216,
+      "top_k": 10,
+      "dp_counts": {
+        "maximum_retained_suffix_states": 216,
+        "transitions_considered": 20450,
+        "retained_prefixes_per_suffix": 10
+      },
+      "seconds": 0.015426497000589734,
+      "completions": [
+        {
+          "rank": 1,
+          "integer_objective": -19843529050776,
+          "display_score": -7.570190093200511,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS42XNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWODIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGGDVFFDXVVDVDFAAAXXADGFFDFFXFGGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 2,
+          "integer_objective": -19843876888632,
+          "display_score": -7.5703227913050055,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS42XNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWODIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGGDVFFDXVVDVDFAAAXXADGFFDFFXFGGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 3,
+          "integer_objective": -19844983365432,
+          "display_score": -7.570744905722672,
+          "plaintext": "ABSXMILI5XNA6MELDGXS4NXS42XNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWODIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGGDVFFDXVVDVDFAAAXXADGFFDFFXFGGGXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 4,
+          "integer_objective": -19845331203288,
+          "display_score": -7.570877603827167,
+          "plaintext": "ABSXMILI5XNA6MELDGXS4NXS42XNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWODIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGGDVFFDXVVDVDFAAAXXADGFFDFFXFGGGXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 5,
+          "integer_objective": -19847765318328,
+          "display_score": -7.571806204456339,
+          "plaintext": "ABSXMILI5XNA6MELDWXS4NXS42XNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWODIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGGDVFFDXVVDVDFAAAXXADGFFDFFXFGGVXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 6,
+          "integer_objective": -19848113156184,
+          "display_score": -7.5719389025608335,
+          "plaintext": "ABSXMILI5XNA6MELDWXS4NXS42XNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWODIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGGDVFFDXVVDVDFAAAXXADGFFDFFXFGGVXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 7,
+          "integer_objective": -19849796113944,
+          "display_score": -7.572580941087822,
+          "plaintext": "ABSXMILI5XNA6MELDKXS4NXS42XNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWODIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGGDVFFDXVVDVDFAAAXXADGFFDFFXFGGFXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 8,
+          "integer_objective": -19850143951800,
+          "display_score": -7.572713639192317,
+          "plaintext": "ABSXMILI5XNA6MELDKXS4NXS42XNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWODIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGGDVFFDXVVDVDFAAAXXADGFFDFFXFGGFXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 9,
+          "integer_objective": -19850551702488,
+          "display_score": -7.572869193691263,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS4NXNORFDAKERTSCHXBRINGTENTENDEFLHTTEZWODIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDGFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGGDVFFDXVDDVDFAAAXXADGFFDFFXFGGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        },
+        {
+          "rank": 10,
+          "integer_objective": -19850899540344,
+          "display_score": -7.573001891795758,
+          "plaintext": "ABSXMILI5XNA6MELDXXS4NXS4NXNORRDAKERTSCHXBRINGTENTENDEFLHTTEZWODIVISIONENXNEUSRELAENDERXENGLXUXFRATZGXMITXNOBOHLXKOR1STGOSCHX3Y52",
+          "reencrypted_augmented_ciphertext": "VGADAFAXADXFAXFFVXDDXXXDXDFFGGAFFXVDDAVFVGXDFFXDGFVVVFAGXXXAFAGDDFAVDGVAVXFAFDXAFDGADVAFFVVFFAAXDGVVAVXXVGDFDFVVGDFAAFAVFVXGGVFAAAXXDAVAVFFADAFAAXAGGADADVDFVVDFGAAVAAXADVDAXVFDFGDFGVDFAGGDDAFGGGDVFFDXVDDVDFAAAXXADGFFDFFXFGGAXVFVAAAAXXVXFXDFXGFDAVAADFDDVVXXXF",
+          "known_coordinate_changes": 0,
+          "source_known_coordinates_preserved": 237,
+          "proposed_fills": [
+            {
+              "augmented_ciphertext_index": 26,
+              "original_ciphertext_index": 26,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 28,
+              "original_ciphertext_index": 28,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 29,
+              "original_ciphertext_index": 29,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 30,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 31,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 32,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 33,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 34,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "V",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 182,
+              "original_ciphertext_index": 177,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 185,
+              "original_ciphertext_index": 180,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 193,
+              "original_ciphertext_index": 188,
+              "proposed_coordinate": "G",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 200,
+              "original_ciphertext_index": 195,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 201,
+              "original_ciphertext_index": 196,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 202,
+              "original_ciphertext_index": 197,
+              "proposed_coordinate": "D",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 220,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "F",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 221,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 222,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "G",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 223,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "A",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 224,
+              "original_ciphertext_index": null,
+              "proposed_coordinate": "X",
+              "kind": "inserted-gap fill"
+            },
+            {
+              "augmented_ciphertext_index": 225,
+              "original_ciphertext_index": 215,
+              "proposed_coordinate": "V",
+              "kind": "source-erasure fill"
+            },
+            {
+              "augmented_ciphertext_index": 226,
+              "original_ciphertext_index": 216,
+              "proposed_coordinate": "F",
+              "kind": "source-erasure fill"
+            }
+          ],
+          "accepted_as_historical_plaintext": false
+        }
+      ]
+    }
+  ],
+  "top_one_model_disagreements": [
+    {
+      "plaintext_index": 25,
+      "source_domain": "27NQXZ",
+      "model_top_one_letters": {
+        "general_quad": "N",
+        "military_quad": "2",
+        "military_mixed_30_70": "2"
+      }
+    },
+    {
+      "plaintext_index": 63,
+      "source_domain": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "model_top_one_letters": {
+        "general_quad": "L",
+        "military_quad": "L",
+        "military_mixed_30_70": "D"
+      }
+    }
+  ],
+  "earlier_Baertl_completion": {
+    "plaintext_length": 130,
+    "review": "Outside these domains. Its best one-letter deletion still contradicts 27 received coordinates at 20 plaintext positions, as independently verified in the parent p215 certificate."
+  }
+}

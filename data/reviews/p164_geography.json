@@ -1,0 +1,157 @@
+{
+  "format_version": 1,
+  "authors": [
+    "IceKylin",
+    "GPT-6 Astra"
+  ],
+  "status": "Contextual research leads only; MIRCO is not identified and no ciphertext repair is justified by geography",
+  "observed_cipher_constraint": "The A4 conditional editorial reading retains MIRCO. Its full version already requires nine known-coordinate substitutions and thirteen erasure fillings; those edits are independently itemized in data/certificates/p164_A4_editorial.json.",
+  "primary_sources": [
+    {
+      "id": "martin1920",
+      "author": "L\u00e9once Martin",
+      "title": "En campagne europ\u00e9enne 1914-1919: 1er r\u00e9giment de chasseurs d\u2019Afrique",
+      "year": 1920,
+      "publisher": "Imprimerie militaire Charles-Lavauzelle, Paris and Limoges",
+      "scan_provenance": "The PDF identifies Biblioth\u00e8que nationale de France / Gallica and Service historique de la D\u00e9fense on its cover. Retrieved from a public mirror.",
+      "url": "https://bn-afn.fr/Sites/SITE%20ALGER%20BLIDA%20NOSTALGIE%20J.Salvano/www/armee/RCA/En_campagne_europ%C3%A9enne_1914-1919.pdf",
+      "pdf_sha256": "8e39ad6d18a4aa5ba042527c715e37eec2fed92264f5e029fc981b8820027617",
+      "findings": [
+        {
+          "printed_page": 44,
+          "pdf_page_1based": 57,
+          "date_in_narrative": "24 October 1918",
+          "statement": "The author identifies a German post at Mosnac as twenty men of the 4th Squadron, 1st Prussian Dragoons, with the parenthetical name Kaiserin-Victoria.",
+          "visual_check": true,
+          "implication": "This independently associates a closely matching cavalry unit designation with the Danube sector immediately before the Miroc episode. It does not locate the unit on 9 November or prove the German message expansion.",
+          "research_image_not_distributed": "martin_dragoon_pdfp57.jpg"
+        },
+        {
+          "printed_pages": [
+            45,
+            46
+          ],
+          "pdf_pages_1based": [
+            58,
+            59
+          ],
+          "statement": "The account describes French movements between Mosnac, Mianovac and Miroc, a failed German counterattack in wooded ground southwest of Miroc, and a French withdrawal to Jabukovac.",
+          "visual_check": true,
+          "implication": "A near-contemporary regimental narrative places fighting around the similarly named Miroc; no exact match to the A4 report is established.",
+          "research_images_not_distributed": [
+            "martin_pdfp58.jpg",
+            "martin_pdfp59.jpg"
+          ]
+        },
+        {
+          "printed_page": 47,
+          "pdf_page_1based": 60,
+          "statement": "The narrative says a German brigade with two squadrons of the 11th Hussars held the Miroc-Milainovac line and patrolled against the French until 11 November, when it crossed the Danube.",
+          "visual_check": true,
+          "implication": "This creates chronological tension with identifying the 9 November A4 occupation report as this specific locality. A line of positions, a village, and a transient report need not describe identical control, so it is a counterpoint rather than a formal contradiction.",
+          "research_image_not_distributed": "martin_pdfp60.jpg"
+        }
+      ]
+    },
+    {
+      "id": "us_war_department1920",
+      "author": "United States War Department",
+      "title": "Histories of Two Hundred and Fifty-One Divisions of the German Army Which Participated in the War (1914-1918)",
+      "year": 1920,
+      "printed_page": 689,
+      "url": "https://www.gutenberg.org/files/55620/55620-h/55620-h.htm#Page_689",
+      "statement": "The 218th Division order-of-battle table lists the 4th Squadron of the 1st Guard Dragoon Regiment in its 1917 column; the 1918 column lists the 4th Squadron of the 1st Dragoon Regiment, omitting Guard.",
+      "limit": "An order of battle is not a direct record of the squadron location or report on 9 November."
+    },
+    {
+      "id": "hda_nov7",
+      "archive": "Croatian State Archives",
+      "reference": "HR-HDA-124-4-2-9",
+      "date": "7 November 1918",
+      "url": "https://prvisvjetskirat.arhiv.hr/ZbirkaDetalji?ZbirkaId=11814"
+    },
+    {
+      "id": "hda_nov8",
+      "archive": "Croatian State Archives",
+      "reference": "HR-HDA-124-4-2-10",
+      "date": "8 November 1918",
+      "url": "https://prvisvjetskirat.arhiv.hr/ZbirkaDetalji?ZbirkaId=11754"
+    }
+  ],
+  "bounded_archive_search": {
+    "images_downloaded_and_ocr_processed": 121,
+    "images_by_date": {
+      "1918-11-07": 53,
+      "1918-11-08": 68
+    },
+    "ocr_pages_with_retrieval_hits": 26,
+    "specific_images_visually_reviewed": [
+      "0124_03540.jpg",
+      "0124_03550.jpg",
+      "0124_03570.jpg",
+      "0124_03585.jpg"
+    ],
+    "result": "No persuasive parallel to the p164 message was identified in the retrieved hits. General reports concern troops and transport around Osijek and Vinkovci.",
+    "limit": "This is an OCR-assisted and selectively visually checked search. It does not claim exhaustive visual review or prove absence of a parallel."
+  },
+  "spelling_counterfactual": {
+    "status": "Diagnostic only; not an adopted repair",
+    "change": "Replace both editorial MIRCO occurrences in A4 by MIROC",
+    "plaintext": "VORSTOSSDERABGESESSENENX4X1XGXDRAGXSTIESSWESTLXMIROCAUFSTAERKERENGEGNERXMIROCWURDEVOMGEGNERBESETZTX",
+    "coordinate_changes_relative_to_MIRCO_editorial_model": [
+      {
+        "source_index": 114,
+        "raw_source": "D",
+        "MIRCO_editorial_value": "D",
+        "MIROC_counterfactual_value": "X",
+        "source_was_known": true
+      },
+      {
+        "source_index": 126,
+        "raw_source": "X",
+        "MIRCO_editorial_value": "X",
+        "MIROC_counterfactual_value": "D",
+        "source_was_known": true
+      },
+      {
+        "source_index": 144,
+        "raw_source": "X",
+        "MIRCO_editorial_value": "X",
+        "MIROC_counterfactual_value": "D",
+        "source_was_known": true
+      },
+      {
+        "source_index": 176,
+        "raw_source": "?",
+        "MIRCO_editorial_value": "D",
+        "MIROC_counterfactual_value": "X",
+        "source_was_known": false
+      }
+    ],
+    "additional_changes_to_known_source_coordinates": 3,
+    "different_guessed_erasure_fills": 1,
+    "meaning": "A geographical identification cannot be implemented as a source-preserving spelling normalization. Keeping the source reading MIRCO while discussing Miroc as a possibility avoids silently changing cipher evidence."
+  },
+  "unresolved": [
+    "Whether MIRCO names a geographic locality, a station, an operational name, or a malformed spelling.",
+    "Whether Martin\u2019s 1st Prussian Dragoons label denotes exactly the same formation as the editorial expansion of 4./1. G. DRAG.",
+    "Whether any surviving German or French daily record repeats the actual 9 November message."
+  ],
+  "not_adopted": [
+    "ESSEK as proof of Osijek: the letter sequence can be internal to ABGESESSENEN.",
+    "A literal Prince Mirko interpretation of MIRCO.",
+    "Height 828 as an anchor for selecting a locality.",
+    "Any claim that the Martin narrative cryptographically proves the A4 repairs."
+  ],
+  "uninspected_primary_lead": {
+    "archive": "Service historique de la D\u00e9fense",
+    "record": "GR 26 N 899/5",
+    "unit": "1er r\u00e9giment de chasseurs d\u2019Afrique",
+    "document": "Journal des marches et op\u00e9rations",
+    "date_range": "11 March 1918 through 15 April 1919",
+    "inventory_url": "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/notices_files/SHDGR_REP_26N_1872_1919_2.pdf",
+    "status": "The date range and reference are attested in the official inventory; the daily manuscript entries were not inspected.",
+    "access_attempt": "The public M\u00e9moire des hommes catalogue timed out in web retrieval and a separate ordinary HTTP request. No daily-entry conclusion is drawn.",
+    "reference_correction": "GR 26 N 899/4 ends 10 March 1918 and is not the relevant November volume."
+  }
+}

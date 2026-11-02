@@ -1,0 +1,36 @@
+{
+  "checks_passed": true,
+  "objectives": [
+    {
+      "objective": "general_quad",
+      "completions_checked": 10,
+      "known_source_coordinates_preserved_per_completion": 237,
+      "fills_per_completion": {
+        "source_erasures": 11,
+        "inserted_gaps": 10
+      }
+    },
+    {
+      "objective": "military_quad",
+      "completions_checked": 10,
+      "known_source_coordinates_preserved_per_completion": 237,
+      "fills_per_completion": {
+        "source_erasures": 11,
+        "inserted_gaps": 10
+      }
+    },
+    {
+      "objective": "military_mixed_30_70",
+      "completions_checked": 10,
+      "known_source_coordinates_preserved_per_completion": 237,
+      "fills_per_completion": {
+        "source_erasures": 11,
+        "inserted_gaps": 10
+      }
+    }
+  ],
+  "source_fixed_plaintext_characters": 109,
+  "source_compatible_completions": "21936950640377856",
+  "model_ranking_checked": false,
+  "ranking_reproduction": "Run compute_completions.py with the hash-pinned models. This verifier checks arithmetic independently, without invoking the dynamic program."
+}

@@ -1498,6 +1498,48 @@
           "Historical contextual support remains distinct from recovery of the three unknown substitution cells."
         ]
       }
+    },
+    {
+      "id": "p164_MIRCO_geographic_lead",
+      "scope": [
+        "p164_A4"
+      ],
+      "claim_reviewed": "A contemporary unit narrative makes Miroc a research lead, but does not identify the message's MIRCO.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "qualified_context_and_exact_spelling_cost",
+      "result": "Martin's 1920 history places a closely matching cavalry unit near Mosnac on October 24. Different dates and the later Miroc-line chronology remain unresolved. Replacing both editorial MIRCO tokens by MIROC would require three additional substitutions of known coordinates and a different fill for one erased coordinate. The alteration is not adopted.",
+      "verification_evidence": {
+        "artifact": "reviews/p164_geography.json",
+        "case": "../cases/context/p164_A4.md"
+      }
+    },
+    {
+      "id": "p215_exact_model_completions",
+      "scope": [
+        "p215"
+      ],
+      "claim_reviewed": "Language-ranked completions can be constrained to preserve every known source coordinate under Norbert's earlier two-gap geometry.",
+      "attribution": {
+        "prior_geometry": "Norbert, 2017 comment 32",
+        "exact_completion_experiment": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02"
+      },
+      "finding": "Exact top-ten dynamic programming under three additive objectives yields thirty source-compatible completions, each with 237 known coordinates unchanged and 21 explicit fills. No new historical letter is accepted; the 6^21 ambiguity count is unchanged.",
+      "evidence": [
+        "experiments/p215_completion/README.md",
+        "experiments/p215_completion/conditional_completions.json",
+        "experiments/p215_completion/verification.json"
+      ],
+      "status": "verified conditional computation"
     }
   ]
 }

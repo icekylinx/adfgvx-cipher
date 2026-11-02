@@ -27,3 +27,6 @@ jobs:
       - name: Build search engines and check controls
         if: matrix.python == '3.13'
         run: make -C experiments/joint_search check
+      - name: Build fixed-search engines and verify their input layers
+        if: matrix.python == '3.13'
+        run: make -C experiments/fixed_search check

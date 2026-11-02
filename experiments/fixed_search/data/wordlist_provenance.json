@@ -1,0 +1,56 @@
+{
+  "upstream_files": [
+    {
+      "url": "https://raw.githubusercontent.com/enz/german-wordlist/main/words",
+      "local_name": "words",
+      "bytes": 8644058,
+      "sha256": "20095928ca70974fb5d86e44f10181cee16e2831b0d4b1a4ddd12c261aebc5e9",
+      "retrieved_utc": "2026-11-02T08:22:19.882231+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/enz/german-wordlist/main/COPYING",
+      "local_name": "COPYING",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "retrieved_utc": "2026-11-02T08:22:20.028133+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/enz/german-wordlist/main/README.md",
+      "local_name": "README.md",
+      "bytes": 1727,
+      "sha256": "cf46e6b33cd6ba84df78733f3cfe193a7cf3217f3e3837301f0553b3091983a5",
+      "retrieved_utc": "2026-11-02T08:22:20.208753+00:00"
+    }
+  ],
+  "normalization": {
+    "word_count_raw": 685829,
+    "unique_candidates": 724720,
+    "normalization": "Uppercase; sharp-s to SS by Python upper; both AE/OE/UE and A/O/U umlaut forms; retain A-Z; length 8..40.",
+    "injected_positive_controls": [
+      "TRUPPENVERSCHIEBUNG"
+    ],
+    "manual_context_words": [
+      "GENERALSTAB",
+      "GENERALSTABSCHEF",
+      "OBERSTEHEERESLEITUNG",
+      "GEHEIMEKOMMANDOSACHE",
+      "WELTKRIEG",
+      "WAFFENSTILLSTAND",
+      "DEUTSCHESREICH",
+      "KAISERLICHEMARINE",
+      "ARMEEOBERKOMMANDO",
+      "KAUKASUS",
+      "DEUTSCHEDELEGATION",
+      "MILITAERKOMMISSION",
+      "EISENBAHNVERKEHR",
+      "NACHRICHTENVERKEHR",
+      "KRIEGSROHSTOFFABTEILUNG",
+      "SEIDENGARNE",
+      "AUTOGESTELLUNG"
+    ],
+    "wordlist_source": "https://github.com/enz/german-wordlist",
+    "control_policy": "The true p217 word was manually injected; its recovery is an implementation control, not a dictionary coverage claim.",
+    "sha256": "3573b3957d004f1b3dc8b84f24bd944234e52c75fe596a8381e1dcf9de0a0495"
+  },
+  "scope": "These are candidate-key words, not language-model training data. The true p217 word is deliberately injected only as an implementation control."
+}
