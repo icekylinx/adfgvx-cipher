@@ -209,7 +209,17 @@ delivery. Local results are distinguished from a remote GitHub Actions run.
 The source-extension inventory prevents additions, prior readings and old
 p153 progress from being counted as new independent solutions.
 
-The strongest next evidence would be an independent same-key long message,
-a repeated or re-encrypted passage, an original source fixing damage geometry,
-or a separately authenticated reference value. The current controls show
-why a larger language-search budget alone cannot supply those constraints.
+## Next experiments selected by the observed limitations
+
+These are proposed next experiments, not additional completed searches.
+
+| Priority | Concrete experiment | Evidence and calibration needed before a historical claim |
+|---|---|---|
+| 1 · p73 | Inspect the existing `RZ*11061` and `RZ*11064` [archival leads](../experiments/p73_primary_followup/ARCHIVE_ACCESS.md) for an independently sourced Kress-message body, retaining both date hypotheses. Fit any supported parallel jointly for column order and an injective substitution square, preserving all 176 received coordinates and both erasures. | Require identifying time, route, reference or reply evidence beyond the recipient alone. Fix normalization rules before testing, then validate on a fresh attested parallel and matched nonmatching messages. Preserve every compatible layout/key witness; reception proximity to p155 does not identify the key. |
+| 2 · p198 | Fit a newly identified partial retransmission or reference-bearing parallel jointly with the target. Use observed overlap to constrain losses and independently read numerical fields to constrain digit labels. Retain Nov13b/five-loss as one conditional branch. | Establish message association independently of its language score. Test fresh numerical controls with hidden geometry and partial squares, including wrong repeated-digit patterns. Require correct literal truth membership and equality structure, and report all remaining digit-permutation families. Perfect digit-class agreement alone is insufficient. |
+| 3 · p170 | Calibrate the currently uncovered combination of a 106-coordinate contiguous fragment and unknown column order. Earlier truncation trials fixed ranks; the newer rank trials assumed a complete 106-coordinate frame. | An original length indicator, continuation or identified parallel must justify historical full-length/window bounds. Use fresh prefix, middle and suffix controls, including width 22 and low-information cases. Require recovery where identifiable and explicit ambiguity otherwise; increased wildcard uncertainty must not itself improve a frame's ranking. |
+
+An independent same-key long message, a repeated or re-encrypted passage,
+an original source fixing damage geometry, or an authenticated reference
+value can reduce these specific ambiguities. The controls show why a larger
+language-search budget alone cannot supply those constraints.
