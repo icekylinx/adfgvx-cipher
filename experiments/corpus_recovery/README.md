@@ -1,10 +1,10 @@
-# Additional corpus readings: Dutch courier, Helsinki, Tiflis and Reval
+# Additional corpus readings: shipping, couriers and military administration
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-Seven source-checked parts preserve **1,876 coordinate slots** and produce
-**938 plaintext positions** under the existing published keys. Of these,
-**932 positions are fixed in the unchanged-source layer**. Six positions
+Nine source-checked parts preserve **2,322 coordinate slots** and produce
+**1,161 plaintext positions** under the existing published keys. Of these,
+**1,155 positions are fixed in the unchanged-source layer**. Six positions
 remain unresolved: three source erasures in p210 C and three numeral
 occurrences, using two unknown cells, in p203 C. Fixed source garbles remain
 visible and are not silently treated as corrected historical text.
@@ -13,6 +13,7 @@ visible and are not silently treated as corrected historical text.
 
 | Message | Source result | Readable edition |
 |---|---|---|
+| p84 A/B | 223/223 fixed; no coordinate edits or fills | [Oil release and Black Sea shipping safety](../../cases/other/p84_AB.md) |
 | p92 A | 214/214 fixed; one explicit substitution gives a clean body | [Dutch courier Vreede: onward passage to Constantinople](../../cases/other/p92_A.md) |
 | p210 A1–A2 | 208/208 fixed; four substitutions for body words and sender | [Helsinki and return transport for the Ostsee Division](../../cases/other/p210_A.md) |
 | p210 B | 158/158 fixed; five body-word substitutions; date/reference strings remain literal | [Consul Burkhardt's oil-company assignment](../../cases/other/p210_B.md) |
@@ -27,10 +28,12 @@ and no first-decipherment priority is claimed for these supplementary messages.
 
 ## Source and transcription
 
+The two p84 messages need no coordinate repair. Their page heading is 30 October, while their reception headers say 1 November. The repeated IZZETPASCHA and the unexplained 0ROEM1 footer are retained exactly.
+
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 in the [public scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
 The [inputs](inputs.json) record literal rows, full headers, PDF page/crop
-coordinates and hashes. The six [source images](sources/) are direct crops
+coordinates and hashes. The eight [source images](sources/) are direct crops
 of that hash-pinned scan.
 
 Three OCR corrections restore what the source visibly prints, without
@@ -84,7 +87,7 @@ length, and re-encrypts each complete editorial candidate after applying
 exactly its listed edits. It also checks the cross-key postal-number
 conflict explicitly.
 
-The [certificate](certificates.json) lists all **938** plaintext positions
+The [certificate](certificates.json) lists all **1,161** plaintext positions
 and their precise source-coordinate pairs. The original period keys retain
 the historical and George Lasry / coauthor attribution recorded in
 [data/keys.json](../../data/keys.json). Source inspection, related-message

@@ -10,7 +10,7 @@ A research edition of the **German radio cryptograms in Childs's 1918 collection
 
 ## Selected results
 
-- **[Additional source readings](experiments/corpus_recovery/README.md):** the Dutch courier Vreede, Helsinki return transport for the Ostsee Division, Burkhardt's oil-company assignment, two Richter inquiries and the situation in Reval. Seven records fix 932/938 raw positions; all editorial repairs and unresolved numeral labels remain visible.
+- **[Additional source readings](experiments/corpus_recovery/README.md):** oil release and Black Sea shipping safety, the Dutch courier Vreede, Helsinki return transport for the Ostsee Division, Burkhardt's oil-company assignment, two Richter inquiries and the situation in Reval. Nine records fix 1,155/1,161 raw positions; all editorial repairs and unresolved numeral labels remain visible.
 - **[p153a](cases/p153a.md) / [p153b](cases/p153b.md): new substantial partial decipherment.** A shared 18-column key recovers 60/66 first-part positions and 33/54 raw second-part positions. The ammunition-report reconstruction gives a 50/54-position conditional template, with every fill and emendation recorded.
 - **Repeated and re-encrypted messages recover missing text.** The [Munich courier notice](cases/other/courier_munich.md) has a direct continuation and an explicitly qualified first part. A later key supplies [Kremp's departure request](cases/other/kremp.md) unchanged and independently quotes [the previously published Warsaw query](cases/other/mackensen_warsaw.md). [Osthoff](cases/other/osthoff.md), [Glatz](cases/other/glatz.md), [p152](cases/p152.md) and [p158](cases/p158.md) retain their complete source evidence.
 - **Finance and naval administration:** [p205 A](cases/other/p205_A.md) requests thirty million kroner, initially five million; [p205 B](cases/other/p205_B.md) ends report submissions while requiring war diaries to continue. The six source parts fix 750/757 raw positions; four editorial substitutions and the remaining reference digits are explicit.
@@ -53,13 +53,15 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](cases/p215.md) | Apparent Entente troop-transport report | Prior partial; conditional Kosch interpretation | Norbert (2017) |
 | [p217](cases/p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 94 reviewed records
+## Other ciphertexts — 96 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p77 B](cases/context/radio_instructions.md#p77-b--call-sign-instruction-for-konia) | Konia radio call sign and wavelengths | Direct reading; one word normalized | icekylinx and GPT-6 Astra Pro (2026) |
+| [p84 A](cases/other/p84_AB.md) | Ask whether Izzet Pasha's order to release oil succeeded | 122/122 raw positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
+| [p84 B](cases/other/p84_AB.md) | Request daily Black Sea shipping-safety reports for the Caucasus command | 101/101 raw positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
 | [p85 B](cases/other/p85_B.md) | Telephone censorship through Budapest | 99/99 raw positions; two word repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p89 A2](cases/supplementary/p89_A2.md) | Shipping and railway routing to Nikolayev | Earlier reading; one source glyph uncertain | Ayush Agarwal; review by D. Bourdeau (2026) |
 | [p92 A](cases/other/p92_A.md) | Dutch courier Vreede to travel via Braila to Constantinople | 214/214 raw positions; one explicit word repair | icekylinx and GPT-6 Astra Pro (2026) |

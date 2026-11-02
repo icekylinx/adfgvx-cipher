@@ -86,6 +86,32 @@
       ],
       "render_scale": 3,
       "sha256": "e554181cbdadef33559fd2596139dde724157e91a6a824196c7cb00d8cebf46f"
+    },
+    {
+      "path": "sources/p84_A.png",
+      "printed_page": 84,
+      "pdf_page_1based": 87,
+      "crop_pdf_points": [
+        50,
+        155,
+        545,
+        380
+      ],
+      "render_scale": 3,
+      "sha256": "a63bd059d89665c96cf1623b772043c3cd59a866479415eebbddc03ade74e1b2"
+    },
+    {
+      "path": "sources/p84_B.png",
+      "printed_page": 84,
+      "pdf_page_1based": 87,
+      "crop_pdf_points": [
+        50,
+        385,
+        545,
+        570
+      ],
+      "render_scale": 3,
+      "sha256": "570f044aeccb46b79292448b922750bfdcaa241352d271848cb4dec0ef62fc6a"
     }
   ],
   "keys": [
@@ -312,6 +338,77 @@
       "baseline_square": "LC58QH7VI2YB9EURO60GX3MTFAKP1D4NJZSW",
       "baseline_differences": [],
       "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Oct28-31",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        15,
+        12,
+        16,
+        5,
+        7,
+        14,
+        4,
+        13,
+        8,
+        11,
+        1,
+        17,
+        2,
+        10,
+        3,
+        18,
+        9
+      ],
+      "column_count": 18,
+      "square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+      "square_rows": [
+        "HI20SX",
+        "RUWQY8",
+        "EK7O61",
+        "9CBJAP",
+        "453FDZ",
+        "TGLMVN"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 238,
+          "pdf_page_1based": 241,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
     }
   ],
   "records": [
@@ -488,6 +585,58 @@
       "expected_raw": "KMXABTXNACHRICHTENMITTELXERBITTETNACHRICHTVERBLEIBUNTFFZXRICHTERXFUNKERPARKXALEPPOXFELDPOSTX???X",
       "candidate_plaintext": null,
       "editorial_reason": "No editorial coordinate repair is proposed. Keep UNTFFZ and the three unresolved digits literal."
+    },
+    {
+      "id": "p84_A",
+      "printed_page": 84,
+      "pdf_page_1based": 87,
+      "key_id": "Oct28-31",
+      "header": "FUER POT v NKJ (4.17 a.m., November 1st); FUER BEAUFTRAGT PREUSS K M HAUPTM GERLACH BATUM; partly illegible time ending 30 (30); RICHI-244",
+      "advertised_length": 244,
+      "source_rows": [
+        "AADAV AAFVV VVGAA XVVAG DAVAF AGAXX DDADX GGAGA",
+        "AAVAA VGAAA GAXGX FGFDF DGAAF XFVFF XVGGF AFFAX",
+        "XVXAV ADAAF DDGXX ADFDX GAGAD DGXXF FADAD FAXAA",
+        "FAFDV AGAFX AXFXF FXAAG DDXGA AGADD VGVVG FGDDX",
+        "AAXDX GGVFF AXXVA AAFAA XDVVX FFVDA VAAAX VVAAD",
+        "DVDGA AGXXX FAVAA AXXXF VGAFF XXGDG DGGFA AXXFA",
+        "XAXF"
+      ],
+      "source_image": "sources/p84_A.png",
+      "ocr_block_id": null,
+      "notes": [
+        "The page heading is 30 October 1918; the reception header explicitly says November 1. Both date layers are preserved.",
+        "All source coordinates were visually checked against the full page. No insertion, deletion, substitution or square change.",
+        "The repeated IZZETPASCHA and the footer0ROEM1 remain literal."
+      ],
+      "expected_raw": "DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREIGABEDEROELEERFOLGGEHABTHATXXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRX0ROEMX1XX",
+      "candidate_plaintext": "DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREIGABEDEROELEERFOLGGEHABTHATXXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRX0ROEMX1XX",
+      "editorial_reason": "Word spacing and punctuation only; the exact plaintext and all coordinates are unchanged."
+    },
+    {
+      "id": "p84_B",
+      "printed_page": 84,
+      "pdf_page_1based": 87,
+      "key_id": "Oct28-31",
+      "header": "OSM v NKJ (3.30 a.m., November 1st);316  15/10 V POT 1021 FUER OSM UND COS (30) VON POT; RICHI-202",
+      "advertised_length": 202,
+      "source_rows": [
+        "ADDAD AAVAV AAXVX ADADA AAXXD XADDA AAVDA GVFDD",
+        "GAGVG DVDXX XXVAV FDXGF FVDGG XXFAV DDFGD XDGAA",
+        "XFDDA FGGAG ADGVA FFVAA XGDXX DAADD VXDFF GAXAF",
+        "GADFF AFXFX DAFAX DADAG XGXVF AXFAX AAFFV GADXV",
+        "GAXDV DDAAA DVADA XAAAX FGGXA FFGFA DVFFX GDXDA",
+        "XF"
+      ],
+      "source_image": "sources/p84_B.png",
+      "ocr_block_id": null,
+      "notes": [
+        "The page heading is 30 October 1918; the reception header explicitly says November 1. Both date layers are preserved.",
+        "All source coordinates were visually checked against the full page. No insertion, deletion, substitution or square change."
+      ],
+      "expected_raw": "ERBITTENFUERTRUPPENKDOXKAUKASUSWENNMOEGLICHTAEGLICHKURZEMITTEILUNGOBSCHWARZEMEERSCHIFFAHRTGEFAEHRDETX",
+      "candidate_plaintext": "ERBITTENFUERTRUPPENKDOXKAUKASUSWENNMOEGLICHTAEGLICHKURZEMITTEILUNGOBSCHWARZEMEERSCHIFFAHRTGEFAEHRDETX",
+      "editorial_reason": "Word spacing and punctuation only; the exact plaintext and all coordinates are unchanged."
     }
   ],
   "cross_record_note": {

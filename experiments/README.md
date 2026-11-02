@@ -78,4 +78,4 @@ The [methods guide](../docs/methods.md) explains the evidence layers and why an 
 
 ## Further source-reviewed messages
 
-[Additional corpus recovery](corpus_recovery/README.md) preserves seven source records and five readable editions, with independent coordinate arithmetic and exact editorial repair costs.
+[Additional corpus recovery](corpus_recovery/README.md) preserves nine source records and six readable editions, with independent coordinate arithmetic and exact editorial repair costs.
