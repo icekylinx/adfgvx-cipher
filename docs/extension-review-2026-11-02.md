@@ -132,9 +132,10 @@ with every later key-reuse instruction.
 The [word/loss campaign](../experiments/p198_word_search/README.md) adds a
 trie-based word-segmentation objective, capped word-pair association bonuses,
 and a joint source-preserving search over missing positions, fills and free
-square cells. Its 49 declared jobs comprise 18 control runs and 31 historical
-settings. The authoritative ledger separates completed and pending cases;
-the final archive is collected only after every declared run exits cleanly.
+square cells. All **49 declared jobs completed**: 18 control runs and 31
+historical settings, with **2,055,765,000 completed mutation proposals** and
+zero pending cases. Every result was collected after its process exited
+cleanly; final counters remain separate from best-candidate discovery counters.
 
 The 18 controls use nine distinct bodies, with adaptive reuse stated. Twelve
 runs recover the exact text; five wrong incumbents score above truth, while

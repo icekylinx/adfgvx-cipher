@@ -85,8 +85,9 @@ currently unconstrained truncation geometry.
 ### 2. Use the new calibration results to choose the next method
 
 Word segmentation and radio-domain scoring are now implemented and tested.
-The [word/loss package](../experiments/p198_word_search/README.md) preserves
-18 control runs on nine distinct plaintext bodies: 12 exact recoveries,
+The [word/loss package](../experiments/p198_word_search/README.md) completes
+all 49 declared jobs: 31 historical settings and 18 control runs, with no
+pending cases. Its controls use nine distinct plaintext bodies: 12 exact recoveries,
 five wrong incumbents that outrank truth, and one search failure despite a
 better true score. The old diagnostic and four initial bodies were reused
 when weight 2 was selected adaptively. The later published-anchor controls

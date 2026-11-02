@@ -85,7 +85,7 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
-| [Word segmentation and five-loss search](p198_word_search/README.md) | 49 declared cases: 18 control runs and 31 historical searches, with completed/pending records separated | Nine distinct control bodies; 12 exact runs, five wrong incumbents above truth and one optimizer failure; every received p198 coordinate preserved. |
+| [Word segmentation and five-loss search](p198_word_search/README.md) | 49 completed cases: 18 control runs and 31 historical searches; zero pending cases | Nine distinct control bodies; 12 exact runs, five wrong incumbents above truth and one optimizer failure; every received p198 coordinate preserved. |
 | [Frozen radio-domain and numeric-class models](radio_domain_model/README.md) | Whole-family exclusions, 36 matched loss-control runs and four conditional p198 searches | Rank-search benefit is limited to full-square controls; numerical and hidden-square failures retained; independent model/word/log audit. |
 | [Exact digit symmetry](radio_domain_model/digit_symmetry/README.md) | Eight frozen numeric-class candidates; exact factorial orbit counts with each loss pattern fixed | 1,684 small-orbit permutations and 38 generators checked; complete table invariance; perfect class agreement can still have a wrong digit-equality pattern. |
 | [p73 new methods and source retrieval](p73_new_methods/README.md) | Square reuse, spacing variants, hidden-square word controls and 47,819 substitution-assignment checks | Exact controls, failed controls, development-family overlap and finite shuffled comparisons are distinguished; no accepted plaintext. |

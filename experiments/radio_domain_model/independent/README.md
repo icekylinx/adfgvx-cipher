@@ -11,6 +11,11 @@ The first audit preserves the exact
 the 19 declared pending cases are outside that report. Later audits can use
 the live word archive without overwriting this initial snapshot.
 
+The [final 49-case audit](audit_49.json) covers **all 49 original completed
+logs**, **2,055,765,000 measured mutation proposals**, and **zero pending
+jobs**. Its records hash matches the final collector and verification gate.
+The initial 30-case snapshot and report remain unchanged.
+
 ## What is independently checked
 
 The reference word scorer uses hash lookup of each bounded substring and a
@@ -24,6 +29,10 @@ the backwards reference within **7.11 × 10⁻¹⁵**. This finite comparison su
 implementation consistency; it does not establish that the language objective
 prefers correct historical wording.
 
+The final audit expands that comparison to **101 distinct texts**. The maximum
+absolute difference remains **7.11 × 10⁻¹⁵** for both implementations, and all
+six independently reconstructed model tables still match byte for byte.
+
 A separate [builder replay](lexicon_rebuild_check.json) regenerated the word
 lexicon from the ten cached, hash-pinned books using the retained portable
 builder. The complete lexicon and every provenance field match the frozen
@@ -34,8 +43,9 @@ model used by the archived attacks.
 When the original-log directory is provided, the audit checks each completed
 log's hash, best and final events, monotone counters, completion marker and
 input-file agreement with its manifest. It sums the final proposal counters,
-not the best-candidate discovery counters. The initial 30-case snapshot has no
-warm control seed equal to the entire control truth. Reused earlier optimizer
+not the best-candidate discovery counters. Neither the initial 30-case snapshot
+nor the final 49-case archive has a warm control seed equal to the entire control
+truth. Reused earlier optimizer
 states remain reused observations, not fresh independent controls.
 
 The model reconstruction counts training quadgrams independently with a

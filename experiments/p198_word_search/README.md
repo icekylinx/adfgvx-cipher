@@ -100,8 +100,9 @@ evaluation-only truths, selected and final events, and original log hashes.
 
 ## Historical scope and completed counters
 
-The declared campaign contains **49 jobs: 18 control runs and 31 historical
-searches**. The initial pilot tests the CHI-Nov13 and Nov13b partial-square
+The completed campaign contains **49 jobs: 18 control runs and 31 historical
+searches**, with **zero pending jobs**. The initial pilot tests the CHI-Nov13
+and Nov13b partial-square
 hypotheses for 2,400 seconds each. The adaptive branch repeats them for 3,600
 seconds and tests both with all square cells hidden for 5,400 seconds. The
 broader branch tests 25 additional recorded-key or explicitly masked variants
@@ -109,8 +110,9 @@ for 1,200 seconds each. These catalogued keys include instructional and later
 recovered examples; their inclusion is a comparison, not historical dating
 evidence for p198.
 
-The authoritative ledger distinguishes **declared**, **completed** and
-**pending** cases. Collection admits a result only after its process exits
+The final ledger records **2,055,765,000 completed mutation proposals**.
+It distinguishes **declared**, **completed** and **pending** cases. Collection
+admits a result only after its process exits
 successfully and writes a completion record. An in-progress best candidate
 never counts as a completed job. The final event supplies actual completed
 mutation proposals and restart counts; the earlier event at which the best
