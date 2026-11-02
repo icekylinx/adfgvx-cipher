@@ -1,0 +1,132 @@
+{
+  "schema": "adfgvx-boots-source-edition-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 191,
+    "pdf_page_1based": 194,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "crop": "sources/childs_p191_A.png",
+    "crop_sha256": "4cf435d74dcc10fcb1c83a371a96d2abe07f8f4fd80ab7b004ffd4575fa3ff6d",
+    "crop_rectangle_pdf_points": [
+      34,
+      155,
+      519,
+      374
+    ],
+    "crop_scale": 3,
+    "heading_literal": "14th NOVEMBER,1918; INTERCEPTED BY BRITISH STATIONS",
+    "header_literal": "A) LP v ZÖN (06.16 p.m., November ?); 2301 (11/14) 2 TLE",
+    "date_note": "The intercept day is a printed question mark. The page heading and clear origin field separately indicate 14 November; neither replaces that question mark."
+  },
+  "prior_credit": {
+    "published_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker",
+    "doi": "10.1080/01611194.2016.1169461",
+    "scope": "No explicit p191 body discussion was located in the inspected author paper; no first historical decipherment claim is made."
+  },
+  "key": {
+    "id": "Nov13-15b",
+    "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+    "column_rank_order": [
+      4,
+      11,
+      5,
+      14,
+      9,
+      7,
+      16,
+      1,
+      12,
+      15,
+      6,
+      10,
+      3,
+      13,
+      8,
+      2
+    ]
+  },
+  "records": [
+    {
+      "id": "p191_A1",
+      "printed_length": 214,
+      "source_rows": [
+        "FXVVF GDFGV FAXFV FDAFF AXDAV GXGXX VFXXD GAVFG",
+        "VVFXF FXFDX VXXXD DVXXV VA-XX AFDDF AXVVF FFVXX",
+        "FDDXX AXGAG AVVGX DGXFX XXXDV VAFVV AVVGA VDDXD",
+        "XVVGG FAVFV GFDFF AVFDV GAAXA VVFGA ADXXF VDVFG",
+        "FGDFA AAGFX FXAGF VVVFA AAXVF FAGVV GVGFF DVVFF",
+        "AFGDD XXXXX VXAG"
+      ],
+      "group_move": null,
+      "editorial_recipe": {
+        "text": "SELLVXGENXKOMX?XAXKXBRESLAUXXBITTEWEGENDRINGENDERNOTLAGEINBEKLEIDUNGX?0?0XPAARSTIEFELZUNAECHSTNACHXODERBERG",
+        "pair_overrides": []
+      },
+      "literal_spelling_retained": "SELLV",
+      "unresolved_fields": "Unit symbol and two quantity symbols remain unknown; they occupy three distinct square cells."
+    },
+    {
+      "id": "p191_A2",
+      "printed_length": 186,
+      "source_rows": [
+        "FADDX FFVAD VDGVF AGDVX DFXGX VXAXV DVADA GDDVX",
+        "DVXXA XDXFD GXVGV AXFVA FXVXX XVFVD FFFVG FGXGA",
+        "VFAXF FX--X XGXFG XVAXF AFVDV AGFVF FDVGV XVAGA",
+        "XFVVX DFFAF FDFFA VXD-X G---- ----- AFDGG ADAAX",
+        "FDGXV FAGFA DFVDX FXVAX FVVXD D"
+      ],
+      "group_move": {
+        "received_group_index_0based": 11,
+        "insert_before_received_group_index_0based": 7,
+        "literal_group": "AXFVA",
+        "description": "Move printed group 12 immediately before printed group 8. Preserve every coordinate value and all other relative group orders."
+      },
+      "editorial_recipe": {
+        "text": "UNTERVORMELDUNGMITSTARKERBEKLEIDNGAUFABRUFBEREITSTELLENXXDRAHTX?XFUNKANTWORTERBETENXXAXOXKX11",
+        "pair_overrides": []
+      },
+      "literal_spelling_retained": "BEKLEIDNG",
+      "unresolved_fields": "The single connective position retains its complete domain. O and U are readable possibilities, not selected assignments."
+    }
+  ],
+  "geometry_selection": {
+    "scope": "Identity plus every move of one complete five-coordinate group among all 37 complete groups; the final one-coordinate tail remains fixed.",
+    "target_ordinary_word_mask": "UNTERVORMELDUNGMIT???????BEKLEIDNGAUFABRUFBEREITSTELLENXXDRAHTX?XFUNKANTWORTERBETENXX????????",
+    "masked_fields": "All eight footer positions; no personal names, unit numbers or quantities enter the geometry objective. The uncertain ST?R?ER span and connective are also excluded.",
+    "objective": "Minimum count of disagreements at observed source coordinates required by the ordinary-word mask, under the unchanged key. Printed erasures carry no mismatch cost.",
+    "selection_caveat": "Ordinary-word anchors were developed after inspecting the damaged target and an exploratory local permutation screen. This is a conditional consistency comparison, not a blind decipherment or global language proof."
+  },
+  "fresh_control": {
+    "id": "fresh_93char_one_group_move",
+    "design": "New ordinary prose of 85 characters plus an eight-character footer; same length, key ranks, printed-erasure positions, and one full-group displacement as the target model. The same binary ordinary-word mask is applied; no footer character enters geometry selection.",
+    "truth": "SAEMTLICHEWAGENBEREITXPROVIANTWIRDNOCHVERLADENXWEITEREWEISUNGENWERDENAMABENDERWARTETXABTX1234",
+    "true_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+    "square_completion_is_historical_claim": false,
+    "full_ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGAXGFFXXXAFDVXFGFFXGFXXDFXDXAVXXVFVFXFAAVDXAAFDXAFXXVXVVVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXDFAAGXVVXAVXGVFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+    "true_masked_ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGAXGFFXXXAFDVXFGFFXGFXXDFXDXAVXXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+    "received_ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGXXXAFDVXFGFFXGFXXDFXAXGFFDXAVXXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+    "printed_erasure_positions_0based": [
+      87,
+      88,
+      138,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149
+    ],
+    "fault": {
+      "original_group_index_0based": 7,
+      "received_group_index_0based": 11
+    },
+    "ordinary_word_mask": "SAEMTLICHEWAGENBER???????VIANTWIRDNOCHVERLADENXWEITEREWEISUNGEN?ERDENAMABENDERWARTETX????????",
+    "limitations": "A fresh implementation and sensitivity control for this exact family of group-displacement errors, not a general recovery-rate estimate."
+  }
+}

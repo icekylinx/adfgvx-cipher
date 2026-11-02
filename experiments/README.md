@@ -11,6 +11,8 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Boots and clothing request](boots_request/README.md) | Two parts; one displaced group; all 1,297 distinct one-group-move frames checked | 196/200 proposed positions; posthoc word-mask qualification, exact repairs and all connective witnesses retained. |
+| [Corcovado terms and reply](corcovado_sale_terms/README.md) | Six records; 2,120 slots; 1,051/1,060 raw fixed positions | Same-vessel name witness and separate A6S condition; no currency, reference-tail or disposition inference. |
 | [October staffing and service traffic](october_staffing/README.md) | Six exact frames; 1,264 slots; 630/632 raw positions | Four source-coordinate substitutions and two erasure fills; brigade/regiment numerals 4 are directly observed. |
 | [Siedlce garrison withdrawal](siedlce_withdrawal/README.md) | 330 source slots; complete 165-position edition; independently attested signature | Eleven substitutions and one dash fill; no key change, inserted plaintext, or inferred battalion number. |
 | [Black Sea shipping and supply](black_sea_shipping/README.md) | Five records; 1,596 slots; all surplus-coordinate and gap alternatives retained | Prior p199 body credit; source-level cargo and Corcovado editions with unresolved quantity and references. |

@@ -4,7 +4,7 @@
 
 **icekylinx and GPT-6 Astra Pro · 2 November 2026**
 
-The edition contains 22 challenge entries and 168 other source-reviewed
+The edition contains 22 challenge entries and 176 other source-reviewed
 records in the [two reading tables](../cases/README.md). **p73, p170 and p198 D remain
 wholly open.** Other entries range from complete prior readings to partial
 recoveries and source-linked reconstructions; they are not all independently
@@ -16,6 +16,8 @@ defensible.
 
 | Result | Evidence gained | What remains unresolved |
 |---|---|---|
+| [Boots and clothing for Oderberg](../cases/other/p191_A.md) | One displaced five-coordinate group restores the second part; 196/200 positions follow from four substitutions and twelve dash fills. All one-group moves and a matched control are checked. | The geometry comparison uses posthoc word anchors. Corps/quantity symbols and one full connective domain remain open; no key cell is filled by plausibility. |
+| [Corcovado sale terms and reply](../cases/other/corcovado_sale_terms.md) | Six records directly establish a 10-million price, conditions of sale, and a later Turkish-crew report. A spelled-out office number supports conditional digit constraints across keys. | Currency and later disposition are unstated. Seventeen coordinate substitutions and five fills are costed; the A6S inference preserves its same-office assumption and distinct reference tails. |
 | [October staffing and manganese purchases](../cases/other/october_staffing.md) | Six exact-length records fix 630/632 raw positions: the 4th Bavarian Brigade appointment, Grundherr replacement, suspended ore purchases, and service traffic. | Four known-coordinate substitutions and two erasure fills are explicit. The proposed Fischer initial, unit abbreviations and all original reference fields retain their limits. |
 | [Siedlce withdrawal](../cases/other/p200_A.md) | A 165-position report places two garrisons at Thorn and leaves Battalion Ostrowo unlocated; a contemporary notice independently attests General von Zedlitz and his office. | Eleven coordinate substitutions and one dash fill remain editorial. The independent notice supports the signature, not the reported troop movement. |
 | [Black Sea supply and Corcovado sale](../cases/other/black_sea_shipping.md) | Five physical records fix 785/798 raw positions, covering guarded cargo at Nikolaev and a cash-payment condition before ship ownership transfers. | The p199 supply body was already identified by the Lasry team. Three deletion minima, five gap minima, the literal quantity and unresolved references remain explicit. |

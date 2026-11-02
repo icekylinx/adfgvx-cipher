@@ -1,0 +1,546 @@
+{
+  "schema": "adfgvx-boots-group-move-screen-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "inputs_sha256": "007660cf3a6a8799376a35970b27d19a58abf56fa5fbf8f197253ae968407620",
+  "target": {
+    "enumerated_operations_including_identity": 1333,
+    "distinct_candidate_ciphertexts": 1297,
+    "ordinary_plaintext_positions_scored": 77,
+    "footer_plaintext_positions_scored": 0,
+    "minimum_known_coordinate_disagreements": 0,
+    "minimum_distinct_candidates": 1,
+    "all_minima": [
+      {
+        "known_coordinate_disagreements": 0,
+        "disagreement_positions_0based": [],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 11,
+            "insert_index_after_removal_0based": 7
+          }
+        ],
+        "ciphertext": "FADDXFFVADVDGVFAGDVXDFXGXVXAXVDVADAAXFVAGDDVXDVXXAXDXFDGXVGVFXVXXXVFVDFFFVGFGXGAVFAXFFX??XXGXFGXVAXFAFVDVAGFVFFDVGVXVAGAXFVVXDFFAFFDFFAVXD?XG?????????AFDGGADAAXFDGXVFAGFADFVDXFXVAXFVVXDD",
+        "raw_plaintext": "UNTERVORMELDUNGMITST?R?ERBEKLE?DNGAUFA?RUFBERE?TSTELLE??XDRAHT??XFUNKA?TWORTER?ETENXXA?O5KX1?"
+      }
+    ],
+    "identity": {
+      "known_coordinate_disagreements": 19,
+      "disagreement_positions_0based": [
+        35,
+        36,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        46,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        58,
+        59
+      ],
+      "ordinary_mask_erasure_fills": 8,
+      "operation_aliases": [
+        {
+          "identity": true
+        }
+      ],
+      "ciphertext": "FADDXFFVADVDGVFAGDVXDFXGXVXAXVDVADAGDDVXDVXXAXDXFDGXVGVAXFVAFXVXXXVFVDFFFVGFGXGAVFAXFFX??XXGXFGXVAXFAFVDVAGFVFFDVGVXVAGAXFVVXDFFAFFDFFAVXD?XG?????????AFDGGADAAXFDGXVFAGFADFVDXFXVAXFVVXDD",
+      "raw_plaintext": "UFTERAORVELDUHGMFJST?R?EPPEKLE?DN6AUFA?R?IBERE?T5KELLE??A?RAHT??CNUNKA?T?URTER?E?ENXXA?OEJX1?"
+    },
+    "leading_distinct_candidates": [
+      {
+        "known_coordinate_disagreements": 0,
+        "disagreement_positions_0based": [],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 11,
+            "insert_index_after_removal_0based": 7
+          }
+        ],
+        "ciphertext": "FADDXFFVADVDGVFAGDVXDFXGXVXAXVDVADAAXFVAGDDVXDVXXAXDXFDGXVGVFXVXXXVFVDFFFVGFGXGAVFAXFFX??XXGXFGXVAXFAFVDVAGFVFFDVGVXVAGAXFVVXDFFAFFDFFAVXD?XG?????????AFDGGADAAXFDGXVFAGFADFVDXFXVAXFVVXDD",
+        "raw_plaintext": "UNTERVORMELDUNGMITST?R?ERBEKLE?DNGAUFA?RUFBERE?TSTELLE??XDRAHT??XFUNKA?TWORTER?ETENXXA?O5KX1?"
+      },
+      {
+        "known_coordinate_disagreements": 6,
+        "disagreement_positions_0based": [
+          30,
+          31,
+          32,
+          35,
+          36,
+          38
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 11,
+            "insert_index_after_removal_0based": 6
+          }
+        ],
+        "ciphertext": "FADDXFFVADVDGVFAGDVXDFXGXVXAXVAXFVADVADAGDDVXDVXXAXDXFDGXVGVFXVXXXVFVDFFFVGFGXGAVFAXFFX??XXGXFGXVAXFAFVDVAGFVFFDVGVXVAGAXFVVXDFFAFFDFFAVXD?XG?????????AFDGGADAAXFDGXVFAGFADFVDXFXVAXFVVXDD",
+        "raw_plaintext": "UNTERVORXELDUNGMNTST?R?EBBEKLE?DFGAUFA?RUFBERE?TSTELLE??XDRAHT??XFUNKA?TWORTER?ETENXXA?O5KX1?"
+      },
+      {
+        "known_coordinate_disagreements": 6,
+        "disagreement_positions_0based": [
+          35,
+          38,
+          39,
+          62,
+          63,
+          64
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 12,
+            "insert_index_after_removal_0based": 7
+          }
+        ],
+        "ciphertext": "FADDXFFVADVDGVFAGDVXDFXGXVXAXVDVADAFXVXXGDDVXDVXXAXDXFDGXVGVAXFVAXVFVDFFFVGFGXGAVFAXFFX??XXGXFGXVAXFAFVDVAGFVFFDVGVXVAGAXFVVXDFFAFFDFFAVXD?XG?????????AFDGGADAAXFDGXVFAGFADFVDXFXVAXFVVXDD",
+        "raw_plaintext": "UNTERVOR?ELDUNGMITST?B?E?BEKLE?DIGAUF??R?FBERZ?TSTELL???XDRAHT??XFUNKA?TWORTER?ETENXXA?O5KX1?"
+      },
+      {
+        "known_coordinate_disagreements": 6,
+        "disagreement_positions_0based": [
+          35,
+          38,
+          39,
+          55,
+          58,
+          59
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 10,
+            "insert_index_after_removal_0based": 7
+          }
+        ],
+        "ciphertext": "FADDXFFVADVDGVFAGDVXDFXGXVXAXVDVADAGXVGVGDDVXDVXXAXDXFDAXFVAFXVXXXVFVDFFFVGFGXGAVFAXFFX??XXGXFGXVAXFAFVDVAGFVFFDVGVXVAGAXFVVXDFFAFFDFFAVXD?XG?????????AFDGGADAAXFDGXVFAGFADFVDXFXVAXFVVXDD",
+        "raw_plaintext": "UNTERAORVELDUHGMITST?R?E?BEKLE?D?GAUFA?RWFBERE?TSTELLE??XDRAHT??XFUNKA?TWURTER?ETENXXA?O5JX1?"
+      },
+      {
+        "known_coordinate_disagreements": 7,
+        "disagreement_positions_0based": [
+          35,
+          36,
+          39,
+          40,
+          41,
+          42,
+          44
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 11,
+            "insert_index_after_removal_0based": 8
+          }
+        ],
+        "ciphertext": "FADDXFFVADVDGVFAGDVXDFXGXVXAXVDVADAGDDVXAXFVADVXXAXDXFDGXVGVFXVXXXVFVDFFFVGFGXGAVFAXFFX??XXGXFGXVAXFAFVDVAGFVFFDVGVXVAGAXFVVXDFFAFFDFFAVXD?XG?????????AFDGGADAAXFDGXVFAGFADFVDXFXVAXFVVXDD",
+        "raw_plaintext": "UNTERVORVELDUNGMFTST?R?EPBEKLE?DNGAUFA?R?FBERE?T?TELLE??CDRAHT???FUNKA?TWORTER?E?ENXXA?O5KX1?"
+      },
+      {
+        "known_coordinate_disagreements": 9,
+        "disagreement_positions_0based": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          34,
+          35,
+          36,
+          38
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 11,
+            "insert_index_after_removal_0based": 5
+          }
+        ],
+        "ciphertext": "FADDXFFVADVDGVFAGDVXDFXGXAXFVAVXAXVDVADAGDDVXDVXXAXDXFDGXVGVFXVXXXVFVDFFFVGFGXGAVFAXFFX??XXGXFGXVAXFAFVDVAGFVFFDVGVXVAGAXFVVXDFFAFFDFFAVXD?XG?????????AFDGGADAAXFDGXVFAGFADFVDXFXVAXFVVXDD",
+        "raw_plaintext": "WNTERVORXELDUNGMNTST?R?EBBEKLE?DFGAUFA?RUFBERE?TSTELLE??XDRAHT??XFUNKA?TWORTER?ETENXXA?O5KX1?"
+      },
+      {
+        "known_coordinate_disagreements": 10,
+        "disagreement_positions_0based": [
+          35,
+          36,
+          39,
+          40,
+          41,
+          42,
+          43,
+          62,
+          63,
+          64
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 12,
+            "insert_index_after_removal_0based": 8
+          }
+        ],
+        "ciphertext": "FADDXFFVADVDGVFAGDVXDFXGXVXAXVDVADAGDDVXFXVXXDVXXAXDXFDGXVGVAXFVAXVFVDFFFVGFGXGAVFAXFFX??XXGXFGXVAXFAFVDVAGFVFFDVGVXVAGAXFVVXDFFAFFDFFAVXD?XG?????????AFDGGADAAXFDGXVFAGFADFVDXFXVAXFVVXDD",
+        "raw_plaintext": "UNTERVORVELDUNGMFTST?B?EPBEKLE?DNGAUF??R?FBERZ?TLTELL???CDRAHT??AFUNKA?T?ORTER?ETENXXA?O5KX1?"
+      },
+      {
+        "known_coordinate_disagreements": 10,
+        "disagreement_positions_0based": [
+          35,
+          36,
+          39,
+          41,
+          42,
+          43,
+          44,
+          55,
+          58,
+          59
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 10,
+            "insert_index_after_removal_0based": 8
+          }
+        ],
+        "ciphertext": "FADDXFFVADVDGVFAGDVXDFXGXVXAXVDVADAGDDVXGXVGVDVXXAXDXFDAXFVAFXVXXXVFVDFFFVGFGXGAVFAXFFX??XXGXFGXVAXFAFVDVAGFVFFDVGVXVAGAXFVVXDFFAFFDFFAVXD?XG?????????AFDGGADAAXFDGXVFAGFADFVDXFXVAXFVVXDD",
+        "raw_plaintext": "UNTERAORVELDUHGMFTST?R?EPBEKLE?DNGAUFA?R?FBERE?TSTELLE??CDRAHT??AFUNKA?TOURTER?EKENXXA?O5JX1?"
+      },
+      {
+        "known_coordinate_disagreements": 10,
+        "disagreement_positions_0based": [
+          35,
+          36,
+          39,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          69
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 13,
+            "insert_index_after_removal_0based": 7
+          }
+        ],
+        "ciphertext": "FADDXFFVADVDGVFAGDVXDFXGXVXAXVDVADAXVFVDGDDVXDVXXAXDXFDGXVGVAXFVAFXVXXFFFVGFGXGAVFAXFFX??XXGXFGXVAXFAFVDVAGFVFFDVGVXVAGAXFVVXDFFAFFDFFAVXD?XG?????????AFDGGADAAXFDGXVFAGFADFVDXFXVAXFVVXDD",
+        "raw_plaintext": "UN?ERVORCELDUNGMNTST?B?ERBEKLE?DNGAUF??R0FBERZ?TSTELL???XDRAHJ??XFUNKC?TWORTE??ETENXXC?O5KX1?"
+      },
+      {
+        "known_coordinate_disagreements": 10,
+        "disagreement_positions_0based": [
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          38,
+          62,
+          63,
+          64
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 12,
+            "insert_index_after_removal_0based": 6
+          }
+        ],
+        "ciphertext": "FADDXFFVADVDGVFAGDVXDFXGXVXAXVFXVXXDVADAGDDVXDVXXAXDXFDGXVGVAXFVAXVFVDFFFVGFGXGAVFAXFFX??XXGXFGXVAXFAFVDVAGFVFFDVGVXVAGAXFVVXDFFAFFDFFAVXD?XG?????????AFDGGADAAXFDGXVFAGFADFVDXFXVAXFVVXDD",
+        "raw_plaintext": "?NTERVORXELDUNGMNTST?B?EBBEKLE?DFGAUF??RUFBERZ?TSTELL???XDRAHT??XFUNKA?TWORTER?ETENXXA?O5KX1?"
+      }
+    ],
+    "all_candidate_costs_sha256": "95123b233c0aa47c2cdb05a6f64ba173f0f49e6bb205497768b43ee1d5b678c8"
+  },
+  "fresh_control": {
+    "enumerated_operations_including_identity": 1333,
+    "distinct_candidate_ciphertexts": 1297,
+    "ordinary_plaintext_positions_scored": 77,
+    "footer_plaintext_positions_scored": 0,
+    "minimum_known_coordinate_disagreements": 0,
+    "minimum_distinct_candidates": 1,
+    "all_minima": [
+      {
+        "known_coordinate_disagreements": 0,
+        "disagreement_positions_0based": [],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 11,
+            "insert_index_after_removal_0based": 7
+          }
+        ],
+        "ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGAXGFFXXXAFDVXFGFFXGFXXDFXDXAVXXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+        "raw_plaintext": "SAEMTLICHEWAGENBEREITX?ROVIANT?IRDNOCH?ERLADEN?WEITERE??ISUNGE??ERDENA?ABENDER?ARTETXA?TX1???"
+      }
+    ],
+    "identity": {
+      "known_coordinate_disagreements": 16,
+      "disagreement_positions_0based": [
+        35,
+        38,
+        40,
+        41,
+        43,
+        44,
+        46,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        59
+      ],
+      "ordinary_mask_erasure_fills": 8,
+      "operation_aliases": [
+        {
+          "identity": true
+        }
+      ],
+      "ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGXXXAFDVXFGFFXGFXXDFXAXGFFDXAVXXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+      "raw_plaintext": "S?EMTLICIEWAGLNBE6EITX?R??IANT?IBINOCH?EREADEN?W5FTERE??NLUNGE??EGDENA?AR?NDER?A6TETXA?T?????"
+    },
+    "leading_distinct_candidates": [
+      {
+        "known_coordinate_disagreements": 0,
+        "disagreement_positions_0based": [],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 11,
+            "insert_index_after_removal_0based": 7
+          }
+        ],
+        "ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGAXGFFXXXAFDVXFGFFXGFXXDFXDXAVXXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+        "raw_plaintext": "SAEMTLICHEWAGENBEREITX?ROVIANT?IRDNOCH?ERLADEN?WEITERE??ISUNGE??ERDENA?ABENDER?ARTETXA?TX1???"
+      },
+      {
+        "known_coordinate_disagreements": 4,
+        "disagreement_positions_0based": [
+          35,
+          39,
+          55,
+          59
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 10,
+            "insert_index_after_removal_0based": 7
+          }
+        ],
+        "ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGXXDFXXXXAFDVXFGFFXGFAXGFFDXAVXXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+        "raw_plaintext": "SAEMTLICIEWAGLNBEREITX?R0VIANT?IRDNOCH?EGLADEN?WEITERE??ISUNGE??ERDENA?AB?NDER?ARTETXA?TX????"
+      },
+      {
+        "known_coordinate_disagreements": 5,
+        "disagreement_positions_0based": [
+          35,
+          38,
+          40,
+          42,
+          43
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 11,
+            "insert_index_after_removal_0based": 8
+          }
+        ],
+        "ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGXXXAFAXGFFDVXFGFFXGFXXDFXDXAVXXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+        "raw_plaintext": "SAEMTLICIEWAGENBEREITX?R?VIANT?IBDNOCH?ERLADEN?W?ITERE??ISUNGE??SRDENA?ARENDER?ARTETXA?TX1???"
+      },
+      {
+        "known_coordinate_disagreements": 6,
+        "disagreement_positions_0based": [
+          35,
+          38,
+          39,
+          62,
+          63,
+          64
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 12,
+            "insert_index_after_removal_0based": 7
+          }
+        ],
+        "ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGDXAVXXXXAFDVXFGFFXGFXXDFXAXGFFXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+        "raw_plaintext": "SAEMTLICFEWAGENBEREITM?RUVIANT?I?DNOC??EGLADED?WEITERL??ISUNGE??ERDENA?ABENDER?ARTETXA?TX1???"
+      },
+      {
+        "known_coordinate_disagreements": 7,
+        "disagreement_positions_0based": [
+          35,
+          38,
+          42,
+          43,
+          44,
+          55,
+          59
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 10,
+            "insert_index_after_removal_0based": 8
+          }
+        ],
+        "ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGXXXAFXXDFXDVXFGFFXGFAXGFFDXAVXXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+        "raw_plaintext": "SAEMTLICIEWAGLNBEREITX?R?VIANT?IBDNOCH?ERLADEN?WEITERE??ISUNGE??5RDENA?AR?NDER?AGTETXA?TX????"
+      },
+      {
+        "known_coordinate_disagreements": 8,
+        "disagreement_positions_0based": [
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          38,
+          39
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 11,
+            "insert_index_after_removal_0based": 6
+          }
+        ],
+        "ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVAXGFFVAVAGXXXAFDVXFGFFXGFXXDFXDXAVXXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+        "raw_plaintext": "LAEMTLICNEWAGENB?REITX?RWVIANT?IBDNOCH?E6LADEN?WEITERE??ISUNGE??ERDENA?ABENDER?ARTETXA?TX1???"
+      },
+      {
+        "known_coordinate_disagreements": 9,
+        "disagreement_positions_0based": [
+          35,
+          38,
+          40,
+          41,
+          43,
+          44,
+          46,
+          47,
+          49
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 11,
+            "insert_index_after_removal_0based": 9
+          }
+        ],
+        "ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGXXXAFDVXFGAXGFFFFXGFXXDFXDXAVXXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+        "raw_plaintext": "SCEMTLICISWAGENBEREITX?R??IANT?IBDNOCH?ERLADEN?W5ITERE??NSUNGE??ERDENA?ARENDER?A6TETXA?TM1???"
+      },
+      {
+        "known_coordinate_disagreements": 9,
+        "disagreement_positions_0based": [
+          35,
+          38,
+          40,
+          42,
+          43,
+          44,
+          62,
+          63,
+          64
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 12,
+            "insert_index_after_removal_0based": 8
+          }
+        ],
+        "ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGXXXAFDXAVXDVXFGFFXGFXXDFXAXGFFXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+        "raw_plaintext": "SAEMTLICIEWAGENBEREITM?R?VIANT?IBDNOC??ERLADED?W5ITERL??ISUNGE???RDENA?A?ENDER?AGTETXA?TX1???"
+      },
+      {
+        "known_coordinate_disagreements": 10,
+        "disagreement_positions_0based": [
+          35,
+          36,
+          38,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          59
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 9,
+            "insert_index_after_removal_0based": 7
+          }
+        ],
+        "ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGFFXGFXXXAFDVXFGXXDFXAXGFFDXAVXXVFVFXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+        "raw_plaintext": "SAEMTLICDEWAGLNBLREITX?R?VIANT?I6INOCH?EREADEN?WEFTERE??ILUNGE??EGDENA?AB?NDER?ARTETXA?TX????"
+      },
+      {
+        "known_coordinate_disagreements": 10,
+        "disagreement_positions_0based": [
+          35,
+          36,
+          38,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          69
+        ],
+        "ordinary_mask_erasure_fills": 8,
+        "operation_aliases": [
+          {
+            "received_group_index_0based": 13,
+            "insert_index_after_removal_0based": 7
+          }
+        ],
+        "ciphertext": "VVAVXAFAFADFVGGAFXFXVVDXVDVGDVVAVAGXVFVFXXXAFDVXFGFFXGFXXDFXAXGFFDXAVXXFAAVDXAAFDXAFXXV??VVXXVXXVVXAFVXAFFVDAAFFVGVFAFXGGFAFGGVXXXVXXFXVXD?AA?????????VFGVAFAFGFDDDGDAVFGGAFVVAVXVGFXVXFXA",
+        "raw_plaintext": "SA?MTLICIEWAGENBZREITM?R?VIANT?I?DNOC??ERLADED?WEITERL??ISUNG5??ERDENC?ABENDEB?ARTETXA?TX1???"
+      }
+    ],
+    "all_candidate_costs_sha256": "8b1268c6c83354b1827e2b1bfa9698d649fda6bb80c8c2f096b1ae3f9c2385cf",
+    "true_geometry_in_minimizers": true,
+    "unique_true_ciphertext_minimizer": true
+  },
+  "limits": [
+    "Target ordinary-word anchors were chosen after inspecting the damaged source; this is a conditional fixed-text comparison.",
+    "All footer positions, quantities, unit numbers and names are excluded from the selection objective.",
+    "All globally minimizing operations within the one-complete-group-move family are retained.",
+    "The fresh control validates this exact damage family and implementation; it is not a general decipherment-rate estimate."
+  ]
+}

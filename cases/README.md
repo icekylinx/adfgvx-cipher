@@ -47,7 +47,7 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
 | [p217](p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 168 reviewed records
+## Other ciphertexts — 176 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
@@ -119,6 +119,10 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p163 A18](other/p163_A.md) | Headquarters moves to Hermannstadt, Kronstadt and Sinaia | 131/155 raw positions; twenty-one substitutions and 24 fills | icekylinx and GPT-6 Astra Pro (2026) |
 | [p164 A4](context/p164_A4.md) | Dismounted cavalry west of an unidentified MIRCO | 87/99 raw positions; full proposal explicitly repaired | icekylinx and GPT-6 Astra Pro (2026) |
 | [p164 B](other/p164_B.md) | Dismantle the station and resume calls after reaching Temesvar | 69/70 raw positions; two substitutions; 0500 is a separate digit inference | icekylinx and GPT-6 Astra Pro (2026) |
+| [p165 A1](other/corcovado_sale_terms.md) | Proposed Corcovado sale for Hamburg-Amerika Line; directly observed 10 million hull price | 190/190 raw; two observed-coordinate repairs; currency unstated | icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately |
+| [p165 A2](other/corcovado_sale_terms.md) | Corcovado inventory valuation, as-is condition, exclusions and seizure risk | 227/229 raw; four coordinate substitutions and two source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately |
+| [p165 A3](other/corcovado_sale_terms.md) | Seizure risk, seven-month interest deadline and right of recovery for nonpayment | 190/190 raw; one observed-coordinate repair | icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately |
+| [p165 A5](other/corcovado_sale_terms.md) | Corcovado resale restrictions, transport of Germans and encrypted forwarding | 246/250 raw; three substitutions and two erasure fills; office digit separately conditional; literal part label 5 preserved | icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately |
 | [p166 A1](other/nov9_operational_reports.md) | Serbian cavalry in Peterwardein and Fehertemplom | 87/87 raw positions; three word/separator repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p166 A2](other/nov9_operational_reports.md) | Northward movement and Alpenkorps transport preparations | 105/106 raw positions; reserve division 5/6, context supports 6 | icekylinx and GPT-6 Astra Pro (2026) |
 | [p166 A3](other/nov9_operational_reports.md) | March toward Nagybeskerek and Werschetz; order footer | Missing 20-coordinate prefix supplied by p167; 184 received slots preserved | icekylinx and GPT-6 Astra Pro (2026) |
@@ -132,6 +136,8 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p170 B2](other/nov9_operational_reports.md) | Alpenkorps at Ujverbasz and the 9 November march | 117/119 raw positions; place fill and historical numeral separated | icekylinx and GPT-6 Astra Pro (2026) |
 | [p172 A](other/seifert.md) | Records destroyed; cipher keys still in personal custody | 67/68 positions; one supported erasure fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p172 B](other/seifert.md) | Immediate radio-listening instruction | Identical to p174 D; hundreds digit remains 5-9 | icekylinx and GPT-6 Astra Pro (2026) |
+| [p173 A1](other/corcovado_sale_terms.md) | Corcovado already has a Turkish crew; Mediterranean Division no longer in Nikolaev | 119/121 raw; six ordinary-word coordinate changes; office digit separately conditional; reference tail unresolved | icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately |
+| [p173 A2](other/corcovado_sale_terms.md) | Turkish captain; no radio communication with Constantinople | 79/80 raw; one coordinate substitution and one printed-dash fill | icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately |
 | [p174 B](other/seifert.md) | Request notification when Seifert arrives | 36/37 raw positions; two glyph readings retained | icekylinx and GPT-6 Astra Pro (2026) |
 | [p174 C](other/seifert.md) | Query about Seifert's return | 24/24 positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
 | [p174 D](other/seifert.md) | Repeated immediate listening instruction | Identical to p172 B; no digit inferred from repetition | icekylinx and GPT-6 Astra Pro (2026) |
@@ -155,6 +161,8 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p190 B](other/nov14_radio_retransmissions.md) | Request a backup station for NKJ; Sevastopol proposed | 82/88 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
 | [p190 D](other/nov14_radio_retransmissions.md) | Ask whether NKJ relays Mackensen messages and how contact is maintained | 92/93 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
 | [p190 E](other/nov14_radio_retransmissions.md) | Request a backup station for NKJ; Sevastopol proposed | 82/88 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
+| [p191 A1](other/p191_A.md) | Boots requested for Oderberg | 104/107 proposed positions; corps and quantity symbols unresolved | icekylinx and GPT-6 Astra Pro (2026) |
+| [p191 A2](other/p191_A.md) | Heavy clothing on call; wire/radio reply requested | Conditional full-group relocation; 92/93 proposed positions; connective unassigned | icekylinx and GPT-6 Astra Pro (2026) |
 | [p192 A](other/warsaw_service_messages.md) | Request to Kretzschmar in Bucharest about conditions, prospects and commercial interests | 171/175 raw positions; one overstrike fill; three reference cells unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p192 B](other/warsaw_service_messages.md) | LP forwarding important messages for home offices and OHL in both directions | 267/268 source geometry; two tied single-coordinate gap fits; no valid coordinate changed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p192 part 2](other/tiflis_appointment.md) | Appointment of a Polish representative for the Caucasus | 115/115 raw positions; ordinary word and country spelling separately costed | icekylinx and GPT-6 Astra Pro (2026) |
