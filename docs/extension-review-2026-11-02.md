@@ -202,6 +202,16 @@ The digit audit exhausts 1,684 small-orbit permutations and checks 38 generators
 then checks every one of 3,359,232 entries across the two class tables. Its
 two 10! counts are mathematical counts, not purported full enumerations.
 
+A [portable p170 log audit](../experiments/p170_new_methods/audit_original_logs.py)
+matches all 102 original result sidecars and independently re-encrypts 761
+logged incumbents. Ninety raw logs had earlier hash pins; twelve control-log
+hashes were first recorded in the final audit. Instrumented counts survive
+in the original parsed sidecars, while the separate stderr bytes were not
+retained. The [p73 source-snapshot audit](../experiments/p73_new_methods/results/retrieval_provenance_audit.json)
+also records two unavailable earlier full-file snapshots: all 25 selected
+naval text-field references match the current edition and remain frozen for
+replay, but the old files' complete metadata bytes cannot be rechecked.
+
 Local execution of the existing workflow commands passed 17 check groups;
 new source supplements and method archives have additional recorded checks.
 The archived environment and individual command outputs accompany the
