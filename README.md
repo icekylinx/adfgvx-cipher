@@ -10,7 +10,7 @@ A research edition of the **German radio cryptograms in Childs's 1918 collection
 
 ## Selected results
 
-- **[Polish representation in Tiflis](cases/other/tiflis_appointment.md):** two parts concern an appointment for Georgia, Armenia and Azerbaijan. A missing group is located without using the courier name; an independent historical reference to Tydelski supports a conditional Y assignment, with its effects on the November 14 pilot notices kept separate.
+- **[Polish representation in Tiflis](cases/other/tiflis_appointment.md):** three parts link a forwarding instruction via General von Kress to an appointment for Waclaw v. Ostrowski, covering Georgia, Armenia and Azerbaijan. A displaced printed group and a missing group are located with names masked; an independent historical reference to Tydelski supports a separate conditional Y assignment.
 
 - **[October Caucasus traffic](cases/other/october_caucasus.md):** twelve parts add correspondence about personnel and funds for Kress, Westernhagen’s return, electrical equipment for Tiflis, Violetta’s cargo, radio timings and a liaison officer, alongside a provisional procurement pair. Printed strikeouts, duplicated groups, unresolved quantities and every editorial repair remain inspectable.
 - **[Late key-sharing instructions](cases/other/late_november_cipher_instructions.md):** two complete parts explicitly agree on the BSL–UKS key, preserving all 320 coordinates. Related notices document missing December tables and a request for RICHI or plaintext after ITOCHI could not be read.
@@ -58,7 +58,7 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](cases/p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
 | [p217](cases/p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 155 reviewed records
+## Other ciphertexts — 156 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
@@ -178,6 +178,7 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p198 B](cases/context/transport_197_198.md) | Repeated equipment transport to Darmstadt | Clearer near-parallel; editorial changes explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p198 C](cases/context/transport.md#independent-transport-context) | Repeated lorry departure and Sunday stay | Direct partial reading; separate from challenge D | icekylinx and GPT-6 Astra Pro (2026) |
 | [p198 E](cases/context/transport_197_198.md) | Repeated lorry, trailer and petrol-pump order | Literal duplicate-group deletion; partial reading | icekylinx and GPT-6 Astra Pro (2026) |
+| [p199 unlettered part 1](cases/other/tiflis_appointment.md) | Forwarding a Polish appointment telegram through von Kress to Waclaw v. Ostrowski in Tiflis | 131-position source preamble; uniquely placed floating group; two reference cells unresolved; cross-page association explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p201 B1](cases/other/p201_p206_orders.md) | Report positions reached and expected border crossings | 105/105 unchanged; clear source origin date 15 November | icekylinx and GPT-6 Astra Pro (2026) |
 | [p201 B2](cases/other/p201_p206_orders.md) | Specify units and travel mode; acknowledge receipt | 86/89 raw positions; shared order reference with p206 | icekylinx and GPT-6 Astra Pro (2026) |
 | [p203 C](cases/other/richter_aleppo.md) | Inquiry about Richter at the Aleppo radio park | 93/96 raw positions; postal digits remain coupled and unknown | icekylinx and GPT-6 Astra Pro (2026) |

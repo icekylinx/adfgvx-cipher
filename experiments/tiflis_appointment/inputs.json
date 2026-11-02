@@ -202,6 +202,20 @@
         525,
         388
       ]
+    },
+    {
+      "id": "p199_B1",
+      "path": "sources/p199_B1.png",
+      "sha256": "5e872dc90887d6c6206869b14f8a5d586fcac0935b0fea519e852e7886fd671f",
+      "printed_page": 199,
+      "pdf_page_1based": 202,
+      "render_scale": 4,
+      "crop_pdf_points": [
+        40,
+        550,
+        511,
+        666
+      ]
     }
   ],
   "records": [
@@ -269,6 +283,103 @@
       "ordinary_word_template": "MITSITZINTIFLISERNANNTXXERNENNUNGUNDINSTRUKTIONBEREITSDURCHXT?DE?SKIXANSIEABGESANDTXXMINISTERIUMDESAEUSSERNXXBUSSCHE",
       "geometry_stencil": "MITSITZINTIFLISERNANNTXXERNENNUNGUNDINSTRUKTIONBEREITSDURCHX????????XANSIEABGESANDTXXMINISTERIUMDESAEUSSERNXX???????",
       "historical_name_candidate": "MITSITZINTIFLISERNANNTXXERNENNUNGUNDINSTRUKTIONBEREITSDURCHXTYDELSKIXANSIEABGESANDTXXMINISTERIUMDESAEUSSERNXXBUSSCHE"
+    },
+    {
+      "id": "p199_B1",
+      "printed_page": 199,
+      "pdf_page_1based": 202,
+      "source_section": "Unlettered 1 TL, following A)",
+      "header": "NKJ v LP (08.32 p.m., November 15th); FUER COS 18.56 (15/11); 3 TLE; 1 TL RICHI-262",
+      "source_image_id": "p199_B1",
+      "key_id": "Nov13-15b",
+      "ocr_blocks": [
+        "p199_ocr_block4",
+        "p199_ocr_block5"
+      ],
+      "source_rows": [
+        "FGFFF",
+        "FAAGF FFFFF DVFVG DAAGV AXAXV VFFXG DXAVX GFXXV",
+        "VDVVF GVXXX XVXAG VVVDV VGXFX FDVAV AGVVV GXXFX",
+        "AXXXX XXVVA FVGGX AVDFX DVAAF GAVFV VGDAX VFFAX",
+        "AVADG GXGXD XFGXA XFXFA XGDFG ADFDF FFFVA AGXXV",
+        "FFAAF GFVDX FXVXV DVVFD VXXFF XGGXF VFGFF VAXAG",
+        "FGFAV AVXAV DGDGA AVAVF       VAVXA ADFDX AGFAD",
+        "FFVGV GXVDV XXFXG GXFGX FX"
+      ],
+      "source_slots": 262,
+      "advertised_length": 262,
+      "model": {
+        "kind": "move_prefix_group_to_body_gap",
+        "prefix_length": 5,
+        "body_gap": 10
+      },
+      "expected_model_raw": "ANGENERALVONKRESSTIFLISXNRX?1?XBITTEWEITERLEITUNGFOLGENDENTELEGRAMMSDESMTNISTERIUMDESAEUSSERSNINWARSCHAUANHERRNXWACLAWXVXOSTROWSKIX",
+      "editorial_candidates": [
+        {
+          "id": "ordinary_word_repairs",
+          "plaintext": "ANGENERALVONKRESSTIFLISXNRX?1?XBITTEWEITERLEITUNGFOLGENDENTELEGRAMMSDESMINISTERIUMDESAEUSSERENINWARSCHAUANHERRNXWACLAWXVXOSTROWSKIX",
+          "reason": "After the independently screened group placement, repair MTNISTERIUM and AEUSSERSN. Preserve the ?1? reference and the source omission of S after MINISTERIUM."
+        }
+      ],
+      "floating_group_geometry": {
+        "group": "FGFFF",
+        "physical_position": "Between the three-part header and the first main-grid ciphertext row.",
+        "literal_stream_order": "Physical top-to-bottom order: floating group first, then the main grid with its blank cell skipped. This literal order is retained separately from the modeled third-group placement.",
+        "main_grid_blank_cell": {
+          "row_1based": 6,
+          "column_1based": 5,
+          "interpretation": "Blank layout cell, not an inserted erasure in the literal stream."
+        },
+        "ordinary_word_stencil": "ANGENERALVON???????????XNRX???XBITTEWEITERLEITUNGFOLGENDENTELEGRAMMSDESMINISTERIUMDESAEUSSERENIN????????ANHERRNX??????????????????X",
+        "masked_name_and_reference_plaintext_indices": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          27,
+          28,
+          29,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129
+        ]
+      },
+      "notes": [
+        "The group FGFFF is physically above the main grid. Literal top-to-bottom reading includes it first. The declared model moves those same five observed coordinates to the third-group position, after 10 main-grid coordinates; no source letter is discarded or invented.",
+        "The source announces three parts and labels this one 1 TL, but parts 2 and 3 are not printed beneath it.",
+        "The proposed association with p192 parts 2 and 3 is based on their combined forwarding/address/appointment syntax and matching key, not pagination adjacency. The p199 November 15 header conflicts with the p192 November 14 page heading; both remain literal."
+      ],
+      "expected_literal_raw": "ANGENERALVO?KRESSTI5LISXNRXZ1?XBITTEWEITERLEITUNGFODGENDENTILEGRAMM6DESMTNISTERIUMDESAEUSSELSNINWARSCHAUANHERRNXWACLAWXVXOSTROWSKIX"
     }
   ],
   "historical_reference": {
@@ -305,8 +416,26 @@
     "identity_limit": "Matching the encrypted surname to this historical person is a separate inference, not an already established plaintext or an observed original appointment telegram."
   },
   "scope_notes": [
-    "The displayed page begins with parts 2 and 3 without a message header; no missing part 1 or recipient is reconstructed.",
+    "The displayed p192 begins with unheaded parts 2 and 3. A separately sourced p199 part 1 supplies a strongly matching forwarding preamble; their cross-page association and conflicting date headings remain explicit.",
     "The damaged part 3 has exactly 227 valid source letters against RICHI-232. The stated model restores one missing five-coordinate group.",
     "The geometry stencil excludes the entire eight-letter courier name and seven-letter signature. Historical TYDELSKI is used only after the gap search."
-  ]
+  ],
+  "cross_page_association": {
+    "ordered_record_ids": [
+      "p199_B1",
+      "p192_2",
+      "p192_3"
+    ],
+    "status": "Strong textual association; not an established matching source header for the unheaded parts.",
+    "source_evidence": [
+      "p199 unlettered message declares 3 TLE and provides 1 TL only.",
+      "p192 provides unheaded 2 TL and 3 TL without a surviving message header on that page.",
+      "p199 1 TL asks General von Kress in Tiflis to forward a Polish Foreign Ministry telegram to WACLAW V OSTROWSKI.",
+      "p192 2 TL begins TIFLISDOPPELPUNKT and the appointment text; part 3 completes the appointment and says instructions have already been sent through a courier.",
+      "All three records decrypt under the unchanged Nov13-15b published key."
+    ],
+    "date_caveat": "The p199 header explicitly says November 15 / 15/11. The p192 page is headed November 14. The separate p192 A and B headers also pair November 14 receipt dates with 15/11 originating dates; these inconsistencies are preserved, not resolved here.",
+    "historical_context": "The independent Mądzik archival study discusses Wacław Ostrowski as a Polish representative in Tbilisi in 1918 (printed pp. 78–79). This is corroboration after the source reading, not a crib used to select the floating-group position.",
+    "appointment_issue_date_established": false
+  }
 }

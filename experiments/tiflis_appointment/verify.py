@@ -77,6 +77,10 @@ def form_model(record):
         n = model['missing_prefix_slots']
         cipher = '?'*n + cipher
         mapping = [None]*n + mapping
+    elif model['kind'] == 'move_prefix_group_to_body_gap':
+        n, gap = model['prefix_length'], model['body_gap']
+        mapping = list(range(n, n+gap)) + list(range(n)) + list(range(n+gap, len(literal)))
+        cipher = ''.join(cipher[i] for i in mapping)
     else:
         assert model['kind'] == 'identity'
     return literal, cipher, mapping
@@ -151,6 +155,37 @@ def changed_key(key, pair, symbol):
     return {**key, 'square': square[:cell] + symbol + square[cell+1:]}
 
 
+def preamble_geometry(record, key):
+    literal = ''.join(''.join(record['source_rows']).split())
+    spec = record['floating_group_geometry']
+    group = spec['group']
+    assert literal.startswith(group) and len(group) == 5
+    body = literal[len(group):]
+    stencil = spec['ordinary_word_stencil']
+    assert all(stencil[i] == '?' for i in spec['masked_name_and_reference_plaintext_indices'])
+    assert all(name not in stencil for name in ['KRESS', 'TIFLIS', 'WARSCHAU', 'OSTROWSKI'])
+    target = masked_encryption(stencil, key)
+    assert len(literal) == len(target) == 262 and len(body) == 257
+    trials = []
+    for gap in range(len(body) + 1):
+        candidate = body[:gap] + group + body[gap:]
+        mismatches = [i for i, (a, b) in enumerate(zip(candidate, target))
+                      if b != '?' and a != b]
+        trials.append({'body_gap': gap, 'known_coordinate_substitutions': len(mismatches),
+                       'mismatch_model_indices': mismatches})
+    minimum = min(t['known_coordinate_substitutions'] for t in trials)
+    best = [t for t in trials if t['known_coordinate_substitutions'] == minimum]
+    assert [(t['body_gap'], t['known_coordinate_substitutions']) for t in best] == [(10, 2)]
+    return {'declared_model': 'Place the five observed floating FGFFF coordinates at every boundary of the 257-coordinate main grid; no source letters are added or removed.',
+            'ordinary_word_stencil': stencil,
+            'masked_name_and_reference_plaintext_indices': spec['masked_name_and_reference_plaintext_indices'],
+            'models_examined': len(trials), 'minimum_known_coordinate_changes': minimum,
+            'all_tied_minima': best, 'all_trials': trials,
+            'literal_top_first_fit': trials[0],
+            'historical_names_used_in_placement_search': False,
+            'limit': 'Exact for the declared ordinary-word stencil and floating-group movement model; it does not establish the p192 date or prove message identity.'}
+
+
 def layer_impact(records, keys, key_id, pair):
     updated = changed_key(keys[key_id], pair, 'Y')
     impact = []
@@ -215,11 +250,20 @@ def build(pdf=None, historical_pdf=None):
              'source_slots': len(literal), 'source_unpaired_coordinate_count': len(literal) % 2,
              'model': record['model'], 'model_ciphertext': cipher,
              'model_to_source_indices': mapping, **observed}
-        if record['id'] == 'p192_2':
+        if record['id'] in ('p192_2', 'p199_B1'):
             r['editorial_candidates'] = [{'id': c['id'], 'reason': c['reason'],
                                           **repair(c['plaintext'], cipher, key, mapping)}
                                          for c in record['editorial_candidates']]
+            if record['id'] == 'p199_B1':
+                r['literal_top_first_reading'] = inspect(literal, key, list(range(len(literal))))
+                assert r['literal_top_first_reading']['raw'] == record['expected_literal_raw']
+                r['floating_group_geometry'] = preamble_geometry(record, key)
+                candidate = r['editorial_candidates'][0]
+                assert len(candidate['known_coordinate_substitutions']) == 2
+                assert not candidate['inserted_coordinate_fills'] and candidate['fixed_positions'] == 129
+                assert sorted(mapping) == list(range(len(literal)))
         else:
+            assert record['id'] == 'p192_3'
             r['geometry_screen'] = source_geometry(record, key)
             r['ordinary_word_repair'] = repair(record['ordinary_word_template'], cipher, key, mapping)
             assert r['ordinary_word_repair']['fixed_positions'] == 114
@@ -256,14 +300,16 @@ def build(pdf=None, historical_pdf=None):
     return {'schema': 'adfgvx-tiflis-appointment-certificate-v1', 'project': inputs['project'],
             'authors': inputs['authors'], 'input_sha256': sha(HERE/'inputs.json'),
             'indexing': 'All indices are zero-based; printed group numbers are explicitly one-based.',
-            'summary': {'records': 2, 'printed_source_slots': 457, 'valid_source_coordinates': 457,
-                        'declared_model_coordinate_slots': 462, 'plaintext_positions': 231,
+            'summary': {'records': 3, 'printed_source_slots': 719, 'valid_source_coordinates': 719,
+                        'declared_model_coordinate_slots': 724, 'plaintext_positions': 362,
                         'baseline_fixed_positions': sum(r['fixed_positions'] for r in records),
+                        'preamble_fixed_positions_after_group_placement': 129,
                         'part3_ordinary_word_fixed_positions': 114,
                         'part3_conditional_name_fixed_positions': 116},
             'records': records,
+            'cross_page_association': inputs['cross_page_association'],
             'conditional_key_layers': {
-                'inventory_scope': 'Both Tiflis records and all seven source records in the November 14 retransmissions edition; every changed raw character and marginal domain is retained.',
+                'inventory_scope': 'All three Tiflis records and all seven source records in the November 14 retransmissions edition; every changed raw character and marginal domain is retained.',
                 'external_inputs_path': str(external.relative_to(ROOT)), 'external_inputs_sha256': sha(external),
                 'layer1': {'assumptions': ['The stated single-group gap model and ordinary-word alignment are correct.',
                                            'The courier surname identifies the independently attested Tadeusz Tydelski, with its correct spelling.'],
@@ -273,7 +319,8 @@ def build(pdf=None, historical_pdf=None):
                            'assignment': {'key_id': 'Nov13-15a', 'coordinate_pair': 'DG', 'square_cell_index': 9, 'symbol': 'Y'},
                            'affected_records': transfer},
                 'published_key_files_changed': False},
-            'limits': ['Part 1 and the original header are not reconstructed; the addressee is not supplied from historical expectation.',
+            'limits': ['The independently sourced p199 part 1 is strongly associated with the unheaded p192 parts 2 and 3 by syntax, stated multipart count and key. Their conflicting November 14/15 headings remain unresolved.',
+                       'The floating-group placement masks all relevant historical names and reference symbols; no historical identity was used to select it.',
                        'The missing-group minimum is conditional on a declared ordinary-word stencil. Neither courier name nor signature is used in that screen.',
                        'Historical identity is independently supported but remains an inference; the original archival manuscript and appointment telegram have not been inspected.',
                        'Reencryption alone permits all eight unused symbols in the name cell. The historical name evidence is what selects Y.',
