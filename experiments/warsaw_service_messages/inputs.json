@@ -1,0 +1,399 @@
+{
+  "schema": "adfgvx-warsaw-service-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov13-15b",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      4,
+      11,
+      5,
+      14,
+      9,
+      7,
+      16,
+      1,
+      12,
+      15,
+      6,
+      10,
+      3,
+      13,
+      8,
+      2
+    ],
+    "column_count": 16,
+    "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+    "square_rows": [
+      "H??BMU",
+      "F15PX0",
+      "DJLR??",
+      "??S6VO",
+      "NKZ?AW",
+      "ITEGC?"
+    ],
+    "known_cell_count": 28,
+    "missing_plaintext_symbols": "234789QY",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 11,
+        "author": "George Lasry",
+        "date": "2017-02-27"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 244,
+        "pdf_page_1based": 247,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+    ],
+    "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+    "baseline_differences": [
+      {
+        "coordinate": "AD",
+        "baseline": "2",
+        "audited": "?"
+      },
+      {
+        "coordinate": "AF",
+        "baseline": "3",
+        "audited": "?"
+      },
+      {
+        "coordinate": "FV",
+        "baseline": "4",
+        "audited": "?"
+      },
+      {
+        "coordinate": "FX",
+        "baseline": "7",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GA",
+        "baseline": "8",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GD",
+        "baseline": "9",
+        "audited": "?"
+      },
+      {
+        "coordinate": "VG",
+        "baseline": "Q",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XX",
+        "baseline": "Y",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-02",
+      "comment": 24,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "AD",
+          "proposed": "2"
+        },
+        {
+          "row_column": "AF",
+          "proposed": "3"
+        },
+        {
+          "row_column": "FV",
+          "proposed": "4"
+        },
+        {
+          "row_column": "FX",
+          "proposed": "7"
+        },
+        {
+          "row_column": "GA",
+          "proposed": "8"
+        },
+        {
+          "row_column": "GD",
+          "proposed": "9"
+        },
+        {
+          "row_column": "VG",
+          "proposed": "Q"
+        },
+        {
+          "row_column": "XX",
+          "proposed": "Y"
+        }
+      ]
+    }
+  },
+  "source_images": [
+    {
+      "id": "p192_A",
+      "path": "sources/p192_A.png",
+      "printed_page": 192,
+      "pdf_page_1based": 195,
+      "crop_pdf_points": [
+        55,
+        390,
+        525,
+        536
+      ],
+      "render_scale": 3,
+      "sha256": "e3a376296be51cb78a07059661ce2dc14f54058105cfb56943f69deabaa6a16d"
+    },
+    {
+      "id": "p192_B",
+      "path": "sources/p192_B.png",
+      "printed_page": 192,
+      "pdf_page_1based": 195,
+      "crop_pdf_points": [
+        55,
+        548,
+        525,
+        683
+      ],
+      "render_scale": 3,
+      "sha256": "0017f66429e19a23b1bbe9ce09da585fe83ccf65bff72d8e6f4ada51e95984f2"
+    },
+    {
+      "id": "p194_C",
+      "path": "sources/p194_C.png",
+      "printed_page": 194,
+      "pdf_page_1based": 197,
+      "crop_pdf_points": [
+        48,
+        420,
+        525,
+        540
+      ],
+      "render_scale": 3,
+      "sha256": "8ea671273ea106286ec9161b211804102a820c79ef95e9b173e4c5da4286a90d"
+    },
+    {
+      "id": "p194_E",
+      "path": "sources/p194_E.png",
+      "printed_page": 194,
+      "pdf_page_1based": 197,
+      "crop_pdf_points": [
+        48,
+        620,
+        525,
+        733
+      ],
+      "render_scale": 3,
+      "sha256": "509c71103a115219bf1a66c022878c02beeb7be9d1efdcb8f144345526db51d5"
+    }
+  ],
+  "records": [
+    {
+      "id": "p192_A",
+      "printed_page": 192,
+      "pdf_page_1based": 195,
+      "source_section": "A",
+      "header": "A) NKJ FUER UKS (06.45 p.m., November 14th); 22.55 (15/11); RICHI-350",
+      "source_image_id": "p192_A",
+      "ocr_block": "p192_ocr_block3",
+      "key_id": "Nov13-15b",
+      "source_rows": [
+        "XDGXA GVVAA GXVAF GFVVV AGXAX FDVDV AAVXA FXAAF",
+        "FDFXX DXGDG AXXFV XXAXX XAAAX VVAVX VADXV XXGGA",
+        "VXXAG VVVFV AAAAV FVAXG GXGXX XGVVF GXFGD XAXXF",
+        "EXAXF GGFXV XVFGV VVDGG VFAAX GFGAF FXFDA GGXDX",
+        "DVAVA VVAVV XXXGD XFDVV VFAXX VXVXX FDGXA XFFAG",
+        "FVFFD AGADG VGFFF FVAVD VDVVG VFADG FFXAD GGFDX",
+        "AVXXX XFVXF XVAXX XGGAF DXDVV DFDFF FVFVF FAAFD",
+        "XXXGA GVVAG XAGVX FFXFF FFFFV VGFFA DDGGD GFAAF",
+        "AFFFA AFDGX AVDAV DXAAA XXFFX VXDDF"
+      ],
+      "source_slots": 350,
+      "advertised_length": 350,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_model_raw": "ANXOBLT0KRETZSCHMARBEIXOKMXWIRTSCHAFTSSTABABTX1XBUKARESTXNRX???XERBITTENNACHRICHTUEBERLAGENUN?AUSSICHTENSOWIEBEZUEGLICHUNSERERINTERESSENGEFASSTEBESCHLUESSEXDEUTKAUF5AUSWAERTIG",
+      "editorial_candidates": [
+        {
+          "id": "one_overstrike_fill",
+          "reason": "Fill the E-like coordinate overstrike to obtain UND; preserve 0, 5, LAGEN and unknown reference digits literally.",
+          "plaintext": "ANXOBLT0KRETZSCHMARBEIXOKMXWIRTSCHAFTSSTABABTX1XBUKARESTXNRX???XERBITTENNACHRICHTUEBERLAGENUNDAUSSICHTENSOWIEBEZUEGLICHUNSERERINTERESSENGEFASSTEBESCHLUESSEXDEUTKAUF5AUSWAERTIG"
+        }
+      ],
+      "notes": [
+        "Source index 120 is an E-like overstrike in EXAXF, outside the six-letter coordinate alphabet. The literal E is retained and masked for decryption.",
+        "The printed page/receipt date says November 14, while the originating header says 15/11. Both are retained.",
+        "The published 0 and 5 labels are retained in OBLT0 and DEUTKAUF5; no punctuation or digit relabelling is inferred."
+      ]
+    },
+    {
+      "id": "p192_B",
+      "printed_page": 192,
+      "pdf_page_1based": 195,
+      "source_section": "B",
+      "header": "B) NKJ v LP (06.56 p.m., November 14th); NKJ FUER ZO'N 17.30 (15/11); RICHI-268",
+      "source_image_id": "p192_B",
+      "ocr_block": "p192_ocr_block4",
+      "key_id": "Nov13-15b",
+      "source_rows": [
+        "VGVAX AAAFF VXDGA FAXDV ADAAV FXVDV AADDX XXAXV",
+        "AXGFX AFDDV XXGFX FAXXV AXVXF DVAFF XXXXF XXVAF",
+        "XDDDX FXXVX XGVAX VVDDA AFDFA FVGA FAGFF DVAXG",
+        "VXADV GGDVD XVDAX XFVXX FXFXF FFGGV GAFGV VFAFA",
+        "AGDDG DADFF XAAGX DDXXF VFGFF AFXXV XXVXG ADDXV",
+        "XVDFF AVAVD FFFVG VDXGF GFGAF AFAAA FGVVF VFFAA",
+        "DFAFX VVVFG VDFVX VVAAX FDAXX FDV"
+      ],
+      "source_slots": 267,
+      "advertised_length": 268,
+      "model": {
+        "kind": "insert_unknown_coordinate",
+        "source_gap": 109,
+        "all_tied_source_gaps": [
+          109,
+          110
+        ]
+      },
+      "expected_model_raw": "KWHXLPXUEBERMITTELTALLEVORLIEGENDENWICHTIGENNACHRICHTENFUERHEIMATDIENSTSTE?LENSOWIEXOHLXUNDUMGEKEHRTXKMXALLGXKRIEGSDEPXNRX?5?1115XANCH",
+      "editorial_candidates": [
+        {
+          "id": "single_missing_coordinate",
+          "reason": "Restore the missing coordinate in the four-letter FVGA group. No observed coordinate changes.",
+          "plaintext": "KWHXLPXUEBERMITTELTALLEVORLIEGENDENWICHTIGENNACHRICHTENFUERHEIMATDIENSTSTELLENSOWIEXOHLXUNDUMGEKEHRTXKMXALLGXKRIEGSDEPXNRX?5?1115XANCH"
+        }
+      ],
+      "notes": [
+        "The source has 267 coordinates against RICHI-268; group 22 is FVGA (four letters).",
+        "Two exact source-gap placements, 109 and 110, insert the same F beside an observed F and yield the same repaired ciphertext. Both are retained.",
+        "The printed receipt reads 06.56 p.m., November 14; the originating header reads 17.30 (15/11). No date correction is made.",
+        "The reference ?5?1115 remains literal under the published partial square."
+      ],
+      "geometry_stencil": "KWHXLPXUEBERMITTELTALLEVORLIEGENDENWICHTIGENNACHRICHTENFUERHEIMATDIENSTSTELLENSOWIEXOHLXUNDUMGEKEHRTXKMXALLGXKRIEGSDEPXNRX?5?1115XANCH"
+    },
+    {
+      "id": "p194_C",
+      "printed_page": 194,
+      "pdf_page_1based": 197,
+      "source_section": "C",
+      "header": "C) IWE v WAU (2.31 a.m., November 16th); 2300 (15); RICHI-224",
+      "source_image_id": "p194_C",
+      "ocr_block": "p194_ocr_block3",
+      "key_id": "Nov13-15b",
+      "source_rows": [
+        "GFXFF XXVAF AVFVG FAFFF DAFFA FXVXX XFVFX FVXAX",
+        "DAAAV XXAGX VFXVG VXDDV VFXXX XAXXF GVFVV XDFAA",
+        "DFFVF GVVXD GXFGF AVFFX AGXXV XFGVG VDXDD XVXFV",
+        "XXXVD GFDFV XFGAG GAGGV AXXFV AFAAA VDFVX DXAXX",
+        "DDFXF DDAGA VGVGF GVFXF VXFGV AAFGF GAAFF GFVFV",
+        "GFGVA DAGVA FXVAX AADVG XDGX"
+      ],
+      "source_slots": 224,
+      "advertised_length": 224,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_model_raw": "HEERESGRUPPEXKIEWXXWELCHENC?MARSCNWEGWAEHLTUEERESGRUPPEKIEWXXDRINGENDBALDIGSTBESCHEIDFUNKENXPRESSEXSXRXWARSCHAUX",
+      "editorial_candidates": [
+        {
+          "id": "ordinary_words",
+          "reason": "Repair the two ordinary-word errors while leaving the C? segment unresolved.",
+          "plaintext": "HEERESGRUPPEXKIEWXXWELCHENC?MARSCHWEGWAEHLTHEERESGRUPPEKIEWXXDRINGENDBALDIGSTBESCHEIDFUNKENXPRESSEXSXRXWARSCHAUX"
+        },
+        {
+          "id": "separator_proposal",
+          "reason": "Optional two-separator reading of C? after WELCHEN. This is editorial, not independently witnessed.",
+          "plaintext": "HEERESGRUPPEXKIEWXXWELCHENXXMARSCHWEGWAEHLTHEERESGRUPPEKIEWXXDRINGENDBALDIGSTBESCHEIDFUNKENXPRESSEXSXRXWARSCHAUX"
+        }
+      ],
+      "notes": [
+        "The C? after WELCHEN is unresolved in the conservative reading. XX is a separately priced separator proposal."
+      ]
+    },
+    {
+      "id": "p194_E",
+      "printed_page": 194,
+      "pdf_page_1based": 197,
+      "source_section": "E",
+      "header": "E) LP v WAU (---- November 16th); SSDD 2256 (15); RICHI-240",
+      "source_image_id": "p194_E",
+      "ocr_block": "p194_ocr_block5",
+      "key_id": "Nov13-15b",
+      "source_rows": [
+        "XFYGF VXVAG VGAFV DAFFV AVVFX AAFXV DXGXG XADGF",
+        "AXVDA VXAFF FVDDF FFVXV AXVXG DADVX XDVDF VFXXD",
+        "GXVFX XVAFV DXDFA XAGXF AVFVF XVFXD ADDFA XVXVD",
+        "VVVXF VFFGX ADXDG AADFV FVFGF FDAGV FAXFF GVVVF",
+        "GFADV XFVXG FFVXX DXXDA AFXDF VAVXA VFAVX XGAAF",
+        "VXADA VVFVG FGADF GGADD VFVVA AXGFX VAVVF DXXGX"
+      ],
+      "source_slots": 240,
+      "advertised_length": 240,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_model_raw": "ZUKUENFTIGWERDENUNK?NTOLLIERTETELSDESXSXRXWARSCHAUDURCHXXFRANZXXXKONTROLLIERTEDURCHXXEMILXXGEKENNZEICHNETXXSXRXWARSCHAUX",
+      "editorial_candidates": [
+        {
+          "id": "invalid_coordinate_fill",
+          "reason": "Fill the invalid Y coordinate as X; retain the missing R in UNKONTOLLIERTE and all three separators after FRANZ.",
+          "plaintext": "ZUKUENFTIGWERDENUNKONTOLLIERTETELSDESXSXRXWARSCHAUDURCHXXFRANZXXXKONTROLLIERTEDURCHXXEMILXXGEKENNZEICHNETXXSXRXWARSCHAUX"
+        }
+      ],
+      "notes": [
+        "Source group 1 is XFYGF, with an invalid Y at source index 2.",
+        "The exactly decrypted word is UNKONTOLLIERTE, with no R between T and O. The triple separator after FRANZ is also retained.",
+        "The contextual interpretation is unchecked messages marked FRANZ and checked messages marked EMIL."
+      ]
+    }
+  ],
+  "scope_notes": [
+    "Four previously uncatalogued physical ciphertext records. Published key labels and missing cells are unchanged.",
+    "All source coordinates are transcribed from the retained crops; literal invalid glyphs remain visible."
+  ]
+}

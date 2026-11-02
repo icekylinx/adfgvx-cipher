@@ -35,6 +35,7 @@ jobs:
           python experiments/late_key_interpretation/verify.py --verify
           python experiments/nov14_retransmissions/verify.py --verify
           python experiments/tiflis_appointment/verify.py --verify
+          python experiments/warsaw_service_messages/verify.py --verify
           python experiments/aviation_connection/verify.py --verify
           python experiments/aviation_connection/verify_companion.py --verify
           python experiments/corpus_attack/build_source_pairs.py --verify

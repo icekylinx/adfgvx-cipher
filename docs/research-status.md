@@ -4,7 +4,7 @@
 
 **icekylinx and GPT-6 Astra Pro · 2 November 2026**
 
-The edition contains 22 challenge entries and 146 other source-reviewed
+The edition contains 22 challenge entries and 150 other source-reviewed
 records in the [two reading tables](../cases/README.md). **p73, p170 and p198 D remain
 wholly open.** Other entries range from complete prior readings to partial
 recoveries and source-linked reconstructions; they are not all independently
@@ -16,6 +16,7 @@ defensible.
 
 | Result | Evidence gained | What remains unresolved |
 |---|---|---|
+| [Warsaw markers and LP service traffic](../cases/other/warsaw_service_messages.md) | Four records fix 532/541 raw positions. One short group is restored with no received-coordinate changes; FRANZ and EMIL distinguish unchecked and checked Warsaw messages. | Six reference/garble positions, source misspellings and inconsistent dates remain; the optional route-query repair has a separate higher cost. |
 | [Polish appointment in Tiflis](../cases/other/tiflis_appointment.md) | Two source parts recover an appointment for Georgia, Armenia and Azerbaijan. A name-masked screen uniquely locates a missing group; the independently attested TYDELSKI surname supports Nov13b FX=Y. | Historical identity remains conditional. Transferring Y to Nov13a additionally assumes the same correctly copied pilot surname; neither published square is altered. |
 | [November 14 retransmissions](../cases/other/nov14_radio_retransmissions.md) | A complete witness restores 85 missing prefix coordinates and 85 raw letters of p193 B. Two cross-key request pairs witness 87/88 and 94/94 candidate letters. | The pilot surname remains unresolved by this package; one Sevastopol letter is editorial, and both copies retain their own exact repair costs. |
 | [Mackensen aircraft connection](../cases/other/p187_D.md) | A readable 76-character suffix needs two substitutions and one proposed missing group. The previously read [p187 C inquiry](../cases/supplementary/p187_C.md) receives an exact four-edit audit with its original credit retained. | The excluded mark and gap remain a framing hypothesis. Twelve opening reference positions remain unresolved; source times do not establish request/reply order. |
