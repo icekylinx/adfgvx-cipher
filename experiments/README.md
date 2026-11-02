@@ -11,6 +11,7 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Polish appointment and conditional Y](tiflis_appointment/README.md) | Two source parts, 457 received coordinates; gap location selected without courier name or signature | Ordinary words give 114/116 positions in part 3; independent historical identity supplies the final two conditionally. All eight arithmetic name alternatives and all local key-domain effects remain visible. |
 | [November 14 cross-key retransmissions](nov14_retransmissions/README.md) | Seven source records; exact 195-coordinate suffix supplies 85 missing coordinates and 85 raw letters | Two differently keyed request pairs witness 87/88 and 94/94 candidate letters; surname equality leaves multiple symbols and is not a key fill. |
 | [Aircraft connection and earlier station inquiry](aviation_connection/README.md) | p187 D1 missing-group reconstruction and exact repair account for the prior p187 C reading | Two source-equivalent gap placements; all 497 stated framing comparisons checked; original p187 C attribution, reference uncertainty and source timing retained. |
 | [Late-key interpretation propagation](late_key_interpretation/README.md) | Four previously reviewed records under explicit partial-square maps; p215 ending `?1?6` | Every global square remains injective; all 90 p215 ending assignments have witnesses, and original gaps, labels and editorial costs stay separate. |

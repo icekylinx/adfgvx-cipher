@@ -10,6 +10,8 @@ A research edition of the **German radio cryptograms in Childs's 1918 collection
 
 ## Selected results
 
+- **[Polish representation in Tiflis](cases/other/tiflis_appointment.md):** two parts concern an appointment for Georgia, Armenia and Azerbaijan. A missing group is located without using the courier name; an independent historical reference to Tydelski supports a conditional Y assignment, with its effects on the November 14 pilot notices kept separate.
+
 - **[October Caucasus traffic](cases/other/october_caucasus.md):** twelve parts add correspondence about personnel and funds for Kress, Westernhagen’s return, electrical equipment for Tiflis, Violetta’s cargo, radio timings and a liaison officer, alongside a provisional procurement pair. Printed strikeouts, duplicated groups, unresolved quantities and every editorial repair remain inspectable.
 - **[Late key-sharing instructions](cases/other/late_november_cipher_instructions.md):** two complete parts explicitly agree on the BSL–UKS key, preserving all 320 coordinates. Related notices document missing December tables and a request for RICHI or plaintext after ITOCHI could not be read.
 - **[Romanian withdrawal and headquarters movements](cases/other/p163_A.md):** six framed records with the [Temesvar station notice](cases/other/p164_B.md) add 608/730 fixed raw positions. The more damaged garrison continuation remains a separately costed reconstruction. [Later operational reports](experiments/operational_recovery/README.md) add eight parts on coal shortages, disarmament, troop positions and a headquarters move, with numerical interpretation kept separate.
@@ -56,7 +58,7 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](cases/p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
 | [p217](cases/p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 144 reviewed records
+## Other ciphertexts — 146 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
@@ -153,6 +155,8 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p190 B](cases/other/nov14_radio_retransmissions.md) | Request a backup station for NKJ; Sevastopol proposed | 82/88 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
 | [p190 D](cases/other/nov14_radio_retransmissions.md) | Ask whether NKJ relays Mackensen messages and how contact is maintained | 92/93 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
 | [p190 E](cases/other/nov14_radio_retransmissions.md) | Request a backup station for NKJ; Sevastopol proposed | 82/88 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
+| [p192 part 2](cases/other/tiflis_appointment.md) | Appointment of a Polish representative for the Caucasus | 115/115 raw positions; ordinary word and country spelling separately costed | icekylinx and GPT-6 Astra Pro (2026) |
+| [p192 part 3](cases/other/tiflis_appointment.md) | Appointment instructions sent through a courier; conditional TYDELSKI identification | Unique five-coordinate gap; 114/116 after word repairs; conditional FX=Y | icekylinx and GPT-6 Astra Pro (2026) |
 | [p193 A](cases/other/nov14_radio_retransmissions.md) | Ask whether NKJ relays Mackensen messages and how contact is maintained | 94/94 candidate letters independently witnessed across the pair | icekylinx and GPT-6 Astra Pro (2026) |
 | [p193 B](cases/other/nov14_radio_retransmissions.md) | Interrupted pilot-arrival notice; exact suffix of p194 B | 85 missing coordinates and 85 raw letters restored by independent copy | icekylinx and GPT-6 Astra Pro (2026) |
 | [p193 E](cases/context/transport.md#independent-transport-context) | Sprung cart for attachment; a car | Direct partial reading; one unknown cell | icekylinx and GPT-6 Astra Pro (2026) |

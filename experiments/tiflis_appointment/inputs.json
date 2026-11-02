@@ -1,0 +1,312 @@
+{
+  "schema": "adfgvx-tiflis-appointment-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov13-15b",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      4,
+      11,
+      5,
+      14,
+      9,
+      7,
+      16,
+      1,
+      12,
+      15,
+      6,
+      10,
+      3,
+      13,
+      8,
+      2
+    ],
+    "column_count": 16,
+    "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+    "square_rows": [
+      "H??BMU",
+      "F15PX0",
+      "DJLR??",
+      "??S6VO",
+      "NKZ?AW",
+      "ITEGC?"
+    ],
+    "known_cell_count": 28,
+    "missing_plaintext_symbols": "234789QY",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 11,
+        "author": "George Lasry",
+        "date": "2017-02-27"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 244,
+        "pdf_page_1based": 247,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+    ],
+    "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+    "baseline_differences": [
+      {
+        "coordinate": "AD",
+        "baseline": "2",
+        "audited": "?"
+      },
+      {
+        "coordinate": "AF",
+        "baseline": "3",
+        "audited": "?"
+      },
+      {
+        "coordinate": "FV",
+        "baseline": "4",
+        "audited": "?"
+      },
+      {
+        "coordinate": "FX",
+        "baseline": "7",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GA",
+        "baseline": "8",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GD",
+        "baseline": "9",
+        "audited": "?"
+      },
+      {
+        "coordinate": "VG",
+        "baseline": "Q",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XX",
+        "baseline": "Y",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-02",
+      "comment": 24,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "AD",
+          "proposed": "2"
+        },
+        {
+          "row_column": "AF",
+          "proposed": "3"
+        },
+        {
+          "row_column": "FV",
+          "proposed": "4"
+        },
+        {
+          "row_column": "FX",
+          "proposed": "7"
+        },
+        {
+          "row_column": "GA",
+          "proposed": "8"
+        },
+        {
+          "row_column": "GD",
+          "proposed": "9"
+        },
+        {
+          "row_column": "VG",
+          "proposed": "Q"
+        },
+        {
+          "row_column": "XX",
+          "proposed": "Y"
+        }
+      ]
+    }
+  },
+  "source_images": [
+    {
+      "id": "p192_2",
+      "path": "sources/p192_2.png",
+      "sha256": "419c69f19051ced5bc042e194fada5d58c69f88ea74b1c4480c37f92a22ba66c",
+      "printed_page": 192,
+      "pdf_page_1based": 195,
+      "render_scale": 3,
+      "crop_pdf_points": [
+        55,
+        173,
+        525,
+        292
+      ]
+    },
+    {
+      "id": "p192_3",
+      "path": "sources/p192_3.png",
+      "sha256": "057707d5241c7cae922e0aa19057663290795eddd52d7aa444ac4cafe4a2abe0",
+      "printed_page": 192,
+      "pdf_page_1based": 195,
+      "render_scale": 3,
+      "crop_pdf_points": [
+        55,
+        300,
+        525,
+        388
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "p192_2",
+      "printed_page": 192,
+      "pdf_page_1based": 195,
+      "source_section": "Unheaded 2 TL",
+      "header": "Page dated 14th November, 1918; 2 TL; RICHI-230",
+      "source_image_id": "p192_2",
+      "key_id": "Nov13-15b",
+      "ocr_block": "p192_ocr_block1",
+      "source_rows": [
+        "FFAVF FVFGG GGXGX DADVF GGGFF AVFFV XFAGV VXVXV",
+        "DVXDX FFVVX DXVVX GVXDD VVVXX ADDDV XVGAG GGDXA",
+        "XXGXF FAFFX XAFAF XGVVG VGVVX VFFXF XXXVV DXGAA",
+        "FGXXA XVDFD FXFFF GFXAA FFADD GDAGA AFAFA AFFVX",
+        "DXGVF AFFFA AVXAA AGVXA AFDAA VAAGV FVAAG XGVVA",
+        "FAAGF VAGAG AFXVA FFFXA XXXXF AFFAA"
+      ],
+      "source_slots": 230,
+      "advertised_length": 230,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_model_raw": "TIFLISDOPPELPUNKTXSIESINDZUMVSRTRAUENSMANNDERPOLNISCHENREGIERUNGFUERDIEREPUBLIKENXGRUSIENXARMENIENXUNDXASERBEJNZANX",
+      "editorial_candidates": [
+        {
+          "id": "ordinary_word",
+          "plaintext": "TIFLISDOPPELPUNKTXSIESINDZUMVERTRAUENSMANNDERPOLNISCHENREGIERUNGFUERDIEREPUBLIKENXGRUSIENXARMENIENXUNDXASERBEJNZANX",
+          "reason": "Correct the single garbled letter in VERTRAUEN; retain the source spelling ASERBEJNZAN."
+        },
+        {
+          "id": "country_spelling_proposal",
+          "plaintext": "TIFLISDOPPELPUNKTXSIESINDZUMVERTRAUENSMANNDERPOLNISCHENREGIERUNGFUERDIEREPUBLIKENXGRUSIENXARMENIENXUNDXASERBEJDZANX",
+          "reason": "Optional same-length country-name repair; the exact historical spelling is not independently established."
+        }
+      ]
+    },
+    {
+      "id": "p192_3",
+      "printed_page": 192,
+      "pdf_page_1based": 195,
+      "source_section": "Unheaded 3 TL",
+      "header": "Page dated 14th November, 1918; 3 TL; RICHI-232",
+      "source_image_id": "p192_3",
+      "key_id": "Nov13-15b",
+      "ocr_block": "p192_ocr_block2",
+      "source_rows": [
+        "FAAFA DAVAG VFVVF AFVAD GXFFV AVFFV GDAGV FFVGX",
+        "AGAAV FXXFX FFXVX FXGXX VFAAF XGXFG XFXXX XVVGG",
+        "FVXAX AADAV AADFA DVDDF AAXXD VXAAX GVVAG GXXVV",
+        "VVXAV VXXGV ADADA AXFXV FVAXG VAGFG AAAFF XFVVX",
+        "XXXDX DFXDF FVXFA AAAFA XFXAF AGXXG VFFAF FGVAF",
+        "AAAAD DVGVG FVGDV XFXXD XADXV DX"
+      ],
+      "source_slots": 227,
+      "advertised_length": 232,
+      "model": {
+        "kind": "insert_unknown_group",
+        "source_gap": 150,
+        "length": 5
+      },
+      "expected_model_raw": "MITSITZINEIFLISERNANNTXXERNENNUNGUNDINST?UKTIONB?REITSDU?CHXT?DE?SKIXANS?EABGESANDTXXMINISTERIUMDESAEUSSERNXXBUSSCHE",
+      "ordinary_word_template": "MITSITZINTIFLISERNANNTXXERNENNUNGUNDINSTRUKTIONBEREITSDURCHXT?DE?SKIXANSIEABGESANDTXXMINISTERIUMDESAEUSSERNXXBUSSCHE",
+      "geometry_stencil": "MITSITZINTIFLISERNANNTXXERNENNUNGUNDINSTRUKTIONBEREITSDURCHX????????XANSIEABGESANDTXXMINISTERIUMDESAEUSSERNXX???????",
+      "historical_name_candidate": "MITSITZINTIFLISERNANNTXXERNENNUNGUNDINSTRUKTIONBEREITSDURCHXTYDELSKIXANSIEABGESANDTXXMINISTERIUMDESAEUSSERNXXBUSSCHE"
+    }
+  ],
+  "historical_reference": {
+    "author": "Marek Mądzik",
+    "title": "Próby nawiązania stosunków politycznych między Polską a Gruzją w latach 1918–1921",
+    "journal": "Rocznik Lubelski",
+    "volume": "29–30",
+    "year": "1987–1988",
+    "pages": "77–87",
+    "url": "https://bazhum.muzhp.pl/media/texts/rocznik-lubelski/1987-1988-tom-29-30/rocznik_lubelski-r1987_1988-t29_30-s77-87.pdf",
+    "pdf_bytes": 2101416,
+    "pdf_sha256": "9bd96057f1e35c750d59b90823b4246a0e46771d0c176d299b1d75275e80089e",
+    "status": "Independent original archival research; the underlying manuscript has not been inspected.",
+    "name_evidence": {
+      "printed_page": 78,
+      "footnote": 3,
+      "short_quote": "prezes — inż. Tadeusz Tydelski",
+      "english_gloss": "chairman — engineer Tadeusz Tydelski",
+      "cited_archive": "Centralne Archiwum Wojskowe, relacje, 400.2500, Protokół o pracach niepodległościowo-społecznych i wojskowych Polskich na Kaukazie, appendix 2, p. 3"
+    },
+    "source_crop": {
+      "path": "sources/madzik_p78_name.png",
+      "pdf_page_1based": 3,
+      "printed_page": 78,
+      "crop_pdf_points": [
+        201,
+        448,
+        355,
+        457
+      ],
+      "render_scale": 5,
+      "sha256": "795f05ff73888e475f9445588ee1cc333c027ba2a1720d86dd61ff3d6aa3334d"
+    },
+    "identity_limit": "Matching the encrypted surname to this historical person is a separate inference, not an already established plaintext or an observed original appointment telegram."
+  },
+  "scope_notes": [
+    "The displayed page begins with parts 2 and 3 without a message header; no missing part 1 or recipient is reconstructed.",
+    "The damaged part 3 has exactly 227 valid source letters against RICHI-232. The stated model restores one missing five-coordinate group.",
+    "The geometry stencil excludes the entire eight-letter courier name and seven-letter signature. Historical TYDELSKI is used only after the gap search."
+  ]
+}

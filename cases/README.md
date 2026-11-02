@@ -47,7 +47,7 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
 | [p217](p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 144 reviewed records
+## Other ciphertexts — 146 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
@@ -144,6 +144,8 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p190 B](other/nov14_radio_retransmissions.md) | Request a backup station for NKJ; Sevastopol proposed | 82/88 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
 | [p190 D](other/nov14_radio_retransmissions.md) | Ask whether NKJ relays Mackensen messages and how contact is maintained | 92/93 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
 | [p190 E](other/nov14_radio_retransmissions.md) | Request a backup station for NKJ; Sevastopol proposed | 82/88 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
+| [p192 part 2](other/tiflis_appointment.md) | Appointment of a Polish representative for the Caucasus | 115/115 raw positions; ordinary word and country spelling separately costed | icekylinx and GPT-6 Astra Pro (2026) |
+| [p192 part 3](other/tiflis_appointment.md) | Appointment instructions sent through a courier; conditional TYDELSKI identification | Unique five-coordinate gap; 114/116 after word repairs; conditional FX=Y | icekylinx and GPT-6 Astra Pro (2026) |
 | [p193 A](other/nov14_radio_retransmissions.md) | Ask whether NKJ relays Mackensen messages and how contact is maintained | 94/94 candidate letters independently witnessed across the pair | icekylinx and GPT-6 Astra Pro (2026) |
 | [p193 B](other/nov14_radio_retransmissions.md) | Interrupted pilot-arrival notice; exact suffix of p194 B | 85 missing coordinates and 85 raw letters restored by independent copy | icekylinx and GPT-6 Astra Pro (2026) |
 | [p193 E](context/transport.md#independent-transport-context) | Sprung cart for attachment; a car | Direct partial reading; one unknown cell | icekylinx and GPT-6 Astra Pro (2026) |
