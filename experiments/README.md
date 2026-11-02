@@ -11,6 +11,8 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Withdrawal-order source edition](withdrawal_recovery/README.md) | Seven source records; six explicit frames fix 608/730 raw positions | Every substitution and fill costed; part-15 reconstruction and shared digit inference remain conditional, and the odd jammed fragment remains unframed. |
+| [Kiel, internment and cipher-instruction sources](corpus_extension/README.md) | Fourteen ciphertexts and one cleartext notice; exact duplicate and group-restoration models | Prior readings retain credit; two unchanged key-sharing parts, all source images and separately priced word repairs. |
 | [Source-reviewed corpus readings](corpus_readings/README.md) | Nine source parts, two assembled multipart messages and one exact repeated suffix | Separate raw and editorial layers; p123 deletion aliases exhaustively checked for the stated candidate; p218 treaty context does not replace source evidence. |
 | [Osthoff and Glatz parallel witnesses](corpus_attack/SOURCE_FAMILIES.md) | Six source records, 407 candidate plaintext positions | 403 positions have complete coordinate-pair support; three emendations and one damaged-glyph fill remain explicit. |
 | [p205 financial and naval orders](corpus_joint/README.md) | Two messages in six parts; 1,514 source coordinates | 750/757 raw positions fixed; four editorial substitutions; six reference positions remain unknown. |

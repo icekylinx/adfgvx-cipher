@@ -4,7 +4,7 @@
 
 **icekylinx and GPT-6 Astra Pro · 2 November 2026**
 
-The edition contains 22 challenge entries and 96 other source-reviewed
+The edition contains 22 challenge entries and 116 other source-reviewed
 records in the [two reading tables](../cases/README.md). **p73, p170 and p198 D remain
 wholly open.** Other entries range from complete prior readings to partial
 recoveries and source-linked reconstructions; they are not all independently
@@ -16,6 +16,9 @@ defensible.
 
 | Result | Evidence gained | What remains unresolved |
 |---|---|---|
+| [Late key-sharing instructions](../cases/other/late_november_cipher_instructions.md) | Two p228 parts preserve all 320 coordinates and directly read the BSL–UKS agreement. Three further ciphertexts and a cleartext notice document missing December tables, numerical-code instructions and unreadable ITOCHI traffic. | The numerical example is damaged and its first part missing; the agreement does not identify an unresolved challenge key. |
+| [Romanian withdrawal order](../cases/other/p163_A.md) and [Temesvar station move](../cases/other/p164_B.md) | Six framed records fix 608/730 raw positions. The surviving bodies cover the Bucharest garrison, Danube boats and headquarters movements. | The edition costs 56 substitutions and 100 fills; the heavily damaged part-15 prefix is conditional. An odd-length jammed fragment receives no complete reading. |
+| [Kiel radio-control order](../cases/other/kiel_radio_control.md) and [Mackensen internment letter](../cases/other/mackensen_internment.md) | Nine source records receive exact source/edit certificates; a repeated order witnesses 55/56 proposed positions and a two-location group defect is explicitly repaired. | The historical readings belong to Childs and the Lasry team. One internment word remains unresolved; the prior normalization changes its length. |
 | [Helsinki, Dutch courier and personnel inquiries](../experiments/corpus_recovery/README.md) | Nine additional records fix 1,155/1,161 positions from 2,322 source slots. These cover oil release, shipping safety, return transport, a Dutch courier, Burkhardt, Richter and Reval. | Seventeen coordinate substitutions and three erasure fills are separate editorial proposals; the Richter postal fields cannot be equated under the unchanged keys. |
 | [Munich couriers](../cases/other/courier_munich.md) | Five records give a direct 67/68-position continuation and a 134-position first-part candidate, with 118 positions supported across both audited damage models. | First-part wording and geometry are conditional; names and part association remain qualified. Unit 602 depends on the separate historical key inference. |
 | [Operational reports](../cases/other/nov9_operational_reports.md) | A complete repeat supplies the missing 20-coordinate prefix while retaining all 184 received coordinates; a conservative union fixes 97/102 positions. | Word repairs and place-name fills remain explicit. Previously audited French unit evidence favors the 6th Reserve Division, while cipher arithmetic still permits 5/6. |

@@ -1,0 +1,862 @@
+{
+  "schema": "adfgvx-source-extension-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System, Childs collection",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "pdf_bytes": 156848258,
+    "inspection": "Complete source pages and enlarged message crops inspected visually; all invalid glyphs retain a slot."
+  },
+  "prior_interpretations": [
+    {
+      "ids": [
+        "p140_A1",
+        "p140_A2",
+        "p140_A3",
+        "p140_A4",
+        "p146_A"
+      ],
+      "authors": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker; their discussion credits Childs",
+      "publication": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "year": 2017,
+      "url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+      "location": "Section6.4, printed p23 / PDF p24",
+      "scope": "Radio takeover / suppression of Kiel messages and p146 repeat already described."
+    },
+    {
+      "ids": [
+        "p226_C1",
+        "p226_C2",
+        "p226_C3",
+        "p227_A4"
+      ],
+      "authors": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker; their discussion credits Childs",
+      "publication": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "year": 2017,
+      "url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+      "location": "Table4, printed p22 / PDF p23; also Lasry dissertation Table6.4, p108",
+      "scope": "Internment letter body is a prior reading; source repair audit and literal distinctions are present work."
+    }
+  ],
+  "keys": [
+    {
+      "id": "Nov4-6",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ],
+      "column_count": 17,
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "square_rows": [
+        "17WHFL",
+        "J5D2UP",
+        "EXKVZ9",
+        "O0Q3Y6",
+        "R8ABGI",
+        "TCMS4N"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 240,
+          "pdf_page_1based": 243,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [
+        "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+      ],
+      "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Nov28-Dec1",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        9,
+        3,
+        14,
+        10,
+        2,
+        8,
+        15,
+        4,
+        16,
+        11,
+        5,
+        13,
+        6,
+        12,
+        1,
+        7
+      ],
+      "column_count": 16,
+      "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "square_rows": [
+        "782GPY",
+        "5OQHF9",
+        "1UDNI3",
+        "64TLVX",
+        "EAR0JZ",
+        "BKMCSW"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  ],
+  "source_images": [
+    {
+      "id": "p140_A",
+      "printed_page": 140,
+      "pdf_page_1based": 143,
+      "path": "sources/p140_A.png",
+      "crop_pdf_points": [
+        70,
+        160,
+        540,
+        480
+      ],
+      "render_scale": 3,
+      "sha256": "e6c1ab0e3fff4ce62530106d5b66c2023837cccae6bc0147eaea8d0d866f5121"
+    },
+    {
+      "id": "p146_A",
+      "printed_page": 146,
+      "pdf_page_1based": 149,
+      "path": "sources/p146_A.png",
+      "crop_pdf_points": [
+        70,
+        140,
+        550,
+        230
+      ],
+      "render_scale": 3,
+      "sha256": "2531df55f1658808f95bd22da6451f633f632796e7a56e57df955d7401ba9ed4"
+    },
+    {
+      "id": "p225_A",
+      "printed_page": 225,
+      "pdf_page_1based": 228,
+      "path": "sources/p225_A.png",
+      "crop_pdf_points": [
+        70,
+        170,
+        550,
+        295
+      ],
+      "render_scale": 3,
+      "sha256": "b808fdab77366a0888c1ec134c9cc93c9d252a7d1b9c700ec7bf5b7ab11c63c9"
+    },
+    {
+      "id": "p226_B2",
+      "printed_page": 226,
+      "pdf_page_1based": 229,
+      "path": "sources/p226_B2.png",
+      "crop_pdf_points": [
+        70,
+        250,
+        540,
+        365
+      ],
+      "render_scale": 3,
+      "sha256": "251a56a463a156d9a9dbb0ac44b4b263365ad3a115a1eea9e18ec6cacb607227"
+    },
+    {
+      "id": "p226_C1",
+      "printed_page": 226,
+      "pdf_page_1based": 229,
+      "path": "sources/p226_C1.png",
+      "crop_pdf_points": [
+        70,
+        365,
+        540,
+        495
+      ],
+      "render_scale": 3,
+      "sha256": "02c5e4ec02bd0a785369c64c90eaa580ad39072d21c74f037cbf2c0e1552cee4"
+    },
+    {
+      "id": "p226_C2",
+      "printed_page": 226,
+      "pdf_page_1based": 229,
+      "path": "sources/p226_C2.png",
+      "crop_pdf_points": [
+        70,
+        490,
+        540,
+        595
+      ],
+      "render_scale": 3,
+      "sha256": "7d0fcdbe8d7019ebcf8e47919c41166fc19682c1a5ff463b41363711f967cef5"
+    },
+    {
+      "id": "p226_C3",
+      "printed_page": 226,
+      "pdf_page_1based": 229,
+      "path": "sources/p226_C3.png",
+      "crop_pdf_points": [
+        70,
+        590,
+        540,
+        710
+      ],
+      "render_scale": 3,
+      "sha256": "a955c20ef27b5160bfc8d7ade7b3f24c17dbfe15f38df53a1146f93329b9722a"
+    },
+    {
+      "id": "p227_A4",
+      "printed_page": 227,
+      "pdf_page_1based": 230,
+      "path": "sources/p227_A4.png",
+      "crop_pdf_points": [
+        55,
+        150,
+        540,
+        328
+      ],
+      "render_scale": 3,
+      "sha256": "7aeaa21c4addeab59b068de930a886cd8e564e83d4749af7e9c2864130eff4d6"
+    },
+    {
+      "id": "p227_B",
+      "printed_page": 227,
+      "pdf_page_1based": 230,
+      "path": "sources/p227_B.png",
+      "crop_pdf_points": [
+        70,
+        340,
+        540,
+        440
+      ],
+      "render_scale": 3,
+      "sha256": "e6fcb04ad9abd5949078b2c9d19ff70bf9b352b131ef4d328e2558e023c9fba7"
+    },
+    {
+      "id": "p227_C",
+      "printed_page": 227,
+      "pdf_page_1based": 230,
+      "path": "sources/p227_C.png",
+      "crop_pdf_points": [
+        70,
+        440,
+        540,
+        548
+      ],
+      "render_scale": 3,
+      "sha256": "a1f593263bb3fd438d60665c70c85c18909c3e843d767c89b25fee91a8ba5f93"
+    },
+    {
+      "id": "p228_C",
+      "printed_page": 228,
+      "pdf_page_1based": 231,
+      "path": "sources/p228_C.png",
+      "crop_pdf_points": [
+        60,
+        550,
+        550,
+        730
+      ],
+      "render_scale": 3,
+      "sha256": "3f304d6e3d40a5ccf8969dc4d2cef48c04dd18fec956af62eeae6b2e9cebca21"
+    }
+  ],
+  "records": [
+    {
+      "id": "p140_A1",
+      "printed_page": 140,
+      "pdf_page_1based": 143,
+      "key_id": "Nov4-6",
+      "header": "YZ NKJ v LP (3.52 p.m., November 6th); 1331 (6/11) 4 TEILE; 1 TL RICHI-112",
+      "source_rows": [
+        "FXXVX AAAAV AXXFV FFVXX AFGDV FXXVG VDXXX AFGXX",
+        "GAAAG FVAAA VAAXX AAAXG FXXVX AADAD VXFXA GAFFA",
+        "FGXAV XFAXD XVGVG AGAXX VXVVX FDFAA AX"
+      ],
+      "source_slots": 112,
+      "advertised_length": 112,
+      "ocr_blocks": [
+        "p140_ocr_block1",
+        "p140_ocr_block2"
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_identity_raw": "SAEMTLICHEFUNKSTELLENSOFORTDURCHO1FIGIERFESTINHANDNEHMEN",
+      "expected_model_raw": "SAEMTLICHEFUNKSTELLENSOFORTDURCHO1FIGIERFESTINHANDNEHMEN",
+      "notes": [],
+      "editorial_candidates": [
+        {
+          "id": "readable",
+          "plaintext": "SAEMTLICHEFUNKSTELLENSOFORTDURCHOFFIZIERFESTINHANDNEHMEN",
+          "reason": "OFFIZIER is the conventional reading; p146 supports the first F, but the Z still costs an explicit substitution."
+        }
+      ],
+      "source_image_id": "p140_A"
+    },
+    {
+      "id": "p140_A2",
+      "printed_page": 140,
+      "pdf_page_1based": 143,
+      "key_id": "Nov4-6",
+      "header": "Continuation of p140 A; 2 TL RICHI-134",
+      "source_rows": [
+        "GXAFF FGVVX FFXFF VFDVA FVFXG FXAXF FFDDA VXXXV",
+        "GDFDA VAFAF AVXFA FXXFF AFAXA AFVDA FGXFV XGGXA",
+        "VXXXX FVA-- XFXXX XXVVV XADAD GDAXA ADVXA VVVAA",
+        "FVGVF VAAXG FADA"
+      ],
+      "source_slots": 134,
+      "advertised_length": 134,
+      "ocr_blocks": [
+        "p140_ocr_block3",
+        "p140_ocr_block4"
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_identity_raw": "VERHIND1RNDASSF?NKSPRUEC?EAUSKIELKIELAUFGENOMMENUNDVEABREITETWRRDEN",
+      "expected_model_raw": "VERHIND1RNDASSF?NKSPRUEC?EAUSKIELKIELAUFGENOMMENUNDVEABREITETWRRDEN",
+      "notes": [
+        "Two printed dashes in FVA-- preserve two source erasure slots."
+      ],
+      "editorial_candidates": [
+        {
+          "id": "readable",
+          "plaintext": "VERHINDERNDASSFUNKSPRUECHEAUSKIELKIELAUFGENOMMENUNDVERBREITETWERDEN",
+          "reason": "Restore the clearly readable order while preserving repeated KIEL KIEL."
+        }
+      ],
+      "source_image_id": "p140_A"
+    },
+    {
+      "id": "p140_A3",
+      "printed_page": 140,
+      "pdf_page_1based": 143,
+      "key_id": "Nov4-6",
+      "header": "Continuation of p140 A; 3 TL RICHI-102",
+      "source_rows": [
+        "AXAAX X---- FXVVX DFXXA XFXGG XAXFF VXFXD DVVXA",
+        "AAFVF GXAAX AVXXG AXXFV AFAAA VVFVX FAXGD VVAAV",
+        "AXFXX FFVDA FAFGX XFFGF GX"
+      ],
+      "source_slots": 102,
+      "advertised_length": 102,
+      "ocr_blocks": [
+        "p140_ocr_block5",
+        "p140_ocr_block6"
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_identity_raw": "BEREITSA?FGENOMM?NETEXTEB?SCHLAGN?WMENUNDVERNICHTEN",
+      "expected_model_raw": "BEREITSA?FGENOMM?NETEXTEB?SCHLAGN?WMENUNDVERNICHTEN",
+      "notes": [
+        "Four printed dashes in X---- preserve four source erasure slots."
+      ],
+      "editorial_candidates": [
+        {
+          "id": "readable",
+          "plaintext": "BEREITSAUFGENOMMENETEXTEBESCHLAGNAHMENUNDVERNICHTEN",
+          "reason": "Restore the confiscation/destruction instruction; all erasure fills and W to H correction remain explicit."
+        }
+      ],
+      "source_image_id": "p140_A"
+    },
+    {
+      "id": "p140_A4",
+      "printed_page": 140,
+      "pdf_page_1based": 143,
+      "key_id": "Nov4-6",
+      "header": "Continuation of p140 A; 4 TL RICHI-98",
+      "source_rows": [
+        "AVFVD VFAAG AGXXV VDXAA AFAAG AXVXV XAFVV FG---",
+        "VXXAF DGVGF DAVVA FXGAF XFAFF AXFAG FDCGF AAXAA",
+        "GXGVA XGFAV DFDAX DVD"
+      ],
+      "source_slots": 98,
+      "advertised_length": 98,
+      "ocr_blocks": [
+        "p140_ocr_block7",
+        "p140_ocr_block8"
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_identity_raw": "GROESSTEKILEGEBOTONNACHRC?EFXR?EMB?ERXVX47?00XGEH",
+      "expected_model_raw": "GROESSTEKILEGEBOTONNACHRC?EFXR?EMB?ERXVX47?00XGEH",
+      "notes": [
+        "Three printed dashes in FG--- and the invalid C in FDCGF preserve four source erasure slots. The final number remains unresolved."
+      ],
+      "editorial_candidates": [
+        {
+          "id": "readable",
+          "plaintext": "GROESSTEEILEGEBOTENNACHRCHEFXROEMVIERXVX47?00XGEH",
+          "reason": "Restore the urgency and signatory title. Preserve the unresolved number as a domain, not a guessed digit."
+        }
+      ],
+      "source_image_id": "p140_A"
+    },
+    {
+      "id": "p146_A",
+      "printed_page": 146,
+      "pdf_page_1based": 149,
+      "key_id": "Nov4-6",
+      "header": "ASO v NKJ (04.19 a.m., November 7th); WH BIS 0025 30 GR 1331 (KR); 1 TL RICHI-112",
+      "source_rows": [
+        "FXXVX AAAAV VXXFV FFAXX AFGDV FX-VG VDXXX AFGXX",
+        "GAAAG FVAAA VAAXX VAADX AAAXG FXXVX AADAD VXFXA",
+        "GAFFA FGXAV XFAXD X---G AGAXX VOVVX FDFAA AX"
+      ],
+      "source_slots": 117,
+      "advertised_length": 112,
+      "ocr_blocks": [
+        "p146_ocr_block1"
+      ],
+      "model": {
+        "kind": "delete_contiguous",
+        "source_start": 55,
+        "source_start_aliases": [
+          54,
+          55
+        ],
+        "length": 5,
+        "reason": "Repeated-copy alignment and the explicit112-coordinate label."
+      },
+      "expected_identity_raw": "1L9MMF?C1TZFTW?AEHRE?KO3TBEMUB0JRF971INI0O4NNPLW1TNF?4EYTN",
+      "expected_model_raw": "SAEMTL?CHEFUNKS?ELLE?SOFORTDURCHOFFIFIERFEST?NHANDNE?MEN",
+      "notes": [
+        "The source prints 117 slots although the label says112. Group12 is VAADX and is absent from the earlier p140 A1 copy.",
+        "The printed O in VOVVX is invalid as a coordinate and is preserved in the literal transcript. Five source slots are masked in total: four dashes and O.",
+        "All surviving coordinates retain their source indices after the separately declared five-slot deletion. Deleting slots54-58 or55-59 gives the same stream because the boundary X is repeated."
+      ],
+      "editorial_candidates": [
+        {
+          "id": "readable",
+          "plaintext": "SAEMTLICHEFUNKSTELLENSOFORTDURCHOFFIZIERFESTINHANDNEHMEN",
+          "reason": "The earlier complete source supplies the five erasure letters. The Z is a distinct editorial repair, not a directly witnessed character."
+        }
+      ],
+      "source_image_id": "p146_A"
+    },
+    {
+      "id": "p226_B2",
+      "printed_page": 226,
+      "pdf_page_1based": 229,
+      "key_id": "Nov28-Dec1",
+      "header": "--- v ZON [O with two marks] (10.53 p.m., November 29th); (1st TL Missing); 2 TL RICHI-208",
+      "source_rows": [
+        "VVVVX GAAFV XVADV XAXGF AXVVG XXVDF GXAXV DGFGG",
+        "GDADV XXXAV DDFDV VVAAA XXDDG VFVXX DDFVF VAAAF",
+        "FAVGX XGAVD XGAGG VXXXX XAFXV FFGFG VGXFA XFDGA",
+        "VXXGA XFGVF AVXGF XAGXG GGFFG AVVGX DAVAX XGDDA",
+        "DDXXA VGVFV DVXAA FDAGG FGGFX VDXAG AVFFD VGXGF",
+        "VDVAF XFV"
+      ],
+      "source_slots": 208,
+      "advertised_length": 208,
+      "ocr_blocks": [
+        "p226_ocr_block2"
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_identity_raw": "ZAHLENREIHENVONRUECKWAERTSGELESENYSODASSXYXSZ8HLEN3Y5Y9YX5YX0YUYSYWYYBENUTZENSIEGLEICHESMITUNFYANTWORTYY",
+      "expected_model_raw": "ZAHLENREIHENVONRUECKWAERTSGELESENYSODASSXYXSZ8HLEN3Y5Y9YX5YX0YUYSYWYYBENUTZENSIEGLEICHESMITUNFYANTWORTYY",
+      "notes": [
+        "The first part is explicitly missing. The surviving number examples remain literal; they do not independently determine a global digit-label permutation."
+      ],
+      "editorial_candidates": [
+        {
+          "id": "readable",
+          "plaintext": "ZAHLENREIHENVONRUECKWAERTSGELESENYSODASSXYXSZAHLEN3Y5Y9YX5YX0YUYSYWYYBENUTZENSIEGLEICHESMITUNSYANTWORTYY",
+          "reason": "Repair two ordinary German words only. Keep all numeric examples and XYXS unchanged."
+        }
+      ],
+      "source_image_id": "p226_B2"
+    },
+    {
+      "id": "p226_C1",
+      "printed_page": 226,
+      "pdf_page_1based": 229,
+      "key_id": "Nov28-Dec1",
+      "header": "ZON [O with two marks] v BSL (04.20 a.m., December 2nd); NR 132 2200 (11/29) 4 TLE; 1 TL RICHI-344",
+      "source_rows": [
+        "FVVVA GDVXF FVDVV DVGVV FGGVV VDXAX XFVFV FVXDG",
+        "AVFVF FGFFA DVGFD VFGGF AVGDG FFFGD FAAAD VGVGA",
+        "FDFAD DAGVX AVVFF VXFXF FFFAV XXVVV XXFGV VVVGG",
+        "XAGFV VGGFG FADXG GFGGV AGAAG FFDAG GFAAF DAGAD",
+        "GADAV AFGFV XGXVX FXGVF FDFDX GFFVV FFVAD DAVAF",
+        "FGGFA GDGFF AGGFA ADADX FXFGF FFVGD ADGVG GAADA",
+        "DGGAA DAFFG GFVAF FFVFF GXADD FFFDV VGGGG AVDFD",
+        "VVXVV VFFGV FFAFG VXAFX VFFXF VGVVV DXFXG VGFGV",
+        "FFAVV VAFVX FFDXF FFVDF DFFX"
+      ],
+      "source_slots": 344,
+      "advertised_length": 344,
+      "ocr_blocks": [
+        "p226_ocr_block3"
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_identity_raw": "SOLDATENRATDERARMEEMACBENSENYYKAMERADENYTROTZALLERBEMUEHUNGENDERINBEDRACHTKOQMENDENSMUTIONENISTESUUSNICHTGELUNGENDIEENTENTETONIHREMUNGERECHTFERTIGTENSTANDPUNKTEABZUBRINGEN7",
+      "expected_model_raw": "SOLDATENRATDERARMEEMACBENSENYYKAMERADENYTROTZALLERBEMUEHUNGENDERINBEDRACHTKOQMENDENSMUTIONENISTESUUSNICHTGELUNGENDIEENTENTETONIHREMUNGERECHTFERTIGTENSTANDPUNKTEABZUBRINGEN7",
+      "notes": [
+        "The raw SMUTIONEN has nine positions. The prior published SITUATIONEN has eleven; it is not an unchanged or same-length reading."
+      ],
+      "editorial_candidates": [
+        {
+          "id": "readable",
+          "plaintext": "SOLDATENRATDERARMEEMACKENSENYYKAMERADENYTROTZALLERBEMUEHUNGENDERINBETRACHTKOMMENDENSMUTIONENISTESUNSNICHTGELUNGENDIEENTENTEVONIHREMUNGERECHTFERTIGTENSTANDPUNKTEABZUBRINGENY",
+          "reason": "Repair unambiguous ordinary words; preserve the damaged SMUTIONEN token pending a separately costed alternative."
+        },
+        {
+          "id": "stationen",
+          "plaintext": "SOLDATENRATDERARMEEMACKENSENYYKAMERADENYTROTZALLERBEMUEHUNGENDERINBETRACHTKOMMENDENSTATIONENISTESUNSNICHTGELUNGENDIEENTENTEVONIHREMUNGERECHTFERTIGTENSTANDPUNKTEABZUBRINGENY",
+          "reason": "Explicit alternative for the nine-position damaged word; no alternative is selected as historically certain."
+        },
+        {
+          "id": "instanzen",
+          "plaintext": "SOLDATENRATDERARMEEMACKENSENYYKAMERADENYTROTZALLERBEMUEHUNGENDERINBETRACHTKOMMENDENINSTANZENISTESUNSNICHTGELUNGENDIEENTENTEVONIHREMUNGERECHTFERTIGTENSTANDPUNKTEABZUBRINGENY",
+          "reason": "Explicit alternative for the nine-position damaged word; no alternative is selected as historically certain."
+        }
+      ],
+      "source_image_id": "p226_C1"
+    },
+    {
+      "id": "p226_C2",
+      "printed_page": 226,
+      "pdf_page_1based": 229,
+      "key_id": "Nov28-Dec1",
+      "header": "Continuation of p226 C; 2 TL RICHI-324",
+      "source_rows": [
+        "VVFFD FVFXG VVXFD DFVXV VVFVV GVGVX GFVGA VFGVX",
+        "VFAVF FVGAG VGVFF FFAGA AADGA FFGFA AVDVG FVAVV",
+        "GDVVA VVGFV VFDDG VVFDV FVFVF XVVAV DFFFV FXFGF",
+        "VFFGG GDFFV GAAVG GGFDF FADVF AFAGD AGVDG VDGFA",
+        "VXVVF FDDDV XXFXG FVGVF VVVFF AAAFD VGDAA VAFGD",
+        "FFGAV FGFVG DFVAG VVAFF GGGDD FDGDA GFGGF GDVGG",
+        "GDAGA AGDAF GDAVG AFFAV DXVFG VVXVV VXDVX XFVFA",
+        "FFVFX FFFGF XGXVX FDGFX XXFXD DGFVF DFXDV XDXVV",
+        "GXFD"
+      ],
+      "source_slots": 324,
+      "advertised_length": 324,
+      "ocr_blocks": [
+        "p226_ocr_block4"
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_identity_raw": "SIEB5HARRTAUFEURERINTERNIER1NGUNDBETRACHQETDIEAUFRECHTERHALTUNGDESABMARSCHBEFEHLSALSEINENBIUCHDESBAFF5NSTILLSTANDEPDERIHRDASRECHTGNBTINDEUTSCOLANDEINZUMERSCHIEREN",
+      "expected_model_raw": "SIEB5HARRTAUFEURERINTERNIER1NGUNDBETRACHQETDIEAUFRECHTERHALTUNGDESABMARSCHBEFEHLSALSEINENBIUCHDESBAFF5NSTILLSTANDEPDERIHRDASRECHTGNBTINDEUTSCOLANDEINZUMERSCHIEREN",
+      "notes": [],
+      "editorial_candidates": [
+        {
+          "id": "readable",
+          "plaintext": "SIEBEHARRTAUFEURERINTERNIERUNGUNDBETRACHTETDIEAUFRECHTERHALTUNGDESABMARSCHBEFEHLSALSEINENBRUCHDESWAFFENSTILLSTANDESDERIHRDASRECHTGIBTINDEUTSCHLANDEINZUMARSCHIEREN",
+          "reason": "Same-length ordinary-word restoration; every known-coordinate change is costed."
+        }
+      ],
+      "source_image_id": "p226_C2"
+    },
+    {
+      "id": "p226_C3",
+      "printed_page": 226,
+      "pdf_page_1based": 229,
+      "key_id": "Nov28-Dec1",
+      "header": "Continuation of p226 C; 3 TL RICHI-338",
+      "source_rows": [
+        "XDFFV FVDGF XDVFA XFDVV GFXVV XVXVX FVVVV DVFFX",
+        "XXAAA FGVDF GGFFV GVGGG ADAXV ADGDG VGDFG GDVGG",
+        "FGDDD FFVVF VVGAG FFXFX GVFVV FFVFV AFXFV FVXDV",
+        "XFXVF DFVGG DAFAD GGFGA GGGDG VFFVA AFVDV FFVDV",
+        "FFGAG VFFGDV VVGFX VFXGF XXFXG DFVFV AVFGA GFVAG",
+        "AGDFV GDDFV AGFFF VXFGG GAGGV ADDGF FDAGA VFGGX",
+        "GADAG GAVVV ADGGD DAADA FFGFF VGFVG AVXAG XFVA",
+        "GXVDV FDGDX FFFFV FGVFF DGFFV FXAVF GXFFV XDGXV",
+        "FVGDD FVDGX VFXAF GXV"
+      ],
+      "source_slots": 338,
+      "advertised_length": 338,
+      "ocr_blocks": [
+        "p226_ocr_block5"
+      ],
+      "model": {
+        "kind": "group_restore",
+        "delete_source_indices": [
+          166,
+          167
+        ],
+        "canonical_delete_source_index": 166,
+        "insert_before_source_index": 277,
+        "reason": "Correct the six-letter/four-letter printed groups, conditionally on the readable body."
+      },
+      "expected_identity_raw": "56IVLN1SESBEMU0HEDEURA1NR0RNDEJUL7SOJ12EILALXANDKMSIQECERJRNHT3ON5MAN20LC0ID0L1NT1AC5DAMDHJGLDBHS4RACSHECQRIJN0NISHL1MBGCNECKVICLUND80SUHUINN1JH1DMATJ1JAJMKMZOR11COA1NTZ",
+      "expected_model_raw": "ESIVTUNSE?BEMUEHENEUREINTERNIERUNGSOZUGESTALTENDASSIHRWEDERNHTNOCHMANGELLEIDETUNDNACHDEMMOJGLICHSTRASCHENFRIEDENSCHLUSSGLUECKLICHUNDGESUNDINDIEHEIMATZUJUECKKEHRENKOENNTY",
+      "notes": [
+        "Group34 is visibly VFFGDV, six letters, and group56 is XFVA, four letters. The total source has the advertised338 coordinates.",
+        "The raw identity decryption is retained. A separate group-restoration model deletes either adjacent F from group34 and supplies a coordinate after the X of group56. These are two deletion-index aliases of the same repaired stream.",
+        "The readable candidate preserves the source-length FRIEDENSCHLUSS (one S at the compound join), rather than silently inserting a second S."
+      ],
+      "editorial_candidates": [
+        {
+          "id": "readable",
+          "plaintext": "ESISTUNSERBEMUEHENEUREINTERNIERUNGSOZUGESTALTENDASSIHRWEDERNOTNOCHMANGELLEIDETUNDNACHDEMMOEGLICHSTRASCHENFRIEDENSCHLUSSGLUECKLICHUNDGESUNDINDIEHEIMATZURUECKKEHRENKOENNTY",
+          "reason": "Conditional group-restoration reading. The remaining four known-coordinate substitutions and one inserted-coordinate fill are fully recorded."
+        }
+      ],
+      "source_image_id": "p226_C3"
+    },
+    {
+      "id": "p227_A4",
+      "printed_page": 227,
+      "pdf_page_1based": 230,
+      "key_id": "Nov28-Dec1",
+      "header": "ZON [O with two marks] v BSL (04.20 a.m., December 2nd); NR 132 2200 (11/29) 4 TLE; 4 TL RICHI-392",
+      "source_rows": [
+        "FFFFV XGVXF VGFVD FVFVV XAFGG FFFDF VGADX XVVVF",
+        "VGVFG VGAAG GGFFA DGAVA FFGGG AGGDD VVGAF GGGVV",
+        "VAADG GVFDF ADDGA FDFXG DVGFD VGGDG XFVXF VGFXV",
+        "FFVVV XFVVV DAVGV FFXVD VVADF XGDFV DFVGF XGAGV",
+        "AGFAD FFVXD GGDGV GDGVG GGGAA ADXVF DFAGX XDDFG",
+        "VVFGV FVVFF FGVFA VVXXD VDADG GDDAG FDAGF FDFAV",
+        "XAADF FAFFG GGGFG VFGDG FXVGF FGGAG FFFFA ADDXA",
+        "GFADG AGXAX DGAGF DDFGD FDFVG AGAVV AGFVF VGAVV",
+        "FFXVF VFVFV AFFVV AXAXX DVVGF AXFDF VVDDD XXFFF",
+        "DVFVV XXAVF FDFGD VDDVG FFGXX GGFAG VF"
+      ],
+      "source_slots": 392,
+      "advertised_length": 392,
+      "ocr_blocks": [
+        "p227_ocr_block1"
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_identity_raw": "HALTETRUHEUNDORDNUNGDAMITNICHTDURCHINNEREAUFLOESUU0IHRALLEVER4ORENGEHTYWIRHOFFENEUCHRLLERECHLBRLDGESUN1INDEMNEUENDEUTSCHLAUDWIEDERZ1SEHEN7VOLLZUGSRATDERAYUNDSYRABTEGROSSBERLINYSOLKENBUHRYMNELLERYY",
+      "expected_model_raw": "HALTETRUHEUNDORDNUNGDAMITNICHTDURCHINNEREAUFLOESUU0IHRALLEVER4ORENGEHTYWIRHOFFENEUCHRLLERECHLBRLDGESUN1INDEMNEUENDEUTSCHLAUDWIEDERZ1SEHEN7VOLLZUGSRATDERAYUNDSYRABTEGROSSBERLINYSOLKENBUHRYMNELLERYY",
+      "notes": [
+        "The literal name SOLKENBUHR is retained in the conservative editorial candidate; a separate Molkenbuhr proposal is costed."
+      ],
+      "editorial_candidates": [
+        {
+          "id": "readable",
+          "plaintext": "HALTETRUHEUNDORDNUNGDAMITNICHTDURCHINNEREAUFLOESUNGIHRALLEVERLORENGEHTYWIRHOFFENEUCHALLERECHTBALDGESUNDINDEMNEUENDEUTSCHLANDWIEDERZUSEHENYVOLLZUGSRATDERAYUNDSYRAETEGROSSBERLINYSOLKENBUHRYMUELLERYY",
+          "reason": "Restore the closing plea and council title; retain SOLKENBUHR as the raw uncertain name."
+        },
+        {
+          "id": "molkenbuhr_proposal",
+          "plaintext": "HALTETRUHEUNDORDNUNGDAMITNICHTDURCHINNEREAUFLOESUNGIHRALLEVERLORENGEHTYWIRHOFFENEUCHALLERECHTBALDGESUNDINDEMNEUENDEUTSCHLANDWIEDERZUSEHENYVOLLZUGSRATDERAYUNDSYRAETEGROSSBERLINYMOLKENBUHRYMUELLERYY",
+          "reason": "Possible surname correction; an additional source-coordinate substitution, not an unchanged decryption or established first-name identification."
+        }
+      ],
+      "source_image_id": "p227_A4"
+    },
+    {
+      "id": "p225_A",
+      "printed_page": 225,
+      "pdf_page_1based": 228,
+      "key_id": "Nov28-Dec1",
+      "header": "BSL v UKS (09.24 p.m., November 28th); 2200 (28/11); RIZI-232",
+      "source_rows": [
+        "FVFXF FAVGF VFXVV XVVDG XFVGF VXGAV DDFGA GFGFD",
+        "GFGGF GFFVD GGGAG GGDXD DGGFV FVX-V XDXFD VFVGX",
+        "AFAXX GXDFG VFGGD FFAVV ADGAX DFGVR -DDVG XXXVF",
+        "GVFGF GVFGX GFVAA GXDAG AGVGG GVVVV XVGGX GVGGA",
+        "GVAG- GGGVG AFV-- VFFFA VAAAA VDVGX XVFVD VAVFD",
+        "FDFGD VXGVD FFVFG GFAFF XFADF AAGXG FV"
+      ],
+      "source_slots": 232,
+      "advertised_length": 232,
+      "ocr_blocks": [
+        "p225_ocr_block1"
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_identity_raw": "STATI?NUKSCHIFFRABERSTENDEZMITNSLNOVYD?DEZTAFELNNOCHNICGTEINGEGANG?NYBITTE?EL?GDANUNSEBENFALLSMITNSLNOVSCHLUES?ELNYY",
+      "expected_model_raw": "STATI?NUKSCHIFFRABERSTENDEZMITNSLNOVYD?DEZTAFELNNOCHNICGTEINGEGANG?NYBITTE?EL?GDANUNSEBENFALLSMITNSLNOVSCHLUES?ELNYY",
+      "notes": [
+        "The printed R in DFGVR and all five dashes remain literal invalid-coordinate slots.",
+        "The unenciphered following annotation is retained separately; it is not appended to the RIZI-232 stream.",
+        "The raw NSL occurs twice and remains NSL; no change of call sign or key date is inferred."
+      ],
+      "editorial_candidates": [],
+      "source_image_id": "p225_A"
+    },
+    {
+      "id": "p227_B",
+      "printed_page": 227,
+      "pdf_page_1based": 230,
+      "key_id": "Nov28-Dec1",
+      "header": "BSL v UKS (10.31 p.m., November 28th); 1851 (11/28); RIZI-152",
+      "source_rows": [
+        "FDVFG GXVVG AFVVD FGVFA DAFFF VVDAF FXDVD AADXD",
+        "VAFVX FXFFX VFGVF VAGGF GAFFF AFVGA FVGFX GXXVX",
+        "GGFFV XVVDA AADFG AADXG FFGGA DGDDG DGDGV AXFAF",
+        "DAGFX VVVVD GFVGV GFXDV VDAVF GFGVF GV"
+      ],
+      "source_slots": 152,
+      "advertised_length": 152,
+      "ocr_blocks": [
+        "p227_ocr_block2"
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_identity_raw": "BITTEFUNKSPRUECHEANXXYARMEEUNDUNTERSTEL6TEFORMATIONENUNMITTELBARANZOENGEBENY",
+      "expected_model_raw": "BITTEFUNKSPRUECHEANXXYARMEEUNDUNTERSTEL6TEFORMATIONENUNMITTELBARANZOENGEBENY",
+      "notes": [
+        "The raw XX army field is retained. No assignment to Arabic or Roman numerals is made in the base edition."
+      ],
+      "editorial_candidates": [
+        {
+          "id": "readable",
+          "plaintext": "BITTEFUNKSPRUECHEANXXYARMEEUNDUNTERSTELLTEFORMATIONENUNMITTELBARANZOENGEBENY",
+          "reason": "Repair the ordinary word UNTERSTELLTE; preserve XX and all raw numerical labels."
+        }
+      ],
+      "source_image_id": "p227_B"
+    },
+    {
+      "id": "p228_C1",
+      "printed_page": 228,
+      "pdf_page_1based": 231,
+      "key_id": "Nov28-Dec1",
+      "header": "BSL v ZON [O with two marks] (04.47 a.m., December 1st); 0420 (11/30) 2 TLE; 1 TL RIZI-176",
+      "source_rows": [
+        "AVFVX XXAFX AGVVV XGAFF DVFVF XFVVG DXGXA XXGXX",
+        "XXFGX FDXFV FXDVF XXVXV AXGVX AXDGA VAGXG GXFFA",
+        "AGGXG FDDXG VAVXX DFADV AFFVA GAGVG DVXAG VXAXG",
+        "AVAAA AXVGA VXDGD FDAVV DAGFV GFXVG VFGGA VAVDX",
+        "VAAVA FFVVG FXXVA V"
+      ],
+      "source_slots": 176,
+      "advertised_length": 176,
+      "ocr_blocks": [
+        "p228_ocr_block5"
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_identity_raw": "MITYUKSYVEREINBARTEYZOENYDEZEMBERSCHLUESSELWIEYBSLYZWISCHENYBSLYUNDYZOENYVORGESCHLAGENYY",
+      "expected_model_raw": "MITYUKSYVEREINBARTEYZOENYDEZEMBERSCHLUESSELWIEYBSLYZWISCHENYBSLYUNDYZOENYVORGESCHLAGENYY",
+      "notes": [],
+      "editorial_candidates": [],
+      "source_image_id": "p228_C"
+    },
+    {
+      "id": "p228_C2",
+      "printed_page": 228,
+      "pdf_page_1based": 231,
+      "key_id": "Nov28-Dec1",
+      "header": "Continuation of p228 C; 2 TL RIZI-144",
+      "source_rows": [
+        "DFGXG VFVAG XFXFV AVVVF FAGVG VVAVD GAXDV GXAAF",
+        "XFXGV VFAXV FAVFG GGGGA VFXVA DGDFX ADFVF VDGFX",
+        "XFXXV GAXFF FGVAV ADGFA DGVAF XAGDX XGVGV VAXAA",
+        "FGVAG GVXXD VXFFF VGXVX VXFF"
+      ],
+      "source_slots": 144,
+      "advertised_length": 144,
+      "ocr_blocks": [
+        "p228_ocr_block6"
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_identity_raw": "IMVERKEHRYBSLYUNDYUKSYGLEICHENSCHLUESSELVERWENDENYYUKSYISTEINVERSTANDENY",
+      "expected_model_raw": "IMVERKEHRYBSLYUNDYUKSYGLEICHENSCHLUESSELVERWENDENYYUKSYISTEINVERSTANDENY",
+      "notes": [],
+      "editorial_candidates": [],
+      "source_image_id": "p228_C"
+    }
+  ],
+  "cleartext_source": {
+    "id": "p227_C",
+    "printed_page": 227,
+    "pdf_page_1based": 230,
+    "source_image_id": "p227_C",
+    "header": "BSL v UKS (time dashed, November 28th); 2316 (11/28) K. M. BERLIN",
+    "source_rows": [
+      "ZU DORT ALLGEM KRIEGSDEP NR 1228 - 11.18 3 U 4 TEIL",
+      "ITOCHI NICHT ZU ENTZUNFERN BITTE IN RICHI ODER KLARTEXT",
+      "HERZUG EBEN AUCH IN ZU KUNFT MOEGLICHSTE CHIFFVEVER-",
+      "FAHREN VERMEIDEN - O. K. M. OP. FF BSL v UKS UM"
+    ],
+    "interpretation": "The sender cannot decipher parts3 and4 in ITOCHI, requests RICHI or plaintext, and asks for ciphering to be avoided if possible in future. Typographical anomalies remain in the literal transcript.",
+    "limit": "This is clear source text, not a new decipherment; it does not identify any unresolved challenge key."
+  }
+}
