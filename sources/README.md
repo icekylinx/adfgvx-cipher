@@ -2,7 +2,7 @@
 
 | Source | Use |
 |---|---|
-| [Childs full scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view), located through [Richard Bean's catalogue](https://richardbean.id.au/misc/kryptos/aegean-park-press.html) | Original intercepts and historical key tables. Printed page *p* is PDF page *p + 3*. |
+| [Childs full scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view), located through [Richard Bean's catalogue](https://richardbean.id.au/misc/kryptos/aegean-park-press.html) | Original intercepts and historical key tables. For the intercept log and key appendix, printed page *p* is PDF page *p + 3*. |
 | [Lasry–Schmeh challenge](https://scienceblogs.de/klausis-krypto-kolumne/unsolved-adfxvx-messages-from-world-war-i/) | The 22 target records. |
 | [2017 discussion](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1) | Original public readings, key recovery, and corrections; individual comments are cited per message. |
 | [Lasry et al., Cryptologia](https://doi.org/10.1080/01611194.2016.1169461) | Modern recovery methods and period keys. |
@@ -24,3 +24,7 @@ The included excerpts reproduce the historical US government source pages needed
 The Aegean volume's 2000 edition date is supported by Lasry's bibliography; the inspected imprint is undated. Its opening technical paper matches *General Solution for the ADFGVX Cipher System*, Register 129, whose separate government title page states 1934. That publication date is distinct from the date of Childs's wartime records and from the composition date of the earlier manuscript.
 
 *German Military Ciphers from February to November 1918* is a different report, published in 1935 with Friedman's foreword dated 25 June 1934. The foreword dates Childs's underlying report to about December 1918 and identifies later added notes. Exact source identifiers and evidence are in [the registry](registry.json).
+
+## Header direction
+
+`X v Y` means **recipient X, sender Y**. The explicit routes and adjacent headers on [printed p. 9 of the 1935 report](excerpts/nsa_header_convention_p9.png) establish the convention: `NKJ v LP` accompanies a message from LP through NKJ, and `OSM v COS` accompanies a message from COS to OSM. Thus `CM v CZ` is CZ to CM; `-- v CM` has an unknown recipient and a known sender CM. A relay call sign need not identify the ultimate author or addressee.

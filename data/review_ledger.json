@@ -1111,6 +1111,207 @@
         "verifier": "../adfgvx/editorial164.py",
         "case": "../cases/context/p164_A4.md"
       }
+    },
+    {
+      "id": "eis_p217_manuscript_provenance",
+      "scope": [
+        "p217",
+        "TRUPPENVERSCHIEBUNG-2026-reported"
+      ],
+      "claim_reviewed": "The cited Childs manuscript pages 214-215 were not independently accessible in a later model query; the key's claimed archival source needed verification.",
+      "attribution": {
+        "author": "eis (Hacker News username)",
+        "date": "2026-09-19",
+        "timestamp_utc": "2026-09-19T08:51:50Z",
+        "url": "https://news.ycombinator.com/item?id=49764650",
+        "timestamp_source": "https://hacker-news.firebaseio.com/v0/item/49764650.json",
+        "related_reply": "https://news.ycombinator.com/item?id=49765045"
+      },
+      "review_status": "verified_prior_observation_with_scope_limit",
+      "result": "The source-provenance concern predates the present audit. The comment reports a separate model interaction, which we cannot authenticate, and is not proof that the published key or decipherment is false. Our arithmetic verification and archival provenance review are separate: the reported key reproduces the body, while the complete parent manuscript and December 9 date remain independently unverified.",
+      "verification_evidence": {
+        "artifact": "keys.json",
+        "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+        "additional_source_check": "The keyword and rank prefix are absent from the complete 23-page NSA General Solution scan and from the corresponding Aegean opening paper, printed pages 5-22. OCR searches allowing spaced letters and a visual check of all technical-paper pages were performed. Those papers instead demonstrate the VIKINGSCROWNHOTEL key. This bounded exclusion does not identify or refute the separately reported 1919 manuscript source.",
+        "holding_evidence": "The NCM public catalogue records a 1919 Childs manuscript at Z103.3.C5. Rose Mary Sheldon's Friedman Collection guide also lists Childs manuscript Parts I and II as Items 9 and 10, pages 1-110 and 112-212 respectively. These catalogue descriptions establish reported holdings, not access to the claimed key pages.",
+        "guide_url": "https://files.4in1.ws/Rose%20Mary%20Sheldon%20-%20The%20Friedman%20Collection%20Guide.pdf",
+        "guide_locator": "PDF pages 25-26, Items 9 and 10; mirrored copy of the archival guide",
+        "current_catalogue_check": "The Marshall Foundation's public search returned no record for ADFGVX or ADFGX; a Rives query found no digitized Childs cipher manuscript. This is a bounded catalogue search, not a claim that the holding does not exist."
+      }
+    },
+    {
+      "id": "technical_paper_bibliographic_dates",
+      "scope": [
+        "source_catalog",
+        "historical_credit"
+      ],
+      "claim_reviewed": "The Aegean volume, the 1934 technical paper, the 1935 Childs report, and the separately catalogued 1919 manuscript are distinct bibliographic objects.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02",
+        "kind": "Independent inspection of primary front matter and matching report text"
+      },
+      "review_status": "verified_with_date_qualifications",
+      "result": "The separate General Solution for the ADFGVX Cipher System title page prints Washington: 1934; its main text is reproduced in the Aegean opening section. Its footnote credits F. B. Rowlett, S. Kullback and A. Sinkov for the general solution and cites Childs for earlier wartime special cases. The Aegean imprint itself is undated; its 2000 edition date comes from Lasry's bibliography. German Military Ciphers from February to November 1918 prints 1935 on its title page and has a foreword dated June 25, 1934, stating that Childs wrote the underlying report about December 1918. None of these observations dates every part of the separately catalogued Childs manuscript.",
+      "verification_evidence": {
+        "artifact": "../sources/registry.json",
+        "source_ids": [
+          "childs",
+          "nsa_general_solution",
+          "nsa_summary",
+          "childs_1919_catalogue"
+        ],
+        "technical_paper_url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_269/41784769082379.pdf",
+        "technical_paper_locator": "Publication year: PDF page 4. Method attribution: printed page 2, footnote 1.",
+        "summary_report_locator": "Publication year: PDF page 5. Foreword date and composition statement: PDF page 7."
+      }
+    },
+    {
+      "id": "transport_context_source_pairs",
+      "scope": [
+        "p185_D",
+        "p189",
+        "p194_A",
+        "p196_B",
+        "p197_E",
+        "p198_C"
+      ],
+      "claim_reviewed": "Two pairs of neighbouring intercepts provide direct source evidence for the transport context surrounding the p185/p189 car messages.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02",
+        "kind": "Current source comparison and exact known-key verification; no first-decipherment claim"
+      },
+      "review_status": "independently_source_checked",
+      "result": "Childs p194 A and p196 B are both 174 coordinates and agree at 171 positions; discrepancies are K/X at 82, X/V at 167, and D/G at 173. The former contains one invalid K glyph. They concern agreed transport, Friday, DHFN, wagons and Hanau. The logged interception dates differ by one day. Childs p197 E and p198 C are both 186 coordinates and agree at 183 positions, differing at 59, 63 and 67. They concern a truck departure and remaining until Sunday. Their clear 13.45 header time agrees. Both raw layers and every discrepancy are retained; unassigned time/unit digits and the spelling of SEIFERT are not silently completed. These contextual messages are outside the original 22-target count.",
+      "verification_evidence": {
+        "source_transcriptions": "certificates/p185_D_transport.json",
+        "source_crops": [
+          "../sources/excerpts/childs_p194_context.png",
+          "../sources/excerpts/childs_p196_context.png",
+          "../sources/excerpts/childs_p197_context.png",
+          "../sources/excerpts/childs_p198_context.png"
+        ],
+        "key_id": "Nov13-15b",
+        "interpretation_limit": "DHFN remains a literal abbreviation. Expanding it to Diedenhofen, or interpreting STAT MET as Metz, is a separate hypothesis. The p198 C context copy must not be confused with the unresolved challenge target on p198 D."
+      }
+    },
+    {
+      "id": "transport_context_car_questions",
+      "scope": [
+        "p189",
+        "p189_E",
+        "p193_E"
+      ],
+      "claim_reviewed": "Neighbouring clear-key messages discuss vehicles and an attachable small wagon.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02",
+        "kind": "Current source verification; no first-decipherment claim"
+      },
+      "review_status": "independently_source_checked",
+      "result": "The 88-coordinate p193 E has a clear RIZI-88 header and gives KLEINERFEDERWAGENZU?ANHAENGENHIERXKOMMTAUTOX under the conservative November 13-15b square. The 94-coordinate p189 E gives JAHEBEPUMPEAUSBLECHXKOMMEN?AUTOSXHIER?ANH?ENGER. Its literal B at source 81 is outside ADFGVX and stays erased. The separate November 15 subheading agrees with p189 E's interception line. These texts support a transport conversation without determining missing coordinates in the original p189 A challenge target.",
+      "verification_evidence": {
+        "source_transcriptions": "certificates/p185_D_transport.json",
+        "source_crops": [
+          "../sources/excerpts/childs_p189_context.png",
+          "../sources/excerpts/childs_p193_context.png"
+        ],
+        "key_id": "Nov13-15b"
+      }
+    },
+    {
+      "id": "header_direction_convention",
+      "scope": [
+        "source_catalog",
+        "transport_context",
+        "p73",
+        "p158"
+      ],
+      "claim_reviewed": "The printed routing convention X v Y identifies X as recipient and Y as sender, not the reverse.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02",
+        "kind": "Independent cross-check of primary routing prose and adjacent message headers"
+      },
+      "review_status": "verified_from_explicit_primary_examples",
+      "result": "On printed p9 the 1935 report explicitly describes a July24 message sent by LP (Berlin) to COS (Tiflis) through NKJ (Nicolaiev), then prints NKJ v LP and FUER COS. It describes the other message as COS to OSM (Constantinople), then prints OSM v COS. Thus CM v CZ denotes CZ to CM; -- v CM has an absent recipient and a known sender CM. The independent November20 report describes SY (Spa) to RVV through N4, agreeing with p168 C header RVV v N4 and its VON SY origin notation. A radio sender/recipient need not be the ultimate author/addressee because a relay can intervene.",
+      "verification_evidence": {
+        "source_id": "nsa_summary",
+        "source_url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf",
+        "locators": [
+          "Printed page9 / PDF page17: explicit July24 routes and both headers",
+          "Printed page42 / PDF page50: November20 report on order11338",
+          "Childs complete Aegean scan, printed p168 C / PDF page171: RVV v N4; VON SY"
+        ],
+        "source_crop": "nsa_header_convention_printed_p9.png",
+        "metadata_correction": "Transport context p193 E now states recipient absent. All original literal headers are preserved."
+      }
+    },
+    {
+      "id": "p185_D_contiguous_gap",
+      "scope": [
+        "p185_D",
+        "p189"
+      ],
+      "claim_reviewed": "A five-coordinate gap at source55 produces a conditional transport reading without changing received coordinates.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_constraints_under_unproved_geometry",
+      "result": "All 194 positions are enumerated. The source has 193 slots, including an invalid Y, against header 198. Gap 55 fixes 91 of 99 letters and preserves all 192 valid source coordinates. A composite language score ranks 55 first while a conventional quadgram score ranks 57 first. No letter is fixed across all 194 geometries. The source-supported p194/p196 composite separately fixes 86 of 87 letters while retaining all four combinations of the valid-coordinate disagreements. No unknown square cell is assigned and the p189 challenge status remains conditional partial.",
+      "verification_evidence": {
+        "artifact": "certificates/p185_D_transport.json",
+        "verifier": "../adfgvx/transport.py",
+        "case": "../cases/context/transport.md"
+      }
+    },
+    {
+      "id": "header_direction_convention",
+      "scope": [
+        "source_catalog",
+        "transport_context",
+        "p73",
+        "p158"
+      ],
+      "claim_reviewed": "The printed routing convention X v Y identifies X as recipient and Y as sender, not the reverse.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02",
+        "kind": "Independent cross-check of primary routing prose and adjacent message headers"
+      },
+      "review_status": "verified_from_explicit_primary_examples",
+      "result": "On printed p9 the 1935 report explicitly describes a July24 message sent by LP (Berlin) to COS (Tiflis) through NKJ (Nicolaiev), then prints NKJ v LP and FUER COS. It describes the other message as COS to OSM (Constantinople), then prints OSM v COS. Thus CM v CZ denotes CZ to CM; -- v CM has an absent recipient and a known sender CM. The independent November20 report describes SY (Spa) to RVV through N4, agreeing with p168 C header RVV v N4 and its VON SY origin notation. A radio sender/recipient need not be the ultimate author/addressee because a relay can intervene.",
+      "verification_evidence": {
+        "source_id": "nsa_summary",
+        "source_url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf",
+        "locators": [
+          "Printed page9 / PDF page17: explicit July24 routes and both headers",
+          "Printed page42 / PDF page50: November20 report on order11338",
+          "Childs complete Aegean scan, printed p168 C / PDF page171: RVV v N4; VON SY"
+        ],
+        "source_crop": "../sources/excerpts/nsa_header_convention_p9.png",
+        "metadata_correction": "Transport context p193 E now states recipient absent. All original literal headers are preserved."
+      }
     }
   ]
 }

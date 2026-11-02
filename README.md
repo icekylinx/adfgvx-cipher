@@ -52,9 +52,11 @@ The October 2026 readings below were first submitted by **Ayush Agarwal** and re
 
 [p164 A4](cases/context/p164_A4.md) supports a conditional reading about dismounted cavalry west of an unidentified `MIRCO`. The source fixes 87 of 99 letters; the complete editorial hypothesis requires nine known-coordinate substitutions and thirteen erasure fills. It does not change p164a or p164b to solved.
 
+[The p185/p189 transport conversation](cases/context/transport.md) adds seven source records. Two near-parallel transport orders combine to fix 86 of 87 letters; a separate p185 D missing-group hypothesis fixes 91 of 99 letters conditionally. All 194 possible gap placements and both pairs of disagreeing witnesses remain available.
+
 ## Review coverage
 
-The [review ledger](data/review_ledger.json) currently records **49 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
+The [review ledger](data/review_ledger.json) currently records **55 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
 
 A September 2026 mass-solution claim is retained with its [reproducibility assessment](data/reviews/unsupported_claim_checks.json) and **Jozef Krajcovic's earlier critique**. Its published constants and selected substrings do not provide a reproducible full reading; no target is marked solved on that basis.
 
@@ -67,7 +69,7 @@ python3 -m adfgvx.verify
 python3 -m adfgvx.verify --json
 ```
 
-The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips, the p152 suffix alternatives, the p158 splice and glyph variants, every p189 source-preserving alignment and plaintext domain, and 25 explicit reconstructions of 14 earlier-readable entries. Three supplementary source and published layers are verified as well. The p164 A4 editorial hypothesis has a separate edit certificate and independent roundtrip check. The p164/p215 checks also reproduce uncertainty counts and contradictions in later completions. Odd-length ciphertext cannot silently lose a coordinate.
+The verifier checks independent ADFGVX arithmetic, seven exact source roundtrips, the p152 suffix alternatives, the p158 splice and glyph variants, every p189 source-preserving alignment and plaintext domain, and 25 explicit reconstructions of 14 earlier-readable entries. Three supplementary source and published layers are verified as well. The p164 A4 editorial hypothesis and seven transport-context records have separate certificates and independent coordinate/domain checks. The p164/p215 checks also reproduce uncertainty counts and contradictions in later completions. Odd-length ciphertext cannot silently lose a coordinate.
 
 ## Contents
 

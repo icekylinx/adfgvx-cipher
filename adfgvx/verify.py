@@ -12,7 +12,7 @@ from .cipher import decrypt, encrypt, self_check, SYMBOLS, plaintext_domains, tr
 from .alignment import find_switch, table, alignment
 from .projection import analyze, untranspose as project_untranspose, transpose as project_transpose
 from . import prior
-from . import constraints164, constraints215, supplementary, editorial164
+from . import constraints164, constraints215, supplementary, editorial164, transport
 
 ROOT=Path(__file__).resolve().parent.parent
 
@@ -181,6 +181,27 @@ def p164_editorial():
     return result
 
 
+def transport_context():
+    record=certificate('p185_D_transport');result=transport.verify(record)
+    ranks=record['key']['column_rank_order'];square=record['key']['square']
+    keys=json.loads((ROOT/'data/keys.json').read_text())['keys']
+    known=next(k for k in keys if k['id']==record['key']['id'])
+    assert (ranks,square)==(known['column_rank_order'],known['square'])
+    for row in record['all_contiguous_gap_candidates']:
+        ct=row['corrected_ciphertext']
+        assert plaintext_domains(ct,ranks,square)==row['plaintext_domains']
+        assert transpose(untranspose(ct,ranks),ranks)==ct
+    for row in record['direct_transport_context']:
+        ct=row['source']['analysis_ciphertext']
+        assert plaintext_domains(ct,ranks,square)==[d['possible_characters'] for d in row['analysis']['domains']]
+        assert transpose(untranspose(ct,ranks),ranks)==ct
+    for row in record['source_supported_transport_composite']['all_four_observed_coordinate_choices']:
+        domains=plaintext_domains(row['ciphertext'],ranks,square)
+        assert ''.join(d if len(d)==1 else '?' for d in domains)==row['raw_partial_plaintext']
+    result.update(status='PASS',classification='source_checked_transport_context',independent_domain_crosscheck=True)
+    return result
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--json',action='store_true');args=parser.parse_args()
     assert self_check()
@@ -190,7 +211,8 @@ def main():
     else:raise AssertionError('Odd-length input was silently truncated')
     results={'arithmetic':'PASS','cases':{'p152':p152(),'p158':p158(),'p189':p189(),
              'p164':constraints164.verify(certificate('p164')),
-             'p215':constraints215.verify(certificate('p215')),'p164_A4_editorial':p164_editorial()},
+             'p215':constraints215.verify(certificate('p215')),'p164_A4_editorial':p164_editorial(),
+             'transport_context':transport_context()},
              'prior_readings':prior_readings(),'supplementary_readings':supplementary_readings()}
     if args.json:print(json.dumps(results,indent=2))
     else:
