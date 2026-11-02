@@ -4,7 +4,7 @@
 
 **Source edition and repair analysis:** icekylinx and GPT-6 Astra Pro. **Earlier key:** the published October 4–6 square and 22-column transposition, credited to Childs and George Lasry / Lasry, Niebel, Kopal and Wacker in the [key catalogue](../../data/keys.json).
 
-Nine source-reviewed parts recover five exchanges about the Caucasus: personnel and money for Kress's delegation, price instructions to Westernhagen, electrical equipment sent to Tiflis, a cargo leaving Braila for Poti, and radio timings. An interrupted continuation is retained separately without an accepted reading. The German readings below use explicit editorial repairs. Every received coordinate, surviving garble, ambiguous layout and repair cost is retained in the [certificate](../../experiments/october_caucasus/certificates.json). This is a new reproducible edition in this repository, without a first-historical-decipherment claim.
+Twelve source records cover seven exchanges about the Caucasus: personnel and money for Kress's delegation, price instructions to Westernhagen, electrical equipment sent to Tiflis, a cargo leaving Braila for Poti, radio timings, a liaison officer and equipment procurement. The p68 procurement pair has a **provisional, heavily repaired first part and an opening-only second part**; it is not a direct recovery of the complete exchange. Another interrupted continuation is retained separately without an accepted reading. The German readings below use explicit editorial repairs. Every received coordinate, surviving garble, ambiguous layout and repair cost is retained in the [certificate](../../experiments/october_caucasus/certificates.json). This is a new reproducible edition in this repository, without a first-historical-decipherment claim.
 
 ## p72 A — Reinforcements, administrative personnel and money for Kress
 
@@ -101,6 +101,54 @@ It replaces the short printed `XFFF` by `GDFFF`: either insert `G` before the pr
 **Meaning:** The proposed times are unsuitable for OSM. The recipient is asked whether the previously notified times are acceptable and how OSM is received at two wavelengths.
 
 The unchanged 274-coordinate geometry fixes **136/137 raw positions**. The displayed `NR`, `2000`, `SIE` and `3500` require **four known-coordinate substitutions**, with one additional erased-coordinate fill for `ZU`. The first time and second wavelength are plausible editorial values, not independently recovered numerical facts. `2030`, `2800` and `SCHLEE` are directly decoded; the damaged reference `RICHIM98` is left unresolved.
+
+## p69 A — A liaison officer from Army Group Kiev
+
+**Source:** printed p. 69 / PDF p. 72, section A. `NKJ v --- (---- October 11th); NR 44 0628 (5.10); RICHI-220`. The sender is not identified in the clear header.
+
+### Most likely readable German
+
+> Mit Einverständnis O.H.L. wird Rittm. [Tellner?], [Tellner?], als Verbdgs.-Offz. der Heeresgr. nach Tiflis entsandt. Heergr. Kjew.
+
+**Meaning:** With Supreme Army Command's approval, a cavalry captain is being sent to Tiflis as the army group's liaison officer. The signature names Army Group Kiev; the cipher's literal spelling is `KJEW`. The damaged surname is repeated and is provisionally read as **Tellner**, without assigning a forename or identifying a person outside the telegram.
+
+The actual body has **220 coordinates**, matching the header. Three parenthesized `X` values are retained as recorded source coordinates, including the final printed run `FDX(X)-X(X)VGX`. Parentheses remain visible in the literal row edition. Removing those annotated letters or treating the ten-slot run as one five-letter group would change the frame.
+
+The literal inverse fixes **109/110 raw positions**:
+
+```text
+MITEINVERSTAEWDNISXOXHXLXWIRDRITTMXTELLNEIXTELLN1RXA?SVERBDGSXXBFZDERHEERELGRXNACHXTIKLCSXEN5SAND6XHEERGRXKJEW
+```
+
+The displayed ordinary words require **10 known-coordinate substitutions and one erased-coordinate fill**. The two raw surname copies, `TELLNEI` and `TELLN1R`, preserve complementary letters: `TELLNER` combines the sixth letter of the first copy with the seventh of the second. That is still an editorial reconstruction, not an independent personnel identification. `RITTM`, `VERBDGS` and `OFFZ` are expanded only in the explanation.
+
+## p68 A — Provisional procurement text carrying CHI labels
+
+**Source:** printed p. 68 / PDF p. 71, section A, two parts. `COS, POT v NKJ (9.19 p.m., October 5th); VON THO 1640 (5) 2 TEILE`. The first part visibly says **CHI-220**. The second says **CHI-186** and then **RICHI-186** on the next line. Those labels are preserved exactly.
+
+The published October 4–6 key gives a recognizable Kress/Tiflis address and equipment vocabulary. This is another warning that the printed `CHI` label alone does not identify the separate key family used by the open/previously open CHI challenges. These parts are not companions under the recovered p153 key.
+
+### Provisional first-part reading
+
+> General v. Kress, Tiflis. Zu T-Spruch Nr. [?159; damaged reference]. Betr. Entsendung 2 Offz. nach Tiflis zum Ankauf von Ausrüstungsstücken …
+
+**Meaning under the proposed repairs:** The message concerns sending two officers to Tiflis to purchase equipment. Its reference number and date cannot be completed responsibly from this edition.
+
+The literal **220-slot** body has **22 coordinate erasures**, including the non-coordinate letters `W` and `K`, and fixes **89/110 raw positions**. Two erased coordinates fall in the same plaintext pair. Its unchanged inverse is:
+
+```text
+G?NE??LOKR?SSXTIFL?LXX?1TSP?UC6NR?159F????9XBZTRW?NT?1?DU?G2OFFX0NAUHDTCFSISXZU??XKAUFVONA5SR5?STUNAS?TS?CKENX
+```
+
+The displayed ordinary wording needs **24 known-coordinate substitutions and 17 erased-coordinate fills**. This substantial editorial cost is why the reading remains **provisional**. The `T` in `TSPRUCH` survives directly and is not expanded to an asserted original abbreviation. Five date/reference positions and the first position after `NR` remain unassigned in the proposed template. No precise reference date is supplied.
+
+### Limited second-part continuation
+
+Part 2 has exactly **186 slots**, with **41 coordinate erasures** and **56/93 fixed raw positions**. Its beginning `??DARTILLER??T7QITJO?` supports the provisional continuation:
+
+> … und Artilleriemunition …
+
+The template asserts only `UNDARTILLERIEMUNITION`, requiring **four known-coordinate substitutions and five erasure fills**. The remaining **72 plaintext positions are unasserted**. The certificate retains their raw domains, and its arbitrary coordinate fillers for a complete arithmetic roundtrip are not promoted to a further sentence, quantity, date or signature.
 
 ## Relation to the open p73 challenge
 

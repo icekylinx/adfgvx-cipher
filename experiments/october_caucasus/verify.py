@@ -148,7 +148,9 @@ def rebuild(inputs):
         common = ''.join(d if len(d) == 1 else '?' for d in union)
         best_cost = min(m['editorial_counts']['substitutions'] for m in models)
         best_models = [m['id'] for m in models if m['editorial_counts']['substitutions'] == best_cost]
-        records.append({'id': record['id'], 'source_slots': len(source),
+        records.append({'id': record['id'],
+                        'reading_status': record.get('reading_status', 'source_reviewed_editorial_reading'),
+                        'source_slots': len(source),
                         'known_source_coordinates': sum(c in COORD for c in source),
                         'source_erased_slots': source.count('?'),
                         'advertised_length': record['advertised_length'],
@@ -181,6 +183,16 @@ def rebuild(inputs):
     for message_id, boundaries in [('p69_B1',range(300,305)),('p69_B2',range(45,50))]:
         r = next(r for r in inputs['records'] if r['id'] == message_id)
         assert [m['insertions'][0]['before_source'] for m in r['layout_models']] == list(boundaries)
+    # Parentheses are source annotations around recorded coordinates, not deletions.
+    r = next(r for r in inputs['records'] if r['id'] == 'p69_A')
+    assert sum(row.count('(X)') for row in r['rows']) == 3
+    assert 'FDX(X)-X(X)VGX' in r['rows'][-1]
+    assert len(r['analysis_source']) == 220
+    # Preserve the explicitly limited opening; later witness fillers are not text.
+    r = next(r for r in inputs['records'] if r['id'] == 'p68_A2')
+    assert r['editorial_template'] == 'UNDARTILLERIEMUNITION' + '?' * 72
+    assert r['header'] == '2 TL CHI-186; RICHI-186'
+    assert by_id['p68_A2']['models'][0]['editorial_counts'] == {'substitutions': 4, 'fills': 5}
     unresolved = []
     for r in inputs.get('unresolved_continuations', []):
         source = ''.join(' '.join(r['rows']).split())
