@@ -1,0 +1,17 @@
+{
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "builder": "experiments/p198_word_search/build_lexicon.py",
+  "builder_sha256": "3a66efd7b34fcf418339d3985a63669c3bce2900741768d8af9890bfb0e14322",
+  "source_cache": "Ten source files with the SHA-256 values pinned in the retained provenance.",
+  "all_provenance_fields_match": true,
+  "lexicon_byte_identical": true,
+  "lexicon_sha256": "6ea36fc166dd884a3a46f99aa7fd9ab03ae237d5a79c1a30f059e983d5f0d9ef",
+  "weighted_words": 1091203,
+  "distinct_words": 53465,
+  "word_pairs": 176836,
+  "portable_command": "python experiments/p198_word_search/build_lexicon.py --cache /path/to/pinned-books --output /path/to/rebuilt-lexicon",
+  "scope": "Rebuilt with the published builder from the cached pinned books; no model was retrained or altered for any existing attack."
+}

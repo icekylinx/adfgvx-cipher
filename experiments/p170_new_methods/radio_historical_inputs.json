@@ -1,0 +1,251 @@
+{
+  "schema": "p170-radio-historical-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": "Unchanged p170 analysis ciphertext from data/messages.json; 106 observed coordinates.",
+  "source_ciphertext_sha256": "2cdf18dd71917e53d68f1271f1c297a28a40c65dda2285d05eeb726f9b1ae753",
+  "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+  "default_model_path": "/tmp/adfgvx-radio-model/radio_book37_quad_marginal.bin",
+  "calibration_results_sha256": "84aa50331e9f13380e48075e0fe2581e149dc9cd4c9f75cd089c50c5b2d67673",
+  "selection_basis": "The frozen radio mixture recovered five of six full-square length-matched held-out controls versus two for the book model. The width-22 failure remains a limitation. Three nearby published period squares plus the separately attributed audited CHI-Nov8 recovery square, all widths16\u201322, are candidate-finding branches only.",
+  "settings_frozen_before_historical_search": {
+    "restarts": 1000,
+    "iterations_per_restart": 100000,
+    "rank_initialization": "All zero, random search starts.",
+    "source_changes": 0,
+    "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+    "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+  },
+  "cases": [
+    {
+      "id": "p170_radio_Nov7-9_w20",
+      "key_id": "Nov7-9",
+      "width": 20,
+      "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 1024724932902532633
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w20",
+      "key_id": "CHI-Nov8-2026-recovery",
+      "width": 20,
+      "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 530516005130974573
+    },
+    {
+      "id": "p170_radio_Nov4-6_w20",
+      "key_id": "Nov4-6",
+      "width": 20,
+      "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 592795280675936342
+    },
+    {
+      "id": "p170_radio_Nov10-12_w20",
+      "key_id": "Nov10-12",
+      "width": 20,
+      "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 385132883730592429
+    },
+    {
+      "id": "p170_radio_Nov7-9_w19",
+      "key_id": "Nov7-9",
+      "width": 19,
+      "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 563317133941669595
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w19",
+      "key_id": "CHI-Nov8-2026-recovery",
+      "width": 19,
+      "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 483230940179525288
+    },
+    {
+      "id": "p170_radio_Nov4-6_w19",
+      "key_id": "Nov4-6",
+      "width": 19,
+      "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 1047296203941029468
+    },
+    {
+      "id": "p170_radio_Nov10-12_w19",
+      "key_id": "Nov10-12",
+      "width": 19,
+      "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 1019309928157558503
+    },
+    {
+      "id": "p170_radio_Nov7-9_w21",
+      "key_id": "Nov7-9",
+      "width": 21,
+      "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 14423160743048198
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w21",
+      "key_id": "CHI-Nov8-2026-recovery",
+      "width": 21,
+      "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 732595290774930482
+    },
+    {
+      "id": "p170_radio_Nov4-6_w21",
+      "key_id": "Nov4-6",
+      "width": 21,
+      "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 555302856852334642
+    },
+    {
+      "id": "p170_radio_Nov10-12_w21",
+      "key_id": "Nov10-12",
+      "width": 21,
+      "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 507833103249920980
+    },
+    {
+      "id": "p170_radio_Nov7-9_w18",
+      "key_id": "Nov7-9",
+      "width": 18,
+      "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 723959620217035247
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w18",
+      "key_id": "CHI-Nov8-2026-recovery",
+      "width": 18,
+      "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 156721868943705167
+    },
+    {
+      "id": "p170_radio_Nov4-6_w18",
+      "key_id": "Nov4-6",
+      "width": 18,
+      "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 779736252346255619
+    },
+    {
+      "id": "p170_radio_Nov10-12_w18",
+      "key_id": "Nov10-12",
+      "width": 18,
+      "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 923709800752206467
+    },
+    {
+      "id": "p170_radio_Nov7-9_w22",
+      "key_id": "Nov7-9",
+      "width": 22,
+      "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 488543876269134074
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w22",
+      "key_id": "CHI-Nov8-2026-recovery",
+      "width": 22,
+      "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 150783866986410224
+    },
+    {
+      "id": "p170_radio_Nov4-6_w22",
+      "key_id": "Nov4-6",
+      "width": 22,
+      "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 866301923599132558
+    },
+    {
+      "id": "p170_radio_Nov10-12_w22",
+      "key_id": "Nov10-12",
+      "width": 22,
+      "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 59994907847647297
+    },
+    {
+      "id": "p170_radio_Nov7-9_w17",
+      "key_id": "Nov7-9",
+      "width": 17,
+      "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 614987474661860464
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w17",
+      "key_id": "CHI-Nov8-2026-recovery",
+      "width": 17,
+      "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 777827894653213945
+    },
+    {
+      "id": "p170_radio_Nov4-6_w17",
+      "key_id": "Nov4-6",
+      "width": 17,
+      "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 422956919563770462
+    },
+    {
+      "id": "p170_radio_Nov10-12_w17",
+      "key_id": "Nov10-12",
+      "width": 17,
+      "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 141161101370906153
+    },
+    {
+      "id": "p170_radio_Nov7-9_w16",
+      "key_id": "Nov7-9",
+      "width": 16,
+      "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 212004741156219319
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w16",
+      "key_id": "CHI-Nov8-2026-recovery",
+      "width": 16,
+      "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 1001904790739865886
+    },
+    {
+      "id": "p170_radio_Nov4-6_w16",
+      "key_id": "Nov4-6",
+      "width": 16,
+      "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 910208025591156730
+    },
+    {
+      "id": "p170_radio_Nov10-12_w16",
+      "key_id": "Nov10-12",
+      "width": 16,
+      "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+      "seed": 276211049264006685
+    }
+  ],
+  "accepted_historical_plaintexts": 0,
+  "limits": [
+    "No truncated or edited-source model is tested here.",
+    "The six controls use complete squares; historical anchors can contain unknown cells and may be harder.",
+    "Width22 control failed under both models; no bounded nonrecovery excludes that or any other key/width.",
+    "Radio/control family construction and model hyperparameters are frozen in experiments/radio_domain_model; these controls are not used to choose target source edits or cribs."
+  ]
+}

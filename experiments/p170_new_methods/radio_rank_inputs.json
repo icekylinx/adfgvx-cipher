@@ -1,0 +1,235 @@
+{
+  "schema": "p170-radio-rank-calibration-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "dataset_path": "experiments/radio_domain_model/dataset.json",
+  "dataset_sha256": "2cf81c699ef145c642ea9e902433387e0ce9130643ec6d713d1318f0f7547162",
+  "purpose": "Full true square held fixed; recover arbitrary column ranks. Control plaintext and true ranks are evaluation-only and never sent to the optimizer.",
+  "settings_frozen_before_search": {
+    "restarts": 1000,
+    "iterations_per_restart": 100000,
+    "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+    "rank_initialization": "All zero: no true rank initialization.",
+    "full_square": true,
+    "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+  },
+  "models": {
+    "book": {
+      "sha256": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+      "default_path": "/tmp/adfgvx-models/german_military37_quad_marginal.bin"
+    },
+    "radio_mixture": {
+      "sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+      "default_path": "/tmp/adfgvx-radio-model/radio_book37_quad_marginal.bin"
+    }
+  },
+  "controls": [
+    {
+      "id": "radio_holdout_0_p92_A",
+      "family": "Dutch_courier",
+      "source_record": "p92_A",
+      "key_id": "CHI-Nov13",
+      "width": 16,
+      "full_square": "AROT7WH58CM4SVU3IQDXBP01J96NZELFKYG2",
+      "ciphertext": "GAVGGFAAAAVVGFVFVVFVXVAAADGXAAAFXDGXAFAVGFXVVAFXFAXAVGGFAADVDDDAAXDGVDAVDDGDGXAFGVXXVGFVAFAAAVVFGVFFFFVGXD",
+      "seed": 271304412400659238,
+      "evaluation_only": {
+        "plaintext": "NRX607XBITTEDAFUERZUSORGENXDASSNIEDERLAENDISCHERKURIE",
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ]
+      }
+    },
+    {
+      "id": "radio_holdout_1_p84_A",
+      "family": "oil_and_shipping",
+      "source_record": "p84_A",
+      "key_id": "Nov13-15b",
+      "width": 16,
+      "full_square": "H2YBMUF15PX0DJLR4798S6VONKZ3AWITEGCQ",
+      "ciphertext": "AAADAVFXFAVDXXXFGXVFAFVADFFXAVVVDXAAVVVVGFFVFGGXXXXAVFXXDGFFXAVFVAGGFAGGXXXDVAXDDFFFFGFGFVVADFFGFAAAVDXXXX",
+      "seed": 613627840798750342,
+      "evaluation_only": {
+        "plaintext": "DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREI",
+        "ranks": [
+          4,
+          11,
+          5,
+          14,
+          9,
+          7,
+          16,
+          1,
+          12,
+          15,
+          6,
+          10,
+          3,
+          13,
+          8,
+          2
+        ]
+      }
+    },
+    {
+      "id": "radio_holdout_2_p190_D",
+      "family": "Mackensen_relay_request",
+      "source_record": "p190_D",
+      "key_id": "Nov16-18",
+      "width": 19,
+      "full_square": "WG9EITNHUB2R05FDZJS476PY8VQL31OAXMKC",
+      "ciphertext": "AFXFADGFXAVVFXXDAXXFXGAFAADAFXVAVXDGGXDFGFDGGXVXDDAFAXAVFDGDDXAFAVXAGXDXGXVDGAAXDDDVXDADADGDDDDXXGXXAVDGXG",
+      "seed": 3320466402584909,
+      "evaluation_only": {
+        "plaintext": "VERMITTELTXXNKJXXFUNKSPRUECHEFURMACKENSENHABTIHRVERBI",
+        "ranks": [
+          7,
+          12,
+          1,
+          14,
+          8,
+          16,
+          13,
+          9,
+          19,
+          3,
+          15,
+          4,
+          10,
+          18,
+          6,
+          2,
+          11,
+          17,
+          5
+        ]
+      }
+    },
+    {
+      "id": "radio_holdout_3_p192_2",
+      "family": "Polish_appointment",
+      "source_record": "p192_2",
+      "key_id": "Nov7-9",
+      "width": 20,
+      "full_square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "ciphertext": "XAGAXVFVADDDVDDAAGVDGDVGDVGDDAXDGDDGXFGXXAAXGAXFAXAFGXAGDVXVVVDGXVVVGXGGVVDGDXVGDDAXXDXVFXDXGFVAAGDXGADGAX",
+      "seed": 424964033499631564,
+      "evaluation_only": {
+        "plaintext": "TIFLISDOPPELPUNKTXSIESINDZUMVERTRAUENSMANNDERPOLNISCH",
+        "ranks": [
+          6,
+          12,
+          7,
+          15,
+          1,
+          11,
+          16,
+          5,
+          8,
+          14,
+          3,
+          18,
+          9,
+          13,
+          2,
+          17,
+          20,
+          10,
+          19,
+          4
+        ]
+      }
+    },
+    {
+      "id": "radio_holdout_4_p205_A2",
+      "family": "Crown_finance",
+      "source_record": "p205_A2",
+      "key_id": "Nov13-15a",
+      "width": 20,
+      "full_square": "JZLH1RY9S3T6MKDWU0V8BQP54FAO7GIX2CNE",
+      "ciphertext": "VXXXAGFDXVAVFFXFFXXDXXXXXVXXXDAXXAFXXAAAVFXAAXGXXXXXFGFGGXGDXAVFXGXDXXXXXGADVXVGXXDVFXGXADXVXVDXDVAXDFXAFX",
+      "seed": 167741101088813549,
+      "evaluation_only": {
+        "plaintext": "MOEGLICHXWIENERXBANKVEREINXWIENXUEBERWEISTXHEUTEXTELE",
+        "ranks": [
+          13,
+          8,
+          6,
+          16,
+          7,
+          18,
+          1,
+          14,
+          9,
+          20,
+          10,
+          15,
+          17,
+          2,
+          3,
+          11,
+          5,
+          19,
+          4,
+          12
+        ]
+      }
+    },
+    {
+      "id": "radio_holdout_5_p96_B",
+      "family": "Filittis_permission",
+      "source_record": "p96_B",
+      "key_id": "Oct4-6",
+      "width": 22,
+      "full_square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+      "ciphertext": "GFVAVGDXGDFDFVAFXGVGDDVAGVFGAVVDVVGDGDVXGGAXVVAGDAAFDVFXFDAGXGFXAAFDXDDDDADDXDFADDGXADDFFFXDXFXAXGDDDVVGVF",
+      "seed": 1087613092710609734,
+      "evaluation_only": {
+        "plaintext": "NRX605XAUFTELEGRAMMNRX536XRHEINBABENXANXHORSTMANNXNAC",
+        "ranks": [
+          4,
+          13,
+          3,
+          14,
+          1,
+          16,
+          9,
+          15,
+          5,
+          19,
+          10,
+          18,
+          6,
+          17,
+          7,
+          20,
+          11,
+          21,
+          8,
+          12,
+          22,
+          2
+        ]
+      }
+    }
+  ],
+  "interpretation_limits": [
+    "Six held-out historical plaintext windows are independent of radio training families under the dataset selection rules, but do not span every p170 length, vocabulary, or key difficulty.",
+    "Each result is a bounded stochastic recovery test, not an exclusion or a calibrated probability of solving p170.",
+    "Full squares deliberately remove missing-square recovery from this calibration. Historical p170 anchors may remain partial."
+  ]
+}

@@ -1,0 +1,1294 @@
+{
+  "schema": "p170-radio-rank-calibration-results-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "run": {
+    "recipe": {
+      "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+      "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+      "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+      "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+      "settings": {
+        "restarts": 1000,
+        "iterations_per_restart": 100000,
+        "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+        "rank_initialization": "All zero: no true rank initialization.",
+        "full_square": true,
+        "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+      },
+      "model_sha256": {
+        "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+        "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+      }
+    },
+    "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+    "selected_jobs": [
+      "radio_holdout_0_p92_A__book",
+      "radio_holdout_0_p92_A__radio_mixture",
+      "radio_holdout_1_p84_A__book",
+      "radio_holdout_1_p84_A__radio_mixture",
+      "radio_holdout_2_p190_D__book",
+      "radio_holdout_2_p190_D__radio_mixture",
+      "radio_holdout_3_p192_2__book",
+      "radio_holdout_3_p192_2__radio_mixture",
+      "radio_holdout_4_p205_A2__book",
+      "radio_holdout_4_p205_A2__radio_mixture",
+      "radio_holdout_5_p96_B__book",
+      "radio_holdout_5_p96_B__radio_mixture"
+    ]
+  },
+  "summary": {
+    "completed_jobs": 12,
+    "per_model": {
+      "book": {
+        "exact_plaintexts": 2,
+        "control_count": 6
+      },
+      "radio_mixture": {
+        "exact_plaintexts": 5,
+        "control_count": 6
+      }
+    },
+    "total_actual_counts": {
+      "completed_restarts": 12000,
+      "annealing_slots": 1200000000,
+      "annealing_fitness_calls": 1200000000,
+      "polish_fitness_calls": 2118195,
+      "total_fitness_calls": 1202130195
+    },
+    "historical_plaintexts_tested": 0
+  },
+  "records": [
+    {
+      "case": {
+        "id": "radio_holdout_0_p92_A",
+        "family": "Dutch_courier",
+        "source_record": "p92_A",
+        "key_id": "CHI-Nov13",
+        "width": 16,
+        "full_square": "AROT7WH58CM4SVU3IQDXBP01J96NZELFKYG2",
+        "ciphertext": "GAVGGFAAAAVVGFVFVVFVXVAAADGXAAAFXDGXAFAVGFXVVAFXFAXAVGGFAADVDDDAAXDGVDAVDDGDGXAFGVXXVGFVAFAAAVVFGVFFFFVGXD",
+        "seed": 271304412400659238,
+        "evaluation_only": {
+          "plaintext": "NRX607XBITTEDAFUERZUSORGENXDASSNIEDERLAENDISCHERKURIE",
+          "ranks": [
+            3,
+            13,
+            2,
+            12,
+            1,
+            11,
+            15,
+            8,
+            9,
+            4,
+            5,
+            14,
+            6,
+            10,
+            7,
+            16
+          ]
+        }
+      },
+      "model": "book",
+      "best": {
+        "score": -4.401554489,
+        "restart": 18,
+        "known_square_cells": 36,
+        "square": "AROT7WH58CM4SVU3IQDXBP01J96NZELFKYG2",
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ],
+        "plaintexts": [
+          "NRX607XBITTEDAFUERZUSORGENXDASSNIEDERLAENDISCHERKURIE"
+        ]
+      },
+      "control_evaluation": {
+        "correct_plaintext_positions": 53,
+        "plaintext_positions": 53,
+        "exact_plaintext": true,
+        "exact_ranks": true,
+        "truth_score": -4.4015544891357425,
+        "winning_candidate_score": -4.4015544891357425,
+        "truth_score_minus_winner": 0.0
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 121320,
+        "total_fitness_calls": 100122320
+      },
+      "elapsed_seconds": 149.69924966899998,
+      "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+      "recipe": {
+        "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+        "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+          "rank_initialization": "All zero: no true rank initialization.",
+          "full_square": true,
+          "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+        },
+        "model_sha256": {
+          "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+          "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "radio_holdout_0_p92_A",
+        "family": "Dutch_courier",
+        "source_record": "p92_A",
+        "key_id": "CHI-Nov13",
+        "width": 16,
+        "full_square": "AROT7WH58CM4SVU3IQDXBP01J96NZELFKYG2",
+        "ciphertext": "GAVGGFAAAAVVGFVFVVFVXVAAADGXAAAFXDGXAFAVGFXVVAFXFAXAVGGFAADVDDDAAXDGVDAVDDGDGXAFGVXXVGFVAFAAAVVFGVFFFFVGXD",
+        "seed": 271304412400659238,
+        "evaluation_only": {
+          "plaintext": "NRX607XBITTEDAFUERZUSORGENXDASSNIEDERLAENDISCHERKURIE",
+          "ranks": [
+            3,
+            13,
+            2,
+            12,
+            1,
+            11,
+            15,
+            8,
+            9,
+            4,
+            5,
+            14,
+            6,
+            10,
+            7,
+            16
+          ]
+        }
+      },
+      "model": "radio_mixture",
+      "best": {
+        "score": -4.179037199,
+        "restart": 2,
+        "known_square_cells": 36,
+        "square": "AROT7WH58CM4SVU3IQDXBP01J96NZELFKYG2",
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ],
+        "plaintexts": [
+          "NRX607XBITTEDAFUERZUSORGENXDASSNIEDERLAENDISCHERKURIE"
+        ]
+      },
+      "control_evaluation": {
+        "correct_plaintext_positions": 53,
+        "plaintext_positions": 53,
+        "exact_plaintext": true,
+        "exact_ranks": true,
+        "truth_score": -4.179037199020386,
+        "winning_candidate_score": -4.179037199020386,
+        "truth_score_minus_winner": 0.0
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 123000,
+        "total_fitness_calls": 100124000
+      },
+      "elapsed_seconds": 133.79095063899877,
+      "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+      "recipe": {
+        "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+        "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+          "rank_initialization": "All zero: no true rank initialization.",
+          "full_square": true,
+          "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+        },
+        "model_sha256": {
+          "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+          "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "radio_holdout_1_p84_A",
+        "family": "oil_and_shipping",
+        "source_record": "p84_A",
+        "key_id": "Nov13-15b",
+        "width": 16,
+        "full_square": "H2YBMUF15PX0DJLR4798S6VONKZ3AWITEGCQ",
+        "ciphertext": "AAADAVFXFAVDXXXFGXVFAFVADFFXAVVVDXAAVVVVGFFVFGGXXXXAVFXXDGFFXAVFVAGGFAGGXXXDVAXDDFFFFGFGFVVADFFGFAAAVDXXXX",
+        "seed": 613627840798750342,
+        "evaluation_only": {
+          "plaintext": "DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREI",
+          "ranks": [
+            4,
+            11,
+            5,
+            14,
+            9,
+            7,
+            16,
+            1,
+            12,
+            15,
+            6,
+            10,
+            3,
+            13,
+            8,
+            2
+          ]
+        }
+      },
+      "model": "book",
+      "best": {
+        "score": -5.925344157,
+        "restart": 246,
+        "known_square_cells": 36,
+        "square": "H2YBMUF15PX0DJLR4798S6VONKZ3AWITEGCQ",
+        "ranks": [
+          16,
+          4,
+          9,
+          7,
+          10,
+          1,
+          12,
+          14,
+          3,
+          13,
+          8,
+          2,
+          5,
+          6,
+          15,
+          11
+        ],
+        "plaintexts": [
+          "HADETOQRZRIGTEHRXEHELINSIEKXSCADTXDAETABESAHZUXBERYTR"
+        ]
+      },
+      "control_evaluation": {
+        "correct_plaintext_positions": 1,
+        "plaintext_positions": 53,
+        "exact_plaintext": false,
+        "exact_ranks": false,
+        "truth_score": -5.378329725265503,
+        "winning_candidate_score": -5.925344157218933,
+        "truth_score_minus_winner": 0.5470144319534302
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 121200,
+        "total_fitness_calls": 100122200
+      },
+      "elapsed_seconds": 121.06347276499582,
+      "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+      "recipe": {
+        "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+        "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+          "rank_initialization": "All zero: no true rank initialization.",
+          "full_square": true,
+          "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+        },
+        "model_sha256": {
+          "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+          "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "radio_holdout_1_p84_A",
+        "family": "oil_and_shipping",
+        "source_record": "p84_A",
+        "key_id": "Nov13-15b",
+        "width": 16,
+        "full_square": "H2YBMUF15PX0DJLR4798S6VONKZ3AWITEGCQ",
+        "ciphertext": "AAADAVFXFAVDXXXFGXVFAFVADFFXAVVVDXAAVVVVGFFVFGGXXXXAVFXXDGFFXAVFVAGGFAGGXXXDVAXDDFFFFGFGFVVADFFGFAAAVDXXXX",
+        "seed": 613627840798750342,
+        "evaluation_only": {
+          "plaintext": "DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREI",
+          "ranks": [
+            4,
+            11,
+            5,
+            14,
+            9,
+            7,
+            16,
+            1,
+            12,
+            15,
+            6,
+            10,
+            3,
+            13,
+            8,
+            2
+          ]
+        }
+      },
+      "model": "radio_mixture",
+      "best": {
+        "score": -4.893580179,
+        "restart": 97,
+        "known_square_cells": 36,
+        "square": "H2YBMUF15PX0DJLR4798S6VONKZ3AWITEGCQ",
+        "ranks": [
+          4,
+          11,
+          5,
+          14,
+          9,
+          7,
+          16,
+          1,
+          12,
+          15,
+          6,
+          10,
+          3,
+          13,
+          8,
+          2
+        ],
+        "plaintexts": [
+          "DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREI"
+        ]
+      },
+      "control_evaluation": {
+        "correct_plaintext_positions": 53,
+        "plaintext_positions": 53,
+        "exact_plaintext": true,
+        "exact_ranks": true,
+        "truth_score": -4.893580179214478,
+        "winning_candidate_score": -4.893580179214478,
+        "truth_score_minus_winner": 0.0
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 122640,
+        "total_fitness_calls": 100123640
+      },
+      "elapsed_seconds": 134.7362440259967,
+      "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+      "recipe": {
+        "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+        "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+          "rank_initialization": "All zero: no true rank initialization.",
+          "full_square": true,
+          "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+        },
+        "model_sha256": {
+          "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+          "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "radio_holdout_2_p190_D",
+        "family": "Mackensen_relay_request",
+        "source_record": "p190_D",
+        "key_id": "Nov16-18",
+        "width": 19,
+        "full_square": "WG9EITNHUB2R05FDZJS476PY8VQL31OAXMKC",
+        "ciphertext": "AFXFADGFXAVVFXXDAXXFXGAFAADAFXVAVXDGGXDFGFDGGXVXDDAFAXAVFDGDDXAFAVXAGXDXGXVDGAAXDDDVXDADADGDDDDXXGXXAVDGXG",
+        "seed": 3320466402584909,
+        "evaluation_only": {
+          "plaintext": "VERMITTELTXXNKJXXFUNKSPRUECHEFURMACKENSENHABTIHRVERBI",
+          "ranks": [
+            7,
+            12,
+            1,
+            14,
+            8,
+            16,
+            13,
+            9,
+            19,
+            3,
+            15,
+            4,
+            10,
+            18,
+            6,
+            2,
+            11,
+            17,
+            5
+          ]
+        }
+      },
+      "model": "book",
+      "best": {
+        "score": -6.002264285,
+        "restart": 356,
+        "known_square_cells": 36,
+        "square": "WG9EITNHUB2R05FDZJS476PY8VQL31OAXMKC",
+        "ranks": [
+          7,
+          9,
+          3,
+          11,
+          1,
+          15,
+          13,
+          2,
+          14,
+          17,
+          10,
+          19,
+          16,
+          12,
+          18,
+          8,
+          5,
+          6,
+          4
+        ],
+        "plaintexts": [
+          "MFTEMINXFACUBZUNDSXPMACHENXIMAUHERO1HEAGIKGEREIGRAM8K"
+        ]
+      },
+      "control_evaluation": {
+        "correct_plaintext_positions": 1,
+        "plaintext_positions": 53,
+        "exact_plaintext": false,
+        "exact_ranks": false,
+        "truth_score": -5.2146730136871335,
+        "winning_candidate_score": -6.002264285087586,
+        "truth_score_minus_winner": 0.7875912714004523
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 175104,
+        "total_fitness_calls": 100176104
+      },
+      "elapsed_seconds": 128.28136499500397,
+      "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+      "recipe": {
+        "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+        "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+          "rank_initialization": "All zero: no true rank initialization.",
+          "full_square": true,
+          "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+        },
+        "model_sha256": {
+          "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+          "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "radio_holdout_2_p190_D",
+        "family": "Mackensen_relay_request",
+        "source_record": "p190_D",
+        "key_id": "Nov16-18",
+        "width": 19,
+        "full_square": "WG9EITNHUB2R05FDZJS476PY8VQL31OAXMKC",
+        "ciphertext": "AFXFADGFXAVVFXXDAXXFXGAFAADAFXVAVXDGGXDFGFDGGXVXDDAFAXAVFDGDDXAFAVXAGXDXGXVDGAAXDDDVXDADADGDDDDXXGXXAVDGXG",
+        "seed": 3320466402584909,
+        "evaluation_only": {
+          "plaintext": "VERMITTELTXXNKJXXFUNKSPRUECHEFURMACKENSENHABTIHRVERBI",
+          "ranks": [
+            7,
+            12,
+            1,
+            14,
+            8,
+            16,
+            13,
+            9,
+            19,
+            3,
+            15,
+            4,
+            10,
+            18,
+            6,
+            2,
+            11,
+            17,
+            5
+          ]
+        }
+      },
+      "model": "radio_mixture",
+      "best": {
+        "score": -4.405843382,
+        "restart": 581,
+        "known_square_cells": 36,
+        "square": "WG9EITNHUB2R05FDZJS476PY8VQL31OAXMKC",
+        "ranks": [
+          7,
+          12,
+          1,
+          14,
+          8,
+          16,
+          13,
+          9,
+          19,
+          3,
+          15,
+          4,
+          10,
+          18,
+          6,
+          2,
+          11,
+          17,
+          5
+        ],
+        "plaintexts": [
+          "VERMITTELTXXNKJXXFUNKSPRUECHEFURMACKENSENHABTIHRVERBI"
+        ]
+      },
+      "control_evaluation": {
+        "correct_plaintext_positions": 53,
+        "plaintext_positions": 53,
+        "exact_plaintext": true,
+        "exact_ranks": true,
+        "truth_score": -4.405843381881714,
+        "winning_candidate_score": -4.405843381881714,
+        "truth_score_minus_winner": 0.0
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 179208,
+        "total_fitness_calls": 100180208
+      },
+      "elapsed_seconds": 74.04208988099708,
+      "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+      "recipe": {
+        "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+        "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+          "rank_initialization": "All zero: no true rank initialization.",
+          "full_square": true,
+          "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+        },
+        "model_sha256": {
+          "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+          "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "radio_holdout_3_p192_2",
+        "family": "Polish_appointment",
+        "source_record": "p192_2",
+        "key_id": "Nov7-9",
+        "width": 20,
+        "full_square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+        "ciphertext": "XAGAXVFVADDDVDDAAGVDGDVGDVGDDAXDGDDGXFGXXAAXGAXFAXAFGXAGDVXVVVDGXVVVGXGGVVDGDXVGDDAXXDXVFXDXGFVAAGDXGADGAX",
+        "seed": 424964033499631564,
+        "evaluation_only": {
+          "plaintext": "TIFLISDOPPELPUNKTXSIESINDZUMVERTRAUENSMANNDERPOLNISCH",
+          "ranks": [
+            6,
+            12,
+            7,
+            15,
+            1,
+            11,
+            16,
+            5,
+            8,
+            14,
+            3,
+            18,
+            9,
+            13,
+            2,
+            17,
+            20,
+            10,
+            19,
+            4
+          ]
+        }
+      },
+      "model": "book",
+      "best": {
+        "score": -5.586894932,
+        "restart": 519,
+        "known_square_cells": 36,
+        "square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+        "ranks": [
+          10,
+          19,
+          17,
+          4,
+          11,
+          8,
+          7,
+          14,
+          1,
+          3,
+          16,
+          13,
+          20,
+          18,
+          15,
+          5,
+          9,
+          2,
+          6,
+          12
+        ],
+        "plaintexts": [
+          "85FSABRLUTP3MIRESTJENNIGTEIGTERXSERUMAPROCHTANDXANIN5"
+        ]
+      },
+      "control_evaluation": {
+        "correct_plaintext_positions": 4,
+        "plaintext_positions": 53,
+        "exact_plaintext": false,
+        "exact_ranks": false,
+        "truth_score": -4.356379232406616,
+        "winning_candidate_score": -5.586894931793213,
+        "truth_score_minus_winner": 1.230515699386597
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 195510,
+        "total_fitness_calls": 100196510
+      },
+      "elapsed_seconds": 62.784651592002774,
+      "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+      "recipe": {
+        "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+        "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+          "rank_initialization": "All zero: no true rank initialization.",
+          "full_square": true,
+          "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+        },
+        "model_sha256": {
+          "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+          "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "radio_holdout_3_p192_2",
+        "family": "Polish_appointment",
+        "source_record": "p192_2",
+        "key_id": "Nov7-9",
+        "width": 20,
+        "full_square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+        "ciphertext": "XAGAXVFVADDDVDDAAGVDGDVGDVGDDAXDGDDGXFGXXAAXGAXFAXAFGXAGDVXVVVDGXVVVGXGGVVDGDXVGDDAXXDXVFXDXGFVAAGDXGADGAX",
+        "seed": 424964033499631564,
+        "evaluation_only": {
+          "plaintext": "TIFLISDOPPELPUNKTXSIESINDZUMVERTRAUENSMANNDERPOLNISCH",
+          "ranks": [
+            6,
+            12,
+            7,
+            15,
+            1,
+            11,
+            16,
+            5,
+            8,
+            14,
+            3,
+            18,
+            9,
+            13,
+            2,
+            17,
+            20,
+            10,
+            19,
+            4
+          ]
+        }
+      },
+      "model": "radio_mixture",
+      "best": {
+        "score": -4.413261652,
+        "restart": 445,
+        "known_square_cells": 36,
+        "square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+        "ranks": [
+          6,
+          12,
+          7,
+          15,
+          1,
+          11,
+          16,
+          5,
+          8,
+          14,
+          3,
+          18,
+          9,
+          13,
+          2,
+          17,
+          20,
+          10,
+          19,
+          4
+        ],
+        "plaintexts": [
+          "TIFLISDOPPELPUNKTXSIESINDZUMVERTRAUENSMANNDERPOLNISCH"
+        ]
+      },
+      "control_evaluation": {
+        "correct_plaintext_positions": 53,
+        "plaintext_positions": 53,
+        "exact_plaintext": true,
+        "exact_ranks": true,
+        "truth_score": -4.413261651992798,
+        "winning_candidate_score": -4.413261651992798,
+        "truth_score_minus_winner": 0.0
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 199880,
+        "total_fitness_calls": 100200880
+      },
+      "elapsed_seconds": 111.08880649899947,
+      "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+      "recipe": {
+        "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+        "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+          "rank_initialization": "All zero: no true rank initialization.",
+          "full_square": true,
+          "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+        },
+        "model_sha256": {
+          "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+          "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "radio_holdout_4_p205_A2",
+        "family": "Crown_finance",
+        "source_record": "p205_A2",
+        "key_id": "Nov13-15a",
+        "width": 20,
+        "full_square": "JZLH1RY9S3T6MKDWU0V8BQP54FAO7GIX2CNE",
+        "ciphertext": "VXXXAGFDXVAVFFXFFXXDXXXXXVXXXDAXXAFXXAAAVFXAAXGXXXXXFGFGGXGDXAVFXGXDXXXXXGADVXVGXXDVFXGXADXVXVDXDVAXDFXAFX",
+        "seed": 167741101088813549,
+        "evaluation_only": {
+          "plaintext": "MOEGLICHXWIENERXBANKVEREINXWIENXUEBERWEISTXHEUTEXTELE",
+          "ranks": [
+            13,
+            8,
+            6,
+            16,
+            7,
+            18,
+            1,
+            14,
+            9,
+            20,
+            10,
+            15,
+            17,
+            2,
+            3,
+            11,
+            5,
+            19,
+            4,
+            12
+          ]
+        }
+      },
+      "model": "book",
+      "best": {
+        "score": -4.029018788,
+        "restart": 361,
+        "known_square_cells": 36,
+        "square": "JZLH1RY9S3T6MKDWU0V8BQP54FAO7GIX2CNE",
+        "ranks": [
+          13,
+          8,
+          6,
+          16,
+          7,
+          18,
+          1,
+          14,
+          9,
+          20,
+          10,
+          15,
+          17,
+          2,
+          3,
+          11,
+          5,
+          19,
+          4,
+          12
+        ],
+        "plaintexts": [
+          "MOEGLICHXWIENERXBANKVEREINXWIENXUEBERWEISTXHEUTEXTELE"
+        ]
+      },
+      "control_evaluation": {
+        "correct_plaintext_positions": 53,
+        "plaintext_positions": 53,
+        "exact_plaintext": true,
+        "exact_ranks": true,
+        "truth_score": -4.029018788337708,
+        "winning_candidate_score": -4.029018788337708,
+        "truth_score_minus_winner": 0.0
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 198170,
+        "total_fitness_calls": 100199170
+      },
+      "elapsed_seconds": 63.55539538100129,
+      "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+      "recipe": {
+        "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+        "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+          "rank_initialization": "All zero: no true rank initialization.",
+          "full_square": true,
+          "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+        },
+        "model_sha256": {
+          "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+          "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "radio_holdout_4_p205_A2",
+        "family": "Crown_finance",
+        "source_record": "p205_A2",
+        "key_id": "Nov13-15a",
+        "width": 20,
+        "full_square": "JZLH1RY9S3T6MKDWU0V8BQP54FAO7GIX2CNE",
+        "ciphertext": "VXXXAGFDXVAVFFXFFXXDXXXXXVXXXDAXXAFXXAAAVFXAAXGXXXXXFGFGGXGDXAVFXGXDXXXXXGADVXVGXXDVFXGXADXVXVDXDVAXDFXAFX",
+        "seed": 167741101088813549,
+        "evaluation_only": {
+          "plaintext": "MOEGLICHXWIENERXBANKVEREINXWIENXUEBERWEISTXHEUTEXTELE",
+          "ranks": [
+            13,
+            8,
+            6,
+            16,
+            7,
+            18,
+            1,
+            14,
+            9,
+            20,
+            10,
+            15,
+            17,
+            2,
+            3,
+            11,
+            5,
+            19,
+            4,
+            12
+          ]
+        }
+      },
+      "model": "radio_mixture",
+      "best": {
+        "score": -4.148241982,
+        "restart": 261,
+        "known_square_cells": 36,
+        "square": "JZLH1RY9S3T6MKDWU0V8BQP54FAO7GIX2CNE",
+        "ranks": [
+          13,
+          8,
+          6,
+          16,
+          7,
+          18,
+          1,
+          14,
+          9,
+          20,
+          10,
+          15,
+          17,
+          2,
+          3,
+          11,
+          5,
+          19,
+          4,
+          12
+        ],
+        "plaintexts": [
+          "MOEGLICHXWIENERXBANKVEREINXWIENXUEBERWEISTXHEUTEXTELE"
+        ]
+      },
+      "control_evaluation": {
+        "correct_plaintext_positions": 53,
+        "plaintext_positions": 53,
+        "exact_plaintext": true,
+        "exact_ranks": true,
+        "truth_score": -4.148241982460022,
+        "winning_candidate_score": -4.148241982460022,
+        "truth_score_minus_winner": 0.0
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 203300,
+        "total_fitness_calls": 100204300
+      },
+      "elapsed_seconds": 86.95772254400072,
+      "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+      "recipe": {
+        "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+        "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+          "rank_initialization": "All zero: no true rank initialization.",
+          "full_square": true,
+          "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+        },
+        "model_sha256": {
+          "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+          "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "radio_holdout_5_p96_B",
+        "family": "Filittis_permission",
+        "source_record": "p96_B",
+        "key_id": "Oct4-6",
+        "width": 22,
+        "full_square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+        "ciphertext": "GFVAVGDXGDFDFVAFXGVGDDVAGVFGAVVDVVGDGDVXGGAXVVAGDAAFDVFXFDAGXGFXAAFDXDDDDADDXDFADDGXADDFFFXDXFXAXGDDDVVGVF",
+        "seed": 1087613092710609734,
+        "evaluation_only": {
+          "plaintext": "NRX605XAUFTELEGRAMMNRX536XRHEINBABENXANXHORSTMANNXNAC",
+          "ranks": [
+            4,
+            13,
+            3,
+            14,
+            1,
+            16,
+            9,
+            15,
+            5,
+            19,
+            10,
+            18,
+            6,
+            17,
+            7,
+            20,
+            11,
+            21,
+            8,
+            12,
+            22,
+            2
+          ]
+        }
+      },
+      "model": "book",
+      "best": {
+        "score": -5.877665033,
+        "restart": 885,
+        "known_square_cells": 36,
+        "square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+        "ranks": [
+          17,
+          2,
+          5,
+          4,
+          22,
+          21,
+          10,
+          11,
+          8,
+          20,
+          1,
+          14,
+          12,
+          16,
+          3,
+          9,
+          7,
+          13,
+          15,
+          19,
+          6,
+          18
+        ],
+        "plaintexts": [
+          "SRAHXZELTRANITHIEQUAREITX80MOSURXUP6XINIHMINXDOCHANJA"
+        ]
+      },
+      "control_evaluation": {
+        "correct_plaintext_positions": 6,
+        "plaintext_positions": 53,
+        "exact_plaintext": false,
+        "exact_ranks": false,
+        "truth_score": -5.551288757324219,
+        "winning_candidate_score": -5.877665033340454,
+        "truth_score_minus_winner": 0.3263762760162354
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 240702,
+        "total_fitness_calls": 100241702
+      },
+      "elapsed_seconds": 65.50614565699652,
+      "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+      "recipe": {
+        "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+        "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+          "rank_initialization": "All zero: no true rank initialization.",
+          "full_square": true,
+          "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+        },
+        "model_sha256": {
+          "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+          "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "radio_holdout_5_p96_B",
+        "family": "Filittis_permission",
+        "source_record": "p96_B",
+        "key_id": "Oct4-6",
+        "width": 22,
+        "full_square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+        "ciphertext": "GFVAVGDXGDFDFVAFXGVGDDVAGVFGAVVDVVGDGDVXGGAXVVAGDAAFDVFXFDAGXGFXAAFDXDDDDADDXDFADDGXADDFFFXDXFXAXGDDDVVGVF",
+        "seed": 1087613092710609734,
+        "evaluation_only": {
+          "plaintext": "NRX605XAUFTELEGRAMMNRX536XRHEINBABENXANXHORSTMANNXNAC",
+          "ranks": [
+            4,
+            13,
+            3,
+            14,
+            1,
+            16,
+            9,
+            15,
+            5,
+            19,
+            10,
+            18,
+            6,
+            17,
+            7,
+            20,
+            11,
+            21,
+            8,
+            12,
+            22,
+            2
+          ]
+        }
+      },
+      "model": "radio_mixture",
+      "best": {
+        "score": -5.153025565,
+        "restart": 312,
+        "known_square_cells": 36,
+        "square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+        "ranks": [
+          14,
+          15,
+          6,
+          18,
+          3,
+          1,
+          7,
+          9,
+          17,
+          16,
+          13,
+          8,
+          22,
+          4,
+          5,
+          20,
+          12,
+          2,
+          10,
+          21,
+          19,
+          11
+        ],
+        "plaintexts": [
+          "GASTENMITTENERUNDARONENXKHWQDAGXVONHAIF9YSWWWMPFXLSBW"
+        ]
+      },
+      "control_evaluation": {
+        "correct_plaintext_positions": 1,
+        "plaintext_positions": 53,
+        "exact_plaintext": false,
+        "exact_ranks": false,
+        "truth_score": -5.055297331809998,
+        "winning_candidate_score": -5.1530255651473995,
+        "truth_score_minus_winner": 0.09772823333740188
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 238161,
+        "total_fitness_calls": 100239161
+      },
+      "elapsed_seconds": 77.43561715700343,
+      "recipe_fingerprint": "112710df485f0f2ccd3a7d076201a6c40df633f7e63706de78f8d4bf4a7cc135",
+      "recipe": {
+        "inputs_sha256": "51366e2e513382ce9d5fe56d1b0193911a4f5a285afd5ab67ad92d0270c64ce3",
+        "runner_sha256": "183d8909eb1131c908192027d33ce748dee2e2583907927e3646168a4ea0e361",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "seed_policy": "Matched book/radio seed per family, fixed from SHA256(label).",
+          "rank_initialization": "All zero: no true rank initialization.",
+          "full_square": true,
+          "search_changes": "Counter-only instrumentation of anchored_joint; unchanged objective use and stochastic search decisions."
+        },
+        "model_sha256": {
+          "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+          "radio_mixture": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+        }
+      }
+    }
+  ]
+}

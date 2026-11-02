@@ -1,0 +1,21 @@
+{
+  "source_dataset_sha256": "2cf81c699ef145c642ea9e902433387e0ce9130643ec6d713d1318f0f7547162",
+  "book_quad_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+  "training_quadgrams": 4634,
+  "training_records": 45,
+  "model_sha256": {
+    "radio_book36_quad.bin": "0677b5be195b268fd9977ab119749110291fd205a623b21b40c1f3712563bbb2",
+    "radio_book37_quad_marginal.bin": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+  },
+  "numpy_version": "2.3.5",
+  "settings": {
+    "collapsed_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ#",
+    "digit_mapping": "All ten digits map to # in the radio component.",
+    "unknown_character_handling": "A ? ends the current training span; no n-gram crosses it.",
+    "radio_weight": 0.5,
+    "book_weight": 0.5,
+    "radio_smoothing": "Add 0.01 to each of 27^4 collapsed four-gram cells, then normalize.",
+    "digit_expansion": "Distribute each radio class probability uniformly over the 10^k specific digit strings.",
+    "score": "Log10 of the equal probability mixture of the book model and expanded radio model."
+  }
+}

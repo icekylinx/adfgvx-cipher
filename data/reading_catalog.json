@@ -64,7 +64,7 @@
       "id": "p153a",
       "label": "p153a",
       "subject": "Earlier orders; action still to be completed",
-      "status": "New partial: 60/66 ordinary-letter positions",
+      "status": "New partial: 60/66 plaintext positions; date/number fields open",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/p153a.md"
     },
@@ -2929,7 +2929,7 @@
       "printed_page": 221,
       "source_section": "B3",
       "subject": "Troop-transport enquiry and request to allow German civilians to remain in Turkey",
-      "status": "173/174 raw; three coordinate changes and one invalid-Y fill; Wilson passage independently corroborated by FRUS",
+      "status": "173/174 raw; three coordinate changes and one invalid-Y fill; civilian appeal and routing context corroborated by FRUS",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
       "path": "cases/other/constantinople_civilians.md",
       "source_reviewed": true,
@@ -2953,6 +2953,128 @@
         "experiments/constantinople_civilians/inputs.json",
         "experiments/constantinople_civilians/certificates.json",
         "experiments/constantinople_civilians/historical_context.json"
+      ]
+    },
+    {
+      "id": "p224_C1",
+      "label": "p224 C1",
+      "printed_page": 224,
+      "source_section": "C1",
+      "subject": "Staff officer raw STRZEMIECZNQ transferred from acting corps chief-of-staff duties",
+      "status": "130/130 raw labels; three ordinary-word coordinate repairs; rank, surname and formation labels retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately",
+      "path": "cases/other/breslau_staff_transfer.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/breslau_staff_transfer/inputs.json",
+        "experiments/breslau_staff_transfer/certificates.json",
+        "experiments/breslau_staff_transfer/historical_context.json"
+      ]
+    },
+    {
+      "id": "p224_C2",
+      "label": "p224 C2",
+      "printed_page": 224,
+      "source_section": "C2",
+      "subject": "Special employment with Breslau command; separate historical VI Corps context",
+      "status": "149/149 raw labels; six ordinary-word coordinate repairs; raw7 and reference04013 retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately",
+      "path": "cases/other/breslau_staff_transfer.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/breslau_staff_transfer/inputs.json",
+        "experiments/breslau_staff_transfer/certificates.json",
+        "experiments/breslau_staff_transfer/historical_context.json"
+      ]
+    },
+    {
+      "id": "p223_A1",
+      "label": "p223 A1",
+      "printed_page": 223,
+      "source_section": "A1",
+      "subject": "Information requested on stamped lei-note amounts, denominations and stamping procedure",
+      "status": "169/171 raw-label positions; 171/171 ordinary-word candidate; monetary labels remain unassigned",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier OCR corpus and unreviewed A2 retrieval candidate; published key credited separately",
+      "path": "cases/other/lei_note_exchange.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/lei_note_exchange/inputs.json",
+        "experiments/lei_note_exchange/certificates.json"
+      ]
+    },
+    {
+      "id": "p223_A2",
+      "label": "p223 A2",
+      "printed_page": 223,
+      "source_section": "A2",
+      "subject": "Austro-Hungarian bank redemption proposal with raw J1Y/JYY exchange-rate labels",
+      "status": "124/124 raw-label positions; 124/124 ordinary-word candidate; monetary labels remain unassigned",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier OCR corpus and unreviewed A2 retrieval candidate; published key credited separately",
+      "path": "cases/other/lei_note_exchange.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/lei_note_exchange/inputs.json",
+        "experiments/lei_note_exchange/certificates.json"
+      ]
+    },
+    {
+      "id": "p223_A3",
+      "label": "p223 A3",
+      "printed_page": 223,
+      "source_section": "A3",
+      "subject": "Stamped-note redemption and German-bank raw 70/38 rate labels; negotiations pending",
+      "status": "201/205 raw-label positions; 205/205 ordinary-word candidate; monetary labels remain unassigned",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier OCR corpus and unreviewed A2 retrieval candidate; published key credited separately",
+      "path": "cases/other/lei_note_exchange.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/lei_note_exchange/inputs.json",
+        "experiments/lei_note_exchange/certificates.json"
+      ]
+    },
+    {
+      "id": "p219_A1",
+      "label": "p219 A1",
+      "printed_page": 219,
+      "source_section": "A1",
+      "subject": "Crown funds for Arad following agreement with the German military mission at Budapest",
+      "status": "167/167 raw labels; exact source edition and priced word/office repairs; amount and army labels retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately",
+      "path": "cases/other/crown_cash_requests.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/crown_cash_requests/inputs.json",
+        "experiments/crown_cash_requests/certificates.json"
+      ]
+    },
+    {
+      "id": "p219_A2",
+      "label": "p219 A2",
+      "printed_page": 219,
+      "source_section": "A2",
+      "subject": "Inquiry whether an advance can be drawn from the field war cash office",
+      "status": "115/115 raw labels; exact source edition and priced word/office repairs; amount and army labels retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately",
+      "path": "cases/other/crown_cash_requests.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/crown_cash_requests/inputs.json",
+        "experiments/crown_cash_requests/certificates.json"
+      ]
+    },
+    {
+      "id": "p219_B",
+      "label": "p219 B",
+      "printed_page": 219,
+      "source_section": "B",
+      "subject": "Crown remittances partly sent; severe banknote shortage reported",
+      "status": "177/177 raw labels; exact source edition and priced word/office repairs; amount and army labels retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately",
+      "path": "cases/other/crown_cash_requests.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/crown_cash_requests/inputs.json",
+        "experiments/crown_cash_requests/certificates.json"
       ]
     }
   ]

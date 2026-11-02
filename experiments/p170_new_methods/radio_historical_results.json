@@ -1,0 +1,2088 @@
+{
+  "schema": "p170-radio-historical-results-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "summary": {
+    "completed_jobs": 28,
+    "accepted_historical_plaintexts": 0,
+    "actual_search_counts": {
+      "completed_restarts": 28000,
+      "annealing_slots": 2800000000,
+      "annealing_fitness_calls": 2693773478,
+      "polish_fitness_calls": 6335421,
+      "total_fitness_calls": 2700136899
+    }
+  },
+  "records": [
+    {
+      "case": {
+        "id": "p170_radio_Nov7-9_w20",
+        "key_id": "Nov7-9",
+        "width": 20,
+        "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 1024724932902532633
+      },
+      "best": {
+        "score": -5.433063636,
+        "restart": 232,
+        "known_square_cells": 34,
+        "square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+        "ranks": [
+          12,
+          9,
+          13,
+          4,
+          7,
+          17,
+          3,
+          10,
+          5,
+          19,
+          16,
+          14,
+          1,
+          11,
+          6,
+          20,
+          15,
+          8,
+          2,
+          18
+        ],
+        "plaintexts": [
+          "UPWVMIYRDKEINMATUMIHNNMITMINDERVORHQXOUYVVWXUYIUTTRUV"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 89999271,
+        "polish_fitness_calls": 199977,
+        "total_fitness_calls": 90200248
+      },
+      "elapsed_seconds": 133.06472777699673,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_CHI-Nov8-2026-recovery_w20",
+        "key_id": "CHI-Nov8-2026-recovery",
+        "width": 20,
+        "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 530516005130974573
+      },
+      "best": {
+        "score": -5.056450543,
+        "restart": 171,
+        "known_square_cells": 19,
+        "square": "QTFUGIX754302WO9CMBJYSZ6KNDHPVEA81LR",
+        "ranks": [
+          8,
+          2,
+          17,
+          5,
+          1,
+          9,
+          13,
+          3,
+          18,
+          11,
+          19,
+          12,
+          6,
+          20,
+          16,
+          14,
+          4,
+          10,
+          15,
+          7
+        ],
+        "plaintexts": [
+          "ZRUSSMASSENSTELXOZTYKCBZHHUFGEHENBBEICHUHEBUNKLUGZKQD"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 98824713,
+        "polish_fitness_calls": 367076,
+        "total_fitness_calls": 99192789
+      },
+      "elapsed_seconds": 161.8063581680035,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov4-6_w20",
+        "key_id": "Nov4-6",
+        "width": 20,
+        "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 592795280675936342
+      },
+      "best": {
+        "score": -5.568146544,
+        "restart": 458,
+        "known_square_cells": 36,
+        "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ranks": [
+          15,
+          1,
+          17,
+          10,
+          13,
+          18,
+          12,
+          11,
+          9,
+          4,
+          14,
+          3,
+          8,
+          7,
+          5,
+          2,
+          6,
+          16,
+          20,
+          19
+        ],
+        "plaintexts": [
+          "R1OYBOOFHDOCHHBHICHXSOLUROOOSYYKYSOGABENSSSFUERHWGFCY"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 199310,
+        "total_fitness_calls": 100200310
+      },
+      "elapsed_seconds": 135.89912331699452,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov10-12_w20",
+        "key_id": "Nov10-12",
+        "width": 20,
+        "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 385132883730592429
+      },
+      "best": {
+        "score": -5.441497378,
+        "restart": 609,
+        "known_square_cells": 31,
+        "square": "4ARUT1OIFSKN39BZPVLD6JMXCWHQ2E5G07Y8",
+        "ranks": [
+          14,
+          13,
+          18,
+          12,
+          2,
+          7,
+          1,
+          20,
+          4,
+          5,
+          6,
+          11,
+          8,
+          17,
+          3,
+          19,
+          16,
+          10,
+          9,
+          15
+        ],
+        "plaintexts": [
+          "4UCALTERDELLERXUJDLQQGOJUYHTRXVERETZEEZOQLLMCTETAUJQJ"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 95997782,
+        "polish_fitness_calls": 206200,
+        "total_fitness_calls": 96204982
+      },
+      "elapsed_seconds": 118.7471218330029,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov7-9_w19",
+        "key_id": "Nov7-9",
+        "width": 19,
+        "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 563317133941669595
+      },
+      "best": {
+        "score": -5.693755455,
+        "restart": 890,
+        "known_square_cells": 34,
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "ranks": [
+          13,
+          12,
+          18,
+          10,
+          8,
+          1,
+          14,
+          11,
+          3,
+          7,
+          9,
+          6,
+          15,
+          5,
+          17,
+          19,
+          2,
+          16,
+          4
+        ],
+        "plaintexts": [
+          "IKVTWVBRHVMEWIRNICVVEKVMMUNMUTTHERMUNDODKWYPPTBUTTKY5"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 90007113,
+        "polish_fitness_calls": 181804,
+        "total_fitness_calls": 90189917
+      },
+      "elapsed_seconds": 60.67389528000058,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_CHI-Nov8-2026-recovery_w19",
+        "key_id": "CHI-Nov8-2026-recovery",
+        "width": 19,
+        "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 483230940179525288
+      },
+      "best": {
+        "score": -5.15229238,
+        "restart": 722,
+        "known_square_cells": 19,
+        "square": "KTQUGIY17J648WO9CMB3XSZ0PNDHFVEA52LR",
+        "ranks": [
+          18,
+          16,
+          2,
+          14,
+          1,
+          13,
+          12,
+          10,
+          19,
+          11,
+          5,
+          17,
+          6,
+          15,
+          8,
+          9,
+          7,
+          3,
+          4
+        ],
+        "plaintexts": [
+          "XDIEFREZUZTPBWSQZXKMUSSCHUNGTSLKJBEZUGDSSGEGENHIELHZY"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 98823764,
+        "polish_fitness_calls": 352129,
+        "total_fitness_calls": 99176893
+      },
+      "elapsed_seconds": 73.36009562700201,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov4-6_w19",
+        "key_id": "Nov4-6",
+        "width": 19,
+        "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 1047296203941029468
+      },
+      "best": {
+        "score": -5.625528002,
+        "restart": 678,
+        "known_square_cells": 36,
+        "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ranks": [
+          3,
+          15,
+          7,
+          4,
+          5,
+          17,
+          11,
+          8,
+          13,
+          9,
+          2,
+          14,
+          18,
+          12,
+          10,
+          1,
+          6,
+          19,
+          16
+        ],
+        "plaintexts": [
+          "HVOYOBERXSOFORUCH1VHOLUO2BBHZFRIGENSINWOHHVOBBFSFNBU2"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 180576,
+        "total_fitness_calls": 100181576
+      },
+      "elapsed_seconds": 68.66660363100527,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov10-12_w19",
+        "key_id": "Nov10-12",
+        "width": 19,
+        "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 1019309928157558503
+      },
+      "best": {
+        "score": -5.59703433,
+        "restart": 902,
+        "known_square_cells": 31,
+        "square": "4ARUT1OIFSKN38BZPVLD7JMXCWHQ2E9G06Y5",
+        "ranks": [
+          15,
+          17,
+          5,
+          2,
+          16,
+          13,
+          4,
+          9,
+          3,
+          10,
+          6,
+          8,
+          19,
+          14,
+          11,
+          1,
+          18,
+          12,
+          7
+        ],
+        "plaintexts": [
+          "4MUDAPKLZUMELUCHLAUXALAUTXSCQCRMTEEXEJUUYRUUEUEHEXVJH"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 96000248,
+        "polish_fitness_calls": 191317,
+        "total_fitness_calls": 96192565
+      },
+      "elapsed_seconds": 69.32439643999533,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov7-9_w21",
+        "key_id": "Nov7-9",
+        "width": 21,
+        "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 14423160743048198
+      },
+      "best": {
+        "score": -5.495899959,
+        "restart": 934,
+        "known_square_cells": 34,
+        "square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+        "ranks": [
+          5,
+          3,
+          10,
+          17,
+          11,
+          14,
+          7,
+          2,
+          13,
+          20,
+          18,
+          4,
+          6,
+          15,
+          9,
+          19,
+          8,
+          12,
+          1,
+          21,
+          16
+        ],
+        "plaintexts": [
+          "KYSUMVUKTRVRUBKZVQDVONMIRUNDXVIYMUMPFMITENXBIYTPWEHTV"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 90004336,
+        "polish_fitness_calls": 221761,
+        "total_fitness_calls": 90227097
+      },
+      "elapsed_seconds": 62.526856335993216,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_CHI-Nov8-2026-recovery_w21",
+        "key_id": "CHI-Nov8-2026-recovery",
+        "width": 21,
+        "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 732595290774930482
+      },
+      "best": {
+        "score": -5.010760956,
+        "restart": 458,
+        "known_square_cells": 19,
+        "square": "FT5UGI10PK83QWOYCMB62SZ74NDHXVEA9JLR",
+        "ranks": [
+          11,
+          2,
+          12,
+          18,
+          17,
+          15,
+          8,
+          3,
+          1,
+          21,
+          4,
+          16,
+          5,
+          10,
+          9,
+          20,
+          13,
+          19,
+          7,
+          6,
+          14
+        ],
+        "plaintexts": [
+          "ZHZUTUNDUFAHQYFYEGKEUNICHSBAXGESTESGESGEBEHERXZUDZZOS"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 98823853,
+        "polish_fitness_calls": 378870,
+        "total_fitness_calls": 99203723
+      },
+      "elapsed_seconds": 72.20560742599628,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov4-6_w21",
+        "key_id": "Nov4-6",
+        "width": 21,
+        "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 555302856852334642
+      },
+      "best": {
+        "score": -5.579859757,
+        "restart": 255,
+        "known_square_cells": 36,
+        "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ranks": [
+          3,
+          15,
+          17,
+          11,
+          21,
+          10,
+          9,
+          19,
+          4,
+          5,
+          13,
+          8,
+          16,
+          6,
+          2,
+          18,
+          20,
+          7,
+          12,
+          1,
+          14
+        ],
+        "plaintexts": [
+          "Y0JBOHOBERTEAUSSIFXSHYVOGHHLPRHOOIVORBENXRISBURYOORSO"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 222390,
+        "total_fitness_calls": 100223390
+      },
+      "elapsed_seconds": 101.51134330700006,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov10-12_w21",
+        "key_id": "Nov10-12",
+        "width": 21,
+        "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 507833103249920980
+      },
+      "best": {
+        "score": -5.471836429,
+        "restart": 48,
+        "known_square_cells": 31,
+        "square": "4ARUT1OIFSKN39BZPVLD8JMXCWHQ2E7G05Y6",
+        "ranks": [
+          6,
+          17,
+          10,
+          2,
+          16,
+          1,
+          21,
+          15,
+          14,
+          5,
+          4,
+          11,
+          18,
+          19,
+          20,
+          12,
+          13,
+          8,
+          7,
+          9,
+          3
+        ],
+        "plaintexts": [
+          "UTLKYAJPUTLAERZUHGJECRAUMXJYCUTXRUELLEXOHLVJJEMUTEMAC"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 96000987,
+        "polish_fitness_calls": 232980,
+        "total_fitness_calls": 96234967
+      },
+      "elapsed_seconds": 66.07027555700188,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov7-9_w18",
+        "key_id": "Nov7-9",
+        "width": 18,
+        "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 723959620217035247
+      },
+      "best": {
+        "score": -5.610847197,
+        "restart": 484,
+        "known_square_cells": 34,
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "ranks": [
+          11,
+          15,
+          6,
+          5,
+          4,
+          3,
+          9,
+          17,
+          14,
+          12,
+          16,
+          13,
+          18,
+          10,
+          1,
+          2,
+          8,
+          7
+        ],
+        "plaintexts": [
+          "PUYYVNXUKZPPENDGRX66XMWMQVKWPPCITIKTIONTINDIEMMISVHK4"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 89996401,
+        "polish_fitness_calls": 160622,
+        "total_fitness_calls": 90158023
+      },
+      "elapsed_seconds": 63.51188063299924,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_CHI-Nov8-2026-recovery_w18",
+        "key_id": "CHI-Nov8-2026-recovery",
+        "width": 18,
+        "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 156721868943705167
+      },
+      "best": {
+        "score": -5.195466948,
+        "restart": 979,
+        "known_square_cells": 19,
+        "square": "KT9UGI458Y016WOPCMBF2SZQJNDHXVEA73LR",
+        "ranks": [
+          4,
+          17,
+          6,
+          2,
+          7,
+          9,
+          11,
+          1,
+          18,
+          10,
+          3,
+          8,
+          5,
+          14,
+          13,
+          12,
+          15,
+          16
+        ],
+        "plaintexts": [
+          "UGBEXZJMIGTDKYGUHEDESSCHUSSTUNGSTUEMLPXUEBESLQKHZNFOL"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 98824263,
+        "polish_fitness_calls": 327437,
+        "total_fitness_calls": 99152700
+      },
+      "elapsed_seconds": 72.99517300799926,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov4-6_w18",
+        "key_id": "Nov4-6",
+        "width": 18,
+        "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 779736252346255619
+      },
+      "best": {
+        "score": -5.757037606,
+        "restart": 220,
+        "known_square_cells": 36,
+        "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ranks": [
+          7,
+          10,
+          9,
+          5,
+          8,
+          4,
+          15,
+          3,
+          13,
+          14,
+          16,
+          11,
+          1,
+          12,
+          17,
+          6,
+          18,
+          2
+        ],
+        "plaintexts": [
+          "H2BEICHAUYFRHELLEXBERTBO3JOYOYY3SBISBJJESROTBRILSOOBA"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 158355,
+        "total_fitness_calls": 100159355
+      },
+      "elapsed_seconds": 107.48094466899784,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov10-12_w18",
+        "key_id": "Nov10-12",
+        "width": 18,
+        "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 923709800752206467
+      },
+      "best": {
+        "score": -5.651170082,
+        "restart": 106,
+        "known_square_cells": 31,
+        "square": "4ARUT1OIFSKN39BZPVLD6JMXCWHQ2E7G08Y5",
+        "ranks": [
+          1,
+          15,
+          10,
+          16,
+          3,
+          12,
+          5,
+          17,
+          2,
+          4,
+          8,
+          6,
+          14,
+          18,
+          9,
+          13,
+          7,
+          11
+        ],
+        "plaintexts": [
+          "4XLQCCMSDREUTOCGTELLERTERBLEQUALLJMQJXJYXFXSCHTLVU4ME"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 96000963,
+        "polish_fitness_calls": 169031,
+        "total_fitness_calls": 96170994
+      },
+      "elapsed_seconds": 115.72917590100406,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov7-9_w22",
+        "key_id": "Nov7-9",
+        "width": 22,
+        "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 488543876269134074
+      },
+      "best": {
+        "score": -5.379646926,
+        "restart": 726,
+        "known_square_cells": 34,
+        "square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+        "ranks": [
+          4,
+          15,
+          2,
+          19,
+          6,
+          21,
+          7,
+          22,
+          14,
+          8,
+          17,
+          12,
+          10,
+          11,
+          5,
+          9,
+          3,
+          1,
+          18,
+          13,
+          20,
+          16
+        ],
+        "plaintexts": [
+          "P6MRPYGXVONIHRMITRUPPHTSUNDIEDINIMPFWIVYTUVHUIQQTRQKK"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 89996858,
+        "polish_fitness_calls": 244296,
+        "total_fitness_calls": 90242154
+      },
+      "elapsed_seconds": 138.88671096599865,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_CHI-Nov8-2026-recovery_w22",
+        "key_id": "CHI-Nov8-2026-recovery",
+        "width": 22,
+        "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 150783866986410224
+      },
+      "best": {
+        "score": -4.922611837,
+        "restart": 915,
+        "known_square_cells": 19,
+        "square": "PTQUGI1KJF7Y5WO6CMB90SZ23NDHXVEA84LR",
+        "ranks": [
+          5,
+          13,
+          14,
+          16,
+          8,
+          9,
+          6,
+          22,
+          1,
+          17,
+          18,
+          2,
+          20,
+          11,
+          3,
+          12,
+          7,
+          19,
+          21,
+          10,
+          4,
+          15
+        ],
+        "plaintexts": [
+          "PQCNIGESOFUNGGQPCDGINBISZUSTSSIESERXIHENGENGSSZLSSCHU"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 98822320,
+        "polish_fitness_calls": 408104,
+        "total_fitness_calls": 99231424
+      },
+      "elapsed_seconds": 166.14459392400022,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov4-6_w22",
+        "key_id": "Nov4-6",
+        "width": 22,
+        "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 866301923599132558
+      },
+      "best": {
+        "score": -5.465078425,
+        "restart": 783,
+        "known_square_cells": 36,
+        "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ranks": [
+          5,
+          2,
+          6,
+          16,
+          12,
+          8,
+          20,
+          13,
+          15,
+          3,
+          18,
+          4,
+          9,
+          14,
+          21,
+          11,
+          10,
+          1,
+          22,
+          7,
+          19,
+          17
+        ],
+        "plaintexts": [
+          "GHACHERDOESFLOIOHBBJOSCHBOBSICHNHONYBEOBGUROBEHEGEB2H"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 241395,
+        "total_fitness_calls": 100242395
+      },
+      "elapsed_seconds": 148.49044200999924,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov10-12_w22",
+        "key_id": "Nov10-12",
+        "width": 22,
+        "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 59994907847647297
+      },
+      "best": {
+        "score": -5.415847316,
+        "restart": 927,
+        "known_square_cells": 31,
+        "square": "4ARUT1OIFSKN36BZPVLD5JMXCWHQ2E7G08Y9",
+        "ranks": [
+          14,
+          10,
+          12,
+          7,
+          4,
+          5,
+          15,
+          2,
+          9,
+          19,
+          17,
+          21,
+          3,
+          16,
+          1,
+          22,
+          6,
+          11,
+          20,
+          13,
+          8,
+          18
+        ],
+        "plaintexts": [
+          "UCTMHRMARGRALLTEDURUELLEXDEMXJALEGLUCCXUEYQJLRTZQTEMZ"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 95999264,
+        "polish_fitness_calls": 253532,
+        "total_fitness_calls": 96253796
+      },
+      "elapsed_seconds": 141.57297401400137,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov7-9_w17",
+        "key_id": "Nov7-9",
+        "width": 17,
+        "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 614987474661860464
+      },
+      "best": {
+        "score": -5.666234927,
+        "restart": 787,
+        "known_square_cells": 34,
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "ranks": [
+          13,
+          9,
+          11,
+          3,
+          8,
+          16,
+          6,
+          5,
+          1,
+          14,
+          15,
+          2,
+          17,
+          12,
+          10,
+          7,
+          4
+        ],
+        "plaintexts": [
+          "JIKPPD4XYVYHPOLITAUZPVPQUPKPZDNICHINEMINDDIKVNUQUVXIV"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 90001732,
+        "polish_fitness_calls": 145905,
+        "total_fitness_calls": 90148637
+      },
+      "elapsed_seconds": 129.36631557500368,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_CHI-Nov8-2026-recovery_w17",
+        "key_id": "CHI-Nov8-2026-recovery",
+        "width": 17,
+        "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 777827894653213945
+      },
+      "best": {
+        "score": -5.222654595,
+        "restart": 199,
+        "known_square_cells": 19,
+        "square": "XT1UGI804J32KWO7CMB5QSZ9FNDHYVEA6PLR",
+        "ranks": [
+          10,
+          8,
+          3,
+          15,
+          5,
+          12,
+          7,
+          1,
+          17,
+          6,
+          14,
+          16,
+          2,
+          11,
+          13,
+          4,
+          9
+        ],
+        "plaintexts": [
+          "YQXFFSFESBESTENUNTVGHKOUENXICHKJEPASCHELSSFUEZYSESHQG"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 98824465,
+        "polish_fitness_calls": 314432,
+        "total_fitness_calls": 99139897
+      },
+      "elapsed_seconds": 157.80933136799285,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov4-6_w17",
+        "key_id": "Nov4-6",
+        "width": 17,
+        "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 422956919563770462
+      },
+      "best": {
+        "score": -5.761412053,
+        "restart": 124,
+        "known_square_cells": 36,
+        "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ranks": [
+          9,
+          14,
+          4,
+          15,
+          11,
+          1,
+          7,
+          16,
+          5,
+          13,
+          17,
+          2,
+          3,
+          6,
+          10,
+          12,
+          8
+        ],
+        "plaintexts": [
+          "VWOBHGOBBOTHRCJSHJIHAHERHUEHGPSOXROSSGESOMUSSGTYHOR3G"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 141440,
+        "total_fitness_calls": 100142440
+      },
+      "elapsed_seconds": 179.30326277900167,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov10-12_w17",
+        "key_id": "Nov10-12",
+        "width": 17,
+        "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 141161101370906153
+      },
+      "best": {
+        "score": -5.696144624,
+        "restart": 658,
+        "known_square_cells": 31,
+        "square": "4ARUT1OIFSKN38BZPVLD9JMXCWHQ2E7G06Y5",
+        "ranks": [
+          6,
+          12,
+          17,
+          5,
+          9,
+          10,
+          3,
+          14,
+          7,
+          13,
+          1,
+          11,
+          2,
+          4,
+          16,
+          15,
+          8
+        ],
+        "plaintexts": [
+          "UYMJXUCHXTALTLAUGUOCHELTERHUOTTJRARXEXQXXSUEZUMMLM0QC"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 96003544,
+        "polish_fitness_calls": 153738,
+        "total_fitness_calls": 96158282
+      },
+      "elapsed_seconds": 134.64705074700032,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov7-9_w16",
+        "key_id": "Nov7-9",
+        "width": 16,
+        "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 212004741156219319
+      },
+      "best": {
+        "score": -5.755818114,
+        "restart": 76,
+        "known_square_cells": 34,
+        "square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+        "ranks": [
+          4,
+          7,
+          10,
+          8,
+          1,
+          6,
+          9,
+          11,
+          2,
+          3,
+          5,
+          15,
+          13,
+          16,
+          14,
+          12
+        ],
+        "plaintexts": [
+          "UVMVENUNDMPKPQCFTYITIMMPK2XMIRNIRDIEPDBNPIXNVWQKRTXWU"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 89996984,
+        "polish_fitness_calls": 125356,
+        "total_fitness_calls": 90123340
+      },
+      "elapsed_seconds": 126.01448846600397,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_CHI-Nov8-2026-recovery_w16",
+        "key_id": "CHI-Nov8-2026-recovery",
+        "width": 16,
+        "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 1001904790739865886
+      },
+      "best": {
+        "score": -5.259958587,
+        "restart": 72,
+        "known_square_cells": 19,
+        "square": "6TQUGIJ02X471WO8CMBKPSZ3YNDHFVEA59LR",
+        "ranks": [
+          10,
+          3,
+          4,
+          6,
+          1,
+          7,
+          12,
+          13,
+          11,
+          8,
+          14,
+          2,
+          5,
+          15,
+          16,
+          9
+        ],
+        "plaintexts": [
+          "EYGSKAUFGQGEBELXBEZPQUOCUSFESSTSUFSINEGEBUNSCHRNEGYPH"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 98822058,
+        "polish_fitness_calls": 299008,
+        "total_fitness_calls": 99122066
+      },
+      "elapsed_seconds": 160.27088764099608,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov4-6_w16",
+        "key_id": "Nov4-6",
+        "width": 16,
+        "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 910208025591156730
+      },
+      "best": {
+        "score": -5.894695845,
+        "restart": 183,
+        "known_square_cells": 36,
+        "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ranks": [
+          7,
+          5,
+          11,
+          4,
+          16,
+          3,
+          15,
+          8,
+          6,
+          13,
+          9,
+          1,
+          12,
+          10,
+          14,
+          2
+        ],
+        "plaintexts": [
+          "RTSCHRIYRYRRVOOXIOUQHBSTALEBOYOSO33XAHTHJGSUOUHOLERBI"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 100000000,
+        "polish_fitness_calls": 123960,
+        "total_fitness_calls": 100124960
+      },
+      "elapsed_seconds": 98.27258868599893,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    },
+    {
+      "case": {
+        "id": "p170_radio_Nov10-12_w16",
+        "key_id": "Nov10-12",
+        "width": 16,
+        "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+        "ciphertext": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+        "seed": 276211049264006685
+      },
+      "best": {
+        "score": -5.771166725,
+        "restart": 2,
+        "known_square_cells": 31,
+        "square": "4ARUT1OIFSKN39BZPVLD5JMXCWHQ2E6G07Y8",
+        "ranks": [
+          2,
+          16,
+          9,
+          14,
+          10,
+          15,
+          5,
+          7,
+          1,
+          12,
+          6,
+          13,
+          3,
+          11,
+          8,
+          4
+        ],
+        "plaintexts": [
+          "NENTRUETTJYTTZUODHUYJUJ15XMPELLZUERTJHUMXLAUELTOTUMGC"
+        ]
+      },
+      "actual_search_counts": {
+        "completed_restarts": 1000,
+        "annealing_slots": 100000000,
+        "annealing_fitness_calls": 96002559,
+        "polish_fitness_calls": 134420,
+        "total_fitness_calls": 96137979
+      },
+      "elapsed_seconds": 140.7474189429995,
+      "recipe": {
+        "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+        "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+        "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+        "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "settings": {
+          "restarts": 1000,
+          "iterations_per_restart": 100000,
+          "rank_initialization": "All zero, random search starts.",
+          "source_changes": 0,
+          "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+          "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+        }
+      },
+      "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+      "accepted_historical_plaintext": false
+    }
+  ],
+  "runtime_log_inventory": [
+    {
+      "case_id": "p170_radio_Nov7-9_w20",
+      "filename": "p170_radio_Nov7-9_w20.jsonl",
+      "sha256": "b1d814e8cb5a22002388a9b6b7a705f5498ff89de67af82da0e66ea655e63ccb",
+      "improving_checkpoints": 11,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_CHI-Nov8-2026-recovery_w20",
+      "filename": "p170_radio_CHI-Nov8-2026-recovery_w20.jsonl",
+      "sha256": "8f0ee55b87356918cae7db5630bd91628f3d068b4b02e7dcab797b5207dbda2d",
+      "improving_checkpoints": 8,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov4-6_w20",
+      "filename": "p170_radio_Nov4-6_w20.jsonl",
+      "sha256": "702a845cf1bf194bc845a2be89868da09c6407caa6cffc5398d4aba9ec908b35",
+      "improving_checkpoints": 6,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov10-12_w20",
+      "filename": "p170_radio_Nov10-12_w20.jsonl",
+      "sha256": "fde791b1240dd9bd5b2f4c0724d5c4d339ed80eb7a4a12cc6ec8901743e4dc34",
+      "improving_checkpoints": 10,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov7-9_w19",
+      "filename": "p170_radio_Nov7-9_w19.jsonl",
+      "sha256": "7a62f2dc9f2d9674adbcb6c2a6bc131a71088855eff63f1e27000a8aef5c33f3",
+      "improving_checkpoints": 13,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_CHI-Nov8-2026-recovery_w19",
+      "filename": "p170_radio_CHI-Nov8-2026-recovery_w19.jsonl",
+      "sha256": "efede2e05ba135b67ecdf6c9533746d1861c0b84ad8152babed72f18500f4be3",
+      "improving_checkpoints": 15,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov4-6_w19",
+      "filename": "p170_radio_Nov4-6_w19.jsonl",
+      "sha256": "d58aaad6b6a98c110ae462326182ed4623c362e14f7ce104e3e15f78341a7159",
+      "improving_checkpoints": 12,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov10-12_w19",
+      "filename": "p170_radio_Nov10-12_w19.jsonl",
+      "sha256": "2a24dae497b189180c668fa7ee174a8fb0e1a14f2327b62a40e44cd28f50298b",
+      "improving_checkpoints": 7,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov7-9_w21",
+      "filename": "p170_radio_Nov7-9_w21.jsonl",
+      "sha256": "649c83141b96cf51f5cffa932f657ba91f3df744f6d4c2ec5b1bfbfad66161c1",
+      "improving_checkpoints": 13,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_CHI-Nov8-2026-recovery_w21",
+      "filename": "p170_radio_CHI-Nov8-2026-recovery_w21.jsonl",
+      "sha256": "94772bd323da31152413f180cc48237837c95a7f25533d46ba45877f1c07b64c",
+      "improving_checkpoints": 7,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov4-6_w21",
+      "filename": "p170_radio_Nov4-6_w21.jsonl",
+      "sha256": "9658ea381ac9d5326dfc4938c1851be304287efcb98096dc5536aca009df6c06",
+      "improving_checkpoints": 6,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov10-12_w21",
+      "filename": "p170_radio_Nov10-12_w21.jsonl",
+      "sha256": "f95ffd28ff26b88442646ca790f5570d756a2b46a43643293b7e402c17d4538b",
+      "improving_checkpoints": 3,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov7-9_w18",
+      "filename": "p170_radio_Nov7-9_w18.jsonl",
+      "sha256": "1a58b9659d181201afb8ab2b9f259126a44927f9af6a61e2c4f13840d80044df",
+      "improving_checkpoints": 9,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_CHI-Nov8-2026-recovery_w18",
+      "filename": "p170_radio_CHI-Nov8-2026-recovery_w18.jsonl",
+      "sha256": "b03807a06c211167688e9faec876b7b769ac780ff6bab4a9275394e1772bb63f",
+      "improving_checkpoints": 8,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov4-6_w18",
+      "filename": "p170_radio_Nov4-6_w18.jsonl",
+      "sha256": "fdaaf462b3fe2cce6579c446958661f478a36100d41fa84c89c387c0799d896c",
+      "improving_checkpoints": 5,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov10-12_w18",
+      "filename": "p170_radio_Nov10-12_w18.jsonl",
+      "sha256": "c9ccb768e059675b798b78c98b98f3287ae018190de5a989a090f903e24e903a",
+      "improving_checkpoints": 5,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov7-9_w22",
+      "filename": "p170_radio_Nov7-9_w22.jsonl",
+      "sha256": "b01870f50cb4802b9743597a1fd7cda71b5631d2271a29e63b6de9c2168c43e8",
+      "improving_checkpoints": 9,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_CHI-Nov8-2026-recovery_w22",
+      "filename": "p170_radio_CHI-Nov8-2026-recovery_w22.jsonl",
+      "sha256": "c585ea24515a132663eec409f542282497144b8e0b9f744632748f8162c8ee1c",
+      "improving_checkpoints": 9,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov4-6_w22",
+      "filename": "p170_radio_Nov4-6_w22.jsonl",
+      "sha256": "dc1e9963f5d30c80140761c81a570e22c8fb95c14920402b9292a16ff98d3c7f",
+      "improving_checkpoints": 11,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov10-12_w22",
+      "filename": "p170_radio_Nov10-12_w22.jsonl",
+      "sha256": "fa2c69ff09213f62c15525f50d7ee66beb4af9819d616f756d7779f1c766754d",
+      "improving_checkpoints": 8,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov7-9_w17",
+      "filename": "p170_radio_Nov7-9_w17.jsonl",
+      "sha256": "65da73be3f681ff9ba0050cea8657b9494459b05dee23d5dd4027966271bc157",
+      "improving_checkpoints": 11,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_CHI-Nov8-2026-recovery_w17",
+      "filename": "p170_radio_CHI-Nov8-2026-recovery_w17.jsonl",
+      "sha256": "f78db1c0f4caa043fc0a8033a332aa86209c8e45403437f2224a047d19aca54d",
+      "improving_checkpoints": 7,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov4-6_w17",
+      "filename": "p170_radio_Nov4-6_w17.jsonl",
+      "sha256": "fe6eebb18d77f5de3673a0449c74fb4e1511cd7326ed88f92a2f847809ff652a",
+      "improving_checkpoints": 6,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov10-12_w17",
+      "filename": "p170_radio_Nov10-12_w17.jsonl",
+      "sha256": "6dc91d2e46ec7bfffbcb9fc5cee44669c0f0b4fb8715660f7c1c28dffa7af7ad",
+      "improving_checkpoints": 7,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov7-9_w16",
+      "filename": "p170_radio_Nov7-9_w16.jsonl",
+      "sha256": "9ef81f8ffc07470e53f85c7a11d497153a554098c226512608a66c2eef65c13b",
+      "improving_checkpoints": 5,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_CHI-Nov8-2026-recovery_w16",
+      "filename": "p170_radio_CHI-Nov8-2026-recovery_w16.jsonl",
+      "sha256": "feb6c46a2d1dc1a82ac20876899930668423b886b974c87ff4fe9944cc802885",
+      "improving_checkpoints": 7,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov4-6_w16",
+      "filename": "p170_radio_Nov4-6_w16.jsonl",
+      "sha256": "d6939c151ed5ab0914dc8cdbd4f53fa851488c1009d0513d42982e0690e464e8",
+      "improving_checkpoints": 3,
+      "final_checkpoint_is_archived_best": true
+    },
+    {
+      "case_id": "p170_radio_Nov10-12_w16",
+      "filename": "p170_radio_Nov10-12_w16.jsonl",
+      "sha256": "10ac5bfaf0c93dced8e02b51262b737dc0598ee5440188835049aebf8c84a20f",
+      "improving_checkpoints": 3,
+      "final_checkpoint_is_archived_best": true
+    }
+  ],
+  "run": {
+    "recipe": {
+      "inputs_sha256": "868ad46d40e50f095960c2d070d54df2daee65dba47663d132750d105782a512",
+      "runner_sha256": "db7e9a9bb4dd62a71d8920853a5754412ee2c43809cfc7a895ccdfd37135768b",
+      "engine_source_sha256": "90262989af8926fb90fad5f6da1e6f8d8bab2eab436f3a0d0ee7cc4d6d053def",
+      "engine_sha256": "9f416add154009948de5afde395b0a1005306398623733a8cb98a5f8686d3820",
+      "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+      "settings": {
+        "restarts": 1000,
+        "iterations_per_restart": 100000,
+        "rank_initialization": "All zero, random search starts.",
+        "source_changes": 0,
+        "square_policy": "Keep every known cell of the previously audited key record fixed; permute only currently unknown cells injectively. No additional historical or lexical numeric relabeling is imposed.",
+        "temperature_and_mutations": "Unchanged counted anchored_joint engine."
+      }
+    },
+    "recipe_fingerprint": "1380e9b5e23951434202ae61e73bf2b2e7d132f6472e257ca003863cba5edef3",
+    "selected_jobs": [
+      "p170_radio_Nov7-9_w20",
+      "p170_radio_CHI-Nov8-2026-recovery_w20",
+      "p170_radio_Nov4-6_w20",
+      "p170_radio_Nov10-12_w20",
+      "p170_radio_Nov7-9_w19",
+      "p170_radio_CHI-Nov8-2026-recovery_w19",
+      "p170_radio_Nov4-6_w19",
+      "p170_radio_Nov10-12_w19",
+      "p170_radio_Nov7-9_w21",
+      "p170_radio_CHI-Nov8-2026-recovery_w21",
+      "p170_radio_Nov4-6_w21",
+      "p170_radio_Nov10-12_w21",
+      "p170_radio_Nov7-9_w18",
+      "p170_radio_CHI-Nov8-2026-recovery_w18",
+      "p170_radio_Nov4-6_w18",
+      "p170_radio_Nov10-12_w18",
+      "p170_radio_Nov7-9_w22",
+      "p170_radio_CHI-Nov8-2026-recovery_w22",
+      "p170_radio_Nov4-6_w22",
+      "p170_radio_Nov10-12_w22",
+      "p170_radio_Nov7-9_w17",
+      "p170_radio_CHI-Nov8-2026-recovery_w17",
+      "p170_radio_Nov4-6_w17",
+      "p170_radio_Nov10-12_w17",
+      "p170_radio_Nov7-9_w16",
+      "p170_radio_CHI-Nov8-2026-recovery_w16",
+      "p170_radio_Nov4-6_w16",
+      "p170_radio_Nov10-12_w16"
+    ]
+  },
+  "limits": [
+    "All source coordinates and known square cells are fixed.",
+    "Counters count fitness calls, not distinct states.",
+    "No returned historical candidate is an accepted reading."
+  ]
+}

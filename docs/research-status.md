@@ -4,7 +4,7 @@
 
 **icekylinx and GPT-6 Astra Pro · 2 November 2026**
 
-The edition contains 22 challenge entries and 187 other source-reviewed
+The edition contains 22 challenge entries and 195 other source-reviewed
 records in the [two reading tables](../cases/README.md). **p73, p170 and p198 D remain
 wholly open.** Other entries range from complete prior readings to partial
 recoveries and source-linked reconstructions; they are not all independently
@@ -16,6 +16,9 @@ defensible.
 
 | Result | Evidence gained | What remains unresolved |
 |---|---|---|
+| [Crown cash requests and banknote shortage](../cases/other/crown_cash_requests.md) | Three records preserve all 918 source coordinates and fix 459 raw-label positions, covering an Arad advance request and a separate report of partial remittances and banknote shortage. | Six ordinary-word repairs are explicit. Amount and army labels remain unassigned; the separate report is not assumed to answer the request. |
+| [Lei-note redemption](../cases/other/lei_note_exchange.md) | Three parts fix 494/500 raw-label positions and describe stamping, bank arrangements and pending negotiations; complete monetary/reference pairs are mapped to the scan. | Twenty-one ordinary-word coordinate repairs, five printed erasures and one missing value are explicit. Raw rate labels and abbreviations remain unassigned; no historical rate is guessed. |
+| [Breslau staff transfer](../cases/other/breslau_staff_transfer.md) | Two parts preserve all 558 coordinates and read a special-employment assignment with 279 raw-label positions; every numeral and rare-letter occurrence is inventoried. | Nine ordinary-word repairs are explicit. The raw rank, surname, corps labels and serials remain; the 1917 unit-location witness and 1913 OCR surname lead do not identify the officer or establish new key labels. |
 | [Constantinople civilian enquiry](../cases/other/constantinople_civilians.md) | Four parts fix 624/628 raw positions and recover an enquiry about civilians, Swedish-legation verification, and an appeal to the Supreme War Council independently corroborated by contemporary diplomatic texts. | The raw headcount is 0YY, with no conventional number assigned. Seventeen word repairs, two erasure fills, two insertions and one deletion are explicit; seven competing final-part frames remain. |
 | [October routing, weather and requests](../cases/other/october_requests.md) | Sofia leaves the Ringbahnverkehr; Westernhagen is asked to return; weather reports need date groups; an inspector request is partly read. | The weather geometry needs two conditional deletions. The inspector edition leaves its difficult 21-position expression unassigned; its costly full normalization is unaccepted. |
 | [German tonnage and proposed Turkish purchases](../cases/other/turkish_tonnage.md) | Three parts explain emergency sale, immediate cash and prior authorization, with 490/500 raw positions fixed; both short-group repairs are preserved. | Nine word repairs remain editorial. The separate A6S hypothesis fixes three candidate positions but also creates a visible raw-word garble; its referenced date has no independent earlier witness. |
@@ -79,21 +82,49 @@ leads, without treating an uninspected file as evidence. For p170, a trustworthy
 original length or an overlapping transmission would directly reduce the
 currently unconstrained truncation geometry.
 
-### 2. Calibrate word structure before accepting language scores
+### 2. Use the new calibration results to choose the next method
 
-The exact four-/six-gram experiments already remove search incompleteness
-under their fixed keys and damage models. More stochastic searches over those
-same exhausted spaces cannot improve the exact optimum. The remaining issue
-includes how the objective ranks texts: the wrong Nov13b candidate also wins
-under [independent held-out books](../experiments/open_targets/HELDOUT_CONTROLS.md).
+Word segmentation and radio-domain scoring are now implemented and tested.
+The [word/loss package](../experiments/p198_word_search/README.md) preserves
+18 control runs on nine distinct plaintext bodies: 12 exact recoveries,
+five wrong incumbents that outrank truth, and one search failure despite a
+better true score. The old diagnostic and four initial bodies were reused
+when weight 2 was selected adaptively. The later published-anchor controls
+include one complete square and three partial squares; their numerical
+failure changes three digits while preserving the readable wording.
 
-A useful next method experiment is an explicit word/segmentation objective
-combined with source-preserving decoding. Fix fresh control messages, keys,
-numerals, abbreviations and damage patterns before selecting model settings.
-Measure actual text recovery and false preferences. A higher model score, or
-agreement between models trained on the same books, is insufficient evidence
-for a historical reading. This experiment is proposed here, not reported as
-already implemented or successful.
+The [radio model](../experiments/radio_domain_model/README.md) freezes message
+families before fitting the mixture. Its benefit is specific to a tested
+regime: on six 53-character controls with the **full true square supplied**
+and hidden ranks, it recovers 5/6 versus 2/6 for the book score. With partial
+squares and five losses it recovers only 1/6 exactly, as does the book model.
+A follow-up folds all digits into one class. Four deliberately numerical
+fresh controls show that recovering a class sequence does not identify its
+digit permutation; none of the four objective variants recovers a complete
+literal numerical text in that sample. Families reused in several cipher
+conditions are not independent historical samples.
+
+The [p73 methods](../experiments/p73_new_methods/README.md) add square-component
+reuse, spacing models, full-hidden-square word controls and exact
+substitution-invariant source retrieval. All 47,819 reported retrieval
+assignments have an independent optimum check. The best historical agreement
+is no better than the finite frequency-preserving shuffle comparison; this
+is a bounded screen, not a significance test or key exclusion.
+
+The [p170 methods](../experiments/p170_new_methods/README.md) extend recorded
+square reuse and transfer the independently observed one-group displacement.
+A failed geometry control exposes a separate score bias: marginalizing
+unknown symbols can reward a less informative wrong frame. Whole completed
+square searches and partial-text geometry scores therefore require different
+interpretation.
+
+These experiments provide reproducible capabilities and concrete failure
+modes, but no accepted p73, p170 or p198 D reading. Further model work should
+address the demonstrated word/numeral ranking errors, use genuinely new
+control bodies and a frozen selection protocol, or add independent source
+constraints. Increasing the budget alone cannot repair a wrong objective.
+The earlier exact four-/six-gram work already exhausted its declared fixed-key
+spaces and need not be repeated as another stochastic campaign.
 
 ### 3. Constrain p153's shared unknown cells
 

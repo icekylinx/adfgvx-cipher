@@ -1,0 +1,623 @@
+{
+  "schema": "adfgvx-radio-27class-followup-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "base_dataset_sha256": "2cf81c699ef145c642ea9e902433387e0ce9130643ec6d713d1318f0f7547162",
+  "key_catalog_sha256": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+  "adaptation": "Designed after observing that the first 36-symbol mixture could favor letters in numerical reference fields. Earlier six held-out controls are now development observations, not fresh validation for this variant.",
+  "further_held_out_families": [
+    "Kiel_radio_control",
+    "Naval_report_administration",
+    "p192_B",
+    "p85_B"
+  ],
+  "training_records": [
+    {
+      "id": "p203_C",
+      "family": "p203_C",
+      "key_id": "Nov16-18",
+      "plaintext_layer": "KMXABTXNACHRICHTENMITTELXERBITTETNACHRICHTVERBLEIBUNTFFZXRICHTERXFUNKERPARKXALEPPOXFELDPOSTX???X",
+      "dependency": "experiments/corpus_recovery/certificates.json",
+      "field": "records/editorial_candidate_or_unchanged_raw",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p69_B1",
+      "family": "p69_B",
+      "key_id": "Oct4-6",
+      "plaintext_layer": "ABBRAILA4X10XMITDXVIOLETTAX10000EIERHANDGRANATENX3WAGENMASCHXGEW04WLIXRUSSGEWX9WAGXMUNX94TS6LEBENSMITTEL16FASSBENZIN2KISTENKURIERGEPAECK10WAGXMUNXFUERMUNXDEPXPOTIXXX",
+      "dependency": "experiments/october_caucasus/inputs.json",
+      "field": "records/editorial_template",
+      "qualification": "The source edition explicitly marks uncertain quantities and names. This is a language-training template, not proof of those details."
+    },
+    {
+      "id": "p69_B2",
+      "family": "p69_B",
+      "key_id": "Oct4-6",
+      "plaintext_layer": "UNDMEHREREWAGXFUERDORTXTRUPPENXXX",
+      "dependency": "experiments/october_caucasus/inputs.json",
+      "field": "records/editorial_template",
+      "qualification": "The source edition explicitly marks uncertain quantities and names. This is a language-training template, not proof of those details."
+    },
+    {
+      "id": "p70_A1",
+      "family": "p70_A",
+      "key_id": "Oct4-6",
+      "plaintext_layer": "ANWESTERNHAGENXXBESTAETIGENTELEGRX28X9XEUERFRUEHERESTELEGRXNICHTERHALTENXDAVONEUCHOHNEBERICHTUNDKENNTNISDORTIGERMARKTLAGEGELASSENKOENNENPREISGRENZENNICHTAUFGEBEN",
+      "dependency": "experiments/october_caucasus/inputs.json",
+      "field": "records/editorial_template",
+      "qualification": "The source edition explicitly marks uncertain quantities and names. This is a language-training template, not proof of those details."
+    },
+    {
+      "id": "p70_A2",
+      "family": "p70_A",
+      "key_id": "Oct4-6",
+      "plaintext_layer": "MDLXRUECKSPRACHESOFORTERFORDERLICHBITTENRUECKEHRBESCHLEUNIGENDRAHTENGLEICHESUEBERXASTOXCONSTANZAXBESTAETIGTEMPFANGXDEUTKAUF",
+      "dependency": "experiments/october_caucasus/inputs.json",
+      "field": "records/editorial_template",
+      "qualification": "The source edition explicitly marks uncertain quantities and names. This is a language-training template, not proof of those details."
+    },
+    {
+      "id": "p72_A1",
+      "family": "p72_A",
+      "key_id": "Oct4-6",
+      "plaintext_layer": "ZUTELX30X9XNATEKSNRX8557X1XVERSTAERKUNGDERDELEGXVONOXHXLXOHNEBETEILIGUNGX?SKXMXANGEORDNET",
+      "dependency": "experiments/october_caucasus/inputs.json",
+      "field": "records/editorial_template",
+      "qualification": "The source edition explicitly marks uncertain quantities and names. This is a language-training template, not proof of those details."
+    },
+    {
+      "id": "p72_A2",
+      "family": "p72_A",
+      "key_id": "Oct4-6",
+      "plaintext_layer": "2XMITBERICHTVOM8X?X4ANR553ANGEFORDXVERWXPERSXWIRDMITAUSNAHMEDERGARNISONVERWXBEAMTENVERGLXTELX26X?X16?7X18XGX?X11X",
+      "dependency": "experiments/october_caucasus/inputs.json",
+      "field": "records/editorial_template",
+      "qualification": "The source edition explicitly marks uncertain quantities and names. This is a language-training template, not proof of those details."
+    },
+    {
+      "id": "p72_A3",
+      "family": "p72_A",
+      "key_id": "Oct4-6",
+      "plaintext_layer": "ZURVERFUEGUNGGESTELLTWERDENX3XNOTWENDIGESGELDISTSICHERGESTELLT",
+      "dependency": "experiments/october_caucasus/inputs.json",
+      "field": "records/editorial_template",
+      "qualification": "The source edition explicitly marks uncertain quantities and names. This is a language-training template, not proof of those details."
+    },
+    {
+      "id": "p72_B",
+      "family": "p72_B",
+      "key_id": "Oct4-6",
+      "plaintext_layer": "ZUDORTNR479X2000X2030FUEROSMUNGEEIGNETXSINDSIEMITRICHIM98X30X9XMITGETEILTENZEITENEINVERSTANDENWIEISTDORTEMPFANGOSMWELLE2800UND3500XSCHLEE",
+      "dependency": "experiments/october_caucasus/inputs.json",
+      "field": "records/editorial_template",
+      "qualification": "The source edition explicitly marks uncertain quantities and names. This is a language-training template, not proof of those details."
+    },
+    {
+      "id": "p71_A1",
+      "family": "p71_A",
+      "key_id": "Oct4-6",
+      "plaintext_layer": "NACHTIFLISABGEGANGEN28X9XMIT2BEGLEITER2STUECK16KXWXMASCHINENSAETZEUND1X20KXWXUMFORMER",
+      "dependency": "experiments/october_caucasus/inputs.json",
+      "field": "records/editorial_template",
+      "qualification": "The source edition explicitly marks uncertain quantities and names. This is a language-training template, not proof of those details."
+    },
+    {
+      "id": "p69_A",
+      "family": "p69_A",
+      "key_id": "Oct4-6",
+      "plaintext_layer": "MITEINVERSTAENDNISXOXHXLXWIRDRITTMXTELLNERXTELLNERXALSVERBDGSXOFFZDERHEERESGRXNACHXTIFLISXENTSANDTXHEERGRXKJEW",
+      "dependency": "experiments/october_caucasus/inputs.json",
+      "field": "records/editorial_template",
+      "qualification": "The source edition explicitly marks uncertain quantities and names. This is a language-training template, not proof of those details."
+    },
+    {
+      "id": "p163_A14",
+      "family": "p163_A",
+      "key_id": "Nov7-9",
+      "plaintext_layer": "BLEIBENMUESSENUNDIHREENDGUELTIGERAEUMUNGMITEINEMSCHLAGERFOLGENMUSSXBEFEHLZULETZTERERERTEILTXOKMXIXRX204XBLEIBTZURBESETZUNG",
+      "dependency": "experiments/withdrawal_recovery/certificates.json",
+      "field": "records/edition/reading/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p163_A17",
+      "family": "p163_A",
+      "key_id": "Nov7-9",
+      "plaintext_layer": "ERFOLGTNOCHBEFEHLXEBENSOBETREFFENDDONAUWACHTBOOTEUNDSONSTIGERSCHIFFSGEFAESSEX9XOKXSCHOLTZGEHTVORAUSSICHTLICHAM13X11XNACHXCALIMANESTI",
+      "dependency": "experiments/withdrawal_recovery/certificates.json",
+      "field": "records/edition/reading/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p164_B",
+      "family": "p164_B",
+      "key_id": "Nov7-9",
+      "plaintext_layer": "WIRXABBAUEN9X11X0?00WEITERMARSCHXTEMESVARXWENNDORTAUFGEBAUTXRUFENXWIRX",
+      "dependency": "experiments/withdrawal_recovery/certificates.json",
+      "field": "records/edition/reading/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p190_A",
+      "family": "pilot_arrival",
+      "key_id": "Nov13-15b",
+      "plaintext_layer": "ZITADELLEXFUERSOLDATENRATXXFLIEGERXFR?EXBEVOLLMAECHTIGTERSOLDATENRATSINBERLINWOHLBEHALTENEINGETROFFENXXAUSWAERTIGESAMT",
+      "dependency": "experiments/nov14_retransmissions/certificates.json",
+      "field": "records/readable_candidate/template",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p190_B",
+      "family": "backup_station_request",
+      "key_id": "Nov13-15b",
+      "plaintext_layer": "WELCHESTATIONKANNNKJBEIBETRIEBSSTOERUNGVERTRETENXXVIELLEICHTSEWASTOPOLXDRINGBESCHEIDANLP",
+      "dependency": "experiments/nov14_retransmissions/certificates.json",
+      "field": "records/readable_candidate/template",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p194_B",
+      "family": "pilot_arrival",
+      "key_id": "Nov13-15a",
+      "plaintext_layer": "ZITADELLEXWARSCHAUXFUERXSOLDATENRATXFLUGZEUGFUEHRERXFR?EXBEVOLLMAECHTIGTERXSOLDATENRATSXINXBERLINXWOHLBEHALTENXEINGETROFFENXAUSWAERTIGESAMTX",
+      "dependency": "experiments/nov14_retransmissions/certificates.json",
+      "field": "records/readable_candidate/template",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p193_B",
+      "family": "pilot_arrival",
+      "key_id": "Nov13-15a",
+      "plaintext_layer": "Z???DE????W?R?CH????U?R?SO????E?R?TX????Z?U?FU????R?F??E????O?L?AE????G?E?XS????T?N?AT????X?E?LI????H?B?HA????X?I?GE????F?N?AU????R?I?ES????",
+      "dependency": "experiments/nov14_retransmissions/certificates.json",
+      "field": "records/readable_candidate/template",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p192_A",
+      "family": "p192_A",
+      "key_id": "Nov13-15b",
+      "plaintext_layer": "ANXOBLT0KRETZSCHMARBEIXOKMXWIRTSCHAFTSSTABABTX1XBUKARESTXNRX???XERBITTENNACHRICHTUEBERLAGENUNDAUSSICHTENSOWIEBEZUEGLICHUNSERERINTERESSENGEFASSTEBESCHLUESSEXDEUTKAUF5AUSWAERTIG",
+      "dependency": "experiments/warsaw_service_messages/inputs.json",
+      "field": "records/editorial_candidates/0/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p194_C",
+      "family": "p194_C",
+      "key_id": "Nov13-15b",
+      "plaintext_layer": "HEERESGRUPPEXKIEWXXWELCHENC?MARSCHWEGWAEHLTHEERESGRUPPEKIEWXXDRINGENDBALDIGSTBESCHEIDFUNKENXPRESSEXSXRXWARSCHAUX",
+      "dependency": "experiments/warsaw_service_messages/inputs.json",
+      "field": "records/editorial_candidates/0/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p194_E",
+      "family": "p194_E",
+      "key_id": "Nov13-15b",
+      "plaintext_layer": "ZUKUENFTIGWERDENUNKONTOLLIERTETELSDESXSXRXWARSCHAUDURCHXXFRANZXXXKONTROLLIERTEDURCHXXEMILXXGEKENNZEICHNETXXSXRXWARSCHAUX",
+      "dependency": "experiments/warsaw_service_messages/inputs.json",
+      "field": "records/editorial_candidates/0/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p131_B",
+      "family": "Kremp_departure",
+      "key_id": "Nov4-6",
+      "plaintext_layer": "MILMISTRANSPABT1BKONSTANTINOPELXBINWIEDERHERGESTELLTBITTEABFAHRTSTAGBESTIMMENXKREMPX",
+      "dependency": "experiments/open_targets_continuation/certificates.json",
+      "field": "results/editorial/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p159_D",
+      "family": "Kremp_departure",
+      "key_id": "Nov7-9",
+      "plaintext_layer": "COELN11XAB1XSXMILMISSTRANSPABT1BCONSTANTINOPELXBINWIEDERHERGESTELLTBITTEABFAHRTSTAGBESTIMMENXKREMP",
+      "dependency": "experiments/open_targets_continuation/certificates.json",
+      "field": "results/editorial/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p181_A",
+      "family": "p181_A",
+      "key_id": "Nov10-12",
+      "plaintext_layer": "ERBITTENUMGEHENDNACHRICHTOBGERUECHTVOMANMARSCHMACKENSENSAUFWARSCHAUWAHRXSOLDATENRATWARSCHAUX",
+      "dependency": "experiments/open_targets_continuation/certificates.json",
+      "field": "results/editorial/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p211_B_lower1",
+      "family": "p211_B_lower",
+      "key_id": "Nov4-6",
+      "plaintext_layer": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHRCHEFX4XB848727XXDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGX",
+      "dependency": "experiments/open_targets_continuation/certificates.json",
+      "field": "results/editorial/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p211_B_lower2",
+      "family": "p211_B_lower",
+      "key_id": "Nov4-6",
+      "plaintext_layer": "NICHTINKRAFTXDAFUERSCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWANZIGSTERDEZEMBER",
+      "dependency": "experiments/open_targets_continuation/certificates.json",
+      "field": "results/editorial/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p211_B_lower3",
+      "family": "p211_B_lower",
+      "key_id": "Nov4-6",
+      "plaintext_layer": "WIEDREISSIGSTERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNACHRCHEFZ4XBX47857X",
+      "dependency": "experiments/open_targets_continuation/certificates.json",
+      "field": "results/editorial/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p204_A",
+      "family": "p204_A",
+      "key_id": "Nov16-18",
+      "plaintext_layer": "HIESIGEFUSTAWIRDLAUTXSXRXWARSCHAUMONTAGX1?XPOLENUEBERGEBENXXFUSTAWAUMX",
+      "dependency": "experiments/open_targets_continuation/certificates.json",
+      "field": "results/editorial/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p201_B1",
+      "family": "p201_B",
+      "key_id": "Nov16-18",
+      "plaintext_layer": "ERREICHTEZIELEREGELMAESSIGHIERHERMELDENDESGLXWOUXWANNERSTENTEILEVORAUSSICHTLICHDIEDEUTSCHEGRENZEERREICHEN",
+      "dependency": "experiments/open_targets_continuation/certificates.json",
+      "field": "results/editorial/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p201_B2",
+      "family": "p201_B",
+      "key_id": "Nov16-18",
+      "plaintext_layer": "WERDENOBMITBAHNFUSSMARSCHUNDWELCHETEILEDESSINDEMPFANGBESTAETIGENXOHLXNMX1XAX11??2XGEHXOPX",
+      "dependency": "experiments/open_targets_continuation/certificates.json",
+      "field": "results/editorial/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p206_A1",
+      "family": "p206_A",
+      "key_id": "Nov16-18",
+      "plaintext_layer": "ANXOKMXBITTESOFORTBESTAETIGUNGHIERHEROBFUNKSPRUECHERMX1XAX11212XVX?X11XBETREFFENDABMARSCHBEFEHLXRMX1XAX112??XVX?X11XBETRXBEFEHLABSICHTENZUMELDENXRMX1XAX11?2?XVX?X11XBETRXZERSTOERUNGENX",
+      "dependency": "experiments/open_targets_continuation/certificates.json",
+      "field": "results/editorial/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p206_A2",
+      "family": "p206_A",
+      "key_id": "Nov16-18",
+      "plaintext_layer": "RMX1XAX11???XVX?X11XBETRXABLEHNUNGDERWAFFENABGABEXRMX1XAX11???XVX?X11XBETRXVERHANDLUNGENMITRUMAENIENXRMX1XAX11???XVX1?X11XBETRXWAFFENSTILLSTANDUNDXRMX1XAX11??2XVX1?X11XBETRXBEFEHLERREICHTEZIELEMELDENX",
+      "dependency": "experiments/open_targets_continuation/certificates.json",
+      "field": "results/editorial/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p206_A3",
+      "family": "p206_A",
+      "key_id": "Nov16-18",
+      "plaintext_layer": "DORTANGEKOMMENSINDXSOFORTSTANDORTEDERDIVISIONENHIERHERMELDENXEMPFANGDIESESBEFEHLSBEFEHLSBESTAETIGENXOHLXRMX1XAXNRXJ?????XOPK",
+      "dependency": "experiments/open_targets_continuation/certificates.json",
+      "field": "results/editorial/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p111_B",
+      "family": "p111_B",
+      "key_id": "Nov1-3",
+      "plaintext_layer": "FUERXCHEFXMITTELMEERDIVISIONXBXMXKXNATEKOXWEGENXUNSICHERHEITXDERXKABELVERBINDUNGENXFUERXWICHTIGEXMELUNGENXFUNKSPRUCHXBENUTZENXADMIRALSTABX18266XDXROEMX2XX",
+      "dependency": "experiments/corpus_readings/certificates.json",
+      "field": "messages/first_editorial_or_direct_layer",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p120_B1",
+      "family": "p120_B",
+      "key_id": "Nov4-6",
+      "plaintext_layer": "FEIGENHAUSKONSTANTINOPELXSECHSHUNDERTSIEBZEHNBEICHTVATERZWEIHUNDERTDREIUNDNEUNZIGNACHDEMDIKTATORANWEISUNGGEGEBENNOTSCHREIEINANDREASNICHTVORZUNEHMENHABENWIRUNSNOCHMALSMITHERKULESINVERBINDUNGGESETZTX",
+      "dependency": "experiments/corpus_readings/certificates.json",
+      "field": "messages/first_editorial_or_direct_layer",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p123_A2",
+      "family": "p123_A",
+      "key_id": "Nov4-6",
+      "plaintext_layer": "HERKULESABLEHNTVERANTWORTUNGFUERNEUENOTSCHREIEXINFOLGEDESSENKOENNENWIRAUFKEINENFALLNEUENOTSCHREIEINANDREASVORNEHMENX",
+      "dependency": "experiments/corpus_readings/certificates.json",
+      "field": "messages/first_editorial_or_direct_layer",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p123_A3",
+      "family": "p123_A",
+      "key_id": "Nov4-6",
+      "plaintext_layer": "SIEWOLLENDESHALBUNSERENANWEISUNGENENTSPRECHENDSICHVERHALTENXDRAHTETWASIHRINANBETRACHTVERAENDERTERPOLITISCHERLAGENUNMEHRZUTUNGEDENKTXREICHSVERSORGUNG",
+      "dependency": "experiments/corpus_readings/certificates.json",
+      "field": "messages/first_editorial_or_direct_layer",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    }
+  ],
+  "validation_records": [
+    {
+      "id": "p140_A1",
+      "family": "Kiel_radio_control",
+      "key_id": "Nov4-6",
+      "plaintext_layer": "SAEMTLICHEFUNKSTELLENSOFORTDURCHOFFIZIERFESTINHANDNEHMEN",
+      "dependency": "experiments/corpus_extension/certificates.json",
+      "field": "records/first_editorial_candidate_or_raw",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p140_A2",
+      "family": "Kiel_radio_control",
+      "key_id": "Nov4-6",
+      "plaintext_layer": "VERHINDERNDASSFUNKSPRUECHEAUSKIELKIELAUFGENOMMENUNDVERBREITETWERDEN",
+      "dependency": "experiments/corpus_extension/certificates.json",
+      "field": "records/first_editorial_candidate_or_raw",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p140_A3",
+      "family": "Kiel_radio_control",
+      "key_id": "Nov4-6",
+      "plaintext_layer": "BEREITSAUFGENOMMENETEXTEBESCHLAGNAHMENUNDVERNICHTEN",
+      "dependency": "experiments/corpus_extension/certificates.json",
+      "field": "records/first_editorial_candidate_or_raw",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p140_A4",
+      "family": "Kiel_radio_control",
+      "key_id": "Nov4-6",
+      "plaintext_layer": "GROESSTEEILEGEBOTENNACHRCHEFXROEMVIERXVX47?00XGEH",
+      "dependency": "experiments/corpus_extension/certificates.json",
+      "field": "records/first_editorial_candidate_or_raw",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p192_B",
+      "family": "p192_B",
+      "key_id": "Nov13-15b",
+      "plaintext_layer": "KWHXLPXUEBERMITTELTALLEVORLIEGENDENWICHTIGENNACHRICHTENFUERHEIMATDIENSTSTELLENSOWIEXOHLXUNDUMGEKEHRTXKMXALLGXKRIEGSDEPXNRX?5?1115XANCH",
+      "dependency": "experiments/warsaw_service_messages/inputs.json",
+      "field": "records/editorial_candidates/0/plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p205_B1",
+      "family": "Naval_report_administration",
+      "key_id": "Nov16-18",
+      "plaintext_layer": "MITXAUFLOESUNGXDERXSEEKRIEGSLEITUNGXFALLENXDIEXBISHERXDAHINXERSTATTETENXTAGESMELDUNGENXFORTXDASGLEICHEXGILTXFUERXVORLAGEXDERXKRIEGSTAGEBUECHERXKRIEGSTAGEBUECHER",
+      "dependency": "experiments/corpus_joint/p205_readings.json",
+      "field": "results/editorial_plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p205_B2",
+      "family": "Naval_report_administration",
+      "key_id": "Nov16-18",
+      "plaintext_layer": "SINDXVONXALLENXDIENSTSTELLENXVORLAEUFIGXWEITERZUFUEHRENXGLEICHLAUTENDXOSTNORDFLOTTEXBMKXADMIRALSTABX1?XOPXEINSX",
+      "dependency": "experiments/corpus_joint/p205_readings.json",
+      "field": "results/editorial_plaintext",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    },
+    {
+      "id": "p85_B",
+      "family": "p85_B",
+      "key_id": "Oct28-31",
+      "plaintext_layer": "FERNSPRECHVERBINDUNGUEBERBUDAPESTUNTERLIGTUNGARISCHERCENSURXVERBINDUNGDAHERNURMITFUNKSPRUCHMOEGLICH",
+      "dependency": "experiments/corpus_readings/certificates.json",
+      "field": "messages/first_editorial_or_direct_layer",
+      "qualification": "An explicitly costed editorial source edition; its original assumptions and prior credits remain in the dependency."
+    }
+  ],
+  "additional_overlap_exclusions": [],
+  "controls": [
+    {
+      "id": "class_holdout_0_Kiel_radio_control",
+      "source_record_ids": [
+        "p140_A1",
+        "p140_A2"
+      ],
+      "synthetic_join_separator": "X",
+      "source_span": [
+        0,
+        85
+      ],
+      "truth": "SAEMTLICHEFUNKSTELLENSOFORTDURCHOFFIZIERFESTINHANDNEHMENXVERHINDERNDASSFUNKSPRUECHEAU",
+      "truth_classes": "SAEMTLICHEFUNKSTELLENSOFORTDURCHOFFIZIERFESTINHANDNEHMENXVERHINDERNDASSFUNKSPRUECHEAU",
+      "key_id": "Nov13-15b",
+      "square": "H92BMUF15PX0DJLRQY38S6VONKZ4AWITEGC7",
+      "partial_square": "H??BMUF15PX0DJLR?Y??S6VONKZ?AWITEGC?",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "full_ciphertext": "VXFAADFGAFVVDAAGVAAAFXGGXXAXVGAGAXGGDVDXAXVXFFDXFGFVAFVGFXVAXGFFAFDAFAFADFXXDAFVVFDXXDFXDGVXVVXFDFGAAVAFGFAFXXAAVFXVXVVAVXAAVDAAFXVFAFAFXVFFGAFAVGAADAAXFAAAVGXAAXFXXXFFGV",
+      "loss_positions": [
+        60,
+        80,
+        86,
+        115,
+        136
+      ],
+      "fill": "XVFVX",
+      "received_ciphertext": "VXFAADFGAFVVDAAGVAAAFXGGXXAXVGAGAXGGDVDXAXVXFFDXFGFVAFVGFXVAGFFAFDAFAFADFXXDAFVFDXXDXDGVXVVXFDFGAAVAFGFAFXXAAVFXXVVAVXAAVDAAFXVFAFAFVFFGAFAVGAADAAXFAAAVGXAAXFXXXFFGV"
+    },
+    {
+      "id": "class_holdout_1_LP_forwarding",
+      "source_record_ids": [
+        "p192_B"
+      ],
+      "synthetic_join_separator": null,
+      "source_span": [
+        0,
+        85
+      ],
+      "truth": "KWHXLPXUEBERMITTELTALLEVORLIEGENDENWICHTIGENNACHRICHTENFUERHEIMATDIENSTSTELLENSOWIEXO",
+      "truth_classes": "KWHXLPXUEBERMITTELTALLEVORLIEGENDENWICHTIGENNACHRICHTENFUERHEIMATDIENSTSTELLENSOWIEXO",
+      "key_id": "CHI-Nov13",
+      "square": "AROT7WH2MC94SVU0I8DXBP5JY31NZELFKQG6",
+      "partial_square": "AROT?WH??C??SVU?I?DXBP?????NZELFK?G?",
+      "column_rank_order": [
+        3,
+        13,
+        2,
+        12,
+        1,
+        11,
+        15,
+        8,
+        9,
+        4,
+        5,
+        14,
+        6,
+        10,
+        7,
+        16
+      ],
+      "full_ciphertext": "DVAXVVDAFXVAGXAVXFVGVFXVVAGFAFAAAAFAXVGGXGXFGFXXDAVFFVGAVVDDVDAFFAFVADXAFADDAVXGAAXADXDXVFVAVVVADGXXAGGFGAAXGAGXGDVAXXFADXVVXAXVFXXFAVDFGGXGVAVGAXVAGGAAFAVDDVXGFGDGGADAAF",
+      "loss_positions": [
+        69,
+        70,
+        113,
+        143,
+        160
+      ],
+      "fill": "DXDGF",
+      "received_ciphertext": "DVAXVVDAFXVAGXAVXFVGVFXVVAGFAFAAAAFAXVGGXGXFGFXXDAVFFVGAVVDDVDAFFAFVAAFADDAVXGAAXADXDXVFVAVVVADGXXAGGFGAAXGAGXGVAXXFADXVVXAXVFXXFAVDFGGXGVAVAXVAGGAAFAVDDVXGGDGGADAAF"
+    },
+    {
+      "id": "class_holdout_2_Budapest_telephone",
+      "source_record_ids": [
+        "p85_B"
+      ],
+      "synthetic_join_separator": null,
+      "source_span": [
+        0,
+        85
+      ],
+      "truth": "FERNSPRECHVERBINDUNGUEBERBUDAPESTUNTERLIGTUNGARISCHERCENSURXVERBINDUNGDAHERNURMITFUNK",
+      "truth_classes": "FERNSPRECHVERBINDUNGUEBERBUDAPESTUNTERLIGTUNGARISCHERCENSURXVERBINDUNGDAHERNURMITFUNK",
+      "key_id": "Nov13-15a",
+      "square": "JZLH1RY8S5T7MKDWU0V9BQP26FAO3GIX4CNE",
+      "partial_square": "JZLH?R??S?T?MKDWU?V?B?P??FAO?GIX?CNE",
+      "column_rank_order": [
+        13,
+        8,
+        6,
+        16,
+        7,
+        18,
+        1,
+        14,
+        9,
+        20,
+        10,
+        15,
+        17,
+        2,
+        3,
+        11,
+        5,
+        19,
+        4,
+        12
+      ],
+      "full_ciphertext": "XGXFXXGXXXFVXXFFVXFFAXFFAAVGXXXVXXXVADAXFXXXDDXXVVAAGDFAAAFDAVXXGAFVDXAXVXXAFGXGDVXXXXVFXAVVXGXVAGDXAVGFXVAGFDVFXVVGFXVVVFVFVVVXXXFVXXFDAFFXADFFXXFVVXXGVGVFFFXVAFAXVXXAXD",
+      "loss_positions": [
+        1,
+        47,
+        56,
+        85,
+        135
+      ],
+      "fill": "GXAXD",
+      "received_ciphertext": "XXFXXGXXXFVXXFFVXFFAXFFAAVGXXXVXXXVADAXFXXXDDXVVAAGDFAAFDAVXXGAFVDXAXVXXAFGXGDVXXXVFXAVVXGXVAGDXAVGFXVAGFDVFXVVGFXVVVFVFVVVXXXFVXXFAFFXADFFXXFVVXXGVGVFFFXVAFAXVXXAXD"
+    },
+    {
+      "id": "class_holdout_3_Naval_reports",
+      "source_record_ids": [
+        "p205_B1"
+      ],
+      "synthetic_join_separator": null,
+      "source_span": [
+        0,
+        85
+      ],
+      "truth": "MITXAUFLOESUNGXDERXSEEKRIEGSLEITUNGXFALLENXDIEXBISHERXDAHINXERSTATTETENXTAGESMELDUNGE",
+      "truth_classes": "MITXAUFLOESUNGXDERXSEEKRIEGSLEITUNGXFALLENXDIEXBISHERXDAHINXERSTATTETENXTAGESMELDUNGE",
+      "key_id": "Nov7-9",
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ],
+      "full_ciphertext": "GXVAVADGXDADXGGDAAXDVDXGDVXVDXVVDVGDGVVVDGADDGDVDXXGADGXDAVAXVGDGXXDDXDDXVVGDXVDDGGVVVGGVVDXVGFXVGVXVGVXVGXVXVXDVGGGVDGVGVVVGVDVVVDAXXVGXDDDXDXGVFVVVVVDVVDDDDDVDDFVDDGXGD",
+      "loss_positions": [
+        45,
+        76,
+        122,
+        145,
+        147
+      ],
+      "fill": "GDVFV",
+      "received_ciphertext": "GXVAVADGXDADXGGDAAXDVDXGDVXVDXVVDVGDGVVVDGADDDVDXXGADGXDAVAXVGDGXXDDXDDXVVGXVDDGGVVVGGVVDXVGFXVGVXVGVXVGXVXVXDVGGGVDGVGVVGVDVVVDAXXVGXDDDXDXGVVVVVDVVDDDDDVDDFVDDGXGD"
+    }
+  ],
+  "fixed_settings": {
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ#",
+    "radio_weight": 0.5,
+    "book_weight": 0.5,
+    "pseudocount_per_radio_fourgram": 0.01,
+    "specific_digit_labels_scored_identically": true,
+    "wildcards": "Marginalize over distinct classes, counting the numerical class once."
+  },
+  "limits": [
+    "No score in this variant can distinguish the ten individual digit labels.",
+    "Source-edition assumptions remain inherited, and the four new families are removed from training.",
+    "This is a heuristic language objective, not a ciphertext exclusion test."
+  ]
+}

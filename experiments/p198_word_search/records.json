@@ -1,0 +1,3566 @@
+{
+  "schema": "adfgvx-word-loss-completed-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "collected_utc": "2026-11-02T17:43:25.680836+00:00",
+  "engine_source_sha256": "f2ccda8882c33b6f439218d03122cbe1099ba1418a0d59c4d518c5abea9b4222",
+  "engine_binary_sha256": "b3e0713cb2858bc7d268e3e6b4fac2e0122a925f8b2fcec5f1a22fef41bbe3fb",
+  "lexicon_sha256": "6ea36fc166dd884a3a46f99aa7fd9ab03ae237d5a79c1a30f059e983d5f0d9ef",
+  "quad_model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+  "declared_cases": [
+    "pilot/control_CHI-Nov13_word_warm",
+    "pilot/control_Nov13-15b_word_warm",
+    "pilot/p198_CHI-Nov13_word_partial",
+    "pilot/p198_Nov13-15b_word_partial",
+    "pilot/fresh_0_CHI-Nov13",
+    "pilot/fresh_1_Nov13-15b",
+    "pilot/fresh_2_Nov16-18",
+    "pilot/fresh_3_Nov7-9",
+    "adaptive_weight2/control_CHI-Nov13_word_warm__weight2",
+    "adaptive_weight2/control_Nov13-15b_word_warm__weight2",
+    "adaptive_weight2/p198_CHI-Nov13_word_partial__weight2",
+    "adaptive_weight2/p198_Nov13-15b_word_partial__weight2",
+    "adaptive_weight2/fresh_0_CHI-Nov13__weight2",
+    "adaptive_weight2/fresh_1_Nov13-15b__weight2",
+    "adaptive_weight2/fresh_2_Nov16-18__weight2",
+    "adaptive_weight2/fresh_3_Nov7-9__weight2",
+    "adaptive_weight2/p198_CHI-Nov13_word_partial__unknown_square",
+    "adaptive_weight2/p198_Nov13-15b_word_partial__unknown_square",
+    "broad_partial/control_partial_0_Sep19-21",
+    "broad_partial/control_partial_1_Nov13-15b",
+    "broad_partial/control_partial_2_CHI-Nov13",
+    "broad_partial/control_partial_3_Nov16-18",
+    "broad_partial/historical_Sep19-21",
+    "broad_partial/historical_Oct4-6",
+    "broad_partial/historical_Oct28-31",
+    "broad_partial/historical_Nov1-3",
+    "broad_partial/historical_Nov4-6",
+    "broad_partial/historical_Nov7-9",
+    "broad_partial/historical_Nov10-12",
+    "broad_partial/historical_Nov13-15a",
+    "broad_partial/historical_Nov16-18",
+    "broad_partial/historical_Nov19-21",
+    "broad_partial/historical_Nov19-21_ordinary_letters",
+    "broad_partial/historical_Nov22-24",
+    "broad_partial/historical_Nov22-24_ordinary_letters",
+    "broad_partial/historical_Nov25-28",
+    "broad_partial/historical_Nov25-28_ordinary_letters",
+    "broad_partial/historical_Nov28-Dec1",
+    "broad_partial/historical_Nov28-Dec1_ordinary_letters",
+    "broad_partial/historical_Jul18",
+    "broad_partial/historical_Jul22",
+    "broad_partial/historical_Aug3",
+    "broad_partial/historical_Aug8-9",
+    "broad_partial/historical_Aug20",
+    "broad_partial/historical_NSA-undated-CHI-example-18",
+    "broad_partial/historical_TRUPPENVERSCHIEBUNG-2026-reported",
+    "broad_partial/historical_CHI-Nov8-2026-recovery",
+    "unknown_square_controls/unknown_square_control_partial_1_Nov13-15b",
+    "unknown_square_controls/unknown_square_control_partial_2_CHI-Nov13"
+  ],
+  "completed": [
+    {
+      "case_id": "pilot/control_CHI-Nov13_word_warm",
+      "input": {
+        "id": "control_CHI-Nov13_word_warm",
+        "seconds": 300,
+        "seed": 202611021100,
+        "word_weight": 1.5,
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ],
+        "partial_square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "source": "AGFGFGAGVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDXGGXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXVXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVXXXFDAVVXAV",
+        "evaluation_only": {
+          "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+          "square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+          "full_ciphertext": "AGFGFGAVGVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDXGAGXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXVXXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXFGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVGXXXFDAVVXAV",
+          "missing_full_ciphertext_positions_0based": [
+            7,
+            44,
+            81,
+            126,
+            158
+          ]
+        }
+      },
+      "best_candidate": {
+        "score": -432.318648003,
+        "quad_sum": -346.378761053,
+        "word_sum": -57.2932579666,
+        "word_weight": 1.5,
+        "proposal": 30000,
+        "restart": 0,
+        "seconds": 0.752126051,
+        "square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "loss": [
+          7,
+          44,
+          82,
+          126,
+          158
+        ],
+        "fill": "VAXFG",
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN"
+      },
+      "final_event": {
+        "score": -432.318648003,
+        "quad_sum": -346.378761053,
+        "word_sum": -57.2932579666,
+        "word_weight": 1.5,
+        "proposal": 10995000,
+        "restart": 367,
+        "seconds": 300.072907828,
+        "square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "loss": [
+          7,
+          44,
+          82,
+          126,
+          158
+        ],
+        "fill": "VAXFG",
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN"
+      },
+      "completed_proposals": 10995000,
+      "completed_restarts": 367,
+      "elapsed_seconds": 300.2544888049961,
+      "original_output_sha256": "b8d25ae6b0de7aab541a905f27733320d2d00371cfbc7e09fd0ba76eed87f30d",
+      "accepted_historical_reading": false,
+      "initial_state": {
+        "square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "loss": [
+          7,
+          44,
+          81,
+          126,
+          160
+        ],
+        "fill": "VADAV",
+        "plaintext": "DERSTABGELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEREITEREBEFEHLESEKERMITTELN",
+        "origin": "Earlier four-gram optimum; control truth was not supplied as a seed."
+      },
+      "control": {
+        "correct_characters": 85,
+        "length": 85,
+        "exact_plaintext": true
+      }
+    },
+    {
+      "case_id": "pilot/control_Nov13-15b_word_warm",
+      "input": {
+        "id": "control_Nov13-15b_word_warm",
+        "seconds": 300,
+        "seed": 202611021101,
+        "word_weight": 1.5,
+        "ranks": [
+          4,
+          11,
+          5,
+          14,
+          9,
+          7,
+          16,
+          1,
+          12,
+          15,
+          6,
+          10,
+          3,
+          13,
+          8,
+          2
+        ],
+        "partial_square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+        "source": "FFFFAFAXFGFVFGGAFXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVFFGAAGVDFXDDDVVXAFFAFAGXXXVXXVXAF",
+        "evaluation_only": {
+          "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+          "square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+          "full_ciphertext": "FFFFAFAXFGFVFGGAFAFFAAXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVFFGAAGVDFXDDDVVXAFFAFAGXXXVXXVXAF",
+          "missing_full_ciphertext_positions_0based": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        }
+      },
+      "best_candidate": {
+        "score": -431.053356789,
+        "quad_sum": -336.832950592,
+        "word_sum": -62.8136041313,
+        "word_weight": 1.5,
+        "proposal": 0,
+        "restart": -1,
+        "seconds": 0.000118639,
+        "square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+        "loss": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "fill": "AFFFF",
+        "plaintext": "DERSTARMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBETTEWEITEREBEFEHLEUEBERMITTELN"
+      },
+      "final_event": {
+        "score": -431.053356789,
+        "quad_sum": -336.832950592,
+        "word_sum": -62.8136041313,
+        "word_weight": 1.5,
+        "proposal": 12265000,
+        "restart": 409,
+        "seconds": 300.114819903,
+        "square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+        "loss": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "fill": "AFFFF",
+        "plaintext": "DERSTARMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBETTEWEITEREBEFEHLEUEBERMITTELN"
+      },
+      "completed_proposals": 12265000,
+      "completed_restarts": 409,
+      "elapsed_seconds": 300.28101740900456,
+      "original_output_sha256": "c7fe78b82da6403057f9e9770acdfcb3ef2a3f84629bd55a053b38093839340a",
+      "accepted_historical_reading": false,
+      "initial_state": {
+        "square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+        "loss": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "fill": "AFFFF",
+        "plaintext": "DERSTARMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBETTEWEITEREBEFEHLEUEBERMITTELN",
+        "origin": "Earlier four-gram optimum; control truth was not supplied as a seed."
+      },
+      "control": {
+        "correct_characters": 83,
+        "length": 85,
+        "exact_plaintext": false
+      }
+    },
+    {
+      "case_id": "pilot/p198_CHI-Nov13_word_partial",
+      "input": {
+        "id": "p198_CHI-Nov13_word_partial",
+        "seconds": 2400,
+        "seed": 202611021202,
+        "word_weight": 1.5,
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ],
+        "partial_square": "AROT?WH??C??SVU?I?DXBP?????NZELFK?G?",
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "evaluation_only": null
+      },
+      "best_candidate": {
+        "score": -875.533849359,
+        "quad_sum": -639.080714941,
+        "word_sum": -157.635422945,
+        "word_weight": 1.5,
+        "proposal": 10800000,
+        "restart": 359,
+        "seconds": 218.317822929,
+        "square": "AROT3WH85CJ7SVUMIYDXBP0Q142NZELFK6G9",
+        "loss": [
+          28,
+          50,
+          82,
+          89,
+          105
+        ],
+        "fill": "AFDFA",
+        "plaintext": "597CII126EYT2OSMMKEMJEEDU5G9190MANNISWIUHQ9272ESANBEMUSX203551D465FX84529NJEM9DEGW09K"
+      },
+      "final_event": {
+        "score": -875.533849359,
+        "quad_sum": -639.080714941,
+        "word_sum": -157.635422945,
+        "word_weight": 1.5,
+        "proposal": 81165000,
+        "restart": 2706,
+        "seconds": 2400.08729376,
+        "square": "AROT3WH85CJ7SVUMIYDXBP0Q142NZELFK6G9",
+        "loss": [
+          28,
+          50,
+          82,
+          89,
+          105
+        ],
+        "fill": "AFDFA",
+        "plaintext": "597CII126EYT2OSMMKEMJEEDU5G9190MANNISWIUHQ9272ESANBEMUSX203551D465FX84529NJEM9DEGW09K"
+      },
+      "completed_proposals": 81165000,
+      "completed_restarts": 2706,
+      "elapsed_seconds": 2400.2775254869994,
+      "original_output_sha256": "282b2b1575ccca5cec328a224181b93648c616be1ff5836280bcd8bc92712dc9",
+      "accepted_historical_reading": false,
+      "initial_state": {
+        "square": "AROT8WHQJC2YSVU7I6DXBPM3451NZELFK0G9",
+        "loss": [
+          16,
+          18,
+          88,
+          96,
+          169
+        ],
+        "fill": "AAXXA",
+        "plaintext": "N9YTEUENT16726SSJKZ01WEPLC06GEMUSEEZHKISSTK1SOEVOMMYY4SXCORBC5D1ENGEUEJEG329FF34GJ3UT",
+        "origin": "Earlier four-gram optimum; control truth was not supplied as a seed."
+      }
+    },
+    {
+      "case_id": "pilot/p198_Nov13-15b_word_partial",
+      "input": {
+        "id": "p198_Nov13-15b_word_partial",
+        "seconds": 2400,
+        "seed": 202611021203,
+        "word_weight": 1.5,
+        "ranks": [
+          4,
+          11,
+          5,
+          14,
+          9,
+          7,
+          16,
+          1,
+          12,
+          15,
+          6,
+          10,
+          3,
+          13,
+          8,
+          2
+        ],
+        "partial_square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "evaluation_only": null
+      },
+      "best_candidate": {
+        "score": -947.945971966,
+        "quad_sum": -688.761613607,
+        "word_sum": -172.789572239,
+        "word_weight": 1.5,
+        "proposal": 90000,
+        "restart": 2,
+        "seconds": 1.726439349,
+        "square": "H72BMUF15PX0DJLR34QYS6VONKZ8AWITEGC9",
+        "loss": [
+          17,
+          57,
+          86,
+          116,
+          141
+        ],
+        "fill": "FAGAV",
+        "plaintext": "9VRTUNZO93ALTDBVALSVDWPORUPULVETWAZVOMDA2954E4DRMULBVNHETZPFAD53VZX0JS8G3N3J609T0TCGC"
+      },
+      "final_event": {
+        "score": -947.945971966,
+        "quad_sum": -688.761613607,
+        "word_sum": -172.789572239,
+        "word_weight": 1.5,
+        "proposal": 78400000,
+        "restart": 2614,
+        "seconds": 2400.17276105,
+        "square": "H72BMUF15PX0DJLR34QYS6VONKZ8AWITEGC9",
+        "loss": [
+          17,
+          57,
+          86,
+          116,
+          141
+        ],
+        "fill": "FAGAV",
+        "plaintext": "9VRTUNZO93ALTDBVALSVDWPORUPULVETWAZVOMDA2954E4DRMULBVNHETZPFAD53VZX0JS8G3N3J609T0TCGC"
+      },
+      "completed_proposals": 78400000,
+      "completed_restarts": 2614,
+      "elapsed_seconds": 2400.3600597350014,
+      "original_output_sha256": "0d782a502c980b0b9455adb1574041fde6ecd43a51a1393ac6046838edd56f9e",
+      "accepted_historical_reading": false,
+      "initial_state": {
+        "square": "H8YBMUF15PX0DJLR74Q9S6VONKZ3AWITEGC2",
+        "loss": [
+          28,
+          45,
+          86,
+          128,
+          149
+        ],
+        "fill": "XGXVF",
+        "plaintext": "2VRTTIBO27ALLNXVALEVD4GOROPUSALTWUZV2VDAYW54S4HRMELBANFCTYPF7DERVNX09S3T7K7JG02C0WCG7",
+        "origin": "Earlier four-gram optimum; control truth was not supplied as a seed."
+      }
+    },
+    {
+      "case_id": "pilot/fresh_0_CHI-Nov13",
+      "input": {
+        "id": "fresh_0_CHI-Nov13",
+        "seconds": 600,
+        "seed": 202611021500,
+        "word_weight": 1.5,
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ],
+        "partial_square": "AROTMWHQ1C26SVU7I3DXBP845J0NZELFK9GY",
+        "source": "XXAAAGGAAVVXVAAVGAGAVGGXFVVAXGFDGFXVAVGDXFAADVAVADFAVFVVAXVAAGFXAVVFAVFXGGVFDXAGVAAADDFAFDGAGGVGFGVXVDADDAVDGXDXGAXFGFGVAAAAXAGDDVXGVAFAADVFGGGAFVAAAVGXVFVGDADFXXFDX",
+        "evaluation_only": {
+          "plaintext": "ANFUNKSTELLEOSTXDERTRANSPORTTRIFFTAM12NOVUM0600EINXBITTEEMPFANGUNDWEITERMARSCHMELDENX",
+          "square": "AROTMWHQ1C26SVU7I3DXBP845J0NZELFK9GY",
+          "loss": [
+            4,
+            16,
+            18,
+            27,
+            79
+          ],
+          "fill": "AFAFF"
+        }
+      },
+      "best_candidate": {
+        "score": -508.720116758,
+        "quad_sum": -399.275374413,
+        "word_sum": -72.9631615639,
+        "word_weight": 1.5,
+        "proposal": 660000,
+        "restart": 21,
+        "seconds": 14.941812863,
+        "square": "AROTMWHQ1C26SVU7I3DXBP845J0NZELFK9GY",
+        "loss": [
+          5,
+          16,
+          18,
+          27,
+          79
+        ],
+        "fill": "FGAGG",
+        "plaintext": "ANFUNKSTELLEOSTXDERTRANSPORTTRIFFTAM12NOXBIN600EINXBITTEEMPFANGUNDWEITERMARSCHMELDENX"
+      },
+      "final_event": {
+        "score": -508.720116758,
+        "quad_sum": -399.275374413,
+        "word_sum": -72.9631615639,
+        "word_weight": 1.5,
+        "proposal": 19645000,
+        "restart": 655,
+        "seconds": 600.133936779,
+        "square": "AROTMWHQ1C26SVU7I3DXBP845J0NZELFK9GY",
+        "loss": [
+          5,
+          16,
+          18,
+          27,
+          79
+        ],
+        "fill": "FGAGG",
+        "plaintext": "ANFUNKSTELLEOSTXDERTRANSPORTTRIFFTAM12NOXBIN600EINXBITTEEMPFANGUNDWEITERMARSCHMELDENX"
+      },
+      "completed_proposals": 19645000,
+      "completed_restarts": 655,
+      "elapsed_seconds": 600.3183109149977,
+      "original_output_sha256": "f7755355000b31a5dd5e098128c3a6463c9d4dc43370793214e52508909a042f",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 81,
+        "length": 85,
+        "exact_plaintext": false
+      }
+    },
+    {
+      "case_id": "pilot/fresh_1_Nov13-15b",
+      "input": {
+        "id": "fresh_1_Nov13-15b",
+        "seconds": 600,
+        "seed": 202611021501,
+        "word_weight": 1.5,
+        "ranks": [
+          4,
+          11,
+          5,
+          14,
+          9,
+          7,
+          16,
+          1,
+          12,
+          15,
+          6,
+          10,
+          3,
+          13,
+          8,
+          2
+        ],
+        "partial_square": "H89BMUF15PX0DJLR274YS6VONKZQAWITEGC3",
+        "source": "GFFAVGFFFGVAAGDDVDFXXFDXVXGXVFVXVXFXVAXGXXXXXAVXVXXAGXFFFXXDFAFFGAXADFXXVFXGXXVGXXXXDDVGXXXXFFGFADFAGADDXFGFFAFFFXXXFXVVFVXFFGAFDFFGVAFGAXADXAAGDDFFFAAGAFAGGFVDXAXXF",
+        "evaluation_only": {
+          "plaintext": "DIEBRUECKEISTSEITGESTERNWIEDERFREIXALLETRUPPENKOENNENJETZTOHNESCHWIERIGKEITENPASSIERE",
+          "square": "H89BMUF15PX0DJLR274YS6VONKZQAWITEGC3",
+          "loss": [
+            7,
+            16,
+            58,
+            67,
+            141
+          ],
+          "fill": "AXVVA"
+        }
+      },
+      "best_candidate": {
+        "score": -399.62949776,
+        "quad_sum": -324.475795746,
+        "word_sum": -50.1024680093,
+        "word_weight": 1.5,
+        "proposal": 30000,
+        "restart": 0,
+        "seconds": 0.85642515,
+        "square": "H89BMUF15PX0DJLR274YS6VONKZQAWITEGC3",
+        "loss": [
+          7,
+          16,
+          58,
+          67,
+          141
+        ],
+        "fill": "AXVVA",
+        "plaintext": "DIEBRUECKEISTSEITGESTERNWIEDERFREIXALLETRUPPENKOENNENJETZTOHNESCHWIERIGKEITENPASSIERE"
+      },
+      "final_event": {
+        "score": -399.62949776,
+        "quad_sum": -324.475795746,
+        "word_sum": -50.1024680093,
+        "word_weight": 1.5,
+        "proposal": 18270000,
+        "restart": 609,
+        "seconds": 600.138644629,
+        "square": "H89BMUF15PX0DJLR274YS6VONKZQAWITEGC3",
+        "loss": [
+          7,
+          16,
+          58,
+          67,
+          141
+        ],
+        "fill": "AXVVA",
+        "plaintext": "DIEBRUECKEISTSEITGESTERNWIEDERFREIXALLETRUPPENKOENNENJETZTOHNESCHWIERIGKEITENPASSIERE"
+      },
+      "completed_proposals": 18270000,
+      "completed_restarts": 609,
+      "elapsed_seconds": 600.3466827010052,
+      "original_output_sha256": "896a2537b154a789db9584bf9b656f6a37e3ef47fbf630f259d10dbc7fcbf56d",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 85,
+        "length": 85,
+        "exact_plaintext": true
+      }
+    },
+    {
+      "case_id": "pilot/fresh_2_Nov16-18",
+      "input": {
+        "id": "fresh_2_Nov16-18",
+        "seconds": 600,
+        "seed": 202611021502,
+        "word_weight": 1.5,
+        "ranks": [
+          7,
+          12,
+          1,
+          14,
+          8,
+          16,
+          13,
+          9,
+          19,
+          3,
+          15,
+          4,
+          10,
+          18,
+          6,
+          2,
+          11,
+          17,
+          5
+        ],
+        "partial_square": "WG5EITNHUB2R03FDZJS976PY8VQL41OAXMKC",
+        "source": "DXDFXGDGDAAGADDGXDVFFAGDAGXFGDAAGAXAAXXAAVXXVXDXGDDXADXDDAAGXDAAGFVFGDXDFAFDGDDFGAAXDDADGDGDAAFFVAXFXAGAGAVFAFAAAAXGDAAAXAADGAVDAAAADVDFGGGDGGDAAAGXXFAVAFAXDAFAFGAFD",
+        "evaluation_only": {
+          "plaintext": "UNSERERLETZTENNACHRICHTZUFOLGESINDDIESCHIFFEIMHAFENEINGETROFFENXANWEISUNGENWERDENERBE",
+          "square": "WG5EITNHUB2R03FDZJS976PY8VQL41OAXMKC",
+          "loss": [
+            1,
+            3,
+            30,
+            91,
+            137
+          ],
+          "fill": "VGFVA"
+        }
+      },
+      "best_candidate": {
+        "score": -383.412364043,
+        "quad_sum": -313.617148638,
+        "word_sum": -46.5301436037,
+        "word_weight": 1.5,
+        "proposal": 390000,
+        "restart": 12,
+        "seconds": 11.906128277,
+        "square": "WG5EITNHUB2R03FDZJS976PY8VQL41OAXMKC",
+        "loss": [
+          1,
+          3,
+          30,
+          91,
+          137
+        ],
+        "fill": "VGFVA",
+        "plaintext": "UNSERERLETZTENNACHRICHTZUFOLGESINDDIESCHIFFEIMHAFENEINGETROFFENXANWEISUNGENWERDENERBE"
+      },
+      "final_event": {
+        "score": -383.412364043,
+        "quad_sum": -313.617148638,
+        "word_sum": -46.5301436037,
+        "word_weight": 1.5,
+        "proposal": 15605000,
+        "restart": 521,
+        "seconds": 600.00447013,
+        "square": "WG5EITNHUB2R03FDZJS976PY8VQL41OAXMKC",
+        "loss": [
+          1,
+          3,
+          30,
+          91,
+          137
+        ],
+        "fill": "VGFVA",
+        "plaintext": "UNSERERLETZTENNACHRICHTZUFOLGESINDDIESCHIFFEIMHAFENEINGETROFFENXANWEISUNGENWERDENERBE"
+      },
+      "completed_proposals": 15605000,
+      "completed_restarts": 521,
+      "elapsed_seconds": 600.2853903159994,
+      "original_output_sha256": "ccea9dc89f6a2fc2822d6bae1cad4db1c15dc7ff7b5e723c1bbc352ee4f46972",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 85,
+        "length": 85,
+        "exact_plaintext": true
+      }
+    },
+    {
+      "case_id": "pilot/fresh_3_Nov7-9",
+      "input": {
+        "id": "fresh_3_Nov7-9",
+        "seconds": 600,
+        "seed": 202611021503,
+        "word_weight": 1.5,
+        "ranks": [
+          6,
+          12,
+          7,
+          15,
+          1,
+          11,
+          16,
+          5,
+          8,
+          14,
+          3,
+          18,
+          9,
+          13,
+          2,
+          17,
+          20,
+          10,
+          19,
+          4
+        ],
+        "partial_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "source": "AAFDAAXDXDGGXADXAGAFDADAVVVVVGXDGXXDVVVXAXDAXGXAAXDADGDDXDXFGFGGAGFAGGVDAGDGVGVGVDVDDXVDDVGXVVFGXVVVDFVVXDAAVXGXGGDGXVVXXVGVGVGXAXGXGADVGVDAVGFVDVVVDXADDDXXAXGDADDAG",
+        "evaluation_only": {
+          "plaintext": "DERKOMMANDEURBITTETUMSOFORTIGENBERICHTUEBERDIELAGEDERTRUPPENUNDDIEVERFUEGBARENTRANSPO",
+          "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+          "loss": [
+            7,
+            67,
+            118,
+            124,
+            149
+          ],
+          "fill": "DXDVD"
+        }
+      },
+      "best_candidate": {
+        "score": -399.283975734,
+        "quad_sum": -318.318174839,
+        "word_sum": -53.977200597,
+        "word_weight": 1.5,
+        "proposal": 30000,
+        "restart": 0,
+        "seconds": 0.972859246,
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "loss": [
+          8,
+          67,
+          118,
+          124,
+          148
+        ],
+        "fill": "DXDVD",
+        "plaintext": "DERKOMMANDEURBITTETUMSOFORTIGENBERICHTUEBERDIELAGEDERTRUPPENUNDDIEVERFUEGBARENTRANSPO"
+      },
+      "final_event": {
+        "score": -399.283975734,
+        "quad_sum": -318.318174839,
+        "word_sum": -53.977200597,
+        "word_weight": 1.5,
+        "proposal": 17255000,
+        "restart": 576,
+        "seconds": 600.21259935,
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "loss": [
+          8,
+          67,
+          118,
+          124,
+          148
+        ],
+        "fill": "DXDVD",
+        "plaintext": "DERKOMMANDEURBITTETUMSOFORTIGENBERICHTUEBERDIELAGEDERTRUPPENUNDDIEVERFUEGBARENTRANSPO"
+      },
+      "completed_proposals": 17255000,
+      "completed_restarts": 576,
+      "elapsed_seconds": 600.5326736520001,
+      "original_output_sha256": "fe07348c056abc039f6341c9836306785da26403fc7102c659872e2578e62186",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 85,
+        "length": 85,
+        "exact_plaintext": true
+      }
+    },
+    {
+      "case_id": "adaptive_weight2/control_CHI-Nov13_word_warm__weight2",
+      "input": {
+        "id": "control_CHI-Nov13_word_warm__weight2",
+        "seconds": 300,
+        "seed": 202611041100,
+        "word_weight": 2.0,
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ],
+        "partial_square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "source": "AGFGFGAGVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDXGGXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXVXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVXXXFDAVVXAV",
+        "evaluation_only": {
+          "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+          "square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+          "full_ciphertext": "AGFGFGAVGVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDXGAGXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXVXXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXFGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVGXXXFDAVVXAV",
+          "missing_full_ciphertext_positions_0based": [
+            7,
+            44,
+            81,
+            126,
+            158
+          ]
+        }
+      },
+      "best_candidate": {
+        "score": -460.965276986,
+        "quad_sum": -346.378761053,
+        "word_sum": -57.2932579666,
+        "word_weight": 2,
+        "proposal": 30000,
+        "restart": 0,
+        "seconds": 1.037267824,
+        "square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "loss": [
+          7,
+          44,
+          82,
+          126,
+          158
+        ],
+        "fill": "VAXFG",
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN"
+      },
+      "final_event": {
+        "score": -460.965276986,
+        "quad_sum": -346.378761053,
+        "word_sum": -57.2932579666,
+        "word_weight": 2,
+        "proposal": 7855000,
+        "restart": 262,
+        "seconds": 300.11146634,
+        "square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "loss": [
+          7,
+          44,
+          82,
+          126,
+          158
+        ],
+        "fill": "VAXFG",
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN"
+      },
+      "completed_proposals": 7855000,
+      "completed_restarts": 262,
+      "elapsed_seconds": 300.3143897859991,
+      "original_output_sha256": "200deac3fe7973b5e72f84bd2d3d057b20420fabccc1be6793932648b9e853cb",
+      "accepted_historical_reading": false,
+      "initial_state": {
+        "square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "loss": [
+          7,
+          44,
+          81,
+          126,
+          160
+        ],
+        "fill": "VADAV",
+        "plaintext": "DERSTABGELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEREITEREBEFEHLESEKERMITTELN",
+        "origin": "Earlier four-gram optimum; control truth was not supplied as a seed."
+      },
+      "control": {
+        "correct_characters": 85,
+        "length": 85,
+        "exact_plaintext": true
+      }
+    },
+    {
+      "case_id": "adaptive_weight2/control_Nov13-15b_word_warm__weight2",
+      "input": {
+        "id": "control_Nov13-15b_word_warm__weight2",
+        "seconds": 300,
+        "seed": 202611041101,
+        "word_weight": 2.0,
+        "ranks": [
+          4,
+          11,
+          5,
+          14,
+          9,
+          7,
+          16,
+          1,
+          12,
+          15,
+          6,
+          10,
+          3,
+          13,
+          8,
+          2
+        ],
+        "partial_square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+        "source": "FFFFAFAXFGFVFGGAFXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVFFGAAGVDFXDDDVVXAFFAFAGXXXVXXVXAF",
+        "evaluation_only": {
+          "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+          "square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+          "full_ciphertext": "FFFFAFAXFGFVFGGAFAFFAAXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVFFGAAGVDFXDDDVVXAFFAFAGXXXVXXVXAF",
+          "missing_full_ciphertext_positions_0based": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        }
+      },
+      "best_candidate": {
+        "score": -460.8399885,
+        "quad_sum": -344.991600752,
+        "word_sum": -57.924193874,
+        "word_weight": 2,
+        "proposal": 60000,
+        "restart": 1,
+        "seconds": 1.763061894,
+        "square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+        "loss": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "fill": "FFFAA",
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBETTEWEITEREBEFEHLEUEBERMITTELN"
+      },
+      "final_event": {
+        "score": -460.8399885,
+        "quad_sum": -344.991600752,
+        "word_sum": -57.924193874,
+        "word_weight": 2,
+        "proposal": 8825000,
+        "restart": 295,
+        "seconds": 300.016670462,
+        "square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+        "loss": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "fill": "FFFAA",
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBETTEWEITEREBEFEHLEUEBERMITTELN"
+      },
+      "completed_proposals": 8825000,
+      "completed_restarts": 295,
+      "elapsed_seconds": 300.2580339999986,
+      "original_output_sha256": "e8b64eb138823b59c68b14c3b71ab3029114a9a79d933d2a791bc1a8d495f679",
+      "accepted_historical_reading": false,
+      "initial_state": {
+        "square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+        "loss": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "fill": "AFFFF",
+        "plaintext": "DERSTARMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBETTEWEITEREBEFEHLEUEBERMITTELN",
+        "origin": "Earlier four-gram optimum; control truth was not supplied as a seed."
+      },
+      "control": {
+        "correct_characters": 84,
+        "length": 85,
+        "exact_plaintext": false
+      }
+    },
+    {
+      "case_id": "adaptive_weight2/p198_CHI-Nov13_word_partial__weight2",
+      "input": {
+        "id": "p198_CHI-Nov13_word_partial__weight2",
+        "seconds": 3600,
+        "seed": 202611041202,
+        "word_weight": 2.0,
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ],
+        "partial_square": "AROT?WH??C??SVU?I?DXBP?????NZELFK?G?",
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "evaluation_only": null
+      },
+      "best_candidate": {
+        "score": -953.486671168,
+        "quad_sum": -645.712415457,
+        "word_sum": -153.887127855,
+        "word_weight": 2,
+        "proposal": 3480000,
+        "restart": 115,
+        "seconds": 87.23266158,
+        "square": "AROT6WH31CJ4SVUMIYDXBP0Q295NZELFK7G8",
+        "loss": [
+          28,
+          48,
+          82,
+          89,
+          112
+        ],
+        "fill": "AVDFA",
+        "plaintext": "184CII257EYT5OSMMKZMJEEDU178280MANEISEIUHQK54OESANDEM5SX506112D971FX39158NJEM8QEGW08K"
+      },
+      "final_event": {
+        "score": -953.486671168,
+        "quad_sum": -645.712415457,
+        "word_sum": -153.887127855,
+        "word_weight": 2,
+        "proposal": 105435000,
+        "restart": 3515,
+        "seconds": 3600.14138686,
+        "square": "AROT6WH31CJ4SVUMIYDXBP0Q295NZELFK7G8",
+        "loss": [
+          28,
+          48,
+          82,
+          89,
+          112
+        ],
+        "fill": "AVDFA",
+        "plaintext": "184CII257EYT5OSMMKZMJEEDU178280MANEISEIUHQK54OESANDEM5SX506112D971FX39158NJEM8QEGW08K"
+      },
+      "completed_proposals": 105435000,
+      "completed_restarts": 3515,
+      "elapsed_seconds": 3600.385965677,
+      "original_output_sha256": "71731650dd288d4efea1ab1f0ceba0e5e4df50bfecf2d1b7ff2d793105d149fa",
+      "accepted_historical_reading": false,
+      "initial_state": {
+        "square": "AROT8WHQJC2YSVU7I6DXBPM3451NZELFK0G9",
+        "loss": [
+          16,
+          18,
+          88,
+          96,
+          169
+        ],
+        "fill": "AAXXA",
+        "plaintext": "N9YTEUENT16726SSJKZ01WEPLC06GEMUSEEZHKISSTK1SOEVOMMYY4SXCORBC5D1ENGEUEJEG329FF34GJ3UT",
+        "origin": "Earlier four-gram optimum; control truth was not supplied as a seed."
+      }
+    },
+    {
+      "case_id": "adaptive_weight2/p198_Nov13-15b_word_partial__weight2",
+      "input": {
+        "id": "p198_Nov13-15b_word_partial__weight2",
+        "seconds": 3600,
+        "seed": 202611041203,
+        "word_weight": 2.0,
+        "ranks": [
+          4,
+          11,
+          5,
+          14,
+          9,
+          7,
+          16,
+          1,
+          12,
+          15,
+          6,
+          10,
+          3,
+          13,
+          8,
+          2
+        ],
+        "partial_square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "evaluation_only": null
+      },
+      "best_candidate": {
+        "score": -1034.34075809,
+        "quad_sum": -688.761613607,
+        "word_sum": -172.789572239,
+        "word_weight": 2,
+        "proposal": 480000,
+        "restart": 15,
+        "seconds": 12.194228648,
+        "square": "H72BMUF15PX0DJLR38QYS6VONKZ4AWITEGC9",
+        "loss": [
+          17,
+          57,
+          86,
+          116,
+          141
+        ],
+        "fill": "FAGAV",
+        "plaintext": "9VRTUNZO93ALTDBVALSVDWPORUPULVETWAZVOMDA2958E8DRMULBVNHETZPFAD53VZX0JS4G3N3J609T0TCGC"
+      },
+      "final_event": {
+        "score": -1034.34075809,
+        "quad_sum": -688.761613607,
+        "word_sum": -172.789572239,
+        "word_weight": 2,
+        "proposal": 104425000,
+        "restart": 3481,
+        "seconds": 3600.02404428,
+        "square": "H72BMUF15PX0DJLR38QYS6VONKZ4AWITEGC9",
+        "loss": [
+          17,
+          57,
+          86,
+          116,
+          141
+        ],
+        "fill": "FAGAV",
+        "plaintext": "9VRTUNZO93ALTDBVALSVDWPORUPULVETWAZVOMDA2958E8DRMULBVNHETZPFAD53VZX0JS4G3N3J609T0TCGC"
+      },
+      "completed_proposals": 104425000,
+      "completed_restarts": 3481,
+      "elapsed_seconds": 3600.279194394003,
+      "original_output_sha256": "7f1f60a9d5b6d9094dc7c216c6d426404e5939f55d2d3d79a861e7e04b1a7c63",
+      "accepted_historical_reading": false,
+      "initial_state": {
+        "square": "H8YBMUF15PX0DJLR74Q9S6VONKZ3AWITEGC2",
+        "loss": [
+          28,
+          45,
+          86,
+          128,
+          149
+        ],
+        "fill": "XGXVF",
+        "plaintext": "2VRTTIBO27ALLNXVALEVD4GOROPUSALTWUZV2VDAYW54S4HRMELBANFCTYPF7DERVNX09S3T7K7JG02C0WCG7",
+        "origin": "Earlier four-gram optimum; control truth was not supplied as a seed."
+      }
+    },
+    {
+      "case_id": "adaptive_weight2/fresh_0_CHI-Nov13__weight2",
+      "input": {
+        "id": "fresh_0_CHI-Nov13__weight2",
+        "seconds": 900,
+        "seed": 202611041500,
+        "word_weight": 2.0,
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ],
+        "partial_square": "AROTMWHQ1C26SVU7I3DXBP845J0NZELFK9GY",
+        "source": "XXAAAGGAAVVXVAAVGAGAVGGXFVVAXGFDGFXVAVGDXFAADVAVADFAVFVVAXVAAGFXAVVFAVFXGGVFDXAGVAAADDFAFDGAGGVGFGVXVDADDAVDGXDXGAXFGFGVAAAAXAGDDVXGVAFAADVFGGGAFVAAAVGXVFVGDADFXXFDX",
+        "evaluation_only": {
+          "plaintext": "ANFUNKSTELLEOSTXDERTRANSPORTTRIFFTAM12NOVUM0600EINXBITTEEMPFANGUNDWEITERMARSCHMELDENX",
+          "square": "AROTMWHQ1C26SVU7I3DXBP845J0NZELFK9GY",
+          "loss": [
+            4,
+            16,
+            18,
+            27,
+            79
+          ],
+          "fill": "AFAFF"
+        }
+      },
+      "best_candidate": {
+        "score": -545.20169754,
+        "quad_sum": -399.275374413,
+        "word_sum": -72.9631615639,
+        "word_weight": 2,
+        "proposal": 30000,
+        "restart": 0,
+        "seconds": 0.868953468,
+        "square": "AROTMWHQ1C26SVU7I3DXBP845J0NZELFK9GY",
+        "loss": [
+          5,
+          16,
+          18,
+          27,
+          79
+        ],
+        "fill": "FGAGG",
+        "plaintext": "ANFUNKSTELLEOSTXDERTRANSPORTTRIFFTAM12NOXBIN600EINXBITTEEMPFANGUNDWEITERMARSCHMELDENX"
+      },
+      "final_event": {
+        "score": -545.20169754,
+        "quad_sum": -399.275374413,
+        "word_sum": -72.9631615639,
+        "word_weight": 2,
+        "proposal": 26195000,
+        "restart": 874,
+        "seconds": 900.037844283,
+        "square": "AROTMWHQ1C26SVU7I3DXBP845J0NZELFK9GY",
+        "loss": [
+          5,
+          16,
+          18,
+          27,
+          79
+        ],
+        "fill": "FGAGG",
+        "plaintext": "ANFUNKSTELLEOSTXDERTRANSPORTTRIFFTAM12NOXBIN600EINXBITTEEMPFANGUNDWEITERMARSCHMELDENX"
+      },
+      "completed_proposals": 26195000,
+      "completed_restarts": 874,
+      "elapsed_seconds": 900.3458224409987,
+      "original_output_sha256": "9062f15d1934582bde97ca47d33a429a076e1c767af6fa80db42a8f0c33b2bae",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 81,
+        "length": 85,
+        "exact_plaintext": false
+      }
+    },
+    {
+      "case_id": "adaptive_weight2/fresh_1_Nov13-15b__weight2",
+      "input": {
+        "id": "fresh_1_Nov13-15b__weight2",
+        "seconds": 900,
+        "seed": 202611041501,
+        "word_weight": 2.0,
+        "ranks": [
+          4,
+          11,
+          5,
+          14,
+          9,
+          7,
+          16,
+          1,
+          12,
+          15,
+          6,
+          10,
+          3,
+          13,
+          8,
+          2
+        ],
+        "partial_square": "H89BMUF15PX0DJLR274YS6VONKZQAWITEGC3",
+        "source": "GFFAVGFFFGVAAGDDVDFXXFDXVXGXVFVXVXFXVAXGXXXXXAVXVXXAGXFFFXXDFAFFGAXADFXXVFXGXXVGXXXXDDVGXXXXFFGFADFAGADDXFGFFAFFFXXXFXVVFVXFFGAFDFFGVAFGAXADXAAGDDFFFAAGAFAGGFVDXAXXF",
+        "evaluation_only": {
+          "plaintext": "DIEBRUECKEISTSEITGESTERNWIEDERFREIXALLETRUPPENKOENNENJETZTOHNESCHWIERIGKEITENPASSIERE",
+          "square": "H89BMUF15PX0DJLR274YS6VONKZQAWITEGC3",
+          "loss": [
+            7,
+            16,
+            58,
+            67,
+            141
+          ],
+          "fill": "AXVVA"
+        }
+      },
+      "best_candidate": {
+        "score": -424.680731764,
+        "quad_sum": -324.475795746,
+        "word_sum": -50.1024680093,
+        "word_weight": 2,
+        "proposal": 30000,
+        "restart": 0,
+        "seconds": 0.97243241,
+        "square": "H89BMUF15PX0DJLR274YS6VONKZQAWITEGC3",
+        "loss": [
+          7,
+          16,
+          58,
+          67,
+          141
+        ],
+        "fill": "AXVVA",
+        "plaintext": "DIEBRUECKEISTSEITGESTERNWIEDERFREIXALLETRUPPENKOENNENJETZTOHNESCHWIERIGKEITENPASSIERE"
+      },
+      "final_event": {
+        "score": -424.680731764,
+        "quad_sum": -324.475795746,
+        "word_sum": -50.1024680093,
+        "word_weight": 2,
+        "proposal": 22700000,
+        "restart": 757,
+        "seconds": 900.135674053,
+        "square": "H89BMUF15PX0DJLR274YS6VONKZQAWITEGC3",
+        "loss": [
+          7,
+          16,
+          58,
+          67,
+          141
+        ],
+        "fill": "AXVVA",
+        "plaintext": "DIEBRUECKEISTSEITGESTERNWIEDERFREIXALLETRUPPENKOENNENJETZTOHNESCHWIERIGKEITENPASSIERE"
+      },
+      "completed_proposals": 22700000,
+      "completed_restarts": 757,
+      "elapsed_seconds": 900.3821382640017,
+      "original_output_sha256": "bcaffd180e44c8676ce37be6abac8a991639fa32d60b194d1eef9489e1d4d6ea",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 85,
+        "length": 85,
+        "exact_plaintext": true
+      }
+    },
+    {
+      "case_id": "adaptive_weight2/fresh_2_Nov16-18__weight2",
+      "input": {
+        "id": "fresh_2_Nov16-18__weight2",
+        "seconds": 900,
+        "seed": 202611041502,
+        "word_weight": 2.0,
+        "ranks": [
+          7,
+          12,
+          1,
+          14,
+          8,
+          16,
+          13,
+          9,
+          19,
+          3,
+          15,
+          4,
+          10,
+          18,
+          6,
+          2,
+          11,
+          17,
+          5
+        ],
+        "partial_square": "WG5EITNHUB2R03FDZJS976PY8VQL41OAXMKC",
+        "source": "DXDFXGDGDAAGADDGXDVFFAGDAGXFGDAAGAXAAXXAAVXXVXDXGDDXADXDDAAGXDAAGFVFGDXDFAFDGDDFGAAXDDADGDGDAAFFVAXFXAGAGAVFAFAAAAXGDAAAXAADGAVDAAAADVDFGGGDGGDAAAGXXFAVAFAXDAFAFGAFD",
+        "evaluation_only": {
+          "plaintext": "UNSERERLETZTENNACHRICHTZUFOLGESINDDIESCHIFFEIMHAFENEINGETROFFENXANWEISUNGENWERDENERBE",
+          "square": "WG5EITNHUB2R03FDZJS976PY8VQL41OAXMKC",
+          "loss": [
+            1,
+            3,
+            30,
+            91,
+            137
+          ],
+          "fill": "VGFVA"
+        }
+      },
+      "best_candidate": {
+        "score": -406.677435845,
+        "quad_sum": -313.617148638,
+        "word_sum": -46.5301436037,
+        "word_weight": 2,
+        "proposal": 30000,
+        "restart": 0,
+        "seconds": 1.052535543,
+        "square": "WG5EITNHUB2R03FDZJS976PY8VQL41OAXMKC",
+        "loss": [
+          1,
+          3,
+          30,
+          91,
+          137
+        ],
+        "fill": "VGFVA",
+        "plaintext": "UNSERERLETZTENNACHRICHTZUFOLGESINDDIESCHIFFEIMHAFENEINGETROFFENXANWEISUNGENWERDENERBE"
+      },
+      "final_event": {
+        "score": -406.677435845,
+        "quad_sum": -313.617148638,
+        "word_sum": -46.5301436037,
+        "word_weight": 2,
+        "proposal": 19485000,
+        "restart": 650,
+        "seconds": 900.048176967,
+        "square": "WG5EITNHUB2R03FDZJS976PY8VQL41OAXMKC",
+        "loss": [
+          1,
+          3,
+          30,
+          91,
+          137
+        ],
+        "fill": "VGFVA",
+        "plaintext": "UNSERERLETZTENNACHRICHTZUFOLGESINDDIESCHIFFEIMHAFENEINGETROFFENXANWEISUNGENWERDENERBE"
+      },
+      "completed_proposals": 19485000,
+      "completed_restarts": 650,
+      "elapsed_seconds": 900.5021548990044,
+      "original_output_sha256": "952d1a9155718faff2c33a2592647102cbdf71da8429018dfb4285458f37f04a",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 85,
+        "length": 85,
+        "exact_plaintext": true
+      }
+    },
+    {
+      "case_id": "adaptive_weight2/fresh_3_Nov7-9__weight2",
+      "input": {
+        "id": "fresh_3_Nov7-9__weight2",
+        "seconds": 900,
+        "seed": 202611041503,
+        "word_weight": 2.0,
+        "ranks": [
+          6,
+          12,
+          7,
+          15,
+          1,
+          11,
+          16,
+          5,
+          8,
+          14,
+          3,
+          18,
+          9,
+          13,
+          2,
+          17,
+          20,
+          10,
+          19,
+          4
+        ],
+        "partial_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "source": "AAFDAAXDXDGGXADXAGAFDADAVVVVVGXDGXXDVVVXAXDAXGXAAXDADGDDXDXFGFGGAGFAGGVDAGDGVGVGVDVDDXVDDVGXVVFGXVVVDFVVXDAAVXGXGGDGXVVXXVGVGVGXAXGXGADVGVDAVGFVDVVVDXADDDXXAXGDADDAG",
+        "evaluation_only": {
+          "plaintext": "DERKOMMANDEURBITTETUMSOFORTIGENBERICHTUEBERDIELAGEDERTRUPPENUNDDIEVERFUEGBARENTRANSPO",
+          "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+          "loss": [
+            7,
+            67,
+            118,
+            124,
+            149
+          ],
+          "fill": "DXDVD"
+        }
+      },
+      "best_candidate": {
+        "score": -426.272576033,
+        "quad_sum": -318.318174839,
+        "word_sum": -53.977200597,
+        "word_weight": 2,
+        "proposal": 210000,
+        "restart": 6,
+        "seconds": 14.067380666,
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "loss": [
+          8,
+          67,
+          118,
+          125,
+          148
+        ],
+        "fill": "DXDVD",
+        "plaintext": "DERKOMMANDEURBITTETUMSOFORTIGENBERICHTUEBERDIELAGEDERTRUPPENUNDDIEVERFUEGBARENTRANSPO"
+      },
+      "final_event": {
+        "score": -426.272576033,
+        "quad_sum": -318.318174839,
+        "word_sum": -53.977200597,
+        "word_weight": 2,
+        "proposal": 13755000,
+        "restart": 459,
+        "seconds": 900.082359316,
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "loss": [
+          8,
+          67,
+          118,
+          125,
+          148
+        ],
+        "fill": "DXDVD",
+        "plaintext": "DERKOMMANDEURBITTETUMSOFORTIGENBERICHTUEBERDIELAGEDERTRUPPENUNDDIEVERFUEGBARENTRANSPO"
+      },
+      "completed_proposals": 13755000,
+      "completed_restarts": 459,
+      "elapsed_seconds": 900.5876408830009,
+      "original_output_sha256": "f2e97a2101a45783eb0d3f30ce753b26fac657872b0b102ea4e1461bb6180892",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 85,
+        "length": 85,
+        "exact_plaintext": true
+      }
+    },
+    {
+      "case_id": "adaptive_weight2/p198_CHI-Nov13_word_partial__unknown_square",
+      "input": {
+        "id": "p198_CHI-Nov13_word_partial__unknown_square",
+        "seconds": 5400,
+        "seed": 202611071202,
+        "word_weight": 2.0,
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ],
+        "partial_square": "????????????????????????????????????",
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "evaluation_only": null
+      },
+      "best_candidate": {
+        "score": -670.188710737,
+        "quad_sum": -448.512022018,
+        "word_sum": -110.838344359,
+        "word_weight": 2,
+        "proposal": 95880000,
+        "restart": 3195,
+        "seconds": 3153.09271037,
+        "square": "4V1F5C3QJ7MIS2OR8UYPETLW6KXDHNB9A0ZG",
+        "loss": [
+          9,
+          21,
+          23,
+          98,
+          146
+        ],
+        "fill": "VGFAF",
+        "plaintext": "DWIMUEBERAUFNUND1XHRMUSS3000XCHTBINUMXLOSDAHSAUSOLLX3462FXVIIXSPITZERKEXHIHNANINZEIGV"
+      },
+      "final_event": {
+        "score": -670.188710737,
+        "quad_sum": -448.512022018,
+        "word_sum": -110.838344359,
+        "word_weight": 2,
+        "proposal": 169660000,
+        "restart": 5656,
+        "seconds": 5400.11637797,
+        "square": "4V1F5C3QJ7MIS2OR8UYPETLW6KXDHNB9A0ZG",
+        "loss": [
+          9,
+          21,
+          23,
+          98,
+          146
+        ],
+        "fill": "VGFAF",
+        "plaintext": "DWIMUEBERAUFNUND1XHRMUSS3000XCHTBINUMXLOSDAHSAUSOLLX3462FXVIIXSPITZERKEXHIHNANINZEIGV"
+      },
+      "completed_proposals": 169660000,
+      "completed_restarts": 5656,
+      "elapsed_seconds": 5400.322543189002,
+      "original_output_sha256": "d5e105f4143cee56add6ad0eec31b2c33e70e674355ec00d833e1930f5ff8c2e",
+      "accepted_historical_reading": false,
+      "initial_state": {
+        "square": "AROT8WHQJC2YSVU7I6DXBPM3451NZELFK0G9",
+        "loss": [
+          16,
+          18,
+          88,
+          96,
+          169
+        ],
+        "fill": "AAXXA",
+        "plaintext": "N9YTEUENT16726SSJKZ01WEPLC06GEMUSEEZHKISSTK1SOEVOMMYY4SXCORBC5D1ENGEUEJEG329FF34GJ3UT",
+        "origin": "Earlier four-gram optimum; control truth was not supplied as a seed."
+      }
+    },
+    {
+      "case_id": "adaptive_weight2/p198_Nov13-15b_word_partial__unknown_square",
+      "input": {
+        "id": "p198_Nov13-15b_word_partial__unknown_square",
+        "seconds": 5400,
+        "seed": 202611071203,
+        "word_weight": 2.0,
+        "ranks": [
+          4,
+          11,
+          5,
+          14,
+          9,
+          7,
+          16,
+          1,
+          12,
+          15,
+          6,
+          10,
+          3,
+          13,
+          8,
+          2
+        ],
+        "partial_square": "????????????????????????????????????",
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "evaluation_only": null
+      },
+      "best_candidate": {
+        "score": -689.479767084,
+        "quad_sum": -469.894159555,
+        "word_sum": -109.792803764,
+        "word_weight": 2,
+        "proposal": 128220000,
+        "restart": 4273,
+        "seconds": 5027.50085875,
+        "square": "P5O7YAUJ2FZ9R8NLIGKSW1E0DCTBVM6XQ3H4",
+        "loss": [
+          5,
+          40,
+          75,
+          98,
+          120
+        ],
+        "fill": "DGVAF",
+        "plaintext": "493X46M14EINXDOMMITERGFEINFAND30BATEGENXAM28WIRVO4NAHMPLHOFFERUHSTZUCKTLEDIGL23XICHXE"
+      },
+      "final_event": {
+        "score": -689.479767084,
+        "quad_sum": -469.894159555,
+        "word_sum": -109.792803764,
+        "word_weight": 2,
+        "proposal": 144240000,
+        "restart": 4808,
+        "seconds": 5400.08461962,
+        "square": "P5O7YAUJ2FZ9R8NLIGKSW1E0DCTBVM6XQ3H4",
+        "loss": [
+          5,
+          40,
+          75,
+          98,
+          120
+        ],
+        "fill": "DGVAF",
+        "plaintext": "493X46M14EINXDOMMITERGFEINFAND30BATEGENXAM28WIRVO4NAHMPLHOFFERUHSTZUCKTLEDIGL23XICHXE"
+      },
+      "completed_proposals": 144240000,
+      "completed_restarts": 4808,
+      "elapsed_seconds": 5400.506876178995,
+      "original_output_sha256": "222f1e7ef88d71df043c7771413ce78688548e9bd3ce4549f9f4f6ab1dd41390",
+      "accepted_historical_reading": false,
+      "initial_state": {
+        "square": "H8YBMUF15PX0DJLR74Q9S6VONKZ3AWITEGC2",
+        "loss": [
+          28,
+          45,
+          86,
+          128,
+          149
+        ],
+        "fill": "XGXVF",
+        "plaintext": "2VRTTIBO27ALLNXVALEVD4GOROPUSALTWUZV2VDAYW54S4HRMELBANFCTYPF7DERVNX09S3T7K7JG02C0WCG7",
+        "origin": "Earlier four-gram optimum; control truth was not supplied as a seed."
+      }
+    },
+    {
+      "case_id": "broad_partial/control_partial_0_Sep19-21",
+      "input": {
+        "id": "control_partial_0_Sep19-21",
+        "key_id": "Sep19-21",
+        "partial_square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+        "ranks": [
+          12,
+          2,
+          7,
+          20,
+          10,
+          19,
+          1,
+          13,
+          9,
+          18,
+          3,
+          17,
+          21,
+          8,
+          14,
+          4,
+          6,
+          16,
+          11,
+          22,
+          5,
+          15
+        ],
+        "source": "XDFFGXFDGAXVGGGDVDDFFDXVGFDVFFGXGGXXGGGFFDDVFXAFDFDADGVFAXGGDXGGFGDFXFGGFFFFFXXXGXFVXFFFFDGGGVFAXDDXXVVDGFGFFGGFVGGAVVVGAFFGGGDAGGDDDGFFGGVFVGGVADAXGXFFFGXFXFXVVFFFF",
+        "seconds": 900,
+        "seed": 202611021800,
+        "word_weight": 2.0,
+        "evaluation_only": {
+          "plaintext": "AMBAHNHOFSTEHENZWANZIGWAGENBEREITXDIEABFAHRTISTFUERMORGENFRUEHVORGESEHENXBITTEBESTAET",
+          "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+          "loss": [
+            7,
+            30,
+            45,
+            62,
+            156
+          ],
+          "fill": "FFFFX",
+          "complete_authored_text": "AMBAHNHOFSTEHENZWANZIGWAGENBEREITXDIEABFAHRTISTFUERMORGENFRUEHVORGESEHENXBITTEBESTAETIGEN"
+        },
+        "scope": "Fresh blind partial-square and exact five-loss control; all text fixed before this batch starts."
+      },
+      "best_candidate": {
+        "score": -467.950099373,
+        "quad_sum": -348.174786806,
+        "word_sum": -59.8876562834,
+        "word_weight": 2,
+        "proposal": 30000,
+        "restart": 0,
+        "seconds": 2.008039076,
+        "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+        "loss": [
+          6,
+          31,
+          45,
+          62,
+          156
+        ],
+        "fill": "FFFFX",
+        "plaintext": "AMBAHNHOFSTEHENZWANZIGWAGENBEREITXDIEABFAHRTISTFUERMORGENFRUEHVORGESEHENXBITTEBESTAET"
+      },
+      "final_event": {
+        "score": -467.950099373,
+        "quad_sum": -348.174786806,
+        "word_sum": -59.8876562834,
+        "word_weight": 2,
+        "proposal": 14085000,
+        "restart": 470,
+        "seconds": 900.156668004,
+        "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+        "loss": [
+          6,
+          31,
+          45,
+          62,
+          156
+        ],
+        "fill": "FFFFX",
+        "plaintext": "AMBAHNHOFSTEHENZWANZIGWAGENBEREITXDIEABFAHRTISTFUERMORGENFRUEHVORGESEHENXBITTEBESTAET"
+      },
+      "completed_proposals": 14085000,
+      "completed_restarts": 470,
+      "elapsed_seconds": 900.5801714389963,
+      "original_output_sha256": "369ee0a74c9d0d319d4ccb698fd580ad93ec3e3ef74346e95b10ad0b9d79ca61",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 85,
+        "length": 85,
+        "exact_plaintext": true
+      }
+    },
+    {
+      "case_id": "broad_partial/control_partial_1_Nov13-15b",
+      "input": {
+        "id": "control_partial_1_Nov13-15b",
+        "key_id": "Nov13-15b",
+        "partial_square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+        "ranks": [
+          4,
+          11,
+          5,
+          14,
+          9,
+          7,
+          16,
+          1,
+          12,
+          15,
+          6,
+          10,
+          3,
+          13,
+          8,
+          2
+        ],
+        "source": "VAVAAGFDFVADDGFDFAVXAFXXXFFVGAFFXGXXDXXXGVXADXFAVADAVFXGVXVAXFGGAAFGVGXDXVAGXGVGDXGFDXAXAAADVGAFXVAAXFAAXFAVVDFDVAXVFAAXVFAGGXFDGGAXVGVFVAVAAVVXXFAAVVGGGGXFFVVXXDXDD",
+        "seconds": 900,
+        "seed": 202611021801,
+        "word_weight": 2.0,
+        "evaluation_only": {
+          "plaintext": "DASQUARTIERDER3KOMPANIEBEFINDETSICHIMORTXDERMARSCHBEGINNTAM17NOVEMBERUM0800XBERICHTFO",
+          "square": "H94BMUF15PX0DJLRQ2Y8S6VONKZ7AWITEGC3",
+          "loss": [
+            41,
+            56,
+            94,
+            147,
+            164
+          ],
+          "fill": "XXXAF",
+          "complete_authored_text": "DASQUARTIERDER3KOMPANIEBEFINDETSICHIMORTXDERMARSCHBEGINNTAM17NOVEMBERUM0800XBERICHTFOLGT"
+        },
+        "scope": "Fresh blind partial-square and exact five-loss control; all text fixed before this batch starts."
+      },
+      "best_candidate": {
+        "score": -519.351375178,
+        "quad_sum": -387.357912064,
+        "word_sum": -65.996731557,
+        "word_weight": 2,
+        "proposal": 30000,
+        "restart": 0,
+        "seconds": 1.881063306,
+        "square": "H49BMUF15PX0DJLRQY73S6VONKZ8AWITEGC2",
+        "loss": [
+          41,
+          55,
+          94,
+          147,
+          164
+        ],
+        "fill": "XXXAF",
+        "plaintext": "DASQUARTIERDER2KOMPANIEBEFINDETSICHIMORTXDERMARSCHBEGINNTAM18NOVEMBERUM0300XBERICHTFO"
+      },
+      "final_event": {
+        "score": -519.351375178,
+        "quad_sum": -387.357912064,
+        "word_sum": -65.996731557,
+        "word_weight": 2,
+        "proposal": 15905000,
+        "restart": 531,
+        "seconds": 900.092162822,
+        "square": "H49BMUF15PX0DJLRQY73S6VONKZ8AWITEGC2",
+        "loss": [
+          41,
+          55,
+          94,
+          147,
+          164
+        ],
+        "fill": "XXXAF",
+        "plaintext": "DASQUARTIERDER2KOMPANIEBEFINDETSICHIMORTXDERMARSCHBEGINNTAM18NOVEMBERUM0300XBERICHTFO"
+      },
+      "completed_proposals": 15905000,
+      "completed_restarts": 531,
+      "elapsed_seconds": 900.5287088109981,
+      "original_output_sha256": "db0eb2a2634e195a1c52b1b408e0cf64431ba1788e992ec544cf24c1d8834024",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 82,
+        "length": 85,
+        "exact_plaintext": false
+      }
+    },
+    {
+      "case_id": "broad_partial/control_partial_2_CHI-Nov13",
+      "input": {
+        "id": "control_partial_2_CHI-Nov13",
+        "key_id": "CHI-Nov13",
+        "partial_square": "AROT?WH??C??SVU?I?DXBP?????NZELFK?G?",
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ],
+        "source": "VAVDDAGVVFVVFVFDFVAFAGXVVVAVVAFAXAXXAXGGXGXXVFXFGAVVAAAAAXGVVDVGVVVFFFAFAAVAAFXAVAVAAVAVVVVVXXGDAGGFFXDGDGAGADAXGVXXFGAGFGGFXAAGXGFVXGAFDAXXDFGDXGDGFDDFVAXGAXAGGXAVV",
+        "seconds": 900,
+        "seed": 202611021802,
+        "word_weight": 2.0,
+        "evaluation_only": {
+          "plaintext": "WIRHABENDENBEFEHLERHALTENUNDWERDENDIEMANNSCHAFTNOCHHEUTEZURUECKSENDENXBITTEANWEISUNGE",
+          "square": "AROT7WH51C28SVU9IMDXBP0QJ34NZELFKYG6",
+          "loss": [
+            0,
+            4,
+            40,
+            51,
+            149
+          ],
+          "fill": "AGXDD",
+          "complete_authored_text": "WIRHABENDENBEFEHLERHALTENUNDWERDENDIEMANNSCHAFTNOCHHEUTEZURUECKSENDENXBITTEANWEISUNGEN"
+        },
+        "scope": "Fresh blind partial-square and exact five-loss control; all text fixed before this batch starts."
+      },
+      "best_candidate": {
+        "score": -411.075388911,
+        "quad_sum": -312.654471874,
+        "word_sum": -49.2104585186,
+        "word_weight": 2,
+        "proposal": 30000,
+        "restart": 0,
+        "seconds": 2.132924767,
+        "square": "AROT4WH85C93SVU7IMDXBP6201JNZELFKQGY",
+        "loss": [
+          0,
+          4,
+          39,
+          51,
+          149
+        ],
+        "fill": "AGXDD",
+        "plaintext": "WIRHABENDENBEFEHLERHALTENUNDWERDENDIEMANNSCHAFTNOCHHEUTEZURUECKSENDENXBITTEANWEISUNGE"
+      },
+      "final_event": {
+        "score": -411.075388911,
+        "quad_sum": -312.654471874,
+        "word_sum": -49.2104585186,
+        "word_weight": 2,
+        "proposal": 13440000,
+        "restart": 448,
+        "seconds": 900.328678238,
+        "square": "AROT4WH85C93SVU7IMDXBP6201JNZELFKQGY",
+        "loss": [
+          0,
+          4,
+          39,
+          51,
+          149
+        ],
+        "fill": "AGXDD",
+        "plaintext": "WIRHABENDENBEFEHLERHALTENUNDWERDENDIEMANNSCHAFTNOCHHEUTEZURUECKSENDENXBITTEANWEISUNGE"
+      },
+      "completed_proposals": 13440000,
+      "completed_restarts": 448,
+      "elapsed_seconds": 900.7896767099955,
+      "original_output_sha256": "084e4225f58931ce2fc83f70b934ee9ccce0e340f47866a48b987c540c8977c8",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 85,
+        "length": 85,
+        "exact_plaintext": true
+      }
+    },
+    {
+      "case_id": "broad_partial/control_partial_3_Nov16-18",
+      "input": {
+        "id": "control_partial_3_Nov16-18",
+        "key_id": "Nov16-18",
+        "partial_square": "WG?EITNHUB2R??FDZJS???PY?VQL?1OAXMKC",
+        "ranks": [
+          7,
+          12,
+          1,
+          14,
+          8,
+          16,
+          13,
+          9,
+          19,
+          3,
+          15,
+          4,
+          10,
+          18,
+          6,
+          2,
+          11,
+          17,
+          5
+        ],
+        "source": "AFAGDADXAVAVGDAXFGGGXDDAAGXAXXGAGVXFGGDXADAAAGFXDVDFGFXFAAGAAADGDGVADADAADVAXDXADDVDGFDVGGADVXAGDGAGDGDAVDGDXAFAVDGVXXAFGDADFAXFDDGAXVVXADVAAAAGADDDGADVXFAVAVAXADDGA",
+        "seconds": 900,
+        "seed": 202611021803,
+        "word_weight": 2.0,
+        "evaluation_only": {
+          "plaintext": "DIEVERBINDUNGISTWIEDERHERGESTELLTXALLEDRINGENDENNACHRICHTENSINDUNVERZUEGLICHWEITERZUG",
+          "square": "WG7EITNHUB2R96FDZJS584PY0VQL31OAXMKC",
+          "loss": [
+            11,
+            38,
+            66,
+            108,
+            156
+          ],
+          "fill": "GAADA",
+          "complete_authored_text": "DIEVERBINDUNGISTWIEDERHERGESTELLTXALLEDRINGENDENNACHRICHTENSINDUNVERZUEGLICHWEITERZUGEBEN"
+        },
+        "scope": "Fresh blind partial-square and exact five-loss control; all text fixed before this batch starts."
+      },
+      "best_candidate": {
+        "score": -383.329091233,
+        "quad_sum": -303.685357332,
+        "word_sum": -39.8218669504,
+        "word_weight": 2,
+        "proposal": 30000,
+        "restart": 0,
+        "seconds": 2.149588043,
+        "square": "WG0EITNHUB2R59FDZJS684PY3VQL71OAXMKC",
+        "loss": [
+          11,
+          38,
+          66,
+          109,
+          156
+        ],
+        "fill": "GAADA",
+        "plaintext": "DIEVERBINDUNGISTWIEDERHERGESTELLTXALLEDRINGENDENNACHRICHTENSINDUNVERZUEGLICHWEITERZUG"
+      },
+      "final_event": {
+        "score": -383.329091233,
+        "quad_sum": -303.685357332,
+        "word_sum": -39.8218669504,
+        "word_weight": 2,
+        "proposal": 12165000,
+        "restart": 406,
+        "seconds": 900.257156253,
+        "square": "WG0EITNHUB2R59FDZJS684PY3VQL71OAXMKC",
+        "loss": [
+          11,
+          38,
+          66,
+          109,
+          156
+        ],
+        "fill": "GAADA",
+        "plaintext": "DIEVERBINDUNGISTWIEDERHERGESTELLTXALLEDRINGENDENNACHRICHTENSINDUNVERZUEGLICHWEITERZUG"
+      },
+      "completed_proposals": 12165000,
+      "completed_restarts": 406,
+      "elapsed_seconds": 900.7574132930022,
+      "original_output_sha256": "fda5b502b5af1c2b391d8071d0698de740a379019ad94e6c6a493c0646fb843f",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 85,
+        "length": 85,
+        "exact_plaintext": true
+      }
+    },
+    {
+      "case_id": "broad_partial/historical_Sep19-21",
+      "input": {
+        "id": "historical_Sep19-21",
+        "key_id": "Sep19-21",
+        "partial_square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+        "ranks": [
+          12,
+          2,
+          7,
+          20,
+          10,
+          19,
+          1,
+          13,
+          9,
+          18,
+          3,
+          17,
+          21,
+          8,
+          14,
+          4,
+          6,
+          16,
+          11,
+          22,
+          5,
+          15
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021900,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -1056.59986854,
+        "quad_sum": -689.305591345,
+        "word_sum": -183.647138596,
+        "word_weight": 2,
+        "proposal": 360000,
+        "restart": 11,
+        "seconds": 17.70284588,
+        "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+        "loss": [
+          28,
+          71,
+          122,
+          127,
+          166
+        ],
+        "fill": "GGAAA",
+        "plaintext": "LLV0JTB6TVRKACHWPF88HMPDLWHCP2NAY0VLXTBRACHMILTMEWIGEA30VT4S1TMIRQK4JCIN1CDSXIMADFRUX"
+      },
+      "final_event": {
+        "score": -1056.59986854,
+        "quad_sum": -689.305591345,
+        "word_sum": -183.647138596,
+        "word_weight": 2,
+        "proposal": 25510000,
+        "restart": 851,
+        "seconds": 1200.21745958,
+        "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+        "loss": [
+          28,
+          71,
+          122,
+          127,
+          166
+        ],
+        "fill": "GGAAA",
+        "plaintext": "LLV0JTB6TVRKACHWPF88HMPDLWHCP2NAY0VLXTBRACHMILTMEWIGEA30VT4S1TMIRQK4JCIN1CDSXIMADFRUX"
+      },
+      "completed_proposals": 25510000,
+      "completed_restarts": 851,
+      "elapsed_seconds": 1200.7332263079952,
+      "original_output_sha256": "400bd9227df7f3e81bb94f9431d08a8cf71ec88493333a3b9750d693e875552f",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Oct4-6",
+      "input": {
+        "id": "historical_Oct4-6",
+        "key_id": "Oct4-6",
+        "partial_square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+        "ranks": [
+          4,
+          13,
+          3,
+          14,
+          1,
+          16,
+          9,
+          15,
+          5,
+          19,
+          10,
+          18,
+          6,
+          17,
+          7,
+          20,
+          11,
+          21,
+          8,
+          12,
+          22,
+          2
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021901,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -1021.49061418,
+        "quad_sum": -656.098877668,
+        "word_sum": -182.695868254,
+        "word_weight": 2,
+        "proposal": 60000,
+        "restart": 1,
+        "seconds": 2.974850656,
+        "square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+        "loss": [
+          3,
+          8,
+          24,
+          29,
+          113
+        ],
+        "fill": "GDDFA",
+        "plaintext": "N4CKREPLXGXWILDAE8N5MERHAIGZ5H9KJGZ00GMBVL6WEMV9VT1JVFUEBTEMAUMSOLLIGXEFD92M4PADK6F19"
+      },
+      "final_event": {
+        "score": -1021.49061418,
+        "quad_sum": -656.098877668,
+        "word_sum": -182.695868254,
+        "word_weight": 2,
+        "proposal": 33780000,
+        "restart": 1126,
+        "seconds": 1200.10099429,
+        "square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+        "loss": [
+          3,
+          8,
+          24,
+          29,
+          113
+        ],
+        "fill": "GDDFA",
+        "plaintext": "N4CKREPLXGXWILDAE8N5MERHAIGZ5H9KJGZ00GMBVL6WEMV9VT1JVFUEBTEMAUMSOLLIGXEFD92M4PADK6F19"
+      },
+      "completed_proposals": 33780000,
+      "completed_restarts": 1126,
+      "elapsed_seconds": 1200.5363131370032,
+      "original_output_sha256": "ace7e8967adf4df37004489dd49404b16ad9c955c5435ac28e06885631985ac1",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Oct28-31",
+      "input": {
+        "id": "historical_Oct28-31",
+        "key_id": "Oct28-31",
+        "partial_square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+        "ranks": [
+          6,
+          15,
+          12,
+          16,
+          5,
+          7,
+          14,
+          4,
+          13,
+          8,
+          11,
+          1,
+          17,
+          2,
+          10,
+          3,
+          18,
+          9
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021902,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -1043.61987686,
+        "quad_sum": -702.773291588,
+        "word_sum": -170.423292637,
+        "word_weight": 2,
+        "proposal": 5820000,
+        "restart": 193,
+        "seconds": 275.5616567,
+        "square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+        "loss": [
+          12,
+          30,
+          58,
+          134,
+          162
+        ],
+        "fill": "DFXDX",
+        "plaintext": "4104FGK60LLXK32FFMILLALSZUPFTALLNUD6Z571ODAR2DPQP6ZZK8VGCPAMG8W3EO6VH6W11362JXJ7NZ82S"
+      },
+      "final_event": {
+        "score": -1043.61987686,
+        "quad_sum": -702.773291588,
+        "word_sum": -170.423292637,
+        "word_weight": 2,
+        "proposal": 28980000,
+        "restart": 966,
+        "seconds": 1200.05289824,
+        "square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+        "loss": [
+          12,
+          30,
+          58,
+          134,
+          162
+        ],
+        "fill": "DFXDX",
+        "plaintext": "4104FGK60LLXK32FFMILLALSZUPFTALLNUD6Z571ODAR2DPQP6ZZK8VGCPAMG8W3EO6VH6W11362JXJ7NZ82S"
+      },
+      "completed_proposals": 28980000,
+      "completed_restarts": 966,
+      "elapsed_seconds": 1200.4934482490062,
+      "original_output_sha256": "826e11398aea941c24499250fb4471927834b430bbf9a1a32b28fbd326ff7b87",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov1-3",
+      "input": {
+        "id": "historical_Nov1-3",
+        "key_id": "Nov1-3",
+        "partial_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+        "ranks": [
+          3,
+          16,
+          4,
+          15,
+          7,
+          12,
+          18,
+          6,
+          17,
+          8,
+          19,
+          1,
+          13,
+          10,
+          2,
+          14,
+          11,
+          9,
+          5
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021903,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -1072.57412167,
+        "quad_sum": -721.969975233,
+        "word_sum": -175.302073216,
+        "word_weight": 2,
+        "proposal": 870000,
+        "restart": 28,
+        "seconds": 41.542059121,
+        "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+        "loss": [
+          16,
+          23,
+          71,
+          93,
+          147
+        ],
+        "fill": "XGAGA",
+        "plaintext": "H761281XRED3HGDQA1JXZQJFBW1SFKB3MG632PFADXOFTANNTGO92321WXYHKZVSEAX3L6JGFXJAT05Q76KWF"
+      },
+      "final_event": {
+        "score": -1072.57412167,
+        "quad_sum": -721.969975233,
+        "word_sum": -175.302073216,
+        "word_weight": 2,
+        "proposal": 42955000,
+        "restart": 1432,
+        "seconds": 1200.01494641,
+        "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+        "loss": [
+          16,
+          23,
+          71,
+          93,
+          147
+        ],
+        "fill": "XGAGA",
+        "plaintext": "H761281XRED3HGDQA1JXZQJFBW1SFKB3MG632PFADXOFTANNTGO92321WXYHKZVSEAX3L6JGFXJAT05Q76KWF"
+      },
+      "completed_proposals": 42955000,
+      "completed_restarts": 1432,
+      "elapsed_seconds": 1200.4787138859974,
+      "original_output_sha256": "8c1bbc81ee7886fa8626583db6458ba9cced1fe2a7d11645309ae454134324c9",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov4-6",
+      "input": {
+        "id": "historical_Nov4-6",
+        "key_id": "Nov4-6",
+        "partial_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ranks": [
+          7,
+          10,
+          8,
+          14,
+          3,
+          11,
+          16,
+          1,
+          6,
+          13,
+          4,
+          9,
+          15,
+          5,
+          12,
+          17,
+          2
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021904,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -1036.25570536,
+        "quad_sum": -715.471942902,
+        "word_sum": -160.391881227,
+        "word_weight": 2,
+        "proposal": 210000,
+        "restart": 6,
+        "seconds": 4.926867369,
+        "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "loss": [
+          1,
+          20,
+          112,
+          122,
+          124
+        ],
+        "fill": "XAFFA",
+        "plaintext": "X317IIVA2UXW469X3DRAMANCES41MIINYYROPIRAKAMH94AKA9763ZPB81CAIM33T8A2ZGLRK7NKAM8946XHS"
+      },
+      "final_event": {
+        "score": -1036.25570536,
+        "quad_sum": -715.471942902,
+        "word_sum": -160.391881227,
+        "word_weight": 2,
+        "proposal": 40765000,
+        "restart": 1359,
+        "seconds": 1200.25376249,
+        "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "loss": [
+          1,
+          20,
+          112,
+          122,
+          124
+        ],
+        "fill": "XAFFA",
+        "plaintext": "X317IIVA2UXW469X3DRAMANCES41MIINYYROPIRAKAMH94AKA9763ZPB81CAIM33T8A2ZGLRK7NKAM8946XHS"
+      },
+      "completed_proposals": 40765000,
+      "completed_restarts": 1359,
+      "elapsed_seconds": 1200.526824695,
+      "original_output_sha256": "0f28e9330ffae66f9bced8ced9e2e670b525469d18d4aa1ca74c96d601c67f3c",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov7-9",
+      "input": {
+        "id": "historical_Nov7-9",
+        "key_id": "Nov7-9",
+        "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+        "ranks": [
+          6,
+          12,
+          7,
+          15,
+          1,
+          11,
+          16,
+          5,
+          8,
+          14,
+          3,
+          18,
+          9,
+          13,
+          2,
+          17,
+          20,
+          10,
+          19,
+          4
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021905,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -1038.22667694,
+        "quad_sum": -711.936293125,
+        "word_sum": -163.145191908,
+        "word_weight": 2,
+        "proposal": 60000,
+        "restart": 1,
+        "seconds": 2.692927503,
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "loss": [
+          20,
+          61,
+          90,
+          114,
+          133
+        ],
+        "fill": "FVGGV",
+        "plaintext": "BKETT47EW58FC702BTT58KXUESHJ73WQAPICHHW2X554X4XFZXDINWOMISSFWO21BSB5OO45R97J99JB41JA7"
+      },
+      "final_event": {
+        "score": -1038.22667694,
+        "quad_sum": -711.936293125,
+        "word_sum": -163.145191908,
+        "word_weight": 2,
+        "proposal": 35150000,
+        "restart": 1172,
+        "seconds": 1200.12374788,
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "loss": [
+          20,
+          61,
+          90,
+          114,
+          133
+        ],
+        "fill": "FVGGV",
+        "plaintext": "BKETT47EW58FC702BTT58KXUESHJ73WQAPICHHW2X554X4XFZXDINWOMISSFWO21BSB5OO45R97J99JB41JA7"
+      },
+      "completed_proposals": 35150000,
+      "completed_restarts": 1172,
+      "elapsed_seconds": 1200.472427322995,
+      "original_output_sha256": "e28169474a991dc1df712cb2eb36f3f1ea16ad2d29705c28f5e5c351a7c1ff6f",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov10-12",
+      "input": {
+        "id": "historical_Nov10-12",
+        "key_id": "Nov10-12",
+        "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+        "ranks": [
+          9,
+          12,
+          7,
+          11,
+          3,
+          8,
+          16,
+          6,
+          14,
+          2,
+          10,
+          15,
+          5,
+          13,
+          1,
+          4
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021906,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -1061.12375712,
+        "quad_sum": -697.266529322,
+        "word_sum": -181.928613901,
+        "word_weight": 2,
+        "proposal": 3120000,
+        "restart": 103,
+        "seconds": 141.969620085,
+        "square": "4ARUT1OIFSKN39BZPVLD5JMXCWHQ2E6G08Y7",
+        "loss": [
+          18,
+          44,
+          50,
+          80,
+          97
+        ],
+        "fill": "DADDG",
+        "plaintext": "7N2YQA5NVXUPELZPHESXPRUHFP8T77BYQJV5GH4CNVPPY2C6ZBAUZY6XKPFFPARUFDEKAUS0Z20BSPEI7278G"
+      },
+      "final_event": {
+        "score": -1061.12375712,
+        "quad_sum": -697.266529322,
+        "word_sum": -181.928613901,
+        "word_weight": 2,
+        "proposal": 35480000,
+        "restart": 1183,
+        "seconds": 1200.08695034,
+        "square": "4ARUT1OIFSKN39BZPVLD5JMXCWHQ2E6G08Y7",
+        "loss": [
+          18,
+          44,
+          50,
+          80,
+          97
+        ],
+        "fill": "DADDG",
+        "plaintext": "7N2YQA5NVXUPELZPHESXPRUHFP8T77BYQJV5GH4CNVPPY2C6ZBAUZY6XKPFFPARUFDEKAUS0Z20BSPEI7278G"
+      },
+      "completed_proposals": 35480000,
+      "completed_restarts": 1183,
+      "elapsed_seconds": 1200.4953544119999,
+      "original_output_sha256": "c180c335e29120cdbce4d594847eff6186a3da074e7fe09e8ffe2cb30620f7ef",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov13-15a",
+      "input": {
+        "id": "historical_Nov13-15a",
+        "key_id": "Nov13-15a",
+        "partial_square": "JZLH?R??S?T?MKDWU?V?B?P??FAO?GIX?CNE",
+        "ranks": [
+          13,
+          8,
+          6,
+          16,
+          7,
+          18,
+          1,
+          14,
+          9,
+          20,
+          10,
+          15,
+          17,
+          2,
+          3,
+          11,
+          5,
+          19,
+          4,
+          12
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021907,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -964.221826315,
+        "quad_sum": -655.564634323,
+        "word_sum": -154.328595996,
+        "word_weight": 2,
+        "proposal": 5940000,
+        "restart": 197,
+        "seconds": 289.882690207,
+        "square": "JZLH0R63SQTYMKDWU7V4B2P95FAO1GIX8CNE",
+        "loss": [
+          23,
+          25,
+          91,
+          128,
+          148
+        ],
+        "fill": "VVXFV",
+        "plaintext": "0WASWCX18ALS5UMGO417W2FF2WGTUMXDENANUFFJCM115DELHYNJKEFCX301A5594ENGEN28BLBDWXBE8H789"
+      },
+      "final_event": {
+        "score": -964.221826315,
+        "quad_sum": -655.564634323,
+        "word_sum": -154.328595996,
+        "word_weight": 2,
+        "proposal": 33430000,
+        "restart": 1115,
+        "seconds": 1200.19100111,
+        "square": "JZLH0R63SQTYMKDWU7V4B2P95FAO1GIX8CNE",
+        "loss": [
+          23,
+          25,
+          91,
+          128,
+          148
+        ],
+        "fill": "VVXFV",
+        "plaintext": "0WASWCX18ALS5UMGO417W2FF2WGTUMXDENANUFFJCM115DELHYNJKEFCX301A5594ENGEN28BLBDWXBE8H789"
+      },
+      "completed_proposals": 33430000,
+      "completed_restarts": 1115,
+      "elapsed_seconds": 1200.7085406100014,
+      "original_output_sha256": "6ae56f70f86c67457ccf8c30009b361a0cc8e31db7c23aa17e2486503a67e360",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov16-18",
+      "input": {
+        "id": "historical_Nov16-18",
+        "key_id": "Nov16-18",
+        "partial_square": "WG?EITNHUB2R??FDZJS???PY?VQL?1OAXMKC",
+        "ranks": [
+          7,
+          12,
+          1,
+          14,
+          8,
+          16,
+          13,
+          9,
+          19,
+          3,
+          15,
+          4,
+          10,
+          18,
+          6,
+          2,
+          11,
+          17,
+          5
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021909,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -1045.43575096,
+        "quad_sum": -714.77034235,
+        "word_sum": -165.332704306,
+        "word_weight": 2,
+        "proposal": 120000,
+        "restart": 3,
+        "seconds": 5.623784866,
+        "square": "WG8EITNHUB2R59FDZJS074PY3VQL61OAXMKC",
+        "loss": [
+          2,
+          21,
+          110,
+          129,
+          146
+        ],
+        "fill": "GGXVV",
+        "plaintext": "KRUPPXCJF6XDY378FH5571Z00KENII717416X17CPLI19KA7K7908KSOX1KJ1HT2VGUMFKQO6K1EPEYXX8ULQ"
+      },
+      "final_event": {
+        "score": -1045.43575096,
+        "quad_sum": -714.77034235,
+        "word_sum": -165.332704306,
+        "word_weight": 2,
+        "proposal": 25760000,
+        "restart": 859,
+        "seconds": 1200.03768487,
+        "square": "WG8EITNHUB2R59FDZJS074PY3VQL61OAXMKC",
+        "loss": [
+          2,
+          21,
+          110,
+          129,
+          146
+        ],
+        "fill": "GGXVV",
+        "plaintext": "KRUPPXCJF6XDY378FH5571Z00KENII717416X17CPLI19KA7K7908KSOX1KJ1HT2VGUMFKQO6K1EPEYXX8ULQ"
+      },
+      "completed_proposals": 25760000,
+      "completed_restarts": 859,
+      "elapsed_seconds": 1200.5525698479978,
+      "original_output_sha256": "7d6a23b49c28170e42d3b3bd9803c0307fbc80bc7a324ba94df2786b0acb5178",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov19-21",
+      "input": {
+        "id": "historical_Nov19-21",
+        "key_id": "Nov19-21",
+        "partial_square": "LC58QH7VI2YB9EURO60GX3MTFAKP1D4NJZSW",
+        "ranks": [
+          13,
+          20,
+          3,
+          16,
+          7,
+          14,
+          4,
+          12,
+          8,
+          11,
+          5,
+          15,
+          2,
+          18,
+          17,
+          10,
+          19,
+          6,
+          1,
+          9
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021910,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -1019.73836112,
+        "quad_sum": -673.182015657,
+        "word_sum": -173.278172731,
+        "word_weight": 2,
+        "proposal": 9330000,
+        "restart": 310,
+        "seconds": 461.09019832,
+        "square": "LC58QH7VI2YB9EURO60GX3MTFAKP1D4NJZSW",
+        "loss": [
+          18,
+          49,
+          72,
+          75,
+          110
+        ],
+        "fill": "XGDDA",
+        "plaintext": "8XDEDUJZRILPKU6P7PKURZ1HXHGPKPJXN7Y8W67S471FGSASMANFOW1X4JDSALDSERIW4MXITSXBDURCHZUDE"
+      },
+      "final_event": {
+        "score": -1019.73836112,
+        "quad_sum": -673.182015657,
+        "word_sum": -173.278172731,
+        "word_weight": 2,
+        "proposal": 24480000,
+        "restart": 816,
+        "seconds": 1200.18037422,
+        "square": "LC58QH7VI2YB9EURO60GX3MTFAKP1D4NJZSW",
+        "loss": [
+          18,
+          49,
+          72,
+          75,
+          110
+        ],
+        "fill": "XGDDA",
+        "plaintext": "8XDEDUJZRILPKU6P7PKURZ1HXHGPKPJXN7Y8W67S471FGSASMANFOW1X4JDSALDSERIW4MXITSXBDURCHZUDE"
+      },
+      "completed_proposals": 24480000,
+      "completed_restarts": 816,
+      "elapsed_seconds": 1200.7336749890019,
+      "original_output_sha256": "09b411f56f1e66e7f71972394ff12ee644e7409e070646a6284488d7c8d9c0ec",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov19-21_ordinary_letters",
+      "input": {
+        "id": "historical_Nov19-21_ordinary_letters",
+        "key_id": "Nov19-21",
+        "partial_square": "LC???H?VI??B?EURO??GX?MTFAKP?D?N?ZSW",
+        "ranks": [
+          13,
+          20,
+          3,
+          16,
+          7,
+          14,
+          4,
+          12,
+          8,
+          11,
+          5,
+          15,
+          2,
+          18,
+          17,
+          10,
+          19,
+          6,
+          1,
+          9
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611022010,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Additional conditional component reuse: late-key rare-letter/numeral labels are unanchored because the author manuscript does not authenticate their values; Nov28 also releases X due to its published Y separator."
+      },
+      "best_candidate": {
+        "score": -983.577829838,
+        "quad_sum": -659.607234716,
+        "word_sum": -161.985297561,
+        "word_weight": 2,
+        "proposal": 3180000,
+        "restart": 105,
+        "seconds": 78.346219242,
+        "square": "LCY18H2VI47BJEURO0QGX9MTFAKP3D5N6ZSW",
+        "loss": [
+          49,
+          80,
+          83,
+          123,
+          143
+        ],
+        "fill": "GDDXG",
+        "plaintext": "193U0D6DUIJPAHX123KRZXS278GUF3623FGWWW7S5F0W3XANT3ALDSER56FZGIXSXBITS96ZUDEXDER100PJE"
+      },
+      "final_event": {
+        "score": -983.577829838,
+        "quad_sum": -659.607234716,
+        "word_sum": -161.985297561,
+        "word_weight": 2,
+        "proposal": 43740000,
+        "restart": 1458,
+        "seconds": 1200.15689554,
+        "square": "LCY18H2VI47BJEURO0QGX9MTFAKP3D5N6ZSW",
+        "loss": [
+          49,
+          80,
+          83,
+          123,
+          143
+        ],
+        "fill": "GDDXG",
+        "plaintext": "193U0D6DUIJPAHX123KRZXS278GUF3623FGWWW7S5F0W3XANT3ALDSER56FZGIXSXBITS96ZUDEXDER100PJE"
+      },
+      "completed_proposals": 43740000,
+      "completed_restarts": 1458,
+      "elapsed_seconds": 1200.4008458370008,
+      "original_output_sha256": "35d4ce0e86813e50c70ed547cc2413ca1cc92a65a88ddf17184a4c912dd3265c",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov22-24",
+      "input": {
+        "id": "historical_Nov22-24",
+        "key_id": "Nov22-24",
+        "partial_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+        "ranks": [
+          6,
+          12,
+          16,
+          7,
+          14,
+          22,
+          11,
+          18,
+          1,
+          15,
+          8,
+          10,
+          20,
+          2,
+          13,
+          21,
+          3,
+          17,
+          19,
+          5,
+          9,
+          4
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021911,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -1019.28492635,
+        "quad_sum": -681.973882914,
+        "word_sum": -168.655521721,
+        "word_weight": 2,
+        "proposal": 30000,
+        "restart": 0,
+        "seconds": 1.470798255,
+        "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+        "loss": [
+          16,
+          112,
+          130,
+          162,
+          169
+        ],
+        "fill": "AADDA",
+        "plaintext": "2YNACH15X145ERMEB47F1G6GARTV72U1H3A58P6K1DERC65KMEPHCRL9VHPPUKUM233EGPGBTANSERGARXDV7"
+      },
+      "final_event": {
+        "score": -1019.28492635,
+        "quad_sum": -681.973882914,
+        "word_sum": -168.655521721,
+        "word_weight": 2,
+        "proposal": 42365000,
+        "restart": 1413,
+        "seconds": 1200.29734301,
+        "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+        "loss": [
+          16,
+          112,
+          130,
+          162,
+          169
+        ],
+        "fill": "AADDA",
+        "plaintext": "2YNACH15X145ERMEB47F1G6GARTV72U1H3A58P6K1DERC65KMEPHCRL9VHPPUKUM233EGPGBTANSERGARXDV7"
+      },
+      "completed_proposals": 42365000,
+      "completed_restarts": 1413,
+      "elapsed_seconds": 1200.8538427960011,
+      "original_output_sha256": "15aa5af288d83dac227254b7759229c68b9d2ab5f0b60599959e559e561450a7",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov22-24_ordinary_letters",
+      "input": {
+        "id": "historical_Nov22-24_ordinary_letters",
+        "key_id": "Nov22-24",
+        "partial_square": "?NZ??XS?C?I???RBEKL?FD?GMTHUVWA?O?P?",
+        "ranks": [
+          6,
+          12,
+          16,
+          7,
+          14,
+          22,
+          11,
+          18,
+          1,
+          15,
+          8,
+          10,
+          20,
+          2,
+          13,
+          21,
+          3,
+          17,
+          19,
+          5,
+          9,
+          4
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611022011,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Additional conditional component reuse: late-key rare-letter/numeral labels are unanchored because the author manuscript does not authenticate their values; Nov28 also releases X due to its published Y separator."
+      },
+      "best_candidate": {
+        "score": -985.60494417,
+        "quad_sum": -655.434989214,
+        "word_sum": -165.084977478,
+        "word_weight": 2,
+        "proposal": 60000,
+        "restart": 1,
+        "seconds": 2.914272275,
+        "square": "YNZ01XS8CJIQ67RBEKL4FD3GMTHUVWA9O5P2",
+        "loss": [
+          16,
+          113,
+          130,
+          162,
+          169
+        ],
+        "fill": "AADDA",
+        "plaintext": "16NACH29X289ERMEB80F2G3GARTV01U2H7A95P3K2DERC39KVEPHCRL4VHPAUKUM177EGPGBTANSERGARXDV0"
+      },
+      "final_event": {
+        "score": -985.60494417,
+        "quad_sum": -655.434989214,
+        "word_sum": -165.084977478,
+        "word_weight": 2,
+        "proposal": 43360000,
+        "restart": 1446,
+        "seconds": 1200.01469909,
+        "square": "YNZ01XS8CJIQ67RBEKL4FD3GMTHUVWA9O5P2",
+        "loss": [
+          16,
+          113,
+          130,
+          162,
+          169
+        ],
+        "fill": "AADDA",
+        "plaintext": "16NACH29X289ERMEB80F2G3GARTV01U2H7A95P3K2DERC39KVEPHCRL4VHPAUKUM177EGPGBTANSERGARXDV0"
+      },
+      "completed_proposals": 43360000,
+      "completed_restarts": 1446,
+      "elapsed_seconds": 1200.4995267320046,
+      "original_output_sha256": "074a734ab3145dd054d37785fcb2bef75797876bbac932947abaeb759cff7ba8",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov25-28",
+      "input": {
+        "id": "historical_Nov25-28",
+        "key_id": "Nov25-28",
+        "partial_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+        "ranks": [
+          21,
+          9,
+          6,
+          14,
+          10,
+          20,
+          1,
+          16,
+          18,
+          7,
+          15,
+          4,
+          11,
+          22,
+          5,
+          17,
+          23,
+          2,
+          12,
+          8,
+          19,
+          3,
+          13
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021912,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -1016.10122132,
+        "quad_sum": -701.571144819,
+        "word_sum": -157.265038252,
+        "word_weight": 2,
+        "proposal": 720000,
+        "restart": 23,
+        "seconds": 52.941916546,
+        "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+        "loss": [
+          5,
+          75,
+          116,
+          140,
+          141
+        ],
+        "fill": "DDVFG",
+        "plaintext": "XHIMUNP47TEABUSOKALS8R45XJ3F8F8QXROY181XJ8PST9RJ42BS43631I9DEN20SI9S647VXDEN184XDSWYB"
+      },
+      "final_event": {
+        "score": -1016.10122132,
+        "quad_sum": -701.571144819,
+        "word_sum": -157.265038252,
+        "word_weight": 2,
+        "proposal": 34045000,
+        "restart": 1135,
+        "seconds": 1200.00558546,
+        "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+        "loss": [
+          5,
+          75,
+          116,
+          140,
+          141
+        ],
+        "fill": "DDVFG",
+        "plaintext": "XHIMUNP47TEABUSOKALS8R45XJ3F8F8QXROY181XJ8PST9RJ42BS43631I9DEN20SI9S647VXDEN184XDSWYB"
+      },
+      "completed_proposals": 34045000,
+      "completed_restarts": 1135,
+      "elapsed_seconds": 1200.7123696650015,
+      "original_output_sha256": "c0bf81d2f026f4682dcec0c5958bb38cdf74b7da0b921f97cb9475c0c5b8a66f",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov25-28_ordinary_letters",
+      "input": {
+        "id": "historical_Nov25-28_ordinary_letters",
+        "key_id": "Nov25-28",
+        "partial_square": "H???DKZAO?M?BEIWT??PSCFLV?????NGURX?",
+        "ranks": [
+          21,
+          9,
+          6,
+          14,
+          10,
+          20,
+          1,
+          16,
+          18,
+          7,
+          15,
+          4,
+          11,
+          22,
+          5,
+          17,
+          23,
+          2,
+          12,
+          8,
+          19,
+          3,
+          13
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611022012,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Additional conditional component reuse: late-key rare-letter/numeral labels are unanchored because the author manuscript does not authenticate their values; Nov28 also releases X due to its published Y separator."
+      },
+      "best_candidate": {
+        "score": -953.072762012,
+        "quad_sum": -654.65124011,
+        "word_sum": -149.210760951,
+        "word_weight": 2,
+        "proposal": 750000,
+        "restart": 24,
+        "seconds": 19.737505015,
+        "square": "H0JQDKZAO8M9BEIWT73PSCFLV1265YNGURX4",
+        "loss": [
+          5,
+          45,
+          110,
+          146,
+          152
+        ],
+        "fill": "DXDVV",
+        "plaintext": "OHLAUNP23TEZVUU248LS462IXI134F404R9C276574PS5117357S25926IPDANKJSI1295354DEN646XDITRB"
+      },
+      "final_event": {
+        "score": -953.072762012,
+        "quad_sum": -654.65124011,
+        "word_sum": -149.210760951,
+        "word_weight": 2,
+        "proposal": 38135000,
+        "restart": 1272,
+        "seconds": 1200.03702365,
+        "square": "H0JQDKZAO8M9BEIWT73PSCFLV1265YNGURX4",
+        "loss": [
+          5,
+          45,
+          110,
+          146,
+          152
+        ],
+        "fill": "DXDVV",
+        "plaintext": "OHLAUNP23TEZVUU248LS462IXI134F404R9C276574PS5117357S25926IPDANKJSI1295354DEN646XDITRB"
+      },
+      "completed_proposals": 38135000,
+      "completed_restarts": 1272,
+      "elapsed_seconds": 1200.5510239309951,
+      "original_output_sha256": "a383ff0cb3937e56b4ef091c6f2b71ae260b8139ef1f3b9156ec343b674f76c9",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "broad_partial/historical_Nov28-Dec1",
+      "input": {
+        "id": "historical_Nov28-Dec1",
+        "key_id": "Nov28-Dec1",
+        "partial_square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+        "ranks": [
+          9,
+          3,
+          14,
+          10,
+          2,
+          8,
+          15,
+          4,
+          16,
+          11,
+          5,
+          13,
+          6,
+          12,
+          1,
+          7
+        ],
+        "source": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+        "seconds": 1200,
+        "seed": 202611021913,
+        "word_weight": 2.0,
+        "evaluation_only": null,
+        "scope": "Fixed published ranks and square anchors, exactly five arbitrary missing coordinates; no chronological assignment asserted."
+      },
+      "best_candidate": {
+        "score": -1049.5616169,
+        "quad_sum": -706.327365398,
+        "word_sum": -171.61712575,
+        "word_weight": 2,
+        "proposal": 1830000,
+        "restart": 60,
+        "seconds": 115.657618365,
+        "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+        "loss": [
+          51,
+          54,
+          64,
+          65,
+          123
+        ],
+        "fill": "GAAAF",
+        "plaintext": "BWVSW3ZHKESQ32213EJPV0DER3C1GC0SQSHBX2XRES03DENCOWX0PERTI1JROEI291TOFTTM929LICHH39RRW"
+      },
+      "final_event": {
+        "score": -1049.5616169,
+        "quad_sum": -706.327365398,
+        "word_sum": -171.61712575,
+        "word_weight": 2,
+        "proposal": 27445000,
+        "restart": 915,
+        "seconds": 1200.09397197,
+        "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+        "loss": [
+          51,
+          54,
+          64,
+          65,
+          123
+        ],
+        "fill": "GAAAF",
+        "plaintext": "BWVSW3ZHKESQ32213EJPV0DER3C1GC0SQSHBX2XRES03DENCOWX0PERTI1JROEI291TOFTTM929LICHH39RRW"
+      },
+      "completed_proposals": 27445000,
+      "completed_restarts": 915,
+      "elapsed_seconds": 1200.7470379150036,
+      "original_output_sha256": "800022935f8a477b35e4084c963365ff3d4f717ddd2f534c3b1891dde24a6663",
+      "accepted_historical_reading": false
+    },
+    {
+      "case_id": "unknown_square_controls/unknown_square_control_partial_1_Nov13-15b",
+      "input": {
+        "id": "unknown_square_control_partial_1_Nov13-15b",
+        "key_id": "Nov13-15b",
+        "partial_square": "????????????????????????????????????",
+        "ranks": [
+          4,
+          11,
+          5,
+          14,
+          9,
+          7,
+          16,
+          1,
+          12,
+          15,
+          6,
+          10,
+          3,
+          13,
+          8,
+          2
+        ],
+        "source": "VAVAAGFDFVADDGFDFAVXAFXXXFFVGAFFXGXXDXXXGVXADXFAVADAVFXGVXVAXFGGAAFGVGXDXVAGXGVGDXGFDXAXAAADVGAFXVAAXFAAXFAVVDFDVAXVFAAXVFAGGXFDGGAXVGVFVAVAAVVXXFAAVVGGGGXFFVVXXDXDD",
+        "seconds": 900,
+        "seed": 202611111801,
+        "word_weight": 2.0,
+        "evaluation_only": {
+          "plaintext": "DASQUARTIERDER3KOMPANIEBEFINDETSICHIMORTXDERMARSCHBEGINNTAM17NOVEMBERUM0800XBERICHTFO",
+          "square": "H94BMUF15PX0DJLRQ2Y8S6VONKZ7AWITEGC3",
+          "loss": [
+            41,
+            56,
+            94,
+            147,
+            164
+          ],
+          "fill": "XXXAF",
+          "complete_authored_text": "DASQUARTIERDER3KOMPANIEBEFINDETSICHIMORTXDERMARSCHBEGINNTAM17NOVEMBERUM0800XBERICHTFOLGT"
+        },
+        "scope": "Fresh blind partial-square and exact five-loss control; all text fixed before this batch starts."
+      },
+      "best_candidate": {
+        "score": -644.572128773,
+        "quad_sum": -435.201133966,
+        "word_sum": -104.685497403,
+        "word_weight": 2,
+        "proposal": 5730000,
+        "restart": 190,
+        "seconds": 379.671434609,
+        "square": "28FBXK1SZWH0GYJILQUC594NA3PMD7TOE6RV",
+        "loss": [
+          38,
+          45,
+          64,
+          145,
+          152
+        ],
+        "fill": "DXXGG",
+        "plaintext": "GDERKXISTENGEMVONXILAGEMETWAGEOFTHTABNICHT26XDIERGEERTAUSXBSMANDEMXEIKXNOXBHBEI140019"
+      },
+      "final_event": {
+        "score": -644.572128773,
+        "quad_sum": -435.201133966,
+        "word_sum": -104.685497403,
+        "word_weight": 2,
+        "proposal": 14925000,
+        "restart": 498,
+        "seconds": 900.131710903,
+        "square": "28FBXK1SZWH0GYJILQUC594NA3PMD7TOE6RV",
+        "loss": [
+          38,
+          45,
+          64,
+          145,
+          152
+        ],
+        "fill": "DXXGG",
+        "plaintext": "GDERKXISTENGEMVONXILAGEMETWAGEOFTHTABNICHT26XDIERGEERTAUSXBSMANDEMXEIKXNOXBHBEI140019"
+      },
+      "completed_proposals": 14925000,
+      "completed_restarts": 498,
+      "elapsed_seconds": 900.834832847002,
+      "original_output_sha256": "8a6f86f2442b040d0942ea725fbec5ffae37ae7ef393236979715f0fa25f21eb",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 11,
+        "length": 85,
+        "exact_plaintext": false
+      }
+    },
+    {
+      "case_id": "unknown_square_controls/unknown_square_control_partial_2_CHI-Nov13",
+      "input": {
+        "id": "unknown_square_control_partial_2_CHI-Nov13",
+        "key_id": "CHI-Nov13",
+        "partial_square": "????????????????????????????????????",
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ],
+        "source": "VAVDDAGVVFVVFVFDFVAFAGXVVVAVVAFAXAXXAXGGXGXXVFXFGAVVAAAAAXGVVDVGVVVFFFAFAAVAAFXAVAVAAVAVVVVVXXGDAGGFFXDGDGAGADAXGVXXFGAGFGGFXAAGXGFVXGAFDAXXDFGDXGDGFDDFVAXGAXAGGXAVV",
+        "seconds": 900,
+        "seed": 202611111802,
+        "word_weight": 2.0,
+        "evaluation_only": {
+          "plaintext": "WIRHABENDENBEFEHLERHALTENUNDWERDENDIEMANNSCHAFTNOCHHEUTEZURUECKSENDENXBITTEANWEISUNGE",
+          "square": "AROT7WH51C28SVU9IMDXBP0QJ34NZELFKYG6",
+          "loss": [
+            0,
+            4,
+            40,
+            51,
+            149
+          ],
+          "fill": "AGXDD",
+          "complete_authored_text": "WIRHABENDENBEFEHLERHALTENUNDWERDENDIEMANNSCHAFTNOCHHEUTEZURUECKSENDENXBITTEANWEISUNGEN"
+        },
+        "scope": "Fresh blind partial-square and exact five-loss control; all text fixed before this batch starts."
+      },
+      "best_candidate": {
+        "score": -411.075388911,
+        "quad_sum": -312.654471874,
+        "word_sum": -49.2104585186,
+        "word_weight": 2,
+        "proposal": 5100000,
+        "restart": 169,
+        "seconds": 304.550702049,
+        "square": "AROT7WH63C95S8UVIMDXB21Q40PNZELFKYGJ",
+        "loss": [
+          0,
+          4,
+          39,
+          51,
+          149
+        ],
+        "fill": "AGXDD",
+        "plaintext": "WIRHABENDENBEFEHLERHALTENUNDWERDENDIEMANNSCHAFTNOCHHEUTEZURUECKSENDENXBITTEANWEISUNGE"
+      },
+      "final_event": {
+        "score": -411.075388911,
+        "quad_sum": -312.654471874,
+        "word_sum": -49.2104585186,
+        "word_weight": 2,
+        "proposal": 14910000,
+        "restart": 497,
+        "seconds": 900.231994083,
+        "square": "AROT7WH63C95S8UVIMDXB21Q40PNZELFKYGJ",
+        "loss": [
+          0,
+          4,
+          39,
+          51,
+          149
+        ],
+        "fill": "AGXDD",
+        "plaintext": "WIRHABENDENBEFEHLERHALTENUNDWERDENDIEMANNSCHAFTNOCHHEUTEZURUECKSENDENXBITTEANWEISUNGE"
+      },
+      "completed_proposals": 14910000,
+      "completed_restarts": 497,
+      "elapsed_seconds": 900.6849799109987,
+      "original_output_sha256": "8cf615ee0ea43ac8038317429d15591e45a67b8282db9a8635fdc39d7dcfe13a",
+      "accepted_historical_reading": false,
+      "control": {
+        "correct_characters": 85,
+        "length": 85,
+        "exact_plaintext": true
+      }
+    }
+  ],
+  "pending": [
+    "broad_partial/historical_Nov28-Dec1_ordinary_letters",
+    "broad_partial/historical_Jul18",
+    "broad_partial/historical_Jul22",
+    "broad_partial/historical_Aug3",
+    "broad_partial/historical_Aug8-9",
+    "broad_partial/historical_Aug20",
+    "broad_partial/historical_NSA-undated-CHI-example-18",
+    "broad_partial/historical_TRUPPENVERSCHIEBUNG-2026-reported",
+    "broad_partial/historical_CHI-Nov8-2026-recovery"
+  ],
+  "batch_lineage": {
+    "pilot": {
+      "authors": "icekylinx and GPT-6 Astra Pro",
+      "method": "stochastic exact source-preserving loss/fill search with independent word segmentation"
+    },
+    "adaptive_weight2": {
+      "objective_weight_selection": "Original frozen Nov13b control still preferred wrong STAR/BETTE at1.5. Independent word-model truth advantage5.520346 makes weight2 prefer planted truth; selection is adaptive and disclosed."
+    },
+    "broad_partial": {
+      "schema": "adfgvx-word-loss-broad-pilot-v1",
+      "authors": "icekylinx and GPT-6 Astra Pro",
+      "created_utc": "2026-11-02",
+      "word_weight": 2.0,
+      "objective_lineage": "Weight2 was chosen adaptively from the older diagnostic, before these four new bodies and this wider historical batch. Earlier failed controls remain in the pilot record."
+    },
+    "unknown_square_controls": {
+      "purpose": "Matched full-unknown-square calibration before interpreting that historical branch"
+    }
+  }
+}

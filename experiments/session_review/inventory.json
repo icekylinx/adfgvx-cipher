@@ -1,0 +1,2100 @@
+{
+  "schema": "adfgvx-source-extension-review-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "baseline_commit": "ffc0c91e75b80e628524d665af9507f123fd664c",
+  "baseline_catalogue_sha256": "46c9bb3293eb01487ff3bb7951af105b2288bcb342d187044dba9ac514adb034",
+  "current_catalogue_sha256": "50784e7b1a7a51a8e4224a088cdaec21a6c6f25285d869b5049110a667630e75",
+  "challenge_entries_before": 22,
+  "challenge_entries_after": 22,
+  "other_source_records_before": 87,
+  "other_source_records_after": 195,
+  "new_source_reviewed_records": 108,
+  "removed_records": [],
+  "unchanged_core_files_sha256": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/messages.json": "1e4013252eb54065435ae1591abea729df8e40e482a6fe57165b512a9ba9c373"
+  },
+  "additions_by_case": [
+    {
+      "path": "cases/other/black_sea_shipping.md",
+      "count": 5,
+      "record_ids": [
+        "p199_A1",
+        "p199_A2",
+        "p199_A3",
+        "p200_B1",
+        "p200_B2"
+      ]
+    },
+    {
+      "path": "cases/other/breslau_staff_transfer.md",
+      "count": 2,
+      "record_ids": [
+        "p224_C1",
+        "p224_C2"
+      ]
+    },
+    {
+      "path": "cases/other/constantinople_civilians.md",
+      "count": 4,
+      "record_ids": [
+        "p221_B1",
+        "p221_B2",
+        "p221_B3",
+        "p221_B4"
+      ]
+    },
+    {
+      "path": "cases/other/corcovado_sale_terms.md",
+      "count": 6,
+      "record_ids": [
+        "p165_A1",
+        "p165_A2",
+        "p165_A3",
+        "p165_A5",
+        "p173_A1",
+        "p173_A2"
+      ]
+    },
+    {
+      "path": "cases/other/crown_cash_requests.md",
+      "count": 3,
+      "record_ids": [
+        "p219_A1",
+        "p219_A2",
+        "p219_B"
+      ]
+    },
+    {
+      "path": "cases/other/kiel_radio_control.md",
+      "count": 5,
+      "record_ids": [
+        "p140_A1",
+        "p140_A2",
+        "p140_A3",
+        "p140_A4",
+        "p146_A"
+      ]
+    },
+    {
+      "path": "cases/other/late_november_cipher_instructions.md",
+      "count": 5,
+      "record_ids": [
+        "p226_B2",
+        "p225_A",
+        "p227_B",
+        "p228_C1",
+        "p228_C2"
+      ]
+    },
+    {
+      "path": "cases/other/lei_note_exchange.md",
+      "count": 3,
+      "record_ids": [
+        "p223_A1",
+        "p223_A2",
+        "p223_A3"
+      ]
+    },
+    {
+      "path": "cases/other/mackensen_internment.md",
+      "count": 4,
+      "record_ids": [
+        "p226_C1",
+        "p226_C2",
+        "p226_C3",
+        "p227_A4"
+      ]
+    },
+    {
+      "path": "cases/other/naval_armistice_order.md",
+      "count": 5,
+      "record_ids": [
+        "p178_A1",
+        "p178_A2",
+        "p178_A3",
+        "p178_A4",
+        "p178_A5"
+      ]
+    },
+    {
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "count": 7,
+      "record_ids": [
+        "p190_A",
+        "p190_B",
+        "p190_D",
+        "p190_E",
+        "p193_A",
+        "p193_B",
+        "p194_B"
+      ]
+    },
+    {
+      "path": "cases/other/october_caucasus.md",
+      "count": 12,
+      "record_ids": [
+        "p69_B1",
+        "p69_B2",
+        "p70_A1",
+        "p70_A2",
+        "p72_A1",
+        "p72_A2",
+        "p72_A3",
+        "p72_B",
+        "p71_A1",
+        "p69_A",
+        "p68_A1",
+        "p68_A2"
+      ]
+    },
+    {
+      "path": "cases/other/october_requests.md",
+      "count": 4,
+      "record_ids": [
+        "p62_A",
+        "p62_B",
+        "p63_A",
+        "p65_A"
+      ]
+    },
+    {
+      "path": "cases/other/october_staffing.md",
+      "count": 6,
+      "record_ids": [
+        "p66_A",
+        "p66_B",
+        "p66_C1",
+        "p67_A2",
+        "p67_B",
+        "p67_C"
+      ]
+    },
+    {
+      "path": "cases/other/p163_A.md",
+      "count": 5,
+      "record_ids": [
+        "p163_A13",
+        "p163_A14",
+        "p163_A15",
+        "p163_A17",
+        "p163_A18"
+      ]
+    },
+    {
+      "path": "cases/other/p164_B.md",
+      "count": 1,
+      "record_ids": [
+        "p164_B"
+      ]
+    },
+    {
+      "path": "cases/other/p180_A.md",
+      "count": 1,
+      "record_ids": [
+        "p180_A3"
+      ]
+    },
+    {
+      "path": "cases/other/p187_D.md",
+      "count": 1,
+      "record_ids": [
+        "p187_D1"
+      ]
+    },
+    {
+      "path": "cases/other/p191_A.md",
+      "count": 2,
+      "record_ids": [
+        "p191_A1",
+        "p191_A2"
+      ]
+    },
+    {
+      "path": "cases/other/p200_A.md",
+      "count": 1,
+      "record_ids": [
+        "p200_A"
+      ]
+    },
+    {
+      "path": "cases/other/p210_A.md",
+      "count": 2,
+      "record_ids": [
+        "p210_A1",
+        "p210_A2"
+      ]
+    },
+    {
+      "path": "cases/other/p210_B.md",
+      "count": 1,
+      "record_ids": [
+        "p210_B"
+      ]
+    },
+    {
+      "path": "cases/other/p210_D.md",
+      "count": 1,
+      "record_ids": [
+        "p210_D"
+      ]
+    },
+    {
+      "path": "cases/other/p217_A.md",
+      "count": 5,
+      "record_ids": [
+        "p217_A1",
+        "p217_A2",
+        "p217_A3",
+        "p217_A4",
+        "p217_A5"
+      ]
+    },
+    {
+      "path": "cases/other/p230_A.md",
+      "count": 2,
+      "record_ids": [
+        "p230_A3",
+        "p230_A4"
+      ]
+    },
+    {
+      "path": "cases/other/p84_AB.md",
+      "count": 2,
+      "record_ids": [
+        "p84_A",
+        "p84_B"
+      ]
+    },
+    {
+      "path": "cases/other/p92_A.md",
+      "count": 1,
+      "record_ids": [
+        "p92_A"
+      ]
+    },
+    {
+      "path": "cases/other/richter_aleppo.md",
+      "count": 2,
+      "record_ids": [
+        "p203_C",
+        "p210_C"
+      ]
+    },
+    {
+      "path": "cases/other/tiflis_appointment.md",
+      "count": 3,
+      "record_ids": [
+        "p192_2",
+        "p192_3",
+        "p199_B1"
+      ]
+    },
+    {
+      "path": "cases/other/turkish_tonnage.md",
+      "count": 3,
+      "record_ids": [
+        "p177_B1",
+        "p177_B2",
+        "p177_B3"
+      ]
+    },
+    {
+      "path": "cases/other/warsaw_service_messages.md",
+      "count": 4,
+      "record_ids": [
+        "p192_A",
+        "p192_B",
+        "p194_C",
+        "p194_E"
+      ]
+    }
+  ],
+  "added_records_with_original_status_and_credit": [
+    {
+      "id": "p92_A",
+      "label": "p92 A",
+      "printed_page": 92,
+      "source_section": "A",
+      "subject": "Dutch courier Vreede to travel via Braila to Constantinople",
+      "status": "214/214 raw positions; one explicit word repair",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p92_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_recovery/inputs.json",
+        "experiments/corpus_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p203_C",
+      "label": "p203 C",
+      "printed_page": 203,
+      "source_section": "C",
+      "subject": "Inquiry about Richter at the Aleppo radio park",
+      "status": "93/96 raw positions; postal digits remain coupled and unknown",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/richter_aleppo.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_recovery/inputs.json",
+        "experiments/corpus_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p210_A1",
+      "label": "p210 A1",
+      "printed_page": 210,
+      "source_section": "A1",
+      "subject": "Helsinki: confirm return transport for the Ostsee Division",
+      "status": "93/93 raw positions; one adjacent-coordinate swap",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p210_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_recovery/inputs.json",
+        "experiments/corpus_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p210_A2",
+      "label": "p210 A2",
+      "printed_page": 210,
+      "source_section": "A2",
+      "subject": "Ships may be sent; identify a suitable embarkation port",
+      "status": "115/115 raw positions; two explicit substitutions",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p210_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_recovery/inputs.json",
+        "experiments/corpus_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p210_B",
+      "label": "p210 B",
+      "printed_page": 210,
+      "source_section": "B",
+      "subject": "End of Consul Burkhardt's oil-company assignment",
+      "status": "158/158 raw positions; five word repairs; date labels literal",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p210_B.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_recovery/inputs.json",
+        "experiments/corpus_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p210_C",
+      "label": "p210 C",
+      "printed_page": 210,
+      "source_section": "C",
+      "subject": "Fuller inquiry about NCO Kurt Richter in Aleppo",
+      "status": "201/204 raw positions; six substitutions and three fills",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/richter_aleppo.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_recovery/inputs.json",
+        "experiments/corpus_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p210_D",
+      "label": "p210 D",
+      "printed_page": 210,
+      "source_section": "D",
+      "subject": "Request for a report on the situation in Reval",
+      "status": "58/58 raw positions; one explicit word repair",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p210_D.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_recovery/inputs.json",
+        "experiments/corpus_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p84_A",
+      "label": "p84 A",
+      "printed_page": 84,
+      "source_section": "A",
+      "subject": "Ask whether Izzet Pasha's order to release oil succeeded",
+      "status": "122/122 raw positions; unchanged source roundtrip",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p84_AB.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_recovery/inputs.json",
+        "experiments/corpus_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p84_B",
+      "label": "p84 B",
+      "printed_page": 84,
+      "source_section": "B",
+      "subject": "Request daily Black Sea shipping-safety reports for the Caucasus command",
+      "status": "101/101 raw positions; unchanged source roundtrip",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p84_AB.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_recovery/inputs.json",
+        "experiments/corpus_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p140_A1",
+      "label": "p140 A1",
+      "printed_page": 140,
+      "source_section": "A1",
+      "subject": "Take immediate officer control of all radio stations",
+      "status": "56/56 raw positions; separately costed word repairs",
+      "credit": "Prior body: Childs and Lasry et al.; source edition: icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/kiel_radio_control.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p140_A2",
+      "label": "p140 A2",
+      "printed_page": 140,
+      "source_section": "A2",
+      "subject": "Prevent reception and distribution of Kiel messages",
+      "status": "65/67 raw positions; separately costed word repairs",
+      "credit": "Prior body: Childs and Lasry et al.; source edition: icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/kiel_radio_control.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p140_A3",
+      "label": "p140 A3",
+      "printed_page": 140,
+      "source_section": "A3",
+      "subject": "Confiscate and destroy Kiel texts already received",
+      "status": "47/51 raw positions; separately costed word repairs",
+      "credit": "Prior body: Childs and Lasry et al.; source edition: icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/kiel_radio_control.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p140_A4",
+      "label": "p140 A4",
+      "printed_page": 140,
+      "source_section": "A4",
+      "subject": "Urgent handling of the Kiel radio-control order",
+      "status": "45/49 raw positions; separately costed word repairs",
+      "credit": "Prior body: Childs and Lasry et al.; source edition: icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/kiel_radio_control.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p146_A",
+      "label": "p146 A",
+      "printed_page": 146,
+      "source_section": "A",
+      "subject": "Repeat order placing radio stations under officer control",
+      "status": "51/56 raw positions after explicit five-coordinate deletion",
+      "credit": "Prior body: Childs and Lasry et al.; source edition: icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/kiel_radio_control.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p226_B2",
+      "label": "p226 B2",
+      "printed_page": 226,
+      "source_section": "B2",
+      "subject": "Numerical sequences read backward; missing first part",
+      "status": "104/104 raw positions; separately costed word repairs",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/late_november_cipher_instructions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p226_C1",
+      "label": "p226 C1",
+      "printed_page": 226,
+      "source_section": "C1",
+      "subject": "Mackensen internment: Entente demands and withdrawal assurances",
+      "status": "172/172 raw positions; separately costed word repairs",
+      "credit": "Prior body: Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/mackensen_internment.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p226_C2",
+      "label": "p226 C2",
+      "printed_page": 226,
+      "source_section": "C2",
+      "subject": "Internment explained as a response to continued marching orders",
+      "status": "162/162 raw positions; separately costed word repairs",
+      "credit": "Prior body: Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/mackensen_internment.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p226_C3",
+      "label": "p226 C3",
+      "printed_page": 226,
+      "source_section": "C3",
+      "subject": "Promise of decent internment conditions and eventual return",
+      "status": "168/169 raw positions under local group-length repair",
+      "credit": "Prior body: Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/mackensen_internment.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p227_A4",
+      "label": "p227 A4",
+      "printed_page": 227,
+      "source_section": "A4",
+      "subject": "Preserve calm and order during Mackensen internment",
+      "status": "196/196 raw positions; separately costed word repairs",
+      "credit": "Prior body: Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/mackensen_internment.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p225_A",
+      "label": "p225 A",
+      "printed_page": 225,
+      "source_section": "A",
+      "subject": "November key material retained because December tables are absent",
+      "status": "110/116 raw positions",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/late_november_cipher_instructions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p227_B",
+      "label": "p227 B",
+      "printed_page": 227,
+      "source_section": "B",
+      "subject": "Send telegrams for the army and subordinate formations directly",
+      "status": "76/76 raw positions; separately costed word repairs",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/late_november_cipher_instructions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p228_C1",
+      "label": "p228 C1",
+      "printed_page": 228,
+      "source_section": "C1",
+      "subject": "December key agreement involving UKS, ZOEN and BSL",
+      "status": "88/88 raw positions",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/late_november_cipher_instructions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p228_C2",
+      "label": "p228 C2",
+      "printed_page": 228,
+      "source_section": "C2",
+      "subject": "Use the same key in BSL–UKS traffic; UKS agrees",
+      "status": "72/72 raw positions",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/late_november_cipher_instructions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corpus_extension/inputs.json",
+        "experiments/corpus_extension/certificates.json"
+      ]
+    },
+    {
+      "id": "p163_A13",
+      "label": "p163 A13",
+      "printed_page": 163,
+      "source_section": "A13",
+      "subject": "Keep Crajova and Bucharest occupied until final evacuation",
+      "status": "126/134 raw positions; ten substitutions and six fills; opening unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p163_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/withdrawal_recovery/inputs.json",
+        "experiments/withdrawal_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p163_A14",
+      "label": "p163 A14",
+      "printed_page": 163,
+      "source_section": "A14",
+      "subject": "Final evacuation in one move; retain the Bucharest garrison",
+      "status": "121/122 raw positions; five substitutions and one fill",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p163_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/withdrawal_recovery/inputs.json",
+        "experiments/withdrawal_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p163_A15",
+      "label": "p163 A15",
+      "printed_page": 163,
+      "source_section": "A15",
+      "subject": "Conditional garrison transfer to corps headquarters and Scholtz",
+      "status": "36/117 raw positions; 91-position prefix needs two substitutions and 63 fills",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p163_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/withdrawal_recovery/inputs.json",
+        "experiments/withdrawal_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p163_A17",
+      "label": "p163 A17",
+      "printed_page": 163,
+      "source_section": "A17",
+      "subject": "Danube vessels and Scholtz headquarters movement to Calimanesti",
+      "status": "125/132 raw positions; sixteen substitutions and six fills",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p163_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/withdrawal_recovery/inputs.json",
+        "experiments/withdrawal_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p163_A18",
+      "label": "p163 A18",
+      "printed_page": 163,
+      "source_section": "A18",
+      "subject": "Headquarters moves to Hermannstadt, Kronstadt and Sinaia",
+      "status": "131/155 raw positions; twenty-one substitutions and 24 fills",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p163_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/withdrawal_recovery/inputs.json",
+        "experiments/withdrawal_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p164_B",
+      "label": "p164 B",
+      "printed_page": 164,
+      "source_section": "B",
+      "subject": "Dismantle the station and resume calls after reaching Temesvar",
+      "status": "69/70 raw positions; two substitutions; 0500 is a separate digit inference",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p164_B.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/withdrawal_recovery/inputs.json",
+        "experiments/withdrawal_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p69_B1",
+      "label": "p69 B1",
+      "printed_page": 69,
+      "source_section": "B1",
+      "subject": "Violetta cargo from Braila for Poti",
+      "status": "Conditional one-slot recovery; quantity fields retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_caucasus.md#p69-b--violettas-cargo-from-braila-to-poti",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_caucasus/inputs.json",
+        "experiments/october_caucasus/certificates.json"
+      ]
+    },
+    {
+      "id": "p69_B2",
+      "label": "p69 B2",
+      "printed_page": 69,
+      "source_section": "B2",
+      "subject": "Additional wagons for the troops at Poti",
+      "status": "Two minimum-cost short-group repairs; complete proposed continuation",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_caucasus.md#p69-b--violettas-cargo-from-braila-to-poti",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_caucasus/inputs.json",
+        "experiments/october_caucasus/certificates.json"
+      ]
+    },
+    {
+      "id": "p70_A1",
+      "label": "p70 A1",
+      "printed_page": 70,
+      "source_section": "A1",
+      "subject": "Westernhagen asked for the market report and price context",
+      "status": "Two visible repeated groups removed conditionally; 156/161 raw positions",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_caucasus.md#p70-a--westernhagen-price-limits-and-an-urgent-return",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_caucasus/inputs.json",
+        "experiments/october_caucasus/certificates.json"
+      ]
+    },
+    {
+      "id": "p70_A2",
+      "label": "p70 A2",
+      "printed_page": 70,
+      "source_section": "A2",
+      "subject": "Urgent personal discussion and accelerated return",
+      "status": "121/123 raw positions at actual length 246; header says 256",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_caucasus.md#p70-a--westernhagen-price-limits-and-an-urgent-return",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_caucasus/inputs.json",
+        "experiments/october_caucasus/certificates.json"
+      ]
+    },
+    {
+      "id": "p72_A1",
+      "label": "p72 A1",
+      "printed_page": 72,
+      "source_section": "A1",
+      "subject": "OHL reinforcement order for the delegation to Kress",
+      "status": "Printed 25-coordinate strikeout applied; 88/89 raw positions",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_caucasus.md#p72-a--reinforcements-administrative-personnel-and-money-for-kress",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_caucasus/inputs.json",
+        "experiments/october_caucasus/certificates.json"
+      ]
+    },
+    {
+      "id": "p72_A2",
+      "label": "p72 A2",
+      "printed_page": 72,
+      "source_section": "A2",
+      "subject": "Administrative personnel except garrison officials",
+      "status": "Two 25-slot near-duplicate alternatives; 108/113 positions common",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_caucasus.md#p72-a--reinforcements-administrative-personnel-and-money-for-kress",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_caucasus/inputs.json",
+        "experiments/october_caucasus/certificates.json"
+      ]
+    },
+    {
+      "id": "p72_A3",
+      "label": "p72 A3",
+      "printed_page": 72,
+      "source_section": "A3",
+      "subject": "Personnel will be supplied; necessary funds secured",
+      "status": "60/62 raw positions; explicit word repairs",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_caucasus.md#p72-a--reinforcements-administrative-personnel-and-money-for-kress",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_caucasus/inputs.json",
+        "experiments/october_caucasus/certificates.json"
+      ]
+    },
+    {
+      "id": "p72_B",
+      "label": "p72 B",
+      "printed_page": 72,
+      "source_section": "B",
+      "subject": "Radio timings and reception at Poti",
+      "status": "136/137 raw positions; proposed time and wavelength repairs explicit",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_caucasus.md#p72-b--radio-timings-and-reception",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_caucasus/inputs.json",
+        "experiments/october_caucasus/certificates.json"
+      ]
+    },
+    {
+      "id": "p71_A1",
+      "label": "p71 A1",
+      "printed_page": 71,
+      "source_section": "A1",
+      "subject": "Machine sets and converter dispatched to Tiflis",
+      "status": "Source-preserving edition; 20-kW digit remains conditional",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_caucasus.md#p71-a1--electrical-equipment-sent-to-tiflis",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_caucasus/inputs.json",
+        "experiments/october_caucasus/certificates.json"
+      ]
+    },
+    {
+      "id": "p180_A3",
+      "label": "p180 A3",
+      "printed_page": 180,
+      "source_section": "A3",
+      "subject": "Enemy follows withdrawal near Giurgiu; Braila and Focsani evacuated",
+      "status": "77/78 raw positions; nine substitutions and one fill",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p180_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/operational_recovery/inputs.json",
+        "experiments/operational_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p217_A1",
+      "label": "p217 A1",
+      "printed_page": 217,
+      "source_section": "A1",
+      "subject": "Scholtz divisions march into the assembly area",
+      "status": "114/114 baseline positions; unit-number interpretation separate",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p217_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/operational_recovery/inputs.json",
+        "experiments/operational_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p217_A2",
+      "label": "p217 A2",
+      "printed_page": 217,
+      "source_section": "A2",
+      "subject": "Coal shortages stop transport; troop locations near Oroshaza",
+      "status": "120/120 baseline positions; unit-number interpretation separate",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p217_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/operational_recovery/inputs.json",
+        "experiments/operational_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p217_A3",
+      "label": "p217 A3",
+      "printed_page": 217,
+      "source_section": "A3",
+      "subject": "Army headquarters at Szolnok; battalions apparently misdirected",
+      "status": "114/114 baseline positions; place and numerical fields unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p217_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/operational_recovery/inputs.json",
+        "experiments/operational_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p217_A4",
+      "label": "p217 A4",
+      "printed_page": 217,
+      "source_section": "A4",
+      "subject": "Czechs demand disarmament before troop transit",
+      "status": "98/98 raw positions; two word repairs",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p217_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/operational_recovery/inputs.json",
+        "experiments/operational_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p217_A5",
+      "label": "p217 A5",
+      "printed_page": 217,
+      "source_section": "A5",
+      "subject": "Massow in Budapest asked to clarify transit and disarmament",
+      "status": "61/61 raw positions; two word repairs; reference unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p217_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/operational_recovery/inputs.json",
+        "experiments/operational_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p230_A3",
+      "label": "p230 A3",
+      "printed_page": 230,
+      "source_section": "A3",
+      "subject": "Division locations near Hermannstadt and Muehlbach",
+      "status": "116/116 baseline positions; seven substitutions; conditional unit labels",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p230_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/operational_recovery/inputs.json",
+        "experiments/operational_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p230_A4",
+      "label": "p230 A4",
+      "printed_page": 230,
+      "source_section": "A4",
+      "subject": "Forces near Kronstadt and Fogaras; OKM headquarters moves",
+      "status": "115/115 baseline positions; one substitution; conditional unit labels",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p230_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/operational_recovery/inputs.json",
+        "experiments/operational_recovery/certificates.json"
+      ]
+    },
+    {
+      "id": "p190_A",
+      "label": "p190 A",
+      "printed_page": 190,
+      "source_section": "A",
+      "subject": "Pilot representative of the Warsaw soldiers’ council arrives in Berlin",
+      "status": "117/118 raw positions; cross-key comparison",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p190_B",
+      "label": "p190 B",
+      "printed_page": 190,
+      "source_section": "B",
+      "subject": "Request a backup station for NKJ; Sevastopol proposed",
+      "status": "82/88 raw positions; cross-key comparison",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p190_D",
+      "label": "p190 D",
+      "printed_page": 190,
+      "source_section": "D",
+      "subject": "Ask whether NKJ relays Mackensen messages and how contact is maintained",
+      "status": "92/93 raw positions; cross-key comparison",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p190_E",
+      "label": "p190 E",
+      "printed_page": 190,
+      "source_section": "E",
+      "subject": "Request a backup station for NKJ; Sevastopol proposed",
+      "status": "82/88 raw positions; cross-key comparison",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p193_A",
+      "label": "p193 A",
+      "printed_page": 193,
+      "source_section": "A",
+      "subject": "Ask whether NKJ relays Mackensen messages and how contact is maintained",
+      "status": "94/94 candidate letters independently witnessed across the pair",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p193_B",
+      "label": "p193 B",
+      "printed_page": 193,
+      "source_section": "B",
+      "subject": "Interrupted pilot-arrival notice; exact suffix of p194 B",
+      "status": "85 missing coordinates and 85 raw letters restored by independent copy",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p194_B",
+      "label": "p194 B",
+      "printed_page": 194,
+      "source_section": "B",
+      "subject": "Pilot representative of the Warsaw soldiers’ council arrives in Berlin",
+      "status": "139/140 raw positions; cross-key comparison",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/nov14_radio_retransmissions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov14_retransmissions/inputs.json",
+        "experiments/nov14_retransmissions/certificates.json"
+      ]
+    },
+    {
+      "id": "p187_D1",
+      "label": "p187 D1",
+      "printed_page": 187,
+      "source_section": "D1",
+      "subject": "Aircraft connection to Mackensen impossible for technical reasons",
+      "status": "76-character suffix under a five-loss model; two substitutions; opening references unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p187_D.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/aviation_connection/inputs.json",
+        "experiments/aviation_connection/certificate.json"
+      ]
+    },
+    {
+      "id": "p69_A",
+      "label": "p69 A",
+      "status": "Repaired reading; repeated surname provisionally Tellner",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "subject": "Liaison officer dispatched from Army Group Kiev to Tiflis",
+      "path": "cases/other/october_caucasus.md#p69-a--a-liaison-officer-from-army-group-kiev",
+      "printed_page": 69,
+      "source_section": "A",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_caucasus/inputs.json",
+        "experiments/october_caucasus/certificates.json"
+      ]
+    },
+    {
+      "id": "p68_A1",
+      "label": "p68 A1",
+      "status": "Provisional; 24 known-coordinate substitutions; damaged reference open",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "subject": "Kress procurement message; proposed dispatch of two officers",
+      "path": "cases/other/october_caucasus.md#p68-a--provisional-procurement-text-carrying-chi-labels",
+      "printed_page": 68,
+      "source_section": "A part 1",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_caucasus/inputs.json",
+        "experiments/october_caucasus/certificates.json"
+      ]
+    },
+    {
+      "id": "p68_A2",
+      "label": "p68 A2",
+      "status": "Partial: 21/93 positions proposed; remaining 72 unasserted",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "subject": "Artillery-ammunition opening only",
+      "path": "cases/other/october_caucasus.md#p68-a--provisional-procurement-text-carrying-chi-labels",
+      "printed_page": 68,
+      "source_section": "A part 2",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_caucasus/inputs.json",
+        "experiments/october_caucasus/certificates.json"
+      ]
+    },
+    {
+      "id": "p192_2",
+      "label": "p192 part 2",
+      "printed_page": 192,
+      "source_section": "Unheaded 2 TL",
+      "subject": "Appointment of a Polish representative for the Caucasus",
+      "status": "115/115 raw positions; ordinary word and country spelling separately costed",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/tiflis_appointment.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/tiflis_appointment/inputs.json",
+        "experiments/tiflis_appointment/certificates.json"
+      ]
+    },
+    {
+      "id": "p192_3",
+      "label": "p192 part 3",
+      "printed_page": 192,
+      "source_section": "Unheaded 3 TL",
+      "subject": "Appointment instructions sent through a courier; conditional TYDELSKI identification",
+      "status": "Unique five-coordinate gap; 114/116 after word repairs; conditional FX=Y",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/tiflis_appointment.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/tiflis_appointment/inputs.json",
+        "experiments/tiflis_appointment/certificates.json"
+      ]
+    },
+    {
+      "id": "p192_A",
+      "label": "p192 A",
+      "printed_page": 192,
+      "source_section": "A",
+      "subject": "Request to Kretzschmar in Bucharest about conditions, prospects and commercial interests",
+      "status": "171/175 raw positions; one overstrike fill; three reference cells unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/warsaw_service_messages.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/warsaw_service_messages/inputs.json",
+        "experiments/warsaw_service_messages/certificates.json"
+      ]
+    },
+    {
+      "id": "p192_B",
+      "label": "p192 B",
+      "printed_page": 192,
+      "source_section": "B",
+      "subject": "LP forwarding important messages for home offices and OHL in both directions",
+      "status": "267/268 source geometry; two tied single-coordinate gap fits; no valid coordinate changed",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/warsaw_service_messages.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/warsaw_service_messages/inputs.json",
+        "experiments/warsaw_service_messages/certificates.json"
+      ]
+    },
+    {
+      "id": "p194_C",
+      "label": "p194 C",
+      "printed_page": 194,
+      "source_section": "C",
+      "subject": "Urgent inquiry about Army Group Kiev’s chosen march route",
+      "status": "111/112 raw positions; two ordinary-word repairs; C? segment unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/warsaw_service_messages.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/warsaw_service_messages/inputs.json",
+        "experiments/warsaw_service_messages/certificates.json"
+      ]
+    },
+    {
+      "id": "p194_E",
+      "label": "p194 E",
+      "printed_page": 194,
+      "source_section": "E",
+      "subject": "FRANZ and EMIL control markers for Warsaw soldiers’ council telegrams",
+      "status": "119/120 raw positions; one invalid-coordinate fill; original omitted R retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/warsaw_service_messages.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/warsaw_service_messages/inputs.json",
+        "experiments/warsaw_service_messages/certificates.json"
+      ]
+    },
+    {
+      "id": "p178_A1",
+      "label": "p178 part 1",
+      "printed_page": 178,
+      "source_section": "Five-part naval order, 1 TL",
+      "subject": "Immediate forwarding to all naval forces",
+      "status": "Prior body; 119/119 raw; one explicit coordinate repair",
+      "credit": "Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro",
+      "path": "cases/other/naval_armistice_order.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/naval_armistice_order/inputs.json",
+        "experiments/naval_armistice_order/certificates.json"
+      ]
+    },
+    {
+      "id": "p178_A2",
+      "label": "p178 part 2",
+      "printed_page": 178,
+      "source_section": "Five-part naval order, 2 TL (printed B)",
+      "subject": "Armistice at noon 11 November; cease all war actions",
+      "status": "Prior body; short VXDX group repaired; 154/155 raw",
+      "credit": "Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro",
+      "path": "cases/other/naval_armistice_order.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/naval_armistice_order/inputs.json",
+        "experiments/naval_armistice_order/certificates.json"
+      ]
+    },
+    {
+      "id": "p178_A3",
+      "label": "p178 part 3",
+      "printed_page": 178,
+      "source_section": "Five-part naval order, 3 TL",
+      "subject": "Assemble at bases; send enciphered notice to U-boats",
+      "status": "Prior body; short AFGA group repaired; 137/140 raw",
+      "credit": "Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro",
+      "path": "cases/other/naval_armistice_order.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/naval_armistice_order/inputs.json",
+        "experiments/naval_armistice_order/certificates.json"
+      ]
+    },
+    {
+      "id": "p178_A4",
+      "label": "p178 part 4",
+      "printed_page": 178,
+      "source_section": "Five-part naval order, 4 TL",
+      "subject": "Enemy attacks may continue; weapons only for self-defense",
+      "status": "Prior body; 288 counted coordinates; ambiguous printed length retained",
+      "credit": "Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro",
+      "path": "cases/other/naval_armistice_order.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/naval_armistice_order/inputs.json",
+        "experiments/naval_armistice_order/certificates.json"
+      ]
+    },
+    {
+      "id": "p178_A5",
+      "label": "p178 part 5",
+      "printed_page": 178,
+      "source_section": "Five-part naval order, 5 TL",
+      "subject": "Requested passage through neutral waters and receipt acknowledgments",
+      "status": "Prior body; 158/161 raw; two distinct unresolved reference digits",
+      "credit": "Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro",
+      "path": "cases/other/naval_armistice_order.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/naval_armistice_order/inputs.json",
+        "experiments/naval_armistice_order/certificates.json"
+      ]
+    },
+    {
+      "id": "p199_B1",
+      "label": "p199 unlettered part 1",
+      "printed_page": 199,
+      "source_section": "Unlettered 1 TL, following A)",
+      "subject": "Forwarding a Polish appointment telegram through von Kress to Waclaw v. Ostrowski in Tiflis",
+      "status": "131-position source preamble; uniquely placed floating group; two reference cells unresolved; cross-page association explicit",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/tiflis_appointment.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/tiflis_appointment/inputs.json",
+        "experiments/tiflis_appointment/certificates.json"
+      ]
+    },
+    {
+      "id": "p199_A1",
+      "label": "p199 A1",
+      "printed_page": 199,
+      "source_section": "A1",
+      "subject": "Feigenhaus 618: Herkules report of incoming steamers and a garbled cocoa cargo description",
+      "status": "Prior body identification; One surplus coordinate in six-letter group; three broad tied fits retained; 145/146 raw",
+      "credit": "Lasry, Niebel, Kopal and Wacker (2016); source audit by icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/black_sea_shipping.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/black_sea_shipping/inputs.json",
+        "experiments/black_sea_shipping/certificates.json"
+      ]
+    },
+    {
+      "id": "p199_A2",
+      "label": "p199 A2",
+      "printed_page": 199,
+      "source_section": "A2",
+      "subject": "Goods remain aboard under military guard; coded supply terms retained",
+      "status": "Prior body identification; 171/172 raw; two coordinate repairs yield a complete body",
+      "credit": "Lasry, Niebel, Kopal and Wacker (2016); source audit by icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/black_sea_shipping.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/black_sea_shipping/inputs.json",
+        "experiments/black_sea_shipping/certificates.json"
+      ]
+    },
+    {
+      "id": "p199_A3",
+      "label": "p199 A3",
+      "printed_page": 199,
+      "source_section": "A3",
+      "subject": "Concern over the recipient’s intentions; Reichsversorgung and Admiralstab ending",
+      "status": "Prior body identification; Five tied single-loss models; shared 92-character ordinary body; footer remains conditional",
+      "credit": "Lasry, Niebel, Kopal and Wacker (2016); source audit by icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/black_sea_shipping.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/black_sea_shipping/inputs.json",
+        "experiments/black_sea_shipping/certificates.json"
+      ]
+    },
+    {
+      "id": "p200_B1",
+      "label": "p200 B1",
+      "printed_page": 200,
+      "source_section": "B1",
+      "subject": "Order to halt CORCOWADO sale or ownership transfer to Turkey",
+      "status": "195/197 raw; three substitutions and one invalid-glyph fill yield a complete body",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/black_sea_shipping.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/black_sea_shipping/inputs.json",
+        "experiments/black_sea_shipping/certificates.json"
+      ]
+    },
+    {
+      "id": "p200_B2",
+      "label": "p200 B2",
+      "printed_page": 200,
+      "source_section": "B2",
+      "subject": "Ship sale conditional on cash payment in Germany before ownership transfer",
+      "status": "174/180 raw; two source-erasure fills; four reference symbols unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/black_sea_shipping.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/black_sea_shipping/inputs.json",
+        "experiments/black_sea_shipping/certificates.json"
+      ]
+    },
+    {
+      "id": "p200_A",
+      "label": "p200 A",
+      "printed_page": 200,
+      "source_section": "A",
+      "subject": "Siedlce and Minsk Maziowicki garrisons reach Thorn; Battalion Ostrowo whereabouts unknown",
+      "status": "165-position edition; eleven coordinate substitutions and one dash fill explicit",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p200_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/siedlce_withdrawal/inputs.json",
+        "experiments/siedlce_withdrawal/certificate.json"
+      ]
+    },
+    {
+      "id": "p66_A",
+      "label": "p66 A",
+      "printed_page": 66,
+      "source_section": "A",
+      "subject": "Abbreviated Tiflis mounted-unit and location response",
+      "status": "95/95 raw positions; no repair; unit abbreviations retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_staffing.md#p66-a--an-abbreviated-tiflis-unit-response",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_staffing/inputs.json",
+        "experiments/october_staffing/certificates.json"
+      ]
+    },
+    {
+      "id": "p66_B",
+      "label": "p66 B",
+      "printed_page": 66,
+      "source_section": "B",
+      "subject": "Leading medical officer asked to repeat a garbled telegram",
+      "status": "142/142 raw positions; two explicit coordinate substitutions",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_staffing.md#p66-b--repeat-the-garbled-medical-telegram",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_staffing/inputs.json",
+        "experiments/october_staffing/certificates.json"
+      ]
+    },
+    {
+      "id": "p66_C1",
+      "label": "p66 C1",
+      "printed_page": 66,
+      "source_section": "C1",
+      "subject": "Graf von Seyboltstorff ordered to the 4th Bavarian Cavalry Brigade",
+      "status": "143/143 raw positions; one surname-ending coordinate repair; both unit numerals 4 direct",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_staffing.md#p66-c1-and-p67-a2--bavarian-command-appointments",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_staffing/inputs.json",
+        "experiments/october_staffing/certificates.json"
+      ]
+    },
+    {
+      "id": "p67_A2",
+      "label": "p67 A2",
+      "printed_page": 67,
+      "source_section": "A2",
+      "subject": "Karl von Grundherr designated as replacement in the Caucasus delegation order",
+      "status": "110/110 raw positions; one explicit word repair; reference retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_staffing.md#p66-c1-and-p67-a2--bavarian-command-appointments",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_staffing/inputs.json",
+        "experiments/october_staffing/certificates.json"
+      ]
+    },
+    {
+      "id": "p67_B",
+      "label": "p67 B",
+      "printed_page": 67,
+      "source_section": "B",
+      "subject": "Further manganese-ore purchases suspended",
+      "status": "110/112 raw positions; two erasure fills; surname first letter conditional",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_staffing.md#p67-b--suspend-further-manganese-ore-purchases",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_staffing/inputs.json",
+        "experiments/october_staffing/certificates.json"
+      ]
+    },
+    {
+      "id": "p67_C",
+      "label": "p67 C",
+      "printed_page": 67,
+      "source_section": "C",
+      "subject": "Travel-telegram acknowledgment and separate clear service instruction",
+      "status": "30/30 raw positions; no repair; clear postscript separated from ciphertext",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_staffing.md#p67-c--telegram-acknowledgment-and-a-separate-clear-instruction",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_staffing/inputs.json",
+        "experiments/october_staffing/certificates.json"
+      ]
+    },
+    {
+      "id": "p165_A1",
+      "label": "p165 A1",
+      "printed_page": 165,
+      "source_section": "A1",
+      "subject": "Proposed Corcovado sale for Hamburg-Amerika Line; directly observed 10 million hull price",
+      "status": "190/190 raw; two observed-coordinate repairs; currency unstated",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately",
+      "path": "cases/other/corcovado_sale_terms.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corcovado_sale_terms/inputs.json",
+        "experiments/corcovado_sale_terms/certificates.json"
+      ]
+    },
+    {
+      "id": "p165_A2",
+      "label": "p165 A2",
+      "printed_page": 165,
+      "source_section": "A2",
+      "subject": "Corcovado inventory valuation, as-is condition, exclusions and seizure risk",
+      "status": "227/229 raw; four coordinate substitutions and two source-erasure fills",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately",
+      "path": "cases/other/corcovado_sale_terms.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corcovado_sale_terms/inputs.json",
+        "experiments/corcovado_sale_terms/certificates.json"
+      ]
+    },
+    {
+      "id": "p165_A3",
+      "label": "p165 A3",
+      "printed_page": 165,
+      "source_section": "A3",
+      "subject": "Seizure risk, seven-month interest deadline and right of recovery for nonpayment",
+      "status": "190/190 raw; one observed-coordinate repair",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately",
+      "path": "cases/other/corcovado_sale_terms.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corcovado_sale_terms/inputs.json",
+        "experiments/corcovado_sale_terms/certificates.json"
+      ]
+    },
+    {
+      "id": "p165_A5",
+      "label": "p165 A5",
+      "printed_page": 165,
+      "source_section": "A5 (printed 5 TL)",
+      "subject": "Corcovado resale restrictions, transport of Germans and encrypted forwarding",
+      "status": "246/250 raw; three substitutions and two erasure fills; office digit separately conditional; literal part label 5 preserved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately",
+      "path": "cases/other/corcovado_sale_terms.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corcovado_sale_terms/inputs.json",
+        "experiments/corcovado_sale_terms/certificates.json"
+      ]
+    },
+    {
+      "id": "p173_A1",
+      "label": "p173 A1",
+      "printed_page": 173,
+      "source_section": "A1",
+      "subject": "Corcovado already has a Turkish crew; Mediterranean Division no longer in Nikolaev",
+      "status": "119/121 raw; six ordinary-word coordinate changes; office digit separately conditional; reference tail unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately",
+      "path": "cases/other/corcovado_sale_terms.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corcovado_sale_terms/inputs.json",
+        "experiments/corcovado_sale_terms/certificates.json"
+      ]
+    },
+    {
+      "id": "p173_A2",
+      "label": "p173 A2",
+      "printed_page": 173,
+      "source_section": "A2",
+      "subject": "Turkish captain; no radio communication with Constantinople",
+      "status": "79/80 raw; one coordinate substitution and one printed-dash fill",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately",
+      "path": "cases/other/corcovado_sale_terms.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/corcovado_sale_terms/inputs.json",
+        "experiments/corcovado_sale_terms/certificates.json"
+      ]
+    },
+    {
+      "id": "p191_A1",
+      "label": "p191 A1",
+      "printed_page": 191,
+      "source_section": "A1",
+      "subject": "Boots requested for Oderberg",
+      "status": "104/107 proposed positions; corps and quantity symbols unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p191_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/boots_request/inputs.json",
+        "experiments/boots_request/geometry_certificate.json",
+        "experiments/boots_request/certificate.json"
+      ]
+    },
+    {
+      "id": "p191_A2",
+      "label": "p191 A2",
+      "printed_page": 191,
+      "source_section": "A2",
+      "subject": "Heavy clothing on call; wire/radio reply requested",
+      "status": "Conditional full-group relocation; 92/93 proposed positions; connective unassigned",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/p191_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/boots_request/inputs.json",
+        "experiments/boots_request/geometry_certificate.json",
+        "experiments/boots_request/certificate.json"
+      ]
+    },
+    {
+      "id": "p177_B1",
+      "label": "p177 B1",
+      "printed_page": 177,
+      "source_section": "B1",
+      "subject": "Proposed sales of GENERAL and raw KERKIJRA only in an extreme emergency",
+      "status": "161/165 raw; three coordinate changes and one invalid-C fill; referred date separately conditional",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
+      "path": "cases/other/turkish_tonnage.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/turkish_tonnage/inputs.json",
+        "experiments/turkish_tonnage/certificates.json"
+      ]
+    },
+    {
+      "id": "p177_B2",
+      "label": "p177 B2",
+      "printed_page": 177,
+      "source_section": "B2",
+      "subject": "Warning that Turkey seeks tonnage rather than transport; immediate cash payment required",
+      "status": "146/148 raw; two tied source-supported loss positions give the same complete candidate",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
+      "path": "cases/other/turkish_tonnage.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/turkish_tonnage/inputs.json",
+        "experiments/turkish_tonnage/certificates.json"
+      ]
+    },
+    {
+      "id": "p177_B3",
+      "label": "p177 B3",
+      "printed_page": 177,
+      "source_section": "B3",
+      "subject": "Authorization required before sale; GENERAL 1200 marks and proposed KERKYRA 1000 marks per gross register ton",
+      "status": "183/187 raw; four coordinate repairs; office/reference digits separately conditional",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
+      "path": "cases/other/turkish_tonnage.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/turkish_tonnage/inputs.json",
+        "experiments/turkish_tonnage/certificates.json"
+      ]
+    },
+    {
+      "id": "p62_A",
+      "label": "p62 A",
+      "printed_page": 62,
+      "source_section": "A",
+      "subject": "Sofia leaves the Ringbahnverkehr; clear acknowledgment annotations retained",
+      "status": "62/62 raw positions; exact source frame; no repair",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_requests.md#p62-a--sofia-leaves-the-ringbahnverkehr",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_requests/inputs.json",
+        "experiments/october_requests/certificates.json"
+      ]
+    },
+    {
+      "id": "p62_B",
+      "label": "p62 B",
+      "printed_page": 62,
+      "source_section": "B",
+      "subject": "Date groups requested before weather-observation telegrams",
+      "status": "Conditional two-deletion layout; 91/93 raw positions; two known substitutions and two erasure fills",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_requests.md#p62-b--date-groups-before-weather-observation-telegrams",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_requests/inputs.json",
+        "experiments/october_requests/certificates.json"
+      ]
+    },
+    {
+      "id": "p63_A",
+      "label": "p63 A",
+      "printed_page": 63,
+      "source_section": "A",
+      "subject": "Partial inspector request with Kress agreement and Gemoll signature",
+      "status": "114/135 positions proposed; 21-character technical span unassigned; 12 substitutions and two fills",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_requests.md#p63-a--a-partially-readable-inspector-request",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_requests/inputs.json",
+        "experiments/october_requests/certificates.json"
+      ]
+    },
+    {
+      "id": "p65_A",
+      "label": "p65 A",
+      "printed_page": 65,
+      "source_section": "A",
+      "subject": "Westernhagen urged to return with a market report before purchases begin",
+      "status": "130/130 raw positions; five explicit coordinate repairs; literal 0 retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/other/october_requests.md#p65-a--accelerate-westernhagens-return",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/october_requests/inputs.json",
+        "experiments/october_requests/certificates.json"
+      ]
+    },
+    {
+      "id": "p221_B1",
+      "label": "p221 B1",
+      "printed_page": 221,
+      "source_section": "B1",
+      "subject": "Enquiry about German civilians, mainly women and children, reportedly leaving Constantinople; raw headcount 0YY",
+      "status": "148/149 raw; quantity-masked unique gap227; one word repair; numerical headcount unassigned",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
+      "path": "cases/other/constantinople_civilians.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/constantinople_civilians/inputs.json",
+        "experiments/constantinople_civilians/certificates.json",
+        "experiments/constantinople_civilians/historical_context.json"
+      ]
+    },
+    {
+      "id": "p221_B2",
+      "label": "p221 B2",
+      "printed_page": 221,
+      "source_section": "B2",
+      "subject": "Verify civilian departures and whereabouts through the Swedish legation",
+      "status": "171/172 raw; unique deletion134 in six-letter group; four word repairs and one dash fill",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
+      "path": "cases/other/constantinople_civilians.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/constantinople_civilians/inputs.json",
+        "experiments/constantinople_civilians/certificates.json",
+        "experiments/constantinople_civilians/historical_context.json"
+      ]
+    },
+    {
+      "id": "p221_B3",
+      "label": "p221 B3",
+      "printed_page": 221,
+      "source_section": "B3",
+      "subject": "Troop-transport enquiry and request to allow German civilians to remain in Turkey",
+      "status": "173/174 raw; three coordinate changes and one invalid-Y fill; civilian appeal and routing context corroborated by FRUS",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
+      "path": "cases/other/constantinople_civilians.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/constantinople_civilians/inputs.json",
+        "experiments/constantinople_civilians/certificates.json",
+        "experiments/constantinople_civilians/historical_context.json"
+      ]
+    },
+    {
+      "id": "p221_B4",
+      "label": "p221 B4",
+      "printed_page": 221,
+      "source_section": "B4",
+      "subject": "Appeal referred to Allies and Supreme War Council; civilian transit through Ukraine impossible",
+      "status": "132/133 raw; source-local gap190 and six broader tied frames retained; exact candidate and FRUS context",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
+      "path": "cases/other/constantinople_civilians.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/constantinople_civilians/inputs.json",
+        "experiments/constantinople_civilians/certificates.json",
+        "experiments/constantinople_civilians/historical_context.json"
+      ]
+    },
+    {
+      "id": "p224_C1",
+      "label": "p224 C1",
+      "printed_page": 224,
+      "source_section": "C1",
+      "subject": "Staff officer raw STRZEMIECZNQ transferred from acting corps chief-of-staff duties",
+      "status": "130/130 raw labels; three ordinary-word coordinate repairs; rank, surname and formation labels retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately",
+      "path": "cases/other/breslau_staff_transfer.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/breslau_staff_transfer/inputs.json",
+        "experiments/breslau_staff_transfer/certificates.json",
+        "experiments/breslau_staff_transfer/historical_context.json"
+      ]
+    },
+    {
+      "id": "p224_C2",
+      "label": "p224 C2",
+      "printed_page": 224,
+      "source_section": "C2",
+      "subject": "Special employment with Breslau command; separate historical VI Corps context",
+      "status": "149/149 raw labels; six ordinary-word coordinate repairs; raw7 and reference04013 retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately",
+      "path": "cases/other/breslau_staff_transfer.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/breslau_staff_transfer/inputs.json",
+        "experiments/breslau_staff_transfer/certificates.json",
+        "experiments/breslau_staff_transfer/historical_context.json"
+      ]
+    },
+    {
+      "id": "p223_A1",
+      "label": "p223 A1",
+      "printed_page": 223,
+      "source_section": "A1",
+      "subject": "Information requested on stamped lei-note amounts, denominations and stamping procedure",
+      "status": "169/171 raw-label positions; 171/171 ordinary-word candidate; monetary labels remain unassigned",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier OCR corpus and unreviewed A2 retrieval candidate; published key credited separately",
+      "path": "cases/other/lei_note_exchange.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/lei_note_exchange/inputs.json",
+        "experiments/lei_note_exchange/certificates.json"
+      ]
+    },
+    {
+      "id": "p223_A2",
+      "label": "p223 A2",
+      "printed_page": 223,
+      "source_section": "A2",
+      "subject": "Austro-Hungarian bank redemption proposal with raw J1Y/JYY exchange-rate labels",
+      "status": "124/124 raw-label positions; 124/124 ordinary-word candidate; monetary labels remain unassigned",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier OCR corpus and unreviewed A2 retrieval candidate; published key credited separately",
+      "path": "cases/other/lei_note_exchange.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/lei_note_exchange/inputs.json",
+        "experiments/lei_note_exchange/certificates.json"
+      ]
+    },
+    {
+      "id": "p223_A3",
+      "label": "p223 A3",
+      "printed_page": 223,
+      "source_section": "A3",
+      "subject": "Stamped-note redemption and German-bank raw 70/38 rate labels; negotiations pending",
+      "status": "201/205 raw-label positions; 205/205 ordinary-word candidate; monetary labels remain unassigned",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier OCR corpus and unreviewed A2 retrieval candidate; published key credited separately",
+      "path": "cases/other/lei_note_exchange.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/lei_note_exchange/inputs.json",
+        "experiments/lei_note_exchange/certificates.json"
+      ]
+    },
+    {
+      "id": "p219_A1",
+      "label": "p219 A1",
+      "printed_page": 219,
+      "source_section": "A1",
+      "subject": "Crown funds for Arad following agreement with the German military mission at Budapest",
+      "status": "167/167 raw labels; exact source edition and priced word/office repairs; amount and army labels retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately",
+      "path": "cases/other/crown_cash_requests.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/crown_cash_requests/inputs.json",
+        "experiments/crown_cash_requests/certificates.json"
+      ]
+    },
+    {
+      "id": "p219_A2",
+      "label": "p219 A2",
+      "printed_page": 219,
+      "source_section": "A2",
+      "subject": "Inquiry whether an advance can be drawn from the field war cash office",
+      "status": "115/115 raw labels; exact source edition and priced word/office repairs; amount and army labels retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately",
+      "path": "cases/other/crown_cash_requests.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/crown_cash_requests/inputs.json",
+        "experiments/crown_cash_requests/certificates.json"
+      ]
+    },
+    {
+      "id": "p219_B",
+      "label": "p219 B",
+      "printed_page": 219,
+      "source_section": "B",
+      "subject": "Crown remittances partly sent; severe banknote shortage reported",
+      "status": "177/177 raw labels; exact source edition and priced word/office repairs; amount and army labels retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately",
+      "path": "cases/other/crown_cash_requests.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/crown_cash_requests/inputs.json",
+        "experiments/crown_cash_requests/certificates.json"
+      ]
+    }
+  ],
+  "revisions_to_preexisting_rows": [
+    {
+      "id": "p120_B1",
+      "changes": {
+        "credit": {
+          "before": "icekylinx and GPT-6 Astra Pro (2026)",
+          "after": "Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro"
+        }
+      }
+    },
+    {
+      "id": "p122_D_suffix",
+      "changes": {
+        "credit": {
+          "before": "icekylinx and GPT-6 Astra Pro (2026)",
+          "after": "Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro"
+        }
+      }
+    },
+    {
+      "id": "p123_A2",
+      "changes": {
+        "credit": {
+          "before": "icekylinx and GPT-6 Astra Pro (2026)",
+          "after": "Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro"
+        }
+      }
+    },
+    {
+      "id": "p123_A3",
+      "changes": {
+        "credit": {
+          "before": "icekylinx and GPT-6 Astra Pro (2026)",
+          "after": "Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro"
+        }
+      }
+    },
+    {
+      "id": "p159_B",
+      "changes": {
+        "credit": {
+          "before": "Childs (1918); review: icekylinx and GPT-6 Astra Pro",
+          "after": "Prior body: Childs (1918), Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro"
+        }
+      }
+    },
+    {
+      "id": "p159_C",
+      "changes": {
+        "credit": {
+          "before": "icekylinx and GPT-6 Astra Pro (2026)",
+          "after": "Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro"
+        }
+      }
+    },
+    {
+      "id": "p168_C",
+      "changes": {
+        "credit": {
+          "before": "Childs (1918); review: icekylinx and GPT-6 Astra Pro",
+          "after": "Prior body: Childs (1918), Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro"
+        }
+      }
+    },
+    {
+      "id": "p168_D",
+      "changes": {
+        "credit": {
+          "before": "icekylinx and GPT-6 Astra Pro (2026)",
+          "after": "Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro"
+        }
+      }
+    },
+    {
+      "id": "p169_A",
+      "changes": {
+        "credit": {
+          "before": "icekylinx and GPT-6 Astra Pro (2026)",
+          "after": "Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro"
+        }
+      }
+    },
+    {
+      "id": "p187_C",
+      "changes": {
+        "evidence": {
+          "before": [
+            "data/supplementary_readings.json"
+          ],
+          "after": [
+            "data/supplementary_readings.json",
+            "experiments/aviation_connection/companion_inputs.json",
+            "experiments/aviation_connection/companion_certificate.json"
+          ]
+        },
+        "status": {
+          "before": "Earlier reading; source correction checked",
+          "after": "Earlier body; source audit and exact four-coordinate repair cost"
+        }
+      }
+    },
+    {
+      "id": "p214_B",
+      "changes": {
+        "credit": {
+          "before": "icekylinx and GPT-6 Astra Pro (2026)",
+          "after": "Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro"
+        }
+      }
+    }
+  ],
+  "challenge_row_revisions": [
+    {
+      "id": "p153a",
+      "before": {
+        "id": "p153a",
+        "label": "p153a",
+        "subject": "Earlier orders; action still to be completed",
+        "status": "New partial: 60/66 ordinary-letter positions",
+        "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+        "path": "cases/p153a.md"
+      },
+      "after": {
+        "id": "p153a",
+        "label": "p153a",
+        "subject": "Earlier orders; action still to be completed",
+        "status": "New partial: 60/66 plaintext positions; date/number fields open",
+        "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+        "path": "cases/p153a.md"
+      }
+    },
+    {
+      "id": "p215",
+      "before": {
+        "id": "p215",
+        "label": "p215",
+        "subject": "Apparent Entente troop-transport report",
+        "status": "Prior partial; conditional Kosch interpretation",
+        "credit": "Norbert (2017)",
+        "path": "cases/p215.md"
+      },
+      "after": {
+        "id": "p215",
+        "label": "p215",
+        "subject": "Apparent Entente troop-transport report",
+        "status": "Prior partial; Kosch interpretation and conditional ?1?6 reference",
+        "credit": "Norbert (2017)",
+        "path": "cases/p215.md"
+      }
+    }
+  ],
+  "limits": [
+    "A physical-record addition can be a repeated intercept, multipart segment, prior reading, or conditional source edition.",
+    "The count of new source-reviewed rows is not a count of independently solved original ciphertexts or first historical decipherments.",
+    "The p153 partial decipherment predates this baseline and is not a new recovery in this extension.",
+    "p73, p170 and p198 D remain wholly open."
+  ]
+}

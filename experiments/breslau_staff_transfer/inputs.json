@@ -1,0 +1,243 @@
+{
+  "schema": "adfgvx-breslau-staff-transfer-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov25-28",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      21,
+      9,
+      6,
+      14,
+      10,
+      20,
+      1,
+      16,
+      18,
+      7,
+      15,
+      4,
+      11,
+      22,
+      5,
+      17,
+      23,
+      2,
+      12,
+      8,
+      19,
+      3,
+      13
+    ],
+    "column_count": 23,
+    "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "square_rows": [
+      "HQ05DK",
+      "ZAOYM6",
+      "BEIWTJ",
+      "7PSCFL",
+      "V94132",
+      "NGURX8"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p224_C1",
+      "path": "sources/p224_C1.png",
+      "printed_page": 224,
+      "pdf_page_1based": 227,
+      "crop_pdf_points": [
+        80,
+        458,
+        535,
+        573
+      ],
+      "render_scale": 4,
+      "sha256": "ae83c8645786471b44a3ca2500f888f7114305d2370973103f837ff59da2063a"
+    },
+    {
+      "id": "p224_C2",
+      "path": "sources/p224_C2.png",
+      "printed_page": 224,
+      "pdf_page_1based": 227,
+      "crop_pdf_points": [
+        95,
+        578,
+        535,
+        708
+      ],
+      "render_scale": 4,
+      "sha256": "8c37fe6ccd804afc1fc5d17ef72b1a4185ef20c5efb9074c47b0997753521687"
+    },
+    {
+      "id": "p224_C1_detail",
+      "path": "sources/p224_C1_detail.png",
+      "printed_page": 224,
+      "pdf_page_1based": 227,
+      "crop_pdf_points": [
+        170,
+        514,
+        530,
+        553
+      ],
+      "render_scale": 8,
+      "sha256": "67d53f1404789f8562863e92a7fc1954ed078caad32f0bb91d036afd5be01976"
+    },
+    {
+      "id": "p224_C2_detail",
+      "path": "sources/p224_C2_detail.png",
+      "printed_page": 224,
+      "pdf_page_1based": 227,
+      "crop_pdf_points": [
+        170,
+        632,
+        355,
+        654
+      ],
+      "render_scale": 8,
+      "sha256": "86324b3a3a3991a138d5bebc83283d14dcf0008f633bae57d9f44e08ef92e76e"
+    }
+  ],
+  "records": [
+    {
+      "id": "p224_C1",
+      "printed_page": 224,
+      "pdf_page_1based": 227,
+      "source_section": "C1",
+      "source_image_id": "p224_C1",
+      "key_id": "Nov25-28",
+      "header": "C) UKS v BSL (00.13 a.m., November 28th); 2230; 1 TL RICHI-260",
+      "preceding_page_subheading": "26th NOVEMBER, 1918.",
+      "source_rows": [
+        "FDDDA DXDXF DVDXA ADGVX DFAFD FFVXF FFDVV FGFFX",
+        "FFDDD DGFFA DAGVF FDAFD FFAGF VGVXG AXDFD FVXFD",
+        "FVDVF VAGXA DFFXV GFXFF VXADF FVDXA XAFDX VXDGG",
+        "XDXAX VDDAG FXAXD VXVXD FVFFF FAFFV AVXFD VDVDX",
+        "VXDGD GFFDF XXDXV XGDAX AVDDG AGXDA ADFFA GFAFV",
+        "FAFDV XDAVG DGAXX DGFDF VFFXF XDGFA GDVVG DGVVX",
+        "AGGDV GGXGD DAGFX XAFVX"
+      ],
+      "source_slots": 260,
+      "advertised_length": 260,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "AOKJJXXMA9ORBEAUFTRAGTMITWAHRNEHMUNG0ERGESCHAEFT9DESCHEFDESGENERALSTX40XRESXKXXSTRZEMIECZNQISTUNTERVERSETZUNGZUDENOFFIZIERENVXDXAX",
+      "readable_candidate": "AOKJJXXMA9ORBEAUFTRAGTMITWAHRNEHMUNGDERGESCHAEFTSDESCHEFDESGENERALSTX40XRESXKXXSTRZEMIECZNQISTUNTERVERSETZUNGZUDENOFFIZIERENVXDXAX",
+      "notes": [
+        "All source glyphs are valid ADFGVX coordinates; enlarged crops certify the G glyphs that can resemble C at low resolution.",
+        "All numerical-looking and surname/rank labels remain unchanged except the separately priced ordinary-word repairs."
+      ]
+    },
+    {
+      "id": "p224_C2",
+      "printed_page": 224,
+      "pdf_page_1based": 227,
+      "source_section": "C2",
+      "source_image_id": "p224_C2",
+      "key_id": "Nov25-28",
+      "header": "C) UKS v BSL (00.13 a.m., November 28th); 2230; 2 TL RICHI-298",
+      "preceding_page_subheading": "26th NOVEMBER, 1918.",
+      "source_rows": [
+        "XAXDF VXAAV GAFDF FDVFV XDGGG GXFAX ADDFD FXAVA",
+        "XFXVF VXVXD XFXXF AGDFD AVFVA FFGGF FAXGA AVFDD",
+        "AAXGV DFXDA FXXVX FFVXX ADAVV DFXDF GGDFV FDDVD",
+        "GFVFF ADFDX FVFFF ADAVV XVVGA XAXAF AAGDX VADFD",
+        "DFDDX DGADX XFVFV XXFVD DXDXV FXXDX AFVAD XFXFF",
+        "GXVFF GDGXD XFXFF FXDFF FVDAG DFDDD XFGAG VFXDF",
+        "GFAGV XVGDF DFDXX FDFGA VGDFV XFDDG FFDAA XFDVX",
+        "FXAGF DVGDF GFDDV XDV"
+      ],
+      "source_slots": 298,
+      "advertised_length": 298,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "DEMGENERALKDOX7XAXKXBRESLAUZUBESXVERWENDUNGZUGETEILTISTUNMITTELBARBEORDERTXMITTEOLUNGANGENREALKDOX40AKEGBETENXXXCHEFDESGENERALSTABSDXFELDHEERES04013X",
+      "readable_candidate": "DEMGENERALKDOX7XAXKXBRESLAUZUBESXVERWENDUNGZUGETEILTISTUNMITTELBARBEORDERTXMITTEILUNGANGENERALKDOX40AKERBETENXXXCHEFDESGENERALSTABSDXFELDHEERES04013X",
+      "notes": [
+        "All source glyphs are valid ADFGVX coordinates; enlarged crops certify the G glyphs that can resemble C at low resolution.",
+        "All numerical-looking and surname/rank labels remain unchanged except the separately priced ordinary-word repairs.",
+        "The ciphertext ends after XDV at 298 coordinates. The following cleartext beginning VON LP AN CO is outside this two-part ciphertext and is not counted as an additional ciphertext reading."
+      ]
+    }
+  ],
+  "historical_context": {
+    "path": "historical_context.json",
+    "sha256": "173776c9557459e01a0c3a4b0632e7ab8f8b4aabcce6da51e5652f56f7124482"
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "The paper explicitly cites neighboring p224 A, but no explicit p224 C staff-transfer body discussion was located in the checked text."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "The ADFGVX chapter explicitly cites neighboring p224 A, but no explicit p224 C staff-transfer body discussion was located in the checked text."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit p224 C or Strzemieczny body reading was located in the cached 55 comments."
+    },
+    "repository_prior_material": {
+      "path": "experiments/p73_new_methods/retrieval_inputs.json",
+      "blocks": [
+        "p224_ocr_block5",
+        "p224_ocr_block6"
+      ],
+      "layer": "unreviewed OCR-derived candidate",
+      "scope": "Both raw bodies were already represented as automatic OCR-derived retrieval candidates. This contribution is a visually checked source edition, exact repair certificate and context separation, not first computation of those candidate bodies."
+    }
+  }
+}

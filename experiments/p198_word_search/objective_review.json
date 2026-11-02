@@ -1,0 +1,208 @@
+{
+  "schema": "adfgvx-word-objective-review-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "records_sha256": "e45f11af29d52219d43dd454b385844b1513830bcebc915dc247e64ed19e712a",
+  "quad_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+  "lexicon_sha256": "6ea36fc166dd884a3a46f99aa7fd9ab03ae237d5a79c1a30f059e983d5f0d9ef",
+  "controls": [
+    {
+      "case_id": "pilot/control_CHI-Nov13_word_warm",
+      "truth_quad_sum": -346.3787610530853,
+      "truth_word_sum": -57.29325796663761,
+      "truth_total": -432.31864800304174,
+      "incumbent_minus_truth": 4.172306944383308e-11,
+      "classification": "exact plaintext",
+      "correct_characters": 85,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "pilot/control_Nov13-15b_word_warm",
+      "truth_quad_sum": -346.3787610530853,
+      "truth_word_sum": -57.29325796663761,
+      "truth_total": -432.31864800304174,
+      "incumbent_minus_truth": 1.2652912140417243,
+      "classification": "wrong incumbent outranks truth",
+      "correct_characters": 83,
+      "letter_or_digit_class_agreement": 83,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "pilot/fresh_0_CHI-Nov13",
+      "truth_quad_sum": -411.7019634246826,
+      "truth_word_sum": -72.69957098960876,
+      "truth_total": -520.7513199090957,
+      "incumbent_minus_truth": 12.031203151095724,
+      "classification": "wrong incumbent outranks truth",
+      "correct_characters": 81,
+      "letter_or_digit_class_agreement": 81,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "pilot/fresh_1_Nov13-15b",
+      "truth_quad_sum": -324.4757957458496,
+      "truth_word_sum": -50.10246800929308,
+      "truth_total": -399.6294977597892,
+      "incumbent_minus_truth": -2.1077539713587612e-10,
+      "classification": "exact plaintext",
+      "correct_characters": 85,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "pilot/fresh_2_Nov16-18",
+      "truth_quad_sum": -313.6171486377716,
+      "truth_word_sum": -46.53014360368252,
+      "truth_total": -383.4123640432954,
+      "incumbent_minus_truth": 2.9535840440075845e-10,
+      "classification": "exact plaintext",
+      "correct_characters": 85,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "pilot/fresh_3_Nov7-9",
+      "truth_quad_sum": -318.3181748390198,
+      "truth_word_sum": -53.977200596965844,
+      "truth_total": -399.2839757344685,
+      "incumbent_minus_truth": 4.685034582507797e-10,
+      "classification": "exact plaintext",
+      "correct_characters": 85,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "adaptive_weight2/control_CHI-Nov13_word_warm__weight2",
+      "truth_quad_sum": -346.3787610530853,
+      "truth_word_sum": -57.29325796663761,
+      "truth_total": -460.96527698636055,
+      "incumbent_minus_truth": 3.6055780583410524e-10,
+      "classification": "exact plaintext",
+      "correct_characters": 85,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "adaptive_weight2/control_Nov13-15b_word_warm__weight2",
+      "truth_quad_sum": -346.3787610530853,
+      "truth_word_sum": -57.29325796663761,
+      "truth_total": -460.96527698636055,
+      "incumbent_minus_truth": 0.1252884863605459,
+      "classification": "wrong incumbent outranks truth",
+      "correct_characters": 84,
+      "letter_or_digit_class_agreement": 84,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "adaptive_weight2/fresh_0_CHI-Nov13__weight2",
+      "truth_quad_sum": -411.7019634246826,
+      "truth_word_sum": -72.69957098960876,
+      "truth_total": -557.1011054039002,
+      "incumbent_minus_truth": 11.899407863900137,
+      "classification": "wrong incumbent outranks truth",
+      "correct_characters": 81,
+      "letter_or_digit_class_agreement": 81,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "adaptive_weight2/fresh_1_Nov13-15b__weight2",
+      "truth_quad_sum": -324.4757957458496,
+      "truth_word_sum": -50.10246800929308,
+      "truth_total": -424.6807317644358,
+      "incumbent_minus_truth": 4.3581849240581505e-10,
+      "classification": "exact plaintext",
+      "correct_characters": 85,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "adaptive_weight2/fresh_2_Nov16-18__weight2",
+      "truth_quad_sum": -313.6171486377716,
+      "truth_word_sum": -46.53014360368252,
+      "truth_total": -406.67743584513664,
+      "incumbent_minus_truth": 1.3665157894138247e-10,
+      "classification": "exact plaintext",
+      "correct_characters": 85,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "adaptive_weight2/fresh_3_Nov7-9__weight2",
+      "truth_quad_sum": -318.3181748390198,
+      "truth_word_sum": -53.977200596965844,
+      "truth_total": -426.27257603295146,
+      "incumbent_minus_truth": -4.8544279707130045e-11,
+      "classification": "exact plaintext",
+      "correct_characters": 85,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "broad_partial/control_partial_0_Sep19-21",
+      "truth_quad_sum": -348.17478680610657,
+      "truth_word_sum": -59.887656283378604,
+      "truth_total": -467.95009937286375,
+      "incumbent_minus_truth": -1.362536750093568e-10,
+      "classification": "exact plaintext",
+      "correct_characters": 85,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "broad_partial/control_partial_1_Nov13-15b",
+      "truth_quad_sum": -400.2456064224243,
+      "truth_word_sum": -65.996731556952,
+      "truth_total": -532.2390695363283,
+      "incumbent_minus_truth": 12.887694358328304,
+      "classification": "wrong incumbent outranks truth",
+      "correct_characters": 82,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "broad_partial/control_partial_2_CHI-Nov13",
+      "truth_quad_sum": -312.65447187423706,
+      "truth_word_sum": -49.2104585185647,
+      "truth_total": -411.0753889113665,
+      "incumbent_minus_truth": 3.6646952139562927e-10,
+      "classification": "exact plaintext",
+      "correct_characters": 85,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "broad_partial/control_partial_3_Nov16-18",
+      "truth_quad_sum": -303.6853573322296,
+      "truth_word_sum": -39.821866950392725,
+      "truth_total": -383.32909123301505,
+      "incumbent_minus_truth": 1.5063505998114124e-11,
+      "classification": "exact plaintext",
+      "correct_characters": 85,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "unknown_square_controls/unknown_square_control_partial_1_Nov13-15b",
+      "truth_quad_sum": -400.2456064224243,
+      "truth_word_sum": -65.996731556952,
+      "truth_total": -532.2390695363283,
+      "incumbent_minus_truth": -112.33305923667172,
+      "classification": "search failed to reach better truth",
+      "correct_characters": 11,
+      "letter_or_digit_class_agreement": 11,
+      "truth_was_optimizer_seed": false
+    },
+    {
+      "case_id": "unknown_square_controls/unknown_square_control_partial_2_CHI-Nov13",
+      "truth_quad_sum": -312.65447187423706,
+      "truth_word_sum": -49.2104585185647,
+      "truth_total": -411.0753889113665,
+      "incumbent_minus_truth": 3.6646952139562927e-10,
+      "classification": "exact plaintext",
+      "correct_characters": 85,
+      "letter_or_digit_class_agreement": 85,
+      "truth_was_optimizer_seed": false
+    }
+  ],
+  "qualification": "These are run-level diagnostics. Reused controls are not independent new validation samples, and finite search failures do not exclude historical hypotheses."
+}

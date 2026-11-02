@@ -1,0 +1,269 @@
+{
+  "schema": "adfgvx-crown-cash-request-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov25-28",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      21,
+      9,
+      6,
+      14,
+      10,
+      20,
+      1,
+      16,
+      18,
+      7,
+      15,
+      4,
+      11,
+      22,
+      5,
+      17,
+      23,
+      2,
+      12,
+      8,
+      19,
+      3,
+      13
+    ],
+    "column_count": 23,
+    "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "square_rows": [
+      "HQ05DK",
+      "ZAOYM6",
+      "BEIWTJ",
+      "7PSCFL",
+      "V94132",
+      "NGURX8"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p219_A1",
+      "path": "sources/p219_A1.png",
+      "printed_page": 219,
+      "pdf_page_1based": 222,
+      "crop_pdf_points": [
+        78,
+        118,
+        525,
+        258
+      ],
+      "render_scale": 4,
+      "sha256": "194c90d171dafbb1598eafaf8040ce7f31c4dc53f58ba3a0ec6f676128941ba1"
+    },
+    {
+      "id": "p219_A2",
+      "path": "sources/p219_A2.png",
+      "printed_page": 219,
+      "pdf_page_1based": 222,
+      "crop_pdf_points": [
+        90,
+        264,
+        525,
+        329
+      ],
+      "render_scale": 4,
+      "sha256": "b27fd76c4f96ecdcd6cf6a2b9547d6c9427499fb75a44dcbc88238174b210f64"
+    },
+    {
+      "id": "p219_B",
+      "path": "sources/p219_B.png",
+      "printed_page": 219,
+      "pdf_page_1based": 222,
+      "crop_pdf_points": [
+        78,
+        338,
+        525,
+        467
+      ],
+      "render_scale": 4,
+      "sha256": "666b485ab2a77f808026311e5babaa6295a1bf5f1aaa1d5ceeea493d69809a70"
+    }
+  ],
+  "records": [
+    {
+      "id": "p219_A1",
+      "printed_page": 219,
+      "pdf_page_1based": 222,
+      "source_section": "A1",
+      "source_image_id": "p219_A1",
+      "key_id": "Nov25-28",
+      "header": "A) UKS v BSL (09.40 p.m., November 25th); 1320 (11/25) 2 TLE; 1 TL RICHI-334",
+      "page_heading": "25th NOVEMBER, 1918.",
+      "source_rows": [
+        "FDFVG FGGGF ADADX VDGDA XAXGX GDDFX AAGVX FDDXX",
+        "AVFVX AAFFX XGAGX FFVXV DVXXF VFGDD VXFVF VDDFF",
+        "XXDFX VAADF XFDFF FXVGA FVVGF FFADF VFGXG FDGAD",
+        "VGVGA DADDX GXFXV FDGDF VGADD FFVFV DAGAA XDFXD",
+        "XDXVX VDGFA DVXVF AXXDF GDXAX FXDVF DXVFD FDDFX",
+        "GXVFD XGFFG DXVDV XVXFG DFFFF AVGAX VGAAX DXAFD",
+        "DDDGX AGXXF DGVDV DXVAD FXFGX FAXXV FDADG GVDGA",
+        "FGXXD FGFDF DFXVD XDAFX AXGDD XDXAF FGXAV XGFGG",
+        "AAXVF VXFXF DGFX"
+      ],
+      "source_slots": 334,
+      "advertised_length": 334,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "ETXINTENDXJJFIALAXXNACHVEREINBARUNGMXDERDTXMILXMISSIONBUDAPESTOBLTXKUDELSOLLENAUSSERDENDORTANGEFORDERTEN6MILXKRONENNOCH3YYYYYKRONENFUERMG0ARADZURVERFGXGESTELLTWERDENXX",
+      "readable_candidate": "ETXINTENDXJJFIALAXXNACHVEREINBARUNGMXDERDTXMILXMISSIONBUDAPESTOBLTXKUDELSOLLENAUSSERDENDORTANGEFORDERTEN6MILXKRONENNOCH3YYYYYKRONENFUERMGDARADZURVERFGXGESTELLTWERDENXX",
+      "notes": [
+        "FDDFX is a complete observed five-letter group; its final X is not an erasure.",
+        "The amount labels 6 MIL and 3YYYYY and army label JJ remain unchanged.",
+        "The candidate repairs MG0 to MGD using the unchanged MGD at the end of A2 as within-message support; this office abbreviation is not expanded."
+      ]
+    },
+    {
+      "id": "p219_A2",
+      "printed_page": 219,
+      "pdf_page_1based": 222,
+      "source_section": "A2",
+      "source_image_id": "p219_A2",
+      "key_id": "Nov25-28",
+      "header": "A) UKS v BSL (09.40 p.m., November 25th); 1320 (11/25) 2 TLE; 2 TL RICHI-230",
+      "page_heading": "25th NOVEMBER, 1918.",
+      "source_rows": [
+        "FAGFG GGVXD VDADV DGDDA DVFAD GVFAX VDFFF XGXDD",
+        "XGGGF FFDAG XVXFD VFDFV VFAGV FFFVX GFFFV GXFAX",
+        "DFFXD ADFAX FDGVX XXFFV FFGDX DADXD XFFFG DGFXV",
+        "AADAG FDDXV GDGAD ADFGD FGXFD DXAFV FFGFF FVGDA",
+        "AFFAV ADAXG FVADA FDDAV DAGDF FXAXV AXFFF XGFDX",
+        "FADAF XFAXV DXFXG GVFAX AVFAX XXADD"
+      ],
+      "source_slots": 230,
+      "advertised_length": 230,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "ERBITTENDRAHTANTWORTOBVORSCHUSSBISZUDIESERHOEHEAUSDORTXFELDKRIEGSKASSEERFORDERLXZEITPBGEHOBENWEGDENKANNXXMGDXARPDXX",
+      "readable_candidate": "ERBITTENDRAHTANTWORTOBVORSCHUSSBISZUDIESERHOEHEAUSDORTXFELDKRIEGSKASSEERFORDERLXZEITABGEHOBENWERDENKANNXXMGDXARADXX",
+      "notes": [
+        "The candidate repairs ARPD to ARAD using the unchanged ARAD in A1 as within-message support.",
+        "The exact received abbreviations and ERFORDERL X ZEIT wording remain; no additional preposition or source letters are inserted."
+      ]
+    },
+    {
+      "id": "p219_B",
+      "printed_page": 219,
+      "pdf_page_1based": 222,
+      "source_section": "B",
+      "source_image_id": "p219_B",
+      "key_id": "Nov25-28",
+      "header": "B) UKS v BSL (09.16 p.m., November 27th); 1800 (11/25); RICHI-354",
+      "page_heading": "25th NOVEMBER, 1918.",
+      "source_rows": [
+        "AVVDA DFXFF GFXFF XAXVX DADXV GDDVD FVXGX GDDFD",
+        "DVFDF GAFDD GDVFF FGFDF FFXGA XVGFX AAGXA FFVVF",
+        "DAFDX VFDDA XXFXF XDADF DXFGD FVVDF DVXDF GAFFV",
+        "XGVXX FVAAF DFFXA XVFGF DDXVX FFVXG DVDGF XXFXV",
+        "XFFVA DGDFA VDAAX XFXGF FXDVD FFADF FAGVX DFVXD",
+        "DVXFF DFGGD XVXGD XVDGX XFDGD GFFVV VAXAV FAFFG",
+        "XGAXD VDXVF AXDFA DXXVA XFXAX FVFGF XFFXA DXXAX",
+        "DXGFD FAFVX AVXXG FGFAG GDDDD FFFGD FVGDX VFFDV",
+        "XDXVV FFXFX GGDXA XXXAX VADXV FDXDV AXVV"
+      ],
+      "source_slots": 354,
+      "advertised_length": 354,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "FELDINTENDXAXOXKXJJXXZUJ3Y20AUFDORTIGEKRONENANFORDERUNGDRAHTETKMXXKRONENBETRPEGETEILWEISEUEBERWIESENXRESTFOLGTNACHMOEGLICHK9ITXGROSSERNOTENMANGELXXXGENXINTENDANTXROEM4BJ411XJYJ2",
+      "readable_candidate": "FELDINTENDXAXOXKXJJXXZUJ3Y20AUFDORTIGEKRONENANFORDERUNGDRAHTETKMXXKRONENBETRAEGETEILWEISEUEBERWIESENXRESTFOLGTNACHMOEGLICHKEITXGROSSERNOTENMANGELXXXGENXINTENDANTXROEM4BJ411XJYJ2",
+      "notes": [
+        "The receipt date is November 27, while the source origin field gives November 25; both are retained.",
+        "Army and reference labels JJ, J3Y20 and ROEM4BJ411XJYJ2 remain unchanged.",
+        "Raw 9 in MOEGLICHK9IT receives its own ordinary-word coordinate repair and is retained in the full raw-label inventory."
+      ]
+    }
+  ],
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "No explicit p219 A/B crown-cash body discussion was located in the bounded paper text check."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "No explicit p219 A/B crown-cash body discussion was located in the bounded ADFGVX chapter check."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit p219 A/B crown-cash body was located in the cached 55-comment snapshot."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p219_ocr_block1",
+        "p219_ocr_block2",
+        "p219_ocr_block3"
+      ],
+      "unreviewed_retrieval": "experiments/p73_new_methods/retrieval_inputs.json",
+      "retrieval_blocks": [
+        "p219_ocr_block1",
+        "p219_ocr_block2",
+        "p219_ocr_block3"
+      ],
+      "interpretation": "All three bodies were already present as unreviewed OCR-derived retrieval candidates. This source edition adds visual transcription, complete source mappings and explicitly priced repairs, not first computation of the bodies."
+    }
+  },
+  "interpretation_policy": [
+    "All monetary amounts and army/reference digits or J/Q/Y labels remain in their published-square form.",
+    "The within-message MGD/ARAD comparison supports a declared editorial candidate; it is not an independent exact retransmission.",
+    "The raw names FIALA and KUDEL are transcribed without identifying historical individuals."
+  ]
+}

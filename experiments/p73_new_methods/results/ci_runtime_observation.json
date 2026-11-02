@@ -1,0 +1,43 @@
+{
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "measured_python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "archive_sha256": "076cf06ce29215c870311e2a6a14f3402fedbcce45872da4f0d4452c0fed2005",
+  "runs": [
+    {
+      "mode": "standard_library",
+      "arguments": [
+        "--skip-assignment"
+      ],
+      "wall_seconds": 1.7875018269987777,
+      "verification": {
+        "source_coordinate_runs_checked": 255,
+        "prior_source_coordinate_runs_checked_separately": 35,
+        "completed_fixed_square_proposals_checked_against_final_logs": 1333005000,
+        "retrieval_pair_records_checked": 47819,
+        "retrieval_pair_assignments_independently_checked": 0,
+        "deterministic_retrieval_recomputed": false,
+        "accepted_p73_plaintexts": 0
+      }
+    },
+    {
+      "mode": "full_assignment",
+      "arguments": [],
+      "wall_seconds": 3.968765434998204,
+      "verification": {
+        "source_coordinate_runs_checked": 255,
+        "prior_source_coordinate_runs_checked_separately": 35,
+        "completed_fixed_square_proposals_checked_against_final_logs": 1333005000,
+        "retrieval_pair_records_checked": 47819,
+        "retrieval_pair_assignments_independently_checked": 47819,
+        "deterministic_retrieval_recomputed": false,
+        "accepted_p73_plaintexts": 0
+      }
+    }
+  ],
+  "scope": "Measured against the final 255-run snapshot during concurrent research processes on the local Python 3.12 runtime; these are observations, not timing guarantees for CI."
+}

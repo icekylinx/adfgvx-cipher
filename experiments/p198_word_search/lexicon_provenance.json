@@ -1,0 +1,113 @@
+{
+  "schema": "adfgvx-independent-word-model-pilot-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "sources": [
+    {
+      "id": 22367,
+      "url": "https://www.gutenberg.org/cache/epub/22367/pg22367.txt",
+      "sha256": "359d3f5983c812393f4bd7ee49a350ffffc7d476015e58d6b84b6c848dd2b0e9",
+      "title": "Die Verwandlung",
+      "language": "German",
+      "domain_weight": 1,
+      "group": "general_German"
+    },
+    {
+      "id": 2407,
+      "url": "https://www.gutenberg.org/cache/epub/2407/pg2407.txt",
+      "sha256": "3642f9c98c1bbca55adf25296f4f623bda69c6d47cff46ed5f423053816a19c4",
+      "title": "Die Leiden des jungen Werther \u2014 Band 1",
+      "language": "German",
+      "domain_weight": 1,
+      "group": "general_German"
+    },
+    {
+      "id": 5323,
+      "url": "https://www.gutenberg.org/cache/epub/5323/pg5323.txt",
+      "sha256": "fc2cc841038004b845426452f808e6537045604d66d2878c7007a8909e9240df",
+      "title": "Effi Briest",
+      "language": "German",
+      "domain_weight": 1,
+      "group": "general_German"
+    },
+    {
+      "id": 21000,
+      "url": "https://www.gutenberg.org/cache/epub/21000/pg21000.txt",
+      "sha256": "c82c2d61713437aa807950c6460a0e8aabd9c4df85a466e9d59712b7f8f93ea7",
+      "title": "Faust: Eine Trag\u00f6die [erster Teil]",
+      "language": "German",
+      "domain_weight": 1,
+      "group": "general_German"
+    },
+    {
+      "id": 34811,
+      "url": "https://www.gutenberg.org/cache/epub/34811/pg34811.txt",
+      "sha256": "59b2688c4de9b74ccc7feca9051c22fd5202fa31b58fe0e5f54b79d3f895d375",
+      "title": "Buddenbrooks: Verfall einer Familie",
+      "language": "German",
+      "domain_weight": 1,
+      "group": "general_German"
+    },
+    {
+      "id": 24571,
+      "url": "https://www.gutenberg.org/cache/epub/24571/pg24571.txt",
+      "sha256": "4e9c8c4a0d21435af0207adc7f0cffdd3a4ebc0696526eb572f5639f77c08672",
+      "title": "Der Struwwelpeter",
+      "language": "German",
+      "domain_weight": 1,
+      "group": "general_German"
+    },
+    {
+      "id": 30695,
+      "url": "https://www.gutenberg.org/cache/epub/30695/pg30695.txt",
+      "sha256": "5ca60f3f932403fb1827c22b2efe779b70a34e99e8e1ee709474b584fe19742e",
+      "bytes": 814141,
+      "retrieved_utc": "2026-11-02T08:36:17.828716+00:00",
+      "title": "Aus meinem Leben",
+      "author": "Paul von Hindenburg",
+      "language": "German",
+      "domain_weight": 2,
+      "group": "wartime_German"
+    },
+    {
+      "id": 48715,
+      "url": "https://www.gutenberg.org/cache/epub/48715/pg48715.txt",
+      "sha256": "18c9e0e49decba359483a07adb3fe1b56c8d5826127f59c03ff3b9f0e27fdfe8",
+      "bytes": 342917,
+      "retrieved_utc": "2026-11-02T08:36:17.730047+00:00",
+      "title": "Der Weltkrieg, I. Band",
+      "author": "Karl Helfferich",
+      "language": "German",
+      "domain_weight": 2,
+      "group": "wartime_German"
+    },
+    {
+      "id": 48921,
+      "url": "https://www.gutenberg.org/cache/epub/48921/pg48921.txt",
+      "sha256": "2afd2085237d52631611cdba27a567e52ea6f40c9c80fa58f4d62d634ca1c5f6",
+      "bytes": 631710,
+      "retrieved_utc": "2026-11-02T08:36:17.848516+00:00",
+      "title": "Der Weltkrieg, II. Band",
+      "author": "Karl Helfferich",
+      "language": "German",
+      "domain_weight": 2,
+      "group": "wartime_German"
+    },
+    {
+      "id": 52159,
+      "url": "https://www.gutenberg.org/cache/epub/52159/pg52159.txt",
+      "sha256": "eab676c23c17f856a4280855ab4fcb4ef2b31ac3f7f74483682358573b2c1b8f",
+      "bytes": 1010438,
+      "retrieved_utc": "2026-11-02T08:36:41.168022+00:00",
+      "title": "Der Weltkrieg, III. Band",
+      "author": "Karl Helfferich",
+      "language": "German",
+      "domain_weight": 2,
+      "group": "wartime_German"
+    }
+  ],
+  "total_weighted_words": 1091203,
+  "distinct_words": 53465,
+  "minimum_bigram_count": 2,
+  "objective_note": "Unigram segmentation with capped observed word-association bonuses; not a calibrated probability.",
+  "lexicon_sha256": "6ea36fc166dd884a3a46f99aa7fd9ab03ae237d5a79c1a30f059e983d5f0d9ef"
+}

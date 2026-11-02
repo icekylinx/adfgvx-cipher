@@ -1,0 +1,78 @@
+{
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "snapshot_records_sha256": "f6cfaff99942d238840d9da6a7c2d9eef78ba55c4e3e3d31f550ce7f02af455f",
+  "snapshot_completed_cases": 30,
+  "snapshot_pending_cases": 19,
+  "audit_source_sha256": "bb8a0e77833624d155df688504f6af3fe4647ff27ac03315f8f0c840bb3b8ebf",
+  "word_harness_sha256": "0816b6d7be190aadac6ecc63c80e21b05c6ebc491cd570a018cee02777b7af86",
+  "word_score_check": {
+    "texts": 82,
+    "cpp_vs_backward_reference_max_abs_error": 7.105427357601002e-15,
+    "forward_python_vs_backward_reference_max_abs_error": 7.105427357601002e-15,
+    "lexicon_sha256": "6ea36fc166dd884a3a46f99aa7fd9ab03ae237d5a79c1a30f059e983d5f0d9ef",
+    "word_count": 53465,
+    "pair_count": 176836
+  },
+  "original_log_audit": {
+    "checked": true,
+    "completed_logs": 30,
+    "completed_proposals": 923755000,
+    "exact_truth_seed_states": [],
+    "all_inputs_match_manifest": true,
+    "pending_cases_not_counted": 19,
+    "engine_binary_matches_archive": true
+  },
+  "independent_model_reconstruction": {
+    "radio_book36_quad.bin": {
+      "sha256": "0677b5be195b268fd9977ab119749110291fd205a623b21b40c1f3712563bbb2",
+      "bytes": 6718464
+    },
+    "radio_book37_quad_marginal.bin": {
+      "sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+      "bytes": 7496644
+    },
+    "book_class36_quad.bin": {
+      "sha256": "15d4dfe14120e09c7b940cd9f3b9640fb2dcf62b5b5d2f5146838d99913678f2",
+      "bytes": 6718464
+    },
+    "book_class37_quad_marginal.bin": {
+      "sha256": "95c3364fcc0bca1f04da409bf16e94e5bfea53dd44abd3d08ad253ff5c8be7b2",
+      "bytes": 7496644
+    },
+    "radio_book_class36_quad.bin": {
+      "sha256": "dc7cc00449ef40d3d35e3295c110c7f663099f00368eec8b74e575a912a4658f",
+      "bytes": 6718464
+    },
+    "radio_book_class37_quad_marginal.bin": {
+      "sha256": "e52a13368f03c19d738b0b08059182665686a6eba5608999e224a54028285be6",
+      "bytes": 7496644
+    }
+  },
+  "split_checks": [
+    {
+      "dataset": "base",
+      "training_rows": 45,
+      "held_families": 6,
+      "training_heldout_32gram_overlaps": 0
+    },
+    {
+      "dataset": "class",
+      "training_rows": 37,
+      "held_families": 4,
+      "training_heldout_32gram_overlaps": 0
+    }
+  ],
+  "issues": [
+    {
+      "severity": "latent selector typo",
+      "status": "resolved",
+      "location": "radio_domain_model/build.py EXCLUDED_LATE_KEYS",
+      "detail": "Nov25-27 was corrected to catalog key Nov25-28. No frozen training row used that period; the dataset and all model bytes are unchanged.",
+      "frozen_dataset_sha256": "2cf81c699ef145c642ea9e902433387e0ce9130643ec6d713d1318f0f7547162"
+    }
+  ],
+  "scope": "Current completed archive only; pending jobs are not counted. Explicit source-family and exact-overlap separation do not establish statistical independence. No repository file is modified by this audit except an explicitly requested report path."
+}

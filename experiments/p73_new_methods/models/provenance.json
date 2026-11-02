@@ -1,0 +1,52 @@
+{
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "models": {
+    "book36": {
+      "sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+      "bytes": 6718464
+    },
+    "book37_marginal": {
+      "sha256": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+      "bytes": 7496644
+    },
+    "word_lexicon": {
+      "sha256": "6ea36fc166dd884a3a46f99aa7fd9ab03ae237d5a79c1a30f059e983d5f0d9ef",
+      "bytes": 5454601
+    },
+    "plain37": {
+      "sha256": "237a9326bfa48f9c6312a86f9992de729f8563c87649c0bd3d18d100769f4f50",
+      "bytes": 7496644
+    },
+    "word_X37": {
+      "sha256": "514c67d91ae78472310d23c7770c9d30b0809afe753dd02bd802f0f6026ca0d6",
+      "bytes": 7496644
+    },
+    "radio_book36": {
+      "sha256": "0677b5be195b268fd9977ab119749110291fd205a623b21b40c1f3712563bbb2",
+      "bytes": 6718464
+    },
+    "radio_book37": {
+      "sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+      "bytes": 7496644
+    }
+  },
+  "book_builder": "experiments/joint_search/tools/build_models.py",
+  "book_provenance": "experiments/joint_search/models/provenance.json",
+  "word_builder": "experiments/p198_word_search/build_lexicon.py",
+  "word_provenance": "experiments/p198_word_search/lexicon_provenance.json",
+  "radio_builder_package": "experiments/radio_domain_model",
+  "shared_training_warning": "The book quad and word objective use the same ten pinned books; they are not independent language models.",
+  "anchored_engine_source": {
+    "path": "experiments/joint_search/src/anchored_joint.c",
+    "sha256": "b45b91e6a776332feee4e3d8207dbb73deb3032a3b1c0ad03af2e64224652168"
+  },
+  "compiled_source_sha256": {
+    "fixed_square.cpp": "fe573d2ce0560c8e9674988ad48a20805e36f20e64bf6b1669a208eeef2c10fe",
+    "fixed_square_blind.cpp": "7e6e3225ef4a2021b38949344a42807fd8196fe66bdee8890e1f466e49bb250e",
+    "score_text.cpp": "cf3ec060fe203cccaeb725427587ba4b96500d687712e42cabf0358b1b6bb82d",
+    "substitution_agreement.cpp": "307322796849c07bc38035cd4a82e18f535158711ca3e2f7a9b259d81918f102"
+  }
+}

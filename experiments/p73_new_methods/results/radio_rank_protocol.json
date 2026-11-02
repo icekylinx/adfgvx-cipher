@@ -1,0 +1,111 @@
+{
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "fixed_before_search": true,
+  "controls": [
+    {
+      "source_record": "p84_B",
+      "source_family": "oil_and_shipping",
+      "source_span": [
+        0,
+        89
+      ],
+      "key_id": "Oct4-6",
+      "width": 22,
+      "plaintext": "ERBITTENFUERTRUPPENKDOXKAUKASUSWENNMOEGLICHTAEGLICHKURZEMITTEILUNGOBSCHWARZEMEERSCHIFFAHR",
+      "true_ranks": [
+        10,
+        22,
+        9,
+        16,
+        19,
+        3,
+        17,
+        15,
+        4,
+        20,
+        11,
+        12,
+        2,
+        6,
+        13,
+        1,
+        7,
+        14,
+        8,
+        5,
+        18,
+        21
+      ],
+      "ciphertext": "D??XVXFVFFFFVDVDXFXFXXGFVAFFDVVDGGDAFDAXAAGXAXXXGFFDDDGGDGDVDAFVDVFAFVGFFDGAVFFFDVAVXDFDVGVXXVADAAADDFFDGVVGVGGAVXGGDXGVGFGVDAFXADDDFFVDFFFFVGXVVGDVVXDFDGVVAXGAVADAGAXFAAFDDXADAF",
+      "control_seed": 20261102172000
+    },
+    {
+      "source_record": "p92_A",
+      "source_family": "Dutch_courier",
+      "source_span": [
+        0,
+        89
+      ],
+      "key_id": "Nov25-28",
+      "width": 23,
+      "plaintext": "NRX607XBITTEDAFUERZUSORGENXDASSNIEDERLAENDISCHERKURIERXRITTMEISTERXVREEDEXDERMITUNSEREMXC",
+      "true_ranks": [
+        6,
+        8,
+        14,
+        16,
+        19,
+        11,
+        7,
+        23,
+        1,
+        10,
+        17,
+        20,
+        9,
+        13,
+        12,
+        4,
+        22,
+        3,
+        5,
+        18,
+        21,
+        2,
+        15
+      ],
+      "ciphertext": "A??DXFXGVXDAFXVFGAGVXVAXFFGXGGFFFFXVFXDXVFVFFDVXXXDFDAADFDFDXXGGAFVFVFFVFGGVFVGAGXFVFFAGVXDXVVDFADFDXXVFDXVFAFGAAFGXGDDXGDDGGDDDFFADVDFGGVFXDXGAVAFAXDXFFVDFFFGFAFFFXFXGDGXXVDFFDX",
+      "control_seed": 20261102172001
+    }
+  ],
+  "models": {
+    "book": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+    "radio": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67"
+  },
+  "budget": {
+    "restarts": 1000,
+    "iterations": 100000,
+    "configured_proposal_slots": 100000000
+  },
+  "engine_source_sha256": "b45b91e6a776332feee4e3d8207dbb73deb3032a3b1c0ad03af2e64224652168",
+  "engine_binary_sha256": "40e0b6b356f24e8d12a26c809ca80c11d5adebfab926f39a213469ec64af435e",
+  "gate": "Both radio controls recover the true ranks and every raw fixed plaintext position, with the complete truth in all domains; total radio fixed-position accuracy must be at least book accuracy.",
+  "conditional_historical_settings": [
+    [
+      "Oct4-6",
+      22
+    ],
+    [
+      "Nov19-21",
+      20
+    ],
+    [
+      "Nov25-28",
+      23
+    ]
+  ],
+  "qualification": "The entire two source families are excluded from the frozen radio model. They were used in other calibration regimes; fresh cipher realizations are not independent historical samples. The branch follows the p170 fixed-square calibration. No objective, seed or budget is tuned after these results."
+}

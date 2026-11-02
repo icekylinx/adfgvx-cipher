@@ -11,7 +11,7 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     strategy:
       matrix:
         python: ['3.10', '3.13']
@@ -23,7 +23,9 @@ jobs:
       - name: Recompute core source and cipher certificates
         run: python -m adfgvx.verify
       - name: Check the challenge and wider-corpus reading tables
-        run: python -m adfgvx.catalog --check
+        run: |
+          python -m adfgvx.catalog --check
+          python experiments/session_review/verify.py --verify
       - name: Verify wider-corpus source readings
         run: |
           python experiments/corpus_readings/verify.py --verify
@@ -44,6 +46,9 @@ jobs:
           python experiments/corcovado_sale_terms/verify.py --verify
           python experiments/turkish_tonnage/verify.py --verify
           python experiments/constantinople_civilians/verify.py --verify
+          python experiments/breslau_staff_transfer/verify.py --verify
+          python experiments/lei_note_exchange/verify.py --verify
+          python experiments/crown_cash_requests/verify.py --verify
           python experiments/boots_request/geometry.py --verify
           python experiments/boots_request/verify.py --verify
           python experiments/boots_request/breslau_context/verify.py --verify
@@ -59,6 +64,17 @@ jobs:
           python experiments/courier_recovery/build.py --verify
           python experiments/courier_recovery/verify.py
           python experiments/open_targets_continuation/verify.py --verify
+      - name: Verify new word, radio and open-target witnesses
+        run: |
+          python experiments/p198_word_search/verify.py
+          python experiments/radio_domain_model/verify.py
+          python experiments/p170_new_methods/verify.py
+          python experiments/p73_new_methods/verify.py --skip-assignment
+      - name: Independently verify all reported source-retrieval assignments
+        if: matrix.python == '3.13'
+        run: |
+          python -m pip install -r experiments/p73_new_methods/requirements-assignment.txt
+          python experiments/p73_new_methods/verify.py
       - name: Check recorded truncation constraints
         run: python experiments/known_key/verify_p170.py experiments/known_key/p170_experiment.json
       - name: Build search engines and check controls

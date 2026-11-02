@@ -1,0 +1,325 @@
+{
+  "schema": "adfgvx-lei-note-exchange-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov25-28",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      21,
+      9,
+      6,
+      14,
+      10,
+      20,
+      1,
+      16,
+      18,
+      7,
+      15,
+      4,
+      11,
+      22,
+      5,
+      17,
+      23,
+      2,
+      12,
+      8,
+      19,
+      3,
+      13
+    ],
+    "column_count": 23,
+    "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "square_rows": [
+      "HQ05DK",
+      "ZAOYM6",
+      "BEIWTJ",
+      "7PSCFL",
+      "V94132",
+      "NGURX8"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p223_header",
+      "path": "sources/p223_header.png",
+      "printed_page": 223,
+      "pdf_page_1based": 226,
+      "crop_pdf_points": [
+        75,
+        142,
+        535,
+        193
+      ],
+      "render_scale": 4,
+      "sha256": "6b22d5427cc6c65e4775b660da774ff9d4cd0381858d7bae20e9c88fdad89feb"
+    },
+    {
+      "id": "p223_A1",
+      "path": "sources/p223_A1.png",
+      "printed_page": 223,
+      "pdf_page_1based": 226,
+      "crop_pdf_points": [
+        80,
+        164,
+        535,
+        288
+      ],
+      "render_scale": 4,
+      "sha256": "93562a9fb5bdc1f1b26479a8920d4de116c40fd47f488ec2e5e30a69cc8a8306"
+    },
+    {
+      "id": "p223_A2",
+      "path": "sources/p223_A2.png",
+      "printed_page": 223,
+      "pdf_page_1based": 226,
+      "crop_pdf_points": [
+        90,
+        290,
+        535,
+        364
+      ],
+      "render_scale": 4,
+      "sha256": "0e5957e7fd76c2c8d57306a6c78ed587ab6aac384cb3a11d5a3f3cfc4f41c97e"
+    },
+    {
+      "id": "p223_A3",
+      "path": "sources/p223_A3.png",
+      "printed_page": 223,
+      "pdf_page_1based": 226,
+      "crop_pdf_points": [
+        90,
+        368,
+        535,
+        483
+      ],
+      "render_scale": 4,
+      "sha256": "e69f2e12fb33a7f91657875957af76115c1f916603f9023c2a150a2710355254"
+    },
+    {
+      "id": "p223_A1_short_group",
+      "path": "sources/p223_A1_short_group.png",
+      "printed_page": 223,
+      "pdf_page_1based": 226,
+      "crop_pdf_points": [
+        160,
+        222,
+        522,
+        245
+      ],
+      "render_scale": 9,
+      "sha256": "94841bdf98499cf26436239484db3f73ffd4502df082dee42500a317b1f08de6"
+    },
+    {
+      "id": "p223_A3_invalid_C",
+      "path": "sources/p223_A3_invalid_C.png",
+      "printed_page": 223,
+      "pdf_page_1based": 226,
+      "crop_pdf_points": [
+        376,
+        440,
+        395,
+        453
+      ],
+      "render_scale": 18,
+      "sha256": "8414f5dee65a25d3d3bda7af35e899cd1fb3fddddabfda7cf03207dc22475635"
+    }
+  ],
+  "records": [
+    {
+      "id": "p223_A1",
+      "printed_page": 223,
+      "pdf_page_1based": 226,
+      "source_section": "A1",
+      "source_image_id": "p223_A1",
+      "key_id": "Nov25-28",
+      "header": "A) UKS v BSL (02.27 a.m., November 28th); 1.30 (11/27), 3 TLE; 1 TL RICHI-342",
+      "page_heading": "27th NOVEMBER, 1918.",
+      "source_rows": [
+        "XAGAF VFGXD XFFFF AGDFA GDXFG DFDXD FDAXV XVFAF",
+        "DFAXV FDXVA GGDFA FDVFF DGAXV XDDFX XGFAA FFVFD",
+        "XDXVX DXDDF DVDAD DXDGF DDXGX GFFFA DFVAA EDFVF",
+        "GAFDF VFDFX FDFFD FFDFA FAFGX DFXDF AXGFA XFGVA",
+        "DFAXG FFAFG FDFGX DDXF DDGFG DAFDX VFAXX VFFXF",
+        "AAXFF AGVDD FFXDX FFFXA DDXVX XVDXA DAXDX FXDFF",
+        "XXGXA FDFDA FXVXD FAXGF DXDXA FAFDD XDFAG DFXDF",
+        "XDVXD XVADX DDAFG XVDDX FFVXD FDGFF VDDXA DDFFX",
+        "FXVGA DGXDF FFAXD DDFAG GF"
+      ],
+      "source_slots": 341,
+      "valid_source_coordinates": 340,
+      "advertised_length": 342,
+      "model": {
+        "kind": "insert_missing_coordinate",
+        "source_gap": 176,
+        "short_group_source_start": 175,
+        "short_group_source_end_exclusive": 179,
+        "all_source_local_gap_alternatives": [
+          175,
+          176,
+          177,
+          178,
+          179
+        ]
+      },
+      "expected_raw": "OKMXUMEINLOESUNGABGESPANTELTENLEINOTENVORZUBEREITENXERBITTENDRAHTNCHRXUEBERUNGEFAEHRAUSGEGEBENENGESAOTBETRAGSTUECKELUNGUNDGENAUEEINZELHE?TENWIEABSP?NTELUNGVORGENOMMEWURDEX",
+      "readable_candidate": "OKMXUMEINLOESUNGABGESTEMPELTENLEINOTENVORZUBEREITENXERBITTENDRAHTNCHRXUEBERUNGEFAEHRAUSGEGEBENENGESAMTBETRAGSTUECKELUNGUNDGENAUEEINZELHEITENWIEABSTEMPELUNGVORGENOMMEWURDEX",
+      "notes": [
+        "The fifth row has four-letter DDXF, but VFAXX is a complete five-letter group. The last group in that row is VFFXF, not VFFAF.",
+        "The printed E at source index 115 is an invalid coordinate and is retained literally.",
+        "All 342 one-loss insertion boundaries are screened against the ordinary-word candidate. Gap 176 is the unique minimum, within the short DDXF group. All five source-local gaps 175 through 179 are retained as raw alternatives.",
+        "The candidate keeps VORGENOMME, without supplying the apparently omitted N."
+      ]
+    },
+    {
+      "id": "p223_A2",
+      "printed_page": 223,
+      "pdf_page_1based": 226,
+      "source_section": "A2",
+      "source_image_id": "p223_A2",
+      "key_id": "Nov25-28",
+      "header": "A) UKS v BSL (02.27 a.m., November 28th); 1.30 (11/27), 3 TLE; 2 TL RICHI-248",
+      "page_heading": "27th NOVEMBER, 1918.",
+      "source_rows": [
+        "FGFAX VDXXD DAFVG AFGXD FVDXV XADDX DXXXD FVFVA",
+        "GXFFD GDXDX GGDXF VFFFF XFXAX FXDDF AVDXG DFDGG",
+        "VGFFF FGFXF XDADV DAXDX GFGXA FFGGA XAFDA XDGFD",
+        "AXFDD GAFDG AXVAD VAFAF FDGDX DXFXF GFDDF ADGDV",
+        "GGXAF AXAVG GFDXV FAXFD XFADG FVDVX GFFFF DXDXF",
+        "FDDFG XAAFF VFDXX FFAAG VDAGA DXXFX DFXXG FDXVF",
+        "DVGXF FFX"
+      ],
+      "source_slots": 248,
+      "valid_source_coordinates": 248,
+      "advertised_length": 248,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "WIRWOLLENOESTERRUNGXBANKENBEAUFTRXNICHTABGESPXLEINOTENVMNDORTXHEERESAZGXZXMKURSEVONJ1YKRONENFUERJYYLEIABZUGSFREIEINZULOESENX",
+      "readable_candidate": "WIRWOLLENOESTERRUNGXBANKENBEAUFTRXNICHTABGESPXLEINOTENVONDORTXHEERESAZGXZUMKURSEVONJ1YKRONENFUERJYYLEIABZUGSFREIEINZULOESENX",
+      "notes": [
+        "The fifth group is FVDXV, with an observed V rather than an erasure.",
+        "The raw exchange-rate labels J1Y KRONEN FUER JYY LEI remain unchanged.",
+        "The received abbreviation HEERESAZG remains unexpanded and unrepaired."
+      ]
+    },
+    {
+      "id": "p223_A3",
+      "printed_page": 223,
+      "pdf_page_1based": 226,
+      "source_section": "A3",
+      "source_image_id": "p223_A3",
+      "key_id": "Nov25-28",
+      "header": "A) UKS v BSL (02.27 a.m., November 28th); 1.30 (11/27), 3 TLE; 3 TL RICHI-410",
+      "page_heading": "27th NOVEMBER, 1918.",
+      "source_rows": [
+        "FGXDF ADAGG GDAGF DFXAX DDAFA DADFX VVXXA XFXXX",
+        "DFGAA FDFDD VFXDX GFAFX FAAFX VFXXX GDVFV FAFGF",
+        "GGDXD FVVAF FAFFV XFXAG AADXV GVFDD FDFG- GF-AV",
+        "AVG-X AGAXG DXXDD XDDDV FVDGD DVAVG XXFXX FXDDX",
+        "XVXAX DDDXD AAXGF VAXXF ADAVF DFAGV DDVDV GDFXD",
+        "FAGDF VGAFG XGXVX DXVXG FVXAF DVGAD FAGVX VFXFD",
+        "DGXAX VXFFG AGAXF AAAFG AXVFX FADXF DADDX FAXFX",
+        "XXGDD DDVXD AFADF FFGXA AFXGV FFCFX VGAXD DVXXG",
+        "DXFAD FADAX DXAFX XFFDX GFVXV XVGAD VFXDV VDDFG",
+        "AGVDG VGDGA XXXXV DXFXG DXGXF FDGXX FAFDF GXFXA",
+        "FDDFD VDXGV"
+      ],
+      "source_slots": 410,
+      "valid_source_coordinates": 406,
+      "advertised_length": 410,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "ABGESPXABZUGSFRXZUMAUSGEDRUECKTENKRONEOBETRAGXDTXB?NKENWERDENOIT70BZW38MARKEINLYESENX?ERHANDLGXSCHWEBENXNACHIHREMABSCHL?SSSOLGENNAEHXEINZELHXKMXARMEEVERWXDEPX16Y8XJJXJ2B6XXKMXALLGXKRIEGSDE?J447XJJXJ2ANCHXX",
+      "readable_candidate": "ABGESPXABZUGSFRXZUMAUSGEDRUECKTENKRONENBETRAGXDTXBANKENWERDENMIT70BZW38MARKEINLOESENXVERHANDLGXSCHWEBENXNACHIHREMABSCHLUSSFOLGENNAEHXEINZELHXKMXARMEEVERWXDEPX16Y8XJJXJ2B6XXKMXALLGXKRIEGSDEPJ447XJJXJ2ANCHXX",
+      "notes": [
+        "AFXGV is five letters, not a six-slot group; no source deletion is needed.",
+        "The three printed dashes at indices 114, 117 and 123 and invalid C at 307 are retained literally as source erasures.",
+        "The raw rate labels 70 BZW 38 and every footer label remain unchanged."
+      ]
+    }
+  ],
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "No explicit p223 A exchange-instruction body discussion was located in the bounded paper text check."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "No explicit p223 A exchange-instruction body discussion was located in the bounded ADFGVX chapter check."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit p223 A exchange-instruction body was located in the cached 55-comment snapshot."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p223_ocr_block1",
+        "p223_ocr_block2",
+        "p223_ocr_block3"
+      ],
+      "specific_unreviewed_retrieval": "experiments/p73_new_methods/retrieval_inputs.json",
+      "specific_retained_block": "p223_ocr_block2",
+      "interpretation": "The complete OCR corpus and an unreviewed A2 retrieval candidate predate this source edition. No first-computation or universal priority claim is made."
+    }
+  },
+  "interpretation_policy": [
+    "All monetary amounts and reference/date digits or J/Q/Y labels remain in their published-square form.",
+    "Neither plausible market rates nor modern currency histories are used to change a key assignment.",
+    "HEERESAZG and VORGENOMME remain explicit as received textual limitations."
+  ]
+}

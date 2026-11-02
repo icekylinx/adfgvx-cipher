@@ -1,0 +1,198 @@
+{
+  "schema": "p170-new-methods-verification-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "result_files_sha256": {
+    "cross_period_results.json": "2997f5cc5808d29383b4da0c117e355a1d066bd69ba71969e98ab3ba7022f82e",
+    "radio_rank_results.json": "84aa50331e9f13380e48075e0fe2581e149dc9cd4c9f75cd089c50c5b2d67673",
+    "radio_historical_results.json": "bc9ae4ed9c0ea40a3147cf59074d106a32f8a6ac7677d0415551114b83e0937c",
+    "group_move_results.json": "1d8e6add331b755a35e4addd9ef1dd0661a9bd34b124f9de65f4e8726894517a"
+  },
+  "prior_scope_inventory_sha256": "41a560d4f1ded59909a6c200f1d4723a0d76a00106edb68d803a73743fc3c1af",
+  "prior_scope_jobs_excluded_from_new_campaign_budgets": 48,
+  "cross_period": {
+    "initial_controls": {
+      "completed": 6,
+      "configured_proposal_slots": 600000000,
+      "controls": true,
+      "accepted_historical_plaintexts": 0,
+      "exact_control_plaintexts": 4
+    },
+    "selected_failure_repeats": {
+      "completed": 2,
+      "configured_proposal_slots": 1000000000,
+      "exact_plaintexts": 1
+    },
+    "historical": {
+      "completed": 54,
+      "configured_proposal_slots": 5400000000,
+      "controls": false,
+      "accepted_historical_plaintexts": 0
+    }
+  },
+  "radio_rank_controls": {
+    "completed_jobs": 12,
+    "per_model": {
+      "book": {
+        "exact_plaintexts": 2,
+        "control_count": 6
+      },
+      "radio_mixture": {
+        "exact_plaintexts": 5,
+        "control_count": 6
+      }
+    },
+    "total_actual_counts": {
+      "completed_restarts": 12000,
+      "annealing_slots": 1200000000,
+      "annealing_fitness_calls": 1200000000,
+      "polish_fitness_calls": 2118195,
+      "total_fitness_calls": 1202130195
+    },
+    "historical_plaintexts_tested": 0
+  },
+  "radio_historical": {
+    "completed_jobs": 28,
+    "accepted_historical_plaintexts": 0,
+    "actual_search_counts": {
+      "completed_restarts": 28000,
+      "annealing_slots": 2800000000,
+      "annealing_fitness_calls": 2693773478,
+      "polish_fitness_calls": 6335421,
+      "total_fitness_calls": 2700136899
+    }
+  },
+  "group_moves": {
+    "fixed_key_pairs": 24,
+    "models": 2,
+    "historical_operation_descriptions_per_model": 10104,
+    "historical_distinct_candidate_frames_per_model": 9624,
+    "historical_score_evaluations": 19248,
+    "controls": 3,
+    "control_model_pairs": 6,
+    "exact_control_leaders": 5,
+    "accepted_historical_plaintexts": 0
+  },
+  "group_move_control_score_evaluations": 2406,
+  "radio_historical_raw_known_counts": [
+    {
+      "id": "p170_radio_Nov7-9_w20",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w20",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 46
+    },
+    {
+      "id": "p170_radio_Nov4-6_w20",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov10-12_w20",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov7-9_w19",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 52
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w19",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 44
+    },
+    {
+      "id": "p170_radio_Nov4-6_w19",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov10-12_w19",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov7-9_w21",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w21",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 45
+    },
+    {
+      "id": "p170_radio_Nov4-6_w21",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov10-12_w21",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov7-9_w18",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 51
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w18",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 44
+    },
+    {
+      "id": "p170_radio_Nov4-6_w18",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov10-12_w18",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov7-9_w22",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 52
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w22",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 47
+    },
+    {
+      "id": "p170_radio_Nov4-6_w22",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov10-12_w22",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov7-9_w17",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w17",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 39
+    },
+    {
+      "id": "p170_radio_Nov4-6_w17",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov10-12_w17",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov7-9_w16",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_CHI-Nov8-2026-recovery_w16",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 42
+    },
+    {
+      "id": "p170_radio_Nov4-6_w16",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 53
+    },
+    {
+      "id": "p170_radio_Nov10-12_w16",
+      "baseline_square_fixed_plaintext_positions_at_returned_ranks": 52
+    }
+  ],
+  "accepted_p170_plaintexts": 0,
+  "limits": [
+    "Arithmetic and provenance checks do not authenticate a historical reading.",
+    "No search nonrecovery excludes a key, width or damaged-source model.",
+    "Archived full-square witnesses do not fill the historical partial keys.",
+    "Exact recorded fitness-call counts are not distinct evaluated states.",
+    "The legacy configured_proposal_slots fields count loop slots, not exact fitness calls."
+  ]
+}

@@ -1,0 +1,1798 @@
+{
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "target_id": "p73",
+  "ciphertext": "D??FXGDVDXDGGAAAGFFDDVDXFXFGGDDAVGDDDADGDGFGGDDVVDXDGDAFDDXGXXDGXAVDXXDDGADDFGFAGVDXVFDXFDDFDDDFXDFGXFXVFDDDXXDXGDAGXFDGDDVFXGAXDFVFDVDXVXDFXDDXFDFVDGFDGDADGDGXXFGXFAAAXXXDXAGVXD",
+  "source_record": "data/messages.json:p73",
+  "source_note": "Literal 178-slot frame, 176 valid coordinates and two explicit erasures; no source coordinate is changed by these searches.",
+  "catalogued_keys": [
+    {
+      "id": "Sep19-21",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        12,
+        2,
+        7,
+        20,
+        10,
+        19,
+        1,
+        13,
+        9,
+        18,
+        3,
+        17,
+        21,
+        8,
+        14,
+        4,
+        6,
+        16,
+        11,
+        22,
+        5,
+        15
+      ],
+      "column_count": 22,
+      "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+      "square_rows": [
+        "D5613Q",
+        "9KBNO0",
+        "HY8EIS",
+        "JUTZFC",
+        "W7VPML",
+        "2ARG4X"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 236,
+          "pdf_page_1based": 239,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Oct4-6",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        4,
+        13,
+        3,
+        14,
+        1,
+        16,
+        9,
+        15,
+        5,
+        19,
+        10,
+        18,
+        6,
+        17,
+        7,
+        20,
+        11,
+        21,
+        8,
+        12,
+        22,
+        2
+      ],
+      "column_count": 22,
+      "square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+      "square_rows": [
+        "YN87PJ",
+        "3WRUCI",
+        "EO1SKL",
+        "ZX0DFB",
+        "H6MT9A",
+        "2QV54G"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 237,
+          "pdf_page_1based": 240,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [
+        "The historical page prints row labels A,D,G,F,V,X; the canonical square reorders rows to A,D,F,G,V,X. Rank 21 is a handwritten correction in the scan."
+      ],
+      "baseline_square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Oct28-31",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        15,
+        12,
+        16,
+        5,
+        7,
+        14,
+        4,
+        13,
+        8,
+        11,
+        1,
+        17,
+        2,
+        10,
+        3,
+        18,
+        9
+      ],
+      "column_count": 18,
+      "square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+      "square_rows": [
+        "HI20SX",
+        "RUWQY8",
+        "EK7O61",
+        "9CBJAP",
+        "453FDZ",
+        "TGLMVN"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 238,
+          "pdf_page_1based": 241,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Nov1-3",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        3,
+        16,
+        4,
+        15,
+        7,
+        12,
+        18,
+        6,
+        17,
+        8,
+        19,
+        1,
+        13,
+        10,
+        2,
+        14,
+        11,
+        9,
+        5
+      ],
+      "column_count": 19,
+      "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "square_rows": [
+        "UILOF9",
+        "RCZVSX",
+        "02G7QT",
+        "D8WNB5",
+        "JMHEKP",
+        "Y41A36"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 239,
+          "pdf_page_1based": 242,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Nov4-6",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ],
+      "column_count": 17,
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "square_rows": [
+        "17WHFL",
+        "J5D2UP",
+        "EXKVZ9",
+        "O0Q3Y6",
+        "R8ABGI",
+        "TCMS4N"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 240,
+          "pdf_page_1based": 243,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [
+        "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+      ],
+      "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Nov7-9",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ],
+      "column_count": 20,
+      "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "square_rows": [
+        "PRMYUW",
+        "3LZGES",
+        "8C71QO",
+        "V29ITB",
+        "40?KXH",
+        "?AJNDF"
+      ],
+      "known_cell_count": 34,
+      "missing_plaintext_symbols": "56",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 241,
+          "pdf_page_1based": 244,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+      ],
+      "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "baseline_differences": [
+        {
+          "coordinate": "VF",
+          "baseline": "5",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XA",
+          "baseline": "6",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-01",
+        "comment": 20,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "VF",
+            "proposed": "5"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Nov10-12",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        9,
+        12,
+        7,
+        11,
+        3,
+        8,
+        16,
+        6,
+        14,
+        2,
+        10,
+        15,
+        5,
+        13,
+        1,
+        4
+      ],
+      "column_count": 16,
+      "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "square_rows": [
+        "4ARUT1",
+        "OIFSKN",
+        "3?BZPV",
+        "LD?JMX",
+        "CWHQ2E",
+        "?G0?Y?"
+      ],
+      "known_cell_count": 31,
+      "missing_plaintext_symbols": "56789",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 242,
+          "pdf_page_1based": 245,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "The historical appendix also labels this table December 1-3."
+      ],
+      "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "baseline_differences": [
+        {
+          "coordinate": "FD",
+          "baseline": "5",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GF",
+          "baseline": "6",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XA",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XG",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "9",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+      "previously_published_completion": {
+        "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 26,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "FD",
+            "proposed": "5"
+          },
+          {
+            "row_column": "GF",
+            "proposed": "6"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "7"
+          },
+          {
+            "row_column": "XG",
+            "proposed": "8"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Nov13-15a",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        13,
+        8,
+        6,
+        16,
+        7,
+        18,
+        1,
+        14,
+        9,
+        20,
+        10,
+        15,
+        17,
+        2,
+        3,
+        11,
+        5,
+        19,
+        4,
+        12
+      ],
+      "column_count": 20,
+      "square": "JZLH?R??S?T?MKDWU?V?B?P??FAO?GIX?CNE",
+      "square_rows": [
+        "JZLH?R",
+        "??S?T?",
+        "MKDWU?",
+        "V?B?P?",
+        "?FAO?G",
+        "IX?CNE"
+      ],
+      "known_cell_count": 24,
+      "missing_plaintext_symbols": "0123456789QY",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 244,
+          "pdf_page_1based": 247,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "JZLH+R++S+T+MKDWU+V+B+P++FAO+GIX+CNE",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Nov13-15b",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "column_count": 16,
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "square_rows": [
+        "H??BMU",
+        "F15PX0",
+        "DJLR??",
+        "??S6VO",
+        "NKZ?AW",
+        "ITEGC?"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "234789QY",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 244,
+          "pdf_page_1based": 247,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "baseline_differences": [
+        {
+          "coordinate": "AD",
+          "baseline": "2",
+          "audited": "?"
+        },
+        {
+          "coordinate": "AF",
+          "baseline": "3",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FV",
+          "baseline": "4",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FX",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GA",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GD",
+          "baseline": "9",
+          "audited": "?"
+        },
+        {
+          "coordinate": "VG",
+          "baseline": "Q",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "Y",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 24,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "AD",
+            "proposed": "2"
+          },
+          {
+            "row_column": "AF",
+            "proposed": "3"
+          },
+          {
+            "row_column": "FV",
+            "proposed": "4"
+          },
+          {
+            "row_column": "FX",
+            "proposed": "7"
+          },
+          {
+            "row_column": "GA",
+            "proposed": "8"
+          },
+          {
+            "row_column": "GD",
+            "proposed": "9"
+          },
+          {
+            "row_column": "VG",
+            "proposed": "Q"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Nov16-18",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        12,
+        1,
+        14,
+        8,
+        16,
+        13,
+        9,
+        19,
+        3,
+        15,
+        4,
+        10,
+        18,
+        6,
+        2,
+        11,
+        17,
+        5
+      ],
+      "column_count": 19,
+      "square": "WG?EITNHUB2R??FDZJS???PY?VQL?1OAXMKC",
+      "square_rows": [
+        "WG?EIT",
+        "NHUB2R",
+        "??FDZJ",
+        "S???PY",
+        "?VQL?1",
+        "OAXMKC"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "03456789",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 243,
+          "pdf_page_1based": 246,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "The historical appendix and Lasry also label this table December 7-9.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "WG+EITNHUB2R++FDZJS+++PY+VQL+1OAXMKC",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key",
+      "documented_reuse": "7-9 December, per Childs appendix page 243 and NSA summary pages 41-42."
+    },
+    {
+      "id": "Nov19-21",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        13,
+        20,
+        3,
+        16,
+        7,
+        14,
+        4,
+        12,
+        8,
+        11,
+        5,
+        15,
+        2,
+        18,
+        17,
+        10,
+        19,
+        6,
+        1,
+        9
+      ],
+      "column_count": 20,
+      "square": "LC58QH7VI2YB9EURO60GX3MTFAKP1D4NJZSW",
+      "square_rows": [
+        "LC58QH",
+        "7VI2YB",
+        "9EURO6",
+        "0GX3MT",
+        "FAKP1D",
+        "4NJZSW"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "LC58QH7VI2YB9EURO60GX3MTFAKP1D4NJZSW",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Nov22-24",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        12,
+        16,
+        7,
+        14,
+        22,
+        11,
+        18,
+        1,
+        15,
+        8,
+        10,
+        20,
+        2,
+        13,
+        21,
+        3,
+        17,
+        19,
+        5,
+        9,
+        4
+      ],
+      "column_count": 22,
+      "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+      "square_rows": [
+        "QNZ72X",
+        "S4C0IJ",
+        "Y3RBEK",
+        "L9FD6G",
+        "MTHUVW",
+        "A5O8P1"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Nov25-28",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        21,
+        9,
+        6,
+        14,
+        10,
+        20,
+        1,
+        16,
+        18,
+        7,
+        15,
+        4,
+        11,
+        22,
+        5,
+        17,
+        23,
+        2,
+        12,
+        8,
+        19,
+        3,
+        13
+      ],
+      "column_count": 23,
+      "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+      "square_rows": [
+        "HQ05DK",
+        "ZAOYM6",
+        "BEIWTJ",
+        "7PSCFL",
+        "V94132",
+        "NGURX8"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Nov28-Dec1",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        9,
+        3,
+        14,
+        10,
+        2,
+        8,
+        15,
+        4,
+        16,
+        11,
+        5,
+        13,
+        6,
+        12,
+        1,
+        7
+      ],
+      "column_count": 16,
+      "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "square_rows": [
+        "782GPY",
+        "5OQHF9",
+        "1UDNI3",
+        "64TLVX",
+        "EAR0JZ",
+        "BKMCSW"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "CHI-Nov13",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        3,
+        13,
+        2,
+        12,
+        1,
+        11,
+        15,
+        8,
+        9,
+        4,
+        5,
+        14,
+        6,
+        10,
+        7,
+        16
+      ],
+      "column_count": 16,
+      "published_keyword": "CMBLAKOHIDENFJGP",
+      "square": "AROT?WH??C??SVU?I?DXBP?????NZELFK?G?",
+      "square_rows": [
+        "AROT?W",
+        "H??C??",
+        "SVU?I?",
+        "DXBP??",
+        "???NZE",
+        "LFK?G?"
+      ],
+      "known_cell_count": 22,
+      "missing_plaintext_symbols": "0123456789JMQY",
+      "provenance": [
+        {
+          "type": "published_solver_result",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comments": [
+            50,
+            53
+          ],
+          "authors": [
+            "George Lasry",
+            "Norbert"
+          ],
+          "date": "2017-05-03"
+        }
+      ],
+      "derivation": {
+        "raw_plaintext_from_comment50": "RUSSISCHETUNDPOLNHEERESVERGEHRVOLLERFASSENKWICHTIMESBESONDERSAUSPOLNVERGEHRUEBEROHLSTATIONVERZIFFERTFUNGENSOWEITFERNSCHREIBERVERBDMNITHTARBEICETKRESTSCHRIFTLICHKNACHCHEFJKJX",
+        "raw_plaintext_length": 173,
+        "ciphertexts": [
+          "p187",
+          "p187b"
+        ],
+        "ciphertext_lengths": [
+          212,
+          142
+        ],
+        "independent_transposition_per_message": true,
+        "raw_square_before_comment53": "AROT?WH??C??SVU?I?DKBP???JXNZELFG?M?",
+        "pair_mapping_conflicts": [],
+        "comment53_symbol_substitutions": {
+          "G": "K",
+          "M": "G",
+          "K": "X",
+          "J": "?",
+          "X": "?"
+        },
+        "raw_digit_candidates": {
+          "VD": "raw J; possibly digit, value unresolved",
+          "VF": "raw X; possibly digit, value unresolved"
+        },
+        "unexplained_trailing_plaintext_slots": 4
+      },
+      "notes": [
+        "The published raw plaintext contains 173 characters; the received two ciphertexts total 354 symbols = 177 plaintext slots. The comment refers to 356 symbols, an arithmetic or transcription discrepancy. This derivation uses only the first 173 aligned slots.",
+        "The second X in baseline/Bourdeau is not an attested separator. It is a raw solver label which comment 53 identifies as a possible digit. Preserve VD and VF as unknown until independently resolved.",
+        "No grammar corrections were used to derive the square. Source plaintext garbles are retained."
+      ],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Jul18",
+      "column_rank_order": [
+        1,
+        6,
+        3,
+        12,
+        8,
+        16,
+        2,
+        15,
+        7,
+        14,
+        4,
+        11,
+        13,
+        5,
+        10,
+        9
+      ],
+      "column_count": 16,
+      "coordinate_order": "ADFGVX",
+      "square": "??PDGLM?TVC?AZH?X?W?E?SI??N?FU?O?RKB",
+      "square_rows": [
+        "??PDGL",
+        "M?TVC?",
+        "AZH?X?",
+        "W?E?SI",
+        "??N?FU",
+        "?O?RKB"
+      ],
+      "known_cell_count": 23,
+      "raw_row_and_column_label_order": "ADFGVX",
+      "raw_square_rows": [
+        "??PDGL",
+        "M?TVC?",
+        "AZH?X?",
+        "W?E?SI",
+        "??N?FU",
+        "?O?RKB"
+      ],
+      "notes": [
+        "RICHI (OSM-LP); received from the British Cipher Bureau; notice dated August 27, 1918.",
+        "Blank cells are preserved as unknown; no unobserved digits or letters are supplied."
+      ],
+      "provenance": {
+        "author": "J. Rives Childs",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "printed_page": 234,
+        "pdf_page_1based": 237,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      "category": "additional_historical_key"
+    },
+    {
+      "id": "Jul22",
+      "column_rank_order": [
+        21,
+        11,
+        19,
+        4,
+        18,
+        5,
+        14,
+        3,
+        6,
+        13,
+        12,
+        15,
+        7,
+        20,
+        8,
+        16,
+        2,
+        17,
+        9,
+        10,
+        1
+      ],
+      "column_count": 21,
+      "coordinate_order": "ADFGVX",
+      "square": "G??ESXMO??B1K?R?LPC?JT?VUFAZW?HND?I?",
+      "square_rows": [
+        "G??ESX",
+        "MO??B1",
+        "K?R?LP",
+        "C?JT?V",
+        "UFAZW?",
+        "HND?I?"
+      ],
+      "known_cell_count": 25,
+      "raw_row_and_column_label_order": "ADFGVX",
+      "raw_square_rows": [
+        "G??ESX",
+        "MO??B1",
+        "K?R?LP",
+        "C?JT?V",
+        "UFAZW?",
+        "HND?I?"
+      ],
+      "notes": [
+        "NKJ and KOW v LP; first note dated August 15.",
+        "Blank cells are preserved as unknown; no unobserved digits or letters are supplied."
+      ],
+      "provenance": {
+        "author": "J. Rives Childs",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "printed_page": 233,
+        "pdf_page_1based": 236,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      "category": "additional_historical_key"
+    },
+    {
+      "id": "Aug3",
+      "column_rank_order": [
+        8,
+        19,
+        4,
+        11,
+        3,
+        14,
+        5,
+        1,
+        13,
+        18,
+        2,
+        17,
+        6,
+        15,
+        12,
+        9,
+        7,
+        16,
+        10
+      ],
+      "column_count": 19,
+      "coordinate_order": "ADFGVX",
+      "square": "B?G??XP???H??V?EUO?ATIK?Z?RFWLDSN?CM",
+      "square_rows": [
+        "B?G??X",
+        "P???H?",
+        "?V?EUO",
+        "?ATIK?",
+        "Z?RFWL",
+        "DSN?CM"
+      ],
+      "known_cell_count": 23,
+      "raw_row_and_column_label_order": "ADFGVX",
+      "raw_square_rows": [
+        "B?G??X",
+        "P???H?",
+        "?V?EUO",
+        "?ATIK?",
+        "Z?RFWL",
+        "DSN?CM"
+      ],
+      "notes": [
+        "RICHI (OSM-LP); received from British War Office with messages received from Salonika; notice dated September 2, 1918.",
+        "Blank cells are preserved as unknown; no unobserved digits or letters are supplied."
+      ],
+      "provenance": {
+        "author": "J. Rives Childs",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "printed_page": 235,
+        "pdf_page_1based": 238,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      "category": "additional_historical_key"
+    },
+    {
+      "id": "Aug8-9",
+      "column_rank_order": [
+        10,
+        5,
+        14,
+        18,
+        6,
+        2,
+        7,
+        20,
+        11,
+        19,
+        15,
+        1,
+        17,
+        12,
+        16,
+        3,
+        13,
+        8,
+        9,
+        4
+      ],
+      "column_count": 20,
+      "coordinate_order": "ADFGVX",
+      "square": "5W02IF?PULZCBRX?GKVTNSADOH??3?18EJMQ",
+      "square_rows": [
+        "5W02IF",
+        "?PULZC",
+        "BRX?GK",
+        "VTNSAD",
+        "OH??3?",
+        "18EJMQ"
+      ],
+      "known_cell_count": 31,
+      "raw_row_and_column_label_order": "ADFGXV",
+      "raw_square_rows": [
+        "5W02FI",
+        "?PULCZ",
+        "BRX?KG",
+        "VTNSDA",
+        "18EJQM",
+        "OH???3"
+      ],
+      "notes": [
+        "Berlin to Constantinople. Handwritten labels place X before V in both dimensions. Raw order retained and canonical order converted explicitly. Apostrophe marks digit zero.",
+        "Blank cells are preserved as unknown; no unobserved digits or letters are supplied."
+      ],
+      "provenance": {
+        "author": "J. Rives Childs",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "printed_page": 232,
+        "pdf_page_1based": 235,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      "category": "additional_historical_key"
+    },
+    {
+      "id": "Aug20",
+      "column_rank_order": [
+        6,
+        10,
+        7,
+        14,
+        3,
+        8,
+        11,
+        4,
+        15,
+        1,
+        13,
+        12,
+        5,
+        9,
+        2
+      ],
+      "column_count": 15,
+      "coordinate_order": "ADFGVX",
+      "square": "CS?BEWO1?0DL???I?VA?G?M??FHNR?PJXTUK",
+      "square_rows": [
+        "CS?BEW",
+        "O1?0DL",
+        "???I?V",
+        "A?G?M?",
+        "?FHNR?",
+        "PJXTUK"
+      ],
+      "known_cell_count": 25,
+      "raw_row_and_column_label_order": "ADFGVX",
+      "raw_square_rows": [
+        "CS?BEW",
+        "O1?0DL",
+        "???I?V",
+        "A?G?M?",
+        "?FHNR?",
+        "PJXTUK"
+      ],
+      "notes": [
+        "RICHI (OSM-LP); received from the British Cipher Bureau; notice dated August 27, 1918. Apostrophe in DG marks digit zero, distinguished from letter O in DA.",
+        "Blank cells are preserved as unknown; no unobserved digits or letters are supplied."
+      ],
+      "provenance": {
+        "author": "J. Rives Childs",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "printed_page": 234,
+        "pdf_page_1based": 237,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      "category": "additional_historical_key"
+    },
+    {
+      "id": "NSA-undated-CHI-example-18",
+      "column_rank_order": [
+        5,
+        11,
+        8,
+        18,
+        3,
+        10,
+        4,
+        15,
+        7,
+        9,
+        14,
+        16,
+        17,
+        2,
+        12,
+        1,
+        6,
+        13
+      ],
+      "square": "J5YDWNHOMX48RFZ9KV0U7SEBAL32QP6GITC1",
+      "source_printed_pages": [
+        15,
+        16
+      ],
+      "source_pdf_pages_1based": [
+        23,
+        24
+      ],
+      "provenance_status": "Complete key printed for two specimen CHI messages; the source does not date this example. Do not attribute it to November 1918.",
+      "coordinate_order": "ADFGVX",
+      "column_count": 18,
+      "source_url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf",
+      "category": "historical_report_example"
+    },
+    {
+      "id": "NSA-June1-CHI-21",
+      "column_rank_order": [
+        6,
+        16,
+        7,
+        5,
+        17,
+        2,
+        14,
+        10,
+        15,
+        9,
+        13,
+        1,
+        21,
+        12,
+        4,
+        8,
+        19,
+        3,
+        11,
+        20,
+        18
+      ],
+      "square": "????????????????????????????????????",
+      "source_printed_pages": [
+        19,
+        20
+      ],
+      "source_pdf_pages_1based": [
+        27,
+        28
+      ],
+      "provenance_status": "Transposition key displayed in an example explicitly dated June 1, 1918. The substitution square is not transcribed here; unknown-substitution testing is required.",
+      "coordinate_order": "ADFGVX",
+      "column_count": 21,
+      "source_url": "https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf",
+      "category": "historical_report_example"
+    },
+    {
+      "id": "Worked-example-VIKINGSCROWNHOTEL",
+      "keyword": "VIKINGSCROWNHOTEL",
+      "column_rank_order": [
+        16,
+        5,
+        7,
+        6,
+        9,
+        3,
+        14,
+        1,
+        13,
+        11,
+        17,
+        10,
+        4,
+        12,
+        15,
+        2,
+        8
+      ],
+      "square": "VI9KNG7SC3ROWH8TE5LA1B2D4F6J0MPQUXYZ",
+      "coordinate_order": "ADFGVX",
+      "source_pages": [
+        11,
+        12
+      ],
+      "status": "Complete key in the 1934 instructional report. No evidence inspected establishes use in 1918 traffic. Excluded from the historically attested daily-key set.",
+      "category": "instructional_only",
+      "column_count": 17,
+      "provenance": {
+        "source_ref": "childs",
+        "printed_pages": [
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "id": "TRUPPENVERSCHIEBUNG-2026-reported",
+      "keyword": "TRUPPENVERSCHIEBUNG",
+      "column_rank_order": [
+        16,
+        13,
+        17,
+        11,
+        12,
+        3,
+        9,
+        19,
+        4,
+        14,
+        15,
+        2,
+        7,
+        8,
+        5,
+        1,
+        18,
+        10,
+        6
+      ],
+      "column_count": 19,
+      "coordinate_order": "ADFGVX",
+      "square": "TRUPE?NVSC2H7I?B1G6A0D3F5J9KLMOQWXYZ",
+      "reported_full_square": "TRUPE4NVSC2H7I8B1G6A0D3F5J9KLMOQWXYZ",
+      "category": "published_2026_key_claim",
+      "provenance": {
+        "source_ref": "prinz_p217",
+        "keyword_image": "https://substack-post-media.s3.amazonaws.com/public/images/14bbd7e0-16d8-4d08-a638-8eafc691d62a_998x148.jpeg",
+        "square_image": "https://substack-post-media.s3.amazonaws.com/public/images/7172db67-de32-4e63-92ef-05d15fe829eb_861x737.jpeg",
+        "verification": "The published image crops visibly contain this keyword/rank line and square. The complete parent manuscript and the reported December 9 date were not independently obtained."
+      },
+      "notes": [
+        "The two question marks preserve uncertainty between handwritten 4/8 labels. Their reported assignment is given separately, not silently promoted to the conservative source layer.",
+        "The source image distinguishes underlined zero at GF from letter O at XA.",
+        "The published p217 body and the naval-log context support the reported assignment; they are not an independent recovery of every unused square cell.",
+        "This key is not one of the fourteen period keys published by Lasry."
+      ]
+    },
+    {
+      "id": "CHI-Nov8-2026-recovery",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        16,
+        7,
+        13,
+        4,
+        15,
+        8,
+        17,
+        3,
+        1,
+        12,
+        14,
+        2,
+        5,
+        9,
+        10,
+        18,
+        11,
+        6
+      ],
+      "column_count": 18,
+      "square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+      "category": "new_partial_key_recovery",
+      "provenance": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02",
+        "certificate": "data/certificates/p153.json",
+        "method": "Shared-key, separately reset p153 parts 5 and 6; bounded blind column/square search followed by exact conditional verification."
+      },
+      "notes": [
+        "Nineteen ordinary-letter cells are retained. The X separator is a separate interpretation; date and number cells remain unassigned.",
+        "Reversing every adjacent column pair and transposing the square yields an equivalent key representation. No original keyword has been recovered.",
+        "Norbert suggested joint and separate attacks in 2017 comment 56, without a key or plaintext."
+      ]
+    }
+  ],
+  "keys_sha256": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+  "legacy_quad_candidates": "experiments/fixed_search/data/best_fits.json",
+  "legacy_input_identity_check": true
+}

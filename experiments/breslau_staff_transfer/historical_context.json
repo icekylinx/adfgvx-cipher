@@ -1,0 +1,70 @@
+{
+  "schema": "adfgvx-breslau-staff-context-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "unit_location_witness": {
+    "prior_project_source": "experiments/boots_request/breslau_context/source.json",
+    "credit_scope": "Previously located for the boots-request context; this edition independently inspected the preserved title and decree crops and applies that location evidence to a separate message.",
+    "title": "Waldenburger Wochenblatt",
+    "issue": 165,
+    "issue_date": "1917-07-18",
+    "decree_date": "1917-07-06",
+    "url": "https://jbc.jelenia-gora.pl/Content/51388/52552_waldenburger_wochenblatt_1917-165.pdf",
+    "pdf_sha256": "f0a0da06a410d642b8816c158e8efa6f363346600100aa0a27c939b02a36dc6d",
+    "pdf_bytes": 5868203,
+    "relevant_pdf_page_1based": 8,
+    "observed_heading": "VI. Armee-Korps. Stellv. General-Kommando",
+    "observed_dateline": "Breslau, den 6. Juli 1917.",
+    "observed_signature": "von Heinemann, Generalleutnant",
+    "crops": [
+      {
+        "path": "experiments/boots_request/breslau_context/sources/waldenburg_1917_title.png",
+        "pdf_page_1based": 1,
+        "clip_points": [
+          0.0,
+          0.0,
+          691.4160241699219,
+          193.68
+        ],
+        "scale": 2,
+        "sha256": "252607f7d4ce40cee67f64a6e7d967f6ed746aa72103ffb6bdf5a1fbfb8fcbeb"
+      },
+      {
+        "path": "experiments/boots_request/breslau_context/sources/breslau_vi_corps_decree.png",
+        "pdf_page_1based": 8,
+        "clip_points": [
+          17.514999389648438,
+          480.15500000000003,
+          290.7489898681641,
+          890.175
+        ],
+        "scale": 2,
+        "sha256": "bf9ba01052e8e7b5150ca5bc7ae3ce53cdf8ba62b92043a7a5b1805c5937ca60"
+      }
+    ],
+    "conditional_inference": "If the p224 recipient is this VI Army Corps deputy general command and the received pair is correctly copied under the period key, its raw 7 label at cell GA would denote 6.",
+    "limits": [
+      "The decree is sixteen months earlier than the November 1918 intercept, not a 1918 decree.",
+      "It establishes a unit-location association, not the identity or career of the officer in this message.",
+      "The p224 abbreviation omits stellvertretend; the recipient association and institutional continuity remain assumptions.",
+      "No global key assignment or numerical relabelling is applied by this edition."
+    ]
+  },
+  "surname_lead": {
+    "publication": "Deutscher Reichsanzeiger",
+    "issue": 94,
+    "date": "1913-04-21",
+    "printed_page": 4,
+    "section": "Personalveränderungen, Königlich Preußische Armee",
+    "url": "https://digi.bib.uni-mannheim.de/reichsanzeiger/ocr/film/tesseract-4.0.0-20181201/126-9532/0243.hocr",
+    "source_type": "Official newspaper digitization, OCR text only; scan image not visually verified",
+    "observed_ocr_surname": "v. Strzemieczny",
+    "paraphrase": "The OCR lists a captain of this surname on the staff of Infantry Regiment 143 among appointments as company commanders.",
+    "limits": [
+      "The underlying scan endpoint was unavailable during this check.",
+      "No independent link to the 1918 acting chief of the corps in p224 was found.",
+      "This is a spelling lead only, not a certified identification or a basis for an applied Q-to-Y key assignment."
+    ]
+  },
+  "baseline_key_changed": false,
+  "no_historical_context_used_to_repair_names_or_numbers": true
+}

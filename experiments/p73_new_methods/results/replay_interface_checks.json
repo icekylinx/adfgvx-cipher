@@ -1,0 +1,409 @@
+{
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "current_replay_source_sha256": "1d618026692d88f803b0f4c78b79899365ce24f2511d4746b1c2668a318287ac",
+  "checks": [
+    {
+      "suite": "word_blind",
+      "run_id": "Nov7-9",
+      "requested_budget_override": {
+        "seconds": 1
+      },
+      "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+      "source_coordinate_verification_passed": true,
+      "output_sha256": "4d8824fa3c2ed9103ba6d73d77ebe98e2b0e173dbf7674650cc70b64ed136e6e",
+      "original_ledger_changed": false,
+      "output": {
+        "prepared_by": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "suite": "word_blind",
+        "run_id": "Nov7-9",
+        "seed": 4826856531087622099,
+        "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+        "best": {
+          "score": -879.507487059,
+          "quad_sum": -591.117512226,
+          "word_sum": -144.194987416,
+          "word_weight": 2,
+          "proposals": 15000,
+          "restart": 0,
+          "seconds": 1.153511007,
+          "square": "OM9SFHCE0RBA6KPUJNQX1WY8LTGV53ZI42D7",
+          "erasure_fill": "XV",
+          "plaintext": "1REEAUE72UROII1E80DWANGLICHXEIGEKISTE17K30IRTRAFFOBDXKEIUM1F4102DUXSTSEI3047617IXDERANSK0"
+        },
+        "elapsed_seconds_including_compilation": 9.188804135999817,
+        "ciphertext": "D??FXGDVDXDGGAAAGFFDDVDXFXFGGDDAVGDDDADGDGFGGDDVVDXDGDAFDDXGXXDGXAVDXXDDGADDFGFAGVDXVFDXFDDFDDDFXDFGXFXVFDDDXXDXGDAGXFDGDDVFXGAXDFVFDVDXVXDFXDDXFDFVDGFDGDADGDGXXFGXFAAAXXXDXAGVXD",
+        "accepted": false,
+        "ranks": [
+          6,
+          12,
+          7,
+          15,
+          1,
+          11,
+          16,
+          5,
+          8,
+          14,
+          3,
+          18,
+          9,
+          13,
+          2,
+          17,
+          20,
+          10,
+          19,
+          4
+        ],
+        "completed_proposals": 15000,
+        "completed_restarts": 1
+      }
+    },
+    {
+      "suite": "frozen_screen",
+      "run_id": "Nov19-21-k16",
+      "requested_budget_override": {
+        "restarts": 2,
+        "iterations": 1000
+      },
+      "model_sha256": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+      "source_coordinate_verification_passed": true,
+      "output_sha256": "7f183b225d28b9df847c89e32aa8db56eecfd504c09a7072c3fdbd209483eeb5",
+      "original_ledger_changed": false,
+      "output": {
+        "prepared_by": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "suite": "frozen_screen",
+        "run_id": "Nov19-21-k16",
+        "seed": 6747536265397732305,
+        "model_sha256": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+        "best": {
+          "score": -8.142122346,
+          "restart": 1,
+          "known_square_cells": 36,
+          "square": "LC58QH7VI2YB9EURO60GX3MTFAKP1D4NJZSW",
+          "ranks": [
+            3,
+            8,
+            11,
+            9,
+            12,
+            1,
+            10,
+            2,
+            6,
+            5,
+            4,
+            13,
+            16,
+            7,
+            15,
+            14
+          ],
+          "plaintexts": [
+            "IGERVVCG4I?ZVBWIRC?FSYWMSG59MHNNENW7NVVZTU22WXZUMBEIVBLGIG1J3GGZVIENNEAEH2BVLTJLKDASKX2CG"
+          ]
+        },
+        "elapsed_seconds_including_compilation": 0.9238935910034343,
+        "ciphertext": "D??FXGDVDXDGGAAAGFFDDVDXFXFGGDDAVGDDDADGDGFGGDDVVDXDGDAFDDXGXXDGXAVDXXDDGADDFGFAGVDXVFDXFDDFDDDFXDFGXFXVFDDDXXDXGDAGXFDGDDVFXGAXDFVFDVDXVXDFXDDXFDFVDGFDGDADGDGXXFGXFAAAXXXDXAGVXD",
+        "accepted": false,
+        "configured_proposal_slots": 2000
+      }
+    },
+    {
+      "suite": "radio_rank_controls",
+      "run_id": "control_0_radio",
+      "requested_budget_override": {
+        "restarts": 2,
+        "iterations": 1000
+      },
+      "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+      "source_coordinate_verification_passed": true,
+      "output_sha256": "831d2667c88cf844559547eaac9ac5fb952b6a4283d0375c4732178700db0eaa",
+      "original_ledger_changed": false,
+      "output": {
+        "prepared_by": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "suite": "radio_rank_controls",
+        "run_id": "control_0_radio",
+        "seed": 2026110217200000,
+        "model_sha256": "17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67",
+        "best": {
+          "score": -5.869560475,
+          "restart": 0,
+          "known_square_cells": 36,
+          "square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+          "ranks": [
+            19,
+            15,
+            4,
+            10,
+            8,
+            5,
+            7,
+            13,
+            17,
+            18,
+            2,
+            6,
+            11,
+            3,
+            9,
+            20,
+            22,
+            12,
+            14,
+            21,
+            1,
+            16
+          ],
+          "plaintexts": [
+            "FMUZREICKXRINDEREM9UH?TSWERSJECT?TEHWKLMJGZQQCRWSHGSJAHIMNRAIIHC0VSME0CASFYZLCRAXKIREOYHD"
+          ]
+        },
+        "elapsed_seconds_including_compilation": 0.25275946199690225,
+        "ciphertext": "D??XVXFVFFFFVDVDXFXFXXGFVAFFDVVDGGDAFDAXAAGXAXXXGFFDDDGGDGDVDAFVDVFAFVGFFDGAVFFFDVAVXDFDVGVXXVADAAADDFFDGVVGVGGAVXGGDXGVGFGVDAFXADDDFFVDFFFFVGXVVGDVVXDFDGVVAXGAVADAGAXFAAFDDXADAF",
+        "accepted": false,
+        "configured_proposal_slots": 2000,
+        "applied_budget": {
+          "restarts": 2,
+          "iterations": 1000
+        },
+        "archived_budget": {
+          "restarts": 1000,
+          "iterations": 100000
+        },
+        "requested_overrides": {
+          "restarts": 2,
+          "iterations": 1000
+        }
+      }
+    },
+    {
+      "suite": "radio_controls",
+      "run_id": "control_0_book",
+      "requested_budget_override": {
+        "seconds": 1
+      },
+      "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+      "source_coordinate_verification_passed": true,
+      "output_sha256": "f0e25538a5b82ff8a8380f2ce8629092f15d800471a9df3b2de504f0a99fcd7d",
+      "original_ledger_changed": false,
+      "output": {
+        "prepared_by": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "suite": "radio_controls",
+        "run_id": "control_0_book",
+        "seed": 2026110216380000,
+        "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+        "best": {
+          "score": -354.112459898,
+          "quad_sum": -354.112459898,
+          "word_sum": 0,
+          "word_weight": 0,
+          "proposals": 420000,
+          "restart": 13,
+          "seconds": 0.213893049,
+          "square": "HWOG9I1VAT467Y5JNCL0832MRUXKBEDFQPSZ",
+          "erasure_fill": "VD",
+          "plaintext": "ERBITTENFUERTRUPPENDVOXDAUDASUSWENNMOEGLICHTAEGLICHDURZEMITTEILUNGOBSCHWARZEMEERSCHIF"
+        },
+        "elapsed_seconds_including_compilation": 3.2536161440002616,
+        "ciphertext": "V??GAAXVXFXGXGXVDXFVGVVVVVFDVAVDXXVADAFVVXGAADAFFVAXGVXVDAAVFVAVVAGDFXDXDAFVAAXXXFVVXDDDAAVXXAFVFXFXAGAVXXVXXDDFAGXVVAFXGXVAXXVAAXFXGGFGXXDAGGAXXGAXVVDXAAADDAVXDDXVAVDXAG",
+        "accepted": false,
+        "ranks": [
+          4,
+          13,
+          3,
+          14,
+          1,
+          16,
+          9,
+          15,
+          5,
+          19,
+          10,
+          18,
+          6,
+          17,
+          7,
+          20,
+          11,
+          21,
+          8,
+          12,
+          22,
+          2
+        ],
+        "completed_proposals": 1955000,
+        "completed_restarts": 66,
+        "applied_budget": {
+          "seconds": 1.0
+        },
+        "archived_budget": {
+          "seconds": 120
+        },
+        "control_plaintext_matches": 80,
+        "requested_overrides": {
+          "seconds": 1.0
+        }
+      }
+    },
+    {
+      "suite": "radio_p73",
+      "run_id": "Oct4-6",
+      "requested_budget_override": {
+        "seconds": 1
+      },
+      "model_sha256": "0677b5be195b268fd9977ab119749110291fd205a623b21b40c1f3712563bbb2",
+      "source_coordinate_verification_passed": true,
+      "output_sha256": "9dec2181caefc5d3e830c6c7243496fa2c62c4f2d0627668ac390bfaa03b84fe",
+      "original_ledger_changed": false,
+      "output": {
+        "prepared_by": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "suite": "radio_p73",
+        "run_id": "Oct4-6",
+        "seed": 6410550011603113402,
+        "model_sha256": "0677b5be195b268fd9977ab119749110291fd205a623b21b40c1f3712563bbb2",
+        "best": {
+          "score": -465.04009819,
+          "quad_sum": -465.04009819,
+          "word_sum": 0,
+          "word_weight": 0,
+          "proposals": 810000,
+          "restart": 26,
+          "seconds": 0.490373373,
+          "square": "16L25XBEPSONWYFD7I4THRQUV9GK3ZMAC80J",
+          "erasure_fill": "AD",
+          "plaintext": "YTO1H6QBKEACYLKOPFANANDINNENTSCHAUNDCSYQTVA2HEMALTESWARNZUSEINXBEVOSEERL3IJHMLAGTETZPIJB9"
+        },
+        "elapsed_seconds_including_compilation": 3.295686276003835,
+        "ciphertext": "D??FXGDVDXDGGAAAGFFDDVDXFXFGGDDAVGDDDADGDGFGGDDVVDXDGDAFDDXGXXDGXAVDXXDDGADDFGFAGVDXVFDXFDDFDDDFXDFGXFXVFDDDXXDXGDAGXFDGDDVFXGAXDFVFDVDXVXDFXDDXFDFVDGFDGDADGDGXXFGXFAAAXXXDXAGVXD",
+        "accepted": false,
+        "ranks": [
+          4,
+          13,
+          3,
+          14,
+          1,
+          16,
+          9,
+          15,
+          5,
+          19,
+          10,
+          18,
+          6,
+          17,
+          7,
+          20,
+          11,
+          21,
+          8,
+          12,
+          22,
+          2
+        ],
+        "completed_proposals": 1665000,
+        "completed_restarts": 56,
+        "applied_budget": {
+          "seconds": 1.0
+        },
+        "archived_budget": {
+          "seconds": 120
+        },
+        "requested_overrides": {
+          "seconds": 1.0
+        }
+      }
+    },
+    {
+      "suite": "word_controls",
+      "run_id": "control_0_quad_then_word",
+      "requested_budget_override": {
+        "seconds": 1
+      },
+      "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+      "source_coordinate_verification_passed": true,
+      "output_sha256": "b768760316e4dd3a4b905792f03a12fed10b98f0d4e30068dfd95fecd9cea6a4",
+      "original_ledger_changed": false,
+      "output": {
+        "prepared_by": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "suite": "word_controls",
+        "run_id": "control_0_quad_then_word",
+        "seed": 202611021620200,
+        "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+        "best": {
+          "score": -608.280221781,
+          "quad_sum": -375.236333847,
+          "word_sum": -116.521943967,
+          "word_weight": 2,
+          "proposals": 0,
+          "restart": -1,
+          "seconds": 0.000129575,
+          "square": "U59CG6FZWNBJTXQE2PRMH7AVYDL4O03IK81S",
+          "erasure_fill": "DA",
+          "plaintext": "ANZESTERNHABENIIMESTAETXGENTELEBRIGWIDIEUERFRUEHERESTELEBRINXCHTERHALTENIKAVONEUCHOHNEMER"
+        },
+        "elapsed_seconds_including_compilation": 3.34647801900428,
+        "ciphertext": "D??DFGVAVGAAFAVGDFFAADGFGDFXGFGDGXXDVFDFGFFFFFAXGGXVAXGXDGGDGFFGGFXFXGXFAFGFXGFDVDFFFFFGFFVVAGGXDVVADAGFGAGGDVAVVGGDGDFDAGDGVFGAFAGGGGGGDFADADADGVXDGDGGGFAXFAXFFGGAGGAAVGGFGDVGVF",
+        "accepted": false,
+        "ranks": [
+          4,
+          13,
+          3,
+          14,
+          1,
+          16,
+          9,
+          15,
+          5,
+          19,
+          10,
+          18,
+          6,
+          17,
+          7,
+          20,
+          11,
+          21,
+          8,
+          12,
+          22,
+          2
+        ],
+        "completed_proposals": 40000,
+        "completed_restarts": 2,
+        "applied_budget": {
+          "seconds": 1.0
+        },
+        "archived_budget": {
+          "seconds": 120
+        },
+        "control_plaintext_matches": 70,
+        "requested_overrides": {
+          "seconds": 1.0
+        }
+      }
+    }
+  ],
+  "scope": "Six tiny explicit-budget interface checks, excluded from every campaign counter. The first blind and frozen checks preceded explicit override fields in replay outputs; their overrides are preserved here from the executed commands. The blind/frozen/radio-rank checks preceded a model-selector correction affecting only book rows in radio_controls. That corrected branch and both warm-start input formats were then exercised. This is interface validation, not new cryptanalytic evidence."
+}
