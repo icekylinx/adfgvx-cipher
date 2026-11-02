@@ -1,0 +1,607 @@
+{
+  "schema": "adfgvx-october-caucasus-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "J. Rives Childs, General Solution of the ADFGVX Cipher System, collected intercepts",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "images": [
+      {
+        "path": "sources/childs_p69_B.png",
+        "printed_page": 69,
+        "pdf_page_1based": 72,
+        "clip_points": [
+          72,
+          480,
+          555,
+          785
+        ],
+        "scale": 2,
+        "sha256": "b00195ab9c9f954ad2c3aa2f5c08f50e596a6549b04f1eccd18c8957df1976b9"
+      },
+      {
+        "path": "sources/childs_p70_A.png",
+        "printed_page": 70,
+        "pdf_page_1based": 73,
+        "clip_points": [
+          96,
+          172,
+          540,
+          534
+        ],
+        "scale": 2,
+        "sha256": "e43d6d7528bbedc69433d5323f396420f3401dd6a506488d4f3925a52fd0aee3"
+      },
+      {
+        "path": "sources/childs_p72_A.png",
+        "printed_page": 72,
+        "pdf_page_1based": 75,
+        "clip_points": [
+          92,
+          144,
+          540,
+          518
+        ],
+        "scale": 2,
+        "sha256": "49f3553fd1e557dc843d7c3ecf2ee2a5235d191b078c860e3bf71b29cb20f8ce"
+      },
+      {
+        "path": "sources/childs_p72_B.png",
+        "printed_page": 72,
+        "pdf_page_1based": 75,
+        "clip_points": [
+          92,
+          515,
+          540,
+          700
+        ],
+        "scale": 2,
+        "sha256": "16e16e96a0c8003a04683aa4b9974f66182ec893a20dc326dd98213036092c20"
+      },
+      {
+        "path": "sources/childs_p71_A.png",
+        "printed_page": 71,
+        "pdf_page_1based": 74,
+        "clip_points": [
+          65,
+          225,
+          550,
+          485
+        ],
+        "scale": 2,
+        "sha256": "22bff6e5ab932d313180f10f65653aa591946a3f84ff8d44abc216c2d8348777"
+      }
+    ]
+  },
+  "key": {
+    "id": "Oct4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      4,
+      13,
+      3,
+      14,
+      1,
+      16,
+      9,
+      15,
+      5,
+      19,
+      10,
+      18,
+      6,
+      17,
+      7,
+      20,
+      11,
+      21,
+      8,
+      12,
+      22,
+      2
+    ],
+    "column_count": 22,
+    "square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+    "square_rows": [
+      "YN87PJ",
+      "3WRUCI",
+      "EO1SKL",
+      "ZX0DFB",
+      "H6MT9A",
+      "2QV54G"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 237,
+        "pdf_page_1based": 240,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical page prints row labels A,D,G,F,V,X; the canonical square reorders rows to A,D,F,G,V,X. Rank 21 is a handwritten correction in the scan."
+    ],
+    "baseline_square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "records": [
+    {
+      "id": "p69_B1",
+      "advertised_length": 330,
+      "header": "COS v NKJ (---- October 11th); NR 298 FUR COS HPTM GEMOLL (6) 2330 2 TLE; 1 TL RICHI-330",
+      "rows": [
+        "GVVDF FDDFV AFDGA FXADD VDVFF GVFDD GGVFV VFVVV",
+        "FAFAF VDFDV VDGXD GFVDD VVGVG VDXFF DDFDA FGGGD",
+        "XFVGV XFDDV VXGXV FFDFG FDVVD GFGVF GFGFF FFGAG",
+        "DDVVA DGVVF DGFGG DGFAD GDGFF ADGFF XDGDX DXAAV",
+        "D(X)XDG DDFVA FADGG GADDD XFAXX FDDVX XAXGG XDGAX",
+        "XXVGG ADADA FXXAD VDXDA AGVVD XFGFA GXDGG DVVDV",
+        "XDFGD XGFXD AADFG XGFDA DGDAF DXFAD XGDXD AFXXX",
+        "XFFGV XFFUX AGGAV XFXFX VXFX DXDDX XXXGD FFFAA",
+        "XDVVF VAVFG"
+      ],
+      "literal_source": "GVVDFFDDFVAFDGAFXADDVDVFFGVFDDGGVFVVFVVVFAFAFVDFDVVDGXDGFVDDVVGVGVDXFFDDFDAFGGGDXFVGVXFDDVVXGXVFFDFGFDVVDGFGVFGFGFFFFGAGDDVVADGVVFDGFGGDGFADGDGFFADGFFXDGDXDXAAVDXXDGDDFVAFADGGGADDDXFAXXFDDVXXAXGGXDGAXXXVGGADADAFXXADVDXDAAGVVDXFGFAGXDGGDVVDVXDFGDXGFXDAADFGXGFDADGDAFDXFADXGDXDAFXXXXFFGVXFFUXAGGAVXFXFXVXFXDXDDXXXXGDFFFAAXDVVFVAVFG",
+      "analysis_source": "GVVDFFDDFVAFDGAFXADDVDVFFGVFDDGGVFVVFVVVFAFAFVDFDVVDGXDGFVDDVVGVGVDXFFDDFDAFGGGDXFVGVXFDDVVXGXVFFDFGFDVVDGFGVFGFGFFFFGAGDDVVADGVVFDGFGGDGFADGDGFFADGFFXDGDXDXAAVDXXDGDDFVAFADGGGADDDXFAXXFDDVXXAXGGXDGAXXXVGGADADAFXXADVDXDAAGVVDXFGFAGXDGGDVVDVXDFGDXGFXDAADFGXGFDADGDAFDXFADXGDXDAFXXXXFFGVXFF?XAGGAVXFXFXVXFXDXDDXXXXGDFFFAAXDVVFVAVFG",
+      "printed_page": 69,
+      "pdf_page_1based": 72,
+      "source_crop": "sources/childs_p69_B.png",
+      "layout_models": [
+        {
+          "id": "short_group_300",
+          "deletions": [],
+          "insertions": [
+            {
+              "before_source": 300,
+              "symbols": "?"
+            }
+          ],
+          "evidence": "Hypothesis: insert one erased slot within or at either edge of the four-coordinate VXFX group. Header 330 versus 329 literal slots supports this tested length but does not prove the placement."
+        },
+        {
+          "id": "short_group_301",
+          "deletions": [],
+          "insertions": [
+            {
+              "before_source": 301,
+              "symbols": "?"
+            }
+          ],
+          "evidence": "Hypothesis: insert one erased slot within or at either edge of the four-coordinate VXFX group. Header 330 versus 329 literal slots supports this tested length but does not prove the placement."
+        },
+        {
+          "id": "short_group_302",
+          "deletions": [],
+          "insertions": [
+            {
+              "before_source": 302,
+              "symbols": "?"
+            }
+          ],
+          "evidence": "Hypothesis: insert one erased slot within or at either edge of the four-coordinate VXFX group. Header 330 versus 329 literal slots supports this tested length but does not prove the placement."
+        },
+        {
+          "id": "short_group_303",
+          "deletions": [],
+          "insertions": [
+            {
+              "before_source": 303,
+              "symbols": "?"
+            }
+          ],
+          "evidence": "Hypothesis: insert one erased slot within or at either edge of the four-coordinate VXFX group. Header 330 versus 329 literal slots supports this tested length but does not prove the placement."
+        },
+        {
+          "id": "short_group_304",
+          "deletions": [],
+          "insertions": [
+            {
+              "before_source": 304,
+              "symbols": "?"
+            }
+          ],
+          "evidence": "Hypothesis: insert one erased slot within or at either edge of the four-coordinate VXFX group. Header 330 versus 329 literal slots supports this tested length but does not prove the placement."
+        }
+      ],
+      "editorial_template": "ABBRAILA4X10XMITDXVIOLETTAX10000EIERHANDGRANATENX3WAGENMASCHXGEW04WLIXRUSSGEWX9WAGXMUNX94TS6LEBENSMITTEL16FASSBENZIN2KISTENKURIERGEPAECK10WAGXMUNXFUERMUNXDEPXPOTIXXX",
+      "editorial_note": "Word repairs include hand grenades, petrol, crates, courier luggage and ammunition depot. 4.10 is editorial; 04WLI and 94TS6 remain unexpanded damaged quantity fields, not accepted numeric readings."
+    },
+    {
+      "id": "p69_B2",
+      "advertised_length": 66,
+      "header": "COS v NKJ (---- October 11th); NR 298 FUR COS HPTM GEMOLL (6) 2330 2 TLE; 2 TL RICHI-66",
+      "rows": [
+        "GGDDG DAXVD VGFDA DDFFG AFDGV GDVFA DFGAF DGXDD",
+        "XGFVG (X)FFF AAAVA GVAGD FDDDV G"
+      ],
+      "literal_source": "GGDDGDAXVDVGFDADDFFGAFDGVGDVFADFGAFDGXDDXGFVGXFFFAAAVAGVAGDFDDDVG",
+      "analysis_source": "GGDDGDAXVDVGFDADDFFGAFDGVGDVFADFGAFDGXDDXGFVGXFFFAAAVAGVAGDFDDDVG",
+      "printed_page": 69,
+      "pdf_page_1based": 72,
+      "source_crop": "sources/childs_p69_B.png",
+      "layout_models": [
+        {
+          "id": "short_group_45",
+          "deletions": [],
+          "insertions": [
+            {
+              "before_source": 45,
+              "symbols": "?"
+            }
+          ],
+          "evidence": "Hypothesis: insert one erased slot within or at either edge of the four-coordinate (X)FFF group. Printed parentheses remain in the literal rows."
+        },
+        {
+          "id": "short_group_46",
+          "deletions": [],
+          "insertions": [
+            {
+              "before_source": 46,
+              "symbols": "?"
+            }
+          ],
+          "evidence": "Hypothesis: insert one erased slot within or at either edge of the four-coordinate (X)FFF group. Printed parentheses remain in the literal rows."
+        },
+        {
+          "id": "short_group_47",
+          "deletions": [],
+          "insertions": [
+            {
+              "before_source": 47,
+              "symbols": "?"
+            }
+          ],
+          "evidence": "Hypothesis: insert one erased slot within or at either edge of the four-coordinate (X)FFF group. Printed parentheses remain in the literal rows."
+        },
+        {
+          "id": "short_group_48",
+          "deletions": [],
+          "insertions": [
+            {
+              "before_source": 48,
+              "symbols": "?"
+            }
+          ],
+          "evidence": "Hypothesis: insert one erased slot within or at either edge of the four-coordinate (X)FFF group. Printed parentheses remain in the literal rows."
+        },
+        {
+          "id": "short_group_49",
+          "deletions": [],
+          "insertions": [
+            {
+              "before_source": 49,
+              "symbols": "?"
+            }
+          ],
+          "evidence": "Hypothesis: insert one erased slot within or at either edge of the four-coordinate (X)FFF group. Printed parentheses remain in the literal rows."
+        }
+      ],
+      "editorial_template": "UNDMEHREREWAGXFUERDORTXTRUPPENXXX",
+      "editorial_note": "Complete proposed short continuation. Two short-group placements need one known-coordinate substitution and one inserted fill; neither source alignment is uniquely determined."
+    },
+    {
+      "id": "p70_A1",
+      "advertised_length": 322,
+      "header": "POT, COS v NKJ (3.10 a.m., October 7th); FUR COS DEUTSCHE DELEGATO WIRTCHI ABTLG 2305 (6) 2 TLE; 1 TL RICHI-322",
+      "rows": [
+        "DAXAF DFDDA VFFGX XAFVX FDADX AAFXA FTXDX VF-XF",
+        "FAAGV XVGDF VADAF XAFDF GAVFA FVVFD FAAGF FFFFD",
+        "GVAFV FFDAD FFDFV GAGDF ADDVV XDFFX GFDXF XVFGF",
+        "GVGVD VDVVA FFVGV GDDAF DGFFD AFAVF FVVVF FVVFF",
+        "VAXXF AAFXA GXDXG XXGDF AADFD AXDAG DAXAG XXAXG",
+        "FADAV ADADA DGVAX XXDAA DDXFA FXGVD FXAAX AAAAA",
+        "AAAAA -VDDD GAAXD GXGDF XDDGG --FDA GDDVA DAAGG",
+        "DAAGG FGVDX FGXGG AGDGF VDXVD GAAGG XAVGX VGAVF",
+        "DGFDF FAXFF DV"
+      ],
+      "literal_source": "DAXAFDFDDAVFFGXXAFVXFDADXAAFXAFTXDXVF-XFFAAGVXVGDFVADAFXAFDFGAVFAFVVFDFAAGFFFFFDGVAFVFFDADFFDFVGAGDFADDVVXDFFXGFDXFXVFGFGVGVDVDVVAFFVGVGDDAFDGFFDAFAVFFVVVFFVVFFVAXXFAAFXAGXDXGXXGDFAADFDAXDAGDAXAGXXAXGFADAVADADADGVAXXXDAADDXFAFXGVDFXAAXAAAAAAAAAA-VDDDGAAXDGXGDFXDDGG--FDAGDDVADAAGGDAAGGFGVDXFGXGGAGDGFVDXVDGAAGGXAVGXVGAVFDGFDFFAXFFDV",
+      "analysis_source": "DAXAFDFDDAVFFGXXAFVXFDADXAAFXAF?XDXVF?XFFAAGVXVGDFVADAFXAFDFGAVFAFVVFDFAAGFFFFFDGVAFVFFDADFFDFVGAGDFADDVVXDFFXGFDXFXVFGFGVGVDVDVVAFFVGVGDDAFDGFFDAFAVFFVVVFFVVFFVAXXFAAFXAGXDXGXXGDFAADFDAXDAGDAXAGXXAXGFADAVADADADGVAXXXDAADDXFAFXGVDFXAAXAAAAAAAAAA?VDDDGAAXDGXGDFXDDGG??FDAGDDVADAAGGDAAGGFGVDXFGXGGAGDGFVDXVDGAAGGXAVGXVGAVFDGFDFFAXFFDV",
+      "printed_page": 70,
+      "pdf_page_1based": 73,
+      "source_crop": "sources/childs_p70_A.png",
+      "layout_models": [
+        {
+          "id": "duplicate_235_275",
+          "deletions": [
+            [
+              235,
+              240
+            ],
+            [
+              275,
+              280
+            ]
+          ],
+          "insertions": [],
+          "evidence": "Hypothesis: remove one AAAAA group from the adjacent identical pair and one DAAGG group from its adjacent identical pair. Four source-index aliases produce exactly one normalized stream."
+        },
+        {
+          "id": "duplicate_235_280",
+          "deletions": [
+            [
+              235,
+              240
+            ],
+            [
+              280,
+              285
+            ]
+          ],
+          "insertions": [],
+          "evidence": "Hypothesis: remove one AAAAA group from the adjacent identical pair and one DAAGG group from its adjacent identical pair. Four source-index aliases produce exactly one normalized stream."
+        },
+        {
+          "id": "duplicate_240_275",
+          "deletions": [
+            [
+              240,
+              245
+            ],
+            [
+              275,
+              280
+            ]
+          ],
+          "insertions": [],
+          "evidence": "Hypothesis: remove one AAAAA group from the adjacent identical pair and one DAAGG group from its adjacent identical pair. Four source-index aliases produce exactly one normalized stream."
+        },
+        {
+          "id": "duplicate_240_280",
+          "deletions": [
+            [
+              240,
+              245
+            ],
+            [
+              280,
+              285
+            ]
+          ],
+          "insertions": [],
+          "evidence": "Hypothesis: remove one AAAAA group from the adjacent identical pair and one DAAGG group from its adjacent identical pair. Four source-index aliases produce exactly one normalized stream."
+        }
+      ],
+      "editorial_template": "ANWESTERNHAGENXXBESTAETIGENTELEGRX28X9XEUERFRUEHERESTELEGRXNICHTERHALTENXDAVONEUCHOHNEBERICHTUNDKENNTNISDORTIGERMARKTLAGEGELASSENKOENNENPREISGRENZENNICHTAUFGEBEN",
+      "editorial_note": "Fixed-length word repairs; AUFGEBEN is left as actually decoded. Readable prose may punctuate this as giving price limits; no word is replaced by FESTSETZEN or another synonym."
+    },
+    {
+      "id": "p70_A2",
+      "advertised_length": 256,
+      "header": "POT, COS v NKJ (3.10 a.m., October 7th); FUR COS DEUTSCHE DELEGATO WIRTCHI ABTLG 2305 (6) 2 TLE; 2 TL RICHI-256",
+      "rows": [
+        "FDGDV DXFFV AVGVV AGGVA VXGVD GFAAG AVVGV DFVFD",
+        "FFFDG DDFDV GFFGV VGFFF AFGDF GXFDG DDDDV VVYDF",
+        "DDFFV FGGVF GVFVD AFDVF XDGGF FADVA DGFFF DVVFF",
+        "GFVGF XAXAG DXFVF FAAVG AADGV GGXFX ADDXD GXVDA",
+        "DGFXX FGAXX VVX-V XAGXD ADADG GVGAX AGGGA ADXXD",
+        "XGFAF GXAAD XGDVV FFVFA GXGGV DXGAX ADDAG AVDDF",
+        "VDDFA V"
+      ],
+      "literal_source": "FDGDVDXFFVAVGVVAGGVAVXGVDGFAAGAVVGVDFVFDFFFDGDDFDVGFFGVVGFFFAFGDFGXFDGDDDDVVVYDFDDFFVFGGVFGVFVDAFDVFXDGGFFADVADGFFFDVVFFGFVGFXAXAGDXFVFFAAVGAADGVGGXFXADDXDGXVDADGFXXFGAXXVVX-VXAGXDADADGGVGAXAGGGAADXXDXGFAFGXAADXGDVVFFVFAGXGGVDXGAXADDAGAVDDFVDDFAV",
+      "analysis_source": "FDGDVDXFFVAVGVVAGGVAVXGVDGFAAGAVVGVDFVFDFFFDGDDFDVGFFGVVGFFFAFGDFGXFDGDDDDVVV?DFDDFFVFGGVFGVFVDAFDVFXDGGFFADVADGFFFDVVFFGFVGFXAXAGDXFVFFAAVGAADGVGGXFXADDXDGXVDADGFXXFGAXXVVX?VXAGXDADADGGVGAXAGGGAADXXDXGFAFGXAADXGDVVFFVFAGXGGVDXGAXADDAGAVDDFVDDFAV",
+      "printed_page": 70,
+      "pdf_page_1based": 73,
+      "source_crop": "sources/childs_p70_A.png",
+      "layout_models": [
+        {
+          "id": "literal",
+          "deletions": [],
+          "insertions": [],
+          "evidence": "Unchanged literal slot geometry. Invalid coordinate letters and printed dashes remain single-slot erasures."
+        }
+      ],
+      "editorial_template": "MDLXRUECKSPRACHESOFORTERFORDERLICHBITTENRUECKEHRBESCHLEUNIGENDRAHTENGLEICHESUEBERXASTOXCONSTANZAXBESTAETIGTEMPFANGXDEUTKAUF",
+      "editorial_note": "MDL is expanded editorially as muendliche. The encrypted spelling RUECKEHR (one K) is retained. ASTO and DEUTKAUF are not expanded into institutional names."
+    },
+    {
+      "id": "p72_A1",
+      "advertised_length": 178,
+      "header": "COS v OSM (--------, October 9th); NR 294 KRESS (6) 2040 3 TLE; 1 TL RICHI-178",
+      "rows": [
+        "VVGFX FXVDG XADXD ADVAD FGDGG AXFFF FVVFF GAXAA",
+        "XDAFG AGGFG DDFFF FDVAV GVFFA FFFDG VDAGF XXFFX",
+        "FGGFD GVFGV FGGAA VDADG AXXXF GGXGF ADXDA AFGDA",
+        "GDGGD FXDXX ADAGD XDDDG FXDAX GDGGD FXDXX ADAGD",
+        "XDDDG FXDAX AXVDD FDDXF FFADA UFDDG FDGGG GXVFG",
+        "DGF"
+      ],
+      "struck_groups_0based": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "literal_source": "VVGFXFXVDGXADXDADVADFGDGGAXFFFFVVFFGAXAAXDAFGAGGFGDDFFFFDVAVGVFFAFFFDGVDAGFXXFFXFGGFDGVFGVFGGAAVDADGAXXXFGGXGFADXDAAFGDAGDGGDFXDXXADAGDXDDDGFXDAXGDGGDFXDXXADAGDXDDDGFXDAXAXVDDFDDXFFFADAUFDDGFDGGGGXVFGDGF",
+      "analysis_source": "VVGFXFXVDGXADXDADVADFGDGGAXFFFFVVFFGAXAAXDAFGAGGFGDDFFFFDVAVGVFFAFFFDGVDAGFXXFFXFGGFDGVFGVFGGAAVDADGAXXXFGGXGFADXDAAFGDAGDGGDFXDXXADAGDXDDDGFXDAXGDGGDFXDXXADAGDXDDDGFXDAXAXVDDFDDXFFFADA?FDDGFDGGGGXVFGDGF",
+      "printed_page": 72,
+      "pdf_page_1based": 75,
+      "source_crop": "sources/childs_p72_A.png",
+      "layout_models": [
+        {
+          "id": "printed_strikeout",
+          "deletions": [
+            [
+              145,
+              170
+            ]
+          ],
+          "insertions": [],
+          "evidence": "Five second-copy groups are visibly struck out in the source. All 25 slots remain in the literal layer."
+        }
+      ],
+      "editorial_template": "ZUTELX30X9XNATEKSNRX8557X1XVERSTAERKUNGDERDELEGXVONOXHXLXOHNEBETEILIGUNGX?SKXMXANGEORDNET",
+      "editorial_note": "Only VERSTAER1UNG -> VERSTAERKUNG is supplied. NATEKS and ?SKXM remain uninterpreted; no ministry identity is imposed."
+    },
+    {
+      "id": "p72_A2",
+      "advertised_length": 226,
+      "header": "COS v OSM (--------, October 9th); NR 294 KRESS (6) 2040 3 TLE; 2 TL RICHI-226",
+      "rows": [
+        "VVXXD VFVFA GADFG GFXXF DGXXG DVDVV UFXVD GGAAF",
+        "GVFVA VDGFA FGFFV XGDFF XVGDG FAVDD FGXDV FDDVG",
+        "XGUDV DFDVF VFGGG ADVGX AXADX GFUXD DVGVX DFGXA",
+        "XDXAG FGDDD ADDFD DVGVX DFGSA XDXAG FGDDD ADDFD",
+        "FGDDX XVGDF XFAAF FDGXD FDGFX AGFAG DAUXD DAAFD",
+        "DXDDD FGFDA FGFXG GADAG FFDAV GFFAD XXVVA XXDFX",
+        "DVADF FDGFF G"
+      ],
+      "literal_source": "VVXXDVFVFAGADFGGFXXFDGXXGDVDVVUFXVDGGAAFGVFVAVDGFAFGFFVXGDFFXVGDGFAVDDFGXDVFDDVGXGUDVDFDVFVFGGGADVGXAXADXGFUXDDVGVXDFGXAXDXAGFGDDDADDFDDVGVXDFGSAXDXAGFGDDDADDFDFGDDXXVGDFXFAAFFDGXDFDGFXAGFAGDAUXDDAAFDDXDDDFGFDAFGFXGGADAGFFDAVGFFADXXVVAXXDFXDVADFFDGFFG",
+      "analysis_source": "VVXXDVFVFAGADFGGFXXFDGXXGDVDVV?FXVDGGAAFGVFVAVDGFAFGFFVXGDFFXVGDGFAVDDFGXDVFDDVGXG?DVDFDVFVFGGGADVGXAXADXGF?XDDVGVXDFGXAXDXAGFGDDDADDFDDVGVXDFG?AXDXAGFGDDDADDFDFGDDXXVGDFXFAAFFDGXDFDGFXAGFAGDA?XDDAAFDDXDDDFGFDAFGFXGGADAGFFDAVGFFADXXVVAXXDFXDVADFFDGFFG",
+      "printed_page": 72,
+      "pdf_page_1based": 75,
+      "source_crop": "sources/childs_p72_A.png",
+      "layout_models": [
+        {
+          "id": "near_duplicate_110",
+          "deletions": [
+            [
+              110,
+              135
+            ]
+          ],
+          "insertions": [],
+          "evidence": "Hypothesis: remove one copy of the adjacent 25-slot near-repeat. The two copies differ only by printed X/S; S is retained raw and masked in analysis."
+        },
+        {
+          "id": "near_duplicate_135",
+          "deletions": [
+            [
+              135,
+              160
+            ]
+          ],
+          "insertions": [],
+          "evidence": "Hypothesis: remove one copy of the adjacent 25-slot near-repeat. The two copies differ only by printed X/S; S is retained raw and masked in analysis."
+        }
+      ],
+      "editorial_template": "2XMITBERICHTVOM8X?X4ANR553ANGEFORDXVERWXPERSXWIRDMITAUSNAHMEDERGARNISONVERWXBEAMTENVERGLXTELX26X?X16?7X18XGX?X11X",
+      "editorial_note": "Word-level repairs support administrative personnel and garrison administrative officials. The report/date/reference fields remain as recorded or explicitly unresolved."
+    },
+    {
+      "id": "p72_A3",
+      "advertised_length": 124,
+      "header": "COS v OSM (--------, October 9th); NR 294 KRESS (6) 2040 3 TLE; 3 TL RICHI-124",
+      "rows": [
+        "DXGAF VGDGX XDXDF DFGAF DGFFF ADFFG FDFDV DFGFV",
+        "XVFFD XFFGV FDVGX DFFFA XFXGD AGADA DGAGG FUXGF",
+        "AAGGA FXDG- GVAAA VGFGD XXXAG DXGXG XDGAA XDXAD",
+        "DVFX"
+      ],
+      "literal_source": "DXGAFVGDGXXDXDFDFGAFDGFFFADFFGFDFDVDFGFVXVFFDXFFGVFDVGXDFFFAXFXGDAGADADGAGGFUXGFAAGGAFXDG-GVAAAVGFGDXXXAGDXGXGXDGAAXDXADDVFX",
+      "analysis_source": "DXGAFVGDGXXDXDFDFGAFDGFFFADFFGFDFDVDFGFVXVFFDXFFGVFDVGXDFFFAXFXGDAGADADGAGGF?XGFAAGGAFXDG?GVAAAVGFGDXXXAGDXGXGXDGAAXDXADDVFX",
+      "printed_page": 72,
+      "pdf_page_1based": 75,
+      "source_crop": "sources/childs_p72_A.png",
+      "layout_models": [
+        {
+          "id": "literal",
+          "deletions": [],
+          "insertions": [],
+          "evidence": "Unchanged literal slot geometry. Invalid coordinate letters and printed dashes remain single-slot erasures."
+        }
+      ],
+      "editorial_template": "ZURVERFUEGUNGGESTELLTWERDENX3XNOTWENDIGESGELDISTSICHERGESTELLT",
+      "editorial_note": "Read as the continuation of part 2, followed by item 3; spelling and separator repairs are explicit."
+    },
+    {
+      "id": "p72_B",
+      "advertised_length": 274,
+      "header": "POT v OSM (---------, October 9th); FUR POT (6) 0830; RIZI-274",
+      "rows": [
+        "GDDAV GVFAF FDFVV AGFGA GGDFG MXFXF AFVVG FGVGG",
+        "DDDVX DVVXG DDGFV VGDFF VDGFF XDFDV VADVF XDGAD",
+        "DGFXD AFGAG FGDDG DDVXG FGFFD DFAGD VAFVG VGDGF",
+        "DAFFD XDXAV VAFFG FGGFA GXXAF XXADA DGXXV XXGGX",
+        "FVGAA XAFAG XGDFA DFDAX AADGF FDAGF FDFDG ADDGG",
+        "XDAGG XVGDD FXGGD FDFDX XDAAA FFGGG FXAAG DGAFF",
+        "DXVDA FXVXV VAXDA FDAAV AFVGF VVVFF FAAF"
+      ],
+      "literal_source": "GDDAVGVFAFFDFVVAGFGAGGDFGMXFXFAFVVGFGVGGDDDVXDVVXGDDGFVVGDFFVDGFFXDFDVVADVFXDGADDGFXDAFGAGFGDDGDDVXGFGFFDDFAGDVAFVGVGDGFDAFFDXDXAVVAFFGFGGFAGXXAFXXADADGXXVXXGGXFVGAAXAFAGXGDFADFDAXAADGFFDAGFFDFDGADDGGXDAGGXVGDDFXGGDFDFDXXDAAAFFGGGFXAAGDGAFFDXVDAFXVXVVAXDAFDAAVAFVGFVVVFFFAAF",
+      "analysis_source": "GDDAVGVFAFFDFVVAGFGAGGDFG?XFXFAFVVGFGVGGDDDVXDVVXGDDGFVVGDFFVDGFFXDFDVVADVFXDGADDGFXDAFGAGFGDDGDDVXGFGFFDDFAGDVAFVGVGDGFDAFFDXDXAVVAFFGFGGFAGXXAFXXADADGXXVXXGGXFVGAAXAFAGXGDFADFDAXAADGFFDAGFFDFDGADDGGXDAGGXVGDDFXGGDFDFDXXDAAAFFGGGFXAAGDGAFFDXVDAFXVXVVAXDAFDAAVAFVGFVVVFFFAAF",
+      "printed_page": 72,
+      "pdf_page_1based": 75,
+      "source_crop": "sources/childs_p72_B.png",
+      "layout_models": [
+        {
+          "id": "literal",
+          "deletions": [],
+          "insertions": [],
+          "evidence": "Unchanged literal slot geometry. Invalid coordinate letters and printed dashes remain single-slot erasures."
+        }
+      ],
+      "editorial_template": "ZUDORTNR479X2000X2030FUEROSMUNGEEIGNETXSINDSIEMITRICHIM98X30X9XMITGETEILTENZEITENEINVERSTANDENWIEISTDORTEMPFANGOSMWELLE2800UND3500XSCHLEE",
+      "editorial_note": "NR, 2000, SIE and 3500 are editorial readings. RICHIM98 is left uninterpreted; the cipher does not independently verify the proposed time or second wavelength."
+    },
+    {
+      "id": "p71_A1",
+      "advertised_length": 170,
+      "header": "POT v OSM (01.17 a.m., October 8th); FUR COS (6) 1230 2 TEILE; 1 TL RICHI-170",
+      "rows": [
+        "DFGVV AGGXF XVVAD VXVDF DAVAG GFFVD DVVDD GACDG",
+        "GXFGV GFFFG VVFFD FXXFF GDVXV FFFFF --VXD F-VDA",
+        "FDVVG GA--- ----- AVAGG XXVXF XDFAX FAVAF DVADG",
+        "DDGVV XAGDX FAXDG ADGAF GXXFD DDFXA XGFAV FXDAG",
+        "-GDVA FDDFG"
+      ],
+      "literal_source": "DFGVVAGGXFXVVADVXVDFDAVAGGFFVDDVVDDGACDGGXFGVGFFFGVVFFDFXXFFGDVXVFFFFF--VXDF-VDAFDVVGGA--------AVAGGXXVXFXDFAXFAVAFDVADGDDGVVXAGDXFAXDGADGAFGXXFDDDFXAXGFAVFXDAG-GDVAFDDFG",
+      "analysis_source": "DFGVVAGGXFXVVADVXVDFDAVAGGFFVDDVVDDGA?DGGXFGVGFFFGVVFFDFXXFFGDVXVFFFFF??VXDF?VDAFDVVGGA????????AVAGGXXVXFXDFAXFAVAFDVADGDDGVVXAGDXFAXDGADGAFGXXFDDDFXAXGFAVFXDAG?GDVAFDDFG",
+      "printed_page": 71,
+      "pdf_page_1based": 74,
+      "source_crop": "sources/childs_p71_A.png",
+      "layout_models": [
+        {
+          "id": "literal",
+          "deletions": [],
+          "insertions": [],
+          "evidence": "All 170 printed slots retain their order and length. Twelve printed dashes and the C-shaped third glyph of the last group in row 1 remain single-slot erasures. The latter can be a damaged G, but it is not fixed in the analysis layer."
+        }
+      ],
+      "editorial_template": "NACHTIFLISABGEGANGEN28X9XMIT2BEGLEITER2STUECK16KXWXMASCHINENSAETZEUND1X20KXWXUMFORMER",
+      "editorial_note": "One known coordinate substitution changes raw GEGABEN to GEGANGEN. The twelve dashes and one uncertain C-shaped glyph are filled only in the editorial template. The 2 in the proposed 20-kW rating is an erasure fill; 16 and the counts of units survive directly. The telegraphic BEGLEITER spelling is retained without adding a final N."
+    }
+  ],
+  "scope": "Source-reviewed editions under an earlier published key, with conditional source-layout repairs. No first historical decipherment or new key recovery is claimed. No new plaintext is assigned to p73.",
+  "unresolved_continuations": [
+    {
+      "id": "p71_A2",
+      "header": "2 TL RICHI-192",
+      "rows": [
+        "DDAFG GVVVA XAGVD XVFVF VAFXF VGFAD FGFGG FVDDG",
+        "GAFDF VGDFV FVFFF DVVVD DGDVD FDGFF GFFGF DFAGX",
+        "VAFVF"
+      ],
+      "literal_source": "DDAFGGVVVAXAGVDXVFVFVAFXFVGFADFGFGGFVDDGGAFDFVGDFVFVFFFDVVVDDGDVDFDGFFGFFGFDFAGXVAFVF",
+      "advertised_length": 192,
+      "printed_page": 71,
+      "pdf_page_1based": 74,
+      "source_crop": "sources/childs_p71_A.png",
+      "source_note": "The source prints (interference) immediately after the 85 surviving coordinates. A right-erasure-padding hypothesis adds 107 unavailable slots; it fixes no complete plaintext character. No proposed reading is supplied."
+    }
+  ]
+}

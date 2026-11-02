@@ -11,6 +11,7 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [October Caucasus source edition](october_caucasus/README.md) | Nine readable records, 1,994 source slots; retained layouts share 928/968 fixed raw positions | Source strikeout and conditional duplicate/short-group models are distinct; disputed quantities and all repair costs remain explicit. An interrupted continuation is retained without a reading. |
 | [Withdrawal-order source edition](withdrawal_recovery/README.md) | Seven source records; six explicit frames fix 608/730 raw positions | Every substitution and fill costed; part-15 reconstruction and shared digit inference remain conditional, and the odd jammed fragment remains unframed. |
 | [Kiel, internment and cipher-instruction sources](corpus_extension/README.md) | Fourteen ciphertexts and one cleartext notice; exact duplicate and group-restoration models | Prior readings retain credit; two unchanged key-sharing parts, all source images and separately priced word repairs. |
 | [Source-reviewed corpus readings](corpus_readings/README.md) | Nine source parts, two assembled multipart messages and one exact repeated suffix | Separate raw and editorial layers; p123 deletion aliases exhaustively checked for the stated candidate; p218 treaty context does not replace source evidence. |

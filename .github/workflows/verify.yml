@@ -30,6 +30,7 @@ jobs:
           python experiments/corpus_recovery/verify.py --verify
           python experiments/withdrawal_recovery/verify.py --verify
           python experiments/corpus_extension/verify.py --verify
+          python experiments/october_caucasus/verify.py --verify
           python experiments/corpus_attack/build_source_pairs.py --verify
           python experiments/corpus_attack/verify_source_pairs.py
           python experiments/corpus_joint/build_readings.py experiments/corpus_joint/p205_inputs.json experiments/corpus_joint/p205_readings.json --verify

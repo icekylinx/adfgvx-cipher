@@ -10,6 +10,7 @@ A research edition of the **German radio cryptograms in Childs's 1918 collection
 
 ## Selected results
 
+- **[October Caucasus traffic](cases/other/october_caucasus.md):** nine parts recover correspondence about personnel and funds for Kress, Westernhagen’s return, electrical equipment for Tiflis, Violetta’s cargo and radio timings. Printed strikeouts, duplicated groups, unresolved quantities and every editorial repair remain inspectable.
 - **[Late key-sharing instructions](cases/other/late_november_cipher_instructions.md):** two complete parts explicitly agree on the BSL–UKS key, preserving all 320 coordinates. Related notices document missing December tables and a request for RICHI or plaintext after ITOCHI could not be read.
 - **[Romanian withdrawal and headquarters movements](cases/other/p163_A.md):** six framed records with the [Temesvar station notice](cases/other/p164_B.md) add 608/730 fixed raw positions. The more damaged garrison continuation remains a separately costed reconstruction.
 - **[Additional source readings](experiments/corpus_recovery/README.md):** oil release and Black Sea shipping safety, the Dutch courier Vreede, Helsinki return transport for the Ostsee Division, Burkhardt's oil-company assignment, two Richter inquiries and the situation in Reval. Nine records fix 1,155/1,161 raw positions; all editorial repairs and unresolved numeral labels remain visible.
@@ -55,12 +56,21 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](cases/p215.md) | Apparent Entente troop-transport report | Prior partial; conditional Kosch interpretation | Norbert (2017) |
 | [p217](cases/p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 116 reviewed records
+## Other ciphertexts — 125 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p69 B1](cases/other/october_caucasus.md#p69-b--violettas-cargo-from-braila-to-poti) | Violetta cargo from Braila for Poti | Conditional one-slot recovery; quantity fields retained | icekylinx and GPT-6 Astra Pro (2026) |
+| [p69 B2](cases/other/october_caucasus.md#p69-b--violettas-cargo-from-braila-to-poti) | Additional wagons for the troops at Poti | Two minimum-cost short-group repairs; complete proposed continuation | icekylinx and GPT-6 Astra Pro (2026) |
+| [p70 A1](cases/other/october_caucasus.md#p70-a--westernhagen-price-limits-and-an-urgent-return) | Westernhagen asked for the market report and price context | Two visible repeated groups removed conditionally; 156/161 raw positions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p70 A2](cases/other/october_caucasus.md#p70-a--westernhagen-price-limits-and-an-urgent-return) | Urgent personal discussion and accelerated return | 121/123 raw positions at actual length 246; header says 256 | icekylinx and GPT-6 Astra Pro (2026) |
+| [p71 A1](cases/other/october_caucasus.md#p71-a1--electrical-equipment-sent-to-tiflis) | Machine sets and converter dispatched to Tiflis | Source-preserving edition; 20-kW digit remains conditional | icekylinx and GPT-6 Astra Pro (2026) |
+| [p72 A1](cases/other/october_caucasus.md#p72-a--reinforcements-administrative-personnel-and-money-for-kress) | OHL reinforcement order for the delegation to Kress | Printed 25-coordinate strikeout applied; 88/89 raw positions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p72 A2](cases/other/october_caucasus.md#p72-a--reinforcements-administrative-personnel-and-money-for-kress) | Administrative personnel except garrison officials | Two 25-slot near-duplicate alternatives; 108/113 positions common | icekylinx and GPT-6 Astra Pro (2026) |
+| [p72 A3](cases/other/october_caucasus.md#p72-a--reinforcements-administrative-personnel-and-money-for-kress) | Personnel will be supplied; necessary funds secured | 60/62 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |
+| [p72 B](cases/other/october_caucasus.md#p72-b--radio-timings-and-reception) | Radio timings and reception at Poti | 136/137 raw positions; proposed time and wavelength repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p77 B](cases/context/radio_instructions.md#p77-b--call-sign-instruction-for-konia) | Konia radio call sign and wavelengths | Direct reading; one word normalized | icekylinx and GPT-6 Astra Pro (2026) |
 | [p84 A](cases/other/p84_AB.md) | Ask whether Izzet Pasha's order to release oil succeeded | 122/122 raw positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
 | [p84 B](cases/other/p84_AB.md) | Request daily Black Sea shipping-safety reports for the Caucasus command | 101/101 raw positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
