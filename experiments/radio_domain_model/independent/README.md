@@ -54,9 +54,11 @@ model bytes are unchanged. The report marks the issue **resolved**.
 
 ## Run the audit
 
-NumPy and a C++17 compiler are required. The compiled harness lives in a
-temporary directory. Apart from the explicitly requested report, the audit
-does not write repository files or change a model.
+NumPy and a C++17 compiler are required. The frozen table bytes were produced
+with NumPy 2.3.5; use that recorded version when checking byte-for-byte model
+reconstruction. The compiled harness lives in a temporary directory. Apart
+from the explicitly requested report, the audit does not write repository
+files or change a model.
 
 ```sh
 python experiments/radio_domain_model/independent/audit.py \
@@ -74,7 +76,10 @@ report explicitly records that original-log checks were skipped. The model
 and word-objective comparisons still run. The log root must retain the four
 original manifest locations, with each input, `.jsonl` and `.result.json` file
 alongside its corresponding manifest; absolute paths recorded by the original
-run are resolved by basename for portability.
+run are resolved by basename for portability. It must also retain the original
+`word_loss` executable at the log root so its archived binary hash can be checked.
+A locally rebuilt executable can reproduce the scoring code but need not have
+the same binary hash; keep that rebuild separate from the original audit artifact.
 
 The source edition assumptions and earlier key/body credits remain in the
 parent packages. This implementation audit is separate from the validity of

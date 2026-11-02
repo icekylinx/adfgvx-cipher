@@ -72,8 +72,10 @@ The selected raw models fix 624/628 positions. The headcount remains **0YY**,
 whose three complete original coordinate pairs were excluded from the first
 part's geometry score. A source-local final-part loss model competes with
 six cheaper broader body fits; all seven survive in the certificate. The
-edition provides readable wording with all 17 substitutions and four fills
-separately priced, not a unique assertion about where the original loss occurred.
+edition provides readable wording with 17 substitutions, two printed-erasure
+fills, two added-coordinate fills and one explicitly identified valid-coordinate
+deletion in B2. These changes are separately priced; the edition does not uniquely
+establish where the original loss occurred.
 
 ### Personnel, cash and military supplies
 
@@ -111,9 +113,11 @@ is not assumed to answer the preceding request.
 The [November 14 retransmissions](../cases/other/nov14_radio_retransmissions.md)
 restore 85 missing prefix coordinates and 85 raw plaintext positions using
 a complete witness. Differently keyed request pairs support 87/88 and 94/94
-candidate positions. The [three-part Tiflis appointment](../cases/other/tiflis_appointment.md)
-joins a forwarding instruction to Waclaw v. Ostrowski's appointment; masks
-excluding the personal names help locate a displaced group and a missing group.
+candidate positions. The [proposed three-part Tiflis grouping](../cases/other/tiflis_appointment.md)
+associates a forwarding instruction with Waclaw v. Ostrowski's appointment.
+Text, part counts and key support the association, but the source headings do
+not establish it and the November 14/15 heading conflict remains unresolved.
+Masks excluding the personal names help locate a displaced group and a missing group.
 An independently attested Tydelski identity supplies a separate conditional Y
 constraint, with an additional assumption needed to transfer it to another key.
 
@@ -169,7 +173,8 @@ other keys, source collections or damage models.
 The [p170 package](../experiments/p170_new_methods/README.md) completes 102
 optimization jobs, including 54 book historical settings and 28 radio
 historical settings. The older engine's 7 billion configured loop slots are
-kept distinct from 3,902,267,094 actually counted radio fitness calls. A
+kept distinct from 3,902,267,094 instrumented fitness calls across the matched
+controls and radio historical campaign. A
 separate finite group-move screen tests 401 distinct frames under 24 fixed
 key/rank pairs and two models. Its failed control shows that wildcard
 marginalization can favor a less informative wrong frame. None yields an
