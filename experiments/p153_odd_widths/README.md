@@ -10,7 +10,7 @@ width 18 fits this particular crib and unchanged first-part source.
 
 This is post-discovery validation. The text was supplied after the blind search
 found it. Other readings, lengths, widths, transposition geometries or source
-repairs are not excluded. No date, order number, footer or complete square is
+repairs are not excluded. No date, order number, trailing text or complete square is
 recovered by this calculation.
 
 ## Completed bounds
@@ -69,8 +69,12 @@ crib supplies a negative control and returns no key.
 rectangles and reencrypts every returned key. The original width-18 proof and
 the even-width package remain unchanged. `independent_python_check.py` supplies
 an additional implementation using functional dictionary state rather than the
-C solver's mutable row/column maps and rollback. Its published result files
-state exactly which widths were exhaustively rerun.
+C solver's mutable row/column maps and rollback. Independent Python repeats
+completed at widths 15, 17, 18, 19, 21 and 23 and matched the C results. The
+optional width-25 Python repeat was stopped at the publication cutoff; its C
+enumeration and fresh control were already complete. The additional-progress
+record preserves the completed per-width stdout checkpoints without claiming
+a completed Python width-25 run.
 
 ## Reproduce
 

@@ -1,0 +1,24 @@
+{
+  "reviewer": "alternative_attack",
+  "source_sha256": "7913d3e715df908fcbbb7e993e9809c0fe8e89b5eed5da5810515c87d95adf17",
+  "scope": "Read-only independent source review; no repeated complete odd-width enumeration was performed by this reviewer.",
+  "checks": [
+    "Physical stream index row*k+column and component index modulo two preserve odd-width digraph crossings.",
+    "Candidate component constraints are deduplicated by letter; incompatible repeated components reject locally.",
+    "Completed letter cells are injective both against existing state and within a new candidate.",
+    "Each ciphertext chunk is used once; every physical column is assigned.",
+    "Rollback removes only newly completed cell ownership and restores component values.",
+    "The second rectangle offsets are recomputed from 108 coordinates and never prune first-crib search.",
+    "Widths below 27 keep bit shifts in uint32 bounds; maximum column height fits arrays."
+  ],
+  "segmentation_counts": {
+    "15": 455,
+    "17": 2380,
+    "19": 19,
+    "21": 54264,
+    "23": 100947,
+    "25": 480700
+  },
+  "total_odd_segmentations": 638765,
+  "finding": "No concrete correctness defect found in the scoped review. The result remains conditional on the supplied crib, injective square and stated geometry."
+}

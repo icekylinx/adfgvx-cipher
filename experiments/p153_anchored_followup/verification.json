@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "case": "length89_control",
+      "width": 19,
+      "score_absolute_error": 4.122213681512221e-10,
+      "plaintext_verified": true,
+      "anchors_verified": true
+    },
+    {
+      "case": "p73",
+      "width": 18,
+      "score_absolute_error": 2.780673469260364e-10,
+      "plaintext_verified": true,
+      "anchors_verified": true
+    },
+    {
+      "case": "p73",
+      "width": 19,
+      "score_absolute_error": 2.757181150059296e-10,
+      "plaintext_verified": true,
+      "anchors_verified": true
+    },
+    {
+      "case": "p73",
+      "width": 20,
+      "score_absolute_error": 4.572777712041898e-10,
+      "plaintext_verified": true,
+      "anchors_verified": true
+    },
+    {
+      "case": "p170",
+      "width": 18,
+      "score_absolute_error": 4.0161118874948443e-10,
+      "plaintext_verified": true,
+      "anchors_verified": true
+    },
+    {
+      "case": "p170",
+      "width": 19,
+      "score_absolute_error": 3.02734726176368e-10,
+      "plaintext_verified": true,
+      "anchors_verified": true
+    },
+    {
+      "case": "p170",
+      "width": 20,
+      "score_absolute_error": 3.608402465715699e-10,
+      "plaintext_verified": true,
+      "anchors_verified": true
+    }
+  ],
+  "control": {
+    "true_masked_score": -4.026988403741703,
+    "best_fitted_score": -5.894605955,
+    "observed_coordinates": 176,
+    "known_coordinate_mismatches": 138,
+    "true_rank_recovered": false,
+    "classification": "Optimizer failure: the true masked language score exceeds the retained false maximum. This control does not establish recovery sensitivity at these lengths and budgets."
+  },
+  "fully_observed_or_half_coordinate_evidence_used_for_historical_acceptance": "No historical candidate was accepted."
+}

@@ -1610,7 +1610,33 @@
         "experiments/p153_crib/verification.json",
         "experiments/p153_crib/independent/algorithm_review.json"
       ],
-      "conditional_uniqueness": "Two independent exact enumerators find only the recovered key and its pair-swap/square-transpose equivalent at width18 when conditioned on the 60-letter first-part crib. Each partial key still admits 17! square completions; this is not a claim of global historical uniqueness."
+      "conditional_uniqueness": "Two independent exact enumerators find only the recovered key and its pair-swap/square-transpose equivalent at width18 when conditioned on the 60-letter first-part crib. Each partial key still admits 17! square completions; this is not a claim of global historical uniqueness.",
+      "conditional_width_screen": {
+        "widths": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "unique_length_class_segmentations": 3492604,
+        "complete": true,
+        "only_compatible_width": 18,
+        "source_and_crib_unchanged": true,
+        "evidence": [
+          "experiments/p153_even_widths/results/verification.json",
+          "experiments/p153_odd_widths/results/verification.json"
+        ],
+        "independent_check_limit": "Separate exact implementations reproduce the width18 result. Independent exclusion witnesses cover the other even widths; functional-state Python completes widths15,17,18,19,21,23. Its optional width25 repetition was interrupted; the complete C width25 enumeration and fresh control remain available."
+      }
     },
     {
       "id": "2017_comment_author_identity_scope",

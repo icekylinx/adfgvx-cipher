@@ -1,0 +1,42 @@
+{
+  "stopped_utc": "2026-11-02T11:15:51.057091+00:00",
+  "status": "Optional Python repeat stopped at the requested publication cutoff; the separate C enumeration was already complete at every width.",
+  "python_source_sha256": "14374c5d8fa64007859f69d50e529d2cf7daca9d73c801ca2b8db8b417d01cae",
+  "completed_stdout_checkpoints": [
+    {
+      "width": 18,
+      "segmentations": 18564,
+      "nodes": 5888,
+      "solutions": 2,
+      "c_results_equal": true,
+      "elapsed_seconds": 1.909938527001941
+    },
+    {
+      "width": 21,
+      "segmentations": 54264,
+      "nodes": 63378,
+      "solutions": 0,
+      "c_results_equal": true,
+      "elapsed_seconds": 26.44145400400157
+    },
+    {
+      "width": 23,
+      "segmentations": 100947,
+      "nodes": 171033,
+      "solutions": 0,
+      "c_results_equal": true,
+      "elapsed_seconds": 153.6722695290009
+    }
+  ],
+  "not_completed_in_this_python_repeat": [
+    25
+  ],
+  "record_provenance": "Each listed record was printed after that width had fully enumerated and asserted equality to the C solutions and segmentation count. This compact record preserves the completed stdout checkpoints because the optional script writes its combined JSON only after all requested widths finish.",
+  "other_completed_python_widths": [
+    15,
+    17,
+    19
+  ],
+  "other_result_file": "independent_python_result.json",
+  "c_historical_coverage_unchanged": "All six odd widths and the width-18 overlap completed, with all source/control reencryption checks passed."
+}
