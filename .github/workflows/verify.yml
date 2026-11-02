@@ -37,6 +37,8 @@ jobs:
           python experiments/tiflis_appointment/verify.py --verify
           python experiments/warsaw_service_messages/verify.py --verify
           python experiments/naval_armistice_order/verify.py --verify
+          python experiments/siedlce_withdrawal/verify.py --verify
+          python experiments/black_sea_shipping/verify.py --verify
           python experiments/aviation_connection/verify.py --verify
           python experiments/aviation_connection/verify_companion.py --verify
           python experiments/corpus_attack/build_source_pairs.py --verify

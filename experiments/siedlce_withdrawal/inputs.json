@@ -1,0 +1,101 @@
+{
+  "schema": "adfgvx-siedlce-withdrawal-input-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 200,
+    "pdf_page_1based": 203,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "crop": "sources/childs_p200_A.png",
+    "crop_sha256": "de37c1938f10a780d971e1b1b0c183ea0c097c7b1f70fed5a54b0e21e74c7933",
+    "crop_rectangle_pdf_points": [
+      50,
+      195,
+      542,
+      365
+    ],
+    "crop_scale": 3.5,
+    "page_heading_literal": "15th. NOVEMBER, 1918.",
+    "header_literal": "A) WAU v LP (08.05 p.m., November 15th); 16.44 (15/11); RICHI-330"
+  },
+  "prior_credit": {
+    "key_recovery": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker",
+    "paper_doi": "10.1080/01611194.2016.1169461",
+    "scope": "The period key is prior published work. This package supplies a source-level edition and exact repairs; it makes no first historical decipherment claim.",
+    "audit_note": "No matching case was present in the canonical repository or the selected message examples of the inspected author manuscript at preparation time; this is not an exhaustive priority search."
+  },
+  "key": {
+    "id": "Nov13-15b",
+    "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+    "column_rank_order": [
+      4,
+      11,
+      5,
+      14,
+      9,
+      7,
+      16,
+      1,
+      12,
+      15,
+      6,
+      10,
+      3,
+      13,
+      8,
+      2
+    ]
+  },
+  "record": {
+    "id": "p200_A",
+    "source_rows": [
+      "FXAVX VAXDA FAFFA GAGGF VVAGV AAVAD GGDDG GFAAV",
+      "AFFVX GAAVF XXVGX DGAFA GVFXG FXFVX DGAFG XXXGX",
+      "XXVXA XXFAX VXDFD DVVFA VFFXX VDDDV XGXGA FAXFV",
+      "XGFGX FAFFA XVAAF XAVFF FFAFV VFVXV VXFFF XVAXV",
+      "XXGXX DXAGF XGDXD XGVVX FXXVF FFXVV VDVXF VGGAD",
+      "FFAXG VFFFG FAFAV XGFXF FFDF- FVGXA VXGXA XVAXX",
+      "VVXAX AXGGV GFXVD GDFXV DVVGF XVAGV VAAVA AFAFV",
+      "VDAAA VGAAV DXAFF AAGAG DVAVA VGXFX AVVGX VVXVX",
+      "XGXVF XFFXX"
+    ],
+    "source_slot_count": 330,
+    "source_erasures": 1,
+    "frame_model": "One printed dash is an erased coordinate in its visible slot. No insertion, deletion, or reordering.",
+    "editorial_recipe": {
+      "text": "ANGENERALGOUVERNEMENTWARSCHAUXGARISONXSIEDLCEXUNDMINSKMAZIOWICKIINXTHORNXEINGETROFFENVERBLEIBBATLXOSTROWOXNICHTBEKANNTXGENERALVZEDLITZBISHERMILITAERGOUVERNEURSIEDLCE",
+      "pair_overrides": []
+    },
+    "literal_spellings_retained": [
+      "GARISON",
+      "MINSKMAZIOWICKI"
+    ],
+    "interpretation": "To General Government Warsaw: the garrison of Siedlce and Minsk Maziowicki has arrived in Thorn; the whereabouts of Battalion Ostrowo are unknown. Signed General von Zedlitz, hitherto military governor of Siedlce."
+  },
+  "independent_context": {
+    "title": "Kreisblatt für den Kreis Grojec / Dziennik rozporządzeń dla powiatu Grójeckiego",
+    "issue": 29,
+    "publication_date": "1918-10-15",
+    "notice_date": "1918-09-16",
+    "printed_page": 211,
+    "pdf_page_1based": 4,
+    "url": "http://mbc.cyfrowemazowsze.pl/Content/15317/15317.pdf",
+    "https_indexed_url": "https://mbc.cyfrowemazowsze.pl/Content/15317/PDF/15317.pdf",
+    "pdf_sha256": "d4101dfef4338fdeddf99c60b854904595339e76889690721393013b14c08cc7",
+    "signature_crop": "sources/grojec_1918_29_p211_signature.png",
+    "signature_crop_sha256": "c2147cd762c829839cda68cb6e4e6c46106ae64f83dac470c66710794c8da6ba",
+    "signature_crop_rectangle_pdf_points": [
+      20,
+      0,
+      688.5999755859375,
+      180
+    ],
+    "signature_crop_scale": 2,
+    "title_crop": "sources/grojec_1918_29_title.png",
+    "title_crop_sha256": "4f06fc7b3fa63177927b5d3f58d37dcbfe3c80ddbad9c4e64b8505e26e4a0b9c",
+    "finding": "The bilingual contemporary notice is signed at Siedlce by military governor Freiherr von Zedlitz, Generalmajor. Both the German and Polish signatures are visually legible.",
+    "scope": "Supports the name and office in the proposed signature. It does not independently attest the November withdrawal, Thorn destination, Minsk spelling, or battalion identity."
+  }
+}

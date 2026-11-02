@@ -1,0 +1,582 @@
+{
+  "schema": "adfgvx-black-sea-shipping-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov13-15b",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      4,
+      11,
+      5,
+      14,
+      9,
+      7,
+      16,
+      1,
+      12,
+      15,
+      6,
+      10,
+      3,
+      13,
+      8,
+      2
+    ],
+    "column_count": 16,
+    "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+    "square_rows": [
+      "H??BMU",
+      "F15PX0",
+      "DJLR??",
+      "??S6VO",
+      "NKZ?AW",
+      "ITEGC?"
+    ],
+    "known_cell_count": 28,
+    "missing_plaintext_symbols": "234789QY",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 11,
+        "author": "George Lasry",
+        "date": "2017-02-27"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 244,
+        "pdf_page_1based": 247,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+    ],
+    "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+    "baseline_differences": [
+      {
+        "coordinate": "AD",
+        "baseline": "2",
+        "audited": "?"
+      },
+      {
+        "coordinate": "AF",
+        "baseline": "3",
+        "audited": "?"
+      },
+      {
+        "coordinate": "FV",
+        "baseline": "4",
+        "audited": "?"
+      },
+      {
+        "coordinate": "FX",
+        "baseline": "7",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GA",
+        "baseline": "8",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GD",
+        "baseline": "9",
+        "audited": "?"
+      },
+      {
+        "coordinate": "VG",
+        "baseline": "Q",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XX",
+        "baseline": "Y",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-02",
+      "comment": 24,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "AD",
+          "proposed": "2"
+        },
+        {
+          "row_column": "AF",
+          "proposed": "3"
+        },
+        {
+          "row_column": "FV",
+          "proposed": "4"
+        },
+        {
+          "row_column": "FX",
+          "proposed": "7"
+        },
+        {
+          "row_column": "GA",
+          "proposed": "8"
+        },
+        {
+          "row_column": "GD",
+          "proposed": "9"
+        },
+        {
+          "row_column": "VG",
+          "proposed": "Q"
+        },
+        {
+          "row_column": "XX",
+          "proposed": "Y"
+        }
+      ]
+    }
+  },
+  "source_images": [
+    {
+      "id": "p199_A1",
+      "path": "sources/p199_A1.png",
+      "printed_page": 199,
+      "pdf_page_1based": 202,
+      "crop_pdf_points": [
+        40,
+        194,
+        513,
+        335
+      ],
+      "render_scale": 4,
+      "sha256": "9ad595486e54fb7683d01cea38cbce27c0a1a8095a663e5fa818be5c4876a6b0"
+    },
+    {
+      "id": "p199_A2",
+      "path": "sources/p199_A2.png",
+      "printed_page": 199,
+      "pdf_page_1based": 202,
+      "crop_pdf_points": [
+        56,
+        337,
+        511,
+        441
+      ],
+      "render_scale": 4,
+      "sha256": "e8ea090e2c952a0f9f9275b13b99351c20188c30c8242b8faabc2e2b52b7b9e2"
+    },
+    {
+      "id": "p199_A3",
+      "path": "sources/p199_A3.png",
+      "printed_page": 199,
+      "pdf_page_1based": 202,
+      "crop_pdf_points": [
+        56,
+        455,
+        511,
+        536
+      ],
+      "render_scale": 4,
+      "sha256": "e9b3f1900151abe9a4a08e6d77930a3499895e3c8ba28cc05a6998f860e8e76d"
+    },
+    {
+      "id": "p200_B1",
+      "path": "sources/p200_B1.png",
+      "printed_page": 200,
+      "pdf_page_1based": 203,
+      "crop_pdf_points": [
+        50,
+        365,
+        515,
+        513
+      ],
+      "render_scale": 4,
+      "sha256": "bf8fbc92b416ede3616dfbc1fb33fdeef1bf40f1855c48dcaf4623f91265b6de"
+    },
+    {
+      "id": "p200_B2",
+      "path": "sources/p200_B2.png",
+      "printed_page": 200,
+      "pdf_page_1based": 203,
+      "crop_pdf_points": [
+        68,
+        530,
+        515,
+        640
+      ],
+      "render_scale": 4,
+      "sha256": "b85b1c2158d48e9db0df6b8a11e00b02a7c8f52d043f0ee9a23d29c8c9cdb7fd"
+    }
+  ],
+  "records": [
+    {
+      "id": "p199_A1",
+      "printed_page": 199,
+      "pdf_page_1based": 202,
+      "source_section": "A1",
+      "source_image_id": "p199_A1",
+      "key_id": "Nov13-15b",
+      "source_rows": [
+        "FFADG FFFFF FFVVF DAFAA DAFFA GXAGG FXVXA FXXFA",
+        "FXXXV XAXADV XVXDV AGVDG VVFFF DVGDV XVVVV AXAAG",
+        "GVVXX VXXXG XDXXX XAXXA XAVAD GXDVA AXXAF FFVFD",
+        "GGDGG GAFVA XVXVV FGADF FGDDX XDAAA XXXGG FFFVF",
+        "FFVXG FFFXF DGAVV GGFDD AXVAF VVFXA AFGAD FGFDA",
+        "AXGFV VFDAV VFXAA XVXVF VGAFD FFDFV FXVFG FAAVA",
+        "VAVXX VVFFV FFAXG VAFAF DAAVA XAFXX DVFVX GVXFF",
+        "VXGXX FVVXV VF"
+      ],
+      "source_slots": 293,
+      "advertised_length": 292,
+      "model": {
+        "kind": "delete_coordinate",
+        "source_index": 50,
+        "reason": "Extra coordinate in six-letter source group10 XAXADV."
+      },
+      "expected_model_raw": "ANFEIGENHAUSSECHSHUNDERTACHTZEHNXHERKULESMELDETZWOEZFTENNOVEMBERDASSNIKOLAJEWMEHREREDAMPFERLEBERKAKAUPULSERAUSXOPERETTEXZIRKA1?0TONNENEINGELAUFENX",
+      "editorial_candidates": [
+        {
+          "id": "ordinary_words",
+          "reason": "Repair ZWOEZFTEN and KAKAUPULSER; retain LEBER, code names and the 1?0 amount.",
+          "plaintext": "ANFEIGENHAUSSECHSHUNDERTACHTZEHNXHERKULESMELDETZWOELFTENNOVEMBERDASSNIKOLAJEWMEHREREDAMPFERLEBERKAKAOPULVERAUSXOPERETTEXZIRKA1?0TONNENEINGELAUFENX"
+        }
+      ],
+      "notes": [
+        "There are 293 valid coordinates against RICHI-292; source group 10 is XAXADV (six letters).",
+        "The broad, names/quantity-masked deletion screen has tied minima 50,51,52. Restricting the extra coordinate to the six-letter group leaves only 50. All broad minima remain in the certificate.",
+        "LEBER is retained as an unexplained received sequence; it is not silently converted to UEBER. The amount remains1?0."
+      ],
+      "header": "A) XYZ v LP (06.01 p.m., November 15th); 16.50 (15/11); 3 TLE; 1 TL RICHI-292",
+      "geometry_stencil": "AN??????????????????????????????X????????MELDETZWOELFTENNOVEMBERDASS?????????MEHREREDAMPFER?????KAKAOPULVERAUSX????????XZIRKA???TONNENEINGELAUFENX",
+      "masked_plaintext_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        91,
+        92,
+        93,
+        94,
+        95,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        125,
+        126,
+        127
+      ],
+      "malformed_group_source_indices": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "prior_body_credit": "Lasry, Niebel, Kopal and Wacker (2016), section6.5; source edition and repair audit by icekylinx and GPT-6 Astra Pro (2026)."
+    },
+    {
+      "id": "p199_A2",
+      "printed_page": 199,
+      "pdf_page_1based": 202,
+      "source_section": "A2",
+      "source_image_id": "p199_A2",
+      "key_id": "Nov13-15b",
+      "source_rows": [
+        "VFAVA FVVVA XAAAG VADGF FVFVD DVVAF FVGGF VFAFF",
+        "FFAVV AFFXD XFFXX AXGXF XAFVF AVFVF GXXAA AXVVF",
+        "AAVFG FVXVV AXFAX FXXGV AGFXF VVXVA VGGGA XVXXV",
+        "FVDXG FXXDF AXAAX FAAFG FVVXX VFVVX AFVXX VGXFX",
+        "VFFXV XFVXX XAGVA VVVFV AXFFX XGAXG VVAVX AVXXF",
+        "XFVDD VGAVF XGFFA AGAGV DXGAG AVAXA GXXAG FGAXF",
+        "DVFXG VAVXX AFAGV AAFVX GGVFA GGAFF GGVDG DGGVV",
+        "FFVGF GXVFF AFVGF GGAAF FAVAG DFFXX GADFX AAVVX",
+        "AGXGV GXXVA DXAXA AFXAV FXXD"
+      ],
+      "source_slots": 344,
+      "advertised_length": 344,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_model_raw": "DASCHWALBENSCHWANZUNDABTRANVPORTABNIKO?AJEWELSEVORLAEUFIGUNMOEGLICHXWAREBLEIBTDAHERUNTERMILITAERISCHERBEWACHUNGANBORDXVERSUCHETDURCHVORZUGSKARTENDARUEBERNAEHERESZUERFAHRENX",
+      "editorial_candidates": [
+        {
+          "id": "ordinary_words",
+          "reason": "Repair ABTRANVPORT and NIKO?AJEW. Retain SCHWALBENSCHWANZ, ELSE and VORZUGSKARTEN without claiming their coded meanings.",
+          "plaintext": "DASCHWALBENSCHWANZUNDABTRANSPORTABNIKOLAJEWELSEVORLAEUFIGUNMOEGLICHXWAREBLEIBTDAHERUNTERMILITAERISCHERBEWACHUNGANBORDXVERSUCHETDURCHVORZUGSKARTENDARUEBERNAEHERESZUERFAHRENX"
+        }
+      ],
+      "notes": [
+        "All 344 source coordinates are valid.",
+        "The reading contains code-like terms. Their literal wording is recovered, but their operational referents are not identified."
+      ],
+      "header": "A) XYZ v LP (06.01 p.m., November 15th); 16.50 (15/11); 3 TLE; 2 TL RICHI-344",
+      "prior_body_credit": "Lasry, Niebel, Kopal and Wacker (2016), section6.5; source edition and repair audit by icekylinx and GPT-6 Astra Pro (2026)."
+    },
+    {
+      "id": "p199_A3",
+      "printed_page": 199,
+      "pdf_page_1based": 202,
+      "source_section": "A3",
+      "source_image_id": "p199_A3",
+      "key_id": "Nov13-15b",
+      "source_rows": [
+        "AAAXV AGGVG VGXAV FADGF VFGFD AFXXX VVXGV VDDGF",
+        "VGFFX VFFDG GXAXX XVAVX GVXFX XVGAF VXGAF DXAAV",
+        "AAVFF AXAVF VVGAX XXDXX FDVAX VVXXX XGFVV FDXFG",
+        "FAFFX GFAFG AFGGF AGGVF GAXXV VXXFA XXDXX AAAFV",
+        "ADVAV VAYA ?AVGX FFVDA GGDVA DAAAG ADVFX AVVAX",
+        "FXFAA V"
+      ],
+      "source_slots": 205,
+      "advertised_length": 206,
+      "model": {
+        "kind": "insert_unknown_coordinate",
+        "source_gap": 165,
+        "reason": "Canonical representative of five tied ordinary-body gap fits; no unique footer geometry is claimed."
+      },
+      "expected_model_raw": "SINDBEUNR?HIGTDANICHTWISS?NWASIHRINANBETRACHTLAGEBEGINNENWERDETXREICHSVERSORGUNGXADMIRALSTAB15?16DZWCIX",
+      "editorial_candidates": [
+        {
+          "id": "ordinary_body",
+          "reason": "Supply ordinary-word erasures through ADMIRALSTAB; preserve the entire received footer.",
+          "plaintext": "SINDBEUNRUHIGTDANICHTWISSENWASIHRINANBETRACHTLAGEBEGINNENWERDETXREICHSVERSORGUNGXADMIRALSTAB15?16DZWCIX"
+        },
+        {
+          "id": "footer_proposal",
+          "reason": "Separate editorial footer15X16DZWEIX: fill the separator and repair ZWCI to ZWEI. It does not assign any unknown key cell.",
+          "plaintext": "SINDBEUNRUHIGTDANICHTWISSENWASIHRINANBETRACHTLAGEBEGINNENWERDETXREICHSVERSORGUNGXADMIRALSTAB15X16DZWEIX"
+        }
+      ],
+      "notes": [
+        "The source contains 205 slots against RICHI-206. Group 34 is VAYA (four slots, one invalid Y); the leading overstruck glyph of the following group is retained as?.",
+        "The small apostrophe-like mark before VAYA is documented in the crop and is not treated as an ADFGVX coordinate.",
+        "All 206 one-coordinate insertion boundaries are checked with the entire footer masked. Five minima 164–168 need zero changes to observed coordinates; no unique gap is inferred from the footer.",
+        "Every tied model can be filled to the same ordinary-word prefix through ADMIRALSTAB. All five raw footers are retained."
+      ],
+      "header": "A) XYZ v LP (06.01 p.m., November 15th); 16.50 (15/11); 3 TLE; 3 TL RICHI-206",
+      "ordinary_body_prefix": "SINDBEUNRUHIGTDANICHTWISSENWASIHRINANBETRACHTLAGEBEGINNENWERDETXREICHSVERSORGUNGXADMIRALSTAB",
+      "body_prefix_length": 92,
+      "geometry_stencil": "SINDBEUNRUHIGTDANICHTWISSENWASIHRINANBETRACHTLAGEBEGINNENWERDETXREICHSVERSORGUNGXADMIRALSTAB???????????",
+      "masked_plaintext_indices": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "prior_body_credit": "Lasry, Niebel, Kopal and Wacker (2016), section6.5; source edition and repair audit by icekylinx and GPT-6 Astra Pro (2026)."
+    },
+    {
+      "id": "p200_B1",
+      "printed_page": 200,
+      "pdf_page_1based": 203,
+      "source_section": "B1",
+      "source_image_id": "p200_B1",
+      "key_id": "Nov13-15b",
+      "source_rows": [
+        "VVAAV FAXXX DFVGF FAXDX FFVFA AAGGV AAXFY AVGAD",
+        "GGFXA FDXFV DXGDX XVGXX DXXXX XAXVG VVFAX DVXVV",
+        "XVFAX FAXXV XAVXX GAXDG VVGXG XXVXV FVGXV VXXAX",
+        "GVADX GXGVX FFVAD DFVGX GVADA XAVFF XXXVA FVFAF",
+        "AGDXD GADAF DFXDF FVXAA XXDVF XXFXX AXFXA XAFXA",
+        "VAXVG VGFGF XXAXF VXXFX XVFVV XDAAF ADVAG VVFFV",
+        "AAAFG VVVDV AADAG AAFXD ADFGA VGFXA FFVDF FVFFD",
+        "VVAXX VGAFX FXAFD AAFXV FVAVA DAGFF FAXGX XVFFV",
+        "XXVXD XAGDD AFAFG VAFGA DXAGA DAVAG AGFAV AXFDA",
+        "FVGVG DAGVD VVDVX XGGAX XVAXX DAXGX GXXV"
+      ],
+      "source_slots": 394,
+      "advertised_length": 394,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_model_raw": "MXMXDXNICOLAJEFFXWENNVERKAUFXCORCOWADOXANTUERKEINOCINICHTINORDNUNGSOLLVERKAUFNI?HTSTA?TFINDENXFALLSAUFGRUNDBEREITSGETAETIGTENVERKAUFSEIGENTUMSUEBERTRAGUNGNOCHWICHTERFOLGTISTHATSOLCHEZUUNTERBLEIBENX",
+      "editorial_candidates": [
+        {
+          "id": "ordinary_words",
+          "reason": "Repair the ordinary NOCH/NICHT/STATT words; retain the received CORCOWADO spelling.",
+          "plaintext": "MXMXDXNICOLAJEFFXWENNVERKAUFXCORCOWADOXANTUERKEINOCHNICHTINORDNUNGSOLLVERKAUFNICHTSTATTFINDENXFALLSAUFGRUNDBEREITSGETAETIGTENVERKAUFSEIGENTUMSUEBERTRAGUNGNOCHNICHTERFOLGTISTHATSOLCHEZUUNTERBLEIBENX"
+        }
+      ],
+      "notes": [
+        "Source group7 is AAXFY, with an invalid Y at source index 34.",
+        "CORCOWADO is preserved in the base reading. Identification with the ship Corcovado is contextual and does not change the coordinate certificate."
+      ],
+      "header": "B) NKJ v LP (08.19 p.m., November 15th); 16.00 (15/11) FUER COS; 2 TLE; 1 TL RICHI-394"
+    },
+    {
+      "id": "p200_B2",
+      "printed_page": 200,
+      "pdf_page_1based": 203,
+      "source_section": "B2",
+      "source_image_id": "p200_B2",
+      "key_id": "Nov13-15b",
+      "source_rows": [
+        "GAAGG AFVAD FVGXA AFGAV VAXGF DAVAG FDFFV AAFFV",
+        "GFAVG XAFXV XAAAD FVGXF AFFVF VGXXF XXFVD VGVVA",
+        "VFXAX XFVGV AXVVV XXXXX XVDFV XXAVF XXGXX XAXFV",
+        "XXAXG XGGAX VXVDD FFAAF FFGAG FAGFA FGAVF VVDXX",
+        "XADXD XXXXV XAXGV AXXDV XXVFX XFFXF GFDXV XAVVX",
+        "VXAFF FVFGV DVXAF AFXXD VDVVV DFGFD GXADV AAXAF",
+        "AXGFG AFGVA XXFXF VXVXG XXGXF AFAXG AGFVA FVXAA",
+        "ADFVG VGGXG VFXGD AXFAF FFFAA AVGFX FA?FD DXGFA",
+        "EAAAV FFFDV DGGFV DFFVV XFFFV VVGVF AFVXX ADAAD"
+      ],
+      "source_slots": 360,
+      "advertised_length": 360,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_model_raw": "TUERKEIGEGENUEBERKNNGELTENDGEMCHTWERDENXREED?REIWILLDAMPFERANTUEKEINICHTVERKAUFENESSEIDENNDASSKAUFPREISINDEUTSCHLANDVOREIGENTUMSUEBERTRAGUNGBARBEZAHLTWERDEXMARIN?AMTXAXSECHSXS????0",
+      "editorial_candidates": [
+        {
+          "id": "source_erasure_fills",
+          "reason": "Fill two erased coordinates to recover REEDEREI and MARINEAMT. Preserve the source omissions in KNN, GEMCHT and TUEKEI and the unknown reference.",
+          "plaintext": "TUERKEIGEGENUEBERKNNGELTENDGEMCHTWERDENXREEDEREIWILLDAMPFERANTUEKEINICHTVERKAUFENESSEIDENNDASSKAUFPREISINDEUTSCHLANDVOREIGENTUMSUEBERTRAGUNGBARBEZAHLTWERDEXMARINEAMTXAXSECHSXS????0"
+        }
+      ],
+      "notes": [
+        "Source index 312 is an unreadable glyph in FA?FD; index 320 is an E-like overstrike in EAAAV. Both remain literal in the source transcription.",
+        "The received KNN, GEMCHT and TUEKEI each omit a letter from the ordinary German spelling. No plaintext insertion is used to normalize them.",
+        "The final raw field is MARIN?AMTXAXSECHSXS????0, with the four unknown cells retained."
+      ],
+      "header": "B) NKJ v LP (08.19 p.m., November 15th); 16.00 (15/11) FUER COS; 2 TLE; 2 TL RICHI-360"
+    }
+  ],
+  "source_relationships": [
+    {
+      "records": [
+        "p199_A1",
+        "p199_A2",
+        "p199_A3"
+      ],
+      "kind": "One physically headed three-part source message.",
+      "relation_to_prior_readings": "Shares FEIGENHAUS, HERKULES and REICHSVERSORGUNG with the published p120/p123 family. Its written-out618 reference differs from the earlier617; it is a new message, not a duplicate."
+    },
+    {
+      "records": [
+        "p200_B1",
+        "p200_B2"
+      ],
+      "kind": "One physically headed two-part source message about sale and ownership-transfer conditions.",
+      "relation_to_p199_A": "Separate message and subject; not claimed as a retransmission or a continuation of the coded supply report."
+    }
+  ],
+  "prior_publication": {
+    "authors": [
+      "George Lasry",
+      "Ingo Niebel",
+      "Nils Kopal",
+      "Arno Wacker"
+    ],
+    "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+    "doi": "10.1080/01611194.2016.1169461",
+    "year": 2016,
+    "section": "6.5, A Code within a Code",
+    "author_pdf_page_1based": 25,
+    "author_pdf_printed_page": 24,
+    "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+    "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+    "author_pdf_bytes": 309414,
+    "prior_body_identification_records": [
+      "p199_A1",
+      "p199_A2",
+      "p199_A3"
+    ],
+    "scope": "The paper already identifies and discusses the p199 A supply-message body. The present contribution is the literal source edition, exact deletion/gap alternatives, source-coordinate repairs and conservative unresolved fields. No first historical body decipherment is claimed.",
+    "quantity_caveat": "The prior prose paraphrase gives approximately ten tons. The unchanged partial square and declared source model here yield1?0; the prior amount is not imported into the source reading."
+  }
+}

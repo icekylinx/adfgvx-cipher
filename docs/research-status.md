@@ -4,7 +4,7 @@
 
 **icekylinx and GPT-6 Astra Pro · 2 November 2026**
 
-The edition contains 22 challenge entries and 156 other source-reviewed
+The edition contains 22 challenge entries and 162 other source-reviewed
 records in the [two reading tables](../cases/README.md). **p73, p170 and p198 D remain
 wholly open.** Other entries range from complete prior readings to partial
 recoveries and source-linked reconstructions; they are not all independently
@@ -16,6 +16,8 @@ defensible.
 
 | Result | Evidence gained | What remains unresolved |
 |---|---|---|
+| [Siedlce withdrawal](../cases/other/p200_A.md) | A 165-position report places two garrisons at Thorn and leaves Battalion Ostrowo unlocated; a contemporary notice independently attests General von Zedlitz and his office. | Eleven coordinate substitutions and one dash fill remain editorial. The independent notice supports the signature, not the reported troop movement. |
+| [Black Sea supply and Corcovado sale](../cases/other/black_sea_shipping.md) | Five physical records fix 785/798 raw positions, covering guarded cargo at Nikolaev and a cash-payment condition before ship ownership transfers. | The p199 supply body was already identified by the Lasry team. Three deletion minima, five gap minima, the literal quantity and unresolved references remain explicit. |
 | [Naval armistice order](../cases/other/naval_armistice_order.md) | A five-part German source edition gives 712/719 fixed raw positions, with two visibly short groups and every repair accounted for. | The original body identification belongs to the Lasry team. Fourteen substitutions and two inserted values remain editorial; two reference digits have 20 coupled possibilities, and ambiguous header digits stay unresolved. |
 | [Warsaw markers and LP service traffic](../cases/other/warsaw_service_messages.md) | Four records fix 532/541 raw positions. One short group is restored with no received-coordinate changes; FRANZ and EMIL distinguish unchecked and checked Warsaw messages. | Six reference/garble positions, source misspellings and inconsistent dates remain; the optional route-query repair has a separate higher cost. |
 | [Polish appointment in Tiflis](../cases/other/tiflis_appointment.md) | Three source parts link a forwarding instruction via Kress to an appointment addressed to Waclaw v. Ostrowski. Name-masked screens locate a displaced printed group and a missing group; the independently attested TYDELSKI surname supports Nov13b FX=Y. | The cross-page association retains conflicting dates; the courier identity remains conditional. Transferring Y to Nov13a additionally assumes the same correctly copied pilot surname; neither published square is altered. |
