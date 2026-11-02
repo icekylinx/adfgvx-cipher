@@ -1,0 +1,136 @@
+{
+  "schema": "adfgvx-p198-joint-exact-independent-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "review_date": "2026-11-02",
+  "status": "Passed: exactness argument, implementation, independent combinatorial counts, canonical ties, short exhaustive controls and four recorded source witnesses.",
+  "input_sha256": {
+    "experiments/p198_exact_sparse/inputs.json": "25a745508359aa6d85876f60747ae2dfdcbf20586d54539ae0d572d97bc16e8a",
+    "experiments/p198_joint_exact/exact_joint.cpp": "427443379eba96ce5af8aee14c9cec4a288bf4f37a539d0c7ac927b45facbb85",
+    "experiments/p198_joint_exact/compute.py": "30ceef089ccd5e3f3984d6b3102f8c0c785ed51ca07157bcae19deadc2ffa709",
+    "experiments/p198_joint_exact/results.json": "a9ba07498feb7ccfafd62f9ff65bbe4ba64fcbdfc4fd0af79f7ca474e25487bd",
+    "experiments/p198_joint_exact/verify_recorded.py": "8bbd48be82df444eeb14b590a4405414f2077bebdfda9079378162d6d8733752",
+    "experiments/p198_joint_exact/README.md": "0d8ce121eea28d08a220bcea631653e02fa9f0f7de868c005e5dc37b24305618"
+  },
+  "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+  "review_scope": {
+    "historical_model": "Exactly five deletions from a 170-coordinate frame, retaining the 165 observed coordinates in order, for each separately fixed complete square and transposition.",
+    "independent_implementation": "No project cipher, scoring or optimizer function was imported. Decryption used direct column lengths and rank offsets; encryption independently transposed square-derived coordinates.",
+    "score_check": "Each scored float32 model value was read directly from the hash-pinned binary table and converted through its exact integer ratio to units of 2^-24 before summation.",
+    "full_optimizer_rerun_by_this_reviewer": false,
+    "global_claim_basis": "Reviewed state-dominance proof and C++ implementation, independently checked the full partition/count identities and small exhaustive controls, and inspected all four completed allocation reports. A fresh full optimizer reproduction is separate from this audit."
+  },
+  "exactness_argument": [
+    "Every full ciphertext mask determines one loss count in each physical column. For a fixed allocation, all retained column lengths and source boundaries are fixed. The row walk can then realize every deletion mask and every one of six coordinate values per deletion.",
+    "The processing position is implicit in the layer. Per-column used-loss counts determine future retained source coordinates and remaining budgets; the last three concrete letters determine every future contribution of the additive four-gram objective. Prefixes in the same state therefore admit identical continuations.",
+    "Keeping the maximum prefix score is exact. Tied prefixes have equal loss cardinality. Adding a common future position set preserves the first symmetric difference of their masks. If masks agree, adding the same future coordinate values preserves the first differing fill value, even when new ciphertext positions precede old ones.",
+    "In the 16-column cases, the last six coordinates visit distinct columns. With l allocated losses, used count zero fixes the recent coordinate; each positive count permits at most six values. The retained value is included among those six, so the factor is 1+6l, not 1+7l. Columns outside the recent suffix need only their used count.",
+    "The product of these factors is at most 7^5=16807. This bound is for the stated recent-context/distinct-column geometry; it is not asserted for every width supported by the generic engine.",
+    "The state cap aborts on overflow and never prunes a live state. All four recorded full runs complete all 15504 allocations and attain, without exceeding, the 16807-state bound."
+  ],
+  "independent_counts": {
+    "allocations": 15504,
+    "weighted_masks": 1115034284,
+    "fills_per_mask": 7776,
+    "total_witnesses": 8670506592384,
+    "maximum_state_bound": 16807
+  },
+  "counting_method": "Enumerated every 16-part nonnegative composition of 5; summed product(C(column_length,loss_count)) for column lengths 11 repeated ten times and 10 repeated six times. The sum equals C(170,5). Multiplied by 6^5 fillings, counting witnesses rather than distinct texts.",
+  "tie_order_control": {
+    "checks": 27690,
+    "checks_with_future_positions_before_both_histories": 8904,
+    "scope": "All pairs of two-loss histories over six positions with A/D fills, extended by common disjoint future sets of up to two positions and all A/D values. The abstract mask-then-fill ordering was checked independently."
+  },
+  "small_exhaustive_controls": [
+    {
+      "id": "small_width_4",
+      "nominal_coordinates": 12,
+      "loss_and_fill_witnesses": 72,
+      "canonical_optimum_matches": true
+    },
+    {
+      "id": "small_width_6",
+      "nominal_coordinates": 14,
+      "loss_and_fill_witnesses": 3276,
+      "canonical_optimum_matches": true
+    },
+    {
+      "id": "small_width_16",
+      "nominal_coordinates": 20,
+      "loss_and_fill_witnesses": 6840,
+      "canonical_optimum_matches": true
+    }
+  ],
+  "small_exhaustive_witnesses": 10188,
+  "full_witness_checks": [
+    {
+      "case_id": "control_CHI-Nov13",
+      "complete_allocations": 15504,
+      "maximum_active_states": 16807,
+      "source_coordinates_preserved": 165,
+      "model_selected_fills": 5,
+      "best_integer_score": -5723766880,
+      "plaintext": "DERSTABGELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEREITEREBEFEHLESEKERMITTELN",
+      "filled_ciphertext_sha256": "aac54723a132ff8106ca4f1f150765c7577b1592fe20c053d2e1c09fb8d04361",
+      "reencryption_matches_full_witness": true,
+      "retained_source_changes": 0,
+      "control_truth_hamming_distance": 4,
+      "control_truth_integer_score": -5811271292,
+      "optimum_advantage_over_truth": 87504412
+    },
+    {
+      "case_id": "control_Nov13-15b",
+      "complete_allocations": 15504,
+      "maximum_active_states": 16807,
+      "source_coordinates_preserved": 165,
+      "model_selected_fills": 5,
+      "best_integer_score": -5651119168,
+      "plaintext": "DERSTARMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBETTEWEITEREBEFEHLEUEBERMITTELN",
+      "filled_ciphertext_sha256": "7f680f82108d21ecc45f8952d440a269fd26d33dc060c9243716ec6a14355ff9",
+      "reencryption_matches_full_witness": true,
+      "retained_source_changes": 0,
+      "control_truth_hamming_distance": 2,
+      "control_truth_integer_score": -5811271292,
+      "optimum_advantage_over_truth": 160152124
+    },
+    {
+      "case_id": "p198_CHI-Nov13",
+      "complete_allocations": 15504,
+      "maximum_active_states": 16807,
+      "source_coordinates_preserved": 165,
+      "model_selected_fills": 5,
+      "best_integer_score": -10598447632,
+      "plaintext": "N9YTEUENT16726SSJKZ01WEPLC06GEMUSEEZHKISSTK1SOEVOMMYY4SXCORBC5D1ENGEUEJEG329FF34GJ3UT",
+      "filled_ciphertext_sha256": "c743721524d34eaf16dd0a97662e5dd2a7102fe4f2bb37cf6dd2e3ea7b4f1cd4",
+      "reencryption_matches_full_witness": true,
+      "retained_source_changes": 0
+    },
+    {
+      "case_id": "p198_Nov13-15b",
+      "complete_allocations": 15504,
+      "maximum_active_states": 16807,
+      "source_coordinates_preserved": 165,
+      "model_selected_fills": 5,
+      "best_integer_score": -11344571812,
+      "plaintext": "2VRTTIBO27ALLNXVALEVD4GOROPUSALTWUZV2VDAYW54S4HRMELBANFCTYPF7DERVNX09S3T7K7JG02C0WCG7",
+      "filled_ciphertext_sha256": "62d7a4abdedae713232179b2e98dddbdaf76976df392d3b17262934e831bd1f6",
+      "reencryption_matches_full_witness": true,
+      "retained_source_changes": 0
+    }
+  ],
+  "presentation_review": [
+    "The README calls the 8670506592384 objects loss-and-fill witnesses and explicitly permits aliases; it does not call them distinct plaintexts.",
+    "Fixed historical squares are labelled frozen heuristic completions, and the hypothesis excludes other key completions, transpositions and damage types.",
+    "Both true-key controls are explicitly reported as incorrect optima, with 4 and 2 letter disagreements. Their positive score margins are objective preferences, not claims of historical confidence.",
+    "All five added coordinates remain model choices. Exact re-encryption establishes consistency with the chosen completion, not that any missing historical coordinate has been recovered.",
+    "The fast verifier accurately states that it performs no model-table lookups or optimizer reruns. Its checks alone are not an optimality proof.",
+    "The wording for the 10188 short exhaustive witnesses was clarified during review: each exhaustive optimum agrees with the dynamic program; the witnesses are not all asserted to tie."
+  ],
+  "newly_accepted_historical_plaintext_characters": 0,
+  "limits": [
+    "This review does not authenticate a full historical square or the five-deletion hypothesis.",
+    "The score is an additive overlapping four-gram objective. Exact optimization of it is not a posterior probability or proof of historical truth.",
+    "No independent full 8.67-trillion-witness brute force was performed; the exact algorithm relies on the reviewed state reduction.",
+    "The original source transcriptions and previously frozen input provenance were not newly re-transcribed from images in this arithmetic review."
+  ]
+}

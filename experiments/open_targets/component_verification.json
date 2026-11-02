@@ -1,0 +1,32 @@
+{
+  "verified": true,
+  "checks": [
+    {
+      "id": "quad_component",
+      "configured_proposal_slots": 100000000,
+      "source_coordinates_preserved": 176,
+      "supplied_only_correct_length_segmentation": true,
+      "true_plaintext_in_all_domains": false,
+      "correct_singletons": 11,
+      "singleton_positions": 87,
+      "reported_score": -4.368240120799043,
+      "planted_score_under_same_objective": -4.225426845772322,
+      "reported_below_planted": true,
+      "interpretation": "Optimizer did not recover the planted text; historical searches were not launched with this uncalibrated method."
+    },
+    {
+      "id": "mixed_component",
+      "configured_proposal_slots": 100000000,
+      "source_coordinates_preserved": 176,
+      "supplied_only_correct_length_segmentation": true,
+      "true_plaintext_in_all_domains": false,
+      "correct_singletons": 8,
+      "singleton_positions": 87,
+      "reported_score": -6.434022446535047,
+      "planted_score_under_same_objective": -5.741317958579199,
+      "reported_below_planted": true,
+      "interpretation": "Optimizer did not recover the planted text; historical searches were not launched with this uncalibrated method."
+    }
+  ],
+  "historical_plaintexts_claimed": 0
+}

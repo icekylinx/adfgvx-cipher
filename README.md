@@ -4,14 +4,13 @@ Readings, source criticism, and reproducible cryptanalysis of German radio traff
 
 [![Research checks](https://github.com/icekylinx/adfgvx-cipher/actions/workflows/verify.yml/badge.svg)](https://github.com/icekylinx/adfgvx-cipher/actions/workflows/verify.yml) [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
-**icekylinx and GPT-6 Astra Pro** · [Read the messages](cases/README.md) · [Contributors](AUTHORS.md) · [Sources](sources/README.md) · [Citation](CITATION.cff)
+**icekylinx and GPT-6 Astra Pro** · [Read the messages](cases/README.md) · [How the readings are established](docs/methods.md) · [Sources](sources/README.md) · [Citation](CITATION.cff)
 
 A unified edition of the **22 German radio cryptograms** in Klaus Schmeh and George Lasry's challenge: original source transcription, earlier decipherments, corrections, new source relationships, and reproducible verification.
 
 ## Selected results
 
 - **[p153a](cases/p153a.md) / [p153b](cases/p153b.md): new substantial partial decipherment.** A shared 18-column key recovers 60 of 66 plaintext positions in part 5 and 33 of 54 raw positions in part 6. The ammunition-report reconstruction and separator interpretation yield a 50/54-position conditional template. Every fill, emendation and remaining date/number dependency is explicit.
-
 - **[p146](cases/p146.md):** a literal duplicate-group repair preserves all 239 retained coordinates and fixes 117/122 plaintext positions before filling the missing group. The most likely text announces a new radio call sign.
 - **[p109](cases/p109.md):** a same-page near-parallel and an exact multi-witness decoder support the report of an enemy division marching toward Belgrade. The river-name alternatives `SAVE`/`SAVA` and the remaining editorial word choices stay visible.
 - **[p215](cases/p215.md):** `Korps Kosch` fits the damaged closing with two known-coordinate changes, compared with five for the earlier `KORPSFRISCH`. Contemporary command records support the interpretation; the full message remains partial.
@@ -29,27 +28,27 @@ All current source reviews, arithmetic audits, and new editorial work are by **i
 | Entry | Current result | Reading or recovery credit |
 |---|---|---|
 | [p73](cases/p73.md) | Open | — |
-| [p100](cases/p100.md) | Prior body reading; source audit | Armin (2017 comment author) |
-| [p105](cases/p105.md) | Prior body reading; source audit | Norbert (2017 comment author) |
-| [p109](cases/p109.md) | Prior body; new source parallel | Norbert (2017 comment author) |
-| [p132](cases/p132.md) | Prior body reading; source audit | Thomas (fragment), Norbert (body) |
-| [p146](cases/p146.md) | Prior body; duplicate-group repair | Norbert (2017 comment author) |
+| [p100](cases/p100.md) | Prior body reading; source audit | Armin (2017) |
+| [p105](cases/p105.md) | Prior body reading; source audit | Norbert (2017) |
+| [p109](cases/p109.md) | Prior body; new source parallel | Norbert (2017) |
+| [p132](cases/p132.md) | Prior body reading; source audit | Thomas (fragment) and Norbert (body), 2017 |
+| [p146](cases/p146.md) | Prior body; duplicate-group repair | Norbert (2017) |
 | [p152](cases/p152.md) | Source-linked body | icekylinx and GPT-6 Astra Pro (2026) |
 | [p153a](cases/p153a.md) | New partial: 60/66 ordinary-letter positions | icekylinx and GPT-6 Astra Pro (2026) |
 | [p153b](cases/p153b.md) | New raw partial; conditional body and footer | icekylinx and GPT-6 Astra Pro (2026) |
 | [p158](cases/p158.md) | Composite sources identified | icekylinx and GPT-6 Astra Pro (2026) |
-| [p164a](cases/p164a.md) | Prior partial; constraint audit | Norbert (2017 comment author) |
-| [p164b](cases/p164b.md) | Prior partial; constraint audit | Norbert (2017 comment author) |
+| [p164a](cases/p164a.md) | Prior partial; constraint audit | Norbert (2017) |
+| [p164b](cases/p164b.md) | Prior partial; constraint audit | Norbert (2017) |
 | [p170](cases/p170.md) | Open | — |
-| [p171](cases/p171.md) | Prior body reading; source audit | Norbert (2017 comment author) |
-| [p176a](cases/p176a.md) | Prior body reading; source audit | Norbert (2017 comment author) |
-| [p176b](cases/p176b.md) | Prior contextual reading; constraint audit | Prinz (2026 publication) |
-| [p187](cases/p187.md) | Prior body reading; source audit | George Lasry, Norbert (2017 comment author) |
-| [p187b](cases/p187b.md) | Prior body reading; source audit | George Lasry, Norbert (2017 comment author) |
+| [p171](cases/p171.md) | Prior body reading; source audit | Norbert (2017) |
+| [p176a](cases/p176a.md) | Prior body reading; source audit | Norbert (2017) |
+| [p176b](cases/p176b.md) | Prior contextual reading; constraint audit | Prinz and GPT-6 Astra (2026) |
+| [p187](cases/p187.md) | Prior body reading; source audit | George Lasry and Norbert (2017) |
+| [p187b](cases/p187b.md) | Prior body reading; source audit | George Lasry and Norbert (2017) |
 | [p189](cases/p189.md) | Conditional partial | icekylinx and GPT-6 Astra Pro (2026) |
 | [p198](cases/p198.md) | Open | — |
-| [p215](cases/p215.md) | Prior partial; conditional Kosch interpretation | Norbert (2017 comment author) |
-| [p217](cases/p217.md) | Prior body reading; correction verified | Prinz (2026 publication), Christian Horvat (later correction) |
+| [p215](cases/p215.md) | Prior partial; conditional Kosch interpretation | Norbert (2017) |
+| [p217](cases/p217.md) | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
 ## Supplementary frontier results
 
@@ -73,9 +72,11 @@ The [p155 Kress-route shipping message](cases/context/p155.md) adds two source-c
 
 [The p77 and p134 radio instructions](cases/context/radio_instructions.md) add source-checked call-sign and repeat-transmission context for p146 and p132.
 
+[p189 C](cases/context/p189_C.md) adds a key-use instruction with 61/62 raw positions fixed. Two explicitly mapped substitutions give its most likely wording. The directly decoded `DEZEMBER` and `IRRTUM` remain visible alongside the 15 November header; no explanation of that date tension is assumed.
+
 ## Review coverage
 
-The [review ledger](data/review_ledger.json) currently records **83 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
+The [review ledger](data/review_ledger.json) currently records **92 claims and provenance checks**. It includes the 2017 comment history, earlier square completions, p217's published key images and naval corroboration, p176b's French documentary context, the newly checked October 2026 submissions, and the historical reading of p158's component.
 
 A September 2026 mass-solution claim is retained with its [reproducibility assessment](data/reviews/unsupported_claim_checks.json) and **Jozef Krajcovic's earlier critique**. Its published constants and selected substrings do not provide a reproducible full reading; no target is marked solved on that basis.
 
@@ -90,7 +91,7 @@ python3 -m adfgvx.verify --json
 
 This checks the core source, cipher and reconstruction certificates, including 25 explicit repair variants of 14 earlier-readable entries and the three supplementary records. It reproduces source maps, retained-coordinate roundtrips, uncertainty domains and contradictory editorial completions. Odd-length ciphertext cannot silently lose a coordinate.
 
-The [verification workflow](.github/workflows/verify.yml) also runs the focused transport, p153 linked-field/key-structure, p215 interpretation and p109 ranking-summary checks. Individual case and experiment pages provide their commands. Rebuilding corpus models or rerunning large searches is documented separately from checking the compact certificates.
+The [verification workflow](.github/workflows/verify.yml) also runs focused transport, p153 linked-field/key-structure, p215 interpretation, p109 ranking-summary and recorded open-target checks. Individual case and experiment pages provide their commands. Rebuilding corpus models or rerunning large searches is documented separately from checking the compact certificates.
 
 ## Search methods
 
@@ -98,11 +99,16 @@ The [experiment index](experiments/README.md) records completed search bounds, p
 
 The [multi-witness decoder](experiments/parallel_decoder/README.md) adds exact language-ranked optimization under a declared source-edit budget. For p109, dynamic programming covers all `2^42` minimum-cost plaintexts without a beam or a plaintext crib. Its successes, model failures, 280 ranked candidates and word-level costs are retained together.
 
+The [joint scattered-loss decoder](experiments/p198_joint_exact/README.md) exactly optimizes both missing positions and their values. For p198's five-loss hypothesis it covers 8,670,506,592,384 witnesses per fixed complete key, including aliases. Its four-gram controls expose wrong global optima even under true keys; those failures and all source-preserving witnesses are retained. The [p73 coordinate-count diagnostic](experiments/open_targets/P73_HISTOGRAM.md) provides a separate, transposition-independent way to prioritize key hypotheses.
+
+The [six-gram extension](experiments/p198_joint_six/README.md) recovers one complete control, its exact loss positions and their values under two objectives. A second control still has a better-scoring wrong competitor. These calibrated successes and failures guide further attacks without changing the historical target statuses.
+
 ## Contents
 
 | Path | Contents |
 |---|---|
 | `cases/` | Readings, qualifications, original credits, and source links |
+| `docs/methods.md` | A reader's guide to the cipher, evidence layers, exact searches and their limits |
 | `data/messages.json` | All 22 source records, legacy transcriptions, and conservative analysis layers |
 | `data/keys.json` | 25 historical, comparison, reported, or newly recovered partial keys; provenance and unknown cells retained |
 | `data/prior_readings.json` | 35 attributed earlier readings/fragments and 25 recomputed repair variants |

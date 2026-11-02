@@ -1,0 +1,985 @@
+{
+  "schema": "adfgvx-p189-C-source-inspection-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System, Childs collection",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "pdf_bytes": 156848258,
+    "printed_page": 189,
+    "pdf_page_1based": 192,
+    "section": "C",
+    "printed_heading": "15th NOVEMBER, 1918.",
+    "header": "NKJ v LP (9.14 a.m., November 15th); 1000 (15); RIZI-124",
+    "printed_length_field": 124,
+    "source_rows": [
+      "XXVFV FFDVG VGFFV AGVAA XDAVF XXGXX VXAAF GDFGV",
+      "XXFVV AFAFA FFAGV DVAXV DFAXF GXDFF DFFFA AVXGG",
+      "VFFAA XVAVA XFAGF AVXDV AFXAG FAGFA AFAFG XGAXX",
+      "XFXX"
+    ],
+    "inspection": "The full page and a fourfold-resolution crop were visually inspected. All 124 coordinate glyphs are legible; the last row XFXX is present in the source but absent from the 120-slot corpus OCR block.",
+    "crop_pdf_points": [
+      35,
+      330,
+      543.16,
+      435
+    ]
+  },
+  "input_hashes": {
+    "data/messages.json": "1e4013252eb54065435ae1591abea729df8e40e482a6fe57165b512a9ba9c373",
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/p153_corpus/inputs.json": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc",
+    "experiments/source_similarity/retrieve.py": "89cae8796e7824e06e65d6859af31dadf286a29e83c02d25b92cc580ac648bc0",
+    "experiments/source_similarity_extension/results.json": "9772cbe3b24fb8737138eca61a66eefed252a5865bcfb3f003386c0754883295"
+  },
+  "indexing": "Zero-based indices and half-open spans. Source coordinates refer to the complete image-reviewed 124-coordinate p189 C transcript.",
+  "selection": "The highest unreviewed cross-page affine-local hit in the 22-target extension: p132 against p189_ocr_block3. Its source date motivated the three unchanged published Nov13 key checks.",
+  "query_id": "p132",
+  "query_ciphertext": "AAXAXFXAVFAAFADVFGFAGVAGXFDVXXFAVAGXXDAADXFAFFFFFAFAXXAAVXGVVFAFAGAAXVAVAXFAGVXVAFVXAFVAAAVGAFAVVAAAXFF??XADAGAVADFAFGXVFGVFXXGDAAXGAXAVDVDAVADVXFGFAXFVVGF",
+  "query_slots": 155,
+  "ocr_block_id": "p189_ocr_block3",
+  "ocr_header": [
+    "15th NOVEMBER, 1915.",
+    "C) NKJ v LP (9.14 a.m., November 15th)",
+    "1000 (15)"
+  ],
+  "ocr_corrections": [
+    {
+      "kind": "omitted_final_row",
+      "source_span": [
+        120,
+        124
+      ],
+      "visible_text": "XFXX",
+      "change_to_observed_source": false
+    },
+    {
+      "kind": "header_year_misrecognition",
+      "ocr": "1915",
+      "source": "1918"
+    }
+  ],
+  "layers": {
+    "raw_corpus_ocr": {
+      "ciphertext": "XXVFVFFDVGVGFFVAGVAAXDAVFXXGXXVXAAFGDFGVXXFVVAFAFAFFAGVDVAXVDFAXFGXDFFDFFFAAVXGGVFFAAXVAVAXFAGFAVXDVAFXAGFAGFAAFAFGXGAXX",
+      "slots": 120,
+      "known_coordinates": 120,
+      "affine_local_score": 32,
+      "longest_exact_run": 11,
+      "full_query_fitting_cost": 90,
+      "optimal_local_alignment": {
+        "local_score": 32,
+        "query_span": [
+          54,
+          85
+        ],
+        "corpus_span": [
+          74,
+          104
+        ],
+        "known_exact_matches": 26,
+        "known_substitutions": 1,
+        "erasure_pairs": 0,
+        "gap_slots": 7,
+        "gap_runs": 5,
+        "aligned_query": "AAVXGVVFAFAGAAXVAVAXFAG--VX-VAFVXA",
+        "aligned_corpus": "AAVXGGVF-F--AAXVAVAXFAGFAVXDVAF-XA",
+        "known_substitution_pairs": [
+          [
+            59,
+            79
+          ]
+        ],
+        "erasure_pairs_indices": []
+      }
+    },
+    "image_reviewed_transcript": {
+      "ciphertext": "XXVFVFFDVGVGFFVAGVAAXDAVFXXGXXVXAAFGDFGVXXFVVAFAFAFFAGVDVAXVDFAXFGXDFFDFFFAAVXGGVFFAAXVAVAXFAGFAVXDVAFXAGFAGFAAFAFGXGAXXXFXX",
+      "slots": 124,
+      "known_coordinates": 124,
+      "affine_local_score": 32,
+      "longest_exact_run": 11,
+      "full_query_fitting_cost": 89,
+      "optimal_local_alignment": {
+        "local_score": 32,
+        "query_span": [
+          54,
+          85
+        ],
+        "corpus_span": [
+          74,
+          104
+        ],
+        "known_exact_matches": 26,
+        "known_substitutions": 1,
+        "erasure_pairs": 0,
+        "gap_slots": 7,
+        "gap_runs": 5,
+        "aligned_query": "AAVXGVVFAFAGAAXVAVAXFAG--VX-VAFVXA",
+        "aligned_corpus": "AAVXGGVF-F--AAXVAVAXFAGFAVXDVAF-XA",
+        "known_substitution_pairs": [
+          [
+            59,
+            79
+          ]
+        ],
+        "erasure_pairs_indices": []
+      }
+    }
+  },
+  "unchanged_key_decodes": [
+    {
+      "key_id": "Nov13-15a",
+      "column_rank_order": [
+        13,
+        8,
+        6,
+        16,
+        7,
+        18,
+        1,
+        14,
+        9,
+        20,
+        10,
+        15,
+        17,
+        2,
+        3,
+        11,
+        5,
+        19,
+        4,
+        12
+      ],
+      "square": "JZLH?R??S?T?MKDWU?V?B?P??FAO?GIX?CNE",
+      "raw_plaintext": "?OM???LMML??????K??L?JA?RINACX??IMBGHH?SV?IGGSP?CLB?DU?MWFIA?T",
+      "plaintext_slots": 62,
+      "fixed_plaintext_positions": 40,
+      "source_coordinates_preserved": 124,
+      "independent_column_map_agrees_with_project_decoder": true
+    },
+    {
+      "key_id": "Nov13-15b",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "raw_plaintext": "UNLOESBA?EHUNKSPRUECHENACHDEZEMBERSCHLUESSELENTZIFFERNXXIRRTUM",
+      "plaintext_slots": 62,
+      "fixed_plaintext_positions": 61,
+      "source_coordinates_preserved": 124,
+      "independent_column_map_agrees_with_project_decoder": true,
+      "per_position": [
+        {
+          "plaintext_index": 0,
+          "source_indices": [
+            22,
+            77
+          ],
+          "coordinate_pair": "AX",
+          "square_cell_index": 5,
+          "raw_plaintext": "U",
+          "domain_under_conservative_square": "U"
+        },
+        {
+          "plaintext_index": 1,
+          "source_indices": [
+            30,
+            100
+          ],
+          "coordinate_pair": "VA",
+          "square_cell_index": 24,
+          "raw_plaintext": "N",
+          "domain_under_conservative_square": "N"
+        },
+        {
+          "plaintext_index": 2,
+          "source_indices": [
+            61,
+            46
+          ],
+          "coordinate_pair": "FF",
+          "square_cell_index": 14,
+          "raw_plaintext": "L",
+          "domain_under_conservative_square": "L"
+        },
+        {
+          "plaintext_index": 3,
+          "source_indices": [
+            116,
+            0
+          ],
+          "coordinate_pair": "GX",
+          "square_cell_index": 23,
+          "raw_plaintext": "O",
+          "domain_under_conservative_square": "O"
+        },
+        {
+          "plaintext_index": 4,
+          "source_indices": [
+            85,
+            108
+          ],
+          "coordinate_pair": "XF",
+          "square_cell_index": 32,
+          "raw_plaintext": "E",
+          "domain_under_conservative_square": "E"
+        },
+        {
+          "plaintext_index": 5,
+          "source_indices": [
+            38,
+            69
+          ],
+          "coordinate_pair": "GF",
+          "square_cell_index": 20,
+          "raw_plaintext": "S",
+          "domain_under_conservative_square": "S"
+        },
+        {
+          "plaintext_index": 6,
+          "source_indices": [
+            15,
+            93
+          ],
+          "coordinate_pair": "AG",
+          "square_cell_index": 3,
+          "raw_plaintext": "B",
+          "domain_under_conservative_square": "B"
+        },
+        {
+          "plaintext_index": 7,
+          "source_indices": [
+            54,
+            8
+          ],
+          "coordinate_pair": "VV",
+          "square_cell_index": 28,
+          "raw_plaintext": "A",
+          "domain_under_conservative_square": "A"
+        },
+        {
+          "plaintext_index": 8,
+          "source_indices": [
+            23,
+            78
+          ],
+          "coordinate_pair": "VG",
+          "square_cell_index": 27,
+          "raw_plaintext": "?",
+          "domain_under_conservative_square": "234789QY"
+        },
+        {
+          "plaintext_index": 9,
+          "source_indices": [
+            31,
+            101
+          ],
+          "coordinate_pair": "XF",
+          "square_cell_index": 32,
+          "raw_plaintext": "E",
+          "domain_under_conservative_square": "E"
+        },
+        {
+          "plaintext_index": 10,
+          "source_indices": [
+            62,
+            47
+          ],
+          "coordinate_pair": "AA",
+          "square_cell_index": 0,
+          "raw_plaintext": "H",
+          "domain_under_conservative_square": "H"
+        },
+        {
+          "plaintext_index": 11,
+          "source_indices": [
+            117,
+            1
+          ],
+          "coordinate_pair": "AX",
+          "square_cell_index": 5,
+          "raw_plaintext": "U",
+          "domain_under_conservative_square": "U"
+        },
+        {
+          "plaintext_index": 12,
+          "source_indices": [
+            86,
+            109
+          ],
+          "coordinate_pair": "VA",
+          "square_cell_index": 24,
+          "raw_plaintext": "N",
+          "domain_under_conservative_square": "N"
+        },
+        {
+          "plaintext_index": 13,
+          "source_indices": [
+            39,
+            70
+          ],
+          "coordinate_pair": "VD",
+          "square_cell_index": 25,
+          "raw_plaintext": "K",
+          "domain_under_conservative_square": "K"
+        },
+        {
+          "plaintext_index": 14,
+          "source_indices": [
+            16,
+            94
+          ],
+          "coordinate_pair": "GF",
+          "square_cell_index": 20,
+          "raw_plaintext": "S",
+          "domain_under_conservative_square": "S"
+        },
+        {
+          "plaintext_index": 15,
+          "source_indices": [
+            55,
+            9
+          ],
+          "coordinate_pair": "DG",
+          "square_cell_index": 9,
+          "raw_plaintext": "P",
+          "domain_under_conservative_square": "P"
+        },
+        {
+          "plaintext_index": 16,
+          "source_indices": [
+            24,
+            79
+          ],
+          "coordinate_pair": "FG",
+          "square_cell_index": 15,
+          "raw_plaintext": "R",
+          "domain_under_conservative_square": "R"
+        },
+        {
+          "plaintext_index": 17,
+          "source_indices": [
+            32,
+            102
+          ],
+          "coordinate_pair": "AX",
+          "square_cell_index": 5,
+          "raw_plaintext": "U",
+          "domain_under_conservative_square": "U"
+        },
+        {
+          "plaintext_index": 18,
+          "source_indices": [
+            63,
+            48
+          ],
+          "coordinate_pair": "XF",
+          "square_cell_index": 32,
+          "raw_plaintext": "E",
+          "domain_under_conservative_square": "E"
+        },
+        {
+          "plaintext_index": 19,
+          "source_indices": [
+            118,
+            2
+          ],
+          "coordinate_pair": "XV",
+          "square_cell_index": 34,
+          "raw_plaintext": "C",
+          "domain_under_conservative_square": "C"
+        },
+        {
+          "plaintext_index": 20,
+          "source_indices": [
+            87,
+            110
+          ],
+          "coordinate_pair": "AA",
+          "square_cell_index": 0,
+          "raw_plaintext": "H",
+          "domain_under_conservative_square": "H"
+        },
+        {
+          "plaintext_index": 21,
+          "source_indices": [
+            40,
+            71
+          ],
+          "coordinate_pair": "XF",
+          "square_cell_index": 32,
+          "raw_plaintext": "E",
+          "domain_under_conservative_square": "E"
+        },
+        {
+          "plaintext_index": 22,
+          "source_indices": [
+            17,
+            95
+          ],
+          "coordinate_pair": "VA",
+          "square_cell_index": 24,
+          "raw_plaintext": "N",
+          "domain_under_conservative_square": "N"
+        },
+        {
+          "plaintext_index": 23,
+          "source_indices": [
+            56,
+            10
+          ],
+          "coordinate_pair": "VV",
+          "square_cell_index": 28,
+          "raw_plaintext": "A",
+          "domain_under_conservative_square": "A"
+        },
+        {
+          "plaintext_index": 24,
+          "source_indices": [
+            25,
+            80
+          ],
+          "coordinate_pair": "XV",
+          "square_cell_index": 34,
+          "raw_plaintext": "C",
+          "domain_under_conservative_square": "C"
+        },
+        {
+          "plaintext_index": 25,
+          "source_indices": [
+            33,
+            103
+          ],
+          "coordinate_pair": "AA",
+          "square_cell_index": 0,
+          "raw_plaintext": "H",
+          "domain_under_conservative_square": "H"
+        },
+        {
+          "plaintext_index": 26,
+          "source_indices": [
+            64,
+            49
+          ],
+          "coordinate_pair": "FA",
+          "square_cell_index": 12,
+          "raw_plaintext": "D",
+          "domain_under_conservative_square": "D"
+        },
+        {
+          "plaintext_index": 27,
+          "source_indices": [
+            119,
+            3
+          ],
+          "coordinate_pair": "XF",
+          "square_cell_index": 32,
+          "raw_plaintext": "E",
+          "domain_under_conservative_square": "E"
+        },
+        {
+          "plaintext_index": 28,
+          "source_indices": [
+            88,
+            111
+          ],
+          "coordinate_pair": "VF",
+          "square_cell_index": 26,
+          "raw_plaintext": "Z",
+          "domain_under_conservative_square": "Z"
+        },
+        {
+          "plaintext_index": 29,
+          "source_indices": [
+            41,
+            72
+          ],
+          "coordinate_pair": "XF",
+          "square_cell_index": 32,
+          "raw_plaintext": "E",
+          "domain_under_conservative_square": "E"
+        },
+        {
+          "plaintext_index": 30,
+          "source_indices": [
+            18,
+            96
+          ],
+          "coordinate_pair": "AV",
+          "square_cell_index": 4,
+          "raw_plaintext": "M",
+          "domain_under_conservative_square": "M"
+        },
+        {
+          "plaintext_index": 31,
+          "source_indices": [
+            57,
+            11
+          ],
+          "coordinate_pair": "AG",
+          "square_cell_index": 3,
+          "raw_plaintext": "B",
+          "domain_under_conservative_square": "B"
+        },
+        {
+          "plaintext_index": 32,
+          "source_indices": [
+            26,
+            81
+          ],
+          "coordinate_pair": "XF",
+          "square_cell_index": 32,
+          "raw_plaintext": "E",
+          "domain_under_conservative_square": "E"
+        },
+        {
+          "plaintext_index": 33,
+          "source_indices": [
+            34,
+            104
+          ],
+          "coordinate_pair": "FG",
+          "square_cell_index": 15,
+          "raw_plaintext": "R",
+          "domain_under_conservative_square": "R"
+        },
+        {
+          "plaintext_index": 34,
+          "source_indices": [
+            65,
+            50
+          ],
+          "coordinate_pair": "GF",
+          "square_cell_index": 20,
+          "raw_plaintext": "S",
+          "domain_under_conservative_square": "S"
+        },
+        {
+          "plaintext_index": 35,
+          "source_indices": [
+            120,
+            4
+          ],
+          "coordinate_pair": "XV",
+          "square_cell_index": 34,
+          "raw_plaintext": "C",
+          "domain_under_conservative_square": "C"
+        },
+        {
+          "plaintext_index": 36,
+          "source_indices": [
+            89,
+            112
+          ],
+          "coordinate_pair": "AA",
+          "square_cell_index": 0,
+          "raw_plaintext": "H",
+          "domain_under_conservative_square": "H"
+        },
+        {
+          "plaintext_index": 37,
+          "source_indices": [
+            42,
+            73
+          ],
+          "coordinate_pair": "FF",
+          "square_cell_index": 14,
+          "raw_plaintext": "L",
+          "domain_under_conservative_square": "L"
+        },
+        {
+          "plaintext_index": 38,
+          "source_indices": [
+            19,
+            97
+          ],
+          "coordinate_pair": "AX",
+          "square_cell_index": 5,
+          "raw_plaintext": "U",
+          "domain_under_conservative_square": "U"
+        },
+        {
+          "plaintext_index": 39,
+          "source_indices": [
+            58,
+            12
+          ],
+          "coordinate_pair": "XF",
+          "square_cell_index": 32,
+          "raw_plaintext": "E",
+          "domain_under_conservative_square": "E"
+        },
+        {
+          "plaintext_index": 40,
+          "source_indices": [
+            27,
+            82
+          ],
+          "coordinate_pair": "GF",
+          "square_cell_index": 20,
+          "raw_plaintext": "S",
+          "domain_under_conservative_square": "S"
+        },
+        {
+          "plaintext_index": 41,
+          "source_indices": [
+            35,
+            105
+          ],
+          "coordinate_pair": "GF",
+          "square_cell_index": 20,
+          "raw_plaintext": "S",
+          "domain_under_conservative_square": "S"
+        },
+        {
+          "plaintext_index": 42,
+          "source_indices": [
+            66,
+            51
+          ],
+          "coordinate_pair": "XF",
+          "square_cell_index": 32,
+          "raw_plaintext": "E",
+          "domain_under_conservative_square": "E"
+        },
+        {
+          "plaintext_index": 43,
+          "source_indices": [
+            121,
+            5
+          ],
+          "coordinate_pair": "FF",
+          "square_cell_index": 14,
+          "raw_plaintext": "L",
+          "domain_under_conservative_square": "L"
+        },
+        {
+          "plaintext_index": 44,
+          "source_indices": [
+            90,
+            113
+          ],
+          "coordinate_pair": "XF",
+          "square_cell_index": 32,
+          "raw_plaintext": "E",
+          "domain_under_conservative_square": "E"
+        },
+        {
+          "plaintext_index": 45,
+          "source_indices": [
+            43,
+            74
+          ],
+          "coordinate_pair": "VA",
+          "square_cell_index": 24,
+          "raw_plaintext": "N",
+          "domain_under_conservative_square": "N"
+        },
+        {
+          "plaintext_index": 46,
+          "source_indices": [
+            20,
+            98
+          ],
+          "coordinate_pair": "XD",
+          "square_cell_index": 31,
+          "raw_plaintext": "T",
+          "domain_under_conservative_square": "T"
+        },
+        {
+          "plaintext_index": 47,
+          "source_indices": [
+            59,
+            13
+          ],
+          "coordinate_pair": "VF",
+          "square_cell_index": 26,
+          "raw_plaintext": "Z",
+          "domain_under_conservative_square": "Z"
+        },
+        {
+          "plaintext_index": 48,
+          "source_indices": [
+            28,
+            83
+          ],
+          "coordinate_pair": "XA",
+          "square_cell_index": 30,
+          "raw_plaintext": "I",
+          "domain_under_conservative_square": "I"
+        },
+        {
+          "plaintext_index": 49,
+          "source_indices": [
+            36,
+            106
+          ],
+          "coordinate_pair": "DA",
+          "square_cell_index": 6,
+          "raw_plaintext": "F",
+          "domain_under_conservative_square": "F"
+        },
+        {
+          "plaintext_index": 50,
+          "source_indices": [
+            67,
+            52
+          ],
+          "coordinate_pair": "DA",
+          "square_cell_index": 6,
+          "raw_plaintext": "F",
+          "domain_under_conservative_square": "F"
+        },
+        {
+          "plaintext_index": 51,
+          "source_indices": [
+            122,
+            6
+          ],
+          "coordinate_pair": "XF",
+          "square_cell_index": 32,
+          "raw_plaintext": "E",
+          "domain_under_conservative_square": "E"
+        },
+        {
+          "plaintext_index": 52,
+          "source_indices": [
+            91,
+            114
+          ],
+          "coordinate_pair": "FG",
+          "square_cell_index": 15,
+          "raw_plaintext": "R",
+          "domain_under_conservative_square": "R"
+        },
+        {
+          "plaintext_index": 53,
+          "source_indices": [
+            44,
+            75
+          ],
+          "coordinate_pair": "VA",
+          "square_cell_index": 24,
+          "raw_plaintext": "N",
+          "domain_under_conservative_square": "N"
+        },
+        {
+          "plaintext_index": 54,
+          "source_indices": [
+            21,
+            99
+          ],
+          "coordinate_pair": "DV",
+          "square_cell_index": 10,
+          "raw_plaintext": "X",
+          "domain_under_conservative_square": "X"
+        },
+        {
+          "plaintext_index": 55,
+          "source_indices": [
+            60,
+            14
+          ],
+          "coordinate_pair": "DV",
+          "square_cell_index": 10,
+          "raw_plaintext": "X",
+          "domain_under_conservative_square": "X"
+        },
+        {
+          "plaintext_index": 56,
+          "source_indices": [
+            29,
+            84
+          ],
+          "coordinate_pair": "XA",
+          "square_cell_index": 30,
+          "raw_plaintext": "I",
+          "domain_under_conservative_square": "I"
+        },
+        {
+          "plaintext_index": 57,
+          "source_indices": [
+            37,
+            107
+          ],
+          "coordinate_pair": "FG",
+          "square_cell_index": 15,
+          "raw_plaintext": "R",
+          "domain_under_conservative_square": "R"
+        },
+        {
+          "plaintext_index": 58,
+          "source_indices": [
+            68,
+            53
+          ],
+          "coordinate_pair": "FG",
+          "square_cell_index": 15,
+          "raw_plaintext": "R",
+          "domain_under_conservative_square": "R"
+        },
+        {
+          "plaintext_index": 59,
+          "source_indices": [
+            123,
+            7
+          ],
+          "coordinate_pair": "XD",
+          "square_cell_index": 31,
+          "raw_plaintext": "T",
+          "domain_under_conservative_square": "T"
+        },
+        {
+          "plaintext_index": 60,
+          "source_indices": [
+            92,
+            115
+          ],
+          "coordinate_pair": "AX",
+          "square_cell_index": 5,
+          "raw_plaintext": "U",
+          "domain_under_conservative_square": "U"
+        },
+        {
+          "plaintext_index": 61,
+          "source_indices": [
+            45,
+            76
+          ],
+          "coordinate_pair": "AV",
+          "square_cell_index": 4,
+          "raw_plaintext": "M",
+          "domain_under_conservative_square": "M"
+        }
+      ]
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "column_rank_order": [
+        3,
+        13,
+        2,
+        12,
+        1,
+        11,
+        15,
+        8,
+        9,
+        4,
+        5,
+        14,
+        6,
+        10,
+        7,
+        16
+      ],
+      "square": "AROT?WH??C??SVU?I?DXBP?????NZELFK?G?",
+      "raw_plaintext": "PE??OOFA???R?WK?A?NI?SUW??IAPP???S?????U??U??SAW??SFIPI??AHB??",
+      "plaintext_slots": 62,
+      "fixed_plaintext_positions": 33,
+      "source_coordinates_preserved": 124,
+      "independent_column_map_agrees_with_project_decoder": true
+    }
+  ],
+  "editorial_reading": {
+    "status": "Plausible normalization requiring two known-coordinate substitutions; not a verbatim decryption.",
+    "plaintext": "UNLOESBAREFUNKSPRUECHENACHDEZEMBERSCHLUESSELENTZIFFERNXXIRRTUM",
+    "display": "Unloesba[r]e [F]unksprueche nach Dezemberschluessel entziffern. Irrtum.",
+    "meaning": "Decipher undecipherable radio messages using the December key. Error.",
+    "punctuation": "Word spacing, capitalization and punctuation are editorial. XX precedes IRRTUM in the raw text.",
+    "plaintext_edits": [
+      {
+        "plaintext_index": 8,
+        "source_indices": [
+          23,
+          78
+        ],
+        "coordinate_pair": "VG",
+        "square_cell_index": 27,
+        "raw_plaintext": "?",
+        "domain_under_conservative_square": "234789QY",
+        "editorial_plaintext": "R",
+        "editorial_coordinate_pair": "FG",
+        "changed_source_indices": [
+          23
+        ],
+        "compatible_without_known_coordinate_change": false
+      },
+      {
+        "plaintext_index": 10,
+        "source_indices": [
+          62,
+          47
+        ],
+        "coordinate_pair": "AA",
+        "square_cell_index": 0,
+        "raw_plaintext": "H",
+        "domain_under_conservative_square": "H",
+        "editorial_plaintext": "F",
+        "editorial_coordinate_pair": "DA",
+        "changed_source_indices": [
+          62
+        ],
+        "compatible_without_known_coordinate_change": false
+      }
+    ],
+    "reencrypted_candidate": "XXVFVFFDVGVGFFVAGVAAXDAFFXXGXXVXAAFGDFGVXXFVVAFAFAFFAGVDVAXVDFDXFGXDFFDFFFAAVXGGVFFAAXVAVAXFAGFAVXDVAFXAGFAGFAAFAFGXGAXXXFXX",
+    "coordinate_substitutions": [
+      {
+        "source_index": 23,
+        "observed": "V",
+        "editorial_candidate": "F"
+      },
+      {
+        "source_index": 62,
+        "observed": "A",
+        "editorial_candidate": "D"
+      }
+    ],
+    "source_coordinate_substitutions": 2,
+    "source_erasures_filled": 0,
+    "source_coordinates_unchanged": 122,
+    "unknown_square_explanation": "Raw position 8 uses VG, an unfilled square cell with domain 234789QY. R is already fixed at FG, so inserting R in VG would violate the injective square. UNLOESBARE instead requires observed source index 23 V to change to F.",
+    "chronology_note": "DEZEMBER and IRRTUM are directly decoded with fixed published square cells. The printed heading is 15 November 1918. No explanation, date correction, cancellation convention or substitution of NOVEMBER is inferred."
+  },
+  "comparison_with_p132": {
+    "p132_published_reading": "FFEREILVESEXWIEDERHOLETTELEGRXVONVIERTERPERIODEINFUTNFTERXGEBETSORHER5MINXVVV",
+    "p132_key": "Nov4-6",
+    "p189_C_key": "Nov13-15b",
+    "assessment": "The messages both discuss handling difficult radio traffic, but their decoded instructions and published keys differ. The short ciphertext match does not identify a common plaintext segment or a repeated transmission.",
+    "p132_reference": "cases/p132.md",
+    "p132_prior_credit": "Thomas, comment 27 (2017-03-02), and Norbert, comments 37 and 40 (2017-03-11 and 2017-03-12); prior readings remain credited in the case page."
+  },
+  "attribution": {
+    "period_key": "George Lasry, 2017-02-27, comment 11; published period key provenance retained in data/keys.json.",
+    "key_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+    "present_work": "Source transcription, recovery of an omitted OCR row, direct unchanged-key verification, exact editorial costs and contextual comparison: icekylinx and GPT-6 Astra Pro.",
+    "priority_limit": "No first decipherment priority is claimed for this supplementary corpus message."
+  },
+  "limits": [
+    "The 788-block OCR corpus remains a retrieval aid. Only this additional leading hit was newly image-reviewed here.",
+    "Adding the visible final XFXX repairs the OCR layer, not the historical ciphertext.",
+    "No unknown square cell was assigned, no key was optimized, and no source coordinate was changed in the raw reading.",
+    "The editorial reading is separately re-encrypted and its two observed-coordinate disagreements are explicit.",
+    "This supplementary instruction adds no fixed plaintext letters to the p132 challenge and does not independently validate its VORHER clause."
+  ]
+}

@@ -1,6 +1,6 @@
 # Case guide
 
-[ADFGVX Cipher](../README.md) · [Sources](../sources/README.md) · [Experiments](../experiments/README.md)
+[ADFGVX Cipher](../README.md) · [Methods guide](../docs/methods.md) · [Sources](../sources/README.md) · [Experiments](../experiments/README.md)
 
 Each case opens with the most useful readable text or the present limits of recovery. The exact unspaced decipherment, source qualifications, original credits and reproducible evidence follow it. A readable sentence can depend on proposed repairs; the case states those dependencies.
 
@@ -66,6 +66,7 @@ These October 2026 readings were published by **Ayush Agarwal** and previously r
 | [p155 shipping message](context/p155.md) | Asgard and Tresivolus, troop pickup at Poti, and independently checked diary context; the route also appears in p73. |
 | [p164 A4 cavalry report](context/p164_A4.md) | A conditional dismounted-cavalry reading with all nine known-coordinate changes and thirteen fills explicit. |
 | [p185/p189 transport traffic](context/transport.md) | Seven source records, two near-parallel pairs, an 86/87-character composite transport order and the conditional p185 D gap model. |
+| [p189 C key instruction](context/p189_C.md) | A 61/62-position raw reading; two explicit substitutions give the likely December-key instruction, with its November date tension retained. |
 | [p197/p198 equipment and lorry orders](context/transport_197_198.md) | Four further witnesses, a literal duplicate-group repair, and readable composites with every extra coordinate change counted. |
 
 For the exact source layers use [the message catalog](../data/messages.json); for prior proposals use [the attributed reading registry](../data/prior_readings.json). [The review ledger](../data/review_ledger.json) records the scope and outcome of individual checks.

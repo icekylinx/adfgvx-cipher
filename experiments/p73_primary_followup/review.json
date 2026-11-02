@@ -1,0 +1,123 @@
+{
+  "schema": "adfgvx-p73-primary-followup-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "review_date": "2026-11-02",
+  "status": "Bounded negative: no new matching source witness, date correction, key or plaintext.",
+  "target_header_literal": "POT v NKJ (2.33 a.m., November 8th); FUR COS GENERAL VON KRESS 0911 (26); RICHI-178",
+  "target_page_heading": "26th OCTOBER, 1918.",
+  "prior_review": "data/reviews/p73_source_context.json",
+  "sources": [
+    {
+      "id": "kress_2001_memoir_public_text",
+      "author": "Friedrich Freiherr Kress von Kressenstein",
+      "title": "Meine Mission im Kaukasus",
+      "edition_year": 2001,
+      "publisher": "Samschoblo, Tbilisi",
+      "covering_letter_date": "1943-10-12",
+      "memoir_date_note": "The memoir accompanied this 1943 letter; the date is not an asserted day of composition.",
+      "url": "https://de.scribd.com/document/46043064/General-Der-Artillerie-a-D-Friedrich-Freiherr-Kress-von-Kressenstein-MEINE-MISSION-IM-KAUKASUS",
+      "inspected_scope": "Late-period narrative on printed pages 60–64 and date-search hits in their surrounding context.",
+      "result": "No matching October 26 or November 8, 1918 incoming radiogram was identified in this scope.",
+      "false_positive": {
+        "printed_page": 15,
+        "date_pair": "October 26 / November 8",
+        "actual_year": 1917,
+        "location": "Modern editorial introduction, before the memoir begins on printed page 30.",
+        "assessment": "Not evidence for the calendar used in p73."
+      },
+      "limit": "Retrospective memoir in a later edition. The already recorded communications-delay account does not identify the target."
+    },
+    {
+      "id": "lepsius_1919_diplomatic_edition",
+      "editor": "Johannes Lepsius",
+      "title": "Deutschland und Armenien 1914–1918: Sammlung diplomatischer Aktenstücke",
+      "publication_year": 1919,
+      "url": "https://www.gutenberg.org/files/58144/58144-h/58144-h.htm",
+      "retrieved_html_sha256": "ddc6739cd4eea6f873ae229e120429e6101b813387ce9311e17eaff0c7ad7edf",
+      "inspected_scope": "Documents 439–444, including the October/November headings and the direction/date of each item.",
+      "newly_checked_dated_item": {
+        "document": 442,
+        "printed_page": 440,
+        "place": "Tiflis",
+        "date": "1918-10-30",
+        "sender": "Frhr. von Kress",
+        "recipient": "Reichskanzler Prinz Max von Baden",
+        "type": "Covering report with attachments, not an identified p73 telegram."
+      },
+      "result": "No matching incoming October 26 telegram or 09:11 header was obtained; no wording is proposed as p73 plaintext.",
+      "limit": "A selected early document edition, not a complete or newly inspected archival file."
+    },
+    {
+      "id": "bsb_hopman_edition_kress_search",
+      "editor": "Winfried Baumgart",
+      "publication_year": 1971,
+      "institution": "Bayerische Staatsbibliothek",
+      "catalogue_url": "https://digitale-sammlungen.de/en/details/bsb00042051",
+      "search_url": "https://api.digitale-sammlungen.de/iiif/services/search/v1/bsb00042051?q=Kress",
+      "retrieved_json_sha256": "df6ef584790ec5b35e2301ceff7d755c3d3e02365a70fe6bf48931fde83c7946",
+      "query": "Kress",
+      "returned_occurrences": 37,
+      "returned_image_pages": [
+        14,
+        47,
+        547,
+        558,
+        559,
+        565,
+        566,
+        567,
+        570,
+        572,
+        587,
+        589,
+        594,
+        608,
+        609,
+        610,
+        611,
+        616,
+        626,
+        637,
+        647,
+        717,
+        724,
+        729
+      ],
+      "late_hits_checked": [
+        {
+          "image_page": 637,
+          "printed_page": 627,
+          "diary_date": "1918-10-19",
+          "assessment": "Outside the requested October 26–November 8 window."
+        },
+        {
+          "image_page": 647,
+          "printed_page": 637,
+          "diary_date": "1918-11-07",
+          "assessment": "Existing Asgard/Tresivolos corroboration for p155; not a new p73 match."
+        }
+      ],
+      "result": "No additional dated p73 witness identified by this name query.",
+      "limit": "Institutional OCR/name retrieval is not an exhaustive search for unnamed, unindexed or misread telegrams."
+    }
+  ],
+  "access_checks": [
+    {
+      "url": "https://www.goethe.de/mmo/priv/1351129-STANDARD.pdf",
+      "result": "Returned HTTP 404 during this check; no manuscript retrieved from that address."
+    }
+  ],
+  "effect_on_repository_evidence": {
+    "new_ciphertext_coordinates": 0,
+    "new_square_assignments": 0,
+    "new_plaintext_characters": 0,
+    "date_layer_changed": false,
+    "previous_unretrieved_archive_leads_promoted_to_evidence": false
+  },
+  "limitations": [
+    "The negative result applies only to the explicitly inspected public material.",
+    "No original incoming October 26 telegram, period key or archival radiogram was obtained.",
+    "The two printed p73 date layers remain unresolved; no historical subject is used as a speculative crib."
+  ]
+}

@@ -1,0 +1,1509 @@
+{
+  "schema": "adfgvx-p198-letter-count-independent-review-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "review_date": "2026-11-02",
+  "result": "Passed independent code/proof, small exhaustive and recorded full-witness review; no blocking issue found.",
+  "reviewed_file_sha256": {
+    "experiments/p198_letter_bounds/README.md": "27f77f6b189ff9b448b2df1dcca48d82b7187f9ed37bc547d70698d829aaa4bc",
+    "experiments/p198_letter_bounds/compute.py": "0eb690ce54754214e6dd74bef5d6edca3878904d3a26644d732fbd24c49a16b5",
+    "experiments/p198_letter_bounds/exact_letter_bounds.cpp": "0f7e8ef517e24f774678cc113c94a8b91dc3fbb4362673f0474a178eeae80244",
+    "experiments/p198_letter_bounds/results.json": "a5e794f7e3248a00f0c7ccc4b30194f46c620e587dc9cb63e0dc7e148c1426fb",
+    "experiments/p198_letter_bounds/verify_recorded.py": "2267b4b1edd8fcafc792608132a8b66cd1143c03156298e0660632107c11f19a",
+    "experiments/p198_exact_sparse/inputs.json": "25a745508359aa6d85876f60747ae2dfdcbf20586d54539ae0d572d97bc16e8a"
+  },
+  "review_scope": {
+    "family": "The recorded Nov13-15b transposition and every complete square extending its eight unknown cells; exactly five coordinate deletions from a 170-coordinate frame, with all 165 observed coordinates retained in order.",
+    "ordinary_letter_definition": "One of A through Z, including the separator character X. The other alphabet characters are decimal digits.",
+    "full_optimizer_independently_rerun": false,
+    "global_optimality_evidence": "Reviewed exact recurrence and exhaustive coverage; independently enumerated all short fixtures and checked a freshly compiled engine. Full reported witnesses were independently checked for feasibility and counts, not globally optimized again by this review.",
+    "newly_accepted_historical_plaintext_characters": 0
+  },
+  "proof_review": [
+    {
+      "topic": "Square completion coverage",
+      "finding": "The unknown cells are 1,2,16,17,18,19,27,35 and the unused symbols are 234789QY. A count depends only on which two cells hold Q and Y. Each of the 28 memberships represents exactly 2! times 6! = 1440 complete squares; membership is fixed globally per cell."
+    },
+    {
+      "topic": "Loss geometry coverage",
+      "finding": "Every five-loss witness has one allocation among 16 physical columns. The 15504 allocations partition the full C(170,5) mask space, with column lengths eleven for ten columns and ten for six columns. Each allocation fixes the retained source segment for every column."
+    },
+    {
+      "topic": "Local coordinate-value reduction",
+      "finding": "Once a pair is designated lost or retained, maximizing or minimizing its A-Z indicator has no effect on future source positions or costs. Keeping only an extremizing fill is exact. The chosen equal-count fill is ordered by transmitted coordinate position, including when that reverses the plaintext pair order."
+    },
+    {
+      "topic": "State and dominance",
+      "finding": "Only per-column used-loss counts are required. Their product is at most 2^5 = 32 states. Equal-state prefixes have identical future choices, so the better signed count dominates."
+    },
+    {
+      "topic": "Canonical ties",
+      "finding": "The increasing loss-position list is compared first, then its ADFGVX fill values. Equal-state histories contain equally many losses. Adding a common future mask and fill preserves this ordering even when future positions precede some past positions in ciphertext readout order."
+    },
+    {
+      "topic": "Reporting",
+      "finding": "The README distinguishes attainable extrema from attainment of every intermediate count. At least three digits is a necessary condition only within the stated family. The actual historical digit count is unknown, so this neither rejects nor authenticates the key."
+    }
+  ],
+  "independent_checks": {
+    "cipher_arithmetic": "Explicit per-column lengths and start offsets, followed by row-major pair decoding; independent forward column transposition checks every complete witness. No repository cipher or optimizer module was imported.",
+    "all_square_extensions_independently_enumerated": 40320,
+    "membership_classes": 28,
+    "extensions_in_every_class": 1440,
+    "short_membership_loss_fill_witnesses_independently_enumerated": 20376,
+    "short_controls": [
+      {
+        "width": 4,
+        "variant": 0,
+        "nominal_coordinates": 12,
+        "witnesses_enumerated": 72,
+        "extrema": [
+          {
+            "maximize": false,
+            "count": 4,
+            "canonical_loss_positions": [
+              4
+            ],
+            "canonical_fill": "G",
+            "matches_independent_enumeration": true
+          },
+          {
+            "maximize": true,
+            "count": 6,
+            "canonical_loss_positions": [
+              0
+            ],
+            "canonical_fill": "A",
+            "matches_independent_enumeration": true
+          }
+        ]
+      },
+      {
+        "width": 4,
+        "variant": 1,
+        "nominal_coordinates": 12,
+        "witnesses_enumerated": 72,
+        "extrema": [
+          {
+            "maximize": false,
+            "count": 3,
+            "canonical_loss_positions": [
+              0
+            ],
+            "canonical_fill": "V",
+            "matches_independent_enumeration": true
+          },
+          {
+            "maximize": true,
+            "count": 5,
+            "canonical_loss_positions": [
+              1
+            ],
+            "canonical_fill": "D",
+            "matches_independent_enumeration": true
+          }
+        ]
+      },
+      {
+        "width": 6,
+        "variant": 0,
+        "nominal_coordinates": 14,
+        "witnesses_enumerated": 3276,
+        "extrema": [
+          {
+            "maximize": false,
+            "count": 4,
+            "canonical_loss_positions": [
+              0,
+              12
+            ],
+            "canonical_fill": "VD",
+            "matches_independent_enumeration": true
+          },
+          {
+            "maximize": true,
+            "count": 7,
+            "canonical_loss_positions": [
+              0,
+              3
+            ],
+            "canonical_fill": "AG",
+            "matches_independent_enumeration": true
+          }
+        ]
+      },
+      {
+        "width": 6,
+        "variant": 1,
+        "nominal_coordinates": 14,
+        "witnesses_enumerated": 3276,
+        "extrema": [
+          {
+            "maximize": false,
+            "count": 3,
+            "canonical_loss_positions": [
+              1,
+              2
+            ],
+            "canonical_fill": "VG",
+            "matches_independent_enumeration": true
+          },
+          {
+            "maximize": true,
+            "count": 7,
+            "canonical_loss_positions": [
+              0,
+              3
+            ],
+            "canonical_fill": "DG",
+            "matches_independent_enumeration": true
+          }
+        ]
+      },
+      {
+        "width": 16,
+        "variant": 0,
+        "nominal_coordinates": 20,
+        "witnesses_enumerated": 6840,
+        "extrema": [
+          {
+            "maximize": false,
+            "count": 6,
+            "canonical_loss_positions": [
+              0,
+              6
+            ],
+            "canonical_fill": "DD",
+            "matches_independent_enumeration": true
+          },
+          {
+            "maximize": true,
+            "count": 10,
+            "canonical_loss_positions": [
+              0,
+              16
+            ],
+            "canonical_fill": "AG",
+            "matches_independent_enumeration": true
+          }
+        ]
+      },
+      {
+        "width": 16,
+        "variant": 1,
+        "nominal_coordinates": 20,
+        "witnesses_enumerated": 6840,
+        "extrema": [
+          {
+            "maximize": false,
+            "count": 5,
+            "canonical_loss_positions": [
+              0,
+              5
+            ],
+            "canonical_fill": "VA",
+            "matches_independent_enumeration": true
+          },
+          {
+            "maximize": true,
+            "count": 10,
+            "canonical_loss_positions": [
+              0,
+              16
+            ],
+            "canonical_fill": "AG",
+            "matches_independent_enumeration": true
+          }
+        ]
+      }
+    ],
+    "fresh_engine_compilation": "C++17, optimization enabled, -Wall -Wextra -Werror; each of the twelve short minimum/maximum outcomes matched independent count, loss mask and coordinate-fill tie breaking.",
+    "full_witness_count": 60,
+    "full_witnesses": [
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          2
+        ],
+        "maximize": false,
+        "ordinary_letters": 46,
+        "digits": 39,
+        "loss_positions": [
+          0,
+          1,
+          65,
+          124,
+          131
+        ],
+        "fill": "XVGDX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          2
+        ],
+        "maximize": true,
+        "ordinary_letters": 75,
+        "digits": 10,
+        "loss_positions": [
+          5,
+          31,
+          32,
+          86,
+          107
+        ],
+        "fill": "AAAAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          16
+        ],
+        "maximize": false,
+        "ordinary_letters": 50,
+        "digits": 35,
+        "loss_positions": [
+          0,
+          1,
+          63,
+          121,
+          131
+        ],
+        "fill": "XXXAX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          16
+        ],
+        "maximize": true,
+        "ordinary_letters": 78,
+        "digits": 7,
+        "loss_positions": [
+          22,
+          67,
+          89,
+          102,
+          104
+        ],
+        "fill": "FAFFF",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          17
+        ],
+        "maximize": false,
+        "ordinary_letters": 46,
+        "digits": 39,
+        "loss_positions": [
+          0,
+          1,
+          65,
+          92,
+          131
+        ],
+        "fill": "XVGGX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          17
+        ],
+        "maximize": true,
+        "ordinary_letters": 80,
+        "digits": 5,
+        "loss_positions": [
+          5,
+          36,
+          38,
+          43,
+          74
+        ],
+        "fill": "AAFAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          18
+        ],
+        "maximize": false,
+        "ordinary_letters": 44,
+        "digits": 41,
+        "loss_positions": [
+          0,
+          1,
+          65,
+          124,
+          131
+        ],
+        "fill": "XVGDX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          18
+        ],
+        "maximize": true,
+        "ordinary_letters": 75,
+        "digits": 10,
+        "loss_positions": [
+          63,
+          71,
+          98,
+          100,
+          114
+        ],
+        "fill": "AAAAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          19
+        ],
+        "maximize": false,
+        "ordinary_letters": 45,
+        "digits": 40,
+        "loss_positions": [
+          0,
+          1,
+          65,
+          124,
+          131
+        ],
+        "fill": "XVGDX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          19
+        ],
+        "maximize": true,
+        "ordinary_letters": 75,
+        "digits": 10,
+        "loss_positions": [
+          5,
+          41,
+          42,
+          46,
+          74
+        ],
+        "fill": "AAAAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          27
+        ],
+        "maximize": false,
+        "ordinary_letters": 48,
+        "digits": 37,
+        "loss_positions": [
+          0,
+          1,
+          76,
+          86,
+          131
+        ],
+        "fill": "XVDAX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          27
+        ],
+        "maximize": true,
+        "ordinary_letters": 75,
+        "digits": 10,
+        "loss_positions": [
+          5,
+          19,
+          21,
+          137,
+          156
+        ],
+        "fill": "AAAAF",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          35
+        ],
+        "maximize": false,
+        "ordinary_letters": 50,
+        "digits": 35,
+        "loss_positions": [
+          0,
+          64,
+          109,
+          131,
+          166
+        ],
+        "fill": "VGGVG",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          1,
+          35
+        ],
+        "maximize": true,
+        "ordinary_letters": 78,
+        "digits": 7,
+        "loss_positions": [
+          63,
+          71,
+          101,
+          107,
+          120
+        ],
+        "fill": "AAFAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          2,
+          16
+        ],
+        "maximize": false,
+        "ordinary_letters": 51,
+        "digits": 34,
+        "loss_positions": [
+          0,
+          1,
+          63,
+          121,
+          131
+        ],
+        "fill": "XXXDX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          2,
+          16
+        ],
+        "maximize": true,
+        "ordinary_letters": 79,
+        "digits": 6,
+        "loss_positions": [
+          0,
+          42,
+          74,
+          95,
+          103
+        ],
+        "fill": "AAAAF",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          2,
+          17
+        ],
+        "maximize": false,
+        "ordinary_letters": 49,
+        "digits": 36,
+        "loss_positions": [
+          0,
+          1,
+          65,
+          92,
+          131
+        ],
+        "fill": "XVGGX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          2,
+          17
+        ],
+        "maximize": true,
+        "ordinary_letters": 81,
+        "digits": 4,
+        "loss_positions": [
+          5,
+          31,
+          32,
+          86,
+          107
+        ],
+        "fill": "AAAAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          2,
+          18
+        ],
+        "maximize": false,
+        "ordinary_letters": 45,
+        "digits": 40,
+        "loss_positions": [
+          0,
+          1,
+          65,
+          124,
+          131
+        ],
+        "fill": "XVGAX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          2,
+          18
+        ],
+        "maximize": true,
+        "ordinary_letters": 76,
+        "digits": 9,
+        "loss_positions": [
+          5,
+          32,
+          33,
+          66,
+          74
+        ],
+        "fill": "AAAAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          2,
+          19
+        ],
+        "maximize": false,
+        "ordinary_letters": 46,
+        "digits": 39,
+        "loss_positions": [
+          0,
+          1,
+          65,
+          124,
+          131
+        ],
+        "fill": "XVGAX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          2,
+          19
+        ],
+        "maximize": true,
+        "ordinary_letters": 76,
+        "digits": 9,
+        "loss_positions": [
+          5,
+          32,
+          33,
+          46,
+          74
+        ],
+        "fill": "AAAAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          2,
+          27
+        ],
+        "maximize": false,
+        "ordinary_letters": 50,
+        "digits": 35,
+        "loss_positions": [
+          0,
+          1,
+          63,
+          124,
+          131
+        ],
+        "fill": "XVXAX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          2,
+          27
+        ],
+        "maximize": true,
+        "ordinary_letters": 76,
+        "digits": 9,
+        "loss_positions": [
+          5,
+          31,
+          32,
+          86,
+          107
+        ],
+        "fill": "AAAAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          2,
+          35
+        ],
+        "maximize": false,
+        "ordinary_letters": 50,
+        "digits": 35,
+        "loss_positions": [
+          1,
+          64,
+          119,
+          131,
+          137
+        ],
+        "fill": "VGDVA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          2,
+          35
+        ],
+        "maximize": true,
+        "ordinary_letters": 79,
+        "digits": 6,
+        "loss_positions": [
+          63,
+          71,
+          101,
+          107,
+          137
+        ],
+        "fill": "AAFAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          16,
+          17
+        ],
+        "maximize": false,
+        "ordinary_letters": 54,
+        "digits": 31,
+        "loss_positions": [
+          0,
+          1,
+          63,
+          92,
+          131
+        ],
+        "fill": "XAXGX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          16,
+          17
+        ],
+        "maximize": true,
+        "ordinary_letters": 81,
+        "digits": 4,
+        "loss_positions": [
+          0,
+          36,
+          38,
+          40,
+          74
+        ],
+        "fill": "AAFFA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          16,
+          18
+        ],
+        "maximize": false,
+        "ordinary_letters": 49,
+        "digits": 36,
+        "loss_positions": [
+          0,
+          1,
+          63,
+          121,
+          131
+        ],
+        "fill": "XXXAX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          16,
+          18
+        ],
+        "maximize": true,
+        "ordinary_letters": 78,
+        "digits": 7,
+        "loss_positions": [
+          22,
+          42,
+          46,
+          77,
+          96
+        ],
+        "fill": "FAAFA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          16,
+          19
+        ],
+        "maximize": false,
+        "ordinary_letters": 50,
+        "digits": 35,
+        "loss_positions": [
+          0,
+          1,
+          63,
+          121,
+          131
+        ],
+        "fill": "XXXAX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          16,
+          19
+        ],
+        "maximize": true,
+        "ordinary_letters": 78,
+        "digits": 7,
+        "loss_positions": [
+          22,
+          67,
+          89,
+          102,
+          104
+        ],
+        "fill": "FAFDD",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          16,
+          27
+        ],
+        "maximize": false,
+        "ordinary_letters": 53,
+        "digits": 32,
+        "loss_positions": [
+          0,
+          1,
+          63,
+          121,
+          131
+        ],
+        "fill": "XXXAX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          16,
+          27
+        ],
+        "maximize": true,
+        "ordinary_letters": 78,
+        "digits": 7,
+        "loss_positions": [
+          0,
+          53,
+          68,
+          90,
+          103
+        ],
+        "fill": "AAAFF",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          16,
+          35
+        ],
+        "maximize": false,
+        "ordinary_letters": 54,
+        "digits": 31,
+        "loss_positions": [
+          0,
+          18,
+          29,
+          37,
+          166
+        ],
+        "fill": "XXGAG",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          16,
+          35
+        ],
+        "maximize": true,
+        "ordinary_letters": 82,
+        "digits": 3,
+        "loss_positions": [
+          66,
+          88,
+          101,
+          107,
+          167
+        ],
+        "fill": "AFFAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          17,
+          18
+        ],
+        "maximize": false,
+        "ordinary_letters": 47,
+        "digits": 38,
+        "loss_positions": [
+          0,
+          1,
+          65,
+          92,
+          131
+        ],
+        "fill": "XVGGX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          17,
+          18
+        ],
+        "maximize": true,
+        "ordinary_letters": 80,
+        "digits": 5,
+        "loss_positions": [
+          5,
+          36,
+          38,
+          43,
+          74
+        ],
+        "fill": "AAFAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          17,
+          19
+        ],
+        "maximize": false,
+        "ordinary_letters": 47,
+        "digits": 38,
+        "loss_positions": [
+          0,
+          1,
+          65,
+          92,
+          131
+        ],
+        "fill": "XVGGX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          17,
+          19
+        ],
+        "maximize": true,
+        "ordinary_letters": 81,
+        "digits": 4,
+        "loss_positions": [
+          5,
+          36,
+          38,
+          43,
+          74
+        ],
+        "fill": "AAFAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          17,
+          27
+        ],
+        "maximize": false,
+        "ordinary_letters": 49,
+        "digits": 36,
+        "loss_positions": [
+          0,
+          1,
+          76,
+          86,
+          131
+        ],
+        "fill": "XVDAX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          17,
+          27
+        ],
+        "maximize": true,
+        "ordinary_letters": 81,
+        "digits": 4,
+        "loss_positions": [
+          5,
+          35,
+          38,
+          43,
+          78
+        ],
+        "fill": "AAFAF",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          17,
+          35
+        ],
+        "maximize": false,
+        "ordinary_letters": 54,
+        "digits": 31,
+        "loss_positions": [
+          1,
+          46,
+          108,
+          131,
+          137
+        ],
+        "fill": "VDVVA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          17,
+          35
+        ],
+        "maximize": true,
+        "ordinary_letters": 81,
+        "digits": 4,
+        "loss_positions": [
+          5,
+          7,
+          29,
+          43,
+          87
+        ],
+        "fill": "AAFAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          18,
+          19
+        ],
+        "maximize": false,
+        "ordinary_letters": 44,
+        "digits": 41,
+        "loss_positions": [
+          0,
+          1,
+          65,
+          124,
+          131
+        ],
+        "fill": "XVGAX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          18,
+          19
+        ],
+        "maximize": true,
+        "ordinary_letters": 75,
+        "digits": 10,
+        "loss_positions": [
+          5,
+          41,
+          42,
+          46,
+          74
+        ],
+        "fill": "AAAAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          18,
+          27
+        ],
+        "maximize": false,
+        "ordinary_letters": 48,
+        "digits": 37,
+        "loss_positions": [
+          0,
+          1,
+          63,
+          124,
+          131
+        ],
+        "fill": "XVXAX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          18,
+          27
+        ],
+        "maximize": true,
+        "ordinary_letters": 75,
+        "digits": 10,
+        "loss_positions": [
+          5,
+          41,
+          42,
+          46,
+          78
+        ],
+        "fill": "AAAAF",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          18,
+          35
+        ],
+        "maximize": false,
+        "ordinary_letters": 49,
+        "digits": 36,
+        "loss_positions": [
+          0,
+          35,
+          150,
+          152,
+          166
+        ],
+        "fill": "VADDG",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          18,
+          35
+        ],
+        "maximize": true,
+        "ordinary_letters": 78,
+        "digits": 7,
+        "loss_positions": [
+          63,
+          71,
+          98,
+          100,
+          120
+        ],
+        "fill": "AAAAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          19,
+          27
+        ],
+        "maximize": false,
+        "ordinary_letters": 49,
+        "digits": 36,
+        "loss_positions": [
+          0,
+          1,
+          63,
+          124,
+          131
+        ],
+        "fill": "XVXAX",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          19,
+          27
+        ],
+        "maximize": true,
+        "ordinary_letters": 75,
+        "digits": 10,
+        "loss_positions": [
+          5,
+          41,
+          42,
+          46,
+          52
+        ],
+        "fill": "AAAAF",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          19,
+          35
+        ],
+        "maximize": false,
+        "ordinary_letters": 50,
+        "digits": 35,
+        "loss_positions": [
+          0,
+          64,
+          123,
+          131,
+          166
+        ],
+        "fill": "VGAVG",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          19,
+          35
+        ],
+        "maximize": true,
+        "ordinary_letters": 78,
+        "digits": 7,
+        "loss_positions": [
+          63,
+          71,
+          101,
+          107,
+          120
+        ],
+        "fill": "AADAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          27,
+          35
+        ],
+        "maximize": false,
+        "ordinary_letters": 52,
+        "digits": 33,
+        "loss_positions": [
+          0,
+          35,
+          150,
+          152,
+          166
+        ],
+        "fill": "VAAAG",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "p198_Nov13-15b",
+        "unknown_cells_containing_letters": [
+          27,
+          35
+        ],
+        "maximize": true,
+        "ordinary_letters": 78,
+        "digits": 7,
+        "loss_positions": [
+          63,
+          71,
+          101,
+          107,
+          120
+        ],
+        "fill": "AAFAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "control_CHI-Nov13",
+        "unknown_cells_containing_letters": null,
+        "maximize": false,
+        "ordinary_letters": 49,
+        "digits": 36,
+        "loss_positions": [
+          14,
+          38,
+          43,
+          45,
+          54
+        ],
+        "fill": "VGGVD",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "control_CHI-Nov13",
+        "unknown_cells_containing_letters": null,
+        "maximize": true,
+        "ordinary_letters": 85,
+        "digits": 0,
+        "loss_positions": [
+          0,
+          42,
+          80,
+          126,
+          158
+        ],
+        "fill": "AGAAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "control_Nov13-15b",
+        "unknown_cells_containing_letters": null,
+        "maximize": false,
+        "ordinary_letters": 58,
+        "digits": 27,
+        "loss_positions": [
+          14,
+          75,
+          134,
+          143,
+          167
+        ],
+        "fill": "XDXXD",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      },
+      {
+        "case_id": "control_Nov13-15b",
+        "unknown_cells_containing_letters": null,
+        "maximize": true,
+        "ordinary_letters": 85,
+        "digits": 0,
+        "loss_positions": [
+          0,
+          1,
+          2,
+          3,
+          12
+        ],
+        "fill": "AAAAA",
+        "retained_source_coordinates": 165,
+        "retained_source_changes": 0,
+        "full_reencryption_passed": true
+      }
+    ]
+  },
+  "verified_extrema": {
+    "minimum_ordinary_letters": 44,
+    "maximum_ordinary_letters": 82,
+    "minimum_digits": 3,
+    "maximum_digits": 41,
+    "maximum_membership_unknown_cells": [
+      16,
+      35
+    ],
+    "maximum_witness_loss_positions": [
+      66,
+      88,
+      101,
+      107,
+      167
+    ],
+    "maximum_witness_fills": "AFFAA",
+    "complete_square_extensions": 40320,
+    "loss_and_fill_witnesses_per_complete_square": "8670506592384",
+    "positive_control_bounds": {
+      "control_CHI-Nov13": [
+        49,
+        85
+      ],
+      "control_Nov13-15b": [
+        58,
+        85
+      ]
+    }
+  },
+  "limits": [
+    "This review does not claim an independent second full-space optimization of all 28 memberships.",
+    "No model probabilities, German readability assumptions or historical digit counts enter the count objective.",
+    "Extremizing ciphertext fills and representative square completions are mathematical witnesses, not accepted historical readings.",
+    "Changing the fixed transposition, allowing coordinate substitutions, or changing the number of losses defines a different family to which these bounds do not automatically apply."
+  ]
+}

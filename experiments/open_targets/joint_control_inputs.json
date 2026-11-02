@@ -1,0 +1,142 @@
+{
+  "project": "ADFGVX Cipher",
+  "review_credit": "icekylinx and GPT-6 Astra Pro",
+  "cases": [
+    {
+      "id": "control_CHI-Nov13",
+      "column_rank_order": [
+        3,
+        13,
+        2,
+        12,
+        1,
+        11,
+        15,
+        8,
+        9,
+        4,
+        5,
+        14,
+        6,
+        10,
+        7,
+        16
+      ],
+      "square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+      "observed_ciphertext": "AGFGFGAGVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDXGGXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXVXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVXXXFDAVVXAV",
+      "planted": {
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+        "square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "full_ciphertext": "AGFGFGAVGVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDXGAGXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXVXXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXFGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVGXXXFDAVVXAV",
+        "missing_full_ciphertext_positions_0based": [
+          7,
+          44,
+          81,
+          126,
+          158
+        ]
+      },
+      "joint_quad_optimum": {
+        "missing_full_ciphertext_positions": [
+          7,
+          44,
+          81,
+          126,
+          160
+        ],
+        "filled_missing_coordinates": "VADAV"
+      },
+      "joint_decoder_output_sha256": "a697ba9152ba976fb541ba780b0cf89b7b4393b62af5fe1c3eb127fe5afc6d5a",
+      "source_record_sha256": "26efaac7683c92cd4e5dace4285ba32c3c08d48089966df9861603bf25685496"
+    },
+    {
+      "id": "control_Nov13-15b",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+      "observed_ciphertext": "FFFFAFAXFGFVFGGAFXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVFFGAAGVDFXDDDVVXAFFAFAGXXXVXXVXAF",
+      "planted": {
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+        "square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+        "full_ciphertext": "FFFFAFAXFGFVFGGAFAFFAAXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVFFGAAGVDFXDDDVVXAFFAFAGXXXVXXVXAF",
+        "missing_full_ciphertext_positions_0based": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      "joint_quad_optimum": {
+        "missing_full_ciphertext_positions": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "filled_missing_coordinates": "AFFFF"
+      },
+      "joint_decoder_output_sha256": "64408cb6f73b27ca050f50cdaffad36c353a49a99995652292aba4673565b0e6",
+      "source_record_sha256": "9c0c9f8665836831113760169063f0f2e466e9c4c4e1e3846a5adb07438dad22"
+    }
+  ],
+  "independent_training_model_comparison": [
+    {
+      "id": "control_CHI-Nov13",
+      "quad_optimum_plaintext": "DERSTABGELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEREITEREBEFEHLESEKERMITTELN",
+      "planted": {
+        "quad_mean": -4.224131232354699,
+        "six_mean": -6.200452798604966,
+        "mixed_30_70": -5.607556328729885
+      },
+      "quad_optimum": {
+        "quad_mean": -4.160525508043243,
+        "six_mean": -6.42267147898674,
+        "mixed_30_70": -5.74402768770369
+      },
+      "quad_optimum_minus_planted": {
+        "quad_mean": 0.06360572431145606,
+        "six_mean": -0.22221868038177472,
+        "mixed_30_70": -0.13647135897380558
+      }
+    },
+    {
+      "id": "control_Nov13-15b",
+      "quad_optimum_plaintext": "DERSTARMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBETTEWEITEREBEFEHLEUEBERMITTELN",
+      "planted": {
+        "quad_mean": -4.224131232354699,
+        "six_mean": -6.200452798604966,
+        "mixed_30_70": -5.607556328729885
+      },
+      "quad_optimum": {
+        "quad_mean": -4.107718909659037,
+        "six_mean": -6.093098539113998,
+        "mixed_30_70": -5.49748465027751
+      },
+      "quad_optimum_minus_planted": {
+        "quad_mean": 0.11641232269566171,
+        "six_mean": 0.10735425949096733,
+        "mixed_30_70": 0.11007167845237475
+      }
+    }
+  ],
+  "model_provenance": "experiments/joint_search/models/provenance.json",
+  "scope": "Post-hoc diagnostic rescoring only. These held-out books are not used to optimize any key, erasure geometry, or letter filling."
+}

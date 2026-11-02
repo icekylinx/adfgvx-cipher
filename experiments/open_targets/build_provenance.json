@@ -1,0 +1,55 @@
+{
+  "project": "ADFGVX Cipher",
+  "review_credit": "icekylinx and GPT-6 Astra Pro",
+  "compiler_first_line": "cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "build_command": "make -C experiments/open_targets",
+  "compile_flags": "-O3 -std=c11",
+  "link_flags": "-lm",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "python_version": "3.12.14",
+  "engines": [
+    {
+      "engine": "gap_anchored",
+      "source_sha256": "51a0093a4aab2fd46a739930048f2674ecdb78041ce1d882ddeea90d4e7dbcf1",
+      "binary_sha256": "5f9e7ac9f4bf0fee450d15d662ae9079ebc1c9fbbf4fd18aa5df9bd540c16762",
+      "binary_bytes": 25488
+    },
+    {
+      "engine": "sparse_loss",
+      "source_sha256": "e285ff43863a5d22dce0040855b18fd2dd2980f25a13cbf5b7102fb93ecf2f67",
+      "binary_sha256": "54827d1ee2912600c6981f30dcfe1f461a36c6ca701fc4de45888bb469beb623",
+      "binary_bytes": 34064
+    },
+    {
+      "engine": "group_transfer",
+      "source_sha256": "b395168c1219951b7ba0e96bb8d45e4e4a48d697dd1577b471e466234b671932",
+      "binary_sha256": "f9c1b6a90bcfa82997bda40f1887a873cc06c2c4e351c5659a94111339766d77",
+      "binary_bytes": 25520
+    },
+    {
+      "engine": "segment_gap",
+      "source_sha256": "64fd57187c0a0204762d5f83bb228b7375983651cb3136e91ebe58df98572a95",
+      "binary_sha256": "fb3d2ff15a8179d319a58f5c292b01845ecd3e81bc75f2ae8b64a7d7754a61c4",
+      "binary_bytes": 25752
+    },
+    {
+      "engine": "refine_segments",
+      "source_sha256": "47917b76316c94c445511f2d3aa8a2ca78b35ad9ae96d6d0cec5550a1b28f79a",
+      "binary_sha256": "45ff20eee0ecf299758fc19209169324528d5e638f97fd30e200182ac23734d3",
+      "binary_bytes": 25672
+    },
+    {
+      "engine": "relabel_rows_columns",
+      "source_sha256": "3e5db03e7adf71cd5e6917b8ee62bc0211da9a793607d04b14b5edba51e10624",
+      "binary_sha256": "9f6aa36d4e48aaf8613b30014fa7f3a750842f25ff0c12de4999be1be5c10cd0",
+      "binary_bytes": 25256
+    },
+    {
+      "engine": "component_sixgram",
+      "source_sha256": "308270e7e65d491d522a19c7a5d8d8f9ea3e17f593d2333ff7588ac263b85406",
+      "binary_sha256": "011902ff483e5cc64f54f947e7fdc3fba65f78fa992536fcba9a4953afa7882d",
+      "binary_bytes": 21528
+    }
+  ],
+  "limitation": "Binary identities describe this execution environment. Only source, recipes and results are committed; rebuilding elsewhere can yield different binaries and optimizer trajectories."
+}

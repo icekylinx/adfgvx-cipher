@@ -1,0 +1,88 @@
+{
+  "verified": true,
+  "project": "ADFGVX Cipher",
+  "review_credit": "icekylinx and GPT-6 Astra Pro",
+  "checks": {
+    "anchored": {
+      "historical_cases": 70,
+      "configured_proposal_slots": 7000000000
+    },
+    "gap": {
+      "completed_historical_runs": 63,
+      "unique_historical_cases": 54,
+      "completed_controls": 3,
+      "accepted_historical_plaintexts": 0,
+      "historical_configured_proposal_slots": 1170000000,
+      "historical_exact_evaluations": 0
+    },
+    "sparse": {
+      "completed_historical_runs": 24,
+      "unique_historical_cases": 24,
+      "completed_controls": 3,
+      "accepted_historical_plaintexts": 0,
+      "historical_configured_proposal_slots": 120000000,
+      "historical_exact_evaluations": 0
+    },
+    "transfer": {
+      "completed_historical_runs": 54,
+      "unique_historical_cases": 54,
+      "completed_controls": 3,
+      "accepted_historical_plaintexts": 0,
+      "historical_configured_proposal_slots": 5400000000,
+      "historical_exact_evaluations": 0
+    },
+    "relabel": {
+      "completed_historical_runs": 72,
+      "unique_historical_cases": 72,
+      "completed_controls": 3,
+      "accepted_historical_plaintexts": 0,
+      "historical_configured_proposal_slots": 0,
+      "historical_exact_evaluations": 4180377600
+    },
+    "structure": {
+      "historical_cases": 24,
+      "controls": 2,
+      "exact_geometry_classes": 235666548,
+      "small_exhaustion_metadata_consistent": true
+    },
+    "direct_transfer": {
+      "exhaustive_fixed_key_insertions": 3984,
+      "arithmetic_digest_verified": true
+    },
+    "component_controls": {
+      "controls": 2,
+      "correct_singletons": [
+        11,
+        8
+      ],
+      "singleton_positions": 87,
+      "historical_search_launched": false
+    },
+    "unknown_square_control": {
+      "correct_singletons": 49,
+      "singleton_positions": 80,
+      "historical_search_launched": false
+    },
+    "p73_histogram": {
+      "source_histograms_verified": 2,
+      "F_category_lower_bound": 13,
+      "digit_free_CJMOQZ_lower_bound": 26,
+      "maximum_ordinary_V_weighted_count": 17,
+      "maximum_encoded_X_characters": 8,
+      "maximum_DEHKQTU_characters_if_five_X": 7,
+      "frozen_empirical_rows_consistent": 24,
+      "corpus_statistics_rebuilt": false
+    },
+    "heldout_control_scores": {
+      "heldout_models": 16,
+      "compared_texts": 3,
+      "selected_gram_scores_recomputed": true,
+      "complete_book_counts_rebuilt": false
+    }
+  },
+  "limits": [
+    "Searches and dynamic programs are not rerun by this lightweight check.",
+    "Binary-model language scores and held-out covariance statistics require the documented full replay.",
+    "Source preservation and score arithmetic do not establish a historical decipherment."
+  ]
+}

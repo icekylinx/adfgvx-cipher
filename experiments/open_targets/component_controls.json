@@ -1,0 +1,186 @@
+{
+  "project": "ADFGVX Cipher",
+  "review_credit": "icekylinx and GPT-6 Astra Pro",
+  "fixture": {
+    "width": 18,
+    "body": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELNXABX",
+    "square": "7C2UJYGRH4ZIMNLQ8X05TB6PS1EW9KDFVOA3",
+    "ranks": [
+      13,
+      2,
+      18,
+      16,
+      11,
+      9,
+      5,
+      6,
+      14,
+      10,
+      12,
+      3,
+      8,
+      1,
+      15,
+      7,
+      4,
+      17
+    ],
+    "canonical_ranks": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      4,
+      17
+    ],
+    "ciphertext": "G??DGXFFAGAFGFGGGFFFVXGDDDGDDVVDXFFGGFGVGVXXGGGGFAFXGAGFGGDAGXGFAXFXXGVVFGDVVFGDFDAFVFFFFFAFDFVFFFXDVAXVDGVVFXDGXDDVXDXXFAVVAGVVGGXVDVXVVVFFGDAVVDDDFFAFAXFXDGFFDADDFFFFVXVFDGDDAV",
+    "full_ciphertext": "GFFDGXFFAGAFGFGGGFFFVXGDDDGDDVVDXFFGGFGVGVXXGGGGFAFXGAGFGGDAGXGFAXFXXGVVFGDVVFGDFDAFVFFFFFAFDFVFFFXDVAXVDGVVFXDGXDDVXDXXFAVVAGVVGGXVDVXVVVFFGDAVVDDDFFAFAXFXDGFFDADDFFFFVXVFDGDDAV"
+  },
+  "runs": [
+    {
+      "id": "quad_component",
+      "engine_source": "experiments/joint_search/src/joint_rectangle_warm.c",
+      "source_sha256": "901e3d5591ae5f832d11db313647fb82e33f07ca33ef9d543248697767ec6450",
+      "recipe": {
+        "restarts": 1000,
+        "iterations": 100000,
+        "seed": 202611020018,
+        "objective": "Whole-letter37-ary marginal quadgrams without mean normalization"
+      },
+      "initial_square": "????????????????????????????????????",
+      "initial_ranks": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        4,
+        17
+      ],
+      "best": {
+        "score": -4.368240121,
+        "restart": 358,
+        "version": 37,
+        "square": "5GWM42VTZYPIOLD97F30RN1JU8EBKXSHQCA6",
+        "ranks": [
+          15,
+          7,
+          13,
+          2,
+          11,
+          9,
+          18,
+          16,
+          8,
+          1,
+          5,
+          6,
+          12,
+          3,
+          14,
+          10,
+          4,
+          17
+        ],
+        "plaintexts": [
+          "OSTENUARENDES?RISTIMGE?XNESMESOLCHTLEBEINSTELUMPRINTARINRIERBERZEETENHEDIEEMONTERFRDENLAF"
+        ]
+      },
+      "trace_sha256": "072d60d10b24fa67a613ba57034d8f9c562922a854dbed6839a57e7e69ab19a0",
+      "input_sha256": "0196b6528987c53e0868abf344ba21a5dfc5b272ec47e9c1cad8b55042dd7141"
+    },
+    {
+      "id": "mixed_component",
+      "engine_source": "experiments/open_targets/component_sixgram.c",
+      "source_sha256": "308270e7e65d491d522a19c7a5d8d8f9ea3e17f593d2333ff7588ac263b85406",
+      "recipe": {
+        "restarts": 1000,
+        "iterations": 100000,
+        "seed": 120121,
+        "six_weight": 0.7,
+        "objective": "Mean whole-letter quadgrams plus rescaled six-gram windows that have no erased letter"
+      },
+      "initial_square": "5GWM42VTZYPIOLD97F30RN1JU8EBKXSHQCA6",
+      "initial_ranks": [
+        15,
+        7,
+        13,
+        2,
+        11,
+        9,
+        18,
+        16,
+        8,
+        1,
+        5,
+        6,
+        12,
+        3,
+        14,
+        10,
+        4,
+        17
+      ],
+      "best": {
+        "score": -6.434022447,
+        "restart": 553,
+        "version": 37,
+        "square": "5M6G7PJRBCOILXSY0HZ3NT49F8EWQVDU1KA2",
+        "ranks": [
+          5,
+          6,
+          14,
+          10,
+          12,
+          3,
+          8,
+          1,
+          15,
+          7,
+          13,
+          2,
+          18,
+          16,
+          11,
+          9,
+          4,
+          17
+        ],
+        "plaintexts": [
+          "FNATLDERENDI?TSDERVET?IGEMDKRUXGELDXDERTEWIEXTARIFGNONNEWEITINNTEUEBERESTERLIEGENXHATHNES"
+        ]
+      },
+      "trace_sha256": "2b8b5cef7934da920f04f0c14643f906a5124de4602464e9512a8afe93132687",
+      "input_sha256": "20b6eba20778ee491358aa24919662bf20c95c933e93e5ddef2740638aca1a00"
+    }
+  ],
+  "scope": "Control diagnostics only; the true long/short column segmentation is supplied, but neither true ranks nor true square is supplied. The mixed run starts from the failed quad incumbent.",
+  "historical_search_launched_with_this_method": false,
+  "model_sha256": {
+    "quad37": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+    "six36": "79e1474e78afa0d208ffe4306b31ed3531786c2fc6a0c7efb4d2f3a7fd5e4b5a"
+  }
+}

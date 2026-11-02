@@ -1,6 +1,6 @@
 # Research data
 
-[ADFGVX Cipher](../README.md) · [Readable cases](../cases/README.md) · [Experiments](../experiments/README.md)
+[ADFGVX Cipher](../README.md) · [Readable cases](../cases/README.md) · [Methods guide](../docs/methods.md) · [Experiments](../experiments/README.md)
 
 | File or directory | Content |
 |---|---|

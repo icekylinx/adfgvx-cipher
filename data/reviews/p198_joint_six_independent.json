@@ -1,0 +1,236 @@
+{
+  "schema": "adfgvx-p198-joint-six-independent-review-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "review_date": "2026-11-02",
+  "result": "Passed independent code/proof review, small exhaustive comparisons, original-model rescoring and full-witness checks; no blocking issue found.",
+  "reviewed_file_sha256": {
+    "experiments/p198_joint_six/README.md": "922e5a14ee4525aff2dbef41b657d0d99b12d558a4d84d0d491f07785fe349dc",
+    "experiments/p198_joint_six/compute.py": "3d20f5b4da06c6e49bedb3d492b0e6f0d1d0f89847c4e845b3fee80b199baa5d",
+    "experiments/p198_joint_six/exact_joint_six.cpp": "c1526da2a6ade2064b8a5636c6e6fa5a09baff91a05310d72ec884efcba73cee",
+    "experiments/p198_joint_six/results.json": "c43153fb3ee586eaf8a2ee9cbfe2924454106dd08dc4aac823b098ffc79846c0",
+    "experiments/p198_joint_six/verify_recorded.py": "deebab220ddacabd83d1c9e5f22099d3192d6eed69b9ead1cfacb20380a1174c",
+    "experiments/p198_exact_sparse/inputs.json": "25a745508359aa6d85876f60747ae2dfdcbf20586d54539ae0d572d97bc16e8a",
+    "experiments/p198_joint_exact/results.json": "a9ba07498feb7ccfafd62f9ff65bbe4ba64fcbdfc4fd0af79f7ca474e25487bd"
+  },
+  "review_scope": {
+    "target": "The frozen synthetic six-gram and mixed-objective calibration; later historical searches are outside this review.",
+    "full_optimizer_independently_rerun": false,
+    "global_optimality_evidence": "Reviewed exact recurrence, coverage, dominance, canonical ties and state representation. Independent short exhaustive optima agree with a fresh compilation. Full recorded winners were independently rescored and re-encrypted, not globally optimized a second time.",
+    "accepted_historical_plaintext_characters": 0
+  },
+  "proof_review": [
+    {
+      "topic": "Coverage and state",
+      "finding": "The existing loss-allocation partition covers every five-loss/fill witness. The last five concrete letters and per-column used-loss counts contain every dependency of future six-gram and four-gram costs and source choices."
+    },
+    {
+      "topic": "Composite integer key",
+      "finding": "The mixed-radix used-loss code has fewer than 2^m values. For the supported m at most six, the composite key is below 64 times 36^5 = 3869835264, below 2^32. A six-letter base-36 code is below 36^6 = 2176782336, also within uint32."
+    },
+    {
+      "topic": "Sparse layers",
+      "finding": "The open-addressed hash uses the full composite key to resolve collisions. Its table size is at least twice the configured active-state cap. Epoch stamps separate layers; the recorded reset count is far below stamp wraparound. Inserting a new state beyond the cap throws before a result can be written; no approximate pruning occurs."
+    },
+    {
+      "topic": "Prefix dominance and ties",
+      "finding": "Equal-state prefixes have identical future costs and feasibility. The inherited increasing loss-mask then ADFGVX-fill tie order remains valid when common future positions are interleaved with past positions in ciphertext order. LossMask insertion and equal-key replacement retain that canonical ordering."
+    },
+    {
+      "topic": "State bound",
+      "finding": "In width sixteen, the ten coordinates of the last five letters belong to distinct columns. A column with l allocated losses has at most one recent coordinate for used count zero and six for each positive used count. The product bound is at most 7^5 = 16807; both full searches attain it. The narrower short controls are checked exhaustively without assuming this width-sixteen bound."
+    },
+    {
+      "topic": "Exact objective",
+      "finding": "Original float32 values are represented as exact integers at scale 2^24. Pure six uses the sum of eighty windows. The mixed objective uses 240 times the eighty-two-window quad sum plus 574 times the eighty-window six sum; denominator 10 times 82 times 80 times 2^24 gives exactly the 30/70 mixture of mean scores."
+    },
+    {
+      "topic": "Failed second control",
+      "finding": "A feasible wrong Nov13-15b text with strictly greater score suffices to prove planted truth cannot be globally optimal under either objective. The report correctly does not claim that this competitor is the new global optimum, which was not computed here."
+    },
+    {
+      "topic": "Result interpretation",
+      "finding": "The reported canonical CHI-Nov13 optima match planted plaintext, loss mask and values. Neither uniqueness of the optimum nor historical recovery is claimed. Four-gram and six-gram scores share their training corpus and are not statistically independent confirmations."
+    }
+  ],
+  "independent_checks": {
+    "model_sha256": {
+      "quad": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+      "six": "79e1474e78afa0d208ffe4306b31ed3531786c2fc6a0c7efb4d2f3a7fd5e4b5a"
+    },
+    "six_model_entries_loaded_without_reusing_hash_lookup": 914057,
+    "model_lookup_method": "Loaded every nonempty sparse table entry into a separate Python dictionary indexed by its stored six-gram code, checked unique-entry count 914057, and read quad entries directly by byte offset. Converted float32 values through exact rational numerator/denominator arithmetic.",
+    "cipher_method": "Independent explicit column lengths and offsets for inverse transposition, plus independent forward column transposition. No repository cipher or optimizer module was imported by the independent enumeration/rescoring script.",
+    "fresh_engine_compilation": "C++17 with optimization and -Wall -Wextra -Werror; all six short canonical optima independently compared.",
+    "short_witnesses_enumerated": 10188,
+    "objectives_per_short_witness": 2,
+    "short_controls": [
+      {
+        "width": 4,
+        "nominal_coordinates": 12,
+        "witnesses_enumerated": 72,
+        "objective_checks": [
+          {
+            "objective": "six",
+            "optimum_integer_score": -66390796,
+            "canonical_loss_positions": [
+              1
+            ],
+            "canonical_fills": "D",
+            "matches_independent_bruteforce": true
+          },
+          {
+            "objective": "mixed_30_70",
+            "optimum_integer_score": -1867835928,
+            "canonical_loss_positions": [
+              1
+            ],
+            "canonical_fills": "D",
+            "matches_independent_bruteforce": true
+          }
+        ]
+      },
+      {
+        "width": 6,
+        "nominal_coordinates": 14,
+        "witnesses_enumerated": 3276,
+        "objective_checks": [
+          {
+            "objective": "six",
+            "optimum_integer_score": -166312804,
+            "canonical_loss_positions": [
+              0,
+              10
+            ],
+            "canonical_fills": "AA",
+            "matches_independent_bruteforce": true
+          },
+          {
+            "objective": "mixed_30_70",
+            "optimum_integer_score": -6016556344,
+            "canonical_loss_positions": [
+              0,
+              10
+            ],
+            "canonical_fills": "AA",
+            "matches_independent_bruteforce": true
+          }
+        ]
+      },
+      {
+        "width": 16,
+        "nominal_coordinates": 20,
+        "witnesses_enumerated": 6840,
+        "objective_checks": [
+          {
+            "objective": "six",
+            "optimum_integer_score": -607991132,
+            "canonical_loss_positions": [
+              1,
+              17
+            ],
+            "canonical_fills": "VA",
+            "matches_independent_bruteforce": true
+          },
+          {
+            "objective": "mixed_30_70",
+            "optimum_integer_score": -38653855688,
+            "canonical_loss_positions": [
+              1,
+              17
+            ],
+            "canonical_fills": "VA",
+            "matches_independent_bruteforce": true
+          }
+        ]
+      }
+    ],
+    "capacity_one_failed_explicitly_without_result": true,
+    "full_search_records": [
+      {
+        "case_id": "control_CHI-Nov13",
+        "objective": "six",
+        "raw_engine_sha256": "6c6a08cf201836184f565efe6f792a63255ecb0fc1ddeb5af0afdeb436919735",
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+        "quad_integer_sum": -5811271292,
+        "six_integer_sum": -8322106872,
+        "objective_integer_score": -8322106872,
+        "truth_objective_integer_score": -8322106872,
+        "optimum_integer_advantage_over_truth": 0,
+        "plaintext_distance_from_truth": 0,
+        "loss_positions": [
+          7,
+          44,
+          81,
+          126,
+          158
+        ],
+        "fill": "VAXFG",
+        "source_coordinates_preserved": 165,
+        "source_coordinates_changed": 0,
+        "full_reencryption_verified": true,
+        "allocations": 15504,
+        "maximum_active_states": 16807
+      },
+      {
+        "case_id": "control_CHI-Nov13",
+        "objective": "mixed_30_70",
+        "raw_engine_sha256": "6e479dc9a0261f3b8bb283b6e6322ff71846b7f6688472c8c63ca59ee1c29d90",
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+        "quad_integer_sum": -5811271292,
+        "six_integer_sum": -8322106872,
+        "objective_integer_score": -6171594454608,
+        "truth_objective_integer_score": -6171594454608,
+        "optimum_integer_advantage_over_truth": 0,
+        "plaintext_distance_from_truth": 0,
+        "loss_positions": [
+          7,
+          44,
+          81,
+          126,
+          158
+        ],
+        "fill": "VAXFG",
+        "source_coordinates_preserved": 165,
+        "source_coordinates_changed": 0,
+        "full_reencryption_verified": true,
+        "allocations": 15504,
+        "maximum_active_states": 16807
+      }
+    ],
+    "feasible_competitor_sensitivity": [
+      {
+        "case_id": "control_CHI-Nov13",
+        "feasible_wrong_quad_winner": "DERSTABGELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEREITEREBEFEHLESEKERMITTELN",
+        "six_advantage_over_truth": -298256864,
+        "mixed_advantage_over_truth": -150198381056
+      },
+      {
+        "case_id": "control_Nov13-15b",
+        "feasible_wrong_quad_winner": "DERSTARMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBETTEWEITEREBEFEHLEUEBERMITTELN",
+        "six_advantage_over_truth": 144088448,
+        "mixed_advantage_over_truth": 121143278912
+      }
+    ]
+  },
+  "verified_full_search_scope": {
+    "nominal_coordinates": 170,
+    "received_coordinates": 165,
+    "deleted_coordinates": 5,
+    "column_loss_allocations": 15504,
+    "loss_masks": 1115034284,
+    "fills_per_mask": 7776,
+    "witnesses_per_search": "8670506592384",
+    "count_denotes_distinct_plaintexts": false,
+    "visited_prefix_states_per_full_search": 1694119422,
+    "transitions_per_full_search": 3324639982,
+    "maximum_active_states": 16807
+  },
+  "limits": [
+    "The independent review did not repeat either entire 8670506592384-witness optimization; its full-winner checks establish feasibility and scores, while code/proof and short exhaustive checks support exactness.",
+    "Training models were read and hash-checked, not rebuilt from the ten original books by this review.",
+    "The held-out-book discussion is consistent with its linked summary but those separate training and count-reconstruction calculations were not independently rerun here.",
+    "The full Nov13-15b six-gram and mixed optima are not claimed or required for the strictly-better-competitor argument.",
+    "The positive synthetic control uses its true complete key. No inference about the actual historical p198 key, loss geometry or plaintext is accepted from that result."
+  ]
+}

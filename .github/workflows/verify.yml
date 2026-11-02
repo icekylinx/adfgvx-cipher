@@ -50,6 +50,14 @@ jobs:
           python experiments/transport_followup/analyze_linked_fields.py --verify
           python experiments/p215_context/audit_interpretation.py --check
           python experiments/parallel_decoder/summarize.py --verify
+          python experiments/source_similarity_extension/check_source.py --verify
+      - name: Verify recorded exact-loss source witnesses
+        run: |
+          python experiments/p198_joint_exact/verify_recorded.py
+          python experiments/p198_letter_bounds/verify_recorded.py
+          python experiments/p198_joint_six/verify_recorded.py
+      - name: Verify completed open-target inputs and bounds
+        run: python experiments/open_targets/verify_light.py
       - name: Recompute exhaustive p153 crib constraints
         if: matrix.python == '3.13'
         run: |

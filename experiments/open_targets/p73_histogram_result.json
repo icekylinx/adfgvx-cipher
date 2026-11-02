@@ -1,0 +1,2156 @@
+{
+  "project": "ADFGVX Cipher",
+  "review_credit": "icekylinx and GPT-6 Astra Pro",
+  "key_id": "Nov7-9",
+  "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+  "coordinate_order": "ADFGVX",
+  "inputs": [
+    {
+      "id": "p73",
+      "role": "open target",
+      "literal": "D--FXGDVDXDGGAAAGFFDDVDXFXFGGDDAVGDDDADGDGFGGDDVVDXDGDAFDDXGXXDGXAVDXXDDGADDFGFAGVDXVFDXFDDFDDDFXDFGXFXVFDDDXXDXGDAGXFDGDDVFXGAXDFVFDVDXVXDFXDDXFDFVDGFDGDADGDGXXFGXFAAAXXXDXAGVXD",
+      "plaintext_length": 89,
+      "known_coordinate_counts": [
+        16,
+        57,
+        26,
+        28,
+        15,
+        34
+      ],
+      "unknown_slots": 2
+    },
+    {
+      "id": "p155_A1",
+      "role": "independent readable historical control under Nov7-9",
+      "literal": "AXAAGDAXAXAFGXXGDDXGDGXAFGXGXVVXDAVXDDVVDVXXXGGFXGAXAGFDVAXAXGGAVDFGXAGADXGGVXGVDDGVVFVACGXFVAVDXGVDGGVDVAXGVVXXGVVXVXXGDDVXDXVGAADFXFGXDDDDXGGDXVVGGXGGDDDXGVDDXADGGFXDDG",
+      "plaintext_length": 85,
+      "known_coordinate_counts": [
+        21,
+        33,
+        10,
+        38,
+        28,
+        39
+      ],
+      "unknown_slots": 1
+    }
+  ],
+  "heldout_sources": [
+    {
+      "id": 71877,
+      "title": "Meine Erinnerungen aus Ostafrika",
+      "author": "Paul Emil von Lettow-Vorbeck",
+      "url": "https://www.gutenberg.org/cache/epub/71877/pg71877.txt",
+      "catalog_url": "https://www.gutenberg.org/ebooks/71877",
+      "sha256": "7f638ecc0316c26fe47bff852f2525300c7f6d95b9111fdaffa1a13aa2292525",
+      "bytes": 761454
+    },
+    {
+      "id": 52118,
+      "title": "Der Wanderer zwischen beiden Welten",
+      "author": "Walter Flex",
+      "url": "https://www.gutenberg.org/cache/epub/52118/pg52118.txt",
+      "catalog_url": "https://www.gutenberg.org/ebooks/52118",
+      "sha256": "1d6fb07727e5f45472004079acdfdb0837bf28d579c6bbfb22954b9fb337d60d",
+      "bytes": 172457
+    }
+  ],
+  "normalized_streams": [
+    {
+      "book_id": 71877,
+      "convention": "plain",
+      "normalized_characters": 607557,
+      "normalized_sha256": "73765a8733abb420cfb7df6a6124b8dd550552bf2e31d8aabd4da2f03ea17fe7"
+    },
+    {
+      "book_id": 71877,
+      "convention": "sentence_x",
+      "normalized_characters": 623294,
+      "normalized_sha256": "419b858eb18a3e5d62bd519690b853f368d11dcd2c2c5f90a8e73a7b530ac48b"
+    },
+    {
+      "book_id": 71877,
+      "convention": "word_x",
+      "normalized_characters": 709989,
+      "normalized_sha256": "93bbbf65efa890962c7a7b9fcba89c17fe15e4f0a62ad48c547aadea89ccbe8b"
+    },
+    {
+      "book_id": 52118,
+      "convention": "plain",
+      "normalized_characters": 120032,
+      "normalized_sha256": "a9390dca84ef19d66e225680cdd17ceab75a8001a3ee66fd11ddf4a5dda7f1c4"
+    },
+    {
+      "book_id": 52118,
+      "convention": "sentence_x",
+      "normalized_characters": 123612,
+      "normalized_sha256": "2ae8c75d6b4066feb5da90ec7d6a5679deb48458c31f062c23a72ad257520d53"
+    },
+    {
+      "book_id": 52118,
+      "convention": "word_x",
+      "normalized_characters": 142085,
+      "normalized_sha256": "109e3041bd5eb6f6a6945a26981498f9e7ec92d417ad90bdbf8d3812716a7c40"
+    }
+  ],
+  "method": {
+    "metric": "Squared Mahalanobis distance in the first five coordinate counts; the sixth is determined by total length.",
+    "reference": "All consecutive non-overlapping fixed-length blocks from each normalized source stream, starting at offset 0. No windows cross book boundaries.",
+    "erasures": "Minimize target distance over every completion of its unknown coordinate counts; no source position is filled in a ciphertext.",
+    "square": "Evaluate both 5/6 completions separately. These are only reference encodings, not new historical digit assignments.",
+    "convention_comparisons": "Reported separately; repeated transformed text is not pooled or treated as independent evidence.",
+    "calibration": "The mean and covariance are fitted only to the reference book windows. Reference fractions are descriptive empirical ranks, not p-values."
+  },
+  "exact_F_invariant": {
+    "observed_F_count": 26,
+    "ordinary_letters_whose_pairs_contain_F": "CJMOQZ",
+    "maximum_F_coordinates_per_character": 2,
+    "unique_double_F_character": "7",
+    "minimum_characters_from_CJMOQZ_or_digits": 13,
+    "minimum_CJMOQZ_characters_if_digit_free": 26,
+    "minimum_CJMOQZ_with_at_most_d_digits": "max(0, 26 - 2*d)",
+    "proof": "Every observed F must belong to a C/J/M/O/Q/Z or digit pair; only 7=FF contributes two. Transposition preserves coordinate totals."
+  },
+  "exact_V_invariant": {
+    "observed_V_count": 15,
+    "unknown_coordinate_slots": 2,
+    "maximum_completed_V_count": 17,
+    "ordinary_letter_V_coefficients": {
+      "D": 1,
+      "E": 1,
+      "H": 1,
+      "K": 1,
+      "Q": 1,
+      "T": 1,
+      "U": 1,
+      "X": 2
+    },
+    "inequality": "n_D + n_E + n_H + n_K + n_Q + n_T + n_U + 2*n_X <= 17",
+    "maximum_encoded_X_characters": 8,
+    "maximum_DEHKQTU_characters_if_five_X": 7,
+    "conditional_bound": "With r encoded X characters, n_D+n_E+n_H+n_K+n_Q+n_T+n_U <= 17-2*r; r must be between 0 and 8.",
+    "proof": "The two source erasures can add at most two V coordinates. The seven listed non-X letters use one V each, X=VV uses two, and all other V-bearing cells are digits. Digits consume the same budget and cannot relax the inequality.",
+    "limitation": "Conditional on Nov7-9 and preservation of all 176 observed coordinates. X need not be a separator, no X count is assigned, and this does not exclude an atypical historical body."
+  },
+  "results": [
+    {
+      "target_id": "p73",
+      "book_id": 71877,
+      "convention": "plain",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "unknown_digit_order": "56",
+      "reference_windows": 6826,
+      "window_stride": 89,
+      "most_favorable_completed_histograms": [
+        [
+          16,
+          57,
+          26,
+          28,
+          17,
+          34
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 56.57904242734,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        17.014356870788,
+        46.473630237328,
+        8.614854966305,
+        33.681072370349,
+        34.578083797246
+      ],
+      "covariance_first_five": [
+        [
+          16.890050260317,
+          -3.763430881063,
+          1.41578669792,
+          -8.096665947589,
+          -1.064417906539
+        ],
+        [
+          -3.763430881063,
+          22.934469368897,
+          -3.855798696859,
+          -9.708704318438,
+          -0.755889365054
+        ],
+        [
+          1.41578669792,
+          -3.855798696859,
+          8.572667209731,
+          -2.128712196096,
+          -4.001497098468
+        ],
+        [
+          -8.096665947589,
+          -9.708704318438,
+          -2.128712196096,
+          28.676145721648,
+          -2.89223612797
+        ],
+        [
+          -1.064417906539,
+          -0.755889365054,
+          -4.001497098468,
+          -2.89223612797,
+          14.419469792831
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.204312092842,
+        "0.9": 9.298257191879,
+        "0.95": 11.424467485946,
+        "0.99": 16.099306977114,
+        "1.0": 37.005947885117
+      },
+      "count_matrix_sha256": "b11fb3790e3745c6324a70166b75e02f7f3bdb807abca78a0300fc00834f1494"
+    },
+    {
+      "target_id": "p73",
+      "book_id": 71877,
+      "convention": "plain",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "unknown_digit_order": "65",
+      "reference_windows": 6826,
+      "window_stride": 89,
+      "most_favorable_completed_histograms": [
+        [
+          16,
+          57,
+          26,
+          28,
+          17,
+          34
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 56.836877309987,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        17.025490770583,
+        46.473630237328,
+        8.60372106651,
+        33.681072370349,
+        34.566949897451
+      ],
+      "covariance_first_five": [
+        [
+          16.956419722479,
+          -3.770902807516,
+          1.407905133249,
+          -8.094433200358,
+          -1.115406488228
+        ],
+        [
+          -3.770902807516,
+          22.934469368897,
+          -3.848326770407,
+          -9.708704318438,
+          -0.748417438602
+        ],
+        [
+          1.407905133249,
+          -3.848326770407,
+          8.52206087691,
+          -2.130944943327,
+          -4.00899641427
+        ],
+        [
+          -8.094433200358,
+          -9.708704318438,
+          -2.130944943327,
+          28.676145721648,
+          -2.894468875201
+        ],
+        [
+          -1.115406488228,
+          -0.748417438602,
+          -4.00899641427,
+          -2.894468875201,
+          14.455077494046
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.207255956602,
+        "0.9": 9.328381366533,
+        "0.95": 11.450297262713,
+        "0.99": 16.050860591709,
+        "1.0": 37.129691291118
+      },
+      "count_matrix_sha256": "f9e61e53069b4797abca5d6a4032bf8c15e36e537b6ec22509f3621540133c7b"
+    },
+    {
+      "target_id": "p155_A1",
+      "book_id": 71877,
+      "convention": "plain",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "unknown_digit_order": "56",
+      "reference_windows": 7147,
+      "window_stride": 85,
+      "most_favorable_completed_histograms": [
+        [
+          21,
+          34,
+          10,
+          38,
+          28,
+          39
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 7.82046482622,
+      "reference_windows_at_least_as_distant": 1172,
+      "empirical_reference_fraction": 0.16398488876451658,
+      "mean_counts_first_five": [
+        16.249895060865,
+        44.384776829439,
+        8.227647964181,
+        32.167622778788,
+        33.023786204002
+      ],
+      "covariance_first_five": [
+        [
+          15.890804285096,
+          -3.448952059527,
+          1.217523192831,
+          -7.491096317229,
+          -0.925200414266
+        ],
+        [
+          -3.448952059527,
+          22.040563072914,
+          -3.707952966904,
+          -9.407495471826,
+          -0.665884699273
+        ],
+        [
+          1.217523192831,
+          -3.707952966904,
+          8.117914464355,
+          -2.074968130575,
+          -3.641995543508
+        ],
+        [
+          -7.491096317229,
+          -9.407495471826,
+          -2.074968130575,
+          27.086648182341,
+          -2.98481610305
+        ],
+        [
+          -0.925200414266,
+          -0.665884699273,
+          -3.641995543508,
+          -2.98481610305,
+          13.888602903067
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.260720148614,
+        "0.9": 9.365433919338,
+        "0.95": 11.224962847837,
+        "0.99": 16.248503251269,
+        "1.0": 31.672436916154
+      },
+      "count_matrix_sha256": "b982983edfc961f21c55a9391499b79f7a0df153348b922931338336829c0953"
+    },
+    {
+      "target_id": "p155_A1",
+      "book_id": 71877,
+      "convention": "plain",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "unknown_digit_order": "65",
+      "reference_windows": 7147,
+      "window_stride": 85,
+      "most_favorable_completed_histograms": [
+        [
+          21,
+          34,
+          10,
+          38,
+          28,
+          39
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 7.788742472684,
+      "reference_windows_at_least_as_distant": 1179,
+      "empirical_reference_fraction": 0.16496432069399747,
+      "mean_counts_first_five": [
+        16.260528893242,
+        44.384776829439,
+        8.217014131804,
+        32.167622778788,
+        33.013152371624
+      ],
+      "covariance_first_five": [
+        [
+          15.961502267112,
+          -3.454863483965,
+          1.201779972933,
+          -7.506173189771,
+          -0.968302507132
+        ],
+        [
+          -3.454863483965,
+          22.040563072914,
+          -3.702041542466,
+          -9.407495471826,
+          -0.659973274834
+        ],
+        [
+          1.201779972933,
+          -3.702041542466,
+          8.078702922134,
+          -2.059891258033,
+          -3.653848212761
+        ],
+        [
+          -7.506173189771,
+          -9.407495471826,
+          -2.059891258033,
+          27.086648182341,
+          -2.969739230507
+        ],
+        [
+          -0.968302507132,
+          -0.659973274834,
+          -3.653848212761,
+          -2.969739230507,
+          13.904109106782
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.254223037972,
+        "0.9": 9.325724498629,
+        "0.95": 11.21907816581,
+        "0.99": 16.170408661929,
+        "1.0": 33.949268244778
+      },
+      "count_matrix_sha256": "148ba7518ec380388fc468a99ba9827aaf97f8d82099f7a8650219c8bddb2bbc"
+    },
+    {
+      "target_id": "p73",
+      "book_id": 71877,
+      "convention": "sentence_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "unknown_digit_order": "56",
+      "reference_windows": 7003,
+      "window_stride": 89,
+      "most_favorable_completed_histograms": [
+        [
+          16,
+          57,
+          26,
+          28,
+          17,
+          34
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 66.133197735781,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        16.585034985006,
+        45.300299871484,
+        8.397258317864,
+        32.830358417821,
+        38.199057546766
+      ],
+      "covariance_first_five": [
+        [
+          16.511584071184,
+          -3.890221161592,
+          1.178867848002,
+          -7.812621884863,
+          -0.759431415181
+        ],
+        [
+          -3.890221161592,
+          22.667733414777,
+          -3.790693265134,
+          -9.447764032088,
+          -1.302002002406
+        ],
+        [
+          1.178867848002,
+          -3.790693265134,
+          8.318884227321,
+          -2.07155914287,
+          -3.571519293788
+        ],
+        [
+          -7.812621884863,
+          -9.447764032088,
+          -2.07155914287,
+          27.95379403033,
+          -3.206158188295
+        ],
+        [
+          -0.759431415181,
+          -1.302002002406,
+          -3.571519293788,
+          -3.206158188295,
+          15.29113307338
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.251195930739,
+        "0.9": 9.406327782368,
+        "0.95": 11.354691606436,
+        "0.99": 15.835813796376,
+        "1.0": 35.309401352351
+      },
+      "count_matrix_sha256": "5306390ebd479218ff27cc0d90b7c3556169dab7a321238099b318db3430db14"
+    },
+    {
+      "target_id": "p73",
+      "book_id": 71877,
+      "convention": "sentence_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "unknown_digit_order": "65",
+      "reference_windows": 7003,
+      "window_stride": 89,
+      "most_favorable_completed_histograms": [
+        [
+          16,
+          57,
+          26,
+          28,
+          17,
+          34
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 66.33040853485,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        16.595887476796,
+        45.300299871484,
+        8.386405826075,
+        32.830358417821,
+        38.188205054976
+      ],
+      "covariance_first_five": [
+        [
+          16.570460091307,
+          -3.893194996244,
+          1.170598184489,
+          -7.822348711449,
+          -0.796398128309
+        ],
+        [
+          -3.893194996244,
+          22.667733414777,
+          -3.787719430482,
+          -9.447764032088,
+          -1.299028167754
+        ],
+        [
+          1.170598184489,
+          -3.787719430482,
+          8.276547534225,
+          -2.061832316284,
+          -3.58515893727
+        ],
+        [
+          -7.822348711449,
+          -9.447764032088,
+          -2.061832316284,
+          27.95379403033,
+          -3.196431361709
+        ],
+        [
+          -0.796398128309,
+          -1.299028167754,
+          -3.58515893727,
+          -3.196431361709,
+          15.306190479512
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.238391986228,
+        "0.9": 9.44241667769,
+        "0.95": 11.299190578716,
+        "0.99": 15.742678474075,
+        "1.0": 35.438334058061
+      },
+      "count_matrix_sha256": "3a220be5865e42699b4e75a3f2e908d09671adea4c5d1422d52382dc4b74d6b4"
+    },
+    {
+      "target_id": "p155_A1",
+      "book_id": 71877,
+      "convention": "sentence_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "unknown_digit_order": "56",
+      "reference_windows": 7332,
+      "window_stride": 85,
+      "most_favorable_completed_histograms": [
+        [
+          21,
+          33,
+          10,
+          38,
+          29,
+          39
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 10.290639145146,
+      "reference_windows_at_least_as_distant": 508,
+      "empirical_reference_fraction": 0.06928532460447354,
+      "mean_counts_first_five": [
+        15.839607201309,
+        43.264593562466,
+        8.019912711402,
+        31.355564648118,
+        36.481314784506
+      ],
+      "covariance_first_five": [
+        [
+          15.325518765344,
+          -3.666326281618,
+          1.176840451318,
+          -7.273067245098,
+          -0.866726751251
+        ],
+        [
+          -3.666326281618,
+          21.830949186853,
+          -3.616509433927,
+          -9.281652628202,
+          -1.068851545757
+        ],
+        [
+          1.176840451318,
+          -3.616509433927,
+          7.819546138881,
+          -1.720217219837,
+          -3.364653111245
+        ],
+        [
+          -7.273067245098,
+          -9.281652628202,
+          -1.720217219837,
+          26.667581907292,
+          -3.216994631457
+        ],
+        [
+          -0.866726751251,
+          -1.068851545757,
+          -3.364653111245,
+          -3.216994631457,
+          14.645538142883
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.292390067614,
+        "0.9": 9.208718962219,
+        "0.95": 11.073523235265,
+        "0.99": 15.978834602917,
+        "1.0": 40.941138293093
+      },
+      "count_matrix_sha256": "445a029bd4af6954cc97621ec59536b5b30b9f8275a4c518fa754a666e66046a"
+    },
+    {
+      "target_id": "p155_A1",
+      "book_id": 71877,
+      "convention": "sentence_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "unknown_digit_order": "65",
+      "reference_windows": 7332,
+      "window_stride": 85,
+      "most_favorable_completed_histograms": [
+        [
+          21,
+          33,
+          10,
+          38,
+          29,
+          39
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 10.247318110934,
+      "reference_windows_at_least_as_distant": 515,
+      "empirical_reference_fraction": 0.07024004364429896,
+      "mean_counts_first_five": [
+        15.849972722313,
+        43.264593562466,
+        8.009547190398,
+        31.355564648118,
+        36.470949263502
+      ],
+      "covariance_first_five": [
+        [
+          15.386027826292,
+          -3.669069305864,
+          1.176715578971,
+          -7.282482456291,
+          -0.913648316757
+        ],
+        [
+          -3.669069305864,
+          21.830949186853,
+          -3.613766409681,
+          -9.281652628202,
+          -1.066108521511
+        ],
+        [
+          1.176715578971,
+          -3.613766409681,
+          7.759286822626,
+          -1.710802008644,
+          -3.37811573434
+        ],
+        [
+          -7.282482456291,
+          -9.281652628202,
+          -1.710802008644,
+          26.667581907292,
+          -3.207579420263
+        ],
+        [
+          -0.913648316757,
+          -1.066108521511,
+          -3.37811573434,
+          -3.207579420263,
+          14.678872212949
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.293934835084,
+        "0.9": 9.185764767192,
+        "0.95": 11.055395610191,
+        "0.99": 15.839354130151,
+        "1.0": 41.166241265073
+      },
+      "count_matrix_sha256": "9260c7da0da2ef955038d9b2a06123dc613565c19d5554bc3f83b6bf4a2e3b3f"
+    },
+    {
+      "target_id": "p73",
+      "book_id": 71877,
+      "convention": "word_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "unknown_digit_order": "56",
+      "reference_windows": 7977,
+      "window_stride": 89,
+      "most_favorable_completed_histograms": [
+        [
+          16,
+          57,
+          26,
+          28,
+          17,
+          34
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 119.047137250522,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        14.559734235928,
+        39.768584680958,
+        7.371944339977,
+        28.821612134888,
+        55.270277046509
+      ],
+      "covariance_first_five": [
+        [
+          14.358047471988,
+          -2.780557999057,
+          0.82914600326,
+          -6.6207996718,
+          -1.230790748829
+        ],
+        [
+          -2.780557999057,
+          21.70095377646,
+          -3.396613684604,
+          -7.156006017928,
+          -4.848554234221
+        ],
+        [
+          0.82914600326,
+          -3.396613684604,
+          7.091705258687,
+          -1.761625276356,
+          -2.609316950475
+        ],
+        [
+          -6.6207996718,
+          -7.156006017928,
+          -1.761625276356,
+          24.81308350902,
+          -4.720586229039
+        ],
+        [
+          -1.230790748829,
+          -4.848554234221,
+          -2.609316950475,
+          -4.720586229039,
+          18.283761620828
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.273105562941,
+        "0.9": 9.323699905666,
+        "0.95": 11.265878282474,
+        "0.99": 16.003230937868,
+        "1.0": 31.55929498266
+      },
+      "count_matrix_sha256": "bfa5a5b91214896cf4e9d627d913d416a7234864b9be189d14c6dd6d47e4ec44"
+    },
+    {
+      "target_id": "p73",
+      "book_id": 71877,
+      "convention": "word_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "unknown_digit_order": "65",
+      "reference_windows": 7977,
+      "window_stride": 89,
+      "most_favorable_completed_histograms": [
+        [
+          16,
+          57,
+          26,
+          28,
+          17,
+          34
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 119.130744922726,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        14.569261627178,
+        39.768584680958,
+        7.362416948728,
+        28.821612134888,
+        55.260749655259
+      ],
+      "covariance_first_five": [
+        [
+          14.40922554551,
+          -2.799541504041,
+          0.827891754743,
+          -6.636151041189,
+          -1.244742249816
+        ],
+        [
+          -2.799541504041,
+          21.70095377646,
+          -3.37763017962,
+          -7.156006017928,
+          -4.829570729237
+        ],
+        [
+          0.827891754743,
+          -3.37763017962,
+          7.0430356822,
+          -1.746273906966,
+          -2.645289274493
+        ],
+        [
+          -6.636151041189,
+          -7.156006017928,
+          -1.746273906966,
+          24.81308350902,
+          -4.70523485965
+        ],
+        [
+          -1.244742249816,
+          -4.829570729237,
+          -2.645289274493,
+          -4.70523485965,
+          18.260486549281
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.271344204764,
+        "0.9": 9.348452901493,
+        "0.95": 11.266643536418,
+        "0.99": 15.960094758369,
+        "1.0": 29.347961582404
+      },
+      "count_matrix_sha256": "bf204054f7ee30132766794531b171320742c9b49aa6a6fe48c1aa1e482090ac"
+    },
+    {
+      "target_id": "p155_A1",
+      "book_id": 71877,
+      "convention": "word_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "unknown_digit_order": "56",
+      "reference_windows": 8352,
+      "window_stride": 85,
+      "most_favorable_completed_histograms": [
+        [
+          21,
+          33,
+          10,
+          38,
+          29,
+          39
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 41.855246719523,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        13.905411877395,
+        37.981441570881,
+        7.04058908046,
+        27.52658045977,
+        52.785799808429
+      ],
+      "covariance_first_five": [
+        [
+          13.51110949385,
+          -2.391170058556,
+          1.006354373556,
+          -6.479224217074,
+          -1.272927571709
+        ],
+        [
+          -2.391170058556,
+          20.76758752766,
+          -3.128931707883,
+          -7.139310265685,
+          -4.600431209399
+        ],
+        [
+          1.006354373556,
+          -3.128931707883,
+          6.736108286639,
+          -1.964616306534,
+          -2.382156165137
+        ],
+        [
+          -6.479224217074,
+          -7.139310265685,
+          -1.964616306534,
+          24.381044083095,
+          -4.407010843907
+        ],
+        [
+          -1.272927571709,
+          -4.600431209399,
+          -2.382156165137,
+          -4.407010843907,
+          17.161273602836
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.311145536164,
+        "0.9": 9.222122193212,
+        "0.95": 11.205694390675,
+        "0.99": 15.824495265057,
+        "1.0": 33.911653854867
+      },
+      "count_matrix_sha256": "db6aa8110f25d0749135d6111649abb0872f6f1fdcab243b94e734b8cafa75a8"
+    },
+    {
+      "target_id": "p155_A1",
+      "book_id": 71877,
+      "convention": "word_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "unknown_digit_order": "65",
+      "reference_windows": 8352,
+      "window_stride": 85,
+      "most_favorable_completed_histograms": [
+        [
+          21,
+          33,
+          10,
+          38,
+          29,
+          39
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 41.810796913908,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        13.914511494253,
+        37.981441570881,
+        7.031489463602,
+        27.52658045977,
+        52.776700191571
+      ],
+      "covariance_first_five": [
+        [
+          13.529752270015,
+          -2.399263647275,
+          1.01622362316,
+          -6.481621548524,
+          -1.283132087561
+        ],
+        [
+          -2.399263647275,
+          20.76758752766,
+          -3.120838119164,
+          -7.139310265685,
+          -4.592337620681
+        ],
+        [
+          1.01622362316,
+          -3.120838119164,
+          6.697727011265,
+          -1.962218975083,
+          -2.400463675055
+        ],
+        [
+          -6.481621548524,
+          -7.139310265685,
+          -1.962218975083,
+          24.381044083095,
+          -4.404613512457
+        ],
+        [
+          -1.283132087561,
+          -4.592337620681,
+          -2.400463675055,
+          -4.404613512457,
+          17.163039858374
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.309205435983,
+        "0.9": 9.211422725808,
+        "0.95": 11.198651484597,
+        "0.99": 15.790754566489,
+        "1.0": 29.554981230118
+      },
+      "count_matrix_sha256": "05c2143589b4a38bccb5e4c11cefd63716d2506bbfa9f2e63cc8429d0c8267ea"
+    },
+    {
+      "target_id": "p73",
+      "book_id": 52118,
+      "convention": "plain",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "unknown_digit_order": "56",
+      "reference_windows": 1348,
+      "window_stride": 89,
+      "most_favorable_completed_histograms": [
+        [
+          16,
+          57,
+          26,
+          28,
+          17,
+          34
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 60.022847507455,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        16.683976261128,
+        46.528189910979,
+        8.35237388724,
+        32.853115727003,
+        35.722551928783
+      ],
+      "covariance_first_five": [
+        [
+          14.289067473824,
+          -3.455821156587,
+          1.780335022988,
+          -7.848977505788,
+          -1.449289441973
+        ],
+        [
+          -3.455821156587,
+          21.584208450915,
+          -2.944981594443,
+          -7.359627615164,
+          -2.756835169483
+        ],
+        [
+          1.780335022988,
+          -2.944981594443,
+          7.830454642584,
+          -2.794528560005,
+          -3.163483419578
+        ],
+        [
+          -7.848977505788,
+          -7.359627615164,
+          -2.794528560005,
+          28.812855912358,
+          -4.157338320788
+        ],
+        [
+          -1.449289441973,
+          -2.756835169483,
+          -3.163483419578,
+          -4.157338320788,
+          16.173893408586
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.297642473258,
+        "0.9": 9.264037274894,
+        "0.95": 11.034923463266,
+        "0.99": 14.509422036435,
+        "1.0": 19.63966508337
+      },
+      "count_matrix_sha256": "2a259d6fd5cffe5d3cdcf7d14db942c5e92e0101bd1e27be63aa5d89b8215c39"
+    },
+    {
+      "target_id": "p73",
+      "book_id": 52118,
+      "convention": "plain",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "unknown_digit_order": "65",
+      "reference_windows": 1348,
+      "window_stride": 89,
+      "most_favorable_completed_histograms": [
+        [
+          16,
+          57,
+          26,
+          28,
+          17,
+          34
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 60.051995325105,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        16.692136498516,
+        46.528189910979,
+        8.344213649852,
+        32.853115727003,
+        35.714391691395
+      ],
+      "covariance_first_five": [
+        [
+          14.312722083804,
+          -3.455680168481,
+          1.768261814913,
+          -7.841096490938,
+          -1.460673680825
+        ],
+        [
+          -3.455680168481,
+          21.584208450915,
+          -2.94512258255,
+          -7.359627615164,
+          -2.756976157589
+        ],
+        [
+          1.768261814913,
+          -2.94512258255,
+          7.830946448752,
+          -2.802409574855,
+          -3.163680582633
+        ],
+        [
+          -7.841096490938,
+          -7.359627615164,
+          -2.802409574855,
+          28.812855912358,
+          -4.165219335638
+        ],
+        [
+          -1.460673680825,
+          -2.756976157589,
+          -3.163680582633,
+          -4.165219335638,
+          16.173007276308
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.29138532597,
+        "0.9": 9.259466077233,
+        "0.95": 11.05393037841,
+        "0.99": 14.520235304537,
+        "1.0": 19.663133300708
+      },
+      "count_matrix_sha256": "827922b9c1643c85bdb2d24cb5dadf5df20d684c2f7cac4d3cf07ca6e7d92438"
+    },
+    {
+      "target_id": "p155_A1",
+      "book_id": 52118,
+      "convention": "plain",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "unknown_digit_order": "56",
+      "reference_windows": 1412,
+      "window_stride": 85,
+      "most_favorable_completed_histograms": [
+        [
+          21,
+          34,
+          10,
+          38,
+          28,
+          39
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 10.032363331082,
+      "reference_windows_at_least_as_distant": 108,
+      "empirical_reference_fraction": 0.0764872521246459,
+      "mean_counts_first_five": [
+        15.935552407932,
+        44.436968838527,
+        7.978045325779,
+        31.373229461756,
+        34.116855524079
+      ],
+      "covariance_first_five": [
+        [
+          12.861187292078,
+          -2.633760337133,
+          1.377039067786,
+          -6.822137575464,
+          -1.319182244726
+        ],
+        [
+          -2.633760337133,
+          21.083905192508,
+          -3.016622229628,
+          -8.24187284047,
+          -2.795251494229
+        ],
+        [
+          1.377039067786,
+          -3.016622229628,
+          7.386477253791,
+          -2.539638473909,
+          -2.687014513645
+        ],
+        [
+          -6.822137575464,
+          -8.24187284047,
+          -2.539638473909,
+          28.012975247097,
+          -3.76653640056
+        ],
+        [
+          -1.319182244726,
+          -2.795251494229,
+          -2.687014513645,
+          -3.76653640056,
+          14.98350023992
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.298683276773,
+        "0.9": 9.261860739311,
+        "0.95": 11.350483597665,
+        "0.99": 15.29632661699,
+        "1.0": 19.633689988678
+      },
+      "count_matrix_sha256": "0055053f1cbab6d45d879ef7875902a67068c4c569d431c7bdd3ce9a613c7186"
+    },
+    {
+      "target_id": "p155_A1",
+      "book_id": 52118,
+      "convention": "plain",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "unknown_digit_order": "65",
+      "reference_windows": 1412,
+      "window_stride": 85,
+      "most_favorable_completed_histograms": [
+        [
+          21,
+          34,
+          10,
+          38,
+          28,
+          39
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 9.999368448752,
+      "reference_windows_at_least_as_distant": 109,
+      "empirical_reference_fraction": 0.07719546742209632,
+      "mean_counts_first_five": [
+        15.943342776204,
+        44.436968838527,
+        7.970254957507,
+        31.373229461756,
+        34.109065155807
+      ],
+      "covariance_first_five": [
+        [
+          12.895441121259,
+          -2.627244856781,
+          1.351963427782,
+          -6.816542624422,
+          -1.351009771464
+        ],
+        [
+          -2.627244856781,
+          21.083905192508,
+          -3.02313770998,
+          -8.24187284047,
+          -2.801766974581
+        ],
+        [
+          1.351963427782,
+          -3.02313770998,
+          7.402374704617,
+          -2.545233424951,
+          -2.664365176085
+        ],
+        [
+          -6.816542624422,
+          -8.24187284047,
+          -2.545233424951,
+          28.012975247097,
+          -3.772131351602
+        ],
+        [
+          -1.351009771464,
+          -2.801766974581,
+          -2.664365176085,
+          -3.772131351602,
+          15.012901464214
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.295531203026,
+        "0.9": 9.317204111382,
+        "0.95": 11.337225226067,
+        "0.99": 15.24836891754,
+        "1.0": 19.563146079374
+      },
+      "count_matrix_sha256": "d505c7097e628bcbddce55b06f20735a1dc281ca330afe97c302238d36e946c8"
+    },
+    {
+      "target_id": "p73",
+      "book_id": 52118,
+      "convention": "sentence_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "unknown_digit_order": "56",
+      "reference_windows": 1388,
+      "window_stride": 89,
+      "most_favorable_completed_histograms": [
+        [
+          16,
+          57,
+          26,
+          28,
+          17,
+          34
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 69.778994164732,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        16.201008645533,
+        45.180115273775,
+        8.10878962536,
+        31.901296829971,
+        39.844380403458
+      ],
+      "covariance_first_five": [
+        [
+          13.044642096537,
+          -2.335437751538,
+          1.397006268583,
+          -7.267816737968,
+          -1.347932323407
+        ],
+        [
+          -2.335437751538,
+          20.783685062405,
+          -2.543761648407,
+          -7.823593516577,
+          -3.719607138331
+        ],
+        [
+          1.397006268583,
+          -2.543761648407,
+          7.354414395509,
+          -2.555224096125,
+          -2.671594405856
+        ],
+        [
+          -7.267816737968,
+          -7.823593516577,
+          -2.555224096125,
+          28.959969477798,
+          -5.197058316313
+        ],
+        [
+          -1.347932323407,
+          -3.719607138331,
+          -2.671594405856,
+          -5.197058316313,
+          18.53092009167
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.230052363302,
+        "0.9": 9.490468470791,
+        "0.95": 11.063114274702,
+        "0.99": 15.271327191484,
+        "1.0": 22.220610264923
+      },
+      "count_matrix_sha256": "a17ad3c8ed043617792b9e237b601102200048873bbfc7437c4e323b5b7145eb"
+    },
+    {
+      "target_id": "p73",
+      "book_id": 52118,
+      "convention": "sentence_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "unknown_digit_order": "65",
+      "reference_windows": 1388,
+      "window_stride": 89,
+      "most_favorable_completed_histograms": [
+        [
+          16,
+          57,
+          26,
+          28,
+          17,
+          34
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 69.496606267961,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        16.208933717579,
+        45.180115273775,
+        8.100864553314,
+        31.901296829971,
+        39.836455331412
+      ],
+      "covariance_first_five": [
+        [
+          13.046437795171,
+          -2.35200679841,
+          1.383380879264,
+          -7.281453554933,
+          -1.302503277656
+        ],
+        [
+          -2.35200679841,
+          20.783685062405,
+          -2.527192601535,
+          -7.823593516577,
+          -3.703038091459
+        ],
+        [
+          1.383380879264,
+          -2.527192601535,
+          7.379869475513,
+          -2.541587279161,
+          -2.705193760921
+        ],
+        [
+          -7.281453554933,
+          -7.823593516577,
+          -2.541587279161,
+          28.959969477798,
+          -5.183421499349
+        ],
+        [
+          -1.302503277656,
+          -3.703038091459,
+          -2.705193760921,
+          -5.183421499349,
+          18.438266301536
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.227626809257,
+        "0.9": 9.432215342291,
+        "0.95": 11.05692411133,
+        "0.99": 15.274502231235,
+        "1.0": 22.246088885549
+      },
+      "count_matrix_sha256": "dbe15672606be44c0ff5c4d8e22a755503329ab201fe6538d8baa0b8db087472"
+    },
+    {
+      "target_id": "p155_A1",
+      "book_id": 52118,
+      "convention": "sentence_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "unknown_digit_order": "56",
+      "reference_windows": 1454,
+      "window_stride": 85,
+      "most_favorable_completed_histograms": [
+        [
+          21,
+          33,
+          10,
+          38,
+          29,
+          39
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 12.627594384292,
+      "reference_windows_at_least_as_distant": 37,
+      "empirical_reference_fraction": 0.02544704264099037,
+      "mean_counts_first_five": [
+        15.474552957359,
+        43.149931224209,
+        7.747592847318,
+        30.464236588721,
+        38.0522696011
+      ],
+      "covariance_first_five": [
+        [
+          12.896461431123,
+          -2.67477807619,
+          1.649801056676,
+          -6.791000169454,
+          -1.911263609607
+        ],
+        [
+          -2.67477807619,
+          21.76002408336,
+          -2.715055224167,
+          -8.534895785507,
+          -3.794490552677
+        ],
+        [
+          1.649801056676,
+          -2.715055224167,
+          6.899082295228,
+          -2.526238934576,
+          -2.267596047072
+        ],
+        [
+          -6.791000169454,
+          -8.534895785507,
+          -2.526238934576,
+          28.740289265391,
+          -4.358762546967
+        ],
+        [
+          -1.911263609607,
+          -3.794490552677,
+          -2.267596047072,
+          -4.358762546967,
+          17.29114075039
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.271250578621,
+        "0.9": 9.224907763988,
+        "0.95": 11.172612939751,
+        "0.99": 15.368493089,
+        "1.0": 21.299685011899
+      },
+      "count_matrix_sha256": "5a0905084d2fa2f693c5b302f542a5283ef5447e9095a146e3b989c4006bbdf5"
+    },
+    {
+      "target_id": "p155_A1",
+      "book_id": 52118,
+      "convention": "sentence_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "unknown_digit_order": "65",
+      "reference_windows": 1454,
+      "window_stride": 85,
+      "most_favorable_completed_histograms": [
+        [
+          21,
+          33,
+          10,
+          38,
+          29,
+          39
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 12.650849336039,
+      "reference_windows_at_least_as_distant": 37,
+      "empirical_reference_fraction": 0.02544704264099037,
+      "mean_counts_first_five": [
+        15.48211829436,
+        43.149931224209,
+        7.740027510316,
+        30.464236588721,
+        38.044704264099
+      ],
+      "covariance_first_five": [
+        [
+          12.911930540711,
+          -2.697248305692,
+          1.644350113743,
+          -6.804838161523,
+          -1.866715546547
+        ],
+        [
+          -2.697248305692,
+          21.76002408336,
+          -2.692584994665,
+          -8.534895785507,
+          -3.772020323175
+        ],
+        [
+          1.644350113743,
+          -2.692584994665,
+          6.894515071507,
+          -2.512400942508,
+          -2.322162276786
+        ],
+        [
+          -6.804838161523,
+          -8.534895785507,
+          -2.512400942508,
+          28.740289265391,
+          -4.344924554898
+        ],
+        [
+          -1.866715546547,
+          -3.772020323175,
+          -2.322162276786,
+          -4.344924554898,
+          17.186575514682
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.28049384424,
+        "0.9": 9.222943474753,
+        "0.95": 11.156600259527,
+        "0.99": 15.024512667529,
+        "1.0": 21.295396660904
+      },
+      "count_matrix_sha256": "63015b85329e5d45ba8fdd1a5661b7c8ded3d842ca9fdf013a0025c1e8fc1a4e"
+    },
+    {
+      "target_id": "p73",
+      "book_id": 52118,
+      "convention": "word_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "unknown_digit_order": "56",
+      "reference_windows": 1596,
+      "window_stride": 89,
+      "most_favorable_completed_histograms": [
+        [
+          16,
+          57,
+          26,
+          28,
+          17,
+          34
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 113.587408990735,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        14.095864661654,
+        39.305764411028,
+        7.05701754386,
+        27.751879699248,
+        57.805137844612
+      ],
+      "covariance_first_five": [
+        [
+          11.8359452707,
+          -1.650020034412,
+          1.207069790464,
+          -5.739835482122,
+          -2.480367454687
+        ],
+        [
+          -1.650020034412,
+          20.458173647284,
+          -2.213683110598,
+          -6.519697362529,
+          -6.893985748069
+        ],
+        [
+          1.207069790464,
+          -2.213683110598,
+          6.488909970852,
+          -1.893053951493,
+          -3.118036077655
+        ],
+        [
+          -5.739835482122,
+          -6.519697362529,
+          -1.893053951493,
+          24.922723737243,
+          -5.12925731256
+        ],
+        [
+          -2.480367454687,
+          -6.893985748069,
+          -3.118036077655,
+          -5.12925731256,
+          22.125641297601
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.34268966575,
+        "0.9": 9.120793924593,
+        "0.95": 11.54557811847,
+        "0.99": 15.243774275413,
+        "1.0": 22.175006122502
+      },
+      "count_matrix_sha256": "8f96ab20a22e8b03df01813c0f613622e902f3c6257fb7adf8433ea32d4b7370"
+    },
+    {
+      "target_id": "p73",
+      "book_id": 52118,
+      "convention": "word_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "unknown_digit_order": "65",
+      "reference_windows": 1596,
+      "window_stride": 89,
+      "most_favorable_completed_histograms": [
+        [
+          16,
+          57,
+          26,
+          28,
+          17,
+          34
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 113.440348481762,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        14.102756892231,
+        39.305764411028,
+        7.050125313283,
+        27.751879699248,
+        57.798245614035
+      ],
+      "covariance_first_five": [
+        [
+          11.867804307006,
+          -1.661533143203,
+          1.187322538321,
+          -5.74188606312,
+          -2.472045317054
+        ],
+        [
+          -1.661533143203,
+          20.458173647284,
+          -2.202170001807,
+          -6.519697362529,
+          -6.882472639278
+        ],
+        [
+          1.187322538321,
+          -2.202170001807,
+          6.496545438832,
+          -1.891003370495,
+          -3.13846999945
+        ],
+        [
+          -5.74188606312,
+          -6.519697362529,
+          -1.891003370495,
+          24.922723737243,
+          -5.127206731562
+        ],
+        [
+          -2.472045317054,
+          -6.882472639278,
+          -3.13846999945,
+          -5.127206731562,
+          22.077137986031
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.349130170944,
+        "0.9": 9.12503428367,
+        "0.95": 11.526985612613,
+        "0.99": 15.312409539737,
+        "1.0": 22.178773995613
+      },
+      "count_matrix_sha256": "2a05a07ca37e949d55db2874410fc61d0f290ddbf921905a6c717dfe18bb064f"
+    },
+    {
+      "target_id": "p155_A1",
+      "book_id": 52118,
+      "convention": "word_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "unknown_digit_order": "56",
+      "reference_windows": 1671,
+      "window_stride": 85,
+      "most_favorable_completed_histograms": [
+        [
+          21,
+          33,
+          10,
+          38,
+          29,
+          39
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 43.93152354644,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        13.461998803112,
+        37.539198084979,
+        6.740275284261,
+        26.506283662478,
+        55.205864751646
+      ],
+      "covariance_first_five": [
+        [
+          11.227147858681,
+          -1.616323905152,
+          1.354794898533,
+          -5.837036519421,
+          -2.341274004952
+        ],
+        [
+          -1.616323905152,
+          20.514480554152,
+          -1.986220377916,
+          -6.073749449037,
+          -7.080529425888
+        ],
+        [
+          1.354794898533,
+          -1.986220377916,
+          6.042682319383,
+          -1.867229275739,
+          -3.029134549572
+        ],
+        [
+          -5.837036519421,
+          -6.073749449037,
+          -1.867229275739,
+          24.094421569787,
+          -4.719258431073
+        ],
+        [
+          -2.341274004952,
+          -7.080529425888,
+          -3.029134549572,
+          -4.719258431073,
+          21.45100750026
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.321845658107,
+        "0.9": 9.464411584295,
+        "0.95": 11.199173199035,
+        "0.99": 15.444362194094,
+        "1.0": 19.633934479612
+      },
+      "count_matrix_sha256": "94519c6778e36f44ff899049140397571d6f1d9198fba13acf6a66d1235e5fe8"
+    },
+    {
+      "target_id": "p155_A1",
+      "book_id": 52118,
+      "convention": "word_x",
+      "square_completion_for_reference_encoding_only": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+      "unknown_digit_order": "65",
+      "reference_windows": 1671,
+      "window_stride": 85,
+      "most_favorable_completed_histograms": [
+        [
+          21,
+          33,
+          10,
+          38,
+          29,
+          39
+        ]
+      ],
+      "most_favorable_erasure_additions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "squared_mahalanobis_distance": 43.855936713025,
+      "reference_windows_at_least_as_distant": 0,
+      "empirical_reference_fraction": 0.0,
+      "mean_counts_first_five": [
+        13.468581687612,
+        37.539198084979,
+        6.733692399761,
+        26.506283662478,
+        55.199281867145
+      ],
+      "covariance_first_five": [
+        [
+          11.237185951257,
+          -1.619276706909,
+          1.352406497597,
+          -5.836179705222,
+          -2.350920779626
+        ],
+        [
+          -1.619276706909,
+          20.514480554152,
+          -1.983267576158,
+          -6.073749449037,
+          -7.077576624131
+        ],
+        [
+          1.352406497597,
+          -1.983267576158,
+          6.037421028679,
+          -1.868086089939,
+          -3.027137466539
+        ],
+        [
+          -5.836179705222,
+          -6.073749449037,
+          -1.868086089939,
+          24.094421569787,
+          -4.720115245272
+        ],
+        [
+          -2.350920779626,
+          -7.077576624131,
+          -3.027137466539,
+          -4.720115245272,
+          21.46026295703
+        ]
+      ],
+      "reference_distance_quantiles": {
+        "0.5": 4.322966832638,
+        "0.9": 9.460648322738,
+        "0.95": 11.180106719672,
+        "0.99": 15.4532817001,
+        "1.0": 19.603663769527
+      },
+      "count_matrix_sha256": "ef0ad9f6808c2297f3921075b0334cb96d5f33b7f9c0718a02c05fd41d1f39fc"
+    }
+  ],
+  "interpretation": "Nov7-9 is a low-priority p73 square under the tested ordinary-German prose assumptions. This does not identify a different key, prove the October 26 origin, recover plaintext, or exclude atypical names, digits, code groups, another language, or other source damage.",
+  "control_limit": "The word-X convention also puts the readable p155 A1 control beyond every reference window; it is therefore a visibly unsuitable convention for that body and must not be used as independent exclusion evidence."
+}

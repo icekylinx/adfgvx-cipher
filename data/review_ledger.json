@@ -231,7 +231,7 @@
         ],
         "qualifications": [
           "The source's G--VVD group is normalized as G?VVD under the explicitly stated five-slot group-layout assumption.",
-          "Beyond the repair list, the published ciphertext changes source 108 V\u2192F and 311 V\u2192X. Both are retained explicitly here.",
+          "Beyond the repair list, the published ciphertext changes source 108 V→F and 311 V→X. Both are retained explicitly here.",
           "The raw plaintext has KURSETARK. Baertl's later KURSESTARK is an editorial addition, not the exact raw decryption."
         ]
       }
@@ -287,7 +287,7 @@
         ],
         "qualifications": [
           "The primary header is RICHI-240 and 220 coordinates were received. This independently supports a 20-coordinate shortage, but does not determine the missing symbols.",
-          "The three unit digits use unassigned Nov 10\u201312 square cells. They cannot be fixed from this ciphertext and the attested key alone.",
+          "The three unit digits use unassigned Nov 10–12 square cells. They cannot be fixed from this ciphertext and the attested key alone.",
           "The 217/219/6 wording is supported by an independently checked French report dated 19 November describing 11 November forces. That is contextual evidence, distinct from a cryptographic assignment of the missing digits."
         ]
       }
@@ -396,7 +396,7 @@
         "qualifications": [
           "The partial square and 19-column TRUPPENVERSCHIEBUNG key are sufficient for every letter used in this 85-letter message.",
           "The claimed 1919 manuscript and December 9 key attribution were reported by the 2026 author. This audit verifies arithmetic and attested cells, not the unexamined manuscript provenance.",
-          "Christian Horvat suggested the AVXFF\u2192AVXVF correction in a 2026-09-21 comment on the September 19 follow-up article. It changes only S4STEN to 24 STEN."
+          "Christian Horvat suggested the AVXFF→AVXVF correction in a 2026-09-21 comment on the September 19 follow-up article. It changes only S4STEN to 24 STEN."
         ]
       }
     },
@@ -1477,14 +1477,14 @@
       "scope": [
         "p176b"
       ],
-      "claim_reviewed": "The original 6th Reserve Division\u2019s August 1918 dissolution makes a November 6.R.D. reference in the Balkans historically impossible.",
+      "claim_reviewed": "The original 6th Reserve Division’s August 1918 dissolution makes a November 6.R.D. reference in the Balkans historically impossible.",
       "attribution": {
         "author": "icekylinx and GPT-6 Astra Pro source review",
         "date": "2026-11-02"
       },
       "review_status": "apparent_conflict_substantially_reconciled_by_staff_reuse",
       "supersedes_interpretation_in": "p176b_unit_identification_conflict",
-      "result": "The original infantry formation was dissolved, but that does not exclude continued employment of its headquarters. Ruhmeshalle unserer alten Armee, 5th edition, volume 1, p385 explicitly places 6.R.-D. in the Macedonia/Serbia retreat and lists its November return through Hungary. Cron\u2019s organizational history separately says the dissolved division\u2019s staff was to be used in Macedonia. The French 6e D.I. r\u00e9serve wording is therefore contextually plausible; no unknown cipher cell or missing digit is assigned.",
+      "result": "The original infantry formation was dissolved, but that does not exclude continued employment of its headquarters. Ruhmeshalle unserer alten Armee, 5th edition, volume 1, p385 explicitly places 6.R.-D. in the Macedonia/Serbia retreat and lists its November return through Hungary. Cron’s organizational history separately says the dissolved division’s staff was to be used in Macedonia. The French 6e D.I. réserve wording is therefore contextually plausible; no unknown cipher cell or missing digit is assigned.",
       "verification_evidence": {
         "artifact": "reviews/p176b_unit_context.json",
         "primary_chronology_url": "https://denstorekrig1914-1918.dk/wp-content/uploads/2021/05/Ruhmeshalle_unsere_alten_Armee_5_Aufl_Bd-1_s_342-497s.pdf",
@@ -1494,7 +1494,7 @@
         "limitations": [
           "The source is an interwar compilation, not an original November 1918 order or exact plaintext parallel.",
           "The exact publication year of the undated retrieved 5th-edition title pages is not assumed.",
-          "Cron\u2019s online English text has problematic dates in the next sentences; only its explicit staff-reuse statement is used.",
+          "Cron’s online English text has problematic dates in the next sentences; only its explicit staff-reuse statement is used.",
           "Historical contextual support remains distinct from recovery of the three unknown substitution cells."
         ]
       }
@@ -1978,7 +1978,7 @@
         "date": "2026-11-02"
       },
       "review_status": "verified_with_explicit_model_and_source_limits",
-      "result": "Printed pages 140\u2013170 retrieve p153 FKR/CGH and 2250; two approximate false hits are excluded visually. Known date/length OCR mistakes prevent a global absence claim.",
+      "result": "Printed pages 140–170 retrieve p153 FKR/CGH and 2250; two approximate false hits are excluded visually. Known date/length OCR mistakes prevent a global absence claim.",
       "verification_evidence": {
         "artifacts": [
           "experiments/p153_headers/review.json"
@@ -2006,6 +2006,211 @@
         "artifacts": [
           "experiments/source_similarity/results.json",
           "experiments/source_similarity/source_inspections.json"
+        ]
+      }
+    },
+    {
+      "id": "p73_primary_followup",
+      "scope": [
+        "p73"
+      ],
+      "claim_reviewed": "Additional accessible Kress primary material supplies no matching p73 witness within the declared scopes.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "bounded_primary_source_negative",
+      "result": "The memoir late narrative, Lepsius documents 439–444 and institutional name retrieval were inspected. The apparent October 26 / November 8 date match is in a 1917 editorial passage; no date layer, key or plaintext is changed.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p73_primary_followup/review.json"
+        ]
+      }
+    },
+    {
+      "id": "open_target_completed_campaign",
+      "scope": [
+        "p73",
+        "p170",
+        "p198"
+      ],
+      "claim_reviewed": "Completed anchored, gap, scattered-loss, literal-transfer, coordinate-relabeling and structural searches retain their controls and exact scope.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "completed_bounded_searches_no_accepted_plaintext",
+      "result": "Seventy anchored cases, 54 gap cases plus 9 stronger repeats, 24 scattered-loss fits, 54 literal-transfer fits, 72 independent relabeling cases and 235,666,548 structural classes are documented as distinct computational units. No historical target body is accepted; failed controls are retained.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/open_targets/README.md",
+          "experiments/open_targets/MANIFEST.json",
+          "experiments/open_targets/light_verification.json"
+        ]
+      }
+    },
+    {
+      "id": "p73_coordinate_histogram",
+      "scope": [
+        "p73",
+        "p155_A1"
+      ],
+      "claim_reviewed": "The Nov7–9 square implies a transposition-invariant rare-letter/digit constraint for p73.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "exact_count_bound_with_bounded_empirical_diagnostic",
+      "result": "The 26 received F coordinates require at least 13 positions from CJMOQZ or digits, or 26 CJMOQZ positions if digit-free. Two held-out books make the target an empirical outlier under joined and sentence-X conventions while the historical control lies inside their reference range. The failed word-X convention is disclosed. No p-value or key exclusion is claimed. The complementary V budget gives n_D+n_E+n_H+n_K+n_Q+n_T+n_U+2n_X <= 17, hence at most eight X characters; with five Xs, at most seven DEHKQTU characters combined.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/open_targets/p73_histogram_result.json",
+          "experiments/open_targets/heldout_sources.json"
+        ]
+      }
+    },
+    {
+      "id": "p198_exact_sparse_geometry",
+      "scope": [
+        "p198"
+      ],
+      "claim_reviewed": "Exact fixed-complete-key dynamic programming covers every five-scattered-loss mask.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "exact_conditional_optimization_with_objective_failure",
+      "result": "Four completed cases cover C(170, 5) = 1,115,034,284 masks each via 15,504 column allocations. The optimum is for the quantized mean-domain quad table. One true-key control prefers a wrong geometry; historical fixed-completion optima remain unreadable.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p198_exact_sparse/inputs.json",
+          "experiments/p198_exact_sparse/results.json"
+        ]
+      }
+    },
+    {
+      "id": "p198_exact_joint_completion",
+      "scope": [
+        "p198"
+      ],
+      "claim_reviewed": "The joint optimizer chooses missing positions and six-valued fills consistently across all overlapping windows.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "independently_verified_exact_fixed_key_optimization",
+      "result": "Each fixed-key case covers 8,670,506,592,384 loss-and-fill witnesses, including aliases, with at most 16,807 states per layer. Both four-gram true-key controls have wrong optima. Four full runs, 10,188 exhaustive small witnesses, canonical ties and every retained source coordinate were checked independently.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p198_joint_exact/results.json",
+          "data/reviews/p198_joint_exact_independent.json"
+        ]
+      }
+    },
+    {
+      "id": "p198_partial_square_letter_bounds",
+      "scope": [
+        "p198"
+      ],
+      "claim_reviewed": "An exact count objective bounds all 40,320 completions of the Nov13–15b partial square under its fixed transposition and every five-loss/fill witness.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "exact_model_free_necessary_constraint",
+      "result": "The attainable extrema are 44–82 ordinary letters among 85 positions, requiring at least 3 digits. All 28 letter/digit membership classes, 60 full witnesses and 20,376 short exhaustive witnesses are retained. Actual digit content is unknown, so the bound does not reject the key.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p198_letter_bounds/results.json",
+          "data/reviews/p198_letter_bounds_independent.json"
+        ]
+      }
+    },
+    {
+      "id": "independent_control_rescoring",
+      "scope": [
+        "p198"
+      ],
+      "claim_reviewed": "Post-hoc held-out books test whether the original language corpus alone explains wrong true-key control optima.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "independent_corpus_sensitivity_not_acceptance_probability",
+      "result": "The wrong Nov13b incumbent outranks truth under both held-out books and every tested quad/six/mixed separator convention. Both mixed held-out models reject the CHI13 wrong incumbent. Relevant n-gram counts, model rules and original books are pinned; no model was optimized against the held-out texts.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/open_targets/HELDOUT_CONTROLS.md",
+          "experiments/open_targets/heldout_control_scores.json"
+        ]
+      }
+    },
+    {
+      "id": "all_target_source_retrieval_p189_C",
+      "scope": [
+        "all22",
+        "p132",
+        "p189_C"
+      ],
+      "claim_reviewed": "All 22 challenge queries were compared with 788 OCR blocks, leading to a newly checked contextual key-use instruction.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "retrieval_extended_and_supplementary_source_verified",
+      "result": "17,336 comparisons reproduce established parallels and retrieve p189 C as the strongest unreviewed local hit. The source has 124 coordinates; OCR omitted final XFXX. Unchanged Nov13–15b fixes 61/62 raw positions. A readable instruction costs exactly source 23 V→F and 62 A→D; DEZEMBER and IRRTUM remain direct despite the November 15 header. No p132 parallel or first-decipherment priority is claimed.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/source_similarity_extension/results.json",
+          "experiments/source_similarity_extension/source_inspection.json",
+          "cases/context/p189_C.md",
+          "data/reviews/p189_C_independent.json"
+        ]
+      }
+    },
+    {
+      "id": "p198_exact_six_calibration",
+      "scope": [
+        "p198"
+      ],
+      "claim_reviewed": "Exact six-gram and mixed joint decoding recover one planted true-key control and retain a counterexample for the other.",
+      "attribution": {
+        "authors": [
+          "icekylinx",
+          "GPT-6 Astra Pro"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "positive_exact_control_with_explicit_objective_counterexample",
+      "result": "Two full CHI13 searches cover all 8,670,506,592,384 loss-and-fill witnesses and recover the planted 85-letter text, five loss positions and their values. Both objectives still score a feasible wrong Nov13b text above truth. The four- and six-gram tables share a corpus; separate held-out-book diagnostics preserve the second failure. Canonical optima are reported without a uniqueness claim.",
+      "verification_evidence": {
+        "artifacts": [
+          "experiments/p198_joint_six/results.json",
+          "experiments/open_targets/heldout_control_scores.json"
         ]
       }
     }

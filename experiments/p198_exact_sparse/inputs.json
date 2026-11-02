@@ -1,0 +1,208 @@
+{
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "cases": [
+    {
+      "id": "control_CHI-Nov13",
+      "kind": "control",
+      "column_rank_order": [
+        3,
+        13,
+        2,
+        12,
+        1,
+        11,
+        15,
+        8,
+        9,
+        4,
+        5,
+        14,
+        6,
+        10,
+        7,
+        16
+      ],
+      "fixed_complete_square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+      "partial_historical_square": "AROT?WH??C??SVU?I?DXBP?????NZELFK?G?",
+      "observed_ciphertext": "AGFGFGAGVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDXGGXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXVXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVXXXFDAVVXAV",
+      "missing_count": 5,
+      "source_record_name": "control__CHI-Nov13.json",
+      "source_record_sha256": "26efaac7683c92cd4e5dace4285ba32c3c08d48089966df9861603bf25685496",
+      "source_record_recipe": {
+        "restarts": 100,
+        "iterations": 20000,
+        "seed": 678497674836779454,
+        "engine_sha256": "54827d1ee2912600c6981f30dcfe1f461a36c6ca701fc4de45888bb469beb623",
+        "source_sha256": "e285ff43863a5d22dce0040855b18fd2dd2980f25a13cbf5b7102fb93ecf2f67",
+        "shared_scorer_sha256": "51a0093a4aab2fd46a739930048f2674ecdb78041ce1d882ddeea90d4e7dbcf1",
+        "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+        "score": "Mean-domain quadgram composite; known half-coordinates retained"
+      },
+      "fixed_square_status": "Synthetic truth used as a fixed-key control; the decoder does not see the planted plaintext or loss locations.",
+      "evaluation_only": {
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+        "square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "full_ciphertext": "AGFGFGAVGVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDXGAGXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXVXXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXFGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVGXXXFDAVVXAV",
+        "missing_full_ciphertext_positions_0based": [
+          7,
+          44,
+          81,
+          126,
+          158
+        ]
+      }
+    },
+    {
+      "id": "control_Nov13-15b",
+      "kind": "control",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "fixed_complete_square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+      "partial_historical_square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "observed_ciphertext": "FFFFAFAXFGFVFGGAFXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVFFGAAGVDFXDDDVVXAFFAFAGXXXVXXVXAF",
+      "missing_count": 5,
+      "source_record_name": "control__Nov13-15b.json",
+      "source_record_sha256": "9c0c9f8665836831113760169063f0f2e466e9c4c4e1e3846a5adb07438dad22",
+      "source_record_recipe": {
+        "restarts": 100,
+        "iterations": 20000,
+        "seed": 1046048371797891429,
+        "engine_sha256": "54827d1ee2912600c6981f30dcfe1f461a36c6ca701fc4de45888bb469beb623",
+        "source_sha256": "e285ff43863a5d22dce0040855b18fd2dd2980f25a13cbf5b7102fb93ecf2f67",
+        "shared_scorer_sha256": "51a0093a4aab2fd46a739930048f2674ecdb78041ce1d882ddeea90d4e7dbcf1",
+        "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+        "score": "Mean-domain quadgram composite; known half-coordinates retained"
+      },
+      "fixed_square_status": "Synthetic truth used as a fixed-key control; the decoder does not see the planted plaintext or loss locations.",
+      "evaluation_only": {
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+        "square": "H2QBMUF15PX0DJLR78Y3S6VONKZ4AWITEGC9",
+        "full_ciphertext": "FFFFAFAXFGFVFGGAFAFFAAXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVFFGAAGVDFXDDDVVXAFFAFAGXXXVXXVXAF",
+        "missing_full_ciphertext_positions_0based": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    },
+    {
+      "id": "p198_CHI-Nov13",
+      "kind": "historical",
+      "column_rank_order": [
+        3,
+        13,
+        2,
+        12,
+        1,
+        11,
+        15,
+        8,
+        9,
+        4,
+        5,
+        14,
+        6,
+        10,
+        7,
+        16
+      ],
+      "fixed_complete_square": "AROT8WHQJC2YSVU7I6DXBPM3451NZELFK0G9",
+      "partial_historical_square": "AROT?WH??C??SVU?I?DXBP?????NZELFK?G?",
+      "observed_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+      "missing_count": 5,
+      "source_record_name": "p198__CHI-Nov13.json",
+      "source_record_sha256": "dfdfea3396ef9ef9b641c666b67801625f2c9ac334f16dba03698fd2b0094d8e",
+      "source_record_recipe": {
+        "restarts": 100,
+        "iterations": 50000,
+        "seed": 240966955246229511,
+        "engine_sha256": "54827d1ee2912600c6981f30dcfe1f461a36c6ca701fc4de45888bb469beb623",
+        "source_sha256": "e285ff43863a5d22dce0040855b18fd2dd2980f25a13cbf5b7102fb93ecf2f67",
+        "shared_scorer_sha256": "51a0093a4aab2fd46a739930048f2674ecdb78041ce1d882ddeea90d4e7dbcf1",
+        "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+        "score": "Mean-domain quadgram composite; known half-coordinates retained"
+      },
+      "fixed_square_status": "One heuristic completion of the recorded partial square, frozen for conditional alignment optimization; not an established historical square.",
+      "earlier_heuristic_result": {
+        "score": -7.803623839,
+        "missing_full_ciphertext_positions_0based": [
+          16,
+          18,
+          88,
+          96,
+          169
+        ],
+        "plaintext": "N9YTEU?NT16726SSJKZ01WEPLC06?EMUSEEZHKISS?K1SOEVOMMYY4SXC?RBC5D1ENGEUEJEG329FF3?GJ3UT"
+      }
+    },
+    {
+      "id": "p198_Nov13-15b",
+      "kind": "historical",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "fixed_complete_square": "H8YBMUF15PX0DJLR74Q9S6VONKZ3AWITEGC2",
+      "partial_historical_square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "observed_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+      "missing_count": 5,
+      "source_record_name": "p198__Nov13-15b.json",
+      "source_record_sha256": "cd48337b397d4aafa5b153f0078615667897309038b733f460e1e3c2450b1e49",
+      "source_record_recipe": {
+        "restarts": 100,
+        "iterations": 50000,
+        "seed": 736088320030450216,
+        "engine_sha256": "54827d1ee2912600c6981f30dcfe1f461a36c6ca701fc4de45888bb469beb623",
+        "source_sha256": "e285ff43863a5d22dce0040855b18fd2dd2980f25a13cbf5b7102fb93ecf2f67",
+        "shared_scorer_sha256": "51a0093a4aab2fd46a739930048f2674ecdb78041ce1d882ddeea90d4e7dbcf1",
+        "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+        "score": "Mean-domain quadgram composite; known half-coordinates retained"
+      },
+      "fixed_square_status": "One heuristic completion of the recorded partial square, frozen for conditional alignment optimization; not an established historical square.",
+      "earlier_heuristic_result": {
+        "score": -8.35094605,
+        "missing_full_ciphertext_positions_0based": [
+          27,
+          46,
+          86,
+          128,
+          149
+        ],
+        "plaintext": "2VRTTIBO27AL?N?VAL?VD4GORUPUSALTW?ZV2VDAYW54S4HRMELBAN?CTYPF7D5RVNX09S3T7K7JG02C0WCG7"
+      }
+    }
+  ]
+}

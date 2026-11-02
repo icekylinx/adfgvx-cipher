@@ -1,0 +1,849 @@
+{
+  "schema": "adfgvx-p189-C-independent-review-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "verified": true,
+  "review_scope": "Independent image and coordinate review of p189 C, with a bounded documentation audit; no historical priority claim or new key search.",
+  "input_hashes": {
+    "sources/excerpts/childs_p189_C.png": "8e1eaa525103402ce5b5033c61536724ebf432f0585b6ee62bd066c8c6f0bcc7",
+    "experiments/source_similarity_extension/check_source.py": "a4dbc6fdb2fbd56e3e6b5050461efb9c2bbd15b0700849902ffcfd92df5313bc",
+    "experiments/source_similarity_extension/source_inspection.json": "c3e171d86ced77955e00ac08b0b8e04ddb5cc40e14dbb6d4e360f3555d56ca79",
+    "cases/context/p189_C.md": "5c5814c41b2cc5caabae74fc5dad0cbb45b8ac45a842f558a8f430e168aeb690",
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "docs/methods.md": "0ae69cf33c4d6d8fbe28a41bdd730eae840964145dc13e18e26174dbb90a8db3"
+  },
+  "source": {
+    "printed_page": 189,
+    "pdf_page_1based": 192,
+    "section": "C",
+    "header": "NKJ v LP (9.14 a.m., November 15th); 1000 (15); RIZI-124",
+    "printed_heading": "15th NOVEMBER, 1918.",
+    "literal_rows": [
+      "XXVFV FFDVG VGFFV AGVAA XDAVF XXGXX VXAAF GDFGV",
+      "XXFVV AFAFA FFAGV DVAXV DFAXF GXDFF DFFFA AVXGG",
+      "VFFAA XVAVA XFAGF AVXDV AFXAG FAGFA AFAFG XGAXX",
+      "XFXX"
+    ],
+    "literal_ciphertext": "XXVFVFFDVGVGFFVAGVAAXDAVFXXGXXVXAAFGDFGVXXFVVAFAFAFFAGVDVAXVDFAXFGXDFFDFFFAAVXGGVFFAAXVAVAXFAGFAVXDVAFXAGFAGFAAFAFGXGAXXXFXX",
+    "literal_sha256": "9e32ffeb911a9f7f0f7f5d9d60fb813e6016872bdfc78135705f0795a56b3f6a",
+    "coordinates": 124,
+    "visual_review": "All 124 glyphs, the final XFXX row, route, length, origin field, and November 15, 1918 heading independently inspected in the committed crop.",
+    "complete_pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "complete_pdf_bytes": 156848258,
+    "complete_pdf_hash_check_passed": true
+  },
+  "independent_arithmetic": {
+    "method": "A separately written physical-column index map consumes readout segments in ascending transmission rank, maps each observed pair to the unchanged square, and reconstructs all original source positions. No call to adfgvx.cipher is used in these review computations.",
+    "key_id": "Nov13-15b",
+    "ranks": [
+      4,
+      11,
+      5,
+      14,
+      9,
+      7,
+      16,
+      1,
+      12,
+      15,
+      6,
+      10,
+      3,
+      13,
+      8,
+      2
+    ],
+    "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+    "raw_plaintext": "UNLOESBA?EHUNKSPRUECHENACHDEZEMBERSCHLUESSELENTZIFFERNXXIRRTUM",
+    "plaintext_positions": 62,
+    "fixed_raw_positions": 61,
+    "known_source_coordinates_preserved": 124,
+    "source_index_map_bijective": true,
+    "per_position": [
+      {
+        "plaintext_index_0based": 0,
+        "source_indices_0based": [
+          22,
+          77
+        ],
+        "observed_pair": "AX",
+        "square_cell_0based": 5,
+        "raw_plaintext": "U",
+        "domain": "U"
+      },
+      {
+        "plaintext_index_0based": 1,
+        "source_indices_0based": [
+          30,
+          100
+        ],
+        "observed_pair": "VA",
+        "square_cell_0based": 24,
+        "raw_plaintext": "N",
+        "domain": "N"
+      },
+      {
+        "plaintext_index_0based": 2,
+        "source_indices_0based": [
+          61,
+          46
+        ],
+        "observed_pair": "FF",
+        "square_cell_0based": 14,
+        "raw_plaintext": "L",
+        "domain": "L"
+      },
+      {
+        "plaintext_index_0based": 3,
+        "source_indices_0based": [
+          116,
+          0
+        ],
+        "observed_pair": "GX",
+        "square_cell_0based": 23,
+        "raw_plaintext": "O",
+        "domain": "O"
+      },
+      {
+        "plaintext_index_0based": 4,
+        "source_indices_0based": [
+          85,
+          108
+        ],
+        "observed_pair": "XF",
+        "square_cell_0based": 32,
+        "raw_plaintext": "E",
+        "domain": "E"
+      },
+      {
+        "plaintext_index_0based": 5,
+        "source_indices_0based": [
+          38,
+          69
+        ],
+        "observed_pair": "GF",
+        "square_cell_0based": 20,
+        "raw_plaintext": "S",
+        "domain": "S"
+      },
+      {
+        "plaintext_index_0based": 6,
+        "source_indices_0based": [
+          15,
+          93
+        ],
+        "observed_pair": "AG",
+        "square_cell_0based": 3,
+        "raw_plaintext": "B",
+        "domain": "B"
+      },
+      {
+        "plaintext_index_0based": 7,
+        "source_indices_0based": [
+          54,
+          8
+        ],
+        "observed_pair": "VV",
+        "square_cell_0based": 28,
+        "raw_plaintext": "A",
+        "domain": "A"
+      },
+      {
+        "plaintext_index_0based": 8,
+        "source_indices_0based": [
+          23,
+          78
+        ],
+        "observed_pair": "VG",
+        "square_cell_0based": 27,
+        "raw_plaintext": "?",
+        "domain": "234789QY"
+      },
+      {
+        "plaintext_index_0based": 9,
+        "source_indices_0based": [
+          31,
+          101
+        ],
+        "observed_pair": "XF",
+        "square_cell_0based": 32,
+        "raw_plaintext": "E",
+        "domain": "E"
+      },
+      {
+        "plaintext_index_0based": 10,
+        "source_indices_0based": [
+          62,
+          47
+        ],
+        "observed_pair": "AA",
+        "square_cell_0based": 0,
+        "raw_plaintext": "H",
+        "domain": "H"
+      },
+      {
+        "plaintext_index_0based": 11,
+        "source_indices_0based": [
+          117,
+          1
+        ],
+        "observed_pair": "AX",
+        "square_cell_0based": 5,
+        "raw_plaintext": "U",
+        "domain": "U"
+      },
+      {
+        "plaintext_index_0based": 12,
+        "source_indices_0based": [
+          86,
+          109
+        ],
+        "observed_pair": "VA",
+        "square_cell_0based": 24,
+        "raw_plaintext": "N",
+        "domain": "N"
+      },
+      {
+        "plaintext_index_0based": 13,
+        "source_indices_0based": [
+          39,
+          70
+        ],
+        "observed_pair": "VD",
+        "square_cell_0based": 25,
+        "raw_plaintext": "K",
+        "domain": "K"
+      },
+      {
+        "plaintext_index_0based": 14,
+        "source_indices_0based": [
+          16,
+          94
+        ],
+        "observed_pair": "GF",
+        "square_cell_0based": 20,
+        "raw_plaintext": "S",
+        "domain": "S"
+      },
+      {
+        "plaintext_index_0based": 15,
+        "source_indices_0based": [
+          55,
+          9
+        ],
+        "observed_pair": "DG",
+        "square_cell_0based": 9,
+        "raw_plaintext": "P",
+        "domain": "P"
+      },
+      {
+        "plaintext_index_0based": 16,
+        "source_indices_0based": [
+          24,
+          79
+        ],
+        "observed_pair": "FG",
+        "square_cell_0based": 15,
+        "raw_plaintext": "R",
+        "domain": "R"
+      },
+      {
+        "plaintext_index_0based": 17,
+        "source_indices_0based": [
+          32,
+          102
+        ],
+        "observed_pair": "AX",
+        "square_cell_0based": 5,
+        "raw_plaintext": "U",
+        "domain": "U"
+      },
+      {
+        "plaintext_index_0based": 18,
+        "source_indices_0based": [
+          63,
+          48
+        ],
+        "observed_pair": "XF",
+        "square_cell_0based": 32,
+        "raw_plaintext": "E",
+        "domain": "E"
+      },
+      {
+        "plaintext_index_0based": 19,
+        "source_indices_0based": [
+          118,
+          2
+        ],
+        "observed_pair": "XV",
+        "square_cell_0based": 34,
+        "raw_plaintext": "C",
+        "domain": "C"
+      },
+      {
+        "plaintext_index_0based": 20,
+        "source_indices_0based": [
+          87,
+          110
+        ],
+        "observed_pair": "AA",
+        "square_cell_0based": 0,
+        "raw_plaintext": "H",
+        "domain": "H"
+      },
+      {
+        "plaintext_index_0based": 21,
+        "source_indices_0based": [
+          40,
+          71
+        ],
+        "observed_pair": "XF",
+        "square_cell_0based": 32,
+        "raw_plaintext": "E",
+        "domain": "E"
+      },
+      {
+        "plaintext_index_0based": 22,
+        "source_indices_0based": [
+          17,
+          95
+        ],
+        "observed_pair": "VA",
+        "square_cell_0based": 24,
+        "raw_plaintext": "N",
+        "domain": "N"
+      },
+      {
+        "plaintext_index_0based": 23,
+        "source_indices_0based": [
+          56,
+          10
+        ],
+        "observed_pair": "VV",
+        "square_cell_0based": 28,
+        "raw_plaintext": "A",
+        "domain": "A"
+      },
+      {
+        "plaintext_index_0based": 24,
+        "source_indices_0based": [
+          25,
+          80
+        ],
+        "observed_pair": "XV",
+        "square_cell_0based": 34,
+        "raw_plaintext": "C",
+        "domain": "C"
+      },
+      {
+        "plaintext_index_0based": 25,
+        "source_indices_0based": [
+          33,
+          103
+        ],
+        "observed_pair": "AA",
+        "square_cell_0based": 0,
+        "raw_plaintext": "H",
+        "domain": "H"
+      },
+      {
+        "plaintext_index_0based": 26,
+        "source_indices_0based": [
+          64,
+          49
+        ],
+        "observed_pair": "FA",
+        "square_cell_0based": 12,
+        "raw_plaintext": "D",
+        "domain": "D"
+      },
+      {
+        "plaintext_index_0based": 27,
+        "source_indices_0based": [
+          119,
+          3
+        ],
+        "observed_pair": "XF",
+        "square_cell_0based": 32,
+        "raw_plaintext": "E",
+        "domain": "E"
+      },
+      {
+        "plaintext_index_0based": 28,
+        "source_indices_0based": [
+          88,
+          111
+        ],
+        "observed_pair": "VF",
+        "square_cell_0based": 26,
+        "raw_plaintext": "Z",
+        "domain": "Z"
+      },
+      {
+        "plaintext_index_0based": 29,
+        "source_indices_0based": [
+          41,
+          72
+        ],
+        "observed_pair": "XF",
+        "square_cell_0based": 32,
+        "raw_plaintext": "E",
+        "domain": "E"
+      },
+      {
+        "plaintext_index_0based": 30,
+        "source_indices_0based": [
+          18,
+          96
+        ],
+        "observed_pair": "AV",
+        "square_cell_0based": 4,
+        "raw_plaintext": "M",
+        "domain": "M"
+      },
+      {
+        "plaintext_index_0based": 31,
+        "source_indices_0based": [
+          57,
+          11
+        ],
+        "observed_pair": "AG",
+        "square_cell_0based": 3,
+        "raw_plaintext": "B",
+        "domain": "B"
+      },
+      {
+        "plaintext_index_0based": 32,
+        "source_indices_0based": [
+          26,
+          81
+        ],
+        "observed_pair": "XF",
+        "square_cell_0based": 32,
+        "raw_plaintext": "E",
+        "domain": "E"
+      },
+      {
+        "plaintext_index_0based": 33,
+        "source_indices_0based": [
+          34,
+          104
+        ],
+        "observed_pair": "FG",
+        "square_cell_0based": 15,
+        "raw_plaintext": "R",
+        "domain": "R"
+      },
+      {
+        "plaintext_index_0based": 34,
+        "source_indices_0based": [
+          65,
+          50
+        ],
+        "observed_pair": "GF",
+        "square_cell_0based": 20,
+        "raw_plaintext": "S",
+        "domain": "S"
+      },
+      {
+        "plaintext_index_0based": 35,
+        "source_indices_0based": [
+          120,
+          4
+        ],
+        "observed_pair": "XV",
+        "square_cell_0based": 34,
+        "raw_plaintext": "C",
+        "domain": "C"
+      },
+      {
+        "plaintext_index_0based": 36,
+        "source_indices_0based": [
+          89,
+          112
+        ],
+        "observed_pair": "AA",
+        "square_cell_0based": 0,
+        "raw_plaintext": "H",
+        "domain": "H"
+      },
+      {
+        "plaintext_index_0based": 37,
+        "source_indices_0based": [
+          42,
+          73
+        ],
+        "observed_pair": "FF",
+        "square_cell_0based": 14,
+        "raw_plaintext": "L",
+        "domain": "L"
+      },
+      {
+        "plaintext_index_0based": 38,
+        "source_indices_0based": [
+          19,
+          97
+        ],
+        "observed_pair": "AX",
+        "square_cell_0based": 5,
+        "raw_plaintext": "U",
+        "domain": "U"
+      },
+      {
+        "plaintext_index_0based": 39,
+        "source_indices_0based": [
+          58,
+          12
+        ],
+        "observed_pair": "XF",
+        "square_cell_0based": 32,
+        "raw_plaintext": "E",
+        "domain": "E"
+      },
+      {
+        "plaintext_index_0based": 40,
+        "source_indices_0based": [
+          27,
+          82
+        ],
+        "observed_pair": "GF",
+        "square_cell_0based": 20,
+        "raw_plaintext": "S",
+        "domain": "S"
+      },
+      {
+        "plaintext_index_0based": 41,
+        "source_indices_0based": [
+          35,
+          105
+        ],
+        "observed_pair": "GF",
+        "square_cell_0based": 20,
+        "raw_plaintext": "S",
+        "domain": "S"
+      },
+      {
+        "plaintext_index_0based": 42,
+        "source_indices_0based": [
+          66,
+          51
+        ],
+        "observed_pair": "XF",
+        "square_cell_0based": 32,
+        "raw_plaintext": "E",
+        "domain": "E"
+      },
+      {
+        "plaintext_index_0based": 43,
+        "source_indices_0based": [
+          121,
+          5
+        ],
+        "observed_pair": "FF",
+        "square_cell_0based": 14,
+        "raw_plaintext": "L",
+        "domain": "L"
+      },
+      {
+        "plaintext_index_0based": 44,
+        "source_indices_0based": [
+          90,
+          113
+        ],
+        "observed_pair": "XF",
+        "square_cell_0based": 32,
+        "raw_plaintext": "E",
+        "domain": "E"
+      },
+      {
+        "plaintext_index_0based": 45,
+        "source_indices_0based": [
+          43,
+          74
+        ],
+        "observed_pair": "VA",
+        "square_cell_0based": 24,
+        "raw_plaintext": "N",
+        "domain": "N"
+      },
+      {
+        "plaintext_index_0based": 46,
+        "source_indices_0based": [
+          20,
+          98
+        ],
+        "observed_pair": "XD",
+        "square_cell_0based": 31,
+        "raw_plaintext": "T",
+        "domain": "T"
+      },
+      {
+        "plaintext_index_0based": 47,
+        "source_indices_0based": [
+          59,
+          13
+        ],
+        "observed_pair": "VF",
+        "square_cell_0based": 26,
+        "raw_plaintext": "Z",
+        "domain": "Z"
+      },
+      {
+        "plaintext_index_0based": 48,
+        "source_indices_0based": [
+          28,
+          83
+        ],
+        "observed_pair": "XA",
+        "square_cell_0based": 30,
+        "raw_plaintext": "I",
+        "domain": "I"
+      },
+      {
+        "plaintext_index_0based": 49,
+        "source_indices_0based": [
+          36,
+          106
+        ],
+        "observed_pair": "DA",
+        "square_cell_0based": 6,
+        "raw_plaintext": "F",
+        "domain": "F"
+      },
+      {
+        "plaintext_index_0based": 50,
+        "source_indices_0based": [
+          67,
+          52
+        ],
+        "observed_pair": "DA",
+        "square_cell_0based": 6,
+        "raw_plaintext": "F",
+        "domain": "F"
+      },
+      {
+        "plaintext_index_0based": 51,
+        "source_indices_0based": [
+          122,
+          6
+        ],
+        "observed_pair": "XF",
+        "square_cell_0based": 32,
+        "raw_plaintext": "E",
+        "domain": "E"
+      },
+      {
+        "plaintext_index_0based": 52,
+        "source_indices_0based": [
+          91,
+          114
+        ],
+        "observed_pair": "FG",
+        "square_cell_0based": 15,
+        "raw_plaintext": "R",
+        "domain": "R"
+      },
+      {
+        "plaintext_index_0based": 53,
+        "source_indices_0based": [
+          44,
+          75
+        ],
+        "observed_pair": "VA",
+        "square_cell_0based": 24,
+        "raw_plaintext": "N",
+        "domain": "N"
+      },
+      {
+        "plaintext_index_0based": 54,
+        "source_indices_0based": [
+          21,
+          99
+        ],
+        "observed_pair": "DV",
+        "square_cell_0based": 10,
+        "raw_plaintext": "X",
+        "domain": "X"
+      },
+      {
+        "plaintext_index_0based": 55,
+        "source_indices_0based": [
+          60,
+          14
+        ],
+        "observed_pair": "DV",
+        "square_cell_0based": 10,
+        "raw_plaintext": "X",
+        "domain": "X"
+      },
+      {
+        "plaintext_index_0based": 56,
+        "source_indices_0based": [
+          29,
+          84
+        ],
+        "observed_pair": "XA",
+        "square_cell_0based": 30,
+        "raw_plaintext": "I",
+        "domain": "I"
+      },
+      {
+        "plaintext_index_0based": 57,
+        "source_indices_0based": [
+          37,
+          107
+        ],
+        "observed_pair": "FG",
+        "square_cell_0based": 15,
+        "raw_plaintext": "R",
+        "domain": "R"
+      },
+      {
+        "plaintext_index_0based": 58,
+        "source_indices_0based": [
+          68,
+          53
+        ],
+        "observed_pair": "FG",
+        "square_cell_0based": 15,
+        "raw_plaintext": "R",
+        "domain": "R"
+      },
+      {
+        "plaintext_index_0based": 59,
+        "source_indices_0based": [
+          123,
+          7
+        ],
+        "observed_pair": "XD",
+        "square_cell_0based": 31,
+        "raw_plaintext": "T",
+        "domain": "T"
+      },
+      {
+        "plaintext_index_0based": 60,
+        "source_indices_0based": [
+          92,
+          115
+        ],
+        "observed_pair": "AX",
+        "square_cell_0based": 5,
+        "raw_plaintext": "U",
+        "domain": "U"
+      },
+      {
+        "plaintext_index_0based": 61,
+        "source_indices_0based": [
+          45,
+          76
+        ],
+        "observed_pair": "AV",
+        "square_cell_0based": 4,
+        "raw_plaintext": "M",
+        "domain": "M"
+      }
+    ]
+  },
+  "editorial": {
+    "plaintext": "UNLOESBAREFUNKSPRUECHENACHDEZEMBERSCHLUESSELENTZIFFERNXXIRRTUM",
+    "reencrypted_ciphertext": "XXVFVFFDVGVGFFVAGVAAXDAFFXXGXXVXAAFGDFGVXXFVVAFAFAFFAGVDVAXVDFDXFGXDFFDFFFAAVXGGVFFAAXVAVAXFAGFAVXDVAFXAGFAGFAAFAFGXGAXXXFXX",
+    "source_substitutions": [
+      {
+        "source_index_0based": 23,
+        "observed": "V",
+        "proposed": "F"
+      },
+      {
+        "source_index_0based": 62,
+        "observed": "A",
+        "proposed": "D"
+      }
+    ],
+    "source_coordinates_unchanged": 122,
+    "erasure_fills": 0,
+    "unknown_square_cells_assigned": 0,
+    "unknown_cell": {
+      "plaintext_index_0based": 8,
+      "observed_pair": "VG",
+      "domain": "234789QY",
+      "proposed_letter": "R",
+      "letter_already_fixed_at": "FG",
+      "injective_square_completion_can_fill_R_here": false
+    },
+    "interpretation": "Plausible normalized text after the two explicit substitutions; the raw DEZEMBER and IRRTUM are retained without interpreting the latter as a cancellation or repairing the source date."
+  },
+  "context_limit": "The short p132 retrieval resemblance does not establish a common plaintext, repeated transmission, or additional p132 letters.",
+  "methods_review": {
+    "status": "No remaining material arithmetic or notation error found in the inspected methods document.",
+    "checks": [
+      "Rank convention [3,1,4,2] reads physical columns [1,3,0,2].",
+      "The p109 minimum-cost full-message domain has exactly 2^42 plaintexts under its named repaired witness model.",
+      "The 47-character p109 agreement interval has 33 source-unique positions and 14 model-selected positions.",
+      "C(170,5) = 1115034284; C(20,5) = 15504 column loss allocations.",
+      "The joint loss-and-fill witness count is 8670506592384, not a count of distinct plaintexts.",
+      "Recorded maximum active states are 243 for the marginal domain runs and 16807 for the joint concrete-letter runs."
+    ],
+    "clarifications_requested": [
+      "The marginal-domain optimum is for the float32-rounded table summed exactly at scale 2^24.",
+      "Preservation after p146 structural repair refers to coordinates retained by the explicitly named deletion/insertion hypothesis."
+    ]
+  },
+  "reproduction_reference": "python experiments/source_similarity_extension/check_source.py --verify; optionally add --pdf /path/to/complete-childs.pdf to check the primary scan identity.",
+  "priority": "No first decipherment priority claimed.",
+  "prior_string_check": {
+    "scope": "The locally cached 2017 ScienceBlogs article/discussion and current repository references; a bounded absence check, not a search of all prior literature.",
+    "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+    "cached_html_sha256": "ef75a098cede408418ecada375e26ea9895e89200174d613cd36f4b080ac65af",
+    "parsed_comments_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+    "comment_count": 55,
+    "comment_number_span": [
+      "1",
+      "56"
+    ],
+    "normalization": "Expand German umlauts and sharp s, uppercase, remove all non-alphanumeric characters; inspect each parsed comment independently and also HTML-stripped whole-page text.",
+    "searched_normalized_strings": [
+      "UNLOESBAREFUNKSPRUECHE",
+      "UNLOESBARE",
+      "UNLOESBA",
+      "FUNKSPRUECHENACHDEZEMBER",
+      "DEZEMBERSCHLUESSEL",
+      "DEZEMBERSCHLUSSEL",
+      "DECEMBERKEY",
+      "XXVFVFFDVG",
+      "RIZI124"
+    ],
+    "matching_comments": {
+      "UNLOESBAREFUNKSPRUECHE": [],
+      "UNLOESBARE": [],
+      "UNLOESBA": [],
+      "FUNKSPRUECHENACHDEZEMBER": [],
+      "DEZEMBERSCHLUESSEL": [],
+      "DEZEMBERSCHLUSSEL": [],
+      "DECEMBERKEY": [],
+      "XXVFVFFDVG": [],
+      "RIZI124": []
+    },
+    "whole_page_matches": {
+      "UNLOESBAREFUNKSPRUECHE": false,
+      "UNLOESBARE": false,
+      "UNLOESBA": false,
+      "FUNKSPRUECHENACHDEZEMBER": false,
+      "DEZEMBERSCHLUESSEL": false,
+      "DEZEMBERSCHLUSSEL": false,
+      "DECEMBERKEY": false,
+      "XXVFVFFDVG": false,
+      "RIZI124": false
+    },
+    "broad_normalized_comment_checks": {
+      "DEZEMBER": [],
+      "DECEMBER": [],
+      "IRRTUM": [],
+      "UNLOESBAR": [],
+      "ENTZIFFERN": [],
+      "P189": [],
+      "PAGE189": []
+    },
+    "repository_result": "No earlier exact reading string found in available prior-reading references. Matches in the current working tree are the newly created p189 C source review, its case links, and the unrelated dictionary word UNLOESBARST.",
+    "priority_limit": "No first-decipherment priority is inferred from this bounded negative search; the period key retains its published attribution."
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "schema": "adfgvx-exact-joint-six-calibration-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "input_sha256": "25a745508359aa6d85876f60747ae2dfdcbf20586d54539ae0d572d97bc16e8a",
+  "quad_results_sha256": "a9ba07498feb7ccfafd62f9ff65bbe4ba64fcbdfc4fd0af79f7ca474e25487bd",
+  "engine_source_sha256": "c1526da2a6ade2064b8a5636c6e6fa5a09baff91a05310d72ec884efcba73cee",
+  "model_hashes": {
+    "quad": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+    "six": "79e1474e78afa0d208ffe4306b31ed3531786c2fc6a0c7efb4d2f3a7fd5e4b5a"
+  },
+  "integer_log_scale": 16777216,
+  "controls": {
+    "cases": [
+      {
+        "case": {
+          "id": "small_width_4",
+          "column_rank_order": [
+            3,
+            1,
+            4,
+            2
+          ],
+          "fixed_complete_square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+          "observed_ciphertext": "AGXAAGAAVFA",
+          "missing_count": 1
+        },
+        "nominal_coordinates": 12,
+        "loss_and_fill_witnesses_enumerated": 72,
+        "objective_checks": [
+          {
+            "objective": "six",
+            "best_integer_score": -66390796,
+            "loss_positions": [
+              1
+            ],
+            "fill": "D",
+            "exact_match": true
+          },
+          {
+            "objective": "mixed_30_70",
+            "best_integer_score": -1867835928,
+            "loss_positions": [
+              1
+            ],
+            "fill": "D",
+            "exact_match": true
+          }
+        ]
+      },
+      {
+        "case": {
+          "id": "small_width_6",
+          "column_rank_order": [
+            4,
+            1,
+            6,
+            2,
+            5,
+            3
+          ],
+          "fixed_complete_square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+          "observed_ciphertext": "AFXGDAGFGAVA",
+          "missing_count": 2
+        },
+        "nominal_coordinates": 14,
+        "loss_and_fill_witnesses_enumerated": 3276,
+        "objective_checks": [
+          {
+            "objective": "six",
+            "best_integer_score": -166312804,
+            "loss_positions": [
+              0,
+              10
+            ],
+            "fill": "AA",
+            "exact_match": true
+          },
+          {
+            "objective": "mixed_30_70",
+            "best_integer_score": -6016556344,
+            "loss_positions": [
+              0,
+              10
+            ],
+            "fill": "AA",
+            "exact_match": true
+          }
+        ]
+      },
+      {
+        "case": {
+          "id": "small_width_16",
+          "column_rank_order": [
+            3,
+            13,
+            2,
+            12,
+            1,
+            11,
+            15,
+            8,
+            9,
+            4,
+            5,
+            14,
+            6,
+            10,
+            7,
+            16
+          ],
+          "fixed_complete_square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+          "observed_ciphertext": "AXGVGAGXAAFDXAAXFX",
+          "missing_count": 2
+        },
+        "nominal_coordinates": 20,
+        "loss_and_fill_witnesses_enumerated": 6840,
+        "objective_checks": [
+          {
+            "objective": "six",
+            "best_integer_score": -607991132,
+            "loss_positions": [
+              1,
+              17
+            ],
+            "fill": "VA",
+            "exact_match": true
+          },
+          {
+            "objective": "mixed_30_70",
+            "best_integer_score": -38653855688,
+            "loss_positions": [
+              1,
+              17
+            ],
+            "fill": "VA",
+            "exact_match": true
+          }
+        ]
+      }
+    ],
+    "total_distinct_witnesses_enumerated": 10188,
+    "objectives_compared_per_witness": 2,
+    "constant_score_ties_passed_for_both_objectives": true
+  },
+  "pilot100": {
+    "nominal_coordinates": 170,
+    "observed_coordinates": 165,
+    "missing_coordinates": 5,
+    "width": 16,
+    "integer_log_scale": 16777216,
+    "quad_windows": 82,
+    "six_windows": 80,
+    "coefficient4": 0,
+    "coefficient6": 1,
+    "best_integer_score": -12652066544,
+    "allocation_count_total": 15504,
+    "allocation_start": 0,
+    "allocations_completed": 100,
+    "all_allocations_completed": false,
+    "maximum_active_states": 4802,
+    "state_visits": 2519698,
+    "transitions_considered": 4360834,
+    "missing_full_ciphertext_positions": [
+      119,
+      120,
+      141,
+      144,
+      165
+    ],
+    "filled_missing_coordinates": "AXVAX",
+    "losses_per_physical_column": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "quad_winner_sensitivity": [
+    {
+      "case_id": "control_CHI-Nov13",
+      "quad_optimum_plaintext": "DERSTABGELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEREITEREBEFEHLESEKERMITTELN",
+      "planted": {
+        "quad_integer_sum": -5811271292,
+        "six_integer_sum": -8322106872,
+        "quad_mean": -4.224131232354699,
+        "six_mean": -6.200452798604966,
+        "mixed_30_70_mean": -5.607556328729886
+      },
+      "quad_optimum": {
+        "quad_integer_sum": -5723766880,
+        "six_integer_sum": -8620363736,
+        "quad_mean": -4.160525508043243,
+        "six_mean": -6.42267147898674,
+        "mixed_30_70_mean": -5.744027687703691
+      },
+      "quad_optimum_minus_planted": {
+        "quad_integer_sum": 87504412,
+        "six_integer_sum": -298256864,
+        "quad_mean": 0.06360572431145606,
+        "six_mean": -0.22221868038177472,
+        "mixed_30_70_mean": -0.13647135897380558
+      },
+      "source_feasibility_independently_verified": true
+    },
+    {
+      "case_id": "control_Nov13-15b",
+      "quad_optimum_plaintext": "DERSTARMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBETTEWEITEREBEFEHLEUEBERMITTELN",
+      "planted": {
+        "quad_integer_sum": -5811271292,
+        "six_integer_sum": -8322106872,
+        "quad_mean": -4.224131232354699,
+        "six_mean": -6.200452798604966,
+        "mixed_30_70_mean": -5.607556328729886
+      },
+      "quad_optimum": {
+        "quad_integer_sum": -5651119168,
+        "six_integer_sum": -8178018424,
+        "quad_mean": -4.107718909659037,
+        "six_mean": -6.093098539113998,
+        "mixed_30_70_mean": -5.49748465027751
+      },
+      "quad_optimum_minus_planted": {
+        "quad_integer_sum": 160152124,
+        "six_integer_sum": 144088448,
+        "quad_mean": 0.11641232269566171,
+        "six_mean": 0.10735425949096733,
+        "mixed_30_70_mean": 0.11007167845237564
+      },
+      "source_feasibility_independently_verified": true
+    }
+  ],
+  "records": [
+    {
+      "case_id": "control_CHI-Nov13",
+      "objective": "six",
+      "exact_search": {
+        "nominal_coordinates": 170,
+        "observed_coordinates": 165,
+        "missing_coordinates": 5,
+        "width": 16,
+        "integer_log_scale": 16777216,
+        "quad_windows": 82,
+        "six_windows": 80,
+        "coefficient4": 0,
+        "coefficient6": 1,
+        "best_integer_score": -8322106872,
+        "allocation_count_total": 15504,
+        "allocation_start": 0,
+        "allocations_completed": 15504,
+        "all_allocations_completed": true,
+        "maximum_active_states": 16807,
+        "state_visits": 1694119422,
+        "transitions_considered": 3324639982,
+        "missing_full_ciphertext_positions": [
+          7,
+          44,
+          81,
+          126,
+          158
+        ],
+        "filled_missing_coordinates": "VAXFG",
+        "losses_per_physical_column": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "verification": {
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+        "completed_ciphertext": "AGFGFGAVGVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDXGAGXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXVXXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXFGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVGXXXFDAVVXAV",
+        "scores": {
+          "quad_integer_sum": -5811271292,
+          "six_integer_sum": -8322106872,
+          "quad_mean": -4.224131232354699,
+          "six_mean": -6.200452798604966,
+          "mixed_30_70_mean": -5.607556328729886
+        },
+        "display_objective": -6.200452798604966,
+        "integer_denominator_for_display": 1342177280,
+        "retained_source_coordinates_preserved": 165,
+        "changed_retained_source_coordinates": 0,
+        "model_selected_missing_coordinates": 5,
+        "complete_reencryption_verified": true,
+        "independent_integer_score_verified": true,
+        "planted_plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+        "planted_scores": {
+          "quad_integer_sum": -5811271292,
+          "six_integer_sum": -8322106872,
+          "quad_mean": -4.224131232354699,
+          "six_mean": -6.200452798604966,
+          "mixed_30_70_mean": -5.607556328729886
+        },
+        "planted_integer_objective": -8322106872,
+        "global_optimum_integer_advantage_over_truth": 0,
+        "plaintext_matches_truth": true,
+        "plaintext_hamming_distance_from_truth": 0,
+        "completed_ciphertext_matches_truth": true,
+        "loss_mask_matches_planted_mask": true,
+        "newly_accepted_historical_plaintext_characters": 0
+      }
+    },
+    {
+      "case_id": "control_CHI-Nov13",
+      "objective": "mixed_30_70",
+      "exact_search": {
+        "nominal_coordinates": 170,
+        "observed_coordinates": 165,
+        "missing_coordinates": 5,
+        "width": 16,
+        "integer_log_scale": 16777216,
+        "quad_windows": 82,
+        "six_windows": 80,
+        "coefficient4": 240,
+        "coefficient6": 574,
+        "best_integer_score": -6171594454608,
+        "allocation_count_total": 15504,
+        "allocation_start": 0,
+        "allocations_completed": 15504,
+        "all_allocations_completed": true,
+        "maximum_active_states": 16807,
+        "state_visits": 1694119422,
+        "transitions_considered": 3324639982,
+        "missing_full_ciphertext_positions": [
+          7,
+          44,
+          81,
+          126,
+          158
+        ],
+        "filled_missing_coordinates": "VAXFG",
+        "losses_per_physical_column": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "verification": {
+        "plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+        "completed_ciphertext": "AGFGFGAVGVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDXGAGXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXVXXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXFGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVGXXXFDAVVXAV",
+        "scores": {
+          "quad_integer_sum": -5811271292,
+          "six_integer_sum": -8322106872,
+          "quad_mean": -4.224131232354699,
+          "six_mean": -6.200452798604966,
+          "mixed_30_70_mean": -5.607556328729886
+        },
+        "display_objective": -5.607556328729886,
+        "integer_denominator_for_display": 1100585369600,
+        "retained_source_coordinates_preserved": 165,
+        "changed_retained_source_coordinates": 0,
+        "model_selected_missing_coordinates": 5,
+        "complete_reencryption_verified": true,
+        "independent_integer_score_verified": true,
+        "planted_plaintext": "DERSTABMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEWEITEREBEFEHLEUEBERMITTELN",
+        "planted_scores": {
+          "quad_integer_sum": -5811271292,
+          "six_integer_sum": -8322106872,
+          "quad_mean": -4.224131232354699,
+          "six_mean": -6.200452798604966,
+          "mixed_30_70_mean": -5.607556328729886
+        },
+        "planted_integer_objective": -6171594454608,
+        "global_optimum_integer_advantage_over_truth": 0,
+        "plaintext_matches_truth": true,
+        "plaintext_hamming_distance_from_truth": 0,
+        "completed_ciphertext_matches_truth": true,
+        "loss_mask_matches_planted_mask": true,
+        "newly_accepted_historical_plaintext_characters": 0
+      }
+    }
+  ],
+  "witnesses_per_full_search": "8670506592384",
+  "exactness_scope": "All five-loss masks and all six-coordinate fills under one supplied complete true control key; additive original float32 language scores represented exactly as integers.",
+  "omitted_full_control": {
+    "case_id": "control_Nov13-15b",
+    "reason": "Its feasible wrong quadgram optimum already scores above the planted text under both sixgram and mixed objectives, proving the truth cannot be their global optimum; another exhaustive run is unnecessary for this question."
+  },
+  "limitations": [
+    "The four- and six-gram tables use the same independent training corpus; agreement is sensitivity evidence, not statistically independent evidence.",
+    "Optimizing a language objective exactly does not establish historical or planted truth.",
+    "Only synthetic calibration is performed here; no p198 historical plaintext is proposed."
+  ],
+  "newly_accepted_historical_plaintext_characters": 0
+}

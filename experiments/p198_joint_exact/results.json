@@ -1,0 +1,450 @@
+{
+  "schema": "adfgvx-exact-joint-loss-and-fill-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "input_sha256": "25a745508359aa6d85876f60747ae2dfdcbf20586d54539ae0d572d97bc16e8a",
+  "input_reference": "experiments/p198_exact_sparse/inputs.json",
+  "engine_source_sha256": "427443379eba96ce5af8aee14c9cec4a288bf4f37a539d0c7ac927b45facbb85",
+  "model_sha256": "fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d",
+  "geometry_masks_per_full_case": "1115034284",
+  "coordinate_fillings_per_geometry": 7776,
+  "loss_and_fill_witnesses_per_full_case": "8670506592384",
+  "objective": "Sum of the original float32 plaintext quadgram log frequencies, represented exactly at scale 2^24. Every gap receives one concrete coordinate value used consistently in all overlapping windows.",
+  "exactness_scope": "Global optimum over all five-loss masks and all six-coordinate choices at each loss, for each fixed complete square and fixed transposition. Different witnesses can encode the same completed plaintext.",
+  "tie_order": "Earliest increasing list of loss positions, then ADFGVX lexical order of the inserted coordinates at those positions",
+  "controls": {
+    "exhaustive_controls": [
+      {
+        "case": {
+          "id": "small_width_4",
+          "column_rank_order": [
+            3,
+            1,
+            4,
+            2
+          ],
+          "fixed_complete_square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+          "observed_ciphertext": "AGXAAGAAVFA",
+          "missing_count": 1
+        },
+        "nominal_coordinates": 12,
+        "loss_and_fill_witnesses_enumerated": 72,
+        "best_integer_score": -157876404,
+        "best_loss_positions": [
+          1
+        ],
+        "best_fill": "D",
+        "exact_dp_matches_exhaustive_enumeration": true
+      },
+      {
+        "case": {
+          "id": "small_width_6",
+          "column_rank_order": [
+            4,
+            1,
+            6,
+            2,
+            5,
+            3
+          ],
+          "fixed_complete_square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+          "observed_ciphertext": "AFXGDAGFGAVA",
+          "missing_count": 2
+        },
+        "nominal_coordinates": 14,
+        "loss_and_fill_witnesses_enumerated": 3276,
+        "best_integer_score": -226632972,
+        "best_loss_positions": [
+          0,
+          10
+        ],
+        "best_fill": "AA",
+        "exact_dp_matches_exhaustive_enumeration": true
+      },
+      {
+        "case": {
+          "id": "small_width_16",
+          "column_rank_order": [
+            3,
+            13,
+            2,
+            12,
+            1,
+            11,
+            15,
+            8,
+            9,
+            4,
+            5,
+            14,
+            6,
+            10,
+            7,
+            16
+          ],
+          "fixed_complete_square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+          "observed_ciphertext": "AXGVGAGXAAFDXAAXFX",
+          "missing_count": 2
+        },
+        "nominal_coordinates": 20,
+        "loss_and_fill_witnesses_enumerated": 6840,
+        "best_integer_score": -590819348,
+        "best_loss_positions": [
+          1,
+          17
+        ],
+        "best_fill": "VA",
+        "exact_dp_matches_exhaustive_enumeration": true
+      }
+    ],
+    "total_loss_and_fill_witnesses_independently_enumerated": 10188,
+    "constant_objective_tie_control": {
+      "losses": [
+        0,
+        1
+      ],
+      "fill": "AA",
+      "passed": true
+    }
+  },
+  "records": [
+    {
+      "case_id": "control_CHI-Nov13",
+      "exact_search": {
+        "nominal_coordinates": 170,
+        "observed_coordinates": 165,
+        "missing_coordinates": 5,
+        "width": 16,
+        "integer_log_scale": 16777216,
+        "quad_windows": 82,
+        "best_integer_score": -5723766880,
+        "allocation_count_total": 15504,
+        "allocation_start": 0,
+        "allocations_completed": 15504,
+        "all_allocations_completed": true,
+        "maximum_active_states": 16807,
+        "state_visits": 431796812,
+        "transitions_considered": 995973432,
+        "missing_full_ciphertext_positions": [
+          7,
+          44,
+          81,
+          126,
+          160
+        ],
+        "filled_missing_coordinates": "VADAV",
+        "losses_per_physical_column": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "verification": {
+        "plaintext": "DERSTABGELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEREITEREBEFEHLESEKERMITTELN",
+        "filled_ciphertext": "AGFGFGAVGVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDXGAGXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXVDXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXAGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVXXVXFDAVVXAV",
+        "padded_ciphertext": "AGFGFGA?GVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDXG?GXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXV?XFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGX?GAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVXX?XFDAVVXAV",
+        "source_coordinates_preserved": 165,
+        "changed_retained_source_coordinates": 0,
+        "model_selected_coordinate_fills": 5,
+        "singleton_positions_before_filling": 80,
+        "positions_selected_from_non_singleton_domains": [
+          5,
+          7,
+          58,
+          59,
+          73
+        ],
+        "integer_score_verified_independently": true,
+        "complete_reencryption_verified": true,
+        "mean_quad_score": -4.160525508043243,
+        "accepted_historical_plaintext": false
+      },
+      "marginal_alignment_rescored_with_concrete_completion": {
+        "loss_positions": [
+          7,
+          44,
+          81,
+          126,
+          160
+        ],
+        "best_integer_score": -5723766880,
+        "best_plaintext": "DERSTABGELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBITTEREITEREBEFEHLESEKERMITTELN",
+        "tie_order": "ASCII lexical plaintext within this independent Python fixed-domain calculation",
+        "mean_quad_score": -4.160525508043243
+      },
+      "joint_integer_advantage_over_best_filling_at_marginal_mask": 0,
+      "control_evaluation": {
+        "plaintext_matches_truth_exactly": false,
+        "plaintext_hamming_distance_from_truth": 4,
+        "filled_ciphertext_matches_truth_exactly": false,
+        "loss_mask_matches_planted_mask": false,
+        "true_plaintext_integer_score": -5811271292,
+        "global_optimum_integer_advantage_over_truth": 87504412
+      }
+    },
+    {
+      "case_id": "control_Nov13-15b",
+      "exact_search": {
+        "nominal_coordinates": 170,
+        "observed_coordinates": 165,
+        "missing_coordinates": 5,
+        "width": 16,
+        "integer_log_scale": 16777216,
+        "quad_windows": 82,
+        "best_integer_score": -5651119168,
+        "allocation_count_total": 15504,
+        "allocation_start": 0,
+        "allocations_completed": 15504,
+        "all_allocations_completed": true,
+        "maximum_active_states": 16807,
+        "state_visits": 431796812,
+        "transitions_considered": 995973432,
+        "missing_full_ciphertext_positions": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "filled_missing_coordinates": "AFFFF",
+        "losses_per_physical_column": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      },
+      "verification": {
+        "plaintext": "DERSTARMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBETTEWEITEREBEFEHLEUEBERMITTELN",
+        "filled_ciphertext": "FFFFAFAXFGFVFGGAFFFFAFXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVFFGAAGVDFXDDDVVXAFFAFAGXXXVXXVXAF",
+        "padded_ciphertext": "FFFFAFAXFGFVFGG?????AFXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVFFGAAGVDFXDDDVVXAFFAFAGXXXVXXVXAF",
+        "source_coordinates_preserved": 165,
+        "changed_retained_source_coordinates": 0,
+        "model_selected_coordinate_fills": 5,
+        "singleton_positions_before_filling": 80,
+        "positions_selected_from_non_singleton_domains": [
+          39,
+          47,
+          55,
+          63,
+          71
+        ],
+        "integer_score_verified_independently": true,
+        "complete_reencryption_verified": true,
+        "mean_quad_score": -4.107718909659037,
+        "accepted_historical_plaintext": false
+      },
+      "marginal_alignment_rescored_with_concrete_completion": {
+        "loss_positions": [
+          16,
+          17,
+          19,
+          20,
+          21
+        ],
+        "best_integer_score": -5651119168,
+        "best_plaintext": "DERSTARMELDETDIEBRUECKEBEIDEMDORFNUNWIEDERBENUTZBARISTBETTEWEITEREBEFEHLEUEBERMITTELN",
+        "tie_order": "ASCII lexical plaintext within this independent Python fixed-domain calculation",
+        "mean_quad_score": -4.107718909659037
+      },
+      "joint_integer_advantage_over_best_filling_at_marginal_mask": 0,
+      "control_evaluation": {
+        "plaintext_matches_truth_exactly": false,
+        "plaintext_hamming_distance_from_truth": 2,
+        "filled_ciphertext_matches_truth_exactly": false,
+        "loss_mask_matches_planted_mask": false,
+        "true_plaintext_integer_score": -5811271292,
+        "global_optimum_integer_advantage_over_truth": 160152124
+      }
+    },
+    {
+      "case_id": "p198_CHI-Nov13",
+      "exact_search": {
+        "nominal_coordinates": 170,
+        "observed_coordinates": 165,
+        "missing_coordinates": 5,
+        "width": 16,
+        "integer_log_scale": 16777216,
+        "quad_windows": 82,
+        "best_integer_score": -10598447632,
+        "allocation_count_total": 15504,
+        "allocation_start": 0,
+        "allocations_completed": 15504,
+        "all_allocations_completed": true,
+        "maximum_active_states": 16807,
+        "state_visits": 431796812,
+        "transitions_considered": 995973432,
+        "missing_full_ciphertext_positions": [
+          16,
+          18,
+          88,
+          96,
+          169
+        ],
+        "filled_missing_coordinates": "AAXXA",
+        "losses_per_physical_column": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "verification": {
+        "plaintext": "N9YTEUENT16726SSJKZ01WEPLC06GEMUSEEZHKISSTK1SOEVOMMYY4SXCORBC5D1ENGEUEJEG329FF34GJ3UT",
+        "filled_ciphertext": "DFVXVXGAXDGXVXDVAGAVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVXDFDDFXAXAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFXA",
+        "padded_ciphertext": "DFVXVXGAXDGXVXDV?G?VGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDV?DFDDFXA?AXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX?",
+        "source_coordinates_preserved": 165,
+        "changed_retained_source_coordinates": 0,
+        "model_selected_coordinate_fills": 5,
+        "singleton_positions_before_filling": 80,
+        "positions_selected_from_non_singleton_domains": [
+          6,
+          28,
+          41,
+          57,
+          79
+        ],
+        "integer_score_verified_independently": true,
+        "complete_reencryption_verified": true,
+        "mean_quad_score": -7.703862271657804,
+        "accepted_historical_plaintext": false
+      },
+      "marginal_alignment_rescored_with_concrete_completion": {
+        "loss_positions": [
+          16,
+          18,
+          88,
+          96,
+          169
+        ],
+        "best_integer_score": -10598447632,
+        "best_plaintext": "N9YTEUENT16726SSJKZ01WEPLC06GEMUSEEZHKISSTK1SOEVOMMYY4SXCORBC5D1ENGEUEJEG329FF34GJ3UT",
+        "tie_order": "ASCII lexical plaintext within this independent Python fixed-domain calculation",
+        "mean_quad_score": -7.703862271657804
+      },
+      "joint_integer_advantage_over_best_filling_at_marginal_mask": 0
+    },
+    {
+      "case_id": "p198_Nov13-15b",
+      "exact_search": {
+        "nominal_coordinates": 170,
+        "observed_coordinates": 165,
+        "missing_coordinates": 5,
+        "width": 16,
+        "integer_log_scale": 16777216,
+        "quad_windows": 82,
+        "best_integer_score": -11344571812,
+        "allocation_count_total": 15504,
+        "allocation_start": 0,
+        "allocations_completed": 15504,
+        "all_allocations_completed": true,
+        "maximum_active_states": 16807,
+        "state_visits": 431796812,
+        "transitions_considered": 995973432,
+        "missing_full_ciphertext_positions": [
+          28,
+          45,
+          86,
+          128,
+          149
+        ],
+        "filled_missing_coordinates": "XGXVF",
+        "losses_per_physical_column": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "verification": {
+        "plaintext": "2VRTTIBO27ALLNXVALEVD4GOROPUSALTWUZV2VDAYW54S4HRMELBANFCTYPF7DERVNX09S3T7K7JG02C0WCG7",
+        "filled_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADXVXXXVFVAAXGFDGFFGAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVXDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGVGFAAAFGXVVFXXXFFADXDFAFXFVVDGVXFGAGFADDFX",
+        "padded_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFAD?VXXXVFVAAXGFDGFF?AVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFV?DVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFG?GFAAAFGXVVFXXXFFADXD?AFXFVVDGVXFGAGFADDFX",
+        "source_coordinates_preserved": 165,
+        "changed_retained_source_coordinates": 0,
+        "model_selected_coordinate_fills": 5,
+        "singleton_positions_before_filling": 80,
+        "positions_selected_from_non_singleton_domains": [
+          12,
+          14,
+          18,
+          25,
+          62
+        ],
+        "integer_score_verified_independently": true,
+        "complete_reencryption_verified": true,
+        "mean_quad_score": -8.246209426624018,
+        "accepted_historical_plaintext": false
+      },
+      "marginal_alignment_rescored_with_concrete_completion": {
+        "loss_positions": [
+          27,
+          46,
+          86,
+          128,
+          149
+        ],
+        "best_integer_score": -11367156544,
+        "best_plaintext": "2VRTTIBO27ALLNXVALEVD4GORUPUSALTWOZV2VDAYW54S4HRMELBANICTYPF7D5RVNX09S3T7K7JG02C0WCG7",
+        "tie_order": "ASCII lexical plaintext within this independent Python fixed-domain calculation",
+        "mean_quad_score": -8.262625950138743
+      },
+      "joint_integer_advantage_over_best_filling_at_marginal_mask": 22584732
+    }
+  ],
+  "limits": [
+    "The historical complete squares are frozen heuristic completions, not established full historical keys.",
+    "A maximum language score does not prove historical truth, and no error model outside exactly five deletions is covered.",
+    "The source's 165 coordinates are preserved; five added coordinates are explicitly model-selected hypotheses."
+  ],
+  "newly_accepted_historical_plaintext_characters": 0
+}

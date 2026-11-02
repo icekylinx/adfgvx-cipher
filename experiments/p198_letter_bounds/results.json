@@ -1,0 +1,3866 @@
+{
+  "schema": "adfgvx-partial-square-letter-count-bounds-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "input_sha256": "25a745508359aa6d85876f60747ae2dfdcbf20586d54539ae0d572d97bc16e8a",
+  "engine_source_sha256": "0f7e8ef517e24f774678cc113c94a8b91dc3fbb4362673f0474a178eeae80244",
+  "case_id": "p198_Nov13-15b",
+  "partial_square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+  "column_rank_order": [
+    4,
+    11,
+    5,
+    14,
+    9,
+    7,
+    16,
+    1,
+    12,
+    15,
+    6,
+    10,
+    3,
+    13,
+    8,
+    2
+  ],
+  "ordinary_letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "unknown_cell_membership_assignments": 28,
+  "complete_square_extensions_covered": "40320",
+  "complete_square_extensions_per_membership": 1440,
+  "loss_and_fill_witnesses_per_complete_square": "8670506592384",
+  "controls": {
+    "partial_square_with_two_membership_assignments": "?ROTJWHQ?C12SVU7I0DXBP5Y849NZELFK3GM",
+    "total_witnesses_enumerated": 20376,
+    "records": [
+      {
+        "width": 4,
+        "nominal_coordinates": 12,
+        "losses": 1,
+        "letter_cells_at_unknown_positions": [
+          0
+        ],
+        "representative_square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "witnesses_enumerated": 72,
+        "checks": [
+          {
+            "maximize_letters": false,
+            "ordinary_letter_count": 4,
+            "loss_positions": [
+              4
+            ],
+            "fill": "G",
+            "exact_match": true
+          },
+          {
+            "maximize_letters": true,
+            "ordinary_letter_count": 6,
+            "loss_positions": [
+              0
+            ],
+            "fill": "A",
+            "exact_match": true
+          }
+        ]
+      },
+      {
+        "width": 4,
+        "nominal_coordinates": 12,
+        "losses": 1,
+        "letter_cells_at_unknown_positions": [
+          8
+        ],
+        "representative_square": "6ROTJWHQAC12SVU7I0DXBP5Y849NZELFK3GM",
+        "witnesses_enumerated": 72,
+        "checks": [
+          {
+            "maximize_letters": false,
+            "ordinary_letter_count": 3,
+            "loss_positions": [
+              0
+            ],
+            "fill": "V",
+            "exact_match": true
+          },
+          {
+            "maximize_letters": true,
+            "ordinary_letter_count": 5,
+            "loss_positions": [
+              1
+            ],
+            "fill": "D",
+            "exact_match": true
+          }
+        ]
+      },
+      {
+        "width": 6,
+        "nominal_coordinates": 14,
+        "losses": 2,
+        "letter_cells_at_unknown_positions": [
+          0
+        ],
+        "representative_square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "witnesses_enumerated": 3276,
+        "checks": [
+          {
+            "maximize_letters": false,
+            "ordinary_letter_count": 4,
+            "loss_positions": [
+              0,
+              12
+            ],
+            "fill": "VD",
+            "exact_match": true
+          },
+          {
+            "maximize_letters": true,
+            "ordinary_letter_count": 7,
+            "loss_positions": [
+              0,
+              3
+            ],
+            "fill": "AG",
+            "exact_match": true
+          }
+        ]
+      },
+      {
+        "width": 6,
+        "nominal_coordinates": 14,
+        "losses": 2,
+        "letter_cells_at_unknown_positions": [
+          8
+        ],
+        "representative_square": "6ROTJWHQAC12SVU7I0DXBP5Y849NZELFK3GM",
+        "witnesses_enumerated": 3276,
+        "checks": [
+          {
+            "maximize_letters": false,
+            "ordinary_letter_count": 3,
+            "loss_positions": [
+              1,
+              2
+            ],
+            "fill": "VG",
+            "exact_match": true
+          },
+          {
+            "maximize_letters": true,
+            "ordinary_letter_count": 7,
+            "loss_positions": [
+              0,
+              3
+            ],
+            "fill": "DG",
+            "exact_match": true
+          }
+        ]
+      },
+      {
+        "width": 16,
+        "nominal_coordinates": 20,
+        "losses": 2,
+        "letter_cells_at_unknown_positions": [
+          0
+        ],
+        "representative_square": "AROTJWHQ6C12SVU7I0DXBP5Y849NZELFK3GM",
+        "witnesses_enumerated": 6840,
+        "checks": [
+          {
+            "maximize_letters": false,
+            "ordinary_letter_count": 6,
+            "loss_positions": [
+              0,
+              6
+            ],
+            "fill": "DD",
+            "exact_match": true
+          },
+          {
+            "maximize_letters": true,
+            "ordinary_letter_count": 10,
+            "loss_positions": [
+              0,
+              16
+            ],
+            "fill": "AG",
+            "exact_match": true
+          }
+        ]
+      },
+      {
+        "width": 16,
+        "nominal_coordinates": 20,
+        "losses": 2,
+        "letter_cells_at_unknown_positions": [
+          8
+        ],
+        "representative_square": "6ROTJWHQAC12SVU7I0DXBP5Y849NZELFK3GM",
+        "witnesses_enumerated": 6840,
+        "checks": [
+          {
+            "maximize_letters": false,
+            "ordinary_letter_count": 5,
+            "loss_positions": [
+              0,
+              5
+            ],
+            "fill": "VA",
+            "exact_match": true
+          },
+          {
+            "maximize_letters": true,
+            "ordinary_letter_count": 10,
+            "loss_positions": [
+              0,
+              16
+            ],
+            "fill": "AG",
+            "exact_match": true
+          }
+        ]
+      }
+    ]
+  },
+  "positive_controls": [
+    {
+      "case_id": "control_CHI-Nov13",
+      "true_square_supplied": true,
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 49,
+            "best_signed_letter_count": -49,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              14,
+              38,
+              43,
+              45,
+              54
+            ],
+            "filled_missing_coordinates": "VGGVD",
+            "losses_per_physical_column": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "PMA1731W8WY0T8Z2Y0V9TDOK98D8WB5FM4UE2L084JDE3595YTOETUWJORB787NYT84W0JO847EZ40PIWW9M3",
+            "filled_ciphertext": "AGFGFGAGVVVXAFVVAAAVFAGVGVXVGAAVAGGGXXGGAXDGXVGGXGFFAFDVAGFVAVAGADXXVGAGVFVXFAXXXGXVXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVXXXFDAVVXAV",
+            "ordinary_letter_count": 49,
+            "digit_count": 36,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 85,
+            "best_signed_letter_count": 85,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              42,
+              80,
+              126,
+              158
+            ],
+            "filled_missing_coordinates": "AGAAA",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "DERSTDBMELAETDIEBRBECKEBEISEMDORFNBNWIEDERUENUTZBAXSSTBITTWJEITEREBEFEHLESEONRMITTELE",
+            "filled_ciphertext": "AAGFGFGAGVVVXAFVAAAVFAGVGVXVGAAVAGGGXXGAXDGXGGXGFFAFVAGFVAVAGADXXVGAGVFVXFAXXXGXAVXFAAADXAVFVXVVFVXFXGFGAXDAFAFFDXFXXXADVGDAGXAGAXFXDXFGDXGAAFAVFGVXDFVVVVVFAVAXXXFDAVVXAV",
+            "ordinary_letter_count": 85,
+            "digit_count": 0,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "control_Nov13-15b",
+      "true_square_supplied": true,
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 58,
+            "best_signed_letter_count": -58,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              14,
+              75,
+              134,
+              143,
+              167
+            ],
+            "filled_missing_coordinates": "XDXXD",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "548E2I97IDBEAHE5QNBEA924GGLZOTG9JCGIII2GG2QE5LHDE9ENE67ETZI9NH9888W5SEQ88KHBHBEB9J5LR",
+            "filled_ciphertext": "FFFFAFAXFGFVFGXGAFXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFDVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVXFFGAAGVDXFXDDDVVXAFFAFAGXXXVXXVXDAF",
+            "ordinary_letter_count": 58,
+            "digit_count": 27,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 85,
+            "best_signed_letter_count": 85,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              2,
+              3,
+              12
+            ],
+            "filled_missing_coordinates": "AAAAA",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "DERYTARUELDITDIIBRUICKEQEIDIMDORFNUZWIELERBENUTABARESTBETTEZEITGREBIFEHREUEQERMITTEDN",
+            "filled_ciphertext": "AAAAFFFFAFAXAFGFVFGGAFXXGXXAXAAFXAXDXAXFXXXFFXVFVXXAXVFVFXAXXXFGAXAXGGFGFFAXAFFVXXFXFFAFAAFXAXXVADAAXDAFGAFGFAFGDGFDXXXAVVGXDXVGAFXFDGDAVFFGAAGVDFXDDDVVXAFFAFAGXXXVXXVXAF",
+            "ordinary_letter_count": 85,
+            "digit_count": 0,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    }
+  ],
+  "membership_results": [
+    {
+      "letter_cells_at_unknown_positions": [
+        1,
+        2
+      ],
+      "representative_complete_square": "HQYBMUF15PX0DJLR2347S6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 46,
+            "best_signed_letter_count": -46,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              65,
+              124,
+              131
+            ],
+            "filled_missing_coordinates": "XVGDX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90G99I5K9V22JN86C287D3BO8L5YSA5V3U8V9V99ZW53S3DKM9LMAND2QY502DHGCZPP1S52VN2D608G3KC9C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFDGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 46,
+            "digit_count": 39,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 75,
+            "best_signed_letter_count": 75,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              31,
+              32,
+              86,
+              107
+            ],
+            "filled_missing_coordinates": "AAAAA",
+            "losses_per_physical_column": [
+              2,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "U3TTWWW8UXRLTIYOIVMVINPV9LZUL3GOA3PV3ALTRUZDSVDAWW5UC3HRYELPVNFCMYPFKDZRTNX3RSGTVK2TV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXAAXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFAVDVDFDDFXAAXVVXAAFXXAXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 75,
+            "digit_count": 10,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        1,
+        16
+      ],
+      "representative_complete_square": "HQ2BMUF15PX0DJLRY347S6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 50,
+            "best_signed_letter_count": -50,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              63,
+              121,
+              131
+            ],
+            "filled_missing_coordinates": "XXXAX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90999I5K9VR3JN86CYA7D3BO8L52SA5V3U8V9V99ZW5323DKM9LMVNDYQ250ADHGCZPPJS5YVNYD608G3KC9C",
+            "filled_ciphertext": "XXDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDXGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXAGVFGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 50,
+            "digit_count": 35,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 78,
+            "best_signed_letter_count": 78,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              22,
+              67,
+              89,
+              102,
+              104
+            ],
+            "filled_missing_coordinates": "FAFFF",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EOYTWNUO9YZLTDLVWYPVIWPO32ZULVGTAWFV3YLAB9L3SWDRUULBCDHCEZPFVSFRVZX0KFZTJNYJRSGCXTCGV",
+            "filled_ciphertext": "DFVXVXGAXDGXVXDVGVGDVAFDXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFAFFGVVVGGGXVFXFXXFVDVDFFDDFXAAXVVXAFAFFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 78,
+            "digit_count": 7,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        1,
+        17
+      ],
+      "representative_complete_square": "HQ2BMUF15PX0DJLR3Y47S6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 46,
+            "best_signed_letter_count": -46,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              65,
+              92,
+              131
+            ],
+            "filled_missing_coordinates": "XVGGX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90G9995K9V33TN869387DDBOAL52LW5VRU8VOV99WW5YE3DK29LMVWD3M250ADHGTZ6PJ453VNXD658G3K39C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDGDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 46,
+            "digit_count": 39,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 80,
+            "best_signed_letter_count": 80,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              36,
+              38,
+              43,
+              74
+            ],
+            "filled_missing_coordinates": "AAFAA",
+            "losses_per_physical_column": [
+              2,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EYRTWZWB9MTLTW2WWXGVIIPAYS3ULNGOAYZVYYL7BYPDSADVUUZUCVHGLZ5PVYFAMELFKNZRTHPYRDGTVKXTV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAFAXGFADGFFAVXAVVVXVFVGFVFGDGVFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 80,
+            "digit_count": 5,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        1,
+        18
+      ],
+      "representative_complete_square": "HQ2BMUF15PX0DJLR34Y7S6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 44,
+            "best_signed_letter_count": -44,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              65,
+              124,
+              131
+            ],
+            "filled_missing_coordinates": "XVGDX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90G99I5K9V33JN86C387D4BO8L52SA5V4U8V9V99ZW54S4DKM9LMAND3Q2503DHGCZPP1S53VN3D608G4KC9C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFDGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 44,
+            "digit_count": 41,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 75,
+            "best_signed_letter_count": 75,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              63,
+              71,
+              98,
+              100,
+              114
+            ],
+            "filled_missing_coordinates": "AAAAA",
+            "losses_per_physical_column": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "94DTWDUOW3ZLTW5V4MPVIVGOAZZULDRTB95V4ALAUUL4SDHREWPBCOFCVZXFVFNRJZD0KYETFICJRZGCVKMGV",
+            "filled_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVAFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVAVAXAAFXXXVGXFVDAVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 75,
+            "digit_count": 10,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        1,
+        19
+      ],
+      "representative_complete_square": "HQ2BMUF15PX0DJLR347YS6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 45,
+            "best_signed_letter_count": -45,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              65,
+              124,
+              131
+            ],
+            "filled_missing_coordinates": "XVGDX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90G99I5K9V33JN86C38YD4BO8L52SA5V4U8V9V99ZW54S4DKM9LMAND3Q2503DHGCZPP1S53VN3D608G4KC9C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFDGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 45,
+            "digit_count": 40,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 75,
+            "best_signed_letter_count": 75,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              41,
+              42,
+              46,
+              74
+            ],
+            "filled_missing_coordinates": "AAAAA",
+            "losses_per_physical_column": [
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EURTWZWB9XTLTW2WWVGVIIPA4L3ULNGOAUZV44LYB4PDSADVUUZUCVHGEZ5PV4FAVELFKNZRJHP4RDGTMKXTV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFAADGFAFAVXAVVVXVFVGFVFGDGVFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 75,
+            "digit_count": 10,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        1,
+        27
+      ],
+      "representative_complete_square": "HQ2BMUF15PX0DJLR3478S6VONKZYAWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 48,
+            "best_signed_letter_count": -48,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              76,
+              86,
+              131
+            ],
+            "filled_missing_coordinates": "XVDAX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90G999589V33TNY69328DDB0ALY2LW5VRU5VOV99WWZ4E3DK295MVWD3M2R0ADHGTZXPJ753VNXD65YG3K39C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGDGXVFXFXXFAVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 48,
+            "digit_count": 37,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 75,
+            "best_signed_letter_count": 75,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              19,
+              21,
+              137,
+              156
+            ],
+            "filled_missing_coordinates": "AAAAF",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "WDTTTNBY9XRLDIPOCSAVLWZVG45UO3HOW4YVEAFTLU5DVOIAAZLUADLRQE5PJNRCMHPFSLUDCK34GOXGOWCT3",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVAGADVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVAVFXXXFFADXDAFXFVVDFGVXFGAGFADDFX",
+            "ordinary_letter_count": 75,
+            "digit_count": 10,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        1,
+        35
+      ],
+      "representative_complete_square": "HQ2BMUF15PX0DJLR3478S6VONKZ9AWITEGCY",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 50,
+            "best_signed_letter_count": -50,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              64,
+              109,
+              131,
+              166
+            ],
+            "filled_missing_coordinates": "VGGVG",
+            "losses_per_physical_column": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "YV33TN96C398D4BO9L52LA5V4U9VOVIY9W54E43K2YLMVND3M250ADHGTZP6JS53VN3F609G3KC4COYT0YMT4",
+            "filled_ciphertext": "VDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXGFVDVVXXFFGXGVFGXFGGFAVAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADGDFX",
+            "ordinary_letter_count": 50,
+            "digit_count": 35,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 78,
+            "best_signed_letter_count": 78,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              63,
+              71,
+              101,
+              107,
+              120
+            ],
+            "filled_missing_coordinates": "AAFAA",
+            "losses_per_physical_column": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "Y4DTYDUOW3ZLTW5VDMPVDVGOAZZUL3RTBY5VUWLAUUL4SDHREWPBCSFCVZXFVFNRJZD0KSETXICJRWGCVKMGV",
+            "filled_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVAFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXAFAFXXXAVGXFVDVVXXFFAGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 78,
+            "digit_count": 7,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        2,
+        16
+      ],
+      "representative_complete_square": "H2QBMUF15PX0DJLRY347S6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 51,
+            "best_signed_letter_count": -51,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              63,
+              121,
+              131
+            ],
+            "filled_missing_coordinates": "XXXDX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90999I5K9VR3JN86CYA7D3BO8L5QSA5V3U8V9V99ZW5353DKM9LMVNDY2Q50ADHGCZPPJS5YVNYD608G3KC9C",
+            "filled_ciphertext": "XXDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDXGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXDGVFGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 51,
+            "digit_count": 34,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 79,
+            "best_signed_letter_count": 79,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              42,
+              74,
+              95,
+              103
+            ],
+            "filled_missing_coordinates": "AAAAF",
+            "losses_per_physical_column": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EUGIWIWB9VYJTNQOWYZSIDPV3LPMLWGOAUZO3VLTBW5YSYDAU9LUCWHREQPPVDFCVZXFKSZRJNY3RFGTXKCTV",
+            "filled_ciphertext": "ADFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDAGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVAGGGXVFXFXXFVDVDFDDFXAAAXVVXAFAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 79,
+            "digit_count": 6,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        2,
+        17
+      ],
+      "representative_complete_square": "H2QBMUF15PX0DJLR3Y47S6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 49,
+            "best_signed_letter_count": -49,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              65,
+              92,
+              131
+            ],
+            "filled_missing_coordinates": "XVGGX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90G9995K9V33TN869387DDBOAL5QLW5VRU8VOV99WW5YE3DKQ9LMVWD3MQ50ADHGTZ6PJ453VNXD658G3K39C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDGDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 49,
+            "digit_count": 36,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 81,
+            "best_signed_letter_count": 81,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              31,
+              32,
+              86,
+              107
+            ],
+            "filled_missing_coordinates": "AAAAA",
+            "losses_per_physical_column": [
+              2,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "UYTTWWW8UXRLTIQOIVMVINPV9LZULYGOAYPVYALTRUZDSVDAWW5UCYHRQELPVNFCMQPFKDZRTNXYRSGTVK3TV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXAAXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFAVDVDFDDFXAAXVVXAAFXXAXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 81,
+            "digit_count": 4,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        2,
+        18
+      ],
+      "representative_complete_square": "H2QBMUF15PX0DJLR34Y7S6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 45,
+            "best_signed_letter_count": -45,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              65,
+              124,
+              131
+            ],
+            "filled_missing_coordinates": "XVGAX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90G99I5K9V33JN86C387D4BO8L5QSA5V4U8V9V99ZW54S4DKM9LMAND32Q503DHGCZPP2S53VN3D608G4KC9C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFAGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 45,
+            "digit_count": 40,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 76,
+            "best_signed_letter_count": 76,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              32,
+              33,
+              66,
+              74
+            ],
+            "filled_missing_coordinates": "AAAAA",
+            "losses_per_physical_column": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "E4JTWZWBUXGLT9QWUVCVINPA9LDULDGOA4ZV4WL7RUPDSVDVWWZUC3HGQE5PVWFAMQLFKDZRTNP4RYGTVKXTV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXXAAXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVAFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 76,
+            "digit_count": 9,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        2,
+        19
+      ],
+      "representative_complete_square": "H2QBMUF15PX0DJLR347YS6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 46,
+            "best_signed_letter_count": -46,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              65,
+              124,
+              131
+            ],
+            "filled_missing_coordinates": "XVGAX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90G99I5K9V33JN86C38YD4BO8L5QSA5V4U8V9V99ZW54S4DKM9LMAND32Q503DHGCZPP2S53VN3D608G4KC9C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFAGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 46,
+            "digit_count": 39,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 76,
+            "best_signed_letter_count": 76,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              32,
+              33,
+              46,
+              74
+            ],
+            "filled_missing_coordinates": "AAAAA",
+            "losses_per_physical_column": [
+              2,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "E4RTWZWBUXTLTWQWUVGVIIPA9L3ULNGOAUZV44LYR4PDSADVWUZUCVHGQZ5PV4FAMELFKNZRTHP4RDGTVKXTV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXXAAXVFVAAXGFDGFAFAVXAVVVXVFVGFVFGDGVFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 76,
+            "digit_count": 9,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        2,
+        27
+      ],
+      "representative_complete_square": "H2QBMUF15PX0DJLR3478S6VONKZYAWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 50,
+            "best_signed_letter_count": -50,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              63,
+              124,
+              131
+            ],
+            "filled_missing_coordinates": "XVXAX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90999I5K9VR3JNY6C3A8D4BOYL5QSA5V4UYV9V99ZW54S4DKM9LMAND32Q503DHGCZPP2S53VN3D60YG4KC9C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDXGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFAGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 50,
+            "digit_count": 35,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 76,
+            "best_signed_letter_count": 76,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              31,
+              32,
+              86,
+              107
+            ],
+            "filled_missing_coordinates": "AAAAA",
+            "losses_per_physical_column": [
+              2,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "U4TTWWWYUXRLTIQOIVMVINPV9LZUL4GOA4PV4ALTRUZDSVDAWW5UC4HRQELPVNFCMQPFKDZRTNX4RSGTVK3TV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXAAXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFAVDVDFDDFXAAXVVXAAFXXAXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 76,
+            "digit_count": 9,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        2,
+        35
+      ],
+      "representative_complete_square": "H2QBMUF15PX0DJLR3478S6VONKZ9AWITEGCY",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 50,
+            "best_signed_letter_count": -50,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              1,
+              64,
+              119,
+              131,
+              137
+            ],
+            "filled_missing_coordinates": "VGDVA",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "Y73T4N96C393J4BO935S7A5V4Q9M5VIYZW5OY43KMYL3SND32U5UADHGCZPP3S53VZ3F809G4NC4GOYT0TMT3",
+            "filled_ciphertext": "DVFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGDXGVFGXFGGFAVAAFGXAVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 50,
+            "digit_count": 35,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 79,
+            "best_signed_letter_count": 79,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              63,
+              71,
+              101,
+              107,
+              137
+            ],
+            "filled_missing_coordinates": "AAFAA",
+            "losses_per_physical_column": [
+              0,
+              1,
+              0,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "YDDTYDQOW3ZLTWPVDMPVDVGOAZZUL3LTBY5VOWDAUUL4EDHREWPBVSFCVZXFAFZRJZD0JSGTXICJ6WYCVKMGC",
+            "filled_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVAFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXAFAFXXXAVGXFVDVVXXFFGXGVFGXFGGFAAAFGXAVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 79,
+            "digit_count": 6,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        16,
+        17
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLRQY47S6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 54,
+            "best_signed_letter_count": -54,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              63,
+              92,
+              131
+            ],
+            "filled_missing_coordinates": "XAXGX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "9099995K9VRDTN869QA7DDBOAL53LW5VRU8VOV99WW5YEQDK39LMVWDQM350ADHGTZ6PJ45QVNXD658GQKQ9C",
+            "filled_ciphertext": "XADFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDXGVFGFFFGVVVGGGXVFXFXXFVDVDFDGDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 54,
+            "digit_count": 31,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 81,
+            "best_signed_letter_count": 81,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              36,
+              38,
+              40,
+              74
+            ],
+            "filled_missing_coordinates": "AAFFA",
+            "losses_per_physical_column": [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EORIWZWB9QTJTW3WWXGSIIPAYSQMLNGOAYZOYYL7BYPQSADVUUZUCVHGLZ5PVYFAMELFKNZRJHPYRDGTCKXTV",
+            "filled_ciphertext": "ADFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAFAFXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 81,
+            "digit_count": 4,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        16,
+        18
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLRQ4Y7S6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 49,
+            "best_signed_letter_count": -49,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              63,
+              121,
+              131
+            ],
+            "filled_missing_coordinates": "XXXAX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90999I5K9VR4JN86CQA7D4BO8L53SA5V4U8V9V99ZW5434DKM9LMVNDQ2350ADHGCZPPJS5QVNQD608G4KC9C",
+            "filled_ciphertext": "XXDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDXGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXAGVFGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 49,
+            "digit_count": 36,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 78,
+            "best_signed_letter_count": 78,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              22,
+              42,
+              46,
+              77,
+              96
+            ],
+            "filled_missing_coordinates": "FAAFA",
+            "losses_per_physical_column": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EUTTWWUW9VGLTILVWQQVINPO4LZULDGJAUPV4WLVBUZ4SVDGUW5BCQHAEELFVWFRV3P0KDZTJNXJRYGQXKQGV",
+            "filled_ciphertext": "DFVXVXGAXDGXVXDVGVGDVAFDXFFADVXXXVFVAAXGFDAGFFAAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGFGXVFXFXXFVDVDFDDFXAAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 78,
+            "digit_count": 7,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        16,
+        19
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLRQ47YS6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 50,
+            "best_signed_letter_count": -50,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              63,
+              121,
+              131
+            ],
+            "filled_missing_coordinates": "XXXAX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90999I5K9VR4JN86CQAYD4BO8L53SA5V4U8V9V99ZW5434DKM9LMVNDQ2350ADHGCZPPJS5QVNQD608G4KC9C",
+            "filled_ciphertext": "XXDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDXGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXAGVFGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 50,
+            "digit_count": 35,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 78,
+            "best_signed_letter_count": 78,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              22,
+              67,
+              89,
+              102,
+              104
+            ],
+            "filled_missing_coordinates": "FAFDD",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EOQTWNUO9QZLTDLVWQPVIWPO43ZULVGTAWFV4QLAB9L4SWDRUULBCDHCEZPFVYFRVZX0KFZTJNQJRYGCXTCGV",
+            "filled_ciphertext": "DFVXVXGAXDGXVXDVGVGDVAFDXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFAFFGVVVGGGXVFXFXXFVDVDFFDDFXAAXVVXADADFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 78,
+            "digit_count": 7,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        16,
+        27
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLRQ478S6VONKZYAWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 53,
+            "best_signed_letter_count": -53,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              63,
+              121,
+              131
+            ],
+            "filled_missing_coordinates": "XXXAX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90999I5K9VR4JNY6CQA8D4BOYL53SA5V4UYV9V99ZW5434DKM9LMVNDQ2350ADHGCZPPJS5QVNQD60YG4KC9C",
+            "filled_ciphertext": "XXDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDXGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXAGVFGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 53,
+            "digit_count": 32,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 78,
+            "best_signed_letter_count": 78,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              53,
+              68,
+              90,
+              103
+            ],
+            "filled_missing_coordinates": "AAAFF",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EOGIWUWY9QQJTN3OWQZSIDPV43PMLWGOAWZO4VLTB9FQSQDAUULUCWHREZLPVDFCVZPFKSZRJNX4RFGTXTQTV",
+            "filled_ciphertext": "ADFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXAVFVGFVFGDGVFGFAFFGVVVGGGXVFXFXXFVDVDFFDDFXAAXVVXAFAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 78,
+            "digit_count": 7,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        16,
+        35
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLRQ478S6VONKZ9AWITEGCY",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 54,
+            "best_signed_letter_count": -54,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              18,
+              29,
+              37,
+              166
+            ],
+            "filled_missing_coordinates": "XXGAG",
+            "losses_per_physical_column": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "WVG4TW59YQT8IN9WY5R3LIBVCOAV4W5O9454SQI8449MCADC3350VOD9AZL6KD342I5FRN6CM2P4VL0RCWQTY",
+            "filled_ciphertext": "XDFVXVXGAXDGXVXDVGXVGDVADXFFAGDVXXXVFAVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADGDFX",
+            "ordinary_letter_count": 54,
+            "digit_count": 31,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 82,
+            "best_signed_letter_count": 82,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              66,
+              88,
+              101,
+              107,
+              167
+            ],
+            "filled_missing_coordinates": "AFFAA",
+            "losses_per_physical_column": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "YQZJTD3OWQPSIWPVD3ZMLVGYAWFO4QLKBYLQSWDQUULUCDHGEZPPVSFQVZXFKFZGJNQURSGTXTCJVWYQVWBGY",
+            "filled_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFAFFGVVVGGGXVFXFXXFVDVDFFDDFXAAXVVXAFAFXXXAVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDAFX",
+            "ordinary_letter_count": 82,
+            "digit_count": 3,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        17,
+        18
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLR4QY7S6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 47,
+            "best_signed_letter_count": -47,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              65,
+              92,
+              131
+            ],
+            "filled_missing_coordinates": "XVGGX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90G9995K9V44TN869487DDBOAL53LW5VRU8VOV99WW5QE4DK39LMVWD4M350ADHGTZ6PJY54VNXD658G4K49C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDGDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 47,
+            "digit_count": 38,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 80,
+            "best_signed_letter_count": 80,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              36,
+              38,
+              43,
+              74
+            ],
+            "filled_missing_coordinates": "AAFAA",
+            "losses_per_physical_column": [
+              2,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EQRTWZWB9MTLTW3WWXGVIIPAQS4ULNGOAQZVQQL7BQPDSADVUUZUCVHGLZ5PVQFAMELFKNZRTHPQRDGTVKXTV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAFAXGFADGFFAVXAVVVXVFVGFVFGDGVFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 80,
+            "digit_count": 5,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        17,
+        19
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLR4Q7YS6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 47,
+            "best_signed_letter_count": -47,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              65,
+              92,
+              131
+            ],
+            "filled_missing_coordinates": "XVGGX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90G9995K9V44TN86948YDDBOAL53LW5VRU8VOV99WW5QE4DK39LMVWD4M350ADHGTZ6PJ754VNXD658G4K49C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDGDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 47,
+            "digit_count": 38,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 81,
+            "best_signed_letter_count": 81,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              36,
+              38,
+              43,
+              74
+            ],
+            "filled_missing_coordinates": "AAFAA",
+            "losses_per_physical_column": [
+              2,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EQRTWZWB9MTLTW3WWXGVIIPAQS4ULNGOAQZVQQLYBQPDSADVUUZUCVHGLZ5PVQFAMELFKNZRTHPQRDGTVKXTV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAFAXGFADGFFAVXAVVVXVFVGFVFGDGVFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 81,
+            "digit_count": 4,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        17,
+        27
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLR4Q78S6VONKZYAWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 49,
+            "best_signed_letter_count": -49,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              76,
+              86,
+              131
+            ],
+            "filled_missing_coordinates": "XVDAX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90G999589V44TNY69438DDB0ALY3LW5VRU5VOV99WWZQE4DK395MVWD4M3R0ADHGTZXPJ754VNXD65YG4K49C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGDGXVFXFXXFAVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 49,
+            "digit_count": 36,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 81,
+            "best_signed_letter_count": 81,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              35,
+              38,
+              43,
+              78
+            ],
+            "filled_missing_coordinates": "AAFAF",
+            "losses_per_physical_column": [
+              2,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EQRTWZWY9MTLTW3WWXGVIIPVQS4ULNGOMQZVQQLJYQPDSADVUUZUCVHGLZ5PVQFAMELFKNZRTHPQRDGTVKXTV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXXXVFAVAFAXGFADGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGFGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 81,
+            "digit_count": 4,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        17,
+        35
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLR4Q78S6VONKZ9AWITEGCY",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 54,
+            "best_signed_letter_count": -54,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              1,
+              46,
+              108,
+              131,
+              137
+            ],
+            "filled_missing_coordinates": "VDVVA",
+            "losses_per_physical_column": [
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "Y7RTYI96C4A4JWBO945SD45V439MSAIYW05OYO4K3WL4SDD4MY5UANHGT3PP4L54VZ4F8O9G4NCQG0YT0KMT4",
+            "filled_ciphertext": "DVFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFADVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGVXFVDVVXXFFGXGVFGXFGGFAVAAFGXAVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 54,
+            "digit_count": 31,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 81,
+            "best_signed_letter_count": 81,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              7,
+              29,
+              43,
+              87
+            ],
+            "filled_missing_coordinates": "AAFAA",
+            "losses_per_physical_column": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "ZQGTWZ0KYMTLTWZ9YXRVIIBOYSMULNPVAQZVQQEORQPDSADTWUZUCVDA3Z5FVQHRMELPKNLCTHPDRDPRVKXYV",
+            "filled_ciphertext": "DFVXVAXAGAXDGXVXDVGVGDVADXFFAFDVXXXVFVAAXGFADGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFAVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 81,
+            "digit_count": 4,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        18,
+        19
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLR47QYS6VONKZ8AWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 44,
+            "best_signed_letter_count": -44,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              65,
+              124,
+              131
+            ],
+            "filled_missing_coordinates": "XVGAX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90G99I5K9V44JN86C48YD7BO8L53SA5V7U8V9V99ZW57S7DKM9LMAND423504DHGCZPP2S54VN4D608G7KC9C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFAGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 44,
+            "digit_count": 41,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 75,
+            "best_signed_letter_count": 75,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              41,
+              42,
+              46,
+              74
+            ],
+            "filled_missing_coordinates": "AAAAA",
+            "losses_per_physical_column": [
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EURTWZWB9XTLTW3WWVGVIIPA7L4ULNGOAUZV77LYB7PDSADVUUZUCVHGEZ5PV7FAVELFKNZRJHP7RDGTMKXTV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFAADGFAFAVXAVVVXVFVGFVFGDGVFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 75,
+            "digit_count": 10,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        18,
+        27
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLR47Q8S6VONKZYAWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 48,
+            "best_signed_letter_count": -48,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              63,
+              124,
+              131
+            ],
+            "filled_missing_coordinates": "XVXAX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90999I5K9VR4JNY6C4A8D7BOYL53SA5V7UYV9V99ZW57S7DKM9LMAND423504DHGCZPP2S54VN4D60YG7KC9C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDXGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFAGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 48,
+            "digit_count": 37,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 75,
+            "best_signed_letter_count": 75,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              41,
+              42,
+              46,
+              78
+            ],
+            "filled_missing_coordinates": "AAAAF",
+            "losses_per_physical_column": [
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EURTWZWY9XTLTW3WWVGVIIPV7L4ULNGOAUZV77LJB7PDSADVUUZUCVHGEZ5PV7FAVELFKNZRJHP7RDGTMKXTV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFAADGFAFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGFGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 75,
+            "digit_count": 10,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        18,
+        35
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLR47Q8S6VONKZ9AWITEGCY",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 49,
+            "best_signed_letter_count": -49,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              35,
+              150,
+              152,
+              166
+            ],
+            "filled_missing_coordinates": "VADDG",
+            "losses_per_physical_column": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "Y5R4LI96COA87W3O975384FV779VEAIY33578ODKAZLMADL42I504NBGM2P68L04CW4FGOAGOKC740CT7NMTO",
+            "filled_ciphertext": "VDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFAVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXDFDVVDGVXFGAGFADGDFX",
+            "ordinary_letter_count": 49,
+            "digit_count": 36,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 78,
+            "best_signed_letter_count": 78,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              63,
+              71,
+              98,
+              100,
+              120
+            ],
+            "filled_missing_coordinates": "AAAAA",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "Y7DTYDUOW4ZLTW5V7MPVDVGOAZZULDRTBY5VUALAUUL7SDHREWPBCOFCVZXFVFNRJZD0KQETXICJRZGCVKMGV",
+            "filled_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVAFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVAVAXAAFXXXVGXFVDVVXXFFAGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 78,
+            "digit_count": 7,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        19,
+        27
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLR478QS6VONKZYAWITEGC9",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 49,
+            "best_signed_letter_count": -49,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              1,
+              63,
+              124,
+              131
+            ],
+            "filled_missing_coordinates": "XVXAX",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "90999I5K9VR4JNY6C4AQD7BOYL53SA5V7UYV9V99ZW57S7DKM9LMAND423504DHGCZPP2S54VN4D60YG7KC9C",
+            "filled_ciphertext": "XVDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDXGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFAGXFGGFXAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 49,
+            "digit_count": 36,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 75,
+            "best_signed_letter_count": 75,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              5,
+              41,
+              42,
+              46,
+              52
+            ],
+            "filled_missing_coordinates": "AAAAF",
+            "losses_per_physical_column": [
+              1,
+              0,
+              3,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "EULTWZWY9XGLTW3WWVTVINPA7LRULIGOAUAV7WLQB75DS4DVUUYUCAHGEZ5PVOFAVELFKDZRJH57RNGTMJPTV",
+            "filled_ciphertext": "DFVXVAXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFAADGFAFAVXAFVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 75,
+            "digit_count": 10,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        19,
+        35
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLR478QS6VONKZ9AWITEGCY",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 50,
+            "best_signed_letter_count": -50,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              64,
+              123,
+              131,
+              166
+            ],
+            "filled_missing_coordinates": "VGAVG",
+            "losses_per_physical_column": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "YV44JN96C49QD7BO9L53SA5V7U9VYVIYZW57S74KMYLMAND423504DHGCZP62S54VN4F609G7KC7COYT0YMT7",
+            "filled_ciphertext": "VDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVGFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFAGXFGGFAVAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADGDFX",
+            "ordinary_letter_count": 50,
+            "digit_count": 35,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 78,
+            "best_signed_letter_count": 78,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              63,
+              71,
+              101,
+              107,
+              120
+            ],
+            "filled_missing_coordinates": "AADAA",
+            "losses_per_physical_column": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "Y7DTYDUOW4ZLTW5VDMPVDVGOAZZUL4RTBY5VUWLAUUL7SDHREWPBCQFCVZXFVFNRJZD0KSETXICJRWGCVKMGV",
+            "filled_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVAFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXADAFXXXAVGXFVDVVXXFFAGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 78,
+            "digit_count": 7,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    },
+    {
+      "letter_cells_at_unknown_positions": [
+        27,
+        35
+      ],
+      "representative_complete_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "bounds": [
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": false,
+            "ordinary_letter_count": 52,
+            "best_signed_letter_count": -52,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              0,
+              35,
+              150,
+              152,
+              166
+            ],
+            "filled_missing_coordinates": "VAAAG",
+            "losses_per_physical_column": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "Y5R4LIQ6COA97W3OQ75384FV77QVEAIY33578ODKAZLMADL42I504NBGM2P69L04CW4FGOAGOKC740CT7NMTO",
+            "filled_ciphertext": "VDFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFAVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXAFAVVDGVXFGAGFADGDFX",
+            "ordinary_letter_count": 52,
+            "digit_count": 33,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        },
+        {
+          "exact_search": {
+            "nominal_coordinates": 170,
+            "observed_coordinates": 165,
+            "missing_coordinates": 5,
+            "width": 16,
+            "maximize_letters": true,
+            "ordinary_letter_count": 78,
+            "best_signed_letter_count": 78,
+            "allocation_count_total": 15504,
+            "allocation_start": 0,
+            "allocations_completed": 15504,
+            "all_allocations_completed": true,
+            "maximum_active_states": 32,
+            "state_visits": 26763352,
+            "transitions_considered": 34407272,
+            "missing_full_ciphertext_positions": [
+              63,
+              71,
+              101,
+              107,
+              120
+            ],
+            "filled_missing_coordinates": "AAFAA",
+            "losses_per_physical_column": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "verification": {
+            "representative_plaintext": "Y7DTYDUOW4ZLTW5VDMPVDVGOAZZUL4RTBY5VUWLAUUL7SDHREWPBCSFCVZXFVFNRJZD0KSETXICJRWGCVKMGV",
+            "filled_ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVAFGFFFGVAVVGGGXVFXFXXFVDVDFDDFXAAXVVXAFAFXXXAVGXFVDVVXXFFAGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+            "ordinary_letter_count": 78,
+            "digit_count": 7,
+            "source_coordinates_preserved": 165,
+            "changed_retained_coordinates": 0,
+            "model_selected_coordinates": 0,
+            "count_objective_selected_coordinates": 5,
+            "reencryption_verified": true,
+            "accepted_historical_plaintext": false
+          }
+        }
+      ]
+    }
+  ],
+  "attainable_global_minimum_letters": 44,
+  "attainable_global_maximum_letters": 82,
+  "implied_attainable_global_minimum_digits": 3,
+  "implied_attainable_global_maximum_digits": 41,
+  "scope": "All 8! complete-square extensions of the recorded partial Nov13-15b square, fixed transposition, exactly five deleted coordinates with arbitrary inserted values, and all 165 received coordinates preserved in order.",
+  "limits": [
+    "The true historical digit count is unknown, so these bounds do not exclude or authenticate this key.",
+    "A letter-count optimum need not be readable; representative completions are source-feasible witnesses, not proposed historical plaintexts.",
+    "Ordinary-letter membership is fixed per square cell across the whole message; actual remaining letter and digit permutations do not affect this objective.",
+    "Neither a language model, a frequency prior nor a p-value is used."
+  ],
+  "newly_accepted_historical_plaintext_characters": 0
+}

@@ -28,3 +28,22 @@ The Aegean volume's 2000 edition date is supported by Lasry's bibliography; the 
 ## Header direction
 
 `X v Y` means **recipient X, sender Y**. The explicit routes and adjacent headers on [printed p. 9 of the 1935 report](excerpts/nsa_header_convention_p9.png) establish the convention: `NKJ v LP` accompanies a message from LP through NKJ, and `OSM v COS` accompanies a message from COS to OSM. Thus `CM v CZ` is CZ to CM; `-- v CM` has an unknown recipient and a known sender CM. A relay call sign need not identify the ultimate author or addressee.
+
+## Historical and technical context
+
+These sources support specific interpretations or delimit a search. They do not
+replace a missing ciphertext witness or assign an unknown key cell.
+
+| Source | Use and limit |
+|---|---|
+| [Paquet, Groener and Hopman records, edited by Winfried Baumgart in 1971](https://digitale-sammlungen.de/en/details/bsb00042051) | Contemporary shipping and Crimea command context for p155 and the conditional p215 Kosch reading. Diary/document text is distinguished from the modern editor's notes. |
+| [Telefunken-Zeitung, 1919, no. 15](https://www.radiomuseum.org/forumdata/users/5100/TZ_3Jg_Nr15_1v1_v10.pdf) | The manufacturer's contemporary terminology supports the undamped-wave radio-apparatus interpretation of `US GERAETE` in the p197/p198 equipment traffic. No particular model is established. |
+| [Australian War Memorial, Allied-fleet memorandum of 24 November 1918](https://transcribe.awm.gov.au/transcription/item/rcdig0000179-4) | Independent Black Sea departure-order context for p217. It does not verify p215's reported troops or explain its nationalities. |
+| [Kress, *Meine Mission im Kaukasus*, 2001 edition](https://de.scribd.com/document/46043064/General-Der-Artillerie-a-D-Friedrich-Freiherr-Kress-von-Kressenstein-MEINE-MISSION-IM-KAUKASUS) | A retrospective memoir accompanying a 1943 covering letter. The bounded late-period inspection finds no matching p73 radiogram; an apparent calendar-date match belongs to the editor's 1917 discussion. |
+| [Lepsius, *Deutschland und Armenien 1914–1918*, 1919](https://www.gutenberg.org/files/58144/58144-h/58144-h.htm) | Documents 439–444 were checked. Document 442 is Kress's outgoing 30 October report, not the sought incoming p73 message. |
+
+Exact page/image locators, inspected scopes and limitations are retained in
+[the registry](registry.json) and the linked case and review records. The
+[two held-out books](../experiments/open_targets/heldout_sources.json) used for
+statistical calibration have separate source and byte-hash provenance; their
+prose is not treated as a source for any historical telegram's wording.

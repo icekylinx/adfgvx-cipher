@@ -1,0 +1,884 @@
+{
+  "project": "ADFGVX Cipher",
+  "review_credit": "icekylinx and GPT-6 Astra Pro",
+  "inputs": {
+    "target": "p198 section D / CHI-170",
+    "ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+    "inserted_group": "XAXVV",
+    "group_source": "p198 section E, either identical adjacent copy at source15..19 or20..24",
+    "keys": [
+      {
+        "id": "Sep19-21",
+        "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+        "ranks": [
+          12,
+          2,
+          7,
+          20,
+          10,
+          19,
+          1,
+          13,
+          9,
+          18,
+          3,
+          17,
+          21,
+          8,
+          14,
+          4,
+          6,
+          16,
+          11,
+          22,
+          5,
+          15
+        ]
+      },
+      {
+        "id": "Oct4-6",
+        "square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+        "ranks": [
+          4,
+          13,
+          3,
+          14,
+          1,
+          16,
+          9,
+          15,
+          5,
+          19,
+          10,
+          18,
+          6,
+          17,
+          7,
+          20,
+          11,
+          21,
+          8,
+          12,
+          22,
+          2
+        ]
+      },
+      {
+        "id": "Oct28-31",
+        "square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+        "ranks": [
+          6,
+          15,
+          12,
+          16,
+          5,
+          7,
+          14,
+          4,
+          13,
+          8,
+          11,
+          1,
+          17,
+          2,
+          10,
+          3,
+          18,
+          9
+        ]
+      },
+      {
+        "id": "Nov1-3",
+        "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+        "ranks": [
+          3,
+          16,
+          4,
+          15,
+          7,
+          12,
+          18,
+          6,
+          17,
+          8,
+          19,
+          1,
+          13,
+          10,
+          2,
+          14,
+          11,
+          9,
+          5
+        ]
+      },
+      {
+        "id": "Nov4-6",
+        "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "ranks": [
+          7,
+          10,
+          8,
+          14,
+          3,
+          11,
+          16,
+          1,
+          6,
+          13,
+          4,
+          9,
+          15,
+          5,
+          12,
+          17,
+          2
+        ]
+      },
+      {
+        "id": "Nov7-9",
+        "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+        "ranks": [
+          6,
+          12,
+          7,
+          15,
+          1,
+          11,
+          16,
+          5,
+          8,
+          14,
+          3,
+          18,
+          9,
+          13,
+          2,
+          17,
+          20,
+          10,
+          19,
+          4
+        ]
+      },
+      {
+        "id": "Nov10-12",
+        "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+        "ranks": [
+          9,
+          12,
+          7,
+          11,
+          3,
+          8,
+          16,
+          6,
+          14,
+          2,
+          10,
+          15,
+          5,
+          13,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "Nov13-15a",
+        "square": "JZLH?R??S?T?MKDWU?V?B?P??FAO?GIX?CNE",
+        "ranks": [
+          13,
+          8,
+          6,
+          16,
+          7,
+          18,
+          1,
+          14,
+          9,
+          20,
+          10,
+          15,
+          17,
+          2,
+          3,
+          11,
+          5,
+          19,
+          4,
+          12
+        ]
+      },
+      {
+        "id": "Nov13-15b",
+        "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+        "ranks": [
+          4,
+          11,
+          5,
+          14,
+          9,
+          7,
+          16,
+          1,
+          12,
+          15,
+          6,
+          10,
+          3,
+          13,
+          8,
+          2
+        ]
+      },
+      {
+        "id": "Nov16-18",
+        "square": "WG?EITNHUB2R??FDZJS???PY?VQL?1OAXMKC",
+        "ranks": [
+          7,
+          12,
+          1,
+          14,
+          8,
+          16,
+          13,
+          9,
+          19,
+          3,
+          15,
+          4,
+          10,
+          18,
+          6,
+          2,
+          11,
+          17,
+          5
+        ]
+      },
+      {
+        "id": "Nov19-21",
+        "square": "LC58QH7VI2YB9EURO60GX3MTFAKP1D4NJZSW",
+        "ranks": [
+          13,
+          20,
+          3,
+          16,
+          7,
+          14,
+          4,
+          12,
+          8,
+          11,
+          5,
+          15,
+          2,
+          18,
+          17,
+          10,
+          19,
+          6,
+          1,
+          9
+        ]
+      },
+      {
+        "id": "Nov22-24",
+        "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+        "ranks": [
+          6,
+          12,
+          16,
+          7,
+          14,
+          22,
+          11,
+          18,
+          1,
+          15,
+          8,
+          10,
+          20,
+          2,
+          13,
+          21,
+          3,
+          17,
+          19,
+          5,
+          9,
+          4
+        ]
+      },
+      {
+        "id": "Nov25-28",
+        "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+        "ranks": [
+          21,
+          9,
+          6,
+          14,
+          10,
+          20,
+          1,
+          16,
+          18,
+          7,
+          15,
+          4,
+          11,
+          22,
+          5,
+          17,
+          23,
+          2,
+          12,
+          8,
+          19,
+          3,
+          13
+        ]
+      },
+      {
+        "id": "Nov28-Dec1",
+        "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+        "ranks": [
+          9,
+          3,
+          14,
+          10,
+          2,
+          8,
+          15,
+          4,
+          16,
+          11,
+          5,
+          13,
+          6,
+          12,
+          1,
+          7
+        ]
+      },
+      {
+        "id": "CHI-Nov13",
+        "square": "AROT?WH??C??SVU?I?DXBP?????NZELFK?G?",
+        "ranks": [
+          3,
+          13,
+          2,
+          12,
+          1,
+          11,
+          15,
+          8,
+          9,
+          4,
+          5,
+          14,
+          6,
+          10,
+          7,
+          16
+        ]
+      },
+      {
+        "id": "Jul18",
+        "square": "??PDGLM?TVC?AZH?X?W?E?SI??N?FU?O?RKB",
+        "ranks": [
+          1,
+          6,
+          3,
+          12,
+          8,
+          16,
+          2,
+          15,
+          7,
+          14,
+          4,
+          11,
+          13,
+          5,
+          10,
+          9
+        ]
+      },
+      {
+        "id": "Jul22",
+        "square": "G??ESXMO??B1K?R?LPC?JT?VUFAZW?HND?I?",
+        "ranks": [
+          21,
+          11,
+          19,
+          4,
+          18,
+          5,
+          14,
+          3,
+          6,
+          13,
+          12,
+          15,
+          7,
+          20,
+          8,
+          16,
+          2,
+          17,
+          9,
+          10,
+          1
+        ]
+      },
+      {
+        "id": "Aug3",
+        "square": "B?G??XP???H??V?EUO?ATIK?Z?RFWLDSN?CM",
+        "ranks": [
+          8,
+          19,
+          4,
+          11,
+          3,
+          14,
+          5,
+          1,
+          13,
+          18,
+          2,
+          17,
+          6,
+          15,
+          12,
+          9,
+          7,
+          16,
+          10
+        ]
+      },
+      {
+        "id": "Aug8-9",
+        "square": "5W02IF?PULZCBRX?GKVTNSADOH??3?18EJMQ",
+        "ranks": [
+          10,
+          5,
+          14,
+          18,
+          6,
+          2,
+          7,
+          20,
+          11,
+          19,
+          15,
+          1,
+          17,
+          12,
+          16,
+          3,
+          13,
+          8,
+          9,
+          4
+        ]
+      },
+      {
+        "id": "Aug20",
+        "square": "CS?BEWO1?0DL???I?VA?G?M??FHNR?PJXTUK",
+        "ranks": [
+          6,
+          10,
+          7,
+          14,
+          3,
+          8,
+          11,
+          4,
+          15,
+          1,
+          13,
+          12,
+          5,
+          9,
+          2
+        ]
+      },
+      {
+        "id": "NSA-undated-CHI-example-18",
+        "square": "J5YDWNHOMX48RFZ9KV0U7SEBAL32QP6GITC1",
+        "ranks": [
+          5,
+          11,
+          8,
+          18,
+          3,
+          10,
+          4,
+          15,
+          7,
+          9,
+          14,
+          16,
+          17,
+          2,
+          12,
+          1,
+          6,
+          13
+        ]
+      },
+      {
+        "id": "Worked-example-VIKINGSCROWNHOTEL",
+        "square": "VI9KNG7SC3ROWH8TE5LA1B2D4F6J0MPQUXYZ",
+        "ranks": [
+          16,
+          5,
+          7,
+          6,
+          9,
+          3,
+          14,
+          1,
+          13,
+          11,
+          17,
+          10,
+          4,
+          12,
+          15,
+          2,
+          8
+        ]
+      },
+      {
+        "id": "TRUPPENVERSCHIEBUNG-2026-reported",
+        "square": "TRUPE?NVSC2H7I?B1G6A0D3F5J9KLMOQWXYZ",
+        "ranks": [
+          16,
+          13,
+          17,
+          11,
+          12,
+          3,
+          9,
+          19,
+          4,
+          14,
+          15,
+          2,
+          7,
+          8,
+          5,
+          1,
+          18,
+          10,
+          6
+        ]
+      },
+      {
+        "id": "CHI-Nov8-2026-recovery",
+        "square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+        "ranks": [
+          16,
+          7,
+          13,
+          4,
+          15,
+          8,
+          17,
+          3,
+          1,
+          12,
+          14,
+          2,
+          5,
+          9,
+          10,
+          18,
+          11,
+          6
+        ]
+      }
+    ]
+  },
+  "model_sha256": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+  "score_definition": "Mean quadgram log probability; each whole-letter wildcard is normalized by36. Known half-coordinate domains remain available for exact arithmetic but are not used in ranking.",
+  "evaluated_cases": 3984,
+  "known_key_hypotheses": 24,
+  "tested_insertion_boundaries": 166,
+  "all_165_source_coordinates_preserved": true,
+  "exact_coordinate_roundtrips_verified": 3984,
+  "canonical_all_records_sha256": "ceb6e119b64d5e210300771f49e58be7275a216dd889124c71a924eeee4c1ff8",
+  "canonical_arithmetic_records_sha256": "948123d8a52695cc51a278ed09a3bb0a97055af3546ef9a363305d4c7db2f9cd",
+  "top_twenty": [
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 37,
+      "score": -5.97805420638093,
+      "partial_plaintext": "????KIEB?E??G??C?KEIS?LDU?G???ENANN???IUH??N?OZD?NBE???VK???ILSV??FB?R?U?N?E?EU?ZW?K?"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 28,
+      "score": -6.032378967970999,
+      "partial_plaintext": "????GIEB?E?????C?KEI??LDU?G?E?ENANN???IUH??N?OZDLNBE???VO???SLSV??FBHR?UEN?E?EU?ZW?K?"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 38,
+      "score": -6.036474329601256,
+      "partial_plaintext": "????KIEB?E??G??C?KEIS?LDU?G???ENANN???IUH??NEOZD?NBEH??VK????LSV??FB?R?U?N?E?EU?ZW?K?"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 39,
+      "score": -6.044940487415088,
+      "partial_plaintext": "????KIEB?E??G??C?KEIS?LDU?G???ENANN???IUH??NNOZD?NBE???VK???SLSV??FB?R?U?N?E?EU?ZW?KI"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 74,
+      "score": -6.047755111395645,
+      "partial_plaintext": "????K?EB?E?AG?D??KE?S?SSU?GG?WE?ANNI?EIBH??NN????NBE????K???VLD???FBC??B?N?E??U?ZW?KU"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 91,
+      "score": -6.055111263661485,
+      "partial_plaintext": "???C??EB?E?W??D??KEIS?SSU?GKHWE?ANN??EIBH????????NBEK???K???RLD???FB???B?N?Z??U?ZW?F?"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 78,
+      "score": -6.067793237017374,
+      "partial_plaintext": "???CK?EB?E?WG?D??KEIS?SSU?GK?WE?ANN??EIBH???N????NBE????K???VLD???F?C??B?N?E??U?ZW?KU"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 67,
+      "score": -6.068344563990056,
+      "partial_plaintext": "????K?EB?E??G?D??KEIS?SSU?G??WE?ANN??EIOH??NN??L?NBE????K???VLD???FBC??U?N?E??U?ZW?KU"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 69,
+      "score": -6.070601579830581,
+      "partial_plaintext": "????K?EB?E??G?D??KEIS?SSU?G??WE?ANN??EIBH??NN??L?NBE???RK???VLDF??FBC????N?E??UEZW?KU"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 65,
+      "score": -6.075613167245165,
+      "partial_plaintext": "????K?EB?E??G?D??KEIS?SAU?G??WE?ANN??EI?H??NN????NBE???VK???VLDV??FBC??U?N?E??U?ZW?KU"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 71,
+      "score": -6.080052256601564,
+      "partial_plaintext": "????K?EB?E??G?D??KEIS?SSU?G??WE?ANN??EIBH??NN????NBE????K???VLDF??FBC??O?N?E??U?ZW?KU"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 82,
+      "score": -6.087157695897514,
+      "partial_plaintext": "???C??EB?E?WZ?D??KEIS?SSU?GK?WE?ANN??EIBH???N????NBE????K???VLD???F?C??B?N????U?ZW??U"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 89,
+      "score": -6.09121696325623,
+      "partial_plaintext": "???C??EB?E?W??D??KEIS?SSU?GKHWE?ANN??EIBH???T????NBEK???K????LD???FBN??B?N?Z??U?ZW?FU"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 68,
+      "score": -6.091519722141822,
+      "partial_plaintext": "????K?EB?E??G?D??KEIS?SSU?G??WE?ANN??EIKH??NN??A?NBE???FK???VLD???FBC????N?E??U?ZW?KU"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 88,
+      "score": -6.103668774694048,
+      "partial_plaintext": "???C??EB?E?W??D??KEIS?SSU?GKLWE?ANN?WEIBH????????NBE????K????LD???FBC??B?N?Z??U?ZW?FU"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 31,
+      "score": -6.104850668567884,
+      "partial_plaintext": "?????IEB?E??G??C?KEII?LDU?G?E?ENANN???IUH??N?OZD?NBE???VK???SLSV??FBHR?U?N?E?EU??W?K?"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 80,
+      "score": -6.1067345397916375,
+      "partial_plaintext": "???CK?EB?E?WG?D??KEIS?SSU?GK?WE?ANN??EIBH???N????NBE????K??HVLD???F?C??B?N?Z??U?ZW?GU"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 81,
+      "score": -6.1095011903192455,
+      "partial_plaintext": "???C??EB?E?WG?D??KEIS?SSU?GK?WE?ANN??EIBH???N????NBE????K???VLD???FDC??B?N?E??U?ZW?GU"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 36,
+      "score": -6.125469674646732,
+      "partial_plaintext": "????KIEB?E??G??C?KEIS?LDU?G?E?ENANN?H?IUH??NEOZD?NBE???VK???ILSV??FBHR?U?N?E?EU?ZW?K?"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 70,
+      "score": -6.1320786114801935,
+      "partial_plaintext": "????K?EB?E??G?D??KEIS?SSU?G??WE?ANN??EIBH??NN????NBE???FK???VLDR??FBC??K?N?E??UEZW?KU"
+    }
+  ],
+  "best_by_key": [
+    {
+      "key_id": "Sep19-21",
+      "gap_before_source_0based": 40,
+      "score": -9.198437777961173,
+      "partial_plaintext": "XUIKVZMVIZMAS8YHMORXTEEYSVJTCDQ2LLDCX9NM5R76OVLWTLRIVY3LXV2P6IXPRAK6VCSNZX0SFIMJ3FG6X"
+    },
+    {
+      "key_id": "Oct4-6",
+      "gap_before_source_0based": 3,
+      "score": -9.165723277301323,
+      "partial_plaintext": "0FCA8E9LXABW4LKIE8ODGK6AADAE7Y4MJ82VIG0GMAKUI380VT0G1632M59VAS85FLEBAOH9U9EOQLATFOF09"
+    },
+    {
+      "key_id": "Oct28-31",
+      "gap_before_source_0based": 16,
+      "score": -9.22755828136351,
+      "partial_plaintext": "EXDGDUGNAEX7PW7OV0H7D3FVZ6J3L073XDFOMT29LS8YXXGVGLNCFYDZB6OFDUWDCOP64N613TUPANERLN7J1"
+    },
+    {
+      "key_id": "Nov1-3",
+      "gap_before_source_0based": 129,
+      "score": -9.474951040454027,
+      "partial_plaintext": "DV0Y38TVSIQQLH0QA15EYWP7BZAAD6L3UG3KJWS6PSZFM19XKLAP26M5EGTBKVV4PHG3M5YHL7Q19F5QQ62E1"
+    },
+    {
+      "key_id": "Nov4-6",
+      "gap_before_source_0based": 53,
+      "score": -9.115107024588236,
+      "partial_plaintext": "YVG7ANXQQDEA96I66AEP4IAMEA2LWNQNZ60REGFAED5ZKZNEMGF6BL2BLL8YHCSFNXLUEYIIKY4M3SIIUQ5AC"
+    },
+    {
+      "key_id": "Nov7-9",
+      "gap_before_source_0based": 153,
+      "score": -8.797073536228082,
+      "partial_plaintext": "OJEME?HSMMQKCQBBX9B?UO?VHZKJ70H?A?7XB4WX?I0H9U9ASHP1JK1LTSZF??B7ONA0QOH8PA1OXVATHV?NT"
+    },
+    {
+      "key_id": "Nov10-12",
+      "gap_before_source_0based": 65,
+      "score": -8.369803079467674,
+      "partial_plaintext": "?VTYQGBK?XKBE4ZBB?YMPRU2HTZU??H?S?Z?GH?CEEUPY24?SHNRZYCJPP2SPAHRF?0IUUQGSP?ZIP?SVM0YY"
+    },
+    {
+      "key_id": "Nov13-15a",
+      "gap_before_source_0based": 139,
+      "score": -6.812064640202812,
+      "partial_plaintext": "CVAT?UX?DMXM?U??C??RCM?GOWES?T?LKEAENFZ?BOGAV?RZCECE???WXSPID?M??O?E?IA?AR?SOMSASA?CG"
+    },
+    {
+      "key_id": "Nov13-15b",
+      "gap_before_source_0based": 165,
+      "score": -8.39811315759626,
+      "partial_plaintext": "G?5JS?HOW???CAFCL?5XVOIWAZL0KDLJ?I5?RNRCM?P?VLURCW?G?OXCOKCHL0AG?NM?6OEJ5EBK?A?ASWG?R"
+    },
+    {
+      "key_id": "Nov16-18",
+      "gap_before_source_0based": 160,
+      "score": -8.096473214759776,
+      "partial_plaintext": "?B?ZE?MGRI?XZYU1??R?LYB?TJCO?CQKPWK??F1QJ1GTB1TUC?JVX?IRDPY?XU?B???SZ?XJQJPQYMVFO?R?A"
+    },
+    {
+      "key_id": "Nov19-21",
+      "gap_before_source_0based": 114,
+      "score": -9.316595060069387,
+      "partial_plaintext": "ZX19GKJSU24PWHY87KKOP3DYGHGDF1XI61KZWUYS4FFWEMAWTPELT4GU4WFZA7O4U2IJS3IJ1K6TDOOHDRU69"
+    },
+    {
+      "key_id": "Nov22-24",
+      "gap_before_source_0based": 145,
+      "score": -9.41641526687436,
+      "partial_plaintext": "56YUIBX2DKG618K3V52UKH3LOPV6U5F2RCVAEPEWUSCL9ETOWU2VMP336911BK1QSER1OKFD5ZCAKXEKWZJE7"
+    },
+    {
+      "key_id": "Nov25-28",
+      "gap_before_source_0based": 30,
+      "score": -9.247371975968523,
+      "partial_plaintext": "UUSYIQ98L2D93XURZXLIOHP5BJ4RI305XT4T584JW8PU1PXKI9SNS2MXGIB4J1KYFS8X91XBFT3NXGTVMYRZN"
+    },
+    {
+      "key_id": "Nov28-Dec1",
+      "gap_before_source_0based": 38,
+      "score": -9.370297815741562,
+      "partial_plaintext": "1MLSWXZQKZSQ3DZNWEJPXHRAD1S1PLMCRWHBLD0J5S03313MASLZ270LF3ZEFEV231V9OMDM97QVIG0Q9QZJS"
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "gap_before_source_0based": 37,
+      "score": -5.97805420638093,
+      "partial_plaintext": "????KIEB?E??G??C?KEIS?LDU?G???ENANN???IUH??N?OZD?NBE???VK???ILSV??FB?R?U?N?E?EU?ZW?K?"
+    },
+    {
+      "key_id": "Jul18",
+      "gap_before_source_0based": 114,
+      "score": -6.36678448885595,
+      "partial_plaintext": "T?BBI???XKN?XNA??X??XGS??H?TH?I?FP?UIKAH?V?EUSGB?U?FU?G??RZSN?G?RK??EI?UC?T?WASSE?UG?"
+    },
+    {
+      "key_id": "Jul22",
+      "gap_before_source_0based": 96,
+      "score": -7.60777822368631,
+      "partial_plaintext": "VRI?MBA??TMHLPZDBWNJJJMW?LIW?J?A??X?U??????BHWSXZ?U?FU??S?DZVSPOP?NHA????JPDRHX?RL?KN"
+    },
+    {
+      "key_id": "Aug3",
+      "gap_before_source_0based": 74,
+      "score": -6.678044373394303,
+      "partial_plaintext": "E?K?M?R?ZF??MOEO?I?ESLKWNXLENO???W?U?N?S?HSSFMU?H?INAC?FL??OEW?N??UUNT???GICLB?XRR?ML"
+    },
+    {
+      "key_id": "Aug8-9",
+      "gap_before_source_0based": 103,
+      "score": -8.142266596334682,
+      "partial_plaintext": "?DKJ?RKM8NGEROUXA?JO1X2?GAMTIHBO??ZQ?AE3QPMVPAOB?DJ?FR??BW?DXHHHM?EFEDH13XFVQ0?MLE?D0"
+    },
+    {
+      "key_id": "Aug20",
+      "gap_before_source_0based": 86,
+      "score": -6.912307209083011,
+      "partial_plaintext": "V?LDJGFUEKU?V???F??M?ST???PU?1LGSTMIHNTJH?KMT?G??BXPH??B?WEB?RKXL?V?XLN??ER?TR?T?M?HH"
+    },
+    {
+      "key_id": "NSA-undated-CHI-example-18",
+      "gap_before_source_0based": 37,
+      "score": -9.222002860976428,
+      "partial_plaintext": "Y7BAQBFFF12869PTIWAR362ZVCQASWIS7Q111ZO2V6PQNERCVQFOB3KFFQZBET38UZWBU2R2035YMRCP1RPO1"
+    },
+    {
+      "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+      "gap_before_source_0based": 47,
+      "score": -9.373357540223656,
+      "partial_plaintext": "I2YAEEXT8109TJOZUU4HNZ96Y88MPXKCMX428N4HFH0FM8UWW60ODPBDONKJY6OGQGQJ480M5WDXDXFY3MUH3"
+    },
+    {
+      "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+      "gap_before_source_0based": 22,
+      "score": -8.785619588936221,
+      "partial_plaintext": "?QPB2ILQZSWMS?X31?K3ILDGZK19G61E??M2YWMVZ5UFKESEGNEVDS5XY1S?AM19XMZNWKG6DD?7Y7YFYE?G1"
+    },
+    {
+      "key_id": "CHI-Nov8-2026-recovery",
+      "gap_before_source_0based": 1,
+      "score": -6.274610141614769,
+      "partial_plaintext": "RM?M?LC??LDGAE?HEO???C?HU?EC?UHR?UDG?NO?V?R?I?L??VAZNE?R??C?O???MH?H??O??M?ERZ??LTZCW"
+    }
+  ],
+  "accepted_historical_plaintexts": 0,
+  "limitation": "Exhaustive only for these fixed ranks and partial squares. The five extra E coordinates may be independent dittography rather than a displaced D group; this test does not establish transfer."
+}
