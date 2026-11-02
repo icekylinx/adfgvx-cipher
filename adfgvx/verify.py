@@ -12,7 +12,7 @@ from .cipher import decrypt, encrypt, self_check, SYMBOLS, plaintext_domains, tr
 from .alignment import find_switch, table, alignment
 from .projection import analyze, untranspose as project_untranspose, transpose as project_transpose
 from . import prior
-from . import constraints164, constraints215, supplementary
+from . import constraints164, constraints215, supplementary, editorial164
 
 ROOT=Path(__file__).resolve().parent.parent
 
@@ -160,6 +160,27 @@ def supplementary_readings():
     return result
 
 
+def p164_editorial():
+    record=certificate('p164_A4_editorial')
+    source_path=ROOT/'data/certificates'/record['source_certificate']
+    assert hashlib.sha256(source_path.read_bytes()).hexdigest()==record['source_certificate_sha256']
+    sources=json.loads(source_path.read_text())
+    source=next(s for s in sources['sources'] if s['id']==record['source_id'])
+    assert record['raw_source_ciphertext']==source['ciphertext']
+    assert record['key']==sources['key']
+    result=editorial164.verify(record)
+    ranks=record['key']['column_rank_order'];square=record['key']['square']
+    raw=plaintext_domains(record['raw_source_ciphertext'],ranks,square)
+    assert ''.join(d if len(d)==1 else '?' for d in raw)==record['raw_source_plaintext']
+    for variant in [record['hypothesis'],record['full_editorial_hypothesis']]:
+        analysis=variant['analysis'];ciphertext=analysis['corrected_ciphertext']
+        assert plaintext_domains(ciphertext,ranks,square)==[d['possible_characters'] for d in analysis['domains']]
+    assert encrypt(record['full_editorial_plaintext'],ranks,square)==record['full_editorial_hypothesis']['analysis']['corrected_ciphertext']
+    result.update(status='PASS',classification='conditional_editorial_reconstruction',
+                  independent_domain_crosscheck=True)
+    return result
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--json',action='store_true');args=parser.parse_args()
     assert self_check()
@@ -169,7 +190,7 @@ def main():
     else:raise AssertionError('Odd-length input was silently truncated')
     results={'arithmetic':'PASS','cases':{'p152':p152(),'p158':p158(),'p189':p189(),
              'p164':constraints164.verify(certificate('p164')),
-             'p215':constraints215.verify(certificate('p215'))},
+             'p215':constraints215.verify(certificate('p215')),'p164_A4_editorial':p164_editorial()},
              'prior_readings':prior_readings(),'supplementary_readings':supplementary_readings()}
     if args.json:print(json.dumps(results,indent=2))
     else:

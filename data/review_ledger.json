@@ -231,7 +231,7 @@
         ],
         "qualifications": [
           "The source's G--VVD group is normalized as G?VVD under the explicitly stated five-slot group-layout assumption.",
-          "Beyond the repair list, the published ciphertext changes source 108 V→F and 311 V→X. Both are retained explicitly here.",
+          "Beyond the repair list, the published ciphertext changes source 108 V\u2192F and 311 V\u2192X. Both are retained explicitly here.",
           "The raw plaintext has KURSETARK. Baertl's later KURSESTARK is an editorial addition, not the exact raw decryption."
         ]
       }
@@ -287,7 +287,7 @@
         ],
         "qualifications": [
           "The primary header is RICHI-240 and 220 coordinates were received. This independently supports a 20-coordinate shortage, but does not determine the missing symbols.",
-          "The three unit digits use unassigned Nov 10–12 square cells. They cannot be fixed from this ciphertext and the attested key alone.",
+          "The three unit digits use unassigned Nov 10\u201312 square cells. They cannot be fixed from this ciphertext and the attested key alone.",
           "The 217/219/6 wording is supported by an independently checked French report dated 19 November describing 11 November forces. That is contextual evidence, distinct from a cryptographic assignment of the missing digits."
         ]
       }
@@ -396,7 +396,7 @@
         "qualifications": [
           "The partial square and 19-column TRUPPENVERSCHIEBUNG key are sufficient for every letter used in this 85-letter message.",
           "The claimed 1919 manuscript and December 9 key attribution were reported by the 2026 author. This audit verifies arithmetic and attested cells, not the unexamined manuscript provenance.",
-          "Christian Horvat suggested the AVXFF→AVXVF correction in a 2026-09-21 comment on the September 19 follow-up article. It changes only S4STEN to 24 STEN."
+          "Christian Horvat suggested the AVXFF\u2192AVXVF correction in a 2026-09-21 comment on the September 19 follow-up article. It changes only S4STEN to 24 STEN."
         ]
       }
     },
@@ -1087,6 +1087,29 @@
       "verification_evidence": {
         "artifact": "reviews/historical_component_prior.json",
         "interpretation_limit": "ARMEESCHLUESSEL DOPPELT concerns the separate army transposition cipher; this does not establish two complete ADFGVX encipherments."
+      }
+    },
+    {
+      "id": "p164_A4_conditional_editorial",
+      "scope": [
+        "p164_A4",
+        "p164a",
+        "p164b"
+      ],
+      "claim_reviewed": "The adjacent A4 report can be reconstructed as a report of dismounted cavalry west of MIRCO, conditional on explicit source repairs.",
+      "attribution": {
+        "authors": [
+          "IceKylin",
+          "GPT-6 Astra"
+        ],
+        "date": "2026-11-02"
+      },
+      "review_status": "verified_conditional_arithmetic_not_historical_repairs",
+      "result": "The source fixes 87 of 99 letters. The complete editorial proposal requires nine substitutions of valid source coordinates and thirteen guessed erasure values. Every changed printed glyph was visually rechecked and supports the literal source, so these are substantive conjectural repairs. Both global assignments of the unresolved square digits reproduce the stated ciphertext. ABGESESSENEN supplies an alternative explanation for the internal ESSEK fragment; MIRCO remains unidentified. No core target status is upgraded.",
+      "verification_evidence": {
+        "artifact": "certificates/p164_A4_editorial.json",
+        "verifier": "../adfgvx/editorial164.py",
+        "case": "../cases/context/p164_A4.md"
       }
     }
   ]
