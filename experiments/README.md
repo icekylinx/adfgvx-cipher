@@ -11,6 +11,7 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [October staffing and service traffic](october_staffing/README.md) | Six exact frames; 1,264 slots; 630/632 raw positions | Four source-coordinate substitutions and two erasure fills; brigade/regiment numerals 4 are directly observed. |
 | [Siedlce garrison withdrawal](siedlce_withdrawal/README.md) | 330 source slots; complete 165-position edition; independently attested signature | Eleven substitutions and one dash fill; no key change, inserted plaintext, or inferred battalion number. |
 | [Black Sea shipping and supply](black_sea_shipping/README.md) | Five records; 1,596 slots; all surplus-coordinate and gap alternatives retained | Prior p199 body credit; source-level cargo and Corcovado editions with unresolved quantity and references. |
 | [Naval armistice order](naval_armistice_order/README.md) | Five parts; 1,436 received coordinates; two short groups; 717/719 fixed positions after costed repairs | Prior Lasry-team body credit retained; 14 substitutions, two insertions, 20 coupled numeral pairs, ambiguous length glyphs and conflicting source years are explicit. |

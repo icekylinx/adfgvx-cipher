@@ -58,12 +58,18 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](cases/p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
 | [p217](cases/p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 162 reviewed records
+## Other ciphertexts — 168 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p66 A](cases/other/october_staffing.md#p66-a--an-abbreviated-tiflis-unit-response) | Abbreviated Tiflis mounted-unit and location response | 95/95 raw positions; no repair; unit abbreviations retained | icekylinx and GPT-6 Astra Pro (2026) |
+| [p66 B](cases/other/october_staffing.md#p66-b--repeat-the-garbled-medical-telegram) | Leading medical officer asked to repeat a garbled telegram | 142/142 raw positions; two explicit coordinate substitutions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p66 C1](cases/other/october_staffing.md#p66-c1-and-p67-a2--bavarian-command-appointments) | Graf von Seyboltstorff ordered to the 4th Bavarian Cavalry Brigade | 143/143 raw positions; one surname-ending coordinate repair; both unit numerals 4 direct | icekylinx and GPT-6 Astra Pro (2026) |
+| [p67 A2](cases/other/october_staffing.md#p66-c1-and-p67-a2--bavarian-command-appointments) | Karl von Grundherr designated as replacement in the Caucasus delegation order | 110/110 raw positions; one explicit word repair; reference retained | icekylinx and GPT-6 Astra Pro (2026) |
+| [p67 B](cases/other/october_staffing.md#p67-b--suspend-further-manganese-ore-purchases) | Further manganese-ore purchases suspended | 110/112 raw positions; two erasure fills; surname first letter conditional | icekylinx and GPT-6 Astra Pro (2026) |
+| [p67 C](cases/other/october_staffing.md#p67-c--telegram-acknowledgment-and-a-separate-clear-instruction) | Travel-telegram acknowledgment and separate clear service instruction | 30/30 raw positions; no repair; clear postscript separated from ciphertext | icekylinx and GPT-6 Astra Pro (2026) |
 | [p68 A1](cases/other/october_caucasus.md#p68-a--provisional-procurement-text-carrying-chi-labels) | Kress procurement message; proposed dispatch of two officers | Provisional; 24 known-coordinate substitutions; damaged reference open | icekylinx and GPT-6 Astra Pro (2026) |
 | [p68 A2](cases/other/october_caucasus.md#p68-a--provisional-procurement-text-carrying-chi-labels) | Artillery-ammunition opening only | Partial: 21/93 positions proposed; remaining 72 unasserted | icekylinx and GPT-6 Astra Pro (2026) |
 | [p69 A](cases/other/october_caucasus.md#p69-a--a-liaison-officer-from-army-group-kiev) | Liaison officer dispatched from Army Group Kiev to Tiflis | Repaired reading; repeated surname provisionally Tellner | icekylinx and GPT-6 Astra Pro (2026) |
