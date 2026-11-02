@@ -58,7 +58,7 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](cases/p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
 | [p217](cases/p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 150 reviewed records
+## Other ciphertexts — 155 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
@@ -141,6 +141,11 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p174 C](cases/other/seifert.md) | Query about Seifert's return | 24/24 positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
 | [p174 D](cases/other/seifert.md) | Repeated immediate listening instruction | Identical to p172 B; no digit inferred from repetition | icekylinx and GPT-6 Astra Pro (2026) |
 | [p174 E](cases/other/seifert.md) | Seifert has departed | Two explicit coordinate repairs for the name | icekylinx and GPT-6 Astra Pro (2026) |
+| [p178 part 1](cases/other/naval_armistice_order.md) | Immediate forwarding to all naval forces | Prior body; 119/119 raw; one explicit coordinate repair | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |
+| [p178 part 2](cases/other/naval_armistice_order.md) | Armistice at noon 11 November; cease all war actions | Prior body; short VXDX group repaired; 154/155 raw | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |
+| [p178 part 3](cases/other/naval_armistice_order.md) | Assemble at bases; send enciphered notice to U-boats | Prior body; short AFGA group repaired; 137/140 raw | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |
+| [p178 part 4](cases/other/naval_armistice_order.md) | Enemy attacks may continue; weapons only for self-defense | Prior body; 288 counted coordinates; ambiguous printed length retained | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |
+| [p178 part 5](cases/other/naval_armistice_order.md) | Requested passage through neutral waters and receipt acknowledgments | Prior body; 158/161 raw; two distinct unresolved reference digits | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |
 | [p180 A3](cases/other/p180_A.md) | Enemy follows withdrawal near Giurgiu; Braila and Focsani evacuated | 77/78 raw positions; nine substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p181 A](cases/other/mackensen_warsaw.md) | Warsaw Soldiers Council asks about Mackensens advance | Prior query interpretation; later quote supplies one source erasure | Lasry, Niebel, Kopal and Wacker; source comparison: icekylinx and GPT-6 Astra Pro (2026) |
 | [p185 C](cases/p189.md) | Vehicle provision impossible; await orders | Direct raw reading; source parallel for p 189 A | icekylinx and GPT-6 Astra Pro (2026) |

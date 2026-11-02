@@ -11,6 +11,7 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Naval armistice order](naval_armistice_order/README.md) | Five parts;1,436received coordinates;two short groups;717/719fixed positions after costed repairs | Prior Lasry-team body credit retained;14substitutions,two insertions,20coupled numeral pairs,ambiguous length glyphs and conflicting source years are explicit. |
 | [Warsaw and LP service messages](warsaw_service_messages/README.md) | Four records; 1,081 source slots; two tied zero-substitution one-coordinate gap fits | Source dates, numerical labels and misspellings retained; all conditional Y effects checked across ten variants without additional fixed letters. |
 | [Polish appointment and conditional Y](tiflis_appointment/README.md) | Two source parts, 457 received coordinates; gap location selected without courier name or signature | Ordinary words give 114/116 positions in part 3; independent historical identity supplies the final two conditionally. All eight arithmetic name alternatives and all local key-domain effects remain visible. |
 | [November 14 cross-key retransmissions](nov14_retransmissions/README.md) | Seven source records; exact 195-coordinate suffix supplies 85 missing coordinates and 85 raw letters | Two differently keyed request pairs witness 87/88 and 94/94 candidate letters; surname equality leaves multiple symbols and is not a key fill. |

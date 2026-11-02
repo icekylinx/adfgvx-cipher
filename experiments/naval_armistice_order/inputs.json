@@ -1,0 +1,251 @@
+{
+  "schema": "adfgvx-naval-armistice-order-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 178,
+    "pdf_page_1based": 181,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "full_page_image": "sources/childs_p178_page.png",
+    "full_page_image_sha256": "c46a5536f0c5e060dce1518b2ce0dd02deb467caa781933ff5518d4756ebb8d2",
+    "page_heading_literal": "11th NOVEMBER, 1916",
+    "message_header_literal": "A) NKJ v VLP (07.06 p.m. November 11, 1918); 1430 (11) 5 TLE",
+    "date_note": "The page-heading year 1916 conflicts with the explicitly printed intercept year 1918. Both are retained; the body states 11 November and noon without a year."
+  },
+  "prior_reading": {
+    "authors": [
+      "George Lasry",
+      "Ingo Niebel",
+      "Nils Kopal",
+      "Arno Wacker"
+    ],
+    "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+    "publication": "Cryptologia 41(2), 101\u2013136 (2017), published online 2016",
+    "doi_url": "https://doi.org/10.1080/01611194.2016.1169461",
+    "public_author_manuscript": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+    "inspected_author_copy_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+    "inspected_locator": "Author manuscript printed p23, PDF p24 in the inspected ResearchGate-cover copy",
+    "scope": "The authors explicitly discuss Childs p178 A and B, identifying the armistice cease-fire order, MMD, Navy Special Command, U-boat instructions, self-defense and requested neutral-water passage. This package does not claim those body identifications as new.",
+    "our_contribution": "Full literal German source edition, explicit two short-group insertion hypotheses, coordinate-repair costs, unresolved numeric domains, and reproducible arithmetic certificate."
+  },
+  "key": {
+    "id": "Nov10-12",
+    "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+    "column_rank_order": [
+      9,
+      12,
+      7,
+      11,
+      3,
+      8,
+      16,
+      6,
+      14,
+      2,
+      10,
+      15,
+      5,
+      13,
+      1,
+      4
+    ],
+    "credit": "Published Lasry-team period key; unchanged."
+  },
+  "records": [
+    {
+      "id": "p178_A1",
+      "part_number": 1,
+      "source_rows": [
+        "FGDDD DGAGF AVVGF XXDGX DFFAX XDFAA GVGDG ADAAD",
+        "DDAAG VAAGA AVVXD XXVDG GGGDA DVDFD AAGDX XVXXV",
+        "VDAGX VXXGD GDFGD VAAAV ADADX VVAXF GDDFX GGVVV",
+        "GDGDD GDDVA VGDVG DDDGD VAVXA AVDXX XAXAA XFVFX",
+        "FXVVX DVXVF AVDXF FADGV DDAGD DXXFV VFXAG GADAA",
+        "ADGVV DFGXX GXVXX XVXDF VXXGA GGDGA AVGAF GVV"
+      ],
+      "source_crop": "sources/childs_p178_A1.png",
+      "source_crop_sha256": "0b778644369737b00e55e4dd87825a5e4aee4b0ee725a44d34e2a8c09ee66878",
+      "crop_rectangle_pdf_points": [
+        80,
+        190,
+        545,
+        272
+      ],
+      "crop_scale": 4,
+      "frame_length": 238,
+      "advertised_length_reading": 238,
+      "editorial_recipe": {
+        "text": "2XADRESZENX1XXMMDX2XXSDOKOMMANDOXVONSKLSKLXX1XSOFORTANALLESTREITKRAEFTEMITALLENVERFUEGBARENVERKEHRSMITTELNUEBERMITTELNX",
+        "pair_overrides": []
+      },
+      "literal_spelling_note": "ADRESZEN is retained in the same-length edition; only KRAWFTE is repaired."
+    },
+    {
+      "id": "p178_A2",
+      "part_number": 2,
+      "source_rows": [
+        "GAADG DADVF GVAFD VADXX FVAVF AVVXG VXXAX DXGAA",
+        "XDDVD DGGDG VVAGA DGDXV VXDX FXVDX GGDXF GDVDD",
+        "VDVAA DADDG DVVDV DXFGD ADAXD GVXDX XAXVX GVAAA",
+        "AAGGV DGDXD AAVVD XGDXA DDDVV VAFXV AFFAX AAAAD",
+        "VDDAD AAXDA GDAVA AGAGV DDAGD DAGDG DAFDV VDDFF",
+        "VDXXX AGDGD VXFDD XVVFX GXVGG DDXGX GDAVX DDXXX",
+        "VDDVX DAXXX VXDGA AGADG DAVDD DVGVD VAXVF AXFGF",
+        "DDDFD DAGVF XAVDA DAGDD FAVAD VGVAV"
+      ],
+      "source_crop": "sources/childs_p178_A2.png",
+      "source_crop_sha256": "2308e3e11f56115b46c5c9c3926dc6a0539c609254cd8aaa5d089118a8a2b5b1",
+      "crop_rectangle_pdf_points": [
+        70,
+        277,
+        550,
+        379
+      ],
+      "crop_scale": 4,
+      "frame_length": 310,
+      "advertised_length_reading": 310,
+      "editorial_recipe": {
+        "text": "AM11X11X12UHRMITTAGSTRITTANALLENFRONTENDERWAFFENSTILLSTANDINKRAFTXMITDIESEMZEITPUNKTSINDALLEKRIEGSHANDLUNGENEINZUSTELLENXALLESEESTREITKRAEFTEBESCHLEUNIGTIN",
+        "pair_overrides": []
+      },
+      "short_group": {
+        "group_index_0based": 12,
+        "literal": "VXDX",
+        "received_coordinate_start_0based": 60,
+        "candidate_gap_boundaries_0based": [
+          60,
+          61,
+          62,
+          63,
+          64
+        ],
+        "chosen_gap_boundary_0based": 64,
+        "inserted_coordinate": "D",
+        "qualification": "The symbol is editorially supplied, not visible in the four-character source group. All five possible one-loss positions within this group are compared for the fixed proposed text."
+      },
+      "header_note": "The page prints B) beside 2 TL despite the first-part header specifying 5 TLE. No separate route or timestamp accompanies this B). Both the mark and sequential part number are retained."
+    },
+    {
+      "id": "p178_A3",
+      "part_number": 3,
+      "source_rows": [
+        "AGVDV VAGVA VAAAG FDVXX DDFDD ADVAA XGXFA AGVVA",
+        "DGAAV VDFVA DDGVF XXXFA XGXGG AFGA AVAGD VAAAA",
+        "GFVDA DXXXX FVFXF FDGXX XDAXA DVDGD GVVDV XDXDD",
+        "VVGVA DXDGX GVXXG FXVGX DDGAX GVGGD DDVXD GXDFD",
+        "ADGVF DDDVV AGAGG VVXXD DAVXG DDGXF GXXGX VDDDF",
+        "XADFG XDFAD GVDAG VFXDV DFAGD DDAAD DDDFA ADDAV",
+        "GDDDV GGDGV XFXAG XFVXV DAVVX VAAVG FFDDV VDAVG"
+      ],
+      "source_crop": "sources/childs_p178_A3.png",
+      "source_crop_sha256": "6349096fe6b50e7e6667f3f0d47a32d50ad3d773adc3b7532ee0e3345d7f48d2",
+      "crop_rectangle_pdf_points": [
+        70,
+        386,
+        550,
+        483
+      ],
+      "crop_scale": 4,
+      "frame_length": 280,
+      "advertised_length_reading": null,
+      "editorial_recipe": {
+        "text": "STUETZPUNKTENSAMMELNNACHANWEISUNGDERIMMEDIATBEFEHLSHABERX2XXANALLEUBOOTEISTBISAUFWEITERESGESCHLUESSELTZUGEBENXWAFFENSTILLSTANDABGESCHLOSSENX",
+        "pair_overrides": []
+      },
+      "short_group": {
+        "group_index_0based": 13,
+        "literal": "AFGA",
+        "received_coordinate_start_0based": 65,
+        "candidate_gap_boundaries_0based": [
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        "chosen_gap_boundary_0based": 65,
+        "inserted_coordinate": "D",
+        "qualification": "The symbol is editorially supplied, not visible in the four-character source group. All five possible one-loss positions within this group are compared for the fixed proposed text."
+      },
+      "advertised_length_literal": "RICHI-2[6/8]0",
+      "advertised_length_candidates": [
+        260,
+        280
+      ],
+      "header_glyphs_unresolved": true,
+      "header_note": "The middle length digit has a damaged upper loop and is retained as 6 or 8 independently of the body. The 279 visible coordinates and the four-letter group independently motivate the conditional 280-coordinate frame; they do not establish the printed header digit."
+    },
+    {
+      "id": "p178_A4",
+      "part_number": 4,
+      "source_rows": [
+        "GVAVV AVFDG DDAVD AAAAG XDDXV DXFXX DXXXG DDDDD",
+        "DDDDD VDVVD VDVDD XVXAV XXXXD DFAFD GFAAD GDDAA",
+        "ADGGX VAAFV DVXGX GVFXD VDXXX DXVAG VAVVV ADDVD",
+        "VDDVX DXDXG DXDFV VDXXF XXFAG AVGDV ADDDV AVDVD",
+        "AAVAD GGVAV DVAGD AVFAV DVFDX XXVXG XFFFX XDXDD",
+        "ADFFF FADDV ADFFG FVFGA DGDFV XVADX DFGFV FDAGV",
+        "DDDFV DADGV AVFGD AAXFX XXFDX FDFFX DAVFD DAVVA",
+        "ADDVD XDA"
+      ],
+      "source_crop": "sources/childs_p178_A4.png",
+      "source_crop_sha256": "e3767df5220af02f105eca066a8e55a259faa38373d4cfc7ceeef527571ac818",
+      "crop_rectangle_pdf_points": [
+        70,
+        483,
+        550,
+        590
+      ],
+      "crop_scale": 4,
+      "frame_length": 288,
+      "advertised_length_reading": null,
+      "editorial_recipe": {
+        "text": "DANICHTDAMITZURECHNENISTDASZALLEFEINDLICHENSEESTREITKRAEFTEHIERVONKENNTNISHABENXWEITERMITFEINDLICHENANGRIFFENRECHNENXWAFFENGEBRAUCHNURZURNOTWEHR",
+        "pair_overrides": []
+      },
+      "header_note": "Both final length digits have ambiguous or damaged upper loops and are retained as 6/8 independently of the body. Exactly 288 ADFGVX letters are visible, so the literal 288-coordinate body is used without any length alteration; this does not establish the printed header digits.",
+      "literal_spelling_note": "DASZ is retained in the same-length edition.",
+      "advertised_length_literal": "RICHI-2[6/8][6/8]",
+      "advertised_length_candidates": [
+        266,
+        268,
+        286,
+        288
+      ],
+      "header_glyphs_unresolved": true
+    },
+    {
+      "id": "p178_A5",
+      "part_number": 5,
+      "source_rows": [
+        "DFDAX ADVGA FGXAG GAGFV XGFDD GFGVD XXFVD FAXGF",
+        "VDAAV AFAVA XVGVA GGAAF DFXFD FGXAF FXDVX XDVFX",
+        "GGDVD VAFAV AFDVD GAGAV XDFXX XXDGX XXVGX DXXAA",
+        "XADAD VVVDD DAVFX GXAAX XXDVF DFFXF DXFXG VXADA",
+        "GXVVV VAFDV AVGDD AXXDA DVAVG ADVAA DVGAA VAFAA",
+        "FDGFG ADXXX XXVXF DDDAF GXDXX FXGGD XGXXG DDDAD",
+        "XDVVX XGXDF DXFAX XXAXD DDVFA ADDAD AXDGD AXADG",
+        "DXFGX AVGDV FDXXD DXDVD VGDXV AVVVD AVVDF DDDGG",
+        "GA"
+      ],
+      "source_crop": "sources/childs_p178_A5.png",
+      "source_crop_sha256": "384c73cb05404f5c7d6f21b081862a27f72b0a9a66d8b9f8d7c39ab8610b4115",
+      "crop_rectangle_pdf_points": [
+        70,
+        595,
+        550,
+        710
+      ],
+      "crop_scale": 4,
+      "frame_length": 322,
+      "advertised_length_reading": 322,
+      "editorial_recipe": {
+        "text": "XGENEHMIGUNGZUMBEFAHRENNEUTRALERHOHEITSGEWAESSERUEBERWASZERISTBEINEUTRALENREGIERUNGENERBETENXX3XXEMPFANGSBESTAETIGUNGENXADMIRALXGGXXOP1A?44XXADMIRALSTAB1?340ZWEI",
+        "pair_overrides": []
+      },
+      "literal_spelling_note": "WASZER is retained. Two different unknown square cells in reference numbers remain unassigned."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+# p178 — The naval armistice order of 11 November
+
+[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source and certificate](../../experiments/naval_armistice_order/README.md)
+
+**Prior reading and interpretation:** George Lasry, Ingo Niebel, Nils Kopal
+and Arno Wacker, [*Deciphering ADFGVX messages from the Eastern Front of
+World War I*](https://doi.org/10.1080/01611194.2016.1169461), 2016/2017.
+Their author manuscript, printed p23, discusses these p178 A/B parts and
+the cease-fire, U-boat and neutral-water instructions.
+
+**Current source edition:** icekylinx and GPT-6 Astra Pro. This adds the
+complete German reconstruction, two explicit short-group insertions,
+fourteen known-coordinate repairs, and re-encryption certificates. It
+does not claim a new body discovery.
+
+## Most likely reading
+
+> Zwei Adressen: 1. MMD; 2. Sdo-Kommando. Von SKL SKL.
+>
+> 1. Sofort an alle Streitkraefte mit allen verfuegbaren Verkehrsmitteln
+> uebermitteln: Am 11.11., 12 Uhr mittags, tritt an allen Fronten der
+> Waffenstillstand in Kraft. Mit diesem Zeitpunkt sind alle
+> Kriegshandlungen einzustellen. Alle Seestreitkraefte beschleunigt in
+> Stuetzpunkten sammeln nach Anweisung der Immediatbefehlshaber.
+>
+> 2. An alle U-Boote ist bis auf Weiteres geschluesselt zu geben:
+> Waffenstillstand abgeschlossen. Da nicht damit zu rechnen ist, dass
+> alle feindlichen Seestreitkraefte hiervon Kenntnis haben, weiter mit
+> feindlichen Angriffen rechnen. Waffengebrauch nur zur Notwehr.
+> Genehmigung zum Befahren neutraler Hoheitsgewaesser ueber Wasser ist
+> bei neutralen Regierungen erbeten.
+>
+> 3. Empfangsbestaetigungen.
+>
+> [Closing labels: `ADMIRAL GG. OP1A?44. ADMIRALSTAB1?340ZWEI`.]
+
+**Meaning:** Forward the armistice order immediately to all forces. War
+actions cease at noon on 11 November, and naval forces are to assemble at
+their bases. U-boats must receive an enciphered notice, continue to expect
+enemy attacks from ships that may not yet know of the armistice, and use
+weapons only in self-defense. Permission for surfaced passage through
+neutral territorial waters has been requested. Receipt is to be
+acknowledged.
+
+The raw labels `MMD`, `SDOKOMMANDO` and `VONSKLSKL` are preserved in the
+certificate. The ordinary reading adds spacing and punctuation and
+normalizes the source spellings `ADRESZEN`, `DASZ` and `WASZER`; the
+same-length coordinate edition retains those three strings unchanged.
+The two reference digits are not supplied.
+
+## Source frames and exact repairs
+
+The [full source page](../../experiments/naval_armistice_order/sources/childs_p178_page.png)
+contains 1,436 ADFGVX letters. Two visibly short four-letter groups
+account for a one-coordinate shortfall in each of parts 2 and 3. The
+proposed frames total 1,438 coordinates and 719 plaintext positions.
+
+| Part | Visible coordinates | Frame | Raw fixed positions | Candidate changes |
+|---|---:|---:|---:|---|
+| [1](../../experiments/naval_armistice_order/sources/childs_p178_A1.png) | 238 | 238 | 119 / 119 | One known-coordinate substitution |
+| [2](../../experiments/naval_armistice_order/sources/childs_p178_A2.png) | 309 | 310 | 154 / 155 | Three substitutions and one insertion |
+| [3](../../experiments/naval_armistice_order/sources/childs_p178_A3.png) | 279 | 280 | 137 / 140 | Three substitutions and one insertion |
+| [4](../../experiments/naval_armistice_order/sources/childs_p178_A4.png) | 288 | 288 | 144 / 144 | Five substitutions |
+| [5](../../experiments/naval_armistice_order/sources/childs_p178_A5.png) | 322 | 322 | 158 / 161 | Two substitutions |
+
+Part 2's thirteenth group is literally `VXDX`; the edition supplies a
+final `D`. Part 3's fourteenth group is `AFGA`; the edition supplies an
+initial `D` and separately changes the final source `A` to `F`.
+The inserted symbols are not observed in the scan. Each chosen position
+uniquely minimizes known-coordinate changes among the five possible
+one-loss positions within its short group for this proposed plaintext.
+
+The raw readings below use those explicit frames but leave the inserted
+symbols unknown and make no known-coordinate repairs:
+
+```text
+2XADRESZENX1XXMMDX2XXSDOKOMMANDOXVONSKLSKLXX1XSOFORTANALLESTREITKRAWFTEMITALLENVERFUEGBARENVERKEHRSMITTELNUEBERMITTELNX
+AM11X1EX12UHRMITTAGSTRITTANALLENFROOTENDERWAFFENSTILLST?NDINKRAFTXMITDIESEMZEITPUNKTSINDALLEKRIEGSHANDLUNGENEINZUSTELLEIXALLESEESTREITKRAEFTEBESCHLEUNIGTIN
+STUETZTUNKTENSAMMEL?NACHANWEISUNGDERIMMEDIATBEFEHLSHABERX2XXANALLEUBOOTEISTBISAUFWEITERESGESCHLUESSELTZUG?BENXW?FFENSTILLSTANDABGESCHLOSSENX
+DANICHTDAMITZURECHNENISTDASZALLEFEINDLICHENSEESTREITKRAEFTFHIERVONKENNTNIS2ABENXWEITERMITFEINDLICHENANGRIFFENRECHNENXWAFFENGEBRAUGHNURZURNOTWEHR
+XGENEHMIGUNGZUMBEFAHRENNEUT1ALERHOHEITSGEWAESSERUEBERWASZERISTBEINEUTRALENREGIERUNGENERBETENXX3XXE?PFANGSBESTAETIGUNGENXADMIRALXGGXXOP1A?44XXADMIRALSTAB1?340ZWEI
+```
+
+Fourteen substitutions and the two inserted values produce 717 fixed
+positions. Only part 5's reference digits remain unknown: position 137,
+cell `XA`, in `OP1A?44`, and position 154, cell `XG`, in
+`ADMIRALSTAB1?340`. Both have domain `56789`, but they must be different
+digits because they occupy different square cells. Twenty ordered pairs
+remain consistent; none is selected. The published Nov10–12 square and
+column order are unchanged.
+
+## Dates, layout and credit
+
+Printed p178 / PDF p181. The page heading says **11 November 1916**, but
+the intercept header explicitly says **11 November 1918**:
+`A) NKJ v VLP (07.06 p.m. November 11, 1918); 1430 (11) 5 TLE`.
+The conflicting source years are retained; no silent date correction or
+time-zone conversion is applied. A printed `B)` appears beside `2 TL`
+without a new route or timestamp. The sequential part labels and text
+joins are preserved. The uncertain length labels are retained as
+`RICHI-2[6/8]0` for part 3 and `RICHI-2[6/8][6/8]` for part 4. Those header
+glyphs are not resolved from the body. Independently, the literal part 3
+contains 279 coordinates and one four-letter group, motivating the
+conditional 280-coordinate frame; part 4 contains 288 visible coordinates
+and is used at that literal length without an insertion or deletion.
+
+J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
+[public scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
+The period key and the prior body interpretation retain their Lasry-team
+credit. The current literal transcription, explicit repairs and arithmetic
+audit are by **icekylinx and GPT-6 Astra Pro**. No first historical
+decipherment priority is claimed.
+
+```sh
+python experiments/naval_armistice_order/verify.py --verify
+```
+
+The [inputs](../../experiments/naval_armistice_order/inputs.json) and
+[certificates](../../experiments/naval_armistice_order/certificates.json)
+contain image/PDF hashes, literal rows, all short-group alternatives,
+position domains and individual repairs. The first four editions
+re-encrypt with the unchanged partial square. The fifth re-encrypts under
+each of the twenty distinct numeric-pair witnesses, which demonstrate
+consistency without supplying historical reference numbers.
