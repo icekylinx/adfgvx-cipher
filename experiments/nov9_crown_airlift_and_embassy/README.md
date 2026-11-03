@@ -42,4 +42,4 @@ that delivery occurred. Published-key and earlier repository credits remain
 separate from this source review; no universal first-decipherment priority
 is asserted.
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p167_B_reviewed.png](sources/p167_B_reviewed.png) · [p167_E_reviewed.png](sources/p167_E_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).

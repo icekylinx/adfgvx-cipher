@@ -37,11 +37,11 @@ These topic guides cover every other reviewed catalogue entry. Additional physic
 <!-- READING-CATALOG:START -->
 ## Browse by source page
 
-[Open the complete page index](pages/README.md). The page ranges below lead to short tables for each printed manuscript page, with each record's content, status and credit.
+[Open the complete page index](pages/README.md) or choose a range below. Each printed page has a short table of readings, status and credit.
 
 ### The 22 challenge entries
 
-These retain all original challenge identifiers. Page numbers alone do not identify a message: p198 is section D, while p198 B/C/E are separate records.
+Original challenge identifiers are retained; p198 denotes section D.
 
 | Printed source pages | Entries | Challenge identifiers |
 |---|---:|---|
@@ -54,9 +54,9 @@ These retain all original challenge identifiers. Page numbers alone do not ident
 
 ### Other ciphertexts — 631 reviewed entries
 
-Multipart messages and repeated transmissions have separate source records even when they share a case page. Direct readings, source-supported reconstructions and conjectural repairs keep their stated limits in the detailed page tables.
+Numbered parts and received copies are listed individually, with their reviewed reading status.
 
-The 653 catalogue entries represent 652 unique physical sources, including 630 beyond the challenge set. 1 later-edition entry shares an already catalogued source; [the exact overlap and counting rule](../docs/catalogue-source-overlaps.md) preserve both editions and the earlier credit.
+**653 catalogue entries · 652 physical sources · 630 beyond the challenges.** The [source register](../docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
 
 | Printed source pages | Reviewed entries | Pages represented |
 |---|---:|---:|
@@ -69,7 +69,7 @@ The 653 catalogue entries represent 652 unique physical sources, including 630 b
 | [pp. 200–224](pages/200-224/README.md) | 112 | 25 |
 | [pp. 225–249](pages/225-249/README.md) | 29 | 6 |
 
-The catalogue covers source-reviewed records with published reading evidence; the wider OCR search pool contains additional unreviewed ciphertext candidates. Earlier authors retain their credits. Current source review and new research use **icekylinx and GPT-6 Astra Pro**; a review credit does not assert first-decipherment priority.
+Source review and current research: **icekylinx and GPT-6 Astra Pro**. Each detailed entry credits its earlier readings and keys.
 <!-- READING-CATALOG:END -->
 
 For exact source layers use [the challenge source catalog](../data/messages.json), [the reading catalog](../data/reading_catalog.json), and the linked certificates. [The review ledger](../data/review_ledger.json) records each contribution and its evidence.

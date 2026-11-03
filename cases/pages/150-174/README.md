@@ -4,11 +4,11 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 125–149](../125-149/README.md) · [pp. 175–199 →](../175-199/README.md)
 
-**8 challenge entries and 117 other reviewed entries across 25 printed pages, representing 125 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
+**8 challenge entries · 117 other reviewed entries · 25 printed pages · 125 physical sources.**
 
 Jump to page: [p150](#p150) · [p151](#p151) · [p152](#p152) · [p153](#p153) · [p154](#p154) · [p155](#p155) · [p156](#p156) · [p157](#p157) · [p158](#p158) · [p159](#p159) · [p160](#p160) · [p161](#p161) · [p162](#p162) · [p163](#p163) · [p164](#p164) · [p165](#p165) · [p166](#p166) · [p167](#p167) · [p168](#p168) · [p169](#p169) · [p170](#p170) · [p171](#p171) · [p172](#p172) · [p173](#p173) · [p174](#p174).
 
-Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's reading qualifications and credit, with reviewed count-unit and spacing corrections in the displayed status. The linked case explains the evidence and its limits.
+Each row gives the reviewed reading status, credit and complete case. Page numbers are those printed in the Childs collection.
 
 ## p150
 

@@ -22,8 +22,8 @@ all pair maps, copy origins, distinct edit costs, native odd diagnostics,
 full candidate round trips and complete display mappings. It explicitly
 reports that pixel verification was skipped. The optional PDF command
 also checks the pinned full-file digest and reproduces the two reviewed
-source crops' dimensions and RGB digests. No new image bytes are stored
-in this package, and neither command accesses the network.
+source crops' dimensions and RGB digests. The delivered crops and their
+file/pixel checks are linked below.
 
 To regenerate `certificates.json` after an intentional local input change,
 omit `--verify`. Verification is read-only.
@@ -94,3 +94,5 @@ person, organization, border or historical incident. The period key and
 earlier solver contributions retain their published attribution; this
 package asserts source restoration and collation, not universal
 first-decipherment priority.
+
+**Reviewed source crops:** [p162_reviewed.png](sources/p162_reviewed.png) · [p166_reviewed.png](sources/p166_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).

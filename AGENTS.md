@@ -8,6 +8,11 @@ unless the owner later states otherwise. Continue the requested repository
 work, commit concrete reviewed changes, and push them without asking again
 for permission to push to `main`.
 
+On 3 November 2026 the owner also explicitly authorized public upload of the
+40 historical source crops listed in
+`data/reviews/source_image_publication_20261103.json`. Publish those assets
+alongside the reviewed edition without requesting repeat confirmation.
+
 ## Established presentation
 
 Repository content is in English. Credit the current research and editorial

@@ -1,82 +1,41 @@
 # Repository map
 
-For consistent plaintext layers, unknown symbols, source-slot counts and repair prices, see [Reading conventions](reading-conventions.md).
+**icekylinx and GPT-6 Astra Pro**
 
-Start with the [case guide](../cases/README.md) to read the messages. Its six
-topic guides collect related subjects and then show each physical source
-record with its reading status and credit. The [main README](../README.md)
-and case guide keep compact, separate challenge and other-record summaries
-by printed page range. The [complete page index](../cases/pages/README.md)
-links to every represented manuscript page; each range has short, separate
-challenge and other-record tables under its individual page headings.
+Start with the [case guide](../cases/README.md) for readable messages or the [page index](../cases/pages/README.md) for a printed source location. Every case connects the readable text to its original ciphertext, key, repair ledger and credits. Symbols and evidence layers follow the [reading conventions](reading-conventions.md).
 
-Prepared by **icekylinx and GPT-6 Astra Pro**. Topic placement is an editorial
-reading aid; each case retains its own keys, source relationships and limits.
+## Read by page or subject
 
-## Read by source page
+The page index groups the Childs collection into 25-page ranges, then short tables for each printed page. Challenge entries and other reviewed records have separate tables. Use the printed page number together with its section and part label.
 
-The [page index](../cases/pages/README.md) groups the printed Childs collection
-into 25-page ranges. Each record appears once, under its printed source page.
-Page numbers differ from PDF viewer page counters; section and part labels
-remain necessary to distinguish messages on the same page. Detailed tables
-preserve every status, credit and case link from the live catalogue.
-
-## Read by subject
-
-| Folder | Reading focus |
+| Topic guide | Contents |
 |---|---|
-| [cases/caucasus](../cases/caucasus/README.md) | Tiflis administration, staffing, procurement and diplomatic appointments |
-| [cases/naval](../cases/naval/README.md) | Ships, Black Sea cargo, sale terms, embarkation and naval orders |
-| [cases/military](../cases/military/README.md) | Army movements, withdrawal, internment, position reports and supplies |
-| [cases/radio](../cases/radio/README.md) | Station control, keys, call signs, couriers, retransmissions and message routing |
-| [cases/finance](../cases/finance/README.md) | Funds, currency, banknotes, allowances and purchasing decisions |
-| [cases/people](../cases/people/README.md) | Staff transfers, personnel inquiries, travel permissions and civilian affairs |
+| [Caucasus](../cases/caucasus/README.md) | Tiflis administration, appointments, staffing and procurement |
+| [Naval](../cases/naval/README.md) | Ships, cargo, sale terms, embarkation and naval orders |
+| [Military](../cases/military/README.md) | Army movements, withdrawal, internment, reports and supplies |
+| [Radio](../cases/radio/README.md) | Stations, keys, couriers, call signs and repeated transmissions |
+| [Finance](../cases/finance/README.md) | Funds, currency, banknotes, allowances and purchases |
+| [People](../cases/people/README.md) | Transfers, travel, personnel inquiries and civilian affairs |
 
-The 22 challenge case pages retain their original paths directly under
-`cases/`. Shared contextual witnesses remain in `cases/context/`, and the
-earlier supplementary editions remain in `cases/supplementary/`. Topic guides
-link these pages into the appropriate reading groups. A physical source record
-has one primary topic in the other-record catalogue; related challenge links
-keep their separate challenge status.
+The 22 challenge pages retain their paths directly under `cases/`. Shared witnesses in `cases/context/` and supplementary editions in `cases/supplementary/` also appear in the topic guides. Earlier `cases/other/` links redirect to the canonical edition and preserve their section anchors.
 
-Earlier `cases/other/` URLs remain as short [compatibility pages](../cases/other/README.md).
-They preserve the original section anchors and lead to the complete edition in
-its topic folder. Each complete body has one canonical location.
-
-## Follow a reading to its evidence
+## Evidence and code
 
 | Location | Purpose |
 |---|---|
-| [cases/](../cases/README.md) | Readable German, English meaning, qualifications, original credits and evidence links |
-| [cases/pages/](../cases/pages/README.md) | Complete source-page index, grouped into 25-page ranges and individual printed pages |
-| [data/reading_catalog.json](../data/reading_catalog.json) | Authoritative record identifiers, subjects, statuses, credits and current case paths |
-| [data/reading_groups.json](../data/reading_groups.json) | Topic directories, shared case membership and related challenge links |
-| [data/case_path_aliases.json](../data/case_path_aliases.json) | Earlier and current case paths, preserved section anchors and original Markdown digests |
-| [data/](../data/README.md) | Core challenge transcriptions, key provenance, earlier readings, certificates and review ledgers |
-| [experiments/](../experiments/README.md) | Source editions and verifiers, search implementations, completed results, controls and model provenance |
-| [sources/](../sources/README.md) | Bibliography, source registry, page excerpts and historical context |
-| [adfgvx/](../adfgvx/) | Shared cipher arithmetic, core verification and catalogue/navigation generation |
+| [cases/](../cases/README.md) | Readable German, English meaning, raw and edited text, status and credit |
+| [data/reading_catalog.json](../data/reading_catalog.json) | Authoritative record identifiers, source locations, statuses, credits and case paths |
+| [data/reading_groups.json](../data/reading_groups.json) | Topic membership and shared case links |
+| [data/](../data/README.md) | Challenge transcriptions, keys, prior readings, certificates and review ledgers |
+| [experiments/](../experiments/README.md) | Source-edition verifiers, attacks, exact results, controls and model provenance |
+| [sources/](../sources/README.md) | Bibliography, historical context, excerpts and the [latest reviewed crops](../sources/reviewed-crops.md) |
+| [adfgvx/](../adfgvx/) | Shared cipher arithmetic, verification and index generation |
 
-A case page points to the particular experiment or certificate that supports
-its reading. The [experiment index](../experiments/README.md) groups the existing
-packages into source review, p153 recovery, damaged-text optimization and open
-target searches. Their original package locations are retained: code can depend
-on folder depth, another package's files, or an exact recorded source hash.
+Each case links its supporting package. Source images, inputs and certificates stay beside the relevant verifier; established package paths retain their recorded hash and import relationships. The [source-overlap register](catalogue-source-overlaps.md) reconciles later editions of a shared physical source, and [case aliases](../data/case_path_aliases.json) preserve earlier URLs.
 
-Source images, literal transcriptions, model inputs, result ledgers and
-certificates stay with their established verifiers. Directory organization does
-not change their source coordinates, numerical labels or accepted-reading
-status.
+## Maintain the reading guides
 
-## Update the live reading guides
-
-Create a new standalone case in the appropriate topic folder. Add its reviewed
-physical records to `data/reading_catalog.json`, retaining each record's status,
-credit and evidence paths. Pages in a topic folder are classified automatically;
-the `additional_case_paths` entries in `data/reading_groups.json` handle shared
-challenge, context and supplementary pages.
-
-Then regenerate and check the guides:
+Add a new case to its topic folder and its reviewed source records to `data/reading_catalog.json`. The `additional_case_paths` entries in `data/reading_groups.json` handle shared challenge, context and supplementary pages. Then regenerate and check:
 
 ```sh
 python -m adfgvx.catalog
@@ -86,33 +45,8 @@ python -m adfgvx.navigation --check
 python -m adfgvx.verify
 ```
 
-The catalogue command generates the compact homepage and case-guide tables,
-complete page index and page-range tables from one data source. Its check
-verifies that every record appears exactly once in the page grouping and
-that all generated case and section links resolve. The navigation command
-generates the topic indexes and compatibility pages. Its
-check verifies complete topic coverage, current status/credit rendering, alias
-destinations, retained section anchors, and local reading links, including
-links to evidence files. These checks use Python's standard library.
+The catalogue generator builds the homepage summaries, page index and page-range tables. Navigation builds the topic guides and compatibility pages. Checks cover every record, topic assignment, local link, retained anchor, status and credit. Preserve older anchors when changing a published heading. Edition-specific checks are listed in each package and the [verification workflow](../.github/workflows/verify.yml).
 
-When editing a published case heading, preserve its older anchor if a retained
-alias uses it. New cases that have never had an earlier path do not need an
-alias. Further research and source-edition checks remain documented beside
-their own experiments and in the [verification workflow](../.github/workflows/verify.yml).
+## Research and publication records
 
-## Historical reports keep their own snapshots
-
-The [first extension inventory](../experiments/session_review/README.md) compares
-its preserved start and end catalogues. Its end snapshot contains 195 other
-records and keeps the paths and credits recorded at that time. The live
-catalogue and topic guides can grow without rewriting that historical report.
-Old paths in prior catalogues, ledgers and experiment proposals continue to work
-through the compatibility pages.
-
-For research boundaries, use the [current research status](research-status.md).
-The [post-publication recovery inventory](../experiments/post_push_review/README.md)
-preserves the next extension's own catalogue snapshots and source-image checks.
-The [publication history](publication-history.md) maps the original local
-commits to their exact-content public equivalents.
-For the distinction between a direct reading, source-linked reconstruction and
-editorial repair, use the [methods guide](methods.md).
+The [research status](research-status.md) presents established contributions and current targets. The [whole-material census](whole-material-coverage.md) tracks the 679-body collection and remaining catalogue gaps. The [initial extension inventory](../experiments/session_review/README.md) and [post-publication inventory](../experiments/post_push_review/README.md) preserve their publication snapshots; live guides continue to grow from the current catalogue. The [publication history](publication-history.md) maps earlier local commits to their public equivalents.

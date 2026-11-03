@@ -41,8 +41,10 @@ python experiments/odessa_courier_pretransposition/verify.py --verify
 python experiments/odessa_courier_pretransposition/verify.py --verify --pdf /path/to/childs.pdf
 ```
 
-This package distributes source transcriptions and pinned PDF/crop/RGB
-metadata, with no new image. Default verification reports that new-source
-pixel checking requires --pdf; that option reproduces all reviewed pixels.
+This package includes the source transcriptions, reviewed crops and pinned
+PDF/crop/RGB metadata. The package verifier checks source pixels with
+--pdf; the publication checker linked below also checks the delivered PNGs.
 Core keys and messages remain unchanged. The model is conditional and does
 not establish a unique historical loss mechanism or reference number.
+
+**Reviewed source crops:** [p201_C_reviewed.png](sources/p201_C_reviewed.png) · [p201_C_overstrike.png](sources/p201_C_overstrike.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).

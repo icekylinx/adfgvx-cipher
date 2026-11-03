@@ -11,4 +11,4 @@ python experiments/nov3_bucharest_power_source/verify.py --verify --pdf /tmp/adf
 
 See [inputs](inputs.json), [certificates](certificates.json) and [catalog proposal](catalog_proposal.json).
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p109_A2.png](sources/p109_A2.png) · [p109_A3.png](sources/p109_A3.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).

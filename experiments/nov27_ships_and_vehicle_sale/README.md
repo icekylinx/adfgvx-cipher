@@ -12,7 +12,7 @@ printed-mask fills**, and **5 excluded observed coordinates**. There are no
 insertions, reorderings or key changes.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p223_reviewed.png](sources/p223_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and frame distinctions
 
 - **p223 B:** its native 246-slot source reports preparations and ships secured for Helsingfors. Seven word repairs are explicit; the earlier 239-character OCR is retained separately.

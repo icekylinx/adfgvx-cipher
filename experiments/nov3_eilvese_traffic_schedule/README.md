@@ -29,7 +29,7 @@ the same primary raw stream. The comparison does not establish a unique
 historical deletion, and the scan marks no cancellation.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p113_D1_reviewed.png](sources/p113_D1_reviewed.png) · [p113_D1_repetition_detail.png](sources/p113_D1_repetition_detail.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Reproduce
 
 ```sh

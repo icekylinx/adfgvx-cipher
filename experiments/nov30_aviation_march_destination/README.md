@@ -38,3 +38,5 @@ references are included. Default verification explicitly reports that the
 source pixels were not checked in that run; --pdf verifies the original PDF
 and all reviewed crop pixels. All raw/edited layers, source operations,
 competing maps and numerical labels are independently reproducible.
+
+**Reviewed source crops:** [p228_reviewed.png](sources/p228_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).

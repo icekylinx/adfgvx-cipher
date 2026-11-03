@@ -20,7 +20,7 @@ Read the [complete source edition](../../cases/military/nov6_boat_crossing_fragm
 The primary totals preserve the unchanged published key and native source frame. Conditional proposals are not extra source records or independently authenticated historical readings.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p144_reviewed.png](sources/p144_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Reproduce
 
 ```sh
@@ -30,7 +30,7 @@ python experiments/nov6_boat_crossing_fragment/verify.py --verify --pdf /path/to
 
 The ordinary check uses the standard library and existing repository helpers. The optional source-pixel check uses PyMuPDF and Pillow.
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
 
 ## Separately priced opening hypothesis
 

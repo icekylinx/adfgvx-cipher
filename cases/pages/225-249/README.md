@@ -4,11 +4,11 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 200–224](../200-224/README.md)
 
-**0 challenge entries and 29 other reviewed entries across 6 printed pages, representing 29 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
+**0 challenge entries · 29 other reviewed entries · 6 printed pages · 29 physical sources.**
 
 Jump to page: [p225](#p225) · [p226](#p226) · [p227](#p227) · [p228](#p228) · [p229](#p229) · [p230](#p230).
 
-Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's reading qualifications and credit, with reviewed count-unit and spacing corrections in the displayed status. The linked case explains the evidence and its limits.
+Each row gives the reviewed reading status, credit and complete case. Page numbers are those printed in the Childs collection.
 
 ## p225
 

@@ -13,7 +13,7 @@ in five hypothesized missing slots**. There are no source exclusions or
 reorderings and no published-key changes.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p197_reviewed.png](sources/p197_reviewed.png) · [p189_reviewed.png](sources/p189_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## The personnel order
 
 p197 A1 has 193 source slots against its advertised 198. A single five-slot

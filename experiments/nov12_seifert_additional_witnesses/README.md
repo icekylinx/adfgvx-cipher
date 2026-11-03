@@ -38,4 +38,4 @@ bounded alignment, all primary and tied repair maps, complete raw-pair
 witnesses, live displayed streams and exact re-encryption under all 120 global
 square completions. The printed lengths, dates, RE, NACHR and TOF remain literal.
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p182_AC_reviewed.png](sources/p182_AC_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).

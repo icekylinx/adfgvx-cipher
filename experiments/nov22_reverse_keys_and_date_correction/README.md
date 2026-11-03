@@ -19,7 +19,7 @@ reading preserves `J8`, `J7`, `J7`, `J3`, without turning them into calendar
 dates. Its printed November 22d receipt corrects the OCR's November 23d.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p214_reviewed.png](sources/p214_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Files and checks
 
 - `inputs.json`: native source transcriptions, header distinctions, source image identity, unchanged key, readings and priced proposal.

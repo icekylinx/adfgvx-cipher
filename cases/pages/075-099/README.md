@@ -4,11 +4,11 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 50–74](../050-074/README.md) · [pp. 100–124 →](../100-124/README.md)
 
-**0 challenge entries and 63 other reviewed entries across 25 printed pages, representing 63 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
+**0 challenge entries · 63 other reviewed entries · 25 printed pages · 63 physical sources.**
 
 Jump to page: [p75](#p75) · [p76](#p76) · [p77](#p77) · [p78](#p78) · [p79](#p79) · [p80](#p80) · [p81](#p81) · [p82](#p82) · [p83](#p83) · [p84](#p84) · [p85](#p85) · [p86](#p86) · [p87](#p87) · [p88](#p88) · [p89](#p89) · [p90](#p90) · [p91](#p91) · [p92](#p92) · [p93](#p93) · [p94](#p94) · [p95](#p95) · [p96](#p96) · [p97](#p97) · [p98](#p98) · [p99](#p99).
 
-Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's reading qualifications and credit, with reviewed count-unit and spacing corrections in the displayed status. The linked case explains the evidence and its limits.
+Each row gives the reviewed reading status, credit and complete case. Page numbers are those printed in the Childs collection.
 
 ## p75
 

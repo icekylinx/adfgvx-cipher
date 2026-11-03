@@ -28,8 +28,7 @@ only a proposed new entry for this one physical source; no global catalogue
 is edited by this package.
 
 The complete page and the E2 crop were visually inspected. This package
-uses a text-only reference to the existing public PDF rather than adding
-new image bytes. Its reviewed crop is PDF page 154, rectangle
+includes the reviewed crop linked below. Its source is PDF page 154, rectangle
 `[65,695,495,790]` points, rendered at scale 4. The expected pixel digest was
 computed from that inspected render. Readers can reproduce it directly
 from the pinned source PDF.
@@ -55,3 +54,5 @@ unit interpretation or successful map shipment is supplied.
 
 Historical source and published-key credits, earlier OCR provenance and
 all limitations are retained in the inputs and the complete case.
+
+**Reviewed source crops:** [p151_reviewed.png](sources/p151_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).

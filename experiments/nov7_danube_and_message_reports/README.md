@@ -7,7 +7,7 @@ The [case study](../../cases/military/nov7_danube_and_message_reports.md) adds f
 recount the original challenge bodies `p153a`/`p153b` elsewhere on page 153.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p152_reviewed.png](sources/p152_reviewed.png) · [p153_reviewed.png](sources/p153_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Result
 
 The five bodies contain **778 native source slots**, of which **773 are
@@ -59,4 +59,4 @@ python experiments/nov7_danube_and_message_reports/verify.py --verify --pdf /pat
 Run the script by its absolute path from any other working directory. The
 verifier uses its own file location to find repository inputs.
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.

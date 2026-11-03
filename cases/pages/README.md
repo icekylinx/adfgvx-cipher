@@ -6,7 +6,7 @@
 
 **22 challenge entries and 631 other reviewed entries; 652 unique physical sources, including 630 beyond the challenge set.** Choose a printed page range, then an individual page. Every entry retains its original identifier, reading status, source credit and link to the complete edition.
 
-Page numbers refer to the printed Childs collection, not the PDF viewer's page counter. A page can contain several separately identified messages. Each catalogue entry is listed once; registered editions of the same source remain separate entries and count once as a physical source.
+Use the printed Childs page number and section/part label. Each entry appears once; registered editions sharing a physical source are counted through the source register.
 
 | Printed source pages | Challenge entries | Other reviewed entries | Jump to an individual page |
 |---|---:|---:|---|
@@ -21,8 +21,8 @@ Page numbers refer to the printed Childs collection, not the PDF viewer's page c
 
 ## Reading status and credit
 
-Each range keeps the challenge entries and other reviewed entries in separate tables under the relevant source page. The case links lead to the readable text, raw and edited outputs, source qualifications, earlier credits and reproducible evidence.
+Challenge and other reviewed records have separate tables under each printed page. Each case supplies readable text, raw and edited outputs, source evidence and credits.
 
-Table counts are catalogue entries. The [same-source overlap register](../../docs/catalogue-source-overlaps.md) separately verifies physical-source totals; repeated transmissions and numbered parts remain separate when their source locations differ. These are not counts of newly solved ciphertexts. Unreviewed OCR candidates are outside this index.
+The [source register](../../docs/catalogue-source-overlaps.md) verifies entry and physical-source totals. Repeated transmissions and numbered parts retain their separate source locations.
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

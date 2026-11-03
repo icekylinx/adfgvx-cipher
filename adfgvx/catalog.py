@@ -287,15 +287,15 @@ def render(data, destination, pages=None):
     lines = [
         START,
         "## Browse by source page", "",
-        f"[Open the complete page index]({index}). The page ranges below lead to short tables for each printed manuscript page, with each record's content, status and credit.", "",
+        f"[Open the complete page index]({index}) or choose a range below. Each printed page has a short table of readings, status and credit.", "",
         "### The 22 challenge entries", "",
-        "These retain all original challenge identifiers. Page numbers alone do not identify a message: p198 is section D, while p198 B/C/E are separate records.", "",
+        "Original challenge identifiers are retained; p198 denotes section D.", "",
         compact_table(pages, destination, "challenge"), "",
         f"### Other ciphertexts — {len(data['other'])} reviewed entries", "",
-        "Multipart messages and repeated transmissions have separate source records even when they share a case page. Direct readings, source-supported reconstructions and conjectural repairs keep their stated limits in the detailed page tables.", "",
-        f"The {counts['reviewed_entries']} catalogue entries represent {counts['unique_physical_sources']} unique physical sources, including {counts['additional_physical_sources']} beyond the challenge set. {counts['later_edition_entries']} later-edition entry shares an already catalogued source; [the exact overlap and counting rule]({overlap_note}) preserve both editions and the earlier credit.", "",
+        "Numbered parts and received copies are listed individually, with their reviewed reading status.", "",
+        f"**{counts['reviewed_entries']} catalogue entries · {counts['unique_physical_sources']} physical sources · {counts['additional_physical_sources']} beyond the challenges.** The [source register]({overlap_note}) accounts for {counts['later_edition_entries']} later-edition entry sharing an existing source.", "",
         compact_table(pages, destination, "other"), "",
-        "The catalogue covers source-reviewed records with published reading evidence; the wider OCR search pool contains additional unreviewed ciphertext candidates. Earlier authors retain their credits. Current source review and new research use **icekylinx and GPT-6 Astra Pro**; a review credit does not assert first-decipherment priority.",
+        "Source review and current research: **icekylinx and GPT-6 Astra Pro**. Each detailed entry credits its earlier readings and keys.",
         END,
     ]
     return "\n".join(lines)
@@ -308,7 +308,7 @@ def render_page_index(data, pages):
         "# Readings by source page", "", GENERATED, "",
         "[ADFGVX Cipher](../../README.md) · [Browse by topic](../README.md#browse-by-topic) · [Reading conventions](../../docs/reading-conventions.md)", "",
         f"**22 challenge entries and {len(data['other'])} other reviewed entries; {counts['unique_physical_sources']} unique physical sources, including {counts['additional_physical_sources']} beyond the challenge set.** Choose a printed page range, then an individual page. Every entry retains its original identifier, reading status, source credit and link to the complete edition.", "",
-        "Page numbers refer to the printed Childs collection, not the PDF viewer's page counter. A page can contain several separately identified messages. Each catalogue entry is listed once; registered editions of the same source remain separate entries and count once as a physical source.", "",
+        "Use the printed Childs page number and section/part label. Each entry appears once; registered editions sharing a physical source are counted through the source register.", "",
         "| Printed source pages | Challenge entries | Other reviewed entries | Jump to an individual page |",
         "|---|---:|---:|---|",
     ]
@@ -318,8 +318,8 @@ def render_page_index(data, pages):
         lines.append(f"| [{band_label(start)}]({link}) | {len(band_rows(pages, start, 'challenge'))} | {len(band_rows(pages, start, 'other'))} | {page_links} |")
     lines.extend([
         "", "## Reading status and credit", "",
-        "Each range keeps the challenge entries and other reviewed entries in separate tables under the relevant source page. The case links lead to the readable text, raw and edited outputs, source qualifications, earlier credits and reproducible evidence.", "",
-        "Table counts are catalogue entries. The [same-source overlap register](../../docs/catalogue-source-overlaps.md) separately verifies physical-source totals; repeated transmissions and numbered parts remain separate when their source locations differ. These are not counts of newly solved ciphertexts. Unreviewed OCR candidates are outside this index.", "",
+        "Challenge and other reviewed records have separate tables under each printed page. Each case supplies readable text, raw and edited outputs, source evidence and credits.", "",
+        "The [source register](../../docs/catalogue-source-overlaps.md) verifies entry and physical-source totals. Repeated transmissions and numbered parts retain their separate source locations.", "",
         "Research and editorial work: **icekylinx and GPT-6 Astra Pro**.", "",
     ])
     return "\n".join(lines)
@@ -346,9 +346,9 @@ def render_band(data, pages, start):
     lines = [
         f"# Readings from {band_label(start)}", "", GENERATED, "",
         " · ".join(nav), "",
-        f"**{n_challenge} challenge {'entry' if n_challenge == 1 else 'entries'} and {n_other} other reviewed entries across {len(members)} printed pages, representing {n_sources} unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.", "",
+        f"**{n_challenge} challenge {'entry' if n_challenge == 1 else 'entries'} · {n_other} other reviewed entries · {len(members)} printed pages · {n_sources} physical sources.**", "",
         "Jump to page: " + " · ".join(f"[p{page}](#p{page})" for page in members) + ".", "",
-        "Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's reading qualifications and credit, with reviewed count-unit and spacing corrections in the displayed status. The linked case explains the evidence and its limits.", "",
+        "Each row gives the reviewed reading status, credit and complete case. Page numbers are those printed in the Childs collection.", "",
     ]
     for page in members:
         lines.extend([f"## p{page}", ""])

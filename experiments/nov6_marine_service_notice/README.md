@@ -28,7 +28,7 @@ hypotheses, and the fixed-candidate gap comparison is not a historical
 uniqueness proof.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p138_C_reviewed.png](sources/p138_C_reviewed.png) · [p138_stroke_detail.png](sources/p138_stroke_detail.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Reproduce
 
 ```sh

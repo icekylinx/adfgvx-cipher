@@ -1,5 +1,7 @@
 # Sources
 
+[Reviewed source crops](reviewed-crops.md) · [Evidence verification](../docs/source-evidence-modes.md)
+
 | Source | Use |
 |---|---|
 | [Childs full scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view), located through [Richard Bean's catalogue](https://richardbean.id.au/misc/kryptos/aegean-park-press.html) | Original intercepts and historical key tables. For the intercept log and key appendix, printed page *p* is PDF page *p + 3*. |

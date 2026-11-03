@@ -26,7 +26,7 @@ plaintext are identical. This comparison is scoped to the five insertions
 inside or at the edges of the visibly short XFVV group.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p124_B_reviewed.png](sources/p124_B_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Reproduce
 
 ```sh

@@ -2,7 +2,7 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-**State: in progress.** The current requested 3-hour continuation began at **2026-11-03T08:04:46Z** and runs through at least **2026-11-03T11:04:46Z**. No completed duration is claimed by this checkpoint. Earlier follow-up periods remain preserved separately in the inputs. Completion describes the reviewed research snapshot; public publication is verified separately.
+**Reviewed source inventory.** Work-period metadata and earlier snapshots are retained in `inputs.json`.
 
 ## Current preserved inventory
 
@@ -264,6 +264,6 @@ The completion timestamp must satisfy the current requested continuation deadlin
 For readable messages, use the [case guide](../../cases/README.md); for the
 reorganized layout, use the [repository map](../../docs/repository-map.md).
 
-### External source-PDF references
+### Published source crops
 
-The current text edition carries **40 source-crop references** without distributing their PNG image bytes. The page, rectangle, scale, dimensions and RGB hash identify the evidence. A portable run checks the text and arithmetic and explicitly leaves source pixels unchecked. Supplying the original authenticated PDF additionally renders and checks every reference. Existing embedded images retain their strict PNG and source-pixel checks. See [source evidence modes](../../docs/source-evidence-modes.md).
+All **40 additional source crops** are now [available and independently verified](../../sources/reviewed-crops.md). The publication checker validates their exact PNG and RGB hashes against the existing source references; its optional PDF check reproduces every pixel from the authenticated original scan.

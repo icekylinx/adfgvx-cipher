@@ -34,4 +34,4 @@ image bytes and optional exact PDF pixels, prior outputs, live case displays
 and the complete readable-letter mapping. `catalog_proposal.json` proposes
 one physical record; no global catalogue file is edited by this package.
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p180_B2_reviewed.png](sources/p180_B2_reviewed.png) · [p180_D1_header_comparison.png](sources/p180_D1_header_comparison.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).

@@ -50,4 +50,4 @@ work. `catalog_proposal.json` proposes one conditional partial source
 record, without counting alternative maps or key completions as additional
 records. Published-key and prior-work credits remain intact.
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p159_A_reviewed.png](sources/p159_A_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).

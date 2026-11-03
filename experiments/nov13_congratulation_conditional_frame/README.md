@@ -11,4 +11,4 @@ python experiments/nov13_congratulation_conditional_frame/verify.py --verify --p
 
 See [inputs](inputs.json), [certificate](certificates.json), [prior attribution](prior_candidates.json) and [catalog proposal](catalog_proposal.json).
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p193_F.png](sources/p193_F.png) · [p193_date_heading.png](sources/p193_date_heading.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
