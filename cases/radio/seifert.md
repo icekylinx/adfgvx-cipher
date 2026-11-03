@@ -80,7 +80,13 @@ The readable `N` completion uses **D** at the source erasure and preserves all *
 WENNSEIFERTEINGETROFFEXBITTENACHRXTOF
 ```
 
-Both alternatives are retained; the complete word `EINGETROFFEN` is an editorial inference.
+Within that single-source analysis, both alternatives are retained; the complete word `EINGETROFFEN` is an editorial inference.
+
+An independent [p183 B witness](nov12_arrival_departure_and_car.md#p183-b)
+now supplies observed `D` at source index 20 and therefore `N` at plaintext
+position 22. Together the two conservative source transcriptions support
+every target pair. The original C/G-like appearance and its G-reading
+alternative remain in the earlier certificate and source analysis above.
 
 ### p174 C — 48 coordinates / 24 positions
 
@@ -119,6 +125,12 @@ SEIFERTABGEFAHRENXRENTE
 ```
 
 The other **44 coordinates remain unchanged**. The two corrections restore the same name directly present in the surrounding service traffic; the original `Q`s remain part of the raw edition.
+
+The [p183 C witness](nov12_arrival_departure_and_car.md#p183-c) supports `X`
+at source index 2, directly corroborating the second `E` of the name. Both
+witnesses retain `G` at source index 28, so the first `E` remains a
+separately priced contextual repair in each. The joint complete-name
+proposal costs three observed-coordinate substitutions.
 
 ## The p169 A repeat
 

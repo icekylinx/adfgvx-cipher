@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 75–99](../075-099/README.md) · [pp. 125–149 →](../125-149/README.md)
 
-**3 challenge entries and 80 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**3 challenge entries and 83 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p100](#p100) · [p101](#p101) · [p102](#p102) · [p103](#p103) · [p104](#p104) · [p105](#p105) · [p106](#p106) · [p107](#p107) · [p108](#p108) · [p109](#p109) · [p110](#p110) · [p111](#p111) · [p112](#p112) · [p113](#p113) · [p114](#p114) · [p115](#p115) · [p116](#p116) · [p117](#p117) · [p118](#p118) · [p119](#p119) · [p120](#p120) · [p121](#p121) · [p122](#p122) · [p123](#p123) · [p124](#p124).
 
@@ -56,8 +56,10 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p103 A](../../people/catholic_division_chaplain_substitute.md#p103-a) | No substitute for the Catholic divisional chaplain | 62/62 native raw positions; 2 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
 | [p103 B1](../../finance/zitag_purchase_orders.md#p103-b1) | Procurement request and already-paid consignments | Source-aligned 274-coordinate reading; ordinary-word edits separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
 | [p103 B2](../../finance/zitag_purchase_orders.md#p103-b2) | Cancel other contracts and request Westernhagen return | Three printed-erasure fills; no observed-coordinate substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
+| [p103 C](../../radio/bucharest_transmitter_consent.md#p103-c) | Conditional consent to send a transmitter to Bucharest | 78/78 native raw positions; 0 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
 | [p103 D](../../finance/zitag_purchase_orders.md#p103-d) | ZITAG instruction to stop buying and loading | Source-checked cross-copy reading; all candidate coordinates independently witnessed | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
 
 ## p104
@@ -103,6 +105,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p107 A](../../radio/ringbahn_0345_calls.md#p107-a) | Ringbahn call arrangement: 0345 after the other station's traffic | 65/65 native raw positions; 1 coordinate substitution + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
 | [p107 B1](../../military/chemnitz_verbetz_trains.md#p107-b1) | Railway-transport instruction mentioning Laz Zug 42 from Chemnitz | Native 164 visible coordinates; omitted OCR tail FDGD restored; 5 observed substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates and OCR limits retained |
 | [p107 B2](../../military/chemnitz_verbetz_trains.md#p107-b2) | Laz Zug 34 to literal VERBETZ; unresolved command reference | Native 110 slots; 3 substitutions; printed dash remains unknown in ?BA AEK11 | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates and OCR limits retained |
 | [p107 C](../../people/schaefer_return_inquiry.md#p107-c) | Question whether dragoman Schaefer should return as leave ends | Native 348 valid coordinates; 4 substitutions; address spelling and feasibility condition retained | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates and OCR limits retained |

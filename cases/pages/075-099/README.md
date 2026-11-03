@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 50–74](../050-074/README.md) · [pp. 100–124 →](../100-124/README.md)
 
-**0 challenge entries and 59 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**0 challenge entries and 62 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p75](#p75) · [p76](#p76) · [p77](#p77) · [p78](#p78) · [p79](#p79) · [p80](#p80) · [p81](#p81) · [p82](#p82) · [p83](#p83) · [p84](#p84) · [p85](#p85) · [p86](#p86) · [p87](#p87) · [p88](#p88) · [p89](#p89) · [p90](#p90) · [p91](#p91) · [p92](#p92) · [p93](#p93) · [p94](#p94) · [p95](#p95) · [p96](#p96) · [p97](#p97) · [p98](#p98) · [p99](#p99).
 
@@ -120,6 +120,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p86 A](../../military/mg08_inventory.md) | Inventory query for German MG08 with tripod mounts; asks quantity and caliber | 149/149 raw labels; 2 word repairs; MG08 and office/reference fields retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+| [p86 B2](../../caucasus/falkenhausen_followup_fragment.md#p86-b2) | Falkenhausen followup: a surviving second-part ending | 39/39 native raw positions; 0 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Oct28-31 key; prior OCR and body attribution retained |
+| [p86 C1](../../military/oct31_turkish_armistice_notice.md#p86-c1) | A telegram reports the Turkish armistice, with terms still unknown | 84/84 native raw positions; 1 coordinate substitution + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Oct28-31 key; prior OCR and body attribution retained |
 
 ## p87
 
@@ -210,6 +212,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p96 A](../../finance/zitag_full_stop_order.md#p96-a) | A complete ZITAG stop order with reporting instruction and literal footer | 160/160 native raw positions; 0 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
 | [p96 B](../../people/p96_B.md) | Entry permission for Filittis and family | 180/181 raw positions; Copenhagen repair costed | icekylinx and GPT-6 Astra Pro (2026) |
 
 ## p97

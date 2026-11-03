@@ -1,0 +1,347 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Short arrival, departure and car enquiries on November 12",
+  "case": "cases/radio/nov12_arrival_departure_and_car.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p183_reviewed.png",
+      "pdf_page_1based": 186,
+      "crop_pdf_points": [
+        55,
+        183,
+        530,
+        557
+      ],
+      "render_scale": 3,
+      "sha256": "746b926a51e23ab090d1ed667fa9e57ea6125d64b2fd3c16b151a4fcd95801f2",
+      "width": 1425,
+      "height": 1122,
+      "channels": 3,
+      "rgb_sha256": "edbfd4dca542b59bffa642dbf35f5cddb2008dc30889593b75b29cbfc24eb748"
+    },
+    {
+      "path": "sources/p174_parallel.png",
+      "pdf_page_1based": 177,
+      "crop_pdf_points": [
+        58,
+        422,
+        558,
+        730
+      ],
+      "render_scale": 3,
+      "sha256": "45e9268533cae9bcbbbe416c26328abf3c80a13e6f94b7710f2d38f6b352513a",
+      "width": 1500,
+      "height": 924,
+      "channels": 3,
+      "rgb_sha256": "c42f6152fad82ffec0aff7b2d220d625b44450ade93f9e71835edfc9528d67fb"
+    }
+  ],
+  "keys": {
+    "Nov10-12": {
+      "id": "Nov10-12",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        9,
+        12,
+        7,
+        11,
+        3,
+        8,
+        16,
+        6,
+        14,
+        2,
+        10,
+        15,
+        5,
+        13,
+        1,
+        4
+      ],
+      "column_count": 16,
+      "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "square_rows": [
+        "4ARUT1",
+        "OIFSKN",
+        "3?BZPV",
+        "LD?JMX",
+        "CWHQ2E",
+        "?G0?Y?"
+      ],
+      "known_cell_count": 31,
+      "missing_plaintext_symbols": "56789",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 242,
+          "pdf_page_1based": 245,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "The historical appendix also labels this table December 1-3."
+      ],
+      "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "baseline_differences": [
+        {
+          "coordinate": "FD",
+          "baseline": "5",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GF",
+          "baseline": "6",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XA",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XG",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "9",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+      "previously_published_completion": {
+        "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 26,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "FD",
+            "proposed": "5"
+          },
+          {
+            "row_column": "GF",
+            "proposed": "6"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "7"
+          },
+          {
+            "row_column": "XG",
+            "proposed": "8"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "9"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p183_A",
+      "title": "Arrival and an enquiry about the situation",
+      "key_id": "Nov10-12",
+      "header_literal": "A) CZ v CM (20.00 p.m., November 12th); 20.00; RIZI-64",
+      "readable_german": "Gut angekommen. Ist dort was los. SEIF.",
+      "meaning": "The sender reports having arrived safely and asks whether anything is happening at the other end. The closing SEIF is retained as an abbreviated label; this short message does not itself give a location or establish a full personal identity.",
+      "notes": [
+        "All 64 native coordinates decode directly under the unchanged key, with no changes or source-mask fills. The following NF CM UM transmission-control text is outside the 64-coordinate body.",
+        "The wording IST DORT WAS LOS is a question. The readable quotation uses a period so that a question mark remains reserved for an unresolved plaintext position in this edition.",
+        "SEIF is not expanded to a full name in the exact readable quotation."
+      ],
+      "protected_fields": [
+        "SEIF"
+      ],
+      "printed_page": 183,
+      "source_section": "A",
+      "source_rows": [
+        "DDDDX XVGAG DDVGG FVDAD DXFXA GGDVV AGXDA GXGVV GVDAD AVAXD DDDDA DDXDX AVAG"
+      ],
+      "source_slots": 64,
+      "advertised_length": 64,
+      "expected_raw": "GUTANGEKOMMENXISTDORTWASLOSXSEIF",
+      "edited_output": "GUTANGEKOMMENXISTDORTWASLOSXSEIF",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p183_B",
+      "title": "Request for notification when Seifert has arrived",
+      "key_id": "Nov10-12",
+      "header_literal": "B) CM v CZ (18.54 p.m., November 12th); 19.10; RIZI-74",
+      "readable_german": "Wenn Seifert eingetroffen, bitte NACHR. TOF.",
+      "meaning": "The message asks for notification when Seifert has arrived. NACHR is read as an abbreviated request for news or a message. TOF remains a closing label with no claimed personal or station identity.",
+      "notes": [
+        "The native body contains 74 occupied slots, including literal Z at source indices4 and31, W at42, and five B glyphs at60–64. These eight invalid coordinate glyphs remain in the transcription and become eight separately priced analysis-mask fills.",
+        "The proposal changes no observed ADFGVX coordinate. The five B-shaped slots are filled with D coordinates; this is an explicit source-mask completion, not a silent claim that five clearly printed Ds were present.",
+        "The source ending CZ UM is transmission control after the 74-slot ciphertext and is excluded from the body on that printed framing.",
+        "NACHR and TOF remain abbreviated or literal; no sender biography is supplied.",
+        "The earlier p174 B witness supplies all eight invalid-glyph values here, while this source supplies D at p174 source20, supporting its previously unresolved N in EINGETROFFEN. Under conservative masks all74 source coordinates and all37 target pairs have an observed witness, with zero observed-coordinate conflicts.",
+        "If the earlier C/G-like glyph is instead treated as an observed G, the complete-word proposal costs one observed substitution in that alternative. The new D witness does not change the appearance of the old glyph."
+      ],
+      "protected_fields": [],
+      "edited_output": "WENNSEIFERTEINGETROFFENBITTENACHRXTOF",
+      "printed_page": 183,
+      "source_section": "B",
+      "source_rows": [
+        "DVFVZ DFXFD ADAAF XFFDX DVXXF XAVAA AZXVA VVVVA DAWDV AXFFV XDXVD FDDXA BBBBB XXXDD VDVD"
+      ],
+      "source_slots": 74,
+      "advertised_length": 74,
+      "expected_raw": "WENN??IFERTE?NGETROF?ENBITTE?ACHR?TO?",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 8
+    },
+    {
+      "id": "p183_C",
+      "title": "A report that Seifert has departed",
+      "key_id": "Nov10-12",
+      "header_literal": "C) CM v CZ (17.26 p.m., November 12th); 18.20; RIZI-46",
+      "readable_german": "Seifert abgefahren. RENTE.",
+      "meaning": "The proposed reading reports that Seifert has departed. RENTE is the literal closing field; the record alone does not identify it as a particular person or station.",
+      "notes": [
+        "All 46 printed coordinates are retained, including the final six FFVDD V omitted from the earlier OCR body. The following CZ is outside the ciphertext.",
+        "The source produces SQIFERT directly. The proposal SEIFERT changes one observed coordinate; the neighboring arrival enquiry supports the name but does not make this change free.",
+        "The full 46-slot ciphertext is preserved; no historical prefix or suffix is invented.",
+        "Compared with existing p174 E, this source supports E at plaintext4 through observed source2 X instead of G. Both witnesses still have Q at plaintext1, so SEIFERT requires one additional word correction in each witness there. The combined edited cost is3 substitutions versus1 unavoidable observed-source conflict; the extra2 are contextual name repairs."
+      ],
+      "protected_fields": [
+        "RENTE"
+      ],
+      "edited_output": "SEIFERTABGEFAHRENXRENTE",
+      "printed_page": 183,
+      "source_section": "C",
+      "source_rows": [
+        "AVXDX DVADX AAVFF XVXGD XFDFD AVAGD XGFXV FXVAD FFVDD V"
+      ],
+      "source_slots": 46,
+      "advertised_length": 46,
+      "expected_raw": "SQIFERTABGEFAHRENXRENTE",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 1,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p183_E",
+      "title": "An enquiry about the car",
+      "key_id": "Nov10-12",
+      "header_literal": "E) CM v CZ (17.12 p.m., November 12th); 17.40; RIZI-36",
+      "readable_german": "Wo bleibt Auto. KRAMM.",
+      "meaning": "The message asks where the car is or why it has not arrived. The closing KRAMM is preserved without assigning a biography or a vehicle. The text is an enquiry, not proof that a car was sent.",
+      "notes": [
+        "The source supplies all 36 coordinates and decrypts directly, with no coordinate changes or mask fills.",
+        "The nearby D record is a similar but differently framed printed witness. It is not silently substituted for this complete E body.",
+        "The interrogative sentence is displayed with a period to reserve ? for unresolved plaintext positions."
+      ],
+      "protected_fields": [
+        "KRAMM"
+      ],
+      "printed_page": 183,
+      "source_section": "E",
+      "source_rows": [
+        "AAXXF AVDFA AADAG FVVAG DDAGV DDVFF VGDVG D"
+      ],
+      "source_slots": 36,
+      "advertised_length": 36,
+      "expected_raw": "WOBLEIBTAUTOXKRAMM",
+      "edited_output": "WOBLEIBTAUTOXKRAMM",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "d5703f4de7978b56c3f309303a1b396ad0271d300b3e45a10a47f6501e0f4b63",
+    "ocr_snapshot.json": "0bde26439e64834fac58e0f193250058aaf95ff0bb703d5ab12434f3692310ce",
+    "parallel_witnesses.json": "f76cd26b4a1a23fb74e5bb7228058e13b93abfc0101e315b93679fdea59c5562"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted. The arrival-enquiry and departure wording was already presented for p174 B/E in cases/radio/seifert.md. The new p183 witnesses add coordinate support and a separately priced comparison, not a new claim to that wording or extra message groups.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ],
+  "parallel_comparisons": [
+    {
+      "new_record": "p183_B",
+      "earlier_record": "p174_B",
+      "expected_observed_conflicts": 0,
+      "expected_complete_target_pair_witnesses": 37,
+      "expected_total_substitutions": 0,
+      "expected_total_mask_fills": 9,
+      "earlier_observed_glyph_alternative": {
+        "source_index": 20,
+        "coordinate": "G",
+        "expected_total_substitutions": 1
+      }
+    },
+    {
+      "new_record": "p183_C",
+      "earlier_record": "p174_E",
+      "expected_observed_conflicts": 1,
+      "expected_complete_target_pair_witnesses": 22,
+      "expected_total_substitutions": 3,
+      "expected_total_mask_fills": 0
+    }
+  ]
+}

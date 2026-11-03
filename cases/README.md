@@ -11,12 +11,12 @@ Each case opens with the most useful readable text or the present limits of reco
 
 | Topic | Reviewed source records | Case pages |
 |---|---:|---:|
-| [Caucasus administration and procurement](caucasus/README.md) | 42 | 14 |
+| [Caucasus administration and procurement](caucasus/README.md) | 43 | 15 |
 | [Ships, cargo and naval orders](naval/README.md) | 39 | 14 |
-| [Armies, withdrawal and supplies](military/README.md) | 220 | 76 |
-| [Radio service, keys and message routing](radio/README.md) | 157 | 63 |
-| [Money, banking and purchases](finance/README.md) | 44 | 19 |
-| [People, appointments and civilian affairs](people/README.md) | 50 | 28 |
+| [Armies, withdrawal and supplies](military/README.md) | 222 | 78 |
+| [Radio service, keys and message routing](radio/README.md) | 163 | 66 |
+| [Money, banking and purchases](finance/README.md) | 45 | 20 |
+| [People, appointments and civilian affairs](people/README.md) | 53 | 30 |
 
 These topic guides cover every other reviewed source record. The page-number index below also retains all 22 original challenge entries.
 <!-- TOPIC-NAVIGATION:END -->
@@ -52,18 +52,18 @@ These retain all original challenge identifiers. Page numbers alone do not ident
 | [pp. 175–199](pages/175-199/README.md) | 6 | [p176a](p176a.md), [p176b](p176b.md), [p187](p187.md), [p187b](p187b.md), [p189](p189.md), [p198](p198.md) |
 | [pp. 200–224](pages/200-224/README.md) | 2 | [p215](p215.md), [p217](p217.md) |
 
-### Other ciphertexts — 552 reviewed records
+### Other ciphertexts — 565 reviewed records
 
 Multipart messages and repeated transmissions have separate source records even when they share a case page. Direct readings, source-supported reconstructions and conjectural repairs keep their stated limits in the detailed page tables.
 
 | Printed source pages | Reviewed records | Pages represented |
 |---|---:|---:|
 | [pp. 50–74](pages/050-074/README.md) | 40 | 17 |
-| [pp. 75–99](pages/075-099/README.md) | 59 | 25 |
-| [pp. 100–124](pages/100-124/README.md) | 80 | 25 |
-| [pp. 125–149](pages/125-149/README.md) | 68 | 25 |
+| [pp. 75–99](pages/075-099/README.md) | 62 | 25 |
+| [pp. 100–124](pages/100-124/README.md) | 83 | 25 |
+| [pp. 125–149](pages/125-149/README.md) | 70 | 25 |
 | [pp. 150–174](pages/150-174/README.md) | 95 | 25 |
-| [pp. 175–199](pages/175-199/README.md) | 78 | 23 |
+| [pp. 175–199](pages/175-199/README.md) | 83 | 24 |
 | [pp. 200–224](pages/200-224/README.md) | 104 | 24 |
 | [pp. 225–249](pages/225-249/README.md) | 28 | 6 |
 

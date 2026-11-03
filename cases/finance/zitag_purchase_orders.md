@@ -88,6 +88,13 @@ common original but does not prove which printed version is closest to
 the transmission. In particular, the `X` at index 29 is a minority
 reading selected for its ordinary wording, not by majority vote.
 
+The [complete p96 A source edition](zitag_full_stop_order.md) independently
+gives the same 87 nonseparator labels as this common stop-order body
+without any source edit, and continues with a reporting instruction and
+closing fields. Its 320-coordinate frame and separator placement differ
+from these 180-coordinate copies, so this is plaintext-label corroboration,
+not another vote at their source-coordinate indices.
+
 ## p103 B1
 
 This separate message has header `FÜR COS v NKJ (0.43 a.m., November 3rd)`

@@ -4,7 +4,7 @@
 
 Follow requests for funds, currency exchange and purchasing decisions. Individual editions keep raw amount labels and proposed numerical interpretations separate.
 
-**44 reviewed physical records across 19 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**45 reviewed physical records across 20 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -14,6 +14,7 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [Caucasus hide purchasing — Meierkort, the contract and the Kiew instruction](caucasus_hide_purchasing.md) | p75 B1, p75 B2, p76 A3 |
 | [Order to stop premium payments and inform subordinate offices](premium_payment_stop.md) | p78 A1, p78 A2 |
 | [DEUTZITAG: requesting details of purchase dispatches](deutzitag_dispatch_inquiries.md) | p80 A, p81 A, p81 C |
+| [A complete ZITAG stop order with reporting instruction and literal footer](zitag_full_stop_order.md) | p96 A |
 | [ZITAG stop-orders and cancellation of procurement contracts](zitag_purchase_orders.md) | p102 A, p103 B1, p103 B2, p103 D, p106 B |
 | [Money-transport arrival acknowledgment](cash_arrival_acknowledgment.md) | p122 C |
 | [Meal allowances, communal provisioning and a refused supplement](military_allowances.md) | p129 B1, p133 A2, p133 A3, p134 A4 |
@@ -43,6 +44,7 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [p80 A](deutzitag_dispatch_inquiries.md#p80-a) | DEUTZITAG asks about purchase dispatches and onward transport | Direct source reading; exact repeated ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
 | [p81 A](deutzitag_dispatch_inquiries.md#p81-a) | DEUTZITAG asks about purchase dispatches and onward transport | One coordinate repair witnessed by two exact short copies | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
 | [p81 C](deutzitag_dispatch_inquiries.md#p81-c) | DEUTZITAG asks about purchase dispatches and onward transport | Direct source reading; exact repeated ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
+| [p96 A](zitag_full_stop_order.md#p96-a) | A complete ZITAG stop order with reporting instruction and literal footer | 160/160 native raw positions; 0 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
 | [p102 A](zitag_purchase_orders.md#p102-a) | ZITAG instruction to stop buying and loading | Source-checked cross-copy reading; all candidate coordinates independently witnessed | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
 | [p103 B1](zitag_purchase_orders.md#p103-b1) | Procurement request and already-paid consignments | Source-aligned 274-coordinate reading; ordinary-word edits separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
 | [p103 B2](zitag_purchase_orders.md#p103-b2) | Cancel other contracts and request Westernhagen return | Three printed-erasure fills; no observed-coordinate substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |

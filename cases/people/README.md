@@ -4,7 +4,7 @@
 
 Appointments, staff transfers, travel permissions, personnel inquiries and civilian affairs are collected here.
 
-**50 reviewed physical records across 28 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**53 reviewed physical records across 30 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -14,6 +14,7 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [Major Dunst — cancellation of the Turkey and military-mission assignment](dunst_assignment.md) | p95 A1, p95 A2 |
 | [p96 B — Entry permission for Filittis and family](p96_B.md) | p96 B |
 | [Roesler: leave and departure on the next ship](roesler_leave_and_travel.md) | p102 D |
+| [No substitute for the Catholic divisional chaplain](catholic_division_chaplain_substitute.md) | p103 A |
 | [Return to a replacement unit on medical grounds](medical_return_to_unit.md) | p104 C1, p104 C2 |
 | [Batum: Lieutenant Meier ordered to Berlin](meier_berlin_order.md) | p104 D |
 | [Sevastopol: consent to a personnel transfer](sevastopol_transfer_consent.md) | p104 E3 |
@@ -25,6 +26,7 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [A director-departure inquiry with an unresolved reference](director_departure_query.md) | p123 B |
 | [Kremp's request for a departure date — p131, p149 and p159](kremp.md) | p131 B, p149 B, p159 D |
 | [Siegfried's assignment to the Military Mission is cancelled](siegfried_assignment_cancellation.md) | p135 A |
+| [Gokieloff sent back to Georgia; instruction not to transmit money](gokieloff_return_payment_stop.md) | p136 A1, p136 A2 |
 | [Osthoff's posting to Turkey is cancelled](osthoff.md) | p138 A1, p138 A2, p148 C1, p149 A2 |
 | [An enquiry about Glatz's whereabouts](glatz.md) | p140 B, p149 C |
 | [Mecklenburg inquiry about a letter to Herzog Karl Michael](mecklenburg_inquiry.md) | p141 A1, p141 A2 |
@@ -48,6 +50,7 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [p95 A2](dunst_assignment.md#p95-a2) | Turkey and military-mission assignment cancelled; mission to be informed | 232/232 native raw labels; one coordinate word repair; BEORDRT retained | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier unreviewed OCR frames retained |
 | [p96 B](p96_B.md) | Entry permission for Filittis and family | 180/181 raw positions; Copenhagen repair costed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p102 D](roesler_leave_and_travel.md#p102-d) | Leave and next-ship travel involving Roesler; Hoenigschmid signature | 129/129 native raw labels; zero coordinate edits; source-reviewed prior OCR body | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier OCR body explicitly retained |
+| [p103 A](catholic_division_chaplain_substitute.md#p103-a) | No substitute for the Catholic divisional chaplain | 62/62 native raw positions; 2 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
 | [p104 C1](medical_return_to_unit.md) | Conditional medical-return report opening; visible short GAGA group and three equal-A positions | 227 source slots against 228; conditional 113/114 raw labels; 3 substitutions and 1 missing transmitted A; all 3 arithmetic minima retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p104 C2](medical_return_to_unit.md) | Return to replacement unit for recovery; literal RETTERL/KETTERL closing retained | 70/70 raw labels; 1 word repair; MARSH and both name tokens retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p104 D](meier_berlin_order.md#p104-d) | Batum lieutenant ordered to Berlin; one missing A restores the full order | 149 source slots; conditional 150-slot frame; one inserted A and zero substitutions; two equivalent gap alignments | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
@@ -61,6 +64,8 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [p123 B](director_departure_query.md#p123-b) | Question whether a director should depart; name/reference uncertainty retained | 160/170 raw positions; 7 substitutions and 8 source-mask fills; 2 reference positions unresolved; optional name separately priced | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed body candidates retained |
 | [p131 B](kremp.md) | Kremp asks for his departure date | 82/84 raw positions; later second-key body supports repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p135 A](siegfried_assignment_cancellation.md#p135-a) | Siegfried assignment cancelled; conditional surplus coordinate before transposition | 401 received slots; surplus-X interim aliases230/231; 7 substitutions+4mask fills; 58-letter closing independently witnessed | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier Osthoff closing/source credit retained |
+| [p136 A1](gokieloff_return_payment_stop.md#p136-a1) | Gokieloff sent back to Georgia; instruction not to transmit money | 121/122 native raw positions; 4 coordinate substitutions + 1 source-mask fill; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4-6 key; prior OCR and body attribution retained |
+| [p136 A2](gokieloff_return_payment_stop.md#p136-a2) | Gokieloff sent back to Georgia; instruction not to transmit money | 45/46 native raw positions; 0 coordinate substitutions + 1 source-mask fill; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4-6 key; prior OCR and body attribution retained |
 | [p138 A1](osthoff.md) | Osthoff's Turkey posting cancelled, first witness | Missing group supplied by p148; all 121 candidate letters witnessed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p138 A2](osthoff.md) | Osthoff reassigned to a railway replacement battalion | Shared source garbles; three proposed word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p140 B](glatz.md) | Enquiry about Glatz's whereabouts | 167/168 letters witnessed; one damaged-glyph fill | icekylinx and GPT-6 Astra Pro (2026) |

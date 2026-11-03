@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**220 reviewed physical records across 76 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**222 reviewed physical records across 78 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -13,6 +13,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p79 — medical formations lost in Palestine and their dissolution](palestine_medical_dissolution.md) | p79 A1, p79 A2 |
 | [p83 B — dissolution of formations and return of personnel](formation_dissolution.md) | p83 B |
 | [Inventory query for German MG08 machine guns](mg08_inventory.md) | p86 A |
+| [A telegram reports the Turkish armistice, with terms still unknown](oct31_turkish_armistice_notice.md) | p86 C1 |
 | [Black Sea evacuation routes, the Braila prohibition and onward rail movement](black_sea_evacuation_routes.md) | p88 C1, p89 A3, p89 A4, p90 A5 |
 | [Turkish armistice report: stop supply shipments and send evacuation ships](turkish_armistice_shipping_order.md) | p90 B1, p91 A2, p91 A3 |
 | [Orient intelligence: expected landings and fighting on the Tigris](orient_intelligence.md) | p92 B1, p93 A2, p93 A3, p93 A4, p94 A5, p94 A6 |
@@ -60,6 +61,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [Citadel surrender, local armistice terms and home leave](armistice_and_leave_orders.md) | p179 B, p179 C, p179 D1, p179 D2 |
 | [p180 A — Enemy following the withdrawal near Giurgiu](p180_A.md) | p180 A3 |
 | [The Warsaw query and its later quotation — p181 A / p214 B](mackensen_warsaw.md) | p181 A, p214 B |
+| [An accommodation-area report with unresolved army and place labels](jaeger_accommodation_area.md) | p183 F |
 | [Transports from Romania: warning against entry into Hungary](hungary_transport_warning.md) | p184 B1, p184 B2, p184 B3, p184 C1, p184 C2, p184 C3 |
 | [p189 — Vehicle request and orders to wait](../p189.md) | p185 C |
 | [Transport traffic — p185/p189 and parallel messages](../context/transport.md) | p185 D, p189 E, p193 E, p194 A, p196 B, p197 E, p198 C |
@@ -95,6 +97,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p79 A2](palestine_medical_dissolution.md) | Dissolution and return to replacement units; exact336-coordinate duplicate of p83 B | 168/168 fixed positions; 0 observed-coordinate substitutions and 0 mask fills; prior witness costs unchanged | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier source editions and unreviewed body leads retained |
 | [p83 B](formation_dissolution.md) | Dissolution of unnamed formations and return of remaining personnel to home replacement units | Direct complete168-position source reading; zero source repairs; printed second part only | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates distinguished |
 | [p86 A](mg08_inventory.md) | Inventory query for German MG08 with tripod mounts; asks quantity and caliber | 149/149 raw labels; 2 word repairs; MG08 and office/reference fields retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+| [p86 C1](oct31_turkish_armistice_notice.md#p86-c1) | A telegram reports the Turkish armistice, with terms still unknown | 84/84 native raw positions; 1 coordinate substitution + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Oct28-31 key; prior OCR and body attribution retained |
 | [p88 C1](black_sea_evacuation_routes.md#p88-c1) | Evacuation destinations: Siegfried to Konstanza and other traffic to Odessa | Native298 coordinates;one observed substitution | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; existing Ayush Agarwal p89_A2 companion retained separately |
 | [p89 A3](black_sea_evacuation_routes.md#p89-a3) | Stop Braila-bound traffic and arrange onward movement in whole trains | Explicit100-coordinate loss;one observed substitution+one dash fill+69conditional lost-coordinate fills;28plaintext positions unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; existing Ayush Agarwal p89_A2 companion retained separately |
 | [p89 A4](black_sea_evacuation_routes.md#p89-a4) | Civilian destination Berlin and advance notice for onward movement | Native360 coordinates;four observed substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; existing Ayush Agarwal p89_A2 companion retained separately |
@@ -224,6 +227,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p180 E](namur_cassel_armistice_requests.md#p180-e) | Bauman readiness and Cassel transport | Native 224-slot frame; 3 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 | [p181 A](mackensen_warsaw.md) | Warsaw Soldiers Council asks about Mackensens advance | Prior query interpretation; later quote supplies one source erasure | Lasry, Niebel, Kopal and Wacker; source comparison: icekylinx and GPT-6 Astra Pro (2026) |
 | [p181 B](namur_cassel_armistice_requests.md#p181-b) | Repeated request for local armistice conditions | Native 234-slot frame; 3 observed-coordinate substitutions and 1 source-mask fill; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p183 F](jaeger_accommodation_area.md#p183-f) | An accommodation-area report for a German Jaeger division | Native 230-slot frame; 1 observed-coordinate substitution and 2 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p184 B1](hungary_transport_warning.md#p184-b1) | Mineral-oil department address | Direct source reading; received BUCKAREST retained | icekylinx and GPT-6 Astra Pro (2026); published Nov13–15a partial key; earlier unreviewed candidates distinguished |
 | [p184 B2](hungary_transport_warning.md#p184-b2) | Transports from Romania must not enter Hungary | Five missing coordinates restored with zero observed-coordinate changes | icekylinx and GPT-6 Astra Pro (2026); published Nov13–15a partial key; earlier unreviewed candidates distinguished |
 | [p184 B3](hungary_transport_warning.md#p184-b3) | Kriegsamt reference footer | Exact pair witness for C3; unknown reference labels retained | icekylinx and GPT-6 Astra Pro (2026); published Nov13–15a partial key; earlier unreviewed candidates distinguished |

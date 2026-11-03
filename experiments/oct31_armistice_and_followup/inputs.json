@@ -1,0 +1,194 @@
+{
+  "schema": "adfgvx-oct31-armistice-and-followup-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "keys": [
+    {
+      "id": "Oct28-31",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        15,
+        12,
+        16,
+        5,
+        7,
+        14,
+        4,
+        13,
+        8,
+        11,
+        1,
+        17,
+        2,
+        10,
+        3,
+        18,
+        9
+      ],
+      "column_count": 18,
+      "square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+      "square_rows": [
+        "HI20SX",
+        "RUWQY8",
+        "EK7O61",
+        "9CBJAP",
+        "453FDZ",
+        "TGLMVN"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 238,
+          "pdf_page_1based": 241,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  ],
+  "records": [
+    {
+      "id": "p86_B2",
+      "printed_page": 86,
+      "source_section": "B2",
+      "key_id": "Oct28-31",
+      "source_rows": [
+        "XDAXF AXFVV AFDDF XXFGF DVXAD AFAVA XAFDX FAVAG",
+        "AAFXA FDFFV AFFXF AXXXX GGXDX GGGVX GAXAX XGV"
+      ],
+      "source_slots": 78,
+      "advertised_length": 78,
+      "expected_raw": "FOLGENBALMOEGLIHSTXFALKENHAUSENX8274X18",
+      "readable_candidate": "FOLGENBALMOEGLIHSTXFALKENHAUSENX8274X18",
+      "readable_german": "Folgen BAL MOEGLIHST. Falkenhausen. 8274 / 18.",
+      "case_path": "cases/caucasus/falkenhausen_followup_fragment.md",
+      "title": "Falkenhausen followup: a surviving second-part ending",
+      "meaning": "The surviving ending appears to promise that something will follow as soon as possible, with Falkenhausen and reference 8274/18. The subject of folgen is not present in this part. The literal defective words BAL and MOEGLIHST are preserved; the interpretation as bald moeglichst is not an additional cryptographic recovery.",
+      "reading_note": "All 78 received coordinates decode directly. The first part has not been identified here. No missing D or C is inserted to normalize BAL MOEGLIHST, and no link to the neighboring food dispatch is asserted.",
+      "expected_costs": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "p86_C1",
+      "printed_page": 86,
+      "source_section": "C1",
+      "key_id": "Oct28-31",
+      "source_rows": [
+        "XXXVD GDGAV VDGVV XDDAA AXFVD AVGAA ADAAX AVAFG",
+        "DGGFA ADXDX DFXXA VGVAD ADFAA XAVDG AFVXF DAAAD",
+        "ADXXX AAXGA XAGXX XXAFA FFGXX GFAAX GXFGA XFXVX",
+        "GVXFA FAFXX FFDXD AXXDX VFAVA VXDDA AVDFG AXGFA",
+        "FDXXF DXX"
+      ],
+      "source_slots": 168,
+      "advertised_length": 168,
+      "expected_raw": "WAFFENSTILLSTANDHEUTEEINUHRNACHMVONTUERKEIABGESCHLOSSENXBEDINGUNGENNOCHNICHTBEKANZTX",
+      "readable_candidate": "WAFFENSTILLSTANDHEUTEEINUHRNACHMVONTUERKEIABGESCHLOSSENXBEDINGUNGENNOCHNICHTBEKANNTX",
+      "readable_german": "Waffenstillstand heute ein Uhr nachm. von Tuerkei abgeschlossen. Bedingungen noch nicht bekannt.",
+      "case_path": "cases/military/oct31_turkish_armistice_notice.md",
+      "title": "A telegram reports the Turkish armistice, with terms still unknown",
+      "meaning": "The message reports that Turkey concluded an armistice today at one o'clock in the afternoon and says its terms are not yet known. This is the content of the intercepted report; it does not independently establish the historically effective time. The page is headed 31 October, and reception is recorded on 1 November.",
+      "reading_note": "The only proposal repairs BEKANZT to BEKANNT through one observed-coordinate substitution. HEUTE, EIN UHR and NACHM are direct raw wording. The source labels this part 1 of two; no missing continuation is supplied.",
+      "expected_costs": [
+        1,
+        0
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "path": "sources/p86_B2.png",
+      "printed_page": 86,
+      "pdf_page_1based": 89,
+      "crop_pdf_points": [
+        50,
+        450,
+        523,
+        519
+      ],
+      "render_scale": 3,
+      "sha256": "dd8c08e3734624e9b0797cb9b6994479dda30bec9f75a71be1ce85b843285161"
+    },
+    {
+      "path": "sources/p86_C1.png",
+      "printed_page": 86,
+      "pdf_page_1based": 89,
+      "crop_pdf_points": [
+        48,
+        528,
+        525,
+        699
+      ],
+      "render_scale": 3,
+      "sha256": "f59cc964c5a0f29e1dfffe58454a27345f24f55ef36abdb82b0c7cc804030c95"
+    }
+  ],
+  "headers": {
+    "p86_B2": [
+      "Page heading: 31st OCTOBER, 1918.",
+      "B) POT, COS v NKJ (9.00 p.m., October 31st)",
+      "2 TL RICHI-78"
+    ],
+    "p86_C1": [
+      "Page heading: 31st OCTOBER, 1918.",
+      "C) NKJ v OSM (3.15 a.m., November 1st)",
+      "SSD KRESS COS (31) 2200 2 TEILE",
+      "1 TL RICHI-168"
+    ]
+  },
+  "literal_glyph_notes": [
+    "All 78 received coordinates decode directly. The first part has not been identified here. No missing D or C is inserted to normalize BAL MOEGLIHST, and no link to the neighboring food dispatch is asserted.",
+    "The only proposal repairs BEKANZT to BEKANNT through one observed-coordinate substitution. HEUTE, EIN UHR and NACHM are direct raw wording. The source labels this part 1 of two; no missing continuation is supplied."
+  ],
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "0177fc0d30d82dc86b63a2d21754b25490c253936296cd6c7718345a2b35de96"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "limits": [
+    "All source frames are native; no coordinate is inserted or deleted.",
+    "Literal numerical labels, opaque names and footer fields are not silently normalized.",
+    "The cases distinguish reported events and conditional instructions from completed historical outcomes."
+  ]
+}

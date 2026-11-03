@@ -11,18 +11,18 @@ by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 552 other physical source records**, with all
-22 challenge entries preserved. It adds **357 physical records across 107 source
+This snapshot compares **195 → 565 other physical source records**, with all
+22 challenge entries preserved. It adds **370 physical records across 112 source
 packages** and keeps every earlier record. Interpretation and open-target
 method audits add no physical records.
 
-The source packages account for **76,437 literal source slots** and
-**38,468 modeled plaintext positions**, of which
-**37,024 have fixed raw labels** under their stated frames.
+The source packages account for **78,199 literal source slots** and
+**39,349 modeled plaintext positions**, of which
+**37,891 have fixed raw labels** under their stated frames.
 These are coverage counts, including repeated copies, prior body readings,
 conditional frames and unresolved historical numerals. They are not a count
 of first decipherments or independently authenticated historical letters.
-All **738 observed-coordinate substitutions** remain separately priced.
+All **748 observed-coordinate substitutions** remain separately priced.
 Printed-mask fills, missing-slot fills, copied prefixes and source-layout
 exclusions keep their distinct units in each package. In particular, the
 copy-conditioned p157 A1 record contributes **0/95 fixed raw positions**;
@@ -139,6 +139,11 @@ its copied values are excluded from the fixed-raw total.
 | [Reduced provisioning strength and a separate evening report](../nov25_provisions_and_evening_report/README.md) | 3 | 630 | 315 | 315 | 6 |
 | [An instruction to avoid fighting, with further orders to follow](../avoid_fighting_instruction/README.md) | 1 | 272 | 136 | 136 | 4 |
 | [A radio-traffic transfer in a surviving second part](../radio_traffic_transfer_fragment/README.md) | 1 | 186 | 93 | 89 | 1 |
+| [Oct31 armistice and followup](../oct31_armistice_and_followup/README.md) | 2 | 246 | 123 | 123 | 1 |
+| [Nov1 nov2 native dispatches](../nov1_nov2_native_dispatches/README.md) | 4 | 730 | 365 | 365 | 3 |
+| [Gokieloff return payment stop](../gokieloff_return_payment_stop/README.md) | 2 | 336 | 168 | 166 | 4 |
+| [An accommodation-area report with unresolved army and place labels](../jaeger_accommodation_area/README.md) | 1 | 230 | 115 | 110 | 1 |
+| [Short arrival, departure and car enquiries on November 12](../nov12_arrival_departure_and_car/README.md) | 4 | 220 | 110 | 103 | 1 |
 
 ## Additional interpretation and method audits
 
@@ -172,11 +177,11 @@ retains exact unknown fields and exposes prose-only spellings in six cases. A fo
 The p111/p112 package also checks every nonseparator label in seven complete
 readable passages, preserving all five unresolved positions.
 
-The [live readable-label audit](../../data/reviews/live_readable_mappings_20261103.json) now checks 109 records in 59 case pages: 9,631 ordered nonseparator labels, 58 literal unresolved positions, and 3 explicitly declared display-only letters. It reads the actual Markdown quotations and their linked raw or edited streams, including protected internal separators and positional question marks. Its original reviewed mappings remain unchanged as further records are appended.
+The [live readable-label audit](../../data/reviews/live_readable_mappings_20261103.json) now checks 122 records in 68 case pages: 10,435 ordered nonseparator labels, 61 literal unresolved positions, and 3 explicitly declared display-only letters. It reads the actual Markdown quotations and their linked raw or edited streams, including protected internal separators and positional question marks. Its original reviewed mappings remain unchanged as further records are appended.
 
 ## Independent source-image binding
 
-All **436 distinct delivered source images** have normalized PDF-page, rectangle, scale,
+All **451 distinct delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph

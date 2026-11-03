@@ -30,18 +30,18 @@ These retain all original challenge identifiers. Page numbers alone do not ident
 | [pp. 175–199](cases/pages/175-199/README.md) | 6 | [p176a](cases/p176a.md), [p176b](cases/p176b.md), [p187](cases/p187.md), [p187b](cases/p187b.md), [p189](cases/p189.md), [p198](cases/p198.md) |
 | [pp. 200–224](cases/pages/200-224/README.md) | 2 | [p215](cases/p215.md), [p217](cases/p217.md) |
 
-### Other ciphertexts — 552 reviewed records
+### Other ciphertexts — 565 reviewed records
 
 Multipart messages and repeated transmissions have separate source records even when they share a case page. Direct readings, source-supported reconstructions and conjectural repairs keep their stated limits in the detailed page tables.
 
 | Printed source pages | Reviewed records | Pages represented |
 |---|---:|---:|
 | [pp. 50–74](cases/pages/050-074/README.md) | 40 | 17 |
-| [pp. 75–99](cases/pages/075-099/README.md) | 59 | 25 |
-| [pp. 100–124](cases/pages/100-124/README.md) | 80 | 25 |
-| [pp. 125–149](cases/pages/125-149/README.md) | 68 | 25 |
+| [pp. 75–99](cases/pages/075-099/README.md) | 62 | 25 |
+| [pp. 100–124](cases/pages/100-124/README.md) | 83 | 25 |
+| [pp. 125–149](cases/pages/125-149/README.md) | 70 | 25 |
 | [pp. 150–174](cases/pages/150-174/README.md) | 95 | 25 |
-| [pp. 175–199](cases/pages/175-199/README.md) | 78 | 23 |
+| [pp. 175–199](cases/pages/175-199/README.md) | 83 | 24 |
 | [pp. 200–224](cases/pages/200-224/README.md) | 104 | 24 |
 | [pp. 225–249](cases/pages/225-249/README.md) | 28 | 6 |
 

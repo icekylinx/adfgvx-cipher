@@ -1,0 +1,310 @@
+{
+  "schema": "adfgvx-nov1-nov2-native-dispatches-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "keys": [
+    {
+      "id": "Nov1-3",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        3,
+        16,
+        4,
+        15,
+        7,
+        12,
+        18,
+        6,
+        17,
+        8,
+        19,
+        1,
+        13,
+        10,
+        2,
+        14,
+        11,
+        9,
+        5
+      ],
+      "column_count": 19,
+      "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "square_rows": [
+        "UILOF9",
+        "RCZVSX",
+        "02G7QT",
+        "D8WNB5",
+        "JMHEKP",
+        "Y41A36"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 239,
+          "pdf_page_1based": 242,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  ],
+  "records": [
+    {
+      "id": "p96_A",
+      "printed_page": 96,
+      "source_section": "A",
+      "key_id": "Nov1-3",
+      "source_rows": [
+        "FGFXD DXAFD VVXVX VFFAD AVGAD DXFXD AXFDA FVGGV",
+        "AGDXD VXXVX FAXDD AFXVF FXGVG VVDFD VGDAV FDGDA",
+        "DAAXA GDDAF GVDXF VGFGA GVGGX GGGDD DGGFF DXXXV",
+        "DVGVG FDFGD GDGDD GVFVX DFVGV GDDGV DDAXA DDGAG",
+        "DVDVD DXXXD GVFGA DGGVA VXXDG VGVGA AAVFG DXAXD",
+        "GAGFG DAXFV XDDFV FFDXV VAFVF DADXG XDDGX AAAFA",
+        "VGVXA GGFAX FXVDG AGGFD VDAXG XGDFD GDAGX GGDGX",
+        "VGVAD DDFAG GDVGA XAXVF GAGDG VVAGD FVFDX DXDDV"
+      ],
+      "source_slots": 320,
+      "advertised_length": 320,
+      "expected_raw": "FUERXZITAGXOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENXALLESMOEGLICHSTSICHERNXZITAGXXVERANLASSTESANXKXMXDRAHTENXQXMXALLQXKRXDEPXNOX2439STRICH18XGXANCHXX",
+      "readable_candidate": "FUERXZITAGXOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENXALLESMOEGLICHSTSICHERNXZITAGXXVERANLASSTESANXKXMXDRAHTENXQXMXALLQXKRXDEPXNOX2439STRICH18XGXANCHXX",
+      "readable_german": "Fuer ZITAG, ohne Nummer: nichts weiter kaufen und nichts weiter verladen, alles moeglichst sichern. ZITAG. Veranlasstes an K. M. drahten. Q. M. ALLQ. KR. DEP. No. 2439 Strich 18, G. ANCH.",
+      "case_path": "cases/finance/zitag_full_stop_order.md",
+      "title": "A complete ZITAG stop order with reporting instruction and literal footer",
+      "meaning": "The message instructs ZITAG to stop further purchases and loading, secure everything as far as possible, and telegraph the action taken to K.M. Its longer closing includes the literal office-like field Q M ALLQ KR DEP and reference 2439 STRICH 18 G ANCH. Those fields are preserved without silently normalizing Q to K or ALLQ to ALLG.",
+      "reading_note": "All 320 received coordinates and 160 plaintext positions decode directly. The procurement-stop body was already read from shorter p102/p103 witnesses; this newly reviewed physical record supplies a complete longer native text, including the reporting instruction. The certificate compares the nonseparator body labels with the earlier composite candidate while preserving different X separators and different transposition lengths.",
+      "expected_costs": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "p103_A",
+      "printed_page": 103,
+      "source_section": "A",
+      "key_id": "Nov1-3",
+      "source_rows": [
+        "GVXDD DAGXF DGDFD AAVGV AGXVD FFFDD VVXFG GFVXD",
+        "GAAFX FADXA DFXGV AVGXX XVVVG GXDXA AADDD FDDFV",
+        "ADVDA FGFXD GAADG DAGGX VGVDD XDGAD DFADV AAAVX",
+        "VDDD"
+      ],
+      "source_slots": 124,
+      "advertised_length": 124,
+      "expected_raw": "VERTRETUNGDORTXKATHXDIVXPFARRPRSNICHTMOEGLICKXOKMXRM2CNR38029X",
+      "readable_candidate": "VERTRETUNGDORTXKATHXDIVXPFARRERSNICHTMOEGLICHXOKMXRM2CNR38029X",
+      "readable_german": "Vertretung dort kath. Div. Pfarrers nicht moeglich. OKM. RM2C Nr. 38029.",
+      "case_path": "cases/people/catholic_division_chaplain_substitute.md",
+      "title": "No substitute for the Catholic divisional chaplain",
+      "meaning": "The proposed wording says that providing a substitute or cover for the Catholic divisional chaplain there is not possible. It retains the literal OKM and RM2C designation and reference 38029; it does not name a chaplain or explain the reason.",
+      "reading_note": "Two observed-coordinate substitutions propose PFARRERS for PFARRPRS and MOEGLICH for MOEGLICK. All 62 raw positions are already fixed, and no source mask or frame change is used. RM2C and 38029 are preserved.",
+      "expected_costs": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": "p103_C",
+      "printed_page": 103,
+      "source_section": "C",
+      "key_id": "Nov1-3",
+      "source_rows": [
+        "GDVDX VGDVG VFVDD FADFA VGFXX ADDGX XAXGV AGAGG",
+        "FVVGA GGGDD GXXAD AVGGF XXVDG VXGGA GVVAV VVVFV",
+        "GVDGG VGGDG GVFDA XGXDV DDGXV DDGGG GAAVA FXDGD",
+        "FGVVA FVVFF DDXGF GDGGD VGFVV GAGAX VGFVD F"
+      ],
+      "source_slots": 156,
+      "advertised_length": 156,
+      "expected_raw": "FUNKAOSMXMITENTSENDGX10TKSENDERSNACHBUKARESTWENNTRANSPMOEGLEINVERSTXNACHCHEF4B",
+      "readable_candidate": "FUNKAOSMXMITENTSENDGX10TKSENDERSNACHBUKARESTWENNTRANSPMOEGLEINVERSTXNACHCHEF4B",
+      "readable_german": "Funka OSM. Mit Entsendg. 10TK Senders nach Bukarest, wenn Transp. moegl., einverst. Nachchef 4B.",
+      "case_path": "cases/radio/bucharest_transmitter_consent.md",
+      "title": "Conditional consent to send a transmitter to Bucharest",
+      "meaning": "The sender agrees to dispatch the device written 10TK SENDER to Bucharest if transport is possible. OSM and Nachchef 4B remain literal routing and signature labels. No conversion of 10TK into a power rating is made, and this consent does not establish that the transmitter was shipped.",
+      "reading_note": "All 156 source coordinates and 78 plaintext positions are direct. Enlarged source groups are GGGDD and AVGGF, both with clear G glyphs; low-resolution C readings are resolved visual uncertainties, not printed erasures or historical edits. The technical label 10TK is kept exactly.",
+      "expected_costs": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "p107_A",
+      "printed_page": 107,
+      "source_section": "A",
+      "key_id": "Nov1-3",
+      "source_rows": [
+        "AVGDD VDVAG ADAFG XDGGD VAVAA GGADX VDVFX DGGDV",
+        "GDDGD XGAAV VVFVF GDXXG GVGFF FDAGG VVVXA VGAGD",
+        "FAGVX VFFGV GXADA DADAG VFFDA DXDGD XGAVV XDGFG",
+        "DAVAA XGAGF"
+      ],
+      "source_slots": 130,
+      "advertised_length": 130,
+      "expected_raw": "WIRXRUFENXSIEXJEDEXRIN7BAHNPERIODEX0345NACHIHREMVERKEHRXWELLE1200",
+      "readable_candidate": "WIRXRUFENXSIEXJEDEXRINGBAHNPERIODEX0345NACHIHREMVERKEHRXWELLE1200",
+      "readable_german": "Wir rufen Sie jede Ringbahnperiode 0345 nach Ihrem Verkehr, Welle 1200.",
+      "case_path": "cases/radio/ringbahn_0345_calls.md",
+      "title": "Ringbahn call arrangement: 0345 after the other station's traffic",
+      "meaning": "The sender announces calls in each Ringbahn period, with the time label 0345 after the recipient's traffic and wavelength 1200. The single word proposal changes RIN7BAHN to RINGBAHN through a counted source-coordinate substitution. It leaves 0345 and 1200 unchanged.",
+      "reading_note": "The source has exactly the advertised 130 coordinates. One coordinate substitution repairs the ordinary Ringbahn word; the published square and every other label remain unchanged. No unit is added to WELLE 1200.",
+      "expected_costs": [
+        1,
+        0
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "path": "sources/p96_A.png",
+      "printed_page": 96,
+      "pdf_page_1based": 99,
+      "crop_pdf_points": [
+        65,
+        145,
+        535,
+        421
+      ],
+      "render_scale": 3,
+      "sha256": "31c38310c98ee93772e644bb7a848dce26e1e9317c25e244d1e54f2e357a33ab"
+    },
+    {
+      "path": "sources/p103_A.png",
+      "printed_page": 103,
+      "pdf_page_1based": 106,
+      "crop_pdf_points": [
+        43,
+        230,
+        520,
+        339
+      ],
+      "render_scale": 3,
+      "sha256": "293b00bba297dbe6aa72ebf5b679a6feada7131938722ece2c1195112b0773ad"
+    },
+    {
+      "path": "sources/p103_C.png",
+      "printed_page": 103,
+      "pdf_page_1based": 106,
+      "crop_pdf_points": [
+        43,
+        580,
+        523,
+        676
+      ],
+      "render_scale": 3,
+      "sha256": "011528907a0fadaecc4773baa2418898e75688d96ebb2cc4d53f2596ec70e6e3"
+    },
+    {
+      "path": "sources/p107_A.png",
+      "printed_page": 107,
+      "pdf_page_1based": 110,
+      "crop_pdf_points": [
+        40,
+        230,
+        520,
+        339
+      ],
+      "render_scale": 3,
+      "sha256": "d58283e8676fe2476f3b5118b646669a0a4fb7637374bbf7d4f939e1dbdaeb18"
+    },
+    {
+      "path": "sources/p103_C_G_details.png",
+      "printed_page": 103,
+      "pdf_page_1based": 106,
+      "crop_pdf_points": [
+        186,
+        633,
+        333,
+        649
+      ],
+      "render_scale": 8,
+      "sha256": "f06030a838a3594043d18783d8396ea47a5b3a49bd2dc487da3f3d2c01ae02fc"
+    }
+  ],
+  "headers": {
+    "p96_A": [
+      "Page heading: 1st NOVEMBER, 1918.",
+      "A) OSM v LP (8.45 p.m., November 1st)",
+      "1820 (1/11) BEVOLLMAECHTIGTEN PREUSS KRIEGSMINISTERIUMS KONSTANTINOPEL",
+      "RICHI-320"
+    ],
+    "p103_A": [
+      "Page heading: 1st NOVEMBER, 1918.",
+      "A) FUER COS v NKJ (0.33 a.m., November 3rd)",
+      "DELEG KAUK 0715 (1)",
+      "RICHI-124"
+    ],
+    "p103_C": [
+      "Page heading: 1st NOVEMBER, 1918.",
+      "C) OSM v LP (7.06 a.m., November 2nd)",
+      "2200 (1/11)",
+      "RICHI-156"
+    ],
+    "p107_A": [
+      "Page heading: 2nd NOVEMBER, 1918.",
+      "A) UKS v ZON (9.10 p.m., November 2nd)",
+      "1715 AN LP",
+      "RIZI-130"
+    ]
+  },
+  "literal_glyph_notes": [
+    "All 320 received coordinates and 160 plaintext positions decode directly. The procurement-stop body was already read from shorter p102/p103 witnesses; this newly reviewed physical record supplies a complete longer native text, including the reporting instruction. The certificate compares the nonseparator body labels with the earlier composite candidate while preserving different X separators and different transposition lengths.",
+    "Two observed-coordinate substitutions propose PFARRERS for PFARRPRS and MOEGLICH for MOEGLICK. All 62 raw positions are already fixed, and no source mask or frame change is used. RM2C and 38029 are preserved.",
+    "All 156 source coordinates and 78 plaintext positions are direct. Enlarged source groups are GGGDD and AVGGF, both with clear G glyphs; low-resolution C readings are resolved visual uncertainties, not printed erasures or historical edits. The technical label 10TK is kept exactly.",
+    "The source has exactly the advertised 130 coordinates. One coordinate substitution repairs the ordinary Ringbahn word; the published square and every other label remain unchanged. No unit is added to WELLE 1200."
+  ],
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "c65b3a96e3e6e0b7421c49aacf1270b1b745d97a851512b4f68106beacc2c5f8"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "limits": [
+    "All source frames are native; no coordinate is inserted or deleted.",
+    "Literal numerical labels, opaque names and footer fields are not silently normalized.",
+    "The cases distinguish reported events and conditional instructions from completed historical outcomes."
+  ],
+  "previous_zitag_body": {
+    "path": "experiments/zitag_purchase_orders/inputs.json",
+    "sha256": "c2db945ecd421688e0c75cddfefe4ad64d62ac624055dbad950432fea18433f6",
+    "cross_copy_candidate": "FUERXZITAGXOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG",
+    "case_path": "cases/finance/zitag_purchase_orders.md"
+  }
+}

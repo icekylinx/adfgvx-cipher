@@ -1,0 +1,237 @@
+{
+  "schema": "adfgvx-gokieloff-return-payment-stop-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "keys": [
+    {
+      "id": "Nov4-6",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ],
+      "column_count": 17,
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "square_rows": [
+        "17WHFL",
+        "J5D2UP",
+        "EXKVZ9",
+        "O0Q3Y6",
+        "R8ABGI",
+        "TCMS4N"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 240,
+          "pdf_page_1based": 243,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [
+        "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+      ],
+      "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  ],
+  "records": [
+    {
+      "id": "p136_A1",
+      "printed_page": 136,
+      "source_section": "A1",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "AAAVG VAFAD AXAVX VFVFA FAXAV ADXDD VAFFF AXAXX",
+        "VDFXA GAAXX DAAXQ FAXFV GAAXF FAGFV VVXAX XFXGX",
+        "FXDXV FAGDA AVDXF FXVVD DVFVF XXVXX VXVAX AGAAF",
+        "FFXGX DVVXV XAVVX XVXVA XAFFX AXFXV GDADG VXFAV",
+        "DAAVG AVDGF AVFAF XFAVF FDVGA XFVVF GDFAG XXXXV",
+        "XADAA XFFVD VDAVD GGDFF XAGVG FFFFF FVVAV FXFVV",
+        "AGAX"
+      ],
+      "source_slots": 244,
+      "advertised_length": 244,
+      "expected_raw": "ZUPORTPAT487LEOXGOKIELOFFXGOKIELOFFX9STWEGENKRAIKHEITVOMMILXGOUVXCZENNTOCHAUMITDDRCHREISESCHEINNAC?GEORGIENZURUECKGESANDTE",
+      "readable_candidate": "ZUPORTPAT487LEOXGOKIELOFFXGOKIELOFFXISTWEGENKRANKHEITVOMMILXGOUVXCZENNTOCHAUMITDURCHREISESCHEINNACHGEORGIENZURUECKGESANDTX",
+      "readable_german": "ZUPORTPAT487LEO. Gokieloff, Gokieloff, ist wegen Krankheit vom Mil. Gouv. CZENNTOCHAU mit Durchreiseschein nach Georgien zurueckgesandt.",
+      "case_path": "cases/people/gokieloff_return_payment_stop.md",
+      "title": "Gokieloff sent back to Georgia; instruction not to transmit money",
+      "meaning": "The proposed body says the person written Gokieloff was sent back to Georgia because of illness, with a transit permit from the military governor at the literal place CZENNTOCHAU. Both occurrences of the surname are already directly read. The opening ZUPORTPAT487LEO is retained as an opaque label, and the place spelling is not normalized or mapped to a modern location.",
+      "reading_note": "The source prints DAAXQ, with a genuine noncoordinate Q at 54. One source-mask fill completes NACH. A separate enlargement resolves XFVVF with a final F, not the initial low-resolution T reading, so it is not counted as an erasure. Four observed-coordinate substitutions separately repair 9ST, KRAIKHEIT and DDRCH, and propose separator X for the final E after GESANDT. 487 and the literal opening and place fields are unchanged.",
+      "expected_costs": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": "p136_A2",
+      "printed_page": 136,
+      "source_section": "A2",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "XVDFD DAFFD VGXVX XFFFF VXXAF FVAAD AFVFA FDFAA",
+        "GAGEV AVAFF AXDGX FXVDF DAVAV VXGFG AVXVA GAXFX",
+        "AXAFA FDFXA AD"
+      ],
+      "source_slots": 92,
+      "advertised_length": 92,
+      "expected_raw": "KEING?LDUEBERMITTELNXHEERESGRXKIEWX1CXHRW8536X",
+      "readable_candidate": "KEINGELDUEBERMITTELNXHEERESGRXKIEWX1CXHRW8536X",
+      "readable_german": "Kein Geld uebermitteln. Heeresgr. Kiew. 1C. HRW8536.",
+      "case_path": "cases/people/gokieloff_return_payment_stop.md",
+      "title": "Gokieloff sent back to Georgia; instruction not to transmit money",
+      "meaning": "The second part instructs that no money be transmitted. The closing reads Heeresgr. Kiew, with the literal labels 1C and HRW8536. Those labels are not changed to a presumed staff branch or number prefix.",
+      "reading_note": "The printed GAGEV contains a clear out-of-alphabet E at source 43. One counted mask fill supplies E in GELD. The result uses the native 92-coordinate frame and no observed-coordinate substitution.",
+      "expected_costs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "path": "sources/p136_A1.png",
+      "printed_page": 136,
+      "pdf_page_1based": 139,
+      "crop_pdf_points": [
+        75,
+        189,
+        553,
+        336
+      ],
+      "render_scale": 3,
+      "sha256": "68e00534026810a03285b9b25e90f52174c048b4b97ecc7878f55bf54a27dcc7"
+    },
+    {
+      "path": "sources/p136_A2.png",
+      "printed_page": 136,
+      "pdf_page_1based": 139,
+      "crop_pdf_points": [
+        75,
+        337,
+        553,
+        387
+      ],
+      "render_scale": 3,
+      "sha256": "e69c199746aa76725c3da6e89ebb87666217b42bfc272d032fd616f09a564417"
+    },
+    {
+      "path": "sources/p136_A1_Q.png",
+      "printed_page": 136,
+      "pdf_page_1based": 139,
+      "crop_pdf_points": [
+        278,
+        266,
+        323,
+        281
+      ],
+      "render_scale": 8,
+      "sha256": "e45dd224f152203183a74325f1eea6b88cf667aebd66349d6031b7f8188398f9"
+    },
+    {
+      "path": "sources/p136_A1_F.png",
+      "printed_page": 136,
+      "pdf_page_1based": 139,
+      "crop_pdf_points": [
+        420,
+        300,
+        466,
+        313
+      ],
+      "render_scale": 8,
+      "sha256": "c7ad2b66556039e292706f501b17ddb843ce992fe85620a8205f636fc2247247"
+    },
+    {
+      "path": "sources/p136_A2_E.png",
+      "printed_page": 136,
+      "pdf_page_1based": 139,
+      "crop_pdf_points": [
+        183,
+        355,
+        225,
+        369
+      ],
+      "render_scale": 8,
+      "sha256": "c13a0742595b959717caba0b98ec45be385e93344b24cdaf56cea50d6ed077cc"
+    }
+  ],
+  "headers": {
+    "p136_A1": [
+      "Page heading: 5th NOVEMBER, 1918.",
+      "A) COS v NKJ (9.44 a.m., November 7th)",
+      "DEUTSCHE DELEG KAUK MILITAERKOMM GENERAL VON KRESS",
+      "0824 (5) 2 TLE",
+      "1 TL RICHI-244"
+    ],
+    "p136_A2": [
+      "Same A header and page as p136 A1",
+      "2 TL RICHI-92"
+    ]
+  },
+  "literal_glyph_notes": [
+    "The source prints DAAXQ, with a genuine noncoordinate Q at 54. One source-mask fill completes NACH. A separate enlargement resolves XFVVF with a final F, not the initial low-resolution T reading, so it is not counted as an erasure. Four observed-coordinate substitutions separately repair 9ST, KRAIKHEIT and DDRCH, and propose separator X for the final E after GESANDT. 487 and the literal opening and place fields are unchanged.",
+    "The printed GAGEV contains a clear out-of-alphabet E at source 43. One counted mask fill supplies E in GELD. The result uses the native 92-coordinate frame and no observed-coordinate substitution."
+  ],
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "7b25b803c84dfad26d235a4533bffd7392f1328f14637bd610e9d561a03a2abc"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "limits": [
+    "All source frames are native; no coordinate is inserted or deleted.",
+    "Literal numerical labels, opaque names and footer fields are not silently normalized.",
+    "The cases distinguish reported events and conditional instructions from completed historical outcomes."
+  ]
+}
