@@ -102,18 +102,28 @@
   "bounded_searches": {
     "official_diary_fulltext_search": {
       "endpoint": "https://api.digitale-sammlungen.de/iiif/services/search/v1/bsb00042051",
-      "terms": ["Kosch", "Kertsch", "Kerč", "Neuseeländer", "Neuseel", "Divisionen", "Mili", "52"],
+      "terms": [
+        "Kosch",
+        "Kertsch",
+        "Kerč",
+        "Neuseeländer",
+        "Neuseel",
+        "Divisionen",
+        "Mili",
+        "52"
+      ],
       "finding": "Kosch and GK 52 contexts were identified. No independently corroborating two-divisions/New Zealanders passage was found in the reviewed diary material.",
       "limit": "Search depends on spelling, OCR and the edition's selection; no claim of absence from the full archival record is made."
     },
     "childs_ocr_corpus": {
-      "script": "retrieve_context.py",
-      "output": "retrieval_results.json",
+      "script": "https://github.com/icekylinx/adfgvx-cipher/blob/654039811795311ed967f11c97883ef2c3c8a736/experiments/p215_context/retrieve_context.py",
+      "output": "https://github.com/icekylinx/adfgvx-cipher/blob/654039811795311ed967f11c97883ef2c3c8a736/experiments/p215_context/retrieval_results.json",
       "blocks": 788,
       "historical_keys": 24,
       "models_evaluated": 165216,
       "finding": "No new source-verified p215 retransmission or expansion of MI?I5 was found. The MILI5 hit on p209 is embedded in unrelated garble under an undated key and is rejected as contextual support.",
-      "limit": "The search uses unverified OCR and bounded group/tail hypotheses; the p215 two-missing-group geometry itself is outside that retrieval model."
+      "limit": "The search uses unverified OCR and bounded group/tail hypotheses; the p215 two-missing-group geometry itself is outside that retrieval model.",
+      "status": "Historical search retained by archival URL; the unused retrieval queue and runner are retired from the current tree."
     }
   }
 }

@@ -126,6 +126,12 @@ new source-verified p215 retransmission or an expansion of `MI?I5`. OCR hits
 remain retrieval candidates; a short `MILI5` sequence inside p209 garble is not
 accepted as evidence.
 
+The current coordinate check is `python experiments/p215_context/audit_interpretation.py --check`.
+
+**Historical commands — the second runner is retired.** The frozen transcript
+below is retained for the earlier presentation audit. The unused OCR queue
+and retrieval runner are available in the [archived experiment](https://github.com/icekylinx/adfgvx-cipher/tree/654039811795311ed967f11c97883ef2c3c8a736/experiments/p215_context).
+
 ```sh
 python experiments/p215_context/audit_interpretation.py --check
 python experiments/p215_context/retrieve_context.py
@@ -134,7 +140,7 @@ python experiments/p215_context/retrieve_context.py
 The coordinate audit independently rebuilds the column geometry from the
 [existing p215 certificate](../../data/certificates/p215.json). It verifies
 conditional costs and reencryption witnesses, not the historical truth of a
-reading. The retrieval uses the earlier OCR layout generator and 24 fixed
-historical keys, evaluates 165,216 bounded models, and records every matching
-candidate in [retrieval_results.json](retrieval_results.json). Its negative
-result does not exclude missing documents, different geometry or other keys.
+reading. The retired retrieval evaluated 165,216 bounded models with 24 fixed
+historical keys and supplied no accepted retransmission or expanded opening.
+Its historical negative result does not exclude missing documents, different
+geometry or other keys.

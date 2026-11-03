@@ -129,8 +129,8 @@ records, as the archived research directory did. The refresh helper counts
 historical cases at the advertised budget only and rejects duplicate case
 budgets. It never treats a partly written or missing result as complete.
 
-`repro/archived_run_anchored_squares.py` preserves the original research driver;
-its workstation paths are evidence, not the portable entry point. File hashes
-and the exact two-case interruption are recorded in `data/provenance.json` and
-`data/result_snapshot.json`. The portable runner adds validation and resume
-checks without changing the frozen inputs, label-derived seeds or C search.
+`data/provenance.json` retains the original research driver's byte count and
+SHA-256; `data/result_snapshot.json` records the exact two-case interruption.
+Use the portable `run_anchored_squares.py` entry point, which adds validation
+and resume checks while retaining the frozen inputs, label-derived seeds and
+C search. The duplicate driver with obsolete workstation paths has been retired.

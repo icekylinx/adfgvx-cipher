@@ -304,6 +304,7 @@ jobs:
           python experiments/radio_domain_model/digit_symmetry/verify.py
           python experiments/p170_new_methods/verify.py
           python experiments/p170_new_methods/followup/verify.py --verify
+          python experiments/p215_raw_donor_bitset/verify_controls.py
           python experiments/p73_new_methods/verify.py --skip-assignment
           python experiments/p73_new_methods/followup_20261103/verify.py
       - name: Independently verify all reported source-retrieval assignments

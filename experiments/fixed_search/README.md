@@ -170,19 +170,27 @@ python tools/dictionary_pipeline.py select \
 
 ## Refresh and provenance
 
+**Historical refresh command, before candidate-export cleanup:**
+
 ```sh
 python tools/refresh_results.py --research-results /path/to/root_attack/results \
   --output data/completion_snapshot.json \
   --candidates-output data/best_fits.json
 ```
 
+For current use, omit `--candidates-output` when refreshing the completion ledger,
+or export candidates with `--candidates-output /tmp/adfgvx-fixed/best_fits.json`.
+
 The refresh reads completed result records, rechecks their input arithmetic and
 canonical seed/budget, and counts each case once. Partial trace files are listed
-separately. Summed per-case wall seconds are not elapsed project duration. The optional `data/best_fits.json` exports one best candidate for every completed case, explicitly marked unaccepted; it omits restart traces and does not turn fitted text into a decipherment.
+separately. Summed per-case wall seconds are not elapsed project duration.
+The optional candidate export belongs in a temporary working directory. The
+1,632 unaccepted per-case fits are no longer distributed; the compact completion
+ledger retains the completed-case hashes, budgets and leading diagnostics.
 
-`repro/source_manifest.json` preserves the original Python and C source hashes
-and the archived executable hashes. The original orchestration scripts are
-retained in `repro/archived_*.py` for audit; they are not the portable entry points.
+`repro/source_manifest.json` preserves the original driver, C source and
+executable hashes. Portable orchestration lives in `src/`, with model and
+selection tools in `tools/`; duplicate workstation drivers have been retired.
 Both coordinate-domain C engines rebuild byte for byte identically to their
 archived executables. The older `subsolve36` executable has a different binary
 hash from the fresh build of the retained `subsolve.c`; deterministic fixture

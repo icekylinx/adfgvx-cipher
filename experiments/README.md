@@ -12,6 +12,7 @@ Our experiments recovered the shared p153 key, reconstructed damaged transmissio
 |---|---|
 | **Hospital and transport fragment** — 129/151 primary positions; optional extension 148/151 at 102 missing-half fills; zero observed-coordinate changes in a conditional 302-slot frame | [p212 A4: all 197 observations retained](p212_medical_fragment/README.md) |
 | **Captain-dispatch fragment** — 45 proposed positions mention a chief, a replacement detachment and dispatch; six tied source maps and all 432 primary completions retained | [p167 D: exact partial-word repair account](p167_captain_dispatch_fragment/README.md) |
+| **p215 B3 exact copy check** — shared-square propagation closes 62 raw-domain windows and their widened label scope; 89 independent small controls | [Portable checker and explicit limits](p215_raw_donor_bitset/README.md) |
 | **Original p215 closing field** — shared Hungarian Y and the earlier J/numeral hypotheses reduce 90 possibilities to 56, with complete globally consistent witnesses | [Shared-cell propagation across 26 bodies](p215_hungarian_y/README.md) |
 | **Station-staff query** — 68/69 positions; all five minimum source maps independently reproduced | [p137 B: 481,032 models](p137_station_staff_query/README.md) |
 | **Provision-train completion** — 84/84 positions with one extra mask fill supported by the next part | [A5/A6 joint reading](p176_verpflegs_joint_completion/README.md) |
