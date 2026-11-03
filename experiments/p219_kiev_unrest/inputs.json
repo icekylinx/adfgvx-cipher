@@ -1,0 +1,273 @@
+{
+  "schema": "adfgvx-p219-kiev-unrest-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "cases/military/p219_kiev_unrest.md",
+  "indexing": "Machine source/model/plaintext indices are zero-based. Parentheses and the jammed note are source annotations, not coordinate glyphs.",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p219_C_reviewed.png",
+      "pdf_page_1based": 222,
+      "crop_pdf_points": [
+        75,
+        480,
+        550,
+        590
+      ],
+      "render_scale": 5,
+      "width": 2375,
+      "height": 550,
+      "sha256": "dcc53b418a9a2480e9782c65ebc15585cf92b4e54b3cffeea1ed327dea008877",
+      "rgb_sha256": "43ab99eb9369093631cd1f6379ad479747bf5c293cbde737fe133be6b69b581a",
+      "storage": "external_pdf_reference"
+    }
+  ],
+  "key": {
+    "id": "Nov25-28",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      21,
+      9,
+      6,
+      14,
+      10,
+      20,
+      1,
+      16,
+      18,
+      7,
+      15,
+      4,
+      11,
+      22,
+      5,
+      17,
+      23,
+      2,
+      12,
+      8,
+      19,
+      3,
+      13
+    ],
+    "column_count": 23,
+    "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "square_rows": [
+      "HQ05DK",
+      "ZAOYM6",
+      "BEIWTJ",
+      "7PSCFL",
+      "V94132",
+      "NGURX8"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "records": [
+    {
+      "id": "p219_C",
+      "printed_page": 219,
+      "pdf_page_1based": 222,
+      "source_section": "C",
+      "header": "C) IWE v RAT (------- November 25th); 1900 (KR)",
+      "advertised_length": 294,
+      "source_slots": 284,
+      "source_rows": [
+        "XFXDD XFXDD VFDAD XVDFX GXAGV GXAFV FVFDA VDXDX",
+        "VVFFD XFDFX GFAXA XFFVV FXVGG XDXGG DAXAF VFVFD",
+        "XXGVX  XFAXA XAFFG DFAXD FXXGF VGVGG VGAXV",
+        "FDXGF AGVDV AGAAA AAXVX VGFFF XVGAD AXVDV DADXD",
+        "AGAFX VXGGG FFXFA DDFXV GGFVX VVVFA GVVFG XFXFX",
+        "ADFFV VDGDD VDFDD DDDFV GXXGF GGFDX DGVFV GVDFA",
+        "FVGFD GDADX ADAAA DDFFF GDDDX FXVDD XFDFV XXFGF",
+        "XVADX DFVX"
+      ],
+      "source_rows_annotated": [
+        "XFXDD XFXDD VFDAD XVDFX GXAGV (GXAFV) FVFDA VDXDX",
+        "VVFFD XFDFX GFAXA XFFVV FXVGG XDXGG DAXAF VFVFD",
+        "XXGVX {JAMMED} XFAXA XAFFG DFAXD FXXGF VGVGG VGAXV",
+        "FDXGF AGVDV AGAAA AAXVX VGFFF XVGAD AXVDV DADXD",
+        "AGAFX VXGGG FFXFA DDFXV GGFVX VVVFA GVVFG XFXFX",
+        "ADFFV VDGDD (VDFDD) DDDFV GXXGF GGFDX DGVFV GVDFA",
+        "FVGFD GDADX ADAAA DDFFF GDDDX (FXVDD) XFDFV XXFGF",
+        "XVADX DFVX"
+      ],
+      "analysis_frame": {
+        "kind": "parenthesized_reading_choices_duplicate_prefix_and_jammed_loss",
+        "parenthesized_choices": [
+          1,
+          2,
+          0
+        ],
+        "duplicate_prefix_excluded_start": 0,
+        "jammed_before_original_source": 85,
+        "excluded_source_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          25,
+          26,
+          27,
+          28,
+          29,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "unknown_inserted_slots": 25,
+        "model_slots": 294
+      }
+    }
+  ],
+  "annotations": {
+    "parenthesized_groups": [
+      {
+        "preceding": [
+          20,
+          25
+        ],
+        "parenthesized": [
+          25,
+          30
+        ],
+        "literal": "GXAFV"
+      },
+      {
+        "preceding": [
+          200,
+          205
+        ],
+        "parenthesized": [
+          205,
+          210
+        ],
+        "literal": "VDFDD"
+      },
+      {
+        "preceding": [
+          255,
+          260
+        ],
+        "parenthesized": [
+          260,
+          265
+        ],
+        "literal": "FXVDD"
+      }
+    ],
+    "jammed_before_original_source": 85,
+    "duplicate_prefix_ranges": [
+      [
+        0,
+        5
+      ],
+      [
+        5,
+        10
+      ]
+    ]
+  },
+  "primary_template": "HEERESGRUPPEXKIEWXXUNRUHENXZWISCHENXREGIERUNGXHETMANXUNDXPEDF9?RAX??VORSTEHEND?SOLDATENRATXBESCHLOSSXNEUTRALITAETXX7XVX?XODELSA?RM1?3230TMA?KO?SKQX",
+  "optional_templates": {
+    "leader": "HEERESGRUPPEXKIEWXXUNRUHENXZWISCHENXREGIERUNGXHETMANXUNDXPETLJURAX??VORSTEHEND?SOLDATENRATXBESCHLOSSXNEUTRALITAETXX7XVX?XODELSA?RM1?3230TMA?KO?SKQX",
+    "odessa": "HEERESGRUPPEXKIEWXXUNRUHENXZWISCHENXREGIERUNGXHETMANXUNDXPEDF9?RAX??VORSTEHEND?SOLDATENRATXBESCHLOSSXNEUTRALITAETXX7XVX?XODESSA?RM1?3230TMA?KO?SKQX",
+    "signature": "HEERESGRUPPEXKIEWXXUNRUHENXZWISCHENXREGIERUNGXHETMANXUNDXPEDF9?RAX??VORSTEHEND?SOLDATENRATXBESCHLOSSXNEUTRALITAETXX7XVX?XODELSA?RM1?3230TMARKOWSKYX",
+    "combined": "HEERESGRUPPEXKIEWXXUNRUHENXZWISCHENXREGIERUNGXHETMANXUNDXPETLJURAX??VORSTEHEND?SOLDATENRATXBESCHLOSSXNEUTRALITAETXX7XVX?XODESSA?RM1?3230TMARKOWSKYX"
+  },
+  "quote_spans": [
+    [
+      0,
+      17
+    ],
+    [
+      19,
+      65
+    ],
+    [
+      79,
+      113
+    ]
+  ],
+  "readable_quotes": {
+    "primary": "Heeresgruppe Kiew. Unruhen zwischen Regierung Hetman und PEDF9?RA. […] Soldatenrat beschloss Neutralitaet.",
+    "optional": "Heeresgruppe Kiew. Unruhen zwischen Regierung Hetman und Petljura. […] Soldatenrat beschloss Neutralitaet."
+  },
+  "geometry_scope": {
+    "parenthetical_choices": [
+      0,
+      1,
+      2
+    ],
+    "choice_meaning": {
+      "0": "Retain both printed groups in sequence.",
+      "1": "Exclude the parenthesized group, retain its preceding group.",
+      "2": "Exclude the preceding group, retain the parenthesized group."
+    },
+    "duplicate_prefix_choices": [
+      null,
+      0,
+      5
+    ],
+    "maps": 81,
+    "rule": "Insert enough unknown slots at the printed jammed boundary to reach 294; check all 27 parenthetical choices times 3 duplicate choices.",
+    "opaque_field_unconstrained_template_index": 66
+  },
+  "prior_ocr": {
+    "path": "prior_ocr.json",
+    "sha256": "9fc83798389ce07fe56fa3f84469bbe0b2c6a0abed1ed6e2fa7c665925cb777e",
+    "source_path": "experiments/p153_corpus/inputs.json",
+    "source_sha256": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc",
+    "source_record_id": "p219_ocr_block4"
+  },
+  "prior_credit": [
+    "Registered period key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list).",
+    "Earlier repository OCR source block retained as unverified provenance.",
+    "Source annotation model, conditional recovery and exact repair account: icekylinx and GPT-6 Astra Pro."
+  ],
+  "limits": [
+    "All 284 printed coordinate observations are preserved. The selected frame excludes 15 observed slots and inserts 25 unknown slots at the marked jamming location.",
+    "Parentheses may denote alternative observations. The model explicitly tests both sequential and alternative readings; it does not assert a uniquely authenticated historical transcription.",
+    "The primary lexical completion changes no retained observed coordinate and fills 17 inserted slots. Eight positions remain unresolved; all numerical/footer labels remain literal.",
+    "The modifier VORSTEHEND? is left unresolved. No extra character is inserted into its readable display.",
+    "PETLJURA, ODESSA and MARKOWSKY are optional same-length spelling proposals with independent prices, not new external historical identifications.",
+    "The opaque field 66 is unconstrained while pricing templates; minimum source models produce either 7? or B?, both retained."
+  ]
+}

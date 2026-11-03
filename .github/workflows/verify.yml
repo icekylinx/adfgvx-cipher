@@ -281,6 +281,11 @@ jobs:
           python experiments/p164_acknowledgment/verify.py --verify
           python experiments/p167_mission_address/verify.py --verify
           python experiments/p198_shipping_query/verify.py --verify
+          python experiments/p215_train_departure_fragment/verify.py --verify
+          python experiments/p219_kiev_unrest/verify.py --verify
+          python experiments/p71_dc_machines_fragment/verify.py --verify
+          python experiments/p176_coal_train_fragment/verify.py --verify
+          python data/reviews/verify_source_gap_audit.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |
           python experiments/p198_word_search/verify.py

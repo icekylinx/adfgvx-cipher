@@ -9,8 +9,9 @@ on printed pp175–176, PDF pp178–179. The repeated header is
 `LP v NKJ (5.40 p.m., November 10th); VON UKS KR 0915 (10/11) 6 TLE`.
 Its fourth part is the existing [p176a challenge](../p176a.md), whose
 breakthrough proposal retains prior credit to **Norbert and Max Baertl
-in 2017**. Two other surviving parts remain unread; they are not included
-in the new readable-record counts.
+in 2017**. This frozen three-record companion edition left two other
+surviving parts unread; separate later editions now address C3 and A6.
+Those parts remain excluded from its original three-record count.
 
 The message reports that the Romanian government has presented an
 ultimatum to evacuate its territory or lay down weapons. It then reports
@@ -104,7 +105,7 @@ printed slots, of which **86** are dashes. Both are retained as source
 context within this frozen companion edition, with no contribution to its
 three-record totals. The later [conditional C3 withdrawal edition](p175_c3_withdrawal_followup.md)
 now supplies a readable candidate while preserving all tied loss layouts.
-A6 remains unread.
+The separate [conditional A6 coal-train fragment](p176_coal_train_fragment.md) now proposes 48/80 positions through 44 printed-mask fills and no observed-coordinate changes; its routing field and later tail remain raw.
 
 A4 is already cataloged as p176a. Its earlier reconstructed text and
 missing-block assumptions remain separate from these native-frame

@@ -272,7 +272,7 @@
     {
       "path": "cases/caucasus/october_caucasus.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "b43de3b615b335883b194eafd9f1a1f4c020b4d6bbb2b0a7e5dd78201b996032",
+      "file_sha256_at_review": "581d43ed8370336a1f1cbca1f10a9866a5cb9e06ce4e80c37113741cc225d54f",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -4859,7 +4859,7 @@
     {
       "path": "cases/military/nov22_divisional_positions_part2.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "da841516b91880e9dedbe8cd1564e9e55a0fb3ac935ec0a5a2044addbe891480",
+      "file_sha256_at_review": "ac834b4f929582678a11dcd7273f1bf8125c74336578f6ba145806aa2faf18d4",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -6573,6 +6573,56 @@
       ]
     },
     {
+      "path": "cases/military/p176_coal_train_fragment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "279b675e428e2e0597f6fa88dad1b57962bf8646139f4156b25f30c40a4c35e3",
+      "review_basis": "Original-source and prior-context review; independent 44-mask repair repricing and 120 full source-retaining roundtrips per N/X alternative. Context-conditioned words remain separate from raw routing/tail.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "15bd6e9a08566202ebb5c7ec6ae770649d37355f913df7007953dc429b75bb93",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — native 160-slot frame, unchanged Nov10–12 partial key; 14/80 fixed positions:**",
+          "review_note": "Source, raw frame, proposed spans, earlier A5 context and explicit omissions checked against the certificate."
+        },
+        {
+          "index": 1,
+          "sha256": "4491a80d657eedf8ab2927a926af221415c029c4c7f33004ce36841f3e9ae8fe",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — contextual partial word proposal in the same frame; zero observed-coordinate substitutions and 44 printed-mask fills; 48/80 fixed positions:**",
+          "review_note": "Source, raw frame, proposed spans, earlier A5 context and explicit omissions checked against the certificate."
+        },
+        {
+          "index": 2,
+          "sha256": "42330263f2e7c2a9c8a14cf559b1cb70d638fae08992c4c77f415a9ee93c6b5f",
+          "role": "earlier_attributed_reading",
+          "caption_required": true,
+          "caption": "**Earlier attributed reading — A5 proposal by icekylinx and GPT-6 Astra Pro, reproduced with its unresolved field; not counted as a new record here:**",
+          "review_note": "Source, raw frame, proposed spans, earlier A5 context and explicit omissions checked against the certificate."
+        },
+        {
+          "index": 3,
+          "sha256": "675440e2361bc7a158ef39def74122729e411dc8a3def5a9f7bb7f972ab49fa1",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — native 160 slots; all printed dashes retained:**",
+          "review_note": "Source, raw frame, proposed spans, earlier A5 context and explicit omissions checked against the certificate."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "bbfb1df39d0ed33958e8645ddf7c1fa02ecc9d4f2637e39776f701a051e29289",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — proposed spans at positions 0–27 and 41–55; both omissions remain unread in this excerpt:**",
+          "review_note": "Source, raw frame, proposed spans, earlier A5 context and explicit omissions checked against the certificate."
+        }
+      ]
+    },
+    {
       "path": "cases/military/p180_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "87561dde5df57a4cfde868d90a4dcdfccc1850fd1ab11c5984947b41e9aaac56",
@@ -6790,6 +6840,48 @@
       ]
     },
     {
+      "path": "cases/military/p215_train_departure_fragment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "3cf66b40e293290b3ac85a47d95e1554c375a0a65028377e17e9cb943914232b",
+      "review_basis": "Original PDF glyph/annotation audit; independently repriced all declared models and checked complete source-retaining roundtrips. Lexical fills, source alternatives and unresolved fields retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "c02aeca14191e53246d1a5cf286782e01d6fae95d25e8dda274a4bc5fecb3ce7",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — 75 added slots and every printed mask unassigned:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        },
+        {
+          "index": 1,
+          "sha256": "d568e7a73157747e5c3d699bc91a3bbbe161899f74308288f7a264879c854324",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — same conditional frame; zero observed substitutions, 3 printed-mask fills and 39 added-slot fills:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        },
+        {
+          "index": 2,
+          "sha256": "d5c0d537b52eb3777d319b1a612497008b919c4e852fbccff8c3c20257843265",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — primary X-like glyph layer; coordinate 42 also has an A-like alternative:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "2012a730abe95461365553c8c8a5359ef4087189975e086cbb355a320d0cd512",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — partial lexical proposal; 3 printed-mask fills and 39 added-slot fills under the declared 220-slot frame:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        }
+      ]
+    },
+    {
       "path": "cases/military/p217_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "4af4266802a634b2f300906868a6b92c3eebdc09afd09fc23b128cb9fccbbd6f",
@@ -6820,6 +6912,64 @@
           "caption_required": true,
           "caption": "**Conditional interpretation — readable German under the listed historical numeral assignments:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p219_kiev_unrest.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "9f300a37ff639b845024a970baf583f0e8283f51ae64066a96bd89c384eee27f",
+      "review_basis": "Original PDF glyph/annotation audit; independently repriced all declared models and checked complete source-retaining roundtrips. Lexical fills, source alternatives and unresolved fields retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "a74bc377da897921e864812dd684f54faeba3706510d17247a429ea9e1d4cf66",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — conditional 294-slot frame; all 25 added coordinates unassigned:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        },
+        {
+          "index": 1,
+          "sha256": "8bb134c2fbe037664f010c75fa42e5c930b5821e8f89215357a8a8d982dfddec",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — same conditional frame; zero observed substitutions and 17 inserted-slot fills; eight positions unresolved:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        },
+        {
+          "index": 2,
+          "sha256": "7b0cba1469642f9195fe0b82f0de0effa62b2196e15214aded40bb8fb6e1b38f",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — optional combined names; seven observed substitutions and 20 inserted-slot fills; five positions unresolved:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        },
+        {
+          "index": 3,
+          "sha256": "7816a21921d0eb10c883c6efb8128b1dfab5741d250cfdb1eab0442e7a1aba7c",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 284 coordinate observations; parentheses and the jamming annotation retained separately:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "12c1ab657004c867f31a42304a4c24782ec8a553a586bfd640375d21c0ae83f1",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — three excerpts from the zero-substitution lexical completion; intervening clause and footer omitted:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        },
+        {
+          "index": 1,
+          "sha256": "100d1bc6ec19490724acf1168a4e0d8de7aee11fa3b16a71aecc626d5b559b7c",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — the same excerpt spans under the optional combined name proposal:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
         }
       ]
     },
@@ -7179,7 +7329,7 @@
     {
       "path": "cases/military/romanian_ultimatum_companions.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "891f5e89e2ccd836c16a991476a91525fda484b28060afe6cc7141aded63aa82",
+      "file_sha256_at_review": "50ddb0197380ead56819b5a8ea076cdb653b580e6bcbc960df096686f53e9756",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -14946,6 +15096,56 @@
           "caption_required": true,
           "caption": "**Readable German:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/p71_dc_machines_fragment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "1f67b2f8cddc2497cfc4a554848ed70a102b5e612badd1d5693398dc20f35730",
+      "review_basis": "Original PDF glyph/annotation audit; independently repriced all declared models and checked complete source-retaining roundtrips. Lexical fills, source alternatives and unresolved fields retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "751e7216b647e96cef29b981f4e04ab690b8be4bb5fb36b3d9f1ba2f6e99aa14",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 85 observed coordinates:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        },
+        {
+          "index": 1,
+          "sha256": "f9b24ac0b1281f66dedf88eb52a699cdde49b6334edf7312fe165dcb15dcd3f4",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — all 107 unobserved-tail slots unassigned:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        },
+        {
+          "index": 2,
+          "sha256": "996d0d6b124b172b5d7520c8e59c6c8b87ba74d53bb91d39df0ad4e64ef9f0de",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — conditional lexical proposal; 0 observed substitutions and 51 added-slot fills; exactly 49 unresolved positions:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        },
+        {
+          "index": 3,
+          "sha256": "fff2059302ee0df18e9b2b2c1e56df4c9470aec2ce935fab39e9ebaac2db9046",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — equally compatible ERHALTEN alternative; the same 0 observed substitutions and 51 added-slot fills:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "6bc76dd51732762b8cae0d855d60fbd8d85c95e718fb872c79a3ab8b5a4f3293",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — conditional proposal:**",
+          "review_note": "Source, conditional raw frame, proposed words and excerpt spans checked against the certificate."
         }
       ]
     },

@@ -1,0 +1,202 @@
+{
+  "schema": "adfgvx-p215-train-departure-fragment-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "cases/military/p215_train_departure_fragment.md",
+  "indexing": "All machine indices are zero-based; ranges are half-open.",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p215_B1_reviewed",
+      "pdf_page_1based": 218,
+      "crop_pdf_points": [
+        68,
+        330,
+        550,
+        430
+      ],
+      "render_scale": 4,
+      "width": 1928,
+      "height": 400,
+      "channels": 3,
+      "rgb_sha256": "8943af6c3f505b40485cf736a376bdfc18c142858a6c2409b3bc536adcd3f739",
+      "storage": "external_pdf_reference"
+    }
+  ],
+  "key": {
+    "id": "Nov22-24",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      16,
+      7,
+      14,
+      22,
+      11,
+      18,
+      1,
+      15,
+      8,
+      10,
+      20,
+      2,
+      13,
+      21,
+      3,
+      17,
+      19,
+      5,
+      9,
+      4
+    ],
+    "column_count": 22,
+    "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "square_rows": [
+      "QNZ72X",
+      "S4C0IJ",
+      "Y3RBEK",
+      "L9FD6G",
+      "MTHUVW",
+      "A5O8P1"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "header_literal": "B) UKS v ZON (03.20 a.m., November 23rd);0009 KR 3 TLE;1 TL RICHI-220",
+  "records": [
+    {
+      "id": "p215_B1",
+      "printed_page": 215,
+      "source_section": "B1",
+      "source_rows": [
+        "GG-VA FXFDF GAFGA AXX-V",
+        "FAXVX AAFAD VVXGA AXVXG XVXVG GDGAF A-G-G FDVDA",
+        "DXAAD GXAGF VAGVV FDAAG FVFAA GXVFG GD-DX DXVDA",
+        "DAAGF VDFFA FFVAA FXXGG FXFAF AGADV FVFAG VXDVX",
+        "VFXXA"
+      ],
+      "source_slots": 145,
+      "advertised_length": 220,
+      "key_id": "Nov22-24",
+      "analysis_frame": {
+        "kind": "single_contiguous_missing_block",
+        "insert_unknown_at_source_boundary": 10,
+        "inserted_slots": 75
+      },
+      "source_glyph_alternative": {
+        "source_index": 42,
+        "primary": "X",
+        "alternative": "A",
+        "primary_group": "XVXVG",
+        "alternative_group": "XVAVG",
+        "note": "The damaged third glyph admits both readings. Both are carried; the proposed edition leaves the affected plaintext position77 unresolved."
+      },
+      "expected_raw": "??END??L?????JXG??0?????TE???L?????INU??N?????XSZ??E?????ITE??Z?????OMA????????XAB??F?????XDI????????SZE??D???",
+      "primary_partial_template": "ABENDMELDUNG?JXG??0?????TE???L?????INU??N?????XSZEGED??WEITEREZUEGEVOMALPEN????XABGEFAHRENXDIVXSTX?UXSZEGED???",
+      "proposed_spans": [
+        {
+          "start": 0,
+          "text": "ABENDMELDUNG"
+        },
+        {
+          "start": 47,
+          "text": "SZEGED"
+        },
+        {
+          "start": 55,
+          "text": "WEITEREZUEGEVOMALPEN"
+        },
+        {
+          "start": 80,
+          "text": "ABGEFAHREN"
+        },
+        {
+          "start": 91,
+          "text": "DIVXSTX?UXSZEGED"
+        }
+      ],
+      "protected_literal_fields": [
+        "?J",
+        "G??0",
+        "INU??N",
+        "ALPEN????",
+        "?U"
+      ],
+      "readable_german": "Abendmeldung ?J. G??0?????TE???L?????INU??N?????. Szeged??. Weitere Zuege vom ALPEN???? abgefahren. DIV ST ?U Szeged ???."
+    }
+  ],
+  "prior_artifacts": {
+    "experiments/p153_corpus/inputs.json": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc",
+    "prior_ocr.json": "05585064d298ad3c3d0b22f10ea13e324ed70accb7d4bb548940037b9d577512"
+  },
+  "nearby_length_diagnostic": {
+    "model_lengths": [
+      200,
+      202,
+      204,
+      206,
+      208,
+      210,
+      212,
+      214,
+      216,
+      218,
+      220,
+      222,
+      224,
+      226,
+      228,
+      230,
+      232,
+      234,
+      236,
+      238,
+      240
+    ],
+    "insert_at_source_boundary": 10,
+    "retrospective_prefix": "ABENDMELDUNG",
+    "limit": "Prices this proposed twelve-letter prefix under 21 declared lengths and both glyph readings. It neither searches all corruption models nor establishes a unique historical length."
+  },
+  "prior_credit": "Historical source: J. Rives Childs. Published period key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and Lasry's 2017 key list. Earlier repository OCR is preserved. Conditional partial reading and exact coordinate accounting: icekylinx and GPT-6 Astra Pro.",
+  "limits": [
+    "The 75-slot gap is conditioned on the advertised 220 length and the printed missing-groups note after the first ten received coordinates.",
+    "The 77 fixed positions of the edited layer include explicitly proposed lexical fills; only 37 positions are fixed before fills.",
+    "No complete plaintext, unique historical corruption mechanism or new global key/numeral assignment is asserted.",
+    "SZEGED, WEITERE ZUEGE VOM ALPEN, ABGEFAHREN and DIV ST ?U are priced lexical proposals, not independent received copies.",
+    "ALPEN???? and every other unresolved position remain literal; ALPENKORPS, ZU and IN are not supplied."
+  ]
+}

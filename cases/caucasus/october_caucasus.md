@@ -73,7 +73,7 @@ The literal **170 slots** have unchanged geometry and fix **72/85 raw positions*
 
 The two equipment counts, the **16-kW** rating, and the date digits `28` and `9` survive directly. The **2** in the proposed **20-kW** rating is an erasure fill, so the exact second rating is conditional. The raw ending is `...UND1??0KX?XUMFORMER`, not a fully recovered numerical specification.
 
-Part A2 advertises **192 coordinates** but stops after **85**, followed by the printed note `(interference)`. Under the simple hypothesis that the lost suffix supplies the remaining 107 slots, no complete plaintext letter is fixed: each surviving symbol supplies only one side of a coordinate pair. Its literal fragment and conditional letter domains are preserved separately. It contributes neither a new accepted reading nor inferred equipment details.
+Part A2 advertises **192 coordinates** but stops after **85**, followed by the printed note `(interference)`. Under the simple hypothesis that the lost suffix supplies the remaining 107 slots, no complete plaintext letter is fixed: each surviving symbol supplies only one side of a coordinate pair. Its literal fragment and conditional letter domains are preserved separately. A [conditional partial edition](../radio/p71_dc_machines_fragment.md) now proposes a 47-position technical clause with 51 added-slot fills and no observed-coordinate substitutions. Both SCHALTEN and ERHALTEN alternatives remain compatible; the other 49 positions are unread. This proposal does not change the native 0/96 fixed-position count or infer additional equipment specifications.
 
 ## p69 B — Violetta's cargo from Braila to Poti
 

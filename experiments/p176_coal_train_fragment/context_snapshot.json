@@ -1,0 +1,160 @@
+{
+  "input_origin": "experiments/romanian_ultimatum_companions/inputs.json",
+  "input_origin_sha256": "c3e55a15bd2ecf988289e5bf17658e6d473f6d40cd15381a40fe434170d6c6e6",
+  "certificate_origin": "experiments/romanian_ultimatum_companions/certificates.json",
+  "certificate_origin_sha256": "e13c7e0495d9e992b2391935b809e9d5a24e6301c412823b057b137b14831810",
+  "prior_A6_contextual_unread_record": {
+    "id": "p176_A6",
+    "source_rows": [
+      "AVDAX DDGAG XGGXF XFVAD VVGAV VVDGX GXXDD XXXXX",
+      "FFVGA VVGAV AXDDX FXXXX DXDAD XAGFV FXAF- -----",
+      "----- ----- ----- ----- ----- ----- ----- -----",
+      "----- ----- ----- ----- ----- ----- ----- -----"
+    ],
+    "source_slots": 160,
+    "advertised_length": 160,
+    "valid_coordinates": 74,
+    "printed_erasure_slots": 86,
+    "model_decision": "Use the native 160-slot source only for diagnostic domains; no candidate plaintext or filled coordinate is proposed.",
+    "counted_as_readable_record": false
+  },
+  "prior_A5_input_record": {
+    "id": "p176_A5",
+    "source_rows": [
+      "VAADG ADAVF FXDFF VXGAX VDAVV DDAXD DFDGX VVDFX",
+      "GVGFA AGGVF ----- XGDGX ADAVV AVDGF DFAAX FXFXV",
+      "GDFXD AADAA GAAAG DGGDV ADVDX DXXXA XXGXV GXVVX",
+      "ADXVG FXAVG VFDVF XGADA VVADA DVDDA GXDXX XDVAD",
+      "VGDAD FGG"
+    ],
+    "source_slots": 168,
+    "advertised_length": 168,
+    "printed_page": 176,
+    "source_section": "A5",
+    "expected_raw": "NAC?RICHTEN?NDMATER?ALZUN1E?HSTN4CHXHERMANNSTADTXXKANNMITZUSUEHRUNGVONVERPFLEG?ZXUND",
+    "readable_candidate": "NACHRICHTENUNDMATERIALZUNAECHSTNACHXHERMANNSTADTXXKANNMITZUFUEHRUNGVONVERPFLEG?ZXUND",
+    "geometry": "Native printed frame; each printed dash occupies exactly one coordinate. No insertion or deletion."
+  },
+  "prior_A5_candidate": {
+    "template": "NACHRICHTENUNDMATERIALZUNAECHSTNACHXHERMANNSTADTXXKANNMITZUFUEHRUNGVONVERPFLEG?ZXUND",
+    "ciphertext": "VAADGADAVFFXDFFVXGAXVDAVVDDAXDDFDGXVVDFXGVGFAAGGVF?FGDAXGDFXADAVVAVDGFDFAAXFXFXVGDFXDAADAAGAAAGDGGDVADVDXDXXDAXXGXVGXVVXDDXVGFXAVGVFDVFXGADAVVADADVDDAGXDXXXDVADVGDADFGG",
+    "known_coordinate_substitutions": [
+      {
+        "model_index": 58,
+        "source_index": 58,
+        "printed": "G",
+        "from": "G",
+        "to": "F"
+      },
+      {
+        "model_index": 108,
+        "source_index": 108,
+        "printed": "X",
+        "from": "X",
+        "to": "D"
+      },
+      {
+        "model_index": 120,
+        "source_index": 120,
+        "printed": "A",
+        "from": "A",
+        "to": "D"
+      }
+    ],
+    "erased_coordinate_fills": [
+      {
+        "model_index": 51,
+        "source_index": 51,
+        "printed": "-",
+        "from": "?",
+        "to": "F"
+      },
+      {
+        "model_index": 52,
+        "source_index": 52,
+        "printed": "-",
+        "from": "?",
+        "to": "G"
+      },
+      {
+        "model_index": 53,
+        "source_index": 53,
+        "printed": "-",
+        "from": "?",
+        "to": "D"
+      },
+      {
+        "model_index": 54,
+        "source_index": 54,
+        "printed": "-",
+        "from": "?",
+        "to": "A"
+      }
+    ],
+    "full_plaintext_reencryption_verified": false,
+    "published_key_changed": false,
+    "raw": "NACHRICHTENUNDMATERIALZUNAECHSTNACHXHERMANNSTADTXXKANNMITZUFUEHRUNGVONVERPFLEG?ZXUND",
+    "fixed_positions": 83
+  },
+  "assembly": {
+    "source_headers": [
+      {
+        "printed_page": 175,
+        "section": "C",
+        "verbatim": [
+          "LP v NKJ (5.40 p.m., November 10th)",
+          "VON UKS KR 0915 (10/11) 6 TLE"
+        ]
+      },
+      {
+        "printed_page": 176,
+        "section": "A",
+        "verbatim": [
+          "LP v NKJ (5.40 p.m., November 10th)",
+          "VON UKS KR 0915 (10/11) 6 TLE"
+        ]
+      }
+    ],
+    "sequence": [
+      "p175_C1",
+      "p175_C2",
+      "p175_C3_unread",
+      "p176_A4_existing_p176a",
+      "p176_A5",
+      "p176_A6_unread"
+    ],
+    "basis": "Printed continued-page sequence, identical headers and explicit part numbers. This establishes the source assembly, not correctness of every copied coordinate or the existing part 4 reconstruction.",
+    "existing_part4": {
+      "id": "p176a",
+      "path": "cases/p176a.md",
+      "credit": "Norbert, 2017-03-02 comment 26; Max Baertl, 2017-03-11 comment 39. The existing reconstruction, missing-block choices and additional editorial repairs remain unchanged.",
+      "counted_in_new_records": false
+    }
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded explicit-body check, not a universal priority claim.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "Section 6.3 and table 3 discuss a different thirteen-part November 3 Mackensen report. The bounded search for ultimatum and p175 C / p176 A body references located no separate discussion of these three parts. Shared Rustschuk/Hermannstadt geography does not prove an identical plaintext."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "count": 55,
+      "result": "Norbert and Max Baertl discuss existing p176a, corresponding to source part 4. That credit is retained; new companions do not independently validate its supplied missing symbols."
+    },
+    "earlier_repository_candidates": {
+      "path": "prior_candidates.json",
+      "sha256": "f966a4e148a7329b03c0c5fcc7eeeda89f8a1f6692e2ffbb6879b1b20f2816ec"
+    }
+  }
+}

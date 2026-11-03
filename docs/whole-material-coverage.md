@@ -12,25 +12,25 @@ Every log page has a recorded boundary review. That review checks where bodies b
 
 | Measure | Current tree | Starting snapshot, 2026-11-03 08:04:46 UTC |
 |---|---:|---:|
-| Reviewed catalogue edition entries | 663 | 640 |
-| Distinct catalogued physical bodies | 662 | 639 |
+| Reviewed catalogue edition entries | 667 | 640 |
+| Distinct catalogued physical bodies | 666 | 639 |
 | Original challenge entries | 22 | 22 |
-| Other catalogue entries | 641 | 618 |
-| Additional physical bodies beyond challenges | 640 | 617 |
-| Bodies outside the current catalogue | 17 | 40 |
+| Other catalogue entries | 645 | 618 |
+| Additional physical bodies beyond challenges | 644 | 617 |
+| Bodies outside the current catalogue | 13 | 40 |
 
-Current catalogue metadata records source review for **662 distinct bodies**. This is the existing source-review evidence status, not a number of solved messages. The registered p132 / p132_B overlap is one physical body with two edition entries. The current counts come from the files in this checkout; the fixed baseline is never substituted for them.
+Current catalogue metadata records source review for **666 distinct bodies**. This is the existing source-review evidence status, not a number of solved messages. The registered p132 / p132_B overlap is one physical body with two edition entries. The current counts come from the files in this checkout; the fixed baseline is never substituted for them.
 
 There are **0 uncatalogued bodies** with an explicitly registered local review package in this checkout. They remain outside the catalogue count until integration. Publication status and local research status are distinct.
 
 ## Quantitative evidence coverage
 
-The bounded structured adapters independently recompute primary source/model accounting for **545 of the 679 bodies**. The other **134 bodies remain unquantified by this dashboard**; that includes unsupported legacy certificate shapes and genuinely missing editions. It does not mean that all of them lack prior decipherment work.
+The bounded structured adapters independently recompute primary source/model accounting for **549 of the 679 bodies**. The other **130 bodies remain unquantified by this dashboard**; that includes unsupported legacy certificate shapes and genuinely missing editions. It does not mean that all of them lack prior decipherment work.
 
 | Verified primary frame class | Physical bodies | Native slots | Model positions | Fixed raw labels, all unobserved coordinates unassigned | Extra fixed labels from supplied unobserved coordinates |
 |---|---:|---:|---:|---:|---:|
-| Native order and length | 471 | 100378 | 50189 | 48961 | 0 |
-| Modified frame; its stated assumptions still apply | 74 | 15986 | 8302 | 7309 | 1 |
+| Native order and length | 472 | 100538 | 50269 | 48975 | 0 |
+| Modified frame; its stated assumptions still apply | 77 | 16500 | 8655 | 7468 | 1 |
 
 These position totals cover only the quantified subset. **They are not a whole-corpus plaintext-completion percentage.** A fully fixed raw stream can retain garbles or uninterpreted numbers. The checker separates native source slots, conditional model additions/exclusions, and coordinates supplied from another witness; it does not combine alternative models or optional prose into a primary total.
 
@@ -41,7 +41,6 @@ The per-body JSON output includes exact evidence paths and explicit reasons when
 | Printed page | Actual body sections outside catalogue | Registered local edition or existing artifact lead |
 |---:|---|---|
 | 70 | B1 | No structured edition registered here |
-| 71 | A2 | A2: `experiments/october_caucasus/inputs.json` (lead; coverage not inferred) |
 | 84 | C | No structured edition registered here |
 | 127 | B2 | No structured edition registered here |
 | 137 | A6, B | A6: `experiments/transylvania_situation_report/inputs.json` (lead; coverage not inferred) |
@@ -49,11 +48,9 @@ The per-body JSON output includes exact evidence paths and explicit reasons when
 | 154 | A2 | No structured edition registered here |
 | 163 | A16 | No structured edition registered here |
 | 167 | D | No structured edition registered here |
-| 176 | A6 | A6: `experiments/romanian_ultimatum_companions/inputs.json` (lead; coverage not inferred) |
 | 194 | D1 | No structured edition registered here |
 | 212 | A4 | A4: `experiments/p212_p218_crosscopy/inputs.json` (lead; coverage not inferred); A4: `experiments/medical_return_transports/inputs.json` (lead; coverage not inferred) |
-| 215 | A, B1, B3 | No structured edition registered here |
-| 219 | C | No structured edition registered here |
+| 215 | A, B3 | No structured edition registered here |
 
 An artifact lead can be a diagnostic or contextual mention. Its existence does not count as a recovered body. The local label A16 at p163 identifies the actual fragment between printed parts 15 and 17; it does not assert a printed `16 TL` heading.
 
@@ -81,7 +78,7 @@ python data/reviews/verify_childs_material_coverage.py --write-report
 
 `--verify` is read-only. `--write-report` explicitly refreshes this dashboard from the live tree. The optional PDF check pins the original file bytes and page count; the source-boundary inspection itself is a recorded manual review, not an automated glyph-recognition claim.
 
-Current catalogue SHA-256: `f35a141e5eb53f5e6f34dec0dc58784142a898f35a0c0eadf9c22029dd91935f`.
+Current catalogue SHA-256: `e9381044beeb7bde0670773dab345e1a8865a651fdc8b14b043e5361f875eb63`.
 Census SHA-256: `2edad8ccbe1e589ae5e1b0497dd4d594d197f3ec5a5c1178e499d47f8a37ef87`.
 
 Source: J. Rives Childs, *General Solution of the ADFGVX Cipher System*, [complete scanned volume](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). See the [machine-readable census](../data/reviews/childs_material_census_20261103.json) for page-level review bases and material exceptions.

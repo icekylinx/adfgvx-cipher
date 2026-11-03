@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 150–174](../150-174/README.md) · [pp. 200–224 →](../200-224/README.md)
 
-**6 challenge entries · 103 other reviewed entries · 25 printed pages · 109 physical sources.**
+**6 challenge entries · 104 other reviewed entries · 25 printed pages · 110 physical sources.**
 
 Jump to page: [p175](#p175) · [p176](#p176) · [p177](#p177) · [p178](#p178) · [p179](#p179) · [p180](#p180) · [p181](#p181) · [p182](#p182) · [p183](#p183) · [p184](#p184) · [p185](#p185) · [p186](#p186) · [p187](#p187) · [p188](#p188) · [p189](#p189) · [p190](#p190) · [p191](#p191) · [p192](#p192) · [p193](#p193) · [p194](#p194) · [p195](#p195) · [p196](#p196) · [p197](#p197) · [p198](#p198) · [p199](#p199).
 
@@ -37,6 +37,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p176 A5](../../military/romanian_ultimatum_companions.md#p176-a5) | Messages and material first to Hermannstadt; provisioning fragment | Three coordinate substitutions and four dash fills; final unknown retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed candidate distinguished; existing p176a Norbert/Max credit retained |
+| [p176 A6](../../military/p176_coal_train_fragment.md#p176-a6) | Conditional coal-train continuation via Klausenburg; unread routing field and tail retained | Native 160 slots (74 observed, 86 printed masks); raw 14/80; context-conditioned partial word proposal 48/80 with zero observed substitutions and 44 mask fills; 32 unknown positions retained; no route completion or full-body claim | icekylinx and GPT-6 Astra Pro (2026); prior A5 context and published period key credited |
 | [p176 B2](../../military/nov10_danube_field_report.md#p176-b2) | French forces near the Danube: source-labeled second report part | Native frame; one observed-coordinate repair; odd spellings retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed repository body candidate; existing p176b part1 credit retained |
 | [p176 B3](../../military/nov10_danube_field_report.md#p176-b3) | Crossing near RUSTUK and reserves north of SLOBOZIE | Native frame; four observed-coordinate repairs; no source deletion | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed repository body candidate; existing p176b part1 credit retained |
 

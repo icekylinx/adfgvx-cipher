@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 175–199](../175-199/README.md) · [pp. 225–249 →](../225-249/README.md)
 
-**2 challenge entries · 114 other reviewed entries · 25 printed pages · 116 physical sources.**
+**2 challenge entries · 116 other reviewed entries · 25 printed pages · 118 physical sources.**
 
 Jump to page: [p200](#p200) · [p201](#p201) · [p202](#p202) · [p203](#p203) · [p204](#p204) · [p205](#p205) · [p206](#p206) · [p207](#p207) · [p208](#p208) · [p209](#p209) · [p210](#p210) · [p211](#p211) · [p212](#p212) · [p213](#p213) · [p214](#p214) · [p215](#p215) · [p216](#p216) · [p217](#p217) · [p218](#p218) · [p219](#p219) · [p220](#p220) · [p221](#p221) · [p222](#p222) · [p223](#p223) · [p224](#p224).
 
@@ -194,6 +194,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p215 B1](../../military/p215_train_departure_fragment.md#p215-b1) | Evening-report fragment: further trains departing and proposed Szeged fields | Native 145-slot fragment; conditional 220 frame after 75 missing slots; raw 37/110, partial lexical 77/110; zero observed substitutions, 3 printed-mask + 39 added-slot fills; 33 unknowns and both X/A glyph layers retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
 | [p215 B2](../../military/nov22_divisional_positions_part2.md#p215-b2) | Divisional areas and staff locations: second part with explicit geographical alternatives | 129/150 native raw positions; 0 coordinate substitutions + 13 source-mask fills; no frame change; optional geography: 18 substitutions + 14 fills total | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov22-24 key; prior OCR and body attribution retained |
 
 ## p216
@@ -250,6 +251,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 | [p219 A1](../../finance/crown_cash_requests.md) | Crown funds for Arad following agreement with the German military mission at Budapest | 167/167 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
 | [p219 A2](../../finance/crown_cash_requests.md) | Inquiry whether an advance can be drawn from the field war cash office | 115/115 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
 | [p219 B](../../finance/crown_cash_requests.md) | Crown remittances partly sent; severe banknote shortage reported | 177/177 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
+| [p219 C](../../military/p219_kiev_unrest.md#p219-c) | Kiev unrest between the Hetman government and an unresolved party; soldiers council neutrality | Reviewed 284 native observations; conditional 294 frame excludes 15 and adds 25; raw 122/147; zero-substitution lexical completion 139/147; optional names separately priced; all four minimum maps retained | icekylinx and GPT-6 Astra Pro (2026); published key and earlier OCR credited |
 | [p219 D1](../../military/nov25_provisions_and_evening_report.md#p219-d1) | First part: reduced provisioning strength and no further provisions | Native 166-slot frame; 3 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p220

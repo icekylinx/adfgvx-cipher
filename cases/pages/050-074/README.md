@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [pp. 75–99 →](../075-099/README.md)
 
-**1 challenge entry · 44 other reviewed entries · 19 printed pages · 45 physical sources.**
+**1 challenge entry · 45 other reviewed entries · 19 printed pages · 46 physical sources.**
 
 Jump to page: [p56](#p56) · [p57](#p57) · [p58](#p58) · [p59](#p59) · [p60](#p60) · [p61](#p61) · [p62](#p62) · [p63](#p63) · [p64](#p64) · [p65](#p65) · [p66](#p66) · [p67](#p67) · [p68](#p68) · [p69](#p69) · [p70](#p70) · [p71](#p71) · [p72](#p72) · [p73](#p73) · [p74](#p74).
 
@@ -157,6 +157,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p71 A1](../../caucasus/october_caucasus.md#p71-a1--electrical-equipment-sent-to-tiflis) | Machine sets and converter dispatched to Tiflis | Source-preserving edition; 20-kW digit remains conditional | icekylinx and GPT-6 Astra Pro (2026) |
+| [p71 A2](../../radio/p71_dc_machines_fragment.md#p71-a2) | Direct-current machines: conditional series-connection fragment | Interrupted 85-coordinate prefix; conditional 192 frame; raw 0/96, lexical fragment 47/96; 0 observed substitutions, 0 printed-mask fills, 51 added-slot fills; 49 positions unread; equally compatible ERHALTEN alternative retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier first-part edition credited |
 
 ## p72
 

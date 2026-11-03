@@ -4,7 +4,7 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**203 reviewed entries across 87 case pages, representing 203 physical sources; 202 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**204 reviewed entries across 88 case pages, representing 204 physical sources; 203 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -16,6 +16,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [September radio listening and acknowledgment procedure](september_radio_procedure.md) | p60 A1, p60 A2, p60 B |
 | [September: a key-destruction instruction with a masked label](september_key_destruction_order.md) | p61 A |
 | [Damascus radio station and a smaller transmitter at Aleppo](damascus_aleppo_report.md) | p64 B |
+| [Direct-current machines: a conditional fragment on p71 A2](p71_dc_machines_fragment.md) | p71 A2 |
 | [Late October radio service — calls, garbled traffic and network routing](late_october_radio_service.md) | p74 A, p74 B, p74 C1, p74 C2, p75 A3 |
 | [Tiflis: request to repeat an encrypted telegram](tiflis_repetition_request.md) | p77 A |
 | [Radio instructions: p77 B and p134 B](../context/radio_instructions.md) | p77 B, p134 B |
@@ -114,6 +115,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p60 B](september_radio_procedure.md) | Continuous radiograms during reception of the Nauen press; acknowledgment afterward | 112/113 raw positions; three coordinate substitutions and two conservative erasure fills; possible F glyph variant kept separate | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
 | [p61 A](september_key_destruction_order.md#p61-a) | Key-destruction instruction; first 77?77 label remains unresolved | Native 176 coordinates; 80/88 raw positions; 7 substitutions and 7 printed-mask fills; 1 key-label position unresolved; optional repetition fill separate | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; prior OCR screens retained |
 | [p64 B](damascus_aleppo_report.md#p64-b) | Reported Damascus radio destruction and Aleppo transmitter | Native 176-slot source; one coordinate substitution; hour remains unresolved | icekylinx and GPT-6 Astra Pro (2026); published Oct4–6 key; earlier unreviewed repository body candidate |
+| [p71 A2](p71_dc_machines_fragment.md#p71-a2) | Direct-current machines: conditional series-connection fragment | Interrupted 85-coordinate prefix; conditional 192 frame; raw 0/96, lexical fragment 47/96; 0 observed substitutions, 0 printed-mask fills, 51 added-slot fills; 49 positions unread; equally compatible ERHALTEN alternative retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier first-part edition credited |
 | [p74 A](late_october_radio_service.md#p74-a) | Daily calls from Deutsch-Altenburg, time 1120 and wave 5200 | 77/77 raw positions; 1 coordinate substitutions and 0 printed-dash fills | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
 | [p74 B](late_october_radio_service.md#p74-b) | Repeat parts two and three of a garbled CHI telegram | 85/85 raw positions; 0 coordinate substitutions and 0 printed-dash fills | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
 | [p74 C1](late_october_radio_service.md#p74-c1) | Merchant-ship and wire-network routing question; 30 printed erasures | 44/74 raw positions; 0 coordinate substitutions and 30 printed-dash fills; conditional fill candidate, not unique | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |

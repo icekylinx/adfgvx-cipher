@@ -13,6 +13,10 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [p176 A6 coal-train continuation](p176_coal_train_fragment/README.md) | Context-conditioned 48/80-position proposal | Zero observed changes; 44 printed-mask fills; raw route/tail and all 120 digit-square completions retained. |
+| [p71 A2 direct-current machines](p71_dc_machines_fragment/README.md) | Conditional technical clause; 47/96 lexical positions, 0/96 native fixed positions | All 85 observed half-coordinates retained; 51 added-slot fills and both wording alternatives. |
+| [p219 C Kiev unrest](p219_kiev_unrest/README.md) | Printed alternatives, jamming loss and a 139/147 zero-substitution edition | All 81 maps and four tied minima; optional name repairs kept separate. |
+| [p215 B1 train-departure fragment](p215_train_departure_fragment/README.md) | Conditional 220-slot frame; 77/110 lexical positions | No observed changes; 3 printed-mask and 39 added-slot fills; 33 unknowns and both X/A layers retained. |
 | [p198 A wheat-shipping query](p198_shipping_query/README.md) | Conditional 244-slot frame; 118/122 edited positions | All 2,700 source maps, both C/G glyph sensitivities and 432 global completions checked. |
 | [p152 A2 crossing fragment](p152_crossing_fragment/README.md) | Native 128-slot partial word proposal | Seven observed substitutions and two fills; name and footer preserved, optional place spellings separately priced. |
 | [p164 D receipt acknowledgement](p164_acknowledgment/README.md) | Native 58-position partial edition | Earlier complete raw output retained; ERHALTEN costs two observed substitutions. |
