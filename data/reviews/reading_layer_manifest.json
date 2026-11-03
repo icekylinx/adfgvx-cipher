@@ -15,7 +15,8 @@
     "data/reviews/reading_conventions_detail_prose_audit.json",
     "data/reviews/reading_conventions_count_units_audit.json",
     "data/reviews/reading_conventions_legacy_tokens_audit.json",
-    "data/reviews/reading_conventions_transport_table_audit.json"
+    "data/reviews/reading_conventions_transport_table_audit.json",
+    "data/reviews/reading_conventions_complete_displays_audit.json"
   ],
   "files": [
     {
@@ -1638,7 +1639,7 @@
     {
       "path": "cases/finance/military_allowances.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "3ca5a858128fc95d0e27de39dfdd597636d71a331e2705b1c854d0e913a7c988",
+      "file_sha256_at_review": "c49d576d5d193d757b99e863caa2302e3c2baf0ae753a4362594a58bf71f89cb",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate. Caption cleanup on 2026-11-03 preserves all literal displays; reversible before/after text and hashes are recorded in caption_cleanup_20261103.json.",
       "fences": [
         {
@@ -1701,11 +1702,11 @@
       "quotes": [
         {
           "index": 0,
-          "sha256": "370f6042a9a34d302799b3eb05f04bdecd9908d6a59e56bfce146a5fa79e43af",
+          "sha256": "26fdd90c29c5ed695c78d40e9528330e630d7e82c5cf5a6bb3c2eecc9820d8e1",
           "role": "readable_german",
           "caption_required": true,
-          "caption": "**Readable German:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "caption": "**Readable German — complete edited stream, including the unexpanded opening reference:**",
+          "review_note": "Complete quotation checked against its unchanged decoded stream by reading_conventions_complete_displays_audit.json and the live mapping register."
         },
         {
           "index": 1,
@@ -10515,7 +10516,7 @@
     {
       "path": "cases/radio/naval_arrival_inquiry.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "ca030074e55902ca6e7f4987664425768ff4ab540229c44c8b183a31073af396",
+      "file_sha256_at_review": "76d3f715a2c3d5cc883aeedb56127323cf1645266154040365f7d2e1afe5286d",
       "review_basis": "Explicit review of source-visible OCR correction versus genuinely missing coordinate, native/conditional frames, all reference labels, retained repeated RUDOLF and five alternative source-origin layouts. Spelled punctuation rendered as marks only where the caption explicitly says so.",
       "fences": [
         {
@@ -10538,11 +10539,11 @@
       "quotes": [
         {
           "index": 0,
-          "sha256": "d3c7de6d67505299bd599198afce393692da18656531b3021c22e7bb851dc1dc",
+          "sha256": "eb92a87c5307781612631394f4d73b2c7329a1a1a70aa09a78a7f79c5eb2cb8d",
           "role": "readable_german",
           "caption_required": true,
-          "caption": "**Readable German — spacing and punctuation; DOPPELPUNKT and FRAGEZEICHEN are rendered as their punctuation marks:**",
-          "review_note": "Visible role and qualifier reviewed against source/candidate evidence, including the unresolved reference and explicitly rendered punctuation words."
+          "caption": "**Readable German — complete decoded stream; the transmitted punctuation words remain visible:**",
+          "review_note": "Complete quotation checked against its unchanged decoded stream by reading_conventions_complete_displays_audit.json and the live mapping register."
         }
       ]
     },
@@ -12196,7 +12197,7 @@
     {
       "path": "cases/radio/p132_radio_service.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "693ee4ddefcf5fdab0fcfdcb4fb4b7b1288c2692d9fae3ae6128d4ffe1ea9ee7",
+      "file_sha256_at_review": "3f5c45f28fe5290917be0c752672a96a5fb8cfdb8ac5a4b51db938a1d16d908d",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -12283,11 +12284,11 @@
       "quotes": [
         {
           "index": 0,
-          "sha256": "045f8df4faf0453ede3b06460f72bc8f1c2684c01af609b71970872f63875b69",
+          "sha256": "53a67d37db61308eba745ceb4d8018aa19c4fee9179ef31cc054939e938fb152",
           "role": "readable_german",
           "caption_required": true,
-          "caption": "**Readable German:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "caption": "**Readable German — complete edited stream, with the literal addressee and name fields:**",
+          "review_note": "Complete quotation checked against its unchanged decoded stream by reading_conventions_complete_displays_audit.json and the live mapping register."
         },
         {
           "index": 1,

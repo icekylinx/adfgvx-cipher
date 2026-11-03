@@ -26,10 +26,12 @@ SLX4314XAUFXGGX2890XEINSXFRAGEDOPPELPUNKTXISTXSKLXBNRXGGX546XROEMX3XNUNMEHRDORTH
 SLX4314XAUFXGGX2890XEINSXFRAGEDOPPELPUNKTXISTXSKLXBNRXGGX546XROEMX3XNUNMEHRDORTHINGELANGTFRAGEZEICHENXADMIRALSTABSEEKRIEGSLTGXGX1121XROEMX3XX
 ```
 
-**Readable German — spacing and punctuation; DOPPELPUNKT and FRAGEZEICHEN are rendered as their punctuation marks:**
+**Readable German — complete decoded stream; the transmitted punctuation words remain visible:**
 
-> SL. 4314. Auf GG. 2890. Eins. Frage: Ist SKL, BNr. GG. 546, Röm. 3,
-> nunmehr dorthin gelangt? Admiralstab, Seekriegsltg. G. 1121. Röm. 3.
+> SL. 4314. Auf GG. 2890. Eins. Frage Doppelpunkt. Ist SKL, BNr. GG. 546, Röm. 3,
+> nunmehr dorthin gelangt Fragezeichen. Admiralstab, Seekriegsltg. G. 1121. Röm. 3.
+
+The encoded words `DOPPELPUNKT` and `FRAGEZEICHEN` remain words in this complete readable layer. The previous display explicitly rendered them as punctuation; this change makes all decoded labels visible without adding a repair.
 
 The message asks whether the item identified by **SKL BNR GG 546 ROEM 3**
 has arrived. It does not report an arrival. Routing and reference

@@ -42,9 +42,11 @@ It requires **five observed-coordinate substitutions and two printed
 erasure fills**. The initial reference remains unexpanded. With
 editorial spacing, the substantive passage reads:
 
-**Readable German:**
+**Readable German — complete edited stream, including the unexpanded opening reference:**
 
-> Für Selbstverpfleger dort festgesetzte Beköstigungsgelder sind zu hoch und müssen auch für rückliegende Zeit beanstandet werden. Schwedische Gebührnisse können nicht als maßgebend angesehen werden.
+> Zu M. RM 30 Nr. 228. Für Selbstverpfleger dort festgesetzte Beköstigungsgelder sind zu hoch und müssen auch für rückliegende Zeit beanstandet werden. Schwedische Gebührnisse können nicht als maßgebend angesehen werden.
+
+The initial `ZU X M X RM X 30 NR X 228` reference is now included in the readable quotation. Its abbreviations remain unexpanded; no number or source coordinate changes.
 
 This does not identify any particular Swedish schedule or numerical rate.
 

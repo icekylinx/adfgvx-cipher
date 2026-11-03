@@ -48,10 +48,12 @@ MILITAERMISZIONKOSJOIIXUEBERSENDUNGEINESKRIEGSRANGLISTENAUSZUGESDESGENERALMAJRHY
 
 The readable clause is:
 
-**Readable German:**
+**Readable German — complete edited stream, with the literal addressee and name fields:**
 
-> Übersendung eines Kriegsranglistenauszuges des `GENERALMAJRHYDEWALD`
+> Militärmiszion `KOSJOII`. Übersendung eines Kriegsranglistenauszuges des `GENERALMAJRHYDEWALD`
 > erbeten. Feldeisenbahnchef `PAFR53540`.
+
+The readable quotation includes the entire opening `MILITAERMISZIONKOSJOII`. Its Z spelling and unresolved field remain literal; the six substitutions and one dash fill above are unchanged.
 
 It requests an extract from a wartime officer register. **The addressee/place
 field `KOSJOII` and the general-name field `GENERALMAJRHYDEWALD` remain

@@ -122,6 +122,13 @@ nonseparator labels, retaining both unknown positions and the complete
 `89240911?` closing. These supplementary display checks add no physical
 source records and do not choose historical numeral values.
 
+Three [completed older quotations](reading-conventions-complete-displays.md)
+now include formerly separate opening fields and retain encoded punctuation
+words. Their full live mappings preserve 430 ordered labels without adding
+any decoded position or repair. The before/after audit protects 19 fenced
+blocks, 15 headings, 74 prior inline-code occurrences and eight evidence files.
+The earlier excerpting and punctuation rendering were already disclosed.
+
 ## Run the checks
 
 From the repository root:
@@ -132,6 +139,8 @@ python data/reviews/verify_manual_readings.py
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_layers_before.json --audit data/reviews/reading_conventions_layers_audit.json
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
 python data/reviews/check_reading_presentation.py
+python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/complete_displays_readable_mappings_20261103.json
+python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_complete_displays_before.json --audit data/reviews/reading_conventions_complete_displays_audit.json
 python data/reviews/verify_table_readable_mappings.py
 python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_transport_table_before.json --audit data/reviews/reading_conventions_transport_table_audit.json
 python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/accounting_copy_readable_mapping_20261103.json
