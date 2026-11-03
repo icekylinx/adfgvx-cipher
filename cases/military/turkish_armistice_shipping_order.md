@@ -36,7 +36,9 @@ BVGXKOSPOLIXXNACHAUFGEFANGENEMFUNKSPRUCHWAFFENSTILLSTANDTUERKEIMITENTENTEABGESCH
 
 > BVG, Kospoli. Nach aufgefangenem Funkspruch Waffenstillstand Türkei
 > mit Entente abgeschlossen. Bedingungen, Doppelpunkt: freie Durchfahrt
-> Dardanellen und Bosporus ins Schwarze Meer. Stop.
+> Dardanellen und Bosporus in schwarzes Meer. Stop.
+
+The wording `in schwarzes Meer` follows literal `INSCHWARZESMEER`; no grammatical normalization is applied.
 
 The raw labels **7** in `AUFGEFANG7NEM` and **8** in `ENTE8TA` are
 repaired through the listed local source substitutions. This does not

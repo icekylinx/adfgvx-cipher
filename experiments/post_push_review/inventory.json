@@ -1,7 +1,7 @@
 {
   "schema": "adfgvx-post-publication-review-v1",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "inputs_sha256": "f8470592d0ae120ed117082ee623bbd94c47789466cee8f84adf017f6badfc5d",
+  "inputs_sha256": "adfec27d2234b9d29cac1d6829c88c1259159ac32bcba2befbd349cd619e96e1",
   "review_state": "in_progress",
   "initial_push_confirmed_utc": "2026-11-02T23:27:19Z",
   "minimum_followup_end_utc": "2026-11-03T01:27:19Z",
@@ -11,14 +11,15 @@
   "catalogue": {
     "challenge_entries": 22,
     "other_records_before": 195,
-    "other_records_after": 416,
-    "new_physical_records": 221,
+    "other_records_after": 443,
+    "new_physical_records": 248,
     "removed_records": [],
     "prior_metadata_changes_other_than_paths": [],
     "canonical_path_updates": 164
   },
-  "source_package_count": 59,
+  "source_package_count": 67,
   "new_case_pages": [
+    "cases/caucasus/caucasus_radio_transmitters.md",
     "cases/caucasus/nobel_oil_inquiry.md",
     "cases/caucasus/p212_p218_crosscopy.md",
     "cases/caucasus/poti_horse_delivery.md",
@@ -33,6 +34,7 @@
     "cases/finance/kress_money_receipt.md",
     "cases/finance/military_allowances.md",
     "cases/finance/oil_cartel_dispatch_query.md",
+    "cases/finance/premium_payment_stop.md",
     "cases/finance/ruble_rate_companions.md",
     "cases/finance/zitag_purchase_orders.md",
     "cases/military/armistice_and_leave_orders.md",
@@ -40,7 +42,9 @@
     "cases/military/armistice_provisions_requests.md",
     "cases/military/armistice_transit_planning.md",
     "cases/military/black_sea_disembarkation.md",
+    "cases/military/black_sea_evacuation_routes.md",
     "cases/military/budapest_wire_break.md",
+    "cases/military/chemnitz_verbetz_trains.md",
     "cases/military/dobrudscha_report.md",
     "cases/military/formation_dissolution.md",
     "cases/military/hungary_transport_warning.md",
@@ -56,12 +60,14 @@
     "cases/military/nov10_danube_field_report.md",
     "cases/military/nov3_evening_report.md",
     "cases/military/nov3_withdrawal_and_night_report.md",
+    "cases/military/nov8_alpenkorps_report.md",
     "cases/military/orient_intelligence.md",
     "cases/military/p175_c3_withdrawal_followup.md",
     "cases/military/palestine_medical_dissolution.md",
     "cases/military/prague_route_and_situation.md",
     "cases/military/repatriation_orders.md",
     "cases/military/romanian_ultimatum_companions.md",
+    "cases/military/sava_crossing_evening_report.md",
     "cases/military/seaplane_personnel_return.md",
     "cases/military/transport_and_disarmament_orders.md",
     "cases/military/transylvania_situation_report.md",
@@ -70,12 +76,15 @@
     "cases/military/turkish_mission_recall.md",
     "cases/military/wallachia_withdrawal_preparations.md",
     "cases/naval/reval_steamer_notice.md",
+    "cases/people/awaloff_return_request.md",
     "cases/people/dunst_assignment.md",
     "cases/people/mecklenburg_inquiry.md",
     "cases/people/medical_company_inquiry.md",
     "cases/people/medical_return_to_unit.md",
     "cases/people/military_mission_recalls.md",
     "cases/people/namur_order_witnesses.md",
+    "cases/people/rudolf_discharge.md",
+    "cases/people/schaefer_return_inquiry.md",
     "cases/people/spa_berlin_delegates.md",
     "cases/radio/apparatus_sale_request.md",
     "cases/radio/constantinople_address_parts.md",
@@ -86,27 +95,32 @@
     "cases/radio/hermannstadt_radio_report.md",
     "cases/radio/hungary_connection_and_supplies.md",
     "cases/radio/late_october_radio_service.md",
+    "cases/radio/naval_arrival_inquiry.md",
     "cases/radio/nazareth_front_inquiry.md",
     "cases/radio/newspaper_dispatch.md",
     "cases/radio/newspaper_dispatch_witnesses.md",
+    "cases/radio/nov1_contact_and_mail.md",
     "cases/radio/nov3_ringbahn_notice.md",
     "cases/radio/nov3_transmission_schedule.md",
     "cases/radio/opposite_end_deciphering.md",
     "cases/radio/p132_radio_service.md",
     "cases/radio/radio_contacts_and_keys.md",
+    "cases/radio/radio_equipment_sale_prices.md",
     "cases/radio/right_rhine_equipment.md",
+    "cases/radio/ringbahn_key_reuse.md",
     "cases/radio/september_radio_procedure.md",
     "cases/radio/telefunken_staff_inquiry.md",
-    "cases/radio/telegram_priority.md"
+    "cases/radio/telegram_priority.md",
+    "cases/radio/tiflis_repetition_request.md"
   ],
-  "source_image_count": 281,
-  "pinned_artifact_count": 925,
+  "source_image_count": 318,
+  "pinned_artifact_count": 1038,
   "coverage_totals": {
-    "physical_records": 221,
-    "source_slots": 50157,
-    "modeled_plaintext_positions": 25208,
-    "fixed_raw_label_positions_under_stated_geometry": 24295,
-    "known_coordinate_substitutions": 490
+    "physical_records": 248,
+    "source_slots": 55640,
+    "modeled_plaintext_positions": 27999,
+    "fixed_raw_label_positions_under_stated_geometry": 26922,
+    "known_coordinate_substitutions": 529
   },
   "source_packages": [
     {
@@ -2155,6 +2169,276 @@
         "source_deletions": 0,
         "published_key_changed": false
       }
+    },
+    {
+      "name": "black_sea_evacuation_routes",
+      "record_ids": [
+        "p88_C1",
+        "p89_A3",
+        "p89_A4",
+        "p90_A5"
+      ],
+      "case_pages": [
+        "cases/military/black_sea_evacuation_routes.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 1314,
+        "modeled_plaintext_positions": 707,
+        "fixed_raw_label_positions_under_stated_geometry": 609,
+        "known_coordinate_substitutions": 8
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 1314,
+        "valid_source_coordinates": 1313,
+        "modeled_coordinates": 1414,
+        "plaintext_positions": 707,
+        "baseline_fixed_positions": 609,
+        "candidate_fixed_positions": 679,
+        "known_coordinate_substitutions": 8,
+        "source_or_model_erasure_fills": 70,
+        "printed_dash_fills": 1,
+        "source_declared_missing_coordinates": 100,
+        "missing_coordinate_fills": 69,
+        "unfilled_missing_coordinates": 31,
+        "unfilled_printed_erasure_coordinates": 0,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "caucasus_radio_transmitters",
+      "record_ids": [
+        "p88_A1",
+        "p88_A2"
+      ],
+      "case_pages": [
+        "cases/caucasus/caucasus_radio_transmitters.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 306,
+        "modeled_plaintext_positions": 153,
+        "fixed_raw_label_positions_under_stated_geometry": 151,
+        "known_coordinate_substitutions": 3
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 306,
+        "valid_source_coordinates": 304,
+        "modeled_coordinates": 306,
+        "plaintext_positions": 153,
+        "baseline_fixed_positions": 151,
+        "candidate_fixed_positions": 152,
+        "known_coordinate_substitutions": 3,
+        "source_or_model_erasure_fills": 1,
+        "unfilled_visible_invalid_glyph_coordinates": 1,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov1_contact_mail_and_sava",
+      "record_ids": [
+        "p99_A",
+        "p99_B1",
+        "p99_C1",
+        "p99_C2",
+        "p99_D"
+      ],
+      "case_pages": [
+        "cases/military/sava_crossing_evening_report.md",
+        "cases/radio/nov1_contact_and_mail.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 5,
+        "source_slots": 643,
+        "modeled_plaintext_positions": 322,
+        "fixed_raw_label_positions_under_stated_geometry": 279,
+        "known_coordinate_substitutions": 3
+      },
+      "original_summary": {
+        "physical_records": 5,
+        "source_slots": 643,
+        "valid_source_coordinates": 600,
+        "model_slots": 644,
+        "plaintext_positions": 322,
+        "raw_fixed_positions": 279,
+        "edited_fixed_positions": 319,
+        "known_coordinate_substitutions": 3,
+        "source_mask_fills": 40,
+        "missing_coordinate_fills": 1,
+        "source_coordinate_exclusions": 0,
+        "inserted_model_coordinates": 1
+      }
+    },
+    {
+      "name": "premium_payment_stop",
+      "record_ids": [
+        "p78_A1",
+        "p78_A2"
+      ],
+      "case_pages": [
+        "cases/finance/premium_payment_stop.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 410,
+        "modeled_plaintext_positions": 205,
+        "fixed_raw_label_positions_under_stated_geometry": 205,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 410,
+        "valid_source_coordinates": 410,
+        "modeled_coordinates": 410,
+        "plaintext_positions": 205,
+        "baseline_fixed_positions": 205,
+        "candidate_fixed_positions": 205,
+        "known_coordinate_substitutions": 0,
+        "source_or_model_erasure_fills": 0,
+        "unfilled_printed_erasure_coordinates": 0,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "tiflis_repetition_request",
+      "record_ids": [
+        "p77_A"
+      ],
+      "case_pages": [
+        "cases/radio/tiflis_repetition_request.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 314,
+        "modeled_plaintext_positions": 157,
+        "fixed_raw_label_positions_under_stated_geometry": 157,
+        "known_coordinate_substitutions": 2
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 314,
+        "valid_source_coordinates": 314,
+        "modeled_coordinates": 314,
+        "plaintext_positions": 157,
+        "baseline_fixed_positions": 157,
+        "candidate_fixed_positions": 157,
+        "known_coordinate_substitutions": 2,
+        "source_or_model_erasure_fills": 0,
+        "unfilled_printed_erasure_coordinates": 0,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov8_radio_keys_and_reports",
+      "record_ids": [
+        "p160_A2",
+        "p160_B1",
+        "p160_B2",
+        "p160_C1",
+        "p160_C2",
+        "p160_D1",
+        "p161_A2"
+      ],
+      "case_pages": [
+        "cases/military/nov8_alpenkorps_report.md",
+        "cases/people/awaloff_return_request.md",
+        "cases/radio/radio_equipment_sale_prices.md",
+        "cases/radio/ringbahn_key_reuse.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 7,
+        "source_slots": 1327,
+        "modeled_plaintext_positions": 662,
+        "fixed_raw_label_positions_under_stated_geometry": 643,
+        "known_coordinate_substitutions": 11
+      },
+      "original_summary": {
+        "physical_records": 7,
+        "source_slots": 1327,
+        "valid_source_coordinates": 1315,
+        "model_slots": 1324,
+        "plaintext_positions": 662,
+        "raw_fixed_positions": 643,
+        "edited_fixed_positions": 654,
+        "known_coordinate_substitutions": 11,
+        "source_mask_fills": 11,
+        "excluded_observed_coordinates": 3,
+        "excluded_source_masks": 0,
+        "inserted_model_coordinates": 0,
+        "published_key_changes": 0
+      }
+    },
+    {
+      "name": "p108_naval_and_personnel",
+      "record_ids": [
+        "p108_A",
+        "p108_B1",
+        "p108_B2"
+      ],
+      "case_pages": [
+        "cases/people/rudolf_discharge.md",
+        "cases/radio/naval_arrival_inquiry.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 547,
+        "modeled_plaintext_positions": 274,
+        "fixed_raw_label_positions_under_stated_geometry": 273,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 547,
+        "valid_source_coordinates": 547,
+        "modeled_coordinates": 548,
+        "plaintext_positions": 274,
+        "baseline_fixed_positions": 273,
+        "candidate_fixed_positions": 273,
+        "known_coordinate_substitutions": 0,
+        "source_or_model_erasure_fills": 0,
+        "unfilled_missing_source_coordinates": 1,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "p107_railway_and_dragoman",
+      "record_ids": [
+        "p107_B1",
+        "p107_B2",
+        "p107_C"
+      ],
+      "case_pages": [
+        "cases/military/chemnitz_verbetz_trains.md",
+        "cases/people/schaefer_return_inquiry.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 622,
+        "modeled_plaintext_positions": 311,
+        "fixed_raw_label_positions_under_stated_geometry": 310,
+        "known_coordinate_substitutions": 12
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 622,
+        "valid_source_coordinates": 621,
+        "modeled_coordinates": 622,
+        "plaintext_positions": 311,
+        "baseline_fixed_positions": 310,
+        "candidate_fixed_positions": 310,
+        "known_coordinate_substitutions": 12,
+        "source_or_model_erasure_fills": 0,
+        "unfilled_printed_erasure_coordinates": 1,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
     }
   ],
   "additional_packages": [
@@ -2182,6 +2466,9 @@
     "p75_B1",
     "p75_B2",
     "p76_A3",
+    "p77_A",
+    "p78_A1",
+    "p78_A2",
     "p79_A1",
     "p79_A2",
     "p80_A",
@@ -2196,6 +2483,12 @@
     "p82_A4",
     "p83_B",
     "p86_A",
+    "p88_A1",
+    "p88_A2",
+    "p88_C1",
+    "p89_A3",
+    "p89_A4",
+    "p90_A5",
     "p90_B1",
     "p91_A2",
     "p91_A3",
@@ -2213,6 +2506,11 @@
     "p98_A1",
     "p98_A2",
     "p98_B",
+    "p99_A",
+    "p99_B1",
+    "p99_C1",
+    "p99_C2",
+    "p99_D",
     "p100_B",
     "p100_C",
     "p102_A",
@@ -2222,6 +2520,12 @@
     "p104_C1",
     "p104_C2",
     "p106_B",
+    "p107_B1",
+    "p107_B2",
+    "p107_C",
+    "p108_A",
+    "p108_B1",
+    "p108_B2",
     "p110_A2",
     "p110_B",
     "p110_C",
@@ -2295,6 +2599,13 @@
     "p156_C1",
     "p157_B1",
     "p157_B2",
+    "p160_A2",
+    "p160_B1",
+    "p160_B2",
+    "p160_C1",
+    "p160_C2",
+    "p160_D1",
+    "p161_A2",
     "p161_C1",
     "p161_C2",
     "p161_D1",

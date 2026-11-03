@@ -11,17 +11,17 @@ by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 416 other physical source records**, with all
-22 challenge entries preserved. It adds **221 physical records across 59 source
+This snapshot compares **195 → 443 other physical source records**, with all
+22 challenge entries preserved. It adds **248 physical records across 67 source
 packages** and keeps every earlier record. The separate interpretation and
 open-target method audits add no physical records.
 
-The new source packages account for **50,157 literal source slots** and
-**25,208 modeled plaintext positions**, of which **24,295 have fixed raw labels**
+The new source packages account for **55,640 literal source slots** and
+**27,999 modeled plaintext positions**, of which **26,922 have fixed raw labels**
 under their stated frames. These are coverage counts. They include repeated
 copies, previously identified bodies, conditional geometry and unresolved
 historical numeral meanings; they are not a count of first decipherments or
-universally correct original letters. All 490 observed-coordinate substitutions
+universally correct original letters. All 529 observed-coordinate substitutions
 are recorded locally, separately from source erasures and inserted values.
 The source-slot total includes separately recorded marginal annotations;
 those annotations are not automatically part of a typed analysis frame.
@@ -89,10 +89,18 @@ those annotations are not automatically part of a typed analysis frame.
 | [Mecklenburg inquiry and Seeflugstation Ost personnel order](../mecklenburg_and_seaplane_personnel/README.md) | 3 | 1066 | 533 | 525 | 11 |
 | [November 3 evening-report copies and November 4 radio notices](../nov3_evening_and_nov4_radio/README.md) | 7 | 1258 | 635 | 577 | 16 |
 | [Turkish armistice report and shipping order](../turkish_armistice_shipping_order/README.md) | 3 | 918 | 459 | 459 | 11 |
+| [Five-part Black Sea evacuation routing order](../black_sea_evacuation_routes/README.md) | 4 | 1314 | 707 | 609 | 8 |
+| [Caucasus radio transmitters: typed and annotated source layers](../caucasus_radio_transmitters/README.md) | 2 | 306 | 153 | 151 | 3 |
+| [November 1 contact times, service mail and the Sava evening report](../nov1_contact_mail_and_sava/README.md) | 5 | 643 | 322 | 279 | 3 |
+| [End-of-October premium-payment order](../premium_payment_stop/README.md) | 2 | 410 | 205 | 205 | 0 |
+| [Tiflis request for repetition of an encrypted telegram](../tiflis_repetition_request/README.md) | 1 | 314 | 157 | 157 | 2 |
+| [November 8 radio-key instructions, apparatus prices and reports](../nov8_radio_keys_and_reports/README.md) | 7 | 1327 | 662 | 643 | 11 |
+| [p108: naval inquiry and personnel-discharge order](../p108_naval_and_personnel/README.md) | 3 | 547 | 274 | 273 | 0 |
+| [p107 railway instructions and dragoman-return inquiry](../p107_railway_and_dragoman/README.md) | 3 | 622 | 311 | 310 | 12 |
 
 The [complete inventory](inventory.json) preserves every added identifier,
 package summary, case path and counting limit. The [inputs](inputs.json)
-pin both catalogues and 925 package/case artifacts. Earlier statuses, subjects
+pin both catalogues and 1038 package/case artifacts. Earlier statuses, subjects
 and credits are unchanged; 164 old path fields follow the explicit topic-migration map.
 
 ## Additional interpretation and method audits
@@ -122,13 +130,13 @@ classifies every current substantive case and protects each display's bytes
 and local qualifier; new unreviewed pages fail its check. These overlapping
 presentation counts are never added to source-record totals. A separate
 [semantic display review](../../docs/reading-conventions-semantic-review.md)
-retains exact unknown fields and exposes prose-only spellings in six cases.
+retains exact unknown fields and exposes prose-only spellings in six cases. A follow-up shipping review preserves six earlier fences and maps all 414 nonseparator labels of three complete quotes, correcting an unmarked S relocation.
 The p111/p112 package also checks every nonseparator label in seven complete
 readable passages, preserving all five unresolved positions.
 
 ## Independent source-image binding
 
-All **281 delivered source images** have normalized PDF-page, rectangle, scale,
+All **318 delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph

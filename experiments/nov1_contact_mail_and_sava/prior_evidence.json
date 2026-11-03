@@ -1,0 +1,136 @@
+{
+  "schema": "adfgvx-p99-prior-evidence-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "original_screen_sha256": "408ca9c5f60b94c73f88351755fde9ac6e916d2ee5fe3cf99c228fd653ef00ab",
+  "rows": [
+    {
+      "block_id": "p99_ocr_block8",
+      "printed_page": 99,
+      "headers_ocr": [
+        "D) UKS v ZON (------ November 1st)",
+        "2015 (1) AN LP"
+      ],
+      "ciphertext": "FXGDXAXFFDXXDFFXGGXXVFDAVFDGDFDXDDXGGFXDDVGXDGAVXDXVGDGXGVXGFVGDGDAAFGFXXGAFAGXGVXDXXDVFXVAGXXDVXF?D",
+      "source_slots": 100,
+      "best": {
+        "key": "Nov1-3",
+        "score": -6.9104529695307955,
+        "known_quad_mean": -6.643949891245643,
+        "known_quad_windows": 43,
+        "plaintext": "ANXOXHXLXXEINSXAXNRX11127XGAHXOPX?RHALTENXEXOXKX11",
+        "known_positions": 49,
+        "positions": 50,
+        "unpaired_coordinate": null
+      },
+      "runner_up": {
+        "key": "Nov13-15a",
+        "score": -9.340055009152026,
+        "known_quad_mean": -6.852591855185373,
+        "known_quad_windows": 7,
+        "known_positions": 34,
+        "positions": 50,
+        "unpaired_coordinate": null
+      }
+    },
+    {
+      "block_id": "p99_ocr_block3",
+      "printed_page": 99,
+      "headers_ocr": [
+        "B) UXS v ZON (------ November 2nd)",
+        "5016 (1) AN LP 3 TLE"
+      ],
+      "ciphertext": "DAXAGGAVVGDVXDFVGDGDXGGDXGGDDAFDAXADAGDVVGXVGFXVVVXDGAXXGXVVGGXAXFGGDDAVVDFVAFFVXDFGXGXAXFDAFGXVVDAFXVGFADGXGAGFFDDVDGVXDGVAGDXFDDXA",
+      "source_slots": 132,
+      "best": {
+        "key": "Oct28-31",
+        "score": -9.525904965779137,
+        "known_quad_mean": -9.525904965779137,
+        "known_quad_windows": 63,
+        "plaintext": "0MQFMUDBYBW2FEEVAMR71U8ZQQO5CYXXHCU8FGSOOOD0RPAVMPOX5NMGX5V4CZ240U",
+        "known_positions": 66,
+        "positions": 66,
+        "unpaired_coordinate": null
+      },
+      "runner_up": {
+        "key": "Nov13-15a",
+        "score": -9.547508830115909,
+        "known_quad_mean": -8.671154095576359,
+        "known_quad_windows": 13,
+        "known_positions": 45,
+        "positions": 66,
+        "unpaired_coordinate": null
+      }
+    },
+    {
+      "block_id": "p99_ocr_block5",
+      "printed_page": 99,
+      "headers_ocr": [
+        "C) UKS v 20N (11.35 p.m., November 1st)",
+        "2000 (1) AN LP 3 TLE"
+      ],
+      "ciphertext": "AAXFVGAXXDAFFAAGGDXFGDGFGGAGGVAFDVAGGXAFGAVGVDAXXXDADXDXXGDXXVVDFVGGAXVFAFDAVDF???AAA??????????",
+      "source_slots": 95,
+      "best": {
+        "key": "Nov1-3",
+        "score": -9.612202514301647,
+        "known_quad_mean": -9.122726873918014,
+        "known_quad_windows": 11,
+        "plaintext": "UB9???4BVWEG???FUDI2RV?9?PASDTQ?D?269W?29?L?TXS",
+        "known_positions": 34,
+        "positions": 47,
+        "unpaired_coordinate": "G"
+      },
+      "runner_up": {
+        "key": "Nov16-18",
+        "score": -9.671432170000942,
+        "known_quad_mean": -8.251070658365885,
+        "known_quad_windows": 3,
+        "known_positions": 26,
+        "positions": 47,
+        "unpaired_coordinate": "G"
+      }
+    },
+    {
+      "block_id": "p99_ocr_block1",
+      "printed_page": 99,
+      "headers_ocr": [
+        "(Employed between Berlin and the Black Sea Area)",
+        "1st NOVEMBER, 1918.",
+        "A) UKs v 26N (0.48 a.m., November 2nd)",
+        "1825 (1)"
+      ],
+      "ciphertext": "XXVGD??????????????????????FVAADDXXADV???VGGVDGVGAXAAVAAGGAAAVDFGFGDGVFDVDFGGAVDGAGDGVGVGGXVGAFGFGGADAVDGVGDGDVVGFFDXDGXADVDGFGFFVGAD",
+      "source_slots": 133,
+      "best": {
+        "key": "Nov28-Dec1",
+        "score": -9.686543669019427,
+        "known_quad_mean": -9.075924098491669,
+        "known_quad_windows": 8,
+        "plaintext": "?L??NKLW?H?TV76B?E?SNFRE?J?7IAHV?4?50?T5?N?AL?0??1?OY?L??H?XFA7??K",
+        "known_positions": 42,
+        "positions": 66,
+        "unpaired_coordinate": "?"
+      },
+      "runner_up": {
+        "key": "Nov13-15b",
+        "score": -9.69663099258665,
+        "known_quad_mean": -8.122029622395834,
+        "known_quad_windows": 3,
+        "known_positions": 29,
+        "positions": 66,
+        "unpaired_coordinate": "F"
+      }
+    }
+  ],
+  "credit": "The earlier unreviewed OCR screen already recovered almost all of p99 D, with one unresolved label. Its B1 frame omitted the first 40 coordinates and its C1 frame omitted the first 40 coordinates plus one trailing dash. C2 was not in the earlier selected screen. Native source rows are recovered independently; missing OCR rows are not historical transmission insertions. No first historical decipherment claim is made.",
+  "p100_challenge": {
+    "record": "p100",
+    "earlier_body_credit": "Armin, 2017-03-01, comment 13",
+    "case_path": "cases/p100.md",
+    "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852373",
+    "relation": "The p99 B1 and p100 A headings both have UKS v ZON and 2016(1); p99 says 3 TLE, p100 says 2 TLE. This is a possible multipart relation, without overriding the source wording or adding a second catalog identity for the challenge."
+  }
+}

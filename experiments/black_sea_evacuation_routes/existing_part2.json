@@ -1,0 +1,67 @@
+{
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "counted_as_new_record": false,
+  "origin": {
+    "path": "data/supplementary_readings.json",
+    "sha256_at_snapshot": "8f6d175b7d4c130d0d3a216d96300b5f1b66bbe0edee34060137da1d7956be51",
+    "case": "cases/supplementary/p89_A2.md"
+  },
+  "id": "p89_A2",
+  "prior_credit": {
+    "author": "Ayush Agarwal (@AyushAg1002)",
+    "date": "2026-10-28",
+    "url": "https://github.com/dbourdeau/cyphersolver/issues/181",
+    "tools_as_reported": "Claude-assisted original work; contribution assembled with Codex; existing period keys."
+  },
+  "source": {
+    "ref": "childs",
+    "printed_page": 89,
+    "section": "A, part 2",
+    "header": "OSM de LP (01.18 p.m., November 1st); SSD BVG KOSPOLI (1/11) 1400 5 TEILE; 2 TL RICHI-290",
+    "pdf_page_1based": 92,
+    "advertised_length": 290
+  },
+  "source_rows": [
+    "FGXDV VGGDV GGFGF VDAGD XAGVX VFGXG XGAFV DVVXD",
+    "DVVVF GAGXA ADAGD FGGDG VXXGG XAXAV ?GDFV AGGFG",
+    "DFDFD GAFXG VGAFV GVDVD GDVGG FVXGD FVXVX AFVGV",
+    "DVGVA VDXDX DVXDF DAGDA GVGFX VFFXA XDGAV AFFDD",
+    "VDFAG AFVVA ADGFG V--GG GXFVG XXVXD AVGDG DFXGV",
+    "ADVVG DGGGX GDVAV GGDVG DXAFG XAGDG VFAVV AVGVX",
+    "VGAFD XFGDD XDXAV VGDAG GDVVG XAFVV FVXGV VXDFG",
+    "FDGDG GFVGV"
+  ],
+  "ciphertext": "FGXDVVGGDVGGFGFVDAGDXAGVXVFGXGXGAFVDVVXDDVVVFGAGXAADAGDFGGDGVXXGGXAXAV?GDFVAGGFGDFDFDGAFXGVGAFVGVDVDGDVGGFVXGDFVXVXAFVGVDVGVAVDXDXDVXDFDAGDAGVGFXVFFXAXDGAVAFFDDVDFAGAFVVAADGFGV??GGGXFVGXXVXDAVGDGDFXGVADVVGDGGGXGDVAVGGDVGDXAFGXAGDGVFAVVAVGVXVGAFDXFGDDXDXAVVGDAGGDVVGXAFVVFVXGVVXDFGFDGDGGFVGV",
+  "expected_raw": "AUFNAHMEFAEHIGXNIKOLAJEWXAUFWUNSCHXEZXKIEWXBESTIMMTXHPTMXJOELXVXOXFECHXODESSAX?ELCHES?HI?FEETWAXWEGENXEISENBAHNLAGEXNACHXNIKOLAJEWXZUGEHENHABENXX",
+  "key": {
+    "column_rank_order": [
+      3,
+      16,
+      4,
+      15,
+      7,
+      12,
+      18,
+      6,
+      17,
+      8,
+      19,
+      1,
+      13,
+      10,
+      2,
+      14,
+      11,
+      9,
+      5
+    ],
+    "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36"
+  },
+  "notes": [
+    "The original source separately labels this 290-coordinate part. It is not necessary to treat it as an arbitrary prefix of a 548-coordinate combined entry.",
+    "V--GG is represented as two erased coordinates under the five-coordinate group layout.",
+    "The published body has 145 plaintext letters, not 130 as one follow-up comment states.",
+    "The first glyph of group 15 is damaged. D is preferred visually, but an E-like appearance is plausible. The conservative source masks zero-based coordinate 70; the published D is a separate hypothesis."
+  ],
+  "limit": "This is the already cataloged Ayush Agarwal body and subsequent conservative source review. Its three unresolved positions, source glyph qualifications and earlier credit remain unchanged; it is not recounted."
+}

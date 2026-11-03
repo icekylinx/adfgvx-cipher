@@ -1,0 +1,67 @@
+{
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "earlier_repository_screens": [
+    {
+      "cache_name": "cross_key_plaintexts.json",
+      "sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "relevant_rows": []
+    },
+    {
+      "cache_name": "cross_key_merged_plaintexts.json",
+      "sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "relevant_rows": [
+        {
+          "block": "p88_ocr_block1+p88_ocr_block2",
+          "key": "Nov1-3",
+          "score": -5.349320567448934,
+          "plaintext": "DTSCHEEAUKASDELEHAXER?TTEGRANSPORRTX800WATTROEHRENSENDTIFLISZURTAFUNKBERLIN?ERANLASSMN",
+          "known_quadgrams": 75,
+          "ciphertext": "GVGFAGAAGXFDXVXXDDGVVGFAAAVGFGDVGGAGDVXGADVAGGDVXDXVFVGDV?XXGDVXFAXDXGADFADGFFAV?DGVFDGFXAVAGXDVDAGVVGDAGDVGGVGFXAAFFDGXAGGAGGVXDAVFGDVAAXGDAVFGGVGFAFGAGADAFGFVDVGVFVADGDAX",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "(Employed between Berlin and the Black Sea Area)",
+            "lst NOVEMBER, 1918.",
+            "4) NKJ v LP (05.56 a.m., November 2nd)",
+            "FUER COS SSD BLITZ GR HQ 1330 (1.11) 2 TEILE",
+            "lst NOVEMBER, 1918.",
+            "4) NKJ v LP (05.56 a.m., November 2nd)",
+            "FUER COS SSD BLITZ GR HQ 1330 (1.11) 2 TEILE"
+          ]
+        },
+        {
+          "block": "p88_ocr_block3+p88_ocr_block4+p88_ocr_block5",
+          "key": "Nov1-3",
+          "score": -5.505352318286896,
+          "plaintext": "UOBER1500WETTDOEHRENSENDVERFUEGTG?NERALVONKRESSXNACHCHEFRM4BX49523X",
+          "known_quadgrams": 60,
+          "ciphertext": "FVGGAVXFFDGDGFAFGAAXVXAGDGDGXGGAGDADGGGFGVXGXVFAGGAAA?VDDAVVXVDVXVGVGVXFAAADVXVFGFGDVGGVGVFGADADVADGFVFGXDAVGVFGDDAGFVFXVXGXGDDXGDGDDA",
+          "orphan": 0,
+          "edits": [],
+          "header": []
+        }
+      ]
+    }
+  ],
+  "bounded_prior_body_checks": [
+    {
+      "kind": "Lasry et al. 2016 author-paper text",
+      "sha256": "e1fb17031286ee6244b0d36f31197cb5e497d2cbe6fa884e74fc12cab3a9918b",
+      "pattern": "Kress|KAUKASDELEG|ROEHRENSEND|800.Watt|1500.Watt",
+      "matches": []
+    },
+    {
+      "kind": "Lasry thesis text",
+      "sha256": "7d45f384650f95bac1e6310715a985c66f4ab5c31e3bcc70ca8f108a7e989117",
+      "pattern": "Kress|KAUKASDELEG|ROEHRENSEND|800.Watt|1500.Watt",
+      "matches": []
+    },
+    {
+      "kind": "55-comment 2017 discussion snapshot",
+      "sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "pattern": "Kress|KAUKASDELEG|ROEHRENSEND|800.Watt|1500.Watt",
+      "matches": []
+    }
+  ],
+  "limit": "Both bodies were already present as unreviewed repository candidates. This source edition does not claim historical priority; absence from the bounded keyword search is not priority evidence."
+}

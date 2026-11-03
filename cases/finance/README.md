@@ -4,7 +4,7 @@
 
 Follow requests for funds, currency exchange and purchasing decisions. Individual editions keep raw amount labels and proposed numerical interpretations separate.
 
-**36 reviewed physical records across 14 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**38 reviewed physical records across 15 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -12,6 +12,7 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 |---|---|
 | [Receipt addressed to General von Kress in Tiflis](kress_money_receipt.md) | p58 B |
 | [Caucasus hide purchasing — Meierkort, the contract and the Kiew instruction](caucasus_hide_purchasing.md) | p75 B1, p75 B2, p76 A3 |
+| [Order to stop premium payments and inform subordinate offices](premium_payment_stop.md) | p78 A1, p78 A2 |
 | [DEUTZITAG: requesting details of purchase dispatches](deutzitag_dispatch_inquiries.md) | p80 A, p81 A, p81 C |
 | [ZITAG stop-orders and cancellation of procurement contracts](zitag_purchase_orders.md) | p102 A, p103 B1, p103 B2, p103 D, p106 B |
 | [Meal allowances, communal provisioning and a refused supplement](military_allowances.md) | p129 B1, p133 A2, p133 A3, p134 A4 |
@@ -33,6 +34,8 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [p75 B1](caucasus_hide_purchasing.md#p75-b1) | Meierkort hide-purchasing exclusivity and return of the signed contract | 197/197 raw positions; 5 coordinate substitutions and 0 printed-dash fills | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
 | [p75 B2](caucasus_hide_purchasing.md#p75-b2) | Expenses to be settled later; purchasing must not stop | 102/102 raw positions; 0 coordinate substitutions and 0 printed-dash fills | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
 | [p76 A3](caucasus_hide_purchasing.md#p76-a3) | Departure for Kiew and report to Lederzentrale Magnus; separate handwritten layer | 118/119 raw positions; 1 coordinate substitutions and 1 printed-dash fills; typed-only 238-slot layer; handwritten D/O sensitivity retained | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
+| [p78 A1](premium_payment_stop.md#p78-a1) | Stop premium payments from Landesmitteln at the end of October18 | Native 240 valid coordinates; zero edits, fills or frame changes | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier exact unreviewed repository candidates |
+| [p78 A2](premium_payment_stop.md#p78-a2) | Notify all subordinate offices of the payment stop | Native 170 valid coordinates; zero edits, fills or frame changes | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier exact unreviewed repository candidates |
 | [p80 A](deutzitag_dispatch_inquiries.md#p80-a) | DEUTZITAG asks about purchase dispatches and onward transport | Direct source reading; exact repeated ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
 | [p81 A](deutzitag_dispatch_inquiries.md#p81-a) | DEUTZITAG asks about purchase dispatches and onward transport | One coordinate repair witnessed by two exact short copies | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
 | [p81 C](deutzitag_dispatch_inquiries.md#p81-c) | DEUTZITAG asks about purchase dispatches and onward transport | Direct source reading; exact repeated ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |

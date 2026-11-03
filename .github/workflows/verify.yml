@@ -141,6 +141,17 @@ jobs:
           python experiments/nov3_evening_and_nov4_radio/verify.py --verify
           python experiments/nov3_evening_and_nov4_radio/independent_source_audit.py --verify
           python experiments/turkish_armistice_shipping_order/verify.py --verify
+          python experiments/black_sea_evacuation_routes/verify.py --verify
+          python experiments/caucasus_radio_transmitters/verify.py --verify
+          python experiments/nov1_contact_mail_and_sava/verify.py --verify
+          python experiments/premium_payment_stop/verify.py --verify
+          python experiments/tiflis_repetition_request/verify.py --verify
+          python experiments/nov8_radio_keys_and_reports/verify.py --verify
+          python experiments/nov8_radio_keys_and_reports/independent_source_audit.py --verify
+          python experiments/p108_naval_and_personnel/verify.py --verify
+          python data/reviews/verify_followup_readings.py --verify
+          python experiments/p107_railway_and_dragoman/verify.py --verify
+          python experiments/nov8_radio_keys_and_reports/parallel_witnesses.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |
           python experiments/p198_word_search/verify.py

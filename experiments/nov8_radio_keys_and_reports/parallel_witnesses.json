@@ -1,0 +1,791 @@
+{
+  "schema": "adfgvx-nov8-parallel-witness-comparison-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "scope": "Bounded comparisons of already declared source frames and edited candidates; no new source transcription, baseline-key assignment or replacement of either edition.",
+  "source_files": {
+    "experiments/nov8_radio_keys_and_reports/inputs.json": {
+      "sha256": "c5b21cd9fbbcd5beb248f89193fc118b02bf0f9db20ca20e7c9aca4b34c0cddf",
+      "size_bytes": 25206
+    },
+    "experiments/nov8_radio_keys_and_reports/certificates.json": {
+      "sha256": "145f8d9af6cd114e2b2d5b5c918b886c9654070583f1c8d08d59712f91d37b71",
+      "size_bytes": 149266
+    },
+    "experiments/p170_continuation/military_records.json": {
+      "sha256": "4ba83b73047780d645be6d5af27e630c4eb8c9a32aafbd699daf7670237330a9",
+      "size_bytes": 38223
+    },
+    "experiments/p170_continuation/military_context.json": {
+      "sha256": "d824700644f4f39103ec1e3d13a2b6e682c0f6b8443393767945d035a5522225",
+      "size_bytes": 8778
+    },
+    "experiments/open_targets_continuation/inputs.json": {
+      "sha256": "3e725d540949ed1b654d15d5e9282e49acf6ba2029443fbead7e606ffed9a1d8",
+      "size_bytes": 51049
+    },
+    "experiments/open_targets_continuation/certificates.json": {
+      "sha256": "c1aad20e833840b5a134223bed09fa7fbee33f1efbbaab2cae0e06517bc11b6c",
+      "size_bytes": 516035
+    },
+    "data/keys.json": {
+      "sha256": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+      "size_bytes": 54316
+    }
+  },
+  "source_images": [
+    {
+      "path": "experiments/nov8_radio_keys_and_reports/sources/p160_full.png",
+      "sha256": "f3414e106b33fa8dcdd4a92458015c2c82d5afac6f14424fa8ddd4a2d33e21d0",
+      "printed_page": 160
+    },
+    {
+      "path": "experiments/nov8_radio_keys_and_reports/sources/p160_A2_detail.png",
+      "sha256": "25e913fd13c359284b14bdcdc37794211af7b507ee0ea1d87693b8af18510d2f",
+      "printed_page": 160
+    },
+    {
+      "path": "experiments/nov8_radio_keys_and_reports/sources/p160_B2_detail.png",
+      "sha256": "1f316d2122f53f3ea36f5702a65b37518bd7f9cee41cd804fd68bfc4ef858fd8",
+      "printed_page": 160
+    },
+    {
+      "path": "experiments/nov8_radio_keys_and_reports/sources/p160_C_detail.png",
+      "sha256": "1d4742fa89b41d30bb36cee144606339f9231adecb8709bcae56346f499229cb",
+      "printed_page": 160
+    },
+    {
+      "path": "experiments/nov8_radio_keys_and_reports/sources/p160_D_detail.png",
+      "sha256": "73a7960c0eca4ff5af5fc322ea242f5580934eeb22ccf3a3a6e1f9ba19cb70db",
+      "printed_page": 160
+    },
+    {
+      "path": "experiments/nov8_radio_keys_and_reports/sources/p161_full.png",
+      "sha256": "fdb182cd477910f16e05b0d8f63b5da7b8da272af3c2c890804f550e800ca159",
+      "printed_page": 161
+    },
+    {
+      "path": "experiments/nov8_radio_keys_and_reports/sources/p161_A2_detail.png",
+      "sha256": "621f0401b6961fe42b4fc82261cd5f7e54eda95c7a72bf6b77b32b3ae729383e",
+      "printed_page": 161
+    },
+    {
+      "path": "sources/excerpts/childs_p166_A_military.png",
+      "sha256": "95f3cfaf357c9dc840d81c096ecea32291ab4404a44b1575eb406921ba616653",
+      "printed_page": 166
+    },
+    {
+      "path": "sources/excerpts/childs_p167_A_military.png",
+      "sha256": "06933f66be6ee8909364e5c033224e13cd8a7df75f00fd87b2ca07e89394ad9d",
+      "printed_page": 167
+    },
+    {
+      "path": "sources/excerpts/childs_p170_B_military.png",
+      "sha256": "e00e3265e9c8991875a7997175bb79f2429fda43e9f6a02048f0d0da16380ff7",
+      "printed_page": 170
+    },
+    {
+      "path": "experiments/open_targets_continuation/sources/childs_p211_selected.png",
+      "sha256": "668bb6ccef0cba42234ddc0ad0e1deadedd63bd5a995448d1f4db3f1dad0e421",
+      "printed_page": 211
+    }
+  ],
+  "p160_A2_p170_B2": {
+    "p160_header": "A) UKS v ZON (11.44 p.m., November 8th); 1915 (8/11) 2 TLE; 2 TL; RICHI-238",
+    "p170_header": "UKS v ZON (11.44 p.m., November 9th); 1915 2 TLE",
+    "key_id": "Nov7-9",
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "p160_frame": {
+      "literal_slots": 240,
+      "excluded_observed_source_indices_0based": [
+        19,
+        26
+      ],
+      "model_slots": 238,
+      "sha256": "920c2e5bc1afed04606ed2323452bbfbe8974080c7be4a5b5182fbc67a0775fe"
+    },
+    "p170_frame": {
+      "native_slots": 238,
+      "sha256": "56bada99189c733ff9e9df463905d9034f11a44682930233a3a79e104e5eacc8"
+    },
+    "alignment_counts": {
+      "agreement": 230,
+      "disagreement": 6,
+      "mask": 2
+    },
+    "disagreeing_coordinates": [
+      {
+        "frame_index_0based": 18,
+        "p160_source_index_0based": 18,
+        "p170_source_index_0based": 18,
+        "p160": "D",
+        "p170": "X",
+        "kind": "disagreement"
+      },
+      {
+        "frame_index_0based": 46,
+        "p160_source_index_0based": 48,
+        "p170_source_index_0based": 46,
+        "p160": "G",
+        "p170": "X",
+        "kind": "disagreement"
+      },
+      {
+        "frame_index_0based": 168,
+        "p160_source_index_0based": 170,
+        "p170_source_index_0based": 168,
+        "p160": "D",
+        "p170": "G",
+        "kind": "disagreement"
+      },
+      {
+        "frame_index_0based": 185,
+        "p160_source_index_0based": 187,
+        "p170_source_index_0based": 185,
+        "p160": "A",
+        "p170": "X",
+        "kind": "disagreement"
+      },
+      {
+        "frame_index_0based": 190,
+        "p160_source_index_0based": 192,
+        "p170_source_index_0based": 190,
+        "p160": "D",
+        "p170": "G",
+        "kind": "disagreement"
+      },
+      {
+        "frame_index_0based": 191,
+        "p160_source_index_0based": 193,
+        "p170_source_index_0based": 191,
+        "p160": "G",
+        "p170": "D",
+        "kind": "disagreement"
+      }
+    ],
+    "complementary_masks": [
+      {
+        "frame_index_0based": 25,
+        "p160_source_index_0based": 27,
+        "p170_source_index_0based": 25,
+        "p160": "X",
+        "p170": "?",
+        "kind": "mask"
+      },
+      {
+        "frame_index_0based": 183,
+        "p160_source_index_0based": 185,
+        "p170_source_index_0based": 183,
+        "p160": "?",
+        "p170": "D",
+        "kind": "mask"
+      }
+    ],
+    "mask_interpretation": [
+      "The observed p160 source27 X supports p170 source25 X, selecting J at plaintext15 in UJVERBASZ, conditional on the p160 exclusion frame and the parallel relationship.",
+      "The observed p170 source183 D supports p160 source185 D, selecting G at plaintext43 in BEREITGESTELLT under the same conditional alignment."
+    ],
+    "p160_raw": "ALPENKOYPSW2RDUJVERBASZZUMABTRFNSPORTBEREIT?ESTELLTXX219X217XUNU?XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+    "p170_raw": "ALPENKORPSWIRDU?VERBASZZUMABTRFNSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT",
+    "raw_plaintext_differences": [
+      {
+        "position_0based": 7,
+        "first": "Y",
+        "second": "R"
+      },
+      {
+        "position_0based": 11,
+        "first": "2",
+        "second": "I"
+      },
+      {
+        "position_0based": 15,
+        "first": "J",
+        "second": "?"
+      },
+      {
+        "position_0based": 43,
+        "first": "?",
+        "second": "G"
+      },
+      {
+        "position_0based": 63,
+        "first": "U",
+        "second": "D"
+      },
+      {
+        "position_0based": 67,
+        "first": "E",
+        "second": "D"
+      },
+      {
+        "position_0based": 109,
+        "first": "G",
+        "second": "S"
+      },
+      {
+        "position_0based": 113,
+        "first": "E",
+        "second": "T"
+      }
+    ],
+    "p160_edited": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+    "p170_edited": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT",
+    "edited_plaintext_differences": [
+      {
+        "position_0based": 67,
+        "first": "E",
+        "second": "D"
+      },
+      {
+        "position_0based": 109,
+        "first": "G",
+        "second": "S"
+      },
+      {
+        "position_0based": 113,
+        "first": "E",
+        "second": "T"
+      }
+    ],
+    "optional_copy_supported_interpretation": {
+      "status": "Separate optional layer; main p160 RE and WERGCHEEZ remain unchanged.",
+      "plaintext": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT",
+      "ciphertext": "AADDGVXDADADADGGDGXFXGDAVXAADGVGVDVXXXDDDFXVGXXVVFAGDVVXGVVXAXXDGVDAXVFDGDXGVAGXGDVXAAFDFVXFXVDFGXGGVAVGAAFADVVDGVGDVDVADFXVVGFDVDVDXDDVVVVFGGDXADVVVDVGGXXGVVXVGFGDDGFDGXGGVVVDGVXDXDADGXDDXDGDVXXVDVGGXVDGFFDXFVFXGVXDGAADFDVGDDAAGDDFVFDDAG",
+      "additional_observed_substitutions_beyond_main": [
+        {
+          "frame_index_0based": 18,
+          "p160_source_index_0based": 18,
+          "p160_literal_coordinate": "D",
+          "main_edition_coordinate": "D",
+          "optional_coordinate": "X"
+        },
+        {
+          "frame_index_0based": 46,
+          "p160_source_index_0based": 48,
+          "p160_literal_coordinate": "G",
+          "main_edition_coordinate": "G",
+          "optional_coordinate": "X"
+        },
+        {
+          "frame_index_0based": 190,
+          "p160_source_index_0based": 192,
+          "p160_literal_coordinate": "D",
+          "main_edition_coordinate": "D",
+          "optional_coordinate": "G"
+        }
+      ],
+      "total_cost_against_p160_literal_source": {
+        "known_coordinate_substitutions": 7,
+        "source_mask_fills": 1,
+        "excluded_observed_coordinates": 2,
+        "excluded_source_masks": 0
+      },
+      "global_square_compatibility_witnesses": [
+        {
+          "VF": "5",
+          "XA": "6",
+          "plaintext": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND5XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT"
+        },
+        {
+          "VF": "6",
+          "XA": "5",
+          "plaintext": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND6XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT"
+        }
+      ]
+    },
+    "same_key_context_reference": {
+      "path": "experiments/p170_continuation/military_context.json",
+      "p160_plaintext_index_0based": 64,
+      "coordinate_cell": "VF",
+      "baseline_domain": "56",
+      "previous_contextual_preference": "6",
+      "limit": "The earlier French operational-source identification is an optional historical layer. It is not applied here and does not independently establish this transmission's identity."
+    },
+    "limits": [
+      "The November8 and November9 headers differ; this is closely parallel traffic, not a certified identical transmission.",
+      "The 230/6/2 alignment presupposes p160's declared two-coordinate exclusion model. No deletion geometry is inferred solely from this count.",
+      "Six observed disagreements are retained; a parallel witness does not authorize overwriting its conflicting source coordinates."
+    ]
+  },
+  "p166_p167_related_context": {
+    "source_record_ids": [
+      "p166_A2",
+      "p166_A3",
+      "p167_A3"
+    ],
+    "layer": "Previously edited p166 A2 plus previously source-supported and edited third-part composite, not untouched raw text.",
+    "p166_second_part_edited": "ABMARSCH217XIXDXUND?XRXDXNACHNORDENOHNEFEINDBERUEHRUNGXALPENKORPSWIRDUMVERBASZXFRAGEZEICHENXZUMABTRANSPORT",
+    "p166_p167_third_part_edited": "BEREITGESTELLTX219XX217XUND?XRXDXSETZEN9X11XMARSCHINLINENAGYBESKEREKXWERSCHETZFORTXOXKXMX1AXNO11319OPX",
+    "body_comparison": {
+      "first_literal_text": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+      "second_literal_text": "ALPENKORPSWIRDUMVERBASZXFRAGEZEICHENXZUMABTRANSPORTBEREITGESTELLTX219XX217XUND?XRXDXSETZEN9X11XMARSCHINLINENAGYBESKEREKXWERSCHETZFORT",
+      "comparison_form": "X removed for this textual comparison only; all other labels retained",
+      "first_comparison_positions": 110,
+      "second_comparison_positions": 121,
+      "diagnostic_differences": [
+        {
+          "operation": "replace",
+          "first_range_0based": [
+            15,
+            16
+          ],
+          "second_range_0based": [
+            15,
+            16
+          ],
+          "first": "J",
+          "second": "M"
+        },
+        {
+          "operation": "insert",
+          "first_range_0based": [
+            23,
+            23
+          ],
+          "second_range_0based": [
+            23,
+            35
+          ],
+          "first": "",
+          "second": "FRAGEZEICHEN"
+        },
+        {
+          "operation": "replace",
+          "first_range_0based": [
+            62,
+            63
+          ],
+          "second_range_0based": [
+            74,
+            75
+          ],
+          "first": "E",
+          "second": "D"
+        },
+        {
+          "operation": "delete",
+          "first_range_0based": [
+            83,
+            84
+          ],
+          "second_range_0based": [
+            95,
+            95
+          ],
+          "first": "I",
+          "second": ""
+        },
+        {
+          "operation": "replace",
+          "first_range_0based": [
+            100,
+            101
+          ],
+          "second_range_0based": [
+            111,
+            112
+          ],
+          "first": "G",
+          "second": "S"
+        },
+        {
+          "operation": "replace",
+          "first_range_0based": [
+            104,
+            105
+          ],
+          "second_range_0based": [
+            115,
+            116
+          ],
+          "first": "E",
+          "second": "T"
+        }
+      ],
+      "limit": "SequenceMatcher diagnostics are not an optimal alignment certificate or a claim that the two transmissions are identical."
+    },
+    "notable_differences": [
+      "UJVERBASZ versus UMVERBASZXFRAGEZEICHEN",
+      "RE versus RXD",
+      "LINIE versus LINE",
+      "WERGCHEEZ versus WERSCHETZ",
+      "The p166/p167 version retains the separate O.K.M.1a No11319op footer."
+    ],
+    "related_first_part": {
+      "id": "p170_B1",
+      "header": "UKS v ZON (11.44 p.m., November 9th); 1915 2 TLE",
+      "raw": "ANENMELDUNGXSERBXKAVALLERIEPETERWADEINUNDFEHERTEMPLOMEINGSRUECKTXXABMARSCH217XIXDXUND?XRXDNACHNORDENOHNEFEINBELUEHRUNG",
+      "limit": "Related earlier operational content, not identification of the physically missing p160 first part."
+    }
+  },
+  "p160_C1_C2_p211_lower_B": {
+    "p160_ids": [
+      "p160_C1",
+      "p160_C2"
+    ],
+    "p160_key_id": "Nov7-9",
+    "p160_headers": [
+      "C) NKJ v LP (03.23 a.m., November 9th); FUER RAT 2000 (8/11) 2 TLE; 1 TL; RICHI-308",
+      "Same p160 C header; 2 TL; RICHI-144"
+    ],
+    "p160_frame_conditions": "C1 excludes observed source281 from309 slots; C2 is native144. Both use the declared edited layers.",
+    "p211_ids": [
+      "p211_B_lower1",
+      "p211_B_lower2",
+      "p211_B_lower3"
+    ],
+    "p211_key_id": "Nov4-6",
+    "p211_headers": [
+      "POT v NKJ (09.48 a.m., November 22d); FUER POT COS VON LP SS DD 2230 3 TLE; 1 TL; RICHI-214",
+      "POT v NKJ (09.48 a.m., November 22d); FUER POT COS VON LP SS DD 2230 3 TLE; 2 TL; RICHI-184",
+      "POT v NKJ (09.48 a.m., November 22d); FUER POT COS VON LP SS DD 2230 3 TLE; 3 TL; RICHI-134"
+    ],
+    "p211_page_heading": "19th NOVEMBER, 1918.",
+    "p211_frame_conditions": "Three native frames214/184/134; first part has3 observed substitutions and third part1 invalid-glyph fill in the previously declared edited layer.",
+    "body_comparison": {
+      "first_literal_text": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTERNOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B498?9X",
+      "second_literal_text": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHRCHEFX4XB848727XXDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGXNICHTINKRAFTXDAFUERSCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWANZIGSTERDEZEMBERWIEDREISSIGSTERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNACHRCHEFZ4XBX47857X",
+      "comparison_form": "X removed for this textual comparison only; all other labels retained",
+      "first_comparison_positions": 209,
+      "second_comparison_positions": 250,
+      "diagnostic_differences": [
+        {
+          "operation": "insert",
+          "first_range_0based": [
+            45,
+            45
+          ],
+          "second_range_0based": [
+            45,
+            46
+          ],
+          "first": "",
+          "second": "R"
+        },
+        {
+          "operation": "insert",
+          "first_range_0based": [
+            51,
+            51
+          ],
+          "second_range_0based": [
+            52,
+            53
+          ],
+          "first": "",
+          "second": "8"
+        },
+        {
+          "operation": "replace",
+          "first_range_0based": [
+            53,
+            54
+          ],
+          "second_range_0based": [
+            55,
+            56
+          ],
+          "first": "9",
+          "second": "7"
+        },
+        {
+          "operation": "replace",
+          "first_range_0based": [
+            55,
+            56
+          ],
+          "second_range_0based": [
+            57,
+            58
+          ],
+          "first": "9",
+          "second": "7"
+        },
+        {
+          "operation": "replace",
+          "first_range_0based": [
+            125,
+            126
+          ],
+          "second_range_0based": [
+            127,
+            133
+          ],
+          "first": "1",
+          "second": "ERSTER"
+        },
+        {
+          "operation": "replace",
+          "first_range_0based": [
+            158,
+            160
+          ],
+          "second_range_0based": [
+            165,
+            182
+          ],
+          "first": "21",
+          "second": "EINUNDZWANZIGSTER"
+        },
+        {
+          "operation": "replace",
+          "first_range_0based": [
+            171,
+            173
+          ],
+          "second_range_0based": [
+            193,
+            205
+          ],
+          "first": "30",
+          "second": "DREISSIGSTER"
+        },
+        {
+          "operation": "insert",
+          "first_range_0based": [
+            193,
+            193
+          ],
+          "second_range_0based": [
+            225,
+            232
+          ],
+          "first": "",
+          "second": "AETIGUN"
+        },
+        {
+          "operation": "insert",
+          "first_range_0based": [
+            198,
+            198
+          ],
+          "second_range_0based": [
+            237,
+            238
+          ],
+          "first": "",
+          "second": "R"
+        },
+        {
+          "operation": "insert",
+          "first_range_0based": [
+            202,
+            202
+          ],
+          "second_range_0based": [
+            242,
+            243
+          ],
+          "first": "",
+          "second": "Z"
+        },
+        {
+          "operation": "replace",
+          "first_range_0based": [
+            205,
+            206
+          ],
+          "second_range_0based": [
+            246,
+            247
+          ],
+          "first": "9",
+          "second": "7"
+        },
+        {
+          "operation": "replace",
+          "first_range_0based": [
+            207,
+            209
+          ],
+          "second_range_0based": [
+            248,
+            250
+          ],
+          "first": "?9",
+          "second": "57"
+        }
+      ],
+      "limit": "SequenceMatcher diagnostics are not an optimal alignment certificate or a claim that the two transmissions are identical."
+    },
+    "literal_field_comparisons": [
+      {
+        "field": "First December date",
+        "p160_literal": "1XDEZEMBER",
+        "p211_literal": "ERSTERDEZEMBER",
+        "p160_joined_plaintext_start_0based": 134,
+        "p211_joined_plaintext_start_0based": 136
+      },
+      {
+        "field": "First November key date",
+        "p160_literal": "ZEHNTERNOVEMBER",
+        "p211_literal": "ZEHNTERNOVEMBER",
+        "p160_joined_plaintext_start_0based": 147,
+        "p211_joined_plaintext_start_0based": 153
+      },
+      {
+        "field": "Last December date",
+        "p160_literal": "21XDEZEMBER",
+        "p211_literal": "EINUNDZWANZIGSTERDEZEMBER",
+        "p160_joined_plaintext_start_0based": 169,
+        "p211_joined_plaintext_start_0based": 174
+      },
+      {
+        "field": "Last November key date",
+        "p160_literal": "30XNOVEMBER",
+        "p211_literal": "DREISSIGSTERNOVEMBER",
+        "p160_joined_plaintext_start_0based": 183,
+        "p211_joined_plaintext_start_0based": 202
+      },
+      {
+        "field": "Receipt request",
+        "p160_literal": "EMPFANGSBESTG",
+        "p211_literal": "EMPFANGSBESTAETIGUNG",
+        "p160_joined_plaintext_start_0based": 195,
+        "p211_joined_plaintext_start_0based": 224
+      },
+      {
+        "field": "First reference",
+        "p160_literal": "NACHXCHEFX4XBX48929",
+        "p211_literal": "NACHRCHEFX4XB848727",
+        "p160_joined_plaintext_start_0based": 43,
+        "p211_joined_plaintext_start_0based": 43
+      },
+      {
+        "field": "Final reference",
+        "p160_literal": "NACHCHEF4B498?9",
+        "p211_literal": "NACHRCHEFZ4XBX47857X",
+        "p160_joined_plaintext_start_0based": 210,
+        "p211_joined_plaintext_start_0based": 246
+      }
+    ],
+    "limits": [
+      "The keys, framing, dates, reference fields and some word forms differ. No cross-key coordinate alignment is performed.",
+      "The same schedule is expressed partly with digits in p160 and with spelled ordinals in p211; the literal labels remain unchanged.",
+      "The unequal footer references cannot supply p160's unresolved digit. Both5/6 baseline assignments remain possible.",
+      "These are repeated key-use instructions, not evidence that all stations obeyed them and not recovery of a new secret key."
+    ]
+  },
+  "attribution": {
+    "source_editions": "The existing p166/p167/p170 operational edition and p211 Ringbahn edition are by icekylinx and GPT-6 Astra Pro. Their already recorded body readings are prior context for the new physical witnesses.",
+    "old_military_credit": "icekylinx and GPT-6 Astra Pro",
+    "old_radio_credit": "icekylinx and GPT-6 Astra Pro",
+    "published_key_provenance": {
+      "Nov7-9": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 241,
+          "pdf_page_1based": 244,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "Nov4-6": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 240,
+          "pdf_page_1based": 243,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ]
+    },
+    "old_radio_prior_publication_statement": {
+      "authors": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker",
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "year": 2017,
+      "doi": "10.1080/01611194.2016.1169461",
+      "url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+      "specific_prior_message": "p181 A is discussed in section6.4; no first-decipherment priority is claimed for any supplementary message."
+    },
+    "new_contribution": "A second source-witness comparison, explicit disagreements, complementary masks and separately priced optional interpretation. No first historical decipherment or new period-key claim.",
+    "counting": "The new p160/p161 physical records remain seven distinct additions; old p166/p167/p170/p211 records are not counted again."
+  },
+  "navigation": [
+    "cases/military/nov8_alpenkorps_report.md",
+    "cases/military/nov9_operational_reports.md",
+    "cases/radio/ringbahn_key_reuse.md",
+    "cases/radio/p211_key_schedule.md"
+  ],
+  "provenance_limits": [
+    "Repository input/certificate and crop bytes are hash-bound. This script does not render the external source PDF or redo the primary glyph audit.",
+    "Cipher arithmetic is independently implemented here; prior source editions and declared editorial candidates remain its inputs.",
+    "String-comparison differences have no statistical significance claim. Old editions, numeric uncertainties and repair costs remain unchanged."
+  ]
+}

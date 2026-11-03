@@ -6,8 +6,8 @@ The [reading guide](reading-conventions.md) separates Raw output, Edited
 output, Readable German and Conditional interpretation. The
 [reviewed manifest](../data/reviews/reading_layer_manifest.json) lists every
 substantive case present in this presentation snapshot, with a classification
-and byte digest for every fenced or quoted display. It records **159 case
-pages, 722 fenced displays and 169 quoted displays**. These are display
+and byte digest for every fenced or quoted display. It records **173 case
+pages, 778 fenced displays and 196 quoted displays**. These are display
 counts, not counts of physical telegrams, newly recovered plaintexts or
 independently authenticated readings. The checker excludes **48 explicit
 compatibility redirects and eight navigation README pages**.
@@ -16,19 +16,19 @@ compatibility redirects and eight navigation README pages**.
 
 | Fenced display role | Count |
 |---|---:|
-| Raw output under its stated key and frame | 331 |
-| Edited output under its stated repairs | 202 |
-| Conditional interpretation | 7 |
+| Raw output under its stated key and frame | 360 |
+| Edited output under its stated repairs | 227 |
+| Conditional interpretation | 8 |
 | Readable German with linked variables | 1 |
 | Earlier attributed reading | 27 |
 | Recomputed prior reading | 11 |
-| Literal source transcription | 51 |
+| Literal source transcription | 52 |
 | Re-encryption witness | 1 |
 | Search diagnostic | 1 |
 | Geometry-alternative list | 1 |
 | Reproduction commands | 89 |
 
-The quoted displays comprise 164 Readable German passages, four separately
+The quoted displays comprise 191 Readable German passages, four separately
 labelled conditional interpretations and one English meaning. Their local
 qualifiers remain part of the manifest. A Readable German label does not
 cancel a stated conditional frame, editorial repair or historical
@@ -51,6 +51,7 @@ They are not exemptions for unlabelled plaintext.
 | External layer captions | 138 cases, 637 fenced blocks | Complete fenced bytes and every existing heading; conditional geometry and prior authorship stay explicit |
 | English spacing and remaining count units | 25 cases, 91 fenced blocks | Fences, headings, inline code, quoted display lines, URLs and the numeric-token sequence |
 | Focused readable-display corrections | 6 cases, 26 fenced blocks | Fences, 33 headings, 143 prior inline-code occurrences and 13 evidence digests; six selected fragment mappings and one explicitly attributed abbreviation interpretation |
+| Follow-up shipping-display correction | 1 case, 6 fenced blocks | Six fences, five headings, 15 existing inline-code occurrences and five evidence digests; all three complete readable quotes map to 414 nonseparator labels |
 
 These passes overlap. Their counts must not be added to claim a larger
 source corpus. The full-case manifest also includes later source editions
@@ -63,6 +64,11 @@ linguistic distinctions, including abbreviation expansion, prose-only
 inserted letters, priced coordinate fills, linked unknown values and
 conditional historical identification. Every earlier reading retains its
 separate authorship and status.
+
+Seven new p160/p161 readable passages additionally match all 614 nonseparator
+labels and retain all eight unresolved positions. Five p99 passages have
+separate complete mappings. Those exact checks belong to their source
+packages; the full-case manifest does not claim universal translation proof.
 
 The later [focused semantic review](reading-conventions-semantic-review.md)
 corrects omitted unknown positions and unmarked display-only spelling
@@ -93,6 +99,7 @@ focused cases with:
 
 ```sh
 python data/reviews/verify_semantic_readings.py
+python data/reviews/verify_followup_readings.py --verify
 ```
 
 For a new case or a deliberate evidence update, generate a current inventory

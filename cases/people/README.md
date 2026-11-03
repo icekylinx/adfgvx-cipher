@@ -4,7 +4,7 @@
 
 Appointments, staff transfers, travel permissions, personnel inquiries and civilian affairs are collected here.
 
-**35 reviewed physical records across 16 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**40 reviewed physical records across 19 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -14,11 +14,14 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [Major Dunst — cancellation of the Turkey and military-mission assignment](dunst_assignment.md) | p95 A1, p95 A2 |
 | [p96 B — Entry permission for Filittis and family](p96_B.md) | p96 B |
 | [Return to a replacement unit on medical grounds](medical_return_to_unit.md) | p104 C1, p104 C2 |
+| [Braila inquiry about dragoman Schaefer's return from leave](schaefer_return_inquiry.md) | p107 C |
+| [Two-part discharge instruction naming Rudolf twice](rudolf_discharge.md) | p108 B1, p108 B2 |
 | [Medical-company report and a request for clarification](medical_company_inquiry.md) | p117 A |
 | [Kremp's request for a departure date — p131, p149 and p159](kremp.md) | p131 B, p149 B, p159 D |
 | [Osthoff's posting to Turkey is cancelled](osthoff.md) | p138 A1, p138 A2, p148 C1, p149 A2 |
 | [An enquiry about Glatz's whereabouts](glatz.md) | p140 B, p149 C |
 | [Mecklenburg inquiry about a letter to Herzog Karl Michael](mecklenburg_inquiry.md) | p141 A1, p141 A2 |
+| [Request for Awaloff to come to Berlin](awaloff_return_request.md) | p160 D1, p161 A2 |
 | [Siegfried and Osthoff: later military-mission recall messages](military_mission_recalls.md) | p161 C1, p161 C2, p161 D1, p161 D2 |
 | [The Namur order: two witnesses for Staedt and Weiher](namur_order_witnesses.md) | p171 C, p172 E |
 | [Delegates directed through Spa toward Berlin](spa_berlin_delegates.md) | p175 A1, p175 A2 |
@@ -37,6 +40,9 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [p96 B](p96_B.md) | Entry permission for Filittis and family | 180/181 raw positions; Copenhagen repair costed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p104 C1](medical_return_to_unit.md) | Conditional medical-return report opening; visible short GAGA group and three equal-A positions | 227 source slots against 228; conditional 113/114 raw labels; 3 substitutions and 1 missing transmitted A; all 3 arithmetic minima retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p104 C2](medical_return_to_unit.md) | Return to replacement unit for recovery; literal RETTERL/KETTERL closing retained | 70/70 raw labels; 1 word repair; MARSH and both name tokens retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+| [p107 C](schaefer_return_inquiry.md#p107-c) | Question whether dragoman Schaefer should return as leave ends | Native 348 valid coordinates; 4 substitutions; address spelling and feasibility condition retained | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates and OCR limits retained |
+| [p108 B1](rudolf_discharge.md#p108-b1) | Immediate discharge request for Gefr Rudolf Rudolf assigned to the embassy | Native 130 coordinates; zero edits; repeated name retained | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed repository body candidate |
+| [p108 B2](rudolf_discharge.md#p108-b2) | Discharge and embassy notification, with unresolved final reference label | 135 visible slots versus 136; conditional D?AGD frame; all 5 gap positions and 6 completions retained; zero adopted edits/fills | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed repository body candidate |
 | [p117 A](medical_company_inquiry.md#p117-a) | Clarify a reported medical company versus a field hospital | 157/160 fixed raw positions; 1 coordinate substitutions, 3 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier unreviewed OCR candidates credited separately |
 | [p131 B](kremp.md) | Kremp asks for his departure date | 82/84 raw positions; later second-key body supports repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p138 A1](osthoff.md) | Osthoff's Turkey posting cancelled, first witness | Missing group supplied by p148; all 121 candidate letters witnessed | icekylinx and GPT-6 Astra Pro (2026) |
@@ -49,6 +55,8 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [p149 B](kremp.md) | Kremp reports recovery and asks for departure instructions | 84/84 raw positions with three garbles; later key supplies readable body | icekylinx and GPT-6 Astra Pro (2026) |
 | [p149 C](glatz.md) | Enquiry about Glatz's whereabouts | Parallel with four coordinate disagreements; raw errors retained | icekylinx and GPT-6 Astra Pro (2026) |
 | [p159 D](kremp.md) | Kremp recovered and requests a departure date | 98/98 positions, 196/196 coordinates unchanged | icekylinx and GPT-6 Astra Pro (2026) |
+| [p160 D1](awaloff_return_request.md#p160-d1) | Request for Awaloff to come to Berlin | 62/70 fixed raw positions; 2 observed substitutions, 5 printed-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026 source edition); published period-key authors and earlier OCR candidate readings credited separately |
+| [p161 A2](awaloff_return_request.md#p161-a2) | Request for Awaloff to come to Berlin | 62/64 fixed raw positions; 0 observed substitutions, 2 printed-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026 source edition); published period-key authors and earlier OCR candidate readings credited separately |
 | [p161 C1](military_mission_recalls.md) | Siegfried posting cancellation, first part | 99/102 fixed positions; 4 observed-coordinate substitutions and 4 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
 | [p161 C2](military_mission_recalls.md) | Siegfried mission assignment cancelled and cabinet-order closing | 77/77 fixed positions; 0 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
 | [p161 D1](military_mission_recalls.md) | Osthoff posting and mission assignment cancelled | 127/127 fixed positions; 2 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |

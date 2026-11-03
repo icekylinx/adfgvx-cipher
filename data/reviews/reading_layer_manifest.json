@@ -3,20 +3,87 @@
   "prepared_by": "icekylinx and GPT-6 Astra Pro",
   "review_date_utc": "2026-11-03",
   "scope": "Reviewed case pages present at this snapshot. The checker independently scans every current substantive case and rejects uncovered new pages or displays. README navigation and explicit compatibility redirects are excluded.",
-  "semantic_limit": "Role labels are human-reviewed editorial classifications, not inferred cryptographic facts. Raw outputs can depend on the explicitly stated key/frame assumptions. Earlier attributed and recomputed readings retain prior authorship.",
+  "semantic_limit": "Role labels are explicitly reviewed editorial classifications, not inferred cryptographic facts. Raw outputs can depend on the explicitly stated key/frame assumptions. Earlier attributed and recomputed readings retain prior authorship.",
   "preservation_records": [
     "data/reviews/reading_conventions_safe_audit.json",
     "data/reviews/reading_conventions_manual_audit.json",
     "data/reviews/reading_conventions_layers_audit.json",
     "data/reviews/reading_conventions_spacing_audit.json",
-    "data/reviews/reading_conventions_semantic_audit.json"
+    "data/reviews/reading_conventions_semantic_audit.json",
+    "data/reviews/reading_conventions_followup_audit.json"
   ],
   "files": [
+    {
+      "path": "cases/caucasus/caucasus_radio_transmitters.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "9370ccd5c72eb7bd3b8e6d6a5a4d9457f16aa34a55ff6f4d857302a329ae56a4",
+      "review_basis": "Explicit review of native typed frames, all16 separate handwritten variants, retained malformed A1 words and one unresolved position; costly normalization excluded from the primary display.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "f3dd033aaed829261df77d9e555f4fabad8d60d3554f5452b13ab3595e742ed1",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 172-coordinate frame:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "f3dd033aaed829261df77d9e555f4fabad8d60d3554f5452b13ab3595e742ed1",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 unchanged; no substitutions or fills are adopted:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "699f930b30172e8eb333409cfa57648687e90c4112cece6df7abc3105b97ce3b",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 134-coordinate typed frame:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "3c0725133ce2d69a587aeb14cddfa19e648a56f8e13a809318266360e64336c4",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 three observed-coordinate substitutions and one invalid-glyph fill:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 4,
+          "sha256": "7a0c5fd9db21fc38b3df939e217b619efa11e7e1f1f482a370389c9b6ab40b50",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 all four aligned replacements, with the same native frame:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "cd0dc10a329d5ce892d94f54921afeb09c98e6c595416a678bb115f6f9fc7832",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation, with the malformed words retained:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "46b3a81cce77ce38983ca70aef6253c26a1e8a8afc0099094e370318fc75368d",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and umlauts:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ]
+    },
     {
       "path": "cases/caucasus/nobel_oil_inquiry.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "2fff6c853e907a439b9c4dde3f9e2c3c472a5b814d67e67d8feabda651d4fd26",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -74,7 +141,7 @@
       "path": "cases/caucasus/october_caucasus.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "b43de3b615b335883b194eafd9f1a1f4c020b4d6bbb2b0a7e5dd78201b996032",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -172,7 +239,7 @@
       "path": "cases/caucasus/october_requests.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "18eb45956e9a94cff85debc0a3d6b02a8c9cfcdbe404a8f99a36531aca385dcc",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -246,7 +313,7 @@
       "path": "cases/caucasus/october_staffing.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "19f9526e25b7338a499ab5b4055d0cfb38a1bb764a342bd5dfd2bca41a3ba6e3",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -304,7 +371,7 @@
       "path": "cases/caucasus/p212_p218_crosscopy.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "de7035f358f2210f49158cdb84c91f010120c027e65328dd2273ab0f7926659a",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -337,7 +404,7 @@
       "path": "cases/caucasus/p218_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "616edb6f5d1adeeb4a59ee88ef9bb5750f1011de8344ff2e50c65b0944ed18af",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -437,7 +504,7 @@
       "path": "cases/caucasus/representative_retention.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "f979ea9026688dc6c9fab6dca1ab268471aa2e932a47790dd3ebc78fb4fbcf90",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -495,7 +562,7 @@
       "path": "cases/caucasus/tiflis_appointment.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "7c69186a7bd8a06a145fc7a9cdcdfd4bb35780325f8534297c1f9f6887e25699",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -577,7 +644,7 @@
       "path": "cases/caucasus/tiflis_pioneer_detachment.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "43170dda6ce4438703c51369b1d14a5788641ee6ce34734e171320e00b0be5d9",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -594,7 +661,7 @@
       "path": "cases/context/p155.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "90e99794017bce7b1da33b2cc9adae4ddab054921ea78f62dce279ef26122e05",
-      "review_basis": "Human review of conditional reconstructed reading and all four retained gap frames; local note explicitly identifies the repeated Asgard display as completion of raw A?GARD from another occurrence in the same message.",
+      "review_basis": "Explicit editorial review of conditional reconstructed reading and all four retained gap frames; local note explicitly identifies the repeated Asgard display as completion of raw A?GARD from another occurrence in the same message.",
       "fences": [
         {
           "index": 0,
@@ -636,7 +703,7 @@
       "path": "cases/context/p164_A4.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "f60bb6ea7f9b5c6a994ce4b65b37a6652039c7b495f3a62f2e01ffd4da66fa72",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -686,7 +753,7 @@
       "path": "cases/context/p186.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "560519d0e58c995a13b7b59572c9bf6ede3ce320f628f268e281d52ba3b723d6",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -728,7 +795,7 @@
       "path": "cases/context/p189_C.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "525b7d793ab7acc5b41a58f6e17c291ad4146275c3a70511900f24ec1f6728bf",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -770,7 +837,7 @@
       "path": "cases/context/radio_instructions.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "57446bf4bdfae515aed12fc476e69c6cfac2cbb933b2022fee4e18ecdcd20c02",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -812,7 +879,7 @@
       "path": "cases/context/transport.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "1061f6656f486ade54803e9fb447428fdf39e8a49703e25421ec0c2b34047907",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -845,7 +912,7 @@
       "path": "cases/context/transport_197_198.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "49b46e856e199d880ba4c7a112edaf20390209efd3425c5f990379d53630f7aa",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -895,7 +962,7 @@
       "path": "cases/finance/caucasus_hide_purchasing.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "2a3cb0cf917ac77bcd77df322766b5009ce154fdbfeee86222c1cd321544ac03",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -985,7 +1052,7 @@
       "path": "cases/finance/crown_airlift.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "beb2398a219d031693cf2602aea07bfede5d8bbab82fd4760f8335266184714b",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1067,7 +1134,7 @@
       "path": "cases/finance/crown_banknote_completion.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "cdb906048ad5acf5e45e4625db249355b7e509a6a002b6e178387ac4f4d74ba1",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1109,7 +1176,7 @@
       "path": "cases/finance/crown_cash_requests.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "ad9c1adb52d368f15274b167f9daafc3b0926968f4055979f12679b39618e3d2",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1174,7 +1241,7 @@
       "path": "cases/finance/deutzitag_dispatch_inquiries.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "4aafb0a0f4611c85ee44a16d1b6050f63d3c9efc1b58e8a7b908d096dcbec73b",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1215,7 +1282,7 @@
       "path": "cases/finance/hauptwechselamt_accounting.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "e3e87704cb585c3e6646299a230e3ecef9b1e9afdf227ae060626a089474272e",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1249,7 +1316,7 @@
       "path": "cases/finance/hermannstadt_cash_transport.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "57b5365bd94f4b0a5ec81eeeb6964e2d845950dfc1374a6d631b7e77ebf23fd9",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1316,7 +1383,7 @@
       "path": "cases/finance/lei_note_exchange.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "61ed05206222769e27bbb6f9fc542ad92f4c67f779455882761e3c66620c1595",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1381,7 +1448,7 @@
       "path": "cases/finance/military_allowances.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "2536921634193859fef50efa1b9ca83e32f09363e6a1640ebbcd4064c8361ed4",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1479,7 +1546,7 @@
       "path": "cases/finance/oil_cartel_dispatch_query.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "356fcebb3fe84d59496d71f0ebd366236dcc94e38a3cf5383133b42176d0d4c4",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1504,7 +1571,7 @@
       "path": "cases/finance/p205_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "2ece6becfe7a55448d29bdbd7b551927e1f81be40b611d7ee1dd2bf05532ea85",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1536,10 +1603,68 @@
       "semantic_review": "data/reviews/reading_conventions_semantic_audit.json"
     },
     {
+      "path": "cases/finance/premium_payment_stop.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "efbe701aa242a29772f0777b0a5bb39caf74e0f582c5d3083a56d2a6bf7dffdd",
+      "review_basis": "Explicit review of the source-exact two-part body; AUSLANDESMITTELN is word-spaced without letter substitution, and historical SCHIFFAHRT/date/reference forms are retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "020ea8bcf1a2c08557f0853a6fbaa8fc76b19e0edc903eb01e8aa33e0db5d6dc",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 240-coordinate frame:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "020ea8bcf1a2c08557f0853a6fbaa8fc76b19e0edc903eb01e8aa33e0db5d6dc",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 unchanged, with zero substitutions or fills:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "77539032bd2565d13d3341fd6dc7f432222f9aaec410d8c7df308792f5336c74",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 170-coordinate frame:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "77539032bd2565d13d3341fd6dc7f432222f9aaec410d8c7df308792f5336c74",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 unchanged, with zero substitutions or fills:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "76bf6020c34ab0252c466f9b7f284ba904b37a056b46a88466f4f884dde04a50",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and umlauts:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "23fd6583996881e29bb0c7519eb8b58ef58467ad4159563a1f84e8f22f38d9cf",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/finance/ruble_rate_companions.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "951963c244a8bc2982105fa7e948cb41bf87bf3d5e4e623fca0a24d62fabebae",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1596,7 +1721,7 @@
       "path": "cases/finance/zitag_purchase_orders.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "76113934c4f01d94d3726274d401050b65b6c24e331a3b90cbdf038cdc0bad11",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1695,7 +1820,7 @@
       "path": "cases/military/armistice_and_leave_orders.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "3106cca7d4509eac09e4e8d1537156429edc4f53e8464e966e99db7bf7d7c8f7",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1768,7 +1893,7 @@
       "path": "cases/military/armistice_clause_witnesses.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "3b2e8d4f7a9787c6559d9fb1d4a24a039df9a755cf01be70c9761b02d6401e80",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1809,7 +1934,7 @@
       "path": "cases/military/armistice_provisions_requests.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "57b52eddcd193d6cee429493a5aef0b31aa07a433d08762b873a580d241a7d36",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1866,7 +1991,7 @@
       "path": "cases/military/armistice_transit_planning.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "e1c13c1231e6b6fa22dfa1e0167ba8423f03a4922890a1f304397fe3050b451c",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -1996,7 +2121,7 @@
       "path": "cases/military/black_sea_disembarkation.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "be5f55ff4545e03d3fb57cc95164cd48f75f7bf1294e8e73c4c9065cbd4ee2d3",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2042,10 +2167,132 @@
       "quotes": []
     },
     {
+      "path": "cases/military/black_sea_evacuation_routes.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "dd2d6a1f33b63caeaabc678e57d31e4e886c0510ffae8d6723a72a502122930a",
+      "review_basis": "Explicit review of four new source parts, existing attributed A2 context, conditional100-coordinate loss and exact28-unknown suffix. A5 EZ remains literal; final plaintext service instruction is source transcription outside cipher counts.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "c2f4eb86814c4ffa06718cc14e27bb95c0badb5342ced6a6de0d1a5f26858224",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 298-coordinate frame:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "dd540ef16ae2a6f11a4e1ce6fa25ddd7af6a8452e4af7a06014dff7eae9c8b28",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 one observed-coordinate substitution, with no fills:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "5f8bb7cfa9471cb90f05d99e03608251133bb28ab39aa5e9ca3b2a551365a0e5",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 existing credited conservative source reading, unchanged:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "d541b6450b4caf1d31f2423c4495cba93cb00049d81618cbcb5b6077278f5440",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 source-declared frame with 100 missing coordinates:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 4,
+          "sha256": "61ea97c909828eb26eb9f768bee654bdb99ba6e71456e1b86bc39d856c16e677",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 conditional text restoration in that same frame: one observed substitution, one printed-dash fill and 69 missing-coordinate fills:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 5,
+          "sha256": "3999228e7c68f2e7ac5c8d1fbc8bdda8acdf43c2312eb987d1959b34c59fe52a",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 360-coordinate frame:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 6,
+          "sha256": "376a6c072769c8526257da194b930a13ff332c5f4d83df1800d11342bb772e6a",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 four observed-coordinate substitutions, with no fills:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 7,
+          "sha256": "635a07989b409c4d0b3bd54a06e16ebf6fa4c1a685b1e94d1bc3796a48c99301",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 398-coordinate frame:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 8,
+          "sha256": "b959f62f8e0c2792ee45aff0189f87069f5aa67d088003d24e40d3ecfab742ef",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 two observed-coordinate substitutions, with no fills:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 9,
+          "sha256": "513bd6007d4a49f1f0a3d7cfd93a04872ae403bbc14ba4e115e30028830d7040",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription \u2014 printed cleartext outside the encrypted body:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "eaaadcb659df76e717dc5471ad173b8b8976f9005b1875b3c51a8f390888d45c",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation; the clause continues into part2:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "301d46840e6ccb50d88865ba0ed7393efe3d79c0b6c4fd592714142d84ede7f4",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 the restored prefix; the bracketed note marks the unresolved continuation:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "a9e0ab73fa8c10437687ce6b0906475c717130e9ac23af635a09c49a4a2a4643",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "13422445bced60864ec956a10902c0ee41ce16f1fe01a231a9e50f809b94205a",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation, keeping abbreviations literal:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/military/budapest_wire_break.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "2bad3d3af195ee5504ad859ec0b26be4cf6ca8043b6f7f8305f5e0ecf9f9fb69",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2092,10 +2339,68 @@
       ]
     },
     {
+      "path": "cases/military/chemnitz_verbetz_trains.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "ac660d9de9358ce3054a892d60999f3a0f08e7ad750e5dbc96db83c5ecf3b9aa",
+      "review_basis": "Explicit review of native source frames and old OCR omission, separately priced word repairs and unchanged opaque place/address/reference fields. Printed unknown is preserved; the Schaefer quote keeps the feasibility condition and uses a grammatical question mark identified by context.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "43a5342274515b635a5a6bd7f5bf231ef4e0f49a0370e566424266b0badc19cc",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 164-coordinate frame:**",
+          "review_note": "Explicit role and source/model qualifier reviewed; opaque labels and question punctuation are separated from unresolved cipher positions."
+        },
+        {
+          "index": 1,
+          "sha256": "5ef103b92699f5bdaa6e9b214d6093381d7a74dabbf14c77129cb4a5e7764f14",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 five observed-coordinate substitutions, with no fills:**",
+          "review_note": "Explicit role and source/model qualifier reviewed; opaque labels and question punctuation are separated from unresolved cipher positions."
+        },
+        {
+          "index": 2,
+          "sha256": "8c68ae24a36c278c7f098390caea375b2728a02a0f22dbc62a177024007c81e6",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 110-coordinate frame:**",
+          "review_note": "Explicit role and source/model qualifier reviewed; opaque labels and question punctuation are separated from unresolved cipher positions."
+        },
+        {
+          "index": 3,
+          "sha256": "628c356d46785ac779ba5514b06284480ce6fdfa114bfece6f97603e60dd1ecb",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 three observed-coordinate substitutions, with no fills:**",
+          "review_note": "Explicit role and source/model qualifier reviewed; opaque labels and question punctuation are separated from unresolved cipher positions."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "e25fc357eb5d648f243dde6da1f12a3c04d8601421b58db614e8084e0dad5521",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation, keeping abbreviations and opaque fields literal:**",
+          "review_note": "Explicit role and source/model qualifier reviewed; opaque labels and question punctuation are separated from unresolved cipher positions."
+        },
+        {
+          "index": 1,
+          "sha256": "b55eeaffc8ae940ef72e99256d907677c0d7b7f42b8f65a07647031ae76203cb",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation:**",
+          "review_note": "Explicit role and source/model qualifier reviewed; opaque labels and question punctuation are separated from unresolved cipher positions."
+        }
+      ]
+    },
+    {
       "path": "cases/military/dobrudscha_report.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "e4692a56cd9e1a46944a7c77f23492ebb28d4c0c2bb1823b734658d217a64d9e",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2146,7 +2451,7 @@
       "path": "cases/military/formation_dissolution.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "39455ad442b92f3ff8d82d1ec164bd2e1a50b00e3d3cabcf003de999f1b208c9",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2172,7 +2477,7 @@
       "path": "cases/military/hungary_transport_warning.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "743a664ec8938fc91947155641aea032e29d91177f9d272e6bb7df591f1563b4",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2245,7 +2550,7 @@
       "path": "cases/military/kiew_morning_and_pioneer_reports.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "079b801ad67854415d18297f9ea4349bb966d6b6fcc52e4a7785b7e90698ed6a",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2286,7 +2591,7 @@
       "path": "cases/military/late_transport_dispatches.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "e1645e6586770b23660d42d383c4c4e87431d3bd5827bfbc71dbfe7d57f5982a",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2359,7 +2664,7 @@
       "path": "cases/military/liman_troop_reports.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "2d4c35d59dca761644b3598c36813d4de1ee1eec116b46453cee69faa91af4d7",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2408,7 +2713,7 @@
       "path": "cases/military/mackensen_armistice_appeal.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "1451b1ba66babb7f300e1528d33b97c2f8fa0bfda56950c7185954bed0e775c1",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2521,7 +2826,7 @@
       "path": "cases/military/mackensen_internment.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "b030fd88611cc4dad16776d9b8cdcbf239d7cd755e1d46107e63d3135aa25497",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2555,7 +2860,7 @@
       "path": "cases/military/mackensen_warsaw.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "150396b3b2a4931412287331eef01a2bbcb416c5bc84124e522904fe162864ce",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2605,7 +2910,7 @@
       "path": "cases/military/mackensen_withdrawal_report.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "b0ebefea5c2634c55960fa5f8855f9610ab3fb5055d3d8b5c6f36ea5bcb66d6d",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2719,7 +3024,7 @@
       "path": "cases/military/medical_return_transports.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "c71affa7c0612c7380f74d2dcfb02e4eaf6d665835493e8ff87240afd4182133",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2792,7 +3097,7 @@
       "path": "cases/military/mg08_inventory.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "06131ef3c8d31bbf2ac250e5d5898ca3de388aaf95751125b96e9f737beda5fa",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2850,7 +3155,7 @@
       "path": "cases/military/military_intendant_remit.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "a1b33f733dd440641a5302fbe9b01e9b8b8ebd3ddc791b2a1d0e41118c45930a",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -2939,7 +3244,7 @@
       "path": "cases/military/neuhof_demobilization.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "1f74d29eff4cca8b737ecc8b087169dca85ee1f3e1c911ebfc361a1977d1a45f",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3012,7 +3317,7 @@
       "path": "cases/military/nov10_danube_field_report.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "526d8f7a8ca79a1390dbccad8efcecedf8e0573cdb6a8ca49f4aa15fa6c77a9b",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3167,7 +3472,7 @@
       "path": "cases/military/nov3_withdrawal_and_night_report.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "c95e2902b2ae4608461318b4a79751a946fa9c3085f5bb2c3fc514123073c7c8",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3230,10 +3535,44 @@
       ]
     },
     {
+      "path": "cases/military/nov8_alpenkorps_report.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "76e05be0bf1f898ee2718772b35071b3a619fbb10877f6ffa035d4fa89a73cdb",
+      "review_basis": "Conditional240-to238 frame and four observed substitutions/fill are explicit; every readable label is independently mapped, including the unresolved linked digit and unnormalized place spellings.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "30c1e1cb16916a8ac2587a45717df75c7f88700384a274865a3dd5ba110a3883",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output** \u2014 under the explicitly conditional exclusion frame:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "9ddbce245e8e96ba1b2871c74e713a9f1dbc35f7ba17bc0dc041d0372f2de583",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output** \u2014 changes and source offsets are enumerated in the certificate:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "ad3f9ad9b02df3d76f47206c79688525733dbc442e17069623094b227091fbbd",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German** \u2014 spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/military/nov9_operational_reports.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "739ac30880695e54e1b484606e1d54027a6e7cf501ea1140432eabb4b519b99e",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3331,7 +3670,7 @@
       "path": "cases/military/orient_intelligence.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "02de761db962b5f879e1d58085e3ef3c135aa62a7be80530b7dd17ce6cf1276f",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3429,7 +3768,7 @@
       "path": "cases/military/p163_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "167f488f4819393836d16ccc16b43866739ade763403c6dd5dca1a82f46627f9",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3479,7 +3818,7 @@
       "path": "cases/military/p175_c3_withdrawal_followup.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "d16ffedeec1d3ff4c07df8cfccc1325faec0dbc112149296b6596293ab04af59",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3521,7 +3860,7 @@
       "path": "cases/military/p180_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "87561dde5df57a4cfde868d90a4dcdfccc1850fd1ab11c5984947b41e9aaac56",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3563,7 +3902,7 @@
       "path": "cases/military/p191_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "86a0750f553e4b4da6ce27e76d8b185605908c939b149e2cfac175a9c6677535",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3612,7 +3951,7 @@
       "path": "cases/military/p200_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "5ea39a1dccb348dd2c6fc6cb1fd753642ad7dba23198870b1d1d928ba154916f",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3645,7 +3984,7 @@
       "path": "cases/military/p201_p206_orders.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "28c47830ffd47b70d53fad737ffe1ef3080cf7c37864023fe3cfee9eb455b190",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3696,7 +4035,7 @@
       "path": "cases/military/p210_D.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "57b28944eab3160b5d8cf6f7a9f79bcbdcf5a7d70c27e3855cfc463281b16723",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3738,7 +4077,7 @@
       "path": "cases/military/p217_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "4af4266802a634b2f300906868a6b92c3eebdc09afd09fc23b128cb9fccbbd6f",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3772,7 +4111,7 @@
       "path": "cases/military/p230_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "9dbf425ac2bde47a219d378cdfc37f48a61513e8377714e0ce7249206555277d",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3814,7 +4153,7 @@
       "path": "cases/military/palestine_medical_dissolution.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "80acd78095586ebbd3a523503fe70d541223583fabf60ebf98640a19eb297652",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3855,7 +4194,7 @@
       "path": "cases/military/prague_route_and_situation.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "ede276a2ad6f55b73c079b8c76dc770513688f3bc5d871f88124bba0cf8d8c20",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3896,7 +4235,7 @@
       "path": "cases/military/repatriation_orders.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "9e0422b186a9b29aec1efa8e777d1c4868abca822776cb630cb1acc7ccfe2bd5",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -3961,7 +4300,7 @@
       "path": "cases/military/romanian_ultimatum_companions.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "891f5e89e2ccd836c16a991476a91525fda484b28060afe6cc7141aded63aa82",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4016,6 +4355,32 @@
       "followup_prose_review": "Later C3 link added; original source/edited displays, captions and three-record scope unchanged."
     },
     {
+      "path": "cases/military/sava_crossing_evening_report.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "8ec93dbfea1fe966b46fd1c0dec017818829ab0f280b14dc1e319a0395dbeebd",
+      "review_basis": "Native source reading and exact readable mapping; restored visible OCR-omitted row is distinguished from a transmission insertion, and ambiguous p100 multipart association stays qualified.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "ff141f88f0d21caf89cfc9e31a965e30bd2f3c076738c3d5a19d3cb6c3ed6418",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 unchanged native frame**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "2fd804014784256e7283ccf265c245f86cc29422fb75b4115fb1b6f33e6cb9d1",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the unchanged raw layer**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/military/seaplane_personnel_return.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "1201b7979ab2cf0b9db273d1d57147bdb8a5c97d2be00d75c9388030eb05eb64",
@@ -4053,7 +4418,7 @@
       "path": "cases/military/transport_and_disarmament_orders.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "42eb9bb15a8dd5facb80908fdf3029fc75069b5b504b46f92f43d2b0263a812f",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4142,7 +4507,7 @@
       "path": "cases/military/transylvania_situation_report.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "01456e8176ea0011f02d8a88468c8149d8b222d597ffbaf9a6532e0d0d7b2569",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4230,8 +4595,8 @@
     {
       "path": "cases/military/turkish_armistice_shipping_order.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "ffb6d31dee41d798342c8ae8489773687d369fb2e348f8327b738ad9275a5c54",
-      "review_basis": "Human review: three native frames with eleven local substitutions and no fills; abbreviated distribution, numerical fields and separate faint-glyph variants retained. The p112 relation is explicitly contextual, not an asserted duplicate.",
+      "file_sha256_at_review": "4708568254bfe7261488aa582e79be68722ff4ced8d6e5532267f47a68971ab5",
+      "review_basis": "Human review: three native frames with eleven local substitutions and no fills; abbreviated distribution, numerical fields and separate faint-glyph variants retained. The p112 relation is explicitly contextual, not an asserted duplicate. Follow-up exact mapping verifies all414 nonseparator labels in its three quotes, after correcting the unmarked INS/S relocation; original machine/evidence bytes remain preserved.",
       "fences": [
         {
           "index": 0,
@@ -4285,11 +4650,11 @@
       "quotes": [
         {
           "index": 0,
-          "sha256": "8e3b97b9e744e6610a04914d724b9489469548873aad9e093ed2c61cc91f67c3",
+          "sha256": "7b366ceaeb47a2b6ad3304d498e959c0e91110d5ed6510bf46e24f2db264320f",
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German \u2014 spacing and punctuation:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "review_note": "Complete readable quote now maps exactly to its edited source layer; follow-up audit protects the earlier fences, headings, inline code and evidence."
         },
         {
           "index": 1,
@@ -4297,7 +4662,7 @@
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German \u2014 spacing and punctuation:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "review_note": "Complete readable quote now maps exactly to its edited source layer; follow-up audit protects the earlier fences, headings, inline code and evidence."
         },
         {
           "index": 2,
@@ -4305,7 +4670,7 @@
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German \u2014 spacing and punctuation of the abbreviated distribution:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "review_note": "Complete readable quote now maps exactly to its edited source layer; follow-up audit protects the earlier fences, headings, inline code and evidence."
         }
       ]
     },
@@ -4355,7 +4720,7 @@
       "path": "cases/military/turkish_mission_recall.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "9d8e5e9df93f88ab7c730848537805f3109f8bb9d0d2329369e60d8d2a436c4f",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4429,7 +4794,7 @@
       "path": "cases/military/wallachia_withdrawal_preparations.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "8b0cf12b1700466796576f897d646bce578f7ceb1971cf04f98dbcf57dc2dbf7",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4518,7 +4883,7 @@
       "path": "cases/naval/black_sea_shipping.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "8d71cd06fa78189affaffb5e1a666386f36282a8b616e850c87b2f0085ee504c",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4607,7 +4972,7 @@
       "path": "cases/naval/corcovado_sale_terms.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "0ccab130adf85d581eb3e3df6639fc81f04c3c2f2a30edc83593a2c0a4909e10",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4720,7 +5085,7 @@
       "path": "cases/naval/naval_armistice_order.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "8e0a87217f084872ff8bc22990b44a25afcb302711984b4b77b44ed52bafa2eb",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4754,7 +5119,7 @@
       "path": "cases/naval/p120_p123.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "fdc7c02156e4f46dd350014c63ae2765f7ce9d3e2e5b3944920ef287644937b6",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4788,7 +5153,7 @@
       "path": "cases/naval/p205_B.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "6c318e5b2c6c0cb84f913e45222974b538a22c67083b9a0ec6baf297cdc4c75e",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4822,7 +5187,7 @@
       "path": "cases/naval/p210_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "615aa89593e116a3a1084be07f3fab2159a93666e9ca22f506087e6ffeea7072",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4864,7 +5229,7 @@
       "path": "cases/naval/p84_AB.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "c95261c242a98c4f6d4984d330f8659c0af8eb61a4b9d1886c042a354b6d6e35",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4914,7 +5279,7 @@
       "path": "cases/naval/reval_steamer_notice.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "1bf20a5dad69ea483714123164aff362d221e527288bbf8d20aa2539589d8220",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -4963,7 +5328,7 @@
       "path": "cases/naval/turkish_tonnage.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "b498a944be891855696c17be3da07c62181c972e2af99ea4cfa4f3c50ba64b15",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5028,7 +5393,7 @@
       "path": "cases/p100.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "e7db8d580a56211ab92ce95a417fc1698302c2cc3efd2a1cc3adacf4127db2c6",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5054,7 +5419,7 @@
       "path": "cases/p105.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "43a0bfcd0270f1ea524cf3807956d092fb3c5796fb70b1bdd55d8b96f8dd928d",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5088,7 +5453,7 @@
       "path": "cases/p109.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "45b1718634d29cc24e1f9306f15052063c2cec32e5b944c3c9f5d336f5df3825",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5138,7 +5503,7 @@
       "path": "cases/p132.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "5f2e079f7469ddf46aa59cadf4478fa7f131208744c34ef9f6eee626c4849d04",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5180,7 +5545,7 @@
       "path": "cases/p146.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "86f0ca75b2996a38b1729473060f259eb6b85a747847e37fb71e896a106ae5c9",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5222,7 +5587,7 @@
       "path": "cases/p152.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "9e45bc53079af0154740badc46253dc630d7676dc483c2bf17f9373ecca407d1",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5264,7 +5629,7 @@
       "path": "cases/p153a.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "1b210cf8cab151f88a7097abdf593ad70d0fcaddae9f51df247f328942042ba0",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5289,7 +5654,7 @@
       "path": "cases/p153b.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "c271c6cf4ef75eea2f491336af9dc34f4b25d1f78138c00947dc852188a3af98",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5331,7 +5696,7 @@
       "path": "cases/p158.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "fc5cb5ac3046b0263f4437a2797b484bd611dea2b159cd29d8ca7a75b4c629ed",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5381,7 +5746,7 @@
       "path": "cases/p164a.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "55d3cd4e151191ad3ceef8ca674ce5bbde18f45ea8f6bcc5bd1e64623fccbc71",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5431,7 +5796,7 @@
       "path": "cases/p164b.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "a3a28dbbd3ea4440e7541e5e4e674f8cb008dbfad1212c03c9f1a70cf7eb5b37",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5481,7 +5846,7 @@
       "path": "cases/p170.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "0f132f65c706071f6b7db508afd6bd29646bb30f5b6842da3e4c4ecdfba90658",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5498,7 +5863,7 @@
       "path": "cases/p171.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "0554b10bdaf3842396adddbda85bac4ab7147b21df1c29eb627ee2d67917ded9",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5532,7 +5897,7 @@
       "path": "cases/p176a.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "5e6a1ae4b080f6116e794bc83d198d55584221a414d084d4784adca60805d84f",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5574,7 +5939,7 @@
       "path": "cases/p176b.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "986018382ae820deedcc6fe8a85204d9e5c98db5dfc7a57b19beb3dc9be24a8e",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5608,7 +5973,7 @@
       "path": "cases/p187.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "35bd61443f0e1d7e9e114b4bae13b9be6395adfe43f2c32b20e693236b5d7264",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5650,7 +6015,7 @@
       "path": "cases/p187b.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "925d5c7e3da2289f702e74dec2bfd61fc1ba487932b5791e4f02bef277d469e7",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5709,7 +6074,7 @@
       "path": "cases/p189.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "d4971aa3acf768c3032b0623ed4bb267fa539a33fcadef32bfd4b9297b12f830",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5743,7 +6108,7 @@
       "path": "cases/p198.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "c94af7db155a295678f63a8202d335415d40281974b0ee5765d515baa2e3e2c5",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5768,7 +6133,7 @@
       "path": "cases/p215.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "0953196ea225b2fc848d2b4b9fd3cd493c2115dadc18a13f47c378905175bd72",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5802,7 +6167,7 @@
       "path": "cases/p217.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "77938f573c2976a63e1176f6a64922e750c20b0be40d93f2488e5049479e1bc3",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5836,7 +6201,7 @@
       "path": "cases/p73.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "ceffa965c940840a7f5bc04a4050d1d3fb45a2ca15e0b10c537b1cc23b1b1dc9",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5850,10 +6215,68 @@
       "quotes": []
     },
     {
+      "path": "cases/people/awaloff_return_request.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "d90191e80e4ca0a9e5a65bd0d15cdff01a1ee38c1052edc49e5589f2b55d26bd",
+      "review_basis": "Two native frames with invalid glyphs/dashes and separately costed fills; exact readable mappings preserve three linked unknown digits, abbreviated offices and literal names without identities.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "fcdca45a5ffbbe72ed074321e4e982d0878a54890d4228c7dd90284930c2c603",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output** \u2014 native source frame:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "502a57e22bcc739cfed5e84211ddfcfcfa37ea95f1233f4559e6456b81d2f5bf",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output** \u2014 changes and source offsets are enumerated in the certificate:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "c2dee4e62028916aad98ef869cc18e641cc66f524293bf7c668e9168d7e515f2",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output** \u2014 native source frame:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "21e32b463aedc6f37c008640640a20675d76626f2bf94e7792b0c8bfed092b45",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output** \u2014 changes and source offsets are enumerated in the certificate:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "5740eb1c38af87e726547ec27ce4087d06eeba8263df519d2772b326b264a7e9",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German** \u2014 spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "0cc68dcbecbd96f368b7eaba96fbdc82b4983554505a3f96b6fe24bd90a3954f",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German** \u2014 spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/people/breslau_staff_transfer.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "9ea31b864285293894491e1f2316ee06a072c2528e4b0f0ee4404d5c15a5544c",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -5902,7 +6325,7 @@
       "path": "cases/people/constantinople_civilians.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "47348b28e387bb000a3f9ab67428bae1d9c8ba795c81fc730a1319cbb7644efa",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6049,7 +6472,7 @@
       "path": "cases/people/glatz.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "14bbb427ec727343551a9171433abb222d1a8d5ed38277499b6c63155f33bea3",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6083,7 +6506,7 @@
       "path": "cases/people/kremp.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "732d385a731c3630a4960122f0f665a53fbd14679d77aabaa60e543c4cba8657",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6183,7 +6606,7 @@
       "path": "cases/people/medical_company_inquiry.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "2657244c7c776dd629a1cbd64757899c5fe087d3850a5ae4621291de00722cc1",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6217,7 +6640,7 @@
       "path": "cases/people/medical_return_to_unit.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "58d6c042650ac23a4001040e4c803eef8619acab9e1c37d6e7d31ffb79612b15",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6274,7 +6697,7 @@
       "path": "cases/people/military_mission_recalls.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "665c35e879e6bbdfab6f160ba615174b95aadf99a9de302adfcd86493a2d3db4",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6331,7 +6754,7 @@
       "path": "cases/people/namur_order_witnesses.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "2b07225cbbeb8300f814b223c1db7f18b7e97409ffa3a7214b826ddc119d2cbf",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6380,7 +6803,7 @@
       "path": "cases/people/osthoff.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "56292f9f565461e0e971f82e836f12396989e8da785538ef83f6608536798f75",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6414,7 +6837,7 @@
       "path": "cases/people/p210_B.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "e9419b61da17a6febfaeb3f4b91b0b8bdc042f8b6146fa617eead1c65d63dce7",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6456,7 +6879,7 @@
       "path": "cases/people/p92_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "f5edb360cc2c17ba6885ad819a75116796c4b2dec8fc8a8dfffce176b5cb24b3",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6498,7 +6921,7 @@
       "path": "cases/people/p96_B.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "0c389bacf7eab3dbd847f8ff3691c0e409032f6ba225c2fe7223b33d26860407",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6532,7 +6955,7 @@
       "path": "cases/people/richter_aleppo.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "c0f25e8e2c0dceb065f255babfd7b1f0db38ad4f50d01b1877e3bbcc81912cbd",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6595,10 +7018,102 @@
       ]
     },
     {
+      "path": "cases/people/rudolf_discharge.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "60b69b536adde5d0661b690bdbc2fc79671edc5efab58b04e0fd4d80e416b781",
+      "review_basis": "Explicit review of source-visible OCR correction versus genuinely missing coordinate, native/conditional frames, all reference labels, retained repeated RUDOLF and five alternative source-origin layouts. Spelled punctuation rendered as marks only where the caption explicitly says so.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "e11c0543e2954f46466b12be169a7e0b41def1961ee87bfb6f273b99a28067a5",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 130-coordinate frame:**",
+          "review_note": "Visible role and qualifier reviewed against source/candidate evidence, including the unresolved reference and explicitly rendered punctuation words."
+        },
+        {
+          "index": 1,
+          "sha256": "e11c0543e2954f46466b12be169a7e0b41def1961ee87bfb6f273b99a28067a5",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 unchanged, with zero substitutions or fills:**",
+          "review_note": "Visible role and qualifier reviewed against source/candidate evidence, including the unresolved reference and explicitly rendered punctuation words."
+        },
+        {
+          "index": 2,
+          "sha256": "b9fb0a2e1ceed5a64a528307f7e729cc9aa846cb84d17d08c403eb69ef61bca6",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 conditional 136-coordinate frame with one missing coordinate inside DAGD:**",
+          "review_note": "Visible role and qualifier reviewed against source/candidate evidence, including the unresolved reference and explicitly rendered punctuation words."
+        },
+        {
+          "index": 3,
+          "sha256": "b9fb0a2e1ceed5a64a528307f7e729cc9aa846cb84d17d08c403eb69ef61bca6",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 same conditional frame, unchanged, with zero substitutions or fills:**",
+          "review_note": "Visible role and qualifier reviewed against source/candidate evidence, including the unresolved reference and explicitly rendered punctuation words."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "5048fa8b47b424f54aa169bfe04eaa57abdcf5d359c30a27c751949a6850b788",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and umlaut:**",
+          "review_note": "Visible role and qualifier reviewed against source/candidate evidence, including the unresolved reference and explicitly rendered punctuation words."
+        },
+        {
+          "index": 1,
+          "sha256": "71837b1df00f391e154004a1888f18fb652420c49ab58b8398ef991cf640e413",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and umlaut, with the unresolved reference retained:**",
+          "review_note": "Visible role and qualifier reviewed against source/candidate evidence, including the unresolved reference and explicitly rendered punctuation words."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/schaefer_return_inquiry.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "ced5a3739f8190b08bdbe817e65c6b78cfd9a128eef2da9b98f87d9634305983",
+      "review_basis": "Explicit review of native source frames and old OCR omission, separately priced word repairs and unchanged opaque place/address/reference fields. Printed unknown is preserved; the Schaefer quote keeps the feasibility condition and uses a grammatical question mark identified by context.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "6b7a7311134eec7df6fdb5dc8fab5626755404fa47a5c698fb6e25535ba7885d",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 348-coordinate frame:**",
+          "review_note": "Explicit role and source/model qualifier reviewed; opaque labels and question punctuation are separated from unresolved cipher positions."
+        },
+        {
+          "index": 1,
+          "sha256": "5a13a1dc790eabbc7e23ad898ebfca79c59d909f18b19a39a196ac945c3bb09b",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 four observed-coordinate substitutions, with no fills:**",
+          "review_note": "Explicit role and source/model qualifier reviewed; opaque labels and question punctuation are separated from unresolved cipher positions."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "999c038dd87f84c99bd64fcc7d6811628761108c2ed840a2481d23b3dc9f30a8",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and umlauts; the opaque address remains unexpanded:**",
+          "review_note": "Explicit role and source/model qualifier reviewed; opaque labels and question punctuation are separated from unresolved cipher positions."
+        }
+      ]
+    },
+    {
       "path": "cases/people/spa_berlin_delegates.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "3fd4acff487d823b5296fd5cfceb01d2411eff0c2b12f66f360aaab90d733b74",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6639,7 +7154,7 @@
       "path": "cases/radio/apparatus_sale_request.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "be7abdb406813c3f90a578584427e14f4e1b6226e92c412c37af9636cbf59830",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6680,7 +7195,7 @@
       "path": "cases/radio/constantinople_address_parts.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "4ecd8c1755b8e798976606b8adef0f2d475f5116dccf1c3267c44f2a3cba1442",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6763,7 +7278,7 @@
       "path": "cases/radio/constanza_radio_connections.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "3068c2e1d584c1a1678a9cab1a9ba1937961464a5a5b22ebc406d57a071fd340",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6836,7 +7351,7 @@
       "path": "cases/radio/courier_munich.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "d8195c422a502d9fa2c82f5dea9a1233eb0fdac792376af9a3a019e68fa65045",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6878,7 +7393,7 @@
       "path": "cases/radio/damascus_aleppo_report.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "5190065a05116a80ec2e8137f2aaedf152c47a1bfc82f226fd357c05e155271d",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6912,7 +7427,7 @@
       "path": "cases/radio/document_destruction.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "de664033de6c7b83b23c83919eef111f63964c067048a4cfdd1622910bb61f07",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -6962,7 +7477,7 @@
       "path": "cases/radio/hermannstadt_radio_report.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "fd8fc67e1d1e586609984d7ff0c0dcb8fd71383f9cd7e87f5b166ae204db922a",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7109,7 +7624,7 @@
       "path": "cases/radio/kiel_radio_control.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "cf409db2d7e4d45853f858fedebb32dedaabb240df9970e189b4a0b382340bf0",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7151,7 +7666,7 @@
       "path": "cases/radio/late_november_cipher_instructions.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "22e1752d9eda84ed8fe641f014fa696bce6a195bf04d0af8e30bab042bac23ab",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7200,7 +7715,7 @@
       "path": "cases/radio/late_october_radio_service.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "2f8cbd270155974ca7564f7f6cf7691348c6009b61b15ed07e8bbdaddaf2f52a",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7327,6 +7842,40 @@
       ]
     },
     {
+      "path": "cases/radio/naval_arrival_inquiry.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "ca030074e55902ca6e7f4987664425768ff4ab540229c44c8b183a31073af396",
+      "review_basis": "Explicit review of source-visible OCR correction versus genuinely missing coordinate, native/conditional frames, all reference labels, retained repeated RUDOLF and five alternative source-origin layouts. Spelled punctuation rendered as marks only where the caption explicitly says so.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "5c4519389d7bfb3ce72778c4676a416f0793795ad775b7568e65033c1d223595",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 282-coordinate frame:**",
+          "review_note": "Visible role and qualifier reviewed against source/candidate evidence, including the unresolved reference and explicitly rendered punctuation words."
+        },
+        {
+          "index": 1,
+          "sha256": "5c4519389d7bfb3ce72778c4676a416f0793795ad775b7568e65033c1d223595",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 unchanged, with zero substitutions or fills:**",
+          "review_note": "Visible role and qualifier reviewed against source/candidate evidence, including the unresolved reference and explicitly rendered punctuation words."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "d3c7de6d67505299bd599198afce393692da18656531b3021c22e7bb851dc1dc",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation; DOPPELPUNKT and FRAGEZEICHEN are rendered as their punctuation marks:**",
+          "review_note": "Visible role and qualifier reviewed against source/candidate evidence, including the unresolved reference and explicitly rendered punctuation words."
+        }
+      ]
+    },
+    {
       "path": "cases/radio/nazareth_front_inquiry.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "cc09d08092a3c3456e5852d06735e0fb9182eb1d9c7ba86db5832bc33aa1ff01",
@@ -7364,7 +7913,7 @@
       "path": "cases/radio/newspaper_dispatch.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "868559146c23f79f720199f390015e339bc8d524f18a5571960d4fabfc5a4db0",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7421,7 +7970,7 @@
       "path": "cases/radio/newspaper_dispatch_witnesses.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "8420f75c792a2daea8675691ce1bb83ac78c81bdccbca532a1bf3136506551ae",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7462,7 +8011,7 @@
       "path": "cases/radio/nov14_radio_retransmissions.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "aeffa6c19cba78f1d0dd4cf096e7d2c221fb1df7317457562e0e2c7b94efed84",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7525,10 +8074,116 @@
       ]
     },
     {
+      "path": "cases/radio/nov1_contact_and_mail.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "d4af9d3ad2da9b9e04cd71ba147b15604cef56f0c3a8b09d9184408e9420e281",
+      "review_basis": "Four physical records reviewed against the source and exact readable mappings; conditional added slot, two tied origins, all three WI??E? unknowns and additional WIEDER costs stay explicit.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "707014857269d650be4a24ff507f445f2611d15d6b50a593d795d740243efc85",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 conditional 134-slot frame, with one appended unknown coordinate**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "9e84ec2ae7a71b9b302d10b125adccf0e53ff0c8641695b9722f3b4aadd214e5",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 same conditional frame; no observed-coordinate substitutions**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "e3aebadd295bf92b61bbc3bbd91e65dbe0c794f7117fb3a396d0a28848225048",
+          "role": "conditional_interpretation",
+          "caption_required": true,
+          "caption": "**Conditional interpretation \u2014 an additional word repair, outside the primary edition**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "4955c1f31f653e83da85aee1efc60c2f7d3ffe75cfb49a341955c6f33bb8cee3",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 136-slot frame**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 4,
+          "sha256": "5f39ff2f5f13a6a3ba16781cd6f97b60eaa2b0cdd16526f96b6b261e820e8389",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 3 observed substitutions and 14 source-mask fills**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 5,
+          "sha256": "b61ce35692e39a339a2e6cbe5b59c0edfaaece4ee78c64268cdcd18b54e766bc",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 102-slot frame**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 6,
+          "sha256": "74e080c68efead6774265a1705ff4af88ab7595a41539160c37ce2c837d53593",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 5 source-mask fills, no observed substitutions**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 7,
+          "sha256": "0add66938ad4462f479f4f53ba339e76a77a8d946000b96e1b0c98d32a0c5a88",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 unchanged native 100-slot frame**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "09b31f38d99a73029b4129237f2ab17310f5348263bc64eef203d9e2547b19cc",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the conditional edited layer**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "73f1081f8134dae5f0967eb16b0e99b2638cd91ba7da98c7b3c4ed210a0e05e2",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the edited layer**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "381506879d6f2f585d82a087c3741deeb7c6890fe2489a195b8ae364ed00e0d4",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the edited layer**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "44108f7574139b330fb8832559658bd812ae683b86fb35298372961faddf85ce",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the unchanged raw layer**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/radio/nov3_ringbahn_notice.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "68555f47f4131c2a6b256a29695659666e66b93f9d524fa81fc9df69b85a752a",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7562,7 +8217,7 @@
       "path": "cases/radio/nov3_transmission_schedule.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "78155f171d1aaaa74381ee66ef3527d2d6a83f95656b37d2cd9d2b8f69166bc8",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7587,7 +8242,7 @@
       "path": "cases/radio/opposite_end_deciphering.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "f5ff763e04a69c6a9241b4ecdac53c4964700149b91459f53a5ba17d6250d300",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7669,7 +8324,7 @@
       "path": "cases/radio/p111_B.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "09eae889a6eaddb62ae7feac4b4c50000f02536a6ffcb72ac51fe1c5421ceb64",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7703,7 +8358,7 @@
       "path": "cases/radio/p132_radio_service.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "693ee4ddefcf5fdab0fcfdcb4fb4b7b1288c2692d9fae3ae6128d4ffe1ea9ee7",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7809,7 +8464,7 @@
       "path": "cases/radio/p164_B.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "3926579fb71466f33b7d72f92179f832fb0513bd5fa07c621a2a33e0dc0b3243",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7859,7 +8514,7 @@
       "path": "cases/radio/p187_D.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "9d3e9fc8c10d237dec0371398da9412fdd66a5195184667300bd72b3c5c46f58",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7901,7 +8556,7 @@
       "path": "cases/radio/p204_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "03ca25faa0c53b13536d9678e51988c8457b0af96d6d1019fd69e4c6f5dfbd07",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -7943,7 +8598,7 @@
       "path": "cases/radio/p211_key_schedule.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "3febf5a3caff304b01320d0ab3fc4dba6cff0c4735eaa0de50d5bc2efed45b20",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -8001,7 +8656,7 @@
       "path": "cases/radio/p85_B.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "a0a15cb86ec0e5909ae40551f7886163e94d1bb753e68288468cdef3d7035e9e",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -8035,7 +8690,7 @@
       "path": "cases/radio/radio_contacts_and_keys.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "edabf3393d83e4ccfbc3dd0093d36ed23e56da008ddc6fc7a21da1d651ca3c29",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -8138,10 +8793,68 @@
       ]
     },
     {
+      "path": "cases/radio/radio_equipment_sale_prices.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "4613190204faee06cbc0ccc0527c01ae8e8bdf45818c5d05310276e45d6df5c1",
+      "review_basis": "Native frames and separate glyph fills; exact readable mappings retain all three unknowns,380L/170M and abbreviations; mixed letter/digit domain and global5/6 coupling remain explicit.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "f308a7a0fae1ed42962f0009752cb0fa538d2eff448134a48efa2725252592b6",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output** \u2014 native source frame:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "6ee5a6c73dad792c2976618af3579236a8555a17e9503f48f5a157c9c9a68d47",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output** \u2014 changes and source offsets are enumerated in the certificate:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "6e971c025997916c513970c52c72e02d7916521fbac67cb839b086ebe3bf6df8",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output** \u2014 native source frame:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "74cb2ae28c0ec4cf91d67752bcb3e414fe0895988639b7b54c983e444d80096d",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output** \u2014 changes and source offsets are enumerated in the certificate:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "6fc89cec9ff44e7e07bb04a4a499b68dbcb9154e0e16238151654c7d96e831c3",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German** \u2014 spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "3e60d7a85dc28febcdb8b9c3529a779416817d943ae5603fa275e2dd851c065c",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German** \u2014 spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/radio/right_rhine_equipment.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "82e62085731008c7a305fc3ad2372c9d20537cf51f57e71f15f575a53376aa58",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -8188,10 +8901,68 @@
       ]
     },
     {
+      "path": "cases/radio/ringbahn_key_reuse.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "119a16c0ffe4929d8eba329c67a6bfc048b149e933eb530a3d54c7e7b6dd856c",
+      "review_basis": "Conditional309-to308 first part plus native second part; readable labels/date instructions match the edited streams exactly and do not assert recovery of new key material.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "084d91db9b45a586adf5c0ecfcc894a76851c8ad0d6f308792fccb3aeea7ee33",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output** \u2014 under the explicitly conditional exclusion frame:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "aeb4fecf549619fc1fd2ddfaa9a9214f93e8da2e65324a726177896673334473",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output** \u2014 changes and source offsets are enumerated in the certificate:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "53bb8c6de1625cd61411c38ea0f905815499549d03ab92cb996ff9c5ce3dcaa3",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output** \u2014 native source frame:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "53bb8c6de1625cd61411c38ea0f905815499549d03ab92cb996ff9c5ce3dcaa3",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output** \u2014 changes and source offsets are enumerated in the certificate:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "abe6bcf74b15b54105d3628d76c56f58c0885de654576627ecd31e736deef103",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German** \u2014 spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "4d5d7dd81d50fa9b182daa0e6bee4612470854bc48614f4cfde240fb53c4977a",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German** \u2014 spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/radio/seifert.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "6b9bcf2bbcdde78c457d63bf742f7478c8d3cbb99a475dc281df2cb2cc02121c",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -8288,7 +9059,7 @@
       "path": "cases/radio/september_radio_procedure.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "048a3f5353d683db6b19dc2d0b1f3471e521b42fa49169139c243b4fb6a6b9b9",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -8420,7 +9191,7 @@
       "path": "cases/radio/telegram_priority.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "6e5c6b4459c6dc615fe37ae90bade09a0034d44c7e5a74a716d18c92fe0e77e5",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -8483,10 +9254,44 @@
       ]
     },
     {
+      "path": "cases/radio/tiflis_repetition_request.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "c875279028ee4aebeb810958b04ea43a68704caddd45d9a832f2fecbcc960ac8",
+      "review_basis": "Native frame and two priced word repairs; readable quote preserves abbreviated address, literal numerals and separate date fields; requested earlier message is not identified.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "c6fa56d090b45355045715e47b0e1932c371bdbe89b32a1f16b4e5b58e05aa98",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 314-coordinate frame:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "bdd1d01280eba239459036e7bfc4f9b1d14ac3ce53f0015248b43b52dc3acc47",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 two observed-coordinate substitutions, with no fills:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "abc20cd8e38aa9c32504ee8e13a470a8e157790f8dcba2c6d62c0f1586af7dfe",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and umlaut:**",
+          "review_note": "Explicit layer and local source/frame qualifier checked against the edition; preserved verbatim for future regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/radio/warsaw_service_messages.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "6dd202c7b1fd05369c6d9a5475958070fb2f87236e17737322421b975b4e2ed6",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -8559,7 +9364,7 @@
       "path": "cases/supplementary/p107_D.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "7d6fd6ba539f02031981028bcceeca2aa7f233adbcadc1727242c07da6c41df4",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -8601,7 +9406,7 @@
       "path": "cases/supplementary/p187_C.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "91ace00d2f1427c3e06cc747b08f7b26ce65eccc6fde0f0a267571f20ec84736",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,
@@ -8651,7 +9456,7 @@
       "path": "cases/supplementary/p89_A2.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "38b3097cef8916ff1f9a6f2ce9c7f4f36175ba118e76f3e105f52f2221ff7c67",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
           "index": 0,

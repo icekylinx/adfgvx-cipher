@@ -1,0 +1,1279 @@
+{
+  "schema": "adfgvx-nov8-independent-source-candidate-audit-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "inputs_sha256": "c5b21cd9fbbcd5beb248f89193fc118b02bf0f9db20ca20e7c9aca4b34c0cddf",
+  "certificates_sha256": "145f8d9af6cd114e2b2d5b5c918b886c9654070583f1c8d08d59712f91d37b71",
+  "source_image_sha256": {
+    "sources/p160_full.png": "f3414e106b33fa8dcdd4a92458015c2c82d5afac6f14424fa8ddd4a2d33e21d0",
+    "sources/p160_A2_detail.png": "25e913fd13c359284b14bdcdc37794211af7b507ee0ea1d87693b8af18510d2f",
+    "sources/p160_B2_detail.png": "1f316d2122f53f3ea36f5702a65b37518bd7f9cee41cd804fd68bfc4ef858fd8",
+    "sources/p160_C_detail.png": "1d4742fa89b41d30bb36cee144606339f9231adecb8709bcae56346f499229cb",
+    "sources/p160_D_detail.png": "73a7960c0eca4ff5af5fc322ea242f5580934eeb22ccf3a3a6e1f9ba19cb70db",
+    "sources/p161_full.png": "fdb182cd477910f16e05b0d8f63b5da7b8da272af3c2c890804f550e800ca159",
+    "sources/p161_A2_detail.png": "621f0401b6961fe42b4fc82261cd5f7e54eda95c7a72bf6b77b32b3ae729383e"
+  },
+  "manual_source_review": {
+    "scope": "All seven embedded transcripts were visually checked against the full p160 page and detailed A2/BCD/p161-upper crops. The repository p160 full page and p161 source images bind that source edition; executable replay does not itself perform optical reading.",
+    "findings": [
+      "A2 has 240 slots including GDGDXF at 15\u201320 and DXAADG at 26\u201331; RICHI-238 is a distinct advertised count.",
+      "C1 has 309 slots including FAGVGD at 280\u2013285; RICHI-308 is a distinct advertised count.",
+      "B2 has C at 8 and B at 83; p161 A2 has C at 79 and 119. They remain noncoordinate masks, without a favorable letter substitution.",
+      "There are 8 printed dashes and 4 invalid letters across the seven source records.",
+      "The cleartext footers ZON and NF NKJ v LP UM are outside the ciphertext body.",
+      "No source-glyph discrepancy was found. p159 A remains outside this seven-record count."
+    ]
+  },
+  "summary": {
+    "physical_records": 7,
+    "source_slots": 1327,
+    "valid_source_coordinates": 1315,
+    "model_slots": 1324,
+    "plaintext_positions": 662,
+    "raw_fixed_positions": 643,
+    "edited_fixed_positions": 654,
+    "known_coordinate_substitutions": 11,
+    "source_mask_fills": 11,
+    "excluded_observed_coordinates": 3,
+    "excluded_source_masks": 0,
+    "inserted_model_coordinates": 0,
+    "published_key_changes": 0
+  },
+  "records": [
+    {
+      "id": "p160_A2",
+      "source_slots": 240,
+      "valid_source_coordinates": 239,
+      "model_slots": 238,
+      "plaintext_positions": 119,
+      "raw_fixed_positions": 117,
+      "edited_fixed_positions": 118,
+      "source_masks": [
+        {
+          "source_index": 185,
+          "glyph": "-"
+        }
+      ],
+      "changes": [
+        [
+          136,
+          "X",
+          "D"
+        ],
+        [
+          170,
+          "D",
+          "G"
+        ],
+        [
+          185,
+          "?",
+          "D"
+        ],
+        [
+          187,
+          "A",
+          "X"
+        ],
+        [
+          193,
+          "G",
+          "D"
+        ]
+      ],
+      "cost": {
+        "known_coordinate_substitutions": 4,
+        "source_mask_fills": 1,
+        "excluded_observed_coordinates": 2,
+        "excluded_source_masks": 0
+      },
+      "numeric_word_repairs": [
+        {
+          "position": 11,
+          "raw": "2",
+          "edited": "I"
+        }
+      ],
+      "witness_count": 2,
+      "witnesses": [
+        {
+          "conditional_key_binding": {
+            "VF": "5",
+            "XA": "6"
+          },
+          "remaining_source_mask_values": {},
+          "plaintext": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND5XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+          "ciphertext": "AADDGVXDADADADGGDGDFXGDAVXAADGVGVDVXXXDDDFXVGXGVVFAGDVVXGVVXAXXDGVDAXVFDGDXGVAGXGDVXAAFDFVXFXVDFGXGGVAVGAAFADVVDGVGDVDVADFXVVGFDVDVDXDDVVVVFGGDXADVVVDVGGXXGVVXVGFGDDGFDGXGGVVVDGVXDXDADGXDDXDDDVXXVDVGGXVDGFFDXFVFXGVXDGAADFDVGDDAAGDDFVFDDAG"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "6",
+            "XA": "5"
+          },
+          "remaining_source_mask_values": {},
+          "plaintext": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND6XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+          "ciphertext": "AADDGVXDADADADGGDGDFXGDAVXAADGVGVDVXXXDDDFXVGXGVVFAGDVVXGVVXAXXDGVDAXVFDGDXGVAGXGDVXAAFDFVXFXVDFGXGGVAVGAAFADVVDGVGDVDVADFXVVGFDVDVDXDDVVVVFGGDXADVVVDVGGXXGVVXVGFGDDGFDGXGGVVVDGVXDXDADGXDDXDDDVXXVDVGGXVDGFFDXFVFXGVXDGAADFDVGDDAAGDDFVFDDAG"
+        }
+      ]
+    },
+    {
+      "id": "p160_B1",
+      "source_slots": 282,
+      "valid_source_coordinates": 282,
+      "model_slots": 282,
+      "plaintext_positions": 141,
+      "raw_fixed_positions": 140,
+      "edited_fixed_positions": 140,
+      "source_masks": [],
+      "changes": [
+        [
+          70,
+          "V",
+          "X"
+        ]
+      ],
+      "cost": {
+        "known_coordinate_substitutions": 1,
+        "source_mask_fills": 0,
+        "excluded_observed_coordinates": 0,
+        "excluded_source_masks": 0
+      },
+      "numeric_word_repairs": [
+        {
+          "position": 0,
+          "raw": "0",
+          "edited": "A"
+        }
+      ],
+      "witness_count": 2,
+      "witnesses": [
+        {
+          "conditional_key_binding": {
+            "VF": "5",
+            "XA": "6"
+          },
+          "remaining_source_mask_values": {},
+          "plaintext": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21500FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+          "ciphertext": "FAAVVDVGGAVGFAVVGVDVDDDFFXDDFFAXAXAAFVAADVAAAAXGXDXFFDVVGGAGXFXXGXGXXVXXVDDDVADXVDVXVVDXAAGVDVDVGDXXXXDDDDDDDDDXFVFXDADXVVFGGGXGDVFGDDAVDGDGGXVAGGVDGVVXVDDDVVVVXFDDDVVXDVXGDVDXGVXGAVVGDDDVXVVVXVVVDDGFDDDGDVVVVGXGXFADXAXGGDGAVDVDVXVVXAGFXGFVDGDGAGDDDVDDVXFDGGDFVVVADFVVFGDAGGFFDVXXDX"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "6",
+            "XA": "5"
+          },
+          "remaining_source_mask_values": {},
+          "plaintext": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21600FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+          "ciphertext": "FAAVVDVGGAVGFAVVGVDVDDDFFXDDFFAXAXAAFVAADVAAAAXGXDXFFDVVGGAGXFXXGXGXXVXXVDDDVADXVDVXVVDXAAGVDVDVGDXXXXDDDDDDDDDXFVFXDADXVVFGGGXGDVFGDDAVDGDGGXVAGGVDGVVXVDDDVVVVXFDDDVVXDVXGDVDXGVXGAVVGDDDVXVVVXVVVDDGFDDDGDVVVVGXGXFADXAXGGDGAVDVDVXVVXAGFXGFVDGDGAGDDDVDDVXFDGGDFVVVADFVVFGDAGGFFDVXXDX"
+        }
+      ]
+    },
+    {
+      "id": "p160_B2",
+      "source_slots": 84,
+      "valid_source_coordinates": 82,
+      "model_slots": 84,
+      "plaintext_positions": 42,
+      "raw_fixed_positions": 39,
+      "edited_fixed_positions": 40,
+      "source_masks": [
+        {
+          "source_index": 8,
+          "glyph": "C"
+        },
+        {
+          "source_index": 83,
+          "glyph": "B"
+        }
+      ],
+      "changes": [
+        [
+          8,
+          "?",
+          "G"
+        ]
+      ],
+      "cost": {
+        "known_coordinate_substitutions": 0,
+        "source_mask_fills": 1,
+        "excluded_observed_coordinates": 0,
+        "excluded_source_masks": 0
+      },
+      "numeric_word_repairs": [],
+      "witness_count": 12,
+      "witnesses": [
+        {
+          "conditional_key_binding": {
+            "VF": "5",
+            "XA": "6"
+          },
+          "remaining_source_mask_values": {
+            "83": "A"
+          },
+          "plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111P06X",
+          "ciphertext": "AGXXGAFFGGXFXXDDFGVAGFDVXDVDDVADVFDVXFDDXADXGXAAFXADDDGVXVDVDVVVAGGDGADGVFGGVFFVFAVA"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "5",
+            "XA": "6"
+          },
+          "remaining_source_mask_values": {
+            "83": "D"
+          },
+          "plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111306X",
+          "ciphertext": "AGXXGAFFGGXFXXDDFGVAGFDVXDVDDVADVFDVXFDDXADXGXAAFXADDDGVXVDVDVVVAGGDGADGVFGGVFFVFAVD"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "5",
+            "XA": "6"
+          },
+          "remaining_source_mask_values": {
+            "83": "F"
+          },
+          "plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111806X",
+          "ciphertext": "AGXXGAFFGGXFXXDDFGVAGFDVXDVDDVADVFDVXFDDXADXGXAAFXADDDGVXVDVDVVVAGGDGADGVFGGVFFVFAVF"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "5",
+            "XA": "6"
+          },
+          "remaining_source_mask_values": {
+            "83": "G"
+          },
+          "plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111V06X",
+          "ciphertext": "AGXXGAFFGGXFXXDDFGVAGFDVXDVDDVADVFDVXFDDXADXGXAAFXADDDGVXVDVDVVVAGGDGADGVFGGVFFVFAVG"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "5",
+            "XA": "6"
+          },
+          "remaining_source_mask_values": {
+            "83": "V"
+          },
+          "plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111406X",
+          "ciphertext": "AGXXGAFFGGXFXXDDFGVAGFDVXDVDDVADVFDVXFDDXADXGXAAFXADDDGVXVDVDVVVAGGDGADGVFGGVFFVFAVV"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "5",
+            "XA": "6"
+          },
+          "remaining_source_mask_values": {
+            "83": "X"
+          },
+          "plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111606X",
+          "ciphertext": "AGXXGAFFGGXFXXDDFGVAGFDVXDVDDVADVFDVXFDDXADXGXAAFXADDDGVXVDVDVVVAGGDGADGVFGGVFFVFAVX"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "6",
+            "XA": "5"
+          },
+          "remaining_source_mask_values": {
+            "83": "A"
+          },
+          "plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111P05X",
+          "ciphertext": "AGXXGAFFGGXFXXDDFGVAGFDVXDVDDVADVFDVXFDDXADXGXAAFXADDDGVXVDVDVVVAGGDGADGVFGGVFFVFAVA"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "6",
+            "XA": "5"
+          },
+          "remaining_source_mask_values": {
+            "83": "D"
+          },
+          "plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111305X",
+          "ciphertext": "AGXXGAFFGGXFXXDDFGVAGFDVXDVDDVADVFDVXFDDXADXGXAAFXADDDGVXVDVDVVVAGGDGADGVFGGVFFVFAVD"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "6",
+            "XA": "5"
+          },
+          "remaining_source_mask_values": {
+            "83": "F"
+          },
+          "plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111805X",
+          "ciphertext": "AGXXGAFFGGXFXXDDFGVAGFDVXDVDDVADVFDVXFDDXADXGXAAFXADDDGVXVDVDVVVAGGDGADGVFGGVFFVFAVF"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "6",
+            "XA": "5"
+          },
+          "remaining_source_mask_values": {
+            "83": "G"
+          },
+          "plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111V05X",
+          "ciphertext": "AGXXGAFFGGXFXXDDFGVAGFDVXDVDDVADVFDVXFDDXADXGXAAFXADDDGVXVDVDVVVAGGDGADGVFGGVFFVFAVG"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "6",
+            "XA": "5"
+          },
+          "remaining_source_mask_values": {
+            "83": "V"
+          },
+          "plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111405X",
+          "ciphertext": "AGXXGAFFGGXFXXDDFGVAGFDVXDVDDVADVFDVXFDDXADXGXAAFXADDDGVXVDVDVVVAGGDGADGVFGGVFFVFAVV"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "6",
+            "XA": "5"
+          },
+          "remaining_source_mask_values": {
+            "83": "X"
+          },
+          "plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111505X",
+          "ciphertext": "AGXXGAFFGGXFXXDDFGVAGFDVXDVDDVADVFDVXFDDXADXGXAAFXADDDGVXVDVDVVVAGGDGADGVFGGVFFVFAVX"
+        }
+      ]
+    },
+    {
+      "id": "p160_C1",
+      "source_slots": 309,
+      "valid_source_coordinates": 307,
+      "model_slots": 308,
+      "plaintext_positions": 154,
+      "raw_fixed_positions": 152,
+      "edited_fixed_positions": 154,
+      "source_masks": [
+        {
+          "source_index": 304,
+          "glyph": "-"
+        },
+        {
+          "source_index": 305,
+          "glyph": "-"
+        }
+      ],
+      "changes": [
+        [
+          95,
+          "G",
+          "A"
+        ],
+        [
+          189,
+          "F",
+          "G"
+        ],
+        [
+          218,
+          "A",
+          "V"
+        ],
+        [
+          301,
+          "X",
+          "V"
+        ],
+        [
+          304,
+          "?",
+          "V"
+        ],
+        [
+          305,
+          "?",
+          "X"
+        ]
+      ],
+      "cost": {
+        "known_coordinate_substitutions": 4,
+        "source_mask_fills": 2,
+        "excluded_observed_coordinates": 1,
+        "excluded_source_masks": 0
+      },
+      "numeric_word_repairs": [
+        {
+          "position": 36,
+          "raw": "9",
+          "edited": "I"
+        }
+      ],
+      "witness_count": 2,
+      "witnesses": [
+        {
+          "conditional_key_binding": {
+            "VF": "5",
+            "XA": "6"
+          },
+          "remaining_source_mask_values": {},
+          "plaintext": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+          "ciphertext": "GDDGVVVAVGXVDDDDADXFVVAXDAFVDDDGVDXFGDDDGXXFVGDXDVXFVGDDVDVVXVXXVGAVGDVGDDDDDXGDVDDGADGDGXDAXFXAGXXGVFAAXADGGAXDAXVDXAGDXDFADXDGVVDGDFGGVXDVDGXDAXXVDXVVFVAGVAVVVDXGXGVVVVGGDXVVDDXVVGXXFGVGDGXVVXXXGVXVVFDXDDVVGVVGDXGXXGVVGXFVDDVGVXXVDGDDXVXGDGGAADAADXGDVAFDXDDVDVFXXVGDXFGVAGXDVGAVFGVGDXDXGXDDVVFGVFFGVDDVXADD"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "6",
+            "XA": "5"
+          },
+          "remaining_source_mask_values": {},
+          "plaintext": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+          "ciphertext": "GDDGVVVAVGXVDDDDADXFVVAXDAFVDDDGVDXFGDDDGXXFVGDXDVXFVGDDVDVVXVXXVGAVGDVGDDDDDXGDVDDGADGDGXDAXFXAGXXGVFAAXADGGAXDAXVDXAGDXDFADXDGVVDGDFGGVXDVDGXDAXXVDXVVFVAGVAVVVDXGXGVVVVGGDXVVDDXVVGXXFGVGDGXVVXXXGVXVVFDXDDVVGVVGDXGXXGVVGXFVDDVGVXXVDGDDXVXGDGGAADAADXGDVAFDXDDVDVFXXVGDXFGVAGXDVGAVFGVGDXDXGXDDVVFGVFFGVDDVXADD"
+        }
+      ]
+    },
+    {
+      "id": "p160_C2",
+      "source_slots": 144,
+      "valid_source_coordinates": 144,
+      "model_slots": 144,
+      "plaintext_positions": 72,
+      "raw_fixed_positions": 71,
+      "edited_fixed_positions": 71,
+      "source_masks": [],
+      "changes": [],
+      "cost": {
+        "known_coordinate_substitutions": 0,
+        "source_mask_fills": 0,
+        "excluded_observed_coordinates": 0,
+        "excluded_source_masks": 0
+      },
+      "numeric_word_repairs": [],
+      "witness_count": 2,
+      "witnesses": [
+        {
+          "conditional_key_binding": {
+            "VF": "5",
+            "XA": "6"
+          },
+          "remaining_source_mask_values": {},
+          "plaintext": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49869X",
+          "ciphertext": "GGAXAGDAVGGDXGGGADXVGXVADXXAVGXXAGXXADVVDFGFVDVDDVVADDGXVVDFAAXXVVVVVXDAAXFGFVVGXFDVVDFVGXFGGAFXVAXVAXVVVVXXVDGGFADXDVGXGDFXDDVDVXDDDAGVXAXDDDFF"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "6",
+            "XA": "5"
+          },
+          "remaining_source_mask_values": {},
+          "plaintext": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49859X",
+          "ciphertext": "GGAXAGDAVGGDXGGGADXVGXVADXXAVGXXAGXXADVVDFGFVDVDDVVADDGXVVDFAAXXVVVVVXDAAXFGFVVGXFDVVDFVGXFGGAFXVAXVAXVVVVXXVDGGFADXDVGXGDFXDDVDVXDDDAGVXAXDDDFF"
+        }
+      ]
+    },
+    {
+      "id": "p160_D1",
+      "source_slots": 140,
+      "valid_source_coordinates": 135,
+      "model_slots": 140,
+      "plaintext_positions": 70,
+      "raw_fixed_positions": 62,
+      "edited_fixed_positions": 67,
+      "source_masks": [
+        {
+          "source_index": 96,
+          "glyph": "-"
+        },
+        {
+          "source_index": 97,
+          "glyph": "-"
+        },
+        {
+          "source_index": 105,
+          "glyph": "-"
+        },
+        {
+          "source_index": 107,
+          "glyph": "-"
+        },
+        {
+          "source_index": 108,
+          "glyph": "-"
+        }
+      ],
+      "changes": [
+        [
+          37,
+          "G",
+          "F"
+        ],
+        [
+          96,
+          "?",
+          "F"
+        ],
+        [
+          97,
+          "?",
+          "D"
+        ],
+        [
+          105,
+          "?",
+          "G"
+        ],
+        [
+          106,
+          "G",
+          "D"
+        ],
+        [
+          107,
+          "?",
+          "A"
+        ],
+        [
+          108,
+          "?",
+          "D"
+        ]
+      ],
+      "cost": {
+        "known_coordinate_substitutions": 2,
+        "source_mask_fills": 5,
+        "excluded_observed_coordinates": 0,
+        "excluded_source_masks": 0
+      },
+      "numeric_word_repairs": [
+        {
+          "position": 13,
+          "raw": "2",
+          "edited": "L"
+        }
+      ],
+      "witness_count": 2,
+      "witnesses": [
+        {
+          "conditional_key_binding": {
+            "VF": "5",
+            "XA": "6"
+          },
+          "remaining_source_mask_values": {},
+          "plaintext": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR541XAUFTELEGRAMMNRX686XTSCHENKE",
+          "ciphertext": "DGDXVXGFDAXDVXGVXXXXVVFDFVAVGDDXDFXAXFVVDXFGGDFAVGDVDAAFDGFVGADXGDDDAGDVVGVDVADXGAGAXXXVVDVVGGVVFDXXXVGDVGDADXADDVFGVVGGVVGXGXDAFVDFDVGXADXV"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "6",
+            "XA": "5"
+          },
+          "remaining_source_mask_values": {},
+          "plaintext": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR641XAUFTELEGRAMMNRX585XTSCHENKE",
+          "ciphertext": "DGDXVXGFDAXDVXGVXXXXVVFDFVAVGDDXDFXAXFVVDXFGGDFAVGDVDAAFDGFVGADXGDDDAGDVVGVDVADXGAGAXXXVVDVVGGVVFDXXXVGDVGDADXADDVFGVVGGVVGXGXDAFVDFDVGXADXV"
+        }
+      ]
+    },
+    {
+      "id": "p161_A2",
+      "source_slots": 128,
+      "valid_source_coordinates": 126,
+      "model_slots": 128,
+      "plaintext_positions": 64,
+      "raw_fixed_positions": 62,
+      "edited_fixed_positions": 64,
+      "source_masks": [
+        {
+          "source_index": 79,
+          "glyph": "C"
+        },
+        {
+          "source_index": 119,
+          "glyph": "C"
+        }
+      ],
+      "changes": [
+        [
+          79,
+          "?",
+          "G"
+        ],
+        [
+          119,
+          "?",
+          "G"
+        ]
+      ],
+      "cost": {
+        "known_coordinate_substitutions": 0,
+        "source_mask_fills": 2,
+        "excluded_observed_coordinates": 0,
+        "excluded_source_masks": 0
+      },
+      "numeric_word_repairs": [],
+      "witness_count": 2,
+      "witnesses": [
+        {
+          "conditional_key_binding": {
+            "VF": "5",
+            "XA": "6"
+          },
+          "remaining_source_mask_values": {},
+          "plaintext": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM",
+          "ciphertext": "VAFDFVADVXVDXGDVGDAXXVVGXXXXGXXFDAXAXDGGDDFXAAGGXDGAGXGFADVDDXGVVDXVDGFDVDFGFVVGXDDVGVXDXFGVDXDVVGDXDVFAVVDXDGVVVGVFXAXGXDGXDDGV"
+        },
+        {
+          "conditional_key_binding": {
+            "VF": "6",
+            "XA": "5"
+          },
+          "remaining_source_mask_values": {},
+          "plaintext": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM",
+          "ciphertext": "VAFDFVADVXVDXGDVGDAXXVVGXXXXGXXFDAXAXDGGDDFXAAGGXDGAGXGFADVDDXGVVDXVDGFDVDFGFVVGXDDVGVXDXFGVDXDVVGDXDVFAVVDXDGVVVGVFXAXGXDGXDDGV"
+        }
+      ]
+    }
+  ],
+  "fixed_template_exclusion_audits": [
+    {
+      "source_id": "p160_A2",
+      "completed_exclusion_sets": 28680,
+      "observed_substitution_histogram": {
+        "4": 1,
+        "5": 4,
+        "6": 9,
+        "7": 14,
+        "8": 19,
+        "9": 24,
+        "10": 29,
+        "11": 26,
+        "12": 34,
+        "13": 34,
+        "14": 40,
+        "15": 49,
+        "16": 56,
+        "17": 60,
+        "18": 69,
+        "19": 84,
+        "20": 95,
+        "21": 90,
+        "22": 78,
+        "23": 68,
+        "24": 70,
+        "25": 68,
+        "26": 63,
+        "27": 63,
+        "28": 68,
+        "29": 64,
+        "30": 64,
+        "31": 65,
+        "32": 66,
+        "33": 77,
+        "34": 69,
+        "35": 70,
+        "36": 80,
+        "37": 76,
+        "38": 73,
+        "39": 81,
+        "40": 75,
+        "41": 70,
+        "42": 69,
+        "43": 70,
+        "44": 69,
+        "45": 71,
+        "46": 72,
+        "47": 71,
+        "48": 73,
+        "49": 74,
+        "50": 73,
+        "51": 75,
+        "52": 76,
+        "53": 77,
+        "54": 78,
+        "55": 80,
+        "56": 82,
+        "57": 84,
+        "58": 86,
+        "59": 91,
+        "60": 96,
+        "61": 111,
+        "62": 109,
+        "63": 112,
+        "64": 116,
+        "65": 113,
+        "66": 110,
+        "67": 98,
+        "68": 100,
+        "69": 101,
+        "70": 103,
+        "71": 109,
+        "72": 118,
+        "73": 133,
+        "74": 128,
+        "75": 122,
+        "76": 117,
+        "77": 128,
+        "78": 139,
+        "79": 133,
+        "80": 139,
+        "81": 134,
+        "82": 143,
+        "83": 137,
+        "84": 132,
+        "85": 119,
+        "86": 122,
+        "87": 124,
+        "88": 125,
+        "89": 125,
+        "90": 127,
+        "91": 135,
+        "92": 131,
+        "93": 142,
+        "94": 152,
+        "95": 156,
+        "96": 154,
+        "97": 158,
+        "98": 159,
+        "99": 166,
+        "100": 191,
+        "101": 198,
+        "102": 237,
+        "103": 276,
+        "104": 292,
+        "105": 277,
+        "106": 251,
+        "107": 204,
+        "108": 193,
+        "109": 201,
+        "110": 233,
+        "111": 247,
+        "112": 238,
+        "113": 254,
+        "114": 237,
+        "115": 236,
+        "116": 244,
+        "117": 227,
+        "118": 226,
+        "119": 230,
+        "120": 230,
+        "121": 244,
+        "122": 246,
+        "123": 253,
+        "124": 267,
+        "125": 262,
+        "126": 279,
+        "127": 276,
+        "128": 254,
+        "129": 236,
+        "130": 215,
+        "131": 196,
+        "132": 208,
+        "133": 236,
+        "134": 259,
+        "135": 310,
+        "136": 343,
+        "137": 384,
+        "138": 388,
+        "139": 379,
+        "140": 338,
+        "141": 306,
+        "142": 272,
+        "143": 261,
+        "144": 245,
+        "145": 251,
+        "146": 249,
+        "147": 248,
+        "148": 252,
+        "149": 252,
+        "150": 248,
+        "151": 231,
+        "152": 225,
+        "153": 212,
+        "154": 215,
+        "155": 217,
+        "156": 220,
+        "157": 224,
+        "158": 234,
+        "159": 238,
+        "160": 259,
+        "161": 266,
+        "162": 265,
+        "163": 254,
+        "164": 264,
+        "165": 266,
+        "166": 292,
+        "167": 333,
+        "168": 340,
+        "169": 337,
+        "170": 323,
+        "171": 308,
+        "172": 271,
+        "173": 274,
+        "174": 255,
+        "175": 232,
+        "176": 175,
+        "177": 120,
+        "178": 61,
+        "179": 35,
+        "180": 13,
+        "181": 12,
+        "182": 9,
+        "183": 8,
+        "184": 8,
+        "185": 7,
+        "186": 4,
+        "187": 2
+      },
+      "minimum_observed_substitutions": 4,
+      "minimum_substitution_indices": [
+        [
+          19,
+          26
+        ]
+      ],
+      "minimum_combined_observed_operations": 6,
+      "minimum_combined_indices": [
+        [
+          19,
+          26
+        ]
+      ],
+      "template_question_marks_are_wildcards": true
+    },
+    {
+      "source_id": "p160_C1",
+      "completed_exclusion_sets": 309,
+      "observed_substitution_histogram": {
+        "4": 1,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2,
+        "10": 2,
+        "11": 2,
+        "12": 2,
+        "13": 2,
+        "14": 3,
+        "15": 3,
+        "16": 2,
+        "17": 2,
+        "18": 2,
+        "19": 3,
+        "20": 3,
+        "21": 4,
+        "22": 4,
+        "23": 3,
+        "24": 1,
+        "25": 1,
+        "26": 2,
+        "27": 1,
+        "28": 1,
+        "29": 1,
+        "30": 1,
+        "31": 1,
+        "32": 1,
+        "33": 1,
+        "34": 1,
+        "35": 1,
+        "36": 2,
+        "37": 1,
+        "38": 2,
+        "39": 2,
+        "40": 1,
+        "41": 1,
+        "42": 1,
+        "43": 1,
+        "44": 1,
+        "45": 2,
+        "46": 1,
+        "47": 1,
+        "48": 1,
+        "49": 2,
+        "50": 1,
+        "51": 1,
+        "52": 1,
+        "53": 2,
+        "54": 1,
+        "55": 1,
+        "56": 1,
+        "57": 2,
+        "58": 2,
+        "59": 2,
+        "60": 1,
+        "61": 1,
+        "62": 1,
+        "63": 1,
+        "64": 2,
+        "65": 1,
+        "66": 2,
+        "67": 2,
+        "68": 1,
+        "69": 1,
+        "70": 1,
+        "71": 2,
+        "72": 1,
+        "73": 1,
+        "74": 1,
+        "75": 3,
+        "76": 2,
+        "77": 2,
+        "78": 1,
+        "79": 1,
+        "80": 1,
+        "81": 1,
+        "82": 1,
+        "83": 2,
+        "84": 1,
+        "85": 2,
+        "86": 1,
+        "87": 2,
+        "88": 2,
+        "89": 1,
+        "90": 1,
+        "91": 2,
+        "92": 4,
+        "93": 1,
+        "94": 1,
+        "95": 1,
+        "96": 1,
+        "97": 1,
+        "98": 3,
+        "99": 1,
+        "100": 1,
+        "101": 1,
+        "102": 1,
+        "103": 1,
+        "104": 1,
+        "105": 2,
+        "106": 1,
+        "107": 1,
+        "108": 1,
+        "109": 2,
+        "110": 1,
+        "111": 1,
+        "112": 1,
+        "113": 1,
+        "114": 1,
+        "115": 1,
+        "116": 1,
+        "117": 1,
+        "118": 1,
+        "119": 2,
+        "120": 1,
+        "121": 1,
+        "122": 1,
+        "123": 1,
+        "124": 2,
+        "125": 1,
+        "126": 1,
+        "127": 1,
+        "128": 1,
+        "129": 1,
+        "130": 1,
+        "131": 1,
+        "132": 1,
+        "133": 1,
+        "134": 1,
+        "135": 1,
+        "136": 1,
+        "137": 1,
+        "138": 1,
+        "139": 1,
+        "140": 1,
+        "141": 1,
+        "142": 1,
+        "143": 1,
+        "144": 2,
+        "145": 1,
+        "146": 1,
+        "147": 1,
+        "148": 2,
+        "149": 1,
+        "150": 1,
+        "151": 1,
+        "152": 2,
+        "153": 2,
+        "154": 1,
+        "155": 1,
+        "156": 1,
+        "157": 1,
+        "158": 1,
+        "159": 1,
+        "160": 1,
+        "161": 1,
+        "162": 1,
+        "163": 1,
+        "164": 1,
+        "165": 1,
+        "166": 2,
+        "167": 1,
+        "168": 1,
+        "169": 1,
+        "170": 1,
+        "171": 5,
+        "172": 1,
+        "173": 1,
+        "174": 1,
+        "175": 1,
+        "176": 1,
+        "177": 1,
+        "178": 1,
+        "179": 1,
+        "180": 2,
+        "181": 1,
+        "182": 1,
+        "183": 2,
+        "184": 1,
+        "185": 1,
+        "186": 2,
+        "187": 1,
+        "188": 1,
+        "189": 1,
+        "190": 1,
+        "191": 1,
+        "192": 1,
+        "193": 1,
+        "194": 1,
+        "195": 1,
+        "196": 1,
+        "197": 1,
+        "198": 2,
+        "199": 1,
+        "200": 3,
+        "201": 1,
+        "202": 1,
+        "203": 1,
+        "204": 1,
+        "205": 1,
+        "206": 1,
+        "207": 3,
+        "208": 1,
+        "209": 1,
+        "210": 1,
+        "211": 1,
+        "212": 1,
+        "213": 1,
+        "214": 2,
+        "215": 1,
+        "216": 1,
+        "217": 1,
+        "218": 1,
+        "219": 4,
+        "220": 1,
+        "221": 1,
+        "222": 1,
+        "223": 1,
+        "224": 1,
+        "225": 3,
+        "226": 1,
+        "227": 2,
+        "228": 1
+      },
+      "minimum_observed_substitutions": 4,
+      "minimum_substitution_indices": [
+        [
+          281
+        ]
+      ],
+      "minimum_combined_observed_operations": 5,
+      "minimum_combined_indices": [
+        [
+          281
+        ]
+      ],
+      "template_question_marks_are_wildcards": true
+    }
+  ],
+  "global_coupled_completion_count": 12,
+  "global_coupled_completions": [
+    {
+      "global_binding": {
+        "VF": "5",
+        "XA": "6"
+      },
+      "source_83_fill": "A",
+      "record_plaintexts": {
+        "p160_A2": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND5XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+        "p160_B1": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21500FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+        "p160_B2": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111P06X",
+        "p160_C1": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+        "p160_C2": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49869X",
+        "p160_D1": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR541XAUFTELEGRAMMNRX686XTSCHENKE",
+        "p161_A2": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM"
+      }
+    },
+    {
+      "global_binding": {
+        "VF": "5",
+        "XA": "6"
+      },
+      "source_83_fill": "D",
+      "record_plaintexts": {
+        "p160_A2": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND5XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+        "p160_B1": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21500FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+        "p160_B2": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111306X",
+        "p160_C1": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+        "p160_C2": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49869X",
+        "p160_D1": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR541XAUFTELEGRAMMNRX686XTSCHENKE",
+        "p161_A2": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM"
+      }
+    },
+    {
+      "global_binding": {
+        "VF": "5",
+        "XA": "6"
+      },
+      "source_83_fill": "F",
+      "record_plaintexts": {
+        "p160_A2": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND5XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+        "p160_B1": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21500FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+        "p160_B2": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111806X",
+        "p160_C1": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+        "p160_C2": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49869X",
+        "p160_D1": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR541XAUFTELEGRAMMNRX686XTSCHENKE",
+        "p161_A2": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM"
+      }
+    },
+    {
+      "global_binding": {
+        "VF": "5",
+        "XA": "6"
+      },
+      "source_83_fill": "G",
+      "record_plaintexts": {
+        "p160_A2": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND5XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+        "p160_B1": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21500FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+        "p160_B2": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111V06X",
+        "p160_C1": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+        "p160_C2": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49869X",
+        "p160_D1": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR541XAUFTELEGRAMMNRX686XTSCHENKE",
+        "p161_A2": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM"
+      }
+    },
+    {
+      "global_binding": {
+        "VF": "5",
+        "XA": "6"
+      },
+      "source_83_fill": "V",
+      "record_plaintexts": {
+        "p160_A2": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND5XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+        "p160_B1": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21500FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+        "p160_B2": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111406X",
+        "p160_C1": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+        "p160_C2": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49869X",
+        "p160_D1": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR541XAUFTELEGRAMMNRX686XTSCHENKE",
+        "p161_A2": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM"
+      }
+    },
+    {
+      "global_binding": {
+        "VF": "5",
+        "XA": "6"
+      },
+      "source_83_fill": "X",
+      "record_plaintexts": {
+        "p160_A2": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND5XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+        "p160_B1": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21500FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+        "p160_B2": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111606X",
+        "p160_C1": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+        "p160_C2": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49869X",
+        "p160_D1": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR541XAUFTELEGRAMMNRX686XTSCHENKE",
+        "p161_A2": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM"
+      }
+    },
+    {
+      "global_binding": {
+        "VF": "6",
+        "XA": "5"
+      },
+      "source_83_fill": "A",
+      "record_plaintexts": {
+        "p160_A2": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND6XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+        "p160_B1": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21600FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+        "p160_B2": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111P05X",
+        "p160_C1": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+        "p160_C2": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49859X",
+        "p160_D1": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR641XAUFTELEGRAMMNRX585XTSCHENKE",
+        "p161_A2": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM"
+      }
+    },
+    {
+      "global_binding": {
+        "VF": "6",
+        "XA": "5"
+      },
+      "source_83_fill": "D",
+      "record_plaintexts": {
+        "p160_A2": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND6XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+        "p160_B1": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21600FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+        "p160_B2": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111305X",
+        "p160_C1": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+        "p160_C2": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49859X",
+        "p160_D1": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR641XAUFTELEGRAMMNRX585XTSCHENKE",
+        "p161_A2": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM"
+      }
+    },
+    {
+      "global_binding": {
+        "VF": "6",
+        "XA": "5"
+      },
+      "source_83_fill": "F",
+      "record_plaintexts": {
+        "p160_A2": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND6XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+        "p160_B1": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21600FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+        "p160_B2": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111805X",
+        "p160_C1": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+        "p160_C2": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49859X",
+        "p160_D1": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR641XAUFTELEGRAMMNRX585XTSCHENKE",
+        "p161_A2": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM"
+      }
+    },
+    {
+      "global_binding": {
+        "VF": "6",
+        "XA": "5"
+      },
+      "source_83_fill": "G",
+      "record_plaintexts": {
+        "p160_A2": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND6XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+        "p160_B1": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21600FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+        "p160_B2": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111V05X",
+        "p160_C1": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+        "p160_C2": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49859X",
+        "p160_D1": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR641XAUFTELEGRAMMNRX585XTSCHENKE",
+        "p161_A2": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM"
+      }
+    },
+    {
+      "global_binding": {
+        "VF": "6",
+        "XA": "5"
+      },
+      "source_83_fill": "V",
+      "record_plaintexts": {
+        "p160_A2": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND6XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+        "p160_B1": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21600FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+        "p160_B2": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111405X",
+        "p160_C1": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+        "p160_C2": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49859X",
+        "p160_D1": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR641XAUFTELEGRAMMNRX585XTSCHENKE",
+        "p161_A2": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM"
+      }
+    },
+    {
+      "global_binding": {
+        "VF": "6",
+        "XA": "5"
+      },
+      "source_83_fill": "X",
+      "record_plaintexts": {
+        "p160_A2": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND6XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+        "p160_B1": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21600FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+        "p160_B2": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111505X",
+        "p160_C1": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER",
+        "p160_C2": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49859X",
+        "p160_D1": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR641XAUFTELEGRAMMNRX585XTSCHENKE",
+        "p161_A2": "LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM"
+      }
+    }
+  ],
+  "limits": [
+    "The observed-coordinate exclusions are separate from substitutions and source-mask fills.",
+    "The full exclusion scans use supplied templates with wildcard question marks; minima do not prove historical plaintext or geometry.",
+    "VF and XA receive complementary 5/6 labels once for the entire corpus. There are 12 global binding-and-fill possibilities, not independent digit choices at each question mark.",
+    "B2 source 83 remains unresolved. Its allowed plaintext labels include letters as well as digits; no numeric formatting assumption is imposed.",
+    "WERGCHEEZ, NAGYBESKEREK, 380L, 170M, TSCHENKE, LI, AWALOFF and STUMM remain literal under the parent edition."
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "schema": "adfgvx-p107-railway-and-dragoman-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov1-3",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      3,
+      16,
+      4,
+      15,
+      7,
+      12,
+      18,
+      6,
+      17,
+      8,
+      19,
+      1,
+      13,
+      10,
+      2,
+      14,
+      11,
+      9,
+      5
+    ],
+    "column_count": 19,
+    "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+    "square_rows": [
+      "UILOF9",
+      "RCZVSX",
+      "02G7QT",
+      "D8WNB5",
+      "JMHEKP",
+      "Y41A36"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 239,
+        "pdf_page_1based": 242,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p107_B.png",
+      "printed_page": 107,
+      "pdf_page_1based": 110,
+      "crop_pdf_points": [
+        45,
+        348,
+        516,
+        496
+      ],
+      "render_scale": 5,
+      "sha256": "eee1a5d213f0316f8e8f2c1fd224c20ba429daf1f54cf1670a8e8276af750022"
+    },
+    {
+      "path": "sources/p107_C.png",
+      "printed_page": 107,
+      "pdf_page_1based": 110,
+      "crop_pdf_points": [
+        47,
+        504,
+        516,
+        650
+      ],
+      "render_scale": 4,
+      "sha256": "9b6739e62bfa1db543180d0dbdea8c263f5d8aa9c347b1019b0dd7a66201d58a"
+    },
+    {
+      "path": "sources/p107_C_VDVGV.png",
+      "printed_page": 107,
+      "pdf_page_1based": 110,
+      "crop_pdf_points": [
+        240,
+        574,
+        273,
+        592
+      ],
+      "render_scale": 12,
+      "sha256": "c4161ab2053421436d64a6ef0f39580aa4eb530c41aba8cc970e9bffa7b927ca"
+    }
+  ],
+  "records": [
+    {
+      "id": "p107_B1",
+      "printed_page": 107,
+      "source_section": "B1",
+      "source_rows": [
+        "VAVFV GFDXV AAXAX FDVXG XXDDD VAAFV DGADG FGVXA",
+        "FXGDG FDXGF AXDGA GFDXX AGXXD XXXGF GXXDF FXVGD",
+        "XDGFA DGXDF AXDFV GFDVV GDDXG DFVAA XFFGV DDFVD",
+        "XXVXA FDGGD VAFGX FDGVD VDGDG DVGFV DGDGF GXDXG",
+        "FDGD"
+      ],
+      "source_slots": 164,
+      "advertised_length": 164,
+      "expected_raw": "EISMNBAHNTRANB6ORTABTLGXSXOXPFESSXGXHX1XQXXBEILINIEN1DTXGXLAZXZUGX42XVONXCHEMNITZX",
+      "readable_candidate": "EISENBAHNTRANSPORTABTLGXSXOXPFESSXGXHX1XQXXBEILINIENKDTXGXLAZXZUGX42XVONXCHEMNITZX"
+    },
+    {
+      "id": "p107_B2",
+      "printed_page": 107,
+      "source_section": "B2",
+      "source_rows": [
+        "ADGDX FDGDV VDGDG FDFXX VDDFX AAGXX DFAVF DGFG-",
+        "XFVXX GGVDG GVFDX DGFXG AGVFX XGVXF XGVXA XVAVG",
+        "GGGVX DFDVA XXDDD FXADG DGGFA FXGDX"
+      ],
+      "source_slots": 110,
+      "advertised_length": 110,
+      "expected_raw": "WAZXZUGX34XNACHXVERBETZXA5ROLIENLASSENXX?BAXAEK11X10502",
+      "readable_candidate": "LAZXZUGX34XNACHXVERBETZXABROLLENLASSENXX?BAXAEK11X10502"
+    },
+    {
+      "id": "p107_C",
+      "printed_page": 107,
+      "source_section": "C",
+      "source_rows": [
+        "DVFDF XVXVG AVGGD AFXXD DVVGG FDGAG DGGDV DFGGD",
+        "VGDAG XXGFF VGDXX VGGVD VDFAG AFVXX FDDDV GAGGG",
+        "DGAFV FVVXX FXGDG AADGG GAXXF GVVAD VADXG XGGXA",
+        "VADAV XXFGD VDVGV VGAVG DADVD VDXVX VGVAX GVADD",
+        "VAFAD AAGVG VGAXV VVGVF DGFFA DVXVA AAAAX DDDFD",
+        "XFVAD ADAAG GXGAG GGGVV DGXDA GVGFV DAGFF DXGGG",
+        "XVDAG GVDVF VDAXG FGGVF ADXXF DADGA GFXFX FGGDF",
+        "DAAVV GVXFD VXDFA AAAXD DVAAX GAADG DVVGX ADVVA",
+        "VGFVG GDVAG VFAGF FDVAG AAVFA AGX"
+      ],
+      "source_slots": 348,
+      "advertised_length": 348,
+      "expected_raw": "GEHEIMRATENDERHEIDENBRAILAXXISTRUECKKEHRDRAGOMANSXSCHAEFERXDESSENURLAUBBALDABLAEUFTSO9ERNUEBERHAUPTAUSFUEHRBARJETZTERWUENSCHTUNDZWECKMAESSIGDRAHTBERIC1TXXAUSWAERTCGESXA2TX1XB",
+      "readable_candidate": "GEHEIMRATENDERHEIDENBRAILAXXISTRUECKKEHRDRAGOMANSXSCHAEFERXDESSENURLAUBBALDABLAEUFTSOFERNUEBERHAUPTAUSFUEHRBARJETZTERWUENSCHTUNDZWECKMAESSIGDRAHTBERICHTXXAUSWAERTIGESXAMTX1XB"
+    }
+  ],
+  "headers": {
+    "p107_B": [
+      "UKS v ZÖN (4.48 a.m., November 3rd)",
+      "VEVE 1905 (2) AN LP 2 TLE",
+      "1 TL RICHI-164",
+      "2 TL RICHI-110"
+    ],
+    "p107_C": [
+      "UKS v LP (3.04 a.m., November 3rd)",
+      "SS 2025 (2/11)",
+      "RICHI-348"
+    ]
+  },
+  "source_notes": [
+    {
+      "record": "p107_C",
+      "source_index": 133,
+      "transcription": "G",
+      "explanation": "The detail crop confirms VDVGV, with a visible inner stroke on G. A preliminary small-scale C reading was rejected before publication; no erasure or fill is introduced."
+    },
+    {
+      "record": "p107_B2",
+      "source_index": 39,
+      "transcription": "-",
+      "explanation": "A printed dash occupies the fifth slot of DGFG-. It remains masked, with no fill."
+    }
+  ],
+  "ocr_snapshot": {
+    "path": "ocr_snapshot.json",
+    "sha256": "6f7de66f094af5714013616b8ccfb22054451e8bba87112ca29d5863ced56fda"
+  },
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "e61aa2613b20b5586c6c6369432e5ec6c92f115390f411155b6faf2cb845bdc4",
+    "key_credit": "Unchanged published Nov1–3 key with original provenance."
+  },
+  "limits": [
+    "Only B1/B2 are joined by the explicit two-part header. C is a separate inquiry about a dragoman whose leave is ending.",
+    "The native 164, 110, 348 source lengths all match. Restoring B1 final FDGD corrects the earlier OCR, not the historical source.",
+    "All 12 proposed known-coordinate substitutions are local. No erasure fill, source insertion/deletion or global key/numeral assignment is used.",
+    "PFESS, G H1 Q, VERBETZ and the ?BA AEK11 closing are retained; no place, office or opaque reference is forced into a familiar spelling.",
+    "C retains the exact address sequence GEHEIMRATENDERHEIDENBRAILA and the spelling SCHAEFER. No independent personal identity or surname normalization is claimed.",
+    "The conditional wording SOFERN UEBERHAUPT AUSFUEHRBAR and the question about whether return is desired are retained. No completed return or train movement is asserted.",
+    "The printed dash at B2 source 39 gives plaintext position 40 domain 3BFKQS and remains unknown; all six exact completions are retained as witnesses, not historical solutions.",
+    "Previously cataloged p107 D and the separate RIZI p107 A are excluded from the proposal and counts.",
+    "Earlier body candidates, unread OCR frames and published key provenance are retained. Exact re-encryption certifies compatibility, not historical uniqueness."
+  ]
+}

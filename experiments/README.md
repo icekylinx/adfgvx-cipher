@@ -13,6 +13,14 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Chemnitz railway traffic and Schaefer inquiry](p107_railway_and_dragoman/README.md) | Three native records; 311 positions | Source-visible FDGD restores an OCR-truncated row; 12 word repairs are priced, while the final dash, opaque references and feasibility question stay explicit. |
+| [Naval arrival inquiry and Rudolf discharge](p108_naval_and_personnel/README.md) | Three records; 274 modeled positions | Visible FX restores the native naval frame; the separate personnel continuation retains five short-group geometries and an unresolved reference. |
+| [November 8 radio-key instructions, prices and reports](nov8_radio_keys_and_reports/README.md) | Seven records; 662 modeled positions | All 28,680 double exclusions and 309 single exclusions priced; both coupled 5/6 assignments retained; seven exact readable mappings. |
+| [Black Sea evacuation routes](black_sea_evacuation_routes/README.md) | Four new records; 707 modeled positions | Source-declared 100-coordinate loss; 31 missing coordinates remain unfilled; existing Ayush part2 stays outside new counts. |
+| [Caucasus radio transmitters](caucasus_radio_transmitters/README.md) | Two native records; 153 positions | All 16 handwritten-annotation combinations retained; malformed A1 wording is not silently normalized. |
+| [November 1 contact, mail and Sava reports](nov1_contact_mail_and_sava/README.md) | Five records; 322 modeled positions | Conditional odd-source completion has two tied insertion origins; WIEDER is an additional priced hypothesis. |
+| [Stop premium payments](premium_payment_stop/README.md) | Two native records; 205 fixed positions | Zero edits; aus Landesmitteln retains the complete literal letter stream and the source date fields. |
+| [Tiflis repetition request](tiflis_repetition_request/README.md) | One native record; 157 fixed positions | Two word repairs; abbreviated address, reference numerals and distinct date fields remain literal. |
 | [November 3 evening-report copies and November 4 notices](nov3_evening_and_nov4_radio/README.md) | Seven records; 635 modeled positions | Seventeen copy-supported erased coordinates; two copy conflicts, lower-cost FAHRZEUG alternative, and 161,025 C parameters / 155,400 distinct layouts retained. |
 | [Poti horse delivery](poti_horse_delivery/README.md) | Two native records; 225 positions | Opaque suffix and twelve source dashes remain; expensive contextual completion stays outside primary counts; A1 remains unread. |
 | [Dunst assignment cancellation](dunst_assignment/README.md) | Two records; 373 positions | A source-prefixed dash is separately excluded; observed-D deletion alternative and native grammatical anomalies remain explicit. |

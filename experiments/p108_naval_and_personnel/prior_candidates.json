@@ -1,0 +1,110 @@
+{
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "earlier_repository_screens": [
+    {
+      "cache_name": "cross_key_plaintexts.json",
+      "sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "relevant_rows": [
+        {
+          "block": "p108_ocr_block1",
+          "key": "Nov22-24",
+          "score": -9.402234199351835,
+          "plaintext": "BCXF34X06CM2813Y06BJG8H2948544JGVOX17HN92C9T1UN4WXNN47IX1ABIKHL7LWOBYID8T603TRC4SHORWE2SWS8GDD229OIWFMV5YOBTY2KMB7GEI5DSU1L6A?4ORMAIJ9PKFXKI",
+          "known_quadgrams": 133,
+          "ciphertext": "FFXVVDGVGXG?GXVDDDFDFVFVFXGDDDDADFGVGVAGVDVXDAVVGVFXXDGADVFAAAFAVXXAXFVVFXDFGVXGXGFAFAADDDXAAFXXGFFDAVXVVDVVDDAVDDGDDXXGFGAVDXGFDADFDDGVAXFGVFFXXFFXXXXXDFDAAGGVAFXFDAXGXAXFDXVFGXDAGFXVGFGDXFFDXAAVXFDDGVGGVXXFDGGVDDGAFDDGDGVAXVGAXDGGGAGFAXFDXAGDGAVVFAXDXFGGDVDAVXVGDFVXXDXDAADGAGVV",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "(Employed vetween Berlin and the Black Sea Area)",
+            "2nd NOVEMBER, 1918.",
+            "A) OSM v LP (1.00 p.m., Sovemoer 3rd) |",
+            "1900 (2/11) SONDERKOMMANDO IN DER TUERKEL"
+          ]
+        },
+        {
+          "block": "p108_ocr_block1",
+          "key": "Worked-example-VIKINGSCROWNHOTEL",
+          "score": -9.440929031013546,
+          "plaintext": "MVC1OO5AUNTLH1ZJ5GP05DFXIDEVA0GHT8RFYRDQBEDFCK3HV7W8FB3FPOYJYYJMQ28HA7HJYK8OQH94UW4OBJ9ZX37GIH0ZR?XWKSGOWBAGWSNA14YKWJSZ1YY3FMVEA5ASEGES1SYA",
+          "known_quadgrams": 133,
+          "ciphertext": "FFXVVDGVGXG?GXVDDDFDFVFVFXGDDDDADFGVGVAGVDVXDAVVGVFXXDGADVFAAAFAVXXAXFVVFXDFGVXGXGFAFAADDDXAAFXXGFFDAVXVVDVVDDAVDDGDDXXGFGAVDXGFDADFDDGVAXFGVFFXXFFXXXXXDFDAAGGVAFXFDAXGXAXFDXVFGXDAGFXVGFGDXFFDXAAVXFDDGVGGVXXFDGGVDDGAFDDGDGVAXVGAXDGGGAGFAXFDXAGDGAVVFAXDXFGGDVDAVXVGDFVXXDXDAADGAGVV",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "(Employed vetween Berlin and the Black Sea Area)",
+            "2nd NOVEMBER, 1918.",
+            "A) OSM v LP (1.00 p.m., Sovemoer 3rd) |",
+            "1900 (2/11) SONDERKOMMANDO IN DER TUERKEL"
+          ]
+        }
+      ]
+    },
+    {
+      "cache_name": "cross_key_merged_plaintexts.json",
+      "sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "relevant_rows": [
+        {
+          "block": "p108_ocr_block2+p108_ocr_block3",
+          "key": "Nov1-3",
+          "score": -4.935837968703239,
+          "plaintext": "MILITAERMISSXBITTEGEFRXRUDOLFRUDOLFZUGETDERDEUTSCHBOTSCHSOFORTAUS",
+          "known_quadgrams": 62,
+          "ciphertext": "GFAAADGDXAFADDVDVVVVAAVAAFDAAFAFDVDGXAGAAAVDAGFAXAAAAFXDFFFXDGFADGDAVGAAFFFDAGAGGVXGVVVAAVGAAVVDDVAXVVDDGDGDGFVDGDGFAXDAVVDXDAFGXX",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "B) OSM v LP (9.25 p.m., November 2nd) |",
+            "1710 (2/11) 23 TEILE",
+            "B) OSM v LP (9.25 p.m., November 2nd) |",
+            "1710 (2/11) 23 TEILE"
+          ]
+        },
+        {
+          "block": "p108_ocr_block4+p108_ocr_block5",
+          "key": "Nov1-3",
+          "score": -4.788445120952169,
+          "plaintext": "MILIYAERDIENSTENTLASSENDEUTSCHEBOTSCHBENACHRNACHRICHXNACH?HEF2BO522X",
+          "known_quadgrams": 61,
+          "ciphertext": "GGGDAGVDXFDXGGVDDDVF?DAGDFGAVXAGDVVFFDFGADVVAGVGXDVAVAFFDDAXVGDVDGFADGXGGFDFDDFFDGGGDGVGAVGGAAAXVGDXDGVVGAFDVVVGDDDXXGGVFFAVGVDDAXGVXDXG",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 5,
+              "ocr_group": "DAGD",
+              "layout_hypothesis": "?DAGD",
+              "method": "left"
+            },
+            {
+              "group": 24,
+              "ocr_group": "FXXGGV",
+              "layout_hypothesis": "XXGGV",
+              "method": "left"
+            }
+          ],
+          "header": []
+        }
+      ]
+    }
+  ],
+  "bounded_prior_body_checks": [
+    {
+      "kind": "Lasry et al. 2016 author-paper text",
+      "sha256": "e1fb17031286ee6244b0d36f31197cb5e497d2cbe6fa884e74fc12cab3a9918b",
+      "pattern": "Rudolf|Sonderkommando|1121|Seekriegs|discharg",
+      "matches": []
+    },
+    {
+      "kind": "Lasry thesis text",
+      "sha256": "7d45f384650f95bac1e6310715a985c66f4ab5c31e3bcc70ca8f108a7e989117",
+      "pattern": "Rudolf|Sonderkommando|1121|Seekriegs|discharg",
+      "matches": []
+    },
+    {
+      "kind": "55-comment 2017 discussion snapshot",
+      "sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "pattern": "Rudolf|Sonderkommando|1121|Seekriegs|discharg",
+      "matches": []
+    }
+  ],
+  "limit": "The two personnel bodies were already present in unreviewed repository candidates. The earlier p108 A candidate used an OCR-shortened 280-coordinate frame and was not readable. This source edition makes no historical first-solution claim; absence from a bounded keyword search is not proof of priority."
+}

@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**167 reviewed physical records across 50 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**175 reviewed physical records across 54 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -13,10 +13,13 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p79 — medical formations lost in Palestine and their dissolution](palestine_medical_dissolution.md) | p79 A1, p79 A2 |
 | [p83 B — dissolution of formations and return of personnel](formation_dissolution.md) | p83 B |
 | [Inventory query for German MG08 machine guns](mg08_inventory.md) | p86 A |
+| [Black Sea evacuation routes, the Braila prohibition and onward rail movement](black_sea_evacuation_routes.md) | p88 C1, p89 A3, p89 A4, p90 A5 |
 | [Turkish armistice report: stop supply shipments and send evacuation ships](turkish_armistice_shipping_order.md) | p90 B1, p91 A2, p91 A3 |
 | [Orient intelligence: expected landings and fighting on the Tigris](orient_intelligence.md) | p92 B1, p93 A2, p93 A3, p93 A4, p94 A5, p94 A6 |
 | [p98 — disembarkation at Odessa and a repeated shipping instruction](black_sea_disembarkation.md) | p98 A1, p98 A2, p98 B |
+| [Evening report on crossing the Sava](sava_crossing_evening_report.md) | p99 B1 |
 | [Bridges and the wire connection through Budapest](budapest_wire_break.md) | p100 B |
+| [Railway message: Laz. Zug 42 from Chemnitz and Zug 34 to VERBETZ](chemnitz_verbetz_trains.md) | p107 B1, p107 B2 |
 | [p107_D — supplementary source review](../supplementary/p107_D.md) | p107 D |
 | [p109 — Evening report and the Sava crossing](../p109.md) | p109 B |
 | [Kiew morning report and pioneer-park loading request](kiew_morning_and_pioneer_reports.md) | p110 B, p110 C |
@@ -31,6 +34,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [Return Seeflugstation Ost personnel to the second detachment](seaplane_personnel_return.md) | p141 B |
 | [Request for a position on a Dobrudscha report](dobrudscha_report.md) | p142 C |
 | [Wallachia withdrawal preparations: p150 B1–B5](wallachia_withdrawal_preparations.md) | p150 B1, p150 B2, p150 B3, p150 B4, p150 B5 |
+| [Alpenkorps departure and march report](nov8_alpenkorps_report.md) | p160 A2 |
 | [p163 A — Withdrawal instructions and headquarters movements](p163_A.md) | p163 A13, p163 A14, p163 A15, p163 A17, p163 A18 |
 | [p164 A4 — cavalry report](../context/p164_A4.md) | p164 A4 |
 | [November 9 operational reports: Serbian cavalry and the retreat north](nov9_operational_reports.md) | p166 A1, p166 A2, p166 A3, p167 A3, p170 B1, p170 B2 |
@@ -69,6 +73,10 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p79 A2](palestine_medical_dissolution.md) | Dissolution and return to replacement units; exact336-coordinate duplicate of p83 B | 168/168 fixed positions; 0 observed-coordinate substitutions and 0 mask fills; prior witness costs unchanged | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier source editions and unreviewed body leads retained |
 | [p83 B](formation_dissolution.md) | Dissolution of unnamed formations and return of remaining personnel to home replacement units | Direct complete168-position source reading; zero source repairs; printed second part only | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates distinguished |
 | [p86 A](mg08_inventory.md) | Inventory query for German MG08 with tripod mounts; asks quantity and caliber | 149/149 raw labels; 2 word repairs; MG08 and office/reference fields retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+| [p88 C1](black_sea_evacuation_routes.md#p88-c1) | Evacuation destinations: Siegfried to Konstanza and other traffic to Odessa | Native298 coordinates;one observed substitution | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; existing Ayush Agarwal p89_A2 companion retained separately |
+| [p89 A3](black_sea_evacuation_routes.md#p89-a3) | Stop Braila-bound traffic and arrange onward movement in whole trains | Explicit100-coordinate loss;one observed substitution+one dash fill+69conditional lost-coordinate fills;28plaintext positions unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; existing Ayush Agarwal p89_A2 companion retained separately |
+| [p89 A4](black_sea_evacuation_routes.md#p89-a4) | Civilian destination Berlin and advance notice for onward movement | Native360 coordinates;four observed substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; existing Ayush Agarwal p89_A2 companion retained separately |
+| [p90 A5](black_sea_evacuation_routes.md#p90-a5) | Distribution list for the five-part evacuation routing order | Native398 coordinates;two observed substitutions;printed cleartext timing instruction excluded from cipher counts | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; existing Ayush Agarwal p89_A2 companion retained separately |
 | [p90 B1](turkish_armistice_shipping_order.md#p90-b1) | Intercepted Turkish armistice report and free Straits passage | Native338 valid coordinates;6 observed substitutions; no fills or geometry change | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier unreviewed repository body candidates |
 | [p91 A2](turkish_armistice_shipping_order.md#p91-a2) | Stop material shipments to Turkey and send empty ships for evacuation | Native344 valid coordinates;2 observed substitutions; no fills or geometry change | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier unreviewed repository body candidates |
 | [p91 A3](turkish_armistice_shipping_order.md#p91-a3) | Distribution and reference for the Turkish shipping order | Native236 valid coordinates;3 observed substitutions; no fills or geometry change | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier unreviewed repository body candidates |
@@ -81,7 +89,10 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p98 A1](black_sea_disembarkation.md) | Siegfried troops to disembark at Odessa instead of Constanza | Complete126-position source edition;3 ordinary-word coordinate repairs | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates distinguished |
 | [p98 A2](black_sea_disembarkation.md) | Shipping from KOSPOLI to Odessa or raw NIKILJEW | Complete132-position source edition;1 coordinate repair witnessed by B; shorter place spelling retained | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates distinguished |
 | [p98 B](black_sea_disembarkation.md) | Repeated shipping instruction with raw NIKOLAJEW | Complete133-position repeated source edition;3 coordinate repairs witnessed by A2; original length retained | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates distinguished |
+| [p99 B1](sava_crossing_evening_report.md#p99-b1) | Evening report: Sava crossed by 30 I.D. main elements and G.K. 39 | 86/86 native raw labels; unchanged source frame and plaintext | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior OCR candidates and Armin’s separate p100 body credit retained |
 | [p100 B](budapest_wire_break.md) | Bridges and wire lines through Budapest; report attributes interruption to Hungarian National Council | 97/97 fixed raw labels; 2 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+| [p107 B1](chemnitz_verbetz_trains.md#p107-b1) | Railway-transport instruction mentioning Laz Zug 42 from Chemnitz | Native 164 visible coordinates; omitted OCR tail FDGD restored; 5 observed substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates and OCR limits retained |
+| [p107 B2](chemnitz_verbetz_trains.md#p107-b2) | Laz Zug 34 to literal VERBETZ; unresolved command reference | Native 110 slots; 3 substitutions; printed dash remains unknown in ?BA AEK11 | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates and OCR limits retained |
 | [p107 D](../supplementary/p107_D.md) | Acknowledgment of operational telegrams | Earlier reading; parenthesized glyphs retained | Ayush Agarwal; review by D. Bourdeau (2026) |
 | [p109 B](../p109.md) | Evening enemy-division report toward Belgrade | Near-parallel supporting p 109; word alternatives remain | icekylinx and GPT-6 Astra Pro (2026) |
 | [p110 B](kiew_morning_and_pioneer_reports.md#p110-b) | Kiew morning report to Mackensen: nothing new; literal reference6915 | 73/75 fixed raw labels; 0 coordinate substitutions and 2 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key and earlier OCR candidates credited separately |
@@ -131,6 +142,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p150 B3](wallachia_withdrawal_preparations.md) | Earlier enemy crossing, Wallachian plain and advance parties | Source edition: 101/102 fixed positions, 4 coordinate substitutions and 12 erasure fills; native frame retained | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates retained |
 | [p150 B4](wallachia_withdrawal_preparations.md) | Advance parties, railway operation and Constanta | Source edition: 101/101 fixed positions, 0 coordinate substitutions and 9 erasure fills; native frame retained | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates retained |
 | [p150 B5](wallachia_withdrawal_preparations.md) | Medgidia and the Dobrudscha administration | Source edition: 107/107 fixed positions, 2 coordinate substitutions and 7 erasure fills; native frame retained | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates retained |
+| [p160 A2](nov8_alpenkorps_report.md#p160-a2) | Alpenkorps departure and march report | 117/119 fixed raw positions; 4 observed substitutions, 1 printed-mask fill; conditional 2-observed-coordinate exclusion frame | icekylinx and GPT-6 Astra Pro (2026 source edition); published period-key authors and earlier OCR candidate readings credited separately |
 | [p163 A13](p163_A.md) | Keep Crajova and Bucharest occupied until final evacuation | 126/134 raw positions; ten substitutions and six fills; opening unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p163 A14](p163_A.md) | Final evacuation in one move; retain the Bucharest garrison | 121/122 raw positions; five substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p163 A15](p163_A.md) | Conditional garrison transfer to corps headquarters and Scholtz | 36/117 raw positions; 91-position prefix needs two substitutions and 63 fills | icekylinx and GPT-6 Astra Pro (2026) |
