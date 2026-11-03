@@ -26,6 +26,10 @@ The cases contain the full readings and exact repair accounts. These recent exam
 
 | Edition | Result |
 |---|---|
+| [Romanian ultimatum evening report](../cases/military/nov11_romanian_ultimatum_report.md) | The restored 196-slot frame yields 85/98 raw labels and a complete 98-position body with two observed substitutions, ten source-mask fills and five added-slot fills. Both implementations retain all eight minimum maps. |
+| [Danube and Arad witnesses](../cases/military/danube_arad_witnesses.md) | The p168 copy supplies all eleven lost p159 coordinates, raising 124→135/136 fixed labels; 80000 uses native pairs. Source-only comparison over 694,320 maps leaves eight origins yielding one completed stream. A p164 glyph correction restores UEBER and supports the parallel Danube passage. |
+| [Third Ringbahn-key reception](../cases/radio/nov13_ringbahn_retransmission.md) | The p187 fragment adds 84 directly witnessed coordinates: 33/107 raw→106/107 linked labels; five observed substitutions and one printed-mask fill complete the 107-position part. |
+| [Train and position report](../cases/military/nov24_train_report.md) | The conditional p217 B1 frame fixes 76/102 raw labels. Explicit lexical fills give 96/102 without observed-coordinate substitutions; the optional four-substitution layer reaches 99/102. All 400 maps per template are checked. |
 | [p217 B2 Budapest teleprinter report](../cases/military/nov24_budapest_report.md) | All 176 native coordinates yield 88 fixed raw labels; the 51-label report-transmission sentence needs zero edits or fills. |
 | [p136 Gokieloff glyph correction](../experiments/p136_source_glyph_correction/README.md) | The printed `XAFFF` corrects the earlier transcription `XAFFX`, restoring raw `ZU DORT` with zero additional historical repair cost. |
 | [p105 combined-source supplement](../experiments/p105_optional_two_deletions/README.md) | A 288-slot proposal yields 144 paired labels with two source exclusions and three observed-coordinate substitutions. All 12 full-word minima and 55 prefix minima are retained. |

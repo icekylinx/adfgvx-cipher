@@ -22,7 +22,7 @@
     {
       "path": "cases/caucasus/baku_personnel_inquiry.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "b1fac777da750c50c0b11affd963e485607309ac0c7c55041371fc7dee60855d",
+      "file_sha256_at_review": "af40cb9b98c1016c9b1164e97747aedeffb1e4fc5136dbc2587d42115b205b9a",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -1219,7 +1219,7 @@
     {
       "path": "cases/finance/brasso_money_alternative_route.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "d344c59c33f202d69234230476144b57e30a9ac8626735ed1dffa944b6de4a62",
+      "file_sha256_at_review": "d88db35092a059a11830e238946caf5d6778b89f4c7ca36929f276735107e22a",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -1905,7 +1905,7 @@
     {
       "path": "cases/finance/nov9_crown_airlift_and_embassy.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "fd5dcb3c296542a8a9876930907deea4a81577de82993f0517f5e0e184055f0f",
+      "file_sha256_at_review": "7742f6e0005577dfa076fb390c09a0da04700477e78c930894f595e2584b501e",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -2485,7 +2485,7 @@
     {
       "path": "cases/military/arad_provisions_partial.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "b775a094cb0484bfe7ec644384da8c2a15566d7bbd35cc0f76399bc99af4164d",
+      "file_sha256_at_review": "e0d75bbc3ac0e67c30e854d0b0192848bf6e54af40e2e5e520fb1a055cfd1a31",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -3221,6 +3221,112 @@
       ]
     },
     {
+      "path": "cases/military/danube_arad_witnesses.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "90002ec083f0ef717bdd776807f83c8f31badd5e36744befd86bd2712cd3e908",
+      "review_basis": "Original-source and independent arithmetic review; source-frame, repair and actual Markdown checks passed.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "e2353098e72c6265924c06a77d6fc454c42c58d9d53f680100c683f8b719e82d",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — literal printed rows:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 1,
+          "sha256": "28de4867fb3430ab9fb463857216a731beef54b96e3d4ee53032a4bec3141cdd",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — native source, before word repair:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 2,
+          "sha256": "8acff3c037e8c18cdb375c4ddb8492de91fa1136604853a8efa258bfa17ed56e",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — two mask values supported by the parallel p153 passage; zero observed-coordinate substitutions:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 3,
+          "sha256": "9e79bebc08411c04a7d1486745533750b8dbe743abda08f69e2cc75d047e6c4c",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — from the unfilled source: four observed substitutions and three printed-mask fills; two fields remain unresolved:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 4,
+          "sha256": "c8d5a28275af70f7544056791075b61af22c1ce3e74fad2b46177437b2b57f71",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — literal printed rows:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 5,
+          "sha256": "70551ba8b3f0b9d5caaf8299126e4362243bea3669461799f472cb49a43e362b",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — conditional 272-slot frame; one unfilled coordinate in DDGX, with printed masks unfilled:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 6,
+          "sha256": "764b43e84508aabd2fd1c47b4038ed31ba149bb9309ccee4b7e124aaec7fc91b",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — three source-linked coordinate values, with every borrowed value bound to a directly observed p159 origin:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 7,
+          "sha256": "cc7d3b57f3a8bc4ee57bdf50fed0107cd6ad2b3b35947c8abae9d8b3d32c2399",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — four observed substitutions, two printed-mask fills and one added-slot fill; footer cell unassigned:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 8,
+          "sha256": "72251a60af71008f0345ff107892cab2a5054dc68ba0be4ab9d24b59b35ac35a",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — p159 primary geometry with all 11 missing coordinates supplied from observed p168 pairs:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 9,
+          "sha256": "a0331631dd9591443978b6dbd9d6bac94cae0901cc1d393d4902f71531c61673",
+          "role": "reproduction_command",
+          "caption_required": true,
+          "caption": "## Reproduce",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "d3bc6bd2df82c7e071385aa7764624f32ba000af1d48d8e87c59d282d8461e7f",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — complete edited stream, preserving the unresolved fields and literal labels:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 1,
+          "sha256": "2b7514eac79f6adc58be2bd6b608aab339eb3627411d2ee30748ad24b8cdd4d5",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — complete edited stream, preserving the unresolved fields and literal labels:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        }
+      ]
+    },
+    {
       "path": "cases/military/dobrudscha_report.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "e4692a56cd9e1a46944a7c77f23492ebb28d4c0c2bb1823b734658d217a64d9e",
@@ -3300,7 +3406,7 @@
     {
       "path": "cases/military/group_security_measures_fragment.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "fa0200a5dc08d2e6a8865448126dcb5859dee44d6ab6c238e758332d868fbbb8",
+      "file_sha256_at_review": "11c1342c2c64bb17cedae2febd02e635ab3887913e75d5e1bea13474ec577fe7",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -4595,7 +4701,7 @@
     {
       "path": "cases/military/nov11_romanian_mobilization_report.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "90430453029e3b06b71ae8219a6a10769e8b6f53c696b6216e130365f60896c5",
+      "file_sha256_at_review": "9d2de706411d2fa67a0443e8f6526b11f52f24fe574e95ba593f27b8fd7453a4",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -4647,6 +4753,48 @@
           "caption_required": true,
           "caption": "**Readable German — the complete edited stream, with spacing and punctuation only:**",
           "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/nov11_romanian_ultimatum_report.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "a81cbd753aedcafb9b202c73a043fa8a164574d545597e8ee662b04023bc6ba9",
+      "review_basis": "Original-source and independent arithmetic review; source-frame, repair and actual Markdown checks passed.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "c2630b6f9b1f7d609d2c183f448ed8f5b721e0700bac00d5b13996242f3b7529",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — primary conditional 196-slot frame, before all substitutions and fills; 85/98 fixed labels:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 1,
+          "sha256": "f09f289679e9131d801dea5e851c6946dc8340d0480c22017211b86dd7777f91",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — same primary frame; two observed substitutions, ten printed-mask fills and five inserted-slot fills; 98/98 fixed labels:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 2,
+          "sha256": "07d9189dd1b55265f36f35a9ef5258c7cb33370ecbc93d57d717040355681970",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 197 printed slots; dashes and the invalid O-like glyph retained:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "d8c8c0dbce26cdbf834f964ea90c1bcd3627047ce880cec3fa4815f8f2181928",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — conditional 196-slot reconstruction; six observed-source exclusions, five added-slot fills, ten printed-mask fills and two observed substitutions:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
         }
       ]
     },
@@ -4761,7 +4909,7 @@
     {
       "path": "cases/military/nov24_budapest_report.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "570190fc0abd35db3472d91ab13d9f3acd7c23acc2afe40ee9d0c4284f503ac5",
+      "file_sha256_at_review": "f47b35a4c1fb6d2cbb9150e9146515135a3dbd595b57f982066215e0bffe902b",
       "review_basis": "Original scan,176 observed coordinates, unchanged key,88 fixed labels, exact re-encryption and actual51-label Markdown quotation reviewed.",
       "fences": [
         {
@@ -4789,6 +4937,64 @@
           "role": "readable_german",
           "caption_required": true,
           "review_note": "Exact native 51-label span[29,80); no repair or expansion."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/nov24_train_report.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "959c81dc2834b50519928ce7a4da8ab5f67017f1894ae37e575cbfec9313c218",
+      "review_basis": "Original-source and independent arithmetic review; source-frame, repair and actual Markdown checks passed.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "10090da9fc96c1d83f88a32d0d835a23651200ae00116d516f2fbdd6e5b2eea3",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — conditional 204-slot frame; all printed masks and added slots unassigned:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 1,
+          "sha256": "f235496fabd4b16cf01c678154ddc60821a2f70feba148bcfccaa66eb2c24694",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — same conditional frame; zero observed substitutions, 16 printed-mask fills and four inserted-slot fills:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 2,
+          "sha256": "fc9daa3d9c5f1aaf1afc1c223051e1280116704b17474be885edeab0de1c9d8a",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — four observed-coordinate substitutions, 19 printed-mask fills and four inserted-slot fills; three positions unresolved:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 3,
+          "sha256": "988f4adc5e2df0c919892fb868779672fc2c5bba2c7f19312fba8d1466d482e2",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 204 printed slots, including masks:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "4a5a095c8de41441990c54413684131360e58542dd31195dd567b5479454e39a",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — zero-substitution lexical completion under the conditional frame; literal labels retained:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 1,
+          "sha256": "bda87fc5fe49d1e2a3c754a4693e9c290bcf85380c0721bdbd3752a3ff68bda4",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — optional four-substitution word edition; same frame and literal fields:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
         }
       ]
     },
@@ -4877,7 +5083,7 @@
     {
       "path": "cases/military/nov30_aviation_march_destination.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "f6c263ffae5ff6c85985e82373972ff40c3a7405c464c425dcb2c0e3db920030",
+      "file_sha256_at_review": "67c1e06caf6a77d534c15ea10c05a02a378861390aa4b35823e71301ef95ddab",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -5173,7 +5379,7 @@
     {
       "path": "cases/military/nov4_flying_unit_inquiry.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "802795da73772154c8753efd6ad861da160e5ddc9ea2bc1f83a50e4d4d1ad791",
+      "file_sha256_at_review": "4d89d923bf24a7b76f42b5a3de66bd525df296b5f5f819fe13737c8e522cc31c",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -5257,7 +5463,7 @@
     {
       "path": "cases/military/nov6_boat_crossing_fragment.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "11f9809e1ad69835f3e384745835c3062a4e882393514a794a1680aa424a3aa6",
+      "file_sha256_at_review": "c570cf831693b683a204000d7e1cfa74ef3fa21da888e05c2805115650751d94",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -5391,7 +5597,7 @@
     {
       "path": "cases/military/nov7_danube_and_message_reports.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "151b51807f5333a314b4a2fd9f0b1a2299bf3c568ec7e7582d3316b41e3b7778",
+      "file_sha256_at_review": "36c3f8a06ec2e64ac133c8df1a04dbdda67e6cd2cb8242ffd42b6819bbb18add",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -5735,7 +5941,7 @@
     {
       "path": "cases/military/nov8_serbian_cavalry_parallel.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "d75f961e80f59faee2e66572418ec84a08c6ff11156170fdb11b37591818739a",
+      "file_sha256_at_review": "6a94a524773d8cc944358a3eab21b09a1a5d5f582f410339b0233f2868a6a027",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -7994,7 +8200,7 @@
     {
       "path": "cases/naval/nov27_ships_and_vehicle_sale.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "38a867777e41f8911f4f7a8b1b9b21d5c5a4c6cead2417dad1abd197b5233e60",
+      "file_sha256_at_review": "9a57ebd9c60101371c2528927a8c1b09513714aab775afacd2ecc40662c97267",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -8084,7 +8290,7 @@
     {
       "path": "cases/naval/nov3_poti_tobacco_loading.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "ec56bc361c9b797632656d38da600a1e8e34ce56cfde8adbeed4a4a767bd39df",
+      "file_sha256_at_review": "911dd734f88d939c3436daeea4008d3f20e313dc389a5ac3c446cf9017ce1ed4",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -10105,7 +10311,7 @@
     {
       "path": "cases/people/nov13_conditional_congratulation.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "966c2a4bf23d6ff38cd3a32959af5fec199b3e9d0b1aef48b7cf64d3fac035d1",
+      "file_sha256_at_review": "43b92af9b02a5e1e927ac1e4f81bd592f518bf34c1a4f57c7aab5ce5ba422d05",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -11821,7 +12027,7 @@
     {
       "path": "cases/radio/nov12_seifert_additional_witnesses.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "c643edd684a1672cdb4b68cb187779e7fd9c15b3f9a88f5352f6ac6efa47ea9b",
+      "file_sha256_at_review": "a7c73ec755e83c03bf30349bbfefda4048f06c00f6e11fa0dd3270173f347a4c",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -11921,6 +12127,48 @@
           "caption_required": true,
           "caption": "**Readable German — the complete edited stream, with spacing and punctuation only:**",
           "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/nov13_ringbahn_retransmission.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "61f6248dfb043f0689cc4df48ccd6386834259756a1d363b8cf735dee21f1b80",
+      "review_basis": "Original-source and independent arithmetic review; source-frame, repair and actual Markdown checks passed.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "cce1d9f718dac0f1e683cf9eb161604bada4d09a6778df3eb99fd290024e106b",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — conditional 214-slot frame, with all 84 missing coordinates unassigned; 33/107 fixed labels:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 1,
+          "sha256": "8de7fb14ad25139b50f4b30f9002adac40d7f60db362cbca507872f2cc749b0c",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — same source-linked frame; five observed substitutions and one printed-mask fill; 107/107 fixed labels:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        },
+        {
+          "index": 2,
+          "sha256": "9c3758c28cff55a9dac4c1317e72d47097b3ae2cde7746b39656effd622f9d0d",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 140 printed slots; the dash is literal:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "c4a82f84449c2ca7af10d4bb09287d5ab1251b56e1b574f53ffbf0c7718e9e2a",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — source-linked 214-slot reconstruction; ten duplicate-source exclusions, 84 copied slots, five observed substitutions and one printed-mask fill:**",
+          "review_note": "Source, exact operation/fill counts, native origins and actual displayed labels reviewed; all uncertainties retained."
         }
       ]
     },
@@ -12067,7 +12315,7 @@
     {
       "path": "cases/radio/nov15_radio_personnel_and_key_notice.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "a9f447015ab7bb63617327c39cb3488ebcd923b694d8c5fdd50eda823bd12dbe",
+      "file_sha256_at_review": "4f25c8e5aa9f69fd3eb3a42c5ebb4dc80b5d20db783a147acc6a65f5a0e1e10e",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -12433,7 +12681,7 @@
     {
       "path": "cases/radio/nov22_reverse_keys_and_date_correction.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "bfcd20db37a496fba2366d01f33925f73306421f2d9a6906077fc01b9011ae73",
+      "file_sha256_at_review": "431f5265efa5a21a2d1ce607528672fb83457e8e91aaf53e0c2eeb559ad32218",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -12589,7 +12837,7 @@
     {
       "path": "cases/radio/nov2_nikolajew_acknowledgment.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "3bfb191cde00d4f7e86d94d9af4493f154b6763f0950ea5cb9df0de8e04345b5",
+      "file_sha256_at_review": "58518d629fffa07b39e4c858d78b5ae4df4c5cf9d0a0d36d2c892ffc26653c06",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -12893,7 +13141,7 @@
     {
       "path": "cases/radio/nov3_bucharest_power_source_query.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "f406a279bb472a85a132b698325fad5d39ca6553ff9bdb85757bf9177e2e62b6",
+      "file_sha256_at_review": "5f667a28588f1c92e9df413582c9e3ebecea6c1952917bc1e5af80aa07b5841b",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -12951,7 +13199,7 @@
     {
       "path": "cases/radio/nov3_eilvese_traffic_schedule.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "a58c0a688ac1dc5f971c0757e43e040434bed24ab6480486fc8af70943f8a21d",
+      "file_sha256_at_review": "aa243939ed957f4b5c49184a51e3c3ccf70c5721cd999bf6024ccc1cdd673b32",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -13384,7 +13632,7 @@
     {
       "path": "cases/radio/nov6_marine_service_notice.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "41677fe6b8444ea62e2012400428b95ae7e90230588c24495fb7cabce435da4f",
+      "file_sha256_at_review": "0cafcb22bbda8ec4849701e00b7ac5c2d8778a1cc6c9d93e4162e618449d4c89",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -13434,7 +13682,7 @@
     {
       "path": "cases/radio/nov6_ringbahn_key_witnesses.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "c4d9be70f92b45c1ea1cdaef346527089b670cea90b36a204ece3f66a1f845e9",
+      "file_sha256_at_review": "cf3ce489f3b299e7c564d29dab2aa9aa1ecee8a6070d579c264c4cf90a891160",
       "review_basis": "A missing F and three repairs give an exact independent B2 copy; all four older word repairs receive direct new-source support, while dates and references remain in conflict. Complete readable labels, layer captions and source/frame/repair distinctions independently reviewed.",
       "fences": [
         {
@@ -13524,7 +13772,7 @@
     {
       "path": "cases/radio/nov6_tiflis_ringbahn_instruction.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "a804a00e4b4488b445254f7e77d5c19489bd8672a220dda8c3d5f984d418c253",
+      "file_sha256_at_review": "a83917fd1cb451770907328c0f805f4ba506d76fc4b0c716c7eaf1869ce54e6f",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -13590,7 +13838,7 @@
     {
       "path": "cases/radio/nov7_8_embassy_address_parts.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "24737ae60cdfa34613e6518b4620e2d33e4905258e42fc6a4c760c76add9a99c",
+      "file_sha256_at_review": "7f4d6d80db1437775269d87f1ee20370484d504210b069c01b21f3da1a31a155",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -13826,7 +14074,7 @@
     {
       "path": "cases/radio/nov9_operations_map_sheets.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "910f0508af175d5372cb7f4a429b894d8376a9b84e7f7dcac931d6654d2068b1",
+      "file_sha256_at_review": "0620c95ca995eb8a6bc66ea79ffb3af8c418bc96f47555ffa8efaa64b76bb1c9",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -13850,8 +14098,8 @@
           "sha256": "d6ea9ad7413b087d787af6b1631689466229752defe4d7b8e81d17b0974b57fc",
           "role": "reproduction_command",
           "caption_required": true,
-          "caption": "The [certificate](../../experiments/nov9_operations_map_sheets/certificates.json)\ncontains all 112 raw and edited pair maps, the four changes, both unresolved\ndomains, both complete global-key witnesses and the retained earlier OCR\ncomparison. The experiment's [reproduction guide](../../experiments/nov9_operations_map_sheets/README.md)\nexplains the text-only PDF evidence reference and optional pixel check.",
-          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+          "caption": "**Reviewed source crops:** [p151_reviewed.png](../../experiments/nov9_operations_map_sheets/sources/p151_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).",
+          "review_note": "Source availability paragraph updated; reproduction command bytes unchanged."
         }
       ],
       "quotes": [
@@ -13982,7 +14230,7 @@
     {
       "path": "cases/radio/odessa_courier_pretransposition.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "18ac5be2092d702f33a3d66d055030c30326fe72cb0798f3a741ca410af09589",
+      "file_sha256_at_review": "cb03a92ab9af945230c8dd7038523aed0627b007935d7bbc3c82fd4b2615e262",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -14736,7 +14984,7 @@
     {
       "path": "cases/radio/return_time_and_vehicle_attempt.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "c1c4e670311939a476a3bfba50a1c63510b48bfdaefac81e34aee102e31cfd32",
+      "file_sha256_at_review": "1e03de5d8d79e72a16209c1ef811f6150c8558b19761fbb291b57811ea032f7a",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -15025,7 +15273,7 @@
     {
       "path": "cases/radio/september19_pigeons_and_command.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "df05a5d0f50ace8f2086f977e71af548604efbe4103ae3b4e6f55c74eee5b7b4",
+      "file_sha256_at_review": "70bf0cfce0e06d8c4210df766b61e19f78b7a3156ae683ab41c1ce1991a8791c",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {

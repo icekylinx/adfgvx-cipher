@@ -9,7 +9,7 @@
 These three native ciphertext bodies occupy the first page of Appendix B, printed p56 (PDF page 59). The earlier OCR retrieval pool began at p57 and omitted this entire page. The edition restores a pigeon-transfer record and the two printed parts about Army Group East and radio subordination.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p56_reviewed.png](../../experiments/september19_pigeons_and_command/sources/p56_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and accounting
 
 [Original Childs PDF](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt — source-PDF reference](../../experiments/september19_pigeons_and_command/inputs.json) · [Literal inputs](../../experiments/september19_pigeons_and_command/inputs.json) · [Exact certificates](../../experiments/september19_pigeons_and_command/certificates.json)

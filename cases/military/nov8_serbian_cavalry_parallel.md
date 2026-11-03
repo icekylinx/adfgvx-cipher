@@ -10,7 +10,7 @@ is a new physical witness and source-alignment audit, not a claim to a new
 body decipherment or universal priority.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p158_E_reviewed.png](../../experiments/nov8_serbian_cavalry_parallel/sources/p158_E_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## What the additional source establishes
 
 Printed p158 E1 has **235 coordinates against an advertised 236**. Its

@@ -14,7 +14,7 @@ Page heading: **30th NOVEMBER, 1918.** The reception header is dated **December 
 
 Literal header: `A) ZÖN v BSL (01.00 a.m., December 1st); --------; RICHI-374?`.
 
-The original source crop was reviewed locally. [inputs.json](../../experiments/nov30_aviation_march_destination/inputs.json) pins the original PDF, page 231, crop rectangle, render scale, dimensions and RGB digest. This text edition distributes no new image. `--pdf` verifies those pixels; ordinary verification explicitly reports that no source-pixel comparison was performed.
+The original source crop was reviewed locally. [inputs.json](../../experiments/nov30_aviation_march_destination/inputs.json) pins the original PDF, page 231, crop rectangle, render scale, dimensions and RGB digest. **Reviewed source crops:** [p228_reviewed.png](../../experiments/nov30_aviation_march_destination/sources/p228_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify). `--pdf` verifies those pixels; ordinary verification explicitly reports that no source-pixel comparison was performed.
 
 **Source transcription — all 384 native slots, including all repeated groups and five non-coordinate glyphs:**
 

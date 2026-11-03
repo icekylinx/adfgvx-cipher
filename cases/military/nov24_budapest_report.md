@@ -26,8 +26,9 @@ sentence quotes only the intact central span.
 
 Childs, printed p217 / PDF p220, section B2, `RICHI-176`, under
 `24th NOVEMBER, 1918.` The header reads `UKS v ZON (07.15 p.m., November 24th)`
-and `(missed beginning) 2 TLE`. The adjacent B1 source is checked but still
-garbled; no repaired first-part reading is proposed.
+and `(missed beginning) 2 TLE`. The adjacent [B1 report](nov24_train_report.md) now has a conditional
+reading about train departures and positions, with every source operation
+and lexical fill itemized.
 
 [Original source PDF, p220](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
 · [Source edition and verification](../../experiments/nov24_budapest_report/README.md)

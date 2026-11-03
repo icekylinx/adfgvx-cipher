@@ -23,7 +23,7 @@ authenticated historical character. Period-key credit remains with George
 Lasry and collaborators as recorded in [data/keys.json](../../data/keys.json).
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p197_reviewed.png](../../experiments/nov15_radio_personnel_and_key_notice/sources/p197_reviewed.png) · [p189_reviewed.png](../../experiments/nov15_radio_personnel_and_key_notice/sources/p189_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## p197 A1
 
 [Reviewed source image — source-PDF reference](../../experiments/nov15_radio_personnel_and_key_notice/inputs.json).

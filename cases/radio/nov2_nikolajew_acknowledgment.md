@@ -9,7 +9,7 @@
 This is the 300-slot **section A** on Childs p105, a request to confirm receipt of two communications to Mackensen command through Nikolajew. It is separate from the original [p105 challenge](../p105.md), which is the 290-slot section B. The complete native source yields 150 fixed output labels without changing any coordinate or square cell.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p105_reviewed.png](../../experiments/nov2_nikolajew_acknowledgment/sources/p105_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and scope
 
 [Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed source excerpt — source-PDF reference](../../experiments/nov2_nikolajew_acknowledgment/inputs.json) · [Literal inputs](../../experiments/nov2_nikolajew_acknowledgment/inputs.json) · [Position and repair certificates](../../experiments/nov2_nikolajew_acknowledgment/certificates.json)

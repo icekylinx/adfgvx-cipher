@@ -13,6 +13,10 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Danube and Arad source witnesses](danube_arad_witnesses/README.md) | Two new sources; eleven restored p159 coordinates | Reviewed; source-only pricing of 694,320 maps leaves eight origins with one completed stream. |
+| [Romanian ultimatum evening report](nov11_romanian_ultimatum_report/README.md) | 98-position body | Reviewed; two observed substitutions, all eight minimum source maps retained. |
+| [Third Ringbahn-key reception](nov13_ringbahn_retransmission/README.md) | p187 B1 fragment | Reviewed; 84 source-linked coordinates with original donor origins. |
+| [Conditional train-report recovery](nov24_train_report/README.md) | p217 B1; 96/102 zero-substitution lexical positions | Reviewed; 400 maps per template and all tied streams retained. |
 | [November 24: teleprinter report via Budapest](nov24_budapest_report/README.md) | 1 native source; 176 coordinates; 88 fixed labels | Reviewed; intact 51-label sentence with zero source edits or fills. |
 | [Poti first part: all minimum five-exclusion frames](poti_first_part_conditional/README.md) | 1 source record; 110 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
 | [Odessa courier report: a conditional loss before transposition](odessa_courier_pretransposition/README.md) | 1 source record; 163 modeled positions | Reviewed; frame and repair ledger in the linked edition. |

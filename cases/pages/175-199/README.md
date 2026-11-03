@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 150–174](../150-174/README.md) · [pp. 200–224 →](../200-224/README.md)
 
-**6 challenge entries · 100 other reviewed entries · 25 printed pages · 106 physical sources.**
+**6 challenge entries · 102 other reviewed entries · 25 printed pages · 108 physical sources.**
 
 Jump to page: [p175](#p175) · [p176](#p176) · [p177](#p177) · [p178](#p178) · [p179](#p179) · [p180](#p180) · [p181](#p181) · [p182](#p182) · [p183](#p183) · [p184](#p184) · [p185](#p185) · [p186](#p186) · [p187](#p187) · [p188](#p188) · [p189](#p189) · [p190](#p190) · [p191](#p191) · [p192](#p192) · [p193](#p193) · [p194](#p194) · [p195](#p195) · [p196](#p196) · [p197](#p197) · [p198](#p198) · [p199](#p199).
 
@@ -84,6 +84,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 | [p180 A3](../../military/p180_A.md) | Enemy follows withdrawal near Giurgiu; Braila and Focsani evacuated | 77/78 raw positions; nine substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p180 B2](../../military/nov11_romanian_mobilization_report.md#p180-b2) | Romanian mobilization and a crossing report | 235 native slots; source-located conditional five-slot tail; 4 observed substitutions, 1 source-mask fill and 4 tail fills; four plaintext positions remain unresolved | icekylinx and GPT-6 Astra Pro (2026); published period key and prior native/tail trials retained |
 | [p180 C](../../radio/okm_radio_route.md#p180-c) | OKM communication route through literal AOK1? and FXT | Native 86-slot frame; 6 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p180 D1](../../military/nov11_romanian_ultimatum_report.md#p180-d1) | Evening report on an unanswered Romanian evacuation ultimatum | Native 197 slots; conditional 196-frame after six observed exclusions and five added slots; raw 85/98 (alternative 84/98); eight tied maps; two substitutions, ten printed-mask fills and five added-slot fills | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
 | [p180 E](../../military/namur_cassel_armistice_requests.md#p180-e) | Bauman readiness and Cassel transport | Native 224-slot frame; 3 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 
 ## p181
@@ -168,6 +169,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p187 B1](../../radio/nov13_ringbahn_retransmission.md#p187-b1) | Third reception of the November Ringbahn-key retention instruction | Reviewed 140-slot fragment; conditional 214-slot copy frame, raw 33/107; 84 copied coordinates, ten duplicate exclusions, five observed substitutions and one printed-mask fill | icekylinx and GPT-6 Astra Pro (2026); earlier p145/p211 body editions and published key credited |
 | [p187 C](../../supplementary/p187_C.md) | Connection with Mackensen's army | Earlier body; source audit and exact four-coordinate repair cost | Ayush Agarwal; review by D. Bourdeau (2026) |
 | [p187 D1](../../radio/p187_D.md) | Aircraft connection to Mackensen impossible for technical reasons | 76-character suffix under a five-loss model; two substitutions; opening references unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 

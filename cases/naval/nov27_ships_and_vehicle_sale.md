@@ -22,7 +22,7 @@ cancelled group. The [reviewed source image — source-PDF reference](../../expe
 retains both messages and their distinct headers.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p223_reviewed.png](../../experiments/nov27_ships_and_vehicle_sale/sources/p223_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## p223 B
 
 **Source transcription — literal header:**

@@ -106,7 +106,9 @@ The [certificate](../../experiments/nov9_operations_map_sheets/certificates.json
 contains all 112 raw and edited pair maps, the four changes, both unresolved
 domains, both complete global-key witnesses and the retained earlier OCR
 comparison. The experiment's [reproduction guide](../../experiments/nov9_operations_map_sheets/README.md)
-explains the text-only PDF evidence reference and optional pixel check.
+gives the source metadata and optional original-PDF pixel check.
+
+**Reviewed source crops:** [p151_reviewed.png](../../experiments/nov9_operations_map_sheets/sources/p151_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 
 ```sh
 python experiments/nov9_operations_map_sheets/verify.py --verify

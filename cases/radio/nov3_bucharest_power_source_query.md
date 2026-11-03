@@ -5,7 +5,7 @@
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md)
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p109_A2.png](../../experiments/nov3_bucharest_power_source/sources/p109_A2.png) · [p109_A3.png](../../experiments/nov3_bucharest_power_source/sources/p109_A3.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## p109 A2
 
 **Status:** 81/81 native raw positions fixed; 4 coordinate substitutions and 0 source-mask fills. No frame change.

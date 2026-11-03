@@ -4,7 +4,7 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**200 reviewed entries across 84 case pages, representing 200 physical sources; 199 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**201 reviewed entries across 85 case pages, representing 201 physical sources; 200 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -75,6 +75,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [Short arrival, departure and car enquiries on November 12](nov12_arrival_departure_and_car.md) | p183 A, p183 B, p183 C, p183 E |
 | [A parallel car enquiry with an explicit extra-coordinate model](car_query_parallel_frame.md) | p183 D |
 | [p186 A1/A2 — Earlier Russian and Polish traffic instruction](../context/p186.md) | p186 A1, p186 A2 |
+| [p187 B1 — A third reception of the Ringbahn-key instruction](nov13_ringbahn_retransmission.md) | p187 B1 |
 | [p187_C — supplementary source review](../supplementary/p187_C.md) | p187 C |
 | [p187 D1 — Aircraft connection to Mackensen currently impossible](p187_D.md) | p187 D1 |
 | [p189 C — December-key instruction](../context/p189_C.md) | p189 C |
@@ -242,6 +243,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p183 E](nov12_arrival_departure_and_car.md#p183-e) | An enquiry about the car | Native 36-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p186 A1](../context/p186.md#part-1--richi-170) | Monitor Russian and Polish army traffic | Earlier reading; three explicit erasure fills | Lasry team and Norbert (2017); review: icekylinx and GPT-6 Astra Pro |
 | [p186 A2](../context/p186.md#part-2--richi-174) | Encrypted reporting and teleprinter failure | 80/87 conservative raw positions; ending unresolved | Lasry team and Norbert (2017); review: icekylinx and GPT-6 Astra Pro |
+| [p187 B1](nov13_ringbahn_retransmission.md#p187-b1) | Third reception of the November Ringbahn-key retention instruction | Reviewed 140-slot fragment; conditional 214-slot copy frame, raw 33/107; 84 copied coordinates, ten duplicate exclusions, five observed substitutions and one printed-mask fill | icekylinx and GPT-6 Astra Pro (2026); earlier p145/p211 body editions and published key credited |
 | [p187 C](../supplementary/p187_C.md) | Connection with Mackensen's army | Earlier body; source audit and exact four-coordinate repair cost | Ayush Agarwal; review by D. Bourdeau (2026) |
 | [p187 D1](p187_D.md) | Aircraft connection to Mackensen impossible for technical reasons | 76-character suffix under a five-loss model; two substitutions; opening references unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p189 B](return_time_and_vehicle_attempt.md#p189-b) | A message about attempting to obtain a vehicle | Native 70-slot frame; 4 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |

@@ -2,13 +2,15 @@
 
 **Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
 
+**Updated source recovery.** The independent [p168 E witness](danube_arad_witnesses.md#arad-cross-copy-restoration) supplies all eleven missing coordinates, fixes **80000 MANN** and the duration separator **X**, and raises this source to **135/136 fixed labels**. Comparing original coordinates across the full declared source family leaves **eight minimum maps with one completed stream**. The earlier text-conditioned reconstruction and its optional U below are preserved as the baseline.
+
 Source review, partial reading and audit: **icekylinx and GPT-6 Astra Pro**.
 Published Nov7–9 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker;
 unchanged here. Earlier repository OCR is retained beside the new source
 transcript. No universal first-decipherment priority is asserted.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p159_A_reviewed.png](../../experiments/arad_provisions_partial/sources/p159_A_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## What can be read, and under which model
 
 The source on printed p159 A has **271 valid coordinates** against an
@@ -34,9 +36,9 @@ normalization are not silently supplied.
 This is a **conditional partial recovery with a substantial structural
 cost**, not a native whole-body decipherment. The minimum below is
 conditioned on one stated partial text and one bounded source family.
-No independent parallel body has been found in the checked repository
-readings, and neither a unique layout nor a historical strength count is
-claimed.
+The independently received p168 copy now supplies the source constraints
+linked above. Its finite source-family minimum replaces the earlier
+text-only ambiguity for the improved collation.
 
 ## Native source and literal header
 

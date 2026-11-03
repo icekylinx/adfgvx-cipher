@@ -5,7 +5,7 @@
 Source review and editorial work: **icekylinx and GPT-6 Astra Pro**. Published Nov7–9 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker; unchanged here. The earlier repository OCR and explicitly recomputed unchanged-key outputs are retained. No universal first-decipherment priority is asserted.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p156_reviewed.png](../../experiments/nov7_8_embassy_address_parts/sources/p156_reviewed.png) · [p158_reviewed.png](../../experiments/nov7_8_embassy_address_parts/sources/p158_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Scope and evidence
 
 Seven physical first/address parts on printed pp156 and 158 contain embassy,

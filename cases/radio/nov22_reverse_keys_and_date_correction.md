@@ -13,7 +13,7 @@ Published period-key recovery retains the credit to George Lasry and
 collaborators recorded in the [key inventory](../../data/keys.json).
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p214_reviewed.png](../../experiments/nov22_reverse_keys_and_date_correction/sources/p214_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## p214 A1
 
 [Reviewed source image — source-PDF reference](../../experiments/nov22_reverse_keys_and_date_correction/inputs.json).

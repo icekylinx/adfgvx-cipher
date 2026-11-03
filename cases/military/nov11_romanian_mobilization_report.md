@@ -9,7 +9,7 @@ Six narrow word proposals raise that count to **116 of 120**. They cost **four o
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**. The period key is credited to George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker, with its publication details retained in [inputs.json](../../experiments/nov11_romanian_mobilization_report/inputs.json). Earlier local native and terminal-mask trials already exposed this lead. Their transcription and reproducible outputs are retained in [prior_candidates.json](../../experiments/nov11_romanian_mobilization_report/prior_candidates.json); this edition does not claim first-decipherment priority.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p180_B2_reviewed.png](../../experiments/nov11_romanian_mobilization_report/sources/p180_B2_reviewed.png) · [p180_D1_header_comparison.png](../../experiments/nov11_romanian_mobilization_report/sources/p180_D1_header_comparison.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## p180 B2
 
 Literal header: `B) LP v ZON (0[1/4].02 p.m. November 11th); -----; 2 TL RICHI-240`.

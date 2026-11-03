@@ -12,7 +12,7 @@ Research and editorial work: **icekylinx and GPT-6 Astra Pro**. The published No
 
 Literal header: `C) NKJ (RAT) v LP (4.15 p.m., November 16th); FUER RAT 1720 (16) SSS BERLIN 15/11 (16); RICHI-324`.
 
-The source and two enlarged crops were visually reviewed locally. Their PDF page, rectangles, scales, dimensions and RGB hashes are pinned in [inputs.json](../../experiments/odessa_courier_pretransposition/inputs.json). No new image asset is distributed with this text edition. The optional `--pdf` check reproduces the reviewed pixels from the original Childs scan; ordinary verification explicitly reports that source-pixel checking was not requested.
+The source and two enlarged crops were visually reviewed locally. Their PDF page, rectangles, scales, dimensions and RGB hashes are pinned in [inputs.json](../../experiments/odessa_courier_pretransposition/inputs.json). **Reviewed source crops:** [p201_C_reviewed.png](../../experiments/odessa_courier_pretransposition/sources/p201_C_reviewed.png) · [p201_C_overstrike.png](../../experiments/odessa_courier_pretransposition/sources/p201_C_overstrike.png). [File and pixel verification](../../sources/reviewed-crops.md#verify). The optional `--pdf` check reproduces the reviewed pixels from the original Childs scan; ordinary verification explicitly reports that source-pixel checking was not requested.
 
 **Source transcription — all 324 native slots, with the two overstruck X-like glyphs retained:**
 

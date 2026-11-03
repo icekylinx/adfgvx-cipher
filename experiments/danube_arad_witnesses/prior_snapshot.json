@@ -1,0 +1,124 @@
+{
+  "schema": "adfgvx-nov8-source-prior-snapshot-v1",
+  "p164_sources": [
+    {
+      "id": "p164_C1",
+      "raw_ciphertext": "V?VVAXGVDVXDAGDXAVXXGDAADFAVVFXDXGADDGVXVX?DVDVXGVDGCFXVGVXXVVXXFGDDAFXXGDDFAFDXXDGXXVAVFXFFVVAVVDGGXXDXFFXVDAAGVAGFDDGVGDVDGVVDFVXVFVD?DDVDVVVVGGDXXVDGDDGXDVVVDAGV?GVVDVVVVVXFGVDGVFVVXDXVDFFFDDGGDXDVXGDDVGGXDFVVGVVVGVGVXFVFXVDDGAGDADGVDFDAXXDDDDDA",
+      "ciphertext": "V?VVAXGVDVXDAGDXAVXXGDAADFAVVFXDXGADDGVXVX?DVDVXGVDG?FXVGVXXVVXXFGDDAFXXGDDFAFDXXDGXXVAVFXFFVVAVVDGGXXDXFFXVDAAGVAGFDDGVGDVDGVVDFVXVFVD?DDVDVVVVGGDXXVDGDDGXDVVVDAGV?GVVDVVVVVXFGVDGVFVVXDXVDFFFDDGGDXDVXGDDVGGXDFVVGVVVGVGVXFVFXVDDGAGDADGVDFDAXXDDDDDA",
+      "plaintext": "AOKX11ABENDM?LDUNG8XC1X1?XLAGSTE0?1XARMEEAM7X11XABENDSXDONA?UEBERGANG219XIXDXBEENDZTXBELGRADXSEMUMLEBHAFTERUEBSR?ETZVERKEHRX",
+      "key_period": "Nov7-9",
+      "provenance": "Independent manual transcription and second-agent visual check of every group. Row2group3 has literal C in DGCFX; preserved in raw source and masked as erasure for analysis.",
+      "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+    },
+    {
+      "id": "p164_D",
+      "raw_ciphertext": "FXDDVFVVVGAAVAFXVGXDVGGVXDDVAXAFVFXXGFVVGVVGVAFDAAGAFVGGVVXGAVGGDDGXXDDFAGDXXVFXFGGVGVVGVFGAVDVVVVFAVDXDVDFXDXFXFDDV",
+      "ciphertext": "FXDDVFVVVGAAVAFXVGXDVGGVXDDVAXAFVFXXGFVVGVVGVAFDAAGAFVGGVVXGAVGGDDGXXDDFAGDXXVFXFGGVGVVGVFGAVDVVVVFAVDXDVDFXDXFXFDDV",
+      "plaintext": "ANOXHXLXDORTNOXRMX1A11329OPXGEHXERHAITENOXKXMXRMX1AI1312OP",
+      "key_period": "Nov7-9",
+      "provenance": "Independent manual transcription, then all groups checked by a second agent against source_audit/childs_p164.png. Row3group2 corrected to source-attested VVGVF.",
+      "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+    }
+  ],
+  "p164_certificate_sha256_at_snapshot": "df950ae39d00275f96872cb856c055ee44f6b7abfc8271734c7955916ce4603e",
+  "p159_record": {
+    "id": "p159_A",
+    "printed_page": 159,
+    "source_section": "A",
+    "header_literal": "A) UKS? v ZON (11.12 p.m., November 8th); AN LP 2000 KR; RICHI-272; following control: ZON",
+    "source_rows": [
+      "FDVDD FXAAX XGVDD XADVV XFVXD VDAGG VDAGG ADVDV",
+      "VADDA VDDGV DDGGX GVVGX GVXVG XDDVF VGXXA ADDVV",
+      "FFXDF FFXDF XDXXV DGAGF VDAXV VXDDG VXAAV GDDA",
+      "DVFDX GDGVG VGDDX VXVAG VDVDD DDGVG DXXVX GDDGX",
+      "DDGAA GVAVD VVGAA VGDVD VVDVG GGGDF XGDGD DDDVV",
+      "VFVGF VDGDD VXDAD XDADV GVVVV GDVDD DDVGG VVDGG",
+      "DVVVV VAFVA DXXXV VVVFA FFADV DAXVV FV"
+    ],
+    "source_slots": 271,
+    "advertised_length": 272,
+    "analysis_frame": {
+      "kind": "two_duplicate_groups_excluded_and_eleven_slots_added",
+      "primary_excluded_group_starts": [
+        25,
+        80
+      ],
+      "duplicate_group_alternatives": [
+        [
+          25,
+          30
+        ],
+        [
+          80,
+          85
+        ]
+      ],
+      "single_gap_before_source_index": 118,
+      "first_five_gap_stage_boundary": 15,
+      "second_five_gap_stage_boundary": 110,
+      "stage_definition": "First exclude the selected 5-coordinate instance of each repeated group. Insert one unknown slot before source 118. Both five-slot boundaries are then measured in this 262-slot intermediate stage before either five-slot gap is inserted.",
+      "primary_source_boundary_description": "A five-slot gap before source 15; one slot before source 118 in GDDA; a five-slot gap before source 119 at the end of that printed row.",
+      "initial_fill_claim": false
+    },
+    "expected_raw": "0NOHLXVERPOLEGUNG?OCH14TAGE?10TAGEXX??RPFLEGXEU?GENACHAR??XARADNEI?NGARXREGI?RUNGERWIR?ENXSTAEKE?0000MANNX30000TISREXAOK11XRMX1CX18?GLHX",
+    "edited_output": "ANOHLXVERPFLEGUNGNOCH14TAGEU10TAGEXXVERPFLEGXZUEGENACHARADXARADBEIUNGARXREGIERUNGERWIRKENXSTAEKE?0000MANNX30000TIEREXAOK11XRMX1CX18?GLHX",
+    "readable_german": "An OHL. Verpflegung noch 14 Tage U10 Tage. Verpfleg. Zuege nach Arad. Arad bei ungar. Regierung erwirken. STAEKE ?0000 Mann, 30000 Tiere. AOK11. RM. 1C. 18?GLH.",
+    "meaning": "A conditional provisions report addressed to OHL contains the literal duration labels 14 and 10, a proposal concerning provisions trains to Arad and the Hungarian government, and a field apparently concerning manpower and animals. The transmitted repetitions, abbreviated or damaged words and administrative labels remain; the first strength quantity and footer digit are unresolved.",
+    "expected_substitutions": 6,
+    "expected_inserted_slot_fills": 10,
+    "expected_inserted_slots_unfilled": 1,
+    "protected_fields": [
+      "14",
+      "10",
+      "30000",
+      "11",
+      "1C",
+      "18"
+    ],
+    "quantity_plaintext_index": 96,
+    "reference_plaintext_index": 131,
+    "notes": [
+      "The native 271-slot source retains both VDAGG copies at 25–34 and both FFXDF copies at 80–89. Excluding one instance of each is an explicitly conditional source model, not a transcription correction.",
+      "The primary model excludes 10 valid coordinates and adds 11 new slots. Ten are filled by the word proposal; one remains unknown. No added coordinate comes from an independent parallel witness.",
+      "The two five-slot gaps and the single short-group gap were explored with language heuristics. The subsequent exhaustive six-substitution minimum is conditioned on the stated partial text and constrained family; it does not independently prove that layout or historical wording.",
+      "The same-length wording retains U, the repeated ARAD, STAEKE and the footer 1C18?GLH. A missing R is not silently inserted into STAEKE. No numerical label is repaired to a preferred historical quantity.",
+      "Across tied layouts, 48 source mappings retain literal P0000, while 16 leave the leading symbol in ?0000 open. Their linked domain includes letters as well as digits and is preserved; the primary display chooses no specific count.",
+      "Source reception is 11.12 p.m., November 8. The literal question mark in UKS? belongs to the printed header, rather than the cipher plaintext mask notation."
+    ]
+  },
+  "p153_B1_record": {
+    "id": "p153_B1",
+    "title": "Danube crossing completed and busy crossing traffic",
+    "key_id": "Nov7-9",
+    "header_literal": "B) UKS v ZÖN (9.42 p.m., November 7th); 2010 3 TLE; 1 TL RICHI-160",
+    "edited_output": "ANXOXKXMXXDONAUUEBERGANG21BXIXDXBEENDETXBELGRADXSEMUMXLEBHAFTERUEBERSETZVERKEHRX",
+    "readable_german": "An O. K. M. Donauuebergang 21B I. D. beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.",
+    "meaning": "The first part reports completion of a Danube crossing by a formation transmitted as 21B I D and busy crossing traffic at the labels Belgrad and SEMUM. The unit label is not changed to a plausible number, and SEMUM is not identified with a modern or alternative place-name.",
+    "protected_fields": [
+      "21B"
+    ],
+    "notes": [
+      "The native body is 160 coordinates. Earlier OCR turned the first-row VDGVV into a six-slot masked group, producing 161; the image restores the actual five-coordinate group without a source insertion or deletion.",
+      "DONAUU3BERGANG→DONAUUEBERGANG, BEENDUT→BEENDET, BELGR4D→BELGRAD and UEBSRSETZVERKEHR→UEBERSETZVERKEHR together cost five observed-coordinate substitutions. The raw digits in the damaged words remain visible in the raw layer.",
+      "21B and SEMUM remain literal. The first- and third-part records share 2010 and the same station pair but have different reception times; this edition does not supply a missing second part or claim a complete assembled message.",
+      "The header visibly places two short marks above the O in the sender label; the transcription preserves this as ZÖN without identifying a different station."
+    ],
+    "printed_page": 153,
+    "source_section": "B1",
+    "source_rows": [
+      "VXXGD AAGAG VAVVA VVAFX VDGVV DVVVX VVXDG VGVVV",
+      "XXDXG AGGXF XVDAD DVAGD ADDAV DGXXG DDVVG VXDXD",
+      "VGGXD FDADV GVXFV VVAXV VXXVV VDVDD VDGXD VVVVF",
+      "FXDDD VADFX VVVXD XGVGG AVXGV AVVDX DVVDG GDXDA"
+    ],
+    "source_slots": 160,
+    "advertised_length": 160,
+    "expected_raw": "ANXOXKXMXXDONAUU3BERGANG21BXIXDXBEENDUTXBELGR4DXSEMUMXLEBHAFTERUEBSRSETZVERKEHRX",
+    "source_variants": [],
+    "separator_label": "X",
+    "question_mark_punctuation_at_end": false,
+    "expected_substitutions": 5,
+    "expected_source_mask_fills": 0
+  },
+  "prior_credit": "Published period key: Lasry, Niebel, Kopal and Wacker(2016), Lasry2017 key list. Earlier p164 contextual source records and p159/p153 editions are preserved as prior repository work."
+}

@@ -12,7 +12,7 @@ an unedited repetition of the same abbreviation at the end of the message.
 There are no source-mask fills, insertions, deletions or source reorderings.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p113_reviewed.png](../../experiments/nov3_poti_tobacco_loading/sources/p113_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## p113 C
 
 [Reviewed source image — source-PDF reference](../../experiments/nov3_poti_tobacco_loading/inputs.json).

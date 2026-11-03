@@ -20,7 +20,7 @@ both remain part of the result. Period-key recovery retains the published
 credit to George Lasry and collaborators.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p185_B_reviewed.png](../../experiments/baku_personnel_inquiry/sources/p185_B_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## p185 B
 
 [Reviewed source image — source-PDF reference](../../experiments/baku_personnel_inquiry/inputs.json).

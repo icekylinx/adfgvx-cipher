@@ -7,7 +7,7 @@
 This complete native second part records a request to send money to BRASSO by another means. Two printed non-coordinate slots supply explicit word proposals without changing any valid observed coordinate. The first part, institutional abbreviations, amount and seven coupled reference labels remain unsupplied or literal.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p185_reviewed.png](../../experiments/brasso_money_alternative_route/sources/p185_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and scope
 
 [Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p185 excerpt — source-PDF reference](../../experiments/brasso_money_alternative_route/inputs.json) · [Inputs](../../experiments/brasso_money_alternative_route/inputs.json) · [Position and change certificates](../../experiments/brasso_money_alternative_route/certificates.json)

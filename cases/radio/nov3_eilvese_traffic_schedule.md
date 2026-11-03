@@ -19,7 +19,7 @@ All equally priced frame alternatives are retained. Numerical labels,
 including the unusual **3X13**, remain literal.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p113_D1_reviewed.png](../../experiments/nov3_eilvese_traffic_schedule/sources/p113_D1_reviewed.png) · [p113_D1_repetition_detail.png](../../experiments/nov3_eilvese_traffic_schedule/sources/p113_D1_repetition_detail.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## p113 D1
 
 [Complete reviewed source — source-PDF reference](../../experiments/nov3_eilvese_traffic_schedule/inputs.json)

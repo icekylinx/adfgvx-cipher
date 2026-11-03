@@ -1,0 +1,196 @@
+{
+  "schema": "adfgvx-armistice-remaining-sources-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "indexing": "All source, model and plaintext indices are zero-based.",
+  "case": "cases/radio/nov13_ringbahn_retransmission.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p187_B_reviewed.png",
+      "storage": "external_pdf_reference",
+      "pdf_page_1based": 190,
+      "crop_pdf_points": [
+        40,
+        365,
+        550,
+        500
+      ],
+      "render_scale": 4,
+      "width": 2040,
+      "height": 540,
+      "sha256": "56385eab52143d20e4c242173d36d1ee829cf329ff1c8792b6e0ce73d9d03041",
+      "rgb_sha256": "92c5a231f8f21e59deacbb20e6f32e0e462dd060b6d8fdb82364d266789a8ca2"
+    }
+  ],
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "records": [
+    {
+      "id": "p187_B1",
+      "printed_page": 187,
+      "source_section": "B1",
+      "advertised_length": 214,
+      "source_slots": 140,
+      "source_rows": [
+        "ADFAX GGVFX FAFAA AVXVA FXAXV FXDFF XAVVG FGXAV",
+        "AAGFA AVFXA AVXVD AVXVD DAGVD FXFAF XDXAV XDXV-",
+        "DXDGA DXDGA XXXXF GVGFA AGVAX AXDFA XXAXV GAAXV",
+        "DFVVX VGXGV XXVFA AGFXV"
+      ],
+      "key_id": "Nov4-6",
+      "primary_frame": {
+        "first_excluded_group_start": 50,
+        "second_excluded_group_start": 80,
+        "missing_prefix_coordinates": 5,
+        "missing_interior_before_source_index": 40,
+        "missing_interior_coordinates": 5,
+        "missing_tail_coordinates": 74
+      },
+      "group_aliases": [
+        [
+          50,
+          80
+        ],
+        [
+          50,
+          85
+        ],
+        [
+          55,
+          80
+        ],
+        [
+          55,
+          85
+        ]
+      ],
+      "readable_candidate": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHRCHEFXGXB848727XXDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGX",
+      "readable_german": "November-Ringbahnschluessel nicht vernichten. Nachrchef G B848727. Dezember-Ringbahnschluessel tritt vorlaeufig",
+      "protected_fields": [
+        "B848727"
+      ],
+      "copy_origin_override": {
+        "model_index": 46,
+        "donor_id": "p211_B_lower1",
+        "source_index": 46
+      }
+    }
+  ],
+  "donors": [
+    {
+      "id": "p145_B1",
+      "path": "experiments/nov6_ringbahn_key_witnesses/inputs.json",
+      "sha256": "fba3fac11f80aa03893a3b397bbe9c6e07129b1006ce6fb671b0df3618d65611",
+      "container": "records"
+    },
+    {
+      "id": "p211_B_lower1",
+      "path": "experiments/open_targets_continuation/inputs.json",
+      "sha256": "3e725d540949ed1b654d15d5e9282e49acf6ba2029443fbead7e606ffed9a1d8",
+      "container": "messages"
+    }
+  ],
+  "prior_ocr": {
+    "path": "prior_ocr.json",
+    "sha256": "fbc65fe62ead5aca87b1cf1840c745e587fdf06bb2ab48d327012c0f92d1c9f0",
+    "origin": "experiments/p153_corpus/inputs.json",
+    "origin_sha256": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc"
+  },
+  "header": {
+    "printed_date": "13th NOVEMBER,1918.",
+    "literal": "B) POT v NKJ (16.30 p.m., November 13th); SSD 16.20 UND LEG (13/11) NV BESSER GEBEN GRUPPEN ABSTAENDE; SSD 22.30 (6/11) KR DTY von LP 3 TLE; 1 TL; RICHI-214",
+    "source_note": "Jammed by FL unable to read NKJ",
+    "interpretation": "POT is radio recipient, NKJ sender; the header requests better group spacing and repeats the 2230 November 6 three-part transmission."
+  },
+  "prior_credit": {
+    "period_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016); George Lasry (2017 key list)",
+    "body_editions": [
+      "experiments/nov6_ringbahn_key_witnesses/README.md",
+      "experiments/open_targets_continuation/README.md"
+    ],
+    "current_work": "icekylinx and GPT-6 Astra Pro: source review, copy-family identification, conditional frame and original-coordinate provenance."
+  },
+  "limits": [
+    "The 214-slot model assumes this truncated reception carries the same body as the independently received p145/p211 sources; matching headers and long literal overlaps support the relation.",
+    "The four maps enumerate only the origins of the two identical duplicated five-groups in this stated frame; they do not exhaust all historical corruption mechanisms.",
+    "The 84 copied frame coordinates are not direct recovery from p187 and are unassigned in its 33-position primary total.",
+    "The full source-linked candidate retains the literal reference B848727 and the unfinished final clause; it does not assert compliance with the key instruction."
+  ]
+}

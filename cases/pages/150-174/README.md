@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 125–149](../125-149/README.md) · [pp. 175–199 →](../175-199/README.md)
 
-**8 challenge entries · 117 other reviewed entries · 25 printed pages · 125 physical sources.**
+**8 challenge entries · 119 other reviewed entries · 25 printed pages · 127 physical sources.**
 
 Jump to page: [p150](#p150) · [p151](#p151) · [p152](#p152) · [p153](#p153) · [p154](#p154) · [p155](#p155) · [p156](#p156) · [p157](#p157) · [p158](#p158) · [p159](#p159) · [p160](#p160) · [p161](#p161) · [p162](#p162) · [p163](#p163) · [p164](#p164) · [p165](#p165) · [p166](#p166) · [p167](#p167) · [p168](#p168) · [p169](#p169) · [p170](#p170) · [p171](#p171) · [p172](#p172) · [p173](#p173) · [p174](#p174).
 
@@ -142,7 +142,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
-| [p159 A](../../military/arad_provisions_partial.md) | Arad provisions and strength report: conditional partial recovery | 271 native slots; conditional 272-frame with 10 valid exclusions, 11 additions and 6 substitutions; 124/136 raw-fixed, 134/136 primary edited; quantity/reference family retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier OCR retained |
+| [p159 A](../../military/arad_provisions_partial.md) | Arad provisions and strength report: conditional partial recovery | Reviewed source: earlier primary raw 124/136; independent p168 copy supplies eleven coordinates for 135/136; source-only family has eight minimum maps with one completed stream; footer 5/6 retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier OCR retained |
 | [p159 B](../../p158.md#component-readings) | Munich routing and army-key instruction | Reconstruction from repeated transmissions | Prior body: Childs (1918), Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p159 C](../../p158.md#component-readings) | Munich–Innsbruck routing and army-key instruction | Source-supported one-coordinate deletion | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p159 D](../../people/kremp.md) | Kremp recovered and requests a departure date | 98/98 positions, 196/196 coordinates unchanged | icekylinx and GPT-6 Astra Pro (2026) |
@@ -212,6 +212,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 |---|---|---|---|
 | [p164 A4](../../context/p164_A4.md) | Dismounted cavalry west of an unidentified MIRCO | 87/99 raw positions; full proposal explicitly repaired | icekylinx and GPT-6 Astra Pro (2026) |
 | [p164 B](../../radio/p164_B.md) | Dismantle the station and resume calls after reaching Temesvar | 69/70 raw positions; two substitutions; 0500 is a separate digit inference | icekylinx and GPT-6 Astra Pro (2026) |
+| [p164 C1](../../military/danube_arad_witnesses.md#p164-c1) | AOK11 evening report: Danube crossing and Belgrade–SEMUM traffic | Reviewed native 248 slots; 119/124 fixed raw labels; source glyph restores UEBER; two parallel-supported mask values; edited 122/124 with 4 observed substitutions and 3 mask fills | icekylinx and GPT-6 Astra Pro (2026); prior p164 contextual reading, p153 witness and published key credited |
 
 ## p165
 
@@ -260,6 +261,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 | [p168 B](../../radio/seifert.md) | Cologne soldiers' council plans to occupy a radio station | Two explicit coordinate repairs | Childs; Lasry, Niebel, Kopal and Wacker |
 | [p168 C](../../p158.md#earlier-historical-reading-of-a-component) | Repeated Munich routing order 11338 | Parallel witness to the p 159 B component | Prior body: Childs (1918), Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p168 D](../../p158.md#component-readings) | Repeated Munich–Innsbruck routing instruction | Parallel witness to the p 159 C component | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p168 E](../../military/danube_arad_witnesses.md#p168-e) | Arad provisions copy: native 80000 MANN and source-linked restoration of eleven p159 coordinates | Printed 271 / conditional 272 frame; raw 132/136; three original-source-supported coordinates give 135/136; edited layer 4 observed substitutions; literal strength 80000 and shared 5/6 footer retained | icekylinx and GPT-6 Astra Pro (2026); earlier p159 source edition and published key credited |
 
 ## p169
 

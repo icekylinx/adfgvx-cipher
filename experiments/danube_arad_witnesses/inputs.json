@@ -1,0 +1,267 @@
+{
+  "schema": "adfgvx-nov8-remaining-source-inputs-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "cases/military/danube_arad_witnesses.md",
+  "indexing": "Machine source,model and plaintext indices are zero-based.",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p164_C1",
+      "path": "sources/p164_C1.png",
+      "storage": "external_pdf_reference",
+      "pdf_page_1based": 167,
+      "crop_pdf_points": [
+        65,
+        525,
+        550,
+        650
+      ],
+      "render_scale": 4,
+      "width": 1940,
+      "height": 500,
+      "sha256": "6e4bf545d138d8db9228d4fa8c2f58df12275ece35d88341cef05cb4f368374c",
+      "rgb_sha256": "b2dd0bad2ffa4476fc42450f0f2d8ae9c560a6e4c40248b53607eda1b0d115ea"
+    },
+    {
+      "id": "p168_E",
+      "path": "sources/p168_E.png",
+      "storage": "external_pdf_reference",
+      "pdf_page_1based": 171,
+      "crop_pdf_points": [
+        73,
+        615,
+        553,
+        748
+      ],
+      "render_scale": 4,
+      "width": 1920,
+      "height": 532,
+      "sha256": "af6625e0f085674c4a26f20dbaccf2596dff5add924b1b4d93fcc1919ab14732",
+      "rgb_sha256": "8fb8ac4b7557ae2d07888753882712e61cdbd57b95c2050472c2a9797345ee9e"
+    }
+  ],
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "p164_C1",
+      "printed_page": 164,
+      "source_section": "C1",
+      "key_id": "Nov7-9",
+      "header_literal": "C) ZON v UKS (1.57 a.m., November 9th); 2101 5 TLE; 1 TL RICHI-248",
+      "source_rows": [
+        "V-VVA XGVDV XDAGD XAVXX GDAAD FAVVF XDXGA DDGVX",
+        "VX-DV DVXGV DGCFX VGVXX VVXXF GDDAF XXGDD FAFDX",
+        "XDGXX VAVFX FFVVA VVDGG XXDXF FXVDA AGVAG FDDGV",
+        "GDVDG VVDFV XVFVD -DDVD VVVVG GDXVV DGDDG XDVVV",
+        "DAGV- GVVDV VVVVX FGVDG VFVVX DXVDF FFDDG GDXDV",
+        "XGDDV GGXDF VVGVV VGVGV XFVFX VDDGA GDADG VDFDA",
+        "XXDDD DDA"
+      ],
+      "source_slots": 248,
+      "advertised_length": 248,
+      "analysis_frame": {
+        "kind": "native"
+      },
+      "expected_raw": "AOKX11ABENDM?LDUNG8XC1X1?XLAGSTE0?1XARMEEAM7X11XABENDSXDONA?UEBERGANG219XIXDXBEENDZTXBELGRADXSEMUMLEBHAFTERUEBER?ETZVERKEHRX",
+      "edited_output": "AOKX11ABENDMELDUNG8XC1X1?XLAGEDER?1XARMEEAM7X11XABENDSXDONAUUEBERGANG219XIXDXBEENDETXBELGRADXSEMUMLEBHAFTERUEBERSETZVERKEHRX",
+      "readable_german": "AOK11. Abendmeldung 8. C1 1?. Lage der ?1 Armee am 7 11 abends. Donauuebergang 219 I D beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.",
+      "expected_substitutions": 4,
+      "expected_erasure_fills": 3
+    },
+    {
+      "id": "p168_E",
+      "printed_page": 168,
+      "source_section": "E",
+      "key_id": "Nov7-9",
+      "header_literal": "E) UKS v ZON (11.05 p.m., November 9th);AN LP 2000 KR; RICHI-272",
+      "source_rows": [
+        "FDVDD FXAAX XGVDD XVDDX XADVV XFVXD VDAGG ADVDV",
+        "VADDA VDDGV DDGX GVVGX GVXVG VDVXX VGXXA ADDVV",
+        "FFXDF XDXXV DGAGF VDAXV VXDDG VXAAV GDDGA XADVF",
+        "DVFDX GDGXG VGDDX VXVAG VDVDD DDGVG DXXVX GDDGX",
+        "DDGAA GVAVD VVGAA VGDVD VVDVG GGGDF XGDGD DDDVV",
+        "VF--F VDGDD VXDAD XDADV GVVVV GDVDD DDVGG VVDGG",
+        "DVVVV VAFVA DXXXV VVVFA FFADV DAXVV FV"
+      ],
+      "source_slots": 271,
+      "advertised_length": 272,
+      "analysis_frame": {
+        "kind": "single_missing_coordinate_in_short_group",
+        "insert_unknown_at_source_boundary": 52,
+        "short_group_start": 50,
+        "short_group": "DDGX",
+        "completed_group": "DDGGX",
+        "source_supported_insertion_boundaries": [
+          52,
+          53
+        ]
+      },
+      "expected_raw": "ANOHLXVERPFLEGUNGNOCH14TAGEX10TAGEXXVERPFLEGXEUEGENACHARADHARADNEIUNGARXREGIERUNGERWIRKENXSTAEKE80000MANNX30000?IEREXAO?1?XRMX1CX18?GEHX",
+      "edited_output": "ANOHLXVERPFLEGUNGNOCH14TAGEX10TAGEXXVERPFLEGXZUEGENACHARADXARADBEIUNGARXREGIERUNGERWIRKENXSTAEKE80000MANNX30000TIEREXAOK11XRMX1CX18?GEHX",
+      "readable_german": "An OHL. Verpflegung noch 14 Tage. 10 Tage. Verpfleg. Zuege nach Arad. Arad bei ungar. Regierung erwirken. STAEKE 80000 Mann, 30000 Tiere. AOK11. RM 1C18?GEH.",
+      "expected_substitutions": 4,
+      "expected_erasure_fills": 3
+    }
+  ],
+  "prior_snapshot_sha256": "7d1cd48ef32986524168ded7fa6cb3bdc560e9244c6b276b9a134ab568557027",
+  "source_glyph_correction": {
+    "record": "p164_C1",
+    "source_index": 148,
+    "earlier": "X",
+    "printed": "V",
+    "printed_group": "GDXVV",
+    "old_group": "GDXXV",
+    "plaintext_index": 110,
+    "old_raw": "S",
+    "new_raw": "E"
+  },
+  "prior_credit": "Published period key: Lasry, Niebel, Kopal and Wacker(2016), Lasry2017 key list. Earlier p164 contextual source records and p159/p153 editions are preserved as prior repository work.",
+  "limits": [
+    "The p168E272-slot frame inserts one coordinate in the visibly shortDDGX group; the p159DDGGX witness suppliesG and leaves two equal-G source-origin aliases.",
+    "All eight source-only minimizing p159 maps within the full earlier finite edit family produce one linked ciphertext. All borrowed values have directly observed original-source origins; no source-linked value is donated back.",
+    "Literal14TAGE X10TAGE,STAEKE,80000,30000,219 versus21B,all reference fields and the globally coupled5/6 footer are retained."
+  ],
+  "source_only_family": {
+    "reference": "p168_E unfilled primary272-slot frame, all three unobserved coordinates unassigned",
+    "canonical_models": 173580,
+    "source_origin_models": 694320,
+    "expected_minimum_disagreements": 5,
+    "expected_canonical_minima": [
+      [
+        118,
+        15,
+        110,
+        258
+      ],
+      [
+        118,
+        16,
+        110,
+        258
+      ]
+    ],
+    "expected_price_sha256": "a46e3534617710c1a71f98d1785187efb3f7593ba9003c59fac43b33eb6e19eb",
+    "objective": "Count mismatches only at originally observed coordinate pairs. No plaintext template."
+  }
+}

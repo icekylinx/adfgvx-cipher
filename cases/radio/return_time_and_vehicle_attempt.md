@@ -7,7 +7,7 @@
 Two complete short native bodies report an expected return and discuss obtaining a vehicle. The first is unchanged; the second has four explicitly priced coordinate substitutions. The incomplete spelling RUECKUNFT, the literal 0100 field and the elliptical sense of VERSUCHEN remain visible.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p182_reviewed.png](../../experiments/return_time_and_vehicle_attempt/sources/p182_reviewed.png) · [p189_reviewed.png](../../experiments/return_time_and_vehicle_attempt/sources/p189_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and scope
 
 [Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p182 excerpt — source-PDF reference](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Reviewed p189 excerpt — source-PDF reference](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Inputs](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Position and change certificates](../../experiments/return_time_and_vehicle_attempt/certificates.json)

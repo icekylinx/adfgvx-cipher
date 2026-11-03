@@ -22,7 +22,7 @@ slot is deleted or reordered and the published **Nov4–6** key is unchanged.
 The insertion positions and complete wording remain stated hypotheses.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p146_C_reviewed.png](../../experiments/nov6_tiflis_ringbahn_instruction/sources/p146_C_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and date layers
 
 [Reviewed source image — source-PDF reference](../../experiments/nov6_tiflis_ringbahn_instruction/inputs.json).

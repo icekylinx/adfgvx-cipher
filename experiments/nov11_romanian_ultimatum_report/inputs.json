@@ -1,0 +1,244 @@
+{
+  "schema": "adfgvx-nov11-romanian-ultimatum-report-inputs-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "indexing": "All source, model and plaintext indices are zero-based.",
+  "case": "cases/military/nov11_romanian_ultimatum_report.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p180_D_reviewed.png",
+      "storage": "external_pdf_reference",
+      "pdf_page_1based": 183,
+      "crop_pdf_points": [
+        70,
+        488,
+        550,
+        604
+      ],
+      "render_scale": 4,
+      "width": 1920,
+      "height": 464,
+      "sha256": "483b6e635a61cb5e3832c920df127edfbfdf5d6a7efe3ceabb05c605436da82d",
+      "rgb_sha256": "289c89f1dc377f2d2c676284d3a77f05a12a7338ca7ebb8eb3a2194672c422bb"
+    }
+  ],
+  "key": {
+    "id": "Nov10-12",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      9,
+      12,
+      7,
+      11,
+      3,
+      8,
+      16,
+      6,
+      14,
+      2,
+      10,
+      15,
+      5,
+      13,
+      1,
+      4
+    ],
+    "column_count": 16,
+    "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+    "square_rows": [
+      "4ARUT1",
+      "OIFSKN",
+      "3?BZPV",
+      "LD?JMX",
+      "CWHQ2E",
+      "?G0?Y?"
+    ],
+    "known_cell_count": 31,
+    "missing_plaintext_symbols": "56789",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 242,
+        "pdf_page_1based": 245,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "The historical appendix also labels this table December 1-3."
+    ],
+    "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+    "baseline_differences": [
+      {
+        "coordinate": "FD",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GF",
+        "baseline": "6",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "7",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XG",
+        "baseline": "8",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XX",
+        "baseline": "9",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+    "previously_published_completion": {
+      "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-02",
+      "comment": 26,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "FD",
+          "proposed": "5"
+        },
+        {
+          "row_column": "GF",
+          "proposed": "6"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "7"
+        },
+        {
+          "row_column": "XG",
+          "proposed": "8"
+        },
+        {
+          "row_column": "XX",
+          "proposed": "9"
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "p180_D1",
+      "printed_page": 180,
+      "source_section": "D1",
+      "advertised_length": 196,
+      "source_slots": 197,
+      "source_rows": [
+        "FAVAV GAGDD FAAXG VADAX FAADD GGAGV XVVAD DFGXD",
+        "VVGDX XFVAG AGGAA AVAAA FVFAF FVXDX DVDDX GAADG",
+        "AAGAA ADXGV XDXDF XXAVD DAA-D VD-O- G---- VDDDD",
+        "VXX-- XGVXD XGVXD FVXDV DXXXV FGXXG DVDGV FXGVF",
+        "GVAAD AAFDV VVXAV DFXGA FVFAV GAGDA VDAVD AA"
+      ],
+      "key_id": "Nov10-12",
+      "primary_frame": {
+        "excluded_duplicate_start": 125,
+        "excluded_final_A": 195,
+        "gap_boundary_in_retained_stream": 145,
+        "inserted_slots": 5
+      },
+      "expected_raw": "ANOHLX?BE?DME??UN?XRU?AENXULT?MATUMFO?D2RTERAEUM?NG24STUNDENVORDERWAFFENSTRECKUN?XNICHTB?ANTW?RT?T",
+      "readable_candidate": "ANOHLXABENDMELDUNGXRUMAENXULTIMATUMFORDERTERAEUMUNG24STUNDENVORDERWAFFENSTRECKUNGXNICHTBEANTWORTET",
+      "readable_german": "An OHL. Abendmeldung. Rumaen. Ultimatum forderte Raeumung 24 Stunden vor der Waffenstreckung. Nicht beantwortet.",
+      "protected_spans": [
+        {
+          "start": 51,
+          "end": 53,
+          "literal": "24"
+        },
+        {
+          "start": 82,
+          "end": 87,
+          "literal": "NICHT"
+        }
+      ]
+    }
+  ],
+  "header": {
+    "printed_page_date": "(?) NOVEMBER, 1918; handwritten 11th above the question mark",
+    "literal": "D) LP v ZON (03.49 p.m., November 11th); 22.20; 1 TL; RICHI-196",
+    "source_note": "fairly correct - badly jammed",
+    "limits": "The originating-time field 22.20 has no separately printed date; no date reconciliation or total part count is supplied."
+  },
+  "prior_ocr": {
+    "path": "prior_ocr.json",
+    "sha256": "201ce448d0b21f5d776949ff03aa1fdf8b2da11695707a94d9be9e9c5b896f0a",
+    "origin": "experiments/p153_corpus/inputs.json",
+    "origin_sha256": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc"
+  },
+  "independent_source_audit": {
+    "path": "source_audit.json",
+    "sha256": "0c11d40a9897fe514f4e99b946e8302b2ca432dd867f879ee31aa27799a31456",
+    "review_basis": "Second visual inspection of the original PDF independently confirmed the header, all 197 glyphs, two repeated XGVXD groups, trailing AA and ten invalid/masked slots."
+  },
+  "related_source": {
+    "path": "experiments/romanian_ultimatum_companions/inputs.json",
+    "sha256": "c3e55a15bd2ecf988289e5bf17658e6d473f6d40cd15381a40fe434170d6c6e6",
+    "record_id": "p175_C1",
+    "relationship": "Separate related ultimatum report, used only as context; no coordinate or plaintext is copied."
+  },
+  "prior_credit": {
+    "period_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016); George Lasry (2017 key list)",
+    "earlier_digital_source": "The unreviewed p180 OCR block and the already accepted p175 ultimatum companions remain separately credited.",
+    "current_work": "icekylinx and GPT-6 Astra Pro: source transcription, duplicate/missing-group reconstruction, new evening-report reading and independent verification."
+  },
+  "limits": [
+    "The two-observed-substitution minimum is conditional on the fixed 98-position lexical candidate and the declared one-duplicate-group/one-final-A/five-loss source model.",
+    "Both five-loss geometries and all four identical-group/end-A origins are retained: eight tied maps give the same completed ciphertext, with 85 or 84 primary fixed labels.",
+    "Printed dashes and the invalid O-like glyph are ten existing source masks, not unlocated historical losses. The five added coordinates are counted separately.",
+    "The readable Rumaen. is the literal abbreviation RUMAEN; no extra transmitted letters are supplied in its display.",
+    "The printed receipt date and originating-time field are retained. The phrase 24 STUNDEN VOR DER WAFFENSTRECKUNG is not converted into a specific calendar deadline."
+  ]
+}

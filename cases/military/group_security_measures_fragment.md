@@ -7,7 +7,7 @@
 A complete native second-part body directs security measures according to one’s own discretion. Its first part is not supplied. Six explicitly priced coordinate changes recover the ordinary-word clause while the opening label, two irregular spellings and three coupled reference positions remain literal or unresolved.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p184_reviewed.png](../../experiments/group_security_measures_fragment/sources/p184_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and scope
 
 [Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p184 excerpt — source-PDF reference](../../experiments/group_security_measures_fragment/inputs.json) · [Inputs](../../experiments/group_security_measures_fragment/inputs.json) · [Position and change certificates](../../experiments/group_security_measures_fragment/certificates.json)

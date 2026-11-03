@@ -18,7 +18,7 @@ exclusion, reordering or key change. Published period-key recovery retains
 the attribution to George Lasry and collaborators.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p167_B_reviewed.png](../../experiments/nov9_crown_airlift_and_embassy/sources/p167_B_reviewed.png) · [p167_E_reviewed.png](../../experiments/nov9_crown_airlift_and_embassy/sources/p167_E_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## p167 B1
 
 [Reviewed B source image — source-PDF reference](../../experiments/nov9_crown_airlift_and_embassy/inputs.json).

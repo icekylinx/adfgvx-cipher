@@ -9,7 +9,7 @@
 The 192-slot section B on Childs p144 supports a short passage concerning troops crossing in boats and a routine no-further-events ending. Its opening, one intervening token and the location remain garbled. The edition retains those labels and gives a limited ordinary-word proposal with its exact source cost.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p144_reviewed.png](../../experiments/nov6_boat_crossing_fragment/sources/p144_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and scope
 
 [Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed source excerpt — source-PDF reference](../../experiments/nov6_boat_crossing_fragment/inputs.json) · [Literal inputs](../../experiments/nov6_boat_crossing_fragment/inputs.json) · [Position and repair certificates](../../experiments/nov6_boat_crossing_fragment/certificates.json)

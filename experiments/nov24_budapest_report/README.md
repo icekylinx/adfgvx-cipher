@@ -33,8 +33,9 @@ stream and per-position source ledger. The preserved
 
 All **204 printed slots** of B1 were also checked. The duplicated `FXXXF`
 groups at source indices 45 and 50 are genuinely printed. Its native output
-remains garbled, so B1 is retained as a source diagnostic in the certificate
-and contributes no catalogue reading in this package.
+remains in this package as the earlier diagnostic. The new
+[conditional B1 edition](../nov24_train_report/README.md) recovers the
+train-report wording through an explicitly priced repeated-group frame.
 
 ## Reproduce
 

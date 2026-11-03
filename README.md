@@ -12,7 +12,7 @@ This project brings the **22 Lasry–Schmeh challenge entries and the wider coll
 
 - **A new shared key and partial decipherment for p153.** The recovered 18-column key fixes 60 of 66 positions in [part 5](cases/p153a.md) without changing a source coordinate and supports the [rearguard-ammunition reading in part 6](cases/p153b.md). Independent exact checks cover every width from 14 through 26; only width 18 fits the sixty-letter crib. [Recovery and verification](experiments/p153_recovery/README.md).
 - **A unified edition of the wider traffic.** Source review restores message boundaries, damaged groups and readable bodies across military, naval, radio, financial and personnel correspondence. The page tables below lead to every reviewed record. The [twelve instructional examples](experiments/childs_instructional_examples/README.md) are also fully reproduced.
-- **Missing text recovered from independent copies.** The [November 14 transmissions](cases/radio/nov14_radio_retransmissions.md) restore an 85-coordinate prefix. The [silk-resale witnesses](cases/finance/nov6_silk_resale_continuation.md) jointly support all 135 continuation positions. Other source families resolve individual labels and expose shared transmission defects.
+- **Missing text recovered from independent copies.** The [November 14 transmissions](cases/radio/nov14_radio_retransmissions.md) restore an 85-coordinate prefix. The [silk-resale witnesses](cases/finance/nov6_silk_resale_continuation.md) jointly support all 135 continuation positions. The new [Arad witness](cases/military/danube_arad_witnesses.md) restores all eleven lost coordinates in p159, fixes **80000 MANN**, and narrows the entire declared source family to eight maps with one completed stream.
 - **Exact tools for damaged ciphertext.** The [multi-witness decoder](experiments/parallel_decoder/README.md) optimizes all `2^42` minimum-cost p109 readings. The [joint loss decoder](experiments/p198_joint_exact/README.md) covers 8,670,506,592,384 five-loss witnesses per fixed complete key. Published controls measure which word and numeral ambiguities these methods resolve.
 
 **p73, p170 A and p198 D remain wholly open.** All case pages distinguish raw recovery, explicitly repaired text and conditional interpretation using the shared [reading conventions](docs/reading-conventions.md).
@@ -35,11 +35,11 @@ Original challenge identifiers are retained; p198 denotes section D.
 | [pp. 175–199](cases/pages/175-199/README.md) | 6 | [p176a](cases/p176a.md), [p176b](cases/p176b.md), [p187](cases/p187.md), [p187b](cases/p187b.md), [p189](cases/p189.md), [p198](cases/p198.md) |
 | [pp. 200–224](cases/pages/200-224/README.md) | 2 | [p215](cases/p215.md), [p217](cases/p217.md) |
 
-### Other ciphertexts — 632 reviewed entries
+### Other ciphertexts — 637 reviewed entries
 
 Numbered parts and received copies are listed individually, with their reviewed reading status.
 
-**654 catalogue entries · 653 physical sources · 631 beyond the challenges.** The [source register](docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
+**659 catalogue entries · 658 physical sources · 636 beyond the challenges.** The [source register](docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
 
 | Printed source pages | Reviewed entries | Pages represented |
 |---|---:|---:|
@@ -47,9 +47,9 @@ Numbered parts and received copies are listed individually, with their reviewed 
 | [pp. 75–99](cases/pages/075-099/README.md) | 63 | 25 |
 | [pp. 100–124](cases/pages/100-124/README.md) | 91 | 25 |
 | [pp. 125–149](cases/pages/125-149/README.md) | 75 | 25 |
-| [pp. 150–174](cases/pages/150-174/README.md) | 117 | 25 |
-| [pp. 175–199](cases/pages/175-199/README.md) | 100 | 25 |
-| [pp. 200–224](cases/pages/200-224/README.md) | 113 | 25 |
+| [pp. 150–174](cases/pages/150-174/README.md) | 119 | 25 |
+| [pp. 175–199](cases/pages/175-199/README.md) | 102 | 25 |
+| [pp. 200–224](cases/pages/200-224/README.md) | 114 | 25 |
 | [pp. 225–249](cases/pages/225-249/README.md) | 29 | 6 |
 
 Source review and current research: **icekylinx and GPT-6 Astra Pro**. Each detailed entry credits its earlier readings and keys.
@@ -59,7 +59,7 @@ Source review and current research: **icekylinx and GPT-6 Astra Pro**. Each deta
 
 | Subject | Selected editions |
 |---|---|
-| Military operations | [Orient intelligence](cases/military/orient_intelligence.md), [Mackensen’s withdrawal](cases/military/mackensen_withdrawal_part2.md), [Hungarian armistice instructions](cases/military/hungarian_armistice_instructions.md) |
+| Military operations | [Romanian ultimatum report](cases/military/nov11_romanian_ultimatum_report.md), [Orient intelligence](cases/military/orient_intelligence.md), [Mackensen’s withdrawal](cases/military/mackensen_withdrawal_part2.md), [Hungarian armistice instructions](cases/military/hungarian_armistice_instructions.md) |
 | Ships and evacuation | [Corcovado sale terms](cases/naval/corcovado_sale_terms.md), [Turkish tonnage](cases/naval/turkish_tonnage.md), [Black Sea routing](cases/military/black_sea_evacuation_routes.md) |
 | Radio service | [Eilvese schedule](cases/radio/nov3_eilvese_traffic_schedule.md), [Ringbahn key instructions](cases/radio/nov6_ringbahn_key_witnesses.md), [Seifert witnesses](cases/radio/seifert.md) |
 | Finance and procurement | [Crown airlift request](cases/finance/nov9_crown_airlift_and_embassy.md), [Military allowances](cases/finance/military_allowances.md), [ZITAG orders](cases/finance/zitag_purchase_orders.md) |

@@ -2,12 +2,14 @@
 
 **Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
 
+**New parallel evidence.** [p164 C1](danube_arad_witnesses.md#p164-c1) supplies native pair witnesses for the E/A/E proposals in p153 B1's U3BER, BELGR4D and UEBSR. The two reports retain their distinct formation labels.
+
 This edition reviews five separate physical records on printed pages 152–153 of J. Rives Childs’s *General Solution of the ADFGVX Cipher System*. The useful readings concern a reported attack near Belgrad after a crossing, a short morning report, the receipt of a message, a prescribed line, and Danube crossing traffic. Each body keeps its **native printed length and order**. The explicit word proposals cost **14 observed-coordinate substitutions and four fills of source dashes** across the five records. One character in `EB?Q` remains unresolved.
 
 The two page-153 records are the printed third and first parts under separate reception headers. Their common `2010` label and station pair do not supply the absent second part or establish a complete assembled message. These records are separate from the original challenge entries [p153a](../p153a.md) and [p153b](../p153b.md), which are the later fifth and sixth parts on that page and are not counted here.
 
 
-**Source-evidence delivery.** This text-only edition links the original public PDF and retains its page/crop coordinates, dimensions and pixel hashes. No new scan-image file is distributed. The default verifier checks the text and arithmetic; source pixels are checked only when the original PDF is supplied with `--pdf`.
+**Reviewed source crops:** [p152_reviewed.png](../../experiments/nov7_danube_and_message_reports/sources/p152_reviewed.png) · [p153_reviewed.png](../../experiments/nov7_danube_and_message_reports/sources/p153_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Evidence and costs
 
 All coordinates and plaintext positions below use **zero-based indices**. A fixed plaintext position means that the published key and the stated coordinate frame determine that label; it does not mean that the resulting word is historically correct.

@@ -9341,13 +9341,15 @@
       "printed_page": 159,
       "source_section": "A",
       "subject": "Arad provisions and strength report: conditional partial recovery",
-      "status": "271 native slots; conditional 272-frame with 10 valid exclusions, 11 additions and 6 substitutions; 124/136 raw-fixed, 134/136 primary edited; quantity/reference family retained",
+      "status": "Reviewed source: earlier primary raw 124/136; independent p168 copy supplies eleven coordinates for 135/136; source-only family has eight minimum maps with one completed stream; footer 5/6 retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key; earlier OCR retained",
       "path": "cases/military/arad_provisions_partial.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/arad_provisions_partial/inputs.json",
-        "experiments/arad_provisions_partial/certificates.json"
+        "experiments/arad_provisions_partial/certificates.json",
+        "experiments/danube_arad_witnesses/inputs.json",
+        "experiments/danube_arad_witnesses/certificates.json"
       ]
     },
     {
@@ -9633,6 +9635,81 @@
       "evidence": [
         "experiments/nov24_budapest_report/inputs.json",
         "experiments/nov24_budapest_report/certificates.json"
+      ]
+    },
+    {
+      "id": "p164_C1",
+      "label": "p164 C1",
+      "printed_page": 164,
+      "source_section": "C1",
+      "subject": "AOK11 evening report: Danube crossing and Belgrade–SEMUM traffic",
+      "status": "Reviewed native 248 slots; 119/124 fixed raw labels; source glyph restores UEBER; two parallel-supported mask values; edited 122/124 with 4 observed substitutions and 3 mask fills",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); prior p164 contextual reading, p153 witness and published key credited",
+      "path": "cases/military/danube_arad_witnesses.md#p164-c1",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/danube_arad_witnesses/inputs.json",
+        "experiments/danube_arad_witnesses/certificates.json"
+      ]
+    },
+    {
+      "id": "p168_E",
+      "label": "p168 E",
+      "printed_page": 168,
+      "source_section": "E",
+      "subject": "Arad provisions copy: native 80000 MANN and source-linked restoration of eleven p159 coordinates",
+      "status": "Printed 271 / conditional 272 frame; raw 132/136; three original-source-supported coordinates give 135/136; edited layer 4 observed substitutions; literal strength 80000 and shared 5/6 footer retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); earlier p159 source edition and published key credited",
+      "path": "cases/military/danube_arad_witnesses.md#p168-e",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/danube_arad_witnesses/inputs.json",
+        "experiments/danube_arad_witnesses/certificates.json"
+      ]
+    },
+    {
+      "id": "p187_B1",
+      "label": "p187 B1",
+      "printed_page": 187,
+      "source_section": "B1",
+      "subject": "Third reception of the November Ringbahn-key retention instruction",
+      "status": "Reviewed 140-slot fragment; conditional 214-slot copy frame, raw 33/107; 84 copied coordinates, ten duplicate exclusions, five observed substitutions and one printed-mask fill",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); earlier p145/p211 body editions and published key credited",
+      "path": "cases/radio/nov13_ringbahn_retransmission.md#p187-b1",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov13_ringbahn_retransmission/inputs.json",
+        "experiments/nov13_ringbahn_retransmission/certificates.json"
+      ]
+    },
+    {
+      "id": "p217_B1",
+      "label": "p217 B1",
+      "printed_page": 217,
+      "source_section": "B1",
+      "subject": "Additional train departures and divisional positions in a conditional evening report",
+      "status": "Reviewed 204 native slots; conditional 204 frame excludes 5 and adds 5; raw 76/102; zero-substitution lexical completion 96/102; optional 4-substitution 99/102 reading; all tied declared frames retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published key and earlier source review credited",
+      "path": "cases/military/nov24_train_report.md#p217-b1",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov24_train_report/inputs.json",
+        "experiments/nov24_train_report/certificates.json"
+      ]
+    },
+    {
+      "id": "p180_D1",
+      "label": "p180 D1",
+      "printed_page": 180,
+      "source_section": "D1",
+      "subject": "Evening report on an unanswered Romanian evacuation ultimatum",
+      "status": "Native 197 slots; conditional 196-frame after six observed exclusions and five added slots; raw 85/98 (alternative 84/98); eight tied maps; two substitutions, ten printed-mask fills and five added-slot fills",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited",
+      "path": "cases/military/nov11_romanian_ultimatum_report.md#p180-d1",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/nov11_romanian_ultimatum_report/inputs.json",
+        "experiments/nov11_romanian_ultimatum_report/certificates.json"
       ]
     }
   ]
