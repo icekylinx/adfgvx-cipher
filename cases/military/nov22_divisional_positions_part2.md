@@ -68,6 +68,8 @@ The following alternative proposes **HODMEZOE VASARHELY, OROSHAZA, NAGYBANHEGYES
 
 This alternative makes the proposed place names easier to recognize. It does not establish that all these places had been reached: the explicit ERREICHT clause belongs to the opening area report, while the rest lists areas and staff locations.
 
+**Later shared-key interpretation:** The [Hungarian Y constraint](../../experiments/p215_hungarian_y/README.md), supported by this source and operational p217 A3, separately assigns DD to Y. Under that optional global interpretation, the same geographical word proposal needs **8 observed substitutions and 14 printed-mask fills**: all five geographical Y pairs revert to their original observed DD coordinates. The joint numeral/J/Y layer also changes the leading baseline Y to numeral 1 and leaves other unproved unit labels unresolved. The earlier baseline-square display and its full 18-substitution ledger below remain intact.
+
 **Additional source changes beyond the primary 13 fills:**
 
 | Source index | Printed | Proposed | Cost |

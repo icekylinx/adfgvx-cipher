@@ -168,9 +168,13 @@
       "id": "p215",
       "label": "p215",
       "subject": "Apparent Entente troop-transport report",
-      "status": "Prior partial; Kosch interpretation and conditional ?1?6 reference",
+      "status": "Prior partial; Kosch interpretation; 56 conditional closing values under shared numeral/J/Y hypotheses",
       "credit": "Norbert (2017)",
-      "path": "cases/p215.md"
+      "path": "cases/p215.md",
+      "evidence": [
+        "experiments/p215_hungarian_y/inputs.json",
+        "experiments/p215_hungarian_y/certificates.json"
+      ]
     },
     {
       "id": "p217",
@@ -8773,13 +8777,15 @@
       "printed_page": 215,
       "source_section": "B2",
       "subject": "Divisional areas and staff locations: second part with explicit geographical alternatives",
-      "status": "129/150 native raw positions; 0 coordinate substitutions + 13 source-mask fills; no frame change; optional geography: 18 substitutions + 14 fills total",
+      "status": "129/150 native raw positions; 0 coordinate substitutions + 13 source-mask fills; optional geography: 18 substitutions + 14 fills under baseline, or 8 + 14 under shared DD=Y",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov22-24 key; prior OCR and body attribution retained",
       "path": "cases/military/nov22_divisional_positions_part2.md#p215-b2",
       "source_reviewed": true,
       "evidence": [
         "experiments/southern_hungary_positions_part2/inputs.json",
-        "experiments/southern_hungary_positions_part2/certificates.json"
+        "experiments/southern_hungary_positions_part2/certificates.json",
+        "experiments/p215_hungarian_y/inputs.json",
+        "experiments/p215_hungarian_y/certificates.json"
       ]
     },
     {

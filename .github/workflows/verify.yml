@@ -288,10 +288,12 @@ jobs:
           python experiments/p137_station_staff_query/verify.py --verify
           python experiments/p176_verpflegs_joint_completion/verify.py --verify
           python experiments/p176a_source_retention_bound/verify.py --verify
+          python experiments/p215_hungarian_y/verify.py --verify
           python data/reviews/verify_source_gap_audit.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |
           python experiments/p198_word_search/verify.py
+          python experiments/p198_word_search/column_reuse.py --verify --repo .
           python experiments/p198_pretransposition_loss/verify.py --verify
           python experiments/radio_domain_model/verify.py
           python experiments/radio_domain_model/digit_symmetry/verify.py

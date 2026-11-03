@@ -170,3 +170,38 @@ trie dynamic program, checks original completion logs and binary identity,
 and rebuilds the radio/class tables separately. It preserves its original
 30-case snapshot so a later expanded ledger cannot silently replace an audit
 that covered fewer completed runs.
+
+## Source-copy test with unknown column order
+
+The supplementary `column_reuse.py` tests a different finite family from the
+language-ranked searches above. For each fixed 85-label donor window, it uses
+every physical donor column exactly once in any order, with exactly five
+transmitted-coordinate losses and at most two separately priced observed
+coordinate substitutions. No published rank order is supplied to the matcher.
+
+The frozen reviewed-edition donor snapshot contains 293 distinct strings and 8,678
+unique windows. Eleven complete catalogue squares and the partial Nov13b
+anchors are comparisons; their inclusion does not establish historical key
+applicability. Every assignment of a used missing label is globally injective.
+Assignments of labels absent from the donor cannot affect its ciphertext and
+have one representative completion. A necessary coordinate-count bound leaves
+176 window/square candidates; the exact column-subsequence dynamic program
+rejects all of them. **No p198 D plaintext or key is accepted.**
+
+The replay checks all recorded donor origins, the canonical source and key
+snapshots, nine positive run cases on three rank/square fixtures and two
+newly composed bodies, 9,216 tiny source/budget comparisons against independent
+full permutation/deletion enumeration, and three histogram checks against all
+5,040 completions of a seven-cell partial square. Source witnesses retain every
+received slot in order and itemize any observed-coordinate changes. The broader
+67,692-window exploratory pool included diagnostics; its separate summary is
+explicitly outside the bundled standalone replay.
+
+```sh
+python experiments/p198_word_search/column_reuse.py --verify --repo .
+```
+
+The [manifest](column_reuse_manifest.json) fixes the source, donors, key-family
+scope, control cases and completed results. This exact negative applies only
+to its donor family and five-loss/85-label hypothesis. It does not exclude an
+unseen message, other damage or other key families.

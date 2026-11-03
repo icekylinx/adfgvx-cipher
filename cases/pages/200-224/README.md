@@ -188,14 +188,14 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
-| [p215](../../p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
+| [p215](../../p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation; 56 conditional closing values under shared numeral/J/Y hypotheses | Norbert (2017) |
 
 ### Other reviewed source records
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p215 B1](../../military/p215_train_departure_fragment.md#p215-b1) | Evening-report fragment: further trains departing and proposed Szeged fields | Native 145-slot fragment; conditional 220 frame after 75 missing slots; raw 37/110, partial lexical 77/110; zero observed substitutions, 3 printed-mask + 39 added-slot fills; 33 unknowns and both X/A glyph layers retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
-| [p215 B2](../../military/nov22_divisional_positions_part2.md#p215-b2) | Divisional areas and staff locations: second part with explicit geographical alternatives | 129/150 native raw positions; 0 coordinate substitutions + 13 source-mask fills; no frame change; optional geography: 18 substitutions + 14 fills total | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov22-24 key; prior OCR and body attribution retained |
+| [p215 B2](../../military/nov22_divisional_positions_part2.md#p215-b2) | Divisional areas and staff locations: second part with explicit geographical alternatives | 129/150 native raw positions; 0 coordinate substitutions + 13 source-mask fills; optional geography: 18 substitutions + 14 fills under baseline, or 8 + 14 under shared DD=Y | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov22-24 key; prior OCR and body attribution retained |
 
 ## p216
 

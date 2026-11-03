@@ -10,6 +10,7 @@ Our experiments recovered the shared p153 key, reconstructed damaged transmissio
 
 | Result | Evidence |
 |---|---|
+| **Original p215 closing field** — shared Hungarian Y and the earlier J/numeral hypotheses reduce 90 possibilities to 56, with complete globally consistent witnesses | [Shared-cell propagation across 26 bodies](p215_hungarian_y/README.md) |
 | **Station-staff query** — 68/69 positions; all five minimum source maps independently reproduced | [p137 B: 481,032 models](p137_station_staff_query/README.md) |
 | **Provision-train completion** — 84/84 positions with one extra mask fill supported by the next part | [A5/A6 joint reading](p176_verpflegs_joint_completion/README.md) |
 | **Kiev unrest and soldiers’ council neutrality** — 139/147 positions with zero observed substitutions after resolving printed group alternatives | [p219 C: all 81 source maps](p219_kiev_unrest/README.md) |

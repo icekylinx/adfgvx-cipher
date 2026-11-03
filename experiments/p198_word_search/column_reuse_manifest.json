@@ -1,0 +1,268 @@
+{
+  "schema": "adfgvx-p198-column-reuse-manifest-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "status": "Completed bounded donor-family test; no new historical plaintext or key.",
+  "source": {
+    "id": "p198",
+    "printed_page": 198,
+    "pdf_page_1based": 201,
+    "section": "D",
+    "header": "PZU v CM (18.27 p.m., November 15th); 18.45; CHI-170",
+    "advertised_length": 170,
+    "ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFADDFX",
+    "native_coordinate_count": 165,
+    "coordinate_sha256": "47fd6108a49d0729f24a20b070bc652f666f35c86a4790dfc5a22ee7684c40a8",
+    "canonical_origin": "data/messages.json:p198",
+    "source_pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "coordinate_deletions": 5,
+  "maximum_observed_substitutions": 2,
+  "fixed_plaintext_window_length": 85,
+  "source_donor_bodies": 293,
+  "donor_snapshot": {
+    "path": "column_reuse_donors.json",
+    "sha256": "875e3310e042b2d305f130de09532718a76e4f48a044c81a3e55cef0038eef02",
+    "origin_note": "Curated reviewed-edition input bodies, including separately conditional editorial fields; origins are recorded per body. No diagnostic/control plaintext is added to this snapshot."
+  },
+  "key_families": [
+    {
+      "id": "Sep19-21",
+      "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+      "width": 22,
+      "square_status": "complete catalogue square"
+    },
+    {
+      "id": "Oct4-6",
+      "square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+      "width": 22,
+      "square_status": "complete catalogue square"
+    },
+    {
+      "id": "Oct28-31",
+      "square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+      "width": 18,
+      "square_status": "complete catalogue square"
+    },
+    {
+      "id": "Nov1-3",
+      "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "width": 19,
+      "square_status": "complete catalogue square"
+    },
+    {
+      "id": "Nov4-6",
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "width": 17,
+      "square_status": "complete catalogue square"
+    },
+    {
+      "id": "Nov13-15b",
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "width": 16,
+      "square_status": "published partial anchors; one globally injective completion per candidate"
+    },
+    {
+      "id": "Nov19-21",
+      "square": "LC58QH7VI2YB9EURO60GX3MTFAKP1D4NJZSW",
+      "width": 20,
+      "square_status": "complete catalogue square"
+    },
+    {
+      "id": "Nov22-24",
+      "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+      "width": 22,
+      "square_status": "complete catalogue square"
+    },
+    {
+      "id": "Nov25-28",
+      "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+      "width": 23,
+      "square_status": "complete catalogue square"
+    },
+    {
+      "id": "Nov28-Dec1",
+      "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "width": 16,
+      "square_status": "complete catalogue square"
+    },
+    {
+      "id": "NSA-undated-CHI-example-18",
+      "square": "J5YDWNHOMX48RFZ9KV0U7SEBAL32QP6GITC1",
+      "width": 18,
+      "square_status": "complete catalogue square"
+    },
+    {
+      "id": "Worked-example-VIKINGSCROWNHOTEL",
+      "square": "VI9KNG7SC3ROWH8TE5LA1B2D4F6J0MPQUXYZ",
+      "width": 17,
+      "square_status": "complete catalogue square"
+    }
+  ],
+  "transposition_scope": "All permutations of every physical donor column, used exactly once. Published ranks are never supplied to the matching algorithm.",
+  "unknown_square_scope": "All assignments to unknown cells of labels that occur in a donor window are enumerated with injectivity. Absent labels receive one representative unused completion because their permutations cannot alter that donor ciphertext.",
+  "positive_control_run_cases": 9,
+  "distinct_positive_control_texts": 2,
+  "control_fixtures": [
+    {
+      "id": 1,
+      "plaintext": "DERTRANSPORTISTHEUTEABENDEINGETROFFENXDIEVERBINDUNGNACHSUEDENISTWIEDERHERGESTELLTXOKM",
+      "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+      "width": 16,
+      "source": "DDVGDFAFAAFDFVGADVAVVFAFFAFGDFGXFGXFVVFVXDFFADDDFFFXVFGVAFDGAFFDVFVXGVVFDVAFGDVFGFFVDGFGGFFXVFGVFVDVVXXGVVGFVGGXFDFDXGAXAFVVDDVDVFDVGAXAAGVXVFVFVFVAXDGADVDAAFVGAVDVG",
+      "evaluation_only_ranks": [
+        4,
+        11,
+        6,
+        10,
+        9,
+        7,
+        3,
+        13,
+        12,
+        15,
+        5,
+        14,
+        16,
+        1,
+        8,
+        2
+      ],
+      "evaluation_only_loss": [
+        3,
+        39,
+        78,
+        122,
+        161
+      ],
+      "published_anchor_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+      "initial_rank_relation": "two pair swaps from true"
+    },
+    {
+      "id": 2,
+      "plaintext": "ANOKMXDERTRANSPORTISTAM18UM0700ANGEKOMMENXDIEWEITERFAHRTISTFUERDENABENDVORGESEHENXOKM",
+      "square": "H7QBMUF15PX0DJLR983YS6VONKZ4AWITEGC2",
+      "width": 16,
+      "source": "AGVVFGGAAFXDVFADAVFVVGDVXDDAXVVFFFVVXXGVDGVDAVAXVXVXXAXDXGVFDXGAVFAGDVGXXGDVXXFGXGFXAXFFXVXGADDXGVFFAGVVGGXAADAFXAAVXAGVAXGADVFXDAAAGFDVFVXVXAFAFVADDXFVXFFVFADAXFFFA",
+      "evaluation_only_ranks": [
+        4,
+        11,
+        6,
+        10,
+        9,
+        7,
+        3,
+        13,
+        12,
+        15,
+        5,
+        14,
+        16,
+        1,
+        8,
+        2
+      ],
+      "evaluation_only_loss": [
+        3,
+        39,
+        78,
+        122,
+        161
+      ],
+      "published_anchor_square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "initial_rank_relation": "two pair swaps from true"
+    },
+    {
+      "id": 3,
+      "plaintext": "DERTRANSPORTISTHEUTEABENDEINGETROFFENXDIEVERBINDUNGNACHSUEDENISTWIEDERHERGESTELLTXOKM",
+      "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+      "width": 16,
+      "source": "GVVFVGGXFDFFDVFVXGVVFVVFAFFAFGDFFFVDGFGFFXFDXGAFXAFVVDDVDGDFAFAVFGVFVDVVXXDVFDGDVFGAFDFVGADVADDVDVFDVGAXFXVFGVAFDGAAVFVAVDVGFVAXDGADVDAXDFFADDDFFGXFGXFVVVFVAGVXVFVFV",
+      "evaluation_only_ranks": [
+        15,
+        1,
+        11,
+        7,
+        4,
+        2,
+        3,
+        10,
+        5,
+        13,
+        14,
+        16,
+        12,
+        6,
+        8,
+        9
+      ],
+      "evaluation_only_loss": [
+        3,
+        39,
+        78,
+        122,
+        161
+      ],
+      "published_anchor_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+      "initial_rank_relation": "independent uniform random rank permutation"
+    }
+  ],
+  "control_garble_indices": [
+    12,
+    140
+  ],
+  "tiny_source_budget_tests": 9216,
+  "tiny_scope": "Every binary source of lengths10 and11 compared at substitution budgets0,1,2 to independent full3-column-permutation/two-deletion/Hamming enumeration.",
+  "exploratory_broad_pool": {
+    "standalone_replay": false,
+    "reason": "Includes diagnostics and earlier retrieval candidates. Its larger frozen input remains scratch research; only the curated source-donor subset is bundled/replayed here.",
+    "frozen_unique85_windows": 67692,
+    "window_snapshot_sha256": "09f7f64edf2b2d30a359b133d3059ec0cf4c3e50061a6d793c7508e31e126cdf",
+    "histogram_candidates_by_minimum_coordinate_deficit": {
+      "0": 342,
+      "1": 3953,
+      "2": 18064
+    },
+    "candidate_pairs": 22359,
+    "target_hits": 0,
+    "completed_dp_states": 321054,
+    "completed_local_alignments": 441944,
+    "result_sha256": "012e7120c437abdaf0f78a1bd32491429a7ccd6dae04e66f659c5f62860883e6"
+  },
+  "limits": [
+    "This is an exact negative over a fixed known-plaintext donor family, not an exhaustive decipherment or exclusion of p198.",
+    "Exactly five losses and an85-label donor window are conditional on the170 header; the source does not specify loss positions or contiguity.",
+    "All165 received source slots retain their order; up to two mismatching observed coordinate values are separately priced, with no unpriced deletion or movement.",
+    "Unknown-square applicability is not established. Complete instructional/example catalogue keys are comparisons, not chronological evidence for their use on p198.",
+    "Donor raw/template fields are retrieval candidates with their existing editorial qualifications. No target reading is accepted."
+  ],
+  "source_donor_result": {
+    "unique_source_donor_windows": 8678,
+    "histogram_candidates_by_minimum_coordinate_deficit": {
+      "0": 0,
+      "1": 11,
+      "2": 165
+    },
+    "candidate_pairs": 176,
+    "target_hits": [],
+    "dp_states": 2014,
+    "local_alignments": 2992
+  },
+  "histogram_full_completion_checks": [
+    {
+      "budget": 0,
+      "complete_squares_enumerated": 5040,
+      "distinct_compatible_donor_column_families": 6
+    },
+    {
+      "budget": 1,
+      "complete_squares_enumerated": 5040,
+      "distinct_compatible_donor_column_families": 18
+    },
+    {
+      "budget": 2,
+      "complete_squares_enumerated": 5040,
+      "distinct_compatible_donor_column_families": 18
+    }
+  ],
+  "engine_sha256": "c84d4c09ea57f32eef6097c4397a473c23f5bfe26f3c3c0052a665f17a765e99"
+}

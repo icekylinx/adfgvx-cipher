@@ -85,7 +85,7 @@ These retain their original challenge identifiers and statuses; same-source late
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p105](../p105.md) | Naval telegram acknowledgments | Prior body reading; source audit | Norbert (2017) |
-| [p215](../p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
+| [p215](../p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation; 56 conditional closing values under shared numeral/J/Y hypotheses | Norbert (2017) |
 | [p217](../p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
 Topics are reading aids. Each family page preserves its own keys, source
