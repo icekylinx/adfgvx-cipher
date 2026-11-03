@@ -88,6 +88,25 @@ The term *Unterpersonal* has independent period medical support. [Kowalk's fourt
 
 Those examples support the meaning **hospital auxiliary/support staff**. They do not witness this telegram or prove its missing text. The U-to-u[nd] expansion remains editorial, and the unresolved joins and literal 9 remain. Verify this layer separately with `python experiments/p212_medical_fragment/verify_optional_underpersonal.py --verify`.
 
+## Further optional extension: a doctor for each transport train
+
+Two further lexical stencils, positions 70–78 `XZU9EDEM` and 87–95 `ZUGYARZT` (end exclusive), add **13 missing-half values** while retaining all 135 earlier proposed labels and all 197 observations. This identifies a coherent candidate by separating `Y|ARZT`, rather than the also source-compatible word `YACHT`. The three positions after LAZARETT remain unfilled.
+
+**Further optional edited output — 148/151 positions; 102 total inserted-half fills; 3 unresolved:**
+
+`LAZARETT???ANSTALTENDORTHINBEKANNTZUGEBENXWOKRANKEVERBLEIBENKOENNENX3XXZU9EDEMTRANSPORTZUGYARZTMITUNTERPERSONALUMEDIKAMENTENZUTEILENLASSENUNDIN9EDEMZUG`
+
+| Further optional account | Count |
+|---|---:|
+| Additional missing-half fills / total fills / unassigned slots | 13 / 102 / 3 |
+| Observed-coordinate substitutions / source-mask fills | 0 / 0 |
+
+The baseline output keeps `3XX`, both 9 labels and Y literal. A separate conditional interpretation reuses the [published numeric+J conjunction](../../experiments/nov22_nikolajew_constraint/README.md): clear all unproved numeral/J/Q/Y cells, then assign raw Y→1, J→2, 2→6 and 9→J. The [new optional certificate](../../experiments/p212_medical_fragment/optional_transport_extension.json) supplies one globally injective full-square and reencryption witness. It interprets only positions 71–151; `3XX` is not identified as a historical instruction number.
+
+**Conditional readable German — positions 71–151, end exclusive; published numeric+J assumptions:** Zu jedem Transportzug 1 Arzt mit Unterpersonal u[nd] Medikamenten zuteilen lassen und in jedem Zug […]
+
+This proposes arranging a doctor with support staff and medicines for each transport train. The excerpt ends mid-clause; the continuation is not supplied. It remains a lexical and key-interpretation hypothesis, not a uniquely recovered historical sentence. In particular, `ZUGYACHT` also fits the surviving coordinates; the certificate preserves that counterexample. Verify the 13 fills, unchanged earlier layers and global square separately with `python experiments/p212_medical_fragment/verify_optional_transport_extension.py --verify`.
+
 ## Reproduce and attribution
 
 ```sh

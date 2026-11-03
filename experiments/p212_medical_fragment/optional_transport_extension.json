@@ -1,0 +1,275 @@
+{
+  "schema": "adfgvx.p212-medical-fragment.optional-transport-extension.v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "base_input_sha256": "4f8035fcc31e3952e625cba728f3375beec72096700cb6950ba5da379f907ae2",
+  "base_certificate_sha256": "8d25482f3a8e2adbe119e46cd327e26116da455af9712a96eb7d5cdfe420dc85",
+  "base_underpersonal_sha256": "1db84501edbc7cf685084e071ffb9e1613273eba88bf6ae06e16d1ad0966697c",
+  "layer": "Additional optional lexical extension of the 135-position layer; primary 129 and optional 135 remain unchanged.",
+  "spans": [
+    {
+      "start": 70,
+      "text": "XZU9EDEM"
+    },
+    {
+      "start": 87,
+      "text": "ZUGYARZT"
+    }
+  ],
+  "additional_inserted_coordinate_fills": [
+    {
+      "model_index": 6,
+      "source_index": null,
+      "plaintext_index": 70,
+      "pair_side": 0,
+      "from": "?",
+      "to": "A",
+      "selected_label": "X"
+    },
+    {
+      "model_index": 8,
+      "source_index": null,
+      "plaintext_index": 92,
+      "pair_side": 0,
+      "from": "?",
+      "to": "F",
+      "selected_label": "R"
+    },
+    {
+      "model_index": 20,
+      "source_index": null,
+      "plaintext_index": 72,
+      "pair_side": 1,
+      "from": "?",
+      "to": "G",
+      "selected_label": "U"
+    },
+    {
+      "model_index": 22,
+      "source_index": null,
+      "plaintext_index": 94,
+      "pair_side": 1,
+      "from": "?",
+      "to": "D",
+      "selected_label": "T"
+    },
+    {
+      "model_index": 34,
+      "source_index": null,
+      "plaintext_index": 74,
+      "pair_side": 0,
+      "from": "?",
+      "to": "F",
+      "selected_label": "E"
+    },
+    {
+      "model_index": 47,
+      "source_index": null,
+      "plaintext_index": 76,
+      "pair_side": 1,
+      "from": "?",
+      "to": "V",
+      "selected_label": "E"
+    },
+    {
+      "model_index": 48,
+      "source_index": null,
+      "plaintext_index": 87,
+      "pair_side": 1,
+      "from": "?",
+      "to": "F",
+      "selected_label": "Z"
+    },
+    {
+      "model_index": 60,
+      "source_index": null,
+      "plaintext_index": 75,
+      "pair_side": 1,
+      "from": "?",
+      "to": "G",
+      "selected_label": "D"
+    },
+    {
+      "model_index": 74,
+      "source_index": null,
+      "plaintext_index": 77,
+      "pair_side": 0,
+      "from": "?",
+      "to": "V",
+      "selected_label": "M"
+    },
+    {
+      "model_index": 75,
+      "source_index": null,
+      "plaintext_index": 88,
+      "pair_side": 0,
+      "from": "?",
+      "to": "V",
+      "selected_label": "U"
+    },
+    {
+      "model_index": 89,
+      "source_index": null,
+      "plaintext_index": 89,
+      "pair_side": 1,
+      "from": "?",
+      "to": "X",
+      "selected_label": "G"
+    },
+    {
+      "model_index": 101,
+      "source_index": null,
+      "plaintext_index": 71,
+      "pair_side": 0,
+      "from": "?",
+      "to": "A",
+      "selected_label": "Z"
+    },
+    {
+      "model_index": 103,
+      "source_index": null,
+      "plaintext_index": 93,
+      "pair_side": 0,
+      "from": "?",
+      "to": "A",
+      "selected_label": "Z"
+    }
+  ],
+  "optional_output": "LAZARETT???ANSTALTENDORTHINBEKANNTZUGEBENXWOKRANKEVERBLEIBENKOENNENX3XXZU9EDEMTRANSPORTZUGYARZTMITUNTERPERSONALUMEDIKAMENTENZUTEILENLASSENUNDIN9EDEMZUG",
+  "prices": {
+    "additional_inserted_slot_fills": 13,
+    "total_inserted_slot_fills": 102,
+    "fixed_optional_positions": 148,
+    "plaintext_positions": 151,
+    "remaining_unassigned_inserted_slots": 3,
+    "observed_coordinate_substitutions": 0,
+    "source_mask_fills": 0
+  },
+  "unresolved_plaintext_positions": [
+    8,
+    9,
+    10
+  ],
+  "source_observations_preserved": 197,
+  "literal_field_boundaries": {
+    "plaintext68_71": "3XX",
+    "explanation": "Raw positions 68 and 69 are 3X; proposed position 70 adds X, giving 3XX. The word ZU begins at 71. Raw 9 at 73 and Y at 90 are unchanged."
+  },
+  "full_baseline_feasibility_witness": {
+    "ciphertext": "FXAFFAAAFXGVFVDDVVVFGVDFXVGGAAXAFAFFDXVGGAFDFAVVFGADDDAGDXGDGDDDVVVGXFVFFAVVAGVGGADDFFVXDXDGVAVFGFFFFADAFDVAAAXAXGFFAVXAAAVAGGVXFAFVVDDFXVDGAFAXXFFADFAAFDXVDAGDADADVFFAFFGXVDXDAGADVVXFFFFFVADGFADVXDXDFVGGVAXAVAFDAVGVVFXFVDAXFDVFVFAAGADVXDVXAAFVFAVXGAVFAGVVAFFDVVFFVXVXVFFFVVDVXDVVDFAAAVDXFAFGAGDFAVADAG",
+    "plaintext": "LAZARETT2AQANSTALTENDORTHINBEKANNTZUGEBENXWOKRANKEVERBLEIBENKOENNENX3XXZU9EDEMTRANSPORTZUGYARZTMITUNTERPERSONALUMEDIKAMENTENZUTEILENLASSENUNDIN9EDEMZUG",
+    "qualification": "The three arbitrary remaining missing values are a feasibility witness only, not textual fills."
+  },
+  "source_compatible_alternative": {
+    "start": 87,
+    "text": "ZUGYACHT",
+    "changed_positions_relative_to_ARZT": [
+      92,
+      93
+    ],
+    "qualification": "Also source-compatible. It does not fit the personnel/medicines context as naturally; source compatibility alone does not exclude it."
+  },
+  "conditional_interpretation": {
+    "dependency": {
+      "path": "experiments/nov22_nikolajew_constraint/inputs.json",
+      "sha256": "c7cbe076d6f9ad4f97973a9f33e5f3f6a0be9e670d142d285773745a514c1f46"
+    },
+    "clear_baseline_labels": "0123456789JQY",
+    "assignments": {
+      "Y": "1",
+      "J": "2",
+      "2": "6",
+      "9": "J"
+    },
+    "partial_square": "?NZ?6XS?C?I21?RBEKLJFD?GMTHUVWA?O?P?",
+    "unused_symbols": "0345789QY",
+    "complete_square_witness": "0NZ36XS4C5I217RBEKLJFD8GMTHUVWA9OQPY",
+    "full_witness_ciphertext": "FXAFFAAAFXGVFVDDVVVFGVDFXVGGAAXAFAFFDXVGGAFDFAVVFGADDDAGDXGDGDDDVVVGXFVFFAVVAGVGGADDFFVXDXDGVAVFGFFFFADAFDVAAAXAXGFFAVXAAAVAGGVXFAFVVDDFXVDGAFAXXFFADFAAFDXVDAGDADADVFFAFFGXVDXDAGADVVXFFFFFVADGFADVXDXDFVGGVAXAVAFDAVGVVFXFVDAXFDVFVFAAGADVXDVXAAFVFAVXGAVFAGVVAFFDVVFFVXVXVFFFVVDVXDVVDFAAAVDXFAFGAGDFAVADAG",
+    "full_witness_plaintext": "LAZARETT6A0ANSTALTENDORTHINBEKANNTZUGEBENXWOKRANKEVERBLEIBENKOENNENX7XXZUJEDEMTRANSPORTZUG1ARZTMITUNTERPERSONALUMEDIKAMENTENZUTEILENLASSENUNDINJEDEMZUG",
+    "excerpt_start": 71,
+    "excerpt_end_exclusive": 151,
+    "excerpt": "ZUJEDEMTRANSPORTZUG1ARZTMITUNTERPERSONALUMEDIKAMENTENZUTEILENLASSENUNDINJEDEMZUG",
+    "readable_german": "Zu jedem Transportzug 1 Arzt mit Unterpersonal u[nd] Medikamenten zuteilen lassen und in jedem Zug […]",
+    "limits": "Optional conjunction of the previously documented numeric and lexical-J assumptions. All unproved numeral/J/Q/Y labels are cleared before assignments; the arbitrary completion preserves one injective square. Only 71:151 is interpreted here. The earlier 3XX remains a literal baseline field and is not identified as an instruction number. The excerpt ends mid-clause; the continuation is not supplied."
+  },
+  "unchanged_field_source_witnesses": [
+    {
+      "plaintext_index": 68,
+      "baseline_label": "3",
+      "pair": "FD",
+      "model_indices": [
+        184,
+        294
+      ],
+      "source_indices": [
+        79,
+        189
+      ]
+    },
+    {
+      "plaintext_index": 69,
+      "baseline_label": "X",
+      "pair": "AX",
+      "model_indices": [
+        142,
+        239
+      ],
+      "source_indices": [
+        37,
+        134
+      ]
+    },
+    {
+      "plaintext_index": 73,
+      "baseline_label": "9",
+      "pair": "GD",
+      "model_indices": [
+        170,
+        280
+      ],
+      "source_indices": [
+        65,
+        175
+      ]
+    },
+    {
+      "plaintext_index": 90,
+      "baseline_label": "Y",
+      "pair": "FA",
+      "model_indices": [
+        186,
+        296
+      ],
+      "source_indices": [
+        81,
+        191
+      ]
+    }
+  ],
+  "case_path": "cases/military/p212_medical_fragment.md",
+  "case_section": "## Further optional extension: a doctor for each transport train",
+  "limits": [
+    "The 13 additional fills are editorial lexical proposals; the source alone does not uniquely select them.",
+    "All 197 original observations and all 135 earlier proposed labels remain unchanged.",
+    "The three opening positions 8, 9 and 10 remain unresolved; no opening triple is supplied.",
+    "ZUGYACHT remains a concrete, equally source-compatible alternative to ZUGYARZT; medical syntax favors the ARZT proposal but does not authenticate the missing transmission.",
+    "The Y and both 9 labels remain literal in the optional baseline output. Their interpretation occurs only under the explicit globally injective conditional square."
+  ],
+  "unresolved_domains": [
+    {
+      "plaintext_index": 8,
+      "labels": "26EIPV"
+    },
+    {
+      "plaintext_index": 9,
+      "labels": "158AOP"
+    },
+    {
+      "plaintext_index": 10,
+      "labels": "27NQXZ"
+    }
+  ],
+  "compatible_opening_completions": 216
+}

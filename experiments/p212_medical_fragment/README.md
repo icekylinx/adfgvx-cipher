@@ -27,3 +27,5 @@ OPENBLAS_NUM_THREADS=1 python experiments/p212_medical_fragment/replay_search.py
 ```
 
 Omit `--replay` to check model reconstruction alone. The primary verifier remains independent of NumPy and the external model. Upstream model credit: the 0wwafa/adfgvx-1918 contributors; replay implementation: icekylinx and GPT-6 Astra Pro.
+
+A [further optional transport-and-doctor clause](optional_transport_extension.json) adds 13 missing halves while preserving the earlier layers: **148/151 positions**, **102 total fills**, three positions after LAZARETT unresolved. Its separate global numeric+J interpretation reads “Zu jedem Transportzug 1 Arzt …”; all baseline labels remain unchanged. Check with `python experiments/p212_medical_fragment/verify_optional_transport_extension.py --verify`.
