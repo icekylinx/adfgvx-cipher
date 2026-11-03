@@ -1,0 +1,70 @@
+{
+  "schema": "adfgvx-prior-ocr-evidence-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "source_path_at_review": "/tmp/corpus-harvest-screen-initial.json",
+  "source_sha256": "408ca9c5f60b94c73f88351755fde9ac6e916d2ee5fe3cf99c228fd653ef00ab",
+  "selected_rows": [
+    {
+      "block_id": "p102_ocr_block6",
+      "printed_page": 102,
+      "headers_ocr": [
+        "Dp) FUR cos, OsT v NKI (0.24 a.m, November 3rd)",
+        "UNG MISSION BARON FRANKENSTEIN FOR HPTM BENEDIKT 0730. (1)"
+      ],
+      "ciphertext": "FDGDVVFGVVVDXGFGDVADGVDDFFXFGAVXGGVVGGGXAAGGDAAFDVDGDGXADXDGVDAGADVGDDVGDFAGDGFXDAXXVDGAXFADGDAXAFGGADFDFVDDDAAXFAVFDDXFAXXADAFDXXDAXVVDGFXDVFGAGVDDVDGAAVFVXAXAVDDAAAAGFGDFFDDGXGFGGXVFGXVXAAGAXADFVGXGXDGFVVDDFVFAVVAVDXVGVVADVAGFVXVXDVAGADVGADDVVAVGDFFXDXDVDX",
+      "source_slots": 258,
+      "best": {
+        "key": "Nov1-3",
+        "score": -5.309933352091956,
+        "known_quad_mean": -5.309933352091956,
+        "known_quad_windows": 126,
+        "plaintext": "AUFEXHXNR109XXURLAUBNACHEINTREFFENRITTMXROESLERXROESLERBEWILLIGTXGEHTMITNAECHSTEMSCHIFFDORTHINABXXOBSTXHOENIGSCHMIDXSXMXSTXPERSXX",
+        "known_positions": 129,
+        "positions": 129,
+        "unpaired_coordinate": null
+      },
+      "runner_up": {
+        "key": "Nov25-28",
+        "score": -9.394868515786671,
+        "known_quad_mean": -9.394868515786671,
+        "known_quad_windows": 126,
+        "known_positions": 129,
+        "positions": 129,
+        "unpaired_coordinate": null
+      }
+    },
+    {
+      "block_id": "p102_ocr_block5",
+      "printed_page": 102,
+      "headers_ocr": [
+        "C) POT v NKJ (1,00 a.m., November 3rd)",
+        "DEUTSCHE DELEG KAUK 1622 (1)"
+      ],
+      "ciphertext": "XFF?XFDXGVXD?VDDVADGGAAAAXFXDDXGGAAAGFFGXGAFFGDAGXVXFVGAVFGDGDDGADVAVGFAGVFGDADXGXVGGVDAGDGDDAAFXAFGFVVGAGDVAFFAAAFXVGGFAFDDGGDFDAFGVDGFXDDXDXDVAGADAGVADGVAVXVAAFVDVXGADAXVGDGVVFDVDGXVGAVGVFGXAGFDAXGDGVXADDFXGAXDAFFDXDXDDDGXDXXAVGDAVXAADFDFGGGADGAFFAVDDGDF?GFGAX",
+      "source_slots": 262,
+      "best": {
+        "key": "Nov1-3",
+        "score": -6.364472208544612,
+        "known_quad_mean": -6.011621637591,
+        "known_quad_windows": 116,
+        "plaintext": "ZUDORTASRM1NR2078XLAGERNHIERNOCH52?0625RUSSXISXDRAHTETOBMUNXNACHDORTVERLADENWERDE?SOLLXMUVVERMITTLXSTELLESUEDOSTNR6829H?TTMERXHPTMX",
+        "known_positions": 128,
+        "positions": 131,
+        "unpaired_coordinate": null
+      },
+      "runner_up": {
+        "key": "Nov25-28",
+        "score": -9.319959439337254,
+        "known_quad_mean": -9.272848926741501,
+        "known_quad_windows": 116,
+        "known_positions": 128,
+        "positions": 131,
+        "unpaired_coordinate": null
+      }
+    }
+  ],
+  "scope": "These pre-existing unreviewed OCR decryptions already contain the substantial bodies. The present edition supplies native source transcription, exact labels at the three former OCR masks in C, and a reproducible source certificate; it does not claim first historical body recovery."
+}

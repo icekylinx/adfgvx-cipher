@@ -9,7 +9,7 @@
   "review_finished_utc": null,
   "initial_public_head": "c4c2562f41dd4624f7202962db68ef9e746f50f2",
   "start_catalog_sha256": "50784e7b1a7a51a8e4224a088cdaec21a6c6f25285d869b5049110a667630e75",
-  "final_catalog_sha256": "a2aaefa4bad0a3200a9277d279e90fd048791ce840f72fac5996c98de718a26b",
+  "final_catalog_sha256": "6a4d06b90e614a58164ed72f3dbdb92337c50ee9930b55ff5ee324257525870d",
   "source_pdf": {
     "sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
     "bytes": 156848258,
@@ -2336,13 +2336,293 @@
         "source_deletions": 0,
         "published_key_changed": false
       }
+    },
+    {
+      "name": "nov1_mackensen_and_orient_reports",
+      "record_ids": [
+        "p100_D1",
+        "p101_A2",
+        "p101_B2",
+        "p101_C1",
+        "p101_D2",
+        "p102_B1",
+        "p102_B2",
+        "p102_B3"
+      ],
+      "case_pages": [
+        "cases/military/mackensen_subordination.md",
+        "cases/military/orient_south_slav_reports.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 8,
+        "source_slots": 1395,
+        "modeled_plaintext_positions": 695,
+        "fixed_raw_label_positions_under_stated_geometry": 659,
+        "known_coordinate_substitutions": 19
+      },
+      "original_summary": {
+        "physical_records": 8,
+        "literal_slots": 1395,
+        "valid_source_coordinates": 1357,
+        "model_slots": 1390,
+        "plaintext_positions": 695,
+        "raw_fixed_positions": 659,
+        "edited_fixed_positions": 693,
+        "observed_coordinate_substitution": 19,
+        "source_mask_fill": 36,
+        "missing_coordinate_fill": 0,
+        "excluded_observed_coordinates": 5,
+        "inserted_model_coordinates": 0,
+        "published_key_changes": 0
+      }
+    },
+    {
+      "name": "nov1_ammunition_and_leave",
+      "record_ids": [
+        "p102_C",
+        "p102_D"
+      ],
+      "case_pages": [
+        "cases/caucasus/caucasus_ammunition_loading.md",
+        "cases/people/roesler_leave_and_travel.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 520,
+        "modeled_plaintext_positions": 260,
+        "fixed_raw_label_positions_under_stated_geometry": 260,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "literal_source_slots": 520,
+        "valid_source_coordinates": 520,
+        "working_frame_slots": 520,
+        "plaintext_positions": 260,
+        "raw_fixed_positions": 260,
+        "edited_fixed_positions": 260,
+        "known_coordinate_substitutions": 0,
+        "source_erasure_fills": 0,
+        "excluded_observed_coordinates": 0,
+        "added_coordinates": 0,
+        "published_key_changes": 0,
+        "earlier_ocr_unknown_labels_resolved_by_source_transcription": 3,
+        "readable_non_x_labels": 236
+      }
+    },
+    {
+      "name": "hungarian_armistice_instructions",
+      "record_ids": [
+        "p124_A1",
+        "p124_A2",
+        "p124_A3"
+      ],
+      "case_pages": [
+        "cases/military/hungarian_armistice_instructions.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 666,
+        "modeled_plaintext_positions": 333,
+        "fixed_raw_label_positions_under_stated_geometry": 333,
+        "known_coordinate_substitutions": 6
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 666,
+        "valid_source_coordinates": 666,
+        "modeled_coordinates": 666,
+        "plaintext_positions": 333,
+        "baseline_fixed_positions": 333,
+        "candidate_fixed_positions": 333,
+        "known_coordinate_substitutions": 6,
+        "source_or_model_erasure_fills": 0,
+        "unfilled_printed_erasure_coordinates": 0,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "sevastopol_coded_routing",
+      "record_ids": [
+        "p139_A1",
+        "p139_A2",
+        "p139_A3"
+      ],
+      "case_pages": [
+        "cases/military/sevastopol_coded_routing.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 632,
+        "modeled_plaintext_positions": 316,
+        "fixed_raw_label_positions_under_stated_geometry": 315,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 632,
+        "valid_source_coordinates": 631,
+        "modeled_coordinates": 632,
+        "plaintext_positions": 316,
+        "baseline_fixed_positions": 315,
+        "candidate_fixed_positions": 316,
+        "known_coordinate_substitutions": 0,
+        "source_or_model_erasure_fills": 1,
+        "unfilled_printed_erasure_coordinates": 0,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov8_map_and_boundary",
+      "record_ids": [
+        "p162_B1",
+        "p162_C2",
+        "p162_D1"
+      ],
+      "case_pages": [
+        "cases/military/tiraspol_border_report.md",
+        "cases/people/constantinople_embassy_signature.md",
+        "cases/radio/map_sheet_request.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 381,
+        "modeled_plaintext_positions": 191,
+        "fixed_raw_label_positions_under_stated_geometry": 181,
+        "known_coordinate_substitutions": 2
+      },
+      "original_summary": {
+        "accepted_physical_records": 3,
+        "source_slots": 381,
+        "valid_source_coordinates": 374,
+        "working_frame_slots": 382,
+        "plaintext_positions": 191,
+        "raw_fixed_positions": 181,
+        "edited_fixed_positions": 189,
+        "observed_substitutions": 2,
+        "source_mask_fills": 7,
+        "missing_coordinate_fills": 1,
+        "observed_coordinate_exclusions": 0,
+        "primary_complete_insertion_scan_evaluations": 182,
+        "alternate_E_glyph_insertion_scan_evaluations": 182,
+        "global_key_completions": 2,
+        "unread_C1_source_slots_not_counted_as_accepted": 117,
+        "readable_non_x_labels": 182,
+        "readable_positional_unknowns": 2
+      }
+    },
+    {
+      "name": "nov7_fragments_and_council",
+      "record_ids": [
+        "p151_A1",
+        "p151_A2",
+        "p151_B",
+        "p151_C"
+      ],
+      "case_pages": [
+        "cases/military/nov7_fragment_and_acknowledgment.md",
+        "cases/military/soldiers_council_surrender.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 690,
+        "modeled_plaintext_positions": 343,
+        "fixed_raw_label_positions_under_stated_geometry": 342,
+        "known_coordinate_substitutions": 4
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 690,
+        "valid_source_coordinates": 690,
+        "literal_source_slots_including_annotations": 690,
+        "typed_source_slots": 685,
+        "valid_typed_source_coordinates": 685,
+        "handwritten_slots_excluded_from_typed_frame": 5,
+        "modeled_coordinates": 686,
+        "added_missing_source_coordinates": 1,
+        "plaintext_positions": 343,
+        "baseline_fixed_positions": 342,
+        "candidate_fixed_positions": 343,
+        "known_coordinate_substitutions": 4,
+        "source_or_model_erasure_fills": 1,
+        "source_deletions": 0,
+        "source_deletions_in_primary_typed_layer": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov9_urgent_embassy_address",
+      "record_ids": [
+        "p161_B1"
+      ],
+      "case_pages": [
+        "cases/people/constantinople_urgent_address.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 98,
+        "modeled_plaintext_positions": 49,
+        "fixed_raw_label_positions_under_stated_geometry": 49,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "literal_source_slots": 98,
+        "valid_source_coordinates": 98,
+        "working_frame_slots": 98,
+        "plaintext_positions": 49,
+        "raw_fixed_positions": 49,
+        "edited_fixed_positions": 49,
+        "observed_coordinate_substitutions": 0,
+        "source_mask_fills": 0,
+        "inserted_coordinates": 0,
+        "excluded_coordinates": 0,
+        "published_key_changes": 0,
+        "current_draft_transcription_corrections": 2,
+        "readable_non_x_labels": 47
+      }
+    },
+    {
+      "name": "romanian_pacification_consultation",
+      "record_ids": [
+        "p157_A2",
+        "p157_A3",
+        "p157_A4",
+        "p157_A5"
+      ],
+      "case_pages": [
+        "cases/military/romanian_pacification_consultation.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 756,
+        "modeled_plaintext_positions": 378,
+        "fixed_raw_label_positions_under_stated_geometry": 377,
+        "known_coordinate_substitutions": 11
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 756,
+        "valid_source_coordinates": 755,
+        "modeled_coordinates": 756,
+        "plaintext_positions": 378,
+        "baseline_fixed_positions": 377,
+        "candidate_fixed_positions": 378,
+        "known_coordinate_substitutions": 11,
+        "source_or_model_erasure_fills": 1,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
     }
   ],
   "additional_packages": [
     "nov25_letter_constraint",
     "p198_pretransposition_loss",
     "nov22_nikolajew_constraint",
-    "post_push_copy_retrieval"
+    "post_push_copy_retrieval",
+    "odd_fragment_diagnostics"
   ],
   "artifact_sha256s": {
     "experiments/crown_airlift/README.md": "09e242c2345f1d5832ddd5114af276426d4aeae6fde765d98f064db4d966da0b",
@@ -3090,6 +3370,100 @@
     "experiments/p107_railway_and_dragoman/sources/p107_C.png": "9b6739e62bfa1db543180d0dbdea8c263f5d8aa9c347b1019b0dd7a66201d58a",
     "experiments/p107_railway_and_dragoman/sources/p107_C_VDVGV.png": "c4161ab2053421436d64a6ef0f39580aa4eb530c41aba8cc970e9bffa7b927ca",
     "experiments/p107_railway_and_dragoman/verify.py": "9981903b5a75b88c30bc697157842e9bf57b6448803df5de28d225e1f144a4a4",
+    "experiments/nov1_mackensen_and_orient_reports/README.md": "1737fd47f52d02128a15518466e4c5002f20704cf702f90e0f1a3c7a36d1b119",
+    "experiments/nov1_mackensen_and_orient_reports/catalog_proposal.json": "5aeef6a54b091a2ca70e8bb1c0346b1c8c26b3aa0e8c4611a301525973cd34bb",
+    "experiments/nov1_mackensen_and_orient_reports/certificates.json": "309bfe01486b06023fc35dc813ff778b968e37d96abb3726d13b8f30c8b61e5b",
+    "experiments/nov1_mackensen_and_orient_reports/inputs.json": "deb874c4941e788e5a9d055afea070b03bacb6c7383e5d1d596a6930b108ccac",
+    "experiments/nov1_mackensen_and_orient_reports/prior_evidence.json": "5ba09f342dedc56e266ff38bf2d614fa8209f64a0449da35a96872b329e37f9b",
+    "experiments/nov1_mackensen_and_orient_reports/sources/p100_D1.png": "6e64e50bef431a4a0f62aba45fce8a15b646a91e23ec99ad2f404b83f949a2b7",
+    "experiments/nov1_mackensen_and_orient_reports/sources/p100_full.png": "21875b2210c79344a9e10687987ec42ef9ef74f73a5fc3488a43d73d346315f0",
+    "experiments/nov1_mackensen_and_orient_reports/sources/p101_A2_B2.png": "379f6311c4b45be419cae9c19f268539f462dd50be33cc1d42b9529729c74088",
+    "experiments/nov1_mackensen_and_orient_reports/sources/p101_B2_C199.png": "c006263d35a5bc4c8737903da948fca3586c3b073306e77f5c3011dbcb8c490d",
+    "experiments/nov1_mackensen_and_orient_reports/sources/p101_C1_D2.png": "2a4a77a97495c87a6553f890996ea154225760b352a7fd160f8317d379ae5fe7",
+    "experiments/nov1_mackensen_and_orient_reports/sources/p101_C1_GGGDA.png": "2885cefcd741f3e91ff9c10b7c0ad31e40ffdce682a460cb0571be751cb7e664",
+    "experiments/nov1_mackensen_and_orient_reports/sources/p101_D2_illegible.png": "8efa05983ae061535cf86f36fde7999ffe459f95af3a45e72ff55ce0dc08c64d",
+    "experiments/nov1_mackensen_and_orient_reports/sources/p101_full.png": "7150f2c3b1122353850dd98c24d0c56aa80d8e76934458eb4d24af599cb41bcc",
+    "experiments/nov1_mackensen_and_orient_reports/sources/p102_B.png": "86aaf5a7960e56252871a01f45cd088333b4bac2bd315206527482c4b88a95cb",
+    "experiments/nov1_mackensen_and_orient_reports/sources/p102_B3_VGDGD.png": "ef42096cec88d7169fdf6d5a46d3f92a5991ccb09c0d36698c9e9aa768d06f6d",
+    "experiments/nov1_mackensen_and_orient_reports/sources/p102_full.png": "ec5ecb458b558ae0a16ffb5556fce19d2da68408c869412669e7b6e0bf07bbef",
+    "experiments/nov1_mackensen_and_orient_reports/verify.py": "7d58d2d857ea83cc3bdab8ff6f5af067336c017de49d0244ba0cb918be7e5bf8",
+    "experiments/nov1_ammunition_and_leave/README.md": "a8cb3d5eb754542e8dd71e025a86bc1c8def68c327ca5684e83fece64c8a2257",
+    "experiments/nov1_ammunition_and_leave/catalog_proposal.json": "fd66fa07d9f1866334d13b74566ae0eb2df8399c9502ea84f2d65f1e0d154f75",
+    "experiments/nov1_ammunition_and_leave/certificates.json": "f5386eceaab97c95bfad842c090da677c3f4fb7431a47154f65c364ddd921706",
+    "experiments/nov1_ammunition_and_leave/inputs.json": "a79fbaedd5ec22bbb53c1442ebda0d8edcf8d3b5a752430012785efd21a2a00a",
+    "experiments/nov1_ammunition_and_leave/prior_evidence.json": "ae6ce16e01f889c3f61001debfdfd3f4c0e9adb847824d39f0c0aadb2d7ee8ca",
+    "experiments/nov1_ammunition_and_leave/sources/p102_C_D_detail.png": "ab4fdb21200154cb9915c11a6fd47374a7562eba15ca2d3ecf6715d6caa84bbe",
+    "experiments/nov1_ammunition_and_leave/sources/p102_full.png": "ec5ecb458b558ae0a16ffb5556fce19d2da68408c869412669e7b6e0bf07bbef",
+    "experiments/nov1_ammunition_and_leave/verify.py": "4d0c53e3aecf585989e732580d77ef9b9c25974ea460da1ead45645452f9d7b9",
+    "experiments/hungarian_armistice_instructions/README.md": "62f46b39392cfe8e9c386763a3ecd0aca5574f347bf6ccee1022f7151512346c",
+    "experiments/hungarian_armistice_instructions/catalog_proposal.json": "64a2bf3a95442a52d72821ae465dca6e33d84f218ef2071467fbe34a7e1563f9",
+    "experiments/hungarian_armistice_instructions/certificates.json": "fc8bc9330d6a874d74077bbdccfef4399a88690551e22a150a3ed7b9b1a197bd",
+    "experiments/hungarian_armistice_instructions/inputs.json": "f96b5d2f58c14fe55fe4d27722535b6663fbc497c64e4cb963b3f30daf68a10a",
+    "experiments/hungarian_armistice_instructions/ocr_snapshot.json": "2164cfedeb009aab7cfc191b215e2acf32148e0aa018902ade0fdd3f38de7c8d",
+    "experiments/hungarian_armistice_instructions/prior_candidates.json": "1e8eff6c6aa81d5b5393781f4c5e285280499025b0572bf9add630286a46b5f1",
+    "experiments/hungarian_armistice_instructions/sources/p124_A1.png": "ba98622e0e6336e648de03a62dbeeef1ebb325101322ea6cb4b03a235bdaaad6",
+    "experiments/hungarian_armistice_instructions/sources/p124_A2.png": "8874297085f3bfd86d14e5bc6c031ec670a54b0213c9af6971abd56a235dcd06",
+    "experiments/hungarian_armistice_instructions/sources/p124_A3.png": "3316b5391800d2afa4ea0b651a2469b4e6f9f7c9e098efd38c7abf0accae910f",
+    "experiments/hungarian_armistice_instructions/verify.py": "7fd5289492b3d8f94abc3c54f3d571d78ad7a3a0d6d2c4c75edb9e5f7bb08e08",
+    "experiments/sevastopol_coded_routing/README.md": "ac7fbcab162b67bc6cc275974ebffbc7c2f2fa845bb2e1da57367fde7c0ca787",
+    "experiments/sevastopol_coded_routing/catalog_proposal.json": "87367af51d5aa77b684f89010a3b64262e4bce917b38bad5cb4aa38639deb124",
+    "experiments/sevastopol_coded_routing/certificates.json": "51f8e95a497b4345e7d544a739663969b1ee339985d1be9615ee66505709e802",
+    "experiments/sevastopol_coded_routing/inputs.json": "14eff271c4dee57cba3990b256b289bfc2f2f0942d6414a2d2d4b1f7940d1d5a",
+    "experiments/sevastopol_coded_routing/ocr_snapshot.json": "f4fe7ca177fe08e79588323cf41d5eed1538a426f73978565056b0da45245446",
+    "experiments/sevastopol_coded_routing/prior_candidates.json": "49979ad4c8c4e6d4983207169a1f6ff5d2bb52e6baa2f1b03eeb054aff54119c",
+    "experiments/sevastopol_coded_routing/sources/p139_A1.png": "dfa1059a3a329c06fcddfe286e681452f2ff80980d600052732b7ccc5a736c31",
+    "experiments/sevastopol_coded_routing/sources/p139_A1_length.png": "b24cbe7a5032323f391a4a958ff6e29a1046e796e6ce8e423a27b3c958608d96",
+    "experiments/sevastopol_coded_routing/sources/p139_A2.png": "af9c2e9c2d123535ff0a3198cfbf69ed9dd24ee131a474ef57bb580ddbc49e51",
+    "experiments/sevastopol_coded_routing/sources/p139_A3.png": "e944faddfc425dba69371de7d9835da03ea5e9b74bf6587d69f088b09d02531f",
+    "experiments/sevastopol_coded_routing/verify.py": "0266f368fbcff2834386144fcfc5fac2575eb90147b59b3df55f7303d304fa97",
+    "experiments/nov8_map_and_boundary/README.md": "76254830b86cd85374e7981ed4842e5aff3da40d9f72c7b1f1b143e97472e059",
+    "experiments/nov8_map_and_boundary/catalog_proposal.json": "dc24fb312d200d4a896af2d614d92d9a452bb389f7659349965c22f4b522be7b",
+    "experiments/nov8_map_and_boundary/certificates.json": "398acd79a48a8b6729b3dbbf19ea0424338882a1a77003d65db5a61e811d2a5d",
+    "experiments/nov8_map_and_boundary/inputs.json": "632f945d5afd9b6f8d06e841a3ec1cf40d5484211e2b70266da6d8b27d838a23",
+    "experiments/nov8_map_and_boundary/prior_evidence.json": "72ed070b59e998dcb2e42c9525330d46f582ba407e7323a791d884189d8577f2",
+    "experiments/nov8_map_and_boundary/sources/p162_B_detail.png": "a1d86284afa6768f3296edd5d9558fa59e191259b978079cf72d5abd44a7438f",
+    "experiments/nov8_map_and_boundary/sources/p162_B_faint.png": "4bf8720d2dc735d63f794521b551cd3c8c7f57082180d73be3ebfade2ca117ca",
+    "experiments/nov8_map_and_boundary/sources/p162_B_group4.png": "796ef23793bc760114c629ff6c31c42f87830d85635552cb7f8ed9e267d9d797",
+    "experiments/nov8_map_and_boundary/sources/p162_B_group8.png": "45beb213eafc7b73ae9249b58b7206c6202a227a380c8940da1587bb922f0566",
+    "experiments/nov8_map_and_boundary/sources/p162_C_detail.png": "f76520d0b65125901ed8e3615f6dd3e83ab36d57c57c1a143d201465836ad5a4",
+    "experiments/nov8_map_and_boundary/sources/p162_D_detail.png": "54d4a046aa47b16b863aced56392ef6783c801ddc920bbbb95fdc1af45feacb4",
+    "experiments/nov8_map_and_boundary/sources/p162_full.png": "fb310d99363cb58b92ac3db1ea9d3e9ec153277725b06bb9bcecd4da8c405da1",
+    "experiments/nov8_map_and_boundary/verify.py": "3d2db1d7b6cd6e8d7f9fade81de6d2cc4e52190f4ff361e9c3b99bc00db93d57",
+    "experiments/nov7_fragments_and_council/README.md": "5232ee37852da8c9ab35a544387434a751b33c514ed4704d6c7db1d218a6c70c",
+    "experiments/nov7_fragments_and_council/catalog_proposal.json": "de362fb4f758464512d7aa65d8a663e3fda4875cdff22776a5f03b585d0889c2",
+    "experiments/nov7_fragments_and_council/certificates.json": "46931784a99cf5105904ef65bbc2ec8d0ada0b86dda7d9b46e730f708693c718",
+    "experiments/nov7_fragments_and_council/inputs.json": "1d4ca88946d1ca9d8b6360e0ada8084dc5238beef3fdc67c80a6235323fc3807",
+    "experiments/nov7_fragments_and_council/ocr_snapshot.json": "d8f6cd3681c64eada9d96a1a4b5788ec04571ae6f201c0ffb29a61844bf126b2",
+    "experiments/nov7_fragments_and_council/prior_candidates.json": "a5b9869254b9feb14eb1425b8557576134ba8752c8be357c0b3b45b3561e9687",
+    "experiments/nov7_fragments_and_council/sources/p151_A.png": "0dc50ca50f12b9e659e62d867b5d11d6e677f2b8d805f2d92cc50416674bf03d",
+    "experiments/nov7_fragments_and_council/sources/p151_A1_short_group.png": "50cc5b8edfe3a0e5ce4af6fe5d76ea4aa65c5a79287a76e57c1dffb91b2e46fe",
+    "experiments/nov7_fragments_and_council/sources/p151_B.png": "a09daef59730b2ea713b7f0bcb24a0b4838cb7b079ff16a8a43c253436c522cb",
+    "experiments/nov7_fragments_and_council/sources/p151_B_annotation.png": "e9f87ec2b9be0fd6b3e583fe883117e08f21ed8cf34ec552fbd9adfe24bcdcf5",
+    "experiments/nov7_fragments_and_council/sources/p151_C.png": "4f02270787948c4ed81ccc832f9b61e13ed89cddd5c0a675f248824c8f98fde9",
+    "experiments/nov7_fragments_and_council/verify.py": "a83a60ade51e3f3b39d3dd87cf2ed5fb3cccce0bcb47503f7ef42059b3d5da2a",
+    "experiments/nov9_urgent_embassy_address/README.md": "2d853a7fd474e5447ad367a4875cf07e38c80fa911564def6eff552d2c6c54e2",
+    "experiments/nov9_urgent_embassy_address/catalog_proposal.json": "5faa8c75827faf5086f3eb676719511242eef080fc76ad098a6c25aaa0210e82",
+    "experiments/nov9_urgent_embassy_address/certificates.json": "90bd8babd548022673fb3cc30b218db7e2f0a34b0eedc9695fd80f836f0621c4",
+    "experiments/nov9_urgent_embassy_address/inputs.json": "1669c62bf9998b0fec91db2a48d689c7d286246fd7dd5a9735379e7f72f03e9f",
+    "experiments/nov9_urgent_embassy_address/prior_evidence.json": "d74d78c2f4586d25e7e8c18bbbb7995a42b17fd26023f2a0c9d81edb5b15ec1b",
+    "experiments/nov9_urgent_embassy_address/sources/p161_B_detail.png": "c92e2094ab0431facedcea3a1f72b65895f1f69d49061f881f29b636be9c988f",
+    "experiments/nov9_urgent_embassy_address/sources/p161_B_final_group.png": "bd332bb2bf7e548c753dfe4a0d17ebf94e11891c25292bd84e79271c0b71dc06",
+    "experiments/nov9_urgent_embassy_address/sources/p161_B_lastV.png": "a96f55a8e6a3615aeb321edba761898bf2593ad1b667b083832606fb430ee224",
+    "experiments/nov9_urgent_embassy_address/sources/p161_full.png": "2ce6528b10794fbc7e38db32316f59857c2151a48bdb7523211ccd7e8bfdefac",
+    "experiments/nov9_urgent_embassy_address/verify.py": "503646dd42704131621fd8964642b26d65e7c7ab86af9850d1971d760963f99e",
+    "experiments/romanian_pacification_consultation/README.md": "42e3c54b40f41445f10fbc7409a7ffb7c1b87f6bbfce2f51c3b8938b5f561f79",
+    "experiments/romanian_pacification_consultation/catalog_proposal.json": "a2177f228f53cca62fa8f9354f56011e6a39f65620db1b938750af85e4a32b32",
+    "experiments/romanian_pacification_consultation/certificates.json": "db46ec60d91862fdea806952590815c9e34940817f88eea630feed7e7655da0c",
+    "experiments/romanian_pacification_consultation/inputs.json": "1fcfb0a342d7ed43023d57517d2b73fcf18be17a048e556c13e3ec99898c2865",
+    "experiments/romanian_pacification_consultation/ocr_snapshot.json": "bf3084d67b1b53f6adfd61fd6739621432f67cc0b8126ebd737c1d5145f76d16",
+    "experiments/romanian_pacification_consultation/prior_candidates.json": "b78aaf5496fa264e363ff5eb0535472ac0011abcf3f57c5b3689571c85d87c38",
+    "experiments/romanian_pacification_consultation/sources/p157_A1.png": "14d6d9c2ccc5cfbc33ff4217fa18e06e8ea3926c58b359a0b28d87decfe2403d",
+    "experiments/romanian_pacification_consultation/sources/p157_A2.png": "9116668ad5c1fe865ebc7079b426c1a3c17bd12dc083c9c2bd3287cba3fdc0be",
+    "experiments/romanian_pacification_consultation/sources/p157_A3.png": "eafba0aae1c5bf060a845867a8f0703a582a0ddbf225ef64dae5837e298d9457",
+    "experiments/romanian_pacification_consultation/sources/p157_A4.png": "7564d84431e47b2690b17b8de09fd39773567a247d67500f3e2399952bc6d5f6",
+    "experiments/romanian_pacification_consultation/sources/p157_A5.png": "fd9080253eeb634dd6ee57a254aff2fc9379f14014bd0fc201d1ed44d0d57b5c",
+    "experiments/romanian_pacification_consultation/sources/p157_overview.png": "1fcb7bc41d3b890b1c41afc99a1456d2229d0d30275de241d77868ffa948ec81",
+    "experiments/romanian_pacification_consultation/verify.py": "28887bee741195174b2fd50cf8b1365139d6648a6d612694e6ab963e5fb9604d",
     "experiments/nov25_letter_constraint/README.md": "8e1aa1cf031ba53689225360364b474eeb5d99f7092b359e662fdd86986d49fd",
     "experiments/nov25_letter_constraint/certificates.json": "0df1738a5ee501554b6a529c9889de758e3303ecccb90c3c502c0edfc051a189",
     "experiments/nov25_letter_constraint/inputs.json": "0d862877f6c5fc2b023f33893274e0959258621aee9d007c5e8f3b2edc32ef83",
@@ -3186,6 +3560,27 @@
     "experiments/post_push_copy_retrieval/inputs.json": "3c8f76a256dc6d0bb1801eb2ba2cf267b1bd33b314bae4caa0b348c3362ff237",
     "experiments/post_push_copy_retrieval/results.json": "fb1b496ccceb4e8abfd9d2011ff0d4931a53184664296a42e0734129a741d3d0",
     "experiments/post_push_copy_retrieval/retrieve.py": "dedc5aa1c3e7c6ab6ddc661b5ea230fd6025ddac6d2b021793e0e58607c7c190",
+    "experiments/odd_fragment_diagnostics/README.md": "5ad4797d14c8efacbf3af46843c00dcae3462e82ccb87e5d3bbde820d51726b7",
+    "experiments/odd_fragment_diagnostics/certificate.json": "44ccabafc77d5620d9722af5f2438c12aaea1fb51968b9acfa1e0e142e3ed8de",
+    "experiments/odd_fragment_diagnostics/file_inventory.json": "ed615bc1e1ee6ee7bc9e51d3f5a1e720897c06a4de019b70b88f6761d214384a",
+    "experiments/odd_fragment_diagnostics/inputs.json": "52cb30b03c216e6c0b3f8ced619117058f3542bf328c7f8f5eb339a03a4e1e47",
+    "experiments/odd_fragment_diagnostics/original/p159_near_key_screen.json": "496ddf2facb2da62d1441bc7fa0a39596ed2a9ce42acd14b26d7649325983533",
+    "experiments/odd_fragment_diagnostics/original/p159_near_key_screen.py": "16c30610419b18356ba2aeca5badf3dc5f999abd556873dfad84f552da783467",
+    "experiments/odd_fragment_diagnostics/original/p159_one_insert_all_keys.json": "e4f7e06de363719104bbc3b0ec977e7481814a0717caa1f2d6b7e159e7c43668",
+    "experiments/odd_fragment_diagnostics/original/p159_phase_screen.json": "caa9805b5a0e35c12510b31dbb3be9f44bb045cabf316086f582c07653d2fb6e",
+    "experiments/odd_fragment_diagnostics/original/p159_phase_screen.py": "47dc4724aec68e50bbff8f2cc26f19422cb435357b7be6576437894e48d48500",
+    "experiments/odd_fragment_diagnostics/original/p159_screen.py": "c3cb9973173a02f92bf9eeacfd93066ed1241113058fd4caba654741b6b72499",
+    "experiments/odd_fragment_diagnostics/original/p159_transcription_origin.py": "3e7c5d977c9189e191595d7b7aa2b7477b204f32fbedc94bbefc99b51ee27b79",
+    "experiments/odd_fragment_diagnostics/original/p162_C1_four_models.json": "39c9a003d0fddfc6e209de81e2d1118e4ef0152ae892bb65e32d07f4014ecaf6",
+    "experiments/odd_fragment_diagnostics/original/p162_C1_prefix_suffix.json": "4ff954dd4d035027a247dd2a015f670b5b1413390e079ef5a657a3fc8b90f379",
+    "experiments/odd_fragment_diagnostics/original/p162_explore.py": "572c3f19672aefd916609335c55cb67b76ceaf105c0bed74fcaf932f5a8a2240",
+    "experiments/odd_fragment_diagnostics/original/p162_rows.py": "e485e691cb5624ce93008f0f0a371d396d1e8210763c3dc74e7461ea5244f001",
+    "experiments/odd_fragment_diagnostics/original/p162_screen_variants.py": "7b41c58a9d29dda6652a3ed2e69b06619de2a02afb9a98e0fe8570ced472ca15",
+    "experiments/odd_fragment_diagnostics/original/p163_prefix_suffix.json": "7329eb390c469533efa500da7bd12294967224095f9a45617691cdffc7f1d2e6",
+    "experiments/odd_fragment_diagnostics/original/p163_unlabelled_four_models.json": "3b7e38fec0683c19acf02b7b385fad3e1302ecab313c008bd0e043326a804b72",
+    "experiments/odd_fragment_diagnostics/sources/childs_p159_full.png": "59da330225abff2fdfedd6b2985bdde613325526ea6c79ab6fb9a7bdd84defc3",
+    "experiments/odd_fragment_diagnostics/sources/childs_p162_C.png": "f8c511f53c4d1f1836f068d1c26dfb753951960a620fd50e828a5451af156ba7",
+    "experiments/odd_fragment_diagnostics/verify.py": "aba4934cb9779876d14d54b8c4e35830d7e62698c0799597bb41c085b5945e2d",
     "cases/finance/crown_airlift.md": "beb2398a219d031693cf2602aea07bfede5d8bbab82fd4760f8335266184714b",
     "cases/finance/zitag_purchase_orders.md": "76113934c4f01d94d3726274d401050b65b6c24e331a3b90cbdf038cdc0bad11",
     "cases/finance/military_allowances.md": "2536921634193859fef50efa1b9ca83e32f09363e6a1640ebbcd4064c8361ed4",
@@ -3279,6 +3674,19 @@
     "cases/radio/naval_arrival_inquiry.md": "ca030074e55902ca6e7f4987664425768ff4ab540229c44c8b183a31073af396",
     "cases/military/chemnitz_verbetz_trains.md": "ac660d9de9358ce3054a892d60999f3a0f08e7ad750e5dbc96db83c5ecf3b9aa",
     "cases/people/schaefer_return_inquiry.md": "ced5a3739f8190b08bdbe817e65c6b78cfd9a128eef2da9b98f87d9634305983",
+    "cases/military/mackensen_subordination.md": "416cd64772422774222bce862b77bb6fbf5866536a171966e0469f6654db4c90",
+    "cases/military/orient_south_slav_reports.md": "430be563c387255c4fc699a2dea93cb51ccf34e659801d28e056b26bf6b0340b",
+    "cases/caucasus/caucasus_ammunition_loading.md": "a76564027f1a836ed9966f6aa65aa57cce24357fc12e145649732d17d9dc411c",
+    "cases/people/roesler_leave_and_travel.md": "5931a75e390722190ac9124bfc8310b98a135db92f7171b8df45ca1b1616054d",
+    "cases/military/hungarian_armistice_instructions.md": "219fc265e17c907ddc6fa1165bed61c353a037261fbf1da3784099f78b836bc7",
+    "cases/military/sevastopol_coded_routing.md": "31dbec37fc4b4d1b406f029bcfd4aa02f775ede94c044b6f584fefe72e24c310",
+    "cases/military/tiraspol_border_report.md": "5b842bbe411dbca2a2b8cb8e523bf5d984c0e71560d45798525019dc03291583",
+    "cases/people/constantinople_embassy_signature.md": "88708c2001f85bd11e0e6629eea9db6a7afee1784716f1d85f7b2662ee60c13c",
+    "cases/radio/map_sheet_request.md": "03d48c54feca1d8f6a31ec9aaab8b86e43d672fdf0e489bfa616f951181f5c08",
+    "cases/military/nov7_fragment_and_acknowledgment.md": "8909717aaffdd98786aaac5f34cff909dab059aec7b3cbfb7b46cfd11f7d7aee",
+    "cases/military/soldiers_council_surrender.md": "55ff8fcc1c62388f7597821ed70b93cd9ea646a75dfe397b3db881f049378e50",
+    "cases/people/constantinople_urgent_address.md": "e775551ceccc7da180ab0748dd1c86666b1b7e8dbbead39ed27ecf8e2593689e",
+    "cases/military/romanian_pacification_consultation.md": "89d6d8a4788b1b9c6fa23d41bad334e1af629be0cc94af2abc848e0e5c1ddf51",
     "data/reviews/reading_conventions_followup_before.json": "634136e43b27bac376ab2128e48188bed1dbae13786eb47927990d91f6cadc15",
     "data/reviews/reading_conventions_followup_audit.json": "d74d02a71ef4b9adcc67d33e3efe78f81535290d7fc487f5895b1888b45c370f",
     "data/reviews/verify_followup_readings.py": "2ceb5a093357563e4f14f4621c6b3162d3c7cb168c824862173b2015bcf953de",
@@ -3297,8 +3705,8 @@
     "data/reviews/reading_conventions_spacing_before.json": "b7461cff0cafb151383501d7be773ad43de1940e32fa6cc9b6c286338136ef06",
     "data/reviews/reading_conventions_support_audit.json": "358504a577f64ff1d31460a2d5b593efff3e765e38eb1183406c7bfb0ca08110",
     "data/reviews/check_reading_presentation.py": "8025ad223025038b63a20b8ceace0c1cdb0395e2cbd81465cbec7c8de9e65d93",
-    "data/reviews/reading_layer_manifest.json": "149fdb0cd0d488a5f73e83156198b69a3f0fe528dd97d74ab290179d2e746137",
-    "docs/reading-conventions-coverage.md": "4da9c747918f39d1094ea1a2589da02f303608a0fab4a44bf61b5d76bde4f07f",
+    "data/reviews/reading_layer_manifest.json": "a1fa18cbd2154598fb6b0b5581186beac90e510f8bcdb580180aafce42fee5d5",
+    "docs/reading-conventions-coverage.md": "097b04c0bc15567f5bcf9e29617575e64006483094b2096aef498fa5395ecc6c",
     "data/reviews/reading_conventions_semantic_before.json": "e6b9d3aa4fc47c760af3d5710a536ef23d9576e1352642bd76b795aca2e4d765",
     "data/reviews/reading_conventions_semantic_audit.json": "5db9a6222c904dccc1ffe3aeef59a6bd36a74cc9278ab00bf03181cfd11549dc",
     "data/reviews/verify_semantic_readings.py": "722c68f8841059607647ace7d5aef01ea27ce26f8451ecce0c5bd03bf95bb395",
@@ -8790,6 +9198,754 @@
       "height": 216,
       "rgb_pixel_sha256": "68cd216f44dd0fd902e90d5066ca4e04281b2c129c1b5b411d0d67d895b18559",
       "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_mackensen_and_orient_reports",
+      "path": "experiments/nov1_mackensen_and_orient_reports/sources/p100_full.png",
+      "pdf_page_1based": 103,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 2,
+      "png_sha256": "21875b2210c79344a9e10687987ec42ef9ef74f73a5fc3488a43d73d346315f0",
+      "width": 1157,
+      "height": 1649,
+      "rgb_pixel_sha256": "2300a7cd598748af6aec08ac8380714dedfd52d762ed94d3032da4a9598753c4",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_mackensen_and_orient_reports",
+      "path": "experiments/nov1_mackensen_and_orient_reports/sources/p101_full.png",
+      "pdf_page_1based": 104,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 2,
+      "png_sha256": "7150f2c3b1122353850dd98c24d0c56aa80d8e76934458eb4d24af599cb41bcc",
+      "width": 1157,
+      "height": 1649,
+      "rgb_pixel_sha256": "5e78c33aed60963892a457166aaedf591242dc01cdfdb8ceee32f6da933107cf",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_mackensen_and_orient_reports",
+      "path": "experiments/nov1_mackensen_and_orient_reports/sources/p102_full.png",
+      "pdf_page_1based": 105,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 2,
+      "png_sha256": "ec5ecb458b558ae0a16ffb5556fce19d2da68408c869412669e7b6e0bf07bbef",
+      "width": 1157,
+      "height": 1649,
+      "rgb_pixel_sha256": "c5832e382ee98ce11e58bbd73da829b9267f8f677891afb755936ada7629a06c",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_mackensen_and_orient_reports",
+      "path": "experiments/nov1_mackensen_and_orient_reports/sources/p100_D1.png",
+      "pdf_page_1based": 103,
+      "clip_pdf_points": [
+        65,
+        555,
+        511,
+        704
+      ],
+      "scale": 4,
+      "png_sha256": "6e64e50bef431a4a0f62aba45fce8a15b646a91e23ec99ad2f404b83f949a2b7",
+      "width": 1784,
+      "height": 596,
+      "rgb_pixel_sha256": "741c97bb8cf151cd233c06823a4e0053a078f3cb1ce87f8d999bea3bc090d393",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_mackensen_and_orient_reports",
+      "path": "experiments/nov1_mackensen_and_orient_reports/sources/p101_A2_B2.png",
+      "pdf_page_1based": 104,
+      "clip_pdf_points": [
+        65,
+        251,
+        495,
+        499
+      ],
+      "scale": 4,
+      "png_sha256": "379f6311c4b45be419cae9c19f268539f462dd50be33cc1d42b9529729c74088",
+      "width": 1720,
+      "height": 992,
+      "rgb_pixel_sha256": "d5b9bf23d080498ff04c11aac5a9c35338542eab314b68a54535fd168957b606",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_mackensen_and_orient_reports",
+      "path": "experiments/nov1_mackensen_and_orient_reports/sources/p101_C1_D2.png",
+      "pdf_page_1based": 104,
+      "clip_pdf_points": [
+        65,
+        507,
+        495,
+        790
+      ],
+      "scale": 4,
+      "png_sha256": "2a4a77a97495c87a6553f890996ea154225760b352a7fd160f8317d379ae5fe7",
+      "width": 1720,
+      "height": 1132,
+      "rgb_pixel_sha256": "b874ce46012bb6db2699a41c6f1d2e581e86df91a7d195871e4489fb8b963d6d",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_mackensen_and_orient_reports",
+      "path": "experiments/nov1_mackensen_and_orient_reports/sources/p101_D2_illegible.png",
+      "pdf_page_1based": 104,
+      "clip_pdf_points": [
+        426,
+        734,
+        488,
+        753
+      ],
+      "scale": 14,
+      "png_sha256": "8efa05983ae061535cf86f36fde7999ffe459f95af3a45e72ff55ce0dc08c64d",
+      "width": 868,
+      "height": 266,
+      "rgb_pixel_sha256": "f7ce84dc641a991919ae616ff10f3e4db78cbff044e2eab0cb4759991e0d03cb",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_mackensen_and_orient_reports",
+      "path": "experiments/nov1_mackensen_and_orient_reports/sources/p101_B2_C199.png",
+      "pdf_page_1based": 104,
+      "clip_pdf_points": [
+        444,
+        479,
+        488,
+        499
+      ],
+      "scale": 14,
+      "png_sha256": "c006263d35a5bc4c8737903da948fca3586c3b073306e77f5c3011dbcb8c490d",
+      "width": 616,
+      "height": 280,
+      "rgb_pixel_sha256": "d06a8392c149ebd9a2a464b392b9730e09613b4e5e543eb008e0d163af633882",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_mackensen_and_orient_reports",
+      "path": "experiments/nov1_mackensen_and_orient_reports/sources/p101_C1_GGGDA.png",
+      "pdf_page_1based": 104,
+      "clip_pdf_points": [
+        190,
+        632,
+        230,
+        649
+      ],
+      "scale": 14,
+      "png_sha256": "2885cefcd741f3e91ff9c10b7c0ad31e40ffdce682a460cb0571be751cb7e664",
+      "width": 560,
+      "height": 238,
+      "rgb_pixel_sha256": "4e06d533381822803011a7da83de2bd77536483a8b9266722ebef477167382d2",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_mackensen_and_orient_reports",
+      "path": "experiments/nov1_mackensen_and_orient_reports/sources/p102_B.png",
+      "pdf_page_1based": 105,
+      "clip_pdf_points": [
+        70,
+        267,
+        500,
+        490
+      ],
+      "scale": 5,
+      "png_sha256": "86aaf5a7960e56252871a01f45cd088333b4bac2bd315206527482c4b88a95cb",
+      "width": 2150,
+      "height": 1115,
+      "rgb_pixel_sha256": "4e75f1ff3a075e6cebff4d189687654cd4412259764087a54828b1a64f3820e8",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_mackensen_and_orient_reports",
+      "path": "experiments/nov1_mackensen_and_orient_reports/sources/p102_B3_VGDGD.png",
+      "pdf_page_1based": 105,
+      "clip_pdf_points": [
+        399,
+        455,
+        458,
+        475
+      ],
+      "scale": 14,
+      "png_sha256": "ef42096cec88d7169fdf6d5a46d3f92a5991ccb09c0d36698c9e9aa768d06f6d",
+      "width": 826,
+      "height": 280,
+      "rgb_pixel_sha256": "19d5bb44c07c98649c585b51711deab02b764bc1cd65cdcadf38862ae85d995b",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_ammunition_and_leave",
+      "path": "experiments/nov1_ammunition_and_leave/sources/p102_full.png",
+      "pdf_page_1based": 105,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 2,
+      "png_sha256": "ec5ecb458b558ae0a16ffb5556fce19d2da68408c869412669e7b6e0bf07bbef",
+      "width": 1157,
+      "height": 1649,
+      "rgb_pixel_sha256": "c5832e382ee98ce11e58bbd73da829b9267f8f677891afb755936ada7629a06c",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov1_ammunition_and_leave",
+      "path": "experiments/nov1_ammunition_and_leave/sources/p102_C_D_detail.png",
+      "pdf_page_1based": 105,
+      "clip_pdf_points": [
+        70,
+        497,
+        501,
+        723
+      ],
+      "scale": 5,
+      "png_sha256": "ab4fdb21200154cb9915c11a6fd47374a7562eba15ca2d3ecf6715d6caa84bbe",
+      "width": 2155,
+      "height": 1130,
+      "rgb_pixel_sha256": "269a4a7110429646fe5f596c84357f7f4ba73ff418a9d604f49113d03f375e0a",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "hungarian_armistice_instructions",
+      "path": "experiments/hungarian_armistice_instructions/sources/p124_A1.png",
+      "pdf_page_1based": 127,
+      "clip_pdf_points": [
+        105,
+        173,
+        522,
+        385
+      ],
+      "scale": 4,
+      "png_sha256": "ba98622e0e6336e648de03a62dbeeef1ebb325101322ea6cb4b03a235bdaaad6",
+      "width": 1668,
+      "height": 848,
+      "rgb_pixel_sha256": "53f60c8a9bbfdfc7eec77f759a823be0c0e7c54dd8b33b0e7571a87036308cd7",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "hungarian_armistice_instructions",
+      "path": "experiments/hungarian_armistice_instructions/sources/p124_A2.png",
+      "pdf_page_1based": 127,
+      "clip_pdf_points": [
+        123,
+        397,
+        522,
+        534
+      ],
+      "scale": 5,
+      "png_sha256": "8874297085f3bfd86d14e5bc6c031ec670a54b0213c9af6971abd56a235dcd06",
+      "width": 1995,
+      "height": 685,
+      "rgb_pixel_sha256": "f64df5e1d663db4369aae3b648d4a38d8ba872847043315312d57b317c42585e",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "hungarian_armistice_instructions",
+      "path": "experiments/hungarian_armistice_instructions/sources/p124_A3.png",
+      "pdf_page_1based": 127,
+      "clip_pdf_points": [
+        125,
+        545,
+        522,
+        584
+      ],
+      "scale": 6,
+      "png_sha256": "3316b5391800d2afa4ea0b651a2469b4e6f9f7c9e098efd38c7abf0accae910f",
+      "width": 2382,
+      "height": 234,
+      "rgb_pixel_sha256": "6630c8c7b0b2953136acfae06e7a1b45ae90c13419c11ebe1a377edeff66f7aa",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "sevastopol_coded_routing",
+      "path": "experiments/sevastopol_coded_routing/sources/p139_A1.png",
+      "pdf_page_1based": 142,
+      "clip_pdf_points": [
+        50,
+        276,
+        520,
+        431
+      ],
+      "scale": 4,
+      "png_sha256": "dfa1059a3a329c06fcddfe286e681452f2ff80980d600052732b7ccc5a736c31",
+      "width": 1880,
+      "height": 620,
+      "rgb_pixel_sha256": "57eaa94495b1bf5002555aa2c4c11ac2c95ebba9b043162c45836ef48245a472",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "sevastopol_coded_routing",
+      "path": "experiments/sevastopol_coded_routing/sources/p139_A1_length.png",
+      "pdf_page_1based": 142,
+      "clip_pdf_points": [
+        75,
+        330,
+        140,
+        353
+      ],
+      "scale": 12,
+      "png_sha256": "b24cbe7a5032323f391a4a958ff6e29a1046e796e6ce8e423a27b3c958608d96",
+      "width": 780,
+      "height": 276,
+      "rgb_pixel_sha256": "2774a20bce99c57ea33e64eacf7151ae4ee0b6951af1cae908dcc5d64d892733",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "sevastopol_coded_routing",
+      "path": "experiments/sevastopol_coded_routing/sources/p139_A2.png",
+      "pdf_page_1based": 142,
+      "clip_pdf_points": [
+        72,
+        444,
+        519,
+        571
+      ],
+      "scale": 4,
+      "png_sha256": "af9c2e9c2d123535ff0a3198cfbf69ed9dd24ee131a474ef57bb580ddbc49e51",
+      "width": 1788,
+      "height": 508,
+      "rgb_pixel_sha256": "4aefd9a602a3b703232f44646b4ac68f5cd77d9d46c5595c570f837ab5d9b342",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "sevastopol_coded_routing",
+      "path": "experiments/sevastopol_coded_routing/sources/p139_A3.png",
+      "pdf_page_1based": 142,
+      "clip_pdf_points": [
+        74,
+        589,
+        519,
+        718
+      ],
+      "scale": 4,
+      "png_sha256": "e944faddfc425dba69371de7d9835da03ea5e9b74bf6587d69f088b09d02531f",
+      "width": 1780,
+      "height": 516,
+      "rgb_pixel_sha256": "a5a167959c2524d4d71f5faf1eaa38d7fac380d08d8a9dfbfe1526a2cbb885bc",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov8_map_and_boundary",
+      "path": "experiments/nov8_map_and_boundary/sources/p162_full.png",
+      "pdf_page_1based": 165,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 2,
+      "png_sha256": "fb310d99363cb58b92ac3db1ea9d3e9ec153277725b06bb9bcecd4da8c405da1",
+      "width": 1157,
+      "height": 1649,
+      "rgb_pixel_sha256": "d012fa4544a99de9922f75d3ab1336a661934bcf38ffff9b1e62d726da117ded",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov8_map_and_boundary",
+      "path": "experiments/nov8_map_and_boundary/sources/p162_B_detail.png",
+      "pdf_page_1based": 165,
+      "clip_pdf_points": [
+        60,
+        300,
+        530,
+        401
+      ],
+      "scale": 5,
+      "png_sha256": "a1d86284afa6768f3296edd5d9558fa59e191259b978079cf72d5abd44a7438f",
+      "width": 2350,
+      "height": 505,
+      "rgb_pixel_sha256": "66efbf17839837d17cd8c329b35532692db64cea1ea59c4850f946ada6ba8ddb",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov8_map_and_boundary",
+      "path": "experiments/nov8_map_and_boundary/sources/p162_C_detail.png",
+      "pdf_page_1based": 165,
+      "clip_pdf_points": [
+        60,
+        420,
+        530,
+        542
+      ],
+      "scale": 5,
+      "png_sha256": "f76520d0b65125901ed8e3615f6dd3e83ab36d57c57c1a143d201465836ad5a4",
+      "width": 2350,
+      "height": 610,
+      "rgb_pixel_sha256": "16e8ac3e4412722ec995a464bfee236750b6681e69fb12bf07f1534e5ca38c8e",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov8_map_and_boundary",
+      "path": "experiments/nov8_map_and_boundary/sources/p162_D_detail.png",
+      "pdf_page_1based": 165,
+      "clip_pdf_points": [
+        60,
+        555,
+        530,
+        634
+      ],
+      "scale": 5,
+      "png_sha256": "54d4a046aa47b16b863aced56392ef6783c801ddc920bbbb95fdc1af45feacb4",
+      "width": 2350,
+      "height": 395,
+      "rgb_pixel_sha256": "df8e1d0d240a0338cf4603b376dcea2798b6ee342e1d3e57036ffc853539066a",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov8_map_and_boundary",
+      "path": "experiments/nov8_map_and_boundary/sources/p162_B_faint.png",
+      "pdf_page_1based": 165,
+      "clip_pdf_points": [
+        439,
+        338,
+        475,
+        374
+      ],
+      "scale": 14,
+      "png_sha256": "4bf8720d2dc735d63f794521b551cd3c8c7f57082180d73be3ebfade2ca117ca",
+      "width": 504,
+      "height": 504,
+      "rgb_pixel_sha256": "4f82d34b604a9eaaced38d70306e08c73c591a7f72e4fc5d8bc570f4b2168a31",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov8_map_and_boundary",
+      "path": "experiments/nov8_map_and_boundary/sources/p162_B_group4.png",
+      "pdf_page_1based": 165,
+      "clip_pdf_points": [
+        297,
+        338,
+        333,
+        355
+      ],
+      "scale": 14,
+      "png_sha256": "796ef23793bc760114c629ff6c31c42f87830d85635552cb7f8ed9e267d9d797",
+      "width": 504,
+      "height": 238,
+      "rgb_pixel_sha256": "ee479a5b5e436da1fddef93b04ad44e7d986db7a0c1372be2264ce659fd54535",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov8_map_and_boundary",
+      "path": "experiments/nov8_map_and_boundary/sources/p162_B_group8.png",
+      "pdf_page_1based": 165,
+      "clip_pdf_points": [
+        484,
+        338,
+        524,
+        355
+      ],
+      "scale": 14,
+      "png_sha256": "45beb213eafc7b73ae9249b58b7206c6202a227a380c8940da1587bb922f0566",
+      "width": 560,
+      "height": 238,
+      "rgb_pixel_sha256": "183866b24744a14a8d55a462f3bf99d9f762db58ea9e4d1f0478b2823d0d3d76",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov7_fragments_and_council",
+      "path": "experiments/nov7_fragments_and_council/sources/p151_A.png",
+      "pdf_page_1based": 154,
+      "clip_pdf_points": [
+        68,
+        252,
+        484,
+        395
+      ],
+      "scale": 5,
+      "png_sha256": "0dc50ca50f12b9e659e62d867b5d11d6e677f2b8d805f2d92cc50416674bf03d",
+      "width": 2080,
+      "height": 715,
+      "rgb_pixel_sha256": "b8426cf8a276b75854accc3e38963205bb1d29c3d8c8ff9574d24c6cda9f7c14",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov7_fragments_and_council",
+      "path": "experiments/nov7_fragments_and_council/sources/p151_A1_short_group.png",
+      "pdf_page_1based": 154,
+      "clip_pdf_points": [
+        280,
+        295,
+        315,
+        312
+      ],
+      "scale": 12,
+      "png_sha256": "50cc5b8edfe3a0e5ce4af6fe5d76ea4aa65c5a79287a76e57c1dffb91b2e46fe",
+      "width": 420,
+      "height": 204,
+      "rgb_pixel_sha256": "253d404d75db0e96cac23e2502301e9962748bc349db283c484121625dedb37e",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov7_fragments_and_council",
+      "path": "experiments/nov7_fragments_and_council/sources/p151_B.png",
+      "pdf_page_1based": 154,
+      "clip_pdf_points": [
+        71,
+        407,
+        484,
+        491
+      ],
+      "scale": 6,
+      "png_sha256": "a09daef59730b2ea713b7f0bcb24a0b4838cb7b079ff16a8a43c253436c522cb",
+      "width": 2478,
+      "height": 504,
+      "rgb_pixel_sha256": "aa36cb61d0df822dce5e617139e5b095faafac0f3120c8a6aabc59c60c8450c1",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov7_fragments_and_council",
+      "path": "experiments/nov7_fragments_and_council/sources/p151_B_annotation.png",
+      "pdf_page_1based": 154,
+      "clip_pdf_points": [
+        276,
+        468,
+        325,
+        486
+      ],
+      "scale": 12,
+      "png_sha256": "e9f87ec2b9be0fd6b3e583fe883117e08f21ed8cf34ec552fbd9adfe24bcdcf5",
+      "width": 588,
+      "height": 216,
+      "rgb_pixel_sha256": "1ed4b5c79cb83183ea3f6d5618c09f44a1ac2927923e3b4f5fdf40789dbdf67d",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov7_fragments_and_council",
+      "path": "experiments/nov7_fragments_and_council/sources/p151_C.png",
+      "pdf_page_1based": 154,
+      "clip_pdf_points": [
+        71,
+        518,
+        486,
+        590
+      ],
+      "scale": 6,
+      "png_sha256": "4f02270787948c4ed81ccc832f9b61e13ed89cddd5c0a675f248824c8f98fde9",
+      "width": 2490,
+      "height": 432,
+      "rgb_pixel_sha256": "f9473357ab68844c3f1d0a49c93f91ce8b86d645fdd1e3ddef9f8e5873eeefb8",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov9_urgent_embassy_address",
+      "path": "experiments/nov9_urgent_embassy_address/sources/p161_full.png",
+      "pdf_page_1based": 164,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 2,
+      "png_sha256": "2ce6528b10794fbc7e38db32316f59857c2151a48bdb7523211ccd7e8bfdefac",
+      "width": 1157,
+      "height": 1649,
+      "rgb_pixel_sha256": "f0ae279f6e98a181a6e330e20c69ffe4416e1a1683dfd9dd2d9550f81f2d88bf",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov9_urgent_embassy_address",
+      "path": "experiments/nov9_urgent_embassy_address/sources/p161_B_detail.png",
+      "pdf_page_1based": 164,
+      "clip_pdf_points": [
+        65,
+        343,
+        488,
+        445
+      ],
+      "scale": 5,
+      "png_sha256": "c92e2094ab0431facedcea3a1f72b65895f1f69d49061f881f29b636be9c988f",
+      "width": 2115,
+      "height": 510,
+      "rgb_pixel_sha256": "9793ac33dd12673b8d82c77f79cb62d9926e6b086a57b66b3e614a9ec3cf1801",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov9_urgent_embassy_address",
+      "path": "experiments/nov9_urgent_embassy_address/sources/p161_B_lastV.png",
+      "pdf_page_1based": 164,
+      "clip_pdf_points": [
+        363,
+        405,
+        405,
+        428
+      ],
+      "scale": 18,
+      "png_sha256": "a96f55a8e6a3615aeb321edba761898bf2593ad1b667b083832606fb430ee224",
+      "width": 756,
+      "height": 414,
+      "rgb_pixel_sha256": "deb3e99d3dee957da8d77ea74b8712a12affaccf7490a607b1800f3337b8522a",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov9_urgent_embassy_address",
+      "path": "experiments/nov9_urgent_embassy_address/sources/p161_B_final_group.png",
+      "pdf_page_1based": 164,
+      "clip_pdf_points": [
+        282,
+        421,
+        307,
+        439
+      ],
+      "scale": 20,
+      "png_sha256": "bd332bb2bf7e548c753dfe4a0d17ebf94e11891c25292bd84e79271c0b71dc06",
+      "width": 500,
+      "height": 360,
+      "rgb_pixel_sha256": "5a714decfbeff77eeb237b43eef0da4cb1178618fa20d82a7c3da48c0a56e735",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "romanian_pacification_consultation",
+      "path": "experiments/romanian_pacification_consultation/sources/p157_overview.png",
+      "pdf_page_1based": 160,
+      "clip_pdf_points": [
+        45,
+        210,
+        540,
+        595
+      ],
+      "scale": 3,
+      "png_sha256": "1fcb7bc41d3b890b1c41afc99a1456d2229d0d30275de241d77868ffa948ec81",
+      "width": 1485,
+      "height": 1155,
+      "rgb_pixel_sha256": "71f33f3cc5ae33bfdfcbcb13dcdab109fabd93310a199d3932aa724aca8f5f81",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "romanian_pacification_consultation",
+      "path": "experiments/romanian_pacification_consultation/sources/p157_A1.png",
+      "pdf_page_1based": 160,
+      "clip_pdf_points": [
+        50,
+        242,
+        530,
+        312
+      ],
+      "scale": 3,
+      "png_sha256": "14d6d9c2ccc5cfbc33ff4217fa18e06e8ea3926c58b359a0b28d87decfe2403d",
+      "width": 1440,
+      "height": 210,
+      "rgb_pixel_sha256": "0dac955424f25eac6410736f223d99da50e18b2be430afbafa91676238759eff",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "romanian_pacification_consultation",
+      "path": "experiments/romanian_pacification_consultation/sources/p157_A2.png",
+      "pdf_page_1based": 160,
+      "clip_pdf_points": [
+        55,
+        316,
+        535,
+        381
+      ],
+      "scale": 3,
+      "png_sha256": "9116668ad5c1fe865ebc7079b426c1a3c17bd12dc083c9c2bd3287cba3fdc0be",
+      "width": 1440,
+      "height": 195,
+      "rgb_pixel_sha256": "5d84dff3635e5d5fd5aa9b3abf5569355598681ac1ae302f71d1262cde16b381",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "romanian_pacification_consultation",
+      "path": "experiments/romanian_pacification_consultation/sources/p157_A3.png",
+      "pdf_page_1based": 160,
+      "clip_pdf_points": [
+        55,
+        385,
+        535,
+        455
+      ],
+      "scale": 3,
+      "png_sha256": "eafba0aae1c5bf060a845867a8f0703a582a0ddbf225ef64dae5837e298d9457",
+      "width": 1440,
+      "height": 210,
+      "rgb_pixel_sha256": "aeff506f75f9990ea50ec10b55271d4a6fc33f0b4f5049f3cb9f4d2f52c813df",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "romanian_pacification_consultation",
+      "path": "experiments/romanian_pacification_consultation/sources/p157_A4.png",
+      "pdf_page_1based": 160,
+      "clip_pdf_points": [
+        55,
+        463,
+        535,
+        532
+      ],
+      "scale": 3,
+      "png_sha256": "7564d84431e47b2690b17b8de09fd39773567a247d67500f3e2399952bc6d5f6",
+      "width": 1440,
+      "height": 207,
+      "rgb_pixel_sha256": "d9c9519083f76eb1b49a8597d577a64cb6f4fc2c3f917c1999373aa637c29f40",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "romanian_pacification_consultation",
+      "path": "experiments/romanian_pacification_consultation/sources/p157_A5.png",
+      "pdf_page_1based": 160,
+      "clip_pdf_points": [
+        55,
+        539,
+        535,
+        592
+      ],
+      "scale": 3,
+      "png_sha256": "fd9080253eeb634dd6ee57a254aff2fc9379f14014bd0fc201d1ed44d0d57b5c",
+      "width": 1440,
+      "height": 159,
+      "rgb_pixel_sha256": "81d313f1d32312cd9ba08e7c79eb165fde08a4c5aab62488b22c7a14701a8cec",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "odd_fragment_diagnostics",
+      "path": "experiments/odd_fragment_diagnostics/sources/childs_p159_full.png",
+      "pdf_page_1based": 162,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 2.3,
+      "png_sha256": "59da330225abff2fdfedd6b2985bdde613325526ea6c79ab6fb9a7bdd84defc3",
+      "width": 1330,
+      "height": 1897,
+      "rgb_pixel_sha256": "faec9c9b199884befaecf65b3d021f0295a370ce5d3baa77f7340ae1b7517ef4",
+      "fresh_render_cache": true
+    },
+    {
+      "package": "odd_fragment_diagnostics",
+      "path": "experiments/odd_fragment_diagnostics/sources/childs_p162_C.png",
+      "pdf_page_1based": 165,
+      "clip_pdf_points": [
+        60,
+        425,
+        525,
+        541
+      ],
+      "scale": 6,
+      "png_sha256": "f8c511f53c4d1f1836f068d1c26dfb753951960a620fd50e828a5451af156ba7",
+      "width": 2790,
+      "height": 696,
+      "rgb_pixel_sha256": "0ccd5b06883493b30159ad19988fa76a6339b35bb174aca5fa66d54042aff144",
+      "fresh_render_cache": true
     }
   ],
   "presentation_artifacts": [
@@ -8823,6 +9979,7 @@
     "A fixed raw label may be a garble or a numerical label of unknown historical meaning. Coverage counts do not certify every word.",
     "Conditional geometry is retained in package summaries; summing modeled positions does not remove its assumptions.",
     "Pixel identity binds a delivered crop to the pinned PDF. It does not itself prove every manual glyph judgment.",
+    "The source-image inventory includes two unaccepted-fragment diagnostic crops; those images add no accepted source records or plaintext positions.",
     "The earlier 87-to-195 review retains its own immutable snapshots. This review starts at195."
   ]
 }

@@ -57,6 +57,14 @@ def table(rows, destination):
 
 def render(data, destination):
     other = sorted(data["other"], key=lambda r: (r["printed_page"], r["source_section"], r["id"]))
+    other_table = table(other, destination)
+    if destination == ROOT / "README.md":
+        other_table = "\n\n".join([
+            "<details>",
+            f"<summary>Show all {len(other)} other source-reviewed records</summary>",
+            other_table,
+            "</details>",
+        ])
     return "\n".join([
         START,
         "## The 22 challenge entries", "",
@@ -64,7 +72,7 @@ def render(data, destination):
         "", table(data["challenge"], destination), "",
         f"## Other ciphertexts — {len(other)} reviewed records", "",
         "Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.",
-        "", table(other, destination), "",
+        "", other_table, "",
         "The catalogue covers source-reviewed records with published reading evidence; the wider OCR search pool contains additional unreviewed ciphertext candidates. Earlier authors retain their credits. Current source review and new research use **icekylinx and GPT-6 Astra Pro**; a review credit does not assert first-decipherment priority.",
         END,
     ])

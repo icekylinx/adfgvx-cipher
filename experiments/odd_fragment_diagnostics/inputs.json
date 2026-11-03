@@ -1,0 +1,240 @@
+{
+  "schema": "adfgvx-odd-fragment-diagnostic-inputs-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "status": "No accepted complete plaintext; non-catalog diagnostic evidence only.",
+  "key_file": {
+    "path": "data/keys.json",
+    "sha256": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1"
+  },
+  "model_sha256": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+  "primary_pdf": {
+    "sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "size_bytes": 156848258,
+    "title": "J. Rives Childs, General Solution of the ADFGVX Cipher System",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+  },
+  "images": [
+    {
+      "path": "sources/childs_p159_full.png",
+      "printed_page": 159,
+      "pdf_page_1based": 162,
+      "clip_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 2.3,
+      "fresh_render_cache": true,
+      "sha256": "59da330225abff2fdfedd6b2985bdde613325526ea6c79ab6fb9a7bdd84defc3",
+      "pixel_sha256": "faec9c9b199884befaecf65b3d021f0295a370ce5d3baa77f7340ae1b7517ef4",
+      "width": 1330,
+      "height": 1897
+    },
+    {
+      "path": "sources/childs_p162_C.png",
+      "printed_page": 162,
+      "pdf_page_1based": 165,
+      "clip_points": [
+        60,
+        425,
+        525,
+        541
+      ],
+      "scale": 6,
+      "fresh_render_cache": true,
+      "sha256": "f8c511f53c4d1f1836f068d1c26dfb753951960a620fd50e828a5451af156ba7",
+      "pixel_sha256": "0ccd5b06883493b30159ad19988fa76a6339b35bb174aca5fa66d54042aff144",
+      "width": 2790,
+      "height": 696
+    }
+  ],
+  "original_files": [
+    {
+      "path": "original/p159_one_insert_all_keys.json",
+      "sha256": "e4f7e06de363719104bbc3b0ec977e7481814a0717caa1f2d6b7e159e7c43668",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p159/one_insert_all_keys.json"
+    },
+    {
+      "path": "original/p159_phase_screen.json",
+      "sha256": "caa9805b5a0e35c12510b31dbb3be9f44bb045cabf316086f582c07653d2fb6e",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p159/phase_screen.json"
+    },
+    {
+      "path": "original/p162_C1_four_models.json",
+      "sha256": "39c9a003d0fddfc6e209de81e2d1118e4ef0152ae892bb65e32d07f4014ecaf6",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p162/p162_C1_four_models.json"
+    },
+    {
+      "path": "original/p163_unlabelled_four_models.json",
+      "sha256": "3b7e38fec0683c19acf02b7b385fad3e1302ecab313c008bd0e043326a804b72",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p162/p163_unlabelled_four_models.json"
+    },
+    {
+      "path": "original/p162_C1_prefix_suffix.json",
+      "sha256": "4ff954dd4d035027a247dd2a015f670b5b1413390e079ef5a657a3fc8b90f379",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p162/C1_prefix_suffix.json"
+    },
+    {
+      "path": "original/p163_prefix_suffix.json",
+      "sha256": "7329eb390c469533efa500da7bd12294967224095f9a45617691cdffc7f1d2e6",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p162/p163_prefix_suffix.json"
+    },
+    {
+      "path": "original/p159_screen.py",
+      "sha256": "c3cb9973173a02f92bf9eeacfd93066ed1241113058fd4caba654741b6b72499",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p159/screen.py"
+    },
+    {
+      "path": "original/p159_phase_screen.py",
+      "sha256": "47dc4724aec68e50bbff8f2cc26f19422cb435357b7be6576437894e48d48500",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p159/phase_screen.py"
+    },
+    {
+      "path": "original/p162_screen_variants.py",
+      "sha256": "7b41c58a9d29dda6652a3ed2e69b06619de2a02afb9a98e0fe8570ced472ca15",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p162/screen_variants.py"
+    },
+    {
+      "path": "original/p162_explore.py",
+      "sha256": "572c3f19672aefd916609335c55cb67b76ceaf105c0bed74fcaf932f5a8a2240",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p162/explore.py"
+    },
+    {
+      "path": "original/p162_rows.py",
+      "sha256": "e485e691cb5624ce93008f0f0a371d396d1e8210763c3dc74e7461ea5244f001",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p162/rows.py"
+    },
+    {
+      "path": "original/p159_transcription_origin.py",
+      "sha256": "3e7c5d977c9189e191595d7b7aa2b7477b204f32fbedc94bbefc99b51ee27b79",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p160/rows.py"
+    },
+    {
+      "path": "original/p159_near_key_screen.py",
+      "sha256": "16c30610419b18356ba2aeca5badf3dc5f999abd556873dfad84f552da783467",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p159/near_key_screen.py"
+    },
+    {
+      "path": "original/p159_near_key_screen.json",
+      "sha256": "496ddf2facb2da62d1441bc7fa0a39596ed2a9ce42acd14b26d7649325983533",
+      "original_runtime_path": "/tmp/adfgvx-post-push-root/p159/near_key_screen.json"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "experiments/withdrawal_recovery/inputs.json",
+      "sha256": "07a7dfcb2f28918c4c9dad2303d42cdf074f0698fa9f1abb190e0a2200d9d334"
+    },
+    {
+      "path": "experiments/withdrawal_recovery/sources/childs_p163_A15_A16.png",
+      "sha256": "045d518e3a39a586d5f50bcb4b20e0462120f8f326d732110d42bd596c92f942"
+    }
+  ],
+  "records": [
+    {
+      "id": "p159_A",
+      "source_rows": [
+        "FDVDD FXAAX XGVDD XADVV XFVXD VDAGG VDAGG ADVDV",
+        "VADDA VDDGV DDGGX GVVGX GVXVG XDDVF VGXXA ADDVV",
+        "FFXDF FFXDF XDXXV DGAGF VDAAV VXDDG VXAAV GDDA",
+        "DVFDX GDGVG VGDDX VXVAG VDVDD DDGVG DXXVX GDDGX",
+        "DDGAA GVAVD VVGAA VGDVD VVDVG GGGDF XGDGD DDDVV",
+        "VFVGF VDGDD VXDAD XDADV GVVVV GDVDD DDVGG VVDGG",
+        "DVVVV VAFVA DXXXV VVVFA FFADV DAXVV FV"
+      ],
+      "source_image": "sources/childs_p159_full.png",
+      "literal_source_slots": 271,
+      "single_change_evaluations": 95150,
+      "minimum_known_quad_rule": {
+        "kind": "absolute",
+        "minimum": 100
+      },
+      "source_header": "A) UKS? v ZON (11.12 p.m., November 8th); AN LP 2000 KR; RICHI-272; cleartext closing ZON outside body",
+      "source_note": "The literal body has 271 ADFGVX coordinates, including the four-character group GDDA and final FV. The advertised 272 does not establish a single-loss model."
+    },
+    {
+      "id": "p162_C1",
+      "source_rows": [
+        "GGDFX VVVDV VVDVD VDXDG VVXXG GDDVV XXVGD VVGXD",
+        "XGVXD DDAXD GVGDF AGVDD VGXXV AVDGD GDGAX FDGGD",
+        "DDVXX VDVGD FFVDF AXAXD XGFFV VXAVA AFAXD AG"
+      ],
+      "source_image": "sources/childs_p162_C.png",
+      "literal_source_slots": 117,
+      "single_change_evaluations": 41250,
+      "minimum_known_quad_rule": {
+        "kind": "floor_fraction",
+        "numerator": 3,
+        "denominator": 4
+      },
+      "prefix_suffix_evaluations": 102,
+      "prefix_suffix_rule": {
+        "key_id": "Nov7-9",
+        "odd_gap_sizes": [
+          1,
+          101,
+          2
+        ],
+        "ends": [
+          "prefix",
+          "suffix"
+        ],
+        "minimum_known_quad_windows": 12
+      },
+      "source_header": "C) --- v NKJ (09.45 a.m., November 9th); (missed first part of this message); RICHI--?; 1 TL",
+      "source_note": "117 visible coordinates. The printed missed-first-part annotation and 1 TL label are retained without inferring the absent amount or layout."
+    },
+    {
+      "id": "p163_unlabelled",
+      "source_rows": [
+        "FVVAX XAGVD VGDXV VGDVV VGDDX VXGGG XXGVG",
+        "DDVVV DGXVV DXGVX VFDDD DXGXV GDXAX VGDVD GDGVV",
+        "GDVVG GAGVV VVVVX XVVAG DADXD DDDXD DXXGA DDDDG",
+        "XXGXD A"
+      ],
+      "source_image": "../../experiments/withdrawal_recovery/sources/childs_p163_A15_A16.png",
+      "upstream_record_id": "p163_A_unlabelled",
+      "literal_source_slots": 121,
+      "single_change_evaluations": 42650,
+      "minimum_known_quad_rule": {
+        "kind": "floor_fraction",
+        "numerator": 3,
+        "denominator": 4
+      },
+      "prefix_suffix_evaluations": 102,
+      "prefix_suffix_rule": {
+        "key_id": "Nov7-9",
+        "odd_gap_sizes": [
+          1,
+          101,
+          2
+        ],
+        "ends": [
+          "prefix",
+          "suffix"
+        ],
+        "minimum_known_quad_windows": 12
+      },
+      "source_header": "A) --- v UKS (1.21 a.m., November 9th); unlabelled continuation, J'md; RICHI----",
+      "source_note": "121 visible coordinates. Its location between parts 15 and 17 suggests, but does not establish, part 16; length is absent."
+    }
+  ],
+  "scope": {
+    "new_catalog_records": 0,
+    "accepted_complete_readings": 0,
+    "single_change_configurations": 179050,
+    "prefix_suffix_frames": 204,
+    "prefix_suffix_key": "Nov7-9",
+    "unknown_window_rule": "All scored means exclude every window containing an unresolved symbol. Coverage thresholds differ by experiment and do not calibrate the remaining selection bias.",
+    "all_unknown_square_limit": "An all-unknown square is ineligible under all three retained coverage rules; its marginal-model score cannot be accepted as language evidence.",
+    "rank_variant_parameter_evaluations": 311712,
+    "rank_variants": 191,
+    "known_cross_campaign_overlap_evaluations": 1632,
+    "total_parameter_evaluations_including_prefix_suffix": 490966,
+    "count_limit": "Parameter evaluations, not distinct texts or independent witnesses. The unswapped Nov7-9 branch repeats 1632 earlier configurations; additional duplicate geometry is not deduplicated."
+  }
+}

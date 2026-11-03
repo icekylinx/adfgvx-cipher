@@ -1,0 +1,249 @@
+{
+  "schema": "adfgvx-sevastopol-coded-routing-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p139_A1.png",
+      "printed_page": 139,
+      "pdf_page_1based": 142,
+      "crop_pdf_points": [
+        50,
+        276,
+        520,
+        431
+      ],
+      "render_scale": 4,
+      "sha256": "dfa1059a3a329c06fcddfe286e681452f2ff80980d600052732b7ccc5a736c31"
+    },
+    {
+      "path": "sources/p139_A1_length.png",
+      "printed_page": 139,
+      "pdf_page_1based": 142,
+      "crop_pdf_points": [
+        75,
+        330,
+        140,
+        353
+      ],
+      "render_scale": 12,
+      "sha256": "b24cbe7a5032323f391a4a958ff6e29a1046e796e6ce8e423a27b3c958608d96"
+    },
+    {
+      "path": "sources/p139_A2.png",
+      "printed_page": 139,
+      "pdf_page_1based": 142,
+      "crop_pdf_points": [
+        72,
+        444,
+        519,
+        571
+      ],
+      "render_scale": 4,
+      "sha256": "af9c2e9c2d123535ff0a3198cfbf69ed9dd24ee131a474ef57bb580ddbc49e51"
+    },
+    {
+      "path": "sources/p139_A3.png",
+      "printed_page": 139,
+      "pdf_page_1based": 142,
+      "crop_pdf_points": [
+        74,
+        589,
+        519,
+        718
+      ],
+      "render_scale": 4,
+      "sha256": "e944faddfc425dba69371de7d9835da03ea5e9b74bf6587d69f088b09d02531f"
+    }
+  ],
+  "records": [
+    {
+      "id": "p139_A1",
+      "printed_page": 139,
+      "source_section": "A1",
+      "source_rows": [
+        "AXXXG XFFVV GXFXV DXXVG FDFXF GAFDV XFDFF GAFXG",
+        "DXVGD XGDGA VVFFX GGFFA XGFVF DVAVG XAFAV GXAFD",
+        "VAVFF XVXVV GGGFA DAXVD XFADX FXADV VAXDD VDXAX",
+        "AVDXG VDADF XAFVF DFDXG VFGGA DAAAA FXXFV GFAFF",
+        "XGFGV FXFAD DDAXD DDFGX VAVVV VVXAG AFFDV AAGGV"
+      ],
+      "source_slots": 200,
+      "advertised_length": 200,
+      "expected_raw": "NATEKOXSEWASTOPOLXVONSEEKRIEGSLTGXGRXHXYUXSLX4475XINABAENDERUNGXFECHX3XGROSSXBXFRX53083XSINDGEMAESSX",
+      "readable_candidate": "NATEKOXSEWASTOPOLXVONSEEKRIEGSLTGXGRXHXYUXSLX4475XINABAENDERUNGXFECHX3XGROSSXBXFRX53083XSINDGEMAESSX"
+    },
+    {
+      "id": "p139_A2",
+      "printed_page": 139,
+      "source_section": "A2",
+      "source_rows": [
+        "BVAGD FGGDX DGXAX FDGDV DFDDV FDDAF AXGFG DDFFA",
+        "XXGGF DFGVD FAGFA DVDDG DAFXV VGGGD GXAVG GXFAF",
+        "AFGGD DDDDD VGXFD DFDGG ADADA FADFX VXFDG ADDDX",
+        "DVDDG GGFVD FVFXX VGDGD XAAAV AADFG GGGDF AFAGD",
+        "GDFAD GAAFG DGDAD DDDAG XAGVA FXADG DAXXX DDDGV",
+        "DDDGF VVADA AAGDD GVDFD"
+      ],
+      "source_slots": 220,
+      "advertised_length": 220,
+      "expected_raw": "XAX?RX11120XGEHOPXCUJOMAREMOX36117X59000X13814X39800X42097X85206X82520X51933X32342X28215X38105X04376XZULEITENX",
+      "readable_candidate": "XAXNRX11120XGEHOPXCUJOMAREMOX36117X59000X13814X39800X42097X85206X82520X51933X32342X28215X38105X04376XZULEITENX"
+    },
+    {
+      "id": "p139_A3",
+      "printed_page": 139,
+      "source_section": "A3",
+      "source_rows": [
+        "XVGAF DAVDX DFDXV FVFGF DVAFG FAGXD AFFVX DGFAF",
+        "FDXAX ADFVA AXAFD XFVFA ADXAX FFFXF VAVAV GFDFD",
+        "XDXAX VGADD FVGAX FFADV GFDVG DAFFV AFVFA FDXDX",
+        "FVDFX AXAFV FAXFX GFXXG FGXAV AVVXD DVAFD FGVFV",
+        "VVXFF VAXGV DAGVD FDFGF VVDXG GDVAX AXDVD FGFDF",
+        "GDVVF XGFXF GG"
+      ],
+      "source_slots": 212,
+      "advertised_length": 212,
+      "expected_raw": "GLEICHESSXETRAXSUEDOSTXEZXKIEWXBVGXRUMXSXMXSTXDEUTSCHERSTABXNACARXRXMXAXADMIRALSTABFECH2XGROSZXBXERX53689X",
+      "readable_candidate": "GLEICHESSXETRAXSUEDOSTXEZXKIEWXBVGXRUMXSXMXSTXDEUTSCHERSTABXNACARXRXMXAXADMIRALSTABFECH2XGROSZXBXERX53689X"
+    }
+  ],
+  "headers": [
+    "NKJ v LP (5.57 a.m., November 6th)",
+    "SSD FUER ASO 1940 3 TLE",
+    "1 TL RICHI-200",
+    "2 TL RICHI-220",
+    "3 TL RICHI-212"
+  ],
+  "source_notes": [
+    {
+      "record": "p139_A1",
+      "field": "advertised length",
+      "transcription": "200",
+      "explanation": "The enlarged length crop shows RICHI-200. An initial page-scale impression of 300 was rejected before publication; no 100-coordinate-loss model is adopted."
+    },
+    {
+      "record": "p139_A2",
+      "source_index": 0,
+      "literal": "B",
+      "explanation": "The first glyph in BVAGD is visibly B, outside the ADFGVX alphabet. It occupies one source slot and is masked, not deleted. The edited N in NR is a contextual choice from its six-letter domain."
+    }
+  ],
+  "opaque_inner_group_sequence": {
+    "record": "p139_A2",
+    "literal_marker": "CUJOMAREMO",
+    "literal_groups": [
+      "36117",
+      "59000",
+      "13814",
+      "39800",
+      "42097",
+      "85206",
+      "82520",
+      "51933",
+      "32342",
+      "28215",
+      "38105",
+      "04376"
+    ],
+    "scope": "These are recovered outer-ADFGVX plaintext labels. Their possible codebook or other underlying meaning has not been identified or decoded. No numerical assignment, quantity interpretation or translation is supplied."
+  },
+  "ocr_snapshot": {
+    "path": "ocr_snapshot.json",
+    "sha256": "f4fe7ca177fe08e79588323cf41d5eed1538a426f73978565056b0da45245446"
+  },
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "49979ad4c8c4e6d4983207169a1f6ff5d2bb52e6baa2f1b03eeb054aff54119c",
+    "key_credit": "Unchanged published Nov4–6 key with original provenance."
+  },
+  "limits": [
+    "The source-defined three-part 200/220/212 sequence is retained. No frame, source insertion/deletion or key change is used.",
+    "Only the invalid B glyph is filled, selecting N in NR. There are zero observed-coordinate substitutions in the primary edition.",
+    "Raw YU, NACAR, GROSZ and ER fields remain literal, as do all references and numeric groups. The readable layer does not silently convert EZ to EX.",
+    "The CUJOMAREMO marker and twelve five-figure groups are left opaque. Recovering them from ADFGVX is not a solution of any underlying code or an interpretation of their digits as quantities.",
+    "The leading 0 in 04376 and every other group character is preserved.",
+    "All six raw A2 completion witnesses are retained; N is a contextual editorial reading, not forced solely by the damaged coordinate.",
+    "The message is a routing instruction and distribution list, not proof that any shipment or transmission occurred.",
+    "Earlier candidates, the unread odd-length A1 OCR and published key provenance are preserved; no historical first-solution claim is made."
+  ]
+}

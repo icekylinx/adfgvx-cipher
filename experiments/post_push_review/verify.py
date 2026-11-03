@@ -60,6 +60,8 @@ def build(pdf=None):
                 'fixed_raw_label_positions_under_stated_geometry': certificate['conditional_raw_fixed_positions'],
                 'known_coordinate_substitutions': certificate['known_coordinate_substitutions_per_variant'],
             }
+        elif certificate.get('schema') == 'adfgvx-nov9-urgent-embassy-address-certificates-v1':
+            certificate_ids = {certificate['record']['id']}
         else:
             certificate_ids = {r['id'] for r in certificate['records']}
         assert set(package['record_ids']) == certificate_ids

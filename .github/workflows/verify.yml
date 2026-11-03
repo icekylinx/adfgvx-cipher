@@ -151,6 +151,15 @@ jobs:
           python experiments/p108_naval_and_personnel/verify.py --verify
           python data/reviews/verify_followup_readings.py --verify
           python experiments/p107_railway_and_dragoman/verify.py --verify
+          python experiments/romanian_pacification_consultation/verify.py --verify
+          python experiments/nov1_mackensen_and_orient_reports/verify.py --verify
+          python experiments/nov1_ammunition_and_leave/verify.py --verify
+          python experiments/hungarian_armistice_instructions/verify.py --verify
+          python experiments/sevastopol_coded_routing/verify.py --verify
+          python experiments/nov8_map_and_boundary/verify.py --verify
+          python experiments/nov7_fragments_and_council/verify.py --verify
+          python experiments/nov9_urgent_embassy_address/verify.py --verify
+          python experiments/odd_fragment_diagnostics/verify.py --verify
           python experiments/nov8_radio_keys_and_reports/parallel_witnesses.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |

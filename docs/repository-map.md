@@ -6,7 +6,9 @@ Start with the [case guide](../cases/README.md) to read the messages. Its six
 topic guides collect related subjects and then show each physical source
 record with its reading status and credit. The complete challenge and other
 record tables remain available in both the case guide and the
-[main README](../README.md).
+[main README](../README.md). The main README keeps the 22 challenge entries
+visible and places the other-record table in an expandable section whose
+summary shows its record count; the case guide keeps both tables expanded.
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. Topic placement is an editorial
 reading aid; each case retains its own keys, source relationships and limits.

@@ -1,0 +1,98 @@
+{
+  "schema": "adfgvx-prior-ocr-evidence-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "source_path_at_review": "/tmp/corpus-harvest-screen-initial.json",
+  "source_sha256": "408ca9c5f60b94c73f88351755fde9ac6e916d2ee5fe3cf99c228fd653ef00ab",
+  "selected_rows": [
+    {
+      "block_id": "p162_ocr_block6",
+      "printed_page": 162,
+      "headers_ocr": [
+        "D) XYZ v LP (06.12 a.m., Noveuber 10th)",
+        "1330 (8/13) 2 TEILE"
+      ],
+      "ciphertext": "AFXAXDVFDAFXGDGXGVXVVXGG?XGDDADDGVGDX??DVGXAAXXADFVDDVXVVXDDXVGDVXDVVXVXVVGGVXXGVGXXFDXGVVFXDVVGFAFA",
+      "source_slots": 100,
+      "best": {
+        "key": "Nov7-9",
+        "score": -5.486954283207021,
+        "known_quad_mean": -4.016643387930734,
+        "known_quad_windows": 35,
+        "plaintext": "DEUTSCHEBOTSCHAFTKONSTAN?INOPELXUN?ERSCHRIF?STUMMX",
+        "known_positions": 47,
+        "positions": 50,
+        "unpaired_coordinate": null
+      },
+      "runner_up": {
+        "key": "Sep19-21",
+        "score": -9.040840473580868,
+        "known_quad_mean": -8.789004843575613,
+        "known_quad_windows": 35,
+        "known_positions": 47,
+        "positions": 50,
+        "unpaired_coordinate": null
+      }
+    },
+    {
+      "block_id": "p162_ocr_block5",
+      "printed_page": 162,
+      "headers_ocr": [
+        "C) sz- v NKJ (09.45 a.m., Novender Stn)",
+        "(missed first part of this cessage)"
+      ],
+      "ciphertext": "ADDXVDDDVDAAXVADXGGADDDFGGVDAXGGADFD?XDFFVXXFVVDXFDVVGXVXVDDXVVDXXVDVFGGVVDXDADFDGVGVAFGVDAXDXVDVAFA",
+      "source_slots": 100,
+      "best": {
+        "key": "Nov7-9",
+        "score": -5.809192596597875,
+        "known_quad_mean": -5.440246692923612,
+        "known_quad_windows": 43,
+        "plaintext": "TIRASPOLERHIEL?MXGXFEUERANDERGRENZEXAKONACH17ROEM4",
+        "known_positions": 49,
+        "positions": 50,
+        "unpaired_coordinate": null
+      },
+      "runner_up": {
+        "key": "Nov10-12",
+        "score": -9.426920190770575,
+        "known_quad_mean": -9.365943038463593,
+        "known_quad_windows": 40,
+        "known_positions": 47,
+        "positions": 50,
+        "unpaired_coordinate": null
+      }
+    },
+    {
+      "block_id": "p162_ocr_block2",
+      "printed_page": 162,
+      "headers_ocr": [
+        "B) UKS v ZON (03.40 a.m., Movenber 9th)"
+      ],
+      "ciphertext": "DGDDAFGXADXDXGVG?GGADAGXV?FDDVFXV?GAADGV?AGAADDVXAXGDGXVGDGDXDAGFDDAXVVVF?DXGXDAVFDVXV??VXDVVVXVVDFXVXVDVGVFXVVV?G?DDDDVDVDVDGDDVVGXXFVVDGDXDXXXXDGDDGG?DVDDADDVXDDGAAGDFGFFDDGDVGDDGFD",
+      "source_slots": 183,
+      "best": {
+        "key": "Nov7-9",
+        "score": -8.89022869142619,
+        "known_quad_mean": -8.248073834998936,
+        "known_quad_windows": 51,
+        "plaintext": "SXE3LVELTREITAER?AS20SSGRLIGXEDBEDDU?N?7YZU?0BL??BDDC?KAR0EQ9E9N000TB?SRF3C?C?CGTIUV?8E2E3D",
+        "known_positions": 80,
+        "positions": 91,
+        "unpaired_coordinate": "F"
+      },
+      "runner_up": {
+        "key": "Sep19-21",
+        "score": -9.471213514154607,
+        "known_quad_mean": -9.288724985989658,
+        "known_quad_windows": 55,
+        "known_positions": 81,
+        "positions": 91,
+        "unpaired_coordinate": "A"
+      }
+    }
+  ],
+  "scope": "C2 and D1 already have substantial readable bodies in the earlier OCR screen. B1 old OCR has183 slots and is unreadable under its native-length scan; this edition independently reviews181 printed slots and an explicitly conditional182-slot model. No first historical decryption priority is claimed."
+}

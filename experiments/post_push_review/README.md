@@ -11,17 +11,17 @@ by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 443 other physical source records**, with all
-22 challenge entries preserved. It adds **248 physical records across 67 source
+This snapshot compares **195 → 471 other physical source records**, with all
+22 challenge entries preserved. It adds **276 physical records across 75 source
 packages** and keeps every earlier record. The separate interpretation and
 open-target method audits add no physical records.
 
-The new source packages account for **55,640 literal source slots** and
-**27,999 modeled plaintext positions**, of which **26,922 have fixed raw labels**
+The new source packages account for **60,778 literal source slots** and
+**30,564 modeled plaintext positions**, of which **29,438 have fixed raw labels**
 under their stated frames. These are coverage counts. They include repeated
 copies, previously identified bodies, conditional geometry and unresolved
 historical numeral meanings; they are not a count of first decipherments or
-universally correct original letters. All 529 observed-coordinate substitutions
+universally correct original letters. All 571 observed-coordinate substitutions
 are recorded locally, separately from source erasures and inserted values.
 The source-slot total includes separately recorded marginal annotations;
 those annotations are not automatically part of a typed analysis frame.
@@ -97,10 +97,18 @@ those annotations are not automatically part of a typed analysis frame.
 | [November 8 radio-key instructions, apparatus prices and reports](../nov8_radio_keys_and_reports/README.md) | 7 | 1327 | 662 | 643 | 11 |
 | [p108: naval inquiry and personnel-discharge order](../p108_naval_and_personnel/README.md) | 3 | 547 | 274 | 273 | 0 |
 | [p107 railway instructions and dragoman-return inquiry](../p107_railway_and_dragoman/README.md) | 3 | 622 | 311 | 310 | 12 |
+| [November 1 Mackensen and Orient reports](../nov1_mackensen_and_orient_reports/README.md) | 8 | 1395 | 695 | 659 | 19 |
+| [p102 C/D: ammunition loading and leave arrangements](../nov1_ammunition_and_leave/README.md) | 2 | 520 | 260 | 260 | 0 |
+| [Three-part report and request concerning Hungarian armistice negotiations](../hungarian_armistice_instructions/README.md) | 3 | 666 | 333 | 333 | 6 |
+| [Sevastopol routing amendment with opaque numerical groups](../sevastopol_coded_routing/README.md) | 3 | 632 | 316 | 315 | 0 |
+| [p162: map sheets, Tiraspol border fire and an embassy signature](../nov8_map_and_boundary/README.md) | 3 | 381 | 191 | 181 | 2 |
+| [p151 fragments, annotated acknowledgment and Soldiers Council notice](../nov7_fragments_and_council/README.md) | 4 | 690 | 343 | 342 | 4 |
+| [p161 B1: urgent Constantinople embassy address](../nov9_urgent_embassy_address/README.md) | 1 | 98 | 49 | 49 | 0 |
+| [Romanian pacification consultation: p157 parts 2–5](../romanian_pacification_consultation/README.md) | 4 | 756 | 378 | 377 | 11 |
 
 The [complete inventory](inventory.json) preserves every added identifier,
 package summary, case path and counting limit. The [inputs](inputs.json)
-pin both catalogues and 1038 package/case artifacts. Earlier statuses, subjects
+pin both catalogues and 1166 package/case artifacts. Earlier statuses, subjects
 and credits are unchanged; 164 old path fields follow the explicit topic-migration map.
 
 ## Additional interpretation and method audits
@@ -109,6 +117,7 @@ and credits are unchanged; 164 old path fields follow the explicit topic-migrati
 - [Coordinate loss before transposition: source diagnostic and p198](../p198_pretransposition_loss/README.md)
 - [Optional Nov22–24 interpretation: GD may stand for J](../nov22_nikolajew_constraint/README.md)
 - [Literal-coordinate retrieval after publication](../post_push_copy_retrieval/README.md)
+- [Bounded diagnostics of three unaccepted odd-length fragments](../odd_fragment_diagnostics/README.md)
 
 These packages retain their own calibration limits and conditional assumptions.
 A source-compatible witness or an exact language optimum does not by itself
@@ -136,11 +145,13 @@ readable passages, preserving all five unresolved positions.
 
 ## Independent source-image binding
 
-All **318 delivered source images** have normalized PDF-page, rectangle, scale,
+All **362 delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph
-judgments or prove an editorial plaintext.
+judgments or prove an editorial plaintext. Two of these images belong to the
+unaccepted odd-fragment diagnostics and add no catalogue records or recovered
+plaintext positions.
 
 The original PDF SHA-256 is
 `157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06`.

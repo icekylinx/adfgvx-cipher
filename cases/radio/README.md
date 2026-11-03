@@ -4,7 +4,7 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**115 reviewed physical records across 44 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**116 reviewed physical records across 45 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -37,6 +37,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p158 — Composite routing and key instructions](../p158.md) | p159 B, p159 C, p168 C, p168 D |
 | [Radio apparatus sale and estimated value](radio_equipment_sale_prices.md) | p160 B1, p160 B2 |
 | [November Ringbahn keys and postponed December change](ringbahn_key_reuse.md) | p160 C1, p160 C2 |
+| [Berlin General Staff map-sheet request](map_sheet_request.md) | p162 B1 |
 | [p164 B — Dismantling the station and marching to Temesvar](p164_B.md) | p164 B |
 | [p166 — a second witness of the newspaper-dispatch request](newspaper_dispatch_witnesses.md) | p166 B1, p166 B2 |
 | [Station control and the Seifert service exchange](seifert.md) | p168 A, p168 B, p169 A, p172 A, p172 B, p174 B, p174 C, p174 D, p174 E |
@@ -123,6 +124,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p160 C1](ringbahn_key_reuse.md#p160-c1) | November Ringbahn keys and postponed December change | 152/154 fixed raw positions; 4 observed substitutions, 2 printed-mask fills; conditional 1-observed-coordinate exclusion frame | icekylinx and GPT-6 Astra Pro (2026 source edition); published period-key authors and earlier OCR candidate readings credited separately |
 | [p160 C2](ringbahn_key_reuse.md#p160-c2) | November Ringbahn keys and postponed December change | 71/72 fixed raw positions; 0 observed substitutions, 0 printed-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026 source edition); published period-key authors and earlier OCR candidate readings credited separately |
 | [p162 A1](courier_munich.md) | Repeated Munich courier departure notice | Companion to p153 E1; 118/134 positions supported across both models | icekylinx and GPT-6 Astra Pro (2026) |
+| [p162 B1](map_sheet_request.md#p162-b1) | General Staff Berlin map-sheet request; coupled quantity and map-scale digits unresolved | Conditional 182-slot model; 89/91 edited fixed; 2 observed edits,3 source fills,1 missing fill; 0/1 gap tie and F/E sensitivity retained | icekylinx and GPT-6 Astra Pro (2026 source edition); Lasry/Niebel/Kopal/Wacker published partial key; prior OCR bodies and Norbert digit hypothesis retained |
 | [p164 B](p164_B.md) | Dismantle the station and resume calls after reaching Temesvar | 69/70 raw positions; two substitutions; 0500 is a separate digit inference | icekylinx and GPT-6 Astra Pro (2026) |
 | [p166 B1](newspaper_dispatch_witnesses.md) | Berlin newspaper sacks received via Orsova; first-part common body fully source-pair supported | 100/100 fixed positions; 1 observed-coordinate substitutions and 1 mask fills; prior witness costs unchanged | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier source editions and unreviewed body leads retained |
 | [p166 B2](newspaper_dispatch_witnesses.md) | Damaged dispatch-order witness; two old letter proposals gain mixed-coordinate support | 92/93 fixed positions; 7 observed-coordinate substitutions and 49 mask fills; prior witness costs unchanged | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier source editions and unreviewed body leads retained |

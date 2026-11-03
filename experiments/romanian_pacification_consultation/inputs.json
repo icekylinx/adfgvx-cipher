@@ -1,0 +1,322 @@
+{
+  "schema": "adfgvx-romanian-pacification-consultation-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "Childs, RICHI ADFGVX cipher intercept collection",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 157,
+    "pdf_page_1based": 160,
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "headers": [
+    "7th NOVEMBER, 1918.",
+    "A) LP v NKJ (--- November 8th)",
+    "5 TLE",
+    "1 TL RICHI----",
+    "2 TL RICHI-200",
+    "3 TL RICHI-218",
+    "4 TL RICHI-210",
+    "5 TL RICHI-128"
+  ],
+  "source_images": [
+    {
+      "path": "sources/p157_overview.png",
+      "pdf_page_1based": 160,
+      "crop_pdf_points": [
+        45,
+        210,
+        540,
+        595
+      ],
+      "render_scale": 3,
+      "sha256": "1fcb7bc41d3b890b1c41afc99a1456d2229d0d30275de241d77868ffa948ec81"
+    },
+    {
+      "path": "sources/p157_A1.png",
+      "pdf_page_1based": 160,
+      "crop_pdf_points": [
+        50,
+        242,
+        530,
+        312
+      ],
+      "render_scale": 3,
+      "sha256": "14d6d9c2ccc5cfbc33ff4217fa18e06e8ea3926c58b359a0b28d87decfe2403d"
+    },
+    {
+      "path": "sources/p157_A2.png",
+      "pdf_page_1based": 160,
+      "crop_pdf_points": [
+        55,
+        316,
+        535,
+        381
+      ],
+      "render_scale": 3,
+      "sha256": "9116668ad5c1fe865ebc7079b426c1a3c17bd12dc083c9c2bd3287cba3fdc0be"
+    },
+    {
+      "path": "sources/p157_A3.png",
+      "pdf_page_1based": 160,
+      "crop_pdf_points": [
+        55,
+        385,
+        535,
+        455
+      ],
+      "render_scale": 3,
+      "sha256": "eafba0aae1c5bf060a845867a8f0703a582a0ddbf225ef64dae5837e298d9457"
+    },
+    {
+      "path": "sources/p157_A4.png",
+      "pdf_page_1based": 160,
+      "crop_pdf_points": [
+        55,
+        463,
+        535,
+        532
+      ],
+      "render_scale": 3,
+      "sha256": "7564d84431e47b2690b17b8de09fd39773567a247d67500f3e2399952bc6d5f6"
+    },
+    {
+      "path": "sources/p157_A5.png",
+      "pdf_page_1based": 160,
+      "crop_pdf_points": [
+        55,
+        539,
+        535,
+        592
+      ],
+      "render_scale": 3,
+      "sha256": "fd9080253eeb634dd6ee57a254aff2fc9379f14014bd0fc201d1ed44d0d57b5c"
+    }
+  ],
+  "ocr_snapshot": {
+    "path": "ocr_snapshot.json",
+    "sha256": "bf3084d67b1b53f6adfd61fd6739621432f67cc0b8126ebd737c1d5145f76d16"
+  },
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "b78aaf5496fa264e363ff5eb0535472ac0011abcf3f57c5b3689571c85d87c38"
+  },
+  "records": [
+    {
+      "id": "p157_A2",
+      "printed_page": 157,
+      "source_section": "A2",
+      "source_rows": [
+        "XXDXD XVXDD AGADD DAFGG GGGFX AXGGV VVGDV VDVDG",
+        "GVXGD VVVGX AAXXD GXGAA GDADG GDGXX DAADA AGAXX",
+        "DDVVD XDDDG GGVDG GGXVX GXVGV GVDFG FFXDG VGGAV",
+        "VVVXG DVXFV XDDXV DGXDD GDVVG GGVDG GDVGA DDDGD",
+        "DGDVF VFDGG VXVDG XGGGG ADADV ADDAX GDAAG DGVDF"
+      ],
+      "source_slots": 200,
+      "advertised_length": 200,
+      "expected_raw": "MINISTERIUMLFERBEIGEFUEHRTXRUYAENISCHERLGIERUNGZIXTINERWAEGUNGXEINEMILITAEWISCHEPAZIAIZIERUNGSAKTION",
+      "readable_candidate": "MINISTERIUMSHERBEIGEFUEHRTXRUMAENISCHEREGIERUNGZIETINERWAEGUNGXEINEMILITAERISCHEPAZIFIZIERUNGSAKTION",
+      "readable_german": "Ministeriums herbeigeführt. Rumänische Regierung zie[h]t in Erwägung eine militärische Pazifizierungsaktion"
+    },
+    {
+      "id": "p157_A3",
+      "printed_page": 157,
+      "source_section": "A3",
+      "source_rows": [
+        "FDFVG AXDVG DGVDX VXVDD XGGDX DDDGG DDVGX XGVDD",
+        "DVVXD VVXDD VVVVX GVAGX GDDAD XAXFD DXGFX DDDVV",
+        "DDVAX DXDXG GAFAD AXDVX DVGXD AXGVD VXXAD DFXGG",
+        "GXGVX GVXVD DVGVG FXVVV DVXGX VDDXD GXGDV VDVVG",
+        "VDVVV AVGFX FAADD XVFGV XGXVG GGVDV DXXXG VAXGD",
+        "XDAAA DDDFA DDFXA GDG"
+      ],
+      "source_slots": 218,
+      "advertised_length": 218,
+      "expected_raw": "NACHSIEBENBUERGENXOBKDOXHATZRSUCHTXEINENBEVOLLMXGENERALSOFORTNACHBUKARSTZURBESPRECHUNGUEBERDIESEANGELEGEN4EIT",
+      "readable_candidate": "NACHSIEBENBUERGENXOBKDOXHATERSUCHTXEINENBEVOLLMXGENERALSOFORTNACHBUKARSTZURBESPRECHUNGUEBERDIESEANGELEGENHEIT",
+      "readable_german": "nach Siebenbürgen. Obkdo. hat ersucht, einen bevollm. General sofort nach Bukar[e]st zur Besprechung über diese Angelegenheit"
+    },
+    {
+      "id": "p157_A4",
+      "printed_page": 157,
+      "source_section": "A4",
+      "source_rows": [
+        "DXDVG XGDDX DXADD GGDDA FDADX GXXDG GVVXG XDVAG",
+        "VGDVF DXDXG VGDXD VXADA DDGAV DVDXD XADXG XXVVD",
+        "XDXXX DDXGD DDXXD VXXXD GGGVX VVDVG XVDVG VFGVV",
+        "GXDAV GGVVV GDXVG DXVXG VXVGG GGVVV DGXDX XDVVX",
+        "XAAFX XFGDX GDVVG VXVDD XVGVV GVVXV DGFGV DDGXD",
+        "XDDVF GDXAV"
+      ],
+      "source_slots": 210,
+      "advertised_length": 210,
+      "expected_raw": "ZUENTSENDENXDAFUERSTELLUNGDESOXKXMXDIEHINSICHTLICHWAFFENSTILLSTANDESGEPFLOGENENVEREINBARUNGENENTSCHEIDEND",
+      "readable_candidate": "ZUENTSENDENXDAFUERSTELLUNGDESOXKXMXDIEHINSICHTLICHWAFFENSTILLSTANDESGEPFLOGENENVEREINBARUNGENENTSCHEIDEND",
+      "readable_german": "zu entsenden. Da für Stellung des O. K. M. die hinsichtlich Waffenstillstandes gepflogenen Vereinbarungen entscheidend"
+    },
+    {
+      "id": "p157_A5",
+      "printed_page": 157,
+      "source_section": "A5",
+      "source_rows": [
+        "XFXXG FAAFD AVFAD GDDXV XDGGF VVDVV XXDAG GDAFG",
+        "AGDDV DVDXG GDGGD AXFVX XGXDX XDGXD VXFVG GFGGG",
+        "GDGGV GVGVV GFXVV VGXD- GDVVD DVVVG XDGVV XADAD",
+        "VGXVF XFG"
+      ],
+      "source_slots": 128,
+      "advertised_length": 128,
+      "expected_raw": "SIFDXWIRDUMMOEGLICHSTBA?DIGEORIENTIERUNGGEBETENXOKMXCHEF11291GUH",
+      "readable_candidate": "SINDXWIRDUMMOEGLICHSTBALDIGEORIENTIERUNGGEBETENXOKMXCHEF11291GEH",
+      "readable_german": "sind, wird um möglichst baldige Orientierung gebeten. O. K. M. Chef 11291 Geh."
+    }
+  ],
+  "contextual_unread_records": [
+    {
+      "id": "p157_A1",
+      "source_rows": [
+        "XDDV GGXVD XXXVD FDVGX DGVGX DVVXX XXXGV XVDFV",
+        "GDVGV VXDDV AVDXG GGXAX XDDFV GVXXA XXXA -----",
+        "GDDDG"
+      ],
+      "literal_source": "XDDVGGXVDXXXVDFDVGXDGVGXDVVXXXXXGVXVDFVGDVGVVXDDVAVDXGGGXAXXDDFVGVXXAXXXA-----GDDDG",
+      "visible_slots": 83,
+      "valid_coordinates": 78,
+      "printed_dashes": 5,
+      "advertised_length": null,
+      "cataloged": false,
+      "status": "Truncated odd-length source fragment; no native full-frame decryption or inserted prefix is asserted. One short four-letter group occurs in each of its first two rows. The five printed dashes remain five occupied source slots."
+    }
+  ],
+  "copy_context": {
+    "comparison_record": "p151_A1",
+    "comparison_certificate_path": "../nov7_fragments_and_council/certificates.json",
+    "comparison_certificate_sha256": "46931784a99cf5105904ef65bbc2ec8d0ada0b86dda7d9b46e730f708693c718",
+    "comparison_literal_source": "DAAFDDXGXXVGXXDGXDDAVDADAGXDDGVXDXDFVVGVXVGXGVXFFXGDXGVAVVGDXXFDDDGFGDGFXDGDVGDADAXXXGXVXVXXVVDDDDXXGGVXXDDVVGGXVDVVVXDFDVGXDGVGXDVVXXXXXGVXVDAVGDVGVVXDDVAVDXGGGXAXXDDFVGVXXAXXDFAAXFDXGDDDG",
+    "status": "Literal-coordinate overlap only. The p157 source-defined parts2–5 are not equated with p151 part2, which has a different 186-coordinate frame and body. Neither the missing p157 A1 prefix nor the opaque p151 STUR3FSS ending is repaired from contextual prose."
+  },
+  "limits": [
+    "No published square or numeral assignment is changed.",
+    "ZIET and BUKARST remain literal misspellings; missing display letters are bracketed separately.",
+    "The notice asks for discussion and information; it does not establish that a pacification action occurred.",
+    "RICHI and headings establish source divisions, not historical truth.",
+    "Full re-encryption proves compatibility with the stated key/frame, not uniqueness of historical plaintext."
+  ]
+}

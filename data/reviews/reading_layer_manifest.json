@@ -14,6 +14,40 @@
   ],
   "files": [
     {
+      "path": "cases/caucasus/caucasus_ammunition_loading.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "a76564027f1a836ed9966f6aa65aa57cce24357fc12e145649732d17d9dc411c",
+      "review_basis": "Native source and exact readable mapping reviewed; literal5280625, HITTMER and abbreviations are unchanged, and source corrections are separated from historical edits.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "2b40cd02d70373dd87d47da43797358d3655169b510a7079560a65b3d08cded0",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription \u2014 literal cleartext header:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "93ac9d9d92e6e02d90be39308de3a58a849d90f3dcfb3185cf733bf8d2e32d25",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 published Nov1\u20133 key, native source frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "d39372ab9a1e498fb63cdb03353f4640a28ceb3ee7ab972b1d663d2a010b431f",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation only; umlauts display their literal two-letter equivalents:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/caucasus/caucasus_radio_transmitters.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "9370ccd5c72eb7bd3b8e6d6a5a4d9457f16aa34a55ff6f4d857302a329ae56a4",
@@ -2474,6 +2508,88 @@
       ]
     },
     {
+      "path": "cases/military/hungarian_armistice_instructions.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "219fc265e17c907ddc6fa1165bed61c353a037261fbf1da3784099f78b836bc7",
+      "review_basis": "Three source-labeled parts and OCR split reviewed; six coordinate repairs are priced. KOOVES and final0 remain literal; the single supplied A in Gener[a]lstabsoffiziere is explicitly outside cipher counts.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "303f971b3649af4c6a94c0a9ec7bed92023e3d4568e1cd8c50c1968a47a00c0f",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 352-coordinate frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "a1aa9eddf8db6e09b970fab9891ba567712c117cb4b500354d8a8a64e4a77e2b",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 three observed-coordinate substitutions, with no fills:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "0a4705f5ba890ca38a2181dd2487f81a8986c37e57c6d2aba8782190e33cc40e",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 266-coordinate frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "ad7b2a487c4938eef66880de326dacbd99ee4f68c99271c97f43ffda01f89827",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 three observed-coordinate substitutions, with no fills:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 4,
+          "sha256": "65474da61fbeece4a6b6aac7ccc268c559bd651b4503a4c748bb58e41487d699",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 48-coordinate frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 5,
+          "sha256": "65474da61fbeece4a6b6aac7ccc268c559bd651b4503a4c748bb58e41487d699",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 unchanged, with zero substitutions or fills:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "6c1ddb7886b0ebe6bef17f8fd5b3fb84abe5aec3a22b3ec897f992dc6e6dc4ee",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and umlauts; the literal closing 0 is retained:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "88b0e3d1903932441456b6853bf1a41d9c330acc6dbca69ccead5bc7b09cb16e",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and one explicitly supplied spelling letter in brackets:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "f50f802d7f5415c3fdc2e2059d11a36e47f50d80cbb61b84697e8b5f130e17e2",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation, with abbreviations unexpanded:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/military/hungary_transport_warning.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "743a664ec8938fc91947155641aea032e29d91177f9d272e6bb7df591f1563b4",
@@ -2853,6 +2969,88 @@
           "caption_required": true,
           "caption": "**Readable German \u2014 conditional reconstructed third part:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/mackensen_subordination.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "416cd64772422774222bce862b77bb6fbf5866536a171966e0469f6654db4c90",
+      "review_basis": "Explicit review of native and conditional frames, five priced observed exclusions, weak source slot and four minimum copy streams. Exact readable mapping preserves all reference labels; source-origin ambiguity is not collapsed.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "6fe60b58eee7fadba3f9d42db4aca46712a5bdff72fcb51afd41986781fdf31f",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "e9e5e72e1b180817d282ecb64ce05f87002b42aca21af009761cc5df258d0f82",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 explicitly priced coordinate repairs and mask fills**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "1e69d3423602d2db60b13f4a7347154e7647604000e4976b066212e2bfed00bb",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "5a2f2b8d08e33a47bbc1b7a1c9da4285cb581e6b179f333a73176afba67d87b4",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 explicitly priced coordinate repairs and mask fills**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 4,
+          "sha256": "f7cdd5831898a79a97fb42f0b77d18bcb4fd463e786f7db147ee521ab42d9777",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 conditional 132-slot copy-alignment frame**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 5,
+          "sha256": "5a2f2b8d08e33a47bbc1b7a1c9da4285cb581e6b179f333a73176afba67d87b4",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 same conditional frame; separately priced exclusions**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "ea29ecda20093fc63413890a4981f69a5e7dc786db7065f21d36790b7773fded",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the edited layer**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "423ad43d6835b964501061a22a64c9492d2e51b0a9191f98ac6ea4a618459f55",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the edited layer**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "423ad43d6835b964501061a22a64c9492d2e51b0a9191f98ac6ea4a618459f55",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the conditional edited layer**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
         }
       ]
     },
@@ -3535,6 +3733,88 @@
       ]
     },
     {
+      "path": "cases/military/nov7_fragment_and_acknowledgment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "8909717aaffdd98786aaac5f34cff909dab059aec7b3cbfb7b46cfd11f7d7aee",
+      "review_basis": "Conditional short-group frame, all30 labeled completions, lexical crib and opaque STUR3FSS reviewed. Typed versus handwritten source layers and their distinct exclusion costs remain explicit; extraH and incomplete march wording are preserved.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "b1ccfa45fe1b0def421379dbb281409721c4d0783fd50f3a3d419144fea159db",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 conditional 190-coordinate frame with one missing coordinate at the AVVG short group:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "cfe4481b01154ecb2e70fc67a6d5b294931900a752e5da26ed9e60e77a064c7e",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 same conditional frame; one missing-coordinate fill and zero observed substitutions:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "1ed5e48f7844554407140a61a62a256e1d07d3f4cde995345ddc93a3856b2b40",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 186-coordinate frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "600b7486e6d062a3c1f3ed2798c503b4a56fa6f7d42a62e8a3ce8cbbf16e5832",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 one observed-coordinate substitution, with no fills:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 4,
+          "sha256": "7eabd49f6fcbc6da21a6bb87e3fd1259852285cc0186c863019e3bdbe5a6d950",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 156-coordinate typed source layer, with the five handwritten glyphs retained separately:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 5,
+          "sha256": "a8b803a1c402bf2013e673292e9fd30a011290583317d057ae061f80362fffbc",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 same typed source layer; three observed-coordinate substitutions, with no fills:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "ba3873d07550b08b6254561081ff5b582b25d79165397ce71488d4fbe9235e46",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing of an incomplete fragment, with the opaque closing retained:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "dd19f026c2b302649a0af2d3730ec7ff418abd7d3af9c5585b437bbef6551a23",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and umlaut; the unfinished wording remains:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "a251bbf392555216d567ad78e81ffe26200284da5c1b2236bfce6e4d6dc36cf6",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation, with abbreviation labels retained:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/military/nov8_alpenkorps_report.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "76e05be0bf1f898ee2718772b35071b3a619fbb10877f6ffa035d4fa89a73cdb",
@@ -3761,6 +4041,136 @@
           "caption_required": true,
           "caption": "**Readable German:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/orient_south_slav_reports.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "430be563c387255c4fc699a2dea93cb51ccf34e659801d28e056b26bf6b0340b",
+      "review_basis": "Explicit review of separate headers, VON/IN wording, two unresolved date labels and literal unit references. All128 common-copy minima retain their shared word error; fluent repair is separately priced in both copies.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "1aa2a91e75be6e589e9c2b6fe81ba883c5aa6cf314f95eebaf4d5218bac7df29",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "8d2873fcfdef0ff6d9d563726e269af77d651b14501d570e47ffde3864499e1c",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 explicitly priced coordinate repairs and mask fills**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "b9c2dbe3bec7ecb21dc39bf883bb3658e36adbee651e1a1f83b84f04d39bc266",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "c53615134a5a33c8b7c37143c599cb912ecbeed832249d8a6ba89a44f818726c",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 explicitly priced coordinate repairs and mask fills**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 4,
+          "sha256": "a684e177e3961c83228dd4e8e64876ba48ee6effeb8fb28e433c73b61fef4b9c",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 5,
+          "sha256": "4bf0c175d587be4f31727c88e193482117b76ea25c2b81fd9a18f9e3643af931",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 explicitly priced coordinate repairs and mask fills**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 6,
+          "sha256": "4d55444c4e2bbd9c33c24b49a5562d9b5b193aed225b8e0e65d0b905959cea8c",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 7,
+          "sha256": "c53615134a5a33c8b7c37143c599cb912ecbeed832249d8a6ba89a44f818726c",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 explicitly priced coordinate repairs and mask fills**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 8,
+          "sha256": "5736e3eea60d148b8ff13b703a5ced13bb51612121a8fbaf1c1381dab0060d39",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 9,
+          "sha256": "958ad90c6ea8997d6d9aae8ad1a5f38a4eec6dc6626823f6232c83c55ba30428",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 explicitly priced coordinate repairs and mask fills**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "b7dc6781b36709d841922880f743d546678657296cff3029fc55c843488965de",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the edited layer**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "d3694698b7c3894dae96e63dc0d77a021ca82a5ef833f4366a817c2bec868c15",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the edited layer**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "e7f3d314b4ba54135fae0f706d607c35485ce51419eea4d8713a93c20225cf89",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the edited layer**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "d3694698b7c3894dae96e63dc0d77a021ca82a5ef833f4366a817c2bec868c15",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the edited layer**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 4,
+          "sha256": "a313c559a68665394329e6f7fe196b770ce4bb806073890dffb1da3e63416df8",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 from the edited layer**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
         }
       ]
     },
@@ -4297,6 +4707,112 @@
       "quotes": []
     },
     {
+      "path": "cases/military/romanian_pacification_consultation.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "89d6d8a4788b1b9c6fa23d41bad334e1af629be0cc94af2abc848e0e5c1ddf51",
+      "review_basis": "Four native source-labeled frames and separately priced repairs reviewed. ZIET/BUKARST remain in exact streams; [h]/[e] are supplied only in readable displays and removed by the exact365-label fold check. Truncated83-slot A1 is uncounted context, and its33-coordinate overlap does not establish whole-message identity.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "9a1d50b82e4c84c09c7f771338f89f1a4195d8af92e7ab0a902315f0991bb116",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 200-coordinate frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "d2e72c08ca55e6d63df0ad1e6346669af738cdd69312c68e4ddee478c04bb7cb",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 7 observed-coordinate substitutions and 0 printed-mask fills:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "7047b62f4ab7e2c347a6bdabd4c3a1bccbcf30d07c7862835496ad41abc04dc7",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 218-coordinate frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "9c6ff986406cbf4903d9994f54084e5a3d794715c4431d58600858ab19081cc5",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 2 observed-coordinate substitutions and 0 printed-mask fills:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 4,
+          "sha256": "07bc88049059ecd2bcd3e661279bb3cd666670bcc95773c906403ad814bd03aa",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 210-coordinate frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 5,
+          "sha256": "07bc88049059ecd2bcd3e661279bb3cd666670bcc95773c906403ad814bd03aa",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 0 observed-coordinate substitutions and 0 printed-mask fills:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 6,
+          "sha256": "469bf893b0f732a44bec1e51d96aee9bbd9be9f68088e0c6d53b8a90c17178e7",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 128-coordinate frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 7,
+          "sha256": "faffdbb7309b1268ce490153ff6d967d41888b3cf6d3417238de5f912d30a3bc",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 2 observed-coordinate substitutions and 1 printed-mask fill:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "fabee01264530cf9a0b92bd3582d6e9f2e42367240029566083cfdf2c20953b2",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation, umlauts and explicitly bracketed display letters:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "0381152b7c0171985980c9721b6023c1a664984d10c0855fe4464f02ae9d1d1d",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation, umlauts and explicitly bracketed display letters:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "18a3ec19cac3b88df6cffd8482b2e4ff502ed18984c57adb61fe97453a705811",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and umlauts:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "e3f143d933c3d3ec10f3e3a7c9e4c98d796cc16738a0510c3ecdf9fde997a246",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and umlauts:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/military/romanian_ultimatum_companions.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "891f5e89e2ccd836c16a991476a91525fda484b28060afe6cc7141aded63aa82",
@@ -4411,6 +4927,156 @@
           "caption_required": true,
           "caption": "**Readable German \u2014 spacing and punctuation:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/sevastopol_coded_routing.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "31dbec37fc4b4d1b406f029bcfd4aa02f775ede94c044b6f584fefe72e24c310",
+      "review_basis": "Native routing text, one invalid-glyph fill and six raw alternatives reviewed. Twelve opaque five-figure groups retain source order and leading zero; YU, EZ, NACAR, GROSZ and ER are not silently normalized.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "931a8af9a778b216ca911c9e192e9f9d732943d5cec4d98830e02be39a3ebae1",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 200-coordinate frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "931a8af9a778b216ca911c9e192e9f9d732943d5cec4d98830e02be39a3ebae1",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 unchanged, with zero substitutions or fills:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "648cf8172be33f280e409c8c601dcacebcc4ba0594e920f1b4d527bc6823778b",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 220-coordinate frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 3,
+          "sha256": "aae79be9a7ff4454515223268b6f60b94a956bc28602dc9ee50a27b80b0e9b85",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 one invalid-glyph fill, with zero observed-coordinate substitutions:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 4,
+          "sha256": "24ed48ed243ecacde4835d19a4d0ca5a555add1cf26d41995285b1fd96d33d4b",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 212-coordinate frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 5,
+          "sha256": "24ed48ed243ecacde4835d19a4d0ca5a555add1cf26d41995285b1fd96d33d4b",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 unchanged, with zero substitutions or fills:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "0efd38f38cd155c66aa473e7f5b9a980b3eb4acf2d1f8b064f668697e8967250",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and umlauts; abbreviations remain literal:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "0d863ed2d756a066d963a12d032aedc9f429fa7b9fcc35248196d805bd7e1d05",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation, with the opaque groups copied literally:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 2,
+          "sha256": "7dce09ad071831fd291e2a1474725c0e022dd33c37a7d361bcc2d88b9fceac34",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing, punctuation and umlaut, with opaque fields and spelling retained:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/soldiers_council_surrender.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "55ff8fcc1c62388f7597821ed70b93cd9ea646a75dfe397b3db881f049378e50",
+      "review_basis": "Zero-edit native reading and exact readable labels reviewed. Absent article and ROU remain literal; no city, council identity or event confirmation is supplied.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "81eeb1de2e0b97165cb0fb18afad80352d0d8db6733e0a40f310ab023c68db1c",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 154-coordinate frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "81eeb1de2e0b97165cb0fb18afad80352d0d8db6733e0a40f310ab023c68db1c",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 unchanged, with zero substitutions or fills:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "010b384b301d151784baa203dfcea512bf33288224822e330636898a51d536c1",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/tiraspol_border_report.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "5b842bbe411dbca2a2b8cb8e523bf5d984c0e71560d45798525019dc03291583",
+      "review_basis": "Native100-slot frame with one source-dash fill reviewed. The preceding117-slot context stays unread and uncounted; exact display preserves AKONACH and the reference without external identification.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "a1c356d885de2bb970a36384e77e5038d52c8018832b81185a6c0b51d4517ac0",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 100-slot frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "ceb62e1e01c015807ebc0ae5f40bd739b36626d0855cf3b38322e45c324faa17",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 one printed-dash fill, with no observed-coordinate substitutions:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "15acd5f963f3b4edaeb7f1be7e4936995bded6dc21af61c3d9c40ebfd285a4a0",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 exact nonseparator labels of the edited layer, with spacing, punctuation and conventional umlaut rendering:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
         }
       ]
     },
@@ -6403,6 +7069,74 @@
       "quotes": []
     },
     {
+      "path": "cases/people/constantinople_embassy_signature.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "88708c2001f85bd11e0e6629eea9db6a7afee1784716f1d85f7b2662ee60c13c",
+      "review_basis": "Native100-slot frame and three invalid-C fills reviewed. Exact display preserves K spelling and STUMM; incompatible date fields and the absent second part remain explicit.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "274e092f403cb3357cf5457d7582c54a7d273d690e38768d714bc469bba23d0b",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 100-slot frame with the three printed C glyphs masked:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "d98562678d95df771de83f279feab43cbbd7d6383832c27d02965678de10be2c",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 three printed-invalid-glyph fills, with no observed-coordinate substitutions:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "d102a5a6fc0c88384a7e5c9673621fa9f323d58fa247addd6f9b055e8cefaa12",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 exact nonseparator labels of the edited layer, with spacing and punctuation:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/constantinople_urgent_address.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "e775551ceccc7da180ab0748dd1c86666b1b7e8dbbead39ed27ecf8e2593689e",
+      "review_basis": "Native98-slot reading and source-visible DVGXV/AXA corrections reviewed. DRINGEND is already raw; rejected draft diagnostics remain non-primary. C spelling, GEZ, date conflicts and absent part are retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "6d136b864dd927229d5cad85271958d5d8bcd2b74f0b9dd8b7ba9e07b482f117",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription \u2014 literal cleartext header:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "2567688206ff59c452cb58940dbe0af10c670b7b2ba9cf69f98a53c122ffc4a2",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 98-coordinate frame, published Nov7\u20139 partial key:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "0953c25a2ca0699543e68a1ea2719053595b9790cedc4c59cc8b8a46e488f517",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 exact nonseparator labels, with spacing and punctuation only:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ]
+    },
+    {
       "path": "cases/people/dunst_assignment.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "36cd1819c86842afa8b402128006f00d1f6c881c7ff41a2306333d86be36dfe7",
@@ -7014,6 +7748,40 @@
           "caption_required": true,
           "caption": "**Readable German:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/roesler_leave_and_travel.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "5931a75e390722190ac9124bfc8310b98a135db92f7171b8df45ca1b1616054d",
+      "review_basis": "Native source and exact readable mapping reviewed; both ROESLER occurrences, HOENIGSCHMID and abbreviated offices remain literal. Editorial punctuation does not settle ambiguous grammar.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "1421a7290f73f466f923f7c5fc23708d42a43b3a5e9d881d7088986d2a849861",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription \u2014 literal cleartext header:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "b25ac8006c71c1f5c72f28d1ed7325b5cf623c35243943cde49b2211da6981e7",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 published Nov1\u20133 key, native source frame:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "cdeeee51c683c655b8227904ca7306b4a1cead8528cb50dcb3aec71761ae73f5",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation only; umlauts display their literal two-letter equivalents:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
         }
       ]
     },
@@ -7838,6 +8606,40 @@
           "caption_required": true,
           "caption": "**Readable German \u2014 spelling peculiarities retained:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/map_sheet_request.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "03d48c54feca1d8f6a31ec9aaab8b86e43d672fdf0e489bfa616f951181f5c08",
+      "review_basis": "Conditional182-slot frame, two observed substitutions, source/missing fills and F/E visual sensitivity reviewed. Two tied insertion origins and both linked5/6 digit assignments remain explicit; exact readable mapping retains both unknown positions.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "10b2cf45c9cb662c0ded3e9e1198ca10268dffd63caed55022484c8b79814804",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 conditional 182-slot frame, with the explicitly provisional F transcription:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        },
+        {
+          "index": 1,
+          "sha256": "f64906f3b5bb4b68d4e0056f8532e9edceb0a1254d31aca6df7e0e5acc066fe2",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 same frame; two observed substitutions, three printed-mask fills and one missing-coordinate fill:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "03d13c4ae8872e45945154dd02596003d244b39e2866f2753c511bcd8038f878",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 exact nonseparator labels of the edited layer, with spacing, punctuation and conventional umlaut rendering:**",
+          "review_note": "Explicit layer, frame and local qualifier checked against the source edition; display bytes are pinned for later regression checks."
         }
       ]
     },

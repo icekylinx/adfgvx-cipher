@@ -1,0 +1,4586 @@
+{
+  "schema": "p159-bounded-phase-diagnostic-v1",
+  "literal_source": "FDVDDFXAAXXGVDDXADVVXFVXDVDAGGVDAGGADVDVVADDAVDDGVDDGGXGVVGXGVXVGXDDVFVGXXAADDVVFFXDFFFXDFXDXXVDGAGFVDAAVVXDDGVXAAVGDDADVFDXGDGVGVGDDXVXVAGVDVDDDDGVGDXXVXGDDGXDDGAAGVAVDVVGAAVGDVDVVDVGGGGDFXGDGDDDDVVVFVGFVDGDDVXDADXDADVGVVVVGDVDDDDVGGVVDGGDVVVVVAFVADXXXVVVVFAFFADVDAXVVFV",
+  "model_sha256": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+  "ranking_rule": "Mean over at least100 fully known four-grams; missing-key windows excluded and low-coverage keys unranked. Scores are diagnostics, not historical proof.",
+  "runs": [
+    {
+      "key_id": "Sep19-21",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Sep19-21",
+          "kind": "insert_fractionated",
+          "index": 225,
+          "fill": "G",
+          "score": -9.299278578363863,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "734YIOLUGT95330L353PBOCK3LKFB3UJZWNPODTXJR7UKPU05MA70F4M7OELNX5N7UOIKA76LW7JM0I552FMOE0MB4K1KU777OUOO7XO1P7U44CIELNUB1COEFB5ZOM9JL0MZVSF"
+        },
+        {
+          "key_id": "Sep19-21",
+          "kind": "insert_fractionated",
+          "index": 227,
+          "fill": "F",
+          "score": -9.309614203030005,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "734YIOLUGT95330L353PBOCK3LKFB3UJZWNPODTXJR7UKPU05MA70F4M7OELNX5N7UOIKA76LW7JM0I552FMOE0MB4K1KU777OUOO7XO1P7U44CIIRNUB1COEFB5ZOM9JL0MZVSF"
+        },
+        {
+          "key_id": "Sep19-21",
+          "kind": "insert_fractionated",
+          "index": 267,
+          "fill": "G",
+          "score": -9.323537381968103,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "734YIOLUGT95330L353PBOCK3LKFB3UJZWNPODTXJR7UKPU05MA70F4M7OELNX5N7UOIKA76LW7JM0I552FMOE0MB4K1KU777OUOO7XO1P7U44CIIAZKHZAVZ7HNUM713A4PFESF"
+        },
+        {
+          "key_id": "Sep19-21",
+          "kind": "insert_fractionated",
+          "index": 266,
+          "fill": "G",
+          "score": -9.327994192453255,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "734YIOLUGT95330L353PBOCK3LKFB3UJZWNPODTXJR7UKPU05MA70F4M7OELNX5N7UOIKA76LW7JM0I552FMOE0MB4K1KU777OUOO7XO1P7U44CIIAZKHZAVZ7HNUM713A4PFTSF"
+        },
+        {
+          "key_id": "Sep19-21",
+          "kind": "insert_fractionated",
+          "index": 228,
+          "fill": "G",
+          "score": -9.333669784373807,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "734YIOLUGT95330L353PBOCK3LKFB3UJZWNPODTXJR7UKPU05MA70F4M7OELNX5N7UOIKA76LW7JM0I552FMOE0MB4K1KU777OUOO7XO1P7U44CIIAZUB1COEFB5ZOM9JL0MZVSF"
+        }
+      ]
+    },
+    {
+      "key_id": "Sep19-21",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Sep19-21",
+          "kind": "delete_fractionated",
+          "index": 208,
+          "fill": null,
+          "score": -9.287361957810141,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "734YIOLUGT95330L353PBOCK3LKFB3UJZWNPODTXJR7UKPU05MA70F4M7OELNX5N7UOIKA76LW7JM0I552FMOE0MB4K1KU777OUOO7XOFFN0LPRVLNUB1COEFB5ZOM9JL0MZVSF"
+        },
+        {
+          "key_id": "Sep19-21",
+          "kind": "delete_fractionated",
+          "index": 239,
+          "fill": null,
+          "score": -9.344926646261504,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "734YIOLUGT95330L353PBOCK3LKFB3UJZWNPODTXJR7UKPU05MA70F4M7OELNX5N7UOIKA76LW7JM0I552FMOE0MB4K1KU777OUOO7XO1P7U44CIIAZKHZAPFB5ZOM9JL0MZVSF"
+        },
+        {
+          "key_id": "Sep19-21",
+          "kind": "delete_fractionated",
+          "index": 217,
+          "fill": null,
+          "score": -9.345066673827894,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "734YIOLUGT95330L353PBOCK3LKFB3UJZWNPODTXJR7UKPU05MA70F4M7OELNX5N7UOIKA76LW7JM0I552FMOE0MB4K1KU777OUOO7XO1P7UXPRVLNUB1COEFB5ZOM9JL0MZVSF"
+        },
+        {
+          "key_id": "Sep19-21",
+          "kind": "delete_fractionated",
+          "index": 253,
+          "fill": null,
+          "score": -9.353076407403657,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "734YIOLUGT95330L353PBOCK3LKFB3UJZWNPODTXJR7UKPU05MA70F4M7OELNX5N7UOIKA76LW7JM0I552FMOE0MB4K1KU777OUOO7XO1P7U44CIIAZKHZAVZ7HNUMWJL0MZVSF"
+        },
+        {
+          "key_id": "Sep19-21",
+          "kind": "delete_fractionated",
+          "index": 259,
+          "fill": null,
+          "score": -9.361708445982499,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "734YIOLUGT95330L353PBOCK3LKFB3UJZWNPODTXJR7UKPU05MA70F4M7OELNX5N7UOIKA76LW7JM0I552FMOE0MB4K1KU777OUOO7XO1P7U44CIIAZKHZAVZ7HNUM713XMZVSF"
+        }
+      ]
+    },
+    {
+      "key_id": "Sep19-21",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Sep19-21",
+          "kind": "delete_transmitted",
+          "index": 29,
+          "fill": null,
+          "score": -9.34473624012687,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "M34YIMLUGT95330LO53PBOUK3LK3B3UJZLNPODTXJR7U9PU05MA70F477OELNX5N7UOIKA76LW7JMOI552FMOE0M04K1KU777OUBO7XO1P7U44FIIAZKHZAVZLHNUM713A4PU8G"
+        },
+        {
+          "key_id": "Sep19-21",
+          "kind": "delete_transmitted",
+          "index": 27,
+          "fill": null,
+          "score": -9.34473624012687,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "M34YIMLUGT95330LO53PBOUK3LKFB3UJZLNPODTXJR7U9PU05MA70F477OELNX5N7UOIKA76LW7JMOI552FMOE0M04K1KU777OUBO7XO1P7U44FIIAZKHZAVZLHNUM713A4PU8G"
+        },
+        {
+          "key_id": "Sep19-21",
+          "kind": "delete_transmitted",
+          "index": 28,
+          "fill": null,
+          "score": -9.34473624012687,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "M34YIMLUGT95330LO53PBOUK3LK3B3UJZLNPODTXJR7U9PU05MA70F477OELNX5N7UOIKA76LW7JMOI552FMOE0M04K1KU777OUBO7XO1P7U44FIIAZKHZAVZLHNUM713A4PU8G"
+        },
+        {
+          "key_id": "Sep19-21",
+          "kind": "delete_transmitted",
+          "index": 30,
+          "fill": null,
+          "score": -9.34473624012687,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "M34YIMLUGT95330LO53PBOUK3LK3B3UJZLNPODTXJR7U9PU05FA70F477OELNX5N7UOIKA76LW7JMOI552FMOE0M04K1KU777OUBO7XO1P7U44FIIAZKHZAVZLHNUM713A4PU8G"
+        },
+        {
+          "key_id": "Sep19-21",
+          "kind": "delete_transmitted",
+          "index": 162,
+          "fill": null,
+          "score": -9.348121583461761,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "44MEFMVOPRW734KSOQUGTO553L73K379NCN109TRFTUUWN7O5FXWXMFK7FSQPA5NUAMMKG7BL7KWFOIK5W3L9PCM0I55AUMMYO7B4KGOZ777OFOOMXN5EUURGCHEUFKD1AMZ78N"
+        }
+      ]
+    },
+    {
+      "key_id": "Oct4-6",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Oct4-6",
+          "kind": "insert_fractionated",
+          "index": 8,
+          "fill": "F",
+          "score": -9.273153229763633,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "UTSKOHCHTAMCWNCDZ7OWN8C2POUCI6DRZ25X2ATQFFG6NT6ZUWWKUQCW48C9WPM9G6HXAF93RRTA3933IUW9B69IQUHWA9DW66CODAWD0ARATCT2BUFXAMPE04W79BAHVL79WCPA"
+        },
+        {
+          "key_id": "Oct4-6",
+          "kind": "insert_fractionated",
+          "index": 9,
+          "fill": "V",
+          "score": -9.280971376519455,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "UTSKCHCHTAMCWNCDZ7OWN8C2POUCI6DRZ25X2ATQFFG6NT6ZUWWKUQCW48C9WPM9G6HXAF93RRTA3933IUW9B69IQUHWA9DW66CODAWD0ARATCT2BUFXAMPE04W79BAHVL79WCPA"
+        },
+        {
+          "key_id": "Oct4-6",
+          "kind": "insert_fractionated",
+          "index": 10,
+          "fill": "V",
+          "score": -9.280971376519455,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "UTSKCHCHTAMCWNCDZ7OWN8C2POUCI6DRZ25X2ATQFFG6NT6ZUWWKUQCW48C9WPM9G6HXAF93RRTA3933IUW9B69IQUHWA9DW66CODAWD0ARATCT2BUFXAMPE04W79BAHVL79WCPA"
+        },
+        {
+          "key_id": "Oct4-6",
+          "kind": "insert_fractionated",
+          "index": 9,
+          "fill": "G",
+          "score": -9.287336084179412,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "UTSKUHCHTAMCWNCDZ7OWN8C2POUCI6DRZ25X2ATQFFG6NT6ZUWWKUQCW48C9WPM9G6HXAF93RRTA3933IUW9B69IQUHWA9DW66CODAWD0ARATCT2BUFXAMPE04W79BAHVL79WCPA"
+        },
+        {
+          "key_id": "Oct4-6",
+          "kind": "insert_fractionated",
+          "index": 10,
+          "fill": "F",
+          "score": -9.288139556583605,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "UTSKCECHTAMCWNCDZ7OWN8C2POUCI6DRZ25X2ATQFFG6NT6ZUWWKUQCW48C9WPM9G6HXAF93RRTA3933IUW9B69IQUHWA9DW66CODAWD0ARATCT2BUFXAMPE04W79BAHVL79WCPA"
+        }
+      ]
+    },
+    {
+      "key_id": "Oct4-6",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Oct4-6",
+          "kind": "delete_fractionated",
+          "index": 7,
+          "fill": null,
+          "score": -9.266184391397418,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "UTSOHCHTAMCWNCDZ7OWN8C2POUCI6DRZ25X2ATQFFG6NT6ZUWWKUQCW48C9WPM9G6HXAF93RRTA3933IUW9B69IQUHWA9DW66CODAWD0ARATCT2BUFXAMPE04W79BAHVL79WCPA"
+        },
+        {
+          "key_id": "Oct4-6",
+          "kind": "delete_fractionated",
+          "index": 1,
+          "fill": null,
+          "score": -9.334567088069338,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "C006HCHTAMCWNCDZ7OWN8C2POUCI6DRZ25X2ATQFFG6NT6ZUWWKUQCW48C9WPM9G6HXAF93RRTA3933IUW9B69IQUHWA9DW66CODAWD0ARATCT2BUFXAMPE04W79BAHVL79WCPA"
+        },
+        {
+          "key_id": "Oct4-6",
+          "kind": "delete_fractionated",
+          "index": 0,
+          "fill": null,
+          "score": -9.334567088069338,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "F006HCHTAMCWNCDZ7OWN8C2POUCI6DRZ25X2ATQFFG6NT6ZUWWKUQCW48C9WPM9G6HXAF93RRTA3933IUW9B69IQUHWA9DW66CODAWD0ARATCT2BUFXAMPE04W79BAHVL79WCPA"
+        },
+        {
+          "key_id": "Oct4-6",
+          "kind": "delete_fractionated",
+          "index": 3,
+          "fill": null,
+          "score": -9.334567088069338,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "UM06HCHTAMCWNCDZ7OWN8C2POUCI6DRZ25X2ATQFFG6NT6ZUWWKUQCW48C9WPM9G6HXAF93RRTA3933IUW9B69IQUHWA9DW66CODAWD0ARATCT2BUFXAMPE04W79BAHVL79WCPA"
+        },
+        {
+          "key_id": "Oct4-6",
+          "kind": "delete_fractionated",
+          "index": 4,
+          "fill": null,
+          "score": -9.334567088069338,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "UT06HCHTAMCWNCDZ7OWN8C2POUCI6DRZ25X2ATQFFG6NT6ZUWWKUQCW48C9WPM9G6HXAF93RRTA3933IUW9B69IQUHWA9DW66CODAWD0ARATCT2BUFXAMPE04W79BAHVL79WCPA"
+        }
+      ]
+    },
+    {
+      "key_id": "Oct4-6",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Oct4-6",
+          "kind": "delete_transmitted",
+          "index": 177,
+          "fill": null,
+          "score": -9.498141915509194,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "C6SECQ9P4GOTUW9DY0WZCO6YMUXN4UWEJJZIN4AUTB53IDUNXXR6AC6C9O9639KBQCJ3596WOK94PTPNQXPT4F6GWXNC4UXCCWMWFQUD9QKCX9DPQDTK4EVNLAUFT4CJ1HD6WH9"
+        },
+        {
+          "key_id": "Oct4-6",
+          "kind": "delete_transmitted",
+          "index": 173,
+          "fill": null,
+          "score": -9.520869184624065,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "C6SKCQ9P4GOTUWTDY0WZCO6YMWXN4UWEJJZIP4AUTB53IDUNXXR6AC6C9O9639KBQCJ3596WOK94PTPNQXPT4F6GWXNC4UXCCWMWFQUD9QKCX9DPQDTK4EVNLAUFT4CJ1HD6WH9"
+        },
+        {
+          "key_id": "Oct4-6",
+          "kind": "delete_transmitted",
+          "index": 174,
+          "fill": null,
+          "score": -9.520869184624065,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "C6SECQ9P4GOTUWTDY0WZCO6YMWXN4UWEJJZIP4AUTB53IDUNXXR6AC6C9O9639KBQCJ3596WOK94PTPNQXPT4F6GWXNC4UXCCWMWFQUD9QKCX9DPQDTK4EVNLAUFT4CJ1HD6WH9"
+        },
+        {
+          "key_id": "Oct4-6",
+          "kind": "delete_transmitted",
+          "index": 176,
+          "fill": null,
+          "score": -9.520869184624065,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "C6SECQ9P4GOTUW9DY0WZCO6YMUXN4UWEJJZIP4AUTB53IDUNXXR6AC6C9O9639KBQCJ3596WOK94PTPNQXPT4F6GWXNC4UXCCWMWFQUD9QKCX9DPQDTK4EVNLAUFT4CJ1HD6WH9"
+        },
+        {
+          "key_id": "Oct4-6",
+          "kind": "delete_transmitted",
+          "index": 172,
+          "fill": null,
+          "score": -9.520869184624065,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "C6SKCQ9P4GOTUWTDY0WZCO6YMWXN4UWEJJZIP4AUTB53IDUNXXR6AC6C9O9639KBQCJ3596WOK94PTPNQXPT4F6GWXNC4UXCCWMWFQUD9QKCX9DPQDTK4EVNLAUFT4CJ1HD6WH9"
+        }
+      ]
+    },
+    {
+      "key_id": "Oct28-31",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Oct28-31",
+          "kind": "insert_fractionated",
+          "index": 139,
+          "fill": "D",
+          "score": -9.584418074528974,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "ISCY8LZD3R5Z5554IKUUN5CV59XZ5DFJCDFO55C6AUSQKEAM5PW140K0RCRP3UYV0QOETI5DCAD6P5IGU3F35MCNU4B5YQCQNFZWDJIFRPYS85PI5HD0YGA8DCQYCW3Y4ZGDYPSN"
+        },
+        {
+          "key_id": "Oct28-31",
+          "kind": "insert_fractionated",
+          "index": 140,
+          "fill": "A",
+          "score": -9.584563499106501,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "ISCY8LZD3R5Z5554IKUUN5CV59XZ5DFJCDFO55C6AUSQKEAM5PW140K0RCRP3UYV0QOETSIDCAD6P5IGU3F35MCNU4B5YQCQNFZWDJIFRPYS85PI5HD0YGA8DCQYCW3Y4ZGDYPSN"
+        },
+        {
+          "key_id": "Oct28-31",
+          "kind": "insert_fractionated",
+          "index": 202,
+          "fill": "V",
+          "score": -9.590371153408423,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "ISCY8LZD3R5Z5554IKUUN5CV59XZ5DFJCDFO55C6AUSQKEAM5PW140K0RCRP3UYV0QOETSYFQD3FVR8UY6A68J8GY06U5JUPVAG6FFIFRPYS85PI5HD0YGA8DCQYCW3Y4ZGDYPSN"
+        },
+        {
+          "key_id": "Oct28-31",
+          "kind": "insert_fractionated",
+          "index": 156,
+          "fill": "A",
+          "score": -9.59156774578238,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "ISCY8LZD3R5Z5554IKUUN5CV59XZ5DFJCDFO55C6AUSQKEAM5PW140K0RCRP3UYV0QOETSYFQD3FVRIGU3F35MCNU4B5YQCQNFZWDJIFRPYS85PI5HD0YGA8DCQYCW3Y4ZGDYPSN"
+        },
+        {
+          "key_id": "Oct28-31",
+          "kind": "insert_fractionated",
+          "index": 155,
+          "fill": "A",
+          "score": -9.59156774578238,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "ISCY8LZD3R5Z5554IKUUN5CV59XZ5DFJCDFO55C6AUSQKEAM5PW140K0RCRP3UYV0QOETSYFQD3FVRIGU3F35MCNU4B5YQCQNFZWDJIFRPYS85PI5HD0YGA8DCQYCW3Y4ZGDYPSN"
+        }
+      ]
+    },
+    {
+      "key_id": "Oct28-31",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Oct28-31",
+          "kind": "delete_fractionated",
+          "index": 119,
+          "fill": null,
+          "score": -9.586158275604248,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "ISCY8LZD3R5Z5554IKUUN5CV59XZ5DFJCDFO55C6AUSQKEAM5PW140K0RCRAKUZ4CBBXH5DCAD6P5IGU3F35MCNU4B5YQCQNFZWDJIFRPYS85PI5HD0YGA8DCQYCW3Y4ZGDYPSN"
+        },
+        {
+          "key_id": "Oct28-31",
+          "kind": "delete_fractionated",
+          "index": 139,
+          "fill": null,
+          "score": -9.605697931665363,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "ISCY8LZD3R5Z5554IKUUN5CV59XZ5DFJCDFO55C6AUSQKEAM5PW140K0RCRP3UYV0QOETIDCAD6P5IGU3F35MCNU4B5YQCQNFZWDJIFRPYS85PI5HD0YGA8DCQYCW3Y4ZGDYPSN"
+        },
+        {
+          "key_id": "Oct28-31",
+          "kind": "delete_fractionated",
+          "index": 140,
+          "fill": null,
+          "score": -9.613781802582018,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "ISCY8LZD3R5Z5554IKUUN5CV59XZ5DFJCDFO55C6AUSQKEAM5PW140K0RCRP3UYV0QOETSDCAD6P5IGU3F35MCNU4B5YQCQNFZWDJIFRPYS85PI5HD0YGA8DCQYCW3Y4ZGDYPSN"
+        },
+        {
+          "key_id": "Oct28-31",
+          "kind": "delete_fractionated",
+          "index": 190,
+          "fill": null,
+          "score": -9.62097004326907,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "ISCY8LZD3R5Z5554IKUUN5CV59XZ5DFJCDFO55C6AUSQKEAM5PW140K0RCRP3UYV0QOETSYFQD3FVR8UY6A68J8GY06U5JUNFZWDJIFRPYS85PI5HD0YGA8DCQYCW3Y4ZGDYPSN"
+        },
+        {
+          "key_id": "Oct28-31",
+          "kind": "delete_fractionated",
+          "index": 111,
+          "fill": null,
+          "score": -9.621145223126266,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "ISCY8LZD3R5Z5554IKUUN5CV59XZ5DFJCDFO55C6AUSQKEAM5PW140KI0U0VKUZ4CBBXH5DCAD6P5IGU3F35MCNU4B5YQCQNFZWDJIFRPYS85PI5HD0YGA8DCQYCW3Y4ZGDYPSN"
+        }
+      ]
+    },
+    {
+      "key_id": "Oct28-31",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Oct28-31",
+          "kind": "delete_transmitted",
+          "index": 22,
+          "fill": null,
+          "score": -9.471445990331246,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "US5U8LZ53R5N5554HK5UZFCV5JXZ5ADJCDFOK5GKAUSRKEAQ5PW150G0RJRP3YYY0FOETXUFOD7ZVRUYY6ADQJ8VY06UCAUPG9GVFTYC0T55YQTQRSFCZO5SZUCFR6GDSMY5DVZ"
+        },
+        {
+          "key_id": "Oct28-31",
+          "kind": "delete_transmitted",
+          "index": 21,
+          "fill": null,
+          "score": -9.471445990331246,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "US5U8LZ53R5N5554HK5UZFCV5JXZ5ADJCDFOK5GKAUSRKEAQ5PW150G0RJRPDYYY0FOETXUFOD7ZVRUYY6ADQJ8VY06UCAUPG9GVFTYC0T55YQTQRSFCZO5SZUCFR6GDSMY5DVZ"
+        },
+        {
+          "key_id": "Oct28-31",
+          "kind": "delete_transmitted",
+          "index": 20,
+          "fill": null,
+          "score": -9.471445990331246,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "US5U8LZ53R5N5554HK5UZFCV5JXZ5ADJCDFOK5GKAUSRKEAQ5PW750G0RJRPDYYY0FOETXUFOD7ZVRUYY6ADQJ8VY06UCAUPG9GVFTYC0T55YQTQRSFCZO5SZUCFR6GDSMY5DVZ"
+        },
+        {
+          "key_id": "Oct28-31",
+          "kind": "delete_transmitted",
+          "index": 34,
+          "fill": null,
+          "score": -9.475209973075174,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "US5U8LZD3R5N5554IK5UZFCV59XZ5ADJCDFOK5GKAUSRKEAQ5PW150G0RJRP3YYY0FOETSUFOD7ZVR8YY6ADQJ8GY06UCAUPV9GVFTYC0G55YQTQRS4CZO5SZUCFR6GDSMY5FVZ"
+        },
+        {
+          "key_id": "Oct28-31",
+          "kind": "delete_transmitted",
+          "index": 32,
+          "fill": null,
+          "score": -9.475209973075174,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "US5U8LZD3R5N5554IK5UZFCV5JXZ5ADJCDFOK5GKAUSRKEAQ5PW150G0RJRP3YYY0FOETSUFOD7ZVR8YY6ADQJ8GY06UCAUPV9GVFTYC0G55YQTQRS4CZO5SZUCFR6GDSMY5FVZ"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Nov1-3",
+          "kind": "insert_fractionated",
+          "index": 104,
+          "fill": "F",
+          "score": -9.09260248241568,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUSTZSEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+        },
+        {
+          "key_id": "Nov1-3",
+          "kind": "insert_fractionated",
+          "index": 104,
+          "fill": "D",
+          "score": -9.13060454318398,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUSXZSEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+        },
+        {
+          "key_id": "Nov1-3",
+          "kind": "insert_fractionated",
+          "index": 99,
+          "fill": "V",
+          "score": -9.15585692484576,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANKRIPZSEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+        },
+        {
+          "key_id": "Nov1-3",
+          "kind": "insert_fractionated",
+          "index": 98,
+          "fill": "V",
+          "score": -9.15585692484576,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANKRIPZSEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+        },
+        {
+          "key_id": "Nov1-3",
+          "kind": "insert_fractionated",
+          "index": 99,
+          "fill": "G",
+          "score": -9.158807345799037,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANERIPZSEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov1-3",
+          "kind": "delete_fractionated",
+          "index": 104,
+          "fill": null,
+          "score": -9.160621852585763,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUSZSEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+        },
+        {
+          "key_id": "Nov1-3",
+          "kind": "delete_fractionated",
+          "index": 105,
+          "fill": null,
+          "score": -9.167850960384715,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS1SEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+        },
+        {
+          "key_id": "Nov1-3",
+          "kind": "delete_fractionated",
+          "index": 108,
+          "fill": null,
+          "score": -9.187714020411173,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS42EBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+        },
+        {
+          "key_id": "Nov1-3",
+          "kind": "delete_fractionated",
+          "index": 109,
+          "fill": null,
+          "score": -9.187714020411173,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS42EBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+        },
+        {
+          "key_id": "Nov1-3",
+          "kind": "delete_fractionated",
+          "index": 106,
+          "fill": null,
+          "score": -9.192124594341625,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS4SEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov1-3",
+          "kind": "delete_transmitted",
+          "index": 94,
+          "fill": null,
+          "score": -9.372881361932466,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS42KNKBMYSMPP4ZDM55MCIH5XSCS1NUJM6SEV97P35S8VBFPXPSC4KXASSFBSVWK8QHJQBSSJSFKQKVRMNCM"
+        },
+        {
+          "key_id": "Nov1-3",
+          "kind": "delete_transmitted",
+          "index": 95,
+          "fill": null,
+          "score": -9.372881361932466,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS42KNKBMYSMPP4ZDM55MCIH5XSCK1NUJM6SEV97P35S8VBFPXPSC4KXASSFBSVWK8QHJQBSSJSFKQKVRMNCM"
+        },
+        {
+          "key_id": "Nov1-3",
+          "kind": "delete_transmitted",
+          "index": 96,
+          "fill": null,
+          "score": -9.372881361932466,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS42KNKBMYSMPP4ZDM55MCIH5XSCK1NUJM6SEC97P35S8VBFPXPSC4KXASSFBSVWK8QHJQBSSJSFKQKVRMNCM"
+        },
+        {
+          "key_id": "Nov1-3",
+          "kind": "delete_transmitted",
+          "index": 97,
+          "fill": null,
+          "score": -9.372881361932466,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS42KNKBMYSMPP4ZDM55MCIH5XSCK1NUJM6SEC97P35S8VBBPXPSC4KXASSFBSVWK8QHJQBSSJSFKQKVRMNCM"
+        },
+        {
+          "key_id": "Nov1-3",
+          "kind": "delete_transmitted",
+          "index": 93,
+          "fill": null,
+          "score": -9.372881361932466,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS42KNKBMYSMPP4ZDMB5MCIH5XSCS1NUJM6SEV97P35S8VBFPXPSC4KXASSFBSVWK8QHJQBSSJSFKQKVRMNCM"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov4-6",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Nov4-6",
+          "kind": "insert_fractionated",
+          "index": 84,
+          "fill": "A",
+          "score": -9.50057355981124,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5C5D8UGYHJJUD33087F3GXGPABYSFP5Y5FZ018555ALBJ2AX0UAX5URMBCXFLLJEZ4U8TCUGLB438GR8LDG60GMJ8MGHS7SUUSS3R67P0689G7B5Y1C405Z30GFPUBPZIYUIBCYY"
+        },
+        {
+          "key_id": "Nov4-6",
+          "kind": "insert_fractionated",
+          "index": 101,
+          "fill": "A",
+          "score": -9.518648581397265,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5C5D8UGYHJJUD33087F3GXGPABYSFP5Y5FZ018555A407YK25GEX5URMBCXFLLJEZ4U8TCUGLB438GR8LDG60GMJ8MGHS7SUUSS3R67P0689G7B5Y1C405Z30GFPUBPZIYUIBCYY"
+        },
+        {
+          "key_id": "Nov4-6",
+          "kind": "insert_fractionated",
+          "index": 125,
+          "fill": "G",
+          "score": -9.52565706582894,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5C5D8UGYHJJUD33087F3GXGPABYSFP5Y5FZ018555A407YK25GK55GLZ6DJRTCHEZ4U8TCUGLB438GR8LDG60GMJ8MGHS7SUUSS3R67P0689G7B5Y1C405Z30GFPUBPZIYUIBCYY"
+        },
+        {
+          "key_id": "Nov4-6",
+          "kind": "insert_fractionated",
+          "index": 73,
+          "fill": "V",
+          "score": -9.530309537299594,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5C5D8UGYHJJUD33087F3GXGPABYSFP5Y5FZ0FF555U9BJ2AX0UAX5URMBCXFLLJEZ4U8TCUGLB438GR8LDG60GMJ8MGHS7SUUSS3R67P0689G7B5Y1C405Z30GFPUBPZIYUIBCYY"
+        },
+        {
+          "key_id": "Nov4-6",
+          "kind": "insert_fractionated",
+          "index": 107,
+          "fill": "F",
+          "score": -9.530900051719264,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5C5D8UGYHJJUD33087F3GXGPABYSFP5Y5FZ018555A407YK25GK55ARMBCXFLLJEZ4U8TCUGLB438GR8LDG60GMJ8MGHS7SUUSS3R67P0689G7B5Y1C405Z30GFPUBPZIYUIBCYY"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov4-6",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov4-6",
+          "kind": "delete_fractionated",
+          "index": 74,
+          "fill": null,
+          "score": -9.530308065992413,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5C5D8UGYHJJUD33087F3GXGPABYSFP5Y5FZ01555U9BJ2AX0UAX5URMBCXFLLJEZ4U8TCUGLB438GR8LDG60GMJ8MGHS7SUUSS3R67P0689G7B5Y1C405Z30GFPUBPZIYUIBCYY"
+        },
+        {
+          "key_id": "Nov4-6",
+          "kind": "delete_fractionated",
+          "index": 90,
+          "fill": null,
+          "score": -9.534134958729599,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5C5D8UGYHJJUD33087F3GXGPABYSFP5Y5FZ018555A407AX0UAX5URMBCXFLLJEZ4U8TCUGLB438GR8LDG60GMJ8MGHS7SUUSS3R67P0689G7B5Y1C405Z30GFPUBPZIYUIBCYY"
+        },
+        {
+          "key_id": "Nov4-6",
+          "kind": "delete_fractionated",
+          "index": 47,
+          "fill": null,
+          "score": -9.545459577531526,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5C5D8UGYHJJUD33087F3GXGUZ3IO8C28JABJF555U9BJ2AX0UAX5URMBCXFLLJEZ4U8TCUGLB438GR8LDG60GMJ8MGHS7SUUSS3R67P0689G7B5Y1C405Z30GFPUBPZIYUIBCYY"
+        },
+        {
+          "key_id": "Nov4-6",
+          "kind": "delete_fractionated",
+          "index": 63,
+          "fill": null,
+          "score": -9.55376629034678,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5C5D8UGYHJJUD33087F3GXGPABYSFP50JABJF555U9BJ2AX0UAX5URMBCXFLLJEZ4U8TCUGLB438GR8LDG60GMJ8MGHS7SUUSS3R67P0689G7B5Y1C405Z30GFPUBPZIYUIBCYY"
+        },
+        {
+          "key_id": "Nov4-6",
+          "kind": "delete_fractionated",
+          "index": 60,
+          "fill": null,
+          "score": -9.553847533283811,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5C5D8UGYHJJUD33087F3GXGPABYSFP28JABJF555U9BJ2AX0UAX5URMBCXFLLJEZ4U8TCUGLB438GR8LDG60GMJ8MGHS7SUUSS3R67P0689G7B5Y1C405Z30GFPUBPZIYUIBCYY"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov4-6",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov4-6",
+          "kind": "delete_transmitted",
+          "index": 220,
+          "fill": null,
+          "score": -9.456060987530332,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5C5A8UYYHJJUD300X7F3GXGIRBYSFP505ZZ018555A407OK25GW55G9Z6D5RTCFWIGGIL5G14630UGF5CZBSFIXFNZRI6P08I63YHR5S24D4JU02RFPB2DV3UR8CG04GS8G465B"
+        },
+        {
+          "key_id": "Nov4-6",
+          "kind": "delete_transmitted",
+          "index": 221,
+          "fill": null,
+          "score": -9.456060987530332,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5C5A8UYYHJJUD300X7F3GXGIRBYSFP505ZZ018555A407OK25GW55G9Z6D5RTCFWIGGIL5G14630UGF5CZBSFIXFNZRI6P08I63YHR5S24D4JU02RFPB2DV3UR8CG04GS8G465B"
+        },
+        {
+          "key_id": "Nov4-6",
+          "kind": "delete_transmitted",
+          "index": 222,
+          "fill": null,
+          "score": -9.456060987530332,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5C5A8UYYHJJUD300X7F3GXGIRBYSFP505ZZ018555A407OK25GW55G9Z6D5RTCFWIGGIL5G14630UGF5CZBSFIXFNZRI6P08I63YHR5S24D4JU02RFPB2DV3UR8CG04GS8G465B"
+        },
+        {
+          "key_id": "Nov4-6",
+          "kind": "delete_transmitted",
+          "index": 223,
+          "fill": null,
+          "score": -9.456060987530332,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5C5A8UYYHJJUD300X7F3GXGIRBYSFP505ZZ018555A407OK25GW55G9Z6D5RTCFWIGGIL5G14630UGF5CZBSFIXFNZRI6P08I63YHR5S24D4JU02RFPB2DV3UR8CG04GS8G465B"
+        },
+        {
+          "key_id": "Nov4-6",
+          "kind": "delete_transmitted",
+          "index": 224,
+          "fill": null,
+          "score": -9.456060987530332,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5C5A8UGYHJJUD300X7F3GXGIRBYSFP505ZZ018555A407OK25GW55G9Z6D5RTCFWIGGIL5G14630UGF5CZBSFIXFNZRI6P08I63YHR5S24D4JU02RFPB2DV3UR8CG04GS8G465B"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Nov7-9",
+          "kind": "insert_fractionated",
+          "index": 173,
+          "fill": "D",
+          "score": -9.031084537506104,
+          "known_quad_windows": 129,
+          "eligible": true,
+          "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKURUSE0LOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+        },
+        {
+          "key_id": "Nov7-9",
+          "kind": "insert_fractionated",
+          "index": 174,
+          "fill": "G",
+          "score": -9.040901956632156,
+          "known_quad_windows": 129,
+          "eligible": true,
+          "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUPTSE0LOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+        },
+        {
+          "key_id": "Nov7-9",
+          "kind": "insert_fractionated",
+          "index": 173,
+          "fill": "F",
+          "score": -9.041366758272629,
+          "known_quad_windows": 129,
+          "eligible": true,
+          "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUMUSE0LOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+        },
+        {
+          "key_id": "Nov7-9",
+          "kind": "insert_fractionated",
+          "index": 181,
+          "fill": "G",
+          "score": -9.042614936828613,
+          "known_quad_windows": 129,
+          "eligible": true,
+          "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUP0AXGLOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+        },
+        {
+          "key_id": "Nov7-9",
+          "kind": "insert_fractionated",
+          "index": 181,
+          "fill": "V",
+          "score": -9.046369718950848,
+          "known_quad_windows": 129,
+          "eligible": true,
+          "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUP0AXELOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov7-9",
+          "kind": "delete_fractionated",
+          "index": 193,
+          "fill": null,
+          "score": -9.066154647618532,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUP0AXLZADKESEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+        },
+        {
+          "key_id": "Nov7-9",
+          "kind": "delete_fractionated",
+          "index": 182,
+          "fill": null,
+          "score": -9.069213293492794,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUP0AXLOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+        },
+        {
+          "key_id": "Nov7-9",
+          "kind": "delete_fractionated",
+          "index": 180,
+          "fill": null,
+          "score": -9.069213293492794,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUP0AXLOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+        },
+        {
+          "key_id": "Nov7-9",
+          "kind": "delete_fractionated",
+          "index": 181,
+          "fill": null,
+          "score": -9.069213293492794,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUP0AXLOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+        },
+        {
+          "key_id": "Nov7-9",
+          "kind": "delete_fractionated",
+          "index": 175,
+          "fill": null,
+          "score": -9.105997830629349,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUPHE0LOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov7-9",
+          "kind": "delete_transmitted",
+          "index": 246,
+          "fill": null,
+          "score": -8.145814675837755,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "L1OKLUVERXHAESTIKNOPOG4IRIDU10XCGETXPERRBCEEQEUXG3NCCK0R0XXDAADFEITNGARERGYIECUAYQRUYRGXNKSDASKEPA0XLZADKX3L000DIGAEX0O0KNXWZX1LX18?GLS"
+        },
+        {
+          "key_id": "Nov7-9",
+          "kind": "delete_transmitted",
+          "index": 247,
+          "fill": null,
+          "score": -8.168495062738657,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "L1OKLUVERXHAESTIKNOPOG4IRIDU1CXCGETXPERRBCEEQEUXG3NCCK0R0XXDAADFEITNGARERGYIECUAYQRUYRGXNKSDASKEPA0XLZADKX3L000DIGAEX0O0KNXWZX1LX18?GLS"
+        },
+        {
+          "key_id": "Nov7-9",
+          "kind": "delete_transmitted",
+          "index": 220,
+          "fill": null,
+          "score": -8.196493254974484,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "L1OKLYVERUHAESTIKNO8OG4IRTDU10XCGETXPERRBCEEQLUXG3NCCK0Y0KXDAADFEITAGARERGY2EQUAYQRUYUG0NKSDASKEPA0XLZADKX3L000DIGAEX0O0KNXWZX1EX18?GLS"
+        },
+        {
+          "key_id": "Nov7-9",
+          "kind": "delete_transmitted",
+          "index": 223,
+          "fill": null,
+          "score": -8.196493254974484,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "L1OKLYVERUHAESTIKNO8OG4IRTDU10XCGETXPERRBCEEQLUXG3NCCK0Y0KXDAADFEITAGARERGY2EQUAYQRUYUG0NKSDASKEPA0XLZADKX3L000DIGAEX0O0KNXWZX1EX18?GLS"
+        },
+        {
+          "key_id": "Nov7-9",
+          "kind": "delete_transmitted",
+          "index": 222,
+          "fill": null,
+          "score": -8.196493254974484,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "L1OKLYVERUHAESTIKNO8OG4IRTDU10XCGETXPERRBCEEQLUXG3NCCK0Y0KXDAADFEITAGARERGY2EQUAYQRUYUG0NKSDASKEPA0XLZADKX3L000DIGAEX0O0KNXWZX1EX18?GLS"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov10-12",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Nov10-12",
+          "kind": "insert_fractionated",
+          "index": 253,
+          "fill": "D",
+          "score": -9.278721636416865,
+          "known_quad_windows": 102,
+          "eligible": true,
+          "plaintext": "?KLHWQF?WTAH2?2SRUKH2D?QXCHVEKQNQCIA?KDSIYEBKMGPQSQVEYYYIIAAIK1UIMSNKOA1IWKEI?O?IYUKOTIYMT2AQ4EX2AS?JDW2M2ICME3SFJDQW1?NYSEBCEGENDD2WDWL"
+        },
+        {
+          "key_id": "Nov10-12",
+          "kind": "insert_fractionated",
+          "index": 252,
+          "fill": "D",
+          "score": -9.279710701867646,
+          "known_quad_windows": 102,
+          "eligible": true,
+          "plaintext": "?KLHWQF?WTAH2?2SRUKH2D?QXCHVEKQNQCIA?KDSIYEBKMGPQSQVEYYYIIAAIK1UIMSNKOA1IWKEI?O?IYUKOTIYMT2AQ4EX2AS?JDW2M2ICME3SFJDQW1?NYSEBCENENDD2WDWL"
+        },
+        {
+          "key_id": "Nov10-12",
+          "kind": "insert_fractionated",
+          "index": 252,
+          "fill": "G",
+          "score": -9.307648752249923,
+          "known_quad_windows": 102,
+          "eligible": true,
+          "plaintext": "?KLHWQF?WTAH2?2SRUKH2D?QXCHVEKQNQCIA?KDSIYEBKMGPQSQVEYYYIIAAIK1UIMSNKOA1IWKEI?O?IYUKOTIYMT2AQ4EX2AS?JDW2M2ICME3SFJDQW1?NYSEBCEXENDD2WDWL"
+        },
+        {
+          "key_id": "Nov10-12",
+          "kind": "insert_fractionated",
+          "index": 252,
+          "fill": "F",
+          "score": -9.323106494604373,
+          "known_quad_windows": 102,
+          "eligible": true,
+          "plaintext": "?KLHWQF?WTAH2?2SRUKH2D?QXCHVEKQNQCIA?KDSIYEBKMGPQSQVEYYYIIAAIK1UIMSNKOA1IWKEI?O?IYUKOTIYMT2AQ4EX2AS?JDW2M2ICME3SFJDQW1?NYSEBCEVENDD2WDWL"
+        },
+        {
+          "key_id": "Nov10-12",
+          "kind": "insert_fractionated",
+          "index": 252,
+          "fill": "V",
+          "score": -9.357226339041018,
+          "known_quad_windows": 102,
+          "eligible": true,
+          "plaintext": "?KLHWQF?WTAH2?2SRUKH2D?QXCHVEKQNQCIA?KDSIYEBKMGPQSQVEYYYIIAAIK1UIMSNKOA1IWKEI?O?IYUKOTIYMT2AQ4EX2AS?JDW2M2ICME3SFJDQW1?NYSEBCEEENDD2WDWL"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov10-12",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov10-12",
+          "kind": "delete_fractionated",
+          "index": 252,
+          "fill": null,
+          "score": -9.357531708065826,
+          "known_quad_windows": 101,
+          "eligible": true,
+          "plaintext": "?KLHWQF?WTAH2?2SRUKH2D?QXCHVEKQNQCIA?KDSIYEBKMGPQSQVEYYYIIAAIK1UIMSNKOA1IWKEI?O?IYUKOTIYMT2AQ4EX2AS?JDW2M2ICME3SFJDQW1?NYSEBCEENDD2WDWL"
+        },
+        {
+          "key_id": "Nov10-12",
+          "kind": "delete_fractionated",
+          "index": 251,
+          "fill": null,
+          "score": -9.357531708065826,
+          "known_quad_windows": 101,
+          "eligible": true,
+          "plaintext": "?KLHWQF?WTAH2?2SRUKH2D?QXCHVEKQNQCIA?KDSIYEBKMGPQSQVEYYYIIAAIK1UIMSNKOA1IWKEI?O?IYUKOTIYMT2AQ4EX2AS?JDW2M2ICME3SFJDQW1?NYSEBCEENDD2WDWL"
+        },
+        {
+          "key_id": "Nov10-12",
+          "kind": "delete_fractionated",
+          "index": 193,
+          "fill": null,
+          "score": -9.409574329262913,
+          "known_quad_windows": 101,
+          "eligible": true,
+          "plaintext": "?KLHWQF?WTAH2?2SRUKH2D?QXCHVEKQNQCIA?KDSIYEBKMGPQSQVEYYYIIAAIK1UIMSNKOA1IWKEI?O?IYUKOTIYMT2AQ4EXCIXJJKKQ2WKU20ADZJKMO0I?WM0PT?ENDD2WDWL"
+        },
+        {
+          "key_id": "Nov10-12",
+          "kind": "delete_fractionated",
+          "index": 192,
+          "fill": null,
+          "score": -9.409574329262913,
+          "known_quad_windows": 101,
+          "eligible": true,
+          "plaintext": "?KLHWQF?WTAH2?2SRUKH2D?QXCHVEKQNQCIA?KDSIYEBKMGPQSQVEYYYIIAAIK1UIMSNKOA1IWKEI?O?IYUKOTIYMT2AQ4EXCIXJJKKQ2WKU20ADZJKMO0I?WM0PT?ENDD2WDWL"
+        },
+        {
+          "key_id": "Nov10-12",
+          "kind": "delete_fractionated",
+          "index": 155,
+          "fill": null,
+          "score": -9.416838349647893,
+          "known_quad_windows": 103,
+          "eligible": true,
+          "plaintext": "?KLHWQF?WTAH2?2SRUKH2D?QXCHVEKQNQCIA?KDSIYEBKMGPQSQVEYYYIIAAIK1UIMSNKOA1IWKEID1DNCDW4WNQC2CKLT?YCIXJJKKQ2WKU20ADZJKMO0I?WM0PT?ENDD2WDWL"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov10-12",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov10-12",
+          "kind": "delete_transmitted",
+          "index": 73,
+          "fill": null,
+          "score": -9.096412706375123,
+          "known_quad_windows": 100,
+          "eligible": true,
+          "plaintext": "?KLHCQF?WTDHW?KIRUTH2DWQXCFV2KZSQCWAXKWNIYNBFMDZQSQV2YYYIIWANK1TIMUNIOAUIWKEK?O?IYSKITI?MTTAC4EM2AQ?JDWEM2ICJE3KFJIQ21?SYSXBWEY??S22OKS"
+        },
+        {
+          "key_id": "Nov10-12",
+          "kind": "delete_transmitted",
+          "index": 72,
+          "fill": null,
+          "score": -9.096412706375123,
+          "known_quad_windows": 100,
+          "eligible": true,
+          "plaintext": "?KLHCQF?WTDHW?KIRUTH2DWQXCFV2KZSQCWAXKWNIYNBFMDZQSQV2YYYIIWANK1TIMUNIOAUIWKEK?O?IYSKITI?MTTAC4EM2AQ?JDWEM2ICJE3KFJIQ21?SYSXBWEY??S22OKS"
+        },
+        {
+          "key_id": "Nov10-12",
+          "kind": "delete_transmitted",
+          "index": 71,
+          "fill": null,
+          "score": -9.096412706375123,
+          "known_quad_windows": 100,
+          "eligible": true,
+          "plaintext": "?KLHCQF?WTDHW?KIRUTH2DWQXCFV2KZSQCWAXKWNIYNBFMGZQSQV2YYYIIWANK1TIMUNIOAUIWKEK?O?IYSKITI?MTTAC4EM2AQ?JDWEM2ICJE3KFJIQ21?SYSXBWEY??S22OKS"
+        },
+        {
+          "key_id": "Nov10-12",
+          "kind": "delete_transmitted",
+          "index": 70,
+          "fill": null,
+          "score": -9.096412706375123,
+          "known_quad_windows": 100,
+          "eligible": true,
+          "plaintext": "?KLHCQF?WTDHW?KIRUTH2DWQXCFV2KZSQCWAXKDNIYNBFMGZQSQV2YYYIIWANK1TIMUNIOAUIWKEK?O?IYSKITI?MTTAC4EM2AQ?JDWEM2ICJE3KFJIQ21?SYSXBWEY??S22OKS"
+        },
+        {
+          "key_id": "Nov10-12",
+          "kind": "delete_transmitted",
+          "index": 69,
+          "fill": null,
+          "score": -9.096412706375123,
+          "known_quad_windows": 100,
+          "eligible": true,
+          "plaintext": "?KLHCQF?WTDHW?KIRUTH2DWQXCFV2KQSQCWAXKDNIYNBFMGZQSQV2YYYIIWANK1TIMUNIOAUIWKEK?O?IYSKITI?MTTAC4EM2AQ?JDWEM2ICJE3KFJIQ21?SYSXBWEY??S22OKS"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov13-15a",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Nov13-15a",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "X",
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "?SKKS???PFZTUTVXGVIR?FCFA?V?B??W?T??F??THFUTJ????RA?UKZF???OTNKN??G?E?FECH??B????Z?H?PTZG?VJKC?TG?NG??NC?S?O????T?TNTTP?GFNAAO?ON???N?UE"
+        },
+        {
+          "key_id": "Nov13-15a",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "V",
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "?SKKS???PFZTUTVXGVIR?FCFA?V?B??W?T??F??THFUTJ????RA?UKZF???OTNKN??G?E?FECH??B????Z?H?PTZG?VJKC?TG?NG??NC?S?O????T?TNTTP?GFNAAO?ON???N?UN"
+        },
+        {
+          "key_id": "Nov13-15a",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "G",
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "?SKKS???PFZTUTVXGVIR?FCFA?V?B??W?T??F??THFUTJ????RA?UKZF???OTNKN??G?E?FECH??B????Z?H?PTZG?VJKC?TG?NG??NC?S?O????T?TNTTP?GFNAAO?ON???N?UC"
+        },
+        {
+          "key_id": "Nov13-15a",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "F",
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "?SKKS???PFZTUTVXGVIR?FCFA?V?B??W?T??F??THFUTJ????RA?UKZF???OTNKN??G?E?FECH??B????Z?H?PTZG?VJKC?TG?NG??NC?S?O????T?TNTTP?GFNAAO?ON???N?U?"
+        },
+        {
+          "key_id": "Nov13-15a",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "D",
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "?SKKS???PFZTUTVXGVIR?FCFA?V?B??W?T??F??THFUTJ????RA?UKZF???OTNKN??G?E?FECH??B????Z?H?PTZG?VJKC?TG?NG??NC?S?O????T?TNTTP?GFNAAO?ON???N?UX"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov13-15a",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov13-15a",
+          "kind": "delete_fractionated",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "?SKKS???PFZTUTVXGVIR?FCFA?V?B??W?T??F??THFUTJ????RA?UKZF???OTNKN??G?E?FECH??B????Z?H?PTZG?VJKC?TG?NG??NC?S?O????T?TNTTP?GFNAAO?ON???N?U"
+        },
+        {
+          "key_id": "Nov13-15a",
+          "kind": "delete_fractionated",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "?SKKS???PFZTUTVXGVIR?FCFA?V?B??W?T??F??THFUTJ????RA?UKZF???OTNKN??G?E?FECH??B????Z?H?PTZG?VJKC?TG?NG??NC?S?O????T?TNTTP?GFNAAO?ON???N??"
+        },
+        {
+          "key_id": "Nov13-15a",
+          "kind": "delete_fractionated",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "?SKKS???PFZTUTVXGVIR?FCFA?V?B??W?T??F??THFUTJ????RA?UKZF???OTNKN??G?E?FECH??B????Z?H?PTZG?VJKC?TG?NG??NC?S?O????T?TNTTP?GFNAAO?ON???N?G"
+        },
+        {
+          "key_id": "Nov13-15a",
+          "kind": "delete_fractionated",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "?SKKS???PFZTUTVXGVIR?FCFA?V?B??W?T??F??THFUTJ????RA?UKZF???OTNKN??G?E?FECH??B????Z?H?PTZG?VJKC?TG?NG??NC?S?O????T?TNTTP?GFNAAO?ON???NSG"
+        },
+        {
+          "key_id": "Nov13-15a",
+          "kind": "delete_fractionated",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "?SKKS???PFZTUTVXGVIR?FCFA?V?B??W?T??F??THFUTJ????RA?UKZF???OTNKN??G?E?FECH??B????Z?H?PTZG?VJKC?TG?NG??NC?S?O????T?TNTTP?GFNAAO?ON???N?G"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov13-15a",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov13-15a",
+          "kind": "delete_transmitted",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 16,
+          "eligible": false,
+          "plaintext": "P?KWT?ZRPOZSK?BC?PNZH?N????VV?VK?????OA?OOWTL??T??L?UUJF?ZVG?XUXF?GPX??NX?PFA????R?H?PPZG??ZWC?T??EOP?XCRTFF????T?T?T?P?RGNF????N?FFNSD"
+        },
+        {
+          "key_id": "Nov13-15a",
+          "kind": "delete_transmitted",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 16,
+          "eligible": false,
+          "plaintext": "P?KWT?ZRPOZSK?BC?PNZH?N????VV?VK?????OA?OOWTL??T??L?UUJF?ZVG?XUXF?GPX??NX?PFA????R?H?PPZG??ZWC?T??EOP?XCRTFF????T?T?T?P?RGNF????N?FFNSU"
+        },
+        {
+          "key_id": "Nov13-15a",
+          "kind": "delete_transmitted",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 17,
+          "eligible": false,
+          "plaintext": "P?KWT?ZRPOZSK?BC?PNZH?N????VV?VK?????OA?OOWTL??T??L?UUJF?ZVG?XUXF?GPX??NX?PFA????R?H?PPZG??ZWC?T??EOP?XCRTFF????T?T?T?P?RGNFA???N?FFNSU"
+        },
+        {
+          "key_id": "Nov13-15a",
+          "kind": "delete_transmitted",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 17,
+          "eligible": false,
+          "plaintext": "P?KWT?ZRPOZSK?BC?PNZH?N????VV?VK?????OA?OOWTL??T??L?UUJF?ZVG?XUXF?GPX??NX?PFA????R?H?PPZG??ZWC?T??EOP?XCRTFF????T?T?T?P?RGNFA???N?FFNSU"
+        },
+        {
+          "key_id": "Nov13-15a",
+          "kind": "delete_transmitted",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 14,
+          "eligible": false,
+          "plaintext": "P?KWT?ZRPOZSK?BC?PNZH?N????VV?VK?????OA?OOWTL??T??L?UUJF?ZVG?XUXF?GPX??NX?PFA????R?H?PPZG??ZWC?T??EOP?XC?TFF????T?T?T?P?RGNFA???N?FFNSU"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov13-15b",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Nov13-15b",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "X",
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "XXTZ6?S?XANKP?VX6?HAJR?A?AVJCTP?I6A?V1K5VT0LXR1C?CK?V?AOK?1HX1W1V?PFFT?VT1XW5GFKV100XN1?AA?BNFU?T?NCK6K6ARVKWMFX6?PK??11GCT?W?VIP1TNVK?W"
+        },
+        {
+          "key_id": "Nov13-15b",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "V",
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "XXTZ6?S?XANKP?VX6?HAJR?A?AVJCTP?I6A?V1K5VT0LXR1C?CK?V?AOK?1HX1W1V?PFFT?VT1XW5GFKV100XN1?AA?BNFU?T?NCK6K6ARVKWMFX6?PK??11GCT?W?VIP1TNVK?A"
+        },
+        {
+          "key_id": "Nov13-15b",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "G",
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "XXTZ6?S?XANKP?VX6?HAJR?A?AVJCTP?I6A?V1K5VT0LXR1C?CK?V?AOK?1HX1W1V?PFFT?VT1XW5GFKV100XN1?AA?BNFU?T?NCK6K6ARVKWMFX6?PK??11GCT?W?VIP1TNVK??"
+        },
+        {
+          "key_id": "Nov13-15b",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "F",
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "XXTZ6?S?XANKP?VX6?HAJR?A?AVJCTP?I6A?V1K5VT0LXR1C?CK?V?AOK?1HX1W1V?PFFT?VT1XW5GFKV100XN1?AA?BNFU?T?NCK6K6ARVKWMFX6?PK??11GCT?W?VIP1TNVK?Z"
+        },
+        {
+          "key_id": "Nov13-15b",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "D",
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "XXTZ6?S?XANKP?VX6?HAJR?A?AVJCTP?I6A?V1K5VT0LXR1C?CK?V?AOK?1HX1W1V?PFFT?VT1XW5GFKV100XN1?AA?BNFU?T?NCK6K6ARVKWMFX6?PK??11GCT?W?VIP1TNVK?K"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov13-15b",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov13-15b",
+          "kind": "delete_fractionated",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "XXTZ6?S?XANKP?VX6?HAJR?A?AVJCTP?I6A?V1K5VT0LXR1C?CK?V?AOK?1HX1W1V?PFFT?VT1XW5GFKV100XN1?AA?BNFU?T?NCK6K6ARVKWMFX6?PK??11GCT?W?VIP1TNVK?"
+        },
+        {
+          "key_id": "Nov13-15b",
+          "kind": "delete_fractionated",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 56,
+          "eligible": false,
+          "plaintext": "XXTZ6?S?XANKP?VX6?HAJR?A?AVJCTP?I6A?V1K5VT0LXR1C?CK?V?AOK?1HX1W1V?PFFT?VT1XW5GFKV100XN1?AA?BNFU?T?NCK6K6ARVKWMFX6?PK??11GCT?W?VIP1TNVKA"
+        },
+        {
+          "key_id": "Nov13-15b",
+          "kind": "delete_fractionated",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 56,
+          "eligible": false,
+          "plaintext": "XXTZ6?S?XANKP?VX6?HAJR?A?AVJCTP?I6A?V1K5VT0LXR1C?CK?V?AOK?1HX1W1V?PFFT?VT1XW5GFKV100XN1?AA?BNFU?T?NCK6K6ARVKWMFX6?PK??11GCT?W?VIP1TNVKV"
+        },
+        {
+          "key_id": "Nov13-15b",
+          "kind": "delete_fractionated",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 56,
+          "eligible": false,
+          "plaintext": "XXTZ6?S?XANKP?VX6?HAJR?A?AVJCTP?I6A?V1K5VT0LXR1C?CK?V?AOK?1HX1W1V?PFFT?VT1XW5GFKV100XN1?AA?BNFU?T?NCK6K6ARVKWMFX6?PK??11GCT?W?VIP1TNVAV"
+        },
+        {
+          "key_id": "Nov13-15b",
+          "kind": "delete_fractionated",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 56,
+          "eligible": false,
+          "plaintext": "XXTZ6?S?XANKP?VX6?HAJR?A?AVJCTP?I6A?V1K5VT0LXR1C?CK?V?AOK?1HX1W1V?PFFT?VT1XW5GFKV100XN1?AA?BNFU?T?NCK6K6ARVKWMFX6?PK??11GCT?W?VIP1TNVXV"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov13-15b",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov13-15b",
+          "kind": "delete_transmitted",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "1PKZ??6?XAIK6?SXV?NAP?MA6AMKJG1?IVVJC1?5?GW?VJ1CAT1?XGKO?MKDV0A1??PHXTUVC1X0FT1K?10W5?F?AKFPXF??CA?MN?W6KRATKB1XVR6KWVF1GC1W?D?IPXTDWAA"
+        },
+        {
+          "key_id": "Nov13-15b",
+          "kind": "delete_transmitted",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "1PKZ??6?XAIK6?SXV?NAP?MA6AMKJG1?IVVJC1?5?GW?VJ1CAT1?XGKO?MKDV0A1??PHXTUVC1X0FT1K?10W5?F?AKFPXF??CA?MN?W6KRATKB1XVR6KWVF1GC1W?D?IPXTNWAA"
+        },
+        {
+          "key_id": "Nov13-15b",
+          "kind": "delete_transmitted",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 59,
+          "eligible": false,
+          "plaintext": "1PKZ??6?XAIK6?SXV?NAP?MA6AMKJG1?IVVJC1?5?GW?VJ1CAT1?XGKO?MKDV0A1??PHXTUVC1X0FT1K?10W5?F?AKFPXF??CA?MN?W6KRATKB1XVR6KWVF1GC1??D?IPXTNWAA"
+        },
+        {
+          "key_id": "Nov13-15b",
+          "kind": "delete_transmitted",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 59,
+          "eligible": false,
+          "plaintext": "1PKZ??6?XAIK6?SXV?NAP?MA6AMKJG1?IVVJC1?5?GW?VJ1CAT1?XGKO?MKDV0A1??PHXTUVC1X0FT1K?10W5?F?AKFPXF??CA?MN?W6KRATKB1XVR6KWVF1GC1??D?IPXTNWAA"
+        },
+        {
+          "key_id": "Nov13-15b",
+          "kind": "delete_transmitted",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 59,
+          "eligible": false,
+          "plaintext": "1PKZ??6?XAIK6?SXV?NAP?MA6AMKJG1?IVVJC1?5?GW?VJ1CAT1?XGKO?MKDV0A1??PHXTUVC1X0FT1K?10W5?F?AKFPXF??CA?MN?W6KRAKKB1XVR6KWVF1GC1??D?IPXTNWAA"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov16-18",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Nov16-18",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "X",
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "DDVEDV?YHQAHWNLE1GBAQGV?ZNA2AHOL?IH?L?DBLHEHKIL1?2?V?PGM1NMKU?2AU21SH?HH2K1BKG21IVT1MKTB?YR?X2?2AVV?B?ZABB1LP?A1B?I?GP?B?N2DV?BPRVQ??DU1"
+        },
+        {
+          "key_id": "Nov16-18",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "V",
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "DDVEDV?YHQAHWNLE1GBAQGV?ZNA2AHOL?IH?L?DBLHEHKIL1?2?V?PGM1NMKU?2AU21SH?HH2K1BKG21IVT1MKTB?YR?X2?2AVV?B?ZABB1LP?A1B?I?GP?B?N2DV?BPRVQ??DU?"
+        },
+        {
+          "key_id": "Nov16-18",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "G",
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "DDVEDV?YHQAHWNLE1GBAQGV?ZNA2AHOL?IH?L?DBLHEHKIL1?2?V?PGM1NMKU?2AU21SH?HH2K1BKG21IVT1MKTB?YR?X2?2AVV?B?ZABB1LP?A1B?I?GP?B?N2DV?BPRVQ??DUL"
+        },
+        {
+          "key_id": "Nov16-18",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "F",
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "DDVEDV?YHQAHWNLE1GBAQGV?ZNA2AHOL?IH?L?DBLHEHKIL1?2?V?PGM1NMKU?2AU21SH?HH2K1BKG21IVT1MKTB?YR?X2?2AVV?B?ZABB1LP?A1B?I?GP?B?N2DV?BPRVQ??DUQ"
+        },
+        {
+          "key_id": "Nov16-18",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "D",
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "DDVEDV?YHQAHWNLE1GBAQGV?ZNA2AHOL?IH?L?DBLHEHKIL1?2?V?PGM1NMKU?2AU21SH?HH2K1BKG21IVT1MKTB?YR?X2?2AVV?B?ZABB1LP?A1B?I?GP?B?N2DV?BPRVQ??DUV"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov16-18",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov16-18",
+          "kind": "delete_fractionated",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "DDVEDV?YHQAHWNLE1GBAQGV?ZNA2AHOL?IH?L?DBLHEHKIL1?2?V?PGM1NMKU?2AU21SH?HH2K1BKG21IVT1MKTB?YR?X2?2AVV?B?ZABB1LP?A1B?I?GP?B?N2DV?BPRVQ??DU"
+        },
+        {
+          "key_id": "Nov16-18",
+          "kind": "delete_fractionated",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "DDVEDV?YHQAHWNLE1GBAQGV?ZNA2AHOL?IH?L?DBLHEHKIL1?2?V?PGM1NMKU?2AU21SH?HH2K1BKG21IVT1MKTB?YR?X2?2AVV?B?ZABB1LP?A1B?I?GP?B?N2DV?BPRVQ??D2"
+        },
+        {
+          "key_id": "Nov16-18",
+          "kind": "delete_fractionated",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "DDVEDV?YHQAHWNLE1GBAQGV?ZNA2AHOL?IH?L?DBLHEHKIL1?2?V?PGM1NMKU?2AU21SH?HH2K1BKG21IVT1MKTB?YR?X2?2AVV?B?ZABB1LP?A1B?I?GP?B?N2DV?BPRVQ??DZ"
+        },
+        {
+          "key_id": "Nov16-18",
+          "kind": "delete_fractionated",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "DDVEDV?YHQAHWNLE1GBAQGV?ZNA2AHOL?IH?L?DBLHEHKIL1?2?V?PGM1NMKU?2AU21SH?HH2K1BKG21IVT1MKTB?YR?X2?2AVV?B?ZABB1LP?A1B?I?GP?B?N2DV?BPRVQ???Z"
+        },
+        {
+          "key_id": "Nov16-18",
+          "kind": "delete_fractionated",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "DDVEDV?YHQAHWNLE1GBAQGV?ZNA2AHOL?IH?L?DBLHEHKIL1?2?V?PGM1NMKU?2AU21SH?HH2K1BKG21IVT1MKTB?YR?X2?2AVV?B?ZABB1LP?A1B?I?GP?B?N2DV?BPRVQ???Z"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov16-18",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov16-18",
+          "kind": "delete_transmitted",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "?D1PL?PYHQ??N??I1GBCVWGGPPAHAH?2U?HWVL?R?SDVUI?1?P?N?YVKYNAK?NP?UP1W?VZHR2VLMG2V2H11AK1B?O2SXR?NALBKMYZLBLR22VK1R2G?I??E2NPDV?BQH?Q??Z2"
+        },
+        {
+          "key_id": "Nov16-18",
+          "kind": "delete_transmitted",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "?D1PL?PYHQ??N??I1GBCVWGGPPAHAH?2U?HWVL?R?SDVUI?1?P?N?YVKYNAK?NP?UP1W?VZHR2VLMG2V2H11AK1B?O2SXR?NALBKMYZLBLR22VK1R2G?I??E2NPDV?B?H?Q??Z2"
+        },
+        {
+          "key_id": "Nov16-18",
+          "kind": "delete_transmitted",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "?D1PL?PYHQ??N??I1GBCVWGGPPAHAH?2U?HWVL?R?SDVUI?1?P?N?YVKYNAK?NP?UP1W?VZHR2VLMG2V2H11AK1B?O2SXR?NALBKMYZLBLR22VK1R2G?I??E2NPDV?B?H?Q??Z2"
+        },
+        {
+          "key_id": "Nov16-18",
+          "kind": "delete_transmitted",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 60,
+          "eligible": false,
+          "plaintext": "?D1PL?PYHQ??N??I1GBCVWGGPPAHAH?2U?HWVL?R?SDVUI?1?P?N?YVKYNAK?NP?UP1W?VZHR2VLMG2V2H11AK1B?O2SXR?NALBKMYZLBLR22VK1R2G?I??E2NPDV?B?H?Q??Z2"
+        },
+        {
+          "key_id": "Nov16-18",
+          "kind": "delete_transmitted",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 56,
+          "eligible": false,
+          "plaintext": "?D1PL?PYHQ??N??I1GBCVWGGPPAHAH?2U?HWVL?R?SDVUI?1?P?N?YVKYNAK?NP?UP1W?VZHR2VLMG2V2H11AK1B?O2SXR?NALB?MYZLBLR22VK1R2G?I??E2NPDV?B?H?Q??Z2"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov19-21",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Nov19-21",
+          "kind": "insert_fractionated",
+          "index": 190,
+          "fill": "X",
+          "score": -9.311362309563428,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5YOABNYA1R0CNHM32T5YK3YBLAZPOD5GOY3AQAP7FAEHOGYPH7VYOPANA1BO1HZVYMP34ZAG2VC1ZY4C00R3CSEPNCHCZDASOAYBLANVY2DAYDY1BEBTGASPPEHZGAOA1OE1Y3CG"
+        },
+        {
+          "key_id": "Nov19-21",
+          "kind": "insert_fractionated",
+          "index": 114,
+          "fill": "G",
+          "score": -9.317804203893905,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5YOABNYA1R0CNHM32T5YK3YBLAZPOD5GOY3AQAP7FAEHOGYPH7VYOPANAMAJ1FWGVP13THM2VG7YDGDL28530BKYT774BMSYOAYBLANVY2DAYDY1BEBTGASPPEHZGAOA1OE1Y3CG"
+        },
+        {
+          "key_id": "Nov19-21",
+          "kind": "insert_fractionated",
+          "index": 115,
+          "fill": "X",
+          "score": -9.321743581528054,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5YOABNYA1R0CNHM32T5YK3YBLAZPOD5GOY3AQAP7FAEHOGYPH7VYOPANADAJ1FWGVP13THM2VG7YDGDL28530BKYT774BMSYOAYBLANVY2DAYDY1BEBTGASPPEHZGAOA1OE1Y3CG"
+        },
+        {
+          "key_id": "Nov19-21",
+          "kind": "insert_fractionated",
+          "index": 190,
+          "fill": "G",
+          "score": -9.323156654386592,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5YOABNYA1R0CNHM32T5YK3YBLAZPOD5GOY3AQAP7FAEHOGYPH7VYOPANA1BO1HZVYMP34ZAG2VC1ZY4C00R3CSEPNCHCZDAMOAYBLANVY2DAYDY1BEBTGASPPEHZGAOA1OE1Y3CG"
+        },
+        {
+          "key_id": "Nov19-21",
+          "kind": "insert_fractionated",
+          "index": 144,
+          "fill": "F",
+          "score": -9.336150961710995,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "5YOABNYA1R0CNHM32T5YK3YBLAZPOD5GOY3AQAP7FAEHOGYPH7VYOPANA1BO1HZVYMP34ZAGEG7YDGDL28530BKYT774BMSYOAYBLANVY2DAYDY1BEBTGASPPEHZGAOA1OE1Y3CG"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov19-21",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov19-21",
+          "kind": "delete_fractionated",
+          "index": 193,
+          "fill": null,
+          "score": -9.373334909930374,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5YOABNYA1R0CNHM32T5YK3YBLAZPOD5GOY3AQAP7FAEHOGYPH7VYOPANA1BO1HZVYMP34ZAG2VC1ZY4C00R3CSEPNCHCZDAKAYBLANVY2DAYDY1BEBTGASPPEHZGAOA1OE1Y3CG"
+        },
+        {
+          "key_id": "Nov19-21",
+          "kind": "delete_fractionated",
+          "index": 192,
+          "fill": null,
+          "score": -9.373334909930374,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5YOABNYA1R0CNHM32T5YK3YBLAZPOD5GOY3AQAP7FAEHOGYPH7VYOPANA1BO1HZVYMP34ZAG2VC1ZY4C00R3CSEPNCHCZDAKAYBLANVY2DAYDY1BEBTGASPPEHZGAOA1OE1Y3CG"
+        },
+        {
+          "key_id": "Nov19-21",
+          "kind": "delete_fractionated",
+          "index": 89,
+          "fill": null,
+          "score": -9.375611998818137,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5YOABNYA1R0CNHM32T5YK3YBLAZPOD5GOY3AQAP7FAEHRV10NCVK1MBYYAJ1FWGVP13THM2VG7YDGDL28530BKYT774BMSYOAYBLANVY2DAYDY1BEBTGASPPEHZGAOA1OE1Y3CG"
+        },
+        {
+          "key_id": "Nov19-21",
+          "kind": "delete_fractionated",
+          "index": 133,
+          "fill": null,
+          "score": -9.37864518888069,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5YOABNYA1R0CNHM32T5YK3YBLAZPOD5GOY3AQAP7FAEHOGYPH7VYOPANA1BO1HZVYMPTHM2VG7YDGDL28530BKYT774BMSYOAYBLANVY2DAYDY1BEBTGASPPEHZGAOA1OE1Y3CG"
+        },
+        {
+          "key_id": "Nov19-21",
+          "kind": "delete_fractionated",
+          "index": 134,
+          "fill": null,
+          "score": -9.37864518888069,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5YOABNYA1R0CNHM32T5YK3YBLAZPOD5GOY3AQAP7FAEHOGYPH7VYOPANA1BO1HZVYMPTHM2VG7YDGDL28530BKYT774BMSYOAYBLANVY2DAYDY1BEBTGASPPEHZGAOA1OE1Y3CG"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov19-21",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov19-21",
+          "kind": "delete_transmitted",
+          "index": 252,
+          "fill": null,
+          "score": -9.343405232285008,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5IEP1ZVIAELQOCBGYA12XGNBMPZT51K3YBLA8POBLAOQ3GYAP7AVEDON1PH9YQO2AGA1BSATZVY1Z348FG2GCSRY4CTLRPC1APANQVZBAXSVA4QDVVASYV1GKVJGZ21B11MFW3Y"
+        },
+        {
+          "key_id": "Nov19-21",
+          "kind": "delete_transmitted",
+          "index": 251,
+          "fill": null,
+          "score": -9.343405232285008,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5IEP1ZVIAELQOCBGYA12XGNBMPZT51K3YBLA8POBLAOQ3GYAP7AVEDON1PH9YQO2AGA1BSATZVY1Z348FG2GCSRY4CTLRPC1APANQVZBAXSVA4QDVVASYV1GKVJGZ21B11MFW3Y"
+        },
+        {
+          "key_id": "Nov19-21",
+          "kind": "delete_transmitted",
+          "index": 250,
+          "fill": null,
+          "score": -9.343405232285008,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5IEP1ZVIAELQOCBGYA12XGNBMPZT51K3YBLA8POBLAOQ3GYAP7AVEDON1PH9YQO2AGA1BSATZVY1Z348FG2GCSRY4CTLRPC1APANQVZBAXSVA4QDVVASYV1GKVJGZ21B11MFW3Y"
+        },
+        {
+          "key_id": "Nov19-21",
+          "kind": "delete_transmitted",
+          "index": 167,
+          "fill": null,
+          "score": -9.344959804506013,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5YOP1NYKAELCECB32GQ2X3SBMAZDU1KGYBLAQP1BLAEQ3GYA87VYODONAPB91HR2AMPMWSAGZVY1Z248002GCSE14CHCRPCK12ANQBNBAMSVA41AIVAZYV1GX7WGZI1B11YAZ3Y"
+        },
+        {
+          "key_id": "Nov19-21",
+          "kind": "delete_transmitted",
+          "index": 171,
+          "fill": null,
+          "score": -9.344959804506013,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "5YOP1NYKAELCECB32GQ2X3SBMAZDU1KGYBLAQP1BLAEQ3GYA87AYODONAPB9YHR2AMPMWSAGZVY1Z248F02GCSE14CHCRPCK12ANQBNBAMSVA41AIVAZYV1GX7WGZI1B11YAZ3Y"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov22-24",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Nov22-24",
+          "kind": "insert_fractionated",
+          "index": 57,
+          "fill": "A",
+          "score": -9.281901182088637,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "GGSJYEVFIU9VLF5I1TIVVEASZLUSSJNBIIFSN4C71ST4UW005WU286LW0VVC49J83LNTM0XWIUPTP40E2SWITT46I438MI25M9WZ4PTGTIBUITV4ITWDVWU0909BKULY5YU8JVYV"
+        },
+        {
+          "key_id": "Nov22-24",
+          "kind": "insert_fractionated",
+          "index": 48,
+          "fill": "D",
+          "score": -9.288116874551415,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "GGSJYEVFIU9VLF5I1TIVVEASSB29NJNBIIFSN4C71ST4UW005WU286LW0VVC49J83LNTM0XWIUPTP40E2SWITT46I438MI25M9WZ4PTGTIBUITV4ITWDVWU0909BKULY5YU8JVYV"
+        },
+        {
+          "key_id": "Nov22-24",
+          "kind": "insert_fractionated",
+          "index": 56,
+          "fill": "V",
+          "score": -9.288507676662359,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "GGSJYEVFIU9VLF5I1TIVVEASZLUSTJNBIIFSN4C71ST4UW005WU286LW0VVC49J83LNTM0XWIUPTP40E2SWITT46I438MI25M9WZ4PTGTIBUITV4ITWDVWU0909BKULY5YU8JVYV"
+        },
+        {
+          "key_id": "Nov22-24",
+          "kind": "insert_fractionated",
+          "index": 138,
+          "fill": "G",
+          "score": -9.294918325610627,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "GGSJYEVFIU9VLF5I1TIVVEASZLUS4AC9TU3Q44YG524I659GIPLWDU256VT3041F0QIINDXWIUPTP40E2SWITT46I438MI25M9WZ4PTGTIBUITV4ITWDVWU0909BKULY5YU8JVYV"
+        },
+        {
+          "key_id": "Nov22-24",
+          "kind": "insert_fractionated",
+          "index": 139,
+          "fill": "G",
+          "score": -9.294918325610627,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "GGSJYEVFIU9VLF5I1TIVVEASZLUS4AC9TU3Q44YG524I659GIPLWDU256VT3041F0QIINDXWIUPTP40E2SWITT46I438MI25M9WZ4PTGTIBUITV4ITWDVWU0909BKULY5YU8JVYV"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov22-24",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov22-24",
+          "kind": "delete_fractionated",
+          "index": 60,
+          "fill": null,
+          "score": -9.328016100507794,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "GGSJYEVFIU9VLF5I1TIVVEASZLUS4ABIIFSN4C71ST4UW005WU286LW0VVC49J83LNTM0XWIUPTP40E2SWITT46I438MI25M9WZ4PTGTIBUITV4ITWDVWU0909BKULY5YU8JVYV"
+        },
+        {
+          "key_id": "Nov22-24",
+          "kind": "delete_fractionated",
+          "index": 68,
+          "fill": null,
+          "score": -9.328750267173305,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "GGSJYEVFIU9VLF5I1TIVVEASZLUS4AC9TUSN4C71ST4UW005WU286LW0VVC49J83LNTM0XWIUPTP40E2SWITT46I438MI25M9WZ4PTGTIBUITV4ITWDVWU0909BKULY5YU8JVYV"
+        },
+        {
+          "key_id": "Nov22-24",
+          "kind": "delete_fractionated",
+          "index": 17,
+          "fill": null,
+          "score": -9.332059412291557,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "GGSJYEVFIDIU7K4WP4VVHWNQB29NJNBIIFSN4C71ST4UW005WU286LW0VVC49J83LNTM0XWIUPTP40E2SWITT46I438MI25M9WZ4PTGTIBUITV4ITWDVWU0909BKULY5YU8JVYV"
+        },
+        {
+          "key_id": "Nov22-24",
+          "kind": "delete_fractionated",
+          "index": 18,
+          "fill": null,
+          "score": -9.332059412291557,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "GGSJYEVFIDIU7K4WP4VVHWNQB29NJNBIIFSN4C71ST4UW005WU286LW0VVC49J83LNTM0XWIUPTP40E2SWITT46I438MI25M9WZ4PTGTIBUITV4ITWDVWU0909BKULY5YU8JVYV"
+        },
+        {
+          "key_id": "Nov22-24",
+          "kind": "delete_fractionated",
+          "index": 138,
+          "fill": null,
+          "score": -9.336825979478432,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "GGSJYEVFIU9VLF5I1TIVVEASZLUS4AC9TU3Q44YG524I659GIPLWDU256VT3041F0QIINXWIUPTP40E2SWITT46I438MI25M9WZ4PTGTIBUITV4ITWDVWU0909BKULY5YU8JVYV"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov22-24",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov22-24",
+          "kind": "delete_transmitted",
+          "index": 25,
+          "fill": null,
+          "score": -9.419847166899478,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "WLS1Y1VFIVEPLF9ISTIITTM4ZSUY4AZ9ID3Q94PG5602PP9WI0LWDUQ46V93541HJTICNMP5VGI0TTFM92MVINIA3JJIN4WIDIIT4V0P6H69U49CVP8ZVPNG98CFVD9XCIDUPH2"
+        },
+        {
+          "key_id": "Nov22-24",
+          "kind": "delete_transmitted",
+          "index": 31,
+          "fill": null,
+          "score": -9.438404989965035,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "WLS1Y1VFIVEPLF9ISTIVTTM4ZSUY4AC9ID3Q94PG5202PP9WI0LWDUQ46V93541FJTICNMP5VGV0TTFM92MVINIA3JJIN4WIDIIT4V0P6H69U49CVP8ZVPNG98CFVD9XCIDUPH2"
+        },
+        {
+          "key_id": "Nov22-24",
+          "kind": "delete_transmitted",
+          "index": 28,
+          "fill": null,
+          "score": -9.438404989965035,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "WLS1Y1VFIVEPLF9ISTIVTTM4ZSUY4AC9ID3Q94PG5202PP9WI0LWDUQ46V93541HJTICNMP5VGI0TTFM92MVINIA3JJIN4WIDIIT4V0P6H69U49CVP8ZVPNG98CFVD9XCIDUPH2"
+        },
+        {
+          "key_id": "Nov22-24",
+          "kind": "delete_transmitted",
+          "index": 29,
+          "fill": null,
+          "score": -9.438404989965035,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "WLS1Y1VFIVEPLF9ISTIVTTM4ZSUY4AC9ID3Q94PG5202PP9WI0LWDUQ46V93541HJTICNMP5VGI0TTFM92MVINIA3JJIN4WIDIIT4V0P6H69U49CVP8ZVPNG98CFVD9XCIDUPH2"
+        },
+        {
+          "key_id": "Nov22-24",
+          "kind": "delete_transmitted",
+          "index": 30,
+          "fill": null,
+          "score": -9.438404989965035,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "WLS1Y1VFIVEPLF9ISTIVTTM4ZSUY4AC9ID3Q94PG5202PP9WI0LWDUQ46V93541FJTICNMP5VGI0TTFM92MVINIA3JJIN4WIDIIT4V0P6H69U49CVP8ZVPNG98CFVD9XCIDUPH2"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov25-28",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Nov25-28",
+          "kind": "insert_fractionated",
+          "index": 234,
+          "fill": "F",
+          "score": -9.553581108724265,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "3XXEW7DOTPQ9YGP3XA5UAE9C1A9LD91QOGYKY94DOGA8EQY99MVM6YV25MWLOAM2RA6AC38QXPVFPD433AZZP1A26VRYVA35MQFP2PVMDCLFBD33TXLDBELLT1T49XLTVMP6PVF2"
+        },
+        {
+          "key_id": "Nov25-28",
+          "kind": "insert_fractionated",
+          "index": 8,
+          "fill": "F",
+          "score": -9.553621152289828,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "3XXEICH9I1ZMALYM29ZLEOMYFPMYN3M7AJA7GFMB9JA6UZAFMA3Q9GFDNP4CGEA38PAGYF2N61M51Z3T39AQ5MPMGXKPFQMVPVY1MRMQV1CR4H33421N4QLLT1T49XLTVMP6PVF2"
+        },
+        {
+          "key_id": "Nov25-28",
+          "kind": "insert_fractionated",
+          "index": 9,
+          "fill": "F",
+          "score": -9.553621152289828,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "3XXEICH9I1ZMALYM29ZLEOMYFPMYN3M7AJA7GFMB9JA6UZAFMA3Q9GFDNP4CGEA38PAGYF2N61M51Z3T39AQ5MPMGXKPFQMVPVY1MRMQV1CR4H33421N4QLLT1T49XLTVMP6PVF2"
+        },
+        {
+          "key_id": "Nov25-28",
+          "kind": "insert_fractionated",
+          "index": 235,
+          "fill": "D",
+          "score": -9.566609167514887,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "3XXEW7DOTPQ9YGP3XA5UAE9C1A9LD91QOGYKY94DOGA8EQY99MVM6YV25MWLOAM2RA6AC38QXPVFPD433AZZP1A26VRYVA35MQFP2PVMDCLFBD33TXLDBALLT1T49XLTVMP6PVF2"
+        },
+        {
+          "key_id": "Nov25-28",
+          "kind": "insert_fractionated",
+          "index": 234,
+          "fill": "D",
+          "score": -9.566609167514887,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "3XXEW7DOTPQ9YGP3XA5UAE9C1A9LD91QOGYKY94DOGA8EQY99MVM6YV25MWLOAM2RA6AC38QXPVFPD433AZZP1A26VRYVA35MQFP2PVMDCLFBD33TXLDBALLT1T49XLTVMP6PVF2"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov25-28",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov25-28",
+          "kind": "delete_fractionated",
+          "index": 233,
+          "fill": null,
+          "score": -9.594593178142201,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "3XXEW7DOTPQ9YGP3XA5UAE9C1A9LD91QOGYKY94DOGA8EQY99MVM6YV25MWLOAM2RA6AC38QXPVFPD433AZZP1A26VRYVA35MQFP2PVMDCLFBD33TXLDELLT1T49XLTVMP6PVF2"
+        },
+        {
+          "key_id": "Nov25-28",
+          "kind": "delete_fractionated",
+          "index": 7,
+          "fill": null,
+          "score": -9.60478104244579,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "3XXICH9I1ZMALYM29ZLEOMYFPMYN3M7AJA7GFMB9JA6UZAFMA3Q9GFDNP4CGEA38PAGYF2N61M51Z3T39AQ5MPMGXKPFQMVPVY1MRMQV1CR4H33421N4QLLT1T49XLTVMP6PVF2"
+        },
+        {
+          "key_id": "Nov25-28",
+          "kind": "delete_fractionated",
+          "index": 18,
+          "fill": null,
+          "score": -9.61468756198883,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "3XXEW7DOTZMALYM29ZLEOMYFPMYN3M7AJA7GFMB9JA6UZAFMA3Q9GFDNP4CGEA38PAGYF2N61M51Z3T39AQ5MPMGXKPFQMVPVY1MRMQV1CR4H33421N4QLLT1T49XLTVMP6PVF2"
+        },
+        {
+          "key_id": "Nov25-28",
+          "kind": "delete_fractionated",
+          "index": 36,
+          "fill": null,
+          "score": -9.62386884472587,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "3XXEW7DOTPQ9YGP3XALEOMYFPMYN3M7AJA7GFMB9JA6UZAFMA3Q9GFDNP4CGEA38PAGYF2N61M51Z3T39AQ5MPMGXKPFQMVPVY1MRMQV1CR4H33421N4QLLT1T49XLTVMP6PVF2"
+        },
+        {
+          "key_id": "Nov25-28",
+          "kind": "delete_fractionated",
+          "index": 86,
+          "fill": null,
+          "score": -9.649476502880905,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "3XXEW7DOTPQ9YGP3XA5UAE9C1A9LD91QOGYKY94DOGAUZAFMA3Q9GFDNP4CGEA38PAGYF2N61M51Z3T39AQ5MPMGXKPFQMVPVY1MRMQV1CR4H33421N4QLLT1T49XLTVMP6PVF2"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov25-28",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov25-28",
+          "kind": "delete_transmitted",
+          "index": 166,
+          "fill": null,
+          "score": -9.51918264952573,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "2L3ET5MOT2KA22P3CHQUYAMPLA9L9ACQOXYFP94X3XAGEAZGPMVAJYVUHMFMOAD9GAMGP4CGXP3XPDG1F2NZPY5163W39AD5MQMG2K9FQMLFVY13WMQH1CRUV43T21U4Q1AW1D3"
+        },
+        {
+          "key_id": "Nov25-28",
+          "kind": "delete_transmitted",
+          "index": 165,
+          "fill": null,
+          "score": -9.51918264952573,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "2L3ET5MOT2KA22P3CHQUYAMPLA9LQACQOXYFP94X3XAGEAZGPMVAJYVUHMFMOAD9GAMGP4CGXP3XPDG1F2NZPY5163W39AD5MQMG2K9FQMLFVY13WMQH1CRUV43T21U4Q1AW1D3"
+        },
+        {
+          "key_id": "Nov25-28",
+          "kind": "delete_transmitted",
+          "index": 188,
+          "fill": null,
+          "score": -9.540229244665666,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "2L3WT5MAT2KA22PMCHQUYAMPLA3L9ACQOXYFP9ON3XAGEAZGPMV9JYVUHMFMO9Q9GAMGP4CGGP3XPDG1F2NZ9M5163W39AD5MPMG2K9FQMLFVY13WMQH1CRUH43T21U4Q1PT1D3"
+        },
+        {
+          "key_id": "Nov25-28",
+          "kind": "delete_transmitted",
+          "index": 160,
+          "fill": null,
+          "score": -9.551052537831394,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "2L3ETCMOT2KA22P3FHQUYAMPLA9LQACQOXYFP94X3XAGEAZGPMVAJYVUHMFMOAD9GAMGP4CGXP3XPDG1F2NZPY5163W39AD5MQMG2K9FQFLFVY13WMQHVCRUV43T21U4Q1AW1D3"
+        },
+        {
+          "key_id": "Nov25-28",
+          "kind": "delete_transmitted",
+          "index": 163,
+          "fill": null,
+          "score": -9.551052537831394,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "2L3ETCMOT2KA22P3FHQUYAMPLA9LQACQOXYFP94X3XAGEAZGPMVAJYVUHMFMOAD9GAMGP4CGXP3XPDG1F2NZPY5163W39AD5MQMG2K9FQMLFVY13WMQH1CRUV43T21U4Q1AW1D3"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov28-Dec1",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "insert_fractionated",
+          "index": 231,
+          "fill": "A",
+          "score": -9.555414024152254,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "CJ54JRN1EZALJIU580JH0AMJVAMZ1L9FA4U07KN9FHZJIKKUJZCJNPHK5OO08YKGOO0YFOKPOHFNA5AW55GJFAOBVEVYPZV6ALLFKUPJ4VACJ1VHHEOBSXQU9JEWQ4JZ9OHJFT46"
+        },
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "insert_fractionated",
+          "index": 242,
+          "fill": "X",
+          "score": -9.558283841699586,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "CJ54JRN1EZALJIU580JH0AMJVAMZ1L9FA4U07KN9FHZJIKKUJZCJNPHK5OO08YKGOO0YFOKPOHFNA5AW55GJFAOBVEVYPZV6ALLFKUPJ4VACJ1VHHEOW0KDOSSEWQ4JZ9OHJFT46"
+        },
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "insert_fractionated",
+          "index": 242,
+          "fill": "F",
+          "score": -9.564463550883127,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "CJ54JRN1EZALJIU580JH0AMJVAMZ1L9FA4U07KN9FHZJIKKUJZCJNPHK5OO08YKGOO0YFOKPOHFNA5AW55GJFAOBVEVYPZV6ALLFKUPJ4VACJ1VHHEOW0KDOSIEWQ4JZ9OHJFT46"
+        },
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "insert_fractionated",
+          "index": 231,
+          "fill": "V",
+          "score": -9.572544911750278,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "CJ54JRN1EZALJIU580JH0AMJVAMZ1L9FA4U07KN9FHZJIKKUJZCJNPHK5OO08YKGOO0YFOKPOHFNA5AW55GJFAOBVEVYPZV6ALLFKUPJ4VACJ1VHHEOSSXQU9JEWQ4JZ9OHJFT46"
+        },
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "insert_fractionated",
+          "index": 217,
+          "fill": "A",
+          "score": -9.573516139410492,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "CJ54JRN1EZALJIU580JH0AMJVAMZ1L9FA4U07KN9FHZJIKKUJZCJNPHK5OO08YKGOO0YFOKPOHFNA5AW55GJFAOBVEVYPZV6ALLFKUPJ4VACERGA4V89SXQU9JEWQ4JZ9OHJFT46"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov28-Dec1",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "delete_fractionated",
+          "index": 231,
+          "fill": null,
+          "score": -9.610026103077512,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "CJ54JRN1EZALJIU580JH0AMJVAMZ1L9FA4U07KN9FHZJIKKUJZCJNPHK5OO08YKGOO0YFOKPOHFNA5AW55GJFAOBVEVYPZV6ALLFKUPJ4VACJ1VHHEOSXQU9JEWQ4JZ9OHJFT46"
+        },
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "delete_fractionated",
+          "index": 230,
+          "fill": null,
+          "score": -9.610026103077512,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "CJ54JRN1EZALJIU580JH0AMJVAMZ1L9FA4U07KN9FHZJIKKUJZCJNPHK5OO08YKGOO0YFOKPOHFNA5AW55GJFAOBVEVYPZV6ALLFKUPJ4VACJ1VHHEOSXQU9JEWQ4JZ9OHJFT46"
+        },
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "delete_fractionated",
+          "index": 242,
+          "fill": null,
+          "score": -9.61171993703553,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "CJ54JRN1EZALJIU580JH0AMJVAMZ1L9FA4U07KN9FHZJIKKUJZCJNPHK5OO08YKGOO0YFOKPOHFNA5AW55GJFAOBVEVYPZV6ALLFKUPJ4VACJ1VHHEOW0KDOSEWQ4JZ9OHJFT46"
+        },
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "delete_fractionated",
+          "index": 243,
+          "fill": null,
+          "score": -9.61171993703553,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "CJ54JRN1EZALJIU580JH0AMJVAMZ1L9FA4U07KN9FHZJIKKUJZCJNPHK5OO08YKGOO0YFOKPOHFNA5AW55GJFAOBVEVYPZV6ALLFKUPJ4VACJ1VHHEOW0KDOSEWQ4JZ9OHJFT46"
+        },
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "delete_fractionated",
+          "index": 241,
+          "fill": null,
+          "score": -9.61171993703553,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "CJ54JRN1EZALJIU580JH0AMJVAMZ1L9FA4U07KN9FHZJIKKUJZCJNPHK5OO08YKGOO0YFOKPOHFNA5AW55GJFAOBVEVYPZV6ALLFKUPJ4VACJ1VHHEOW0KDOSEWQ4JZ9OHJFT46"
+        }
+      ]
+    },
+    {
+      "key_id": "Nov28-Dec1",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "delete_transmitted",
+          "index": 182,
+          "fill": null,
+          "score": -9.324038353833286,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "0Z84AQNUCJ54JJU5EZAHJUDE80J0N0WFV4MZ74HFAOU01KU3F0ZJISCKJ9CJGYO85OOGO8KGOO03J5KSOHF0OOAW5EGPPZF6V6V9SAVEALLSA1PF4JAC0UTHHEOWNSIKSFYA0H0"
+        },
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "delete_transmitted",
+          "index": 184,
+          "fill": null,
+          "score": -9.324038353833286,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "0Z84AQNUCJ54JJU5EZAHJUDE80J0N0WFV4MZ74HFAOU01KU3F0ZJISCKJ9CJGYO85OOGO8KGOO03J5KSOHF0OOAW5EGPPZF6V6V9SAVEALLSA1PF4JACJUTHHEOWNSIKSFYA0H0"
+        },
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "delete_transmitted",
+          "index": 187,
+          "fill": null,
+          "score": -9.324038353833286,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "0Z84AQNUCJ54JJN5EZAHJUDE80J0N0WFV4MZ74HFAOU01KU3F0ZJISCKJ9CJGYO85OOGO8KGOO03J5KSOHF0OOAW5EGPPZF6V6V9SAVEALLSA1PF4JACJUTHHEOWNSIKSFYA0H0"
+        },
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "delete_transmitted",
+          "index": 186,
+          "fill": null,
+          "score": -9.324038353833286,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "0Z84AQNUCJ54JJU5EZAHJUDE80J0N0WFV4MZ74HFAOU01KU3F0ZJISCKJ9CJGYO85OOGO8KGOO03J5KSOHF0OOAW5EGPPZF6V6V9SAVEALLSA1PF4JACJUTHHEOWNSIKSFYA0H0"
+        },
+        {
+          "key_id": "Nov28-Dec1",
+          "kind": "delete_transmitted",
+          "index": 185,
+          "fill": null,
+          "score": -9.324038353833286,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "0Z84AQNUCJ54JJU5EZAHJUDE80J0N0WFV4MZ74HFAOU01KU3F0ZJISCKJ9CJGYO85OOGO8KGOO03J5KSOHF0OOAW5EGPPZF6V6V9SAVEALLSA1PF4JACJUTHHEOWNSIKSFYA0H0"
+        }
+      ]
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "X",
+          "score": -100.0,
+          "known_quad_windows": 9,
+          "eligible": false,
+          "plaintext": "??IX?Z??R?C?TI??CE??PZF???H?EP???V?ECF?KZN?NZG??EFF??R?HR??TCRFXH?RI???Z??GNC??FW?G??ZHA??XCENPWH?ZF???Z??CFCID???C??GI?NT?ZF????BTE???W"
+        },
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "V",
+          "score": -100.0,
+          "known_quad_windows": 9,
+          "eligible": false,
+          "plaintext": "??IX?Z??R?C?TI??CE??PZF???H?EP???V?ECF?KZN?NZG??EFF??R?HR??TCRFXH?RI???Z??GNC??FW?G??ZHA??XCENPWH?ZF???Z??CFCID???C??GI?NT?ZF????BTE????"
+        },
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "G",
+          "score": -100.0,
+          "known_quad_windows": 9,
+          "eligible": false,
+          "plaintext": "??IX?Z??R?C?TI??CE??PZF???H?EP???V?ECF?KZN?NZG??EFF??R?HR??TCRFXH?RI???Z??GNC??FW?G??ZHA??XCENPWH?ZF???Z??CFCID???C??GI?NT?ZF????BTE???T"
+        },
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "F",
+          "score": -100.0,
+          "known_quad_windows": 9,
+          "eligible": false,
+          "plaintext": "??IX?Z??R?C?TI??CE??PZF???H?EP???V?ECF?KZN?NZG??EFF??R?HR??TCRFXH?RI???Z??GNC??FW?G??ZHA??XCENPWH?ZF???Z??CFCID???C??GI?NT?ZF????BTE???O"
+        },
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "D",
+          "score": -100.0,
+          "known_quad_windows": 9,
+          "eligible": false,
+          "plaintext": "??IX?Z??R?C?TI??CE??PZF???H?EP???V?ECF?KZN?NZG??EFF??R?HR??TCRFXH?RI???Z??GNC??FW?G??ZHA??XCENPWH?ZF???Z??CFCID???C??GI?NT?ZF????BTE???R"
+        }
+      ]
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "delete_fractionated",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 9,
+          "eligible": false,
+          "plaintext": "??IX?Z??R?C?TI??CE??PZF???H?EP???V?ECF?KZN?NZG??EFF??R?HR??TCRFXH?RI???Z??GNC??FW?G??ZHA??XCENPWH?ZF???Z??CFCID???C??GI?NT?ZF????BTE???"
+        },
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "delete_fractionated",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 9,
+          "eligible": false,
+          "plaintext": "??IX?Z??R?C?TI??CE??PZF???H?EP???V?ECF?KZN?NZG??EFF??R?HR??TCRFXH?RI???Z??GNC??FW?G??ZHA??XCENPWH?ZF???Z??CFCID???C??GI?NT?ZF????BTE??H"
+        },
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "delete_fractionated",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 9,
+          "eligible": false,
+          "plaintext": "??IX?Z??R?C?TI??CE??PZF???H?EP???V?ECF?KZN?NZG??EFF??R?HR??TCRFXH?RI???Z??GNC??FW?G??ZHA??XCENPWH?ZF???Z??CFCID???C??GI?NT?ZF????BTE???"
+        },
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "delete_fractionated",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 9,
+          "eligible": false,
+          "plaintext": "??IX?Z??R?C?TI??CE??PZF???H?EP???V?ECF?KZN?NZG??EFF??R?HR??TCRFXH?RI???Z??GNC??FW?G??ZHA??XCENPWH?ZF???Z??CFCID???C??GI?NT?ZF????BTE?V?"
+        },
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "delete_fractionated",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 9,
+          "eligible": false,
+          "plaintext": "??IX?Z??R?C?TI??CE??PZF???H?EP???V?ECF?KZN?NZG??EFF??R?HR??TCRFXH?RI???Z??GNC??FW?G??ZHA??XCENPWH?ZF???Z??CFCID???C??GI?NT?ZF????BTE?X?"
+        }
+      ]
+    },
+    {
+      "key_id": "CHI-Nov13",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "delete_transmitted",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 12,
+          "eligible": false,
+          "plaintext": "BCIDFZI????XNI????N?TZ?ZN?H???????H?N?VL??IE?F??Z??NZ???W?R?CRFD???T??F?H?FIC?NGRRGN??HRE????ZDA???CZ?TEHZ?FP???X?CF?GS?Z???F?Z?CPTZFV?"
+        },
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "delete_transmitted",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 12,
+          "eligible": false,
+          "plaintext": "BCIDFZI????XNI????N?TZ?ZN?H???????H?N?VL??IE?F??Z??NZ???W?R?CRFD???T??F?H?FIC?NGRRGN??HRE????ZDA???CZ?TEHZ?FP???X?CF?GS?Z???F?Z?CPTZFV?"
+        },
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "delete_transmitted",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 12,
+          "eligible": false,
+          "plaintext": "BCIDFZI????XNI????N?TZ?ZN?H???????H?N?VL??IE?F??Z??NZ???W?R?CRFD???T??F?H?FIC?NGRRGN??HRE????ZDA???CZ?TEHZ?FP???X?CF?GS?Z???F?Z?CPTZFV?"
+        },
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "delete_transmitted",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 12,
+          "eligible": false,
+          "plaintext": "BCIDFZI????XNI????N?TZ?ZN?H???????H?N?VL??IE?F??Z??NZ???W?R?CRFD???T??F?H?FIC?NGRRGN??HRE????ZDA???CZ?TEHZ?FP???X?CF?GS?Z???F?Z?CPTZFV?"
+        },
+        {
+          "key_id": "CHI-Nov13",
+          "kind": "delete_transmitted",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 12,
+          "eligible": false,
+          "plaintext": "BCIDFZI????XNI????N?TZ?ZN?H???????H?N?VL??IE?F??Z??NZ???W?R?CRFD???T??F?H?FIC?NGRRGN??HRE????ZDA???CZ?TZHZ?FP???X?CF?GS?Z???F?Z?CPTZFV?"
+        }
+      ]
+    },
+    {
+      "key_id": "Jul18",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Jul18",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "X",
+          "score": -100.0,
+          "known_quad_windows": 14,
+          "eligible": false,
+          "plaintext": "H?CVGCXFT?F?GSN?UTX?F?C??UTKF??CTV?XRW????EF?F?SO?TKC??OL?WC????L????K??K?STO???O??G?FCD?FWWGKKG?C????T?VCCU?SP?TEK?CR?LKFNLCV?U?VKS?VE?"
+        },
+        {
+          "key_id": "Jul18",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "V",
+          "score": -100.0,
+          "known_quad_windows": 14,
+          "eligible": false,
+          "plaintext": "H?CVGCXFT?F?GSN?UTX?F?C??UTKF??CTV?XRW????EF?F?SO?TKC??OL?WC????L????K??K?STO???O??G?FCD?FWWGKKG?C????T?VCCU?SP?TEK?CR?LKFNLCV?U?VKS?VEC"
+        },
+        {
+          "key_id": "Jul18",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "G",
+          "score": -100.0,
+          "known_quad_windows": 14,
+          "eligible": false,
+          "plaintext": "H?CVGCXFT?F?GSN?UTX?F?C??UTKF??CTV?XRW????EF?F?SO?TKC??OL?WC????L????K??K?STO???O??G?FCD?FWWGKKG?C????T?VCCU?SP?TEK?CR?LKFNLCV?U?VKS?VEV"
+        },
+        {
+          "key_id": "Jul18",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "F",
+          "score": -100.0,
+          "known_quad_windows": 14,
+          "eligible": false,
+          "plaintext": "H?CVGCXFT?F?GSN?UTX?F?C??UTKF??CTV?XRW????EF?F?SO?TKC??OL?WC????L????K??K?STO???O??G?FCD?FWWGKKG?C????T?VCCU?SP?TEK?CR?LKFNLCV?U?VKS?VET"
+        },
+        {
+          "key_id": "Jul18",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "D",
+          "score": -100.0,
+          "known_quad_windows": 14,
+          "eligible": false,
+          "plaintext": "H?CVGCXFT?F?GSN?UTX?F?C??UTKF??CTV?XRW????EF?F?SO?TKC??OL?WC????L????K??K?STO???O??G?FCD?FWWGKKG?C????T?VCCU?SP?TEK?CR?LKFNLCV?U?VKS?VE?"
+        }
+      ]
+    },
+    {
+      "key_id": "Jul18",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Jul18",
+          "kind": "delete_fractionated",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 14,
+          "eligible": false,
+          "plaintext": "H?CVGCXFT?F?GSN?UTX?F?C??UTKF??CTV?XRW????EF?F?SO?TKC??OL?WC????L????K??K?STO???O??G?FCD?FWWGKKG?C????T?VCCU?SP?TEK?CR?LKFNLCV?U?VKS?VE"
+        },
+        {
+          "key_id": "Jul18",
+          "kind": "delete_fractionated",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 14,
+          "eligible": false,
+          "plaintext": "H?CVGCXFT?F?GSN?UTX?F?C??UTKF??CTV?XRW????EF?F?SO?TKC??OL?WC????L????K??K?STO???O??G?FCD?FWWGKKG?C????T?VCCU?SP?TEK?CR?LKFNLCV?U?VKS?V?"
+        },
+        {
+          "key_id": "Jul18",
+          "kind": "delete_fractionated",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 14,
+          "eligible": false,
+          "plaintext": "H?CVGCXFT?F?GSN?UTX?F?C??UTKF??CTV?XRW????EF?F?SO?TKC??OL?WC????L????K??K?STO???O??G?FCD?FWWGKKG?C????T?VCCU?SP?TEK?CR?LKFNLCV?U?VKS?VZ"
+        },
+        {
+          "key_id": "Jul18",
+          "kind": "delete_fractionated",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 14,
+          "eligible": false,
+          "plaintext": "H?CVGCXFT?F?GSN?UTX?F?C??UTKF??CTV?XRW????EF?F?SO?TKC??OL?WC????L????K??K?STO???O??G?FCD?FWWGKKG?C????T?VCCU?SP?TEK?CR?LKFNLCV?U?VKS?VZ"
+        },
+        {
+          "key_id": "Jul18",
+          "kind": "delete_fractionated",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 14,
+          "eligible": false,
+          "plaintext": "H?CVGCXFT?F?GSN?UTX?F?C??UTKF??CTV?XRW????EF?F?SO?TKC??OL?WC????L????K??K?STO???O??G?FCD?FWWGKKG?C????T?VCCU?SP?TEK?CR?LKFNLCV?U?VKS??Z"
+        }
+      ]
+    },
+    {
+      "key_id": "Jul18",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Jul18",
+          "kind": "delete_transmitted",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 23,
+          "eligible": false,
+          "plaintext": "H?C?D?SFTDF?GSH?U?X?FSF??NCOFRVCT??XKWI???WFV??SO?TK?FMOLDECS???L??F?OO?K??MOS??O?FP??GD???S?KCG?CMWFF??VC????T?TSK?VKLLKNFLCV?U?C?IGVN"
+        },
+        {
+          "key_id": "Jul18",
+          "kind": "delete_transmitted",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "H?C?D?SFTDF?GSH?U?X?FSF??NCOFRVCT??XKWI???WFV??SO?TK?FMOLDECS???L??F?OO?K??MOS??O?FP??GD???S?KCG?CMWFF??VC????T?TSK?VKLLKNFLCV?U?CKIGVN"
+        },
+        {
+          "key_id": "Jul18",
+          "kind": "delete_transmitted",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "H?C?D?SFTDF?GSH?U?X?FSF??NCOFRVCT??XKWI???WFV??SO?TK?FMOLDECS???L??F?OO?K??MOS??O?FP??GD???S?KCG?CMWFF??VC????T?TSK?VKLLKNNLCV?U?CKIGVN"
+        },
+        {
+          "key_id": "Jul18",
+          "kind": "delete_transmitted",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "H?C?D?SFTDF?GSH?U?X?FSF??NCOFRVCT??XKWI???WFV??SO?TK?FMOLDECS???L??F?OO?K??MOS??O?FP??GD???S?KCG?CMWFF??VC????T?TSK?VKLLKNNLCV?U?CKIGVN"
+        },
+        {
+          "key_id": "Jul18",
+          "kind": "delete_transmitted",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 25,
+          "eligible": false,
+          "plaintext": "H?C?D?SFTDF?GSH?U?X?FSF??NCOFRVCT??XKWI???WFV??SO?TK?FMOLDECS???L??F?OO?K??MOS??O?FP??GD???S?KCG?CMWFF??VCC???T?TSK?VKLLKNNLCV?U?CKIGVN"
+        }
+      ]
+    },
+    {
+      "key_id": "Jul22",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Jul22",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "X",
+          "score": -100.0,
+          "known_quad_windows": 49,
+          "eligible": false,
+          "plaintext": "E??WTWMNZ?RZW?1OB?OBO?WZUOBWNOUUBSI??JX1?OOOZT???WXBB??UA?VNFORBCB?FZ1?U?HNW?ET?HLBHIF1TH?L???SSO?VXDAJM1ZZBUE?IAUEDWFNMWOF?BZFFWWM?R?BV"
+        },
+        {
+          "key_id": "Jul22",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "V",
+          "score": -100.0,
+          "known_quad_windows": 49,
+          "eligible": false,
+          "plaintext": "E??WTWMNZ?RZW?1OB?OBO?WZUOBWNOUUBSI??JX1?OOOZT???WXBB??UA?VNFORBCB?FZ1?U?HNW?ET?HLBHIF1TH?L???SSO?VXDAJM1ZZBUE?IAUEDWFNMWOF?BZFFWWM?R?B?"
+        },
+        {
+          "key_id": "Jul22",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "G",
+          "score": -100.0,
+          "known_quad_windows": 49,
+          "eligible": false,
+          "plaintext": "E??WTWMNZ?RZW?1OB?OBO?WZUOBWNOUUBSI??JX1?OOOZT???WXBB??UA?VNFORBCB?FZ1?U?HNW?ET?HLBHIF1TH?L???SSO?VXDAJM1ZZBUE?IAUEDWFNMWOF?BZFFWWM?R?BT"
+        },
+        {
+          "key_id": "Jul22",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "F",
+          "score": -100.0,
+          "known_quad_windows": 49,
+          "eligible": false,
+          "plaintext": "E??WTWMNZ?RZW?1OB?OBO?WZUOBWNOUUBSI??JX1?OOOZT???WXBB??UA?VNFORBCB?FZ1?U?HNW?ET?HLBHIF1TH?L???SSO?VXDAJM1ZZBUE?IAUEDWFNMWOF?BZFFWWM?R?BJ"
+        },
+        {
+          "key_id": "Jul22",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "D",
+          "score": -100.0,
+          "known_quad_windows": 49,
+          "eligible": false,
+          "plaintext": "E??WTWMNZ?RZW?1OB?OBO?WZUOBWNOUUBSI??JX1?OOOZT???WXBB??UA?VNFORBCB?FZ1?U?HNW?ET?HLBHIF1TH?L???SSO?VXDAJM1ZZBUE?IAUEDWFNMWOF?BZFFWWM?R?B?"
+        }
+      ]
+    },
+    {
+      "key_id": "Jul22",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Jul22",
+          "kind": "delete_fractionated",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 49,
+          "eligible": false,
+          "plaintext": "E??WTWMNZ?RZW?1OB?OBO?WZUOBWNOUUBSI??JX1?OOOZT???WXBB??UA?VNFORBCB?FZ1?U?HNW?ET?HLBHIF1TH?L???SSO?VXDAJM1ZZBUE?IAUEDWFNMWOF?BZFFWWM?R?B"
+        },
+        {
+          "key_id": "Jul22",
+          "kind": "delete_fractionated",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 49,
+          "eligible": false,
+          "plaintext": "E??WTWMNZ?RZW?1OB?OBO?WZUOBWNOUUBSI??JX1?OOOZT???WXBB??UA?VNFORBCB?FZ1?U?HNW?ET?HLBHIF1TH?L???SSO?VXDAJM1ZZBUE?IAUEDWFNMWOF?BZFFWWM?R??"
+        },
+        {
+          "key_id": "Jul22",
+          "kind": "delete_fractionated",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 49,
+          "eligible": false,
+          "plaintext": "E??WTWMNZ?RZW?1OB?OBO?WZUOBWNOUUBSI??JX1?OOOZT???WXBB??UA?VNFORBCB?FZ1?U?HNW?ET?HLBHIF1TH?L???SSO?VXDAJM1ZZBUE?IAUEDWFNMWOF?BZFFWWM?R?Z"
+        },
+        {
+          "key_id": "Jul22",
+          "kind": "delete_fractionated",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 49,
+          "eligible": false,
+          "plaintext": "E??WTWMNZ?RZW?1OB?OBO?WZUOBWNOUUBSI??JX1?OOOZT???WXBB??UA?VNFORBCB?FZ1?U?HNW?ET?HLBHIF1TH?L???SSO?VXDAJM1ZZBUE?IAUEDWFNMWOF?BZFFWWM?R?Z"
+        },
+        {
+          "key_id": "Jul22",
+          "kind": "delete_fractionated",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 49,
+          "eligible": false,
+          "plaintext": "E??WTWMNZ?RZW?1OB?OBO?WZUOBWNOUUBSI??JX1?OOOZT???WXBB??UA?VNFORBCB?FZ1?U?HNW?ET?HLBHIF1TH?L???SSO?VXDAJM1ZZBUE?IAUEDWFNMWOF?BZFFWWM?ROZ"
+        }
+      ]
+    },
+    {
+      "key_id": "Jul22",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Jul22",
+          "kind": "delete_transmitted",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 57,
+          "eligible": false,
+          "plaintext": "LFFSVBB?FEKTZ?1?W?O?OL?ZMOOANOFA?SI?OA?11??FZZZ?KFSOOOBZANVOFNA?C??FT1?FJNZFCEBJHWSMXO?Z??PJN?XWOTV?RAAHVUZBMG?IZF?I?FIMV?FPSTLFBBBFLSO"
+        },
+        {
+          "key_id": "Jul22",
+          "kind": "delete_transmitted",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 57,
+          "eligible": false,
+          "plaintext": "LFFSVBB?FEKTZ?1?W?O?OL?ZMOOANOFA?SI?OA?11??FZZZ?KFSOOOBZANVOFNA?C??FT1?FJNZFCEBJHWSMXO?Z??PJN?XWOTV?RAAHVUZBMG?IZF?I?FIMV?FPSTWFBBBFLSO"
+        },
+        {
+          "key_id": "Jul22",
+          "kind": "delete_transmitted",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 57,
+          "eligible": false,
+          "plaintext": "LFFSVBB?FEKTZ?1?W?O?OL?ZMOOANOFA?SI?OA?11??FZZZ?KFSOOOBZANVOFNA?C??FT1?FJNZFCEBJHWSMXO?Z??PJN?XWOTV?RAAHVUZBMG?IZF?D?FIMV?FPSTWFBBBFLSO"
+        },
+        {
+          "key_id": "Jul22",
+          "kind": "delete_transmitted",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 57,
+          "eligible": false,
+          "plaintext": "LFFSVBB?FEKTZ?1?W?O?OL?ZMOOANOFA?SI?OA?11??FZZZ?KFSOOOBZANVOFNA?C??FT1?FJNZFCEBJHWSMXO?Z??PJN?XWOTV?RAAHVUZBMG?IZF?D?FIMV?FPSTWFBBBFLSO"
+        },
+        {
+          "key_id": "Jul22",
+          "kind": "delete_transmitted",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 57,
+          "eligible": false,
+          "plaintext": "LFFSVBB?FEKTZ?1?W?O?OL?ZMOOANOFA?SI?OA?11??FZZZ?KFSOOOBZANVOFNA?C??FT1?FJNZFCEBJHWSMXO?Z??PJN?SWOTV?RAAHVUZBMG?IZF?D?FIMV?FPSTWFBBBFLSO"
+        }
+      ]
+    },
+    {
+      "key_id": "Aug3",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Aug3",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "X",
+          "score": -100.0,
+          "known_quad_windows": 21,
+          "eligible": false,
+          "plaintext": "W?IT??N?O????PL????B?RKW???PPVAC??ZEG?RH?S?FH?CC?IHUWAP?KS?I?PCFTCS?D???WH?W???PL?VXW??W?SMTWAFL??LL?M?ILLKRIW?H???AWWKH?WKZUPF?ZR?T?WF?"
+        },
+        {
+          "key_id": "Aug3",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "V",
+          "score": -100.0,
+          "known_quad_windows": 21,
+          "eligible": false,
+          "plaintext": "W?IT??N?O????PL????B?RKW???PPVAC??ZEG?RH?S?FH?CC?IHUWAP?KS?I?PCFTCS?D???WH?W???PL?VXW??W?SMTWAFL??LL?M?ILLKRIW?H???AWWKH?WKZUPF?ZR?T?WFH"
+        },
+        {
+          "key_id": "Aug3",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "G",
+          "score": -100.0,
+          "known_quad_windows": 21,
+          "eligible": false,
+          "plaintext": "W?IT??N?O????PL????B?RKW???PPVAC??ZEG?RH?S?FH?CC?IHUWAP?KS?I?PCFTCS?D???WH?W???PL?VXW??W?SMTWAFL??LL?M?ILLKRIW?H???AWWKH?WKZUPF?ZR?T?WF?"
+        },
+        {
+          "key_id": "Aug3",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "F",
+          "score": -100.0,
+          "known_quad_windows": 21,
+          "eligible": false,
+          "plaintext": "W?IT??N?O????PL????B?RKW???PPVAC??ZEG?RH?S?FH?CC?IHUWAP?KS?I?PCFTCS?D???WH?W???PL?VXW??W?SMTWAFL??LL?M?ILLKRIW?H???AWWKH?WKZUPF?ZR?T?WF?"
+        },
+        {
+          "key_id": "Aug3",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "D",
+          "score": -100.0,
+          "known_quad_windows": 21,
+          "eligible": false,
+          "plaintext": "W?IT??N?O????PL????B?RKW???PPVAC??ZEG?RH?S?FH?CC?IHUWAP?KS?I?PCFTCS?D???WH?W???PL?VXW??W?SMTWAFL??LL?M?ILLKRIW?H???AWWKH?WKZUPF?ZR?T?WF?"
+        }
+      ]
+    },
+    {
+      "key_id": "Aug3",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Aug3",
+          "kind": "delete_fractionated",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 21,
+          "eligible": false,
+          "plaintext": "W?IT??N?O????PL????B?RKW???PPVAC??ZEG?RH?S?FH?CC?IHUWAP?KS?I?PCFTCS?D???WH?W???PL?VXW??W?SMTWAFL??LL?M?ILLKRIW?H???AWWKH?WKZUPF?ZR?T?WF"
+        },
+        {
+          "key_id": "Aug3",
+          "kind": "delete_fractionated",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 21,
+          "eligible": false,
+          "plaintext": "W?IT??N?O????PL????B?RKW???PPVAC??ZEG?RH?S?FH?CC?IHUWAP?KS?I?PCFTCS?D???WH?W???PL?VXW??W?SMTWAFL??LL?M?ILLKRIW?H???AWWKH?WKZUPF?ZR?T?W?"
+        },
+        {
+          "key_id": "Aug3",
+          "kind": "delete_fractionated",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 21,
+          "eligible": false,
+          "plaintext": "W?IT??N?O????PL????B?RKW???PPVAC??ZEG?RH?S?FH?CC?IHUWAP?KS?I?PCFTCS?D???WH?W???PL?VXW??W?SMTWAFL??LL?M?ILLKRIW?H???AWWKH?WKZUPF?ZR?T?WA"
+        },
+        {
+          "key_id": "Aug3",
+          "kind": "delete_fractionated",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 21,
+          "eligible": false,
+          "plaintext": "W?IT??N?O????PL????B?RKW???PPVAC??ZEG?RH?S?FH?CC?IHUWAP?KS?I?PCFTCS?D???WH?W???PL?VXW??W?SMTWAFL??LL?M?ILLKRIW?H???AWWKH?WKZUPF?ZR?T?WA"
+        },
+        {
+          "key_id": "Aug3",
+          "kind": "delete_fractionated",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 21,
+          "eligible": false,
+          "plaintext": "W?IT??N?O????PL????B?RKW???PPVAC??ZEG?RH?S?FH?CC?IHUWAP?KS?I?PCFTCS?D???WH?W???PL?VXW??W?SMTWAFL??LL?M?ILLKRIW?H???AWWKH?WKZUPF?ZR?T?WA"
+        }
+      ]
+    },
+    {
+      "key_id": "Aug3",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Aug3",
+          "kind": "delete_transmitted",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 13,
+          "eligible": false,
+          "plaintext": "U?IRK?KKVK??IPL?OTC???C??C?S???EH?PA??G?X??WG?VHVF?VUAZ?LZIALW????LHPI?GWIOLH??D?W??C??C?CM?PCZ?K????UFHK?CHKC?S?KC?WUK??F?PFPW?ZR?FWG?"
+        },
+        {
+          "key_id": "Aug3",
+          "kind": "delete_transmitted",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 13,
+          "eligible": false,
+          "plaintext": "U?IRK?KKVK??IPL?OTC???C??C?S???EH?PA??G?X??WG?VHVF?VUAZ?LZIALW????LHPI?GWIOLH??D?W??C??C?CM?PCZ?K????UFHK?CHKC?S?KC?WUK??F?PFPW?ZR?FW??"
+        },
+        {
+          "key_id": "Aug3",
+          "kind": "delete_transmitted",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 13,
+          "eligible": false,
+          "plaintext": "U?IRK?KKVK??IPL?OTC???C??C?S???EH?PA??G?X??WG?VHVF?VUAZ?LZIALW????LHPI?GWIOLH??D?W??C??C?CM?PCZ?K????UFHK?CHKC?S?KC?WUK??F?PEPW?ZR?FW??"
+        },
+        {
+          "key_id": "Aug3",
+          "kind": "delete_transmitted",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 13,
+          "eligible": false,
+          "plaintext": "U?IRK?KKVK??IPL?OTC???C??C?S???EH?PA??G?X??WG?VHVF?VUAZ?LZIALW????LHPI?GWIOLH??D?W??C??C?CM?PCZ?K????UFHK?CHKC?S?KC?WUK??F?PEPW?ZR?FW??"
+        },
+        {
+          "key_id": "Aug3",
+          "kind": "delete_transmitted",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 17,
+          "eligible": false,
+          "plaintext": "U?IRK?KKVK??IPL?OTC???C??C?S???EH?PA??G?X??WG?VHVF?VUAZ?LZIALW????LHPI?GWIOLH??D?W??C??C?CM?PCZ?K????UFHKFCHKC?S?KC?WUK??F?PEPW?ZR?FW??"
+        }
+      ]
+    },
+    {
+      "key_id": "Aug8-9",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Aug8-9",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "X",
+          "score": -100.0,
+          "known_quad_windows": 75,
+          "eligible": false,
+          "plaintext": "?TPXMEWBWZCPH13TC?2VJ3KU5Z?LVHALOXNTAA?8Z?TB3P?P05S3MR?U??3I?ZMMHCH?PHSHFPC?HJOT3S0BCOS?OLDSZQC?CWAZZTCZZ?HZIWLAHMA?P8FPQZ3E33LZH?HGR3AD"
+        },
+        {
+          "key_id": "Aug8-9",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "V",
+          "score": -100.0,
+          "known_quad_windows": 75,
+          "eligible": false,
+          "plaintext": "?TPXMEWBWZCPH13TC?2VJ3KU5Z?LVHALOXNTAA?8Z?TB3P?P05S3MR?U??3I?ZMMHCH?PHSHFPC?HJOT3S0BCOS?OLDSZQC?CWAZZTCZZ?HZIWLAHMA?P8FPQZ3E33LZH?HGR3AA"
+        },
+        {
+          "key_id": "Aug8-9",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "G",
+          "score": -100.0,
+          "known_quad_windows": 75,
+          "eligible": false,
+          "plaintext": "?TPXMEWBWZCPH13TC?2VJ3KU5Z?LVHALOXNTAA?8Z?TB3P?P05S3MR?U??3I?ZMMHCH?PHSHFPC?HJOT3S0BCOS?OLDSZQC?CWAZZTCZZ?HZIWLAHMA?P8FPQZ3E33LZH?HGR3AS"
+        },
+        {
+          "key_id": "Aug8-9",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "F",
+          "score": -100.0,
+          "known_quad_windows": 75,
+          "eligible": false,
+          "plaintext": "?TPXMEWBWZCPH13TC?2VJ3KU5Z?LVHALOXNTAA?8Z?TB3P?P05S3MR?U??3I?ZMMHCH?PHSHFPC?HJOT3S0BCOS?OLDSZQC?CWAZZTCZZ?HZIWLAHMA?P8FPQZ3E33LZH?HGR3AN"
+        },
+        {
+          "key_id": "Aug8-9",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "D",
+          "score": -100.0,
+          "known_quad_windows": 75,
+          "eligible": false,
+          "plaintext": "?TPXMEWBWZCPH13TC?2VJ3KU5Z?LVHALOXNTAA?8Z?TB3P?P05S3MR?U??3I?ZMMHCH?PHSHFPC?HJOT3S0BCOS?OLDSZQC?CWAZZTCZZ?HZIWLAHMA?P8FPQZ3E33LZH?HGR3AT"
+        }
+      ]
+    },
+    {
+      "key_id": "Aug8-9",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Aug8-9",
+          "kind": "delete_fractionated",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 74,
+          "eligible": false,
+          "plaintext": "?TPXMEWBWZCPH13TC?2VJ3KU5Z?LVHALOXNTAA?8Z?TB3P?P05S3MR?U??3I?ZMMHCH?PHSHFPC?HJOT3S0BCOS?OLDSZQC?CWAZZTCZZ?HZIWLAHMA?P8FPQZ3E33LZH?HGR3A"
+        },
+        {
+          "key_id": "Aug8-9",
+          "kind": "delete_fractionated",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 74,
+          "eligible": false,
+          "plaintext": "?TPXMEWBWZCPH13TC?2VJ3KU5Z?LVHALOXNTAA?8Z?TB3P?P05S3MR?U??3I?ZMMHCH?PHSHFPC?HJOT3S0BCOS?OLDSZQC?CWAZZTCZZ?HZIWLAHMA?P8FPQZ3E33LZH?HGR3S"
+        },
+        {
+          "key_id": "Aug8-9",
+          "kind": "delete_fractionated",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 73,
+          "eligible": false,
+          "plaintext": "?TPXMEWBWZCPH13TC?2VJ3KU5Z?LVHALOXNTAA?8Z?TB3P?P05S3MR?U??3I?ZMMHCH?PHSHFPC?HJOT3S0BCOS?OLDSZQC?CWAZZTCZZ?HZIWLAHMA?P8FPQZ3E33LZH?HGR3?"
+        },
+        {
+          "key_id": "Aug8-9",
+          "kind": "delete_fractionated",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 72,
+          "eligible": false,
+          "plaintext": "?TPXMEWBWZCPH13TC?2VJ3KU5Z?LVHALOXNTAA?8Z?TB3P?P05S3MR?U??3I?ZMMHCH?PHSHFPC?HJOT3S0BCOS?OLDSZQC?CWAZZTCZZ?HZIWLAHMA?P8FPQZ3E33LZH?HGR??"
+        },
+        {
+          "key_id": "Aug8-9",
+          "kind": "delete_fractionated",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 72,
+          "eligible": false,
+          "plaintext": "?TPXMEWBWZCPH13TC?2VJ3KU5Z?LVHALOXNTAA?8Z?TB3P?P05S3MR?U??3I?ZMMHCH?PHSHFPC?HJOT3S0BCOS?OLDSZQC?CWAZZTCZZ?HZIWLAHMA?P8FPQZ3E33LZH?HGR??"
+        }
+      ]
+    },
+    {
+      "key_id": "Aug8-9",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Aug8-9",
+          "kind": "delete_transmitted",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 69,
+          "eligible": false,
+          "plaintext": "?TPGMEPVWZCPHE3TF?2VJHK?IZC?VHAZOXVT3Z?8Z?TX?PDT05S?MBZU??3I?ZM8OCHLPHS3FZP?H?OT3T0RCO?1OLDSZ1C?DPAZZSCCC?PIIWLTHMA?HPFPQZ3M33LMH?HGR?A"
+        },
+        {
+          "key_id": "Aug8-9",
+          "kind": "delete_transmitted",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 71,
+          "eligible": false,
+          "plaintext": "?TPGMEPVWZCPHE3TF?2VJHK?IZC?VHAZOXVT3Z?8Z?TX?PDT05S?MBZU??3I?ZM8OCHLPHS3FZP?H?OT3T0RCO?1OLDSZ1C?DPAZZSCCC?PIIWLTHMA?HPFPQZ3M33LMH?HGR3A"
+        },
+        {
+          "key_id": "Aug8-9",
+          "kind": "delete_transmitted",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 71,
+          "eligible": false,
+          "plaintext": "?TPGMEPVWZCPHE3TF?2VJHK?IZC?VHAZOXVT3Z?8Z?TX?PDT05S?MBZU??3I?ZM8OCHLPHS3FZP?H?OT3T0RCO?1OLDSZ1C?DPAZZSCCC?PIIWLTHMA?HPFPQZ3E33LMH?HGR3A"
+        },
+        {
+          "key_id": "Aug8-9",
+          "kind": "delete_transmitted",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 71,
+          "eligible": false,
+          "plaintext": "?TPGMEPVWZCPHE3TF?2VJHK?IZC?VHAZOXVT3Z?8Z?TX?PDT05S?MBZU??3I?ZM8OCHLPHS3FZP?H?OT3T0RCO?1OLDSZ1C?DPAZZSCCC?PIIWLTHMA?HPFPQZ3E33LMH?HGR3A"
+        },
+        {
+          "key_id": "Aug8-9",
+          "kind": "delete_transmitted",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 71,
+          "eligible": false,
+          "plaintext": "?TPGMEPVWZCPHE3TF?2VJHK?IZC?VHAZOXVT3Z?8Z?TX?PDT05S?MBZU??3I?ZM8OCHLPHS3FZP?H?OT3T0RCO?1OLDSZ1C?DPAZZSCZC?PIIWLTHMA?HPFPQZ3E33LMH?HGR3A"
+        }
+      ]
+    },
+    {
+      "key_id": "Aug20",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Aug20",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "X",
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "PMDLHDJFMDMMDVMUTDMRMEKCM?RDAGRSF??H1FD?0P?FKMML0VF?OFFHHBMR?DWKC1V?CRNFU?A?OO0?DJ?R??J?J0B?M1E1I?1E1L1?JRJDDFF?E0J1?TK0UL?R??0?NTDMD?CL"
+        },
+        {
+          "key_id": "Aug20",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "V",
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "PMDLHDJFMDMMDVMUTDMRMEKCM?RDAGRSF??H1FD?0P?FKMML0VF?OFFHHBMR?DWKC1V?CRNFU?A?OO0?DJ?R??J?J0B?M1E1I?1E1L1?JRJDDFF?E0J1?TK0UL?R??0?NTDMD?CD"
+        },
+        {
+          "key_id": "Aug20",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "G",
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "PMDLHDJFMDMMDVMUTDMRMEKCM?RDAGRSF??H1FD?0P?FKMML0VF?OFFHHBMR?DWKC1V?CRNFU?A?OO0?DJ?R??J?J0B?M1E1I?1E1L1?JRJDDFF?E0J1?TK0UL?R??0?NTDMD?C0"
+        },
+        {
+          "key_id": "Aug20",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "F",
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "PMDLHDJFMDMMDVMUTDMRMEKCM?RDAGRSF??H1FD?0P?FKMML0VF?OFFHHBMR?DWKC1V?CRNFU?A?OO0?DJ?R??J?J0B?M1E1I?1E1L1?JRJDDFF?E0J1?TK0UL?R??0?NTDMD?C?"
+        },
+        {
+          "key_id": "Aug20",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "D",
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "PMDLHDJFMDMMDVMUTDMRMEKCM?RDAGRSF??H1FD?0P?FKMML0VF?OFFHHBMR?DWKC1V?CRNFU?A?OO0?DJ?R??J?J0B?M1E1I?1E1L1?JRJDDFF?E0J1?TK0UL?R??0?NTDMD?C1"
+        }
+      ]
+    },
+    {
+      "key_id": "Aug20",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Aug20",
+          "kind": "delete_fractionated",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "PMDLHDJFMDMMDVMUTDMRMEKCM?RDAGRSF??H1FD?0P?FKMML0VF?OFFHHBMR?DWKC1V?CRNFU?A?OO0?DJ?R??J?J0B?M1E1I?1E1L1?JRJDDFF?E0J1?TK0UL?R??0?NTDMD?C"
+        },
+        {
+          "key_id": "Aug20",
+          "kind": "delete_fractionated",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "PMDLHDJFMDMMDVMUTDMRMEKCM?RDAGRSF??H1FD?0P?FKMML0VF?OFFHHBMR?DWKC1V?CRNFU?A?OO0?DJ?R??J?J0B?M1E1I?1E1L1?JRJDDFF?E0J1?TK0UL?R??0?NTDMD?S"
+        },
+        {
+          "key_id": "Aug20",
+          "kind": "delete_fractionated",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "PMDLHDJFMDMMDVMUTDMRMEKCM?RDAGRSF??H1FD?0P?FKMML0VF?OFFHHBMR?DWKC1V?CRNFU?A?OO0?DJ?R??J?J0B?M1E1I?1E1L1?JRJDDFF?E0J1?TK0UL?R??0?NTDMD?S"
+        },
+        {
+          "key_id": "Aug20",
+          "kind": "delete_fractionated",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 57,
+          "eligible": false,
+          "plaintext": "PMDLHDJFMDMMDVMUTDMRMEKCM?RDAGRSF??H1FD?0P?FKMML0VF?OFFHHBMR?DWKC1V?CRNFU?A?OO0?DJ?R??J?J0B?M1E1I?1E1L1?JRJDDFF?E0J1?TK0UL?R??0?NTDMDCS"
+        },
+        {
+          "key_id": "Aug20",
+          "kind": "delete_fractionated",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 55,
+          "eligible": false,
+          "plaintext": "PMDLHDJFMDMMDVMUTDMRMEKCM?RDAGRSF??H1FD?0P?FKMML0VF?OFFHHBMR?DWKC1V?CRNFU?A?OO0?DJ?R??J?J0B?M1E1I?1E1L1?JRJDDFF?E0J1?TK0UL?R??0?NTDMD?S"
+        }
+      ]
+    },
+    {
+      "key_id": "Aug20",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Aug20",
+          "kind": "delete_transmitted",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 35,
+          "eligible": false,
+          "plaintext": "PD0?XEJFBRFM1?DTF0RRHBK?MNR0?H?BN?FN0F?O0X??L?R1?WR?ONFJHEDUMDEV?????RK?J?P?ED?LFT?SSSU?F0EH??DL??GRFO1??FO1DJOVE?1F?UL0J??D??1?FTDG0?A"
+        },
+        {
+          "key_id": "Aug20",
+          "kind": "delete_transmitted",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 35,
+          "eligible": false,
+          "plaintext": "PD0?XEJFBRFM1?DTF0RRHBK?MNR0?H?BN?FN0F?O0X??L?R1?WR?ONFJHEDUMDEV?????RK?J?P?ED?LFT?SSSU?F0EH??DL??GRFO1??FO1DJOVE?1F?UL0J??D??1?FTDM0?A"
+        },
+        {
+          "key_id": "Aug20",
+          "kind": "delete_transmitted",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 35,
+          "eligible": false,
+          "plaintext": "PD0?XEJFBRFM1?DTF0RRHBK?MNR0?H?BN?FN0F?O0X??L?R1?WR?ONFJHEDUMDEV?????RK?J?P?ED?LFT?SSSU?F0EH??DL??GRFO1??FO1DJOVE?1F?UL0J??D??1?FTDM0?A"
+        },
+        {
+          "key_id": "Aug20",
+          "kind": "delete_transmitted",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 35,
+          "eligible": false,
+          "plaintext": "PD0?XEJFBRFM1?DTF0RRHBK?MNR0?H?BN?FN0F?O0X??L?R1?WR?ONFJHEDUMDEV?????RK?J?P?ED?LFT?SSSU?F0EH??DL??GRFO1??FO1DJOVE?1F?UL0J??D??1?FTDM0?A"
+        },
+        {
+          "key_id": "Aug20",
+          "kind": "delete_transmitted",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 35,
+          "eligible": false,
+          "plaintext": "PD0?XEJFBRFM1?DTF0RRHBK?MNR0?H?BN?FN0F?O0X??L?R1?WR?ONFJHEDUMDEV?????RK?J?P?ED?LFT?SSSU?F0EH??DL??GRFO1??FO1DFOVE?1F?UL0J??D??1?FTDM0?A"
+        }
+      ]
+    },
+    {
+      "key_id": "NSA-undated-CHI-example-18",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "insert_fractionated",
+          "index": 154,
+          "fill": "G",
+          "score": -9.361880933431754,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "BCQLM4PYOQMHHGLAL41HDO1LL4227EB2LQL2U3ULOFWL9G6WHSQV79X5OOWS3NG8WLES9WJMLLOSKELCYIXW8QUPXIEUCSLX8LIX5AQAOB4BBJLEAGE5L8UFXEQ4EMHQA141QE8H"
+        },
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "insert_fractionated",
+          "index": 195,
+          "fill": "A",
+          "score": -9.362099185025782,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "BCQLM4PYOQMHHGLAL41HDO1LL4227EB2LQL2U3ULOFWL9G6WHSQV79X5OOWS3NG8WLES9WJMLLOSKQ8AVF0LC24GB9282EOUCHIX5AQAOB4BBJLEAGE5L8UFXEQ4EMHQA141QE8H"
+        },
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "insert_fractionated",
+          "index": 176,
+          "fill": "A",
+          "score": -9.3650497296699,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "BCQLM4PYOQMHHGLAL41HDO1LL4227EB2LQL2U3ULOFWL9G6WHSQV79X5OOWS3NG8WLES9WJMLLOSKQ8AVF0LC24GDIEUCSLX8LIX5AQAOB4BBJLEAGE5L8UFXEQ4EMHQA141QE8H"
+        },
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "insert_fractionated",
+          "index": 177,
+          "fill": "V",
+          "score": -9.375710326029843,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "BCQLM4PYOQMHHGLAL41HDO1LL4227EB2LQL2U3ULOFWL9G6WHSQV79X5OOWS3NG8WLES9WJMLLOSKQ8AVF0LC24GEIEUCSLX8LIX5AQAOB4BBJLEAGE5L8UFXEQ4EMHQA141QE8H"
+        },
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "insert_fractionated",
+          "index": 176,
+          "fill": "G",
+          "score": -9.376825364908777,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "BCQLM4PYOQMHHGLAL41HDO1LL4227EB2LQL2U3ULOFWL9G6WHSQV79X5OOWS3NG8WLES9WJMLLOSKQ8AVF0LC24GSIEUCSLX8LIX5AQAOB4BBJLEAGE5L8UFXEQ4EMHQA141QE8H"
+        }
+      ]
+    },
+    {
+      "key_id": "NSA-undated-CHI-example-18",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "delete_fractionated",
+          "index": 191,
+          "fill": null,
+          "score": -9.397288033456514,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "BCQLM4PYOQMHHGLAL41HDO1LL4227EB2LQL2U3ULOFWL9G6WHSQV79X5OOWS3NG8WLES9WJMLLOSKQ8AVF0LC24GB9282EOBLIX5AQAOB4BBJLEAGE5L8UFXEQ4EMHQA141QE8H"
+        },
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "delete_fractionated",
+          "index": 194,
+          "fill": null,
+          "score": -9.405618367773114,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "BCQLM4PYOQMHHGLAL41HDO1LL4227EB2LQL2U3ULOFWL9G6WHSQV79X5OOWS3NG8WLES9WJMLLOSKQ8AVF0LC24GB9282EOUCIX5AQAOB4BBJLEAGE5L8UFXEQ4EMHQA141QE8H"
+        },
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "delete_fractionated",
+          "index": 117,
+          "fill": null,
+          "score": -9.412427573493034,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "BCQLM4PYOQMHHGLAL41HDO1LL4227EB2LQL2U3ULOFWL9G6WHSQV79X5OODER1O6QX270A5K4OX7QLCYIXW8QUPXIEUCSLX8LIX5AQAOB4BBJLEAGE5L8UFXEQ4EMHQA141QE8H"
+        },
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "delete_fractionated",
+          "index": 192,
+          "fill": null,
+          "score": -9.418721242384477,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "BCQLM4PYOQMHHGLAL41HDO1LL4227EB2LQL2U3ULOFWL9G6WHSQV79X5OOWS3NG8WLES9WJMLLOSKQ8AVF0LC24GB9282EOULIX5AQAOB4BBJLEAGE5L8UFXEQ4EMHQA141QE8H"
+        },
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "delete_fractionated",
+          "index": 175,
+          "fill": null,
+          "score": -9.420758474956859,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "BCQLM4PYOQMHHGLAL41HDO1LL4227EB2LQL2U3ULOFWL9G6WHSQV79X5OOWS3NG8WLES9WJMLLOSKQ8AVF0LC24TIEUCSLX8LIX5AQAOB4BBJLEAGE5L8UFXEQ4EMHQA141QE8H"
+        }
+      ]
+    },
+    {
+      "key_id": "NSA-undated-CHI-example-18",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "delete_transmitted",
+          "index": 112,
+          "fill": null,
+          "score": -9.407292680306869,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "BQQLI4PY5QIHHOLAL41HDO1LL4X2MEBTLQL2U7ULLFWL2GAWHXQV79XGOOES3NF8WLED9WJILLOSEQ8A8F0LC94GB9282ELUC8F04WQOXG296WXQNXA4GTMOSWL2LOWQNGPC2LF"
+        },
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "delete_transmitted",
+          "index": 113,
+          "fill": null,
+          "score": -9.407292680306869,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "BQQLI4PY5QIHHOLAL41HDO1LL4X2MEBTLQL2U7ULLFWL2GAWHXQV79XGOOES3NF8WLED9WJILLOSEQ8A8F0LC94GB9282ELUC8F04WQOXG296WXQNXA4GTMOSWL2LOWQNGPC2LF"
+        },
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "delete_transmitted",
+          "index": 250,
+          "fill": null,
+          "score": -9.410522229743727,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "BQPPCOP3WPI4OM4A5OCHJHGLLQ4PMSU1LQO2S7EP2LQL2GA5OOFN39OG4HSQZB9XWLUWSQJGP5OES9NJMFALTKQOPVLBLE24CB9S4DQOUGXF644Q5XAQT6YXENX2OOD45TQL2LF"
+        },
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "delete_transmitted",
+          "index": 251,
+          "fill": null,
+          "score": -9.410522229743727,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "BQPPCOP3WPI4OM4A5OCHJHGLLQ4PMSU1LQO2S7EP2LQL2GA5OOFN39OG4HSQZB9XWLUWSQJGP5OES9NJMFALTKQOPVLBLE24CB9S4DQOUGXF644Q5XAQT6YXENX2OOD45TQL2LF"
+        },
+        {
+          "key_id": "NSA-undated-CHI-example-18",
+          "kind": "delete_transmitted",
+          "index": 255,
+          "fill": null,
+          "score": -9.410522229743727,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "BQPPCOP3WPI4OM4A5OCHJHGLLQ4PMSU1LQO2S7EP2LQL2GA5OOFN39OG4HSQZB9XWLUWSQJGP5OES9NJMFALTKQOPVLBLE24CB9S4DQOUGXF644Q5X6QT6YXENX2OOD45TQL2LF"
+        }
+      ]
+    },
+    {
+      "key_id": "NSA-June1-CHI-21",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "X",
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        },
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "V",
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        },
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "G",
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        },
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "F",
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        },
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "D",
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        }
+      ]
+    },
+    {
+      "key_id": "NSA-June1-CHI-21",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "delete_fractionated",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        },
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "delete_fractionated",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        },
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "delete_fractionated",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        },
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "delete_fractionated",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        },
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "delete_fractionated",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        }
+      ]
+    },
+    {
+      "key_id": "NSA-June1-CHI-21",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "delete_transmitted",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        },
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "delete_transmitted",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        },
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "delete_transmitted",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        },
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "delete_transmitted",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        },
+        {
+          "key_id": "NSA-June1-CHI-21",
+          "kind": "delete_transmitted",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 0,
+          "eligible": false,
+          "plaintext": "???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        }
+      ]
+    },
+    {
+      "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "insert_fractionated",
+          "index": 260,
+          "fill": "G",
+          "score": -9.492519740771531,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "314CSFB4NPTA3RR37FDJ03HRR0C3GSVARJ06SS7E2ORHH4H1BFHN9QO0IQR9LYMNIXFQMFY70MJF4YEVUS0B67ZIO0GBAOI3RBMD2GQO42TFAJD3Q0RNRHA00FF7TZ22MSAM2MJA"
+        },
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "insert_fractionated",
+          "index": 264,
+          "fill": "F",
+          "score": -9.516743143698326,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "314CSFB4NPTA3RR37FDJ03HRR0C3GSVARJ06SS7E2ORHH4H1BFHN9QO0IQR9LYMNIXFQMFY70MJF4YEVUS0B67ZIO0GBAOI3RBMD2GQO42TFAJD3Q0RNRHA00FF7TZ22MSRXEMJA"
+        },
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "insert_fractionated",
+          "index": 258,
+          "fill": "G",
+          "score": -9.525151005364899,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "314CSFB4NPTA3RR37FDJ03HRR0C3GSVARJ06SS7E2ORHH4H1BFHN9QO0IQR9LYMNIXFQMFY70MJF4YEVUS0B67ZIO0GBAOI3RBMD2GQO42TFAJD3Q0RNRHA00FF7TZ22MASM2MJA"
+        },
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "insert_fractionated",
+          "index": 258,
+          "fill": "A",
+          "score": -9.528867262646667,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "314CSFB4NPTA3RR37FDJ03HRR0C3GSVARJ06SS7E2ORHH4H1BFHN9QO0IQR9LYMNIXFQMFY70MJF4YEVUS0B67ZIO0GBAOI3RBMD2GQO42TFAJD3Q0RNRHA00FF7TZ22MISM2MJA"
+        },
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "insert_fractionated",
+          "index": 1,
+          "fill": "V",
+          "score": -9.532265781459952,
+          "known_quad_windows": 133,
+          "eligible": true,
+          "plaintext": "RBEIHR32VM9BSAFFAN3Y2F1SF0FHLQ7KS020HSS9JFQ6CR93T2C745SY4OS4TG0P4O2ORYOFN0Y2RG64GHRJ2HGPSY4XBSPSAJ2XX4ZSYK623RBQDRF4F63R00RS9DXJ0QSM2MJA"
+        }
+      ]
+    },
+    {
+      "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "delete_fractionated",
+          "index": 249,
+          "fill": null,
+          "score": -9.537102793202255,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "314CSFB4NPTA3RR37FDJ03HRR0C3GSVARJ06SS7E2ORHH4H1BFHN9QO0IQR9LYMNIXFQMFY70MJF4YEVUS0B67ZIO0GBAOI3RBMD2GQO42TFAJD3Q0RNRHA00FF75XJ0QSM2MJA"
+        },
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "delete_fractionated",
+          "index": 0,
+          "fill": null,
+          "score": -9.578334194241148,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "BEIHR32VM9BSAFFAN3Y2F1SF0FHLQ7KS020HSS9JFQ6CR93T2C745SY4OS4TG0P4O2ORYOFN0Y2RG64GHRJ2HGPSY4XBSPSAJ2XX4ZSYK623RBQDRF4F63R00RS9DXJ0QSM2MJA"
+        },
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "delete_fractionated",
+          "index": 254,
+          "fill": null,
+          "score": -9.580825650330747,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "314CSFB4NPTA3RR37FDJ03HRR0C3GSVARJ06SS7E2ORHH4H1BFHN9QO0IQR9LYMNIXFQMFY70MJF4YEVUS0B67ZIO0GBAOI3RBMD2GQO42TFAJD3Q0RNRHA00FF7TZ20QSM2MJA"
+        },
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "delete_fractionated",
+          "index": 270,
+          "fill": null,
+          "score": -9.582423022299102,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "314CSFB4NPTA3RR37FDJ03HRR0C3GSVARJ06SS7E2ORHH4H1BFHN9QO0IQR9LYMNIXFQMFY70MJF4YEVUS0B67ZIO0GBAOI3RBMD2GQO42TFAJD3Q0RNRHA00FF7TZ22MSRX0YB"
+        },
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "delete_fractionated",
+          "index": 269,
+          "fill": null,
+          "score": -9.582423022299102,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "314CSFB4NPTA3RR37FDJ03HRR0C3GSVARJ06SS7E2ORHH4H1BFHN9QO0IQR9LYMNIXFQMFY70MJF4YEVUS0B67ZIO0GBAOI3RBMD2GQO42TFAJD3Q0RNRHA00FF7TZ22MSRX0YA"
+        }
+      ]
+    },
+    {
+      "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "delete_transmitted",
+          "index": 203,
+          "fill": null,
+          "score": -9.440832495689392,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "RRACDFR4YBEISR3B7M9B0AHFRN3YDSLS00FHLS7TSO20H7H9JFH9CRO3K2RC45ONFOSPJG074M2F7YO4YFYB0O64OHNJA5GPR2MX2IPSA22JXJZSYNR23SBFDRF7H62R00RXNDX"
+        },
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "delete_transmitted",
+          "index": 202,
+          "fill": null,
+          "score": -9.462825598138751,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "RRACDFR4YBEISR3B7M9B0AHFRN3YDSLS00FHLS7TSO20H7H9JFH9CRO3K2RC45ONFOSPJG074M2F7YO4YFYB0O64OHNJA5GPR2MX2IPSA2EJXJZSYNR23SBFDRF7H62R00RXNDX"
+        },
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "delete_transmitted",
+          "index": 201,
+          "fill": null,
+          "score": -9.462825598138751,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "RRACDFR4YBEISR3B7M9B0AHFRN3YDSLS00FHLS7TSO20H7H9JFH9CRO3K2RC45ONFOSPJG074M2F7YO4YFYB0O64OHNJA5GPRBMX2IPSA2EJXJZSYNR23SBFDRF7H62R00RXNDX"
+        },
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "delete_transmitted",
+          "index": 206,
+          "fill": null,
+          "score": -9.465106129646301,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "RRACDFR4YBEISR3B7M9B0AHFRN3YDSLS00FHLS7TSO20H7H9JFH9CRO3K2RC45ONFOSPJG074M2F7YO4YFYB0O64OHNJA5GPR2MX2IPSA22JXJZSYNC23SBFDRF4H62R00RQNDX"
+        },
+        {
+          "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+          "kind": "delete_transmitted",
+          "index": 205,
+          "fill": null,
+          "score": -9.465106129646301,
+          "known_quad_windows": 132,
+          "eligible": true,
+          "plaintext": "RRACDFR4YBEISR3B7M9B0AHFRN3YDSLS00FHLS7TSO20H7H9JFH9CRO3K2RC45ONFOSPJG074M2F7YO4YFYB0O64OHNJA5GPR2MX2IPSA22JXJZSYNC23SBFDRF4H62R00RXNDX"
+        }
+      ]
+    },
+    {
+      "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "insert_fractionated",
+          "index": 218,
+          "fill": "A",
+          "score": -9.409588623046876,
+          "known_quad_windows": 125,
+          "eligible": true,
+          "plaintext": "2VCUCJB9KMAJ6R0W12KNV39R513POEHC1BHHSM2ANNH1NAKEDVAV39E7NAKDEAHYZV2L5R2DIL?QJCR5V2Z6YLKC9QVZHZYLFJ2AJJHLBVOMKRYCC5ILLKGJCLLFKMN23T?ILV33"
+        },
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "insert_fractionated",
+          "index": 226,
+          "fill": "A",
+          "score": -9.421794105529786,
+          "known_quad_windows": 125,
+          "eligible": true,
+          "plaintext": "2VCUCJB9KMAJ6R0W12KNV39R513POEHC1BHHSM2ANNH1NAKEDVAV39E7NAKDEAHYZV2L5R2DIL?QJCR5V2Z6YLKC9QVZHZYLFJ2AJJHLBVOMKHJA3TILLKGJCLLFKMN23T?ILV33"
+        },
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "insert_fractionated",
+          "index": 227,
+          "fill": "A",
+          "score": -9.421794105529786,
+          "known_quad_windows": 125,
+          "eligible": true,
+          "plaintext": "2VCUCJB9KMAJ6R0W12KNV39R513POEHC1BHHSM2ANNH1NAKEDVAV39E7NAKDEAHYZV2L5R2DIL?QJCR5V2Z6YLKC9QVZHZYLFJ2AJJHLBVOMKHJA3TILLKGJCLLFKMN23T?ILV33"
+        },
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "insert_fractionated",
+          "index": 217,
+          "fill": "X",
+          "score": -9.428043621063232,
+          "known_quad_windows": 125,
+          "eligible": true,
+          "plaintext": "2VCUCJB9KMAJ6R0W12KNV39R513POEHC1BHHSM2ANNH1NAKEDVAV39E7NAKDEAHYZV2L5R2DIL?QJCR5V2Z6YLKC9QVZHZYLFJ2AJJHLBVOMMAYCC5ILLKGJCLLFKMN23T?ILV33"
+        },
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "insert_fractionated",
+          "index": 227,
+          "fill": "D",
+          "score": -9.430756595611573,
+          "known_quad_windows": 125,
+          "eligible": true,
+          "plaintext": "2VCUCJB9KMAJ6R0W12KNV39R513POEHC1BHHSM2ANNH1NAKEDVAV39E7NAKDEAHYZV2L5R2DIL?QJCR5V2Z6YLKC9QVZHZYLFJ2AJJHLBVOMKHJA3RILLKGJCLLFKMN23T?ILV33"
+        }
+      ]
+    },
+    {
+      "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "delete_fractionated",
+          "index": 219,
+          "fill": null,
+          "score": -9.466049059744805,
+          "known_quad_windows": 124,
+          "eligible": true,
+          "plaintext": "2VCUCJB9KMAJ6R0W12KNV39R513POEHC1BHHSM2ANNH1NAKEDVAV39E7NAKDEAHYZV2L5R2DIL?QJCR5V2Z6YLKC9QVZHZYLFJ2AJJHLBVOMK2CC5ILLKGJCLLFKMN23T?ILV33"
+        },
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "delete_fractionated",
+          "index": 222,
+          "fill": null,
+          "score": -9.466049059744805,
+          "known_quad_windows": 124,
+          "eligible": true,
+          "plaintext": "2VCUCJB9KMAJ6R0W12KNV39R513POEHC1BHHSM2ANNH1NAKEDVAV39E7NAKDEAHYZV2L5R2DIL?QJCR5V2Z6YLKC9QVZHZYLFJ2AJJHLBVOMKHJC5ILLKGJCLLFKMN23T?ILV33"
+        },
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "delete_fractionated",
+          "index": 221,
+          "fill": null,
+          "score": -9.466049059744805,
+          "known_quad_windows": 124,
+          "eligible": true,
+          "plaintext": "2VCUCJB9KMAJ6R0W12KNV39R513POEHC1BHHSM2ANNH1NAKEDVAV39E7NAKDEAHYZV2L5R2DIL?QJCR5V2Z6YLKC9QVZHZYLFJ2AJJHLBVOMKHKC5ILLKGJCLLFKMN23T?ILV33"
+        },
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "delete_fractionated",
+          "index": 220,
+          "fill": null,
+          "score": -9.466049059744805,
+          "known_quad_windows": 124,
+          "eligible": true,
+          "plaintext": "2VCUCJB9KMAJ6R0W12KNV39R513POEHC1BHHSM2ANNH1NAKEDVAV39E7NAKDEAHYZV2L5R2DIL?QJCR5V2Z6YLKC9QVZHZYLFJ2AJJHLBVOMKHCC5ILLKGJCLLFKMN23T?ILV33"
+        },
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "delete_fractionated",
+          "index": 218,
+          "fill": null,
+          "score": -9.466049059744805,
+          "known_quad_windows": 124,
+          "eligible": true,
+          "plaintext": "2VCUCJB9KMAJ6R0W12KNV39R513POEHC1BHHSM2ANNH1NAKEDVAV39E7NAKDEAHYZV2L5R2DIL?QJCR5V2Z6YLKC9QVZHZYLFJ2AJJHLBVOMKYCC5ILLKGJCLLFKMN23T?ILV33"
+        }
+      ]
+    },
+    {
+      "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "delete_transmitted",
+          "index": 130,
+          "fill": null,
+          "score": -9.38503746688366,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "22CUCJB9KMAC6R0W12KNVY9R513POEVC1BHHSM2ANNH1NAJEDDAV39E7NALPEAHYZH2L6R2DIL?JJVA5V2Z6ZLKY9QVZHZLLFR2AJJH5BVLMKHJA302M20YV3LLY33RK5TW2VCJ"
+        },
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "delete_transmitted",
+          "index": 129,
+          "fill": null,
+          "score": -9.38503746688366,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "22CUCJB9KMAC6R0W12KNVY9R513POEVC1BHHSF2ANNH1NAJEDDAV39E7NALPEAHYZH2L6R2DIL?JJVA5V2Z6ZLKY9QVZHZLLFR2AJJH5BVLMKHJA302M20YV3LLY33RK5TW2VCJ"
+        },
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "delete_transmitted",
+          "index": 125,
+          "fill": null,
+          "score": -9.397207297384739,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "22CUCJB9LMAC6R0W12DNVY9R513EOEVC1BHHSF2ANNH1NAJEDDAV39E7NALPEAHYZH2L6R2DIL?JJVA5V2Z6ZLKY9QVZHZLLFR2AJJH5BVLMKHJA302M20YV3LLY33PK5TW2VCJ"
+        },
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "delete_transmitted",
+          "index": 126,
+          "fill": null,
+          "score": -9.397207297384739,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "22CUCJB9LMAC6R0W12DNVY9R513EOEVC1BHHSF2ANNH1NAJEDDAV39E7NALPEAHYZH2L6R2DIL?JJVA5V2Z6ZLKY9QVZHZLLFR2AJJH5BVLMKHJA302M20YV3LLY33RK5TW2VCJ"
+        },
+        {
+          "key_id": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "kind": "delete_transmitted",
+          "index": 120,
+          "fill": null,
+          "score": -9.397207297384739,
+          "known_quad_windows": 128,
+          "eligible": true,
+          "plaintext": "22CUCJB9LMAC6R0W12DNVY9R513EOEVC1BHHSF2ANNH1NAJEDDAV39E7NALPEAHYZH2L6R2DIL?JJVA7V2Z6ZLKYJQVZHZLLFRYAJJH5BVLKKHJA302M2SYV3LLY33PK5TW2VCJ"
+        }
+      ]
+    },
+    {
+      "key_id": "CHI-Nov8-2026-recovery",
+      "kind": "insert_fractionated",
+      "evaluations": 1632,
+      "top": [
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "X",
+          "score": -100.0,
+          "known_quad_windows": 7,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??DDA?NT??NA?N?S?H??V?L?Z?U??SDZ????CMA??H?IN?D?N?B??G?Z???S????MH?ADRZLLNC???SHL??H????NE???Z?BZNN??A?IB??N??R?T?????HG??V"
+        },
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "V",
+          "score": -100.0,
+          "known_quad_windows": 7,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??DDA?NT??NA?N?S?H??V?L?Z?U??SDZ????CMA??H?IN?D?N?B??G?Z???S????MH?ADRZLLNC???SHL??H????NE???Z?BZNN??A?IB??N??R?T?????HG???"
+        },
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "G",
+          "score": -100.0,
+          "known_quad_windows": 7,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??DDA?NT??NA?N?S?H??V?L?Z?U??SDZ????CMA??H?IN?D?N?B??G?Z???S????MH?ADRZLLNC???SHL??H????NE???Z?BZNN??A?IB??N??R?T?????HG??H"
+        },
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "F",
+          "score": -100.0,
+          "known_quad_windows": 7,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??DDA?NT??NA?N?S?H??V?L?Z?U??SDZ????CMA??H?IN?D?N?B??G?Z???S????MH?ADRZLLNC???SHL??H????NE???Z?BZNN??A?IB??N??R?T?????HG??D"
+        },
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "insert_fractionated",
+          "index": 271,
+          "fill": "D",
+          "score": -100.0,
+          "known_quad_windows": 7,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??DDA?NT??NA?N?S?H??V?L?Z?U??SDZ????CMA??H?IN?D?N?B??G?Z???S????MH?ADRZLLNC???SHL??H????NE???Z?BZNN??A?IB??N??R?T?????HG??N"
+        }
+      ]
+    },
+    {
+      "key_id": "CHI-Nov8-2026-recovery",
+      "kind": "delete_fractionated",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "delete_fractionated",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 7,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??DDA?NT??NA?N?S?H??V?L?Z?U??SDZ????CMA??H?IN?D?N?B??G?Z???S????MH?ADRZLLNC???SHL??H????NE???Z?BZNN??A?IB??N??R?T?????HG??"
+        },
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "delete_fractionated",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 7,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??DDA?NT??NA?N?S?H??V?L?Z?U??SDZ????CMA??H?IN?D?N?B??G?Z???S????MH?ADRZLLNC???SHL??H????NE???Z?BZNN??A?IB??N??R?T?????HG?Z"
+        },
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "delete_fractionated",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 7,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??DDA?NT??NA?N?S?H??V?L?Z?U??SDZ????CMA??H?IN?D?N?B??G?Z???S????MH?ADRZLLNC???SHL??H????NE???Z?BZNN??A?IB??N??R?T?????HG?C"
+        },
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "delete_fractionated",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 7,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??DDA?NT??NA?N?S?H??V?L?Z?U??SDZ????CMA??H?IN?D?N?B??G?Z???S????MH?ADRZLLNC???SHL??H????NE???Z?BZNN??A?IB??N??R?T?????HG?C"
+        },
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "delete_fractionated",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 8,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??DDA?NT??NA?N?S?H??V?L?Z?U??SDZ????CMA??H?IN?D?N?B??G?Z???S????MH?ADRZLLNC???SHL??H????NE???Z?BZNN??A?IB??N??R?T?????HGHC"
+        }
+      ]
+    },
+    {
+      "key_id": "CHI-Nov8-2026-recovery",
+      "kind": "delete_transmitted",
+      "evaluations": 271,
+      "top": [
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "delete_transmitted",
+          "index": 270,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 3,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??D?A?NT??NA?N?S?H??VBL?Z?H??SDZ????CMA??H?IW?D???B????Z???S??T?MH?ADRZ?LNC???SHL??H????NE?????BZNA??A?IB??N??RZT?????HG??"
+        },
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "delete_transmitted",
+          "index": 269,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 3,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??D?A?NT??NA?N?S?H??VBL?Z?H??SDZ????CMA??H?IW?D???B????Z???S??T?MH?ADRZ?LNC???SHL??H????NE?????BZNA??A?IB??N??RZT?????HG??"
+        },
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "delete_transmitted",
+          "index": 268,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 3,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??D?A?NT??NA?N?S?H??VBL?Z?H??SDZ????CMA??H?IW?D???B????Z???S??T?MH?ADRZ?LNC???SHL??H????NE?????BZNA??A?IB??N??R?T?????HG??"
+        },
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "delete_transmitted",
+          "index": 267,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 3,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??D?A?NT??NA?N?S?H??VBL?Z?H??SDZ????CMA??H?IW?D???B????Z???S??T?MH?ADRZ?LNC???SHL??H????NE?????BZNA??A?IB??N??R?T?????HG??"
+        },
+        {
+          "key_id": "CHI-Nov8-2026-recovery",
+          "kind": "delete_transmitted",
+          "index": 266,
+          "fill": null,
+          "score": -100.0,
+          "known_quad_windows": 3,
+          "eligible": false,
+          "plaintext": "??L?C?ZLEN??N??D?A?NT??NA?N?S?H??VBL?Z?H??SDZ????CMA??H?IW?D???B????Z???S??T?MH?ADRZ?LNC???SHL??H????NE???Z?BZNA??A?IB??N??R?T?????HG??"
+        }
+      ]
+    }
+  ],
+  "total_evaluations": 54350,
+  "top": [
+    {
+      "key_id": "Nov7-9",
+      "kind": "delete_transmitted",
+      "index": 246,
+      "fill": null,
+      "score": -8.145814675837755,
+      "known_quad_windows": 128,
+      "eligible": true,
+      "plaintext": "L1OKLUVERXHAESTIKNOPOG4IRIDU10XCGETXPERRBCEEQEUXG3NCCK0R0XXDAADFEITNGARERGYIECUAYQRUYRGXNKSDASKEPA0XLZADKX3L000DIGAEX0O0KNXWZX1LX18?GLS"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "delete_transmitted",
+      "index": 247,
+      "fill": null,
+      "score": -8.168495062738657,
+      "known_quad_windows": 128,
+      "eligible": true,
+      "plaintext": "L1OKLUVERXHAESTIKNOPOG4IRIDU1CXCGETXPERRBCEEQEUXG3NCCK0R0XXDAADFEITNGARERGYIECUAYQRUYRGXNKSDASKEPA0XLZADKX3L000DIGAEX0O0KNXWZX1LX18?GLS"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "delete_transmitted",
+      "index": 220,
+      "fill": null,
+      "score": -8.196493254974484,
+      "known_quad_windows": 128,
+      "eligible": true,
+      "plaintext": "L1OKLYVERUHAESTIKNO8OG4IRTDU10XCGETXPERRBCEEQLUXG3NCCK0Y0KXDAADFEITAGARERGY2EQUAYQRUYUG0NKSDASKEPA0XLZADKX3L000DIGAEX0O0KNXWZX1EX18?GLS"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "delete_transmitted",
+      "index": 223,
+      "fill": null,
+      "score": -8.196493254974484,
+      "known_quad_windows": 128,
+      "eligible": true,
+      "plaintext": "L1OKLYVERUHAESTIKNO8OG4IRTDU10XCGETXPERRBCEEQLUXG3NCCK0Y0KXDAADFEITAGARERGY2EQUAYQRUYUG0NKSDASKEPA0XLZADKX3L000DIGAEX0O0KNXWZX1EX18?GLS"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "delete_transmitted",
+      "index": 222,
+      "fill": null,
+      "score": -8.196493254974484,
+      "known_quad_windows": 128,
+      "eligible": true,
+      "plaintext": "L1OKLYVERUHAESTIKNO8OG4IRTDU10XCGETXPERRBCEEQLUXG3NCCK0Y0KXDAADFEITAGARERGY2EQUAYQRUYUG0NKSDASKEPA0XLZADKX3L000DIGAEX0O0KNXWZX1EX18?GLS"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "insert_fractionated",
+      "index": 173,
+      "fill": "D",
+      "score": -9.031084537506104,
+      "known_quad_windows": 129,
+      "eligible": true,
+      "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKURUSE0LOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "insert_fractionated",
+      "index": 174,
+      "fill": "G",
+      "score": -9.040901956632156,
+      "known_quad_windows": 129,
+      "eligible": true,
+      "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUPTSE0LOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "insert_fractionated",
+      "index": 173,
+      "fill": "F",
+      "score": -9.041366758272629,
+      "known_quad_windows": 129,
+      "eligible": true,
+      "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUMUSE0LOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "insert_fractionated",
+      "index": 181,
+      "fill": "G",
+      "score": -9.042614936828613,
+      "known_quad_windows": 129,
+      "eligible": true,
+      "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUP0AXGLOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "insert_fractionated",
+      "index": 181,
+      "fill": "V",
+      "score": -9.046369718950848,
+      "known_quad_windows": 129,
+      "eligible": true,
+      "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUP0AXELOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "delete_fractionated",
+      "index": 193,
+      "fill": null,
+      "score": -9.066154647618532,
+      "known_quad_windows": 128,
+      "eligible": true,
+      "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUP0AXLZADKESEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "delete_fractionated",
+      "index": 182,
+      "fill": null,
+      "score": -9.069213293492794,
+      "known_quad_windows": 128,
+      "eligible": true,
+      "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUP0AXLOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "delete_fractionated",
+      "index": 180,
+      "fill": null,
+      "score": -9.069213293492794,
+      "known_quad_windows": 128,
+      "eligible": true,
+      "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUP0AXLOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "delete_fractionated",
+      "index": 181,
+      "fill": null,
+      "score": -9.069213293492794,
+      "known_quad_windows": 128,
+      "eligible": true,
+      "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUP0AXLOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "insert_fractionated",
+      "index": 104,
+      "fill": "F",
+      "score": -9.09260248241568,
+      "known_quad_windows": 133,
+      "eligible": true,
+      "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUSTZSEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+    },
+    {
+      "key_id": "Nov10-12",
+      "kind": "delete_transmitted",
+      "index": 73,
+      "fill": null,
+      "score": -9.096412706375123,
+      "known_quad_windows": 100,
+      "eligible": true,
+      "plaintext": "?KLHCQF?WTDHW?KIRUTH2DWQXCFV2KZSQCWAXKWNIYNBFMDZQSQV2YYYIIWANK1TIMUNIOAUIWKEK?O?IYSKITI?MTTAC4EM2AQ?JDWEM2ICJE3KFJIQ21?SYSXBWEY??S22OKS"
+    },
+    {
+      "key_id": "Nov10-12",
+      "kind": "delete_transmitted",
+      "index": 72,
+      "fill": null,
+      "score": -9.096412706375123,
+      "known_quad_windows": 100,
+      "eligible": true,
+      "plaintext": "?KLHCQF?WTDHW?KIRUTH2DWQXCFV2KZSQCWAXKWNIYNBFMDZQSQV2YYYIIWANK1TIMUNIOAUIWKEK?O?IYSKITI?MTTAC4EM2AQ?JDWEM2ICJE3KFJIQ21?SYSXBWEY??S22OKS"
+    },
+    {
+      "key_id": "Nov10-12",
+      "kind": "delete_transmitted",
+      "index": 71,
+      "fill": null,
+      "score": -9.096412706375123,
+      "known_quad_windows": 100,
+      "eligible": true,
+      "plaintext": "?KLHCQF?WTDHW?KIRUTH2DWQXCFV2KZSQCWAXKWNIYNBFMGZQSQV2YYYIIWANK1TIMUNIOAUIWKEK?O?IYSKITI?MTTAC4EM2AQ?JDWEM2ICJE3KFJIQ21?SYSXBWEY??S22OKS"
+    },
+    {
+      "key_id": "Nov10-12",
+      "kind": "delete_transmitted",
+      "index": 70,
+      "fill": null,
+      "score": -9.096412706375123,
+      "known_quad_windows": 100,
+      "eligible": true,
+      "plaintext": "?KLHCQF?WTDHW?KIRUTH2DWQXCFV2KZSQCWAXKDNIYNBFMGZQSQV2YYYIIWANK1TIMUNIOAUIWKEK?O?IYSKITI?MTTAC4EM2AQ?JDWEM2ICJE3KFJIQ21?SYSXBWEY??S22OKS"
+    },
+    {
+      "key_id": "Nov10-12",
+      "kind": "delete_transmitted",
+      "index": 69,
+      "fill": null,
+      "score": -9.096412706375123,
+      "known_quad_windows": 100,
+      "eligible": true,
+      "plaintext": "?KLHCQF?WTDHW?KIRUTH2DWQXCFV2KQSQCWAXKDNIYNBFMGZQSQV2YYYIIWANK1TIMUNIOAUIWKEK?O?IYSKITI?MTTAC4EM2AQ?JDWEM2ICJE3KFJIQ21?SYSXBWEY??S22OKS"
+    },
+    {
+      "key_id": "Nov7-9",
+      "kind": "delete_fractionated",
+      "index": 175,
+      "fill": null,
+      "score": -9.105997830629349,
+      "known_quad_windows": 128,
+      "eligible": true,
+      "plaintext": "HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUY2GQYNSDRSKUPHE0LOSX20WEEESH2BEX0EDEBI4AC?TZX9UQ2LD0LXJ9R0EGT"
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "insert_fractionated",
+      "index": 104,
+      "fill": "D",
+      "score": -9.13060454318398,
+      "known_quad_windows": 133,
+      "eligible": true,
+      "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUSXZSEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "insert_fractionated",
+      "index": 99,
+      "fill": "V",
+      "score": -9.15585692484576,
+      "known_quad_windows": 133,
+      "eligible": true,
+      "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANKRIPZSEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "insert_fractionated",
+      "index": 98,
+      "fill": "V",
+      "score": -9.15585692484576,
+      "known_quad_windows": 133,
+      "eligible": true,
+      "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANKRIPZSEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "insert_fractionated",
+      "index": 99,
+      "fill": "G",
+      "score": -9.158807345799037,
+      "known_quad_windows": 133,
+      "eligible": true,
+      "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANERIPZSEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "delete_fractionated",
+      "index": 104,
+      "fill": null,
+      "score": -9.160621852585763,
+      "known_quad_windows": 132,
+      "eligible": true,
+      "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUSZSEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "delete_fractionated",
+      "index": 105,
+      "fill": null,
+      "score": -9.167850960384715,
+      "known_quad_windows": 132,
+      "eligible": true,
+      "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS1SEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "delete_fractionated",
+      "index": 108,
+      "fill": null,
+      "score": -9.187714020411173,
+      "known_quad_windows": 132,
+      "eligible": true,
+      "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS42EBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "delete_fractionated",
+      "index": 109,
+      "fill": null,
+      "score": -9.187714020411173,
+      "known_quad_windows": 132,
+      "eligible": true,
+      "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS42EBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+    },
+    {
+      "key_id": "Nov1-3",
+      "kind": "delete_fractionated",
+      "index": 106,
+      "fill": null,
+      "score": -9.192124594341625,
+      "known_quad_windows": 132,
+      "eligible": true,
+      "plaintext": "5S7PCGBVVNRT34UR58XJKCUJQIIC8CWZOHSC7FFZAMBI5PMANMUS4SEBEKXIKS36C7FVA3CRS744MSP7DFFX4K8R1B6E4ECNEK434MXSM6IMJEMMNQEVKQLEMMKIJQHKM8FV8SS"
+    }
+  ]
+}

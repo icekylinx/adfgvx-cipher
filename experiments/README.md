@@ -13,6 +13,15 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Romanian pacification consultation](romanian_pacification_consultation/README.md) | Four native parts; 378 positions | Truncated A1 remains uncounted context; eleven substitutions and one mask fill are explicit, with two bracketed display-only spelling letters. |
+| [Mackensen subordination and Orient reports](nov1_mackensen_and_orient_reports/README.md) | Eight records; 695 modeled positions | Copy conflicts, five exclusion origins, the weak source slot and 128 minimum common-copy streams remain explicit. |
+| [Caucasus ammunition and Roesler leave](nov1_ammunition_and_leave/README.md) | Two native records; 260 fixed positions | Zero historical edits; 5280625, both ROESLER labels and abbreviation spellings remain literal. |
+| [Hungarian armistice instructions](hungarian_armistice_instructions/README.md) | Three native parts; 333 fixed positions | Source-defined A2/A3 split; six priced substitutions and one display-only bracketed spelling letter. |
+| [Sevastopol coded routing](sevastopol_coded_routing/README.md) | Three native parts; 316 positions | One invalid-glyph fill; twelve five-figure inner-code groups remain opaque, including the leading zero. |
+| [Map request, border report and embassy signature](nov8_map_and_boundary/README.md) | Three records; 191 modeled positions | Both globally coupled 5/6 map readings, tied gap origins and the F/E source sensitivity remain explicit. |
+| [November 7 fragments and Soldiers Council notice](nov7_fragments_and_council/README.md) | Four records; 343 modeled positions | Conditional short-group gap; handwritten and typed source layers are separated; STUR3FSS remains opaque. |
+| [Urgent Constantinople embassy address](nov9_urgent_embassy_address/README.md) | One native record; 49 fixed positions | DVGXV and final AXA are source transcription corrections; DRINGEND needs no historical edit. |
+| [Unaccepted odd-fragment diagnostics](odd_fragment_diagnostics/README.md) | No new catalogue records | 490,966 finite parameter evaluations with stated overlap and coverage thresholds; zero accepted complete plaintexts. |
 | [Chemnitz railway traffic and Schaefer inquiry](p107_railway_and_dragoman/README.md) | Three native records; 311 positions | Source-visible FDGD restores an OCR-truncated row; 12 word repairs are priced, while the final dash, opaque references and feasibility question stay explicit. |
 | [Naval arrival inquiry and Rudolf discharge](p108_naval_and_personnel/README.md) | Three records; 274 modeled positions | Visible FX restores the native naval frame; the separate personnel continuation retains five short-group geometries and an unresolved reference. |
 | [November 8 radio-key instructions, prices and reports](nov8_radio_keys_and_reports/README.md) | Seven records; 662 modeled positions | All 28,680 double exclusions and 309 single exclusions priced; both coupled 5/6 assignments retained; seven exact readable mappings. |

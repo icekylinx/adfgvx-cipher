@@ -4,7 +4,7 @@
 
 Read the October staffing, supply and purchasing exchanges with Tiflis, followed by the Polish representative appointment and later armistice instructions.
 
-**40 reviewed physical records across 12 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**41 reviewed physical records across 13 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -17,6 +17,7 @@ Read the October staffing, supply and purchasing exchanges with Tiflis, followed
 | [October Caucasus traffic — Kress, Westernhagen and a shipment for Poti](october_caucasus.md) | p68 A1, p68 A2, p69 A, p69 B1, p69 B2, p70 A1, p70 A2, p71 A1, p72 A1, p72 A2, p72 A3, p72 B |
 | [A pioneer detachment may remain in Tiflis](tiflis_pioneer_detachment.md) | p81 B |
 | [Caucasus delegation and radio transmitters at Tiflis](caucasus_radio_transmitters.md) | p88 A1, p88 A2 |
+| [Caucasus ammunition: a request for loading instructions](caucasus_ammunition_loading.md) | p102 C |
 | [p152 — Silk purchases and transport from the Caucasus](../p152.md) | p136 B1, p136 B2, p152 E2 |
 | [The Caucasus K.M. representative is to remain](representative_retention.md) | p142 B |
 | [A Polish representative in Tiflis — p199 preamble and p192 parts 2 and 3](tiflis_appointment.md) | p192 part 2, p192 part 3, p199 unlettered part 1 |
@@ -56,6 +57,7 @@ Read the October staffing, supply and purchasing exchanges with Tiflis, followed
 | [p81 B](tiflis_pioneer_detachment.md#p81-b) | Groener permits a pioneer detachment to remain in Tiflis | Direct source reading; all reference labels retained | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
 | [p88 A1](caucasus_radio_transmitters.md#p88-a1) | Caucasus delegation and 800-watt transmitter transport to Berlin | Native 172 slots; 85/86 fixed; one invalid Q left unresolved; malformed verb and TRANSPORRT retained | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier unreviewed repository body candidates |
 | [p88 A2](caucasus_radio_transmitters.md#p88-a2) | General von Kress and 1500-watt tube transmitter | Native 134 slots; 3 observed substitutions + 1 y-like glyph fill; all 16 annotation subsets retained separately | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier unreviewed repository body candidates |
+| [p102 C](caucasus_ammunition_loading.md#p102-c) | Caucasus delegation asked whether to load the remaining Russian ammunition | 131/131 native raw labels; zero coordinate edits; source-reviewed prior OCR body | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier OCR body explicitly retained |
 | [p136 B1](../p152.md#raw-p136-b1-parallel-plaintext) | Silk purchases in the Caucasus; first part | Full raw reading; supports the p 152 fragment | icekylinx and GPT-6 Astra Pro (2026) |
 | [p136 B2](../p152.md#raw-continuation-witnesses) | Resell goods whose transport is not assured | Continuation; one coordinate supplied by a parallel | icekylinx and GPT-6 Astra Pro (2026) |
 | [p142 B](representative_retention.md) | Caucasus BEV K.M. representative at Tiflis is to remain; reference fields retained | 143/143 fixed raw labels; 3 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |

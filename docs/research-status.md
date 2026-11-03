@@ -4,8 +4,11 @@
 
 **icekylinx and GPT-6 Astra Pro · 3 November 2026**
 
-The edition contains 22 challenge entries and 264 other source-reviewed
-records in the [two reading tables](../cases/README.md). **p73, p170 and p198 D remain
+The edition retains 22 challenge entries. The current total of other
+source-reviewed records and every individual status are in the
+[two reading tables](../cases/README.md); the
+[post-publication inventory](../experiments/post_push_review/README.md)
+records the latest source-edition additions. **p73, p170 A and p198 D remain
 wholly open.** Other entries range from complete prior readings to partial
 recoveries and source-linked reconstructions; they are not all independently
 solved original ciphertexts. [Each case](../cases/README.md) states its own
@@ -16,6 +19,14 @@ defensible.
 
 | Result | Evidence gained | What remains unresolved |
 |---|---|---|
+| [Romanian pacification consultation](../cases/military/romanian_pacification_consultation.md) | Four source-labeled native parts give 377/378 fixed raw positions and a complete, explicitly repaired candidate concerning a proposed action and consultation. | Eleven substitutions and one dash fill remain editorial; ZIET and BUKARST need explicitly bracketed display-only letters. A truncated first part overlaps p151 but does not establish whole-message identity. |
+| [Berlin map-sheet request](../cases/radio/map_sheet_request.md) | All insertion boundaries are checked, with two tied source-origin maps and an exact readable-label mapping; source-glyph sensitivity is retained. | The conditional frame has two observed substitutions, three source fills and one missing-slot fill. Quantity and scale remain linked: 50 with 1:75000, or 60 with 1:76000; the edition does not choose between the global assignments. |
+| [Urgent embassy address](../cases/people/constantinople_urgent_address.md) | Independent source inspection reads DVGXV and AXA, giving all 49 native labels and DRINGEND without historical coordinate edits. | The source's conflicting date fields, C spelling and absent second part remain. Similar wording in the separate p162 address does not establish a join. |
+| [Sevastopol coded routing](../cases/military/sevastopol_coded_routing.md) | Three native parts separate readable routing text from twelve exact five-figure groups; the observed A1 length is 200, and one A2 invalid glyph is filled contextually. | The marker CUJOMAREMO and inner-code groups remain opaque, including the leading zero in 04376. Decoding the outer ADFGVX layer does not recover the inner meaning. |
+| [Hungarian armistice instructions](../cases/military/hungarian_armistice_instructions.md) | Printed part labels restore the exact A2/A3 split and final visible row. The three frames fix 333 raw positions and request instructions for negotiations. | Six observed substitutions are explicit. KOOVES, final 0 and the source spelling GENERLSTABSOFFIZIERE remain; Gener[a]lstabsoffiziere adds a letter only to the readable display. |
+| [Mackensen subordination](../cases/military/mackensen_subordination.md) and [Orient reports](../cases/military/orient_south_slav_reports.md) | Eight physical records receive source-defined frames and copy-conflict ledgers; four Mackensen common streams and 128 detachment minima are preserved. | Five exclusion origins tie in the damaged ending. The fluent shared detachment word costs two additional substitutions; VON/IN, different headers and two unresolved date positions are not merged. |
+| [Ammunition loading](../cases/caucasus/caucasus_ammunition_loading.md) and [Roesler leave](../cases/people/roesler_leave_and_travel.md) | Two native zero-edit frames give 260 fixed raw positions. Source inspection restores three OCR-masked labels in the ammunition request. | The quantity 5280625, repeated ROESLER, abbreviations and grammatical attachment remain literal; header names are not counted as decrypted ciphertext. |
+| [November 7 fragments](../cases/military/nov7_fragment_and_acknowledgment.md) and [Soldiers Council notice](../cases/military/soldiers_council_surrender.md) | Four records preserve a conditional short group, a separately transcribed handwritten layer, and a zero-edit surrender notice. | STUR3FSS and the march sentence remain incomplete. Selecting the typed acknowledgment layer is distinct from a five-deletion composite-stream hypothesis; no city or council identity is inferred. |
 | [Hungary transport warning](../cases/military/hungary_transport_warning.md) | A separate received copy witnesses a unique missing five-coordinate group and five restored letters without changing any observed coordinate in the short part. Two closing parts share all 54 coordinate pairs. | Thirty-one positions remain unresolved; the extra HE?REIN form is not forced into a normal spelling, and matching reference labels do not establish their historical values. |
 | [Constanza radio connections](../cases/radio/constanza_radio_connections.md) | Correct printed part boundaries restore 245 direct positions on p82; a duplicate supports the actual 242-coordinate first-part length, and a source annotation is independently repeated. | The source's 342 length indicator and shared PACH defect remain visible; no 100-coordinate gap is invented. |
 | [Armistice transit planning](../cases/military/armistice_transit_planning.md) | Six exact frames give 633/635 fixed raw positions. A conditional omission in the intermediate stream joins the odd-length fifth part's two readable halves. | The original 267-slot frame is preserved. The one-coordinate pretransposition omission is a retrospective hypothesis, with every stated stage/position comparison retained. |

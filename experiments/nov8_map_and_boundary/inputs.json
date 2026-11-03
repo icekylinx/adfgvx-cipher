@@ -1,0 +1,452 @@
+{
+  "schema": "adfgvx-nov8-map-and-boundary-inputs-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "printed_page": 162,
+    "pdf_page_1based": 165,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "images": [
+      {
+        "path": "sources/p162_full.png",
+        "printed_page": 162,
+        "pdf_page_1based": 165,
+        "clip_points": [
+          0.0,
+          0.0,
+          578.1599731445312,
+          824.4000244140625
+        ],
+        "scale": 2,
+        "width": 1157,
+        "height": 1649,
+        "sha256": "fb310d99363cb58b92ac3db1ea9d3e9ec153277725b06bb9bcecd4da8c405da1",
+        "pixel_sha256": "d012fa4544a99de9922f75d3ab1336a661934bcf38ffff9b1e62d726da117ded"
+      },
+      {
+        "path": "sources/p162_B_detail.png",
+        "printed_page": 162,
+        "pdf_page_1based": 165,
+        "clip_points": [
+          60,
+          300,
+          530,
+          401
+        ],
+        "scale": 5,
+        "width": 2350,
+        "height": 505,
+        "sha256": "a1d86284afa6768f3296edd5d9558fa59e191259b978079cf72d5abd44a7438f",
+        "pixel_sha256": "66efbf17839837d17cd8c329b35532692db64cea1ea59c4850f946ada6ba8ddb"
+      },
+      {
+        "path": "sources/p162_C_detail.png",
+        "printed_page": 162,
+        "pdf_page_1based": 165,
+        "clip_points": [
+          60,
+          420,
+          530,
+          542
+        ],
+        "scale": 5,
+        "width": 2350,
+        "height": 610,
+        "sha256": "f76520d0b65125901ed8e3615f6dd3e83ab36d57c57c1a143d201465836ad5a4",
+        "pixel_sha256": "16e8ac3e4412722ec995a464bfee236750b6681e69fb12bf07f1534e5ca38c8e"
+      },
+      {
+        "path": "sources/p162_D_detail.png",
+        "printed_page": 162,
+        "pdf_page_1based": 165,
+        "clip_points": [
+          60,
+          555,
+          530,
+          634
+        ],
+        "scale": 5,
+        "width": 2350,
+        "height": 395,
+        "sha256": "54d4a046aa47b16b863aced56392ef6783c801ddc920bbbb95fdc1af45feacb4",
+        "pixel_sha256": "df8e1d0d240a0338cf4603b376dcea2798b6ee342e1d3e57036ffc853539066a"
+      },
+      {
+        "path": "sources/p162_B_faint.png",
+        "printed_page": 162,
+        "pdf_page_1based": 165,
+        "clip_points": [
+          439,
+          338,
+          475,
+          374
+        ],
+        "scale": 14,
+        "width": 504,
+        "height": 504,
+        "sha256": "4bf8720d2dc735d63f794521b551cd3c8c7f57082180d73be3ebfade2ca117ca",
+        "pixel_sha256": "4f82d34b604a9eaaced38d70306e08c73c591a7f72e4fc5d8bc570f4b2168a31"
+      },
+      {
+        "path": "sources/p162_B_group4.png",
+        "printed_page": 162,
+        "pdf_page_1based": 165,
+        "clip_points": [
+          297,
+          338,
+          333,
+          355
+        ],
+        "scale": 14,
+        "width": 504,
+        "height": 238,
+        "sha256": "796ef23793bc760114c629ff6c31c42f87830d85635552cb7f8ed9e267d9d797",
+        "pixel_sha256": "ee479a5b5e436da1fddef93b04ad44e7d986db7a0c1372be2264ce659fd54535"
+      },
+      {
+        "path": "sources/p162_B_group8.png",
+        "printed_page": 162,
+        "pdf_page_1based": 165,
+        "clip_points": [
+          484,
+          338,
+          524,
+          355
+        ],
+        "scale": 14,
+        "width": 560,
+        "height": 238,
+        "sha256": "45beb213eafc7b73ae9249b58b7206c6202a227a380c8940da1587bb922f0566",
+        "pixel_sha256": "183866b24744a14a8d55a462f3bf99d9f762db58ea9e4d1f0478b2823d0d3d76"
+      }
+    ]
+  },
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "prior_evidence_sha256": "72ed070b59e998dcb2e42c9525330d46f582ba407e7323a791d884189d8577f2",
+  "records": [
+    {
+      "id": "p162_B1",
+      "printed_page": 162,
+      "source_section": "B1",
+      "headers": [
+        "B) UKS v ZON (03.40 a.m., November 9th)",
+        "1109 2 TLE",
+        "1 TL RICHI-182?"
+      ],
+      "rows": [
+        "DGDD AFGXA DXDXG VGGGA DAGXV FDDVF XVGGA ADGVG",
+        "AGAAD DVXAX GDGXV GDGDX DAGFD DAXVV VFXDX GXDAV",
+        "FDVXV Z-VXD VVVXV VDFXV XVDVG VFXVV VFGGD DDDVD",
+        "VDVDG DDVVG XXFVV DGDXD XXXXD GDDGG -DVDD ADDVX",
+        "DDGAA GDFGF FDDGD VGDDG FD"
+      ],
+      "literal_source": "DGDDAFGXADXDXGVGGGADAGXVFDDVFXVGGAADGVGAGAADDVXAXGDGXVGDGDXDAGFDDAXVVVFXDXGXDAVFDVXVZ-VXDVVVXVVDFXVXVDVGVFXVVVFGGDDDDVDVDVDGDDVVGXXFVVDGDXDXXXXDGDDGG-DVDDADDVXDDGAAGDFGFFDDGDVGDDGFD",
+      "advertised_length_text": "182?",
+      "source_image": "sources/p162_B_detail.png",
+      "model_insert_before_source_index": 1,
+      "expected_raw": "STELLVERTRXG?NERJLSTABBERLINXZUSENDUNG?ONJE?0BL??TTERNKAR2E1ZU7?000XB1B2B3C1C2C3D1D2D3E2E3X",
+      "editorial_text": "STELLVERTRXGENERALSTABBERLINXZUSENDUNGVONJE?0BLAETTERNKARTE1ZU7?000XB1B2B3C1C2C3D1D2D3E2E3X",
+      "unknown_target_pairs": {
+        "43": "XA",
+        "63": "XA"
+      },
+      "expected_ledger": {
+        "observed_substitutions": [
+          {
+            "working_index": 111,
+            "source_index": 110,
+            "before": "F",
+            "after": "D"
+          },
+          {
+            "working_index": 151,
+            "source_index": 150,
+            "before": "D",
+            "after": "V"
+          }
+        ],
+        "source_mask_fills": [
+          {
+            "working_index": 85,
+            "source_index": 84,
+            "before": "Z",
+            "after": "A"
+          },
+          {
+            "working_index": 86,
+            "source_index": 85,
+            "before": "-",
+            "after": "V"
+          },
+          {
+            "working_index": 150,
+            "source_index": 149,
+            "before": "-",
+            "after": "D"
+          }
+        ],
+        "missing_coordinate_fills": [
+          {
+            "working_index": 1,
+            "source_index": null,
+            "before": "?",
+            "after": "D"
+          }
+        ]
+      },
+      "readable_german": "Stellvertr. Generalstab Berlin. Zusendung von je ?0 Blättern Karte 1 zu 7?000. B1 B2 B3 C1 C2 C3 D1 D2 D3 E2 E3.",
+      "readable_case_path": "cases/radio/map_sheet_request.md",
+      "readable_mapping_rules": {
+        "umlauts": "AE/OE/UE may display as ä/ö/ü; all normalized non-X labels are preserved.",
+        "supplies": [],
+        "punctuation": "Editorial; the two question marks in B1 are positional unknowns, not grammatical punctuation."
+      }
+    },
+    {
+      "id": "p162_C2",
+      "printed_page": 162,
+      "source_section": "C2",
+      "headers": [
+        "C) ==- v NKJ (09.45 a.m., November 9th)",
+        "(missed first part of this message)",
+        "2 TL RICHI-100"
+      ],
+      "rows": [
+        "ADDXV DDDVD AAXVA DXGGA DDDFG GVDAX GGADF D-XDF",
+        "FVXXF VVDXF DVVGX VXVDD XVVDX XVDVF GGVVD XDADF",
+        "DGVGV AFGVD AXDXV DVAFA"
+      ],
+      "literal_source": "ADDXVDDDVDAAXVADXGGADDDFGGVDAXGGADFD-XDFFVXXFVVDXFDVVGXVXVDDXVVDXXVDVFGGVVDXDADFDGVGVAFGVDAXDXVDVAFA",
+      "advertised_length_text": "100",
+      "source_image": "sources/p162_C_detail.png",
+      "model_insert_before_source_index": null,
+      "expected_raw": "TIRASPOLERHIEL?MXGXFEUERANDERGRENZEXAKONACH17ROEM4",
+      "editorial_text": "TIRASPOLERHIELTMXGXFEUERANDERGRENZEXAKONACH17ROEM4",
+      "unknown_target_pairs": {},
+      "expected_ledger": {
+        "observed_substitutions": [],
+        "source_mask_fills": [
+          {
+            "working_index": 36,
+            "source_index": 36,
+            "before": "-",
+            "after": "G"
+          }
+        ],
+        "missing_coordinate_fills": []
+      },
+      "readable_german": "Tiraspol erhielt M. G. Feuer an der Grenze. Akonach 17 Röm. 4.",
+      "readable_case_path": "cases/military/tiraspol_border_report.md",
+      "readable_mapping_rules": {
+        "umlauts": "AE/OE/UE may display as ä/ö/ü; all normalized non-X labels are preserved.",
+        "supplies": [],
+        "punctuation": "Editorial; the two question marks in B1 are positional unknowns, not grammatical punctuation."
+      }
+    },
+    {
+      "id": "p162_D1",
+      "printed_page": 162,
+      "source_section": "D1",
+      "headers": [
+        "D) XYZ v LP (06.12 a.m., November 10th)",
+        "1330 (8/13) 2 TEILE",
+        "1 TL RICHI-100"
+      ],
+      "rows": [
+        "AFXAX DVFDA FXGDG XGVXV VXCGV XGDDA DDGVG DXCGD",
+        "VGXAA XXADF VDDVX VVXDD XVGDV XDVVX VXVVG GVXXC",
+        "VGXXF DXGVV FXDVV GFAFA"
+      ],
+      "literal_source": "AFXAXDVFDAFXGDGXGVXVVXCGVXGDDADDGVGDXCGDVGXAAXXADFVDDVXVVXDDXVGDVXDVVXVXVVGGVXXCVGXXFDXGVVFXDVVGFAFA",
+      "advertised_length_text": "100",
+      "source_image": "sources/p162_D_detail.png",
+      "model_insert_before_source_index": null,
+      "expected_raw": "DEUTSCHEBOTSCHAFTKONSTA??INOPELXUNTERSCHRIF?STUMMX",
+      "editorial_text": "DEUTSCHEBOTSCHAFTKONSTANTINOPELXUNTERSCHRIFTSTUMMX",
+      "unknown_target_pairs": {},
+      "expected_ledger": {
+        "observed_substitutions": [],
+        "source_mask_fills": [
+          {
+            "working_index": 22,
+            "source_index": 22,
+            "before": "C",
+            "after": "G"
+          },
+          {
+            "working_index": 37,
+            "source_index": 37,
+            "before": "C",
+            "after": "G"
+          },
+          {
+            "working_index": 79,
+            "source_index": 79,
+            "before": "C",
+            "after": "G"
+          }
+        ],
+        "missing_coordinate_fills": []
+      },
+      "readable_german": "Deutsche Botschaft Konstantinopel. Unterschrift Stumm.",
+      "readable_case_path": "cases/people/constantinople_embassy_signature.md",
+      "readable_mapping_rules": {
+        "umlauts": "AE/OE/UE may display as ä/ö/ü; all normalized non-X labels are preserved.",
+        "supplies": [],
+        "punctuation": "Editorial; the two question marks in B1 are positional unknowns, not grammatical punctuation."
+      }
+    }
+  ],
+  "unread_context": {
+    "id": "p162_C1_unread_context",
+    "printed_page": 162,
+    "source_section": "C1",
+    "headers": [
+      "C) ==- v NKJ (09.45 a.m., November 9th)",
+      "(missed first part of this message)",
+      "RICHI--? 1 TL"
+    ],
+    "rows": [
+      "GGDFX VVVDV VVDVD VDXDG VVXXG GDDVV XXVGD VVGXD",
+      "XGVXD DDAXD GVGDF AGVDD VGXXV AVDGD GDGAX FDGGD",
+      "DDVXX VDVGD FFVDF AXAXD XGFFV VXAVA AFAXD AG"
+    ],
+    "literal_source": "GGDFXVVVDVVVDVDVDXDGVVXXGGDDVVXXVGDVVGXDXGVXDDDAXDGVGDFAGVDDVGXXVAVDGDGDGAXFDGGDDDVXXVDVGDFFVDFAXAXDXGFFVVXAVAAFAXDAG",
+    "source_slots": 117,
+    "status": "Unread context only; not an accepted record or a continuation reconstructed from C2."
+  },
+  "source_glyph_sensitivity": {
+    "record": "p162_B1",
+    "source_index": 110,
+    "primary_glyph": "F",
+    "primary_status": "Provisional visual reading; treated as an observed coordinate and charged when changed.",
+    "alternative_glyph": "E",
+    "alternative_status": "Noncoordinate source mask; separately priced sensitivity, not a reduction in the primary cost.",
+    "image": "sources/p162_B_faint.png"
+  },
+  "limits": [
+    "The all-boundary scans test the stated fixed text and XA pair constraints only; their minima do not establish historical uniqueness.",
+    "Insertion boundaries 0 and 1 remain equally priced and yield the same repaired stream after a missing D is supplied, with different source-origin assignments.",
+    "A historically familiar map scale does not establish a new key assignment.",
+    "The F/E source sensitivity changes one observed substitution into one source-mask fill; it cannot silently reduce the main cost.",
+    "Source counts and glyph observations were manually reviewed from the hashed images; the executable checks independently reproduce the stated model arithmetic."
+  ]
+}
