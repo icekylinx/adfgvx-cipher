@@ -1,0 +1,59 @@
+# Aerial reconnaissance of ferries and horse loading
+
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+
+## p144 C1
+
+**Status:** 71 native plaintext positions, 10 unresolved in raw output; 5 observed-coordinate substitutions and 8 source-mask fills in the proposal. No source position, frame length, key or numerical label is silently changed.
+
+**Source and dates:** Page heading: 6th NOVEMBER, 1918; C) UKS v ZON (---- November 7th); 1 TL RICHI-142.
+
+![Source p144 C1](../../experiments/nov6_resale_and_air_reconnaissance/sources/p144_C1.png)
+
+**Raw output:**
+
+```text
+OXKXM5XL?FTERKUN?UNG5X11X?BEIKIAD?VOFAEHRE?XVE?PMD?NGV?4PFE?DEN?TKANNTX
+```
+
+**Edited output — counted proposal:**
+
+```text
+OXKXM5XLUFTERKUNDUNG5X11X?BEIKIAD?VOFAEHRENXVERLADUNGVONPFERDENERKANNTX
+```
+
+**Readable German — the same candidate labels with spacing and punctuation:**
+
+> O. K. M5. Lufterkundung 5 / 11. ? Bei KIAD?VO Faehren, Verladung von Pferden erkannt.
+
+**Meaning:** The proposed reading reports aerial reconnaissance dated 5/11: ferries and loading of horses were observed near the unresolved place written KIAD?VO. The leading unresolved position and designation M5 remain literal; no definite modern place or unit is assigned.
+
+**Conditional interpretation and evidence:** The readable proposal uses five observed-coordinate substitutions and eight source-mask fills. It leaves one position before `BEI` and one inside `KIAD?VO` unknown. The tempting place expansion is not adopted. `M5`, the date labels `5/11`, and the initial `O K` remain literal. The number-like raw garble in `V?4` is changed to the ordinary word `VON` only through the explicitly priced proposal; there is no substitution-square relabeling.
+
+### Explicit source changes
+
+All indices are zero-based. Unknown slots retain their position.
+
+| Source index | Printed | Proposed | Cost |
+|---:|---|---|---|
+| 50 | `X` | `V` | Observed-coordinate substitution |
+| 72 | `X` | `V` | Observed-coordinate substitution |
+| 106 | `D` | `A` | Observed-coordinate substitution |
+| 107 | `V` | `X` | Observed-coordinate substitution |
+| 108 | `X` | `V` | Observed-coordinate substitution |
+| 5 | `-` | `V` | Source-mask fill |
+| 6 | `-` | `A` | Source-mask fill |
+| 7 | `-` | `F` | Source-mask fill |
+| 8 | `-` | `D` | Source-mask fill |
+| 9 | `-` | `F` | Source-mask fill |
+| 12 | `-` | `X` | Source-mask fill |
+| 13 | `-` | `V` | Source-mask fill |
+| 14 | `-` | `V` | Source-mask fill |
+
+### Reproducibility and attribution
+
+The [input](../../experiments/nov6_resale_and_air_reconnaissance/inputs.json) binds the literal transcription to exact PDF crops. The [certificate](../../experiments/nov6_resale_and_air_reconnaissance/certificates.json) gives the raw paired-coordinate domains, every source change, and the forward checks. The [verifier](../../experiments/nov6_resale_and_air_reconnaissance/verify.py) reproduces them without changing the published Nov4–6 key.
+
+This edition is by icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical source; Lasry, Niebel, Kopal and Wacker supply the published reconstruction and key provenance. Earlier repository OCR and the p136/p152 continuation analysis are retained in the [attribution record](../../experiments/nov6_resale_and_air_reconnaissance/prior_candidates.json). No first-decipherment priority is claimed.

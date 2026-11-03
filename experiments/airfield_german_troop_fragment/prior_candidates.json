@@ -1,0 +1,35 @@
+{
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "scope": "Earlier repository OCR is preserved with reproducible unchanged-key decodes. The prior volatile exploration cache was lost when the runtime reset; these are explicitly recomputed comparisons, not a claimed byte-for-byte copy of that cache. Earlier published key and known corpus credit remain in the source record.",
+  "records": [
+    {
+      "block": "p154_ocr_block2",
+      "key": "Nov4-6",
+      "source_length": 35,
+      "raw_unchanged_key": "X9K7E5F6NMZP68KDG",
+      "context_headers_ocr": [
+        "B) ZON v UKS ( 10-04 pem., Novenbder 7th)"
+      ],
+      "scope": "Recomputed unchanged-key output from the frozen earlier OCR block; not a claim that this edition first discovered its content."
+    },
+    {
+      "block": "p154_ocr_block3",
+      "key": "Nov4-6",
+      "source_length": 137,
+      "raw_unchanged_key": "WMLN9NTXR4G?BUPLT1ZT?ZHTCFPFLT5JX8NAEPJPN36?N4TGK4CQBBTW5FHWS9RIN05E",
+      "context_headers_ocr": [
+        "B) ZON v UKS ( 10-04 pem., Novenbder 7th)"
+      ],
+      "scope": "Recomputed unchanged-key output from the frozen earlier OCR block; not a claim that this edition first discovered its content."
+    }
+  ],
+  "previously_observed_merged_candidate": {
+    "source_blocks": [
+      "p154_ocr_block2",
+      "p154_ocr_block3"
+    ],
+    "key": "Nov4-6",
+    "plaintext": "ANSCHEINENDDORT?LUGPLATZXXX2XINLINIEXMIROCXBR?APALANKA?SICHERNNURNOCHDEUTSCHETRUPPELXX",
+    "provenance": "Earlier merged OCR candidate explicitly reported in the session before visual source review. The original volatile exploration cache was lost during a runtime reset; this record preserves the displayed text without inventing a file digest."
+  }
+}

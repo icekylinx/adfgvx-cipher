@@ -11,18 +11,18 @@ by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 527 other physical source records**, with all
-22 challenge entries preserved. It adds **332 physical records across 94 source
+This snapshot compares **195 → 540 other physical source records**, with all
+22 challenge entries preserved. It adds **345 physical records across 101 source
 packages** and keeps every earlier record. Interpretation and open-target
 method audits add no physical records.
 
-The source packages account for **71,434 literal source slots** and
-**35,966 modeled plaintext positions**, of which
-**34,580 have fixed raw labels** under their stated frames.
+The source packages account for **73,895 literal source slots** and
+**37,197 modeled plaintext positions**, of which
+**35,773 have fixed raw labels** under their stated frames.
 These are coverage counts, including repeated copies, prior body readings,
 conditional frames and unresolved historical numerals. They are not a count
 of first decipherments or independently authenticated historical letters.
-All **685 observed-coordinate substitutions** remain separately priced.
+All **710 observed-coordinate substitutions** remain separately priced.
 Printed-mask fills, missing-slot fills, copied prefixes and source-layout
 exclusions keep their distinct units in each package. In particular, the
 copy-conditioned p157 A1 record contributes **0/95 fixed raw positions**;
@@ -126,12 +126,13 @@ its copied values are excluded from the fixed-raw total.
 | [September radio instructions: Tiflis routing and key destruction](../september_radio_instructions/README.md) | 4 | 798 | 399 | 389 | 10 |
 | [Siegfried assignment cancellation: conditional surplus coordinate](../siegfried_assignment_cancellation/README.md) | 1 | 401 | 200 | 196 | 7 |
 | [State-bank accounting request and dispatched cheques](../staatsbank_accounting_cheques/README.md) | 2 | 401 | 201 | 192 | 5 |
-
-The [complete inventory](inventory.json) preserves every added identifier,
-package summary, case path and counting limit. The [inputs](inputs.json)
-pin both catalogues and 1362 package/case artifacts. Earlier statuses,
-subjects and credits are unchanged; 164 old path fields follow the explicit
-topic-migration map.
+| [November 6 resale and aerial reconnaissance](../nov6_resale_and_air_reconnaissance/README.md) | 2 | 412 | 206 | 196 | 6 |
+| [Early radio and leave records](../early_radio_and_leave_records/README.md) | 4 | 812 | 406 | 391 | 3 |
+| [Odessa consular routing and a Magdeburg wagon-sale instruction](../odessa_wagon_sale/README.md) | 2 | 490 | 245 | 241 | 1 |
+| [Urgent shipping capacity and probable reliance on sea transport](../urgent_shipping_space/README.md) | 2 | 388 | 194 | 193 | 1 |
+| [Benzol-pump inquiry with an explicit missing-coordinate model](../benzol_pump_query/README.md) | 1 | 101 | 51 | 47 | 6 |
+| [An airfield and German troops: the surviving third part on p154](../airfield_german_troop_fragment/README.md) | 1 | 172 | 86 | 83 | 2 |
+| [OKM availability through an incompletely identified radio route](../okm_radio_route/README.md) | 1 | 86 | 43 | 42 | 6 |
 
 ## Additional interpretation and method audits
 
@@ -165,9 +166,11 @@ retains exact unknown fields and exposes prose-only spellings in six cases. A fo
 The p111/p112 package also checks every nonseparator label in seven complete
 readable passages, preserving all five unresolved positions.
 
+The [live readable-label audit](../../data/reviews/live_readable_mappings_20261103.json) now checks 97 records in 50 case pages: 8,440 ordered nonseparator labels, 50 literal unresolved positions, and 3 explicitly declared display-only letters. It reads the actual Markdown quotations and their linked raw or edited streams, including protected internal separators and positional question marks. Its original reviewed mappings remain unchanged as further records are appended.
+
 ## Independent source-image binding
 
-All **405 distinct delivered source images** have normalized PDF-page, rectangle, scale,
+All **422 distinct delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph

@@ -1,0 +1,185 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Urgent shipping capacity and probable reliance on sea transport",
+  "case": "cases/naval/urgent_shipping_space.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p218_reviewed.png",
+      "pdf_page_1based": 221,
+      "crop_pdf_points": [
+        58,
+        495,
+        525,
+        690
+      ],
+      "render_scale": 3,
+      "sha256": "a56627d9d00c923fc7e7c16753e04cdcf78cb9deb3cd995c7da01700f1327f79",
+      "width": 1401,
+      "height": 585,
+      "channels": 3,
+      "rgb_sha256": "31f071b3c9341daba9660cc11cd8bf95bef17bdc782be9e1183f5e9990ba78cd"
+    }
+  ],
+  "keys": {
+    "Nov25-28": {
+      "id": "Nov25-28",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        21,
+        9,
+        6,
+        14,
+        10,
+        20,
+        1,
+        16,
+        18,
+        7,
+        15,
+        4,
+        11,
+        22,
+        5,
+        17,
+        23,
+        2,
+        12,
+        8,
+        19,
+        3,
+        13
+      ],
+      "column_count": 23,
+      "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+      "square_rows": [
+        "HQ05DK",
+        "ZAOYM6",
+        "BEIWTJ",
+        "7PSCFL",
+        "V94132",
+        "NGURX8"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  },
+  "records": [
+    {
+      "id": "p218_B2",
+      "title": "Urgent shipping space for personnel and horses",
+      "key_id": "Nov25-28",
+      "header_literal": "B) KOW v RVA (01.36 a.m., November 26th); KR AN LP 2100 (11/25) 3 TLE; (1 TL missing); 2 TL RICHI-188",
+      "edited_output": "SOFORTIGESENDUNGVONSCHIFFSRAUMFUERJ3YYYMANN3YYYPFERDEXJ3YYYMANN3YYYPFERDEXRTVLDRINGENDGEBOTENX",
+      "readable_german": "Sofortige Sendung von Schiffsraum fuer J3YYY Mann 3YYY Pferde. J3YYY Mann 3YYY Pferde. RTVL dringend geboten.",
+      "meaning": "The surviving second part urgently requests shipping capacity for personnel and horses. The paired capacity labels are repeated in the source. J3YYY, 3YYY and RTVL remain literal; no numerical total or port identification is imposed.",
+      "notes": [
+        "The source explicitly says “1 TL missing.” This edition starts with the complete native 188-coordinate second part and supplies no missing first body.",
+        "SEGDUNG to SENDUNG is one observed-coordinate substitution. All source coordinates remain in native order.",
+        "Both repetitions of J3YYY MANN 3YYY PFERDE remain in the exact stream and readable passage. They are not silently converted to familiar decimal numbers or counted as separate telegrams.",
+        "RTVL is not expanded into a named port or headquarters. The printed interception date November 26 and originating line 11/25 remain separate."
+      ],
+      "protected_fields": [
+        "J3YYY",
+        "3YYY",
+        "RTVL"
+      ],
+      "printed_page": 218,
+      "source_section": "B2",
+      "source_rows": [
+        "DAXGF DFDDG FVXDX DDFGD GGGFV DFDVV GXXAG AXGVD",
+        "DVGVG GXAXG VDDGX VAFAD DVGVF FAVVG DDXAG FGGGV",
+        "ADFFD DFVFD GGFVV GAFXF FGDVF DFXVD DDGXV FAXVA",
+        "AXVFX GDDXD XDGVX VDAFX DDGXA XAFAX GDDXV VXFDV",
+        "DVFGD GXDGF FXFXV XDDVF FFXAF GGA"
+      ],
+      "source_slots": 188,
+      "advertised_length": 188,
+      "expected_raw": "SOFORTIGESEGDUNGVONSCHIFFSRAUMFUERJ3YYYMANN3YYYPFERDEXJ3YYYMANN3YYYPFERDEXRTVLDRINGENDGEBOTENX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 1,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p218_B3",
+      "title": "Probable reliance on sea transport; literal command references",
+      "key_id": "Nov25-28",
+      "header_literal": "B) KOW v RVA (01.36 a.m., November 26th); KR AN LP 2100 (11/25) 3 TLE; 3 TL RICHI-200",
+      "readable_german": "Da wahrscheinlich alle Truppen auf Seetransport angewiesen. Gen. Kdo. ? B V 72. Gen. Kdo. Z B N 72. JAXNR42XJ2GEH.",
+      "meaning": "The third part explains that all troops will probably depend on sea transport. Its command and reference fields remain literal. This is a stated expectation and an urgent request for capacity, not proof that ships were supplied or the troops transported.",
+      "notes": [
+        "The native 200-coordinate body contains one printed dash in -AGXG. It remains masked and unfilled; no observed coordinate changes.",
+        "The remaining source-mask position has domain {3, D, F, M, T, X}. A familiar abbreviation is not forced into that field.",
+        "The two command fields retain their different V and N labels, the repeated 72, and the complete footer JAXNR42XJ2GEH. No historical unit identity or numbered reference is inferred."
+      ],
+      "protected_fields": [
+        "JAXNR42XJ2GEH"
+      ],
+      "printed_page": 218,
+      "source_section": "B3",
+      "source_rows": [
+        "DGXFG VXVFA FDXDX VXFXV FVVVX GGFXA FXXDG XGVXV",
+        "DXADX GDFVX VVADD DDXVV XDXDX AGAXV GDDGA VXFFF",
+        "FAFFF AXGXG GXAAV FFVFA XVDVX FXDAX FGDFD XFDDX",
+        "XXDXF XVAXX DAAGF -AGXG FFDDV FDAAA DDFVX AVFGF",
+        "DXAXA GGDGD XDXVA AGGFX XAVFG VFVXV FDADF DFAXD"
+      ],
+      "source_slots": 200,
+      "advertised_length": 200,
+      "expected_raw": "DAWAHRSCHEINLICHALLETRUPPENAUFSEETRANSPORTANGEWIESENXGENXKDOX?XBXVX72XGENXKDOXZXBXNX72XJAXNR42XJ2GEH",
+      "edited_output": "DAWAHRSCHEINLICHALLETRUPPENAUFSEETRANSPORTANGEWIESENXGENXKDOX?XBXVX72XGENXKDOXZXBXNX72XJAXNR42XJ2GEH",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "0e4a9743b423bb063cbc1d397e6a71e686ec7aff263d6448300e57681e58be4b",
+    "ocr_snapshot.json": "e875547f2dbd9533cb7377eabb585df93fa5814116f411d2535cb253c14f4555"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

@@ -4,7 +4,7 @@
 
 Appointments, staff transfers, travel permissions, personnel inquiries and civilian affairs are collected here.
 
-**49 reviewed physical records across 27 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**50 reviewed physical records across 28 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -20,6 +20,7 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [Braila inquiry about dragoman Schaefer's return from leave](schaefer_return_inquiry.md) | p107 C |
 | [Two-part discharge instruction naming Rudolf twice](rudolf_discharge.md) | p108 B1, p108 B2 |
 | [Medical-company report and a request for clarification](medical_company_inquiry.md) | p117 A |
+| [Steiling asks for additional leave pending a decision](steiling_leave_request.md) | p119 A |
 | [Von Schorlemer: demobilization work inquiry and reply](schorlemer_demobilization_inquiry.md) | p122 B, p155 B |
 | [A director-departure inquiry with an unresolved reference](director_departure_query.md) | p123 B |
 | [Kremp's request for a departure date — p131, p149 and p159](kremp.md) | p131 B, p149 B, p159 D |
@@ -55,6 +56,7 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [p108 B1](rudolf_discharge.md#p108-b1) | Immediate discharge request for Gefr Rudolf Rudolf assigned to the embassy | Native 130 coordinates; zero edits; repeated name retained | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed repository body candidate |
 | [p108 B2](rudolf_discharge.md#p108-b2) | Discharge and embassy notification, with unresolved final reference label | 135 visible slots versus 136; conditional D?AGD frame; all 5 gap positions and 6 completions retained; zero adopted edits/fills | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed repository body candidate |
 | [p117 A](medical_company_inquiry.md#p117-a) | Clarify a reported medical company versus a field hospital | 157/160 fixed raw positions; 1 coordinate substitutions, 3 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier unreviewed OCR candidates credited separately |
+| [p119 A](steiling_leave_request.md#p119-a) | Steiling asks for additional leave pending a decision | 143/143 native raw positions; 0 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4-6 key; prior OCR provenance retained |
 | [p122 B](schorlemer_demobilization_inquiry.md#p122-b) | Trade Minister asks whether von Schorlemer can join demobilization work | Native 252-slot frame; 5 observed-coordinate substitutions and 33 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 | [p123 B](director_departure_query.md#p123-b) | Question whether a director should depart; name/reference uncertainty retained | 160/170 raw positions; 7 substitutions and 8 source-mask fills; 2 reference positions unresolved; optional name separately priced | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed body candidates retained |
 | [p131 B](kremp.md) | Kremp asks for his departure date | 82/84 raw positions; later second-key body supports repairs | icekylinx and GPT-6 Astra Pro (2026) |

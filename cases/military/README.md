@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**209 reviewed physical records across 68 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**213 reviewed physical records across 72 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -32,15 +32,18 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [Mackensen's withdrawal report: the separately received second part](mackensen_withdrawal_part2.md) | p118 A2 |
 | [Hungarian armistice negotiations: troop departure and instructions requested](hungarian_armistice_instructions.md) | p124 A1, p124 A2, p124 A3 |
 | [Armistice transit and withdrawal planning](armistice_transit_planning.md) | p125 A1, p125 A2, p125 A3, p125 A4, p126 A5, p126 A6, p126 B |
+| [March report and aerial reconnaissance with unresolved unit and place](nov4_march_air_reconnaissance.md) | p127 A3 |
 | [Surviving Transylvania situation report](transylvania_situation_report.md) | p128 B1, p129 A7, p129 A8, p137 A4, p137 A5 |
 | [Recall of contract-bound military-mission members from Turkey](turkish_mission_recall.md) | p130 A1, p130 A2, p131 A3, p131 A4 |
 | [Two additional witnesses to the armistice-planning traffic](armistice_clause_witnesses.md) | p137 B4, p137 C |
 | [Sevastopol routing amendment with twelve opaque code groups](sevastopol_coded_routing.md) | p139 A1, p139 A2, p139 A3 |
 | [Return Seeflugstation Ost personnel to the second detachment](seaplane_personnel_return.md) | p141 B |
 | [Request for a position on a Dobrudscha report](dobrudscha_report.md) | p142 C |
+| [Aerial reconnaissance of ferries and horse loading](nov6_horse_loading_reconnaissance.md) | p144 C1 |
 | [Wallachia withdrawal preparations: p150 B1–B5](wallachia_withdrawal_preparations.md) | p150 B1, p150 B2, p150 B3, p150 B4, p150 B5 |
 | [November 7 report fragments and a separate telegram acknowledgment](nov7_fragment_and_acknowledgment.md) | p151 A1, p151 A2, p151 B |
 | [Report of surrender to a Soldiers Council](soldiers_council_surrender.md) | p151 C |
+| [An airfield and German troops: the surviving third part on p154](airfield_german_troop_fragment.md) | p154 B3 |
 | [Gomel route derailment and station-train forwarding](nov7_derailment_and_trains.md) | p155 D, p169 B |
 | [Armistice-departure report: the p151/p157 copy relation](armistice_departure_copy.md) | p157 A1 |
 | [Romanian pacification proposal and a request for consultation](romanian_pacification_consultation.md) | p157 A2, p157 A3, p157 A4, p157 A5 |
@@ -62,6 +65,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [Ober Ost troop movements: a conditional reading across two obliterations](oberost_troop_movement_obliterations.md) | p186 B1 |
 | [Wishing to travel home and uncertainty over Baltic transport](home_departures_baltic_transport.md) | p186 B2, p186 C1 |
 | [Armistice conditions and urgent provisions requests on Childs p188](armistice_provisions_requests.md) | p188 A, p188 B2, p188 C1 |
+| [Benzol-pump inquiry with an explicit missing-coordinate model](../context/benzol_pump_query.md) | p189 D |
 | [p191 A — Boots and clothing for Oderberg](p191_A.md) | p191 A1, p191 A2 |
 | [p200 A — Siedlce garrisons reach Thorn](p200_A.md) | p200 A |
 | [p201 B / p206 A — reporting orders linked by a shared reference](p201_p206_orders.md) | p201 B1, p201 B2, p206 A1, p206 A2, p206 A3 |
@@ -150,6 +154,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p126 A5](armistice_transit_planning.md) | Conditional pretransposition-loss reading of the armistice report and march decision | 131/134 fixed positions under conditional pretransposition-loss geometry; 4 coordinate substitutions, 2 source-erasure fills and one interim insertion; original odd frame preserved | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier unreviewed OCR candidates credited separately |
 | [p126 A6](armistice_transit_planning.md) | Urgent request for the actual armistice agreement | 120/121 fixed positions in the exact source frame; 2 coordinate substitutions, 1 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier unreviewed OCR candidates credited separately |
 | [p126 B](armistice_transit_planning.md) | Separate receipt notification retaining literal OHL/OKM reference labels | 67/67 fixed positions in the exact source frame; 2 coordinate substitutions, 0 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier unreviewed OCR candidates credited separately |
+| [p127 A3](nov4_march_air_reconnaissance.md#p127-a3) | March report and aerial reconnaissance with unresolved unit and place | 90/100 native raw positions; 2 coordinate substitutions + 6 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4-6 key; prior OCR provenance retained |
 | [p128 B1](transylvania_situation_report.md#p128-b1) | Military situation after the collapse in Transylvania and Hungary’s armistice | One printed-dash fill; missing parts explicitly retained | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed readings and Lasry et al. different report distinguished |
 | [p129 A7](transylvania_situation_report.md#p129-a7) | Request concerning the unknown general political situation and a possible armistice | One printed-dash fill; incomplete governing context and raw VX retained | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed readings and Lasry et al. different report distinguished |
 | [p129 A8](transylvania_situation_report.md#p129-a8) | Request for acknowledgment; raw secret reference retained | Three word/separator coordinate repairs; reference unchanged | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed readings and Lasry et al. different report distinguished |
@@ -166,6 +171,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p139 A3](sevastopol_coded_routing.md#p139-a3) | Distribution and reference 53689 for the coded routing message | Native 212 coordinates; zero edits; YU/NACAR/GROSZ/ER labels retained across the message | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier repository candidates and OCR limits retained |
 | [p141 B](seaplane_personnel_return.md#p141-b) | Return Seeflugstation Ost personnel to second rather than first seaplane detachment | Native340 coordinates;3 observed substitutions; no fills or frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidates |
 | [p142 C](dobrudscha_report.md) | Request position on Entente report of renewed Romanian occupation of Dobrudscha | 119/121 fixed raw labels; 1 coordinate substitutions and 2 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+| [p144 C1](nov6_horse_loading_reconnaissance.md#p144-c1) | Ferries and horse loading in aerial reconnaissance; place remains KIAD?VO | 61/71 native raw positions; 5 coordinate substitutions + 8 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior continuation and OCR attribution retained |
 | [p150 B1](wallachia_withdrawal_preparations.md) | Opening to OHL: departure preparations and cited instruction | Source edition: 97/97 fixed positions, 0 coordinate substitutions and 4 erasure fills; native frame retained | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates retained |
 | [p150 B2](wallachia_withdrawal_preparations.md) | Further delay and the Danube/Rustschuk threat | Source edition: 99/99 fixed positions, 3 coordinate substitutions and 7 erasure fills; native frame retained | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates retained |
 | [p150 B3](wallachia_withdrawal_preparations.md) | Earlier enemy crossing, Wallachian plain and advance parties | Source edition: 101/102 fixed positions, 4 coordinate substitutions and 12 erasure fills; native frame retained | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates retained |
@@ -175,6 +181,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p151 A2](nov7_fragment_and_acknowledgment.md#p151-a2) | Enemy movement toward FEHERTEMPLOM; unfinished army-march fragment | Native 186 coordinates; one substitution; only part 2 of source-labeled 5-part message | icekylinx and GPT-6 Astra Pro (2026); published partial Nov7–9 key; earlier candidates retained |
 | [p151 B](nov7_fragment_and_acknowledgment.md#p151-b) | Acknowledgment of telegram 11212; separate handwritten duplicate layer | 161 composite slots; 156 typed frame; 3 substitutions; five handwritten slots retained separately with conditional exclusion costs | icekylinx and GPT-6 Astra Pro (2026); published partial Nov7–9 key; earlier candidates retained |
 | [p151 C](soldiers_council_surrender.md#p151-c) | Gouvernement and nearby barracks reported surrendered to Soldiers Council | Native 154 coordinates; zero edits; location and ROU identity not inferred | icekylinx and GPT-6 Astra Pro (2026); published partial Nov7–9 key; earlier candidates retained |
+| [p154 B3](airfield_german_troop_fragment.md#p154-b3) | Third-part airfield and German troop report | Native 172-slot frame; 2 observed-coordinate substitutions and 3 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p155 D](nov7_derailment_and_trains.md#p155-d) | Morning report: derailed freight train and both tracks blocked | Native 316-slot frame; 3 observed-coordinate substitutions and 5 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 | [p157 A1](armistice_departure_copy.md#p157-a1) | Copy-conditioned armistice-departure report fragment | 0/95 fixed raw positions; 83 visible slots; conditional 190-slot copy reconstruction: 5 substitutions, 5 printed-mask fills, 107 absent-coordinate fills; opaque closing retained | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; explicit p151 copy and gap assumptions |
 | [p157 A2](romanian_pacification_consultation.md#p157-a2) | Romanian government considering a military pacification action | Native 200-coordinate frame; literal numeric labels and missing-letter spellings retained | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 partial key and earlier body candidates retained |
@@ -226,6 +233,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p188 A](armistice_provisions_requests.md) | Conditional armistice-conditions request to OHL | Conditional 224-coordinate frame from225 visible slots;105/112 raw→112/112 edited;15 observed substitutions+6 fills; one K/X-like mark excluded,0–1 observed-coordinate deletion; not uniquely solved | icekylinx and GPT-6 Astra Pro (2026); published partial key credited to Lasry et al.; preexisting unreviewed machine body candidates retained |
 | [p188 B2](armistice_provisions_requests.md) | Urgent provisions need and five-day limit | Native176 coordinates;84/88 raw→88/88 edited;10 observed substitutions,0 fills; jammed-to-end note retained | icekylinx and GPT-6 Astra Pro (2026); published partial key credited to Lasry et al.; preexisting unreviewed machine body candidates retained |
 | [p188 C1](armistice_provisions_requests.md) | Provision trains with flour and oats to Szolnok | Native268 coordinates;130/134 raw and edited;4 observed substitutions,0 fills; interval,quantity and headquarters field unresolved | icekylinx and GPT-6 Astra Pro (2026); published partial key credited to Lasry et al.; preexisting unreviewed machine body candidates retained |
+| [p189 D](../context/benzol_pump_query.md#p189-d) | Benzol-pump inquiry and request for a prompt answer | Conditional 102-slot frame from101 occupied positions; six observed substitutions, one source-mask fill and one inserted fill; equal gaps37/38 retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p189 E](../context/transport.md#independent-transport-context) | Pump, cars and trailers | Direct partial reading; counts unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p191 A1](p191_A.md) | Boots requested for Oderberg | 104/107 proposed positions; corps and quantity symbols unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p191 A2](p191_A.md) | Heavy clothing on call; wire/radio reply requested | Conditional full-group relocation; 92/93 proposed positions; connective unassigned | icekylinx and GPT-6 Astra Pro (2026) |

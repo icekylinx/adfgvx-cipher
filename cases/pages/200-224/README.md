@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 175–199](../175-199/README.md) · [pp. 225–249 →](../225-249/README.md)
 
-**2 challenge entries and 97 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**2 challenge entries and 101 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p200](#p200) · [p201](#p201) · [p202](#p202) · [p203](#p203) · [p204](#p204) · [p205](#p205) · [p206](#p206) · [p207](#p207) · [p208](#p208) · [p209](#p209) · [p210](#p210) · [p211](#p211) · [p212](#p212) · [p213](#p213) · [p214](#p214) · [p215](#p215) · [p216](#p216) · [p217](#p217) · [p218](#p218) · [p219](#p219) · [p220](#p220) · [p221](#p221) · [p222](#p222) · [p223](#p223) · [p224](#p224).
 
@@ -26,6 +26,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p201 A1](../../finance/odessa_wagon_sale.md#p201-a1) | Consulate and export-company address for a wagon-sale instruction | Native 254-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p201 A2](../../finance/odessa_wagon_sale.md#p201-a2) | Wagon Magdeburg sale request with opaque DAMM LADWIG phrase | Native 236-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p201 B1](../../military/p201_p206_orders.md) | Report positions reached and expected border crossings | 105/105 unchanged; clear source origin date 15 November | icekylinx and GPT-6 Astra Pro (2026) |
 | [p201 B2](../../military/p201_p206_orders.md) | Specify units and travel mode; acknowledge receipt | 86/89 raw positions; shared order reference with p206 | icekylinx and GPT-6 Astra Pro (2026) |
 
@@ -223,6 +225,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p218 A1](../../caucasus/p218_A.md) | Kress/Tiflis notice: armistice Article XII | 140/141 raw positions; article-number repair explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p218 A2](../../caucasus/p218_A.md) | Allied judgment governs withdrawal from former Russian territory | 141/142 raw positions; four substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p218 A3](../../caucasus/p218_A.md) | No Allied demand yet to withdraw the Tiflis guard | 138/139 raw positions; two substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
+| [p218 B2](../../naval/urgent_shipping_space.md#p218-b2) | Urgent shipping space for personnel and horses | Native 188-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p218 B3](../../naval/urgent_shipping_space.md#p218-b3) | Probable reliance on sea transport; literal command references | Native 200-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p219
 

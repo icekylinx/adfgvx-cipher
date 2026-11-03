@@ -1,0 +1,219 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "OKM availability through an incompletely identified radio route",
+  "case": "cases/radio/okm_radio_route.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p180_reviewed.png",
+      "pdf_page_1based": 183,
+      "crop_pdf_points": [
+        70,
+        410,
+        515,
+        495
+      ],
+      "render_scale": 3,
+      "sha256": "14b7cae357d367d379b0bb51ea53788d406315f4b48d4fe0e15fa1bacc24fd35",
+      "width": 1335,
+      "height": 255,
+      "channels": 3,
+      "rgb_sha256": "9da46270bc70efd8c9ff8947fc9092eb073c079b8f959e970a1abb365460fd64"
+    }
+  ],
+  "keys": {
+    "Nov10-12": {
+      "id": "Nov10-12",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        9,
+        12,
+        7,
+        11,
+        3,
+        8,
+        16,
+        6,
+        14,
+        2,
+        10,
+        15,
+        5,
+        13,
+        1,
+        4
+      ],
+      "column_count": 16,
+      "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "square_rows": [
+        "4ARUT1",
+        "OIFSKN",
+        "3?BZPV",
+        "LD?JMX",
+        "CWHQ2E",
+        "?G0?Y?"
+      ],
+      "known_cell_count": 31,
+      "missing_plaintext_symbols": "56789",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 242,
+          "pdf_page_1based": 245,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "The historical appendix also labels this table December 1-3."
+      ],
+      "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "baseline_differences": [
+        {
+          "coordinate": "FD",
+          "baseline": "5",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GF",
+          "baseline": "6",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XA",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XG",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "9",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+      "previously_published_completion": {
+        "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 26,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "FD",
+            "proposed": "5"
+          },
+          {
+            "row_column": "GF",
+            "proposed": "6"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "7"
+          },
+          {
+            "row_column": "XG",
+            "proposed": "8"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "9"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p180_C",
+      "title": "OKM communication route through literal AOK1? and FXT",
+      "key_id": "Nov10-12",
+      "header_literal": "C) LP-vZON (----- November 11th); 24.00; RIZI-86",
+      "edited_output": "ANOHLXOKMXOKMUEBERAOK1?XDURCHFXTXERREICHBAR",
+      "readable_german": "An OHL. OKM. OKM ueber AOK1? durch FXT erreichbar.",
+      "meaning": "The proposed reading addresses OHL and OKM and reports that OKM can be reached via the literal address AOK1? through FXT. The last address character and FXT are not expanded into a unit identity or named station.",
+      "notes": [
+        "All 86 occupied source slots are retained in native order. The O-like glyph in FAXOX is masked and remains unfilled.",
+        "SUBCH to DURCH and EHREACHHAR to ERREICHBAR cost six observed-coordinate substitutions in total. The exact raw layer remains available; the familiar wording is not represented as an unedited source reading.",
+        "The unresolved source position in AOK1? has domain {1, 4, A, R, T, U}. It is not necessarily a numerical digit, and the edition does not choose a standard army designation.",
+        "FXT remains a literal routing label. The missing interception-time field and separate printed 24.00 line are retained without chronological normalization."
+      ],
+      "protected_fields": [
+        "AOK1?",
+        "FXT"
+      ],
+      "printed_page": 180,
+      "source_section": "C",
+      "source_rows": [
+        "DFGAV AVVFX DDAFV AVFXV FDVAG VFVAA FDGAA VAAAD",
+        "FFFAG VDGVG AADAX XFGXD DVXGX FAXOX AGGDV VXGXF",
+        "DVDDV A"
+      ],
+      "source_slots": 86,
+      "advertised_length": 86,
+      "expected_raw": "ANOHLXOKMXOKMUEBERAOK1?XSUBCHFXTXEHREACHHAR",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 6,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "450812ef79dba17693c2899874a3a423dd0857f4eea2b71b82cc96a6a9c4017b",
+    "ocr_snapshot.json": "799e465137e8513e1fb31153ef5bf18034898188e15fe7e32d8cdb3b91347a43"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

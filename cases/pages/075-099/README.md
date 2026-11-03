@@ -4,9 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 50–74](../050-074/README.md) · [pp. 100–124 →](../100-124/README.md)
 
-**0 challenge entries and 56 other reviewed source records across 24 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**0 challenge entries and 57 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
-Jump to page: [p75](#p75) · [p76](#p76) · [p77](#p77) · [p78](#p78) · [p79](#p79) · [p80](#p80) · [p81](#p81) · [p82](#p82) · [p83](#p83) · [p84](#p84) · [p85](#p85) · [p86](#p86) · [p88](#p88) · [p89](#p89) · [p90](#p90) · [p91](#p91) · [p92](#p92) · [p93](#p93) · [p94](#p94) · [p95](#p95) · [p96](#p96) · [p97](#p97) · [p98](#p98) · [p99](#p99).
+Jump to page: [p75](#p75) · [p76](#p76) · [p77](#p77) · [p78](#p78) · [p79](#p79) · [p80](#p80) · [p81](#p81) · [p82](#p82) · [p83](#p83) · [p84](#p84) · [p85](#p85) · [p86](#p86) · [p87](#p87) · [p88](#p88) · [p89](#p89) · [p90](#p90) · [p91](#p91) · [p92](#p92) · [p93](#p93) · [p94](#p94) · [p95](#p95) · [p96](#p96) · [p97](#p97) · [p98](#p98) · [p99](#p99).
 
 Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's exact status and credit; the linked case explains the reading and its qualifications.
 
@@ -118,6 +118,14 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p86 A](../../military/mg08_inventory.md) | Inventory query for German MG08 with tripod mounts; asks quantity and caliber | 149/149 raw labels; 2 word repairs; MG08 and office/reference fields retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+
+## p87
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p87 A1](../../radio/transmitter_dispatch_220_volts.md#p87-a1) | Transmitter dispatch and a 220-volt converter motor | 82/83 native raw positions; 0 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR provenance retained |
 
 ## p88
 

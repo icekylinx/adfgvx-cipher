@@ -4,7 +4,7 @@
 
 Follow requests for funds, currency exchange and purchasing decisions. Individual editions keep raw amount labels and proposed numerical interpretations separate.
 
-**41 reviewed physical records across 17 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**44 reviewed physical records across 19 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -17,11 +17,13 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [ZITAG stop-orders and cancellation of procurement contracts](zitag_purchase_orders.md) | p102 A, p103 B1, p103 B2, p103 D, p106 B |
 | [Money-transport arrival acknowledgment](cash_arrival_acknowledgment.md) | p122 C |
 | [Meal allowances, communal provisioning and a refused supplement](military_allowances.md) | p129 B1, p133 A2, p133 A3, p134 A4 |
+| [Silk resale continuation confirmed by a third source](nov6_silk_resale_continuation.md) | p144 A2 |
 | [Ruble prices and payments above par: companions to p171 A1](ruble_rate_companions.md) | p171 A2, p171 A3 |
 | [State-bank accounting request and dispatched cheques](staatsbank_accounting_cheques.md) | p172 D1, p172 D2 |
 | [Crown airlift to Kronstadt and Hermannstadt](crown_airlift.md) | p174 A1, p174 A2, p174 A3 |
 | [Payments through October and cheque acknowledgements](hauptwechselamt_accounting.md) | p175 B2 |
 | [The interrupted banknote instruction: a complete later witness](crown_banknote_completion.md) | p195 A2 |
+| [Odessa consular routing and a Magdeburg wagon-sale instruction](odessa_wagon_sale.md) | p201 A1, p201 A2 |
 | [A request for thirty million kroner](p205_A.md) | p205 A1, p205 A2, p205 A3, p205 A4 |
 | [Oil cartel at Tiflis: details of shipments from Poti](oil_cartel_dispatch_query.md) | p212 A3 |
 | [Cash transport to Hermannstadt](hermannstadt_cash_transport.md) | p216 B1, p216 B2 |
@@ -51,6 +53,7 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [p133 A2](military_allowances.md#p133-a2) | Reduce cash allowances and use field-ration costs | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
 | [p133 A3](military_allowances.md#p133-a3) | Promote communal purchasing and German dining facilities | Direct complete243-letter reading; unchanged source ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
 | [p134 A4](military_allowances.md#p134-a4) | Requested cost-of-living supplement refused | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
+| [p144 A2](nov6_silk_resale_continuation.md#p144-a2) | Local silk resale continuation corroborates the p136/p152 witnesses | 135/135 native raw positions; 1 coordinate substitution + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior continuation and OCR attribution retained |
 | [p171 A2](ruble_rate_companions.md) | Reported ruble prices in Kiev and Warsaw; companion to Norbert's A1 | Conditional 252-coordinate frame from 261 literal slots: two five-slot exclusions, one added unknown; six substitutions and four fills; two tied local gap placements | icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved |
 | [p171 A3](ruble_rate_companions.md) | Waller recommends paying above par for Bons if necessary | Exact 152 source slots; 74/76 raw to 76/76 with two printed-erasure fills; no observed-coordinate change; duplicated PARI retained | icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved |
 | [p172 D1](staatsbank_accounting_cheques.md#p172-d1) | State-bank accounting inquiry, first part with one missing coordinate | Conditional 198-slot frame from 197 received slots: one inserted coordinate; two observed substitutions, three source-mask fills and one inserted-slot fill; two equal insertion positions retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
@@ -60,6 +63,8 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [p174 A3](crown_airlift.md#p174-a3) | Small-denomination banknotes in an interrupted airlift request | Explicit missing-tail model; 12 ordinary-word fills; three tied one-gap frames retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
 | [p175 B2](hauptwechselamt_accounting.md#p175-b2) | Payments through October and cheque arrival acknowledgements | Native frame; four coordinate substitutions and eight printed-dash fills; four unresolved positions | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; earlier shorter OCR candidate distinguished |
 | [p195 A2](crown_banknote_completion.md) | Full witness to the interrupted small-banknote instruction | Source-copy edition; observed repairs and earlier-source support separated | icekylinx and GPT-6 Astra Pro (2026); prior period keys and earlier editions credited |
+| [p201 A1](odessa_wagon_sale.md#p201-a1) | Consulate and export-company address for a wagon-sale instruction | Native 254-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p201 A2](odessa_wagon_sale.md#p201-a2) | Wagon Magdeburg sale request with opaque DAMM LADWIG phrase | Native 236-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p205 A1](p205_A.md) | Thirty-million-kroner request; shortage of banknotes | 118/118 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p205 A2](p205_A.md) | Vienna bank transfer to Kronstadt for German administration | 152/152 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p205 A3](p205_A.md) | Initial five million in mixed denominations; confirm sufficiency | 117/117 raw positions; unchanged source | icekylinx and GPT-6 Astra Pro (2026) |

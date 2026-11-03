@@ -9,7 +9,7 @@
   "review_finished_utc": null,
   "initial_public_head": "c4c2562f41dd4624f7202962db68ef9e746f50f2",
   "start_catalog_sha256": "50784e7b1a7a51a8e4224a088cdaec21a6c6f25285d869b5049110a667630e75",
-  "final_catalog_sha256": "b8f2f95f1de185dcb836bfe6617c11abea923b63d5e428acfce583d11b908be6",
+  "final_catalog_sha256": "cf8fecee6306554e5fd7394bb2bdda25a99331dc220b23c765d2f79f019f0189",
   "source_pdf": {
     "sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
     "bytes": 156848258,
@@ -3260,6 +3260,233 @@
         "source_reorderings": 0,
         "published_key_changed": false
       }
+    },
+    {
+      "name": "nov6_resale_and_air_reconnaissance",
+      "record_ids": [
+        "p144_A2",
+        "p144_C1"
+      ],
+      "case_pages": [
+        "cases/finance/nov6_silk_resale_continuation.md",
+        "cases/military/nov6_horse_loading_reconnaissance.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 412,
+        "modeled_plaintext_positions": 206,
+        "fixed_raw_label_positions_under_stated_geometry": 196,
+        "known_coordinate_substitutions": 6
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 412,
+        "valid_source_coordinates": 402,
+        "modeled_coordinates": 412,
+        "plaintext_positions": 206,
+        "baseline_fixed_positions": 196,
+        "candidate_fixed_positions": 204,
+        "known_coordinate_substitutions": 6,
+        "source_mask_fills": 8,
+        "new_record_frame_changes": 0,
+        "published_key_changed": false,
+        "older_witnesses_counted_as_new": false
+      }
+    },
+    {
+      "name": "early_radio_and_leave_records",
+      "record_ids": [
+        "p87_A1",
+        "p119_A",
+        "p127_A3",
+        "p127_B1"
+      ],
+      "case_pages": [
+        "cases/military/nov4_march_air_reconnaissance.md",
+        "cases/people/steiling_leave_request.md",
+        "cases/radio/nov4_personnel_transmission_notice.md",
+        "cases/radio/transmitter_dispatch_220_volts.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 812,
+        "modeled_plaintext_positions": 406,
+        "fixed_raw_label_positions_under_stated_geometry": 391,
+        "known_coordinate_substitutions": 3
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 812,
+        "valid_source_coordinates": 797,
+        "modeled_coordinates": 812,
+        "plaintext_positions": 406,
+        "baseline_fixed_positions": 391,
+        "candidate_fixed_positions": 400,
+        "known_coordinate_substitutions": 3,
+        "source_mask_fills": 9,
+        "unfilled_source_mask_coordinates": 6,
+        "frame_changes": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "odessa_wagon_sale",
+      "record_ids": [
+        "p201_A1",
+        "p201_A2"
+      ],
+      "case_pages": [
+        "cases/finance/odessa_wagon_sale.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 490,
+        "modeled_plaintext_positions": 245,
+        "fixed_raw_label_positions_under_stated_geometry": 241,
+        "known_coordinate_substitutions": 1
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 490,
+        "valid_source_coordinates": 490,
+        "modeled_coordinates": 490,
+        "plaintext_positions": 245,
+        "baseline_fixed_positions": 241,
+        "candidate_fixed_positions": 242,
+        "known_coordinate_substitutions": 1,
+        "source_or_model_erasure_fills": 0,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "urgent_shipping_space",
+      "record_ids": [
+        "p218_B2",
+        "p218_B3"
+      ],
+      "case_pages": [
+        "cases/naval/urgent_shipping_space.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 388,
+        "modeled_plaintext_positions": 194,
+        "fixed_raw_label_positions_under_stated_geometry": 193,
+        "known_coordinate_substitutions": 1
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 388,
+        "valid_source_coordinates": 387,
+        "modeled_coordinates": 388,
+        "plaintext_positions": 194,
+        "baseline_fixed_positions": 193,
+        "candidate_fixed_positions": 193,
+        "known_coordinate_substitutions": 1,
+        "source_or_model_erasure_fills": 0,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "benzol_pump_query",
+      "record_ids": [
+        "p189_D"
+      ],
+      "case_pages": [
+        "cases/context/benzol_pump_query.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 101,
+        "modeled_plaintext_positions": 51,
+        "fixed_raw_label_positions_under_stated_geometry": 47,
+        "known_coordinate_substitutions": 6
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 101,
+        "valid_source_coordinates": 100,
+        "modeled_coordinates": 102,
+        "plaintext_positions": 51,
+        "baseline_fixed_positions": 47,
+        "candidate_fixed_positions": 51,
+        "known_coordinate_substitutions": 6,
+        "source_or_model_erasure_fills": 2,
+        "source_mask_fills": 1,
+        "inserted_slot_fills": 1,
+        "source_deletions": 0,
+        "inserted_slots": 1,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "airfield_german_troop_fragment",
+      "record_ids": [
+        "p154_B3"
+      ],
+      "case_pages": [
+        "cases/military/airfield_german_troop_fragment.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 172,
+        "modeled_plaintext_positions": 86,
+        "fixed_raw_label_positions_under_stated_geometry": 83,
+        "known_coordinate_substitutions": 2
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 172,
+        "valid_source_coordinates": 169,
+        "modeled_coordinates": 172,
+        "plaintext_positions": 86,
+        "baseline_fixed_positions": 83,
+        "candidate_fixed_positions": 86,
+        "known_coordinate_substitutions": 2,
+        "source_or_model_erasure_fills": 3,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "okm_radio_route",
+      "record_ids": [
+        "p180_C"
+      ],
+      "case_pages": [
+        "cases/radio/okm_radio_route.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 86,
+        "modeled_plaintext_positions": 43,
+        "fixed_raw_label_positions_under_stated_geometry": 42,
+        "known_coordinate_substitutions": 6
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 86,
+        "valid_source_coordinates": 85,
+        "modeled_coordinates": 86,
+        "plaintext_positions": 43,
+        "baseline_fixed_positions": 42,
+        "candidate_fixed_positions": 42,
+        "known_coordinate_substitutions": 6,
+        "source_or_model_erasure_fills": 0,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
     }
   ],
   "additional_packages": [
@@ -4276,6 +4503,70 @@
     "experiments/staatsbank_accounting_cheques/prior_candidates.json": "4bf506d7fcddeb848ab339ac879ee28f45e6f261ce43152e581aaa63e5c08f14",
     "experiments/staatsbank_accounting_cheques/sources/p172_reviewed.png": "b48525735d65e54d39a8b57f4d4aaf24b9156076b6cd5613e2f81992ae737774",
     "experiments/staatsbank_accounting_cheques/verify.py": "a9512e67f0de1784babc5e4be6fc928ffbe49860be46a04c6e3d6b003ddb3886",
+    "experiments/nov6_resale_and_air_reconnaissance/README.md": "08052680782e924d83828b9604751ff6a996c75430cfb70e8e0f1c653db9d1dc",
+    "experiments/nov6_resale_and_air_reconnaissance/catalog_proposal.json": "249b932b95c946168e3bed416016032172361477afe4ef167d69db96574640bf",
+    "experiments/nov6_resale_and_air_reconnaissance/certificates.json": "4d61df2cc999bf6020a237dbdb25253a8cf9b67a4658f9f572f414d960bf3442",
+    "experiments/nov6_resale_and_air_reconnaissance/inputs.json": "783d703a68e8d7299460a4acd0818221153b2cbddfce3a6b5d4c12d7519bd9fb",
+    "experiments/nov6_resale_and_air_reconnaissance/prior_candidates.json": "4d0b2b44c8ebebcd9d0f4a6f51c55f86564f47658d02b17b9b9cfe00aa281cd8",
+    "experiments/nov6_resale_and_air_reconnaissance/sources/p136_B_witness.png": "e8dc4076014df2816b6881d07f94d08e70667429c71e6c037470407f80c58a46",
+    "experiments/nov6_resale_and_air_reconnaissance/sources/p144_A2.png": "0366cc056f8fd24d8b45c5082804d803ab12802732c7c98cd1c8fa15e601758f",
+    "experiments/nov6_resale_and_air_reconnaissance/sources/p144_A2_GDDAA.png": "2d1574dd432ad01877be0a24a808bf77b8aafe98b3bc7c51938fc90275d2b5e9",
+    "experiments/nov6_resale_and_air_reconnaissance/sources/p144_C1.png": "e66fb8b9681342e413887f4e706f140c606f072766344d72ffe16c32ee783e6a",
+    "experiments/nov6_resale_and_air_reconnaissance/sources/p152_E_witness.png": "41957b929bba6edbc34d2a255ba645e581dc9db9852c5fc24d5256be4897e374",
+    "experiments/nov6_resale_and_air_reconnaissance/verify.py": "3c523ef64e17f2f17047debd18cf9031e1a272ef801270ad9c3dfbf828771f74",
+    "experiments/early_radio_and_leave_records/README.md": "20d177744b75aea3e1503ea7f21326ecb50b2919053e245d3c07d06ebf67688d",
+    "experiments/early_radio_and_leave_records/catalog_proposal.json": "9adf34b6fb75fd0cc167f1f3766b9a60a6ae9ac6cc6a017a04b236ff5c154e0c",
+    "experiments/early_radio_and_leave_records/certificates.json": "88116c465861a43566d1c11b12b6379fbfc88ef96d5ce8b6e3e5a5d1a9ffb659",
+    "experiments/early_radio_and_leave_records/inputs.json": "c870f0edb34a902618b4fdf92c7450de9c7fee9d3dfdd522aa5fd65d79fc42e7",
+    "experiments/early_radio_and_leave_records/prior_candidates.json": "4ab324d691f0a9f6a79683be74505296931c8f5daa1fcf7a91e4c11ac560315a",
+    "experiments/early_radio_and_leave_records/sources/p119_A.png": "853f2a9af4ad0faa4577af0461a83d786aea2bb30e7fd08e6c54a4284ae38952",
+    "experiments/early_radio_and_leave_records/sources/p119_G_detail.png": "2cc8750934fca85a236e64d505f26f9771ad5f2fa6254193898ee0abe2de8022",
+    "experiments/early_radio_and_leave_records/sources/p127_A3.png": "8e5e387a6b7bb66d69759755f92cf2533a72abaf7c438dca1a9292ea32c9890e",
+    "experiments/early_radio_and_leave_records/sources/p127_B1.png": "fdff54eebc8f2eda732476cf96c6a80dcad1f0db3b1bccc4510a74c8cfbf65d8",
+    "experiments/early_radio_and_leave_records/sources/p127_F_detail.png": "055f4ab104bd47b5d5050ca4f4cd66598d4211f103039b2a2d73b0ef6c49f4e8",
+    "experiments/early_radio_and_leave_records/sources/p87_A1.png": "ac8502e2794f2a76b3ba3694d9f964a81aae5c542a54dabf19d5e19037ec8840",
+    "experiments/early_radio_and_leave_records/sources/p87_E_detail.png": "d79cebb7512bf9c9a4ea5b1c35d7363b5c4ecef598cc1a540ae034f7d0fc7300",
+    "experiments/early_radio_and_leave_records/verify.py": "4d3f9168f6cedb52f5849d0b04bde1c4f7b273c4a333a034cddb3285dba06fe7",
+    "experiments/odessa_wagon_sale/README.md": "a3e78ed7c494370ad4411f06c80882e1c993f55cd030c55cc96ce8af7b0d5ff3",
+    "experiments/odessa_wagon_sale/catalog_proposal.json": "6ee5ac9fc672a7b7c656e06710a6e491213159b1a5679521a182bf1d73fd4a2c",
+    "experiments/odessa_wagon_sale/certificates.json": "99dcce9be7bfe7a401f4f65201f001a7728a9577befd007fb4a66a0be5b2379f",
+    "experiments/odessa_wagon_sale/inputs.json": "6a9e8e135c214725d890512860a3b8bf8e9d5b88671f1a50380ff3a31aeedbac",
+    "experiments/odessa_wagon_sale/ocr_snapshot.json": "69990d2157a7193fd7e8f1a261d1397780f30a6a15a68643e64554b4596b5ac7",
+    "experiments/odessa_wagon_sale/prior_candidates.json": "ed82c6c4a26f8516ae939d8217116ae5b37c646391e33eda60bf89b390a72edc",
+    "experiments/odessa_wagon_sale/sources/p201_reviewed.png": "82c439c027bae7496a5f0d40eb01c30afb8e7b596bb5a22cd0baf7007fff66b1",
+    "experiments/odessa_wagon_sale/verify.py": "4068416093253d2ba06b921c364bc5c4e21040385ce5fa98882ab37c9a55ff4c",
+    "experiments/urgent_shipping_space/README.md": "d9d677bbd872a9186ffcfe806d5e98e3a6f42df05a07187c2681fc1a4170ca76",
+    "experiments/urgent_shipping_space/catalog_proposal.json": "48efb33a3bdc61a77dd90380f0c657cfb803f8639e3388288c2adfed27b95a77",
+    "experiments/urgent_shipping_space/certificates.json": "e843b5601eb6d372bcebb4338f7bfa369874890d96aa3baf3e23dd3f08ade01a",
+    "experiments/urgent_shipping_space/inputs.json": "fa37abb521ba6ecaf2bf549f7567da7cd7d679e547f47bce87d6949cee56309d",
+    "experiments/urgent_shipping_space/ocr_snapshot.json": "e875547f2dbd9533cb7377eabb585df93fa5814116f411d2535cb253c14f4555",
+    "experiments/urgent_shipping_space/prior_candidates.json": "0e4a9743b423bb063cbc1d397e6a71e686ec7aff263d6448300e57681e58be4b",
+    "experiments/urgent_shipping_space/sources/p218_reviewed.png": "a56627d9d00c923fc7e7c16753e04cdcf78cb9deb3cd995c7da01700f1327f79",
+    "experiments/urgent_shipping_space/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
+    "experiments/benzol_pump_query/README.md": "2a08f072fcc95e2d87dc06955d40d08404d3ebd99874b26987a2360cfde6f402",
+    "experiments/benzol_pump_query/catalog_proposal.json": "b9657e5e8e099a533127b48c21177305d623ed0b612a174a0f96eb2280c35de6",
+    "experiments/benzol_pump_query/certificates.json": "fecb54e3ef19e6d910bcfa5e81c331734ff2b7f78493301f546fb78e0bcbcbd5",
+    "experiments/benzol_pump_query/inputs.json": "c7d107a84d3a32571cce616c8bd7325098314c88aa41ba122a74e95589ba213d",
+    "experiments/benzol_pump_query/ocr_snapshot.json": "6fe29051962fe09eab38045c96451c7925ec3446e4f754b36f8690916d5c3523",
+    "experiments/benzol_pump_query/prior_candidates.json": "e4448efdbcf3a4fcfd300b23479ad7ed5c2c25bbfc5ad024da70f8d4286986f6",
+    "experiments/benzol_pump_query/sources/p189_reviewed.png": "f3adc048603d4c13f84696c2044e43f93f5e425df55788efd8b85f5b70a31699",
+    "experiments/benzol_pump_query/verify.py": "e0e39adb29a42b6af5840152c9e1bd18378e8c018657a9d80361c9d6bd9e4d30",
+    "experiments/airfield_german_troop_fragment/README.md": "59fc7c6004879061da493a0585ac0059a71545c54d83848cce3db64d68c6899b",
+    "experiments/airfield_german_troop_fragment/catalog_proposal.json": "66f8f11535ca015d4c1baa8397a097e0d09e9fcdd903ffd697d8f08cc66bfe0a",
+    "experiments/airfield_german_troop_fragment/certificates.json": "f91c71877a50baa3f0891a7a4ec5c75dba79e9aad3e0d9aac8787ec805f507be",
+    "experiments/airfield_german_troop_fragment/inputs.json": "520a5099dd43a8b562c21ef9d0e3290b8a198581ff1540715bc4fdecaa85629c",
+    "experiments/airfield_german_troop_fragment/ocr_snapshot.json": "a88d2ab2f845a7305c47a88abcdbb6d6a57db3ff454364c638cdbbfc945d3604",
+    "experiments/airfield_german_troop_fragment/prior_candidates.json": "86e5b6dd8f0a9d79dc41a8b6ae87f696f70b06ca50eee49e88c067bc2a37fb24",
+    "experiments/airfield_german_troop_fragment/sources/p154_reviewed.png": "54a54bf3eee3edc2dd5a112b3c662e86b9a7e7a78ffa75100da119113b0787b3",
+    "experiments/airfield_german_troop_fragment/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
+    "experiments/okm_radio_route/README.md": "ffb0f7c761da387a254e6f50af44fd55c48cbe5114e5b48c242e64b2006ade1a",
+    "experiments/okm_radio_route/catalog_proposal.json": "681f80be2005e6c9a788a1460a7192bd3d5b7839184ff969910c5e109e734ce5",
+    "experiments/okm_radio_route/certificates.json": "0d23b7730cf5eb0c2ee4f7b1eea62df8ffaff5f88c5226d26262cb14efc64afa",
+    "experiments/okm_radio_route/inputs.json": "9eb3957c7497997ede4d7bd859032c97bb101fb8f17bbcf917bf43750188cadd",
+    "experiments/okm_radio_route/ocr_snapshot.json": "799e465137e8513e1fb31153ef5bf18034898188e15fe7e32d8cdb3b91347a43",
+    "experiments/okm_radio_route/prior_candidates.json": "450812ef79dba17693c2899874a3a423dd0857f4eea2b71b82cc96a6a9c4017b",
+    "experiments/okm_radio_route/sources/p180_reviewed.png": "14b7cae357d367d379b0bb51ea53788d406315f4b48d4fe0e15fa1bacc24fd35",
+    "experiments/okm_radio_route/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
     "experiments/nov25_letter_constraint/README.md": "8e1aa1cf031ba53689225360364b474eeb5d99f7092b359e662fdd86986d49fd",
     "experiments/nov25_letter_constraint/certificates.json": "0df1738a5ee501554b6a529c9889de758e3303ecccb90c3c502c0edfc051a189",
     "experiments/nov25_letter_constraint/inputs.json": "0d862877f6c5fc2b023f33893274e0959258621aee9d007c5e8f3b2edc32ef83",
@@ -4525,8 +4816,19 @@
     "cases/radio/september_tiflis_radio_routing.md": "dee220a1e368232d6fac89e87da37a3a7fa9a2ed9356b4f156fc970a2d698ca4",
     "cases/people/siegfried_assignment_cancellation.md": "ef87b165dc70c06524a2f68ef1ada54c2f6e705bb494491c41c86af838bd5610",
     "cases/finance/staatsbank_accounting_cheques.md": "c13b2c6ead8996a57765de6655502a847557bcdc36fad9e916fdf5c8d4104422",
+    "cases/finance/nov6_silk_resale_continuation.md": "ed8103621c8cd558491c2624df9e2fa75a31e057e1b9ee8556f878261f109710",
+    "cases/military/nov6_horse_loading_reconnaissance.md": "22763f2f1ae2d04970e99bad2f194acf081de4bde6b70362dd58faf31d49e99e",
+    "cases/military/nov4_march_air_reconnaissance.md": "276268bdbb550a7d6945898f8fab99e6c2f49eb0c9e4e494201d6f8fe62f966d",
+    "cases/people/steiling_leave_request.md": "a1d6f00ed1c8cd4c8726d2ed6836418f377daeac71a503dd834754344eca43dc",
+    "cases/radio/nov4_personnel_transmission_notice.md": "ecad749be708a1b679c6bd5cf963bb7a6c6233f0a7ea7d5d3b4382668988a502",
+    "cases/radio/transmitter_dispatch_220_volts.md": "31e68b63fd248b470113346d2335a755cda3755bab5e89705379ed78b43b3341",
+    "cases/finance/odessa_wagon_sale.md": "fe2bc146ffb78f609396f9b6f6887dc1d8ef200c2f5f05a20ef92a3eaafe588c",
+    "cases/naval/urgent_shipping_space.md": "7a61553712101e9fb95d1de921a66e5aa07a86a2cb79f655b8116d770607dc54",
+    "cases/context/benzol_pump_query.md": "e4b87b0be61eba8fd0ff9a95eb6c5de22a4e43c8ddee058d38601dcebcf7cf60",
+    "cases/military/airfield_german_troop_fragment.md": "8ee7548e4b3473879614f61e924236b49be22824e947dd2198168c2b24acd444",
+    "cases/radio/okm_radio_route.md": "9c6568116270485d5537b2296ceb8767ce455bed4c0fbd61fa4e40035f50b01f",
     "data/reviews/caption_cleanup_20261103.json": "dd67043a85033f64a9ab5bcc45c59dc105772e4da333e5562ceb68c1d7683316",
-    "data/reviews/live_readable_mappings_20261103.json": "fd7cff0c957fb877d5506c75e2a8d052b18951dc727ac69d25e74c16ffcd308b",
+    "data/reviews/live_readable_mappings_20261103.json": "874c6238282e8da96b2495e86365d59537731e93f723366a949e770d7584ed34",
     "data/reviews/verify_live_readable_mappings.py": "10ca3017ed764f37a802bc6aa4abc19a9978eb8a5e5d8247f1b49e715c620f5f",
     "data/reviews/reading_conventions_followup_before.json": "634136e43b27bac376ab2128e48188bed1dbae13786eb47927990d91f6cadc15",
     "data/reviews/reading_conventions_followup_audit.json": "d74d02a71ef4b9adcc67d33e3efe78f81535290d7fc487f5895b1888b45c370f",
@@ -4546,8 +4848,8 @@
     "data/reviews/reading_conventions_spacing_before.json": "b7461cff0cafb151383501d7be773ad43de1940e32fa6cc9b6c286338136ef06",
     "data/reviews/reading_conventions_support_audit.json": "358504a577f64ff1d31460a2d5b593efff3e765e38eb1183406c7bfb0ca08110",
     "data/reviews/check_reading_presentation.py": "8025ad223025038b63a20b8ceace0c1cdb0395e2cbd81465cbec7c8de9e65d93",
-    "data/reviews/reading_layer_manifest.json": "2186567947fb2e1fc31f4313b813d11d34054628d5f0042f1598a90cb3711760",
-    "docs/reading-conventions-coverage.md": "afff63222b2113b5014048d496c76b177b8975bec4a67b54707dd36e819ffd6d",
+    "data/reviews/reading_layer_manifest.json": "8de0bcff087a8fd66748264b3217efc844a9941524f543a8e1b93d3e203cfe27",
+    "docs/reading-conventions-coverage.md": "a7d6beaa56d805e7a6874f0f985d1a1263edcaf5f8d780d6b41dc1ecbc3fd6ae",
     "data/reviews/reading_conventions_semantic_before.json": "e6b9d3aa4fc47c760af3d5710a536ef23d9576e1352642bd76b795aca2e4d765",
     "data/reviews/reading_conventions_semantic_audit.json": "5db9a6222c904dccc1ffe3aeef59a6bd36a74cc9278ab00bf03181cfd11549dc",
     "data/reviews/verify_semantic_readings.py": "722c68f8841059607647ace7d5aef01ea27ce26f8451ecce0c5bd03bf95bb395",
@@ -4585,7 +4887,7 @@
     "cases/p109.md": "45b1718634d29cc24e1f9306f15052063c2cec32e5b944c3c9f5d336f5df3825",
     "cases/p132.md": "5f2e079f7469ddf46aa59cadf4478fa7f131208744c34ef9f6eee626c4849d04",
     "cases/p146.md": "86f0ca75b2996a38b1729473060f259eb6b85a747847e37fb71e896a106ae5c9",
-    "cases/p152.md": "9e45bc53079af0154740badc46253dc630d7676dc483c2bf17f9373ecca407d1",
+    "cases/p152.md": "223a2bf0663c368fb9d1b974f85c71431e19a5a354a7f5a9807e81869431602a",
     "cases/p158.md": "6660177b5d2df1a64b3b3a5046141d268896eecb040f2ef555d9bb2a7e2d62bc",
     "cases/p164a.md": "55d3cd4e151191ad3ceef8ca674ce5bbde18f45ea8f6bcc5bd1e64623fccbc71",
     "cases/p164b.md": "a3a28dbbd3ea4440e7541e5e4e674f8cb008dbfad1212c03c9f1a70cf7eb5b37",
@@ -11529,6 +11831,295 @@
       "width": 1335,
       "height": 480,
       "rgb_pixel_sha256": "29a1c39803a9c5e712e749b2bcd6ad4ba38717a95b334f84bab74e632a987204",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov6_resale_and_air_reconnaissance",
+      "path": "experiments/nov6_resale_and_air_reconnaissance/sources/p144_A2.png",
+      "pdf_page_1based": 147,
+      "clip_pdf_points": [
+        50,
+        188,
+        540,
+        404
+      ],
+      "scale": 3,
+      "png_sha256": "0366cc056f8fd24d8b45c5082804d803ab12802732c7c98cd1c8fa15e601758f",
+      "width": 1470,
+      "height": 648,
+      "rgb_pixel_sha256": "bfc4be58608f85177aacd290213f1abca51a0b91c803859c929b9236267ea2ba",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov6_resale_and_air_reconnaissance",
+      "path": "experiments/nov6_resale_and_air_reconnaissance/sources/p144_C1.png",
+      "pdf_page_1based": 147,
+      "clip_pdf_points": [
+        60,
+        552,
+        540,
+        670
+      ],
+      "scale": 3,
+      "png_sha256": "e66fb8b9681342e413887f4e706f140c606f072766344d72ffe16c32ee783e6a",
+      "width": 1440,
+      "height": 354,
+      "rgb_pixel_sha256": "31a0eb2c8d212acc6c548ef088ac17225302f124887360baba77debbde791fc8",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov6_resale_and_air_reconnaissance",
+      "path": "experiments/nov6_resale_and_air_reconnaissance/sources/p136_B_witness.png",
+      "pdf_page_1based": 139,
+      "clip_pdf_points": [
+        82,
+        390,
+        550,
+        640
+      ],
+      "scale": 3,
+      "png_sha256": "e8dc4076014df2816b6881d07f94d08e70667429c71e6c037470407f80c58a46",
+      "width": 1404,
+      "height": 750,
+      "rgb_pixel_sha256": "7796f8a203b1b56b29c82d1401080fb9af7bf81eb4260eb6572c8f5250c5420a",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov6_resale_and_air_reconnaissance",
+      "path": "experiments/nov6_resale_and_air_reconnaissance/sources/p152_E_witness.png",
+      "pdf_page_1based": 155,
+      "clip_pdf_points": [
+        55,
+        552,
+        535,
+        716
+      ],
+      "scale": 3,
+      "png_sha256": "41957b929bba6edbc34d2a255ba645e581dc9db9852c5fc24d5256be4897e374",
+      "width": 1440,
+      "height": 492,
+      "rgb_pixel_sha256": "bb23baa773d85119553c1cc18247331840fd72054085a3041c202eaa80a8368e",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov6_resale_and_air_reconnaissance",
+      "path": "experiments/nov6_resale_and_air_reconnaissance/sources/p144_A2_GDDAA.png",
+      "pdf_page_1based": 147,
+      "clip_pdf_points": [
+        402,
+        314,
+        448,
+        332
+      ],
+      "scale": 8,
+      "png_sha256": "2d1574dd432ad01877be0a24a808bf77b8aafe98b3bc7c51938fc90275d2b5e9",
+      "width": 368,
+      "height": 144,
+      "rgb_pixel_sha256": "2bba1adf9740be767ed8f9e3825d7baf5fb774d94c880af3775bb742e0ab962b",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "early_radio_and_leave_records",
+      "path": "experiments/early_radio_and_leave_records/sources/p87_A1.png",
+      "pdf_page_1based": 90,
+      "clip_pdf_points": [
+        40,
+        288,
+        510,
+        450
+      ],
+      "scale": 3,
+      "png_sha256": "ac8502e2794f2a76b3ba3694d9f964a81aae5c542a54dabf19d5e19037ec8840",
+      "width": 1410,
+      "height": 486,
+      "rgb_pixel_sha256": "f74848d17755ac6b84e31910d832d702925edbaca1acca968a365754a1283910",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "early_radio_and_leave_records",
+      "path": "experiments/early_radio_and_leave_records/sources/p119_A.png",
+      "pdf_page_1based": 122,
+      "clip_pdf_points": [
+        48,
+        244,
+        530,
+        493
+      ],
+      "scale": 3,
+      "png_sha256": "853f2a9af4ad0faa4577af0461a83d786aea2bb30e7fd08e6c54a4284ae38952",
+      "width": 1446,
+      "height": 747,
+      "rgb_pixel_sha256": "763f9f07297220f0ad47cf366e948662c6ef7430cf175451b8db483ed40f8577",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "early_radio_and_leave_records",
+      "path": "experiments/early_radio_and_leave_records/sources/p127_A3.png",
+      "pdf_page_1based": 130,
+      "clip_pdf_points": [
+        50,
+        253,
+        525,
+        432
+      ],
+      "scale": 3,
+      "png_sha256": "8e5e387a6b7bb66d69759755f92cf2533a72abaf7c438dca1a9292ea32c9890e",
+      "width": 1425,
+      "height": 537,
+      "rgb_pixel_sha256": "a451009973cd71b8f14fc952c227c63dfa7fbe140b9c737a5edbb64c02b064cf",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "early_radio_and_leave_records",
+      "path": "experiments/early_radio_and_leave_records/sources/p127_B1.png",
+      "pdf_page_1based": 130,
+      "clip_pdf_points": [
+        50,
+        442,
+        525,
+        570
+      ],
+      "scale": 3,
+      "png_sha256": "fdff54eebc8f2eda732476cf96c6a80dcad1f0db3b1bccc4510a74c8cfbf65d8",
+      "width": 1425,
+      "height": 384,
+      "rgb_pixel_sha256": "0e9a5e6c0c2a96c1e50f69f32843ea975521599f98d2120d5123a74a0d1fef94",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "early_radio_and_leave_records",
+      "path": "experiments/early_radio_and_leave_records/sources/p87_E_detail.png",
+      "pdf_page_1based": 90,
+      "clip_pdf_points": [
+        454,
+        343,
+        495,
+        357
+      ],
+      "scale": 8,
+      "png_sha256": "d79cebb7512bf9c9a4ea5b1c35d7363b5c4ecef598cc1a540ae034f7d0fc7300",
+      "width": 328,
+      "height": 112,
+      "rgb_pixel_sha256": "7179cc5d7ef65c83ba8b55e6c206f74b9a91447081d494dfd34ce02447af9ca9",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "early_radio_and_leave_records",
+      "path": "experiments/early_radio_and_leave_records/sources/p119_G_detail.png",
+      "pdf_page_1based": 122,
+      "clip_pdf_points": [
+        422,
+        453,
+        470,
+        467
+      ],
+      "scale": 8,
+      "png_sha256": "2cc8750934fca85a236e64d505f26f9771ad5f2fa6254193898ee0abe2de8022",
+      "width": 384,
+      "height": 112,
+      "rgb_pixel_sha256": "f96abaead3d2225a3b6caaa3a39e1448f0a6b4d6f2cfee325b420a65ee02eb50",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "early_radio_and_leave_records",
+      "path": "experiments/early_radio_and_leave_records/sources/p127_F_detail.png",
+      "pdf_page_1based": 130,
+      "clip_pdf_points": [
+        376,
+        552,
+        448,
+        570
+      ],
+      "scale": 8,
+      "png_sha256": "055f4ab104bd47b5d5050ca4f4cd66598d4211f103039b2a2d73b0ef6c49f4e8",
+      "width": 576,
+      "height": 144,
+      "rgb_pixel_sha256": "ac331d9531100d08665dc14f0e26a10e5cb1cf2c0239d03885540bee9c273dd0",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "odessa_wagon_sale",
+      "path": "experiments/odessa_wagon_sale/sources/p201_reviewed.png",
+      "pdf_page_1based": 204,
+      "clip_pdf_points": [
+        40,
+        177,
+        515,
+        380
+      ],
+      "scale": 3,
+      "png_sha256": "82c439c027bae7496a5f0d40eb01c30afb8e7b596bb5a22cd0baf7007fff66b1",
+      "width": 1425,
+      "height": 609,
+      "rgb_pixel_sha256": "7fe38ec5a5df55ca01138523df1ed2328bf8bd67d7ae9e5ab6031827379ad102",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "urgent_shipping_space",
+      "path": "experiments/urgent_shipping_space/sources/p218_reviewed.png",
+      "pdf_page_1based": 221,
+      "clip_pdf_points": [
+        58,
+        495,
+        525,
+        690
+      ],
+      "scale": 3,
+      "png_sha256": "a56627d9d00c923fc7e7c16753e04cdcf78cb9deb3cd995c7da01700f1327f79",
+      "width": 1401,
+      "height": 585,
+      "rgb_pixel_sha256": "31f071b3c9341daba9660cc11cd8bf95bef17bdc782be9e1183f5e9990ba78cd",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "benzol_pump_query",
+      "path": "experiments/benzol_pump_query/sources/p189_reviewed.png",
+      "pdf_page_1based": 192,
+      "clip_pdf_points": [
+        38,
+        450,
+        505,
+        590
+      ],
+      "scale": 3,
+      "png_sha256": "f3adc048603d4c13f84696c2044e43f93f5e425df55788efd8b85f5b70a31699",
+      "width": 1401,
+      "height": 420,
+      "rgb_pixel_sha256": "2af4d32cd828148eecfd7d2c8c7df5587e7b030b4abf1671d61a0195b3bbce54",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "airfield_german_troop_fragment",
+      "path": "experiments/airfield_german_troop_fragment/sources/p154_reviewed.png",
+      "pdf_page_1based": 157,
+      "clip_pdf_points": [
+        40,
+        280,
+        540,
+        395
+      ],
+      "scale": 3,
+      "png_sha256": "54a54bf3eee3edc2dd5a112b3c662e86b9a7e7a78ffa75100da119113b0787b3",
+      "width": 1500,
+      "height": 345,
+      "rgb_pixel_sha256": "718167bb06223755bcc53a45e3a68d0ebe79de14ec4816bda057452c148d3bfe",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "okm_radio_route",
+      "path": "experiments/okm_radio_route/sources/p180_reviewed.png",
+      "pdf_page_1based": 183,
+      "clip_pdf_points": [
+        70,
+        410,
+        515,
+        495
+      ],
+      "scale": 3,
+      "png_sha256": "14b7cae357d367d379b0bb51ea53788d406315f4b48d4fe0e15fa1bacc24fd35",
+      "width": 1335,
+      "height": 255,
+      "rgb_pixel_sha256": "9da46270bc70efd8c9ff8947fc9092eb073c079b8f959e970a1abb365460fd64",
       "fresh_render_cache": false
     }
   ],

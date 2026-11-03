@@ -1,0 +1,252 @@
+{
+  "schema": "adfgvx-benzol-pump-gap-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Benzol-pump inquiry with an explicit missing-coordinate model",
+  "case": "cases/context/benzol_pump_query.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p189_reviewed.png",
+      "pdf_page_1based": 192,
+      "crop_pdf_points": [
+        38,
+        450,
+        505,
+        590
+      ],
+      "render_scale": 3,
+      "sha256": "f3adc048603d4c13f84696c2044e43f93f5e425df55788efd8b85f5b70a31699",
+      "width": 1401,
+      "height": 420,
+      "channels": 3,
+      "rgb_sha256": "2af4d32cd828148eecfd7d2c8c7df5587e7b030b4abf1671d61a0195b3bbce54"
+    }
+  ],
+  "keys": {
+    "Nov13-15b": {
+      "id": "Nov13-15b",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "column_count": 16,
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "square_rows": [
+        "H??BMU",
+        "F15PX0",
+        "DJLR??",
+        "??S6VO",
+        "NKZ?AW",
+        "ITEGC?"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "234789QY",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 244,
+          "pdf_page_1based": 247,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "baseline_differences": [
+        {
+          "coordinate": "AD",
+          "baseline": "2",
+          "audited": "?"
+        },
+        {
+          "coordinate": "AF",
+          "baseline": "3",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FV",
+          "baseline": "4",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FX",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GA",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GD",
+          "baseline": "9",
+          "audited": "?"
+        },
+        {
+          "coordinate": "VG",
+          "baseline": "Q",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "Y",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 24,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "AD",
+            "proposed": "2"
+          },
+          {
+            "row_column": "AF",
+            "proposed": "3"
+          },
+          {
+            "row_column": "FV",
+            "proposed": "4"
+          },
+          {
+            "row_column": "FX",
+            "proposed": "7"
+          },
+          {
+            "row_column": "GA",
+            "proposed": "8"
+          },
+          {
+            "row_column": "GD",
+            "proposed": "9"
+          },
+          {
+            "row_column": "VG",
+            "proposed": "Q"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "Y"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p189_D",
+      "title": "Benzol-pump inquiry and request for a prompt answer",
+      "key_id": "Nov13-15b",
+      "header_literal": "D) CM v CZ (9.30 a.m., November 15th); RIZI-102",
+      "edited_output": "ISTEINEBENZOLPUMPEDORTXBESCHLEUNIGTEANTWORTXSEIFERT",
+      "readable_german": "Ist eine Benzolpumpe dort. Beschleunigte Antwort. Seifert.",
+      "meaning": "The sender asks whether a benzol pump is available there and requests an expedited answer. The closing is the explicitly reconstructed surname Seifert, with no first name or biographical identification added.",
+      "notes": [
+        "The source has 101 occupied positions against advertised 102; the first row ends with the four-coordinate group XVGF. The primary frame inserts one masked coordinate at source boundary 38.",
+        "Every one of the 102 possible insertion boundaries is priced against the disclosed word proposal. Boundaries 37 and 38 tie at six observed substitutions and two fills. This minimum is conditional on the target wording and the 102-coordinate frame.",
+        "The K-like final glyph in DXXGK is retained as a source slot and masked. Its fill is separate from the additional coordinate.",
+        "DOR1 to DORT and the other lexical/signature proposals are priced observed changes; no numeric-looking raw label is silently normalized.",
+        "The neighboring p189 E reverses the station direction and begins with a reply about a pump. It supports the topic of this reading but does not supply missing p189 D ciphertext or prove the exact signature."
+      ],
+      "printed_page": 189,
+      "source_section": "D",
+      "source_rows": [
+        "FXXAF VGVGA XAXAD AXXXX DXXGK GVXGX FVFDD XVGF",
+        "AVDDD AAAVV DXVFV XXXAG DFAFA FGFAX FXFFF VGFXV",
+        "DDAFA FFGGG AFGFV FXGGA XD"
+      ],
+      "source_slots": 101,
+      "advertised_length": 102,
+      "expected_raw": "IS?EIDEBENZOLPUMPEDOR1XBESAHLE?NIGTEANTWORTXSSIF??T",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 6,
+      "expected_source_mask_fills": 1,
+      "insert_unknown_at_source_boundary": 38,
+      "all_insertion_boundaries": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "expected_inserted_slot_fills": 1
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "e4448efdbcf3a4fcfd300b23479ad7ed5c2c25bbfc5ad024da70f8d4286986f6",
+    "ocr_snapshot.json": "6fe29051962fe09eab38045c96451c7925ec3446e4f754b36f8690916d5c3523"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "The 102-coordinate frame is conditional on one additional coordinate in a 101-position source. Advertised length alone is not proof of an exact historical loss location.",
+    "All 102 insertion boundaries are priced against the stated word proposal, including all five boundaries around the visibly short XVGF group. Two equal minimum choices are retained.",
+    "Observed substitutions, the one ambiguous-source-glyph fill and the one additional-coordinate fill are distinct costs. No observed coordinate is deleted or reordered.",
+    "The p189 E context supports the pump topic but is not a parallel ciphertext or numerical reference witness. No historical identity for Seifert is added."
+  ]
+}

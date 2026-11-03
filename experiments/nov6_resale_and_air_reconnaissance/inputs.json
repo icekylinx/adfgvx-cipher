@@ -1,0 +1,272 @@
+{
+  "schema": "adfgvx-nov6-resale-and-air-reconnaissance-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "keys": [
+    {
+      "id": "Nov4-6",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ],
+      "column_count": 17,
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "square_rows": [
+        "17WHFL",
+        "J5D2UP",
+        "EXKVZ9",
+        "O0Q3Y6",
+        "R8ABGI",
+        "TCMS4N"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 240,
+          "pdf_page_1based": 243,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [
+        "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+      ],
+      "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  ],
+  "source_images": [
+    {
+      "path": "sources/p144_A2.png",
+      "printed_page": 144,
+      "pdf_page_1based": 147,
+      "crop_pdf_points": [
+        50,
+        188,
+        540,
+        404
+      ],
+      "render_scale": 3,
+      "sha256": "0366cc056f8fd24d8b45c5082804d803ab12802732c7c98cd1c8fa15e601758f"
+    },
+    {
+      "path": "sources/p144_C1.png",
+      "printed_page": 144,
+      "pdf_page_1based": 147,
+      "crop_pdf_points": [
+        60,
+        552,
+        540,
+        670
+      ],
+      "render_scale": 3,
+      "sha256": "e66fb8b9681342e413887f4e706f140c606f072766344d72ffe16c32ee783e6a"
+    },
+    {
+      "path": "sources/p136_B_witness.png",
+      "printed_page": 136,
+      "pdf_page_1based": 139,
+      "crop_pdf_points": [
+        82,
+        390,
+        550,
+        640
+      ],
+      "render_scale": 3,
+      "sha256": "e8dc4076014df2816b6881d07f94d08e70667429c71e6c037470407f80c58a46"
+    },
+    {
+      "path": "sources/p152_E_witness.png",
+      "printed_page": 152,
+      "pdf_page_1based": 155,
+      "crop_pdf_points": [
+        55,
+        552,
+        535,
+        716
+      ],
+      "render_scale": 3,
+      "sha256": "41957b929bba6edbc34d2a255ba645e581dc9db9852c5fc24d5256be4897e374"
+    },
+    {
+      "path": "sources/p144_A2_GDDAA.png",
+      "printed_page": 144,
+      "pdf_page_1based": 147,
+      "crop_pdf_points": [
+        402,
+        314,
+        448,
+        332
+      ],
+      "render_scale": 8,
+      "sha256": "2d1574dd432ad01877be0a24a808bf77b8aafe98b3bc7c51938fc90275d2b5e9"
+    }
+  ],
+  "records": [
+    {
+      "id": "p144_A2",
+      "printed_page": 144,
+      "source_section": "A2",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "GVVVA VADXV FGGVA FFDAF XAFAX AFADD FXXVA XFVFF",
+        "AVGVV XVDAX GVAFV XFFGF DXAXV AXXGA AAVAX XGGFX",
+        "VFXFX DVFAX AXAVF XAAXX DXAVD VAAVF AVFFX AGAAD",
+        "FXVAX XXVXG XVDAX FVFXA ADVXD GDDAA VAVVV VXDAD",
+        "XAFFF XVAGF VFFAF VXFXV AFFVX VAAGF DAXAX AXFAD",
+        "FAAAF XVXVA XGFFF FXGXV VGAXG XAAFV AFAVG VAAFA",
+        "XVDGA FFXAX AVDVD GXAVX VGFAF XGXVD"
+      ],
+      "source_slots": 270,
+      "advertised_length": 270,
+      "expected_raw": "NICHTUNBEDINGTSICHERGESTELPTXISTNACHMOEGLICHKEITDORTWIEDERVERKAUFTWERDENXMERCATORKRIEGSAMTKRIEGSROHSTOFFABTEILUNGXRX138XSTRICHXELFXKRAX",
+      "readable_candidate": "NICHTUNBEDINGTSICHERGESTELLTXISTNACHMOEGLICHKEITDORTWIEDERVERKAUFTWERDENXMERCATORKRIEGSAMTKRIEGSROHSTOFFABTEILUNGXRX138XSTRICHXELFXKRAX",
+      "readable_german": "Nicht unbedingt sichergestellt, ist nach Moeglichkeit dort wieder verkauft werden. Mercator, Kriegsamt, Kriegsrohstoffabteilung. R. 138, Strich, elf, KRA.",
+      "case_path": "cases/finance/nov6_silk_resale_continuation.md",
+      "meaning": "A surviving second part directs local resale where transport cannot be assured. The sentence starts in the preceding part, known from p136 B1. The continuation names Mercator and the War Office raw materials department. The printed and decoded reference 138 is retained.",
+      "expected_costs": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "p144_C1",
+      "printed_page": 144,
+      "source_section": "C1",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "DVDFF ----- ----- XFAVA AGFAF DFAXA XDADX ADADV",
+        "VXAFF FAXAG XDDFX XAXFV XGGDV FXDDA VGXXF AAVVG",
+        "FXDXF FVVVF GXDAX FFFFF FFFDV ADVXD XXFAF VFAFV",
+        "AFVFA FFADX VAGXX DDGAD AX"
+      ],
+      "source_slots": 142,
+      "advertised_length": 142,
+      "expected_raw": "OXKXM5XL?FTERKUN?UNG5X11X?BEIKIAD?VOFAEHRE?XVE?PMD?NGV?4PFE?DEN?TKANNTX",
+      "readable_candidate": "OXKXM5XLUFTERKUNDUNG5X11X?BEIKIAD?VOFAEHRENXVERLADUNGVONPFERDENERKANNTX",
+      "readable_german": "O. K. M5. Lufterkundung 5 / 11. ? Bei KIAD?VO Faehren, Verladung von Pferden erkannt.",
+      "case_path": "cases/military/nov6_horse_loading_reconnaissance.md",
+      "meaning": "The proposed reading reports aerial reconnaissance dated 5/11: ferries and loading of horses were observed near the unresolved place written KIAD?VO. The leading unresolved position and designation M5 remain literal; no definite modern place or unit is assigned.",
+      "expected_costs": [
+        5,
+        8
+      ]
+    }
+  ],
+  "headers": {
+    "p144_A2": [
+      "Page heading: 6th NOVEMBER, 1918.",
+      "A) NKJ v LP (9.16 p.m., November 6th)",
+      "2 TL RICHI-270"
+    ],
+    "p144_C1": [
+      "Page heading: 6th NOVEMBER, 1918.",
+      "C) UKS v ZON (---- November 7th)",
+      "1 TL RICHI-142"
+    ]
+  },
+  "literal_glyph_notes": [
+    "p144 A2 prints GDDAA at source indices145–149; changing its second D at146 to A is one observed-coordinate substitution, independently supported by GADAA in both old continuation witnesses.",
+    "p144 A2 prints the complete XAFFF group at160–164. This independently supports the five-coordinate group used by the older p136 B2 inserted-F model; identical adjacent Fs prevent a unique historical position assignment.",
+    "p144 C1 preserves two full five-dash groups at5–14. Eight of these10 coordinate masks are filled in the proposal, leaving two plaintext positions unresolved. M5,5/11 and KIAD?VO are retained literally."
+  ],
+  "cross_witnesses": {
+    "certificate_path": "data/certificates/p152.json",
+    "certificate_sha256": "0a47314f6cd30613beb2a45669bd2311d01b5cdec7f5699c60438cc5182be2b2",
+    "records": [
+      {
+        "id": "p136_B2",
+        "source_ciphertext": "GVVVAVADXVFGGVAFFDAFXAFAXAFADDFXXVAXFVFFAVGGVXVDAXGVAFVXFFGFDXAXVAXXGAAAVAXXGGFXVFXFXDVFAXAXAVFXAAXXDXAVDVAAVFAVFFXAGAADFXVAXXXVXGXVDAXFVFXAADVXDGADAAVAVVVVXDADXAFFXVAGFVFFAFVXFXVAFFVXXVAGFDAXAXDXFADFAAAFXVXVAXGFFFFXGXVVGAXGXAFFVAFAVGVAAFAXVDGAFFXAXAVDVDGXAVXVGFAFXGXVD",
+        "advertised_length": 270,
+        "source_length": 269,
+        "edits": [
+          {
+            "operation": "insert",
+            "index": 164,
+            "value": "F",
+            "support": "p152 E part2 has five-symbol group X A F F F at the matching position; p136 B2 prints the four-symbol group X A F F."
+          }
+        ],
+        "corrected_ciphertext": "GVVVAVADXVFGGVAFFDAFXAFAXAFADDFXXVAXFVFFAVGGVXVDAXGVAFVXFFGFDXAXVAXXGAAAVAXXGGFXVFXFXDVFAXAXAVFXAAXXDXAVDVAAVFAVFFXAGAADFXVAXXXVXGXVDAXFVFXAADVXDGADAAVAVVVVXDADXAFFFXVAGFVFFAFVXFXVAFFVXXVAGFDAXAXDXFADFAAAFXVXVAXGFFFFXGXVVGAXGXAFFVAFAVGVAAFAXVDGAFFXAXAVDVDGXAVXVGFAFXGXVD",
+        "plaintext": "NICHTUNBEDINGTSICHERGESTELLTXISTNACHMOXG9ICHKEITDORTWIEDERVERKAUFTWERDENXMERCATORKRIEGSAMTKRNEGSROHS4OFFQBTEILUNGXRX138XSTRICHXELFXKRAX",
+        "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+        "printed_page": 136,
+        "source_sha256": "ffb62e156d70c32e045ee7d8696066e49e8b486fdf121e904a178f9813dca061"
+      },
+      {
+        "id": "p152_E_part2",
+        "source_ciphertext": "GVVVAVADXVFGGVAFFDAFXAFAXAFADDFXXVAXFVFFAVGVVXVDAXGVAFVXFFGFDXAXVAXXGAAAVAXXGGFXVFXFXDVFAXAXAVFXAAXXDXAVDVAAVFAVFFXAGAADFXVAXXXXXGXVDAXFVFXAADVXDGADAAVAVVVVXGADXAFFFXVAGFVFFAVVXFXVAFFVXVAAGFDAXAXAXFADFAAAFXVXVAXGFFFFXFXVVGAXGXAAFVAFAVGVAAFAXVDGAGFXAXAVDVDGXAVXVGFAFXGXVD",
+        "advertised_length": 280,
+        "source_length": 270,
+        "edits": [],
+        "corrected_ciphertext": "GVVVAVADXVFGGVAFFDAFXAFAXAFADDFXXVAXFVFFAVGVVXVDAXGVAFVXFFGFDXAXVAXXGAAAVAXXGGFXVFXFXDVFAXAXAVFXAAXXDXAVDVAAVFAVFFXAGAADFXVAXXXXXGXVDAXFVFXAADVXDGADAAVAVVVVXGADXAFFFXVAGFVFFAVVXFXVAFFVXVAAGFDAXAXAXFADFAAAFXVXVAXGFFFFXFXVVGAXGXAAFVAFAVGVAAFAXVDGAGFXAXAVDVDGXAVXVGFAFXGXVD",
+        "plaintext": "NICHTPNBEDINGTSICHERGESTELLTXISTNACHMOEGLICHKEITDORTWIODERVERKAUFTWERDENXMERCATORKRIEGMAMTKRIEGSROHSTOFFABTEILUNGXRX138VSTRICHXELF8KRAX",
+        "source_url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+        "printed_page": 152,
+        "source_sha256": "87b46c307ba88b993c9245674dd6cd6ba9d3eb2e5019361a446dd712c0172972"
+      }
+    ]
+  },
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "4d0b2b44c8ebebcd9d0f4a6f51c55f86564f47658d02b17b9b9cfe00aa281cd8"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "limits": [
+    "Only p144 A2 and p144 C1 are new catalog records; the older p136/p152 witnesses are not counted again.",
+    "The p144 A2 proposal is supported at all135 plaintext positions by native raw p144/p152 readings. It still requires one explicit change to the received p144 source.",
+    "The p144 C1 ordinary-word repairs are linguistic proposals, not independent plaintext witnesses. KIAD?VO, a leading unresolved position, and M5 are not normalized.",
+    "The 6 November page heading and 7 November interception header of C1 are separate date layers."
+  ]
+}

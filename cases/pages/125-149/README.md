@@ -4,9 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 100–124](../100-124/README.md) · [pp. 150–174 →](../150-174/README.md)
 
-**2 challenge entries and 61 other reviewed source records across 22 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**2 challenge entries and 65 other reviewed source records across 24 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
-Jump to page: [p125](#p125) · [p126](#p126) · [p128](#p128) · [p129](#p129) · [p130](#p130) · [p131](#p131) · [p132](#p132) · [p133](#p133) · [p134](#p134) · [p135](#p135) · [p136](#p136) · [p137](#p137) · [p138](#p138) · [p139](#p139) · [p140](#p140) · [p141](#p141) · [p142](#p142) · [p145](#p145) · [p146](#p146) · [p147](#p147) · [p148](#p148) · [p149](#p149).
+Jump to page: [p125](#p125) · [p126](#p126) · [p127](#p127) · [p128](#p128) · [p129](#p129) · [p130](#p130) · [p131](#p131) · [p132](#p132) · [p133](#p133) · [p134](#p134) · [p135](#p135) · [p136](#p136) · [p137](#p137) · [p138](#p138) · [p139](#p139) · [p140](#p140) · [p141](#p141) · [p142](#p142) · [p144](#p144) · [p145](#p145) · [p146](#p146) · [p147](#p147) · [p148](#p148) · [p149](#p149).
 
 Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's exact status and credit; the linked case explains the reading and its qualifications.
 
@@ -30,6 +30,15 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p126 A5](../../military/armistice_transit_planning.md) | Conditional pretransposition-loss reading of the armistice report and march decision | 131/134 fixed positions under conditional pretransposition-loss geometry; 4 coordinate substitutions, 2 source-erasure fills and one interim insertion; original odd frame preserved | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier unreviewed OCR candidates credited separately |
 | [p126 A6](../../military/armistice_transit_planning.md) | Urgent request for the actual armistice agreement | 120/121 fixed positions in the exact source frame; 2 coordinate substitutions, 1 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier unreviewed OCR candidates credited separately |
 | [p126 B](../../military/armistice_transit_planning.md) | Separate receipt notification retaining literal OHL/OKM reference labels | 67/67 fixed positions in the exact source frame; 2 coordinate substitutions, 0 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier unreviewed OCR candidates credited separately |
+
+## p127
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p127 A3](../../military/nov4_march_air_reconnaissance.md#p127-a3) | March report and aerial reconnaissance with unresolved unit and place | 90/100 native raw positions; 2 coordinate substitutions + 6 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4-6 key; prior OCR provenance retained |
+| [p127 B1](../../radio/nov4_personnel_transmission_notice.md#p127-b1) | Existing personnel and agreed radio transmissions | 76/80 native raw positions; 1 coordinate substitution + 3 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4-6 key; prior OCR provenance retained |
 
 ## p128
 
@@ -184,6 +193,15 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p142 A](../../radio/radio_contacts_and_keys.md#p142-a-0430-calling-signal-then-listen-again-at-0645) | Ten minutes of VVV at 0430, then radiograms; listen again at 0645 | 64/64 fixed raw labels; 0 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p142 B](../../caucasus/representative_retention.md) | Caucasus BEV K.M. representative at Tiflis is to remain; reference fields retained | 143/143 fixed raw labels; 3 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p142 C](../../military/dobrudscha_report.md) | Request position on Entente report of renewed Romanian occupation of Dobrudscha | 119/121 fixed raw labels; 1 coordinate substitutions and 2 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+
+## p144
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p144 A2](../../finance/nov6_silk_resale_continuation.md#p144-a2) | Local silk resale continuation corroborates the p136/p152 witnesses | 135/135 native raw positions; 1 coordinate substitution + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior continuation and OCR attribution retained |
+| [p144 C1](../../military/nov6_horse_loading_reconnaissance.md#p144-c1) | Ferries and horse loading in aerial reconnaissance; place remains KIAD?VO | 61/71 native raw positions; 5 coordinate substitutions + 8 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior continuation and OCR attribution retained |
 
 ## p145
 

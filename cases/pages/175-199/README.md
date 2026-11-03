@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 150–174](../150-174/README.md) · [pp. 200–224 →](../200-224/README.md)
 
-**6 challenge entries and 76 other reviewed source records across 23 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**6 challenge entries and 78 other reviewed source records across 23 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p175](#p175) · [p176](#p176) · [p177](#p177) · [p178](#p178) · [p179](#p179) · [p180](#p180) · [p181](#p181) · [p184](#p184) · [p185](#p185) · [p186](#p186) · [p187](#p187) · [p188](#p188) · [p189](#p189) · [p190](#p190) · [p191](#p191) · [p192](#p192) · [p193](#p193) · [p194](#p194) · [p195](#p195) · [p196](#p196) · [p197](#p197) · [p198](#p198) · [p199](#p199).
 
@@ -82,6 +82,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p180 A3](../../military/p180_A.md) | Enemy follows withdrawal near Giurgiu; Braila and Focsani evacuated | 77/78 raw positions; nine substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
+| [p180 C](../../radio/okm_radio_route.md#p180-c) | OKM communication route through literal AOK1? and FXT | Native 86-slot frame; 6 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p180 E](../../military/namur_cassel_armistice_requests.md#p180-e) | Bauman readiness and Cassel transport | Native 224-slot frame; 3 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 
 ## p181
@@ -166,6 +167,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p189 C](../../context/p189_C.md) | Instruction to use the December key; IRRTUM | 61/62 raw positions; two explicit substitutions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p189 D](../../context/benzol_pump_query.md#p189-d) | Benzol-pump inquiry and request for a prompt answer | Conditional 102-slot frame from101 occupied positions; six observed substitutions, one source-mask fill and one inserted fill; equal gaps37/38 retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p189 E](../../context/transport.md#independent-transport-context) | Pump, cars and trailers | Direct partial reading; counts unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 
 ## p190

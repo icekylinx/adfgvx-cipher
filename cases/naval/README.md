@@ -4,7 +4,7 @@
 
 Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and naval orders are collected here.
 
-**36 reviewed physical records across 12 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**38 reviewed physical records across 13 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -22,6 +22,7 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [Naval reporting after dissolution of the Seekriegsleitung](p205_B.md) | p205 B1, p205 B2 |
 | [p210 A — Helsinki and return transport for the Ostsee Division](p210_A.md) | p210 A1, p210 A2 |
 | [Reval: expected steamers and further transport capacity](reval_steamer_notice.md) | p213 A1, p213 A2, p213 A3 |
+| [Urgent shipping capacity and probable reliance on sea transport](urgent_shipping_space.md) | p218 B2, p218 B3 |
 
 ## Reviewed source records
 
@@ -63,6 +64,8 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [p213 A1](reval_steamer_notice.md#p213-a1) | Two steamers expected at Reval; raw quantity unresolved | Direct reading with overprinted amount-glyph alternative retained | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p213 A2](reval_steamer_notice.md#p213-a2) | Further tonnage and raw-material transport; vessel-like fields retained | Three word repairs and one printed-glyph fill; no ship identification | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p213 A3](reval_steamer_notice.md#p213-a3) | Assurance of support and Kriegsdepartement closing | One word repair and one fill; two reference erasures remain | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p218 B2](urgent_shipping_space.md#p218-b2) | Urgent shipping space for personnel and horses | Native 188-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p218 B3](urgent_shipping_space.md#p218-b3) | Probable reliance on sea transport; literal command references | Native 200-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## Related challenge entries
 

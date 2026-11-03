@@ -1,0 +1,223 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Odessa consular routing and a Magdeburg wagon-sale instruction",
+  "case": "cases/finance/odessa_wagon_sale.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p201_reviewed.png",
+      "pdf_page_1based": 204,
+      "crop_pdf_points": [
+        40,
+        177,
+        515,
+        380
+      ],
+      "render_scale": 3,
+      "sha256": "82c439c027bae7496a5f0d40eb01c30afb8e7b596bb5a22cd0baf7007fff66b1",
+      "width": 1425,
+      "height": 609,
+      "channels": 3,
+      "rgb_sha256": "7fe38ec5a5df55ca01138523df1ed2328bf8bd67d7ae9e5ab6031827379ad102"
+    }
+  ],
+  "keys": {
+    "Nov16-18": {
+      "id": "Nov16-18",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        12,
+        1,
+        14,
+        8,
+        16,
+        13,
+        9,
+        19,
+        3,
+        15,
+        4,
+        10,
+        18,
+        6,
+        2,
+        11,
+        17,
+        5
+      ],
+      "column_count": 19,
+      "square": "WG?EITNHUB2R??FDZJS???PY?VQL?1OAXMKC",
+      "square_rows": [
+        "WG?EIT",
+        "NHUB2R",
+        "??FDZJ",
+        "S???PY",
+        "?VQL?1",
+        "OAXMKC"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "03456789",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 243,
+          "pdf_page_1based": 246,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "The historical appendix and Lasry also label this table December 7-9.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "WG+EITNHUB2R++FDZJS+++PY+VQL+1OAXMKC",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key",
+      "documented_reuse": "7-9 December, per Childs appendix page 243 and NSA summary pages 41-42."
+    }
+  },
+  "records": [
+    {
+      "id": "p201_A1",
+      "title": "Consulate and export-company address for a wagon-sale instruction",
+      "key_id": "Nov16-18",
+      "header_literal": "A) NKJ FUER RAT (6.50 a.m., November 16th); 0700 (16) 2 TLE; 1 TL RICHI-254",
+      "readable_german": "Deutsches Generalkonsulat Odessa. Nr. ?? AUSSENUKRA. An DEUTSCHEEN Bevollmaechtigten Odessa. Fuer Ausfuhrgesellschaft. Abt. RM ? Ihr Telegramm",
+      "meaning": "The first part gives the German consulate at Odessa, an unresolved numbered reference, the Odessa representative and an export company as address or routing information. It then begins a reference to a previous telegram. The spelling DEUTSCHEEN and AUSSENUKRA are retained without silently normalizing them.",
+      "notes": [
+        "All 254 coordinates are present in the printed source and decode without repair. The earlier OCR split the first row from the rest; the complete native body is now used.",
+        "DEUTSCHEEN is retained with both E letters. AUSSENUKRA, ABT and RM remain unexpanded, and RM is not treated as a currency amount.",
+        "The three question marks are different unresolved square cells FD, GF and GD. They cannot be assigned independently or given the same label under an injective completion. No reference number is inferred."
+      ],
+      "printed_page": 201,
+      "source_section": "A1",
+      "source_rows": [
+        "AGDDG ADGFX GXADG XGXXD GAFDD XGAXX XAADA AFGAX",
+        "XVAFF GAADD AXGAA GDXGX AADFF DAVAF DXVXF DDXAF",
+        "DGADD ADXGA FGXDA VFGGD XADAF DGXDD DGDGA AGGDX",
+        "DGFDX AVDXF XFVGA GFXDX GDXXG AGAAX FDGAA DGADX",
+        "AGXAA GADGF VDDGG DFXAF AXGXA XVXXD XFDXX VXFGX",
+        "AFAGD AAGDG DGXDX ADAXD AGDFA DXDDX GGVXG AFDXD",
+        "GGXAX DFVXG AVGA"
+      ],
+      "source_slots": 254,
+      "advertised_length": 254,
+      "expected_raw": "DEUTSCHESGENERALKONSULATODESSAXNRX??XAUSSENUKRAANDEUTSCHEENBEVOLLMAECHTIGTENODESSAXFUERAUSFUHRGESELLSCHAFTXABTXRMX?IHRTELEGRAMM",
+      "edited_output": "DEUTSCHESGENERALKONSULATODESSAXNRX??XAUSSENUKRAANDEUTSCHEENBEVOLLMAECHTIGTENODESSAXFUERAUSFUHRGESELLSCHAFTXABTXRMX?IHRTELEGRAMM",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p201_A2",
+      "title": "Wagon Magdeburg sale request with opaque DAMM LADWIG phrase",
+      "key_id": "Nov16-18",
+      "header_literal": "A) NKJ FUER RAT (6.50 a.m., November 16th); 0700 (16) 2 TLE; 2 TL RICHI-236",
+      "edited_output": "ZWEITAUSENDUNDACHTZIGERSUCHENWAGGONMAGDEBURGNEUNTAUSENDNEUNHUNDERTZEHNXDAMMXLADWIGBESTMOEGLICHSTZUVERKAUFENXAUSWAERTIG",
+      "readable_german": "Zweitausendundachtzig. Ersuchen Waggon Magdeburg neuntausendneunhundertzehn. DAMM LADWIG bestmoeglichst zu verkaufen. Auswaertig.",
+      "meaning": "The continuation refers to the telegram with the spelled-out number zweitausendundachtzig and requests a sale on the best possible terms involving the wagon identified by Magdeburg and neuntausendneunhundertzehn. DAMM LADWIG remains opaque in the primary edition; it is not treated as a confirmed person, cargo description or instruction to sell the contents.",
+      "notes": [
+        "The native 236-coordinate body is preserved. The initial unresolved square label is changed to Z in ZWEITAUSEND as one observed-coordinate substitution; this is not a free fill of an unknown square cell.",
+        "Both long numbers remain spelled out exactly as recovered. No wagon identity is independently established from those words.",
+        "The primary reading retains DAMM LADWIG. Conditional LADUNG, SAMT LADUNG and DANN LADUNG alternatives are separately priced, and none is silently substituted into the primary meaning.",
+        "SAMT LADUNG and DANN LADUNG each require nine observed changes from the source, including the initial Z proposal; coordinate cost alone does not choose between them."
+      ],
+      "protected_fields": [
+        "DAMM",
+        "LADWIG"
+      ],
+      "printed_page": 201,
+      "source_section": "A2",
+      "source_rows": [
+        "AGAAA XDGXG FGAAA DXGDX XGDDX XXAXX AAFVV GDDXF",
+        "DDDGX DAXGD VDDDG FFAAF GGDDG AGDGA XXAFA AAFAD",
+        "VVXAF DAFAD DDDDF ADAAV FXAFG FXAAD XDDXX ADAAD",
+        "DVXAA XADDA AGGDD DAFVA GAFAG XXAXA ADDDF DAAGV",
+        "FAADD XGXAD DXVDX XDDAA GFGAG DFGDG AGDDD GAFXV",
+        "GFGAF AXXAG FAFDX XAFGX GXVAA GGDDA DFADA D"
+      ],
+      "source_slots": 236,
+      "advertised_length": 236,
+      "expected_raw": "?WEITAUSENDUNDACHTZIGERSUCHENWAGGONMAGDEBURGNEUNTAUSENDNEUNHUNDERTZEHNXDAMMXLADWIGBESTMOEGLICHSTZUVERKAUFENXAUSWAERTIG",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 1,
+      "expected_source_mask_fills": 0,
+      "conditional_lexical_alternatives": [
+        {
+          "name": "DAMM LADUNG",
+          "plaintext": "ZWEITAUSENDUNDACHTZIGERSUCHENWAGGONMAGDEBURGNEUNTAUSENDNEUNHUNDERTZEHNXDAMMXLADUNGBESTMOEGLICHSTZUVERKAUFENXAUSWAERTIG",
+          "expected_substitutions": 5,
+          "historical_wording_claim": false
+        },
+        {
+          "name": "SAMT LADUNG",
+          "plaintext": "ZWEITAUSENDUNDACHTZIGERSUCHENWAGGONMAGDEBURGNEUNTAUSENDNEUNHUNDERTZEHNXSAMTXLADUNGBESTMOEGLICHSTZUVERKAUFENXAUSWAERTIG",
+          "expected_substitutions": 9,
+          "historical_wording_claim": false
+        },
+        {
+          "name": "DANN LADUNG",
+          "plaintext": "ZWEITAUSENDUNDACHTZIGERSUCHENWAGGONMAGDEBURGNEUNTAUSENDNEUNHUNDERTZEHNXDANNXLADUNGBESTMOEGLICHSTZUVERKAUFENXAUSWAERTIG",
+          "expected_substitutions": 9,
+          "historical_wording_claim": false
+        }
+      ]
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "ed82c6c4a26f8516ae939d8217116ae5b37c646391e33eda60bf89b390a72edc",
+    "ocr_snapshot.json": "69990d2157a7193fd7e8f1a261d1397780f30a6a15a68643e64554b4596b5ac7"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

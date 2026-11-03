@@ -30,6 +30,17 @@ full forward witness preserving the stated transmission model. The
 supports one closing correction and separately prices a contextual ending;
 its copied prefix is never counted as raw p157 recovery.
 
+A [third silk-resale continuation](../cases/finance/nov6_silk_resale_continuation.md)
+now supplies native paired-coordinate support for every one of the 135
+proposed continuation positions when combined with p152. It also confirms
+the value of p136's missing coordinate without resolving which identical
+adjacent `F` was lost. The [p152 challenge case](../cases/p152.md) now links
+this evidence while preserving its original certificate and first-part
+limits. Further native editions cover [Steiling's leave request](../cases/people/steiling_leave_request.md),
+[a tube-transmitter dispatch](../cases/radio/transmitter_dispatch_220_volts.md),
+[Odessa wagon sales](../cases/finance/odessa_wagon_sale.md), and
+[urgent shipping capacity](../cases/naval/urgent_shipping_space.md).
+
 ## What the latest work establishes
 
 | Result | Evidence gained | What remains unresolved |

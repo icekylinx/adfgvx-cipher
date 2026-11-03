@@ -4,9 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 125–149](../125-149/README.md) · [pp. 175–199 →](../175-199/README.md)
 
-**8 challenge entries and 94 other reviewed source records across 24 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**8 challenge entries and 95 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
-Jump to page: [p150](#p150) · [p151](#p151) · [p152](#p152) · [p153](#p153) · [p155](#p155) · [p156](#p156) · [p157](#p157) · [p158](#p158) · [p159](#p159) · [p160](#p160) · [p161](#p161) · [p162](#p162) · [p163](#p163) · [p164](#p164) · [p165](#p165) · [p166](#p166) · [p167](#p167) · [p168](#p168) · [p169](#p169) · [p170](#p170) · [p171](#p171) · [p172](#p172) · [p173](#p173) · [p174](#p174).
+Jump to page: [p150](#p150) · [p151](#p151) · [p152](#p152) · [p153](#p153) · [p154](#p154) · [p155](#p155) · [p156](#p156) · [p157](#p157) · [p158](#p158) · [p159](#p159) · [p160](#p160) · [p161](#p161) · [p162](#p162) · [p163](#p163) · [p164](#p164) · [p165](#p165) · [p166](#p166) · [p167](#p167) · [p168](#p168) · [p169](#p169) · [p170](#p170) · [p171](#p171) · [p172](#p172) · [p173](#p173) · [p174](#p174).
 
 Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's exact status and credit; the linked case explains the reading and its qualifications.
 
@@ -64,6 +64,14 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p153 D2](../../radio/courier_munich.md) | Notify the courier destination and report arrival | 67/68 raw positions; one garble supplied by a repeat | icekylinx and GPT-6 Astra Pro (2026) |
 | [p153 E1](../../radio/courier_munich.md) | Munich couriers carrying radio operating documents | Conditional first-part reconstruction; all tied damage models retained | icekylinx and GPT-6 Astra Pro (2026) |
+
+## p154
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p154 B3](../../military/airfield_german_troop_fragment.md#p154-b3) | Third-part airfield and German troop report | Native 172-slot frame; 2 observed-coordinate substitutions and 3 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p155
 

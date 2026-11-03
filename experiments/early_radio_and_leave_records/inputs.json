@@ -1,0 +1,405 @@
+{
+  "schema": "adfgvx-early-radio-and-leave-records-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "keys": [
+    {
+      "id": "Nov1-3",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        3,
+        16,
+        4,
+        15,
+        7,
+        12,
+        18,
+        6,
+        17,
+        8,
+        19,
+        1,
+        13,
+        10,
+        2,
+        14,
+        11,
+        9,
+        5
+      ],
+      "column_count": 19,
+      "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "square_rows": [
+        "UILOF9",
+        "RCZVSX",
+        "02G7QT",
+        "D8WNB5",
+        "JMHEKP",
+        "Y41A36"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 239,
+          "pdf_page_1based": 242,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Nov4-6",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ],
+      "column_count": 17,
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "square_rows": [
+        "17WHFL",
+        "J5D2UP",
+        "EXKVZ9",
+        "O0Q3Y6",
+        "R8ABGI",
+        "TCMS4N"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 240,
+          "pdf_page_1based": 243,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [
+        "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+      ],
+      "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  ],
+  "source_images": [
+    {
+      "path": "sources/p87_A1.png",
+      "printed_page": 87,
+      "pdf_page_1based": 90,
+      "crop_pdf_points": [
+        40,
+        288,
+        510,
+        450
+      ],
+      "render_scale": 3,
+      "sha256": "ac8502e2794f2a76b3ba3694d9f964a81aae5c542a54dabf19d5e19037ec8840"
+    },
+    {
+      "path": "sources/p119_A.png",
+      "printed_page": 119,
+      "pdf_page_1based": 122,
+      "crop_pdf_points": [
+        48,
+        244,
+        530,
+        493
+      ],
+      "render_scale": 3,
+      "sha256": "853f2a9af4ad0faa4577af0461a83d786aea2bb30e7fd08e6c54a4284ae38952"
+    },
+    {
+      "path": "sources/p127_A3.png",
+      "printed_page": 127,
+      "pdf_page_1based": 130,
+      "crop_pdf_points": [
+        50,
+        253,
+        525,
+        432
+      ],
+      "render_scale": 3,
+      "sha256": "8e5e387a6b7bb66d69759755f92cf2533a72abaf7c438dca1a9292ea32c9890e"
+    },
+    {
+      "path": "sources/p127_B1.png",
+      "printed_page": 127,
+      "pdf_page_1based": 130,
+      "crop_pdf_points": [
+        50,
+        442,
+        525,
+        570
+      ],
+      "render_scale": 3,
+      "sha256": "fdff54eebc8f2eda732476cf96c6a80dcad1f0db3b1bccc4510a74c8cfbf65d8"
+    },
+    {
+      "path": "sources/p87_E_detail.png",
+      "printed_page": 87,
+      "pdf_page_1based": 90,
+      "crop_pdf_points": [
+        454,
+        343,
+        495,
+        357
+      ],
+      "render_scale": 8,
+      "sha256": "d79cebb7512bf9c9a4ea5b1c35d7363b5c4ecef598cc1a540ae034f7d0fc7300"
+    },
+    {
+      "path": "sources/p119_G_detail.png",
+      "printed_page": 119,
+      "pdf_page_1based": 122,
+      "crop_pdf_points": [
+        422,
+        453,
+        470,
+        467
+      ],
+      "render_scale": 8,
+      "sha256": "2cc8750934fca85a236e64d505f26f9771ad5f2fa6254193898ee0abe2de8022"
+    },
+    {
+      "path": "sources/p127_F_detail.png",
+      "printed_page": 127,
+      "pdf_page_1based": 130,
+      "crop_pdf_points": [
+        376,
+        552,
+        448,
+        570
+      ],
+      "render_scale": 8,
+      "sha256": "055f4ab104bd47b5d5050ca4f4cd66598d4211f103039b2a2d73b0ef6c49f4e8"
+    }
+  ],
+  "records": [
+    {
+      "id": "p87_A1",
+      "printed_page": 87,
+      "source_section": "A1",
+      "key_id": "Nov1-3",
+      "source_rows": [
+        "DVGVD DGAFX GXFDG VAXXG AFAVA FVAGG VVDDF EGAGF",
+        "ADAGV AGXAD AGAGV VGFAG FGDGF FAVDG DVVGF GGDFG",
+        "XFGVA AXGVA GXGVG GVGXG FAFAV GFGVV DVFFD GXAGD",
+        "VVAAV GGAAD GDGGF VGVDX FXVVG AGAGG DGDVV XDDAG",
+        "FAVAA A"
+      ],
+      "source_slots": 166,
+      "advertised_length": 166,
+      "expected_raw": "AKONACH18?ROEHRENSENDERANTAFUNKABGEGANGENXHIER10KWQOFSENDERUMFORMERMOTORFUER220VOLT",
+      "readable_candidate": "AKONACH18?ROEHRENSENDERANTAFUNKABGEGANGENXHIER10KWQOFSENDERUMFORMERMOTORFUER220VOLT",
+      "readable_german": "Akonach 18? Roehrensender an TAFUNK abgegangen. Hier 10 kW QOF-Sender Umformermotor fuer 220 Volt.",
+      "case_path": "cases/radio/transmitter_dispatch_220_volts.md",
+      "title": "Transmitter dispatch and a 220-volt converter motor",
+      "meaning": "A tube transmitter is reported dispatched to the designation TAFUNK. The remaining text lists a 10 kW QOF transmitter and a converter motor for 220 volts. QOF and TAFUNK are kept as literal technical or routing labels; the incomplete opening label 18? remains unresolved.",
+      "reading_note": "The clear printed E in EGAGF is outside the coordinate alphabet. Its single slot is retained as a source mask; it is not replaced to complete the opening label 18?. The 10 kW, 220 Volt, QOF and TAFUNK labels are preserved. The published Nov1–3 key decrypts this physical source, while the 31 October heading and 2 November reception date remain separate facts. No historical rekeying sequence is inferred.",
+      "expected_costs": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "p119_A",
+      "printed_page": 119,
+      "source_section": "A",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "XFXVA FVVAX XXXXD FGFFD AVXFA ADVAD XVFVA GGVAX",
+        "FXXVA DFVGV FXVVD GDGDG DGFAV XXXXA FFFXF AVGAD",
+        "VXVAV FXAVD FVFDV AVGFF VDAXV XVAAV GAXVX VVDVG",
+        "VDGAV AVADG DAXGX AVVDA XVFFX VXDFA FFFXA XGFXV",
+        "GXGXX XXXVX FAVGX XFAVA XVFVF VDFXA FAXAV FVGAX",
+        "FXVAG DAXDX AAFXV XFAFA VXAAV XAXAV FFXXV XXFFF",
+        "VAXDV XVDFA VAXXA XGFGV AXXAX XDFAX FVGVA VAVFX",
+        "GFGAA D"
+      ],
+      "source_slots": 286,
+      "advertised_length": 286,
+      "expected_raw": "DRINGENDESREKLAMATIONSGESUCHBRUDERSOBERJAEGERSXSTEILINGXUNTERWEGSXERBITTEDRAHTLICHNACHURLAUBBISENTSCHEIDUNGXXHPTMXSTEILINGXKRIEGSBEKLEIDUNGSAMT",
+      "readable_candidate": "DRINGENDESREKLAMATIONSGESUCHBRUDERSOBERJAEGERSXSTEILINGXUNTERWEGSXERBITTEDRAHTLICHNACHURLAUBBISENTSCHEIDUNGXXHPTMXSTEILINGXKRIEGSBEKLEIDUNGSAMT",
+      "readable_german": "Dringendes Reklamationsgesuch Bruders Oberjaegers Steiling unterwegs. Erbitte drahtlich Nachurlaub bis Entscheidung. Hptm Steiling, Kriegsbekleidungsamt.",
+      "case_path": "cases/people/steiling_leave_request.md",
+      "title": "Steiling asks for additional leave pending a decision",
+      "meaning": "An urgent application concerning the brother identified as Oberjaeger Steiling is on its way. Hptm Steiling of the military clothing office requests additional leave by telegram until a decision is made. This is a request, not evidence that leave was granted; no personal identity is assigned.",
+      "reading_note": "All 286 received positions are observed ADFGVX coordinates and the complete 143-position plaintext re-encrypts exactly with no change. A high-resolution crop confirms the G in FVGVA; an initial low-resolution ambiguity is not treated as a source erasure.",
+      "expected_costs": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "p127_A3",
+      "printed_page": 127,
+      "source_section": "A3",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "----- ----- FAXAF FFAXX VDXAA VXXDX AXAXX FGFVX",
+        "DGFAV XAFFA DDFGF FVAVD FFAVV ADXFG DFXDX DADDF",
+        "AAAFV XVGFG AAXXG VDXDD FFVXG XGVDV AAAXV FGAAX",
+        "XVAGX VADGX FAAVV DFDAX XXAXD XFVFV FAFAV GXXFD",
+        "FVVAV DXAFF DVDFX FGFGX AFFVA VVADD VAXFA AAXXX"
+      ],
+      "source_slots": 200,
+      "advertised_length": 200,
+      "expected_raw": "211?IVDXMARS?HIERCBI?9X11XINR?UMUMTIT?LCXAXHXQ?X5X11XN?GQBECSER?KXXLUFT?UFKLAERU?ZNICHTSWESENTLICHES",
+      "readable_candidate": "211?IVDXMARSCHIERTBIS9X11XINRAUMUMTITELCXAXHXQ?X5X11XN?GQBECSER?KXXLUFTAUFKLAERUNGNICHTSWESENTLICHES",
+      "readable_german": "211?IVD marschiert bis 9 / 11 in Raum um TITELC. A. H. Q? 5 / 11 N?GQBECSER?K. Luftaufklaerung nichts Wesentliches.",
+      "case_path": "cases/military/nov4_march_air_reconnaissance.md",
+      "title": "March report and aerial reconnaissance with unresolved unit and place",
+      "meaning": "The proposal reports a march by the unresolved unit label 211?IVD into the area around literal TITELC by 9/ 11. An A H Q? / 5/ 11 /N?GQBECSER?K clause follows. The aerial reconnaissance clause reports nothing substantial. No place, unit or missing interception day is silently supplied.",
+      "reading_note": "The two five-dash groups occupy ten explicit source slots. The proposal fills six of them and changes two observed coordinates. Four plaintext positions remain unknown: one in the unit, one in Q?, and two in N?GQBECSER?K. TITELC remains literal, including its final C. The source omits the interception day; the plaintext date-like labels do not supply it.",
+      "expected_costs": [
+        2,
+        6
+      ]
+    },
+    {
+      "id": "p127_B1",
+      "printed_page": 127,
+      "source_section": "B1",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "AXVFF FAXAV GXAFX XFFFA VXVDX XVAGX AXVXV AXDVX",
+        "VAXFX GXGFA VAAAX -FGGF AXXDA VXXAF AXXXF AFFAA",
+        "XAXDG AAFGX DXV-- FFDAA FXVXA AVXDX V-VXD DXGXG",
+        "GGXXX XAFAV GFXAV FFXDG AVAAF VFFGF XGXAF FVFVX"
+      ],
+      "source_slots": 160,
+      "advertised_length": 160,
+      "expected_raw": "?I?RNOCHALTESPERSONAFXWIRSENDENWIEVERABREDETXWENNNICTMEHRDANNISTOS?AUSGESCHIE?EN",
+      "readable_candidate": "HIERNOCHALTESPERSONALXWIRSENDENWIEVERABREDETXWENNNICTMEHRDANNISTOS?AUSGESCHIEDEN",
+      "readable_german": "Hier noch altes Personal. Wir senden wie verabredet. Wenn NICT mehr, dann ist OS? ausgeschieden.",
+      "case_path": "cases/radio/nov4_personnel_transmission_notice.md",
+      "title": "Existing personnel and agreed radio transmissions",
+      "meaning": "The sender says the previous personnel are still present and transmissions continue as agreed. The final sentence contains the literal defect NICT and an unresolved OS? label. If NICT is intended as NICHT, it conditionally links ceased transmissions with the departure of OS?; that missing H is not inserted into the cryptographic reading.",
+      "reading_note": "The first source group is AXVFF; ALTES is already present in the complete raw reading. The later group VFFGF contains a clear F, not an out-of-alphabet T; neither visual correction is a historical ciphertext edit. The proposal changes one observed coordinate and fills three printed masks. The fourth mask leaves OS? unresolved. NICT is retained without adding H. Only the first of two announced parts is included.",
+      "expected_costs": [
+        1,
+        3
+      ]
+    }
+  ],
+  "headers": {
+    "p87_A1": [
+      "Page heading: 31st OCTOBER, 1918.",
+      "A) UKS v OSM (2.02 a.m., November 2nd)",
+      "SSD AUF 1330 (31/10) 3 TLE",
+      "1 TL RICHI-166"
+    ],
+    "p119_A": [
+      "Page heading: 4th NOVEMBER, 1918.",
+      "A) NKJ v LP (03.00 a.m., November 4th)",
+      "FUER COS GAM KOMPAGNIE TIFLIS (4/ 11) 0100",
+      "RICHI-286"
+    ],
+    "p127_A3": [
+      "Page heading: 4th NOVEMBER, 1918.",
+      "A) UKH v ZON (4.30 a.m., November---)",
+      "2000 (4)",
+      "3 TL RICHI-200"
+    ],
+    "p127_B1": [
+      "Page heading: 4th NOVEMBER, 1918.",
+      "B) LP v NKJ (9.45 p.m., November 5th)",
+      "2200 2 TLE",
+      "1 TL RIZI-160"
+    ]
+  },
+  "literal_glyph_notes": [
+    "The clear printed E in EGAGF is outside the coordinate alphabet. Its single slot is retained as a source mask; it is not replaced to complete the opening label 18?. The 10 kW, 220 Volt, QOF and TAFUNK labels are preserved. The published Nov1–3 key decrypts this physical source, while the 31 October heading and 2 November reception date remain separate facts. No historical rekeying sequence is inferred.",
+    "All 286 received positions are observed ADFGVX coordinates and the complete 143-position plaintext re-encrypts exactly with no change. A high-resolution crop confirms the G in FVGVA; an initial low-resolution ambiguity is not treated as a source erasure.",
+    "The two five-dash groups occupy ten explicit source slots. The proposal fills six of them and changes two observed coordinates. Four plaintext positions remain unknown: one in the unit, one in Q?, and two in N?GQBECSER?K. TITELC remains literal, including its final C. The source omits the interception day; the plaintext date-like labels do not supply it.",
+    "The first source group is AXVFF; ALTES is already present in the complete raw reading. The later group VFFGF contains a clear F, not an out-of-alphabet T; neither visual correction is a historical ciphertext edit. The proposal changes one observed coordinate and fills three printed masks. The fourth mask leaves OS? unresolved. NICT is retained without adding H. Only the first of two announced parts is included."
+  ],
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "4ab324d691f0a9f6a79683be74505296931c8f5daa1fcf7a91e4c11ac560315a"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "limits": [
+    "Native source lengths are retained in all four records; no coordinate is inserted or deleted.",
+    "The six remaining unknown plaintext positions and all numerical or letter labels remain explicit.",
+    "p87 A1 and p127 B1 are only the indicated surviving parts; companion parts are not reconstructed here.",
+    "Repairs of ordinary words in p127 A3 and B1 remain explicitly priced linguistic proposals."
+  ]
+}
