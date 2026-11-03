@@ -129,6 +129,13 @@ any decoded position or repair. The before/after audit protects 19 fenced
 blocks, 15 headings, 74 prior inline-code occurrences and eight evidence files.
 The earlier excerpting and punctuation rendering were already disclosed.
 
+The [optional p132 address supplement](../experiments/p132_optional_address/README.md)
+adds a complete 118-label quotation in its own experiment README. A separate
+live mapping protects the unchanged name and footer, while its source/cipher
+verifier checks the two additional address substitutions and three raw
+wording attestations. The primary case's headings, fences and quotations
+remain byte-preserved.
+
 ## Run the checks
 
 From the repository root:
@@ -139,6 +146,8 @@ python data/reviews/verify_manual_readings.py
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_layers_before.json --audit data/reviews/reading_conventions_layers_audit.json
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
 python data/reviews/check_reading_presentation.py
+python experiments/p132_optional_address/verify.py --verify
+python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/p132_optional_address_readable_mapping_20261103.json
 python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/complete_displays_readable_mappings_20261103.json
 python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_complete_displays_before.json --audit data/reviews/reading_conventions_complete_displays_audit.json
 python data/reviews/verify_table_readable_mappings.py

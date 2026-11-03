@@ -203,3 +203,5 @@ is made.
 python experiments/november_radio_service/verify.py --verify
 python experiments/november_radio_service/geometry_audit.py --verify
 ```
+
+A [separate address-spelling supplement](../../experiments/p132_optional_address/README.md) prices `KOSJOII` → `KOSPOLI` at two additional observed-coordinate substitutions and binds independent raw occurrences in p90, p98 and p148. This optional proposal leaves the primary streams and unresolved name above unchanged.

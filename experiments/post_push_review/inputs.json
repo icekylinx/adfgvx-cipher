@@ -4075,7 +4075,8 @@
     "nov22_nikolajew_constraint",
     "post_push_copy_retrieval",
     "odd_fragment_diagnostics",
-    "accounting_copy_reconciliation"
+    "accounting_copy_reconciliation",
+    "p132_optional_address"
   ],
   "artifact_sha256s": {
     "experiments/crown_airlift/README.md": "09e242c2345f1d5832ddd5114af276426d4aeae6fde765d98f064db4d966da0b",
@@ -5447,7 +5448,7 @@
     "cases/naval/reval_steamer_notice.md": "1bf20a5dad69ea483714123164aff362d221e527288bbf8d20aa2539589d8220",
     "cases/military/mackensen_withdrawal_report.md": "e5628d64cb90703cc12a9e784179bade5c31c1127ff339fd3b06e77e82afe6dc",
     "cases/radio/document_destruction.md": "de664033de6c7b83b23c83919eef111f63964c067048a4cfdd1622910bb61f07",
-    "cases/radio/p132_radio_service.md": "3f5c45f28fe5290917be0c752672a96a5fb8cfdb8ac5a4b51db938a1d16d908d",
+    "cases/radio/p132_radio_service.md": "8a275d4864d9a6f2f2b58d0fc81478ccfe4b98d4cad03ec5968a0cf65cb49f38",
     "cases/caucasus/p212_p218_crosscopy.md": "de7035f358f2210f49158cdb84c91f010120c027e65328dd2273ab0f7926659a",
     "cases/military/armistice_and_leave_orders.md": "3106cca7d4509eac09e4e8d1537156429edc4f53e8464e966e99db7bf7d7c8f7",
     "cases/radio/right_rhine_equipment.md": "ef87a05d476be201b8c3e739b60e32a8ae5e1a35fe7d4c2376762813b61e5be4",
@@ -5613,8 +5614,8 @@
     "data/reviews/reading_conventions_spacing_before.json": "b7461cff0cafb151383501d7be773ad43de1940e32fa6cc9b6c286338136ef06",
     "data/reviews/reading_conventions_support_audit.json": "358504a577f64ff1d31460a2d5b593efff3e765e38eb1183406c7bfb0ca08110",
     "data/reviews/check_reading_presentation.py": "8025ad223025038b63a20b8ceace0c1cdb0395e2cbd81465cbec7c8de9e65d93",
-    "data/reviews/reading_layer_manifest.json": "d82d328748f4bdeea70aed8f6cd0040c8b3c0e37ad61e70da112b0dc03c7fc71",
-    "docs/reading-conventions-coverage.md": "756d785b50c39979e6711f3b5504ecc5602ede4e4fc56f6fece57e69359ab49d",
+    "data/reviews/reading_layer_manifest.json": "fc8e2e82d71115517e337e8e48b874ff8e79789e46b51ac2bc240df00458e56c",
+    "docs/reading-conventions-coverage.md": "1f561cf2efc91a6206d8b78d956d18cb1e7d1410b6b67695b8c58c828b5f7a14",
     "data/reviews/reading_conventions_semantic_before.json": "e6b9d3aa4fc47c760af3d5710a536ef23d9576e1352642bd76b795aca2e4d765",
     "data/reviews/reading_conventions_semantic_audit.json": "5db9a6222c904dccc1ffe3aeef59a6bd36a74cc9278ab00bf03181cfd11549dc",
     "data/reviews/verify_semantic_readings.py": "722c68f8841059607647ace7d5aef01ea27ce26f8451ecce0c5bd03bf95bb395",
@@ -5728,7 +5729,12 @@
     "data/reviews/complete_displays_readable_mappings_20261103.json": "b445601f4185694dd018a7855a2877a1f21da44fab41610b864300bfa8bad0f4",
     "data/reviews/reading_conventions_complete_displays_audit.json": "00bd23a19fc76f075011823a375d32f157b502c598f50658be92cdfd4f59d9da",
     "data/reviews/reading_conventions_complete_displays_before.json": "7ad495de6366b3b4580ab88a776f9a101c5f5186ab0497d11f44f58842f91a47",
-    "docs/reading-conventions-complete-displays.md": "eb60bd4560572fdbee9135569606dc2a2c0e543cf23f4ab2e41753249aee44ec"
+    "docs/reading-conventions-complete-displays.md": "eb60bd4560572fdbee9135569606dc2a2c0e543cf23f4ab2e41753249aee44ec",
+    "experiments/p132_optional_address/inputs.json": "383094bd700d35119da9b5ad1aad0377e9b0d69e996ebde772d51d0782e8b460",
+    "experiments/p132_optional_address/verify.py": "9b198b81d2ac888ef104c63a64952c586d36e46645ef049b4581a14b1321c33c",
+    "experiments/p132_optional_address/certificates.json": "1d2bdfaf60588e4bbe09c74fa7b2b820dfcdb51df153376bbbcba7aa9a5c8b1e",
+    "experiments/p132_optional_address/README.md": "bf48584404ccad5fdd5e0acff3649d149f40a57ea5d1a6ea03c965acf2241fc8",
+    "data/reviews/p132_optional_address_readable_mapping_20261103.json": "07de348c8d2329f70afe529ede3cdff47cfce4760e21361cee293d718d9be98e"
   },
   "source_images": [
     {
@@ -13655,7 +13661,8 @@
     "data/reviews/reading_conventions_complete_displays_before.json",
     "data/reviews/reading_conventions_complete_displays_audit.json",
     "data/reviews/complete_displays_readable_mappings_20261103.json",
-    "docs/reading-conventions-complete-displays.md"
+    "docs/reading-conventions-complete-displays.md",
+    "data/reviews/p132_optional_address_readable_mapping_20261103.json"
   ],
   "counting_limits": [
     "Physical records, repeated copies and numbered source parts are counted separately; they are not all first decipherments.",
