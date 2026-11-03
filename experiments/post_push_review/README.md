@@ -5,26 +5,28 @@ Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 **State: in progress.** The initial remote publication was confirmed at
 2026-11-02 23:27:19 UTC. The requested additional two-hour work period
 runs until at least 2026-11-03 01:27:19 UTC. The user subsequently extended
-work to **2026-11-03 03:30:00 UTC (11:30 UTC+8)** and requested consistent
+work to **2026-11-03 05:30:00 UTC (13:30 UTC+8)** and requested consistent
 presentation of every reading and notation. No completed duration is claimed
 by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 471 other physical source records**, with all
-22 challenge entries preserved. It adds **276 physical records across 75 source
-packages** and keeps every earlier record. The separate interpretation and
-open-target method audits add no physical records.
+This snapshot compares **195 → 527 other physical source records**, with all
+22 challenge entries preserved. It adds **332 physical records across 94 source
+packages** and keeps every earlier record. Interpretation and open-target
+method audits add no physical records.
 
-The new source packages account for **60,778 literal source slots** and
-**30,564 modeled plaintext positions**, of which **29,438 have fixed raw labels**
-under their stated frames. These are coverage counts. They include repeated
-copies, previously identified bodies, conditional geometry and unresolved
-historical numeral meanings; they are not a count of first decipherments or
-universally correct original letters. All 571 observed-coordinate substitutions
-are recorded locally, separately from source erasures and inserted values.
-The source-slot total includes separately recorded marginal annotations;
-those annotations are not automatically part of a typed analysis frame.
+The source packages account for **71,434 literal source slots** and
+**35,966 modeled plaintext positions**, of which
+**34,580 have fixed raw labels** under their stated frames.
+These are coverage counts, including repeated copies, prior body readings,
+conditional frames and unresolved historical numerals. They are not a count
+of first decipherments or independently authenticated historical letters.
+All **685 observed-coordinate substitutions** remain separately priced.
+Printed-mask fills, missing-slot fills, copied prefixes and source-layout
+exclusions keep their distinct units in each package. In particular, the
+copy-conditioned p157 A1 record contributes **0/95 fixed raw positions**;
+its copied values are excluded from the fixed-raw total.
 
 ## Source packages
 
@@ -105,11 +107,31 @@ those annotations are not automatically part of a typed analysis frame.
 | [p151 fragments, annotated acknowledgment and Soldiers Council notice](../nov7_fragments_and_council/README.md) | 4 | 690 | 343 | 342 | 4 |
 | [p161 B1: urgent Constantinople embassy address](../nov9_urgent_embassy_address/README.md) | 1 | 98 | 49 | 49 | 0 |
 | [Romanian pacification consultation: p157 parts 2–5](../romanian_pacification_consultation/README.md) | 4 | 756 | 378 | 377 | 11 |
+| [November 4: repetition, communications and a money acknowledgment](../nov4_repetition_and_connections/README.md) | 5 | 1030 | 515 | 514 | 7 |
+| [November 2 acknowledgment copies and personnel orders](../nov2_acknowledgments_and_personnel/README.md) | 7 | 1175 | 588 | 584 | 3 |
+| [Radio notices, Tiflis personnel and internment on p230](../nov30_radio_personnel/README.md) | 4 | 490 | 245 | 245 | 0 |
+| [Radio reception instructions and a brief no-events report](../nov27_receiving_instructions/README.md) | 3 | 506 | 253 | 250 | 14 |
+| [Armistice acknowledgments, personnel and Warsaw radio inquiries](../nov16_18_command_inquiries/README.md) | 7 | 1070 | 535 | 517 | 9 |
+| [November 6 Ringbahn-key source witnesses](../nov6_ringbahn_key_witnesses/README.md) | 3 | 531 | 266 | 265 | 5 |
+| [Warsaw station report: conditional recovery of a missing row](../warsaw_station_missing_row/README.md) | 1 | 242 | 141 | 101 | 0 |
+| [Armistice-departure report: explicit p151/p157 copy reconstruction](../armistice_departure_copy/README.md) | 1 | 83 | 95 | 0 | 5 |
+| [Wishing to travel home and uncertainty over Baltic transport](../home_departures_baltic_transport/README.md) | 2 | 424 | 212 | 209 | 0 |
+| [Mackensen withdrawal report: separately received part 2](../mackensen_withdrawal_part2/README.md) | 1 | 377 | 189 | 188 | 13 |
+| [Namur arrival, Cassel transport and armistice-information requests](../namur_cassel_armistice_requests/README.md) | 4 | 658 | 329 | 326 | 7 |
+| [Eilvese, setup, boat-sale and director-departure source records](../nov4_radio_and_departure_queries/README.md) | 4 | 887 | 443 | 432 | 17 |
+| [Gomel route derailment and station-train forwarding](../nov7_derailment_and_trains/README.md) | 2 | 540 | 270 | 260 | 3 |
+| [Unreadable eighth part: source and shared-cell reconstruction](../nov7_eighth_part_repetition/README.md) | 2 | 323 | 161 | 155 | 0 |
+| [Ober Ost troop movements: a conditional reading across two obliterations](../oberost_troop_movement_obliterations/README.md) | 1 | 308 | 154 | 150 | 1 |
+| [Von Schorlemer: demobilization work inquiry and reply](../schorlemer_demobilization_inquiry/README.md) | 2 | 412 | 206 | 169 | 8 |
+| [September radio instructions: Tiflis routing and key destruction](../september_radio_instructions/README.md) | 4 | 798 | 399 | 389 | 10 |
+| [Siegfried assignment cancellation: conditional surplus coordinate](../siegfried_assignment_cancellation/README.md) | 1 | 401 | 200 | 196 | 7 |
+| [State-bank accounting request and dispatched cheques](../staatsbank_accounting_cheques/README.md) | 2 | 401 | 201 | 192 | 5 |
 
 The [complete inventory](inventory.json) preserves every added identifier,
 package summary, case path and counting limit. The [inputs](inputs.json)
-pin both catalogues and 1166 package/case artifacts. Earlier statuses, subjects
-and credits are unchanged; 164 old path fields follow the explicit topic-migration map.
+pin both catalogues and 1362 package/case artifacts. Earlier statuses,
+subjects and credits are unchanged; 164 old path fields follow the explicit
+topic-migration map.
 
 ## Additional interpretation and method audits
 
@@ -145,7 +167,7 @@ readable passages, preserving all five unresolved positions.
 
 ## Independent source-image binding
 
-All **362 delivered source images** have normalized PDF-page, rectangle, scale,
+All **405 distinct delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph
@@ -170,7 +192,7 @@ beside their packages and run in CI.
 The review uses preserved start/end catalogues, so a later live catalogue
 can grow without rewriting its historical count. The earlier
 [87-to-195 review](../session_review/README.md) remains separate and unchanged.
-The completion timestamp, once recorded, must satisfy both the two-hour minimum and the later 03:30 UTC deadline.
+The completion timestamp, once recorded, must satisfy both the two-hour minimum and the later 05:30 UTC deadline.
 
 For readable messages, use the [case guide](../../cases/README.md); for the
 reorganized layout, use the [repository map](../../docs/repository-map.md).

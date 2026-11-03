@@ -1,0 +1,8656 @@
+{
+  "schema": "adfgvx-nov6-ringbahn-witnesses-certificate-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "input_sha256": "fba3fac11f80aa03893a3b397bbe9c6e07129b1006ce6fb671b0df3618d65611",
+  "indexing": "All indices are zero-based.",
+  "summary": {
+    "physical_records": 3,
+    "printed_source_slots": 531,
+    "valid_source_coordinates": 531,
+    "modeled_coordinates": 532,
+    "plaintext_positions": 266,
+    "baseline_fixed_positions": 265,
+    "candidate_fixed_positions": 266,
+    "known_coordinate_substitutions": 5,
+    "source_or_model_erasure_fills": 1,
+    "source_mask_fills": 0,
+    "inserted_slot_fills": 1,
+    "source_deletions": 0,
+    "published_key_changed": false
+  },
+  "records": [
+    {
+      "id": "p145_B1",
+      "literal_source": "AVXXDADFAXGGVFXFAFAAAVXVAFXAXVFVDFFXAVVGFGXAVFAGAAAAGFAAVFXAAVXVDDAGVDFXFAFXDXAVDADXVDXDGAXXXXFGVGFAAGVAXAXDFAXXAXVGAAXVDFVVXVGXGVXXVFAAGFXVGXGXGVVXGVFFVVAGVGDDXAVDAVDXXVDAGVAXVFFXAFDXAVDXXFXAXXDFDVGXGVAXGFXFDFXAAF",
+      "literal_printed_rows": [
+        "AVXXD ADFAX GGVFX FAFAA AVXVA FXAXV FVDFF XAVVG",
+        "FGXAV FAGAA AAGFA AVFXA AVXVD DAGVD FXFAF XDXAV",
+        "DADXV DXDGA XXXXF GVGFA AGVAX AXDFA XXAXV GAAXV",
+        "DFVVX VGXGV XXVFA AGFXV GXGXG VVXGV FFVVA GVGDD",
+        "XAVDA VDXXV DAGVA XVFFX AFDXA VDXXF XAXXD FDVGX",
+        "GVAXG FXFDF XAAF"
+      ],
+      "source_slots": 214,
+      "valid_coordinates": 214,
+      "ciphertext": "AVXXDADFAXGGVFXFAFAAAVXVAFXAXVFVDFFXAVVGFGXAVFAGAAAAGFAAVFXAAVXVDDAGVDFXFAFXDXAVDADXVDXDGAXXXXFGVGFAAGVAXAXDFAXXAXVGAAXVDFVVXVGXGVXXVFAAGFXVGXGXGVVXGVFFVVAGVGDDXAVDAVDXXVDAGVAXVFFXAFDXAVDXXFXAXXDFDVGXGVAXGFXFDFXAAF",
+      "analysis_frame_slots": 214,
+      "model_to_source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213
+      ],
+      "raw": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHRCHEFXGXB848727XXDEZEMBERX1INGBAHNSCHLUESSELTRITTVORLAEUFIGX",
+      "fixed_positions": 107,
+      "positions": [
+        {
+          "plaintext_index": 0,
+          "pair": "XX",
+          "model_indices": [
+            75,
+            113
+          ],
+          "source_indices": [
+            75,
+            113
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 1,
+          "pair": "GA",
+          "model_indices": [
+            88,
+            164
+          ],
+          "source_indices": [
+            88,
+            164
+          ],
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 2,
+          "pair": "FG",
+          "model_indices": [
+            25,
+            126
+          ],
+          "source_indices": [
+            25,
+            126
+          ],
+          "domain": "V",
+          "raw": "V"
+        },
+        {
+          "plaintext_index": 3,
+          "pair": "FA",
+          "model_indices": [
+            189,
+            0
+          ],
+          "source_indices": [
+            189,
+            0
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 4,
+          "pair": "XF",
+          "model_indices": [
+            62,
+            151
+          ],
+          "source_indices": [
+            62,
+            151
+          ],
+          "domain": "M",
+          "raw": "M"
+        },
+        {
+          "plaintext_index": 5,
+          "pair": "VG",
+          "model_indices": [
+            38,
+            101
+          ],
+          "source_indices": [
+            38,
+            101
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 6,
+          "pair": "FA",
+          "model_indices": [
+            177,
+            50
+          ],
+          "source_indices": [
+            177,
+            50
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 7,
+          "pair": "VA",
+          "model_indices": [
+            139,
+            202
+          ],
+          "source_indices": [
+            139,
+            202
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 8,
+          "pair": "FD",
+          "model_indices": [
+            13,
+            76
+          ],
+          "source_indices": [
+            13,
+            76
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 9,
+          "pair": "VA",
+          "model_indices": [
+            114,
+            89
+          ],
+          "source_indices": [
+            114,
+            89
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 10,
+          "pair": "VX",
+          "model_indices": [
+            165,
+            26
+          ],
+          "source_indices": [
+            165,
+            26
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 11,
+          "pair": "XX",
+          "model_indices": [
+            127,
+            190
+          ],
+          "source_indices": [
+            127,
+            190
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 12,
+          "pair": "VV",
+          "model_indices": [
+            1,
+            63
+          ],
+          "source_indices": [
+            1,
+            63
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 13,
+          "pair": "VG",
+          "model_indices": [
+            152,
+            39
+          ],
+          "source_indices": [
+            152,
+            39
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 14,
+          "pair": "VF",
+          "model_indices": [
+            102,
+            178
+          ],
+          "source_indices": [
+            102,
+            178
+          ],
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 15,
+          "pair": "AG",
+          "model_indices": [
+            51,
+            140
+          ],
+          "source_indices": [
+            51,
+            140
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 16,
+          "pair": "XX",
+          "model_indices": [
+            203,
+            14
+          ],
+          "source_indices": [
+            203,
+            14
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 17,
+          "pair": "XG",
+          "model_indices": [
+            77,
+            115
+          ],
+          "source_indices": [
+            77,
+            115
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 18,
+          "pair": "XD",
+          "model_indices": [
+            90,
+            166
+          ],
+          "source_indices": [
+            90,
+            166
+          ],
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 19,
+          "pair": "AG",
+          "model_indices": [
+            27,
+            128
+          ],
+          "source_indices": [
+            27,
+            128
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 20,
+          "pair": "AX",
+          "model_indices": [
+            191,
+            2
+          ],
+          "source_indices": [
+            191,
+            2
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 21,
+          "pair": "DV",
+          "model_indices": [
+            64,
+            153
+          ],
+          "source_indices": [
+            64,
+            153
+          ],
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 22,
+          "pair": "FA",
+          "model_indices": [
+            40,
+            103
+          ],
+          "source_indices": [
+            40,
+            103
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 23,
+          "pair": "XG",
+          "model_indices": [
+            179,
+            52
+          ],
+          "source_indices": [
+            179,
+            52
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 24,
+          "pair": "XG",
+          "model_indices": [
+            141,
+            204
+          ],
+          "source_indices": [
+            141,
+            204
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 25,
+          "pair": "FA",
+          "model_indices": [
+            15,
+            78
+          ],
+          "source_indices": [
+            15,
+            78
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 26,
+          "pair": "AX",
+          "model_indices": [
+            116,
+            91
+          ],
+          "source_indices": [
+            116,
+            91
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 27,
+          "pair": "XX",
+          "model_indices": [
+            167,
+            28
+          ],
+          "source_indices": [
+            167,
+            28
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 28,
+          "pair": "VX",
+          "model_indices": [
+            129,
+            192
+          ],
+          "source_indices": [
+            129,
+            192
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 29,
+          "pair": "XD",
+          "model_indices": [
+            3,
+            65
+          ],
+          "source_indices": [
+            3,
+            65
+          ],
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 30,
+          "pair": "AG",
+          "model_indices": [
+            154,
+            41
+          ],
+          "source_indices": [
+            154,
+            41
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 31,
+          "pair": "XA",
+          "model_indices": [
+            104,
+            180
+          ],
+          "source_indices": [
+            104,
+            180
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 32,
+          "pair": "FG",
+          "model_indices": [
+            53,
+            142
+          ],
+          "source_indices": [
+            53,
+            142
+          ],
+          "domain": "V",
+          "raw": "V"
+        },
+        {
+          "plaintext_index": 33,
+          "pair": "FA",
+          "model_indices": [
+            205,
+            16
+          ],
+          "source_indices": [
+            205,
+            16
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 34,
+          "pair": "VA",
+          "model_indices": [
+            79,
+            117
+          ],
+          "source_indices": [
+            79,
+            117
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 35,
+          "pair": "XX",
+          "model_indices": [
+            92,
+            168
+          ],
+          "source_indices": [
+            92,
+            168
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 36,
+          "pair": "VX",
+          "model_indices": [
+            29,
+            130
+          ],
+          "source_indices": [
+            29,
+            130
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 37,
+          "pair": "XD",
+          "model_indices": [
+            193,
+            4
+          ],
+          "source_indices": [
+            193,
+            4
+          ],
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 38,
+          "pair": "AG",
+          "model_indices": [
+            66,
+            155
+          ],
+          "source_indices": [
+            66,
+            155
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 39,
+          "pair": "XA",
+          "model_indices": [
+            42,
+            105
+          ],
+          "source_indices": [
+            42,
+            105
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 40,
+          "pair": "FA",
+          "model_indices": [
+            181,
+            54
+          ],
+          "source_indices": [
+            181,
+            54
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 41,
+          "pair": "XX",
+          "model_indices": [
+            143,
+            206
+          ],
+          "source_indices": [
+            143,
+            206
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 42,
+          "pair": "FD",
+          "model_indices": [
+            17,
+            80
+          ],
+          "source_indices": [
+            17,
+            80
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 43,
+          "pair": "XX",
+          "model_indices": [
+            118,
+            93
+          ],
+          "source_indices": [
+            118,
+            93
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 44,
+          "pair": "VF",
+          "model_indices": [
+            169,
+            30
+          ],
+          "source_indices": [
+            169,
+            30
+          ],
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 45,
+          "pair": "XD",
+          "model_indices": [
+            131,
+            194
+          ],
+          "source_indices": [
+            131,
+            194
+          ],
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 46,
+          "pair": "AG",
+          "model_indices": [
+            5,
+            67
+          ],
+          "source_indices": [
+            5,
+            67
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 47,
+          "pair": "VA",
+          "model_indices": [
+            156,
+            43
+          ],
+          "source_indices": [
+            156,
+            43
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 48,
+          "pair": "XD",
+          "model_indices": [
+            106,
+            182
+          ],
+          "source_indices": [
+            106,
+            182
+          ],
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 49,
+          "pair": "AG",
+          "model_indices": [
+            55,
+            144
+          ],
+          "source_indices": [
+            55,
+            144
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 50,
+          "pair": "FA",
+          "model_indices": [
+            207,
+            18
+          ],
+          "source_indices": [
+            207,
+            18
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 51,
+          "pair": "AV",
+          "model_indices": [
+            81,
+            119
+          ],
+          "source_indices": [
+            81,
+            119
+          ],
+          "domain": "F",
+          "raw": "F"
+        },
+        {
+          "plaintext_index": 52,
+          "pair": "FD",
+          "model_indices": [
+            94,
+            170
+          ],
+          "source_indices": [
+            94,
+            170
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 53,
+          "pair": "VV",
+          "model_indices": [
+            31,
+            132
+          ],
+          "source_indices": [
+            31,
+            132
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 54,
+          "pair": "FD",
+          "model_indices": [
+            195,
+            6
+          ],
+          "source_indices": [
+            195,
+            6
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 55,
+          "pair": "VG",
+          "model_indices": [
+            68,
+            157
+          ],
+          "source_indices": [
+            68,
+            157
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 56,
+          "pair": "VD",
+          "model_indices": [
+            44,
+            107
+          ],
+          "source_indices": [
+            44,
+            107
+          ],
+          "domain": "8",
+          "raw": "8"
+        },
+        {
+          "plaintext_index": 57,
+          "pair": "XV",
+          "model_indices": [
+            183,
+            56
+          ],
+          "source_indices": [
+            183,
+            56
+          ],
+          "domain": "4",
+          "raw": "4"
+        },
+        {
+          "plaintext_index": 58,
+          "pair": "VD",
+          "model_indices": [
+            145,
+            208
+          ],
+          "source_indices": [
+            145,
+            208
+          ],
+          "domain": "8",
+          "raw": "8"
+        },
+        {
+          "plaintext_index": 59,
+          "pair": "AD",
+          "model_indices": [
+            19,
+            82
+          ],
+          "source_indices": [
+            19,
+            82
+          ],
+          "domain": "7",
+          "raw": "7"
+        },
+        {
+          "plaintext_index": 60,
+          "pair": "DG",
+          "model_indices": [
+            120,
+            95
+          ],
+          "source_indices": [
+            120,
+            95
+          ],
+          "domain": "2",
+          "raw": "2"
+        },
+        {
+          "plaintext_index": 61,
+          "pair": "AD",
+          "model_indices": [
+            171,
+            32
+          ],
+          "source_indices": [
+            171,
+            32
+          ],
+          "domain": "7",
+          "raw": "7"
+        },
+        {
+          "plaintext_index": 62,
+          "pair": "FD",
+          "model_indices": [
+            133,
+            196
+          ],
+          "source_indices": [
+            133,
+            196
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 63,
+          "pair": "FD",
+          "model_indices": [
+            7,
+            69
+          ],
+          "source_indices": [
+            7,
+            69
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 64,
+          "pair": "DF",
+          "model_indices": [
+            158,
+            45
+          ],
+          "source_indices": [
+            158,
+            45
+          ],
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 65,
+          "pair": "FA",
+          "model_indices": [
+            108,
+            184
+          ],
+          "source_indices": [
+            108,
+            184
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 66,
+          "pair": "FV",
+          "model_indices": [
+            57,
+            146
+          ],
+          "source_indices": [
+            57,
+            146
+          ],
+          "domain": "Z",
+          "raw": "Z"
+        },
+        {
+          "plaintext_index": 67,
+          "pair": "FA",
+          "model_indices": [
+            209,
+            20
+          ],
+          "source_indices": [
+            209,
+            20
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 68,
+          "pair": "XF",
+          "model_indices": [
+            83,
+            121
+          ],
+          "source_indices": [
+            83,
+            121
+          ],
+          "domain": "M",
+          "raw": "M"
+        },
+        {
+          "plaintext_index": 69,
+          "pair": "VG",
+          "model_indices": [
+            96,
+            172
+          ],
+          "source_indices": [
+            96,
+            172
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 70,
+          "pair": "FA",
+          "model_indices": [
+            33,
+            134
+          ],
+          "source_indices": [
+            33,
+            134
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 71,
+          "pair": "VA",
+          "model_indices": [
+            197,
+            8
+          ],
+          "source_indices": [
+            197,
+            8
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 72,
+          "pair": "FD",
+          "model_indices": [
+            70,
+            159
+          ],
+          "source_indices": [
+            70,
+            159
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 73,
+          "pair": "AA",
+          "model_indices": [
+            46,
+            109
+          ],
+          "source_indices": [
+            46,
+            109
+          ],
+          "domain": "1",
+          "raw": "1"
+        },
+        {
+          "plaintext_index": 74,
+          "pair": "VX",
+          "model_indices": [
+            185,
+            58
+          ],
+          "source_indices": [
+            185,
+            58
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 75,
+          "pair": "XX",
+          "model_indices": [
+            147,
+            210
+          ],
+          "source_indices": [
+            147,
+            210
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 76,
+          "pair": "VV",
+          "model_indices": [
+            21,
+            84
+          ],
+          "source_indices": [
+            21,
+            84
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 77,
+          "pair": "VG",
+          "model_indices": [
+            122,
+            97
+          ],
+          "source_indices": [
+            122,
+            97
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 78,
+          "pair": "VF",
+          "model_indices": [
+            173,
+            34
+          ],
+          "source_indices": [
+            173,
+            34
+          ],
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 79,
+          "pair": "AG",
+          "model_indices": [
+            135,
+            198
+          ],
+          "source_indices": [
+            135,
+            198
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 80,
+          "pair": "XX",
+          "model_indices": [
+            9,
+            71
+          ],
+          "source_indices": [
+            9,
+            71
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 81,
+          "pair": "XG",
+          "model_indices": [
+            160,
+            47
+          ],
+          "source_indices": [
+            160,
+            47
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 82,
+          "pair": "XD",
+          "model_indices": [
+            110,
+            186
+          ],
+          "source_indices": [
+            110,
+            186
+          ],
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 83,
+          "pair": "AG",
+          "model_indices": [
+            59,
+            148
+          ],
+          "source_indices": [
+            59,
+            148
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 84,
+          "pair": "AX",
+          "model_indices": [
+            211,
+            22
+          ],
+          "source_indices": [
+            211,
+            22
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 85,
+          "pair": "DV",
+          "model_indices": [
+            85,
+            123
+          ],
+          "source_indices": [
+            85,
+            123
+          ],
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 86,
+          "pair": "FA",
+          "model_indices": [
+            98,
+            174
+          ],
+          "source_indices": [
+            98,
+            174
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 87,
+          "pair": "XG",
+          "model_indices": [
+            35,
+            136
+          ],
+          "source_indices": [
+            35,
+            136
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 88,
+          "pair": "XG",
+          "model_indices": [
+            199,
+            10
+          ],
+          "source_indices": [
+            199,
+            10
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 89,
+          "pair": "FA",
+          "model_indices": [
+            72,
+            161
+          ],
+          "source_indices": [
+            72,
+            161
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 90,
+          "pair": "AX",
+          "model_indices": [
+            48,
+            111
+          ],
+          "source_indices": [
+            48,
+            111
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 91,
+          "pair": "XA",
+          "model_indices": [
+            187,
+            60
+          ],
+          "source_indices": [
+            187,
+            60
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 92,
+          "pair": "VA",
+          "model_indices": [
+            149,
+            212
+          ],
+          "source_indices": [
+            149,
+            212
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 93,
+          "pair": "VX",
+          "model_indices": [
+            23,
+            86
+          ],
+          "source_indices": [
+            23,
+            86
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 94,
+          "pair": "XA",
+          "model_indices": [
+            124,
+            99
+          ],
+          "source_indices": [
+            124,
+            99
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 95,
+          "pair": "XA",
+          "model_indices": [
+            175,
+            36
+          ],
+          "source_indices": [
+            175,
+            36
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 96,
+          "pair": "FG",
+          "model_indices": [
+            137,
+            200
+          ],
+          "source_indices": [
+            137,
+            200
+          ],
+          "domain": "V",
+          "raw": "V"
+        },
+        {
+          "plaintext_index": 97,
+          "pair": "GA",
+          "model_indices": [
+            11,
+            73
+          ],
+          "source_indices": [
+            11,
+            73
+          ],
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 98,
+          "pair": "VA",
+          "model_indices": [
+            162,
+            49
+          ],
+          "source_indices": [
+            162,
+            49
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 99,
+          "pair": "AX",
+          "model_indices": [
+            112,
+            188
+          ],
+          "source_indices": [
+            112,
+            188
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 100,
+          "pair": "VF",
+          "model_indices": [
+            61,
+            150
+          ],
+          "source_indices": [
+            61,
+            150
+          ],
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 101,
+          "pair": "FA",
+          "model_indices": [
+            213,
+            24
+          ],
+          "source_indices": [
+            213,
+            24
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 102,
+          "pair": "DV",
+          "model_indices": [
+            87,
+            125
+          ],
+          "source_indices": [
+            87,
+            125
+          ],
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 103,
+          "pair": "AV",
+          "model_indices": [
+            100,
+            176
+          ],
+          "source_indices": [
+            100,
+            176
+          ],
+          "domain": "F",
+          "raw": "F"
+        },
+        {
+          "plaintext_index": 104,
+          "pair": "VX",
+          "model_indices": [
+            37,
+            138
+          ],
+          "source_indices": [
+            37,
+            138
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 105,
+          "pair": "VV",
+          "model_indices": [
+            201,
+            12
+          ],
+          "source_indices": [
+            201,
+            12
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 106,
+          "pair": "FD",
+          "model_indices": [
+            74,
+            163
+          ],
+          "source_indices": [
+            74,
+            163
+          ],
+          "domain": "X",
+          "raw": "X"
+        }
+      ],
+      "readable_candidate": {
+        "template": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHRCHEFXGXB848727XXDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGX",
+        "ciphertext": "AVXXDADFAXGGVFXFAFAAAVXVAFXAXVFVDFFXAVVGFGXAVFVGAAAAGFAAVFXAAVXVDDAGVDFXFAFXDXAVDADXVDXDGAXXXXFGVGFAAGVAXAXDFAXXAXVGAAXVDFVVXVGXGVXXVFAAGFXVGXGXGVVXGVFFVVAGVGDDXAVDAVDXXVDAGVAXVFFXAFDXAVDXXFXAXXDFDVGXGVAXGFXFDFXAAF",
+        "known_coordinate_substitutions": [
+          {
+            "model_index": 46,
+            "source_index": 46,
+            "printed": "A",
+            "from": "A",
+            "to": "V"
+          }
+        ],
+        "erased_coordinate_fills": [],
+        "full_plaintext_reencryption_verified": true,
+        "published_key_changed": false,
+        "raw": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHRCHEFXGXB848727XXDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGX",
+        "fixed_positions": 107,
+        "positions": [
+          {
+            "plaintext_index": 0,
+            "pair": "XX",
+            "model_indices": [
+              75,
+              113
+            ],
+            "source_indices": [
+              75,
+              113
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 1,
+            "pair": "GA",
+            "model_indices": [
+              88,
+              164
+            ],
+            "source_indices": [
+              88,
+              164
+            ],
+            "domain": "O",
+            "raw": "O"
+          },
+          {
+            "plaintext_index": 2,
+            "pair": "FG",
+            "model_indices": [
+              25,
+              126
+            ],
+            "source_indices": [
+              25,
+              126
+            ],
+            "domain": "V",
+            "raw": "V"
+          },
+          {
+            "plaintext_index": 3,
+            "pair": "FA",
+            "model_indices": [
+              189,
+              0
+            ],
+            "source_indices": [
+              189,
+              0
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 4,
+            "pair": "XF",
+            "model_indices": [
+              62,
+              151
+            ],
+            "source_indices": [
+              62,
+              151
+            ],
+            "domain": "M",
+            "raw": "M"
+          },
+          {
+            "plaintext_index": 5,
+            "pair": "VG",
+            "model_indices": [
+              38,
+              101
+            ],
+            "source_indices": [
+              38,
+              101
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 6,
+            "pair": "FA",
+            "model_indices": [
+              177,
+              50
+            ],
+            "source_indices": [
+              177,
+              50
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 7,
+            "pair": "VA",
+            "model_indices": [
+              139,
+              202
+            ],
+            "source_indices": [
+              139,
+              202
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 8,
+            "pair": "FD",
+            "model_indices": [
+              13,
+              76
+            ],
+            "source_indices": [
+              13,
+              76
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 9,
+            "pair": "VA",
+            "model_indices": [
+              114,
+              89
+            ],
+            "source_indices": [
+              114,
+              89
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 10,
+            "pair": "VX",
+            "model_indices": [
+              165,
+              26
+            ],
+            "source_indices": [
+              165,
+              26
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 11,
+            "pair": "XX",
+            "model_indices": [
+              127,
+              190
+            ],
+            "source_indices": [
+              127,
+              190
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 12,
+            "pair": "VV",
+            "model_indices": [
+              1,
+              63
+            ],
+            "source_indices": [
+              1,
+              63
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 13,
+            "pair": "VG",
+            "model_indices": [
+              152,
+              39
+            ],
+            "source_indices": [
+              152,
+              39
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 14,
+            "pair": "VF",
+            "model_indices": [
+              102,
+              178
+            ],
+            "source_indices": [
+              102,
+              178
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 15,
+            "pair": "AG",
+            "model_indices": [
+              51,
+              140
+            ],
+            "source_indices": [
+              51,
+              140
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 16,
+            "pair": "XX",
+            "model_indices": [
+              203,
+              14
+            ],
+            "source_indices": [
+              203,
+              14
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 17,
+            "pair": "XG",
+            "model_indices": [
+              77,
+              115
+            ],
+            "source_indices": [
+              77,
+              115
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 18,
+            "pair": "XD",
+            "model_indices": [
+              90,
+              166
+            ],
+            "source_indices": [
+              90,
+              166
+            ],
+            "domain": "C",
+            "raw": "C"
+          },
+          {
+            "plaintext_index": 19,
+            "pair": "AG",
+            "model_indices": [
+              27,
+              128
+            ],
+            "source_indices": [
+              27,
+              128
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 20,
+            "pair": "AX",
+            "model_indices": [
+              191,
+              2
+            ],
+            "source_indices": [
+              191,
+              2
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 21,
+            "pair": "DV",
+            "model_indices": [
+              64,
+              153
+            ],
+            "source_indices": [
+              64,
+              153
+            ],
+            "domain": "U",
+            "raw": "U"
+          },
+          {
+            "plaintext_index": 22,
+            "pair": "FA",
+            "model_indices": [
+              40,
+              103
+            ],
+            "source_indices": [
+              40,
+              103
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 23,
+            "pair": "XG",
+            "model_indices": [
+              179,
+              52
+            ],
+            "source_indices": [
+              179,
+              52
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 24,
+            "pair": "XG",
+            "model_indices": [
+              141,
+              204
+            ],
+            "source_indices": [
+              141,
+              204
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 25,
+            "pair": "FA",
+            "model_indices": [
+              15,
+              78
+            ],
+            "source_indices": [
+              15,
+              78
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 26,
+            "pair": "AX",
+            "model_indices": [
+              116,
+              91
+            ],
+            "source_indices": [
+              116,
+              91
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 27,
+            "pair": "XX",
+            "model_indices": [
+              167,
+              28
+            ],
+            "source_indices": [
+              167,
+              28
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 28,
+            "pair": "VX",
+            "model_indices": [
+              129,
+              192
+            ],
+            "source_indices": [
+              129,
+              192
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 29,
+            "pair": "XD",
+            "model_indices": [
+              3,
+              65
+            ],
+            "source_indices": [
+              3,
+              65
+            ],
+            "domain": "C",
+            "raw": "C"
+          },
+          {
+            "plaintext_index": 30,
+            "pair": "AG",
+            "model_indices": [
+              154,
+              41
+            ],
+            "source_indices": [
+              154,
+              41
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 31,
+            "pair": "XA",
+            "model_indices": [
+              104,
+              180
+            ],
+            "source_indices": [
+              104,
+              180
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 32,
+            "pair": "FG",
+            "model_indices": [
+              53,
+              142
+            ],
+            "source_indices": [
+              53,
+              142
+            ],
+            "domain": "V",
+            "raw": "V"
+          },
+          {
+            "plaintext_index": 33,
+            "pair": "FA",
+            "model_indices": [
+              205,
+              16
+            ],
+            "source_indices": [
+              205,
+              16
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 34,
+            "pair": "VA",
+            "model_indices": [
+              79,
+              117
+            ],
+            "source_indices": [
+              79,
+              117
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 35,
+            "pair": "XX",
+            "model_indices": [
+              92,
+              168
+            ],
+            "source_indices": [
+              92,
+              168
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 36,
+            "pair": "VX",
+            "model_indices": [
+              29,
+              130
+            ],
+            "source_indices": [
+              29,
+              130
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 37,
+            "pair": "XD",
+            "model_indices": [
+              193,
+              4
+            ],
+            "source_indices": [
+              193,
+              4
+            ],
+            "domain": "C",
+            "raw": "C"
+          },
+          {
+            "plaintext_index": 38,
+            "pair": "AG",
+            "model_indices": [
+              66,
+              155
+            ],
+            "source_indices": [
+              66,
+              155
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 39,
+            "pair": "XA",
+            "model_indices": [
+              42,
+              105
+            ],
+            "source_indices": [
+              42,
+              105
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 40,
+            "pair": "FA",
+            "model_indices": [
+              181,
+              54
+            ],
+            "source_indices": [
+              181,
+              54
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 41,
+            "pair": "XX",
+            "model_indices": [
+              143,
+              206
+            ],
+            "source_indices": [
+              143,
+              206
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 42,
+            "pair": "FD",
+            "model_indices": [
+              17,
+              80
+            ],
+            "source_indices": [
+              17,
+              80
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 43,
+            "pair": "XX",
+            "model_indices": [
+              118,
+              93
+            ],
+            "source_indices": [
+              118,
+              93
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 44,
+            "pair": "VF",
+            "model_indices": [
+              169,
+              30
+            ],
+            "source_indices": [
+              169,
+              30
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 45,
+            "pair": "XD",
+            "model_indices": [
+              131,
+              194
+            ],
+            "source_indices": [
+              131,
+              194
+            ],
+            "domain": "C",
+            "raw": "C"
+          },
+          {
+            "plaintext_index": 46,
+            "pair": "AG",
+            "model_indices": [
+              5,
+              67
+            ],
+            "source_indices": [
+              5,
+              67
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 47,
+            "pair": "VA",
+            "model_indices": [
+              156,
+              43
+            ],
+            "source_indices": [
+              156,
+              43
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 48,
+            "pair": "XD",
+            "model_indices": [
+              106,
+              182
+            ],
+            "source_indices": [
+              106,
+              182
+            ],
+            "domain": "C",
+            "raw": "C"
+          },
+          {
+            "plaintext_index": 49,
+            "pair": "AG",
+            "model_indices": [
+              55,
+              144
+            ],
+            "source_indices": [
+              55,
+              144
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 50,
+            "pair": "FA",
+            "model_indices": [
+              207,
+              18
+            ],
+            "source_indices": [
+              207,
+              18
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 51,
+            "pair": "AV",
+            "model_indices": [
+              81,
+              119
+            ],
+            "source_indices": [
+              81,
+              119
+            ],
+            "domain": "F",
+            "raw": "F"
+          },
+          {
+            "plaintext_index": 52,
+            "pair": "FD",
+            "model_indices": [
+              94,
+              170
+            ],
+            "source_indices": [
+              94,
+              170
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 53,
+            "pair": "VV",
+            "model_indices": [
+              31,
+              132
+            ],
+            "source_indices": [
+              31,
+              132
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 54,
+            "pair": "FD",
+            "model_indices": [
+              195,
+              6
+            ],
+            "source_indices": [
+              195,
+              6
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 55,
+            "pair": "VG",
+            "model_indices": [
+              68,
+              157
+            ],
+            "source_indices": [
+              68,
+              157
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 56,
+            "pair": "VD",
+            "model_indices": [
+              44,
+              107
+            ],
+            "source_indices": [
+              44,
+              107
+            ],
+            "domain": "8",
+            "raw": "8"
+          },
+          {
+            "plaintext_index": 57,
+            "pair": "XV",
+            "model_indices": [
+              183,
+              56
+            ],
+            "source_indices": [
+              183,
+              56
+            ],
+            "domain": "4",
+            "raw": "4"
+          },
+          {
+            "plaintext_index": 58,
+            "pair": "VD",
+            "model_indices": [
+              145,
+              208
+            ],
+            "source_indices": [
+              145,
+              208
+            ],
+            "domain": "8",
+            "raw": "8"
+          },
+          {
+            "plaintext_index": 59,
+            "pair": "AD",
+            "model_indices": [
+              19,
+              82
+            ],
+            "source_indices": [
+              19,
+              82
+            ],
+            "domain": "7",
+            "raw": "7"
+          },
+          {
+            "plaintext_index": 60,
+            "pair": "DG",
+            "model_indices": [
+              120,
+              95
+            ],
+            "source_indices": [
+              120,
+              95
+            ],
+            "domain": "2",
+            "raw": "2"
+          },
+          {
+            "plaintext_index": 61,
+            "pair": "AD",
+            "model_indices": [
+              171,
+              32
+            ],
+            "source_indices": [
+              171,
+              32
+            ],
+            "domain": "7",
+            "raw": "7"
+          },
+          {
+            "plaintext_index": 62,
+            "pair": "FD",
+            "model_indices": [
+              133,
+              196
+            ],
+            "source_indices": [
+              133,
+              196
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 63,
+            "pair": "FD",
+            "model_indices": [
+              7,
+              69
+            ],
+            "source_indices": [
+              7,
+              69
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 64,
+            "pair": "DF",
+            "model_indices": [
+              158,
+              45
+            ],
+            "source_indices": [
+              158,
+              45
+            ],
+            "domain": "D",
+            "raw": "D"
+          },
+          {
+            "plaintext_index": 65,
+            "pair": "FA",
+            "model_indices": [
+              108,
+              184
+            ],
+            "source_indices": [
+              108,
+              184
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 66,
+            "pair": "FV",
+            "model_indices": [
+              57,
+              146
+            ],
+            "source_indices": [
+              57,
+              146
+            ],
+            "domain": "Z",
+            "raw": "Z"
+          },
+          {
+            "plaintext_index": 67,
+            "pair": "FA",
+            "model_indices": [
+              209,
+              20
+            ],
+            "source_indices": [
+              209,
+              20
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 68,
+            "pair": "XF",
+            "model_indices": [
+              83,
+              121
+            ],
+            "source_indices": [
+              83,
+              121
+            ],
+            "domain": "M",
+            "raw": "M"
+          },
+          {
+            "plaintext_index": 69,
+            "pair": "VG",
+            "model_indices": [
+              96,
+              172
+            ],
+            "source_indices": [
+              96,
+              172
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 70,
+            "pair": "FA",
+            "model_indices": [
+              33,
+              134
+            ],
+            "source_indices": [
+              33,
+              134
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 71,
+            "pair": "VA",
+            "model_indices": [
+              197,
+              8
+            ],
+            "source_indices": [
+              197,
+              8
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 72,
+            "pair": "FD",
+            "model_indices": [
+              70,
+              159
+            ],
+            "source_indices": [
+              70,
+              159
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 73,
+            "pair": "VA",
+            "model_indices": [
+              46,
+              109
+            ],
+            "source_indices": [
+              46,
+              109
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 74,
+            "pair": "VX",
+            "model_indices": [
+              185,
+              58
+            ],
+            "source_indices": [
+              185,
+              58
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 75,
+            "pair": "XX",
+            "model_indices": [
+              147,
+              210
+            ],
+            "source_indices": [
+              147,
+              210
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 76,
+            "pair": "VV",
+            "model_indices": [
+              21,
+              84
+            ],
+            "source_indices": [
+              21,
+              84
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 77,
+            "pair": "VG",
+            "model_indices": [
+              122,
+              97
+            ],
+            "source_indices": [
+              122,
+              97
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 78,
+            "pair": "VF",
+            "model_indices": [
+              173,
+              34
+            ],
+            "source_indices": [
+              173,
+              34
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 79,
+            "pair": "AG",
+            "model_indices": [
+              135,
+              198
+            ],
+            "source_indices": [
+              135,
+              198
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 80,
+            "pair": "XX",
+            "model_indices": [
+              9,
+              71
+            ],
+            "source_indices": [
+              9,
+              71
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 81,
+            "pair": "XG",
+            "model_indices": [
+              160,
+              47
+            ],
+            "source_indices": [
+              160,
+              47
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 82,
+            "pair": "XD",
+            "model_indices": [
+              110,
+              186
+            ],
+            "source_indices": [
+              110,
+              186
+            ],
+            "domain": "C",
+            "raw": "C"
+          },
+          {
+            "plaintext_index": 83,
+            "pair": "AG",
+            "model_indices": [
+              59,
+              148
+            ],
+            "source_indices": [
+              59,
+              148
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 84,
+            "pair": "AX",
+            "model_indices": [
+              211,
+              22
+            ],
+            "source_indices": [
+              211,
+              22
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 85,
+            "pair": "DV",
+            "model_indices": [
+              85,
+              123
+            ],
+            "source_indices": [
+              85,
+              123
+            ],
+            "domain": "U",
+            "raw": "U"
+          },
+          {
+            "plaintext_index": 86,
+            "pair": "FA",
+            "model_indices": [
+              98,
+              174
+            ],
+            "source_indices": [
+              98,
+              174
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 87,
+            "pair": "XG",
+            "model_indices": [
+              35,
+              136
+            ],
+            "source_indices": [
+              35,
+              136
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 88,
+            "pair": "XG",
+            "model_indices": [
+              199,
+              10
+            ],
+            "source_indices": [
+              199,
+              10
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 89,
+            "pair": "FA",
+            "model_indices": [
+              72,
+              161
+            ],
+            "source_indices": [
+              72,
+              161
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 90,
+            "pair": "AX",
+            "model_indices": [
+              48,
+              111
+            ],
+            "source_indices": [
+              48,
+              111
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 91,
+            "pair": "XA",
+            "model_indices": [
+              187,
+              60
+            ],
+            "source_indices": [
+              187,
+              60
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 92,
+            "pair": "VA",
+            "model_indices": [
+              149,
+              212
+            ],
+            "source_indices": [
+              149,
+              212
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 93,
+            "pair": "VX",
+            "model_indices": [
+              23,
+              86
+            ],
+            "source_indices": [
+              23,
+              86
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 94,
+            "pair": "XA",
+            "model_indices": [
+              124,
+              99
+            ],
+            "source_indices": [
+              124,
+              99
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 95,
+            "pair": "XA",
+            "model_indices": [
+              175,
+              36
+            ],
+            "source_indices": [
+              175,
+              36
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 96,
+            "pair": "FG",
+            "model_indices": [
+              137,
+              200
+            ],
+            "source_indices": [
+              137,
+              200
+            ],
+            "domain": "V",
+            "raw": "V"
+          },
+          {
+            "plaintext_index": 97,
+            "pair": "GA",
+            "model_indices": [
+              11,
+              73
+            ],
+            "source_indices": [
+              11,
+              73
+            ],
+            "domain": "O",
+            "raw": "O"
+          },
+          {
+            "plaintext_index": 98,
+            "pair": "VA",
+            "model_indices": [
+              162,
+              49
+            ],
+            "source_indices": [
+              162,
+              49
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 99,
+            "pair": "AX",
+            "model_indices": [
+              112,
+              188
+            ],
+            "source_indices": [
+              112,
+              188
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 100,
+            "pair": "VF",
+            "model_indices": [
+              61,
+              150
+            ],
+            "source_indices": [
+              61,
+              150
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 101,
+            "pair": "FA",
+            "model_indices": [
+              213,
+              24
+            ],
+            "source_indices": [
+              213,
+              24
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 102,
+            "pair": "DV",
+            "model_indices": [
+              87,
+              125
+            ],
+            "source_indices": [
+              87,
+              125
+            ],
+            "domain": "U",
+            "raw": "U"
+          },
+          {
+            "plaintext_index": 103,
+            "pair": "AV",
+            "model_indices": [
+              100,
+              176
+            ],
+            "source_indices": [
+              100,
+              176
+            ],
+            "domain": "F",
+            "raw": "F"
+          },
+          {
+            "plaintext_index": 104,
+            "pair": "VX",
+            "model_indices": [
+              37,
+              138
+            ],
+            "source_indices": [
+              37,
+              138
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 105,
+            "pair": "VV",
+            "model_indices": [
+              201,
+              12
+            ],
+            "source_indices": [
+              201,
+              12
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 106,
+            "pair": "FD",
+            "model_indices": [
+              74,
+              163
+            ],
+            "source_indices": [
+              74,
+              163
+            ],
+            "domain": "X",
+            "raw": "X"
+          }
+        ]
+      },
+      "local_gap_prices": []
+    },
+    {
+      "id": "p145_B2",
+      "literal_source": "GFDFVFAAXXFVVXAVAFAXFXVXAFXXVDXFVAAXAFGFAFXAFXGXFXFVAXDAAFVFFDGVXAFGVAFAVXFVFVGDFVAXVFXXXXFAAVVFAXVAXAAAVXFADXGAAFXXVVAFVFAFXVGFAADGVAFGVFXGXAAFFVADXVVXFDGVGXXAAVAAXXFAGGXVXFDAFAXGFFD",
+      "literal_printed_rows": [
+        "GFDFV FAAXX FVVXA VAFAX FXVXA FXXVD XFVA AXAFG",
+        "FAFXA FXGXF XFVAX DAAFV FFDGV XAFGV AFAVX FVFVG",
+        "DFVAX VFXXX XFAAV VFAXV AXAAA VXFAD XGAAF XXVVA",
+        "FVFAF XVGFA ADGVA FGVFX GXAAF FVADX VVXFD GVGXX",
+        "AAVAA XXFAG GXVXF DAFAX GFFD"
+      ],
+      "source_slots": 183,
+      "valid_coordinates": 183,
+      "ciphertext": "GFDFVFAAXXFVVXAVAFAXFXVXAFXXVDXFV?AAXAFGFAFXAFXGXFXFVAXDAAFVFFDGVXAFGVAFAVXFVFVGDFVAXVFXXXXFAAVVFAXVAXAAAVXFADXGAAFXXVVAFVFAFXVGFAADGVAFGVFXGXAAFFVADXVVXFDGVGXXAAVAAXXFAGGXVXFDAFAXGFFD",
+      "analysis_frame_slots": 184,
+      "model_to_source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        null,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182
+      ],
+      "raw": "NICHTINKRAFTX?MFUERSCHLDESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWKNZIGSTERDEZEMBER",
+      "fixed_positions": 91,
+      "positions": [
+        {
+          "plaintext_index": 0,
+          "pair": "XX",
+          "model_indices": [
+            65,
+            98
+          ],
+          "source_indices": [
+            64,
+            97
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 1,
+          "pair": "VX",
+          "model_indices": [
+            76,
+            141
+          ],
+          "source_indices": [
+            75,
+            140
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 2,
+          "pair": "XD",
+          "model_indices": [
+            21,
+            109
+          ],
+          "source_indices": [
+            21,
+            108
+          ],
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 3,
+          "pair": "AG",
+          "model_indices": [
+            163,
+            0
+          ],
+          "source_indices": [
+            162,
+            0
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 4,
+          "pair": "XA",
+          "model_indices": [
+            54,
+            130
+          ],
+          "source_indices": [
+            53,
+            129
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 5,
+          "pair": "VX",
+          "model_indices": [
+            32,
+            87
+          ],
+          "source_indices": [
+            32,
+            86
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 6,
+          "pair": "XX",
+          "model_indices": [
+            152,
+            43
+          ],
+          "source_indices": [
+            151,
+            42
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 7,
+          "pair": "FF",
+          "model_indices": [
+            120,
+            174
+          ],
+          "source_indices": [
+            119,
+            173
+          ],
+          "domain": "K",
+          "raw": "K"
+        },
+        {
+          "plaintext_index": 8,
+          "pair": "VA",
+          "model_indices": [
+            11,
+            66
+          ],
+          "source_indices": [
+            11,
+            65
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 9,
+          "pair": "VF",
+          "model_indices": [
+            99,
+            77
+          ],
+          "source_indices": [
+            98,
+            76
+          ],
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 10,
+          "pair": "AV",
+          "model_indices": [
+            142,
+            22
+          ],
+          "source_indices": [
+            141,
+            22
+          ],
+          "domain": "F",
+          "raw": "F"
+        },
+        {
+          "plaintext_index": 11,
+          "pair": "XA",
+          "model_indices": [
+            110,
+            164
+          ],
+          "source_indices": [
+            109,
+            163
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 12,
+          "pair": "FD",
+          "model_indices": [
+            1,
+            55
+          ],
+          "source_indices": [
+            1,
+            54
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 13,
+          "pair": "D?",
+          "model_indices": [
+            131,
+            33
+          ],
+          "source_indices": [
+            130,
+            null
+          ],
+          "domain": "25DJPU",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 14,
+          "pair": "XF",
+          "model_indices": [
+            88,
+            153
+          ],
+          "source_indices": [
+            87,
+            152
+          ],
+          "domain": "M",
+          "raw": "M"
+        },
+        {
+          "plaintext_index": 15,
+          "pair": "AV",
+          "model_indices": [
+            44,
+            121
+          ],
+          "source_indices": [
+            43,
+            120
+          ],
+          "domain": "F",
+          "raw": "F"
+        },
+        {
+          "plaintext_index": 16,
+          "pair": "DV",
+          "model_indices": [
+            175,
+            12
+          ],
+          "source_indices": [
+            174,
+            12
+          ],
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 17,
+          "pair": "FA",
+          "model_indices": [
+            67,
+            100
+          ],
+          "source_indices": [
+            66,
+            99
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 18,
+          "pair": "VA",
+          "model_indices": [
+            78,
+            143
+          ],
+          "source_indices": [
+            77,
+            142
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 19,
+          "pair": "XG",
+          "model_indices": [
+            23,
+            111
+          ],
+          "source_indices": [
+            23,
+            110
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 20,
+          "pair": "XD",
+          "model_indices": [
+            165,
+            2
+          ],
+          "source_indices": [
+            164,
+            2
+          ],
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 21,
+          "pair": "AG",
+          "model_indices": [
+            56,
+            132
+          ],
+          "source_indices": [
+            55,
+            131
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 22,
+          "pair": "AX",
+          "model_indices": [
+            34,
+            89
+          ],
+          "source_indices": [
+            33,
+            88
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 23,
+          "pair": "DF",
+          "model_indices": [
+            154,
+            45
+          ],
+          "source_indices": [
+            153,
+            44
+          ],
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 24,
+          "pair": "FA",
+          "model_indices": [
+            122,
+            176
+          ],
+          "source_indices": [
+            121,
+            175
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 25,
+          "pair": "XG",
+          "model_indices": [
+            13,
+            68
+          ],
+          "source_indices": [
+            13,
+            67
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 26,
+          "pair": "XG",
+          "model_indices": [
+            101,
+            79
+          ],
+          "source_indices": [
+            100,
+            78
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 27,
+          "pair": "FA",
+          "model_indices": [
+            144,
+            24
+          ],
+          "source_indices": [
+            143,
+            24
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 28,
+          "pair": "AX",
+          "model_indices": [
+            112,
+            166
+          ],
+          "source_indices": [
+            111,
+            165
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 29,
+          "pair": "FA",
+          "model_indices": [
+            3,
+            57
+          ],
+          "source_indices": [
+            3,
+            56
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 30,
+          "pair": "VA",
+          "model_indices": [
+            133,
+            35
+          ],
+          "source_indices": [
+            132,
+            34
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 31,
+          "pair": "XG",
+          "model_indices": [
+            90,
+            155
+          ],
+          "source_indices": [
+            89,
+            154
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 32,
+          "pair": "XA",
+          "model_indices": [
+            46,
+            123
+          ],
+          "source_indices": [
+            45,
+            122
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 33,
+          "pair": "FA",
+          "model_indices": [
+            177,
+            14
+          ],
+          "source_indices": [
+            176,
+            14
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 34,
+          "pair": "VA",
+          "model_indices": [
+            69,
+            102
+          ],
+          "source_indices": [
+            68,
+            101
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 35,
+          "pair": "DF",
+          "model_indices": [
+            80,
+            145
+          ],
+          "source_indices": [
+            79,
+            144
+          ],
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 36,
+          "pair": "FA",
+          "model_indices": [
+            25,
+            113
+          ],
+          "source_indices": [
+            25,
+            112
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 37,
+          "pair": "FV",
+          "model_indices": [
+            167,
+            4
+          ],
+          "source_indices": [
+            166,
+            4
+          ],
+          "domain": "Z",
+          "raw": "Z"
+        },
+        {
+          "plaintext_index": 38,
+          "pair": "FA",
+          "model_indices": [
+            58,
+            134
+          ],
+          "source_indices": [
+            57,
+            133
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 39,
+          "pair": "XF",
+          "model_indices": [
+            36,
+            91
+          ],
+          "source_indices": [
+            35,
+            90
+          ],
+          "domain": "M",
+          "raw": "M"
+        },
+        {
+          "plaintext_index": 40,
+          "pair": "VG",
+          "model_indices": [
+            156,
+            47
+          ],
+          "source_indices": [
+            155,
+            46
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 41,
+          "pair": "FA",
+          "model_indices": [
+            124,
+            178
+          ],
+          "source_indices": [
+            123,
+            177
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 42,
+          "pair": "VA",
+          "model_indices": [
+            15,
+            70
+          ],
+          "source_indices": [
+            15,
+            69
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 43,
+          "pair": "AF",
+          "model_indices": [
+            103,
+            81
+          ],
+          "source_indices": [
+            102,
+            80
+          ],
+          "domain": "W",
+          "raw": "W"
+        },
+        {
+          "plaintext_index": 44,
+          "pair": "VX",
+          "model_indices": [
+            146,
+            26
+          ],
+          "source_indices": [
+            145,
+            26
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 45,
+          "pair": "FA",
+          "model_indices": [
+            114,
+            168
+          ],
+          "source_indices": [
+            113,
+            167
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 46,
+          "pair": "FV",
+          "model_indices": [
+            5,
+            59
+          ],
+          "source_indices": [
+            5,
+            58
+          ],
+          "domain": "Z",
+          "raw": "Z"
+        },
+        {
+          "plaintext_index": 47,
+          "pair": "FA",
+          "model_indices": [
+            135,
+            37
+          ],
+          "source_indices": [
+            134,
+            36
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 48,
+          "pair": "AG",
+          "model_indices": [
+            92,
+            157
+          ],
+          "source_indices": [
+            91,
+            156
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 49,
+          "pair": "XX",
+          "model_indices": [
+            48,
+            125
+          ],
+          "source_indices": [
+            47,
+            124
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 50,
+          "pair": "XA",
+          "model_indices": [
+            179,
+            16
+          ],
+          "source_indices": [
+            178,
+            16
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 51,
+          "pair": "FA",
+          "model_indices": [
+            71,
+            104
+          ],
+          "source_indices": [
+            70,
+            103
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 52,
+          "pair": "VA",
+          "model_indices": [
+            82,
+            147
+          ],
+          "source_indices": [
+            81,
+            146
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 53,
+          "pair": "XX",
+          "model_indices": [
+            27,
+            115
+          ],
+          "source_indices": [
+            27,
+            114
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 54,
+          "pair": "GA",
+          "model_indices": [
+            169,
+            6
+          ],
+          "source_indices": [
+            168,
+            6
+          ],
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 55,
+          "pair": "FG",
+          "model_indices": [
+            60,
+            136
+          ],
+          "source_indices": [
+            59,
+            135
+          ],
+          "domain": "V",
+          "raw": "V"
+        },
+        {
+          "plaintext_index": 56,
+          "pair": "FA",
+          "model_indices": [
+            38,
+            93
+          ],
+          "source_indices": [
+            37,
+            92
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 57,
+          "pair": "XF",
+          "model_indices": [
+            158,
+            49
+          ],
+          "source_indices": [
+            157,
+            48
+          ],
+          "domain": "M",
+          "raw": "M"
+        },
+        {
+          "plaintext_index": 58,
+          "pair": "VG",
+          "model_indices": [
+            126,
+            180
+          ],
+          "source_indices": [
+            125,
+            179
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 59,
+          "pair": "FA",
+          "model_indices": [
+            17,
+            72
+          ],
+          "source_indices": [
+            17,
+            71
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 60,
+          "pair": "VA",
+          "model_indices": [
+            105,
+            83
+          ],
+          "source_indices": [
+            104,
+            82
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 61,
+          "pair": "DV",
+          "model_indices": [
+            148,
+            28
+          ],
+          "source_indices": [
+            147,
+            28
+          ],
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 62,
+          "pair": "XG",
+          "model_indices": [
+            116,
+            170
+          ],
+          "source_indices": [
+            115,
+            169
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 63,
+          "pair": "AF",
+          "model_indices": [
+            7,
+            61
+          ],
+          "source_indices": [
+            7,
+            60
+          ],
+          "domain": "W",
+          "raw": "W"
+        },
+        {
+          "plaintext_index": 64,
+          "pair": "VG",
+          "model_indices": [
+            137,
+            39
+          ],
+          "source_indices": [
+            136,
+            38
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 65,
+          "pair": "VX",
+          "model_indices": [
+            94,
+            159
+          ],
+          "source_indices": [
+            93,
+            158
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 66,
+          "pair": "XG",
+          "model_indices": [
+            50,
+            127
+          ],
+          "source_indices": [
+            49,
+            126
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 67,
+          "pair": "FA",
+          "model_indices": [
+            181,
+            18
+          ],
+          "source_indices": [
+            180,
+            18
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 68,
+          "pair": "VX",
+          "model_indices": [
+            73,
+            106
+          ],
+          "source_indices": [
+            72,
+            105
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 69,
+          "pair": "XX",
+          "model_indices": [
+            84,
+            149
+          ],
+          "source_indices": [
+            83,
+            148
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 70,
+          "pair": "DV",
+          "model_indices": [
+            29,
+            117
+          ],
+          "source_indices": [
+            29,
+            116
+          ],
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 71,
+          "pair": "XX",
+          "model_indices": [
+            171,
+            8
+          ],
+          "source_indices": [
+            170,
+            8
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 72,
+          "pair": "DF",
+          "model_indices": [
+            62,
+            138
+          ],
+          "source_indices": [
+            61,
+            137
+          ],
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 73,
+          "pair": "FV",
+          "model_indices": [
+            40,
+            95
+          ],
+          "source_indices": [
+            39,
+            94
+          ],
+          "domain": "Z",
+          "raw": "Z"
+        },
+        {
+          "plaintext_index": 74,
+          "pair": "AF",
+          "model_indices": [
+            160,
+            51
+          ],
+          "source_indices": [
+            159,
+            50
+          ],
+          "domain": "W",
+          "raw": "W"
+        },
+        {
+          "plaintext_index": 75,
+          "pair": "FF",
+          "model_indices": [
+            128,
+            182
+          ],
+          "source_indices": [
+            127,
+            181
+          ],
+          "domain": "K",
+          "raw": "K"
+        },
+        {
+          "plaintext_index": 76,
+          "pair": "XX",
+          "model_indices": [
+            19,
+            74
+          ],
+          "source_indices": [
+            19,
+            73
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 77,
+          "pair": "FV",
+          "model_indices": [
+            107,
+            85
+          ],
+          "source_indices": [
+            106,
+            84
+          ],
+          "domain": "Z",
+          "raw": "Z"
+        },
+        {
+          "plaintext_index": 78,
+          "pair": "VX",
+          "model_indices": [
+            150,
+            30
+          ],
+          "source_indices": [
+            149,
+            30
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 79,
+          "pair": "VV",
+          "model_indices": [
+            118,
+            172
+          ],
+          "source_indices": [
+            117,
+            171
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 80,
+          "pair": "XG",
+          "model_indices": [
+            9,
+            63
+          ],
+          "source_indices": [
+            9,
+            62
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 81,
+          "pair": "XA",
+          "model_indices": [
+            139,
+            41
+          ],
+          "source_indices": [
+            138,
+            40
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 82,
+          "pair": "FA",
+          "model_indices": [
+            96,
+            161
+          ],
+          "source_indices": [
+            95,
+            160
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 83,
+          "pair": "VA",
+          "model_indices": [
+            52,
+            129
+          ],
+          "source_indices": [
+            51,
+            128
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 84,
+          "pair": "DF",
+          "model_indices": [
+            183,
+            20
+          ],
+          "source_indices": [
+            182,
+            20
+          ],
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 85,
+          "pair": "FA",
+          "model_indices": [
+            75,
+            108
+          ],
+          "source_indices": [
+            74,
+            107
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 86,
+          "pair": "FV",
+          "model_indices": [
+            86,
+            151
+          ],
+          "source_indices": [
+            85,
+            150
+          ],
+          "domain": "Z",
+          "raw": "Z"
+        },
+        {
+          "plaintext_index": 87,
+          "pair": "FA",
+          "model_indices": [
+            31,
+            119
+          ],
+          "source_indices": [
+            31,
+            118
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 88,
+          "pair": "XF",
+          "model_indices": [
+            173,
+            10
+          ],
+          "source_indices": [
+            172,
+            10
+          ],
+          "domain": "M",
+          "raw": "M"
+        },
+        {
+          "plaintext_index": 89,
+          "pair": "VG",
+          "model_indices": [
+            64,
+            140
+          ],
+          "source_indices": [
+            63,
+            139
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 90,
+          "pair": "FA",
+          "model_indices": [
+            42,
+            97
+          ],
+          "source_indices": [
+            41,
+            96
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 91,
+          "pair": "VA",
+          "model_indices": [
+            162,
+            53
+          ],
+          "source_indices": [
+            161,
+            52
+          ],
+          "domain": "R",
+          "raw": "R"
+        }
+      ],
+      "readable_candidate": {
+        "template": "NICHTINKRAFTXDAFUERSCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWANZIGSTERDEZEMBER",
+        "ciphertext": "GFDFVFAAXXFVVXAVAFAXFXVXAFXXVDXFVFAAXAFGFAFXAVXGXFXFVAXDAAFVFFDGVXAFGVAFAVXFVFVGDFVAXVFXVXXFAAVVFAXVAXAAAVXFADXGAAFXXVVAFVFAFXVGVAADGVAFGVFXGXAAFFVADXVVXFDGVGXXAAVAAXXFAGGXVXFDAFAXGFFD",
+        "known_coordinate_substitutions": [
+          {
+            "model_index": 45,
+            "source_index": 44,
+            "printed": "F",
+            "from": "F",
+            "to": "V"
+          },
+          {
+            "model_index": 88,
+            "source_index": 87,
+            "printed": "X",
+            "from": "X",
+            "to": "V"
+          },
+          {
+            "model_index": 128,
+            "source_index": 127,
+            "printed": "F",
+            "from": "F",
+            "to": "V"
+          }
+        ],
+        "erased_coordinate_fills": [
+          {
+            "model_index": 33,
+            "source_index": null,
+            "printed": null,
+            "from": "?",
+            "to": "F"
+          }
+        ],
+        "full_plaintext_reencryption_verified": true,
+        "published_key_changed": false,
+        "raw": "NICHTINKRAFTXDAFUERSCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWANZIGSTERDEZEMBER",
+        "fixed_positions": 92,
+        "positions": [
+          {
+            "plaintext_index": 0,
+            "pair": "XX",
+            "model_indices": [
+              65,
+              98
+            ],
+            "source_indices": [
+              64,
+              97
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 1,
+            "pair": "VX",
+            "model_indices": [
+              76,
+              141
+            ],
+            "source_indices": [
+              75,
+              140
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 2,
+            "pair": "XD",
+            "model_indices": [
+              21,
+              109
+            ],
+            "source_indices": [
+              21,
+              108
+            ],
+            "domain": "C",
+            "raw": "C"
+          },
+          {
+            "plaintext_index": 3,
+            "pair": "AG",
+            "model_indices": [
+              163,
+              0
+            ],
+            "source_indices": [
+              162,
+              0
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 4,
+            "pair": "XA",
+            "model_indices": [
+              54,
+              130
+            ],
+            "source_indices": [
+              53,
+              129
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 5,
+            "pair": "VX",
+            "model_indices": [
+              32,
+              87
+            ],
+            "source_indices": [
+              32,
+              86
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 6,
+            "pair": "XX",
+            "model_indices": [
+              152,
+              43
+            ],
+            "source_indices": [
+              151,
+              42
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 7,
+            "pair": "FF",
+            "model_indices": [
+              120,
+              174
+            ],
+            "source_indices": [
+              119,
+              173
+            ],
+            "domain": "K",
+            "raw": "K"
+          },
+          {
+            "plaintext_index": 8,
+            "pair": "VA",
+            "model_indices": [
+              11,
+              66
+            ],
+            "source_indices": [
+              11,
+              65
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 9,
+            "pair": "VF",
+            "model_indices": [
+              99,
+              77
+            ],
+            "source_indices": [
+              98,
+              76
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 10,
+            "pair": "AV",
+            "model_indices": [
+              142,
+              22
+            ],
+            "source_indices": [
+              141,
+              22
+            ],
+            "domain": "F",
+            "raw": "F"
+          },
+          {
+            "plaintext_index": 11,
+            "pair": "XA",
+            "model_indices": [
+              110,
+              164
+            ],
+            "source_indices": [
+              109,
+              163
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 12,
+            "pair": "FD",
+            "model_indices": [
+              1,
+              55
+            ],
+            "source_indices": [
+              1,
+              54
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 13,
+            "pair": "DF",
+            "model_indices": [
+              131,
+              33
+            ],
+            "source_indices": [
+              130,
+              null
+            ],
+            "domain": "D",
+            "raw": "D"
+          },
+          {
+            "plaintext_index": 14,
+            "pair": "VF",
+            "model_indices": [
+              88,
+              153
+            ],
+            "source_indices": [
+              87,
+              152
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 15,
+            "pair": "AV",
+            "model_indices": [
+              44,
+              121
+            ],
+            "source_indices": [
+              43,
+              120
+            ],
+            "domain": "F",
+            "raw": "F"
+          },
+          {
+            "plaintext_index": 16,
+            "pair": "DV",
+            "model_indices": [
+              175,
+              12
+            ],
+            "source_indices": [
+              174,
+              12
+            ],
+            "domain": "U",
+            "raw": "U"
+          },
+          {
+            "plaintext_index": 17,
+            "pair": "FA",
+            "model_indices": [
+              67,
+              100
+            ],
+            "source_indices": [
+              66,
+              99
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 18,
+            "pair": "VA",
+            "model_indices": [
+              78,
+              143
+            ],
+            "source_indices": [
+              77,
+              142
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 19,
+            "pair": "XG",
+            "model_indices": [
+              23,
+              111
+            ],
+            "source_indices": [
+              23,
+              110
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 20,
+            "pair": "XD",
+            "model_indices": [
+              165,
+              2
+            ],
+            "source_indices": [
+              164,
+              2
+            ],
+            "domain": "C",
+            "raw": "C"
+          },
+          {
+            "plaintext_index": 21,
+            "pair": "AG",
+            "model_indices": [
+              56,
+              132
+            ],
+            "source_indices": [
+              55,
+              131
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 22,
+            "pair": "AX",
+            "model_indices": [
+              34,
+              89
+            ],
+            "source_indices": [
+              33,
+              88
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 23,
+            "pair": "DV",
+            "model_indices": [
+              154,
+              45
+            ],
+            "source_indices": [
+              153,
+              44
+            ],
+            "domain": "U",
+            "raw": "U"
+          },
+          {
+            "plaintext_index": 24,
+            "pair": "FA",
+            "model_indices": [
+              122,
+              176
+            ],
+            "source_indices": [
+              121,
+              175
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 25,
+            "pair": "XG",
+            "model_indices": [
+              13,
+              68
+            ],
+            "source_indices": [
+              13,
+              67
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 26,
+            "pair": "XG",
+            "model_indices": [
+              101,
+              79
+            ],
+            "source_indices": [
+              100,
+              78
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 27,
+            "pair": "FA",
+            "model_indices": [
+              144,
+              24
+            ],
+            "source_indices": [
+              143,
+              24
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 28,
+            "pair": "AX",
+            "model_indices": [
+              112,
+              166
+            ],
+            "source_indices": [
+              111,
+              165
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 29,
+            "pair": "FA",
+            "model_indices": [
+              3,
+              57
+            ],
+            "source_indices": [
+              3,
+              56
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 30,
+            "pair": "VA",
+            "model_indices": [
+              133,
+              35
+            ],
+            "source_indices": [
+              132,
+              34
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 31,
+            "pair": "XG",
+            "model_indices": [
+              90,
+              155
+            ],
+            "source_indices": [
+              89,
+              154
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 32,
+            "pair": "XA",
+            "model_indices": [
+              46,
+              123
+            ],
+            "source_indices": [
+              45,
+              122
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 33,
+            "pair": "FA",
+            "model_indices": [
+              177,
+              14
+            ],
+            "source_indices": [
+              176,
+              14
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 34,
+            "pair": "VA",
+            "model_indices": [
+              69,
+              102
+            ],
+            "source_indices": [
+              68,
+              101
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 35,
+            "pair": "DF",
+            "model_indices": [
+              80,
+              145
+            ],
+            "source_indices": [
+              79,
+              144
+            ],
+            "domain": "D",
+            "raw": "D"
+          },
+          {
+            "plaintext_index": 36,
+            "pair": "FA",
+            "model_indices": [
+              25,
+              113
+            ],
+            "source_indices": [
+              25,
+              112
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 37,
+            "pair": "FV",
+            "model_indices": [
+              167,
+              4
+            ],
+            "source_indices": [
+              166,
+              4
+            ],
+            "domain": "Z",
+            "raw": "Z"
+          },
+          {
+            "plaintext_index": 38,
+            "pair": "FA",
+            "model_indices": [
+              58,
+              134
+            ],
+            "source_indices": [
+              57,
+              133
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 39,
+            "pair": "XF",
+            "model_indices": [
+              36,
+              91
+            ],
+            "source_indices": [
+              35,
+              90
+            ],
+            "domain": "M",
+            "raw": "M"
+          },
+          {
+            "plaintext_index": 40,
+            "pair": "VG",
+            "model_indices": [
+              156,
+              47
+            ],
+            "source_indices": [
+              155,
+              46
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 41,
+            "pair": "FA",
+            "model_indices": [
+              124,
+              178
+            ],
+            "source_indices": [
+              123,
+              177
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 42,
+            "pair": "VA",
+            "model_indices": [
+              15,
+              70
+            ],
+            "source_indices": [
+              15,
+              69
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 43,
+            "pair": "AF",
+            "model_indices": [
+              103,
+              81
+            ],
+            "source_indices": [
+              102,
+              80
+            ],
+            "domain": "W",
+            "raw": "W"
+          },
+          {
+            "plaintext_index": 44,
+            "pair": "VX",
+            "model_indices": [
+              146,
+              26
+            ],
+            "source_indices": [
+              145,
+              26
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 45,
+            "pair": "FA",
+            "model_indices": [
+              114,
+              168
+            ],
+            "source_indices": [
+              113,
+              167
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 46,
+            "pair": "FV",
+            "model_indices": [
+              5,
+              59
+            ],
+            "source_indices": [
+              5,
+              58
+            ],
+            "domain": "Z",
+            "raw": "Z"
+          },
+          {
+            "plaintext_index": 47,
+            "pair": "FA",
+            "model_indices": [
+              135,
+              37
+            ],
+            "source_indices": [
+              134,
+              36
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 48,
+            "pair": "AG",
+            "model_indices": [
+              92,
+              157
+            ],
+            "source_indices": [
+              91,
+              156
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 49,
+            "pair": "XX",
+            "model_indices": [
+              48,
+              125
+            ],
+            "source_indices": [
+              47,
+              124
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 50,
+            "pair": "XA",
+            "model_indices": [
+              179,
+              16
+            ],
+            "source_indices": [
+              178,
+              16
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 51,
+            "pair": "FA",
+            "model_indices": [
+              71,
+              104
+            ],
+            "source_indices": [
+              70,
+              103
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 52,
+            "pair": "VA",
+            "model_indices": [
+              82,
+              147
+            ],
+            "source_indices": [
+              81,
+              146
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 53,
+            "pair": "XX",
+            "model_indices": [
+              27,
+              115
+            ],
+            "source_indices": [
+              27,
+              114
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 54,
+            "pair": "GA",
+            "model_indices": [
+              169,
+              6
+            ],
+            "source_indices": [
+              168,
+              6
+            ],
+            "domain": "O",
+            "raw": "O"
+          },
+          {
+            "plaintext_index": 55,
+            "pair": "FG",
+            "model_indices": [
+              60,
+              136
+            ],
+            "source_indices": [
+              59,
+              135
+            ],
+            "domain": "V",
+            "raw": "V"
+          },
+          {
+            "plaintext_index": 56,
+            "pair": "FA",
+            "model_indices": [
+              38,
+              93
+            ],
+            "source_indices": [
+              37,
+              92
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 57,
+            "pair": "XF",
+            "model_indices": [
+              158,
+              49
+            ],
+            "source_indices": [
+              157,
+              48
+            ],
+            "domain": "M",
+            "raw": "M"
+          },
+          {
+            "plaintext_index": 58,
+            "pair": "VG",
+            "model_indices": [
+              126,
+              180
+            ],
+            "source_indices": [
+              125,
+              179
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 59,
+            "pair": "FA",
+            "model_indices": [
+              17,
+              72
+            ],
+            "source_indices": [
+              17,
+              71
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 60,
+            "pair": "VA",
+            "model_indices": [
+              105,
+              83
+            ],
+            "source_indices": [
+              104,
+              82
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 61,
+            "pair": "DV",
+            "model_indices": [
+              148,
+              28
+            ],
+            "source_indices": [
+              147,
+              28
+            ],
+            "domain": "U",
+            "raw": "U"
+          },
+          {
+            "plaintext_index": 62,
+            "pair": "XG",
+            "model_indices": [
+              116,
+              170
+            ],
+            "source_indices": [
+              115,
+              169
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 63,
+            "pair": "AF",
+            "model_indices": [
+              7,
+              61
+            ],
+            "source_indices": [
+              7,
+              60
+            ],
+            "domain": "W",
+            "raw": "W"
+          },
+          {
+            "plaintext_index": 64,
+            "pair": "VG",
+            "model_indices": [
+              137,
+              39
+            ],
+            "source_indices": [
+              136,
+              38
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 65,
+            "pair": "VX",
+            "model_indices": [
+              94,
+              159
+            ],
+            "source_indices": [
+              93,
+              158
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 66,
+            "pair": "XG",
+            "model_indices": [
+              50,
+              127
+            ],
+            "source_indices": [
+              49,
+              126
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 67,
+            "pair": "FA",
+            "model_indices": [
+              181,
+              18
+            ],
+            "source_indices": [
+              180,
+              18
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 68,
+            "pair": "VX",
+            "model_indices": [
+              73,
+              106
+            ],
+            "source_indices": [
+              72,
+              105
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 69,
+            "pair": "XX",
+            "model_indices": [
+              84,
+              149
+            ],
+            "source_indices": [
+              83,
+              148
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 70,
+            "pair": "DV",
+            "model_indices": [
+              29,
+              117
+            ],
+            "source_indices": [
+              29,
+              116
+            ],
+            "domain": "U",
+            "raw": "U"
+          },
+          {
+            "plaintext_index": 71,
+            "pair": "XX",
+            "model_indices": [
+              171,
+              8
+            ],
+            "source_indices": [
+              170,
+              8
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 72,
+            "pair": "DF",
+            "model_indices": [
+              62,
+              138
+            ],
+            "source_indices": [
+              61,
+              137
+            ],
+            "domain": "D",
+            "raw": "D"
+          },
+          {
+            "plaintext_index": 73,
+            "pair": "FV",
+            "model_indices": [
+              40,
+              95
+            ],
+            "source_indices": [
+              39,
+              94
+            ],
+            "domain": "Z",
+            "raw": "Z"
+          },
+          {
+            "plaintext_index": 74,
+            "pair": "AF",
+            "model_indices": [
+              160,
+              51
+            ],
+            "source_indices": [
+              159,
+              50
+            ],
+            "domain": "W",
+            "raw": "W"
+          },
+          {
+            "plaintext_index": 75,
+            "pair": "VF",
+            "model_indices": [
+              128,
+              182
+            ],
+            "source_indices": [
+              127,
+              181
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 76,
+            "pair": "XX",
+            "model_indices": [
+              19,
+              74
+            ],
+            "source_indices": [
+              19,
+              73
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 77,
+            "pair": "FV",
+            "model_indices": [
+              107,
+              85
+            ],
+            "source_indices": [
+              106,
+              84
+            ],
+            "domain": "Z",
+            "raw": "Z"
+          },
+          {
+            "plaintext_index": 78,
+            "pair": "VX",
+            "model_indices": [
+              150,
+              30
+            ],
+            "source_indices": [
+              149,
+              30
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 79,
+            "pair": "VV",
+            "model_indices": [
+              118,
+              172
+            ],
+            "source_indices": [
+              117,
+              171
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 80,
+            "pair": "XG",
+            "model_indices": [
+              9,
+              63
+            ],
+            "source_indices": [
+              9,
+              62
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 81,
+            "pair": "XA",
+            "model_indices": [
+              139,
+              41
+            ],
+            "source_indices": [
+              138,
+              40
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 82,
+            "pair": "FA",
+            "model_indices": [
+              96,
+              161
+            ],
+            "source_indices": [
+              95,
+              160
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 83,
+            "pair": "VA",
+            "model_indices": [
+              52,
+              129
+            ],
+            "source_indices": [
+              51,
+              128
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 84,
+            "pair": "DF",
+            "model_indices": [
+              183,
+              20
+            ],
+            "source_indices": [
+              182,
+              20
+            ],
+            "domain": "D",
+            "raw": "D"
+          },
+          {
+            "plaintext_index": 85,
+            "pair": "FA",
+            "model_indices": [
+              75,
+              108
+            ],
+            "source_indices": [
+              74,
+              107
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 86,
+            "pair": "FV",
+            "model_indices": [
+              86,
+              151
+            ],
+            "source_indices": [
+              85,
+              150
+            ],
+            "domain": "Z",
+            "raw": "Z"
+          },
+          {
+            "plaintext_index": 87,
+            "pair": "FA",
+            "model_indices": [
+              31,
+              119
+            ],
+            "source_indices": [
+              31,
+              118
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 88,
+            "pair": "XF",
+            "model_indices": [
+              173,
+              10
+            ],
+            "source_indices": [
+              172,
+              10
+            ],
+            "domain": "M",
+            "raw": "M"
+          },
+          {
+            "plaintext_index": 89,
+            "pair": "VG",
+            "model_indices": [
+              64,
+              140
+            ],
+            "source_indices": [
+              63,
+              139
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 90,
+            "pair": "FA",
+            "model_indices": [
+              42,
+              97
+            ],
+            "source_indices": [
+              41,
+              96
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 91,
+            "pair": "VA",
+            "model_indices": [
+              162,
+              53
+            ],
+            "source_indices": [
+              161,
+              52
+            ],
+            "domain": "R",
+            "raw": "R"
+          }
+        ]
+      },
+      "local_gap_prices": [
+        {
+          "boundary": 30,
+          "substitutions": [
+            {
+              "model_index": 31,
+              "source_index": 30,
+              "printed": "X",
+              "from": "X",
+              "to": "F"
+            },
+            {
+              "model_index": 32,
+              "source_index": 31,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            },
+            {
+              "model_index": 33,
+              "source_index": 32,
+              "printed": "V",
+              "from": "V",
+              "to": "F"
+            },
+            {
+              "model_index": 45,
+              "source_index": 44,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            },
+            {
+              "model_index": 88,
+              "source_index": 87,
+              "printed": "X",
+              "from": "X",
+              "to": "V"
+            },
+            {
+              "model_index": 128,
+              "source_index": 127,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            }
+          ],
+          "fills": [
+            {
+              "model_index": 30,
+              "source_index": null,
+              "printed": null,
+              "from": "?",
+              "to": "X"
+            }
+          ]
+        },
+        {
+          "boundary": 31,
+          "substitutions": [
+            {
+              "model_index": 32,
+              "source_index": 31,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            },
+            {
+              "model_index": 33,
+              "source_index": 32,
+              "printed": "V",
+              "from": "V",
+              "to": "F"
+            },
+            {
+              "model_index": 45,
+              "source_index": 44,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            },
+            {
+              "model_index": 88,
+              "source_index": 87,
+              "printed": "X",
+              "from": "X",
+              "to": "V"
+            },
+            {
+              "model_index": 128,
+              "source_index": 127,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            }
+          ],
+          "fills": [
+            {
+              "model_index": 31,
+              "source_index": null,
+              "printed": null,
+              "from": "?",
+              "to": "F"
+            }
+          ]
+        },
+        {
+          "boundary": 32,
+          "substitutions": [
+            {
+              "model_index": 33,
+              "source_index": 32,
+              "printed": "V",
+              "from": "V",
+              "to": "F"
+            },
+            {
+              "model_index": 45,
+              "source_index": 44,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            },
+            {
+              "model_index": 88,
+              "source_index": 87,
+              "printed": "X",
+              "from": "X",
+              "to": "V"
+            },
+            {
+              "model_index": 128,
+              "source_index": 127,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            }
+          ],
+          "fills": [
+            {
+              "model_index": 32,
+              "source_index": null,
+              "printed": null,
+              "from": "?",
+              "to": "V"
+            }
+          ]
+        },
+        {
+          "boundary": 33,
+          "substitutions": [
+            {
+              "model_index": 45,
+              "source_index": 44,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            },
+            {
+              "model_index": 88,
+              "source_index": 87,
+              "printed": "X",
+              "from": "X",
+              "to": "V"
+            },
+            {
+              "model_index": 128,
+              "source_index": 127,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            }
+          ],
+          "fills": [
+            {
+              "model_index": 33,
+              "source_index": null,
+              "printed": null,
+              "from": "?",
+              "to": "F"
+            }
+          ]
+        },
+        {
+          "boundary": 34,
+          "substitutions": [
+            {
+              "model_index": 33,
+              "source_index": 33,
+              "printed": "A",
+              "from": "A",
+              "to": "F"
+            },
+            {
+              "model_index": 45,
+              "source_index": 44,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            },
+            {
+              "model_index": 88,
+              "source_index": 87,
+              "printed": "X",
+              "from": "X",
+              "to": "V"
+            },
+            {
+              "model_index": 128,
+              "source_index": 127,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            }
+          ],
+          "fills": [
+            {
+              "model_index": 34,
+              "source_index": null,
+              "printed": null,
+              "from": "?",
+              "to": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p145_B3",
+      "literal_source": "FXGVFFAVXAFGDGVFVXXXVAVFAVXXXFDXXDXXXVFVAFFFDADAGFAFVVGVXFFXXXDAVAVAFDAFVGXAXAFAXFAAFGAXXFGVDFDAFAXAXVDXVADGVDXVAFVVFXDDGVVVDFDGGDVVAD",
+      "literal_printed_rows": [
+        "FXGVF FAVXA FGDGV FVXXX VAVFA VXXXF DXXDX XXVFV",
+        "AFFFD ADAGF AFVVG VXFFX XXDAV AVAFD AFVGX AXAFA",
+        "XFAAF GAXXF GVDFD AFAXA XVDXV ADGVD XVAFV VFXDD",
+        "GVVVD FDGGD VVAD"
+      ],
+      "source_slots": 134,
+      "valid_coordinates": 134,
+      "ciphertext": "FXGVFFAVXAFGDGVFVXXXVAVFAVXXXFDXXDXXXVFVAFFFDADAGFAFVVGVXFFXXXDAVAVAFDAFVGXAXAFAXFAAFGAXXFGVDFDAFAXAXVDXVADGVDXVAFVVFXDDGVVVDFDGGDVVAD",
+      "analysis_frame_slots": 134,
+      "model_to_source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "raw": "WIEDREISSIGSTERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNKCHRCHEFX4XBX47857X",
+      "fixed_positions": 67,
+      "positions": [
+        {
+          "plaintext_index": 0,
+          "pair": "AF",
+          "model_indices": [
+            47,
+            71
+          ],
+          "source_indices": [
+            47,
+            71
+          ],
+          "domain": "W",
+          "raw": "W"
+        },
+        {
+          "plaintext_index": 1,
+          "pair": "VX",
+          "model_indices": [
+            55,
+            103
+          ],
+          "source_indices": [
+            55,
+            103
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 2,
+          "pair": "FA",
+          "model_indices": [
+            15,
+            79
+          ],
+          "source_indices": [
+            15,
+            79
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 3,
+          "pair": "DF",
+          "model_indices": [
+            119,
+            0
+          ],
+          "source_indices": [
+            119,
+            0
+          ],
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 4,
+          "pair": "VA",
+          "model_indices": [
+            39,
+            95
+          ],
+          "source_indices": [
+            39,
+            95
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 5,
+          "pair": "FA",
+          "model_indices": [
+            23,
+            63
+          ],
+          "source_indices": [
+            23,
+            63
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 6,
+          "pair": "VX",
+          "model_indices": [
+            111,
+            31
+          ],
+          "source_indices": [
+            111,
+            31
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 7,
+          "pair": "XG",
+          "model_indices": [
+            87,
+            127
+          ],
+          "source_indices": [
+            87,
+            127
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 8,
+          "pair": "XG",
+          "model_indices": [
+            8,
+            48
+          ],
+          "source_indices": [
+            8,
+            48
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 9,
+          "pair": "VX",
+          "model_indices": [
+            72,
+            56
+          ],
+          "source_indices": [
+            72,
+            56
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 10,
+          "pair": "VV",
+          "model_indices": [
+            104,
+            16
+          ],
+          "source_indices": [
+            104,
+            16
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 11,
+          "pair": "XG",
+          "model_indices": [
+            80,
+            120
+          ],
+          "source_indices": [
+            80,
+            120
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 12,
+          "pair": "XA",
+          "model_indices": [
+            1,
+            40
+          ],
+          "source_indices": [
+            1,
+            40
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 13,
+          "pair": "FA",
+          "model_indices": [
+            96,
+            24
+          ],
+          "source_indices": [
+            96,
+            24
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 14,
+          "pair": "VA",
+          "model_indices": [
+            64,
+            112
+          ],
+          "source_indices": [
+            64,
+            112
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 15,
+          "pair": "XX",
+          "model_indices": [
+            32,
+            88
+          ],
+          "source_indices": [
+            32,
+            88
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 16,
+          "pair": "GA",
+          "model_indices": [
+            128,
+            9
+          ],
+          "source_indices": [
+            128,
+            9
+          ],
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 17,
+          "pair": "FG",
+          "model_indices": [
+            49,
+            73
+          ],
+          "source_indices": [
+            49,
+            73
+          ],
+          "domain": "V",
+          "raw": "V"
+        },
+        {
+          "plaintext_index": 18,
+          "pair": "FA",
+          "model_indices": [
+            57,
+            105
+          ],
+          "source_indices": [
+            57,
+            105
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 19,
+          "pair": "XF",
+          "model_indices": [
+            17,
+            81
+          ],
+          "source_indices": [
+            17,
+            81
+          ],
+          "domain": "M",
+          "raw": "M"
+        },
+        {
+          "plaintext_index": 20,
+          "pair": "VG",
+          "model_indices": [
+            121,
+            2
+          ],
+          "source_indices": [
+            121,
+            2
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 21,
+          "pair": "FA",
+          "model_indices": [
+            41,
+            97
+          ],
+          "source_indices": [
+            41,
+            97
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 22,
+          "pair": "VA",
+          "model_indices": [
+            25,
+            65
+          ],
+          "source_indices": [
+            25,
+            65
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 23,
+          "pair": "FD",
+          "model_indices": [
+            113,
+            33
+          ],
+          "source_indices": [
+            113,
+            33
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 24,
+          "pair": "FD",
+          "model_indices": [
+            89,
+            129
+          ],
+          "source_indices": [
+            89,
+            129
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 25,
+          "pair": "FA",
+          "model_indices": [
+            10,
+            50
+          ],
+          "source_indices": [
+            10,
+            50
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 26,
+          "pair": "XF",
+          "model_indices": [
+            74,
+            58
+          ],
+          "source_indices": [
+            74,
+            58
+          ],
+          "domain": "M",
+          "raw": "M"
+        },
+        {
+          "plaintext_index": 27,
+          "pair": "DX",
+          "model_indices": [
+            106,
+            18
+          ],
+          "source_indices": [
+            106,
+            18
+          ],
+          "domain": "P",
+          "raw": "P"
+        },
+        {
+          "plaintext_index": 28,
+          "pair": "AV",
+          "model_indices": [
+            82,
+            122
+          ],
+          "source_indices": [
+            82,
+            122
+          ],
+          "domain": "F",
+          "raw": "F"
+        },
+        {
+          "plaintext_index": 29,
+          "pair": "VF",
+          "model_indices": [
+            3,
+            42
+          ],
+          "source_indices": [
+            3,
+            42
+          ],
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 30,
+          "pair": "XX",
+          "model_indices": [
+            98,
+            26
+          ],
+          "source_indices": [
+            98,
+            26
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 31,
+          "pair": "VV",
+          "model_indices": [
+            66,
+            114
+          ],
+          "source_indices": [
+            66,
+            114
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 32,
+          "pair": "XG",
+          "model_indices": [
+            34,
+            90
+          ],
+          "source_indices": [
+            34,
+            90
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 33,
+          "pair": "VG",
+          "model_indices": [
+            130,
+            11
+          ],
+          "source_indices": [
+            130,
+            11
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 34,
+          "pair": "FA",
+          "model_indices": [
+            51,
+            75
+          ],
+          "source_indices": [
+            51,
+            75
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 35,
+          "pair": "XG",
+          "model_indices": [
+            59,
+            107
+          ],
+          "source_indices": [
+            59,
+            107
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 36,
+          "pair": "XA",
+          "model_indices": [
+            19,
+            83
+          ],
+          "source_indices": [
+            19,
+            83
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 37,
+          "pair": "VF",
+          "model_indices": [
+            123,
+            4
+          ],
+          "source_indices": [
+            123,
+            4
+          ],
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 38,
+          "pair": "FA",
+          "model_indices": [
+            43,
+            99
+          ],
+          "source_indices": [
+            43,
+            99
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 39,
+          "pair": "XA",
+          "model_indices": [
+            27,
+            67
+          ],
+          "source_indices": [
+            27,
+            67
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 40,
+          "pair": "VX",
+          "model_indices": [
+            115,
+            35
+          ],
+          "source_indices": [
+            115,
+            35
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 41,
+          "pair": "VV",
+          "model_indices": [
+            91,
+            131
+          ],
+          "source_indices": [
+            91,
+            131
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 42,
+          "pair": "DV",
+          "model_indices": [
+            12,
+            52
+          ],
+          "source_indices": [
+            12,
+            52
+          ],
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 43,
+          "pair": "XX",
+          "model_indices": [
+            76,
+            60
+          ],
+          "source_indices": [
+            76,
+            60
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 44,
+          "pair": "VV",
+          "model_indices": [
+            108,
+            20
+          ],
+          "source_indices": [
+            108,
+            20
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 45,
+          "pair": "FD",
+          "model_indices": [
+            84,
+            124
+          ],
+          "source_indices": [
+            84,
+            124
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 46,
+          "pair": "FD",
+          "model_indices": [
+            5,
+            44
+          ],
+          "source_indices": [
+            5,
+            44
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 47,
+          "pair": "XX",
+          "model_indices": [
+            100,
+            28
+          ],
+          "source_indices": [
+            100,
+            28
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 48,
+          "pair": "FF",
+          "model_indices": [
+            68,
+            116
+          ],
+          "source_indices": [
+            68,
+            116
+          ],
+          "domain": "K",
+          "raw": "K"
+        },
+        {
+          "plaintext_index": 49,
+          "pair": "XD",
+          "model_indices": [
+            36,
+            92
+          ],
+          "source_indices": [
+            36,
+            92
+          ],
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 50,
+          "pair": "AG",
+          "model_indices": [
+            132,
+            13
+          ],
+          "source_indices": [
+            132,
+            13
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 51,
+          "pair": "VA",
+          "model_indices": [
+            53,
+            77
+          ],
+          "source_indices": [
+            53,
+            77
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 52,
+          "pair": "XD",
+          "model_indices": [
+            61,
+            109
+          ],
+          "source_indices": [
+            61,
+            109
+          ],
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 53,
+          "pair": "AG",
+          "model_indices": [
+            21,
+            85
+          ],
+          "source_indices": [
+            21,
+            85
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 54,
+          "pair": "FA",
+          "model_indices": [
+            125,
+            6
+          ],
+          "source_indices": [
+            125,
+            6
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 55,
+          "pair": "AV",
+          "model_indices": [
+            45,
+            101
+          ],
+          "source_indices": [
+            45,
+            101
+          ],
+          "domain": "F",
+          "raw": "F"
+        },
+        {
+          "plaintext_index": 56,
+          "pair": "FD",
+          "model_indices": [
+            29,
+            69
+          ],
+          "source_indices": [
+            29,
+            69
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 57,
+          "pair": "XV",
+          "model_indices": [
+            117,
+            37
+          ],
+          "source_indices": [
+            117,
+            37
+          ],
+          "domain": "4",
+          "raw": "4"
+        },
+        {
+          "plaintext_index": 58,
+          "pair": "FD",
+          "model_indices": [
+            93,
+            133
+          ],
+          "source_indices": [
+            93,
+            133
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 59,
+          "pair": "VG",
+          "model_indices": [
+            14,
+            54
+          ],
+          "source_indices": [
+            14,
+            54
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 60,
+          "pair": "FD",
+          "model_indices": [
+            78,
+            62
+          ],
+          "source_indices": [
+            78,
+            62
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 61,
+          "pair": "XV",
+          "model_indices": [
+            110,
+            22
+          ],
+          "source_indices": [
+            110,
+            22
+          ],
+          "domain": "4",
+          "raw": "4"
+        },
+        {
+          "plaintext_index": 62,
+          "pair": "AD",
+          "model_indices": [
+            86,
+            126
+          ],
+          "source_indices": [
+            86,
+            126
+          ],
+          "domain": "7",
+          "raw": "7"
+        },
+        {
+          "plaintext_index": 63,
+          "pair": "VD",
+          "model_indices": [
+            7,
+            46
+          ],
+          "source_indices": [
+            7,
+            46
+          ],
+          "domain": "8",
+          "raw": "8"
+        },
+        {
+          "plaintext_index": 64,
+          "pair": "DD",
+          "model_indices": [
+            102,
+            30
+          ],
+          "source_indices": [
+            102,
+            30
+          ],
+          "domain": "5",
+          "raw": "5"
+        },
+        {
+          "plaintext_index": 65,
+          "pair": "AD",
+          "model_indices": [
+            70,
+            118
+          ],
+          "source_indices": [
+            70,
+            118
+          ],
+          "domain": "7",
+          "raw": "7"
+        },
+        {
+          "plaintext_index": 66,
+          "pair": "FD",
+          "model_indices": [
+            38,
+            94
+          ],
+          "source_indices": [
+            38,
+            94
+          ],
+          "domain": "X",
+          "raw": "X"
+        }
+      ],
+      "readable_candidate": {
+        "template": "WIEDREISSIGSTERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNACHRCHEFX4XBX47857X",
+        "ciphertext": "FXGVFFAVXAFGDGVFVXXXVAVFAVXXXFDXXDXXXVFVAFFFDADAGFAFVVGVXFFXXXDAVAVAVDAFVGXAXAFAXFAAFGAXXFGVDFDAFAXAXVDXVADGVDXVAFVVFXDDGVVVDFDGGDVVAD",
+        "known_coordinate_substitutions": [
+          {
+            "model_index": 68,
+            "source_index": 68,
+            "printed": "F",
+            "from": "F",
+            "to": "V"
+          }
+        ],
+        "erased_coordinate_fills": [],
+        "full_plaintext_reencryption_verified": true,
+        "published_key_changed": false,
+        "raw": "WIEDREISSIGSTERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNACHRCHEFX4XBX47857X",
+        "fixed_positions": 67,
+        "positions": [
+          {
+            "plaintext_index": 0,
+            "pair": "AF",
+            "model_indices": [
+              47,
+              71
+            ],
+            "source_indices": [
+              47,
+              71
+            ],
+            "domain": "W",
+            "raw": "W"
+          },
+          {
+            "plaintext_index": 1,
+            "pair": "VX",
+            "model_indices": [
+              55,
+              103
+            ],
+            "source_indices": [
+              55,
+              103
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 2,
+            "pair": "FA",
+            "model_indices": [
+              15,
+              79
+            ],
+            "source_indices": [
+              15,
+              79
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 3,
+            "pair": "DF",
+            "model_indices": [
+              119,
+              0
+            ],
+            "source_indices": [
+              119,
+              0
+            ],
+            "domain": "D",
+            "raw": "D"
+          },
+          {
+            "plaintext_index": 4,
+            "pair": "VA",
+            "model_indices": [
+              39,
+              95
+            ],
+            "source_indices": [
+              39,
+              95
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 5,
+            "pair": "FA",
+            "model_indices": [
+              23,
+              63
+            ],
+            "source_indices": [
+              23,
+              63
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 6,
+            "pair": "VX",
+            "model_indices": [
+              111,
+              31
+            ],
+            "source_indices": [
+              111,
+              31
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 7,
+            "pair": "XG",
+            "model_indices": [
+              87,
+              127
+            ],
+            "source_indices": [
+              87,
+              127
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 8,
+            "pair": "XG",
+            "model_indices": [
+              8,
+              48
+            ],
+            "source_indices": [
+              8,
+              48
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 9,
+            "pair": "VX",
+            "model_indices": [
+              72,
+              56
+            ],
+            "source_indices": [
+              72,
+              56
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 10,
+            "pair": "VV",
+            "model_indices": [
+              104,
+              16
+            ],
+            "source_indices": [
+              104,
+              16
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 11,
+            "pair": "XG",
+            "model_indices": [
+              80,
+              120
+            ],
+            "source_indices": [
+              80,
+              120
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 12,
+            "pair": "XA",
+            "model_indices": [
+              1,
+              40
+            ],
+            "source_indices": [
+              1,
+              40
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 13,
+            "pair": "FA",
+            "model_indices": [
+              96,
+              24
+            ],
+            "source_indices": [
+              96,
+              24
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 14,
+            "pair": "VA",
+            "model_indices": [
+              64,
+              112
+            ],
+            "source_indices": [
+              64,
+              112
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 15,
+            "pair": "XX",
+            "model_indices": [
+              32,
+              88
+            ],
+            "source_indices": [
+              32,
+              88
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 16,
+            "pair": "GA",
+            "model_indices": [
+              128,
+              9
+            ],
+            "source_indices": [
+              128,
+              9
+            ],
+            "domain": "O",
+            "raw": "O"
+          },
+          {
+            "plaintext_index": 17,
+            "pair": "FG",
+            "model_indices": [
+              49,
+              73
+            ],
+            "source_indices": [
+              49,
+              73
+            ],
+            "domain": "V",
+            "raw": "V"
+          },
+          {
+            "plaintext_index": 18,
+            "pair": "FA",
+            "model_indices": [
+              57,
+              105
+            ],
+            "source_indices": [
+              57,
+              105
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 19,
+            "pair": "XF",
+            "model_indices": [
+              17,
+              81
+            ],
+            "source_indices": [
+              17,
+              81
+            ],
+            "domain": "M",
+            "raw": "M"
+          },
+          {
+            "plaintext_index": 20,
+            "pair": "VG",
+            "model_indices": [
+              121,
+              2
+            ],
+            "source_indices": [
+              121,
+              2
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 21,
+            "pair": "FA",
+            "model_indices": [
+              41,
+              97
+            ],
+            "source_indices": [
+              41,
+              97
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 22,
+            "pair": "VA",
+            "model_indices": [
+              25,
+              65
+            ],
+            "source_indices": [
+              25,
+              65
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 23,
+            "pair": "FD",
+            "model_indices": [
+              113,
+              33
+            ],
+            "source_indices": [
+              113,
+              33
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 24,
+            "pair": "FD",
+            "model_indices": [
+              89,
+              129
+            ],
+            "source_indices": [
+              89,
+              129
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 25,
+            "pair": "FA",
+            "model_indices": [
+              10,
+              50
+            ],
+            "source_indices": [
+              10,
+              50
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 26,
+            "pair": "XF",
+            "model_indices": [
+              74,
+              58
+            ],
+            "source_indices": [
+              74,
+              58
+            ],
+            "domain": "M",
+            "raw": "M"
+          },
+          {
+            "plaintext_index": 27,
+            "pair": "DX",
+            "model_indices": [
+              106,
+              18
+            ],
+            "source_indices": [
+              106,
+              18
+            ],
+            "domain": "P",
+            "raw": "P"
+          },
+          {
+            "plaintext_index": 28,
+            "pair": "AV",
+            "model_indices": [
+              82,
+              122
+            ],
+            "source_indices": [
+              82,
+              122
+            ],
+            "domain": "F",
+            "raw": "F"
+          },
+          {
+            "plaintext_index": 29,
+            "pair": "VF",
+            "model_indices": [
+              3,
+              42
+            ],
+            "source_indices": [
+              3,
+              42
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 30,
+            "pair": "XX",
+            "model_indices": [
+              98,
+              26
+            ],
+            "source_indices": [
+              98,
+              26
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 31,
+            "pair": "VV",
+            "model_indices": [
+              66,
+              114
+            ],
+            "source_indices": [
+              66,
+              114
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 32,
+            "pair": "XG",
+            "model_indices": [
+              34,
+              90
+            ],
+            "source_indices": [
+              34,
+              90
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 33,
+            "pair": "VG",
+            "model_indices": [
+              130,
+              11
+            ],
+            "source_indices": [
+              130,
+              11
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 34,
+            "pair": "FA",
+            "model_indices": [
+              51,
+              75
+            ],
+            "source_indices": [
+              51,
+              75
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 35,
+            "pair": "XG",
+            "model_indices": [
+              59,
+              107
+            ],
+            "source_indices": [
+              59,
+              107
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 36,
+            "pair": "XA",
+            "model_indices": [
+              19,
+              83
+            ],
+            "source_indices": [
+              19,
+              83
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 37,
+            "pair": "VF",
+            "model_indices": [
+              123,
+              4
+            ],
+            "source_indices": [
+              123,
+              4
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 38,
+            "pair": "FA",
+            "model_indices": [
+              43,
+              99
+            ],
+            "source_indices": [
+              43,
+              99
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 39,
+            "pair": "XA",
+            "model_indices": [
+              27,
+              67
+            ],
+            "source_indices": [
+              27,
+              67
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 40,
+            "pair": "VX",
+            "model_indices": [
+              115,
+              35
+            ],
+            "source_indices": [
+              115,
+              35
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 41,
+            "pair": "VV",
+            "model_indices": [
+              91,
+              131
+            ],
+            "source_indices": [
+              91,
+              131
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 42,
+            "pair": "DV",
+            "model_indices": [
+              12,
+              52
+            ],
+            "source_indices": [
+              12,
+              52
+            ],
+            "domain": "U",
+            "raw": "U"
+          },
+          {
+            "plaintext_index": 43,
+            "pair": "XX",
+            "model_indices": [
+              76,
+              60
+            ],
+            "source_indices": [
+              76,
+              60
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 44,
+            "pair": "VV",
+            "model_indices": [
+              108,
+              20
+            ],
+            "source_indices": [
+              108,
+              20
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 45,
+            "pair": "FD",
+            "model_indices": [
+              84,
+              124
+            ],
+            "source_indices": [
+              84,
+              124
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 46,
+            "pair": "FD",
+            "model_indices": [
+              5,
+              44
+            ],
+            "source_indices": [
+              5,
+              44
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 47,
+            "pair": "XX",
+            "model_indices": [
+              100,
+              28
+            ],
+            "source_indices": [
+              100,
+              28
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 48,
+            "pair": "VF",
+            "model_indices": [
+              68,
+              116
+            ],
+            "source_indices": [
+              68,
+              116
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 49,
+            "pair": "XD",
+            "model_indices": [
+              36,
+              92
+            ],
+            "source_indices": [
+              36,
+              92
+            ],
+            "domain": "C",
+            "raw": "C"
+          },
+          {
+            "plaintext_index": 50,
+            "pair": "AG",
+            "model_indices": [
+              132,
+              13
+            ],
+            "source_indices": [
+              132,
+              13
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 51,
+            "pair": "VA",
+            "model_indices": [
+              53,
+              77
+            ],
+            "source_indices": [
+              53,
+              77
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 52,
+            "pair": "XD",
+            "model_indices": [
+              61,
+              109
+            ],
+            "source_indices": [
+              61,
+              109
+            ],
+            "domain": "C",
+            "raw": "C"
+          },
+          {
+            "plaintext_index": 53,
+            "pair": "AG",
+            "model_indices": [
+              21,
+              85
+            ],
+            "source_indices": [
+              21,
+              85
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 54,
+            "pair": "FA",
+            "model_indices": [
+              125,
+              6
+            ],
+            "source_indices": [
+              125,
+              6
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 55,
+            "pair": "AV",
+            "model_indices": [
+              45,
+              101
+            ],
+            "source_indices": [
+              45,
+              101
+            ],
+            "domain": "F",
+            "raw": "F"
+          },
+          {
+            "plaintext_index": 56,
+            "pair": "FD",
+            "model_indices": [
+              29,
+              69
+            ],
+            "source_indices": [
+              29,
+              69
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 57,
+            "pair": "XV",
+            "model_indices": [
+              117,
+              37
+            ],
+            "source_indices": [
+              117,
+              37
+            ],
+            "domain": "4",
+            "raw": "4"
+          },
+          {
+            "plaintext_index": 58,
+            "pair": "FD",
+            "model_indices": [
+              93,
+              133
+            ],
+            "source_indices": [
+              93,
+              133
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 59,
+            "pair": "VG",
+            "model_indices": [
+              14,
+              54
+            ],
+            "source_indices": [
+              14,
+              54
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 60,
+            "pair": "FD",
+            "model_indices": [
+              78,
+              62
+            ],
+            "source_indices": [
+              78,
+              62
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 61,
+            "pair": "XV",
+            "model_indices": [
+              110,
+              22
+            ],
+            "source_indices": [
+              110,
+              22
+            ],
+            "domain": "4",
+            "raw": "4"
+          },
+          {
+            "plaintext_index": 62,
+            "pair": "AD",
+            "model_indices": [
+              86,
+              126
+            ],
+            "source_indices": [
+              86,
+              126
+            ],
+            "domain": "7",
+            "raw": "7"
+          },
+          {
+            "plaintext_index": 63,
+            "pair": "VD",
+            "model_indices": [
+              7,
+              46
+            ],
+            "source_indices": [
+              7,
+              46
+            ],
+            "domain": "8",
+            "raw": "8"
+          },
+          {
+            "plaintext_index": 64,
+            "pair": "DD",
+            "model_indices": [
+              102,
+              30
+            ],
+            "source_indices": [
+              102,
+              30
+            ],
+            "domain": "5",
+            "raw": "5"
+          },
+          {
+            "plaintext_index": 65,
+            "pair": "AD",
+            "model_indices": [
+              70,
+              118
+            ],
+            "source_indices": [
+              70,
+              118
+            ],
+            "domain": "7",
+            "raw": "7"
+          },
+          {
+            "plaintext_index": 66,
+            "pair": "FD",
+            "model_indices": [
+              38,
+              94
+            ],
+            "source_indices": [
+              38,
+              94
+            ],
+            "domain": "X",
+            "raw": "X"
+          }
+        ]
+      },
+      "local_gap_prices": []
+    }
+  ],
+  "mutual_source_support": [
+    {
+      "record": "p145_B1",
+      "independent_record": "p211_B_lower1",
+      "new_repairs_directly_supported_by_old_raw": [
+        {
+          "plaintext_index": 73,
+          "raw": "1",
+          "candidate": "R",
+          "independent_copy_literal": "R",
+          "new_pair_indices": [
+            46,
+            109
+          ],
+          "old_pair_indices": [
+            46,
+            109
+          ]
+        }
+      ],
+      "old_repairs_directly_supported_by_new_raw": [
+        {
+          "old_plaintext_index": 9,
+          "old_raw": "G",
+          "old_proposal": "R",
+          "new_literal": "R"
+        },
+        {
+          "old_plaintext_index": 19,
+          "old_raw": "7",
+          "old_proposal": "H",
+          "new_literal": "H"
+        },
+        {
+          "old_plaintext_index": 67,
+          "old_raw": "R",
+          "old_proposal": "E",
+          "new_literal": "E"
+        }
+      ],
+      "literal_cipher_differences_in_declared_frames": [
+        {
+          "frame_index": 31,
+          "new": "V",
+          "old": "X"
+        },
+        {
+          "frame_index": 46,
+          "new": "A",
+          "old": "V"
+        },
+        {
+          "frame_index": 89,
+          "new": "A",
+          "old": "V"
+        },
+        {
+          "frame_index": 128,
+          "new": "G",
+          "old": "D"
+        },
+        {
+          "frame_index": 209,
+          "new": "F",
+          "old": "V"
+        }
+      ],
+      "literal_plaintext_differences": [
+        {
+          "plaintext_index": 9,
+          "new": "R",
+          "old": "G"
+        },
+        {
+          "plaintext_index": 19,
+          "new": "H",
+          "old": "7"
+        },
+        {
+          "plaintext_index": 53,
+          "new": "G",
+          "old": "4"
+        },
+        {
+          "plaintext_index": 67,
+          "new": "E",
+          "old": "R"
+        },
+        {
+          "plaintext_index": 73,
+          "new": "1",
+          "old": "R"
+        }
+      ]
+    },
+    {
+      "record": "p145_B2",
+      "independent_record": "p211_B_lower2",
+      "new_repairs_directly_supported_by_old_raw": [
+        {
+          "plaintext_index": 13,
+          "raw": "?",
+          "candidate": "D",
+          "independent_copy_literal": "D",
+          "new_pair_indices": [
+            130,
+            null
+          ],
+          "old_pair_indices": [
+            131,
+            33
+          ]
+        },
+        {
+          "plaintext_index": 14,
+          "raw": "M",
+          "candidate": "A",
+          "independent_copy_literal": "A",
+          "new_pair_indices": [
+            87,
+            152
+          ],
+          "old_pair_indices": [
+            88,
+            153
+          ]
+        },
+        {
+          "plaintext_index": 23,
+          "raw": "D",
+          "candidate": "U",
+          "independent_copy_literal": "U",
+          "new_pair_indices": [
+            153,
+            44
+          ],
+          "old_pair_indices": [
+            154,
+            45
+          ]
+        },
+        {
+          "plaintext_index": 75,
+          "raw": "K",
+          "candidate": "A",
+          "independent_copy_literal": "A",
+          "new_pair_indices": [
+            127,
+            181
+          ],
+          "old_pair_indices": [
+            128,
+            182
+          ]
+        }
+      ],
+      "old_repairs_directly_supported_by_new_raw": [],
+      "literal_cipher_differences_in_declared_frames": [
+        {
+          "frame_index": 33,
+          "new": "?",
+          "old": "F"
+        },
+        {
+          "frame_index": 45,
+          "new": "F",
+          "old": "V"
+        },
+        {
+          "frame_index": 88,
+          "new": "X",
+          "old": "V"
+        },
+        {
+          "frame_index": 128,
+          "new": "F",
+          "old": "V"
+        }
+      ],
+      "literal_plaintext_differences": [
+        {
+          "plaintext_index": 13,
+          "new": "?",
+          "old": "D"
+        },
+        {
+          "plaintext_index": 14,
+          "new": "M",
+          "old": "A"
+        },
+        {
+          "plaintext_index": 23,
+          "new": "D",
+          "old": "U"
+        },
+        {
+          "plaintext_index": 75,
+          "new": "K",
+          "old": "A"
+        }
+      ]
+    },
+    {
+      "record": "p145_B3",
+      "independent_record": "p211_B_lower3",
+      "new_repairs_directly_supported_by_old_raw": [
+        {
+          "plaintext_index": 48,
+          "raw": "K",
+          "candidate": "A",
+          "independent_copy_literal": "A",
+          "new_pair_indices": [
+            68,
+            116
+          ],
+          "old_pair_indices": [
+            68,
+            116
+          ]
+        }
+      ],
+      "old_repairs_directly_supported_by_new_raw": [
+        {
+          "old_plaintext_index": 10,
+          "old_raw": "?",
+          "old_proposal": "G",
+          "new_literal": "G"
+        }
+      ],
+      "literal_cipher_differences_in_declared_frames": [
+        {
+          "frame_index": 16,
+          "new": "V",
+          "old": "?"
+        },
+        {
+          "frame_index": 68,
+          "new": "F",
+          "old": "V"
+        },
+        {
+          "frame_index": 69,
+          "new": "D",
+          "old": "V"
+        }
+      ],
+      "literal_plaintext_differences": [
+        {
+          "plaintext_index": 10,
+          "new": "G",
+          "old": "?"
+        },
+        {
+          "plaintext_index": 48,
+          "new": "K",
+          "old": "A"
+        },
+        {
+          "plaintext_index": 56,
+          "new": "X",
+          "old": "Z"
+        }
+      ]
+    }
+  ],
+  "headers": [
+    "Page heading: 6th NOVEMBER, 1918.",
+    "B) WAU (KOW RVA) NKJ (IWE RTS) ASO v LP (02.53 a.m., November 7th)",
+    "SS DD 2230 (6/11) 3 TEILE",
+    "1 TL RICHI-214",
+    "2 TL RICHI-184",
+    "3 TL RICHI-134"
+  ],
+  "limits": [
+    "The p145 source explicitly has 183 typed coordinates in part2 and advertises184; the short XFVA group is preserved literally and its added F is a frame hypothesis supported by the independent p211 copy.",
+    "The copies have different date/header layers. Both use the unchanged published Nov4–6 key; this evidence does not justify normalizing dates or claiming that all stations followed the December schedule.",
+    "References and labels remain source-specific: p145 NACHRCHEFXG and NACHRCHEFX4 are not replaced by p211 NACHRCHEFX4 and NACHRCHEFZ4.",
+    "The already published p211 body and earlier key recovery retain credit. These are additional source witnesses, not new first-solution claims."
+  ]
+}

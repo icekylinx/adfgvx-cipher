@@ -1,0 +1,193 @@
+{
+  "schema": "adfgvx-siegfried-assignment-cancellation-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p135_A.png",
+      "printed_page": 135,
+      "pdf_page_1based": 138,
+      "crop_pdf_points": [
+        45,
+        250,
+        530,
+        570
+      ],
+      "render_scale": 3,
+      "sha256": "888cf1eb92b62e8868e2657ca8f3449a117586d9e6c9816f61298a372f13bb6c"
+    }
+  ],
+  "records": [
+    {
+      "id": "p135_A",
+      "printed_page": 135,
+      "source_section": "A",
+      "source_rows": [
+        "DFXXD GAXFD GAXXV AVXXX XXXXA GXAXF VVDAD VFXAG",
+        "VF--- ADXAG AAXDA FAFAX FGVAA GAXVG AFAXA DDGXV",
+        "AFVVX VFAVA AFXFF VFXXG GVDFX VAXVF VGVAV AXAAV",
+        "XFDXG XVFXA GFXVF AXAFF FDXXX DVDAV FVVDA XAAAA",
+        "AFVVA XX-GF DGXVA DAVAX GVVDF XAVVA XXVVF AFFVA",
+        "XXGAD FAXGF AVFVG XXDFA AFXXV FVGAV XVVFV GGVAV",
+        "XAFXA XAVFV XGAXX GVXXX VXGXV AFVAF FVVGV FFGGA",
+        "AXGGV XXVFG VXFVD XXDXX AFDVA VDAXX XAGAX XVFFA",
+        "XXAGF AAAGA FXFFX XFVAX AXXXV VVDAX FAXAX FXFFA",
+        "FGDAX XVAAF XAGAX XAAXX AGAXA AGFVF FAFFD AFVFG",
+        "X"
+      ],
+      "source_slots": 401,
+      "advertised_length": 401,
+      "frame_model": {
+        "kind": "one_pretransposition_surplus_coordinate",
+        "excluded_interim_index": 230,
+        "equivalent_excluded_interim_indices": [
+          230,
+          231
+        ],
+        "surplus_coordinate": "X",
+        "scope": "The received401-coordinate frame remains intact in the forward witness. One observed X is excluded from the paired interim model after inverse transposition; the source index of that surplus is84 or296, with identical reconstructed streams."
+      },
+      "expected_working_raw": "DTSCHEMILITAERMISS?ONINKONSTANTINOPELXZUNR45610XKOMDODESOBERLTSSIEGFRIEDNACHDERTUERKEIDESZENZUTEILUNGZURMILITAEEMRSSIONISTAUFGEHOBENXAKOFOLGTXAUFALLERHOECHSTENB?FEHLCHEF?ILITAER?AHINETTSFGHTMARSCHALLX",
+      "readable_candidate": "DTSCHEMILITAERMISSIONINKONSTANTINOPELXZUNR45610XKOMDODESOBERLTSSIEGFRIEDNACHDERTUERKEIDESSENZUTEILUNGZURMILITAERMISSIONISTAUFGEHOBENXAKOFOLGTXAUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX",
+      "readable_german": "Dtsche Militaermission in Konstantinopel. Zu Nr 45610. Komdo des Oberlts Siegfried nach der Tuerkei, dessen Zuteilung zur Militaermission ist aufgehoben. AKO folgt. Auf allerhoechsten Befehl Chef Militaerkabinetts Frhr Marschall.",
+      "meaning": "Regarding 45610 and the posting of Oberleutnant Siegfried to Turkey, the message cancels his assignment to the Military Mission. AKO follows. It closes with the Chief of the Military Cabinet formula and FRHR MARSCHALL. The message does not report a completed return journey or establish a separate biographical identity.",
+      "case_path": "cases/people/siegfried_assignment_cancellation.md"
+    }
+  ],
+  "headers": {
+    "p135_A": [
+      "5th NOVEMBER, 1918.",
+      "A) YZ v LP (8.59 a.m., November 7th)",
+      "FUER YZ 2400 (5/11)",
+      "RICHI-401"
+    ]
+  },
+  "already_reviewed_closing_witness": {
+    "record": "p149_A2",
+    "already_catalogued": true,
+    "counted_as_new_record": false,
+    "source_inputs_path": "experiments/corpus_attack/source_pairs.json",
+    "source_inputs_sha256": "a825bead697c662ecfdf93e839291957b9fd6b90203be08fa73ce1257eec70fc",
+    "source_record_snapshot": {
+      "id": "p149_A2",
+      "printed_page": 149,
+      "pdf_page_1based": 152,
+      "ocr_block_id": "p149_ocr_block1",
+      "source_crop": "sources/childs_p149_A2.png",
+      "crop_pdf_points": [
+        60,
+        245,
+        530,
+        405
+      ],
+      "render_scale": 3,
+      "header": "A) YZ v LP (08.49 a.m., November 7th). FUER YZ 0015 (6/11) 2 TEILE. 2 TL RICHI-236.",
+      "raw_grouped": "GFFVG FVVDF XVAVV AXAVX FAXGF AVVAV XAAGV FAXFA\nDAFAG DXAXX GVXVX GFAVV FVFAX AFFFF AXFFA GFAAA\nGAFDX VGVGV DAXFA XAFGX AXAFF GGAAX GXAXX VXXAG\nAXXAA FXAFV FFVGV AVAXA DGVAA AAAAF VVAFD VAFAX\nAFDVA VDAXA AVVAA GAXVG AAXGX FVFDA FVFGX VAFXD\nGVXXX XXXXX VFGXF AVXVV FVGAF XFAXA VAAFX F",
+      "transcription_notes": [
+        "Groups 37 and 44 have clearly printed AAXGX and AVXVV; the OCR had an erasure and omitted a coordinate, respectively.",
+        "Group 25 is AXXAA, differing from p138's AXVAA."
+      ]
+    },
+    "source_crop_path": "experiments/corpus_attack/sources/childs_p149_A2.png",
+    "source_crop_sha256": "e900e38a18202d85594b82d4aa3e9860d39c6714b7e2f70e7ebe009bab7e55ce",
+    "literal_source": "GFFVGFVVDFXVAVVAXAVXFAXGFAVVAVXAAGVFAXFADAFAGDXAXXGVXVXGFAVVFVFAXAFFFFAXFFAGFAAAGAFDXVGVGVDAXFAXAFGXAXAFFGGAAXGXAXXVXXAGAXXAAFXAFVFFVGVAVAXADGVAAAAAAFVVAFDVAFAXAFDVAVDAXAAVVAAGAXVGAAXGXFVFDAFVFGXVAFXDGVXXXXXXXXVFGXFAVXVVFVGAFXFAXAVAAFXF",
+    "expected_raw": "DERSELBEISTUEM1XERSBKTLEISENBAHNREGM1SZUUEBERWEISENAKOFOLGTXAUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX",
+    "shared_closing": "AUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX",
+    "interpretation": "The direct58-character closing independently supports the damaged Military Cabinet formula and FRHR MARSCHALL in p135 A. The older message concerns Osthoff; this is formula-level support, not an identical full message or a biographical identity claim."
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "af7599c6e00f35a79b1155896d9c9cf6d5bc71c82dab7b07a78e2868093bb6de"
+  },
+  "limits": [
+    "All401 source slots, including397 observed coordinates and4 printed masks, are retained literally. The ordinary odd-frame decoding and its final orphan are retained separately.",
+    "The recovery is conditional on an observed surplus X in the fractionated stream before transposition. Excluding interim230 or231 yields the same400-coordinate paired stream; neither physical origin is uniquely chosen. This is not a silent deletion from transmitted ciphertext.",
+    "Under this declared model the candidate costs7 observed substitutions and4 printed-mask fills. The extra observed X is separately accounted for, not treated as a free erasure.",
+    "All401 interim and401 transmitted single-coordinate exclusions are priced against the same200-character proposal. This does not exclude other multi-error mechanisms or establish a historical cause.",
+    "The complete closing has direct pair-by-pair support from already-reviewed p149 A2, without importing its Osthoff identity or other body words.",
+    "The source reference45610 remains literal. The unchanged published key retains its prior attribution and no first-solution priority is claimed."
+  ]
+}

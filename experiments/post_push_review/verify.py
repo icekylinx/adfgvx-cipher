@@ -60,6 +60,18 @@ def build(pdf=None):
                 'fixed_raw_label_positions_under_stated_geometry': certificate['conditional_raw_fixed_positions'],
                 'known_coordinate_substitutions': certificate['known_coordinate_substitutions_per_variant'],
             }
+        elif certificate.get('schema') == 'adfgvx-warsaw-station-missing-row-certificate-v1':
+            # Three compatible gap placements are alternative models of one source.
+            certificate_ids = {certificate['source_record']}
+            summary = certificate['summary']
+            assert summary['physical_records'] == 1
+            assert package['normalized_counts'] == {
+                'physical_records': 1,
+                'source_slots': summary['printed_source_slots'],
+                'modeled_plaintext_positions': summary['plaintext_positions'],
+                'fixed_raw_label_positions_under_stated_geometry': summary['baseline_fixed_positions'],
+                'known_coordinate_substitutions': summary['known_coordinate_substitutions'],
+            }
         elif certificate.get('schema') == 'adfgvx-nov9-urgent-embassy-address-certificates-v1':
             certificate_ids = {certificate['record']['id']}
         else:

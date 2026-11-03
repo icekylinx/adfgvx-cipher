@@ -1,0 +1,293 @@
+{
+  "schema": "adfgvx-nov4-radio-and-departure-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p120_A.png",
+      "printed_page": 120,
+      "pdf_page_1based": 123,
+      "crop_pdf_points": [
+        50,
+        200,
+        540,
+        313
+      ],
+      "render_scale": 4,
+      "sha256": "648acccaf1ba635c001e36ddb75d76571f0072750cbe3ea9c11f3fd7bf544acf"
+    },
+    {
+      "path": "sources/p120_C.png",
+      "printed_page": 120,
+      "pdf_page_1based": 123,
+      "crop_pdf_points": [
+        60,
+        484,
+        540,
+        554
+      ],
+      "render_scale": 4,
+      "sha256": "65e96efee7437ef29d089ce57d2a50fdad857c1443c6fb6fd55ebd40c9f57f54"
+    },
+    {
+      "path": "sources/p123_B.png",
+      "printed_page": 123,
+      "pdf_page_1based": 126,
+      "crop_pdf_points": [
+        75,
+        545,
+        535,
+        775
+      ],
+      "render_scale": 4,
+      "sha256": "b428e1189bebbe236c6a89bc1d2931e44c766b76c2772e64eded24711a3ba147"
+    },
+    {
+      "path": "sources/p147_A.png",
+      "printed_page": 147,
+      "pdf_page_1based": 150,
+      "crop_pdf_points": [
+        48,
+        208,
+        525,
+        409
+      ],
+      "render_scale": 4,
+      "sha256": "569cbafafcd6071b2fb7c2dc0a49f6d562080ae95e96ae97c395f36ea0c2114e"
+    },
+    {
+      "path": "sources/p120_A_overprint.png",
+      "printed_page": 120,
+      "pdf_page_1based": 123,
+      "crop_pdf_points": [
+        380,
+        280,
+        434,
+        295
+      ],
+      "render_scale": 12,
+      "sha256": "a01b637307cf04a7001c4b9fed434e29ddf4565af87fd57e547589915b56c3d9"
+    }
+  ],
+  "records": [
+    {
+      "id": "p120_A",
+      "printed_page": 120,
+      "source_section": "A",
+      "source_rows": [
+        "-XFGA FGVVF XVGVV GXDFX XFVAF XXDXF DXAXD VFVXX",
+        "VXADG FAFGA FFXAD GXAAX VFAVA GFAFX ADDAG XAXAF",
+        "FXDDX FAFAA XAVFA XVFXF DVAVX XAFFV GDVFF AVDXG",
+        "DAVGG FAAFD VXXVF DXXVV VDGGX GGFVX ADAXD VAXFV",
+        "GXVFA ADGXA GGFAX DXGXD VAVDV XXFTVA DADFX AFGDA",
+        "AFDDX XVFGX FFGXG XADFA VADFA AVAXF VXXAX V"
+      ],
+      "source_slots": 237,
+      "advertised_length": 236,
+      "expected_raw": "DEU?SCHMILIATTACHEXXKJDORTX8303X18XISTHELTERTSVERANLASSTXKANN8ORSCHAFTAUCHUNGEDAEMPFTXEILVESEEMPFANGENNACHCHEF4B47883X",
+      "readable_candidate": "DEUTSCHMILIATTACHEXXZUDORTX8303X18XISTWEITERESVERANLASSTXKANNBOTSCHAFTAUCHUNGEDAEMPFTXEILVESEEMPFANGENNACHCHEF4B47883X",
+      "analysis_frame": {
+        "exclude_source_indices": [
+          188
+        ],
+        "scope": "Six spatial slots XXFTVA include an ambiguous T-like overprint. Exclude that masked slot conditionally; cancellation intent is not asserted."
+      },
+      "readable_german": "Deutsch Miliattache. Zu dort 8303.18 ist Weiteres veranlasst. Kann Botschaft auch ungedaempft Eilvese empfangen? Nachchef 4 B 47883.",
+      "meaning": "The proposed reading addresses the German military attache, refers to 8303.18 and asks whether the embassy can also receive undamped Eilvese transmissions. It does not establish the reception equipment or the outcome of that request.",
+      "case_path": "cases/radio/nov4_eilvese_and_setup.md",
+      "editorial_question_punctuation_after": [
+        "empfangen"
+      ]
+    },
+    {
+      "id": "p120_C",
+      "printed_page": 120,
+      "source_section": "C",
+      "source_rows": [
+        "DAGDX VGFGF VGXGD DVVFG VVADD VAGVG DFFFD DFVVF",
+        "FVADV VFVFX GXVFX A"
+      ],
+      "source_slots": 56,
+      "advertised_length": 56,
+      "expected_raw": "0500ABBAUXAPFBAUNAGQBESCEREK",
+      "readable_candidate": "0500ABBAUXAUFBAUNAGQBESCEREK",
+      "readable_german": "0500 Abbau. Aufbau NAGQBESCEREK.",
+      "meaning": "A short notice gives 0500, dismantling and setup, followed by the literal location-like token NAGQBESCEREK. That spelling is not replaced with a modern place-name identity.",
+      "case_path": "cases/radio/nov4_eilvese_and_setup.md",
+      "editorial_question_punctuation_after": []
+    },
+    {
+      "id": "p147_A",
+      "printed_page": 147,
+      "source_section": "A",
+      "source_rows": [
+        "AVXFA VXGXD ADAGD FAVAG XGFAF FGXAF GAGVG FDDAD",
+        "FAAXA VAGVX FAFFF VFADF FFADV GFAXV XFFGA XAAFF",
+        "FAXVX VXAGV AXAVA GADXF ADAVF DXAVX DAFXX AXADX",
+        "XVDAX DXAXV FDXGG XGXAX AXDAA VVGAG XGVVX AVVXF",
+        "VGVGV AAVFX GDVAF XGGDX VVVAX DFAXX AXGXA ADXFX",
+        "XFDFX FDVXX AVVFA VFVGD AXAGG AVGXA AAXXF FFGFF",
+        "VGXFX AGFVG XAGD"
+      ],
+      "source_slots": 254,
+      "advertised_length": 254,
+      "expected_raw": "BEVOLLMAECHTIGTERSCHIFFAHRTSBEBUFTRAGTERXKONSTANTINOPELXXBOOTXROEMXQ5XUNTERALLENUMSTAENDENZUVERKAUFENSUCHENXMOTORBOOTVORPSX6235",
+      "readable_candidate": "BEVOLLMAECHTIGTERSCHIFFAHRTSBEAUFTRAGTERXKONSTANTINOPELXXBOOTXROEMXQ5XUNTERALLENUMSTAENDENZUVERKAUFENSUCHENXMOTORBOOTKORPSX6235",
+      "readable_german": "Bevollmaechtigter Schiffahrtsbeauftragter Konstantinopel. Boot ROEM Q5 unter allen Umstaenden zu verkaufen suchen. Motorbootkorps 6235.",
+      "meaning": "The instruction asks the shipping representative in Constantinople to try to sell the boat designated by the literal ROEM Q5 under all circumstances. The Motorbootkorps reference is 6235. A sale is requested, not reported as completed.",
+      "case_path": "cases/naval/motorboat_sale_attempt.md",
+      "editorial_question_punctuation_after": []
+    },
+    {
+      "id": "p123_B",
+      "printed_page": 123,
+      "source_section": "B",
+      "source_rows": [
+        "DDFXD DAXXX GFXXA VAVFF XXGGF FXGGG XVAGX XXDFD",
+        "XAVFF FVFDG XAFAF FGFFD ADXDA DFAFV AAFXX GFAXD",
+        "XFDFA GXVFX DXAXA VFVDF AFXGD GVGVA FDFVA -----",
+        "VGFAF GXAFA VXVGF FXGVD XGVAD AGDFA XAVFX DAFGG",
+        "XXFAA FDFAX XFGVA XDVGG FXAFD GAFAV FGXXA -----",
+        "GXAVD GFDFF DVAAD VAFAD FAVDF AXXXD DAVGV FDVAX",
+        "GFFXD AAVAX ADDXF AAXXV XFVXF XAVDX GFVFX DFVAF",
+        "VAFGA DVAFG FAFXV AVXXX XXVXV DFVVD AAXXV AVAXF",
+        "AAAGD FGXAA VFAXF XVFGV"
+      ],
+      "source_slots": 340,
+      "advertised_length": 340,
+      "expected_raw": "ANSCHLIESSENDXTELEGRAMMXROEMISCHX3XDX8511XVOM027XOKTOAERXISTXAUSREISEXDIREKTORSXT4SCHASCHELXUNOERXJETZIGENXVERHMEL4NISSENXRWTRAM?DR?HTAN?WOR?XAUS?AE?TIGX?OEM?SCHX?XD?8698",
+      "readable_candidate": "ANSCHLIESSENDXTELEGRAMMXROEMISCHX3XDX8511XVOM027XOKTOBERXISTXAUSREISEXDIREKTORSXT4SCHASCHELXUNTERXJETZIGENXVERHAELTNISSENXRATSAMXDRAHTANTWORTXAUSWAERTIGXROEMISCHX?XD?8698",
+      "optional_named_candidate": "ANSCHLIESSENDXTELEGRAMMXROEMISCHX3XDX8511XVOM027XOKTOBERXISTXAUSREISEXDIREKTORSXTISCHASCHELXUNTERXJETZIGENXVERHAELTNISSENXRATSAMXDRAHTANTWORTXAUSWAERTIGXROEMISCHX?XD?8698",
+      "readable_german": "Anschliessend Telegramm roemisch 3 D 8511 vom 027 Oktober: ist Ausreise Direktors T4SCHASCHEL unter jetzigen Verhaeltnissen ratsam? Drahtantwort. Auswaertig, roemisch ? D?8698.",
+      "meaning": "The message follows up an earlier telegram and asks whether the director should travel under current conditions, requesting a wired reply. The baseline surname-like token and date field remain literal; the closing reference has two unresolved positions.",
+      "case_path": "cases/people/director_departure_query.md",
+      "editorial_question_punctuation_after": [
+        "ratsam"
+      ]
+    }
+  ],
+  "headers": {
+    "p120_A": [
+      "4th NOVEMBER, 1918.",
+      "A) OSM v OUI (11.16 p.m., November 4th)",
+      "1950 (4)",
+      "RICHI-236"
+    ],
+    "p120_C": [
+      "C) UKS v ZON (2.10 a.m., November 5th)",
+      "2332 (4)",
+      "RIZI-56"
+    ],
+    "p123_B": [
+      "B) NKJ v LP (04.50 p.m., November 4th)",
+      "FUER UKS 1550 (4.11) OBERKOMMANDO BESATZUNGSHEERES VERWALTUNGSSTAB BUKERAST",
+      "RICHI-340"
+    ],
+    "p147_A": [
+      "6th NOVEMBER, 1918.",
+      "A) YZ v LP (08.10 a.m., November 7th)",
+      "1637 (6/11)",
+      "RICHI-254"
+    ]
+  },
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "2ea1dcb36a9c2f780ab4c5ab5612aa86ebaa531f97a1cd157db4f6311efcd339"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "literal_glyph_notes": [
+    "p120 A row5 sixth group has six spatial glyph slots XXF[overprinted glyph]VA. The overprinted fourth glyph is conservatively transcribed as T, masked as outside ADFGVX, and conditionally excluded at source index188. Its appearance may be a cancellation, but that intention is not proved.",
+    "p120 C row2 second group is source-visible VFVFX, not the lower-resolution VFTFX draft. There is no source mask or historical fill in that record.",
+    "p147 A produces the literal boat identifier Q5. The earlier OCR candidate35 is not silently substituted.",
+    "p123 B has two complete printed five-dash groups. The closing LP is a clear annotation outside its340 ciphertext slots."
+  ],
+  "limits": [
+    "No key modification or historical numeral relabeling. A compatible edited stream does not prove every lexical proposal.",
+    "p120 A WEITERES is a three-letter editorial restoration of raw HELTERTS, not independently authenticated by another copy. The question about embassy reception is not evidence that reception succeeded.",
+    "p120 C locality string NAGQBESCEREK stays literal and is not forced to a modern place-name spelling.",
+    "p147 A literal ROEM Q5 and reference6235 are retained. The message instructs an attempted sale, not a completed sale.",
+    "p123 B keeps T4SCHASCHEL in the baseline edited stream and027 in the date field. The separate optional TISCHASCHEL proposal costs two additional coordinate substitutions and supplies no independent identity. The closing ROEMISCH ? D?8698 retains two unresolved positions."
+  ]
+}

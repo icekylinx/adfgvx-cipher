@@ -2,7 +2,7 @@
 """Bind reviewed live Markdown quotations to their exact decoded labels.
 
 This checks presentation, not source authenticity or historical uniqueness.
-Only the explicitly reviewed passages may discard X as a display separator.
+Only explicitly reviewed separator occurrences may be omitted from a display.
 Prepared by icekylinx and GPT-6 Astra Pro. Apache-2.0.
 """
 from pathlib import Path
@@ -40,10 +40,14 @@ def displays(text):
     return streams, quotes
 
 
-def normalized(quote, allowed_brackets):
+def normalized(quote, allowed_brackets, question_punctuation=()):
     # Every removed editorial insertion is explicitly listed in the manifest.
     found = re.findall(r'\[[^\[\]]*\]', quote)
     assert found == allowed_brackets, ('unreviewed display insertions', found)
+    for context in question_punctuation:
+        assert context.endswith('?') and context.count('?') == 1
+        assert quote.count(context) == 1, ('question-punctuation context changed', context)
+        quote = quote.replace(context, context[:-1])
     value = re.sub(r'\[[^\[\]]*\]', '', quote).upper()
     for old, new in (('Ä', 'AE'), ('Ö', 'OE'), ('Ü', 'UE'), ('ẞ', 'SS')):
         value = value.replace(old, new)
@@ -70,9 +74,14 @@ def verify(manifest):
         assert quote_caption == row['quote_caption'], (row['id'], 'readable qualification changed')
         assert '**Readable German' in quote_caption
         assert stream_caption.startswith('**' + row['layer'])
-        labels = normalized(quote, row['display_only_insertions'])
+        labels = normalized(quote, row['display_only_insertions'], row.get('question_punctuation', ()))
         # Ordered equality protects every number, name, repeated label and '?'.
-        source_positions = [i for i, char in enumerate(stream) if char != 'X']
+        separator = row.get('separator_label', 'X')
+        retained = row.get('retained_separator_positions', [])
+        assert len(set(retained)) == len(retained) and all(stream[i] == separator for i in retained)
+        source_positions = [i for i, char in enumerate(stream) if char != separator or i in retained]
+        for field in row.get('protected_fields', []):
+            assert field in stream and field in quote, (row['id'], 'protected literal field changed')
         assert labels == ''.join(stream[i] for i in source_positions), (row['id'], 'readable labels differ')
         assert len(labels) == row['mapped_positions'] and labels.count('?') == row['unresolved_positions']
         total += len(labels)

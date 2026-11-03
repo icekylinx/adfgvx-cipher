@@ -4,11 +4,21 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [pp. 75–99 →](../075-099/README.md)
 
-**1 challenge entry and 36 other reviewed source records across 16 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**1 challenge entry and 40 other reviewed source records across 18 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
-Jump to page: [p58](#p58) · [p59](#p59) · [p60](#p60) · [p62](#p62) · [p63](#p63) · [p64](#p64) · [p65](#p65) · [p66](#p66) · [p67](#p67) · [p68](#p68) · [p69](#p69) · [p70](#p70) · [p71](#p71) · [p72](#p72) · [p73](#p73) · [p74](#p74).
+Jump to page: [p57](#p57) · [p58](#p58) · [p59](#p59) · [p60](#p60) · [p61](#p61) · [p62](#p62) · [p63](#p63) · [p64](#p64) · [p65](#p65) · [p66](#p66) · [p67](#p67) · [p68](#p68) · [p69](#p69) · [p70](#p70) · [p71](#p71) · [p72](#p72) · [p73](#p73) · [p74](#p74).
 
 Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's exact status and credit; the linked case explains the reading and its qualifications.
+
+## p57
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p57 A1](../../radio/september_tiflis_radio_routing.md#p57-a1) | Direct blind-transmission instruction for messages to Tiflis | Native 226 coordinates; 112/113 raw positions; 1 substitution and 1 printed-mask fill | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; prior OCR screens retained |
+| [p57 A2](../../radio/september_tiflis_radio_routing.md#p57-a2) | NKJ/ASO signal strengths and importance of rapid forwarding | Native 220 coordinates; 109/110 raw positions; 1 substitution and 1 printed-mask fill | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; prior OCR screens retained |
+| [p57 A3](../../radio/september_tiflis_radio_routing.md#p57-a3) | Announce COS traffic in advance; source annotation supports ANKUENDIGEN | Native 176 coordinates; 88/88 raw positions; 1 substitution and 0 printed-mask fills; source annotation supports repair | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; prior OCR screens retained |
 
 ## p58
 
@@ -37,6 +47,14 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p60 A1](../../radio/september_radio_procedure.md) | Daily listening times referenced by repeated numerical fields | 86/88 raw positions; two erasure fills supply the final Ns; 22552255, 14X14X9 and RIZI286 retained literally | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
 | [p60 A2](../../radio/september_radio_procedure.md) | Calls at the beginning of every listening period, even without traffic | 77/77 raw positions; exact reading with no repair or fill; repeated NKJ signature retained | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
 | [p60 B](../../radio/september_radio_procedure.md) | Continuous radiograms during reception of the Nauen press; acknowledgment afterward | 112/113 raw positions; three coordinate substitutions and two conservative erasure fills; possible F glyph variant kept separate | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
+
+## p61
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p61 A](../../radio/september_key_destruction_order.md#p61-a) | Key-destruction instruction; first 77?77 label remains unresolved | Native 176 coordinates; 80/88 raw positions; 7 substitutions and 7 printed-mask fills; 1 key-label position unresolved; optional repetition fill separate | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; prior OCR screens retained |
 
 ## p62
 

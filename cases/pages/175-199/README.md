@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 150–174](../150-174/README.md) · [pp. 200–224 →](../200-224/README.md)
 
-**6 challenge entries and 71 other reviewed source records across 23 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**6 challenge entries and 76 other reviewed source records across 23 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p175](#p175) · [p176](#p176) · [p177](#p177) · [p178](#p178) · [p179](#p179) · [p180](#p180) · [p181](#p181) · [p184](#p184) · [p185](#p185) · [p186](#p186) · [p187](#p187) · [p188](#p188) · [p189](#p189) · [p190](#p190) · [p191](#p191) · [p192](#p192) · [p193](#p193) · [p194](#p194) · [p195](#p195) · [p196](#p196) · [p197](#p197) · [p198](#p198) · [p199](#p199).
 
@@ -82,6 +82,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p180 A3](../../military/p180_A.md) | Enemy follows withdrawal near Giurgiu; Braila and Focsani evacuated | 77/78 raw positions; nine substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
+| [p180 E](../../military/namur_cassel_armistice_requests.md#p180-e) | Bauman readiness and Cassel transport | Native 224-slot frame; 3 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 
 ## p181
 
@@ -90,6 +91,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p181 A](../../military/mackensen_warsaw.md) | Warsaw Soldiers Council asks about Mackensens advance | Prior query interpretation; later quote supplies one source erasure | Lasry, Niebel, Kopal and Wacker; source comparison: icekylinx and GPT-6 Astra Pro (2026) |
+| [p181 B](../../military/namur_cassel_armistice_requests.md#p181-b) | Repeated request for local armistice conditions | Native 234-slot frame; 3 observed-coordinate substitutions and 1 source-mask fill; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 
 ## p184
 
@@ -121,6 +123,9 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p186 A1](../../context/p186.md#part-1--richi-170) | Monitor Russian and Polish army traffic | Earlier reading; three explicit erasure fills | Lasry team and Norbert (2017); review: icekylinx and GPT-6 Astra Pro |
 | [p186 A2](../../context/p186.md#part-2--richi-174) | Encrypted reporting and teleprinter failure | 80/87 conservative raw positions; ending unresolved | Lasry team and Norbert (2017); review: icekylinx and GPT-6 Astra Pro |
+| [p186 B1](../../military/oberost_troop_movement_obliterations.md#p186-b1) | Ober Ost troop-movement proposal, conditional obliteration exclusion | Conditional 308-slot frame: exclude ten modeled masks in two obliterated group columns; one observed substitution and two source-mask fills; literal reference retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p186 B2](../../military/home_departures_baltic_transport.md#p186-b2) | Soldiers wishing to travel home without authorization | Native 242-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p186 C1](../../military/home_departures_baltic_transport.md#p186-c1) | Baltic transport uncertainty and Graf Goltz preparations | Native 182-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 
 ## p187
 

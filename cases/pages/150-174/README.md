@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 125–149](../125-149/README.md) · [pp. 175–199 →](../175-199/README.md)
 
-**8 challenge entries and 84 other reviewed source records across 24 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**8 challenge entries and 94 other reviewed source records across 24 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p150](#p150) · [p151](#p151) · [p152](#p152) · [p153](#p153) · [p155](#p155) · [p156](#p156) · [p157](#p157) · [p158](#p158) · [p159](#p159) · [p160](#p160) · [p161](#p161) · [p162](#p162) · [p163](#p163) · [p164](#p164) · [p165](#p165) · [p166](#p166) · [p167](#p167) · [p168](#p168) · [p169](#p169) · [p170](#p170) · [p171](#p171) · [p172](#p172) · [p173](#p173) · [p174](#p174).
 
@@ -73,6 +73,10 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p155 A1](../../context/p155.md) | Asgard arrival at Poti and troop pickup | 84/85 raw positions; source glyph remains erased | icekylinx and GPT-6 Astra Pro (2026) |
 | [p155 A2](../../context/p155.md) | Asgard/Tresivolus shipping continuation | Conditional single-coordinate loss repair | icekylinx and GPT-6 Astra Pro (2026) |
+| [p155 B](../../people/schorlemer_demobilization_inquiry.md#p155-b) | Von Schorlemer cannot currently be released from the administrative staff | Native 160-slot frame; 3 observed-coordinate substitutions and 4 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p155 C1](../../radio/nov7_eighth_part_repetition.md#p155-c1) | Cannot decipher eighth part addressed to Sektion Politik Berlin | Conditional one-coordinate exclusion; all six overlong-group choices retained; two source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; earlier OCR candidates retained |
+| [p155 C2](../../radio/nov7_eighth_part_repetition.md#p155-c2) | Request checking and retransmission of the eighth part | Native 136-slot frame; no repairs; reference unknowns coupled to C1 date | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; earlier OCR candidates retained |
+| [p155 D](../../military/nov7_derailment_and_trains.md#p155-d) | Morning report: derailed freight train and both tracks blocked | Native 316-slot frame; 3 observed-coordinate substitutions and 5 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 
 ## p156
 
@@ -88,6 +92,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p157 A1](../../military/armistice_departure_copy.md#p157-a1) | Copy-conditioned armistice-departure report fragment | 0/95 fixed raw positions; 83 visible slots; conditional 190-slot copy reconstruction: 5 substitutions, 5 printed-mask fills, 107 absent-coordinate fills; opaque closing retained | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; explicit p151 copy and gap assumptions |
 | [p157 A2](../../military/romanian_pacification_consultation.md#p157-a2) | Romanian government considering a military pacification action | Native 200-coordinate frame; literal numeric labels and missing-letter spellings retained | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 partial key and earlier body candidates retained |
 | [p157 A3](../../military/romanian_pacification_consultation.md#p157-a3) | Request for plenipotentiary general to discuss the matter at BUKARST | Native 218-coordinate frame; literal numeric labels and missing-letter spellings retained | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 partial key and earlier body candidates retained |
 | [p157 A4](../../military/romanian_pacification_consultation.md#p157-a4) | Armistice agreements determine O.K.M. position | Native 210-coordinate frame; literal numeric labels and missing-letter spellings retained | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 partial key and earlier body candidates retained |
@@ -233,6 +238,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p169 A](../../radio/seifert.md) | Repeated station-control report | Conditional one-coordinate deletion; clearer p168 witness | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p169 B](../../military/nov7_derailment_and_trains.md#p169-b) | Forward station and construction trains to Group Winterfeld | Native 224-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 
 ## p170
 
@@ -275,6 +281,10 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p172 A](../../radio/seifert.md) | Records destroyed; cipher keys still in personal custody | 67/68 positions; one supported erasure fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p172 B](../../radio/seifert.md) | Immediate radio-listening instruction | Identical to p174 D; hundreds digit remains 5-9 | icekylinx and GPT-6 Astra Pro (2026) |
+| [p172 C1](../../military/namur_cassel_armistice_requests.md#p172-c1) | Namur arrival report naming Major Kroeger, first part | Native 116-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p172 C3](../../military/namur_cassel_armistice_requests.md#p172-c3) | Mannstaedt requests a reply, third part | Native 84-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p172 D1](../../finance/staatsbank_accounting_cheques.md#p172-d1) | State-bank accounting inquiry, first part with one missing coordinate | Conditional 198-slot frame from 197 received slots: one inserted coordinate; two observed substitutions, three source-mask fills and one inserted-slot fill; two equal insertion positions retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p172 D2](../../finance/staatsbank_accounting_cheques.md#p172-d2) | Treasury payment period and arrival of dispatched cheques | Native 204-slot frame; 3 observed-coordinate substitutions and 4 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 | [p172 E](../../people/namur_order_witnesses.md) | Namur order for Staedt to contact HPT V. Weiher; complementary source witness | 242 received slots plus 10 modeled missing prefix coordinates; five substitutions and ten witnessed prefix fills; same 126-position body as p171 C | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. key and earlier unreviewed C candidate retained; neighboring published body attribution distinguished |
 
 ## p173

@@ -150,9 +150,7 @@ needs no repair:
 ANUNDDRANGENNACHHEFTIGENANSCHEINENDSCHWERENKAEMPFENINDIESTELLUNGENEINTEILEDERTUERKENDIEZUENTKOMMENVERSUCHTENWURDENANGEBLICHDURCHBRITISCHEKAVALLERIEABGESCHNITTENXABTFREMDEHEERE
 ```
 
-With editorial spacing, continuing A5:
-
-**Readable German:**
+**Readable German — continuation of A5; the leading ellipsis does not mark a missing position in A6:**
 
 > … an und drangen nach heftigen, anscheinend schweren Kämpfen in die Stellungen ein. Teile der Türken, die zu entkommen versuchten, wurden angeblich durch britische Kavallerie abgeschnitten. Abt. Fremde Heere.
 

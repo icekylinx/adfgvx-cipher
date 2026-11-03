@@ -1,0 +1,165 @@
+{
+  "schema": "adfgvx-warsaw-station-missing-row-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 204,
+    "pdf_page_1based": 207,
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p204_C.png",
+      "pdf_page_1based": 207,
+      "crop_pdf_points": [
+        60,
+        355,
+        530,
+        590
+      ],
+      "render_scale": 3,
+      "sha256": "81e919c3b6049e8a99cd9af8dc304326353916378eb71e3fa02087dc614fbe9b",
+      "width": 1410,
+      "height": 705,
+      "channels": 3,
+      "rgb_sha256": "d88a51041db5f3f4edf2988edcee85f36048e6fd90eee27174418a7580ae2308"
+    }
+  ],
+  "key": {
+    "id": "Nov16-18",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      12,
+      1,
+      14,
+      8,
+      16,
+      13,
+      9,
+      19,
+      3,
+      15,
+      4,
+      10,
+      18,
+      6,
+      2,
+      11,
+      17,
+      5
+    ],
+    "column_count": 19,
+    "square": "WG?EITNHUB2R??FDZJS???PY?VQL?1OAXMKC",
+    "square_rows": [
+      "WG?EIT",
+      "NHUB2R",
+      "??FDZJ",
+      "S???PY",
+      "?VQL?1",
+      "OAXMKC"
+    ],
+    "known_cell_count": 28,
+    "missing_plaintext_symbols": "03456789",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 11,
+        "author": "George Lasry",
+        "date": "2017-02-27"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 243,
+        "pdf_page_1based": 246,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "The historical appendix and Lasry also label this table December 7-9.",
+      "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+    ],
+    "baseline_square": "WG+EITNHUB2R++FDZJS+++PY+VQL+1OAXMKC",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key",
+    "documented_reuse": "7-9 December, per Childs appendix page 243 and NSA summary pages 41-42."
+  },
+  "source_rows": [
+    "XAAFA GDGXG DAFAX XAFDA XGXGX AXVXF VXXXF DDAGG",
+    "GDAAA XXAAG DGDGX GDGGD DVDFF FDAXA ADFAA XFDDV",
+    "AGFXA AFXXF FDAFF AGAAX VXGDG DAAGA AXAGD XAAXA",
+    "AXXXF XADXG XGFDD DFADA DGDFD AAADX GAFXD DAGFA",
+    "XXVGG AXFAG AXVDG DXADG AAAXD XXAAG AFDDD DDGGG",
+    "ADAFA FGDXG XDAFA GAAAA DGXAA GXAAG DDDFX XXXDA",
+    "GX"
+  ],
+  "source_slots": 242,
+  "advertised_length": 282,
+  "header_literal": "C) KOW v WAU (1.50 a.m., November 18th); 0115 (17), 2 TLE; 2 TL RICHI-282",
+  "literal_tail": "GX",
+  "primary_model": {
+    "missing_coordinates": 40,
+    "source_insertion_index": 240,
+    "description": "Insert eight missing five-coordinate groups immediately before the two-coordinate terminal group GX. This is a source-length/layout hypothesis, not an observed blank row or an authenticated loss position."
+  },
+  "editorial_template": "DASNICHTAUSHEIMATEINGETROFFENXNO?AWAUXFESTFERNXFESTFUNKAUEBERGEBENBETRIEBMONTAGABENDPOLENXSXRXWAUUEBERWEISTMANNSCHAFTENBEZKDOSX?ES?K?NACH?A?X",
+  "primary_edited_output": "DASNICHTAUSHEIMATEINGETROFFENXNO?AWAUXFESTFERNXFESTFUNKAUEBERGEBENBETRIEBMONTAGABENDPOLENXSXRXWAUUEBERWEISTMANNSCHAFTENBEZKDOSXDES?K?NACHOA?X",
+  "readable_german": "Das nicht aus Heimat eingetroffen. NO?A WAU. Festfern, Festfunk A uebergeben Betrieb Montag Abend Polen. S. R. WAU ueberweist Mannschaften Bezkdos des ?K? nach OA?.",
+  "meaning": "The preceding part ends with equipment; this continuation says it has not arrived from home. Under the stated lost-row hypothesis, the facilities designated FESTFERN and FESTFUNK A hand operation to the Poles on Monday evening, and S. R. WAU transfers personnel to the abbreviated Bezkdos. The opening token, final unit and destination are not identified.",
+  "expected_zero_change_gap_starts": [
+    240,
+    241,
+    242
+  ],
+  "prior_artifacts": {
+    "ocr_snapshot.json": "c694dd0446f5f1498c457c1498f881f0e7faef265511ad7cd6574ea89b686230",
+    "prior_candidates.json": "992a8f138d21569c35b59aa85055ca9f2ecd6e3f5b4a18176243b40bd6660715"
+  },
+  "context": {
+    "preceding_part": "cases/radio/nov16_18_command_inquiries.md#p204-c1",
+    "separate_message": "cases/radio/p204_A.md",
+    "limit": "The preceding printed part supplies sentence context. The separate p204 A telegram independently describes a Monday handover to the Poles. Neither supplies the missing ciphertext or proves this exact lost-row placement."
+  },
+  "limits": [
+    "The native 242-slot decryption is retained and remains unreadable; it is not replaced by the longer conditional frame.",
+    "All 242 observed coordinates are preserved unchanged in every zero-change witness. The 40 inserted slots and their proposed fills are separate from source-mask fills.",
+    "Compatibility of a word proposal is not proof of historical wording or a unique loss location. The gap scan is conditioned on the displayed editorial template.",
+    "A, NO?A, DES?K? and OA? retain the inconvenient received or unresolved labels; they are not silently repaired into fluent German.",
+    "The published square is unchanged. Full square/loss completions below are explicitly nonhistorical consistency witnesses."
+  ],
+  "prior_credit": "Published Nov16–18 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016); George Lasry (2017 key list). Earlier unreviewed OCR candidates are preserved. New source review and conditional reconstruction: icekylinx and GPT-6 Astra Pro.",
+  "source_record": "p204_C2",
+  "case": "cases/radio/warsaw_station_missing_row.md"
+}

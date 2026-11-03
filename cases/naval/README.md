@@ -4,7 +4,7 @@
 
 Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and naval orders are collected here.
 
-**35 reviewed physical records across 11 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**36 reviewed physical records across 12 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -13,6 +13,7 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [p84 A/B — Release of oil and Black Sea shipping safety](p84_AB.md) | p84 A, p84 B |
 | [p89_A2 — supplementary source review](../supplementary/p89_A2.md) | p89 A2 |
 | [p120 / p123 - Three-part instruction to Feigenhaus](p120_p123.md) | p120 B1, p122 D suffix, p123 A2, p123 A3 |
+| [Constantinople: instruction to attempt a motorboat sale](motorboat_sale_attempt.md) | p147 A |
 | [p155: the Kress-route shipping message](../context/p155.md) | p155 A1, p155 A2 |
 | [Corcovado: sale terms, Turkish crew and a conditional office number](corcovado_sale_terms.md) | p165 A1, p165 A2, p165 A3, p165 A5, p173 A1, p173 A2 |
 | [German tonnage and proposed ship sales to Turkey](turkish_tonnage.md) | p177 B1, p177 B2, p177 B3 |
@@ -33,6 +34,7 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [p122 D suffix](p120_p123.md) | Repeat of the Feigenhaus instruction, part 1 | Exact 164-coordinate suffix; not a separate complete message | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p123 A2](p120_p123.md) | Responsibility for further Notschreie declined | 97/116 raw positions; explicit conditional completion | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p123 A3](p120_p123.md) | Follow instructions; report plans after political change | One-coordinate deletion; two further substitutions | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p147 A](motorboat_sale_attempt.md#p147-a) | Try to sell the motorboat designated ROEM Q5 | 127/127 raw positions; 2 substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed body candidates retained |
 | [p155 A1](../context/p155.md) | Asgard arrival at Poti and troop pickup | 84/85 raw positions; source glyph remains erased | icekylinx and GPT-6 Astra Pro (2026) |
 | [p155 A2](../context/p155.md) | Asgard/Tresivolus shipping continuation | Conditional single-coordinate loss repair | icekylinx and GPT-6 Astra Pro (2026) |
 | [p165 A1](corcovado_sale_terms.md) | Proposed Corcovado sale for Hamburg-Amerika Line; directly observed 10 million hull price | 190/190 raw; two observed-coordinate repairs; currency unstated | icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately |

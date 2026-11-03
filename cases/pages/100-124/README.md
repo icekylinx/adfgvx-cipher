@@ -4,9 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 75–99](../075-099/README.md) · [pp. 125–149 →](../125-149/README.md)
 
-**3 challenge entries and 62 other reviewed source records across 22 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**3 challenge entries and 79 other reviewed source records across 24 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
-Jump to page: [p100](#p100) · [p101](#p101) · [p102](#p102) · [p103](#p103) · [p104](#p104) · [p105](#p105) · [p106](#p106) · [p107](#p107) · [p108](#p108) · [p109](#p109) · [p110](#p110) · [p111](#p111) · [p112](#p112) · [p113](#p113) · [p114](#p114) · [p115](#p115) · [p116](#p116) · [p117](#p117) · [p120](#p120) · [p122](#p122) · [p123](#p123) · [p124](#p124).
+Jump to page: [p100](#p100) · [p101](#p101) · [p102](#p102) · [p103](#p103) · [p104](#p104) · [p105](#p105) · [p106](#p106) · [p107](#p107) · [p108](#p108) · [p109](#p109) · [p110](#p110) · [p111](#p111) · [p112](#p112) · [p113](#p113) · [p114](#p114) · [p115](#p115) · [p116](#p116) · [p117](#p117) · [p118](#p118) · [p120](#p120) · [p121](#p121) · [p122](#p122) · [p123](#p123) · [p124](#p124).
 
 Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's exact status and credit; the linked case explains the reading and its qualifications.
 
@@ -66,8 +66,12 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p104 A3](../../radio/nov2_telegram_acknowledgments.md#p104-a3) | Third-part radio acknowledgment instruction; near-copy reference 104359 preserved | 74/74 raw positions under stated frame; 0 substitutions; 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
+| [p104 B](../../radio/nov2_uks_connection.md#p104-b) | UKS connection good; relay via literal NSM unnecessary | 50/51 raw positions under stated frame; 1 substitution; 1 source-mask fill | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
 | [p104 C1](../../people/medical_return_to_unit.md) | Conditional medical-return report opening; visible short GAGA group and three equal-A positions | 227 source slots against 228; conditional 113/114 raw labels; 3 substitutions and 1 missing transmitted A; all 3 arithmetic minima retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p104 C2](../../people/medical_return_to_unit.md) | Return to replacement unit for recovery; literal RETTERL/KETTERL closing retained | 70/70 raw labels; 1 word repair; MARSH and both name tokens retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+| [p104 D](../../people/meier_berlin_order.md#p104-d) | Batum lieutenant ordered to Berlin; one missing A restores the full order | 149 source slots; conditional 150-slot frame; one inserted A and zero substitutions; two equivalent gap alignments | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
+| [p104 E3](../../people/sevastopol_transfer_consent.md#p104-e3) | Reserve Jaeger battalion commander consents to transfer; unit field unknown | 68/70 raw positions under stated frame; 2 substitutions; one source fill; one unit position remains unknown | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
 
 ## p105
 
@@ -77,12 +81,20 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p105](../../p105.md) | Naval telegram acknowledgments | Prior body reading; source audit | Norbert (2017) |
 
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p105 C1](../../radio/nov2_telegram_acknowledgments.md#p105-c1) | First of three acknowledgment instructions addressed to Mackensen | 119/119 raw positions under stated frame; 0 substitutions; 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
+
 ## p106
 
 ### Other reviewed source records
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p106 A2](../../radio/nov2_telegram_acknowledgments.md#p106-a2) | Radio acknowledgment and second instruction for AOK 11 | 125/125 raw positions under stated frame; 0 substitutions; 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
+| [p106 A3](../../radio/nov2_telegram_acknowledgments.md#p106-a3) | Third acknowledgment part; literal reference 104659 preserved | 74/74 raw positions under stated frame; 0 substitutions; 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
 | [p106 B](../../finance/zitag_purchase_orders.md#p106-b) | ZITAG instruction to stop buying and loading | Source-checked cross-copy reading; all candidate coordinates independently witnessed | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
 
 ## p107
@@ -204,13 +216,33 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p117 C4](../../military/nov3_withdrawal_and_night_report.md#p117-c4) | Conditional continuation: army march into Romania | 56/56 fixed raw positions; 0 coordinate substitutions, 0 source-mask fills; conditional five-observed-coordinate exclusion, seven contiguous and fourteen arbitrary minimum layouts | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier unreviewed OCR candidates credited separately |
 | [p117 D](../../military/nov3_withdrawal_and_night_report.md#p117-d) | Night report: quiet night, sender unknown | 34/34 fixed raw positions; 1 coordinate substitutions, 0 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier unreviewed OCR candidates credited separately |
 
+## p118
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p118 A2](../../military/mackensen_withdrawal_part2.md#p118-a2) | Separately received second part of Mackensen withdrawal report | 377 source coordinates; conditional one-slot insertion; 13 substitutions and 1 inserted fill; literal place labels retained | Childs historical decipherment; Lasry–Niebel–Kopal–Wacker published reconstruction/key; icekylinx and GPT-6 Astra Pro source edition (2026) |
+
 ## p120
 
 ### Other reviewed source records
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p120 A](../../radio/nov4_eilvese_and_setup.md#p120-a) | Military-attache query about embassy reception of Eilvese | 237 source slots; conditional exclusion of 1 masked overprint; 7 substitutions and 1 printed-mask fill | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed body candidates retained |
 | [p120 B1](../../naval/p120_p123.md) | Instruction to Feigenhaus; contact with Herkules | 197/197 raw positions; one word repair | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p120 C](../../radio/nov4_eilvese_and_setup.md#p120-c) | Dismantling/setup notice; literal NAGQBESCEREK retained | 28/28 raw positions; 1 substitution and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed body candidates retained |
+
+## p121
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p121 A1](../../radio/nov4_repetition_and_connections.md#p121-a1) | Kress reminded that the first telegram part must be repeated | 118/118 native raw positions; 5 coordinate substitutions and 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidate retained |
+| [p121 A2](../../radio/nov4_repetition_and_connections.md#p121-a2) | Parts 2 and 3 already deciphered; renewed request for part 1 | 117/118 native raw positions; 1 coordinate substitution and 1 source-mask fill; no frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidate retained |
+| [p121 B1](../../radio/nov4_repetition_and_connections.md#p121-b1) | Inquiry whether the Bucharest–Constanza link still operates | 131/131 native raw positions; 0 coordinate substitutions and 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidate retained |
 
 ## p122
 
@@ -218,6 +250,9 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p122 A2](../../radio/nov4_repetition_and_connections.md#p122-a2) | Continuation asking about Constanza cable and AOK 11 communications | 91/91 native raw positions; 1 coordinate substitution and 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidate retained |
+| [p122 B](../../people/schorlemer_demobilization_inquiry.md#p122-b) | Trade Minister asks whether von Schorlemer can join demobilization work | Native 252-slot frame; 5 observed-coordinate substitutions and 33 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p122 C](../../finance/cash_arrival_acknowledgment.md#p122-c) | Money transport reported to have arrived | 57/57 native raw positions; 0 coordinate substitutions and 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidate retained |
 | [p122 D suffix](../../naval/p120_p123.md) | Repeat of the Feigenhaus instruction, part 1 | Exact 164-coordinate suffix; not a separate complete message | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 
 ## p123
@@ -228,6 +263,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p123 A2](../../naval/p120_p123.md) | Responsibility for further Notschreie declined | 97/116 raw positions; explicit conditional completion | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p123 A3](../../naval/p120_p123.md) | Follow instructions; report plans after political change | One-coordinate deletion; two further substitutions | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p123 B](../../people/director_departure_query.md#p123-b) | Question whether a director should depart; name/reference uncertainty retained | 160/170 raw positions; 7 substitutions and 8 source-mask fills; 2 reference positions unresolved; optional name separately priced | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed body candidates retained |
 
 ## p124
 

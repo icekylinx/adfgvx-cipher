@@ -4,7 +4,7 @@
 
 Follow requests for funds, currency exchange and purchasing decisions. Individual editions keep raw amount labels and proposed numerical interpretations separate.
 
-**38 reviewed physical records across 15 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**41 reviewed physical records across 17 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -15,8 +15,10 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [Order to stop premium payments and inform subordinate offices](premium_payment_stop.md) | p78 A1, p78 A2 |
 | [DEUTZITAG: requesting details of purchase dispatches](deutzitag_dispatch_inquiries.md) | p80 A, p81 A, p81 C |
 | [ZITAG stop-orders and cancellation of procurement contracts](zitag_purchase_orders.md) | p102 A, p103 B1, p103 B2, p103 D, p106 B |
+| [Money-transport arrival acknowledgment](cash_arrival_acknowledgment.md) | p122 C |
 | [Meal allowances, communal provisioning and a refused supplement](military_allowances.md) | p129 B1, p133 A2, p133 A3, p134 A4 |
 | [Ruble prices and payments above par: companions to p171 A1](ruble_rate_companions.md) | p171 A2, p171 A3 |
+| [State-bank accounting request and dispatched cheques](staatsbank_accounting_cheques.md) | p172 D1, p172 D2 |
 | [Crown airlift to Kronstadt and Hermannstadt](crown_airlift.md) | p174 A1, p174 A2, p174 A3 |
 | [Payments through October and cheque acknowledgements](hauptwechselamt_accounting.md) | p175 B2 |
 | [The interrupted banknote instruction: a complete later witness](crown_banknote_completion.md) | p195 A2 |
@@ -44,12 +46,15 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [p103 B2](zitag_purchase_orders.md#p103-b2) | Cancel other contracts and request Westernhagen return | Three printed-erasure fills; no observed-coordinate substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
 | [p103 D](zitag_purchase_orders.md#p103-d) | ZITAG instruction to stop buying and loading | Source-checked cross-copy reading; all candidate coordinates independently witnessed | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
 | [p106 B](zitag_purchase_orders.md#p106-b) | ZITAG instruction to stop buying and loading | Source-checked cross-copy reading; all candidate coordinates independently witnessed | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
+| [p122 C](cash_arrival_acknowledgment.md#p122-c) | Money transport reported to have arrived | 57/57 native raw positions; 0 coordinate substitutions and 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidate retained |
 | [p129 B1](military_allowances.md#p129-b1) | Meal allowances judged excessive and Swedish rates rejected as a standard | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
 | [p133 A2](military_allowances.md#p133-a2) | Reduce cash allowances and use field-ration costs | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
 | [p133 A3](military_allowances.md#p133-a3) | Promote communal purchasing and German dining facilities | Direct complete243-letter reading; unchanged source ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
 | [p134 A4](military_allowances.md#p134-a4) | Requested cost-of-living supplement refused | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
 | [p171 A2](ruble_rate_companions.md) | Reported ruble prices in Kiev and Warsaw; companion to Norbert's A1 | Conditional 252-coordinate frame from 261 literal slots: two five-slot exclusions, one added unknown; six substitutions and four fills; two tied local gap placements | icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved |
 | [p171 A3](ruble_rate_companions.md) | Waller recommends paying above par for Bons if necessary | Exact 152 source slots; 74/76 raw to 76/76 with two printed-erasure fills; no observed-coordinate change; duplicated PARI retained | icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved |
+| [p172 D1](staatsbank_accounting_cheques.md#p172-d1) | State-bank accounting inquiry, first part with one missing coordinate | Conditional 198-slot frame from 197 received slots: one inserted coordinate; two observed substitutions, three source-mask fills and one inserted-slot fill; two equal insertion positions retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p172 D2](staatsbank_accounting_cheques.md#p172-d2) | Treasury payment period and arrival of dispatched cheques | Native 204-slot frame; 3 observed-coordinate substitutions and 4 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 | [p174 A1](crown_airlift.md#p174-a1) | Urgent daily crown airlift request | Direct reading; every observed coordinate retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
 | [p174 A2](crown_airlift.md#p174-a2) | One million crowns alternately to Kronstadt and Hermannstadt | Source-checked reading with one coordinate substitution and one printed-glyph fill | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
 | [p174 A3](crown_airlift.md#p174-a3) | Small-denomination banknotes in an interrupted airlift request | Explicit missing-tail model; 12 ordinary-word fills; three tied one-gap frames retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |

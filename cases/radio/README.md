@@ -4,14 +4,16 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**116 reviewed physical records across 45 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**151 reviewed physical records across 57 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
 | Case | Source records |
 |---|---|
+| [September: direct radio routing to Tiflis](september_tiflis_radio_routing.md) | p57 A1, p57 A2, p57 A3 |
 | [Nazareth evaluation office: request for news from the front](nazareth_front_inquiry.md) | p59 B |
 | [September radio listening and acknowledgment procedure](september_radio_procedure.md) | p60 A1, p60 A2, p60 B |
+| [September: a key-destruction instruction with a masked label](september_key_destruction_order.md) | p61 A |
 | [Damascus radio station and a smaller transmitter at Aleppo](damascus_aleppo_report.md) | p64 B |
 | [Late October radio service — calls, garbled traffic and network routing](late_october_radio_service.md) | p74 A, p74 B, p74 C1, p74 C2, p75 A3 |
 | [Tiflis: request to repeat an encrypted telegram](tiflis_repetition_request.md) | p77 A |
@@ -21,18 +23,24 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [Communication through Hungary — wireless routing, repetition and supplies](hungary_connection_and_supplies.md) | p97 A, p97 B, p97 C |
 | [November 1 contact times, service mail and receipt acknowledgment](nov1_contact_and_mail.md) | p99 A, p99 C1, p99 C2, p99 D |
 | [Radio contact, operating times and an unavailable key](radio_contacts_and_keys.md) | p100 C, p137 D, p142 A, p150 A2 |
+| [November 2: acknowledgment instructions and a conflicting copy](nov2_telegram_acknowledgments.md) | p104 A3, p105 C1, p106 A2, p106 A3 |
+| [UKS connection and an unnecessary relay](nov2_uks_connection.md) | p104 B |
 | [Naval inquiry: has the referenced SKL item arrived?](naval_arrival_inquiry.md) | p108 A |
 | [November 3 radio transmission schedule: surviving second part](nov3_transmission_schedule.md) | p110 A2 |
 | [p111 B — Use radio for important messages](p111_B.md) | p111 B |
 | [Telefunken inquiry about returning personnel](telefunken_staff_inquiry.md) | p112 B |
 | [Conditional Constantza station-shutdown notice](constantza_station_shutdown.md) | p112 C |
 | [Additional listening times on the Ringbahn radio circuit](nov3_ringbahn_notice.md) | p117 B |
+| [November 4: Eilvese reception and a setup notice](nov4_eilvese_and_setup.md) | p120 A, p120 C |
+| [November 4: repeated-part request and communications inquiry](nov4_repetition_and_connections.md) | p121 A1, p121 A2, p121 B1, p122 A2 |
 | [Request for replies and radio priority](telegram_priority.md) | p128 A1, p128 A2 |
 | [Radio service: Eilvese repetition and a garbled Caucasus message](p132_radio_service.md) | p132 A, p132 B, p132 C |
 | [“First half from the front, second half from the back”](opposite_end_deciphering.md) | p138 B |
 | [Kiel radio-control order — p140 A and p146 A](kiel_radio_control.md) | p140 A1, p140 A2, p140 A3, p140 A4, p146 A |
+| [November 6 Ringbahn-key instruction: a second three-part witness](nov6_ringbahn_key_witnesses.md) | p145 B1, p145 B2, p145 B3 |
 | [Constantinople addresses, signatures and receipt instructions](constantinople_address_parts.md) | p147 C1, p148 B1, p156 C1 |
 | [Munich couriers carrying radio operating documents](courier_munich.md) | p151 D2, p153 D2, p153 E1, p158 C2, p162 A1 |
+| [Request to repeat an unreadable eighth part](nov7_eighth_part_repetition.md) | p155 C1, p155 C2 |
 | [Sale of communication apparatus: p157 B1–B2](apparatus_sale_request.md) | p157 B1, p157 B2 |
 | [p158 — Composite routing and key instructions](../p158.md) | p159 B, p159 C, p168 C, p168 D |
 | [Radio apparatus sale and estimated value](radio_equipment_sale_prices.md) | p160 B1, p160 B2 |
@@ -51,19 +59,27 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [November 14 cross-key notices: an arriving pilot and a backup radio station](nov14_radio_retransmissions.md) | p190 A, p190 B, p190 D, p190 E, p193 A, p193 B, p194 B |
 | [Warsaw control markers and radio forwarding instructions](warsaw_service_messages.md) | p192 A, p192 B, p194 C, p194 E |
 | [Equipment and lorry orders — p197/p198 parallels](../context/transport_197_198.md) | p197 C, p197 D, p198 B, p198 E |
+| [Armistice acknowledgments, personnel and Warsaw radio inquiries](nov16_18_command_inquiries.md) | p202 A1, p202 A2, p203 A2, p203 B, p204 B, p204 C1, p204 D |
 | [p204 A — a radio-station handover and a conditional date digit](p204_A.md) | p204 A |
+| [Warsaw station report: a conditional missing-row continuation](warsaw_station_missing_row.md) | p204 C2 |
 | [p211, lower B — an explicit November/December key schedule](p211_key_schedule.md) | p211 B lower1, p211 B lower2, p211 B lower3 |
 | [Hermannstadt radio station and armistice instructions](hermannstadt_radio_report.md) | p216 A1, p216 A2, p216 A3, p216 A4 |
+| [Radio reception instructions and a brief no-events report](nov27_receiving_instructions.md) | p224 A1, p224 A2, p224 B |
 | [Late-November cipher and routing instructions — p225–228](late_november_cipher_instructions.md) | p225 A, p226 B2, p227 B, p228 C1, p228 C2 |
+| [Radio notices, Tiflis personnel and internment on p230](nov30_radio_personnel.md) | p230 B, p230 C, p230 D, p230 E |
 
 ## Reviewed source records
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p57 A1](september_tiflis_radio_routing.md#p57-a1) | Direct blind-transmission instruction for messages to Tiflis | Native 226 coordinates; 112/113 raw positions; 1 substitution and 1 printed-mask fill | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; prior OCR screens retained |
+| [p57 A2](september_tiflis_radio_routing.md#p57-a2) | NKJ/ASO signal strengths and importance of rapid forwarding | Native 220 coordinates; 109/110 raw positions; 1 substitution and 1 printed-mask fill | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; prior OCR screens retained |
+| [p57 A3](september_tiflis_radio_routing.md#p57-a3) | Announce COS traffic in advance; source annotation supports ANKUENDIGEN | Native 176 coordinates; 88/88 raw positions; 1 substitution and 0 printed-mask fills; source annotation supports repair | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; prior OCR screens retained |
 | [p59 B](nazareth_front_inquiry.md#p59-b) | Nazareth evaluation office asked for news from the fighting front | Native 172 slots; complete raw reading without any coordinate edit | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; earlier unreviewed repository body candidate |
 | [p60 A1](september_radio_procedure.md) | Daily listening times referenced by repeated numerical fields | 86/88 raw positions; two erasure fills supply the final Ns; 22552255, 14X14X9 and RIZI286 retained literally | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
 | [p60 A2](september_radio_procedure.md) | Calls at the beginning of every listening period, even without traffic | 77/77 raw positions; exact reading with no repair or fill; repeated NKJ signature retained | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
 | [p60 B](september_radio_procedure.md) | Continuous radiograms during reception of the Nauen press; acknowledgment afterward | 112/113 raw positions; three coordinate substitutions and two conservative erasure fills; possible F glyph variant kept separate | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
+| [p61 A](september_key_destruction_order.md#p61-a) | Key-destruction instruction; first 77?77 label remains unresolved | Native 176 coordinates; 80/88 raw positions; 7 substitutions and 7 printed-mask fills; 1 key-label position unresolved; optional repetition fill separate | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; prior OCR screens retained |
 | [p64 B](damascus_aleppo_report.md#p64-b) | Reported Damascus radio destruction and Aleppo transmitter | Native 176-slot source; one coordinate substitution; hour remains unresolved | icekylinx and GPT-6 Astra Pro (2026); published Oct4–6 key; earlier unreviewed repository body candidate |
 | [p74 A](late_october_radio_service.md#p74-a) | Daily calls from Deutsch-Altenburg, time 1120 and wave 5200 | 77/77 raw positions; 1 coordinate substitutions and 0 printed-dash fills | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
 | [p74 B](late_october_radio_service.md#p74-b) | Repeat parts two and three of a garbled CHI telegram | 85/85 raw positions; 0 coordinate substitutions and 0 printed-dash fills | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
@@ -87,12 +103,23 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p99 C2](nov1_contact_and_mail.md#p99-c2-collection-by-aircraft) | Collection of service mail by aircraft; literal reference 7011 | 46/51 raw; 51/51 after 5 source-mask fills; 0 observed substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior OCR candidates and Armin’s separate p100 body credit retained |
 | [p99 D](nov1_contact_and_mail.md#p99-d-acknowledgment-of-an-ohl-message) | Receipt acknowledgment to O.H.L.; literal reference 11127 and E.O.K. 11 | 50/50 native raw labels; unchanged source frame and plaintext | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior OCR candidates and Armin’s separate p100 body credit retained |
 | [p100 C](radio_contacts_and_keys.md#p100-c-direct-contact-while-the-wire-is-broken) | Ask when direct contact is possible; wire interrupted; raw BRSLAU/MEGLICH preserved | 79/79 fixed raw labels; 0 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+| [p104 A3](nov2_telegram_acknowledgments.md#p104-a3) | Third-part radio acknowledgment instruction; near-copy reference 104359 preserved | 74/74 raw positions under stated frame; 0 substitutions; 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
+| [p104 B](nov2_uks_connection.md#p104-b) | UKS connection good; relay via literal NSM unnecessary | 50/51 raw positions under stated frame; 1 substitution; 1 source-mask fill | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
+| [p105 C1](nov2_telegram_acknowledgments.md#p105-c1) | First of three acknowledgment instructions addressed to Mackensen | 119/119 raw positions under stated frame; 0 substitutions; 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
+| [p106 A2](nov2_telegram_acknowledgments.md#p106-a2) | Radio acknowledgment and second instruction for AOK 11 | 125/125 raw positions under stated frame; 0 substitutions; 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
+| [p106 A3](nov2_telegram_acknowledgments.md#p106-a3) | Third acknowledgment part; literal reference 104659 preserved | 74/74 raw positions under stated frame; 0 substitutions; 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
 | [p108 A](naval_arrival_inquiry.md#p108-a) | Naval inquiry whether referenced SKL communication has arrived | Native 282 coordinates; source-visible final FX restores the OCR-shortened frame; zero edits | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier unread OCR candidate retained |
 | [p110 A2](nov3_transmission_schedule.md#p110-a2) | Surviving radio schedule and unchanged Ringbahn traffic | 140/140 fixed raw labels; 2 coordinate substitutions and 0 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key and earlier OCR candidates credited separately |
 | [p111 B](p111_B.md) | Use radio for important messages | 154/154 direct positions; no coordinate edits | icekylinx and GPT-6 Astra Pro (2026) |
 | [p112 B](telefunken_staff_inquiry.md#p112-b) | Telefunken inquiry about returning personnel | 94/94 raw fixed positions; 0 observed substitutions; native source length | icekylinx and GPT-6 Astra Pro (2026); published keys retain earlier authorship |
 | [p112 C](constantza_station_shutdown.md#p112-c) | Conditional Constantza radio-station closure | 49/61 raw fixed positions; 1 observed substitutions; conditional twelve-coordinate loss, eight arbitrary-loss minima | icekylinx and GPT-6 Astra Pro (2026); published keys retain earlier authorship |
 | [p117 B](nov3_ringbahn_notice.md#p117-b) | Additional listening times and a reception-quality notice | 128/128 fixed raw positions; 1 coordinate substitutions, 0 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier unreviewed OCR candidates credited separately |
+| [p120 A](nov4_eilvese_and_setup.md#p120-a) | Military-attache query about embassy reception of Eilvese | 237 source slots; conditional exclusion of 1 masked overprint; 7 substitutions and 1 printed-mask fill | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed body candidates retained |
+| [p120 C](nov4_eilvese_and_setup.md#p120-c) | Dismantling/setup notice; literal NAGQBESCEREK retained | 28/28 raw positions; 1 substitution and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed body candidates retained |
+| [p121 A1](nov4_repetition_and_connections.md#p121-a1) | Kress reminded that the first telegram part must be repeated | 118/118 native raw positions; 5 coordinate substitutions and 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidate retained |
+| [p121 A2](nov4_repetition_and_connections.md#p121-a2) | Parts 2 and 3 already deciphered; renewed request for part 1 | 117/118 native raw positions; 1 coordinate substitution and 1 source-mask fill; no frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidate retained |
+| [p121 B1](nov4_repetition_and_connections.md#p121-b1) | Inquiry whether the Bucharest–Constanza link still operates | 131/131 native raw positions; 0 coordinate substitutions and 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidate retained |
+| [p122 A2](nov4_repetition_and_connections.md#p122-a2) | Continuation asking about Constanza cable and AOK 11 communications | 91/91 native raw positions; 1 coordinate substitution and 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidate retained |
 | [p128 A1](telegram_priority.md) | Missing replies to telegrams 569, 592, 598; requests brief plaintext instructions | 113/113 fixed raw labels; 1 known-coordinate substitutions and 0 source-erasure fills; ordinary complete source frame | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier OCR-derived candidates credited separately |
 | [p128 A2](telegram_priority.md) | Suggest explicit radio priority for these telegrams; literal Horstmann signature | 134/141 fixed raw labels; 5 known-coordinate substitutions and 7 source-erasure fills; ordinary complete source frame | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier OCR-derived candidates credited separately |
 | [p132 A](p132_radio_service.md) | Partial officer-register request; addressee and general-name fields remain unresolved | 120/121 fixed labels in the exact source frame; 6 substitutions and 1 source-erasure fills; names remain partial | icekylinx and GPT-6 Astra Pro (2026); prior published keys and earlier OCR-derived candidates credited separately |
@@ -106,6 +133,9 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p140 A3](kiel_radio_control.md) | Confiscate and destroy Kiel texts already received | 47/51 raw positions; separately costed word repairs | Prior body: Childs and Lasry et al.; source edition: icekylinx and GPT-6 Astra Pro (2026) |
 | [p140 A4](kiel_radio_control.md) | Urgent handling of the Kiel radio-control order | 45/49 raw positions; separately costed word repairs | Prior body: Childs and Lasry et al.; source edition: icekylinx and GPT-6 Astra Pro (2026) |
 | [p142 A](radio_contacts_and_keys.md#p142-a-0430-calling-signal-then-listen-again-at-0645) | Ten minutes of VVV at 0430, then radiograms; listen again at 0645 | 64/64 fixed raw labels; 0 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+| [p145 B1](nov6_ringbahn_key_witnesses.md#p145-b1) | Keep November Ringbahn keys; defer December keys | 107/107 raw positions; 1 substitution supported by independent p211 raw text | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier p211 source edition and p145 ending retained |
+| [p145 B2](nov6_ringbahn_key_witnesses.md#p145-b2) | December 1–21 reuse schedule; missing coordinate supported by p211 copy | 183 source slots; conditional 184-slot frame; 3 substitutions plus 1 inserted F reproduce unedited p211 copy | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier p211 source edition and p145 ending retained |
+| [p145 B3](nov6_ringbahn_key_witnesses.md#p145-b3) | Schedule ending and acknowledgment request; supports the p211 word fill | 67/67 raw positions; 1 substitution supported by independent p211 raw text | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier p211 source edition and p145 ending retained |
 | [p146 A](kiel_radio_control.md) | Repeat order placing radio stations under officer control | 51/56 raw positions after explicit five-coordinate deletion | Prior body: Childs and Lasry et al.; source edition: icekylinx and GPT-6 Astra Pro (2026) |
 | [p147 C1](constantinople_address_parts.md) | German Embassy at Pera and Stumm signature | 48/48 fixed positions; 0 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
 | [p148 B1](constantinople_address_parts.md) | Military Mission routing, Groener signature and officer receipt acknowledgement | 163/164 fixed positions; 2 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
@@ -113,6 +143,8 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p151 D2](courier_munich.md) | Notify the courier destination and report arrival | 67/68 raw positions; one garble supplied by a repeat | icekylinx and GPT-6 Astra Pro (2026) |
 | [p153 D2](courier_munich.md) | Notify the courier destination and report arrival | 67/68 raw positions; one garble supplied by a repeat | icekylinx and GPT-6 Astra Pro (2026) |
 | [p153 E1](courier_munich.md) | Munich couriers carrying radio operating documents | Conditional first-part reconstruction; all tied damage models retained | icekylinx and GPT-6 Astra Pro (2026) |
+| [p155 C1](nov7_eighth_part_repetition.md#p155-c1) | Cannot decipher eighth part addressed to Sektion Politik Berlin | Conditional one-coordinate exclusion; all six overlong-group choices retained; two source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; earlier OCR candidates retained |
+| [p155 C2](nov7_eighth_part_repetition.md#p155-c2) | Request checking and retransmission of the eighth part | Native 136-slot frame; no repairs; reference unknowns coupled to C1 date | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; earlier OCR candidates retained |
 | [p156 C1](constantinople_address_parts.md) | German charge d’affaires at Constantinople and raw BUSSCHS signature | 51/51 fixed positions; 0 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
 | [p157 B1](apparatus_sale_request.md) | Apparatus sale recommended because of transport difficulties | Source edition: 85/85 fixed positions, 1 coordinate substitutions and 4 erasure fills; native frame retained | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates retained |
 | [p157 B2](apparatus_sale_request.md) | Romanian purchase request and request for permission and price | Source edition: 135/136 fixed positions, 5 coordinate substitutions and 14 erasure fills; native frame retained | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates retained |
@@ -163,7 +195,15 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p197 D](../context/transport_197_198.md) | Lorry, trailer and petrol-pump instruction | Partial witness; readable reconstruction costed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p198 B](../context/transport_197_198.md) | Repeated equipment transport to Darmstadt | Clearer near-parallel; editorial changes explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p198 E](../context/transport_197_198.md) | Repeated lorry, trailer and petrol-pump order | Literal duplicate-group deletion; partial reading | icekylinx and GPT-6 Astra Pro (2026) |
+| [p202 A1](nov16_18_command_inquiries.md#p202-a1) | Immediate receipt confirmation for armistice instructions | Native 212-slot frame; 4 observed-coordinate substitutions and 0 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p202 A2](nov16_18_command_inquiries.md#p202-a2) | Confirm receipt of the order to continue withdrawal | Native 142-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p203 A2](nov16_18_command_inquiries.md#p203-a2) | Maintain nightly radio reception for the link to Germany | Native 132-slot frame; 2 observed-coordinate substitutions and 2 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p203 B](nov16_18_command_inquiries.md#p203-b) | Inquiry for Captain von Borries | Native 164-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 | [p204 A](p204_A.md) | Local radio station to be handed over to Poland | 69/70 raw positions; Monday 18 implies FD=8 conditionally | icekylinx and GPT-6 Astra Pro (2026) |
+| [p204 B](nov16_18_command_inquiries.md#p204-b) | Where is the Warsaw general government now? | Native 92-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p204 C1](nov16_18_command_inquiries.md#p204-c1) | Lomza and Czenstochau radio equipment whereabouts | Native 244-slot frame; 2 observed-coordinate substitutions and 3 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p204 C2](warsaw_station_missing_row.md) | Conditional lost-row reading: radio handover and WAU personnel transfer | 242 source slots versus advertised 282; conditional 40-slot gap; no observed-coordinate changes; three terminal placements retained | icekylinx and GPT-6 Astra Pro (2026); published Nov16–18 key; explicit lost-row hypothesis |
+| [p204 D](nov16_18_command_inquiries.md#p204-d) | Numbered reply with PSO BSL and WAU signature | Native 84-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 | [p211 B lower1](p211_key_schedule.md) | Retain the November Ringbahn key | 107/107 raw positions; three spelling repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p211 B lower2](p211_key_schedule.md) | Use November keys for December traffic | 92/92 unchanged; first and last schedule dates stated | icekylinx and GPT-6 Astra Pro (2026) |
 | [p211 B lower3](p211_key_schedule.md) | Schedule endpoint and receipt acknowledgment | 66/67 raw positions; one invalid-glyph fill | icekylinx and GPT-6 Astra Pro (2026) |
@@ -171,11 +211,18 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p216 A2](hermannstadt_radio_report.md#p216-a2) | Reception difficulties and raw NIKOLA3EW | Six ordinary-word repairs; NIKOLA3EW and date untouched | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; Lasry et al. earlier communication narrative and unreviewed corpus screens distinguished |
 | [p216 A3](hermannstadt_radio_report.md#p216-a3) | Breslau reception and missing message references | Unique minimum single deletion plus five word repairs; references untouched | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; Lasry et al. earlier communication narrative and unreviewed corpus screens distinguished |
 | [p216 A4](hermannstadt_radio_report.md#p216-a4) | Request to repeat situation and armistice instructions | Three tied adjacent-X deletions and one dash fill; zero observed substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; Lasry et al. earlier communication narrative and unreviewed corpus screens distinguished |
+| [p224 A1](nov27_receiving_instructions.md#p224-a1) | Use especially good radio listeners and send clearly | Native 238-slot frame; 5 observed-coordinate substitutions and 3 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p224 A2](nov27_receiving_instructions.md#p224-a2) | Only secure link home and preferred reception wavelength | Native 176-slot frame; 3 observed-coordinate substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p224 B](nov27_receiving_instructions.md#p224-b) | Brief report of no special events | Native 92-slot frame; 6 observed-coordinate substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 | [p225 A](late_november_cipher_instructions.md) | November key material retained because December tables are absent | 110/116 raw positions | icekylinx and GPT-6 Astra Pro (2026) |
 | [p226 B2](late_november_cipher_instructions.md) | Numerical sequences read backward; missing first part | 104/104 raw positions; separately costed word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p227 B](late_november_cipher_instructions.md) | Send telegrams for the army and subordinate formations directly | 76/76 raw positions; separately costed word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p228 C1](late_november_cipher_instructions.md) | December key agreement involving UKS, ZOEN and BSL | 88/88 raw positions | icekylinx and GPT-6 Astra Pro (2026) |
 | [p228 C2](late_november_cipher_instructions.md) | Use the same key in BSL–UKS traffic; UKS agrees | 72/72 raw positions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p230 B](nov30_radio_personnel.md#p230-b) | Inspection and War Ministry notified | Native 136-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p230 C](nov30_radio_personnel.md#p230-c) | Station dismantling notice with a printed variant | Native 78-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; both printed variants preserved | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p230 D](nov30_radio_personnel.md#p230-d) | Tiflis radio and construction personnel inquiry | Native 188-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p230 E](nov30_radio_personnel.md#p230-e) | Request for timely internment notification | Native 88-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 
 ## Related challenge entries
 

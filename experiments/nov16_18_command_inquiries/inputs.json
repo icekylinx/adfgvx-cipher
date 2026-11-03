@@ -1,0 +1,556 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Armistice acknowledgments, personnel and Warsaw radio inquiries",
+  "case": "cases/radio/nov16_18_command_inquiries.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p202_reviewed.png",
+      "pdf_page_1based": 205,
+      "crop_pdf_points": [
+        55,
+        155,
+        530,
+        340
+      ],
+      "render_scale": 3,
+      "sha256": "346a71e949399c1d512b94329fb78f287a95d37f37cd2602080f4af24e5d1813",
+      "width": 1425,
+      "height": 555,
+      "channels": 3,
+      "rgb_sha256": "b1d9114f7d7f4014229f4551559ab9dbecfc2c41881f6cf2e049830c6f70a71e"
+    },
+    {
+      "path": "sources/p203_reviewed.png",
+      "pdf_page_1based": 206,
+      "crop_pdf_points": [
+        45,
+        185,
+        520,
+        405
+      ],
+      "render_scale": 3,
+      "sha256": "6a577e8e43ec387627ddcfdb56a1a3b68019edcc3a89c785fd7ec308ac3f9ae1",
+      "width": 1425,
+      "height": 660,
+      "channels": 3,
+      "rgb_sha256": "71cd03135f4bf67293cd82fffda77d80e32417fb9c8149619c8bdc81777530ca"
+    },
+    {
+      "path": "sources/p204_reviewed.png",
+      "pdf_page_1based": 207,
+      "crop_pdf_points": [
+        60,
+        260,
+        530,
+        660
+      ],
+      "render_scale": 3,
+      "sha256": "729c34425470ff82302d43db4527c7037447ad774a0f41bfc4063d262f59d9fc",
+      "width": 1410,
+      "height": 1200,
+      "channels": 3,
+      "rgb_sha256": "e4bb83f0836ac0111be77eab57d10d8d01a832730f4f0398be8ef4ddeb19c14e"
+    }
+  ],
+  "keys": {
+    "Nov16-18": {
+      "id": "Nov16-18",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        12,
+        1,
+        14,
+        8,
+        16,
+        13,
+        9,
+        19,
+        3,
+        15,
+        4,
+        10,
+        18,
+        6,
+        2,
+        11,
+        17,
+        5
+      ],
+      "column_count": 19,
+      "square": "WG?EITNHUB2R??FDZJS???PY?VQL?1OAXMKC",
+      "square_rows": [
+        "WG?EIT",
+        "NHUB2R",
+        "??FDZJ",
+        "S???PY",
+        "?VQL?1",
+        "OAXMKC"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "03456789",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 243,
+          "pdf_page_1based": 246,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "The historical appendix and Lasry also label this table December 7-9.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "WG+EITNHUB2R++FDZJS+++PY+VQL+1OAXMKC",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key",
+      "documented_reuse": "7-9 December, per Childs appendix page 243 and NSA summary pages 41-42."
+    },
+    "Nov13-15b": {
+      "id": "Nov13-15b",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "column_count": 16,
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "square_rows": [
+        "H??BMU",
+        "F15PX0",
+        "DJLR??",
+        "??S6VO",
+        "NKZ?AW",
+        "ITEGC?"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "234789QY",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 244,
+          "pdf_page_1based": 247,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "baseline_differences": [
+        {
+          "coordinate": "AD",
+          "baseline": "2",
+          "audited": "?"
+        },
+        {
+          "coordinate": "AF",
+          "baseline": "3",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FV",
+          "baseline": "4",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FX",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GA",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GD",
+          "baseline": "9",
+          "audited": "?"
+        },
+        {
+          "coordinate": "VG",
+          "baseline": "Q",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "Y",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 24,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "AD",
+            "proposed": "2"
+          },
+          {
+            "row_column": "AF",
+            "proposed": "3"
+          },
+          {
+            "row_column": "FV",
+            "proposed": "4"
+          },
+          {
+            "row_column": "FX",
+            "proposed": "7"
+          },
+          {
+            "row_column": "GA",
+            "proposed": "8"
+          },
+          {
+            "row_column": "GD",
+            "proposed": "9"
+          },
+          {
+            "row_column": "VG",
+            "proposed": "Q"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "Y"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p202_A1",
+      "printed_page": 202,
+      "source_section": "A1",
+      "title": "Immediate receipt confirmation for armistice instructions",
+      "source_rows": [
+        "DFAGX XXXDG FFFDF DAXAA AGDVA XDGDX XFXDG AVFFX",
+        "FDGDF XGAGG DVXAG DXGDG DXXGG GAXAG DAAXX XVAAX",
+        "AXXDX AFXGA AAGXA XFVFA AXDAG DFVGD ADGGD XXFXX",
+        "AAADF AAVGF DFVGX XXAFX FXXFA DAXXD XDXXA VGXVA",
+        "XFDXG FDDFD DFDDF VDGVA AAVVX GDXDG FADAF VDAAF",
+        "AXXAA DXDXF XA"
+      ],
+      "source_slots": 212,
+      "advertised_length": 212,
+      "key_id": "Nov16-18",
+      "header_literal": "A) NKJ, UKS v LP (12.51 p.m., November 16th); FUER UKS 0900 (16), 2 TEILE; 1 TL RICHI-212",
+      "expected_raw": "ANXOKMXXSOFORTIGEBESTAETIGUNGERFORDERLICHOBFUNKSYRUCHX1XAXC?XRXVOM1RX11MBETRXNAFFDNSTILLSTANDSBEDINGUNGENX",
+      "edited_output": "ANXOKMXXSOFORTIGEBESTAETIGUNGERFORDERLICHOBFUNKSPRUCHX1XAXC?XRXVOM1RX11XBETRXWAFFENSTILLSTANDSBEDINGUNGENX",
+      "readable_german": "An OKM. Sofortige Bestaetigung erforderlich, ob Funkspruch 1XAXC?XR vom 1RX11 betr. Waffenstillstandsbedingungen",
+      "meaning": "Immediate confirmation is requested that a telegram on armistice conditions has arrived. The reference and date labels remain unresolved; the sentence continues in A2.",
+      "notes": [
+        "The word repairs include FUNKSYRUCH to FUNKSPRUCH, M to separator X before BETR, and NAFFDN to WAFFEN. All resulting coordinate changes are priced. The opaque C?XR and 1RX11 fields are not guessed."
+      ],
+      "separator_label": "X",
+      "source_variants": [],
+      "protected_fields": [
+        "1XAXC?XR",
+        "1RX11"
+      ],
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 4,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p202_A2",
+      "printed_page": 202,
+      "source_section": "A2",
+      "title": "Confirm receipt of the order to continue withdrawal",
+      "source_rows": [
+        "DFDDA GXVDA DFAVF GDGDD DFFAG AGVXF XXAXF VDAXA",
+        "XFGDV FGDGX XFXDX XADFG XDXAX XGAXG GXGAV GDGXX",
+        "AFDVX XADDD FADDF DAADF DXDFX FXADA DVGFA GDXAX",
+        "GAGXG XFGGA GVXFA AFXAA XV"
+      ],
+      "source_slots": 142,
+      "advertised_length": 142,
+      "key_id": "Nov16-18",
+      "header_literal": "A) same two-part telegram; 2 TL RICHI-142",
+      "expected_raw": "UNDBEFEHLZURFORTSETZUNGDESABMAR?CHESDORTANGEKOMMENXOHLX1XAXNRX1???12XOP",
+      "edited_output": "UNDBEFEHLZURFORTSETZUNGDESABMARSCHESDORTANGEKOMMENXOHLX1XAXNRX1???12XOP",
+      "readable_german": "und Befehl zur Fortsetzung des Abmarsches dort angekommen. OHL 1XAXNRX1???12XOP.",
+      "meaning": "The continuation asks whether the order to continue the withdrawal has arrived. The OHL reference is preserved as a literal field.",
+      "notes": [
+        "The source clearly prints XFGDV where the earlier OCR had X?GDV. The remaining unknowns come from unassigned cells of the published square, not missing source coordinates.",
+        "The raw letter in ABMAR?CHES is under an unfilled square cell. The proposed S is implemented by changing its observed ciphertext coordinate, not by assigning that unknown cell S globally."
+      ],
+      "separator_label": "X",
+      "source_variants": [],
+      "protected_fields": [
+        "1XAXNRX1???12XOP"
+      ],
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 1,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p203_A2",
+      "printed_page": 203,
+      "source_section": "A2",
+      "title": "Maintain nightly radio reception for the link to Germany",
+      "source_rows": [
+        "--VFG FAXFV AAAVA GFXVX XFVXG FAXFX FAXXX DDAAF",
+        "XDXAD AXAXX FAFVA DAAXV VVFDF XXVAG VXXVD AAGAA",
+        "FDFAX GAFGG DXXDF AXXXD DVADF AADFA VXXGF VFVGG",
+        "VVGFA VAXXG VG"
+      ],
+      "source_slots": 132,
+      "advertised_length": 132,
+      "key_id": "Nov13-15b",
+      "header_literal": "A) --- v ZON (23.31 p.m., November 16th); 22.35 (16/11); 2 TL RIZI-132",
+      "expected_raw": "STE?ETJEDEN?CHTAUF?MPFANGXVERBINDUNGMITDEUTSCHLXRRINGENDBENOETIGTX",
+      "edited_output": "STEHETJEDENACHTAUFEMPFANGXVERBINDUNGMITDEUTSCHLXDRINGENDBENOETIGTX",
+      "readable_german": "Stehet jede Nacht auf Empfang. Verbindung mit Deutschl. dringend benoetigt.",
+      "meaning": "Maintain reception every night; a connection with Germany is urgently needed. Only the source-labelled second part is present in this record.",
+      "notes": [
+        "The printed 2 TL is retained. The absent first part is not reconstructed from this second part.",
+        "Two opening dashes are source-mask slots. The unchanged Nov13–15b key produces this body despite the printed 16 November date; this is a documented key-use observation, not a silent redating.",
+        "DEUTSCHL remains the transmitted abbreviation."
+      ],
+      "separator_label": "X",
+      "source_variants": [],
+      "protected_fields": [],
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 2,
+      "expected_source_mask_fills": 2
+    },
+    {
+      "id": "p203_B",
+      "printed_page": 203,
+      "source_section": "B",
+      "title": "Inquiry for Captain von Borries",
+      "source_rows": [
+        "XDAXX GAVXA DXDGX AXGDG DFADA VXAFX GAFAF XGAXV",
+        "DDVDG DXAGX AXXAV ADGXF XXAXD XXGXD XGAXV FXGXX",
+        "ADDVD GXADD DFDFV DVAVA VAGXV AGAGX AGGDX AXDXA",
+        "AADXA AGXDX FAXAD DGGFD XGDXD XXFAG XGDGD DXVXD",
+        "GVFD"
+      ],
+      "source_slots": 164,
+      "advertised_length": 164,
+      "key_id": "Nov16-18",
+      "header_literal": "B) IWE v LP (03.48 p.m., November 18th); FUER IWE v LP 14.55 (18/11); RICHI-164",
+      "expected_raw": "KMXABTXNACHRICHTENMITTELXERBITTETNACHRICHTUEBERVERBLEIBXHPTMXVXBORRIESXGENXKDOX?2X",
+      "edited_output": "KMXABTXNACHRICHTENMITTELXERBITTETNACHRICHTUEBERVERBLEIBXHPTMXVXBORRIESXGENXKDOX?2X",
+      "readable_german": "KM Abt. Nachrichtenmittel erbittet Nachricht ueber Verbleib Hptm. v. Borries, Gen. Kdo. ?2.",
+      "meaning": "The War Ministry communications-equipment section asks for information on the whereabouts of Captain von Borries. The general-command label ?2 is not numbered historically.",
+      "notes": [
+        "The OCR omitted the final four-coordinate group GVFD. The source visibly prints it, and restoring it yields the exact advertised 164-slot frame. This is a transcription correction, not a historical coordinate insertion.",
+        "The body names VXBORRIES; no specific person is identified from the surname alone."
+      ],
+      "separator_label": "X",
+      "source_variants": [],
+      "protected_fields": [
+        "?2"
+      ],
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p204_B",
+      "printed_page": 204,
+      "source_section": "B",
+      "title": "Where is the Warsaw general government now?",
+      "source_rows": [
+        "XAADX GFDDF FFXAX VADXD AXDXF XAGDA XAFAD VDGDG",
+        "DGDAD GVGXA VXAAG DVAAX AXGAA GADAX XGDGX ADXGA",
+        "AAAAG ADFDD AX"
+      ],
+      "source_slots": 92,
+      "advertised_length": 92,
+      "key_id": "Nov16-18",
+      "header_literal": "B) WAU, IWE v LP (6 p.m., November 17th); ZWEI AR FUER WAU 1300 (17); RICHI-92",
+      "expected_raw": "WOBEFINDETSICHJETZTGENERALGOUVERNEMENTWARSCHAU",
+      "edited_output": "WOBEFINDETSICHJETZTGENERALGOUVERNEMENTWARSCHAU",
+      "readable_german": "Wo befindet sich jetzt Generalgouvernement Warschau?",
+      "meaning": "A direct query asks the present location of the Warsaw general government.",
+      "notes": [
+        "The unchanged native 92-coordinate frame yields a complete reading without a coordinate edit or fill."
+      ],
+      "separator_label": "X",
+      "source_variants": [],
+      "protected_fields": [],
+      "question_mark_punctuation_at_end": true,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p204_C1",
+      "printed_page": 204,
+      "source_section": "C1",
+      "title": "Lomza and Czenstochau radio equipment whereabouts",
+      "source_rows": [
+        "AGXGV AAVXF AGAVA GXVAG DXAGD FDDDX GXFDX XAXDX",
+        "AFXGD XAFAD AGDAF FDFAD AGDAD GFDAA XAXVF AXAVV",
+        "VXFVX GXAXA DGXAA GDDDG FAAAX VAXXG AGGGA XDXDX",
+        "AAVDA XDXAX VXDDX AFXDA DDVGA FDDAA XGAGD VFADG",
+        "XXAGA ADGAA DDDGG DDVFD XDDAV DAADD XD--- GG-AX",
+        "DGAGG GADXD GXVVV DGDDA ADGDG XGFAX XXXXX DVDGD",
+        "ADXX"
+      ],
+      "source_slots": 244,
+      "advertised_length": 244,
+      "key_id": "Nov16-18",
+      "header_literal": "C) KOW v WAU (1.50 a.m., November 18th); 0115 (17), 2 TLE; 1 TL RICHI-244",
+      "expected_raw": "GE?NACH2O2LE?CHTEINLOMZAUNDCZENSTOCHAUXV?RBLEIBUNBEKANNTXVERMUTLMITI?RENGOUVSABERUECKTXBESATZGBEIDENANDERE?STATOHNEGERA?TX",
+      "edited_output": "GE?NACH2O2LEICHTEINLOMZAUNDCZENSTOCHAUXVERBLEIBUNBEKANNTXVERMUTLMITIHRENGOUVSABERUECKTXBESATZGBEIDENANDERENSTATOHNEGERAETX",
+      "readable_german": "GE?NACH2O2. Leichte in Lomza und Czenstochau, Verbleib unbekannt. Vermutl. mit ihren Gouvs. aberueckt. Besatzg beiden anderen Stat. ohne Geraet.",
+      "meaning": "The whereabouts of the light units or equipment in Lomza and Czenstochau are unknown; they are presumed to have departed with their governors. The crews of the other two stations have no equipment. The opening is opaque and several transmitted abbreviations and the missing-letter spelling ABERUECKT remain visible.",
+      "notes": [
+        "The source prints four dash slots: XD--- and GG-AX. The opening GE?NACH2O2 remains unresolved.",
+        "The source-length output ABERUECKT is not silently expanded to [abgerueckt]. VERMUTL, GOUVS, BESATZG and STAT remain their transmitted abbreviated forms.",
+        "Part 2 advertises 282 slots but the reviewed page prints 242. A 40-slot tail-loss hypothesis yields related fragments, but is not accepted as a complete source-length decipherment or counted as another reviewed reading here."
+      ],
+      "separator_label": "X",
+      "source_variants": [],
+      "protected_fields": [
+        "GE?NACH2O2"
+      ],
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 2,
+      "expected_source_mask_fills": 3
+    },
+    {
+      "id": "p204_D",
+      "printed_page": 204,
+      "source_section": "D",
+      "title": "Numbered reply with PSO BSL and WAU signature",
+      "source_rows": [
+        "DAXGD AAFXF XVDFD AGVAG AXGXX FXXAX DFDFX DVFFF",
+        "VAXAX VDDVV FVDGF XFXFX FXFFF GFVXV XFGDG ADAAA",
+        "AXGF"
+      ],
+      "source_slots": 84,
+      "advertised_length": 84,
+      "key_id": "Nov16-18",
+      "header_literal": "D) --- v --- (8.43 a.m., November 18th); RICHI-84",
+      "expected_raw": "ZU2??FVOM1?XX1XNEINXX2XPSOXBSLXXFUSTAWAUXX",
+      "edited_output": "ZU2??FVOM1?XX1XNEINXX2XPSOXBSLXXFUSTAWAUXX",
+      "readable_german": "Zu 2??F vom 1?X: 1. Nein. 2. PSO BSL. Fusta WAU.",
+      "meaning": "A short numbered reply answers no to item 1 and gives the literal call-sign-like pair PSO BSL for item 2. The inquiry number, date and expansion of PSO remain unresolved.",
+      "notes": [
+        "The source visibly prints VAXAX and the final AXGF, both omitted from the earlier OCR candidate. The native count is 84.",
+        "The transmitted fragment 1?XX is shown as 1?X before the sentence separator; no value is supplied for its unresolved cell."
+      ],
+      "separator_label": "X",
+      "source_variants": [],
+      "protected_fields": [
+        "2??F",
+        "1?X"
+      ],
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "9fda14a34b12a4fe2aef39c88a933f9e0ff9348dcc880b21324e755a621ee774",
+    "ocr_snapshot.json": "6f4b3c8c9afafaacbda90e22c44a53d9a3a933096efb833ea298913273c8170e"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are preserved separately. This is a source edition and explicit repair review, not a claim of universal first-decipherment priority.",
+  "limits": [
+    "All catalogued records use native source slots in printed order; no insertion, deletion or reordering.",
+    "Digits and rare-letter labels remain literal. An unfilled published square cell remains globally shared and injective.",
+    "Global full witnesses complete unknown key cells injectively and fill any residual source masks only to demonstrate consistency; they are not historical readings."
+  ]
+}

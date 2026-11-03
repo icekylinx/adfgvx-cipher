@@ -35,13 +35,14 @@ POTIXVERLADEBXDIEFUER7GBA8?BRIGXBE7THMMTXXDAABTEILUNGKNDERSHINBEO4DHGTXDRING?NDD
 POTIXVERLADENXDIEFUER7XKAVXBRIGXBESTIMMTXXDAABTEILUNGANDERSHINBEORDERTXDRINGENDDRAHTEODERBRTVEXO0?NDWME??EL?XX
 ```
 
-**Readable German — spacing of the conservative candidate, with its opaque ending retained:**
+**Readable German — spacing of the conservative partial candidate, with its opaque ending retained:**
 
 > ... Poti verladen, die für 7. Kav. Brig. bestimmt. Da Abteilung
 > andershin beordert. Dringend drahte oder BRTVE. O0?NDWME??EL? ...
 
 The leading ellipsis marks missing syntactic context from the unresolved
-first part, not an added coordinate gap in A2. This reading fixes
+first part, not an added coordinate gap in A2. The closing ellipsis marks
+the unfinished syntax; it does not hide further decoded A2 labels. This reading fixes
 **106 / 110 positions** after the disclosed edits. The abbreviation
 `KAV` is an editorial word repair; its leading **7** is the unchanged
 raw label. The final fragment remains unresolved and is not polished into

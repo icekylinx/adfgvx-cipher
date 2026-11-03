@@ -1,0 +1,283 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Wishing to travel home and uncertainty over Baltic transport",
+  "case": "cases/military/home_departures_baltic_transport.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p186_reviewed.png",
+      "pdf_page_1based": 189,
+      "crop_pdf_points": [
+        52,
+        365,
+        523,
+        715
+      ],
+      "render_scale": 3,
+      "sha256": "c41641162bcfc7a18bdd1705bdfba073f79dad1c3799b142d4153dc61cb730ab",
+      "width": 1413,
+      "height": 1050,
+      "channels": 3,
+      "rgb_sha256": "18743dea1fba318584bdc62cea1500add5a3372d588f92e013a2f11c7c150211"
+    }
+  ],
+  "keys": {
+    "Nov13-15b": {
+      "id": "Nov13-15b",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "column_count": 16,
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "square_rows": [
+        "H??BMU",
+        "F15PX0",
+        "DJLR??",
+        "??S6VO",
+        "NKZ?AW",
+        "ITEGC?"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "234789QY",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 244,
+          "pdf_page_1based": 247,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "baseline_differences": [
+        {
+          "coordinate": "AD",
+          "baseline": "2",
+          "audited": "?"
+        },
+        {
+          "coordinate": "AF",
+          "baseline": "3",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FV",
+          "baseline": "4",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FX",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GA",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GD",
+          "baseline": "9",
+          "audited": "?"
+        },
+        {
+          "coordinate": "VG",
+          "baseline": "Q",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "Y",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 24,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "AD",
+            "proposed": "2"
+          },
+          {
+            "row_column": "AF",
+            "proposed": "3"
+          },
+          {
+            "row_column": "FV",
+            "proposed": "4"
+          },
+          {
+            "row_column": "FX",
+            "proposed": "7"
+          },
+          {
+            "row_column": "GA",
+            "proposed": "8"
+          },
+          {
+            "row_column": "GD",
+            "proposed": "9"
+          },
+          {
+            "row_column": "VG",
+            "proposed": "Q"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "Y"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p186_B2",
+      "title": "Soldiers wishing to travel home without authorization",
+      "key_id": "Nov13-15b",
+      "header_literal": "B) NKJ v LP (06.23 a.m., November 13th); FUER WAU 07.00 2 TLE; 2 TL RICHI-242",
+      "readable_german": "Die Schwierigkeiten, dass Mannschaften eigenmaechtig nach Hause fahren wollen, sind ueberall die gleichen. OHL. RM 1A Nr. 11?01 Geh. Op.",
+      "meaning": "The second part states that the difficulty is the same everywhere: soldiers want to travel home on their own authority. It closes with OHL and an unresolved office reference. It reports the problem; it does not itself authorize those departures.",
+      "notes": [
+        "All 242 printed coordinates are preserved and decode without repairs. The earlier OCR separated the first row and omitted additional source material; those OCR defects are not historical ciphertext losses.",
+        "The heading explicitly identifies this as part 2. The independently handled first part has two group-width obliterations and a conditional exclusion model; this native part does not rely on that model.",
+        "The literal reference 11?01 retains one globally coupled unknown square cell. No historical file number or date is inferred.",
+        "The unknown in 11?01 is the same GA square cell as the first unknown in p186 C1's DRTRM1A?5?; both must have the same unresolved label. The second unknown in that C1 field is AF and must have a different label."
+      ],
+      "protected_fields": [
+        "11?01"
+      ],
+      "printed_page": 186,
+      "source_section": "B2",
+      "source_rows": [
+        "FGAFF VAAFF AFVDA ADVAA GFXAV FAVDV VXGVX XAVGF",
+        "FGVDD FXXVX AVXGV FXFVD DXFVV XVVDF FFXDF XAXGA",
+        "XXVXD XXDDG GFAVA AFVVF XAAGV FXXAD VXGVX VXADD",
+        "DXXDV VXXVF AFAFD XAFFA GDVFV FGVDA XAFFV DVAFX",
+        "AFAFA VVXVV XXAAF VAXVD DDXAF VFAXA FGFXV XGAGA",
+        "AFVVA FAFVV GGVDV VAAAG AGFAV DVGXF GXXAA XXXXA",
+        "DA"
+      ],
+      "source_slots": 242,
+      "advertised_length": 242,
+      "expected_raw": "DIESCHWIERIGKEITENXDASSMANNSCHAFTENEIGENMAECHTIGNACHHAUSEFAHRENWOLLENXSINDUEBERALLDIEGLEICHENXOHLXRMX1AXNRX11?01XGEHXOPXX",
+      "edited_output": "DIESCHWIERIGKEITENXDASSMANNSCHAFTENEIGENMAECHTIGNACHHAUSEFAHRENWOLLENXSINDUEBERALLDIEGLEICHENXOHLXRMX1AXNRX11?01XGEHXOPXX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p186_C1",
+      "title": "Baltic transport uncertainty and Graf Goltz preparations",
+      "key_id": "Nov13-15b",
+      "header_literal": "C) KOW v LP (06.26 a.m., November 13th); 17.40 (13/11) 2 TLE; 1 TL RICHI-182; (Continued)",
+      "readable_german": "Zu DRTRM1A?5?. ABTRSPRT z. Zt. wegen unklarer Lage in Ostsee UNMOGLCH. Gen. Graf Goltz hat jedoch VORBEREITG",
+      "meaning": "This first part concerns transport that is currently described as impossible because the situation in the Baltic Sea is unclear. It then begins a statement about preparations associated with the literal name and title GEN GRAF GOLTZ. The statement is incomplete in this source body, so no completed plan or action is supplied.",
+      "notes": [
+        "All 182 coordinates are preserved; no source substitution or mask fill is needed. The scan labels two parts and prints “Continued,” but only this first body is included here. No missing continuation is reconstructed from context.",
+        "DRTRM1A?5?, ABTRSPRT, UNMOGLCH and VORBEREITG are retained literally. The English meaning interprets the abbreviated transport statement; no missing I, vowel or grammatical ending is added to the decoded stream.",
+        "The two question marks in the opening reference come from different unresolved square cells; their labels remain globally injective rather than being independently guessed.",
+        "The literal name GRAF GOLTZ is not used to add a first name or identify a historical biography."
+      ],
+      "protected_fields": [
+        "DRTRM1A?5?"
+      ],
+      "printed_page": 186,
+      "source_section": "C1",
+      "source_rows": [
+        "GFGFV AXVGD GDDVX FDGGF VFAAV VFGGV XGFVV FVVVG",
+        "FFAAX AGGXV XXXVV GXFVD XXGAX FFXAF GXFFF AADXG",
+        "DXDAF XXXVX XFDDV FXXAD XGXGV VFFXV FFAFF VGFAV",
+        "FFGAA AXDXX FVVXG XAVGF AGFXA DXGXA FDDGF VVVVD",
+        "DVDGG AAGXF GFAFX VXADX FF"
+      ],
+      "source_slots": 182,
+      "advertised_length": 182,
+      "expected_raw": "ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXGENGRAFGOLTZHATJEDOCHVORBEREITG",
+      "edited_output": "ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXGENGRAFGOLTZHATJEDOCHVORBEREITG",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "16c2ddcb73ca491a5fba4d76b62b83bb72e5dbad4086f3bb238cf14e49218db6",
+    "ocr_snapshot.json": "6504b5d87ed51af4e27a8b31bdaa05b08b3fb2143e47893c3279f9fa246b655a"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All source slots are preserved in their native order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Witness completions are explicitly nonhistorical.",
+    "Source-mask fills and observed-coordinate substitutions are recorded separately; a source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

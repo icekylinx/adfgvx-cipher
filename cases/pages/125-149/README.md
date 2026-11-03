@@ -4,9 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 100–124](../100-124/README.md) · [pp. 150–174 →](../150-174/README.md)
 
-**2 challenge entries and 56 other reviewed source records across 20 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**2 challenge entries and 61 other reviewed source records across 22 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
-Jump to page: [p125](#p125) · [p126](#p126) · [p128](#p128) · [p129](#p129) · [p130](#p130) · [p131](#p131) · [p132](#p132) · [p133](#p133) · [p134](#p134) · [p136](#p136) · [p137](#p137) · [p138](#p138) · [p139](#p139) · [p140](#p140) · [p141](#p141) · [p142](#p142) · [p146](#p146) · [p147](#p147) · [p148](#p148) · [p149](#p149).
+Jump to page: [p125](#p125) · [p126](#p126) · [p128](#p128) · [p129](#p129) · [p130](#p130) · [p131](#p131) · [p132](#p132) · [p133](#p133) · [p134](#p134) · [p135](#p135) · [p136](#p136) · [p137](#p137) · [p138](#p138) · [p139](#p139) · [p140](#p140) · [p141](#p141) · [p142](#p142) · [p145](#p145) · [p146](#p146) · [p147](#p147) · [p148](#p148) · [p149](#p149).
 
 Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's exact status and credit; the linked case explains the reading and its qualifications.
 
@@ -104,6 +104,14 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p134 A4](../../finance/military_allowances.md#p134-a4) | Requested cost-of-living supplement refused | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
 | [p134 B](../../context/radio_instructions.md#p134-b--repeat-a-fourth-period-telegram-in-the-fifth) | Repeat a fourth-period telegram in the fifth | 50/51 raw positions; wording partly editorial | icekylinx and GPT-6 Astra Pro (2026) |
 
+## p135
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p135 A](../../people/siegfried_assignment_cancellation.md#p135-a) | Siegfried assignment cancelled; conditional surplus coordinate before transposition | 401 received slots; surplus-X interim aliases230/231; 7 substitutions+4mask fills; 58-letter closing independently witnessed | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier Osthoff closing/source credit retained |
+
 ## p136
 
 ### Other reviewed source records
@@ -177,6 +185,16 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p142 B](../../caucasus/representative_retention.md) | Caucasus BEV K.M. representative at Tiflis is to remain; reference fields retained | 143/143 fixed raw labels; 3 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p142 C](../../military/dobrudscha_report.md) | Request position on Entente report of renewed Romanian occupation of Dobrudscha | 119/121 fixed raw labels; 1 coordinate substitutions and 2 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 
+## p145
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p145 B1](../../radio/nov6_ringbahn_key_witnesses.md#p145-b1) | Keep November Ringbahn keys; defer December keys | 107/107 raw positions; 1 substitution supported by independent p211 raw text | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier p211 source edition and p145 ending retained |
+| [p145 B2](../../radio/nov6_ringbahn_key_witnesses.md#p145-b2) | December 1–21 reuse schedule; missing coordinate supported by p211 copy | 183 source slots; conditional 184-slot frame; 3 substitutions plus 1 inserted F reproduce unedited p211 copy | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier p211 source edition and p145 ending retained |
+| [p145 B3](../../radio/nov6_ringbahn_key_witnesses.md#p145-b3) | Schedule ending and acknowledgment request; supports the p211 word fill | 67/67 raw positions; 1 substitution supported by independent p211 raw text | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier p211 source edition and p145 ending retained |
+
 ## p146
 
 ### Challenge entries
@@ -197,6 +215,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p147 A](../../naval/motorboat_sale_attempt.md#p147-a) | Try to sell the motorboat designated ROEM Q5 | 127/127 raw positions; 2 substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed body candidates retained |
 | [p147 C1](../../radio/constantinople_address_parts.md) | German Embassy at Pera and Stumm signature | 48/48 fixed positions; 0 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
 
 ## p148

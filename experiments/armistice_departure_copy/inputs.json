@@ -1,0 +1,306 @@
+{
+  "schema": "adfgvx-armistice-departure-copy-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "source_images": [
+    {
+      "path": "experiments/nov7_fragments_and_council/sources/p151_A.png",
+      "printed_page": 151,
+      "pdf_page_1based": 154,
+      "crop_pdf_points": [
+        68,
+        252,
+        484,
+        395
+      ],
+      "render_scale": 5,
+      "sha256": "0dc50ca50f12b9e659e62d867b5d11d6e677f2b8d805f2d92cc50416674bf03d"
+    },
+    {
+      "path": "experiments/romanian_pacification_consultation/sources/p157_overview.png",
+      "pdf_page_1based": 160,
+      "crop_pdf_points": [
+        45,
+        210,
+        540,
+        595
+      ],
+      "render_scale": 3,
+      "sha256": "1fcb7bc41d3b890b1c41afc99a1456d2229d0d30275de241d77868ffa948ec81"
+    },
+    {
+      "path": "experiments/romanian_pacification_consultation/sources/p157_A1.png",
+      "pdf_page_1based": 160,
+      "crop_pdf_points": [
+        50,
+        242,
+        530,
+        312
+      ],
+      "render_scale": 3,
+      "sha256": "14d6d9c2ccc5cfbc33ff4217fa18e06e8ea3926c58b359a0b28d87decfe2403d"
+    }
+  ],
+  "frozen_dependencies": [
+    {
+      "path": "experiments/nov7_fragments_and_council/inputs.json",
+      "sha256": "1d4ca88946d1ca9d8b6360e0ada8084dc5238beef3fdc67c80a6235323fc3807"
+    },
+    {
+      "path": "experiments/nov7_fragments_and_council/certificates.json",
+      "sha256": "46931784a99cf5105904ef65bbc2ec8d0ada0b86dda7d9b46e730f708693c718"
+    },
+    {
+      "path": "experiments/nov7_fragments_and_council/prior_candidates.json",
+      "sha256": "a5b9869254b9feb14eb1425b8557576134ba8752c8be357c0b3b45b3561e9687"
+    },
+    {
+      "path": "experiments/romanian_pacification_consultation/inputs.json",
+      "sha256": "1fcfb0a342d7ed43023d57517d2b73fcf18be17a048e556c13e3ec99898c2865"
+    },
+    {
+      "path": "experiments/romanian_pacification_consultation/certificates.json",
+      "sha256": "db46ec60d91862fdea806952590815c9e34940817f88eea630feed7e7655da0c"
+    },
+    {
+      "path": "experiments/romanian_pacification_consultation/prior_candidates.json",
+      "sha256": "b78aaf5496fa264e363ff5eb0535472ac0011abcf3f57c5b3689571c85d87c38"
+    },
+    {
+      "path": "experiments/romanian_pacification_consultation/verify.py",
+      "sha256": "28887bee741195174b2fd50cf8b1365139d6648a6d612694e6ab963e5fb9604d"
+    }
+  ],
+  "headers": {
+    "p151_A": [
+      "LP v NKJ (6.42 p.m., November 7th)",
+      "KR 1215 UKS 5 TLE",
+      "1 TL RICHI-190",
+      "2 TL RICHI-186"
+    ],
+    "p157_A": [
+      "7th NOVEMBER, 1918.",
+      "A) LP v NKJ (--- November 8th)",
+      "5 TLE",
+      "1 TL RICHI----",
+      "2 TL RICHI-200",
+      "3 TL RICHI-218",
+      "4 TL RICHI-210",
+      "5 TL RICHI-128"
+    ]
+  },
+  "independent_witness": {
+    "id": "p151_A1",
+    "input_path": "experiments/nov7_fragments_and_council/inputs.json",
+    "source_rows": [
+      "DAAFD DXGXX VGXXD GXDDA VDADA GXDDG VXDXD FVVGV",
+      "XVGXG VXFFX GDXGV AVVG DXXFD DDGFG DGFXD GDVGD",
+      "ADAXX XGXVX VXXVV DDDDX XGGVX XDDVV GGXVD VVVXD",
+      "FDVGX DGVGX DVVXX XXXGV XVDAV GDVGV VXDDV AVDXG",
+      "GGXAX XDDFV GVXXA XXDFA AXFDX GDDDG"
+    ],
+    "source_slots": 189,
+    "advertised_length": 190,
+    "insert_unknown_at_source_boundary": 55,
+    "prior_raw": "OHLXBPXXNACHRICHTVONABREISEDEUTSCHERWAFFENSTILLSTANDSKOMMISSIONHATANSCHEINENDGEM?LDETENSTUR3FSS",
+    "prior_readable_candidate": "OHLXBPXXNACHRICHTVONABREISEDEUTSCHERWAFFENSTILLSTANDSKOMMISSIONHATANSCHEINENDGEMELDETENSTUR3FSS",
+    "prior_missing_coordinate_value": "D",
+    "existing_catalog_record": true
+  },
+  "records": [
+    {
+      "id": "p157_A1",
+      "printed_page": 157,
+      "source_section": "A1",
+      "source_rows": [
+        "XDDV GGXVD XXXVD FDVGX DGVGX DVVXX XXXGV XVDFV",
+        "GDVGV VXDDV AVDXG GGXAX XDDFV GVXXA XXXA -----",
+        "GDDDG"
+      ],
+      "source_slots": 83,
+      "advertised_length": null,
+      "valid_source_coordinates": 78,
+      "printed_masks": 5,
+      "analysis_frame": {
+        "length": 190,
+        "missing_prefix_slots": 105,
+        "first_short_group": {
+          "literal": "XDDV",
+          "start": 0,
+          "insertion_boundaries": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "second_short_group": {
+          "literal": "XXXA",
+          "start": 69,
+          "insertion_boundaries": [
+            69,
+            70,
+            71,
+            72,
+            73
+          ]
+        },
+        "primary_insertion_boundaries": [
+          3,
+          71
+        ],
+        "scope": "One conditional copy geometry aligned to p151 A1: 105 absent prefix slots and one additional slot in each four-symbol group. The blank p157 length does not independently establish 190."
+      },
+      "expected_raw": "???????????????????????????????????????????????????????????????????????????????????????????????",
+      "readable_candidate": "OHLXBPXXNACHRICHTVONABREISEDEUTSCHERWAFFENSTILLSTANDSKOMMISSIONHATANSCHEINENDGEMELDETENSTURZFSS",
+      "readable_german": "OHL. BP. Nachricht von Abreise deutscher Waffenstillstandskommission hat anscheinend gemeldeten STURZFSS",
+      "expected_substitutions": 5,
+      "expected_source_mask_fills": 5,
+      "expected_missing_prefix_fills": 105,
+      "expected_short_group_fills": 2
+    }
+  ],
+  "contextual_proposal": {
+    "plaintext": "OHLXBPXXNACHRICHTVONABREISEDEUTSCHERWAFFENSTILLSTANDSKOMMISSIONHATANSCHEINENDGEMELDETENSTURZDES",
+    "status": "Separate contextual proposal. Only 3 to Z is supported by a surviving p157 coordinate. The additional F to D and S to E require two further p151 observed-coordinate changes whose counterpart positions lie in p157's absent prefix.",
+    "continuation_record": "p157_A2",
+    "continuation_reading": "MINISTERIUMSHERBEIGEFUEHRTXRUMAENISCHEREGIERUNGZIETINERWAEGUNGXEINEMILITAERISCHEPAZIFIZIERUNGSAKTION",
+    "continuation_is_edited_not_literal": true
+  },
+  "prior_credit": [
+    "Published Nov7–9 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), George Lasry (2017 key list).",
+    "The earlier p151 A1 conditional edition and p157 A2–A5 source edition by icekylinx and GPT-6 Astra Pro remain unchanged. Their previous repository candidates and provenance are frozen separately.",
+    "This supplement supplies a reproducible relation between incomplete physical copies and a separately priced contextual ending; it makes no first-historical-decipherment claim."
+  ],
+  "limits": [
+    "The p157 source alone fixes no complete plaintext position under this particular 190-slot geometry; copied coordinates must not be represented as independently recovered p157 source.",
+    "All 25 short-group alignment combinations are retained. Four attain the same minimum observed disagreement with the p151 witness; the displayed primary is one representative, not a unique loss location.",
+    "The five printed dashes remain occupied source slots and are filled separately from the 107 hypothetical absent coordinates. No observed coordinate is deleted or moved.",
+    "p151 A2 has a different 186-slot body from p157 A2's 200 slots. This source relation does not equate their complete five-part telegrams.",
+    "The primary shared reading retains STURZFSS. STURZ DES is a further contextual proposal, not a coordinate-agreement result or a verified historical event.",
+    "All machine indices are zero-based."
+  ]
+}

@@ -28,9 +28,7 @@ plaintext requires no repair:
 ANXOHLXOPXXKRONENBEDARFSEHRDRINGENDXBITTETAEGLICHMITGEWOEHNLICHEMFLUGZEUG
 ```
 
-With editorial spacing:
-
-**Readable German:**
+**Readable German — first-part wording; the final ellipsis marks continuation in A2:**
 
 > An OHL, Op. Kronenbedarf sehr dringend. Bitte täglich mit gewöhnlichem Flugzeug …
 
@@ -60,9 +58,7 @@ with **D**, producing the missing `I` in `FELDKRIEGSKASSE`. Indices are
 zero-based. The candidate encrypts exactly to the certified repaired
 ciphertext; no coordinate is inserted or removed in this part.
 
-With editorial spacing, continuing A1:
-
-**Readable German:**
+**Readable German — second-part wording; the ellipses mark its joins with A1 and A3:**
 
 > … eine Million Kronen abwechselnd nach Kronstadt u. Hermannstadt. Feldkriegskasse …
 

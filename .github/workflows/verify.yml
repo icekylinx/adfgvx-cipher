@@ -152,6 +152,13 @@ jobs:
           python experiments/p108_naval_and_personnel/verify.py --verify
           python data/reviews/verify_followup_readings.py --verify
           python experiments/p107_railway_and_dragoman/verify.py --verify
+          python experiments/nov4_repetition_and_connections/verify.py --verify
+          python experiments/nov2_acknowledgments_and_personnel/verify.py --verify
+          python experiments/nov30_radio_personnel/verify.py --verify
+          python experiments/nov27_receiving_instructions/verify.py --verify
+          python experiments/nov16_18_command_inquiries/verify.py --verify
+          python experiments/nov6_ringbahn_key_witnesses/verify.py --verify
+          python experiments/warsaw_station_missing_row/verify.py --verify
           python experiments/romanian_pacification_consultation/verify.py --verify
           python experiments/nov1_mackensen_and_orient_reports/verify.py --verify
           python experiments/nov1_ammunition_and_leave/verify.py --verify
@@ -162,6 +169,18 @@ jobs:
           python experiments/nov9_urgent_embassy_address/verify.py --verify
           python experiments/odd_fragment_diagnostics/verify.py --verify
           python experiments/nov8_radio_keys_and_reports/parallel_witnesses.py --verify
+          python experiments/armistice_departure_copy/verify.py --verify
+          python experiments/home_departures_baltic_transport/verify.py --verify
+          python experiments/mackensen_withdrawal_part2/verify.py --verify
+          python experiments/namur_cassel_armistice_requests/verify.py --verify
+          python experiments/nov4_radio_and_departure_queries/verify.py --verify
+          python experiments/nov7_derailment_and_trains/verify.py --verify
+          python experiments/nov7_eighth_part_repetition/verify.py --verify
+          python experiments/oberost_troop_movement_obliterations/verify.py --verify
+          python experiments/schorlemer_demobilization_inquiry/verify.py --verify
+          python experiments/september_radio_instructions/verify.py --verify
+          python experiments/siegfried_assignment_cancellation/verify.py --verify
+          python experiments/staatsbank_accounting_cheques/verify.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |
           python experiments/p198_word_search/verify.py

@@ -12,9 +12,14 @@ published most of the reconstructed body in their 2016 paper, Table 3.
 The present contribution is an exact source edition, repair accounting,
 and the recovery of the report's assembly from separately received pieces.
 
-There are **twelve surviving physical parts** here: eleven readable editions
-and one heavily jammed ending retained as raw partial evidence. Part 2 is
-absent and is not back-translated from the historical English translation.
+The original package below retains **twelve physical parts**: eleven readable
+editions and one heavily jammed ending. The separately received
+[second part, p118 A2](mackensen_withdrawal_part2.md), has now been located
+and source-reviewed, so all thirteen numbered parts have a source entry.
+Its 189-position reading uses one explicitly modeled missing coordinate
+and thirteen observed-coordinate substitutions; its place-name defects
+remain literal. The original twelve-record evidence and totals below stay
+unchanged, and the second part has its own repair certificate.
 The period square and column ranks remain the published **Nov1–3** key.
 
 ## Why part 9 belongs here

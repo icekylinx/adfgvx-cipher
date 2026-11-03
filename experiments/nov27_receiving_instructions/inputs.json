@@ -1,0 +1,203 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Radio reception instructions and a brief no-events report",
+  "case": "cases/radio/nov27_receiving_instructions.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p224_reviewed.png",
+      "pdf_page_1based": 227,
+      "crop_pdf_points": [
+        70,
+        145,
+        530,
+        453
+      ],
+      "render_scale": 3,
+      "sha256": "a38ca204558b01cfc73c89a08a48847f222215dd18d9424fa9c00318e962c2fc",
+      "width": 1380,
+      "height": 924,
+      "channels": 3,
+      "rgb_sha256": "a4f432667d29fcfafd731ce297bea49ec7e87a409372d2ea9ff013b0826cc553"
+    }
+  ],
+  "keys": {
+    "Nov25-28": {
+      "id": "Nov25-28",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        21,
+        9,
+        6,
+        14,
+        10,
+        20,
+        1,
+        16,
+        18,
+        7,
+        15,
+        4,
+        11,
+        22,
+        5,
+        17,
+        23,
+        2,
+        12,
+        8,
+        19,
+        3,
+        13
+      ],
+      "column_count": 23,
+      "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+      "square_rows": [
+        "HQ05DK",
+        "ZAOYM6",
+        "BEIWTJ",
+        "7PSCFL",
+        "V94132",
+        "NGURX8"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  },
+  "records": [
+    {
+      "id": "p224_A1",
+      "printed_page": 224,
+      "source_section": "A1",
+      "title": "Use especially good radio listeners and send clearly",
+      "source_rows": [
+        "FVFFF XFDFV XVADD FGAGD GFXDX AGADV DFGAG FFGXA",
+        "XDFDD XFFDG AFFVA DDFGX AFDFD FFAFF AGFFG FGFFF",
+        "AFADF XVFV- DXVFF XADXD FAVDF FAFFD AAXFF VXACX",
+        "FFXFX GXAXG XDFDF FDDVG DXAXF GDXDG VGDDV VFVFD",
+        "XDGDD ADXFF DFDFF AFAFA GVFDX DDDFD AFXVA VVFFX",
+        "DGAGV AFFAG GXAAD FDFVD AFFXA DFXFA FVGVX VX-"
+      ],
+      "source_slots": 238,
+      "advertised_length": 238,
+      "key_id": "Nov25-28",
+      "header_literal": "A) BSL v UKS (11.20 p.m., November 27th); 172- 2 TLE; 1 TL RIZI-238",
+      "expected_raw": "BITTESTATIONOITBESONDERS9UTENHOERERNZUBESETZENXMAESSIGS?HNELLXDEUTLICDEZEICHENING?UPPENATSTAENDENZUSGNDENXDAFUN?STATION",
+      "edited_output": "BITTESTATIONMITBESONDERSGUTENHOERERNZUBESETZENXMAESSIGSCHNELLXDEUTLICHEZEICHENINGRUPPENABSTAENDENZUSENDENXDAFUNKSTATION",
+      "readable_german": "Bitte Station mit besonders guten Hoerern zu besetzen. Maessig schnell, deutliche Zeichen in Gruppenabstaenden zu senden. Da Funkstation",
+      "meaning": "Staff the station with especially good listeners; transmit at a moderate speed with clear signs and spaces between groups. The sentence continues in part 2.",
+      "notes": [
+        "The literal noncoordinate C in VXACX is masked, together with the two printed dashes; none is silently accepted as an ADFGVX coordinate.",
+        "The source ends VX- and contains the complete five-slot group VFVFD. Restoring these actually printed slots to the OCR record is not adding historical coordinates."
+      ],
+      "separator_label": "X",
+      "source_variants": [],
+      "expected_substitutions": 5,
+      "expected_source_mask_fills": 3
+    },
+    {
+      "id": "p224_A2",
+      "printed_page": 224,
+      "source_section": "A2",
+      "title": "Only secure link home and preferred reception wavelength",
+      "source_rows": [
+        "ADXDG DFGVX DFFGG FGVGD XFDDF DFFXX GGFVX VFVFD",
+        "FVAVG AFXVD VFXFF FXFAD GDFAF GGDXX GFAFG FFFXF",
+        "DFDFV GGGGX VFGGF XGAFF XVAAX FGXAF VDDGV DGAFF",
+        "FDAFA VXGGD FFDFF FGAFF DDXDX AFDFD FGGFG AFGFX",
+        "DDGVF DDDXX AFVXD X"
+      ],
+      "source_slots": 176,
+      "advertised_length": 176,
+      "key_id": "Nov25-28",
+      "header_literal": "A) same two-part telegram; 2 TL RICHI-176",
+      "expected_raw": "EINQIGESXSICERESN6CHRICHTENMITTELMITHEIMATXWELCHESTOERUNGSFREIEEMPFANGSWELLEERWUENSCHTXX",
+      "edited_output": "EINZIGESXSICERESNACHRICHTENMITTELMITHEIMATXWELCHESTOERUNGSFREIEEMPFANGSWELLEERWUENSCHTXX",
+      "readable_german": "einziges, siceres Nachrichtenmittel mit Heimat. Welche stoerungsfreie Empfangswelle erwuenscht?",
+      "meaning": "The radio station is described as the only secure communication link with home; the recipient is asked which interference-free receiving wavelength is desired.",
+      "notes": [
+        "SICERES is retained exactly in the edited output and readable text. The intended word is plausibly [sicheres], but supplying H would add a plaintext position and is not claimed by this native-frame edition.",
+        "The two changed labels are Q to Z in EINQIGES and 6 to A in N6CHRICHTEN; the latter is a disclosed word repair, not a global reassignment of the square label 6."
+      ],
+      "separator_label": "X",
+      "source_variants": [],
+      "expected_substitutions": 3,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p224_B",
+      "printed_page": 224,
+      "source_section": "B",
+      "title": "Brief report of no special events",
+      "source_rows": [
+        "FVGVV FGFAX AXVXD FGVFF DGFGA FFXFF DXVVD XXAFD",
+        "DVAFX DFDXA FVVGA FDXXA DFFXX ADGXX DDXVX VGXDF",
+        "DDFDF XVGAX XF"
+      ],
+      "source_slots": 92,
+      "advertised_length": 92,
+      "key_id": "Nov25-28",
+      "header_literal": "26th NOVEMBER, 1918; B) UKS v ZON (07.51 a.m., November 26th); 0800; RICHI-92",
+      "expected_raw": "MMRENMOLDUNG17XJJXXKETNEBESOGDERENERETGNISSEXX",
+      "edited_output": "MORENMELDUNG17XJJXXKEINEBESONDERENEREIGNISSEXX",
+      "readable_german": "Morenmeldung 17XJJ. Keine besonderen Ereignisse.",
+      "meaning": "A short report says there are no special events. Its apparent morning-report heading lacks a letter in this source-length reading; the field 17XJJ stays literal.",
+      "notes": [
+        "MORENMELDUNG is retained, rather than silently lengthened to [Morgenmeldung]. The 92 source slots permit 46 plaintext positions, not 47.",
+        "The raw date-like field 17XJJ is not changed to match the printed 26 November heading. The two date layers are reported separately."
+      ],
+      "separator_label": "X",
+      "source_variants": [],
+      "expected_substitutions": 6,
+      "expected_source_mask_fills": 0,
+      "protected_fields": [
+        "17XJJ"
+      ]
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "4906f479ff930807c52a7763ac0e8929056465818f9687a0e49e1218feff0fe6",
+    "ocr_snapshot.json": "3f996d3dde1115451c8479b76b84f3a305f5b5bb466673972dec6901253f54a8"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are preserved separately. This is a source edition and explicit repair review, not a claim of universal first-decipherment priority.",
+  "limits": [
+    "All source slots are used in order; no missing group, inserted coordinate, deletion, swap or transposition change is proposed.",
+    "Digits and rare-letter labels remain literal; output agreement under a stated square does not establish historical numeral values.",
+    "Source-image comparison authenticates crop location and bytes, not the historical correctness of a proposed editorial word."
+  ]
+}

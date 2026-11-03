@@ -1,0 +1,238 @@
+{
+  "schema": "adfgvx-caption-cleanup-review-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "scope": "Remove redundant adjacent reading captions and clarify excerpt/continuation marks in existing cases. All literal fences, quoted readings, existing headings and prior inline evidence are preserved. The exact reversible replacements and whole-file before/after digests retain the edit record.",
+  "limits": "Caption and prose clarification only; no plaintext recovery, source transcription, key, repair or interpretation assumption is changed.",
+  "summary": {
+    "case_files": 13,
+    "fenced_blocks_preserved": 58,
+    "quoted_displays_preserved": 30,
+    "existing_headings_preserved": 74,
+    "existing_inline_tokens_preserved": 278
+  },
+  "files": [
+    {
+      "path": "cases/p153a.md",
+      "before_sha256": "1b210cf8cab151f88a7097abdf593ad70d0fcaddae9f51df247f328942042ba0",
+      "after_sha256": "4aefd6a497381aeaf1b6200c205c2bc72b63eb5d85c249e722beeed1335f29a5",
+      "changes": [
+        {
+          "before": "**Readable German — partial text with linked unresolved fields.** The displayed variables below are labels for unknown square cells, not recovered letters or digits. Word spacing does not choose a date or serial.",
+          "after": "The partial text uses linked unresolved fields. The displayed variables below are labels for unknown square cells, not recovered letters or digits. Word spacing does not choose a date or serial.",
+          "occurrences": 1
+        }
+      ],
+      "fenced_blocks_preserved": 2,
+      "quoted_displays_preserved": 0,
+      "existing_headings_preserved": 6,
+      "existing_inline_tokens_preserved": 13
+    },
+    {
+      "path": "cases/context/radio_instructions.md",
+      "before_sha256": "57446bf4bdfae515aed12fc476e69c6cfac2cbb933b2022fee4e18ecdcd20c02",
+      "after_sha256": "ba7ca3b9e18efbb07bb8f2c0d2f64faeb9cec26495b4a9940f0e47aac640970d",
+      "changes": [
+        {
+          "before": "**Most likely reading:**\n\n**Readable German:**",
+          "after": "**Readable German — most likely reading:**",
+          "occurrences": 2
+        }
+      ],
+      "fenced_blocks_preserved": 2,
+      "quoted_displays_preserved": 2,
+      "existing_headings_preserved": 4,
+      "existing_inline_tokens_preserved": 9
+    },
+    {
+      "path": "cases/caucasus/october_staffing.md",
+      "before_sha256": "19f9526e25b7338a499ab5b4055d0cfb38a1bb764a342bd5dfd2bca41a3ba6e3",
+      "after_sha256": "9abda46fb76e2ef2f35dc1ccc068df26697a9ba9f93c75555dd1191fa77a8c29",
+      "changes": [
+        {
+          "before": "**Most likely German reading, with abbreviation and reference fields retained:**\n\n**Readable German:**",
+          "after": "**Readable German — most likely reading, with abbreviation and reference fields retained:**",
+          "occurrences": 1
+        }
+      ],
+      "fenced_blocks_preserved": 2,
+      "quoted_displays_preserved": 4,
+      "existing_headings_preserved": 7,
+      "existing_inline_tokens_preserved": 56
+    },
+    {
+      "path": "cases/caucasus/october_requests.md",
+      "before_sha256": "18eb45956e9a94cff85debc0a3d6b02a8c9cfcdbe404a8f99a36531aca385dcc",
+      "after_sha256": "094f2833e0bbb297d3787b0c43d0875163bab565127b57972dbb22a4dc0c7092",
+      "changes": [
+        {
+          "before": "**Editorial German reading:**\n\n**Readable German:**",
+          "after": "**Readable German — editorial reading:**",
+          "occurrences": 1
+        }
+      ],
+      "fenced_blocks_preserved": 4,
+      "quoted_displays_preserved": 4,
+      "existing_headings_preserved": 6,
+      "existing_inline_tokens_preserved": 64
+    },
+    {
+      "path": "cases/finance/crown_airlift.md",
+      "before_sha256": "beb2398a219d031693cf2602aea07bfede5d8bbab82fd4760f8335266184714b",
+      "after_sha256": "0e6cbfc0c2a0bad4123fcd08986ac8d6d0dcb12455e7d7ad79e03b4cff5b5ec3",
+      "changes": [
+        {
+          "before": "With editorial spacing:\n\n**Readable German:**",
+          "after": "**Readable German — first-part wording; the final ellipsis marks continuation in A2:**",
+          "occurrences": 1
+        },
+        {
+          "before": "With editorial spacing, continuing A1:\n\n**Readable German:**",
+          "after": "**Readable German — second-part wording; the ellipses mark its joins with A1 and A3:**",
+          "occurrences": 1
+        }
+      ],
+      "fenced_blocks_preserved": 6,
+      "quoted_displays_preserved": 3,
+      "existing_headings_preserved": 6,
+      "existing_inline_tokens_preserved": 16
+    },
+    {
+      "path": "cases/finance/military_allowances.md",
+      "before_sha256": "2536921634193859fef50efa1b9ca83e32f09363e6a1640ebbcd4064c8361ed4",
+      "after_sha256": "3ca5a858128fc95d0e27de39dfdd597636d71a331e2705b1c854d0e913a7c988",
+      "changes": [
+        {
+          "before": "**one coordinate substitution**. The substantive reading is:\n\n**Readable German:**",
+          "after": "**one coordinate substitution**.\n\n**Readable German — body excerpt; the closing reference is retained immediately below:**",
+          "occurrences": 1
+        }
+      ],
+      "fenced_blocks_preserved": 7,
+      "quoted_displays_preserved": 4,
+      "existing_headings_preserved": 6,
+      "existing_inline_tokens_preserved": 20
+    },
+    {
+      "path": "cases/military/p175_c3_withdrawal_followup.md",
+      "before_sha256": "d16ffedeec1d3ff4c07df8cfccc1325faec0dbc112149296b6596293ab04af59",
+      "after_sha256": "2ce1e1fd2a5621841bd86116f83404ee6cd152248f9e212f7d421f03d4d60260",
+      "changes": [
+        {
+          "before": "**Readable German — punctuation and word spacing of that candidate:**",
+          "after": "**Readable German — punctuation and word spacing of the conditional candidate; the final ellipsis marks continuation into the next part:**",
+          "occurrences": 1
+        }
+      ],
+      "fenced_blocks_preserved": 3,
+      "quoted_displays_preserved": 1,
+      "existing_headings_preserved": 5,
+      "existing_inline_tokens_preserved": 7
+    },
+    {
+      "path": "cases/military/orient_intelligence.md",
+      "before_sha256": "02de761db962b5f879e1d58085e3ef3c135aa62a7be80530b7dd17ce6cf1276f",
+      "after_sha256": "ef25b2892f99db8c26025d1283f408523b86ecea3fcfa4b90c345961636206fb",
+      "changes": [
+        {
+          "before": "With editorial spacing, continuing A5:\n\n**Readable German:**",
+          "after": "**Readable German — continuation of A5; the leading ellipsis does not mark a missing position in A6:**",
+          "occurrences": 1
+        }
+      ],
+      "fenced_blocks_preserved": 9,
+      "quoted_displays_preserved": 2,
+      "existing_headings_preserved": 8,
+      "existing_inline_tokens_preserved": 40
+    },
+    {
+      "path": "cases/context/p186.md",
+      "before_sha256": "560519d0e58c995a13b7b59572c9bf6ede3ce320f628f268e281d52ba3b723d6",
+      "after_sha256": "3ed3b6029beae4af10e9528d176854e86cc39e706274dadbcbe21d78179bd554",
+      "changes": [
+        {
+          "before": "**Readable German:**",
+          "after": "**Readable German — body interpretation; the final ellipsis omits the unresolved administrative ending shown in Part 2:**",
+          "occurrences": 1
+        }
+      ],
+      "fenced_blocks_preserved": 3,
+      "quoted_displays_preserved": 1,
+      "existing_headings_preserved": 5,
+      "existing_inline_tokens_preserved": 8
+    },
+    {
+      "path": "cases/p189.md",
+      "before_sha256": "d4971aa3acf768c3032b0623ed4bb267fa539a33fcadef32bfd4b9297b12f830",
+      "after_sha256": "224b89fff86641b643e7f64b3e376d4ebbb4f0edef37865bfe8f54c918452d30",
+      "changes": [
+        {
+          "before": "**Readable German — associated complete message; no full p189 recovery asserted:**",
+          "after": "**Readable German — body excerpt from the associated message; no full p189 recovery asserted:**",
+          "occurrences": 1
+        }
+      ],
+      "fenced_blocks_preserved": 2,
+      "quoted_displays_preserved": 1,
+      "existing_headings_preserved": 4,
+      "existing_inline_tokens_preserved": 10
+    },
+    {
+      "path": "cases/caucasus/poti_horse_delivery.md",
+      "before_sha256": "f03840dcb75b0e5d632632f8e101775bdc38fed560a6b4deac82cdb3a2c4e805",
+      "after_sha256": "0944c1b4ba10f5fbd5cef50e224390769dfa12e9d0b765850c371975d3890035",
+      "changes": [
+        {
+          "before": "**Readable German — spacing of the conservative candidate, with its opaque ending retained:**",
+          "after": "**Readable German — spacing of the conservative partial candidate, with its opaque ending retained:**",
+          "occurrences": 1
+        },
+        {
+          "before": "The leading ellipsis marks missing syntactic context from the unresolved\nfirst part, not an added coordinate gap in A2.",
+          "after": "The leading ellipsis marks missing syntactic context from the unresolved\nfirst part, not an added coordinate gap in A2. The closing ellipsis marks\nthe unfinished syntax; it does not hide further decoded A2 labels.",
+          "occurrences": 1
+        }
+      ],
+      "fenced_blocks_preserved": 5,
+      "quoted_displays_preserved": 2,
+      "existing_headings_preserved": 5,
+      "existing_inline_tokens_preserved": 12
+    },
+    {
+      "path": "cases/p158.md",
+      "before_sha256": "fc5cb5ac3046b0263f4437a2797b484bd611dea2b159cd29d8ca7a75b4c629ed",
+      "after_sha256": "6660177b5d2df1a64b3b3a5046141d268896eecb040f2ef555d9bb2a7e2d62bc",
+      "changes": [
+        {
+          "before": "**Readable German — component reconstruction; bracketed expansions remain editorial:**",
+          "after": "**Readable German — excerpt of the component reconstruction; bracketed expansions remain editorial:**",
+          "occurrences": 2
+        },
+        {
+          "before": "**Meaning:** Route messages through the Bavarian command in Munich,",
+          "after": "In both displays, `[…]` omits damaged or unexpanded administrative fields.\nThe exact component witnesses below retain their labels and positions.\n\n**Meaning:** Route messages through the Bavarian command in Munich,",
+          "occurrences": 1
+        }
+      ],
+      "fenced_blocks_preserved": 3,
+      "quoted_displays_preserved": 2,
+      "existing_headings_preserved": 5,
+      "existing_inline_tokens_preserved": 5
+    },
+    {
+      "path": "cases/military/black_sea_evacuation_routes.md",
+      "before_sha256": "dd2d6a1f33b63caeaabc678e57d31e4e886c0510ffae8d6723a72a502122930a",
+      "after_sha256": "d927b6f3fec474308494ad47c955714c2fc83a79f0742af4a1d9794ac03fd64a",
+      "changes": [
+        {
+          "before": "**Readable German — spacing and punctuation; the clause continues into part2:**",
+          "after": "**Readable German — spacing and punctuation; the clause continues into part 2:**",
+          "occurrences": 1
+        }
+      ],
+      "fenced_blocks_preserved": 10,
+      "quoted_displays_preserved": 4,
+      "existing_headings_preserved": 7,
+      "existing_inline_tokens_preserved": 18
+    }
+  ]
+}

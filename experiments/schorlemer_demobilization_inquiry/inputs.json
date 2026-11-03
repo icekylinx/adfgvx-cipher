@@ -1,0 +1,312 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Von Schorlemer: demobilization work inquiry and reply",
+  "case": "cases/people/schorlemer_demobilization_inquiry.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p122_reviewed.png",
+      "pdf_page_1based": 125,
+      "crop_pdf_points": [
+        95,
+        288,
+        530,
+        475
+      ],
+      "render_scale": 3,
+      "sha256": "56198a62e49d36def433505578ed43be99d16f81cecf57fa5d5bc802335f308d",
+      "width": 1305,
+      "height": 561,
+      "channels": 3,
+      "rgb_sha256": "3f5697f3c5f69c211388bc6a649b731395a69de12232c0d78545c5b3d7fb83d4"
+    },
+    {
+      "path": "sources/p155_reviewed.png",
+      "pdf_page_1based": 158,
+      "crop_pdf_points": [
+        65,
+        413,
+        520,
+        490
+      ],
+      "render_scale": 3,
+      "sha256": "6e6944484d5cfdb65f71e4477fbe6868b88a58ae45f4517fd795e526a1217944",
+      "width": 1365,
+      "height": 231,
+      "channels": 3,
+      "rgb_sha256": "f356023c58ef7f3b76167442cb28ec27849cc6e1155ff89851f91d0941f28d42"
+    }
+  ],
+  "keys": {
+    "Nov4-6": {
+      "id": "Nov4-6",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ],
+      "column_count": 17,
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "square_rows": [
+        "17WHFL",
+        "J5D2UP",
+        "EXKVZ9",
+        "O0Q3Y6",
+        "R8ABGI",
+        "TCMS4N"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 240,
+          "pdf_page_1based": 243,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [
+        "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+      ],
+      "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    "Nov7-9": {
+      "id": "Nov7-9",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ],
+      "column_count": 20,
+      "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "square_rows": [
+        "PRMYUW",
+        "3LZGES",
+        "8C71QO",
+        "V29ITB",
+        "40?KXH",
+        "?AJNDF"
+      ],
+      "known_cell_count": 34,
+      "missing_plaintext_symbols": "56",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 241,
+          "pdf_page_1based": 244,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+      ],
+      "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "baseline_differences": [
+        {
+          "coordinate": "VF",
+          "baseline": "5",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XA",
+          "baseline": "6",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-01",
+        "comment": 20,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "VF",
+            "proposed": "5"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "6"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p122_B",
+      "title": "Trade Minister asks whether von Schorlemer can join demobilization work",
+      "key_id": "Nov4-6",
+      "header_literal": "B) NKJ v LP (08.40 p.m., November 4th); FUER UKS 1400 (4). OBERLEUTNANT VON SCHORLEMER OBERKOMMANDO M VERWALTUNGSSTAB; RICHI-252",
+      "edited_output": "ERBITTERUECKANTWORTDURCHFUNKSPRUCHOBSIEZURBESCHAEFTIGUNGIMHANDELSMINISTERIUMXDEMOBILMACHUNGSGRUPPEXABKOEMMLICHXHANDELSMINISTER",
+      "readable_german": "Erbitte Rueckantwort durch Funkspruch, ob Sie zur Beschaeftigung im Handelsministerium, Demobilmachungsgruppe, abkoemmlich. Handelsminister.",
+      "meaning": "The Trade Minister asks for a radio reply on whether the addressee can be released for work in the ministry demobilization group. The clear header names First Lieutenant von Schorlemer at the Oberkommando M administrative staff.",
+      "notes": [
+        "The source contains 33 printed dashes, including six complete masked groups. They are part of the native 252-slot frame. Their supplied values are editorial source-mask fills, not recovered visible coordinates.",
+        "The five observed-coordinate substitutions are separately priced. They repair word-level corruptions; there is no source insertion or change of key.",
+        "The clear address is an independent source witness for the surname in the later p155 B response. The two bodies were enciphered under different published period keys."
+      ],
+      "printed_page": 122,
+      "source_section": "B",
+      "source_rows": [
+        "XVVDX AXAAG VFFDG DADGV AVXFF VFFFV DDFXG DFXAA",
+        "XXFVX XXAFF VGVGV DVAFA AGXVA FVVAG VDXAX FVXFG",
+        "VXVAX AAFXF VXVGG VFVDV AGDVV AXXVA VXXFX XFGXA",
+        "XDDVF XXVV- VXAAA FAXAF XXXDF DAAXG FFXGX VFAXG",
+        "DGXXV VAD-- ----- ----- ----- ----- ----- -----",
+        "DGFDD AVXFA AVDAX FDXXF XXVVF DGVDX AFFDX XXXAG",
+        "VAAXG XFXVF GX"
+      ],
+      "source_slots": 252,
+      "advertised_length": 252,
+      "expected_raw": "E?BI?TERUE?KA?TFOT?DU?CHFUN?SP?UCHO?SI?ZU?BE?CH?E?TI?UN?IM?ANDEL?M?NISTE?GU?XDEMO?I?MACHU??S?RPPPE?A?KOESM?IC?XHAND?L?MINIS?ER",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 5,
+      "expected_source_mask_fills": 33
+    },
+    {
+      "id": "p155_B",
+      "title": "Von Schorlemer cannot currently be released from the administrative staff",
+      "key_id": "Nov7-9",
+      "header_literal": "B) LP v NKJ (7.09 p.m., November 7th); 0800 VON UKS (7/11); RICHI-160",
+      "edited_output": "HANDELSMINISTERBERLINXOBLTXVXSCHORLEMERXZXZEITHIERNICHTABKOEMMLICHXOKMXVERWXSTAB",
+      "readable_german": "Handelsminister Berlin. Oblt. v. Schorlemer z. Zeit hier nicht abkoemmlich. OKM Verw. Stab.",
+      "meaning": "The administrative staff informs the Trade Minister in Berlin that First Lieutenant von Schorlemer cannot currently be released.",
+      "notes": [
+        "The source visibly prints four dashes. The 160-slot native frame is unchanged.",
+        "The name repair SCKORLEMER to SCHORLEMER is supported by the independent clear p122 B address, not by a guessed biography. No first name or unique historical person is supplied.",
+        "The exchange concerns availability for duty; it does not itself establish that a reassignment or recall actually occurred."
+      ],
+      "printed_page": 155,
+      "source_section": "B",
+      "source_rows": [
+        "XGFFD -DDAA GDGVF GDGGD GXVVG GXVDV FXVVX DVXGD",
+        "VGXFD XAVXD VVVG- GDADD GGFAD DVAVG VDGDV DVXGD",
+        "GVXXF DDVGG GDFGF VXVVF -XVXV DDDGV DXDXV GVGF-",
+        "XDGAD VGAFD AVGGX VDXVV VDGVX GDVAD AGGDV ADFVX"
+      ],
+      "source_slots": 160,
+      "advertised_length": 160,
+      "expected_raw": "KANDELSMINISTERBERLINXOBLTXVXSCKORLEMERXZXZEIT?IERNI?HTABKOEM?LICKXOKMX?ERWXSTAB",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 3,
+      "expected_source_mask_fills": 4
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "16465a6d0cf0a452cc0bdf7fea157da92e02b1c4909ba94995c9b269e31599e7",
+    "ocr_snapshot.json": "f7d2e7b2d4200672fdb938fd958165920e121d5f3cc0113c4465fe94a4474be5"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All source slots are preserved in their native order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Witness completions are explicitly nonhistorical.",
+    "Source-mask fills and observed-coordinate substitutions are recorded separately; a source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

@@ -15,6 +15,21 @@ solved original ciphertexts. [Each case](../cases/README.md) states its own
 status and supplies its most likely readable interpretation where one is
 defensible.
 
+
+## Latest continuation
+
+The page-number index now reaches the newly source-reviewed editions, while
+the exact cumulative counts remain in the linked inventory. New evidence
+includes the [missing second part of Mackensen’s report](../cases/military/mackensen_withdrawal_part2.md),
+[mutually supporting Ringbahn key-instruction copies](../cases/radio/nov6_ringbahn_key_witnesses.md),
+and the [Meier order’s one-coordinate completion](../cases/people/meier_berlin_order.md).
+The [Siegfried cancellation](../cases/people/siegfried_assignment_cancellation.md)
+requires removing a surplus coordinate at the intermediate stage, with a
+full forward witness preserving the stated transmission model. The
+[p151/p157 comparison](../cases/military/armistice_departure_copy.md)
+supports one closing correction and separately prices a contextual ending;
+its copied prefix is never counted as raw p157 recovery.
+
 ## What the latest work establishes
 
 | Result | Evidence gained | What remains unresolved |

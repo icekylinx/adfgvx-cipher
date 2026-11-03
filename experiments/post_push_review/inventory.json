@@ -1,23 +1,23 @@
 {
   "schema": "adfgvx-post-publication-review-v1",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "inputs_sha256": "8f6c5c6938b0bd8c22e2c089eefcca8eea49e492a9712d6c93647fbddfc1b99a",
+  "inputs_sha256": "b8e3ff21dcf50ac3ea3676a489aca54b1db5f674055a2607b7a310f49d0ce191",
   "review_state": "in_progress",
   "initial_push_confirmed_utc": "2026-11-02T23:27:19Z",
   "minimum_followup_end_utc": "2026-11-03T01:27:19Z",
-  "extended_work_until_utc": "2026-11-03T03:30:00Z",
+  "extended_work_until_utc": "2026-11-03T05:30:00Z",
   "review_finished_utc": null,
   "completed_elapsed_seconds_after_push": null,
   "catalogue": {
     "challenge_entries": 22,
     "other_records_before": 195,
-    "other_records_after": 471,
-    "new_physical_records": 276,
+    "other_records_after": 527,
+    "new_physical_records": 332,
     "removed_records": [],
     "prior_metadata_changes_other_than_paths": [],
     "canonical_path_updates": 164
   },
-  "source_package_count": 75,
+  "source_package_count": 94,
   "new_case_pages": [
     "cases/caucasus/caucasus_ammunition_loading.md",
     "cases/caucasus/caucasus_radio_transmitters.md",
@@ -26,6 +26,7 @@
     "cases/caucasus/poti_horse_delivery.md",
     "cases/caucasus/representative_retention.md",
     "cases/caucasus/tiflis_pioneer_detachment.md",
+    "cases/finance/cash_arrival_acknowledgment.md",
     "cases/finance/caucasus_hide_purchasing.md",
     "cases/finance/crown_airlift.md",
     "cases/finance/crown_banknote_completion.md",
@@ -37,9 +38,11 @@
     "cases/finance/oil_cartel_dispatch_query.md",
     "cases/finance/premium_payment_stop.md",
     "cases/finance/ruble_rate_companions.md",
+    "cases/finance/staatsbank_accounting_cheques.md",
     "cases/finance/zitag_purchase_orders.md",
     "cases/military/armistice_and_leave_orders.md",
     "cases/military/armistice_clause_witnesses.md",
+    "cases/military/armistice_departure_copy.md",
     "cases/military/armistice_provisions_requests.md",
     "cases/military/armistice_transit_planning.md",
     "cases/military/black_sea_disembarkation.md",
@@ -48,6 +51,7 @@
     "cases/military/chemnitz_verbetz_trains.md",
     "cases/military/dobrudscha_report.md",
     "cases/military/formation_dissolution.md",
+    "cases/military/home_departures_baltic_transport.md",
     "cases/military/hungarian_armistice_instructions.md",
     "cases/military/hungary_transport_warning.md",
     "cases/military/kiew_morning_and_pioneer_reports.md",
@@ -55,16 +59,20 @@
     "cases/military/liman_troop_reports.md",
     "cases/military/mackensen_armistice_appeal.md",
     "cases/military/mackensen_subordination.md",
+    "cases/military/mackensen_withdrawal_part2.md",
     "cases/military/mackensen_withdrawal_report.md",
     "cases/military/medical_return_transports.md",
     "cases/military/mg08_inventory.md",
     "cases/military/military_intendant_remit.md",
+    "cases/military/namur_cassel_armistice_requests.md",
     "cases/military/neuhof_demobilization.md",
     "cases/military/nov10_danube_field_report.md",
     "cases/military/nov3_evening_report.md",
     "cases/military/nov3_withdrawal_and_night_report.md",
+    "cases/military/nov7_derailment_and_trains.md",
     "cases/military/nov7_fragment_and_acknowledgment.md",
     "cases/military/nov8_alpenkorps_report.md",
+    "cases/military/oberost_troop_movement_obliterations.md",
     "cases/military/orient_intelligence.md",
     "cases/military/orient_south_slav_reports.md",
     "cases/military/p175_c3_withdrawal_followup.md",
@@ -84,19 +92,25 @@
     "cases/military/turkish_armistice_straits_notice.md",
     "cases/military/turkish_mission_recall.md",
     "cases/military/wallachia_withdrawal_preparations.md",
+    "cases/naval/motorboat_sale_attempt.md",
     "cases/naval/reval_steamer_notice.md",
     "cases/people/awaloff_return_request.md",
     "cases/people/constantinople_embassy_signature.md",
     "cases/people/constantinople_urgent_address.md",
+    "cases/people/director_departure_query.md",
     "cases/people/dunst_assignment.md",
     "cases/people/mecklenburg_inquiry.md",
     "cases/people/medical_company_inquiry.md",
     "cases/people/medical_return_to_unit.md",
+    "cases/people/meier_berlin_order.md",
     "cases/people/military_mission_recalls.md",
     "cases/people/namur_order_witnesses.md",
     "cases/people/roesler_leave_and_travel.md",
     "cases/people/rudolf_discharge.md",
     "cases/people/schaefer_return_inquiry.md",
+    "cases/people/schorlemer_demobilization_inquiry.md",
+    "cases/people/sevastopol_transfer_consent.md",
+    "cases/people/siegfried_assignment_cancellation.md",
     "cases/people/spa_berlin_delegates.md",
     "cases/radio/apparatus_sale_request.md",
     "cases/radio/constantinople_address_parts.md",
@@ -112,28 +126,40 @@
     "cases/radio/nazareth_front_inquiry.md",
     "cases/radio/newspaper_dispatch.md",
     "cases/radio/newspaper_dispatch_witnesses.md",
+    "cases/radio/nov16_18_command_inquiries.md",
     "cases/radio/nov1_contact_and_mail.md",
+    "cases/radio/nov27_receiving_instructions.md",
+    "cases/radio/nov2_telegram_acknowledgments.md",
+    "cases/radio/nov2_uks_connection.md",
+    "cases/radio/nov30_radio_personnel.md",
     "cases/radio/nov3_ringbahn_notice.md",
     "cases/radio/nov3_transmission_schedule.md",
+    "cases/radio/nov4_eilvese_and_setup.md",
+    "cases/radio/nov4_repetition_and_connections.md",
+    "cases/radio/nov6_ringbahn_key_witnesses.md",
+    "cases/radio/nov7_eighth_part_repetition.md",
     "cases/radio/opposite_end_deciphering.md",
     "cases/radio/p132_radio_service.md",
     "cases/radio/radio_contacts_and_keys.md",
     "cases/radio/radio_equipment_sale_prices.md",
     "cases/radio/right_rhine_equipment.md",
     "cases/radio/ringbahn_key_reuse.md",
+    "cases/radio/september_key_destruction_order.md",
     "cases/radio/september_radio_procedure.md",
+    "cases/radio/september_tiflis_radio_routing.md",
     "cases/radio/telefunken_staff_inquiry.md",
     "cases/radio/telegram_priority.md",
-    "cases/radio/tiflis_repetition_request.md"
+    "cases/radio/tiflis_repetition_request.md",
+    "cases/radio/warsaw_station_missing_row.md"
   ],
-  "source_image_count": 362,
-  "pinned_artifact_count": 1166,
+  "source_image_count": 405,
+  "pinned_artifact_count": 1362,
   "coverage_totals": {
-    "physical_records": 276,
-    "source_slots": 60778,
-    "modeled_plaintext_positions": 30564,
-    "fixed_raw_label_positions_under_stated_geometry": 29438,
-    "known_coordinate_substitutions": 571
+    "physical_records": 332,
+    "source_slots": 71434,
+    "modeled_plaintext_positions": 35966,
+    "fixed_raw_label_positions_under_stated_geometry": 34580,
+    "known_coordinate_substitutions": 685
   },
   "source_packages": [
     {
@@ -2731,6 +2757,651 @@
         "source_deletions": 0,
         "published_key_changed": false
       }
+    },
+    {
+      "name": "nov4_repetition_and_connections",
+      "record_ids": [
+        "p121_A1",
+        "p121_A2",
+        "p121_B1",
+        "p122_A2",
+        "p122_C"
+      ],
+      "case_pages": [
+        "cases/finance/cash_arrival_acknowledgment.md",
+        "cases/radio/nov4_repetition_and_connections.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 5,
+        "source_slots": 1030,
+        "modeled_plaintext_positions": 515,
+        "fixed_raw_label_positions_under_stated_geometry": 514,
+        "known_coordinate_substitutions": 7
+      },
+      "original_summary": {
+        "physical_records": 5,
+        "printed_source_slots": 1030,
+        "valid_source_coordinates": 1029,
+        "modeled_coordinates": 1030,
+        "plaintext_positions": 515,
+        "baseline_fixed_positions": 514,
+        "candidate_fixed_positions": 515,
+        "known_coordinate_substitutions": 7,
+        "source_or_model_erasure_fills": 1,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov2_acknowledgments_and_personnel",
+      "record_ids": [
+        "p104_A3",
+        "p104_B",
+        "p104_D",
+        "p104_E3",
+        "p105_C1",
+        "p106_A2",
+        "p106_A3"
+      ],
+      "case_pages": [
+        "cases/people/meier_berlin_order.md",
+        "cases/people/sevastopol_transfer_consent.md",
+        "cases/radio/nov2_telegram_acknowledgments.md",
+        "cases/radio/nov2_uks_connection.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 7,
+        "source_slots": 1175,
+        "modeled_plaintext_positions": 588,
+        "fixed_raw_label_positions_under_stated_geometry": 584,
+        "known_coordinate_substitutions": 3
+      },
+      "original_summary": {
+        "physical_records": 7,
+        "printed_source_slots": 1175,
+        "valid_source_coordinates": 1172,
+        "modeled_coordinates": 1176,
+        "plaintext_positions": 588,
+        "baseline_fixed_positions": 584,
+        "candidate_fixed_positions": 587,
+        "known_coordinate_substitutions": 3,
+        "source_or_model_erasure_fills": 3,
+        "source_mask_fills": 2,
+        "inserted_slot_fills": 1,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov30_radio_personnel",
+      "record_ids": [
+        "p230_B",
+        "p230_C",
+        "p230_D",
+        "p230_E"
+      ],
+      "case_pages": [
+        "cases/radio/nov30_radio_personnel.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 490,
+        "modeled_plaintext_positions": 245,
+        "fixed_raw_label_positions_under_stated_geometry": 245,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 490,
+        "valid_source_coordinates": 490,
+        "modeled_coordinates": 490,
+        "plaintext_positions": 245,
+        "baseline_fixed_positions": 245,
+        "candidate_fixed_positions": 245,
+        "known_coordinate_substitutions": 0,
+        "source_or_model_erasure_fills": 0,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov27_receiving_instructions",
+      "record_ids": [
+        "p224_A1",
+        "p224_A2",
+        "p224_B"
+      ],
+      "case_pages": [
+        "cases/radio/nov27_receiving_instructions.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 506,
+        "modeled_plaintext_positions": 253,
+        "fixed_raw_label_positions_under_stated_geometry": 250,
+        "known_coordinate_substitutions": 14
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 506,
+        "valid_source_coordinates": 503,
+        "modeled_coordinates": 506,
+        "plaintext_positions": 253,
+        "baseline_fixed_positions": 250,
+        "candidate_fixed_positions": 253,
+        "known_coordinate_substitutions": 14,
+        "source_or_model_erasure_fills": 3,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov16_18_command_inquiries",
+      "record_ids": [
+        "p202_A1",
+        "p202_A2",
+        "p203_A2",
+        "p203_B",
+        "p204_B",
+        "p204_C1",
+        "p204_D"
+      ],
+      "case_pages": [
+        "cases/radio/nov16_18_command_inquiries.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 7,
+        "source_slots": 1070,
+        "modeled_plaintext_positions": 535,
+        "fixed_raw_label_positions_under_stated_geometry": 517,
+        "known_coordinate_substitutions": 9
+      },
+      "original_summary": {
+        "physical_records": 7,
+        "printed_source_slots": 1070,
+        "valid_source_coordinates": 1064,
+        "modeled_coordinates": 1070,
+        "plaintext_positions": 535,
+        "baseline_fixed_positions": 517,
+        "candidate_fixed_positions": 526,
+        "known_coordinate_substitutions": 9,
+        "source_or_model_erasure_fills": 5,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov6_ringbahn_key_witnesses",
+      "record_ids": [
+        "p145_B1",
+        "p145_B2",
+        "p145_B3"
+      ],
+      "case_pages": [
+        "cases/radio/nov6_ringbahn_key_witnesses.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 531,
+        "modeled_plaintext_positions": 266,
+        "fixed_raw_label_positions_under_stated_geometry": 265,
+        "known_coordinate_substitutions": 5
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 531,
+        "valid_source_coordinates": 531,
+        "modeled_coordinates": 532,
+        "plaintext_positions": 266,
+        "baseline_fixed_positions": 265,
+        "candidate_fixed_positions": 266,
+        "known_coordinate_substitutions": 5,
+        "source_or_model_erasure_fills": 1,
+        "source_mask_fills": 0,
+        "inserted_slot_fills": 1,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "warsaw_station_missing_row",
+      "record_ids": [
+        "p204_C2"
+      ],
+      "case_pages": [
+        "cases/radio/warsaw_station_missing_row.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 242,
+        "modeled_plaintext_positions": 141,
+        "fixed_raw_label_positions_under_stated_geometry": 101,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 242,
+        "valid_source_coordinates": 242,
+        "modeled_coordinates": 282,
+        "plaintext_positions": 141,
+        "baseline_fixed_positions": 101,
+        "candidate_fixed_positions": 137,
+        "known_coordinate_substitutions": 0,
+        "source_or_model_erasure_fills": 36,
+        "source_mask_fills": 0,
+        "inserted_slots": 40,
+        "inserted_slot_fills": 36,
+        "remaining_inserted_masks": 4,
+        "source_deletions": 0,
+        "published_key_changed": false,
+        "counting_frame": "One primary conditional gap-before-GX frame; alternatives are not added to totals."
+      }
+    },
+    {
+      "name": "armistice_departure_copy",
+      "record_ids": [
+        "p157_A1"
+      ],
+      "case_pages": [
+        "cases/military/armistice_departure_copy.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 83,
+        "modeled_plaintext_positions": 95,
+        "fixed_raw_label_positions_under_stated_geometry": 0,
+        "known_coordinate_substitutions": 5
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 83,
+        "valid_source_coordinates": 78,
+        "modeled_coordinates": 190,
+        "plaintext_positions": 95,
+        "baseline_fixed_positions": 0,
+        "candidate_fixed_positions": 95,
+        "known_coordinate_substitutions": 5,
+        "source_or_model_erasure_fills": 112,
+        "source_mask_fills": 5,
+        "inserted_slot_fills": 107,
+        "missing_prefix_fills": 105,
+        "short_group_fills": 2,
+        "source_deletions": 0,
+        "inserted_slots": 107,
+        "source_reorderings": 0,
+        "published_key_changed": false,
+        "previously_cataloged_comparison_records_excluded": 1
+      }
+    },
+    {
+      "name": "home_departures_baltic_transport",
+      "record_ids": [
+        "p186_B2",
+        "p186_C1"
+      ],
+      "case_pages": [
+        "cases/military/home_departures_baltic_transport.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 424,
+        "modeled_plaintext_positions": 212,
+        "fixed_raw_label_positions_under_stated_geometry": 209,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 424,
+        "valid_source_coordinates": 424,
+        "modeled_coordinates": 424,
+        "plaintext_positions": 212,
+        "baseline_fixed_positions": 209,
+        "candidate_fixed_positions": 209,
+        "known_coordinate_substitutions": 0,
+        "source_or_model_erasure_fills": 0,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "mackensen_withdrawal_part2",
+      "record_ids": [
+        "p118_A2"
+      ],
+      "case_pages": [
+        "cases/military/mackensen_withdrawal_part2.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 377,
+        "modeled_plaintext_positions": 189,
+        "fixed_raw_label_positions_under_stated_geometry": 188,
+        "known_coordinate_substitutions": 13
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 377,
+        "valid_source_coordinates": 377,
+        "modeled_coordinates": 378,
+        "plaintext_positions": 189,
+        "baseline_fixed_positions": 188,
+        "candidate_fixed_positions": 189,
+        "known_coordinate_substitutions": 13,
+        "source_mask_fills": 0,
+        "inserted_slot_fills": 1,
+        "frame_insertions": 1,
+        "frame_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "namur_cassel_armistice_requests",
+      "record_ids": [
+        "p172_C1",
+        "p172_C3",
+        "p180_E",
+        "p181_B"
+      ],
+      "case_pages": [
+        "cases/military/namur_cassel_armistice_requests.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 658,
+        "modeled_plaintext_positions": 329,
+        "fixed_raw_label_positions_under_stated_geometry": 326,
+        "known_coordinate_substitutions": 7
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 658,
+        "valid_source_coordinates": 657,
+        "modeled_coordinates": 658,
+        "plaintext_positions": 329,
+        "baseline_fixed_positions": 326,
+        "candidate_fixed_positions": 328,
+        "known_coordinate_substitutions": 7,
+        "source_or_model_erasure_fills": 1,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov4_radio_and_departure_queries",
+      "record_ids": [
+        "p120_A",
+        "p120_C",
+        "p147_A",
+        "p123_B"
+      ],
+      "case_pages": [
+        "cases/naval/motorboat_sale_attempt.md",
+        "cases/people/director_departure_query.md",
+        "cases/radio/nov4_eilvese_and_setup.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 887,
+        "modeled_plaintext_positions": 443,
+        "fixed_raw_label_positions_under_stated_geometry": 432,
+        "known_coordinate_substitutions": 17
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 887,
+        "valid_source_coordinates": 875,
+        "modeled_coordinates": 886,
+        "plaintext_positions": 443,
+        "baseline_fixed_positions": 432,
+        "candidate_fixed_positions": 441,
+        "known_coordinate_substitutions": 17,
+        "source_or_model_erasure_fills": 9,
+        "source_mask_fills": 9,
+        "inserted_slot_fills": 0,
+        "source_deletions": 1,
+        "excluded_valid_coordinates": 0,
+        "excluded_masked_slots": 1,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov7_derailment_and_trains",
+      "record_ids": [
+        "p155_D",
+        "p169_B"
+      ],
+      "case_pages": [
+        "cases/military/nov7_derailment_and_trains.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 540,
+        "modeled_plaintext_positions": 270,
+        "fixed_raw_label_positions_under_stated_geometry": 260,
+        "known_coordinate_substitutions": 3
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 540,
+        "valid_source_coordinates": 535,
+        "modeled_coordinates": 540,
+        "plaintext_positions": 270,
+        "baseline_fixed_positions": 260,
+        "candidate_fixed_positions": 265,
+        "known_coordinate_substitutions": 3,
+        "source_or_model_erasure_fills": 5,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov7_eighth_part_repetition",
+      "record_ids": [
+        "p155_C1",
+        "p155_C2"
+      ],
+      "case_pages": [
+        "cases/radio/nov7_eighth_part_repetition.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 323,
+        "modeled_plaintext_positions": 161,
+        "fixed_raw_label_positions_under_stated_geometry": 155,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 323,
+        "valid_source_coordinates": 320,
+        "modeled_coordinates": 322,
+        "plaintext_positions": 161,
+        "baseline_fixed_positions": 155,
+        "candidate_fixed_positions": 157,
+        "known_coordinate_substitutions": 0,
+        "source_or_model_erasure_fills": 2,
+        "source_deletions": 1,
+        "deleted_valid_source_coordinates": 1,
+        "inserted_slots": 0,
+        "published_key_changed": false,
+        "counting_frame": "Primary C1 exclusion at61 plus native C2; alternative exclusions are not extra records."
+      }
+    },
+    {
+      "name": "oberost_troop_movement_obliterations",
+      "record_ids": [
+        "p186_B1"
+      ],
+      "case_pages": [
+        "cases/military/oberost_troop_movement_obliterations.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 308,
+        "modeled_plaintext_positions": 154,
+        "fixed_raw_label_positions_under_stated_geometry": 150,
+        "known_coordinate_substitutions": 1
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 308,
+        "composite_layout_slots": 318,
+        "valid_source_coordinates": 306,
+        "modeled_coordinates": 308,
+        "plaintext_positions": 154,
+        "baseline_fixed_positions": 150,
+        "candidate_fixed_positions": 152,
+        "known_coordinate_substitutions": 1,
+        "source_or_model_erasure_fills": 2,
+        "source_deletions": 10,
+        "masked_layout_slot_exclusions": 10,
+        "observed_coordinate_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "schorlemer_demobilization_inquiry",
+      "record_ids": [
+        "p122_B",
+        "p155_B"
+      ],
+      "case_pages": [
+        "cases/people/schorlemer_demobilization_inquiry.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 412,
+        "modeled_plaintext_positions": 206,
+        "fixed_raw_label_positions_under_stated_geometry": 169,
+        "known_coordinate_substitutions": 8
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 412,
+        "valid_source_coordinates": 375,
+        "modeled_coordinates": 412,
+        "plaintext_positions": 206,
+        "baseline_fixed_positions": 169,
+        "candidate_fixed_positions": 206,
+        "known_coordinate_substitutions": 8,
+        "source_or_model_erasure_fills": 37,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "september_radio_instructions",
+      "record_ids": [
+        "p57_A1",
+        "p57_A2",
+        "p57_A3",
+        "p61_A"
+      ],
+      "case_pages": [
+        "cases/radio/september_key_destruction_order.md",
+        "cases/radio/september_tiflis_radio_routing.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 798,
+        "modeled_plaintext_positions": 399,
+        "fixed_raw_label_positions_under_stated_geometry": 389,
+        "known_coordinate_substitutions": 10
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 798,
+        "valid_source_coordinates": 788,
+        "plaintext_positions": 399,
+        "baseline_fixed_positions": 389,
+        "candidate_fixed_positions": 398,
+        "known_coordinate_substitutions": 10,
+        "source_mask_fills": 9,
+        "frame_insertions": 0,
+        "frame_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "siegfried_assignment_cancellation",
+      "record_ids": [
+        "p135_A"
+      ],
+      "case_pages": [
+        "cases/people/siegfried_assignment_cancellation.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 401,
+        "modeled_plaintext_positions": 200,
+        "fixed_raw_label_positions_under_stated_geometry": 196,
+        "known_coordinate_substitutions": 7
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 401,
+        "valid_source_coordinates": 397,
+        "received_frame_coordinates": 401,
+        "paired_interim_coordinates": 400,
+        "plaintext_positions": 200,
+        "baseline_fixed_positions": 196,
+        "candidate_fixed_positions": 200,
+        "known_coordinate_substitutions": 7,
+        "source_mask_fills": 4,
+        "paired_model_excluded_observed_coordinates": 1,
+        "transmitted_frame_insertions_or_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "staatsbank_accounting_cheques",
+      "record_ids": [
+        "p172_D1",
+        "p172_D2"
+      ],
+      "case_pages": [
+        "cases/finance/staatsbank_accounting_cheques.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 401,
+        "modeled_plaintext_positions": 201,
+        "fixed_raw_label_positions_under_stated_geometry": 192,
+        "known_coordinate_substitutions": 5
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 401,
+        "valid_source_coordinates": 394,
+        "modeled_coordinates": 402,
+        "plaintext_positions": 201,
+        "baseline_fixed_positions": 192,
+        "candidate_fixed_positions": 200,
+        "known_coordinate_substitutions": 5,
+        "source_or_model_erasure_fills": 8,
+        "source_mask_fills": 7,
+        "inserted_slot_fills": 1,
+        "source_deletions": 0,
+        "inserted_slots": 1,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
     }
   ],
   "additional_packages": [
@@ -2741,6 +3412,9 @@
     "odd_fragment_diagnostics"
   ],
   "new_record_ids": [
+    "p57_A1",
+    "p57_A2",
+    "p57_A3",
     "p58_B",
     "p59_A2",
     "p59_A3",
@@ -2748,6 +3422,7 @@
     "p60_A1",
     "p60_A2",
     "p60_B",
+    "p61_A",
     "p64_A1",
     "p64_A2",
     "p64_B",
@@ -2820,8 +3495,15 @@
     "p103_B1",
     "p103_B2",
     "p103_D",
+    "p104_A3",
+    "p104_B",
     "p104_C1",
     "p104_C2",
+    "p104_D",
+    "p104_E3",
+    "p105_C1",
+    "p106_A2",
+    "p106_A3",
     "p106_B",
     "p107_B1",
     "p107_B2",
@@ -2856,6 +3538,16 @@
     "p117_C3",
     "p117_C4",
     "p117_D",
+    "p118_A2",
+    "p120_A",
+    "p120_C",
+    "p121_A1",
+    "p121_A2",
+    "p121_B1",
+    "p122_A2",
+    "p122_B",
+    "p122_C",
+    "p123_B",
     "p124_A1",
     "p124_A2",
     "p124_A3",
@@ -2882,6 +3574,7 @@
     "p133_A2",
     "p133_A3",
     "p134_A4",
+    "p135_A",
     "p137_A4",
     "p137_A5",
     "p137_B4",
@@ -2897,6 +3590,10 @@
     "p142_A",
     "p142_B",
     "p142_C",
+    "p145_B1",
+    "p145_B2",
+    "p145_B3",
+    "p147_A",
     "p147_C1",
     "p148_B1",
     "p150_A2",
@@ -2909,7 +3606,12 @@
     "p151_A2",
     "p151_B",
     "p151_C",
+    "p155_B",
+    "p155_C1",
+    "p155_C2",
+    "p155_D",
     "p156_C1",
+    "p157_A1",
     "p157_A2",
     "p157_A3",
     "p157_A4",
@@ -2933,11 +3635,16 @@
     "p162_D1",
     "p166_B1",
     "p166_B2",
+    "p169_B",
     "p171_A2",
     "p171_A3",
     "p171_B1",
     "p171_B2",
     "p171_C",
+    "p172_C1",
+    "p172_C3",
+    "p172_D1",
+    "p172_D2",
     "p172_E",
     "p174_A1",
     "p174_A2",
@@ -2957,20 +3664,33 @@
     "p179_C",
     "p179_D1",
     "p179_D2",
+    "p180_E",
+    "p181_B",
     "p184_B1",
     "p184_B2",
     "p184_B3",
     "p184_C1",
     "p184_C2",
     "p184_C3",
+    "p186_B1",
+    "p186_B2",
+    "p186_C1",
     "p188_A",
     "p188_B2",
     "p188_C1",
     "p195_A2",
+    "p202_A1",
+    "p202_A2",
     "p202_B1",
     "p202_B2",
     "p202_B3",
     "p202_B4",
+    "p203_A2",
+    "p203_B",
+    "p204_B",
+    "p204_C1",
+    "p204_C2",
+    "p204_D",
     "p207_A1",
     "p207_A2",
     "p207_B",
@@ -3008,6 +3728,9 @@
     "p221_A6",
     "p222_A1",
     "p222_A2",
+    "p224_A1",
+    "p224_A2",
+    "p224_B",
     "p228_B1",
     "p228_B2",
     "p228_B3",
@@ -3016,7 +3739,11 @@
     "p229_A3",
     "p229_B1",
     "p229_B2",
-    "p229_C"
+    "p229_C",
+    "p230_B",
+    "p230_C",
+    "p230_D",
+    "p230_E"
   ],
   "counting_limits": [
     "Physical records, repeated copies and numbered source parts are counted separately; they are not all first decipherments.",

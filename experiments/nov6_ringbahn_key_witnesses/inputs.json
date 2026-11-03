@@ -1,0 +1,338 @@
+{
+  "schema": "adfgvx-nov6-ringbahn-witnesses-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p145_B1.png",
+      "printed_page": 145,
+      "pdf_page_1based": 148,
+      "crop_pdf_points": [
+        43,
+        385,
+        541,
+        565
+      ],
+      "render_scale": 4,
+      "sha256": "45612c8ab9e84f515fbaa3b99dd9b36dd3c8526210508d3df4f07c7739682cec"
+    },
+    {
+      "path": "sources/p145_B2.png",
+      "printed_page": 145,
+      "pdf_page_1based": 148,
+      "crop_pdf_points": [
+        64,
+        571,
+        532,
+        691
+      ],
+      "render_scale": 4,
+      "sha256": "f49a3feb6ee8f0c23db7be99b13591a7a20235b2f4c0fed78af9226ef9ba7538"
+    },
+    {
+      "path": "sources/p145_B3.png",
+      "printed_page": 145,
+      "pdf_page_1based": 148,
+      "crop_pdf_points": [
+        64,
+        695,
+        532,
+        792
+      ],
+      "render_scale": 4,
+      "sha256": "4cf0e3ffbaccb71c376d786f203fc48cc86fd16c7825867dc7f422be8f716566"
+    }
+  ],
+  "records": [
+    {
+      "id": "p145_B1",
+      "printed_page": 145,
+      "source_section": "B1",
+      "source_rows": [
+        "AVXXD ADFAX GGVFX FAFAA AVXVA FXAXV FVDFF XAVVG",
+        "FGXAV FAGAA AAGFA AVFXA AVXVD DAGVD FXFAF XDXAV",
+        "DADXV DXDGA XXXXF GVGFA AGVAX AXDFA XXAXV GAAXV",
+        "DFVVX VGXGV XXVFA AGFXV GXGXG VVXGV FFVVA GVGDD",
+        "XAVDA VDXXV DAGVA XVFFX AFDXA VDXXF XAXXD FDVGX",
+        "GVAXG FXFDF XAAF"
+      ],
+      "source_slots": 214,
+      "advertised_length": 214,
+      "expected_raw": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHRCHEFXGXB848727XXDEZEMBERX1INGBAHNSCHLUESSELTRITTVORLAEUFIGX",
+      "readable_candidate": "NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHRCHEFXGXB848727XXDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGX",
+      "readable_german": "November-Ringbahnschluessel nicht vernichten. Nachrchef G B848727. Dezember-Ringbahnschluessel tritt vorlaeufig"
+    },
+    {
+      "id": "p145_B2",
+      "printed_page": 145,
+      "source_section": "B2",
+      "source_rows": [
+        "GFDFV FAAXX FVVXA VAFAX FXVXA FXXVD XFVA AXAFG",
+        "FAFXA FXGXF XFVAX DAAFV FFDGV XAFGV AFAVX FVFVG",
+        "DFVAX VFXXX XFAAV VFAXV AXAAA VXFAD XGAAF XXVVA",
+        "FVFAF XVGFA ADGVA FGVFX GXAAF FVADX VVXFD GVGXX",
+        "AAVAA XXFAG GXVXF DAFAX GFFD"
+      ],
+      "source_slots": 183,
+      "advertised_length": 184,
+      "expected_raw": "NICHTINKRAFTX?MFUERSCHLDESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWKNZIGSTERDEZEMBER",
+      "readable_candidate": "NICHTINKRAFTXDAFUERSCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWANZIGSTERDEZEMBER",
+      "analysis_frame": {
+        "insert_unknown_at_source_boundary": 33,
+        "scope": "One missing coordinate within the visibly short XFVA group; independent p211 B lower2 supplies XFVFA."
+      },
+      "readable_german": "nicht in Kraft. Dafuer Schluessel erster Dezember wie zehnter November usw. bis einundzwanzigster Dezember"
+    },
+    {
+      "id": "p145_B3",
+      "printed_page": 145,
+      "source_section": "B3",
+      "source_rows": [
+        "FXGVF FAVXA FGDGV FVXXX VAVFA VXXXF DXXDX XXVFV",
+        "AFFFD ADAGF AFVVG VXFFX XXDAV AVAFD AFVGX AXAFA",
+        "XFAAF GAXXF GVDFD AFAXA XVDXV ADGVD XVAFV VFXDD",
+        "GVVVD FDGGD VVAD"
+      ],
+      "source_slots": 134,
+      "advertised_length": 134,
+      "expected_raw": "WIEDREISSIGSTERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNKCHRCHEFX4XBX47857X",
+      "readable_candidate": "WIEDREISSIGSTERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNACHRCHEFX4XBX47857X",
+      "readable_german": "wie dreissigster November. Empfangsbestaetigung. Nachrchef 4 B47857."
+    }
+  ],
+  "headers": [
+    "Page heading: 6th NOVEMBER, 1918.",
+    "B) WAU (KOW RVA) NKJ (IWE RTS) ASO v LP (02.53 a.m., November 7th)",
+    "SS DD 2230 (6/11) 3 TEILE",
+    "1 TL RICHI-214",
+    "2 TL RICHI-184",
+    "3 TL RICHI-134"
+  ],
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "169f0c20d9a57b0a2a8bacc2667140160063558e0c9342e703c4905482b31c0a"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "independent_witness": {
+    "input_path": "experiments/open_targets_continuation/inputs.json",
+    "input_sha256": "3e725d540949ed1b654d15d5e9282e49acf6ba2029443fbead7e606ffed9a1d8",
+    "source_crop": {
+      "printed_page": 211,
+      "pdf_page_1based": 214,
+      "path": "experiments/open_targets_continuation/sources/childs_p211_selected.png",
+      "crop_pdf_points": [
+        45,
+        405,
+        550,
+        659
+      ],
+      "render_scale": 2.5,
+      "sha256": "668bb6ccef0cba42234ddc0ad0e1deadedd63bd5a995448d1f4db3f1dad0e421"
+    },
+    "records": [
+      {
+        "id": "p211_B_lower1",
+        "printed_page": 211,
+        "pdf_page_1based": 214,
+        "section": "Lower duplicate-labelled B, part 1 of 3",
+        "heading": "19th NOVEMBER, 1918.",
+        "header": "POT v NKJ (09.48 a.m., November 22d); FUER POT COS VON LP SS DD 2230 3 TLE; 1 TL; RICHI-214",
+        "declared_coordinate_length": 214,
+        "key_id": "Nov4-6",
+        "ocr_blocks": [
+          "p211_ocr_block3"
+        ],
+        "source_image": "sources/childs_p211_selected.png",
+        "source_rows": [
+          "AVXXD ADFAX GGVFX FAFAA AVXVA FXAXV FXDFF XAVVG",
+          "FGXAV FVGAA AAGFA AVFXA AVXVD DAGVD FXFAF XDXAV",
+          "DADXV DXDGV XXXXF GVGFA AGVAX AXDFA XXAXV GAAXV",
+          "DFVVX VGXDV XXVFA AGFXV GXGXG VVXGV FFVVA GVGDD",
+          "XAVDA VDXXV DAGVA XVFFX AFDXA VDXXF XAXXD FDVGX",
+          "GVAXG FXFDV XAAF"
+        ],
+        "expected_raw": "NOVEMBERXGINGBAHNSC7LUESSELNICHTVERNICHTENXNACHRCHEFX4XB848727XXDEZRMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGX",
+        "editorial_patches": [
+          {
+            "plaintext_index": 9,
+            "proposed_symbol": "R",
+            "reason": "Lexical restoration of RINGBAHN, SCHLUESSEL and DEZEMBER; these are editorial source repairs, not unknown-key completions.",
+            "support": [
+              "p211_B_lower1",
+              "p211_B_lower2"
+            ]
+          },
+          {
+            "plaintext_index": 19,
+            "proposed_symbol": "H",
+            "reason": "Lexical restoration of RINGBAHN, SCHLUESSEL and DEZEMBER; these are editorial source repairs, not unknown-key completions.",
+            "support": [
+              "p211_B_lower1",
+              "p211_B_lower2"
+            ]
+          },
+          {
+            "plaintext_index": 67,
+            "proposed_symbol": "E",
+            "reason": "Lexical restoration of RINGBAHN, SCHLUESSEL and DEZEMBER; these are editorial source repairs, not unknown-key completions.",
+            "support": [
+              "p211_B_lower1",
+              "p211_B_lower2"
+            ]
+          }
+        ],
+        "notes": [
+          "The page contains two B labels under different dates; this is the lower B under19November, intercepted22November.",
+          "The historical schedule is read as a transmitted instruction, not independent evidence that every station obeyed it. The unchanged published Nov4–6 key directly decodes this late intercept. The part1 reference B848727 remains literal."
+        ]
+      },
+      {
+        "id": "p211_B_lower2",
+        "printed_page": 211,
+        "pdf_page_1based": 214,
+        "section": "Lower duplicate-labelled B, part 2 of 3",
+        "heading": "19th NOVEMBER, 1918.",
+        "header": "POT v NKJ (09.48 a.m., November 22d); FUER POT COS VON LP SS DD 2230 3 TLE; 2 TL; RICHI-184",
+        "declared_coordinate_length": 184,
+        "key_id": "Nov4-6",
+        "ocr_blocks": [
+          "p211_ocr_block4"
+        ],
+        "source_image": "sources/childs_p211_selected.png",
+        "source_rows": [
+          "GFDFV FAAXX FVVXA VAFAX FXVXA FXXVD XFVFA AXAFG",
+          "FAFXA VXGXF XFVAX DAAFV FFDGV XAFGV AFAVX FVFVG",
+          "DFVAX VFXVX XFAAV VFAXV AXAAA VXFAD XGAAF XXVVA",
+          "FVFAF XVGVA ADGVA FGVFX GXAAF FVADX VVXFD GVGXX",
+          "AAVAA XXFAG GXVXF DAFAX GFFD"
+        ],
+        "expected_raw": "NICHTINKRAFTXDAFUERSCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWANZIGSTERDEZEMBER",
+        "editorial_patches": [],
+        "notes": []
+      },
+      {
+        "id": "p211_B_lower3",
+        "printed_page": 211,
+        "pdf_page_1based": 214,
+        "section": "Lower duplicate-labelled B, part 3 of 3",
+        "heading": "19th NOVEMBER, 1918.",
+        "header": "POT v NKJ (09.48 a.m., November 22d); FUER POT COS VON LP SS DD 2230 3 TLE; 3 TL; RICHI-134",
+        "declared_coordinate_length": 134,
+        "key_id": "Nov4-6",
+        "ocr_blocks": [
+          "p211_ocr_block5"
+        ],
+        "source_image": "sources/childs_p211_selected.png",
+        "source_rows": [
+          "FXGVF FAVXA FGDGV FRXXX VAVFA VXXXF DXXDX XXVFV",
+          "AFFFD ADAGF AFVVG VXFFX XXDAV AVAVV AFVGX AXAFA",
+          "XFAAF GAXXF GVDFD AFAXA XVDXV ADGVD XVAFV VFXDD",
+          "GVVVD FDGGD VVAD"
+        ],
+        "expected_raw": "WIEDREISSI?STERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNACHRCHEFZ4XBX47857X",
+        "editorial_patches": [
+          {
+            "plaintext_index": 10,
+            "proposed_symbol": "G",
+            "reason": "The spelled-out ordinal DREISSIGSTER requires one fill of the invalid printed R coordinate.",
+            "support": [
+              "p211_B_lower2",
+              "p211_B_lower3"
+            ]
+          }
+        ],
+        "notes": [
+          "The literal R in FRXXX is invalid and remains present in the source transcript."
+        ]
+      }
+    ]
+  },
+  "limits": [
+    "The p145 source explicitly has 183 typed coordinates in part2 and advertises184; the short XFVA group is preserved literally and its added F is a frame hypothesis supported by the independent p211 copy.",
+    "The copies have different date/header layers. Both use the unchanged published Nov4–6 key; this evidence does not justify normalizing dates or claiming that all stations followed the December schedule.",
+    "References and labels remain source-specific: p145 NACHRCHEFXG and NACHRCHEFX4 are not replaced by p211 NACHRCHEFX4 and NACHRCHEFZ4.",
+    "The already published p211 body and earlier key recovery retain credit. These are additional source witnesses, not new first-solution claims."
+  ]
+}

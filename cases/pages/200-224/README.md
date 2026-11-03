@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 175–199](../175-199/README.md) · [pp. 225–249 →](../225-249/README.md)
 
-**2 challenge entries and 86 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**2 challenge entries and 97 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p200](#p200) · [p201](#p201) · [p202](#p202) · [p203](#p203) · [p204](#p204) · [p205](#p205) · [p206](#p206) · [p207](#p207) · [p208](#p208) · [p209](#p209) · [p210](#p210) · [p211](#p211) · [p212](#p212) · [p213](#p213) · [p214](#p214) · [p215](#p215) · [p216](#p216) · [p217](#p217) · [p218](#p218) · [p219](#p219) · [p220](#p220) · [p221](#p221) · [p222](#p222) · [p223](#p223) · [p224](#p224).
 
@@ -35,6 +35,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p202 A1](../../radio/nov16_18_command_inquiries.md#p202-a1) | Immediate receipt confirmation for armistice instructions | Native 212-slot frame; 4 observed-coordinate substitutions and 0 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p202 A2](../../radio/nov16_18_command_inquiries.md#p202-a2) | Confirm receipt of the order to continue withdrawal | Native 142-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 | [p202 B1](../../military/military_intendant_remit.md) | New Berlin Generalintendant address and responsibility for organization, personnel and administration | Conditional 223-to-228 five-gap frame; 111/114 proposed positions; four substitutions and three added-slot fills; all 224 placements and tied alternatives retained | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
 | [p202 B2](../../military/military_intendant_remit.md) | Berlin office responsibilities for administrative supplies, cash, allowances and levies | 108/110 raw positions; one substitution and two masked-source fills give 110/110 | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
 | [p202 B3](../../military/military_intendant_remit.md) | Generalintendant at GRHQU responsible for supply transport and delivery | 104/105 raw positions; four observed-coordinate substitutions give 105/105; raw initial 2 retained | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
@@ -46,6 +48,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p203 A2](../../radio/nov16_18_command_inquiries.md#p203-a2) | Maintain nightly radio reception for the link to Germany | Native 132-slot frame; 2 observed-coordinate substitutions and 2 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p203 B](../../radio/nov16_18_command_inquiries.md#p203-b) | Inquiry for Captain von Borries | Native 164-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 | [p203 C](../../people/richter_aleppo.md) | Inquiry about Richter at the Aleppo radio park | 93/96 raw positions; postal digits remain coupled and unknown | icekylinx and GPT-6 Astra Pro (2026) |
 
 ## p204
@@ -55,6 +59,10 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p204 A](../../radio/p204_A.md) | Local radio station to be handed over to Poland | 69/70 raw positions; Monday 18 implies FD=8 conditionally | icekylinx and GPT-6 Astra Pro (2026) |
+| [p204 B](../../radio/nov16_18_command_inquiries.md#p204-b) | Where is the Warsaw general government now? | Native 92-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p204 C1](../../radio/nov16_18_command_inquiries.md#p204-c1) | Lomza and Czenstochau radio equipment whereabouts | Native 244-slot frame; 2 observed-coordinate substitutions and 3 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p204 C2](../../radio/warsaw_station_missing_row.md) | Conditional lost-row reading: radio handover and WAU personnel transfer | 242 source slots versus advertised 282; conditional 40-slot gap; no observed-coordinate changes; three terminal placements retained | icekylinx and GPT-6 Astra Pro (2026); published Nov16–18 key; explicit lost-row hypothesis |
+| [p204 D](../../radio/nov16_18_command_inquiries.md#p204-d) | Numbered reply with PSO BSL and WAU signature | Native 84-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; unresolved fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 
 ## p205
 
@@ -275,6 +283,9 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p224 A1](../../radio/nov27_receiving_instructions.md#p224-a1) | Use especially good radio listeners and send clearly | Native 238-slot frame; 5 observed-coordinate substitutions and 3 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p224 A2](../../radio/nov27_receiving_instructions.md#p224-a2) | Only secure link home and preferred reception wavelength | Native 176-slot frame; 3 observed-coordinate substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p224 B](../../radio/nov27_receiving_instructions.md#p224-b) | Brief report of no special events | Native 92-slot frame; 6 observed-coordinate substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 | [p224 C1](../../people/breslau_staff_transfer.md) | Staff officer raw STRZEMIECZNQ transferred from acting corps chief-of-staff duties | 130/130 raw labels; three ordinary-word coordinate repairs; rank, surname and formation labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
 | [p224 C2](../../people/breslau_staff_transfer.md) | Special employment with Breslau command; separate historical VI Corps context | 149/149 raw labels; six ordinary-word coordinate repairs; raw7 and reference04013 retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
 

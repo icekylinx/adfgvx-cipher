@@ -119,9 +119,9 @@ BALDIGEMITTEILUNGDESDORTSEITSVERANLASSTENERBETEN0BEANTRAGTETEUERUNGSZULAGEKANNNI
 ```
 
 The candidate changes only the raw `0` after `ERBETEN` to `X`, costing
-**one coordinate substitution**. The substantive reading is:
+**one coordinate substitution**.
 
-**Readable German:**
+**Readable German — body excerpt; the closing reference is retained immediately below:**
 
 > Baldige Mitteilung des dortseits Veranlassten erbeten. Beantragte Teuerungszulage kann nicht gewährt werden. Zulageregelung muss nach PASCHE X RM X 2 Vorschrift erfolgen. Kriegsministerium, Armeeverwaltungsdepartement …
 

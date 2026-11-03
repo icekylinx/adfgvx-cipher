@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 200–224](../200-224/README.md)
 
-**0 challenge entries and 20 other reviewed source records across 6 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**0 challenge entries and 24 other reviewed source records across 6 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p225](#p225) · [p226](#p226) · [p227](#p227) · [p228](#p228) · [p229](#p229) · [p230](#p230).
 
@@ -71,6 +71,10 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p230 A3](../../military/p230_A.md) | Division locations near Hermannstadt and Muehlbach | 116/116 baseline positions; seven substitutions; conditional unit labels | icekylinx and GPT-6 Astra Pro (2026) |
 | [p230 A4](../../military/p230_A.md) | Forces near Kronstadt and Fogaras; OKM headquarters moves | 115/115 baseline positions; one substitution; conditional unit labels | icekylinx and GPT-6 Astra Pro (2026) |
+| [p230 B](../../radio/nov30_radio_personnel.md#p230-b) | Inspection and War Ministry notified | Native 136-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p230 C](../../radio/nov30_radio_personnel.md#p230-c) | Station dismantling notice with a printed variant | Native 78-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; both printed variants preserved | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p230 D](../../radio/nov30_radio_personnel.md#p230-d) | Tiflis radio and construction personnel inquiry | Native 188-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+| [p230 E](../../radio/nov30_radio_personnel.md#p230-e) | Request for timely internment notification | Native 88-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 
 [Return to all source pages](../README.md).
 

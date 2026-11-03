@@ -33,7 +33,7 @@ ERSTENSXZUXFECHXRMX2XGROSSXBXFRX50749XXFUERABSCHUBGELTENFOLGENREZIELEDOPPELPUNKT
 ERSTENSXZUXFECHXRMX2XGROSSXBXFRX50749XXFUERABSCHUBGELTENFOLGENDEZIELEDOPPELPUNKTXSIEGFRIEDXNACHXKONSTANZAXALLESUEBRIGEXODESSAXUNDFALLSDIESESNICHTMEHR
 ```
 
-**Readable German — spacing and punctuation; the clause continues into part2:**
+**Readable German — spacing and punctuation; the clause continues into part 2:**
 
 > Erstens. Zu FECH RM. 2. Gross B. FR. 50749. Für Abschub gelten
 > folgende Ziele, Doppelpunkt: Siegfried nach Konstanza, alles übrige

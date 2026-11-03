@@ -1,0 +1,125 @@
+# November 4: repeated-part request and communications inquiry
+
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
+**Source edition and verification: icekylinx and GPT-6 Astra Pro.**
+
+The four records preserve two messages with different source frames. All use the unchanged published Nov4–6 key. No group is added, dropped, moved or reordered; all numerical and reference labels remain literal.
+
+The two p121 A parts have the header `FUER COS 1955 (4.11) 2 TL`, explicitly address `GENERAL VON KRESS KAUKASUS`, and are recorded at `03.13 a.m., November 5th` under the November 4 page heading. The discrepancy is retained.
+
+## p121 A1
+
+Childs p121, PDF p124; [reviewed source crop](../../experiments/nov4_repetition_and_connections/sources/p121_A.png). The unchanged published **Nov4–6** key uses the native **236-slot** frame.
+
+**Raw output — 118/118 fixed positions:**
+
+```text
+ZUXTELEGEAMMXVOMX30X10XNRX8538X18XZXAX1XKXCXHATTEXUMUW9EDERWOLUNGXDESXERSTENXTEILSXGEBETENXDERX2XUND3XTEILXISTXBEREITS
+```
+
+**Edited output — 5 observed-coordinate substitutions and 0 source-mask fills; 118/118 fixed positions:**
+
+```text
+ZUXTELEGRAMMXVOMX30X10XNRX8538X18XZXAX1XKXCXHATTEXUMXWIEDERHOLUNGXDESXERSTENXTEILSXGEBETENXDERX2XUND3XTEILXISTXBEREITS
+```
+
+Source indices are zero-based. Observed changes: **14 F→V**, **90 F→G**, **103 D→F**, **187 V→D**, **215 F→V**.
+
+The complete edited stream re-encrypts to the source with exactly the listed substitutions and fills.
+
+**Readable German — complete edited stream, with spacing and punctuation only:**
+
+> Zu Telegramm vom 30.10. Nr. 8538.18. Z. A. 1. K. C.: hatte um Wiederholung des ersten Teils gebeten. Der 2 und 3 Teil ist bereits
+
+**Meaning:** The sender reminds the addressee that a repeat of the first part had been requested; parts 2 and 3 have already been handled as the next part explains.
+
+## p121 A2
+
+Childs p121, PDF p124; [reviewed source crop](../../experiments/nov4_repetition_and_connections/sources/p121_A.png). The unchanged published **Nov4–6** key uses the native **236-slot** frame.
+
+**Raw output — 117/118 fixed positions:**
+
+```text
+DECHIFFRIERTXWEI?ERGEGEBENXERNEUTEXBITTEXUMXWIKDERHOLUNGXDESXERSTENXTEILSXKRIEGSMINISTERIUMXNRX8538X18XGXAX1XRMX2XANGX
+```
+
+**Edited output — 1 observed-coordinate substitution and 1 source-mask fill; 118/118 fixed positions:**
+
+```text
+DECHIFFRIERTXWEITERGEGEBENXERNEUTEXBITTEXUMXWIEDERHOLUNGXDESXERSTENXTEILSXKRIEGSMINISTERIUMXNRX8538X18XGXAX1XRMX2XANGX
+```
+
+Source indices are zero-based. Observed changes: **74 F→A**.
+
+The printed Z-like noncoordinate glyph at source index **224** is masked in the raw analysis and supplied as **X** in this proposal. Its one fill is separate from the known-coordinate changes.
+
+The complete edited stream re-encrypts to the source with exactly the listed substitutions and fills.
+
+**Readable German — complete edited stream, with spacing and punctuation only:**
+
+> dechiffriert weitergegeben. Erneute Bitte um Wiederholung des ersten Teils. Kriegsministerium Nr. 8538.18. G. A. 1. RM. 2. ANG.
+
+**Meaning:** The second part says that parts 2 and 3 were deciphered and forwarded, and again asks for the first part. The clear header addresses General von Kress in the Caucasus.
+
+### Two parts on different pages
+
+p121 B1 and p122 A2 both print `FUER UKS (4.11) 0035 2 TLE` with parts `1 TL` and `2 TL`. Their recorded reception times are `06.55 a.m.` and `05.25 p.m., November 4th`. These matching source labels and the grammatical continuation support the pairing. The page-local letters B and A remain in their physical record identifiers.
+
+## p121 B1
+
+Childs p121, PDF p124; [reviewed source crop](../../experiments/nov4_repetition_and_connections/sources/p121_B1.png). The unchanged published **Nov4–6** key uses the native **262-slot** frame.
+
+**Raw output — 131/131 fixed positions:**
+
+```text
+AKONACHX18XXZUMTELEGRVONXHPTMXZIMMERMANNXWEGENXKONSTANZAXDRAHTETXOBVERBINDUNGXBUKARESTKONSTANZAXNOCHIMBETRIEBXUXWASWEGENXKONSTANZAX
+```
+
+**Edited output — 0 observed-coordinate substitutions and 0 source-mask fills; 131/131 fixed positions:**
+
+```text
+AKONACHX18XXZUMTELEGRVONXHPTMXZIMMERMANNXWEGENXKONSTANZAXDRAHTETXOBVERBINDUNGXBUKARESTKONSTANZAXNOCHIMBETRIEBXUXWASWEGENXKONSTANZAX
+```
+
+The edited stream is identical to the raw stream and re-encrypts to every source coordinate without repair.
+
+**Readable German — complete edited stream, with spacing and punctuation only:**
+
+> AKONACH 18. Zum Telegr. von Hptm. Zimmermann wegen Konstanza: drahtet, ob Verbindung Bukarest-Konstanza noch im Betrieb, u. was wegen Konstanza
+
+**Meaning:** The query refers to Captain Zimmermann and asks whether the Bucharest–Constanza link is still operating. Its final clause continues on p122.
+
+## p122 A2
+
+Childs p122, PDF p125; [reviewed source crop](../../experiments/nov4_repetition_and_connections/sources/p122_A2.png). The unchanged published **Nov4–6** key uses the native **182-slot** frame.
+
+**Raw output — 91/91 fixed positions:**
+
+```text
+UXKABELSVERA9LASSTXWIESTEHTSMITVERBINDUNGNACHXAOKX11XXNACHRICHEFX3XAX111511XDXADMSXKZX95086
+```
+
+**Edited output — 1 observed-coordinate substitution and 0 source-mask fills; 91/91 fixed positions:**
+
+```text
+UXKABELSVERANLASSTXWIESTEHTSMITVERBINDUNGNACHXAOKX11XXNACHRICHEFX3XAX111511XDXADMSXKZX95086
+```
+
+Source indices are zero-based. Observed changes: **1 F→X**.
+
+The complete edited stream re-encrypts to the source with exactly the listed substitutions and fills.
+
+**Readable German — complete edited stream, with spacing and punctuation only:**
+
+> u. Kabels veranlasst. Wie stehts mit Verbindung nach AOK 11? Nachrichef 3. A. 111511. D. ADMS KZ 95086.
+
+**Meaning:** The continuation asks what has been arranged concerning Constanza and the cable, and asks about communications with Army High Command 11. It does not answer either operational question.
+
+## Interpretation, attribution and evidence
+
+The first message asks for the **first part** again; it does not identify that missing part in this collection or establish that the request was fulfilled. `Z A 1 K C`, `G A 1 RM 2 ANG`, `8538.18`, `AKONACH 18`, `111511` and `95086` are retained without a new numeral or office interpretation. `U` and `NACHRICHEF` remain the encoded abbreviations.
+
+Earlier unreviewed repository candidates already identified these bodies. This edition corrects OCR against the scan, preserves the actual printed glyphs and prices every proposed coordinate change; it makes no first-decipherment claim. The published key keeps its original provenance.
+
+[Inputs and source metadata](../../experiments/nov4_repetition_and_connections/inputs.json), [full certificates](../../experiments/nov4_repetition_and_connections/certificates.json), [earlier candidates](../../experiments/nov4_repetition_and_connections/prior_candidates.json), and [reproduction](../../experiments/nov4_repetition_and_connections/README.md) are preserved.

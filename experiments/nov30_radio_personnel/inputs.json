@@ -1,0 +1,230 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Radio notices, Tiflis personnel and internment on p230",
+  "case": "cases/radio/nov30_radio_personnel.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p230_reviewed.png",
+      "pdf_page_1based": 233,
+      "crop_pdf_points": [
+        65,
+        375,
+        520,
+        710
+      ],
+      "render_scale": 3,
+      "sha256": "e96064f4f1473b0a7dc443f529743e4ebedf418422a596b3a677837f5f94788f",
+      "width": 1365,
+      "height": 1005,
+      "channels": 3,
+      "rgb_sha256": "7d772454b438e1faf619c3e827f4178175f1727371e14c2367dd471f4e9b0a2a"
+    }
+  ],
+  "keys": {
+    "Nov28-Dec1": {
+      "id": "Nov28-Dec1",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        9,
+        3,
+        14,
+        10,
+        2,
+        8,
+        15,
+        4,
+        16,
+        11,
+        5,
+        13,
+        6,
+        12,
+        1,
+        7
+      ],
+      "column_count": 16,
+      "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "square_rows": [
+        "782GPY",
+        "5OQHF9",
+        "1UDNI3",
+        "64TLVX",
+        "EAR0JZ",
+        "BKMCSW"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  },
+  "records": [
+    {
+      "id": "p230_B",
+      "printed_page": 230,
+      "source_section": "B",
+      "title": "Inspection and War Ministry notified",
+      "source_rows": [
+        "FFXVF XGAXF XVGAG XAVDA FFGDG VVGFV DXVGV XXFXF",
+        "FVFGV FGFGD XVVVA VXFXV DVFFX FGVFD VGVAD FAGGG",
+        "AVFFD DAFVD ADFDF FVVFF GVDDG FGGAD FFAVX GVDVA",
+        "FXFVA XDAVF FFVVG V"
+      ],
+      "source_slots": 136,
+      "advertised_length": 136,
+      "key_id": "Nov28-Dec1",
+      "header_literal": "B) ZON v CV (06.33 p.m., December 3d); 2130 (30/11); RICHI-136",
+      "expected_raw": "INSPEKTIONUNDKRIEGSMINISTERIUMVERSTAENDIGTYYANTWORTSTEHTNOCHAUSYPAPP",
+      "edited_output": "INSPEKTIONUNDKRIEGSMINISTERIUMVERSTAENDIGTYYANTWORTSTEHTNOCHAUSYPAPP",
+      "readable_german": "Inspektion und Kriegsministerium verstaendigt. Antwort steht noch aus. Papp.",
+      "meaning": "The inspection and the War Ministry have been notified; a reply is still outstanding. Signed Papp.",
+      "notes": [
+        "The page is headed 30 November; the intercept annotation says December 3 and the service line says 2130 (30/11). These are separate source dates.",
+        "A small mark after the last V of VVGFV is not counted as a sixth coordinate. The source count is exactly 136."
+      ],
+      "separator_label": "Y",
+      "source_variants": [],
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p230_C",
+      "printed_page": 230,
+      "source_section": "C",
+      "title": "Station dismantling notice with a printed variant",
+      "source_rows": [
+        "XAFFV GFVVV DVGFF GAAFD GDAAF VAXAA XDDDF",
+        "DDDXV DDVFD FFDVX GXFGV XAXDX XXXGF VVXGV VXVFV",
+        "DAF"
+      ],
+      "source_slots": 78,
+      "advertised_length": 78,
+      "key_id": "Nov28-Dec1",
+      "header_literal": "C) CV v ZON (11.15 p.m., December 6th); 1900 (30/11); RIZI-78; XAFFV (or XVFFV)",
+      "expected_raw": "STATIONBAUT0ZXJYFRUEH9YUHRABYYBURKARDYY",
+      "edited_output": "STATIONBAUT0ZXJYFRUEH9YUHRABYYBURKARDYY",
+      "readable_german": "Station baut 0ZXJ frueh 9 Uhr ab. Burkard.",
+      "meaning": "A station announces when it will dismantle. The printed key labels do not establish the historical day or hour; Burkard is the literal signature.",
+      "notes": [
+        "The source explicitly prints XAFFV (or XVFFV). Both complete 78-slot frames are decrypted and re-encrypted. Their only output difference is position 15: Y versus Z. Neither version is silently selected as historically authentic.",
+        "The readable text uses the first printed variant. Its literal field 0ZXJ and its hour label 9 stay unassigned. Under the alternative, the token immediately before FRUEH is 0ZXJZ rather than 0ZXJ followed by Y.",
+        "The intercept annotation says December 6; the service line says 1900 (30/11)."
+      ],
+      "separator_label": "Y",
+      "source_variants": [
+        {
+          "name": "second printed first-group variant",
+          "grouped": "XVFFV GFVVV DVGFF GAAFD GDAAF VAXAA XDDDF\nDDDXV DDVFD FFDVX GXFGV XAXDX XXXGF VVXGV VXVFV\nDAF"
+        }
+      ],
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0,
+      "protected_fields": [
+        "0ZXJ",
+        "9"
+      ]
+    },
+    {
+      "id": "p230_D",
+      "printed_page": 230,
+      "source_section": "D",
+      "title": "Tiflis radio and construction personnel inquiry",
+      "source_rows": [
+        "DAFDV FXFFF XFXXX VGVAF FGGXD AGFFG DDDDX FGVGA",
+        "AFAAV VXVFG FVXFX DVGDG GVXGD FDFGF VGGGA DAGGV",
+        "VGDAG AGAVF GFDVF VFGVF VVXDA AGFDD ADDGA GAFAF",
+        "FAVDF FFVGG FAGVV FDDFV DVFVF AGVVD GAVFV VFXXF",
+        "GVFDG GFDXV VVVXF GVVGV VFFVV GDV"
+      ],
+      "source_slots": 188,
+      "advertised_length": 188,
+      "key_id": "Nov28-Dec1",
+      "header_literal": "D) NKJ v LP (05.47 p.m., December 4th); Fuer COS 1225 (30/11); RICHI-188",
+      "expected_raw": "ZENTRALFUNKLEITGERBITTENNACHRICHTUEBERVERBLEIBFUNKERUNDBAUPERSONALDERFUNKENSTATIONTIFLISY54X05",
+      "edited_output": "ZENTRALFUNKLEITGERBITTENNACHRICHTUEBERVERBLEIBFUNKERUNDBAUPERSONALDERFUNKENSTATIONTIFLISY54X05",
+      "readable_german": "Zentralfunkleitg erbitten Nachricht ueber Verbleib Funker und Baupersonal der Funkenstation Tiflis. 54X05.",
+      "meaning": "The central radio command asks where the radio operators and construction personnel of the Tiflis station have gone. The final 54X05 remains a literal reference.",
+      "notes": [
+        "ZENTRALFUNKLEITG is kept as the transmitted abbreviation; the readable display does not insert its omitted letters.",
+        "The source header says December 4; the service line says Fuer COS 1225 (30/11)."
+      ],
+      "separator_label": "Y",
+      "source_variants": [],
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0,
+      "protected_fields": [
+        "54X05"
+      ]
+    },
+    {
+      "id": "p230_E",
+      "printed_page": 230,
+      "source_section": "E",
+      "title": "Request for timely internment notification",
+      "source_rows": [
+        "VDDFA GFVVV AVFFV FVAGV GVVFV FVVFX AXFAG GVXFG",
+        "AFAVF VGFGA GDXAF DFFFA GVGGF GGAVF AFFVV GVVAF",
+        "DFAVV GVG"
+      ],
+      "source_slots": 88,
+      "advertised_length": 88,
+      "key_id": "Nov28-Dec1",
+      "header_literal": "E) ZON v CV (04.43 p.m., December 6th); 0930 (30/11); RICHI-88",
+      "expected_raw": "INTERNIERUNGRECHTZEITIGHIERHERMITTEILENYPAPP",
+      "edited_output": "INTERNIERUNGRECHTZEITIGHIERHERMITTEILENYPAPP",
+      "readable_german": "Internierung rechtzeitig hierher mitteilen. Papp.",
+      "meaning": "Give timely notification here of the internment. Signed Papp. The short message does not name the persons or formation to be interned.",
+      "notes": [
+        "The intercept annotation says December 6; the service line reads 0930 (30/11). The earlier OCR gave 0830, which is not retained as the primary source transcription."
+      ],
+      "separator_label": "Y",
+      "source_variants": [],
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "ae7d4ffc8bb69631aba297c7c80c3cb532155a328c8d080b28671a2c6ec9bf66",
+    "ocr_snapshot.json": "0c8d25a40fcfa29aa1db58b0e1a773d2649c651d7da622d0c732a0231d0cf02f"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are preserved separately. This is a source edition and explicit repair review, not a claim of universal first-decipherment priority.",
+  "limits": [
+    "All source slots are used in order; no missing group, inserted coordinate, deletion, swap or transposition change is proposed.",
+    "Digits and rare-letter labels remain literal; output agreement under a stated square does not establish historical numeral values.",
+    "Source-image comparison authenticates crop location and bytes, not the historical correctness of a proposed editorial word."
+  ]
+}

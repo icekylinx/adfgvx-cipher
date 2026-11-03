@@ -1,0 +1,516 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Namur arrival, Cassel transport and armistice-information requests",
+  "case": "cases/military/namur_cassel_armistice_requests.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p172_reviewed.png",
+      "pdf_page_1based": 175,
+      "crop_pdf_points": [
+        70,
+        310,
+        515,
+        465
+      ],
+      "render_scale": 3,
+      "sha256": "cdcb4fd7208d0a820f8564945a719f40cfc35cfb6b803d1c8d4580340f3c4c08",
+      "width": 1335,
+      "height": 465,
+      "channels": 3,
+      "rgb_sha256": "e6e8b5ee0a361c58bcbdaffa6e5a737ff6c3083c0e784ae806708443a9aadf39"
+    },
+    {
+      "path": "sources/p180_reviewed.png",
+      "pdf_page_1based": 183,
+      "crop_pdf_points": [
+        70,
+        602,
+        515,
+        720
+      ],
+      "render_scale": 3,
+      "sha256": "762ca6543ff3e4381fd633391a409737c636a12b6709df5470ba55e98d1ecafb",
+      "width": 1335,
+      "height": 354,
+      "channels": 3,
+      "rgb_sha256": "2d2897afed25fd216eae9c262652bc4f9a343af83c7f142f9f26266cebd9f1dd"
+    },
+    {
+      "path": "sources/p181_reviewed.png",
+      "pdf_page_1based": 184,
+      "crop_pdf_points": [
+        50,
+        303,
+        515,
+        422
+      ],
+      "render_scale": 3,
+      "sha256": "92374400d51abad21e46e73376c8ab31f37b870bd678615bdd6bd5c5641ba944",
+      "width": 1395,
+      "height": 357,
+      "channels": 3,
+      "rgb_sha256": "d986b0cb83cb9570b85bfd52e240d929265fe3728aa3e22edbd2d65006ccbdbb"
+    }
+  ],
+  "keys": {
+    "Nov10-12": {
+      "id": "Nov10-12",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        9,
+        12,
+        7,
+        11,
+        3,
+        8,
+        16,
+        6,
+        14,
+        2,
+        10,
+        15,
+        5,
+        13,
+        1,
+        4
+      ],
+      "column_count": 16,
+      "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "square_rows": [
+        "4ARUT1",
+        "OIFSKN",
+        "3?BZPV",
+        "LD?JMX",
+        "CWHQ2E",
+        "?G0?Y?"
+      ],
+      "known_cell_count": 31,
+      "missing_plaintext_symbols": "56789",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 242,
+          "pdf_page_1based": 245,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "The historical appendix also labels this table December 1-3."
+      ],
+      "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "baseline_differences": [
+        {
+          "coordinate": "FD",
+          "baseline": "5",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GF",
+          "baseline": "6",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XA",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XG",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "9",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+      "previously_published_completion": {
+        "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 26,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "FD",
+            "proposed": "5"
+          },
+          {
+            "row_column": "GF",
+            "proposed": "6"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "7"
+          },
+          {
+            "row_column": "XG",
+            "proposed": "8"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "9"
+          }
+        ]
+      }
+    },
+    "Nov13-15b": {
+      "id": "Nov13-15b",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "column_count": 16,
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "square_rows": [
+        "H??BMU",
+        "F15PX0",
+        "DJLR??",
+        "??S6VO",
+        "NKZ?AW",
+        "ITEGC?"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "234789QY",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 244,
+          "pdf_page_1based": 247,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "baseline_differences": [
+        {
+          "coordinate": "AD",
+          "baseline": "2",
+          "audited": "?"
+        },
+        {
+          "coordinate": "AF",
+          "baseline": "3",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FV",
+          "baseline": "4",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FX",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GA",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GD",
+          "baseline": "9",
+          "audited": "?"
+        },
+        {
+          "coordinate": "VG",
+          "baseline": "Q",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "Y",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 24,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "AD",
+            "proposed": "2"
+          },
+          {
+            "row_column": "AF",
+            "proposed": "3"
+          },
+          {
+            "row_column": "FV",
+            "proposed": "4"
+          },
+          {
+            "row_column": "FX",
+            "proposed": "7"
+          },
+          {
+            "row_column": "GA",
+            "proposed": "8"
+          },
+          {
+            "row_column": "GD",
+            "proposed": "9"
+          },
+          {
+            "row_column": "VG",
+            "proposed": "Q"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "Y"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p172_C1",
+      "title": "Namur arrival report naming Major Kroeger, first part",
+      "key_id": "Nov10-12",
+      "header_literal": "C) SY v ZM (13.40 p.m., November 10th); 1412 3 TLE; 1 TL RICHI-116",
+      "edited_output": "MAJORKROEGERXGHQUXSOEBENXMITXXRXABLASSXNAMURXEINGETROFFENX",
+      "readable_german": "Major Kroeger. GHQU. Soeben mit RXABLASS Namur eingetroffen.",
+      "meaning": "The first surviving part names Major Kroeger and reports a recent arrival at Namur. The opening may address Kroeger, so the arriving person is not securely identified. GHQU and RXABLASS remain opaque labels. The surviving third part closes with Hpt. Mannstaedt, and the source explicitly marks part 2 as missing.",
+      "notes": [
+        "The native 116-slot first part is complete. The source explicitly prints “2 TL (Missing)” before the separately preserved third part; no second part is supplied or counted.",
+        "IOEBEN to SOEBEN is an explicitly priced lexical proposal. GHQU and RXABLASS remain literal and unexpanded; ABLASS is not asserted to be a person's name. The opening could be an address, and no arriving subject is supplied.",
+        "The printed time is 13.40 p.m. and is retained without conversion. No historical identity beyond the literal surname KROEGER is inferred."
+      ],
+      "protected_fields": [
+        "GHQU",
+        "RXABLASS"
+      ],
+      "printed_page": 172,
+      "source_section": "C1",
+      "source_rows": [
+        "DVDGD DVFXX XGXAG VDDGA AAGXX XXXAV VAGDD AFAVD",
+        "FFAXG GFGVG GXDDA GVGVA GAAXD DXFGD VDDDX VFVXX",
+        "VXGXD DDXFF XFXDF AGVGD GDVDF XGXFD ADAAA A"
+      ],
+      "source_slots": 116,
+      "advertised_length": 116,
+      "expected_raw": "MAJORKROEGERXGHQUXIOEBENXMITXXRXABLASSXNAMURXEINGETROFFENX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 1,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p172_C3",
+      "title": "Mannstaedt requests a reply, third part",
+      "key_id": "Nov10-12",
+      "header_literal": "C) SY v ZM (13.40 p.m., November 10th); 1412 3 TLE; 3 TL RICHI-84",
+      "readable_german": "Erbitten hierueber Bescheid. Hpt. Mannstaedt.",
+      "meaning": "The surviving third part asks for a response on the preceding matter and closes with the literal signature Hpt. Mannstaedt. The intervening second part is absent from the printed source.",
+      "notes": [
+        "All 84 printed coordinates decode without any observed substitution or mask fill. The earlier OCR block did not retain the complete native body.",
+        "HPT is retained as the source abbreviation and the surname MANNSTAEDT is not expanded into a biographical identification."
+      ],
+      "printed_page": 172,
+      "source_section": "C3",
+      "source_rows": [
+        "DFVGV VFXFG FDGGD XFFXX VVVAA DXFXX AVADA AFDXD",
+        "XVGVV GGAAD FAFFF DDVXX XXVDX XAVDA AVVDV GGVVD",
+        "VFGD"
+      ],
+      "source_slots": 84,
+      "advertised_length": 84,
+      "expected_raw": "ERBITTENXHIERUEBERXBESCHEIDXHPTXMANNSTAEDT",
+      "edited_output": "ERBITTENXHIERUEBERXBESCHEIDXHPTXMANNSTAEDT",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p180_E",
+      "title": "Bauman readiness and Cassel transport",
+      "key_id": "Nov13-15b",
+      "header_literal": "E) SY A v SY (10.09 p.m., November 12th); 10.45; RICHI-224",
+      "edited_output": "LTXBAUMANXSTATONSOFORTXMARSCHBEREIT0SEINFUERXM?TRANSPORTXCASSELXABTRANSPORTSOSCHNELLWIEMOEGLICHREGELNXKOMMANDEUR",
+      "readable_german": "Lt. Bauman. STATON sofort marschbereit 0 sein fuer M?TRANSPORT Cassel. Abtransport so schnell wie moeglich regeln. Kommandeur.",
+      "meaning": "The instruction addresses Lt. Bauman, calls for immediate readiness to move, and directs transport to Cassel to be arranged as quickly as possible. The spelling STATON and the literal fields 0 and M? TRANSPORT remain unresolved; the specific transport type is not identified.",
+      "notes": [
+        "The source contains 224 slots, including all final groups; no coordinate is inserted, removed or moved.",
+        "STATON is retained without inserting the absent I of STATION. BAUMAN remains the literal surname with one terminal N.",
+        "MARSCHBERECT0 to MARSCHBEREIT0, SCHNELS to SCHNELL and RE?ELN to REGELN are separately priced lexical changes. The literal 0 is not silently changed into a separator.",
+        "The Nov13–15b published key is used because it yields the demonstrated reading; the printed November 12 date is retained as a different evidence layer.",
+        "The unknown position in M?TRANSPORT comes from an unresolved square cell and remains globally coupled. Its label is not chosen from historical expectations."
+      ],
+      "protected_fields": [
+        "0",
+        "M?TRANSPORT"
+      ],
+      "printed_page": 180,
+      "source_section": "E",
+      "source_rows": [
+        "GDXVX GFFGF FFFAV AVGAD DVGAV GXGAG DXXAF FGXXA",
+        "VAFVG VXDFD VGVGX AXDGF XAVXA FXXXA AXXAX AGXVG",
+        "XXDXV FAFDF AVDDF GFVVV AFVXX DDAAF GFDGD GXXVV",
+        "XXFXX VXDDG FVXFA FAVVF FAFVF AGVVX AXFVV VFAGD",
+        "DGVGV XVFVX VFADG FFVFA DXDVX GVXVV GGFFX VVVGA",
+        "FVGFV XXAAA AXGXD FGGFG GFFV"
+      ],
+      "source_slots": 224,
+      "advertised_length": 224,
+      "expected_raw": "LTXBAUMANXSTATONSOFORTXMARSCHBERECT0SEINFUERXM?TRANSPORTXCASSELXABTRANSPORTSOSCHNELSWIEMOEGLICHRE?ELNXKOMMANDEUR",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 3,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p181_B",
+      "title": "Repeated request for local armistice conditions",
+      "key_id": "Nov10-12",
+      "header_literal": "B) LP v NKJ (01.00 a.m., November 12th); 23.10 (12/11); RICHI-234",
+      "edited_output": "ANXOHLXXOKMXUNDAOK11XERBITTENNOCHMALSMITTEILUNGDERBESONDERENXWAFFENSTILLSTANDSBEDINGUNGENFUERHIESIGENKRIEGSSCHAUPLATZ",
+      "readable_german": "An OHL. OKM und AOK11. Erbitten nochmals Mitteilung der besonderen Waffenstillstandsbedingungen fuer hiesigen Kriegsschauplatz.",
+      "meaning": "The sender again asks OHL, OKM and the literal addressee AOK11 for the specific armistice conditions applying to the local theater of operations. The text is a request for information, not the conditions themselves.",
+      "notes": [
+        "The printed source has one non-coordinate glyph O in OADDG. It occupies a source slot, is masked in the raw model, and is filled explicitly for MITTEILUNG.",
+        "The lexical proposals WAFFENS2ILLSTAXDS to WAFFENSTILLSTANDS and FQER to FUER are priced observed-coordinate changes. The raw numeral-like 2 remains available in the exact raw layer.",
+        "Both header times and the separate 12/11 line remain literal. The label AOK11 is not used to prove a historical unit identification."
+      ],
+      "protected_fields": [
+        "AOK11"
+      ],
+      "printed_page": 181,
+      "source_section": "B",
+      "source_rows": [
+        "GAFVA GGDGV VVDAF GXXGG GXVDG FXAGG GAAAD FVDAD",
+        "VXDAX DFAVD DFAXX XDGGG ADDXD AGFXD AAAXX XAAXX",
+        "GXDXX GVDDD AGVAA VADDD XGXVX VDDFX XDXGD GDADD",
+        "DVAVV DDGDD VFGDV DGDDV DDDVD VXVVV VXFFX VDFDD",
+        "ADAAD FVXXF GDXGXVXDFA DDXDA FDDFD VAGDD ADGVG",
+        "AADVF AXXXV OADDG XFVFD GAVGG VDDGX VVDA"
+      ],
+      "source_slots": 234,
+      "advertised_length": 234,
+      "expected_raw": "ANXOHLXXOKMXUNDAOK11XERBITTENNOCHMALSMITTEILU?GDERBESONDERENXWAFFENS2ILLSTAXDSBEDINGUNGENFQERHIESIGENKRIEGSSCHAUPLATZ",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 3,
+      "expected_source_mask_fills": 1
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "118e7557ee0794326f52502364c7f2e9570e6357db269027ed291d5616d3ad55",
+    "ocr_snapshot.json": "440e0a0a73c010d4dfe3be0020ff389e71bd95ffdb37238f3d96f1d8366f9519"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All source slots are preserved in their native order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Witness completions are explicitly nonhistorical.",
+    "Source-mask fills and observed-coordinate substitutions are recorded separately; a source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

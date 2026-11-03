@@ -4,12 +4,12 @@
   "initial_push_confirmed_utc": "2026-11-02T23:27:19Z",
   "minimum_required_followup_seconds": 7200,
   "minimum_followup_end_utc": "2026-11-03T01:27:19Z",
-  "extended_work_until_utc": "2026-11-03T03:30:00Z",
-  "extended_deadline_interpretation": "User requested 11:30; interpreted consistently with the previously announced Singapore/Beijing UTC+8 clock, on2026-11-03.",
+  "extended_work_until_utc": "2026-11-03T05:30:00Z",
+  "extended_deadline_interpretation": "User extended the continuous work to 13:30 UTC+8 on 2026-11-03; review remains in progress until then.",
   "review_finished_utc": null,
   "initial_public_head": "c4c2562f41dd4624f7202962db68ef9e746f50f2",
   "start_catalog_sha256": "50784e7b1a7a51a8e4224a088cdaec21a6c6f25285d869b5049110a667630e75",
-  "final_catalog_sha256": "6a4d06b90e614a58164ed72f3dbdb92337c50ee9930b55ff5ee324257525870d",
+  "final_catalog_sha256": "b8f2f95f1de185dcb836bfe6617c11abea923b63d5e428acfce583d11b908be6",
   "source_pdf": {
     "sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
     "bytes": 156848258,
@@ -2615,6 +2615,651 @@
         "source_deletions": 0,
         "published_key_changed": false
       }
+    },
+    {
+      "name": "nov4_repetition_and_connections",
+      "record_ids": [
+        "p121_A1",
+        "p121_A2",
+        "p121_B1",
+        "p122_A2",
+        "p122_C"
+      ],
+      "case_pages": [
+        "cases/finance/cash_arrival_acknowledgment.md",
+        "cases/radio/nov4_repetition_and_connections.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 5,
+        "source_slots": 1030,
+        "modeled_plaintext_positions": 515,
+        "fixed_raw_label_positions_under_stated_geometry": 514,
+        "known_coordinate_substitutions": 7
+      },
+      "original_summary": {
+        "physical_records": 5,
+        "printed_source_slots": 1030,
+        "valid_source_coordinates": 1029,
+        "modeled_coordinates": 1030,
+        "plaintext_positions": 515,
+        "baseline_fixed_positions": 514,
+        "candidate_fixed_positions": 515,
+        "known_coordinate_substitutions": 7,
+        "source_or_model_erasure_fills": 1,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov2_acknowledgments_and_personnel",
+      "record_ids": [
+        "p104_A3",
+        "p104_B",
+        "p104_D",
+        "p104_E3",
+        "p105_C1",
+        "p106_A2",
+        "p106_A3"
+      ],
+      "case_pages": [
+        "cases/people/meier_berlin_order.md",
+        "cases/people/sevastopol_transfer_consent.md",
+        "cases/radio/nov2_telegram_acknowledgments.md",
+        "cases/radio/nov2_uks_connection.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 7,
+        "source_slots": 1175,
+        "modeled_plaintext_positions": 588,
+        "fixed_raw_label_positions_under_stated_geometry": 584,
+        "known_coordinate_substitutions": 3
+      },
+      "original_summary": {
+        "physical_records": 7,
+        "printed_source_slots": 1175,
+        "valid_source_coordinates": 1172,
+        "modeled_coordinates": 1176,
+        "plaintext_positions": 588,
+        "baseline_fixed_positions": 584,
+        "candidate_fixed_positions": 587,
+        "known_coordinate_substitutions": 3,
+        "source_or_model_erasure_fills": 3,
+        "source_mask_fills": 2,
+        "inserted_slot_fills": 1,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov30_radio_personnel",
+      "record_ids": [
+        "p230_B",
+        "p230_C",
+        "p230_D",
+        "p230_E"
+      ],
+      "case_pages": [
+        "cases/radio/nov30_radio_personnel.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 490,
+        "modeled_plaintext_positions": 245,
+        "fixed_raw_label_positions_under_stated_geometry": 245,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 490,
+        "valid_source_coordinates": 490,
+        "modeled_coordinates": 490,
+        "plaintext_positions": 245,
+        "baseline_fixed_positions": 245,
+        "candidate_fixed_positions": 245,
+        "known_coordinate_substitutions": 0,
+        "source_or_model_erasure_fills": 0,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov27_receiving_instructions",
+      "record_ids": [
+        "p224_A1",
+        "p224_A2",
+        "p224_B"
+      ],
+      "case_pages": [
+        "cases/radio/nov27_receiving_instructions.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 506,
+        "modeled_plaintext_positions": 253,
+        "fixed_raw_label_positions_under_stated_geometry": 250,
+        "known_coordinate_substitutions": 14
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 506,
+        "valid_source_coordinates": 503,
+        "modeled_coordinates": 506,
+        "plaintext_positions": 253,
+        "baseline_fixed_positions": 250,
+        "candidate_fixed_positions": 253,
+        "known_coordinate_substitutions": 14,
+        "source_or_model_erasure_fills": 3,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov16_18_command_inquiries",
+      "record_ids": [
+        "p202_A1",
+        "p202_A2",
+        "p203_A2",
+        "p203_B",
+        "p204_B",
+        "p204_C1",
+        "p204_D"
+      ],
+      "case_pages": [
+        "cases/radio/nov16_18_command_inquiries.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 7,
+        "source_slots": 1070,
+        "modeled_plaintext_positions": 535,
+        "fixed_raw_label_positions_under_stated_geometry": 517,
+        "known_coordinate_substitutions": 9
+      },
+      "original_summary": {
+        "physical_records": 7,
+        "printed_source_slots": 1070,
+        "valid_source_coordinates": 1064,
+        "modeled_coordinates": 1070,
+        "plaintext_positions": 535,
+        "baseline_fixed_positions": 517,
+        "candidate_fixed_positions": 526,
+        "known_coordinate_substitutions": 9,
+        "source_or_model_erasure_fills": 5,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov6_ringbahn_key_witnesses",
+      "record_ids": [
+        "p145_B1",
+        "p145_B2",
+        "p145_B3"
+      ],
+      "case_pages": [
+        "cases/radio/nov6_ringbahn_key_witnesses.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 531,
+        "modeled_plaintext_positions": 266,
+        "fixed_raw_label_positions_under_stated_geometry": 265,
+        "known_coordinate_substitutions": 5
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 531,
+        "valid_source_coordinates": 531,
+        "modeled_coordinates": 532,
+        "plaintext_positions": 266,
+        "baseline_fixed_positions": 265,
+        "candidate_fixed_positions": 266,
+        "known_coordinate_substitutions": 5,
+        "source_or_model_erasure_fills": 1,
+        "source_mask_fills": 0,
+        "inserted_slot_fills": 1,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "warsaw_station_missing_row",
+      "record_ids": [
+        "p204_C2"
+      ],
+      "case_pages": [
+        "cases/radio/warsaw_station_missing_row.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 242,
+        "modeled_plaintext_positions": 141,
+        "fixed_raw_label_positions_under_stated_geometry": 101,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 242,
+        "valid_source_coordinates": 242,
+        "modeled_coordinates": 282,
+        "plaintext_positions": 141,
+        "baseline_fixed_positions": 101,
+        "candidate_fixed_positions": 137,
+        "known_coordinate_substitutions": 0,
+        "source_or_model_erasure_fills": 36,
+        "source_mask_fills": 0,
+        "inserted_slots": 40,
+        "inserted_slot_fills": 36,
+        "remaining_inserted_masks": 4,
+        "source_deletions": 0,
+        "published_key_changed": false,
+        "counting_frame": "One primary conditional gap-before-GX frame; alternatives are not added to totals."
+      }
+    },
+    {
+      "name": "armistice_departure_copy",
+      "record_ids": [
+        "p157_A1"
+      ],
+      "case_pages": [
+        "cases/military/armistice_departure_copy.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 83,
+        "modeled_plaintext_positions": 95,
+        "fixed_raw_label_positions_under_stated_geometry": 0,
+        "known_coordinate_substitutions": 5
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 83,
+        "valid_source_coordinates": 78,
+        "modeled_coordinates": 190,
+        "plaintext_positions": 95,
+        "baseline_fixed_positions": 0,
+        "candidate_fixed_positions": 95,
+        "known_coordinate_substitutions": 5,
+        "source_or_model_erasure_fills": 112,
+        "source_mask_fills": 5,
+        "inserted_slot_fills": 107,
+        "missing_prefix_fills": 105,
+        "short_group_fills": 2,
+        "source_deletions": 0,
+        "inserted_slots": 107,
+        "source_reorderings": 0,
+        "published_key_changed": false,
+        "previously_cataloged_comparison_records_excluded": 1
+      }
+    },
+    {
+      "name": "home_departures_baltic_transport",
+      "record_ids": [
+        "p186_B2",
+        "p186_C1"
+      ],
+      "case_pages": [
+        "cases/military/home_departures_baltic_transport.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 424,
+        "modeled_plaintext_positions": 212,
+        "fixed_raw_label_positions_under_stated_geometry": 209,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 424,
+        "valid_source_coordinates": 424,
+        "modeled_coordinates": 424,
+        "plaintext_positions": 212,
+        "baseline_fixed_positions": 209,
+        "candidate_fixed_positions": 209,
+        "known_coordinate_substitutions": 0,
+        "source_or_model_erasure_fills": 0,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "mackensen_withdrawal_part2",
+      "record_ids": [
+        "p118_A2"
+      ],
+      "case_pages": [
+        "cases/military/mackensen_withdrawal_part2.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 377,
+        "modeled_plaintext_positions": 189,
+        "fixed_raw_label_positions_under_stated_geometry": 188,
+        "known_coordinate_substitutions": 13
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 377,
+        "valid_source_coordinates": 377,
+        "modeled_coordinates": 378,
+        "plaintext_positions": 189,
+        "baseline_fixed_positions": 188,
+        "candidate_fixed_positions": 189,
+        "known_coordinate_substitutions": 13,
+        "source_mask_fills": 0,
+        "inserted_slot_fills": 1,
+        "frame_insertions": 1,
+        "frame_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "namur_cassel_armistice_requests",
+      "record_ids": [
+        "p172_C1",
+        "p172_C3",
+        "p180_E",
+        "p181_B"
+      ],
+      "case_pages": [
+        "cases/military/namur_cassel_armistice_requests.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 658,
+        "modeled_plaintext_positions": 329,
+        "fixed_raw_label_positions_under_stated_geometry": 326,
+        "known_coordinate_substitutions": 7
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 658,
+        "valid_source_coordinates": 657,
+        "modeled_coordinates": 658,
+        "plaintext_positions": 329,
+        "baseline_fixed_positions": 326,
+        "candidate_fixed_positions": 328,
+        "known_coordinate_substitutions": 7,
+        "source_or_model_erasure_fills": 1,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov4_radio_and_departure_queries",
+      "record_ids": [
+        "p120_A",
+        "p120_C",
+        "p147_A",
+        "p123_B"
+      ],
+      "case_pages": [
+        "cases/naval/motorboat_sale_attempt.md",
+        "cases/people/director_departure_query.md",
+        "cases/radio/nov4_eilvese_and_setup.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 887,
+        "modeled_plaintext_positions": 443,
+        "fixed_raw_label_positions_under_stated_geometry": 432,
+        "known_coordinate_substitutions": 17
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 887,
+        "valid_source_coordinates": 875,
+        "modeled_coordinates": 886,
+        "plaintext_positions": 443,
+        "baseline_fixed_positions": 432,
+        "candidate_fixed_positions": 441,
+        "known_coordinate_substitutions": 17,
+        "source_or_model_erasure_fills": 9,
+        "source_mask_fills": 9,
+        "inserted_slot_fills": 0,
+        "source_deletions": 1,
+        "excluded_valid_coordinates": 0,
+        "excluded_masked_slots": 1,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov7_derailment_and_trains",
+      "record_ids": [
+        "p155_D",
+        "p169_B"
+      ],
+      "case_pages": [
+        "cases/military/nov7_derailment_and_trains.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 540,
+        "modeled_plaintext_positions": 270,
+        "fixed_raw_label_positions_under_stated_geometry": 260,
+        "known_coordinate_substitutions": 3
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 540,
+        "valid_source_coordinates": 535,
+        "modeled_coordinates": 540,
+        "plaintext_positions": 270,
+        "baseline_fixed_positions": 260,
+        "candidate_fixed_positions": 265,
+        "known_coordinate_substitutions": 3,
+        "source_or_model_erasure_fills": 5,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov7_eighth_part_repetition",
+      "record_ids": [
+        "p155_C1",
+        "p155_C2"
+      ],
+      "case_pages": [
+        "cases/radio/nov7_eighth_part_repetition.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 323,
+        "modeled_plaintext_positions": 161,
+        "fixed_raw_label_positions_under_stated_geometry": 155,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 323,
+        "valid_source_coordinates": 320,
+        "modeled_coordinates": 322,
+        "plaintext_positions": 161,
+        "baseline_fixed_positions": 155,
+        "candidate_fixed_positions": 157,
+        "known_coordinate_substitutions": 0,
+        "source_or_model_erasure_fills": 2,
+        "source_deletions": 1,
+        "deleted_valid_source_coordinates": 1,
+        "inserted_slots": 0,
+        "published_key_changed": false,
+        "counting_frame": "Primary C1 exclusion at61 plus native C2; alternative exclusions are not extra records."
+      }
+    },
+    {
+      "name": "oberost_troop_movement_obliterations",
+      "record_ids": [
+        "p186_B1"
+      ],
+      "case_pages": [
+        "cases/military/oberost_troop_movement_obliterations.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 308,
+        "modeled_plaintext_positions": 154,
+        "fixed_raw_label_positions_under_stated_geometry": 150,
+        "known_coordinate_substitutions": 1
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 308,
+        "composite_layout_slots": 318,
+        "valid_source_coordinates": 306,
+        "modeled_coordinates": 308,
+        "plaintext_positions": 154,
+        "baseline_fixed_positions": 150,
+        "candidate_fixed_positions": 152,
+        "known_coordinate_substitutions": 1,
+        "source_or_model_erasure_fills": 2,
+        "source_deletions": 10,
+        "masked_layout_slot_exclusions": 10,
+        "observed_coordinate_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "schorlemer_demobilization_inquiry",
+      "record_ids": [
+        "p122_B",
+        "p155_B"
+      ],
+      "case_pages": [
+        "cases/people/schorlemer_demobilization_inquiry.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 412,
+        "modeled_plaintext_positions": 206,
+        "fixed_raw_label_positions_under_stated_geometry": 169,
+        "known_coordinate_substitutions": 8
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 412,
+        "valid_source_coordinates": 375,
+        "modeled_coordinates": 412,
+        "plaintext_positions": 206,
+        "baseline_fixed_positions": 169,
+        "candidate_fixed_positions": 206,
+        "known_coordinate_substitutions": 8,
+        "source_or_model_erasure_fills": 37,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "september_radio_instructions",
+      "record_ids": [
+        "p57_A1",
+        "p57_A2",
+        "p57_A3",
+        "p61_A"
+      ],
+      "case_pages": [
+        "cases/radio/september_key_destruction_order.md",
+        "cases/radio/september_tiflis_radio_routing.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 798,
+        "modeled_plaintext_positions": 399,
+        "fixed_raw_label_positions_under_stated_geometry": 389,
+        "known_coordinate_substitutions": 10
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 798,
+        "valid_source_coordinates": 788,
+        "plaintext_positions": 399,
+        "baseline_fixed_positions": 389,
+        "candidate_fixed_positions": 398,
+        "known_coordinate_substitutions": 10,
+        "source_mask_fills": 9,
+        "frame_insertions": 0,
+        "frame_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "siegfried_assignment_cancellation",
+      "record_ids": [
+        "p135_A"
+      ],
+      "case_pages": [
+        "cases/people/siegfried_assignment_cancellation.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 401,
+        "modeled_plaintext_positions": 200,
+        "fixed_raw_label_positions_under_stated_geometry": 196,
+        "known_coordinate_substitutions": 7
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 401,
+        "valid_source_coordinates": 397,
+        "received_frame_coordinates": 401,
+        "paired_interim_coordinates": 400,
+        "plaintext_positions": 200,
+        "baseline_fixed_positions": 196,
+        "candidate_fixed_positions": 200,
+        "known_coordinate_substitutions": 7,
+        "source_mask_fills": 4,
+        "paired_model_excluded_observed_coordinates": 1,
+        "transmitted_frame_insertions_or_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "staatsbank_accounting_cheques",
+      "record_ids": [
+        "p172_D1",
+        "p172_D2"
+      ],
+      "case_pages": [
+        "cases/finance/staatsbank_accounting_cheques.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 401,
+        "modeled_plaintext_positions": 201,
+        "fixed_raw_label_positions_under_stated_geometry": 192,
+        "known_coordinate_substitutions": 5
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 401,
+        "valid_source_coordinates": 394,
+        "modeled_coordinates": 402,
+        "plaintext_positions": 201,
+        "baseline_fixed_positions": 192,
+        "candidate_fixed_positions": 200,
+        "known_coordinate_substitutions": 5,
+        "source_or_model_erasure_fills": 8,
+        "source_mask_fills": 7,
+        "inserted_slot_fills": 1,
+        "source_deletions": 0,
+        "inserted_slots": 1,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
     }
   ],
   "additional_packages": [
@@ -3464,6 +4109,173 @@
     "experiments/romanian_pacification_consultation/sources/p157_A5.png": "fd9080253eeb634dd6ee57a254aff2fc9379f14014bd0fc201d1ed44d0d57b5c",
     "experiments/romanian_pacification_consultation/sources/p157_overview.png": "1fcb7bc41d3b890b1c41afc99a1456d2229d0d30275de241d77868ffa948ec81",
     "experiments/romanian_pacification_consultation/verify.py": "28887bee741195174b2fd50cf8b1365139d6648a6d612694e6ab963e5fb9604d",
+    "experiments/nov4_repetition_and_connections/README.md": "5aefff68488be5b24d1d9a8160579151b1db19dd4f0cb3395d9f96fe329acca6",
+    "experiments/nov4_repetition_and_connections/catalog_proposal.json": "7f36097eb125cce914b27b68bc37f8531cb22631de4966d92b718ea83a1ef49a",
+    "experiments/nov4_repetition_and_connections/certificates.json": "74c60a64d0c7c4bb4124e60c7c00caa880ba148993201a87b5858122402afdfb",
+    "experiments/nov4_repetition_and_connections/inputs.json": "39c981ec1b87a022463122fe23fb93d82289ca6792fbabfd066ce50d2f407055",
+    "experiments/nov4_repetition_and_connections/prior_candidates.json": "d894499cad06b8c7f953dfd86b778af2731fe53a6b9729def5ec491b97e7f6ab",
+    "experiments/nov4_repetition_and_connections/sources/p121_A.png": "77048b98ab64ea13d1cfe210e433242449bfb0aae7d8853752e42b7704f6a9fa",
+    "experiments/nov4_repetition_and_connections/sources/p121_B1.png": "dbc52683a51ce62762f9dca95b30fc0444d858470e9548d8f6fc9cb88a73fb85",
+    "experiments/nov4_repetition_and_connections/sources/p122_A2.png": "1ab38b142e81dd64ec94b084c29851a8ef8f1a30b6863290554e407dfa57168f",
+    "experiments/nov4_repetition_and_connections/sources/p122_C.png": "59809df4f6354e0ef67678e94cc24019dd6073660530c827b05bfd67b141c274",
+    "experiments/nov4_repetition_and_connections/verify.py": "3eeccf32ca50c615da42aea6734141a5600a622855ba42647e3ce035a91eea5a",
+    "experiments/nov2_acknowledgments_and_personnel/README.md": "9bfd99e14a40e3892a4688acdcfafae5b819b07386cc6d1199a4f219b7082376",
+    "experiments/nov2_acknowledgments_and_personnel/catalog_proposal.json": "8b2c3e1db80b711519204cb5582c9029c30e8b33de4cf58f192af137ed6513d7",
+    "experiments/nov2_acknowledgments_and_personnel/certificates.json": "3c502d5c8c3f2b8772dc6c5c1a60056220eb06c6aad6223a9b3ac5d469141915",
+    "experiments/nov2_acknowledgments_and_personnel/inputs.json": "8c48c46d608cb4af1e750dd9eaa132259885a43f377cb8e04a727044f1479db2",
+    "experiments/nov2_acknowledgments_and_personnel/prior_candidates.json": "c11db9b90f841e24aab59000860edecf36e1866f249b836decfd46b903866134",
+    "experiments/nov2_acknowledgments_and_personnel/sources/p104_A3.png": "a2b140d7472c08f51212cf185d6d910cbe383593232d87987f948a3733f09bb0",
+    "experiments/nov2_acknowledgments_and_personnel/sources/p104_B.png": "35153beba7d35af6094a4a4003046971e9105c6936ca9ffa6938c8585151a336",
+    "experiments/nov2_acknowledgments_and_personnel/sources/p104_D.png": "b4a2dff12af984c4ffebda994c3b9e179a7369746b79cf239bdaf45e544e723a",
+    "experiments/nov2_acknowledgments_and_personnel/sources/p104_E3.png": "cf2250c8adddc02e97d3a62c357d7997f191e4868df1de3cd644f10ee84ccac3",
+    "experiments/nov2_acknowledgments_and_personnel/sources/p105_C1.png": "d820477854e598bb1f4c3530ac2906fc0ab34e076a3b07a93642c9ea10504597",
+    "experiments/nov2_acknowledgments_and_personnel/sources/p106_A.png": "899b648d57ad0d1f1d2b89d0925254c51fcab81e67703e2fe081e744159a7c8a",
+    "experiments/nov2_acknowledgments_and_personnel/verify.py": "fa188d9aaa6d8bc6d7401f836c653d725419a2d69b12cb6cdede82bc39def994",
+    "experiments/nov30_radio_personnel/README.md": "7c27721cd836669dab5c2620b865f74b65aea39dec868bb0ad55771a1ebaafb0",
+    "experiments/nov30_radio_personnel/catalog_proposal.json": "d69bfb259afda0dbdaa7a29190773c78036d14b9e8b0b400ff709972e0ad52af",
+    "experiments/nov30_radio_personnel/certificates.json": "27425844ee56b30dcb01e4923ebfeb494ef94a8f0a7be0d637dfa6c8c57c6b2a",
+    "experiments/nov30_radio_personnel/inputs.json": "8efea800953e8880870bf77dacba4de2ac9a14cd6a3dd5b4664575b1e0d36dd9",
+    "experiments/nov30_radio_personnel/ocr_snapshot.json": "0c8d25a40fcfa29aa1db58b0e1a773d2649c651d7da622d0c732a0231d0cf02f",
+    "experiments/nov30_radio_personnel/prior_candidates.json": "ae7d4ffc8bb69631aba297c7c80c3cb532155a328c8d080b28671a2c6ec9bf66",
+    "experiments/nov30_radio_personnel/sources/p230_reviewed.png": "e96064f4f1473b0a7dc443f529743e4ebedf418422a596b3a677837f5f94788f",
+    "experiments/nov30_radio_personnel/verify.py": "9b4b6b235a738e0819b032f16cc93edc5c165d1dbd11f4790015f72591bdf862",
+    "experiments/nov27_receiving_instructions/README.md": "f1081e2dd038cfe0793d03cd84fb600eeacf83534fc0b489341a6a780d5d516b",
+    "experiments/nov27_receiving_instructions/catalog_proposal.json": "3175ebe855bb48e87bece3d6ccd37236e1d2e19d9d66288be42307651825a169",
+    "experiments/nov27_receiving_instructions/certificates.json": "55575d925c1e80a2297d4409235fb55bc4728035bd7de1ef07acff8d0f5f2da9",
+    "experiments/nov27_receiving_instructions/inputs.json": "1f9d57701920a386646aae4adff0b2b357efe0640f94bbea0763287d3f8a3fa1",
+    "experiments/nov27_receiving_instructions/ocr_snapshot.json": "3f996d3dde1115451c8479b76b84f3a305f5b5bb466673972dec6901253f54a8",
+    "experiments/nov27_receiving_instructions/prior_candidates.json": "4906f479ff930807c52a7763ac0e8929056465818f9687a0e49e1218feff0fe6",
+    "experiments/nov27_receiving_instructions/sources/p224_reviewed.png": "a38ca204558b01cfc73c89a08a48847f222215dd18d9424fa9c00318e962c2fc",
+    "experiments/nov27_receiving_instructions/verify.py": "9b4b6b235a738e0819b032f16cc93edc5c165d1dbd11f4790015f72591bdf862",
+    "experiments/nov16_18_command_inquiries/README.md": "6f944a14b6426726b90aa3d4adb53e43fb02483f9130097c11a664cd56c0f501",
+    "experiments/nov16_18_command_inquiries/catalog_proposal.json": "e61835bba619a14d09a6d48efe9a3258236f37def44d3e846ef02e4c44a6ab14",
+    "experiments/nov16_18_command_inquiries/certificates.json": "95ba2ac30ddcd6ff4c3101037719475b7753d11ad8a899f425a42ea6637e765f",
+    "experiments/nov16_18_command_inquiries/inputs.json": "46104d9f20b1b6d5d3975326a156e39c9729d5bde2d53f2a3953669183fb33c8",
+    "experiments/nov16_18_command_inquiries/ocr_snapshot.json": "6f4b3c8c9afafaacbda90e22c44a53d9a3a933096efb833ea298913273c8170e",
+    "experiments/nov16_18_command_inquiries/prior_candidates.json": "9fda14a34b12a4fe2aef39c88a933f9e0ff9348dcc880b21324e755a621ee774",
+    "experiments/nov16_18_command_inquiries/sources/p202_reviewed.png": "346a71e949399c1d512b94329fb78f287a95d37f37cd2602080f4af24e5d1813",
+    "experiments/nov16_18_command_inquiries/sources/p203_reviewed.png": "6a577e8e43ec387627ddcfdb56a1a3b68019edcc3a89c785fd7ec308ac3f9ae1",
+    "experiments/nov16_18_command_inquiries/sources/p204_reviewed.png": "729c34425470ff82302d43db4527c7037447ad774a0f41bfc4063d262f59d9fc",
+    "experiments/nov16_18_command_inquiries/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
+    "experiments/nov6_ringbahn_key_witnesses/README.md": "7066fb4c5372c3c7b325bfb5c5186b001c9e215ce922f956ab65cb183f865b2f",
+    "experiments/nov6_ringbahn_key_witnesses/catalog_proposal.json": "138436a8e886086fafa2a73627eef9b62f8d5a099380161cf9e8cc83269e87ff",
+    "experiments/nov6_ringbahn_key_witnesses/certificates.json": "527f43f946c13f8287dd4bb697f477764f38299c8a714cc39f24c0f6da1c492e",
+    "experiments/nov6_ringbahn_key_witnesses/inputs.json": "fba3fac11f80aa03893a3b397bbe9c6e07129b1006ce6fb671b0df3618d65611",
+    "experiments/nov6_ringbahn_key_witnesses/prior_candidates.json": "169f0c20d9a57b0a2a8bacc2667140160063558e0c9342e703c4905482b31c0a",
+    "experiments/nov6_ringbahn_key_witnesses/sources/p145_B1.png": "45612c8ab9e84f515fbaa3b99dd9b36dd3c8526210508d3df4f07c7739682cec",
+    "experiments/nov6_ringbahn_key_witnesses/sources/p145_B2.png": "f49a3feb6ee8f0c23db7be99b13591a7a20235b2f4c0fed78af9226ef9ba7538",
+    "experiments/nov6_ringbahn_key_witnesses/sources/p145_B3.png": "4cf0e3ffbaccb71c376d786f203fc48cc86fd16c7825867dc7f422be8f716566",
+    "experiments/nov6_ringbahn_key_witnesses/verify.py": "e516582ef04a1272803f76b46ffd152efe952df0645ddab9d66175efed3a2187",
+    "experiments/warsaw_station_missing_row/README.md": "c88161434d91f91fb3f5697aa66128a2b4615ecf7cb35a2d00614d6d4c39b834",
+    "experiments/warsaw_station_missing_row/catalog_proposal.json": "25cacf4ba0066d52ef9630472c09f9e84538f63d5132f0020e88f3e4602260c6",
+    "experiments/warsaw_station_missing_row/certificates.json": "b416c0289b1eb71274fc0c90cff00438239dd6bcd774f357c40e4963915eaf6a",
+    "experiments/warsaw_station_missing_row/inputs.json": "3e1d3fed9bcda22719d748ec5b3e74b8a4d182ac73f16523504c6744d7b81784",
+    "experiments/warsaw_station_missing_row/ocr_snapshot.json": "c694dd0446f5f1498c457c1498f881f0e7faef265511ad7cd6574ea89b686230",
+    "experiments/warsaw_station_missing_row/prior_candidates.json": "992a8f138d21569c35b59aa85055ca9f2ecd6e3f5b4a18176243b40bd6660715",
+    "experiments/warsaw_station_missing_row/sources/p204_C.png": "81e919c3b6049e8a99cd9af8dc304326353916378eb71e3fa02087dc614fbe9b",
+    "experiments/warsaw_station_missing_row/verify.py": "290612da420f0d03b717f0aac8b815e3d7aafb8561de2c7a8ee5c576c826ff3e",
+    "experiments/armistice_departure_copy/README.md": "a4963c41964acfb81dd2e08d88278612624f1785b50b3d4235ef079922a32c94",
+    "experiments/armistice_departure_copy/catalog_proposal.json": "b97aade5142de24d1db7dad66669121780674d2a0e85ebc52e77f8b0d4b427b0",
+    "experiments/armistice_departure_copy/certificates.json": "3ebaa887b2293b8616c5db4ddc99f4178418271293942b0f4c462ee46f24c84f",
+    "experiments/armistice_departure_copy/inputs.json": "271b825678a54a68d6fbfc6723ad34a6e625b54dab1839ddd747d95b2937a5c1",
+    "experiments/armistice_departure_copy/verify.py": "a38cfae97451ee4c792d83af372cec6bf1a0668c92cc27a8425e3499cba1e408",
+    "experiments/home_departures_baltic_transport/README.md": "d3f72f3d061b4867b3163bf5de380a956b6db6998fc0bd47e6e0f2e1027c0b08",
+    "experiments/home_departures_baltic_transport/catalog_proposal.json": "893ba84d0f8219af6b65e53ebd89309979ce53388285921a783b34a8a16931f2",
+    "experiments/home_departures_baltic_transport/certificates.json": "d96f62c7995b7ccb641ec67e983804d341429464638a85bbba2b4f31161326d4",
+    "experiments/home_departures_baltic_transport/inputs.json": "5293f3972107f2d6a6b9ce3fe2d94e7058a0a0860c294d89b08b79171b3e32e3",
+    "experiments/home_departures_baltic_transport/ocr_snapshot.json": "6504b5d87ed51af4e27a8b31bdaa05b08b3fb2143e47893c3279f9fa246b655a",
+    "experiments/home_departures_baltic_transport/prior_candidates.json": "16c2ddcb73ca491a5fba4d76b62b83bb72e5dbad4086f3bb238cf14e49218db6",
+    "experiments/home_departures_baltic_transport/sources/p186_reviewed.png": "c41641162bcfc7a18bdd1705bdfba073f79dad1c3799b142d4153dc61cb730ab",
+    "experiments/home_departures_baltic_transport/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
+    "experiments/mackensen_withdrawal_part2/README.md": "d64d21106460c1e59cb4f38fe57cbd2838201bf63c457b11d6e3b51a45fdd5ed",
+    "experiments/mackensen_withdrawal_part2/catalog_proposal.json": "47e23dd352200306472f616ec776208736064af0e67bdce2e63c71a13500bcb0",
+    "experiments/mackensen_withdrawal_part2/certificates.json": "5e5a9ab499ae05bf07397ccf647d7b255a48fa778a7a2453bdb25dcf83230fb2",
+    "experiments/mackensen_withdrawal_part2/inputs.json": "679dbb87184712a4f17e32276a4e710952c8f36beff74554f1a0dd9a706ea8d2",
+    "experiments/mackensen_withdrawal_part2/prior_candidates.json": "f04dbb70ca95a84c13d0340d132938d4197e7cbbae35922464d5910f02239307",
+    "experiments/mackensen_withdrawal_part2/sources/p118_A2.png": "e7093097370b868299b872ddc695939bb1c61aed7dfb0f091063dd0ca424c102",
+    "experiments/mackensen_withdrawal_part2/sources/p118_A2_short_group.png": "7f77006112c7dde4a90b036d352555af2d17abc7acf7666897291a954c564f94",
+    "experiments/mackensen_withdrawal_part2/verify.py": "550f19def36e39d5691e58af4f2db3157468e0a0bbb5beb266ef71eb322e875f",
+    "experiments/namur_cassel_armistice_requests/README.md": "8915b393a09e51b73d6cf1cf12811b6dbd60d47d947545c01fce34a11c03a302",
+    "experiments/namur_cassel_armistice_requests/catalog_proposal.json": "d1e4fd1a02bb3516a895f1052e4447d572d9d918fb14c5d1c1ee947d2e2ff39b",
+    "experiments/namur_cassel_armistice_requests/certificates.json": "4de7d9207cfb300963bd2da29b5c903a3f91526de4900357d270a1de07bd1a9d",
+    "experiments/namur_cassel_armistice_requests/inputs.json": "4ee9661207a4b90c19cded85d758b1a49740b95b8e69d51fa43f3bc1985c7a8e",
+    "experiments/namur_cassel_armistice_requests/ocr_snapshot.json": "440e0a0a73c010d4dfe3be0020ff389e71bd95ffdb37238f3d96f1d8366f9519",
+    "experiments/namur_cassel_armistice_requests/prior_candidates.json": "118e7557ee0794326f52502364c7f2e9570e6357db269027ed291d5616d3ad55",
+    "experiments/namur_cassel_armistice_requests/sources/p172_reviewed.png": "cdcb4fd7208d0a820f8564945a719f40cfc35cfb6b803d1c8d4580340f3c4c08",
+    "experiments/namur_cassel_armistice_requests/sources/p180_reviewed.png": "762ca6543ff3e4381fd633391a409737c636a12b6709df5470ba55e98d1ecafb",
+    "experiments/namur_cassel_armistice_requests/sources/p181_reviewed.png": "92374400d51abad21e46e73376c8ab31f37b870bd678615bdd6bd5c5641ba944",
+    "experiments/namur_cassel_armistice_requests/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
+    "experiments/nov4_radio_and_departure_queries/README.md": "bc8da50aff267c6c3ba2476a5bed910d6d31d2a2b1d9d20d407208c7cd1f3980",
+    "experiments/nov4_radio_and_departure_queries/catalog_proposal.json": "95c67d50641f6cbea363f5c58fe5afdd8b95d5039a19a0c76ef0343f4fd7979a",
+    "experiments/nov4_radio_and_departure_queries/certificates.json": "700c2496eb394b9b7af8dcfbc545ba84a33d7dac7a5383eef91272f42d8f5dce",
+    "experiments/nov4_radio_and_departure_queries/inputs.json": "6a265c1536fec1be04daf61fced700f2de82072568f5c2d06288a46ee8432d35",
+    "experiments/nov4_radio_and_departure_queries/prior_candidates.json": "2ea1dcb36a9c2f780ab4c5ab5612aa86ebaa531f97a1cd157db4f6311efcd339",
+    "experiments/nov4_radio_and_departure_queries/sources/p120_A.png": "648acccaf1ba635c001e36ddb75d76571f0072750cbe3ea9c11f3fd7bf544acf",
+    "experiments/nov4_radio_and_departure_queries/sources/p120_A_overprint.png": "a01b637307cf04a7001c4b9fed434e29ddf4565af87fd57e547589915b56c3d9",
+    "experiments/nov4_radio_and_departure_queries/sources/p120_C.png": "65e96efee7437ef29d089ce57d2a50fdad857c1443c6fb6fd55ebd40c9f57f54",
+    "experiments/nov4_radio_and_departure_queries/sources/p123_B.png": "b428e1189bebbe236c6a89bc1d2931e44c766b76c2772e64eded24711a3ba147",
+    "experiments/nov4_radio_and_departure_queries/sources/p147_A.png": "569cbafafcd6071b2fb7c2dc0a49f6d562080ae95e96ae97c395f36ea0c2114e",
+    "experiments/nov4_radio_and_departure_queries/verify.py": "aac0c5694c1dd3d6b7d8179b167a7c13250bdd2a56946205d7fb7f57b07db632",
+    "experiments/nov7_derailment_and_trains/README.md": "ca9a72e76c8feb9a0dda8004b72752da8e8bae2512edde753cb8d91613f40400",
+    "experiments/nov7_derailment_and_trains/catalog_proposal.json": "94adc1a01518a4d5aa274e93a4e0ebf1fb0866fa745cf3f4e8096419ea2b310a",
+    "experiments/nov7_derailment_and_trains/certificates.json": "d219df07b1d3a0963ac80e2dd2126a39b0d008477371c566e9215745298ac8b8",
+    "experiments/nov7_derailment_and_trains/inputs.json": "0323ae3a1ba59cbb462874c2b38db3a49ed1adfff08be1429e20bd5e1c573dd6",
+    "experiments/nov7_derailment_and_trains/ocr_snapshot.json": "fa1358c7824896149284eb0c4e28927ba4539d4af0f2ebaddabaeb26e5959cc2",
+    "experiments/nov7_derailment_and_trains/prior_candidates.json": "10ab77750e6eba3cffc5e708b6bc91b0a139c65df2386d1f4fc1fcd7f1e55b05",
+    "experiments/nov7_derailment_and_trains/sources/p155_reviewed.png": "d2fc41bcf0f4d871d0b8f9908b15a72e09100e7758a7420d842027bf3e772e4b",
+    "experiments/nov7_derailment_and_trains/sources/p169_reviewed.png": "b729dfe1e30dad2c9a47e47924993b5d6d0a1259c0792fb8c3c9ce21524d8d64",
+    "experiments/nov7_derailment_and_trains/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
+    "experiments/nov7_eighth_part_repetition/README.md": "50593af8038867a1e1ea9c686fd6ef68bc842ca6187f88d95d0a0cf87b3c0eca",
+    "experiments/nov7_eighth_part_repetition/catalog_proposal.json": "af89458aa32414a10b1aecb3ea4c540703b5146ab81642afb5acb926d75c8ddb",
+    "experiments/nov7_eighth_part_repetition/certificates.json": "fc24ad47b3f88fa7ffd00c5995e9940412387536949a37f585003a977916e60b",
+    "experiments/nov7_eighth_part_repetition/inputs.json": "cfc410e846318638ae8c5d3df414e33458073ac6fe0271d262e0028908b5dc6d",
+    "experiments/nov7_eighth_part_repetition/ocr_snapshot.json": "7cf81cdf38b5494bae99f8ed49296ff71f7e655861e0a26cfd523411af5aaeea",
+    "experiments/nov7_eighth_part_repetition/prior_candidates.json": "fdee7b45efbb727d96945e3a6e3da5f97eadd7c372c3ec12409e48f9111a9f70",
+    "experiments/nov7_eighth_part_repetition/sources/p155_C.png": "1d1dda9f8fee73252151d6b1784f9303bba0ef0fd129132039b8105e24bfe4f3",
+    "experiments/nov7_eighth_part_repetition/verify.py": "58793e42f984003e2f495e728583c5352a7b2437813ceed6873bd9c06f0d6bed",
+    "experiments/oberost_troop_movement_obliterations/README.md": "6d14c03d47dbeecd6bf4c0ba43790abfca3a304fa68b0ae0a42d87a4954770d4",
+    "experiments/oberost_troop_movement_obliterations/catalog_proposal.json": "73498501374a8c380407ac2748df293ce3307807a605b549479832d3ab2e9550",
+    "experiments/oberost_troop_movement_obliterations/certificates.json": "d84f7df59455cffeece860fdee30ab5788398eabeb4c85e505935a126ad89fa2",
+    "experiments/oberost_troop_movement_obliterations/inputs.json": "7537417c9756dc100e5a9411e72ef334e6a0c08118f93be0974bd14330b9f7e6",
+    "experiments/oberost_troop_movement_obliterations/ocr_snapshot.json": "1f7bbbbe55ecaa0173dabb09bb0788e1433901460ed9532137e4990c1ee5cc23",
+    "experiments/oberost_troop_movement_obliterations/prior_candidates.json": "0dad64fca2fda87dcb074d4868c6ddb7f0d9cf69b3157e40599fd271671b61c4",
+    "experiments/oberost_troop_movement_obliterations/sources/p186_reviewed.png": "b144b4ecca6265a3eaf2b7c675fefcad5d4833586486cc6630d47f48c31f5663",
+    "experiments/oberost_troop_movement_obliterations/verify.py": "d5018dad9f7c309179795de75e813ad2097e2b571a687b0c1da2a23d6eeadb83",
+    "experiments/schorlemer_demobilization_inquiry/README.md": "f4cbc63994fd9cfd450201acd70fb23a6a0d65f4c5f2475ff8b1662d835d5390",
+    "experiments/schorlemer_demobilization_inquiry/catalog_proposal.json": "8d49d08c55ad72a786b4de8f6d883b9fa6324b9729fb166c23c34ee4a0fd307a",
+    "experiments/schorlemer_demobilization_inquiry/certificates.json": "a37fbcf3d17e396d08cfe13d7032e66e36eb05eac0f35ca4da8c75cb7de36bde",
+    "experiments/schorlemer_demobilization_inquiry/inputs.json": "a2dcdc38b3af57cc26367c5f228365da03d4fe44019045ffc40f03190f207c4a",
+    "experiments/schorlemer_demobilization_inquiry/ocr_snapshot.json": "f7d2e7b2d4200672fdb938fd958165920e121d5f3cc0113c4465fe94a4474be5",
+    "experiments/schorlemer_demobilization_inquiry/prior_candidates.json": "16465a6d0cf0a452cc0bdf7fea157da92e02b1c4909ba94995c9b269e31599e7",
+    "experiments/schorlemer_demobilization_inquiry/sources/p122_reviewed.png": "56198a62e49d36def433505578ed43be99d16f81cecf57fa5d5bc802335f308d",
+    "experiments/schorlemer_demobilization_inquiry/sources/p155_reviewed.png": "6e6944484d5cfdb65f71e4477fbe6868b88a58ae45f4517fd795e526a1217944",
+    "experiments/schorlemer_demobilization_inquiry/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
+    "experiments/september_radio_instructions/README.md": "d33e932f49fd8cb0b9b00ec8d760d591c81317eca6d454a9beb3e0438331aa47",
+    "experiments/september_radio_instructions/catalog_proposal.json": "bd510f0b5748d0dd182feabd51f5dd67cfd36c793cd1f266c440bea55cd0437f",
+    "experiments/september_radio_instructions/certificates.json": "e3f9a19957384421c7319fc386ffee93e56a89e3fb67ab5523eb3590b23ece3b",
+    "experiments/september_radio_instructions/inputs.json": "c3b86e7ffe4c9956fa0ce5cb8898f48314060e16f014ff158d6468855b20c957",
+    "experiments/september_radio_instructions/prior_candidates.json": "ade42017fb2734c336752fb555be993ca6de013ffa8d70138c2a2a0654d4d4b0",
+    "experiments/september_radio_instructions/sources/p57_A.png": "068b496da2b23b126caf3f8de94fa7aa1a636b980c7ac7f78036d39e277eb47f",
+    "experiments/september_radio_instructions/sources/p57_A1_A2_overprints.png": "1050bda61824dea49a0a4aa05d64c2de012749e9bfa9af6a88cba189fc9b1639",
+    "experiments/september_radio_instructions/sources/p57_A3_annotation.png": "058e10f571f8c76671aa775ac58afa744befbbb9a2119be0094c010747bd22fe",
+    "experiments/september_radio_instructions/sources/p61_A.png": "19410d4e0f504eb65316d86400d0404e71c8014f08756c7ce084650bbf0f05a5",
+    "experiments/september_radio_instructions/sources/p61_A_glyphs.png": "6ff68b75cf3d8433178d11b528ded59e73bb91de209f3e6e4c6fda65d9a8d102",
+    "experiments/september_radio_instructions/verify.py": "750f04134239e69238dd323ab256e0bae8e9a28997dc24f5b74cd6ff79f3a397",
+    "experiments/siegfried_assignment_cancellation/README.md": "58f788ba4626b761ed01b686b7b914f6a418d33210acbb80f625320d5a0674ff",
+    "experiments/siegfried_assignment_cancellation/catalog_proposal.json": "f28979d35bdfe664d9674381c7706cba2d42331d29efb5a81692e134501588d0",
+    "experiments/siegfried_assignment_cancellation/certificates.json": "c346343e8bc4a881f98b44d1d90250fce57aded8d59b99d854bb44493f24159a",
+    "experiments/siegfried_assignment_cancellation/inputs.json": "73da2a3cc013d44fac05595c4a80328ab26fded358c1bceb4fe0233cd0c5032b",
+    "experiments/siegfried_assignment_cancellation/prior_candidates.json": "af7599c6e00f35a79b1155896d9c9cf6d5bc71c82dab7b07a78e2868093bb6de",
+    "experiments/siegfried_assignment_cancellation/sources/p135_A.png": "888cf1eb92b62e8868e2657ca8f3449a117586d9e6c9816f61298a372f13bb6c",
+    "experiments/siegfried_assignment_cancellation/verify.py": "dda5c2965363004d2b66c6c48cbd97b2614fff45fbbec56b9c648659ecd63b16",
+    "experiments/staatsbank_accounting_cheques/README.md": "c6f2ea7984187d3462bf2924fa5d447ce3094a1ede207fafa5e0d72256edf341",
+    "experiments/staatsbank_accounting_cheques/catalog_proposal.json": "176a5e14524d95642817b5526821a8962013b0fae05402099e9539f910a45d73",
+    "experiments/staatsbank_accounting_cheques/certificates.json": "53e0d3f5760c1c0b24b064d2cf8aefa292f0aae8f36e3d046da689ac2d556860",
+    "experiments/staatsbank_accounting_cheques/inputs.json": "9dc1485bc203806252edba6e02c20a7fac141ef3445630a50d0c806b0a5cc9e2",
+    "experiments/staatsbank_accounting_cheques/ocr_snapshot.json": "7fdfa1909f65fe4ca4a47489b46fc72b1db88e3214b1144280fdac68f8ada7ba",
+    "experiments/staatsbank_accounting_cheques/prior_candidates.json": "4bf506d7fcddeb848ab339ac879ee28f45e6f261ce43152e581aaa63e5c08f14",
+    "experiments/staatsbank_accounting_cheques/sources/p172_reviewed.png": "b48525735d65e54d39a8b57f4d4aaf24b9156076b6cd5613e2f81992ae737774",
+    "experiments/staatsbank_accounting_cheques/verify.py": "a9512e67f0de1784babc5e4be6fc928ffbe49860be46a04c6e3d6b003ddb3886",
     "experiments/nov25_letter_constraint/README.md": "8e1aa1cf031ba53689225360364b474eeb5d99f7092b359e662fdd86986d49fd",
     "experiments/nov25_letter_constraint/certificates.json": "0df1738a5ee501554b6a529c9889de758e3303ecccb90c3c502c0edfc051a189",
     "experiments/nov25_letter_constraint/inputs.json": "0d862877f6c5fc2b023f33893274e0959258621aee9d007c5e8f3b2edc32ef83",
@@ -3581,10 +4393,10 @@
     "experiments/odd_fragment_diagnostics/sources/childs_p159_full.png": "59da330225abff2fdfedd6b2985bdde613325526ea6c79ab6fb9a7bdd84defc3",
     "experiments/odd_fragment_diagnostics/sources/childs_p162_C.png": "f8c511f53c4d1f1836f068d1c26dfb753951960a620fd50e828a5451af156ba7",
     "experiments/odd_fragment_diagnostics/verify.py": "aba4934cb9779876d14d54b8c4e35830d7e62698c0799597bb41c085b5945e2d",
-    "cases/finance/crown_airlift.md": "beb2398a219d031693cf2602aea07bfede5d8bbab82fd4760f8335266184714b",
+    "cases/finance/crown_airlift.md": "0e6cbfc0c2a0bad4123fcd08986ac8d6d0dcb12455e7d7ad79e03b4cff5b5ec3",
     "cases/finance/zitag_purchase_orders.md": "76113934c4f01d94d3726274d401050b65b6c24e331a3b90cbdf038cdc0bad11",
-    "cases/finance/military_allowances.md": "2536921634193859fef50efa1b9ca83e32f09363e6a1640ebbcd4064c8361ed4",
-    "cases/military/orient_intelligence.md": "02de761db962b5f879e1d58085e3ef3c135aa62a7be80530b7dd17ce6cf1276f",
+    "cases/finance/military_allowances.md": "3ca5a858128fc95d0e27de39dfdd597636d71a331e2705b1c854d0e913a7c988",
+    "cases/military/orient_intelligence.md": "ef25b2892f99db8c26025d1283f408523b86ecea3fcfa4b90c345961636206fb",
     "cases/military/liman_troop_reports.md": "2d4c35d59dca761644b3598c36813d4de1ee1eec116b46453cee69faa91af4d7",
     "cases/military/military_intendant_remit.md": "a1b33f733dd440641a5302fbe9b01e9b8b8ebd3ddc791b2a1d0e41118c45930a",
     "cases/military/neuhof_demobilization.md": "1f74d29eff4cca8b737ecc8b087169dca85ee1f3e1c911ebfc361a1977d1a45f",
@@ -3603,7 +4415,7 @@
     "cases/finance/oil_cartel_dispatch_query.md": "356fcebb3fe84d59496d71f0ebd366236dcc94e38a3cf5383133b42176d0d4c4",
     "cases/military/medical_return_transports.md": "c71affa7c0612c7380f74d2dcfb02e4eaf6d665835493e8ff87240afd4182133",
     "cases/naval/reval_steamer_notice.md": "1bf20a5dad69ea483714123164aff362d221e527288bbf8d20aa2539589d8220",
-    "cases/military/mackensen_withdrawal_report.md": "b0ebefea5c2634c55960fa5f8855f9610ab3fb5055d3d8b5c6f36ea5bcb66d6d",
+    "cases/military/mackensen_withdrawal_report.md": "e5628d64cb90703cc12a9e784179bade5c31c1127ff339fd3b06e77e82afe6dc",
     "cases/radio/document_destruction.md": "de664033de6c7b83b23c83919eef111f63964c067048a4cfdd1622910bb61f07",
     "cases/radio/p132_radio_service.md": "693ee4ddefcf5fdab0fcfdcb4fb4b7b1288c2692d9fae3ae6128d4ffe1ea9ee7",
     "cases/caucasus/p212_p218_crosscopy.md": "de7035f358f2210f49158cdb84c91f010120c027e65328dd2273ab0f7926659a",
@@ -3639,7 +4451,7 @@
     "cases/military/romanian_ultimatum_companions.md": "891f5e89e2ccd836c16a991476a91525fda484b28060afe6cc7141aded63aa82",
     "cases/military/kiew_morning_and_pioneer_reports.md": "079b801ad67854415d18297f9ea4349bb966d6b6fcc52e4a7785b7e90698ed6a",
     "cases/radio/nov3_transmission_schedule.md": "78155f171d1aaaa74381ee66ef3527d2d6a83f95656b37d2cd9d2b8f69166bc8",
-    "cases/military/p175_c3_withdrawal_followup.md": "d16ffedeec1d3ff4c07df8cfccc1325faec0dbc112149296b6596293ab04af59",
+    "cases/military/p175_c3_withdrawal_followup.md": "2ce1e1fd2a5621841bd86116f83404ee6cd152248f9e212f7d421f03d4d60260",
     "cases/finance/hauptwechselamt_accounting.md": "e3e87704cb585c3e6646299a230e3ecef9b1e9afdf227ae060626a089474272e",
     "cases/caucasus/nobel_oil_inquiry.md": "2fff6c853e907a439b9c4dde3f9e2c3c472a5b814d67e67d8feabda651d4fd26",
     "cases/radio/damascus_aleppo_report.md": "5190065a05116a80ec2e8137f2aaedf152c47a1bfc82f226fd357c05e155271d",
@@ -3651,7 +4463,7 @@
     "cases/finance/kress_money_receipt.md": "2097ed92f2c297a9a0219d0bfd1ea75ccfb335455a532cfaf1e6f6f89eb96e58",
     "cases/radio/nazareth_front_inquiry.md": "cc09d08092a3c3456e5852d06735e0fb9182eb1d9c7ba86db5832bc33aa1ff01",
     "cases/radio/hungary_connection_and_supplies.md": "2c5cafc5010fd468a2f3a9244161a7216d48bace1f255793b55877c81bd0ee8c",
-    "cases/caucasus/poti_horse_delivery.md": "f03840dcb75b0e5d632632f8e101775bdc38fed560a6b4deac82cdb3a2c4e805",
+    "cases/caucasus/poti_horse_delivery.md": "0944c1b4ba10f5fbd5cef50e224390769dfa12e9d0b765850c371975d3890035",
     "cases/people/dunst_assignment.md": "36cd1819c86842afa8b402128006f00d1f6c881c7ff41a2306333d86be36dfe7",
     "cases/military/seaplane_personnel_return.md": "1201b7979ab2cf0b9db273d1d57147bdb8a5c97d2be00d75c9388030eb05eb64",
     "cases/people/mecklenburg_inquiry.md": "94bf39a27a381f82d9c3da011548c92da30c712529ac3305da2d85485b5097e5",
@@ -3660,7 +4472,7 @@
     "cases/radio/constantza_station_shutdown.md": "c2663db4f101c16d50cf7dcbcc0c9b325c17d19a945bc257c2bf8eaf3283a5b2",
     "cases/radio/telefunken_staff_inquiry.md": "02c2897f197215c0d9c12fb2c3edef007f63a3bf83ff245e5ddb5f0e74c0613c",
     "cases/military/turkish_armistice_shipping_order.md": "4708568254bfe7261488aa582e79be68722ff4ced8d6e5532267f47a68971ab5",
-    "cases/military/black_sea_evacuation_routes.md": "dd2d6a1f33b63caeaabc678e57d31e4e886c0510ffae8d6723a72a502122930a",
+    "cases/military/black_sea_evacuation_routes.md": "d927b6f3fec474308494ad47c955714c2fc83a79f0742af4a1d9794ac03fd64a",
     "cases/caucasus/caucasus_radio_transmitters.md": "9370ccd5c72eb7bd3b8e6d6a5a4d9457f16aa34a55ff6f4d857302a329ae56a4",
     "cases/military/sava_crossing_evening_report.md": "8ec93dbfea1fe966b46fd1c0dec017818829ab0f280b14dc1e319a0395dbeebd",
     "cases/radio/nov1_contact_and_mail.md": "d4af9d3ad2da9b9e04cd71ba147b15604cef56f0c3a8b09d9184408e9420e281",
@@ -3687,6 +4499,35 @@
     "cases/military/soldiers_council_surrender.md": "55ff8fcc1c62388f7597821ed70b93cd9ea646a75dfe397b3db881f049378e50",
     "cases/people/constantinople_urgent_address.md": "e775551ceccc7da180ab0748dd1c86666b1b7e8dbbead39ed27ecf8e2593689e",
     "cases/military/romanian_pacification_consultation.md": "89d6d8a4788b1b9c6fa23d41bad334e1af629be0cc94af2abc848e0e5c1ddf51",
+    "cases/finance/cash_arrival_acknowledgment.md": "e1ff260d404546fcadcd0d56b29460230ca0339b68ea83a20a401512fb9e7610",
+    "cases/radio/nov4_repetition_and_connections.md": "d5292dafa026a4925502dc45c0d49b021818352aff9c3a183d8a5a1ac41bdd02",
+    "cases/people/meier_berlin_order.md": "a690950fc55500d08b0f1192542aa178a7b00417cfd75ec9988f81b477c9edb7",
+    "cases/people/sevastopol_transfer_consent.md": "26f8b18c1c1911e1ba9a4deaa8b4f029f835d1c2e31be1463132e99475b49ca1",
+    "cases/radio/nov2_telegram_acknowledgments.md": "b56129fd6564669ae623980dd81bc8d621bc4b388ef9c12f39adc784850aea57",
+    "cases/radio/nov2_uks_connection.md": "f0930a6e70bf5552092709d05aeeecd1aa4751ed817d3e686fb60f0580e801c3",
+    "cases/radio/nov30_radio_personnel.md": "7e77659754b004fc0b5572cb2686db0667b81e6d1cffb3744b56ac7a0a533ea2",
+    "cases/radio/nov27_receiving_instructions.md": "bdcefa51b41c447de7a22db42bfc817bd4a535cf038240c61f63f59d95087e5c",
+    "cases/radio/nov16_18_command_inquiries.md": "fb53c3e930e9ad577e65addad6f81a2cd17f08fe06f2aeec19aa90bf157762ce",
+    "cases/radio/nov6_ringbahn_key_witnesses.md": "c4d9be70f92b45c1ea1cdaef346527089b670cea90b36a204ece3f66a1f845e9",
+    "cases/radio/warsaw_station_missing_row.md": "eeb47819b40e7596035657126746568e14df5d9784356948ab0711d99261bdbe",
+    "cases/military/armistice_departure_copy.md": "7a123d183f58e410d38965934d18c6a0c5e381a963335e7b7c90ef3694989f8c",
+    "cases/military/home_departures_baltic_transport.md": "c149b403bd46af5fab7588a729901d0d2b0596aefbb91ceb323cde9cdec11bca",
+    "cases/military/mackensen_withdrawal_part2.md": "cc82b49be98ddc10ade0e6d9b5cb9e2e05fa9acc67df8ba1a49563adbef3a8cf",
+    "cases/military/namur_cassel_armistice_requests.md": "48a172b9adb5600a592c6d2cd14259eb7b3e27f3c92ed725fab156040561d8b9",
+    "cases/naval/motorboat_sale_attempt.md": "852d34285d6b5fb9d277f37018754dc4c5ef504ca663c70bd6f67f079db8cd28",
+    "cases/people/director_departure_query.md": "a04551c2db55779ec6333d99ca3b41b94023b7fab8d7ca110cd6ef2aac6fb468",
+    "cases/radio/nov4_eilvese_and_setup.md": "14edbe1cdbc853deed4875116162e00203327110a53e35ca0e6ecdd09d9a4f4b",
+    "cases/military/nov7_derailment_and_trains.md": "457c02853e96e7c68e9a98c6a122ce30cd8d27b2b56f45d74b8fbb8654f7e063",
+    "cases/radio/nov7_eighth_part_repetition.md": "3b693958eed7dba40e83422371e23cd581a3a7198c4062bd3cf44cfda058bb8e",
+    "cases/military/oberost_troop_movement_obliterations.md": "a4839262a67ce9db92cf969bed3d4f9b96a5963694b3acde70032f8cd054a9dd",
+    "cases/people/schorlemer_demobilization_inquiry.md": "00e8d56a70f15380577146ec9154a70fadf130311944705a4342b2c76ed9a263",
+    "cases/radio/september_key_destruction_order.md": "42c988d20d6ce13d1adf0bcd684aaee14a718ea6359490168fdb2bf00fa1707a",
+    "cases/radio/september_tiflis_radio_routing.md": "dee220a1e368232d6fac89e87da37a3a7fa9a2ed9356b4f156fc970a2d698ca4",
+    "cases/people/siegfried_assignment_cancellation.md": "ef87b165dc70c06524a2f68ef1ada54c2f6e705bb494491c41c86af838bd5610",
+    "cases/finance/staatsbank_accounting_cheques.md": "c13b2c6ead8996a57765de6655502a847557bcdc36fad9e916fdf5c8d4104422",
+    "data/reviews/caption_cleanup_20261103.json": "dd67043a85033f64a9ab5bcc45c59dc105772e4da333e5562ceb68c1d7683316",
+    "data/reviews/live_readable_mappings_20261103.json": "fd7cff0c957fb877d5506c75e2a8d052b18951dc727ac69d25e74c16ffcd308b",
+    "data/reviews/verify_live_readable_mappings.py": "10ca3017ed764f37a802bc6aa4abc19a9978eb8a5e5d8247f1b49e715c620f5f",
     "data/reviews/reading_conventions_followup_before.json": "634136e43b27bac376ab2128e48188bed1dbae13786eb47927990d91f6cadc15",
     "data/reviews/reading_conventions_followup_audit.json": "d74d02a71ef4b9adcc67d33e3efe78f81535290d7fc487f5895b1888b45c370f",
     "data/reviews/verify_followup_readings.py": "2ceb5a093357563e4f14f4621c6b3162d3c7cb168c824862173b2015bcf953de",
@@ -3705,18 +4546,18 @@
     "data/reviews/reading_conventions_spacing_before.json": "b7461cff0cafb151383501d7be773ad43de1940e32fa6cc9b6c286338136ef06",
     "data/reviews/reading_conventions_support_audit.json": "358504a577f64ff1d31460a2d5b593efff3e765e38eb1183406c7bfb0ca08110",
     "data/reviews/check_reading_presentation.py": "8025ad223025038b63a20b8ceace0c1cdb0395e2cbd81465cbec7c8de9e65d93",
-    "data/reviews/reading_layer_manifest.json": "a1fa18cbd2154598fb6b0b5581186beac90e510f8bcdb580180aafce42fee5d5",
-    "docs/reading-conventions-coverage.md": "097b04c0bc15567f5bcf9e29617575e64006483094b2096aef498fa5395ecc6c",
+    "data/reviews/reading_layer_manifest.json": "2186567947fb2e1fc31f4313b813d11d34054628d5f0042f1598a90cb3711760",
+    "docs/reading-conventions-coverage.md": "afff63222b2113b5014048d496c76b177b8975bec4a67b54707dd36e819ffd6d",
     "data/reviews/reading_conventions_semantic_before.json": "e6b9d3aa4fc47c760af3d5710a536ef23d9576e1352642bd76b795aca2e4d765",
     "data/reviews/reading_conventions_semantic_audit.json": "5db9a6222c904dccc1ffe3aeef59a6bd36a74cc9278ab00bf03181cfd11549dc",
     "data/reviews/verify_semantic_readings.py": "722c68f8841059607647ace7d5aef01ea27ce26f8451ecce0c5bd03bf95bb395",
     "docs/reading-conventions-semantic-review.md": "09329cd5b8c746c67b45d19c1412ccd4c32dd144b5697464fc805b222bde650a",
-    "cases/caucasus/october_requests.md": "18eb45956e9a94cff85debc0a3d6b02a8c9cfcdbe404a8f99a36531aca385dcc",
+    "cases/caucasus/october_requests.md": "094f2833e0bbb297d3787b0c43d0875163bab565127b57972dbb22a4dc0c7092",
     "cases/context/p155.md": "90e99794017bce7b1da33b2cc9adae4ddab054921ea78f62dce279ef26122e05",
     "cases/context/p164_A4.md": "f60bb6ea7f9b5c6a994ce4b65b37a6652039c7b495f3a62f2e01ffd4da66fa72",
-    "cases/context/p186.md": "560519d0e58c995a13b7b59572c9bf6ede3ce320f628f268e281d52ba3b723d6",
+    "cases/context/p186.md": "3ed3b6029beae4af10e9528d176854e86cc39e706274dadbcbe21d78179bd554",
     "cases/context/p189_C.md": "525b7d793ab7acc5b41a58f6e17c291ad4146275c3a70511900f24ec1f6728bf",
-    "cases/context/radio_instructions.md": "57446bf4bdfae515aed12fc476e69c6cfac2cbb933b2022fee4e18ecdcd20c02",
+    "cases/context/radio_instructions.md": "ba7ca3b9e18efbb07bb8f2c0d2f64faeb9cec26495b4a9940f0e47aac640970d",
     "cases/context/transport.md": "1061f6656f486ade54803e9fb447428fdf39e8a49703e25421ec0c2b34047907",
     "cases/context/transport_197_198.md": "49b46e856e199d880ba4c7a112edaf20390209efd3425c5f990379d53630f7aa",
     "cases/finance/crown_cash_requests.md": "ad9c1adb52d368f15274b167f9daafc3b0926968f4055979f12679b39618e3d2",
@@ -3745,7 +4586,7 @@
     "cases/p132.md": "5f2e079f7469ddf46aa59cadf4478fa7f131208744c34ef9f6eee626c4849d04",
     "cases/p146.md": "86f0ca75b2996a38b1729473060f259eb6b85a747847e37fb71e896a106ae5c9",
     "cases/p152.md": "9e45bc53079af0154740badc46253dc630d7676dc483c2bf17f9373ecca407d1",
-    "cases/p158.md": "fc5cb5ac3046b0263f4437a2797b484bd611dea2b159cd29d8ca7a75b4c629ed",
+    "cases/p158.md": "6660177b5d2df1a64b3b3a5046141d268896eecb040f2ef555d9bb2a7e2d62bc",
     "cases/p164a.md": "55d3cd4e151191ad3ceef8ca674ce5bbde18f45ea8f6bcc5bd1e64623fccbc71",
     "cases/p164b.md": "a3a28dbbd3ea4440e7541e5e4e674f8cb008dbfad1212c03c9f1a70cf7eb5b37",
     "cases/p170.md": "0f132f65c706071f6b7db508afd6bd29646bb30f5b6842da3e4c4ecdfba90658",
@@ -3753,7 +4594,7 @@
     "cases/p176a.md": "5e6a1ae4b080f6116e794bc83d198d55584221a414d084d4784adca60805d84f",
     "cases/p187.md": "35bd61443f0e1d7e9e114b4bae13b9be6395adfe43f2c32b20e693236b5d7264",
     "cases/p187b.md": "925d5c7e3da2289f702e74dec2bfd61fc1ba487932b5791e4f02bef277d469e7",
-    "cases/p189.md": "d4971aa3acf768c3032b0623ed4bb267fa539a33fcadef32bfd4b9297b12f830",
+    "cases/p189.md": "224b89fff86641b643e7f64b3e376d4ebbb4f0edef37865bfe8f54c918452d30",
     "cases/p198.md": "c94af7db155a295678f63a8202d335415d40281974b0ee5765d515baa2e3e2c5",
     "cases/p215.md": "0953196ea225b2fc848d2b4b9fd3cd493c2115dadc18a13f47c378905175bd72",
     "cases/p217.md": "77938f573c2976a63e1176f6a64922e750c20b0be40d93f2488e5049479e1bc3",
@@ -3782,11 +4623,11 @@
     "cases/naval/p205_B.md": "6c318e5b2c6c0cb84f913e45222974b538a22c67083b9a0ec6baf297cdc4c75e",
     "cases/radio/p164_B.md": "3926579fb71466f33b7d72f92179f832fb0513bd5fa07c621a2a33e0dc0b3243",
     "cases/caucasus/october_caucasus.md": "b43de3b615b335883b194eafd9f1a1f4c020b4d6bbb2b0a7e5dd78201b996032",
-    "cases/caucasus/october_staffing.md": "19f9526e25b7338a499ab5b4055d0cfb38a1bb764a342bd5dfd2bca41a3ba6e3",
+    "cases/caucasus/october_staffing.md": "9abda46fb76e2ef2f35dc1ccc068df26697a9ba9f93c75555dd1191fa77a8c29",
     "cases/radio/nov14_radio_retransmissions.md": "aeffa6c19cba78f1d0dd4cf096e7d2c221fb1df7317457562e0e2c7b94efed84",
     "cases/people/glatz.md": "14bbb427ec727343551a9171433abb222d1a8d5ed38277499b6c63155f33bea3",
     "cases/military/nov9_operational_reports.md": "739ac30880695e54e1b484606e1d54027a6e7cf501ea1140432eabb4b519b99e",
-    "cases/p153a.md": "1b210cf8cab151f88a7097abdf593ad70d0fcaddae9f51df247f328942042ba0",
+    "cases/p153a.md": "4aefd6a497381aeaf1b6200c205c2bc72b63eb5d85c249e722beeed1335f29a5",
     "cases/p153b.md": "c271c6cf4ef75eea2f491336af9dc34f4b25d1f78138c00947dc852188a3af98",
     "cases/p176b.md": "986018382ae820deedcc6fe8a85204d9e5c98db5dfc7a57b19beb3dc9be24a8e",
     "cases/caucasus/p218_A.md": "616edb6f5d1adeeb4a59ee88ef9bb5750f1011de8344ff2e50c65b0944ed18af",
@@ -9673,7 +10514,11 @@
       "width": 2080,
       "height": 715,
       "rgb_pixel_sha256": "b8426cf8a276b75854accc3e38963205bb1d29c3d8c8ff9574d24c6cda9f7c14",
-      "fresh_render_cache": false
+      "fresh_render_cache": false,
+      "shared_by_packages": [
+        "nov7_fragments_and_council",
+        "armistice_departure_copy"
+      ]
     },
     {
       "package": "nov7_fragments_and_council",
@@ -9826,7 +10671,11 @@
       "width": 1485,
       "height": 1155,
       "rgb_pixel_sha256": "71f33f3cc5ae33bfdfcbcb13dcdab109fabd93310a199d3932aa724aca8f5f81",
-      "fresh_render_cache": false
+      "fresh_render_cache": false,
+      "shared_by_packages": [
+        "romanian_pacification_consultation",
+        "armistice_departure_copy"
+      ]
     },
     {
       "package": "romanian_pacification_consultation",
@@ -9843,7 +10692,11 @@
       "width": 1440,
       "height": 210,
       "rgb_pixel_sha256": "0dac955424f25eac6410736f223d99da50e18b2be430afbafa91676238759eff",
-      "fresh_render_cache": false
+      "fresh_render_cache": false,
+      "shared_by_packages": [
+        "romanian_pacification_consultation",
+        "armistice_departure_copy"
+      ]
     },
     {
       "package": "romanian_pacification_consultation",
@@ -9914,6 +10767,329 @@
       "fresh_render_cache": false
     },
     {
+      "package": "nov4_repetition_and_connections",
+      "path": "experiments/nov4_repetition_and_connections/sources/p121_A.png",
+      "pdf_page_1based": 124,
+      "clip_pdf_points": [
+        48,
+        224,
+        520,
+        565
+      ],
+      "scale": 3,
+      "png_sha256": "77048b98ab64ea13d1cfe210e433242449bfb0aae7d8853752e42b7704f6a9fa",
+      "width": 1416,
+      "height": 1023,
+      "rgb_pixel_sha256": "2f8e59c01bb3d6013d6164cc6d4aa1b9ef7469a3b5e062b4a658a30e025ea49d",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov4_repetition_and_connections",
+      "path": "experiments/nov4_repetition_and_connections/sources/p121_B1.png",
+      "pdf_page_1based": 124,
+      "clip_pdf_points": [
+        52,
+        575,
+        522,
+        785
+      ],
+      "scale": 3,
+      "png_sha256": "dbc52683a51ce62762f9dca95b30fc0444d858470e9548d8f6fc9cb88a73fb85",
+      "width": 1410,
+      "height": 630,
+      "rgb_pixel_sha256": "238407b1bb388d7f3b6e5f3b2d6408e2a96b4da5f64f924e84cf282571eecd57",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov4_repetition_and_connections",
+      "path": "experiments/nov4_repetition_and_connections/sources/p122_A2.png",
+      "pdf_page_1based": 125,
+      "clip_pdf_points": [
+        95,
+        140,
+        517,
+        282
+      ],
+      "scale": 3,
+      "png_sha256": "1ab38b142e81dd64ec94b084c29851a8ef8f1a30b6863290554e407dfa57168f",
+      "width": 1266,
+      "height": 426,
+      "rgb_pixel_sha256": "d44c9b5428850d0c2021d77b7d62589d1f211c557d5bca7c0a9a0ca237f11b80",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov4_repetition_and_connections",
+      "path": "experiments/nov4_repetition_and_connections/sources/p122_C.png",
+      "pdf_page_1based": 125,
+      "clip_pdf_points": [
+        93,
+        490,
+        515,
+        587
+      ],
+      "scale": 3,
+      "png_sha256": "59809df4f6354e0ef67678e94cc24019dd6073660530c827b05bfd67b141c274",
+      "width": 1266,
+      "height": 291,
+      "rgb_pixel_sha256": "355532b1b19c00ef9ac813513f9d24093d9b60821ca13dab9dff2000dd79a0c0",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov2_acknowledgments_and_personnel",
+      "path": "experiments/nov2_acknowledgments_and_personnel/sources/p104_A3.png",
+      "pdf_page_1based": 107,
+      "clip_pdf_points": [
+        90,
+        170,
+        523,
+        271
+      ],
+      "scale": 4,
+      "png_sha256": "a2b140d7472c08f51212cf185d6d910cbe383593232d87987f948a3733f09bb0",
+      "width": 1732,
+      "height": 404,
+      "rgb_pixel_sha256": "48d3f9ab222e2e92ecf24137e6db0a2ba21a420e8b9127df5c29bcf4d161f357",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov2_acknowledgments_and_personnel",
+      "path": "experiments/nov2_acknowledgments_and_personnel/sources/p104_B.png",
+      "pdf_page_1based": 107,
+      "clip_pdf_points": [
+        98,
+        300,
+        525,
+        377
+      ],
+      "scale": 4,
+      "png_sha256": "35153beba7d35af6094a4a4003046971e9105c6936ca9ffa6938c8585151a336",
+      "width": 1708,
+      "height": 308,
+      "rgb_pixel_sha256": "93f48f0b9702388efe182e3b801184ec8575b41e4a86589155f062c964688f51",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov2_acknowledgments_and_personnel",
+      "path": "experiments/nov2_acknowledgments_and_personnel/sources/p104_D.png",
+      "pdf_page_1based": 107,
+      "clip_pdf_points": [
+        100,
+        545,
+        530,
+        620
+      ],
+      "scale": 4,
+      "png_sha256": "b4a2dff12af984c4ffebda994c3b9e179a7369746b79cf239bdaf45e544e723a",
+      "width": 1720,
+      "height": 300,
+      "rgb_pixel_sha256": "f40e89b1b934bca68603bc64bcc42d7bc40b8a0ad2b92350187b8b47f49a8cc9",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov2_acknowledgments_and_personnel",
+      "path": "experiments/nov2_acknowledgments_and_personnel/sources/p104_E3.png",
+      "pdf_page_1based": 107,
+      "clip_pdf_points": [
+        100,
+        630,
+        530,
+        714
+      ],
+      "scale": 4,
+      "png_sha256": "cf2250c8adddc02e97d3a62c357d7997f191e4868df1de3cd644f10ee84ccac3",
+      "width": 1720,
+      "height": 336,
+      "rgb_pixel_sha256": "c557c57ae1827208a24ec873cd220b4afce3fe4e0b37f4a026a7b6c8f6eabbc5",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov2_acknowledgments_and_personnel",
+      "path": "experiments/nov2_acknowledgments_and_personnel/sources/p105_C1.png",
+      "pdf_page_1based": 108,
+      "clip_pdf_points": [
+        75,
+        628,
+        514,
+        789
+      ],
+      "scale": 4,
+      "png_sha256": "d820477854e598bb1f4c3530ac2906fc0ab34e076a3b07a93642c9ea10504597",
+      "width": 1756,
+      "height": 644,
+      "rgb_pixel_sha256": "4f652370d91815062e107cb0a7d51bd48bd04b1de3a38a9da4498a4ee3bec51d",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov2_acknowledgments_and_personnel",
+      "path": "experiments/nov2_acknowledgments_and_personnel/sources/p106_A.png",
+      "pdf_page_1based": 109,
+      "clip_pdf_points": [
+        63,
+        197,
+        550,
+        500
+      ],
+      "scale": 4,
+      "png_sha256": "899b648d57ad0d1f1d2b89d0925254c51fcab81e67703e2fe081e744159a7c8a",
+      "width": 1948,
+      "height": 1212,
+      "rgb_pixel_sha256": "6cb893ac45b707c5b58c3ea2a445a44fc3a0fc42401ea6e65e4e8ea8cf757604",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov30_radio_personnel",
+      "path": "experiments/nov30_radio_personnel/sources/p230_reviewed.png",
+      "pdf_page_1based": 233,
+      "clip_pdf_points": [
+        65,
+        375,
+        520,
+        710
+      ],
+      "scale": 3,
+      "png_sha256": "e96064f4f1473b0a7dc443f529743e4ebedf418422a596b3a677837f5f94788f",
+      "width": 1365,
+      "height": 1005,
+      "rgb_pixel_sha256": "7d772454b438e1faf619c3e827f4178175f1727371e14c2367dd471f4e9b0a2a",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov27_receiving_instructions",
+      "path": "experiments/nov27_receiving_instructions/sources/p224_reviewed.png",
+      "pdf_page_1based": 227,
+      "clip_pdf_points": [
+        70,
+        145,
+        530,
+        453
+      ],
+      "scale": 3,
+      "png_sha256": "a38ca204558b01cfc73c89a08a48847f222215dd18d9424fa9c00318e962c2fc",
+      "width": 1380,
+      "height": 924,
+      "rgb_pixel_sha256": "a4f432667d29fcfafd731ce297bea49ec7e87a409372d2ea9ff013b0826cc553",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov16_18_command_inquiries",
+      "path": "experiments/nov16_18_command_inquiries/sources/p202_reviewed.png",
+      "pdf_page_1based": 205,
+      "clip_pdf_points": [
+        55,
+        155,
+        530,
+        340
+      ],
+      "scale": 3,
+      "png_sha256": "346a71e949399c1d512b94329fb78f287a95d37f37cd2602080f4af24e5d1813",
+      "width": 1425,
+      "height": 555,
+      "rgb_pixel_sha256": "b1d9114f7d7f4014229f4551559ab9dbecfc2c41881f6cf2e049830c6f70a71e",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov16_18_command_inquiries",
+      "path": "experiments/nov16_18_command_inquiries/sources/p203_reviewed.png",
+      "pdf_page_1based": 206,
+      "clip_pdf_points": [
+        45,
+        185,
+        520,
+        405
+      ],
+      "scale": 3,
+      "png_sha256": "6a577e8e43ec387627ddcfdb56a1a3b68019edcc3a89c785fd7ec308ac3f9ae1",
+      "width": 1425,
+      "height": 660,
+      "rgb_pixel_sha256": "71cd03135f4bf67293cd82fffda77d80e32417fb9c8149619c8bdc81777530ca",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov16_18_command_inquiries",
+      "path": "experiments/nov16_18_command_inquiries/sources/p204_reviewed.png",
+      "pdf_page_1based": 207,
+      "clip_pdf_points": [
+        60,
+        260,
+        530,
+        660
+      ],
+      "scale": 3,
+      "png_sha256": "729c34425470ff82302d43db4527c7037447ad774a0f41bfc4063d262f59d9fc",
+      "width": 1410,
+      "height": 1200,
+      "rgb_pixel_sha256": "e4bb83f0836ac0111be77eab57d10d8d01a832730f4f0398be8ef4ddeb19c14e",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov6_ringbahn_key_witnesses",
+      "path": "experiments/nov6_ringbahn_key_witnesses/sources/p145_B1.png",
+      "pdf_page_1based": 148,
+      "clip_pdf_points": [
+        43,
+        385,
+        541,
+        565
+      ],
+      "scale": 4,
+      "png_sha256": "45612c8ab9e84f515fbaa3b99dd9b36dd3c8526210508d3df4f07c7739682cec",
+      "width": 1992,
+      "height": 720,
+      "rgb_pixel_sha256": "f74a53ad7b06b461bc331d399db0a21e014fc8e132510d9e16db648e8e0c8409",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov6_ringbahn_key_witnesses",
+      "path": "experiments/nov6_ringbahn_key_witnesses/sources/p145_B2.png",
+      "pdf_page_1based": 148,
+      "clip_pdf_points": [
+        64,
+        571,
+        532,
+        691
+      ],
+      "scale": 4,
+      "png_sha256": "f49a3feb6ee8f0c23db7be99b13591a7a20235b2f4c0fed78af9226ef9ba7538",
+      "width": 1872,
+      "height": 480,
+      "rgb_pixel_sha256": "c369eb19db56bcd4858470153c005612d688bf93cdc1a4b7811f9e3318f83177",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov6_ringbahn_key_witnesses",
+      "path": "experiments/nov6_ringbahn_key_witnesses/sources/p145_B3.png",
+      "pdf_page_1based": 148,
+      "clip_pdf_points": [
+        64,
+        695,
+        532,
+        792
+      ],
+      "scale": 4,
+      "png_sha256": "4cf0e3ffbaccb71c376d786f203fc48cc86fd16c7825867dc7f422be8f716566",
+      "width": 1872,
+      "height": 388,
+      "rgb_pixel_sha256": "68d38fa235392f54e83488feb91ac47d49135416d67c84362110a9fa45cb375c",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "warsaw_station_missing_row",
+      "path": "experiments/warsaw_station_missing_row/sources/p204_C.png",
+      "pdf_page_1based": 207,
+      "clip_pdf_points": [
+        60,
+        355,
+        530,
+        590
+      ],
+      "scale": 3,
+      "png_sha256": "81e919c3b6049e8a99cd9af8dc304326353916378eb71e3fa02087dc614fbe9b",
+      "width": 1410,
+      "height": 705,
+      "rgb_pixel_sha256": "d88a51041db5f3f4edf2988edcee85f36048e6fd90eee27174418a7580ae2308",
+      "fresh_render_cache": false
+    },
+    {
       "package": "odd_fragment_diagnostics",
       "path": "experiments/odd_fragment_diagnostics/sources/childs_p159_full.png",
       "pdf_page_1based": 162,
@@ -9946,9 +11122,420 @@
       "height": 696,
       "rgb_pixel_sha256": "0ccd5b06883493b30159ad19988fa76a6339b35bb174aca5fa66d54042aff144",
       "fresh_render_cache": true
+    },
+    {
+      "package": "home_departures_baltic_transport",
+      "path": "experiments/home_departures_baltic_transport/sources/p186_reviewed.png",
+      "pdf_page_1based": 189,
+      "clip_pdf_points": [
+        52,
+        365,
+        523,
+        715
+      ],
+      "scale": 3,
+      "png_sha256": "c41641162bcfc7a18bdd1705bdfba073f79dad1c3799b142d4153dc61cb730ab",
+      "width": 1413,
+      "height": 1050,
+      "rgb_pixel_sha256": "18743dea1fba318584bdc62cea1500add5a3372d588f92e013a2f11c7c150211",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "mackensen_withdrawal_part2",
+      "path": "experiments/mackensen_withdrawal_part2/sources/p118_A2.png",
+      "pdf_page_1based": 121,
+      "clip_pdf_points": [
+        48,
+        202,
+        520,
+        510
+      ],
+      "scale": 3,
+      "png_sha256": "e7093097370b868299b872ddc695939bb1c61aed7dfb0f091063dd0ca424c102",
+      "width": 1416,
+      "height": 924,
+      "rgb_pixel_sha256": "be4eb5d3b30a4d1b582a9f620c9e062f09590f799c521b22764b5d8fff692511",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "mackensen_withdrawal_part2",
+      "path": "experiments/mackensen_withdrawal_part2/sources/p118_A2_short_group.png",
+      "pdf_page_1based": 121,
+      "clip_pdf_points": [
+        140,
+        440,
+        200,
+        462
+      ],
+      "scale": 10,
+      "png_sha256": "7f77006112c7dde4a90b036d352555af2d17abc7acf7666897291a954c564f94",
+      "width": 600,
+      "height": 220,
+      "rgb_pixel_sha256": "a580b8b53258bb9764395c61e8db1212c26eeb623006ccef651f23a33dae0adb",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "namur_cassel_armistice_requests",
+      "path": "experiments/namur_cassel_armistice_requests/sources/p172_reviewed.png",
+      "pdf_page_1based": 175,
+      "clip_pdf_points": [
+        70,
+        310,
+        515,
+        465
+      ],
+      "scale": 3,
+      "png_sha256": "cdcb4fd7208d0a820f8564945a719f40cfc35cfb6b803d1c8d4580340f3c4c08",
+      "width": 1335,
+      "height": 465,
+      "rgb_pixel_sha256": "e6e8b5ee0a361c58bcbdaffa6e5a737ff6c3083c0e784ae806708443a9aadf39",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "namur_cassel_armistice_requests",
+      "path": "experiments/namur_cassel_armistice_requests/sources/p180_reviewed.png",
+      "pdf_page_1based": 183,
+      "clip_pdf_points": [
+        70,
+        602,
+        515,
+        720
+      ],
+      "scale": 3,
+      "png_sha256": "762ca6543ff3e4381fd633391a409737c636a12b6709df5470ba55e98d1ecafb",
+      "width": 1335,
+      "height": 354,
+      "rgb_pixel_sha256": "2d2897afed25fd216eae9c262652bc4f9a343af83c7f142f9f26266cebd9f1dd",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "namur_cassel_armistice_requests",
+      "path": "experiments/namur_cassel_armistice_requests/sources/p181_reviewed.png",
+      "pdf_page_1based": 184,
+      "clip_pdf_points": [
+        50,
+        303,
+        515,
+        422
+      ],
+      "scale": 3,
+      "png_sha256": "92374400d51abad21e46e73376c8ab31f37b870bd678615bdd6bd5c5641ba944",
+      "width": 1395,
+      "height": 357,
+      "rgb_pixel_sha256": "d986b0cb83cb9570b85bfd52e240d929265fe3728aa3e22edbd2d65006ccbdbb",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov4_radio_and_departure_queries",
+      "path": "experiments/nov4_radio_and_departure_queries/sources/p120_A.png",
+      "pdf_page_1based": 123,
+      "clip_pdf_points": [
+        50,
+        200,
+        540,
+        313
+      ],
+      "scale": 4,
+      "png_sha256": "648acccaf1ba635c001e36ddb75d76571f0072750cbe3ea9c11f3fd7bf544acf",
+      "width": 1960,
+      "height": 452,
+      "rgb_pixel_sha256": "f901d3149258e6052e1ad5eb4e7b5e6ce54135fd672414a1e12a60e319adbd5e",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov4_radio_and_departure_queries",
+      "path": "experiments/nov4_radio_and_departure_queries/sources/p120_C.png",
+      "pdf_page_1based": 123,
+      "clip_pdf_points": [
+        60,
+        484,
+        540,
+        554
+      ],
+      "scale": 4,
+      "png_sha256": "65e96efee7437ef29d089ce57d2a50fdad857c1443c6fb6fd55ebd40c9f57f54",
+      "width": 1920,
+      "height": 280,
+      "rgb_pixel_sha256": "d4b63c80871b0a921ebe83f007b5c2187ce55ffbc5382e89debe6b305b621a5c",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov4_radio_and_departure_queries",
+      "path": "experiments/nov4_radio_and_departure_queries/sources/p123_B.png",
+      "pdf_page_1based": 126,
+      "clip_pdf_points": [
+        75,
+        545,
+        535,
+        775
+      ],
+      "scale": 4,
+      "png_sha256": "b428e1189bebbe236c6a89bc1d2931e44c766b76c2772e64eded24711a3ba147",
+      "width": 1840,
+      "height": 920,
+      "rgb_pixel_sha256": "9e06e4a08de8b512a9d1a90767b4f16cde07beb9fedab595d866b1e52d382d09",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov4_radio_and_departure_queries",
+      "path": "experiments/nov4_radio_and_departure_queries/sources/p147_A.png",
+      "pdf_page_1based": 150,
+      "clip_pdf_points": [
+        48,
+        208,
+        525,
+        409
+      ],
+      "scale": 4,
+      "png_sha256": "569cbafafcd6071b2fb7c2dc0a49f6d562080ae95e96ae97c395f36ea0c2114e",
+      "width": 1908,
+      "height": 804,
+      "rgb_pixel_sha256": "355434d1d68cc7da0fc2030ececddede2ee6698504154466573c44a55fb41a2a",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov4_radio_and_departure_queries",
+      "path": "experiments/nov4_radio_and_departure_queries/sources/p120_A_overprint.png",
+      "pdf_page_1based": 123,
+      "clip_pdf_points": [
+        380,
+        280,
+        434,
+        295
+      ],
+      "scale": 12,
+      "png_sha256": "a01b637307cf04a7001c4b9fed434e29ddf4565af87fd57e547589915b56c3d9",
+      "width": 648,
+      "height": 180,
+      "rgb_pixel_sha256": "295fceb9b42f3a448c83e3c0ca99a426c6aa93862f501ebc942ba81eca7856a4",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov7_derailment_and_trains",
+      "path": "experiments/nov7_derailment_and_trains/sources/p155_reviewed.png",
+      "pdf_page_1based": 158,
+      "clip_pdf_points": [
+        65,
+        653,
+        530,
+        790
+      ],
+      "scale": 3,
+      "png_sha256": "d2fc41bcf0f4d871d0b8f9908b15a72e09100e7758a7420d842027bf3e772e4b",
+      "width": 1395,
+      "height": 411,
+      "rgb_pixel_sha256": "ebdeb9eec1a90f210980f28cbc0a74055190a743c35cd0ed3213688d4d61f429",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov7_derailment_and_trains",
+      "path": "experiments/nov7_derailment_and_trains/sources/p169_reviewed.png",
+      "pdf_page_1based": 172,
+      "clip_pdf_points": [
+        40,
+        345,
+        520,
+        470
+      ],
+      "scale": 3,
+      "png_sha256": "b729dfe1e30dad2c9a47e47924993b5d6d0a1259c0792fb8c3c9ce21524d8d64",
+      "width": 1440,
+      "height": 375,
+      "rgb_pixel_sha256": "9837e74f30fb19bd33714da254e4fd1ab35e0a13b91e3ab802e75e4ac7eacd3c",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov7_eighth_part_repetition",
+      "path": "experiments/nov7_eighth_part_repetition/sources/p155_C.png",
+      "pdf_page_1based": 158,
+      "clip_pdf_points": [
+        65,
+        490,
+        530,
+        640
+      ],
+      "scale": 4,
+      "png_sha256": "1d1dda9f8fee73252151d6b1784f9303bba0ef0fd129132039b8105e24bfe4f3",
+      "width": 1860,
+      "height": 600,
+      "rgb_pixel_sha256": "41d7974f89c4f0da1944563157b54bb921eba87db34c87e336bc2fb0b55515b2",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "oberost_troop_movement_obliterations",
+      "path": "experiments/oberost_troop_movement_obliterations/sources/p186_reviewed.png",
+      "pdf_page_1based": 189,
+      "clip_pdf_points": [
+        52,
+        365,
+        523,
+        590
+      ],
+      "scale": 3,
+      "png_sha256": "b144b4ecca6265a3eaf2b7c675fefcad5d4833586486cc6630d47f48c31f5663",
+      "width": 1413,
+      "height": 675,
+      "rgb_pixel_sha256": "2f6266fd2350609010b0e0971f54ea67a218885e6cc43fee05c2f46214e75fd7",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "schorlemer_demobilization_inquiry",
+      "path": "experiments/schorlemer_demobilization_inquiry/sources/p122_reviewed.png",
+      "pdf_page_1based": 125,
+      "clip_pdf_points": [
+        95,
+        288,
+        530,
+        475
+      ],
+      "scale": 3,
+      "png_sha256": "56198a62e49d36def433505578ed43be99d16f81cecf57fa5d5bc802335f308d",
+      "width": 1305,
+      "height": 561,
+      "rgb_pixel_sha256": "3f5697f3c5f69c211388bc6a649b731395a69de12232c0d78545c5b3d7fb83d4",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "schorlemer_demobilization_inquiry",
+      "path": "experiments/schorlemer_demobilization_inquiry/sources/p155_reviewed.png",
+      "pdf_page_1based": 158,
+      "clip_pdf_points": [
+        65,
+        413,
+        520,
+        490
+      ],
+      "scale": 3,
+      "png_sha256": "6e6944484d5cfdb65f71e4477fbe6868b88a58ae45f4517fd795e526a1217944",
+      "width": 1365,
+      "height": 231,
+      "rgb_pixel_sha256": "f356023c58ef7f3b76167442cb28ec27849cc6e1155ff89851f91d0941f28d42",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "september_radio_instructions",
+      "path": "experiments/september_radio_instructions/sources/p57_A.png",
+      "pdf_page_1based": 60,
+      "clip_pdf_points": [
+        55,
+        250,
+        520,
+        725
+      ],
+      "scale": 3,
+      "png_sha256": "068b496da2b23b126caf3f8de94fa7aa1a636b980c7ac7f78036d39e277eb47f",
+      "width": 1395,
+      "height": 1425,
+      "rgb_pixel_sha256": "56e80a9f906ebf42bf89e94e40ce676871eb3e3b2e4d6c71e23b02df03ee3ebc",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "september_radio_instructions",
+      "path": "experiments/september_radio_instructions/sources/p57_A1_A2_overprints.png",
+      "pdf_page_1based": 60,
+      "clip_pdf_points": [
+        145,
+        435,
+        245,
+        490
+      ],
+      "scale": 9,
+      "png_sha256": "1050bda61824dea49a0a4aa05d64c2de012749e9bfa9af6a88cba189fc9b1639",
+      "width": 900,
+      "height": 495,
+      "rgb_pixel_sha256": "4525d34e7e62e05526fd37938a179795b6f357994851cbe4108969e3352f4f42",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "september_radio_instructions",
+      "path": "experiments/september_radio_instructions/sources/p57_A3_annotation.png",
+      "pdf_page_1based": 60,
+      "clip_pdf_points": [
+        235,
+        670,
+        295,
+        698
+      ],
+      "scale": 9,
+      "png_sha256": "058e10f571f8c76671aa775ac58afa744befbbb9a2119be0094c010747bd22fe",
+      "width": 540,
+      "height": 252,
+      "rgb_pixel_sha256": "80442b68a7240c843cf470d791e3f1d1479ab86c972bf678c80e3f2c2c5eb271",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "september_radio_instructions",
+      "path": "experiments/september_radio_instructions/sources/p61_A.png",
+      "pdf_page_1based": 64,
+      "clip_pdf_points": [
+        65,
+        270,
+        510,
+        480
+      ],
+      "scale": 3,
+      "png_sha256": "19410d4e0f504eb65316d86400d0404e71c8014f08756c7ce084650bbf0f05a5",
+      "width": 1335,
+      "height": 630,
+      "rgb_pixel_sha256": "d2cea91a8eaca88698afe02c665b205c3582a507db4643dca8882652a6e4e830",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "september_radio_instructions",
+      "path": "experiments/september_radio_instructions/sources/p61_A_glyphs.png",
+      "pdf_page_1based": 64,
+      "clip_pdf_points": [
+        160,
+        345,
+        305,
+        365
+      ],
+      "scale": 10,
+      "png_sha256": "6ff68b75cf3d8433178d11b528ded59e73bb91de209f3e6e4c6fda65d9a8d102",
+      "width": 1450,
+      "height": 200,
+      "rgb_pixel_sha256": "f1f9e9b5ae6144ab6418cc68bc3fcd229204170c6af8be97c1a09d7eaaae11b6",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "siegfried_assignment_cancellation",
+      "path": "experiments/siegfried_assignment_cancellation/sources/p135_A.png",
+      "pdf_page_1based": 138,
+      "clip_pdf_points": [
+        45,
+        250,
+        530,
+        570
+      ],
+      "scale": 3,
+      "png_sha256": "888cf1eb92b62e8868e2657ca8f3449a117586d9e6c9816f61298a372f13bb6c",
+      "width": 1455,
+      "height": 960,
+      "rgb_pixel_sha256": "ead264722a3665293c134a3bb48d3a72265f809f07382c39738d38e0809c47db",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "staatsbank_accounting_cheques",
+      "path": "experiments/staatsbank_accounting_cheques/sources/p172_reviewed.png",
+      "pdf_page_1based": 175,
+      "clip_pdf_points": [
+        70,
+        460,
+        515,
+        620
+      ],
+      "scale": 3,
+      "png_sha256": "b48525735d65e54d39a8b57f4d4aaf24b9156076b6cd5613e2f81992ae737774",
+      "width": 1335,
+      "height": 480,
+      "rgb_pixel_sha256": "29a1c39803a9c5e712e749b2bcd6ad4ba38717a95b334f84bab74e632a987204",
+      "fresh_render_cache": false
     }
   ],
   "presentation_artifacts": [
+    "data/reviews/caption_cleanup_20261103.json",
+    "data/reviews/live_readable_mappings_20261103.json",
+    "data/reviews/verify_live_readable_mappings.py",
     "data/reviews/reading_conventions_followup_before.json",
     "data/reviews/reading_conventions_followup_audit.json",
     "data/reviews/verify_followup_readings.py",

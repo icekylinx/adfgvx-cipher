@@ -1,0 +1,217 @@
+{
+  "schema": "adfgvx-eighth-part-repetition-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 155,
+    "pdf_page_1based": 158,
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p155_C.png",
+      "pdf_page_1based": 158,
+      "crop_pdf_points": [
+        65,
+        490,
+        530,
+        640
+      ],
+      "render_scale": 4,
+      "sha256": "1d1dda9f8fee73252151d6b1784f9303bba0ef0fd129132039b8105e24bfe4f3",
+      "width": 1860,
+      "height": 600,
+      "channels": 3,
+      "rgb_sha256": "41d7974f89c4f0da1944563157b54bb921eba87db34c87e336bc2fb0b55515b2"
+    }
+  ],
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "header_literal": "C) NKJ v LP (6.42 a.m., November 8th); FUER COS 2240 (7/11), 2 TLE; 1 TL RICHI-186; 2 TL RICHI-136",
+  "records": [
+    {
+      "id": "p155_C1",
+      "printed_page": 155,
+      "source_section": "C1",
+      "source_rows": [
+        "XXVGF GADDV AXVDA VGFXG XVGGD GXDVX VVGGX VVDVD",
+        "VADXG GXGGD FVFDD AXDDD VGVXAA XVDXH FXDXG DDFDX",
+        "DGGGV DVDVV GXXDV VGFDA DVVVG GDFDX VFDVD GVGVV",
+        "GGXXA XXGDG VDDXV DDGDV GFDGG ASFGX DHDDD GGDXV",
+        "DVVVX GGFDV VDFGG GDGFV DVGVV X"
+      ],
+      "source_slots": 187,
+      "advertised_length": 186,
+      "excluded_source_indices": [
+        61
+      ],
+      "expected_raw": "DAACHTERTEILDESAL?CHISX2?X10XXLEIT?TELLE707POTNRX1002?NSEKTIONPOLITIKBERLINNICHTZUENTZIFFERNX",
+      "edited_output": "DAACHTERTEILDESAL?CHISX2?X10XXLEITSTELLE707POTNRX1002ANSEKTIONPOLITIKBERLINNICHTZUENTZIFFERNX",
+      "readable_german": "Da achter Teil des AL?CHIS 2?X10, Leitstelle 707 POT Nr. 1002 an Sektion Politik Berlin nicht zu entziffern,",
+      "meaning": "The eighth part of a message identified by the literal token AL?CHIS and the date-like field 2?X10 cannot be deciphered. The routing names Sektion Politik Berlin. The sentence continues in C2.",
+      "conditional_frame": true
+    },
+    {
+      "id": "p155_C2",
+      "printed_page": 155,
+      "source_section": "C2",
+      "source_rows": [
+        "AGDAV DXDVG XGXVA DGGFA VGDVG GDVVA XDXAA XADXF",
+        "VAAXD FVFXX VDGAD XADDV VDVXD VVGVG GDXVA AVVXD",
+        "DVGDV VXVAX VVVGD ADXGV DXGDD FGAXD GXGGV AVVVV",
+        "VDFDX DDXXA AFDVD X"
+      ],
+      "source_slots": 136,
+      "advertised_length": 136,
+      "excluded_source_indices": [],
+      "expected_raw": "PRUEFUNGUNDWIEDERHOLUNG8XTEILESERBETENXNACHRICHTENCHEFRMX?NRX1?3303X",
+      "edited_output": "PRUEFUNGUNDWIEDERHOLUNG8XTEILESERBETENXNACHRICHTENCHEFRMX?NRX1?3303X",
+      "readable_german": "Pruefung und Wiederholung 8. Teiles erbeten. Nachrichtenchef RMX?NRX1?3303.",
+      "meaning": "Checking and repetition of the eighth part are requested. The two unknowns in the final reference are the same globally unassigned square cell as the unknown in the first part date.",
+      "conditional_frame": false
+    }
+  ],
+  "overlong_group": {
+    "group_index": 12,
+    "literal": "VGVXAA",
+    "source_start": 60,
+    "excluded_alternatives": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ]
+  },
+  "primary_frame_note": "C1 source has 187 slots against 186 advertised. The primary 186-slot model excludes the G at source index 61 from the visibly six-slot group VGVXAA. This one observed-coordinate exclusion is conditional; all six choices within that group remain available with their different fields and word-repair costs.",
+  "prior_artifacts": {
+    "ocr_snapshot.json": "7cf81cdf38b5494bae99f8ed49296ff71f7e655861e0a26cfd523411af5aaeea",
+    "prior_candidates.json": "fdee7b45efbb727d96945e3a6e3da5f97eadd7c372c3ec12409e48f9111a9f70"
+  },
+  "case": "cases/radio/nov7_eighth_part_repetition.md",
+  "limits": [
+    "C1 is a conditional one-exclusion frame; C2 is native. Neither is an asserted solution of the earlier eighth part itself.",
+    "The visible noncoordinates H, S and H in C1 are preserved literally and masked in the model. Two masks are filled; the AL?CHIS position remains unresolved.",
+    "Deletion alternatives change correlated station/reference labels; those alternatives cannot be freely mixed.",
+    "All three digit unknowns in the main date/reference fields are the same XA cell. The two global 5/6 completions are retained without selecting one historically."
+  ],
+  "prior_credit": "Published Nov7–9 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed OCR candidates are retained. Source review and conditional geometry/word edition: icekylinx and GPT-6 Astra Pro."
+}

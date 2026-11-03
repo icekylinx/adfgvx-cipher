@@ -8,9 +8,7 @@
 
 ## p77 B — call-sign instruction for Konia
 
-**Most likely reading:**
-
-**Readable German:**
+**Readable German — most likely reading:**
 
 > Nachrichtenchef drahtet mit 4 B 49338: Funkerabtlg. Osmanie. Zu dort 2032: [Funkerabtlg.] Konia erhaelt Rufnamen Nathan Otto Karl. Wellen von dort festlegen. Admiralstab 17830 D 2.
 
@@ -22,9 +20,7 @@ Source: [Childs p77 B](../../sources/excerpts/childs_p77_B.png), PDF page 80; he
 
 ## p134 B — repeat a fourth-period telegram in the fifth
 
-**Most likely reading:**
-
-**Readable German:**
+**Readable German — most likely reading:**
 
 > [Eilvese]. [Telegr.] [der] 4. [Periode] in 5. wiederholen. OSM.
 

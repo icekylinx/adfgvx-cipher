@@ -1,0 +1,255 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Gomel route derailment and station-train forwarding",
+  "case": "cases/military/nov7_derailment_and_trains.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p155_reviewed.png",
+      "pdf_page_1based": 158,
+      "crop_pdf_points": [
+        65,
+        653,
+        530,
+        790
+      ],
+      "render_scale": 3,
+      "sha256": "d2fc41bcf0f4d871d0b8f9908b15a72e09100e7758a7420d842027bf3e772e4b",
+      "width": 1395,
+      "height": 411,
+      "channels": 3,
+      "rgb_sha256": "ebdeb9eec1a90f210980f28cbc0a74055190a743c35cd0ed3213688d4d61f429"
+    },
+    {
+      "path": "sources/p169_reviewed.png",
+      "pdf_page_1based": 172,
+      "crop_pdf_points": [
+        40,
+        345,
+        520,
+        470
+      ],
+      "render_scale": 3,
+      "sha256": "b729dfe1e30dad2c9a47e47924993b5d6d0a1259c0792fb8c3c9ce21524d8d64",
+      "width": 1440,
+      "height": 375,
+      "channels": 3,
+      "rgb_sha256": "9837e74f30fb19bd33714da254e4fd1ab35e0a13b91e3ab802e75e4ac7eacd3c"
+    }
+  ],
+  "keys": {
+    "Nov7-9": {
+      "id": "Nov7-9",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ],
+      "column_count": 20,
+      "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "square_rows": [
+        "PRMYUW",
+        "3LZGES",
+        "8C71QO",
+        "V29ITB",
+        "40?KXH",
+        "?AJNDF"
+      ],
+      "known_cell_count": 34,
+      "missing_plaintext_symbols": "56",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 241,
+          "pdf_page_1based": 244,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+      ],
+      "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "baseline_differences": [
+        {
+          "coordinate": "VF",
+          "baseline": "5",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XA",
+          "baseline": "6",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-01",
+        "comment": 20,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "VF",
+            "proposed": "5"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "6"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p155_D",
+      "title": "Morning report: derailed freight train and both tracks blocked",
+      "key_id": "Nov7-9",
+      "header_literal": "D) NKJ v LP (3.55 p.m., November 7th); FUER UKS 1355; RICHI-316",
+      "edited_output": "OKXMACKENSENXXMORGENMELDUNGVOM7X11X18AUFSTRECKEXGOMELXBACHMATSCHXENTGLEISTEEINGUETERZUGX2?WAGENZERTRUEMMERTXBEIDEGLEISESINDGESPERRTXXHRGRXKIEWXRMX1XAX7097X18X",
+      "readable_german": "OK Mackensen. Morgenmeldung vom 7X11X18: Auf Strecke Gomel, Bachmatsch entgleiste ein Gueterzug. 2? Wagen zertruemmert. Beide Gleise sind gesperrt. Hrgr. Kiew RMX1XAX7097X18.",
+      "meaning": "A morning report addressed to Oberkommando Mackensen says a freight train derailed on the proposed Gomel–Bachmatsch route, that a quantity written 2? of wagons was wrecked, and that both tracks are blocked. The unresolved wagon-count label and final reference remain literal.",
+      "protected_fields": [
+        "7X11X18",
+        "2?",
+        "7097X18"
+      ],
+      "notes": [
+        "The source has four dashes and a literal Y-shaped noncoordinate glyph in DXYVF. These five slots are masked before decoding and filled separately in the proposed reading.",
+        "The place repair BNCHMABSCH to BACHMATSCH requires two observed-coordinate substitutions; the other substitution changes ENBGLEISTE to ENTGLEISTE. This is an explicit word proposal, not a new external geographical identification.",
+        "The unknown in 2? is the globally unresolved XA cell, whose domain is {5,6} in the published Nov7–9 square. This edition does not choose 25 or 26 wagons.",
+        "Correct source groups FVXDD and VXDVG each have five slots. Earlier OCR strings with repeated X coordinates are not treated as source evidence.",
+        "Under the unchanged Nov7–9 square, p155 D plaintext index 89 and p169 B index 47 are both XA. All three p169 B footer unknowns at indices 107, 108 and 110 are VF. Thus 2? and S11?2 share one unresolved member of {5, 6}, while all three unknowns in 1B1??1? share the opposite member. These constraints identify no historical digit value."
+      ],
+      "printed_page": 155,
+      "source_section": "D",
+      "source_rows": [
+        "VVDFA DFDDD ADXVV GDDGX VVGXV AVDDV VVFFX FVXDD",
+        "ADADD DVFXG FXXDD VADVX DGVFV VGVVX VDVFG GXDFF",
+        "DAFDA GDDAA GGGDF VXDVG DDGGX DXXVA VXAAV FGVDD",
+        "XDDDA AVVAD FDFXG DDGGA AFFGV XVGFG GDVXV DGDVV",
+        "DGDDD XVGFV VVVFX VFFXF XVVXV GGVVF GDGAV DGGGV",
+        "VGADG ADFVV DXYVF GVDVD FVGGV VVVXG VDVVG VXDAV",
+        "XFDVV GADAD DVAFV GADVX X---- XVVVV DXGGG GVVVF",
+        "DVXGV GDXAX FXDAX ADDAG VXDFA DADDG GGDAV X"
+      ],
+      "source_slots": 316,
+      "advertised_length": 316,
+      "expected_raw": "OKXMACKENSENXXMORGENMELDUNGVOM7X11X18AUFSTRECKEXGOMELXBNCHMABSCH?ENBGLEISTEEI?GUETERZUG?2?WAGENZE?TRUEMMERT?BEIDEGLEISESINDGESPERRTXXHRGRXKIEWXRMX1XAX7097X18X",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 3,
+      "expected_source_mask_fills": 5
+    },
+    {
+      "id": "p169_B",
+      "title": "Forward station and construction trains to Group Winterfeld",
+      "key_id": "Nov7-9",
+      "header_literal": "B) ZM v SY (10.00 p.m., November 9th); 2245 (9/11); RICHI-224",
+      "readable_german": "NACHRUEBGEL. FECH wird beschleunigt Stationszug S11?2 und Bauzug 1924 der Gruppe Winterfeld zufuehren. Nachchef 1B1??1?.",
+      "meaning": "The station train labelled S11?2 and construction train labelled 1924 are to be forwarded promptly to Group Winterfeld. The opening NACHRUEBGEL and FECH are preserved without forcing an expansion, and the train and office labels are not independently numbered.",
+      "protected_fields": [
+        "S11?2",
+        "1924",
+        "1B1??1?"
+      ],
+      "notes": [
+        "The complete 224-slot source frame requires no observed-coordinate substitution or source-mask fill.",
+        "DXGVV is a five-coordinate printed group; the older OCR included an extra uncertainty mark.",
+        "The reference 1B1??1? and the station-train field retain all coupled unassigned square cells. A global witness is provided without claiming literal historical digit values."
+      ],
+      "printed_page": 169,
+      "source_section": "B",
+      "source_rows": [
+        "FXDDD XGADD XGGAF XAAXX FVAVD GFAXA DXGVV GXVVD",
+        "VVDGX VDVVX AVDGV XDGDD AFAAV VVXVD GAXGA XADVA",
+        "FVXDX VVXVF DADGF DDGAX FGDGG DGGVV XFDXX XGVDA",
+        "VVXGD XGFVG VDXXF VXVGG FVGVD GDDXD XDVVV VGDVV",
+        "VVGFA XDVVV DFGVG VDDXV XGVXA VDGXD FVXDV GVVXF",
+        "GXDXG DVVAD DFFDA XXGDD GAVV"
+      ],
+      "source_slots": 224,
+      "advertised_length": 224,
+      "expected_raw": "NACHRUEBGELXFECHWIRDBESCHLEUNIGTSTATIONSZUGXS11?2XUNDBAUZUGX1924XDERGRUPPEXWINTERFELDZUFUEHRENXNACHCHEFX1B1??1?X",
+      "edited_output": "NACHRUEBGELXFECHWIRDBESCHLEUNIGTSTATIONSZUGXS11?2XUNDBAUZUGX1924XDERGRUPPEXWINTERFELDZUFUEHRENXNACHCHEFX1B1??1?X",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "10ab77750e6eba3cffc5e708b6bc91b0a139c65df2386d1f4fc1fcd7f1e55b05",
+    "ocr_snapshot.json": "fa1358c7824896149284eb0c4e28927ba4539d4af0f2ebaddabaeb26e5959cc2"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All source slots are preserved in their native order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Witness completions are explicitly nonhistorical.",
+    "Source-mask fills and observed-coordinate substitutions are recorded separately; a source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

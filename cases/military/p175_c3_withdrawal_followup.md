@@ -48,7 +48,7 @@ fills give the following **111-position candidate**:
 OKMXGEHTHEUTENACHTVONDONAUXUNDSERETHFRONTAUFGEBIRGEZURUECKXWIRDUEBERXKRONSTADTXHERMANNSTADTXRICHTUNGXKLUZENBURG
 ```
 
-**Readable German — punctuation and word spacing of that candidate:**
+**Readable German — punctuation and word spacing of the conditional candidate; the final ellipsis marks continuation into the next part:**
 
 > O.K.M. geht heute Nacht von Donau- und Serethfront auf Gebirge zurück.
 > Wird über Kronstadt, Hermannstadt Richtung Kluzenburg …

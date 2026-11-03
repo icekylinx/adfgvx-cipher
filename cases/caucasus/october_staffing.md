@@ -27,9 +27,7 @@ Both travel `COS v NKJ`; the reception times are 03.15 and 03.21 a.m. on
 October 6. The page heading is October 5, and the shared origin field is
 `1723(5)`.
 
-**Most likely German reading, with abbreviation and reference fields retained:**
-
-**Readable German:**
+**Readable German — most likely reading, with abbreviation and reference fields retained:**
 
 > Oberst und Kdeur des 4. bayr. Chev.-Regt., Graf von Seyboltstorff, als
 > Kdeur der 4. bayr. Kav.-Brig. bestimmt, ist sofort zu dieser Brig. zu

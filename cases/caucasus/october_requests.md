@@ -50,9 +50,7 @@ Source: [p62 A](../../experiments/october_requests/sources/childs_p62_A.png).
 Header: `COS v NKJ (3.18 a.m., October 5th); DEUTSCHE DELEGATION 2355 (4/10);
 RICHI-260`. The heading is October 4, 1918.
 
-**Editorial German reading:**
-
-**Readable German:**
+**Readable German — editorial reading:**
 
 > Hptm. v. Westernhagen. [0] Bitten Rückkehr beschleunigen, da über dortige
 > Marktlage dringend Bericht benötigen, mit Einkauf beginnen wollen.

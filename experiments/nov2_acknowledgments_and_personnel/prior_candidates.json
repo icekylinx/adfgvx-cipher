@@ -1,0 +1,134 @@
+{
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "scope": "Frozen earlier unreviewed body candidates; no historical priority claim.",
+  "earlier_repository_screens": [
+    {
+      "cache_name": "cross_key_plaintexts.json",
+      "sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "relevant_rows": [
+        {
+          "block": "p104_ocr_block1",
+          "key": "Nov1-3",
+          "score": -5.555242125667743,
+          "plaintext": "ZUKUNFTEMPFANGALLERTELEGRAMMEDURCHXFXTXBESTAETIGENXXOX?XLXRMX1XAX104359XOP",
+          "known_quadgrams": 67,
+          "ciphertext": "VAADGDXAVFVVFFDXDXFGDFDAAVVAGGDDVAVXFFFAFGDVDXAVGAAVGVVGXFVXAFDDDDFDAFXAGAG?GVVGVXAXXVGFDGDDGFFXXVXXGGVDDXDXAXGAVGAXFAXGXVXXGFFDFXXXAGVADXDXAGDFXGDX",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "ist NOVEMBER, 1918.",
+            "A) NKJ (COS) v LP (8.03 p.m., November 3rd)",
+            "WH UKS (1/11) 1300 3 TEILE 4",
+            "(let and 2nd Teile missing)"
+          ]
+        },
+        {
+          "block": "p104_ocr_block2",
+          "key": "Nov1-3",
+          "score": -6.91183460300619,
+          "plaintext": "VERBDGXMIT5UKSXGUTXRERMITTLGXNSMXNICHT?OETIGX6NKJXX",
+          "known_quadgrams": 44,
+          "ciphertext": "FFXAFVAADXDXDXGVVXVGAAFXDXVVDDDXDADVVXADDGDDDFFGXAXDXAXFFGAVAVGDDFFDDDFFVXGAGDGDGGAG?VGVAXAGVVDFXFXFGF",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "2nd _ NOVEMBER, 1918.",
+            "B) u v NK (9.34 p.m., November 3rd)",
+            "1350 VE 1537 (2/11)"
+          ]
+        },
+        {
+          "block": "p104_ocr_block5",
+          "key": "Nov1-3",
+          "score": -5.284768609205882,
+          "plaintext": "LTXMEIECXB?TUMXSOFORTBERLINABREISENRBEIMERSXBATLX2XGARDERE?TXME?DENXMILMUSS",
+          "known_quadgrams": 60,
+          "ciphertext": "DDFGXDGADGGAXAGVAVDVAFVGFGFAVXFXGGGGAAGDVGDAFXADXGGVDFDGDAVVXDVXAGVXDGGADDVGFDDVXVFGVVXAVAGDXAVVAGGA?ADAGGGVADXFXVDF?VF?ADDDGDVDDVDFVFVAVDDXDDAXAGDGVD",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 21,
+              "ocr_group": "ADAG",
+              "layout_hypothesis": "?ADAG",
+              "method": "left"
+            }
+          ],
+          "header": [
+            "D) POT v Net (8.36 a.m., November 4th)",
+            "POT ZUR UBERMITTEILUNG NACH BATUM (2) 1650"
+          ]
+        },
+        {
+          "block": "p104_ocr_block6",
+          "key": "Nov1-3",
+          "score": -5.700308076405929,
+          "plaintext": "KOMDEURXRESXJ?EGXBATLX?ISTMITVERSETZGXEINRERSTANDEDXXGOUVXSEWASTOPOLXX",
+          "known_quadgrams": 59,
+          "ciphertext": "AFVFAFVDXVFFGAVGFXVGDGAVAGAADFVGFXGGAAX?DADFVXDGGGVXGVDVGDGAXDDGDXADXDVAXDVAFXAVDVXDGGGDDFFXDFFXGDFXAGGDFVDVVDVDXDGGXAV?AVVXXGAFADAGXAGDGDXD",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "E) POT v NKJ (9.06 a.m., November 4th)",
+            "0810 (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "cache_name": "cross_key_merged_plaintexts.json",
+      "sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "relevant_rows": [
+        {
+          "block": "p105_ocr_block3+p105_ocr_block4",
+          "key": "Nov1-3",
+          "score": -5.734815595478847,
+          "plaintext": "ERSTENSXANXAXOXKXMACKENSENXXBITTEDRAHTUNGXROEMX1XAX11118XGEHXOPXUNDFUNKSPRUCHXRMX1XAX11127XGEHXOPXINZUKUNFTEMPFANGALLER",
+          "known_quadgrams": 116,
+          "ciphertext": "GVGDGXXVFFFADXDGVFAAXGVGVGDVAFFAVFAGXDXVDGXVVDFVVAGGGXXXGDXXGFXAGVXXXVDFDVGDGVXFGVADFDXAGDVGAXGDXDGVAGXXFXDGDXDAFVDGXGXXDXVAXXDDFDDGADFAGVDGFFDFGAFXVFDVGAVFDXDFAVXVXVDGAAGVVGAXVFGXGAXXXFFGDDAADFAFXGAGVGDGDFAVDGGDDFXGXDXDGVDAGVGXVAAFVVXXDX",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 16,
+              "ocr_group": "D?GVXF",
+              "layout_hypothesis": "DGVXF",
+              "method": "invalid-first"
+            }
+          ],
+          "header": [
+            "C) NKJ v LP (4.55 p.m., November 2nd)",
+            "C) NKJ v LP (4.55 p.m., November 2nd)"
+          ]
+        },
+        {
+          "block": "p106_ocr_block1+p106_ocr_block2",
+          "key": "Nov1-3",
+          "score": -6.335117477481648,
+          "plaintext": "TELEGRAMMEDURCHXFXTXZUBESTAETIGENXXOXHXLXRMX1XAX104660XOPXXZWEITENXANXAXOXKX11XXBITT?EMPFANGFUNKSPRUCHXRMX1XAX11127XGEHXOPXIN",
+          "known_quadgrams": 118,
+          "ciphertext": "ADVDXFDADFDXXVVXGDXVXFVDFVFGDXDXDXXGVDFDVADDAFDGXDDXDGVXFFDXDXVGVDAGDVGAXFXXXAXGAAAFDADGDXVFFFVGDDXGDVGADFDFGVGVGDGGAFXGAXAFDXDXAFXGVXVXXGGV?ADFDFDAVXXFDXAXDFXXFXXAFGFFVFADDGDXAGVXAXXXGAFFFFXGFVVXXXGXAXXXXFVVDGGFDVGVXVGGGAGVVAGGDDGXDVDXVDFDXDXAXAGDXD",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "(Employed between Berlin and the Black Sea Area)",
+            "2nd NOVEMBER, 1918.",
+            "( Continued )",
+            "A) NKJ v LP (4.55 p.m., November 2nd)",
+            "( Continued )",
+            "A) NKJ v LP (4.55 p.m., November 2nd)"
+          ]
+        },
+        {
+          "block": "p106_ocr_block3+p106_ocr_block4",
+          "key": "Nov1-3",
+          "score": -5.774026467766561,
+          "plaintext": "ZUKUNFTEMPFANGALLERTELEGRAMMEDURCHXFXTXBESTAETIGENXXOXHXLXRMX1XAX104659XOP",
+          "known_quadgrams": 71,
+          "ciphertext": "VAADGDXAVFVVFFDXDXFGDFDAAVVAGGDDVAVXFFFAFGDVDXAVGAAVGVXGXFVXAFDDDDFDAFXAGAGVGVVGVXAXXVGFDGDDGFFXXVXXGGVDDXDXAXGAVGAXFAXGXVXXGFFDFXXXAGVADXDXAGDFXGDX",
+          "orphan": 0,
+          "edits": [],
+          "header": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "schema": "adfgvx-nov4-repetition-and-connections-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p121_A.png",
+      "printed_page": 121,
+      "pdf_page_1based": 124,
+      "crop_pdf_points": [
+        48,
+        224,
+        520,
+        565
+      ],
+      "render_scale": 3,
+      "sha256": "77048b98ab64ea13d1cfe210e433242449bfb0aae7d8853752e42b7704f6a9fa"
+    },
+    {
+      "path": "sources/p121_B1.png",
+      "printed_page": 121,
+      "pdf_page_1based": 124,
+      "crop_pdf_points": [
+        52,
+        575,
+        522,
+        785
+      ],
+      "render_scale": 3,
+      "sha256": "dbc52683a51ce62762f9dca95b30fc0444d858470e9548d8f6fc9cb88a73fb85"
+    },
+    {
+      "path": "sources/p122_A2.png",
+      "printed_page": 122,
+      "pdf_page_1based": 125,
+      "crop_pdf_points": [
+        95,
+        140,
+        517,
+        282
+      ],
+      "render_scale": 3,
+      "sha256": "1ab38b142e81dd64ec94b084c29851a8ef8f1a30b6863290554e407dfa57168f"
+    },
+    {
+      "path": "sources/p122_C.png",
+      "printed_page": 122,
+      "pdf_page_1based": 125,
+      "crop_pdf_points": [
+        93,
+        490,
+        515,
+        587
+      ],
+      "render_scale": 3,
+      "sha256": "59809df4f6354e0ef67678e94cc24019dd6073660530c827b05bfd67b141c274"
+    }
+  ],
+  "records": [
+    {
+      "id": "p121_A1",
+      "printed_page": 121,
+      "source_section": "A1",
+      "source_rows": [
+        "AFAVD XXXAA ADXFF DFDXV AAFAV DFFFF DVGAX FAXGV",
+        "AAGFD FADVX GFXVX AXXVF FADAV FGGXF DGDAA FXXXX",
+        "VFAFA GDFDX FXDVA XDDFG DFDDA FAFDF GXGDA DFFFA",
+        "FDDXX VVGVV FFGGX GFAVD XDGFV FDAVA FXVVF VDFDV",
+        "FXVFG XGAFD FAXAV GXXXD VVXDD DAVAD FADAF FAXAF",
+        "AFDFD DFXAX FAGFF FVVXF DAAVF AFDDA FXFAF A"
+      ],
+      "source_slots": 236,
+      "advertised_length": 236,
+      "expected_raw": "ZUXTELEGEAMMXVOMX30X10XNRX8538X18XZXAX1XKXCXHATTEXUMUW9EDERWOLUNGXDESXERSTENXTEILSXGEBETENXDERX2XUND3XTEILXISTXBEREITS",
+      "readable_candidate": "ZUXTELEGRAMMXVOMX30X10XNRX8538X18XZXAX1XKXCXHATTEXUMXWIEDERHOLUNGXDESXERSTENXTEILSXGEBETENXDERX2XUND3XTEILXISTXBEREITS",
+      "readable_german": "Zu Telegramm vom 30.10. Nr. 8538.18. Z. A. 1. K. C.: hatte um Wiederholung des ersten Teils gebeten. Der 2 und 3 Teil ist bereits",
+      "meaning": "The sender reminds the addressee that a repeat of the first part had been requested; parts 2 and 3 have already been handled as the next part explains."
+    },
+    {
+      "id": "p121_A2",
+      "printed_page": 121,
+      "source_section": "A2",
+      "source_rows": [
+        "GFAXA FXXXX XGFVV AXAXG XDVGV DXXAV AVFDA VVVDF",
+        "GAFFA FFFAF XXDAX VVGXD VFXFV DADFV DVXXF VGXFD",
+        "GFFDX FXFFG GXXXA FFFAV DVDAD FAFDV DVFAD AFDFD",
+        "XFFAV FFAFD FAFAF AFDFD XVVXV VVXXA DDFVX FADAF",
+        "XVXXA VDXAV FADVX GVVVD XAVAF GAXFA VAVVD AAVVF",
+        "ADAFX FDFVA AFAXX XAAGV DVDAZ AFVAA FAXXV A"
+      ],
+      "source_slots": 236,
+      "advertised_length": 236,
+      "expected_raw": "DECHIFFRIERTXWEI?ERGEGEBENXERNEUTEXBITTEXUMXWIKDERHOLUNGXDESXERSTENXTEILSXKRIEGSMINISTERIUMXNRX8538X18XGXAX1XRMX2XANGX",
+      "readable_candidate": "DECHIFFRIERTXWEITERGEGEBENXERNEUTEXBITTEXUMXWIEDERHOLUNGXDESXERSTENXTEILSXKRIEGSMINISTERIUMXNRX8538X18XGXAX1XRMX2XANGX",
+      "readable_german": "dechiffriert weitergegeben. Erneute Bitte um Wiederholung des ersten Teils. Kriegsministerium Nr. 8538.18. G. A. 1. RM. 2. ANG.",
+      "meaning": "The second part says that parts 2 and 3 were deciphered and forwarded, and again asks for the first part. The clear header addresses General von Kress in the Caucasus."
+    },
+    {
+      "id": "p121_B1",
+      "printed_page": 121,
+      "source_section": "B1",
+      "source_rows": [
+        "XFAFF FVXXF XGAXA AAAFF GVGVG FFDAX GDVAX AXAVG",
+        "GDXFF FXVGV XFFDD FXDFF XGXXX DXFVV FFVGV AVVFD",
+        "XDVAX FXAVG XVAAG FAXFF VXVVV XXFDF XVVVG VDFFF",
+        "DFVDX AVXGD GFVAA AFGFV XDAVA AAFAV GFXFA FVXFX",
+        "XFGDA XAVFF FAFFA XVGXA XXFVV FDGFX FFFXV GXXAX",
+        "FFAXA FFXAV FFAAD VAFXX FADAD AVGVA XXDVF VXFAV",
+        "VXXVF GDDFD XFXAF XXXXD FF"
+      ],
+      "source_slots": 262,
+      "advertised_length": 262,
+      "expected_raw": "AKONACHX18XXZUMTELEGRVONXHPTMXZIMMERMANNXWEGENXKONSTANZAXDRAHTETXOBVERBINDUNGXBUKARESTKONSTANZAXNOCHIMBETRIEBXUXWASWEGENXKONSTANZAX",
+      "readable_candidate": "AKONACHX18XXZUMTELEGRVONXHPTMXZIMMERMANNXWEGENXKONSTANZAXDRAHTETXOBVERBINDUNGXBUKARESTKONSTANZAXNOCHIMBETRIEBXUXWASWEGENXKONSTANZAX",
+      "readable_german": "AKONACH 18. Zum Telegr. von Hptm. Zimmermann wegen Konstanza: drahtet, ob Verbindung Bukarest-Konstanza noch im Betrieb, u. was wegen Konstanza",
+      "meaning": "The query refers to Captain Zimmermann and asks whether the Bucharest–Constanza link is still operating. Its final clause continues on p122."
+    },
+    {
+      "id": "p122_A2",
+      "printed_page": 122,
+      "source_section": "A2",
+      "source_rows": [
+        "FFXVF VXAAX DFGAA VAVFD VFAAG XGFGA FDFXX AXAXD",
+        "AGGXX AFVFG FAFVX FXDFV VDFVD GXGVF AXFFF FAFAV",
+        "DFDAD FAVGF XFDGA FXVFA XGXAX DFDFV FXXFD FADDX",
+        "GFAXD VDFFG AAXVG FFDXD DVDXX ADAAV XAFXG VFAGA",
+        "DVFVF DDXAA FGGXA VXAAV DF"
+      ],
+      "source_slots": 182,
+      "advertised_length": 182,
+      "expected_raw": "UXKABELSVERA9LASSTXWIESTEHTSMITVERBINDUNGNACHXAOKX11XXNACHRICHEFX3XAX111511XDXADMSXKZX95086",
+      "readable_candidate": "UXKABELSVERANLASSTXWIESTEHTSMITVERBINDUNGNACHXAOKX11XXNACHRICHEFX3XAX111511XDXADMSXKZX95086",
+      "readable_german": "u. Kabels veranlasst. Wie stehts mit Verbindung nach AOK 11? Nachrichef 3. A. 111511. D. ADMS KZ 95086.",
+      "meaning": "The continuation asks what has been arranged concerning Constanza and the cable, and asks about communications with Army High Command 11. It does not answer either operational question."
+    },
+    {
+      "id": "p122_C",
+      "printed_page": 122,
+      "source_section": "C",
+      "source_rows": [
+        "DFFVD FDXXV FFFFF VFXAV FDXAF VFFFX GDVXD XVFAV",
+        "GGDAX DXFAX AFFFD VGFFX DAXFX FFAFV AXXVF VAGAX",
+        "FFFXF DVDDV AVAVD AVDFF GFGVX FXFXA AXFX"
+      ],
+      "source_slots": 114,
+      "advertised_length": 114,
+      "expected_raw": "OXKXMXWISTABXXGELDTRANSPORTANGEKOMMENXXKXMXKRIEGSAMTXAX8X",
+      "readable_candidate": "OXKXMXWISTABXXGELDTRANSPORTANGEKOMMENXXKXMXKRIEGSAMTXAX8X",
+      "readable_german": "O. K. M. Wistab. Geldtransport angekommen. K. M. Kriegsamt A. 8.",
+      "meaning": "A message to O. K. M. Wistab reports arrival of a money transport. No amount, route, sender identity beyond the literal signature, or contents are inferred."
+    }
+  ],
+  "headers": {
+    "p121_A": [
+      "Page heading: 4th NOVEMBER, 1918.",
+      "A) COS v LP (03.13 a.m., November 5th)",
+      "FUER COS 1955 (4.11) 2 TL",
+      "GENERAL VON KRESS KAUKASUS",
+      "1 TL RICHI-236",
+      "2 TL RICHI-236"
+    ],
+    "p121_B1": [
+      "B) UKS v LP (06.55 a.m., November 4th)",
+      "FUER UKS (4.11) 0035 2 TLE",
+      "1 TL RICHI-262"
+    ],
+    "p122_A2": [
+      "A) UKS v LP (05.25 p.m., November 4th)",
+      "FUER UKS (4.11) 0035 2 TLE",
+      "2 TL RICHI-182"
+    ],
+    "p122_C": [
+      "C) NKJ v LP (08.42 p.m., November 4th)",
+      "FUER UKS 1405 (4).",
+      "RICHI-114"
+    ]
+  },
+  "literal_glyph_notes": [
+    "p121 A2 final-row DVDAZ retains the printed noncoordinate Z-like glyph at source index 224 as Z; the analysis masks that one source slot. Reading it as a damaged X is a separately counted one-slot fill, not an observed-coordinate substitution.",
+    "The source grouping, native lengths and part labels are preserved. Part 1 of the Constanza inquiry is p121 B and part 2 is p122 A; page-local section letters are not silently unified."
+  ],
+  "limits": [
+    "Earlier exploratory repository OCR candidates already identify these bodies; this is their source-audited edition with exact repairs, not a first-decipherment claim.",
+    "No published key changes, frame insertions, deletions, moves or numeral relabelings.",
+    "The reference Z A 1 K C in p121 A1 and G A 1 RM 2 ANG in A2 stay literal; no office or numeral interpretation is claimed.",
+    "The Constanza inquiry asks about communications and does not establish that the links were operational. The cash acknowledgment supplies no amount or transport route."
+  ],
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "d894499cad06b8c7f953dfd86b778af2731fe53a6b9729def5ec491b97e7f6ab"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  }
+}

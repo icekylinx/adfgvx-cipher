@@ -1,0 +1,242 @@
+{
+  "schema": "adfgvx-staatsbank-missing-coordinate-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "State-bank accounting request and dispatched cheques",
+  "case": "cases/finance/staatsbank_accounting_cheques.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p172_reviewed.png",
+      "pdf_page_1based": 175,
+      "crop_pdf_points": [
+        70,
+        460,
+        515,
+        620
+      ],
+      "render_scale": 3,
+      "sha256": "b48525735d65e54d39a8b57f4d4aaf24b9156076b6cd5613e2f81992ae737774",
+      "width": 1335,
+      "height": 480,
+      "channels": 3,
+      "rgb_sha256": "29a1c39803a9c5e712e749b2bcd6ad4ba38717a95b334f84bab74e632a987204"
+    }
+  ],
+  "keys": {
+    "Nov7-9": {
+      "id": "Nov7-9",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ],
+      "column_count": 20,
+      "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "square_rows": [
+        "PRMYUW",
+        "3LZGES",
+        "8C71QO",
+        "V29ITB",
+        "40?KXH",
+        "?AJNDF"
+      ],
+      "known_cell_count": 34,
+      "missing_plaintext_symbols": "56",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 241,
+          "pdf_page_1based": 244,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+      ],
+      "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "baseline_differences": [
+        {
+          "coordinate": "VF",
+          "baseline": "5",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XA",
+          "baseline": "6",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-01",
+        "comment": 20,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "VF",
+            "proposed": "5"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "6"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p172_D1",
+      "title": "State-bank accounting inquiry, first part with one missing coordinate",
+      "key_id": "Nov7-9",
+      "header_literal": "D) LP v NKJ (6.06 p.m., November 11th); VON UKS LP 2127 (9/11) 2 TLE; 1 TL RICHI-198",
+      "edited_output": "STAATSBANKBERLINXERBITTENDRINLICHSTFUNKSPRUCHFUEROESTERREICHERABRECHNUNGBETRAGDERGENERALKRIEGSKASSE",
+      "readable_german": "Staatsbank Berlin. Erbitten DRINLICHST Funkspruch fuer OESTERREICHER Abrechnung Betrag der Generalkriegskasse",
+      "meaning": "The first part addresses Staatsbank Berlin and asks urgently by radio for an accounting amount concerning the Generalkriegskasse. The proposed word OESTERREICHER is left unexpanded; it is not used to identify a person or prove an Austrian institutional connection. The request continues in part 2.",
+      "notes": [
+        "The source has 197 slots against the printed 198, with the four-coordinate group ADAX. One additional modeled slot is required for the disclosed 198-coordinate frame.",
+        "All five insertion boundaries around ADAX are retained. Boundaries 27 and 28 tie for the lowest observed-change cost under the stated word proposal and yield the same completed ciphertext; neither is asserted as the unique historical loss location.",
+        "DRINLICHOT to DRINLICHST and BEST?RREICHER to OESTERREICHER are explicitly priced lexical proposals. DRINLICHST remains a source-length spelling without inserting a G.",
+        "The two printed dashes in DVX-- and C-shaped glyph in ACAXA occupy source slots and are filled separately from the additional coordinate.",
+        "The page heading says November 10, this section's interception header says November 11, and its originating line says 9/11. All three source layers are retained; the Nov7–9 key is unchanged."
+      ],
+      "printed_page": 172,
+      "source_section": "D1",
+      "source_rows": [
+        "XAGVA GXGDD XDGXD GVDDD DXXXX ADAX GXDXX XVVDD",
+        "DVX-- XVGXD GGGAD DXAGG DGFAD ADDDG GXGVA AGDVG",
+        "VAAAD FXXDG DGGDD GVGVD DVXVV DXVGX XGGAV VGDGX",
+        "VDVVV DDDXV GGVXD DVVGV VVDDX DGGVX DDFFD GDXDD",
+        "VGGVG XGDXX GVXXD VDDDV GDDGV ACAXA XVAFX XVD"
+      ],
+      "source_slots": 197,
+      "advertised_length": 198,
+      "expected_raw": "STAATSBANKBERLINXERBITTENDRINLICHOTFUNKSPRU?HFUERBEST?RREICHERABRECHNUNGBETRAGD?RGENE?ALKRIEGSKASSE",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 2,
+      "expected_source_mask_fills": 3,
+      "insert_unknown_at_source_boundary": 28,
+      "all_insertion_boundaries": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "expected_inserted_slot_fills": 1
+    },
+    {
+      "id": "p172_D2",
+      "title": "Treasury payment period and arrival of dispatched cheques",
+      "key_id": "Nov7-9",
+      "header_literal": "D) LP v NKJ (6.06 p.m., November 11th); VON UKS LP 2127 (9/11) 2 TLE; 2 TL RICHI-204",
+      "edited_output": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM?XGESANDTECHEKSXHAUPTWECHSELAMT89240911X",
+      "readable_german": "Vom 18 bis Ende October gezahlten Mark. Ferner Ankunftsanzeige ueber am ? gesandte CHEKS. Hauptwechselamt 89240911.",
+      "meaning": "The continuation concerns the amount of marks paid in the period represented by 18 through the end of October, and asks for notice of arrival of cheques dispatched on an unresolved date. The closing is Hauptwechselamt followed by the literal reference 89240911; that reference is not treated as the requested payment amount.",
+      "notes": [
+        "The native 204-slot second part needs no length adjustment. OOTOBER to OCTOBER and YAYK to MARK are priced observed-coordinate changes; four printed dashes are filled explicitly.",
+        "CHEKS is retained without supplying an extra letter. The footer 89240911 is not silently split into a date or interpreted as a currency quantity.",
+        "The unresolved date-like position after AM is square cell VF, whose remaining domain is {5, 6}. The value is not inferred from the source date or the earlier baseline completion.",
+        "No amount paid is recovered: the telegram asks for an amount. The first part and this continuation must not be read as reporting that the footer is a monetary total.",
+        "The unresolved VF label must be the opposite member of {5, 6} from XA, which occurs in all three linked reference positions of p155 C1/C2 in the eighth-part repetition edition. This cross-case coupling supplies no historical digit assignment."
+      ],
+      "protected_fields": [
+        "89240911"
+      ],
+      "printed_page": 172,
+      "source_section": "D2",
+      "source_rows": [
+        "ADDVV GVFGG GGDXD GXVDV VGDDX ADVFG VDGDG DVD-G",
+        "GXDVV GVXXA GXDXX DXGAX FFXDA XDADA AVFFV XXDDD",
+        "DGGFG AGDDD VVXVG VDVGX VFFVF GGGFD VVAGG DDFDV",
+        "VDGXX VDVVX XXAAX XXGVG VVFXV VG--- VAFVF FXVAD",
+        "VVAFG XVGXX DVXDV VDVXV VGDDD AAAXA XXDFD DXDXD",
+        "XVDG"
+      ],
+      "source_slots": 204,
+      "advertised_length": 204,
+      "expected_raw": "VOM18XBISENDEOOTOBERGEZAHLTENYAYKXFERNERA?KUNFTSANZ?IGEUEBERA??XGESANDTECHEKSXHAUPTWECHSE?AMT89240911X",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 3,
+      "expected_source_mask_fills": 4,
+      "expected_inserted_slot_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "4bf506d7fcddeb848ab339ac879ee28f45e6f261ce43152e581aaa63e5c08f14",
+    "ocr_snapshot.json": "7fdfa1909f65fe4ca4a47489b46fc72b1db88e3214b1144280fdac68f8ada7ba"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "The first source has 197 occupied slots and a four-coordinate ADAX group against advertised 198; its 198-slot analysis conditionally inserts one masked coordinate.",
+    "Both equal minimum insertion positions are retained along with all five local alternatives. A lexical cost minimum does not prove a historical loss position.",
+    "The second body uses its native 204-coordinate frame. All observed substitutions, source-mask fills and inserted-slot fills are separately priced.",
+    "Source date layers, literal references and source-length spellings remain unnormalized. Unknown VF stays globally coupled to the remaining Nov7–9 square label."
+  ]
+}

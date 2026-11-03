@@ -1,0 +1,280 @@
+{
+  "schema": "adfgvx-september-radio-instructions-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Sep19-21",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      12,
+      2,
+      7,
+      20,
+      10,
+      19,
+      1,
+      13,
+      9,
+      18,
+      3,
+      17,
+      21,
+      8,
+      14,
+      4,
+      6,
+      16,
+      11,
+      22,
+      5,
+      15
+    ],
+    "column_count": 22,
+    "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+    "square_rows": [
+      "D5613Q",
+      "9KBNO0",
+      "HY8EIS",
+      "JUTZFC",
+      "W7VPML",
+      "2ARG4X"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 236,
+        "pdf_page_1based": 239,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p57_A.png",
+      "printed_page": 57,
+      "pdf_page_1based": 60,
+      "crop_pdf_points": [
+        55,
+        250,
+        520,
+        725
+      ],
+      "render_scale": 3,
+      "sha256": "068b496da2b23b126caf3f8de94fa7aa1a636b980c7ac7f78036d39e277eb47f"
+    },
+    {
+      "path": "sources/p57_A1_A2_overprints.png",
+      "printed_page": 57,
+      "pdf_page_1based": 60,
+      "crop_pdf_points": [
+        145,
+        435,
+        245,
+        490
+      ],
+      "render_scale": 9,
+      "sha256": "1050bda61824dea49a0a4aa05d64c2de012749e9bfa9af6a88cba189fc9b1639"
+    },
+    {
+      "path": "sources/p57_A3_annotation.png",
+      "printed_page": 57,
+      "pdf_page_1based": 60,
+      "crop_pdf_points": [
+        235,
+        670,
+        295,
+        698
+      ],
+      "render_scale": 9,
+      "sha256": "058e10f571f8c76671aa775ac58afa744befbbb9a2119be0094c010747bd22fe"
+    },
+    {
+      "path": "sources/p61_A.png",
+      "printed_page": 61,
+      "pdf_page_1based": 64,
+      "crop_pdf_points": [
+        65,
+        270,
+        510,
+        480
+      ],
+      "render_scale": 3,
+      "sha256": "19410d4e0f504eb65316d86400d0404e71c8014f08756c7ce084650bbf0f05a5"
+    },
+    {
+      "path": "sources/p61_A_glyphs.png",
+      "printed_page": 61,
+      "pdf_page_1based": 64,
+      "crop_pdf_points": [
+        160,
+        345,
+        305,
+        365
+      ],
+      "render_scale": 10,
+      "sha256": "6ff68b75cf3d8433178d11b528ded59e73bb91de209f3e6e4c6fda65d9a8d102"
+    }
+  ],
+  "records": [
+    {
+      "id": "p57_A1",
+      "printed_page": 57,
+      "source_section": "A1",
+      "source_rows": [
+        "DFDXX GFFXD FXGGG GVVGF GFFDV FGXFA GXVXX AVVGF",
+        "VFGFF GGGDG DGFFF FFFFF GDFXA GXGVA VDDAD FXXFF",
+        "VDFDD FGFFG GAXXX FVXVF DFXVX FGGXX VDDVG DDFFF",
+        "GDDFF GDDFF VVFGV VGVFF FFXGV DVADF DVFDF VAVGX",
+        "XXGDA GGVGV XGAGG GVGDV XFFAF GDXGX XGVVX VAGAX",
+        "FVAAX ?XFXG GVDXF GXGXX VXDFD G"
+      ],
+      "source_slots": 226,
+      "advertised_length": 226,
+      "expected_raw": "VORBEHALTLICHGENEHMIGUNGAKONACHSINDSAEMTLICHECPRUECHEFUERXTIFLISXTIFLISXBISAUFWEITERESVONDORTDIREKTBLINDZUFUNKE?X",
+      "readable_candidate": "VORBEHALTLICHGENEHMIGUNGAKONACHSINDSAEMTLICHESPRUECHEFUERXTIFLISXTIFLISXBISAUFWEITERESVONDORTDIREKTBLINDZUFUNKENX",
+      "readable_german": "Vorbehaltlich Genehmigung Akonach sind saemtliche Sprueche fuer Tiflis Tiflis bis auf weiteres von dort direkt blind zu funken.",
+      "meaning": "Subject to Akonach approval, all messages for Tiflis are to be transmitted directly from there by blind transmission until further notice. The repeated TIFLIS is retained; this is an instruction, not evidence that the transmissions took place.",
+      "case_path": "cases/radio/september_tiflis_radio_routing.md"
+    },
+    {
+      "id": "p57_A2",
+      "printed_page": 57,
+      "source_section": "A2",
+      "source_rows": [
+        "D?DDF XDVXV AXXGX FGDXF GGGGD GXGFD GXXXF GVFAA",
+        "XDFDF VVXFX DXFXG FGFFF XFXVX AGDGF XFDVG AVAXG",
+        "DXXXF FFFFG XFFDX XFXGV GFFGV VGXXF AFXFF XFGXG",
+        "GFVGG XFAFX DXVFX DFGFA XVXVV XXXXX DDGXF GFVGG",
+        "ADGXV XFXVG DGXXA XGVXD XAXXG XGGDX DGDFX ADGGG",
+        "XGGDF FVFGX AXVXA XFGFX"
+      ],
+      "source_slots": 220,
+      "advertised_length": 220,
+      "expected_raw": "DAXNKJXNKJXSEH?GUTXASOXASOXZULEISEV0NXCOSXCOSXGEHOERTWIRDXXSCHNELLEUEBERMITTLUNGWICHTIGXXZURSICHERSTELLUNGDESX",
+      "readable_candidate": "DAXNKJXNKJXSEHRGUTXASOXASOXZULEISEVONXCOSXCOSXGEHOERTWIRDXXSCHNELLEUEBERMITTLUNGWICHTIGXXZURSICHERSTELLUNGDESX",
+      "readable_german": "Da NKJ NKJ sehr gut, ASO ASO zu leise von COS COS gehoert wird. Schnelle Uebermittlung wichtig. Zur Sicherstellung des",
+      "meaning": "The reason given is that COS hears NKJ very well but ASO too weakly. Rapid forwarding is important. The final words continue into part 3; every repeated call sign remains literal.",
+      "case_path": "cases/radio/september_tiflis_radio_routing.md"
+    },
+    {
+      "id": "p57_A3",
+      "printed_page": 57,
+      "source_section": "A3",
+      "source_rows": [
+        "FFGDF FGXVG VVVAV VFXDF XXAXG VXFDG AVVGV VDDFF",
+        "DGGFG XXDFX FGXFD XFVGV GXDVD FGGXD FDGDX FFXXX",
+        "FXFDF GDDVF DVDAD VAGGG GGXXF FFGDX XAFXV FGDGF",
+        "GFFGD FFAGF FGAXF FVADG FGAGF DXGAG DVVFX FFVGX",
+        "XVFFD XAXXX VGGDV X"
+      ],
+      "source_slots": 176,
+      "advertised_length": 176,
+      "expected_raw": "MITHOERENSVERKEHRMITXCOSXZUBESTIMMTENZEITENVORHER2NKUENDIGENXXGRUKONACH652ROEMX4XNR43908",
+      "readable_candidate": "MITHOERENSVERKEHRMITXCOSXZUBESTIMMTENZEITENVORHERANKUENDIGENXXGRUKONACH652ROEMX4XNR43908",
+      "readable_german": "Mithoerens Verkehr mit COS zu bestimmten Zeiten vorher ankuendigen. Grukonach 652 roem 4 Nr 43908.",
+      "meaning": "Continuing part 2, the message asks that traffic with COS at specified times be announced beforehand to ensure monitoring. The closing labels 652, 4 and 43908 remain unchanged. The source annotation directly supports the A in ANKUENDIGEN.",
+      "case_path": "cases/radio/september_tiflis_radio_routing.md"
+    },
+    {
+      "id": "p61_A",
+      "printed_page": 61,
+      "source_section": "A",
+      "source_rows": [
+        "GGGXM FDXVD XL-GD GXGFV DFDFV XGDFG FDXFV",
+        "FVAGF GFVVG DXDGD FVXG- --XXD FFGVX FFVGG",
+        "XDDAV VFGFX FXVVG XGFGG GVFFX --FDX VVDXD",
+        "FFVGF GXXXD VFADG FXXDG GXGXV XDVAG XDVGD",
+        "VXDVG AXDXG GDDGA DFFFD VVFVG GDVVX DXDXV",
+        "V"
+      ],
+      "source_slots": 176,
+      "advertised_length": 176,
+      "expected_raw": "FUN?AX?OTIXUNDTIFLSSXSCHLUESSEL77?77X77777LI?RS?FOTTZUVETZICHTENXDA?EKANNTXFU??AXOSMANIE",
+      "readable_candidate": "FUNKAXPOTIXUNDTIFLISXSCHLUESSEL77?77X77777HIERSOFORTZUVERNICHTENXDABEKANNTXFUNKAXOSMANIE",
+      "readable_german": "Funka Poti und Tiflis. Schluessel 77?77 77777 hier sofort zu vernichten, da bekannt. Funka Osmanie.",
+      "meaning": "The proposed message addresses the radio stations at Poti and Tiflis and instructs immediate destruction of the key bearing the labels 77?77 and 77777 because it is known. The two number labels and closing OSMANIE remain literal. HIER and several damaged words are editorial proposals; this does not prove that destruction occurred.",
+      "case_path": "cases/radio/september_key_destruction_order.md",
+      "optional_repeated_label_candidate": "FUNKAXPOTIXUNDTIFLISXSCHLUESSEL77777X77777HIERSOFORTZUVERNICHTENXDABEKANNTXFUNKAXOSMANIE"
+    }
+  ],
+  "headers": {
+    "p57_A": [
+      "20th SEPTEMBER, 1918.",
+      "A) RAK v NKJ (4.08 a.m., Sept. 21st)",
+      "VEVE KR (20) 1530 VON ASO FUR NKJ 3 TLE",
+      "1 TL RICHI-226; 2 TL RICHI-220; 3 TL RICHI-176"
+    ],
+    "p61_A": [
+      "21st SEPTEMBER, 1918.",
+      "A) --- v -- (10.09 p.m. September 22nd)",
+      "FEER POT COS NR 230 (19 DEN9) 1825 (19)",
+      "RIZI--176"
+    ]
+  },
+  "source_annotations": [
+    {
+      "record": "p57_A3",
+      "source_index": 132,
+      "typed": "A",
+      "annotated": "D",
+      "detail_image": "sources/p57_A3_annotation.png",
+      "scope": "A D is printed above the A in typed FGAXF. Applying it is separately priced as one observed-coordinate substitution; the base transcription retains A."
+    }
+  ],
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "ade42017fb2734c336752fb555be993ca6de013ffa8d70138c2a2a0654d4d4b0"
+  },
+  "literal_glyph_notes": [
+    "p57 A1 last row first group is FVAAX. The following group begins with an overprinted/non-coordinate glyph, conservatively masked: ?XFXG.",
+    "p57 A2 first group has an overprinted second slot: D?DDF. Its glyph is not silently declared a coordinate.",
+    "p57 A3 retains typed FGAXF as the raw source. A D is annotated above its A and supports the separately priced substitution at source132.",
+    "p61 A first row contains GGGXM and XL-GD; M and L are outside ADFGVX and the dash is masked. Other printed dash slots remain masks."
+  ],
+  "limits": [
+    "No frame adjustment or published-key change is required; all four native lengths match their printed RICHI/RIZI numbers.",
+    "p57 part2 V0N→VON is an expressly priced lexical correction of a literal zero; no reference numeral is normalized. Repeated call signs and the duplicated TIFLIS stay repeated.",
+    "p61 retains first key label77?77 with its unresolved position and the complete second77777, plus closing OSMANIE. Filling the first unknown with7 is a separate conditional repetition proposal costing one additional source-mask fill. HIER is an editorial restoration of LI?R, not independently corroborated by another copy.",
+    "The page headings, intercepted receipt dates and internal dates are separate source layers and remain unchanged."
+  ]
+}
