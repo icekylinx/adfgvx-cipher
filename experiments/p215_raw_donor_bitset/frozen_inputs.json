@@ -1,0 +1,132 @@
+{
+  "schema": "p215-bitset-frozen-inputs-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "repository_input_sha256": {
+    "data/reviews/source_gap_audit_20261103.json": "a2e244c956d9ca39083c39072d67bbb65785abdd67066ccdc08a2eae417da3f2",
+    "experiments/p219_kiev_unrest/inputs.json": "71cf2fcdbe5dcbfa51ad39828fc7ef15bc6d20dea86805a144803a3318af8e52",
+    "experiments/p219_kiev_unrest/certificates.json": "a2292ce75dd1a886bd9ff08fba263fdd4ed238d3c4cdad0ed69a15167d41c4e6",
+    "experiments/p215_hungarian_y/inputs.json": "800c2a79e3467931e3ecf5af9c1c396ef871c8a18336861b9fb4a5b1b824bf6e"
+  },
+  "target": {
+    "id": "p215_B3",
+    "source_rows": [
+      "DXGDF ADVFF AXADD AFDDX XAXFF GXAVX FXAFV VVVVD",
+      "VXGAX VAXFX XFDGA FAVAD FGFAD XFAAF XAAAG AFVX-",
+      "----- --X-D GXVFA ----- AAGDD XGFFV VDXXX VXAXF",
+      "VFAFD XADFD FXAAV DFVAA FDVFV ADFGX XGVVD -----",
+      "FDDAG AXAAV ADAFF FVVGA DDAFA GXADA VFDAV AAXFV",
+      "FXAVA XAXAG VVDDX VFFV"
+    ],
+    "literal_sha256": "45daf2f488499471c4552ce5c64aac9148bdb7705fa50fa27c35e25c10f55158",
+    "width": 22,
+    "frame_slots": 234,
+    "square": "?NZ?6XSYC?I21?RBEKLJFD?GMTHUVWA?O?P?",
+    "ambiguous_baseline_labels": "0123456789JQY",
+    "conditional_assignments": {
+      "Y": "1",
+      "J": "2",
+      "2": "6",
+      "9": "J",
+      "4": "Y"
+    }
+  },
+  "donor": {
+    "id": "p219_C",
+    "source_rows": [
+      "XFXDD XFXDD VFDAD XVDFX GXAGV GXAFV FVFDA VDXDX",
+      "VVFFD XFDFX GFAXA XFFVV FXVGG XDXGG DAXAF VFVFD",
+      "XXGVX  XFAXA XAFFG DFAXD FXXGF VGVGG VGAXV",
+      "FDXGF AGVDV AGAAA AAXVX VGFFF XVGAD AXVDV DADXD",
+      "AGAFX VXGGG FFXFA DDFXV GGFVX VVVFA GVVFG XFXFX",
+      "ADFFV VDGDD VDFDD DDDFV GXXGF GGFDX DGVFV GVDFA",
+      "FVGFD GDADX ADAAA DDFFF GDDDX FXVDD XFDFV XXFGF",
+      "XVADX DFVX"
+    ],
+    "key": {
+      "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+      "column_rank_order": [
+        21,
+        9,
+        6,
+        14,
+        10,
+        20,
+        1,
+        16,
+        18,
+        7,
+        15,
+        4,
+        11,
+        22,
+        5,
+        17,
+        23,
+        2,
+        12,
+        8,
+        19,
+        3,
+        13
+      ]
+    },
+    "frame_slots": 294,
+    "insert_before_original_source": 85,
+    "models": [
+      {
+        "id": "raw_tie0",
+        "excluded_source_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          25,
+          26,
+          27,
+          28,
+          29,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "expected_raw": "HEER?SGRU?PEXKIE?XXUN?UHENX?WISC?ENXREG?ERUN?XHETM?NXUN?XPEDF9?RAX7?VORST?HEND?SOLDAT?NRAT?BESCH?OSSX?EUTRAL?TAET?X7XVX?XODELSA?RM1?3230TMA?KO?SKQX"
+      },
+      {
+        "id": "raw_tie2",
+        "excluded_source_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          20,
+          21,
+          22,
+          23,
+          24,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "expected_raw": "HEER?SGRU?PEXKIE?XXUN?UHENX?WISC?ENXREG?ERUN?XHETM?NXUN?XPEDF9?RAXB?VORST?HEND?SOLDAT?NRAT?BESCH?OSSX?EUTRAL?TAET?X7XVX?XODELSA?RM1?3230TMA?KO?SKQX"
+      }
+    ]
+  },
+  "controls": {
+    "same_shape_seed": 20261104215,
+    "extra_oracle_seed": 202611042152
+  },
+  "limits": [
+    "No lexical donor fills or name edits are frozen here. Each donor frame excludes 15 of 284 observations and adds 25 unassigned slots; 269 observations remain.",
+    "Two distinct raw models represent the four tied minimum ownership maps; the other 77 source geometries are outside this checkpoint.",
+    "Source pixels are not authenticated by these frozen transcriptions."
+  ]
+}
