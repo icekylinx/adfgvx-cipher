@@ -10,11 +10,11 @@ Each case opens with the most useful readable text or the present limits of reco
 | Topic | Reviewed source records | Case pages |
 |---|---:|---:|
 | [Caucasus administration and procurement](caucasus/README.md) | 32 | 7 |
-| [Ships, cargo and naval orders](naval/README.md) | 32 | 10 |
-| [Armies, withdrawal and supplies](military/README.md) | 89 | 25 |
-| [Radio service, keys and message routing](radio/README.md) | 66 | 20 |
-| [Money, banking and purchases](finance/README.md) | 25 | 7 |
-| [People, appointments and civilian affairs](people/README.md) | 20 | 9 |
+| [Ships, cargo and naval orders](naval/README.md) | 35 | 11 |
+| [Armies, withdrawal and supplies](military/README.md) | 93 | 26 |
+| [Radio service, keys and message routing](radio/README.md) | 68 | 21 |
+| [Money, banking and purchases](finance/README.md) | 28 | 9 |
+| [People, appointments and civilian affairs](people/README.md) | 22 | 10 |
 
 These topic guides cover every record in the second table below. The challenge table retains all 22 original entries.
 <!-- TOPIC-NAVIGATION:END -->
@@ -62,7 +62,7 @@ These retain the original challenge identifiers. Page numbers alone do not ident
 | [p215](p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
 | [p217](p217.md) | British cruiser and Allied squadron at Sevastopol | Prior body reading; correction verified | Prinz and GPT-6 Astra (2026); correction: Christian Horvat |
 
-## Other ciphertexts — 264 reviewed records
+## Other ciphertexts — 278 reviewed records
 
 Each row identifies a separate source record outside the 22-entry challenge. Multipart messages and repeated transmissions have separate rows even when one case page discusses them together. Direct readings, source-supported reconstructions and conjectural repairs retain their stated limits.
 
@@ -192,8 +192,14 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p169 A](radio/seifert.md) | Repeated station-control report | Conditional one-coordinate deletion; clearer p168 witness | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p170 B1](military/nov9_operational_reports.md) | Parallel cavalry and northward-march report | Different from open p170 A; repairs and prose expansions explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p170 B2](military/nov9_operational_reports.md) | Alpenkorps at Ujverbasz and the 9 November march | 117/119 raw positions; place fill and historical numeral separated | icekylinx and GPT-6 Astra Pro (2026) |
+| [p171 A2](finance/ruble_rate_companions.md) | Reported ruble prices in Kiev and Warsaw; companion to Norbert's A1 | Conditional 252-coordinate frame from 261 literal slots: two five-slot exclusions, one added unknown; six substitutions and four fills; two tied local gap placements | icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved |
+| [p171 A3](finance/ruble_rate_companions.md) | Waller recommends paying above par for Bons if necessary | Exact 152 source slots; 74/76 raw to 76/76 with two printed-erasure fills; no observed-coordinate change; duplicated PARI retained | icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved |
+| [p171 B1](radio/newspaper_dispatch.md) | Berlin newspaper sacks received via Orsova; request to Breslau postal directorate | Exact 200-slot frame; 98/100 raw labels; one substitution and two fills give 100/100 | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period key and earlier unreviewed OCR candidates retained; distinct from Norbert's p171 A1 challenge |
+| [p171 B2](radio/newspaper_dispatch.md) | Immediate dispatch by the same route; priority references remain 7?3 and 308 | Exact 186-slot frame; 92/93 fixed labels; five ordinary-word substitutions; XA cell remains 56 in baseline | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period key and earlier unreviewed OCR candidates retained; distinct from Norbert's p171 A1 challenge |
+| [p171 C](people/namur_order_witnesses.md) | Namur order for Staedt to contact HPT V. Weiher; complementary source witness | 252 received slots; six substitutions and four printed fills reconcile the 126-position body with p172 E; INSP1IN retained | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. key and earlier unreviewed C candidate retained; neighboring published body attribution distinguished |
 | [p172 A](radio/seifert.md) | Records destroyed; cipher keys still in personal custody | 67/68 positions; one supported erasure fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p172 B](radio/seifert.md) | Immediate radio-listening instruction | Identical to p174 D; hundreds digit remains 5-9 | icekylinx and GPT-6 Astra Pro (2026) |
+| [p172 E](people/namur_order_witnesses.md) | Namur order for Staedt to contact HPT V. Weiher; complementary source witness | 242 received slots plus 10 modeled missing prefix coordinates; five substitutions and ten witnessed prefix fills; same 126-position body as p171 C | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. key and earlier unreviewed C candidate retained; neighboring published body attribution distinguished |
 | [p173 A1](naval/corcovado_sale_terms.md) | Corcovado already has a Turkish crew; Mediterranean Division no longer in Nikolaev | 119/121 raw; six ordinary-word coordinate changes; office digit separately conditional; reference tail unresolved | icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately |
 | [p173 A2](naval/corcovado_sale_terms.md) | Turkish captain; no radio communication with Constantinople | 79/80 raw; one coordinate substitution and one printed-dash fill | icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately |
 | [p174 A1](finance/crown_airlift.md#p174-a1) | Urgent daily crown airlift request | Direct reading; every observed coordinate retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
@@ -283,6 +289,14 @@ Each row identifies a separate source record outside the 22-entry challenge. Mul
 | [p211 B lower1](radio/p211_key_schedule.md) | Retain the November Ringbahn key | 107/107 raw positions; three spelling repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p211 B lower2](radio/p211_key_schedule.md) | Use November keys for December traffic | 92/92 unchanged; first and last schedule dates stated | icekylinx and GPT-6 Astra Pro (2026) |
 | [p211 B lower3](radio/p211_key_schedule.md) | Schedule endpoint and receipt acknowledgment | 66/67 raw positions; one invalid-glyph fill | icekylinx and GPT-6 Astra Pro (2026) |
+| [p212 A1](military/medical_return_transports.md#p212-a1) | Conditional introduction to medical advice for transports from Turkey | Conditional first-part reading; four tied missing-group placements explicitly retained | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p212 A3](finance/oil_cartel_dispatch_query.md#p212-a3) | Oil cartel query about consignments shipped from Poti | Five ordinary-word coordinate repairs; association with medical report unasserted | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p212 A5](military/medical_return_transports.md#p212-a5) | Heated sick wagon, cooking equipment and hot tea | Five coordinate repairs and one printed-glyph fill; instruction label unchanged | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p213 A1](naval/reval_steamer_notice.md#p213-a1) | Two steamers expected at Reval; raw quantity unresolved | Direct reading with overprinted amount-glyph alternative retained | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p213 A2](naval/reval_steamer_notice.md#p213-a2) | Further tonnage and raw-material transport; vessel-like fields retained | Three word repairs and one printed-glyph fill; no ship identification | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p213 A3](naval/reval_steamer_notice.md#p213-a3) | Assurance of support and Kriegsdepartement closing | One word repair and one fill; two reference erasures remain | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p213 A6](military/medical_return_transports.md#p213-a6) | Water points, forwarding and medical-department request | Five word repairs; 5T bridge and position before DEPARTEMENT unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p213 A7](military/medical_return_transports.md#p213-a7) | Arrange transport care from Constantinople; raw reference retained | One printed-glyph fill; raw NIKOLA9EW and footer untouched | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p214 B](military/mackensen_warsaw.md) | Forwarded quotation of the Warsaw query | 85/92 direct quote positions match p181 under a different key | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p217 A1](military/p217_A.md) | Scholtz divisions march into the assembly area | 114/114 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |
 | [p217 A2](military/p217_A.md) | Coal shortages stop transport; troop locations near Oroshaza | 120/120 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |

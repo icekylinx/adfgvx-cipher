@@ -4112,6 +4112,216 @@
         "experiments/mackensen_armistice_appeal/inputs.json",
         "experiments/mackensen_armistice_appeal/certificates.json"
       ]
+    },
+    {
+      "id": "p171_B1",
+      "label": "p171 B1",
+      "printed_page": 171,
+      "source_section": "B1",
+      "subject": "Berlin newspaper sacks received via Orsova; request to Breslau postal directorate",
+      "status": "Exact 200-slot frame; 98/100 raw labels; one substitution and two fills give 100/100",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period key and earlier unreviewed OCR candidates retained; distinct from Norbert's p171 A1 challenge",
+      "path": "cases/radio/newspaper_dispatch.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/newspaper_dispatch/inputs.json",
+        "experiments/newspaper_dispatch/certificates.json"
+      ]
+    },
+    {
+      "id": "p171_B2",
+      "label": "p171 B2",
+      "printed_page": 171,
+      "source_section": "B2",
+      "subject": "Immediate dispatch by the same route; priority references remain 7?3 and 308",
+      "status": "Exact 186-slot frame; 92/93 fixed labels; five ordinary-word substitutions; XA cell remains 56 in baseline",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period key and earlier unreviewed OCR candidates retained; distinct from Norbert's p171 A1 challenge",
+      "path": "cases/radio/newspaper_dispatch.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/newspaper_dispatch/inputs.json",
+        "experiments/newspaper_dispatch/certificates.json"
+      ]
+    },
+    {
+      "id": "p171_A2",
+      "label": "p171 A2",
+      "printed_page": 171,
+      "source_section": "A2",
+      "subject": "Reported ruble prices in Kiev and Warsaw; companion to Norbert's A1",
+      "status": "Conditional 252-coordinate frame from 261 literal slots: two five-slot exclusions, one added unknown; six substitutions and four fills; two tied local gap placements",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved",
+      "path": "cases/finance/ruble_rate_companions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/ruble_rate_companions/inputs.json",
+        "experiments/ruble_rate_companions/certificates.json"
+      ]
+    },
+    {
+      "id": "p171_A3",
+      "label": "p171 A3",
+      "printed_page": 171,
+      "source_section": "A3",
+      "subject": "Waller recommends paying above par for Bons if necessary",
+      "status": "Exact 152 source slots; 74/76 raw to 76/76 with two printed-erasure fills; no observed-coordinate change; duplicated PARI retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved",
+      "path": "cases/finance/ruble_rate_companions.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/ruble_rate_companions/inputs.json",
+        "experiments/ruble_rate_companions/certificates.json"
+      ]
+    },
+    {
+      "id": "p171_C",
+      "label": "p171 C",
+      "printed_page": 171,
+      "source_section": "C",
+      "subject": "Namur order for Staedt to contact HPT V. Weiher; complementary source witness",
+      "status": "252 received slots; six substitutions and four printed fills reconcile the 126-position body with p172 E; INSP1IN retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. key and earlier unreviewed C candidate retained; neighboring published body attribution distinguished",
+      "path": "cases/people/namur_order_witnesses.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/namur_order_witnesses/inputs.json",
+        "experiments/namur_order_witnesses/certificates.json"
+      ]
+    },
+    {
+      "id": "p172_E",
+      "label": "p172 E",
+      "printed_page": 172,
+      "source_section": "E",
+      "subject": "Namur order for Staedt to contact HPT V. Weiher; complementary source witness",
+      "status": "242 received slots plus 10 modeled missing prefix coordinates; five substitutions and ten witnessed prefix fills; same 126-position body as p171 C",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. key and earlier unreviewed C candidate retained; neighboring published body attribution distinguished",
+      "path": "cases/people/namur_order_witnesses.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/namur_order_witnesses/inputs.json",
+        "experiments/namur_order_witnesses/certificates.json"
+      ]
+    },
+    {
+      "id": "p212_A1",
+      "label": "p212 A1",
+      "printed_page": 212,
+      "source_section": "A1",
+      "subject": "Conditional introduction to medical advice for transports from Turkey",
+      "status": "Conditional first-part reading; four tied missing-group placements explicitly retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished",
+      "path": "cases/military/medical_return_transports.md#p212-a1",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/medical_return_transports/inputs.json",
+        "experiments/medical_return_transports/certificates.json"
+      ]
+    },
+    {
+      "id": "p212_A3",
+      "label": "p212 A3",
+      "printed_page": 212,
+      "source_section": "A3",
+      "subject": "Oil cartel query about consignments shipped from Poti",
+      "status": "Five ordinary-word coordinate repairs; association with medical report unasserted",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished",
+      "path": "cases/finance/oil_cartel_dispatch_query.md#p212-a3",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/medical_return_transports/inputs.json",
+        "experiments/medical_return_transports/certificates.json"
+      ]
+    },
+    {
+      "id": "p212_A5",
+      "label": "p212 A5",
+      "printed_page": 212,
+      "source_section": "A5",
+      "subject": "Heated sick wagon, cooking equipment and hot tea",
+      "status": "Five coordinate repairs and one printed-glyph fill; instruction label unchanged",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished",
+      "path": "cases/military/medical_return_transports.md#p212-a5",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/medical_return_transports/inputs.json",
+        "experiments/medical_return_transports/certificates.json"
+      ]
+    },
+    {
+      "id": "p213_A6",
+      "label": "p213 A6",
+      "printed_page": 213,
+      "source_section": "A6",
+      "subject": "Water points, forwarding and medical-department request",
+      "status": "Five word repairs; 5T bridge and position before DEPARTEMENT unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished",
+      "path": "cases/military/medical_return_transports.md#p213-a6",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/medical_return_transports/inputs.json",
+        "experiments/medical_return_transports/certificates.json"
+      ]
+    },
+    {
+      "id": "p213_A7",
+      "label": "p213 A7",
+      "printed_page": 213,
+      "source_section": "A7",
+      "subject": "Arrange transport care from Constantinople; raw reference retained",
+      "status": "One printed-glyph fill; raw NIKOLA9EW and footer untouched",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished",
+      "path": "cases/military/medical_return_transports.md#p213-a7",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/medical_return_transports/inputs.json",
+        "experiments/medical_return_transports/certificates.json"
+      ]
+    },
+    {
+      "id": "p213_A1",
+      "label": "p213 A1",
+      "printed_page": 213,
+      "source_section": "A1",
+      "subject": "Two steamers expected at Reval; raw quantity unresolved",
+      "status": "Direct reading with overprinted amount-glyph alternative retained",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished",
+      "path": "cases/naval/reval_steamer_notice.md#p213-a1",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/reval_steamer_notice/inputs.json",
+        "experiments/reval_steamer_notice/certificates.json"
+      ]
+    },
+    {
+      "id": "p213_A2",
+      "label": "p213 A2",
+      "printed_page": 213,
+      "source_section": "A2",
+      "subject": "Further tonnage and raw-material transport; vessel-like fields retained",
+      "status": "Three word repairs and one printed-glyph fill; no ship identification",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished",
+      "path": "cases/naval/reval_steamer_notice.md#p213-a2",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/reval_steamer_notice/inputs.json",
+        "experiments/reval_steamer_notice/certificates.json"
+      ]
+    },
+    {
+      "id": "p213_A3",
+      "label": "p213 A3",
+      "printed_page": 213,
+      "source_section": "A3",
+      "subject": "Assurance of support and Kriegsdepartement closing",
+      "status": "One word repair and one fill; two reference erasures remain",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished",
+      "path": "cases/naval/reval_steamer_notice.md#p213-a3",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/reval_steamer_notice/inputs.json",
+        "experiments/reval_steamer_notice/certificates.json"
+      ]
     }
   ]
 }

@@ -84,10 +84,16 @@ jobs:
           python experiments/deutzitag_dispatch_inquiries/verify.py --verify
           python experiments/constanza_radio_connections/verify.py --verify
           python experiments/mackensen_armistice_appeal/verify.py --verify
+          python experiments/newspaper_dispatch/verify.py --verify
+          python experiments/ruble_rate_companions/verify.py --verify
+          python experiments/namur_order_witnesses/verify.py --verify
+          python experiments/medical_return_transports/verify.py --verify
+          python experiments/reval_steamer_notice/verify.py --verify
           python experiments/nov25_letter_constraint/verify.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |
           python experiments/p198_word_search/verify.py
+          python experiments/p198_pretransposition_loss/verify.py --verify
           python experiments/radio_domain_model/verify.py
           python experiments/radio_domain_model/digit_symmetry/verify.py
           python experiments/p170_new_methods/verify.py

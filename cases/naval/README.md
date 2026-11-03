@@ -4,7 +4,7 @@
 
 Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and naval orders are collected here.
 
-**32 reviewed physical records across 10 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**35 reviewed physical records across 11 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -20,6 +20,7 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [Supply cargo at Nikolaev and the sale of Corcovado](black_sea_shipping.md) | p199 A1, p199 A2, p199 A3, p200 B1, p200 B2 |
 | [Naval reporting after dissolution of the Seekriegsleitung](p205_B.md) | p205 B1, p205 B2 |
 | [p210 A — Helsinki and return transport for the Ostsee Division](p210_A.md) | p210 A1, p210 A2 |
+| [Reval: expected steamers and further transport capacity](reval_steamer_notice.md) | p213 A1, p213 A2, p213 A3 |
 
 ## Reviewed source records
 
@@ -57,6 +58,9 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [p205 B2](p205_B.md) | Continue keeping war diaries; naval reporting addressees | 109/111 raw positions; reference digits unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p210 A1](p210_A.md) | Helsinki: confirm return transport for the Ostsee Division | 93/93 raw positions; one adjacent-coordinate swap | icekylinx and GPT-6 Astra Pro (2026) |
 | [p210 A2](p210_A.md) | Ships may be sent; identify a suitable embarkation port | 115/115 raw positions; two explicit substitutions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p213 A1](reval_steamer_notice.md#p213-a1) | Two steamers expected at Reval; raw quantity unresolved | Direct reading with overprinted amount-glyph alternative retained | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p213 A2](reval_steamer_notice.md#p213-a2) | Further tonnage and raw-material transport; vessel-like fields retained | Three word repairs and one printed-glyph fill; no ship identification | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p213 A3](reval_steamer_notice.md#p213-a3) | Assurance of support and Kriegsdepartement closing | One word repair and one fill; two reference erasures remain | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 
 ## Related challenge entries
 

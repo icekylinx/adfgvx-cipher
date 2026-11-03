@@ -1,0 +1,164 @@
+{
+  "schema": "adfgvx-interim-dp-small-exhaustive-validation-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "engine_source_sha256": "e99403f4401c9703dbeb8798b86751e12f90c087a1eaf079b130c830b151cf1c",
+  "synthetic_model_rule": "float32(-((index * 104729 + 17) % 9973) / 1000), base37 ABC...Z0123456789? quadruple order",
+  "synthetic_model_sha256": "6fed4cee6ffde0e066b5ccc7a7d5141f22360fd4364f495aeed2d5eae7eb7f4b",
+  "total_enumerated_witnesses": 9672,
+  "cases": [
+    {
+      "id": "one_full",
+      "observed_interim": "ADFGVXA",
+      "loss_count": 1,
+      "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+      "enumerated_witnesses": 48,
+      "independent_optimum_score": -0.017999999225139618,
+      "independent_best_example": {
+        "plaintext": "5ELH",
+        "full_interim": "ADFGVXFA",
+        "missing_interim_indices": [
+          6
+        ]
+      },
+      "dp_result": {
+        "plaintext": "5ELH",
+        "full_interim": "ADFGVXFA",
+        "missing_interim_indices": [
+          6
+        ],
+        "score_sum": -0.017999999225139618
+      },
+      "passed": true
+    },
+    {
+      "id": "two_full",
+      "observed_interim": "GXADFVVX",
+      "loss_count": 2,
+      "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+      "enumerated_witnesses": 1620,
+      "independent_optimum_score": -0.4700000137090683,
+      "independent_best_example": {
+        "plaintext": "C5SLL",
+        "full_interim": "GXADFXVXVX",
+        "missing_interim_indices": [
+          5,
+          7
+        ]
+      },
+      "dp_result": {
+        "plaintext": "C5SLL",
+        "full_interim": "GXADFXVXVX",
+        "missing_interim_indices": [
+          5,
+          7
+        ],
+        "score_sum": -0.4700000137090683
+      },
+      "passed": true
+    },
+    {
+      "id": "one_with_erasure",
+      "observed_interim": "AX?GDVF",
+      "loss_count": 1,
+      "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+      "enumerated_witnesses": 288,
+      "independent_optimum_score": -0.07599999755620956,
+      "independent_best_example": {
+        "plaintext": "QWUV",
+        "full_interim": "AXVAGDVF",
+        "missing_interim_indices": [
+          2
+        ]
+      },
+      "dp_result": {
+        "plaintext": "QWUV",
+        "full_interim": "AXVAGDVF",
+        "missing_interim_indices": [
+          3
+        ],
+        "score_sum": -0.07599999755620956
+      },
+      "passed": true
+    },
+    {
+      "id": "two_with_erasure",
+      "observed_interim": "V?AFGX",
+      "loss_count": 2,
+      "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+      "enumerated_witnesses": 6048,
+      "independent_optimum_score": -0.0010000000474974513,
+      "independent_best_example": {
+        "plaintext": "FHBC",
+        "full_interim": "GVFADFGX",
+        "missing_interim_indices": [
+          0,
+          4
+        ]
+      },
+      "dp_result": {
+        "plaintext": "FHBC",
+        "full_interim": "GVFADFGX",
+        "missing_interim_indices": [
+          0,
+          4
+        ],
+        "score_sum": -0.0010000000474974513
+      },
+      "passed": true
+    },
+    {
+      "id": "one_partial",
+      "observed_interim": "GXXAVDF",
+      "loss_count": 1,
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "enumerated_witnesses": 48,
+      "independent_optimum_score": -0.24799999594688416,
+      "independent_best_example": {
+        "plaintext": "OIKE",
+        "full_interim": "GXXAVDXF",
+        "missing_interim_indices": [
+          6
+        ]
+      },
+      "dp_result": {
+        "plaintext": "OIKE",
+        "full_interim": "GXXAVDXF",
+        "missing_interim_indices": [
+          6
+        ],
+        "score_sum": -0.24799999594688416
+      },
+      "passed": true
+    },
+    {
+      "id": "two_partial",
+      "observed_interim": "FADGVXAX",
+      "loss_count": 2,
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "enumerated_witnesses": 1620,
+      "independent_optimum_score": -0.9400000274181366,
+      "independent_best_example": {
+        "plaintext": "S?VUU",
+        "full_interim": "GFADGVAXAX",
+        "missing_interim_indices": [
+          0,
+          6
+        ]
+      },
+      "dp_result": {
+        "plaintext": "S?VUU",
+        "full_interim": "GFADGVAXAX",
+        "missing_interim_indices": [
+          0,
+          6
+        ],
+        "score_sum": -0.9400000274181366
+      },
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

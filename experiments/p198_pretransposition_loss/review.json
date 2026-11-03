@@ -1,0 +1,270 @@
+{
+  "schema": "adfgvx-interim-loss-independent-review-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "inputs_sha256": "35796722e68c3d96f550b585578e2f320e68d0324a3b1346ee5ded030adb1e28",
+  "source_fixture_snapshots": [
+    {
+      "source_id": "p125_A1",
+      "snapshot": "frozen_sources/armistice_transit_planning_certificates.json",
+      "sha256": "eb2d5a9bdd8932ceadeb29eec560254efa6546acf1318c8e83b78c0cee03ee6b",
+      "exact_85_character_radio_training_matches": []
+    },
+    {
+      "source_id": "p133_A3",
+      "snapshot": "frozen_sources/military_allowances_certificates.json",
+      "sha256": "8a9d2696334b9201d07ab9b0455e1a38f718daa855d7c200b93edd5d8c33d691",
+      "exact_85_character_radio_training_matches": []
+    },
+    {
+      "source_id": "p130_A1",
+      "snapshot": "frozen_sources/turkish_mission_recall_certificates.json",
+      "sha256": "d3e0f04c07bbcf2a859a0473c97851d026d8198631053123fd1a3a68d420d5ca",
+      "exact_85_character_radio_training_matches": []
+    }
+  ],
+  "radio_dataset_sha256": "2cf81c699ef145c642ea9e902433387e0ce9130643ec6d713d1318f0f7547162",
+  "scope": {
+    "controls": {
+      "completed_jobs": 20,
+      "pending_jobs": 0,
+      "states_expanded": 45956512,
+      "transitions_evaluated": 348776296
+    },
+    "historical": {
+      "completed_jobs": 50,
+      "pending_jobs": 0,
+      "states_expanded": 137008046,
+      "transitions_evaluated": 1079388614
+    }
+  },
+  "completed_dp_jobs": 70,
+  "pending_dp_jobs": 0,
+  "total_states_expanded": 182964558,
+  "total_transitions_evaluated": 1428164910,
+  "contiguous_geometry_candidates": 4150,
+  "contiguous_score_evaluations": 8300,
+  "toy_exhaustive_cases": 6,
+  "toy_enumerated_witnesses": 9672,
+  "fresh_control_runs": 18,
+  "fresh_control_bodies": 3,
+  "fresh_control_exact_runs": 5,
+  "fresh_control_failures": 13,
+  "all_failed_controls_have_higher_scoring_wrong_candidate": true,
+  "qualifying_five_loss_runs": [
+    "p125_A1__five_scattered__radio",
+    "p133_A3__five_scattered__book",
+    "p133_A3__five_scattered__radio"
+  ],
+  "control_review": [
+    {
+      "id": "p125_A1__one",
+      "model": "book",
+      "mode": "one",
+      "plaintext_exact": true,
+      "pointwise_correct": 85,
+      "levenshtein_distance": 0,
+      "candidate_minus_truth_score": 0.0,
+      "diagnosis": "exact text",
+      "loss_mask_exact": false
+    },
+    {
+      "id": "p125_A1__one",
+      "model": "radio",
+      "mode": "one",
+      "plaintext_exact": true,
+      "pointwise_correct": 85,
+      "levenshtein_distance": 0,
+      "candidate_minus_truth_score": 0.0,
+      "diagnosis": "exact text",
+      "loss_mask_exact": false
+    },
+    {
+      "id": "p125_A1__five_contiguous",
+      "model": "book",
+      "mode": "five_contiguous",
+      "plaintext_exact": false,
+      "pointwise_correct": 16,
+      "levenshtein_distance": 7,
+      "candidate_minus_truth_score": 26.072370529174805,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": false
+    },
+    {
+      "id": "p125_A1__five_contiguous",
+      "model": "radio",
+      "mode": "five_contiguous",
+      "plaintext_exact": false,
+      "pointwise_correct": 77,
+      "levenshtein_distance": 4,
+      "candidate_minus_truth_score": 5.9903342723846436,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": false
+    },
+    {
+      "id": "p125_A1__five_scattered",
+      "model": "book",
+      "mode": "five_scattered",
+      "plaintext_exact": false,
+      "pointwise_correct": 81,
+      "levenshtein_distance": 4,
+      "candidate_minus_truth_score": 4.776975631713867,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": false
+    },
+    {
+      "id": "p125_A1__five_scattered",
+      "model": "radio",
+      "mode": "five_scattered",
+      "plaintext_exact": true,
+      "pointwise_correct": 85,
+      "levenshtein_distance": 0,
+      "candidate_minus_truth_score": 0.0,
+      "diagnosis": "exact text",
+      "loss_mask_exact": true
+    },
+    {
+      "id": "p133_A3__one",
+      "model": "book",
+      "mode": "one",
+      "plaintext_exact": false,
+      "pointwise_correct": 84,
+      "levenshtein_distance": 1,
+      "candidate_minus_truth_score": 2.5798144340515137,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": true
+    },
+    {
+      "id": "p133_A3__one",
+      "model": "radio",
+      "mode": "one",
+      "plaintext_exact": false,
+      "pointwise_correct": 84,
+      "levenshtein_distance": 1,
+      "candidate_minus_truth_score": 2.4651243686676025,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": true
+    },
+    {
+      "id": "p133_A3__five_contiguous",
+      "model": "book",
+      "mode": "five_contiguous",
+      "plaintext_exact": false,
+      "pointwise_correct": 23,
+      "levenshtein_distance": 6,
+      "candidate_minus_truth_score": 10.78394103050232,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": false
+    },
+    {
+      "id": "p133_A3__five_contiguous",
+      "model": "radio",
+      "mode": "five_contiguous",
+      "plaintext_exact": false,
+      "pointwise_correct": 10,
+      "levenshtein_distance": 5,
+      "candidate_minus_truth_score": 9.573888063430786,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": false
+    },
+    {
+      "id": "p133_A3__five_scattered",
+      "model": "book",
+      "mode": "five_scattered",
+      "plaintext_exact": true,
+      "pointwise_correct": 85,
+      "levenshtein_distance": 0,
+      "candidate_minus_truth_score": 0.0,
+      "diagnosis": "exact text",
+      "loss_mask_exact": true
+    },
+    {
+      "id": "p133_A3__five_scattered",
+      "model": "radio",
+      "mode": "five_scattered",
+      "plaintext_exact": true,
+      "pointwise_correct": 85,
+      "levenshtein_distance": 0,
+      "candidate_minus_truth_score": 0.0,
+      "diagnosis": "exact text",
+      "loss_mask_exact": true
+    },
+    {
+      "id": "p130_A1__one",
+      "model": "book",
+      "mode": "one",
+      "plaintext_exact": false,
+      "pointwise_correct": 82,
+      "levenshtein_distance": 3,
+      "candidate_minus_truth_score": 20.31241273880005,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": false
+    },
+    {
+      "id": "p130_A1__one",
+      "model": "radio",
+      "mode": "one",
+      "plaintext_exact": false,
+      "pointwise_correct": 82,
+      "levenshtein_distance": 3,
+      "candidate_minus_truth_score": 10.654656410217285,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": false
+    },
+    {
+      "id": "p130_A1__five_contiguous",
+      "model": "book",
+      "mode": "five_contiguous",
+      "plaintext_exact": false,
+      "pointwise_correct": 48,
+      "levenshtein_distance": 15,
+      "candidate_minus_truth_score": 46.797266721725464,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": false
+    },
+    {
+      "id": "p130_A1__five_contiguous",
+      "model": "radio",
+      "mode": "five_contiguous",
+      "plaintext_exact": false,
+      "pointwise_correct": 72,
+      "levenshtein_distance": 8,
+      "candidate_minus_truth_score": 22.632679224014282,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": false
+    },
+    {
+      "id": "p130_A1__five_scattered",
+      "model": "book",
+      "mode": "five_scattered",
+      "plaintext_exact": false,
+      "pointwise_correct": 77,
+      "levenshtein_distance": 8,
+      "candidate_minus_truth_score": 26.278738737106323,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": false
+    },
+    {
+      "id": "p130_A1__five_scattered",
+      "model": "radio",
+      "mode": "five_scattered",
+      "plaintext_exact": false,
+      "pointwise_correct": 78,
+      "levenshtein_distance": 7,
+      "candidate_minus_truth_score": 10.970312595367432,
+      "diagnosis": "wrong candidate has strictly higher frozen-objective score",
+      "loss_mask_exact": false
+    }
+  ],
+  "historical_accepted_plaintexts": 0,
+  "limits": [
+    "Fixed supplied ranks and square labels; partial squares remain partial and no unknown label assignments are optimized.",
+    "Scores across different amounts of unassigned square information are not comparable evidence for key identity; the entirely unknown example has a vacuous all-question-mark score of zero.",
+    "The 18 fresh run observations reuse three plaintexts and fixed keys across loss patterns and two related objectives.",
+    "The p126 A5 diagnostic is reused conditional evidence, not independently established historical truth.",
+    "Pointwise character agreement can be low when alternative losses shift a long otherwise matching passage; Levenshtein distance is also reported.",
+    "State and transition counters are actual completed DP operations, not counts of explicitly visited full loss-and-fill witnesses."
+  ]
+}

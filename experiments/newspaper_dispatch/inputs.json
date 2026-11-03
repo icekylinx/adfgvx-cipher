@@ -1,0 +1,108 @@
+{
+  "schema": "adfgvx-newspaper-dispatch-input-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "author": "J. Rives Childs",
+    "title": "General Solution of the ADFGVX Cipher System",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 171,
+    "pdf_page_1based": 174,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "page_heading_literal": "9th NOVEMBER, 1918.",
+    "header_literal": "B) NKJ v LP (1.01 a.m., November 10th); 1858 (9/11) 2 TLE"
+  },
+  "source_images": [
+    {
+      "path": "sources/p171_B.png",
+      "pdf_page_1based": 174,
+      "crop_rectangle_pdf_points": [
+        70,
+        515,
+        552,
+        659
+      ],
+      "render_scale": 3,
+      "sha256": "2ae7b74f079942bb8ef65092fed17da5d407ebf34155b805100627b92acca1dc"
+    }
+  ],
+  "key": {
+    "id": "Nov7-9",
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ]
+  },
+  "records": [
+    {
+      "id": "p171_B1",
+      "source_section": "B1",
+      "source_rows": [
+        "DVXAA AAXDX GGDAA XFDXD FFDVX DDDDX GVVVV DXGAV",
+        "DVVGD GVXDG FADAG GVFDD GDDXD GDGDA AGVXG DGGXD",
+        "DVDDD DAADD VDVVF V--VV VGDVD VVDGD XDXDX GGXGV",
+        "XGVVV XDDVX AGVVG GXGGD XVDGV VVAVD AGAXD XDVXX",
+        "VXXVD DXVGX XXGXG XVVGD GDDDD FDXGG XAGGD DAGVD"
+      ],
+      "advertised_length": 200,
+      "source_slots": 200,
+      "expected_raw": "OBERPOSTDIREKTIOKBRESLAUXGESTERNUNDHEUTEBERLINERZEITUNGSSAECKEUEBERO?SOVAHIERE?NGEGANGENXVERANLASSET",
+      "editorial_recipe": {
+        "text": "OBERPOSTDIREKTIONBRESLAUXGESTERNUNDHEUTEBERLINERZEITUNGSSAECKEUEBERORSOVAHIEREINGEGANGENXVERANLASSET",
+        "pair_overrides": []
+      }
+    },
+    {
+      "id": "p171_B2",
+      "source_section": "B2",
+      "source_rows": [
+        "XXXDD XGFFX FDDFD VXAXG ADVGV VXAVV VFAVD GGXXV",
+        "GXVXX GDGXA ADDXG GFDDA DAAAG DADXD DDFGA DXDGD",
+        "FDGAX DVVFV VVVXX DVXGV XXGXX GFVAV VVGAV VAXAV",
+        "GFDVX VVADV DAVGX GVVAG VFFAD AXDDX XVDXV VXDDV",
+        "DXVGD XVVGA DDXVD VXDAG AFVDD D"
+      ],
+      "advertised_length": 186,
+      "source_slots": 186,
+      "expected_raw": "S8FORT3OSTBEFOERDERUNGAUFSELTEMWEGEXVOUZUGSWEISE7?3UND308XXXEUTSCHEFELDPOSTDIREKTIONRUMAENIEN",
+      "editorial_recipe": {
+        "text": "SOFORTPOSTBEFOERDERUNGAUFSELBEMWEGEXVORZUGSWEISE7?3UND308XXDEUTSCHEFELDPOSTDIREKTIONRUMAENIEN",
+        "pair_overrides": []
+      }
+    }
+  ],
+  "optional_existing_context": {
+    "path": "experiments/p170_continuation/military_context.json",
+    "sha256": "d824700644f4f39103ec1e3d13a2b6e682c0f6b8443393767945d035a5522225",
+    "assignment_reused": {
+      "VF": "6",
+      "XA": "5"
+    },
+    "scope": "Separate conditional application of the existing French-telegram military context, not a new numeral deduction from this postal message. The baseline stays unchanged."
+  },
+  "prior_credit": {
+    "key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker; Nov7-9 published period key.",
+    "body_candidates": "Both bodies already appeared as unreviewed OCR-derived candidates, retained in prior_candidates.json.",
+    "prior_candidates_sha256": "7c25c11cce4ac35e406114969aea3339f97838615975c9e1bbb2d1fcdc6339bb",
+    "distinct_challenge": "Norbert first read the separate p171 A1 challenge in2017. This package adds only B1-B2, not A1, and makes no claim to that challenge body.",
+    "bounded_prior_check": "The cached complete2017 discussion and the author-paper explicit page/body search did not identify this B telegram. This is not a universal priority claim."
+  }
+}

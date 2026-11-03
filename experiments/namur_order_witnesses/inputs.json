@@ -1,0 +1,131 @@
+{
+  "schema": "adfgvx-namur-order-witnesses-input-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "author": "J. Rives Childs",
+    "title": "General Solution of the ADFGVX Cipher System",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_pages": [
+      171,
+      172
+    ],
+    "pdf_pages_1based": [
+      174,
+      175
+    ],
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "chronology_note": "p171 carries a 9 November heading, but C explicitly has a 10 November receiving time. E is under 10 November. E received time 7.21pm precedes C 7.26pm; no actual relay ordering is inferred."
+  },
+  "source_images": [
+    {
+      "path": "sources/p171_C.png",
+      "pdf_page_1based": 174,
+      "crop_rectangle_pdf_points": [
+        70,
+        668,
+        552,
+        775
+      ],
+      "render_scale": 3,
+      "sha256": "cc0b35c85c6603db193a68c4a81f74e6d090ea8a39ff6ea51b3462f7477664ae"
+    },
+    {
+      "path": "sources/p172_E.png",
+      "pdf_page_1based": 175,
+      "crop_rectangle_pdf_points": [
+        85,
+        625,
+        555,
+        737
+      ],
+      "render_scale": 3.4,
+      "sha256": "9fb97ddf157f699b14cdba516b30ea8a4752a87c0e95ae5921f32be3e7409f96"
+    }
+  ],
+  "key": {
+    "id": "Nov10-12",
+    "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+    "column_rank_order": [
+      9,
+      12,
+      7,
+      11,
+      3,
+      8,
+      16,
+      6,
+      14,
+      2,
+      10,
+      15,
+      5,
+      13,
+      1,
+      4
+    ]
+  },
+  "records": [
+    {
+      "id": "p171_C",
+      "printed_page": 171,
+      "pdf_page_1based": 174,
+      "source_section": "C",
+      "header_literal": "C) --- v SY (7.26 p.m., November 10th); 1800; RICHI-252",
+      "source_rows": [
+        "DGAAV FADFD ADVGA DVFFX XXFGA FFFVG FAVGD AVDFD",
+        "GFAVF GXGVV VXFXX GGGDX VFDAA DVAFD ADAGD GDVDX",
+        "AXFDX DXAXX XVXFA ADFVV DADAD VGGVV XXDVX XXXDX",
+        "GXFXD VAVVV X--GV ADV-A DDDDG G-DFV FGAVD AGVDF",
+        "GVFXX GXXFF AXXFV GXFDV DDXXG AFVAX DVDDD VDVDD",
+        "AFVVG AFVGV DADAA VFDGA XXDVX VGFXF VFGAF XGGGV",
+        "FADVX VDVDV GV"
+      ],
+      "literal_source_slots": 252,
+      "modeled_missing_leading_coordinates": 0,
+      "modeled_total_coordinates": 252,
+      "expected_raw_under_model": "HPTMDNNSTAEDTNAMQRXXBITTESICHMITHPTVXXWEGHERE?AB?ENINSP1?NVERBINDUNGSETZENDE4BIS11VORMAUSFUEHRLICHENBQFE?LBEKOMMTXXMJRKROEGERX",
+      "editorial_template": "HPTMANNSTAEDTNAMURXXBITTESICHMITHPTVXXWEIHERETAPPENINSP1INVERBINDUNGSETZENDERBIS11VORMAUSFUEHRLICHENBEFEHLBEKOMMTXXMJRKROEGERX"
+    },
+    {
+      "id": "p172_E",
+      "printed_page": 172,
+      "pdf_page_1based": 175,
+      "source_section": "E",
+      "header_literal": "E) SY v MAX (7.21 p.m., November 10th); RICHI----; (J'md) before the first received group",
+      "source_rows": [
+        "ADVGA DVFFX XXFGF FFFVG FAVGD AVDFD GFAVF",
+        "GXGVV VXVXX GGGDX VFDAA DVAFD ADAGD GDVDX AXFDX",
+        "DXAXX XVXFA ADFVV XADAD VGGVV XXDVX XXXDX GXFXD",
+        "VAAVV DFDGV ADVVA DDDDG GADFV FGAVD AGVDF GVFXX",
+        "GXXFF AXXFX GXFDV DDXXG AFFAX DVDDD VDVDD AFVVA",
+        "AFVGV DADAA VFDGA XXDGX VGFXF VFXAF XGGGV FADVX",
+        "VDVDV FV"
+      ],
+      "literal_source_slots": 242,
+      "modeled_missing_leading_coordinates": 10,
+      "modeled_total_coordinates": 252,
+      "expected_raw_under_model": "HPTMANN?1AEDTNA?URXXBIT?ESICHJI?HPTVXXW?IHERETA?PENINSP?I?VERBI?DUNGSET?ENDERBI?11VORMAUSFUEHRLICHENBEFEHLBEKOMMRXXPJRKROEGERX",
+      "editorial_template": "HPTMANNSTAEDTNAMURXXBITTESICHMITHPTVXXWEIHERETAPPENINSP1INVERBINDUNGSETZENDERBIS11VORMAUSFUEHRLICHENBEFEHLBEKOMMTXXMJRKROEGERX"
+    }
+  ],
+  "alignment_model": {
+    "kind": "same 252-coordinate message under the unchanged Nov10-12 key; p172 E lacks its first ten coordinates",
+    "e_source_offset_in_c": 10,
+    "minimum_known_coordinate_overlap_for_finite_alignment_comparison": 200,
+    "coordinate_comparison_not_language_score": true,
+    "limits": "The ten-coordinate leading loss is a same-message model supported by long ciphertext agreement and the source jammed marker; E has no legible advertised total. Other unknown original lengths are not globally excluded."
+  },
+  "shared_editorial_plaintext": "HPTMANNSTAEDTNAMURXXBITTESICHMITHPTVXXWEIHERETAPPENINSP1INVERBINDUNGSETZENDERBIS11VORMAUSFUEHRLICHENBEFEHLBEKOMMTXXMJRKROEGERX",
+  "preserved_anomalies": [
+    "INSP1IN",
+    "HPTVXX"
+  ],
+  "prior_credit": {
+    "published_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker.",
+    "earlier_body_candidate": "p171 C was already visible in an unreviewed OCR-derived candidate. The p172 E earlier 235-slot stream produced no such coherent Nov10 reading.",
+    "prior_candidates_sha256": "d7488b1d1a90d1c7f3657070b5086da26e1c7d8ee89d9427c98f194186b6a69d",
+    "new_contribution": "Source-exact retranscription of both physical witnesses, quantified alignment, source-supported reconciliation and repair-minimum certificate. All reconstructed coordinates are observed in at least one witness.",
+    "bounded_prior_body_check": "The cached complete 2017 discussion did not identify these C/E bodies. Lasry et al. section 6.4 discusses a separate p172 C/p175 A family mentioning von Weiher, which retains its prior body attribution. That contextual name is not claimed as a new individual identification here. No universal decipherment priority claim is made.",
+    "author_paper_url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf"
+  }
+}

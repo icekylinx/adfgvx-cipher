@@ -4,7 +4,7 @@
 
 Follow requests for funds, currency exchange and purchasing decisions. Individual editions keep raw amount labels and proposed numerical interpretations separate.
 
-**25 reviewed physical records across 7 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**28 reviewed physical records across 9 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -13,8 +13,10 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [DEUTZITAG: requesting details of purchase dispatches](deutzitag_dispatch_inquiries.md) | p80 A, p81 A, p81 C |
 | [ZITAG stop-orders and cancellation of procurement contracts](zitag_purchase_orders.md) | p102 A, p103 B1, p103 B2, p103 D, p106 B |
 | [Meal allowances, communal provisioning and a refused supplement](military_allowances.md) | p129 B1, p133 A2, p133 A3, p134 A4 |
+| [Ruble prices and payments above par: companions to p171 A1](ruble_rate_companions.md) | p171 A2, p171 A3 |
 | [Crown airlift to Kronstadt and Hermannstadt](crown_airlift.md) | p174 A1, p174 A2, p174 A3 |
 | [A request for thirty million kroner](p205_A.md) | p205 A1, p205 A2, p205 A3, p205 A4 |
+| [Oil cartel at Tiflis: details of shipments from Poti](oil_cartel_dispatch_query.md) | p212 A3 |
 | [Crown-cash requests for Arad and a report of banknote shortage](crown_cash_requests.md) | p219 A1, p219 A2, p219 B |
 | [Redemption of stamped and unstamped lei notes](lei_note_exchange.md) | p223 A1, p223 A2, p223 A3 |
 
@@ -34,6 +36,8 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [p133 A2](military_allowances.md#p133-a2) | Reduce cash allowances and use field-ration costs | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
 | [p133 A3](military_allowances.md#p133-a3) | Promote communal purchasing and German dining facilities | Direct complete243-letter reading; unchanged source ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
 | [p134 A4](military_allowances.md#p134-a4) | Requested cost-of-living supplement refused | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
+| [p171 A2](ruble_rate_companions.md) | Reported ruble prices in Kiev and Warsaw; companion to Norbert's A1 | Conditional 252-coordinate frame from 261 literal slots: two five-slot exclusions, one added unknown; six substitutions and four fills; two tied local gap placements | icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved |
+| [p171 A3](ruble_rate_companions.md) | Waller recommends paying above par for Bons if necessary | Exact 152 source slots; 74/76 raw to 76/76 with two printed-erasure fills; no observed-coordinate change; duplicated PARI retained | icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved |
 | [p174 A1](crown_airlift.md#p174-a1) | Urgent daily crown airlift request | Direct reading; every observed coordinate retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
 | [p174 A2](crown_airlift.md#p174-a2) | One million crowns alternately to Kronstadt and Hermannstadt | Source-checked reading with one coordinate substitution and one printed-glyph fill | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
 | [p174 A3](crown_airlift.md#p174-a3) | Small-denomination banknotes in an interrupted airlift request | Explicit missing-tail model; 12 ordinary-word fills; three tied one-gap frames retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
@@ -41,6 +45,7 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [p205 A2](p205_A.md) | Vienna bank transfer to Kronstadt for German administration | 152/152 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p205 A3](p205_A.md) | Initial five million in mixed denominations; confirm sufficiency | 117/117 raw positions; unchanged source | icekylinx and GPT-6 Astra Pro (2026) |
 | [p205 A4](p205_A.md) | Further requests to the General War Treasury; reference digits | 94/99 raw positions; reference digits unresolved | icekylinx and GPT-6 Astra Pro (2026) |
+| [p212 A3](oil_cartel_dispatch_query.md#p212-a3) | Oil cartel query about consignments shipped from Poti | Five ordinary-word coordinate repairs; association with medical report unasserted | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p219 A1](crown_cash_requests.md) | Crown funds for Arad following agreement with the German military mission at Budapest | 167/167 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
 | [p219 A2](crown_cash_requests.md) | Inquiry whether an advance can be drawn from the field war cash office | 115/115 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
 | [p219 B](crown_cash_requests.md) | Crown remittances partly sent; severe banknote shortage reported | 177/177 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |

@@ -9,17 +9,17 @@ claimed by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 264 other physical source records**, with all
-22 challenge entries preserved. It adds **69 physical records across 15 source
-packages** and keeps every earlier record. The separate November25
-interpretation audit adds no physical record.
+This snapshot compares **195 → 278 other physical source records**, with all
+22 challenge entries preserved. It adds **83 physical records across 20 source
+packages** and keeps every earlier record. The separate interpretation and
+open-target method audits add no physical records.
 
-The new source packages account for **16,586 printed coordinate slots** and
-**8,313 modeled plaintext positions**, of which **8,114 have fixed raw labels**
+The new source packages account for **19,886 printed coordinate slots** and
+**9,966 modeled plaintext positions**, of which **9,730 have fixed raw labels**
 under their stated frames. These are coverage counts. They include repeated
 copies, previously identified bodies, conditional geometry and unresolved
 historical numeral meanings; they are not a count of first decipherments or
-universally correct original letters. All 112 observed-coordinate substitutions
+universally correct original letters. All 163 observed-coordinate substitutions
 are recorded locally, separately from source erasures and inserted values.
 
 ## Source packages
@@ -41,15 +41,29 @@ are recorded locally, separately from source erasures and inserted values.
 | [DEUTZITAG dispatch inquiries and an adjacent Tiflis order](../deutzitag_dispatch_inquiries/README.md) | 4 | 1018 | 509 | 509 | 1 |
 | [Constanza naval-radio and telephone connections](../constanza_radio_connections/README.md) | 6 | 1308 | 654 | 654 | 5 |
 | [Mackensen armistice appeal: six-part source edition](../mackensen_armistice_appeal/README.md) | 6 | 1352 | 681 | 667 | 24 |
+| [Berlin newspapers via Orsova](../newspaper_dispatch/README.md) | 2 | 386 | 193 | 190 | 6 |
+| [Companions to Norbert's p171 A1 ruble-rate reading](../ruble_rate_companions/README.md) | 2 | 413 | 202 | 196 | 6 |
+| [Reconciling the Namur personnel-order witnesses](../namur_order_witnesses/README.md) | 2 | 494 | 252 | 237 | 11 |
+| [Medical arrangements for transports returning from Turkey](../medical_return_transports/README.md) | 5 | 1437 | 721 | 712 | 24 |
+| [Reval: steamers for troops, provisions and raw materials](../reval_steamer_notice/README.md) | 3 | 570 | 285 | 281 | 4 |
 
 The [complete inventory](inventory.json) preserves every added identifier,
 package summary, case path and counting limit. The [inputs](inputs.json)
-pin both catalogues and 187 package/case artifacts. Earlier statuses, subjects
+pin both catalogues and 325 package/case artifacts. Earlier statuses, subjects
 and credits are unchanged; 164 old path fields follow the explicit topic-migration map.
+
+## Additional interpretation and method audits
+
+- [One conditional letter constraint for the Nov25–28 square](../nov25_letter_constraint/README.md)
+- [Coordinate loss before transposition: source diagnostic and p198](../p198_pretransposition_loss/README.md)
+
+These packages retain their own calibration limits and conditional assumptions.
+A source-compatible witness or an exact language optimum does not by itself
+establish a historical plaintext or new key.
 
 ## Independent source-image binding
 
-All **84 delivered source images** have normalized PDF-page, rectangle, scale,
+All **103 delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph
@@ -72,9 +86,7 @@ beside their packages and run in CI.
 The review uses preserved start/end catalogues, so a later live catalogue
 can grow without rewriting its historical count. The earlier
 [87-to-195 review](../session_review/README.md) remains separate and unchanged.
-When this work period is complete, its authoritative completion timestamp
-will be recorded and the verifier will require at least 7,200 seconds after
-the confirmed initial push.
+The completion timestamp, once recorded, must satisfy the two-hour minimum.
 
 For readable messages, use the [case guide](../../cases/README.md); for the
 reorganized layout, use the [repository map](../../docs/repository-map.md).

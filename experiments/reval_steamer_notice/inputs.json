@@ -1,0 +1,338 @@
+{
+  "schema": "adfgvx-reval-steamer-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov22-24",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      16,
+      7,
+      14,
+      22,
+      11,
+      18,
+      1,
+      15,
+      8,
+      10,
+      20,
+      2,
+      13,
+      21,
+      3,
+      17,
+      19,
+      5,
+      9,
+      4
+    ],
+    "column_count": 22,
+    "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "square_rows": [
+      "QNZ72X",
+      "S4C0IJ",
+      "Y3RBEK",
+      "L9FD6G",
+      "MTHUVW",
+      "A5O8P1"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p213_A1",
+      "path": "sources/p213_A1.png",
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "crop_pdf_points": [
+        50,
+        388,
+        520,
+        501
+      ],
+      "render_scale": 4,
+      "sha256": "361d9e63f126cb8b1c1083bc91a7705fe755f635db32f3fba1b88e2c15ceaad3"
+    },
+    {
+      "id": "p213_A2",
+      "path": "sources/p213_A2.png",
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "crop_pdf_points": [
+        65,
+        512,
+        520,
+        608
+      ],
+      "render_scale": 4,
+      "sha256": "2d3f20ef554cc5395f55597aff59184d1160d006a3a53226065f24fb9f26b790"
+    },
+    {
+      "id": "p213_A3",
+      "path": "sources/p213_A3.png",
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "crop_pdf_points": [
+        65,
+        599,
+        520,
+        715
+      ],
+      "render_scale": 4,
+      "sha256": "eb0d548a178749a7937be6a4cc9545ffe30dfb39a8d6c361f6374a67e7b3776c"
+    },
+    {
+      "id": "p213_A1_g13",
+      "path": "sources/p213_A1_g13.png",
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "crop_pdf_points": [
+        306,
+        448,
+        355,
+        465
+      ],
+      "render_scale": 10,
+      "sha256": "4dc5b31ff4d66d805a647e8e5bf592429ab928adad843323a89cf8ec4193c7d9"
+    }
+  ],
+  "records": [
+    {
+      "id": "p213_A1",
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "source_section": "A1",
+      "message_part": 1,
+      "message_total_parts": 3,
+      "source_image_id": "p213_A1",
+      "key_id": "Nov22-24",
+      "page_heading": "23rd NOVEMBER, 1918.",
+      "receipt_header": "KOW v LP (06.20 p.m., November 23rd)",
+      "origin_header": "FUER RVA 20.00 (23/11) 3 TLE",
+      "source_rows": [
+        "AAVXF XDXFV VFVVV ADAXX FFFAF ADXVF FGVXV VAVDF",
+        "DDDDV FFVVV AXFAA VVGVV GDDVF GFVVV XAVAF AGVVA",
+        "FDFGV AGVAX VXFFG VFVXF FGAXG DFADD VAGGX XVXGV",
+        "DFDFX AXAXD XAFFA XVXDF FFGAX DAFVV VDVDA AVFGD",
+        "FGXFG VAFAV AAFFF FXXDV VXVDG FVAAF AFAVV FVFXD"
+      ],
+      "source_slots": 200,
+      "advertised_length": 200,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "RPHAXREVALXBISENDENOVEMBERWERDENZWEIDAMPFERFUERTRUPPENUNDPROVIANTVONZUSAMMENXY5111XTONNENINREVALSEIN",
+      "readable_candidate": "RPHAXREVALXBISENDENOVEMBERWERDENZWEIDAMPFERFUERTRUPPENUNDPROVIANTVONZUSAMMENXY5111XTONNENINREVALSEIN",
+      "notes": [
+        "The source group 13 has an overprinted third glyph, read primarily as D in GDDVF. A V alternative is preserved separately and changes only raw 5 to raw P in the amount. Neither reading is a recovered historical tonnage.",
+        "RPHAX and the full raw amount Y5111 are not normalized."
+      ]
+    },
+    {
+      "id": "p213_A2",
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "source_section": "A2",
+      "message_part": 2,
+      "message_total_parts": 3,
+      "source_image_id": "p213_A2",
+      "key_id": "Nov22-24",
+      "page_heading": "23rd NOVEMBER, 1918.",
+      "receipt_header": "KOW v LP (06.20 p.m., November 23rd)",
+      "origin_header": "FUER RVA 20.00 (23/11) 3 TLE",
+      "source_rows": [
+        "FXVVF VAXAA VXVFA XVXDX FAVGF AAFDA FADVF GFDAV",
+        "FVDFX AVXGF AGFGG DVXVF AFXXV AFGGX VFVFV AGFXA",
+        "FXFDF AFFDV VFGVG DDVXF VFAXA GFDXF ADDVV FGFXV",
+        "FGDFG VXFFV FXVFD DFDDF DXFGD XDVAG VGAGD DXVXD",
+        "GDFAA FGVAF DAXFF DVGAX FCFGX ADGAD DFFGV DVGVV",
+        "XFVVG DVF"
+      ],
+      "source_slots": 208,
+      "advertised_length": 208,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "WEITERETANNAGEFOL?TBALDIGSTFERNERROHSTOFFTRANSPHRTABGINGHE8TEXPETERXBENVITXFOLGTMORGENXB9VERNUNDBAC4LONX",
+      "readable_candidate": "WEITERETONNAGEFOLGTBALDIGSTFERNERROHSTOFFTRANSPORTABGINGHEUTEXPETERXBENVITXFOLGTMORGENXB9VERNUNDBAC4LONX",
+      "notes": [
+        "Three observed-coordinate substitutions repair TANNAGE, TRANSPHRT and HE8TE; the printed C at source 181 is filled G for FOLGT.",
+        "PETERXBENVIT, B9VERN and BAC4LON remain exactly as received. No named vessel is identified or normalized to fit a key hypothesis."
+      ]
+    },
+    {
+      "id": "p213_A3",
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "source_section": "A3",
+      "message_part": 3,
+      "message_total_parts": 3,
+      "source_image_id": "p213_A3",
+      "key_id": "Nov22-24",
+      "page_heading": "23rd NOVEMBER, 1918.",
+      "receipt_header": "KOW v LP (06.20 p.m., November 23rd)",
+      "origin_header": "FUER RVA 20.00 (23/11) 3 TLE",
+      "source_rows": [
+        "FXFXX GFFAX AAVXV ADXAA AFFFX FAAVX FAXFX GGXGA",
+        "DGAGA VDXVA FVGAV GFFFF FAFFX GADFA VAFVV FADAA",
+        "FGAXX VADVF FVGAF FDGAV GXVVA VFAGA VVFVF FFDXD",
+        "AAXDD FDDFX AXXDF XG--- DGGXG XAFVV VXXAV VFXAF",
+        "XF"
+      ],
+      "source_slots": 162,
+      "advertised_length": 162,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "FUEREUCHWIRDMITALLENKRAEFTENGESORGTXROHAVALXXKMXALLGX?RIEFSDEPXN?YLY1XYYXYN?ANCHX",
+      "readable_candidate": "FUEREUCHWIRDMITALLENKRAEFTENGESORGTXROHAVALXXKMXALLGXKRIEGSDEPXN?YLY1XYYXYN?ANCHX",
+      "notes": [
+        "The three printed dashes at source 137–139 are retained in the literal source. Only source 137 is filled F for the first letter of KRIEGSDEP; source 159 F→X repairs the following ordinary-letter defect.",
+        "The other two dash positions and the complete reference pattern remain unresolved. ROHAVAL is retained without a code-word expansion."
+      ]
+    }
+  ],
+  "visual_alternative": {
+    "record": "p213_A1",
+    "source_index": 62,
+    "primary": "D",
+    "alternative": "V",
+    "source_group": 13,
+    "crop_id": "p213_A1_g13",
+    "reason": "Overprinted glyph; D is the primary visual reading, V is retained as an alternative. Neither assigns an actual tonnage."
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "No explicit Reval/ROHAVAL/steamer-tonnage body was located in the bounded text check. This absence is not a proof of historical priority."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "No explicit Reval/ROHAVAL/steamer-tonnage body was located in the bounded text check. This absence is not a proof of historical priority."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit REVAL, BENOIT, BAYERN, BARCELONA, ROHAVAL or TONNAGE body was found in the cached 55-comment snapshot."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p213_ocr_block4",
+        "p213_ocr_block5",
+        "p213_ocr_block6",
+        "p213_ocr_block7",
+        "p213_ocr_block8",
+        "p213_ocr_block9"
+      ],
+      "frozen_prior_candidate_records": [
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p213_ocr_block5",
+          "key": "Nov22-24",
+          "score": -8.920466806981471,
+          "plaintext": "2UQD05IZZ259VP6SRVPUE3HSVAJYVSTKETUOO49AAFYFZIIMMTWZUE7KQRPRECYWAOSXKLEMLRFO6KV3",
+          "ciphertext_length": 160
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p213_ocr_block4+p213_ocr_block5",
+          "key": "Nov22-24",
+          "score": -4.7079201334530545,
+          "plaintext": "RPHAXREVALXBISENDENOVEMBERWERDENZWEIDAMPFERFUERTRUPPENUNDPROVIANTVONZUSAMMENXY5111XTONNENINREVALSEIN",
+          "ciphertext_length": 200
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p213_ocr_block4+p213_ocr_block5+p213_ocr_block6",
+          "key": "Nov22-24",
+          "score": -9.300986165674324,
+          "plaintext": "2BYC26O5RTWTFFINW2XZE2HVQMMH2RKOP925QAZVYXCMHEIFEBA24EPWXZLOST8PP3LMBO0KYHVVRJ2HA5DXAKM9SQTVRT1SEKTWRMPUZHR9H33YIFWLO3UQ",
+          "ciphertext_length": 240
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p213_ocr_block5+p213_ocr_block6+p213_ocr_block7",
+          "key": "Nov22-24",
+          "score": -9.358469154875158,
+          "plaintext": "0RO7IHURKOERFHPSYPTZYKAHBX0FIIL9RQD2ZCSDBT4OOS3HWE4ATP8NJPPY63X2SIAT8HRO2HEUHCAVKWEZ?C7VAR22HFBFBG1NVKOTWFBFWHEEFTZNVXW6CR265AR2L2XD75PCRXE3FDYO2U5ZVJDUIWT933N2QLN47AYVZVZP4OONISRTVEYT",
+          "ciphertext_length": 368
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p213_ocr_block6+p213_ocr_block7",
+          "key": "Nov22-24",
+          "score": -5.316979300115526,
+          "plaintext": "WEITERETANNAGEFOL?TBALDIGSTFERNERROHSTOFFTRANSPHRTABGINGHE8TEXPETERXBENVITXFOLGTMORGENXB9VERNUNDBAC4LONX",
+          "ciphertext_length": 208
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p213_ocr_block6+p213_ocr_block7+p213_ocr_block8",
+          "key": "Nov22-24",
+          "score": -9.207133155685288,
+          "plaintext": "00V03ZKKH?VV7XV8YESD?R11FTT1ZSKIDHEMEHYAYQWHRRGDY0XCNB92IZEMR2OBRSRHGPZNWRSAI160W8K5GNBHPQ0R2RWC3OPH816QSZAZ83NRUIHTSSCDH3?AB",
+          "ciphertext_length": 250
+        }
+      ],
+      "interpretation": "Parts 1/2 were already recognizable in unreviewed repository screens. This source edition adds literal readings, exact repairs, the final source-aligned paragraph and explicit uncertainty; it is not first historical decipherment."
+    }
+  }
+}

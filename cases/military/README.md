@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**89 reviewed physical records across 25 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**93 reviewed physical records across 26 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -28,6 +28,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p201 B / p206 A — reporting orders linked by a shared reference](p201_p206_orders.md) | p201 B1, p201 B2, p206 A1, p206 A2, p206 A3 |
 | [Military-intendant addresses and responsibilities](military_intendant_remit.md) | p202 B1, p202 B2, p202 B3, p202 B4 |
 | [p210 D — request for the situation in Reval](p210_D.md) | p210 D |
+| [Heated sick wagons, cooking equipment and hot tea](medical_return_transports.md) | p212 A1, p212 A5, p213 A6, p213 A7 |
 | [p217 A — Coal shortages, disarmament and transport through Czechoslovakia](p217_A.md) | p217 A1, p217 A2, p217 A3, p217 A4, p217 A5 |
 | [Mackensen's appeal over disarmament and internment](mackensen_armistice_appeal.md) | p220 C1, p220 C2, p220 C3, p220 C4, p221 A5, p221 A6 |
 | [Reports requested from General von Liman](liman_troop_reports.md) | p222 A1, p222 A2 |
@@ -100,6 +101,10 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p206 A2](p201_p206_orders.md) | References to disarmament, armistice and position-report orders | 179/200 raw positions; shared reference/date conditionally implies VA=5 | icekylinx and GPT-6 Astra Pro (2026) |
 | [p206 A3](p201_p206_orders.md) | Report division locations and acknowledge the present order | 115/124 raw positions; duplicated wording and unknown serial retained | icekylinx and GPT-6 Astra Pro (2026) |
 | [p210 D](p210_D.md) | Request for a report on the situation in Reval | 58/58 raw positions; one explicit word repair | icekylinx and GPT-6 Astra Pro (2026) |
+| [p212 A1](medical_return_transports.md#p212-a1) | Conditional introduction to medical advice for transports from Turkey | Conditional first-part reading; four tied missing-group placements explicitly retained | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p212 A5](medical_return_transports.md#p212-a5) | Heated sick wagon, cooking equipment and hot tea | Five coordinate repairs and one printed-glyph fill; instruction label unchanged | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p213 A6](medical_return_transports.md#p213-a6) | Water points, forwarding and medical-department request | Five word repairs; 5T bridge and position before DEPARTEMENT unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p213 A7](medical_return_transports.md#p213-a7) | Arrange transport care from Constantinople; raw reference retained | One printed-glyph fill; raw NIKOLA9EW and footer untouched | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p214 B](mackensen_warsaw.md) | Forwarded quotation of the Warsaw query | 85/92 direct quote positions match p181 under a different key | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p217 A1](p217_A.md) | Scholtz divisions march into the assembly area | 114/114 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |
 | [p217 A2](p217_A.md) | Coal shortages stop transport; troop locations near Oroshaza | 120/120 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |

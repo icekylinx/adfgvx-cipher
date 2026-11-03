@@ -1,0 +1,538 @@
+{
+  "schema": "adfgvx-medical-return-transports-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov22-24",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      16,
+      7,
+      14,
+      22,
+      11,
+      18,
+      1,
+      15,
+      8,
+      10,
+      20,
+      2,
+      13,
+      21,
+      3,
+      17,
+      19,
+      5,
+      9,
+      4
+    ],
+    "column_count": 22,
+    "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "square_rows": [
+      "QNZ72X",
+      "S4C0IJ",
+      "Y3RBEK",
+      "L9FD6G",
+      "MTHUVW",
+      "A5O8P1"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p212_heading",
+      "path": "sources/p212_heading.png",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "crop_pdf_points": [
+        225,
+        161,
+        380,
+        181
+      ],
+      "render_scale": 4,
+      "sha256": "228eee49ac269f9590e73d50c4c2daf8aaee9a5629bf91084d54b0ca2fc083c7"
+    },
+    {
+      "id": "p213_heading",
+      "path": "sources/p213_heading.png",
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "crop_pdf_points": [
+        210,
+        150,
+        355,
+        170
+      ],
+      "render_scale": 4,
+      "sha256": "eaf65888206c458d723892decfb6291a986ee3e351f99ed858811112f409585b"
+    },
+    {
+      "id": "p212_A1",
+      "path": "sources/p212_A1.png",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "crop_pdf_points": [
+        65,
+        194,
+        520,
+        334
+      ],
+      "render_scale": 4,
+      "sha256": "4d2546c2957db63284e0d6fb61ed8171c6dd9d28093a8b7c67c8ec611cf8775f"
+    },
+    {
+      "id": "p212_A2",
+      "path": "sources/p212_A2.png",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "crop_pdf_points": [
+        85,
+        348,
+        520,
+        405
+      ],
+      "render_scale": 4,
+      "sha256": "d07841fa069a2d26e5141ade683e4c3ec44fbd87ea730eb94546cf18b9433698"
+    },
+    {
+      "id": "p212_A3",
+      "path": "sources/p212_A3.png",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "crop_pdf_points": [
+        85,
+        415,
+        520,
+        489
+      ],
+      "render_scale": 4,
+      "sha256": "e1038fa362f88331832f86c68a9dcc2d7af7f880a666c43f9fa5e753601ca1ea"
+    },
+    {
+      "id": "p212_A4",
+      "path": "sources/p212_A4.png",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "crop_pdf_points": [
+        85,
+        500,
+        520,
+        577
+      ],
+      "render_scale": 4,
+      "sha256": "2ec11095a88c6b65b5907d32a91bb595db6e6793fa94528456891ab518a468e2"
+    },
+    {
+      "id": "p212_A5",
+      "path": "sources/p212_A5.png",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "crop_pdf_points": [
+        85,
+        588,
+        520,
+        686
+      ],
+      "render_scale": 4,
+      "sha256": "68e54291ab1a108a5e36a5b9df38c4c971a2827419074b913b99f8efa9a37e05"
+    },
+    {
+      "id": "p213_A6",
+      "path": "sources/p213_A6.png",
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "crop_pdf_points": [
+        65,
+        183,
+        520,
+        276
+      ],
+      "render_scale": 4,
+      "sha256": "0b4db5523a1ddc5067041c9bfd1648b669a92cfc56e3ce6ba2b8168b645ad0a1"
+    },
+    {
+      "id": "p213_A7",
+      "path": "sources/p213_A7.png",
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "crop_pdf_points": [
+        65,
+        291,
+        520,
+        388
+      ],
+      "render_scale": 4,
+      "sha256": "ba62e3db8070340f8c2102e64eb5fb0176466ea9becdc56ee923c050488c5eae"
+    }
+  ],
+  "records": [
+    {
+      "id": "p212_A1",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "source_section": "A1",
+      "printed_part_number": 1,
+      "source_image_id": "p212_A1",
+      "key_id": "Nov22-24",
+      "page_heading": "22nd NOVEMBER, 1918.",
+      "source_group_header": "XYZ v LP (03.54 p.m., November 22nd); ----- 7 TLE",
+      "source_rows": [
+        "VAVXX DFFFF FFXDG FAFDA AFAAX VVXVG DXVFX FXXGG",
+        "VXVAA DXFDA DFAAG VAFDG XAAFV FFDFV VADDD FDGFD",
+        "AFVVG VFGVG FFXGA DXVVA VADVA DFDDF DDAAF FAGFA",
+        "VAGVG AGVFX VVVGD VVVGA AAADD FVDGV XFDAV VVGGV",
+        "VGFFF AVFFA XGAGX DFDDX VVVDA XXAVX AXFDX XFFFD",
+        "XDDGX ADFVV FFFFA FDAFV VVVFV GAVGV VVVAF DDFDA",
+        "FAXFV XDXYF FAFGG FFDDF AFADD AAGGF GXFVV DDXXF",
+        "AGVXF VGVAV VAGXA DXADX GDDFV VVAVD FADFA DFXFA",
+        "FFFVV AAVAF DFVXG GXVF"
+      ],
+      "source_slots": 339,
+      "advertised_length": 344,
+      "notes": [
+        "The source advertises 344 but prints 339 coordinates, including the invalid printed Y at source 248.",
+        "A proposed 172-character reading is conditional on a single five-coordinate gap and nine observed-coordinate substitutions. All four equal-cost minimum gap positions 104/105/107/108 are retained; no unique reconstruction is claimed.",
+        "The received abbreviation BEIMOSANOFFMILMISZ is not expanded or identified as a surname. NIKOLA9EW retains the raw 9 label."
+      ],
+      "model": {
+        "kind": "one_missing_group",
+        "missing_coordinates": 5,
+        "primary_gap_before_source_index": 105,
+        "all_tied_minimum_gaps": [
+          104,
+          105,
+          107,
+          108
+        ],
+        "primary_selection": "105 is the only tied minimum at a five-coordinate source-group boundary. All four unrestricted tied placements remain admissible."
+      },
+      "expected_raw": "FUERM?LITAHRMISZIONKONSTANTENO?ELXXSTA0SARZTBEIMOSANOFFMILMIYZHATQUSODESSAFOLGENDESANDEUTSCHENGOUVERNEURNIKOLA9EWGERICHTHTQURBEKANNTG?BEANVONTUE?KEIDURCHGE?ENDETRANSP?RTEXX",
+      "readable_candidate": "FUERMILITAERMISZIONKONSTANTINOPELXXSTABSARZTBEIMOSANOFFMILMISZHATAUSODESSAFOLGENDESANDEUTSCHENGOUVERNEURNIKOLA9EWGERICHTETZURBEKANNTGABEANVONTUERKEIDURCHGEHENDETRANSPORTEXX"
+    },
+    {
+      "id": "p212_A3",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "source_section": "A3",
+      "printed_part_number": null,
+      "source_image_id": "p212_A3",
+      "key_id": "Nov22-24",
+      "page_heading": "22nd NOVEMBER, 1918.",
+      "source_group_header": "XYZ v LP (03.54 p.m., November 22nd); ----- 7 TLE",
+      "source_rows": [
+        "XDFXG GVFFA DDFVV FAVAV GVFVD VFAFV VDXAA FVFAA",
+        "AADFV AVVDX XDFXD DVXVD VVFVD FDFFV DFFAX VFDAA",
+        "GGVFV GVDXX DXFXA FFFDD AGFDG VXFGD FAFVF AFVFA",
+        "DVGFV VADFF XGVGG AAFVG VVGAA FFGAG VFXFG AAVVD",
+        "FDAGA AVXAA FDVDX VGXAV FVVXG VVXFD FXAFV AVDFV",
+        "DVXFV GDDAV VFGGA AXDVX FDVG"
+      ],
+      "source_slots": 224,
+      "advertised_length": 224,
+      "notes": [
+        "The source labels this block RICHI 224 but prints no visible 3 TL label. The id A3 is a positional catalog label, not a claim that the oil query is part of the medical report.",
+        "Five observed-coordinate substitutions produce TIFLIS, NUMMER, WELCHE and SCHIFF. The raw reference label 2 stays unchanged.",
+        "The oil-cartel query is kept separate from the medical reading despite its position between numbered parts 2 and 4."
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "OELKARTELLVIFLISXNUMM3R2XDRAHTETWANNWOHINWOLCHEADRESSEMITWELCHEMSCHCFFUNSEREPARTIENVONPOTIVERLADENSINDXXDEUTKAUF",
+      "readable_candidate": "OELKARTELLTIFLISXNUMMER2XDRAHTETWANNWOHINWELCHEADRESSEMITWELCHEMSCHIFFUNSEREPARTIENVONPOTIVERLADENSINDXXDEUTKAUF"
+    },
+    {
+      "id": "p212_A5",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "source_section": "A5",
+      "printed_part_number": 5,
+      "source_image_id": "p212_A5",
+      "key_id": "Nov22-24",
+      "page_heading": "22nd NOVEMBER, 1918.",
+      "source_group_header": "XYZ v LP (03.54 p.m., November 22nd); ----- 7 TLE",
+      "source_rows": [
+        "AFDFD FFFVG FVDVV VFFGV FVGDX DXFXA FVAFA FFVFV",
+        "VVXFV AGGFA VDXXD VGXAD VFFFA AFAVF DGVFG VDFFV",
+        "XVADG AFDVD FFDGF AVXFD DGVFF ADFVV GXXAA VXFAF",
+        "DAAFV AFFVF FGGVF VVFAV VDDVV FGVFX FAVVV XVFDF",
+        "AFFAA AVFVA AXVAF FXFDF VFVVV VFGVD VDAFG DAFXV",
+        "GXFVF VADVG DFXFV GVVVV FFGDV AAVDF ACFAF GGXAV",
+        "VDFVF VGFVF VVGVD FXADX VVDVV FXDVV GDXFG DVFAV"
+      ],
+      "source_slots": 280,
+      "advertised_length": 280,
+      "notes": [
+        "The printed C at source 231 is an erasure in the coordinate model. It is filled G in the ordinary-word candidate.",
+        "Five other observed-coordinate substitutions repair ordinary words. The received instruction marker 2 is retained as a label, not reinterpreted as an independently established numeral."
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "EINENMITOEFENVERSEHENVNREVIEVWA?ENFUERKRANKEEINRICHTENX2XXFELDKUECHEODEREINDEBAUTENHERGMITNEHMENXAUFDEMDAUERNDWARMERTEEVORRAETIGZUHALTENISTX",
+      "readable_candidate": "EINENMITOEFENVERSEHENENREVIERWAGENFUERKRANKEEINRICHTENX2XXFELDKUECHEODEREINGEBAUTENHERDMITNEHMENXAUFDEMDAUERNDWARMERTEEVORRAETIGZUHALTENISTX"
+    },
+    {
+      "id": "p213_A6",
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "source_section": "A6",
+      "printed_part_number": 6,
+      "source_image_id": "p213_A6",
+      "key_id": "Nov22-24",
+      "page_heading": "22nd NOVEMBER, 1918.",
+      "source_group_header": "Continuation with parts 6 and 7 under 22nd November heading; no repeated receipt header",
+      "source_rows": [
+        "FGDVA XFAVA FFAFA ADGVX FFGFV DVFAD AVVXA FAVA-",
+        "VDFFV FDDXV VVFVV VXVDF VFVXA AVGGD VFDFV FDXFA",
+        "GAXVV VVDXD VAAVA AGADV DVFXV AFVAD VFVVA FFGVA",
+        "FFFDF FDFGX VFDXF XXFXV AVDAG GDFAG FFDFV VGFXA",
+        "FDFVF GDAFV DFGDV FVGVX DXDAA FADFF DFXXV XDGFF",
+        "AGVAA FXAVD GFGVX VDFVV ADDGF DVVXV FAADF GADDV",
+        "DDXDA FDAXF GDDVF AVDDG VFVXF FDGDV FGFVF XAGDA",
+        "AVGVF AFXXA GVAXD AVDVX DFDVV VVVFA DVVXF VDX"
+      ],
+      "source_slots": 318,
+      "advertised_length": 318,
+      "notes": [
+        "Five observed-coordinate substitutions repair clear ordinary words; the printed dash at source 39 remains unresolved.",
+        "NIKOLA9EW, the two-label bridge 5T after SPRUCH, and the unknown position before DEPARTEMENT are retained. No expansion of 5T or assignment of 9 to J is made."
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "KEINEWASSERSTELLENUNTERWEGSODEHOFTNICHTIMUETRIEBXXXGARNISONARZTNIKOLA9EWHA3GEBETENXDI2SENSPRUCH5TMILMISZWEINERZUGEBENX?DEPARTEMENTBITTETXVORSTEHENDENANREGUNGEN",
+      "readable_candidate": "KEINEWASSERSTELLENUNTERWEGSODEROFTNICHTIMBETRIEBXXXGARNISONARZTNIKOLA9EWHATGEBETENXDIESENSPRUCH5TMILMISZWEITERZUGEBENX?DEPARTEMENTBITTETXVORSTEHENDENANREGUNGEN"
+    },
+    {
+      "id": "p213_A7",
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "source_section": "A7",
+      "printed_part_number": 7,
+      "source_image_id": "p213_A7",
+      "key_id": "Nov22-24",
+      "page_heading": "22nd NOVEMBER, 1918.",
+      "source_group_header": "Continuation with parts 6 and 7 under 22nd November heading; no repeated receipt header",
+      "source_rows": [
+        "AVDFA FAXDD ADFFD FDAXG VDXAX GXFXA FDAAA XFVAA",
+        "VVVDF AXGXA DAFXG AVXGX ADDVV DAADV GDAFF FAAFF",
+        "XXDAA DDVXA AGAAG DGFDF DDXFF FADDG GAAFD DGDXD",
+        "AXXGA XVVVA VAGFV AAXAF DGFDD VFFVX AFFXD XFXVV",
+        "FAAVD AAFVX XGFVF ADVVV XVDAV VXXAD VXDVX FFVXD",
+        "AXXFV VDFAD DDAAF DDGDA DAVFX AAGAG FGCDD GVAFX",
+        "AXVXV GFVGV AVXVA AVAXG VXXFA DFVAA FAVDF X"
+      ],
+      "source_slots": 276,
+      "advertised_length": 276,
+      "notes": [
+        "Printed C at source 232 is filled G to yield WERDEN. No observed coordinate is changed.",
+        "NIKOLA9EW and the entire footer KMXAXDXNRQJ0XXYYXY5XAYY are unchanged; no date or number is guessed."
+      ],
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "SCHONMOEGLICHSTVONKONSTANTINOPELAUSZUENTSPRECHENXDAANGENOMMENWER?ENKANNXDASSNIKOLA9EWNICHTLEISTUNGSFAEHIGGENUGISTXXKMXAXDXNRQJ0XXYYXY5XAYY",
+      "readable_candidate": "SCHONMOEGLICHSTVONKONSTANTINOPELAUSZUENTSPRECHENXDAANGENOMMENWERDENKANNXDASSNIKOLA9EWNICHTLEISTUNGSFAEHIGGENUGISTXXKMXAXDXNRQJ0XXYYXY5XAYY"
+    }
+  ],
+  "assembly_limits": {
+    "nominal_source_frame": "A seven-part header on p212, numbered 1/2/4/5 there and 6/7 on p213. The intervening 224-coordinate block lacks an explicit part 3 label.",
+    "medical_records": [
+      "p212_A1",
+      "p212_A5",
+      "p213_A6",
+      "p213_A7"
+    ],
+    "separate_oil_query": "p212_A3",
+    "not_readable": [
+      "p212_A2",
+      "p212_A4"
+    ],
+    "no_missing_parts_invented": true,
+    "qualification": "Numbering and the medical theme connect the readable medical passages, but the complete seven-part message is not reconstructed. The interposed oil query is not presented as medical content."
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "No explicit hospital-wagon/hot-tea/staff-doctor medical body or this oil-cartel dispatch query was located in the bounded check. This absence is not a priority proof."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "No explicit hospital-wagon/hot-tea/staff-doctor medical body or this oil-cartel dispatch query was located in the bounded check. This absence is not a priority proof."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit GARNISONARZT, OELKARTELL or medical hot-tea/hospital-wagon body was located in the cached 55-comment snapshot."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p212_ocr_block1",
+        "p212_ocr_block2",
+        "p212_ocr_block3",
+        "p212_ocr_block4",
+        "p212_ocr_block5",
+        "p212_ocr_block6",
+        "p212_ocr_block7",
+        "p213_ocr_block1",
+        "p213_ocr_block2",
+        "p213_ocr_block3"
+      ],
+      "frozen_prior_candidate_records": [
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p212_ocr_block5",
+          "key": "Nov22-24",
+          "score": -5.1621667660704444,
+          "plaintext": "OELKARTELLVIFLISXNUMM3R2XDRAHTETWANNWOHINWOLCHEADRESSEMITWELCHEMSCHCFFUNSEREPARTIENVONPOTIVERLADENSINDXXDEUTKAUF",
+          "ciphertext_length": 224
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p212_ocr_block7",
+          "key": "Nov22-24",
+          "score": -4.483552725740181,
+          "plaintext": "EINENMITOEFENVERSEHENVNREVI?VWA?ENFUERKRANKEEINRICHTENX2XXFELDKUECHEODEREINDEBAUTENHERGMITNEHMENXAUFDEMDAUERNDWARMERTEEVORRAETIGZUHALTENISTX",
+          "ciphertext_length": 280
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p213_ocr_block1",
+          "key": "Nov22-24",
+          "score": -9.121563788281371,
+          "plaintext": "KI4ZEWYJSVRS3E9LE5MQ3ERWELSO7BTHFTTIJHT6VHPTR2ERXXJL8RNISO7ARZWQEKOSA9EWZ53JEB6T3NXUSNLENYPEUCFPVSILSICZWV4NVRZUGYBE32?BEPMRVEM2XWDIT5ETXVR343EHVN9ENAZYVGU3GB",
+          "ciphertext_length": 317
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p213_ocr_block3",
+          "key": "Nov22-24",
+          "score": -9.358139261992081,
+          "plaintext": "XOTEVSAMS4A2OORWSHAMSH6RVWTGGPHLHCMSAISBL4THLTQQKOMKNNQY4HBZ46U7EMIBMYO7WE41Z37P86O7XMQFSS5C15WJ9AKSSZ8N9AHSUWOCJBS2TM",
+          "ciphertext_length": 236
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p213_ocr_block2+p213_ocr_block3",
+          "key": "Nov22-24",
+          "score": -5.208337331701208,
+          "plaintext": "SCHONMOEGLICHSTVONKONSTANTINOPELAUSZUENTSPRECHENXDAANGENOMMENWERDENKANNXDASSNIKOLA9EWNICHTLEISTUNGSFAEHIGGENUGISTXXKMXAXDXNRQJ0XXYYXY5XAYY",
+          "ciphertext_length": 276
+        }
+      ],
+      "interpretation": "The oil query, hospital-wagon instruction and final medical paragraph were already recognizable in unreviewed OCR screens. The edition adds exact source frames, conditional first-part restoration, priced corrections and explicitly unresolved fragments. No first historical decipherment claim is made."
+    }
+  },
+  "contextual_unread_records": [
+    {
+      "id": "p212_A2",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "source_section": "A2",
+      "printed_part_number": 2,
+      "source_image_id": "p212_A2",
+      "key_id": "Nov22-24",
+      "page_heading": "22nd NOVEMBER, 1918.",
+      "source_group_header": "XYZ v LP (03.54 p.m., November 22nd); ----- 7 TLE",
+      "source_rows": [
+        "VAADD AFGAV FVXVG DDDXD FGXDD GXVAV FAGDF DAGXD",
+        "GXXAX DFXXF FFFFA FDFAX DFDXD FAAVX FFXFF XFXXF",
+        "GXFAG FXDAG GXFXD XGGVF VDVGG ADFAA VFDFA FFGDF",
+        "DGFXA FXFFG FAGDG AAXXD XGXDX FXDFA AVFDX XFDFA"
+      ],
+      "source_slots": 160,
+      "advertised_length": 284,
+      "notes": [
+        "This source advertises 284 but prints 160 coordinates. No plaintext reconstruction is asserted and this frame is not proposed for the reading catalog.",
+        "A single 124-coordinate gap does not supply enough contiguous known text for a defensible reading in the bounded screen. It is not joined to the following 224-coordinate query."
+      ],
+      "source_reviewed": true,
+      "readable_claim": false,
+      "proposed_for_reading_catalog": false
+    },
+    {
+      "id": "p212_A4",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "source_section": "A4",
+      "printed_part_number": 4,
+      "source_image_id": "p212_A4",
+      "key_id": "Nov22-24",
+      "page_heading": "22nd NOVEMBER, 1918.",
+      "source_group_header": "XYZ v LP (03.54 p.m., November 22nd); ----- 7 TLE",
+      "source_rows": [
+        "DVAAA XAXGF FAVXA AAVAG GVXFA FVVDD FXVDG AFAXX",
+        "FFADF AAFDX VDAGD ADADV FFAFF GXVDX DAGAD VVXFF",
+        "FFFVA DGFAD VXDXD FVGGV AXAVA FDAVG VVFXF VDAXF",
+        "DVFVF AAGAD VXDVX AAFVF AVXGA VFAGV VAFFD VVFFV",
+        "XVXVF FFVVD VXDVV DFAAA VDXFA FGAGD FAVAD AG"
+      ],
+      "source_slots": 197,
+      "advertised_length": null,
+      "notes": [
+        "The source says 4 TL (Missed start), gives no readable advertised length and prints 197 coordinates. No plaintext reconstruction is asserted or proposed for the reading catalog."
+      ],
+      "source_reviewed": true,
+      "readable_claim": false,
+      "proposed_for_reading_catalog": false
+    }
+  ]
+}

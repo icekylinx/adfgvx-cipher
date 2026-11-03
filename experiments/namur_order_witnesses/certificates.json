@@ -1,0 +1,6880 @@
+{
+  "schema": "adfgvx-namur-order-witnesses-certificate-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "prior_credit": {
+    "published_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker.",
+    "earlier_body_candidate": "p171 C was already visible in an unreviewed OCR-derived candidate. The p172 E earlier 235-slot stream produced no such coherent Nov10 reading.",
+    "prior_candidates_sha256": "d7488b1d1a90d1c7f3657070b5086da26e1c7d8ee89d9427c98f194186b6a69d",
+    "new_contribution": "Source-exact retranscription of both physical witnesses, quantified alignment, source-supported reconciliation and repair-minimum certificate. All reconstructed coordinates are observed in at least one witness.",
+    "bounded_prior_body_check": "The cached complete 2017 discussion did not identify these C/E bodies. Lasry et al. section 6.4 discusses a separate p172 C/p175 A family mentioning von Weiher, which retains its prior body attribution. That contextual name is not claimed as a new individual identification here. No universal decipherment priority claim is made.",
+    "author_paper_url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf"
+  },
+  "inputs_sha256": "376fbffe7f01a7aae027c0a05e3d75095f0c3f0ce13d54fb704a30216afbfbe7",
+  "summary": {
+    "physical_source_witnesses": 2,
+    "distinct_shared_plaintext_bodies": 1,
+    "literal_source_slots": 494,
+    "modeled_working_coordinates": 504,
+    "shared_plaintext_positions": 126,
+    "summed_witness_plaintext_positions": 252,
+    "raw_fixed_positions_across_witnesses": 237,
+    "edition_fixed_positions_across_witnesses": 252,
+    "known_coordinate_substitutions": 11,
+    "printed_erasure_fills": 4,
+    "modeled_missing_prefix_coordinates": 10,
+    "modeled_missing_prefix_fills": 10,
+    "unwitnessed_coordinate_values_in_shared_reconstruction": 0,
+    "whole_plaintext_pairs_observed_in_at_least_one_witness": 125,
+    "coordinate_union_only_pairs": 1,
+    "source_deletions": 0,
+    "source_reordering": 0,
+    "key_changes": 0
+  },
+  "records": [
+    {
+      "id": "p171_C",
+      "source_literal": "DGAAVFADFDADVGADVFFXXXFGAFFFVGFAVGDAVDFDGFAVFGXGVVVXFXXGGGDXVFDAADVAFDADAGDGDVDXAXFDXDXAXXXVXFAADFVVDADADVGGVVXXDVXXXXDXGXFXDVAVVVX--GVADV-ADDDDGG-DFVFGAVDAGVDFGVFXXGXXFFAXXFVGXFDVDDXXGAFVAXDVDDDVDVDDAFVVGAFVGVDADAAVFDGAXXDVXVGFXFVFGAFXGGGVFADVXVDVDVGV",
+      "source_slots": 252,
+      "analysis_frame": "DGAAVFADFDADVGADVFFXXXFGAFFFVGFAVGDAVDFDGFAVFGXGVVVXFXXGGGDXVFDAADVAFDADAGDGDVDXAXFDXDXAXXXVXFAADFVVDADADVGGVVXXDVXXXXDXGXFXDVAVVVX??GVADV?ADDDDGG?DFVFGAVDAGVDFGVFXXGXXFFAXXFVGXFDVDDXXGAFVAXDVDDDVDVDDAFVVGAFVGVDADAAVFDGAXXDVXVGFXFVFGAFXGGGVFADVXVDVDVGV",
+      "frame_to_source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251
+      ],
+      "raw": {
+        "plaintext": "HPTMDNNSTAEDTNAMQRXXBITTESICHMITHPTVXXWEGHERE?AB?ENINSP1?NVERBINDUNGSETZENDE4BIS11VORMAUSFUEHRLICHENBQFE?LBEKOMMTXXMJRKROEGERX",
+        "fixed_positions": 122,
+        "plaintext_positions": 126,
+        "domains": [
+          "H",
+          "P",
+          "T",
+          "M",
+          "D",
+          "N",
+          "N",
+          "S",
+          "T",
+          "A",
+          "E",
+          "D",
+          "T",
+          "N",
+          "A",
+          "M",
+          "Q",
+          "R",
+          "X",
+          "X",
+          "B",
+          "I",
+          "T",
+          "T",
+          "E",
+          "S",
+          "I",
+          "C",
+          "H",
+          "M",
+          "I",
+          "T",
+          "H",
+          "P",
+          "T",
+          "V",
+          "X",
+          "X",
+          "W",
+          "E",
+          "G",
+          "H",
+          "E",
+          "R",
+          "E",
+          "2KMPTY",
+          "A",
+          "B",
+          "2KMPTY",
+          "E",
+          "N",
+          "I",
+          "N",
+          "S",
+          "P",
+          "1",
+          "56789ADGIW",
+          "N",
+          "V",
+          "E",
+          "R",
+          "B",
+          "I",
+          "N",
+          "D",
+          "U",
+          "N",
+          "G",
+          "S",
+          "E",
+          "T",
+          "Z",
+          "E",
+          "N",
+          "D",
+          "E",
+          "4",
+          "B",
+          "I",
+          "S",
+          "1",
+          "1",
+          "V",
+          "O",
+          "R",
+          "M",
+          "A",
+          "U",
+          "S",
+          "F",
+          "U",
+          "E",
+          "H",
+          "R",
+          "L",
+          "I",
+          "C",
+          "H",
+          "E",
+          "N",
+          "B",
+          "Q",
+          "F",
+          "E",
+          "056789BFHR",
+          "L",
+          "B",
+          "E",
+          "K",
+          "O",
+          "M",
+          "M",
+          "T",
+          "X",
+          "X",
+          "M",
+          "J",
+          "R",
+          "K",
+          "R",
+          "O",
+          "E",
+          "G",
+          "E",
+          "R",
+          "X"
+        ],
+        "source_position_pairs_0based": [
+          [
+            125,
+            173
+          ],
+          [
+            93,
+            157
+          ],
+          [
+            31,
+            109
+          ],
+          [
+            236,
+            77
+          ],
+          [
+            204,
+            15
+          ],
+          [
+            141,
+            220
+          ],
+          [
+            62,
+            189
+          ],
+          [
+            0,
+            47
+          ],
+          [
+            126,
+            174
+          ],
+          [
+            94,
+            158
+          ],
+          [
+            32,
+            110
+          ],
+          [
+            237,
+            78
+          ],
+          [
+            205,
+            16
+          ],
+          [
+            142,
+            221
+          ],
+          [
+            63,
+            190
+          ],
+          [
+            1,
+            48
+          ],
+          [
+            127,
+            175
+          ],
+          [
+            95,
+            159
+          ],
+          [
+            33,
+            111
+          ],
+          [
+            238,
+            79
+          ],
+          [
+            206,
+            17
+          ],
+          [
+            143,
+            222
+          ],
+          [
+            64,
+            191
+          ],
+          [
+            2,
+            49
+          ],
+          [
+            128,
+            176
+          ],
+          [
+            96,
+            160
+          ],
+          [
+            34,
+            112
+          ],
+          [
+            239,
+            80
+          ],
+          [
+            207,
+            18
+          ],
+          [
+            144,
+            223
+          ],
+          [
+            65,
+            192
+          ],
+          [
+            3,
+            50
+          ],
+          [
+            129,
+            177
+          ],
+          [
+            97,
+            161
+          ],
+          [
+            35,
+            113
+          ],
+          [
+            240,
+            81
+          ],
+          [
+            208,
+            19
+          ],
+          [
+            145,
+            224
+          ],
+          [
+            66,
+            193
+          ],
+          [
+            4,
+            51
+          ],
+          [
+            130,
+            178
+          ],
+          [
+            98,
+            162
+          ],
+          [
+            36,
+            114
+          ],
+          [
+            241,
+            82
+          ],
+          [
+            209,
+            20
+          ],
+          [
+            146,
+            225
+          ],
+          [
+            67,
+            194
+          ],
+          [
+            5,
+            52
+          ],
+          [
+            131,
+            179
+          ],
+          [
+            99,
+            163
+          ],
+          [
+            37,
+            115
+          ],
+          [
+            242,
+            83
+          ],
+          [
+            210,
+            21
+          ],
+          [
+            147,
+            226
+          ],
+          [
+            68,
+            195
+          ],
+          [
+            6,
+            53
+          ],
+          [
+            132,
+            180
+          ],
+          [
+            100,
+            164
+          ],
+          [
+            38,
+            116
+          ],
+          [
+            243,
+            84
+          ],
+          [
+            211,
+            22
+          ],
+          [
+            148,
+            227
+          ],
+          [
+            69,
+            196
+          ],
+          [
+            7,
+            54
+          ],
+          [
+            133,
+            181
+          ],
+          [
+            101,
+            165
+          ],
+          [
+            39,
+            117
+          ],
+          [
+            244,
+            85
+          ],
+          [
+            212,
+            23
+          ],
+          [
+            149,
+            228
+          ],
+          [
+            70,
+            197
+          ],
+          [
+            8,
+            55
+          ],
+          [
+            134,
+            182
+          ],
+          [
+            102,
+            166
+          ],
+          [
+            40,
+            118
+          ],
+          [
+            245,
+            86
+          ],
+          [
+            213,
+            24
+          ],
+          [
+            150,
+            229
+          ],
+          [
+            71,
+            198
+          ],
+          [
+            9,
+            56
+          ],
+          [
+            135,
+            183
+          ],
+          [
+            103,
+            167
+          ],
+          [
+            41,
+            119
+          ],
+          [
+            246,
+            87
+          ],
+          [
+            214,
+            25
+          ],
+          [
+            151,
+            230
+          ],
+          [
+            72,
+            199
+          ],
+          [
+            10,
+            57
+          ],
+          [
+            136,
+            184
+          ],
+          [
+            104,
+            168
+          ],
+          [
+            42,
+            120
+          ],
+          [
+            247,
+            88
+          ],
+          [
+            215,
+            26
+          ],
+          [
+            152,
+            231
+          ],
+          [
+            73,
+            200
+          ],
+          [
+            11,
+            58
+          ],
+          [
+            137,
+            185
+          ],
+          [
+            105,
+            169
+          ],
+          [
+            43,
+            121
+          ],
+          [
+            248,
+            89
+          ],
+          [
+            216,
+            27
+          ],
+          [
+            153,
+            232
+          ],
+          [
+            74,
+            201
+          ],
+          [
+            12,
+            59
+          ],
+          [
+            138,
+            186
+          ],
+          [
+            106,
+            170
+          ],
+          [
+            44,
+            122
+          ],
+          [
+            249,
+            90
+          ],
+          [
+            217,
+            28
+          ],
+          [
+            154,
+            233
+          ],
+          [
+            75,
+            202
+          ],
+          [
+            13,
+            60
+          ],
+          [
+            139,
+            187
+          ],
+          [
+            107,
+            171
+          ],
+          [
+            45,
+            123
+          ],
+          [
+            250,
+            91
+          ],
+          [
+            218,
+            29
+          ],
+          [
+            155,
+            234
+          ],
+          [
+            76,
+            203
+          ],
+          [
+            14,
+            61
+          ],
+          [
+            140,
+            188
+          ],
+          [
+            108,
+            172
+          ],
+          [
+            46,
+            124
+          ],
+          [
+            251,
+            92
+          ],
+          [
+            219,
+            30
+          ],
+          [
+            156,
+            235
+          ]
+        ],
+        "global_witness_not_original_reading": {
+          "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+          "ciphertext": "DGAAVFADFDADVGADVFFXXXFGAFFFVGFAVGDAVDFDGFAVFGXGVVVXFXXGGGDXVFDAADVAFDADAGDGDVDXAXFDXDXAXXXVXFAADFVVDADADVGGVVXXDVXXXXDXGXFXDVAVVVXAAGVADVAADDDDGGADFVFGAVDAGVDFGVFXXGXXFFAXXFVGXFDVDDXXGAFVAXDVDDDVDVDDAFVVGAFVGVDADAAVFDGAXXDVXVGFXFVFGAFXGGGVFADVXVDVDVGV",
+          "plaintext": "HPTMDNNSTAEDTNAMQRXXBITTESICHMITHPTVXXWEGHERETABTENINSP1ANVERBINDUNGSETZENDE4BIS11VORMAUSFUEHRLICHENBQFERLBEKOMMTXXMJRKROEGERX",
+          "is_proposed_reading": false
+        }
+      },
+      "edition": {
+        "ciphertext": "DGAAVFADFDADVGADVFFXXXFGFFFFVGFAVGDAVDFDGFAVFGXGVVVXVXXGGGDXVFDAADVAFDADAGDGDVDXAXFDXDXAXXXVXFAADFVVDADADVGGVVXXDVXXXXDXGXFXDVAAVVDFDGVADVVADDDDGGADFVFGAVDAGVDFGVFXXGXXFFAXXFVGXFDVDDXXGAFVAXDVDDDVDVDDAFVVAAFVGVDADAAVFDGAXXDVXVGFXFVFXAFXGGGVFADVXVDVDVGV",
+        "reading": {
+          "plaintext": "HPTMANNSTAEDTNAMURXXBITTESICHMITHPTVXXWEIHERETAPPENINSP1INVERBINDUNGSETZENDERBIS11VORMAUSFUEHRLICHENBEFEHLBEKOMMTXXMJRKROEGERX",
+          "fixed_positions": 126,
+          "plaintext_positions": 126,
+          "domains": [
+            "H",
+            "P",
+            "T",
+            "M",
+            "A",
+            "N",
+            "N",
+            "S",
+            "T",
+            "A",
+            "E",
+            "D",
+            "T",
+            "N",
+            "A",
+            "M",
+            "U",
+            "R",
+            "X",
+            "X",
+            "B",
+            "I",
+            "T",
+            "T",
+            "E",
+            "S",
+            "I",
+            "C",
+            "H",
+            "M",
+            "I",
+            "T",
+            "H",
+            "P",
+            "T",
+            "V",
+            "X",
+            "X",
+            "W",
+            "E",
+            "I",
+            "H",
+            "E",
+            "R",
+            "E",
+            "T",
+            "A",
+            "P",
+            "P",
+            "E",
+            "N",
+            "I",
+            "N",
+            "S",
+            "P",
+            "1",
+            "I",
+            "N",
+            "V",
+            "E",
+            "R",
+            "B",
+            "I",
+            "N",
+            "D",
+            "U",
+            "N",
+            "G",
+            "S",
+            "E",
+            "T",
+            "Z",
+            "E",
+            "N",
+            "D",
+            "E",
+            "R",
+            "B",
+            "I",
+            "S",
+            "1",
+            "1",
+            "V",
+            "O",
+            "R",
+            "M",
+            "A",
+            "U",
+            "S",
+            "F",
+            "U",
+            "E",
+            "H",
+            "R",
+            "L",
+            "I",
+            "C",
+            "H",
+            "E",
+            "N",
+            "B",
+            "E",
+            "F",
+            "E",
+            "H",
+            "L",
+            "B",
+            "E",
+            "K",
+            "O",
+            "M",
+            "M",
+            "T",
+            "X",
+            "X",
+            "M",
+            "J",
+            "R",
+            "K",
+            "R",
+            "O",
+            "E",
+            "G",
+            "E",
+            "R",
+            "X"
+          ],
+          "source_position_pairs_0based": [
+            [
+              125,
+              173
+            ],
+            [
+              93,
+              157
+            ],
+            [
+              31,
+              109
+            ],
+            [
+              236,
+              77
+            ],
+            [
+              204,
+              15
+            ],
+            [
+              141,
+              220
+            ],
+            [
+              62,
+              189
+            ],
+            [
+              0,
+              47
+            ],
+            [
+              126,
+              174
+            ],
+            [
+              94,
+              158
+            ],
+            [
+              32,
+              110
+            ],
+            [
+              237,
+              78
+            ],
+            [
+              205,
+              16
+            ],
+            [
+              142,
+              221
+            ],
+            [
+              63,
+              190
+            ],
+            [
+              1,
+              48
+            ],
+            [
+              127,
+              175
+            ],
+            [
+              95,
+              159
+            ],
+            [
+              33,
+              111
+            ],
+            [
+              238,
+              79
+            ],
+            [
+              206,
+              17
+            ],
+            [
+              143,
+              222
+            ],
+            [
+              64,
+              191
+            ],
+            [
+              2,
+              49
+            ],
+            [
+              128,
+              176
+            ],
+            [
+              96,
+              160
+            ],
+            [
+              34,
+              112
+            ],
+            [
+              239,
+              80
+            ],
+            [
+              207,
+              18
+            ],
+            [
+              144,
+              223
+            ],
+            [
+              65,
+              192
+            ],
+            [
+              3,
+              50
+            ],
+            [
+              129,
+              177
+            ],
+            [
+              97,
+              161
+            ],
+            [
+              35,
+              113
+            ],
+            [
+              240,
+              81
+            ],
+            [
+              208,
+              19
+            ],
+            [
+              145,
+              224
+            ],
+            [
+              66,
+              193
+            ],
+            [
+              4,
+              51
+            ],
+            [
+              130,
+              178
+            ],
+            [
+              98,
+              162
+            ],
+            [
+              36,
+              114
+            ],
+            [
+              241,
+              82
+            ],
+            [
+              209,
+              20
+            ],
+            [
+              146,
+              225
+            ],
+            [
+              67,
+              194
+            ],
+            [
+              5,
+              52
+            ],
+            [
+              131,
+              179
+            ],
+            [
+              99,
+              163
+            ],
+            [
+              37,
+              115
+            ],
+            [
+              242,
+              83
+            ],
+            [
+              210,
+              21
+            ],
+            [
+              147,
+              226
+            ],
+            [
+              68,
+              195
+            ],
+            [
+              6,
+              53
+            ],
+            [
+              132,
+              180
+            ],
+            [
+              100,
+              164
+            ],
+            [
+              38,
+              116
+            ],
+            [
+              243,
+              84
+            ],
+            [
+              211,
+              22
+            ],
+            [
+              148,
+              227
+            ],
+            [
+              69,
+              196
+            ],
+            [
+              7,
+              54
+            ],
+            [
+              133,
+              181
+            ],
+            [
+              101,
+              165
+            ],
+            [
+              39,
+              117
+            ],
+            [
+              244,
+              85
+            ],
+            [
+              212,
+              23
+            ],
+            [
+              149,
+              228
+            ],
+            [
+              70,
+              197
+            ],
+            [
+              8,
+              55
+            ],
+            [
+              134,
+              182
+            ],
+            [
+              102,
+              166
+            ],
+            [
+              40,
+              118
+            ],
+            [
+              245,
+              86
+            ],
+            [
+              213,
+              24
+            ],
+            [
+              150,
+              229
+            ],
+            [
+              71,
+              198
+            ],
+            [
+              9,
+              56
+            ],
+            [
+              135,
+              183
+            ],
+            [
+              103,
+              167
+            ],
+            [
+              41,
+              119
+            ],
+            [
+              246,
+              87
+            ],
+            [
+              214,
+              25
+            ],
+            [
+              151,
+              230
+            ],
+            [
+              72,
+              199
+            ],
+            [
+              10,
+              57
+            ],
+            [
+              136,
+              184
+            ],
+            [
+              104,
+              168
+            ],
+            [
+              42,
+              120
+            ],
+            [
+              247,
+              88
+            ],
+            [
+              215,
+              26
+            ],
+            [
+              152,
+              231
+            ],
+            [
+              73,
+              200
+            ],
+            [
+              11,
+              58
+            ],
+            [
+              137,
+              185
+            ],
+            [
+              105,
+              169
+            ],
+            [
+              43,
+              121
+            ],
+            [
+              248,
+              89
+            ],
+            [
+              216,
+              27
+            ],
+            [
+              153,
+              232
+            ],
+            [
+              74,
+              201
+            ],
+            [
+              12,
+              59
+            ],
+            [
+              138,
+              186
+            ],
+            [
+              106,
+              170
+            ],
+            [
+              44,
+              122
+            ],
+            [
+              249,
+              90
+            ],
+            [
+              217,
+              28
+            ],
+            [
+              154,
+              233
+            ],
+            [
+              75,
+              202
+            ],
+            [
+              13,
+              60
+            ],
+            [
+              139,
+              187
+            ],
+            [
+              107,
+              171
+            ],
+            [
+              45,
+              123
+            ],
+            [
+              250,
+              91
+            ],
+            [
+              218,
+              29
+            ],
+            [
+              155,
+              234
+            ],
+            [
+              76,
+              203
+            ],
+            [
+              14,
+              61
+            ],
+            [
+              140,
+              188
+            ],
+            [
+              108,
+              172
+            ],
+            [
+              46,
+              124
+            ],
+            [
+              251,
+              92
+            ],
+            [
+              219,
+              30
+            ],
+            [
+              156,
+              235
+            ]
+          ],
+          "global_witness_not_original_reading": {
+            "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+            "ciphertext": "DGAAVFADFDADVGADVFFXXXFGFFFFVGFAVGDAVDFDGFAVFGXGVVVXVXXGGGDXVFDAADVAFDADAGDGDVDXAXFDXDXAXXXVXFAADFVVDADADVGGVVXXDVXXXXDXGXFXDVAAVVDFDGVADVVADDDDGGADFVFGAVDAGVDFGVFXXGXXFFAXXFVGXFDVDDXXGAFVAXDVDDDVDVDDAFVVAAFVGVDADAAVFDGAXXDVXVGFXFVFXAFXGGGVFADVXVDVDVGV",
+            "plaintext": "HPTMANNSTAEDTNAMURXXBITTESICHMITHPTVXXWEIHERETAPPENINSP1INVERBINDUNGSETZENDERBIS11VORMAUSFUEHRLICHENBEFEHLBEKOMMTXXMJRKROEGERX",
+            "is_proposed_reading": false
+          }
+        },
+        "known_coordinate_substitutions": [
+          {
+            "plaintext_position_0based": 76,
+            "observed": "A",
+            "proposed": "F",
+            "working_coordinate_index": 24,
+            "source_coordinate_index": 24,
+            "kind": "received_slot"
+          },
+          {
+            "plaintext_position_0based": 47,
+            "observed": "F",
+            "proposed": "V",
+            "working_coordinate_index": 52,
+            "source_coordinate_index": 52,
+            "kind": "received_slot"
+          },
+          {
+            "plaintext_position_0based": 16,
+            "observed": "V",
+            "proposed": "A",
+            "working_coordinate_index": 127,
+            "source_coordinate_index": 127,
+            "kind": "received_slot"
+          },
+          {
+            "plaintext_position_0based": 40,
+            "observed": "X",
+            "proposed": "D",
+            "working_coordinate_index": 130,
+            "source_coordinate_index": 130,
+            "kind": "received_slot"
+          },
+          {
+            "plaintext_position_0based": 4,
+            "observed": "G",
+            "proposed": "A",
+            "working_coordinate_index": 204,
+            "source_coordinate_index": 204,
+            "kind": "received_slot"
+          },
+          {
+            "plaintext_position_0based": 101,
+            "observed": "G",
+            "proposed": "X",
+            "working_coordinate_index": 232,
+            "source_coordinate_index": 232,
+            "kind": "received_slot"
+          }
+        ],
+        "erasure_fills": [
+          {
+            "plaintext_position_0based": 48,
+            "observed": "-",
+            "proposed": "F",
+            "working_coordinate_index": 131,
+            "source_coordinate_index": 131,
+            "kind": "received_slot"
+          },
+          {
+            "plaintext_position_0based": 56,
+            "observed": "-",
+            "proposed": "D",
+            "working_coordinate_index": 132,
+            "source_coordinate_index": 132,
+            "kind": "received_slot"
+          },
+          {
+            "plaintext_position_0based": 104,
+            "observed": "-",
+            "proposed": "V",
+            "working_coordinate_index": 138,
+            "source_coordinate_index": 138,
+            "kind": "received_slot"
+          },
+          {
+            "plaintext_position_0based": 45,
+            "observed": "-",
+            "proposed": "A",
+            "working_coordinate_index": 146,
+            "source_coordinate_index": 146,
+            "kind": "received_slot"
+          }
+        ],
+        "remaining_erased_source_positions_0based": []
+      }
+    },
+    {
+      "id": "p172_E",
+      "source_literal": "ADVGADVFFXXXFGFFFFVGFAVGDAVDFDGFAVFGXGVVVXVXXGGGDXVFDAADVAFDADAGDGDVDXAXFDXDXAXXXVXFAADFVVXADADVGGVVXXDVXXXXDXGXFXDVAAVVDFDGVADVVADDDDGGADFVFGAVDAGVDFGVFXXGXXFFAXXFXGXFDVDDXXGAFFAXDVDDDVDVDDAFVVAAFVGVDADAAVFDGAXXDGXVGFXFVFXAFXGGGVFADVXVDVDVFV",
+      "source_slots": 242,
+      "analysis_frame": "??????????ADVGADVFFXXXFGFFFFVGFAVGDAVDFDGFAVFGXGVVVXVXXGGGDXVFDAADVAFDADAGDGDVDXAXFDXDXAXXXVXFAADFVVXADADVGGVVXXDVXXXXDXGXFXDVAAVVDFDGVADVVADDDDGGADFVFGAVDAGVDFGVFXXGXXFFAXXFXGXFDVDDXXGAFFAXDVDDDVDVDDAFVVAAFVGVDADAAVFDGAXXDGXVGFXFVFXAFXGGGVFADVXVDVDVFV",
+      "frame_to_source_indices": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241
+      ],
+      "raw": {
+        "plaintext": "HPTMANN?1AEDTNA?URXXBIT?ESICHJI?HPTVXXW?IHERETA?PENINSP?I?VERBI?DUNGSET?ENDERBI?11VORMAUSFUEHRLICHENBEFEHLBEKOMMRXXPJRKROEGERX",
+        "fixed_positions": 115,
+        "plaintext_positions": 126,
+        "domains": [
+          "H",
+          "P",
+          "T",
+          "M",
+          "A",
+          "N",
+          "N",
+          "56789JQSUZ",
+          "1",
+          "A",
+          "E",
+          "D",
+          "T",
+          "N",
+          "A",
+          "2KMPTY",
+          "U",
+          "R",
+          "X",
+          "X",
+          "B",
+          "I",
+          "T",
+          "2KMPTY",
+          "E",
+          "S",
+          "I",
+          "C",
+          "H",
+          "J",
+          "I",
+          "2KMPTY",
+          "H",
+          "P",
+          "T",
+          "V",
+          "X",
+          "X",
+          "W",
+          "156789ENVX",
+          "I",
+          "H",
+          "E",
+          "R",
+          "E",
+          "T",
+          "A",
+          "2KMPTY",
+          "P",
+          "E",
+          "N",
+          "I",
+          "N",
+          "S",
+          "P",
+          "156789ENVX",
+          "I",
+          "56789",
+          "V",
+          "E",
+          "R",
+          "B",
+          "I",
+          "156789ENVX",
+          "D",
+          "U",
+          "N",
+          "G",
+          "S",
+          "E",
+          "T",
+          "56789JQSUZ",
+          "E",
+          "N",
+          "D",
+          "E",
+          "R",
+          "B",
+          "I",
+          "56789JQSUZ",
+          "1",
+          "1",
+          "V",
+          "O",
+          "R",
+          "M",
+          "A",
+          "U",
+          "S",
+          "F",
+          "U",
+          "E",
+          "H",
+          "R",
+          "L",
+          "I",
+          "C",
+          "H",
+          "E",
+          "N",
+          "B",
+          "E",
+          "F",
+          "E",
+          "H",
+          "L",
+          "B",
+          "E",
+          "K",
+          "O",
+          "M",
+          "M",
+          "R",
+          "X",
+          "X",
+          "P",
+          "J",
+          "R",
+          "K",
+          "R",
+          "O",
+          "E",
+          "G",
+          "E",
+          "R",
+          "X"
+        ],
+        "source_position_pairs_0based": [
+          [
+            125,
+            173
+          ],
+          [
+            93,
+            157
+          ],
+          [
+            31,
+            109
+          ],
+          [
+            236,
+            77
+          ],
+          [
+            204,
+            15
+          ],
+          [
+            141,
+            220
+          ],
+          [
+            62,
+            189
+          ],
+          [
+            0,
+            47
+          ],
+          [
+            126,
+            174
+          ],
+          [
+            94,
+            158
+          ],
+          [
+            32,
+            110
+          ],
+          [
+            237,
+            78
+          ],
+          [
+            205,
+            16
+          ],
+          [
+            142,
+            221
+          ],
+          [
+            63,
+            190
+          ],
+          [
+            1,
+            48
+          ],
+          [
+            127,
+            175
+          ],
+          [
+            95,
+            159
+          ],
+          [
+            33,
+            111
+          ],
+          [
+            238,
+            79
+          ],
+          [
+            206,
+            17
+          ],
+          [
+            143,
+            222
+          ],
+          [
+            64,
+            191
+          ],
+          [
+            2,
+            49
+          ],
+          [
+            128,
+            176
+          ],
+          [
+            96,
+            160
+          ],
+          [
+            34,
+            112
+          ],
+          [
+            239,
+            80
+          ],
+          [
+            207,
+            18
+          ],
+          [
+            144,
+            223
+          ],
+          [
+            65,
+            192
+          ],
+          [
+            3,
+            50
+          ],
+          [
+            129,
+            177
+          ],
+          [
+            97,
+            161
+          ],
+          [
+            35,
+            113
+          ],
+          [
+            240,
+            81
+          ],
+          [
+            208,
+            19
+          ],
+          [
+            145,
+            224
+          ],
+          [
+            66,
+            193
+          ],
+          [
+            4,
+            51
+          ],
+          [
+            130,
+            178
+          ],
+          [
+            98,
+            162
+          ],
+          [
+            36,
+            114
+          ],
+          [
+            241,
+            82
+          ],
+          [
+            209,
+            20
+          ],
+          [
+            146,
+            225
+          ],
+          [
+            67,
+            194
+          ],
+          [
+            5,
+            52
+          ],
+          [
+            131,
+            179
+          ],
+          [
+            99,
+            163
+          ],
+          [
+            37,
+            115
+          ],
+          [
+            242,
+            83
+          ],
+          [
+            210,
+            21
+          ],
+          [
+            147,
+            226
+          ],
+          [
+            68,
+            195
+          ],
+          [
+            6,
+            53
+          ],
+          [
+            132,
+            180
+          ],
+          [
+            100,
+            164
+          ],
+          [
+            38,
+            116
+          ],
+          [
+            243,
+            84
+          ],
+          [
+            211,
+            22
+          ],
+          [
+            148,
+            227
+          ],
+          [
+            69,
+            196
+          ],
+          [
+            7,
+            54
+          ],
+          [
+            133,
+            181
+          ],
+          [
+            101,
+            165
+          ],
+          [
+            39,
+            117
+          ],
+          [
+            244,
+            85
+          ],
+          [
+            212,
+            23
+          ],
+          [
+            149,
+            228
+          ],
+          [
+            70,
+            197
+          ],
+          [
+            8,
+            55
+          ],
+          [
+            134,
+            182
+          ],
+          [
+            102,
+            166
+          ],
+          [
+            40,
+            118
+          ],
+          [
+            245,
+            86
+          ],
+          [
+            213,
+            24
+          ],
+          [
+            150,
+            229
+          ],
+          [
+            71,
+            198
+          ],
+          [
+            9,
+            56
+          ],
+          [
+            135,
+            183
+          ],
+          [
+            103,
+            167
+          ],
+          [
+            41,
+            119
+          ],
+          [
+            246,
+            87
+          ],
+          [
+            214,
+            25
+          ],
+          [
+            151,
+            230
+          ],
+          [
+            72,
+            199
+          ],
+          [
+            10,
+            57
+          ],
+          [
+            136,
+            184
+          ],
+          [
+            104,
+            168
+          ],
+          [
+            42,
+            120
+          ],
+          [
+            247,
+            88
+          ],
+          [
+            215,
+            26
+          ],
+          [
+            152,
+            231
+          ],
+          [
+            73,
+            200
+          ],
+          [
+            11,
+            58
+          ],
+          [
+            137,
+            185
+          ],
+          [
+            105,
+            169
+          ],
+          [
+            43,
+            121
+          ],
+          [
+            248,
+            89
+          ],
+          [
+            216,
+            27
+          ],
+          [
+            153,
+            232
+          ],
+          [
+            74,
+            201
+          ],
+          [
+            12,
+            59
+          ],
+          [
+            138,
+            186
+          ],
+          [
+            106,
+            170
+          ],
+          [
+            44,
+            122
+          ],
+          [
+            249,
+            90
+          ],
+          [
+            217,
+            28
+          ],
+          [
+            154,
+            233
+          ],
+          [
+            75,
+            202
+          ],
+          [
+            13,
+            60
+          ],
+          [
+            139,
+            187
+          ],
+          [
+            107,
+            171
+          ],
+          [
+            45,
+            123
+          ],
+          [
+            250,
+            91
+          ],
+          [
+            218,
+            29
+          ],
+          [
+            155,
+            234
+          ],
+          [
+            76,
+            203
+          ],
+          [
+            14,
+            61
+          ],
+          [
+            140,
+            188
+          ],
+          [
+            108,
+            172
+          ],
+          [
+            46,
+            124
+          ],
+          [
+            251,
+            92
+          ],
+          [
+            219,
+            30
+          ],
+          [
+            156,
+            235
+          ]
+        ],
+        "global_witness_not_original_reading": {
+          "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+          "ciphertext": "AAAAAAAAAAADVGADVFFXXXFGFFFFVGFAVGDAVDFDGFAVFGXGVVVXVXXGGGDXVFDAADVAFDADAGDGDVDXAXFDXDXAXXXVXFAADFVVXADADVGGVVXXDVXXXXDXGXFXDVAAVVDFDGVADVVADDDDGGADFVFGAVDAGVDFGVFXXGXXFFAXXFXGXFDVDDXXGAFFAXDVDDDVDVDDAFVVAAFVGVDADAAVFDGAXXDGXVGFXFVFXAFXGGGVFADVXVDVDVFV",
+          "plaintext": "HPTMANNU1AEDTNATURXXBITTESICHJITHPTVXXW1IHERETATPENINSP1I9VERBI1DUNGSETUENDERBIU11VORMAUSFUEHRLICHENBEFEHLBEKOMMRXXPJRKROEGERX",
+          "is_proposed_reading": false
+        }
+      },
+      "edition": {
+        "ciphertext": "DGAAVFADFDADVGADVFFXXXFGFFFFVGFAVGDAVDFDGFAVFGXGVVVXVXXGGGDXVFDAADVAFDADAGDGDVDXAXFDXDXAXXXVXFAADFVVDADADVGGVVXXDVXXXXDXGXFXDVAAVVDFDGVADVVADDDDGGADFVFGAVDAGVDFGVFXXGXXFFAXXFVGXFDVDDXXGAFVAXDVDDDVDVDDAFVVAAFVGVDADAAVFDGAXXDVXVGFXFVFXAFXGGGVFADVXVDVDVGV",
+        "reading": {
+          "plaintext": "HPTMANNSTAEDTNAMURXXBITTESICHMITHPTVXXWEIHERETAPPENINSP1INVERBINDUNGSETZENDERBIS11VORMAUSFUEHRLICHENBEFEHLBEKOMMTXXMJRKROEGERX",
+          "fixed_positions": 126,
+          "plaintext_positions": 126,
+          "domains": [
+            "H",
+            "P",
+            "T",
+            "M",
+            "A",
+            "N",
+            "N",
+            "S",
+            "T",
+            "A",
+            "E",
+            "D",
+            "T",
+            "N",
+            "A",
+            "M",
+            "U",
+            "R",
+            "X",
+            "X",
+            "B",
+            "I",
+            "T",
+            "T",
+            "E",
+            "S",
+            "I",
+            "C",
+            "H",
+            "M",
+            "I",
+            "T",
+            "H",
+            "P",
+            "T",
+            "V",
+            "X",
+            "X",
+            "W",
+            "E",
+            "I",
+            "H",
+            "E",
+            "R",
+            "E",
+            "T",
+            "A",
+            "P",
+            "P",
+            "E",
+            "N",
+            "I",
+            "N",
+            "S",
+            "P",
+            "1",
+            "I",
+            "N",
+            "V",
+            "E",
+            "R",
+            "B",
+            "I",
+            "N",
+            "D",
+            "U",
+            "N",
+            "G",
+            "S",
+            "E",
+            "T",
+            "Z",
+            "E",
+            "N",
+            "D",
+            "E",
+            "R",
+            "B",
+            "I",
+            "S",
+            "1",
+            "1",
+            "V",
+            "O",
+            "R",
+            "M",
+            "A",
+            "U",
+            "S",
+            "F",
+            "U",
+            "E",
+            "H",
+            "R",
+            "L",
+            "I",
+            "C",
+            "H",
+            "E",
+            "N",
+            "B",
+            "E",
+            "F",
+            "E",
+            "H",
+            "L",
+            "B",
+            "E",
+            "K",
+            "O",
+            "M",
+            "M",
+            "T",
+            "X",
+            "X",
+            "M",
+            "J",
+            "R",
+            "K",
+            "R",
+            "O",
+            "E",
+            "G",
+            "E",
+            "R",
+            "X"
+          ],
+          "source_position_pairs_0based": [
+            [
+              125,
+              173
+            ],
+            [
+              93,
+              157
+            ],
+            [
+              31,
+              109
+            ],
+            [
+              236,
+              77
+            ],
+            [
+              204,
+              15
+            ],
+            [
+              141,
+              220
+            ],
+            [
+              62,
+              189
+            ],
+            [
+              0,
+              47
+            ],
+            [
+              126,
+              174
+            ],
+            [
+              94,
+              158
+            ],
+            [
+              32,
+              110
+            ],
+            [
+              237,
+              78
+            ],
+            [
+              205,
+              16
+            ],
+            [
+              142,
+              221
+            ],
+            [
+              63,
+              190
+            ],
+            [
+              1,
+              48
+            ],
+            [
+              127,
+              175
+            ],
+            [
+              95,
+              159
+            ],
+            [
+              33,
+              111
+            ],
+            [
+              238,
+              79
+            ],
+            [
+              206,
+              17
+            ],
+            [
+              143,
+              222
+            ],
+            [
+              64,
+              191
+            ],
+            [
+              2,
+              49
+            ],
+            [
+              128,
+              176
+            ],
+            [
+              96,
+              160
+            ],
+            [
+              34,
+              112
+            ],
+            [
+              239,
+              80
+            ],
+            [
+              207,
+              18
+            ],
+            [
+              144,
+              223
+            ],
+            [
+              65,
+              192
+            ],
+            [
+              3,
+              50
+            ],
+            [
+              129,
+              177
+            ],
+            [
+              97,
+              161
+            ],
+            [
+              35,
+              113
+            ],
+            [
+              240,
+              81
+            ],
+            [
+              208,
+              19
+            ],
+            [
+              145,
+              224
+            ],
+            [
+              66,
+              193
+            ],
+            [
+              4,
+              51
+            ],
+            [
+              130,
+              178
+            ],
+            [
+              98,
+              162
+            ],
+            [
+              36,
+              114
+            ],
+            [
+              241,
+              82
+            ],
+            [
+              209,
+              20
+            ],
+            [
+              146,
+              225
+            ],
+            [
+              67,
+              194
+            ],
+            [
+              5,
+              52
+            ],
+            [
+              131,
+              179
+            ],
+            [
+              99,
+              163
+            ],
+            [
+              37,
+              115
+            ],
+            [
+              242,
+              83
+            ],
+            [
+              210,
+              21
+            ],
+            [
+              147,
+              226
+            ],
+            [
+              68,
+              195
+            ],
+            [
+              6,
+              53
+            ],
+            [
+              132,
+              180
+            ],
+            [
+              100,
+              164
+            ],
+            [
+              38,
+              116
+            ],
+            [
+              243,
+              84
+            ],
+            [
+              211,
+              22
+            ],
+            [
+              148,
+              227
+            ],
+            [
+              69,
+              196
+            ],
+            [
+              7,
+              54
+            ],
+            [
+              133,
+              181
+            ],
+            [
+              101,
+              165
+            ],
+            [
+              39,
+              117
+            ],
+            [
+              244,
+              85
+            ],
+            [
+              212,
+              23
+            ],
+            [
+              149,
+              228
+            ],
+            [
+              70,
+              197
+            ],
+            [
+              8,
+              55
+            ],
+            [
+              134,
+              182
+            ],
+            [
+              102,
+              166
+            ],
+            [
+              40,
+              118
+            ],
+            [
+              245,
+              86
+            ],
+            [
+              213,
+              24
+            ],
+            [
+              150,
+              229
+            ],
+            [
+              71,
+              198
+            ],
+            [
+              9,
+              56
+            ],
+            [
+              135,
+              183
+            ],
+            [
+              103,
+              167
+            ],
+            [
+              41,
+              119
+            ],
+            [
+              246,
+              87
+            ],
+            [
+              214,
+              25
+            ],
+            [
+              151,
+              230
+            ],
+            [
+              72,
+              199
+            ],
+            [
+              10,
+              57
+            ],
+            [
+              136,
+              184
+            ],
+            [
+              104,
+              168
+            ],
+            [
+              42,
+              120
+            ],
+            [
+              247,
+              88
+            ],
+            [
+              215,
+              26
+            ],
+            [
+              152,
+              231
+            ],
+            [
+              73,
+              200
+            ],
+            [
+              11,
+              58
+            ],
+            [
+              137,
+              185
+            ],
+            [
+              105,
+              169
+            ],
+            [
+              43,
+              121
+            ],
+            [
+              248,
+              89
+            ],
+            [
+              216,
+              27
+            ],
+            [
+              153,
+              232
+            ],
+            [
+              74,
+              201
+            ],
+            [
+              12,
+              59
+            ],
+            [
+              138,
+              186
+            ],
+            [
+              106,
+              170
+            ],
+            [
+              44,
+              122
+            ],
+            [
+              249,
+              90
+            ],
+            [
+              217,
+              28
+            ],
+            [
+              154,
+              233
+            ],
+            [
+              75,
+              202
+            ],
+            [
+              13,
+              60
+            ],
+            [
+              139,
+              187
+            ],
+            [
+              107,
+              171
+            ],
+            [
+              45,
+              123
+            ],
+            [
+              250,
+              91
+            ],
+            [
+              218,
+              29
+            ],
+            [
+              155,
+              234
+            ],
+            [
+              76,
+              203
+            ],
+            [
+              14,
+              61
+            ],
+            [
+              140,
+              188
+            ],
+            [
+              108,
+              172
+            ],
+            [
+              46,
+              124
+            ],
+            [
+              251,
+              92
+            ],
+            [
+              219,
+              30
+            ],
+            [
+              156,
+              235
+            ]
+          ],
+          "global_witness_not_original_reading": {
+            "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+            "ciphertext": "DGAAVFADFDADVGADVFFXXXFGFFFFVGFAVGDAVDFDGFAVFGXGVVVXVXXGGGDXVFDAADVAFDADAGDGDVDXAXFDXDXAXXXVXFAADFVVDADADVGGVVXXDVXXXXDXGXFXDVAAVVDFDGVADVVADDDDGGADFVFGAVDAGVDFGVFXXGXXFFAXXFVGXFDVDDXXGAFVAXDVDDDVDVDDAFVVAAFVGVDADAAVFDGAXXDVXVGFXFVFXAFXGGGVFADVXVDVDVGV",
+            "plaintext": "HPTMANNSTAEDTNAMURXXBITTESICHMITHPTVXXWEIHERETAPPENINSP1INVERBINDUNGSETZENDERBIS11VORMAUSFUEHRLICHENBEFEHLBEKOMMTXXMJRKROEGERX",
+            "is_proposed_reading": false
+          }
+        },
+        "known_coordinate_substitutions": [
+          {
+            "plaintext_position_0based": 57,
+            "observed": "X",
+            "proposed": "D",
+            "working_coordinate_index": 100,
+            "source_coordinate_index": 90,
+            "kind": "received_slot"
+          },
+          {
+            "plaintext_position_0based": 8,
+            "observed": "X",
+            "proposed": "V",
+            "working_coordinate_index": 174,
+            "source_coordinate_index": 164,
+            "kind": "received_slot"
+          },
+          {
+            "plaintext_position_0based": 112,
+            "observed": "F",
+            "proposed": "V",
+            "working_coordinate_index": 187,
+            "source_coordinate_index": 177,
+            "kind": "received_slot"
+          },
+          {
+            "plaintext_position_0based": 29,
+            "observed": "G",
+            "proposed": "V",
+            "working_coordinate_index": 223,
+            "source_coordinate_index": 213,
+            "kind": "received_slot"
+          },
+          {
+            "plaintext_position_0based": 115,
+            "observed": "F",
+            "proposed": "G",
+            "working_coordinate_index": 250,
+            "source_coordinate_index": 240,
+            "kind": "received_slot"
+          }
+        ],
+        "erasure_fills": [
+          {
+            "plaintext_position_0based": 7,
+            "observed": "?",
+            "proposed": "D",
+            "working_coordinate_index": 0,
+            "source_coordinate_index": null,
+            "kind": "modeled_lost_prefix"
+          },
+          {
+            "plaintext_position_0based": 15,
+            "observed": "?",
+            "proposed": "G",
+            "working_coordinate_index": 1,
+            "source_coordinate_index": null,
+            "kind": "modeled_lost_prefix"
+          },
+          {
+            "plaintext_position_0based": 23,
+            "observed": "?",
+            "proposed": "A",
+            "working_coordinate_index": 2,
+            "source_coordinate_index": null,
+            "kind": "modeled_lost_prefix"
+          },
+          {
+            "plaintext_position_0based": 31,
+            "observed": "?",
+            "proposed": "A",
+            "working_coordinate_index": 3,
+            "source_coordinate_index": null,
+            "kind": "modeled_lost_prefix"
+          },
+          {
+            "plaintext_position_0based": 39,
+            "observed": "?",
+            "proposed": "V",
+            "working_coordinate_index": 4,
+            "source_coordinate_index": null,
+            "kind": "modeled_lost_prefix"
+          },
+          {
+            "plaintext_position_0based": 47,
+            "observed": "?",
+            "proposed": "F",
+            "working_coordinate_index": 5,
+            "source_coordinate_index": null,
+            "kind": "modeled_lost_prefix"
+          },
+          {
+            "plaintext_position_0based": 55,
+            "observed": "?",
+            "proposed": "A",
+            "working_coordinate_index": 6,
+            "source_coordinate_index": null,
+            "kind": "modeled_lost_prefix"
+          },
+          {
+            "plaintext_position_0based": 63,
+            "observed": "?",
+            "proposed": "D",
+            "working_coordinate_index": 7,
+            "source_coordinate_index": null,
+            "kind": "modeled_lost_prefix"
+          },
+          {
+            "plaintext_position_0based": 71,
+            "observed": "?",
+            "proposed": "F",
+            "working_coordinate_index": 8,
+            "source_coordinate_index": null,
+            "kind": "modeled_lost_prefix"
+          },
+          {
+            "plaintext_position_0based": 79,
+            "observed": "?",
+            "proposed": "D",
+            "working_coordinate_index": 9,
+            "source_coordinate_index": null,
+            "kind": "modeled_lost_prefix"
+          }
+        ],
+        "remaining_erased_source_positions_0based": []
+      }
+    }
+  ],
+  "shared_editorial_plaintext": "HPTMANNSTAEDTNAMURXXBITTESICHMITHPTVXXWEIHERETAPPENINSP1INVERBINDUNGSETZENDERBIS11VORMAUSFUEHRLICHENBEFEHLBEKOMMTXXMJRKROEGERX",
+  "shared_reconstructed_ciphertext": "DGAAVFADFDADVGADVFFXXXFGFFFFVGFAVGDAVDFDGFAVFGXGVVVXVXXGGGDXVFDAADVAFDADAGDGDVDXAXFDXDXAXXXVXFAADFVVDADADVGGVVXXDVXXXXDXGXFXDVAAVVDFDGVADVVADDDDGGADFVFGAVDAGVDFGVFXXGXXFFAXXFVGXFDVDDXXGAFVAXDVDDDVDVDDAFVVAAFVGVDADAAVFDGAXXDVXVGFXFVFXAFXGGGVFADVXVDVDVGV",
+  "complete_observed_conflict_inventory": [
+    {
+      "c_source_index": 24,
+      "e_source_index": 14,
+      "c_observed": "A",
+      "e_observed": "F",
+      "selected": "F",
+      "selected_from": "p172_E",
+      "plaintext_position": 76
+    },
+    {
+      "c_source_index": 52,
+      "e_source_index": 42,
+      "c_observed": "F",
+      "e_observed": "V",
+      "selected": "V",
+      "selected_from": "p172_E",
+      "plaintext_position": 47
+    },
+    {
+      "c_source_index": 100,
+      "e_source_index": 90,
+      "c_observed": "D",
+      "e_observed": "X",
+      "selected": "D",
+      "selected_from": "p171_C",
+      "plaintext_position": 57
+    },
+    {
+      "c_source_index": 127,
+      "e_source_index": 117,
+      "c_observed": "V",
+      "e_observed": "A",
+      "selected": "A",
+      "selected_from": "p172_E",
+      "plaintext_position": 16
+    },
+    {
+      "c_source_index": 130,
+      "e_source_index": 120,
+      "c_observed": "X",
+      "e_observed": "D",
+      "selected": "D",
+      "selected_from": "p172_E",
+      "plaintext_position": 40
+    },
+    {
+      "c_source_index": 174,
+      "e_source_index": 164,
+      "c_observed": "V",
+      "e_observed": "X",
+      "selected": "V",
+      "selected_from": "p171_C",
+      "plaintext_position": 8
+    },
+    {
+      "c_source_index": 187,
+      "e_source_index": 177,
+      "c_observed": "V",
+      "e_observed": "F",
+      "selected": "V",
+      "selected_from": "p171_C",
+      "plaintext_position": 112
+    },
+    {
+      "c_source_index": 204,
+      "e_source_index": 194,
+      "c_observed": "G",
+      "e_observed": "A",
+      "selected": "A",
+      "selected_from": "p172_E",
+      "plaintext_position": 4
+    },
+    {
+      "c_source_index": 223,
+      "e_source_index": 213,
+      "c_observed": "V",
+      "e_observed": "G",
+      "selected": "V",
+      "selected_from": "p171_C",
+      "plaintext_position": 29
+    },
+    {
+      "c_source_index": 232,
+      "e_source_index": 222,
+      "c_observed": "G",
+      "e_observed": "X",
+      "selected": "X",
+      "selected_from": "p172_E",
+      "plaintext_position": 101
+    },
+    {
+      "c_source_index": 250,
+      "e_source_index": 240,
+      "c_observed": "G",
+      "e_observed": "F",
+      "selected": "G",
+      "selected_from": "p171_C",
+      "plaintext_position": 115
+    }
+  ],
+  "whole_pair_support_counts": {
+    "p171_C+p172_E": 102,
+    "p172_E": 9,
+    "p171_C": 14,
+    "coordinate_union_only": 1
+  },
+  "plaintext_pair_support": [
+    {
+      "plaintext_position": 0,
+      "character": "H",
+      "coordinate_pair": "VF",
+      "working_coordinate_indices": [
+        125,
+        173
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 1,
+      "character": "P",
+      "coordinate_pair": "FV",
+      "working_coordinate_indices": [
+        93,
+        157
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 2,
+      "character": "T",
+      "coordinate_pair": "AV",
+      "working_coordinate_indices": [
+        31,
+        109
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 3,
+      "character": "M",
+      "coordinate_pair": "GV",
+      "working_coordinate_indices": [
+        236,
+        77
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 4,
+      "character": "A",
+      "coordinate_pair": "AD",
+      "working_coordinate_indices": [
+        204,
+        15
+      ],
+      "whole_pair_observed_in": [
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 5,
+      "character": "N",
+      "coordinate_pair": "DX",
+      "working_coordinate_indices": [
+        141,
+        220
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 6,
+      "character": "N",
+      "coordinate_pair": "DX",
+      "working_coordinate_indices": [
+        62,
+        189
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 7,
+      "character": "S",
+      "coordinate_pair": "DG",
+      "working_coordinate_indices": [
+        0,
+        47
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 8,
+      "character": "T",
+      "coordinate_pair": "AV",
+      "working_coordinate_indices": [
+        126,
+        174
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 9,
+      "character": "A",
+      "coordinate_pair": "AD",
+      "working_coordinate_indices": [
+        94,
+        158
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 10,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        32,
+        110
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 11,
+      "character": "D",
+      "coordinate_pair": "GD",
+      "working_coordinate_indices": [
+        237,
+        78
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 12,
+      "character": "T",
+      "coordinate_pair": "AV",
+      "working_coordinate_indices": [
+        205,
+        16
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 13,
+      "character": "N",
+      "coordinate_pair": "DX",
+      "working_coordinate_indices": [
+        142,
+        221
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 14,
+      "character": "A",
+      "coordinate_pair": "AD",
+      "working_coordinate_indices": [
+        63,
+        190
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 15,
+      "character": "M",
+      "coordinate_pair": "GV",
+      "working_coordinate_indices": [
+        1,
+        48
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 16,
+      "character": "U",
+      "coordinate_pair": "AG",
+      "working_coordinate_indices": [
+        127,
+        175
+      ],
+      "whole_pair_observed_in": [
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 17,
+      "character": "R",
+      "coordinate_pair": "AF",
+      "working_coordinate_indices": [
+        95,
+        159
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 18,
+      "character": "X",
+      "coordinate_pair": "GX",
+      "working_coordinate_indices": [
+        33,
+        111
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 19,
+      "character": "X",
+      "coordinate_pair": "GX",
+      "working_coordinate_indices": [
+        238,
+        79
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 20,
+      "character": "B",
+      "coordinate_pair": "FF",
+      "working_coordinate_indices": [
+        206,
+        17
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 21,
+      "character": "I",
+      "coordinate_pair": "DD",
+      "working_coordinate_indices": [
+        143,
+        222
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 22,
+      "character": "T",
+      "coordinate_pair": "AV",
+      "working_coordinate_indices": [
+        64,
+        191
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 23,
+      "character": "T",
+      "coordinate_pair": "AV",
+      "working_coordinate_indices": [
+        2,
+        49
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 24,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        128,
+        176
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 25,
+      "character": "S",
+      "coordinate_pair": "DG",
+      "working_coordinate_indices": [
+        96,
+        160
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 26,
+      "character": "I",
+      "coordinate_pair": "DD",
+      "working_coordinate_indices": [
+        34,
+        112
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 27,
+      "character": "C",
+      "coordinate_pair": "VA",
+      "working_coordinate_indices": [
+        239,
+        80
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 28,
+      "character": "H",
+      "coordinate_pair": "VF",
+      "working_coordinate_indices": [
+        207,
+        18
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 29,
+      "character": "M",
+      "coordinate_pair": "GV",
+      "working_coordinate_indices": [
+        144,
+        223
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 30,
+      "character": "I",
+      "coordinate_pair": "DD",
+      "working_coordinate_indices": [
+        65,
+        192
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 31,
+      "character": "T",
+      "coordinate_pair": "AV",
+      "working_coordinate_indices": [
+        3,
+        50
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 32,
+      "character": "H",
+      "coordinate_pair": "VF",
+      "working_coordinate_indices": [
+        129,
+        177
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 33,
+      "character": "P",
+      "coordinate_pair": "FV",
+      "working_coordinate_indices": [
+        97,
+        161
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 34,
+      "character": "T",
+      "coordinate_pair": "AV",
+      "working_coordinate_indices": [
+        35,
+        113
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 35,
+      "character": "V",
+      "coordinate_pair": "FX",
+      "working_coordinate_indices": [
+        240,
+        81
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 36,
+      "character": "X",
+      "coordinate_pair": "GX",
+      "working_coordinate_indices": [
+        208,
+        19
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 37,
+      "character": "X",
+      "coordinate_pair": "GX",
+      "working_coordinate_indices": [
+        145,
+        224
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 38,
+      "character": "W",
+      "coordinate_pair": "VD",
+      "working_coordinate_indices": [
+        66,
+        193
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 39,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        4,
+        51
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 40,
+      "character": "I",
+      "coordinate_pair": "DD",
+      "working_coordinate_indices": [
+        130,
+        178
+      ],
+      "whole_pair_observed_in": [
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 41,
+      "character": "H",
+      "coordinate_pair": "VF",
+      "working_coordinate_indices": [
+        98,
+        162
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 42,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        36,
+        114
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 43,
+      "character": "R",
+      "coordinate_pair": "AF",
+      "working_coordinate_indices": [
+        241,
+        82
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 44,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        209,
+        20
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 45,
+      "character": "T",
+      "coordinate_pair": "AV",
+      "working_coordinate_indices": [
+        146,
+        225
+      ],
+      "whole_pair_observed_in": [
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 46,
+      "character": "A",
+      "coordinate_pair": "AD",
+      "working_coordinate_indices": [
+        67,
+        194
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 47,
+      "character": "P",
+      "coordinate_pair": "FV",
+      "working_coordinate_indices": [
+        5,
+        52
+      ],
+      "whole_pair_observed_in": [],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C"
+        ],
+        [
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 48,
+      "character": "P",
+      "coordinate_pair": "FV",
+      "working_coordinate_indices": [
+        131,
+        179
+      ],
+      "whole_pair_observed_in": [
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 49,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        99,
+        163
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 50,
+      "character": "N",
+      "coordinate_pair": "DX",
+      "working_coordinate_indices": [
+        37,
+        115
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 51,
+      "character": "I",
+      "coordinate_pair": "DD",
+      "working_coordinate_indices": [
+        242,
+        83
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 52,
+      "character": "N",
+      "coordinate_pair": "DX",
+      "working_coordinate_indices": [
+        210,
+        21
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 53,
+      "character": "S",
+      "coordinate_pair": "DG",
+      "working_coordinate_indices": [
+        147,
+        226
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 54,
+      "character": "P",
+      "coordinate_pair": "FV",
+      "working_coordinate_indices": [
+        68,
+        195
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 55,
+      "character": "1",
+      "coordinate_pair": "AX",
+      "working_coordinate_indices": [
+        6,
+        53
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 56,
+      "character": "I",
+      "coordinate_pair": "DD",
+      "working_coordinate_indices": [
+        132,
+        180
+      ],
+      "whole_pair_observed_in": [
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 57,
+      "character": "N",
+      "coordinate_pair": "DX",
+      "working_coordinate_indices": [
+        100,
+        164
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 58,
+      "character": "V",
+      "coordinate_pair": "FX",
+      "working_coordinate_indices": [
+        38,
+        116
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 59,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        243,
+        84
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 60,
+      "character": "R",
+      "coordinate_pair": "AF",
+      "working_coordinate_indices": [
+        211,
+        22
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 61,
+      "character": "B",
+      "coordinate_pair": "FF",
+      "working_coordinate_indices": [
+        148,
+        227
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 62,
+      "character": "I",
+      "coordinate_pair": "DD",
+      "working_coordinate_indices": [
+        69,
+        196
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 63,
+      "character": "N",
+      "coordinate_pair": "DX",
+      "working_coordinate_indices": [
+        7,
+        54
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 64,
+      "character": "D",
+      "coordinate_pair": "GD",
+      "working_coordinate_indices": [
+        133,
+        181
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 65,
+      "character": "U",
+      "coordinate_pair": "AG",
+      "working_coordinate_indices": [
+        101,
+        165
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 66,
+      "character": "N",
+      "coordinate_pair": "DX",
+      "working_coordinate_indices": [
+        39,
+        117
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 67,
+      "character": "G",
+      "coordinate_pair": "XD",
+      "working_coordinate_indices": [
+        244,
+        85
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 68,
+      "character": "S",
+      "coordinate_pair": "DG",
+      "working_coordinate_indices": [
+        212,
+        23
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 69,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        149,
+        228
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 70,
+      "character": "T",
+      "coordinate_pair": "AV",
+      "working_coordinate_indices": [
+        70,
+        197
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 71,
+      "character": "Z",
+      "coordinate_pair": "FG",
+      "working_coordinate_indices": [
+        8,
+        55
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 72,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        134,
+        182
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 73,
+      "character": "N",
+      "coordinate_pair": "DX",
+      "working_coordinate_indices": [
+        102,
+        166
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 74,
+      "character": "D",
+      "coordinate_pair": "GD",
+      "working_coordinate_indices": [
+        40,
+        118
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 75,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        245,
+        86
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 76,
+      "character": "R",
+      "coordinate_pair": "AF",
+      "working_coordinate_indices": [
+        213,
+        24
+      ],
+      "whole_pair_observed_in": [
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 77,
+      "character": "B",
+      "coordinate_pair": "FF",
+      "working_coordinate_indices": [
+        150,
+        229
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 78,
+      "character": "I",
+      "coordinate_pair": "DD",
+      "working_coordinate_indices": [
+        71,
+        198
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 79,
+      "character": "S",
+      "coordinate_pair": "DG",
+      "working_coordinate_indices": [
+        9,
+        56
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 80,
+      "character": "1",
+      "coordinate_pair": "AX",
+      "working_coordinate_indices": [
+        135,
+        183
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 81,
+      "character": "1",
+      "coordinate_pair": "AX",
+      "working_coordinate_indices": [
+        103,
+        167
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 82,
+      "character": "V",
+      "coordinate_pair": "FX",
+      "working_coordinate_indices": [
+        41,
+        119
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 83,
+      "character": "O",
+      "coordinate_pair": "DA",
+      "working_coordinate_indices": [
+        246,
+        87
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 84,
+      "character": "R",
+      "coordinate_pair": "AF",
+      "working_coordinate_indices": [
+        214,
+        25
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 85,
+      "character": "M",
+      "coordinate_pair": "GV",
+      "working_coordinate_indices": [
+        151,
+        230
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 86,
+      "character": "A",
+      "coordinate_pair": "AD",
+      "working_coordinate_indices": [
+        72,
+        199
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 87,
+      "character": "U",
+      "coordinate_pair": "AG",
+      "working_coordinate_indices": [
+        10,
+        57
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 88,
+      "character": "S",
+      "coordinate_pair": "DG",
+      "working_coordinate_indices": [
+        136,
+        184
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 89,
+      "character": "F",
+      "coordinate_pair": "DF",
+      "working_coordinate_indices": [
+        104,
+        168
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 90,
+      "character": "U",
+      "coordinate_pair": "AG",
+      "working_coordinate_indices": [
+        42,
+        120
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 91,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        247,
+        88
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 92,
+      "character": "H",
+      "coordinate_pair": "VF",
+      "working_coordinate_indices": [
+        215,
+        26
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 93,
+      "character": "R",
+      "coordinate_pair": "AF",
+      "working_coordinate_indices": [
+        152,
+        231
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 94,
+      "character": "L",
+      "coordinate_pair": "GA",
+      "working_coordinate_indices": [
+        73,
+        200
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 95,
+      "character": "I",
+      "coordinate_pair": "DD",
+      "working_coordinate_indices": [
+        11,
+        58
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 96,
+      "character": "C",
+      "coordinate_pair": "VA",
+      "working_coordinate_indices": [
+        137,
+        185
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 97,
+      "character": "H",
+      "coordinate_pair": "VF",
+      "working_coordinate_indices": [
+        105,
+        169
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 98,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        43,
+        121
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 99,
+      "character": "N",
+      "coordinate_pair": "DX",
+      "working_coordinate_indices": [
+        248,
+        89
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 100,
+      "character": "B",
+      "coordinate_pair": "FF",
+      "working_coordinate_indices": [
+        216,
+        27
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 101,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        153,
+        232
+      ],
+      "whole_pair_observed_in": [
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 102,
+      "character": "F",
+      "coordinate_pair": "DF",
+      "working_coordinate_indices": [
+        74,
+        201
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 103,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        12,
+        59
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 104,
+      "character": "H",
+      "coordinate_pair": "VF",
+      "working_coordinate_indices": [
+        138,
+        186
+      ],
+      "whole_pair_observed_in": [
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 105,
+      "character": "L",
+      "coordinate_pair": "GA",
+      "working_coordinate_indices": [
+        106,
+        170
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 106,
+      "character": "B",
+      "coordinate_pair": "FF",
+      "working_coordinate_indices": [
+        44,
+        122
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 107,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        249,
+        90
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 108,
+      "character": "K",
+      "coordinate_pair": "DV",
+      "working_coordinate_indices": [
+        217,
+        28
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 109,
+      "character": "O",
+      "coordinate_pair": "DA",
+      "working_coordinate_indices": [
+        154,
+        233
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 110,
+      "character": "M",
+      "coordinate_pair": "GV",
+      "working_coordinate_indices": [
+        75,
+        202
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 111,
+      "character": "M",
+      "coordinate_pair": "GV",
+      "working_coordinate_indices": [
+        13,
+        60
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 112,
+      "character": "T",
+      "coordinate_pair": "AV",
+      "working_coordinate_indices": [
+        139,
+        187
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 113,
+      "character": "X",
+      "coordinate_pair": "GX",
+      "working_coordinate_indices": [
+        107,
+        171
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 114,
+      "character": "X",
+      "coordinate_pair": "GX",
+      "working_coordinate_indices": [
+        45,
+        123
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 115,
+      "character": "M",
+      "coordinate_pair": "GV",
+      "working_coordinate_indices": [
+        250,
+        91
+      ],
+      "whole_pair_observed_in": [
+        "p171_C"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 116,
+      "character": "J",
+      "coordinate_pair": "GG",
+      "working_coordinate_indices": [
+        218,
+        29
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 117,
+      "character": "R",
+      "coordinate_pair": "AF",
+      "working_coordinate_indices": [
+        155,
+        234
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 118,
+      "character": "K",
+      "coordinate_pair": "DV",
+      "working_coordinate_indices": [
+        76,
+        203
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 119,
+      "character": "R",
+      "coordinate_pair": "AF",
+      "working_coordinate_indices": [
+        14,
+        61
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 120,
+      "character": "O",
+      "coordinate_pair": "DA",
+      "working_coordinate_indices": [
+        140,
+        188
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 121,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        108,
+        172
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 122,
+      "character": "G",
+      "coordinate_pair": "XD",
+      "working_coordinate_indices": [
+        46,
+        124
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 123,
+      "character": "E",
+      "coordinate_pair": "VX",
+      "working_coordinate_indices": [
+        251,
+        92
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 124,
+      "character": "R",
+      "coordinate_pair": "AF",
+      "working_coordinate_indices": [
+        219,
+        30
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    },
+    {
+      "plaintext_position": 125,
+      "character": "X",
+      "coordinate_pair": "GX",
+      "working_coordinate_indices": [
+        156,
+        235
+      ],
+      "whole_pair_observed_in": [
+        "p171_C",
+        "p172_E"
+      ],
+      "each_selected_coordinate_observed_in": [
+        [
+          "p171_C",
+          "p172_E"
+        ],
+        [
+          "p171_C",
+          "p172_E"
+        ]
+      ]
+    }
+  ],
+  "minimum_reconciliation": {
+    "assumptions": {
+      "kind": "same 252-coordinate message under the unchanged Nov10-12 key; p172 E lacks its first ten coordinates",
+      "e_source_offset_in_c": 10,
+      "minimum_known_coordinate_overlap_for_finite_alignment_comparison": 200,
+      "coordinate_comparison_not_language_score": true,
+      "limits": "The ten-coordinate leading loss is a same-message model supported by long ciphertext agreement and the source jammed marker; E has no legible advertised total. Other unknown original lengths are not globally excluded."
+    },
+    "observed_conflicts_lower_bound": 11,
+    "selected_total_known_substitutions": 11,
+    "minimum_known_substitution_common_streams": 2048,
+    "enumerated_common_streams": 2048,
+    "ordered_stream_digest_sha256": "889d040ee331cd53d1f6549e08de8dce58576107209bd672b9b941bcb548669b",
+    "selected_choice_bits": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "limits": "The minimum is for reconciliation of these two aligned streams as one message. There are2048 minimum-cost common coordinate streams, not a unique plaintext. No original-length exclusion or statistical significance is claimed."
+  },
+  "finite_coordinate_alignment_comparison": {
+    "minimum_jointly_known_overlap": 200,
+    "evaluated_offsets": 87,
+    "all_leaders": [
+      {
+        "e_start_relative_to_c": 10,
+        "jointly_observed_pairs": 238,
+        "agree": 227,
+        "disagree": 11
+      }
+    ],
+    "all_offsets": [
+      {
+        "e_start_relative_to_c": -38,
+        "jointly_observed_pairs": 200,
+        "agree": 34,
+        "disagree": 166
+      },
+      {
+        "e_start_relative_to_c": -37,
+        "jointly_observed_pairs": 201,
+        "agree": 23,
+        "disagree": 178
+      },
+      {
+        "e_start_relative_to_c": -36,
+        "jointly_observed_pairs": 202,
+        "agree": 30,
+        "disagree": 172
+      },
+      {
+        "e_start_relative_to_c": -35,
+        "jointly_observed_pairs": 203,
+        "agree": 28,
+        "disagree": 175
+      },
+      {
+        "e_start_relative_to_c": -34,
+        "jointly_observed_pairs": 204,
+        "agree": 35,
+        "disagree": 169
+      },
+      {
+        "e_start_relative_to_c": -33,
+        "jointly_observed_pairs": 205,
+        "agree": 25,
+        "disagree": 180
+      },
+      {
+        "e_start_relative_to_c": -32,
+        "jointly_observed_pairs": 206,
+        "agree": 30,
+        "disagree": 176
+      },
+      {
+        "e_start_relative_to_c": -31,
+        "jointly_observed_pairs": 207,
+        "agree": 27,
+        "disagree": 180
+      },
+      {
+        "e_start_relative_to_c": -30,
+        "jointly_observed_pairs": 208,
+        "agree": 34,
+        "disagree": 174
+      },
+      {
+        "e_start_relative_to_c": -29,
+        "jointly_observed_pairs": 209,
+        "agree": 38,
+        "disagree": 171
+      },
+      {
+        "e_start_relative_to_c": -28,
+        "jointly_observed_pairs": 210,
+        "agree": 38,
+        "disagree": 172
+      },
+      {
+        "e_start_relative_to_c": -27,
+        "jointly_observed_pairs": 211,
+        "agree": 25,
+        "disagree": 186
+      },
+      {
+        "e_start_relative_to_c": -26,
+        "jointly_observed_pairs": 212,
+        "agree": 40,
+        "disagree": 172
+      },
+      {
+        "e_start_relative_to_c": -25,
+        "jointly_observed_pairs": 213,
+        "agree": 26,
+        "disagree": 187
+      },
+      {
+        "e_start_relative_to_c": -24,
+        "jointly_observed_pairs": 214,
+        "agree": 40,
+        "disagree": 174
+      },
+      {
+        "e_start_relative_to_c": -23,
+        "jointly_observed_pairs": 215,
+        "agree": 40,
+        "disagree": 175
+      },
+      {
+        "e_start_relative_to_c": -22,
+        "jointly_observed_pairs": 216,
+        "agree": 43,
+        "disagree": 173
+      },
+      {
+        "e_start_relative_to_c": -21,
+        "jointly_observed_pairs": 217,
+        "agree": 32,
+        "disagree": 185
+      },
+      {
+        "e_start_relative_to_c": -20,
+        "jointly_observed_pairs": 218,
+        "agree": 43,
+        "disagree": 175
+      },
+      {
+        "e_start_relative_to_c": -19,
+        "jointly_observed_pairs": 219,
+        "agree": 30,
+        "disagree": 189
+      },
+      {
+        "e_start_relative_to_c": -18,
+        "jointly_observed_pairs": 220,
+        "agree": 49,
+        "disagree": 171
+      },
+      {
+        "e_start_relative_to_c": -17,
+        "jointly_observed_pairs": 221,
+        "agree": 29,
+        "disagree": 192
+      },
+      {
+        "e_start_relative_to_c": -16,
+        "jointly_observed_pairs": 222,
+        "agree": 31,
+        "disagree": 191
+      },
+      {
+        "e_start_relative_to_c": -15,
+        "jointly_observed_pairs": 223,
+        "agree": 32,
+        "disagree": 191
+      },
+      {
+        "e_start_relative_to_c": -14,
+        "jointly_observed_pairs": 224,
+        "agree": 42,
+        "disagree": 182
+      },
+      {
+        "e_start_relative_to_c": -13,
+        "jointly_observed_pairs": 225,
+        "agree": 31,
+        "disagree": 194
+      },
+      {
+        "e_start_relative_to_c": -12,
+        "jointly_observed_pairs": 226,
+        "agree": 33,
+        "disagree": 193
+      },
+      {
+        "e_start_relative_to_c": -11,
+        "jointly_observed_pairs": 227,
+        "agree": 27,
+        "disagree": 200
+      },
+      {
+        "e_start_relative_to_c": -10,
+        "jointly_observed_pairs": 228,
+        "agree": 41,
+        "disagree": 187
+      },
+      {
+        "e_start_relative_to_c": -9,
+        "jointly_observed_pairs": 229,
+        "agree": 30,
+        "disagree": 199
+      },
+      {
+        "e_start_relative_to_c": -8,
+        "jointly_observed_pairs": 230,
+        "agree": 43,
+        "disagree": 187
+      },
+      {
+        "e_start_relative_to_c": -7,
+        "jointly_observed_pairs": 231,
+        "agree": 28,
+        "disagree": 203
+      },
+      {
+        "e_start_relative_to_c": -6,
+        "jointly_observed_pairs": 232,
+        "agree": 42,
+        "disagree": 190
+      },
+      {
+        "e_start_relative_to_c": -5,
+        "jointly_observed_pairs": 233,
+        "agree": 28,
+        "disagree": 205
+      },
+      {
+        "e_start_relative_to_c": -4,
+        "jointly_observed_pairs": 234,
+        "agree": 34,
+        "disagree": 200
+      },
+      {
+        "e_start_relative_to_c": -3,
+        "jointly_observed_pairs": 235,
+        "agree": 28,
+        "disagree": 207
+      },
+      {
+        "e_start_relative_to_c": -2,
+        "jointly_observed_pairs": 236,
+        "agree": 43,
+        "disagree": 193
+      },
+      {
+        "e_start_relative_to_c": -1,
+        "jointly_observed_pairs": 237,
+        "agree": 42,
+        "disagree": 195
+      },
+      {
+        "e_start_relative_to_c": 0,
+        "jointly_observed_pairs": 238,
+        "agree": 32,
+        "disagree": 206
+      },
+      {
+        "e_start_relative_to_c": 1,
+        "jointly_observed_pairs": 238,
+        "agree": 38,
+        "disagree": 200
+      },
+      {
+        "e_start_relative_to_c": 2,
+        "jointly_observed_pairs": 238,
+        "agree": 45,
+        "disagree": 193
+      },
+      {
+        "e_start_relative_to_c": 3,
+        "jointly_observed_pairs": 238,
+        "agree": 47,
+        "disagree": 191
+      },
+      {
+        "e_start_relative_to_c": 4,
+        "jointly_observed_pairs": 238,
+        "agree": 44,
+        "disagree": 194
+      },
+      {
+        "e_start_relative_to_c": 5,
+        "jointly_observed_pairs": 238,
+        "agree": 43,
+        "disagree": 195
+      },
+      {
+        "e_start_relative_to_c": 6,
+        "jointly_observed_pairs": 238,
+        "agree": 62,
+        "disagree": 176
+      },
+      {
+        "e_start_relative_to_c": 7,
+        "jointly_observed_pairs": 238,
+        "agree": 34,
+        "disagree": 204
+      },
+      {
+        "e_start_relative_to_c": 8,
+        "jointly_observed_pairs": 238,
+        "agree": 53,
+        "disagree": 185
+      },
+      {
+        "e_start_relative_to_c": 9,
+        "jointly_observed_pairs": 238,
+        "agree": 44,
+        "disagree": 194
+      },
+      {
+        "e_start_relative_to_c": 10,
+        "jointly_observed_pairs": 238,
+        "agree": 227,
+        "disagree": 11
+      },
+      {
+        "e_start_relative_to_c": 11,
+        "jointly_observed_pairs": 237,
+        "agree": 42,
+        "disagree": 195
+      },
+      {
+        "e_start_relative_to_c": 12,
+        "jointly_observed_pairs": 236,
+        "agree": 49,
+        "disagree": 187
+      },
+      {
+        "e_start_relative_to_c": 13,
+        "jointly_observed_pairs": 235,
+        "agree": 35,
+        "disagree": 200
+      },
+      {
+        "e_start_relative_to_c": 14,
+        "jointly_observed_pairs": 234,
+        "agree": 54,
+        "disagree": 180
+      },
+      {
+        "e_start_relative_to_c": 15,
+        "jointly_observed_pairs": 233,
+        "agree": 40,
+        "disagree": 193
+      },
+      {
+        "e_start_relative_to_c": 16,
+        "jointly_observed_pairs": 232,
+        "agree": 44,
+        "disagree": 188
+      },
+      {
+        "e_start_relative_to_c": 17,
+        "jointly_observed_pairs": 231,
+        "agree": 42,
+        "disagree": 189
+      },
+      {
+        "e_start_relative_to_c": 18,
+        "jointly_observed_pairs": 230,
+        "agree": 43,
+        "disagree": 187
+      },
+      {
+        "e_start_relative_to_c": 19,
+        "jointly_observed_pairs": 229,
+        "agree": 39,
+        "disagree": 190
+      },
+      {
+        "e_start_relative_to_c": 20,
+        "jointly_observed_pairs": 228,
+        "agree": 29,
+        "disagree": 199
+      },
+      {
+        "e_start_relative_to_c": 21,
+        "jointly_observed_pairs": 227,
+        "agree": 40,
+        "disagree": 187
+      },
+      {
+        "e_start_relative_to_c": 22,
+        "jointly_observed_pairs": 226,
+        "agree": 39,
+        "disagree": 187
+      },
+      {
+        "e_start_relative_to_c": 23,
+        "jointly_observed_pairs": 225,
+        "agree": 31,
+        "disagree": 194
+      },
+      {
+        "e_start_relative_to_c": 24,
+        "jointly_observed_pairs": 224,
+        "agree": 41,
+        "disagree": 183
+      },
+      {
+        "e_start_relative_to_c": 25,
+        "jointly_observed_pairs": 223,
+        "agree": 33,
+        "disagree": 190
+      },
+      {
+        "e_start_relative_to_c": 26,
+        "jointly_observed_pairs": 222,
+        "agree": 37,
+        "disagree": 185
+      },
+      {
+        "e_start_relative_to_c": 27,
+        "jointly_observed_pairs": 221,
+        "agree": 31,
+        "disagree": 190
+      },
+      {
+        "e_start_relative_to_c": 28,
+        "jointly_observed_pairs": 220,
+        "agree": 39,
+        "disagree": 181
+      },
+      {
+        "e_start_relative_to_c": 29,
+        "jointly_observed_pairs": 219,
+        "agree": 29,
+        "disagree": 190
+      },
+      {
+        "e_start_relative_to_c": 30,
+        "jointly_observed_pairs": 218,
+        "agree": 39,
+        "disagree": 179
+      },
+      {
+        "e_start_relative_to_c": 31,
+        "jointly_observed_pairs": 217,
+        "agree": 26,
+        "disagree": 191
+      },
+      {
+        "e_start_relative_to_c": 32,
+        "jointly_observed_pairs": 216,
+        "agree": 30,
+        "disagree": 186
+      },
+      {
+        "e_start_relative_to_c": 33,
+        "jointly_observed_pairs": 215,
+        "agree": 31,
+        "disagree": 184
+      },
+      {
+        "e_start_relative_to_c": 34,
+        "jointly_observed_pairs": 214,
+        "agree": 42,
+        "disagree": 172
+      },
+      {
+        "e_start_relative_to_c": 35,
+        "jointly_observed_pairs": 213,
+        "agree": 31,
+        "disagree": 182
+      },
+      {
+        "e_start_relative_to_c": 36,
+        "jointly_observed_pairs": 212,
+        "agree": 32,
+        "disagree": 180
+      },
+      {
+        "e_start_relative_to_c": 37,
+        "jointly_observed_pairs": 211,
+        "agree": 30,
+        "disagree": 181
+      },
+      {
+        "e_start_relative_to_c": 38,
+        "jointly_observed_pairs": 210,
+        "agree": 45,
+        "disagree": 165
+      },
+      {
+        "e_start_relative_to_c": 39,
+        "jointly_observed_pairs": 209,
+        "agree": 31,
+        "disagree": 178
+      },
+      {
+        "e_start_relative_to_c": 40,
+        "jointly_observed_pairs": 208,
+        "agree": 38,
+        "disagree": 170
+      },
+      {
+        "e_start_relative_to_c": 41,
+        "jointly_observed_pairs": 207,
+        "agree": 34,
+        "disagree": 173
+      },
+      {
+        "e_start_relative_to_c": 42,
+        "jointly_observed_pairs": 206,
+        "agree": 38,
+        "disagree": 168
+      },
+      {
+        "e_start_relative_to_c": 43,
+        "jointly_observed_pairs": 205,
+        "agree": 32,
+        "disagree": 173
+      },
+      {
+        "e_start_relative_to_c": 44,
+        "jointly_observed_pairs": 204,
+        "agree": 34,
+        "disagree": 170
+      },
+      {
+        "e_start_relative_to_c": 45,
+        "jointly_observed_pairs": 203,
+        "agree": 27,
+        "disagree": 176
+      },
+      {
+        "e_start_relative_to_c": 46,
+        "jointly_observed_pairs": 202,
+        "agree": 35,
+        "disagree": 167
+      },
+      {
+        "e_start_relative_to_c": 47,
+        "jointly_observed_pairs": 201,
+        "agree": 26,
+        "disagree": 175
+      },
+      {
+        "e_start_relative_to_c": 48,
+        "jointly_observed_pairs": 200,
+        "agree": 40,
+        "disagree": 160
+      }
+    ]
+  },
+  "limits": [
+    "The ten missing E prefix coordinates are inferred under the same-message alignment; E has an unread length header and does not explicitly print a ten-coordinate gap.",
+    "All chosen coordinate values are witnessed, but choosing among eleven conflicts uses the proposed readable body. Minimal repair count does not prove uniquely historical wording.",
+    "The anomalous INSP1IN and literal HPTVXX are preserved. No separator correction or key relabelling is introduced.",
+    "The two receiving timestamps are retained even though their order does not establish an actual relay sequence.",
+    "The source name WEIHER is supported by E's observed coordinate. Identification with a particular historical officer is not certified here."
+  ]
+}

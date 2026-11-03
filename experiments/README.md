@@ -97,6 +97,8 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 | [p215 conditional completions](p215_completion/README.md) | Exact top ten under each of three additive language objectives | All 237 known source coordinates preserved; the 6^21 source-compatible strings remain cryptographically unresolved. |
 | [p185 D gap ranking](known_key/README.md) | All 194 positions of a five-coordinate gap | Both complete rankings reproduce; their preferred positions differ. The arithmetic certificate retains every geometry. |
 
+The [coordinate-loss-before-transposition study](p198_pretransposition_loss/README.md) tests a distinct source-motivated mechanism: 70 completed exact DP jobs, 18 fresh control runs on three bodies, and 9,672 independently enumerated small witnesses. Five fresh runs recover the exact text; all thirteen failed runs have wrong candidates scoring above truth. No p198 reading is accepted.
+
 ## Open-target searches and calibration
 
 | Experiment | Scope | Calibration and limit |
@@ -122,3 +124,11 @@ The [methods guide](../docs/methods.md) explains the evidence layers and why an 
 ## Further source-reviewed messages
 
 [Additional corpus recovery](corpus_recovery/README.md) preserves nine source records and six readable editions, with independent coordinate arithmetic and exact editorial repair costs.
+
+## Further post-publication source editions
+
+- [Berlin newspapers via Orsova](newspaper_dispatch/README.md)
+- [Companions to Norbert's p171 A1 ruble-rate reading](ruble_rate_companions/README.md)
+- [Reconciling the Namur personnel-order witnesses](namur_order_witnesses/README.md)
+- [Medical arrangements for transports returning from Turkey](medical_return_transports/README.md)
+- [Reval: steamers for troops, provisions and raw materials](reval_steamer_notice/README.md)

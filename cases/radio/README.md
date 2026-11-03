@@ -4,7 +4,7 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**66 reviewed physical records across 20 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**68 reviewed physical records across 21 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -20,6 +20,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p158 — Composite routing and key instructions](../p158.md) | p159 B, p159 C, p168 C, p168 D |
 | [p164 B — Dismantling the station and marching to Temesvar](p164_B.md) | p164 B |
 | [Station control and the Seifert service exchange](seifert.md) | p168 A, p168 B, p169 A, p172 A, p172 B, p174 B, p174 C, p174 D, p174 E |
+| [Newspaper sacks arriving via Orsova](newspaper_dispatch.md) | p171 B1, p171 B2 |
 | [p186 A1/A2 — Earlier Russian and Polish traffic instruction](../context/p186.md) | p186 A1, p186 A2 |
 | [p187_C — supplementary source review](../supplementary/p187_C.md) | p187 C |
 | [p187 D1 — Aircraft connection to Mackensen currently impossible](p187_D.md) | p187 D1 |
@@ -66,6 +67,8 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p168 C](../p158.md#earlier-historical-reading-of-a-component) | Repeated Munich routing order 11338 | Parallel witness to the p 159 B component | Prior body: Childs (1918), Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p168 D](../p158.md#component-readings) | Repeated Munich–Innsbruck routing instruction | Parallel witness to the p 159 C component | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p169 A](seifert.md) | Repeated station-control report | Conditional one-coordinate deletion; clearer p168 witness | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p171 B1](newspaper_dispatch.md) | Berlin newspaper sacks received via Orsova; request to Breslau postal directorate | Exact 200-slot frame; 98/100 raw labels; one substitution and two fills give 100/100 | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period key and earlier unreviewed OCR candidates retained; distinct from Norbert's p171 A1 challenge |
+| [p171 B2](newspaper_dispatch.md) | Immediate dispatch by the same route; priority references remain 7?3 and 308 | Exact 186-slot frame; 92/93 fixed labels; five ordinary-word substitutions; XA cell remains 56 in baseline | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period key and earlier unreviewed OCR candidates retained; distinct from Norbert's p171 A1 challenge |
 | [p172 A](seifert.md) | Records destroyed; cipher keys still in personal custody | 67/68 positions; one supported erasure fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p172 B](seifert.md) | Immediate radio-listening instruction | Identical to p174 D; hundreds digit remains 5-9 | icekylinx and GPT-6 Astra Pro (2026) |
 | [p174 B](seifert.md) | Request notification when Seifert arrives | 36/37 raw positions; two glyph readings retained | icekylinx and GPT-6 Astra Pro (2026) |

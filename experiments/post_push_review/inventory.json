@@ -1,7 +1,7 @@
 {
   "schema": "adfgvx-post-publication-review-v1",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "inputs_sha256": "de7c9ea988c64814b230c63b3d0ecc8b573aea027f8aad5d4bd4a92fb61d6126",
+  "inputs_sha256": "3edfc60b0c184e406eb2dada62ce51c1425ac56a6ce7ee3753066c963969c178",
   "review_state": "in_progress",
   "initial_push_confirmed_utc": "2026-11-02T23:27:19Z",
   "minimum_followup_end_utc": "2026-11-03T01:27:19Z",
@@ -10,39 +10,45 @@
   "catalogue": {
     "challenge_entries": 22,
     "other_records_before": 195,
-    "other_records_after": 264,
-    "new_physical_records": 69,
+    "other_records_after": 278,
+    "new_physical_records": 83,
     "removed_records": [],
     "prior_metadata_changes_other_than_paths": [],
     "canonical_path_updates": 164
   },
-  "source_package_count": 15,
+  "source_package_count": 20,
   "new_case_pages": [
     "cases/caucasus/tiflis_pioneer_detachment.md",
     "cases/finance/crown_airlift.md",
     "cases/finance/deutzitag_dispatch_inquiries.md",
     "cases/finance/military_allowances.md",
+    "cases/finance/oil_cartel_dispatch_query.md",
+    "cases/finance/ruble_rate_companions.md",
     "cases/finance/zitag_purchase_orders.md",
     "cases/military/armistice_transit_planning.md",
     "cases/military/hungary_transport_warning.md",
     "cases/military/late_transport_dispatches.md",
     "cases/military/liman_troop_reports.md",
     "cases/military/mackensen_armistice_appeal.md",
+    "cases/military/medical_return_transports.md",
     "cases/military/military_intendant_remit.md",
     "cases/military/neuhof_demobilization.md",
     "cases/military/orient_intelligence.md",
     "cases/military/turkish_mission_recall.md",
+    "cases/naval/reval_steamer_notice.md",
+    "cases/people/namur_order_witnesses.md",
     "cases/radio/constanza_radio_connections.md",
+    "cases/radio/newspaper_dispatch.md",
     "cases/radio/september_radio_procedure.md"
   ],
-  "source_image_count": 84,
-  "pinned_artifact_count": 187,
+  "source_image_count": 103,
+  "pinned_artifact_count": 325,
   "coverage_totals": {
-    "physical_records": 69,
-    "source_slots": 16586,
-    "modeled_plaintext_positions": 8313,
-    "fixed_raw_label_positions_under_stated_geometry": 8114,
-    "known_coordinate_substitutions": 112
+    "physical_records": 83,
+    "source_slots": 19886,
+    "modeled_plaintext_positions": 9966,
+    "fixed_raw_label_positions_under_stated_geometry": 9730,
+    "known_coordinate_substitutions": 163
   },
   "source_packages": [
     {
@@ -569,10 +575,192 @@
         "published_key_changed": false,
         "p221_A5_common_raw_positions_across_masked_minima": 100
       }
+    },
+    {
+      "name": "newspaper_dispatch",
+      "record_ids": [
+        "p171_B1",
+        "p171_B2"
+      ],
+      "case_pages": [
+        "cases/radio/newspaper_dispatch.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 386,
+        "modeled_plaintext_positions": 193,
+        "fixed_raw_label_positions_under_stated_geometry": 190,
+        "known_coordinate_substitutions": 6
+      },
+      "original_summary": {
+        "physical_source_parts": 2,
+        "literal_source_slots": 386,
+        "plaintext_positions": 193,
+        "raw_fixed_positions": 190,
+        "edition_fixed_positions": 192,
+        "known_coordinate_substitutions": 6,
+        "printed_erasure_fills": 2,
+        "remaining_unknown_square_positions": 1,
+        "insertions": 0,
+        "deletions": 0,
+        "block_moves": 0,
+        "baseline_key_changes": 0
+      }
+    },
+    {
+      "name": "ruble_rate_companions",
+      "record_ids": [
+        "p171_A2",
+        "p171_A3"
+      ],
+      "case_pages": [
+        "cases/finance/ruble_rate_companions.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 413,
+        "modeled_plaintext_positions": 202,
+        "fixed_raw_label_positions_under_stated_geometry": 196,
+        "known_coordinate_substitutions": 6
+      },
+      "original_summary": {
+        "new_physical_parts": 2,
+        "new_first_part_records": 0,
+        "literal_source_slots": 413,
+        "working_coordinates": 404,
+        "plaintext_positions": 202,
+        "raw_fixed_positions": 196,
+        "edition_fixed_positions": 202,
+        "known_coordinate_substitutions": 6,
+        "source_coordinate_exclusions": 10,
+        "known_coordinates_among_exclusions": 6,
+        "printed_erasures_among_exclusions": 4,
+        "added_unknown_coordinates": 1,
+        "printed_erasure_fills": 5,
+        "added_coordinate_fills": 1,
+        "key_changes": 0,
+        "reordered_blocks": 0
+      }
+    },
+    {
+      "name": "namur_order_witnesses",
+      "record_ids": [
+        "p171_C",
+        "p172_E"
+      ],
+      "case_pages": [
+        "cases/people/namur_order_witnesses.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 494,
+        "modeled_plaintext_positions": 252,
+        "fixed_raw_label_positions_under_stated_geometry": 237,
+        "known_coordinate_substitutions": 11
+      },
+      "original_summary": {
+        "physical_source_witnesses": 2,
+        "distinct_shared_plaintext_bodies": 1,
+        "literal_source_slots": 494,
+        "modeled_working_coordinates": 504,
+        "shared_plaintext_positions": 126,
+        "summed_witness_plaintext_positions": 252,
+        "raw_fixed_positions_across_witnesses": 237,
+        "edition_fixed_positions_across_witnesses": 252,
+        "known_coordinate_substitutions": 11,
+        "printed_erasure_fills": 4,
+        "modeled_missing_prefix_coordinates": 10,
+        "modeled_missing_prefix_fills": 10,
+        "unwitnessed_coordinate_values_in_shared_reconstruction": 0,
+        "whole_plaintext_pairs_observed_in_at_least_one_witness": 125,
+        "coordinate_union_only_pairs": 1,
+        "source_deletions": 0,
+        "source_reordering": 0,
+        "key_changes": 0
+      }
+    },
+    {
+      "name": "medical_return_transports",
+      "record_ids": [
+        "p212_A1",
+        "p212_A3",
+        "p212_A5",
+        "p213_A6",
+        "p213_A7"
+      ],
+      "case_pages": [
+        "cases/finance/oil_cartel_dispatch_query.md",
+        "cases/military/medical_return_transports.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 5,
+        "source_slots": 1437,
+        "modeled_plaintext_positions": 721,
+        "fixed_raw_label_positions_under_stated_geometry": 712,
+        "known_coordinate_substitutions": 24
+      },
+      "original_summary": {
+        "physical_records": 5,
+        "additional_open_source_frames_not_counted": 2,
+        "printed_source_slots": 1437,
+        "valid_source_coordinates": 1433,
+        "modeled_coordinates": 1442,
+        "plaintext_positions": 721,
+        "baseline_fixed_positions": 712,
+        "candidate_fixed_positions": 720,
+        "known_coordinate_substitutions": 24,
+        "printed_erasure_fills": 3,
+        "missing_coordinate_fills": 5,
+        "printed_erasure_positions_retained": 1,
+        "source_deletions": 0,
+        "published_key_changed": false,
+        "p212_A1_exact_gap_fit_is_unique": false,
+        "p212_A1_all_tied_minimum_gaps": [
+          104,
+          105,
+          107,
+          108
+        ],
+        "semantically_unresolved_received_bridge_labels": 2
+      }
+    },
+    {
+      "name": "reval_steamer_notice",
+      "record_ids": [
+        "p213_A1",
+        "p213_A2",
+        "p213_A3"
+      ],
+      "case_pages": [
+        "cases/naval/reval_steamer_notice.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 570,
+        "modeled_plaintext_positions": 285,
+        "fixed_raw_label_positions_under_stated_geometry": 281,
+        "known_coordinate_substitutions": 4
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 570,
+        "valid_source_coordinates": 566,
+        "modeled_coordinates": 570,
+        "plaintext_positions": 285,
+        "baseline_fixed_positions": 281,
+        "candidate_fixed_positions": 283,
+        "known_coordinate_substitutions": 4,
+        "printed_erasure_fills": 2,
+        "printed_erasure_positions_retained": 2,
+        "missing_coordinate_fills": 0,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
     }
   ],
   "additional_packages": [
-    "nov25_letter_constraint"
+    "nov25_letter_constraint",
+    "p198_pretransposition_loss"
   ],
   "new_record_ids": [
     "p60_A1",
@@ -614,6 +802,12 @@
     "p133_A2",
     "p133_A3",
     "p134_A4",
+    "p171_A2",
+    "p171_A3",
+    "p171_B1",
+    "p171_B2",
+    "p171_C",
+    "p172_E",
     "p174_A1",
     "p174_A2",
     "p174_A3",
@@ -627,6 +821,14 @@
     "p202_B2",
     "p202_B3",
     "p202_B4",
+    "p212_A1",
+    "p212_A3",
+    "p212_A5",
+    "p213_A1",
+    "p213_A2",
+    "p213_A3",
+    "p213_A6",
+    "p213_A7",
     "p220_C1",
     "p220_C2",
     "p220_C3",
