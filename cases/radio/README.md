@@ -213,8 +213,8 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p190 E](nov14_radio_retransmissions.md) | Request a backup station for NKJ; Sevastopol proposed | 82/88 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
 | [p192 A](warsaw_service_messages.md) | Request to Kretzschmar in Bucharest about conditions, prospects and commercial interests | 171/175 raw positions; one overstrike fill; three reference cells unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p192 B](warsaw_service_messages.md) | LP forwarding important messages for home offices and OHL in both directions | 267/268 source geometry; two tied single-coordinate gap fits; no valid coordinate changed | icekylinx and GPT-6 Astra Pro (2026) |
-| [p193 A](nov14_radio_retransmissions.md) | Ask whether NKJ relays Mackensen messages and how contact is maintained | 94/94 candidate letters independently witnessed across the pair | icekylinx and GPT-6 Astra Pro (2026) |
-| [p193 B](nov14_radio_retransmissions.md) | Interrupted pilot-arrival notice; exact suffix of p194 B | 85 missing coordinates and 85 raw letters restored by independent copy | icekylinx and GPT-6 Astra Pro (2026) |
+| [p193 A](nov14_radio_retransmissions.md) | Ask whether NKJ relays Mackensen messages and how contact is maintained | 94/94 candidate positions independently witnessed across the pair | icekylinx and GPT-6 Astra Pro (2026) |
+| [p193 B](nov14_radio_retransmissions.md) | Interrupted pilot-arrival notice; exact suffix of p194 B | 85 missing coordinates and 85 raw positions restored by independent copy | icekylinx and GPT-6 Astra Pro (2026) |
 | [p193 C](nov14_15_departure_and_supper.md#p193-c) | Departure postponed, with reassurance and readiness wording | Native 212-slot frame; 3 observed-coordinate substitutions and 2 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p193 D](nov14_15_departure_and_supper.md#p193-d) | Proposed warm supper and a headcount enquiry | Native 82-slot frame; 4 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p194 B](nov14_radio_retransmissions.md) | Pilot representative of the Warsaw soldiers’ council arrives in Berlin | 139/140 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
@@ -269,6 +269,7 @@ These retain their original challenge identifiers and statuses; they are separat
 
 Topics are reading aids. Each family page preserves its own keys, source
 relationships, earlier credits and limits. The live reading catalogue
-supplies every record status and credit shown here.
+supplies every record status and credit shown here, with reviewed
+count-unit and spacing corrections in the displayed status.
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

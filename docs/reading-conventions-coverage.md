@@ -109,6 +109,19 @@ unresolved displayed position. Its 19 display-only expansion letters and
 two explicitly marked coordinate-completion letters keep distinct roles.
 Fenced-block and blockquote coverage alone does not cover Markdown tables.
 
+The [transport table correction](reading-conventions-transport-table.md)
+retains the word erasure in `ANH?ENGER` and both count-like unknowns. Its live
+table check binds 45 ordered labels with three unresolved positions, while
+preserving four other table rows without claiming exact mappings for their
+composite or excerpted readings. The two count-like positions share one
+unassigned key cell; the word erasure has a separate source-coordinate cause.
+
+The [accounting supplement mapping](reading-conventions-accounting-supplement.md)
+binds the experiment README's conservative p175 quotation to 98 ordered
+nonseparator labels, retaining both unknown positions and the complete
+`89240911?` closing. These supplementary display checks add no physical
+source records and do not choose historical numeral values.
+
 ## Run the checks
 
 From the repository root:
@@ -119,6 +132,9 @@ python data/reviews/verify_manual_readings.py
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_layers_before.json --audit data/reviews/reading_conventions_layers_audit.json
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
 python data/reviews/check_reading_presentation.py
+python data/reviews/verify_table_readable_mappings.py
+python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_transport_table_before.json --audit data/reviews/reading_conventions_transport_table_audit.json
+python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/accounting_copy_readable_mapping_20261103.json
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_count_units_before.json --audit data/reviews/reading_conventions_count_units_audit.json
 python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_legacy_tokens_before.json --audit data/reviews/reading_conventions_legacy_tokens_audit.json
 python data/reviews/verify_seifert_readable_table.py

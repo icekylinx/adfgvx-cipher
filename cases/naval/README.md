@@ -56,7 +56,7 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [p178 part 4](naval_armistice_order.md) | Enemy attacks may continue; weapons only for self-defense | Prior body; 288 counted coordinates; ambiguous printed length retained | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |
 | [p178 part 5](naval_armistice_order.md) | Requested passage through neutral waters and receipt acknowledgments | Prior body; 158/161 raw; two distinct unresolved reference digits | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |
 | [p190 C](mmd_command_whereabouts.md#p190-c) | Enquiry whether an MMD command or representative is present | Native 126-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
-| [p199 A1](black_sea_shipping.md) | Feigenhaus 618: Herkules report of incoming steamers and a garbled cocoa cargo description | Prior body identification; One surplus coordinate in six-letter group; three broad tied fits retained; 145/146 raw | Lasry, Niebel, Kopal and Wacker (2016); source audit by icekylinx and GPT-6 Astra Pro (2026) |
+| [p199 A1](black_sea_shipping.md) | Feigenhaus 618: Herkules report of incoming steamers and a garbled cocoa cargo description | Prior body identification; one surplus coordinate in a six-coordinate group; three broad tied fits retained; 145/146 raw | Lasry, Niebel, Kopal and Wacker (2016); source audit by icekylinx and GPT-6 Astra Pro (2026) |
 | [p199 A2](black_sea_shipping.md) | Goods remain aboard under military guard; coded supply terms retained | Prior body identification; 171/172 raw; two coordinate repairs yield a complete body | Lasry, Niebel, Kopal and Wacker (2016); source audit by icekylinx and GPT-6 Astra Pro (2026) |
 | [p199 A3](black_sea_shipping.md) | Concern over the recipient’s intentions; Reichsversorgung and Admiralstab ending | Prior body identification; Five tied single-loss models; shared 92-character ordinary body; footer remains conditional | Lasry, Niebel, Kopal and Wacker (2016); source audit by icekylinx and GPT-6 Astra Pro (2026) |
 | [p200 B1](black_sea_shipping.md) | Order to halt CORCOWADO sale or ownership transfer to Turkey | 195/197 raw; three substitutions and one invalid-glyph fill yield a complete body | icekylinx and GPT-6 Astra Pro (2026) |
@@ -83,6 +83,7 @@ These retain their original challenge identifiers and statuses; they are separat
 
 Topics are reading aids. Each family page preserves its own keys, source
 relationships, earlier credits and limits. The live reading catalogue
-supplies every record status and credit shown here.
+supplies every record status and credit shown here, with reviewed
+count-unit and spacing corrections in the displayed status.
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

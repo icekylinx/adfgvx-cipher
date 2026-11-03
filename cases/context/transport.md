@@ -16,9 +16,16 @@
 | p193 E | Kleiner Federwagen zu[m] Anhaengen hier. Kommt Auto. | A small sprung cart for attachment is available; the message mentions a car. Punctuation and the `M` are editorial. |
 | p194 A / p196 B composite | Abtransport in verabredeter Weise Freitag DHFN 1?00. Wagen bereithalten. Marschziel Hanau. Seifert. | Departure as arranged on Friday; keep vehicles ready; Hanau is the destination. Every selected coordinate is attested in one of the two witnesses, but one time digit remains unknown. |
 | p197 E / p198 C | Lastauto 1?00 abgefahren. Ich bleibe mit ? Mann bis Sonntag. Alles Gute, auf Wiedersehen. [Seifert]. Gruss Bocho. | The truck has departed; the sender remains with an unknown number of men until Sunday. The signature is normalized editorially; neither witness spells it exactly this way. |
-| p189 E | Ja, Hebepumpe aus Blech. Kommen ? Autos. Hier ? Anhaenger. | A pump, motor vehicles and trailers are mentioned. The counts and the punctuation remain uncertain. This is not the p189 challenge entry. |
+| p189 E | Ja, Hebepumpe aus Blech. Kommen ? Autos. Hier ? Anh?enger. | A pump, motor vehicles and trailers are mentioned. The counts and the punctuation remain uncertain. This is not the p189 challenge entry. |
 
 Brackets mark editorial interpretations; `?` retains an unresolved character. `DHFN`, `STATMET` and `BOCHO` are not expanded or geographically identified. The exact readings and witness disagreements follow below.
+
+In p189 E, `ANH?ENGER` retains the unresolved word position caused by the
+literal invalid B at source index **81**. Its plaintext position **41**
+has the partial pair `V?`. The other two question marks, at plaintext
+positions **26** and **37**, both come from the complete pair `VG` and
+therefore share one unknown value with domain **`234789QY`**. Their
+count-like context does not select a numeral. All indices here are zero-based.
 
 ## p185 D source and gap model
 

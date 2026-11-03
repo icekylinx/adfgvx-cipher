@@ -342,6 +342,7 @@ These retain their original challenge identifiers and statuses; they are separat
 
 Topics are reading aids. Each family page preserves its own keys, source
 relationships, earlier credits and limits. The live reading catalogue
-supplies every record status and credit shown here.
+supplies every record status and credit shown here, with reviewed
+count-unit and spacing corrections in the displayed status.
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

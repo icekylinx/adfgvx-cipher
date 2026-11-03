@@ -92,6 +92,13 @@ slots** when masks are included; reserve **valid coordinates** for the
 accepted alphabet symbols. Existing machine-certificate field names are
 preserved even where older names abbreviate these distinctions.
 
+Generated page and topic tables apply a finite [status display register](../data/catalog_status_display.json)
+for older count-unit and spacing corrections. It records the exact prior
+and displayed status for each affected source identifier. The generator
+checks the prior wording and preserves every numerical token; the original
+catalogue rows and frozen review snapshots stay unchanged. These corrections
+do not alter reading qualifications, credits or evidence links.
+
 The [p188 edition](../cases/military/armistice_provisions_requests.md)
 illustrates a separately priced extra-mark exclusion, word substitutions
 and source-mask fills. The [ruble companions](../cases/finance/ruble_rate_companions.md)

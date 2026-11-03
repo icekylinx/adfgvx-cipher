@@ -35,6 +35,9 @@ jobs:
           python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
           python data/reviews/check_reading_presentation.py
           python data/reviews/verify_live_readable_mappings.py
+          python data/reviews/verify_table_readable_mappings.py
+          python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_transport_table_before.json --audit data/reviews/reading_conventions_transport_table_audit.json
+          python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/accounting_copy_readable_mapping_20261103.json
           python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_count_units_before.json --audit data/reviews/reading_conventions_count_units_audit.json
           python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_legacy_tokens_before.json --audit data/reviews/reading_conventions_legacy_tokens_audit.json
           python data/reviews/verify_seifert_readable_table.py

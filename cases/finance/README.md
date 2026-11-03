@@ -53,7 +53,7 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [p122 C](cash_arrival_acknowledgment.md#p122-c) | Money transport reported to have arrived | 57/57 native raw positions; 0 coordinate substitutions and 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidate retained |
 | [p129 B1](military_allowances.md#p129-b1) | Meal allowances judged excessive and Swedish rates rejected as a standard | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
 | [p133 A2](military_allowances.md#p133-a2) | Reduce cash allowances and use field-ration costs | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
-| [p133 A3](military_allowances.md#p133-a3) | Promote communal purchasing and German dining facilities | Direct complete243-letter reading; unchanged source ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
+| [p133 A3](military_allowances.md#p133-a3) | Promote communal purchasing and German dining facilities | Direct complete 243-position reading; unchanged source ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
 | [p134 A4](military_allowances.md#p134-a4) | Requested cost-of-living supplement refused | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
 | [p144 A2](nov6_silk_resale_continuation.md#p144-a2) | Local silk resale continuation corroborates the p136/p152 witnesses | 135/135 native raw positions; 1 coordinate substitution + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior continuation and OCR attribution retained |
 | [p171 A2](ruble_rate_companions.md) | Reported ruble prices in Kiev and Warsaw; companion to Norbert's A1 | Conditional 252-coordinate frame from 261 literal slots: two five-slot exclusions, one added unknown; six substitutions and four fills; two tied local gap placements | icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved |
@@ -91,6 +91,7 @@ These retain their original challenge identifiers and statuses; they are separat
 
 Topics are reading aids. Each family page preserves its own keys, source
 relationships, earlier credits and limits. The live reading catalogue
-supplies every record status and credit shown here.
+supplies every record status and credit shown here, with reviewed
+count-unit and spacing corrections in the displayed status.
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
