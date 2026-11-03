@@ -291,6 +291,7 @@ jobs:
           python experiments/p176a_source_retention_bound/verify.py --verify
           python experiments/p215_hungarian_y/verify.py --verify
           python experiments/p167_captain_dispatch_fragment/verify.py --verify
+          python experiments/p212_medical_fragment/verify.py --verify
           python data/reviews/verify_source_gap_audit.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |

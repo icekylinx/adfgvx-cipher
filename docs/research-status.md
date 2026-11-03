@@ -20,6 +20,8 @@ The [whole-material census](whole-material-coverage.md) registers **679 cipherte
 
 The [experiment guide's recent-results table](../experiments/README.md#latest-source-editions-and-follow-up-methods) links the other new editions, including the station-staff query, Kiev unrest, wheat shipping, technical and transport fragments. Individual cases hold the full readings, source images, repair prices and uncertainty records. The [post-publication inventory](../experiments/post_push_review/README.md), [earlier extension report](extension-review-2026-11-02.md) and [initial inventory](../experiments/session_review/README.md) retain their dated publication snapshots.
 
+The [p212 A4 medical fragment](../cases/military/p212_medical_fragment.md) now supports connected wording about patients, personnel and medicines. A conditional 302-slot frame preserves all 197 source coordinates; 83 missing-half fills fix 129/151 positions with zero observed substitutions. The remaining 22 positions and original numeral labels stay explicit.
+
 ## Open challenge targets
 
 **p73, p170 A and p198 D remain wholly open.** Other challenge entries have prior readings, new partial recovery or source-linked reconstructions, with the exact status in each case.

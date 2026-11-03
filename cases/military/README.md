@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**248 reviewed entries across 97 case pages, representing 248 physical sources; 248 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**249 reviewed entries across 98 case pages, representing 249 physical sources; 249 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -91,6 +91,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p210 D — request for the situation in Reval](p210_D.md) | p210 D |
 | [Oderberg transport fragment and a troop-situation query](prague_route_and_situation.md) | p211 A2, p211 B upper |
 | [Heated sick wagons, cooking equipment and hot tea](medical_return_transports.md) | p212 A1, p212 A5, p213 A6, p213 A7 |
+| [p212 A4: hospitals, patients and transport](p212_medical_fragment.md) | p212 A4 |
 | [p215 B1 — Train-departure fragment of an evening report](p215_train_departure_fragment.md) | p215 B1 |
 | [Divisional areas and staff locations: second part with explicit geographical alternatives](nov22_divisional_positions_part2.md) | p215 B2 |
 | [p217 A — Coal shortages, disarmament and transport through Czechoslovakia](p217_A.md) | p217 A1, p217 A2, p217 A3, p217 A4, p217 A5 |
@@ -316,6 +317,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p211 A2](prague_route_and_situation.md) | Oderberg transport-clause ending; first part explicitly missing; possible p209 companion unproved | 88/88 native raw labels; no repairs; missing first part and date mismatch retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier upper-A2 OCR reading credited separately |
 | [p211 B upper](prague_route_and_situation.md) | Short query about situation and conduct of troops | 34/34 native raw labels; 3 explicit word repairs; no geometry changes | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier upper-A2 OCR reading credited separately |
 | [p212 A1](medical_return_transports.md#p212-a1) | Conditional introduction to medical advice for transports from Turkey | Conditional first-part reading; four tied missing-group placements explicitly retained | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p212 A4](p212_medical_fragment.md#p212-a4) | Hospitals, patients, transport, personnel and medicines | 197 observed coordinates unchanged; conditional302-slot missing-prefix frame; raw46/151; five lexical spans give129/151 with83 added-half fills and0 observed substitutions;22 positions unresolved | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov22–24 key; earlier source editions credited |
 | [p212 A5](medical_return_transports.md#p212-a5) | Heated sick wagon, cooking equipment and hot tea | Five coordinate repairs and one printed-glyph fill; instruction label unchanged | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p213 A6](medical_return_transports.md#p213-a6) | Water points, forwarding and medical-department request | Five word repairs; 5T bridge and position before DEPARTEMENT unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p213 A7](medical_return_transports.md#p213-a7) | Arrange transport care from Constantinople; raw reference retained | One printed-glyph fill; raw NIKOLA9EW and footer untouched | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |

@@ -6840,6 +6840,51 @@
       ]
     },
     {
+      "path": "cases/military/p212_medical_fragment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "b6c3bab739279d800be93b541bf367990cce72d6971128db2a3689db36d7d8f3",
+      "review_basis": "Explicit review of source, conditional raw frame, priced lexical completion and selected-fragment German; source/cipher verified separately.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "35e76563005ee182522daf78c4f77a90dcc371f1b0b6ce625d494f3521e889e8",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 197 printed coordinates:**"
+        },
+        {
+          "index": 1,
+          "sha256": "beab3b88dc74186888dad4d077a6241864a2f979ab644b934bae9f9bd8757cc6",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — conditional 302-slot frame; all missing coordinates unassigned:**"
+        },
+        {
+          "index": 2,
+          "sha256": "a9af7820b1ef3615d46b7904cb0d191514611088cfccd5108a025cb8e0f99f67",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — same frame and key; 83 inserted-half fills, 22 positions unresolved:**"
+        },
+        {
+          "index": 3,
+          "sha256": "e683a0fdcf8c1e547d2599a2975369e54311f33182efe914b8e2b4ae3529d882",
+          "role": "reproduction_command",
+          "caption_required": true,
+          "caption": "## Reproduce and attribution"
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "c34ec8e666b36544f841898491bbb47c369d5efbb7537cbdef1e33de15e56b11",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — selected fragments only; literal 9 retained:**"
+        }
+      ]
+    },
+    {
       "path": "cases/military/p215_train_departure_fragment.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "3cf66b40e293290b3ac85a47d95e1554c375a0a65028377e17e9cb943914232b",

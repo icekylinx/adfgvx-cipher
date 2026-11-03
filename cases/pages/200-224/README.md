@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 175–199](../175-199/README.md) · [pp. 225–249 →](../225-249/README.md)
 
-**2 challenge entries · 116 other reviewed entries · 25 printed pages · 118 physical sources.**
+**2 challenge entries · 117 other reviewed entries · 25 printed pages · 119 physical sources.**
 
 Jump to page: [p200](#p200) · [p201](#p201) · [p202](#p202) · [p203](#p203) · [p204](#p204) · [p205](#p205) · [p206](#p206) · [p207](#p207) · [p208](#p208) · [p209](#p209) · [p210](#p210) · [p211](#p211) · [p212](#p212) · [p213](#p213) · [p214](#p214) · [p215](#p215) · [p216](#p216) · [p217](#p217) · [p218](#p218) · [p219](#p219) · [p220](#p220) · [p221](#p221) · [p222](#p222) · [p223](#p223) · [p224](#p224).
 
@@ -158,6 +158,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 | [p212 A1](../../military/medical_return_transports.md#p212-a1) | Conditional introduction to medical advice for transports from Turkey | Conditional first-part reading; four tied missing-group placements explicitly retained | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p212 A2](../../caucasus/p212_p218_crosscopy.md#p212-a2) | Truncated cross-copy of the Tiflis armistice-withdrawal notice | Conditional tail from prior p218 A2; three complementary source differences; date conflict retained | icekylinx and GPT-6 Astra Pro (2026); earlier full p218 source edition credited; no new unique historical body claim |
 | [p212 A3](../../finance/oil_cartel_dispatch_query.md#p212-a3) | Oil cartel query about consignments shipped from Poti | Five ordinary-word coordinate repairs; association with medical report unasserted | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p212 A4](../../military/p212_medical_fragment.md#p212-a4) | Hospitals, patients, transport, personnel and medicines | 197 observed coordinates unchanged; conditional302-slot missing-prefix frame; raw46/151; five lexical spans give129/151 with83 added-half fills and0 observed substitutions;22 positions unresolved | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov22–24 key; earlier source editions credited |
 | [p212 A5](../../military/medical_return_transports.md#p212-a5) | Heated sick wagon, cooking equipment and hot tea | Five coordinate repairs and one printed-glyph fill; instruction label unchanged | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 
 ## p213

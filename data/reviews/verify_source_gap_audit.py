@@ -97,7 +97,11 @@ def main():
             matching = []
             for name in editions[r['id']]['evidence']:
                 if name.endswith('/inputs.json'):
-                    matching += [x for x in load(ROOT / name).get('records', []) if x['id'] == r['id']]
+                    inputs = load(ROOT / name)
+                    records = inputs.get('records')
+                    if records is None and isinstance(inputs.get('record'), dict):
+                        records = [inputs['record']]
+                    matching += [x for x in (records or []) if x['id'] == r['id']]
             assert len(matching) == 1, r['id']
             assert literal(matching[0]) == text, r['id']
     assert sum(r['source_slots'] for r in rows) == 3451

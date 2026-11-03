@@ -12,25 +12,25 @@ Every log page has a recorded boundary review. That review checks where bodies b
 
 | Measure | Current tree | Starting snapshot, 2026-11-03 08:04:46 UTC |
 |---|---:|---:|
-| Reviewed catalogue edition entries | 669 | 640 |
-| Distinct catalogued physical bodies | 668 | 639 |
+| Reviewed catalogue edition entries | 670 | 640 |
+| Distinct catalogued physical bodies | 669 | 639 |
 | Original challenge entries | 22 | 22 |
-| Other catalogue entries | 647 | 618 |
-| Additional physical bodies beyond challenges | 646 | 617 |
-| Bodies outside the current catalogue | 11 | 40 |
+| Other catalogue entries | 648 | 618 |
+| Additional physical bodies beyond challenges | 647 | 617 |
+| Bodies outside the current catalogue | 10 | 40 |
 
-Current catalogue metadata records source review for **668 distinct bodies**. This is the existing source-review evidence status, not a number of solved messages. The registered p132 / p132_B overlap is one physical body with two edition entries. The current counts come from the files in this checkout; the fixed baseline is never substituted for them.
+Current catalogue metadata records source review for **669 distinct bodies**. This is the existing source-review evidence status, not a number of solved messages. The registered p132 / p132_B overlap is one physical body with two edition entries. The current counts come from the files in this checkout; the fixed baseline is never substituted for them.
 
 There are **0 uncatalogued bodies** with an explicitly registered local review package in this checkout. They remain outside the catalogue count until integration. Publication status and local research status are distinct.
 
 ## Quantitative evidence coverage
 
-The bounded structured adapters independently recompute primary source/model accounting for **551 of the 679 bodies**. The other **128 bodies remain unquantified by this dashboard**; that includes unsupported legacy certificate shapes and genuinely missing editions. It does not mean that all of them lack prior decipherment work.
+The bounded structured adapters independently recompute primary source/model accounting for **552 of the 679 bodies**. The other **127 bodies remain unquantified by this dashboard**; that includes unsupported legacy certificate shapes and genuinely missing editions. It does not mean that all of them lack prior decipherment work.
 
 | Verified primary frame class | Physical bodies | Native slots | Model positions | Fixed raw labels, all unobserved coordinates unassigned | Extra fixed labels from supplied unobserved coordinates |
 |---|---:|---:|---:|---:|---:|
 | Native order and length | 472 | 100538 | 50269 | 48975 | 0 |
-| Modified frame; its stated assumptions still apply | 79 | 16822 | 8819 | 7616 | 1 |
+| Modified frame; its stated assumptions still apply | 80 | 17019 | 8970 | 7662 | 1 |
 
 These position totals cover only the quantified subset. **They are not a whole-corpus plaintext-completion percentage.** A fully fixed raw stream can retain garbles or uninterpreted numbers. The checker separates native source slots, conditional model additions/exclusions, and coordinates supplied from another witness; it does not combine alternative models or optional prose into a primary total.
 
@@ -48,7 +48,6 @@ The per-body JSON output includes exact evidence paths and explicit reasons when
 | 154 | A2 | No structured edition registered here |
 | 163 | A16 | No structured edition registered here |
 | 194 | D1 | No structured edition registered here |
-| 212 | A4 | A4: `experiments/p212_p218_crosscopy/inputs.json` (lead; coverage not inferred); A4: `experiments/medical_return_transports/inputs.json` (lead; coverage not inferred) |
 | 215 | A, B3 | No structured edition registered here |
 
 An artifact lead can be a diagnostic or contextual mention. Its existence does not count as a recovered body. The local label A16 at p163 identifies the actual fragment between printed parts 15 and 17; it does not assert a printed `16 TL` heading.
@@ -77,7 +76,7 @@ python data/reviews/verify_childs_material_coverage.py --write-report
 
 `--verify` is read-only. `--write-report` explicitly refreshes this dashboard from the live tree. The optional PDF check pins the original file bytes and page count; the source-boundary inspection itself is a recorded manual review, not an automated glyph-recognition claim.
 
-Current catalogue SHA-256: `40a70dfb8d89749cff318e21c075073664bc4e8833a9ccc6703d12debce600fb`.
+Current catalogue SHA-256: `9b98b2543e59523e975d2cb80550d984e9483ad8c20ec07f7747ee8abb732dae`.
 Census SHA-256: `2edad8ccbe1e589ae5e1b0497dd4d594d197f3ec5a5c1178e499d47f8a37ef87`.
 
 Source: J. Rives Childs, *General Solution of the ADFGVX Cipher System*, [complete scanned volume](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). See the [machine-readable census](../data/reviews/childs_material_census_20261103.json) for page-level review bases and material exceptions.

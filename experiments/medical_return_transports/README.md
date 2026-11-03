@@ -6,6 +6,8 @@ Five source editions are recorded from Childs pp212–213 (22 November 1918): fo
 
 The [medical reading](../../cases/military/medical_return_transports.md) and [separate oil query](../../cases/finance/oil_cartel_dispatch_query.md) retain every raw string. [inputs.json](inputs.json), [certificates.json](certificates.json), [source crops](sources/) and the verifier supply exact coordinates, mappings and repairs.
 
+The later [p212 A4 partial edition](../p212_medical_fragment/README.md) supplies a separately verified 302-slot hypothesis and 129/151 labels. The original five-record certificate below remains unchanged; A4 is counted once through its new catalogue entry.
+
 ## Framing and the two unread fragments
 
 The p212 header says `XYZ v LP (03.54 p.m., November 22nd); ----- 7 TLE`. Numbered parts 1/2/4/5 occur on that page, and 6/7 continue under the same date on p213. The 224-coordinate oil query between parts 2 and 4 has **no visible “3 TL” label**. `p212_A3` is its positional catalog identifier; the edition does not treat its different subject as medical content or claim to reconstruct a complete seven-part message.
