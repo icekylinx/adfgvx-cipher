@@ -13,6 +13,8 @@ historical decipherment priority is claimed.
 
 ## Reading
 
+**Readable German:**
+
 > November-Ringbahnschluessel nicht vernichten. Nachr.-Chef X4, B848727.
 > Dezember-Ringbahnschluessel tritt vorlaeufig nicht in Kraft. Dafuer
 > Schluessel erster Dezember wie zehnter November usw. bis
@@ -59,6 +61,8 @@ is printed p211 / PDF p214. That page contains two different `B` labels under
 different headings. This case concerns the **lower B**, following a new
 **19 November 1918** heading:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 POT v NKJ (09.48 a.m., November 22d)
 FUER POT COS VON LP SS DD 2230 3 TLE
@@ -77,6 +81,8 @@ confusing them with the upper B.
 
 Part 1, 214 slots / 107 fixed plaintext positions:
 
+**Raw output:**
+
 ```text
 NOVEMBERXGINGBAHNSC7LUESSELNICHTVERNICHTENXNACHRCHEFX4XB848727XXDEZRMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGX
 ```
@@ -88,11 +94,15 @@ All other 211 coordinates stay unchanged.
 
 Part 2, 184 slots / 92 fixed positions, needs no repair:
 
+**Raw output:**
+
 ```text
 NICHTINKRAFTXDAFUERSCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWANZIGSTERDEZEMBER
 ```
 
 Part 3, 134 slots / 66 of 67 fixed positions:
+
+**Raw output:**
 
 ```text
 WIEDREISSI?STERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNACHRCHEFZ4XBX47857X

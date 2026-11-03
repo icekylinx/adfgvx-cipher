@@ -10,6 +10,8 @@ The clear header addresses General von Kress in Tiflis: `NKJ v LP (3.53 p.m., Oc
 
 All 132 source coordinates are observed. They decrypt directly to 66 fixed labels with no repair:
 
+**Raw output:**
+
 ```text
 ZUXNRX4452XPIONXABTXKANNINTIFLISBELASZENWERDENXGROENERXBX103830XO9
 ```

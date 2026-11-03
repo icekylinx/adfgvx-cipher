@@ -6,7 +6,7 @@ The complete readable edition is [armistice_provisions_requests.md](../../cases/
 
 ## Scope and price
 
-| Record | Working coordinates | Raw fixed → edited fixed | Observed substitutions | Mask fills | Geometry |
+| Record | Analysis-frame slots | Raw fixed → edited fixed | Observed substitutions | Mask fills | Geometry |
 |---|---:|---:|---:|---:|---|
 | p188 A | 224 of 225 visible slots | 105/112 → 112/112 | 15 | 6 | Conditional exclusion of one extra K/X-like visible mark, costing 0–1 known-coordinate deletion |
 | p188 B2 | 176 | 84/88 → 88/88 | 10 | 0 | Native; “jammed to end” note remains |

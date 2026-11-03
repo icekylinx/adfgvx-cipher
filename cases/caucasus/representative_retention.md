@@ -16,6 +16,8 @@ System*, [printed p142, PDF p145](https://drive.google.com/file/d/1_JiNMck7eUvdr
 The [B crop](../../experiments/radio_contacts_and_keys/sources/childs_p142_B.png)
 is under a November 6 heading:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 B) NKJ v LP (08.30 p.m., November 6th)
 FUER COS EINMAL 1250 (6/11)
@@ -26,11 +28,15 @@ All **286 coordinates** are visible and valid, matching the printed length.
 The earlier 280-slot OCR extraction omitted source content and is not the
 analysis frame. The unchanged published `Nov4-6` key fixes all 143 raw labels:
 
+**Raw output:**
+
 ```text
 FUERXBEVXKMXKAUKASUCXT9FLISXZU4TELEGRAMMVOMX29X10X18XPOTX44XNRX2331XBEVXKXMXSOLLBLEIBENXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRXZXROEMX1XAX23X11X18XKRA
 ```
 
 Three observed-coordinate substitutions give:
+
+**Edited output:**
 
 ```text
 FUERXBEVXKMXKAUKASUSXTIFLISXZUMTELEGRAMMVOMX29X10X18XPOTX44XNRX2331XBEVXKXMXSOLLBLEIBENXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRXZXROEMX1XAX23X11X18XKRA
@@ -38,12 +44,16 @@ FUERXBEVXKMXKAUKASUSXTIFLISXZUMTELEGRAMMVOMX29X10X18XPOTX44XNRX2331XBEVXKXMXSOLL
 
 Readable core:
 
+**Readable German:**
+
 > Für Bev. K.M. Kaukasus, Tiflis. Zum Telegramm vom 29.10.18,
 > POT 44, Nr. 2331. Bev. K.M. soll bleiben.
 
 The source uses `BEVXKMX` in the address and `BEVXKXM` later; both exact
 separator patterns remain in the encoded edition. The following reference
 is retained verbatim and **not silently interpreted as a November date**:
+
+**Raw output — unchanged reference-field excerpt:**
 
 ```text
 KRIEGSAMTKRIEGSROHSTOFFABTLGXNRXZXROEMX1XAX23X11X18XKRA

@@ -4,9 +4,11 @@
 
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source audit](../../experiments/corpus_attack/SOURCE_FAMILIES.md)
 
-**Records:** p140 B and p149 C. **Result:** 167 of 168 proposed letters have complete coordinate-pair support in a printed witness under the published Nov4–6 key. One damaged glyph needs an explicit reading to complete `KONSTANTINOPEL`.
+**Records:** p140 B and p149 C. **Result:** 167 of 168 proposed positions have complete coordinate-pair support in a printed witness under the published Nov4–6 key. One damaged glyph needs an explicit reading to complete `KONSTANTINOPEL`.
 
 ## Most likely reading
+
+**Readable German:**
 
 > Militär-Mission Konstantinopel. Drahtnachricht über Verbleib Reg. Bmstr. Glatz vom Straßenbau-Sonderkommando 1 erbeteten [wohl: erbeten]. Milverkehr, röm. II A 100166 Ko, durch Admiralstab, Kz. 95537.
 
@@ -15,6 +17,8 @@
 **English meaning:** To the Military Mission in Constantinople. A telegram is requested reporting the whereabouts of Government Master Builder Glatz of Road Construction Special Detachment 1. The closing contains routing and reference information, including transmission through the Admiral Staff and reference 95537.
 
 *Reg. Bmstr.* is probably *Regierungsbaumeister*. The precise institutional meanings of `MILVERKEHR`, `ROEM 2 A 100166 KO` and `KZ 95537` are not established here. The source-supported wording is **ERBETETEN**, with an extra `TE` compared with ordinary **ERBETEN**. The readable edition marks this irregularity; the fixed-length candidate retains all its letters.
+
+**Edited output:**
 
 ```text
 MILITAERXMISSIONKONSTANTINOPELXDRAHTNACHRICHTUEBERVERBLEIBREGXBMSTRXGLATZVOMSTRASSENBAUSONDERKOMMANDO1ERBETETENXMILVERKEHRXROEMX2XAX100166XKOXDURCHADMIRALSTABXKZX95537X

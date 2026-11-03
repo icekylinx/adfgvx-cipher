@@ -10,6 +10,8 @@ The economic department of the Caucasus delegation is asked whether purchases ha
 
 [Source crop](../../experiments/deutzitag_dispatch_inquiries/sources/p80_A.png). Receipt `COS v LP (6.36 a.m., October 31st)`; origin `SS BERLIN 30/10 ... 1900`; addressee `KAUKASUS DELEGATION WIRTSCHAFTSABTEILUNG`. All 274 printed coordinates give this unedited 137-character body:
 
+**Raw output:**
+
 ```text
 DRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG
 ```
@@ -20,11 +22,15 @@ Reading: “Drahtet, ob von euren Käufen bereits Abtransporte erfolgt sind, eve
 
 [Source crop](../../experiments/deutzitag_dispatch_inquiries/sources/p81_A.png); [overprinted source glyph](../../experiments/deutzitag_dispatch_inquiries/sources/p81_A_overprint.png). Receipt `NKJ v LP (6.45 a.m., October 31st)`; origin `FUER COS SS BERLIN 30/10 B V K M KAUKASUS 1172`. All 338 coordinates are observed:
 
+**Raw output:**
+
 ```text
 FUERXSAULXWEINREICHXDOPPELPUNKTXDRAHTETJBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG
 ```
 
 The received prefix is “Für Saul Weinreich:”. No independent personal identity is assigned. Source index 248 `G → F` changes the ordinary word `JB` to `OB`; the resulting suffix equals the complete p80 A and p81 C bodies at every coordinate pair. The corrected full candidate is:
+
+**Edited output:**
 
 ```text
 FUERXSAULXWEINREICHXDOPPELPUNKTXDRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG
@@ -35,6 +41,8 @@ This is one local ciphertext repair. The published J label is not changed global
 ## p81 C
 
 [Source crop](../../experiments/deutzitag_dispatch_inquiries/sources/p81_C.png). Receipt `NKJ v LP (6.36 a.m., October 31st)`; origin `FUER COS SS BERLIN 30/10 1900`; addressee `KAUKASUS DELEGATION WIRTSCHAFTSABTEILUNG`. All 274 coordinates are **identical to p80 A**, and decrypt without repair:
+
+**Raw output:**
 
 ```text
 DRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG

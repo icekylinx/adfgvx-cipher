@@ -1,0 +1,237 @@
+{
+  "schema": "adfgvx-september-receipt-and-front-inquiry-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Sep19-21",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      12,
+      2,
+      7,
+      20,
+      10,
+      19,
+      1,
+      13,
+      9,
+      18,
+      3,
+      17,
+      21,
+      8,
+      14,
+      4,
+      6,
+      16,
+      11,
+      22,
+      5,
+      15
+    ],
+    "column_count": 22,
+    "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+    "square_rows": [
+      "D5613Q",
+      "9KBNO0",
+      "HY8EIS",
+      "JUTZFC",
+      "W7VPML",
+      "2ARG4X"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 236,
+        "pdf_page_1based": 239,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p58_A_full.png",
+      "printed_page": 58,
+      "pdf_page_1based": 61,
+      "crop_pdf_points": [
+        50,
+        213,
+        562,
+        376
+      ],
+      "render_scale": 4,
+      "sha256": "01ebf3214f8a75722b516421f7c0a3f32dc73ba7b4af1bead58d7034a10e506a"
+    },
+    {
+      "path": "sources/p58_B_full.png",
+      "printed_page": 58,
+      "pdf_page_1based": 61,
+      "crop_pdf_points": [
+        50,
+        389,
+        562,
+        526
+      ],
+      "render_scale": 4,
+      "sha256": "63e94c4fd78c299db1246e113fdb078c49c31ccbf64cb2bc38cea372bf32d9c8"
+    },
+    {
+      "path": "sources/p58_B_glyphs.png",
+      "printed_page": 58,
+      "pdf_page_1based": 61,
+      "crop_pdf_points": [
+        485,
+        433,
+        533,
+        499
+      ],
+      "render_scale": 10,
+      "sha256": "7ff4f7549afe78ea6624ea87b827d5132f83cff9392efd6c2056ed756cde0b3c"
+    },
+    {
+      "path": "sources/p59_B.png",
+      "printed_page": 59,
+      "pdf_page_1based": 62,
+      "crop_pdf_points": [
+        86,
+        663,
+        539,
+        802
+      ],
+      "render_scale": 4,
+      "sha256": "c3cf299e3f2b24b58cb9c95a8009e5fbdca62e779b765a4264c158dc1c0e32ea"
+    }
+  ],
+  "records": [
+    {
+      "id": "p58_B",
+      "printed_page": 58,
+      "source_section": "B",
+      "source_rows": [
+        "FFXGV FGGFX GFFXX FXAFG XFXGF XDXDX GFXFD FGGXC",
+        "FFVDF FFXVX GGFXX GDDGX FDGXF XDDDF FXVFX XXFXX",
+        "XGXFD XGFVV FXXXX DXDGD GVVXG XXDVX AGFDF FDGFL",
+        "VGXDA DGVGG VGAVX VGFFD GXGXA XVA"
+      ],
+      "source_slots": 148,
+      "advertised_length": 148,
+      "expected_raw": "GENERALVONKRECSTIFLISXXMARKXSECHUENHUNDERZXERHALTENXXMARINE?TTA?HEXSOTIAXX",
+      "readable_candidate": "GENERALVONKRESSTIFLISXXMARKXSECHZENHUNDERTXERHALTENXXMARINEATTACHEXSOFIAXX"
+    },
+    {
+      "id": "p59_B",
+      "printed_page": 59,
+      "source_section": "B",
+      "source_rows": [
+        "DXGXG DXDDG AXGGV ADFDX XXVXX AXVXG FDDFF FFXVF",
+        "XFGFG GXDXF VDVDA DFGFV VVFDX GFFDD AXGXF XDGXV",
+        "GGGGG XXDVV DDDFD DFXXG XAGFF FGVGV XXGGG FGADX",
+        "FAVGX GGGFF DXAVF DGADF DDGFG DVFXG DGXGF GXXGX",
+        "DFVFA DDFFF VX"
+      ],
+      "source_slots": 172,
+      "advertised_length": 172,
+      "expected_raw": "ANAKONACH70NAZARETHAUSWERTUNGSSTELLEXERBITTENNACHRICHTENVONKAMPFFRONTXBLITZXPHQX95267X",
+      "readable_candidate": "ANAKONACH70NAZARETHAUSWERTUNGSSTELLEXERBITTENNACHRICHTENVONKAMPFFRONTXBLITZXPHQX95267X"
+    }
+  ],
+  "headers": {
+    "p58_B": [
+      "COS v NKJ (2.05 p.m., Sept. 21st)",
+      "1130 (VON SFA)",
+      "RICHI-148"
+    ],
+    "p59_B": [
+      "OSM v LP (01.57 p.m., September 21st)",
+      "1030 (21.9)",
+      "RICHI-172"
+    ]
+  },
+  "source_annotations": [
+    {
+      "record": "p58_B",
+      "source_index": 39,
+      "literal": "C",
+      "treatment": "The damaged rightmost glyph is C-like; its coordinate identity is unresolved and modeled as one erasure. The edited candidate requires G."
+    },
+    {
+      "record": "p58_B",
+      "source_index": 119,
+      "literal": "L",
+      "treatment": "The rightmost glyph is L-like; its coordinate identity is unresolved and modeled as one erasure. The edited candidate requires D."
+    }
+  ],
+  "contextual_unread_records": [
+    {
+      "id": "p58_A",
+      "counted_in_summary": false,
+      "header_literal": "--- v ---; DORTIGER NOTIZ FÜR POT ZU DORTIGER NOTIZ FÜR POT 1200 3 TL[final glyph faint]",
+      "parts": [
+        {
+          "label": "1 TL",
+          "advertised_length": 196,
+          "printed_body": "AAA"
+        },
+        {
+          "label": "2 TL",
+          "advertised_length": 212,
+          "printed_body": "AAA"
+        },
+        {
+          "label": "3 TL",
+          "advertised_length": 182,
+          "printed_body": "VOM 10/9 VON COS BEREITS VE VE"
+        }
+      ],
+      "limit": "These are stubs and cleartext, not complete coordinate records. No missing body is inferred or counted."
+    }
+  ],
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "99dbfce7f87402ffa25985e5490c510747aa9534c50dd53158be895bfc53236a",
+    "key_credit": "Published Sep19–21 key, recorded with original provenance in data/keys.json.",
+    "body_credit": "Earlier unreviewed repository body candidates are retained; this is an independently reversible source edition, not a historical first-solution claim."
+  },
+  "limits": [
+    "The p58 amount is edited only to literal SECHZENHUNDERT. Readable German may bracket the normal spelling sechzehnhundert, but no missing plaintext H or numerical 1600 is inserted into the encoded stream.",
+    "KRESS, TIFLIS, MARINEATTACHE and SOFIA are textual readings here, not an independent historical identification of persons or events.",
+    "AKONACH70, PHQ and reference 95267 remain literal. No new unit identification or numerical relabeling is made.",
+    "No source insertion, deletion, length change or key change is used. Exact re-encryption certifies the stated editing cost, not historical uniqueness."
+  ]
+}

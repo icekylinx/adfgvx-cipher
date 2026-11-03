@@ -12,11 +12,15 @@ The source prints `RICHI 224` but **no visible “3 TL” label**. `A3` is the c
 
 All 224 coordinates are observed. Raw, 112 positions:
 
+**Raw output:**
+
 ```text
 OELKARTELLVIFLISXNUMM3R2XDRAHTETWANNWOHINWOLCHEADRESSEMITWELCHEMSCHCFFUNSEREPARTIENVONPOTIVERLADENSINDXXDEUTKAUF
 ```
 
 Five observed-coordinate substitutions yield the conservative candidate:
+
+**Edited output:**
 
 ```text
 OELKARTELLTIFLISXNUMMER2XDRAHTETWANNWOHINWELCHEADRESSEMITWELCHEMSCHIFFUNSEREPARTIENVONPOTIVERLADENSINDXXDEUTKAUF

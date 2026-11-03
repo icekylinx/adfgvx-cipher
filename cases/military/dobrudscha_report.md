@@ -17,6 +17,8 @@ System*, [printed p142, PDF p145](https://drive.google.com/file/d/1_JiNMck7eUvdr
 The [C crop](../../experiments/radio_contacts_and_keys/sources/childs_p142_C.png)
 is under a November 6 heading:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 C) NKJ v LP (09.00 p.m., November 6th)
 FUER UKS 1915 (6/11)
@@ -26,17 +28,23 @@ RICHI-242
 The 242-slot source contains two printed dashes. The unchanged published
 `Nov4-6` key fixes 119 of 121 raw positions:
 
+**Raw output:**
+
 ```text
 ?NXNXOXMACKENSENXENTENTEMELDETX5011XERNEUTRUMAENISCHE?ESETZUNGDERXDOBRU2SCHAXSTELLUNGSNAHMEERBETENXABTXFREMDEHEERED17U560
 ```
 
 One known-coordinate substitution and two dash fills give:
 
+**Edited output:**
+
 ```text
 ANXNXOXMACKENSENXENTENTEMELDETX5011XERNEUTRUMAENISCHEBESETZUNGDERXDOBRUDSCHAXSTELLUNGSNAHMEERBETENXABTXFREMDEHEERED17U560
 ```
 
 Readable core, with the reference retained literally:
+
+**Readable German:**
 
 > An N.O. Mackensen. Entente meldet `5011` erneut rumänische Besetzung
 > der Dobrudscha. Stellungnahme erbeten. Abt. Fremde Heere `D17U560`.

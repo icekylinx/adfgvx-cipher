@@ -2,32 +2,34 @@
 
 **Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
 
-**Status:** Three complete source transcriptions and readable editions. The two versions of part2 retain their separate lengths and place spellings. No missing-coordinate model is imposed.
+**Status:** Three complete source transcriptions and readable editions. The two versions of part 2 retain their separate lengths and place spellings. No missing-coordinate model is imposed.
 
 Source edition and exact repair accounting: **icekylinx and GPT-6 Astra Pro**. Published **Nov1–3** square and ranks: Lasry, Niebel, Kopal and Wacker, unchanged. An earlier unreviewed candidate already identified the body of A1, including its appearance in the frozen p73 retrieval corpus. A2 and B were unreadable in the earlier OCR screen, which omitted their first source rows. Those candidates are preserved in [the prior-work record](../../experiments/black_sea_disembarkation/prior_candidates.json); the new full source transcriptions do not establish universal first-decipherment priority.
 
 ## Source records
 
-All three records occur on Childs printed page98 / PDF page101. A is headed `OSM v LP (-------, November 1st)`, `BVG KOSPOLI (1/11) 0400 2 TEILE`. Its first and second parts carry `RICHI-252` and `RICHI-264`. B is headed `OSM v LP (9.37 a.m., November 2nd)`, `BVG KOSPOLI (1.11) 0400`, `2 TL`, `RICHI-266`.
+All three records occur on Childs printed page 98 / PDF page 101. A is headed `OSM v LP (-------, November 1st)`, `BVG KOSPOLI (1/11) 0400 2 TEILE`. Its first and second parts carry `RICHI-252` and `RICHI-264`. B is headed `OSM v LP (9.37 a.m., November 2nd)`, `BVG KOSPOLI (1.11) 0400`, `2 TL`, `RICHI-266`.
 
 | Record | Literal coordinates | Fixed plaintext positions | Proposed coordinate substitutions |
 |---|---:|---:|---:|
 | A1 |252|126|3|
 | A2 |264|132|1|
-| B, repeated part2 |266|133|3|
+| B, repeated part 2 |266|133|3|
 | **Total physical records** |**782**|**391**|**7**|
 
-The source has no erased slots. Source transcription restores the full printed rows omitted by OCR; it does not insert coordinates into the historical ciphertext. The391-position total includes both versions of the second part and is not a count of391 distinct message characters.
+The source has no erased slots. Source transcription restores the full printed rows omitted by OCR; it does not insert coordinates into the historical ciphertext. The 391-position total includes both versions of the second part and is not a count of 391 distinct message characters.
 
 ## p98 A1
 
-Literal decryption:
+**Raw output:**
 
 ```text
 FECHXROEMX2XGROSSXBFRX52751XISTDAHINABZUAENDERNXDYSSAUCHSIEGFRIEDTZUPPENNICHTMEHRI5KONSTANZAXSONDERNINODESSAAUSZUSCHIFFENSINDX
 ```
 
 Edition, with three coordinate substitutions:
+
+**Edited output:**
 
 ```text
 FECHXROEMX2XGROSSXBFRX52751XISTDAHINABZUAENDERNXDASSAUCHSIEGFRIEDTRUPPENNICHTMEHRINKONSTANZAXSONDERNINODESSAAUSZUSCHIFFENSINDX
@@ -39,7 +41,7 @@ The cited instruction is to be amended so that the Siegfried troops, too, are to
 
 ## p98 A2
 
-Literal decryption:
+**Raw output:**
 
 ```text
 DEMNACHGEHENNUMEHRSAEMTLICHESCHIFFEVONKOSPOLINACHODESSABEZWXNIKILJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXF7CHXROEMX2XGROSSXBXFRX52787XX
@@ -51,13 +53,13 @@ The source form `NUMEHR` is retained, and `NIKILJEW` is not silently replaced by
 
 ## p98 B — second witness of part2
 
-Literal decryption:
+**Raw output:**
 
 ```text
 DEMNACHGEHENNUMEGRSAEMTLFCHESCHIFFVVONKOSPOLINACHODESSABEZWXNIKOLAJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXFECHXROEMX2XGROSSXBXFRX52787XX
 ```
 
-Edition:
+**Edited output:**
 
 ```text
 DEMNACHGEHENNUMEHRSAEMTLICHESCHIFFEVONKOSPOLINACHODESSABEZWXNIKOLAJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXFECHXROEMX2XGROSSXBXFRX52787XX

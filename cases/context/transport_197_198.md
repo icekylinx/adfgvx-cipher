@@ -14,6 +14,8 @@ repairs remain explicit. The separate [p198 D challenge](../p198.md) is still op
 
 ### Equipment for Darmstadt — p197 C / p198 B
 
+**Readable German:**
+
 > Nachr.-Chef. [EINHAFEN: unclear designation]. Zwei US-Geraete nach Darmstadt
 > verladen. Station bleibt bis [16X0???] betr.-bereit. Seifert.
 
@@ -23,6 +25,8 @@ date/time. Signed Seifert. The abbreviations are read as *Nachrichtenchef* and
 *betriebsbereit*; their full spellings were not transmitted.
 
 The source-supported editorial template is:
+
+**Edited output:**
 
 ```text
 NACHRCHEFXEINHAFENXZWEIUSGERAETENACHDARMSTADTVERLADENX
@@ -51,12 +55,16 @@ positions.
 
 ### Lorry, trailer and petrol pump — p197 D / p198 E
 
+**Readable German:**
+
 > Es kommt ein [?]-Tonnen-Auto. Nur besten [Anhaenger] beladen.
 > [Benzinpumpe] bereithalten.
 
 **Meaning:** A lorry of unresolved tonnage is coming. Load only the best
 trailer and have the petrol pump ready. The bracketed words include explicit
 editorial changes; the tonnage is not a recovered digit.
+
+**Edited output:**
 
 ```text
 ESKOMMTEIN?TONNENAUTOXNURBESTENANHAENGERBELADENX

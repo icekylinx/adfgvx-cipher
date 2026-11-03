@@ -36,12 +36,16 @@ the first printed grid row. They are retained in their original order.
 Source index 280 is the invalid `C` at the beginning of `CGVAD`.
 The raw 165-position reading is:
 
+**Raw output:**
+
 ```text
 MMDXXAUFTELEGRAMMVOM?X11XVERKAUFGENERALKERKIJRANURIMAEUSSERSTENNOTFALLRATSAMX?ONHIERWIRDERSUCHTA3SWA?FENSTILLSTANDSBEDINGUNGABTRANSPORT?ITDEUTSCHERTONNAGEZUERWIRKENX
 ```
 
 Three observed-coordinate substitutions and the invalid-coordinate fill
 produce this 164/165-position candidate:
+
+**Edited output:**
 
 ```text
 MMDXXAUFTELEGRAMMVOM?X11XVERKAUFGENERALKERKIJRANURIMAEUSSERSTENNOTFALLRATSAMXVONHIERWIRDERSUCHTALSWAFFENSTILLSTANDSBEDINGUNGABTRANSPORTMITDEUTSCHERTONNAGEZUERWIRKENX
@@ -65,6 +69,8 @@ coordinates**. Row 6, group 7 is `GDXV`, with only four letters.
 The representative model inserts a single erased coordinate at boundary
 232, inside that deficient group. Its raw 148-position reading is:
 
+**Raw output — conditional insertion at boundary 232 in the short printed group:**
+
 ```text
 WUNSCHDERTUERKENRICHTETSICHWOHLMEHRAUFERWERBDEUTSCHERTONNAGEALSAUFABTRANSPORTD?UTSCHERXVORSICHTGEBOTENXXREEDERWOLLENNURGEGENSOFORTIIEKASSEV?RKAUFENX
 ```
@@ -80,6 +86,8 @@ complete corrected ciphertext.
 Two observed-coordinate changes, plus that one missing-coordinate fill,
 yield this exactly reencryptable candidate:
 
+**Edited output — same conditional missing-slot frame, with the stated repairs and fill:**
+
 ```text
 WUNSCHDERTUERKENRICHTETSICHWOHLMEHRAUFERWERBDEUTSCHERTONNAGEALSAUFABTRANSPORTDEUTSCHERXVORSICHTGEBOTENXXREEDERWOLLENNURGEGENSOFORTIGEKASSEVERKAUFENX
 ```
@@ -94,11 +102,15 @@ does not force a unique loss boundary.
 
 All 374 coordinates are valid. The raw 187-position reading is:
 
+**Raw output:**
+
 ```text
 FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGVNEHMIGUNGXFORDERUNGGENERAL1200MARKKEHKYRATAUSEN?MARKFUERZRUTTOREGISTERTONNEXXMARINEAMTXXA?S22?4?
 ```
 
 Four observed-coordinate substitutions support this candidate:
+
+**Edited output:**
 
 ```text
 FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGENEHMIGUNGXFORDERUNGGENERAL1200MARKKERKYRATAUSENDMARKFUERBRUTTOREGISTERTONNEXXMARINEAMTXXA?S22?4?

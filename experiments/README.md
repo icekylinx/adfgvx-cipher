@@ -13,6 +13,13 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Hungary connection and radio supplies](hungary_connection_and_supplies/README.md) | Three native records; 319 fixed raw positions | Corrected source counts restore two unchanged messages; six source substitutions in the supply notice remain explicit. |
+| [Kress receipt and Nazareth front inquiry](september_receipt_and_front_inquiry/README.md) | Two records; 160 positions | Exact zero-edit front inquiry; damaged receipt glyphs and the missing-letter spelling remain explicit. |
+| [Withdrawal near Kronstadt and Hermannstadt](p175_c3_gap_followup/README.md) | One 111-position conditional record | Six tied single-block gaps; arbitrary-five loss lowers substitutions from four to three and still has six layouts. |
+| [Hauptwechselamt accounting](hauptwechselamt_accounting/README.md) | One 102-position record | Received November 10 under the earlier key; four unresolved positions and 72 compatibility witnesses retained. |
+| [Nobel oil inquiry and Damascus–Aleppo radio report](p64_oil_and_radio/README.md) | Three source records; 438 positions | Prior identified oil body credited; marked source glyphs and the conditional clock-digit reading remain separate. |
+| [Late-October radio service and hide purchasing](late_october_radio_and_materials/README.md) | Eight typed frames; 796 positions | Handwritten duplicate groups and their D/O ambiguity have separately priced composite frames; heavily filled text remains conditional. |
+| [November 3 medical, radio and withdrawal reports](nov3_medical_radio_withdrawal/README.md) | Five records; 458 modeled positions | Source-exact C3 and independent C4 audit; five observed exclusions have seven contiguous and fourteen arbitrary equal-cost layouts. |
 | [Armistice conditions and provisions requests](armistice_provisions_requests/README.md) | Three records;334 positions | Extra mark in A costs zero or one observed exclusion separately;29 substitutions and6 mask fills remain explicit. |
 | [Transport priorities and disarmament orders](transport_and_disarmament_orders/README.md) | Five native frames;594 positions | Actual source rows omitted by OCR are restored; incomplete Prague first part and abnormal reference labels remain literal. |
 | [Alpenkorps and other return orders](repatriation_orders/README.md) | Seven records;794 modeled positions | A complete unchanged-source copy supports an earlier damaged ending; one221-slot frame needs a conditional extra-X exclusion. |

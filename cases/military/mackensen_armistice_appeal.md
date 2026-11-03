@@ -19,6 +19,8 @@ The source is [Childs's collection](https://drive.google.com/file/d/1_JiNMck7eUv
 printed **p220 C1–C4 and p221 A5–A6**, PDF pages 223–224. The repeated header
 links the six parts:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 NKJ v UKS (05.24 p.m., November 25th)
 1620 (11/25) KR MIM 6 TLE
@@ -35,11 +37,15 @@ square and transposition are unchanged.
 All **222** printed slots are retained. The `C` in `ADCAV` is outside the
 coordinate alphabet. The literal-source reading is:
 
+**Raw output:**
+
 ```text
 OHLOPXXKMXXVOLKSREGXBERLI7XXGENXBERTHELOTHATMITGETEILJKDASSGENXFOCHANWENDUNGDERWESTWAFFEN?TILLSTANDSBEDINGUNGEN
 ```
 
 Four observed-coordinate substitutions and one invalid-glyph fill give:
+
+**Edited output:**
 
 ```text
 OHLOPXXKMXXVOLKSREGXBERLINXXGENXBERTHELOTHATMITGETEILTXDASSGENXFOCHANWENDUNGDERWESTWAFFENSTILLSTANDSBEDINGUNGEN
@@ -54,11 +60,15 @@ layer and the complete numeral/rare-letter inventory.
 
 The source contains exactly **264 valid coordinates**. Its raw reading is:
 
+**Raw output:**
+
 ```text
 FUERDEUTSCHESUEDOSTFRONTABLEHNTUNDENTWAFFNUNGUNDINTERNIERUNGHGRMAPKENSENFORDERTXOKMWIRDIMPFANGDERNOTEBISZUMEINTREFFENDERENTSCHEIDUNG
 ```
 
 Two observed-coordinate substitutions repair `MAPKENSEN` and `IMPFANG`:
+
+**Edited output:**
 
 ```text
 FUERDEUTSCHESUEDOSTFRONTABLEHNTUNDENTWAFFNUNGUNDINTERNIERUNGHGRMACKENSENFORDERTXOKMWIRDEMPFANGDERNOTEBISZUMEINTREFFENDERENTSCHEIDUNG
@@ -74,11 +84,15 @@ The page prints **206 valid coordinates**. Earlier OCR omitted the complete
 final `DDADF D`, producing an incorrect 200-coordinate frame. Restoring
 those six observed coordinates gives:
 
+**Raw output:**
+
 ```text
 OHLXLEDIGLICHBESTAETIGENXSOLLJEALLGEMXLAGEERFUELLUNGFRANZXFORDERUNGVERLANGEBXMUESSTEERREICHTWERDENKDASU
 ```
 
 Five observed-coordinate substitutions give the same-length candidate:
+
+**Edited output:**
 
 ```text
 OHLXLEDIGLICHBESTAETIGENXSOLLTEALLGEMXLAGEERFUELLUNGFRANZXFORDERUNGVERLANGENXMUESSTEERREICHTWERDENXDASS
@@ -99,11 +113,15 @@ the German wording and its costs so the distinction can be assessed.
 The source contains **244 valid coordinates**. Its final `XGGG` was omitted
 by earlier OCR. With that observed group restored, the raw reading is:
 
+**Raw output:**
+
 ```text
 ENTWAFFNUNGDURCHINGARNXNICHTDURCHENTENTEERFOLTUXDVONWNTERNI9RUNGXDIEAUCHAUIVERPFLEGUNGSGRUENDENHOECHSTENSINUNGARNMOEGLICHX
 ```
 
 Five observed-coordinate substitutions give:
+
+**Edited output:**
 
 ```text
 ENTWAFFNUNGDURCHUNGARNXNICHTDURCHENTENTEERFOLTUNDVONINTERNIERUNGXDIEAUCHAUSVERPFLEGUNGSGRUENDENHOECHSTENSINUNGARNMOEGLICHX
@@ -126,12 +144,16 @@ including three dashes. This discrepancy is present in the scan. Under
 the representative model of ten absent coordinates at the beginning, the
 raw reading is:
 
+**Raw output — conditional 232-slot frame with ten absent leading coordinates:**
+
 ```text
 ABS?AN0GE?OMME?WIRDKINTERN?ERUNGWUERD?NACH5EMSOEB?NKAR?ATHTN?NTERGROESST?NANSTRENGU?GENUEBERSCH?ITTENUNDAB?U?NSPORTE
 ```
 
 Six observed-coordinate substitutions, three printed-dash fills and ten
 inserted-coordinate fills give:
+
+**Edited output — same conditional leading-gap frame, with the stated repairs and fills:**
 
 ```text
 ABSTANDGENOMMENWIRDXINTERNIERUNGWUERDENACHDEMSOEBENKARPATHENUNTERGROESSTENANSTRENGUNGENUEBERSCHRITTENUNDABTRANSPORTE
@@ -168,11 +190,15 @@ incorrect length indicator are not excluded by these bounded comparisons.
 
 All **194 source coordinates** are valid. The raw reading is:
 
+**Raw output:**
+
 ```text
 EINGELEITETZUMASSENF8UC0TMITUNSAEGLICHEMELENDUNDZUOFFENERAUFLEHNUNGFUEHRENXFELDMXMACKENSENJAJJ6J4
 ```
 
 Two observed-coordinate substitutions give:
+
+**Edited output:**
 
 ```text
 EINGELEITETZUMASSENFLUCHTMITUNSAEGLICHEMELENDUNDZUOFFENERAUFLEHNUNGFUEHRENXFELDMXMACKENSENJAJJ6J4

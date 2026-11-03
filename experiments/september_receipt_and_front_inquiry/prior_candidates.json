@@ -1,0 +1,90 @@
+{
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+  "earlier_unreviewed_repository_rows": [
+    {
+      "block": "p58_ocr_block1",
+      "key": "Sep19-21",
+      "score": -5.450850644354093,
+      "plaintext": "GENERALVONKRECSTIFLISXXMARKXSECHUENHUNDERZXERHALTENXXMA?INE?TTA?HEXSOTIAXX",
+      "known_quadgrams": 59,
+      "ciphertext": "FFXGVFGGFXGFFXXFXAFGXFXGFXDXDXGFXFDFGGX?FFVDFFFXVXGGFXXGDDGXFDGXFXDDDFFXVFXXXFX?XGXFDXGFVVFXXXXDXDGDGVVXGXXDVXAGFDFFDGF?VGXDADGVGGVGAVXVGFFDGXGXAXVA",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 8,
+          "ocr_group": "FGGX",
+          "layout_hypothesis": "FGGX?",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "B) GOS v NKJ (2,05 pom, Sept. 21st)",
+        "1130 (VON SFA)"
+      ]
+    },
+    {
+      "block": "p58_ocr_block1",
+      "key": "Nov16-18",
+      "score": -8.962841541536394,
+      "plaintext": "JZMM?M?XAJ?LJCOJQ?YQC?USY1DKJL?1CFU?D?P1?HERMUMDFCMRXRFXLJ??HQJXJBYMVE?A?",
+      "known_quadgrams": 31,
+      "ciphertext": "FFXGVFGGFXGFFXXFXAFGXFXGFXDXDXGFXFDFGGXFFVDFFFXVXGGFXXGDDGXFDGXFXDDDFFXVFXXXFX?XGXFDXGFVVFXXXXDXDGDGVVXGXXDVXAGFDFFDGF?VGXDADGVGGVGAVXVGFFDGXGXAXVA",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "B) GOS v NKJ (2,05 pom, Sept. 21st)",
+        "1130 (VON SFA)"
+      ]
+    },
+    {
+      "block": "p59_ocr_block6",
+      "key": "Sep19-21",
+      "score": -5.395612877859196,
+      "plaintext": "ANAKONACH70NAZARE?HAUSWERTUNGSSTELLEXERBITTENNACHRICHTE?VONKAMPFFR?NTXBLITZXPHQX95267X",
+      "known_quadgrams": 71,
+      "ciphertext": "DXGXGDXDDGAXG??ADFDXXXVXXAXVXGFDDFFFFXVFXFGFGGXDXFVDVDADFGFVVVFDXGFFDDAXGXFXDGXVGGGGGXXDVVDDDFDDFXXGXAGFFFGVGVXXGGGFGADXFAVGXGGGFFDXAVFDGADFDDGFGDVFXGDGXGFGXX?XDFVFADDFFFVX",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "B) OSM v LF (01.57 p.m. September 21st)",
+        "1030 (21.9)"
+      ]
+    },
+    {
+      "block": "p59_ocr_block6",
+      "key": "Nov19-21",
+      "score": -9.310369031530032,
+      "plaintext": "UV2CD9IRXV96PNDOTBZ4E72KER8YZTGS5WYWN3?ZKJ2TSP3RNTXN9RGR?3BIKPGBEZ?2UWS467EU5P1VWNKRIX",
+      "known_quadgrams": 71,
+      "ciphertext": "DXGXGDXDDGAXG??ADFDXXXVXXAXVXGFDDFFFFXVFXFGFGGXDXFVDVDADFGFVVVFDXGFFDDAXGXFXDGXVGGGGGXXDVVDDDFDDFXXGXAGFFFGVGVXXGGGFGADXFAVGXGGGFFDXAVFDGADFDDGFGDVFXGDGXGFGXX?XDFVFADDFFFVX",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "B) OSM v LF (01.57 p.m. September 21st)",
+        "1030 (21.9)"
+      ]
+    }
+  ],
+  "bounded_prior_body_search": [
+    {
+      "kind": "Lasry et al. 2016 author-paper text",
+      "sha256": "e1fb17031286ee6244b0d36f31197cb5e497d2cbe6fa884e74fc12cab3a9918b",
+      "pattern": "Nazareth|Auswertungsstelle|Marineattach|sechzehn|Kress|Kreß",
+      "matches": []
+    },
+    {
+      "kind": "Lasry thesis text",
+      "sha256": "7d45f384650f95bac1e6310715a985c66f4ab5c31e3bcc70ca8f108a7e989117",
+      "pattern": "Nazareth|Auswertungsstelle|Marineattach|sechzehn|Kress|Kreß",
+      "matches": []
+    },
+    {
+      "kind": "55-comment 2017 discussion snapshot",
+      "sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "pattern": "Nazareth|Auswertungsstelle|Marineattach|sechzehn|Kress|Kreß",
+      "matches": []
+    }
+  ],
+  "limit": "The bodies were already readable in the earlier repository screen. No explicit separate body discussion was found by these bounded text searches; absence is not proof of historical priority."
+}

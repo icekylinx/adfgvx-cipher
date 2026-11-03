@@ -1,5 +1,7 @@
 # The Danube field report: two companion parts, 10–11 November
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and exact repair audit: icekylinx and GPT-6 Astra Pro.**
 
 Childs printed p176 B, PDF p179, labels a three-part message
@@ -22,11 +24,15 @@ square and ranks.
 The [252-coordinate source](../../experiments/nov10_delegates_and_field_report/sources/p176_B2.png)
 directly reads:
 
+**Raw output:**
+
 ```text
 FEHERTEMPLOMXFOLGENFRANZOSENXXBESATZUNSHEERXFEINDVORFUEHLTEGEGENNEUESTELLUNGENDONAUKNIEXSAMVITXNACHAGENTENSTARKMITENGLAEN?ERNX
 ```
 
 A single observed-coordinate replacement gives:
+
+**Edited output:**
 
 ```text
 FEHERTEMPLOMXFOLGENFRANZOSENXXBESATZUNSHEERXFEINDVORFUEHLTEGEGENNEUESTELLUNGENDONAUKNIEXSAMVITXNACHAGENTENSTARKMITENGLAENDERNX
@@ -47,11 +53,15 @@ a fill of an erased coordinate or an assignment of an unknown key cell.
 The [272-coordinate source](../../experiments/nov10_delegates_and_field_report/sources/p176_B3.png)
 directly reads:
 
+**Raw output:**
+
 ```text
 MAROKANERNBELEG1XXSISTOWXZUGVERKEHRXXBEIXRUS2UKXSETZTENFRANZOSENRUMAENISCHUFERUEBERXXRESERVENBRACHTENSNENOERDLNCHXSLOBOZIEXZUMSTEHENXOKM
 ```
 
 Four observed-coordinate replacements give:
+
+**Edited output:**
 
 ```text
 MAROKANERNBELEGTXXSISTOWXZUGVERKEHRXXBEIXRUSTUKXSETZTENFRANZOSENRUMAENISCHUFERUEBERXXRESERVENBRACHTENSIENOERDLICHXSLOBOZIEXZUMSTEHENXOKM

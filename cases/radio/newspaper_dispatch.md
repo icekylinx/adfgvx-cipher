@@ -15,6 +15,8 @@ The source is Childs, *General Solution of the ADFGVX Cipher System*,
 The [two parts](../../experiments/newspaper_dispatch/sources/p171_B.png)
 have this header:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 B) NKJ v LP (1.01 a.m., November 10th)
 1858 (9/11) 2 TLE
@@ -26,7 +28,7 @@ November 10. Both are retained. The source lengths are exactly 200 and
 
 ## Exact readings and separately priced repairs
 
-B1's direct output is:
+**Raw output:**
 
 ```text
 OBERPOSTDIREKTIOKBRESLAUXGESTERNUNDHEUTEBERLINERZEITUNGSSAECKEUEBERO?SOVAHIERE?NGEGANGENXVERANLASSET
@@ -35,17 +37,21 @@ OBERPOSTDIREKTIOKBRESLAUXGESTERNUNDHEUTEBERLINERZEITUNGSSAECKEUEBERO?SOVAHIERE?N
 One observed-coordinate substitution repairs `DIREKTIOK→DIREKTION`, and
 two fills of printed dashes give:
 
+**Edited output:**
+
 ```text
 OBERPOSTDIREKTIONBRESLAUXGESTERNUNDHEUTEBERLINERZEITUNGSSAECKEUEBERORSOVAHIEREINGEGANGENXVERANLASSET
 ```
 
-B2's direct output is:
+**Raw output:**
 
 ```text
 S8FORT3OSTBEFOERDERUNGAUFSELTEMWEGEXVOUZUGSWEISE7?3UND308XXXEUTSCHEFELDPOSTDIREKTIONRUMAENIEN
 ```
 
 Five observed-coordinate substitutions repair ordinary words:
+
+**Edited output:**
 
 ```text
 SOFORTPOSTBEFOERDERUNGAUFSELBEMWEGEXVORZUGSWEISE7?3UND308XXDEUTSCHEFELDPOSTDIREKTIONRUMAENIEN

@@ -12,13 +12,13 @@ It reports construction of a radio station near Hermannstadt, railway difficulti
 
 Radio station construction near Hermannstadt.
 
-Raw under the declared source model:
+**Raw output:**
 
 ```text
 ANOHLXXFUNK6NSTATXUNMITTELBARBEIHERMANNSTADTAUFGEBAUTXNACHDEMAUFBAUXDERDURCHSCHWIERIGKEITENDERBAHNBEHOERDENSEHRVERLANGSAMTX
 ```
 
-Conditional ordinary-word edition:
+**Edited output:**
 
 ```text
 ANOHLXXFUNKENSTATXUNMITTELBARBEIHERMANNSTADTAUFGEBAUTXNACHDEMAUFBAUXDERDURCHSCHWIERIGKEITENDERBAHNBEHOERDENSEHRVERLANGSAMTX
@@ -30,13 +30,13 @@ One observed-coordinate substitution; no length change.
 
 Reception difficulties and raw NIKOLA3EW.
 
-Raw under the declared source model:
+**Raw output:**
 
 ```text
 AMYQXBEENDETXWARVERSTAENTIGUN6NICHTMOEGLICHXDANIKOLA3EWGARTICHTUNDWUSTERHAUSENNURREITWEISEAUZNAHMENXVERSUCHEUEBERBUDAPEST
 ```
 
-Conditional ordinary-word edition:
+**Edited output:**
 
 ```text
 AMYQXBEENDETXWARVERSTAENDIGUNGNICHTMOEGLICHXDANIKOLA3EWGARNICHTUNDWUSTERHAUSENNURZEITWEISEAUFNAHMENXVERSUCHEUEBERBUDAPEST
@@ -48,13 +48,13 @@ Six observed-coordinate substitutions. **NIKOLA3EW and AMYQ are unchanged.** Raw
 
 Breslau reception and missing message references.
 
-Raw under the declared source model:
+**Raw output — conditional deletion of source 56 F from the six-coordinate group:**
 
 ```text
 WIENMUENCHEQKRFOLGLOSXERSTSEITBRESLAUAUFNIMMTXJ7XYYXVERBINDUNGGESICHERTXDORTXOUNKSPRUECUERMYANRYY837XYY3J7NJCHTEINGEGANGEN
 ```
 
-Conditional ordinary-word edition:
+**Edited output — same conditional deletion model, followed by five word repairs:**
 
 ```text
 WIENMUENCHENERFOLGLOSXERSTSEITBRESLAUAUFNIMMTXJ7XYYXVERBINDUNGGESICHERTXDORTXFUNKSPRUECHERMYANRYY837XYY3J7NICHTEINGEGANGEN
@@ -66,13 +66,13 @@ The source prints 245 coordinates against 244 advertised, with six-letter VFAFDV
 
 Request to repeat situation and armistice instructions.
 
-Raw under the declared source model:
+**Raw output — conditional deletion of one source X at 34, 35 or 36; aliases retained:**
 
 ```text
 ERBITTENWIEDERHOLUNGBEURTEILUNGDERLAGEBESONDERSAUSLEGUNGDESWAFFENSTILLSTANDESFU?ROKMXXOKMYAYY7Y1OPX
 ```
 
-Conditional ordinary-word edition:
+**Edited output — same conditional deletion model, with one printed-dash fill:**
 
 ```text
 ERBITTENWIEDERHOLUNGBEURTEILUNGDERLAGEBESONDERSAUSLEGUNGDESWAFFENSTILLSTANDESFUEROKMXXOKMYAYY7Y1OPX

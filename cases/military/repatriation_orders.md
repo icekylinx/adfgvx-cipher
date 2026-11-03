@@ -26,11 +26,15 @@ The complete diplomatic rows, raw readings, per-position domains, coordinate ori
 
 The p208 header reads `ZO'N v LP (20.59 p.m., November 18th)`, `07.10 (18/11) 2 TLE`. Part 1 gives this unaltered 123-label reading:
 
+**Raw output:**
+
 ```text
 ANOBERKDOMACKENSENXXWENNVERHAELTNISSEESGESTATTENISTALPENKORPSSOANZUSETZENDASSPREUSSISCHEVERBAENDENACHSCHLESIENZURVERFUEGUNG
 ```
 
 Part 2 continues, also without coordinate repairs:
+
+**Raw output:**
 
 ```text
 PREUSSXKMSXXBAYRXVERBAENDENACHBAYERNZURVERFUEGGDESBAYRXKMZUGEFUEHRTWERDENXXEMPFANGBESTAETIGENXXOHLXRM1AXX1?????OPX
@@ -46,6 +50,8 @@ Of p207 B's **223 observed coordinates, 222 agree** with the later printed witne
 
 The header reads `ZO'N v LP`, an unspecified reception time on November 18, and `13.00 (18/11) 2 TLE`. The first part's editorial reading is:
 
+**Edited output:**
+
 ```text
 ANXOKMXGERAETUNDPFERDEDIEWEDERDURCHMARSCHNOCHDURCHBAHNDEUTSCHLANDERREICHENKOENNENXFREIHAENDIGVERKAUFENXMOEGLICHSTVERHINDERNXDASSEIGENETRUPPEGANZENTBLOESSTWIRDX
 ```
@@ -55,6 +61,8 @@ This directs `OKM` to sell equipment and horses that can reach Germany neither b
 The seven substitutions, at zero-based source indices, are `18 V→F`, `43 V→F`, `51 V→F`, `61 G→D`, `106 D→X`, `124 X→D` and `192 X→D`. The certificate lists each affected plaintext label and each independently priced dash fill.
 
 The printed second part contains 44 complete five-coordinate groups followed by one extra X: **221 source slots against RICHI-220**. Excluding only that final X before untransposition yields:
+
+**Raw output — conditional exclusion of the final observed X at source index 220:**
 
 ```text
 GLEICHESERGEHTANXETRAXSUEDOSTXFECHXGRXHXQUXUNDKRIWEISOKMXNRX??1?X11X1?XANCHXKMXALLGMXKRDPXNRX2???X1?XGEHXANCHX
@@ -70,11 +78,15 @@ The header reads `KOW v LP (04.04 p.m., November 18th)`, `17.00 (18/11) FUER - H
 
 Part 1, after the single substitution `32 F→G`, reads:
 
+**Edited output:**
+
 ```text
 ANDEUTSCHENGENERALINFINNLANDXXDORTIGEXNRXBXCX212XUNDXRMX1AXNRX???XBEURTEILENLAGEVERSCHIEDENXOHLXNIMMTANX
 ```
 
 Part 2, after `66 V→A` and `67 G→A`, reads:
+
+**Edited output:**
 
 ```text
 BALDIGERABTRAANSPORTFUERNOETIGGEHALTENWIRDXOHLXRMX1AXNOX11?1?XGEHXOPXX

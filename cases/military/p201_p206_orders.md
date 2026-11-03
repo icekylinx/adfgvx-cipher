@@ -15,6 +15,8 @@ recovery retains [the catalogued attribution](../../data/keys.json).
 
 ## Reporting order on p201
 
+**Readable German:**
+
 > Erreichte Ziele regelmaessig hierher melden, desgl. wo u. wann erste
 > Teile voraussichtlich die deutsche Grenze erreichen werden, ob mit
 > Bahn/Fussmarsch und welche Teile des sind. Empfang bestaetigen. OHL.
@@ -30,6 +32,8 @@ shown as `werden` using one explicitly costed source-coordinate correction.
 
 The full raw readings are:
 
+**Raw output — two separately identified source parts:**
+
 ```text
 p201 B1:
 ERREICHTEZIELEREGELMAESSIGHIERHERMELDENDESGLXWOUXWANNERSTENTEILEVORAUSSICHTLICHDIEDEUTSCHEGRENZEERREICHEN
@@ -41,6 +45,8 @@ WERD?NOBMITBAHNFUSSMARSCHUNDWELCHETEILEDESSINDEMPFANGBESTAETIGENXOHLXNMX1XAX11??
 The p201 [source crop](../../experiments/open_targets_continuation/sources/childs_p201_selected.png)
 shows a **16 November** heading and receipt, while the clear internal origin
 stamp says **`OHL OP 15/11`**:
+
+**Source transcription — clear header and/or literal source record:**
 
 ```text
 NKJ, UKS, RAT v LP (3.49 p.m., November 16th)
@@ -66,6 +72,8 @@ acknowledgment of the present order.
 
 The [p206 source](../../experiments/open_targets_continuation/sources/childs_p206_selected.png)
 has an **18 November** heading and internal stamp but a **19 November** receipt:
+
+**Source transcription — clear header and/or literal source record:**
 
 ```text
 ZON v LP (06.28 a.m., November 19th)

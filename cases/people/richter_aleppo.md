@@ -13,6 +13,8 @@ are not forced into one recovered number.
 
 ## The earlier inquiry, p203 C
 
+**Readable German:**
+
 > K.M., Abt. Nachrichtenmittel, erbittet Nachricht Verbleib Untffz.
 > Richter, Funkerpark Aleppo, Feldpost ???.
 
@@ -24,6 +26,8 @@ The source abbreviation **UNTFFZ** is retained. Its interpretation as an
 NCO is supported by the later message's directly read **UNTEROFFZ**.
 The earlier message itself does not supply the first name Kurt.
 
+**Raw output:**
+
 ```text
 KMXABTXNACHRICHTENMITTELXERBITTETNACHRICHTVERBLEIBUNTFFZXRICHTERXFUNKERPARKXALEPPOXFELDPOSTX???X
 ```
@@ -32,6 +36,8 @@ All **192** coordinates in [p203 C](../../experiments/corpus_recovery/sources/p2
 are valid and unchanged. The three question marks are unknown square-cell
 values, not damaged source glyphs. The source section belongs to the
 **18 November** heading, below an earlier 16 November section:
+
+**Source transcription — clear header and/or literal source record:**
 
 ```text
 XYZ v LP (03.51 p.m., November 18th)
@@ -42,6 +48,8 @@ RICHI-192
 ## The later inquiry, p210 C
 
 The same-length editorial reconstruction reads:
+
+**Readable German:**
 
 > Ist ueber den Unteroffz. Kurt Richter, Aleppo, Armeenachrichtenpark
 > J527, Deutsche Feldpost 227, Auskunft ueber jetzigen Standort oder
@@ -60,6 +68,8 @@ numerals or a reconstructed reference.
 The [p210 C source](../../experiments/corpus_recovery/sources/p210_C.png)
 has **408** coordinate slots and this header:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 XYZ v LP (02.55 p.m., November 20th)
 17.40 (20/11)
@@ -67,6 +77,8 @@ RICHI-408
 ```
 
 Its raw decipherment under the unchanged Nov19–21 key is:
+
+**Raw output:**
 
 ```text
 IS0XEBERDENUNTEROFFZXKURTXRICHTERXALEPPOXARMEENACHRICHTENPARKXJ527XDEUTSCLEFELDPOSTX227XAUSKUNFTUEBER3ETZIGENSTANDORTOWERVERBLEIBZUERFAHRENJXNRXQ90STRICHJJXJ4XAXNCHX?RIEGSMINISTXALLGEMXK?I?GSDEPARTEMENTXX

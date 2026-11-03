@@ -14,6 +14,8 @@ The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 The [preserved source image](../../experiments/liman_troop_reports/sources/childs_p222_A.png)
 shows the heading `26th NOVEMBER, 1918.`, followed by:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 A) XY v LP (02.56 a.m., December 18th, G.H.Q.American E.F.)
 0900 (26/11) 2 TEILE
@@ -27,6 +29,8 @@ are all retained. The edition does not resolve that chronological distinction.
 The first part has exactly 214 valid coordinates, matching `RICHI-214`.
 Under the unchanged published `Nov25-28` square and ranks, its direct
 107-position reading is:
+
+**Raw output:**
 
 ```text
 GENERALVONLIMANXXBITTEREGELMAESSIG9EDEWOCHEABTRANSPORTESTAERKEUNDZUSTANDDERBEIKONSTANTINOPELUNDHAIDARPASCHA
@@ -51,11 +55,15 @@ account for the old `J` cell and the remaining labels.
 The second part has exactly 200 valid coordinates, matching `RICHI-200`.
 Its direct reading is:
 
+**Raw output:**
+
 ```text
 BEFINDLICHENTRUPPENUNDBESOXDEREWUENSCHEMELDENXXBITTEEMPFANGSBESTAETIGUNGXXOHLXROEMXJAXJJ201XGEHXOPXX
 ```
 
 One observed-coordinate substitution gives:
+
+**Edited output:**
 
 ```text
 BEFINDLICHENTRUPPENUNDBESONDEREWUENSCHEMELDENXXBITTEEMPFANGSBESTAETIGUNGXXOHLXROEMXJAXJJ201XGEHXOPXX

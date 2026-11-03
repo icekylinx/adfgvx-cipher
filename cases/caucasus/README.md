@@ -4,13 +4,14 @@
 
 Read the October staffing, supply and purchasing exchanges with Tiflis, followed by the Polish representative appointment and later armistice instructions.
 
-**34 reviewed physical records across 9 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**36 reviewed physical records across 10 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
 | Case | Source records |
 |---|---|
 | [October routing, weather and personnel requests](october_requests.md) | p62 A, p62 B, p63 A, p65 A |
+| [Oil stocks and production: the Nobel and Hagelin message](nobel_oil_inquiry.md) | p64 A1, p64 A2 |
 | [October staffing, manganese purchases and service traffic](october_staffing.md) | p66 A, p66 B, p66 C1, p67 A2, p67 B, p67 C |
 | [October Caucasus traffic — Kress, Westernhagen and a shipment for Poti](october_caucasus.md) | p68 A1, p68 A2, p69 A, p69 B1, p69 B2, p70 A1, p70 A2, p71 A1, p72 A1, p72 A2, p72 A3, p72 B |
 | [A pioneer detachment may remain in Tiflis](tiflis_pioneer_detachment.md) | p81 B |
@@ -27,6 +28,8 @@ Read the October staffing, supply and purchasing exchanges with Tiflis, followed
 | [p62 A](october_requests.md#p62-a--sofia-leaves-the-ringbahnverkehr) | Sofia leaves the Ringbahnverkehr; clear acknowledgment annotations retained | 62/62 raw positions; exact source frame; no repair | icekylinx and GPT-6 Astra Pro (2026) |
 | [p62 B](october_requests.md#p62-b--date-groups-before-weather-observation-telegrams) | Date groups requested before weather-observation telegrams | Conditional two-deletion layout; 91/93 raw positions; two known substitutions and two erasure fills | icekylinx and GPT-6 Astra Pro (2026) |
 | [p63 A](october_requests.md#p63-a--a-partially-readable-inspector-request) | Partial inspector request with Kress agreement and Gemoll signature | 114/135 positions proposed; 21-character technical span unassigned; 12 substitutions and two fills | icekylinx and GPT-6 Astra Pro (2026) |
+| [p64 A1](nobel_oil_inquiry.md#p64-a1) | Oil-information relay to Benedikt and Nobel | Native 346-slot source; four coordinate substitutions and one dash fill; faded-glyph sensitivity retained | icekylinx and GPT-6 Astra Pro (2026); published Oct4–6 key; Lasry et al.2016 §6.6/Table5 prior full oil body |
+| [p64 A2](nobel_oil_inquiry.md#p64-a2) | Naphtha production, delivery and Novorossisk inquiry naming Hagelin | Native 354-slot source; five coordinate substitutions; parenthesized reference-digit sensitivity retained | icekylinx and GPT-6 Astra Pro (2026); published Oct4–6 key; Lasry et al.2016 §6.6/Table5 prior full oil body |
 | [p65 A](october_requests.md#p65-a--accelerate-westernhagens-return) | Westernhagen urged to return with a market report before purchases begin | 130/130 raw positions; five explicit coordinate repairs; literal 0 retained | icekylinx and GPT-6 Astra Pro (2026) |
 | [p66 A](october_staffing.md#p66-a--an-abbreviated-tiflis-unit-response) | Abbreviated Tiflis mounted-unit and location response | 95/95 raw positions; no repair; unit abbreviations retained | icekylinx and GPT-6 Astra Pro (2026) |
 | [p66 B](october_staffing.md#p66-b--repeat-the-garbled-medical-telegram) | Leading medical officer asked to repeat a garbled telegram | 142/142 raw positions; two explicit coordinate substitutions | icekylinx and GPT-6 Astra Pro (2026) |

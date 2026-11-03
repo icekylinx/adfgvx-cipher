@@ -23,6 +23,8 @@ System*, [printed p128, PDF p131](https://drive.google.com/file/d/1_JiNMck7eUvdr
 The [full page](../../experiments/radio_telegram_priority/sources/childs_p128_full.png)
 is headed `5th NOVEMBER, 1918.` The shared header is:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 A) LP v NKJ (7.01 p.m., November 5th)
 1130 (5) 2 TLE
@@ -32,17 +34,23 @@ The [first part](../../experiments/radio_telegram_priority/sources/childs_p128_A
 is labeled `1 TL RICHI-226`. All 226 coordinates are valid and fix all
 113 raw plaintext positions:
 
+**Raw output:**
+
 ```text
 AUSWAERTIGBERLINNUMMER597XANTWORTAUFTELEGRAMME569X592UND598BISHERNICHTEINGETROFFENXZURZEWEISUNGINKLARTEXTERBETENX
 ```
 
 One coordinate substitution changes `ZURZE` to `KURZE`:
 
+**Edited output:**
+
 ```text
 AUSWAERTIGBERLINNUMMER597XANTWORTAUFTELEGRAMME569X592UND598BISHERNICHTEINGETROFFENXKURZEWEISUNGINKLARTEXTERBETENX
 ```
 
 Readable German:
+
+**Readable German:**
 
 > Auswärtig Berlin. Nummer 597. Antwort auf Telegramme 569, 592 und 598
 > bisher nicht eingetroffen. Kurze Weisung in Klartext erbeten.
@@ -60,11 +68,15 @@ The [second part](../../experiments/radio_telegram_priority/sources/childs_p128_
 is labeled `2 TL RICHI-282`. It contains exactly 282 printed slots, including
 seven dashes. Its ordinary source frame fixes 134 of 141 positions:
 
+**Raw output:**
+
 ```text
 ANH9IMGRSTELLTFDNKENSTATIONAUSDRUEK?IC7?NZUHEISENXTELEGRAMMEVORALLENANDERENZUGEBENXD?SCHEINBAR?ILITAER?SCHETELE?RAMME?EVORZUGTWERDNXHORSTMANN
 ```
 
 Five observed-coordinate substitutions and seven dash fills give:
+
+**Edited output:**
 
 ```text
 ANHEIMGESTELLTFUNKENSTATIONAUSDRUEKLICHANZUWEISENXTELEGRAMMEVORALLENANDERENZUGEBENXDASCHEINBARMILITAERISCHETELEGRAMMEBEVORZUGTWERDNXHORSTMANN

@@ -1,0 +1,88 @@
+{
+  "schema": "adfgvx-p175-c3-followup-edition-input-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "dependencies": [
+    {
+      "path": "experiments/p175_c3_gap_followup/screen_inputs.json",
+      "sha256": "e52b911f71e6bc5e9ae9a22514b1ba182b5cf4bacd1f72ccd986bf02684538bf"
+    },
+    {
+      "path": "experiments/p175_c3_gap_followup/screen_results.json",
+      "sha256": "4f3934ffefc6ce97bb012d9d1dc0642a48de2ef0af2e03b06fcf8e624d602694"
+    },
+    {
+      "path": "experiments/p175_c3_gap_followup/queried_model_cells.json",
+      "sha256": "4bbef521ab6c6e12e4b1f4af19a621379807119f02e52d32df7767fa6943ee91"
+    },
+    {
+      "path": "experiments/p175_c3_gap_followup/prior_candidates.json",
+      "sha256": "32744286cf4c15bf90673f7212140c656905a373a3cfec4ec1041ff0fa32c421"
+    }
+  ],
+  "source_dependency": {
+    "path": "experiments/romanian_ultimatum_companions/inputs.json",
+    "sha256": "c3e55a15bd2ecf988289e5bf17658e6d473f6d40cd15381a40fe434170d6c6e6",
+    "certificate_path": "experiments/romanian_ultimatum_companions/certificates.json",
+    "certificate_sha256": "e13c7e0495d9e992b2391935b809e9d5a24e6301c412823b057b137b14831810"
+  },
+  "source_review_note": "The enlarged original header reads 222. There are 217 literal slots, including four printed dashes. The crop shows no explicit missing-group marker or enlarged blank at any accepted location. Five unprinted coordinates follow only from the length comparison.",
+  "extra_source_images": [
+    {
+      "path": "sources/p175_C3_gap_region.png",
+      "printed_page": 175,
+      "pdf_page_1based": 178,
+      "crop_pdf_points": [
+        180,
+        657,
+        425,
+        681
+      ],
+      "render_scale": 6,
+      "sha256": "8160d99a1d6eedf4919038ba64cdbea7fad98e589c0b76bdadbc9cf53d8b52fa"
+    }
+  ],
+  "candidate": "OKMXGEHTHEUTENACHTVONDONAUXUNDSERETHFRONTAUFGEBIRGEZURUECKXWIRDUEBERXKRONSTADTXHERMANNSTADTXRICHTUNGXKLUZENBURG",
+  "candidate_status": "Editorial source-derived readable hypothesis; not a proof that every word or any particular loss geometry is historically unique.",
+  "layout_families": [
+    {
+      "id": "one_contiguous_block",
+      "missing_coordinates": 5,
+      "number_of_layouts": 218,
+      "primary_gap_start": 95,
+      "primary_selection": "Smallest source index among all minimum-substitution layouts; a stable representative, not a historical preference. Frozen model ranks are retained separately and favor gap 96.",
+      "expected_minimum_known_substitutions": 4,
+      "expected_all_minimum_gap_starts": [
+        95,
+        96,
+        98,
+        99,
+        100,
+        101
+      ],
+      "whole_printed_group_boundary_subset": [
+        95,
+        100
+      ]
+    },
+    {
+      "id": "arbitrary_five_insertions",
+      "missing_coordinates": 5,
+      "expected_minimum_known_substitutions": 3,
+      "expected_optimal_path_count": 6,
+      "method": "Exact dynamic program over source positions and 0..5 inserted coordinates, with zero cost for printed erasures or inserted values and unit cost for disagreement at an observed coordinate. Only minimum paths are enumerated."
+    }
+  ],
+  "unmodified_context": "The other parts and their previous interpretations are available in romanian_ultimatum_companions. They provide message context, not independent evidence for the missing coordinates or chosen words. The prior p176a text is not changed.",
+  "prior_attribution": {
+    "published_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker; unchanged repository Nov10–12 key.",
+    "existing_part4": "Norbert and Max Baertl, 2017; existing p176a challenge kept separate.",
+    "earlier_screen": "The earlier p175_ocr_block7 source has dropped the full AD--- printed group and produced no retained Nov10–12 candidate. This new source-exact 222-coordinate frame exposes the readable C3 body. No universal first-decipherment claim is made."
+  },
+  "limits": [
+    "All numerical labels in the published square remain unchanged. The raw final 0 in KLUZENBUR0 is explicitly repaired at an observed coordinate; it is not assigned a new key value.",
+    "The candidate spelling KLUZENBURG remains literal; it is not silently lengthened to KLAUSENBURG.",
+    "The same candidate plaintext is used when comparing repair costs. Minimum alignment cost does not establish uniqueness of that plaintext among other possible bodies.",
+    "Two frozen model ranks are correlated because the radio model contains a book component. Truth-control performance is bounded evidence for the screening method, not a historical probability.",
+    "All 218 one-block layouts have zero common singleton plaintext positions before any layout selection. Each 102-fixed-position raw reading is conditional on its own frame."
+  ]
+}

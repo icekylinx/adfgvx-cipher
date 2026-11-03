@@ -19,6 +19,8 @@ Five ciphertext records and one cleartext notice describe missing December key t
 
 p225 A is headed `BSL v UKS (09.24 p.m., November 28th)`, `2200 (28/11)`, `RIZI-232`. Its raw text is:
 
+**Raw output:**
+
 ```text
 STATI?NUKSCHIFFRABERSTENDEZMITNSLNOVYD?DEZTAFELNNOCHNICGTEINGEGANG?NYBITTE?EL?GDANUNSEBENFALLSMITNSLNOVSCHLUES?ELNYY
 ```
@@ -30,6 +32,8 @@ The literal invalid `R` in `DFGVR` and all five printed dashes remain source slo
 ## An explicit agreement to use the same key
 
 p228 C is headed `BSL v ZON` (the O has two marks), `04.47 a.m., December 1st`, `0420 (11/30) 2 TLE`. Both parts are directly readable without any coordinate repair:
+
+**Raw output — two separate source parts under the unchanged key:**
 
 ```text
 p228 C1
@@ -45,6 +49,8 @@ The first part reports an arrangement with UKS concerning the December key as pr
 
 p226 B2 says that its first part is missing. The surviving continuation directly gives:
 
+**Raw output:**
+
 ```text
 ZAHLENREIHENVONRUECKWAERTSGELESENYSODASSXYXSZ8HLEN3Y5Y9YX5YX0YUYSYWYYBENUTZENSIEGLEICHESMITUNFYANTWORTYY
 ```
@@ -52,6 +58,8 @@ ZAHLENREIHENVONRUECKWAERTSGELESENYSODASSXYXSZ8HLEN3Y5Y9YX5YX0YUYSYWYYBENUTZENSIE
 The beginning says that numerical sequences are read backwards; the end asks the recipient to use the same procedure in communication with the sender and to answer. `Z8HLEN → ZAHLEN` and `MITUNF → MITUNS` cost two coordinate substitutions. The central examples, including `XYXS` and `3Y5Y9YX5YX0`, remain literal. The missing first part and those garbles prevent reconstruction of a complete numerical-code rule. [Source image](../../experiments/corpus_extension/sources/p226_B2.png).
 
 p227 B directly reads:
+
+**Raw output:**
 
 ```text
 BITTEFUNKSPRUECHEANXXYARMEEUNDUNTERSTEL6TEFORMATIONENUNMITTELBARANZOENGEBENY

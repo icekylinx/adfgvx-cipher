@@ -30,6 +30,9 @@ jobs:
           python experiments/post_push_review/verify.py --verify
           python data/reviews/verify_reading_conventions.py
           python data/reviews/verify_manual_readings.py
+          python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_layers_before.json --audit data/reviews/reading_conventions_layers_audit.json
+          python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
+          python data/reviews/check_reading_presentation.py
       - name: Verify wider-corpus source readings
         run: |
           python experiments/corpus_readings/verify.py --verify
@@ -123,6 +126,14 @@ jobs:
           python experiments/prague_route_and_situation/verify.py --verify
           python experiments/romanian_ultimatum_companions/verify.py --verify
           python experiments/nov3_radio_and_pioneer/verify.py --verify
+          python experiments/p175_c3_gap_followup/verify.py --verify
+          python experiments/hauptwechselamt_accounting/verify.py --verify
+          python experiments/p64_oil_and_radio/verify.py --verify
+          python experiments/late_october_radio_and_materials/verify.py --verify
+          python experiments/nov3_medical_radio_withdrawal/verify.py --verify
+          python experiments/nov3_medical_radio_withdrawal/independent_source_audit.py --verify
+          python experiments/september_receipt_and_front_inquiry/verify.py --verify
+          python experiments/hungary_connection_and_supplies/verify.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |
           python experiments/p198_word_search/verify.py

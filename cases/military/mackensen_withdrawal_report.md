@@ -48,6 +48,8 @@ the complete unchanged raw strings remain in the certificate.
 
 **Part 1: Assessment of the situation.**
 
+**Readable German:**
+
 > BEURTEILUNG DER LAGE X BISHER MUSSTE DAMIT GERECHNET WERDEN X DASS FEIND MIT DEN BEI VIDIN X LOEPALANKA UND IN GEGEND RUTSCHUK IN VERSAMMLUNG BEGRIFFENEN KRAEFTEN EINEN DONAUUEBERGANG VERSUCHEN WIRD MIT DEM ZIEL X DIE BAHN ORSOVA X CRAIOVA ZU UNTERBRECHEN UND AUF BUKAREST VORZUSTOSSEN
 
 The source spelling `LOEPALANKA` is retained. Two observed-coordinate changes repair `MCT` and `KRNEFTE`; six source masks are filled. No modern geographical spelling is imposed.
@@ -55,6 +57,8 @@ The source spelling `LOEPALANKA` is retained. Two observed-coordinate changes re
 ### p113 A3
 
 **Part 3: Forces south of the Danube.**
+
+**Readable German:**
 
 > MIT DEM AUFMARSCH STAERKERER KRAEFTE AN DER DONAU SUEDLICH X SVISTOV X RUSTSCHUK MUSS BESONDERS NACH FRIEDENSSCHLUSS DER X TUERKEI WEITER GERECHNET WERDN
 
@@ -64,6 +68,8 @@ Five observed-coordinate changes supply ordinary words. The defective final `WER
 
 **Part 4: Possible Serbian advance.**
 
+**Readable German:**
+
 > ES IST SOMIT DURCHAUS WAHRSCHEINLICH X DASS DIE DURCH FRANZOSEN VERSTAERKTEN SERBISCHEN ARMEEN DEN UEBERGANG UEBER DIE
 
 Two observed-coordinate substitutions and one masked-glyph fill produce this continuation. The final glyph of source group `VADG-` remains conservatively masked in the source layer.
@@ -71,6 +77,8 @@ Two observed-coordinate substitutions and one masked-glyph fill produce this con
 ### p115 A5
 
 **Part 5: Crossing into southern Hungary.**
+
+**Readable German:**
 
 > DONAU BEI X BELGRAD X SEMENDIA X UND DEN EINMARSCH IN SUE X SUE UNGARN BEABSICHTIGEN X WAEHREND DIE AUFGABE DER SUEDL X
 
@@ -80,6 +88,8 @@ Four coordinate substitutions repair three plaintext letters. The repeated `SUE 
 
 **Part 6: French offensive toward Bucharest.**
 
+**Readable German:**
+
 > SVISTOV X RUSTSCHUK AUFMARSCHIERENDEN FRANZOES X ARMEE X OFFENSIVE RICHTUNG BUKAREST X BESTEHEN BLEIBT X IM ZUSAMMENHANG MIT DIESER
 
 **All 113 positions are directly fixed by the unchanged received coordinates.** No substitution, fill or length adjustment is needed.
@@ -87,6 +97,8 @@ Four coordinate substitutions repair three plaintext letters. The repeated `SUE 
 ### p115 A7
 
 **Part 7: Romanian movement through the passes.**
+
+**Readable German:**
 
 > OPERATION IST ES NICHT AUSGESCHLOSSEN X DASS RUMAEN X KRAEFTE AUS DER MOLDAU DURCH DEN TOELGYES X GIMES X UND X OITOS PASS X IN
 
@@ -96,6 +108,8 @@ Four coordinate substitutions support the three character repairs, including the
 
 **Part 8: Threatened rear communications.**
 
+**Readable German:**
+
 > SIEBENBUERGEN X EINRUECKEN X X DADURCH WERDEN DIE RUECKWAERTIGEN VERBINDUNGEN DES BESATZUNGSHEERES X DIE BISHER NUR IN FOLGE
 
 Two observed-coordinate substitutions repair `DEF` and `BIVHER`. The last words lead directly into the separately received part 9.
@@ -103,6 +117,8 @@ Two observed-coordinate substitutions repair `DEF` and `BIVHER`. The last words 
 ### p113 B9
 
 **Part 9: The separately received ninth part.**
+
+**Readable German:**
 
 > DER VOELLIGEN AUFLOESUNG DES UNGAR X HEERES UND DER DESORGANISATION DES UNGAR X BAHNWESENS AUSGESCHALTET WAREN X DURCH FEINDL X
 
@@ -112,6 +128,8 @@ Two observed-coordinate substitutions repair `DEF` and `BIVHER`. The last words 
 
 **Part 10: Occupation and supply constraints.**
 
+**Readable German:**
+
 > ANGRIFF BEDOHT UND DIE WEITERE BESETZUNG DER X WALACHEI X WIE IN X O X K X 2 X RM1 X A X NR X 1??6?O6? AUSGEFUEHRT ZWEIFLOS UND IM HINBLICK
 
 Three observed-coordinate changes and eleven source-mask fills give this conservative edition. The literal defects `BEDOHT` and `ZWEIFLOS` remain. Four unresolved reference positions and the observed reference labels are not replaced by the smoother number printed in the later reconstruction.
@@ -119,6 +137,8 @@ Three observed-coordinate changes and eleven source-mask fills give this conserv
 ### p116 A11
 
 **Part 11: Ammunition, food and coal.**
+
+**Readable German:**
 
 > AUF MUNITIONS X VERPFLEGUNGS X UND KOHLEN VORRAETE UNDURCHFUEHRBAR X FALLS DER ALLGEMEINE WAFFENSTILLSTAND NICHT IN ABSEHBARER
 
@@ -128,6 +148,8 @@ This is conditional on one missing transmitted coordinate at source boundary 102
 
 **Part 12: Proposed immediate withdrawal.**
 
+**Readable German:**
+
 > ZEIT ZU ERWARTEN IST X WIRD DESHALB VORGESCHLAGEN X DAS BESATZUNSHEER SOFORT AUS X RUMAENIEN HERAUS ZU ZIEHEN UND GEMEINSAM MIT DEN DEUTSCHEN
 
 Three observed-coordinate substitutions, six source-mask fills and one modeled missing-coordinate fill are explicit. All four minimum-cost boundaries 141–144 are retained. The literal `BESATZUNSHEER` is not silently expanded by adding G.
@@ -136,15 +158,17 @@ Three observed-coordinate substitutions, six source-mask fills and one modeled m
 
 **Part 13: Jammed final part, left partial.**
 
+**Raw output:**
+
 ```text
 ??????DERX?????MEED??M???CHDU?????GARN??F???R?CH??????A?Z??????N?EI?????T??N??????R?ET?????XK????M???A?1G?????X
 ```
 
-The source prints160 slots against RICHI-222 and explicitly says “Balance jammed.” The stated tail-loss model appends62 unknown coordinates. Only38 of 111 plaintext positions are fixed, and **no source mask, lost coordinate or word is filled**. The existing historical translation is not converted into invented cipher evidence.
+The source prints 160 slots against RICHI-222 and explicitly says “Balance jammed.” The stated tail-loss model appends 62 unknown coordinates. Only 38 of 111 plaintext positions are fixed, and **no source mask, lost coordinate or word is filled**. The existing historical translation is not converted into invented cipher evidence.
 
 ## The two short frames require different qualifications
 
-Part 11 actually prints219 slots, although its header says220. An independent
+Part 11 actually prints 219 slots, although its header says 220. An independent
 manual retranscription confirms the four-character group `VGGV` at source
 index 110. Testing **all 220 one-coordinate insertion boundaries** against
 the readable template yields a unique zero-observed-substitution fit at
@@ -157,7 +181,7 @@ location is **not visually witnessed by the short group**. A separate source
 review found no transcription correction that removes this tension. The
 edition does not infer how the historical printer or operator produced it.
 
-Part 12 actually prints237 against 238. Its short group `DDGF` starts at 140.
+Part 12 actually prints 237 against 238. Its short group `DDGF` starts at 140.
 All 238 single-loss boundaries were evaluated. Boundaries141,142,143 and 144
 tie at three observed-coordinate changes; these positions fall within or
 at the end of that short group. After masking `BESATZUNSHEER`, three of those
@@ -194,7 +218,7 @@ instead of importing every normalization from the later reconstruction.
 | **Total** | **2838** | **1451** | **1334** | **1374** | **25** | **40** | **2** |
 
 The 62 modeled tail coordinates of part 13 remain unknown, as do20 source-mask
-coordinates across parts10 and 13. Raw-label coverage is not a claim that
+coordinates across parts 10 and 13. Raw-label coverage is not a claim that
 every printed letter, numeral or editorial word is historically correct.
 There is no source deletion, block reordering or baseline-key change.
 

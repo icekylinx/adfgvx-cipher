@@ -23,6 +23,8 @@ The source advertises and prints **394 valid coordinates**. The second
 group, `VGVVF`, is complete in the source but was omitted by earlier OCR.
 The raw 197-position reading needs no coordinate change:
 
+**Raw output:**
+
 ```text
 MILITAERMISZIONKONSTANTINOPELXZURM2NR46873XSEMAJDERKAISERUKOENIGHABENBEFOHLENXSAEMTLICHEVERTRAGLICHVERPFLICHTETENMITGLIEDERDERMILMISZIONEINSCHLISZLICHDERJENIGENWELCHENDERVERTRAGBEREITSGEKUENDIGTIST
 ```
@@ -37,11 +39,15 @@ contracts had already been given notice. The transmitted `SZ` forms and
 
 The source advertises and prints **330 valid coordinates**. The raw text is:
 
+**Raw output:**
+
 ```text
 WERDENAUFGRUNDMESIRTIKELS10DESMITGENERALDERKAVLIMANVONSANDERSABESCHLOSZENENVERTRAGSMITDEMTAGEDERVEROEFFENTLICHUNGDESWAFFENSTILLSTANDESDERTUERKEIZUMHEEREZURUCKBERUFEN
 ```
 
 The conservative candidate makes only two ordinary-letter changes:
+
+**Edited output:**
 
 ```text
 WERDENAUFGRUNDDESARTIKELS10DESMITGENERALDERKAVLIMANVONSANDERSABESCHLOSZENENVERTRAGSMITDEMTAGEDERVEROEFFENTLICHUNGDESWAFFENSTILLSTANDESDERTUERKEIZUMHEEREZURUCKBERUFEN
@@ -64,6 +70,8 @@ The source advertises and prints **396 valid coordinates**, separately
 from the following fourth part. Earlier OCR merged the two frames.
 The 198-position raw reading is:
 
+**Raw output:**
+
 ```text
 DIEMILMISZIONVERANLASZTZUGEGEBENENENZEITPUNKTDIEHEIMSENDUNGUWEISTDIEHEIMKEHRENDENANIHRENAUFENTHALTSORTSOGLEICHNACHEINTREFFENINDEUTSCHLANDDEMMILIGRHYUBEZWDENKRIEGSMINISTERIENDERBUNDESSTAATENZUDRAHTEN
 ```
@@ -84,6 +92,8 @@ do not mean that every word has been editorially identified.
 
 The source advertises and prints **170 valid coordinates**. The raw text is:
 
+**Raw output:**
+
 ```text
 LETZTERESINDBENACHRICHTIGTXWUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX
 ```
@@ -91,12 +101,16 @@ LETZTERESINDBENACHRICHTIGTXWUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSC
 The candidate changes only **source index 133 A→V**, giving `AUF`
 instead of `WUF`:
 
+**Edited output:**
+
 ```text
 LETZTERESINDBENACHRICHTIGTXAUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX
 ```
 
 It reports that the latter recipients have been notified and closes
 with the received title and signature. With editorial spacing:
+
+**Readable German:**
 
 > Letztere sind benachrichtigt. Auf allerhöchsten Befehl, Chef Militärkabinetts, Frhr. Marschall.
 

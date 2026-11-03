@@ -21,6 +21,8 @@ is headed `5th NOVEMBER, 1918.`
 The [A source](../../experiments/november_radio_service/sources/childs_p132_A.png)
 has this header and exactly 242 slots, including one printed dash:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 A) OSM v OUI (9.29 p.m., November 5th)
 HIER 13 2207
@@ -29,6 +31,8 @@ RICHI-242
 
 The raw 121-position reading fixes 120 positions:
 
+**Raw output:**
+
 ```text
 MILLTAEGMISZIONKOSJOIIXUEBERTENDUNGEILESKRIEGSRANGLI?TRNAUSZUGESDESGENERALMAJRHYDEWALDERBETENXFELDEISENBAHNNHEFPAFR53540X
 ```
@@ -36,11 +40,15 @@ MILLTAEGMISZIONKOSJOIIXUEBERTENDUNGEILESKRIEGSRANGLI?TRNAUSZUGESDESGENERALMAJRHY
 Six observed-coordinate substitutions and one dash fill repair ordinary
 words, giving:
 
+**Edited output:**
+
 ```text
 MILITAERMISZIONKOSJOIIXUEBERSENDUNGEINESKRIEGSRANGLISTENAUSZUGESDESGENERALMAJRHYDEWALDERBETENXFELDEISENBAHNCHEFPAFR53540X
 ```
 
 The readable clause is:
+
+**Readable German:**
 
 > Übersendung eines Kriegsranglistenauszuges des `GENERALMAJRHYDEWALD`
 > erbeten. Feldeisenbahnchef `PAFR53540`.
@@ -56,6 +64,8 @@ partial source edition, not a securely identified personnel record.
 The [B source](../../experiments/november_radio_service/sources/childs_p132_B.png)
 is marked with explicit urgency:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 B) LP v NKJ (6.13 p.m., November 5th)
 SSD EILT SOFORT LOESEN 1410 (5)
@@ -65,6 +75,8 @@ RIZI-155
 The printed length and manual transcription both give **155 slots**. There
 are two printed dashes in group `XFF--`; all other coordinates are retained.
 The direct odd-frame reading has 77 paired positions and one unpaired coordinate:
+
+**Raw output — original odd frame; paired prefix and orphan coordinate reported separately:**
 
 ```text
 FFEREILVESEXWIEDERHOLETT?LEGGWD3?MYMFLWF7MFFS7KFNT8RLTIWFWUAFQLL3F1QF7PZNMDQQ
@@ -79,17 +91,23 @@ After undoing that original transposition, interim indices **54, 55, 56 and
 57** are four identical consecutive `V` coordinates. Removing any one of
 them gives the same 154-coordinate stream and this conditional raw reading:
 
+**Raw output — conditional deletion of one V at interim indices 54–57 after untransposition:**
+
 ```text
 FFEREILVESEXWIEDERHOLETT?LEGRXVO?VIERTERPERIODEINFU1NFTERXGEBETSORHER5MINXVVV
 ```
 
 Three observed-coordinate substitutions and two printed-dash fills give:
 
+**Edited output — same conditional interim-deletion model, with the stated repairs and fills:**
+
 ```text
 FUEREILVESEXWIEDERHOLETTELEGRXVONVIERTERPERIODEINFUENFTERXGEBETVORHER5MINXVVV
 ```
 
 Readable German, expanding only the telegram abbreviation in brackets:
+
+**Readable German:**
 
 > Für Eilvese. Wiederholet Telegr[amm] von vierter Periode in fünfter.
 > Gebet vorher 5 Min. VVV.
@@ -139,6 +157,8 @@ not independent proof of the historical mechanism.
 The [C source](../../experiments/november_radio_service/sources/childs_p132_C.png)
 has this header:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 C) NKJ v LP (7.45 p.m., November 6th)
 FUER COS 2150 (5/11)
@@ -147,6 +167,8 @@ RICHI-198
 
 The November 5 origin line and November 6 reception line are retained.
 All 198 coordinates and all 99 plaintext labels are fixed without repair:
+
+**Raw output:**
 
 ```text
 KAUKASUSDELEGAXWIEDERHLGVERSTUEMMELTEINGEGXOSKACHIX54GRXSSX1912XANXNACHCHEFERBETENXNACHCHE5X150527X

@@ -13,6 +13,8 @@ The source is Childs, *General Solution of the ADFGVX Cipher System*,
 [printed p179 A, PDF p182](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view),
 with this [visible header and ciphertext](../../experiments/november_armistice_orders/sources/p179_A.png):
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 A) KS CZ FG v XF (20.07, November 11th)
 RICHI-266
@@ -34,17 +36,23 @@ view of the damaged but readable `X` at source position 190 is also
 Under the unchanged published Nov10–12 square and ranks, the resulting raw
 reading is:
 
+**Raw output — frame excluding the visibly cancelled duplicate group; exclusion priced separately:**
+
 ```text
 DORTBEFINDXUXSXGERAETEZURNAECHSTENRECHTSRHEINXERSXABTLGXOCHAFKENXFU?OSTELLENB2TRIEBMUSSAUFRECHTERHA?TENBLEIBENXNACHRICHTENC0EF4B4??3?
 ```
 
 Seven separately recorded observed-coordinate substitutions give:
 
+**Edited output — same cancelled-group frame, followed by seven word repairs:**
+
 ```text
 DORTBEFINDXUXSXGERAETEZURNAECHSTENRECHTSRHEINXERSXABTLGXSCHAFFENXFUNKSTELLENBETRIEBMUSSAUFRECHTERHALTENBLEIBENXNACHRICHTENCHEF4B4??3?
 ```
 
 A readable expansion, with abbreviation completions in brackets, is:
+
+**Readable German — after the cancelled-group exclusion and priced word repairs:**
 
 > Dort befind[liche] U.S.-Geräte zur nächsten rechtsrhein[ischen]
 > Ers[atz]abtl[g.] schaffen. Funkstellenbetrieb muss aufrechterhalten

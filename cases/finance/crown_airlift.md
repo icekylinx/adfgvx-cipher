@@ -22,11 +22,15 @@ edits are in [the experiment](../../experiments/crown_airlift/README.md).
 The source advertises and prints **146 coordinates**. The raw 73-character
 plaintext requires no repair:
 
+**Raw output:**
+
 ```text
 ANXOHLXOPXXKRONENBEDARFSEHRDRINGENDXBITTETAEGLICHMITGEWOEHNLICHEMFLUGZEUG
 ```
 
 With editorial spacing:
+
+**Readable German:**
 
 > An OHL, Op. Kronenbedarf sehr dringend. Bitte täglich mit gewöhnlichem Flugzeug …
 
@@ -36,11 +40,15 @@ The source advertises and prints **146 slots**. One printed glyph is `C`,
 outside the ADFGVX coordinate alphabet, and is retained as an erasure in
 the model. The raw reading is:
 
+**Raw output:**
+
 ```text
 EINEMILLIONKRONENABWECHSWLNDNACHXKRONSTADTXUXHERMANNSTADTXFELDKR?EGSKASSE
 ```
 
 The explicit ordinary-word candidate is:
+
+**Edited output:**
 
 ```text
 EINEMILLIONKRONENABWECHSELNDNACHXKRONSTADTXUXHERMANNSTADTXFELDKRIEGSKASSE
@@ -54,6 +62,8 @@ ciphertext; no coordinate is inserted or removed in this part.
 
 With editorial spacing, continuing A1:
 
+**Readable German:**
+
 > … eine Million Kronen abwechselnd nach Kronstadt u. Hermannstadt. Feldkriegskasse …
 
 The exact unpunctuated office word at the boundary with A3 is retained;
@@ -66,17 +76,23 @@ printed, followed by **“Did not finish.”** The second line begins with a
 complete `GAVGX` group that earlier OCR omitted. Appending 19 absent
 coordinates gives the declared source model and raw 49-position reading:
 
+**Raw output — conditional 98-slot frame; nineteen absent tail coordinates left unknown:**
+
 ```text
 INM???LICHS???EINEN???EINEN???DENLX???1A4A1????OP
 ```
 
 The first 33 positions admit the ordinary-word candidate:
 
+**Edited output — same conditional 98-slot frame; proposed first 33 positions:**
+
 ```text
 INMOEGLICHSTKLEINENSCHEINENSENDENLX???1A4A1????OP
 ```
 
 With editorial spacing, its readable prefix is:
+
+**Readable German — proposed body excerpt under the incomplete-tail model:**
 
 > In möglichst kleinen Scheinen senden …
 

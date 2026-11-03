@@ -13,11 +13,15 @@ reference ending unresolved. A new literal-coordinate retrieval identified
 The full witness gives this unchanged raw reading under the published
 **Nov10–12** key:
 
+**Raw output:**
+
 ```text
 INMOEGLICHSTKLEINENSCHEINEN?ENDENXXOKM1A4A11333OP
 ```
 
 The readable ordinary-language candidate is:
+
+**Readable German — one-repair later witness; reference labels retained:**
 
 > IN MOEGLICHST KLEINEN SCHEINEN SENDEN X X OKM1A4A11333OP
 
@@ -34,6 +38,8 @@ full witness's observed value is selected. This correction is supported by
 a source value, not by silently assigning a new square cell.
 
 The complete new source supplies the previously absent 19-coordinate tail:
+
+**Source transcription — tail coordinates supplied by the complete witness:**
 
 ```text
 AVDVVDFDAFXVADADXDA

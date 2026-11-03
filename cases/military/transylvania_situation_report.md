@@ -16,13 +16,13 @@ The p128 copy explicitly states that parts 2–6 are missing. The separate p137 
 
 Military situation after the collapse in Transylvania and Hungary’s armistice.
 
-Raw under the declared primary model:
+**Raw output — native source frame with its printed mask retained:**
 
 ```text
 OHLOPXXFEINDLAGEXVOELLIGEDEROUTEINSIEBENBUERGENUNDWAFFENSTILLSTANDUNGARNSMACHTMILITA?RISCHELAGEDER
 ```
 
-Conditional source edition:
+**Edited output — same native frame; stated printed-mask fill:**
 
 ```text
 OHLOPXXFEINDLAGEXVOELLIGEDEROUTEINSIEBENBUERGENUNDWAFFENSTILLSTANDUNGARNSMACHTMILITAERISCHELAGEDER
@@ -32,13 +32,13 @@ OHLOPXXFEINDLAGEXVOELLIGEDEROUTEINSIEBENBUERGENUNDWAFFENSTILLSTANDUNGARNSMACHTMI
 
 Security measures at Kronstadt/Hermannstadt and intended material transport.
 
-Raw under the declared primary model:
+**Raw output — conditional single-slot and five-coordinate gaps; one representative tied layout:**
 
 ```text
 OXKXM0HATMASSNAHMENZURSICHERUNGVONKRONST?D1UNDHERMANNSTADTGETROFFENUNDB?AB?ICHTIGTM?TABTRAN?PORTVONM?TE?IALI?N9ONMORGENABZUBEGINNENX
 ```
 
-Conditional source edition:
+**Edited output — same conditional two-gap layout, with the stated substitutions and fills:**
 
 ```text
 OXKXMXHATMASSNAHMENZURSICHERUNGVONKRONSTADTUNDHERMANNSTADTGETROFFENUNDBEABSICHTIGTMITABTRANSPORTVONMATERIALIENVONMORGENABZUBEGINNENX
@@ -50,13 +50,13 @@ Printed 258 / advertised 264: a one-coordinate gap in AAAV plus a five-coordinat
 
 Interference-damaged personnel removal passage; four partial word completions.
 
-Raw under the declared primary model:
+**Raw output — conditional 0/37 interference-loss allocation, selected by the stated prefix crib:**
 
 ```text
 ANS?HLI?SSE?DMUE?SEN?ORB?GNN?MI?I?AER?SC??RSO?RG?N?ENP?RS??ALD?RW?R?SSH?FT??UNQ?ER?K?TUN?SS??EBE?B6?N?VEM?ER??GES?HO?E?WER?EN?
 ```
 
-Conditional source edition:
+**Edited output — same conditional interference-loss model; four partial word completions:**
 
 ```text
 ANSCHLIESSENDMUESSEN?ORB?GNN?MILITAERISCHERSO?RG?N?ENPERSONALDERW?R?SSH?FT??UNQ?ER?K?TUN?SS??EBE?B6?NOVEMBERABGESCHOBENWERDEN?
@@ -68,13 +68,13 @@ Printed 215 / advertised 252 means 37 missing coordinates in addition to four pr
 
 Request concerning the unknown general political situation and a possible armistice.
 
-Raw under the declared primary model:
+**Raw output — native source frame with its printed dash retained:**
 
 ```text
 ALLGEMEINERHIERNICHTBEKANNTERPOLITISCHERLAGEXXEVTLXEINTRITTEINESWAFFENS?ILLSTANDESVXABHAENGIGZUMACHENWAEREXDRINGENDERBETENXX
 ```
 
-Conditional source edition:
+**Edited output — same native frame; printed-dash fill only:**
 
 ```text
 ALLGEMEINERHIERNICHTBEKANNTERPOLITISCHERLAGEXXEVTLXEINTRITTEINESWAFFENSTILLSTANDESVXABHAENGIGZUMACHENWAEREXDRINGENDERBETENXX
@@ -86,13 +86,13 @@ Only its printed dash is filled. Raw VX and the absent governing context remain 
 
 Request for acknowledgment; raw secret reference retained.
 
-Raw under the declared primary model:
+**Raw output — native source frame; baseline reference labels retained:**
 
 ```text
 GLENCHESDURCHFER4SPRUCHVEMPFANGBESTAETIGENXXOXKXMX1ANOX11226O6XGEHEIMX
 ```
 
-Conditional source edition:
+**Edited output — same native frame; three stated coordinate substitutions:**
 
 ```text
 GLEICHESDURCHFERNSPRUCHXEMPFANGBESTAETIGENXXOXKXMX1ANOX11226O6XGEHEIMX

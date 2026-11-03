@@ -16,12 +16,16 @@ historical condition gives **GRUKONACH602**, as recorded below.
 
 The first part is an editorial reconstruction with the source costs below:
 
+**Readable German:**
+
 > An Ingenieurinspektion Muenchen. Gefr. Geraus und Feldgr. Mahrer als
 > Kurier mit Funkbetriebsunterlagen fuer Grukonach{5,6}02 7 Uhr abds.
 > nach dort abgefahren.
 
 The best-preserved second-part witness, p158 C2, reads directly without any
 source-coordinate change:
+
+**Readable German:**
 
 > Grukonach{5,6}02 benachrichtigen. Eintreffen hierher drahten.
 > Nachrchef 4 B 49909.
@@ -43,6 +47,8 @@ editorial; the reading does not add letters to regularize these expressions.
 All three second-part records contain exactly 136 coordinates. Under the
 known partial square, each fixes 67 of 68 plaintext positions. The p158 C2
 text is:
+
+**Raw output:**
 
 ```text
 GRUKONACH?02BENACHRICHTIGENEINTREFFENHIERHERDRAHTENXNACHRCHEF4B49909

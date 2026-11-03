@@ -47,10 +47,12 @@ original issue date; a forwarding date need not be an issue date.
 The unlettered message following p199 A is headed `NKJ v LP (08.32 p.m.,
 November 15th)`, `FUER COS 18.56 (15/11)`, `3 TLE`, and `1 TL RICHI-262`.
 It has 257 valid coordinates in the main grid and a separate printed `FGFFF`
-above it. All 262 letters are preserved. The main grid also has a blank cell
+above it. All 262 valid coordinates are preserved. The main grid also has a blank cell
 at row 6, column 5; the blank is not silently supplied with five erasures.
 
 Reading the floating group first, in physical top-to-bottom order, gives:
+
+**Raw output — floating group read first in physical top-to-bottom order:**
 
 ```text
 ANGENERALVO?KRESSTI5LISXNRXZ1?XBITTEWEITERLEITUNGFODGENDENTILEGRAMM6DESMTNISTERIUMDESAEUSSELSNINWARSCHAUANHERRNXWACLAWXVXOSTROWSKIX
@@ -67,12 +69,16 @@ the same masked stencil. This movement adds and removes no coordinate.
 
 The selected geometry gives 129 fixed raw positions out of 131:
 
+**Raw output — conditional placement of the floating group after ten main-grid coordinates:**
+
 ```text
 ANGENERALVONKRESSTIFLISXNRX?1?XBITTEWEITERLEITUNGFOLGENDENTELEGRAMMSDESMTNISTERIUMDESAEUSSERSNINWARSCHAUANHERRNXWACLAWXVXOSTROWSKIX
 ```
 
 Two observed-coordinate substitutions restore `MINISTERIUM` and
 `AEUSSEREN`:
+
+**Edited output — same conditional floating-group placement, followed by the stated repairs:**
 
 ```text
 ANGENERALVONKRESSTIFLISXNRX?1?XBITTEWEITERLEITUNGFOLGENDENTELEGRAMMSDESMINISTERIUMDESAEUSSERENINWARSCHAUANHERRNXWACLAWXVXOSTROWSKIX
@@ -95,6 +101,8 @@ reading, and supplies no name crib to the group-placement test.
 ### Part 2: the appointment and its geographic scope
 
 All 230 source coordinates are valid. Their unmodified decryption is:
+
+**Raw output:**
 
 ```text
 TIFLISDOPPELPUNKTXSIESINDZUMVSRTRAUENSMANNDERPOLNISCHENREGIERUNGFUERDIEREPUBLIKENXGRUSIENXARMENIENXUNDXASERBEJNZANX
@@ -124,12 +132,16 @@ proof of the historical copying error.
 
 Under that geometry, before word repairs, the unchanged key gives:
 
+**Raw output — conditional five-coordinate gap at source boundary 150; before word repairs:**
+
 ```text
 MITSITZINEIFLISERNANNTXXERNENNUNGUNDINST?UKTIONB?REITSDU?CHXT?DE?SKIXANS?EABGESANDTXXMINISTERIUMDESAEUSSERNXXBUSSCHE
 ```
 
 Ordinary words supply four missing coordinates, and one observed-coordinate
 change corrects `EIFLIS` to `TIFLIS`. The result fixes **114/116 positions**:
+
+**Edited output — same conditional gap, with four added-slot fills and one observed substitution:**
 
 ```text
 MITSITZINTIFLISERNANNTXXERNENNUNGUNDINSTRUKTIONBEREITSDURCHXT?DE?SKIXANSIEABGESANDTXXMINISTERIUMDESAEUSSERNXXBUSSCHE
@@ -153,6 +165,8 @@ with that person remains a separate inference.
 Under that identification, `T?DE?SKI` becomes `TYDELSKI`. It supplies the
 missing L coordinate and sets **FX = Y** in the November 13–15b square.
 The full candidate then reads:
+
+**Conditional interpretation — historical TYDELSKI identification, missing-coordinate fill and FX = Y:**
 
 ```text
 MITSITZINTIFLISERNANNTXXERNENNUNGUNDINSTRUKTIONBEREITSDURCHXTYDELSKIXANSIEABGESANDTXXMINISTERIUMDESAEUSSERNXXBUSSCHE
@@ -193,7 +207,7 @@ do not create another fixed letter.
 - [Part 3 source](../../experiments/tiflis_appointment/sources/p192_3.png)
 - [Verification instructions](../../experiments/tiflis_appointment/README.md)
 
-The three records contain 719 printed coordinate letters. The declared
+The three records contain 719 valid source coordinates. The declared
 724-coordinate frame fixes 354/362 raw positions before repairs, 358/362
 after the ordinary-word layer, and 360/362 under the historical-name layer.
 The p192 subset is unchanged at 225/231, 229/231 and 231/231; the p199

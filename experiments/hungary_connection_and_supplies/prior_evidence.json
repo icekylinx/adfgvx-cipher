@@ -1,0 +1,100 @@
+{
+  "schema": "adfgvx-p97-prior-evidence-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "original_screen_sha256": "408ca9c5f60b94c73f88351755fde9ac6e916d2ee5fe3cf99c228fd653ef00ab",
+  "rows": [
+    {
+      "block_id": "p97_ocr_block3",
+      "printed_page": 97,
+      "headers_ocr": [
+        "C) UKS v LP (8.15 p.m., November ist)",
+        "1330 (1/11)"
+      ],
+      "ciphertext": "DFXAVVFVGGXAGFGGFDVDXXDXAFGVDFXVVGXXAVGVGFDVDVFAAGVDGGXVAVGFXVAFDFDGAFDVDGDDDGDFGGXDXXAVAXVDFFDADGGAADXGDADDADXDXGFAVXVGFVDXVXFAVGAGDVFVDAFGDFFAVDGFFADAGAAGGDDVDGAAVDXAFFVFAXGDGFDGAGVFDADAGFGADFXD",
+      "source_slots": 196,
+      "best": {
+        "key": "Nov1-3",
+        "score": -6.668038433476498,
+        "known_quad_mean": -6.668038433476498,
+        "known_quad_windows": 95,
+        "plaintext": "AKONACH18XBZGDRTRM3CNRX25089XXGEHZUZIFF1XUEBEWSGROEHRENDUNMOELZU2XFOLGTWEITERESXNACHCHEFRM4B49240X",
+        "known_positions": 98,
+        "positions": 98,
+        "unpaired_coordinate": null
+      },
+      "runner_up": {
+        "key": "Nov25-28",
+        "score": -9.275017602820146,
+        "known_quad_mean": -9.275017602820146,
+        "known_quad_windows": 95,
+        "known_positions": 98,
+        "positions": 98,
+        "unpaired_coordinate": null
+      }
+    },
+    {
+      "block_id": "p97_ocr_block2",
+      "printed_page": 97,
+      "headers_ocr": [
+        "B) UKS v LP (8.29 p.m., November 1st)",
+        "1710 (1/11) POLITISCHE ABTEILUNG BUKAREST"
+      ],
+      "ciphertext": "DGXDFVFGAVVDDGAGXGDAVVXXGDGGGGDGAGFDGXGDGAAFFDAVVFDXDFXGVVVGAGFVXADFFDAAGDV?GADADGDGXGADDFVAGFVGXVAFVGFXGFFVXGXGFXGDXXAAFGVGVGVXXFXGFGFGFGVVVADXGADXFGDFVVAGDAAVVDVGXDFXFAGGAGVDVXAGAXADAGXVVVGDFFGGVADAADDXDGAFFDVFVAAVFXVGFXVDXFFAVVFGADGGDGVGG",
+      "source_slots": 241,
+      "best": {
+        "key": "Nov19-21",
+        "score": -9.362330774975637,
+        "known_quad_mean": -9.347710233874025,
+        "known_quad_windows": 113,
+        "plaintext": "MT0XJF264B577Z3R03PM2G1XQ25TX440?224XPOIE3GXY2N5WO3TQ8ROMBFP2Y2Q1NI8VUEMHOHMQCJTPQVOTDFBU813X7UFFBEK8EBCDPS4LK3IXD30J7FY",
+        "known_positions": 119,
+        "positions": 120,
+        "unpaired_coordinate": "D"
+      },
+      "runner_up": {
+        "key": "Nov25-28",
+        "score": -9.441627294589312,
+        "known_quad_mean": -9.429813709934201,
+        "known_quad_windows": 113,
+        "known_positions": 119,
+        "positions": 120,
+        "unpaired_coordinate": "D"
+      }
+    },
+    {
+      "block_id": "p97_ocr_block1",
+      "printed_page": 97,
+      "headers_ocr": [
+        "(DISTRIBUTION \"B\")",
+        "(Employed between Berlin and the Black Sea Area)",
+        "lst NOVEMBER, 1918.",
+        "A) OSM v LP (8.50 p.m., November 1st)"
+      ],
+      "ciphertext": "XVXDXDDVXDFGFXDFFXADDFGGAVDAVFGADFXDADXDFDGAGGXAGGVGGVGVDDGAADAGGGVVDDXAVADA?FXAGGVVGAGAXFXADXDADDXVXDAVVFVVDFDGDXVGAAFFADVDFAFAAXDDFDXFAFVXXDDDDGVFVDDXGXFDVAGFVFXDDXGDGDGDAVGDXAAAFAXAXFXFAFFGDVGFV",
+      "source_slots": 197,
+      "best": {
+        "key": "Oct28-31",
+        "score": -9.399845173484401,
+        "known_quad_mean": -9.383338980622344,
+        "known_quad_windows": 91,
+        "plaintext": "ZIAWW1QMNW8A81YLF7UFGURPXTXAUI9MUIYEHOP5ON2IK0I91S574PWOD56CXDUSI9WFST74BHCUTXIFCPV4MMKG4KCQ?9R77U",
+        "known_positions": 97,
+        "positions": 98,
+        "unpaired_coordinate": "V"
+      },
+      "runner_up": {
+        "key": "Oct4-6",
+        "score": -9.410804848921927,
+        "known_quad_mean": -9.394780400035145,
+        "known_quad_windows": 91,
+        "known_positions": 97,
+        "positions": 98,
+        "unpaired_coordinate": "V"
+      }
+    }
+  ],
+  "credit": "The earlier unreviewed OCR screen already included the complete 196-slot C candidate with the same garbled words. Its A/B frames had 197/241 slots and did not recover the native bodies. This edition credits the earlier C candidate and the published period key separately."
+}

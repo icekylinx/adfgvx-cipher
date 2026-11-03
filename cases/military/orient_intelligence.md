@@ -23,11 +23,15 @@ distinctions.
 
 The source advertises and prints **328 valid coordinates**. Its raw body is:
 
+**Raw output:**
+
 ```text
 DEUTSCQERNOOSMOHLZUGLFUERUNTERSTNOXBERICHTIGUNGZUVORTRXNOTORIENTVOMX30X10X2ABSATZSYRIENXMUSSAMSCHLUSSHEISSENXALSOANSCHEINENDX7XINDXDIVX60XGEMXDIVXODEDXFALLSX54XUSWX
 ```
 
 The candidate repairs `DEUTSCQER` to `DEUTSCHER` and `ODED` to `ODER`:
+
+**Edited output:**
 
 ```text
 DEUTSCHERNOOSMOHLZUGLFUERUNTERSTNOXBERICHTIGUNGZUVORTRXNOTORIENTVOMX30X10X2ABSATZSYRIENXMUSSAMSCHLUSSHEISSENXALSOANSCHEINENDX7XINDXDIVX60XGEMXDIVXODERXFALLSX54XUSWX
@@ -37,6 +41,8 @@ This costs **three observed-coordinate substitutions**. The clear
 header independently contains `DEUTSCHER`. The report calls itself a
 correction to the Orient presentation note of raw `30 X 10`, second
 paragraph on Syria, and says the ending should read:
+
+**Readable German:**
 
 > Also anscheinend 7 X IND X DIV X 60 X GEM X DIV X oder X falls X 54 X usw.
 
@@ -48,6 +54,8 @@ note is not supplied or reconstructed from this correction alone.
 The source advertises and prints **252 coordinates**. Earlier OCR merged
 this part with A3 and A4; applying the printed boundary gives the
 following complete **126-position raw reading**, without any edit:
+
+**Raw output:**
 
 ```text
 VORTRAGSNOTIZENX31X10X1918XORIENTROEMX1XSYRIENBEVORSTEHENDELANDUNGINALEXANDRETTENACHFLIEGERMELUNGVOM29X10FUHREINGELEITZUGVONX2
@@ -63,6 +71,8 @@ into the ciphertext.
 
 The source advertises and prints **394 valid coordinates**. The
 **197-position raw reading** is complete and unchanged:
+
+**Raw output:**
 
 ```text
 GROESZERENTRANSPORTERN1KREUZERXUX4XTORPEDOBOOTENX40XKMXSUEDWESTLXALEXANDRETTEINFAHRTRICHTUNGALEXANDRETTEAUSZERDEMWURDEINDERBUCHTVONXARSUSXEINGROSZESSCHIFFBEOBACHTETNACHALLDENMELDUNGENDERLETZTENTAGE
@@ -80,6 +90,8 @@ geographical letter is supplied from a modern map.
 
 The source advertises and prints **328 valid coordinates**. Its
 **164-position direct reading** is:
+
+**Raw output:**
 
 ```text
 UEBERGESTEIGERTENSCHIFFVERKEHRVORDERXSYRISCHENXKUESTEUNDDERTAETIGKEITDERAUFKLAERUNGSFAHRZEUGEVORXALEXANDRETTEXMUSSMITUNMITTELBARBEVORSTEHENDENLANDUNGSVERSUCHENINDER
@@ -101,11 +113,15 @@ unchanged observed source.
 The source advertises **368 slots**, with one printed dash in its first
 group, `GDGV-`. Its raw reading is:
 
+**Raw output:**
+
 ```text
 BUCHTVONALEXANDRETTEXGERECHNETWERDENXROEMX2?MESOPOTAMIENX7NGLISCHERVORMARSCHAMXTIGRISXNACHENGLORIENTBERICHTGRIFFENENGLISCHETRUPPENAMX29X10XDIETUERKISCHENSTELLUNGENNOERDLXKALATXSHERGATX
 ```
 
 The candidate is:
+
+**Edited output:**
 
 ```text
 BUCHTVONALEXANDRETTEXGERECHNETWERDENXROEMX2XMESOPOTAMIENXENGLISCHERVORMARSCHAMXTIGRISXNACHENGLORIENTBERICHTGRIFFENENGLISCHETRUPPENAMX29X10XDIETUERKISCHENSTELLUNGENNOERDLXKALATXSHERGATX
@@ -128,11 +144,15 @@ Turkish positions north of the received `KALAT X SHERGAT` on raw
 All **350 coordinates** are observed. The full **175-position raw text**
 needs no repair:
 
+**Raw output:**
+
 ```text
 ANUNDDRANGENNACHHEFTIGENANSCHEINENDSCHWERENKAEMPFENINDIESTELLUNGENEINTEILEDERTUERKENDIEZUENTKOMMENVERSUCHTENWURDENANGEBLICHDURCHBRITISCHEKAVALLERIEABGESCHNITTENXABTFREMDEHEERE
 ```
 
 With editorial spacing, continuing A5:
+
+**Readable German:**
 
 > … an und drangen nach heftigen, anscheinend schweren Kämpfen in die Stellungen ein. Teile der Türken, die zu entkommen versuchten, wurden angeblich durch britische Kavallerie abgeschnitten. Abt. Fremde Heere.
 

@@ -6,7 +6,7 @@ Five physical records are supplied: A1, B1/B2 and C1/C2. A1 is only the first pa
 
 ## Accounting
 
-| Record | Native coordinates | Raw fixed → edited fixed | Observed substitutions | Dash fills |
+| Record | Source slots | Raw fixed → edited fixed | Observed substitutions | Dash fills |
 |---|---:|---:|---:|---:|
 | p209 A1 | 224 | 104/112 → 112/112 | 0 | 8 |
 | p209 B1 | 310 | 155/155 → 155/155 | 4 | 0 |
@@ -14,7 +14,7 @@ Five physical records are supplied: A1, B1/B2 and C1/C2. A1 is only the first pa
 | p209 C1 | 242 | 121/121 → 121/121 | 4 | 0 |
 | p209 C2 | 182 | 91/91 → 91/91 | 4 | 0 |
 
-Total:1,188 received coordinates,594 positions,586 raw fixed→594 edited fixed,15 observed substitutions and8 printed-dash fills. There are no coordinate additions/deletions/reorderings or new key/numeral assignments. All five frames match their printed RICHI lengths.
+Total: 1,188 source slots, comprising 1,180 valid ADFGVX coordinates and eight printed dashes; 594 plaintext positions, 586 raw fixed → 594 edited fixed, 15 observed substitutions and 8 printed-dash fills. There are no coordinate additions/deletions/reorderings or new key/numeral assignments. All five frames match their printed RICHI lengths.
 
 A1's `TS8HESCHICHE`, B1's `ABMMD`/final `LEBENSMITTELM`, B2's `NOXJ0192SMXBEWEGEXBERLIN`, C1's `HABENGROSSEANZAHL` and C2's `RMJAJJ970GEHXOP` remain explicit. Fixed labels are not independently authenticated numerals. Restoring first rows missed by OCR is not charged as received-source insertion. C1's `GFXAF` is entirely visible, so its earlier OCR masks are not source erasures.
 

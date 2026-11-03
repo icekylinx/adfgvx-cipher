@@ -1,5 +1,7 @@
 # November 3 radio transmission schedule: surviving second part
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
 Childs p110 A explicitly labels this as part 2 of a two-part message:
@@ -11,13 +13,13 @@ The published Nov1–3 square and column order are unchanged.
 
 ### p110 A2
 
-**Raw decoding**
+**Raw output:**
 
 ```text
 1000BIS1200X1545BIS1645X2100BIS2230XXOSMXSENDET0200BIS0330X0430BCS0530X0900BIS0X45X1900BIS0025X2230BIS2300XXRINGBAHNVERKERAENDERTSICHNICHPXX
 ```
 
-**Edited candidate**
+**Edited output:**
 
 ```text
 1000BIS1200X1545BIS1645X2100BIS2230XXOSMXSENDET0200BIS0330X0430BIS0530X0900BIS0X45X1900BIS0025X2230BIS2300XXRINGBAHNVERKERAENDERTSICHNICHTXX

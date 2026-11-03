@@ -22,9 +22,13 @@ historical decipherment is claimed.
 Header: `ASO v LP (04.50 p.m., October 4th); 1030 (4.10); RICHI-124`.
 The heading is October 4, 1918. All 62 plaintext positions are directly fixed:
 
+**Raw output:**
+
 ```text
 SOFIAXAUSRINGBAHNVERKEHRAUSGESCHIEDENXXNACHRICHTENCHEF4BX49287
 ```
+
+**Readable German:**
 
 > Sofia. Aus Ringbahnverkehr ausgeschieden. Nachrichtenchef 4B. 49287.
 
@@ -48,6 +52,8 @@ RICHI-260`. The heading is October 4, 1918.
 
 **Editorial German reading:**
 
+**Readable German:**
+
 > Hptm. v. Westernhagen. [0] Bitten Rückkehr beschleunigen, da über dortige
 > Marktlage dringend Bericht benötigen, mit Einkauf beginnen wollen.
 > Deutkauf.
@@ -58,6 +64,8 @@ addressee remains the literal source-derived symbol; it is not silently
 converted to punctuation. `DEUTKAUF` is retained as the signature token.
 
 The raw 130-character inverse is:
+
+**Raw output:**
 
 ```text
 HPTMXVXWESTERNHA5ENX0BITTENRUECLKEHRBESCHLEUNIGENDAUEBERDOUTIGEHARKTLAGEDRINGENDBERICHTBENOETIGENMITEINLAUFBEGINNENWOLLENXDEUTKAUF
@@ -90,6 +98,8 @@ Those invalid glyphs are retained as erasures.
 
 The following reading is **conditional on a declared two-deletion layout**:
 
+**Readable German:**
+
 > Frontwetterwarte. Bitte Obs. Telegr. stets Datumgruppen voranzustellen,
 > sonst Meldg. wertlos. FEWEWA110.
 
@@ -101,6 +111,8 @@ unit.
 The two source layouts delete either index 79 or 80—one of the adjacent
 `FF` across `FFDGF FGAFRG`—and index 187, the final `X`. Both produce the
 same 186-slot stream and this raw inverse:
+
+**Raw output — conditional deletion of source 79 or 80, and final source 187:**
 
 ```text
 FRONTWETTERWARTEXLITTEOBSXTELEGRXSTETKDATUMGRUPPENVORANZUSTELLENSONSTME?DGXWERT?OSXXFEWEWA110
@@ -141,12 +153,16 @@ groups of five slots**, or 270 slots; the source field remains `RICHI-54`.
 
 The raw inverse is:
 
+**Raw output:**
+
 ```text
 E?BITTEUEBER?EID5OGJEEINESBESRIEBSUNDVASCHIWNENMECH8ISCHENKONTROLLEWRSGENERALVSNKRESSEINVERSTAODENDEUTSCHEDELXKASKXABTXZXNRX474DG1MOOLX
 ```
 
 A limited editorial reading, costing **12 known-coordinate substitutions
 and two erasure fills**, is:
+
+**Readable German:**
 
 > Erbitte Übersendung je eines Betriebs- und [21-character technical
 > expression unresolved] Kontrolleurs. General von Kress einverstanden.

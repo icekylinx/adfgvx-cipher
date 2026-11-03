@@ -14,6 +14,8 @@ The fragment is part of the previously known notice concerning withdrawal from t
 
 In the 284-coordinate frame, with the absent tail left as 124 erasures, only 30 plaintext positions have both source coordinates visible:
 
+**Raw output — conditional 284-slot frame with 124 absent tail coordinates left unknown:**
+
 ```text
 ?????????K??E????U??L?N?????????N??A????S??A?D?????????R??7????R??R?E?????????U??D????N??E?L?????????G??I????E??U?E?????????R??K????N??A?H????
 ```
@@ -21,6 +23,8 @@ In the 284-coordinate frame, with the absent tail left as 124 erasures, only 30 
 ### A conditional tail from the full printed witness
 
 Borrowing p218's 124 literal tail coordinates, while preserving every p212 coordinate, gives:
+
+**Raw output — conditional cross-copy tail completion from p218:**
 
 ```text
 DIEVORDEMKRIEGZURUSZLANDGEHOERTENXHABENXSOBALDDIEALLIIERTE7UNTERBERUECKSICHTIGUNGDERJNNERENLAGEDIESERGEBIETEDENAUGENBLICKFUERGEKOMMENERACHTENX
@@ -33,6 +37,8 @@ The copies are complementary. p212's F at index 46 independently supports the ea
 ### Conservative readable candidate
 
 Using that one p218 witness correction in the observed p212 prefix, then separately changing borrowed coordinate 217 `X → F` for `JNNEREN → INNEREN`, gives:
+
+**Edited output — conditional cross-copy tail completion, followed by the stated repairs:**
 
 ```text
 DIEVORDEMKRIEGZURUSZLANDGEHOERTENXHABENXSOBALDDIEALLIIERTENUNTERBERUECKSICHTIGUNGDERINNERENLAGEDIESERGEBIETEDENAUGENBLICKFUERGEKOMMENERACHTENX

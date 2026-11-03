@@ -16,6 +16,8 @@ Twelve source records cover seven exchanges about the Caucasus: personnel and mo
 
 ### Most likely readable German
 
+**Readable German:**
+
 > Zu Tel. 30.9. `NATEKS` Nr. 8557. 1. Verstärkung der Deleg. von O.H.L. ohne Beteiligung [… K.M.] angeordnet. 2. Mit Bericht vom 8.[?], `4A` Nr. 553 angeford. Verw.-Pers. wird mit Ausnahme der Garnison-Verw.-Beamten — vergl. Tel. 26.[?], [unresolved reference] — zur Verfügung gestellt werden. 3. Notwendiges Geld ist sichergestellt.
 
 **Meaning:** Reinforcement of the delegation has been ordered by Supreme Army Command, without the participation of an office whose abbreviation is damaged. Requested administrative personnel will be made available, except for garrison-administration officials. Necessary money has been secured.
@@ -40,6 +42,8 @@ The raw core is already recognizable as `VERSTAER1UNGDERDELEGXVONOXHXLXOHNEBETEI
 
 ### Most likely readable German
 
+**Readable German:**
+
 > An Westernhagen. Bestätigen Telegr. 28.9. Euer früheres Telegr. nicht erhalten. Da von euch ohne Bericht und Kenntnis dortiger Marktlage gelassen, können Preisgrenzen nicht aufgeben. Mdl. Rücksprache sofort erforderlich. Bitten Rück[k]ehr beschleunigen. Drahten Gleiches über ASTO Constanza. Bestätigt Empfang. Deutkauf.
 
 **Meaning:** A telegram of 28 September is acknowledged, but an earlier one was not received. Without the requested report or knowledge of local market conditions, the sender cannot give price limits. An immediate personal discussion is needed; Westernhagen is asked to hasten his return. The same instruction is being telegraphed via `ASTO Constanza`, and receipt is to be acknowledged.
@@ -59,6 +63,8 @@ Removing one copy of each repeated A1 group gives four source-index aliases and 
 
 ### Most likely readable German
 
+**Readable German:**
+
 > Nach Tiflis abgegangen 28.9., mit 2 Begleiter: 2 Stück 16-kW-Maschinensätze und 1 [20]-kW-Umformer.
 
 **Meaning:** Two machine sets rated at 16 kW and one converter, provisionally read as rated at 20 kW, were dispatched to Tiflis on 28 September with two accompanying people. The directly decoded telegraphic form is `BEGLEITER`; no grammatical final `N` is inserted into the cipher edition.
@@ -75,6 +81,8 @@ Part A2 advertises **192 coordinates** but stops after **85**, followed by the p
 
 ### Most likely readable German
 
+**Conditional interpretation — readable German with the separately bracketed cargo/date hypotheses:**
+
 > Ab Braila [4.10.] mit D. Violetta: [10 000] Eierhandgranaten, 3 Wagen Masch.-Gew., `04WLI` russ. Gew., 9 Wag. Mun., `94TS6` Lebensmittel, 16 Faß Benzin, 2 Kisten Kuriergepäck, 10 Wag. Mun. für Mun.-Dep. Poti und mehrere Wag. für dort. Truppen.
 
 **Meaning:** A cargo sent from Braila aboard the vessel *Violetta* includes hand grenades, machine guns, Russian rifles, ammunition, food, petrol and courier luggage. Poti's ammunition depot and troops there are named as destinations. Two damaged quantity fields are unresolved. The proposed **10 000** hand grenades is also conditional: the common raw reading is `100?0`, and the fourth digit depends on the declared alignment and an erased-coordinate fill. It is not an independently established exact quantity.
@@ -88,6 +96,8 @@ The displayed **4.10.** date and several words are editorial repairs. `04WLI` an
 
 These models supply a slot because a printed group is short and the header is one longer. They do not prove that the historical loss occurred there. In B1 the editorial template has two tied minimum-cost placements. In B2, the proposed complete continuation is
 
+**Edited output — conditional missing-slot frame for the short printed group:**
+
 ```text
 UNDMEHREREWAGXFUERDORTXTRUPPENXXX
 ```
@@ -99,6 +109,8 @@ It replaces the short printed `XFFF` by `GDFFF`: either insert `G` before the pr
 **Source:** printed p. 72 / PDF p. 75, section B. `POT v OSM (---------, October 9th); FUR POT (6) 0830; RIZI-274`. The source prints `RIZI`; that label is not silently rewritten as `RICHI`.
 
 ### Most likely readable German
+
+**Readable German:**
 
 > Zu dort Nr. 479: 20.00, 20.30 für OSM ungeeignet. Sind Sie mit RICHI `M98`, 30.9., mitgeteilten Zeiten einverstanden? Wie ist dort Empfang OSM, Welle 2800 und 3500? Schlee.
 
@@ -112,6 +124,8 @@ The unchanged 274-coordinate geometry fixes **136/137 raw positions**. The displ
 
 ### Most likely readable German
 
+**Readable German:**
+
 > Mit Einverständnis O.H.L. wird Rittm. [Tellner], [Tellner], als Verbdgs.-Offz. der Heeresgr. nach Tiflis entsandt. Heergr. Kjew.
 
 **Meaning:** With Supreme Army Command's approval, a cavalry captain is being sent to Tiflis as the army group's liaison officer. The signature names Army Group Kiev; the cipher's literal spelling is `KJEW`. The two bracketed names are an editorial name reconstruction, not one-position question marks. The damaged surname is repeated and is provisionally read as **Tellner**, without assigning a forename or identifying a person outside the telegram.
@@ -119,6 +133,8 @@ The unchanged 274-coordinate geometry fixes **136/137 raw positions**. The displ
 The actual body has **220 coordinates**, matching the header. Three parenthesized `X` values are retained as recorded source coordinates, including the final printed run `FDX(X)-X(X)VGX`. Parentheses remain visible in the literal row edition. Removing those annotated letters or treating the ten-slot run as one five-letter group would change the frame.
 
 The literal inverse fixes **109/110 raw positions**:
+
+**Raw output:**
 
 ```text
 MITEINVERSTAEWDNISXOXHXLXWIRDRITTMXTELLNEIXTELLN1RXA?SVERBDGSXXBFZDERHEERELGRXNACHXTIKLCSXEN5SAND6XHEERGRXKJEW
@@ -134,11 +150,15 @@ The published October 4–6 key gives a recognizable Kress/Tiflis address and eq
 
 ### Provisional first-part reading
 
+**Readable German:**
+
 > General v. Kress, Tiflis. Zu T-Spruch Nr. [?159; damaged reference]. Betr. Entsendung 2 Offz. nach Tiflis zum Ankauf von Ausrüstungsstücken [continued in part 2]
 
 **Meaning under the proposed repairs:** The message concerns sending two officers to Tiflis to purchase equipment. Its reference number and date cannot be completed responsibly from this edition.
 
 The literal **220-slot** body has **22 coordinate erasures**, including the non-coordinate letters `W` and `K`, and fixes **89/110 raw positions**. Two erased coordinates fall in the same plaintext pair. Its unchanged inverse is:
+
+**Raw output:**
 
 ```text
 G?NE??LOKR?SSXTIFL?LXX?1TSP?UC6NR?159F????9XBZTRW?NT?1?DU?G2OFFX0NAUHDTCFSISXZU??XKAUFVONA5SR5?STUNAS?TS?CKENX
@@ -149,6 +169,8 @@ The displayed ordinary wording needs **24 known-coordinate substitutions and 17 
 ### Limited second-part continuation
 
 Part 2 has exactly **186 slots**, with **41 coordinate erasures** and **56/93 fixed raw positions**. Its beginning `??DARTILLER??T7QITJO?` supports the provisional continuation:
+
+**Readable German:**
 
 > [continued from part 1] und Artilleriemunition [remaining text unresolved]
 

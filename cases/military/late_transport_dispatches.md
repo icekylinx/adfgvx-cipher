@@ -31,6 +31,8 @@ slot and records the limited word repairs explicitly.
 
 Part A1, after the one-coordinate `M3T→MIT` repair:
 
+**Edited output:**
+
 ```text
 ABENDMELDGYVY26YXXYY8YRYDYISTMITANFANGBISTISZAFOELDVARAUFGERUECKTYUNTERBRINGUNGSRAUMDERJX5YUYJX0YIYDYUNVERAENDERTY
 ```
@@ -43,6 +45,8 @@ published-key labels, not certified dates or unit numbers.
 Part A2, with one substitution proposing `SWOLNOK→SZOLNOK` and the printed
 dash filled to give `ANGEHALTEN`:
 
+**Edited output:**
+
 ```text
 SEITJ5YXXYABENDSSINDALLETRANSPORTEAUFSTRECKEARADSZOLNOKAUFWEISUNGDERUNGYZYTYLYANGEHALTENWORDENYY
 ```
@@ -52,6 +56,8 @@ the instruction of the Hungarian `Z T L`. The latter abbreviation remains
 unexpanded. The evening date-like field `J5YXX` is not numerically interpreted.
 
 Part A3, with two substitutions restoring `NICHT` and `GEFUNDEN`:
+
+**Edited output:**
 
 ```text
 DIEFUERHEUTEBEABSICHTIGTENVERLADUNGENHABENDAHERBISHERNICHTSTATTGEFUNDENYYAYOYKYXXYXYAYYY
@@ -68,6 +74,8 @@ has `ZON v BSL; NR 153 1900 (30/11) 2 TLE`, with exact lengths 268 and 248.
 In B1, two previously uncertain words are filled from printed dashes, and
 one observed coordinate repairs the office abbreviation `OH4→OHL`:
 
+**Edited output:**
+
 ```text
 AOKXXYOKMHATBEIOHL0KRAFTWAGENKOLONNENBEANTRAGTOHLDRAHTETMIRRMX?X63282ESWIRDGEBETENMITXXARMEEUNMITTELBARINVERBINDUNGZUTRETENOBVONDIESER
 ```
@@ -79,6 +87,8 @@ source does **not** establish a request for “40 columns.” The army labels
 `XX` and the damaged reference `RMX?X63282` remain unassigned.
 
 B2 continues the question, after six substitutions and five erasure fills:
+
+**Edited output:**
 
 ```text
 NOCHWEITEREAKKSABGEGEBENWERDENKOENNENYTELRAMMSCHLUSSUMMITTEILUNGWIRDGEBETENWIEVIELKONNENABGEGEBENWERDENKOENNENYOKMRMXCX0?40Y
@@ -110,12 +120,16 @@ it is not a seven-coordinate insertion into the historical ciphertext.
 
 The resulting direct reading under the published Nov28–Dec1 key is:
 
+**Raw output:**
+
 ```text
 K?FLXXYYW?BLEIBTF?IEGER???LY24Y?A?SCHZIEL?STC?0IO?ADA?IER?IGE?ERP?RKE?RIC?TET?IR??BIT?ENA??HK?VER?ETZ?EFLIEGE?VERBAEN?EBESTIM?UNGSGEM?ESSAUFF??LLENYK?FLMACKY?3X4OPYY
 ```
 
 Three observed-coordinate substitutions and 31 erasure fills support this
 separate conditional edition:
+
+**Edited output — conditional partial-source reconstruction with the stated erasure fills:**
 
 ```text
 KOFLXXYYWOBLEIBTFLIEGERABTLY24YMARSCHZIELISTCRAIOVADAHIEREIGENERPARKERRICHTETWIRD?BITTENACHHK?VERSETZTEFLIEGERVERBAENDEBESTIMMUNGSGEMAESSAUFFUELLENYKOFLMACKY?3X4OPYY

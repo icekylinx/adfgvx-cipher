@@ -14,6 +14,8 @@ attribution](../../data/keys.json); no first-decipherment priority is claimed.
 
 ## Reading
 
+**Readable German:**
+
 > Coeln 11. Ab. 1. S. Milmiss., Transp.-Abt. 1b, Constantinopel.
 > Bin wiederhergestellt. Bitte Abfahrtstag bestimmen. Kremp.
 
@@ -25,6 +27,8 @@ breaks are editorial. The person's identity and the cause of his earlier
 incapacity are not inferred.
 
 The complete p159 plaintext is:
+
+**Raw output:**
 
 ```text
 COELN11XAB1XSXMILMISSTRANSPABT1BCONSTANTINOPELXBINWIEDERHERGESTELLTBITTEABFAHRTSTAGBESTIMMENXKREMP
@@ -56,6 +60,8 @@ p149 and **45 of 51** in p131.
 ## Exact repairs to the earlier version
 
 The p149 source decodes literally as:
+
+**Raw output:**
 
 ```text
 MILMISTRANSPABT1BKONSTANTINOPELXBINWIEDERHER4ESTELLTBITTEABFA7ETSTAGBESTIMMENXKREMPX

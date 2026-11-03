@@ -6,6 +6,8 @@
 
 Childs p138 B gives a short operational instruction:
 
+**Readable German — under the conditional final-X exclusion and stated word repairs:**
+
 > Erste Hälfte von vorne, zweite Hälfte von hinten lösen. NKJ.
 
 Its meaning is to solve or decipher the first half from the front and the
@@ -28,6 +30,8 @@ The [full page](../../experiments/bidirectional_deciphering/sources/childs_p138_
 is headed **November 6**, but the [B reception line](../../experiments/bidirectional_deciphering/sources/childs_p138_B.png)
 reads **00.15 November 5**:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 B) LP v NKJ (00.15 November 5th)
 SSD ZU 14.10 (5)
@@ -46,6 +50,8 @@ The external `NKJ 472` footer is outside the 105-slot ciphertext.
 Using all 105 slots in the unchanged published `Nov4-6` transposition gives
 52 paired labels plus an unpaired `G`, and no readable body:
 
+**Raw output — original odd frame; paired prefix is unreadable and an orphan coordinate remains:**
+
 ```text
 EIM1VLM3LFT1VRF91R4KF19LW?HMYL4W9S3ML6NMJML1REELLTM2
 ```
@@ -55,11 +61,15 @@ index 104**, is extraneous to a 104-coordinate cipher. Removing it for
 transposition, while preserving it in the source witness, gives 51 fixed
 labels out of 52:
 
+**Raw output — conditional exclusion of final source 104 X:**
+
 ```text
 ERSTEHAELFTEVONVORNEFFEIT?HAELFTEVONHINTENLOESENXNKJ
 ```
 
 The proposal is:
+
+**Edited output — same conditional final-X exclusion, with the stated repairs:**
 
 ```text
 ERSTEHAELFTEVONVORNEZWEITEHAELFTEVONHINTENLOESENXNKJ
@@ -67,11 +77,15 @@ ERSTEHAELFTEVONVORNEZWEITEHAELFTEVONHINTENLOESENXNKJ
 
 Removing the preceding received **`F`, source index 103**, instead gives:
 
+**Raw output — alternate conditional exclusion of source 103 F:**
+
 ```text
 ERSTEHAELFTEVONVORNEFFEIT?HAELFTEVONHINTENLOESENXNMJ
 ```
 
 After the same repairs, its complete alternative is:
+
+**Edited output — same alternate exclusion, with the stated repairs:**
 
 ```text
 ERSTEHAELFTEVONVORNEZWEITEHAELFTEVONHINTENLOESENXNMJ
@@ -122,6 +136,8 @@ ties and earlier unsuccessful stage interpretations remain in the
 
 The [p132 B source edition](p132_radio_service.md#b-repeat-the-fourth-period-telegram-in-the-fifth)
 contains this header:
+
+**Source transcription — clear header and/or literal source record:**
 
 ```text
 B) LP v NKJ (6.13 p.m., November 5th)

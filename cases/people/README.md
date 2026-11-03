@@ -4,7 +4,7 @@
 
 Appointments, staff transfers, travel permissions, personnel inquiries and civilian affairs are collected here.
 
-**30 reviewed physical records across 13 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**31 reviewed physical records across 14 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -13,6 +13,7 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [p92 A — Dutch courier Vreede's passage to Constantinople](p92_A.md) | p92 A |
 | [p96 B — Entry permission for Filittis and family](p96_B.md) | p96 B |
 | [Return to a replacement unit on medical grounds](medical_return_to_unit.md) | p104 C1, p104 C2 |
+| [Medical-company report and a request for clarification](medical_company_inquiry.md) | p117 A |
 | [Kremp's request for a departure date — p131, p149 and p159](kremp.md) | p131 B, p149 B, p159 D |
 | [Osthoff's posting to Turkey is cancelled](osthoff.md) | p138 A1, p138 A2, p148 C1, p149 A2 |
 | [An enquiry about Glatz's whereabouts](glatz.md) | p140 B, p149 C |
@@ -32,6 +33,7 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [p96 B](p96_B.md) | Entry permission for Filittis and family | 180/181 raw positions; Copenhagen repair costed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p104 C1](medical_return_to_unit.md) | Conditional medical-return report opening; visible short GAGA group and three equal-A positions | 227 source slots against 228; conditional 113/114 raw labels; 3 substitutions and 1 missing transmitted A; all 3 arithmetic minima retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p104 C2](medical_return_to_unit.md) | Return to replacement unit for recovery; literal RETTERL/KETTERL closing retained | 70/70 raw labels; 1 word repair; MARSH and both name tokens retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+| [p117 A](medical_company_inquiry.md#p117-a) | Clarify a reported medical company versus a field hospital | 157/160 fixed raw positions; 1 coordinate substitutions, 3 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier unreviewed OCR candidates credited separately |
 | [p131 B](kremp.md) | Kremp asks for his departure date | 82/84 raw positions; later second-key body supports repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p138 A1](osthoff.md) | Osthoff's Turkey posting cancelled, first witness | Missing group supplied by p148; all 121 candidate letters witnessed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p138 A2](osthoff.md) | Osthoff reassigned to a railway replacement battalion | Shared source garbles; three proposed word repairs | icekylinx and GPT-6 Astra Pro (2026) |

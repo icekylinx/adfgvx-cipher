@@ -11,12 +11,14 @@ message families. Two radio-service requests were sent under different
 keys. Two notices about a pilot's arrival in Berlin describe the same
 apparent event, with changed wording. A third interrupted arrival notice
 matches a complete source exactly: that witness restores **85 missing
-coordinates and 85 additional raw plaintext letters** without changing any
+coordinates and 85 additional raw plaintext positions** without changing any
 of the fragment's 195 received coordinates.
 
 ## Which station can replace NKJ?
 
 The p190 B and p190 E messages read, with the separately certified repairs:
+
+**Readable German:**
 
 > Welche Station kann NKJ bei Betriebsstoerung vertreten? Vielleicht
 > [Sewastopol]. Dring[end] Bescheid an LP.
@@ -28,6 +30,8 @@ Perhaps Sevastopol; send an urgent reply to LP. The full city spelling
 `SEWASTOPOL` is the candidate reading, and its S is an editorial repair.
 The source abbreviation `DRING` is retained in the exact template; the
 expanded word above is explanatory.
+
+**Edited output:**
 
 ```text
 WELCHESTATIONKANNNKJBEIBETRIEBSSTOERUNGVERTRETENXXVIELLEICHTSEWASTOPOLXDRINGBESCHEIDANLP
@@ -45,7 +49,7 @@ The literal source decryptions are:
 | p190 B | `WELC?ESTATIO?KANNNKJ?EIBETRI?BSSTOERUNGVERTRETENXXVIELLEICHTSEWAVTOP?LXDRINPBESE?IIDANLP` |
 | p190 E | `WELCHE?TATION?ANNNKJBEIBETRIEBSTTOERUNG?ERTRETENXXVIELLEICHTSEWA?TOPOLXDRINGB?SCHEI?ANLP` |
 
-**87/88 preferred letters have a complete pair in at least one source.**
+**87/88 preferred positions have a complete pair in at least one source.**
 The exception is the S at plaintext index 64 in `SEWASTOPOL`. The earlier
 copy has raw V; the other copy has a damaged half-pair whose domain includes
 S. The city reading remains a separately priced editorial choice.
@@ -61,6 +65,8 @@ letters Q and T are also retained in the literal transcription.
 
 The p190 D and p193 A notices have the following source-supported reading:
 
+**Readable German:**
+
 > Vermittelt NKJ Funksprueche fuer Mackensen? Habt ihr Verbindung, und wie?
 > Dring[end] Bescheid an FUGROSTA. LP.
 
@@ -71,6 +77,8 @@ contact, and how? Send an urgent reply to FUGROSTA; signed LP. `FUGROSTA`
 is retained as transmitted. The transmitted abbreviation is `DRING`.
 
 The longer exact candidate is:
+
+**Edited output:**
 
 ```text
 VERMITTELTXXNKJXXFUNKSPRUECHEFUERMACKENSENHABTIHRVERBINDUNGUNDWIEXXDRINGBESCHEIDANFUGROSTAXXLP
@@ -84,6 +92,8 @@ in at least one original source**. Neither ciphertext is padded or trimmed
 to make their lengths agree.
 
 The literal decryptions are:
+
+**Raw output — separate literal witnesses under their stated period keys:**
 
 ```text
 p190 D:
@@ -104,6 +114,8 @@ in `VERBINDUNG` and the extra E in `FUER`.
 
 The p190 A and p194 B notices say, with their certified ordinary-word repairs:
 
+**Readable German:**
+
 > Zitadelle [Warschau], fuer Soldatenrat. Flieger / Flugzeugfuehrer
 > FR?E, Bevollmaechtigter [des] Soldatenrats, in Berlin wohlbehalten
 > eingetroffen. Auswaertiges Amt.
@@ -116,6 +128,8 @@ explicitly includes Warsaw. The raw texts omit the grammatical article
 inserted in brackets above. No personal identity is assigned.
 
 The literal decryptions are:
+
+**Raw output — separate literal witnesses under their stated period keys:**
 
 ```text
 p190 A:
@@ -139,11 +153,11 @@ of p194 B beginning at ciphertext index 85. The complete p194 B record has
 the same call signs, a `4.14 p.m.` interception time and a `RICHI-280` length.
 
 The certificate first retains the fragment as a 280-position source model
-with **85 unknown prefix slots**, which fixes only **54/140 raw letters**.
+with **85 unknown prefix slots**, which fixes only **54/140 raw positions**.
 It then fills those 85 positions from the independently printed beginning
 of p194 B. No received coordinate of p193 B is changed. The restored stream
-equals p194 B exactly and fixes **139/140 raw letters**: **85 additional
-letters** are recovered from the overlapping source, with an exact witness
+equals p194 B exactly and fixes **139/140 raw positions**: **85 additional
+positions** are recovered from the overlapping source, with an exact witness
 index for every supplied coordinate.
 
 This restoration preserves the complete copy's literal `SOLDLTENRATS`

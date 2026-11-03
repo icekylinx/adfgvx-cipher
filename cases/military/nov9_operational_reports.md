@@ -22,6 +22,8 @@ The following German readings use the recorded edited witnesses and supply reada
 
 ### p166 A, with its p167 A continuation
 
+**Readable German — the stated edited witness, with the linked 5/6 cell left unresolved:**
+
 > O.H.L., O.P. Lage 11. Armee, 8.11., abends: Serb[ische] Kavallerie [in] Peterwardein und Fehertemplom eingerückt.
 >
 > Abmarsch 217. I.D. und **[5. oder 6.] R.D.** nach Norden ohne Feindberührung. Alpenkorps wird Umverbasz (Fragezeichen) zum Abtransport bereitgestellt.
@@ -33,6 +35,8 @@ The following German readings use the recorded edited witnesses and supply reada
 The place spelling and the explicit question mark belong to the transmitted text. The p170 parallel offers the conditional reading **Ujverbasz**. The source spelling `NAGYBESKEREK` is retained. The raw edition leaves the reserve-division numeral as **5/6**. A contemporary French operational report supports **6th Reserve Division** in the historical-context layer below.
 
 ### p170 B, parts 1 and 2
+
+**Readable German — the stated edited witness and prose-only additions identified below:**
 
 > Aben[d]meldung: Serb[ische] Kavallerie [in] Peterwa[r]dein und Fehertemplom eingerückt. Abmarsch 217. I.D. und **[5. oder 6.] R.D.** nach Norden ohne Fein[d]berührung.
 >
@@ -70,6 +74,8 @@ This selects one historical reading in four occurrences, not four independent ke
 
 The p167 copy begins:
 
+**Source transcription:**
+
 ```text
 ADFVF DDDVX DGVDD XVDAF
 ```
@@ -78,6 +84,8 @@ Its following 184 slots align with the complete p166 A3 fragment: **179 known ma
 
 Prepending those **20 observed source coordinates** to p166 A3 preserves every one of its **184 received coordinates** and restores the advertised frame. It decrypts to:
 
+**Raw output — conditional prefix placement from p167; all p166 observed coordinates retained:**
+
 ```text
 BEREITGESTELLBX219XX217XUND?XLXDXSETZSN9X11XMARSCHINLINENAGYBESKEREKXWERSCHETZFORTXOXKXMX1AXNO11319OPX
 ```
@@ -85,6 +93,8 @@ BEREITGESTELLBX219XX217XUND?XLXDXSETZSN9X11XMARSCHINLINENAGYBESKEREKXWERSCHETZFO
 This is a **101/102-position raw reading under the restored geometry**, including its visible errors. The remaining question mark is the global square ambiguity **5/6**. The prefix was copied from an independent intercept, not invented to make this plaintext appear.
 
 Keeping both source values at every known disagreement gives a more conservative combined template with **97/102 singleton positions**:
+
+**Conditional interpretation — joint source constraints; disagreements retained:**
 
 ```text
 BEREITGESTELL?X219XX217XUND?X?XDXSETZSN?X11XMARSC?INLINENAGYBESKEREKXWERSCHETZFORTXOXKXMX1AXNO11319OPX
@@ -109,6 +119,8 @@ The literal spelling `LINE` is expanded to `Lin[i]e` only in prose; no extra cha
 
 ### p166 A1 — 174 coordinates / 87 positions
 
+**Raw output:**
+
 ```text
 OXHXLXOXPXLAGE11XARMEE8X11HABENDSXSERBXKAVALLERIEPETERWARDEINUNDF3HERTEMPLOMEINGSRUECKT
 ```
@@ -116,6 +128,8 @@ OXHXLXOXPXLAGE11XARMEE8X11HABENDSXSERBXKAVALLERIEPETERWARDEINUNDF3HERTEMPLOMEING
 The readable same-length edition uses three coordinate substitutions for the anomalous `H` after `8.11`, `F3HERTEMPLOM → FEHERTEMPLOM`, and `EINGSRUECKT → EINGERUECKT`. The candidate is kept beside the raw text, with each coordinate map in the certificate.
 
 ### p166 A2 — 212 coordinates / 106 positions
+
+**Raw output:**
 
 ```text
 ABMARSCH217XIXDXUND?XRXFXNACHNORDENOHNEFEINDBERUEHRUNGXALPENKORPSWIRDUMVERBASZXFRAGEZEICHENXZUMABTRANSPQRT
@@ -129,6 +143,8 @@ The source-preserving prefix restoration and conservative combined template are 
 
 ### p167 A3 — 204 slots / 102 positions
 
+**Raw output:**
+
 ```text
 BEREITGESTELLTX219XX217XUND?X2XDXSETZSN?X11XMARSCWINLINENAG?BESKEREKXWERSCHETZFORTXOXKXMX1AXNO11319OPX
 ```
@@ -137,6 +153,8 @@ The printed group `VGVA-` keeps one erased coordinate. The raw square also leave
 
 ### p170 B1 — 236 coordinates / 118 positions
 
+**Raw output:**
+
 ```text
 ANENMELDUNGXSERBXKAVALLERIEPETERWADEINUNDFEHERTEMPLOMEINGSRUECKTXXABMARSCH217XIXDXUND?XRXDNACHNORDENOHNEFEINBELUEHRUNG
 ```
@@ -144,6 +162,8 @@ ANENMELDUNGXSERBXKAVALLERIEPETERWADEINUNDFEHERTEMPLOMEINGSRUECKTXXABMARSCH217XIX
 The recorded same-length candidate makes **four coordinate substitutions**, yielding `ABENMELDUNG`, `EINGERUECKT`, and `FEINBERUEHRUNG`. The readings `Aben[d]meldung`, `Peterwa[r]dein` and `Fein[d]berührung` additionally supply **three prose letters** absent from the raw frame; these additions are not claimed as a ciphertext recovery.
 
 ### p170 B2 — 238 slots / 119 positions
+
+**Raw output:**
 
 ```text
 ALPENKORPSWIRDU?VERBASZZUMABTRFNSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT

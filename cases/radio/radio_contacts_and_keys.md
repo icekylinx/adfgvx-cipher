@@ -21,6 +21,8 @@ and all local repairs. Printed page numbers are three less than PDF page numbers
 The [source](../../experiments/radio_contacts_and_keys/sources/childs_p100_C.png)
 is under a November 1 heading, with this November 2 reception line:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 C) UKS v ZÖN (2.03 a.m., November 2nd)
 2235 (1) AN LP
@@ -29,6 +31,8 @@ RIZI-158
 
 All 158 coordinates give 79 fixed plaintext labels under `Nov1-3`, without
 any repair:
+
+**Raw output:**
 
 ```text
 WANNISTUNMITTELBARERVERKEHRMITEUCHXMUENCHENODERBRSLAUMEGLICHXDRAHTUNTERBROCHENX
@@ -51,6 +55,8 @@ The [source](../../experiments/radio_contacts_and_keys/sources/childs_p137_D.png
 has `RIZI-102`. Its upper sender initial is overprinted, so the header is
 conservatively retained as:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 D) ?CO V OSM (1.55 November 5th,)
 RIZI-102
@@ -64,6 +70,8 @@ is outside the 102-coordinate body.
 
 All 51 raw plaintext positions are fixed under `Nov4-6`:
 
+**Raw output:**
+
 ```text
 POTSAGENDA3SSCHLUESSELOSKACHIHIERNICHTMEHRVORHANDEN
 ```
@@ -71,11 +79,15 @@ POTSAGENDA3SSCHLUESSELOSKACHIHIERNICHTMEHRVORHANDEN
 One observed-coordinate substitution, source **79: G→X**, changes the `3`
 inside `DA3S` to `S`:
 
+**Edited output:**
+
 ```text
 POTSAGENDASSSCHLUESSELOSKACHIHIERNICHTMEHRVORHANDEN
 ```
 
 Readable German:
+
+**Readable German:**
 
 > POT sagen, dass Schlüssel OSKACHI hier nicht mehr vorhanden.
 
@@ -94,6 +106,8 @@ ledger. Its local word repair does not reassign the square's digit `3`.
 The [source](../../experiments/radio_contacts_and_keys/sources/childs_p142_A.png)
 is headed November 6:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 A) NKJ ZÖN v LP (08.25 p.m., November 6th)
 FUER ZÖN 1900 (6/11)
@@ -102,6 +116,8 @@ RIZI-128
 
 All 128 coordinates and 64 plaintext labels are fixed under `Nov4-6`, with
 no substitutions or fills:
+
+**Raw output:**
 
 ```text
 GEBENSIEX0430X10XMINXVVVXDANNIHREFKSPRUNDHOERENSIEUNSWIEDERX0645
@@ -118,6 +134,8 @@ The [source](../../experiments/radio_contacts_and_keys/sources/childs_p150_A2.pn
 explicitly labels this **part 2**. Its first part has not been attached or
 reconstructed in this edition:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 A) LP v NKJ (8.55 p.m., November 7th)
 PERA OSMAINE 6/11
@@ -133,11 +151,15 @@ before `UMGEHEND WEITERGEBEN` is outside the ciphertext.
 The 180-slot source contains one dash and gives 89 fixed labels out of 90
 under `Nov4-6`:
 
+**Raw output:**
+
 ```text
 JEDOCHHOERTEMPEGSSTMTXINBOTSCHAFTAUFEUCHXNAMEXQZXXADT?SSENCHIFFRITENXINMLLENPERIDENANRUFEN
 ```
 
 Six known-coordinate substitutions and one dash fill give:
+
+**Edited output:**
 
 ```text
 JEDOCHHOERTEMPFGSSTATXINBOTSCHAFTAUFEUCHXNAMEXQZXXADRESSENCHIFFRIRENXINALLENPERIDENANRUFEN

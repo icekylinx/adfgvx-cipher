@@ -22,6 +22,8 @@ and [p126](../../experiments/armistice_transit_planning/sources/childs_p126_full
 are preserved. The page heading is `4th NOVEMBER, 1918.`, and the report's
 repeated header reads:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 A) --- v NKJ (6.52 p.m., November 5th)
 2345 (4/11) AN LP 6 TLE
@@ -37,6 +39,8 @@ The complete published `Nov4-6` square and 17-column rank order are unchanged.
 The [first part](../../experiments/armistice_transit_planning/sources/childs_p125_A1.png)
 has exactly 244 valid coordinates and reads without repair:
 
+**Raw output:**
+
 ```text
 OXHXLXOPXXNACHSOEBENHIERAUSUNGARISCHENZEITUNGENBEKANNTWERDENDENWAFFENSTILLSTANDSBEDINGUNGENFUEROESTUNGXISTDEUTSCHENTRUPPEN
 ```
@@ -44,6 +48,8 @@ OXHXLXOPXXNACHSOEBENHIERAUSUNGARISCHENZEITUNGENBEKANNTWERDENDENWAFFENSTILLSTANDS
 The [second part](../../experiments/armistice_transit_planning/sources/childs_p125_A2.png)
 has 238 valid coordinates. Its raw `FUENFXEHN` is repaired to `FUENFZEHN`
 by one coordinate substitution:
+
+**Edited output:**
 
 ```text
 NURFUENFZEHNTAEGIGESDURCHZUGSRECHTZUGESTANDENXXOXKXMXHATTEBEABSICHTIGTX11XARMEEZUNAECHSTANDONAUZUBELASSENXSIEDEMNAECHST
@@ -53,11 +59,15 @@ The [third part](../../experiments/armistice_transit_planning/sources/childs_p12
 has 200 valid coordinates. One coordinate substitution changes the raw
 `RGEUMT` to `RAEUMT`:
 
+**Edited output:**
+
 ```text
 FALLSBESATZUNGSHEERWALACHEIRAEUMTXALSSCHUTZRECHTERFLANKEZWISCHENTHEISSUNDGEBIRGEZURUECKGEHENZULASSEN
 ```
 
 With spaces and ordinary punctuation, the three parts read:
+
+**Readable German:**
 
 > O.H.L. Op. Nach soeben hier aus ungarischen Zeitungen bekannt werdenden
 > Waffenstillstandsbedingungen für Oest.-Ung. ist deutschen Truppen nur
@@ -81,6 +91,8 @@ The [fourth part](../../experiments/armistice_transit_planning/sources/childs_p1
 has 212 slots. A printed noncoordinate `2`/Z-like glyph is one erasure. It
 leaves only the `N` in `BEFOERDERUNG` unknown; filling that position gives:
 
+**Edited output:**
+
 ```text
 XDIEBESTIMMUNGXDASSENTENTERECHTZURBEFOERDERUNGIHRERTRUPPENASAEMTLICHENEISENBAHNENUNDRECHTDERBESETZUNGALLER
 ```
@@ -98,6 +110,8 @@ is explicitly marked `RICHI-267` and contains exactly **267 slots**, including
 two printed dashes. Its original untransposed coordinate stream is odd.
 The direct paired reading is:
 
+**Raw output — original odd frame; paired prefix with an unpaired coordinate reported separately:**
+
 ```text
 STRATEGISCHWICHTIGENPU?K?HABENSOLLXWUERDEFUERDIEMIT1A11204GRMELDETEN3L4QL3LCZWFFQ7K7I7I4IQFNCIC9Z9J6WLNL6JQFCX94A2FYZ6KZL6JY94ALFWLFL
 ```
@@ -111,12 +125,16 @@ from the fractionated intermediate stream before the sender transposed its
 Keeping the received frame and its ranks intact, insert one unknown at
 interim index 136 after untransposition. The conditional raw reading is:
 
+**Raw output — conditional insertion at interim index 136 after untransposition:**
+
 ```text
 STRATEGISCHWICHTIGENPU?K?HABENSOLLXWUERDEFUERDIEMIT1A11204GRMELDETEN?ONBESONDRERBEDEUTUNGSEINUNDMACHTENTSCHEIDDNGXOBABMKRSCHANGETRETRN
 ```
 
 The two printed-dash fills, the inserted interim coordinate `F`, and four
 observed-coordinate substitutions give this 134-character proposal:
+
+**Edited output — same interim-insertion model, with the stated fills and substitutions:**
 
 ```text
 STRATEGISCHWICHTIGENPUNKTHABENSOLLXWUERDEFUERDIEMIT1A11204GEMELDETENVONBESONDRERBEDEUTUNGSEINUNDMACHTENTSCHEIDUNGXOBABMARSCHANGETRETEN
@@ -150,6 +168,8 @@ direct reading of an ordinary even frame.
 The [sixth part](../../experiments/armistice_transit_planning/sources/childs_p126_A6.png)
 returns to an ordinary 242-slot frame. Its raw reading is:
 
+**Raw output:**
+
 ```text
 WERDENSOLLXAEUSSERSTDRINGDXXUMANGABEDERTATSAECGLICHENVEREINBARUNGENUEBERWAFFENSTILLSTANDWIRDGEBET?NXXOXKXMX1BNOX11230OPXX
 ```
@@ -157,6 +177,8 @@ WERDENSOLLXAEUSSERSTDRINGDXXUMANGABEDERTATSAECGLICHENVEREINBARUNGENUEBERWAFFENST
 Two coordinate substitutions repair the single plaintext `G` in
 `TATSAECGLICHEN` to `H`; a printed `T` erasure is filled to give the missing
 `E` in `GEBETEN`. Readable wording, continuing A5:
+
+**Readable German — continuation excerpt; the preceding words are outside this display:**
 
 > … werden soll, äußerst dringd. Um Angabe der tatsächlichen Vereinbarungen
 > über Waffenstillstand wird gebeten. O.K.M. `1BNOX11230OPXX`
@@ -170,6 +192,8 @@ abbreviation. The footer's numerical and letter labels remain literal.
 The [adjacent B record](../../experiments/armistice_transit_planning/sources/childs_p126_B.png)
 is a separate 134-coordinate message, not a seventh part of A:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 B) LP v NKJ (6.28 p.m., November 5th)
 1201 (4)
@@ -178,11 +202,15 @@ RICHI-134
 
 All 67 raw positions are fixed. The literal reading is:
 
+**Raw output:**
+
 ```text
 OXHXL0XDRBHTUNGRM1XAX11118XOPGEH02XANGXORHALTENXOXK0M0RM1A011232XOP
 ```
 
 Two observed-coordinate substitutions give `DRAHTUNG` and `ERHALTEN`:
+
+**Edited output:**
 
 ```text
 OXHXL0XDRAHTUNGRM1XAX11118XOPGEH02XANGXERHALTENXOXK0M0RM1A011232XOP

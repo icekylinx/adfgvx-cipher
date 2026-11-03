@@ -4,17 +4,20 @@
 
 Follow requests for funds, currency exchange and purchasing decisions. Individual editions keep raw amount labels and proposed numerical interpretations separate.
 
-**31 reviewed physical records across 11 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**36 reviewed physical records across 14 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
 | Case | Source records |
 |---|---|
+| [Receipt addressed to General von Kress in Tiflis](kress_money_receipt.md) | p58 B |
+| [Caucasus hide purchasing — Meierkort, the contract and the Kiew instruction](caucasus_hide_purchasing.md) | p75 B1, p75 B2, p76 A3 |
 | [DEUTZITAG: requesting details of purchase dispatches](deutzitag_dispatch_inquiries.md) | p80 A, p81 A, p81 C |
 | [ZITAG stop-orders and cancellation of procurement contracts](zitag_purchase_orders.md) | p102 A, p103 B1, p103 B2, p103 D, p106 B |
 | [Meal allowances, communal provisioning and a refused supplement](military_allowances.md) | p129 B1, p133 A2, p133 A3, p134 A4 |
 | [Ruble prices and payments above par: companions to p171 A1](ruble_rate_companions.md) | p171 A2, p171 A3 |
 | [Crown airlift to Kronstadt and Hermannstadt](crown_airlift.md) | p174 A1, p174 A2, p174 A3 |
+| [Payments through October and cheque acknowledgements](hauptwechselamt_accounting.md) | p175 B2 |
 | [The interrupted banknote instruction: a complete later witness](crown_banknote_completion.md) | p195 A2 |
 | [A request for thirty million kroner](p205_A.md) | p205 A1, p205 A2, p205 A3, p205 A4 |
 | [Oil cartel at Tiflis: details of shipments from Poti](oil_cartel_dispatch_query.md) | p212 A3 |
@@ -26,6 +29,10 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p58 B](kress_money_receipt.md#p58-b) | Receipt addressed to General von Kress, Tiflis | Native 148 slots; four observed-coordinate substitutions and two damaged-glyph fills | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; earlier unreviewed repository body candidate |
+| [p75 B1](caucasus_hide_purchasing.md#p75-b1) | Meierkort hide-purchasing exclusivity and return of the signed contract | 197/197 raw positions; 5 coordinate substitutions and 0 printed-dash fills | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
+| [p75 B2](caucasus_hide_purchasing.md#p75-b2) | Expenses to be settled later; purchasing must not stop | 102/102 raw positions; 0 coordinate substitutions and 0 printed-dash fills | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
+| [p76 A3](caucasus_hide_purchasing.md#p76-a3) | Departure for Kiew and report to Lederzentrale Magnus; separate handwritten layer | 118/119 raw positions; 1 coordinate substitutions and 1 printed-dash fills; typed-only 238-slot layer; handwritten D/O sensitivity retained | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
 | [p80 A](deutzitag_dispatch_inquiries.md#p80-a) | DEUTZITAG asks about purchase dispatches and onward transport | Direct source reading; exact repeated ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
 | [p81 A](deutzitag_dispatch_inquiries.md#p81-a) | DEUTZITAG asks about purchase dispatches and onward transport | One coordinate repair witnessed by two exact short copies | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
 | [p81 C](deutzitag_dispatch_inquiries.md#p81-c) | DEUTZITAG asks about purchase dispatches and onward transport | Direct source reading; exact repeated ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
@@ -43,6 +50,7 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [p174 A1](crown_airlift.md#p174-a1) | Urgent daily crown airlift request | Direct reading; every observed coordinate retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
 | [p174 A2](crown_airlift.md#p174-a2) | One million crowns alternately to Kronstadt and Hermannstadt | Source-checked reading with one coordinate substitution and one printed-glyph fill | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
 | [p174 A3](crown_airlift.md#p174-a3) | Small-denomination banknotes in an interrupted airlift request | Explicit missing-tail model; 12 ordinary-word fills; three tied one-gap frames retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
+| [p175 B2](hauptwechselamt_accounting.md#p175-b2) | Payments through October and cheque arrival acknowledgements | Native frame; four coordinate substitutions and eight printed-dash fills; four unresolved positions | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; earlier shorter OCR candidate distinguished |
 | [p195 A2](crown_banknote_completion.md) | Full witness to the interrupted small-banknote instruction | Source-copy edition; observed repairs and earlier-source support separated | icekylinx and GPT-6 Astra Pro (2026); prior period keys and earlier editions credited |
 | [p205 A1](p205_A.md) | Thirty-million-kroner request; shortage of banknotes | 118/118 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p205 A2](p205_A.md) | Vienna bank transfer to Kronstadt for German administration | 152/152 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |

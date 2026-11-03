@@ -17,6 +17,8 @@ The source is Childs, *General Solution of the ADFGVX Cipher System*,
 The [three-part section](../../experiments/ruble_rate_companions/sources/p171_A.png)
 is headed:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 9th NOVEMBER, 1918.
 A) COS v NKJ (1.58 a.m., November 10th)
@@ -31,12 +33,16 @@ Max Baertl's later editorial `KURSE STARK` separately identified.
 
 Under the conditional layout described below, the direct reading is:
 
+**Raw output — conditional 252-slot layout after two group exclusions and one added slot:**
+
 ```text
 GEMEINS0MXXINKIEWXKIEWW?RDENFUERHUNDERTZAYENRUBEL?UNDERTVIERZIGMARKGEZAHLTXINWARSCHAUSO2LENBISHUNDERTNEUNZINMAR?GEZAHATWE?XENX
 ```
 
 Six observed-coordinate substitutions, three fills of retained printed
 dashes, and one fill of the added unknown coordinate give:
+
+**Edited output — same conditional layout, with observed substitutions and separately priced fills:**
 
 ```text
 GEMEINSAMXXINKIEWXKIEWWURDENFUERHUNDERTZARENRUBELHUNDERTVIERZIGMARKGEZAHLTXINWARSCHAUSOLLENBISHUNDERTNEUNZIGMARKGEZAHLTWERDENX
@@ -93,11 +99,15 @@ control or a global proof of the original geometry.
 The third part is source-exact at **152 slots** and has two printed dashes.
 Its direct reading is:
 
+**Raw output:**
+
 ```text
 EMPFEHLEDAHERNOTFALLSFUE?BONSAUCHMEHRALSPARIXPARIB?WILLIGENXXWALLERXWALLERXX
 ```
 
 Filling those two dashes, with no observed-coordinate change, yields:
+
+**Edited output:**
 
 ```text
 EMPFEHLEDAHERNOTFALLSFUERBONSAUCHMEHRALSPARIXPARIBEWILLIGENXXWALLERXWALLERXX

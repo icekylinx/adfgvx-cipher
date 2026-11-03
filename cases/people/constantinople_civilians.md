@@ -32,12 +32,16 @@ The first part advertises 298 coordinates but prints **297**. The source
 has a four-letter `ADDG` group at positions 225–228. Inserting an erased
 coordinate at boundary 227 gives this 149-position raw reading:
 
+**Raw output — conditional insertion at source boundary 227 in the short group:**
+
 ```text
 ANDEUTSCHENGESCHAEFTSTRAEGERKONSTANTINOPELXHIERVORLIEGENMELDUNGENWONACH0YYDEUTSCHEZI?ILPERSONENHAUPTSAECHLICHXRAUENKINDERVONDORTHIERHERABGEREISTSINDX
 ```
 
 One observed-coordinate change, `XRAUEN` to `FRAUEN`, and filling the
 missing coordinate for `ZIVILPERSONEN` give:
+
+**Edited output — same conditional insertion model, with the stated repair and fill:**
 
 ```text
 ANDEUTSCHENGESCHAEFTSTRAEGERKONSTANTINOPELXHIERVORLIEGENMELDUNGENWONACH0YYDEUTSCHEZIVILPERSONENHAUPTSAECHLICHFRAUENKINDERVONDORTHIERHERABGEREISTSINDX
@@ -72,6 +76,8 @@ This part advertises 344 coordinates and prints **345 slots**. Its
 six-letter group `AXDGXF` occupies source positions 130–135. Removing
 source index 134, the second `X`, gives:
 
+**Raw output — conditional deletion of the second X at source index 134:**
+
 ```text
 BITTEDURCHVERMITTELUNGSCHWEDISCHERGESANDTSCHAFTDRAHTENOBMELDUNGZUTREFFENDWANNUNDWOHINABREISEERFOLGTXW6SUEBERVERBLEIBBEKANNTISTUNDUMWELCHEKA?EGORIENNUNPERSONENESSICHHANDELTX
 ```
@@ -79,6 +85,8 @@ BITTEDURCHVERMITTELUNGSCHWEDISCHERGESANDTSCHAFTDRAHTENOBMELDUNGZUTREFFENDWANNUND
 The question mark comes from the printed dash in `A-FGA`, source index
 207. Four observed-coordinate substitutions and one erased-coordinate
 fill produce:
+
+**Edited output — same conditional deletion model, with the stated substitutions and dash fill:**
 
 ```text
 BITTEDURCHVERMITTELUNGSCHWEDISCHERGESANDTSCHAFTDRAHTENOBMELDUNGZUTREFFENDWANNUNDWOHINABREISEERFOLGTXWASUEBERVERBLEIBBEKANNTISTUNDUMWELCHEKATEGORIENVONPERSONENESSICHHANDELTX
@@ -100,11 +108,15 @@ The received `W6S` and `NUNPERSONEN` remain visible in the raw layer.
 The third part has exactly **348 slots**. Its invalid `Y` in `DGADY`,
 source index 319, remains an erasure. The raw reading is:
 
+**Raw output:**
+
 ```text
 BITTEFERNERDRAHTEN?EBERSTANDDERTRUPPENTRANSPORTEUNDALLGEMEINELZGEDERDEUTSCHENI8DERTUERKEIX0NSERERSUCHENUMBELASSUNGDERDEUTSCHENZIVILPERSONENINDERTUERKEIISTVONPRAESIDENTWILSONX
 ```
 
 Three observed-coordinate changes and the erased-coordinate fill give:
+
+**Edited output:**
 
 ```text
 BITTEFERNERDRAHTENUEBERSTANDDERTRUPPENTRANSPORTEUNDALLGEMEINELAGEDERDEUTSCHENINDERTUERKEIXUNSERERSUCHENUMBELASSUNGDERDEUTSCHENZIVILPERSONENINDERTUERKEIISTVONPRAESIDENTWILSONX
@@ -124,11 +136,15 @@ coordinates**. The visibly deficient group is `XDXG`, source positions
 190–193. Constraining the missing coordinate to that group gives its best
 fit at boundary **190**. This primary, source-local model reads:
 
+**Raw output — conditional missing-slot placement at source boundary 190:**
+
 ```text
 DENALLWEERTENUNDDEMOBERKRWEGSR6TINPARISVORQELEGTWORDE?XBEFOERDERUNGDERZIVILPERSONENDURCHXUKRAINEXZURZELTUNMYEGLICHXXYUSWAERTIGBERLINX
 ```
 
 Nine observed-coordinate changes and one missing-coordinate fill support:
+
+**Edited output — same conditional missing-slot frame, with the stated repairs and fill:**
 
 ```text
 DENALLIIERTENUNDDEMOBERKRIEGSRATINPARISVORGELEGTWORDENXBEFOERDERUNGDERZIVILPERSONENDURCHXUKRAINEXZURZEITUNMOEGLICHXXAUSWAERTIGBERLINX

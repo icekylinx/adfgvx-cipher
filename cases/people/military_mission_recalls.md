@@ -12,11 +12,11 @@ C is an order cancelling Oberleutnant Siegfried's posting to Turkey and assignme
 
 These are readings of the telegrams. The edition does not establish a further biographical identity for either officer. The original abbreviations and the recurring spellings `MISZION` and `DESZEN` remain in the literal and edited strings.
 
-Childs printed page 161 / PDF page 164 gives C at 05.57 a.m. on 9 November, `NR16 (9/11) 2 TLE`, and D at 06.05 a.m., `FUER YZ NR17 (9/11) 2 TEILE`. All four parts decrypt under the unchanged Nov7–9 key. Their printed lengths204/154/254/190 exactly match the counted source slots.
+Childs printed page 161 / PDF page 164 gives C at 05.57 a.m. on 9 November, `NR16 (9/11) 2 TLE`, and D at 06.05 a.m., `FUER YZ NR17 (9/11) 2 TEILE`. All four parts decrypt under the unchanged Nov7–9 key. Their printed lengths 204/154/254/190 exactly match the counted source slots.
 
 ## Counts and source readings
 
-| Record | Native coordinates | Raw fixed positions | Edited fixed positions | Observed-coordinate substitutions | Source fills |
+| Record | Source slots | Raw fixed positions | Edited fixed positions | Observed-coordinate substitutions | Source fills |
 |---|---:|---:|---:|---:|---:|
 |p161_C1|204|95/102|99/102|4|4|
 |p161_C2|154|77/77|77/77|0|0|
@@ -27,13 +27,13 @@ The physical-record total is **802 coordinate slots / 401 plaintext positions**.
 
 ## p161 C1 — Siegfried posting cancellation, first part
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 SSDOPPELGRXHQXMKX2X?1XMILITA??MISZIONK?GSTANTINOPULXZU2NR4??10XKOMDOOBERLTSSIEGFRIEDNACHT?ERKEI0DESZEN
 ```
 
-Edited reading:
+**Edited output:**
 
 ```text
 SSDOPPELGRXHQXMKX2X?1XMILITAERMISZIONKONSTANTINOPELXZU2NR4??10XKOMDOOBERLTSSIEGFRIEDNACHTUERKEIUDESZEN
@@ -41,7 +41,7 @@ SSDOPPELGRXHQXMKX2X?1XMILITAERMISZIONKONSTANTINOPELXZU2NR4??10XKOMDOOBERLTSSIEGF
 
 ## p161 C2 — Siegfried mission assignment cancelled and cabinet-order closing
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 ZUTEILUNGZURMILMISZIONISTAUFGEHOBENAKOFOLGTXALLERHBEFXCHEFMILKABFRHRMARSCHALL
@@ -49,13 +49,13 @@ ZUTEILUNGZURMILMISZIONISTAUFGEHOBENAKOFOLGTXALLERHBEFXCHEFMILKABFRHRMARSCHALL
 
 ## p161 D1 — Osthoff posting and mission assignment cancelled
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 SSDOPPELXGRXHQUXMKX2X11XMILITAERMISZIONKONSTANTINOPELXKOMMRNDODESHPTMSDXRXOSTHOFFNACHTUERKEIENDZUTEILUNGZURMILMISZIONAUFGEHOBEN
 ```
 
-Edited reading:
+**Edited output:**
 
 ```text
 SSDOPPELXGRXHQUXMKX2X11XMILITAERMISZIONKONSTANTINOPELXKOMMANDODESHPTMSDXRXOSTHOFFNACHTUERKEIUNDZUTEILUNGZURMILMISZIONAUFGEHOBEN
@@ -63,7 +63,7 @@ SSDOPPELXGRXHQUXMKX2X11XMILITAERMISZIONKONSTANTINOPELXKOMMANDODESHPTMSDXRXOSTHOF
 
 ## p161 D2 — Osthoff railway battalion reassignment and cabinet-order closing
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 DERSELBEISTDEM1XERSBATLEISENBAHNREGMTS1ZUUEBERWEISENXAKOFOLGTXALLERHBEFXCHEFMILKABFRHRMARSCHALL
@@ -85,7 +85,7 @@ The later wording is abbreviated and includes an additional raw `1` after `REGMT
 
 ## Remaining uncertainty
 
-C1's edited date-like field remains `2X?1`: its erased position19 has domain **1GIKNY**. The two question marks in `ZU2NR4??10` are different: they arise from the observed XA and VF cells of the published partial square, at plaintext positions58 and 59. Their joint assignments are **56 or65**, not independent choices that could both be5 or both be6. No optional historical digit interpretation is applied here.
+C1's edited date-like field remains `2X?1`: its erased position 19 has domain **1GIKNY**. The two question marks in `ZU2NR4??10` are different: they arise from the observed XA and VF cells of the published partial square, at plaintext positions 58 and 59. Their joint assignments are **56 or 65**, not independent choices that could both be 5 or both be 6. No optional historical digit interpretation is applied here.
 
 C1 has four known-coordinate changes and four printed-erasure fills. The local `0→U` proposal before `DESZEN` alone costs two observed-coordinate substitutions; it is not a global reassignment of the digit0 key label. D1 has two word repairs, `KOMMRNDO→KOMMANDO` and `END→UND`. C2 and D2 are entirely unchanged source readings.
 

@@ -32,11 +32,15 @@ A separate model restores five-letter grouping at those two locations: remove on
 
 The two deletion indices are aliases of one reconstructed stream. Before supplying the new coordinate or changing any remaining source symbol, its raw plaintext is:
 
+**Raw output — conditional deletion-and-insertion frame; equivalent deletion aliases retained:**
+
 ```text
 ESIVTUNSE?BEMUEHENEUREINTERNIERUNGSOZUGESTALTENDASSIHRWEDERNHTNOCHMANGELLEIDETUNDNACHDEMMOJGLICHSTRASCHENFRIEDENSCHLUSSGLUECKLICHUNDGESUNDINDIEHEIMATZUJUECKKEHRENKOENNTY
 ```
 
 Four explicit coordinate substitutions and the one supplied `V` give:
+
+**Readable German — conditional reconstructed third part:**
 
 > Es ist unser Bemühen, eure Internierung so zu gestalten, dass ihr weder Not noch Mangel leidet und nach dem möglichst raschen Friedenschluss glücklich und gesund in die Heimat zurückkehren könnt.
 

@@ -12,6 +12,8 @@ headers explicitly say **1 November**; these date layers remain distinct.
 
 ## A: Has the order to release the oil succeeded?
 
+**Readable German:**
+
 > Drahtet, ob erneuter Befehl Izzet Pascha — Izzet Pascha — zur Freigabe
 > der Oele Erfolg gehabt hat. Kriegsamt, Kriegsrohstoffabtlg.
 > Nr. 0, roem. 1.
@@ -30,6 +32,8 @@ The [source](../../experiments/corpus_recovery/sources/p84_A.png) gives
 `FUER POT v NKJ (4.17 a.m., November 1st)` and `RICHI-244`. A time before
 `(30)` is partly illegible. All 244 ciphertext coordinates are legible.
 
+**Raw output:**
+
 ```text
 DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREIGABEDEROELEERFOLGGEHABTHATXXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRX0ROEMX1XX
 ```
@@ -38,6 +42,8 @@ All **122/122** positions follow directly from the stated source and key.
 The displayed prose adds spacing and punctuation only.
 
 ## B: Request daily reports on Black Sea shipping
+
+**Readable German:**
 
 > Erbitten fuer Truppenkdo. Kaukasus, wenn moeglich taeglich, kurze
 > Mitteilung, ob Schwarze-Meerschiffahrt gefaehrdet.
@@ -50,6 +56,8 @@ The [source](../../experiments/corpus_recovery/sources/p84_B.png) gives
 `OSM v NKJ (3.30 a.m., November 1st)`, the clear routing
 `316 15/10 V POT 1021 FUER OSM UND COS (30) VON POT`, and `RICHI-202`.
 The body has exactly 202 valid coordinates.
+
+**Raw output:**
 
 ```text
 ERBITTENFUERTRUPPENKDOXKAUKASUSWENNMOEGLICHTAEGLICHKURZEMITTEILUNGOBSCHWARZEMEERSCHIFFAHRTGEFAEHRDETX

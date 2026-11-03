@@ -1,0 +1,187 @@
+{
+  "schema": "adfgvx-hauptwechselamt-accounting-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "source_images": [
+    {
+      "path": "sources/p175_B.png",
+      "printed_page": 175,
+      "pdf_page_1based": 178,
+      "crop_pdf_points": [
+        45,
+        343,
+        520,
+        442
+      ],
+      "render_scale": 4,
+      "sha256": "6617194d331f13df625acf5854ce20b40b995240f425f9a268f275bfcd0cc554"
+    }
+  ],
+  "records": [
+    {
+      "id": "p175_B2",
+      "printed_page": 175,
+      "source_section": "B2",
+      "source_rows": [
+        "-ADVV -V-GG GGDXD GXVDV VGDDX ADVFG V-GDG DVDGG",
+        "GXDVV GVXXA GXDXX DXGAX FFXDA XDADA AVFFV XXDDD",
+        "DGGFG AGDDD VVXVG VDVGX VFFVF GGGFD VVAGG DDFDV",
+        "VDGXX VDVVX XXAAD XXGVG VVFXV VDGVF VA-F- FXVAD",
+        "VVAFG V-GXX DVXDV VDVXV VGDDD A-AXA XXDFD DXDXD",
+        "XV--"
+      ],
+      "source_slots": 204,
+      "advertised_length": 204,
+      "expected_raw": "VO??8XBISENDUOCTOTE?GEZAHLT?N?ARKXFERNERANKUNFTSANZE?GEUEBERAM?XGESANDTE?HEKSXHAUPTWECHS?GA?T89240?11?",
+      "readable_candidate": "VOM?8XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM?XGESANDTECHEKSXHAUPTWECHSELAMT89240?11?"
+    }
+  ],
+  "header": [
+    "B) LP v NKJ (6.02 p.m., November 10th)",
+    "2 TL",
+    "RICHI-204"
+  ],
+  "assembly_limit": "This page supplies a source-labeled second part. No first part is identified or supplied here. Its receipt date is 10 November, but the readable published key is Nov7–9; the key is not chosen solely from the page date.",
+  "prior_attribution": {
+    "published_key": "Lasry and colleagues; unchanged Nov7–9 partial square and ranks.",
+    "paper_scope": "The paper explicitly discusses p175 A travel in section 6.4; that is a separate message. No explicit p175 B Hauptwechselamt body was identified in the bounded body check. This is not historical priority proof.",
+    "prior_candidates": {
+      "path": "prior_candidates.json",
+      "sha256": "c1d568e990f832ffeb30964c4a61ff0b475621f8b983c41873b71b3745e26297"
+    },
+    "new_contribution": "Native 204-slot retranscription including all 10 printed dashes, readable source edition and exact conditional field domains."
+  },
+  "unresolved_fields": [
+    "VOM?8",
+    "AM?",
+    "89240?11?"
+  ],
+  "limits": [
+    "The spelling OCTOBER and CHEKS are kept in the candidate.",
+    "No date, receipt number or financial amount is normalized from plausibility.",
+    "Two unknown digits occupy the same Nov7–9 cell VF and must agree under an unchanged key. The baseline domain 56 remains; no independent military-context label assignment is imported.",
+    "Every printed dash counts as one source slot; two remain unfilled."
+  ]
+}

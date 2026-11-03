@@ -4,9 +4,11 @@
 
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source audit](../../experiments/corpus_attack/SOURCE_FAMILIES.md)
 
-**Records:** p138 A1–A2 and p148 C1 / p149 A2. **Result:** a two-part message reconstructed from four printed witnesses under the published Nov4–6 key. The first part has complete coordinate-pair support for all 121 letters. The second has support for 115 of 118 letters; three proposed emendations remain explicit.
+**Records:** p138 A1–A2 and p148 C1 / p149 A2. **Result:** a two-part message reconstructed from four printed witnesses under the published Nov4–6 key. The first part has complete coordinate-pair support for all 121 positions. The second has support for 115 of 118 positions; three proposed emendations remain explicit.
 
 ## Most likely reading
+
+**Readable German:**
 
 > Militärmission Konstantinopel. Kommando des Hptms. der Res. Osthoff nach der Türkei und seine Zuteilung zur Militärmission ist aufgehoben. Derselbe ist dem 1. Ers. Batl. Eisenbahn-Regmts. zu überweisen. AKO folgt. Auf Allerhöchsten Befehl: Chef Militärkabinetts, Frhr. Marschall.
 
@@ -18,10 +20,12 @@ Spacing, punctuation and capitalization are editorial. The expansions of *Ers. B
 
 | Part | Printed witnesses | Direct source evidence | Remaining editorial work |
 |---|---|---|---|
-| 1 | [p138 A1](../../experiments/corpus_attack/sources/childs_p138_A.png), [p148 C1](../../experiments/corpus_attack/sources/childs_p148_C1.png) | p148 fixes 120/121 letters. The other witness supplies the missing `R` in `DERRES`. All 121 candidate letters have complete coordinate-pair support in a witness. | The earlier p138 copy is five coordinates short. A unique best alignment among all 238 insertion positions supplies `XVAXX` before received index 140. Three other known-coordinate disagreements remain. |
-| 2 | [p138 A2](../../experiments/corpus_attack/sources/childs_p138_A.png), [p149 A2](../../experiments/corpus_attack/sources/childs_p149_A2.png) | The two copies jointly support 115/118 proposed letters. p149 independently supplies the `N` in `KABINETTS` and the `C` in `HOECHSTEN`. | Both copies contain `UEM`, `ERSBKTL` and `REGM1S`. Reading `DEM`, `ERSBATL` and `REGMTS` requires three changes in p149 and four in the more damaged p138 copy. |
+| 1 | [p138 A1](../../experiments/corpus_attack/sources/childs_p138_A.png), [p148 C1](../../experiments/corpus_attack/sources/childs_p148_C1.png) | p148 fixes 120/121 positions. The other witness supplies the missing `R` in `DERRES`. All 121 candidate positions have complete coordinate-pair support in a witness. | The earlier p138 copy is five coordinates short. A unique best alignment among all 238 insertion positions supplies `XVAXX` before received index 140. Three other known-coordinate disagreements remain. |
+| 2 | [p138 A2](../../experiments/corpus_attack/sources/childs_p138_A.png), [p149 A2](../../experiments/corpus_attack/sources/childs_p149_A2.png) | The two copies jointly support 115/118 proposed positions. p149 independently supplies the `N` in `KABINETTS` and the `C` in `HOECHSTEN`. | Both copies contain `UEM`, `ERSBKTL` and `REGM1S`. Reading `DEM`, `ERSBATL` and `REGMTS` requires three changes in p149 and four in the more damaged p138 copy. |
 
 The literal p149 second part is:
+
+**Raw output:**
 
 ```text
 DERSELBEISTUEM1XERSBKTLEISENBAHNREGM1SZUUEBERWEISENAKOFOLGTXAUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX

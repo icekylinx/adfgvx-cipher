@@ -16,6 +16,8 @@ The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 The [preserved section](../../experiments/neuhof_demobilization/sources/p228_B.png)
 appears under `30th NOVEMBER, 1918.` with the header:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 B) ZON v BSL (01.33 a.m., December 1st)
 NO 152 1512 3 TLE
@@ -31,11 +33,15 @@ The first part advertises `RICHI-246` and has exactly **246 slots**, including
 six printed dashes. Its earlier OCR stream had 241 coordinates and did not
 produce a coherent reading. The visual transcription gives:
 
+**Raw output:**
+
 ```text
 0OKXXYYZUMERLYVJXYXXZX4NRP680YX4GEHYAY3YANLGYXLF?YNRYX4SPALTE9FLAKABTEILUNG?0WIRDNI?L3NDARMJT?DTSONDERNINYNEU?OFYSUEDHFUL?A
 ```
 
 Five observed-coordinate substitutions and five fills of printed dashes give:
+
+**Edited output:**
 
 ```text
 AOKXXYYZUMERLYVJXYXXZX4NRP680YX4GEHYAY3YANLGYXLFDYNRYX4SPALTE9FLAKABTEILUNG?0WIRDNICHINDARMSTADTSONDERNINYNEUHOFYSUEDLFULDA
@@ -55,11 +61,15 @@ The body continues into the middle part with the demobilization wording.
 The second part advertises `RICHI-264` and has **264 slots**, including
 **43 printed dashes**. Its direct label reading is:
 
+**Raw output:**
+
 ```text
 A?ST??CKE?ANK?FUL?AD1?OBI?G5D??HT?I1??CHA?LL??UJD5S1??Y26U03??GEHX0Z??MBEDES??DESIT7???YYADA???MX8A8???OBPL2???ENREN???CKS?R???I4CEH
 ```
 
 The proposed original-language span is limited to **positions 0-32**:
+
+**Edited output — partial proposed span only; positions 0–32:**
 
 ```text
 ANSTRECKEHANAUFULDADEMOBILGEMACHT
@@ -82,12 +92,16 @@ groups gives **186 slots**, including one printed dash. The edition uses
 that actual 186-slot frame and preserves the questioned header length.
 It does not insert ten hypothetical coordinates. Its direct reading is:
 
+**Raw output:**
+
 ```text
 DESFELDHEERESSINDDAHERNICHTNACHDAR?SADTSONDERNNACHNEUHOFZULEITENYCMTRUPPENDEPY3025YXXYX4YAY3Y
 ```
 
 Filling the one printed dash at source index **15**, group **4**, coordinate
 **1**, with `X` gives:
+
+**Edited output:**
 
 ```text
 DESFELDHEERESSINDDAHERNICHTNACHDARMSADTSONDERNNACHNEUHOFZULEITENYCMTRUPPENDEPY3025YXXYX4YAY3Y

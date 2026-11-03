@@ -17,6 +17,8 @@ does not claim a new body discovery.
 
 ## Most likely reading
 
+**Readable German — under the stated per-part reconstruction:**
+
 > Zwei Adressen: 1. MMD; 2. Sdo-Kommando. Von SKL SKL.
 >
 > 1. Sofort an alle Streitkraefte mit allen verfuegbaren Verkehrsmitteln
@@ -74,6 +76,8 @@ one-loss positions within its short group for this proposed plaintext.
 
 The raw readings below use those explicit frames but leave the inserted
 symbols unknown and make no known-coordinate repairs:
+
+**Raw output — conditional per-part frames listed above; added coordinates remain unknown:**
 
 ```text
 2XADRESZENX1XXMMDX2XXSDOKOMMANDOXVONSKLSKLXX1XSOFORTANALLESTREITKRAWFTEMITALLENVERFUEGBARENVERKEHRSMITTELNUEBERMITTELNX

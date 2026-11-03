@@ -1,5 +1,7 @@
 # Delegates directed through Spa toward Berlin
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition: icekylinx and GPT-6 Astra Pro.**
 
 **Prior body and historical discussion:** George Lasry, Ingo Niebel,
@@ -22,11 +24,15 @@ coordinates and use the unchanged published **Nov10–12** key.
 The [source crop](../../experiments/nov10_delegates_and_field_report/sources/p175_A1.png)
 directly decrypts to:
 
+**Raw output:**
+
 ```text
 HPTMXMANNITAED1XNAMUTXZUGLEICHFUERHPTMXVXWEIHERXEXIX2XXABGEORDNETEMITZUGODETAUTOSONACHSPALEITENX
 ```
 
 Four observed-coordinate repairs give this readable candidate:
+
+**Edited output:**
 
 ```text
 HPTMXMANNSTAEDTXNAMURXZUGLEICHFUERHPTMXVXWEIHERXEXIX2XXABGEORDNETEMITZUGODERAUTOSONACHSPALEITENX
@@ -50,11 +56,15 @@ reconciliation remains unchanged.
 The [second-part crop](../../experiments/nov10_delegates_and_field_report/sources/p175_A2.png)
 directly reads:
 
+**Raw output:**
+
 ```text
 DASSWEITERFAHRTNACHBERLINAM11X11X?X03XNACWMXOHLRM4BX
 ```
 
 One observed-coordinate repair changes `NACWM` to `NACHM`:
+
+**Edited output:**
 
 ```text
 DASSWEITERFAHRTNACHBERLINAM11X11X?X03XNACHMXOHLRM4BX

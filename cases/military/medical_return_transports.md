@@ -12,11 +12,15 @@ The source has a nominal seven-part frame. Parts 2 and 4 were retained as unassi
 
 [Source crop](../../experiments/medical_return_transports/sources/p212_A1.png). The source advertises 344 coordinates but prints 339, including Y at source index 248. The primary 344-coordinate model inserts five erasures before source index 105 and treats the invalid Y as an erasure. Raw, 172 positions:
 
+**Raw output — conditional five-coordinate gap before source 105; invalid source Y masked:**
+
 ```text
 FUERM?LITAHRMISZIONKONSTANTENO?ELXXSTA0SARZTBEIMOSANOFFMILMIYZHATQUSODESSAFOLGENDESANDEUTSCHENGOUVERNEURNIKOLA9EWGERICHTHTQURBEKANNTG?BEANVONTUE?KEIDURCHGE?ENDETRANSP?RTEXX
 ```
 
 A costed candidate, requiring nine observed-coordinate substitutions and six fills, is:
+
+**Edited output — same conditional gap and source-mask interpretation:**
 
 ```text
 FUERMILITAERMISZIONKONSTANTINOPELXXSTABSARZTBEIMOSANOFFMILMISZHATAUSODESSAFOLGENDESANDEUTSCHENGOUVERNEURNIKOLA9EWGERICHTETZURBEKANNTGABEANVONTUERKEIDURCHGEHENDETRANSPORTEXX
@@ -30,11 +34,15 @@ Reading: for the military mission in Constantinople; a staff doctor, followed by
 
 [Source crop](../../experiments/medical_return_transports/sources/p212_A5.png). All 280 source slots are printed, including invalid C at index 231. Raw, 140 positions:
 
+**Raw output:**
+
 ```text
 EINENMITOEFENVERSEHENVNREVIEVWA?ENFUERKRANKEEINRICHTENX2XXFELDKUECHEODEREINDEBAUTENHERGMITNEHMENXAUFDEMDAUERNDWARMERTEEVORRAETIGZUHALTENISTX
 ```
 
 Five observed-coordinate substitutions and the single C-to-G fill yield:
+
+**Edited output:**
 
 ```text
 EINENMITOEFENVERSEHENENREVIERWAGENFUERKRANKEEINRICHTENX2XXFELDKUECHEODEREINGEBAUTENHERDMITNEHMENXAUFDEMDAUERNDWARMERTEEVORRAETIGZUHALTENISTX
@@ -46,11 +54,15 @@ Reading: arrange a sick wagon fitted with stoves; take a field kitchen or built-
 
 [Source crop](../../experiments/medical_return_transports/sources/p213_A6.png). The source has 318 slots, including a dash at index 39. Raw, 159 positions:
 
+**Raw output:**
+
 ```text
 KEINEWASSERSTELLENUNTERWEGSODEHOFTNICHTIMUETRIEBXXXGARNISONARZTNIKOLA9EWHA3GEBETENXDI2SENSPRUCH5TMILMISZWEINERZUGEBENX?DEPARTEMENTBITTETXVORSTEHENDENANREGUNGEN
 ```
 
 Five observed-coordinate substitutions yield this conservative candidate:
+
+**Edited output:**
 
 ```text
 KEINEWASSERSTELLENUNTERWEGSODEROFTNICHTIMBETRIEBXXXGARNISONARZTNIKOLA9EWHATGEBETENXDIESENSPRUCH5TMILMISZWEITERZUGEBENX?DEPARTEMENTBITTETXVORSTEHENDENANREGUNGEN
@@ -64,11 +76,15 @@ The `5T` bridge is not silently rewritten. The erased position before `DEPARTEME
 
 [Source crop](../../experiments/medical_return_transports/sources/p213_A7.png). The source has 276 slots with printed C at index 232. Raw, 138 positions:
 
+**Raw output:**
+
 ```text
 SCHONMOEGLICHSTVONKONSTANTINOPELAUSZUENTSPRECHENXDAANGENOMMENWER?ENKANNXDASSNIKOLA9EWNICHTLEISTUNGSFAEHIGGENUGISTXXKMXAXDXNRQJ0XXYYXY5XAYY
 ```
 
 Filling the invalid C as G gives `WERDEN` without changing any observed valid coordinate:
+
+**Edited output:**
 
 ```text
 SCHONMOEGLICHSTVONKONSTANTINOPELAUSZUENTSPRECHENXDAANGENOMMENWERDENKANNXDASSNIKOLA9EWNICHTLEISTUNGSFAEHIGGENUGISTXXKMXAXDXNRQJ0XXYYXY5XAYY

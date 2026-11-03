@@ -10,7 +10,7 @@ Source edition and repair accounting: **icekylinx and GPT-6 Astra Pro**. Publish
 
 The telegram tells the Nachrichtenchef that selling apparatus is advisable because of transport difficulties. It says the Romanians want to buy Siemens teleprinters and telephone apparatus, and requests permission and a sale price by radio. This is a request in the text; the edition supplies no evidence that the sale was approved or completed.
 
-Childs printed page157 / PDF page160 gives `B) LP v NKJ (7.26 p.m., November 7th)`, `1400 (7) VON UKS 2 TLE`, with lengths170 and272. The source heading is7 November1918. Both native coordinate frames are preserved exactly.
+Childs printed page 157 / PDF page 160 gives `B) LP v NKJ (7.26 p.m., November 7th)`, `1400 (7) VON UKS 2 TLE`, with lengths 170 and 272. The source heading is 7 November 1918. Both native coordinate frames are preserved exactly.
 
 ## Source and repair totals
 
@@ -24,13 +24,13 @@ A fixed position means a single symbol under the stated source frame and publish
 
 ## p157 B1 — Apparatus sale recommended because of transport difficulties
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 NA?HRICHTENCHEFGRXHX?XWEGENTRANSPORTSC0WIERIGKE?TENVERKAUFVONAPPARATENEMPFEHLE?SWERTX
 ```
 
-Proposed readable edition:
+**Edited output:**
 
 ```text
 NACHRICHTENCHEFGRXHXQXWEGENTRANSPORTSCHWIERIGKEITENVERKAUFVONAPPARATENEMPFEHLENSWERTX
@@ -38,13 +38,13 @@ NACHRICHTENCHEFGRXHXQXWEGENTRANSPORTSCHWIERIGKEITENVERKAUFVONAPPARATENEMPFEHLENS
 
 ## p157 B2 — Romanian purchase request and request for permission and price
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 RUMA?NENW?LLEN?IEME?SFERNSCHR?IBERUNDFE?NSPRECHAP?AR?TEKAU?ENX?ENEHMIGUNGUNGVERKAUFSP?EISDURCHFUNKSPRUCH?RB?TENNKONAC?18ROEMX3ANRX11023?
 ```
 
-Proposed readable edition:
+**Edited output:**
 
 ```text
 RUMAENENWOLLENSIEMENSFERNSCHREIBERUNDFERNSPRECHAPPARATEKAUFENXGENEHMIGUNGUNDVERKAUFSPREISDURCHFUNKSPRUCHERBETENXKONACH18ROEMX3ANRX11023?
@@ -54,11 +54,11 @@ RUMAENENWOLLENSIEMENSFERNSCHREIBERUNDFERNSPRECHAPPARATEKAUFENXGENEHMIGUNGUNDVERK
 
 `SIEMENS`, `FERNSCHREIBER` and `FERNSPRECHAPPARATE` are explicitly editorial lexical completions. Most lost letters can be filled without changing an observed coordinate. The A in `APPARATE`, however, requires **one observed-coordinate substitution in addition to its erased-coordinate fill**; the ledger does not count this as a pure erasure restoration.
 
-Part1 repairs raw `SC0WIERIGKE?TEN` to `SCHWIERIGKEITEN`, changing one observed coordinate and filling the missing I. This repairs a local word and does not assign H to the baseline key's digit0 elsewhere.
+Part 1 repairs raw `SC0WIERIGKE?TEN` to `SCHWIERIGKEITEN`, changing one observed coordinate and filling the missing I. This repairs a local word and does not assign H to the baseline key's digit0 elsewhere.
 
-Part2 also repairs raw `GENEHMIGUNGUNG` to `GENEHMIGUNGUND` at a cost of two observed coordinates. Proposed closing punctuation `ERBETENX` replaces raw `ERBETENN`, also at a cost of two observed coordinates. The source reference after it remains `KONACH18ROEMX3ANRX11023?`; its abbreviations and number labels are not expanded or reinterpreted.
+Part 2 also repairs raw `GENEHMIGUNGUNG` to `GENEHMIGUNGUND` at a cost of two observed coordinates. Proposed closing punctuation `ERBETENX` replaces raw `ERBETENN`, also at a cost of two observed coordinates. The source reference after it remains `KONACH18ROEMX3ANRX11023?`; its abbreviations and number labels are not expanded or reinterpreted.
 
-The final unknown symbol has source pair `?V` at indices40 and245 and exact domain **DEQTUX**. It might be a separator, but this edition does not choose one. Its one printed erasure remains unfilled. No key assignment is made.
+The final unknown symbol has source pair `?V` at indices 40 and 245 and exact domain **DEQTUX**. It might be a separator, but this edition does not choose one. Its one printed erasure remains unfilled. No key assignment is made.
 
 ## Reproduction and attribution limits
 

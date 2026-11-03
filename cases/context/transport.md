@@ -30,11 +30,13 @@ We enumerated all 194 possible positions for a contiguous block of five missing 
 
 Inserting five erasures before source index **55**, a printed group boundary, gives this exact partial plaintext:
 
+**Raw output — conditional five-coordinate gap before source index 55:**
+
 ```text
 STATMETXMARSCHIERTLCST?UT?SMORGEN1500UEBERDHFNXAB?A6SCHBE?EITSEIN?VS6GROV?AN?IERE?XBITTEF6EXSEIFERT
 ```
 
-Under this geometry, **91 of 99 characters are fixed**. The eight unresolved positions consist of six letters touched by uncertain coordinates and two letters using unassigned square cells. The fixed portions include `MARSCHIERT`, `MORGEN1500UEBERDHFN`, and `SEIFERT`; malformed portions are retained literally. `DHFN` and `STATMET` are not expanded into place or station names.
+Under this geometry, **91 of 99 characters are fixed**. The eight unresolved positions consist of six positions touched by uncertain coordinates and two positions using unassigned square cells. The fixed portions include `MARSCHIERT`, `MORGEN1500UEBERDHFN`, and `SEIFERT`; malformed portions are retained literally. `DHFN` and `STATMET` are not expanded into place or station names.
 
 This is a conditional result. The strongest composite language score selects position 55, but a conventional plaintext quadgram score selects position 57:
 
@@ -60,6 +62,8 @@ Six additional source-checked intercepts decrypt directly with the same historic
 The p194/p196 pair repeats `DHFN` and names `HANAU` as the march destination. It has 171 of 174 raw coordinates in common; disagreements are at indices 82 (`K/X`), 167 (`X/V`), and 173 (`D/G`). The p197/p198 pair agrees at 183 of 186 coordinates, differing at indices 59 (`V/A`), 63 (`A/V`), and 67 (`G/A`). Neither lorry-message copy supplies an exact `SEIFERT` signature; `SEHFERT` is not silently corrected.
 
 For the transport-order pair, a separately labelled source-supported composite takes `X` at index 82 and `V` at index 167 from p196 while retaining p194's `D` at index 173. It reads:
+
+**Raw output — conditional source-supported composite of the p194 and p196 witnesses:**
 
 ```text
 ABTRANSPORTINVERABREDETERWEISEFREITAGDHFN1?00XWAGENBEREITHALTENXMARSCHZIELHANAUXSEIFERT

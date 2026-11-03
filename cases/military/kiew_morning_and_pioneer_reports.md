@@ -1,5 +1,7 @@
 # Kiew morning report and pioneer-park loading request
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
 These are two separate messages on Childs p110, both marked NKJ v LP and
@@ -10,13 +12,13 @@ Both use the unchanged published Nov1–3 square and ranks.
 
 ### p110 B
 
-**Raw decoding**
+**Raw output:**
 
 ```text
 OXKXMACKENSENXXMORGENMELDU?GXVX3X11X18XNICHTSN?UESXXHRGXKIEWXROMX1AX6915X18
 ```
 
-**Edited candidate**
+**Edited output:**
 
 ```text
 OXKXMACKENSENXXMORGENMELDUNGXVX3X11X18XNICHTSNEUESXXHRGXKIEWXROMX1AX6915X18
@@ -29,7 +31,7 @@ the morning report of `3X11X18`. The Kiew/office/reference ending remains
 literal. Two printed glyphs at source indices 67 and 104 are C-shaped;
 they are preserved as C in the diplomatic transcript and treated as masks
 in the arithmetic. Filling the two word positions gives `MORGENMELDUNG`
-and `NICHTSNEUES` without changing an observed coordinate. Independent enlarged-glyph review identifies source62 as G in `VAGGF`;
+and `NICHTSNEUES` without changing an observed coordinate. Independent enlarged-glyph review identifies source 62 as G in `VAGGF`;
 its coordinate pair directly supplies the final reference digit5. The raw
 reference `6915` is preserved as a published-square label sequence, without
 a new historical numerical assignment. [The independent glyph audit](../../experiments/nov3_radio_and_pioneer/source_glyph_audit.json) retains the rejected preliminary C reading and the comparison crops.
@@ -38,13 +40,13 @@ a new historical numerical assignment. [The independent glyph audit](../../exper
 
 ### p110 C
 
-**Raw decoding**
+**Raw output:**
 
 ```text
 ANDENSTABSOFFIZIERDERPIONIEREDESXAXOXKXSCHOLTVXXPIONPARKKAMPX13XFIEGTBEI26X10INXPETREXVERLADEBEREITERBITTEPARKNUM2ERDES1AGGONGESTELLUNGVERANLASSETDASONSTJINFORTKOMMENUNMOEGLICHXXBAYXPIONXPARKXKOMPX13
 ```
 
-**Edited candidate**
+**Edited output:**
 
 ```text
 ANDENSTABSOFFIZIERDERPIONIEREDESXAXOXKXSCHOLTZXXPIONPARKKOMPX13XLIEGTBEI26X10INXPETREXVERLADEBEREITERBITTEPARKNUMMERDESWAGGONGESTELLUNGVERANLASSENDASONSTEINFORTKOMMENUNMOEGLICHXXBAYXPIONXPARKXKOMPX13

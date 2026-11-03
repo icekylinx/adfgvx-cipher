@@ -16,6 +16,8 @@ The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 Its [preserved section image](../../experiments/military_intendant_remit/sources/p202_B.png)
 has this header:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 B) NKJ v LP (4.00 p.m., November 16th)
 FUER UKS 1200 (16) 4 TEILE SS GRHQU 14/11 FLUGPOST O K M
@@ -33,11 +35,15 @@ coordinates produces a clear body. The representative below puts that gap
 before received index **145**, before printed group **30**. Its raw reading
 is conditional on that placement:
 
+**Raw output — conditional five-coordinate gap before source 145; representative placement:**
+
 ```text
 NEUBADRESSEX?XGENERALI?TENDANTB?RLINAUGSB?RGERSTRX??XFUERKRIEGSGL?EDERUNGENPERSONALIENFUERREINEVERWALTUNG?SACHENIW
 ```
 
 Four observed-coordinate substitutions and three fills of added slots give:
+
+**Edited output — same representative gap model, with the stated substitutions and added-slot fills:**
 
 ```text
 NEUEADRESSEX?XGENERALINTENDANTBERLINAUGSBURGERSTRX??XFUERKRIEGSGLIEDERUNGENPERSONALIENFUERREINEVERWALTUNGSSACHENIN
@@ -80,11 +86,15 @@ At received index 86 the source prints the non-coordinate letter `Q` in
 `XQFDG`. A heavily overprinted final glyph in `GAAD?`, index 169, is also
 left undecided. Both are masked before decryption. The raw body is:
 
+**Raw output:**
+
 ```text
 VERPFLEGUNGSANGELEGENHEIRENFUERGELDXKASSENXGEBUEHRNISANGELE?ENHEITENFUE?KONTRIBUTIONSGELDERUNDZWANGSAUFLAGENXX
 ```
 
 One observed-coordinate change and two masked-slot fills give:
+
+**Edited output:**
 
 ```text
 VERPFLEGUNGSANGELEGENHEITENFUERGELDXKASSENXGEBUEHRNISANGELEGENHEITENFUERKONTRIBUTIONSGELDERUNDZWANGSAUFLAGENXX
@@ -99,11 +109,15 @@ and compulsory levies. No numeral is inserted into the body.
 The third part contains exactly **210 valid coordinates**, agreeing with
 `RICHI-210`. Its raw reading is:
 
+**Raw output:**
+
 ```text
 2XGENERALINTENDANTXGRHQUXALLENACHSCHUBANGELEGENHEITENSOWEITSIEMITTRANSPORT?NDHERANFUEHRUNNZUSAMMENHAENGEB
 ```
 
 Four observed-coordinate substitutions give:
+
+**Edited output:**
 
 ```text
 2XGENERALINTENDANTXGRHQUXALLENACHSCHUBANGELEGENHEITENSOWEITSIEMITTRANSPORTUNDHERANFUEHRUNGZUSAMMENHAENGEN
@@ -120,11 +134,15 @@ Three coordinates are masked: a faded `C/G`-shaped glyph in `VDA?D`, a
 faded glyph in `XAA?D`, and the printed non-coordinate `R` in `ARFXD`.
 Enlarged crops preserve the visible appearances. The raw reading is:
 
+**Raw output:**
+
 ```text
 BEKL?IDUNGXUXA?SRUESTUNGFLEISCHVERSORGUNG?ARKETENDEREIWESENKRIEGSLEISTUNGENXGENERALIWTENDANTXRMX?XAX????XAX11X1?
 ```
 
 One observed-coordinate change and three masked-slot fills give:
+
+**Edited output:**
 
 ```text
 BEKLEIDUNGXUXAUSRUESTUNGFLEISCHVERSORGUNGMARKETENDEREIWESENKRIEGSLEISTUNGENXGENERALINTENDANTXRMX?XAX????XAX11X1?

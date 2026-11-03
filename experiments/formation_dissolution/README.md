@@ -16,3 +16,5 @@ python experiments/formation_dissolution/verify.py --verify --pdf /path/to/adfgv
 The default check uses the standard library and project cipher helpers. It checks the unchanged key, all literal coordinates, independent decoding, the raw/edited round trip and every counted edit. The optional PDF check requires PyMuPDF, verifies the pinned scan hash and regenerates/computes exact pixel equality for the delivered crop. No search is run.
 
 `catalog_proposal.json` contains the one proposed physical source record. Reference digits remain baseline labels; no codebook or numerical completion is added.
+
+**Subsequent source witness:** [p79 A1/A2](../../cases/military/palestine_medical_dissolution.md) supplies the missing first-part context. Its A2 is identical to all336 coordinates here. This original one-record source certificate remains unchanged; the new physical copies and their single source-mask fill have a separate edition.

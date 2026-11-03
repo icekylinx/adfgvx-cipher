@@ -12,7 +12,7 @@ The message reports to OHL that OKM has prepared to depart on the raw date `12.1
 
 These are claims in the telegram, not independent verification of the movements. The source's `KONSTANTA` spelling is retained, as are its abbreviations and reference labels.
 
-Childs printed page150 / PDF page153 has the page heading6 November1918 and intercept header `B) LP v NKJ (--- November 7th)`, `2100 (6) VON UKS 5 TLE`. Those two dates are preserved separately. Parts1/2/3/5 carry lengths194/198/204/214. Part4's length heading is partly cancelled or overwritten; its **202 actual source slots are counted independently**, without reading that number back into the damaged annotation.
+Childs printed page 150 / PDF page 153 has the page heading 6 November 1918 and intercept header `B) LP v NKJ (--- November 7th)`, `2100 (6) VON UKS 5 TLE`. Those two dates are preserved separately. Parts 1/2/3/5 carry lengths 194/198/204/214. Part 4's length heading is partly cancelled or overwritten; its **202 actual source slots are counted independently**, without reading that number back into the damaged annotation.
 
 ## Source and repair totals
 
@@ -29,13 +29,13 @@ A fixed position means a single symbol under the stated source frame and publish
 
 ## p150 B1 — Opening to OHL: departure preparations and cited instruction
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 OHLOPXXOKMXHATVORBEREITUN?ENSOGETROFFE??ASSAUFB?FEHLXXVERGLXDORT1A11118OP2XXDERABMARSCHVOM12X11AB
 ```
 
-Proposed readable edition:
+**Edited output:**
 
 ```text
 OHLOPXXOKMXHATVORBEREITUNGENSOGETROFFENDASSAUFBEFEHLXXVERGLXDORT1A11118OP2XXDERABMARSCHVOM12X11AB
@@ -43,13 +43,13 @@ OHLOPXXOKMXHATVORBEREITUNGENSOGETROFFENDASSAUFBEFEHLXXVERGLXDORT1A11118OP2XXDERA
 
 ## p150 B2 — Further delay and the Danube/Rustschuk threat
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 ANGETRETENWERDENKANNXWEITERE?RRZOEGE?UNGW?ZENFEIND?AGEANDO?AUINS?ESONDERE?EIRUSTSCHUKWAEREATUSSERST
 ```
 
-Proposed readable edition:
+**Edited output:**
 
 ```text
 ANGETRETENWERDENKANNXWEITEREVERZOEGERUNGWEGENFEINDLAGEANDONAUINSBESONDEREBEIRUSTSCHUKWAEREAEUSSERST
@@ -57,13 +57,13 @@ ANGETRETENWERDENKANNXWEITEREVERZOEGERUNGWEGENFEINDLAGEANDONAUINSBESONDEREBEIRUST
 
 ## p150 B3 — Earlier enemy crossing, Wallachian plain and advance parties
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 UNERWUENSCHTXSOLLTE??GNERVOR?2X11XUE??RDONAUA?GREILEN?SUESSTEX?ALACHEI??E?EGERA??MTWERDENXVORKOMMANDHS
 ```
 
-Proposed readable edition:
+**Edited output:**
 
 ```text
 UNERWUENSCHTXSOLLTEGEGNERVOR?2X11XUEBERDONAUANGREIFENXMUESSTEXWALACHEIEBENEGERAEUMTWERDENXVORKOMMANDOS
@@ -71,13 +71,13 @@ UNERWUENSCHTXSOLLTEGEGNERVOR?2X11XUEBERDONAUANGREIFENXMUESSTEXWALACHEIEBENEGERAE
 
 ## p150 B4 — Advance parties, railway operation and Constanta
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 SIN?NACHKRON?TADTUXH?RMANNSTA?TVORAUS?ESCHICKTX?AHNLINIENWERDENINDEUTSCHENBETRIEBGENOMME?X?ONSTA?TAUX
 ```
 
-Proposed readable edition:
+**Edited output:**
 
 ```text
 SINDNACHKRONSTADTUXHERMANNSTADTVORAUSGESCHICKTXBAHNLINIENWERDENINDEUTSCHENBETRIEBGENOMMENXKONSTANTAUX
@@ -85,13 +85,13 @@ SINDNACHKRONSTADTUXHERMANNSTADTVORAUSGESCHICKTXBAHNLINIENWERDENINDEUTSCHENBETRIE
 
 ## p150 B5 — Medgidia and the Dobrudscha administration
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 MEDGIDIASINDGERAEU?TXBISHERNGEETXVERWXDOBRUD?CHAALSETA?PENVE?WALTUNGN?CHKRONSTRDTVERLEGTXXOXK?MX1A11280XO?X
 ```
 
-Proposed readable edition:
+**Edited output:**
 
 ```text
 MEDGIDIASINDGERAEUMTXBISHERIGEETXVERWXDOBRUDSCHAALSETAPPENVERWALTUNGNACHKRONSTADTVERLEGTXXOXKXMX1A11280XOPX
@@ -101,11 +101,11 @@ MEDGIDIASINDGERAEUMTXBISHERIGEETXVERWXDOBRUDSCHAALSETAPPENVERWALTUNGNACHKRONSTAD
 
 The five native plaintext frames join at meaningful word or sentence boundaries: `AEUSSERST / UNERWUENSCHT`, `VORKOMMANDOS / SIND`, and `KONSTANTA U / MEDGIDIA`. Nothing is inserted to connect them.
 
-Part3's `WALACHEI??E?E` is completed lexically as `WALACHEIEBENE`. The three proposed symbols E/B/N are each allowed by their original observed half-pairs and cost three printed-erasure fills, with no known-coordinate change at those positions. This source-compatible proposal is not a uniqueness proof.
+Part 3's `WALACHEI??E?E` is completed lexically as `WALACHEIEBENE`. The three proposed symbols E/B/N are each allowed by their original observed half-pairs and cost three printed-erasure fills, with no known-coordinate change at those positions. This source-compatible proposal is not a uniqueness proof.
 
-The missing first symbol of `VOR?2X11` has both source coordinates erased, at indices123 and183. Its exact domain is all36 plaintext symbols. The earlier `12X11` field makes a matching date a plausible contextual reading but does not independently recover these two missing coordinates; both remain unfilled. No new numeral mapping is introduced.
+The missing first symbol of `VOR?2X11` has both source coordinates erased, at indices 123 and 183. Its exact domain is all 36 plaintext symbols. The earlier `12X11` field makes a matching date a plausible contextual reading but does not independently recover these two missing coordinates; both remain unfilled. No new numeral mapping is introduced.
 
-The part4 crop preserves the overlapping typed rows for direct inspection. Every other source frame also retains its original glyph rows and erasure marks.
+The part 4 crop preserves the overlapping typed rows for direct inspection. Every other source frame also retains its original glyph rows and erasure marks.
 
 ## Reproduction and attribution limits
 

@@ -12,6 +12,8 @@ Both origin headers give LP for UKS, `13.40 (13/11)`, three parts. The different
 
 [Source crop](../../experiments/hungary_transport_warning/sources/p184_B1.png). All 146 printed coordinates give 73 fixed positions without repair:
 
+**Raw output:**
+
 ```text
 ANXOBERKOMMANDOXMACKENSENXWIRTSCHAFTSSTABXMINERALOELABTEILUNGXBUCKARESTXX
 ```
@@ -22,11 +24,15 @@ Reading: “An Oberkommando Mackensen, Wirtschaftsstab, Mineralölabteilung, Buc
 
 [Source crop](../../experiments/hungary_transport_warning/sources/p184_B2.png). The source advertises 192 coordinates but prints 187. With five unknown coordinates inserted before source index 35, the 96-position raw text is:
 
+**Raw output — conditional five-coordinate gap before source index 35:**
+
 ```text
 TRANSPOR?EXVONXRUM?ENIENXNIC?TXNACHXUNGARNXHEREINLASSENXDAXSIEXINXUNGARNXRESTLO?XVERLOREN?SINDXX
 ```
 
 The corresponding C2 text independently determines the missing group `DXDVA`. No observed B2 coordinate changes:
+
+**Edited output — missing group supplied by the independently identified C2 witness:**
 
 ```text
 TRANSPORTEXVONXRUMAENIENXNICHTXNACHXUNGARNXHEREINLASSENXDAXSIEXINXUNGARNXRESTLOSXVERLORENXSINDXX
@@ -38,6 +44,8 @@ Reading: “Transporte von Rumänien nicht nach Ungarn hereinlassen, da sie in U
 
 [Source crop](../../experiments/hungary_transport_warning/sources/p184_B3.png). All 110 coordinates are observed. The 55-position raw text retains 15 unknown reference positions:
 
+**Raw output:**
+
 ```text
 KRIEGSAMTXROEMX?X???STRICH????XKRAX???STRICH????XANCHXX
 ```
@@ -47,6 +55,8 @@ The office and reference syntax are readable; the number labels remain unassigne
 ## p184 C1
 
 [Source crop](../../experiments/hungary_transport_warning/sources/p184_C1.png). The shorter 136-coordinate address gives 68 fixed raw positions without repair:
+
+**Raw output:**
 
 ```text
 ANXOBERKOMMANDOXMKENSENXWIRTSCHAFTSSTABXMINERALOLABTEILUNGXBUMARESTX
@@ -58,11 +68,15 @@ The received forms `MKENSEN`, `MINERALOL` and `BUMAREST` remain explicit. Their 
 
 [Source crop](../../experiments/hungary_transport_warning/sources/p184_C2.png). All 190 coordinates are observed. The 95-position raw text is:
 
+**Raw output:**
+
 ```text
 TRANSTORTEXVONXRUMAENIENXNICHTXNACHXUNGARNXHE?REINLASSENXDAXSIEXINXUNGARNXRESTLOSVERLORENXTINDX
 ```
 
 Two observed-coordinate substitutions, source index 75 `V → F` and index 86 `D → G`, yield:
+
+**Edited output:**
 
 ```text
 TRANSPORTEXVONXRUMAENIENXNICHTXNACHXUNGARNXHE?REINLASSENXDAXSIEXINXUNGARNXRESTLOSVERLORENXSINDX
@@ -73,6 +87,8 @@ Both corrected letters are witnessed by unchanged B2 positions that were exclude
 ## p184 C3
 
 [Source crop](../../experiments/hungary_transport_warning/sources/p184_C3.png); [enlargement of faint final-column groups](../../experiments/hungary_transport_warning/sources/p184_C3_faint.png). All 108 coordinates are retained:
+
+**Raw output:**
 
 ```text
 KRIEGSAMTXROEMX?X???STRICH????XKRAX???STRICH????XANCHX

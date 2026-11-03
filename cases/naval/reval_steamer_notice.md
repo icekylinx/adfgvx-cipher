@@ -12,6 +12,8 @@ The message reports arrangements for two steamers to serve troops and provisions
 
 [Source crop](../../experiments/reval_steamer_notice/sources/p213_A1.png); [overprinted glyph enlargement](../../experiments/reval_steamer_notice/sources/p213_A1_g13.png). All 200 slots are retained. The primary source reading gives 100 fixed raw labels without repair:
 
+**Raw output:**
+
 ```text
 RPHAXREVALXBISENDENOVEMBERWERDENZWEIDAMPFERFUERTRUPPENUNDPROVIANTVONZUSAMMENXY5111XTONNENINREVALSEIN
 ```
@@ -24,11 +26,15 @@ Source index 62 is an overprinted glyph, read primarily as D in `GDDVF`. The ret
 
 [Source crop](../../experiments/reval_steamer_notice/sources/p213_A2.png). There are 208 printed slots, including C at index 181. Raw:
 
+**Raw output:**
+
 ```text
 WEITERETANNAGEFOL?TBALDIGSTFERNERROHSTOFFTRANSPHRTABGINGHE8TEXPETERXBENVITXFOLGTMORGENXB9VERNUNDBAC4LONX
 ```
 
 Three observed-coordinate substitutions and one printed-glyph fill produce:
+
+**Edited output:**
 
 ```text
 WEITERETONNAGEFOLGTBALDIGSTFERNERROHSTOFFTRANSPORTABGINGHEUTEXPETERXBENVITXFOLGTMORGENXB9VERNUNDBAC4LONX
@@ -40,11 +46,15 @@ Reading: more tonnage follows shortly; raw-material transport is also reported, 
 
 [Source crop](../../experiments/reval_steamer_notice/sources/p213_A3.png). There are 162 slots with three printed dashes. Raw:
 
+**Raw output:**
+
 ```text
 FUEREUCHWIRDMITALLENKRAEFTENGESORGTXROHAVALXXKMXALLGX?RIEFSDEPXN?YLY1XYYXYN?ANCHX
 ```
 
 Filling source index 137 as F and changing index 159 F to X gives:
+
+**Edited output:**
 
 ```text
 FUEREUCHWIRDMITALLENKRAEFTENGESORGTXROHAVALXXKMXALLGXKRIEGSDEPXN?YLY1XYYXYN?ANCHX

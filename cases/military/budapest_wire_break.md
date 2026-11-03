@@ -17,6 +17,8 @@ System*, [printed p100, PDF p103](https://drive.google.com/file/d/1_JiNMck7eUvdr
 The [B crop](../../experiments/radio_contacts_and_keys/sources/childs_p100_B.png)
 is under a November 1 heading:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 B) UKS v ZÖN (------ November 2nd)
 RICHI-194
@@ -27,17 +29,23 @@ length. An earlier 195-slot OCR extraction produced a garbled result; its
 extra slot is not treated as a historical cipher error. The unchanged
 published `Nov1-3` key fixes all 97 raw plaintext positions:
 
+**Raw output:**
+
 ```text
 BRUECKENXDORTXGESPRENGTXDRAHTLEITUNGENXUEBERXBUDAPESTXDURCHSUNGXNATIONALRATXUNTERBJOCHENXAXOXKX11
 ```
 
 Two observed-coordinate substitutions give:
 
+**Edited output:**
+
 ```text
 BRUECKENXDORTXGESPRENGTXDRAHTLEITUNGENXUEBERXBUDAPESTXDURCHXUNGXNATIONALRATXUNTERBROCHENXAXOXKX11
 ```
 
 Readable German, expanding only the explicit abbreviation in brackets:
+
+**Readable German:**
 
 > Brücken dort gesprengt. Drahtleitungen über Budapest durch
 > ung[arischen] Nationalrat unterbrochen. A.O.K. 11.

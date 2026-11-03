@@ -23,6 +23,8 @@ ciphertext coordinate.
 The [first-part source](../../experiments/september_radio_procedure/sources/childs_p60_A1.png)
 has this header:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 A) COS v NKJ (10.02 p.m., Sept. 21st)
 1400 (21) 2 TLE
@@ -32,6 +34,8 @@ A) COS v NKJ (10.02 p.m., Sept. 21st)
 The 176 source slots include a printed noncoordinate `T` and `L`. Treating
 both as erasures gives the following 88-position reading, with 86 positions fixed:
 
+**Raw output:**
+
 ```text
 BITTEVONHEUTEABTAEGLICHZUDENVONUNSINDIESSEITX22552255VOM14X14X9XRIZI286ANGEGEBE?ENZEITE?
 ```
@@ -39,6 +43,8 @@ BITTEVONHEUTEABTAEGLICHZUDENVONUNSINDIESSEITX22552255VOM14X14X9XRIZI286ANGEGEBE?
 Both unknown positions have the domain `1EGNPZ`. Filling both with `N`
 gives the proposed first-part ending `ANGEGEBENENZEITEN`. The rest of the
 plaintext remains exactly as received. In readable form, continued by A2:
+
+**Readable German — first-part excerpt; the continuation is separate:**
 
 > Bitte von heute ab täglich zu den von uns in diesseit. `22552255` vom
 > `14X14X9`, `RIZI286`, angegebe[n]en Zeite[n] …
@@ -55,11 +61,15 @@ The [second-part source](../../experiments/september_radio_procedure/sources/chi
 is marked `2 TL RIZI-154`. All 154 coordinates are valid, and all 77 plaintext
 positions are read without repair:
 
+**Raw output:**
+
 ```text
 AUFUNSZUHOERENXXWIRRUFENZUBEGINNJEDERPERIODEAUCHWENNNICHTSVORLIEGTANXXNKJXNKJ
 ```
 
 The complete readable instruction continues:
+
+**Readable German — second-part continuation; the opening is in the separate first part:**
 
 > … auf uns zu hören. Wir rufen zu Beginn jeder Periode, auch wenn nichts
 > vorliegt, an. NKJ NKJ.
@@ -73,6 +83,8 @@ as their own 176- and 154-slot frames before their prose is joined.
 
 The [B source](../../experiments/september_radio_procedure/sources/childs_p60_B.png)
 has a separate clear service annotation above its encrypted body:
+
+**Source transcription — clear header and/or literal source record:**
 
 ```text
 B) ASO v NKJ (1.30 a.m., Sept. 21st)
@@ -91,6 +103,8 @@ The latter looks R/E-like and may be a damaged `F`; the conservative
 transcription treats it as an erasure. Both erased coordinates feed the
 same plaintext position. The raw reading therefore fixes 112 of 113 positions:
 
+**Raw output:**
+
 ```text
 RITTEFUNKSPRXFUERCOSANUNSWAEHRENDAUFNAHMENAUENPRESSEIMMEROHGEUNTYRBRECHUNGGEBENXXQUITTUNGFOLGTNACHPRESSE?CHLUSSXX
 ```
@@ -98,11 +112,15 @@ RITTEFUNKSPRXFUERCOSANUNSWAEHRENDAUFNAHMENAUENPRESSEIMMEROHGEUNTYRBRECHUNGGEBENX
 Three coordinate substitutions repair `RITTE`, `OHGE` and `UNTYRBRECHUNG`.
 Two coordinate fills supply the missing `S` in `PRESSESCHLUSS`:
 
+**Edited output:**
+
 ```text
 BITTEFUNKSPRXFUERCOSANUNSWAEHRENDAUFNAHMENAUENPRESSEIMMEROHNEUNTERBRECHUNGGEBENXXQUITTUNGFOLGTNACHPRESSESCHLUSSXX
 ```
 
 Readable German, with abbreviation and grammar expansions bracketed:
+
+**Readable German:**
 
 > Bitte Funkspr[üche] für COS an uns während Aufnahme [der] Nauen-Presse
 > immer ohne Unterbrechung geben. Quittung folgt nach Presseschluss.

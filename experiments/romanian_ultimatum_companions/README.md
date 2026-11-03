@@ -136,3 +136,8 @@ literal slots, the unlocated shortage is **five coordinates**. The former
 15-coordinate estimate is retained only as a transcription-error note,
 not as a source model or an alternative restored body. The three readable
 records and their repair counts are unchanged.
+
+The separate [C3 withdrawal follow-up](../p175_c3_gap_followup/README.md) now
+provides a conditional reading and compares contiguous-block and arbitrary-loss
+models. This package retains its original three-record scope and unchanged
+source/certificate files; A6 remains unread.

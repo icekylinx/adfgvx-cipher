@@ -11,22 +11,24 @@ by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 376 other physical source records**, with all
-22 challenge entries preserved. It adds **181 physical records across 47 source
+This snapshot compares **195 → 399 other physical source records**, with all
+22 challenge entries preserved. It adds **204 physical records across 54 source
 packages** and keeps every earlier record. The separate interpretation and
 open-target method audits add no physical records.
 
-The new source packages account for **40,930 printed source slots** and
-**20,599 modeled plaintext positions**, of which **19,848 have fixed raw labels**
+The new source packages account for **45,718 literal source slots** and
+**22,983 modeled plaintext positions**, of which **22,173 have fixed raw labels**
 under their stated frames. These are coverage counts. They include repeated
 copies, previously identified bodies, conditional geometry and unresolved
 historical numeral meanings; they are not a count of first decipherments or
-universally correct original letters. All 386 observed-coordinate substitutions
+universally correct original letters. All 428 observed-coordinate substitutions
 are recorded locally, separately from source erasures and inserted values.
+The source-slot total includes separately recorded marginal annotations;
+those annotations are not automatically part of a typed analysis frame.
 
 ## Source packages
 
-| Package | Physical records | Printed slots | Modeled positions | Fixed raw labels | Observed substitutions |
+| Package | Physical records | Source slots | Modeled positions | Fixed raw labels | Observed substitutions |
 |---|---:|---:|---:|---:|---:|
 | [Crown airlift and an interrupted banknote instruction](../crown_airlift/README.md) | 3 | 371 | 195 | 175 | 1 |
 | [Repeated ZITAG stop-order and contract cancellation](../zitag_purchase_orders/README.md) | 5 | 1068 | 534 | 531 | 14 |
@@ -75,10 +77,17 @@ are recorded locally, separately from source erasures and inserted values.
 | [Upper p211: Oderberg fragment and troop-situation query](../prague_route_and_situation/README.md) | 2 | 244 | 122 | 122 | 3 |
 | [Romanian ultimatum and Danube crossing: companions of p176a](../romanian_ultimatum_companions/README.md) | 3 | 588 | 294 | 284 | 6 |
 | [November 3 radio, morning and pioneer reports](../nov3_radio_and_pioneer/README.md) | 3 | 828 | 414 | 412 | 10 |
+| [p175 C3: withdrawal from the Danube and Sereth front](../p175_c3_gap_followup/README.md) | 1 | 217 | 111 | 102 | 4 |
+| [p175 B2: payments and cheque acknowledgements](../hauptwechselamt_accounting/README.md) | 1 | 204 | 102 | 90 | 4 |
+| [p64: the Nobel oil inquiry and the Damascus radio report](../p64_oil_and_radio/README.md) | 3 | 876 | 438 | 436 | 10 |
+| [Late October radio service and Caucasus hide purchasing](../late_october_radio_and_materials/README.md) | 8 | 1612 | 796 | 765 | 11 |
+| [November 3 medical, radio and withdrawal source editions](../nov3_medical_radio_withdrawal/README.md) | 5 | 921 | 458 | 455 | 3 |
+| [September receipt and front-news inquiry](../september_receipt_and_front_inquiry/README.md) | 2 | 320 | 160 | 158 | 4 |
+| [p97: wireless routing, repetition and supplies](../hungary_connection_and_supplies/README.md) | 3 | 638 | 319 | 319 | 6 |
 
 The [complete inventory](inventory.json) preserves every added identifier,
 package summary, case path and counting limit. The [inputs](inputs.json)
-pin both catalogues and 752 package/case artifacts. Earlier statuses, subjects
+pin both catalogues and 849 package/case artifacts. Earlier statuses, subjects
 and credits are unchanged; 164 old path fields follow the explicit topic-migration map.
 
 ## Additional interpretation and method audits
@@ -101,11 +110,16 @@ mechanical pass preserves all 575 fenced blocks in 121 case pages; the
 42 earlier blocks, 92 headings and 349 inline-code occurrences across 12
 additional pages while clarifying their editorial symbols. The exact Tiflis
 readable mapping retains 330 nonseparator labels. Both preservation checks
-run in CI; none of these display changes adds a source record.
+run in CI. A second layer-caption audit retains 637 fenced blocks in 138
+overlapping cases, and the spacing audit retains 91 blocks in 25 cases.
+The [complete presentation coverage](../../docs/reading-conventions-coverage.md)
+classifies every current substantive case and protects each display's bytes
+and local qualifier; new unreviewed pages fail its check. These overlapping
+presentation counts are never added to source-record totals.
 
 ## Independent source-image binding
 
-All **228 delivered source images** have normalized PDF-page, rectangle, scale,
+All **257 delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph

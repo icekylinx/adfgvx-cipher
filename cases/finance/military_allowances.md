@@ -24,11 +24,15 @@ contains every source crop, coordinate and candidate edit.
 The source advertises and prints **398 slots**, including a dash in
 `XVFX-` and an invalid `C` in `CFGVV`. Their raw 199-position reading is:
 
+**Raw output:**
+
 ```text
 ?UXMXRMX30NRX228XFUERSELBSTVERPFLEGERDORTFESTGESETETEBEKOESTBGUNGSGELDERSINUZUHOCHUNDMUESSENAUCHFUERRUECKLIEGENDEZEITBEANSTANDETWERDENXSCHWEDISCHEGEVUE?RNISSEKOENNENNICHTALSSASSGEBENDANGESEHENWERDENX
 ```
 
 The ordinary-word candidate is:
+
+**Edited output:**
 
 ```text
 ZUXMXRMX30NRX228XFUERSELBSTVERPFLEGERDORTFESTGESETZTEBEKOESTIGUNGSGELDERSINDZUHOCHUNDMUESSENAUCHFUERRUECKLIEGENDEZEITBEANSTANDETWERDENXSCHWEDISCHEGEBUEHRNISSEKOENNENNICHTALSMASSGEBENDANGESEHENWERDENX
@@ -37,6 +41,8 @@ ZUXMXRMX30NRX228XFUERSELBSTVERPFLEGERDORTFESTGESETZTEBEKOESTIGUNGSGELDERSINDZUHO
 It requires **five observed-coordinate substitutions and two printed
 erasure fills**. The initial reference remains unexpanded. With
 editorial spacing, the substantive passage reads:
+
+**Readable German:**
 
 > Für Selbstverpfleger dort festgesetzte Beköstigungsgelder sind zu hoch und müssen auch für rückliegende Zeit beanstandet werden. Schwedische Gebührnisse können nicht als maßgebend angesehen werden.
 
@@ -48,6 +54,8 @@ The source advertises and prints **452 slots**. The opening `VXDVV` group
 is five characters, and the last group of the seventh row is the literal
 `VAXGL`, with an invalid final `L`. The raw text is:
 
+**Raw output:**
+
 ```text
 HOHESELBSTBEKOESTIGUNGSGELDERBILDENDAUERNDERANREIZSICHDERALSREGELGEDACHTENNATURALVERPFLEGUNGZUENTZIEHENXHERABSETZ?NGDAHERDNBEDINGTERFORDERLICHXBEINEUFESTSETZUNGSINDDIEFUEREINEFELDKOSTPORTIONAUFZUWENDENDENPREISEZUGRUNDEZDLEGENX
 ```
@@ -55,11 +63,15 @@ HOHESELBSTBEKOESTIGUNGSGELDERBILDENDAUERNDERANREIZSICHDERALSREGELGEDACHTENNATURA
 The candidate costs **four observed-coordinate substitutions and one
 printed-glyph fill**:
 
+**Edited output:**
+
 ```text
 HOHESELBSTBEKOESTIGUNGSGELDERBILDENDAUERNDENANREIZSICHDERALSREGELGEDACHTENNATURALVERPFLEGUNGZUENTZIEHENXHERABSETZUNGDAHERUNBEDINGTERFORDERLICHXBEINEUFESTSETZUNGSINDDIEFUEREINEFELDKOSTPORTIONAUFZUWENDENDENPREISEZUGRUNDEZULEGENX
 ```
 
 With editorial spacing:
+
+**Readable German:**
 
 > Hohe Selbstbeköstigungsgelder bilden dauernden Anreiz, sich der als Regel gedachten Naturalverpflegung zu entziehen. Herabsetzung daher unbedingt erforderlich. Bei Neufestsetzung sind die für eine Feldkostportion aufzuwendenden Preise zugrunde zu legen.
 
@@ -72,7 +84,9 @@ This part is advertised as **486 coordinates**, and the literal source
 contains exactly 486. Earlier OCR made the first group `VAGAG` seven
 slots and omitted the complete final `GXFVD A`, leaving an incorrect
 482-slot stream. Correcting the transcription produces the following
-**243-letter direct reading**:
+**243-position direct reading**:
+
+**Raw output:**
 
 ```text
 NATURALVERPFLEGUNGMUSSREGELBILDENXDIESEDURCHGEMEINSAMENEINKAUFXUMPREISENICHTUNNOETIGINHOEHEZUTREIBENUNDDURCHEINRICHTUNGDEUTSCHERSPEISEHAEUSERNACHMOEGLICHKEITFOERDERNSODASSSELBSTVERPFLEGUNGAUFTATSAECHLICHNICHTZUUMGEHENDEFAELLEBESCHRAENKTBLEIBTX
@@ -83,6 +97,8 @@ filled.** The text encrypts back exactly to the observed source using
 the unchanged Nov4–6 key.
 
 With editorial spacing:
+
+**Readable German:**
 
 > Naturalverpflegung muss Regel bilden. Diese durch gemeinsamen Einkauf, um Preise nicht unnötig in Höhe zu treiben, und durch Einrichtung deutscher Speisehäuser nach Möglichkeit fördern, sodass Selbstverpflegung auf tatsächlich nicht zu umgehende Fälle beschränkt bleibt.
 
@@ -96,12 +112,16 @@ been established.
 The source advertises and prints **424 valid coordinates**. Its raw
 212-character text is:
 
+**Raw output:**
+
 ```text
 BALDIGEMITTEILUNGDESDORTSEITSVERANLASSTENERBETEN0BEANTRAGTETEUERUNGSZULAGEKANNNICHTGEWAEHRTWERDENXZULAGEREGELUNGMUSSNACHPASCHEXRMX2XVORSCHRIFTERFOLGENXKRIEGSMINISTERIUMARMEEVERWALTUNGSDEPARTEMENTXNRX1235X18XGXBX1
 ```
 
 The candidate changes only the raw `0` after `ERBETEN` to `X`, costing
 **one coordinate substitution**. The substantive reading is:
+
+**Readable German:**
 
 > Baldige Mitteilung des dortseits Veranlassten erbeten. Beantragte Teuerungszulage kann nicht gewährt werden. Zulageregelung muss nach PASCHE X RM X 2 Vorschrift erfolgen. Kriegsministerium, Armeeverwaltungsdepartement …
 

@@ -1,0 +1,37 @@
+{
+  "schema": "adfgvx-reading-conventions-support-audit-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "scope": "Guide clarification and own p188/p209 README counting-unit labels only. No input or certificate changes.",
+  "files": [
+    {
+      "path": "docs/reading-conventions.md",
+      "before_file_sha256": "b0b037f43f1694e096020e115ac567d1432e25ff6cfeccabacdb154a52d0cc1f",
+      "after_file_sha256": "39bada11435c6423365ddd83acb8230c0db5ed30005779b4d417ca5413c9988d",
+      "fenced_blocks_unchanged": 0,
+      "before_fenced_blocks": [],
+      "existing_headings_unchanged": true
+    },
+    {
+      "path": "experiments/armistice_provisions_requests/README.md",
+      "before_file_sha256": "85048176a6b8544094d075af163e0adf0f61c326f3d69ca496bff720f449d415",
+      "after_file_sha256": "8cecad94359f80fa01ee20f1d93658cc202168e3e9240c6cc0bfca5ed21a8c78",
+      "fenced_blocks_unchanged": 2,
+      "before_fenced_blocks": [
+        "```sh\npython experiments/armistice_provisions_requests/verify.py --verify\n```\n",
+        "```sh\npython experiments/armistice_provisions_requests/verify.py --verify --pdf /path/to/adfgvx-childs.pdf\n```\n"
+      ],
+      "existing_headings_unchanged": true
+    },
+    {
+      "path": "experiments/transport_and_disarmament_orders/README.md",
+      "before_file_sha256": "2c11549c1dc47fb88415518a173ba0f192afe6afc16d0d33aa33a2d8b2e0b5df",
+      "after_file_sha256": "04bd2e7393a2539e730a82701e6153d8653a380bcb66156dd83e60b9b8ef8d26",
+      "fenced_blocks_unchanged": 2,
+      "before_fenced_blocks": [
+        "```sh\npython experiments/transport_and_disarmament_orders/verify.py --verify\n```\n",
+        "```sh\npython experiments/transport_and_disarmament_orders/verify.py --verify --pdf /path/to/adfgvx-childs.pdf\n```\n"
+      ],
+      "existing_headings_unchanged": true
+    }
+  ]
+}

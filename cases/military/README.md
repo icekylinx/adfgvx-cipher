@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**154 reviewed physical records across 44 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**158 reviewed physical records across 46 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -20,6 +20,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p109 — Evening report and the Sava crossing](../p109.md) | p109 B |
 | [Kiew morning report and pioneer-park loading request](kiew_morning_and_pioneer_reports.md) | p110 B, p110 C |
 | [Mackensen's November 3 withdrawal report and its separately received ninth part](mackensen_withdrawal_report.md) | p113 A3, p113 B9, p114 A1, p114 A4, p115 A5, p115 A6, p115 A7, p115 A8, p116 A10, p116 A11, p116 A12, p116 A13 |
+| [Withdrawal from Hungarian and South Slav territory, and a night report](nov3_withdrawal_and_night_report.md) | p117 C3, p117 C4, p117 D |
 | [Armistice transit and withdrawal planning](armistice_transit_planning.md) | p125 A1, p125 A2, p125 A3, p125 A4, p126 A5, p126 A6, p126 B |
 | [Surviving Transylvania situation report](transylvania_situation_report.md) | p128 B1, p129 A7, p129 A8, p137 A4, p137 A5 |
 | [Recall of contract-bound military-mission members from Turkey](turkish_mission_recall.md) | p130 A1, p130 A2, p131 A3, p131 A4 |
@@ -30,6 +31,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p164 A4 — cavalry report](../context/p164_A4.md) | p164 A4 |
 | [November 9 operational reports: Serbian cavalry and the retreat north](nov9_operational_reports.md) | p166 A1, p166 A2, p166 A3, p167 A3, p170 B1, p170 B2 |
 | [Romanian ultimatum and the crossing near Rustschuk](romanian_ultimatum_companions.md) | p175 C1, p175 C2, p176 A5 |
+| [Withdrawal from the Danube and Sereth front: p175 C3](p175_c3_withdrawal_followup.md) | p175 C3 |
 | [The Danube field report: two companion parts, 10–11 November](nov10_danube_field_report.md) | p176 B2, p176 B3 |
 | [Citadel surrender, local armistice terms and home leave](armistice_and_leave_orders.md) | p179 B, p179 C, p179 D1, p179 D2 |
 | [p180 A — Enemy following the withdrawal near Giurgiu](p180_A.md) | p180 A3 |
@@ -89,6 +91,9 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p116 A11](mackensen_withdrawal_report.md#p116-a11) | Ammunition, food and coal | Conditional one-coordinate-loss source edition; all geometry alternatives retained | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
 | [p116 A12](mackensen_withdrawal_report.md#p116-a12) | Proposed immediate withdrawal | Conditional one-coordinate-loss source edition; all geometry alternatives retained | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
 | [p116 A13](mackensen_withdrawal_report.md#p116-a13) | Jammed final part, left partial | Raw partial only; 38 of111 positions, 62 tail coordinates remain unknown | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p117 C3](nov3_withdrawal_and_night_report.md#p117-c3) | German troops to leave Hungarian and South Slav territory | 80/80 fixed raw positions; 0 coordinate substitutions, 0 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier unreviewed OCR candidates credited separately |
+| [p117 C4](nov3_withdrawal_and_night_report.md#p117-c4) | Conditional continuation: army march into Romania | 56/56 fixed raw positions; 0 coordinate substitutions, 0 source-mask fills; conditional five-observed-coordinate exclusion, seven contiguous and fourteen arbitrary minimum layouts | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier unreviewed OCR candidates credited separately |
+| [p117 D](nov3_withdrawal_and_night_report.md#p117-d) | Night report: quiet night, sender unknown | 34/34 fixed raw positions; 1 coordinate substitutions, 0 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier unreviewed OCR candidates credited separately |
 | [p125 A1](armistice_transit_planning.md) | Armistice terms learned from Hungarian newspapers | 122/122 fixed positions in the exact source frame; 0 coordinate substitutions, 0 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier unreviewed OCR candidates credited separately |
 | [p125 A2](armistice_transit_planning.md) | Fifteen-day transit right and intended disposition of the 11th Army | 119/119 fixed positions in the exact source frame; 1 coordinate substitutions, 0 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier unreviewed OCR candidates credited separately |
 | [p125 A3](armistice_transit_planning.md) | Wallachia evacuation and right-flank withdrawal between Theiss and mountains | 100/100 fixed positions in the exact source frame; 1 coordinate substitutions, 0 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier unreviewed OCR candidates credited separately |
@@ -127,6 +132,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p170 B2](nov9_operational_reports.md) | Alpenkorps at Ujverbasz and the 9 November march | 117/119 raw positions; place fill and historical numeral separated | icekylinx and GPT-6 Astra Pro (2026) |
 | [p175 C1](romanian_ultimatum_companions.md#p175-c1) | Romanian-government ultimatum to evacuate territory | Native frame; two coordinate substitutions and three printed-dash fills | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed candidate distinguished; existing p176a Norbert/Max credit retained |
 | [p175 C2](romanian_ultimatum_companions.md#p175-c2) | Lay down arms or evacuate; reported Danube crossing near Rustschuk | One coordinate substitution; repeated unknown time cell retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed candidate distinguished; existing p176a Norbert/Max credit retained |
+| [p175 C3](p175_c3_withdrawal_followup.md) | Conditional withdrawal report via Kronstadt and Hermannstadt | Five-coordinate loss; six tied one-block frames; separate lower-cost distributed-loss family | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; existing p176a prior reading kept separate |
 | [p176 A5](romanian_ultimatum_companions.md#p176-a5) | Messages and material first to Hermannstadt; provisioning fragment | Three coordinate substitutions and four dash fills; final unknown retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed candidate distinguished; existing p176a Norbert/Max credit retained |
 | [p176 B2](nov10_danube_field_report.md#p176-b2) | French forces near the Danube: source-labeled second report part | Native frame; one observed-coordinate repair; odd spellings retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed repository body candidate; existing p176b part1 credit retained |
 | [p176 B3](nov10_danube_field_report.md#p176-b3) | Crossing near RUSTUK and reserves north of SLOBOZIE | Native frame; four observed-coordinate repairs; no source deletion | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed repository body candidate; existing p176b part1 credit retained |

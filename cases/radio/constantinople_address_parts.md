@@ -9,14 +9,14 @@ Source edition and verification: **icekylinx and GPT-6 Astra Pro**. The publishe
 ## What the visible parts say
 
 - **p147 C1:** To the German Embassy at Pera, with signature `STUMM`. The heading gives `YZ v LP`,08.19 a.m. on 7 November, `FUER YZ1450 (6/11) 2 TEILE`, and `1 TL RICHI-96`.
-- **p148 B1:** To the Military Mission at `COSPOLI`, with reference labels, a signature for both parts `I.A. GROENER`, and an instruction for receipt to be acknowledged by an officer. The heading gives08.40 a.m. on 7 November, `FUER YZ1135 (6/11) 3 TEILE`, and `1 TL RICHI-328`.
-- **p156 C1:** German charge d'affaires at Constantinople, with raw signature `BUSSCHS`. The heading gives06.03 a.m. on 8 November, `FUER YZ2030 (7/11) 2 TLE`, and `1 TL RICHI-102`.
+- **p148 B1:** To the Military Mission at `COSPOLI`, with reference labels, a signature for both parts `I.A. GROENER`, and an instruction for receipt to be acknowledged by an officer. The heading gives 08.40 a.m. on 7 November, `FUER YZ1135 (6/11) 3 TEILE`, and `1 TL RICHI-328`.
+- **p156 C1:** German charge d'affaires at Constantinople, with raw signature `BUSSCHS`. The heading gives 06.03 a.m. on 8 November, `FUER YZ2030 (7/11) 2 TLE`, and `1 TL RICHI-102`.
 
 `BUSSCHS` is not silently respelled or expanded to a named historical person. All numerical references remain the published-key labels. The source scan supplies only the first parts represented in this edition.
 
 ## Counts and source readings
 
-| Record | Native coordinates | Raw fixed positions | Edited fixed positions | Observed-coordinate substitutions | Source fills |
+| Record | Source slots | Raw fixed positions | Edited fixed positions | Observed-coordinate substitutions | Source fills |
 |---|---:|---:|---:|---:|---:|
 |p147_C1|96|48/48|48/48|0|0|
 |p148_B1|328|163/164|163/164|2|0|
@@ -26,7 +26,7 @@ The physical-record total is **526 coordinate slots / 263 plaintext positions**.
 
 ## p147 C1 — German Embassy at Pera and Stumm signature
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 ANXDEUTSCHEBOTSCHAFTXPERAXXUNTERSCHRIFTXXSTUMMXX
@@ -34,13 +34,13 @@ ANXDEUTSCHEBOTSCHAFTXPERAXXUNTERSCHRIFTXXSTUMMXX
 
 ## p148 B1 — Military Mission routing, Groener signature and officer receipt acknowledgement
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 ANXMILXMISSIONCOSPOLIXZUXRMX2XDXNRX755XXUNTERSCHRIFTFUERBEIUETLEXXIXAXGROENERXBXRM811193XGEHXPX?ZUSXOPXFUERXKOSPOLIXDOPPELPUNKTXEMPFANGSBESTAETIGUNGDURCHOFFZERBEEEN
 ```
 
-Edited reading:
+**Edited output:**
 
 ```text
 ANXMILXMISSIONCOSPOLIXZUXRMX2XDXNRX755XXUNTERSCHRIFTFUERBEIDETLEXXIXAXGROENERXBXRM811193XGEHXPX?ZUSXOPXFUERXKOSPOLIXDOPPELPUNKTXEMPFANGSBESTAETIGUNGDURCHOFFZERBETEN
@@ -48,7 +48,7 @@ ANXMILXMISSIONCOSPOLIXZUXRMX2XDXNRX755XXUNTERSCHRIFTFUERBEIDETLEXXIXAXGROENERXBX
 
 ## p156 C1 — German charge d’affaires at Constantinople and raw BUSSCHS signature
 
-Literal source decryption:
+**Raw output:**
 
 ```text
 DEUTSCHERGESCHAEFTSTRAEGERKONSTANTINOPELXXBUSSCHSXX
@@ -56,9 +56,9 @@ DEUTSCHERGESCHAEFTSTRAEGERKONSTANTINOPELXXBUSSCHSXX
 
 ## The p148 source annotation and invalid glyph
 
-The source visibly places an X above the F at coordinate37. Applying that annotation produces the T in `ERBETEN`. The edition counts it as **one observed-coordinate substitution**, not zero-cost transcription. A separate ordinary-word repair changes `BEIUETLE` to `BEIDETLE` at coordinate122; that also costs one observed substitution.
+The source visibly places an X above the F at coordinate 37. Applying that annotation produces the T in `ERBETEN`. The edition counts it as **one observed-coordinate substitution**, not zero-cost transcription. A separate ordinary-word repair changes `BEIUETLE` to `BEIDETLE` at coordinate 122; that also costs one observed substitution.
 
-Coordinate49 is printed as an L-shaped glyph outside the ADFGVX alphabet. It remains a source mask. The affected plaintext position95 has exact domain **9EKVXZ**, so the reference is retained as `GEHXPX?ZUSXOP`. The edition does not infer a desired coordinate from that unclear field.
+Coordinate 49 is printed as an L-shaped glyph outside the ADFGVX alphabet. It remains a source mask. The affected plaintext position 95 has exact domain **9EKVXZ**, so the reference is retained as `GEHXPX?ZUSXOP`. The edition does not infer a desired coordinate from that unclear field.
 
 p147 C1 and p156 C1 need no source edits. None of these records has a coordinate insertion, deletion, reordering or key change, and none establishes the substance of its unlinked continuation parts.
 

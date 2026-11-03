@@ -26,12 +26,16 @@ treated as an erasure.
 
 Raw decryption, 171 fixed positions out of 175:
 
+**Raw output:**
+
 ```text
 ANXOBLT0KRETZSCHMARBEIXOKMXWIRTSCHAFTSSTABABTX1XBUKARESTXNRX???XERBITTENNACHRICHTUEBERLAGENUN?AUSSICHTENSOWIEBEZUEGLICHUNSERERINTERESSENGEFASSTEBESCHLUESSEXDEUTKAUF5AUSWAERTIG
 ```
 
 Filling that overstrike as `F` restores `UND`, with no change to an observed
 valid coordinate:
+
+**Edited output:**
 
 ```text
 ANXOBLT0KRETZSCHMARBEIXOKMXWIRTSCHAFTSSTABABTX1XBUKARESTXNRX???XERBITTENNACHRICHTUEBERLAGENUNDAUSSICHTENSOWIEBEZUEGLICHUNSERERINTERESSENGEFASSTEBESCHLUESSEXDEUTKAUF5AUSWAERTIG
@@ -53,11 +57,15 @@ has **267** coordinate letters: the 22nd printed group is only `FVGA`.
 Inserting one unknown coordinate immediately after that group gives this raw
 reading, with 131 fixed positions out of 134:
 
+**Raw output — conditional insertion immediately after the short printed group:**
+
 ```text
 KWHXLPXUEBERMITTELTALLEVORLIEGENDENWICHTIGENNACHRICHTENFUERHEIMATDIENSTSTE?LENSOWIEXOHLXUNDUMGEKEHRTXKMXALLGXKRIEGSDEPXNRX?5?1115XANCH
 ```
 
 The ordinary-word candidate is:
+
+**Edited output — same conditional missing-slot frame, with the stated repairs:**
 
 ```text
 KWHXLPXUEBERMITTELTALLEVORLIEGENDENWICHTIGENNACHRICHTENFUERHEIMATDIENSTSTELLENSOWIEXOHLXUNDUMGEKEHRTXKMXALLGXKRIEGSDEPXNRX?5?1115XANCH
@@ -83,12 +91,16 @@ The header is `IWE v WAU (2.31 a.m., November 16th)`, origin `2300 (15)`,
 
 Raw reading, 111 fixed positions out of 112:
 
+**Raw output:**
+
 ```text
 HEERESGRUPPEXKIEWXXWELCHENC?MARSCNWEGWAEHLTUEERESGRUPPEKIEWXXDRINGENDBALDIGSTBESCHEIDFUNKENXPRESSEXSXRXWARSCHAUX
 ```
 
 Changing source index 5 from `X` to `A`, and source index 60 from `V` to `A`,
 restores the two clear ordinary words:
+
+**Edited output:**
 
 ```text
 HEERESGRUPPEXKIEWXXWELCHENC?MARSCHWEGWAEHLTHEERESGRUPPEKIEWXXDRINGENDBALDIGSTBESCHEIDFUNKENXPRESSEXSXRXWARSCHAUX
@@ -109,12 +121,16 @@ index 2 is treated as an erasure. The other 239 coordinates are valid.
 
 Raw reading, 119 fixed positions out of 120:
 
+**Raw output:**
+
 ```text
 ZUKUENFTIGWERDENUNK?NTOLLIERTETELSDESXSXRXWARSCHAUDURCHXXFRANZXXXKONTROLLIERTEDURCHXXEMILXXGEKENNZEICHNETXXSXRXWARSCHAUX
 ```
 
 Filling the invalid coordinate as `X` yields this complete, exactly
 reencryptable candidate without changing any valid source coordinate:
+
+**Edited output:**
 
 ```text
 ZUKUENFTIGWERDENUNKONTOLLIERTETELSDESXSXRXWARSCHAUDURCHXXFRANZXXXKONTROLLIERTEDURCHXXEMILXXGEKENNZEICHNETXXSXRXWARSCHAUX

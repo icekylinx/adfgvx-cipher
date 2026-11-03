@@ -34,6 +34,8 @@ The table above does not overwrite these source-derived strings.
 
 ### p168 A — 184 coordinates / 92 positions
 
+**Raw output:**
+
 ```text
 STEHEAB2200UNTERAUFSICHTSOLATENRATSXSTATPERSONALFESTINMEINERHANDXBETRIEBUNVERAENDERTXSEIFERT
 ```
@@ -41,6 +43,8 @@ STEHEAB2200UNTERAUFSICHTSOLATENRATSXSTATPERSONALFESTINMEINERHANDXBETRIEBUNVERAEN
 No cipher correction is required. Supplying `D` in `Soldatenrats` and expanding `STAT` are editorial reading choices only. The source is available in the [p168 A/B excerpt](../../sources/excerpts/childs_p168_AB.png).
 
 ### p168 B — 160 coordinates / 80 positions
+
+**Raw output:**
 
 ```text
 SOLDATENRA9XCOELNXWIRDBALDFUNKSTELLEBESETZENXVERSUCHTSCKONFUNKSPRUECHEAUFZUGEBEN
@@ -50,6 +54,8 @@ At zero-based ciphertext positions **89** and **141**, `F → V` and `G → X` g
 
 ### p172 A — 136 slots / 68 positions
 
+**Raw output:**
+
 ```text
 AKTEN?AEMTLICHVERNICHTETXSCHLUESSELINPERSOBHUTNOCHVORHANDENXXSEIFERT
 ```
@@ -57,6 +63,8 @@ AKTEN?AEMTLICHVERNICHTETXSCHLUESSELINPERSOBHUTNOCHVORHANDENXXSEIFERT
 The [source](../../sources/excerpts/childs_p172_AB.png) prints `DAAGC`: its final `C` is outside the ADFGVX alphabet and becomes one erasure at ciphertext position **119**. The plaintext domain at position **5** is exactly `{F,I,K,N,O,S}`. Filling that coordinate with `G` gives `S` and preserves all **135 valid received coordinates**. `PERSOBHUT` is retained; the readable expansion is *pers[önlicher] Obhut*.
 
 ### p174 B — 74 slots / 37 positions
+
+**Raw output:**
 
 ```text
 WENNSEIFERTEINGETROFFE?BITTENACHRXTOF
@@ -66,6 +74,8 @@ The [source excerpt](../../sources/excerpts/childs_p174_BCDE.png) shows a `C`-li
 
 The readable `N` completion uses **D** at the source erasure and preserves all **73 certain coordinates**. Reading the doubtful glyph as **G** instead gives:
 
+**Conditional interpretation — alternate G reading of the doubtful source glyph:**
+
 ```text
 WENNSEIFERTEINGETROFFEXBITTENACHRXTOF
 ```
@@ -73,6 +83,8 @@ WENNSEIFERTEINGETROFFEXBITTENACHRXTOF
 Both alternatives are retained; the complete word `EINGETROFFEN` is an editorial inference.
 
 ### p174 C — 48 coordinates / 24 positions
+
+**Raw output:**
 
 ```text
 WANNRUECKKUNFTSEIFERTXRE
@@ -82,6 +94,8 @@ No glyph change, erasure fill, square completion or length repair is needed.
 
 ### p172 B / p174 D — 40 coordinates / 20 positions each
 
+**Raw output:**
+
 ```text
 SOFORTXUSX?00XHOEREN
 ```
@@ -90,11 +104,15 @@ Both copies have the same ciphertext. All 40 coordinates are legible; the unknow
 
 ### p174 E — 46 coordinates / 23 positions
 
+**Raw output:**
+
 ```text
 SQIFQRTABGEFAHRENXRENTE
 ```
 
 Changing ciphertext positions **2** and **28** from `G` to `X` gives:
+
+**Edited output:**
 
 ```text
 SEIFERTABGEFAHRENXRENTE
@@ -107,6 +125,8 @@ The other **44 coordinates remain unchanged**. The two corrections restore the s
 [p169 A](../../sources/excerpts/childs_p169_A.png) carries the same `SY v GK`, `2000` and `RICHI-184` metadata as p168 A, with a later intercept time. It prints **185 coordinates**, including the six-character group `DGDGGX`.
 
 Deleting either adjacent `G` at zero-based source position **158** or **159** gives the same 184-coordinate conditional layer and this raw decipherment:
+
+**Raw output — conditional deletion of source 158 or 159; equivalent aliases retained:**
 
 ```text
 STEHEAB2200UNTEYAUFSICHTSOLATENRATWXSTATPERSONALFESTINMEIKERHANDXBETRIEBUNVERAENDURTXSEIFERT

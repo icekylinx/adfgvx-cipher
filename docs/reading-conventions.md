@@ -10,7 +10,7 @@ authors' quoted readings.
 | Layer | What it contains | What must accompany it |
 |---|---|---|
 | **Raw output** | The exact decoded stream under the stated key and analysis frame, before the additional word repairs shown in that case. | The key and frame assumptions. A missing-group, truncation, reordered-group or other conditional frame must remain explicitly conditional beside the output. |
-| **Edited output** | An exact proposed stream after the stated coordinate changes and fills. It keeps the stream's position count, separators and unresolved positions. | A repair account that distinguishes observed-coordinate changes, fills of source masks, and changes to the frame. Exact re-encryption establishes compatibility with that proposal; it does not prove unique historical wording. |
+| **Edited output** | An exact proposed stream after the stated coordinate changes and fills. It preserves that candidate's positions, separators and unresolved characters. | A repair account that distinguishes observed-coordinate changes, fills of source masks, and changes to the frame. Exact re-encryption establishes compatibility with that proposal; it does not prove unique historical wording. |
 | **Readable German** | A reading with word spacing, capitalization and punctuation, sometimes with explicitly marked expansions or proposed wording. | Its basis in the raw, edited or conditional layer. Display changes must not silently supply missing words, resolve names or turn square labels into historical numbers. |
 | **Conditional interpretation** | A separately identified key-cell assignment, numeral interpretation, historical identification or common-message assumption. | The precise assumptions, supporting evidence and remaining alternatives. It does not replace the baseline raw or edited stream. |
 
@@ -24,6 +24,15 @@ Earlier authors' readings retain their author, date, original wording and
 status. A quoted earlier raw reading or editorial completion is not renamed
 as this review's Edited output. Later verification and source repair are
 credited separately.
+
+Supporting material keeps its own labels. **Source transcription** identifies
+literal headers, ciphertext and cleartext source annotations; **Re-encryption
+witness** identifies a constructed ciphertext used to check a proposal.
+**Earlier attributed reading** and **Recomputed prior reading** retain the
+earlier author and the recorded reconstruction. **Search diagnostic** marks
+a candidate segment used to evaluate a search, without promoting it to an
+accepted decipherment. These labels are not additional levels of historical
+certainty.
 
 ## Symbols and unresolved positions
 
@@ -110,6 +119,12 @@ presentation-only edit does not rewrite these strings, their certificates,
 or an earlier author's quotation. Captions and local notes clarify the layer
 without changing existing section anchors.
 
+English explanatory prose separates words from quantities: write “all 336
+coordinates,” “source 62” and “November 5.” This rule does not split source
+identifiers such as `p117`, key identifiers such as `Nov1–3`, transmitted
+reference strings, URLs, code, or quoted earlier readings. Numerical values
+remain unchanged by a spacing edit.
+
 ## Applying the conventions
 
 Cases include a brief link to this guide. Their detailed topical structure
@@ -118,6 +133,13 @@ Presentation audits record each touched file and compare the complete
 contents of its fenced blocks before and after the edit. Any change to a
 source or cryptographic claim requires its own review and certificate; it
 is not treated as typography.
+
+The [presentation coverage record](reading-conventions-coverage.md) links
+the reviewed classification of every current substantive case and the
+portable checks. The coverage check scans the current `cases/` tree, so a
+new case or an unclassified display is reported rather than silently left
+outside an old snapshot. Its labels are editorial classifications; source
+and cipher verification remain separate.
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. The convention standardizes the
 present edition's display and preserves the separately credited work of

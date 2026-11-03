@@ -19,6 +19,8 @@ The upper section is headed **INTERCEPTED BY BRITISH STATIONS**, **20 November 1
 
 The literal 88-label reading is:
 
+**Raw output:**
+
 ```text
 ODERBERGKEINESCHWIERIGKEITENINDENWEGLEGENWIRDXXEMPFANGSBESTAETIGUNGXXOHLXRMJAJJ9JJOPXGEH
 ```
@@ -48,11 +50,15 @@ This is the short B immediately below the transport fragment, before the horizon
 
 The unchanged source yields:
 
+**Raw output:**
+
 ```text
 WIELAGEDORTXWIRVERHALTANDERTRUPPAN
 ```
 
 The editorial proposal is:
+
+**Edited output:**
 
 ```text
 WIELAGEDORTXWIEVERHALTENDERTRUPPEN

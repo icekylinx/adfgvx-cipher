@@ -1,0 +1,296 @@
+{
+  "schema": "adfgvx-p64-oil-and-radio-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Oct4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      4,
+      13,
+      3,
+      14,
+      1,
+      16,
+      9,
+      15,
+      5,
+      19,
+      10,
+      18,
+      6,
+      17,
+      7,
+      20,
+      11,
+      21,
+      8,
+      12,
+      22,
+      2
+    ],
+    "column_count": 22,
+    "square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+    "square_rows": [
+      "YN87PJ",
+      "3WRUCI",
+      "EO1SKL",
+      "ZX0DFB",
+      "H6MT9A",
+      "2QV54G"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 237,
+        "pdf_page_1based": 240,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical page prints row labels A,D,G,F,V,X; the canonical square reorders rows to A,D,F,G,V,X. Rank 21 is a handwritten correction in the scan."
+    ],
+    "baseline_square": "YN87PJ3WRUCIEO1SKLZX0DFBH6MT9A2QV54G",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p64_A1.png",
+      "printed_page": 64,
+      "pdf_page_1based": 67,
+      "crop_pdf_points": [
+        88,
+        138,
+        530,
+        370
+      ],
+      "render_scale": 4,
+      "sha256": "9f9d24115c90edcd4d66e7d6a2a1fa101658c6c9eb529a5972467a28b5c91cde"
+    },
+    {
+      "path": "sources/p64_A2.png",
+      "printed_page": 64,
+      "pdf_page_1based": 67,
+      "crop_pdf_points": [
+        100,
+        376,
+        530,
+        574
+      ],
+      "render_scale": 4,
+      "sha256": "83a4eba30f79466caa693e3c1812f580ce03ab057eb8db343bc8d39be537be94"
+    },
+    {
+      "path": "sources/p64_B.png",
+      "printed_page": 64,
+      "pdf_page_1based": 67,
+      "crop_pdf_points": [
+        88,
+        578,
+        529,
+        722
+      ],
+      "render_scale": 4,
+      "sha256": "836d614f5732012239a735f6323e53d880babfb8eaad564ce04f7129f1c6d195"
+    },
+    {
+      "path": "sources/p64_A1_faint_glyphs.png",
+      "printed_page": 64,
+      "pdf_page_1based": 67,
+      "crop_pdf_points": [
+        480,
+        183,
+        529,
+        266
+      ],
+      "render_scale": 10,
+      "sha256": "853401599ba7043a9fe50dd943bbdc20925f57c05a37ef31ebaced95e0318405"
+    }
+  ],
+  "records": [
+    {
+      "id": "p64_A1",
+      "printed_page": 64,
+      "source_section": "A1",
+      "source_rows": [
+        "-GDDD FGFAF DDGDG DXAXA XGDAG XADAG GAVFF FAXFV",
+        "FXADF VFVFD VDFAV DVFGD GFXGF VVVDF XVAVD GFGVF",
+        "VFFGV FGFDV VFFVV ADGVD FADDG FFGFV FGVAG AFFXX",
+        "FDVFV FVXFG DGFFF VGVGA GDGDF VFFXD FVAVX GDFFF",
+        "DGDFG GAVDF DGVGG DDDXA FXAGG GXAAV FGFAD GFXAX",
+        "XGDFV GVDGD XAXGX AFAFD FFVDV ADAXX DFDDD FGDGF",
+        "GAVXD GFFGF DGAGV DGGAD GDAGA AXGXF DGAGX FGGDG",
+        "XXFAD AXXAG XXXDX XDDGX DFDFF ADGGD AAXXA AAAXD",
+        "XXGDD GFXFD GDFVF XDAFG FFDFV V"
+      ],
+      "source_slots": 346,
+      "advertised_length": 346,
+      "expected_raw": "HP?MXBENEDIKTXVERTRETERKUKAOKXINATORXATOMXXERSUCHEDRINGENEZUSTELLUNGFOLGENDENTELEGRXUXVERANLASSUNGDASSANTWXTELEGRXANHERUEBYRMITTELTWIRDXXGEBRSEDERNOBELXATOMXXDRAHTETVOURAETE",
+      "readable_candidate": "HPTMXBENEDIKTXVERTRETERKUKAOKXINATOMXATOMXXERSUCHEDRINGENEZUSTELLUNGFOLGENDENTELEGRXUXVERANLASSUNGDASSANTWXTELEGRXANHERUEBERMITTELTWIRDXXGEBRUEDERNOBELXATOMXXDRAHTETVORRAETE"
+    },
+    {
+      "id": "p64_A2",
+      "printed_page": 64,
+      "source_section": "A2",
+      "source_rows": [
+        "AVDFF VDVVG GDDVA FGGAD AAGVX FDGXA FGVFD GGVDF",
+        "DAGFF FDFAD FAAAD AFFFF FFFVV VFFDF VXVGV AFFAG",
+        "GGFFF GGFFF (X)XVVG FDAVF DDFFF DGXFA VFFFV VGVAD",
+        "FFVDF AXVGV DVDDF FGGVF FVAGF VADAA GDXDF AGDVG",
+        "XDFDA DDGDF FFFFV VXDFG GFDXA XGFGD XXFDG XDDDF",
+        "XAAAG DAXFV XVXXG XDAFD VGXVX AAXAX FDAAD XAGAD",
+        "DDVGV AAGXG GGVXV XDADG GGVVA AADDX ADXGX DFDDD",
+        "XXXAD VXGDD GDAGA FFGGG DVADD DVXDG XAXXG XFXDA",
+        "GFFAF DFFXX AADXA XGAGV FVFFF GGDFF GFD(X)"
+      ],
+      "source_slots": 354,
+      "advertised_length": 354,
+      "expected_raw": "NAPHTAXPRODUKTIONSAEMTLICHERSORTENBEIUNSUND6NDERENFIRMENATOMXFERNERWIEVIELBISJETZTGELIEFERTXDIEUELBENDATEQBETREFFENNQVOROSSISKFALLSSOLCHEIHNENBEKANNTXHAGELINXXXLSTARMEEOXQU12059",
+      "readable_candidate": "NAPHTAXPRODUKTIONSAEMTLICHERSORTENBEIUNSUNDANDERENFIRMENATOMXFERNERWIEVIELBISJETZTGELIEFERTXDIESELBENDATENBETREFFENNOVOROSSISKFALLSSOLCHEIHNENBEKANNTXHAGELINXXXOSTARMEEOXQU12059"
+    },
+    {
+      "id": "p64_B",
+      "printed_page": 64,
+      "source_section": "B",
+      "source_rows": [
+        "DDVVG GGAFG FDGVG DVGVD VAFGA VFGGF AGDGG XFDFG",
+        "VVGFD AAGFV GAAVV GGFVF DFVVV FFDFF VDDVF FFDFD",
+        "GFFDF FDXDV DAFAA DDXGF XAVFX GXGGD DDADF FVAXF",
+        "VXFAD GDDAF FGXDD FVXFA AXDAF GDXXF VDAXD VDXXF",
+        "VG-FA XVGDD GAFAA G"
+      ],
+      "source_slots": 176,
+      "advertised_length": 176,
+      "expected_raw": "NACHRCHEFXRADIODAMASKUSAM1X10X?600UHRGESPRENBTXKLEINERSENDERINALEPPOXAKONACH70XNRX30056X",
+      "readable_candidate": "NACHRCHEFXRADIODAMASKUSAM1X10X?600UHRGESPRENGTXKLEINERSENDERINALEPPOXAKONACH70XNRX30056X"
+    }
+  ],
+  "headers": [
+    {
+      "record_family": "p64_A",
+      "verbatim": [
+        "A) --- v NKJ (3.23 a.m., October 5th)",
+        "(Beginning lost)",
+        "RICHI-346",
+        "2 TL / RICHI-354"
+      ],
+      "interpretation": "A1 is the catalog label for the first surviving ciphertext block; no printed 1 TL appears. The second block is explicitly 2 TL. The beginning-lost note and unknown station are retained, but the 346-slot body already matches its advertised length; no additional lost prefix is modeled."
+    },
+    {
+      "record_family": "p64_B",
+      "verbatim": [
+        "B) LP v OSM (12.49 a.m., October 4th)",
+        "(4) 1130",
+        "RICHI-176"
+      ],
+      "interpretation": "The two header times are retained without an asserted send/receive chronology. This radio report is separate from the oil inquiry."
+    }
+  ],
+  "source_annotations": {
+    "p64_A1": {
+      "faded_visible_primary_glyphs": [
+        {
+          "source_index": 39,
+          "reading": "V"
+        },
+        {
+          "source_index": 119,
+          "reading": "X"
+        },
+        {
+          "source_index": 159,
+          "reading": "F"
+        }
+      ],
+      "sensitivity_rule": "An additional variant masks all three faded primary glyphs without changing their slots or the baseline literal transcription."
+    },
+    "p64_A2": {
+      "parenthesized_coordinate_indices": [
+        90,
+        353
+      ],
+      "literal_printed_forms": [
+        "(X)XVVG",
+        "GFD(X)"
+      ],
+      "parsing_rule": "Each parenthesized X is one printed coordinate slot. The parentheses are retained in source_rows as qualification punctuation, not counted as cipher coordinates. The main stream accepts both printed X labels; all three nonempty mask subsets are retained as sensitivity variants.",
+      "numeric_limit": "Masking source 353 leaves reference position 175 in 57DSTU; a separate decimal-only interpretation reduces this to 5 or 7, rather than selecting the printed 5."
+    }
+  },
+  "prior_attribution_check": {
+    "paper": {
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "section": "6.6",
+      "table": 5,
+      "author_pdf_pages_1based": [
+        25,
+        26
+      ],
+      "explicit_prior_oil_body": "The paper publishes both p64 A parts, the oil-stock/production inquiry and its Hagelin/Nobel interpretation. Full prior body credit is retained.",
+      "identity_limit": "The paper proposes Karl Wilhelm Hagelin, while noting uncertainty about the role of the name in the message. This edition identifies the literal HAGELIN string, not an independently verified individual or sender.",
+      "native_wording_difference": "The paper prints DRINGENDE and BETREFFEND in its spaced reconstruction. The native source edition retains DRINGENE and BETREFFEN; no extra D is supplied."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "section": "6.6.6",
+      "table": "6.5",
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "Repeats the p64 A Hagelin/Nobel body and interpretation."
+    },
+    "radio_body_scope": "A bounded search for Damascus/Damaskus/Aleppo and p64 B located no explicit separate radio-body discussion in the paper, dissertation text or cached 2017 comments. This negative result is not a priority claim.",
+    "earlier_repository_candidates": {
+      "path": "prior_candidates.json",
+      "sha256": "f8c74ee99deb69cf630198620a69e67200679d91a12056e2f706b8e2e9860c78"
+    }
+  },
+  "limits": [
+    "The names BENEDIKT,ATOM,NOBEL and HAGELIN are presented with their source-level qualification; ATOM is not silently expanded to a different place.",
+    "The radio report retains literal 1X10, ?600, 70 and 30056. If the unknown in ?600 is required to be a decimal digit, its domain 1EKLOS leaves only 1; that is an optional field-type interpretation, not a baseline fill.",
+    "No model changes the complete published square or any numeral assignment.",
+    "Parenthesis and faded-glyph sensitivity variants are alternatives for the same physical records, not extra catalog entries."
+  ]
+}

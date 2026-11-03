@@ -21,11 +21,15 @@ The [158-coordinate telegram](../../experiments/november_armistice_orders/source
 has `WAU v LP (15.50, November 11th); KR (15.53)` and a separate `NF NF NF`
 postamble outside the ciphertext. Its direct reading is:
 
+**Raw output:**
+
 ```text
 ZITADELLEXWIDERSTANDAUFGEBENUEBERGABEBEDINGUNGENGORTFESTSETZENXKMX2??3X1?GXANCH
 ```
 
 One observed-coordinate substitution proposes `DORT` for `GORT`:
+
+**Edited output:**
 
 ```text
 ZITADELLEXWIDERSTANDAUFGEBENUEBERGABEBEDINGUNGENDORTFESTSETZENXKMX2??3X1?GXANCH
@@ -45,12 +49,16 @@ interstitial `WP WP WP FF NKJ v ZO'N` are preserved in the input record.
 
 The raw output is:
 
+**Raw output:**
+
 ```text
 ANOHLXOBERKOMMANDOMACKE1SENUND11XARMEEERBITTENMITTEILUNGDERBESONDERENWAFFENSTILLSTANDSBESINGXFUERHIESIGEFRONTXAOK11X
 ```
 
 Three observed-coordinate substitutions repair the two word fragments
 `MACKE1SEN→MACKENSEN` and `BESING→BEDING`:
+
+**Edited output:**
 
 ```text
 ANOHLXOBERKOMMANDOMACKENSENUND11XARMEEERBITTENMITTEILUNGDERBESONDERENWAFFENSTILLSTANDSBEDINGXFUERHIESIGEFRONTXAOK11X
@@ -65,6 +73,8 @@ B and C use the unchanged published Nov10–12 key.
 
 The [two-part source](../../experiments/november_armistice_orders/sources/p179_D.png)
 is separately headed:
+
+**Source transcription — clear header and/or literal source record:**
 
 ```text
 12th NOVEMBER, 1918.
@@ -83,6 +93,8 @@ chronology is unresolved.
 
 D1's direct output, with **zero source repairs**, is:
 
+**Raw output:**
+
 ```text
 INFLGTRANSPTSCHWIERIGKINHEIMATISTDURCHKMDX????AMANGEORDNENTLASSGLDSTURMJAHRGX1560U61VERSCHOBENX
 ```
@@ -94,6 +106,8 @@ literally. The edition does not normalize it to a historically plausible
 year or assign a new digit value.
 
 D2's direct output, also with **zero source repairs**, is:
+
+**Raw output:**
 
 ```text
 DRINGENDEHEIMATSURLAUBEHABENBISAUFWEITERESGAENZLICHZUUNTERBLEIBENXCHEFDESGENSTABESNRXRM1A11???GEHOPEZ??0?X

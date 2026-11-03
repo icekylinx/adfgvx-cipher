@@ -10,6 +10,8 @@
 
 **Most likely reading:**
 
+**Readable German:**
+
 > Nachrichtenchef drahtet mit 4 B 49338: Funkerabtlg. Osmanie. Zu dort 2032: [Funkerabtlg.] Konia erhaelt Rufnamen Nathan Otto Karl. Wellen von dort festlegen. Admiralstab 17830 D 2.
 
 **Meaning:** The signals chief reports that the radio detachment at Konia receives the call sign spelled Nathan–Otto–Karl. The recipient is to determine the wavelengths. Administrative references and the Admiralty Staff signature are retained.
@@ -22,11 +24,15 @@ Source: [Childs p77 B](../../sources/excerpts/childs_p77_B.png), PDF page 80; he
 
 **Most likely reading:**
 
+**Readable German:**
+
 > [Eilvese]. [Telegr.] [der] 4. [Periode] in 5. wiederholen. OSM.
 
 **Meaning:** A message apparently directed to Eilvese asks for a fourth-period telegram to be repeated in the fifth period.
 
 The **102 source slots** yield **50 of 51 fixed characters** under `Nov4-6`:
+
+**Raw output:**
 
 ```text
 EGLV2SSEXT?LEGRXDE8X4XPORIODEINX5XWIEDERHOLENXOSMXX

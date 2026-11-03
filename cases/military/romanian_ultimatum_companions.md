@@ -1,5 +1,7 @@
 # Romanian ultimatum and the crossing near Rustschuk
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition: icekylinx and GPT-6 Astra Pro.**
 
 Three newly source-edited parts belong to Childs's six-part message
@@ -22,11 +24,15 @@ independent confirmation of the events or their timing.
 The [first-part source](../../experiments/romanian_ultimatum_companions/sources/p175_C1.png)
 has 212 printed slots, including three dashes. Its direct reading is:
 
+**Raw output:**
+
 ```text
 ANXOHLXOPXJUDORTX1XAX11212OMXXRUM4ENISCHE?EGI2RUN?STELLTS?EBENULTIMATUMXGEBIETBINNEN24X24XSTUNDENZURAEUMEN
 ```
 
 Two observed-coordinate substitutions and three printed-dash fills give:
+
+**Edited output:**
 
 ```text
 ANXOHLXOPXJUDORTX1XAX11212OMXXRUMAENISCHEREGIERUNGSTELLTSOEBENULTIMATUMXGEBIETBINNEN24X24XSTUNDENZURAEUMEN
@@ -42,11 +48,15 @@ two copies of `24` are not summed or replaced by another duration.
 The [208-coordinate continuation](../../experiments/romanian_ultimatum_companions/sources/p175_C2.png)
 directly reads:
 
+**Raw output:**
+
 ```text
 ODERWAFFENNIEDE0ZULEGENXFRANZOSENHABENHEUTE?X?XVORMXMITDONAUUEBERGANGBEIXRUSTSCHUKBEGONNENXKAMPFIMGANGEX
 ```
 
 One observed-coordinate replacement gives this candidate:
+
+**Edited output:**
 
 ```text
 ODERWAFFENNIEDERZULEGENXFRANZOSENHABENHEUTE?X?XVORMXMITDONAUUEBERGANGBEIXRUSTSCHUKBEGONNENXKAMPFIMGANGEX
@@ -65,11 +75,15 @@ possibilities, each in 24 completions. No historical hour is chosen.
 The [fifth-part source](../../experiments/romanian_ultimatum_companions/sources/p176_A5.png)
 contains 168 printed slots, including a full five-dash group. It reads:
 
+**Raw output:**
+
 ```text
 NAC?RICHTEN?NDMATER?ALZUN1E?HSTN4CHXHERMANNSTADTXXKANNMITZUSUEHRUNGVONVERPFLEG?ZXUND
 ```
 
 Three observed-coordinate substitutions and four dash fills give:
+
+**Edited output:**
 
 ```text
 NACHRICHTENUNDMATERIALZUNAECHSTNACHXHERMANNSTADTXXKANNMITZUFUEHRUNGVONVERPFLEG?ZXUND
@@ -87,8 +101,10 @@ The source sequence is C1, C2, C3 on p175, followed by A4, A5, A6 on
 p176. C3 has **217** printed slots against a stated length of **222**;
 the missing five coordinates have no selected location. A6 has **160**
 printed slots, of which **86** are dashes. Both are retained as source
-context, with no claimed readable body and no contribution to the new
-record totals.
+context within this frozen companion edition, with no contribution to its
+three-record totals. The later [conditional C3 withdrawal edition](p175_c3_withdrawal_followup.md)
+now supplies a readable candidate while preserving all tied loss layouts.
+A6 remains unread.
 
 A4 is already cataloged as p176a. Its earlier reconstructed text and
 missing-block assumptions remain separate from these native-frame

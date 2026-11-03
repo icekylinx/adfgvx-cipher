@@ -1,0 +1,773 @@
+{
+  "schema": "adfgvx-p117-independent-audit-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "inputs_sha256": "f3a98d7b8bcd0c3931901b4c3d624c67c273750481b4e219f2c4dedfccce5b00",
+  "certificates_sha256": "c3ed7778f13a260e1f288beea8aa6bd3d873c69482a534d51434547c79f37336",
+  "source_images_reviewed": [
+    {
+      "path": "experiments/nov3_medical_radio_withdrawal/sources/p117_C_detail.png",
+      "sha256": "a29e0fdb0e703d7642802b27119b853f37c151841bcb4d5578ecf52913e61e43"
+    },
+    {
+      "path": "experiments/nov3_medical_radio_withdrawal/sources/p117_full.png",
+      "sha256": "54a26976687d6a26c0f5847cee0b04f5c75ef3b60f521d94f163821cef6e3584"
+    }
+  ],
+  "visual_findings": [
+    "All C3 rows contain eight full five-symbol groups: 4 x 40 = 160.",
+    "C4 has 40 + 40 + 37 = 117 symbols, while the clear printed heading says RICHI-112.",
+    "C4 first-row fifth group VDGDX is legible as five observed coordinates, not a printed mask or an overwritten annotation.",
+    "Both source transcriptions agree with the independently inspected crop and full page.",
+    "The C header gives source parts 3 and 4; no source evidence here supplies parts 1 and 2."
+  ],
+  "records": [
+    {
+      "id": "p117_C3",
+      "independently_read_rows": [
+        "DGGAD ADVVG GDDGV AGAVF AGAVD VAGVG GXGDD AAFVV",
+        "GGXVG VGGDG GAXDD FADAV VGVFA DVDXG GVFDG XFVFA",
+        "VVFDF AXDVA GFAVV AFGGV GVFAF DAVGG DADDG GAGVG",
+        "VGAGG VAAGD AGFAV DGGGD ADGFX AGXGA GGDGX FAVDG"
+      ],
+      "row_coordinate_counts": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "source_slots": 160,
+      "advertised_length": 160,
+      "selected_frame_slots": 160,
+      "plaintext": "DEUTSCHETRUPPENWERDENSOBALDALSMOEGLICHUNGARISCHENUNDSUEDSLAVISCHENBODENVERLASSEN",
+      "coordinate_substitutions": 0,
+      "source_masks": 0
+    },
+    {
+      "id": "p117_C4",
+      "independently_read_rows": [
+        "XFDVV FAGDG XDXXX ADGDX VDGDX VDXDF FAGVG VAGGX",
+        "VGXGD GGDVA XFXXA GXAVF GFFFG DGDXD AGVXD DXVGX",
+        "ADGXX FAADD XGGGD FVXAV GDGDG VDDGA VFADD VG"
+      ],
+      "row_coordinate_counts": [
+        40,
+        40,
+        37
+      ],
+      "source_slots": 117,
+      "advertised_length": 112,
+      "selected_frame_slots": 112,
+      "plaintext": "ARMEETRITTXVIERTEN11MARSCHXRUMAENIENANXAXOXK11XEINSA7029",
+      "coordinate_substitutions": 0,
+      "source_masks": 0
+    }
+  ],
+  "prior_C3_OCR_difference": {
+    "old_group": "AAF?",
+    "new_source_group": "AAFVV",
+    "source_indices_zero_based": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "note": "This is a short OCR group plus one OCR mask, not a historical one-coordinate loss."
+  },
+  "fixed_candidate_contiguous_exclusions": {
+    "actual_evaluations": 113,
+    "zero_mismatch_starts": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "all_candidates": [
+      {
+        "start": 0,
+        "omitted": "XFDVV",
+        "mismatch_count": 14
+      },
+      {
+        "start": 1,
+        "omitted": "FDVVF",
+        "mismatch_count": 13
+      },
+      {
+        "start": 2,
+        "omitted": "DVVFA",
+        "mismatch_count": 12
+      },
+      {
+        "start": 3,
+        "omitted": "VVFAG",
+        "mismatch_count": 11
+      },
+      {
+        "start": 4,
+        "omitted": "VFAGD",
+        "mismatch_count": 10
+      },
+      {
+        "start": 5,
+        "omitted": "FAGDG",
+        "mismatch_count": 9
+      },
+      {
+        "start": 6,
+        "omitted": "AGDGX",
+        "mismatch_count": 8
+      },
+      {
+        "start": 7,
+        "omitted": "GDGXD",
+        "mismatch_count": 7
+      },
+      {
+        "start": 8,
+        "omitted": "DGXDX",
+        "mismatch_count": 6
+      },
+      {
+        "start": 9,
+        "omitted": "GXDXX",
+        "mismatch_count": 5
+      },
+      {
+        "start": 10,
+        "omitted": "XDXXX",
+        "mismatch_count": 4
+      },
+      {
+        "start": 11,
+        "omitted": "DXXXA",
+        "mismatch_count": 3
+      },
+      {
+        "start": 12,
+        "omitted": "XXXAD",
+        "mismatch_count": 3
+      },
+      {
+        "start": 13,
+        "omitted": "XXADG",
+        "mismatch_count": 2
+      },
+      {
+        "start": 14,
+        "omitted": "XADGD",
+        "mismatch_count": 1
+      },
+      {
+        "start": 15,
+        "omitted": "ADGDX",
+        "mismatch_count": 1
+      },
+      {
+        "start": 16,
+        "omitted": "DGDXV",
+        "mismatch_count": 0
+      },
+      {
+        "start": 17,
+        "omitted": "GDXVD",
+        "mismatch_count": 0
+      },
+      {
+        "start": 18,
+        "omitted": "DXVDG",
+        "mismatch_count": 0
+      },
+      {
+        "start": 19,
+        "omitted": "XVDGD",
+        "mismatch_count": 0
+      },
+      {
+        "start": 20,
+        "omitted": "VDGDX",
+        "mismatch_count": 0
+      },
+      {
+        "start": 21,
+        "omitted": "DGDXV",
+        "mismatch_count": 0
+      },
+      {
+        "start": 22,
+        "omitted": "GDXVD",
+        "mismatch_count": 0
+      },
+      {
+        "start": 23,
+        "omitted": "DXVDX",
+        "mismatch_count": 1
+      },
+      {
+        "start": 24,
+        "omitted": "XVDXD",
+        "mismatch_count": 1
+      },
+      {
+        "start": 25,
+        "omitted": "VDXDF",
+        "mismatch_count": 2
+      },
+      {
+        "start": 26,
+        "omitted": "DXDFF",
+        "mismatch_count": 3
+      },
+      {
+        "start": 27,
+        "omitted": "XDFFA",
+        "mismatch_count": 4
+      },
+      {
+        "start": 28,
+        "omitted": "DFFAG",
+        "mismatch_count": 5
+      },
+      {
+        "start": 29,
+        "omitted": "FFAGV",
+        "mismatch_count": 6
+      },
+      {
+        "start": 30,
+        "omitted": "FAGVG",
+        "mismatch_count": 7
+      },
+      {
+        "start": 31,
+        "omitted": "AGVGV",
+        "mismatch_count": 8
+      },
+      {
+        "start": 32,
+        "omitted": "GVGVA",
+        "mismatch_count": 8
+      },
+      {
+        "start": 33,
+        "omitted": "VGVAG",
+        "mismatch_count": 8
+      },
+      {
+        "start": 34,
+        "omitted": "GVAGG",
+        "mismatch_count": 9
+      },
+      {
+        "start": 35,
+        "omitted": "VAGGX",
+        "mismatch_count": 10
+      },
+      {
+        "start": 36,
+        "omitted": "AGGXV",
+        "mismatch_count": 10
+      },
+      {
+        "start": 37,
+        "omitted": "GGXVG",
+        "mismatch_count": 11
+      },
+      {
+        "start": 38,
+        "omitted": "GXVGX",
+        "mismatch_count": 12
+      },
+      {
+        "start": 39,
+        "omitted": "XVGXG",
+        "mismatch_count": 12
+      },
+      {
+        "start": 40,
+        "omitted": "VGXGD",
+        "mismatch_count": 13
+      },
+      {
+        "start": 41,
+        "omitted": "GXGDG",
+        "mismatch_count": 14
+      },
+      {
+        "start": 42,
+        "omitted": "XGDGG",
+        "mismatch_count": 14
+      },
+      {
+        "start": 43,
+        "omitted": "GDGGD",
+        "mismatch_count": 15
+      },
+      {
+        "start": 44,
+        "omitted": "DGGDV",
+        "mismatch_count": 16
+      },
+      {
+        "start": 45,
+        "omitted": "GGDVA",
+        "mismatch_count": 17
+      },
+      {
+        "start": 46,
+        "omitted": "GDVAX",
+        "mismatch_count": 18
+      },
+      {
+        "start": 47,
+        "omitted": "DVAXF",
+        "mismatch_count": 19
+      },
+      {
+        "start": 48,
+        "omitted": "VAXFX",
+        "mismatch_count": 20
+      },
+      {
+        "start": 49,
+        "omitted": "AXFXX",
+        "mismatch_count": 21
+      },
+      {
+        "start": 50,
+        "omitted": "XFXXA",
+        "mismatch_count": 21
+      },
+      {
+        "start": 51,
+        "omitted": "FXXAG",
+        "mismatch_count": 22
+      },
+      {
+        "start": 52,
+        "omitted": "XXAGX",
+        "mismatch_count": 23
+      },
+      {
+        "start": 53,
+        "omitted": "XAGXA",
+        "mismatch_count": 24
+      },
+      {
+        "start": 54,
+        "omitted": "AGXAV",
+        "mismatch_count": 25
+      },
+      {
+        "start": 55,
+        "omitted": "GXAVF",
+        "mismatch_count": 26
+      },
+      {
+        "start": 56,
+        "omitted": "XAVFG",
+        "mismatch_count": 26
+      },
+      {
+        "start": 57,
+        "omitted": "AVFGF",
+        "mismatch_count": 27
+      },
+      {
+        "start": 58,
+        "omitted": "VFGFF",
+        "mismatch_count": 28
+      },
+      {
+        "start": 59,
+        "omitted": "FGFFF",
+        "mismatch_count": 29
+      },
+      {
+        "start": 60,
+        "omitted": "GFFFG",
+        "mismatch_count": 30
+      },
+      {
+        "start": 61,
+        "omitted": "FFFGD",
+        "mismatch_count": 31
+      },
+      {
+        "start": 62,
+        "omitted": "FFGDG",
+        "mismatch_count": 32
+      },
+      {
+        "start": 63,
+        "omitted": "FGDGD",
+        "mismatch_count": 33
+      },
+      {
+        "start": 64,
+        "omitted": "GDGDX",
+        "mismatch_count": 34
+      },
+      {
+        "start": 65,
+        "omitted": "DGDXD",
+        "mismatch_count": 35
+      },
+      {
+        "start": 66,
+        "omitted": "GDXDA",
+        "mismatch_count": 36
+      },
+      {
+        "start": 67,
+        "omitted": "DXDAG",
+        "mismatch_count": 36
+      },
+      {
+        "start": 68,
+        "omitted": "XDAGV",
+        "mismatch_count": 37
+      },
+      {
+        "start": 69,
+        "omitted": "DAGVX",
+        "mismatch_count": 37
+      },
+      {
+        "start": 70,
+        "omitted": "AGVXD",
+        "mismatch_count": 37
+      },
+      {
+        "start": 71,
+        "omitted": "GVXDD",
+        "mismatch_count": 38
+      },
+      {
+        "start": 72,
+        "omitted": "VXDDX",
+        "mismatch_count": 39
+      },
+      {
+        "start": 73,
+        "omitted": "XDDXV",
+        "mismatch_count": 39
+      },
+      {
+        "start": 74,
+        "omitted": "DDXVG",
+        "mismatch_count": 40
+      },
+      {
+        "start": 75,
+        "omitted": "DXVGX",
+        "mismatch_count": 41
+      },
+      {
+        "start": 76,
+        "omitted": "XVGXA",
+        "mismatch_count": 42
+      },
+      {
+        "start": 77,
+        "omitted": "VGXAD",
+        "mismatch_count": 43
+      },
+      {
+        "start": 78,
+        "omitted": "GXADG",
+        "mismatch_count": 44
+      },
+      {
+        "start": 79,
+        "omitted": "XADGX",
+        "mismatch_count": 45
+      },
+      {
+        "start": 80,
+        "omitted": "ADGXX",
+        "mismatch_count": 45
+      },
+      {
+        "start": 81,
+        "omitted": "DGXXF",
+        "mismatch_count": 46
+      },
+      {
+        "start": 82,
+        "omitted": "GXXFA",
+        "mismatch_count": 47
+      },
+      {
+        "start": 83,
+        "omitted": "XXFAA",
+        "mismatch_count": 48
+      },
+      {
+        "start": 84,
+        "omitted": "XFAAD",
+        "mismatch_count": 49
+      },
+      {
+        "start": 85,
+        "omitted": "FAADD",
+        "mismatch_count": 50
+      },
+      {
+        "start": 86,
+        "omitted": "AADDX",
+        "mismatch_count": 51
+      },
+      {
+        "start": 87,
+        "omitted": "ADDXG",
+        "mismatch_count": 52
+      },
+      {
+        "start": 88,
+        "omitted": "DDXGG",
+        "mismatch_count": 53
+      },
+      {
+        "start": 89,
+        "omitted": "DXGGG",
+        "mismatch_count": 54
+      },
+      {
+        "start": 90,
+        "omitted": "XGGGD",
+        "mismatch_count": 54
+      },
+      {
+        "start": 91,
+        "omitted": "GGGDF",
+        "mismatch_count": 55
+      },
+      {
+        "start": 92,
+        "omitted": "GGDFV",
+        "mismatch_count": 56
+      },
+      {
+        "start": 93,
+        "omitted": "GDFVX",
+        "mismatch_count": 57
+      },
+      {
+        "start": 94,
+        "omitted": "DFVXA",
+        "mismatch_count": 58
+      },
+      {
+        "start": 95,
+        "omitted": "FVXAV",
+        "mismatch_count": 59
+      },
+      {
+        "start": 96,
+        "omitted": "VXAVG",
+        "mismatch_count": 60
+      },
+      {
+        "start": 97,
+        "omitted": "XAVGD",
+        "mismatch_count": 61
+      },
+      {
+        "start": 98,
+        "omitted": "AVGDG",
+        "mismatch_count": 62
+      },
+      {
+        "start": 99,
+        "omitted": "VGDGD",
+        "mismatch_count": 63
+      },
+      {
+        "start": 100,
+        "omitted": "GDGDG",
+        "mismatch_count": 64
+      },
+      {
+        "start": 101,
+        "omitted": "DGDGV",
+        "mismatch_count": 65
+      },
+      {
+        "start": 102,
+        "omitted": "GDGVD",
+        "mismatch_count": 65
+      },
+      {
+        "start": 103,
+        "omitted": "DGVDD",
+        "mismatch_count": 66
+      },
+      {
+        "start": 104,
+        "omitted": "GVDDG",
+        "mismatch_count": 67
+      },
+      {
+        "start": 105,
+        "omitted": "VDDGA",
+        "mismatch_count": 68
+      },
+      {
+        "start": 106,
+        "omitted": "DDGAV",
+        "mismatch_count": 68
+      },
+      {
+        "start": 107,
+        "omitted": "DGAVF",
+        "mismatch_count": 69
+      },
+      {
+        "start": 108,
+        "omitted": "GAVFA",
+        "mismatch_count": 70
+      },
+      {
+        "start": 109,
+        "omitted": "AVFAD",
+        "mismatch_count": 71
+      },
+      {
+        "start": 110,
+        "omitted": "VFADD",
+        "mismatch_count": 72
+      },
+      {
+        "start": 111,
+        "omitted": "FADDV",
+        "mismatch_count": 72
+      },
+      {
+        "start": 112,
+        "omitted": "ADDVG",
+        "mismatch_count": 73
+      }
+    ]
+  },
+  "fixed_candidate_arbitrary_five_deletions": {
+    "zero_substitution_layout_count": 14,
+    "layouts": [
+      [
+        22,
+        23,
+        25,
+        27,
+        28
+      ],
+      [
+        22,
+        23,
+        25,
+        26,
+        27
+      ],
+      [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      [
+        21,
+        22,
+        25,
+        27,
+        28
+      ],
+      [
+        21,
+        22,
+        25,
+        26,
+        27
+      ],
+      [
+        21,
+        22,
+        24,
+        25,
+        26
+      ],
+      [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      [
+        18,
+        19,
+        20,
+        22,
+        23
+      ],
+      [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      [
+        16,
+        17,
+        19,
+        20,
+        21
+      ],
+      [
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    ],
+    "measured_dynamic_program": {
+      "states": 233,
+      "keep_transitions": 135,
+      "delete_transitions": 120
+    }
+  },
+  "limits": [
+    "All deletion comparisons are retrospective consistency checks against the supplied fixed reading and known key; they are not blind recovery or historical uniqueness.",
+    "Selecting the complete group at start20 is a display convention among equivalent streams.",
+    "Deleting any five observed coordinates costs five observed-symbol exclusions even when the retained stream needs no substitutions."
+  ],
+  "verified": true
+}

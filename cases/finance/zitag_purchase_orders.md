@@ -23,6 +23,8 @@ The source heading is 1 November 1918; the receipt header says November 2
 without a time. It addresses the Prussian War Ministry representative
 at Constantinople. All **180 coordinates** are observed. The raw reading is:
 
+**Raw output:**
+
 ```text
 FUERXZITAGVOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSIVHERNXZITAG
 ```
@@ -37,6 +39,8 @@ War Ministry representative addressee. The source prints the different
 forms `VFFAX` and `FDGAG`; neither is silently changed in the transcript.
 Its raw **90-character** reading is:
 
+**Raw output:**
+
 ```text
 FUERXZITAGXOENENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG
 ```
@@ -49,6 +53,8 @@ repairing `OENE` to `OHNE`. Both other copies witness that coordinate.
 Header: `NKJ v LP (8.11 p.m., November 2nd); 1/11 2210`, again with the
 same addressee. The printed group `XGGGG` has five characters; the earlier
 OCR form `XXGGGG` was not an actual extra source coordinate. The raw body is:
+
+**Raw output:**
 
 ```text
 FUERXZITAGVOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG
@@ -65,11 +71,15 @@ p103 D. The three literal copies differ at exactly three source positions:
 
 The candidate is:
 
+**Edited output:**
+
 ```text
 FUERXZITAGXOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG
 ```
 
 With editorial spacing:
+
+**Readable German:**
 
 > Für Zitag. Ohne Nummer. Nichts weiter kaufen und nichts weiter verladen. Alles möglichst sichern. Zitag.
 
@@ -88,11 +98,15 @@ previously spoiled its frame.
 
 The source-aligned raw reading is:
 
+**Raw output:**
+
 ```text
 DEUTSCHKAUFDRAHTETNRX5XXBEXTAETIQEN4TEWEGRXINDEDENBESCHAFBUNG6MILLIONENRUBE1ERSUCHGXXERLEDIGTDURCHUNSERTELEGRXNRX3XDASSNUR5EREITSBEZAHLTE
 ```
 
 The explicit ordinary-word candidate is:
+
+**Edited output:**
 
 ```text
 DEUTSCHKAUFDRAHTETNRX5XXBESTAETIGENXTELEGRXINDENENBESCHAFFUNG6MILLIONENRUBELERSUCHTXXERLEDIGTDURCHUNSERTELEGRXNRX3XDASSNURBEREITSBEZAHLTE
@@ -114,6 +128,8 @@ The second part advertises and prints **254 slots**. The first group is
 `GG-VF`, source group `FCXGD` contains an invalid `C`, and a later group is
 `AVG-G`. The raw text is:
 
+**Raw output:**
+
 ```text
 PARTIENVERLADENWERDENSOL?ENXSTORNIERETSAEMTLXA?DEREKONTRAKTE?EGENALLGEMEINERLAGEXERSUCHENWESTERNHAGENNOCHMALSSOFORTIGERUECKKEHR
 ```
@@ -121,11 +137,15 @@ PARTIENVERLADENWERDENSOL?ENXSTORNIERETSAEMTLXA?DEREKONTRAKTE?EGENALLGEMEINERLAGE
 The candidate fills those three printed erasures and changes no observed
 coordinate:
 
+**Edited output:**
+
 ```text
 PARTIENVERLADENWERDENSOLLENXSTORNIERETSAEMTLXANDEREKONTRAKTEWEGENALLGEMEINERLAGEXERSUCHENWESTERNHAGENNOCHMALSSOFORTIGERUECKKEHR
 ```
 
 Continuing B1 with editorial spacing:
+
+**Readable German — continuation excerpt; the preceding words are outside this display:**
 
 > … dass nur bereits bezahlte Partien verladen werden sollen. Stornieret sämtl. andere Kontrakte wegen allgemeiner Lage. Ersuchen Westernhagen nochmals sofortiger Rückkehr.
 

@@ -17,6 +17,8 @@ System*, [printed p177, PDF p180](https://drive.google.com/file/d/1_JiNMck7eUvdr
 The [source crop](../../experiments/november_radio_service/sources/childs_p177_A.png)
 retains both the page heading and reception line:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 11th NOVEMBER, 1918.
 A) MSX v MUA (11.50 a.m., November 10th)
@@ -30,6 +32,8 @@ MSX or MUA from the document-destruction wording alone.
 
 All 186 source coordinates are valid. The conservative published square fixes
 92 of 93 raw positions:
+
+**Raw output:**
 
 ```text
 ALLESCHRIFTSTUECKEBISAUFNOTWENDIGESSCHLUESSELMATERIALVERNICHTENXME?DUNGGESLHEHENENTELEFONISCH
@@ -45,11 +49,15 @@ anchors; this edition does not do so.
 Two received-coordinate substitutions instead move the affected pairs to
 already known letter cells:
 
+**Edited output:**
+
 ```text
 ALLESCHRIFTSTUECKEBISAUFNOTWENDIGESSCHLUESSELMATERIALVERNICHTENXMELDUNGGESCHEHENENTELEFONISCH
 ```
 
 Readable German, with an unencoded grammatical word explicitly bracketed:
+
+**Readable German:**
 
 > Alle Schriftstücke bis auf notwendiges Schlüsselmaterial vernichten.
 > Meldung [des] Geschehenen telefonisch.

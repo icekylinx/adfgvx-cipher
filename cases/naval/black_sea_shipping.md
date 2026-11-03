@@ -44,6 +44,8 @@ The source advertises `RICHI-292`, but prints **293 valid coordinates**.
 Its tenth group is the six-letter `XAXADV`. Removing its final `V`, source
 index 50, gives this 146-position raw decryption:
 
+**Raw output — conditional removal of the final V in six-coordinate group XAXADV:**
+
 ```text
 ANFEIGENHAUSSECHSHUNDERTACHTZEHNXHERKULESMELDETZWOEZFTENNOVEMBERDASSNIKOLAJEWMEHREREDAMPFERLEBERKAKAUPULSERAUSXOPERETTEXZIRKA1?0TONNENEINGELAUFENX
 ```
@@ -52,6 +54,8 @@ It addresses Feigenhaus and reports Herkules's news of November 12 about
 several steamers entering Nikolaev. The cargo wording is damaged. Three
 observed-coordinate substitutions support the same-length ordinary-word
 repairs `ZWOELFTEN` and `KAKAOPULVER`:
+
+**Edited output — same conditional single-coordinate deletion, followed by word repairs:**
 
 ```text
 ANFEIGENHAUSSECHSHUNDERTACHTZEHNXHERKULESMELDETZWOELFTENNOVEMBERDASSNIKOLAJEWMEHREREDAMPFERLEBERKAKAOPULVERAUSXOPERETTEXZIRKA1?0TONNENEINGELAUFENX
@@ -72,12 +76,16 @@ broader models, including the alternatives' changed code-name/quantity text.
 
 All 344 source coordinates are valid. The raw 172-position reading is:
 
+**Raw output:**
+
 ```text
 DASCHWALBENSCHWANZUNDABTRANVPORTABNIKO?AJEWELSEVORLAEUFIGUNMOEGLICHXWAREBLEIBTDAHERUNTERMILITAERISCHERBEWACHUNGANBORDXVERSUCHETDURCHVORZUGSKARTENDARUEBERNAEHERESZUERFAHRENX
 ```
 
 Two observed-coordinate changes restore `ABTRANSPORT` and `NIKOLAJEW`,
 giving a complete, exactly reencryptable candidate:
+
+**Edited output:**
 
 ```text
 DASCHWALBENSCHWANZUNDABTRANSPORTABNIKOLAJEWELSEVORLAEUFIGUNMOEGLICHXWAREBLEIBTDAHERUNTERMILITAERISCHERBEWACHUNGANBORDXVERSUCHETDURCHVORZUGSKARTENDARUEBERNAEHERESZUERFAHRENX
@@ -101,11 +109,15 @@ Five positions, **164–168**, tie at **zero changes to observed coordinates**
 for the ordinary-word body. Gap 165 is a representative, not an established
 unique location. Its raw reading is:
 
+**Raw output — conditional missing-slot placement at gap 165; equivalent alternatives retained:**
+
 ```text
 SINDBEUNR?HIGTDANICHTWISS?NWASIHRINANBETRACHTLAGEBEGINNENWERDETXREICHSVERSORGUNGXADMIRALSTAB15?16DZWCIX
 ```
 
 Filling two source erasures gives:
+
+**Edited output — same conditional gap model, with the two stated fills:**
 
 ```text
 SINDBEUNRUHIGTDANICHTWISSENWASIHRINANBETRACHTLAGEBEGINNENWERDETXREICHSVERSORGUNGXADMIRALSTAB15?16DZWCIX
@@ -133,12 +145,16 @@ The association with Corcovado is kept separate from that literal spelling.
 The first part has 394 source slots. The last glyph in group 7, `AAXFY`,
 is an invalid coordinate `Y` and remains an erasure in the raw reading:
 
+**Raw output:**
+
 ```text
 MXMXDXNICOLAJEFFXWENNVERKAUFXCORCOWADOXANTUERKEINOCINICHTINORDNUNGSOLLVERKAUFNI?HTSTA?TFINDENXFALLSAUFGRUNDBEREITSGETAETIGTENVERKAUFSEIGENTUMSUEBERTRAGUNGNOCHWICHTERFOLGTISTHATSOLCHEZUUNTERBLEIBENX
 ```
 
 Three observed-coordinate substitutions and one invalid-glyph fill give
 this complete 197-position candidate:
+
+**Edited output:**
 
 ```text
 MXMXDXNICOLAJEFFXWENNVERKAUFXCORCOWADOXANTUERKEINOCHNICHTINORDNUNGSOLLVERKAUFNICHTSTATTFINDENXFALLSAUFGRUNDBEREITSGETAETIGTENVERKAUFSEIGENTUMSUEBERTRAGUNGNOCHNICHTERFOLGTISTHATSOLCHEZUUNTERBLEIBENX
@@ -155,12 +171,16 @@ about what ultimately happened to the ship.
 All 360 printed slots are retained. One glyph is unreadable and another is
 an `E`-like overstrike, both preserved as source erasures. The raw text is:
 
+**Raw output:**
+
 ```text
 TUERKEIGEGENUEBERKNNGELTENDGEMCHTWERDENXREED?REIWILLDAMPFERANTUEKEINICHTVERKAUFENESSEIDENNDASSKAUFPREISINDEUTSCHLANDVOREIGENTUMSUEBERTRAGUNGBARBEZAHLTWERDEXMARIN?AMTXAXSECHSXS????0
 ```
 
 Filling those two erased coordinates recovers `REEDEREI` and `MARINEAMT`,
 without changing any observed valid coordinate:
+
+**Edited output:**
 
 ```text
 TUERKEIGEGENUEBERKNNGELTENDGEMCHTWERDENXREEDEREIWILLDAMPFERANTUEKEINICHTVERKAUFENESSEIDENNDASSKAUFPREISINDEUTSCHLANDVOREIGENTUMSUEBERTRAGUNGBARBEZAHLTWERDEXMARINEAMTXAXSECHSXS????0

@@ -13,6 +13,8 @@ solution to an open challenge.
 
 ## Reading
 
+**Readable German:**
+
 > Erbitten umgehend Nachricht, ob Geruecht vom Anmarsch Mackensens auf
 > Warschau wahr. Soldatenrat Warschau.
 
@@ -21,6 +23,8 @@ whether the rumor of Mackensen's advance on Warsaw is true. The query does
 not itself establish that such an advance occurred.
 
 The later message begins:
+
+**Readable German — abbreviated display; the English bracket points to the query quoted above:**
 
 > An OKM. Hier einging folgender Funkspruch: [the above query].
 
@@ -56,6 +60,8 @@ are assessed separately in this edition.
 
 The unmodified p181 reading is:
 
+**Raw output:**
+
 ```text
 ERBITTENUMGEHENDNACHRICHTOBGERUECHTVOMANMARSCHMACKEN?ENSAUFWARSCHAUWAHRXSOLDATENRATWARSCHAUX
 ```
@@ -67,6 +73,8 @@ coordinates**; the resulting 92-character text re-encrypts exactly. No
 unknown square cell is assigned.
 
 The p214 source decodes as:
+
+**Raw output:**
 
 ```text
 ANOKMXHIEREINGINGFOLGENDERFUNKSPRUCHX?ERBI3TENUM?EHEN?NACHRICHTOBGERUECHT?OMANMARSCHMACKENSENSAUFWARACHAUWAHRXSOLDATENRATWARSCHA8XXAOKYYXRMYAQY?5X

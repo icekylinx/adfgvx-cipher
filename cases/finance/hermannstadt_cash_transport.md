@@ -12,11 +12,13 @@ If the aircraft at Döberitz has not started, the message asks for money to be s
 
 Raw, with the gap placed after the short group:
 
+**Raw output — conditional missing slot placed after the short group:**
+
 ```text
 FALLSFLUGZEUGDOEBERITZN2IHTGESTART2TXGELDUMGE?ENDUNTERBEMONDERERBEWSCHUNGMITXVXZ?GUEBERXSZOLNOKXARADX
 ```
 
-Conditional ordinary-word edition:
+**Edited output — same conditional missing-slot frame:**
 
 ```text
 FALLSFLUGZEUGDOEBERITZNICHTGESTARTETXGELDUMGEHENDUNTERBESONDERERBEWACHUNGMITXVXZUGUEBERXSZOLNOKXARADX
@@ -27,6 +29,8 @@ This costs five changes to observed coordinates, one fill of a printed dash, and
 ## p216 B2
 
 The second part supplies the destination Hermannstadt, asks for arrival notifications, and retains the unexpanded phrase `KROGEHENHIERZUENDE`.
+
+**Raw output:**
 
 ```text
 HERMANNSTADTXSENDENXANKUNFTAUFDEN8STATIONENOKM9EWEILSMITTEILENXKROGEHENHIERZUENDEXOKMXYAYY?18XX

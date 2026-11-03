@@ -16,6 +16,8 @@ System*, [printed p86, PDF p89](https://drive.google.com/file/d/1_JiNMck7eUvdrOT
 The [source crop](../../experiments/inventory_and_medical_return/sources/childs_p86_A.png)
 is under an October 31 heading:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 A) OSM v NKJ (3.35 a.m., November 1st)
 1207 (31/10)
@@ -25,11 +27,15 @@ RICHI-298
 All 298 printed coordinates are valid and give 149 fixed labels under the
 unchanged published `Oct28-31` key:
 
+**Raw output:**
+
 ```text
 MGKOMMANDEUROSMANHGRXOSTXWIEVIELDEUTSCHEMG08MITDREIFUSSLAFETTEIMDORTIGEXBER4ICHVORHANDENXWELCHESKALIBERHABENSIEXOSMAN19ABTLGXGRXHXQUXNO835C120X10X18X
 ```
 
 Two known-coordinate substitutions repair ordinary words:
+
+**Edited output:**
 
 ```text
 MGKOMMANDEUROSMANHGRXOSTXWIEVIELDEUTSCHEMG08MITDREIFUSSLAFETTEIMDORTIGENBEREICHVORHANDENXWELCHESKALIBERHABENSIEXOSMAN19ABTLGXGRXHXQUXNO835C120X10X18X
@@ -37,12 +43,16 @@ MGKOMMANDEUROSMANHGRXOSTXWIEVIELDEUTSCHEMG08MITDREIFUSSLAFETTEIMDORTIGENBEREICHV
 
 Readable core, preserving the telegram's abbreviated grammar:
 
+**Readable German:**
+
 > Wie viel deutsche MG08 mit Dreifußlafette im dortigen Bereich
 > vorhanden? Welches Kaliber haben sie?
 
 The address field `MGKOMMANDEUROSMANHGRXOST` is not expanded into an
 identified individual or a formally established command title. The closing
 also remains unexpanded:
+
+**Raw output — unchanged closing-field excerpt:**
 
 ```text
 OSMAN19ABTLGXGRXHXQUXNO835C120X10X18X

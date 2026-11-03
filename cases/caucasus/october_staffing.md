@@ -29,6 +29,8 @@ October 6. The page heading is October 5, and the shared origin field is
 
 **Most likely German reading, with abbreviation and reference fields retained:**
 
+**Readable German:**
+
 > Oberst und Kdeur des 4. bayr. Chev.-Regt., Graf von Seyboltstorff, als
 > Kdeur der 4. bayr. Kav.-Brig. bestimmt, ist sofort zu dieser Brig. zu
 > beordern. Abreisetag umgehend drahten.
@@ -65,6 +67,8 @@ and [p67 A2](../../experiments/october_staffing/sources/childs_p67_A2.png).
 
 Header: `COS v NKJ (10.32 p.m., October 5th); NR48 1916(5); RICHI-224`.
 
+**Readable German:**
+
 > An BV.K.M.KA Tiflis. Weitere Käufe Manganerze bis auf Weiteres
 > unterlassen. Rittm.[F]ischer, Comm[i]ssar des Kriegsministeriums.
 
@@ -88,6 +92,8 @@ Source: [p67 B](../../experiments/october_staffing/sources/childs_p67_B.png).
 Header: `--- v NKJ (3.11 a.m., October 6th); DEUTSCHE DELEGATION KAUKASUS
 1812(5); RICHI-284`.
 
+**Readable German:**
+
 > An leitenden Sanitätsoffz. Dortiges Telegr. Nr 131X232 ist verstümmelt.
 > Bitte nochmals drahten. Armeearzt Oberkommando Besatzungsheeres Rumänien
 > Nr 8586X3.
@@ -106,11 +112,15 @@ Header: `ASO v NKJ (9.27 p.m., October 5th); COS1615(5); RICHI-190`.
 
 This record is fully determined, with no edit or fill:
 
+**Raw output:**
+
 ```text
 KDTURXTIFLISXXZUDORTXNRX80XREITXABTLGXBAYRX5OHNEERSTEBATTXBEIBXKXBXGEGENXKIEWXXGXUVXSEWASTOPOLX
 ```
 
 A conservative division into words is:
+
+**Readable German:**
 
 > Kdtur. Tiflis. Zu dort Nr 80. Reit. Abtlg. Bayr. 5 ohne erste Batt. bei
 > B.K.B. gegen Kiew. G.U.V. Sewastopol.
@@ -129,6 +139,8 @@ Header: `NKJ v OSM (--.-- October 7th); 2030; RICHI-60`. The sheet remains
 headed October 5; no origin day is printed in this record's own `2030` field.
 
 The 60 coordinates directly fix all 30 plaintext characters:
+
+**Raw output:**
 
 ```text
 TELXREISENOX1AVOM20X9XERHALTEN

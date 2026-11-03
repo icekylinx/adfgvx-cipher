@@ -15,6 +15,8 @@ Neither case changes the published **Nov4–6** key.
 The source explicitly labels this block `4 TL RICHI-212`; `LP v NKJ`
 appears after its final `GV`. All 212 observed coordinates give:
 
+**Raw output:**
+
 ```text
 XDIEBESTIMMUNGXDASSENTENTERECHTZURBEFOERDERUNGIHRERTRUPPENASAEMTLICHENEISENBAHNENUNDRECHTDERBESETZUNGALLER
 ```
@@ -39,11 +41,15 @@ The header reads `LP v NKJ 464 (12.01 November 5th), RICHI-134`.
 Its **134 coordinates are exactly identical** to p126 B, including the
 two values responsible for the damaged words:
 
+**Raw output:**
+
 ```text
 OXHXL0XDRBHTUNGRM1XAX11118XOPGEH02XANGXORHALTENXOXK0M0RM1A011232XOP
 ```
 
 The same conservative ordinary-word candidate remains available:
+
+**Edited output:**
 
 ```text
 OXHXL0XDRAHTUNGRM1XAX11118XOPGEH02XANGXERHALTENXOXK0M0RM1A011232XOP

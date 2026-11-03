@@ -22,6 +22,8 @@ The [full page](../../experiments/inventory_and_medical_return/sources/childs_p1
 places these parts under a November 2 heading. Their reception line says
 November 4:
 
+**Source transcription — clear header and/or literal source record:**
+
 ```text
 C) POT v NKJ (9.10 a.m., November 4th)
 FÜR POT FÜR HAFENKDTR 1135 (2) 2 TLE
@@ -45,11 +47,15 @@ an unpaired coordinate; that result is preserved in the certificate. Under
 the conditional 228-slot model, inserting an unknown coordinate at index
 168 gives 113 fixed labels out of 114:
 
+**Raw output — conditional insertion at source index 168:**
+
 ```text
 W?RDEHEUTEAUFGRUNDAERZTLXGUTACHTJDSEITENSSCHWARZMEERSTELLEDTSCHXSTAATZUSPEZIALAERZTLXBEHADDLUNGUXWIEDERHERSTELLUNG
 ```
 
 Inserting `A` and applying three source-coordinate substitutions gives:
+
+**Edited output — same conditional missing-slot frame, with A supplied and three substitutions:**
 
 ```text
 WURDEHEUTEAUFGRUNDAERZTLXGUTACHTENSEITENSSCHWARZMEERSTELLEDTSCHXSTAATZUSPEZIALAERZTLXBEHANDLUNGUXWIEDERHERSTELLUNG
@@ -90,11 +96,15 @@ is not an independently supplied crib or proof of a uniquely placed loss.
 The [second-part crop](../../experiments/inventory_and_medical_return/sources/childs_p104_C2.png)
 has exactly 140 valid coordinates and 70 fixed raw labels:
 
+**Raw output:**
+
 ```text
 DERGESUNDHEITZUMERSATZTRUPPJNTEILINMARSHGESETZTXXRETTERLXKETTERLXLTNXX
 ```
 
 One known-coordinate substitution gives:
+
+**Edited output:**
 
 ```text
 DERGESUNDHEITZUMERSATZTRUPPENTEILINMARSHGESETZTXXRETTERLXKETTERLXLTNXX

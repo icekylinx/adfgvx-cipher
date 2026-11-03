@@ -8,6 +8,8 @@ The four-part order instructs radio stations to come under an officer's immediat
 
 ## Readable text
 
+**Readable German:**
+
 > Sämtliche Funkstellen sofort durch Offizier fest in Hand nehmen. Verhindern, dass Funksprüche aus Kiel, Kiel aufgenommen und verbreitet werden. Bereits aufgenommene Texte beschlagnahmen und vernichten. Größte Eile geboten. Nachrchef, röm. vier, V, 47?00, geh.
 
 The wording is an editorial reading. The repeated **Kiel, Kiel** is retained. The reference `47?00` remains incomplete; the displayed uncertainty is not permission to choose any digit independently of its coordinate domain.
@@ -30,6 +32,8 @@ p146 prints **117 slots** despite its `RICHI-112` label. Its twelfth group, `VAA
 
 The resulting literal decryptions are:
 
+**Raw output — p146 uses the stated duplicate-group deletion; p140 is separate:**
+
 ```text
 p140 A1
 SAEMTLICHEFUNKSTELLENSOFORTDURCHO1FIGIERFESTINHANDNEHMEN
@@ -41,6 +45,8 @@ SAEMTL?CHEFUNKS?ELLE?SOFORTDURCHOFFIFIERFEST?NHANDNE?MEN
 Across the two copies, **55 of the 56 positions** in the readable first part are witnessed directly. The later copy supplies the first `F` in `OFFIZIER`, where p140 gives `1`. The letter `Z` remains an editorial correction: p140 gives `G` and p146 gives `F` at that position. Thus the repeat improves the text without turning every proposed letter into observed evidence.
 
 ## Other raw parts
+
+**Raw output — separate literal p140 parts:**
 
 ```text
 p140 A2
