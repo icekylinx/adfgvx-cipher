@@ -15,6 +15,7 @@ to answer and the closing name Eilvese.
 
 The question mark after *besetzt* is editorial punctuation. The question mark
 inside `17?0` is one unresolved plaintext position, retained literally.
+
 **Raw output — primary conditional 138-slot frame, before substitutions and fills; 64/69 fixed positions:**
 
 ```text
