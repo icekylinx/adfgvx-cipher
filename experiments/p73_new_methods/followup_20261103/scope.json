@@ -1,0 +1,284 @@
+{
+  "schema": "p73-profile-pair-followup-scope-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "status": "Bounded negative for p73; no historical plaintext, key, date correction or source-copy relation accepted.",
+  "source_geometry": {
+    "physical_row_lengths": [
+      40,
+      40,
+      40,
+      40,
+      18
+    ],
+    "source_slots": 178,
+    "valid_coordinates": 176,
+    "printed_masks": 2,
+    "unobserved_insertions": 0,
+    "source_exclusions": 0,
+    "date_conflict_preserved": true
+  },
+  "profile": {
+    "training_strings": 679,
+    "training_windows": 2054,
+    "window_length": 89,
+    "stride": 10,
+    "source_snapshot_sha256": "f00849262a5c5848080548a0b06f21f39d223365b5d21a680cec372f11800cee",
+    "profile_txt_sha256": "d491d1701dce1dee1cea7a97dd77e28230f9b02a6ba5c1b823457a2c7c90aaa0",
+    "mean_variance": [
+      {
+        "mean": 0.15403214336509,
+        "variance": 0.0010457392071792
+      },
+      {
+        "mean": 0.10470662888526,
+        "variance": 0.00030880204120936
+      },
+      {
+        "mean": 0.085588000393857,
+        "variance": 0.00012939504601318
+      },
+      {
+        "mean": 0.075128825093266,
+        "variance": 0.00010092873915737
+      },
+      {
+        "mean": 0.067377438377295,
+        "variance": 8.3159082017511e-05
+      },
+      {
+        "mean": 0.060479415336475,
+        "variance": 6.9529285454333e-05
+      },
+      {
+        "mean": 0.05483408640854,
+        "variance": 5.4367052825118e-05
+      },
+      {
+        "mean": 0.049620909598151,
+        "variance": 5.0590678626246e-05
+      },
+      {
+        "mean": 0.045157161143506,
+        "variance": 4.6482597298203e-05
+      },
+      {
+        "mean": 0.040862991367897,
+        "variance": 4.2720885841172e-05
+      },
+      {
+        "mean": 0.037186963228777,
+        "variance": 4.0877689420014e-05
+      },
+      {
+        "mean": 0.033658632648818,
+        "variance": 3.5339272587474e-05
+      },
+      {
+        "mean": 0.030310821307834,
+        "variance": 3.7692612728807e-05
+      },
+      {
+        "mean": 0.02706147500629,
+        "variance": 3.5544072189826e-05
+      },
+      {
+        "mean": 0.024145815782851,
+        "variance": 2.9773864340365e-05
+      },
+      {
+        "mean": 0.021536492237672,
+        "variance": 2.6599320884113e-05
+      },
+      {
+        "mean": 0.018784941413301,
+        "variance": 3.2012416159864e-05
+      },
+      {
+        "mean": 0.015847401069986,
+        "variance": 3.2392480413146e-05
+      },
+      {
+        "mean": 0.013363893964093,
+        "variance": 2.4667190445102e-05
+      },
+      {
+        "mean": 0.011400063455247,
+        "variance": 2.1977115948821e-05
+      },
+      {
+        "mean": 0.0089548483091362,
+        "variance": 2.9892393157564e-05
+      },
+      {
+        "mean": 0.0063072328041748,
+        "variance": 3.391393438479e-05
+      },
+      {
+        "mean": 0.004534862094242,
+        "variance": 3.21095194196e-05
+      },
+      {
+        "mean": 0.0033861033007669,
+        "variance": 2.719504713829e-05
+      },
+      {
+        "mean": 0.0022975175869501,
+        "variance": 2.0905000204663e-05
+      },
+      {
+        "mean": 0.0016082623108651,
+        "variance": 1.5729710662381e-05
+      },
+      {
+        "mean": 0.00097918011443826,
+        "variance": 1.0289085340724e-05
+      },
+      {
+        "mean": 0.00056343883679967,
+        "variance": 6.2591654038753e-06
+      },
+      {
+        "mean": 0.00018051923897465,
+        "variance": 1.9957188602549e-06
+      },
+      {
+        "mean": 6.0173079658217e-05,
+        "variance": 6.7248121911607e-07
+      },
+      {
+        "mean": 2.1881119875715e-05,
+        "variance": 2.4537649609541e-07
+      },
+      {
+        "mean": 1.0940559937858e-05,
+        "variance": 1.2280794389946e-07
+      },
+      {
+        "mean": 1.0940559937858e-05,
+        "variance": 1.2280794389946e-07
+      },
+      {
+        "mean": 0.0,
+        "variance": 0.0
+      },
+      {
+        "mean": 0.0,
+        "variance": 0.0
+      },
+      {
+        "mean": 0.0,
+        "variance": 0.0
+      }
+    ],
+    "priority": "ENRXATSIULHOGDMCBFKZ1VWP02Y3J485796Q",
+    "training_limit": "The full profile-training corpus is not duplicated here; frozen means/variances and their source-snapshot hash are preserved. This followup does not claim an independently rebuilt profile."
+  },
+  "target_runs": [
+    {
+      "width": 10,
+      "source_segmentations": 45,
+      "profile_restarts": 25,
+      "profile_iterations": 7000,
+      "profile_seed": 26740,
+      "profile_leaders_per_segmentation": 5,
+      "profile_stdout_sha256": "6277f65e0ddb17a6fc86dec5b94ffd21c429974338526eb9ba343b524e383619",
+      "distinct_pairing_seeds_fitted": 12,
+      "pair_order_restarts": 60,
+      "pair_order_iterations": 40000
+    },
+    {
+      "width": 12,
+      "source_segmentations": 66,
+      "profile_restarts": 25,
+      "profile_iterations": 7000,
+      "profile_seed": 26742,
+      "profile_leaders_per_segmentation": 5,
+      "profile_stdout_sha256": "aaf01e3860735d62fcffca2f53e4411a30e53e7f76fda94f7de506a94033ec48",
+      "distinct_pairing_seeds_fitted": 15,
+      "pair_order_restarts": 60,
+      "pair_order_iterations": 40000
+    },
+    {
+      "width": 14,
+      "source_segmentations": 1001,
+      "profile_restarts": 20,
+      "profile_iterations": 5000,
+      "profile_seed": 26914,
+      "profile_leaders_per_segmentation": 5,
+      "profile_stdout_sha256": "c8256f07fa44036866e707b0f7382774fd4d15c9ba40de1d8d8125496e094246",
+      "distinct_pairing_seeds_fitted": 15,
+      "pair_order_restarts": 60,
+      "pair_order_iterations": 40000
+    },
+    {
+      "width": 16,
+      "source_segmentations": 120,
+      "profile_restarts": 30,
+      "profile_iterations": 7000,
+      "profile_seed": 26916,
+      "profile_leaders_per_segmentation": 5,
+      "profile_stdout_sha256": "00341e4387f1ce5b15572fb1d324d26cda9abb166f69d4a87f4a35210f465e91",
+      "distinct_pairing_seeds_fitted": 15,
+      "pair_order_restarts": 60,
+      "pair_order_iterations": 40000
+    }
+  ],
+  "source_segmentations_total": 1232,
+  "pairing_seed_language_fits_total": 57,
+  "donor_queries": 104,
+  "historical_donor_queries": 103,
+  "donor_strings": 944,
+  "curated_source_only_donors": 293,
+  "prior_donor_strings_reused_by_reference": 146,
+  "reported_donor_pairwise_optima": 94795,
+  "language_model": {
+    "role": "Private-square and pair-order annealing, plus optional word followup.",
+    "sha256": "c7a114f115c707d665ce9884a9ed9814437e59d98b4ab0c0fe646bebfd95ad7d",
+    "bytes": 7496644,
+    "status": "Unbundled scratch 37-symbol quadgram artifact; its build provenance was not retained in this followup.",
+    "not_the_older_p73_frozen_model": "The prior package records 17688f91c57427dfc5870fff985f20b966087b7c4afbca4fbd16b794d2887d67. These bytes are different; the earlier model must not be substituted while claiming the same stochastic run.",
+    "reproduction_limit": "The complete stochastic search is not self-contained or claimed replayable from this package. Default checks independently verify frozen control/cipher witnesses and scope; the donor scan is fully replayable without this model."
+  },
+  "engine_changes": {
+    "profile_pairing_source": "profile_pairing.cpp",
+    "pair_order_base": "../../joint_search/src/pair_marginal.c",
+    "modifications": [
+      "Replace the initial letter priority with the frozen radio-profile priority.",
+      "Raise the compatible-order enumeration array/cap from 10000 to 500000."
+    ],
+    "original_modified_pair_order_source_sha256": "516aefc6d251d78e5254addaa98d2c8d1365858279b3e36bce2154bb0e963df8",
+    "initial_square": "36 question marks; all 36 square cells free.",
+    "erasure_policy": "Both printed erasures remain unassigned in raw output; the language search treats their decoded positions as wildcards, discarding surviving half-pair information. Complete control witnesses are separately checked against every observed half-coordinate."
+  },
+  "other_completed_bounded_diagnostics": {
+    "word_jobs": {
+      "first_suite": 12,
+      "later_target_suite": 8,
+      "seconds_per_job": 25,
+      "word_weight": 2,
+      "lexicon_sha256": "6ea36fc166dd884a3a46f99aa7fd9ab03ae237d5a79c1a30f059e983d5f0d9ef",
+      "limit": "Later jobs can revisit earlier ranks; counts are completed runs, not disjoint settings. No accepted p73 text and no reliable control-letter improvement."
+    },
+    "width18_nested_refits": {
+      "component_neighbor_patterns_per_seed": 57,
+      "starting_seed_sets": 2,
+      "historical_application": false,
+      "limit": "Control failures. Re-fitting square/order after a component move did not recover the planted complete pattern; no historical campaign followed."
+    },
+    "positive_count_objective": {
+      "historical_application": false,
+      "limit": "Alternative scratch positive-count scoring failed its control and was not applied to p73."
+    }
+  },
+  "limits": [
+    "Related-width controls demonstrate mechanism capability, not a recovery probability.",
+    "Zero-change control witnesses were constructed afterward using evaluation-only truth; they are not independently recovered historical squares.",
+    "A high-scoring arbitrary square/rank pair is source-compatible by construction and supplies no authenticated reading.",
+    "The default verifier checks recorded geometry counts and selected source witnesses, not all stochastic trajectories or all profile-search optima.",
+    "No full output logs, language-model binaries, candidate clouds or earlier result files are duplicated.",
+    "Language-seed deduplication uses only the unordered transmitted-column pair set, so distinct long/short segmentations sharing that set can be omitted from the 57 fits."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "p73-profile-pair-followup-verification-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "python": "3.12.14",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "checks": [
+    {
+      "command": "python experiments/p73_new_methods/followup_20261103/verify.py",
+      "passed": true,
+      "source_segmentations": 1232,
+      "target_source_witnesses": 57,
+      "related_control_truth_witnesses": 4,
+      "control_observed_coordinate_changes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "donor_leader_records_checked": 41
+    },
+    {
+      "command": "python experiments/p73_new_methods/followup_20261103/verify.py --recompute-donors",
+      "passed": true,
+      "all_reported_optima": 94795,
+      "stdout_sha256": "a7de6b3848fd8652d169594f1441a01dd69e632720ae0eb4ed18dcb04c573850"
+    },
+    {
+      "command": "python experiments/p73_new_methods/followup_20261103/verify.py --recompute-profile 10",
+      "passed": true,
+      "stdout_sha256": "6277f65e0ddb17a6fc86dec5b94ffd21c429974338526eb9ba343b524e383619"
+    }
+  ],
+  "complete_stochastic_search_replayed": false,
+  "historical_reading_accepted": false
+}

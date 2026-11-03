@@ -243,6 +243,19 @@ optional deterministic replay repeats the full C++ offset search. The shuffled
 sample is finite and frequency-preserving only; it is not a significance test
 or an exclusion of other keys, corpora, layouts or cipher conventions.
 
+## 5. Profile pairing and new arbitrary ranks: 3 November followup
+
+The [compact followup](followup_20261103/README.md) adds 1,232 source
+segmentations, 57 private-square/pair-order fits, and 94,795 exact donor
+comparison optima. Four related hidden-key controls admit complete global
+square witnesses with zero changes to all 176 observed coordinates, while
+the literal square estimates still confuse letters. No p73 reading is accepted.
+
+Its standard-library verifier checks the source/control witnesses and 41
+donor leaders; optional replay checks the complete donor screen. The stochastic
+search used a different, unbundled scratch model whose build provenance was
+not retained. The followup states that reproduction limit explicitly.
+
 ## Reproduce and verify
 
 From the repository root:
