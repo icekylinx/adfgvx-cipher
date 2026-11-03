@@ -116,7 +116,7 @@ GLEICHESDURCHFERNSPRUCHXEMPFANGBESTAETIGENXXOXKXMX1ANOX11226O6XGEHEIMX
 
 These repair `GLEICHES`, `FERNSPRUCH` and the separator before `EMPFANG`. The complete reference `1ANOX11226O6XGEHEIMX` is unchanged, including the letter O in the apparent number. No normalization of I/1 or O/0 is made.
 
-## Independent archival context
+**Independent archival context.**
 
 A [compact archival locator](archival_context.json) identifies the original Groener telegram of 4 November (Ia Nr. 11212 Geh.Op.), Lersner’s Nr. 2733, and Horstmann’s Nr. 579 on NARA T136 reel 39. The original pages and the T322 finding-aid entry were visually checked. They independently document withdrawal through Hungary and measures at Kronstadt and Hermannstadt; none is identified as a verbatim copy of this eight-part report. Groener’s reference 11212 is distinct from its retained 11226O6 field. These documents supply no new accepted A6 text; the primary inputs and certificates remain unchanged.
 
