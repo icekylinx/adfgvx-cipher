@@ -82,3 +82,13 @@ as a prior reading of this financial fragment.
 and [reproduction instructions](../../experiments/hauptwechselamt_accounting/README.md)
 provide the literal source, every coordinate repair and all remaining
 position domains.
+
+**Later copy evidence.** The independently received p172 D2 supplies the two
+remaining printed-dash values for `VOM18` and `89240911?` under the explicit
+matching-second-part hypothesis. The conservative candidate keeps the four
+original observed-coordinate substitutions and fixes 100/102 labels with
+ten source-mask fills; its final `?` still shares cell VF with the date-like
+field after AM. A separate common-copy ending X costs one additional
+observed change. The [complete reconciliation](../../experiments/accounting_copy_reconciliation/README.md)
+preserves both original editions, all five source disagreements, the two
+unsupported ordinary-word repairs, and both global square completions.

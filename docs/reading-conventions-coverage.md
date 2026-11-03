@@ -95,6 +95,20 @@ stations while preserving 61 fenced blocks, 24 quotations and all 1,362
 numeric tokens in its 13-file scope. These are overlapping presentation
 checks, not additional source records or new historical numeral assignments.
 
+The later [literal-token correction](../data/reviews/reading_conventions_legacy_tokens_audit.json)
+retains p152's encoded `SECHSZEHN` and `STRICH`, and p109's complete
+`ASOXK511` closing, rather than replacing them with a normalized spelling,
+punctuation or a prose placeholder. The frozen source and decoded strings
+are unchanged. A separate [count-unit pass](../data/reviews/reading_conventions_count_units_audit.json)
+uses positions for streams containing separator and numeral labels while
+preserving 18 fences, five quotations and all 611 numerical tokens.
+
+The [Seifert table audit](reading-conventions-seifert-table.md) separately
+binds seven readable table rows to 329 ordered labels, including one
+unresolved displayed position. Its 19 display-only expansion letters and
+two explicitly marked coordinate-completion letters keep distinct roles.
+Fenced-block and blockquote coverage alone does not cover Markdown tables.
+
 ## Run the checks
 
 From the repository root:
@@ -105,6 +119,10 @@ python data/reviews/verify_manual_readings.py
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_layers_before.json --audit data/reviews/reading_conventions_layers_audit.json
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
 python data/reviews/check_reading_presentation.py
+python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_count_units_before.json --audit data/reviews/reading_conventions_count_units_audit.json
+python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_legacy_tokens_before.json --audit data/reviews/reading_conventions_legacy_tokens_audit.json
+python data/reviews/verify_seifert_readable_table.py
+python experiments/accounting_copy_reconciliation/verify.py --verify
 python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/legacy_live_readable_mappings_20261103.json
 python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_detail_before.json --audit data/reviews/reading_conventions_detail_audit.json
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_detail_prose_before.json --audit data/reviews/reading_conventions_detail_prose_audit.json

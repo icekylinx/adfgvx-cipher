@@ -13,6 +13,7 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Accounting-copy reconciliation](accounting_copy_reconciliation/README.md) | Two existing records; two newly fixed p175 labels | Native source comparison, retained ending disagreement, exact shared-repair prices and both global square completions. |
 | [Radio relay and march notice](radio_relay_and_march_notice/README.md) | 3 source records; 268 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
 | [An enquiry about an MMD command or representative](mmd_command_whereabouts/README.md) | 1 source records; 63 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
 | [A repeated negotiation assessment and a departure-order reference](nov18_negotiation_repetition/README.md) | 2 source records; 242 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |

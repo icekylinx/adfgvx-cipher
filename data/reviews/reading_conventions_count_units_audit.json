@@ -1,0 +1,164 @@
+{
+  "schema": "adfgvx-count-unit-detail-cleanup-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "scope": "Use plaintext positions for complete decoded-stream counts and deletion choices that include separator or numeral labels. The category-specific ordinary-letter bounds and prior attributed quotations remain unchanged.",
+  "before_snapshot_sha256": "ce69195d342091d1ef24994600b5b30b130d7367aa02df880d783bf7c8137bf4",
+  "protected_unchanged": {
+    "data/prior_readings.json": "40ea793ede1feb74a273b33e15eec2aa2fd301f9a7b633fe596253bf9e5e7624",
+    "data/certificates/p215.json": "cf69f9d4c41d492732ba04267676faeacf45fc751ce242a4d9f185e26fa21abc",
+    "experiments/siegfried_assignment_cancellation/inputs.json": "73da2a3cc013d44fac05595c4a80328ab26fded358c1bceb4fe0233cd0c5032b",
+    "experiments/siegfried_assignment_cancellation/certificates.json": "c346343e8bc4a881f98b44d1d90250fce57aded8d59b99d854bb44493f24159a"
+  },
+  "files": [
+    {
+      "path": "cases/p105.md",
+      "changes": [
+        {
+          "before": "143-letter model",
+          "after": "143-position model",
+          "occurrences": 1
+        },
+        {
+          "before": "143-letter body",
+          "after": "143-position body",
+          "occurrences": 1
+        }
+      ],
+      "before_sha256": "43a0bfcd0270f1ea524cf3807956d092fb3c5796fb70b1bdd55d8b96f8dd928d",
+      "after_sha256": "c7f5de8813a1dba8c00d3db832cbe5642f6463fc9f409f10e253a7432c8dbaf8",
+      "fenced_blocks_preserved": 2,
+      "headings_preserved": 7,
+      "quoted_displays_preserved": 1,
+      "inline_code_occurrences_preserved": 9,
+      "numeric_tokens_preserved": 111
+    },
+    {
+      "path": "cases/p215.md",
+      "changes": [
+        {
+          "before": "extra-letter deletion",
+          "after": "extra-position deletion",
+          "occurrences": 1
+        },
+        {
+          "before": "130-letter editorial text",
+          "after": "130-position editorial text",
+          "occurrences": 1
+        },
+        {
+          "before": "single-letter deletion",
+          "after": "single-position deletion",
+          "occurrences": 1
+        },
+        {
+          "before": "each possible single letter",
+          "after": "each possible single plaintext position",
+          "occurrences": 1
+        },
+        {
+          "before": "one-letter deletion",
+          "after": "one-position deletion",
+          "occurrences": 1
+        }
+      ],
+      "before_sha256": "0953196ea225b2fc848d2b4b9fd3cd493c2115dadc18a13f47c378905175bd72",
+      "after_sha256": "47f2363e68e1d48b18ef1c56f8544c67ffa398494e37129b3914c8cfa42964db",
+      "fenced_blocks_preserved": 2,
+      "headings_preserved": 10,
+      "quoted_displays_preserved": 1,
+      "inline_code_occurrences_preserved": 27,
+      "numeric_tokens_preserved": 128
+    },
+    {
+      "path": "cases/p198.md",
+      "changes": [
+        {
+          "before": "85-letter control",
+          "after": "85-position control",
+          "occurrences": 1
+        },
+        {
+          "before": "48 newly recovered letters",
+          "after": "48 newly recovered plaintext positions",
+          "occurrences": 1
+        }
+      ],
+      "before_sha256": "c94af7db155a295678f63a8202d335415d40281974b0ee5765d515baa2e3e2c5",
+      "after_sha256": "14bb3575d93c8cf17da5c0266dbc8ac9cafd56763ae8f634aeadd8fa0b747120",
+      "fenced_blocks_preserved": 2,
+      "headings_preserved": 9,
+      "quoted_displays_preserved": 0,
+      "inline_code_occurrences_preserved": 8,
+      "numeric_tokens_preserved": 102
+    },
+    {
+      "path": "cases/p187.md",
+      "changes": [
+        {
+          "before": "173 letters and incorrectly",
+          "after": "173 plaintext positions and incorrectly",
+          "occurrences": 1
+        }
+      ],
+      "before_sha256": "374ab2afbb8562c4dc6458f11b94b5a488794d752e092a55f0ab92777fa318c1",
+      "after_sha256": "2d85a9c24aee3870529d9e2c510b88fcec9b23ca3e1f74b5751466af0881ada1",
+      "fenced_blocks_preserved": 3,
+      "headings_preserved": 6,
+      "quoted_displays_preserved": 1,
+      "inline_code_occurrences_preserved": 9,
+      "numeric_tokens_preserved": 76
+    },
+    {
+      "path": "cases/p187b.md",
+      "changes": [
+        {
+          "before": "173 letters and incorrectly",
+          "after": "173 plaintext positions and incorrectly",
+          "occurrences": 1
+        }
+      ],
+      "before_sha256": "925d5c7e3da2289f702e74dec2bfd61fc1ba487932b5791e4f02bef277d469e7",
+      "after_sha256": "5cfb4bc4bd475931c9e1f048ce65f73e38800438c54325076049f6a8d7903c36",
+      "fenced_blocks_preserved": 5,
+      "headings_preserved": 7,
+      "quoted_displays_preserved": 1,
+      "inline_code_occurrences_preserved": 21,
+      "numeric_tokens_preserved": 95
+    },
+    {
+      "path": "cases/people/siegfried_assignment_cancellation.md",
+      "changes": [
+        {
+          "before": "200-letter\nproposal",
+          "after": "200-position\nproposal",
+          "occurrences": 1
+        }
+      ],
+      "before_sha256": "ef87b165dc70c06524a2f68ef1ada54c2f6e705bb494491c41c86af838bd5610",
+      "after_sha256": "7206ed3ea2fdcc0cfd1d67b567a1ff2400b68f9cd09978efb8f02fc552e7a549",
+      "fenced_blocks_preserved": 4,
+      "headings_preserved": 6,
+      "quoted_displays_preserved": 1,
+      "inline_code_occurrences_preserved": 7,
+      "numeric_tokens_preserved": 99
+    }
+  ],
+  "summary": {
+    "files": 6,
+    "fenced_blocks_preserved": 18,
+    "headings_preserved": 45,
+    "quoted_displays_preserved": 5,
+    "inline_code_occurrences_preserved": 81,
+    "numeric_tokens_preserved": 611
+  },
+  "creation_time_checks": [
+    "All complete fenced blocks and all headings compare equal.",
+    "Every quoted display, inline-code occurrence and link target compares equal in order.",
+    "Every decimal digit token compares equal in order."
+  ],
+  "limits": [
+    "This pass changes counting terminology only; no count, historical attribution or claim boundary changes.",
+    "The p198 ordinary-letter/digit category bounds still count those specific categories and are not renamed as total-position bounds.",
+    "Catalog metadata is outside this pass because the earlier inventory preserves its historical snapshot."
+  ]
+}

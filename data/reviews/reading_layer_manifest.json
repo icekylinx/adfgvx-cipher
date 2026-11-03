@@ -10,7 +10,11 @@
     "data/reviews/reading_conventions_layers_audit.json",
     "data/reviews/reading_conventions_spacing_audit.json",
     "data/reviews/reading_conventions_semantic_audit.json",
-    "data/reviews/reading_conventions_followup_audit.json"
+    "data/reviews/reading_conventions_followup_audit.json",
+    "data/reviews/reading_conventions_detail_audit.json",
+    "data/reviews/reading_conventions_detail_prose_audit.json",
+    "data/reviews/reading_conventions_count_units_audit.json",
+    "data/reviews/reading_conventions_legacy_tokens_audit.json"
   ],
   "files": [
     {
@@ -1467,7 +1471,7 @@
     {
       "path": "cases/finance/hauptwechselamt_accounting.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "e3e87704cb585c3e6646299a230e3ecef9b1e9afdf227ae060626a089474272e",
+      "file_sha256_at_review": "b7c0e3ff06ef3f392ac41443f992d921a79ceb2b04b460eaf4cebff451d836d6",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -1990,7 +1994,7 @@
     {
       "path": "cases/finance/staatsbank_accounting_cheques.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "c13b2c6ead8996a57765de6655502a847557bcdc36fad9e916fdf5c8d4104422",
+      "file_sha256_at_review": "dfaf180e4998f9a3e79e5477974d2b4a382d3cc874290e19b47ee552d9b98b42",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {
@@ -7496,7 +7500,7 @@
     {
       "path": "cases/p105.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "43a0bfcd0270f1ea524cf3807956d092fb3c5796fb70b1bdd55d8b96f8dd928d",
+      "file_sha256_at_review": "c7f5de8813a1dba8c00d3db832cbe5642f6463fc9f409f10e253a7432c8dbaf8",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -7530,7 +7534,7 @@
     {
       "path": "cases/p109.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "45b1718634d29cc24e1f9306f15052063c2cec32e5b944c3c9f5d336f5df3825",
+      "file_sha256_at_review": "ac51b020be29aac39e7657e4f3d8fe8c88b23d3873f7e1db323f7cad7454e4ee",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -7569,11 +7573,11 @@
       "quotes": [
         {
           "index": 0,
-          "sha256": "c947d710d68df80e9f10f5b182e4f6e120d8db4562be4b304990b7266905ddbe",
+          "sha256": "5a9e564e05f79c97d97e0964fc53bd86f76d974a5d4cffe9bd728b1dd7403b99",
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German — earlier credited reconstruction and later source comparison:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "review_note": "Literal decoded tokens restored by the verified reading_conventions_legacy_tokens_audit.json; decoded fences unchanged."
         }
       ]
     },
@@ -7664,7 +7668,7 @@
     {
       "path": "cases/p152.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "223a2bf0663c368fb9d1b974f85c71431e19a5a354a7f5a9807e81869431602a",
+      "file_sha256_at_review": "4d6c6d3c3dde38e79136685fcb161ed7293376808acbc80c9c409d6557cd283b",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate. New p144 continuation evidence independently checked on 3 November 2026; existing headings, fenced streams and quotation remain unchanged.",
       "fences": [
         {
@@ -7695,11 +7699,11 @@
       "quotes": [
         {
           "index": 0,
-          "sha256": "de87fcd8a9f8c5be0abaa8b30281c6544504469291b9986fecb338227bedb2bd",
+          "sha256": "0eb9e4d37c340eb8f04cc7a671d24907628fdd01e4a8ffe650daf075b0bd18d1",
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German — associated witnesses; editorial wording and names remain qualified:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "review_note": "Literal decoded tokens restored by the verified reading_conventions_legacy_tokens_audit.json; decoded fences unchanged."
         }
       ]
     },
@@ -8050,7 +8054,7 @@
     {
       "path": "cases/p187.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "374ab2afbb8562c4dc6458f11b94b5a488794d752e092a55f0ab92777fa318c1",
+      "file_sha256_at_review": "2d85a9c24aee3870529d9e2c510b88fcec9b23ca3e1f74b5751466af0881ada1",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -8092,7 +8096,7 @@
     {
       "path": "cases/p187b.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "925d5c7e3da2289f702e74dec2bfd61fc1ba487932b5791e4f02bef277d469e7",
+      "file_sha256_at_review": "5cfb4bc4bd475931c9e1f048ce65f73e38800438c54325076049f6a8d7903c36",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -8185,7 +8189,7 @@
     {
       "path": "cases/p198.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "c94af7db155a295678f63a8202d335415d40281974b0ee5765d515baa2e3e2c5",
+      "file_sha256_at_review": "14bb3575d93c8cf17da5c0266dbc8ac9cafd56763ae8f634aeadd8fa0b747120",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -8210,7 +8214,7 @@
     {
       "path": "cases/p215.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "0953196ea225b2fc848d2b4b9fd3cd493c2115dadc18a13f47c378905175bd72",
+      "file_sha256_at_review": "47f2363e68e1d48b18ef1c56f8544c67ffa398494e37129b3914c8cfa42964db",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -9568,7 +9572,7 @@
     {
       "path": "cases/people/siegfried_assignment_cancellation.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "ef87b165dc70c06524a2f68ef1ada54c2f6e705bb494491c41c86af838bd5610",
+      "file_sha256_at_review": "7206ed3ea2fdcc0cfd1d67b567a1ff2400b68f9cd09978efb8f02fc552e7a549",
       "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
       "fences": [
         {

@@ -1,0 +1,106 @@
+{
+  "cases/p152.md": {
+    "sha256": "223a2bf0663c368fb9d1b974f85c71431e19a5a354a7f5a9807e81869431602a",
+    "text": "# p152 — Silk purchases and transport from the Caucasus\n\n**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.\n\n[Case index](README.md) · [ADFGVX Cipher](../README.md)\n\n**Status:** source-linked body recovery. **Key:** Nov4–6. **Contribution:** icekylinx and GPT-6 Astra Pro, 2 November 2026, identified the truncated challenge with the fuller p136 B transmission.\n\n## Most likely reading\n\n**Readable German — associated witnesses; editorial wording and names remain qualified:**\n\n> Fuer kaiserliche deutsche Delegation, fuer MAIER HALLER, Tiflis. Nummer sechzehn. [Veranlassen, dass] im [Kaukasus] gekaufte Seide, Seidengarne, [Abfaelle], Strusen, [deren] Abtransport nicht unbedingt sichergestellt ist, nach Moeglichkeit dort wieder verkauft werden. Mercator. Kriegsamt, Kriegsrohstoffabteilung. R. 138 – elf. KRA.\n\n**Meaning:** To the Imperial German delegation in Tiflis, for the person or designation written `MAIER HALLER`: arrange for silk, silk yarn, waste and coarse cocoon filaments bought in the Caucasus to be resold locally where their transport cannot be guaranteed. The message is signed Mercator and the War Office's raw materials department.\n\n**Notes:** This readable reconstruction combines the fuller p136 first part with the continuation witnesses. Bracketed words normalize their garbles; `MAIER HALLER` is not silently changed to a rank or identified person. `Strusen` is an attested silk-trade term. The 104-slot p152 fragment alone does not yield this complete text; its relationship to p136 supplies the missing body.\n\n| Record | Received slots | Header | Review |\n|---|---:|---:|---|\n| p152 E, part 1 | 104, including 2 erasures | No length | Damaged tail of the fuller record. |\n| p136 B, part 1 | 314 | 304 | Directly decrypts without edits. |\n| p136 B, part 2 | 269 | 270 | One missing `F` supplied by p152's parallel group. |\n| p152 E, part 2 | 270 | 280 | Directly decrypts with residual garbles. |\n| p144 A2 | 270 | 270 | Native continuation; one explicitly supported coordinate substitution. |\n\n## Raw p136 B1 parallel plaintext\n\n**Raw output:**\n\n```text\nFUERKAISERLICHEDEUTSCHEDELEGATIONFUERMAIERHALLERXTIFLISXNUMMERSECHSZEHNVERANLASSELXDGSSIMKAPKKSUSGEKAUFTEXSEIDEXSEIDENGARNEXABFAEHLEXSTRUSENXDETENABTRANSPORT\n```\n\nThe message concerns the Imperial German delegation in Tiflis and silk, silk yarn, waste, and *Strusen* purchased in the Caucasus. Its continuation directs local resale where transport cannot be assured, and names Mercator and the War Office raw materials department. `MAIER HALLER` remains an unidentified literal reading. Garbles such as `KAPKKSUS` are preserved.\n\n## Raw continuation witnesses\n\nA third continuation, [p144 A2](finance/nov6_silk_resale_continuation.md),\nsupplies 270 native coordinates and 135 raw positions. Its sole proposed\nchange, zero-based source index 146 `D` → `A`, replaces `GESTELPT` with\n`GESTELLT`, already supported by unedited p152. Every position in the\nresulting continuation has native raw paired-coordinate support from p144\nor p152. The full `XAFFF` group also independently corroborates the `F`\nsupplied in p136's short `XAFF` group, while the identical adjacent `F`s leave\nthe historical loss location unresolved. This new witness concerns the\ncontinuation; it supplies no additional first-part prefix for the truncated\np152 challenge. Its separate source and cipher certificate is linked from\nthe p144 case; the original three-version certificate remains unchanged.\n\n**p136_B2**\n\n**Raw output — cross-copy-supported frame including the separately supplied missing F:**\n\n```text\nNICHTUNBEDINGTSICHERGESTELLTXISTNACHMOXG9ICHKEITDORTWIEDERVERKAUFTWERDENXMERCATORKRIEGSAMTKRNEGSROHS4OFFQBTEILUNGXRX138XSTRICHXELFXKRAX\n```\n\n**p152_E_part2**\n\n**Raw output:**\n\n```text\nNICHTPNBEDINGTSICHERGESTELLTXISTNACHMOEGLICHKEITDORTWIODERVERKAUFTWERDENXMERCATORKRIEGMAMTKRIEGSROHSTOFFABTEILUNGXRX138VSTRICHXELF8KRAX\n```\n\n*Strusen* is a historical silk term, not itself a decipherment error: see the [1853 technical description](https://dingler.bbaw.de/articles/ar128114.html).\n\n## Evidence\n\nAt group alignment 210, the fragment and the full record share 88 known symbols, differ at 14, and have 2 erased positions. Restoring the 210-symbol prefix comes from the historical parallel. An exhaustive suffix edit comparison instead has cost 11 and four tied offsets, 211–214, each with 92 known-symbol matches. Neither model establishes a unique historic error sequence.\n\nThree source versions pass exact re-encryption. The complete raw continuation texts, all edits, and both alignment models are in [the certificate](../data/certificates/p152.json). Inspect [p136 B](../sources/excerpts/childs_p136_B.png) and [p152 E](../sources/excerpts/childs_p152_E.png).\n\nNo earlier published identification of this fragment/parallel relationship was found in the checked 2017 discussion, 2026 reviews, or targeted searches. This bounded finding does not establish that the longer p136 message itself was previously unread.\n\n",
+    "headings": [
+      "# p152 — Silk purchases and transport from the Caucasus",
+      "## Most likely reading",
+      "## Raw p136 B1 parallel plaintext",
+      "## Raw continuation witnesses",
+      "## Evidence"
+    ],
+    "inline_code": [
+      "?",
+      "X",
+      "MAIER HALLER",
+      "MAIER HALLER",
+      "Strusen",
+      "F",
+      "MAIER HALLER",
+      "KAPKKSUS",
+      "D",
+      "A",
+      "GESTELPT",
+      "GESTELLT",
+      "XAFFF",
+      "F",
+      "XAFF",
+      "F"
+    ],
+    "fences": [
+      {
+        "index": 0,
+        "text": "```text\nFUERKAISERLICHEDEUTSCHEDELEGATIONFUERMAIERHALLERXTIFLISXNUMMERSECHSZEHNVERANLASSELXDGSSIMKAPKKSUSGEKAUFTEXSEIDEXSEIDENGARNEXABFAEHLEXSTRUSENXDETENABTRANSPORT\n```\n",
+        "sha256": "4d009554960e4b105146d52bc86cee5a1189d31c8f91d771885d96ea9f2f6556"
+      },
+      {
+        "index": 1,
+        "text": "```text\nNICHTUNBEDINGTSICHERGESTELLTXISTNACHMOXG9ICHKEITDORTWIEDERVERKAUFTWERDENXMERCATORKRIEGSAMTKRNEGSROHS4OFFQBTEILUNGXRX138XSTRICHXELFXKRAX\n```\n",
+        "sha256": "b36df866e366c0e785050a2d6ce22b51d780afef19eb1d7f370f86a5629ff403"
+      },
+      {
+        "index": 2,
+        "text": "```text\nNICHTPNBEDINGTSICHERGESTELLTXISTNACHMOEGLICHKEITDORTWIODERVERKAUFTWERDENXMERCATORKRIEGMAMTKRIEGSROHSTOFFABTEILUNGXRX138VSTRICHXELF8KRAX\n```\n",
+        "sha256": "abbf96ec8557899160e15aa244a0690f930d254ecc64ced2d39e151c74d2fe8d"
+      }
+    ]
+  },
+  "cases/p109.md": {
+    "sha256": "45b1718634d29cc24e1f9306f15052063c2cec32e5b944c3c9f5d336f5df3825",
+    "text": "# p109 — Evening report and the Sava crossing\n\n**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.\n\n[Case index](README.md) · [ADFGVX Cipher](../README.md)\n\n**Status:** Earlier damaged body reviewed against a newly transcribed same-page near-parallel. **Key:** `Nov1-3`.\n\n**Earliest credited record:** [Norbert, 2017-03-01, comment 18](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852658). **Current source and arithmetic review:** icekylinx and GPT-6 Astra Pro, 2 November 2026.\n\n## Most likely reading\n\n**Readable German — earlier credited reconstruction and later source comparison:**\n\n> O.K.M. [Abendmeldung]. [Save/Sava]: [Uebergang letzter Teile beendet].\n> [1 weitere fdl. Div.] im Marsch [auf Belgrad erkannt]. Sonst keine\n> [Ereignisse]. [Closing reference unresolved.]\n\n**Meaning:** An evening report: the last elements have completed the Sava crossing; one further enemy division has been observed marching toward Belgrade. No other events are reported. The closing reference remains damaged. This is the most likely interpretation of two imperfect witnesses, not an unedited decipherment of either one.\n\n**Notes:** The neighboring [p109 B source](../sources/excerpts/childs_p109_B.png) independently supplies `SAV?`, a damaged `UEBERGANG`, and the exact ending `ERKANNT`. It supports reading `BELGRAD ERKANNT`, rather than the earlier segmentation `BELGRADER KAVV`. The compact proposal has the same 124 positions as the target's earlier repair, retaining the source-like spelling `ABENDMELUNG` and the uninterpreted closing characters. Baertl's `UNTERBRINGUNG` version is six letters longer.\n\n## The neighboring witness\n\nSection B has 248 slots, six of them erased. It decrypts directly under `Nov1-3` to:\n\n**Raw output:**\n\n```text\nOX?XMXABENDM?LUNGXSAV?5UEB0RG4V?LA5ZTERXALLEBEENDETXHNEITAREFDLXD?VXIMEARSCHAUFBML7RADERKANNTXSONSTKEIVMEREIGNIXSE?XAXOXKX16\n```\n\nIt agrees with the earlier reconstructed target D at **200 known coordinates** and disagrees at **42**. The two printed timestamps and different endings remain unresolved. The [source-parallel certificate](../data/certificates/p109_parallel.json) preserves both witnesses and their independent transcription review.\n\nThe retained compact proposal using `SAVA` needs 23 further coordinate changes relative to each witness. Under the explicitly conditional common-plaintext model, 42 total disagreements are unavoidable; that proposal has 46, with its four extra disagreements confined to three plaintext positions. This quantifies the remaining editorial choice instead of treating fluent German as source evidence. The [editorial certificate](../data/certificates/editorial_readings.json) maps every change through the earlier target repair.\n\nThe source comparison and revised interpretation are by **icekylinx and GPT-6 Astra Pro**; Norbert retains the original target-reading credit.\n\n## Exact search over the competing readings\n\nThe [multi-witness decoder](../experiments/parallel_decoder/README.md) jointly\nscores German language and the exact coordinate disagreement with B and the\nexplicitly repaired D. It uses no proposed phrase as a crib. Dynamic\nprogramming finds the exact ten best strings under each stated objective and\nedit budget; the full minimum-cost model alone contains **2^42** possible\nplaintexts.\n\nAll 28 first-ranked results, spanning two language objectives, seven budgets\nand full-message/body-only scopes, share:\n\n**Search diagnostic — shared segment of ranked candidates; not an accepted recovery:**\n\n```text\nXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE\n```\n\nWithin those 47 positions, 33 are already unique in the minimum-cost source\ndomains and 14 are selected among competing letters. This agreement supports\nthe reading but does not turn the 14 choices into received evidence. The two\nlanguage objectives share a corpus, so their agreement is a sensitivity check.\n\n| Unresolved editorial choice | Exact source constraint |\n|---|---|\n| `SAVE` or `SAVA` | Equal combined cost. `SAVE` preserves every known B coordinate in the word; `SAVA` spends one change in B and one fewer in D. The final vowel remains unsettled. |\n| `UEBERGANG` | Requires two changes above the local minimum; selected by mixed four-/six-gram scoring once that budget is available. |\n| `TEILE` | Requires one change above the local minimum. It is a grammatical interpretation, but no reported top-ten language result selects it. |\n| Numeral, unit and closing reference | Remain editorial or unresolved. Language scores do not establish their identities. |\n\nThe historical spelling *Save* also occurs in the Austrian State Archives'\n[catalogue of a 26 October 1918 crossing order](https://www.archivinformationssystem.at/detail.aspx?ID=7182872).\nThe order's image was not inspected; this is nomenclature context only. The\ndecoder retains its garbled optima and all coordinate changes, including cases\nwhere a larger budget damages an otherwise plausible abbreviation.\n\n## Recomputed reading\n\nVariant `norbert18`; the reading is conditional on its recorded repairs.\n\n**Recomputed prior reading — under the recorded variant and repairs:**\n\n```text\nOXKXMXABECDPELUNGXS4V4XUMBJRGA8GLETZTEVTVILEBEEVUETX1WEITEDEFDUXNIV5IMMARSCH4UFBELGRADERKAVV2XSONSTKEINEEDMILNISSEXXASOXK511\n```\n\n## Review\n\nThe published raw decipherment is reproduced after its explicitly recorded edits. Residual garbles remain in the text; editorial normalization is listed separately.\n\n## Earlier published readings\n\n**Raw decryption — [Norbert, 2017-03-01, comment 18](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852658).**\n\nSame text as the recomputed reading above.\n\n**Editorial completion — [Max Baertl, 2017-03-11, comment 39](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-858010).**\n\n**Earlier attributed reading:**\n\n```text\nOXKXMXABENDMELDUNGXS4V4XUNTERBRINGUNGLETZTERTEILEBEENDETX1WEITERERDUXDIV5IMMARSCHAUFBELGRADERKAVVX2XSONSTKEINEEREIGNISSEXXASOXK511\n```\n\nPublished length 130; model length 124.\n\n## Verified variants\n\n| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |\n|---|---:|---|---|\n| `norbert18` | 124 / 124 | — | Yes |\n\nSource strings, edit positions, plaintext domains and attribution are retained in [the prior-reading certificate](../data/prior_readings.json). Re-encryption checks the stated reconstruction, including any conjectural repairs.\n",
+    "headings": [
+      "# p109 — Evening report and the Sava crossing",
+      "## Most likely reading",
+      "## The neighboring witness",
+      "## Exact search over the competing readings",
+      "## Recomputed reading",
+      "## Review",
+      "## Earlier published readings",
+      "## Verified variants"
+    ],
+    "inline_code": [
+      "?",
+      "X",
+      "Nov1-3",
+      "SAV?",
+      "UEBERGANG",
+      "ERKANNT",
+      "BELGRAD ERKANNT",
+      "BELGRADER KAVV",
+      "ABENDMELUNG",
+      "UNTERBRINGUNG",
+      "Nov1-3",
+      "SAVA",
+      "SAVE",
+      "SAVA",
+      "SAVE",
+      "SAVA",
+      "UEBERGANG",
+      "TEILE",
+      "norbert18",
+      "norbert18"
+    ],
+    "fences": [
+      {
+        "index": 0,
+        "text": "```text\nOX?XMXABENDM?LUNGXSAV?5UEB0RG4V?LA5ZTERXALLEBEENDETXHNEITAREFDLXD?VXIMEARSCHAUFBML7RADERKANNTXSONSTKEIVMEREIGNIXSE?XAXOXKX16\n```\n",
+        "sha256": "45f9df31b555acb4edf5deac7cf9a5ae830da927ce72a05aa452177be01eb059"
+      },
+      {
+        "index": 1,
+        "text": "```text\nXIMMARSCHAUFBELGRADERKANNTXSONSTKEINEEREIGNISSE\n```\n",
+        "sha256": "927953c92c4bfc17f0ce7d12da11e60bd5f228c88957257705566d11539d184f"
+      },
+      {
+        "index": 2,
+        "text": "```text\nOXKXMXABECDPELUNGXS4V4XUMBJRGA8GLETZTEVTVILEBEEVUETX1WEITEDEFDUXNIV5IMMARSCH4UFBELGRADERKAVV2XSONSTKEINEEDMILNISSEXXASOXK511\n```\n",
+        "sha256": "fd2f065eed965d22544d19c19a8463c6236dd07183f836bae6c70089586b6920"
+      },
+      {
+        "index": 3,
+        "text": "```text\nOXKXMXABENDMELDUNGXS4V4XUNTERBRINGUNGLETZTERTEILEBEENDETX1WEITERERDUXDIV5IMMARSCHAUFBELGRADERKAVVX2XSONSTKEINEEREIGNISSEXXASOXK511\n```\n",
+        "sha256": "5f6f7f6a4e6c508aa11ee8da9b4923b01fce571ba4f4d054c9da1acae120c960"
+      }
+    ]
+  }
+}

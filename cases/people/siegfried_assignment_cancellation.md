@@ -94,7 +94,7 @@ To reconstruct the actual source shape:
 4. Compare with the literal source: exactly seven observed substitutions and
    four dash fills remain, and no received source position has been deleted.
 
-This replay succeeds for both aliases. Ordinary encryption of the 200-letter
+This replay succeeds for both aliases. Ordinary encryption of the 200-position
 proposal into a 400-coordinate ciphertext is not presented as the source
 witness; the declared surplus stage is part of the verified reconstruction.
 

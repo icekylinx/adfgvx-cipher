@@ -113,3 +113,11 @@ python experiments/staatsbank_accounting_cheques/verify.py --verify --pdf /path/
 ```
 
 Optional PDF verification checks the original scan digest and exact source-crop pixels. No chronological or monetary claim is established merely by a numerical-looking decoded label.
+
+**Later copy evidence.** The [p172 D2 / p175 B2 reconciliation](../../experiments/accounting_copy_reconciliation/README.md)
+compares the two native second parts without changing this edition. They
+agree at 185 of 190 jointly observed source coordinates and have disjoint
+masks. This supplies two previously unknown labels to the conservative
+p175 reading; the final X remains a separately priced change in that copy.
+Neither complete source pair supports the proposed M in MARK or L in
+HAUPTWECHSELAMT, and the unresolved AM label remains VF in `{5, 6}`.

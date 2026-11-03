@@ -1,0 +1,39 @@
+{
+  "schema": "adfgvx-accounting-copy-reconciliation-input-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "key_id": "Nov7-9",
+  "sources": [
+    {
+      "id": "p172_D2",
+      "certificate": "experiments/staatsbank_accounting_cheques/certificates.json"
+    },
+    {
+      "id": "p175_B2",
+      "certificate": "experiments/hauptwechselamt_accounting/certificates.json"
+    }
+  ],
+  "unchanged_source_artifacts": {
+    "experiments/hauptwechselamt_accounting/inputs.json": "cd5737f59f06d784d516002efca46548a317a623bce6168528bca7dbdaf955c7",
+    "experiments/hauptwechselamt_accounting/certificates.json": "a58c114a6aaf760be49bf46248b6acfd2e9edd83496b07ed55d1254d75d35d27",
+    "experiments/hauptwechselamt_accounting/sources/p175_B.png": "6617194d331f13df625acf5854ce20b40b995240f425f9a268f275bfcd0cc554",
+    "experiments/staatsbank_accounting_cheques/inputs.json": "9dc1485bc203806252edba6e02c20a7fac141ef3445630a50d0c806b0a5cc9e2",
+    "experiments/staatsbank_accounting_cheques/certificates.json": "53e0d3f5760c1c0b24b064d2cf8aefa292f0aae8f36e3d046da689ac2d556860",
+    "experiments/staatsbank_accounting_cheques/sources/p172_reviewed.png": "b48525735d65e54d39a8b57f4d4aaf24b9156076b6cd5613e2f81992ae737774",
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1"
+  },
+  "p175_conservative_copy_supported_template": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM?XGESANDTECHEKSXHAUPTWECHSELAMT89240911?",
+  "separate_common_copy_template": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM?XGESANDTECHEKSXHAUPTWECHSELAMT89240911X",
+  "source_headers": {
+    "p172_D2": "D) LP v NKJ (6.06 p.m., November 11th); VON UKS LP 2127 (9/11) 2 TLE; 2 TL RICHI-204",
+    "p175_B2": "B) LP v NKJ (6.02 p.m., November 10th); 2 TL RICHI-204"
+  },
+  "limits": [
+    "Both pre-existing physical records retain their own dates, source glyphs, native frames, original editions and prior credit. No source record is added.",
+    "The comparison supplies evidence for a common second-part text; it does not independently recover the missing first-part ciphertext at p175 or prove identical complete telegrams.",
+    "Only the two literal labels 1 and 9 are added to the old conservative p175 edition without additional observed-coordinate changes. Its final VF label remains unknown and coupled to the AM field.",
+    "The separate full common-copy candidate additionally changes p175 source153 F to V. The resulting X ending is supported by p172 but is not native to p175.",
+    "Two ordinary-word repairs are not supplied by either complete observed source pair. The common-copy assumption does not turn these editorial choices into directly witnessed text.",
+    "The unchanged partial square has two global completions; no historical choice of VF or XA is made, and reference labels are not payment amounts.",
+    "All bounded minima are against the fixed stated reading and model, not a claim of unique historical wording or error mechanism."
+  ]
+}
