@@ -1,0 +1,131 @@
+{
+  "schema": "adfgvx-newspaper-dispatch-witnesses-input-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "author": "J. Rives Childs",
+    "title": "General Solution of the ADFGVX Cipher System",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 166,
+    "pdf_page_1based": 169,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "header_lines": [
+      "Intercepted by British stations",
+      "9th NOVEMBER,1918",
+      "B) NKJ v UKS (9.27 p.m., November 9th)",
+      "AN LP1858 2 TLE",
+      "1 TL RICHI-200",
+      "2 TL RICHI-186"
+    ]
+  },
+  "source_images": [
+    {
+      "path": "sources/p166_B1.png",
+      "pdf_page_1based": 169,
+      "crop_rectangle_pdf_points": [
+        110,
+        401,
+        548,
+        488
+      ],
+      "render_scale": 4,
+      "sha256": "17559ea0dbf97061d26677f01e4375ce30178861572c378ff651415215e01761"
+    },
+    {
+      "path": "sources/p166_B2.png",
+      "pdf_page_1based": 169,
+      "crop_rectangle_pdf_points": [
+        120,
+        491,
+        548,
+        548
+      ],
+      "render_scale": 4,
+      "sha256": "6dd167481f88f254ae84e898ecafab5d10f53a685d13e0b38a85fec79883ab19"
+    }
+  ],
+  "keys": {
+    "Nov7-9": {
+      "id": "Nov7-9",
+      "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ]
+    }
+  },
+  "prior_credit": {
+    "published_keys": "Lasry, Niebel, Kopal and Wacker; Cryptologia author paper, DOI10.1080/01611194.2016.1169461.",
+    "prior_evidence_sha256": "7c3c9f79b95954c383851aeaa9f4dbfc90a81a4caf3aa8cfe4537cc16be58739",
+    "existing_source_package": "experiments/newspaper_dispatch",
+    "existing_inputs_sha256": "3de0d40b8e810e396cf53d5dc9ef3245646971a63314a695093287dc7ab573c0",
+    "existing_certificates_sha256": "ce14e4a21448c431d83343896cbd390f37ad0aff83d8dc75fd426e5d8310fcf4"
+  },
+  "records": [
+    {
+      "id": "p166_B1",
+      "printed_page": 166,
+      "key_id": "Nov7-9",
+      "source_rows": [
+        "DVXAA AAXDX GGDAA XFDXD FFDVX DDDDX GVVVV DXGAV",
+        "DVVGD GVXDG FADAG GVFDD GDDXD GDGDA AGVXG DGGXD",
+        "GXDDD DAADD VDVVF VDGVV VGDVD VVDGD XDXDX GGXGV",
+        "XGVVV XDDVX AGVVG GXGGD XVDGV VVAVD AGAXD XDVXX",
+        "VXXVD DXVGX XXGXQ XVVGD GDDDD FDXGG XAGGD DAGVD"
+      ],
+      "advertised_length": 200,
+      "literal_source_slots": 200,
+      "expected_raw": "OBERPOBTDIREKTIONBRESLAUXGESTERNUNDHEUTEBERLI?ERZEITUNGSSAECKEUEBERORSOVAHIEREINGEGANGENXVERANLASSET",
+      "editorial_template": "OBERPOSTDIREKTIONBRESLAUXGESTERNUNDHEUTEBERLINERZEITUNGSSAECKEUEBERORSOVAHIEREINGEGANGENXVERANLASSET",
+      "pair_overrides": []
+    },
+    {
+      "id": "p166_B2",
+      "printed_page": 166,
+      "key_id": "Nov7-9",
+      "source_rows": [
+        "XXXDD XGFFX FDDFD VXAXG ADVGV VXAVX VFAVD GGXXV",
+        "GXVXX GDGXA ADDXG GFDDA DAAAG DADXD DDFGA DXDGD",
+        "FDGXX DXDFV VVVXX DVXGV XXGXX GFVAV VVGAV VAXAV",
+        "GFGVX XVADV DVVGX VV--- ----- ----- ----- -----",
+        "----- ----- ----- ----- ----- -"
+      ],
+      "advertised_length": 186,
+      "literal_source_slots": 186,
+      "expected_raw": "SQF?Y?3???BEF?E?D???NGA?F?E???MWE?S?V???UES?E?S???3UN?3?8???E?T?C?E???D?O?T?I???T?O?R?J???I?N",
+      "editorial_template": "SOFORTPOSTBEFOERDERUNGAUFSELBEMWEGEXVORZUGSWEISE7?3UND308XXDEUTSCHEFELDPOSTDIREKTIONRUMAENIEN",
+      "pair_overrides": [
+        {
+          "plaintext_position_0based": 49,
+          "pair": "XA"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Both p166 frames retain their exact native200/186 lengths. B1 has one literal Q-shaped noncoordinate glyph at174; B2 has49 printed dashes at137..185.",
+    "The existing p171 editorial body is the stated target of this witness comparison. It is not a fresh blind plaintext prediction, and existing p171 repairs remain unchanged.",
+    "B1 has all100 common coordinate pairs fully observed in at least one copy. B2 has88 such complete pairs,2 pairs assembled from observed halves, and3 still editorial pair choices.",
+    "The B in SELBEM and R in VORZUGSWEISE are supported by mixed observed halves from the two copies, not whole pairs directly read in p166.",
+    "The O in SOFORT, P in POST and D in DEUTSCHE still require unsupported source changes. Under fixed frame equality the candidate common stream costs14 total observed substitutions, above the coordinate-only minimum10. This is not a minimum-cost or unique-wording claim.",
+    "The raw XA cell at priority position49 still has baseline domain56. Its missing p166 coordinate is copied from a directly observed p171 coordinate; this supplies a coordinate, not a digit assignment.",
+    "The earlier optional753 historical interpretation remains separate and supplies no independent evidence in this comparison."
+  ]
+}

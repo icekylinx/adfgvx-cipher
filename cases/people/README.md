@@ -4,7 +4,7 @@
 
 Appointments, staff transfers, travel permissions, personnel inquiries and civilian affairs are collected here.
 
-**22 reviewed physical records across 10 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**28 reviewed physical records across 12 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -12,9 +12,11 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 |---|---|
 | [p92 A — Dutch courier Vreede's passage to Constantinople](p92_A.md) | p92 A |
 | [p96 B — Entry permission for Filittis and family](p96_B.md) | p96 B |
+| [Return to a replacement unit on medical grounds](medical_return_to_unit.md) | p104 C1, p104 C2 |
 | [Kremp's request for a departure date — p131, p149 and p159](kremp.md) | p131 B, p149 B, p159 D |
 | [Osthoff's posting to Turkey is cancelled](osthoff.md) | p138 A1, p138 A2, p148 C1, p149 A2 |
 | [An enquiry about Glatz's whereabouts](glatz.md) | p140 B, p149 C |
+| [Siegfried and Osthoff: later military-mission recall messages](military_mission_recalls.md) | p161 C1, p161 C2, p161 D1, p161 D2 |
 | [The Namur order: two witnesses for Staedt and Weiher](namur_order_witnesses.md) | p171 C, p172 E |
 | [p203 C / p210 C — inquiries about Richter in Aleppo](richter_aleppo.md) | p203 C, p210 C |
 | [p210 B — Consul Burkhardt's oil-company assignment](p210_B.md) | p210 B |
@@ -27,6 +29,8 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 |---|---|---|---|
 | [p92 A](p92_A.md) | Dutch courier Vreede to travel via Braila to Constantinople | 214/214 raw positions; one explicit word repair | icekylinx and GPT-6 Astra Pro (2026) |
 | [p96 B](p96_B.md) | Entry permission for Filittis and family | 180/181 raw positions; Copenhagen repair costed | icekylinx and GPT-6 Astra Pro (2026) |
+| [p104 C1](medical_return_to_unit.md) | Conditional medical-return report opening; visible short GAGA group and three equal-A positions | 227 source slots against 228; conditional 113/114 raw labels; 3 substitutions and 1 missing transmitted A; all 3 arithmetic minima retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+| [p104 C2](medical_return_to_unit.md) | Return to replacement unit for recovery; literal RETTERL/KETTERL closing retained | 70/70 raw labels; 1 word repair; MARSH and both name tokens retained | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p131 B](kremp.md) | Kremp asks for his departure date | 82/84 raw positions; later second-key body supports repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p138 A1](osthoff.md) | Osthoff's Turkey posting cancelled, first witness | Missing group supplied by p148; all 121 candidate letters witnessed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p138 A2](osthoff.md) | Osthoff reassigned to a railway replacement battalion | Shared source garbles; three proposed word repairs | icekylinx and GPT-6 Astra Pro (2026) |
@@ -36,6 +40,10 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [p149 B](kremp.md) | Kremp reports recovery and asks for departure instructions | 84/84 raw positions with three garbles; later key supplies readable body | icekylinx and GPT-6 Astra Pro (2026) |
 | [p149 C](glatz.md) | Enquiry about Glatz's whereabouts | Parallel with four coordinate disagreements; raw errors retained | icekylinx and GPT-6 Astra Pro (2026) |
 | [p159 D](kremp.md) | Kremp recovered and requests a departure date | 98/98 positions, 196/196 coordinates unchanged | icekylinx and GPT-6 Astra Pro (2026) |
+| [p161 C1](military_mission_recalls.md) | Siegfried posting cancellation, first part | 99/102 fixed positions; 4 observed-coordinate substitutions and 4 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
+| [p161 C2](military_mission_recalls.md) | Siegfried mission assignment cancelled and cabinet-order closing | 77/77 fixed positions; 0 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
+| [p161 D1](military_mission_recalls.md) | Osthoff posting and mission assignment cancelled | 127/127 fixed positions; 2 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
+| [p161 D2](military_mission_recalls.md) | Osthoff railway battalion reassignment and cabinet-order closing | 95/95 fixed positions; 0 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
 | [p171 C](namur_order_witnesses.md) | Namur order for Staedt to contact HPT V. Weiher; complementary source witness | 252 received slots; six substitutions and four printed fills reconcile the 126-position body with p172 E; INSP1IN retained | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. key and earlier unreviewed C candidate retained; neighboring published body attribution distinguished |
 | [p172 E](namur_order_witnesses.md) | Namur order for Staedt to contact HPT V. Weiher; complementary source witness | 242 received slots plus 10 modeled missing prefix coordinates; five substitutions and ten witnessed prefix fills; same 126-position body as p171 C | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. key and earlier unreviewed C candidate retained; neighboring published body attribution distinguished |
 | [p203 C](richter_aleppo.md) | Inquiry about Richter at the Aleppo radio park | 93/96 raw positions; postal digits remain coupled and unknown | icekylinx and GPT-6 Astra Pro (2026) |

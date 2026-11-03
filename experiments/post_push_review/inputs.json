@@ -7,7 +7,7 @@
   "review_finished_utc": null,
   "initial_public_head": "c4c2562f41dd4624f7202962db68ef9e746f50f2",
   "start_catalog_sha256": "50784e7b1a7a51a8e4224a088cdaec21a6c6f25285d869b5049110a667630e75",
-  "final_catalog_sha256": "d47242b488be0bfd36808492a949c805fbc4973c6800fd23ad996bb3d405b68c",
+  "final_catalog_sha256": "9d75f880be00681f70534e0dbe27740f2b7b61e04261814ec4f936aa72300145",
   "source_pdf": {
     "sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
     "bytes": 156848258,
@@ -1003,11 +1003,438 @@
         "source_deletions": 0,
         "published_key_changed": false
       }
+    },
+    {
+      "name": "wallachia_withdrawal_preparations",
+      "record_ids": [
+        "p150_B1",
+        "p150_B2",
+        "p150_B3",
+        "p150_B4",
+        "p150_B5"
+      ],
+      "case_pages": [
+        "cases/military/wallachia_withdrawal_preparations.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 5,
+        "source_slots": 1012,
+        "modeled_plaintext_positions": 506,
+        "fixed_raw_label_positions_under_stated_geometry": 466,
+        "known_coordinate_substitutions": 9
+      },
+      "original_summary": {
+        "physical_source_parts": 5,
+        "literal_source_slots": 1012,
+        "working_coordinates": 1012,
+        "source_erasure_slots": 41,
+        "plaintext_positions": 506,
+        "raw_fixed_positions": 466,
+        "edition_fixed_positions": 505,
+        "known_coordinate_substitutions": 9,
+        "source_erasure_fills": 39,
+        "remaining_source_erasure_slots": 2,
+        "added_coordinates": 0,
+        "deleted_coordinates": 0,
+        "reordered_blocks": 0,
+        "baseline_key_changes": 0,
+        "new_numeral_assignments": 0
+      }
+    },
+    {
+      "name": "apparatus_sale_request",
+      "record_ids": [
+        "p157_B1",
+        "p157_B2"
+      ],
+      "case_pages": [
+        "cases/radio/apparatus_sale_request.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 442,
+        "modeled_plaintext_positions": 221,
+        "fixed_raw_label_positions_under_stated_geometry": 202,
+        "known_coordinate_substitutions": 6
+      },
+      "original_summary": {
+        "physical_source_parts": 2,
+        "literal_source_slots": 442,
+        "working_coordinates": 442,
+        "source_erasure_slots": 19,
+        "plaintext_positions": 221,
+        "raw_fixed_positions": 202,
+        "edition_fixed_positions": 220,
+        "known_coordinate_substitutions": 6,
+        "source_erasure_fills": 18,
+        "remaining_source_erasure_slots": 1,
+        "added_coordinates": 0,
+        "deleted_coordinates": 0,
+        "reordered_blocks": 0,
+        "baseline_key_changes": 0,
+        "new_numeral_assignments": 0
+      }
+    },
+    {
+      "name": "radio_contacts_and_keys",
+      "record_ids": [
+        "p100_B",
+        "p100_C",
+        "p137_D",
+        "p142_A",
+        "p142_B",
+        "p142_C",
+        "p150_A2"
+      ],
+      "case_pages": [
+        "cases/caucasus/representative_retention.md",
+        "cases/military/budapest_wire_break.md",
+        "cases/military/dobrudscha_report.md",
+        "cases/radio/radio_contacts_and_keys.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 7,
+        "source_slots": 1290,
+        "modeled_plaintext_positions": 645,
+        "fixed_raw_label_positions_under_stated_geometry": 642,
+        "known_coordinate_substitutions": 13
+      },
+      "original_summary": {
+        "source_records": 7,
+        "source_slots": 1290,
+        "valid_received_coordinates": 1287,
+        "plaintext_positions": 645,
+        "raw_fixed_positions": 642,
+        "known_coordinate_substitutions": 13,
+        "source_erasure_fills": 3,
+        "coordinate_insertions_or_removals": 0,
+        "published_square_changes": 0
+      }
+    },
+    {
+      "name": "hermannstadt_radio_report",
+      "record_ids": [
+        "p216_A1",
+        "p216_A2",
+        "p216_A3",
+        "p216_A4"
+      ],
+      "case_pages": [
+        "cases/radio/hermannstadt_radio_report.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 932,
+        "modeled_plaintext_positions": 465,
+        "fixed_raw_label_positions_under_stated_geometry": 464,
+        "known_coordinate_substitutions": 12
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 932,
+        "valid_source_coordinates": 931,
+        "modeled_coordinates": 930,
+        "plaintext_positions": 465,
+        "baseline_fixed_positions": 464,
+        "candidate_fixed_positions": 465,
+        "known_coordinate_substitutions": 12,
+        "printed_erasure_fills": 1,
+        "printed_erasure_positions_retained": 0,
+        "missing_coordinate_fills": 0,
+        "source_deletions": 2,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "military_mission_recalls",
+      "record_ids": [
+        "p161_C1",
+        "p161_C2",
+        "p161_D1",
+        "p161_D2"
+      ],
+      "case_pages": [
+        "cases/people/military_mission_recalls.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 802,
+        "modeled_plaintext_positions": 401,
+        "fixed_raw_label_positions_under_stated_geometry": 394,
+        "known_coordinate_substitutions": 6
+      },
+      "original_summary": {
+        "physical_source_parts": 4,
+        "literal_source_slots": 802,
+        "working_coordinates": 802,
+        "source_masked_slots": 5,
+        "printed_erasure_slots": 5,
+        "noncoordinate_source_masks": 0,
+        "plaintext_positions": 401,
+        "raw_fixed_positions": 394,
+        "edition_fixed_positions": 398,
+        "known_coordinate_substitutions": 6,
+        "source_erasure_fills": 4,
+        "remaining_source_erasure_slots": 1,
+        "added_coordinates": 0,
+        "deleted_coordinates": 0,
+        "reordered_blocks": 0,
+        "baseline_key_changes": 0,
+        "new_numeral_assignments": 0
+      }
+    },
+    {
+      "name": "constantinople_address_parts",
+      "record_ids": [
+        "p147_C1",
+        "p148_B1",
+        "p156_C1"
+      ],
+      "case_pages": [
+        "cases/radio/constantinople_address_parts.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 526,
+        "modeled_plaintext_positions": 263,
+        "fixed_raw_label_positions_under_stated_geometry": 262,
+        "known_coordinate_substitutions": 2
+      },
+      "original_summary": {
+        "physical_source_parts": 3,
+        "literal_source_slots": 526,
+        "working_coordinates": 526,
+        "source_masked_slots": 1,
+        "printed_erasure_slots": 0,
+        "noncoordinate_source_masks": 1,
+        "plaintext_positions": 263,
+        "raw_fixed_positions": 262,
+        "edition_fixed_positions": 262,
+        "known_coordinate_substitutions": 2,
+        "source_erasure_fills": 0,
+        "remaining_source_erasure_slots": 1,
+        "added_coordinates": 0,
+        "deleted_coordinates": 0,
+        "reordered_blocks": 0,
+        "baseline_key_changes": 0,
+        "new_numeral_assignments": 0
+      }
+    },
+    {
+      "name": "bidirectional_deciphering",
+      "record_ids": [
+        "p138_B"
+      ],
+      "case_pages": [
+        "cases/radio/opposite_end_deciphering.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 105,
+        "modeled_plaintext_positions": 52,
+        "fixed_raw_label_positions_under_stated_geometry": 51,
+        "known_coordinate_substitutions": 2
+      },
+      "original_summary": null
+    },
+    {
+      "name": "retrieved_copy_editions",
+      "record_ids": [
+        "p137_B4",
+        "p137_C",
+        "p195_A2"
+      ],
+      "case_pages": [
+        "cases/finance/crown_banknote_completion.md",
+        "cases/military/armistice_clause_witnesses.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 444,
+        "modeled_plaintext_positions": 222,
+        "fixed_raw_label_positions_under_stated_geometry": 221,
+        "known_coordinate_substitutions": 3
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "earlier_records_not_counted": 3,
+        "printed_source_slots": 444,
+        "valid_source_coordinates": 444,
+        "modeled_coordinates": 444,
+        "plaintext_positions": 222,
+        "baseline_fixed_positions": 221,
+        "candidate_fixed_positions": 222,
+        "known_coordinate_substitutions": 3,
+        "new_source_mask_fills": 0,
+        "new_source_length_changes": 0,
+        "previously_missing_banknote_coordinates_witnessed": 19,
+        "earlier_banknote_fill_choices_corroborated": 11,
+        "earlier_banknote_fill_choices_contradicted": 1,
+        "baseline_keys_changed": false
+      }
+    },
+    {
+      "name": "palestine_medical_dissolution",
+      "record_ids": [
+        "p79_A1",
+        "p79_A2"
+      ],
+      "case_pages": [
+        "cases/military/palestine_medical_dissolution.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 598,
+        "modeled_plaintext_positions": 299,
+        "fixed_raw_label_positions_under_stated_geometry": 298,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_source_parts": 2,
+        "literal_source_slots": 598,
+        "working_coordinates": 598,
+        "source_masked_slots": 1,
+        "printed_erasure_slots": 0,
+        "noncoordinate_source_masks": 1,
+        "plaintext_positions": 299,
+        "raw_fixed_positions": 298,
+        "edition_fixed_positions": 299,
+        "known_coordinate_substitutions": 0,
+        "source_erasure_fills": 1,
+        "remaining_source_erasure_slots": 0,
+        "added_coordinates": 0,
+        "deleted_coordinates": 0,
+        "reordered_blocks": 0,
+        "baseline_key_changes": 0,
+        "new_numeral_assignments": 0
+      }
+    },
+    {
+      "name": "newspaper_dispatch_witnesses",
+      "record_ids": [
+        "p166_B1",
+        "p166_B2"
+      ],
+      "case_pages": [
+        "cases/radio/newspaper_dispatch_witnesses.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 386,
+        "modeled_plaintext_positions": 193,
+        "fixed_raw_label_positions_under_stated_geometry": 143,
+        "known_coordinate_substitutions": 8
+      },
+      "original_summary": {
+        "physical_source_parts": 2,
+        "literal_source_slots": 386,
+        "working_coordinates": 386,
+        "source_masked_slots": 50,
+        "printed_erasure_slots": 49,
+        "noncoordinate_source_masks": 1,
+        "plaintext_positions": 193,
+        "raw_fixed_positions": 143,
+        "edition_fixed_positions": 192,
+        "known_coordinate_substitutions": 8,
+        "source_erasure_fills": 50,
+        "remaining_source_erasure_slots": 0,
+        "added_coordinates": 0,
+        "deleted_coordinates": 0,
+        "reordered_blocks": 0,
+        "baseline_key_changes": 0,
+        "new_numeral_assignments": 0
+      }
+    },
+    {
+      "name": "inventory_and_medical_return",
+      "record_ids": [
+        "p86_A",
+        "p104_C1",
+        "p104_C2"
+      ],
+      "case_pages": [
+        "cases/military/mg08_inventory.md",
+        "cases/people/medical_return_to_unit.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 665,
+        "modeled_plaintext_positions": 333,
+        "fixed_raw_label_positions_under_stated_geometry": 332,
+        "known_coordinate_substitutions": 6
+      },
+      "original_summary": {
+        "source_records": 3,
+        "source_slots": 665,
+        "valid_received_coordinates": 665,
+        "ordinary_frame_positions": 219,
+        "conditional_raw_fixed_positions": 113,
+        "conditional_plaintext_positions": 114,
+        "known_coordinate_substitutions": 6,
+        "source_erasure_fills": 0,
+        "missing_transmitted_coordinates": 1,
+        "equivalent_minimum_insertion_positions": 3,
+        "source_local_minimum_positions": 2,
+        "retrospective_template_positions_priced": 228,
+        "published_square_changes": 0
+      }
+    },
+    {
+      "name": "transylvania_situation_report",
+      "record_ids": [
+        "p128_B1",
+        "p129_A7",
+        "p129_A8",
+        "p137_A4",
+        "p137_A5"
+      ],
+      "case_pages": [
+        "cases/military/transylvania_situation_report.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 5,
+        "source_slots": 1057,
+        "modeled_plaintext_positions": 550,
+        "fixed_raw_label_positions_under_stated_geometry": 499,
+        "known_coordinate_substitutions": 6
+      },
+      "original_summary": {
+        "physical_records": 5,
+        "additional_unread_contextual_fragments": 1,
+        "printed_source_slots": 1057,
+        "valid_source_coordinates": 1049,
+        "modeled_coordinates": 1100,
+        "plaintext_positions": 550,
+        "baseline_fixed_positions": 499,
+        "candidate_fixed_positions": 530,
+        "known_coordinate_substitutions": 6,
+        "printed_erasure_fills": 7,
+        "printed_erasure_positions_retained": 1,
+        "missing_coordinate_fills": 24,
+        "missing_coordinates_retained": 19,
+        "source_deletions": 0,
+        "published_key_changed": false,
+        "historical_message_total_parts": 8,
+        "readable_surviving_parts": [
+          1,
+          4,
+          5,
+          7,
+          8
+        ],
+        "contextual_unread_part": 6,
+        "parts_not_located": [
+          2,
+          3
+        ]
+      }
     }
   ],
   "additional_packages": [
     "nov25_letter_constraint",
-    "p198_pretransposition_loss"
+    "p198_pretransposition_loss",
+    "nov22_nikolajew_constraint",
+    "post_push_copy_retrieval"
   ],
   "artifact_sha256s": {
     "experiments/crown_airlift/README.md": "09e242c2345f1d5832ddd5114af276426d4aeae6fde765d98f064db4d966da0b",
@@ -1310,6 +1737,131 @@
     "experiments/hermannstadt_cash_transport/sources/p216_B2.png": "c942562d22986259bf03607ccc11546bfe93eafc27110f4b50d717f065852db9",
     "experiments/hermannstadt_cash_transport/sources/p216_heading.png": "040534121918e537bba34a3ea688ee33dbf85feaad7e64c8abe0cba082ee11b1",
     "experiments/hermannstadt_cash_transport/verify.py": "ab84d649c456256a8d5a52617b8b0c5656227acf31d4351b84ca898d7edb15be",
+    "experiments/wallachia_withdrawal_preparations/README.md": "5d86dffbac8a7194c7821f9b6caa966c77e39a0fbc1b71c4205989f2591899fa",
+    "experiments/wallachia_withdrawal_preparations/catalog_proposal.json": "ee086ed60190a607bbb9fefaf7c41c5992ea75b1fd112dffa335cba500ff3de9",
+    "experiments/wallachia_withdrawal_preparations/certificates.json": "b051c8093393f6d029f38e7e73fec2cae0b40bd8b188afc8c415f85337f0b568",
+    "experiments/wallachia_withdrawal_preparations/inputs.json": "cd424847f1214aa788bcb5c50fab7447e02a84faf9b19218ca559fd30f227500",
+    "experiments/wallachia_withdrawal_preparations/prior_candidates.json": "2f405b499caeaf505d121c54a93e1646bdc9c3a67c261fce2d11c65abd81f618",
+    "experiments/wallachia_withdrawal_preparations/sources/p150_B1.png": "b3835040830971717c24fae0c9afe918ec88bd675f5a98fa2301bf3c9f2052f7",
+    "experiments/wallachia_withdrawal_preparations/sources/p150_B2.png": "09430b397e5345b49d4aabb2e5fe69498d610f6687efa243e6274f1fdf0a4347",
+    "experiments/wallachia_withdrawal_preparations/sources/p150_B3.png": "cd3e8fc4f4a93d4f2c6abd2a799d88edc17d76df53a52eb743c9d6c39906cfe7",
+    "experiments/wallachia_withdrawal_preparations/sources/p150_B4.png": "a8ae9ec55340e166704d20628702c70fe83f8f85ce4068248735c65789575db3",
+    "experiments/wallachia_withdrawal_preparations/sources/p150_B5.png": "da060b085886d74b4a3af45e5a20598c753bbe0951cb40db2d35ba7570eef570",
+    "experiments/wallachia_withdrawal_preparations/verify.py": "235e741a8c07582d8e3156af674b0161aa81d015fc8aa8165b193c54fb0d3d45",
+    "experiments/apparatus_sale_request/README.md": "cabd2107523a7db3595e36e84b529d33518fc4cde921c99415c6959e558296cd",
+    "experiments/apparatus_sale_request/catalog_proposal.json": "5e221c6f9ad6c0ebe40edbbdf47cf67a295d483c9f94e9b4a9fb45f1d585994b",
+    "experiments/apparatus_sale_request/certificates.json": "43eb36cbc8e66dc1919c9e333cc30201ba5caaf3bf6292d83e89f191122c496a",
+    "experiments/apparatus_sale_request/inputs.json": "b5ea8c0e6706f5110bae9c8de0a10cb2ea9ee71180fd77d07f80d2cc00cff980",
+    "experiments/apparatus_sale_request/prior_candidates.json": "890c6222849273246f9b8e6ab1d40be9ce93b367ff9a229419b3654e5962490a",
+    "experiments/apparatus_sale_request/sources/p157_B1.png": "8bbf615f63fff9c343ede3934c1abe17a1aba3037790d18fdb5c11d56a434fa0",
+    "experiments/apparatus_sale_request/sources/p157_B2.png": "4755d68456b6cecd6c53605eedadad261908cec6ca940c00c28d1b2ff59e027a",
+    "experiments/apparatus_sale_request/verify.py": "235e741a8c07582d8e3156af674b0161aa81d015fc8aa8165b193c54fb0d3d45",
+    "experiments/radio_contacts_and_keys/README.md": "163bd797c00f1f5a9e57bf44976e97fb1f6f472a7a02650be31234c3286e959f",
+    "experiments/radio_contacts_and_keys/catalog_proposal.json": "a051246df63f2ec6a09abe20d9c55d16645d0e0832f2e461fcee32327eddd138",
+    "experiments/radio_contacts_and_keys/certificates.json": "53fd79ed742e4226c3cfdb6774ce1bbf70f42e81333d5cd63ee4696a6c96b7eb",
+    "experiments/radio_contacts_and_keys/inputs.json": "87487f9517fb468dfaeb735e0921ec5b8bfd3d31e048fab5f9abbe7b6c484633",
+    "experiments/radio_contacts_and_keys/sources/childs_p100_B.png": "0e2d53c5cb13fd4a2bcfd7fa838bf845234538b1b0887810b249d52e8b0da49b",
+    "experiments/radio_contacts_and_keys/sources/childs_p100_C.png": "ca57c1ef40fe15fdb3f6394ea5b1ed13856b08000e7154a47cf28fde1789de2f",
+    "experiments/radio_contacts_and_keys/sources/childs_p100_full.png": "2a582632190995fe133683688f87ae8b6b84013d88e34479a919590023301f0d",
+    "experiments/radio_contacts_and_keys/sources/childs_p137_D.png": "1dd246e9719467cb1325d27d902ef1433001375a5cf3085f9c355723030631d0",
+    "experiments/radio_contacts_and_keys/sources/childs_p137_full.png": "7449b571d91ba531a9505df6473afcb7104cbb0e73a1b50d81cb963b72f6e6b7",
+    "experiments/radio_contacts_and_keys/sources/childs_p142_A.png": "8a57739a5014087c1d5397a64cd3789ea2939ce425ce4e6d438e57b1a27afa4c",
+    "experiments/radio_contacts_and_keys/sources/childs_p142_B.png": "16bb7f95b73cb0226fb626a42bc9520a5a4960f33d2fc6b3780b3312f683dfb2",
+    "experiments/radio_contacts_and_keys/sources/childs_p142_C.png": "20636ab224e0abe30db1d86bcffacece7fc67d423eef40bdccdb6eb261196550",
+    "experiments/radio_contacts_and_keys/sources/childs_p142_full.png": "7f07ed9fba501c6633ff15e52afc005aadca5d26f7a3d45d9a8ed40e4d16649c",
+    "experiments/radio_contacts_and_keys/sources/childs_p150_A2.png": "1eaa91827785e4503b3a9461765960b4b35375a90fe80b8052b6bce0a6bb08f3",
+    "experiments/radio_contacts_and_keys/sources/childs_p150_full.png": "52660611600e5de58605362da43151a9359553f5e2790d29f97dd7edab106117",
+    "experiments/radio_contacts_and_keys/verify.py": "5fb895485ca93f016d5d0c226359e05fbc307efe3f2a523068d655810b8cfd14",
+    "experiments/hermannstadt_radio_report/README.md": "d41492fa4a59028536428d865fa5009667c8059896f85a01af623cf4e97ea042",
+    "experiments/hermannstadt_radio_report/catalog_proposal.json": "52f921f93b265e4e6b44dc3671e6846b516448328c97b0cf2ce86b6d7fd56b28",
+    "experiments/hermannstadt_radio_report/certificates.json": "2162d5aa2e3565fefed96899e016d8e8a2c71820621a857b6a121bafacd12601",
+    "experiments/hermannstadt_radio_report/inputs.json": "b7e8e5efd3422594b562c961f609f9a53c0e0550fc5afbc0229b68957b8aa87f",
+    "experiments/hermannstadt_radio_report/sources/p216_A1.png": "5e64d7247f3e5396c47851b903833bacf43a65823093fca2982e7acbec26b964",
+    "experiments/hermannstadt_radio_report/sources/p216_A2.png": "d3b16c16664ebd1fae69acbd1d49fad123604eb533568982018a09fb229c4556",
+    "experiments/hermannstadt_radio_report/sources/p216_A3.png": "2133ce171d9461d86cad7f3c6c391525c25cc39f2ab687eecdc82683c0bce764",
+    "experiments/hermannstadt_radio_report/sources/p216_A4.png": "569c7a4461b1e9778fa81ffe2c5c3f3836df7f78c96dda5aa1d64129751f4636",
+    "experiments/hermannstadt_radio_report/sources/p216_heading.png": "040534121918e537bba34a3ea688ee33dbf85feaad7e64c8abe0cba082ee11b1",
+    "experiments/hermannstadt_radio_report/verify.py": "cd2d472454476539fd5d71e6816ea3795d39f1e4259188f2257977a24954af9a",
+    "experiments/military_mission_recalls/README.md": "7b191f7d6ffc3eef5875119385f7b399943bb7c629a2b7da65a7b5bc8c1e840c",
+    "experiments/military_mission_recalls/catalog_proposal.json": "8b021306e63ab403dd36e1d6dfab1bb91ba36dd9b7f746dd57ef6b4f71676cf3",
+    "experiments/military_mission_recalls/certificates.json": "8bc497245cbee908c0fcbe7cb4c8c30eeef80c7f241810c2cbc15e64e85aec38",
+    "experiments/military_mission_recalls/inputs.json": "76d0e6ffbe90aa0822538fb40fa3fa571caf37764531166dcf080a108baaf3f7",
+    "experiments/military_mission_recalls/prior_candidates.json": "cba110038045e26bc60a582cbd7cc2834c445dba622e617515f0b9ff188c3151",
+    "experiments/military_mission_recalls/prior_osthoff_witness.json": "4ca81bd14c4fdb06801636f38d8e5679e1e657dd28f72eb0bde18f08021aba74",
+    "experiments/military_mission_recalls/sources/p161_C1.png": "06475aaf6536559066de14376c6ea3bacfc2c4c17b7081358290a3bae8a542ec",
+    "experiments/military_mission_recalls/sources/p161_C2.png": "ec1f46b495873d75639c8ee3a6b6f6f1931c6da32165dda8a99c16acc5e4a8d0",
+    "experiments/military_mission_recalls/sources/p161_D1.png": "89a28f2efb80587be184f8521fa20d647f6f87a17ff13d1a4152785f2c5f5463",
+    "experiments/military_mission_recalls/sources/p161_D2.png": "aac91de3375efb0d661d6cd285ee5a589e6c65a70bf1db50b65207141d7d3219",
+    "experiments/military_mission_recalls/verify.py": "db1aaf5edba98e49eb64feaeaf21edc62a2a6ef7249f4d7e9a37023711450c09",
+    "experiments/constantinople_address_parts/README.md": "d206e0e65e43e75f3e239fb89656a49a663fa2ba82371a8a67c05bab235c5959",
+    "experiments/constantinople_address_parts/catalog_proposal.json": "837ad58bfd2b1bbca7bcb6e13f1c4bb94e02d87ade5ecb7e742c855528fa364a",
+    "experiments/constantinople_address_parts/certificates.json": "5b48f76dd77ff07a0ee482180dfd5c4e33a0993c6e2df04eed9723eeb53e64ff",
+    "experiments/constantinople_address_parts/inputs.json": "d1402fe3494143eb45867fb6ad72b6d3f284a890b07fd2e24dda2d6e30d71377",
+    "experiments/constantinople_address_parts/prior_candidates.json": "948e6e0e376e123ceb09a178d732809c43cd0e9006cb26e8f8baf10be3f0786a",
+    "experiments/constantinople_address_parts/sources/p147_C1.png": "b39e6f64d0e845d9ea245acb52cddb5430edad7f4806764f3e336b7da72937be",
+    "experiments/constantinople_address_parts/sources/p148_B1.png": "7b359db2fedeb114a72e7ac936abc3a69d35436a1c8716a6bc97247a90f1aad8",
+    "experiments/constantinople_address_parts/sources/p156_C1.png": "332073080fbe561b282584694ad5ce1fe9f7503c7ca6d89fd09dcb25c6f86ba7",
+    "experiments/constantinople_address_parts/verify.py": "db1aaf5edba98e49eb64feaeaf21edc62a2a6ef7249f4d7e9a37023711450c09",
+    "experiments/bidirectional_deciphering/README.md": "f510c72aec7c7c060e85ff391dd30e0bbd089ee043e2069b7d66a3b65c7376ca",
+    "experiments/bidirectional_deciphering/catalog_proposal.json": "1753134b2f48405de9e22052acd155f21219df515e24f93f929dc611db45d015",
+    "experiments/bidirectional_deciphering/certificates.json": "5c7f21e1cb3f4cbce05ca960c9e7de0e86e624931acc18c77f52104955f70fb2",
+    "experiments/bidirectional_deciphering/frozen/p132_certificates.json": "258035bb17f8b7841e4864b9eb804c7e38c35f442d5d45af35445bbb99434bff",
+    "experiments/bidirectional_deciphering/frozen/p132_inputs.json": "7bae57ba0a74565fa845b6b2f6458eda386fe953adf0777ace4604afec3a73f3",
+    "experiments/bidirectional_deciphering/inputs.json": "d839afd6eb49f9caee2e8f748176db59a151a328b8b94169caa0c611dbbeec30",
+    "experiments/bidirectional_deciphering/phase_audit.py": "3427b70cd231e572e7c453774aed45308115ba3d4a5f249d5992aeddd7b1cae8",
+    "experiments/bidirectional_deciphering/search/header_inventory.json": "26bcf6de2ea16ee18afb799d6b00eb245bbc262a8068a9770d44c3256f53b24e",
+    "experiments/bidirectional_deciphering/search/original_driver.py": "29de4ee28e64bbf222c0ebe4a2bf179f2fd701e12244113a6ad75bdac5703de3",
+    "experiments/bidirectional_deciphering/search/original_phase_screen.json": "aec089f2590d43f554d6a236d833872b708bba40ef0954fa5fb49d11cd756f5c",
+    "experiments/bidirectional_deciphering/search/original_transcription.json": "a4c9bd5138bfec4f7582e2819d781381253e208bba4b4e012aa34bab8e7e65db",
+    "experiments/bidirectional_deciphering/sources/childs_p132_B.png": "92b72cdac842dfd3733c32a48a44814bd072c38853f35f08951b2be9e3bee09f",
+    "experiments/bidirectional_deciphering/sources/childs_p138_B.png": "fa909cb1a9e4a67dd594ec6df3c44c4b225a8f614f0bd2d30c770e85bbb20102",
+    "experiments/bidirectional_deciphering/sources/childs_p138_full.png": "77fe48a39c129067bc021f9601145f92c10405dc48eaaf82cd16c69ff80c1e29",
+    "experiments/bidirectional_deciphering/verify.py": "e058fcc20f43e1598ae8c9a70fa2c3c9d9e41c8b5ba6dacc15c7307886203f76",
+    "experiments/retrieved_copy_editions/README.md": "5aaebe1ece277b52577bb6972a933571b97faf77d69c43b966a64706ef1de745",
+    "experiments/retrieved_copy_editions/catalog_proposal.json": "4e01e7875d5a9f1bebbda11cb8e68287ab4a4c3d02d1ce0281eb6914436b6fb7",
+    "experiments/retrieved_copy_editions/certificates.json": "017399e54eda32b37f48fdace064d4fa37ad430f59d55c7eeab1d8ce1c8abf2e",
+    "experiments/retrieved_copy_editions/inputs.json": "c979ee62863e1e649650f268e525eb1640a225beb59a2ad60020dd9aa0c73a0c",
+    "experiments/retrieved_copy_editions/sources/p137.png": "8a5a7c7f8f9ac97fb0db83afa024f806ef97a157a16f520ac7b27fe234f160a8",
+    "experiments/retrieved_copy_editions/sources/p195.png": "9694dbdd3e9ddbd690948f48f45d2abd454f3789c40c5d111f850e54a1650d92",
+    "experiments/retrieved_copy_editions/verify.py": "542f57b8f4e9be284c50b950dd8a4fa82aec16efb03b160c0ce8dd781621eb6f",
+    "experiments/palestine_medical_dissolution/README.md": "bfd181dfbc30c9b3fe5160f301012d744426555b421ffa40049fccbbbc3fb623",
+    "experiments/palestine_medical_dissolution/catalog_proposal.json": "c8170cfbd60a2fb842c4dff00fcf95e2bbd39c8b01e1d6d88202a55e6a6ea588",
+    "experiments/palestine_medical_dissolution/certificates.json": "d83682386fcba62d309de210b197a48cae279c8c87d53bfeb639bfbbcc9b0ec3",
+    "experiments/palestine_medical_dissolution/inputs.json": "057fde1fef8d630516b6c6486515d421107bbd945553aa73bd2291da2404e144",
+    "experiments/palestine_medical_dissolution/prior_evidence.json": "c2948f38e0afc29966b6b8690ca107f6f3560bcebc9d994df7daf9713d3f2beb",
+    "experiments/palestine_medical_dissolution/sources/p79_A1.png": "57f88c074e01df0e05a6730a6a3eff53f3e2731a92e1ec5824cce54f50952b20",
+    "experiments/palestine_medical_dissolution/sources/p79_A2.png": "84db7180b2a6db759b323e1a30890bd5b678acb0872d88f1b35a9837c9f00165",
+    "experiments/palestine_medical_dissolution/verify.py": "0847b80e810b7c2e40a6ed836f2ff5165a02b16a9bf481bd5bf8ec5f9fac9139",
+    "experiments/newspaper_dispatch_witnesses/README.md": "d8de107f2e828c42f415a2d0d8cc0b86378701e20dd654bf0dec907bc7bdf54e",
+    "experiments/newspaper_dispatch_witnesses/catalog_proposal.json": "6e18cbc5adb3de7e2aa923d6620394b32bb5903c774b815cd842511c277ff3e5",
+    "experiments/newspaper_dispatch_witnesses/certificates.json": "f1ecd991dde6a57f36f1a293c3f1e67fbe2ebc493ee89e4ce58c55152b638d7a",
+    "experiments/newspaper_dispatch_witnesses/inputs.json": "f0d165028c187cbc4fb4e9791b198c240443348fc4179027ece53f738ad4a343",
+    "experiments/newspaper_dispatch_witnesses/prior_evidence.json": "7c3c9f79b95954c383851aeaa9f4dbfc90a81a4caf3aa8cfe4537cc16be58739",
+    "experiments/newspaper_dispatch_witnesses/sources/p166_B1.png": "17559ea0dbf97061d26677f01e4375ce30178861572c378ff651415215e01761",
+    "experiments/newspaper_dispatch_witnesses/sources/p166_B2.png": "6dd167481f88f254ae84e898ecafab5d10f53a685d13e0b38a85fec79883ab19",
+    "experiments/newspaper_dispatch_witnesses/verify.py": "0847b80e810b7c2e40a6ed836f2ff5165a02b16a9bf481bd5bf8ec5f9fac9139",
+    "experiments/inventory_and_medical_return/README.md": "ff35e03de22d8b8c6e8a7e04838d3ac58d3e3976fbfd73fb879600d0066b0b15",
+    "experiments/inventory_and_medical_return/catalog_proposal.json": "f8800420868535ad781aa81f1ce9cbb62bb51993c1de599be090c7de1861c7c5",
+    "experiments/inventory_and_medical_return/certificates.json": "3306e55f8beb468c49cbfc6656226b2566e402f35c216585034b243b031f7570",
+    "experiments/inventory_and_medical_return/inputs.json": "91b8d7a618441b48ca69ea0138196d33f03180215b598924d9c71727db194775",
+    "experiments/inventory_and_medical_return/sources/childs_p104_C1.png": "9c7a06ea4b9b667d76084465739e053a5243f1300231b622a71d2fe972057469",
+    "experiments/inventory_and_medical_return/sources/childs_p104_C2.png": "3727570372c3e0c7a344d113c4893c12ba22378788adab7b1dc3a19003caf163",
+    "experiments/inventory_and_medical_return/sources/childs_p104_full.png": "1eb2aa0f4c3ce25af549aba006b7b99ee218a4b343bf49ee425d0a9154445df6",
+    "experiments/inventory_and_medical_return/sources/childs_p86_A.png": "1844846458a273f35212186bad72cb82a5b0188de84b583889cdf7930190f5af",
+    "experiments/inventory_and_medical_return/sources/childs_p86_full.png": "8d501e4ac462a8164f81044329950220c2fd6acf51f07213ff0cbd2ca60caf76",
+    "experiments/inventory_and_medical_return/verify.py": "3232e3d5b0ee5e322a8460092adb07df45164aa5ffe6f78fb5c84166acd734e7",
+    "experiments/transylvania_situation_report/README.md": "9b9be5ea6c869731bcba57f32cabd572b8205775841e4f143bb1d6255694830f",
+    "experiments/transylvania_situation_report/catalog_proposal.json": "4dfad6f1d249f9ed2691d5ce4525ca889d08f14e7d4a9bee6daa03c6661cbd76",
+    "experiments/transylvania_situation_report/certificates.json": "1336136747317f75f2455f4854eeb4b10bb8783a71039a35d3b00d9a6ff069b9",
+    "experiments/transylvania_situation_report/inputs.json": "acea90d19f08c19d5e2eb093bbb33ea85502f585ccd3ce62e5c27e83fe53dcda",
+    "experiments/transylvania_situation_report/sources/p128_B1.png": "4088940283e4ff009399adc9be2c6dd5542b0aeaf6b67ef34efe706277de1fd8",
+    "experiments/transylvania_situation_report/sources/p129_A7.png": "aecf89168a47e0dff2c5c78872f5d42e9cbf32c119967522def570ff1b1c0cce",
+    "experiments/transylvania_situation_report/sources/p129_A8.png": "9e64a22c9e353a6dd79e19c2bed28064519fbbd56aac1432574923ae324ef95f",
+    "experiments/transylvania_situation_report/sources/p137_A4.png": "aca8c1813374dd2d7d15451f61c6a51680708e18a3ef4044e808b4ceda33d039",
+    "experiments/transylvania_situation_report/sources/p137_A4_g5.png": "a6015e0ed76acd1aede247b9fd5ea9d92833bfde07af8e81dd280b2ea05a5d6c",
+    "experiments/transylvania_situation_report/sources/p137_A5.png": "7e5e6b101f58f9bf27063fb1b023c6584bae779e23cb87292458f8c812edcc8a",
+    "experiments/transylvania_situation_report/sources/p137_A6.png": "10f18127446950a0ab1ef67091bb7b1586e1497ea6213bd9e123aff2aef13465",
+    "experiments/transylvania_situation_report/verify.py": "4d45a134afb03d03d7e6fba3721a39d6cbcfe3d3050321a0ab7cdf8a865f18f8",
     "experiments/nov25_letter_constraint/README.md": "8e1aa1cf031ba53689225360364b474eeb5d99f7092b359e662fdd86986d49fd",
     "experiments/nov25_letter_constraint/certificates.json": "0df1738a5ee501554b6a529c9889de758e3303ecccb90c3c502c0edfc051a189",
     "experiments/nov25_letter_constraint/inputs.json": "0d862877f6c5fc2b023f33893274e0959258621aee9d007c5e8f3b2edc32ef83",
@@ -1398,7 +1950,15 @@
     "experiments/p198_pretransposition_loss/run.py": "b87b53524759fcac269439a087b0231dfed089ce80152f805417b158c739f59d",
     "experiments/p198_pretransposition_loss/validate_dp.py": "7182d950cf22b4f2b2a51b0582a5b367b8149ae64da8a728d0b68da809df9365",
     "experiments/p198_pretransposition_loss/verify.py": "75fbdba83e17ed9c129dbf17cccb28004b7a378af64c91bdb9374c5340867823",
-    "cases/finance/crown_airlift.md": "be4377807380b1353bdb5ee6e114a2848707cb101fe02b339044d4e1c580a333",
+    "experiments/nov22_nikolajew_constraint/README.md": "6a2db38f96b4760c95b7304bd57a2785319f2d7db70e00bf2fe4a7c5910e20e0",
+    "experiments/nov22_nikolajew_constraint/certificate.json": "6c3f12807514cd800861271b8a9195425464f4868475922f8a6e509c76346ed7",
+    "experiments/nov22_nikolajew_constraint/inputs.json": "e68e4b67fa0de74ba3d5ec39a1d0900f13e2b227b4ee22fc40b4810845af11ba",
+    "experiments/nov22_nikolajew_constraint/verify.py": "1b93cbc4fba714145ee093c97bf2d33d556f18f56b6b1fc6986b56a3342378aa",
+    "experiments/post_push_copy_retrieval/README.md": "4c95b9c1da830b23bbc06e5f75ecfdaa0fc43bf73a33f1e5418159a42ebafb49",
+    "experiments/post_push_copy_retrieval/inputs.json": "3c8f76a256dc6d0bb1801eb2ba2cf267b1bd33b314bae4caa0b348c3362ff237",
+    "experiments/post_push_copy_retrieval/results.json": "fb1b496ccceb4e8abfd9d2011ff0d4931a53184664296a42e0734129a741d3d0",
+    "experiments/post_push_copy_retrieval/retrieve.py": "dedc5aa1c3e7c6ab6ddc661b5ea230fd6025ddac6d2b021793e0e58607c7c190",
+    "cases/finance/crown_airlift.md": "fb150c4debaf6d71c688a679f9fae8bd29629a72f2a640db96b85d02c662da37",
     "cases/finance/zitag_purchase_orders.md": "abb18c64f60d2925f51b7f92b1ad6d66ec3afdc77169d561ff81c4fb3d8fc32b",
     "cases/finance/military_allowances.md": "7ef06a2a25e44f3dc15107781aaa08b4c06c8cd446465f9099a8045f46589e2c",
     "cases/military/orient_intelligence.md": "9d7ee0be949e0661ffda2f8996a8b648637cbcbabb9daab4d5028f683c26c2e3",
@@ -1409,7 +1969,7 @@
     "cases/military/hungary_transport_warning.md": "23bb36642032e189a735d296fc30772cca9d293034594821830ae6c660131fd7",
     "cases/radio/september_radio_procedure.md": "f5be0a9cb57a717439ee6df58bca65fdc63a939454dc43f514f9adc77063c791",
     "cases/military/late_transport_dispatches.md": "829d67a662b15802fc441418c8323c84a5b96dd68870694b94b0cb01189341ab",
-    "cases/military/armistice_transit_planning.md": "6621307cc8e1f5d5435a6c6dc97c5cf3bc742a25098eae541e04a3bbf2f2c26b",
+    "cases/military/armistice_transit_planning.md": "03d748f2a6329f8231a0948ee35e8a483fcfebd488a1aa6f29b6b9d00944bef0",
     "cases/caucasus/tiflis_pioneer_detachment.md": "c4343d33a955ad9a2d8c11e4bbe4360a00380168b8f7598941bac4f48619a380",
     "cases/finance/deutzitag_dispatch_inquiries.md": "0c908d612d320a54b4d8e21c1e64f7b48c4a5e221f8e4224c6861bba4d1d914d",
     "cases/radio/constanza_radio_connections.md": "096040613e22e1a066a4863110ab539a6233b311cbc29aedebaf096c1c7792fb",
@@ -1429,7 +1989,24 @@
     "cases/radio/telegram_priority.md": "f41d5302837cd80d1354c71c99e61b4423da877a1c9869fd64d69a9ee1de6572",
     "cases/military/formation_dissolution.md": "510b9b118e2bd5d948cc465ba7be6f331f97a2b3956d3336fa4b1162bd99644d",
     "cases/military/black_sea_disembarkation.md": "85e21cbe32a23c8c0d73245b13fab6138c08476f06ca237a6688952930a9e90e",
-    "cases/finance/hermannstadt_cash_transport.md": "46ac488e28ee1fa21779b5492d2704b3c50a8b3263b6188fe7e357efa99088e9"
+    "cases/finance/hermannstadt_cash_transport.md": "46ac488e28ee1fa21779b5492d2704b3c50a8b3263b6188fe7e357efa99088e9",
+    "cases/military/wallachia_withdrawal_preparations.md": "278ea0a71133a17e90c1a8507916d6444b21c493dba32c37a6a865fbd2b7f538",
+    "cases/radio/apparatus_sale_request.md": "ba223084bdc5bee58a72293d841b8d6ac7bce7c3c2ef251a316af60256285e8c",
+    "cases/caucasus/representative_retention.md": "bf60fe2c7a7adb55878e49982d1cadb0877481983cec83f5a97464a9f766eec7",
+    "cases/military/budapest_wire_break.md": "65369e41c005a8631e1630363cccfe9cd510b98f6f2ae09ebd80cf6e10b5d878",
+    "cases/military/dobrudscha_report.md": "2036d4080181ec70e36773fafbcd75d188cb36d97796ec554ab0b402d3682c9c",
+    "cases/radio/radio_contacts_and_keys.md": "8a05d4256c690d2381f856d3c95c67518e24961f1df752e4d73b6c6206626704",
+    "cases/radio/hermannstadt_radio_report.md": "baa7fd63e3609daef3ad8003077ca0d00717e3b55209e6455dbc346da3abc49f",
+    "cases/people/military_mission_recalls.md": "f0440eea18a78858db766cadc1197ec76c0dc9eb8ecf979f6103bdedcb043407",
+    "cases/radio/constantinople_address_parts.md": "4c4062efff297e43f35cfde2af4e04ca2325267d3e2f4f7fe2a01371a3c2923b",
+    "cases/radio/opposite_end_deciphering.md": "a7c03e0869ebc2702c92c6f2a17ceed64fb3230201eea217cacf2d0ae0683c35",
+    "cases/finance/crown_banknote_completion.md": "4e6cc8e09c7c2c71c0f71b21a7f579bbb85b365ee4aa5555445947d5140acc06",
+    "cases/military/armistice_clause_witnesses.md": "c1e947b4220ca7226275f12f5a0d17a9f665daa43003272850dcaf7f39f2ac92",
+    "cases/military/palestine_medical_dissolution.md": "f621b84a12595a9d1bd3c0fbe577165b2dae706774b09721b48468cc807f1965",
+    "cases/radio/newspaper_dispatch_witnesses.md": "e16f29015497297c2af75bc9ff5ab03161e6b91e75e6aa5d3cb8a8f7caeff34f",
+    "cases/military/mg08_inventory.md": "109d7d870a45f83399f291c7ab12359c3a7735b645f531166c61c6f233bac1ee",
+    "cases/people/medical_return_to_unit.md": "059df3f31b338ee6c8d5c3308ccf1eb29693e0f9c63cd2b77bb112a1b75a7768",
+    "cases/military/transylvania_situation_report.md": "89d6093421a7413f74f2c866d3e496b0ad1b3e46dadb50db1f2066fb068d04a9"
   },
   "source_images": [
     {
@@ -3742,6 +4319,873 @@
       "width": 344,
       "height": 124,
       "rgb_pixel_sha256": "8b2b61e6ccc869969d2b5d685abd8d63a5057299e68fab4f069c47bd15e27f48",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "wallachia_withdrawal_preparations",
+      "path": "experiments/wallachia_withdrawal_preparations/sources/p150_B1.png",
+      "pdf_page_1based": 153,
+      "clip_pdf_points": [
+        58,
+        320,
+        529,
+        415
+      ],
+      "scale": 4,
+      "png_sha256": "b3835040830971717c24fae0c9afe918ec88bd675f5a98fa2301bf3c9f2052f7",
+      "width": 1884,
+      "height": 380,
+      "rgb_pixel_sha256": "adae22e9303560ba82b0b25b4e21f8f938466a59c5e0dc6dbb6297eaeee9c623",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "wallachia_withdrawal_preparations",
+      "path": "experiments/wallachia_withdrawal_preparations/sources/p150_B2.png",
+      "pdf_page_1based": 153,
+      "clip_pdf_points": [
+        65,
+        416,
+        529,
+        482
+      ],
+      "scale": 4,
+      "png_sha256": "09430b397e5345b49d4aabb2e5fe69498d610f6687efa243e6274f1fdf0a4347",
+      "width": 1856,
+      "height": 264,
+      "rgb_pixel_sha256": "ca9d76d4c6ff20545523bc06e35bcaf17922072da13e62e29ed44ca10c3ed38b",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "wallachia_withdrawal_preparations",
+      "path": "experiments/wallachia_withdrawal_preparations/sources/p150_B3.png",
+      "pdf_page_1based": 153,
+      "clip_pdf_points": [
+        65,
+        486,
+        529,
+        561
+      ],
+      "scale": 4,
+      "png_sha256": "cd3e8fc4f4a93d4f2c6abd2a799d88edc17d76df53a52eb743c9d6c39906cfe7",
+      "width": 1856,
+      "height": 300,
+      "rgb_pixel_sha256": "400b9f5c001bd7ed02904e234662af175ec773d041fee98d45075c68d1f1434c",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "wallachia_withdrawal_preparations",
+      "path": "experiments/wallachia_withdrawal_preparations/sources/p150_B4.png",
+      "pdf_page_1based": 153,
+      "clip_pdf_points": [
+        65,
+        566,
+        529,
+        631
+      ],
+      "scale": 4,
+      "png_sha256": "a8ae9ec55340e166704d20628702c70fe83f8f85ce4068248735c65789575db3",
+      "width": 1856,
+      "height": 260,
+      "rgb_pixel_sha256": "38ac2d95b657070d6170255992fc0fc7f5062b54af85ee098408ba07490c909a",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "wallachia_withdrawal_preparations",
+      "path": "experiments/wallachia_withdrawal_preparations/sources/p150_B5.png",
+      "pdf_page_1based": 153,
+      "clip_pdf_points": [
+        65,
+        638,
+        529,
+        710
+      ],
+      "scale": 4,
+      "png_sha256": "da060b085886d74b4a3af45e5a20598c753bbe0951cb40db2d35ba7570eef570",
+      "width": 1856,
+      "height": 288,
+      "rgb_pixel_sha256": "c158536e2fb71dce40700452438b72132dcfab4abd6f71403a3d27cc5df7259c",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "apparatus_sale_request",
+      "path": "experiments/apparatus_sale_request/sources/p157_B1.png",
+      "pdf_page_1based": 160,
+      "clip_pdf_points": [
+        50,
+        600,
+        529,
+        700
+      ],
+      "scale": 4,
+      "png_sha256": "8bbf615f63fff9c343ede3934c1abe17a1aba3037790d18fdb5c11d56a434fa0",
+      "width": 1916,
+      "height": 400,
+      "rgb_pixel_sha256": "4abbbecb7fb51b4c5a8eb7cdeb45ba049730a847298c183fa4b4d56171281f8f",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "apparatus_sale_request",
+      "path": "experiments/apparatus_sale_request/sources/p157_B2.png",
+      "pdf_page_1based": 160,
+      "clip_pdf_points": [
+        55,
+        700,
+        529,
+        790
+      ],
+      "scale": 4,
+      "png_sha256": "4755d68456b6cecd6c53605eedadad261908cec6ca940c00c28d1b2ff59e027a",
+      "width": 1896,
+      "height": 360,
+      "rgb_pixel_sha256": "5720ca37f0a80ef08a9728b1d798ec96b9e810c9478bbbabea215bb0e2550d09",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "radio_contacts_and_keys",
+      "path": "experiments/radio_contacts_and_keys/sources/childs_p100_B.png",
+      "pdf_page_1based": 103,
+      "clip_pdf_points": [
+        80,
+        305,
+        510,
+        424
+      ],
+      "scale": 4,
+      "png_sha256": "0e2d53c5cb13fd4a2bcfd7fa838bf845234538b1b0887810b249d52e8b0da49b",
+      "width": 1720,
+      "height": 476,
+      "rgb_pixel_sha256": "65d1f66a94064cc135ba201fc3fa0f4d0fb23ea0d4cb3328c93bbf4dd0f91bc2",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "radio_contacts_and_keys",
+      "path": "experiments/radio_contacts_and_keys/sources/childs_p100_C.png",
+      "pdf_page_1based": 103,
+      "clip_pdf_points": [
+        80,
+        432,
+        510,
+        552
+      ],
+      "scale": 4,
+      "png_sha256": "ca57c1ef40fe15fdb3f6394ea5b1ed13856b08000e7154a47cf28fde1789de2f",
+      "width": 1720,
+      "height": 480,
+      "rgb_pixel_sha256": "e3af3a368816bf23a39e8ad47b64becf4fbd692c8ab0e7a778988a38b7e6b5f4",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "radio_contacts_and_keys",
+      "path": "experiments/radio_contacts_and_keys/sources/childs_p137_D.png",
+      "pdf_page_1based": 140,
+      "clip_pdf_points": [
+        80,
+        721,
+        485,
+        790
+      ],
+      "scale": 4,
+      "png_sha256": "1dd246e9719467cb1325d27d902ef1433001375a5cf3085f9c355723030631d0",
+      "width": 1620,
+      "height": 276,
+      "rgb_pixel_sha256": "c23d7156cfbd98b09326a5d1f2f739c7d59d7f682ab194be6fec13649a3503ed",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "radio_contacts_and_keys",
+      "path": "experiments/radio_contacts_and_keys/sources/childs_p142_A.png",
+      "pdf_page_1based": 145,
+      "clip_pdf_points": [
+        63,
+        150,
+        520,
+        284
+      ],
+      "scale": 4,
+      "png_sha256": "8a57739a5014087c1d5397a64cd3789ea2939ce425ce4e6d438e57b1a27afa4c",
+      "width": 1828,
+      "height": 536,
+      "rgb_pixel_sha256": "720992ad781193aab3d5b0a36d4412a31a385bdc2a757f2918c80e67aed78590",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "radio_contacts_and_keys",
+      "path": "experiments/radio_contacts_and_keys/sources/childs_p142_B.png",
+      "pdf_page_1based": 145,
+      "clip_pdf_points": [
+        65,
+        291,
+        520,
+        508
+      ],
+      "scale": 4,
+      "png_sha256": "16bb7f95b73cb0226fb626a42bc9520a5a4960f33d2fc6b3780b3312f683dfb2",
+      "width": 1820,
+      "height": 868,
+      "rgb_pixel_sha256": "a4b998c2c83430661f42eb94fdda4ea2b6d260092e07f46960439699794c2a4f",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "radio_contacts_and_keys",
+      "path": "experiments/radio_contacts_and_keys/sources/childs_p142_C.png",
+      "pdf_page_1based": 145,
+      "clip_pdf_points": [
+        65,
+        519,
+        520,
+        719
+      ],
+      "scale": 4,
+      "png_sha256": "20636ab224e0abe30db1d86bcffacece7fc67d423eef40bdccdb6eb261196550",
+      "width": 1820,
+      "height": 800,
+      "rgb_pixel_sha256": "9f0560da4f1c8f4bdd8898fd63d39694d5602e0f573bd5a2ad70c6b55a0eae50",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "radio_contacts_and_keys",
+      "path": "experiments/radio_contacts_and_keys/sources/childs_p150_A2.png",
+      "pdf_page_1based": 153,
+      "clip_pdf_points": [
+        55,
+        197,
+        520,
+        305
+      ],
+      "scale": 4,
+      "png_sha256": "1eaa91827785e4503b3a9461765960b4b35375a90fe80b8052b6bce0a6bb08f3",
+      "width": 1860,
+      "height": 432,
+      "rgb_pixel_sha256": "3625eaf5f42c3b0857bdf5bab0cbe81a2bfb48c1dce3ddc615ecee022e85eb11",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "radio_contacts_and_keys",
+      "path": "experiments/radio_contacts_and_keys/sources/childs_p100_full.png",
+      "pdf_page_1based": 103,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 1.8,
+      "png_sha256": "2a582632190995fe133683688f87ae8b6b84013d88e34479a919590023301f0d",
+      "width": 1041,
+      "height": 1484,
+      "rgb_pixel_sha256": "e440241d3b4b92bfc06fed89d2b2836531eedb9483c8a2716691f21451a50b82",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "radio_contacts_and_keys",
+      "path": "experiments/radio_contacts_and_keys/sources/childs_p137_full.png",
+      "pdf_page_1based": 140,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 1.8,
+      "png_sha256": "7449b571d91ba531a9505df6473afcb7104cbb0e73a1b50d81cb963b72f6e6b7",
+      "width": 1041,
+      "height": 1484,
+      "rgb_pixel_sha256": "c2397ef92b8272a387dbd1591724e739538bb4d6f4517e01cea19717d5ccd7f0",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "radio_contacts_and_keys",
+      "path": "experiments/radio_contacts_and_keys/sources/childs_p142_full.png",
+      "pdf_page_1based": 145,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 1.8,
+      "png_sha256": "7f07ed9fba501c6633ff15e52afc005aadca5d26f7a3d45d9a8ed40e4d16649c",
+      "width": 1041,
+      "height": 1484,
+      "rgb_pixel_sha256": "1db4dfda859201746c348d6b4d372ab7b23d31e2b59d79b9497a77e31d455094",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "radio_contacts_and_keys",
+      "path": "experiments/radio_contacts_and_keys/sources/childs_p150_full.png",
+      "pdf_page_1based": 153,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 1.8,
+      "png_sha256": "52660611600e5de58605362da43151a9359553f5e2790d29f97dd7edab106117",
+      "width": 1041,
+      "height": 1484,
+      "rgb_pixel_sha256": "899a09f140b7c929ef76f287823f3a5e11dfe49d5018b36ff345be26e2d3be0e",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "hermannstadt_radio_report",
+      "path": "experiments/hermannstadt_radio_report/sources/p216_heading.png",
+      "pdf_page_1based": 219,
+      "clip_pdf_points": [
+        50,
+        147,
+        520,
+        208
+      ],
+      "scale": 4,
+      "png_sha256": "040534121918e537bba34a3ea688ee33dbf85feaad7e64c8abe0cba082ee11b1",
+      "width": 1880,
+      "height": 244,
+      "rgb_pixel_sha256": "eae205eadcf65a2da6b6d0d015fd5800f8baedd1409ef4158c6d3237e40e84c8",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "hermannstadt_radio_report",
+      "path": "experiments/hermannstadt_radio_report/sources/p216_A1.png",
+      "pdf_page_1based": 219,
+      "clip_pdf_points": [
+        50,
+        174,
+        525,
+        294
+      ],
+      "scale": 4,
+      "png_sha256": "5e64d7247f3e5396c47851b903833bacf43a65823093fca2982e7acbec26b964",
+      "width": 1900,
+      "height": 480,
+      "rgb_pixel_sha256": "e6b3ad4639fddd1d45d6a67e907b4085eb0291a3a92863d3daeaeacde2f84701",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "hermannstadt_radio_report",
+      "path": "experiments/hermannstadt_radio_report/sources/p216_A2.png",
+      "pdf_page_1based": 219,
+      "clip_pdf_points": [
+        65,
+        294,
+        525,
+        382
+      ],
+      "scale": 4,
+      "png_sha256": "d3b16c16664ebd1fae69acbd1d49fad123604eb533568982018a09fb229c4556",
+      "width": 1840,
+      "height": 352,
+      "rgb_pixel_sha256": "de9ad83e1f756cd03a9548dc9ed261ae27ae2bab0c965e399ae577ef10eee6e8",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "hermannstadt_radio_report",
+      "path": "experiments/hermannstadt_radio_report/sources/p216_A3.png",
+      "pdf_page_1based": 219,
+      "clip_pdf_points": [
+        65,
+        382,
+        525,
+        469
+      ],
+      "scale": 4,
+      "png_sha256": "2133ce171d9461d86cad7f3c6c391525c25cc39f2ab687eecdc82683c0bce764",
+      "width": 1840,
+      "height": 348,
+      "rgb_pixel_sha256": "91310b4ae5eb9740590b974a918be7a705b4a9a7f6cfcf911a270cf3d6301b67",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "hermannstadt_radio_report",
+      "path": "experiments/hermannstadt_radio_report/sources/p216_A4.png",
+      "pdf_page_1based": 219,
+      "clip_pdf_points": [
+        55,
+        466,
+        525,
+        535
+      ],
+      "scale": 4,
+      "png_sha256": "569c7a4461b1e9778fa81ffe2c5c3f3836df7f78c96dda5aa1d64129751f4636",
+      "width": 1880,
+      "height": 276,
+      "rgb_pixel_sha256": "0547e96bc5583f7bb36c0fa57d32c72e7236327c311af514e214bac4985e5d89",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "military_mission_recalls",
+      "path": "experiments/military_mission_recalls/sources/p161_C1.png",
+      "pdf_page_1based": 164,
+      "clip_pdf_points": [
+        65,
+        451,
+        537,
+        550
+      ],
+      "scale": 4,
+      "png_sha256": "06475aaf6536559066de14376c6ea3bacfc2c4c17b7081358290a3bae8a542ec",
+      "width": 1888,
+      "height": 396,
+      "rgb_pixel_sha256": "fd8504bc6268df1896898d11190e9e57ba039e307b337f02afec6c8a1cd90314",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "military_mission_recalls",
+      "path": "experiments/military_mission_recalls/sources/p161_C2.png",
+      "pdf_page_1based": 164,
+      "clip_pdf_points": [
+        65,
+        551,
+        537,
+        609
+      ],
+      "scale": 4,
+      "png_sha256": "ec1f46b495873d75639c8ee3a6b6f6f1931c6da32165dda8a99c16acc5e4a8d0",
+      "width": 1888,
+      "height": 232,
+      "rgb_pixel_sha256": "392da13781952c9911d25bf50c5191ca0581305ffa653721846355bf2f5d30b3",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "military_mission_recalls",
+      "path": "experiments/military_mission_recalls/sources/p161_D1.png",
+      "pdf_page_1based": 164,
+      "clip_pdf_points": [
+        65,
+        614,
+        537,
+        709
+      ],
+      "scale": 4,
+      "png_sha256": "89a28f2efb80587be184f8521fa20d647f6f87a17ff13d1a4152785f2c5f5463",
+      "width": 1888,
+      "height": 380,
+      "rgb_pixel_sha256": "574dd3a069c550862a449b1c1970369791b91e12e19f224b36b0cc3c2cbe9211",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "military_mission_recalls",
+      "path": "experiments/military_mission_recalls/sources/p161_D2.png",
+      "pdf_page_1based": 164,
+      "clip_pdf_points": [
+        65,
+        710,
+        537,
+        770
+      ],
+      "scale": 4,
+      "png_sha256": "aac91de3375efb0d661d6cd285ee5a589e6c65a70bf1db50b65207141d7d3219",
+      "width": 1888,
+      "height": 240,
+      "rgb_pixel_sha256": "bddb0ab77fe1a879d85be55b7756ac2e7fc0eb3ff6e1defe3da3f109073f8016",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "constantinople_address_parts",
+      "path": "experiments/constantinople_address_parts/sources/p147_C1.png",
+      "pdf_page_1based": 150,
+      "clip_pdf_points": [
+        55,
+        541,
+        536,
+        652
+      ],
+      "scale": 4,
+      "png_sha256": "b39e6f64d0e845d9ea245acb52cddb5430edad7f4806764f3e336b7da72937be",
+      "width": 1924,
+      "height": 444,
+      "rgb_pixel_sha256": "fc5e9c6c871092f3e175da9f7952d40b2fe57567999aa4538c45fb58e85cc842",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "constantinople_address_parts",
+      "path": "experiments/constantinople_address_parts/sources/p148_B1.png",
+      "pdf_page_1based": 151,
+      "clip_pdf_points": [
+        65,
+        288,
+        535,
+        525
+      ],
+      "scale": 4,
+      "png_sha256": "7b359db2fedeb114a72e7ac936abc3a69d35436a1c8716a6bc97247a90f1aad8",
+      "width": 1880,
+      "height": 948,
+      "rgb_pixel_sha256": "558462e3b8efddeaf191d22aa58727ce79705fcce6b3f72930adc497c3e0d867",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "constantinople_address_parts",
+      "path": "experiments/constantinople_address_parts/sources/p156_C1.png",
+      "pdf_page_1based": 159,
+      "clip_pdf_points": [
+        65,
+        369,
+        535,
+        443
+      ],
+      "scale": 4,
+      "png_sha256": "332073080fbe561b282584694ad5ce1fe9f7503c7ca6d89fd09dcb25c6f86ba7",
+      "width": 1880,
+      "height": 296,
+      "rgb_pixel_sha256": "e8e2e107df285c3a14a58b1eddaa7c67b92cf801f1c7eb69af1fd24aabf4f591",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "bidirectional_deciphering",
+      "path": "experiments/bidirectional_deciphering/sources/childs_p138_full.png",
+      "pdf_page_1based": 141,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 1.8,
+      "png_sha256": "77fe48a39c129067bc021f9601145f92c10405dc48eaaf82cd16c69ff80c1e29",
+      "width": 1041,
+      "height": 1484,
+      "rgb_pixel_sha256": "743631728503cb9f1e4d6bb9fd3d15c68075258a305125b4a39841a810735c4b",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "bidirectional_deciphering",
+      "path": "experiments/bidirectional_deciphering/sources/childs_p138_B.png",
+      "pdf_page_1based": 141,
+      "clip_pdf_points": [
+        65,
+        452,
+        485,
+        550
+      ],
+      "scale": 4,
+      "png_sha256": "fa909cb1a9e4a67dd594ec6df3c44c4b225a8f614f0bd2d30c770e85bbb20102",
+      "width": 1680,
+      "height": 392,
+      "rgb_pixel_sha256": "85fee66a5e7fab28dacca902c0b0cb3295739afc021724a67f10ee7fcd8e15db",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "bidirectional_deciphering",
+      "path": "experiments/bidirectional_deciphering/sources/childs_p132_B.png",
+      "pdf_page_1based": 135,
+      "clip_pdf_points": [
+        65,
+        398,
+        530,
+        550
+      ],
+      "scale": 3.5,
+      "png_sha256": "92b72cdac842dfd3733c32a48a44814bd072c38853f35f08951b2be9e3bee09f",
+      "width": 1628,
+      "height": 532,
+      "rgb_pixel_sha256": "e3168a6b6ff366666c79ca47526329be1692aaff8008375377c9432584d2c7f2",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "retrieved_copy_editions",
+      "path": "experiments/retrieved_copy_editions/sources/p137.png",
+      "pdf_page_1based": 140,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 2.6,
+      "png_sha256": "8a5a7c7f8f9ac97fb0db83afa024f806ef97a157a16f520ac7b27fe234f160a8",
+      "width": 1504,
+      "height": 2144,
+      "rgb_pixel_sha256": "c4d4e49743df3fa642d1535916cb43067f7382141830c56c93ec5a55019c17c0",
+      "fresh_render_cache": true
+    },
+    {
+      "package": "retrieved_copy_editions",
+      "path": "experiments/retrieved_copy_editions/sources/p195.png",
+      "pdf_page_1based": 198,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        753.533935546875
+      ],
+      "scale": 2.6,
+      "png_sha256": "9694dbdd3e9ddbd690948f48f45d2abd454f3789c40c5d111f850e54a1650d92",
+      "width": 1504,
+      "height": 1960,
+      "rgb_pixel_sha256": "e940da3b98e4c7ebaac417847576d76681d73291274468846ee5f11e7f932c23",
+      "fresh_render_cache": true
+    },
+    {
+      "package": "palestine_medical_dissolution",
+      "path": "experiments/palestine_medical_dissolution/sources/p79_A1.png",
+      "pdf_page_1based": 82,
+      "clip_pdf_points": [
+        45,
+        268,
+        531,
+        487
+      ],
+      "scale": 4,
+      "png_sha256": "57f88c074e01df0e05a6730a6a3eff53f3e2731a92e1ec5824cce54f50952b20",
+      "width": 1944,
+      "height": 876,
+      "rgb_pixel_sha256": "695e58a0f7c6744107c340f282d1c58e0e3a3eb8bffa69297b86e6a7e5835510",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "palestine_medical_dissolution",
+      "path": "experiments/palestine_medical_dissolution/sources/p79_A2.png",
+      "pdf_page_1based": 82,
+      "clip_pdf_points": [
+        55,
+        492,
+        531,
+        696
+      ],
+      "scale": 4,
+      "png_sha256": "84db7180b2a6db759b323e1a30890bd5b678acb0872d88f1b35a9837c9f00165",
+      "width": 1904,
+      "height": 816,
+      "rgb_pixel_sha256": "e363332c948ad4344a23bbdf32c8a8eb42ff8663a6cc96513765aac30f6c196e",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "newspaper_dispatch_witnesses",
+      "path": "experiments/newspaper_dispatch_witnesses/sources/p166_B1.png",
+      "pdf_page_1based": 169,
+      "clip_pdf_points": [
+        110,
+        401,
+        548,
+        488
+      ],
+      "scale": 4,
+      "png_sha256": "17559ea0dbf97061d26677f01e4375ce30178861572c378ff651415215e01761",
+      "width": 1752,
+      "height": 348,
+      "rgb_pixel_sha256": "0dba493d29a890ae1857cff5649d2e45a18166772cdfaad77d33cf5a0a6896ad",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "newspaper_dispatch_witnesses",
+      "path": "experiments/newspaper_dispatch_witnesses/sources/p166_B2.png",
+      "pdf_page_1based": 169,
+      "clip_pdf_points": [
+        120,
+        491,
+        548,
+        548
+      ],
+      "scale": 4,
+      "png_sha256": "6dd167481f88f254ae84e898ecafab5d10f53a685d13e0b38a85fec79883ab19",
+      "width": 1712,
+      "height": 228,
+      "rgb_pixel_sha256": "de1d74f51ef49acf4a5a6bc5bb290af307dcf2a9a493576c6fc4a67d797059b4",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "inventory_and_medical_return",
+      "path": "experiments/inventory_and_medical_return/sources/childs_p86_full.png",
+      "pdf_page_1based": 89,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 1.8,
+      "png_sha256": "8d501e4ac462a8164f81044329950220c2fd6acf51f07213ff0cbd2ca60caf76",
+      "width": 1041,
+      "height": 1484,
+      "rgb_pixel_sha256": "bdc51e15923b1cfd73d7d90629958d4dc7c0df746c1f1c93afde0d24aff4f0c5",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "inventory_and_medical_return",
+      "path": "experiments/inventory_and_medical_return/sources/childs_p104_full.png",
+      "pdf_page_1based": 107,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 1.8,
+      "png_sha256": "1eb2aa0f4c3ce25af549aba006b7b99ee218a4b343bf49ee425d0a9154445df6",
+      "width": 1041,
+      "height": 1484,
+      "rgb_pixel_sha256": "d8b180b6626f995c92910d39fb9308d1adebf4ed529ad40f602d23ad3b9914b2",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "inventory_and_medical_return",
+      "path": "experiments/inventory_and_medical_return/sources/childs_p86_A.png",
+      "pdf_page_1based": 89,
+      "clip_pdf_points": [
+        55,
+        217,
+        520,
+        439
+      ],
+      "scale": 4,
+      "png_sha256": "1844846458a273f35212186bad72cb82a5b0188de84b583889cdf7930190f5af",
+      "width": 1860,
+      "height": 888,
+      "rgb_pixel_sha256": "a17943e4bd9734cf73168dd733cef9564128f4014d2de318c09d80e4694251cc",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "inventory_and_medical_return",
+      "path": "experiments/inventory_and_medical_return/sources/childs_p104_C1.png",
+      "pdf_page_1based": 107,
+      "clip_pdf_points": [
+        98,
+        385,
+        511,
+        485
+      ],
+      "scale": 4,
+      "png_sha256": "9c7a06ea4b9b667d76084465739e053a5243f1300231b622a71d2fe972057469",
+      "width": 1652,
+      "height": 400,
+      "rgb_pixel_sha256": "a600a899aa106278ae1b60c371a8d66ef74955744c0bc14c7ac0da6eb190d107",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "inventory_and_medical_return",
+      "path": "experiments/inventory_and_medical_return/sources/childs_p104_C2.png",
+      "pdf_page_1based": 107,
+      "clip_pdf_points": [
+        114,
+        483,
+        511,
+        535
+      ],
+      "scale": 4,
+      "png_sha256": "3727570372c3e0c7a344d113c4893c12ba22378788adab7b1dc3a19003caf163",
+      "width": 1588,
+      "height": 208,
+      "rgb_pixel_sha256": "dbdf0d8f5b9ccba83c87930bf85ea1509b99009e452f838abb59e2ac15039260",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "transylvania_situation_report",
+      "path": "experiments/transylvania_situation_report/sources/p128_B1.png",
+      "pdf_page_1based": 131,
+      "clip_pdf_points": [
+        85,
+        510,
+        520,
+        700
+      ],
+      "scale": 4,
+      "png_sha256": "4088940283e4ff009399adc9be2c6dd5542b0aeaf6b67ef34efe706277de1fd8",
+      "width": 1740,
+      "height": 760,
+      "rgb_pixel_sha256": "1b33ab40de495857dca1e2b66dc5bae68a9872f4b6daa652209a3e8cbe485fc4",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "transylvania_situation_report",
+      "path": "experiments/transylvania_situation_report/sources/p129_A7.png",
+      "pdf_page_1based": 132,
+      "clip_pdf_points": [
+        70,
+        248,
+        525,
+        435
+      ],
+      "scale": 4,
+      "png_sha256": "aecf89168a47e0dff2c5c78872f5d42e9cbf32c119967522def570ff1b1c0cce",
+      "width": 1820,
+      "height": 748,
+      "rgb_pixel_sha256": "e3a897e4a179055520e686e1addd600614c0b379e63a28fae88fe937fd2d64ef",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "transylvania_situation_report",
+      "path": "experiments/transylvania_situation_report/sources/p129_A8.png",
+      "pdf_page_1based": 132,
+      "clip_pdf_points": [
+        80,
+        436,
+        525,
+        522
+      ],
+      "scale": 4,
+      "png_sha256": "9e64a22c9e353a6dd79e19c2bed28064519fbbd56aac1432574923ae324ef95f",
+      "width": 1780,
+      "height": 344,
+      "rgb_pixel_sha256": "4a2246b1e634ed033a625bf072d3b56f77cd7175dae5e78282a1f7ed858d7a41",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "transylvania_situation_report",
+      "path": "experiments/transylvania_situation_report/sources/p137_A4.png",
+      "pdf_page_1based": 140,
+      "clip_pdf_points": [
+        65,
+        198,
+        470,
+        340
+      ],
+      "scale": 5,
+      "png_sha256": "aca8c1813374dd2d7d15451f61c6a51680708e18a3ef4044e808b4ceda33d039",
+      "width": 2025,
+      "height": 710,
+      "rgb_pixel_sha256": "d4d97fc5c93f5289780b03027f5d0ef9dbb2d1c6e6f38e40d13e20f503805c14",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "transylvania_situation_report",
+      "path": "experiments/transylvania_situation_report/sources/p137_A5.png",
+      "pdf_page_1based": 140,
+      "clip_pdf_points": [
+        85,
+        338,
+        470,
+        432
+      ],
+      "scale": 5,
+      "png_sha256": "7e5e6b101f58f9bf27063fb1b023c6584bae779e23cb87292458f8c812edcc8a",
+      "width": 1925,
+      "height": 470,
+      "rgb_pixel_sha256": "02ab3867ea4f426eeb80793967c6fc87fb1f9888246b949753b7cf7d4360acd0",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "transylvania_situation_report",
+      "path": "experiments/transylvania_situation_report/sources/p137_A6.png",
+      "pdf_page_1based": 140,
+      "clip_pdf_points": [
+        85,
+        430,
+        470,
+        488
+      ],
+      "scale": 5,
+      "png_sha256": "10f18127446950a0ab1ef67091bb7b1586e1497ea6213bd9e123aff2aef13465",
+      "width": 1925,
+      "height": 290,
+      "rgb_pixel_sha256": "66144a9ee918597596ed163f96c77ff94b4219307c7f2412f25d80335620bf90",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "transylvania_situation_report",
+      "path": "experiments/transylvania_situation_report/sources/p137_A4_g5.png",
+      "pdf_page_1based": 140,
+      "clip_pdf_points": [
+        336,
+        252,
+        374,
+        274
+      ],
+      "scale": 10,
+      "png_sha256": "a6015e0ed76acd1aede247b9fd5ea9d92833bfde07af8e81dd280b2ea05a5d6c",
+      "width": 380,
+      "height": 220,
+      "rgb_pixel_sha256": "a41611de73b64613c9eb255ff7f8bdf85c013ff251b715c8bbc79cf71b526f14",
       "fresh_render_cache": false
     }
   ],

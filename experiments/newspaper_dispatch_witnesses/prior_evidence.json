@@ -1,0 +1,77 @@
+{
+  "scope": "Existing source editions and earlier unreviewed candidates are prior evidence; this is a new physical-source comparison, not a first-reading claim for the repeated body.",
+  "existing_package": "experiments/newspaper_dispatch",
+  "existing_inputs_sha256": "3de0d40b8e810e396cf53d5dc9ef3245646971a63314a695093287dc7ab573c0",
+  "existing_certificates_sha256": "ce14e4a21448c431d83343896cbd390f37ad0aff83d8dc75fd426e5d8310fcf4",
+  "cross_key_candidates": [
+    {
+      "block": "p166_ocr_block4",
+      "key": "Nov7-9",
+      "score": -4.383163351171157,
+      "plaintext": "OBERPOBTDIREKTIONBRESLA?XGESTER?UNDHEUTEBERLI?ERZEITUNGSSAECKEUEBERORSOVAHIEREINGEGANGENXVERANLASSET",
+      "known_quadgrams": 85,
+      "ciphertext": "DVXAAAAXDXGGDAAXFDXDFFDVXDDDDXGVVVVDXGAVDV?GDGVXDGFADAGGVFDDGDDXDGDGDAAGVXGDGGXDGXDDDDAADDVDVVFVDGVVVGDVDVVDGDXDXDXGGXGVXGVVVXDDVXAGVVGGXGGDXVD?VVVAVDAGAXDXDVXXVXXVDDXVGXXXGX?XVVGDGDDDDFDXGGXAGGDDAGVD",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 25,
+          "ocr_group": "XGVVV?",
+          "layout_hypothesis": "XGVVV",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "B) KJ v UKS_ (5.27 yom, November Sth)"
+      ]
+    },
+    {
+      "block": "p166_ocr_block4",
+      "key": "Nov10-12",
+      "score": -9.136328927932247,
+      "plaintext": "QX?GWNJSDIIDOY3CNDIXOM1Y2MKG?JIAI?IUHG1T?OYDDJD?2JMJ?WMUKYHIGGEGMK2O0DVSOSW4?WKYYSQJGHNXINK2?WXD?UYN",
+      "known_quadgrams": 62,
+      "ciphertext": "DVXAAAAXDXGGDAAXFDXDFFDVXDDDDXGVVVVDXGAVDV?GDGVXDGFADAGGVFDDGDDXDGDGDAAGVXGDGGXDGXDDDDAADDVDVVFVDGVVVGDVDVVDGDXDXDXGGXGVXGVVVXDDVXAGVVGGXGGDXVD?VVVAVDAGAXDXDVXXVXXVDDXVGXXXGX?XVVGDGDDDDFDXGGXAGGDDAGVD",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 25,
+          "ocr_group": "XGVVV?",
+          "layout_hypothesis": "XGVVV",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "B) KJ v UKS_ (5.27 yom, November Sth)"
+      ]
+    },
+    {
+      "block": "p166_ocr_block5",
+      "key": "Nov25-28",
+      "score": -9.668557071685791,
+      "plaintext": "ZWOGK1?1?64XZGL?3Q??E7AA2D819?K?EXFGAGFX9??W7G1LKMFR?U?KVWCZ2N89??A5G?UHL",
+      "known_quadgrams": 30,
+      "ciphertext": "XXXDDXGFFXFDDFDVXAXGADVGVVXAVXVFAVDGGXXVGXVXXGDGXAADDXGGFDDADAAAGDAD?DDDFGADXDGDFDGXXDXDFVVVVXXDVXGVXXGXXGFVA?VVGAVVAXAVGFGVXXVADVDVVG?????????????",
+      "orphan": 1,
+      "edits": [],
+      "header": []
+    },
+    {
+      "block": "p166_ocr_block5",
+      "key": "Oct4-6",
+      "score": -9.775361061096191,
+      "plaintext": "8OGB7P34?2?WR5X9Y?6?N?T9GKGJF4?J?B4IIAZ44?W?APUUKC5D?U?64VPY7H??Q?GBFI6RF",
+      "known_quadgrams": 31,
+      "ciphertext": "XXXDDXGFFXFDDFDVXAXGADVGVVXAVXVFAVDGGXXVGXVXXGDGXAADDXGGFDDADAAAGDAD?DDDFGADXDGDFDGXXDXDFVVVVXXDVXGVXXGXXGFVA?VVGAVVAXAVGFGVXXVADVDVVG?????????????",
+      "orphan": 1,
+      "edits": [],
+      "header": []
+    }
+  ],
+  "frozen_retrieval_entries": [],
+  "discovery": {
+    "method": "Root fixed post-push copy retrieval of113 newly source-transcribed records against788 old OCR blocks using exact10-coordinate anchors; candidate identification only, followed by independent manual source transcription.",
+    "results_path": "experiments/post_push_copy_retrieval/results.json",
+    "results_sha256_at_discovery": "fb1b496ccceb4e8abfd9d2011ff0d4931a53184664296a42e0734129a741d3d0"
+  },
+  "bounded_attribution_check": "Cached full author paper and complete55-comment2017 discussion searched for page79/page166, Palestine/hospital/newspaper/Orsova; only unrelated paper overview/railway references found. Existing p83/p171 editions and earlier machine body leads are explicitly credited; no universal priority claim."
+}

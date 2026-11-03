@@ -121,3 +121,13 @@ newly discovered plaintext characters or new key assignments.
 python experiments/crown_airlift/verify.py --verify
 python experiments/crown_airlift/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+## Later complete-copy witness
+
+The [p195 A2 source edition](crown_banknote_completion.md) supplies the
+nineteen missing tail coordinates of p174 A3. Eleven earlier conjectural
+fills agree with the new source and one is contradicted. The literal copy
+resolves the contiguous-gap location within the tested family, but `SENDEN`
+still needs one observed-coordinate repair. The conflicting source dates
+and part numbers remain explicit. This page and its original certificate
+retain the earlier, more limited reconstruction for comparison.

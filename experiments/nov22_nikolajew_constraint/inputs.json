@@ -1,0 +1,2588 @@
+{
+  "schema": "adfgvx-nov22-lexical-constraint-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "indexing": "All plaintext and source indices are zero-based.",
+  "key_id": "Nov22-24",
+  "conditional_assignment": {
+    "pair": "GD",
+    "cell_index": 19,
+    "baseline_label": "9",
+    "proposed_letter": "J",
+    "status": "Optional lexical inference; not a cipher-only identification and not a baseline key edit."
+  },
+  "independent_assumption_routes": [
+    {
+      "id": "shared_place_spelling",
+      "claim": "The medical reports use the same correctly copied place-name spelling as the direct Nov10–12 NIKOLAJEW witness.",
+      "earlier_record": "p173_A1",
+      "later_records": [
+        "p212_A1",
+        "p213_A6",
+        "p213_A7"
+      ],
+      "qualification": "The three later parts are related traffic, not three independent historical identifications. The old and new square labels alone do not prove place identity or correct copying."
+    },
+    {
+      "id": "ordinary_word_jeweils",
+      "claim": "The independently printed sequence 9EWEILS in p216_B2 is the ordinary German word JEWEILS.",
+      "record": "p216_B2",
+      "qualification": "Both GD coordinates are observed and unrepaired. The letter assignment still uses a lexical assumption."
+    }
+  ],
+  "ambiguous_baseline_labels": "0123456789JQY",
+  "prior_numeric_assignments": {
+    "Y": "1",
+    "J": "2",
+    "2": "6"
+  },
+  "prior_numeric_dependency": "experiments/operational_recovery/inputs.json#interpretation_layers.Nov22-24",
+  "expected_physical_records": [
+    "p212_A1",
+    "p212_A3",
+    "p212_A5",
+    "p213_A6",
+    "p213_A7",
+    "p213_A1",
+    "p213_A2",
+    "p213_A3",
+    "p214_B",
+    "p215",
+    "p216_B1",
+    "p216_B2",
+    "p217_A1",
+    "p217_A2",
+    "p217_A3",
+    "p217_A4",
+    "p217_A5",
+    "p216_A1",
+    "p216_A2",
+    "p216_A3",
+    "p216_A4"
+  ],
+  "scope_exclusions": [
+    "p217 challenge is the same physical first part already included as p217_A1, not another message.",
+    "p212_A2 and p218_A1–A3 use Nov25–28, despite adjacent page dates; they are outside this key scope.",
+    "p212_A4 has no certified frame or key and remains unread contextual evidence.",
+    "p211 lower B1–B3 were received on 22 November but decode under Nov4–6.",
+    "Baertl’s p215 prose completion is not a source-compatible coordinate model: its 130 characters differ from the 129-position frame. Its inherited comparison is retained, not promoted to a source variant."
+  ],
+  "dependency_sha256": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/certificates/p215.json": "cf69f9d4c41d492732ba04267676faeacf45fc751ce242a4d9f185e26fa21abc",
+    "experiments/operational_recovery/inputs.json": "32d9098d4c9f3451fce6b380754525d4cfb850f41afafa462d679fac8f12acfe",
+    "experiments/operational_recovery/certificates.json": "ea2f6e677c4f5795699d5462165ca7f0eb0e956c31c071f3be619a409c19c2fc",
+    "experiments/open_targets_continuation/inputs.json": "3e725d540949ed1b654d15d5e9282e49acf6ba2029443fbead7e606ffed9a1d8",
+    "experiments/open_targets_continuation/certificates.json": "c1aad20e833840b5a134223bed09fa7fbee33f1efbbaab2cae0e06517bc11b6c",
+    "experiments/medical_return_transports/inputs.json": "a9fede5ad239134891857ccd9596e5ae466c359bb56daa967c17ac7f47aaff95",
+    "experiments/medical_return_transports/certificates.json": "27e3e754eef635e8654b8d7898de3525a834874a399543dd9a573cab8e4f3375",
+    "experiments/reval_steamer_notice/inputs.json": "333f93305384c7727e40b39884c85999fcb1ebf475db81fe9b4f1c00b65d6c0a",
+    "experiments/reval_steamer_notice/certificates.json": "3d7bb05c197e724dae3573b1c8906aa161f760a42f1df98ff696b579a4a73583",
+    "experiments/hermannstadt_cash_transport/inputs.json": "cb4d7105f4880ede6f36bc7c39087f999b86ab09b57dbb81387007fb94f2ba31",
+    "experiments/hermannstadt_cash_transport/certificates.json": "aac708840e285c0193525c997a149c3fd7f1b55b59b6ed2ffe6a12be09e67444",
+    "experiments/corcovado_sale_terms/inputs.json": "5256e0e1bfbf30be96bbe346f7d7ad2774c04b008ef9755ffd4f8e15fd611028",
+    "experiments/corcovado_sale_terms/certificates.json": "24c8644ccd2754d77d015ea796e6ba87938fd6e6c6eaca06706ab42db8d15b66",
+    "experiments/late_key_interpretation/certificate.json": "bf0c51b57b2a17a780f8ac21b46f30d778b7c09a55b3dd492dda40460528e930",
+    "experiments/hermannstadt_radio_report/inputs.json": "b7e8e5efd3422594b562c961f609f9a53c0e0550fc5afbc0229b68957b8aa87f",
+    "experiments/hermannstadt_radio_report/certificates.json": "2162d5aa2e3565fefed96899e016d8e8a2c71820621a857b6a121bafacd12601"
+  },
+  "unreviewed_cache_scope": "Every Nov22–24-labeled row from the two frozen whole-corpus caches, regardless of score, date or presence of 9. These are unreviewed key/layout candidates, not asserted members of the historical key period.",
+  "unreviewed_cache_candidates": [
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p59_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.348847060907083,
+      "plaintext": "1?GR71NUJR5?8LXUMXNIHZ?W59IAEJITFWXPO15ZBABA37DR?1KJJRT3D?ROQGF4CEOW?BBI1TCK8O1GLRSF?HDETM",
+      "known_quadgrams": 61,
+      "ciphertext": "AVDXDXFFDXVFXXXFDDDXDDDVDFFADVGVFFDGFFXGX??VFFXXV?GXXGGXXAXVXXXADDXAGXVFXFXAADXAVAFAGXFFFGXGFXDDFFDVADFDGV?GGXXGGXGGGVX?FGFVXVAAGVXVXVVAXDFFFXDFFFGAFVVFFDFGAAFAFGXGGDXGXFDFXADVG??X",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p60_ocr_block1",
+      "key": "Nov22-24",
+      "score": -9.243404550552368,
+      "plaintext": "3Z0B9UH3HBBUOPRJGFR50DCD4D7BL204ERFEEZ5WZBDKXJZT2XXJANNPAC8P161PHQ?F8OBGU35Z79RBBB?FFD?I",
+      "known_quadgrams": 75,
+      "ciphertext": "GDAAAXFFFFAXXVGFVXDFXXXGGGVXDAGVGGDGDFF?FVDFAXFGFFGFXAFFVGFXAXGGFGFFAAADGXGDXXX?FFGFVXXFDGFFXV?DFFAADXFGDXDFADXFDXGFVVGGAXGGDXGFFDGGAVDGGFGVDGFGFDDGAVAGVGGVAGVGDFVFXXDFGVDVFFGG",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 19,
+          "ocr_group": "FFXV",
+          "layout_hypothesis": "FFXV?",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "A) COS v NKJ (10.02 p.m., Sept. 31st) .",
+        "1400 (21) 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p70_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.017100529237227,
+      "plaintext": "KJLX?S04JOQKAQK??HAUIAHA9LT11VAOTULZ5?0JGRP34N08?1Z91Y53106X5XIN0?DP584ACCY?0?ARIMJQULFE?LTICQ?TX6H1KE6T",
+      "known_quadgrams": 66,
+      "ciphertext": "FGV??ADVDVGFXXFXFA?DVXFXAFGAAADDD?GVFFVFVAG?FVFFVVDFG??XXAAADXVAAXDVXDXXXDAXAXVFXADFVA?XGXDAXAAFGXXGXDDGXXFGDDGGXXDXVGGDDVVGAGADDXFVF??DAGXDAFDDXXGAXXXGFXGAFXDAAXXXADGVGVVVXDXXFDVGGDVXDAADAADAVXDVFGDAADFGGDFDV",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "B) COS, POT, ASO v NKJ (9.05 pem., October 6th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p78_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.370637404549981,
+      "plaintext": "GLYA5WNZ3ZZDXBYANNTQHSWK4QYSKUEFIXLAYXGJCT101LYR4CAX97WMLWQ01QP1A5FSP9MJLA5AR8Q19AJLQ1U78MKRMW1Q5COQ",
+      "known_quadgrams": 97,
+      "ciphertext": "XXFADDVXVDDXXAAAAXFAFVGXXXXFAVGXDFGFFFFXGAAGFGGVAXVGXXAAXXAAAAAAVADGDXDDVADDDVXFAXXDAXFXXXXXFAFFAGGFXGXXXAFGGAAVVDAXXAAFFDXFVXXFDAAXDGAAAGAFGGGDAVDAVDDXDXDAAAAFADDFAVGXAXXVDAAFDXAGGXFDGFXVAAAAGDAAXVXX",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "A) NKJ FUER OSM v LP (12.54 p.m., October 31st)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p96_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.384203453173583,
+      "plaintext": "DXGMASZ8ZI88GET46GYGREJU9W84XBR08DX4CHD8YAPN0CUEHH9DEV3F0GHHABJL9UTZTDLQ2IUWDL8QZIETSGVNW748DHVN9BJTZDAH10OD6NN3N8M04M98KLL482C86KD39WXGXUK4HS924?5EVDP093JZUV6XM7Q2D1SFET6XOLD6TUC8G",
+      "known_quadgrams": 174,
+      "ciphertext": "XDXVVVGDGVVAAFGVGFXXGDGVDVGDGXGAXAGFXFGVGGGGFVDAGGVGDDGGDXDXDDDGVVFGVVDXVGVGGADVGGXDGDGVGVVAGGADXVXXGXFGFGGFDAXDFAGDGDGVXAFVXDDVVAGXFXAFVGADAFFGFGGAVDGFAAVFXGFGVXVVVVDFVGAXXXXGXVFXGGXGGFDAXDDADVXXDXFFFGDDDAXVGDXAXGFGDVGVADGADA?VGDADGFFFAVGFAVXVVDXAGVADDAXAAFGVDADVFXFAVAGXDGDXFGAAADXFVFGFGAGGXDVVGDFDXVGVVFGXGDGAGAGAXGFAVVDDXFGVAGAGAGXVADFAVDVGFXVDDGXDADGDDXXGFF",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "B) UKS v LP (8,11 p.m., November 1st)",
+        "1800 (1/11) POLITISCHE ABTL BUKAREST"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p108_ocr_block1",
+      "key": "Nov22-24",
+      "score": -9.402234199351835,
+      "plaintext": "BCXF34X06CM2813Y06BJG8H2948544JGVOX17HN92C9T1UN4WXNN47IX1ABIKHL7LWOBYID8T603TRC4SHORWE2SWS8GDD229OIWFMV5YOBTY2KMB7GEI5DSU1L6A?4ORMAIJ9PKFXKI",
+      "known_quadgrams": 133,
+      "ciphertext": "FFXVVDGVGXG?GXVDDDFDFVFVFXGDDDDADFGVGVAGVDVXDAVVGVFXXDGADVFAAAFAVXXAXFVVFXDFGVXGXGFAFAADDDXAAFXXGFFDAVXVVDVVDDAVDDGDDXXGFGAVDXGFDADFDDGVAXFGVFFXXFFXXXXXDFDAAGGVAFXFDAXGXAXFDXVFGXDAGFXVGFGDXFFDXAAVXFDDGVGGVXXFDGGVDDGAFDDGDGVAXVGAXDGGGAGFAXFDXAGDGAVVFAXDXFGGDVDAVXVGDFVXXDXDAADGAGVV",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "(Employed vetween Berlin and the Black Sea Area)",
+        "2nd NOVEMBER, 1918.",
+        "A) OSM v LP (1.00 p.m., Sovemoer 3rd) |",
+        "1900 (2/11) SONDERKOMMANDO IN DER TUERKEL"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p119_ocr_block1",
+      "key": "Nov22-24",
+      "score": -9.269821977963412,
+      "plaintext": "YQOHPVXY0HSXPAQYJ51TKXV71C1EC7QEOOMHLVVUOJPWO3PIZ3OD5511VBXEIHEWUVPG2AHU4AY5QX2MLV2YWM8N3A6PNT2GZ3HREAXODWAGB6YOPM1YZG637OWRWAEA1WUPRQXSOMA5",
+      "known_quadgrams": 137,
+      "ciphertext": "XFXVAFVVAXXXXXDFGFFDAVXFAADVADXVFVAGGVAXFXXVADFVGVFXVVDGDGDGDGFAVXXXXAFFFXFAVGADVXVAVFXAVDFVFDVAVGFFVDAXVXVAAVGAXVXVVDVGVDGAVAVADGDAXGXAVVDAXVFFXVXDFAFFFXAXGFXVGXGXXXXXVXFAVGXXFAVAXVFVFVDFXAFAXAVFVGAXFXVAGDAXDXAAFXVXFAFAVXAAVXAXAVFFXXVXXFFFVAXDVXVDFAVAXXAXGFGVAXXAXXDFAXFVGVAVAVFX",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "(Employed cetween Berlin and the Black Sea Area)",
+        "4th NOVEMBER, -1918,",
+        "A) NKJ v LP (03,00 a.m., November 4th)",
+        "FUER COS GAM KOMPAGNIE TIFLIS (4/11) 0100"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p121_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.214417331189994,
+      "plaintext": "4WEYLTZUPZ4O1QI2JXPS?H3LSE3?K5H7E1HZNKCN2BKNEHYYQYA4AOIEH1QE21SK3XGSWERRP?H0K6PP2YC2MSRJPNARNM7O2H",
+      "known_quadgrams": 83,
+      "ciphertext": "GAFFAFFFAFXXDAXVVGXDVFXFVDADFVDVXXXF?GXFDGFFDXFXFFGGXXXAFFFAVDVDADFAFDVDVFADAFDFDX?FAVFFAFDFAFAFAFDFDXVVXVVVXXADDFVXFADAFXVXXAVDXAVFADVXGVVVDXAVAFGAXFAVAVVDAAVVFADAFXFDFVAAFAXXXAAGVDVDA?AFVAAFAXXVA",
+      "orphan": 1,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p121_ocr_block6",
+      "key": "Nov22-24",
+      "score": -9.356999974250794,
+      "plaintext": "OKKSFHJGAJRWPYQIVHIGNHZVZTP?RZAIIQ612RLT8OQ8F1WQ3M5NOW2EXGZBCRTJFMXZ1KOBXRAWPO?NXWRT3EQ6KROHFEHKHPCKKOLHJOZH89H",
+      "known_quadgrams": 100,
+      "ciphertext": "GDXFFFXVGVXFFDDFXDFFXGXXXDXFVVFFVGVAVVFDXDVAXFXAVGXVAAGFAXFFVXVVVXXFDFXVV?GVDFFFDFVDXAVXGDGFVAAAFGFVXDAVAAAFAVGFXFAFVXFXXFGDAXAVFFFAFFAXVGXAXXFVVFDGFXFFFXVGXAA?FFAXAFFXAVFFAADVAFXXFADADAVGVAXXDVFVXFAVVXXVFGDDFDXFXAFXXXXDFF",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "FUER UKS (4.12) 0035 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p131_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.294956764236826,
+      "plaintext": "HCP?EXX8MXC1ZX7PWWPLO7EXPAX2XNW?EXQXEPESR7NZVKRW2YO1H56WHREP5JIY7KXM1PRYQLWXR7XPRANBPHPUOAOEMYWYYZIYSQ8WEYXAXX5PWYKXGAYGTYNOU76AY828EYQME137MARAJ9AZXYPFM1KVY2WQHAM6N67GMKLOP2QMGWPAAMAAW1Z?JHZEN8XSWMQ1YKVCP28F1MA1HIE1KAYNIWSZXVP2WNGQRF17E8W1PP?GC2EA2KY9PKGO565BUQB",
+      "known_quadgrams": 244,
+      "ciphertext": "FXAXAXFXVVFAFAVFXFVDAAFGXXXAFXAGXAXADAFFAGVXVGVGVGVAVFVVFXFXVGVAVDXXVXFAFGVFVXFGVXDGFXDAFAXDXVVXFGDDGXVFXXVAAVAXXFADVDGVXFAVVAAXFXFFXFGGFAVDAFFFFXAXFAXAAVDAXVGXXXAXFXXAVAFFXFAFFAGXAAGVADFVFXXDAFAGFFVDAVXFXAVAVXAGXXXXVVADADAVXVXXAAADFVVVAD?AXFVFXFFXFVVXAVXAFVAXAXFXVXVXXGFADAVAXVX?AAVA?XXXAFXDGXFAXFAXXXXAAFAVFVXAXAFFXXXAVXAGFGXVFXDGDXVVXVVVFAAXXGVFXXAVVVXGVVDAAAFVVAXDXAFDVAVDXXVFGGAAXGFAXFAAAGAFAVXAGAXXAAXGAVXVVFVGAGAAVAAFXFFXVDAX?AXAAXAAGAXVGAXVGFAXGFAVADXDAFVFGXFFVXXXXXXXAFGVDFXVAVAXAAGVAVAXVXVXXGVXVXFFXVFAXFADAXVFAXAFFF",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "Sth NOVEMBER, 1918,",
+        "(Continued)",
+        "A) OSM v OUI (8.25 p.m., November 5th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p136_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.083185005187989,
+      "plaintext": "MZ1XOZNQRZXPVY6TY5O0OEAMA?SMQ4MR?ZATUEBRF6OJR9",
+      "known_quadgrams": 35,
+      "ciphertext": "XVDFDDAFFDVGXVXXFFFFVXXAFFVAADAFVFAF?DFAAGAG?VAVAFFAXDGXFXVDFDAVAVVXGFGAVXVAGAXFXAXAFAFDFXAAD",
+      "orphan": 1,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p137_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.358742758962844,
+      "plaintext": "EWA1ZYAUARAMJPD8AO6LOQEWSO14A4?PWM32LQZVZQCNGMAXX1OVBAAS?VQHARQ3VF16HR1CMXH0K4WMXPVPQ3ZYKX8KOESPR1YB8?NAO",
+      "known_quadgrams": 90,
+      "ciphertext": "AXXAAVXXXXAFAVFFAVAXG?AFFVFFAAXDAFXAAFFVFAVGFXFVFVGDXDFFXXXDAVVXXGFXDAXXDVFXXAVAXGFFFAADFXAFVVFXGXGAAFAFAVAVAXAXDXGVGDAVAAAXXXDAXVVVXAFGXAXFXVFAVDVFV?GVAXAAXAGDFDFXGFAXAFXXDFXXDXVDAXXXXVXFVXDGVDFVAXAVAVAVAVFAG?",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p138_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.286548292314684,
+      "plaintext": "1YXG6XPRPFMMJC7ELAMLAD8MLXYRPEYUVLZWOH7P?7NFKHQ69XAVMKM2C2OEQ16WAJMZQNMGAH2JZMAQAHQV2UGARXZOSRKUAU3WZXVKCFQQPQYHROA8AO",
+      "known_quadgrams": 111,
+      "ciphertext": "GFFVGFVVDFXVAVVAXAVXFAXGFAVVAVXAAGVFAXFADAFAGDXAXXGVXVXGFAVVFVFAXAFFFFAXFFAGFAAAGAFDXVGVGVDAXFAXAFGXAXAFFGGAAXGXAXXVXXAGAXVAAFXAFVFFVGVAVAXADGVAAAAAAFVVAFDVAFAXAFDVAVDAXAAVVAAGAXVGAAXGXFVFDAFVFGXVAFXDGVXXXXXXXXVFGXFAV?VVFVGAFXFAXAVAAFXF",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 42,
+          "ocr_group": "XXXXXX",
+          "layout_hypothesis": "XXXXX",
+          "method": "left"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p139_ocr_block6",
+      "key": "Nov22-24",
+      "score": -9.311230435428849,
+      "plaintext": "YUFP3P2BEMJJY144YAOMIHAT7OPRQ9KAFCTH3Q21R76CPHXHOCS82DXZPH0NMH54CRABURCF46ATEWY8PB3KE7",
+      "known_quadgrams": 83,
+      "ciphertext": "FDXAXADFVAAXAFDXFVFAADXAXFFFXFVAVAVGFDFDXDXAXVGADDFVGAXFFADVGFDVGDAFFVAFVFAFDXDXFVDFXAXAFVFAXFXGFXXGFGXAVAVVXDDVAFDFGVFVVVXFFVAXGVDAGVDFDFGFVVDXGGDVAXAXDVDFGFDFGDVVFXGFXFGG",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p140_ocr_block4",
+      "key": "Nov22-24",
+      "score": -8.532903028859032,
+      "plaintext": "2S81GKMEQWWYFOASL6AYXO?IMP3PMANZL?NTESKR1VRFXAM",
+      "known_quadgrams": 36,
+      "ciphertext": "GDFDAVAFAFAVXFAFXXFFAFAXAAFVDAFGXFVXGGXAVXXXXFVA??XFXXXXXVVVXADADGDAXAADVXAVVVAAFVGVFVAAXGFADA",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 10,
+          "ocr_group": "FVA?",
+          "layout_hypothesis": "FVA??",
+          "method": "right"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p144_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.307224806617288,
+      "plaintext": "I35J0K?W?NS7E3WWZ?V?RSJEBR4P?L5MB1KMAYX?BEXOZYTCKD?1XYAS?MI?8?JTWZQCKZ?",
+      "known_quadgrams": 34,
+      "ciphertext": "DVDFF??????????XFAVAAGFAFDFAXAXDADXADADVVXA?FFAXAGXDDFXXAXFVXGGDVFXDDAVGXXFAAVVGFXDXFFVVVFGXDAXFFFFFFFFDVADVXDXXFAFVFAFVAFVFAFFADXVAGXXDDGADAX",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "Cc) UKS v ZON (---- November 7th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p147_ocr_block6",
+      "key": "Nov22-24",
+      "score": -9.109651660919189,
+      "plaintext": "QXCEOAJUIGEO31VC2OMFOLX221UNCWRLCC59XDPAA?T7ZAN",
+      "known_quadgrams": 40,
+      "ciphertext": "XDVGXFFADGFDVAFGXFADAXADAXDVDAXAAXFGDAAVDVFVXAVAFXFFVVVXDXAGAFFGGAFAXXVFF?VVXXGXGVDXDXGAXAFXVDD",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "D) YZ v LP (08.26,a.m., Novemour %h)",
+        "FUER YZ 1:43 (6/11) 2 TEILE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p149_ocr_block1",
+      "key": "Nov22-24",
+      "score": -9.263755510438163,
+      "plaintext": "1YXG6XPRPFMMJC7ELAMLAD8ML?YRPEYUVLZWOH7PK7NFKHQ69XA?MKMXC2OEQ1FWAJMZQNMGAV2JZMAQAHQV7UGARXZOSRKMAU3WZXVKCFZQPQYHROA8A",
+      "known_quadgrams": 106,
+      "ciphertext": "GFFVGFVVDFXVAVVAXAVXFAXGFAVVAVXAAGVFAXFADAFAGDXAXXGVXVXGFAVVFVFAXAFFFFAXFFAGFAAAGAFDXVGVGVDAXFAXAFGXAXAFFGGAAXGXAXXVXXAGAXXAAFXAFVFFVGVAVAXADGVAAAAAAFVVAFDVAFAXAFDVAVDAXAAVVAAGAXVGAAXG?FVFDAFVFGXVAFXDGVXXXXXXXXVFGXFAVX?FVGAFXFAXAVAAFXF",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "Q (Employed between Berlin and the Black Sea Area)",
+        "6th NOVEMBER, 1918.",
+        "““(Gontinued)",
+        "A) YZ v LP (08.49 a.m., Novemoer 7th)",
+        "FUER YZ 0015 (6/11) 2 TEILE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p150_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.237353839372334,
+      "plaintext": "?NSXQXWRTVVCYEMWAMAZHXVKAWSQXRV?HXAMJW8OUKAXZNRMMGFTPEHOLAWEKZEWKU8W?FKGYEE3HLM?Q1YFJA?YRQ2KXF1P",
+      "known_quadgrams": 76,
+      "ciphertext": "AVDVVFFXAXAXFFFAFXVAVFXVFXAVXFXFGFAVFFAVXD??DVAAXXGFDAXADAXAAAXAXGFGFGVAVAVVVFXAAGXXXAFAVVDVVGAFAFVXFFGAFFXFVVFFDXDFXVFX??AAXAXAVXXXAFFXAGVVADFVXVXVAXAXXAXFAXVV?XFFFAVVAXGAFGXFAFGDVVXVAVAAFAXFV",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 28,
+          "ocr_group": "XAGVVD",
+          "layout_hypothesis": "XAGVV",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "1 (TL AVAGA VGXAV AFAVA XGFAD GAADV XAVFA VAFFF AXV--"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p151_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.250761547604123,
+      "plaintext": "VDLBNAM454IVG14N49G2D259GTI5L9NL6JHE5IIJGI8P8OH5PWJ9PUP6UTH6STABINWO1V9PUUXJ5",
+      "known_quadgrams": 74,
+      "ciphertext": "AADDXGGADAXXDGXAADXFAVVVVVDDDGAGGVXVVXDXGVGXDFFGFXDXDVDXDAGXXAXADDVXAVFDVXXVVVVDXGVXDGGGGXVGXGFVVXDDVVVVDGGGVXVXDVDVVGXGDDDDFVDGGXVDDVGGDDVVDXDXDAGAXXVFDX",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "8th NOVEMBER, 1918.",
+        "c) s¥v m4 (7.00 p.m., November 8th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p152_ocr_block1",
+      "key": "Nov22-24",
+      "score": -9.342559123525815,
+      "plaintext": "S962L4RDDIPPD6Y?BZOZOZCQ9EXIVA3R?2EA0EYK0ZM?XBRZSC26N248HN32WE3J",
+      "known_quadgrams": 49,
+      "ciphertext": "G?AFDAFFVXVVGAFAADVFDADVFFAVDXDAAXDGAVGFDFDFDVXA??DDGVAFXAFFDAFAVFVXGGXXDGFGGGXFAAAXVAVGGAFFVGFDFDXVAVGFDDXFVAFAVFAFGFAGVDVVDAFD",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "(DISTRIBUTION \"B\")",
+        "(Employed between Berlin and the Blaok Sea Area)",
+        "7th NOVEMBER, 1918.",
+        "A) UKS v ZON (--- November 7th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p152_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.542079053274016,
+      "plaintext": "95VLENZG85UYP2H1MNW1G6C?VXWXWCBYO46AW?QY4ZQ63YK7CAYR",
+      "known_quadgrams": 41,
+      "ciphertext": "FXVADFDXAAXXFAGVFVDXAAGFDDFDV?VAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVXFVXX?FXXXGFGXGFAFXXGXGFAAAVFFXXFDFVVVAX",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "E) NKJ v LP (9,10 p»m., November 7th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p167_ocr_block8",
+      "key": "Nov22-24",
+      "score": -9.113897690406212,
+      "plaintext": "A8HI2?9J?D064A?B?94XE5FTJ5P8HEEI?V9L12JRUPP155",
+      "known_quadgrams": 26,
+      "ciphertext": "AFXADDFFXAFXGDGXGVVVXGGVXGDDDDD?XDDX?X?VGXDAXXAVFVDDDFVVXDGXVGVVXDVGX?XVVV?DXGFDXGGVFXDVGFAXA",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 15,
+          "ocr_group": "XVVV?G",
+          "layout_hypothesis": "XVVV?",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "E) XyZ v LP (06.43 a.m., Noveuber 10th",
+        "0oz2 (9/11) 2 TEILE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p175_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.279428012443312,
+      "plaintext": "69WH?70T46EHWT1XOUTUTHODCVJ0UNV?8PM9LWQ4LFDPZW5TM0W?I8?DR1I?N5SS108OTVTNUJ?440WJL?TWYZV0OTTOGE6J?P95",
+      "known_quadgrams": 66,
+      "ciphertext": "?ADVV?V?GGGGDXDGXVDVVGDDXADVFGV?GDGDVDGGGXDVVGVXXAGXDXXDXGAXFFXDAXDADAAVFFVXXDDDDGGFGAGDDDVVXVGVDVGXVFFVFGGGFDVVAGGDDFDVVDGXXVDVVXXXAADXXGVGVVFXVVDGVFVA?F?FXVADVVAFGV?GXXDVXDVVDVXVVGDDDA?AXAXXDFDDXDXD",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "B) LP v NKJ (6.02 p.m., November 10th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p184_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.036120324664646,
+      "plaintext": "7K51P1CUU316V52P1BK5ESAP8APWIEXIKOWXA8SS3YXJPIVI7WPKAK1C1PH10WBP6514X1AAHIPP21JOOXKECHKAGK4XX",
+      "known_quadgrams": 90,
+      "ciphertext": "XXXXAXXAAFGVAVXFVVXAFXXXVXAXXXDVADVVXXVVXAGXXXDXXGXVVXVXDXXXXVDVDXFAXDFDXXAXXXXAXGAXXAXXDVXXAGVAFVFXXXVFFFFFDDXXXAVXAXDVVVGGXAXXFVXVDXDDFGDXAAVVFXVAAVFXFXFFDAFGXFDFDDXVVFGXVDXGVFDDGXVVXFD",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "FUER UKS DRINGEND 13.40 (13/11) 3 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p186_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.123536287728003,
+      "plaintext": "FMGG2AXDAR77MWYMBEELO1FO5M768XSG8BWK3UOQY1FRCOBCQ1ZTFHOLKB1MFX",
+      "known_quadgrams": 59,
+      "ciphertext": "AVAVAVXVGAFXXGDXGGXGFFFFXFFGAGFDGAAFXFXXFGXXGAXXFXAGVFXFGFVFDXFGFGFAGFAFVFGVXFFFVAGGAAVVXVXFAAAXFXAADFXFXGGVAFXAAAGVXADXXDXGG",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "(Euployed. between Berlin and the Black Sea Area)",
+        "13th, NOVEMBER, 1918.",
+        "A) SU v LP ens a.m.,November 13th)",
+        "20.50 (13/11) 8 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p191_ocr_block1",
+      "key": "Nov22-24",
+      "score": -9.128114123777909,
+      "plaintext": "V9XVB3KTZOTORII5IR6M1DPM?CHIVXDHAUW5OMAZNP5IHVESYO4O6XFNEMOL2MX868?Z?U0PCUPKEOZSTRLFWUXPAZU9G?MERJO2P3GH6KGO41RW9KK7NQ55O4KEXQM",
+      "known_quadgrams": 110,
+      "ciphertext": "FXVVFGDFGVFAXFVFDAFFAXDAVGXGXXVFXXDGAVFGVVFXFFXFDXVXXXDDVXXVVA?XXAFDDFAXVVFFFVXXFDDXXAXGAGAVVGXDGXFXXXXDVVAFVVA?VGAVDDXDXVVGGFAVFVGFDFFAVFDVGAAXAVVFGAADXXFV?DVFGFGDFAAAGFXFXAGFVVVFAAAXVFFAGVVGVGFFDVVFFAFGDDXXXXXVXAGFADDXFFVADVDGVFAGDVXDFXGXVXAXV?DVADAGDDV",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "14th NOVEMBER, 1918.",
+        "A) LP_v ZON (06.16 p.ui., Novenber 7)",
+        "2301 (11/14) 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p199_ocr_block1",
+      "key": "Nov22-24",
+      "score": -9.419013216778948,
+      "plaintext": "KSGHEOEM1VLJ7ZOE5ZKQXOT7HTZ85YLTJLPVHJ8LRG2WS6GELNHWEMXMKDFY8Q11821WKXR8Y9VP1WVCIB7NEOTAWKIRYAYR2UXUJ2B3ZCEBEYUX1FRVZ1AE3ZUVSBQQBOHEOW2SHJUI3RWZ3R",
+      "known_quadgrams": 143,
+      "ciphertext": "FFADGFFFFFFFVVFDAFAADAFFAGXAGGFXVXAFXXFAFXXXVXAXADVXVXDVAGVDGVVFFFDVGDVXVVVVAXAAGGVVXXVXXXGXDXXXXAXXAXAVADGXDVAAXXAFFFVFDGGDGGGAFVAXVXVVFGADFFGDDXXDAAAXXXGGFFFVFFFVXGFFFXFDGAVVGGFDDAXVAFVVFXAAFGADFGFDAAXGFVVFDAVVFXAAXVXVFVGAFDFFDFVFXVFGFAAVAVAVXXVVFFVFFAXGVAFAFDAAVAXAFXXDVFVXGVXFFVXGXFVVXVVF",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "(Employed between Berlin and the Black Sea Area)",
+        "| 15th, NOVEMBER, 1918.",
+        "A) XYZ v LP (08, OL pea., Novemoer 15th)",
+        "16,50 (15/11) 3 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p204_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.352102323011918,
+      "plaintext": "GL?NOWQ4AAKCX?9Q7C3LGCGA?4X9LN11NLM?5KB1CNS3446N25XX1QYJF?7DQQJWB7US?80QFGANDJA?7LB5J?D7BX?Z1AQ3UNNRC?8FAXSA7A39Q5SKD?OXM4N",
+      "known_quadgrams": 77,
+      "ciphertext": "XAAFAGDGXGDAFAXXAFDAXGXGXAXVX?VXXXFDDAGGGDAAAXXAAGDGDGXGDGGDDVDFFFDAXAADFAAXFDDVAGFXAAFXXFFDAFFAGAAXVXGDGDAAGAAXAGDXAAXAAXXXFXADXGXGFDDDFADADGDFDAAADXGAFXDDAGFAXXVGGAXFAGAXVDGDXADGAAAXDXXAAGAFDDDDDGGGFGDXGXDAFAGAAAADGXAAGXAAGDDDFXXXXDA?????V?????A",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 6,
+          "ocr_group": "AXVX",
+          "layout_hypothesis": "AXVX?",
+          "method": "right"
+        },
+        {
+          "group": 48,
+          "ocr_group": "???",
+          "layout_hypothesis": "?????",
+          "method": "right"
+        },
+        {
+          "group": 50,
+          "ocr_group": "???",
+          "layout_hypothesis": "?????",
+          "method": "right"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p211_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.211971165152157,
+      "plaintext": "RONM6K1ZQVYQWSQEHXAROFYFOOSEZ77YWPVLHRRV7PS?2QXEVI2XRG2HX7ARDXV1M3A4RTQTA1UFXGLO1ZZPR18HPM5P",
+      "known_quadgrams": 85,
+      "ciphertext": "GFDFVFAAXXFVVXAVAFAXFXVXAFXXVDXFVFAAXAFGFAFXAVXGXFXFVAXDAAFVFFDGVAFGV?AFAVXFVFVGDFVAXVFXVXXFAAVVFAXVAXAAAVXFADXGAAFXXVVAFVFAFXVGVAADGVAFGVFXGXAAFFVADXVVXFDGVGXXAAVAAXXFAGGXVXFDAFAXGFFD",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 14,
+          "ocr_group": "XAFGV?",
+          "layout_hypothesis": "AFGV?",
+          "method": "left"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p212_ocr_block5",
+      "key": "Nov22-24",
+      "score": -5.1621667660704444,
+      "plaintext": "OELKARTELLVIFLISXNUMM3R2XDRAHTETWANNWOHINWOLCHEADRESSEMITWELCHEMSCHCFFUNSEREPARTIENVONPOTIVERLADENSINDXXDEUTKAUF",
+      "known_quadgrams": 109,
+      "ciphertext": "XDFXGGVFFADDFVVFAVAVGVFVDVFAFVVDXAAFVFAAAADFVAVVDXXDFXDDVXVDVVFVDFDFFVDFFAXVFDAAGGVFVGVDXXDXFXAFFFDDAGFDGVXFGDFAFVFAFVFADVGFVVADFFXGVGGAAFVGVVGAAFFGAGVFXFGAAVVDFDAGAAVXAAFDVDXVGXAVFVVXGVVXFDFXAFVAVDFVDVXFVGDDAVVFGGAAXDVXFDVG",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p212_ocr_block7",
+      "key": "Nov22-24",
+      "score": -4.483552725740181,
+      "plaintext": "EINENMITOEFENVERSEHENVNREVI?VWA?ENFUERKRANKEEINRICHTENX2XXFELDKUECHEODEREINDEBAUTENHERGMITNEHMENXAUFDEMDAUERNDWARMERTEEVORRAETIGZUHALTENISTX",
+      "known_quadgrams": 129,
+      "ciphertext": "AFDFDFFFVGFVDVVVFFGVFVGDXDXFXAFVAFAFFVFVVVXFVAGGFAVDXXDVGXADVFFFAAFAVFDGVFGVDFFVXVADGAFDVD?FDGFAVXFDDGVFFADFVVGXXAAVXFAFDAAFVAFFVFFGGVFVVFAVVDDVVFGVFXFAVVVXVFDFAFFAAAVFVAAXVAFFXFDFVFVVVVFGVDVDAFGDAFXVGXFVFVADVGDFXFVGVVVVFFGDVAAVDFA?FAFGGXAVVDFVFVGFVFVVGVDFXADXVVDVVFXDVVGDXFGDVFAV",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 19,
+          "ocr_group": "??FDGF",
+          "layout_hypothesis": "?FDGF",
+          "method": "left"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p213_ocr_block1",
+      "key": "Nov22-24",
+      "score": -9.121563788281371,
+      "plaintext": "KI4ZEWYJSVRS3E9LE5MQ3ERWELSO7BTHFTTIJHT6VHPTR2ERXXJL8RNISO7ARZWQEKOSA9EWZ53JEB6T3NXUSNLENYPEUCFPVSILSICZWV4NVRZUGYBE32?BEPMRVEM2XWDIT5ETXVR343EHVN9ENAZYVGU3GB",
+      "known_quadgrams": 151,
+      "ciphertext": "FGDVAXFAVAFFAFAADGVXFFGFVDVFADAVVXAFAVA?VDFFVFDDXVVVFVVVXVDFVFVXAAVGGDVFDFVFDXFAGAXVVVVDXDVAAVAAGADVDVFXVAFVADVFVVAFFGVAFFFDFFDFGXVFDXFXXFXVAVDAGGDFAGFFDFVVGFXAFDFVFGDAFVDFGDVFVGVXDXDAAFADFFDFXXVXDGFFAGVAAFXAVDGFGVXVDFVVADDGFDVVXVFAADFGADDVDDXDAFDAXFGDDVFAVDDGVFVXFFDGDVFGFVFXAGDAAVGVFAFXXAGVAXDAVDVXDFDVVVVFADVVXFVDX",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "GENERAL STAFF, SECOND SECTION (@.2, A. 6) (chh)",
+        "(DISTRIBUTION \"Br)",
+        "(Employed between Berlin and the Black Sea Area)",
+        "22nd, NOVEMBER, 1918."
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p213_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.358139261992081,
+      "plaintext": "XOTEVSAMS4A2OORWSHAMSH6RVWTGGPHLHCMSAISBL4THLTQQKOMKNNQY4HBZ46U7EMIBMYO7WE41Z37P86O7XMQFSS5C15WJ9AKSSZ8N9AHSUWOCJBS2TM",
+      "known_quadgrams": 115,
+      "ciphertext": "VVVDFAXGXADAFXGAVXGXADDVVDAADVGDAFFFAAFFXXDAADDVXAAGAAGDGFDFDDXFFFADDGGAAFDDGDXDAXXGAXVVVAVAGFVAAXAFDGFDDVFFVXAFFXDXFXVVFAAVDAAFVXXGFVFADVVVXVDAVVXXADVXDVXFFVXDAXXFVVDFADDDAAFDDGDADAVFXAAGAGFGGDDGVAFXAXVXVGFVGVAVXVAAVAXGVXXFADFVAAFAVDFX",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p213_ocr_block5",
+      "key": "Nov22-24",
+      "score": -8.920466806981471,
+      "plaintext": "2UQD05IZZ259VP6SRVPUE3HSVAJYVSTKETUOO49AAFYFZIIMMTWZUE7KQRPRECYWAOSXKLEMLRFO6KV3",
+      "known_quadgrams": 77,
+      "ciphertext": "DDDDVFFVVVAXFAAVVGVVGDDVFGFVVVXAVAFAGVVAFDFGVAGVAXVXFFGVFVXFFGAXGDFADDVAGGXXVXGVDFDFXAXAXDXAFFAXVXDFFFGAXDAFVVVDVDAAVFGDFGXFGVAFAVAAFFFFXXDVVXVDGFVAAFAFAVVFVFXD",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "| 23rd, NOVEMBER, 1918.",
+        "A)KOF v LP (06.20 p.m., November 23rd)",
+        "| FUER RVA 20.00 (23/11) 3 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p214_ocr_block1",
+      "key": "Nov22-24",
+      "score": -8.985606647673107,
+      "plaintext": "LRA7WJGYI6VRMXHOCMSD3RE6ERSOLRYEYUVK14F14VYBRII4BE9ELHIRYSSYHUVEUSEKSYHJHTM0E2DAMKEGU2S",
+      "known_quadgrams": 84,
+      "ciphertext": "VXDDFFVFXAAXDGFXDGFVGFVAVFAGVAVVDVAFGGAGFFVFFFAFAVVVAXGDDXGFVDFVFFFDDFFXFFFVFXVAVFXDDFVAFVGFFVVFDFDFVVVXAFFDDDXXFADGAFXFVGVDFFGVGAVAVAVGFFXDAAAGFFFVVDDGVGXGVVGAAFDVVDGAXVXVAAA",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 21,
+          "ocr_group": "VVVXAF",
+          "layout_hypothesis": "VVVXA",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "(Exployed between Berlin and Black Sea Area)",
+        "(INTERCEPTED BY BRITISH STATIONS)",
+        "22nd NOVEMBER, 1918.",
+        "A) ZON v BSL (04.25 a.u., November 23d)",
+        "1600 (11/22) 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p214_ocr_block2",
+      "key": "Nov22-24",
+      "score": -5.194860912138416,
+      "plaintext": "ANOKMXHIEREINGINGFOLGENDERFUNKSPRUCHX?ERBI3TENUM?EHEN?NACHRICHTOBGERUECHT?OMANMARSCHMACKENSENSAUFWARACHAUWAHRXSOLDATENRATWARSCHA8XXAOKYYXRMYAQY?5X",
+      "known_quadgrams": 124,
+      "ciphertext": "VAG??DDDAXXDAFFDFFFDFAXVAAFGDDAXXXGVFAXVVFDDXAXAXDAAFXVD?GAFXFAXAXDAVFXFAFFDVX?DDGFDFFADAFAXDAGVFFDVDDVVVFFFFVAGXFXAVXFXXGVVFFFAGDFFFDFAVFFFFVGDFAVDGVAVDVFAXFGDXFFFV?VVXAXFXGFVVVVXDDGFFAADFXXVFADAAFXAAGDADFVAXXXFXVAAVDFFAFFFXAXVFXAFVFVFGAAFGXFGFVDVFXAAVGAFVVVVXVFXVVFXGVDVAGADGAFXVFGFGAAFAFAX",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "B) --- v UKS (07.05 p.m., Noveuber 22d)",
+        "1630 (11/22)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p214_ocr_block3",
+      "key": "Nov22-24",
+      "score": -6.556363961635491,
+      "plaintext": "A?FBAUNICHTJ8XODERJ7XSONDERNJ7XODERJ3XNOVXXX",
+      "known_quadgrams": 39,
+      "ciphertext": "XGFADFXFDAAADAGXFXFXXDXFGGDFVFAAVDGAGVDDFXFFAXFVDDAVGAGDAGFX?XAFFGXXGFVDVAXAAFDXVXGVFXGX",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "c) BSL v ZON (06.09 pim., Novenber 23d)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p215_ocr_block3",
+      "key": "Nov22-24",
+      "score": -7.2738988399505615,
+      "plaintext": "?YDIXDXRAUM?ZENTES?HOD?EZOEXVASAR?EY4XERREIC?TX?DIVXSTX?UX?ODMEZOE?VA?ARTEL4X?XK?38XOROS?UZ?X2RXDXR?UM?AG4BANHEG4?SXBATTRE4A?DIVXSTX6UX?EZOEKOVACS?AZA",
+      "known_quadgrams": 72,
+      "ciphertext": "AVFAGXXFAXDGFXXAVFVADXFDGVFAXVDFDAGFGXVDFAGFFXVXAFFFXVGFAVDFDFXDDDFDDVVVGAGVXFFGXAFVVDGVXGGXDGFGFAFDGFXAGADAAVGFDAFADFVFAVGVXVVGFGVXXVFFDAXD????????????????????VVVAF?XFAFFXAFXAFGFAFAAXFAVDXADXDVXGFADXAAGVAFAFFVVVAVVGDVDAFAVAFAFGADAXVDFDXFAXGDVXAFVXXDVXDXAAVVXADVFVVVAFDFVXXFAAFXVVFXGAXVGVFAXXAXFADAXA",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "RICHI~220 GG-VA FXFDF (snd several groups Missing)GAFGA AXX-V"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p216_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.275607456331668,
+      "plaintext": "IIZ5Z55RR2P2CZJ3ISAHPEKEH2D2AKV03Z6OOBHZ8TQEPB56K6HHHJTIGMESRVORE0I92YECSUYZ9QHK9EQOWU66ZCVSQ3Y377Z9MY5SVLKEUPIECHVFTZPE4W72OHUA95MAHCJVVGTVG",
+      "known_quadgrams": 138,
+      "ciphertext": "AFGFFDFFADVVVDAAFFVAFAADADFVVVVFFVAFXXGVVDVDGDVFVDAVVGAXVFVGGVADAFAXDDAAGDVVVFVVGXDFFAVGFXDAVGFDAFVGVGXFFFVDGGAXDXDVVFVFFADVFGXXDAXGFFGDXVXVVVXFVVVAFDVXFFXFXVXVVFFAGVAAVXXVAFVFDADFDGGXAVVAAVFVDDFGFGGVDVFADFFVDFFAGGVVDXDXVFVVADADFFVAXDADFAGAVFVXDXAVVDXFGVXVFAXGFFGXDXFDVFFFFDAVXVAFVX",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p216_ocr_block4",
+      "key": "Nov22-24",
+      "score": -7.780112062181745,
+      "plaintext": "H21FWQPZHX2ERBI5TBNGIEDERHCLUNGBEURTEELVN1DBRLAG?BYSFN9ERSAUSFEKUQGDESJALF6NSTILLATAN7EJFUYRRKMX1O",
+      "known_quadgrams": 91,
+      "ciphertext": "VXDFVVDXFVGGVAFAAAVGGXGFGAXVVVGDAAXXVGGDGDVFVFGVFFGVGVFVFAFGVGAVGGFDXVFAFFFGADDFADAAGAADXGDVFGXDGFFVGGFVXDFAAAADFGAAXFFVXDFGFXDFV?GXAFAFFFGFGDVFXXXFXVGXFVFVXAAAFADFGAVAFXXFVVFGGXVFDDDAVFDXXGFDAAVAA",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 8,
+          "ocr_group": "XXVGGD",
+          "layout_hypothesis": "XVGGD",
+          "method": "left"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p216_ocr_block6",
+      "key": "Nov22-24",
+      "score": -5.066183056150164,
+      "plaintext": "HERMANNSTADTXSENDENXANKUNFTAUFD?N8STATIONENOKM9EWEILSMITTEILENXKROGEHENHIERZUENDEXOKMXYAYY?18XX",
+      "known_quadgrams": 84,
+      "ciphertext": "XAVVVGAAXDVGFVDVXXVAGFDFFAGDDFVFGAAAVDAFFAVVFXFVGFFVXGAADVDAAGXDFFVXAGAAXDXVXDGAVVVFFXVFGXFDFFXFDXGXDXVADAGAGAFVFDAVGFVGAADDDXADXGFAVDVVFAFDXGVAXFXAVFAVVVVXXX?AVFAFAFVXDADFAADFDAXVAFADDDVFG?",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p217_ocr_block1",
+      "key": "Nov22-24",
+      "score": -6.171313825054703,
+      "plaintext": "ANOHLUNDKMXVONGJDO28NOCHKEENNENACHRICHTXOKSCHOLTZXY2XLDWXDXUNDJJ2XIDMAE?SCHEIMVERSAMMLUNGSRAUMXNACHHUTJJ2XIDSUEDLX",
+      "known_quadgrams": 107,
+      "ciphertext": "GDFVAVFDVDDFDXAGAAXXFXAFADVGXGXFFFGXVDFGADAAAVVGFAXVDVVVDVGVFDFFFFXGVAGGVGAVAA?XVAAXDDGADAVVGGDDXDFAAVVGFDVAXFXDAAVFFFXVAXFVGAFXADDVADXAFDGGVFFVGAXVFFGVAGXAXVFXAGVDVGXGDXXXFAAGFXVFDXAFAXXVAXDGAFVDDAXAAFGDVAAGVVFVXFADVFDXVAGAVFDA",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "(Exployed between Berlin and Black Sva Area)",
+        "24th NOVEMBER, 1918.",
+        "A) LP v NKd (01.36 a.u., Novenber 26th)",
+        "VON UKS 2230 (11/24) FUER LP (BSL) 5 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p217_ocr_block2",
+      "key": "Nov22-24",
+      "score": -5.9708820224827175,
+      "plaintext": "RIMNICXVALCEAXXYYARMEEXALPENKORPSUNVERAENDERTXAMJJXWEGENKOHLENMANGELSKEINABTRANSPORTX2RXDXRAUMSUEDOESTLXOROSHAZAXJYQ2XDX",
+      "known_quadgrams": 117,
+      "ciphertext": "DFFFDGFXVAFXAXVXDDDAFVXVFGFXFAFDGFVAFVXFXFAAVVVXDDFGFXFFAVVAFXGFAVAADXXADXAADFAXDFDFVXADFDFFGFAXXFADAXVVFAFAAAXFVVFXXGDFVXGDDVAGVFVFXAVVXAVXAVAGVXXDDFVAVAVFXAVFGXADXXAAFGAADXAAFGVAGVVAGDXVVAFXVAAXGFXFGAVFGVAAXFFAAAVDFAVFFDXAAXGFXAXAVAFAAFDX",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p217_ocr_block3",
+      "key": "Nov22-24",
+      "score": -5.6980419604577754,
+      "plaintext": "INGESTRIGEMRAUMVERBLIEBENXAOKXSZOLNOKXYXBATLXRIRJYIMPOEST4ENEINGETROFFENXVERBLEIBDERBE6?EDENANDERENBTLNEUNBEKANNTX",
+      "known_quadgrams": 107,
+      "ciphertext": "DVXADAFGXFFFXXVVXFGDGGDXXGFFFFAVFAVDG?DAVVFDFVFVVXDFFGADFGFFADAVDFDFVGDDVFXFFFAFAVVFXGFVFGAXDVFAAVDVDGFVAFFFGFAAAVFGAXAFAVGDDFAFVAVFFFGVAXDDGDFGVAVAXXDVGAVAXFAFVXFGVAXAAAVXVVFVVAXXFVFGDDXFDAVXFFGFFFFFADDAFGAVGXGADVGVGXGDFVDFVVAD",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p217_ocr_block4",
+      "key": "Nov22-24",
+      "score": -4.26655217055436,
+      "plaintext": "ANSCHEINENDFEHLJEL?ITETXCEFHENVERWEIGERNAUFENTHALTXWOLLENAUCHDURCHFAHRTNURNACHENTWAFFNUNGGESTATTEN",
+      "known_quadgrams": 91,
+      "ciphertext": "VDGFGDVVVVAVDXGGFDFDVVXFAAFGVFVAFFDDDVFAFAGDXGVVAFGVGDVXVDDAVXFFVFVVAXXGFFFGVDAVVFFDFDAADGFGXVFVDAFDXDVFFXA?AXVVFGVDVDDVXVAFFXFVAFDXDAFAFVAXFGVVVGFFDDVFAVXAGFDAAVFGGDXVADGFAAGVGVDVDAXGFFDAFFVFAFDV",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p217_ocr_block7",
+      "key": "Nov22-24",
+      "score": -5.364194476926649,
+      "plaintext": "OLFENINIUSER?EI?HTARADJZXEYXXMELDUNGGE?TAUSSERDEMDURCHFERNSCHREIBERUEBERBUDAPESTXAOKYYXX",
+      "known_quadgrams": 74,
+      "ciphertext": "ADFFVDFXDDXDGFGXVFFVDDGFVGGAFVVXAAAAFGAXXFDVFFFFAFFDFFGADVAVGVFXFGGDGFXAVFX?GFFFFDFGFDFAFFXGVVFVDXVXFFVFGFAGGAFVD?AVAFVAG?AAFFVDGFVGFVGAVVVXVAGXDXGDVFXAAVAVVFFFVAAAFVGAFVXXGDVD",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 5,
+          "ocr_group": "DDGFV?",
+          "layout_hypothesis": "DDGFV",
+          "method": "right"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p226_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.159352330503793,
+      "plaintext": "VE4QVUTBOYPJDUR?YRW9DRVFF7BM26EMF66I9REKWVMERIZSI8ERDAUHCN2BUVT7TYN3HDTUEU?UBT4?MRZOH3A6TD3CPTEKLOD6I6FLCEKUC6J2JMURBXAUCWF3IVY6ZMORH3K9P3BXBARX66KYVP3NYHUF22CR",
+      "known_quadgrams": 145,
+      "ciphertext": "V?FFDFVFXGVVXFDDFVXVVVFVVGVGVXGFVGA?FGVXVFAVFFVGAGVGVFFFFAGAAADGAFFGFAAVDVGFVAVVGDVVAVVGFVVFDDGVVFDVFVFVFXVVAVDFFFVFXFGFVFFGGGDFFVGAAVGGGFDFFADVFAFAGDAGVDGVDGFAVXVVFFDDDVXXFXGFVGVFVVVFFAAAFDVGDAAVAFGDFFGAVFGFVGDFVAGVVAFFGGGDDFDGDAGFGGFDVVGGGDAGAAGDAFGDAVGAFFAVDXVFGVVXVVXXDVXXFVFAFFVFXFFFGFXGXVXFDGFXXXFXDDGFVFDF?DVXDXVV",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 48,
+          "ocr_group": "GDVVGG",
+          "layout_hypothesis": "DVVGG",
+          "method": "left"
+        },
+        {
+          "group": 55,
+          "ocr_group": "VXXDVX",
+          "layout_hypothesis": "XXDVX",
+          "method": "left"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_plaintexts.json",
+      "source_cache_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "block": "p226_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.208172131251622,
+      "plaintext": "DE7?OHKABYO4B9CIBR6MTUVSN?KMTCVQE67FRR7EBVG46FIRUB?WV?RBZ3VB8URSMUFWU0U3RHT4DJRGHSUK2BUFIGIEDEIWB3CCDCBBH63?02KPKLPOKD56BBFM2SIEXA02H2ZGTMW6Q50WIDM3AERNRDKZKB7?1VQBDHFEK",
+      "known_quadgrams": 143,
+      "ciphertext": "XDFFVFVDGFXDVFAXFDVVGFXVVXVXVXFVVVVDVFF?XXAAAFGVDFGGFFVGVGGGADAX?ADGDGVGDFGGDVGGFGDDDFFVVFVVGAGFFXFXGVFVVFFVFVAFXFVFVXDVX?XVFDFVGGDAFADGGFGAGGGDGVFFVAAF?D?FFVDVFFGAGVFFGDVVVGFXVFXGFXXFXGDFVFVAVFGAGFVAGAGDFVGDDFVAGFFFVXFGGGAGGVADDGFFDAGAVFGGXGADAGGAVVVADGGDDAADAFFGFFVGFVGAVXAGXFVAGXVDVFDGDXFFFFVF?VFFDGFFVFXAVFGXFFVXDGXVFVGDDFVDGXVFXAFGXV",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p71_ocr_block2+p71_ocr_block3+p71_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.13072751959165,
+      "plaintext": "?10D63B0E?F?WCZPXENBEC?EREEHE6FTC?WD9LQC?SL??RC5WKHFTC?ZW48L4T4O3VMNZBBUHUUV12RYSEQJZRENFADC34JRBUFGKG",
+      "known_quadgrams": 72,
+      "ciphertext": "GXFGVGFFFGVVFFDFXXFFGDVXVFFFFF??VXDF?VDAFDVVG?????AVAGGXXVXFXDFAXFAVAFDVADGDDGVVXAGDXFAXDGADGAFGXXFDDDFXAXGFAVFXDAG?GDVAFDDFGDDAFGGVVVAXAGVDXVFVFVAFXFVGFADFGFGGFVDDGGAFDFVGDFVFVFFFDVVVDDGDVDFDGFFGFFGFDFAGX",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "A) POT v OSM (01.17 aym., October 8th)",
+        "FUR COS (6) 1230 2 TEILE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p81_ocr_block1+p81_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.326290317203688,
+      "plaintext": "KL4LM7AOAR?OL117?AWC2GONXQOJUSQ0ON?00?PY51OC9?JOTZTZ3XAXXK1HN2QQZGJKOOZL8GA9PX18JAHPA1AY?O2ALF67GVAT5QBZS3SMEP?QAPK5YXELTZERA7O?41LHXYNXQMSZH4C?EWAND2W2KPXZ4L4N2Z?N?ZDPXZNWQFHW4YBL7MTNX7ZZOJYPJNI9N0WO0JMZ9GPGGJAZG?4?KNWHN394XXI1X9AAQQ",
+      "known_quadgrams": 184,
+      "ciphertext": "VAXVVVAXGAFAAADAAXV?AAAGADVGVVDAAAVVXDDD?VXDAXFAXXGVFXVA?GAGXAAAXFFAXVAAVDFFV?XFGXFAFVGFXFDAVVAADXDFGDXXDFXXAGADAAV?AAFAADAVDAXAADX?XXXFDAVAVFGAFFADAA?DXAAGVGDXXVGAAVDADA?GXDXGXFXXVVDXGVADGVXGFXVFDAFFADFAGDDAXFDXGXADXXXDXFXXAXGAGFDGDVXFFDDXXX?DAFX?XFDFXXDAXVDXAAGXADADAVAAADGFXDXADDFXXAAXFAVDXFDDAGAAGF?DFFAAFXGADDFGVAXXGGA?VAFXXXAFFFAGFXXXFAAFAXDAAXXAVXFVAFXDVDXAXAGFXFXAGVAXAAXAAXXDFADXAAGXVFGGDFAVAAGVGXXVFVAXXGFF?DAAVVAGFDFXADFAXAGAXDFXFADVXXXDXXGXXFGVAAFDXDVGXGFDA",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "(Employed between Berlin and the Black Sea Area)",
+        "A) NKJ v LP (6.45 a.m., Octoder 31st)",
+        "B) NKJ v LP (3.53 p.m., Ootober 30th)",
+        "FUER COS SS DD GR HQ OP 1400 (30/10)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p97_ocr_block1+p97_ocr_block2+p97_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.385681153886912,
+      "plaintext": "CSQ7OBCFLDL06FDHH80ZAK6UZK5ES37SCU9PVIG5HIOGEGZLOQFHNOAUSSPITKQFQ9IYXUSHN6GTJJADZMCM46291Z5KP457V5QFMUVCLWZUHN1WHLKQ9HJS3BYTR6DRMJRKCWD5B5T4AYIUFSFO60M2SXZGB3J0ADUXTDOEBEQUA24MRQFM3T8S09EUF9O1MKB?FIERM9Z5Q83NOPDNPC8U3PXII9S9S9DNNCESE7BE0266A550Z56GD9FFFGH09FD07MIT0IS47LVLMXUL558M9BMDJT48C544VI24GGJGZ7F4T9N2C5N7U2N1",
+      "known_quadgrams": 309,
+      "ciphertext": "XVXDXDDVXDFGFXDFFXADDFGGAVDAVFGADFXDADXDFDGAGGXAGGVGGVGVDDGAADAGGGVVDDXAVAD?FXAGGVVGAGAXFXADXDADDXVXDAVVFVVDFDGDXVGAAFFADVDFAFAAXDDFDXFAFVXXDDDDGVFVDDXGXFDVAGFVFXDDXGDGDGDAVGDXAAAFAXAXFXFAFFGDVGFVDGXDFVFGAVVDDGAGXGDAVVXXGDGGGGDGAGFDGXGDGAAFFDAVVFDXDFXGVVVGAGFVXADFFDAAGDVGADADGDGXGADDFVAGFVGXVAFVGFXGFFVXGXGFXGDXXAAFGVGVGVXXFXGFGFGFGVVVADXGADXFGDFVVAGDAAVVDVGXDFXFAGGAGVDVXAGAXADAGXVVVGDFFGGVADAADDXDGAFFDVFVAAVFXVGFXVDXFFAVVFGADGGDGVGGDFXAVVFVGGXAGFGGFDVDXXDXAFGVDFXVVGXXAVGVGFDVDVFAAGVDGGXVAVGFXVAFDFDGAFDVDGDDDGDFGGXDXXAVAXVDFFDADGGAADXGDADDADXDXGFAVXVGFVDXVXFAVGAGDVFVDAFGDFFAVDGFFADAGAAGGDDVDGAAVDXAFFVFAXGDGFDGAGVFDADAGFGADFXD",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 16,
+          "ocr_group": "A?FXAG",
+          "layout_hypothesis": "?FXAG",
+          "method": "left"
+        },
+        {
+          "group": 56,
+          "ocr_group": "?GADAD",
+          "layout_hypothesis": "GADAD",
+          "method": "left"
+        }
+      ],
+      "header": [
+        "(DISTRIBUTION \"B\")",
+        "(Employed between Berlin and the Black Sea Area)",
+        "lst NOVEMBER, 1918.",
+        "A) OSM v LP (8.50 p.m., November 1st)",
+        "B) UKS v LP (8.29 p.m., November 1st)",
+        "1710 (1/11) POLITISCHE ABTEILUNG BUKAREST",
+        "C) UKS v LP (8.15 p.m., November ist)",
+        "1330 (1/11)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p99_ocr_block5+p99_ocr_block6+p99_ocr_block7",
+      "key": "Nov22-24",
+      "score": -9.641199946403503,
+      "plaintext": "?JE?2?3XO0B?NX?Q?YGEU7QXB?5?HJGJEO1X?RMRQ4LS1B0?TLAQLZZ1NY?6LQDYDT41O?N?D36SI7WZ?O?7O9PYS6D?8?4QQD",
+      "known_quadgrams": 44,
+      "ciphertext": "AAXFVGAXXDAFFAAGGDXFGDGFGGAGGVAFDVAGGXAFGAVGVDAXXXDADXDXXGDXXVVDFVGGAXVFAFDAVDF???AAA??????????????AFXXDGAAGDAAGFXAFAFADFXAGVADFDVDFGDAAXFAXVGFVXDAAVDAFAGFDXDVDDVDGAGDXGFFVFXAGADXXXAAGDFAVXGXGAFFG",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "C) UKS v 20N (11.35 p.m., November 1st)",
+        "2000 (1) AN LP 3 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p100_ocr_block1+p100_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.34116970742499,
+      "plaintext": "0XD7M5D1KDLEBMT4I394?49588JYMJEKXB6I4NUZPL9U08GXC26EFTLW8E47J?UZ7XDNFAQHA0Q42Y40240ONDDWZSYBBL08PVM75589B262ZX0MXITDN17HDM6FDTSTZGYQ?QR6UJEN9XJG7DENBJBVDYVOXQ",
+      "known_quadgrams": 143,
+      "ciphertext": "VDDADAADFGVVVAVGDAFV?AFGVDDVXFDFGGAAGXAAGGVADXGAXVXAXGAXAGAXDDGDGVFFAXGDFGFDVGFAADV?GVXGDVGGDDADAVAGFXDFVADVDGFGDDFGDAVGAAVVAGADFDVAGVXFGAGGAXGAVXDADXAFXDGGFAGVDGGXGAFGGAFXVXGDXFVDAXGXAAFGVXDGFGDFXAGFGAADXDFGADGDDDGDAFXGXXADDXVGAAXXDVAFFAGVVGXDVGDGDXDAVGGVGVVAG?FGVADGVAVFAGGFVAGAXXDAAVFDXDXVVGGDGVXFDGGAGVXVFGADXFFGX",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "(Employed between Berlin and the Black Sea Area)",
+        "lst NOVEMBER, 1918.",
+        "A) UKS v ZON (1.44 a.m., November 2nd)",
+        "2016 (1) 2 TLE",
+        "B) UXS v Z0N (------ November 2nd)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p101_ocr_block1+p101_ocr_block2+p101_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.380223576026626,
+      "plaintext": "LKFGMXY7V9A0X4WGDF5DT26GEN3Y1JL?BHENWVQ4517WG0HTEWGFS494H9D1L9WHMJUHLSET7NWZBXKTGW5NG4",
+      "known_quadgrams": 79,
+      "ciphertext": "VGFVFXFVAFXDXDGDVGGXDVVDAVGXDXGDD?GDAFGDGVGDVAXXXVGFFXAGFAVGVXXAFVGDFXGAAXADDGVAVVGDGAGVFXDGXAXDXGVAGGDFAVGGVAXDVVXVXFAGFDVVFVGAXAFXDXXDXDGAXGVVADVAFGXDGGAAGDXDFXDXFDVDFDAD",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "lst NOVEMBER, 1918.",
+        "(Continued)",
+        "A) UXS v Z0N  (------ November 2nd)",
+        "2312 (1) 2 TLE",
+        "(Continued)",
+        "A) UXS v Z0N  (------ November 2nd)",
+        "2312 (1) 2 TLE",
+        "B) UXS v ZON (3.23 a.m., November 2nd)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p101_ocr_block3+p101_ocr_block4+p101_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.371577941265302,
+      "plaintext": "JI0?CMB7V?COLS?5YGB0?Q9YR?8B9U3?VMXL?4R0?0CDTIU?OYBINTT3FF?IQAUS455UM?FTSRIIZ08N?2D8080D647?1S9SLL4KVD?9UJ09SG3TN?W3TUX7Z?AB?T5F7LIVTH0?76W92T2492?0INS145ELJ?MTWVRSDF1L?NHZG86CLAD?K99U4FB",
+      "known_quadgrams": 97,
+      "ciphertext": "DXXDXDGAXGVVADVAFGXDGGAAGDXDFXDXFDVDFDADDXGGAGAXFXDFAVGDDFGDXFVVDGFGAVFFDDVGAAGVDDAVFDXGVVFXDGFFDVDFGGDVAAXVFGGDVDAFDAXAVFFFFAVGDVFXGDVVGDAVGVXAGDGAVAXGDFAAGFAADGAGDDVVDFDGDXVADFADDVGAGVXFXFDADDDGVXD?DDVFAAFVGDVFDDDVAGDVGVDDFGVGVAAGAFDADGGFDGDFVFVXDXDGGADXDGFADGVXDVVXVGGXXVGDGDAVGADXAVXFGD????????????????????DVDDDGDADVDDGGFGGDFXDXGDVGVAVAGGGG?VGFGAGGGDAVXGGAFAGFADGGDGGVXAG",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 62,
+          "ocr_group": "????",
+          "layout_hypothesis": "?????",
+          "method": "left"
+        }
+      ],
+      "header": [
+        "B) UXS v ZON (3.23 a.m., November 2nd)",
+        "B) UXS v ZON (3.23 a.m., November 2nd)",
+        "¢) UKs v Z0N (3,15 a.m., November 2nd)",
+        "1225 (1) 3 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p113_ocr_block1+p113_ocr_block2+p113_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.44353506492846,
+      "plaintext": "D9640TDG2BSI9NLIMYRFCDQMKCQITUNVNN6HLGUT74EGL3GP7FYCB0BUTIFQS8403VZ3UFAU26BPD0VQF60VT7IDNO97DMX9I8690T290FNZN956JMNXB288IHJULQ4MPX0NMPL27U0RS067LDTFT6UXB2MQFFXD224MVSRLM56UD9II064K?U4FXX7HUQXD?3TVW58F5SDL2NTL694Z6H78HBJVHXABIOQZMEDSS9PD7L4KI8MMEF42QXQ2R2B?LHJPKTIQ7TNM4FD2ANFO82LB0E78ULZPUZ4Q7URVF4BNAGRI60K4254XVESRI513CGYIWM9U7AIY3D4Y0CSPHSXGQ",
+      "known_quadgrams": 330,
+      "ciphertext": "DDAGAAXGGGAAAGAXDGGVDGDVDFDGVDDGADDAGVVXFGAGVVGDDVGAAAVGVGVAAGAGADFDFADAXADADGAVVFVFAVXXFDDVDAGDXGVGGVDVDVVVVGDVVGGFAFAFDXAFGFVVGDVVGDGGGGAVXXAXVVVVDGVXDGVGDAAGVADAGXVVAVDDVXGVDVAAXADAFDDDDAVDDDVFGVXVAAFVGFDXAAGDGVGDFAXVVDVGDVDVDADVVGGVDGAXAADGDAFFVFDGAGFVGGGGDAGAVDAXGVGXFAGGGDXXVDAVGFAGGAGXDGDGVG?AGFGVXFGAFVXADGDGXGGGAAVGAVGVFADGFXGGVGAXAFGAGVADAGFGDDDFAGAAGFGDFAAVGFFDVDVAGFVADDGVGAAXFVAGGVAVADAFAAVGFGDGAFVGDVAGVDVGGGGDAXAXGFAAAVADGFGGVAXGAAVGDDAGFXD?GGFVGDFDGDXVVDGGVGFVFVXDGDXGAFGVGDADVFVXXFXDFAVFDDGGGGVFGXAXDDXVDGAXADAGFGVGADAFAVFFFGVAAVDFAXXAVGVFAAAFAXAGAFDVFDFXDXAXDDFVDAVGDFDADAVVFXAXGFVVFXAVAGFVDGAVDFAXAGAXGFADDVDXFGGFDVDDDVVFGVGFDDFFDXXVGGVFDFVDXFXVGADDXGAGFADADFADV?DVGDDXDX",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "(Employed between Berlin and the Black Sea Area)",
+        "3rd NOVEMBER, 1918.",
+        "A) LP v WKJ (6.56 p.m., November 4th)",
+        "AN OHL 2000 (3) 13 TLE",
+        "B) LP v NKJ (9.38 p.m., November 5th)",
+        "2000 (3) AN LP AN OHL “HIER FF",
+        "C) POT y NKJ (8.42 a.m, November 4th)",
+        "SS FUR POT VOSK (3) 1430"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p116_ocr_block1+p116_ocr_block2+p116_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.30264167462365,
+      "plaintext": "GI94TSY8ZOUQ?QF7JU7F?8NC?TF?L4HUP8M?RY?6MS9DNX?DS?DTPM7Y2?30?KX49FQN?YY?OUGIH?TD?O4Q?CUL?XR?6P6MRGGVAEDXBL9?2LGJXT0SXSUUYNU47GJ",
+      "known_quadgrams": 59,
+      "ciphertext": "VAGFDDFXGADGAGAVGXFAVAXAGVDXDGDFDVGGVGGFFAXAAFGGDADVGXVGGAAXAFA??VGAVFFAXVDDXAXGDDGGGGGDXFDDVXXGAGVGGGFAX?????DVGAXDGVFGFFDDGVAXADGDAAVFVXDXADVVAV?VGDGAAADGVGFFADDGFAAGAFVXGXD?DVAAAVAXDVFFFAVDXFF?GDFDFGDA??GDGX?VGVGDVGAVFVGGGFXAGGAGGDADXG?ADADA?????GFVXD",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "(Employed between Berlin and the Black Sea Area)",
+        "3rd NOVEMBER, 1918.",
+        "(Continued)",
+        "A) LP v NKJ (7.06 p.m., November 4th)",
+        "NKJ AN LP VON UKS AN OHL 3000 (3) 13 TLE",
+        "(Continued)",
+        "A) LP v NKJ (7.06 p.m., November 4th)",
+        "NKJ AN LP VON UKS AN OHL 3000 (3) 13 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p116_ocr_block2+p116_ocr_block3+p116_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.3838681659183,
+      "plaintext": "0CT5B2YQ070OYYFN7H?CCB29W?PMAE9FFITD7X2?T9NSMUTINO?YD9XHCBXBIV0DB?7QMS9U7UD???MVZ6BQXJM?TD1??B6U?X?DQD?2RF7?Q?4HI?0XCD?35D2S?UMLU?7??G2?60X3?5?N0LDA8?XAL?21CEVY?KALW4?NMDB956V99?55D?W37OUUN6SQ9LE666LILJ2S1FMKCKL5DP377",
+      "known_quadgrams": 111,
+      "ciphertext": "FAXAAFGGDADVGXVGGAAXAFA??VGAVFFAXVDDXAXGDDGGGGGDXFDDVXXGAGVGGGFAX?????DVGAXDGVFGFFDDGVAXADGDAAVFVXDXADVVA?VGDGAAADGVGFFADDGFAAGAFVXGXD?DVAAAVAXDVFFFAVDXFF?GDFDFGDA??GDGX???VGVGDVGAVFVGGGFXAGGAGGDADXG?ADADA?????GFVXDDGGFVVAFGADGDG?DVDDGAXAGFVFDVAVAGVFAFXFFGAVFVGVFVVXGDDAGDAXGGXGDVXDGDV?VGGVAVGGAVVDFGVVDAVGAVAGDX?AADGGFDDGGGX?????AAVGVADFAGVXAFAFXGGGVADAXGADGAGF?VAAFAXGGVXGFFVXFAVAAGGDGA??GVGXAA?VDAGGXGGGGDXXDDVFGDAXGDGAVXGVAVAFDDVAD",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 22,
+          "ocr_group": "V?VGDG",
+          "layout_hypothesis": "?VGDG",
+          "method": "left"
+        },
+        {
+          "group": 35,
+          "ocr_group": "VGV",
+          "layout_hypothesis": "??VGV",
+          "method": "left"
+        },
+        {
+          "group": 58,
+          "ocr_group": "VGGV",
+          "layout_hypothesis": "?VGGV",
+          "method": "left"
+        }
+      ],
+      "header": [
+        "(Continued)",
+        "A) LP v NKJ (7.06 p.m., November 4th)",
+        "NKJ AN LP VON UKS AN OHL 3000 (3) 13 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p121_ocr_block3+p121_ocr_block4+p121_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.334022737130887,
+      "plaintext": "3K5WDP2S4RVOZAKERESAW43?XK2YYYOXHW7UQP9KHXN0IW4YNLMOHYQ2HP0KO1BNXCJ4QEA582HPRE7WNPOK0EPQVZYEAN52SURIHXNOK6BQXCWTSY8?7OH5H1KV?LRPHMESAZ8YKQ",
+      "known_quadgrams": 123,
+      "ciphertext": "GFAXAFXXXXXGFVVAXAXGXDVGVDXXAVAVFDAVVVDFGAFFAFFFAFXXDAXVVGXDVFXFVDADFVDVXXXF?GXFDGFFDXFXFFGGXXXAFFFAVDVDADFAFDVDVFADAFDFDX?FAVFFAFDFAFAFAFDFDXVVXVVVXXADDFVXFADAFXVXXAVDXAVFADVXGVVVDXAVAFGAXFAVAVVDAAVVFADAFXFDFVAAFAXXXAAGVDVDA?AFVAAFAXXVAXFAFFFVXXFXGAXAAAAFFGVGVGFFDAXGDVAXAXAVG",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "B) UKS v LP (06.55 ame, November 4th)",
+        "FUER UKS (4.12) 0035 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p121_ocr_block5+p121_ocr_block6",
+      "key": "Nov22-24",
+      "score": -9.302996921539307,
+      "plaintext": "BOXYAXMQFIKO2RKEOGVRUQ68WSZ3M2R2PAPARROQXJKBAYRHRXAX2OBAV1JYVAE8OTCV1AH6CZG318RK2O?HUSNHR4GHAUB9MCHVG4OK2V3?XHW3ZLPN8OO413POSDFE3ZZ",
+      "known_quadgrams": 120,
+      "ciphertext": "XFAFFFVXXFXGAXAAAAFFGVGVGFFDAXGDVAXAXAVGGDXFFFXVGVXFFDDFXDFFXGXXXDXFVVFFVGVAVVFDXDVAXFXAVGXVAAGFAXFFVXVVVXXFDFXVV?GVDFFFDFVDXAVXGDGFVAAAFGFVXDAVAAAFAVGFXFAFVXFXXFGDAXAVFFFAFFAXVGXAXXFVVFDGFXFFFXVGXAA?FFAXAFFXAVFFAADVAFXXFADADAVGVAXXDVFVXFAVVXXVFGDDFDXFXAFXXXXDFF",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "B) UKS v LP (06.55 ame, November 4th)",
+        "FUER UKS (4.12) 0035 2 TLE",
+        "FUER UKS (4.12) 0035 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p127_ocr_block1+p127_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.386082236831253,
+      "plaintext": "RSA8?CRZZTS2211?PO220XJ5HG?KRQHOJ0OQH?6LPPQCKOL4?0KVOEBDQAOERGYSKZEPWI28P9OS23IXI5SNNQHXVAJYZAK2P",
+      "known_quadgrams": 74,
+      "ciphertext": "?????FAXAFFFAXXVDXAAVXXDXAXAXXFGFVXDGFAVXAFFADDFGFFVAVDFFAVVADXFGDFXDXDADDFAAAFVXVGFGAAXXGVDXDDFFVXGXGVDVAAAXVFGAAXXVAGXVADGXFAAVVDFDAXXXAXDXFVFVFAFAVGXXFDFVVAVDXAFFDVDFXFGFGXAFFVAVVADDVAXFAAAXXX",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "(DISTRIBUTION \"B\")",
+        "(Employed between Berlin and the Black Sea Area)",
+        "4th NOVEMBER, 1918.",
+        "A) UKH v ZON (4.30 a.m., November --~)",
+        "2000 (4)",
+        "4th NOVEMBER, 1918.",
+        "A) UKH v ZON (4.30 a.m., November --~)",
+        "2000 (4)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p132_ocr_block1+p132_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.432853916713169,
+      "plaintext": "TOV7AGE2RPXHE3YHBKZFQ5K2QAAV?DMRANWPJ3F?VZMOCZYPPK5ZMX2CFNAHUXWK7311P27RCWW2ZT5XMO5QUQH6L4ZXQSL5YF2W78H072QPZXOXZ?6WMM1KRCCAUSK7?BQ2XOKPDQ0D?WMYKOXWPYQEHK7Q22OJ21ZXBAYVYN4EQQ7TVEBFVOG2O2WPKZV1RP9Q1W",
+      "known_quadgrams": 175,
+      "ciphertext": "XVXFXVAXADGDGVXAVXVXFVDXFAAVAGGAVVXVFGVAVFVAFXXFVFAAXAXDAFVDFVVXFVAXGDXXVAFAXGVFFFXAXFXGVXVVFADDXVGVXDAFAXVXAFVVXFFXDDGXFFXAAVXGFVGFVFXDAVFAXDDXFAXXXAFAGAAFAVFFVVVXGVFXGFDAGXXAVXDFFAFXDXXAVAV?VXAAFGVDFXDFFXDAXFFXAGAVVAAGVAVVVXAV?GAXAAGVFAXFAXAAXAXFXAVFAAFADVFGFAGVAGXFDVXXFAVAGXXDAADXFAFFFFFAFAXXAAVXG?VFAFAGAAXVAVAXFAGVXVAFVXAFVAAAVGAFAVVAAAXFF??XADAGAVADFAFGXVFGVFXXGDAAXGAXAVDVDAVADVXFGFAXFVVGF",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "(Employed between Berlin and the Black Sea Area)",
+        "Sth NOVEMBER, 1918.",
+        "4) OSM v OUT (9.29 p.m., November 5th)",
+        "B) LP v NKJ (6.13 pem., November 5th)",
+        "SSD EILT SOFORT LOESEN 1410 (5)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p136_ocr_block2+p136_ocr_block3+p136_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.433001026649594,
+      "plaintext": "AMYYAERENZ5M1JBWXPYVIYXREYSXHWZZ1P3TSRMQ8M2N0LU5SEROWVXWYMZ40?RAQR8IZXN2TOGHRTAOPRSOOYUBQZGAKSA16HZKAMKJXMDZWBYHWXV17KW1RMQMGLXL6AIO0O2V1KBPM2EIPTKHK?DXJTQG2UPX2YGPVPX4JOQAXNQMSZ8PRZ2B1KH3QWNYKA1YBKAHYQEACAPPWZQ6KBLOFNVM5AGRUPYOPZHTAV6PSX6QDY897C1W4YYKQEGRJ2ZBZ2?V43YY3OXQRRL58CSY1Z2SR1HMXTW6XUE2WPRBV7YEEOEEAO1X2K5YZUY6K2NS7HAXOE813UZG5H",
+      "known_quadgrams": 323,
+      "ciphertext": "XVDFDDAFFDVGXVXXFFFFVXXAFFVAADAFVFAF?DFAAGAG?VAVAFFAXDGXFXVDFDAVAVVXGFGAVXVAGAXFXAXAFAFDFXAADAXDXFFGFGFFVDVAFXXAFAAVAXXVAVFVFVVAFGFXXVVXVAXGVVFGX?FFVVGFXVAXDVXVAFFVDDAXDFXAXVXFDXVXXGXAXFDAAVAFAFAFVXXFAFAAADXDGAFFXXFAAVFDADDAXAFFAAAFXGXDVAXXGFFAGXFXAAFFFAFFXFVVVVFVVVFAVGXVFFFVXXAVGVAAXXXXXXAFXAAVAXFFXVAXGXFFFDXAAXXFAGVFVDXAAFFGDDFDVVAAVAAXVGXGDAXAAGVAVADAFDDGVDDFVAVGFFVXXFXXXGFGXGFAFXXGXGFAAAVFFXVFDFVVVAXGVVVAVADXVFGGVAFFDAFXAFAXAFADDFXXVAXFVFFAVGGVXVDAXGVAFVXFFGFDXAXVAXXGAAAVAXXGGFXVFXFXDVFAXAXAVFXAAXXDXAVDVAAVFAVFFXAGAADFXVAXXXVXGXVDAXFVFXAADVXDGADAAVAVVVVXDADXAFFXVAGFVFFAFVXFXVAFFVXXVAGFDAXAXDXFADFAAAFXVXVAXGFFFFXGXVVGAXGXAFFVAFAVGVAAFAXVDGAFFXAXAVDVDGXAVXVGFAFXGXVD",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "6th NOVEMBER, 1918.",
+        "B) NKJ v LP (8.16 p.m., November 6th)",
+        "FUR COS 2045 (6/11) 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p137_ocr_block3+p137_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.156046729821425,
+      "plaintext": "S71PI?7YZXG7X12A8R5558ZKHMOLAYMDW?A82NWPAX?2ARSDY8515XUBOEXEKQPWO85P5AMMEHW?QW1Z72LET2R2B8?774Z1QBBZQ?",
+      "known_quadgrams": 78,
+      "ciphertext": "DXXAFFVAAGFAVDAVVFAXVAXVVAAXGXVGGAVGXDGFXFAFGDAAGXFXVFAGXXAFFVXGA?XGVXFVGDGXVAVXAAFAGAXGXAADXAVAGAXAAGAGF?AGDXGFFXFXXXVVXXXVXDFXAGAVAFDAVAVGAAFXFXXXXAFDAXDXXVAVVAVGXAGGAXG?AX?FFAFXXXAFFAADAAXVFDXXXFGAVDF??",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 14,
+          "ocr_group": "XGVX",
+          "layout_hypothesis": "?XGVX",
+          "method": "left"
+        }
+      ],
+      "header": [
+        "XVAGX AVGVA AVVGG (INTERFERENCE ) AGAAF",
+        "AXAGX DGGVF AXAVV V---- (Interference)",
+        "B) OSM v OUI",
+        "(14.58 November 5th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p140_ocr_block6+p140_ocr_block7",
+      "key": "Nov22-24",
+      "score": -9.061733092202081,
+      "plaintext": "3IK1Q27G8XWQHLP2AXPQZUZERERGL1U2QQX63VCQE1YXHZPW",
+      "known_quadgrams": 45,
+      "ciphertext": "AAFVFGXAAXAVXXGAXXFVAFAAAVVFVXFAXGDVVAAVAXFXXFFVDAFAFGXXFFGFGXAVFVDVFAAGAGXXVVDXAAAFAAGAXVXVXAFVV",
+      "orphan": 1,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p140_ocr_block6+p140_ocr_block7+p140_ocr_block8",
+      "key": "Nov22-24",
+      "score": -9.267518299729076,
+      "plaintext": "TJZFQRALDERWX3ZZ2QXQ?LQHML33X8OFYQHW1U6LH1LLM2TOEOPA?KPZ3PMDAGVH72AA5UOYW5QNHY",
+      "known_quadgrams": 67,
+      "ciphertext": "AAFVFGXAAXAVXXGAXXFVAFAAAVVFVXFAXGDVVAAVAXFXXFFVDAFAFGXXFFGFGXAVFVDVFAAGAGXXVVDXAAAFAAGAXVXVXAFVVVXXAFDGVGFDAVVAFXGAFX?FAFFAXFAGF?GGFAAXAAGXGVAXGFAVDFDAXDVD",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p141_ocr_block1+p141_ocr_block2+p141_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.413517938811204,
+      "plaintext": "NT5TI?QKLOKWD11GVOUWZKQXARERAWU3EOR5MA9TD1X2QRAOP8NRLQPMZAGHY2XOKKL51WOM?RW?C?SN?BYQMKHGWX7VOW3VVSRT8KX26YR?B5VNSM5NV1QAKEXKN12MU?1WKWCWC21ZZOHQR1RTZVOIBO2V8OXWO2A19GOEQANL",
+      "known_quadgrams": 145,
+      "ciphertext": "DGFXXVXFXAXXDVAXAFADDVAADAVAXVFAGVVXGXVFV?A?ADXXXVVVXFXFDXXFFDFFDXAX?FAGAXFGXAVAXAVG?VVVFFAAGDGXFFFDAXGDXXFVF?VFGXFVFVGAAAAVAFFFAXFDGFXFVVXGXVFDGAAAXVDVVFXDVXFVXGV?VAVAVFXADXAFAAAFXDVVXAVXFVVGFAFVVFXVAXAXXXXXXXXAAFDFDXXFVXVAVFFGFVDXFDXAVGAFFAXDAXAAVFVXAXGXAFXXVGAAFVADXFAFXXAVXADXFFAXAFAAFGVDFXXXFXAXXVAA?AFFVVXVXGXGXGFXFAVFXGFFVDXADAAXDGXAXFXGV",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 61,
+          "ocr_group": "XVAA",
+          "layout_hypothesis": "XVAA?",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "6th NOVEMBER, 1918,",
+        "A) ASO v LP (08.12 p.m., November 6th)",
+        "FUER ASO (6/11) 2 TLE",
+        "FUER ASO (6/11) 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p141_ocr_block2+p141_ocr_block3+p141_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.438508109495528,
+      "plaintext": "HUOTHAB9L?HUFV9?VQDJMJKP?AQFXOAERO5H6?XHIAAPWX2T277M?IP7FS1CR1Y?Z1P9RD5HAT?XBZJWEP26V?S1OAXWA4YR?N212FGH1KJK1O1URUVYQVGY5ALQ2UNI5AZUARMMOY79KQQ1Z11KA?GUMQOMYTA16LRA?PXYZRNP3UFXXTVM0UVW61EQYLZO1OEQ53KK?MPQCK2EV0S9HRJYI7VVRQEAYOAR2KO4PL7IKUPWAW1CRPBB4Y7?51IG2E2UGEW6YX2YJAK?3F1HY7GPXHXKIFOJMSXYF1NVPH8DI1XCJO7GXXTE?79AEZBHMQPRRMHIMPRH58Z6XAFO?EW",
+      "known_quadgrams": 277,
+      "ciphertext": "V?A?ADXXXVVVXFXFDXXFFDFFDXAX?FAGAXFGXAVAXAVG?VVVFFAAGDGXFFFDAXGDXXFVF?VFGXFVFVGAAAAVAFFFAXFDGFXFVVXGXVFDGAAAXVDVVFXDVXFVXGV?VAVAVFXADXAFAAAFXDVVXAVXFVVGFAFVVFXVAXAXXXXXXXXAAFDFDXXFVXVAVFFGFVDXFDXAVGAFFAXDAXAAVFVXAXGXAFXXVGAAFVADXFAFXXAVXADXFFAXAFAAFGVDFXXXFXAXXVAA?AFFVVXVXGXGXGFXFAVFXGFFVDXADAAXDGXAXFXGVAXAXGFVVGXGVXGFVGVAVXVAVAVVXAXAFGDDFXXFGXFXGVFFXXAAXFVXAXGFDXXAFFFXFFVGGXDVFVVFDVXGGGFVFFDFXFG?AXDXVXXV?VADFVAGFAVXFFVG?GFGFGAAVGVAXFFFAGVFDVAFVGFXAFGFVFAVGVXVXXGFFVGXXAGGDXAVGFAVAVFFDAXDDAFDXAVVVAXAA?????XXAXGFGVAVGVXGVDXDFVVFDDAVDXGVXXGVAXDFAFAFAGVVAXAVVVG?VFXDAADAXFAAVXGXXFVFX?VGDVAAVXFAAVAXXGFFADAVGXVXDFXVDVFVGDGVADGFVAADVFXVDDXADXVXVFVAXFXXXAFAFVAFVAFXXFFAAXAAVADDVAFXVGAGDAD",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 53,
+          "ocr_group": "XVAA",
+          "layout_hypothesis": "XVAA?",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "FUER ASO (6/11) 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p146_ocr_block3+p146_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.37468349778807,
+      "plaintext": "XJ52M1JK8?YXWU7A71H2?PEHVAMK6ZRQ?YYN8Z711ZMO67W2DE77KZR38XMILQ1ZWD71KS6CWQP1WPROBHYGPDVPQGORGVDAFAXVJYH8Q2QMY7QNPJP9YCFXKKYIXLTHOKEHXSV1ZQUT1TEL15E71ZR5OK4MKW?XE??VX5H5P7R0?2HX14VKY",
+      "known_quadgrams": 154,
+      "ciphertext": "VXVAGDGVGXXGAAXAFXXVXGAXXGVAFGFVGXAFAFAXGGVGFXXAAAV?FFGXVXGXFVXXX??AAFXXVAAXVDFVFAAFFGFAXAVAFAGDXXXXFAGGXFXXDAAXAFDXAFAFGDFVAGVAXAFAFXVXFGVXAAFVFFAAXGXGVAFAVADDAXXFAAXXAVDFFVDAXFVXFXXVAVDGVAVAXXADDXFVAXAXAXXADXVF??XVVAVAFXXFXDVXFXVAAAFGVVFXGVAFG?GADVVFAXXFGDAFDXVVDGVFFXFVGFAFXXD?VVGAGVAAGFFXXXVXVXAFAVAVXVXFAFVXVVDXGXAAVGGAFVVAFDXFFXGXAVAAFFDFV?DGVDXXXFFAVVVDXDV",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 14,
+          "ocr_group": "?AAF",
+          "layout_hypothesis": "??AAF",
+          "method": "left"
+        }
+      ],
+      "header": [
+        "Cc) COS v LP (06.46 a.m., November 7th)",
+        "FUFR COS 2040 (6/11) AN NACHRICHTENKOMMDR KAUKASUS DELEGATION",
+        "Cc) COS v LP (06.46 a.m., November 7th)",
+        "FUFR COS 2040 (6/11) AN NACHRICHTENKOMMDR KAUKASUS DELEGATION"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p148_ocr_block1+p148_ocr_block2+p148_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.377385427023619,
+      "plaintext": "XZVONQ7OKOGIP5JAHYJ?NL2EAS5TOHY?3T5VPSTFPOQ2FDDWX1QEKZ2G2IXXJEMWMQ?GDWQM8F8VZ4PERSV?X24EN21DWY916TINSUE2RX7XYYYE0HOW?O1PSA1K2R1?WJ?7OSUAYJ?1EY1QBRCNNKYEMB181?SRNJW5X2CJW4QNS7IY181WQO7IJ??YOP1?HZJW87RVVX1HSQX62EMY?KQXB3M16XBAWZT49XAH818E521ZE?4EJOJ3OCL5WY?UVAGZXRT3KZOADCQI6PSK92YO0FYMMWLZ5XNT1?EN9R4RKAMKYLA?4VZZKFRA75?PYQGENYAPNWEBJ?1P?X?",
+      "known_quadgrams": 262,
+      "ciphertext": "AXXDAAADVAXFFADDAGXFVFDXGXAXFFXGAFFAVGXDXX??XDDGFAXDVFFAFXXFA?F?FXFVXAGAXDFFVADVAFGAGFGVFGAXFXADVVAFVVAAGXGXA?GVXAXXDAXD??XFD?AFAVDDAV?AADV?GVAXVDDVADADDADAVGG?DAAFXXAXAXFFFGVDFFFGFDXFFVVDGVXVVAVXAGGFGFVAXGVAFDFDVAGAVVVXDVVFFVXDAFAXVVAAXFGDDVVGAXGGFAAAAFDFDAXFAFVAAXX?VFDVGFAVAFDDXXAVAFXXXDFAFFFAFDDXFGDAFDVXDDXVAVFGFVAXDGVVXAFXXXVXFAFAGAXVVDFXXDDDAAFAXVXAFVVFDAXXAFDVVXDVXFVGAXAXVXFDDDDAFDXDADFFFXXAVXXVGDGFXVDFVFXDXXVFFXDVXAXFAADDADAXXAAXVFFADADA?XXXVXAGFDAXVXAXFXGAGXADFXDFXDXXVVAXF?AGADVFFXAAFXXGVVXXXVVXGXXXDDFAFVAVAGV?FXAVXXXFGVFVAF?XXXX?AGFVAAXXFX?XAGAAVVDVFXAFVXDFXGVAFXVXVAXXAAFXGAFX?GA?FXFAAAADAVAXAAGXFFFGFXFVVAFXXGFXXAXAVXAGDXFXVA?AAAXVDAVGVGVXGGXGFXXXVVAGXXGFVDFFAX",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "(gmployed between Berlin and the Black Sea Area)",
+        "6th NOVEMBER, 1918.",
+        "A) YZ v LP (08.31 a.m., November 7th)",
+        "FUER YZ 1645 (6/11) 2 TEILE",
+        "B) YZ v LP (08.40 a-m., November 7th)",
+        "FUER YZ 1135 (6/11) 3 TEILE",
+        "c) YZ v LP (08.49 a.m., November 7th)",
+        "FUER YZ 0015 (6/11) 3 TEILE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p150_ocr_block2+p150_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.216746978878234,
+      "plaintext": "QZHWQUQVP??2MYRW642T7EN2R2QHB??872W769DMK?QNITTRQNAOUTORMPFWATHQAPZRI9L2PRCOYK5?XAPWAY1GYQ?TQ2Q2ZQBXXSOWZPVIYZQLVWQZZAGRAWAQ6KRAKHOTF1QZ7NP8OQ0HPO1HBQYBLJZQA?78OFYHDQ3G?OORBHHZO2RAD8ZXZCVGTISEHA",
+      "known_quadgrams": 161,
+      "ciphertext": "AVAGAVGXAVAFAVAXGFADGAADVXAVFAVAFFFAXV??VADFADGVXFFVADVGDFVAXGFADGXGFV?GGADAFXAAFFAAFFFAAAADFAFFAAVGVAAXGFAVXDAFDAXAAXVADVDVGVGAXAXAAAFAFXXXV?FAAXXFGFAXVDDGAVGVFGDAVVVFFFDGGFGFVFAGFGGAVXVGAXADXDAVDVVFFXAXAXFFFAFXVAVFXVFXAVXFXFGFAVFFAVXD??DVAAXXGFDAXADAXAAAXAXGFGFGVAVAVVVFXAAGXXXAFAVVDVVGAFAFVXFFGAFFXFVVFFDXDFXVFX??AAXAXAVXXXAFFXAGVVDADFVXVXVAXAXXAXFAXVV?XFFFAVVAXGAFGXFAFGDVVXVAVAAFAXFV",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "B) LP v NKJ (--- November 7th)",
+        "2100 (6) VON UKS 5 TLE",
+        "1 (TL AVAGA VGXAV AFAVA XGFAD GAADV XAVFA VAFFF AXV--"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p150_ocr_block3+p150_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.346890874152637,
+      "plaintext": "ZMBZQ?J1ZHHYCCRMZVYW7TXRKLSQYS36SHKKPM1VVR?XVHR?M2FPQ?SSEEXEPKOH?3HESBB?PGP?MMCG91WHRJ?19FOIQOKQ?2MQ5JWAOQR?OAEGSMQOVLS1M74Q8AQWBTAXERRVYEZLQMA?K1N3EXW27X?2AMEAOZ818KRBZ7X0H11OEXYQEDOYL17G?",
+      "known_quadgrams": 137,
+      "ciphertext": "AVDVVFFXAXAXFFFAFXVAVFXVFXAVXFXFGFAVFFAVXD??DVAAXXGFDAXADAXAAAXAXGFGFGVAVAVVVFXAAGXXXAFAVVDVVGAFAFVXFFGAFFXFVVFFDXDFXVFX??AAXAXAVXXXAFFXAGVVDADFVXVXVAXAXXAXFAXVV?XFFFAVVAXGAFGXFAFGDVVXVAVAAFAXFVAFADAVGV??XVXXFDVXXGFAFGFGVAVFFDFFFFDGXDDAFXXFFXAAAAAVGXAAAAADVGVVDFFVFFDGXGDFFAFAVFXDFAFVXAVADAVGXAFFAV?XGDVXAGVDAFAVAG?????AXXXVAXXXDVFVGFXVFAVVAAXDXXAAVVFXFAFAGAXFFAGFXXFVAXFXAAFXAGA",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "1 (TL AVAGA VGXAV AFAVA XGFAD GAADV XAVFA VAFFF AXV--"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p151_ocr_block2+p151_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.278962627837533,
+      "plaintext": "1TDGIV6BF1?JXVPBTU645WAJST4CSXSSPMEXT0Q9PC6WJETYP89NVOJ25ST2GAIIPUL2OIXMAVSCU9RM40GR1E4LUIIJRAGXP4HN0MJ?5H?69TDX?P5HLEIEG933PEBEE55ETI940G7H2DSVI0JIPTEVVTU79P6P5E67YWEEPV",
+      "known_quadgrams": 152,
+      "ciphertext": "DFDDXAADF?XFDDGVVGADDAAFXFAVGDDGDDDVDDFXGDXAVGXXVXXGGAFDXVADAXDAVFVFDDDVDGVGXDXVDAGGVAGGVVVVDXXVVDVFVGXDVVGVVVDAXGVGXXVFGXXX?VXVDVVGVVGFDVFVDFAGXAXADFGXVVGXVVFVDDDDXXDDXXXXAAXVADGDGDDVGXFGAXADVXAGFFVFFGVDAVDXVDVDFGDGFVGDGVVXGFVDVGVVVVADFFXAFDDAFDDAFFDAFVVAVVVVDVVVXVDDADVDXXVVDXVVXXDGXXDDDGFXGVAGVDGGXXFGVGFAVXGVXVDVVXX?VVFVVGVAXDAFAVA?DDGDV",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "B) NKJ v UKS (11.30 pem., November 7th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p152_ocr_block1+p152_ocr_block2+p152_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.362443951394061,
+      "plaintext": "QN52LR58?SNVV4V?SA2?YM62EBZV9E?QOK3TUK6P1EJLILW2J6HUSVESCEEQMRVHSHONA8KSAT5VEY?3VBQ6ON7GW?1IH3TR?7BQMNV15W5?S7EO2CM?TVJCWQ??3HVMG0HXU2?Z9GM8DINE??UZ8W7HDDX??7Y6372FFE??EZH01K90F??6XKMEPHUY??K4JVEQ98ZH?IMXU8KKXL??3EMHTB6CH",
+      "known_quadgrams": 139,
+      "ciphertext": "G?AFDAFFVXVVGAFAADVFDADVFFAVDXDAAXDGAVGFDFDFDVXA??DDGVAFXAFFDAFAVFVXGGXXDGFGGGXFAAAXVAVGGAFFVGFDFDXVAVGFDDXFVAFAVFAFGFAGVDVVDAFD??AF?VDFFDFFAFDVGGVDAFX?VGXGVFDAVAVXGFVFGFAVAAGGDVXADFAVVVAAADDDVXGVFXXXAAVFVAFXVDVDFAVAFGFDFAVVXVAFAXAVAGVXVFAFAFXAFXVVVXFXVGXAAXFFXVXDFVVFXFXAAXAXDFVAFAAVFXXAXGFXAFDFAFXDAVAVAFGDAVGVXXA?????V?????VAFDDFFXGGFVXVAXGVVGGVVGVVVFDFGGVVXVDDFADVDVAADDVDGGGVGFGXXGXVFXGVVVVVVFDVVVVGVVXGVDFFDVXGGGXVVGDDDVDXVADXDV?????????",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 26,
+          "ocr_group": "AFD",
+          "layout_hypothesis": "AFD??",
+          "method": "right"
+        },
+        {
+          "group": 64,
+          "ocr_group": "???",
+          "layout_hypothesis": "?????",
+          "method": "right"
+        },
+        {
+          "group": 66,
+          "ocr_group": "???",
+          "layout_hypothesis": "?????",
+          "method": "right"
+        },
+        {
+          "group": 88,
+          "ocr_group": "XDV",
+          "layout_hypothesis": "XDV??",
+          "method": "right"
+        },
+        {
+          "group": 89,
+          "ocr_group": "???",
+          "layout_hypothesis": "?????",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "(DISTRIBUTION \"B\")",
+        "(Employed between Berlin and the Blaok Sea Area)",
+        "7th NOVEMBER, 1918.",
+        "A) UKS v ZON (--- November 7th)",
+        "B) UKS v ZON (--- November 7th)",
+        "C) --- v ZON (--- November 7th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p152_ocr_block3+p152_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.155847686008343,
+      "plaintext": "GESSMAGOLL1OEYLN9VEHNV5IW4EWY4VNTFHZQ04WRWE955RMJE73Y4CW2T73?ILI8SY2KYK?ENE04AEGEA?UIFDVD2UOL?BPGI4H0289?2AW8PTPVKRLEMMZMUEC0T",
+      "known_quadgrams": 103,
+      "ciphertext": "VAFDDFFXGGFVXVAXGVVGGVVGVVVFDFGGVVXVDDFADVDVAADDVDGGGVGFGXXGXVFXGVVVVVVFDVVVVGVVXGVDFFDVXGGGXVVGDDDVDXVADXDV?????ADGDAVAFFXXFDXFDFDXAAGFDGXFDFFGADXXVDFVAFVFGVAVDADVGXDXAADFDFFDVXAAFADXFAFVXAVVFXXAAADAAGAVFGXGGAAFDXDGDXAGVFVADFVFAFFVDFDADVVAAAAXFFDXXGVVF",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "C) --- v ZON (--- November 7th)",
+        "D) UKS v ZON (--- November --)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p153_ocr_block3+p153_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.408396771975926,
+      "plaintext": "F??QT?NJ4Q7JI?V3WPL05V0X?PME7XNIH03?AZZX1JI66J?LO8HHPL9SO?4ERM7GVA52?AAPPXZ7NAP?8JSU?ZHT6A?KQ1N?7X1LP?W07V?15MFV?17Y9?HM3",
+      "known_quadgrams": 56,
+      "ciphertext": "VFVAXFXDADADVGXFAVGDVDDDADXGAAAXVGVFVDADDXADADVVAVGFXDAGDDDGDXXGGG?VXDXFVVAVV?VFAXFXDXAFAVVGGXAVXVFVXVFGFVAXGAAVXXGDXXFVXFXGGVADAVAFDGAXVAA???????????????DDAFFVAXAGGADAFDXAXXXVDGDXVXFFGXFAVVAADAGXXXAXDDGVAVAXVAXAAVVXVAVGXAXXFGXXFAAAFXVADFDXVF",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "C) FAR v CGH = (11.55 p.m., Wovember Sth)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p157_ocr_block6+p157_ocr_block7",
+      "key": "Nov22-24",
+      "score": -9.465371940754078,
+      "plaintext": "65NERI7814SMVPUW?I8UPGPGKJ2PW18AT4IY4XWM75PQ0Y?N2ME5B?T9T?20627P?65HPXNG629GGTVQ8XW98PW4V24I7MK?5SPI?S?HLPE0TZI?5?W41NN6SJFA?G0048AJ18X?EPWAEL4GS8?9?K6V5NJSSXP??C48MFG5?L16XI7J9UTD?XGTG?4SJ06D0?A57P?ICM435?XDK?IS2J1LNS030",
+      "known_quadgrams": 135,
+      "ciphertext": "FVAAADAAAVVGFGXGDGDDGVXAVVVDXVXGXX?VXGDAXVXXFXGXXDAXFVDDGXADAXDADVXDVFAXDDAXDVXDDVAV??XXADVAADGG?GGGGVXDDGXVVDDDXGDGGD??DDVXVADFVVDDFGAAXGXVVD?XVVGGVVGDDXDVXADFXDGVAVGGDXADDDAVDDXFFVDVXAVXXAADGV??XXGDXFVDDAAAXD?????AVGGVAVAVDGDDDVVVXXXXFDADDGXXXAXAAXAFADXGDAVXAAAXFF??XADDXXAXDXVDDDFXVXVGDXGFXXVDVA?GDXXVGDFVVVA??GXDDGVDDDXGGDGVDVDGDGVVDVXDXAVGXDDVXGVVVGGAX?GVAVDXXXDVGVDVGXGXXAAAGDADVVFAGGFXXDVFVGG?XGGGXGDGVG?VDDAVFXDA?DDVXADFVADADAXGADDGFA",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 24,
+          "ocr_group": "GGD?",
+          "layout_hypothesis": "GGD??",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "B) LP v NKJ (7.26 p.m., November 7th)",
+        "1400 (7) VON UKS 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p179_ocr_block3+p179_ocr_block4+p179_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.432212741629591,
+      "plaintext": "IRNEKJ5GXKSDRXQI270MY9A22XXPN32PEYY0X2HS2M8S2NVP2UL?G5N1WXACSVQJ7MCGBWO5QNJC60KM5JOQZ2A2UIRXJ93CD0E5KGRLGAZK8Y5YHRHITH254O9ZDUJ5YA36WSRYWL3BZ5SSRECCKQMRMLB8BOXCRPQ5MKTZHWPXVCNP15VXNWK8L7208XDACKFT8KOD2LA2H8U5H0P27ANNMJUVDTXP2GT8RIX5VPFA21B54FE22SO0ZLGYCTBF3VKQH8TG4VYDCWX2463SN6FOC108NKEAH8L41654ND7MMMPQ81NAFBWV0V5F",
+      "known_quadgrams": 309,
+      "ciphertext": "FDAAADXDDGVVVDAVAXXXAXXVDXGVDDGDAAVAADADDDAFXXXFDDXFAXXXADAVAVGDDAGFAXAFADGVVDFXGXDXXXDADVADAVVVADVAAAVVXFVXFFXDXDAXAVGDGFAGGDDDADDGGDGVDADVDDDDGXFAXDDVXXXVDFFXDXDGXFVDDFGGFFVADXXXVXADAFGDDGGVDVVGVDAGGDAXVVDXXGGDDGFDXVDAAGADFVDDXVDGFDAVGAFFDGDGVXAFVVAGDGFFAXXVVFGADFDXVXAXFVXFVDXVGXXFDVVFAAAXXVXAFFGFDXVAGGAXGDFGGXVVVGAAVXFGGDDFXAGXXGFGGDVDDAVGFGDFA?AAADAVFFVXVXGXVXFGVADGXGAAADVAFVFGVAFFFAVAAAAXAGFGVVVXVXVVFFXXAFGXFXXDAAAVAFVFFAAGFFAFAVGFDFFGDFXVXXGXVVAFVAXAFXAVAXXXVGXVAFFAFADGXFDXGDGDXVAXXVAXDXFFGAFFFXGAGVFADGFGAVFFXXXADXDXXFXVXAAXXVDDFVGADAXAADGVAAFXVXFAFAFFVAVXAAAXXAXXGDVVADFFFFAGAVVGFGAGGAFVGVGFDXVGVXGAFXFFFVGFVXVVXVVFAVFAX",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "C) --- v ZO'N (10.25 p.m. Novetber 11th)",
+        "2000 FUER LP KK 11 KK (11) &R",
+        "WP WP WP FF NKJ v 20'N",
+        "D) FUER UKS (18.50, Novenber 12th) 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p182_ocr_block1+p182_ocr_block2+p182_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.284031391143799,
+      "plaintext": "YNYNU426NCSS58YUV?5M?V4T6WBULXHG51VXXTSS8M5EQT5ODZURW?LSE4QPPKMXIK43Q3QHI4I4C4TG",
+      "known_quadgrams": 66,
+      "ciphertext": "VVFVGXAV?AAGXVAVVVVADAVDVAXFF?XD?VDFDDXADDDDDDVDVDDDVVDAXVDVXFGFDDVGAFVFAFVAXAFFAADXAADDGXAXFVDFXGAXDAGGGGDGVAAXVVVFFVDAFAXXVDAXXFADDXGXVDDAAGDVFDVDXGFADAGVXDDAX",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "(Employed between Berlin and the Black Sea Area) ;",
+        "12th NOVEMBER, 1918.",
+        "A) CM v CZ (19.35 p.m., November 12th)",
+        "B) CM v CZ (20.45 p.u., November 12th)",
+        "C) CM v C2 (21.25 pim., November 12th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p183_ocr_block1+p183_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.240725283439343,
+      "plaintext": "ZU5MINI4VQS623NJ48XL84?2ELJXMS6B4474?CT0XE3JZ?P41X3XVVCG54VAA4KIPXO",
+      "known_quadgrams": 52,
+      "ciphertext": "DDDDXXVGAGDDVGGFVDADDXFXAGGDVVAGXDAGXGVVGVDADAVAXDDDDDADDXDXAVAG?DVFV?DFXFDADAAFXFFDXDVXXFXAVAAA?XVAVVVVADA?DVAXFFVXDXVDFDDXAXXXDDVDVD",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 13,
+          "ocr_group": "AVAG",
+          "layout_hypothesis": "AVAG?",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "(Employed between Berlin and the Black Sea Area)",
+        "12th, NOVEMBER, 1916.",
+        "4) CZ v CM (20.00p.m., Novenber 12th)",
+        "B) COMv CZ (18.54 p.uw. Novemoer 12th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p183_ocr_block2+p183_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.0752200049323,
+      "plaintext": "OS?1SMN1Q5JN?WIVWH8SEZTXI1KHXO2J?XIMUTHFJZK4QA44?24IRCW",
+      "known_quadgrams": 37,
+      "ciphertext": "DVFV?DFXFDADAAFXFFDXDVXXFXAVAAA?XVAVVVVADA?DVAXFFVXDXVDFDDXAXXXDD?VDVDAVXDXDVADXAAVFFXVXGDXFDFDAVAGDXGFXVFXVAD",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 14,
+          "ocr_group": "VDVD",
+          "layout_hypothesis": "?VDVD",
+          "method": "left"
+        }
+      ],
+      "header": [
+        "B) COMv CZ (18.54 p.uw. Novemoer 12th)",
+        "C) CMv CZ (17.26 p.m., November 12th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p183_ocr_block3+p183_ocr_block4+p183_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.257057312556675,
+      "plaintext": "TR9FXZIIQCINX?EMSMUMNKLV?VAQ333F70CVMJNK?YTTPK?71?MU8SJ92?9",
+      "known_quadgrams": 35,
+      "ciphertext": "AVXDXDVADXAAVFFXVXGDXFDFDAVAGDXGFXVFXVADAA?DFAVDFAADAGFVVAGDDAGVDDVF?VG??VGDXAAXXFAVDFAAADAGFVVAGDDAGVDDVFFVVGDVGD??V??",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "C) CMv CZ (17.26 p.m., November 12th)",
+        "FFVDD V CZ",
+        "D) CZ v CM (17.20 p.m., November 12th)",
+        "E) CMv CZ (17.12 p.ms, November 12th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p184_ocr_block1+p184_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.389625200968302,
+      "plaintext": "21HWAFBZORELM5KQKN4AGXRPD3ZQR5JMXF1BXC6VAZKFX51W9YPCFVXV72C27SHXEGS5FNEYC3KPQO1ERGZTAPIK68?YTTAW7DKQ1ZR6NAEE5XH4BOXXCN1HHRXEFSBWIE0LRKTK5ZBFXL5OWPYMDUU5R25LI9ZXDYWOXD1UPGZIOW",
+      "known_quadgrams": 167,
+      "ciphertext": "XAADGAFGVGADXVAGGDFVVAFDAAFXGGGVXXDAGAFXAFXFAXVVVXXFXXAXXXFADVXFXAXVVVVGDFGAFFAGFGAVDXGAVFFXXGXAVXDGDXGXDXXXAXGFAGFAFAVAAFAGAAFAAGAGAFFAVGXAAFXAVAGAFDDXGFGXFVFFAVDAFFFXGFFGXVAFFXVAFVAFFFFDGADXXDVFXVFADGVFXVXGFXAGF?AFFVXDVAAFFDVVXDVXADAFXXVXXXAXXXXDAFVGXFAXFFXXVGVXVXDXXXXDXXFDFAFFFXADVFGVFVFXDGXVDGFXFAFVXDDVXXDVFVGDFDDAFFDAXVDVFGAFFDGGXVFVXFGVDVVG",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 29,
+          "ocr_group": "AFXAV?",
+          "layout_hypothesis": "AFXAV",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "GENERAL STAFF, SECOND SECTION (G.2, A.8) (chh)",
+        "(DISTRIBUTION \"B\")",
+        "(Eaployed between Berlin and the Black Sea Area)",
+        "13th NOVEMBER, 1918.",
+        "B) NKJ v LP (02.51 a.m., November 13th)",
+        "FUER UKS DRINGEND 13.40 (13/11) 3 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p186_ocr_block2+p186_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.207358716190726,
+      "plaintext": "KPPL7N3ZGHZ?YZBM1GOZ1BLB92XBU4GZ1EBIBH8UAR8XNAMZ7ZG4SZ7RM17MX7A9PQHIKDACHANOG3EBDTEHL75WDJ17FPRMB1OHV1H2ECO5CX8G7?E51M37SRRXI1FZOAR8YAS5PLR6A7PKAVJGM",
+      "known_quadgrams": 138,
+      "ciphertext": "AVAVAVXVGAFXXGDXGGXGFFFFXFFGAGFDGAAFXFXXFGXXGAXXFXAGVFXFGFVFDXFGFGFAGFAFVFGVXFFFVAGGAAVVXVXFAAAXFXAADFXFXGGVAFXAAAGVXADXXDXGGFXFVVVDFAAGFAFAAGGAV?DXDX?AVDFFDGFGFAXAXDXDXXGVXVXGXAGDVXFFXXAADVGAXFGAADFVVXVXXFFFXVDFDVGFXXXFXFADDGGDDAAAGVGFGGGGFAVDXVXAXAXXXXDAFAFGVVGAVVFDXAFAFFDADAAAAFAFVVFDVAXXGXXGXAV",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 31,
+          "ocr_group": "AVDF",
+          "layout_hypothesis": "?AVDF",
+          "method": "left"
+        }
+      ],
+      "header": [
+        "(Euployed. between Berlin and the Black Sea Area)",
+        "13th, NOVEMBER, 1918.",
+        "A) SU v LP ens a.m.,November 13th)",
+        "20.50 (13/11) 8 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p186_ocr_block3+p186_ocr_block4+p186_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.342502385768308,
+      "plaintext": "4NNSBAXXUG98K6J1LAWAFOTMMM3OEADMI5HA8U5N88NEXLUIH9ZGZNW?ZC9W5?X6UV?RJEC7Z?J8JP4AZKWN?UTX1MP9N?BR59RATOOQHRU3MC5LY76G7L3YC0M22R1CR5MGXA3NZWYC5BIBMEHKYJP72N2FVJ2XSLQ8Z3MKOX0XYIH9DODH6GTFWD6WVP0GUJF6B7UEKW2KNL27FGHWRVGWZ101XTMO?3?2ECKUEVJSY83FMGTAUVONPL7VZBKZB4Z1Y7",
+      "known_quadgrams": 229,
+      "ciphertext": "FXFVVVDFAAGFAFAAGGAV?DXDXAVDF?FDGFGFAXAXDXDXXGVXVXGXAGDVXFFXXAADVGAXFGAADFVVXVXXFFFXVDFDVGFXXXFXFADDGGDDAAAGVGFGGGGFAVDXVXAXAXXXXDAFAFGVVGAVVFDXAFAFFDADAAAAFAFVVFDVAXXGXXGXAV?VGXVFADGVFGFFAAGXDFVVDAFDDGDAAGGAGXFGAAAFDDDGXXFXXXAXGXGXXDADFDDVXDGFAGXAAAVDXVDVFXDVFDGDDX??VXADGXGVDGXGXXGDGAVXXGAAVFVGFDXGFGGGAAFGFAGVXVDDXXXFAFFVFGXFVVVVAGXDGFXFXDAVFFXVXVXVVVAFDAFVVGAFDVVGVXVGVXVFVVFXFGAGGFVXGDDDDDGAVXVVXVFGGAXAGVDVFDFGVDFXFFGXFFXVGGGVAAVXVGVFVFAXVGFADDVVXAXFAAFAAFFADFDDAVDAV?XXXXXAGXX??FGAFFVAAFFAFVDAADVAAGFXAVFAVDVVXGVXXAVGF",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 6,
+          "ocr_group": "AVDF",
+          "layout_hypothesis": "AVDF?",
+          "method": "right"
+        },
+        {
+          "group": 35,
+          "ocr_group": "GXAV",
+          "layout_hypothesis": "GXAV?",
+          "method": "right"
+        },
+        {
+          "group": 54,
+          "ocr_group": "X??VXX",
+          "layout_hypothesis": "X??VX",
+          "method": "right"
+        },
+        {
+          "group": 97,
+          "ocr_group": "GXX",
+          "layout_hypothesis": "GXX??",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "B) NKJ v LP (06.23 a.m., November 13th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p187_ocr_block3+p187_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.439249179402335,
+      "plaintext": "7P5VXJS1KQXFK18CLAZ1MQWTPMYXQ?0E6IKOLNP2XKKM3VT5O8WJKVQ8?UG9AIV158B51HGAYNXMZX1G8VKO7UPAK54AR6KPUJS1UKHOTYMGEESAKKKF?1YNZO5522EPTF4171JXR",
+      "known_quadgrams": 122,
+      "ciphertext": "ADFAXGGVFXFAFAAAVXVAFXA?VFXDFFXAVVGFGXAVAAGFAAVFXAAVXVDAVXVDDAGVDFXFAFXDXAVXDXV?DXDGADXDGAXXXXFGVGFAAGVAXAXDFAXXAXVGAAXVDFVVXVGXGVXXVFAAGFXVDGGXXXAFGXAAADVAAXVXVXXXXVVXGDFFXDXFADFDXVFFXVFXFVFVVXXXVXXXXXGXXXXGGXAFVGAADXFGAFXVXAVFFVXVXDFADDXAAVDFXFFDXXF?XXVDGVAXDDXVFDGXXDXXDX",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "B) POT v NKJ (16.30 p.m.,November 13th)",
+        "SSD 16.80 UND LEG (13/11) NV BESSER GEBEN GRUPPEN ABSTAENDE",
+        "SSD 22.30 (6/11)KR DTY von LP 3 TLE",
+        "(Jammed by FL unable to read NKJ)",
+        "c) NKJ v LP (16.09 Bo; mewenber 13th)",
+        "FUER UKS 12.45 (13/11)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p189_ocr_block2+p189_ocr_block3+p189_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.360246705644913,
+      "plaintext": "Y78XBM22DW?6P7PLRK8?SE17LBXO2RBAL8ORFGAYXPUW7Z7ARDG6XK5PIFIKPK38HPOQE3K52N1AYH8Z3MVPMOAVYPX4ZAKO2OMMABYEX1SRZ2KA7Y82EH9GYEJYY63EZ5CXS5G2DFEB?KEVA5",
+      "known_quadgrams": 131,
+      "ciphertext": "FGAGFFFVAFXGGVXVAXXVVXXVVVGGFXAXXXAFGXA?VAXDVAVAVAXVXAAGXFAAFFXFXFGXXAXXVFVFFDVGVGFFVAGVAAXDAVFXXGXXVXAAFGDFGVXXFVVAFAFAFFAGVDVAXVDFAXFGXDFFDFFFAAVXGGVFFAAXVAVAXFAGFAVXDVAFXAGFAGFAAFAFGXGAXXFXXAFVGVGAXAXADAXXXXDXXG?GVXGXFVFDD?XVGFAVDDDAAAVVDXVFVXXXAGDFAFAFGFAXFXFFFVGFXVDDAFAFFGGGAFGFVFXGGAXD",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 46,
+          "ocr_group": "XVGF",
+          "layout_hypothesis": "?XVGF",
+          "method": "left"
+        }
+      ],
+      "header": [
+        "B) OM v cz (10.10 a.m,, November 14th)",
+        "15th NOVEMBER, 1915.",
+        "C) NKJ v LP (9.14 a.m., November 15th)",
+        "1000 (15)",
+        "D) CM v ‘GZ (9.30 a.m., November 15th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p189_ocr_block4+p189_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.312296218650285,
+      "plaintext": "0FX6Y2QEOJ17PDGP3K7AVBQWUX5NAPCBKX1KRXYGYARRTXEFEFLM8MVHYNKMYT?62FI7PT6ZA7?N3P91BWOWJGN5VZIODBGNM",
+      "known_quadgrams": 86,
+      "ciphertext": "FXXAFVGVGAXAXADAXXXXDXXG?GVXGXFVFDDXVGFAVDDDAAAVVDXVFVXXXAGDFAFAFGFAXFXFFFVGFXVDDAFAFFGGGAFGFVFXGGAXDFVVVFAXFVFADAAGVFFAXXDAVDXVAVXGGXVXAFAGAFAFAGVAXAVXXFFXDGFDVFFVAAAVAFXGGVXVGVGVAA?GXDXGGXVDVXV",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "D) CM v ‘GZ (9.30 a.m., November 15th)",
+        "D) CM v ‘GZ (9.30 a.m., November 15th)",
+        "E) CZ v CM (10.00 a.m., November 15th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p192_ocr_block2+p192_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.344628277531376,
+      "plaintext": "Q2CERYERA3BSVA5Q7HHWVUQWQ2QGRZO1FJ1O2KPEZRYI215B7A7ZAAW21BECFNZDWAA9?C7UYVO7KEJAYMR0?PPA1525ZEPVHPAVR58F2O7RA4YJYCWEOONDATT6ORY6FQD2XH9GTD7LBXSPHKSMWG5AKAGEA9BQM99ITWXM77KU88PC7OA8KZQ8EIADAWOTNL5DV5YMK3X2PDOWI6AFW4NZHRS9XMHA6IGMOE5XOWPASWYOIZQA?XEMO?PKLBKJ1Y6KAAKMEC91VWRRVBWPG912LOFTVXEAH",
+      "known_quadgrams": 270,
+      "ciphertext": "FAAFADAVAGVFVVFAFVADGXFFVAVFFVGDAGVFFVGXAGAAVFXXFXFFXVXFXGXXVFAAFXGXFGXFXXXXVVGGFVXAXAADAVAADFADVDDFAAXXDVXAAXGVVAGGXXVVVVXAVVXXGVADADAAXFXVFVAXGVAGFGAAAFFXFVVXXXXDXDFXDFFVXFAAAAFAXFXAFAGXXGVFFAFFGVAFAAAADDVGVGFVGDVXFXXDXADXVDXXDGXAGVVAAGXVAFGFVVVAGXAXFDVDVAAVXAFXAAFFDFXXDXGDGAXXFVXXAXXXAAAXVVAVXVADXVXXGGAVXXAGVVVFVAAAAVFVAXGGXGXXXGVVFGXFGDXAXXF?XAXFGGFXVXVFGVVVDGGVFAAXGFGAFFXFDAGGXDXDVAVAVVAVVXXXGDXFDVVVFAXXVXVXXFDGXAXFFAGFVFFDAGADGVGFFFFVAVDVDVVGVFADGFFXADGGFDXAVXXXXFVXFXVAXXXGGAFDXDVVDFDFFFVFVFFAAFDXXXGAGVVAGXAGVXFFXFFFFFFV?VGFFADDGGDGFAA?AFFFAAFDGXAVDAVDXAAAXXFFX?XDDF",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "A) NKJ FUER UKS (06.45 p.m.,November 14th)",
+        "22.55 (15/11)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p192_ocr_block3+p192_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.371963025830317,
+      "plaintext": "MPNP1K3ZARU31O5SX22Z7ENKSGFGY853271H25BAPOXI88X9NUP3AQF9TIM6YWK?GEBX2WWRA8ZJYFR2XW4O?2CAQ5HF7XW88?QYIBPZ9ACMJS?IPXG2L0HQ6AITGOIZYQJFROCHM9CHURECYV1XH4LOBSZ1XRK9OHH81L12K6RWQNZ7LVIOYR1AIXUO1SRWRTQA614PARVEJZW188G1BWHB78I1JWOBZ23EPC1MZNE9H7EG8K25AUPCMHLPUTUW?QMXPNEPQWXHOSWCVVEVSODRHC?83OTJ9EJTEQ8DUXZEEWGKYNBXM",
+      "known_quadgrams": 282,
+      "ciphertext": "XDGXAGVVAAGXVAFGFVVVAGXAXFDVDVAAVXAFXAAFFDFXXDXGDGAXXFVXXAXXXAAAXVVAVXVADXVXXGGAVXXAGVVVFVAAAAVFVAXGGXGXXXGVVFGXFGDXAXXF?XAXFGGFXVXVFGVVVDGGVFAAXGFGAFFXFDAGGXDXDVAVAVVAVVXXXGDXFDVVVFAXXVXVXXFDGXAXFFAGFVFFDAGADGVGFFFFVAVDVDVVGVFADGFFXADGGFDXAVXXXXFVXFXVAXXXGGAFDXDVVDFDFFFVFVFFAAFDXXXGAGVVAGXAGVXFFXFFFFFV?VGFFADDGGDGFAA?AFFFAAFDGXAVDAVDXAAAXXFFX?XDDFVGVAXAAAFFVXDGAFAXDVADAAVFXVDVAADDXXXAXVAXGFXAFDDVXXGFXFAXXVAXVXFDVAFFXXXXFXXVAFXDDDXFXXVXXGVAXVVDDAAFDFA?FVGAFAGFFDVAXGVXADVGGDVDXVDAXXFVXXFXFXFFFGGVGAFGVVFAFAAGDDGDADFFXAAGXDDXXFVFGFFAFXXVXXVXGADDXVXVDFFAVAVDFFFVGVDXGFGFGAFAFAAAFGVVFVF?AADFAFXVVVFGVDFVXVVAAXFDAXXFDV",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 61,
+          "ocr_group": "FFFFV?",
+          "layout_hypothesis": "FFFV?",
+          "method": "left"
+        },
+        {
+          "group": 92,
+          "ocr_group": "FVGA",
+          "layout_hypothesis": "?FVGA",
+          "method": "left"
+        }
+      ],
+      "header": [
+        "A) NKJ FUER UKS (06.45 p.m.,November 14th)",
+        "22.55 (15/11)",
+        "B)NKJ v LP (08.56 pem., Novemoer 1ith)",
+        "NKJ FUER 20'N 17.30 (15/11)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p193_ocr_block4+p193_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.403880234006085,
+      "plaintext": "VGY6KPFZW6LM02SEUFAK5QO1KLV22PYHXPCR2QDXT1H5HAM9APCA6UV2MWRHOKW0HLRP0YZRNPFNJKV5OK",
+      "known_quadgrams": 79,
+      "ciphertext": "FFVAXVAFFFVXFXDVFFXGDGAAXDVAXVDFFGFDVVXXVAFFXGXFAAVVXVAGXXFGAAXVGDVGVGVFFGDGAGFFXVAFVFVFXAXXVXVXFAFFVVDXXVVAAFFXGDXDXVXVXXAXVGFVAAVDFAFGXVVVVAGGAADFAFAVDAXVAVXFAXGD",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "D) cz v CM (1.10 p.m., November 14th)",
+        "D) cz v CM (1.10 p.m., November 14th)",
+        "E) -- v CM (10.30 a.m., November 14th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p197_ocr_block3+p197_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.271855433156171,
+      "plaintext": "CZQUPZ2I1VX3F1LAUS31TZKA?SMAD6VVEJS?R3SETAY231PF?HY0Z1YEPOS3XYWZVF3SMHYBJ8ETAXPGZJ13H6OF7A?VT7S8ISQVWUALLIMB1O8RYPWRH1FOOFATBLQW?U7Q6ORORGXCAW7WFTFKRD",
+      "known_quadgrams": 127,
+      "ciphertext": "XXVF?FFDVGVGFFVAGVAAXDAVFXXGXXVXAAFGDFGVXXFVVAFAFAFFAGVDVAXVDFAXFGXDFFDFFFAAVXGGVFFAAXVAVAXFAFFAVXDVAFXAGFAGFAAFAFGXGAXXAAFGAAFXGXGAFAXFVGDFGDVAVXXFXGFDXXDVDXGVGFVXDFGVDVXVXVXADAXXAXXVGFVFVFVVAADADAXDAXAFXAGXDXXDXXVFXXGXXVAFFVVVGFGAGAAFFAFFVAVGFFVVVFXVVXDXXAVADGFFFDFDDVVAGVDVDGXGFGAX?FAX??VFAX?GADFD",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "B) NKJ v LP (04.24 p.m., November 15th)",
+        "10.00 (15/11)",
+        "| Cc) CM v CZ (10.40 p.m., Novewber 15th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p197_ocr_block4+p197_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.352103278256845,
+      "plaintext": "713K22FZKXNQ5AIXE6SCGRJJMCKK8ROYB?XLM6TTS8KVCNHWZWRPSXNQW5Z2W80H?V1J76YL5SI7G?P1WAEPE1FE?OWILLS6G2KP1UV1N2UMZVZWWSDDXY66WYBP62ZX6RHM11MOEZRKTI3?JSDQRXKA2ADVORA3D",
+      "known_quadgrams": 138,
+      "ciphertext": "AAFGAAFXGXGAFAXFVGDFGDVAVXXFXGFDXXDVDXGVGFVXDFGVDVXVXVXADAXXAXXVGFVFVFVVAADADAXDAXAFXAGXDXXDXXVFXXGXXVAFFVVVGFGAGAAFFAFFVAVGFFVVVFXVVXDXXAVADGFFFDFDDVVAGVDVDGXGFGAX?FAX??VFAX?GADFDXDDFGVFGFFFXVGVXAXVVVXVDXVXXVFVAAAXGVVAAXXDAAVDXXXVFXDVXFFGAFVXXAVFDAXVFAXFVXVVAVFGFAGFFA?AGAAGVDAGGXVFXXXDAAAFAGFAFAVGAVVGAVXXDAAAFDGXXGXVAAF",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "| Cc) CM v CZ (10.40 p.m., Novewber 15th)",
+        "D) OM v CZ (06.20 p.u., Novemoer 15th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p198_ocr_block3+p198_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.420915858885822,
+      "plaintext": "7T9GI7AMCPLWASOAE5AF26WMHEL8RHBZMTKXNKYK8IYWFUCI0QLGI81O9P5ROO2PA18KEHTYFP7AQ8H3TBCWC7HGV373RQKGUGE19IRRH911AWGJWWLVAWPBBUGOA2FEOOTAXU8Y1V6CKCYAYAWYLGMZV69LU62Q39WTJFEREEYXW",
+      "known_quadgrams": 170,
+      "ciphertext": "DXGFDFVFFFGAXFAFADFXAFFXXDAVVXDXDGFDDXAAVXXXFAVAVAXXXAXVXGAAVXVVFAGAAFXAGDFVDAVVVGXXXVXGVAXGGDAAXGDXFDDXXGAAVAFXFAXFDAVVGVGAFGGVVXXAGFVFXFGDGVGAAFAFAFVFVAAAGXFADXVVFFVXFVGFGXXDFFGGVXXGXADFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGF",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "C) GM v_CZ (13.03 p.m., November 15th)",
+        "D) P2U v CM (18.27 p.m.,November 15th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p198_ocr_block4+p198_ocr_block5+p198_ocr_block6",
+      "key": "Nov22-24",
+      "score": -9.386753297831914,
+      "plaintext": "V2QYI85LHDHWTAKYZVRAROHIMZMQBYOEAD4HCAYPEPZELOTPWA88W7KD58J8O5MK9LOTW268IFM7PWRJE2WQH266318AA6N8ZFV5SWESPXQ5UKRMPH?RRPLC68W1U1WZWKZOPEMCTJLWIFERVRLAW35FD",
+      "known_quadgrams": 146,
+      "ciphertext": "DFVXVXGAXDGXVXDVGVGDVADXFFADVXXXVFVAAXGFDGFFAVXAVVVXVFVGFVFGDGVFGFFFGVVVGGGXVFXFXXFVDVDFDDFXAAXVVXAAFXXXVGXFVDVVXXFFGXGVFGXFGGFAAAFGXVVFXXXFFADXDAFXFVVDGVXFGAGFXDDFGVFGFFFXVGVXAXVVXAXVVVXVDXVXXVFVAAAXGVVAA?XDAAVDDXXVFXDVVFVFAFVXXAVFDAXVFAXFFVXVVAVFGFAGFFAAGAGGVDAGGXVFXXXDAAAFAGFAFAVGAFFGAVXXDAAAFDGXXGXVXAF",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "D) P2U v CM (18.27 p.m.,November 15th)",
+        "E) CM v CZ (10.09 p.m., November 15th)",
+        "E) CM v CZ (10.09 p.m., November 15th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p199_ocr_block2+p199_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.40443298844952,
+      "plaintext": "PPOWMU9XAIA91FAKQEXKMKBAVA2U23K7P5H92MMYK1OE8VAY7VFXPWH018QBYZMQHSEGU6VWEQPPS2VNHUQDLGPVOUIZV8DC81FZJAQ7KREEP72CNK1K2Y1LH8GAMQAF5ZEEREQP28LPKU17HQFZFHLWU6XFB6L7R2EBEEKAVTAF?7SYFENB7GZ?M1XR1VQCHAAREZMH?G6TPXVGLHEKGR2VQKKXPKAXBHMHD2F8JP3H1OMARWHGIK37O?OEJBLQGMVK7N58U8XFCANG",
+      "known_quadgrams": 253,
+      "ciphertext": "VFAVAFVVVAXAAAGVADGFFVFVDDVVAFFVGGFVFAFFFFAVVAFFXDXFFXXAXGXFXAFVFAVFVFGXXAAAXVVFAAVFGFVXVVAXFAXFXXGVAGFXFVVXVAVGGGAXVXXVFVDXGFXXDFAXAAXFAAFGFVVXXVFVVXAFVXXVGXFXVFFXVXFVXXXAGVAVVVFVAXFFXXGAXGVVAVXAVXXFXFVDDVGAVFXGFFAAGAGVDXGAGAVAXAGXXAGFGAXFDVFXGVAVXXAFAGVAAFVXGGVFAGGAFFGGVDGDGGVVFFVGFGXVFFAFVGFGGAAFFAVAGDFFXXGADFXAAVVXAGXGVGXXVADXAXAAFXAV?FXXDAAAXVAGGVGVGXAVFADGFVFGFDAFXXXVVXGVVDDGFVGFFXVFFDGGXAXXXVAVXGVXFXXVGAFVXGAFDXAAVAAVFFAXAVFVVGAXXXDXXFDVAXVVXXXXGFVVFDXFGFAFFXGFAFGAFGGFAGGVFGAXXVVXXFAXXDXXAAAFVADVAV??AXAFA?GXFFVDAGGDVADAAAGADVFXAVVAX",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 69,
+          "ocr_group": "FXXD",
+          "layout_hypothesis": "?FXXD",
+          "method": "left"
+        },
+        {
+          "group": 103,
+          "ocr_group": "?AXA",
+          "layout_hypothesis": "??AXA",
+          "method": "left"
+        },
+        {
+          "group": 104,
+          "ocr_group": "?FA?GX",
+          "layout_hypothesis": "FA?GX",
+          "method": "left"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p199_ocr_block3+p199_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.070327222937404,
+      "plaintext": "8X75N5B7DH7OV5AXXKERWVM?1AXXYLC2EZQMLAHIG2OTHOVBMNHY3RT121MQ2YXANDD?8TFMT687ZH?RE6KD68DPAYXCMECHTK8RZ11922RVYO8?PYV1ZGAK",
+      "known_quadgrams": 101,
+      "ciphertext": "AAAXVAGGVGVGXAVFADGFVFGFDAFXXXVVXGVVDDGFVGFFXVFFDGGXAXXXVAVXGVXFXXVGAFVXGAFDXAAVAAVFFAXAVFVVGAXXXDXXFDVAXVVXXXXGFVVFDXFGFAFFXGFAFGAFGGFAGGVFGAXXVVXXFAXXDXXAAAFVADVAV?AXA??FA?GFFVDAGGDVADAAAGADVFXAVVAXFAAGFFFFFFDVFVGDAAGVAXAXVVFFXGDXAVXGFXXV",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 34,
+          "ocr_group": "?AXA",
+          "layout_hypothesis": "?AXA?",
+          "method": "right"
+        },
+        {
+          "group": 35,
+          "ocr_group": "?FA?GX",
+          "layout_hypothesis": "?FA?G",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "NKJ v LP (08.32 p.m., November 15th)",
+        "FUER COS 18.56 (15/11) 3 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p206_ocr_block3+p206_ocr_block4+p206_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.401611391540683,
+      "plaintext": "MOK4AAG41JN8??QG413X6JMC?IS8MZQ188Q1FCRA90NJOGO138JNK0USDNX69MQ112RFDUTES140O315QA5SEXTYIB86S1LQ0N5LM9691AWMSL1?8Z4MPFR0JR?1GBIZ9N62SCTBPFXJXO8D6T5OO78BM0S0F72W5GRU7A6SXKOLD1JGTOON5XEQ8G?FSX1OSZOSI?Q6ZRAW3SUD?HX1XPB8Y5G?40ZJT145V0?A713ADZP3X?G0CQUIOG04?R3ZGLEH1LXAIR67CST5Z7S4GYXJ4PCK5C7X9?PAFDAXFOIL?30SOP60M1I?5ADG0J1LNP?YUT732N7MR?1AZG8GA9GILL88AKNY8HZSGOGOP554N29EWH9K2PQGFS73S6AFWQ5PL081OESSCODCWAV2A8S02513F1BG42WHXJNNB?VZL5QSKFFQ?F55SDNAKA09QK0LX1XLU72SOSMOSZ3",
+      "known_quadgrams": 391,
+      "ciphertext": "XGDDFGVXDGDFXXAFXXXXVXVGDDXFXFXGGFADVFAGFGFXXAAXAAAAAVFXGDAVFDGDFFFDVFAGDFGXFAXVXGAGGXAADFXDADVFAAFFXXDVXVFDGAFXXDFXFXFXFXGVGADDXGXGVFADAXVGGGX???????AAFFGXDAADVXAAVADGAXVXDGXGDDAGVFAGXXVGXGXDXGDXVXVXDDVFAGDFDXFVXVXXDFFDGXFDGDXVGAVDXGFDDAXVGAGXDAADDVXDGVFAFAXGFXGAFAFVGVFAVXGGGDFXXVXDAXFDXDFVFAGXFXDXFXGFXXXVDGXVXADVFXGDFDDXDXVXXXVFXXGAGXVGADXDVAXFXGDAXDAGAAFXDAGXDDGDXAXFXXVDDAGXDDADGFGDVDXXAVFFXFXAXGXGVVADAGAGAGFXDGAFDFAGDADGXAVAGGAGFXAAAXFADFAGAA?????GDGDGDXDFXAAAGAGFAFDVAXFAGAADFAFDAXFVDGFAAGDGDAAFGXDAAADFAGAAXFAVGGDXGGAXDFXXGXXDGXGAGXXGGXAFVAGAFVVXXAGXXGXXVVGDXAAXAXDAGFGGDXFDAAGXGXADAXDAXAFDVDAADDGVFVXDFAVDAGAFXVDDAXAXVGGXDDFXADX?DAGGGXFV??DGDGXDGADADFFGADXAVGVAGXXAVAGAXXXAGXXDXGAFDXGFXGAGDVDGAFXAVGDGXVXAVAXVFAADAVFXXGAVVFXGDGXDXFXXDAXGXDXDAXAADAAFXXXAXFDGXADXDVADDGXVVDGDGGDADAAXAGDAGAXAGDXDAXFXGXVXDVDDGXXAAAXGFAFXDAXVVXGDGVAXGVDXVXFADADDFDDAXVAXFDXGXGAFAADVXXDFGFXGXAFDVFVG??DVX??XFDGDGDGXDDFAFXFXFXFFVADAVVFVFVFVGDXADXA",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 128,
+          "ocr_group": "XADX?A",
+          "layout_hypothesis": "XADX?",
+          "method": "right"
+        },
+        {
+          "group": 130,
+          "ocr_group": "XFV",
+          "layout_hypothesis": "XFV??",
+          "method": "right"
+        },
+        {
+          "group": 179,
+          "ocr_group": "DVX",
+          "layout_hypothesis": "DVX??",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "8) ZON v OKM (08.14 pem., Noveube r 18th",
+        "1600 (11/18) 4 TEILE."
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p207_ocr_block1+p207_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.32149130151472,
+      "plaintext": "QY184TLAXTOD51DIS24AS614NZYXLFQF1SQ6C8NTAJASOQKS5K2LX?AZX978700T?I91Y4LNJ8J?43TZ9AFDAT?JD7P34AY01?0Y85WS6DX7J621YSA7XOS37SABSLF11GCN4NJQSSICC9J1A9TDIRL7A9",
+      "known_quadgrams": 131,
+      "ciphertext": "DDFXXXGXDDXGDGAVADVGXGAGXXVFAXADAVDVXADGDAFVXAAVDXGVGDXDDAFA?????XDFDAAGXDXAGFGFADDXADDAAXXDGGXADAVDAAFAAGXGAGDDXGXDXDDDDGAADGDAXDXGDFAVGFAVXGADDADGFVDDAVAGXAFFDDGAVADXXDGXGDXXDAXXDGXXAGFGFAXXFFDGDVAGDGAADAAAAGFXDAAAXVAXXXAXXAAXXDXDXGAXFGGGFFAGDDDXAAADVDGXDAGAGDFDGXGAGVADDGFGAXDFADFAAGGAGXFXFAXXDVXDAFVDAGXD",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "(Employed between berlin and the Black Sea Area.)",
+        "18th NOVEMBER, 1918-",
+        "A) 20'N v LP (----- Noveuber 18th)",
+        "13.00 (16/11) 2 TLE",
+        "(Employed between berlin and the Black Sea Area.)",
+        "18th NOVEMBER, 1918-",
+        "A) 20'N v LP (----- Noveuber 18th)",
+        "13.00 (16/11) 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p211_ocr_block4+p211_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.234581450621286,
+      "plaintext": "KCT3GAVY0Q1Q1BYKNS4ORMMPEVI7R7Y2VP12QY2SEHOXYWVIVMXNERBMR5AROR12NWKMZVQBX677RWQ?V22PYPEXFEBA1CXRXGRSEDR11AIRQPBR4IKDH?FOMUS6DHXJRK8GXXEWTQ11XETPI?L1YV9KLQWQ51X",
+      "known_quadgrams": 144,
+      "ciphertext": "GFDFVFAAXXFVVXAVAFAXFXVXAFXXVDXFVFAAXAFGFAFXAVXGXFXFVAXDAAFVFFDGVXAFGVAFAVXFVFVGDFVAXVFXVXXFAAVVFAXVAXAAAVXFADXGAAFXXVVAFVFAFXVGVAADGVAFGVFXGXAAFFVADXVVXFDGVGXXAAVAAXXFAGGXVXFDAFAXGFFD?FXGVFFAVXA?FGDGF?XXXVAVFAVXXXFDXXDXXXVFVAFFFDADAGFAFVVGVXFFXXXDAVAVAVVAFVGXAXAFAXFAAFGAXXFGVDFDAFAXAXVDXVADGVDXVAFVVFXDDGVVVDFDGGDVVAD",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 14,
+          "ocr_group": "XAFGV?",
+          "layout_hypothesis": "XAFGV",
+          "method": "right"
+        },
+        {
+          "group": 37,
+          "ocr_group": "GFFD",
+          "layout_hypothesis": "GFFD?",
+          "method": "right"
+        },
+        {
+          "group": 40,
+          "ocr_group": "?FGDGV",
+          "layout_hypothesis": "?FGDG",
+          "method": "right"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p213_ocr_block2+p213_ocr_block3",
+      "key": "Nov22-24",
+      "score": -5.208337331701208,
+      "plaintext": "SCHONMOEGLICHSTVONKONSTANTINOPELAUSZUENTSPRECHENXDAANGENOMMENWERDENKANNXDASSNIKOLA9EWNICHTLEISTUNGSFAEHIGGENUGISTXXKMXAXDXNRQJ0XXYYXY5XAYY",
+      "known_quadgrams": 135,
+      "ciphertext": "AVDFAFAXDDADFFDFDAXGVDXAXGXFXAFDAAAXFVAAVVVDFAXGXADAFXGAVXGXADDVVDAADVGDAFFFAAFFXXDAADDVXAAGAAGDGFDFDDXFFFADDGGAAFDDGDXDAXXGAXVVVAVAGFVAAXAFDGFDDVFFVXAFFXDXFXVVFAAVDAAFVXXGFVFADVVVXVDAVVXXADVXDVXFFVXDAXXFVVDFADDDAAFDDGDADAVFXAAGAGFGGDDGVAFXAXVXVGFVGVAVXVAAVAXGVXXFADFVAAFAVDFX",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p213_ocr_block4+p213_ocr_block5",
+      "key": "Nov22-24",
+      "score": -4.7079201334530545,
+      "plaintext": "RPHAXREVALXBISENDENOVEMBERWERDENZWEIDAMPFERFUERTRUPPENUNDPROVIANTVONZUSAMMENXY5111XTONNENINREVALSEIN",
+      "known_quadgrams": 97,
+      "ciphertext": "AAVXFXDXFVVFVVVADAXXFFFAFADXVFFGVXVVAVDFDDDDVFFVVVAXFAAVVGVVGDDVFGFVVVXAVAFAGVVAFDFGVAGVAXVXFFGVFVXFFGAXGDFADDVAGGXXVXGVDFDFXAXAXDXAFFAXVXDFFFGAXDAFVVVDVDAAVFGDFGXFGVAFAVAAFFFFXXDVVXVDGFVAAFAFAVVFVFXD",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "| 23rd, NOVEMBER, 1918.",
+        "A)KOF v LP (06.20 p.m., November 23rd)",
+        "| FUER RVA 20.00 (23/11) 3 TLE",
+        "| 23rd, NOVEMBER, 1918.",
+        "A)KOF v LP (06.20 p.m., November 23rd)",
+        "| FUER RVA 20.00 (23/11) 3 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p213_ocr_block4+p213_ocr_block5+p213_ocr_block6",
+      "key": "Nov22-24",
+      "score": -9.300986165674324,
+      "plaintext": "2BYC26O5RTWTFFINW2XZE2HVQMMH2RKOP925QAZVYXCMHEIFEBA24EPWXZLOST8PP3LMBO0KYHVVRJ2HA5DXAKM9SQTVRT1SEKTWRMPUZHR9H33YIFWLO3UQ",
+      "known_quadgrams": 117,
+      "ciphertext": "AAVXFXDXFVVFVVVADAXXFFFAFADXVFFGVXVVAVDFDDDDVFFVVVAXFAAVVGVVGDDVFGFVVVXAVAFAGVVAFDFGVAGVAXVXFFGVFVXFFGAXGDFADDVAGGXXVXGVDFDFXAXAXDXAFFAXVXDFFFGAXDAFVVVDVDAAVFGDFGXFGVAFAVAAFFFFXXDVVXVDGFVAAFAFAVVFVFXDFXVVFVAXAAVXVFAXVXDXFAVGFAAFDAFADVFGFDAV",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "| 23rd, NOVEMBER, 1918.",
+        "A)KOF v LP (06.20 p.m., November 23rd)",
+        "| FUER RVA 20.00 (23/11) 3 TLE",
+        "| 23rd, NOVEMBER, 1918.",
+        "A)KOF v LP (06.20 p.m., November 23rd)",
+        "| FUER RVA 20.00 (23/11) 3 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p213_ocr_block5+p213_ocr_block6+p213_ocr_block7",
+      "key": "Nov22-24",
+      "score": -9.358469154875158,
+      "plaintext": "0RO7IHURKOERFHPSYPTZYKAHBX0FIIL9RQD2ZCSDBT4OOS3HWE4ATP8NJPPY63X2SIAT8HRO2HEUHCAVKWEZ?C7VAR22HFBFBG1NVKOTWFBFWHEEFTZNVXW6CR265AR2L2XD75PCRXE3FDYO2U5ZVJDUIWT933N2QLN47AYVZVZP4OONISRTVEYT",
+      "known_quadgrams": 177,
+      "ciphertext": "DDDDVFFVVVAXFAAVVGVVGDDVFGFVVVXAVAFAGVVAFDFGVAGVAXVXFFGVFVXFFGAXGDFADDVAGGXXVXGVDFDFXAXAXDXAFFAXVXDFFFGAXDAFVVVDVDAAVFGDFGXFGVAFAVAAFFFFXXDVVXVDGFVAAFAFAVVFVFXDFXVVFVAXAAVXVFAXVXDXFAVGFAAFDAFADVFGFDAVFVDFXAVXGFAGFGGDVXVFAFXXVAFGGXVFVFVAGFXAFXFDFAFFDVVFGVGDDVXFVFAXAGFDXFADDVVFGFXVFGDFGVXFFVFXVFDDFDDFDXFGDXDVAGVGAGDDXVXDGDFAAFGVAFDAXFFDVGAXF?FGXADGADDFFGVDVGVVXFVVGDVF",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "| 23rd, NOVEMBER, 1918.",
+        "A)KOF v LP (06.20 p.m., November 23rd)",
+        "| FUER RVA 20.00 (23/11) 3 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p213_ocr_block6+p213_ocr_block7",
+      "key": "Nov22-24",
+      "score": -5.316979300115526,
+      "plaintext": "WEITERETANNAGEFOL?TBALDIGSTFERNERROHSTOFFTRANSPHRTABGINGHE8TEXPETERXBENVITXFOLGTMORGENXB9VERNUNDBAC4LONX",
+      "known_quadgrams": 97,
+      "ciphertext": "FXVVFVAXAAVXVFAXVXDXFAVGFAAFDAFADVFGFDAVFVDFXAVXGFAGFGGDVXVFAFXXVAFGGXVFVFVAGFXAFXFDFAFFDVVFGVGDDVXFVFAXAGFDXFADDVVFGFXVFGDFGVXFFVFXVFDDFDDFDXFGDXDVAGVGAGDDXVXDGDFAAFGVAFDAXFFDVGAXF?FGXADGADDFFGVDVGVVXFVVGDVF",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p213_ocr_block6+p213_ocr_block7+p213_ocr_block8",
+      "key": "Nov22-24",
+      "score": -9.207133155685288,
+      "plaintext": "00V03ZKKH?VV7XV8YESD?R11FTT1ZSKIDHEMEHYAYQWHRRGDY0XCNB92IZEMR2OBRSRHGPZNWRSAI160W8K5GNBHPQ0R2RWC3OPH816QSZAZ83NRUIHTSSCDH3?AB",
+      "known_quadgrams": 111,
+      "ciphertext": "FXVVFVAXAAVXVFAXVXDXFAVGFAAFDAFADVFGFDAVFVDFXAVXGFAGFGGDVXVFAFXXVAFGGXVFVFVAGFXAFXFDFAFFDVVFGVGDDVXFVFAXAGFDXFADDVVFGFXVFGDFGVXFFVFXVFDDFDDFDXFGDXDVAGVGAGDDXVXDGDFAAFGVAFDAXFFDVGAXF?FGXADGADDFFGVDVGVVXFVVG??DVFFXFXXGFFAXAAVXVADXAAAFFFXFAAVXFAXFXGGXGA",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 42,
+          "ocr_group": "DVF",
+          "layout_hypothesis": "??DVF",
+          "method": "left"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p215_ocr_block2+p215_ocr_block3+p215_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.246619066345357,
+      "plaintext": "18M?GKIHXXFRGP?FIETS7BQIZ??I19OD7P33?MU7S2C34ZM?ZHQU2J?GSP?KUMSIO9YUA?P6JX6LK5RSMEXEYPR51RWMCGWQNYXNXOHKV7V6U6VPIXDOXQKMNKXOYQRE3U4SUSX?K3SQQPNZCQA6LVRGOQSZVB71BFVPM5RMQ2NUZMHDKJ1RO?NIKARSIQEA?02C7IL8J1??Y8XPNUOM?W?FMXKREQBBY?A4FTZQPV1X??33ESO3V2O?DSUXRMRTRM??OYYHC9NL5?UYZIEROK?Q?C7QOQIXI?X??16QM2TR?Y??LA0F65H?N??4TKWY3P?",
+      "known_quadgrams": 214,
+      "ciphertext": "GG?VAFXFDFGAFGAAXX?VFAXVXAAFADVVXGAAXVXGXVAVGGDGAFA?G?GFDVDADXAADGXAGFVAGVVFDAAGFVFAAGXVFGGD?DXDXVDADAAGFVDFFAFFVAAFXXGGFXFAFAGADVFVFAGVXDVXAVFAGXXFAXDGFXXAVFVADXFDGVFAXVDFDAGFGXVDFAGFFXVXAFFFXVGFAVDFDFXDDDFDDVVVGAGVXFFGXAFVVDGVXGGXDGFGFAFDGFXAGADAAVGFDAFADFVFAVGVXVVGFGVXXVFFDAXD????????????????????VVVAF?XFAFFXAFXAFGFAFAAXFAVDXADXDVXGFADXAAGVAFAFFVVVAVVGDVDAFAVAFAFGADAXVDFDXFAXGDVXAFVXXDVXDXAAVVXADVFVVVAFDFVXXFAAFXVVFXGAXVGVFAXXAXFADAXADXGDFADVFFAXADDAFDDXXAXFFGXAVXFXAFVVVVVDVXGAXVAXFXXFDGAFAVADFGFADXFAAFXAAAGAFVX?GXVFA?????AAGDDXGFFVVDXXXVXAXFVFAFDXADFDFXAAVDFVAAFDVFVADFGXXGVVD???FDDAGAXAAVADAFFFVVGADDAFAGXADAVFDAVAAXFVFXAVAXAXAGVVDDXVFFV",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "B) UKS v ZON (03.20 a.n., November 23rd)",
+        "RICHI~220 GG-VA FXFDF (snd several groups Missing)GAFGA AXX-V"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p216_ocr_block1+p216_ocr_block2+p216_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.294725007185058,
+      "plaintext": "RDTGGLWEV52MVXEPKEOCVITPNPRPZYSZXEUU02Z5OC94ZERZEI3HYUY7ZUVY8YO6VTXA4F3BSUYZUW60YY2PV56M33RS3M0EREUMBDXRNZEUERJLBYFYYZRRR7OFTPZN6WBUHIFFAYMMPXQROMHKGEXZAEUY0LN30NM7PTCTOQ3XTOW8XWYENSBONNG6YNRFYZ5RCUJY43MB2UT6UVRKMDN57GBC23KIMI6BRETIJHFIVSHYU0KX06HVXK66FRVYZ2H7SASCP538KIIQEJMEHQS52O4JZE2Z6PW7JEHLTQYF0LKK4MMIRHMMI3EFX7Q48MTEH96PNM2DJKTZ2OC6UX45VJYCN0PFOBI3C2HVR",
+      "known_quadgrams": 358,
+      "ciphertext": "GXFAFFFFFFGXXFAAAGVGVDVAFXVGDFVDDXVFDDAAVGFADAVGXGFVDVAXGVFXXVDVFFVDDDFGFXFVFVXAVXAFVGFFGXFDVVAXDDFVVXDADGAGFFGAVVGXGGFDGFFAVDVAAGFDVFDGVFVVVFGXAGXDFVGVGVAXFAAGDVVFVVFAAAVFVDAVFVVAGDVADFFXFAAFDAAXGVVGVFAVDGAFVFAFXAAFDXXVDFFAFGGDGGFXADXFAVAFAFGFFDFFADVVVDAAFFVAFAADADFVVVVFFVAFXXGVVDVDGDVFVDAVVGAXVFVGGVADAFAXDDAAGDVVVFVVGXDFFAVGFXDAVGFDAFVGVGXFFFVDGGAXDXDVVFVFFADVFGXXDAXGFFGDXVXVVVXFVVVAFDVXFFXFXVXVVFFAGVAAVXXVAFVFDADFDGGXAVVAAVFVDDFGFGGVDVFADFFVDFFAGGVVDXDXVFVVADADFFVAXDADFAGAVFVXDXAVVDXFGVXVFAXGFFGXDXFDVFFFFDAVXVAFVXGDFVFAFAVADFGFXVFAFDFDXFAVAVXFAXVFGFXVVGFVFAAXADFFAFVFDAVFVFGAVGADXVDXVAGVVAGFFFFAXAVADGFFVGDDAGVAAGXVFAXFFDXDAFAVFDAFAAXGDAADXDFFGADVVFAFFFGVVVFVAXDDFDGGGFXAADVDFVFDVDXDGFGDGFGGFFAGDADDXXFGADAVFAAXDV",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 109,
+          "ocr_group": "VFAFDV",
+          "layout_hypothesis": "VFAFD",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "24th NOVEMBER, 1918.",
+        "A) --- v NKs (06.38 p.w., November 25th)",
+        "VON UKS 2245 (24/125 4 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p217_ocr_block2+p217_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.260419175488309,
+      "plaintext": "QBL7CKVT76ZR2?NRVX1ZWQQH0TYQPRVQIQVXC3MZ9MTAZRUYSX7SHZQ51MZ6UZ6O5NKL3V3RWGCOKTEIYO1OC0CGVVBETZMORUMKKVCZUH8LFNALBOEY3FYQG52WZ86URAWML1U7NOHREXMCS5P572RRONBVCLVIAR7YFWYEKOAOQMNSO735JAETWY1F2FNCXW3QWTCW28CZRQRPHJJINZRGHAENWTYHYLC06FR249",
+      "known_quadgrams": 227,
+      "ciphertext": "DFFFDGFXVAFXAXVXDDDAFVXVFGFXFAFDGFVAFVXFXFAAVVVXDDFGFXFFAVVAFXGFAVAADXXADXAADFAXDFDFVXADFDFFGFAXXFADAXVVFAFAAAXFVVFXXGDFVXGDDVAGVFVFXAVVXAVXAVAGVXXDDFVAVAVFXAVFGXADXXAAFGAADXAAFGVAGVVAGDXVVAFXVAAXGFXFGAVFGVAAXFFAAAVDFAVFFDXAAXGFXAXAVAFAAFDXDVXADAFGXFFFXXVVXFGDGGDXXGFFFFAVFAVDG?DAVVFDFVFVVXDFFGADFGFFADAVDFDFVGDDVFXFFFAFAVVFXGFVFGAXDVFAAVDVDGFVAFFFGFAAAVFGAXAFAVGDDFAFVAVFFFGVAXDDGDFGVAVAXXDVGAVAXFAFVXFGVAXAAAVXVVFVVAXXFVFGDDXFDAVXFFGFFFFFADDAFGAVGXGADVGVGXGDFVDFVVAD",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p217_ocr_block3+p217_ocr_block4+p217_ocr_block5",
+      "key": "Nov22-24",
+      "score": -9.329023849673387,
+      "plaintext": "HPLFIO7Y8ERLYERTVOV4TK0GLIPTOHK2R4W1RNRO2ENRKTTS4VCPL7Z7VYH2?YPNFSEDWTK?P90ECVYIP6PRERQQQEZKAAAYLZEHSBNR3IKYH6BJJZRV4FBRZEHORK30H2UWBYCLOD??0FD9ZMWPCTQ2YOVVYBM0STTY6X1RVH5IVIQZPZ8Z5E6R3204DZRKIFESFM4E?K92NSKBGLS70SVHBUYTIXA4FA2SFG6KQMCLEH2CMOFMTHC3EX4?LHYKRPGESMMS26L2AB",
+      "known_quadgrams": 246,
+      "ciphertext": "DVXADAFGXFFFXXVVXFGDGGDXXGFFFFAVFAVDG?DAVVFDFVFVVXDFFGADFGFFADAVDFDFVGDDVFXFFFAFAVVFXGFVFGAXDVFAAVDVDGFVAFFFGFAAAVFGAXAFAVGDDFAFVAVFFFGVAXDDGDFGVAVAXXDVGAVAXFAFVXFGVAXAAAVXVVFVVAXXFVFGDDXFDAVXFFGFFFFFADDAFGAVGXGADVGVGXGDFVDFV??VADVDGFGDVVVVAVDXGGFDFDVVXFAAFGVFVAFFDDDVFAFAGDXGVVAFGVGDVXVDDAVXFFVFVVAXXGFFFGVDAVVFFDFDAADGFGXVFVDAFDXDVFFXA?AXVVFGVDVDDVXVAFFXFVAFDXDAFAFVAXFGVVVGFFDDVFAVXAGFDAAVFGGDXVADGFAAGVGVDVDAXGFFDAFFVFAFDVXDFFAXGVFFXGDFFFVFVAAAGFAAVFVGFFAAGFFGV?VAXXXDFXFXDDDFVDDGGAVAVFFVAVFVVVDVAXFF?ADVFVAGAVXAAVAXDAXVFGXFFAAFGFDGAADXA",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 46,
+          "ocr_group": "VAD",
+          "layout_hypothesis": "??VAD",
+          "method": "left"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p217_ocr_block6+p217_ocr_block7+p217_ocr_block8",
+      "key": "Nov22-24",
+      "score": -9.313915423190956,
+      "plaintext": "WSQ36?X5KJS?WEER7Q3ASE703CKD0Y8CRFSMBYQHHASTFPSRLZRREMJO596?PY992BF1Y2?2XR7SPNGTI?K?QVL0FFGM?QGLFEJ8MKQ?MWDLQAROMT?LCXCLC3NLGRQ?ES?6F1NUEHSMYURYXVYQU4S4DDC0MASYQ?ZW5O8WE?1?QHV?WWPL?GJH8DYB0V6??HXKIK6LQS?TK3OQM?C9L??OMV?SRZOK?OZNWACIN45?OXF93FNQP7?OW?3R3X4LV?FXXEJH2FSY?QZ",
+      "known_quadgrams": 165,
+      "ciphertext": "GFFFG??????FFAD??????????XAGFFAX?XXF?ADA?XFXFFXXXFFXXXFGAVGGDDFDAVXFXVVGFFAVFDXGVGXAFVFGD?AXAAFFDFXAFAAVAAVAA?GGXVGVA?ADFXVGAGGXGAGXFFGFDXVFG?FDAAAAXGAVDXXFAFDXXGGXGAFFDADFFAGAAXAFAVGAVVFXG?V?XXXGADFFVDFXDDXDGFGXVFFVDDGFV?GGAFVVXAAAAFGAXXFDVFFFFAFFDFFGADVAVGVFXFGGDGFXAVFX?GFFFFDFGFDFAFFXGVVFVDXVXFFVFGFAGGAFVD?AVAFVAG?AAFFVDGFVGFVGAVVVXVAGXDXGDVFXAAVAVVFFFVAAAFVGAFVXXGDVDDXXXGGVXAXADXVDGDAAADGXAGAVDGVFAFAADFFGXFVXDDVDVFGFVVVAADXGAAVAVAAXDGVADDDDVADGFAGVVGVVGDAVXFFDAADVFFAXGVDVDDAGDVFXAAVAADDAFFDFAAGXVAAGAFXDADFFXAVDAADADXXAADVAXVVADFDVAA",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "B) UKS v ZON (07.15 p.n., Novenber 24tz)",
+        "(uissed beginning) 2 TLE",
+        "C) LP v NKS (01.27 a.u., November 27th)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p220_ocr_block5+p220_ocr_block6+p220_ocr_block7",
+      "key": "Nov22-24",
+      "score": -9.447760018749513,
+      "plaintext": "EKG5P385OWKK6YCJHSJNYCQAG2FC3AAFATE13FT0K3JMROO4P5L4WO394V1ZGBYC598O1SGJNHCFFD4SOF3466N?O3KOEJ84WBOBFYOW5QOORCYJJFYKYJBYI0TGZRLJY5FHF1MVKR39FR57SSB15ZORKG8SZNER2UGQPJHER53FG5NSNAXBRJQYFTZ1TO77RXFI8SUK1NLK3KZVEBNBYLNZXOOJ01K4IAONJCO3EALBLCBRGJJF193SPTWNPOI8GZWZRFOWWA4FA31EXE69NEDMBRIDXSUOG7OENBL5EPS4LF7SDW33QODW1FL1L3AFFP9UHLVUW1IACR41ZK5M74ME4ERXMZLB",
+      "known_quadgrams": 345,
+      "ciphertext": "XDGGXAGGFVFFFXFXFAGGDFFAXVXGXVDFGADGAGDDGAAXDFVFAXDFFFVFXFDAAAFXXAXFVDDGVXFXGFGXGDAXDFVGAGGVGVXAXFAADDFFFFVFDXVAFAVXFXVXVAVDAXGGXAFXFDFDGFAFFXADDGVFFXDFVXDDDXAAFFAVFGXGXFFDGAXDAXVFDFDXVGVXAGDDVXVAVFDFDDFXDXAAFADXDXVFVADFAFFAAFVDVXGDFDXFGFXFFDFFAXGDVFFFAGVXFFDXVFGG?XDDVXGXDADFDXDXVGDFFXXAFDFFDDXXDXDXAFDFDXFXDAAAXDGVGFFXFXDAFDXDXXXGAVFAFFAAFDGGGGGAGVGFDVXADFDGGFGAGFGGXDXGGGDXFXDGVAFVDXDXFDFVGDXDFGXVGFGFAAFVFFDFGXVFVGFGXXVXDFFDGVDAFAXXFFXXXDFGDGXDFVXFFVFXFVXAFXXVDFGAAVGDFAAFFXGDVFGXFXDXDFGDVXDDVXVFAXFGDXAXDXGXVFDADXFFVXFGDFFXDFVFFXFXFXGAXAGDFDFVDDXAFFFFFVGDFGGDADADXFGGAXDFDVFGDXXGAFFFGFFAAVXVXDGAXFAXFFVVGXDFDGFADXAFDFAAGAAFAXDXAXFADGGAADXAXDAFVDFXADFGXAFXXDGDFVVGGXVXAXAXXFVXAXAXXAAFVXFXGXAXGDVXDGVFV",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 53,
+          "ocr_group": "VFGG",
+          "layout_hypothesis": "VFGG?",
+          "method": "right"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p221_ocr_block4+p221_ocr_block5+p221_ocr_block6",
+      "key": "Nov22-24",
+      "score": -9.42113418770688,
+      "plaintext": "CS0TKKERUHQCFR0KIEAI511Y0KK9FL614ZB1HJ9RGC0D57ZOCKRNESK95YMEY69UJR5IMJXY9FX9CK93GKR4FNREAZZ140F3OCRH4BFJ24T6OZE?QSZROKCWKJ49K3BLQPEEA1Y989R1WOXS53CLEUT0EYA3JHZGKJKRUW46NGCS0Y9LOYJ4511R0KCYRLRXQG0IC?ODTFQ8882KRA3E4YTHE1X5COJ451KJS1Q4TL13NZHCZ1D1BAED1KNONNF9NLRBIR90F1DI9B1OZYI1I18KUDRG0OGRNCZGOK1PAFBXOZYG0KYG753GEZHR33A3ULI1F9FK?RZKOR70ZHZD5RYD7FHZ3FFWHZ?1650KTANRERBFCLK?SHMZFF?R9F1?AG3RHDXSIGHQ4K3BVBJNB8QO4WSRFCGMQQ4GQAEPZ0GERKSWRBXJQTCAVZ2STFNXJERZ354ZRCLCCBQBFY3ZLGE9WZ4CZFO",
+      "known_quadgrams": 448,
+      "ciphertext": "FFFDDFAFDDAFXGAGXAAFXFFGGFAAFXAGGG?GVFFFVAFGVVFFFVDDFDFAFGXAXXGFXFXGXGFXFDFFGADAXFFXDFAVDGDFVAAXGDXVDFFDDAXDDAFAGXFFFAGVAXGFVGVDDFAXDGXFFVFFXVXAGAF?FDAXDGVFAXAFDXDFAAAAFAFGXFDXGAXDFFFXVFVFDXFXXXFFDAGVADAGFAA?FGAVFVFDDDXAXGXFXVFDXDXVXFXXDDGAGXGGAFAFVFVGDXDFVAAAAFAGGDVDFDVDXDDDAFGDFDXFXVFGDGXAFVFDXDXAFDGDFDGGFFFFDAFFGFGDXAXVXAGFFVGFAGDVXDFAFGXAGFAXAXDGFFDFFAFFAFVGDFFXAXADDXXGXFXVAVXAAAFXFFVXVDDXAAFGVFGDVXFXAGDXDGFGGXAFFGFDFFXGFVXFFFFVDFVXVDGXGDFGDVADFGDDXXADXDXGDFAXFGVFDXFDDFAFFXFDDDXAFVXAAAXFAFAFDGDFXXFGDFFFFAXDFDXVFAFFXGGAGGGFVFAXVDDFDXFDVFDXFFDFGVFFFGDAGDAAGGDFDXAFVFAFAGFFDGDGVFDGFGGXAAFGXG?FGFFVAVAXGDXXXXFVXXDXFDGAFXDXAADDVADXFFVXGFVFAGVFVGDFDFDGFFAXDGAD?DXXFDFFGFXVXGXDFFXVFFAFAFFDGDAFFDGVVFVGXDFVFVXGXAGVVXAFDFFXXXDXFFD?XXGAXDXFVDGXFFAXXXFAXDFFDDFFDDXADVGFFXVFGXGFFGAAFADAFVXXDDDGFDXVFXFFGFDFAXAXGFDXFF?GGXDFVXAFDFDGFFGFFGGDGDXGFVFDXGXVFAXFXGXGVGAADGGDDDADADGFAAXDDFFDDXAXDXGFGGVXFXVFFXGFFFDXXFVDXGAXAXGFGXFAADFGADADXVXADVXAGDGXDXDAFGDFFFDXAXVDFF",
+      "orphan": 0,
+      "edits": [],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p226_ocr_block1+p226_ocr_block2",
+      "key": "Nov22-24",
+      "score": -9.361356012569452,
+      "plaintext": "6LAAPOPKYQ?MA2VRVOLFF39AHYVPDAGPOEGCGGC?ZIDI124XJHC5CFTQTED5J?MR9H140QT3I08RCD5WWHEJDCBKR6U??MAR0FPS7HUZ5PDVQXKF2VE?ND8UTEGNOMJUFWH?PV2LML9JHFHU5A2YYU2AOOW5OXHR?41CIKAJBH2HWCQ?P8CHMOSA5WB5861VEW8DZ",
+      "known_quadgrams": 161,
+      "ciphertext": "XFVGDXVVVAFVVFVVVVVFG?F?VXAVDGDG?FAXFGGDDFXDDVXVVXXDXGVDFVDFFXVXDGFFV?GAFVGFDFGFAGFFFFAXFGVGFXAXGFDFFXVVFXXAAAXVDDDVGFXVDDAGGXVXDVDFFVXFDGFFAXF?FXDVVDFXAV?VXDVFDFVVFFXDVAD?XAAFVFVXVFGAGAV?VVXGAAFVXVADVXAXGFAXVVGXXVDFGXAXVDGFGGGDADVXXXAVDDFDVVVAAAXXDDGVFVXXDDF?FVAAAFFAVGXXGAVDXGAGGVXXXXXAFXVFFGFGVGXFAXFDGAVAXXGAXFGVFAVXGFXAGXGGGFFGAVVGXDAVAXXGDDADDXXAVGVFVDVXAAFDAGGFGGFXVDXAGAVFFDVGXGFVDVAFXFV",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "29th NOVEMBER, 1918.",
+        "A) BSL v UKS (10.27 p.m., Noveuber 30th)",
+        "1700 (11/29)",
+        "«rt (1st Tl missing)",
+        "B) --- v Z0N (10.53 pins, November 29th)",
+        "(1st TL Missing)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p226_ocr_block2+p226_ocr_block3+p226_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.403317761238274,
+      "plaintext": "6QHRH9BBEAVBWHH?S342TMTKVUTBLMMT1SRCBH7NU6K1TV1BPZVLPKB7FRTFQKL8SGE2OZXSGDFI?8FFC7HK920UBVUIE9MQVVVMGF7VM6HCOH?TKM1?405P??BDQHQ33936YYWEN3HS7P1TEEB40NV6G7URKDHY6U6YFU2ZDPNVAHMKQFTRXSVH5FMLZ?NPIQHPTU47HF6QYMOYGMZXCEFYEPUDOCKLZUG3OUBRLW3POGG2HDBNOEV29VRBRUEKZUW4R1BZCB3L6U0BVZ0VF4F8KE2EXAM38YPECEY26C2R7WW6G636HZEN0OJV3JBFURSRKXPFMGV0T76892HD9HHCI8E3KFSMRL?5QRF1P22DE4B?R?TRZLGUEPH3REXHXMNK30Z6KONXTU5D6TSOBEDTH?RK1MECD3CFVY68MH6J3OC?EFHFL",
+      "known_quadgrams": 391,
+      "ciphertext": "V?VVXGAAFVXVADVXAXGFAXVVGXXVDFGXAXVDGFGGGDADVXXXAVDDFDVVVAAAXXDDGVFVXXDDF?FVAAAFFAVGXXGAVDXGAGGVXXXXXAFXVFFGFGVGXFAXFDGAVAXXGXFGVFAVXGFXAGXGGGFFGAVVGXDAVAXXGDDADDXXAVGVFVDVXAAFDAGGFGGFXVDXAGAVFFDVGXGFVDVAFXFV??FVVVAGDVXFFVDVVDVGVVFGGVVVDXAXXFVFVFVXDGAVFVFFGFFADVGFDVFGGFAVGDGFFFGDFAAADVGV?AFDFADDAGVXAVVFFVXFXFFFFAVXXVVVXXFG?VVV?GXAGFVVGGFGFADXGGFGGVAGAAGFFDAGGFAAFDAGADGADAVAFGFVXGXVXFXGVFFDFDXGFFVVFFVADDAVAFFGGFAGDGFFAGGFAADADXFXFGFFFVGDADGVGGAADADGGAADAFFGGFVAFFFVFFGXADDFFFDVVGGGGAVDFDVVXVVVFFGVFFAFGVXAFXVFFXFVGVVVDXFXGVGFGVFFAV?VAFVXFFDXFFFVDFDFFX?V?FFDFVFXGVVXFDDFVXVVVFVVGVGVXGFVGA?FGVXVFAVFFVGAGVGVFFFFAGAAADGAFFGFAAVDVGFVAVVGDVVAVVGFVVFDDGVVFDVFVFVFXVVAVDFFFVFXFGFVFFGGGDFFVGAAVGGGFDFFADVFAFAGDAGVDGVDGFAVXVVFFDDDVXXFXGFVGVFVVVFFAAAFDVGDAAVAFGDFFGAVFGFVGDFVAGVVAFFGGGDDFDGDAGFGGFGDVVGGDAGAAGDAFGDAVGAFFAVDXVFGVVXVVVXXDVXFVFAFFVFXFFFGFXGXVXFDGFXXXFXDDGFVFDF?DVXDXVV",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 25,
+          "ocr_group": "VAXXGA",
+          "layout_hypothesis": "VAXXG",
+          "method": "right"
+        },
+        {
+          "group": 42,
+          "ocr_group": "XFV",
+          "layout_hypothesis": "XFV??",
+          "method": "right"
+        },
+        {
+          "group": 47,
+          "ocr_group": "FGGVV?",
+          "layout_hypothesis": "FGGVV",
+          "method": "right"
+        },
+        {
+          "group": 111,
+          "ocr_group": "DFFX",
+          "layout_hypothesis": "DFFX?",
+          "method": "right"
+        },
+        {
+          "group": 159,
+          "ocr_group": "GDVVGG",
+          "layout_hypothesis": "GDVVG",
+          "method": "right"
+        },
+        {
+          "group": 166,
+          "ocr_group": "VXXDVX",
+          "layout_hypothesis": "VXXDV",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "B) --- v Z0N (10.53 pins, November 29th)",
+        "(1st TL Missing)",
+        "¢) 20N v BSL (04,20,a.u., Decenber 2nd) |",
+        "NR 132 2200 (11/29) 4 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p226_ocr_block3+p226_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.311460593541463,
+      "plaintext": "9TXKEDG5ZKLKCD1UBRWMY2Z3WRT76V9D2ZK6WVQFHIZCRBWD2IEBFVZIHRHLNFVYEENR3VICIVRDKFPBUV5WGYBFNERI8ETVDHGCFXORPD64DRFRGEEKLVYCHXVXPV6I17YZ?YZ6CEZG2TR23XHTE63NXY?94FTRZV0DEZL9Y0HZGVUWR67LVDDZ9HK9SRM6IC?U7ERRERHZZR?B6VRF3TCYLQEPOU32EL9HELXGDZUFHIOJDJ8Z??6D7VELCVQTMH6HR2SBPUIQVX9XC0?K9WEHQ2HCREOD9MJCRRNCI9FKOPXBR99VTRVB2I7UTS?RS23AFHFP7DEB",
+      "known_quadgrams": 300,
+      "ciphertext": "FVVVAGDVXFFVDVVDVGVVFGGVVVDXAXXFVFVFVXDGAVFVFFGFFADVGFDVFGGFAVGDGFFFGDFAAADVGV?AFDFADDAGVXAVVFFVXFXFFFFAVXXVVVXXFG?VVV?GXAGFVVGGFGFADXGGFGGVAGAAGFFDAGGFAAFDAGADGADAVAFGFVXGXVXFXGVFFDFDXGFFVVFFVADDAVAFFGGFAGDGFFAGGFAADADXFXFGFFFVGDADGVGGAADADGGAADAFFGGFVAFFFVFFGXADDFFFDVVGGGGAVDFDVVXVVVFFGVFFAFGVXAFXVFFXFVGVVVDXFXGVGFGVFFAV?VAFVXFFDXFFFVDFDFFX?V?FFDFVFXGVVXFDDFVXVVVFVVGVGVXGFVGA?FGVXVFAVFFVGAGVGVFFFFAGAAADGAFFGFAAVDVGFVAVVGDVVAVVGFVVFDDGVVFDVFVFVFXVVAVDFFFVFXFGFVFFGGGDFFVGAAVGGGFDFFADVFAFAGDAGVDGVDGFAVXVVFFDDDVXXFXGFVGVFVVVFFAAAFDVGDAAVAFGDFFGAVFGFVGDFVAGVVAFFGGGDDFDGDAGFGGFGDVVGGDAGAAGDAFGDAVGAFFAVDXVFGVVXVVVXXDVXFVFAFFVFXFFFGFXGXVXFDGFXXXFXDDGFVFDF?DVXDXVV",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 5,
+          "ocr_group": "FGGVV?",
+          "layout_hypothesis": "FGGVV",
+          "method": "right"
+        },
+        {
+          "group": 69,
+          "ocr_group": "DFFX",
+          "layout_hypothesis": "DFFX?",
+          "method": "right"
+        },
+        {
+          "group": 117,
+          "ocr_group": "GDVVGG",
+          "layout_hypothesis": "GDVVG",
+          "method": "right"
+        },
+        {
+          "group": 124,
+          "ocr_group": "VXXDVX",
+          "layout_hypothesis": "VXXDV",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "¢) 20N v BSL (04,20,a.u., Decenber 2nd) |",
+        "NR 132 2200 (11/29) 4 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p228_ocr_block3+p228_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.40954300908759,
+      "plaintext": "05G?1GR?BDXH3P?KUU?2LIFBV?ABG?FIA4IV?C66?2G3CDD?JCE?TDT?E??VV6?P2CF7B?QO0?8J0F7R?U2Z?2NHVY6?8DV?DTBKR1JVP844XVQREEQ3PRIJF242LA?9K?C?QD2ESDVRFYIAYEYH9353S2R?ZMAGLVZWBIMRQKBB4ZRDN26Q1?6EDU8GESHU?FN7?R?D08W?3HO15?FLO2",
+      "known_quadgrams": 101,
+      "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFG?XDVGDDAGGVFAAAXFDAG?VDDGVGVGGAFFDGA?AVVGFGVFGDVXAGXFXGGGFGFGADXFVDDVFVG?DAFGXFXXGGVFVFVGVD?GDXG????????????DFGFFVAAVXXGFFDF?FFVXAVAAFVDXX??????????DFFFXVDFAVGXVVG?FFGXFAAFAFGDDGXXAFXVAGGVAAAFAXXGXVXFFDGFAAFFFDGFDVAFGGGVFVDVGVGDV?FDFFGGFFXXFVFXVDXVAVAAAAFGFGGDGGADAVADDFDVFVXXFVGGFGDAVXXGVFGFGGFDXXVVFDVFDFXFDVDVDFXVVVGVGFVXVVVVFFVAGA",
+      "orphan": 0,
+      "edits": [
+        {
+          "group": 40,
+          "ocr_group": "???",
+          "layout_hypothesis": "?????",
+          "method": "right"
+        },
+        {
+          "group": 49,
+          "ocr_group": "????",
+          "layout_hypothesis": "?????",
+          "method": "right"
+        },
+        {
+          "group": 66,
+          "ocr_group": "V?FDFF",
+          "layout_hypothesis": "V?FDF",
+          "method": "right"
+        }
+      ],
+      "header": []
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p228_ocr_block5+p228_ocr_block6",
+      "key": "Nov22-24",
+      "score": -9.425744267070995,
+      "plaintext": "293F2EGVDP8LTVETKUSSKXAWXOBTQKPEO6BHVM7RLFY9L2H919OA1GXOAHU5ZNF2UHRVER?96UA22EKBG7MCE5WZ2XXGK6PMDQX7T6ZAIO75JNFRWWQTGDO9PGL6XFAHP1BH19WVW76KAQG66H0HFV13IXYLZAWV",
+      "known_quadgrams": 153,
+      "ciphertext": "AVFVXXXAFXAGVVVXGAFFDVFVFXFVVGDXGXAXXGXXXXFGXFDXFVFXDVFXXVXVAXGVXAXDGAVAGXGGXFFAAGGXGFDDXGVAVXXDFADVAFFVAGAGVGDVXAGVXAXGAVAAAAXVGAVXDGDFDAVVDAGFVGFXVGVFGGAVAVDXVAAVAFFVVGFXXVAVDFGXGVFVAGXFXFVAVVVFFAGVGVVAVDGAXD?GXAAFXFXGVVFAXVFAVFGGGGGAVFXVADGDFXADFVFVDGFXXFXXVGAXFFFGVAVADGFADGVAFXAGDXXGVGVVAXAAFGVAGGVXXDVXFFFVGXVXVXFF",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "¢) BSL v zby (04.47 a.ti., Deceuber 1st)",
+        "0420 (11/30) 2 TLE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p229_ocr_block1+p229_ocr_block2+p229_ocr_block3",
+      "key": "Nov22-24",
+      "score": -9.363532735910981,
+      "plaintext": "6VWD6EE9B3Q630N76T8SB6AU9KXGZ9RNBWHVPFNG9NXHIUSIBXHH1GVQO9RIE4PZ9BHJ60YUVRQPGRUN3O?L78OKOYP6PE6WZ8R3REZPVFXMZ28R68WXHAVENJGIVWERQMG3BFBJ9FWPTV9DUCAHZJUY9A144EMAABVBVIOS22VCQU6V4LFLN57DYVUBYJEBDEOK0E4872JWKVWAH3APERB636PY5PZFRX91MBX5N90HOEZBMKGZ6FEYICA8EQGVMBRRHSW2ZQHAEU8ZTKEBUYB23?CAUHOLIQQQBHHRYX",
+      "known_quadgrams": 287,
+      "ciphertext": "GAAGFDFXXXVVGVVAAFDFFVFFFAAVDFXFDVAVFFFXXAFGVXVDVVFG?GFDFAXAAXAVVVVFVVFFVGVFXDVXVAVGFVGXXFVDDDAVVGVFAXXVVVFADGDXXDVFGFVXVDGVVGAVGAGXXGFGGXVDAVFXFXDFGXDDFDFXXGAAFXAVDGFGFXGAFFXFGDFAAGAVDFXAGAFGGAAFVDFVAFGAXVXGVFAXFFVFAAGFVVFGFFAAFGXVVVFVFAFFAFVFVVXDXVG?VVXVFFAVDGXGXFAFGDAGAFXDFDFGAXVDXFAGFAFGDGVXFAVVAXVAFFFDGXGGXVDGDDDDXAFGFXGXGGVXFAVAXAXVFAGXVFXADVADVVDGVDGGAXFGDFDDDGDAXAGGVVFDVGXFGVAFVVXXDFAVDGXFFFVGVVAVFVVVXDVFFFGGVDXGFXXXAAGAVGXGAFDXFAGFAVADAVGAXXVAGAADAFGDXVVFGDVFGVXAVVAVVVFGFAAGAFFAAGGXXXAFGVGFGVDXXFVXVFVFFVAGVDVGGGVFVDXDAFFGGFDFXDFDGDDFVFGXXAAVGGAGFVDXFFFFFFXGDVADVDVVVVGFDAFXGVFDVVFAV",
+      "orphan": 1,
+      "edits": [],
+      "header": [
+        "(Ewployed between Berlin and Black Sea Area)",
+        "30th NOVEMBER, 1918.",
+        "A) HP v ZON (9-58 p.t., December lat)",
+        "1930 (30/11) FUR OKM 3 TEILE"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p229_ocr_block5+p229_ocr_block6",
+      "key": "Nov22-24",
+      "score": -9.41542775389077,
+      "plaintext": "F5EWD6A?B?RFMT0VPV?T3W1QAVROZFVU6LUGPIX?KY01T?AYVC?K188WTDP47?G?AWEUV6RL?I2A1?0Y9XO?2EZF?VALHH?VDBJ?B34?Y?9E5U9BK5?C?BPVHRZIKM2?DMLK??2LP7?21HH7X28S??M87AF28OH??XK3?3IUUPQ?U7U?CYXBHD?O5Q3B9ETU6?S5U8HCVLMJ?1BZ?QDRAEV?6HUMDFWCMZ?RHZU2UWHAE?TEIE8A3TUE?DVX8ZPWWVH?MM?Q3SLLBE?V3VP0AM78F?F8888",
+      "known_quadgrams": 138,
+      "ciphertext": "GVFDVDFAVFFVXDVXVVVFVXVVFXAVFVVGAAXAGGFXFADGDDXGDGFAFVVFXDAFGFXVXXFAXXFVVFVVFXFXVXGXXFXGFXFAGFDGGAGVGAVG?DGGGAAFGDVAFGDGAGFGFVXXVGGGXGVVFD??GFGAGFDFVAGAXAFDXDAAG?DGGVGGFAXVVADFGFGAVAAGXXADAGXVFDAAGAAGGDVAFFVFGFVGXXVXGDVVFVX??FX?VVFXAXXVVFXFGAFFAFVG??AGVXVFVVFVFVDVXFXGGGDXFGXXVFVGXDVVVGAFFXADXV?DGDF?GFDFGFAGVGFDGGAXGFFGDAVGFGAVAVXDXGFVGVVGFVXGXGVFXFFDAAXVAFVFVVFVGVGVFVVDFXF??AVAFVFGAVAAGVGGXVAVGVVDVFFA?AADFGDGGVXXDXVGDVAX?VVGVVAXGXGDDGFFVVADGXGVVAVVDADDXAGFGGDAAFFDXAGFFVDXXXAFXVGVAFVAVAVADA?VXXVA?????????????????????????FXXXVVVDGGVAXGFAXVFDGAVFVDAXAGVAADXVVVGGXVVFXXDXAA",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 50,
+          "ocr_group": "FVG",
+          "layout_hypothesis": "FVG??",
+          "method": "right"
+        },
+        {
+          "group": 81,
+          "ocr_group": "VFFA",
+          "layout_hypothesis": "VFFA?",
+          "method": "right"
+        },
+        {
+          "group": 99,
+          "ocr_group": "VADA",
+          "layout_hypothesis": "VADA?",
+          "method": "right"
+        }
+      ],
+      "header": [
+        "c) 20N v BSL (01.15 a.m., Deceniber let)",
+        "NO 151 2100 (11/30)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p230_ocr_block2+p230_ocr_block3+p230_ocr_block4",
+      "key": "Nov22-24",
+      "score": -9.26661194205284,
+      "plaintext": "8EWE66G9687EXA31D2?67ECG1ER0QNCEGLL?QW93WZKT4F1FEWI?0WP4NK1TTFNVOLUWKFVQS39UEZEW6CP2E5RSOBBLHMQFURZGSFWJX34RHBEJV9OYHFU6JCZEMU2NHD3B1KG26JO9MTABTBHZ1XENTRMJ6RND7WRMIGNIFEIO?ZCQZC1P01CJAUI1RV?V34OP9Y6CH7MC0UKK173VI34367RYQRZ",
+      "known_quadgrams": 200,
+      "ciphertext": "GXFVFVVDVDXVGAAFDVVFXVADVFAVADFDFXGFFDGDGGDADVGXVFVGVAFAXXFAGVXDVAVAFGXGAFVAVAXAGGVXXFGFFFVDDDAFGDXFXFDGDDVAXGFDXFVGAXGAAVXXAFDXVGAXFXDXDFFFDFGGDGVVAXVAFADXGDXFDDAFGVXGFDAFDFXFDADFXFVGGDXDAVAXAVXXGVXDFDFFFAGXGGGVGVAVFGXXADVGVFADDGFFXVFXGAXFXVGAGXAVDAFFGDGVGFV?DXVGVXX?XFFVFGVFGFGDXVVVAVXFXVDVFFXFGVFDVGVADFAGGGAVFFDDAFVDADFDFFVVFFGVDDGFGGADFFAVXGVDVAFXFVAXDAVFFFV?GVXAFFVXVFFVGFVVVDVGFFGAAFDGDAAFVAXAAXDDDFD?DX?DDVFDFFDVXGXFGVXAXDXXXXGFVVXGVVXVFVF",
+      "orphan": 1,
+      "edits": [
+        {
+          "group": 52,
+          "ocr_group": "VVGFV?",
+          "layout_hypothesis": "VGFV?",
+          "method": "left"
+        },
+        {
+          "group": 75,
+          "ocr_group": "?XAFFV",
+          "layout_hypothesis": "XAFFV",
+          "method": "left"
+        }
+      ],
+      "header": [
+        "B) ZON v CV (06.33 p.m., December 3d)",
+        "2130 (30/11)",
+        "c) cv v ZN, (11.15 p.m., December 6th)",
+        "2900 (30/12)"
+      ]
+    },
+    {
+      "source_cache": "cross_key_merged_plaintexts.json",
+      "source_cache_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "block": "p230_ocr_block5+p230_ocr_block6",
+      "key": "Nov22-24",
+      "score": -9.346851000710139,
+      "plaintext": "HS0EINJ72DVP46E2U1HFZU9Y6HBY2BEEAI7YGIDBUYXSRDCLVYIMDHZI??KRCYEIKQRVHZOMRO0TLLUMLERRAI6EB?VUEH7RIBIVQVUBYDFO9J6U8E56WVE729YEJET9EFDCDBDCPR",
+      "known_quadgrams": 126,
+      "ciphertext": "DAFDVFXFFFXFXXXVGVAFFGGXDAGFFGDDDDXFGVGAAFAAVVXVFGFVXFXDVGDGGVXGDFDFGFVGGGADAGG?VG?AGAGAVFGFDVFVFGVFVVXDAAGFDDADDGAGAFAFFAVDFFFVGGFAGVVFDDFVDVFVFAGVVDGAVFVVFXXFGVFDGGFDXVVVVXFGVVGVVFFVVGDVVDDFAGFVVVAVFFVFVAGVGVVFVFVVFXAXFAGGVXFGAFAVFVGFGAGDXAFDFFFAGVGGFGGAVFAFFVVGVVAF?FAVVGVG",
+      "orphan": 0,
+      "edits": [],
+      "header": [
+        "RIZI~78 -XAFFV(or XVFFV) GFVVV DVGFF GAAFD GDAAF VAXAA XDDDF",
+        "D) WKJ v LP (05.47 p.m, December 4th)",
+        "Tuer COS 1225 (30/11)",
+        "=) 20N y ov (04.43 p.m, December 6th)",
+        "0830 (30/11) y"
+      ]
+    }
+  ],
+  "adverse_name_occurrence": {
+    "record": "p216_A2",
+    "raw_field": "NIKOLA3EW",
+    "pair": "FD",
+    "source_indices": [
+      26,
+      180
+    ],
+    "qualification": "This new source observation is not GD. With GD=J, injectivity excludes J at FD, so an all-occurrences-correctly-copied NIKOLAJEW assertion is incompatible with the unchanged source. No repair is applied."
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "schema": "adfgvx-retrieved-copy-source-input-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "author": "J. Rives Childs",
+    "title": "General Solution of the ADFGVX Cipher System",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p137.png",
+      "printed_page": 137,
+      "pdf_page_1based": 140,
+      "crop_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "render_scale": 2.6,
+      "fresh_render_cache": true,
+      "sha256": "8a5a7c7f8f9ac97fb0db83afa024f806ef97a157a16f520ac7b27fe234f160a8"
+    },
+    {
+      "path": "sources/p195.png",
+      "printed_page": 195,
+      "pdf_page_1based": 198,
+      "crop_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        753.533935546875
+      ],
+      "render_scale": 2.6,
+      "fresh_render_cache": true,
+      "sha256": "9694dbdd3e9ddbd690948f48f45d2abd454f3789c40c5d111f850e54a1650d92"
+    }
+  ],
+  "keys": {
+    "Nov4-6": {
+      "id": "Nov4-6",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ],
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N"
+    },
+    "Nov10-12": {
+      "id": "Nov10-12",
+      "column_rank_order": [
+        9,
+        12,
+        7,
+        11,
+        3,
+        8,
+        16,
+        6,
+        14,
+        2,
+        10,
+        15,
+        5,
+        13,
+        1,
+        4
+      ],
+      "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?"
+    }
+  },
+  "records": [
+    {
+      "id": "p137_B4",
+      "printed_page": 137,
+      "source_rows": [
+        "AXXAA VXXXX AFAVF FAVAX GVAFF VFFAA XDAFX",
+        "AAFFV FAVGF XFVFV GDXDF FXXXD AVVXX GFXDA",
+        "XXDVF XXAVA XGFFF AADFX AFVVF XGXGA AFAFA",
+        "VAVAX AXDXG VGDAV AAAXX XDAXV VVXAF GXAXF",
+        "XVFAV DVFVV GVAXA AXAGD FDFXG FAXAF XXDFX",
+        "XDXVD AXXXX VXFVX DGVDF VAXAV AVAVA VFAGV",
+        "GV"
+      ],
+      "key_id": "Nov4-6",
+      "advertised_length": 212,
+      "literal_header": "4 TL RICHI-212; LP v NKJ follows the cipher; under B, CONTINUED HIER SS NR10-11.00",
+      "page_heading": "6th NOVEMBER, 1918.",
+      "expected_raw": "XDIEBESTIMMUNGXDASSENTENTERECHTZURBEFOERDERUNGIHRERTRUPPENASAEMTLICHENEISENBAHNENUNDRECHTDERBESETZUNGALLER",
+      "editorial_plaintext": "XDIEBESTIMMUNGXDASSENTENTERECHTZURBEFOERDERUNGIHRERTRUPPENASAEMTLICHENEISENBAHNENUNDRECHTDERBESETZUNGALLER",
+      "related_existing_record": "p125_A4"
+    },
+    {
+      "id": "p137_C",
+      "printed_page": 137,
+      "source_rows": [
+        "DDDVV XADVF VGVFA AGVAX AGGGX AAGDA DDVAG",
+        "AFFDA VAVFX XGGAA DFFGA FGFDV XXADV AAAGA",
+        "GAVAF DADAG XFDXF DGDAA DADGX XXAFD FFFDA",
+        "DGFXF DFVAG VAVAF AFXVA VGFXA DGFD"
+      ],
+      "key_id": "Nov4-6",
+      "advertised_length": 134,
+      "literal_header": "C) LP v NKJ 464 (12.01 November5th); RICHI-134",
+      "page_heading": "6th NOVEMBER, 1918.",
+      "expected_raw": "OXHXL0XDRBHTUNGRM1XAX11118XOPGEH02XANGXORHALTENXOXK0M0RM1A011232XOP",
+      "editorial_plaintext": "OXHXL0XDRAHTUNGRM1XAX11118XOPGEH02XANGXERHALTENXOXK0M0RM1A011232XOP",
+      "related_existing_record": "p126_B"
+    },
+    {
+      "id": "p195_A2",
+      "printed_page": 195,
+      "source_rows": [
+        "DDDVA DXVAX VAGDD DGADD DXDAG VVGAF AVGGA XDVVV",
+        "GAVGX XXXDV DDDAF XGVDG FXFXX XDDAX XXAVA XXDXA",
+        "VDVVD FDAFX VADAD XDA"
+      ],
+      "key_id": "Nov10-12",
+      "advertised_length": 98,
+      "literal_header": "A) LP v NKJ (1.17 a.m., November15th); 1750; 2 TL RICHI-98",
+      "page_heading": "15th NOVEMBER, 1918.",
+      "expected_raw": "INMOEGLICHSTKLEINENSCHEINEN?ENDENXXOKM1A4A11333OP",
+      "editorial_plaintext": "INMOEGLICHSTKLEINENSCHEINENSENDENXXOKM1A4A11333OP",
+      "related_existing_record": "p174_A3"
+    }
+  ],
+  "contextual_existing_records": [
+    {
+      "id": "p125_A4",
+      "package": "armistice_transit_planning",
+      "literal_source": "AXXAAVXXXXAFAVFFAVAXGVAFFVFFAA2DAFXAAFFVFAVGFXFVFVGDXDFFXXXDAVVXXGFXDAXXDVFXXAVAXGFFFAADFXAFVVFXGXGAAFAFAVAVAXAXDXGVGDAVAAAXXXDAXVVVXAFGXAXFXVFAVDVFVVGVAXAAXAGDFDFXGFAXAFXXDFXXDXVDAXXXXVXFVXDGVDFVAXAVAVAVAVFAGVGV",
+      "key_id": "Nov4-6",
+      "advertised_length": 212,
+      "readable_candidate": "XDIEBESTIMMUNGXDASSENTENTERECHTZURBEFOERDERUNGIHRERTRUPPENASAEMTLICHENEISENBAHNENUNDRECHTDERBESETZUNGALLER",
+      "new_catalog_record": false
+    },
+    {
+      "id": "p126_B",
+      "package": "armistice_transit_planning",
+      "literal_source": "DDDVVXADVFVGVFAAGVAXAGGGXAAGDADDVAGAFFDAVAVFXXGGAADFFGAFGFDVXXADVAAAGAGAVAFDADAGXFDXFDGDAADADGXXXAFDFFFDADGFXFDFVAGVAVAFAFXVAVGFXADGFD",
+      "key_id": "Nov4-6",
+      "advertised_length": 134,
+      "readable_candidate": "OXHXL0XDRAHTUNGRM1XAX11118XOPGEH02XANGXERHALTENXOXK0M0RM1A011232XOP",
+      "new_catalog_record": false
+    },
+    {
+      "id": "p174_A3",
+      "package": "crown_airlift",
+      "literal_source": "DDDVADXVAXVAGDDDGADDDXDAGVVGAFAVGGAXDVVVGAVGXXXXDVDDDAFXGVDGFXFXXADDAXXXAVAXXDX",
+      "key_id": "Nov10-12",
+      "advertised_length": 98,
+      "readable_candidate": "INMOEGLICHSTKLEINENSCHEINENSENDENLX???1A4A1????OP",
+      "new_catalog_record": false
+    }
+  ],
+  "dependencies": {
+    "experiments/armistice_transit_planning/inputs.json": "7bd83098cf0ba407e2d0c0e41f8446feb63f6842689828a7d368d2e06016f99c",
+    "experiments/armistice_transit_planning/certificates.json": "eb2d5a9bdd8932ceadeb29eec560254efa6546acf1318c8e83b78c0cee03ee6b",
+    "experiments/crown_airlift/inputs.json": "751ea56e18b55379b06b946a2cd7fb0101ba9087063a1e4440dc84d8c4ca90e0",
+    "experiments/crown_airlift/certificates.json": "1b66ff2808922653c51f8878f32175ec4a529de41ae821fbfc548c79b59917f0"
+  },
+  "retrieval": {
+    "package": "post_push_copy_retrieval",
+    "inputs_sha256": "3c8f76a256dc6d0bb1801eb2ba2cf267b1bd33b314bae4caa0b348c3362ff237",
+    "selection": "Three strong cross-page hits from the frozen113-by788 anchor screen, followed by fresh manual source transcription."
+  },
+  "limits": [
+    "p195 says November15 and part2, whereas p174 says November10 and part3. Their full header/part sequence is not forced into agreement.",
+    "The full p195 witness still has an unknown-square cell at the first letter of SENDEN; the word repair changes one observed coordinate and does not assign that cell S.",
+    "p137 C repeats both earlier corrupt word spellings. An identical copy does not independently validate the two ordinary-word repairs.",
+    "The p137 B RIZI-138 block preceding the4TL is separate contextual traffic; it is not assumed to be part3 of the p125 report."
+  ]
+}

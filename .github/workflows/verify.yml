@@ -99,6 +99,21 @@ jobs:
           python experiments/hermannstadt_cash_transport/verify.py --verify
           python experiments/november_radio_service/geometry_audit.py --verify
           python experiments/nov25_letter_constraint/verify.py --verify
+          python experiments/wallachia_withdrawal_preparations/verify.py --verify
+          python experiments/apparatus_sale_request/verify.py --verify
+          python experiments/radio_contacts_and_keys/verify.py --verify
+          python experiments/hermannstadt_radio_report/verify.py --verify
+          python experiments/military_mission_recalls/verify.py --verify
+          python experiments/constantinople_address_parts/verify.py --verify
+          python experiments/bidirectional_deciphering/verify.py --verify
+          python experiments/retrieved_copy_editions/verify.py --verify
+          python experiments/palestine_medical_dissolution/verify.py --verify
+          python experiments/newspaper_dispatch_witnesses/verify.py --verify
+          python experiments/inventory_and_medical_return/verify.py --verify
+          python experiments/transylvania_situation_report/verify.py --verify
+          python experiments/bidirectional_deciphering/phase_audit.py --verify
+          python experiments/nov22_nikolajew_constraint/verify.py --verify
+          python experiments/post_push_copy_retrieval/retrieve.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |
           python experiments/p198_word_search/verify.py

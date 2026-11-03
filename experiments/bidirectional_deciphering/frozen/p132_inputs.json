@@ -1,0 +1,596 @@
+{
+  "schema": "adfgvx-november-radio-service-input-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "source": {
+    "title": "J. Rives Childs, General Solution of the ADFGVX Cipher System, collected intercepts",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "images": [
+      {
+        "path": "sources/childs_p132_full.png",
+        "printed_page": 132,
+        "pdf_page_1based": 135,
+        "clip_points": [
+          0,
+          0,
+          578.1599731445312,
+          824.4000244140625
+        ],
+        "scale": 1.8,
+        "sha256": "41235d349d32bb4e5788191b91751adc208118016ac5813233d42112cfcc680a",
+        "pixel_sha256": "c8c4afdbff2cf81009a38685e0ec3aeb4649b158b8c15a76a6cb47af1433e173",
+        "width": 1041,
+        "height": 1484
+      },
+      {
+        "path": "sources/childs_p132_A.png",
+        "printed_page": 132,
+        "pdf_page_1based": 135,
+        "clip_points": [
+          60,
+          170,
+          530,
+          390
+        ],
+        "scale": 3.5,
+        "sha256": "6709d188c37d1a1fa40c2335bc9ca69e311a01f731a4f6be5ceea83beead2523",
+        "pixel_sha256": "0c05aa5b73aa606a6a1092324133ee995c08481f2e2eebc1c2d6033c99685d24",
+        "width": 1645,
+        "height": 770
+      },
+      {
+        "path": "sources/childs_p132_B.png",
+        "printed_page": 132,
+        "pdf_page_1based": 135,
+        "clip_points": [
+          65,
+          398,
+          530,
+          550
+        ],
+        "scale": 3.5,
+        "sha256": "92b72cdac842dfd3733c32a48a44814bd072c38853f35f08951b2be9e3bee09f",
+        "pixel_sha256": "e3168a6b6ff366666c79ca47526329be1692aaff8008375377c9432584d2c7f2",
+        "width": 1628,
+        "height": 532
+      },
+      {
+        "path": "sources/childs_p132_C.png",
+        "printed_page": 132,
+        "pdf_page_1based": 135,
+        "clip_points": [
+          65,
+          545,
+          530,
+          704
+        ],
+        "scale": 3.5,
+        "sha256": "2a05f01c9e7b661df34882c833e9ce8069e3a5c7627b2361ffc36dd48bca6640",
+        "pixel_sha256": "b53a1df68d4d47d2f68d4a2742287d9b901dcca84f900a421814b0566a388703",
+        "width": 1628,
+        "height": 557
+      },
+      {
+        "path": "sources/childs_p177_A.png",
+        "printed_page": 177,
+        "pdf_page_1based": 180,
+        "clip_points": [
+          35,
+          160,
+          520,
+          280
+        ],
+        "scale": 3.5,
+        "sha256": "3420d919f78ed5300561f36a5770f94c0956ef9e0b2d7d8718952ddbda533fb1",
+        "pixel_sha256": "e458ef16938e9b9cc3d89c732e23d914a1a616f3d6bb000b92cbdd0808242fba",
+        "width": 1698,
+        "height": 420
+      },
+      {
+        "path": "sources/childs_p177_full.png",
+        "printed_page": 177,
+        "pdf_page_1based": 180,
+        "clip_points": [
+          0,
+          0,
+          578.1599731445312,
+          824.4000244140625
+        ],
+        "scale": 1.8,
+        "sha256": "1d5b7970aa4657737411328078c0bf2f168fec9a30ba36e7858b56ec764bead6",
+        "pixel_sha256": "b792f00e4b0a6dda98ef435dbc386bc57088057f76b7afa3a8d461d9e7351783",
+        "width": 1041,
+        "height": 1357
+      }
+    ]
+  },
+  "keys": [
+    {
+      "id": "Nov4-6",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ],
+      "column_count": 17,
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "square_rows": [
+        "17WHFL",
+        "J5D2UP",
+        "EXKVZ9",
+        "O0Q3Y6",
+        "R8ABGI",
+        "TCMS4N"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 240,
+          "pdf_page_1based": 243,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [
+        "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+      ],
+      "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    {
+      "id": "Nov10-12",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        9,
+        12,
+        7,
+        11,
+        3,
+        8,
+        16,
+        6,
+        14,
+        2,
+        10,
+        15,
+        5,
+        13,
+        1,
+        4
+      ],
+      "column_count": 16,
+      "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "square_rows": [
+        "4ARUT1",
+        "OIFSKN",
+        "3?BZPV",
+        "LD?JMX",
+        "CWHQ2E",
+        "?G0?Y?"
+      ],
+      "known_cell_count": 31,
+      "missing_plaintext_symbols": "56789",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 242,
+          "pdf_page_1based": 245,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "The historical appendix also labels this table December 1-3."
+      ],
+      "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "baseline_differences": [
+        {
+          "coordinate": "FD",
+          "baseline": "5",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GF",
+          "baseline": "6",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XA",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XG",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "9",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+      "previously_published_completion": {
+        "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 26,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "FD",
+            "proposed": "5"
+          },
+          {
+            "row_column": "GF",
+            "proposed": "6"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "7"
+          },
+          {
+            "row_column": "XG",
+            "proposed": "8"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "9"
+          }
+        ]
+      }
+    }
+  ],
+  "prior_credit": {
+    "published_keys": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker",
+    "doi": "10.1080/01611194.2016.1169461",
+    "body_scope": "Earlier unreviewed OCR-derived candidates existed. No explicit p132/p177A body example was located in the bounded author-paper attribution review; this is not a universal first-decipherment claim. The paper separately identifies Eilvese/OUI in its p120/p123 discussion, which is contextual station evidence, not publication of this p132 body."
+  },
+  "records": [
+    {
+      "id": "p132_A",
+      "key_id": "Nov4-6",
+      "printed_page": 132,
+      "source_section": "A",
+      "headers": {
+        "page_heading": "5th NOVEMBER, 1918.",
+        "header": "A) OSM v OUI (9.29 p.m., November 5th)",
+        "clear_line": "HIER 13 2207",
+        "length_marker": "RICHI-242"
+      },
+      "rows": [
+        "XVXFX VAXAD GDGVX AVXVX FVDXF AAVAG GAVVX VFGVA",
+        "VFVAF XXFVF AAXAX DAFVD FVVXF VAXGD XXVAF AXGVF",
+        "FFXAX FXGVX VVFAD DXVGV XDAFA XVXAF VVXFF XDDGX",
+        "FFXAA VXGFV GFVFX DAVFA XDDXF AXXXA FAGAA FAVFF",
+        "VVVXG VFXGF DAGXX AVXDF FAFXD XXAVA V-VXA AFGVD",
+        "FXDFF XDAXF FXAGA VVAAG VAVVV XAVVG AXAAG VFAXF",
+        "AX"
+      ],
+      "literal_source": "XVXFXVAXADGDGVXAVXVXFVDXFAAVAGGAVVXVFGVAVFVAFXXFVFAAXAXDAFVDFVVXFVAXGDXXVAFAXGVFFFXAXFXGVXVVFADDXVGVXDAFAXVXAFVVXFFXDDGXFFXAAVXGFVGFVFXDAVFAXDDXFAXXXAFAGAAFAVFFVVVXGVFXGFDAGXXAVXDFFAFXDXXAVAV-VXAAFGVDFXDFFXDAXFFXAGAVVAAGVAVVVXAVVGAXAAGVFAXFAX",
+      "analysis_source": "XVXFXVAXADGDGVXAVXVXFVDXFAAVAGGAVVXVFGVAVFVAFXXFVFAAXAXDAFVDFVVXFVAXGDXXVAFAXGVFFFXAXFXGVXVVFADDXVGVXDAFAXVXAFVVXFFXDDGXFFXAAVXGFVGFVFXDAVFAXDDXFAXXXAFAGAAFAVFFVVVXGVFXGFDAGXXAVXDFFAFXDXXAVAV?VXAAFGVDFXDFFXDAXFFXAGAVVAAGVAVVVXAVVGAXAAGVFAXFAX",
+      "advertised_length": 242,
+      "expected_unmodified_raw": "MILLTAEGMISZIONKOSJOIIXUEBERTENDUNGEILESKRIEGSRANGLI?TRNAUSZUGESDESGENERALMAJRHYDEWALDERBETENXFELDEISENBAHNNHEFPAFR53540X",
+      "expected_working_raw": "MILLTAEGMISZIONKOSJOIIXUEBERTENDUNGEILESKRIEGSRANGLI?TRNAUSZUGESDESGENERALMAJRHYDEWALDERBETENXFELDEISENBAHNNHEFPAFR53540X",
+      "editorial_text": "MILITAERMISZIONKOSJOIIXUEBERSENDUNGEINESKRIEGSRANGLISTENAUSZUGESDESGENERALMAJRHYDEWALDERBETENXFELDEISENBAHNCHEFPAFR53540X",
+      "expected_source_changes": [
+        [
+          126,
+          "X",
+          "D"
+        ],
+        [
+          191,
+          "?",
+          "G"
+        ],
+        [
+          214,
+          "A",
+          "V"
+        ],
+        [
+          217,
+          "A",
+          "G"
+        ],
+        [
+          218,
+          "A",
+          "X"
+        ],
+        [
+          220,
+          "V",
+          "F"
+        ],
+        [
+          228,
+          "V",
+          "A"
+        ]
+      ],
+      "frame_model": {
+        "kind": "identity"
+      },
+      "expected_cost": {
+        "substitutions": 6,
+        "source_erasure_fills": 1,
+        "interim_extra_coordinates": 0
+      },
+      "preserved_uncertain_fields": [
+        "KOSJOII",
+        "GENERALMAJRHYDEWALD",
+        "PAFR53540"
+      ],
+      "source_notes": [
+        {
+          "source_index": 191,
+          "glyph": "-",
+          "note": "One printed dash, preserved as an erased coordinate slot."
+        }
+      ]
+    },
+    {
+      "id": "p132_B",
+      "key_id": "Nov4-6",
+      "printed_page": 132,
+      "source_section": "B",
+      "headers": {
+        "page_heading": "5th NOVEMBER, 1918.",
+        "header": "B) LP v NKJ (6.13 p.m., November 5th)",
+        "clear_line": "SSD EILT SOFORT LOESEN 1410 (5)",
+        "length_marker": "RIZI-155"
+      },
+      "rows": [
+        "AAXAX FXAVF AAFAD VFGFA GVAGX FDVXX FAVAG XXDAA",
+        "DXFAF FFFFA FAXXA AVXGV VFAFA GAAXV AVAXF AGVXV",
+        "AFVXA FVAAA VGAFA VVAAA XFF-- XADAG AVADF AFGXV",
+        "FGVFX XGDAA XGAXA VDVDA VADVX FGFAX FVVGF"
+      ],
+      "literal_source": "AAXAXFXAVFAAFADVFGFAGVAGXFDVXXFAVAGXXDAADXFAFFFFFAFAXXAAVXGVVFAFAGAAXVAVAXFAGVXVAFVXAFVAAAVGAFAVVAAAXFF--XADAGAVADFAFGXVFGVFXXGDAAXGAXAVDVDAVADVXFGFAXFVVGF",
+      "analysis_source": "AAXAXFXAVFAAFADVFGFAGVAGXFDVXXFAVAGXXDAADXFAFFFFFAFAXXAAVXGVVFAFAGAAXVAVAXFAGVXVAFVXAFVAAAVGAFAVVAAAXFF??XADAGAVADFAFGXVFGVFXXGDAAXGAXAVDVDAVADVXFGFAXFVVGF",
+      "advertised_length": 155,
+      "expected_unmodified_raw": "FFEREILVESEXWIEDERHOLETT?LEGGWD3?MYMFLWF7MFFS7KFNT8RLTIWFWUAFQLL3F1QF7PZNMDQQ",
+      "expected_working_raw": "FFEREILVESEXWIEDERHOLETT?LEGRXVO?VIERTERPERIODEINFU1NFTERXGEBETSORHER5MINXVVV",
+      "editorial_text": "FUEREILVESEXWIEDERHOLETTELEGRXVONVIERTERPERIODEINFUENFTERXGEBETVORHER5MINXVVV",
+      "expected_source_changes": [
+        [
+          52,
+          "X",
+          "F"
+        ],
+        [
+          64,
+          "A",
+          "D"
+        ],
+        [
+          88,
+          "A",
+          "F"
+        ],
+        [
+          103,
+          "?",
+          "F"
+        ],
+        [
+          104,
+          "?",
+          "X"
+        ]
+      ],
+      "frame_model": {
+        "kind": "one_extra_interim_coordinate",
+        "representative_removal_index": 54,
+        "equivalent_removal_indices": [
+          54,
+          55,
+          56,
+          57
+        ],
+        "coordinate": "V",
+        "scope": "One extra V in a four-V interim run is removed from plaintext pairing; the full transmitted 155-slot witness reinserts that same V before transposition. No unique extra-coordinate position or historical mechanism is established."
+      },
+      "expected_cost": {
+        "substitutions": 3,
+        "source_erasure_fills": 2,
+        "interim_extra_coordinates": 1
+      },
+      "source_notes": [
+        {
+          "source_index": 103,
+          "glyph": "-",
+          "note": "First of two printed dashes in XFF--."
+        },
+        {
+          "source_index": 104,
+          "glyph": "-",
+          "note": "Second printed dash."
+        }
+      ],
+      "explicit_raw_numeral_spelling_repair": {
+        "plaintext_index": 51,
+        "before": "1",
+        "after": "E",
+        "field": "FU1NFTER -> FUENFTER",
+        "scope": "One local observed-coordinate spelling repair, not a square-label reassignment or a silent numeral normalization. The raw 1 remains in the unedited and conditional readings."
+      }
+    },
+    {
+      "id": "p132_C",
+      "key_id": "Nov4-6",
+      "printed_page": 132,
+      "source_section": "C",
+      "headers": {
+        "page_heading": "5th NOVEMBER, 1918.",
+        "header": "C) NKJ v LP (7.45 p.m., November 6th)",
+        "clear_line": "FUER COS 2150 (5/11)",
+        "length_marker": "RICHI-198"
+      },
+      "rows": [
+        "FVADX VAFDF GADXF AFDAX VFDDX FGFGV AAAXD XFAAV",
+        "DXFFX DDVAV XAVGF VXDVV AVXFF DAAFD FFFAA DDAVA",
+        "XDVAD AXAXX XGADG FXXVA GXAFD FFAVX GDFFV DGVFA",
+        "XAFVD GXDDX FFFVX FDFXA FVGFX XDVGX AFFAF XAXVA",
+        "DFGDD DVFFG XXADF FAVAV FVGXA AGGVG FVFDX AVA"
+      ],
+      "literal_source": "FVADXVAFDFGADXFAFDAXVFDDXFGFGVAAAXDXFAAVDXFFXDDVAVXAVGFVXDVVAVXFFDAAFDFFFAADDAVAXDVADAXAXXXGADGFXXVAGXAFDFFAVXGDFFVDGVFAXAFVDGXDDXFFFVXFDFXAFVGFXXDVGXAFFAFXAXVADFGDDDVFFGXXADFFAVAVFVGXAAGGVGFVFDXAVA",
+      "analysis_source": "FVADXVAFDFGADXFAFDAXVFDDXFGFGVAAAXDXFAAVDXFFXDDVAVXAVGFVXDVVAVXFFDAAFDFFFAADDAVAXDVADAXAXXXGADGFXXVAGXAFDFFAVXGDFFVDGVFAXAFVDGXDDXFFFVXFDFXAFVGFXXDVGXAFFAFXAXVADFGDDDVFFGXXADFFAVAVFVGXAAGGVGFVFDXAVA",
+      "advertised_length": 198,
+      "expected_unmodified_raw": "KAUKASUSDELEGAXWIEDERHLGVERSTUEMMELTEINGEGXOSKACHIX54GRXSSX1912XANXNACHCHEFERBETENXNACHCHE5X150527X",
+      "expected_working_raw": "KAUKASUSDELEGAXWIEDERHLGVERSTUEMMELTEINGEGXOSKACHIX54GRXSSX1912XANXNACHCHEFERBETENXNACHCHE5X150527X",
+      "editorial_text": "KAUKASUSDELEGAXWIEDERHLGVERSTUEMMELTEINGEGXOSKACHIX54GRXSSX1912XANXNACHCHEFERBETENXNACHCHE5X150527X",
+      "expected_source_changes": [],
+      "frame_model": {
+        "kind": "identity"
+      },
+      "expected_cost": {
+        "substitutions": 0,
+        "source_erasure_fills": 0,
+        "interim_extra_coordinates": 0
+      },
+      "preserved_uncertain_fields": [
+        "KAUKASUSDELEGA",
+        "OSKACHI",
+        "54",
+        "SS",
+        "1912",
+        "NACHCHE5",
+        "150527"
+      ]
+    },
+    {
+      "id": "p177_A",
+      "key_id": "Nov10-12",
+      "printed_page": 177,
+      "source_section": "A",
+      "headers": {
+        "page_heading": "11th NOVEMBER, 1918.",
+        "header": "A) MSX v MUA (11.50 a.m., November 10th)",
+        "clear_line": "1220",
+        "length_marker": "RIZI-186"
+      },
+      "rows": [
+        "AVDDA AAGXD DGVGX AAAVG XAFGA FADDD VXGAD FAFDG",
+        "VFXDX AVVAG GAVDX VDXGD DGXDF DFXAG DVDVD ADVDD",
+        "DAVFV GGDAA AVGAD DDXVV DGVVD VAADV GFVDV VAFXA",
+        "XGFDX GXDDD VXDXX XVXXX FXGDA DXXDX FDADV VGGAA",
+        "VGVAG DXFVX XXFXV DDVDV AVGVV V"
+      ],
+      "literal_source": "AVDDAAAGXDDGVGXAAAVGXAFGAFADDDVXGADFAFDGVFXDXAVVAGGAVDXVDXGDDGXDFDFXAGDVDVDADVDDDAVFVGGDAAAVGADDDXVVDGVVDVAADVGFVDVVAFXAXGFDXGXDDDVXDXXXVXXXFXGDADXXDXFDADVVGGAAVGVAGDXFVXXXFXVDDVDVAVGVVV",
+      "analysis_source": "AVDDAAAGXDDGVGXAAAVGXAFGAFADDDVXGADFAFDGVFXDXAVVAGGAVDXVDXGDDGXDFDFXAGDVDVDADVDDDAVFVGGDAAAVGADDDXVVDGVVDVAADVGFVDVVAFXAXGFDXGXDDDVXDXXXVXXXFXGDADXXDXFDADVVGGAAVGVAGDXFVXXXFXVDDVDVAVGVVV",
+      "advertised_length": 186,
+      "expected_unmodified_raw": "ALLESCHRIFTSTUECKEBISAUFNOTWENDIGESSCHLUESSELMATERIALVERNICHTENXME?DUNGGESLHEHENENTELEFONISCH",
+      "expected_working_raw": "ALLESCHRIFTSTUECKEBISAUFNOTWENDIGESSCHLUESSELMATERIALVERNICHTENXME?DUNGGESLHEHENENTELEFONISCH",
+      "editorial_text": "ALLESCHRIFTSTUECKEBISAUFNOTWENDIGESSCHLUESSELMATERIALVERNICHTENXMELDUNGGESCHEHENENTELEFONISCH",
+      "expected_source_changes": [
+        [
+          31,
+          "X",
+          "G"
+        ],
+        [
+          32,
+          "G",
+          "V"
+        ]
+      ],
+      "frame_model": {
+        "kind": "identity"
+      },
+      "expected_cost": {
+        "substitutions": 2,
+        "source_erasure_fills": 0,
+        "interim_extra_coordinates": 0
+      }
+    }
+  ],
+  "reading_policy": [
+    "p132 A remains partial at the addressee and general-name fields. KOSJOII and GENERALMAJRHYDEWALD are not silently identified or repaired.",
+    "p132 B preserves the genuine 155-slot source and all four equivalent extra-V positions. Its earlier one-insertion retrieval candidates are retained separately and do not independently establish this extra-coordinate mechanism.",
+    "p132 C has no source repair; all raw numbers, abbreviations and NACHCHE5 remain literal.",
+    "p177 A has 186 printed/received slots. The older 185-slot OCR block is a transcription error, not evidence of a historical interim loss.",
+    "p177 A uses the conservative partial Nov10-12 square; unknown cells remain unassigned. Repairing ME?DUNG changes a received coordinate to a known L cell and does not fill an unknown square cell."
+  ]
+}

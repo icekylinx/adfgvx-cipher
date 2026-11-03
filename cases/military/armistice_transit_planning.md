@@ -223,3 +223,11 @@ example; this edition makes no universal first-decipherment claim.
 python experiments/armistice_transit_planning/verify.py --verify
 python experiments/armistice_transit_planning/geometry_audit.py --verify
 ```
+
+## Later receipt and clause witnesses
+
+The [p137 B4 and C source editions](armistice_clause_witnesses.md) preserve
+copies of p125 A4 and p126 B. B4 independently witnesses the previously
+masked coordinate in `BEFOERDERUNG`; C reproduces the two corrupt words
+in the receipt, so their existing repairs remain editorial. Neither copy
+changes the conditional geometry or uncertainty of p126 A5.

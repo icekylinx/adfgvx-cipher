@@ -1,0 +1,5450 @@
+{
+  "schema": "adfgvx-inventory-medical-return-certificate-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "inputs_sha256": "91b8d7a618441b48ca69ea0138196d33f03180215b598924d9c71727db194775",
+  "totals": {
+    "source_records": 3,
+    "source_slots": 665,
+    "valid_received_coordinates": 665,
+    "ordinary_frame_positions": 219,
+    "conditional_raw_fixed_positions": 113,
+    "conditional_plaintext_positions": 114,
+    "known_coordinate_substitutions": 6,
+    "source_erasure_fills": 0,
+    "missing_transmitted_coordinates": 1,
+    "equivalent_minimum_insertion_positions": 3,
+    "source_local_minimum_positions": 2,
+    "retrospective_template_positions_priced": 228,
+    "published_square_changes": 0
+  },
+  "records": [
+    {
+      "id": "p86_A",
+      "key_id": "Oct28-31",
+      "source_slots": 298,
+      "valid_received_coordinates": 298,
+      "advertised_length": 298,
+      "unmodified_source_reading": {
+        "plaintext": "MGKOMMANDEUROSMANHGRXOSTXWIEVIELDEUTSCHEMG08MITDREIFUSSLAFETTEIMDORTIGEXBER4ICHVORHANDENXWELCHESKALIBERHABENSIEXOSMAN19ABTLGXGRXHXQUXNO835C120X10X18X",
+        "domains": [
+          "M",
+          "G",
+          "K",
+          "O",
+          "M",
+          "M",
+          "A",
+          "N",
+          "D",
+          "E",
+          "U",
+          "R",
+          "O",
+          "S",
+          "M",
+          "A",
+          "N",
+          "H",
+          "G",
+          "R",
+          "X",
+          "O",
+          "S",
+          "T",
+          "X",
+          "W",
+          "I",
+          "E",
+          "V",
+          "I",
+          "E",
+          "L",
+          "D",
+          "E",
+          "U",
+          "T",
+          "S",
+          "C",
+          "H",
+          "E",
+          "M",
+          "G",
+          "0",
+          "8",
+          "M",
+          "I",
+          "T",
+          "D",
+          "R",
+          "E",
+          "I",
+          "F",
+          "U",
+          "S",
+          "S",
+          "L",
+          "A",
+          "F",
+          "E",
+          "T",
+          "T",
+          "E",
+          "I",
+          "M",
+          "D",
+          "O",
+          "R",
+          "T",
+          "I",
+          "G",
+          "E",
+          "X",
+          "B",
+          "E",
+          "R",
+          "4",
+          "I",
+          "C",
+          "H",
+          "V",
+          "O",
+          "R",
+          "H",
+          "A",
+          "N",
+          "D",
+          "E",
+          "N",
+          "X",
+          "W",
+          "E",
+          "L",
+          "C",
+          "H",
+          "E",
+          "S",
+          "K",
+          "A",
+          "L",
+          "I",
+          "B",
+          "E",
+          "R",
+          "H",
+          "A",
+          "B",
+          "E",
+          "N",
+          "S",
+          "I",
+          "E",
+          "X",
+          "O",
+          "S",
+          "M",
+          "A",
+          "N",
+          "1",
+          "9",
+          "A",
+          "B",
+          "T",
+          "L",
+          "G",
+          "X",
+          "G",
+          "R",
+          "X",
+          "H",
+          "X",
+          "Q",
+          "U",
+          "X",
+          "N",
+          "O",
+          "8",
+          "3",
+          "5",
+          "C",
+          "1",
+          "2",
+          "0",
+          "X",
+          "1",
+          "0",
+          "X",
+          "1",
+          "8",
+          "X"
+        ],
+        "plaintext_positions": 149,
+        "fixed_positions": 149,
+        "unpaired_coordinate": null
+      },
+      "conditional_missing_coordinate": false,
+      "selected_edition": {
+        "missing_transmitted_index": null,
+        "working_source_slots": 298,
+        "working_raw_reading": {
+          "plaintext": "MGKOMMANDEUROSMANHGRXOSTXWIEVIELDEUTSCHEMG08MITDREIFUSSLAFETTEIMDORTIGEXBER4ICHVORHANDENXWELCHESKALIBERHABENSIEXOSMAN19ABTLGXGRXHXQUXNO835C120X10X18X",
+          "domains": [
+            "M",
+            "G",
+            "K",
+            "O",
+            "M",
+            "M",
+            "A",
+            "N",
+            "D",
+            "E",
+            "U",
+            "R",
+            "O",
+            "S",
+            "M",
+            "A",
+            "N",
+            "H",
+            "G",
+            "R",
+            "X",
+            "O",
+            "S",
+            "T",
+            "X",
+            "W",
+            "I",
+            "E",
+            "V",
+            "I",
+            "E",
+            "L",
+            "D",
+            "E",
+            "U",
+            "T",
+            "S",
+            "C",
+            "H",
+            "E",
+            "M",
+            "G",
+            "0",
+            "8",
+            "M",
+            "I",
+            "T",
+            "D",
+            "R",
+            "E",
+            "I",
+            "F",
+            "U",
+            "S",
+            "S",
+            "L",
+            "A",
+            "F",
+            "E",
+            "T",
+            "T",
+            "E",
+            "I",
+            "M",
+            "D",
+            "O",
+            "R",
+            "T",
+            "I",
+            "G",
+            "E",
+            "X",
+            "B",
+            "E",
+            "R",
+            "4",
+            "I",
+            "C",
+            "H",
+            "V",
+            "O",
+            "R",
+            "H",
+            "A",
+            "N",
+            "D",
+            "E",
+            "N",
+            "X",
+            "W",
+            "E",
+            "L",
+            "C",
+            "H",
+            "E",
+            "S",
+            "K",
+            "A",
+            "L",
+            "I",
+            "B",
+            "E",
+            "R",
+            "H",
+            "A",
+            "B",
+            "E",
+            "N",
+            "S",
+            "I",
+            "E",
+            "X",
+            "O",
+            "S",
+            "M",
+            "A",
+            "N",
+            "1",
+            "9",
+            "A",
+            "B",
+            "T",
+            "L",
+            "G",
+            "X",
+            "G",
+            "R",
+            "X",
+            "H",
+            "X",
+            "Q",
+            "U",
+            "X",
+            "N",
+            "O",
+            "8",
+            "3",
+            "5",
+            "C",
+            "1",
+            "2",
+            "0",
+            "X",
+            "1",
+            "0",
+            "X",
+            "1",
+            "8",
+            "X"
+          ],
+          "plaintext_positions": 149,
+          "fixed_positions": 149,
+          "unpaired_coordinate": null
+        },
+        "coordinate_origins": [
+          [
+            82,
+            232
+          ],
+          [
+            181,
+            249
+          ],
+          [
+            65,
+            99
+          ],
+          [
+            215,
+            48
+          ],
+          [
+            198,
+            116
+          ],
+          [
+            165,
+            0
+          ],
+          [
+            266,
+            16
+          ],
+          [
+            149,
+            32
+          ],
+          [
+            282,
+            133
+          ],
+          [
+            83,
+            233
+          ],
+          [
+            182,
+            250
+          ],
+          [
+            66,
+            100
+          ],
+          [
+            216,
+            49
+          ],
+          [
+            199,
+            117
+          ],
+          [
+            166,
+            1
+          ],
+          [
+            267,
+            17
+          ],
+          [
+            150,
+            33
+          ],
+          [
+            283,
+            134
+          ],
+          [
+            84,
+            234
+          ],
+          [
+            183,
+            251
+          ],
+          [
+            67,
+            101
+          ],
+          [
+            217,
+            50
+          ],
+          [
+            200,
+            118
+          ],
+          [
+            167,
+            2
+          ],
+          [
+            268,
+            18
+          ],
+          [
+            151,
+            34
+          ],
+          [
+            284,
+            135
+          ],
+          [
+            85,
+            235
+          ],
+          [
+            184,
+            252
+          ],
+          [
+            68,
+            102
+          ],
+          [
+            218,
+            51
+          ],
+          [
+            201,
+            119
+          ],
+          [
+            168,
+            3
+          ],
+          [
+            269,
+            19
+          ],
+          [
+            152,
+            35
+          ],
+          [
+            285,
+            136
+          ],
+          [
+            86,
+            236
+          ],
+          [
+            185,
+            253
+          ],
+          [
+            69,
+            103
+          ],
+          [
+            219,
+            52
+          ],
+          [
+            202,
+            120
+          ],
+          [
+            169,
+            4
+          ],
+          [
+            270,
+            20
+          ],
+          [
+            153,
+            36
+          ],
+          [
+            286,
+            137
+          ],
+          [
+            87,
+            237
+          ],
+          [
+            186,
+            254
+          ],
+          [
+            70,
+            104
+          ],
+          [
+            220,
+            53
+          ],
+          [
+            203,
+            121
+          ],
+          [
+            170,
+            5
+          ],
+          [
+            271,
+            21
+          ],
+          [
+            154,
+            37
+          ],
+          [
+            287,
+            138
+          ],
+          [
+            88,
+            238
+          ],
+          [
+            187,
+            255
+          ],
+          [
+            71,
+            105
+          ],
+          [
+            221,
+            54
+          ],
+          [
+            204,
+            122
+          ],
+          [
+            171,
+            6
+          ],
+          [
+            272,
+            22
+          ],
+          [
+            155,
+            38
+          ],
+          [
+            288,
+            139
+          ],
+          [
+            89,
+            239
+          ],
+          [
+            188,
+            256
+          ],
+          [
+            72,
+            106
+          ],
+          [
+            222,
+            55
+          ],
+          [
+            205,
+            123
+          ],
+          [
+            172,
+            7
+          ],
+          [
+            273,
+            23
+          ],
+          [
+            156,
+            39
+          ],
+          [
+            289,
+            140
+          ],
+          [
+            90,
+            240
+          ],
+          [
+            189,
+            257
+          ],
+          [
+            73,
+            107
+          ],
+          [
+            223,
+            56
+          ],
+          [
+            206,
+            124
+          ],
+          [
+            173,
+            8
+          ],
+          [
+            274,
+            24
+          ],
+          [
+            157,
+            40
+          ],
+          [
+            290,
+            141
+          ],
+          [
+            91,
+            241
+          ],
+          [
+            190,
+            258
+          ],
+          [
+            74,
+            108
+          ],
+          [
+            224,
+            57
+          ],
+          [
+            207,
+            125
+          ],
+          [
+            174,
+            9
+          ],
+          [
+            275,
+            25
+          ],
+          [
+            158,
+            41
+          ],
+          [
+            291,
+            142
+          ],
+          [
+            92,
+            242
+          ],
+          [
+            191,
+            259
+          ],
+          [
+            75,
+            109
+          ],
+          [
+            225,
+            58
+          ],
+          [
+            208,
+            126
+          ],
+          [
+            175,
+            10
+          ],
+          [
+            276,
+            26
+          ],
+          [
+            159,
+            42
+          ],
+          [
+            292,
+            143
+          ],
+          [
+            93,
+            243
+          ],
+          [
+            192,
+            260
+          ],
+          [
+            76,
+            110
+          ],
+          [
+            226,
+            59
+          ],
+          [
+            209,
+            127
+          ],
+          [
+            176,
+            11
+          ],
+          [
+            277,
+            27
+          ],
+          [
+            160,
+            43
+          ],
+          [
+            293,
+            144
+          ],
+          [
+            94,
+            244
+          ],
+          [
+            193,
+            261
+          ],
+          [
+            77,
+            111
+          ],
+          [
+            227,
+            60
+          ],
+          [
+            210,
+            128
+          ],
+          [
+            177,
+            12
+          ],
+          [
+            278,
+            28
+          ],
+          [
+            161,
+            44
+          ],
+          [
+            294,
+            145
+          ],
+          [
+            95,
+            245
+          ],
+          [
+            194,
+            262
+          ],
+          [
+            78,
+            112
+          ],
+          [
+            228,
+            61
+          ],
+          [
+            211,
+            129
+          ],
+          [
+            178,
+            13
+          ],
+          [
+            279,
+            29
+          ],
+          [
+            162,
+            45
+          ],
+          [
+            295,
+            146
+          ],
+          [
+            96,
+            246
+          ],
+          [
+            195,
+            263
+          ],
+          [
+            79,
+            113
+          ],
+          [
+            229,
+            62
+          ],
+          [
+            212,
+            130
+          ],
+          [
+            179,
+            14
+          ],
+          [
+            280,
+            30
+          ],
+          [
+            163,
+            46
+          ],
+          [
+            296,
+            147
+          ],
+          [
+            97,
+            247
+          ],
+          [
+            196,
+            264
+          ],
+          [
+            80,
+            114
+          ],
+          [
+            230,
+            63
+          ],
+          [
+            213,
+            131
+          ],
+          [
+            180,
+            15
+          ],
+          [
+            281,
+            31
+          ],
+          [
+            164,
+            47
+          ],
+          [
+            297,
+            148
+          ],
+          [
+            98,
+            248
+          ],
+          [
+            197,
+            265
+          ],
+          [
+            81,
+            115
+          ],
+          [
+            231,
+            64
+          ],
+          [
+            214,
+            132
+          ]
+        ],
+        "editorial_plaintext": "MGKOMMANDEUROSMANHGRXOSTXWIEVIELDEUTSCHEMG08MITDREIFUSSLAFETTEIMDORTIGENBEREICHVORHANDENXWELCHESKALIBERHABENSIEXOSMAN19ABTLGXGRXHXQUXNO835C120X10X18X",
+        "known_coordinate_substitutions": [
+          {
+            "source_index": 223,
+            "printed_row_1based": 6,
+            "group_in_row_1based": 5,
+            "printed_group_1based": 45,
+            "group_position_1based": 4,
+            "before": "V",
+            "after": "F",
+            "plaintext_index": 75,
+            "raw_plaintext_symbol": "4",
+            "proposed_plaintext_symbol": "E"
+          },
+          {
+            "source_index": 289,
+            "printed_row_1based": 8,
+            "group_in_row_1based": 2,
+            "printed_group_1based": 58,
+            "group_position_1based": 5,
+            "before": "A",
+            "after": "X",
+            "plaintext_index": 71,
+            "raw_plaintext_symbol": "X",
+            "proposed_plaintext_symbol": "N"
+          }
+        ],
+        "missing_transmitted_coordinate": null,
+        "cost": {
+          "known_coordinate_substitutions": 2,
+          "source_erasure_fills": 0,
+          "missing_transmitted_coordinates": 0
+        },
+        "numeral_label_ledger": [
+          {
+            "plaintext_index": 42,
+            "raw_label": "0",
+            "editorial_label": "0",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              270,
+              20
+            ]
+          },
+          {
+            "plaintext_index": 43,
+            "raw_label": "8",
+            "editorial_label": "8",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              153,
+              36
+            ]
+          },
+          {
+            "plaintext_index": 75,
+            "raw_label": "4",
+            "editorial_label": "E",
+            "explicit_spelling_repair": true,
+            "coordinate_origins": [
+              223,
+              56
+            ]
+          },
+          {
+            "plaintext_index": 117,
+            "raw_label": "1",
+            "editorial_label": "1",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              95,
+              245
+            ]
+          },
+          {
+            "plaintext_index": 118,
+            "raw_label": "9",
+            "editorial_label": "9",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              194,
+              262
+            ]
+          },
+          {
+            "plaintext_index": 135,
+            "raw_label": "8",
+            "editorial_label": "8",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              97,
+              247
+            ]
+          },
+          {
+            "plaintext_index": 136,
+            "raw_label": "3",
+            "editorial_label": "3",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              196,
+              264
+            ]
+          },
+          {
+            "plaintext_index": 137,
+            "raw_label": "5",
+            "editorial_label": "5",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              80,
+              114
+            ]
+          },
+          {
+            "plaintext_index": 139,
+            "raw_label": "1",
+            "editorial_label": "1",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              213,
+              131
+            ]
+          },
+          {
+            "plaintext_index": 140,
+            "raw_label": "2",
+            "editorial_label": "2",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              180,
+              15
+            ]
+          },
+          {
+            "plaintext_index": 141,
+            "raw_label": "0",
+            "editorial_label": "0",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              281,
+              31
+            ]
+          },
+          {
+            "plaintext_index": 143,
+            "raw_label": "1",
+            "editorial_label": "1",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              297,
+              148
+            ]
+          },
+          {
+            "plaintext_index": 144,
+            "raw_label": "0",
+            "editorial_label": "0",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              98,
+              248
+            ]
+          },
+          {
+            "plaintext_index": 146,
+            "raw_label": "1",
+            "editorial_label": "1",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              81,
+              115
+            ]
+          },
+          {
+            "plaintext_index": 147,
+            "raw_label": "8",
+            "editorial_label": "8",
+            "explicit_spelling_repair": false,
+            "coordinate_origins": [
+              231,
+              64
+            ]
+          }
+        ],
+        "complete_encoded_witness": "GGAVDDADDAVVVFDFVVXAGGADAXDFGDXGXXFDXDAAVXVAVXXXGGGAAAGAAXAAXFXDXFDAAAVGFDGGFFGAVFXFXFAAAXGDFAAFDDADAXDAVVGAVDAAVADXGVVFGAAADVAAGAGXXVADAGVDXGFFXXDGXXXDDDDFFXAGFGAXAXXXVXAXAGFAGAXDAXDDXGXXVFAXGAGAVAXAAXXFFXAVFAFXDFAFFFFFDVDFXADAGAGDGADAVDVGFAADVXAXGDDAVDAFVAAFFDAXFXGGAFAVXXAXFGXXAAVAAXXAAXFDXXXXFF",
+        "repaired_received_witness": "GGAVDDADDAVVVFDFVVXAGGADAXDFGDXGXXFDXDAAVXVAVXXXGGGAAAGAAXAAXFXDXFDAAAVGFDGGFFGAVFXFXFAAAXGDFAAFDDADAXDAVVGAVDAAVADXGVVFGAAADVAAGAGXXVADAGVDXGFFXXDGXXXDDDDFFXAGFGAXAXXXVXAXAGFAGAXDAXDDXGXXVFAXGAGAVAXAAXXFFXAVFAFXDFAFFFFFDVDFXADAGAGDGADAVDVGFAADVXAXGDDAVDAFVAAFFDAXFXGGAFAVXXAXFGXXAAVAAXXAAXFDXXXXFF"
+      },
+      "equivalent_insertions": [],
+      "retrospective_template_prices": []
+    },
+    {
+      "id": "p104_C1",
+      "key_id": "Nov1-3",
+      "source_slots": 227,
+      "valid_received_coordinates": 227,
+      "advertised_length": 228,
+      "unmodified_source_reading": {
+        "plaintext": "WOEWKHGLUEAIFLDFNLAERUGIXOO9ACMTY0Z7L6ENGSVHKYZZMMEJS778LEDBCCH3R0AAG1JSMAH4AL4JCZ3I0BEPNDULY21UXTOED0VWERVTVWFDF",
+        "domains": [
+          "W",
+          "O",
+          "E",
+          "W",
+          "K",
+          "H",
+          "G",
+          "L",
+          "U",
+          "E",
+          "A",
+          "I",
+          "F",
+          "L",
+          "D",
+          "F",
+          "N",
+          "L",
+          "A",
+          "E",
+          "R",
+          "U",
+          "G",
+          "I",
+          "X",
+          "O",
+          "O",
+          "9",
+          "A",
+          "C",
+          "M",
+          "T",
+          "Y",
+          "0",
+          "Z",
+          "7",
+          "L",
+          "6",
+          "E",
+          "N",
+          "G",
+          "S",
+          "V",
+          "H",
+          "K",
+          "Y",
+          "Z",
+          "Z",
+          "M",
+          "M",
+          "E",
+          "J",
+          "S",
+          "7",
+          "7",
+          "8",
+          "L",
+          "E",
+          "D",
+          "B",
+          "C",
+          "C",
+          "H",
+          "3",
+          "R",
+          "0",
+          "A",
+          "A",
+          "G",
+          "1",
+          "J",
+          "S",
+          "M",
+          "A",
+          "H",
+          "4",
+          "A",
+          "L",
+          "4",
+          "J",
+          "C",
+          "Z",
+          "3",
+          "I",
+          "0",
+          "B",
+          "E",
+          "P",
+          "N",
+          "D",
+          "U",
+          "L",
+          "Y",
+          "2",
+          "1",
+          "U",
+          "X",
+          "T",
+          "O",
+          "E",
+          "D",
+          "0",
+          "V",
+          "W",
+          "E",
+          "R",
+          "V",
+          "T",
+          "V",
+          "W",
+          "F",
+          "D",
+          "F"
+        ],
+        "plaintext_positions": 113,
+        "fixed_positions": 113,
+        "unpaired_coordinate": "F",
+        "unpaired_source_index": 106
+      },
+      "conditional_missing_coordinate": true,
+      "selected_edition": {
+        "missing_transmitted_index": 168,
+        "working_source_slots": 228,
+        "working_raw_reading": {
+          "plaintext": "W?RDEHEUTEAUFGRUNDAERZTLXGUTACHTJDSEITENSSCHWARZMEERSTELLEDTSCHXSTAATZUSPEZIALAERZTLXBEHADDLUNGUXWIEDERHERSTELLUNG",
+          "domains": [
+            "W",
+            "9FILOU",
+            "R",
+            "D",
+            "E",
+            "H",
+            "E",
+            "U",
+            "T",
+            "E",
+            "A",
+            "U",
+            "F",
+            "G",
+            "R",
+            "U",
+            "N",
+            "D",
+            "A",
+            "E",
+            "R",
+            "Z",
+            "T",
+            "L",
+            "X",
+            "G",
+            "U",
+            "T",
+            "A",
+            "C",
+            "H",
+            "T",
+            "J",
+            "D",
+            "S",
+            "E",
+            "I",
+            "T",
+            "E",
+            "N",
+            "S",
+            "S",
+            "C",
+            "H",
+            "W",
+            "A",
+            "R",
+            "Z",
+            "M",
+            "E",
+            "E",
+            "R",
+            "S",
+            "T",
+            "E",
+            "L",
+            "L",
+            "E",
+            "D",
+            "T",
+            "S",
+            "C",
+            "H",
+            "X",
+            "S",
+            "T",
+            "A",
+            "A",
+            "T",
+            "Z",
+            "U",
+            "S",
+            "P",
+            "E",
+            "Z",
+            "I",
+            "A",
+            "L",
+            "A",
+            "E",
+            "R",
+            "Z",
+            "T",
+            "L",
+            "X",
+            "B",
+            "E",
+            "H",
+            "A",
+            "D",
+            "D",
+            "L",
+            "U",
+            "N",
+            "G",
+            "U",
+            "X",
+            "W",
+            "I",
+            "E",
+            "D",
+            "E",
+            "R",
+            "H",
+            "E",
+            "R",
+            "S",
+            "T",
+            "E",
+            "L",
+            "L",
+            "U",
+            "N",
+            "G"
+          ],
+          "plaintext_positions": 114,
+          "fixed_positions": 113,
+          "unpaired_coordinate": null
+        },
+        "coordinate_origins": [
+          [
+            24,
+            179
+          ],
+          [
+            36,
+            null
+          ],
+          [
+            72,
+            132
+          ],
+          [
+            203,
+            60
+          ],
+          [
+            191,
+            84
+          ],
+          [
+            215,
+            0
+          ],
+          [
+            144,
+            108
+          ],
+          [
+            12,
+            156
+          ],
+          [
+            120,
+            96
+          ],
+          [
+            48,
+            25
+          ],
+          [
+            180,
+            37
+          ],
+          [
+            168,
+            73
+          ],
+          [
+            133,
+            204
+          ],
+          [
+            61,
+            192
+          ],
+          [
+            85,
+            216
+          ],
+          [
+            1,
+            145
+          ],
+          [
+            109,
+            13
+          ],
+          [
+            157,
+            121
+          ],
+          [
+            97,
+            49
+          ],
+          [
+            26,
+            181
+          ],
+          [
+            38,
+            169
+          ],
+          [
+            74,
+            134
+          ],
+          [
+            205,
+            62
+          ],
+          [
+            193,
+            86
+          ],
+          [
+            217,
+            2
+          ],
+          [
+            146,
+            110
+          ],
+          [
+            14,
+            158
+          ],
+          [
+            122,
+            98
+          ],
+          [
+            50,
+            27
+          ],
+          [
+            182,
+            39
+          ],
+          [
+            170,
+            75
+          ],
+          [
+            135,
+            206
+          ],
+          [
+            63,
+            194
+          ],
+          [
+            87,
+            218
+          ],
+          [
+            3,
+            147
+          ],
+          [
+            111,
+            15
+          ],
+          [
+            159,
+            123
+          ],
+          [
+            99,
+            51
+          ],
+          [
+            28,
+            183
+          ],
+          [
+            40,
+            171
+          ],
+          [
+            76,
+            136
+          ],
+          [
+            207,
+            64
+          ],
+          [
+            195,
+            88
+          ],
+          [
+            219,
+            4
+          ],
+          [
+            148,
+            112
+          ],
+          [
+            16,
+            160
+          ],
+          [
+            124,
+            100
+          ],
+          [
+            52,
+            29
+          ],
+          [
+            184,
+            41
+          ],
+          [
+            172,
+            77
+          ],
+          [
+            137,
+            208
+          ],
+          [
+            65,
+            196
+          ],
+          [
+            89,
+            220
+          ],
+          [
+            5,
+            149
+          ],
+          [
+            113,
+            17
+          ],
+          [
+            161,
+            125
+          ],
+          [
+            101,
+            53
+          ],
+          [
+            30,
+            185
+          ],
+          [
+            42,
+            173
+          ],
+          [
+            78,
+            138
+          ],
+          [
+            209,
+            66
+          ],
+          [
+            197,
+            90
+          ],
+          [
+            221,
+            6
+          ],
+          [
+            150,
+            114
+          ],
+          [
+            18,
+            162
+          ],
+          [
+            126,
+            102
+          ],
+          [
+            54,
+            31
+          ],
+          [
+            186,
+            43
+          ],
+          [
+            174,
+            79
+          ],
+          [
+            139,
+            210
+          ],
+          [
+            67,
+            198
+          ],
+          [
+            91,
+            222
+          ],
+          [
+            7,
+            151
+          ],
+          [
+            115,
+            19
+          ],
+          [
+            163,
+            127
+          ],
+          [
+            103,
+            55
+          ],
+          [
+            32,
+            187
+          ],
+          [
+            44,
+            175
+          ],
+          [
+            80,
+            140
+          ],
+          [
+            211,
+            68
+          ],
+          [
+            199,
+            92
+          ],
+          [
+            223,
+            8
+          ],
+          [
+            152,
+            116
+          ],
+          [
+            20,
+            164
+          ],
+          [
+            128,
+            104
+          ],
+          [
+            56,
+            33
+          ],
+          [
+            188,
+            45
+          ],
+          [
+            176,
+            81
+          ],
+          [
+            141,
+            212
+          ],
+          [
+            69,
+            200
+          ],
+          [
+            93,
+            224
+          ],
+          [
+            9,
+            153
+          ],
+          [
+            117,
+            21
+          ],
+          [
+            165,
+            129
+          ],
+          [
+            105,
+            57
+          ],
+          [
+            34,
+            189
+          ],
+          [
+            46,
+            177
+          ],
+          [
+            82,
+            142
+          ],
+          [
+            213,
+            70
+          ],
+          [
+            201,
+            94
+          ],
+          [
+            225,
+            10
+          ],
+          [
+            154,
+            118
+          ],
+          [
+            22,
+            166
+          ],
+          [
+            130,
+            106
+          ],
+          [
+            58,
+            35
+          ],
+          [
+            190,
+            47
+          ],
+          [
+            178,
+            83
+          ],
+          [
+            143,
+            214
+          ],
+          [
+            71,
+            202
+          ],
+          [
+            95,
+            226
+          ],
+          [
+            11,
+            155
+          ],
+          [
+            119,
+            23
+          ],
+          [
+            167,
+            131
+          ],
+          [
+            107,
+            59
+          ]
+        ],
+        "editorial_plaintext": "WURDEHEUTEAUFGRUNDAERZTLXGUTACHTENSEITENSSCHWARZMEERSTELLEDTSCHXSTAATZUSPEZIALAERZTLXBEHANDLUNGUXWIEDERHERSTELLUNG",
+        "known_coordinate_substitutions": [
+          {
+            "source_index": 194,
+            "printed_row_1based": 5,
+            "group_in_row_1based": 8,
+            "printed_group_1based": 40,
+            "group_position_1based": 1,
+            "before": "A",
+            "after": "G",
+            "plaintext_index": 32,
+            "raw_plaintext_symbol": "J",
+            "proposed_plaintext_symbol": "E"
+          },
+          {
+            "source_index": 200,
+            "printed_row_1based": 6,
+            "group_in_row_1based": 1,
+            "printed_group_1based": 41,
+            "group_position_1based": 2,
+            "before": "A",
+            "after": "G",
+            "plaintext_index": 89,
+            "raw_plaintext_symbol": "D",
+            "proposed_plaintext_symbol": "N"
+          },
+          {
+            "source_index": 218,
+            "printed_row_1based": 6,
+            "group_in_row_1based": 4,
+            "printed_group_1based": 44,
+            "group_position_1based": 5,
+            "before": "A",
+            "after": "G",
+            "plaintext_index": 33,
+            "raw_plaintext_symbol": "D",
+            "proposed_plaintext_symbol": "N"
+          }
+        ],
+        "missing_transmitted_coordinate": {
+          "reconstructed_transmitted_index": 168,
+          "coordinate": "A",
+          "source_group_local": true,
+          "plaintext_index": 1,
+          "raw_domain": "9FILOU",
+          "proposed_plaintext_symbol": "U"
+        },
+        "cost": {
+          "known_coordinate_substitutions": 3,
+          "source_erasure_fills": 0,
+          "missing_transmitted_coordinates": 1
+        },
+        "numeral_label_ledger": [],
+        "complete_encoded_witness": "FAXDFFFVFAAAAGAGXGDGAADAGGVGVFVGXVAGAGDDGDGGAGDAVGXXDFXDGFVFAFXVVDVAGGDVDADFDGFXXFGVGDFGDDDDAGGAXXXFAAXAXFFFGGFVFVXVXAGAFAFDDFFFDGVGAAFFVVXDGXFFVAFVGXDXFFVFAGAAGAVDFGAGAAAVGVAFFVXDFXGDGVGXGVADVFAGDADADGVGGVFXDGDFVGAXVADGVVVVDAGF",
+        "repaired_received_witness": "FAXDFFFVFAAAAGAGXGDGAADAGGVGVFVGXVAGAGDDGDGGAGDAVGXXDFXDGFVFAFXVVDVAGGDVDADFDGFXXFGVGDFGDDDDAGGAXXXFAAXAXFFFGGFVFVXVXAGAFAFDDFFFDGVGAAFFVVXDGXFFVAFVGXDXFFVFAGAAGAVDFGAGAAVGVAFFVXDFXGDGVGXGVADVFAGDADADGVGGVFXDGDFVGAXVADGVVVVDAGF"
+      },
+      "equivalent_insertions": [
+        {
+          "missing_transmitted_index": 168,
+          "working_source_slots": 228,
+          "working_raw_reading": {
+            "plaintext": "W?RDEHEUTEAUFGRUNDAERZTLXGUTACHTJDSEITENSSCHWARZMEERSTELLEDTSCHXSTAATZUSPEZIALAERZTLXBEHADDLUNGUXWIEDERHERSTELLUNG",
+            "domains": [
+              "W",
+              "9FILOU",
+              "R",
+              "D",
+              "E",
+              "H",
+              "E",
+              "U",
+              "T",
+              "E",
+              "A",
+              "U",
+              "F",
+              "G",
+              "R",
+              "U",
+              "N",
+              "D",
+              "A",
+              "E",
+              "R",
+              "Z",
+              "T",
+              "L",
+              "X",
+              "G",
+              "U",
+              "T",
+              "A",
+              "C",
+              "H",
+              "T",
+              "J",
+              "D",
+              "S",
+              "E",
+              "I",
+              "T",
+              "E",
+              "N",
+              "S",
+              "S",
+              "C",
+              "H",
+              "W",
+              "A",
+              "R",
+              "Z",
+              "M",
+              "E",
+              "E",
+              "R",
+              "S",
+              "T",
+              "E",
+              "L",
+              "L",
+              "E",
+              "D",
+              "T",
+              "S",
+              "C",
+              "H",
+              "X",
+              "S",
+              "T",
+              "A",
+              "A",
+              "T",
+              "Z",
+              "U",
+              "S",
+              "P",
+              "E",
+              "Z",
+              "I",
+              "A",
+              "L",
+              "A",
+              "E",
+              "R",
+              "Z",
+              "T",
+              "L",
+              "X",
+              "B",
+              "E",
+              "H",
+              "A",
+              "D",
+              "D",
+              "L",
+              "U",
+              "N",
+              "G",
+              "U",
+              "X",
+              "W",
+              "I",
+              "E",
+              "D",
+              "E",
+              "R",
+              "H",
+              "E",
+              "R",
+              "S",
+              "T",
+              "E",
+              "L",
+              "L",
+              "U",
+              "N",
+              "G"
+            ],
+            "plaintext_positions": 114,
+            "fixed_positions": 113,
+            "unpaired_coordinate": null
+          },
+          "coordinate_origins": [
+            [
+              24,
+              179
+            ],
+            [
+              36,
+              null
+            ],
+            [
+              72,
+              132
+            ],
+            [
+              203,
+              60
+            ],
+            [
+              191,
+              84
+            ],
+            [
+              215,
+              0
+            ],
+            [
+              144,
+              108
+            ],
+            [
+              12,
+              156
+            ],
+            [
+              120,
+              96
+            ],
+            [
+              48,
+              25
+            ],
+            [
+              180,
+              37
+            ],
+            [
+              168,
+              73
+            ],
+            [
+              133,
+              204
+            ],
+            [
+              61,
+              192
+            ],
+            [
+              85,
+              216
+            ],
+            [
+              1,
+              145
+            ],
+            [
+              109,
+              13
+            ],
+            [
+              157,
+              121
+            ],
+            [
+              97,
+              49
+            ],
+            [
+              26,
+              181
+            ],
+            [
+              38,
+              169
+            ],
+            [
+              74,
+              134
+            ],
+            [
+              205,
+              62
+            ],
+            [
+              193,
+              86
+            ],
+            [
+              217,
+              2
+            ],
+            [
+              146,
+              110
+            ],
+            [
+              14,
+              158
+            ],
+            [
+              122,
+              98
+            ],
+            [
+              50,
+              27
+            ],
+            [
+              182,
+              39
+            ],
+            [
+              170,
+              75
+            ],
+            [
+              135,
+              206
+            ],
+            [
+              63,
+              194
+            ],
+            [
+              87,
+              218
+            ],
+            [
+              3,
+              147
+            ],
+            [
+              111,
+              15
+            ],
+            [
+              159,
+              123
+            ],
+            [
+              99,
+              51
+            ],
+            [
+              28,
+              183
+            ],
+            [
+              40,
+              171
+            ],
+            [
+              76,
+              136
+            ],
+            [
+              207,
+              64
+            ],
+            [
+              195,
+              88
+            ],
+            [
+              219,
+              4
+            ],
+            [
+              148,
+              112
+            ],
+            [
+              16,
+              160
+            ],
+            [
+              124,
+              100
+            ],
+            [
+              52,
+              29
+            ],
+            [
+              184,
+              41
+            ],
+            [
+              172,
+              77
+            ],
+            [
+              137,
+              208
+            ],
+            [
+              65,
+              196
+            ],
+            [
+              89,
+              220
+            ],
+            [
+              5,
+              149
+            ],
+            [
+              113,
+              17
+            ],
+            [
+              161,
+              125
+            ],
+            [
+              101,
+              53
+            ],
+            [
+              30,
+              185
+            ],
+            [
+              42,
+              173
+            ],
+            [
+              78,
+              138
+            ],
+            [
+              209,
+              66
+            ],
+            [
+              197,
+              90
+            ],
+            [
+              221,
+              6
+            ],
+            [
+              150,
+              114
+            ],
+            [
+              18,
+              162
+            ],
+            [
+              126,
+              102
+            ],
+            [
+              54,
+              31
+            ],
+            [
+              186,
+              43
+            ],
+            [
+              174,
+              79
+            ],
+            [
+              139,
+              210
+            ],
+            [
+              67,
+              198
+            ],
+            [
+              91,
+              222
+            ],
+            [
+              7,
+              151
+            ],
+            [
+              115,
+              19
+            ],
+            [
+              163,
+              127
+            ],
+            [
+              103,
+              55
+            ],
+            [
+              32,
+              187
+            ],
+            [
+              44,
+              175
+            ],
+            [
+              80,
+              140
+            ],
+            [
+              211,
+              68
+            ],
+            [
+              199,
+              92
+            ],
+            [
+              223,
+              8
+            ],
+            [
+              152,
+              116
+            ],
+            [
+              20,
+              164
+            ],
+            [
+              128,
+              104
+            ],
+            [
+              56,
+              33
+            ],
+            [
+              188,
+              45
+            ],
+            [
+              176,
+              81
+            ],
+            [
+              141,
+              212
+            ],
+            [
+              69,
+              200
+            ],
+            [
+              93,
+              224
+            ],
+            [
+              9,
+              153
+            ],
+            [
+              117,
+              21
+            ],
+            [
+              165,
+              129
+            ],
+            [
+              105,
+              57
+            ],
+            [
+              34,
+              189
+            ],
+            [
+              46,
+              177
+            ],
+            [
+              82,
+              142
+            ],
+            [
+              213,
+              70
+            ],
+            [
+              201,
+              94
+            ],
+            [
+              225,
+              10
+            ],
+            [
+              154,
+              118
+            ],
+            [
+              22,
+              166
+            ],
+            [
+              130,
+              106
+            ],
+            [
+              58,
+              35
+            ],
+            [
+              190,
+              47
+            ],
+            [
+              178,
+              83
+            ],
+            [
+              143,
+              214
+            ],
+            [
+              71,
+              202
+            ],
+            [
+              95,
+              226
+            ],
+            [
+              11,
+              155
+            ],
+            [
+              119,
+              23
+            ],
+            [
+              167,
+              131
+            ],
+            [
+              107,
+              59
+            ]
+          ],
+          "editorial_plaintext": "WURDEHEUTEAUFGRUNDAERZTLXGUTACHTENSEITENSSCHWARZMEERSTELLEDTSCHXSTAATZUSPEZIALAERZTLXBEHANDLUNGUXWIEDERHERSTELLUNG",
+          "known_coordinate_substitutions": [
+            {
+              "source_index": 194,
+              "printed_row_1based": 5,
+              "group_in_row_1based": 8,
+              "printed_group_1based": 40,
+              "group_position_1based": 1,
+              "before": "A",
+              "after": "G",
+              "plaintext_index": 32,
+              "raw_plaintext_symbol": "J",
+              "proposed_plaintext_symbol": "E"
+            },
+            {
+              "source_index": 200,
+              "printed_row_1based": 6,
+              "group_in_row_1based": 1,
+              "printed_group_1based": 41,
+              "group_position_1based": 2,
+              "before": "A",
+              "after": "G",
+              "plaintext_index": 89,
+              "raw_plaintext_symbol": "D",
+              "proposed_plaintext_symbol": "N"
+            },
+            {
+              "source_index": 218,
+              "printed_row_1based": 6,
+              "group_in_row_1based": 4,
+              "printed_group_1based": 44,
+              "group_position_1based": 5,
+              "before": "A",
+              "after": "G",
+              "plaintext_index": 33,
+              "raw_plaintext_symbol": "D",
+              "proposed_plaintext_symbol": "N"
+            }
+          ],
+          "missing_transmitted_coordinate": {
+            "reconstructed_transmitted_index": 168,
+            "coordinate": "A",
+            "source_group_local": true,
+            "plaintext_index": 1,
+            "raw_domain": "9FILOU",
+            "proposed_plaintext_symbol": "U"
+          },
+          "cost": {
+            "known_coordinate_substitutions": 3,
+            "source_erasure_fills": 0,
+            "missing_transmitted_coordinates": 1
+          },
+          "numeral_label_ledger": [],
+          "complete_encoded_witness": "FAXDFFFVFAAAAGAGXGDGAADAGGVGVFVGXVAGAGDDGDGGAGDAVGXXDFXDGFVFAFXVVDVAGGDVDADFDGFXXFGVGDFGDDDDAGGAXXXFAAXAXFFFGGFVFVXVXAGAFAFDDFFFDGVGAAFFVVXDGXFFVAFVGXDXFFVFAGAAGAVDFGAGAAAVGVAFFVXDFXGDGVGXGVADVFAGDADADGVGGVFXDGDFVGAXVADGVVVVDAGF",
+          "repaired_received_witness": "FAXDFFFVFAAAAGAGXGDGAADAGGVGVFVGXVAGAGDDGDGGAGDAVGXXDFXDGFVFAFXVVDVAGGDVDADFDGFXXFGVGDFGDDDDAGGAXXXFAAXAXFFFGGFVFVXVXAGAFAFDDFFFDGVGAAFFVVXDGXFFVAFVGXDXFFVFAGAAGAVDFGAGAAVGVAFFVXDFXGDGVGXGVADVFAGDADADGVGGVFXDGDFVGAXVADGVVVVDAGF"
+        },
+        {
+          "missing_transmitted_index": 169,
+          "working_source_slots": 228,
+          "working_raw_reading": {
+            "plaintext": "WURDEHEUTEA?FGRUNDAERZTLXGUTACHTJDSEITENSSCHWARZMEERSTELLEDTSCHXSTAATZUSPEZIALAERZTLXBEHADDLUNGUXWIEDERHERSTELLUNG",
+            "domains": [
+              "W",
+              "U",
+              "R",
+              "D",
+              "E",
+              "H",
+              "E",
+              "U",
+              "T",
+              "E",
+              "A",
+              "0DJRUY",
+              "F",
+              "G",
+              "R",
+              "U",
+              "N",
+              "D",
+              "A",
+              "E",
+              "R",
+              "Z",
+              "T",
+              "L",
+              "X",
+              "G",
+              "U",
+              "T",
+              "A",
+              "C",
+              "H",
+              "T",
+              "J",
+              "D",
+              "S",
+              "E",
+              "I",
+              "T",
+              "E",
+              "N",
+              "S",
+              "S",
+              "C",
+              "H",
+              "W",
+              "A",
+              "R",
+              "Z",
+              "M",
+              "E",
+              "E",
+              "R",
+              "S",
+              "T",
+              "E",
+              "L",
+              "L",
+              "E",
+              "D",
+              "T",
+              "S",
+              "C",
+              "H",
+              "X",
+              "S",
+              "T",
+              "A",
+              "A",
+              "T",
+              "Z",
+              "U",
+              "S",
+              "P",
+              "E",
+              "Z",
+              "I",
+              "A",
+              "L",
+              "A",
+              "E",
+              "R",
+              "Z",
+              "T",
+              "L",
+              "X",
+              "B",
+              "E",
+              "H",
+              "A",
+              "D",
+              "D",
+              "L",
+              "U",
+              "N",
+              "G",
+              "U",
+              "X",
+              "W",
+              "I",
+              "E",
+              "D",
+              "E",
+              "R",
+              "H",
+              "E",
+              "R",
+              "S",
+              "T",
+              "E",
+              "L",
+              "L",
+              "U",
+              "N",
+              "G"
+            ],
+            "plaintext_positions": 114,
+            "fixed_positions": 113,
+            "unpaired_coordinate": null
+          },
+          "coordinate_origins": [
+            [
+              24,
+              179
+            ],
+            [
+              36,
+              168
+            ],
+            [
+              72,
+              132
+            ],
+            [
+              203,
+              60
+            ],
+            [
+              191,
+              84
+            ],
+            [
+              215,
+              0
+            ],
+            [
+              144,
+              108
+            ],
+            [
+              12,
+              156
+            ],
+            [
+              120,
+              96
+            ],
+            [
+              48,
+              25
+            ],
+            [
+              180,
+              37
+            ],
+            [
+              null,
+              73
+            ],
+            [
+              133,
+              204
+            ],
+            [
+              61,
+              192
+            ],
+            [
+              85,
+              216
+            ],
+            [
+              1,
+              145
+            ],
+            [
+              109,
+              13
+            ],
+            [
+              157,
+              121
+            ],
+            [
+              97,
+              49
+            ],
+            [
+              26,
+              181
+            ],
+            [
+              38,
+              169
+            ],
+            [
+              74,
+              134
+            ],
+            [
+              205,
+              62
+            ],
+            [
+              193,
+              86
+            ],
+            [
+              217,
+              2
+            ],
+            [
+              146,
+              110
+            ],
+            [
+              14,
+              158
+            ],
+            [
+              122,
+              98
+            ],
+            [
+              50,
+              27
+            ],
+            [
+              182,
+              39
+            ],
+            [
+              170,
+              75
+            ],
+            [
+              135,
+              206
+            ],
+            [
+              63,
+              194
+            ],
+            [
+              87,
+              218
+            ],
+            [
+              3,
+              147
+            ],
+            [
+              111,
+              15
+            ],
+            [
+              159,
+              123
+            ],
+            [
+              99,
+              51
+            ],
+            [
+              28,
+              183
+            ],
+            [
+              40,
+              171
+            ],
+            [
+              76,
+              136
+            ],
+            [
+              207,
+              64
+            ],
+            [
+              195,
+              88
+            ],
+            [
+              219,
+              4
+            ],
+            [
+              148,
+              112
+            ],
+            [
+              16,
+              160
+            ],
+            [
+              124,
+              100
+            ],
+            [
+              52,
+              29
+            ],
+            [
+              184,
+              41
+            ],
+            [
+              172,
+              77
+            ],
+            [
+              137,
+              208
+            ],
+            [
+              65,
+              196
+            ],
+            [
+              89,
+              220
+            ],
+            [
+              5,
+              149
+            ],
+            [
+              113,
+              17
+            ],
+            [
+              161,
+              125
+            ],
+            [
+              101,
+              53
+            ],
+            [
+              30,
+              185
+            ],
+            [
+              42,
+              173
+            ],
+            [
+              78,
+              138
+            ],
+            [
+              209,
+              66
+            ],
+            [
+              197,
+              90
+            ],
+            [
+              221,
+              6
+            ],
+            [
+              150,
+              114
+            ],
+            [
+              18,
+              162
+            ],
+            [
+              126,
+              102
+            ],
+            [
+              54,
+              31
+            ],
+            [
+              186,
+              43
+            ],
+            [
+              174,
+              79
+            ],
+            [
+              139,
+              210
+            ],
+            [
+              67,
+              198
+            ],
+            [
+              91,
+              222
+            ],
+            [
+              7,
+              151
+            ],
+            [
+              115,
+              19
+            ],
+            [
+              163,
+              127
+            ],
+            [
+              103,
+              55
+            ],
+            [
+              32,
+              187
+            ],
+            [
+              44,
+              175
+            ],
+            [
+              80,
+              140
+            ],
+            [
+              211,
+              68
+            ],
+            [
+              199,
+              92
+            ],
+            [
+              223,
+              8
+            ],
+            [
+              152,
+              116
+            ],
+            [
+              20,
+              164
+            ],
+            [
+              128,
+              104
+            ],
+            [
+              56,
+              33
+            ],
+            [
+              188,
+              45
+            ],
+            [
+              176,
+              81
+            ],
+            [
+              141,
+              212
+            ],
+            [
+              69,
+              200
+            ],
+            [
+              93,
+              224
+            ],
+            [
+              9,
+              153
+            ],
+            [
+              117,
+              21
+            ],
+            [
+              165,
+              129
+            ],
+            [
+              105,
+              57
+            ],
+            [
+              34,
+              189
+            ],
+            [
+              46,
+              177
+            ],
+            [
+              82,
+              142
+            ],
+            [
+              213,
+              70
+            ],
+            [
+              201,
+              94
+            ],
+            [
+              225,
+              10
+            ],
+            [
+              154,
+              118
+            ],
+            [
+              22,
+              166
+            ],
+            [
+              130,
+              106
+            ],
+            [
+              58,
+              35
+            ],
+            [
+              190,
+              47
+            ],
+            [
+              178,
+              83
+            ],
+            [
+              143,
+              214
+            ],
+            [
+              71,
+              202
+            ],
+            [
+              95,
+              226
+            ],
+            [
+              11,
+              155
+            ],
+            [
+              119,
+              23
+            ],
+            [
+              167,
+              131
+            ],
+            [
+              107,
+              59
+            ]
+          ],
+          "editorial_plaintext": "WURDEHEUTEAUFGRUNDAERZTLXGUTACHTENSEITENSSCHWARZMEERSTELLEDTSCHXSTAATZUSPEZIALAERZTLXBEHANDLUNGUXWIEDERHERSTELLUNG",
+          "known_coordinate_substitutions": [
+            {
+              "source_index": 194,
+              "printed_row_1based": 5,
+              "group_in_row_1based": 8,
+              "printed_group_1based": 40,
+              "group_position_1based": 1,
+              "before": "A",
+              "after": "G",
+              "plaintext_index": 32,
+              "raw_plaintext_symbol": "J",
+              "proposed_plaintext_symbol": "E"
+            },
+            {
+              "source_index": 200,
+              "printed_row_1based": 6,
+              "group_in_row_1based": 1,
+              "printed_group_1based": 41,
+              "group_position_1based": 2,
+              "before": "A",
+              "after": "G",
+              "plaintext_index": 89,
+              "raw_plaintext_symbol": "D",
+              "proposed_plaintext_symbol": "N"
+            },
+            {
+              "source_index": 218,
+              "printed_row_1based": 6,
+              "group_in_row_1based": 4,
+              "printed_group_1based": 44,
+              "group_position_1based": 5,
+              "before": "A",
+              "after": "G",
+              "plaintext_index": 33,
+              "raw_plaintext_symbol": "D",
+              "proposed_plaintext_symbol": "N"
+            }
+          ],
+          "missing_transmitted_coordinate": {
+            "reconstructed_transmitted_index": 169,
+            "coordinate": "A",
+            "source_group_local": true,
+            "plaintext_index": 11,
+            "raw_domain": "0DJRUY",
+            "proposed_plaintext_symbol": "U"
+          },
+          "cost": {
+            "known_coordinate_substitutions": 3,
+            "source_erasure_fills": 0,
+            "missing_transmitted_coordinates": 1
+          },
+          "numeral_label_ledger": [],
+          "complete_encoded_witness": "FAXDFFFVFAAAAGAGXGDGAADAGGVGVFVGXVAGAGDDGDGGAGDAVGXXDFXDGFVFAFXVVDVAGGDVDADFDGFXXFGVGDFGDDDDAGGAXXXFAAXAXFFFGGFVFVXVXAGAFAFDDFFFDGVGAAFFVVXDGXFFVAFVGXDXFFVFAGAAGAVDFGAGAAAVGVAFFVXDFXGDGVGXGVADVFAGDADADGVGGVFXDGDFVGAXVADGVVVVDAGF",
+          "repaired_received_witness": "FAXDFFFVFAAAAGAGXGDGAADAGGVGVFVGXVAGAGDDGDGGAGDAVGXXDFXDGFVFAFXVVDVAGGDVDADFDGFXXFGVGDFGDDDDAGGAXXXFAAXAXFFFGGFVFVXVXAGAFAFDDFFFDGVGAAFFVVXDGXFFVAFVGXDXFFVFAGAAGAVDFGAGAAVGVAFFVXDFXGDGVGXGVADVFAGDADADGVGGVFXDGDFVGAXVADGVVVVDAGF"
+        },
+        {
+          "missing_transmitted_index": 170,
+          "working_source_slots": 228,
+          "working_raw_reading": {
+            "plaintext": "WURDEHEUTEAUFGRUNDAE?ZTLXGUTACHTJDSEITENSSCHWARZMEERSTELLEDTSCHXSTAATZUSPEZIALAERZTLXBEHADDLUNGUXWIEDERHERSTELLUNG",
+            "domains": [
+              "W",
+              "U",
+              "R",
+              "D",
+              "E",
+              "H",
+              "E",
+              "U",
+              "T",
+              "E",
+              "A",
+              "U",
+              "F",
+              "G",
+              "R",
+              "U",
+              "N",
+              "D",
+              "A",
+              "E",
+              "CRSVXZ",
+              "Z",
+              "T",
+              "L",
+              "X",
+              "G",
+              "U",
+              "T",
+              "A",
+              "C",
+              "H",
+              "T",
+              "J",
+              "D",
+              "S",
+              "E",
+              "I",
+              "T",
+              "E",
+              "N",
+              "S",
+              "S",
+              "C",
+              "H",
+              "W",
+              "A",
+              "R",
+              "Z",
+              "M",
+              "E",
+              "E",
+              "R",
+              "S",
+              "T",
+              "E",
+              "L",
+              "L",
+              "E",
+              "D",
+              "T",
+              "S",
+              "C",
+              "H",
+              "X",
+              "S",
+              "T",
+              "A",
+              "A",
+              "T",
+              "Z",
+              "U",
+              "S",
+              "P",
+              "E",
+              "Z",
+              "I",
+              "A",
+              "L",
+              "A",
+              "E",
+              "R",
+              "Z",
+              "T",
+              "L",
+              "X",
+              "B",
+              "E",
+              "H",
+              "A",
+              "D",
+              "D",
+              "L",
+              "U",
+              "N",
+              "G",
+              "U",
+              "X",
+              "W",
+              "I",
+              "E",
+              "D",
+              "E",
+              "R",
+              "H",
+              "E",
+              "R",
+              "S",
+              "T",
+              "E",
+              "L",
+              "L",
+              "U",
+              "N",
+              "G"
+            ],
+            "plaintext_positions": 114,
+            "fixed_positions": 113,
+            "unpaired_coordinate": null
+          },
+          "coordinate_origins": [
+            [
+              24,
+              179
+            ],
+            [
+              36,
+              168
+            ],
+            [
+              72,
+              132
+            ],
+            [
+              203,
+              60
+            ],
+            [
+              191,
+              84
+            ],
+            [
+              215,
+              0
+            ],
+            [
+              144,
+              108
+            ],
+            [
+              12,
+              156
+            ],
+            [
+              120,
+              96
+            ],
+            [
+              48,
+              25
+            ],
+            [
+              180,
+              37
+            ],
+            [
+              169,
+              73
+            ],
+            [
+              133,
+              204
+            ],
+            [
+              61,
+              192
+            ],
+            [
+              85,
+              216
+            ],
+            [
+              1,
+              145
+            ],
+            [
+              109,
+              13
+            ],
+            [
+              157,
+              121
+            ],
+            [
+              97,
+              49
+            ],
+            [
+              26,
+              181
+            ],
+            [
+              38,
+              null
+            ],
+            [
+              74,
+              134
+            ],
+            [
+              205,
+              62
+            ],
+            [
+              193,
+              86
+            ],
+            [
+              217,
+              2
+            ],
+            [
+              146,
+              110
+            ],
+            [
+              14,
+              158
+            ],
+            [
+              122,
+              98
+            ],
+            [
+              50,
+              27
+            ],
+            [
+              182,
+              39
+            ],
+            [
+              170,
+              75
+            ],
+            [
+              135,
+              206
+            ],
+            [
+              63,
+              194
+            ],
+            [
+              87,
+              218
+            ],
+            [
+              3,
+              147
+            ],
+            [
+              111,
+              15
+            ],
+            [
+              159,
+              123
+            ],
+            [
+              99,
+              51
+            ],
+            [
+              28,
+              183
+            ],
+            [
+              40,
+              171
+            ],
+            [
+              76,
+              136
+            ],
+            [
+              207,
+              64
+            ],
+            [
+              195,
+              88
+            ],
+            [
+              219,
+              4
+            ],
+            [
+              148,
+              112
+            ],
+            [
+              16,
+              160
+            ],
+            [
+              124,
+              100
+            ],
+            [
+              52,
+              29
+            ],
+            [
+              184,
+              41
+            ],
+            [
+              172,
+              77
+            ],
+            [
+              137,
+              208
+            ],
+            [
+              65,
+              196
+            ],
+            [
+              89,
+              220
+            ],
+            [
+              5,
+              149
+            ],
+            [
+              113,
+              17
+            ],
+            [
+              161,
+              125
+            ],
+            [
+              101,
+              53
+            ],
+            [
+              30,
+              185
+            ],
+            [
+              42,
+              173
+            ],
+            [
+              78,
+              138
+            ],
+            [
+              209,
+              66
+            ],
+            [
+              197,
+              90
+            ],
+            [
+              221,
+              6
+            ],
+            [
+              150,
+              114
+            ],
+            [
+              18,
+              162
+            ],
+            [
+              126,
+              102
+            ],
+            [
+              54,
+              31
+            ],
+            [
+              186,
+              43
+            ],
+            [
+              174,
+              79
+            ],
+            [
+              139,
+              210
+            ],
+            [
+              67,
+              198
+            ],
+            [
+              91,
+              222
+            ],
+            [
+              7,
+              151
+            ],
+            [
+              115,
+              19
+            ],
+            [
+              163,
+              127
+            ],
+            [
+              103,
+              55
+            ],
+            [
+              32,
+              187
+            ],
+            [
+              44,
+              175
+            ],
+            [
+              80,
+              140
+            ],
+            [
+              211,
+              68
+            ],
+            [
+              199,
+              92
+            ],
+            [
+              223,
+              8
+            ],
+            [
+              152,
+              116
+            ],
+            [
+              20,
+              164
+            ],
+            [
+              128,
+              104
+            ],
+            [
+              56,
+              33
+            ],
+            [
+              188,
+              45
+            ],
+            [
+              176,
+              81
+            ],
+            [
+              141,
+              212
+            ],
+            [
+              69,
+              200
+            ],
+            [
+              93,
+              224
+            ],
+            [
+              9,
+              153
+            ],
+            [
+              117,
+              21
+            ],
+            [
+              165,
+              129
+            ],
+            [
+              105,
+              57
+            ],
+            [
+              34,
+              189
+            ],
+            [
+              46,
+              177
+            ],
+            [
+              82,
+              142
+            ],
+            [
+              213,
+              70
+            ],
+            [
+              201,
+              94
+            ],
+            [
+              225,
+              10
+            ],
+            [
+              154,
+              118
+            ],
+            [
+              22,
+              166
+            ],
+            [
+              130,
+              106
+            ],
+            [
+              58,
+              35
+            ],
+            [
+              190,
+              47
+            ],
+            [
+              178,
+              83
+            ],
+            [
+              143,
+              214
+            ],
+            [
+              71,
+              202
+            ],
+            [
+              95,
+              226
+            ],
+            [
+              11,
+              155
+            ],
+            [
+              119,
+              23
+            ],
+            [
+              167,
+              131
+            ],
+            [
+              107,
+              59
+            ]
+          ],
+          "editorial_plaintext": "WURDEHEUTEAUFGRUNDAERZTLXGUTACHTENSEITENSSCHWARZMEERSTELLEDTSCHXSTAATZUSPEZIALAERZTLXBEHANDLUNGUXWIEDERHERSTELLUNG",
+          "known_coordinate_substitutions": [
+            {
+              "source_index": 194,
+              "printed_row_1based": 5,
+              "group_in_row_1based": 8,
+              "printed_group_1based": 40,
+              "group_position_1based": 1,
+              "before": "A",
+              "after": "G",
+              "plaintext_index": 32,
+              "raw_plaintext_symbol": "J",
+              "proposed_plaintext_symbol": "E"
+            },
+            {
+              "source_index": 200,
+              "printed_row_1based": 6,
+              "group_in_row_1based": 1,
+              "printed_group_1based": 41,
+              "group_position_1based": 2,
+              "before": "A",
+              "after": "G",
+              "plaintext_index": 89,
+              "raw_plaintext_symbol": "D",
+              "proposed_plaintext_symbol": "N"
+            },
+            {
+              "source_index": 218,
+              "printed_row_1based": 6,
+              "group_in_row_1based": 4,
+              "printed_group_1based": 44,
+              "group_position_1based": 5,
+              "before": "A",
+              "after": "G",
+              "plaintext_index": 33,
+              "raw_plaintext_symbol": "D",
+              "proposed_plaintext_symbol": "N"
+            }
+          ],
+          "missing_transmitted_coordinate": {
+            "reconstructed_transmitted_index": 170,
+            "coordinate": "A",
+            "source_group_local": false,
+            "plaintext_index": 20,
+            "raw_domain": "CRSVXZ",
+            "proposed_plaintext_symbol": "R"
+          },
+          "cost": {
+            "known_coordinate_substitutions": 3,
+            "source_erasure_fills": 0,
+            "missing_transmitted_coordinates": 1
+          },
+          "numeral_label_ledger": [],
+          "complete_encoded_witness": "FAXDFFFVFAAAAGAGXGDGAADAGGVGVFVGXVAGAGDDGDGGAGDAVGXXDFXDGFVFAFXVVDVAGGDVDADFDGFXXFGVGDFGDDDDAGGAXXXFAAXAXFFFGGFVFVXVXAGAFAFDDFFFDGVGAAFFVVXDGXFFVAFVGXDXFFVFAGAAGAVDFGAGAAAVGVAFFVXDFXGDGVGXGVADVFAGDADADGVGGVFXDGDFVGAXVADGVVVVDAGF",
+          "repaired_received_witness": "FAXDFFFVFAAAAGAGXGDGAADAGGVGVFVGXVAGAGDDGDGGAGDAVGXXDFXDGFVFAFXVVDVAGGDVDADFDGFXXFGVGDFGDDDDAGGAXXXFAAXAXFFFGGFVFVXVXAGAFAFDDFFFDGVGAAFFVVXDGXFFVAFVGXDXFFVFAGAAGAVDFGAGAAVGVAFFVXDFXGDGVGXGVADVFAGDADADGVGGVFXDGDFVGAXVADGVVVVDAGF"
+        }
+      ],
+      "retrospective_template_prices": [
+        {
+          "missing_transmitted_index": 0,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 139
+        },
+        {
+          "missing_transmitted_index": 1,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 138
+        },
+        {
+          "missing_transmitted_index": 2,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 137
+        },
+        {
+          "missing_transmitted_index": 3,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 136
+        },
+        {
+          "missing_transmitted_index": 4,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 135
+        },
+        {
+          "missing_transmitted_index": 5,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 135
+        },
+        {
+          "missing_transmitted_index": 6,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 135
+        },
+        {
+          "missing_transmitted_index": 7,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 134
+        },
+        {
+          "missing_transmitted_index": 8,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 133
+        },
+        {
+          "missing_transmitted_index": 9,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 132
+        },
+        {
+          "missing_transmitted_index": 10,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 132
+        },
+        {
+          "missing_transmitted_index": 11,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 132
+        },
+        {
+          "missing_transmitted_index": 12,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 132
+        },
+        {
+          "missing_transmitted_index": 13,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 131
+        },
+        {
+          "missing_transmitted_index": 14,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 130
+        },
+        {
+          "missing_transmitted_index": 15,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 129
+        },
+        {
+          "missing_transmitted_index": 16,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 128
+        },
+        {
+          "missing_transmitted_index": 17,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 127
+        },
+        {
+          "missing_transmitted_index": 18,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 126
+        },
+        {
+          "missing_transmitted_index": 19,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 125
+        },
+        {
+          "missing_transmitted_index": 20,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 124
+        },
+        {
+          "missing_transmitted_index": 21,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 124
+        },
+        {
+          "missing_transmitted_index": 22,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 123
+        },
+        {
+          "missing_transmitted_index": 23,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 122
+        },
+        {
+          "missing_transmitted_index": 24,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 121
+        },
+        {
+          "missing_transmitted_index": 25,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 121
+        },
+        {
+          "missing_transmitted_index": 26,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 120
+        },
+        {
+          "missing_transmitted_index": 27,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 119
+        },
+        {
+          "missing_transmitted_index": 28,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 118
+        },
+        {
+          "missing_transmitted_index": 29,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 117
+        },
+        {
+          "missing_transmitted_index": 30,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 116
+        },
+        {
+          "missing_transmitted_index": 31,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 115
+        },
+        {
+          "missing_transmitted_index": 32,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 114
+        },
+        {
+          "missing_transmitted_index": 33,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 113
+        },
+        {
+          "missing_transmitted_index": 34,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 112
+        },
+        {
+          "missing_transmitted_index": 35,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 111
+        },
+        {
+          "missing_transmitted_index": 36,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 110
+        },
+        {
+          "missing_transmitted_index": 37,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 109
+        },
+        {
+          "missing_transmitted_index": 38,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 108
+        },
+        {
+          "missing_transmitted_index": 39,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 108
+        },
+        {
+          "missing_transmitted_index": 40,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 107
+        },
+        {
+          "missing_transmitted_index": 41,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 106
+        },
+        {
+          "missing_transmitted_index": 42,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 105
+        },
+        {
+          "missing_transmitted_index": 43,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 105
+        },
+        {
+          "missing_transmitted_index": 44,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 104
+        },
+        {
+          "missing_transmitted_index": 45,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 103
+        },
+        {
+          "missing_transmitted_index": 46,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 102
+        },
+        {
+          "missing_transmitted_index": 47,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 101
+        },
+        {
+          "missing_transmitted_index": 48,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 100
+        },
+        {
+          "missing_transmitted_index": 49,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 99
+        },
+        {
+          "missing_transmitted_index": 50,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 98
+        },
+        {
+          "missing_transmitted_index": 51,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 98
+        },
+        {
+          "missing_transmitted_index": 52,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 97
+        },
+        {
+          "missing_transmitted_index": 53,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 96
+        },
+        {
+          "missing_transmitted_index": 54,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 95
+        },
+        {
+          "missing_transmitted_index": 55,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 94
+        },
+        {
+          "missing_transmitted_index": 56,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 93
+        },
+        {
+          "missing_transmitted_index": 57,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 92
+        },
+        {
+          "missing_transmitted_index": 58,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 91
+        },
+        {
+          "missing_transmitted_index": 59,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 90
+        },
+        {
+          "missing_transmitted_index": 60,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 89
+        },
+        {
+          "missing_transmitted_index": 61,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 88
+        },
+        {
+          "missing_transmitted_index": 62,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 87
+        },
+        {
+          "missing_transmitted_index": 63,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 86
+        },
+        {
+          "missing_transmitted_index": 64,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 86
+        },
+        {
+          "missing_transmitted_index": 65,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 85
+        },
+        {
+          "missing_transmitted_index": 66,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 84
+        },
+        {
+          "missing_transmitted_index": 67,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 83
+        },
+        {
+          "missing_transmitted_index": 68,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 82
+        },
+        {
+          "missing_transmitted_index": 69,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 82
+        },
+        {
+          "missing_transmitted_index": 70,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 81
+        },
+        {
+          "missing_transmitted_index": 71,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 80
+        },
+        {
+          "missing_transmitted_index": 72,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 79
+        },
+        {
+          "missing_transmitted_index": 73,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 78
+        },
+        {
+          "missing_transmitted_index": 74,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 77
+        },
+        {
+          "missing_transmitted_index": 75,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 76
+        },
+        {
+          "missing_transmitted_index": 76,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 75
+        },
+        {
+          "missing_transmitted_index": 77,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 74
+        },
+        {
+          "missing_transmitted_index": 78,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 73
+        },
+        {
+          "missing_transmitted_index": 79,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 72
+        },
+        {
+          "missing_transmitted_index": 80,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 72
+        },
+        {
+          "missing_transmitted_index": 81,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 71
+        },
+        {
+          "missing_transmitted_index": 82,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 70
+        },
+        {
+          "missing_transmitted_index": 83,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 69
+        },
+        {
+          "missing_transmitted_index": 84,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 68
+        },
+        {
+          "missing_transmitted_index": 85,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 67
+        },
+        {
+          "missing_transmitted_index": 86,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 66
+        },
+        {
+          "missing_transmitted_index": 87,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 65
+        },
+        {
+          "missing_transmitted_index": 88,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 64
+        },
+        {
+          "missing_transmitted_index": 89,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 64
+        },
+        {
+          "missing_transmitted_index": 90,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 64
+        },
+        {
+          "missing_transmitted_index": 91,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 64
+        },
+        {
+          "missing_transmitted_index": 92,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 63
+        },
+        {
+          "missing_transmitted_index": 93,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 62
+        },
+        {
+          "missing_transmitted_index": 94,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 62
+        },
+        {
+          "missing_transmitted_index": 95,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 61
+        },
+        {
+          "missing_transmitted_index": 96,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 60
+        },
+        {
+          "missing_transmitted_index": 97,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 60
+        },
+        {
+          "missing_transmitted_index": 98,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 60
+        },
+        {
+          "missing_transmitted_index": 99,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 59
+        },
+        {
+          "missing_transmitted_index": 100,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 58
+        },
+        {
+          "missing_transmitted_index": 101,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 58
+        },
+        {
+          "missing_transmitted_index": 102,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 57
+        },
+        {
+          "missing_transmitted_index": 103,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 56
+        },
+        {
+          "missing_transmitted_index": 104,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 55
+        },
+        {
+          "missing_transmitted_index": 105,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 54
+        },
+        {
+          "missing_transmitted_index": 106,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 54
+        },
+        {
+          "missing_transmitted_index": 107,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 54
+        },
+        {
+          "missing_transmitted_index": 108,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 53
+        },
+        {
+          "missing_transmitted_index": 109,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 53
+        },
+        {
+          "missing_transmitted_index": 110,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 52
+        },
+        {
+          "missing_transmitted_index": 111,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 51
+        },
+        {
+          "missing_transmitted_index": 112,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 50
+        },
+        {
+          "missing_transmitted_index": 113,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 49
+        },
+        {
+          "missing_transmitted_index": 114,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 48
+        },
+        {
+          "missing_transmitted_index": 115,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 47
+        },
+        {
+          "missing_transmitted_index": 116,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 46
+        },
+        {
+          "missing_transmitted_index": 117,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 45
+        },
+        {
+          "missing_transmitted_index": 118,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 44
+        },
+        {
+          "missing_transmitted_index": 119,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 43
+        },
+        {
+          "missing_transmitted_index": 120,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 42
+        },
+        {
+          "missing_transmitted_index": 121,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 41
+        },
+        {
+          "missing_transmitted_index": 122,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 40
+        },
+        {
+          "missing_transmitted_index": 123,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 39
+        },
+        {
+          "missing_transmitted_index": 124,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 39
+        },
+        {
+          "missing_transmitted_index": 125,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 38
+        },
+        {
+          "missing_transmitted_index": 126,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 38
+        },
+        {
+          "missing_transmitted_index": 127,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 38
+        },
+        {
+          "missing_transmitted_index": 128,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 37
+        },
+        {
+          "missing_transmitted_index": 129,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 36
+        },
+        {
+          "missing_transmitted_index": 130,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 35
+        },
+        {
+          "missing_transmitted_index": 131,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 34
+        },
+        {
+          "missing_transmitted_index": 132,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 33
+        },
+        {
+          "missing_transmitted_index": 133,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 33
+        },
+        {
+          "missing_transmitted_index": 134,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 32
+        },
+        {
+          "missing_transmitted_index": 135,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 32
+        },
+        {
+          "missing_transmitted_index": 136,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 31
+        },
+        {
+          "missing_transmitted_index": 137,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 31
+        },
+        {
+          "missing_transmitted_index": 138,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 30
+        },
+        {
+          "missing_transmitted_index": 139,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 29
+        },
+        {
+          "missing_transmitted_index": 140,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 28
+        },
+        {
+          "missing_transmitted_index": 141,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 27
+        },
+        {
+          "missing_transmitted_index": 142,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 26
+        },
+        {
+          "missing_transmitted_index": 143,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 26
+        },
+        {
+          "missing_transmitted_index": 144,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 25
+        },
+        {
+          "missing_transmitted_index": 145,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 24
+        },
+        {
+          "missing_transmitted_index": 146,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 23
+        },
+        {
+          "missing_transmitted_index": 147,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 22
+        },
+        {
+          "missing_transmitted_index": 148,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 21
+        },
+        {
+          "missing_transmitted_index": 149,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 20
+        },
+        {
+          "missing_transmitted_index": 150,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 19
+        },
+        {
+          "missing_transmitted_index": 151,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 18
+        },
+        {
+          "missing_transmitted_index": 152,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 17
+        },
+        {
+          "missing_transmitted_index": 153,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 17
+        },
+        {
+          "missing_transmitted_index": 154,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 16
+        },
+        {
+          "missing_transmitted_index": 155,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 15
+        },
+        {
+          "missing_transmitted_index": 156,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 14
+        },
+        {
+          "missing_transmitted_index": 157,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 13
+        },
+        {
+          "missing_transmitted_index": 158,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 12
+        },
+        {
+          "missing_transmitted_index": 159,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 12
+        },
+        {
+          "missing_transmitted_index": 160,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 11
+        },
+        {
+          "missing_transmitted_index": 161,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 10
+        },
+        {
+          "missing_transmitted_index": 162,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 9
+        },
+        {
+          "missing_transmitted_index": 163,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 8
+        },
+        {
+          "missing_transmitted_index": 164,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 7
+        },
+        {
+          "missing_transmitted_index": 165,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 6
+        },
+        {
+          "missing_transmitted_index": 166,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 5
+        },
+        {
+          "missing_transmitted_index": 167,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 4
+        },
+        {
+          "missing_transmitted_index": 168,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 3
+        },
+        {
+          "missing_transmitted_index": 169,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 3
+        },
+        {
+          "missing_transmitted_index": 170,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 3
+        },
+        {
+          "missing_transmitted_index": 171,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 4
+        },
+        {
+          "missing_transmitted_index": 172,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 5
+        },
+        {
+          "missing_transmitted_index": 173,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 6
+        },
+        {
+          "missing_transmitted_index": 174,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 7
+        },
+        {
+          "missing_transmitted_index": 175,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 8
+        },
+        {
+          "missing_transmitted_index": 176,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 8
+        },
+        {
+          "missing_transmitted_index": 177,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 9
+        },
+        {
+          "missing_transmitted_index": 178,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 10
+        },
+        {
+          "missing_transmitted_index": 179,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 11
+        },
+        {
+          "missing_transmitted_index": 180,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 12
+        },
+        {
+          "missing_transmitted_index": 181,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 13
+        },
+        {
+          "missing_transmitted_index": 182,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 14
+        },
+        {
+          "missing_transmitted_index": 183,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 15
+        },
+        {
+          "missing_transmitted_index": 184,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 16
+        },
+        {
+          "missing_transmitted_index": 185,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 17
+        },
+        {
+          "missing_transmitted_index": 186,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 18
+        },
+        {
+          "missing_transmitted_index": 187,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 19
+        },
+        {
+          "missing_transmitted_index": 188,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 20
+        },
+        {
+          "missing_transmitted_index": 189,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 21
+        },
+        {
+          "missing_transmitted_index": 190,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 22
+        },
+        {
+          "missing_transmitted_index": 191,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 23
+        },
+        {
+          "missing_transmitted_index": 192,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 24
+        },
+        {
+          "missing_transmitted_index": 193,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 25
+        },
+        {
+          "missing_transmitted_index": 194,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 26
+        },
+        {
+          "missing_transmitted_index": 195,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 25
+        },
+        {
+          "missing_transmitted_index": 196,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 26
+        },
+        {
+          "missing_transmitted_index": 197,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 27
+        },
+        {
+          "missing_transmitted_index": 198,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 28
+        },
+        {
+          "missing_transmitted_index": 199,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 29
+        },
+        {
+          "missing_transmitted_index": 200,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 30
+        },
+        {
+          "missing_transmitted_index": 201,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 30
+        },
+        {
+          "missing_transmitted_index": 202,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 31
+        },
+        {
+          "missing_transmitted_index": 203,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 32
+        },
+        {
+          "missing_transmitted_index": 204,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 32
+        },
+        {
+          "missing_transmitted_index": 205,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 33
+        },
+        {
+          "missing_transmitted_index": 206,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 34
+        },
+        {
+          "missing_transmitted_index": 207,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 35
+        },
+        {
+          "missing_transmitted_index": 208,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 36
+        },
+        {
+          "missing_transmitted_index": 209,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 37
+        },
+        {
+          "missing_transmitted_index": 210,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 38
+        },
+        {
+          "missing_transmitted_index": 211,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 39
+        },
+        {
+          "missing_transmitted_index": 212,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 40
+        },
+        {
+          "missing_transmitted_index": 213,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 41
+        },
+        {
+          "missing_transmitted_index": 214,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 42
+        },
+        {
+          "missing_transmitted_index": 215,
+          "inserted_coordinate": "X",
+          "known_coordinate_substitutions": 43
+        },
+        {
+          "missing_transmitted_index": 216,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 44
+        },
+        {
+          "missing_transmitted_index": 217,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 45
+        },
+        {
+          "missing_transmitted_index": 218,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 46
+        },
+        {
+          "missing_transmitted_index": 219,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 46
+        },
+        {
+          "missing_transmitted_index": 220,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 47
+        },
+        {
+          "missing_transmitted_index": 221,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 47
+        },
+        {
+          "missing_transmitted_index": 222,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 47
+        },
+        {
+          "missing_transmitted_index": 223,
+          "inserted_coordinate": "V",
+          "known_coordinate_substitutions": 47
+        },
+        {
+          "missing_transmitted_index": 224,
+          "inserted_coordinate": "D",
+          "known_coordinate_substitutions": 48
+        },
+        {
+          "missing_transmitted_index": 225,
+          "inserted_coordinate": "A",
+          "known_coordinate_substitutions": 49
+        },
+        {
+          "missing_transmitted_index": 226,
+          "inserted_coordinate": "G",
+          "known_coordinate_substitutions": 50
+        },
+        {
+          "missing_transmitted_index": 227,
+          "inserted_coordinate": "F",
+          "known_coordinate_substitutions": 51
+        }
+      ]
+    },
+    {
+      "id": "p104_C2",
+      "key_id": "Nov1-3",
+      "source_slots": 140,
+      "valid_received_coordinates": 140,
+      "advertised_length": 140,
+      "unmodified_source_reading": {
+        "plaintext": "DERGESUNDHEITZUMERSATZTRUPPJNTEILINMARSHGESETZTXXRETTERLXKETTERLXLTNXX",
+        "domains": [
+          "D",
+          "E",
+          "R",
+          "G",
+          "E",
+          "S",
+          "U",
+          "N",
+          "D",
+          "H",
+          "E",
+          "I",
+          "T",
+          "Z",
+          "U",
+          "M",
+          "E",
+          "R",
+          "S",
+          "A",
+          "T",
+          "Z",
+          "T",
+          "R",
+          "U",
+          "P",
+          "P",
+          "J",
+          "N",
+          "T",
+          "E",
+          "I",
+          "L",
+          "I",
+          "N",
+          "M",
+          "A",
+          "R",
+          "S",
+          "H",
+          "G",
+          "E",
+          "S",
+          "E",
+          "T",
+          "Z",
+          "T",
+          "X",
+          "X",
+          "R",
+          "E",
+          "T",
+          "T",
+          "E",
+          "R",
+          "L",
+          "X",
+          "K",
+          "E",
+          "T",
+          "T",
+          "E",
+          "R",
+          "L",
+          "X",
+          "L",
+          "T",
+          "N",
+          "X",
+          "X"
+        ],
+        "plaintext_positions": 70,
+        "fixed_positions": 70,
+        "unpaired_coordinate": null
+      },
+      "conditional_missing_coordinate": false,
+      "selected_edition": {
+        "missing_transmitted_index": null,
+        "working_source_slots": 140,
+        "working_raw_reading": {
+          "plaintext": "DERGESUNDHEITZUMERSATZTRUPPJNTEILINMARSHGESETZTXXRETTERLXKETTERLXLTNXX",
+          "domains": [
+            "D",
+            "E",
+            "R",
+            "G",
+            "E",
+            "S",
+            "U",
+            "N",
+            "D",
+            "H",
+            "E",
+            "I",
+            "T",
+            "Z",
+            "U",
+            "M",
+            "E",
+            "R",
+            "S",
+            "A",
+            "T",
+            "Z",
+            "T",
+            "R",
+            "U",
+            "P",
+            "P",
+            "J",
+            "N",
+            "T",
+            "E",
+            "I",
+            "L",
+            "I",
+            "N",
+            "M",
+            "A",
+            "R",
+            "S",
+            "H",
+            "G",
+            "E",
+            "S",
+            "E",
+            "T",
+            "Z",
+            "T",
+            "X",
+            "X",
+            "R",
+            "E",
+            "T",
+            "T",
+            "E",
+            "R",
+            "L",
+            "X",
+            "K",
+            "E",
+            "T",
+            "T",
+            "E",
+            "R",
+            "L",
+            "X",
+            "L",
+            "T",
+            "N",
+            "X",
+            "X"
+          ],
+          "plaintext_positions": 70,
+          "fixed_positions": 70,
+          "unpaired_coordinate": null
+        },
+        "coordinate_origins": [
+          [
+            14,
+            110
+          ],
+          [
+            22,
+            102
+          ],
+          [
+            44,
+            80
+          ],
+          [
+            125,
+            37
+          ],
+          [
+            118,
+            52
+          ],
+          [
+            133,
+            0
+          ],
+          [
+            88,
+            66
+          ],
+          [
+            7,
+            95
+          ],
+          [
+            73,
+            59
+          ],
+          [
+            30,
+            15
+          ],
+          [
+            111,
+            23
+          ],
+          [
+            103,
+            45
+          ],
+          [
+            81,
+            126
+          ],
+          [
+            38,
+            119
+          ],
+          [
+            53,
+            134
+          ],
+          [
+            1,
+            89
+          ],
+          [
+            67,
+            8
+          ],
+          [
+            96,
+            74
+          ],
+          [
+            60,
+            31
+          ],
+          [
+            16,
+            112
+          ],
+          [
+            24,
+            104
+          ],
+          [
+            46,
+            82
+          ],
+          [
+            127,
+            39
+          ],
+          [
+            120,
+            54
+          ],
+          [
+            135,
+            2
+          ],
+          [
+            90,
+            68
+          ],
+          [
+            9,
+            97
+          ],
+          [
+            75,
+            61
+          ],
+          [
+            32,
+            17
+          ],
+          [
+            113,
+            25
+          ],
+          [
+            105,
+            47
+          ],
+          [
+            83,
+            128
+          ],
+          [
+            40,
+            121
+          ],
+          [
+            55,
+            136
+          ],
+          [
+            3,
+            91
+          ],
+          [
+            69,
+            10
+          ],
+          [
+            98,
+            76
+          ],
+          [
+            62,
+            33
+          ],
+          [
+            18,
+            114
+          ],
+          [
+            26,
+            106
+          ],
+          [
+            48,
+            84
+          ],
+          [
+            129,
+            41
+          ],
+          [
+            122,
+            56
+          ],
+          [
+            137,
+            4
+          ],
+          [
+            92,
+            70
+          ],
+          [
+            11,
+            99
+          ],
+          [
+            77,
+            63
+          ],
+          [
+            34,
+            19
+          ],
+          [
+            115,
+            27
+          ],
+          [
+            107,
+            49
+          ],
+          [
+            85,
+            130
+          ],
+          [
+            42,
+            123
+          ],
+          [
+            57,
+            138
+          ],
+          [
+            5,
+            93
+          ],
+          [
+            71,
+            12
+          ],
+          [
+            100,
+            78
+          ],
+          [
+            64,
+            35
+          ],
+          [
+            20,
+            116
+          ],
+          [
+            28,
+            108
+          ],
+          [
+            50,
+            86
+          ],
+          [
+            131,
+            43
+          ],
+          [
+            124,
+            58
+          ],
+          [
+            139,
+            6
+          ],
+          [
+            94,
+            72
+          ],
+          [
+            13,
+            101
+          ],
+          [
+            79,
+            65
+          ],
+          [
+            36,
+            21
+          ],
+          [
+            117,
+            29
+          ],
+          [
+            109,
+            51
+          ],
+          [
+            87,
+            132
+          ]
+        ],
+        "editorial_plaintext": "DERGESUNDHEITZUMERSATZTRUPPENTEILINMARSHGESETZTXXRETTERLXKETTERLXLTNXX",
+        "known_coordinate_substitutions": [
+          {
+            "source_index": 61,
+            "printed_row_1based": 2,
+            "group_in_row_1based": 5,
+            "printed_group_1based": 13,
+            "group_position_1based": 2,
+            "before": "A",
+            "after": "G",
+            "plaintext_index": 27,
+            "raw_plaintext_symbol": "J",
+            "proposed_plaintext_symbol": "E"
+          }
+        ],
+        "missing_transmitted_coordinate": null,
+        "cost": {
+          "known_coordinate_substitutions": 1,
+          "source_erasure_fills": 0,
+          "missing_transmitted_coordinates": 0
+        },
+        "numeral_label_ledger": [],
+        "complete_encoded_witness": "VVAGGVAGGVDDADGFXGDXVXVGFXVXVGVVGADXFFDXAGFXDDDGFAFXGAAAVFGADGDXDFAVXVXDFGAVGFFAAFFAFVXDADVGFGAGDXXFAXGAXVFDGDAVGFVDVGVFDFDXVFXFDVGFXDAADVXD",
+        "repaired_received_witness": "VVAGGVAGGVDDADGFXGDXVXVGFXVXVGVVGADXFFDXAGFXDDDGFAFXGAAAVFGADGDXDFAVXVXDFGAVGFFAAFFAFVXDADVGFGAGDXXFAXGAXVFDGDAVGFVDVGVFDFDXVFXFDVGFXDAADVXD"
+      },
+      "equivalent_insertions": [],
+      "retrospective_template_prices": []
+    }
+  ],
+  "limits": [
+    "p104 C1 remains conditional on one missing transmitted coordinate. Three identical-A positions yield the same full witness; only two lie inside or at the visibly short group's boundary.",
+    "The insertion comparison uses a retrospective plaintext template; it is not an independently supplied crib or a proof of historical uniqueness.",
+    "OSMAN office labels, numerical references, DTSCHXSTAAT, MARSH and RETTERL/KETTERL remain literal.",
+    "The medical statement is a historical message reading, not independent evidence about an identified person's health."
+  ]
+}

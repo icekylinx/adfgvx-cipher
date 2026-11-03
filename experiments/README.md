@@ -9,6 +9,27 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 ## Readings, parallels and source review
 
+### Latest source editions and follow-up methods
+
+| Experiment | Scope | Calibration and limit |
+|---|---|---|
+| [Wallachia withdrawal preparations](wallachia_withdrawal_preparations/README.md) | Five parts; 506 modeled positions and 39 source-mask fills | One reference position remains unknown; all nine observed-coordinate changes are explicit. |
+| [Sale of radio and telephone apparatus](apparatus_sale_request/README.md) | Two parts; 221 positions | Six observed substitutions and 18 source fills; the final domain remains DEQTUX. |
+| [Radio contacts, key availability and service orders](radio_contacts_and_keys/README.md) | Seven exact source frames, 645 positions | No new key identity is inferred from a key name or an administrative statement. |
+| [Hermannstadt radio report](hermannstadt_radio_report/README.md) | Four parts; 465 positions, two independently priced extra-coordinate models | Tied deletion maps remain; raw NIKOLA3EW is adverse to a blanket name interpretation. |
+| [Military-mission recalls and Osthoff witnesses](military_mission_recalls/README.md) | Four parts; three old editorial letters gain independent cross-key support | Six new-source changes, four mask fills and unresolved square fields remain separate. |
+| [Constantinople address and signature fragments](constantinople_address_parts/README.md) | Three first parts; 263 positions | The absent second parts and unresolved L-shaped glyph are not reconstructed. |
+| [Opposite-end deciphering instruction](bidirectional_deciphering/README.md) | One 105-slot record; 8,892 framing candidates and 78 companion splits | NKJ and NMJ are equally priced; two substitutions, one mask fill and one extra coordinate remain conditional. |
+| [Banknote completion and armistice copies](retrieved_copy_editions/README.md) | Three new witnesses; nineteen missing tail coordinates supplied | One earlier fill is contradicted; copied corruption does not independently confirm its repair. |
+| [Palestine medical-unit dissolution](palestine_medical_dissolution/README.md) | Two parts; an exact 336-coordinate copy supplies the missing antecedent | No observed-coordinate substitution; one invalid-glyph fill and literal unit labels retained. |
+| [Newspaper dispatch copies](newspaper_dispatch_witnesses/README.md) | Two parts; complementary coordinate-pair evidence | Three letters remain editorial; fourteen combined repairs exceed the common-stream minimum of ten. |
+| [MG08 inventory and medical return](inventory_and_medical_return/README.md) | Three parts; one short group has three equal-A insertion positions | Six observed substitutions; source-local placement evidence is weaker for the third arithmetic tie. |
+| [Surviving eight-part Transylvania report](transylvania_situation_report/README.md) | Five readable parts and one separately preserved unread fragment | Part 5 uses an explicit conditional crib; all 38 interference allocations and missing parts 2/3 remain visible. |
+| [Conditional November22 J interpretation](nov22_nikolajew_constraint/README.md) | Twenty-one reviewed records and 54 variants | GD=J is conditional; NIKOLA3EW and B9VERN remain adverse or unexplained, with no digit recovery. |
+| [Literal-coordinate copy retrieval](post_push_copy_retrieval/README.md) | 113 reviewed references against 788 OCR blocks; 25 cross-page pairs | Seven new lead pairs lead to five body families; the shuffled control has no retained pair, not a probability claim. |
+
+### Earlier source editions
+
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
 | [Hungary transport warning](hungary_transport_warning/README.md) | Six records; an independent 92-position raw witness selects one of 188 missing-group positions at zero observed-edit cost | Missing DXDVA restores five letters; 31 unknown positions and the extra HE?REIN form remain unresolved. |

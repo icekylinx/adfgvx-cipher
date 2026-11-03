@@ -1,0 +1,705 @@
+{
+  "schema": "adfgvx-transylvania-situation-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p128_B1",
+      "path": "sources/p128_B1.png",
+      "printed_page": 128,
+      "pdf_page_1based": 131,
+      "crop_pdf_points": [
+        85,
+        510,
+        520,
+        700
+      ],
+      "render_scale": 4,
+      "sha256": "4088940283e4ff009399adc9be2c6dd5542b0aeaf6b67ef34efe706277de1fd8"
+    },
+    {
+      "id": "p129_A7",
+      "path": "sources/p129_A7.png",
+      "printed_page": 129,
+      "pdf_page_1based": 132,
+      "crop_pdf_points": [
+        70,
+        248,
+        525,
+        435
+      ],
+      "render_scale": 4,
+      "sha256": "aecf89168a47e0dff2c5c78872f5d42e9cbf32c119967522def570ff1b1c0cce"
+    },
+    {
+      "id": "p129_A8",
+      "path": "sources/p129_A8.png",
+      "printed_page": 129,
+      "pdf_page_1based": 132,
+      "crop_pdf_points": [
+        80,
+        436,
+        525,
+        522
+      ],
+      "render_scale": 4,
+      "sha256": "9e64a22c9e353a6dd79e19c2bed28064519fbbd56aac1432574923ae324ef95f"
+    },
+    {
+      "id": "p137_A4",
+      "path": "sources/p137_A4.png",
+      "printed_page": 137,
+      "pdf_page_1based": 140,
+      "crop_pdf_points": [
+        65,
+        198,
+        470,
+        340
+      ],
+      "render_scale": 5,
+      "sha256": "aca8c1813374dd2d7d15451f61c6a51680708e18a3ef4044e808b4ceda33d039"
+    },
+    {
+      "id": "p137_A5",
+      "path": "sources/p137_A5.png",
+      "printed_page": 137,
+      "pdf_page_1based": 140,
+      "crop_pdf_points": [
+        85,
+        338,
+        470,
+        432
+      ],
+      "render_scale": 5,
+      "sha256": "7e5e6b101f58f9bf27063fb1b023c6584bae779e23cb87292458f8c812edcc8a"
+    },
+    {
+      "id": "p137_A6",
+      "path": "sources/p137_A6.png",
+      "printed_page": 137,
+      "pdf_page_1based": 140,
+      "crop_pdf_points": [
+        85,
+        430,
+        470,
+        488
+      ],
+      "render_scale": 5,
+      "sha256": "10f18127446950a0ab1ef67091bb7b1586e1497ea6213bd9e123aff2aef13465"
+    },
+    {
+      "id": "p137_A4_g5",
+      "path": "sources/p137_A4_g5.png",
+      "printed_page": 137,
+      "pdf_page_1based": 140,
+      "crop_pdf_points": [
+        336,
+        252,
+        374,
+        274
+      ],
+      "render_scale": 10,
+      "sha256": "a6015e0ed76acd1aede247b9fd5ea9d92833bfde07af8e81dd280b2ea05a5d6c"
+    }
+  ],
+  "records": [
+    {
+      "id": "p128_B1",
+      "printed_page": 128,
+      "pdf_page_1based": 131,
+      "source_section": "B1",
+      "message_part": 1,
+      "message_total_parts": 8,
+      "source_image_id": "p128_B1",
+      "key_id": "Nov4-6",
+      "page_heading": "5th NOVEMBER, 1918.",
+      "receipt_header": "LP v NKJ (7.25 p.m., November 5th)",
+      "origin_header": "1840 8 TLE",
+      "source_rows": [
+        "AAXDG XAVXA DVFDD XFFAX A-VAX FAFVA GVFXF FFVAX",
+        "VXXXX FDFVV GDADF VXDXA VFXXF XXAAG AFFXA VXVGV",
+        "VAXGA VAAXV AVADV XFXXG DFXAA VGFGV FAVXA FXDAG",
+        "AFVXA VGFAA FXDFV VXFVX VXXAD XXGVG GXAVX VVXFX",
+        "XDFVV AVXXF VAAGF AAVAF AXXXA VFAXV AXXDF F"
+      ],
+      "source_slots": 196,
+      "advertised_length": 196,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "OHLOPXXFEINDLAGEXVOELLIGEDEROUTEINSIEBENBUERGENUNDWAFFENSTILLSTANDUNGARNSMACHTMILITA?RISCHELAGEDER",
+      "readable_candidate": "OHLOPXXFEINDLAGEXVOELLIGEDEROUTEINSIEBENBUERGENUNDWAFFENSTILLSTANDUNGARNSMACHTMILITAERISCHELAGEDER",
+      "word_completion_spans": [],
+      "notes": [
+        "The source explicitly marks parts 2,3,4,5,6 missing in this copy. This statement is preserved; the separate p137 witnesses are not inserted into the literal page."
+      ]
+    },
+    {
+      "id": "p129_A7",
+      "printed_page": 129,
+      "pdf_page_1based": 132,
+      "source_section": "A7",
+      "message_part": 7,
+      "message_total_parts": 8,
+      "source_image_id": "p129_A7",
+      "key_id": "Nov4-6",
+      "page_heading": "5th NOVEMBER, 1918.",
+      "receipt_header": "LP v NKJ (7.01 p.m., November 5th)",
+      "origin_header": "1840 8 TLE",
+      "source_rows": [
+        "VVGDG FAXAF AXADD XXXAV DFVXF FFXAA AXAXD XXXXV",
+        "FVAXX AFAVG VFAGV GDAAX FVXAA AXFXX AVFXF XFAVG",
+        "VAXDF FFVXX XVVFA FAVVV XXAAA AXAVX XFAVF VFFVF",
+        "AAXXV XFVFF VFFDX XFAVA VGDFV AXAAV DFXFG DFVAX",
+        "XVXXX VXXVX DVXVG AFAGA FAAXX XADFD XVGFG FXXXX",
+        "GXAFA FAVXA AXFAG VAVAV GVAAD XA-FF FFXFX VXXFF",
+        "AAGVV AXF"
+      ],
+      "source_slots": 248,
+      "advertised_length": 248,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "ALLGEMEINERHIERNICHTBEKANNTERPOLITISCHERLAGEXXEVTLXEINTRITTEINESWAFFENS?ILLSTANDESVXABHAENGIGZUMACHENWAEREXDRINGENDERBETENXX",
+      "readable_candidate": "ALLGEMEINERHIERNICHTBEKANNTERPOLITISCHERLAGEXXEVTLXEINTRITTEINESWAFFENSTILLSTANDESVXABHAENGIGZUMACHENWAEREXDRINGENDERBETENXX",
+      "word_completion_spans": [],
+      "notes": [
+        "The raw VX following WAFFENSTILLSTANDES is retained. The lost governing wording is not supplied."
+      ]
+    },
+    {
+      "id": "p129_A8",
+      "printed_page": 129,
+      "pdf_page_1based": 132,
+      "source_section": "A8",
+      "message_part": 8,
+      "message_total_parts": 8,
+      "source_image_id": "p129_A8",
+      "key_id": "Nov4-6",
+      "page_heading": "5th NOVEMBER, 1918.",
+      "receipt_header": "LP v NKJ (7.01 p.m., November 5th)",
+      "origin_header": "1840 8 TLE",
+      "source_rows": [
+        "XAVXA FDVDV XGFAG XFAVV FAGXA VAVVD AAAVG FAFGF",
+        "XGXXV FAVVF XFXDV XXAVD XVDXA FGFGV VXAAV DGDAF",
+        "FGFAX AVAFA FXAFA XDDAD ADVXF AFXVX AFGXG DFAFG",
+        "FFDGX DDFXD FDGXA XXAGV"
+      ],
+      "source_slots": 140,
+      "advertised_length": 140,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "GLENCHESDURCHFER4SPRUCHVEMPFANGBESTAETIGENXXOXKXMX1ANOX11226O6XGEHEIMX",
+      "readable_candidate": "GLEICHESDURCHFERNSPRUCHXEMPFANGBESTAETIGENXXOXKXMX1ANOX11226O6XGEHEIMX",
+      "word_completion_spans": [],
+      "notes": [
+        "Three observed-coordinate substitutions repair GLEICHES, FERNSPRUCH and the separator before EMPFANG. The reference 1ANOX11226O6 is unchanged, including the letter O."
+      ]
+    },
+    {
+      "id": "p137_A4",
+      "printed_page": 137,
+      "pdf_page_1based": 140,
+      "source_section": "A4",
+      "message_part": 4,
+      "message_total_parts": 8,
+      "source_image_id": "p137_A4",
+      "key_id": "Nov4-6",
+      "page_heading": "6th NOVEMBER, 1918.",
+      "receipt_header": "LP v NKJ (08.14 November 5th)",
+      "origin_header": "18.40 8 TLE VON UKS 18.40",
+      "source_rows": [
+        "DXVXX AAAV AGFGV FXFAX AFFVX AGAFX XFFFA",
+        "GXXAV AXAVX FAGXX VXADV VAXXV AFGAX GFXAX",
+        "FVXGV XXGVV VVVAA AVDGA FGFAX AXDVA FXVXF",
+        "FXAVV XADGV ANAVX DVGFA VFFGX XXXVA AXAFF",
+        "DXXXA FVAGF XFXVD ADGGG VAFXX VXVGX ADFVX",
+        "VXDFX AVFXA VGFFA FXFXX VGDVX VAXXV FXGXA",
+        "XGFAF VGCAX AXFXF FVVFG DVXFX AFXVG VFDXF",
+        "XDXFV VDXXX XXXX"
+      ],
+      "source_slots": 258,
+      "advertised_length": 264,
+      "model": {
+        "kind": "single_plus_five_coordinate_insertions",
+        "single_gap_candidates": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "primary_single_gap": 8,
+        "primary_five_gap": 69,
+        "all_minimum_pairs": [
+          [
+            5,
+            69
+          ],
+          [
+            6,
+            69
+          ],
+          [
+            7,
+            69
+          ],
+          [
+            8,
+            69
+          ]
+        ],
+        "short_source_group": "AAAV",
+        "short_group_source_span": [
+          5,
+          9
+        ],
+        "advertised_length": 264,
+        "selection": "Conditional minimum observed-coordinate repair cost for the explicit candidate across all 5×259 source-gap combinations."
+      },
+      "expected_raw": "OXKXM0HATMASSNAHMENZURSICHERUNGVONKRONST?D1UNDHERMANNSTADTGETROFFENUNDB?AB?ICHTIGTM?TABTRAN?PORTVONM?TE?IALI?N9ONMORGENABZUBEGINNENX",
+      "readable_candidate": "OXKXMXHATMASSNAHMENZURSICHERUNGVONKRONSTADTUNDHERMANNSTADTGETROFFENUNDBEABSICHTIGTMITABTRANSPORTVONMATERIALIENVONMORGENABZUBEGINNENX",
+      "word_completion_spans": [],
+      "notes": [
+        "Two nonalphabetic glyphs N and C are preserved literally and treated as erasures in the model. The six unprinted coordinates are separate from these two printed invalid glyphs.",
+        "Source19 is darkened and A/X-like. A is the primary reading; X is independently retained as a visual alternative with a different edit cost."
+      ]
+    },
+    {
+      "id": "p137_A5",
+      "printed_page": 137,
+      "pdf_page_1based": 140,
+      "source_section": "A5",
+      "message_part": 5,
+      "message_total_parts": 8,
+      "source_image_id": "p137_A5",
+      "key_id": "Nov4-6",
+      "page_heading": "6th NOVEMBER, 1918.",
+      "receipt_header": "LP v NKJ (08.14 November 5th)",
+      "origin_header": "18.40 8 TLE VON UKS 18.40",
+      "source_rows": [
+        "DDGXX VAVFF VVGAF XGVAV VVADX FAVXX AXXVA",
+        "DFAFX AXGVA FVXXV XFXAX XVAXX FGVGX AVGFA",
+        "XFFDA FGFXA VAAAX GFGFV GXVVA FFXVX AFVAX",
+        "GFXFG XXXXD GFAFX DAADD GVAAG FAVXF XGXFX",
+        "AAGXA VGFFG XXXAA XFGFX VFXAF AFXFX XAFFV",
+        "XVAGX AVGVA AVVGG {INTERFERENCE_1} AGAXF",
+        "AXAGX DGGVF AXAVV V---- {INTERFERENCE_2}"
+      ],
+      "source_slots": 215,
+      "advertised_length": 252,
+      "model": {
+        "kind": "two_interference_runs",
+        "literal_boundaries": [
+          190,
+          215
+        ],
+        "missing_coordinates_total": 37,
+        "all_first_run_lengths": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "primary_run_lengths": [
+          0,
+          37
+        ],
+        "conditional_selection_crib": {
+          "plaintext_start": 0,
+          "text": "ANSCHLIESSENDMUESSEN",
+          "rule": "Unique allocation requiring zero observed-coordinate changes for this explicit 20-character lexical crib. This is conditional on the crib and error-free matching there."
+        },
+        "selection_limit": "Zero missing coordinates at the first INTERFERENCE marker is an additional modeling hypothesis, not a literal statement that reception was clear there. All 38 allocations remain available."
+      },
+      "expected_raw": "ANS?HLI?SSE?DMUE?SEN?ORB?GNN?MI?I?AER?SC??RSO?RG?N?ENP?RS??ALD?RW?R?SSH?FT??UNQ?ER?K?TUN?SS??EBE?B6?N?VEM?ER??GES?HO?E?WER?EN?",
+      "readable_candidate": "ANSCHLIESSENDMUESSEN?ORB?GNN?MILITAERISCHERSO?RG?N?ENPERSONALDERW?R?SSH?FT??UNQ?ER?K?TUN?SS??EBE?B6?NOVEMBERABGESCHOBENWERDEN?",
+      "word_completion_spans": [
+        {
+          "start": 0,
+          "text": "ANSCHLIESSENDMUESSEN"
+        },
+        {
+          "start": 29,
+          "text": "MILITAERISCHER"
+        },
+        {
+          "start": 53,
+          "text": "PERSONALDER"
+        },
+        {
+          "start": 100,
+          "text": "NOVEMBERABGESCHOBENWERDEN"
+        }
+      ],
+      "notes": [
+        "The two explicit INTERFERENCE annotations are not OCR defects and do not specify lengths. Four printed dashes already occupy source slots and are not included in the 37 missing-coordinate total.",
+        "Only four compatible word spans are completed. No observed coordinate is changed; 20 plaintext positions remain unresolved and all awkward observed letters remain. No complete polished sentence or date is imposed."
+      ]
+    }
+  ],
+  "contextual_unread_records": [
+    {
+      "id": "p137_A6",
+      "printed_page": 137,
+      "pdf_page_1based": 140,
+      "source_section": "A6",
+      "message_part": 6,
+      "message_total_parts": 8,
+      "source_image_id": "p137_A6",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "{INTERFERENCE_1} DXXAF FVAAG FAVDA VVFAX VAXVV",
+        "---FV AAXGX VGGAV GXDGF XFAFG DAAGX FXVFA",
+        "GXXAF FVXGA XGVX"
+      ],
+      "advertised_length": null,
+      "literal_source_slots": 74,
+      "valid_source_coordinates": 71,
+      "model_family": {
+        "kind": "unknown_leading_interference",
+        "bounded_total_coordinate_lengths": {
+          "minimum": 74,
+          "maximum": 500,
+          "step": 2
+        },
+        "selected_model": null,
+        "zero_leading_loss_included_only_as_diagnostic_endpoint": true
+      },
+      "status": "Literal contextual fragment; no source-certified total length or readable body is asserted and it is excluded from restoration/catalog counts."
+    }
+  ],
+  "source_visual_alternative": {
+    "record": "p137_A4",
+    "source_index": 19,
+    "primary": "A",
+    "alternative": "X",
+    "crop_id": "p137_A4_g5",
+    "qualification": "Darkened A/X-like glyph. Both readings are retained; primary costs use A."
+  },
+  "proposed_cross_page_assembly": {
+    "proposed_message": "1840 eight-part report to OHL / OP, including a military and political situation discussion",
+    "surviving_readable_parts": [
+      1,
+      4,
+      5,
+      7,
+      8
+    ],
+    "surviving_unread_fragment": [
+      6
+    ],
+    "not_located_parts": [
+      2,
+      3
+    ],
+    "shared_header_evidence": [
+      "All three page headers name LP v NKJ and an 1840 / 18.40 eight-part message.",
+      "p137 adds VON UKS 18.40 and supplies parts 4,5,6; p128 explicitly lacks parts 2–6; p129 supplies parts 7,8.",
+      "The published Nov4–6 ranks/square produce coherent related situation/withdrawal wording in separately modeled parts."
+    ],
+    "conflicts": [
+      "p128 and p129 print different receipt times, 19.25 and 19.01, for the apparent same message.",
+      "p137 has a 6 November page heading but a 5 November 08.14 receipt line, without an a.m./p.m. qualifier, while the repeated origin time is 18.40. No clock/date reconciliation is asserted."
+    ],
+    "status": "Proposed cross-page association supported by matching source fields and semantics; it is not an exact duplicated-plaintext witness or proof of original transmission dates."
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "The earlier work discusses Mackensen’s withdrawal and prints a different thirteen-part report of 3 November (paper section 6.3, Table 3). No explicit DEROUTE / general political situation body or matching 1840 eight-part report was located in the bounded text check. This is not proof of historical priority."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "The earlier work discusses Mackensen’s withdrawal and prints a different thirteen-part report of 3 November (paper section 6.3, Table 3). No explicit DEROUTE / general political situation body or matching 1840 eight-part report was located in the bounded text check. This is not proof of historical priority."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit DEROUTE, general political situation or 11226O6 body was located in the cached 55-comment snapshot. This negative result does not establish priority."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "frozen_prior_candidate_records": [
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p128_ocr_block4",
+          "key": "Nov4-6",
+          "score": -4.335814596592695,
+          "plaintext": "OHLOPXXFEINDLAGEXVOELLIGEDEROUTEINS?EBENBUERGENUNDWAFFENSTILLSTANDUNGARNSMACHTMILITA?RISCHELAGEDER",
+          "known_quadgrams": 87,
+          "ciphertext": "AAXDGXAVXADVFDDXFFAXA?VAXFAFVAGVFXFFFVAXVXXXXFDFVVGDADFVXDXAVFXXFXXAAGAFFXAVXVGVVAXGAVAAXVAVADVXFXXGDFXAAVGFGVFAVXAFXDAGAFVXAVGFAAFXDFVVXFVXVXXADXXGVGGXAV?VVXFXXDFVVAVXXFVAAGFAAVAFAXXXAVFAXVAXXD?F",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "B) LP v NKJ (7.25 p.m., November 5th)"
+          ]
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p129_ocr_block1",
+          "key": "Nov4-6",
+          "score": -4.260312848386511,
+          "plaintext": "ALLGEMEINERHIERNICHTBE?ANNTERPOLITISCHERLAGEXXEVTLXEINTRITTEINESWAFFENS?ILLSTANDESVXABHAENGRGZUMACHENWAEREXDRINGENDERBETENXX",
+          "known_quadgrams": 113,
+          "ciphertext": "VVGDGFAXAFAXADDXXXAVDFVXFFFXAAAXAXDXXXXVFVAXXAFAVGVFAGVGDAAXFVXAAAXFAXAVFXFXFAVGVAXDFFFVXXXVVFAFAVVVXXAAAAXAVXXFAVFVFFV?AAXXVXFVFFVFFDXXFAVAVGDFVAXAAVDFXFGDFVAXXVXXXVXXVXDVXVGAFAGAFAAXXXADFDXVGFGFXXXXGXAFAFAVXAAXFAGVAVAVGVAADXA?FFFFXFXVXXFFAAGVVAXF",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "A) LP v NKJ (7.01 p.m., November 5th)"
+          ]
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p137_ocr_block1",
+          "key": "Nov4-6",
+          "score": -9.000566191971302,
+          "plaintext": "E440NVEQVEM5N1Z9NKGEGY?37EUWP46?7TNNH9AMLKTTS6FZ9YINUS1?SW4XH9AFEN4DAI14LPENRR?Z?ZNCNE?LOLIK9?OL4YTAISAIFKUTILLNYC36FYM?D447IZ9M4",
+          "known_quadgrams": 96,
+          "ciphertext": "DXVXXAAAV?AGFGVFXFAXXFFVXAGAFXXFFFAGXXA?AXAVXFA?XXVXADVVAXXVAFGAXGFXAXFVXGVXXGVVV?VAAAVDGAFGFAXAXDVAF?VX?FXAVVXADGVA?AVXDVGFAVFFGXXXXVAAXAFFDXXXAFVAGFXFXVDADGGGVAFXXVXVGXADFVXVXDFXAVFXAVGFFAFXFXXVGDVXVAXXVFXGXAXGFAFVG?AXAXFXFFVVFGDVXFXAFXVGVFDXFXDXFVVDXXXXXXX",
+          "orphan": 1,
+          "edits": [
+            {
+              "group": 2,
+              "ocr_group": "AAAV",
+              "layout_hypothesis": "AAAV?",
+              "method": "right"
+            },
+            {
+              "group": 15,
+              "ocr_group": "FVXGV?",
+              "layout_hypothesis": "FVXGV",
+              "method": "right"
+            }
+          ],
+          "header": [
+            "6th NOVEMBER, 1918.",
+            "A) LP v NKJ_ ( 08,14 Noveinber 3th)"
+          ]
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p129_ocr_block2+p129_ocr_block3",
+          "key": "Nov4-6",
+          "score": -6.30199274562654,
+          "plaintext": "GLENCHESDURCHFER4SPRUCHVEMPFANGBEST?ETIGENXXOXKXMX1ANOX11226O6XGEHEIMX",
+          "known_quadgrams": 63,
+          "ciphertext": "XAVXAFDVDVXGFAGXFAVVFAGXAVAVVDAAAVGFAFGFXGXXVFAVVFXFXDVXXAVDXVDXAFGFGVVXAAVDGDAFFGFAXAVAFAFXAFAXDDADADVXFAFXVXA?GXGDFAFGFFDGXDDFXDFDGXAXXAGV",
+          "orphan": 0,
+          "edits": [],
+          "header": []
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p137_ocr_block1+p137_ocr_block2",
+          "key": "Nov4-6",
+          "score": -9.203803657217229,
+          "plaintext": "CMAXTIYYLM4STTW4WA4HZKL11NINIMEZDIGRTI5ISGV2ZA?7KIQN?FTMQTSE4WRLOB?1PNOEWZTSQ?TJASKALILNERVNTNNS9ORJJEINEKO4FT?4PIQ1S6T5VL4TMMRMP9TKCT1OSOR9SRGNRN9MZEV9PIL6R29KVKIUIT?A3OTO?IUB6G?ALJV6IS9A7MQ6?NTSK2LBAPT4ZBALGNFRMBG411EHRH?R3KITGD1?",
+          "known_quadgrams": 188,
+          "ciphertext": "DXVXX?AAAVAGFGVFXFAXXFFVXAGAFXXFFFAGXXA?AXAVXFA?XXVXADVVAXXVAFGAXGFXAXVXGV?XXGVVV?VAAAVDGAFGFAXAXDVAF?VX?FXAVVXADGVA?AVXDVGFAVFFGXXXXVAAXAFFDXXXAFVAGFXFXVDADGGGVAFXXVXVGXADFVXVXDFXAVFXAVGFFAFXFXXVGDVXVAXXVFXGXAXGFAFVG?AXAXFXFFVVFGDVXFXAFXVGVFDXFXDXFVVDXXX?XXXXDDGXXVAVFFVVGAFXGVAVVVADXFAVXXAXXVADFAFXAXGVAFVXXVXFXAXXVAXXFGVGXAVGVAXFFDAFGFXAVAAAXGFGFVGXVVAFFXVXAF?AXXXXXDGFAFXDAADDGVAAGFAVXFXGXFXAAGXAVGFFGXXXAAXFGFXVFXAFAFXFXXAFFVXVAGXAVGVAAVVGGAGAAFAXAGXDGGVFAXAVV",
+          "orphan": 1,
+          "edits": [
+            {
+              "group": 2,
+              "ocr_group": "AAAV",
+              "layout_hypothesis": "?AAAV",
+              "method": "left"
+            },
+            {
+              "group": 15,
+              "ocr_group": "FVXGV?",
+              "layout_hypothesis": "VXGV?",
+              "method": "left"
+            },
+            {
+              "group": 52,
+              "ocr_group": "XXXX",
+              "layout_hypothesis": "?XXXX",
+              "method": "left"
+            }
+          ],
+          "header": [
+            "6th NOVEMBER, 1918.",
+            "A) LP v NKJ_ ( 08,14 Noveinber 3th)"
+          ]
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p137_ocr_block2+p137_ocr_block3",
+          "key": "Nov4-6",
+          "score": -9.366366676183848,
+          "plaintext": "9KN5IMLA6NGVJUN1FIJLVHSGHL17NTQ4Y41HE94MFIACEEBETHF?JKEETNQ13IBBNHEXM8LDEBMYNTLRZR4JM4FOFYTOHLVG3IPBKFNKLSIVHLC1WWFSZ96QIGM1A6FWLIYMV6HNW",
+          "known_quadgrams": 130,
+          "ciphertext": "DDGXXVAVFFVVGAFXGVAVVVADXFAVXXAXXVADFAFXAXGVAFVXXVXFXAXXVAXXFGVGXAVGVAXFFDAFGFXAVAAAXGFGFVGXVVAFFXVXAF?AXXXXXDGFAFXDAADDGVAAGFAVXFXGXFXAAGXAVGFFGXXXAAXFGFXVFXAFAFXFXXAFFVXVAGXAVGVAAVVGGAGAAFAXAGXDGGVFAXAVVDXXAFFVAAGFAVDAVVFAXVAXVVAAXGXVGGAVGXDGFXFAFGDAAGXFXVFAGXXAFFVXGAXGVX",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "XVAGX AVGVA AVVGG (INTERFERENCE ) AGAAF",
+            "AXAGX DGGVF AXAVV V---- (Interference)"
+          ]
+        }
+      ],
+      "interpretation": "Parts1,7 and8 were already recognizable in unreviewed corpus screens. The p137 material was not coherently read there. This source edition adds exact layouts, declared interference models, partial readings and repairs; it makes no first historical decipherment claim."
+    }
+  },
+  "copy_search": {
+    "corpus_path": "experiments/p153_corpus/inputs.json",
+    "corpus_sha256": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc",
+    "width": 10,
+    "self_block_exclusions": {
+      "p128_B1": [
+        "p128_ocr_block4"
+      ],
+      "p129_A7": [
+        "p129_ocr_block1"
+      ],
+      "p129_A8": [
+        "p129_ocr_block2",
+        "p129_ocr_block3"
+      ],
+      "p137_A4": [
+        "p137_ocr_block1"
+      ],
+      "p137_A5": [
+        "p137_ocr_block2"
+      ],
+      "p137_A6": [
+        "p137_ocr_block3"
+      ]
+    },
+    "rule": "Exact ADFGVX 10-coordinate windows within each contiguous printed span; windows do not cross explicit INTERFERENCE markers or invalid glyphs. Search all 788 archived OCR blocks, with only the listed self-blocks excluded for each query. No original archive file is modified."
+  }
+}

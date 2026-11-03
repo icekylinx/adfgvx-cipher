@@ -1,0 +1,107 @@
+# Surviving Transylvania situation report
+
+Prepared by **icekylinx and GPT-6 Astra Pro**.
+
+This is a proposed cross-page assembly of an eight-part message marked 1840 / 18.40, 8 TLE, LP v NKJ. Parts 1, 7 and 8 survive on pp128–129; p137 supplies part 4, a partial reading of interference-damaged part 5, and an unread fragment of part 6. Parts 2 and 3 remain unlocated. All uses of the Nov4–6 key retain its published square and ranks.
+
+The headings conflict: pp128–129 say 5 November with different evening receipt times; p137 has a 6 November page heading and 08.14 on 5 November in its receipt line, alongside the 18.40 origin. Matching headers, part numbers and content support the association but do not resolve those dates or prove an exact transmission history.
+
+## Missing and unread material
+
+The p128 copy explicitly states that parts 2–6 are missing. The separate p137 page supplies independent surviving material for 4–6. It does not restore parts 2/3, and part 6 has no stated length or asserted readable body. No absent wording is supplied.
+
+## p128 B1
+
+Military situation after the collapse in Transylvania and Hungary’s armistice.
+
+Raw under the declared primary model:
+
+```text
+OHLOPXXFEINDLAGEXVOELLIGEDEROUTEINSIEBENBUERGENUNDWAFFENSTILLSTANDUNGARNSMACHTMILITA?RISCHELAGEDER
+```
+
+Conditional source edition:
+
+```text
+OHLOPXXFEINDLAGEXVOELLIGEDEROUTEINSIEBENBUERGENUNDWAFFENSTILLSTANDUNGARNSMACHTMILITAERISCHELAGEDER
+```
+
+## p137 A4
+
+Security measures at Kronstadt/Hermannstadt and intended material transport.
+
+Raw under the declared primary model:
+
+```text
+OXKXM0HATMASSNAHMENZURSICHERUNGVONKRONST?D1UNDHERMANNSTADTGETROFFENUNDB?AB?ICHTIGTM?TABTRAN?PORTVONM?TE?IALI?N9ONMORGENABZUBEGINNENX
+```
+
+Conditional source edition:
+
+```text
+OXKXMXHATMASSNAHMENZURSICHERUNGVONKRONSTADTUNDHERMANNSTADTGETROFFENUNDBEABSICHTIGTMITABTRANSPORTVONMATERIALIENVONMORGENABZUBEGINNENX
+```
+
+Printed 258 / advertised 264: a one-coordinate gap in AAAV plus a five-coordinate gap are modeled separately. All 1,295 placements give four tied minima: single gap 5/6/7/8 and five-coordinate gap 69. The primary candidate needs three observed-coordinate changes, two invalid-glyph fills and six missing-coordinate fills. An independently retained A/X source-glyph alternative lowers the observed changes to two; primary totals use A.
+
+## p137 A5
+
+Interference-damaged personnel removal passage; four partial word completions.
+
+Raw under the declared primary model:
+
+```text
+ANS?HLI?SSE?DMUE?SEN?ORB?GNN?MI?I?AER?SC??RSO?RG?N?ENP?RS??ALD?RW?R?SSH?FT??UNQ?ER?K?TUN?SS??EBE?B6?N?VEM?ER??GES?HO?E?WER?EN?
+```
+
+Conditional source edition:
+
+```text
+ANSCHLIESSENDMUESSEN?ORB?GNN?MILITAERISCHERSO?RG?N?ENPERSONALDERW?R?SSH?FT??UNQ?ER?K?TUN?SS??EBE?B6?NOVEMBERABGESCHOBENWERDEN?
+```
+
+Printed 215 / advertised 252 means 37 missing coordinates in addition to four printed dashes. All 38 allocations between the two explicit INTERFERENCE locations are retained. The 0/37 model is the unique zero-observed-error fit for the explicit 20-character prefix ANSCHLIESSENDMUESSEN; this remains conditional on that crib. Four compatible word spans fill 21 erased coordinates without changing any observed coordinate. Twenty plaintext positions and the awkward observed middle wording remain unresolved. This is a partial reading, not a completed sentence.
+
+## p129 A7
+
+Request concerning the unknown general political situation and a possible armistice.
+
+Raw under the declared primary model:
+
+```text
+ALLGEMEINERHIERNICHTBEKANNTERPOLITISCHERLAGEXXEVTLXEINTRITTEINESWAFFENS?ILLSTANDESVXABHAENGIGZUMACHENWAEREXDRINGENDERBETENXX
+```
+
+Conditional source edition:
+
+```text
+ALLGEMEINERHIERNICHTBEKANNTERPOLITISCHERLAGEXXEVTLXEINTRITTEINESWAFFENSTILLSTANDESVXABHAENGIGZUMACHENWAEREXDRINGENDERBETENXX
+```
+
+Only its printed dash is filled. Raw VX and the absent governing context remain unresolved.
+
+## p129 A8
+
+Request for acknowledgment; raw secret reference retained.
+
+Raw under the declared primary model:
+
+```text
+GLENCHESDURCHFER4SPRUCHVEMPFANGBESTAETIGENXXOXKXMX1ANOX11226O6XGEHEIMX
+```
+
+Conditional source edition:
+
+```text
+GLEICHESDURCHFERNSPRUCHXEMPFANGBESTAETIGENXXOXKXMX1ANOX11226O6XGEHEIMX
+```
+
+Three coordinate substitutions repair two words and the separator before EMPFANG. The reference 1ANOX11226O6 retains its original 1 and letter O.
+
+## Evidence and totals
+
+The five readable physical sources provide 550 modeled plaintext positions: 499 fixed under their declared raw geometries and 530 after the stated candidates. Costs are six observed-coordinate substitutions, seven fills of printed dashes/invalid glyphs, and 24 missing-coordinate fills. The unread 74-slot part 6 is excluded from these totals and from the catalog proposal.
+
+The earlier corpus screen already recognized parts 1/7/8. Lasry et al. describe a different thirteen-part report of 3 November in their Table 3; this edition makes no first historical decipherment claim. A complete 788-block exact-window search found only one short 12-coordinate incidental lead and no missing part 2/3.
+
+[Source transcripts and attribution](../../experiments/transylvania_situation_report/inputs.json), [full source/geometry/interference certificates](../../experiments/transylvania_situation_report/certificates.json), and [method, limits and reproduction](../../experiments/transylvania_situation_report/README.md).

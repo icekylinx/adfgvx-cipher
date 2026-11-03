@@ -1,0 +1,60 @@
+{
+  "source_inputs_path": "experiments/corpus_attack/source_pairs.json",
+  "source_inputs_sha256": "a825bead697c662ecfdf93e839291957b9fd6b90203be08fa73ce1257eec70fc",
+  "source_results_path": "experiments/corpus_attack/source_pair_results.json",
+  "source_results_sha256": "53158e8f5c5b4207d931fd67bb9be83b49e2482b04bf38689d87af4cd317d1e9",
+  "selected_old_record": {
+    "id": "p149_A2",
+    "raw_literal": "GFFVGFVVDFXVAVVAXAVXFAXGFAVVAVXAAGVFAXFADAFAGDXAXXGVXVXGFAVVFVFAXAFFFFAXFFAGFAAAGAFDXVGVGVDAXFAXAFGXAXAFFGGAAXGXAXXVXXAGAXXAAFXAFVFFVGVAVAXADGVAAAAAAFVVAFDVAFAXAFDVAVDAXAAVVAAGAXVGAAXGXFVFDAFVFGXVAFXDGVXXXXXXXXVFGXFAVXVVFVGAFXFAXAVAAFXF",
+    "analysis_ciphertext": "GFFVGFVVDFXVAVVAXAVXFAXGFAVVAVXAAGVFAXFADAFAGDXAXXGVXVXGFAVVFVFAXAFFFFAXFFAGFAAAGAFDXVGVGVDAXFAXAFGXAXAFFGGAAXGXAXXVXXAGAXXAAFXAFVFFVGVAVAXADGVAAAAAAFVVAFDVAFAXAFDVAVDAXAAVVAAGAXVGAAXGXFVFDAFVFGXVAFXDGVXXXXXXXXVFGXFAVXVVFVGAFXFAXAVAAFXF",
+    "received_slots": 236,
+    "valid_coordinates": 236,
+    "source_erasure_slots": [],
+    "ocr_block_id": "p149_ocr_block1",
+    "ocr_ciphertext": "GFFVGFVVDFXVAVVAXAVXFAXGFAVVAVXAAGVFAXFADAFAGDXAXXGVXVXGFAVVFVFAXAFFFFAXFFAGFAAAGAFDXVGVGVDAXFAXAFGXAXAFFGGAAXGXAXXVXXAGAXXAAFXAFVFFVGVAVAXADGVAAAAAAFVVAFDVAFAXAFDVAVDAXAAVVAAGAXVGAAXG?FVFDAFVFGXVAFXDGVXXXXXXXXVFGXFAVX?FVGAFXFAXAVAAFXF",
+    "ocr_to_literal_operations": [
+      {
+        "operation": "replace",
+        "ocr_range": [
+          184,
+          185
+        ],
+        "source_range": [
+          184,
+          185
+        ],
+        "ocr_text": "?",
+        "literal_source_text": "X"
+      },
+      {
+        "operation": "replace",
+        "ocr_range": [
+          218,
+          219
+        ],
+        "source_range": [
+          218,
+          220
+        ],
+        "ocr_text": "?",
+        "literal_source_text": "VV"
+      }
+    ],
+    "source_crop": "sources/childs_p149_A2.png",
+    "source_crop_sha256": "e900e38a18202d85594b82d4aa3e9860d39c6714b7e2f70e7ebe009bab7e55ce",
+    "raw_plaintext": "DERSELBEISTUEM1XERSBKTLEISENBAHNREGM1SZUUEBERWEISENAKOFOLGTXAUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX"
+  },
+  "prior_likely_plaintext": "DERSELBEISTDEM1XERSBATLEISENBAHNREGMTSZUUEBERWEISENAKOFOLGTXAUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX",
+  "three_preexisting_editorial_positions": [
+    11,
+    20,
+    36
+  ],
+  "new_literal_witness": "p161_D2",
+  "new_positions": [
+    11,
+    20,
+    36
+  ],
+  "old_key_id": "Nov4-6"
+}

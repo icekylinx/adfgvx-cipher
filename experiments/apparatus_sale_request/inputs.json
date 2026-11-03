@@ -1,0 +1,117 @@
+{
+  "schema": "adfgvx-apparatus-sale-request-input-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "author": "J. Rives Childs",
+    "title": "General Solution of the ADFGVX Cipher System",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 157,
+    "pdf_page_1based": 160,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "header_lines": [
+      "Page heading:7th NOVEMBER,1918",
+      "B) LP v NKJ (7.26 p.m., November 7th)",
+      "1400 (7) VON UKS 2 TLE"
+    ]
+  },
+  "source_images": [
+    {
+      "path": "sources/p157_B1.png",
+      "pdf_page_1based": 160,
+      "crop_rectangle_pdf_points": [
+        50,
+        600,
+        529,
+        700
+      ],
+      "render_scale": 4,
+      "sha256": "8bbf615f63fff9c343ede3934c1abe17a1aba3037790d18fdb5c11d56a434fa0"
+    },
+    {
+      "path": "sources/p157_B2.png",
+      "pdf_page_1based": 160,
+      "crop_rectangle_pdf_points": [
+        55,
+        700,
+        529,
+        790
+      ],
+      "render_scale": 4,
+      "sha256": "4755d68456b6cecd6c53605eedadad261908cec6ca940c00c28d1b2ff59e027a"
+    }
+  ],
+  "key": {
+    "id": "Nov7-9",
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ]
+  },
+  "prior_credit": {
+    "published_key": "Lasry, Niebel, Kopal and Wacker; Cryptologia author paper, DOI10.1080/01611194.2016.1169461.",
+    "previous_work": "Earlier unreviewed OCR-derived candidates, including their frozen p73 retrieval uses, retained in prior_candidates.json. New source transcriptions and exact repairs are credited to icekylinx and GPT-6 Astra Pro.",
+    "prior_candidates_sha256": "890c6222849273246f9b8e6ab1d40be9ce93b367ff9a229419b3654e5962490a"
+  },
+  "records": [
+    {
+      "id": "p157_B1",
+      "part_number": 1,
+      "source_rows": [
+        "FVAAA DAAAV VGFGX GDGDD GVXAV VVDXV XGXXV VXGDA",
+        "XVXXF XGXXD AXFVD DGXAD AXDAD VXDVF AXDDA XDVXD",
+        "DVAV- -XXAD VAADG G-GGG GVXDD GXVVD DDXGD GGDVV",
+        "DDVXV ADFVV DDFGA AXGXV VD-XV VGGVV GDDXD VXADF",
+        "XDGVA VGGDX"
+      ],
+      "length_label": "RICHI-170",
+      "advertised_length": 170,
+      "literal_source_slots": 170,
+      "expected_raw": "NA?HRICHTENCHEFGRXHX?XWEGENTRANSPORTSC0WIERIGKE?TENVERKAUFVONAPPARATENEMPFEHLE?SWERTX",
+      "editorial_template": "NACHRICHTENCHEFGRXHXQXWEGENTRANSPORTSCHWIERIGKEITENVERKAUFVONAPPARATENEMPFEHLENSWERTX"
+    },
+    {
+      "id": "p157_B2",
+      "part_number": 2,
+      "source_rows": [
+        "ADDDA VDDXF FVDVX AVXXA ADGV- -XXGD XFVDD AAAXD",
+        "----- AVGGV AVAVD GDDDV VVXXX XFDAD DGXXX AXAAX",
+        "AFADX GDAVX AAAXF F--XA DDXXA XDXVD DDFXV XVGDX",
+        "GFXXV DVA-G DXXVG DFVVV A--GX DDGVD DDXGG DGVDV",
+        "DGDGV VDVXD XAVGX DDVXG VVVGG AX-GV AVDXX XDVGV",
+        "DVGXG XXAAA GDADV VFAGG FXXDV FVGGV XGGGX GDGVG",
+        "-VDDA VFXDA -DDVX ADFVA DADAX GADDG FA"
+      ],
+      "length_label": "RICHI-272",
+      "advertised_length": 272,
+      "literal_source_slots": 272,
+      "expected_raw": "RUMA?NENW?LLEN?IEME?SFERNSCHR?IBERUNDFE?NSPRECHAP?AR?TEKAU?ENX?ENEHMIGUNGUNGVERKAUFSP?EISDURCHFUNKSPRUCH?RB?TENNKONAC?18ROEMX3ANRX11023?",
+      "editorial_template": "RUMAENENWOLLENSIEMENSFERNSCHREIBERUNDFERNSPRECHAPPARATEKAUFENXGENEHMIGUNGUNDVERKAUFSPREISDURCHFUNKSPRUCHERBETENXKONACH18ROEMX3ANRX11023?"
+    }
+  ],
+  "limits": [
+    "The two native170/272-coordinate frames are retained, with no additions, removals or reordering.",
+    "SIEMENS, FERNSCHREIBER and FERNSPRECHAPPARATE are editorial lexical completions; full source and exact fill/substitution costs are retained.",
+    "APPARATE requires both a printed-erasure fill and one observed-coordinate repair at its A; its cost is not described as pure erasure restoration.",
+    "The closing punctuation proposal ERBETENX replaces raw ERBETENN at a cost of two observed coordinates. The following KONACH18ROEMX3ANRX11023? label is not expanded or numerically reinterpreted.",
+    "The final source-erased symbol is left open over the exact DEQTUX domain. No final separator or reference digit is asserted."
+  ]
+}

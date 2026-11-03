@@ -9,17 +9,17 @@ claimed by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 308 other physical source records**, with all
-22 challenge entries preserved. It adds **113 physical records across 28 source
+This snapshot compares **195 → 349 other physical source records**, with all
+22 challenge entries preserved. It adds **154 physical records across 40 source
 packages** and keeps every earlier record. The separate interpretation and
 open-target method audits add no physical records.
 
-The new source packages account for **26,745 printed coordinate slots** and
-**13,487 modeled plaintext positions**, of which **12,990 have fixed raw labels**
+The new source packages account for **35,004 printed coordinate slots** and
+**17,637 modeled plaintext positions**, of which **16,964 have fixed raw labels**
 under their stated frames. These are coverage counts. They include repeated
 copies, previously identified bodies, conditional geometry and unresolved
 historical numeral meanings; they are not a count of first decipherments or
-universally correct original letters. All 229 observed-coordinate substitutions
+universally correct original letters. All 302 observed-coordinate substitutions
 are recorded locally, separately from source erasures and inserted values.
 
 ## Source packages
@@ -54,16 +54,30 @@ are recorded locally, separately from source erasures and inserted values.
 | [Formation dissolution: Childs p83 B](../formation_dissolution/README.md) | 1 | 336 | 168 | 168 | 0 |
 | [Odessa / Nikolaiev shipping instruction: Childs p98](../black_sea_disembarkation/README.md) | 3 | 782 | 391 | 391 | 7 |
 | [Cash transport through Szolnok, Arad and Hermannstadt](../hermannstadt_cash_transport/README.md) | 2 | 391 | 196 | 193 | 5 |
+| [Wallachia withdrawal preparations: p150 B1–B5](../wallachia_withdrawal_preparations/README.md) | 5 | 1012 | 506 | 466 | 9 |
+| [Sale of communication apparatus: p157 B1–B2](../apparatus_sale_request/README.md) | 2 | 442 | 221 | 202 | 6 |
+| [Radio contacts, key availability and neighboring source records](../radio_contacts_and_keys/README.md) | 7 | 1290 | 645 | 642 | 13 |
+| [Hermannstadt radio setup and a request for armistice clarification](../hermannstadt_radio_report/README.md) | 4 | 932 | 465 | 464 | 12 |
+| [Siegfried and Osthoff: later military-mission recall messages](../military_mission_recalls/README.md) | 4 | 802 | 401 | 394 | 6 |
+| [Constantinople addresses, signatures and receipt instructions](../constantinople_address_parts/README.md) | 3 | 526 | 263 | 262 | 2 |
+| [An instruction to decipher from opposite ends](../bidirectional_deciphering/README.md) | 1 | 105 | 52 | 51 | 2 |
+| [Retrieved copies: banknote completion and armistice clauses](../retrieved_copy_editions/README.md) | 3 | 444 | 222 | 221 | 3 |
+| [Palestine medical formations and p83 dissolution antecedent](../palestine_medical_dissolution/README.md) | 2 | 598 | 299 | 298 | 0 |
+| [Second source witnesses of the newspaper-dispatch request](../newspaper_dispatch_witnesses/README.md) | 2 | 386 | 193 | 143 | 8 |
+| [Inventory and medical-return source records](../inventory_and_medical_return/README.md) | 3 | 665 | 333 | 332 | 6 |
+| [Surviving parts of an eight-part Transylvania situation report](../transylvania_situation_report/README.md) | 5 | 1057 | 550 | 499 | 6 |
 
 The [complete inventory](inventory.json) preserves every added identifier,
 package summary, case path and counting limit. The [inputs](inputs.json)
-pin both catalogues and 420 package/case artifacts. Earlier statuses, subjects
+pin both catalogues and 570 package/case artifacts. Earlier statuses, subjects
 and credits are unchanged; 164 old path fields follow the explicit topic-migration map.
 
 ## Additional interpretation and method audits
 
 - [One conditional letter constraint for the Nov25–28 square](../nov25_letter_constraint/README.md)
 - [Coordinate loss before transposition: source diagnostic and p198](../p198_pretransposition_loss/README.md)
+- [Optional Nov22–24 interpretation: GD may stand for J](../nov22_nikolajew_constraint/README.md)
+- [Literal-coordinate retrieval after publication](../post_push_copy_retrieval/README.md)
 
 These packages retain their own calibration limits and conditional assumptions.
 A source-compatible witness or an exact language optimum does not by itself
@@ -71,7 +85,7 @@ establish a historical plaintext or new key.
 
 ## Independent source-image binding
 
-All **136 delivered source images** have normalized PDF-page, rectangle, scale,
+All **187 delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph

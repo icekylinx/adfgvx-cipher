@@ -50,7 +50,19 @@ def build(pdf=None):
         proposals = read(folder / 'catalog_proposal.json')
         certificate = read(folder / 'certificates.json')
         assert package['record_ids'] == [r['id'] for r in proposals]
-        assert set(package['record_ids']) == {r['id'] for r in certificate['records']}
+        if certificate.get('schema') == 'adfgvx-bidirectional-deciphering-certificate-v1':
+            # Two equal-cost geometries belong to one physical received record.
+            certificate_ids = {certificate['source_record']}
+            assert package['normalized_counts'] == {
+                'physical_records': 1,
+                'source_slots': certificate['source_slots'],
+                'modeled_plaintext_positions': certificate['conditional_plaintext_positions'],
+                'fixed_raw_label_positions_under_stated_geometry': certificate['conditional_raw_fixed_positions'],
+                'known_coordinate_substitutions': certificate['known_coordinate_substitutions_per_variant'],
+            }
+        else:
+            certificate_ids = {r['id'] for r in certificate['records']}
+        assert set(package['record_ids']) == certificate_ids
         assert package['original_summary'] == certificate.get('summary', certificate.get('totals'))
         assert len(proposals) == package['normalized_counts']['physical_records']
         for row in proposals:

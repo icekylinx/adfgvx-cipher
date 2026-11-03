@@ -1,0 +1,193 @@
+{
+  "schema": "adfgvx-constantinople-address-parts-input-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "author": "J. Rives Childs",
+    "title": "General Solution of the ADFGVX Cipher System",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p147_C1.png",
+      "pdf_page_1based": 150,
+      "crop_rectangle_pdf_points": [
+        55,
+        541,
+        536,
+        652
+      ],
+      "render_scale": 4,
+      "sha256": "b39e6f64d0e845d9ea245acb52cddb5430edad7f4806764f3e336b7da72937be"
+    },
+    {
+      "path": "sources/p148_B1.png",
+      "pdf_page_1based": 151,
+      "crop_rectangle_pdf_points": [
+        65,
+        288,
+        535,
+        525
+      ],
+      "render_scale": 4,
+      "sha256": "7b359db2fedeb114a72e7ac936abc3a69d35436a1c8716a6bc97247a90f1aad8"
+    },
+    {
+      "path": "sources/p156_C1.png",
+      "pdf_page_1based": 159,
+      "crop_rectangle_pdf_points": [
+        65,
+        369,
+        535,
+        443
+      ],
+      "render_scale": 4,
+      "sha256": "332073080fbe561b282584694ad5ce1fe9f7503c7ca6d89fd09dcb25c6f86ba7"
+    }
+  ],
+  "keys": {
+    "Nov4-6": {
+      "id": "Nov4-6",
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ]
+    },
+    "Nov7-9": {
+      "id": "Nov7-9",
+      "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ]
+    }
+  },
+  "prior_credit": {
+    "published_keys": "Lasry, Niebel, Kopal and Wacker; Cryptologia author paper, DOI10.1080/01611194.2016.1169461.",
+    "prior_candidates_sha256": "948e6e0e376e123ceb09a178d732809c43cd0e9006cb26e8f8baf10be3f0786a",
+    "previous_source_edition": "Osthoff p138/p148/p149 family in cases/people/osthoff.md and experiments/corpus_attack. No existing record is added or replaced."
+  },
+  "records": [
+    {
+      "id": "p147_C1",
+      "printed_page": 147,
+      "header_lines": [
+        "6th NOVEMBER,1918",
+        "C) YZ v LP (08.19 a.m., November 7th)",
+        "FUER YZ1450 (6/11) 2 TEILE",
+        "1 TL",
+        "RICHI-96"
+      ],
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "FGDXV FXGFD XFAXV VFDAF AFDAX AXDFA DAXDV DVDAA",
+        "XGADV VVXAV DFAFF GDDVA XXXXD VGXAX XFAFX FVDAX",
+        "XGVAF DGFXA FGAFX G"
+      ],
+      "advertised_length": 96,
+      "literal_source_slots": 96,
+      "expected_raw": "ANXDEUTSCHEBOTSCHAFTXPERAXXUNTERSCHRIFTXXSTUMMXX",
+      "editorial_template": "ANXDEUTSCHEBOTSCHAFTXPERAXXUNTERSCHRIFTXXSTUMMXX"
+    },
+    {
+      "id": "p148_B1",
+      "printed_page": 148,
+      "header_lines": [
+        "6th NOVEMBER,1918",
+        "B) YZ v LP (08.40 a.m., November 7th)",
+        "FUER YZ1135 (6/11) 3 TEILE",
+        "1 TL",
+        "RICHI-328"
+      ],
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "FGXFD XAFAV DDAVX AADVV GVAXV DDVAD XXXFG VGFFG",
+        "ADDAD AVGGL DAAFX XAXAX FFFGV DFFFG FDXFF VVDGV",
+        "XVVAV XAGGF GFVAX GVAFD FDVAG AVVVX DVVFF VXDAF",
+        "AXVVA AXFGD DVVGA XGGFA AAAFD FDAXF AFVAA XXVFD",
+        "VGFAV AFDDX XAVAF XXXDF AFFFA FDDXF GDAFD VXDDX",
+        "VAVFG FVAXD GVVXA FXXXV XFAFA GAXVV DFXXD DDAAF",
+        "AXVXA FVVFD AXXAF DVVXD VXFVG AXAXV XFDDD DAFDX",
+        "DADFF FXXAV XXVGD GFXVD FVFXD XXVFF XDVXA XFAAD",
+        "DADAX XAA"
+      ],
+      "advertised_length": 328,
+      "literal_source_slots": 328,
+      "expected_raw": "ANXMILXMISSIONCOSPOLIXZUXRMX2XDXNRX755XXUNTERSCHRIFTFUERBEIUETLEXXIXAXGROENERXBXRM811193XGEHXPX?ZUSXOPXFUERXKOSPOLIXDOPPELPUNKTXEMPFANGSBESTAETIGUNGDURCHOFFZERBEEEN",
+      "editorial_template": "ANXMILXMISSIONCOSPOLIXZUXRMX2XDXNRX755XXUNTERSCHRIFTFUERBEIDETLEXXIXAXGROENERXBXRM811193XGEHXPX?ZUSXOPXFUERXKOSPOLIXDOPPELPUNKTXEMPFANGSBESTAETIGUNGDURCHOFFZERBETEN",
+      "source_annotation": {
+        "source_coordinate_index": 37,
+        "baseline_observed": "F",
+        "above_line_replacement": "X",
+        "applied_as_one_known_coordinate_substitution": true
+      },
+      "noncoordinate_source_mask": {
+        "source_coordinate_index": 49,
+        "literal": "L",
+        "basis": "The printed glyph has an L form outside the ADFGVX alphabet; it remains a mask rather than a guessed coordinate."
+      }
+    },
+    {
+      "id": "p156_C1",
+      "printed_page": 156,
+      "header_lines": [
+        "7th NOVEMBER,1918",
+        "C) YZ v LP (6.03 a.m., November 8th)",
+        "FUER YZ2030 (7/11) 2 TLE",
+        "1 TL",
+        "RICHI-102"
+      ],
+      "key_id": "Nov7-9",
+      "source_rows": [
+        "AFDXG DGFAV FDAXD GVXDV VXGVV XDAGV VDDXX VDXDG",
+        "DVXVF FDXGV XVDVG XVVDV VVXXG XDXDV GXVXD DVGVD",
+        "GAVVX AXDVD GXDGD DVADX DD"
+      ],
+      "advertised_length": 102,
+      "literal_source_slots": 102,
+      "expected_raw": "DEUTSCHERGESCHAEFTSTRAEGERKONSTANTINOPELXXBUSSCHSXX",
+      "editorial_template": "DEUTSCHERGESCHAEFTSTRAEGERKONSTANTINOPELXXBUSSCHSXX"
+    }
+  ],
+  "limits": [
+    "These are visible first parts containing addresses, signatures and receipt instructions. Header claims of2 or3 parts do not make the unprinted/unlinked remaining parts recovered.",
+    "p147 C1 names STUMM and p156 C1 retains raw BUSSCHS; no corrected spelling, expanded personal name or message body is supplied.",
+    "p148 B1 retains one L-shaped noncoordinate glyph as a mask. Its F-to-X above-line annotation is applied as one observed-coordinate substitution, not zero-cost source normalization.",
+    "The other p148 B1 substitution changes BEIUETLE to BEIDETLE. Reference labels and the remaining domain9EKVXZ stay unresolved.",
+    "No continuation payload, new numerical interpretation, key change or unique original wording is asserted."
+  ]
+}

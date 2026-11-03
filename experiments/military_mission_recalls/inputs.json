@@ -1,0 +1,193 @@
+{
+  "schema": "adfgvx-military-mission-recalls-input-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "author": "J. Rives Childs",
+    "title": "General Solution of the ADFGVX Cipher System",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p161_C1.png",
+      "pdf_page_1based": 164,
+      "crop_rectangle_pdf_points": [
+        65,
+        451,
+        537,
+        550
+      ],
+      "render_scale": 4,
+      "sha256": "06475aaf6536559066de14376c6ea3bacfc2c4c17b7081358290a3bae8a542ec"
+    },
+    {
+      "path": "sources/p161_C2.png",
+      "pdf_page_1based": 164,
+      "crop_rectangle_pdf_points": [
+        65,
+        551,
+        537,
+        609
+      ],
+      "render_scale": 4,
+      "sha256": "ec1f46b495873d75639c8ee3a6b6f6f1931c6da32165dda8a99c16acc5e4a8d0"
+    },
+    {
+      "path": "sources/p161_D1.png",
+      "pdf_page_1based": 164,
+      "crop_rectangle_pdf_points": [
+        65,
+        614,
+        537,
+        709
+      ],
+      "render_scale": 4,
+      "sha256": "89a28f2efb80587be184f8521fa20d647f6f87a17ff13d1a4152785f2c5f5463"
+    },
+    {
+      "path": "sources/p161_D2.png",
+      "pdf_page_1based": 164,
+      "crop_rectangle_pdf_points": [
+        65,
+        710,
+        537,
+        770
+      ],
+      "render_scale": 4,
+      "sha256": "aac91de3375efb0d661d6cd285ee5a589e6c65a70bf1db50b65207141d7d3219"
+    }
+  ],
+  "keys": {
+    "Nov7-9": {
+      "id": "Nov7-9",
+      "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ]
+    }
+  },
+  "prior_credit": {
+    "published_keys": "Lasry, Niebel, Kopal and Wacker; Cryptologia author paper, DOI10.1080/01611194.2016.1169461.",
+    "prior_candidates_sha256": "cba110038045e26bc60a582cbd7cc2834c445dba622e617515f0b9ff188c3151",
+    "previous_source_edition": "Osthoff p138/p148/p149 family in cases/people/osthoff.md and experiments/corpus_attack. No existing record is added or replaced."
+  },
+  "records": [
+    {
+      "id": "p161_C1",
+      "printed_page": 161,
+      "header_lines": [
+        "9th NOVEMBER,1918",
+        "C) YZ v LP (05.57 a.m., November 9th)",
+        "NR16 (9/11) 2 TLE",
+        "1 TL",
+        "RICHI-204"
+      ],
+      "key_id": "Nov7-9",
+      "source_rows": [
+        "XFADX DVDDV DGXVF VFDVD AVGFG XADXV DGDGV FXXVF",
+        "XVGFG VGVVV DVFAD DFDAD DDVVG GVVAG AXAAD GGGFD",
+        "XGDVG XXAXG FXGVV XAAXG VXVVF XDFVD VGXVG FXDGV",
+        "DVVVV VGGDV GDVAF DGVDX XGGXX VGVVD DGDGF VGDXA",
+        "VGXDD DDGXA XVXVA GGXGG FXDDA --DAV GX-DD V--AX",
+        "FDGD"
+      ],
+      "advertised_length": 204,
+      "literal_source_slots": 204,
+      "expected_raw": "SSDOPPELGRXHQXMKX2X?1XMILITA??MISZIONK?GSTANTINOPULXZU2NR4??10XKOMDOOBERLTSSIEGFRIEDNACHT?ERKEI0DESZEN",
+      "editorial_template": "SSDOPPELGRXHQXMKX2X?1XMILITAERMISZIONKONSTANTINOPELXZU2NR4??10XKOMDOOBERLTSSIEGFRIEDNACHTUERKEIUDESZEN"
+    },
+    {
+      "id": "p161_C2",
+      "printed_page": 161,
+      "header_lines": [
+        "Same C header",
+        "2 TL",
+        "RICHI-154"
+      ],
+      "key_id": "Nov7-9",
+      "source_rows": [
+        "GAGGG XXFXD XFDXA DAXXD VADFG VXXGD VGXVV VXXDA",
+        "FVDGD AAAXF DDVDG DGXXF XXAGA VDDVD GFGXD FFVFG",
+        "XVXDD FVXXD XDDVG VGDVX DGDVG DDXDV DGXGV GXDGD",
+        "DVVGV GXXXV XDDFD DDXDD DGDFV GXDDD XAAA"
+      ],
+      "advertised_length": 154,
+      "literal_source_slots": 154,
+      "expected_raw": "ZUTEILUNGZURMILMISZIONISTAUFGEHOBENAKOFOLGTXALLERHBEFXCHEFMILKABFRHRMARSCHALL",
+      "editorial_template": "ZUTEILUNGZURMILMISZIONISTAUFGEHOBENAKOFOLGTXALLERHBEFXCHEFMILKABFRHRMARSCHALL"
+    },
+    {
+      "id": "p161_D1",
+      "printed_page": 161,
+      "header_lines": [
+        "D) YZ v LP (06.05 a.m., November 9th)",
+        "FUER YZ NR17 (9/11) 2 TEILE",
+        "1 TL",
+        "RICHI-254"
+      ],
+      "key_id": "Nov7-9",
+      "source_rows": [
+        "XVFAD DXAXD XDVDV GFGAG VDGAX AVGDX FVDGD AFDGD",
+        "DGXGX XGGDX XVVGV VVVDG GFXDA VDFAX XXDDA DDVFA",
+        "XDFVX GAGDA AADXV DFVXD GGDAD GGAAG AAAXX VVVGG",
+        "DFXDV GVVXG FXDVD DVGXX XDVVX AVVXV DFGVF DGVFA",
+        "VVVDG GAVFX DGXXX VFGXX VGDGV XVGGV GVFFV GGVDV",
+        "FXDDF DGGXG FVXVV FDAVG FGXXX VFVXV DGXVF XDXVG",
+        "DXVVG XXAAF ADGA"
+      ],
+      "advertised_length": 254,
+      "literal_source_slots": 254,
+      "expected_raw": "SSDOPPELXGRXHQUXMKX2X11XMILITAERMISZIONKONSTANTINOPELXKOMMRNDODESHPTMSDXRXOSTHOFFNACHTUERKEIENDZUTEILUNGZURMILMISZIONAUFGEHOBEN",
+      "editorial_template": "SSDOPPELXGRXHQUXMKX2X11XMILITAERMISZIONKONSTANTINOPELXKOMMANDODESHPTMSDXRXOSTHOFFNACHTUERKEIUNDZUTEILUNGZURMILMISZIONAUFGEHOBEN"
+    },
+    {
+      "id": "p161_D2",
+      "printed_page": 161,
+      "header_lines": [
+        "Same D header",
+        "2 TL",
+        "RICHI-190"
+      ],
+      "key_id": "Nov7-9",
+      "source_rows": [
+        "ADDAD VXFXX DAXDD FVGXD VDAAF DXAXX DFXGV GXXFV",
+        "VXDDX DDXGX VADGX XFDXG XAXVV GVDFG DDVDD VDGDD",
+        "GAXAA AGXXG GDXDD DVDDV VDDXD VVDXV VVXDD XVVVX",
+        "XDFFV GGGVG DVXDV VVGVG VVXXD ADDGX DVADV DGXVX",
+        "XGDDV XFDXV XDDGX DDDDV DGDGF GDGDA"
+      ],
+      "advertised_length": 190,
+      "literal_source_slots": 190,
+      "expected_raw": "DERSELBEISTDEM1XERSBATLEISENBAHNREGMTS1ZUUEBERWEISENXAKOFOLGTXALLERHBEFXCHEFMILKABFRHRMARSCHALL",
+      "editorial_template": "DERSELBEISTDEM1XERSBATLEISENBAHNREGMTS1ZUUEBERWEISENXAKOFOLGTXALLERHBEFXCHEFMILKABFRHRMARSCHALL"
+    }
+  ],
+  "prior_osthoff_witness_sha256": "4ca81bd14c4fdb06801636f38d8e5679e1e657dd28f72eb0bde18f08021aba74",
+  "limits": [
+    "Siegfried is the literal surname in an Oberleutnant recall order. No additional biographical identity is established.",
+    "MISZION and DESZEN are retained as received spellings. Four C1 coordinate substitutions repair ordinary text; two D1 substitutions repair KOMMRNDO and END.",
+    "C1 has one unfilled printed erasure at date position19, domain1GIKNY. Two other question marks are observed XA/VF key cells with joint assignments56 or65, not independent arbitrary digits.",
+    "No optional Nov7 numeric interpretation is applied; reference4??10 remains unresolved under the baseline key.",
+    "D2 directly supplies the three letters D/A/T previously editorial in p149 A2. The later wording is abbreviated and has an extra literal1 after REGMTS; this is semantic/body corroboration, not one identical ciphertext stream.",
+    "The older source editions and their repair costs remain unchanged. Only four p161 physical records are new catalog proposals."
+  ]
+}

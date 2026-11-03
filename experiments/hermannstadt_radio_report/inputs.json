@@ -1,0 +1,401 @@
+{
+  "schema": "adfgvx-hermannstadt-radio-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov22-24",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      16,
+      7,
+      14,
+      22,
+      11,
+      18,
+      1,
+      15,
+      8,
+      10,
+      20,
+      2,
+      13,
+      21,
+      3,
+      17,
+      19,
+      5,
+      9,
+      4
+    ],
+    "column_count": 22,
+    "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "square_rows": [
+      "QNZ72X",
+      "S4C0IJ",
+      "Y3RBEK",
+      "L9FD6G",
+      "MTHUVW",
+      "A5O8P1"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p216_heading",
+      "path": "sources/p216_heading.png",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "crop_pdf_points": [
+        50,
+        147,
+        520,
+        208
+      ],
+      "render_scale": 4,
+      "sha256": "040534121918e537bba34a3ea688ee33dbf85feaad7e64c8abe0cba082ee11b1"
+    },
+    {
+      "id": "p216_A1",
+      "path": "sources/p216_A1.png",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "crop_pdf_points": [
+        50,
+        174,
+        525,
+        294
+      ],
+      "render_scale": 4,
+      "sha256": "5e64d7247f3e5396c47851b903833bacf43a65823093fca2982e7acbec26b964"
+    },
+    {
+      "id": "p216_A2",
+      "path": "sources/p216_A2.png",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "crop_pdf_points": [
+        65,
+        294,
+        525,
+        382
+      ],
+      "render_scale": 4,
+      "sha256": "d3b16c16664ebd1fae69acbd1d49fad123604eb533568982018a09fb229c4556"
+    },
+    {
+      "id": "p216_A3",
+      "path": "sources/p216_A3.png",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "crop_pdf_points": [
+        65,
+        382,
+        525,
+        469
+      ],
+      "render_scale": 4,
+      "sha256": "2133ce171d9461d86cad7f3c6c391525c25cc39f2ab687eecdc82683c0bce764"
+    },
+    {
+      "id": "p216_A4",
+      "path": "sources/p216_A4.png",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "crop_pdf_points": [
+        55,
+        466,
+        525,
+        535
+      ],
+      "render_scale": 4,
+      "sha256": "569c7a4461b1e9778fa81ffe2c5c3f3836df7f78c96dda5aa1d64129751f4636"
+    }
+  ],
+  "records": [
+    {
+      "id": "p216_A1",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "source_section": "A1",
+      "message_part": 1,
+      "message_total_parts": 4,
+      "source_image_id": "p216_A1",
+      "key_id": "Nov22-24",
+      "page_heading": "24th NOVEMBER, 1918.",
+      "receipt_header": "--- v NKJ (06.38 p.m., November 25th)",
+      "origin_header": "VON UKS 2245 (24/11) 4 TLE",
+      "source_rows": [
+        "GXFAF FFFFF GXXFA AAGVG VDVAF XVGDF VDDXV FDDAA",
+        "VGFAD AVGXG FVDVA XGVFX XVDVF FVDDD FGFXF VFVXA",
+        "VXAFV GFFGX FDVVA XDDFV VXDAD GAGFF GAVVG XGGFD",
+        "GFFAV DVAAG FDVFD GVFVV VFGXA GXDFV GVGVA XFAAG",
+        "DVVFV VFAAA VFVDA VFVVA GDVAD FFXFA AFDAA XGVVG",
+        "VFAVD GAFVF AFXAA FDXXV DFFAF GGDGG FXADX FAVAF",
+        "FGXDF V"
+      ],
+      "source_slots": 246,
+      "advertised_length": 246,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "ANOHLXXFUNK6NSTATXUNMITTELBARBEIHERMANNSTADTAUFGEBAUTXNACHDEMAUFBAUXDERDURCHSCHWIERIGKEITENDERBAHNBEHOERDENSEHRVERLANGSAMTX",
+      "readable_candidate": "ANOHLXXFUNKENSTATXUNMITTELBARBEIHERMANNSTADTAUFGEBAUTXNACHDEMAUFBAUXDERDURCHSCHWIERIGKEITENDERBAHNBEHOERDENSEHRVERLANGSAMTX",
+      "notes": [
+        "One ordinary-letter repair changes FUNK6NSTAT to FUNKENSTAT. The abbreviation is retained without supplying omitted letters."
+      ]
+    },
+    {
+      "id": "p216_A2",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "source_section": "A2",
+      "message_part": 2,
+      "message_total_parts": 4,
+      "source_image_id": "p216_A2",
+      "key_id": "Nov22-24",
+      "page_heading": "24th NOVEMBER, 1918.",
+      "receipt_header": "--- v NKJ (06.38 p.m., November 25th)",
+      "origin_header": "VON UKS 2245 (24/11) 4 TLE",
+      "source_rows": [
+        "AFGFF DFFAD VVVDA AFFVA FAADA DFVVV VFFVA FXXGV",
+        "VDVDG DVFVD AVVGA XVFVG GVADA FAXDD AAGDV VVFVV",
+        "GXDFF AVGFX DAVGF DAFVG VGXFF FVDGG AXDXD VVFVF",
+        "FADVF GXXDA XGFFG DXVXV VVXFV VVAFD VXFFX FXVXV",
+        "VFFAG VAAVX XVAFV FDADF DGGXA VVAAV FVDDF GFGGV",
+        "DVFAD FFVDF FAGGV VDXDX VFVVA DADFF VAXDA DFAGA",
+        "VF"
+      ],
+      "source_slots": 242,
+      "advertised_length": 242,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "AMYQXBEENDETXWARVERSTAENTIGUN6NICHTMOEGLICHXDANIKOLA3EWGARTICHTUNDWUSTERHAUSENNURREITWEISEAUZNAHMENXVERSUCHEUEBERBUDAPEST",
+      "readable_candidate": "AMYQXBEENDETXWARVERSTAENDIGUNGNICHTMOEGLICHXDANIKOLA3EWGARNICHTUNDWUSTERHAUSENNURZEITWEISEAUFNAHMENXVERSUCHEUEBERBUDAPEST",
+      "notes": [
+        "The raw NIKOLA3EW field is unchanged. In particular, the new optional GD=J hypothesis does not repair its FD cell; no place-name spelling is imposed here.",
+        "All date and reference labels remain raw, including AMYQ. Six observed-coordinate repairs address VERSTAENDIGUNG, GARNICHT, ZEITWEISE and AUFNAHMEN."
+      ]
+    },
+    {
+      "id": "p216_A3",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "source_section": "A3",
+      "message_part": 3,
+      "message_total_parts": 4,
+      "source_image_id": "p216_A3",
+      "key_id": "Nov22-24",
+      "page_heading": "24th NOVEMBER, 1918.",
+      "receipt_header": "--- v NKJ (06.38 p.m., November 25th)",
+      "origin_header": "VON UKS 2245 (24/11) 4 TLE",
+      "source_rows": [
+        "VXDXA VVDXF GVXVF AXGFF GXDXF DVFFF FDAVX VAFVX",
+        "GDFVF AFAVA DFGFX VFAFDV FDXFA VAVXF AXVFG FXVVG",
+        "FVFAA XADFF AFVFD AVFVF GAVGA DXVDX VAGVV AGFFF",
+        "FAXAV ADGFF VGDDA GVAAG XVFAX FFDXD AFAVF DAFAA",
+        "XGDAA DXDFF GADVV FAFFF GVVVF VAXDD FDGGG FXAAD",
+        "VDFVF DVDXD GFGDG FGGFF AGDAD DXXFG ADAVF AAXDV",
+        "DAAV"
+      ],
+      "source_slots": 245,
+      "advertised_length": 244,
+      "model": {
+        "kind": "one_source_coordinate_deletion",
+        "primary_deleted_source_index": 56,
+        "all_minimum_deleted_source_indices": [
+          56
+        ],
+        "overlong_group_source_span": [
+          55,
+          61
+        ],
+        "overlong_literal_group": "VFAFDV",
+        "selection": "Conditional exact minimum against the declared ordinary-word candidate, among every single-source-coordinate deletion."
+      },
+      "expected_raw": "WIENMUENCHEQKRFOLGLOSXERSTSEITBRESLAUAUFNIMMTXJ7XYYXVERBINDUNGGESICHERTXDORTXOUNKSPRUECUERMYANRYY837XYY3J7NJCHTEINGEGANGEN",
+      "readable_candidate": "WIENMUENCHENERFOLGLOSXERSTSEITBRESLAUAUFNIMMTXJ7XYYXVERBINDUNGGESICHERTXDORTXFUNKSPRUECHERMYANRYY837XYY3J7NICHTEINGEGANGEN",
+      "notes": [
+        "The printed VFAFDV group is six characters. Exactly one of the 245 deletion positions attains the minimum five ordinary-word coordinate substitutions: deleting source 56 F.",
+        "The raw reference fields J7XYY and RMYANRYY837XYY3J7 remain unchanged; no dates or message numbers are inferred."
+      ]
+    },
+    {
+      "id": "p216_A4",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "source_section": "A4",
+      "message_part": 4,
+      "message_total_parts": 4,
+      "source_image_id": "p216_A4",
+      "key_id": "Nov22-24",
+      "page_heading": "24th NOVEMBER, 1918.",
+      "receipt_header": "--- v NKJ (06.38 p.m., November 25th)",
+      "origin_header": "VON UKS 2245 (24/11) 4 TLE",
+      "source_rows": [
+        "VXDFV VDXFV GGVAF AAAVG GXGFG AXVVV GDAAX XXVGGD",
+        "GDVFV FGVFF GVGVF VFAFG VGAVG GFDXV FAFFF GADDF",
+        "ADAAG AADXG DVFGX DGFFV GGFVX DFAAA ADFGA AXFFV",
+        "XDFGF XDFVV GXAFA FFFGF GDVFX XXFXV GXFVF VXAAA",
+        "FADFG AVAFX XFVVF GGXVF DDDAV FDXXG FDAAV A-A"
+      ],
+      "source_slots": 199,
+      "advertised_length": 198,
+      "model": {
+        "kind": "one_source_coordinate_deletion",
+        "primary_deleted_source_index": 35,
+        "all_minimum_deleted_source_indices": [
+          34,
+          35,
+          36
+        ],
+        "overlong_group_source_span": [
+          35,
+          41
+        ],
+        "overlong_literal_group": "XXVGGD",
+        "selection": "Three adjacent X deletions have identical ciphertext. Two are inside the six-character group and one is the last character of the preceding group. All ownership mappings are retained."
+      },
+      "expected_raw": "ERBITTENWIEDERHOLUNGBEURTEILUNGDERLAGEBESONDERSAUSLEGUNGDESWAFFENSTILLSTANDESFU?ROKMXXOKMYAYY7Y1OPX",
+      "readable_candidate": "ERBITTENWIEDERHOLUNGBEURTEILUNGDERLAGEBESONDERSAUSLEGUNGDESWAFFENSTILLSTANDESFUEROKMXXOKMYAYY7Y1OPX",
+      "notes": [
+        "The printed XXVGGD group is six characters. Deleting source 34, 35 or 36 X gives the same resulting ciphertext, but three different mappings to the paper.",
+        "The printed dash at source 197 is retained in literal transcription and filled only for FUER in the candidate. No observed coordinate is substituted in this part."
+      ]
+    }
+  ],
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "Lasry and coauthors already describe the loss of Nikolajev as a relay and communication through Breslau (paper section 6.3, author-PDF page 21), citing p224 A for the subsequent operator request. The bounded search found no explicit Hermannstadt setup or Wusterhausen wording from this p216 report. This source edition does not claim discovery of the broad historical narrative or prove priority."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "Lasry and coauthors already describe the loss of Nikolajev as a relay and communication through Breslau (paper section 6.3, author-PDF page 21), citing p224 A for the subsequent operator request. The bounded search found no explicit Hermannstadt setup or Wusterhausen wording from this p216 report. This source edition does not claim discovery of the broad historical narrative or prove priority."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit HERMANNSTADT radio-station setup body was located in the cached 55-comment snapshot. Generic mentions of radio stations or armistice do not establish identification of this message."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p216_ocr_block1",
+        "p216_ocr_block2",
+        "p216_ocr_block3",
+        "p216_ocr_block4"
+      ],
+      "frozen_prior_candidate_records": [
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p216_ocr_block2",
+          "key": "Nov22-24",
+          "score": -9.275607456331668,
+          "plaintext": "IIZ5Z55RR2P2CZJ3ISAHPEKEH2D2AKV03Z6OOBHZ8TQEPB56K6HHHJTIGMESRVORE0I92YECSUYZ9QHK9EQOWU66ZCVSQ3Y377Z9MY5SVLKEUPIECHVFTZPE4W72OHUA95MAHCJVVGTVG",
+          "known_quadgrams": 138,
+          "ciphertext": "AFGFFDFFADVVVDAAFFVAFAADADFVVVVFFVAFXXGVVDVDGDVFVDAVVGAXVFVGGVADAFAXDDAAGDVVVFVVGXDFFAVGFXDAVGFDAFVGVGXFFFVDGGAXDXDVVFVFFADVFGXXDAXGFFGDXVXVVVXFVVVAFDVXFFXFXVXVVFFAGVAAVXXVAFVFDADFDGGXAVVAAVFVDDFGFGGVDVFADFFVDFFAGGVVDXDXVFVVADADFFVAXDADFAGAVFVXDXAVVDXFGVXVFAXGFFGXDXFDVFFFFDAVXVAFVX",
+          "orphan": 0,
+          "edits": [],
+          "header": []
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p216_ocr_block4",
+          "key": "Nov22-24",
+          "score": -7.780112062181745,
+          "plaintext": "H21FWQPZHX2ERBI5TBNGIEDERHCLUNGBEURTEELVN1DBRLAG?BYSFN9ERSAUSFEKUQGDESJALF6NSTILLATAN7EJFUYRRKMX1O",
+          "known_quadgrams": 91,
+          "ciphertext": "VXDFVVDXFVGGVAFAAAVGGXGFGAXVVVGDAAXXVGGDGDVFVFGVFFGVGVFVFAFGVGAVGGFDXVFAFFFGADDFADAAGAADXGDVFGXDGFFVGGFVXDFAAAADFGAAXFFVXDFGFXDFV?GXAFAFFFGFGDVFXXXFXVGXFVFVXAAAFADFGAVAFXXFVVFGGXVFDDDAVFDXXGFDAAVAA",
+          "orphan": 1,
+          "edits": [
+            {
+              "group": 8,
+              "ocr_group": "XXVGGD",
+              "layout_hypothesis": "XVGGD",
+              "method": "left"
+            }
+          ],
+          "header": []
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p216_ocr_block1+p216_ocr_block2+p216_ocr_block3",
+          "key": "Nov22-24",
+          "score": -9.294725007185058,
+          "plaintext": "RDTGGLWEV52MVXEPKEOCVITPNPRPZYSZXEUU02Z5OC94ZERZEI3HYUY7ZUVY8YO6VTXA4F3BSUYZUW60YY2PV56M33RS3M0EREUMBDXRNZEUERJLBYFYYZRRR7OFTPZN6WBUHIFFAYMMPXQROMHKGEXZAEUY0LN30NM7PTCTOQ3XTOW8XWYENSBONNG6YNRFYZ5RCUJY43MB2UT6UVRKMDN57GBC23KIMI6BRETIJHFIVSHYU0KX06HVXK66FRVYZ2H7SASCP538KIIQEJMEHQS52O4JZE2Z6PW7JEHLTQYF0LKK4MMIRHMMI3EFX7Q48MTEH96PNM2DJKTZ2OC6UX45VJYCN0PFOBI3C2HVR",
+          "known_quadgrams": 358,
+          "ciphertext": "GXFAFFFFFFGXXFAAAGVGVDVAFXVGDFVDDXVFDDAAVGFADAVGXGFVDVAXGVFXXVDVFFVDDDFGFXFVFVXAVXAFVGFFGXFDVVAXDDFVVXDADGAGFFGAVVGXGGFDGFFAVDVAAGFDVFDGVFVVVFGXAGXDFVGVGVAXFAAGDVVFVVFAAAVFVDAVFVVAGDVADFFXFAAFDAAXGVVGVFAVDGAFVFAFXAAFDXXVDFFAFGGDGGFXADXFAVAFAFGFFDFFADVVVDAAFFVAFAADADFVVVVFFVAFXXGVVDVDGDVFVDAVVGAXVFVGGVADAFAXDDAAGDVVVFVVGXDFFAVGFXDAVGFDAFVGVGXFFFVDGGAXDXDVVFVFFADVFGXXDAXGFFGDXVXVVVXFVVVAFDVXFFXFXVXVVFFAGVAAVXXVAFVFDADFDGGXAVVAAVFVDDFGFGGVDVFADFFVDFFAGGVVDXDXVFVVADADFFVAXDADFAGAVFVXDXAVVDXFGVXVFAXGFFGXDXFDVFFFFDAVXVAFVXGDFVFAFAVADFGFXVFAFDFDXFAVAVXFAXVFGFXVVGFVFAAXADFFAFVFDAVFVFGAVGADXVDXVAGVVAGFFFFAXAVADGFFVGDDAGVAAGXVFAXFFDXDAFAVFDAFAAXGDAADXDFFGADVVFAFFFGVVVFVAXDDFDGGGFXAADVDFVFDVDXDGFGDGFGGFFAGDADDXXFGADAVFAAXDV",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 109,
+              "ocr_group": "VFAFDV",
+              "layout_hypothesis": "VFAFD",
+              "method": "right"
+            }
+          ],
+          "header": [
+            "24th NOVEMBER, 1918.",
+            "A) --- v NKs (06.38 p.w., November 25th)",
+            "VON UKS 2245 (24/125 4 TLE"
+          ]
+        }
+      ],
+      "interpretation": "The earlier OCR screen partially recognized the fourth part. Exact part boundaries, omitted final groups and source-defined excess coordinates now yield a connected four-part edition. No first historical decipherment claim is made."
+    }
+  }
+}
