@@ -1,0 +1,172 @@
+{
+  "schema": "adfgvx.p212-medical-fragment.optional-underpersonal.v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "base_input_sha256": "4f8035fcc31e3952e625cba728f3375beec72096700cb6950ba5da379f907ae2",
+  "base_certificate_sha256": "8d25482f3a8e2adbe119e46cd327e26116da455af9712a96eb7d5cdfe420dc85",
+  "layer": "optional lexical extension; primary 129/151 is unchanged",
+  "span": {
+    "start": 95,
+    "text": "MITUNTERPERSONALUMEDIKAMENTEN"
+  },
+  "readable_german": "mit Unterpersonal u[nd] Medikamenten",
+  "interpretation": "UNTERPERSONAL is a lexical proposal; U is read as the abbreviation u[nd]. Period medical usage supports the vocabulary but does not identify this telegram or authenticate the missing half-pairs.",
+  "additional_inserted_coordinate_fills": [
+    {
+      "model_index": 36,
+      "source_index": null,
+      "plaintext_index": 96,
+      "pair_side": 0,
+      "from": "?",
+      "to": "D",
+      "selected_label": "I"
+    },
+    {
+      "model_index": 49,
+      "source_index": null,
+      "plaintext_index": 98,
+      "pair_side": 1,
+      "from": "?",
+      "to": "G",
+      "selected_label": "U"
+    },
+    {
+      "model_index": 62,
+      "source_index": null,
+      "plaintext_index": 97,
+      "pair_side": 1,
+      "from": "?",
+      "to": "D",
+      "selected_label": "T"
+    },
+    {
+      "model_index": 76,
+      "source_index": null,
+      "plaintext_index": 99,
+      "pair_side": 0,
+      "from": "?",
+      "to": "A",
+      "selected_label": "N"
+    },
+    {
+      "model_index": 90,
+      "source_index": null,
+      "plaintext_index": 100,
+      "pair_side": 1,
+      "from": "?",
+      "to": "D",
+      "selected_label": "T"
+    },
+    {
+      "model_index": 91,
+      "source_index": null,
+      "plaintext_index": 111,
+      "pair_side": 1,
+      "from": "?",
+      "to": "G",
+      "selected_label": "U"
+    }
+  ],
+  "optional_output": "LAZARETT???ANSTALTENDORTHINBEKANNTZUGEBENXWOKRANKEVERBLEIBENKOENNENX3X???9????TRANSPORT???YA???MITUNTERPERSONALUMEDIKAMENTENZUTEILENLASSENUNDIN9EDEMZUG",
+  "prices": {
+    "additional_observed_coordinate_substitutions": 0,
+    "additional_source_mask_fills": 0,
+    "additional_inserted_slot_fills": 6,
+    "total_inserted_slot_fills": 89,
+    "fixed_optional_positions": 135,
+    "plaintext_positions": 151,
+    "remaining_unassigned_inserted_slots": 16
+  },
+  "terminology_references": [
+    {
+      "id": "gartenlaube1879_2_p39",
+      "title": "Die Gartenlaube (1879), no. 2",
+      "article_heading": "Das neue deutsche Marinelazareth in Yokohama",
+      "printed_page": 39,
+      "source_page_url": "https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1879)_039.jpg",
+      "source_page_oldid": 3102515,
+      "short_quote": "Unterpersonal des Lazareths",
+      "meaning_supported": "Auxiliary or support staff of a hospital; this article explicitly includes the cook and ward attendants.",
+      "scan_files": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Die_Gartenlaube_%281879%29_021.jpg",
+          "bytes": 1897721,
+          "sha256": "3aa5c53ade742a408459a528aec581306bb3e9e2d8499658e5e80e25dfe0a8e9",
+          "image_dimensions": [
+            3104,
+            4090
+          ],
+          "rgb_sha256": "1e44730e13952ca29e92be431f96edab861adbfa9b49bb082054d65de3b8f959"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Die_Gartenlaube_%281879%29_039.jpg?utm_campaign=index&utm_content=thumbnail_unscaled&utm_source=de.wikisource.org",
+          "bytes": 1872805,
+          "sha256": "cd25c16fa5a5ee6f418adcdd1222cda5c2122d16445a44c9bf53de0509571af6",
+          "image_dimensions": [
+            3104,
+            4090
+          ],
+          "rgb_sha256": "bf5c2208ebde78b61e064d247820fe68cfc2e1baef63c94fa0bce9c315212444"
+        }
+      ],
+      "inspection_crop_recipe": {
+        "source_scan": "gartenlaube_039.jpg",
+        "source_pixel_rect": [
+          1480,
+          3280,
+          2770,
+          3820
+        ],
+        "bytes": 837958,
+        "sha256": "526a4592cd0e1797826f66ddebb944ec824f950a939fbd3451071a58559d7115"
+      }
+    },
+    {
+      "id": "kowalk1898_p162",
+      "author_as_printed": "Dr. Kowalk",
+      "title": "Milit\u00e4r\u00e4rztlicher Dienstunterricht f\u00fcr einj\u00e4hrig-freiwillige Aerzte und Unter\u00e4rzte sowie f\u00fcr Sanit\u00e4tsoffiziere des Beurlaubtenstandes",
+      "edition_as_printed": "Vierte vermehrte Auflage",
+      "publication_place": "Berlin",
+      "publication_year": 1898,
+      "publisher": "Ernst Siegfried Mittler und Sohn",
+      "pdf_url": "https://storage.lib.uchicago.edu/pres/2015/pres2015-0552.pdf",
+      "bytes": 38639873,
+      "sha256": "421c6f43c059ad20aa058f47305a3589227c78b572765cecc6287450c5d26b76",
+      "pdf_pages": 354,
+      "title_pdf_pages_1based": [
+        7,
+        9
+      ],
+      "printed_page": 162,
+      "term_pdf_page_1based": 186,
+      "section": "\u00a784 Oekonomischer Dienstbetrieb, item4 (continuation); immediately before \u00a785 Lazarethpolizei",
+      "short_quote": "Das gesammte Unterpersonal",
+      "meaning_supported": "Hospital support staff; not specifically junior medical officers.",
+      "inspection_crop_recipe": {
+        "pdf_page_1based": 186,
+        "crop_pdf_points": [
+          25,
+          325,
+          315,
+          450
+        ],
+        "render_scale": 3,
+        "bytes": 169516,
+        "sha256": "cb0250a00be31e101d99bc64490ca48292d7595fdf033a8fe5d455cf4521bc50",
+        "rgb_sha256": "b397a5da17bef979740c8f3f51ae2bb643df06f9039589e595cfd19a34509c00"
+      }
+    }
+  ],
+  "terminology_audit": "The original title/year/edition and both cited term occurrences were visually checked independently. These sources attest vocabulary and the meaning hospital auxiliary/support staff; they are not copies of the telegram and do not authenticate its missing coordinates.",
+  "case_path": "cases/military/p212_medical_fragment.md",
+  "case_section": "## Optional lexical extension: hospital support staff",
+  "optional_readable_german_excerpt": "mit Unterpersonal u[nd] Medikamenten zuteilen lassen und in9edem Zug",
+  "limits": [
+    "The primary 129/151 edition and its 83 fills remain unchanged.",
+    "The added U at plaintext111 is read as an abbreviation for und only in the explicitly bracketed readable expansion.",
+    "The word Unterpersonal denotes hospital auxiliary/support personnel in the cited examples, not specifically junior medical officers.",
+    "The baseline9 labels and all unresolved fields remain literal; no global key relabeling or observed-coordinate substitution is added."
+  ]
+}

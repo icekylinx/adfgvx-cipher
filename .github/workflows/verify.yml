@@ -292,6 +292,7 @@ jobs:
           python experiments/p215_hungarian_y/verify.py --verify
           python experiments/p167_captain_dispatch_fragment/verify.py --verify
           python experiments/p212_medical_fragment/verify.py --verify
+          python experiments/p212_medical_fragment/verify_optional_underpersonal.py --verify
           python data/reviews/verify_source_gap_audit.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |

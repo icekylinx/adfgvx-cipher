@@ -69,6 +69,25 @@ The frame emerged from **6,300 half-coordinate-aware hypotheses**: 25 registered
 
 Word-lattice decoding, independent compatible-word enumeration and source/mapping review support the fragments. They do not authenticate the missing transmission or prove a unique complete text. [Inputs and method](../../experiments/p212_medical_fragment/README.md) retain the neighboring-length checks, control witnesses and diagnostic limits.
 
+## Optional lexical extension: hospital support staff
+
+A separate [optional six-half proposal](../../experiments/p212_medical_fragment/optional_underpersonal.json) extends positions 95–124 to `MITUNTERPERSONALUMEDIKAMENTEN`. It preserves the primary edition and every observed coordinate, adding only six missing-half values at plaintext positions 96, 97, 98, 99, 100 and 111.
+
+**Optional edited output — 135/151 positions; 89 total inserted-half fills; 16 unresolved:**
+
+`LAZARETT???ANSTALTENDORTHINBEKANNTZUGEBENXWOKRANKEVERBLEIBENKOENNENX3X???9????TRANSPORT???YA???MITUNTERPERSONALUMEDIKAMENTENZUTEILENLASSENUNDIN9EDEMZUG`
+
+**Optional readable German — U expanded as u[nd]; literal 9 retained:** mit Unterpersonal u[nd] Medikamenten zuteilen lassen und in9edem Zug.
+
+| Optional account | Count |
+|---|---:|
+| Additional missing-half fills / total fills / unassigned slots | 6 / 89 / 16 |
+| Observed-coordinate substitutions / source-mask fills | 0 / 0 |
+
+The term *Unterpersonal* has independent period medical support. [Kowalk's fourth enlarged edition, Berlin 1898, printed p162 / PDF p186](https://storage.lib.uchicago.edu/pres/2015/pres2015-0552.pdf) uses it after describing hospital attendants, servants, heating, cooking and laundry staff. [Die Gartenlaube, no. 2 (1879), p39](https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1879)_039.jpg) likewise applies it to a hospital's cook and ward attendants. The original pages and title metadata were visually checked; compact hashes and crop recipes are in the optional file, with no added images.
+
+Those examples support the meaning **hospital auxiliary/support staff**. They do not witness this telegram or prove its missing text. The U-to-u[nd] expansion remains editorial, and the unresolved joins and literal 9 remain. Verify this layer separately with `python experiments/p212_medical_fragment/verify_optional_underpersonal.py --verify`.
+
 ## Reproduce and attribution
 
 ```sh
