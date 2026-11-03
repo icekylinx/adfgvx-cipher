@@ -1,0 +1,126 @@
+{
+  "schema": "adfgvx-p127-osmanie-field-certificate-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "input_sha256": "c7090862363392a9e4fafb0bf218d2fe7c63248a1e2e2e44ac33ed3a3c3fc1d4",
+  "physical_body_added": false,
+  "key_changed": false,
+  "source_dates": {
+    "page_heading": "4th NOVEMBER, 1918",
+    "receipt": "B) LP v NKJ (9.45 p.m., November 5th)",
+    "origin_and_parts": "2200 2 TLE; 1 TL RIZI-160",
+    "origin_date_printed": false,
+    "limit": "Page and receipt dates disagree. No time-zone reconciliation or proved relationship to the later diary report is imposed."
+  },
+  "baseline_raw": "?I?RNOCHALTESPERSONAFXWIRSENDENWIEVERABREDETXWENNNICTMEHRDANNISTOS?AUSGESCHIE?EN",
+  "existing_candidate": "HIERNOCHALTESPERSONALXWIRSENDENWIEVERABREDETXWENNNICTMEHRDANNISTOS?AUSGESCHIEDEN",
+  "native_fixed_positions": 76,
+  "existing_candidate_fixed_positions": 79,
+  "optional_candidate_fixed_positions": 80,
+  "plaintext_positions": 80,
+  "additional_observed_substitutions": 0,
+  "additional_source_mask_fills": 1,
+  "total_observed_substitutions": 1,
+  "total_source_mask_fills": 4,
+  "field_source_evidence": {
+    "plaintext_index": 66,
+    "pair": "X?",
+    "model_indices": [
+      44,
+      111
+    ],
+    "source_indices": [
+      44,
+      111
+    ],
+    "domain": "4CMNST",
+    "raw": "?"
+  },
+  "optional_candidate": {
+    "template": "HIERNOCHALTESPERSONALXWIRSENDENWIEVERABREDETXWENNNICTMEHRDANNISTOSMAUSGESCHIEDEN",
+    "ciphertext": "AXXFFFAXAVGXAFXXFFFAVXVDXXVAGXAXVXVAXDVXVAXFXGXGFAVAAAXAFGGFAXXDAVXXAFAXXXFAFFAAXAXDGAAFGXDXVDAFFDAAFXVXAAVXDXVFVXDDXGXGGGXXXXAFAVGFXAVFFXDGAVAAFVFFGFXGXAFFVFVX",
+    "known_coordinate_substitutions": [
+      {
+        "model_index": 2,
+        "source_index": 2,
+        "printed": "V",
+        "from": "V",
+        "to": "X"
+      }
+    ],
+    "erased_coordinate_fills": [
+      {
+        "model_index": 55,
+        "source_index": 55,
+        "printed": "-",
+        "from": "?",
+        "to": "A"
+      },
+      {
+        "model_index": 93,
+        "source_index": 93,
+        "printed": "-",
+        "from": "?",
+        "to": "D"
+      },
+      {
+        "model_index": 94,
+        "source_index": 94,
+        "printed": "-",
+        "from": "?",
+        "to": "A"
+      },
+      {
+        "model_index": 111,
+        "source_index": 111,
+        "printed": "-",
+        "from": "?",
+        "to": "F"
+      }
+    ],
+    "full_plaintext_reencryption_verified": true,
+    "published_key_changed": false,
+    "raw": "HIERNOCHALTESPERSONALXWIRSENDENWIEVERABREDETXWENNNICTMEHRDANNISTOSMAUSGESCHIEDEN",
+    "fixed_positions": 80
+  },
+  "readable_german": "Hier noch altes Personal. Wir senden wie verabredet. Wenn NICT mehr, dann ist OSM ausgeschieden.",
+  "documentary_reference": {
+    "title": "Von Brest-Litovsk zur deutschen Novemberrevolution",
+    "editor": "Winfried Baumgart",
+    "publisher": "Vandenhoeck & Ruprecht, Göttingen",
+    "year": 1971,
+    "primary_author": "Albert Hopman",
+    "printed_page": 636,
+    "scan_1based": 646,
+    "entry_date_literal": "Dienstag, 5. November",
+    "receipt_time_literal": "11h 30m N",
+    "short_quote": "FT-Station Osmanie von uns aufgegeben",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb00042051?page=646",
+    "iiif_image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00042051_00646/full/1800,/0/default.jpg",
+    "storage": "external_iiif_reference",
+    "image_bytes": 824497,
+    "image_sha256": "22d8c0d69894710ae057e4382d202c7eac43a57a5a9da2bf96fd0ec31e7913fd",
+    "rgb_sha256": "f556e3d4a62cdadb4070ec83564c36883d3287e2afa5f73533fcfbc9039ddf80",
+    "width": 1800,
+    "height": 2925,
+    "visual_check": "Original page image independently viewed; entry heading, time and short quote are legible. The notice reports abandonment of Osmanie; it does not quote p127."
+  },
+  "published_call_sign_mapping": {
+    "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+    "authors": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker",
+    "year": 2016,
+    "section": "6.5",
+    "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+    "url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+    "mapping": {
+      "OSM": "Osmanie",
+      "OUI": "Eilvese"
+    },
+    "review": "The existing local author PDF was hash-matched and its section6.5 paragraph independently read; this published traffic attribution is separate from the source-derived X? domain and diary report."
+  },
+  "limits": [
+    "OSM is an optional identification of a permitted label, supported by station context and a contemporary diary notice, not a cipher-only singleton.",
+    "The existing76/80 native raw and79/80 edited streams remain unchanged. This separate optional proposal reaches80/80 with one additional printed-mask fill.",
+    "Literal NICT remains NICT. No missing H, numerical value, radio route, date reconciliation or second-part text is supplied.",
+    "No new physical source body or completion of p127 B2 is counted."
+  ]
+}

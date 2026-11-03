@@ -43,6 +43,37 @@ All indices are zero-based. Printed masks retain their original slots.
 | 93 | `-` | `D` | Source-mask fill |
 | 94 | `-` | `A` | Source-mask fill |
 
+### Optional OSM field completion
+
+The unresolved position 66 has domain `4CMNST`, from `X?` at source 44 and
+111. Reading the station call sign **OSM** fills the remaining printed mask
+111 with **F**, giving `XF=M`. This adds one source-mask fill, with no new
+observed-coordinate change: the optional total is **one substitution and
+four printed-mask fills**, fixing 80/80 positions under the same native frame.
+
+**Edited output — optional OSM identification, one mask fill beyond the preceding proposal:**
+
+```text
+HIERNOCHALTESPERSONALXWIRSENDENWIEVERABREDETXWENNNICTMEHRDANNISTOSMAUSGESCHIEDEN
+```
+
+**Readable German — same optional labels, retaining NICT:**
+
+> Hier noch altes Personal. Wir senden wie verabredet. Wenn NICT mehr, dann ist OSM ausgeschieden.
+
+This is a conditional identification, supported by the separate
+[OSM/OUI staff query](p137_station_staff_query.md) and an independent diary
+notice. The [published 2016 study, section 6.5](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf)
+identifies OSM with Osmanie. In his entry headed **5 November**, Albert Hopman records at
+`11h 30m N` the notice “FT-Station Osmanie von uns aufgegeben”.
+[Original diary image, Baumgart edition (1971), p636 / scan646](https://api.digitale-sammlungen.de/iiif/image/v2/bsb00042051_00646/full/1800,/0/default.jpg).
+The notice does not quote this telegram. The source's 4 November page heading,
+5 November receipt and undated `2200` field remain distinct; no reply relation
+or clock reconciliation is asserted. The second announced part remains unread.
+
+[Exact optional-field witness and documentary metadata](../../experiments/early_radio_and_leave_records/osmanie_field_certificate.json)
+· [Optional-field verifier](../../experiments/early_radio_and_leave_records/verify_osmanie.py).
+
 ### Reproducibility and attribution
 
 The [input](../../experiments/early_radio_and_leave_records/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/early_radio_and_leave_records/certificates.json) records each raw paired-coordinate domain and every proposed source change. The [verifier](../../experiments/early_radio_and_leave_records/verify.py) checks the live German quotation against the same candidate labels, preserving every digit and unknown position.

@@ -1,0 +1,110 @@
+{
+  "schema": "adfgvx-p127-osmanie-field-input-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "record_id": "p127_B1",
+  "physical_body_added": false,
+  "key_id": "Nov4-6",
+  "dependencies": {
+    "inputs.json": "c870f0edb34a902618b4fdf92c7450de9c7fee9d3dfdd522aa5fd65d79fc42e7",
+    "certificates.json": "88116c465861a43566d1c11b12b6379fbfc88ef96d5ce8b6e3e5a5d1a9ffb659"
+  },
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p127_B1.png",
+      "printed_page": 127,
+      "pdf_page_1based": 130,
+      "crop_pdf_points": [
+        50,
+        442,
+        525,
+        570
+      ],
+      "render_scale": 3,
+      "sha256": "fdff54eebc8f2eda732476cf96c6a80dcad1f0db3b1bccc4510a74c8cfbf65d8",
+      "width": 1425,
+      "height": 384,
+      "rgb_sha256": "0e9a5e6c0c2a96c1e50f69f32843ea975521599f98d2120d5123a74a0d1fef94"
+    }
+  ],
+  "case": "cases/radio/nov4_personnel_transmission_notice.md",
+  "existing_candidate": "HIERNOCHALTESPERSONALXWIRSENDENWIEVERABREDETXWENNNICTMEHRDANNISTOS?AUSGESCHIEDEN",
+  "optional_candidate": "HIERNOCHALTESPERSONALXWIRSENDENWIEVERABREDETXWENNNICTMEHRDANNISTOSMAUSGESCHIEDEN",
+  "optional_readable_german": "Hier noch altes Personal. Wir senden wie verabredet. Wenn NICT mehr, dann ist OSM ausgeschieden.",
+  "field": {
+    "plaintext_index": 66,
+    "before": "?",
+    "domain": "4CMNST",
+    "proposed": "M",
+    "pair_before": "X?",
+    "pair_after": "XF",
+    "source_indices": [
+      44,
+      111
+    ],
+    "additional_source_mask_fill": {
+      "source_index": 111,
+      "printed": "-",
+      "to": "F"
+    },
+    "new_observed_substitutions": 0,
+    "new_source_mask_fills": 1
+  },
+  "source_dates": {
+    "page_heading": "4th NOVEMBER, 1918",
+    "receipt": "B) LP v NKJ (9.45 p.m., November 5th)",
+    "origin_and_parts": "2200 2 TLE; 1 TL RIZI-160",
+    "origin_date_printed": false,
+    "limit": "Page and receipt dates disagree. No time-zone reconciliation or proved relationship to the later diary report is imposed."
+  },
+  "documentary_reference": {
+    "title": "Von Brest-Litovsk zur deutschen Novemberrevolution",
+    "editor": "Winfried Baumgart",
+    "publisher": "Vandenhoeck & Ruprecht, G\u00f6ttingen",
+    "year": 1971,
+    "primary_author": "Albert Hopman",
+    "printed_page": 636,
+    "scan_1based": 646,
+    "entry_date_literal": "Dienstag, 5. November",
+    "receipt_time_literal": "11h 30m N",
+    "short_quote": "FT-Station Osmanie von uns aufgegeben",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb00042051?page=646",
+    "iiif_image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00042051_00646/full/1800,/0/default.jpg",
+    "storage": "external_iiif_reference",
+    "image_bytes": 824497,
+    "image_sha256": "22d8c0d69894710ae057e4382d202c7eac43a57a5a9da2bf96fd0ec31e7913fd",
+    "rgb_sha256": "f556e3d4a62cdadb4070ec83564c36883d3287e2afa5f73533fcfbc9039ddf80",
+    "width": 1800,
+    "height": 2925,
+    "visual_check": "Original page image independently viewed; entry heading, time and short quote are legible. The notice reports abandonment of Osmanie; it does not quote p127."
+  },
+  "other_context": {
+    "case": "cases/radio/p137_station_staff_query.md",
+    "relationship": "Separate OSM/OUI old-staff query provides call-sign context. No coordinate is copied and no reply relation is proved."
+  },
+  "limits": [
+    "OSM is an optional identification of a permitted label, supported by station context and a contemporary diary notice, not a cipher-only singleton.",
+    "The existing76/80 native raw and79/80 edited streams remain unchanged. This separate optional proposal reaches80/80 with one additional printed-mask fill.",
+    "Literal NICT remains NICT. No missing H, numerical value, radio route, date reconciliation or second-part text is supplied.",
+    "No new physical source body or completion of p127 B2 is counted."
+  ],
+  "published_call_sign_mapping": {
+    "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+    "authors": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker",
+    "year": 2016,
+    "section": "6.5",
+    "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+    "url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+    "mapping": {
+      "OSM": "Osmanie",
+      "OUI": "Eilvese"
+    },
+    "review": "The existing local author PDF was hash-matched and its section6.5 paragraph independently read; this published traffic attribution is separate from the source-derived X? domain and diary report."
+  }
+}

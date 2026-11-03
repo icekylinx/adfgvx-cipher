@@ -38,7 +38,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p127 A3](../../military/nov4_march_air_reconnaissance.md#p127-a3) | March report and aerial reconnaissance with unresolved unit and place | 90/100 native raw positions; 2 coordinate substitutions + 6 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4-6 key; prior OCR provenance retained |
-| [p127 B1](../../radio/nov4_personnel_transmission_notice.md#p127-b1) | Existing personnel and agreed radio transmissions | 76/80 native raw positions; 1 coordinate substitution + 3 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4-6 key; prior OCR provenance retained |
+| [p127 B1](../../radio/nov4_personnel_transmission_notice.md#p127-b1) | Existing personnel and agreed radio transmissions | 76/80 native raw; 79/80 edited at 1 substitution + 3 source-mask fills; optional OSM reaches 80/80 with 1 further mask fill; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4-6 key; prior OCR provenance retained |
 
 ## p128
 
