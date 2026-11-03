@@ -26,6 +26,9 @@ The cases contain the full readings and exact repair accounts. These recent exam
 
 | Edition | Result |
 |---|---|
+| [p176a source-retention bound](../cases/p176a.md#source-retention-bound-for-the-earlier-proposal) | For the fixed earlier 112-position proposal, all source-retaining insertion maps require at least 68 observed substitutions. Excluding only final printed mask 213 lowers the exact minimum to 13; all 254 optimal maps across the two primary families are recorded. |
+| [p137 B station-staff query](../cases/radio/p137_station_staff_query.md) | A 68/69-position reading follows a group movement and three missing slots. Independent scans agree on all 481,032 models and exactly five minima, each requiring three observed substitutions. |
+| [A5 provision-train completion](../cases/military/romanian_ultimatum_companions.md#optional-verpflegsz-completion) | The A6 continuation supports optional VERPFLEGSZ: one further printed-mask fill completes all 84 A5 positions, with the original three observed substitutions. |
 | [p176 A6 coal-train fragment](../cases/military/p176_coal_train_fragment.md) | A context-conditioned proposal reaches 48/80 positions from 14/80 raw with 44 printed-mask fills and zero observed changes. The routing field, later tail, N/X alternative and all 120 square completions remain explicit. |
 | [p71 A2 direct-current machines](../cases/radio/p71_dc_machines_fragment.md) | A conditional 47/96-position technical clause fits all 43 surviving half-pairs in that span with zero observed changes and 51 added-slot fills. Both SCHALTEN/ERHALTEN alternatives and the unread 49-position remainder are retained. |
 | [p219 C Kiev unrest](../cases/military/p219_kiev_unrest.md) | Parenthesized groups and the jamming boundary give 122/147 raw positions; seventeen added-slot fills yield a 139/147 zero-substitution word edition. All 81 models and four tied minima are checked; names have separate optional prices. |

@@ -1,0 +1,3 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(int argc,char**argv){ifstream f(argv[1]);string s,t;f>>s>>t;int best=999;long long count=0;vector<array<int,3>>ties;for(int st=0;st<=130;st+=5){vector<int>ret;for(int i=0;i<135;i++)if(i<st||i>=st+5)ret.push_back(i);for(int d=0;d<=130;d++){vector<int>m;for(int i=0;i<=130;i++){if(i==d)for(int j=0;j<5;j++)m.push_back(st+j);if(i<130)m.push_back(ret[i]);}for(int g=0;g<=135;g++){count++;int cost=0;for(int i=0;i<138;i++){if(i>=g&&i<g+3)continue;int j=i<g?i:i-3;char ch=s[m[j]];if(ch!='-'&&t[i]!='?'&&ch!=t[i])cost++;}if(cost<best){best=cost;ties.clear();}if(cost==best)ties.push_back({st,d,g});}}}cout<<count<<' '<<best<<' '<<ties.size()<<'\n';for(auto x:ties)cout<<x[0]<<' '<<x[1]<<' '<<x[2]<<'\n';}

@@ -5741,13 +5741,15 @@
       "printed_page": 176,
       "source_section": "A5",
       "subject": "Messages and material first to Hermannstadt; provisioning fragment",
-      "status": "Three coordinate substitutions and four dash fills; final unknown retained",
+      "status": "Native 168 slots; raw 79/84; prior proposal 83/84 (3 observed substitutions + 4 mask fills); optional A6-conditioned VERPFLEGSZ gives 84/84 with one extra mask fill, total 3 observed substitutions + 5 mask fills",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed candidate distinguished; existing p176a Norbert/Max credit retained",
       "path": "cases/military/romanian_ultimatum_companions.md#p176-a5",
       "source_reviewed": true,
       "evidence": [
         "experiments/romanian_ultimatum_companions/inputs.json",
-        "experiments/romanian_ultimatum_companions/certificates.json"
+        "experiments/romanian_ultimatum_companions/certificates.json",
+        "experiments/p176_verpflegs_joint_completion/inputs.json",
+        "experiments/p176_verpflegs_joint_completion/certificates.json"
       ]
     },
     {
@@ -9830,6 +9832,21 @@
       "evidence": [
         "experiments/p176_coal_train_fragment/inputs.json",
         "experiments/p176_coal_train_fragment/certificates.json"
+      ]
+    },
+    {
+      "id": "p137_B",
+      "label": "p137 B",
+      "printed_page": 137,
+      "source_section": "B",
+      "subject": "Query whether the station is still staffed by its former personnel",
+      "status": "Native 135 slots; conditional 138-frame with one five-slot group move and three added slots; raw 64/69, edited 68/69; five tied maps; three substitutions, two printed-mask fills and two added-slot fills; time 17?0 unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key and earlier OCR credited",
+      "path": "cases/radio/p137_station_staff_query.md#p137-b",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/p137_station_staff_query/inputs.json",
+        "experiments/p137_station_staff_query/certificates.json"
       ]
     }
   ]

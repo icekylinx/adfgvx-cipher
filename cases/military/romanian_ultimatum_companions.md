@@ -96,6 +96,29 @@ following provisioning phrase is incomplete in this edition. The ending
 last unknown has domain **56789JQSUZ**. Neither that letter nor an
 unseen grammatical continuation is supplied from context.
 
+## Optional VERPFLEGSZ completion
+
+The later [A6 coal-train proposal](p176_coal_train_fragment.md) supplies
+`KOHLENZUEGEN … GERECHNETWERDEN` after A5's `KANNMITZUFUEHRUNGVON…UND`.
+This context motivates **S** in the provision-train abbreviation `VERPFLEGSZ`.
+The optional word layer fixes **84/84 positions** by filling the remaining
+printed dash, source **50**, as `D`; with source **136 G**, its pair is `DG=S`.
+The price above the primary A5 proposal is **one mask fill and zero observed
+substitutions**, giving totals of **three observed substitutions and five
+printed-mask fills**. No square cell or historical digit is assigned.
+
+**Edited output — optional A5 completion conditioned on the A6 continuation; the primary 83/84 reading above remains unchanged:**
+
+```text
+NACHRICHTENUNDMATERIALZUNAECHSTNACHXHERMANNSTADTXXKANNMITZUFUEHRUNGVONVERPFLEGSZXUND
+```
+
+The A6 routing field and later tail remain unread. The [supplementary
+certificate](../../experiments/p176_verpflegs_joint_completion/certificates.json)
+checks the single-event delta and full A5 round trips under all 120 square
+completions. [Reproduce the supplement](../../experiments/p176_verpflegs_joint_completion/README.md).
+The optional completion is by **icekylinx and GPT-6 Astra Pro**.
+
 ## Surviving unread parts and the earlier challenge
 
 The source sequence is C1, C2, C3 on p175, followed by A4, A5, A6 on

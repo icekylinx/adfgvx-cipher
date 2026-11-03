@@ -35,18 +35,18 @@ Original challenge identifiers are retained; p198 denotes section D.
 | [pp. 175–199](cases/pages/175-199/README.md) | 6 | [p176a](cases/p176a.md), [p176b](cases/p176b.md), [p187](cases/p187.md), [p187b](cases/p187b.md), [p189](cases/p189.md), [p198](cases/p198.md) |
 | [pp. 200–224](cases/pages/200-224/README.md) | 2 | [p215](cases/p215.md), [p217](cases/p217.md) |
 
-### Other ciphertexts — 645 reviewed entries
+### Other ciphertexts — 646 reviewed entries
 
 Numbered parts and received copies are listed individually, with their reviewed reading status.
 
-**667 catalogue entries · 666 physical sources · 644 beyond the challenges.** The [source register](docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
+**668 catalogue entries · 667 physical sources · 645 beyond the challenges.** The [source register](docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
 
 | Printed source pages | Reviewed entries | Pages represented |
 |---|---:|---:|
 | [pp. 50–74](cases/pages/050-074/README.md) | 45 | 18 |
 | [pp. 75–99](cases/pages/075-099/README.md) | 63 | 25 |
 | [pp. 100–124](cases/pages/100-124/README.md) | 91 | 25 |
-| [pp. 125–149](cases/pages/125-149/README.md) | 75 | 25 |
+| [pp. 125–149](cases/pages/125-149/README.md) | 76 | 25 |
 | [pp. 150–174](cases/pages/150-174/README.md) | 122 | 25 |
 | [pp. 175–199](cases/pages/175-199/README.md) | 104 | 25 |
 | [pp. 200–224](cases/pages/200-224/README.md) | 116 | 25 |
@@ -65,7 +65,7 @@ Source review and current research: **icekylinx and GPT-6 Astra Pro**. Each deta
 | Finance and procurement | [Crown airlift request](cases/finance/nov9_crown_airlift_and_embassy.md), [Military allowances](cases/finance/military_allowances.md), [ZITAG orders](cases/finance/zitag_purchase_orders.md) |
 | People and diplomacy | [Constantinople civilians](cases/people/constantinople_civilians.md), [Polish representation in Tiflis](cases/caucasus/tiflis_appointment.md), [October Caucasus correspondence](cases/caucasus/october_caucasus.md) |
 
-The [research status](docs/research-status.md) highlights current gains and open work. The [experiment index](experiments/README.md) and [review ledger](data/review_ledger.json) provide the complete method and attribution record. The [source-image gallery](sources/reviewed-crops.md) gives direct access to the 40 latest reviewed crops.
+The [research status](docs/research-status.md) highlights current gains and open work. The [experiment guide](experiments/README.md) highlights the key methods; individual editions and the [review ledger](data/review_ledger.json) record attribution. The [source-image gallery](sources/reviewed-crops.md) gives direct access to the 40 latest reviewed crops.
 
 ## Verify
 

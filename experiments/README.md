@@ -1,294 +1,75 @@
 # Experiments and source verification
 
-[ADFGVX Cipher](../README.md) · [Readable cases](../cases/README.md) · [Methods guide](../docs/methods.md)
+**icekylinx and GPT-6 Astra Pro** · [Read the messages](../cases/README.md) · [Research status](../docs/research-status.md) · [Methods](../docs/methods.md)
 
-The joint width-18 search produced a **new substantial partial reading of p153a/p153b**. This index also covers source recoveries, editorial checks, exact optimization and searches that yielded no accepted plaintext. A failed heuristic search does not exclude a key or corruption model. The source and edit certificates in `../data/` remain separate from language-ranked candidates.
-
-**Browse:** [Sources and readings](#readings-parallels-and-source-review) · [p153](#p153-recovery-and-exact-constraints) · [Exact optimization](#exact-optimization-of-damaged-texts) · [Open targets](#open-target-searches-and-calibration)
-
+Our experiments recovered the shared p153 key, reconstructed damaged transmissions from independent copies, and established exact bounds for the hardest source models. This guide highlights the results and the tools behind them. The [page catalogue](../cases/pages/README.md) lists every source edition and links its complete evidence package.
 
 ## Readings, parallels and source review
 
 ### Latest source editions and follow-up methods
 
-| Experiment | Scope | Calibration and limit |
-|---|---|---|
-| [p176 A6 coal-train continuation](p176_coal_train_fragment/README.md) | Context-conditioned 48/80-position proposal | Zero observed changes; 44 printed-mask fills; raw route/tail and all 120 digit-square completions retained. |
-| [p71 A2 direct-current machines](p71_dc_machines_fragment/README.md) | Conditional technical clause; 47/96 lexical positions, 0/96 native fixed positions | All 85 observed half-coordinates retained; 51 added-slot fills and both wording alternatives. |
-| [p219 C Kiev unrest](p219_kiev_unrest/README.md) | Printed alternatives, jamming loss and a 139/147 zero-substitution edition | All 81 maps and four tied minima; optional name repairs kept separate. |
-| [p215 B1 train-departure fragment](p215_train_departure_fragment/README.md) | Conditional 220-slot frame; 77/110 lexical positions | No observed changes; 3 printed-mask and 39 added-slot fills; 33 unknowns and both X/A layers retained. |
-| [p198 A wheat-shipping query](p198_shipping_query/README.md) | Conditional 244-slot frame; 118/122 edited positions | All 2,700 source maps, both C/G glyph sensitivities and 432 global completions checked. |
-| [p152 A2 crossing fragment](p152_crossing_fragment/README.md) | Native 128-slot partial word proposal | Seven observed substitutions and two fills; name and footer preserved, optional place spellings separately priced. |
-| [p164 D receipt acknowledgement](p164_acknowledgment/README.md) | Native 58-position partial edition | Earlier complete raw output retained; ERHALTEN costs two observed substitutions. |
-| [p167 C1 mission address](p167_mission_address/README.md) | Native 66-position first part | Six observed substitutions and two fills; opaque fields and both linked digit assignments retained. |
-| [Danube and Arad source witnesses](danube_arad_witnesses/README.md) | Two new sources; eleven restored p159 coordinates | Reviewed; source-only pricing of 694,320 maps leaves eight origins with one completed stream. |
-| [Romanian ultimatum evening report](nov11_romanian_ultimatum_report/README.md) | 98-position body | Reviewed; two observed substitutions, all eight minimum source maps retained. |
-| [Third Ringbahn-key reception](nov13_ringbahn_retransmission/README.md) | p187 B1 fragment | Reviewed; 84 source-linked coordinates with original donor origins. |
-| [Conditional train-report recovery](nov24_train_report/README.md) | p217 B1; 96/102 zero-substitution lexical positions | Reviewed; 400 maps per template and all tied streams retained. |
-| [November 24: teleprinter report via Budapest](nov24_budapest_report/README.md) | 1 native source; 176 coordinates; 88 fixed labels | Reviewed; intact 51-label sentence with zero source edits or fills. |
-| [Poti first part: all minimum five-exclusion frames](poti_first_part_conditional/README.md) | 1 source record; 110 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Odessa courier report: a conditional loss before transposition](odessa_courier_pretransposition/README.md) | 1 source record; 163 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 30: aviation march destinations](nov30_aviation_march_destination/README.md) | 1 source record; 187 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 9 wire-return source family](nov9_wire_return_source_family/README.md) | 3 source records; 362 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Childs: all twelve numbered instructional examples](childs_instructional_examples/README.md) |12 examples;2058 coordinates;1029 fixed labels | Separate teaching material; exact source roundtrips and optional editorial costs. |
-| [p109: duplicate-pair source supplement](p109_optional_duplicate_pair/README.md) | Existing challenge source; no new physical record | Independent-copy alignment; all118/318 minima and numerical/name alternatives retained. |
-| [September 19: pigeons and Army Group East command arrangements](september19_pigeons_and_command/README.md) | 3 source records; 271 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 11: Romanian mobilization and a crossing report](nov11_romanian_mobilization_report/README.md) | 1 source record; 120 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 12: additional arrival and return enquiry witnesses](nov12_seifert_additional_witnesses/README.md) | 2 source records; 61 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Native restoration of the p151 E2 operations-map fragment](nov9_operations_map_sheets/README.md) | 1 source record; 112 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [p105 combined-source two-exclusion model](p105_optional_two_deletions/README.md) | Original challenge p105; no new source | Two exclusions and three substitutions; all tied frames and holdouts retained. |
-| [p136 visible-glyph correction](p136_source_glyph_correction/README.md) | Existing source; no new record | One transcription correction, exact before/after snapshots and zero extra historical repair cost. |
-| [Arad provisions and strength report: conditional partial recovery](arad_provisions_partial/README.md) | 1 source record; 136 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 7: Danube crossings and short message reports](nov7_danube_and_message_reports/README.md) | 5 source records; 389 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Optional p132 address spelling](p132_optional_address/README.md) | Existing records; two separately priced address substitutions | Three raw KOSPOLI attestations support an optional spelling without changing the primary reading or identifying the officer. |
-| [Optional p116 route fragment](p116_optional_route_fragment/README.md) | Existing record; 37 explicitly conditional half-pair completions | Five source-mask fills and 32 lost-tail fills preserve every observed coordinate; the primary raw-only edition remains unchanged. |
-| [Optional p63 technical word](p63_optional_technical_reading/README.md) | Existing record; three further substitutions and a separately stated surplus-interim model | Complete witness retains the 270 printed coordinates; the primary 21-position unresolved span is unchanged. |
-| [Optional p137 staff vocabulary](p137_optional_staff_vocabulary/README.md) | Existing record; three further substitutions and ten missing-coordinate fills | Retains the conditional interference frame, both source-glyph alternatives and all ten remaining unknowns. |
-| [Receipt request through Nikolajew: the other p105 telegram](nov2_nikolajew_acknowledgment/README.md) | 1 source record; 150 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Troop crossing in boats: a fragmentary November 6 report](nov6_boat_crossing_fragment/README.md) | 1 source record; 96 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Ringbahn instruction to the Caucasus delegation in Tiflis](nov6_tiflis_ringbahn_instruction/README.md) | 2 source records; 184 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Poti tobacco loading inquiry](nov3_poti_tobacco_loading/README.md) | 1 source record; 106 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Flying-unit departure or retention inquiry](nov4_flying_unit_inquiry/README.md) | 1 source record; 92 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Conditional November 6 marine-service notice](nov6_marine_service_notice/README.md) | 1 source record; 143 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Eilvese/OUI traffic schedule](nov3_eilvese_traffic_schedule/README.md) | 1 source record; 176 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 22: reverse key use and an Aufbau date correction](nov22_reverse_keys_and_date_correction/README.md) | 2 source records; 134 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 15: Warsaw radio personnel and a repeated key notice](nov15_radio_personnel_and_key_notice/README.md) | 3 source records; 233 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 27: Helsingfors shipping and a vehicle-sale instruction](nov27_ships_and_vehicle_sale/README.md) | 2 source records; 238 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Baku personnel inquiry: a duplicated-block source reconstruction](baku_personnel_inquiry/README.md) | 1 source record; 134 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 9: a crown airlift request and an urgent embassy address](nov9_crown_airlift_and_embassy/README.md) | 4 source records; 312 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 7–8: embassy, legation and Etappe address parts](nov7_8_embassy_address_parts/README.md) | 7 source records; 284 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 8: a separate Serbian-cavalry report witness](nov8_serbian_cavalry_parallel/README.md) | 1 source record; 118 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Accounting-copy reconciliation](accounting_copy_reconciliation/README.md) | Two existing records; two newly fixed p175 labels | Native source comparison, retained ending disagreement, exact shared-repair prices and both global square completions. |
-| [An expected return and an attempt to obtain a vehicle](return_time_and_vehicle_attempt/README.md) | 2 source records; 66 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [A second-part instruction on security measures at own discretion](group_security_measures_fragment/README.md) | 1 source record; 101 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [A request to send money to BRASSO by another means](brasso_money_alternative_route/README.md) | 1 source record; 122 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Nov3 bucharest power source](nov3_bucharest_power_source/README.md) | 2 source records; 195 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Conditional November 13 congratulation](nov13_congratulation_conditional_frame/README.md) | 1 source record; 37 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Radio relay and march notice](radio_relay_and_march_notice/README.md) | 3 source records; 268 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [An enquiry about an MMD command or representative](mmd_command_whereabouts/README.md) | 1 source record; 63 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [A repeated negotiation assessment and a departure-order reference](nov18_negotiation_repetition/README.md) | 2 source records; 242 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Postponed departure, a supper query and a farewell](nov14_15_departure_and_supper/README.md) | 3 source records; 184 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Southern hungary positions part2](southern_hungary_positions_part2/README.md) | 1 source record; 150 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [A parallel car enquiry with an explicit extra-coordinate model](car_query_parallel_frame/README.md) | 1 source record; 18 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Nov6 embassy 8956 annotation](nov6_embassy_8956_annotation/README.md) | 1 source record; 65 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Oct31 armistice and followup](oct31_armistice_and_followup/README.md) | 2 source records; 123 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Nov1 nov2 native dispatches](nov1_nov2_native_dispatches/README.md) | 4 source records; 365 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Gokieloff return payment stop](gokieloff_return_payment_stop/README.md) | 2 source records; 168 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [An accommodation-area report with unresolved army and place labels](jaeger_accommodation_area/README.md) | 1 source record; 115 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Short arrival, departure and car enquiries on November 12](nov12_arrival_departure_and_car/README.md) | 4 source records; 110 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [October 30 oil and supply records](oct30_oil_and_supply_records/README.md) | 2 source records; 270 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 6 evening and embassy records](nov6_evening_and_embassy_records/README.md) | 3 source records; 224 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [A regimental journey report with unresolved route and unit labels](regimental_journey_report/README.md) | 2 source records; 233 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Reduced provisioning strength and a separate evening report](nov25_provisions_and_evening_report/README.md) | 3 source records; 315 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [An instruction to avoid fighting, with further orders to follow](avoid_fighting_instruction/README.md) | 1 source record; 136 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [A radio-traffic transfer in a surviving second part](radio_traffic_transfer_fragment/README.md) | 1 source record; 93 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 6 resale and aerial reconnaissance](nov6_resale_and_air_reconnaissance/README.md) | 2 source records; 206 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Early radio and leave records](early_radio_and_leave_records/README.md) | 4 source records; 406 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Odessa consular routing and a Magdeburg wagon-sale instruction](odessa_wagon_sale/README.md) | 2 source records; 245 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Urgent shipping capacity and probable reliance on sea transport](urgent_shipping_space/README.md) | 2 source records; 194 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Benzol-pump inquiry with an explicit missing-coordinate model](benzol_pump_query/README.md) | 1 source record; 51 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [An airfield and German troops: the surviving third part on p154](airfield_german_troop_fragment/README.md) | 1 source record; 86 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [OKM availability through an incompletely identified radio route](okm_radio_route/README.md) | 1 source record; 43 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Armistice-departure report: explicit p151/p157 copy reconstruction](armistice_departure_copy/README.md) | 1 source record; 95 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Wishing to travel home and uncertainty over Baltic transport](home_departures_baltic_transport/README.md) | 2 source records; 212 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Mackensen withdrawal report: separately received part 2](mackensen_withdrawal_part2/README.md) | 1 source record; 189 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Namur arrival, Cassel transport and armistice-information requests](namur_cassel_armistice_requests/README.md) | 4 source records; 329 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Eilvese, setup, boat-sale and director-departure source records](nov4_radio_and_departure_queries/README.md) | 4 source records; 443 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Gomel route derailment and station-train forwarding](nov7_derailment_and_trains/README.md) | 2 source records; 270 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Unreadable eighth part: source and shared-cell reconstruction](nov7_eighth_part_repetition/README.md) | 2 source records; 161 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Ober Ost troop movements: a conditional reading across two obliterations](oberost_troop_movement_obliterations/README.md) | 1 source record; 154 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Von Schorlemer: demobilization work inquiry and reply](schorlemer_demobilization_inquiry/README.md) | 2 source records; 206 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [September radio instructions: Tiflis routing and key destruction](september_radio_instructions/README.md) | 4 source records; 399 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [Siegfried assignment cancellation: conditional surplus coordinate](siegfried_assignment_cancellation/README.md) | 1 source record; 200 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [State-bank accounting request and dispatched cheques](staatsbank_accounting_cheques/README.md) | 2 source records; 201 modeled positions | Reviewed; frame and repair ledger in the linked edition. |
-| [November 4 repetition and communications](nov4_repetition_and_connections/README.md) | Five records; 515 positions | Native frames, seven observed substitutions and one source-mask fill; the cash acknowledgment needs no repair. |
-| [November 2 acknowledgments and personnel](nov2_acknowledgments_and_personnel/README.md) | Seven records; 588 modeled positions | One missing A restores Meier’s Berlin order without altering an observed coordinate; the two equivalent gap origins and conflicting copy references remain explicit. |
-| [November 30 radio and personnel notices](nov30_radio_personnel/README.md) | Four native records; 245 fixed positions | Zero repairs; both printed p230 C first-group readings and all literal references are retained. |
-| [November 27 radio reception instructions](nov27_receiving_instructions/README.md) | Three native records; 253 positions | Fourteen observed substitutions and three source-mask fills are separately listed; numerical fields and reference spellings stay literal. |
-| [November 16–18 command and equipment inquiries](nov16_18_command_inquiries/README.md) | Seven native records; 535 positions | Nine observed substitutions and five source-mask fills; nine edited unknown positions remain, with global-square witness choices explicitly nonhistorical. |
-| [Ringbahn key instructions: independent November 6 witnesses](nov6_ringbahn_key_witnesses/README.md) | Three records; 266 modeled positions | A missing F and three repairs give an exact independent B2 copy; all four older word repairs receive direct new-source support, while dates and references remain in conflict. |
-| [Warsaw station report: missing-row continuation](warsaw_station_missing_row/README.md) | One conditional record; 141 modeled positions | All 242 printed coordinates survive unchanged; 36 of 40 inserted slots are filled. Three terminal placements and four primary unknowns remain explicit. |
-| [Romanian pacification consultation](romanian_pacification_consultation/README.md) | Four native parts; 378 positions | Truncated A1 remains uncounted context; eleven substitutions and one mask fill are explicit, with two bracketed display-only spelling letters. |
-| [Mackensen subordination and Orient reports](nov1_mackensen_and_orient_reports/README.md) | Eight records; 695 modeled positions | Copy conflicts, five exclusion origins, the weak source slot and 128 minimum common-copy streams remain explicit. |
-| [Caucasus ammunition and Roesler leave](nov1_ammunition_and_leave/README.md) | Two native records; 260 fixed positions | Zero historical edits; 5280625, both ROESLER labels and abbreviation spellings remain literal. |
-| [Hungarian armistice instructions](hungarian_armistice_instructions/README.md) | Three native parts; 333 fixed positions | Source-defined A2/A3 split; six priced substitutions and one display-only bracketed spelling letter. |
-| [Sevastopol coded routing](sevastopol_coded_routing/README.md) | Three native parts; 316 positions | One invalid-glyph fill; twelve five-figure inner-code groups remain opaque, including the leading zero. |
-| [Map request, border report and embassy signature](nov8_map_and_boundary/README.md) | Three records; 191 modeled positions | Both globally coupled 5/6 map readings, tied gap origins and the F/E source sensitivity remain explicit. |
-| [November 7 fragments and Soldiers Council notice](nov7_fragments_and_council/README.md) | Four records; 343 modeled positions | Conditional short-group gap; handwritten and typed source layers are separated; STUR3FSS remains opaque. |
-| [Urgent Constantinople embassy address](nov9_urgent_embassy_address/README.md) | One native record; 49 fixed positions | DVGXV and final AXA are source transcription corrections; DRINGEND needs no historical edit. |
-| [Unaccepted odd-fragment diagnostics](odd_fragment_diagnostics/README.md) | No new catalogue records | 490,966 finite parameter evaluations with stated overlap and coverage thresholds; zero accepted complete plaintexts. |
-| [Chemnitz railway traffic and Schaefer inquiry](p107_railway_and_dragoman/README.md) | Three native records; 311 positions | Source-visible FDGD restores an OCR-truncated row; 12 word repairs are priced, while the final dash, opaque references and feasibility question stay explicit. |
-| [Naval arrival inquiry and Rudolf discharge](p108_naval_and_personnel/README.md) | Three records; 274 modeled positions | Visible FX restores the native naval frame; the separate personnel continuation retains five short-group geometries and an unresolved reference. |
-| [November 8 radio-key instructions, prices and reports](nov8_radio_keys_and_reports/README.md) | Seven records; 662 modeled positions | All 28,680 double exclusions and 309 single exclusions priced; both coupled 5/6 assignments retained; seven exact readable mappings. |
-| [Black Sea evacuation routes](black_sea_evacuation_routes/README.md) | Four new records; 707 modeled positions | Source-declared 100-coordinate loss; 31 missing coordinates remain unfilled; existing Ayush part2 stays outside new counts. |
-| [Caucasus radio transmitters](caucasus_radio_transmitters/README.md) | Two native records; 153 positions | All 16 handwritten-annotation combinations retained; malformed A1 wording is not silently normalized. |
-| [November 1 contact, mail and Sava reports](nov1_contact_mail_and_sava/README.md) | Five records; 322 modeled positions | Conditional odd-source completion has two tied insertion origins; WIEDER is an additional priced hypothesis. |
-| [Stop premium payments](premium_payment_stop/README.md) | Two native records; 205 fixed positions | Zero edits; aus Landesmitteln retains the complete literal letter stream and the source date fields. |
-| [Tiflis repetition request](tiflis_repetition_request/README.md) | One native record; 157 fixed positions | Two word repairs; abbreviated address, reference numerals and distinct date fields remain literal. |
-| [November 3 evening-report copies and November 4 notices](nov3_evening_and_nov4_radio/README.md) | Seven records; 635 modeled positions | Seventeen copy-supported erased coordinates; two copy conflicts, lower-cost FAHRZEUG alternative, and 161,025 C parameters / 155,400 distinct layouts retained. |
-| [Poti horse delivery](poti_horse_delivery/README.md) | Two native records; 225 positions | Opaque suffix and twelve source dashes remain; expensive contextual completion stays outside primary counts; A1 remains unread. |
-| [Dunst assignment cancellation](dunst_assignment/README.md) | Two records; 373 positions | A source-prefixed dash is separately excluded; observed-D deletion alternative and native grammatical anomalies remain explicit. |
-| [Mecklenburg inquiry and seaplane personnel](mecklenburg_and_seaplane_personnel/README.md) | Three native records; 533 positions | Legation's question and transfer to the second unit; damaged/faint source glyphs have unfilled sensitivity variants. |
-| [Turkish armistice shipping order](turkish_armistice_shipping_order/README.md) | Three native records; 459 positions | Intercepted terms and stopping material shipments; related BVG/KOSPOLI wording does not repair the separate p112 ending. |
-| [Hungary connection and radio supplies](hungary_connection_and_supplies/README.md) | Three native records; 319 fixed raw positions | Corrected source counts restore two unchanged messages; six source substitutions in the supply notice remain explicit. |
-| [Kress receipt and Nazareth front inquiry](september_receipt_and_front_inquiry/README.md) | Two records; 160 positions | Exact zero-edit front inquiry; damaged receipt glyphs and the missing-letter spelling remain explicit. |
-| [Withdrawal near Kronstadt and Hermannstadt](p175_c3_gap_followup/README.md) | One 111-position conditional record | Six tied single-block gaps; arbitrary-five loss lowers substitutions from four to three and still has six layouts. |
-| [Hauptwechselamt accounting](hauptwechselamt_accounting/README.md) | One 102-position record | Received November 10 under the earlier key; four unresolved positions and 72 compatibility witnesses retained. |
-| [Nobel oil inquiry and Damascus–Aleppo radio report](p64_oil_and_radio/README.md) | Three source records; 438 positions | Prior identified oil body credited; marked source glyphs and the conditional clock-digit reading remain separate. |
-| [Late-October radio service and hide purchasing](late_october_radio_and_materials/README.md) | Eight typed frames; 796 positions | Handwritten duplicate groups and their D/O ambiguity have separately priced composite frames; heavily filled text remains conditional. |
-| [November 3 medical, radio and withdrawal reports](nov3_medical_radio_withdrawal/README.md) | Five records; 458 modeled positions | Source-exact C3 and independent C4 audit; five observed exclusions have seven contiguous and fourteen arbitrary equal-cost layouts. |
-| [Armistice conditions and provisions requests](armistice_provisions_requests/README.md) | Three records;334 positions | Extra mark in A costs zero or one observed exclusion separately;29 substitutions and6 mask fills remain explicit. |
-| [Transport priorities and disarmament orders](transport_and_disarmament_orders/README.md) | Five native frames;594 positions | Actual source rows omitted by OCR are restored; incomplete Prague first part and abnormal reference labels remain literal. |
-| [Alpenkorps and other return orders](repatriation_orders/README.md) | Seven records;794 modeled positions | A complete unchanged-source copy supports an earlier damaged ending; one221-slot frame needs a conditional extra-X exclusion. |
-| [Delegates and Danube field-report companions](nov10_delegates_and_field_report/README.md) | Four records;410 positions | Prior Lasry delegate-body credit and the existing p176b challenge remain separate; time digit has five possibilities. |
-| [Prague-route continuation and situation inquiry](prague_route_and_situation/README.md) | Two native frames;122 positions | Possible p209 continuation is not a proved same telegram; conflicting dates and missing-first-part notice preserved. |
-| [Romanian ultimatum companions](romanian_ultimatum_companions/README.md) | Three records;294 positions | Existing p176a keeps its credit; two unread fragments remain outside counts; C3 header corrected to222 from a rejected232 reading. |
-| [November3 radio, Kiew and pioneer reports](nov3_radio_and_pioneer/README.md) | Three native frames;414 positions | Source-exact398-slot pioneer frame and independent G/C glyph review; ten substitutions and two mask fills, no frame change. |
-| [Wallachia withdrawal preparations](wallachia_withdrawal_preparations/README.md) | Five parts; 506 modeled positions and 39 source-mask fills | One reference position remains unknown; all nine observed-coordinate changes are explicit. |
-| [Sale of radio and telephone apparatus](apparatus_sale_request/README.md) | Two parts; 221 positions | Six observed substitutions and 18 source fills; the final domain remains DEQTUX. |
-| [Radio contacts, key availability and service orders](radio_contacts_and_keys/README.md) | Seven exact source frames, 645 positions | No new key identity is inferred from a key name or an administrative statement. |
-| [Hermannstadt radio report](hermannstadt_radio_report/README.md) | Four parts; 465 positions, two independently priced extra-coordinate models | Tied deletion maps remain; raw NIKOLA3EW is adverse to a blanket name interpretation. |
-| [Military-mission recalls and Osthoff witnesses](military_mission_recalls/README.md) | Four parts; three old editorial letters gain independent cross-key support | Six new-source changes, four mask fills and unresolved square fields remain separate. |
-| [Constantinople address and signature fragments](constantinople_address_parts/README.md) | Three first parts; 263 positions | The absent second parts and unresolved L-shaped glyph are not reconstructed. |
-| [Opposite-end deciphering instruction](bidirectional_deciphering/README.md) | One 105-slot record; 8,892 framing candidates and 78 companion splits | NKJ and NMJ are equally priced; two substitutions, one mask fill and one extra coordinate remain conditional. |
-| [Banknote completion and armistice copies](retrieved_copy_editions/README.md) | Three new witnesses; nineteen missing tail coordinates supplied | One earlier fill is contradicted; copied corruption does not independently confirm its repair. |
-| [Palestine medical-unit dissolution](palestine_medical_dissolution/README.md) | Two parts; an exact 336-coordinate copy supplies the missing antecedent | No observed-coordinate substitution; one invalid-glyph fill and literal unit labels retained. |
-| [Newspaper dispatch copies](newspaper_dispatch_witnesses/README.md) | Two parts; complementary coordinate-pair evidence | Three letters remain editorial; fourteen combined repairs exceed the common-stream minimum of ten. |
-| [MG08 inventory and medical return](inventory_and_medical_return/README.md) | Three parts; one short group has three equal-A insertion positions | Six observed substitutions; source-local placement evidence is weaker for the third arithmetic tie. |
-| [Surviving eight-part Transylvania report](transylvania_situation_report/README.md) | Five readable parts and one separately preserved unread fragment | Part 5 uses an explicit conditional crib; all 38 interference allocations and missing parts 2/3 remain visible. |
-| [Conditional November22 J interpretation](nov22_nikolajew_constraint/README.md) | Twenty-one reviewed records and 54 variants | GD=J is conditional; NIKOLA3EW and B9VERN remain adverse or unexplained, with no digit recovery. |
-| [Literal-coordinate copy retrieval](post_push_copy_retrieval/README.md) | 113 reviewed references against 788 OCR blocks; 25 cross-page pairs | Seven new lead pairs lead to five body families; the shuffled control has no retained pair, not a probability claim. |
+| Result | Evidence |
+|---|---|
+| **Station-staff query** — 68/69 positions; all five minimum source maps independently reproduced | [p137 B: 481,032 models](p137_station_staff_query/README.md) |
+| **Provision-train completion** — 84/84 positions with one extra mask fill supported by the next part | [A5/A6 joint reading](p176_verpflegs_joint_completion/README.md) |
+| **Kiev unrest and soldiers’ council neutrality** — 139/147 positions with zero observed substitutions after resolving printed group alternatives | [p219 C: all 81 source maps](p219_kiev_unrest/README.md) |
+| **Wheat-shipping price query** — 118/122 positions, with vessel and quantity alternatives retained | [p198 A: 2,700 maps and 432 completions](p198_shipping_query/README.md) |
+| **Technical and transport fragments** — direct-current machines, coal trains via Klausenburg, and further train departures | [p71 A2](p71_dc_machines_fragment/README.md), [p176 A6](p176_coal_train_fragment/README.md), [p215 B1](p215_train_departure_fragment/README.md) |
+| **Crossing report, receipt and mission address** — three separately priced partial editions | [p152 A2](p152_crossing_fragment/README.md), [p164 D](p164_acknowledgment/README.md), [p167 C1](p167_mission_address/README.md) |
+| **Arad copy restores eleven lost coordinates**, including native support for 80000 MANN | [694,320 source-only maps](danube_arad_witnesses/README.md) |
+| **Romanian ultimatum evening report** — complete 98-position body under eight tied source maps | [Exact reconstruction](nov11_romanian_ultimatum_report/README.md) |
+| **Third Ringbahn-key reception** — 84 additional directly witnessed coordinates | [Cross-copy recovery](nov13_ringbahn_retransmission/README.md) |
+| **Budapest teleprinter report** — all 176 native coordinates, with an intact 51-label report-transmission sentence | [Source edition](nov24_budapest_report/README.md) |
+
+The [21-source audit](../docs/source-gap-audit.md) records the fresh transcriptions, boundaries and PDF pixel recipes used in this campaign. The [whole-material census](../docs/whole-material-coverage.md) tracks current collection coverage.
 
 ### Earlier source editions
 
-| Experiment | Scope | Calibration and limit |
-|---|---|---|
-| [Hungary transport warning](hungary_transport_warning/README.md) | Six records; an independent 92-position raw witness selects one of 188 missing-group positions at zero observed-edit cost | Missing DXDVA restores five letters; 31 unknown positions and the extra HE?REIN form remain unresolved. |
-| [Constanza radio connections](constanza_radio_connections/README.md) | Six records; two repeated parts and a complete four-part explanation, 654 raw fixed labels | Printed342 versus actual242, an independently witnessed source annotation, shared defects and five substitutions remain explicit. |
-| [Armistice transit planning](armistice_transit_planning/README.md) | Seven records; six ordinary frames plus a conditional 267-slot pretransposition coordinate omission | Every 1,070 stage/position comparison and 268 retrospective insertion prices retained; no unique historical-loss claim. |
-| [DEUTZITAG enquiries and Tiflis pioneer order](deutzitag_dispatch_inquiries/README.md) | Four records, 1,018 unchanged-length coordinates and 509 raw-label positions | Exact short copies and an independently witnessed longer-copy repair; one separate order retains all raw references. |
-| [Turkish military-mission recall](turkish_mission_recall/README.md) | Four parts, 1,290 valid coordinates and a separate 58-character closing witness | Three ordinary substitutions; received misspellings, duplicated letters and the unresolved MILIGRHYU field remain. |
-| [Late transport dispatches](late_transport_dispatches/README.md) | Six source parts, 1,442 slots and 716/721 edition positions; source correction restores a damaged aviation order | Fourteen substitutions, 39 fills, five unresolved positions, unassigned quantities and actual source times retained. |
-| [September radio procedure](september_radio_procedure/README.md) | Three exact frames, 556 source slots and 275/278 fixed raw positions | Three substitutions, four conservative fills and one separately preserved alternate visual reading; no historical numeral assignment. |
-| [Mackensen armistice appeal](mackensen_armistice_appeal/README.md) | Six parts, 1,352 source slots and all 24,976 declared two-group loss placements checked | Prior identified body; conditional ten-coordinate prefix, five masked minima, exact repairs and differences from the earlier prose summary remain explicit. |
-| [Conditional November25 J interpretation](nov25_letter_constraint/README.md) | Complete 23-record raw/edited label inventory, two lexical anchors and four inconvenient occurrences | VD=J is conditional; old FX/J remains unknown, 12! global square completions remain, and no numbers or source coordinates are changed. |
-| [Orient intelligence report](orient_intelligence/README.md) | Six source parts, 2,020 coordinates and 1,010 plaintext positions; printed part boundaries restore 487 direct positions on p93 | Four ordinary substitutions and one erasure fill; observations, anticipated landings and alleged events retain their source qualifications. |
-| [Military meal allowances](military_allowances/README.md) | Four source parts, 1,760 slots and 877/880 raw fixed positions; p133 A3 yields 243 unchanged-source letters | Ten substitutions and three printed erasure fills; allowance references, received spellings and PASCHE remain unexpanded. |
-| [ZITAG purchase and loading orders](zitag_purchase_orders/README.md) | Five records, including three 180-coordinate copies; 531/534 raw fixed positions | All three copy differences retained; the readable common candidate is not a majority vote, and all 14 substitutions and three fills are explicit. |
-| [Crown airlift](crown_airlift/README.md) | Three parts and 371 printed slots; interrupted final part admits a small-banknote request without changing received coordinates | Nineteen absent tail coordinates, three tied gap fits, 12 conditional fills and seven remaining absences; one ordinary substitution and one printed erasure fill elsewhere. |
-| [Liman troop reports](liman_troop_reports/README.md) | Two exact source frames, 414 coordinates and 207 fixed raw-label positions | One ordinary substitution; raw 9EDE, reference labels and the conflicting November/December dates remain explicit. |
-| [Military-intendant responsibilities](military_intendant_remit/README.md) | Four parts, 877 received slots and 432/441 proposed fixed positions | Conditional five-coordinate first-part gap; all 224 placements, competing language/edit-cost minima and six final reference unknowns retained. |
-| [Neuhof demobilization](neuhof_demobilization/README.md) | Three parts, 696 printed slots; source correction restores the first-part destination and the final routing instruction | Middle-part proposal covers only 33 positions; its other 99 positions remain unread. Questioned 196 versus actual 186 length and omitted letters are not silently repaired. |
-| [Crown cash and banknote shortage](crown_cash_requests/README.md) | Three records, 918 unchanged source coordinates and 459 raw-label positions | Six costed ordinary-word repairs, complementary within-message office/place support, and complete unassigned amount/reference inventory. |
-| [Lei-note redemption instructions](lei_note_exchange/README.md) | Three parts, 999 source slots and one short group; 494/500 fixed raw-label positions | All monetary/reference pairs unchanged; exhaustive gap comparison and all five local alternatives; no guessed exchange-rate assignment. |
-| [Breslau staff transfer](breslau_staff_transfer/README.md) | Two parts, all 558 coordinates valid and 279 raw-label positions; no length changes | Nine ordinary-word repairs; complete numeral/JQY inventory; older primary unit context and OCR-only surname lead kept separate from any label assignment. |
-| [Constantinople civilians and diplomatic appeal](constantinople_civilians/README.md) | Four source parts; 624/628 fixed raw positions; masked exhaustive gap/deletion screens | Raw 0YY headcount retained; all seven final-part frames and every repair cost preserved; contemporary official diplomatic texts corroborate subject and routing only. |
-| [October routing and requests](october_requests/README.md) | Four records; 842 printed slots; all 17,578 two-deletion layouts checked for the weather instruction | Exact Sofia reading, repaired Westernhagen request, conditional weather geometry and explicitly partial inspector text. |
-| [Turkish ship purchases](turkish_tonnage/README.md) | Three parts; 999 printed slots; 490/500 raw fixed positions | Both short-group ties, all repairs and every favorable or inconvenient effect of the separate XX=6 condition retained. |
-| [Boots and clothing request](boots_request/README.md) | Two parts; one displaced group; all 1,297 distinct one-group-move frames checked | 196/200 proposed positions; posthoc word-mask qualification, exact repairs and all connective witnesses retained. |
-| [Corcovado terms and reply](corcovado_sale_terms/README.md) | Six records; 2,120 slots; 1,051/1,060 raw fixed positions | Same-vessel name witness and separate A6S condition; no currency, reference-tail or disposition inference. |
-| [October staffing and service traffic](october_staffing/README.md) | Six exact frames; 1,264 slots; 630/632 raw positions | Four source-coordinate substitutions and two erasure fills; brigade/regiment numerals 4 are directly observed. |
-| [Siedlce garrison withdrawal](siedlce_withdrawal/README.md) | 330 source slots; complete 165-position edition; independently attested signature | Eleven substitutions and one dash fill; no key change, inserted plaintext, or inferred battalion number. |
-| [Black Sea shipping and supply](black_sea_shipping/README.md) | Five records; 1,596 slots; all surplus-coordinate and gap alternatives retained | Prior p199 body credit; source-level cargo and Corcovado editions with unresolved quantity and references. |
-| [Naval armistice order](naval_armistice_order/README.md) | Five parts; 1,436 received coordinates; two short groups; 717/719 fixed positions after costed repairs | Prior Lasry-team body credit retained; 14 substitutions, two insertions, 20 coupled numeral pairs, ambiguous length glyphs and conflicting source years are explicit. |
-| [Warsaw and LP service messages](warsaw_service_messages/README.md) | Four records; 1,081 source slots; two tied zero-substitution one-coordinate gap fits | Source dates, numerical labels and misspellings retained; all conditional Y effects checked across ten variants without additional fixed letters. |
-| [Polish appointment and conditional Y](tiflis_appointment/README.md) | Three source parts, 719 received coordinates; floating-group placement and a missing group located with names masked | Ordinary words give 114/116 positions in part 3; independent historical identity supplies the final two conditionally. All eight arithmetic name alternatives and all local key-domain effects remain visible. |
-| [November 14 cross-key retransmissions](nov14_retransmissions/README.md) | Seven source records; exact 195-coordinate suffix supplies 85 missing coordinates and 85 raw positions | Two differently keyed request pairs witness 87/88 and 94/94 candidate positions; surname equality leaves multiple symbols and is not a key fill. |
-| [Aircraft connection and earlier station inquiry](aviation_connection/README.md) | p187 D1 missing-group reconstruction and exact repair account for the prior p187 C reading | Two source-equivalent gap placements; all 497 stated framing comparisons checked; original p187 C attribution, reference uncertainty and source timing retained. |
-| [Conditional November Y constraints](contextual_key_constraints/README.md) | Exact p198 frontier under FX=Y; all 5,040 square completions; 29 reviewed source records in 51 variants | Name and pilot-transfer assumptions remain separate; no new p198 plaintext or reference digit. Independent witness review covers all 55,440 p187 D field assignments. |
-| [Late-key interpretation propagation](late_key_interpretation/README.md) | Four previously reviewed records under explicit partial-square maps; p215 ending `?1?6` | Every global square remains injective; all 90 p215 ending assignments have witnesses, and original gaps, labels and editorial costs stay separate. |
-| [Late operational source edition](operational_recovery/README.md) | Eight records, 1,632 source slots; 815/816 raw baseline-label positions fixed | Exact local repair costs; optional injective numeral and rare-letter maps supported by contemporary unit evidence, with source uncertainty retained. |
-| [October Caucasus source edition](october_caucasus/README.md) | Twelve records, 2,620 source slots; retained layouts share 1,182/1,281 fixed raw positions | Source strikeout and conditional duplicate/short-group models are distinct; disputed quantities and all repair costs remain explicit. The p68 procurement pair is provisional or opening-only; an interrupted continuation remains unread. |
-| [Withdrawal-order source edition](withdrawal_recovery/README.md) | Seven source records; six explicit frames fix 608/730 raw positions | Every substitution and fill costed; part-15 reconstruction and shared digit inference remain conditional, and the odd jammed fragment remains unframed. |
-| [Kiel, internment and cipher-instruction sources](corpus_extension/README.md) | Fourteen ciphertexts and one cleartext notice; exact duplicate and group-restoration models | Prior readings retain credit; two unchanged key-sharing parts, all source images and separately priced word repairs. |
-| [Source-reviewed corpus readings](corpus_readings/README.md) | Nine source parts, two assembled multipart messages and one exact repeated suffix | Separate raw and editorial layers; p123 deletion aliases exhaustively checked for the stated candidate; p218 treaty context does not replace source evidence. |
-| [Osthoff and Glatz parallel witnesses](corpus_attack/SOURCE_FAMILIES.md) | Six source records, 407 candidate plaintext positions | 403 positions have complete coordinate-pair support; three emendations and one damaged-glyph fill remain explicit. |
-| [p205 financial and naval orders](corpus_joint/README.md) | Two messages in six parts; 1,514 source coordinates | 750/757 raw positions fixed; four editorial substitutions; six reference positions remain unknown. |
-| [Station control, Seifert and operational reports](p170_continuation/README.md) | Fifteen source records, 2,161 slots; a 20-coordinate prefix supplied by a repeat | Independent arithmetic, conservative source unions and separate historically supported unit identification; both cipher-only digit alternatives retained. |
-| [Munich courier reconstruction](courier_recovery/README.md) | Five witnesses, direct 67/68-position continuation, and all minimum fits of two first-part damage models | 118/134 first-part positions have unchanged-pair support across both conditional models; association, names and numeral inference remain qualified. |
-| [Cross-key witnesses and conditional digit recovery](open_targets_continuation/README.md) | Fourteen parts, 3,084 slots and 1,490/1,542 direct positions; Kremp, Warsaw, key schedule and order references | Exact source repair costs, independent-key overlaps and separate FD=8 / VA=5 assumptions; no base-key mutation or first-decipherment claim. |
-| [p187b adjacent-coordinate repair](p187b_adjacent_swap/README.md) | All 141 adjacent swaps under the published partial key | One swap explains both of Norbert's 2017 word corrections; 140 coordinates remain unchanged and all seven ending unknowns remain. |
-| [All-target source retrieval](source_similarity_extension/README.md) | All 22 challenge entries against 788 OCR blocks; 17,336 comparisons | Established parallels recur; same-page self matches are shown separately, and new local candidates remain distinct from source evidence. |
-| [p73 primary-source follow-up](p73_primary_followup/README.md) | Late-period Kress memoir, Lepsius documents 439–444 and the institutional Kress-name search | No matching incoming radiogram found in the inspected scopes; an apparent date match belongs to 1917. |
-| [Additional transport parallels](transport_followup/README.md) | Four p197/p198 witnesses, all gap/dash alignments and linked number fields | Independent source maps and attainable edit minima; no new historical digit or p198 D solution. |
-| [Direct source-similarity retrieval](source_similarity/README.md) | 26,792 comparisons across 788 OCR blocks, with whole-query and local alignment | Established and seeded parallels rank first; image review of each open target's best hit establishes no additional parallel. |
-| [p215 Corps Kosch interpretation](p215_context/README.md) | Explicitly costed readable segment and contemporary command/naval context | Two known changes for KORPSXKOSCH versus five for KORPSFRISCH; the broader 92-character segment needs nine changes and fifteen fills. |
-| [Additional source and attribution checks](source_followup/README.md) | p77/p134 contextual readings, p109 transcription, p132 prior credit, p186 suffix constraints | Source images reviewed; exact arithmetic and a complete nine-deletion suffix obstruction. |
-| [Source-guided recoveries](source_recovery/README.md) | p146 literal duplicate deletion; p109 same-page near-parallel | All retained p146 coordinates preserved; p109 editorial disagreements explicitly counted. |
-| [Editorial reading audit](editorial_review/README.md) | p109, p132, p146 same-length readable proposals | Full change maps; Norbert's 2017 VORHER interpretation retains priority. |
+The [page index](../cases/pages/README.md) is the complete reading catalogue. Each edition contains its source, earlier attribution, raw output, edited text and reproducible repair ledger. The [initial inventory](session_review/README.md) and [post-publication inventory](post_push_review/README.md) retain their dated publication snapshots.
 
 ## p153 recovery and exact constraints
 
-| Experiment | Scope | Calibration and limit |
-|---|---|---|
-| [p153 recovered key and text](p153_recovery/README.md) | Blind candidate, complete lineage, nineteen-letter core square, raw and emended layers | Dates and numbers unassigned; twelve erasure fills and two explicit emendations for the proposed part-6 body. |
-| [p153 linked footer and date constraints](p153_extension/README.md) | Shared-cell identities, exact date/serial and footer domains, 23 recorded-square exclusions | Full conditional template; 50/54 part-6 positions only under the existing repair and separator hypotheses. No new source-fixed digits. |
-| [p153 key construction and phrase search](p153_key_structure/README.md) | Exact shared-keyword exclusions; 724,720 dictionary entries and 8.72 million corpus letters | 128 generated construction controls pass; natural p217 keyword hits calibrate phrase retrieval. The bounded negative results do not complete p153. |
-| [p153 exact conditional check](p153_crib/README.md) | Every width-18 segmentation and compatible key for the sixty-letter first crib | Independent C and Python enumerators agree: two equivalent partial keys, both with the same two body contradictions. |
-| [p153 even-width validation](p153_even_widths/README.md) | All 2,853,839 segmentations across even widths 14 through 26 | Only width 18 admits the sixty-letter first crib; seven fresh controls and separate exclusion proofs pass. |
-| [p153 odd-width validation](p153_odd_widths/README.md) | All 638,765 segmentations at odd widths 15 through 25 | No compatible first-crib key; a separate component-variable solver handles row-crossing digraphs and passes fresh controls. |
-| [p153 recovered-component follow-up](p153_followup/README.md) | Canonical blind replay, 36 new-rank fits, direct source checks and digit-convention test | The discovery trace reproduces byte for byte; no additional historical text or numeral is accepted. |
-| [p153 recovered-square follow-up](p153_anchored_followup/README.md) | Six arbitrary-rank fits at widths 18/19/20 plus one matched control | No historical reading; the control also fails, so square reuse is not excluded. Exact source/domain checks and the failure are retained. |
-| [p153 corpus screen](p153_corpus/README.md) | 788 OCR-derived source blocks, 10,896 explicit models | Both discovery fragments recovered as controls; no additional coherent companion identified. OCR limits prevent exclusion. |
-| [p153 independent header review](p153_headers/README.md) | Full-page OCR of printed pages 140–170, approximate call-sign retrieval and source-image checks | Finds the known fragments and rejects two false hits; OCR errors in the known control keep the negative result bounded. |
-| [p153 joint search](joint_search/README.md) | All 900,900 width-16 and 18,564 width-18 length-class segmentations; bounded pairing and language searches | Width-18 component-column refinement recovers p153. Successful controls and earlier ordering, half-coordinate and pruning failures are retained. Enumeration of segmentations is not enumeration of keys. |
-| [p153 alternative geometry](geometry/README.md) | 48 concatenation cases and 48 continued-column-phase cases over 24 reported keys | Source coordinates preserved; direct known-square checks only. One square has no attested cells and supplies no reading. |
+| Result or method | Evidence |
+|---|---|
+| **New shared 18-column key and partial decipherment** | [Recovery and discovery lineage](p153_recovery/README.md), [joint search](joint_search/README.md) |
+| **Only width 18 fits the sixty-letter crib across widths 14–26**; 3,492,604 length-class layouts checked | [Even widths](p153_even_widths/README.md), [odd widths](p153_odd_widths/README.md) |
+| **Two equivalent partial-key representations**, independently enumerated | [C and Python crib checks](p153_crib/README.md) |
+| Linked date, serial and footer cells across both parts | [Global constraints](p153_extension/README.md) |
+| Keyword construction, phrase retrieval and companion search | [Key structure](p153_key_structure/README.md), [corpus screen](p153_corpus/README.md), [source headers](p153_headers/README.md) |
 
 ## Exact optimization of damaged texts
 
-| Experiment | Scope | Calibration and limit |
-|---|---|---|
-| [Exact scattered-loss geometry](p198_exact_sparse/README.md) | Every five-loss mask in a 170-coordinate frame under four fixed complete-key cases | Covers 1,115,034,284 masks; a true-key control exposes a marginal-score failure. No historical p198 reading. |
-| [Exact joint loss placement and completion](p198_joint_exact/README.md) | All loss masks and six-valued fills in the same fixed-key regime | Covers 8,670,506,592,384 witnesses, including aliases; both true-key controls have wrong four-gram optima. Independent full-score and source verification. |
-| [Model-free partial-square letter bounds](p198_letter_bounds/README.md) | All 40,320 Nov13–15b square completions and every five-loss placement/fill under its fixed ranks | Attainable extrema of 44–82 letters; at least three digits are required, which does not reject the historical key. |
-| [Exact six-gram calibration](p198_joint_six/README.md) | Full joint loss/fill optimization with five-letter context under two objectives | Both recover the complete CHI13 control, mask and fills; a feasible wrong Nov13b competitor still beats truth, including under held-out books. |
-| [Historical six-gram follow-up](p198_six_historical/README.md) | Every five-loss/fill witness under one frozen CHI13 square completion | A better six-gram optimum remains unreadable; 48 conditional partial-square singleton positions are not recovered historical letters. |
-| [Exact category bound](p198_letter_bounds/CATEGORY_BOUNDS.md) | All Nov13–15b completions, fixed ranks and five-loss/fill witnesses | At least ten digits/Q/Y combined; an independent standard-library pairwise solver fully recomputes the optimum. |
-| [Exact digit/Q/Y frontier](p198_category_frontier/README.md) | All 28 membership classes and every loss allocation, covering all 40,320 partial-square completions | Three digits require at least thirteen Q/Y positions; eight nondominated count pairs have full source witnesses and independent exact recomputation. |
-| [Exact multi-witness decoding](parallel_decoder/README.md) | p109, two language objectives, full/body-only scopes, seven exact edit budgets | No plaintext crib or beam; 280 candidates independently re-encrypt. Agreement and unresolved alternatives are separated from source-fixed letters. |
-| [p215 conditional completions](p215_completion/README.md) | Exact top ten under each of three additive language objectives | All 237 known source coordinates preserved; the 6^21 source-compatible strings remain cryptographically unresolved. |
-| [p185 D gap ranking](known_key/README.md) | All 194 positions of a five-coordinate gap | Both complete rankings reproduce; their preferred positions differ. The arithmetic certificate retains every geometry. |
-
-The [coordinate-loss-before-transposition study](p198_pretransposition_loss/README.md) tests a distinct source-motivated mechanism: 70 completed exact DP jobs, 18 fresh control runs on three bodies, and 9,672 independently enumerated small witnesses. Five fresh runs recover the exact text; all thirteen failed runs have wrong candidates scoring above truth. No p198 reading is accepted.
+| Result or method | Evidence |
+|---|---|
+| **All `2^42` minimum-cost p109 readings** optimized without a plaintext crib | [Multi-witness decoder](parallel_decoder/README.md) |
+| **Exact p176a source-retention bound** — the earlier fixed proposal needs at least 68 substitutions with every slot retained, or 13 after excluding its final printed mask | [All optimal maps and independent programs](p176a_source_retention_bound/README.md) |
+| **8,670,506,592,384 five-loss witnesses per fixed complete key**, including loss positions and fills | [Joint loss decoder](p198_joint_exact/README.md) |
+| **At least ten digits/Q/Y combined** across all 40,320 Nov13–15b square completions under the fixed-rank five-loss model | [Exact bound](p198_letter_bounds/CATEGORY_BOUNDS.md) |
+| **Eight-point digit/Q/Y frontier**; three digits require at least thirteen Q/Y positions | [Independent frontier verification](p198_category_frontier/README.md) |
+| Longer-context exact optimization and loss before transposition | [Six-gram decoder](p198_joint_six/README.md), [pre-transposition loss](p198_pretransposition_loss/README.md) |
+| p215 source-compatible completions and command interpretation | [Exact completion model](p215_completion/README.md), [Corps Kosch reading](p215_context/README.md) |
 
 ## Open-target searches and calibration
 
-| Experiment | Scope | Calibration and limit |
-|---|---|---|
-| [Word segmentation and five-loss search](p198_word_search/README.md) | 49 completed cases: 18 control runs and 31 historical searches; zero pending cases | Nine distinct control bodies; 12 exact runs, five wrong incumbents above truth and one optimizer failure; every received p198 coordinate preserved. |
-| [Frozen radio-domain and numeric-class models](radio_domain_model/README.md) | Whole-family exclusions, 36 matched loss-control runs and four conditional p198 searches | Rank-search benefit is limited to full-square controls; numerical and hidden-square failures retained; independent model/word/log audit. |
-| [Exact digit symmetry](radio_domain_model/digit_symmetry/README.md) | Eight frozen numeric-class candidates; exact factorial orbit counts with each loss pattern fixed | 1,684 small-orbit permutations and 38 generators checked; complete table invariance; perfect class agreement can still have a wrong digit-equality pattern. |
-| [p73 new methods and source retrieval](p73_new_methods/README.md) | Square reuse, spacing variants, hidden-square word controls and 47,819 substitution-assignment checks | Exact controls, failed controls, development-family overlap and finite shuffled comparisons are distinguished; no accepted plaintext. |
-| [p170 new methods and source-layout transfer](p170_new_methods/README.md) | Cross-period square/rank search, matched radio calibration, 28 historical radio settings and 401 group-move frames per fixed key | Configured loop slots and measured fitness calls remain separate; complete source roundtrips and the wildcard-score failure are explicit. |
-| [Extended open-target attacks](open_targets/README.md) | Anchored squares, gap models, literal group transfer and independent coordinate-label permutations | Completed bounds, successful controls and failed calibration branches are retained; no new accepted plaintext. |
-| [p73 coordinate-count diagnostic](open_targets/P73_HISTOGRAM.md) | Exact transposition-invariant counts and two held-out German books | Nov7–9 is an empirical mismatch under the tested prose conventions; a failed spacing convention and the historical positive control remain explicit. |
-| [Fixed-rank and dictionary searches](fixed_search/README.md) | 144 fixed-rank cases, 1,352 dictionary-selected cases, 136 p198 refinements; completed counts are timestamped in the ledger | Exact input layers, model hashes, warm starts, and legacy limitations are retained. All three case families are complete in the final snapshot. |
-| [Coordinate and geometry screen](fixed_search/README.md) | 20,666,880 evaluations across known squares, label permutations and readout conventions | A planted control ranks first; unchanged targets produce no accepted reading. |
-| [Anchored squares](anchored_search/README.md) | Two of seventy planned historical cases completed before the p153 breakthrough | Both stronger-budget synthetic controls recover all observed coordinates; both weaker-budget failures remain available. |
-| [Known-key truncation](known_key/P170_TRUNCATION_NOTE.md) | 1,291,584 p170 placements over 21 keys | Two implementation controls; upstream training overlaps a control body. A long-suffix control fixes no plaintext letters, so truncation is not excluded. |
+The original 22 challenges remain a research priority. **p73, p170 A and p198 D are wholly open**; the other challenge pages document recovered text and remaining fields.
+
+| Target or shared tool | Current method record |
+|---|---|
+| **p73** | [Square/rank reuse, source retrieval and controls](p73_new_methods/README.md) |
+| **p170 A** | [Truncated-source and radio-domain methods](p170_new_methods/README.md), [exact truncation scope](known_key/P170_TRUNCATION_NOTE.md) |
+| **p198 D** | [Word/loss campaign](p198_word_search/README.md), [exact bounds and witnesses](p198_category_frontier/README.md) |
+| Radio language models and hidden-rank recovery | [Frozen models and calibration](radio_domain_model/README.md), [digit symmetry](radio_domain_model/digit_symmetry/README.md) |
+| Joint, anchored and fixed-component searches | [Joint engine](joint_search/README.md), [anchored search](anchored_search/README.md), [fixed search](fixed_search/README.md) |
+| Copy retrieval and source reconciliation | [Source similarity](source_similarity/README.md), [source-guided recovery](source_recovery/README.md), [follow-up review](source_followup/README.md) |
 
 ## Reproduction and interpretation
 
-Search budgets describe completed computations, not confidence levels. Models, controls, seeds, source hashes, exact solver versions, and dependencies are documented beside each experiment. Large corpora, generated model binaries and executables are excluded. Compact completed-case best fits are retained as explicitly unaccepted diagnostic records. The independent model builder reproduces its recorded hashes; the earlier upstream model is pinned separately because it contains previously solved traffic.
+Start with the shared verification and current indexes:
 
-The [methods guide](../docs/methods.md) explains the evidence layers and why an exact language-score optimum can still be a wrong plaintext.
+```sh
+python -m adfgvx.verify
+python -m adfgvx.catalog --check
+python -m adfgvx.navigation --check
+```
 
-## Further source-reviewed messages
-
-[Additional corpus recovery](corpus_recovery/README.md) preserves nine source records and six readable editions, with independent coordinate arithmetic and exact editorial repair costs.
-
-## Further post-publication source editions
-
-- [Berlin newspapers via Orsova](newspaper_dispatch/README.md)
-- [Companions to Norbert's p171 A1 ruble-rate reading](ruble_rate_companions/README.md)
-- [Reconciling the Namur personnel-order witnesses](namur_order_witnesses/README.md)
-- [Medical arrangements for transports returning from Turkey](medical_return_transports/README.md)
-- [Reval: steamers for troops, provisions and raw materials](reval_steamer_notice/README.md)
-- [Mackensen withdrawal report: source edition and ninth-part assembly](mackensen_withdrawal_report/README.md)
-- [November radio service and document destruction](november_radio_service/README.md)
-- [p212 A2 / p218 A2: a truncated copy across conflicting page dates](p212_p218_crosscopy/README.md)
-- [Source editions of the p179 November instructions](november_armistice_orders/README.md)
-- [Radio-telegram priority: p128 A1 and A2](radio_telegram_priority/README.md)
-- [Formation dissolution: Childs p83 B](formation_dissolution/README.md)
-- [Odessa / Nikolaiev shipping instruction: Childs p98](black_sea_disembarkation/README.md)
-- [Cash transport through Szolnok, Arad and Hermannstadt](hermannstadt_cash_transport/README.md)
+Each package supplies its exact inputs, verifier and reproduction commands. The [CI workflow](../.github/workflows/verify.yml) runs the full suite. Search controls, model hashes and completed scopes accompany the relevant engines; historical readings are established in the linked source editions, with their explicit repair prices.

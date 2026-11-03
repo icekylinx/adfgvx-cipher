@@ -4,7 +4,7 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**204 reviewed entries across 88 case pages, representing 204 physical sources; 203 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**205 reviewed entries across 89 case pages, representing 205 physical sources; 204 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -45,6 +45,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [Existing personnel and agreed radio transmissions](nov4_personnel_transmission_notice.md) | p127 B1 |
 | [Request for replies and radio priority](telegram_priority.md) | p128 A1, p128 A2 |
 | [Radio service: Eilvese repetition and a garbled Caucasus message](p132_radio_service.md) | p132 A, p132 B, p132 C |
+| [p137 B — Query about the station's former staff](p137_station_staff_query.md) | p137 B |
 | [“First half from the front, second half from the back”](opposite_end_deciphering.md) | p138 B |
 | [November 6 marine-service notice, with an unresolved station label](nov6_marine_service_notice.md) | p138 C |
 | [Kiel radio-control order — p140 A and p146 A](kiel_radio_control.md) | p140 A1, p140 A2, p140 A3, p140 A4, p146 A |
@@ -170,6 +171,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p132 B](p132_radio_service.md) | Eilvese repetition order: fourth period in fifth, preceded by five minutes of VVV | 75/77 fixed labels under a conditional extra-interim-V model; four equivalent positions; 3 substitutions and 2 source-erasure fills; later edition of [p132](../p132.md) | icekylinx and GPT-6 Astra Pro (2026); prior published keys and earlier OCR-derived candidates credited separately; original reading: [Thomas (fragment) and Norbert (body), 2017](../p132.md) |
 | [p132 C](p132_radio_service.md) | Request repetition of a garbled Caucasus message; raw OSKACHI reference retained | 99/99 fixed labels in the exact source frame; 0 substitutions and 0 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published keys and earlier OCR-derived candidates credited separately |
 | [p134 B](../context/radio_instructions.md#p134-b--repeat-a-fourth-period-telegram-in-the-fifth) | Repeat a fourth-period telegram in the fifth | 50/51 raw positions; wording partly editorial | icekylinx and GPT-6 Astra Pro (2026) |
+| [p137 B](p137_station_staff_query.md#p137-b) | Query whether the station is still staffed by its former personnel | Native 135 slots; conditional 138-frame with one five-slot group move and three added slots; raw 64/69, edited 68/69; five tied maps; three substitutions, two printed-mask fills and two added-slot fills; time 17?0 unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key and earlier OCR credited |
 | [p137 D](radio_contacts_and_keys.md#p137-d-the-oskachi-key-is-no-longer-here) | Tell POT the OSKACHI key is no longer locally available | 51/51 fixed raw labels; 1 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p138 B](opposite_end_deciphering.md) | Instruction to decipher first half from front and second half from back; likely 1410(5) reference to p132 B | Conditional 104-slot frame inside 105 received slots; 51/52 raw fixed labels; two equally priced NKJ/NMJ variants; 2 substitutions, 1 invalid-glyph fill, 1 extra transmitted coordinate | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier OCR/insertion candidates distinguished |
 | [p138 C](nov6_marine_service_notice.md#p138-c) | Marine service notice: O?MANIE unavailable, with addresses and labels retained | Conditional 286-slot frame excludes one ambiguous masked stroke and adds one final slot; 3 observed substitutions, 4 source-mask fills and 1 added-slot fill; 141/143 fixed edited positions | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |

@@ -5861,5 +5861,25 @@
     "experiments/armistice_provisions_requests/certificates.json": "f9d2555efb33d9536f4bb531f0de95854f986d0732d404e8ff400f293396aaa3",
     "experiments/transport_and_disarmament_orders/inputs.json": "db35066130bf6e0c7900bbaf5164d9acdb8f9cdbccb3a8aeeaca8fc7b54fc23e",
     "experiments/transport_and_disarmament_orders/certificates.json": "8f2db3ead12331027ad0c2cc4a3a3ea6b36e93082bbba9377bfc8053b47fe2e6"
+  },
+  "reviewed_additive_sections": {
+    "cases/military/romanian_ultimatum_companions.md": [
+      {
+        "start_heading": "## Optional VERPFLEGSZ completion\n",
+        "next_heading": "## Surviving unread parts and the earlier challenge\n",
+        "section_sha256": "736cd2382107fc21eed3c39be9a3b2445bdebcac4d506d0345b6cf74a8c591d4",
+        "evidence": "experiments/p176_verpflegs_joint_completion/certificates.json",
+        "review": "New optional A5 completion; all six earlier displays and all earlier headings remain byte-identical after removing this exact supplement."
+      }
+    ],
+    "cases/p176a.md": [
+      {
+        "start_heading": "## Source-retention bound for the earlier proposal\n",
+        "next_heading": null,
+        "section_sha256": "3755f3bb28c83302e5e96356ffd69d52459799730a9181a6e88c5448698b3d39",
+        "evidence": "experiments/p176a_source_retention_bound/certificates.json",
+        "review": "Exact alignment bound for the fixed earlier target; all earlier displays and headings remain byte-identical."
+      }
+    ]
   }
 }

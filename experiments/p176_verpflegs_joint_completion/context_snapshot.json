@@ -1,0 +1,66 @@
+{
+  "prior_A5_record": {
+    "id": "p176_A5",
+    "source_rows": [
+      "VAADG ADAVF FXDFF VXGAX VDAVV DDAXD DFDGX VVDFX",
+      "GVGFA AGGVF ----- XGDGX ADAVV AVDGF DFAAX FXFXV",
+      "GDFXD AADAA GAAAG DGGDV ADVDX DXXXA XXGXV GXVVX",
+      "ADXVG FXAVG VFDVF XGADA VVADA DVDDA GXDXX XDVAD",
+      "VGDAD FGG"
+    ],
+    "source_slots": 168,
+    "advertised_length": 168,
+    "printed_page": 176,
+    "source_section": "A5",
+    "expected_raw": "NAC?RICHTEN?NDMATER?ALZUN1E?HSTN4CHXHERMANNSTADTXXKANNMITZUSUEHRUNGVONVERPFLEG?ZXUND",
+    "readable_candidate": "NACHRICHTENUNDMATERIALZUNAECHSTNACHXHERMANNSTADTXXKANNMITZUFUEHRUNGVONVERPFLEG?ZXUND",
+    "geometry": "Native printed frame; each printed dash occupies exactly one coordinate. No insertion or deletion."
+  },
+  "A5_origin": "experiments/romanian_ultimatum_companions/inputs.json",
+  "A5_origin_sha256": "c3e55a15bd2ecf988289e5bf17658e6d473f6d40cd15381a40fe434170d6c6e6",
+  "A6_record": {
+    "id": "p176_A6",
+    "source_rows": [
+      "AVDAX DDGAG XGGXF XFVAD VVGAV VVDGX GXXDD XXXXX",
+      "FFVGA VVGAV AXDDX FXXXX DXDAD XAGFV FXAF- -----",
+      "----- ----- ----- ----- ----- ----- ----- -----",
+      "----- ----- ----- ----- ----- ----- ----- -----"
+    ],
+    "source_slots": 160,
+    "advertised_length": 160,
+    "valid_coordinates": 74,
+    "printed_erasure_slots": 86,
+    "printed_page": 176,
+    "source_section": "A6",
+    "key_id": "Nov10-12",
+    "expected_raw": "??H????U??E????E??L????N??R????A???????G???????N???????N???????X???????1???????X",
+    "readable_candidate": "KOHLENZUEGENUEBERKLAUSENBURG???A???????G?GERECHNETWERDEN???????X???????1???????X",
+    "readable_german": "Kohlenzuegen ueber Klausenburg […] gerechnet werden […]",
+    "proposed_spans": [
+      {
+        "start": 0,
+        "stop": 28,
+        "text": "KOHLENZUEGENUEBERKLAUSENBURG"
+      },
+      {
+        "start": 41,
+        "stop": 56,
+        "text": "GERECHNETWERDEN"
+      }
+    ],
+    "retained_intervals": [
+      [
+        28,
+        41
+      ],
+      [
+        56,
+        80
+      ]
+    ],
+    "alternative_at_11": "X",
+    "geometry": "Native 160 source slots in the printed order; every printed dash remains one occupied mask. No inserted, excluded or reordered slot."
+  },
+  "A6_origin": "experiments/p176_coal_train_fragment/inputs.json",
+  "A6_origin_sha256": "a21eeed3f8eec6997aa8807aa8b608ab6900efa540f28ac23870a449c927159e"
+}

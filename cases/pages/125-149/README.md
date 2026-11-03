@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 100–124](../100-124/README.md) · [pp. 150–174 →](../150-174/README.md)
 
-**2 challenge entries · 75 other reviewed entries · 25 printed pages · 76 physical sources.**
+**2 challenge entries · 76 other reviewed entries · 25 printed pages · 77 physical sources.**
 
 Jump to page: [p125](#p125) · [p126](#p126) · [p127](#p127) · [p128](#p128) · [p129](#p129) · [p130](#p130) · [p131](#p131) · [p132](#p132) · [p133](#p133) · [p134](#p134) · [p135](#p135) · [p136](#p136) · [p137](#p137) · [p138](#p138) · [p139](#p139) · [p140](#p140) · [p141](#p141) · [p142](#p142) · [p143](#p143) · [p144](#p144) · [p145](#p145) · [p146](#p146) · [p147](#p147) · [p148](#p148) · [p149](#p149).
 
@@ -140,6 +140,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 |---|---|---|---|
 | [p137 A4](../../military/transylvania_situation_report.md#p137-a4) | Security measures at Kronstadt/Hermannstadt and intended material transport | Four tied one-plus-five gap models; three primary coordinate repairs and A/X alternative | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed readings and Lasry et al. different report distinguished |
 | [p137 A5](../../military/transylvania_situation_report.md#p137-a5) | Interference-damaged personnel removal passage; four partial word completions | All 38 interference allocations retained; conditional 0/37 partial reading, no observed-coordinate changes | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed readings and Lasry et al. different report distinguished |
+| [p137 B](../../radio/p137_station_staff_query.md#p137-b) | Query whether the station is still staffed by its former personnel | Native 135 slots; conditional 138-frame with one five-slot group move and three added slots; raw 64/69, edited 68/69; five tied maps; three substitutions, two printed-mask fills and two added-slot fills; time 17?0 unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key and earlier OCR credited |
 | [p137 B4](../../military/armistice_clause_witnesses.md#p137-b4) | Independent copy of Entente railway and occupation clause | Source-copy edition; observed repairs and earlier-source support separated | icekylinx and GPT-6 Astra Pro (2026); prior period keys and earlier editions credited |
 | [p137 C](../../military/armistice_clause_witnesses.md#p137-c) | Repeated receipt with two shared corrupt words | Source-copy edition; observed repairs and earlier-source support separated | icekylinx and GPT-6 Astra Pro (2026); prior period keys and earlier editions credited |
 | [p137 D](../../radio/radio_contacts_and_keys.md#p137-d-the-oskachi-key-is-no-longer-here) | Tell POT the OSKACHI key is no longer locally available | 51/51 fixed raw labels; 1 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |

@@ -1,0 +1,250 @@
+{
+  "schema": "adfgvx-p176-verpflegs-joint-inputs-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "project": "ADFGVX Cipher",
+  "indexing": "All indices are zero-based.",
+  "case": "cases/military/romanian_ultimatum_companions.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p176_A_header",
+      "path": "sources/p176_A_header.png",
+      "printed_page": 176,
+      "pdf_page_1based": 179,
+      "crop_pdf_points": [
+        55,
+        183,
+        525,
+        218
+      ],
+      "render_scale": 4,
+      "sha256": "32a079a24fa018208985c6fb764b6324649edc2c436e998661aa8cabca77f101",
+      "storage": "external_pdf_reference",
+      "width": 1880,
+      "height": 140,
+      "rgb_sha256": "72e1a934a10d643ec5b72113fbbd6030397517f290af57556d0d9a8bb16f8280"
+    },
+    {
+      "id": "p176_A5",
+      "path": "sources/p176_A5.png",
+      "printed_page": 176,
+      "pdf_page_1based": 179,
+      "crop_pdf_points": [
+        70,
+        292,
+        527,
+        355
+      ],
+      "render_scale": 4,
+      "sha256": "85099e99c694ce54420dbbca4be2e9658a0f600ceb3d1b723ca8161a2fb0eeba",
+      "storage": "external_pdf_reference",
+      "width": 1828,
+      "height": 252,
+      "rgb_sha256": "8e77bbd601fe6c087f4f8b54cbbe67f4303fc27234ccc21d61e9acdaf6dd94bb"
+    },
+    {
+      "id": "p176_A6",
+      "path": "sources/p176_A6.png",
+      "printed_page": 176,
+      "pdf_page_1based": 179,
+      "crop_pdf_points": [
+        70,
+        359,
+        527,
+        406
+      ],
+      "render_scale": 4,
+      "sha256": "3e2e8ed17cb5e60c4a3fb8a63d19b3dbb7afc15dd89c8ac066cdf5eb769cce41",
+      "storage": "external_pdf_reference",
+      "width": 1828,
+      "height": 188,
+      "rgb_sha256": "2c55b9fa3d741e42637cfd22d6cec188672301b6fa7ab2bdac51d176bfb30b61"
+    }
+  ],
+  "key": {
+    "id": "Nov10-12",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      9,
+      12,
+      7,
+      11,
+      3,
+      8,
+      16,
+      6,
+      14,
+      2,
+      10,
+      15,
+      5,
+      13,
+      1,
+      4
+    ],
+    "column_count": 16,
+    "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+    "square_rows": [
+      "4ARUT1",
+      "OIFSKN",
+      "3?BZPV",
+      "LD?JMX",
+      "CWHQ2E",
+      "?G0?Y?"
+    ],
+    "known_cell_count": 31,
+    "missing_plaintext_symbols": "56789",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 242,
+        "pdf_page_1based": 245,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "The historical appendix also labels this table December 1-3."
+    ],
+    "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+    "baseline_differences": [
+      {
+        "coordinate": "FD",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GF",
+        "baseline": "6",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "7",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XG",
+        "baseline": "8",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XX",
+        "baseline": "9",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+    "previously_published_completion": {
+      "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-02",
+      "comment": 26,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "FD",
+          "proposed": "5"
+        },
+        {
+          "row_column": "GF",
+          "proposed": "6"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "7"
+        },
+        {
+          "row_column": "XG",
+          "proposed": "8"
+        },
+        {
+          "row_column": "XX",
+          "proposed": "9"
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "p176_A5",
+      "source_rows": [
+        "VAADG ADAVF FXDFF VXGAX VDAVV DDAXD DFDGX VVDFX",
+        "GVGFA AGGVF ----- XGDGX ADAVV AVDGF DFAAX FXFXV",
+        "GDFXD AADAA GAAAG DGGDV ADVDX DXXXA XXGXV GXVVX",
+        "ADXVG FXAVG VFDVF XGADA VVADA DVDDA GXDXX XDVAD",
+        "VGDAD FGG"
+      ],
+      "source_slots": 168,
+      "advertised_length": 168,
+      "printed_page": 176,
+      "source_section": "A5",
+      "expected_raw": "NAC?RICHTEN?NDMATER?ALZUN1E?HSTN4CHXHERMANNSTADTXXKANNMITZUSUEHRUNGVONVERPFLEG?ZXUND",
+      "readable_candidate": "NACHRICHTENUNDMATERIALZUNAECHSTNACHXHERMANNSTADTXXKANNMITZUFUEHRUNGVONVERPFLEGSZXUND",
+      "geometry": "Native printed frame; each printed dash occupies exactly one coordinate. No insertion or deletion.",
+      "readable_german": "Nachrichten und Material zunaechst nach Hermannstadt. Kann mit Zufuehrung von VERPFLEGSZ und",
+      "key_id": "Nov10-12"
+    }
+  ],
+  "context_snapshot": {
+    "path": "context_snapshot.json",
+    "sha256": "ea6fef6a389ecf91468109917344b64e100cef2bf6d636356417b743808e0668"
+  },
+  "prior_credit": {
+    "period_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker; Lasry 2017 key list.",
+    "A5_and_A6": "icekylinx and GPT-6 Astra Pro, romanian_ultimatum_companions and p176_coal_train_fragment editions.",
+    "part4": "Norbert and Max Baertl retain the separate existing part-4 reading; this supplement does not validate its repairs."
+  },
+  "limits": [
+    "S at A5 plaintext78 is a context-conditioned abbreviation completion, not source-unique. It requires one additional fill of an existing printed dash and no extra observed-coordinate repair.",
+    "The preceding A5 proposal and the A6 partial proposal remain separate frozen readings. Their old unresolved fields are not overwritten.",
+    "A6 routing and tail remain unread; no source coordinate is copied between the two parts.",
+    "No unassigned square cell or historical digit is resolved."
+  ],
+  "section_anchor": "optional-verpflegsz-completion",
+  "prior_case_displays": {
+    "path": "prior_case_displays.json",
+    "sha256": "7066d2e4e6b6f9fc717849302f355123d7bb52520ef572eab34ad463158f9543"
+  }
+}

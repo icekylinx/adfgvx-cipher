@@ -285,6 +285,9 @@ jobs:
           python experiments/p219_kiev_unrest/verify.py --verify
           python experiments/p71_dc_machines_fragment/verify.py --verify
           python experiments/p176_coal_train_fragment/verify.py --verify
+          python experiments/p137_station_staff_query/verify.py --verify
+          python experiments/p176_verpflegs_joint_completion/verify.py --verify
+          python experiments/p176a_source_retention_bound/verify.py --verify
           python data/reviews/verify_source_gap_audit.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |

@@ -1891,5 +1891,16 @@
   ],
   "before_snapshot_path": "data/reviews/reading_conventions_safe_before.json",
   "before_snapshot_sha256": "39cbbd421f2a372454030693a0206b0561436d39449ad9c09d42d163d4c9ae7e",
-  "scope_note": "This first pass adds the shared legend and24 verified count-unit clarifications. It does not classify or rewrite all existing reading paragraphs. The twelve independently owned manual cases and two cases awaiting integration are excluded."
+  "scope_note": "This first pass adds the shared legend and24 verified count-unit clarifications. It does not classify or rewrite all existing reading paragraphs. The twelve independently owned manual cases and two cases awaiting integration are excluded.",
+  "reviewed_additive_sections": {
+    "cases/p176a.md": [
+      {
+        "start_heading": "## Source-retention bound for the earlier proposal\n",
+        "next_heading": null,
+        "section_sha256": "3755f3bb28c83302e5e96356ffd69d52459799730a9181a6e88c5448698b3d39",
+        "evidence": "experiments/p176a_source_retention_bound/certificates.json",
+        "review": "Exact alignment bound for the fixed earlier target; all earlier displays and headings remain byte-identical."
+      }
+    ]
+  }
 }

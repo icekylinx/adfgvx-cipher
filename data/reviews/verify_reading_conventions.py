@@ -45,6 +45,24 @@ def fence_blocks(text):
     return blocks, heading_lines
 
 
+def remove_reviewed_additions(text, additions):
+    """Exclude only exact, separately reviewed supplements from an old snapshot.
+
+    Each registered section is pinned in full, including its heading and
+    displays. All original displays and headings still require exact equality.
+    """
+    for addition in additions:
+        start, end = addition["start_heading"], addition["next_heading"]
+        if text.count(start) != 1 or (end is not None and text.count(end) != 1):
+            raise ValueError("Reviewed supplement boundaries are not unique")
+        begin = text.index(start)
+        finish = len(text) if end is None else text.index(end, begin + len(start))
+        if sha_bytes(text[begin:finish].encode()) != addition["section_sha256"]:
+            raise ValueError("Reviewed supplement digest mismatch")
+        text = text[:begin] + text[finish:]
+    return text
+
+
 def run(snapshot_path, audit_path, check_headings):
     snapshot_bytes = snapshot_path.read_bytes()
     snapshot = json.loads(snapshot_bytes)
@@ -58,7 +76,9 @@ def run(snapshot_path, audit_path, check_headings):
         if not path.is_relative_to(ROOT):
             raise ValueError("Snapshot path is outside the repository: " + name)
         current_bytes = path.read_bytes()
-        current, headings = fence_blocks(current_bytes.decode())
+        additions = (audit or {}).get("reviewed_additive_sections", {}).get(name, [])
+        comparison_text = remove_reviewed_additions(current_bytes.decode(), additions)
+        current, headings = fence_blocks(comparison_text)
         originals = []
         for index, block in enumerate(before["fences"]):
             if sha_bytes(block["text"].encode()) != block["sha256"]:
@@ -72,6 +92,7 @@ def run(snapshot_path, audit_path, check_headings):
         if check_headings and not headings_equal:
             failures.append({"path": name, "error": "Existing section headings differ"})
         records.append({"path": name, "fenced_blocks": len(originals),
+                        "reviewed_additive_sections": len(additions),
                         "fenced_blocks_identical": unchanged,
                         "section_headings_identical": headings_equal,
                         "current_file_sha256": sha_bytes(current_bytes)})
@@ -89,6 +110,7 @@ def run(snapshot_path, audit_path, check_headings):
             "snapshot_sha256": sha_bytes(snapshot_bytes),
             "case_files_checked": len(records),
             "fenced_blocks_checked": sum(r["fenced_blocks"] for r in records),
+            "reviewed_additive_sections_checked": sum(r["reviewed_additive_sections"] for r in records),
             "check_section_headings": check_headings,
             "protected_evidence_files_checked": len(protected),
             "verified": not failures, "failures": failures,
@@ -114,7 +136,7 @@ def main():
     if args.output:
         args.output.write_text(json.dumps(result, indent=2) + "\n")
     print(json.dumps({k: result[k] for k in (
-        "verified", "case_files_checked", "fenced_blocks_checked",
+        "verified", "case_files_checked", "fenced_blocks_checked", "reviewed_additive_sections_checked",
         "check_section_headings", "protected_evidence_files_checked", "failures")}, indent=2))
     return 0 if result["verified"] else 1
 

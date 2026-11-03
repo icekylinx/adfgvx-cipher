@@ -7329,7 +7329,7 @@
     {
       "path": "cases/military/romanian_ultimatum_companions.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "50ddb0197380ead56819b5a8ea076cdb653b580e6bcbc960df096686f53e9756",
+      "file_sha256_at_review": "924eee1b21db7c9d8be387c4801cbf30b86631c3a8a77e39a8310e009a79b786",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -7338,7 +7338,7 @@
           "role": "raw_output",
           "caption_required": true,
           "caption": "**Raw output:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "review_note": "Exact source/raw/proposed displays and optional additions reviewed; prior display bytes preserved."
         },
         {
           "index": 1,
@@ -7346,7 +7346,7 @@
           "role": "edited_output",
           "caption_required": true,
           "caption": "**Edited output:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "review_note": "Exact source/raw/proposed displays and optional additions reviewed; prior display bytes preserved."
         },
         {
           "index": 2,
@@ -7354,7 +7354,7 @@
           "role": "raw_output",
           "caption_required": true,
           "caption": "**Raw output:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "review_note": "Exact source/raw/proposed displays and optional additions reviewed; prior display bytes preserved."
         },
         {
           "index": 3,
@@ -7362,7 +7362,7 @@
           "role": "edited_output",
           "caption_required": true,
           "caption": "**Edited output:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "review_note": "Exact source/raw/proposed displays and optional additions reviewed; prior display bytes preserved."
         },
         {
           "index": 4,
@@ -7370,7 +7370,7 @@
           "role": "raw_output",
           "caption_required": true,
           "caption": "**Raw output:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "review_note": "Exact source/raw/proposed displays and optional additions reviewed; prior display bytes preserved."
         },
         {
           "index": 5,
@@ -7378,7 +7378,15 @@
           "role": "edited_output",
           "caption_required": true,
           "caption": "**Edited output:**",
-          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+          "review_note": "Exact source/raw/proposed displays and optional additions reviewed; prior display bytes preserved."
+        },
+        {
+          "index": 6,
+          "sha256": "efb5325055c5436322362d99b2f5e2e45cd1ea7f5a81134c1a254d0d7719ab94",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — optional A5 completion conditioned on the A6 continuation; the primary 83/84 reading above remains unchanged:**",
+          "review_note": "Exact source/raw/proposed displays and optional additions reviewed; prior display bytes preserved."
         }
       ],
       "quotes": [],
@@ -9418,7 +9426,7 @@
     {
       "path": "cases/p176a.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "5e6a1ae4b080f6116e794bc83d198d55584221a414d084d4784adca60805d84f",
+      "file_sha256_at_review": "d2db7a7d429f249cb3e6c005e74e094e3727cfae68d627101adde821e04d2985",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -14812,6 +14820,48 @@
           "caption_required": true,
           "caption": "**Readable German:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/p137_station_staff_query.md",
+      "review_status": "reviewed",
+      "review_basis": "Independent original-image and full 481,032-model audit; exact repair ledgers, all five minima and 30 full roundtrips checked.",
+      "file_sha256_at_review": "b2aa89af733eb167e2e866ff5b2298d5966a20a8958cf47a7dd9ef21e2f2e7f4",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "f036aa12de2d8b545a10c76e16438f46bfadf90c2b90d347de0b4f5ec35fd188",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "The question mark after *besetzt* is editorial punctuation. The question mark\ninside `17?0` is one unresolved plaintext position, retained literally. \n**Raw output — primary conditional 138-slot frame, before substitutions and fills; 64/69 fixed positions:**",
+          "review_note": "Exact source/raw/proposed displays and optional additions reviewed; prior display bytes preserved."
+        },
+        {
+          "index": 1,
+          "sha256": "997480a44a3289ed1037e8ffbda0c08180fd2bb970610507eef3e26e093302cf",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — same primary frame; three observed substitutions, two printed-mask fills and two inserted-slot fills; 68/69 fixed positions:**",
+          "review_note": "Exact source/raw/proposed displays and optional additions reviewed; prior display bytes preserved."
+        },
+        {
+          "index": 2,
+          "sha256": "51046f262a643e84450647de4b84a2b735250144557f522730656cddab18c221",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — full header, all 135 cipher slots and clear footer:**",
+          "review_note": "Exact source/raw/proposed displays and optional additions reviewed; prior display bytes preserved."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "df851a6bc2a75004ce2b12bb9972af88ecf27b52d620e4a085d3ada3124642ff",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — conditional 138-slot frame; three observed substitutions, two printed-mask fills and two inserted-slot fills; time unresolved:**",
+          "review_note": "Exact source/raw/proposed displays and optional additions reviewed; prior display bytes preserved."
         }
       ]
     },

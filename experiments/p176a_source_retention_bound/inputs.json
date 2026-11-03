@@ -1,0 +1,254 @@
+{
+  "schema": "adfgvx-p176a-source-retention-bound-inputs-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "indexing": "All source/model indices and half-open boundaries are zero-based.",
+  "case": "cases/p176a.md",
+  "section_heading": "Source-retention bound for the earlier proposal",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p176_A_header",
+      "path": "sources/p176_A_header.png",
+      "printed_page": 176,
+      "pdf_page_1based": 179,
+      "crop_pdf_points": [
+        55,
+        183,
+        525,
+        218
+      ],
+      "render_scale": 4,
+      "sha256": "32a079a24fa018208985c6fb764b6324649edc2c436e998661aa8cabca77f101",
+      "storage": "external_pdf_reference",
+      "width": 1880,
+      "height": 140,
+      "rgb_sha256": "72e1a934a10d643ec5b72113fbbd6030397517f290af57556d0d9a8bb16f8280"
+    },
+    {
+      "id": "p176_A4",
+      "storage": "external_pdf_reference",
+      "path": "sources/p176_A4_audit.png",
+      "pdf_page_1based": 179,
+      "crop_pdf_points": [
+        70,
+        216,
+        527,
+        291
+      ],
+      "render_scale": 4,
+      "width": 1828,
+      "height": 300,
+      "sha256": "1e7bf7891fdaf42e6c955bb2c80aff06ff0acc905f22e7c50c6850f40765e37d",
+      "rgb_sha256": "def17932f56ac53762d80b9fb4e80838515f9cde58bfb7ec51ba0b0a390ceed6"
+    }
+  ],
+  "key": {
+    "id": "Nov10-12",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      9,
+      12,
+      7,
+      11,
+      3,
+      8,
+      16,
+      6,
+      14,
+      2,
+      10,
+      15,
+      5,
+      13,
+      1,
+      4
+    ],
+    "column_count": 16,
+    "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+    "square_rows": [
+      "4ARUT1",
+      "OIFSKN",
+      "3?BZPV",
+      "LD?JMX",
+      "CWHQ2E",
+      "?G0?Y?"
+    ],
+    "known_cell_count": 31,
+    "missing_plaintext_symbols": "56789",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 242,
+        "pdf_page_1based": 245,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "The historical appendix also labels this table December 1-3."
+    ],
+    "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+    "baseline_differences": [
+      {
+        "coordinate": "FD",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GF",
+        "baseline": "6",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "7",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XG",
+        "baseline": "8",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XX",
+        "baseline": "9",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+    "previously_published_completion": {
+      "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-02",
+      "comment": 26,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "FD",
+          "proposed": "5"
+        },
+        {
+          "row_column": "GF",
+          "proposed": "6"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "7"
+        },
+        {
+          "row_column": "XG",
+          "proposed": "8"
+        },
+        {
+          "row_column": "XX",
+          "proposed": "9"
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "p176a",
+      "printed_page": 176,
+      "source_section": "A4",
+      "source_rows": [
+        "VVAVD ADDDD DFGGV DGAXG AVDAV AVDAD GAVD AV---",
+        "FXFXX XXAFA XAFGV ADAVV ADADD AXXFA ADAAD VDFGA",
+        "VDVAD VAADG VVVFX VFDDX DFFXX GXGVV VDXGD VVDVV",
+        "AFDV- ADV-- GFDAG XXFFD GFXDD AXFGD DAXDX AXVFF",
+        "DAGAG XXDXV DXVGA AVVGD GGFVA GF--- VXXVD VVFXX",
+        "VDVFV VDDDG ADAA-"
+      ],
+      "source_slots": 214,
+      "advertised_length": 224,
+      "key_id": "Nov10-12",
+      "expected_raw": "WEEEQ?CEWNKB22UHCHRCD?N1NRICS11EGIDILKWNXQ1OXWE1ORWOZ?TOE1FDC?IF2IRTT?1OFDEIDVKNHC?R3NSOWE?U?T4B4H???D?JZZZ"
+    }
+  ],
+  "fixed_target": {
+    "plaintext": "DURCHBRUCHVORBEREITETXDURCHBRUCHSRICHTUNGNACHNORDENODERNORDOSTENERFOLGENWIRDXKANNJETZTNOCHNICHTBEEURTEILTWERDENX",
+    "source": {
+      "author": "Norbert",
+      "date": "2017-03-02",
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+      "comment": 26
+    },
+    "length": 112,
+    "status": "Earlier Norbert proposal, including literal double E in BEEURTEILT; fixed solely for conditional comparison."
+  },
+  "prior_snapshot": {
+    "path": "prior_snapshot.json",
+    "sha256": "4879f37935e67e7bcc8664bea6e7606fa89c0b76ce7b7ec08a0c5162111058e0"
+  },
+  "prior_case_displays": {
+    "path": "prior_case_displays.json",
+    "sha256": "5093cf1fcd0d46a7255a6b0c5181e7596e25ab26061d6d51b226d40474c30063"
+  },
+  "scope": {
+    "native": "All monotone injections of the 214 native slots into 224 model slots. Exactly 10 added slots, no deletion or movement; all 204 observed coordinates retained.",
+    "one_printed_mask_exclusion": "Each of the 10 printed masks may be excluded once; the remaining 213 native slots are injected monotonically into 224 slots with exactly 11 additions. No observed coordinate may be deleted or reordered.",
+    "objective": "Minimize observed-coordinate substitutions only. Every surviving printed mask and added slot is filled from the fixed complete target; their separate counts remain explicit."
+  },
+  "novelty_check": {
+    "existing_sources_checked": [
+      "data/prior_readings.json:p176a",
+      "adfgvx/prior.py",
+      "cases/p176a.md"
+    ],
+    "existing_scope": "Declared prior block repairs and five positions inside the short GAVD group. No all-monotone ten/eleven-insertion lower bound was present.",
+    "new_contribution": "Exact lower bounds, optimal-map counts and attaining witnesses over the explicitly larger source-retaining alignment families."
+  },
+  "limits": [
+    "These are exact bounds conditioned on the fixed earlier 112-position wording and unchanged key, not proof that the wording or any missing-slot map is historical.",
+    "The target uses only assigned square cells. All 120 injective completions of the missing digits 5–9 yield identical target ciphertext; no independent per-position wildcard assignment is used.",
+    "Only a printed mask can be excluded in the second family. The final mask is the unique exclusion attaining the family minimum; this is not independent evidence that the printed mark is extraneous.",
+    "EINGELEITET and other alternative word proposals are unselected and outside this certificate."
+  ],
+  "credit": {
+    "earlier_wording": "Norbert, 2017-03-02, comment 26; Max Baertl’s later editorial completion remains separately credited.",
+    "period_key": "George Lasry, Ingo Niebel, Nils Kopal, Arno Wacker; Lasry’s 2017 key list.",
+    "current_bound": "icekylinx and GPT-6 Astra Pro"
+  }
+}

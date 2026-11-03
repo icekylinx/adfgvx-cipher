@@ -1,0 +1,253 @@
+{
+  "schema": "adfgvx-p137-station-staff-query-inputs-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "indexing": "All source, model and plaintext indices are zero-based. Move destinations refer to the 130-slot retained stream; insertion boundaries refer to the 135-slot moved stream.",
+  "case": "cases/radio/p137_station_staff_query.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "pdf_page_1based": 140,
+      "crop_pdf_points": [
+        80,
+        470,
+        525,
+        572
+      ],
+      "render_scale": 4,
+      "width": 1780,
+      "height": 408,
+      "png_sha256": "71f61673aa1a64be6e0a4401eb40fdc1b0ae82fe002be1cd32f5b2fa159eb474",
+      "rgb_sha256": "69acb4f92112bb27a9f890986483fab75ae3a9885171fb506814121b5d6e7923",
+      "storage": "external_pdf_reference",
+      "path": "sources/p137_B_reviewed.png"
+    }
+  ],
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "records": [
+    {
+      "id": "p137_B",
+      "printed_page": 137,
+      "source_section": "B",
+      "advertised_length": 138,
+      "source_slots": 135,
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "FVGDG XVAVX AAFAG AXGXA ADXAV AGAXA AGAGF",
+        "XAGDX GFFXF XXXVV XXXVX DFXAG AVAFD AVAVG",
+        "AAFXF XXXXA FDAXD XXVAV VAVGX AGGAX GFAXF",
+        "FFAFX XXAFF AADAA XVFDX XXFGA VDF--"
+      ],
+      "source_display": "B) OSM v OUI (14.58 November 5th)\nCONTD HIER SS NR 10 - 11.00\nRIZI-138\nFVGDG XVAVX AAFAG AXGXA ADXAV AGAXA AGAGF\nXAGDX GFFXF XXXVV XXXVX DFXAG AVAFD AVAVG\nAAFXF XXXXA FDAXD XXVAV VAVGX AGGAX GFAXF\nFFAFX XXAFF AADAA XVFDX XXFGA VDF--\nOSM\nV OUI",
+      "primary_frame": {
+        "moved_group_source_start": 130,
+        "group_length": 5,
+        "move_destination_in_retained_stream": 105,
+        "inserted_slot_boundary_in_moved_stream": 135,
+        "inserted_slots": 3
+      },
+      "expected_raw": "ICTDORTIGEVTATIONN?CHVOMALT?NPERSONALBESETZTXANTWO?TETUM17?0XEILBES?X",
+      "readable_candidate": "ISTDORTIGESTATIONNOCHVOMALTENPERSONALBESETZTXANTWORTETUM17?0XEILVESEX",
+      "readable_german": "Ist dortige Station noch vom alten Personal besetzt? Antwortet um `17?0`. Eilvese."
+    }
+  ],
+  "header": {
+    "page_heading_literal": "6th NOVEMBER,1918",
+    "received": "B) OSM v OUI (14.58 November 5th)",
+    "clear_continuation": "CONTD HIER SS NR 10 - 11.00",
+    "designator": "RIZI-138",
+    "clear_footer": [
+      "OSM",
+      "V OUI"
+    ],
+    "boundary_note": "Header, clear continuation and footer are retained as context, outside the 135 cipher slots. The five glyphs VDF-- form the last printed cipher group."
+  },
+  "search_scope": {
+    "source_group_starts": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      95,
+      100,
+      105,
+      110,
+      115,
+      120,
+      125,
+      130
+    ],
+    "moved_group_length": 5,
+    "retained_stream_destination_boundaries": [
+      0,
+      130
+    ],
+    "added_slot_count": 3,
+    "moved_stream_insertion_boundaries": [
+      0,
+      135
+    ],
+    "models": 481032,
+    "conditional_minimum_observed_substitutions": 3,
+    "exact_minima": [
+      [
+        130,
+        103,
+        135
+      ],
+      [
+        130,
+        104,
+        135
+      ],
+      [
+        130,
+        105,
+        135
+      ],
+      [
+        130,
+        106,
+        135
+      ],
+      [
+        130,
+        107,
+        135
+      ]
+    ],
+    "price_condition": "Minimum for this fixed 69-position candidate, not a search over all possible wordings or historical fault mechanisms."
+  },
+  "source_audit": {
+    "path": "source_audit.json",
+    "sha256": "8127a7d9ae5e3171d9491714e752921954daf6f9f70d21798446aa66f1da64c5",
+    "origin": "Original PDF visual review; frozen source record from the four-target hand audit. Full header and footer independently rechecked by the integration reviewer."
+  },
+  "prior_ocr": {
+    "path": "prior_ocr.json",
+    "sha256": "a3e1bfda3230c7a6d983144da3e6b61925a542f8376dd056ffd766b1ce505d1f",
+    "origin": "experiments/p153_corpus/inputs.json",
+    "origin_sha256": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc"
+  },
+  "peer_evidence": {
+    "peer_audit.json": "08faa4b392ee36ad2d8488d642c369ae289e7f8136fddf5779f2e1b6885598be",
+    "peer_price.cpp": "359b36603a6b72ca4cc21c0d03e9bad4881922bf502a17a0c080d569913a86f1",
+    "peer_input.json": "4663e5780d3bc98138c34f5d28896f05f7afe1a4420eb7850c5208c117c0fa52",
+    "peer_input.txt": "25ce12d1dea24eb59eac1c1a581e169b60849cef11b6ece99c8ef545d42c41c6",
+    "peer_result.txt": "60ba55b58997d1a31468c5d66dd84848311f3b4be213d071f502a3cf61874a67"
+  },
+  "related_source": {
+    "input_path": "experiments/early_radio_and_leave_records/inputs.json",
+    "input_sha256": "c870f0edb34a902618b4fdf92c7450de9c7fee9d3dfdd522aa5fd65d79fc42e7",
+    "certificate_path": "experiments/early_radio_and_leave_records/certificates.json",
+    "certificate_sha256": "88116c465861a43566d1c11b12b6379fbfc88ef96d5ce8b6e3e5a5d1a9ffb659",
+    "record_id": "p127_B1",
+    "case": "cases/radio/nov4_personnel_transmission_notice.md",
+    "edited": "HIERNOCHALTESPERSONALXWIRSENDENWIEVERABREDETXWENNNICTMEHRDANNISTOS?AUSGESCHIEDEN",
+    "relationship": "Old-personnel wording provides independent topical context only. Distinct LP/NKJ and OSM/OUI routes and no explicit cross-reference prevent a copy or proved reply claim. No plaintext or coordinates are borrowed."
+  },
+  "prior_credit": {
+    "period_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016); George Lasry (2017 key list)",
+    "earlier_digital_source": "Unreviewed p137_ocr_block4 in experiments/p153_corpus/inputs.json, retained unchanged beside this new review.",
+    "current_work": "icekylinx and GPT-6 Astra Pro: original-source transcription, source-group movement and three-loss model, station-staff query reading, exhaustive pricing and independent peer verification."
+  },
+  "limits": [
+    "The 138-slot reconstruction is conditional; the source prints 135 slots and advertises 138. No printed cancellation establishes the group movement.",
+    "All five minimum destinations 103 through 107 are retained; the primary destination 105 is the start of the final printed row and a printed-group boundary.",
+    "The fixed lexical candidate requires three observed-coordinate substitutions, two existing-mask fills and two inserted-slot fills in each tied map. One added coordinate remains unassigned.",
+    "The time field is retained as the opaque literal 17?0; its unresolved plaintext position 58 has domain 036OQY under the unchanged complete key. No numerical or clock interpretation selects one label.",
+    "Full completion witnesses demonstrate compatibility with one global unchanged key, not the unique historical wording or error mechanism."
+  ]
+}

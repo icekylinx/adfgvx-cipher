@@ -1,0 +1,119 @@
+{
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source_snapshot_path": "/workspace/scratch/52afbdb2d2fd/source-material/gap21/mid/hand_transcripts.json",
+  "source_snapshot_sha256": "d2d4dbcf6af1bc3bc386fcdc09579623ee07c60818ee926b727f44861d57fb74",
+  "source_record": {
+    "id": "p137_B",
+    "source_rows": [
+      "FVGDG XVAVX AAFAG AXGXA ADXAV AGAXA AGAGF",
+      "XAGDX GFFXF XXXVV XXXVX DFXAG AVAFD AVAVG",
+      "AAFXF XXXXA FDAXD XXVAV VAVGX AGGAX GFAXF",
+      "FFAFX XXAFF AADAA XVFDX XXFGA VDF--"
+    ],
+    "source_slots": 135,
+    "valid_coordinates": 133,
+    "header": "B) OSM v OUI (14.58 November5th);CONTD HIER SS NR10-11.00;RIZI-138",
+    "printed_page": 137,
+    "pdf_page_1based": 140,
+    "page_heading_literal": "6th NOVEMBER,1918",
+    "source_literal": "FVGDGXVAVXAAFAGAXGXAADXAVAGAXAAGAGFXAGDXGFFXFXXXVVXXXVXDFXAGAVAFDAVAVGAAFXFXXXXAFDAXDXXVAVVAVGXAGGAXGFAXFFFAFXXXAFFAADAAXVFDXXXFGAVDF--",
+    "printed_mask_indices": [
+      133,
+      134
+    ],
+    "invalid_noncoordinate_glyphs": [],
+    "advertised_length": 138,
+    "crop": {
+      "local_path": "/workspace/scratch/52afbdb2d2fd/source-material/gap21/mid/p137_B_audit.png",
+      "pdf_page_1based": 140,
+      "crop_pdf_points": [
+        80,
+        470,
+        525,
+        572
+      ],
+      "render_scale": 4,
+      "width": 1780,
+      "height": 408,
+      "png_sha256": "71f61673aa1a64be6e0a4401eb40fdc1b0ae82fe002be1cd32f5b2fa159eb474",
+      "rgb_sha256": "69acb4f92112bb27a9f890986483fab75ae3a9885171fb506814121b5d6e7923",
+      "storage": "external_pdf_reference"
+    }
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "target": "ISTDORTIGESTATIONNOCHVOMALTENPERSONALBESETZTXANTWORTETUM17?0XEILVESEX",
+  "independently_masked_encoded_target": "FVGDGXVAVXAAFAGAXGXAADXAVAGAXAAGAGFXAGDXGFFXFXXXVVXXXVXDFXAGAVAFDAVAVGAAFXFXXXXAFDAXDXXVAVVAVGXA?GAXGFAXFFGXAFFFAFXXXAFFAADAAXVFDXXXFGAV?F",
+  "scope": "27 printed group starts 0..130 by5; remove5source slots;insertatanyretainedboundary0..130;threecontiguousunknownaddedslotsatany135-streamboundary0..135.",
+  "expected_model_count": 481032
+}

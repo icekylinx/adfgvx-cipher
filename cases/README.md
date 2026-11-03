@@ -14,7 +14,7 @@ Each case opens with the most useful readable text or the present limits of reco
 | [Caucasus administration and procurement](caucasus/README.md) | 45 | 45 | 17 |
 | [Ships, cargo and naval orders](naval/README.md) | 44 | 44 | 18 |
 | [Armies, withdrawal and supplies](military/README.md) | 248 | 248 | 97 |
-| [Radio service, keys and message routing](radio/README.md) | 204 | 203 | 88 |
+| [Radio service, keys and message routing](radio/README.md) | 205 | 204 | 89 |
 | [Money, banking and purchases](finance/README.md) | 50 | 50 | 22 |
 | [People, appointments and civilian affairs](people/README.md) | 54 | 54 | 31 |
 
@@ -52,18 +52,18 @@ Original challenge identifiers are retained; p198 denotes section D.
 | [pp. 175–199](pages/175-199/README.md) | 6 | [p176a](p176a.md), [p176b](p176b.md), [p187](p187.md), [p187b](p187b.md), [p189](p189.md), [p198](p198.md) |
 | [pp. 200–224](pages/200-224/README.md) | 2 | [p215](p215.md), [p217](p217.md) |
 
-### Other ciphertexts — 645 reviewed entries
+### Other ciphertexts — 646 reviewed entries
 
 Numbered parts and received copies are listed individually, with their reviewed reading status.
 
-**667 catalogue entries · 666 physical sources · 644 beyond the challenges.** The [source register](../docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
+**668 catalogue entries · 667 physical sources · 645 beyond the challenges.** The [source register](../docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
 
 | Printed source pages | Reviewed entries | Pages represented |
 |---|---:|---:|
 | [pp. 50–74](pages/050-074/README.md) | 45 | 18 |
 | [pp. 75–99](pages/075-099/README.md) | 63 | 25 |
 | [pp. 100–124](pages/100-124/README.md) | 91 | 25 |
-| [pp. 125–149](pages/125-149/README.md) | 75 | 25 |
+| [pp. 125–149](pages/125-149/README.md) | 76 | 25 |
 | [pp. 150–174](pages/150-174/README.md) | 122 | 25 |
 | [pp. 175–199](pages/175-199/README.md) | 104 | 25 |
 | [pp. 200–224](pages/200-224/README.md) | 116 | 25 |
