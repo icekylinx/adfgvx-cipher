@@ -18,3 +18,12 @@ Default verification uses only the standard library and independently reconstruc
 Historical key credit: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Source review, new coordinate-pattern retrieval, lexical stencils and exact certificates: icekylinx and GPT-6 Astra Pro. Earlier source editions remain unchanged and retain their credits.
 
 An [optional hospital-support-staff extension](optional_underpersonal.json) adds six missing-half fills without changing the primary layer: **135/151 positions**, **89 total fills**, **16 unresolved**, zero observed substitutions. Period sources attest *Unterpersonal* as auxiliary/support staff; they do not authenticate this telegram. Check it separately with `python experiments/p212_medical_fragment/verify_optional_underpersonal.py --verify`.
+
+The optional [search replay](replay_search.py) reconstructs the exact hybrid model and checks the **6,300 frames, three length controls (ranks 1, 1, 2), and 100 same-key shuffles**. It requires NumPy and the external [upstream `data/quad.bin` at commit `083921732d7c18e52424336ab4160fada5c61b4b`](https://raw.githubusercontent.com/0wwafa/adfgvx-1918/083921732d7c18e52424336ab4160fada5c61b4b/data/quad.bin), SHA-256 `a39714514cd2884605b1b04a2f65565fcf33aec1f7162bcd1b472c7108601009`. [Search provenance](search_provenance.json) pins every input and the float32 quantization step; no model binary or full search log is bundled. Exact reproduction starts from that distributed binary; its original corpus downloads were not pinned. These scores do not authenticate the inferred total or give an all-key probability of correctness.
+
+```sh
+OPENBLAS_NUM_THREADS=1 python experiments/p212_medical_fragment/replay_search.py \
+  --book-quad26 /path/to/quad.bin --replay
+```
+
+Omit `--replay` to check model reconstruction alone. The primary verifier remains independent of NumPy and the external model. Upstream model credit: the 0wwafa/adfgvx-1918 contributors; replay implementation: icekylinx and GPT-6 Astra Pro.

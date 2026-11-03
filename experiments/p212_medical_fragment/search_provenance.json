@@ -1,0 +1,124 @@
+{
+  "schema": "adfgvx.p212-search-provenance.v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "upstream_author_credit": "0wwafa/adfgvx-1918 contributors; their model and build inputs are used for heuristic scoring, not credited as new cryptanalytic results",
+  "upstream_quad26": {
+    "repository": "https://github.com/0wwafa/adfgvx-1918",
+    "commit": "083921732d7c18e52424336ab4160fada5c61b4b",
+    "repository_path": "data/quad.bin",
+    "url": "https://raw.githubusercontent.com/0wwafa/adfgvx-1918/083921732d7c18e52424336ab4160fada5c61b4b/data/quad.bin",
+    "bytes": 1827904,
+    "sha256": "a39714514cd2884605b1b04a2f65565fcf33aec1f7162bcd1b472c7108601009"
+  },
+  "upstream_generation_limit": "The build script is published, but historical downloaded corpus bytes and per-request successes are not pinned in the repository. The script silently skips failed downloads. Rebuilding from live URLs is not guaranteed to recreate the distributed binary. Exact score reproduction therefore uses the pinned, checksummed quad.bin.",
+  "upstream_license_url": "https://raw.githubusercontent.com/0wwafa/adfgvx-1918/083921732d7c18e52424336ab4160fada5c61b4b/LICENSE",
+  "upstream_provenance_reference": "experiments/known_key/model_provenance.json",
+  "repository_inputs": [
+    {
+      "path": "data/keys.json",
+      "sha256": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1"
+    },
+    {
+      "path": "experiments/radio_domain_model/dataset.json",
+      "sha256": "2cf81c699ef145c642ea9e902433387e0ce9130643ec6d713d1318f0f7547162"
+    },
+    {
+      "path": "experiments/known_key/model_provenance.json",
+      "sha256": "2a0c443cacc9c008db1f40c26c5a9f978ef7fd92efe6d2fc6b2e61ad85437f11"
+    },
+    {
+      "path": "experiments/p212_medical_fragment/inputs.json",
+      "sha256": "4f8035fcc31e3952e625cba728f3375beec72096700cb6950ba5da379f907ae2"
+    }
+  ],
+  "radio_dataset": {
+    "path": "experiments/radio_domain_model/dataset.json",
+    "training_records": 45,
+    "training_quadgrams": 4634,
+    "target_family_training_excluded": [
+      "p212",
+      "p218"
+    ]
+  },
+  "rebuilt_model": {
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+    "encoding": "36**4 row-major little-endian float32 base10 logarithms",
+    "bytes": 6718464,
+    "sha256": "819fb5dde31d6a2d89cdf53dc2e96c8455e10ce350aadd83cd23d5c2f49f4a6c",
+    "binary_written_or_bundled": false
+  },
+  "recipe": {
+    "radio": "Count overlapping quadgrams from the 45 frozen plaintext_layer strings, splitting at each ?. Fold every numeral into class 26; smooth every 27^4 entry by 0.01. Normalize and expand each numeral occurrence uniformly over 10 digit labels.",
+    "book": "Read the pinned 26^4 log10 floats, promote to float64, exponentiate and normalize. Letter unigrams are the mean of four positional marginals. Reserve 0.03 total independent digit mass. All-letter quadgrams use normalized book probabilities times 0.97^4; other patterns use independent unigrams.",
+    "mixture": "Equal 0.5 book and 0.5 radio probability mixture. Take log10, quantize to little-endian float32, require the full recorded model SHA, then exponentiate those serialized floats in float64 and normalize. This quantization step is required.",
+    "coordinate_patterns": "49 patterns indexed by 7*row+column, with row or column 6 unknown. Sum compatible complete-square cell masses. Partial cells average each unused label independently for heuristic ranking only, without a global square completion claim.",
+    "objective": "Sum 0.5*ln(P(row,column)/(P(row)P(column))) at each position plus overlapping four-pattern ln(P(pattern1..4)/product P(pattern)) terms. Quantize four-pattern correlations to float32 before scoring; retain single terms as float64."
+  },
+  "key_ids_in_scan_order": [
+    "Sep19-21",
+    "Oct4-6",
+    "Oct28-31",
+    "Nov1-3",
+    "Nov4-6",
+    "Nov7-9",
+    "Nov10-12",
+    "Nov13-15a",
+    "Nov13-15b",
+    "Nov16-18",
+    "Nov19-21",
+    "Nov22-24",
+    "Nov25-28",
+    "Nov28-Dec1",
+    "CHI-Nov13",
+    "Jul18",
+    "Jul22",
+    "Aug3",
+    "Aug8-9",
+    "Aug20",
+    "NSA-undated-CHI-example-18",
+    "NSA-June1-CHI-21",
+    "Worked-example-VIKINGSCROWNHOTEL",
+    "TRUPPENVERSCHIEBUNG-2026-reported",
+    "CHI-Nov8-2026-recovery"
+  ],
+  "search": {
+    "source_id": "p212_A4",
+    "source_slots": 197,
+    "source_masks": 0,
+    "placement": "Unknown transmitted prefix followed by all 197 observed source coordinates, unchanged and in order.",
+    "even_total_min": 198,
+    "even_total_max": 700,
+    "lengths_per_key": 252,
+    "key_hypotheses": 25,
+    "historical_frames": 6300
+  },
+  "shuffle": {
+    "seed": 20261103212,
+    "count": 100,
+    "rng": "Python random.Random(seed), with a fresh source list shuffled in each iteration; reproduced with Python 3.12.14.",
+    "scope": "Already selected Nov22-24 key only; maximum over 252 even totals from 198 to 700 for each frequency-preserving shuffle.",
+    "expected_maximum_best": 19.441978454590046,
+    "expected_greater_or_equal_actual": 0
+  },
+  "expected": {
+    "actual_key": "Nov22-24",
+    "actual_total": 302,
+    "actual_score": 78.35078907108569,
+    "control_true_length_ranks": [
+      1,
+      1,
+      2
+    ],
+    "absolute_score_tolerance": 1e-06
+  },
+  "limits": [
+    "The pinned distributed upstream binary is the reproducible external input; its historical corpus downloads are not byte-pinned.",
+    "Model scores select hypotheses; 302 is inferred, not a source-advertised length.",
+    "Shuffle results cover the already selected key only, not an all-key or postselection-adjusted null distribution.",
+    "Partial-square marginal averages used in other key hypotheses do not establish a global injective square assignment. The accepted Nov22-24 key is complete.",
+    "The optional replay requires NumPy. The primary standard-library verifier and exact reading remain independent of this model."
+  ]
+}
