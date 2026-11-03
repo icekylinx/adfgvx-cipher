@@ -1,0 +1,50 @@
+{
+  "schema": "adfgvx-p112-C-screen-input-v1",
+  "model_sha256": "2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e",
+  "model_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?",
+  "model_format": "little-endian float32,37^4 cells",
+  "family": "25 local short-group completions times6441 two-five-block placements with a<=b in the112-slot base",
+  "fresh_truth_controls": [
+    {
+      "id": "fresh_control_1",
+      "newly_composed_nonhistorical_plaintext": "ANRADIOSTELLEXBITTESENDETNOCHHEUTEEINENBERICHTXNR123456789012",
+      "parameters": [
+        9,
+        21,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fresh_control_2",
+      "newly_composed_nonhistorical_plaintext": "DIESTATIONBLEIBTBISZUMABENDINBETRIEBXANTWORTXNR12345678901234",
+      "parameters": [
+        7,
+        20,
+        15,
+        58
+      ]
+    },
+    {
+      "id": "fresh_control_3",
+      "newly_composed_nonhistorical_plaintext": "UNSEREABTEILUNGREISTMORGENNACHBERLINXANTWORTXNR12345678901234",
+      "parameters": [
+        5,
+        19,
+        50,
+        50
+      ]
+    },
+    {
+      "id": "fresh_control_4",
+      "newly_composed_nonhistorical_plaintext": "DERTRANSPORTISTANGEKOMMENXALLEPFERDESINDGESUNDXNR123456789012",
+      "parameters": [
+        8,
+        23,
+        107,
+        112
+      ]
+    }
+  ],
+  "controls_status": "Newly composed synthetic German bodies; literal NR decimal suffixes complete61 positions. Not historical evidence."
+}

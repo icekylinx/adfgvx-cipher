@@ -1,0 +1,282 @@
+{
+  "schema": "adfgvx-mecklenburg-and-seaplane-personnel-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p141_A1.png",
+      "printed_page": 141,
+      "pdf_page_1based": 144,
+      "crop_pdf_points": [
+        84,
+        188,
+        530,
+        392
+      ],
+      "render_scale": 4,
+      "sha256": "bcb47ed6233d823729fbf015e76375b08cab0a7a9b07451572b4485b025d41c7"
+    },
+    {
+      "path": "sources/p141_A2.png",
+      "printed_page": 141,
+      "pdf_page_1based": 144,
+      "crop_pdf_points": [
+        92,
+        399,
+        530,
+        614
+      ],
+      "render_scale": 4,
+      "sha256": "0ffdabb602e9c1ddffb0d798eeb3ff9a148aa6ecd5a20b96c55b7ef670e35e01"
+    },
+    {
+      "path": "sources/p141_B.png",
+      "printed_page": 141,
+      "pdf_page_1based": 144,
+      "crop_pdf_points": [
+        83,
+        620,
+        531,
+        800
+      ],
+      "render_scale": 4,
+      "sha256": "a8a395b61254cb9a19e110a54c43661d5cde6b88df5a83cd8fa23a7bf43dbe44"
+    },
+    {
+      "path": "sources/p141_A1_glyphs.png",
+      "printed_page": 141,
+      "pdf_page_1based": 144,
+      "crop_pdf_points": [
+        166,
+        254,
+        425,
+        329
+      ],
+      "render_scale": 8,
+      "sha256": "0eff3bc5fa56c7df55edea9366ade3de72cbf611969bc9ad30d122d234953b4c"
+    },
+    {
+      "path": "sources/p141_A2_faint_end.png",
+      "printed_page": 141,
+      "pdf_page_1based": 144,
+      "crop_pdf_points": [
+        456,
+        518,
+        495,
+        535
+      ],
+      "render_scale": 8,
+      "sha256": "37743a9f71a12aa1a6068c0a87faf319c4f9b3e05205ac2ea519d3c85083825c"
+    }
+  ],
+  "records": [
+    {
+      "id": "p141_A1",
+      "printed_page": 141,
+      "source_section": "A1",
+      "source_rows": [
+        "DGFXX VXFXA XXDVA XAFAD DVAAD AVAXV FAGVV XGXVF",
+        "VVAXA DXXXV VVXFX FDXXF FDFFD XAX?F AGAXF GXAVA",
+        "XAVGX VVVFF AAGDG XFFFD AXGDX XFVF- VFGXF VFVGA",
+        "AAAVA FFFAX FDGFX FVVXG XVFDG AAAXV DVVFX DVXFV",
+        "XGVFV AVAVF XADXA FAAAF XDVVX AVXFV VGFAF VVFXV",
+        "AXAXX XXXXX XAAFD FDXXF VXVAV FFGFV DXFDX AVGAF",
+        "FAXDA XAAVF VXAXG XAFXX VGAAF VADXF AFXXA VXADX",
+        "FFAXA FAAFG VDFXX XFXAX XVAA"
+      ],
+      "source_slots": 304,
+      "advertised_length": 304,
+      "expected_raw": "BXMXKXSEWASTOPOLX?ECKLENBURGISCHEGESZNDTSCHAFTBITTETDRINZENDBEIKAPITAENLEUTNANTXWAGNERXUNDKONSULATXTIFLISXSCHNELLEBEANTWORTUNGFOLGEN?ERFRAGENZUERWIRKENX",
+      "readable_candidate": "BXMXKXSEWASTOPOLXMECKLENBURGISCHEGESANDTSCHAFTBITTETDRINGENDBEIKAPITAENLEUTNANTXWAGNERXUNDKONSULATXTIFLISXSCHNELLEBEANTWORTUNGFOLGENDERFRAGENZUERWIRKENX"
+    },
+    {
+      "id": "p141_A2",
+      "printed_page": 141,
+      "source_section": "A2",
+      "source_rows": [
+        "AFFVV XVXGX GXGFX FAVFX GFFVD XADAA XDGXA XFXGV",
+        "AXAXG FVVGX GVXGF VGVAV XVAVA VVXAX AFGDD FXXFG",
+        "XFXGV FFXXA AXFVX AXGFD XXAFF FXFFV GGXDV FVVFD",
+        "VXGGG FVFFD FXFGV AXDXV XXVXV ADFVA GFAVX FFVGF",
+        "GFGFG AAVGV AXFFF AGVFD VAFVG FXAFG FVFAV GVXVX",
+        "XGFFV GXXAG GDXAV GFAVA VFFDA XDDAF DXAVV VAXAA",
+        "----- XXAXG FGVAV GVXGV DXDFV VFDDA VDXGV XXGVA",
+        "XDFAF AFAGV VAXAV VVG-V FXDAA DAXFA AVXGX XFVFX",
+        "VVGDV AAVXF AAVAX XGFFA DAVGX VXDFX VDVFV GDGVA",
+        "DGFVA ADVFX VDDXA DXVXV FVAXF XXXAF AFVAF VAFXX",
+        "FFAAX AAVAD DVAFX VGAGD AD"
+      ],
+      "source_slots": 422,
+      "advertised_length": 422,
+      "expected_raw": "1XST?PXISTBEKANNTXOBDASIMJULIANXHERZOGXKARLXMICHAELXABGESANDTHANDSCHREIBENDESGROSSHERZOGSABGESANDTWOODENISTX2XSTOPXISTBEKANNTXOBHERZOGGE?EGENHWIT?UEINERR?ECKAEUSS?RUNGGEH?BTHATXBESTAETIGUNGXAUMIRALSTABX32982XBX2",
+      "readable_candidate": "1XSTOPXISTBEKANNTXOBDASIMJULIANXHERZOGXKARLXMICHAELXABGESANDTHANDSCHREIBENDESGROSSHERZOGSABGESANDTWORDENISTX2XSTOPXISTBEKANNTXOBHERZOGGELEGENHEITZUEINERRUECKAEUSSERUNGGEHABTHATXBESTAETIGUNGXADMIRALSTABX32982XBX2"
+    },
+    {
+      "id": "p141_B",
+      "printed_page": 141,
+      "source_section": "B",
+      "source_rows": [
+        "VGAAD FAFFA AVVXG FAADG XGVAF VXAVA VXXGF FVDAA",
+        "FAAGA AVXXD FAVAF VXXAD DXFFX DAGVA AADDA GFXFA",
+        "VGGXF FAFGX XVXVD VFVVF AADFF AVAAF AGXXF AXVVA",
+        "XAXAD VDGXF FVDGX GFAAD FFFDG VFAGX XAXGF VVXFV",
+        "VFAXA FFDXV XFFFV VDDDX GVAFX DVFGX DFVAA FAVGX",
+        "AVVFX DGDXF AVVVD DGFVV XAFAV VVAXA FXVAV AVVAD",
+        "XXVVA XAXXF VXXFD VXAVF AXDXA VAXAF GVXXA DXXAF",
+        "VDAGA FFXXX VAXAF AXVXF AXVAF VFFVV FFDFX VFAFA",
+        "GXAGF DXVAF AAXXF AFXDA"
+      ],
+      "source_slots": 340,
+      "advertised_length": 340,
+      "expected_raw": "SEEFLUGSTATIONXOSTXFRUEHERXSEWASTOPOLXETWAZURUECKZUUEBERWEISENDESPERSONALISTANXZWEITEXSEEFLIEGERABTEILUNGUNDNISHTANXERSTEXSXFXAVZUUEBRRWEISENXMARINEFLUGCHEFXGX4774XROEMX1",
+      "readable_candidate": "SEEFLUGSTATIONXOSTXFRUEHERXSEWASTOPOLXETWAZURUECKZUUEBERWEISENDESPERSONALISTANXZWEITEXSEEFLIEGERABTEILUNGUNDNICHTANXERSTEXSXFXAXZUUEBERWEISENXMARINEFLUGCHEFXGX4774XROEMX1"
+    }
+  ],
+  "headers": {
+    "p141_A": [
+      "ASO v LP (08.12 p.m., November 6th)",
+      "FUER ASO (6/11) 2 TLE"
+    ],
+    "p141_A1": "1 TL RICHI-304",
+    "p141_A2": "2 TL RICHI-422",
+    "p141_B": [
+      "ASO v LP (08.19 p.m., November 6th)",
+      "FUER ASO 1920 (6/11)",
+      "RICHI-340"
+    ]
+  },
+  "source_annotations": [
+    {
+      "record": "p141_A1",
+      "source_index": 68,
+      "transcription": "?",
+      "explanation": "The fourth glyph of XAX?F is overstruck/indeterminate. This question mark is a transcription placeholder for one visible source slot, not a printed question mark and not an unprinted insertion. It is independently distinct from the printed dash at109."
+    },
+    {
+      "record": "p141_A1",
+      "source_index": 161,
+      "transcription": "G",
+      "explanation": "The G is faded but its lower-right bar survives. Primary transcription accepts G; the separate masked sensitivity variant leaves the resulting initial code character unresolved."
+    },
+    {
+      "record": "p141_A2",
+      "source_index": 279,
+      "transcription": "A",
+      "explanation": "The final A of XXGVA is faint. Primary transcription accepts A; the separate masked sensitivity variant leaves the resulting E in ABGESANDT unresolved."
+    },
+    {
+      "record": "p141_A1",
+      "source_index": 245,
+      "transcription": "XAAVF",
+      "explanation": "The source visibly spaces this group as XAA VF; the internal space contributes no coordinate and all five visible letters remain."
+    }
+  ],
+  "faded_glyph_sensitivity": [
+    {
+      "record": "p141_A1",
+      "source_index": 161,
+      "accepted_glyph": "G",
+      "plaintext_index": 0,
+      "expected_domain": "8ABGIR"
+    },
+    {
+      "record": "p141_A2",
+      "source_index": 279,
+      "accepted_glyph": "A",
+      "plaintext_index": 49,
+      "expected_domain": "9EKVXZ"
+    }
+  ],
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "4c17a932dcae8f1e60d76c4d0a3ce3d371c8ca94ee21104844176484a30611ff",
+    "key_credit": "Unchanged published Nov4–6 key with original provenance."
+  },
+  "limits": [
+    "The Karl Michael and grand-duke references are what this source says; no independent biographical identification or confirmation of delivery/reply is asserted.",
+    "The literal ABGESANDT immediately before HANDSCHREIBEN lacks the adjective ending E expected in normal German. No extra plaintext character is inserted. The later repeated ABGESANDT is also retained.",
+    "BXMXK, references32982XBX2 and GX4774XROEMX1, and every numeral/letter label remain literal.",
+    "The seaplane order says what to do with any personnel returned; it does not prove a transfer occurred.",
+    "All three bodies were previously present in a repository screen. No historical first-solution claim is made.",
+    "There is no source insertion, deletion, length change or key change. Exact re-encryption verifies the declared editorial operations, not historical uniqueness."
+  ]
+}

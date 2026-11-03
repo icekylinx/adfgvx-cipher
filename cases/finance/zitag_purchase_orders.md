@@ -147,12 +147,17 @@ Continuing B1 with editorial spacing:
 
 **Readable German — continuation excerpt; the preceding words are outside this display:**
 
-> … dass nur bereits bezahlte Partien verladen werden sollen. Stornieret sämtl. andere Kontrakte wegen allgemeiner Lage. Ersuchen Westernhagen nochmals sofortiger Rückkehr.
+> … dass nur bereits bezahlte Partien verladen werden sollen. Stornieret sämtl. andere Kontrakte wegen allgemeiner Lage. Ersuchen Westernhagen nochmals sofortige Rückkehr.
 
 The received form `STORNIERET` and the telegraphic wording of the final
 request are preserved. `WESTERNHAGEN` is complete in the uncorrected
 plaintext. The heading's different `WESTGRNHAGEN` form is kept literally,
 and no particular person is identified from the name alone.
+
+The final `SOFORTIGERUECKKEHR` is spaced as **sofortige Rückkehr**. No extra
+`R` or connecting preposition is supplied to regularize the telegram's
+grammar. The leading ellipsis marks words before this continuation excerpt,
+not an unresolved plaintext position.
 
 ## Scope and attribution
 

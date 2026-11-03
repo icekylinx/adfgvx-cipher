@@ -1,0 +1,66 @@
+{
+  "schema": "adfgvx-seven-reading-display-mapping-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "base_layer": "The explicitly priced edited candidate in inputs.json for each physical record.",
+  "rules": [
+    "Every decoded label except X separators must match after case/spacing/punctuation normalization.",
+    "German umlauts map back to AE/OE/UE and sharp-s to SS; this is a display operation, not a source-coordinate change.",
+    "Unresolved plaintext positions remain one-for-one question marks. The native zero-unknown Telefunken inquiry separately declares its two grammatical question-mark offsets as readable punctuation.",
+    "No abbreviation expansion, inserted grammatical letter, digit interpretation or sender identification is permitted by this mapping.",
+    "The mapping proves preservation of the chosen edited text, not historical truth or uniqueness of its key/frame/word choices."
+  ],
+  "readings": [
+    {
+      "id": "p111_A1",
+      "case_path": "cases/military/nov3_evening_report.md",
+      "section_heading": "## p111 A1",
+      "readable_german": "OKM. OKM. Abendmeldung. An Save, Donau Ruhe. Alp. Korps erreicht Raum südlich Ujvidek. Ujvidek. 219219IDU. G. K. 5353.",
+      "grammatical_question_mark_offsets": []
+    },
+    {
+      "id": "p112_A1",
+      "case_path": "cases/military/nov3_evening_report.md",
+      "section_heading": "## p112 A1",
+      "readable_german": "OKM. OKM. Abendmeldung. An Save, Donau Ruhe. Alp. Korps erreicht Raum südlich Ujvidek. Ujvidek. 219219IDU. G. K. 5353.",
+      "grammatical_question_mark_offsets": []
+    },
+    {
+      "id": "p112_A2",
+      "case_path": "cases/military/nov3_evening_report.md",
+      "section_heading": "## p112 A2",
+      "readable_german": "Treten A 41?? / 11. Marsch nach Nordosten an. Luftaufklärung starken Fahrzeugverkehr Semendria Belgrad. Gen. Stabs. Offz.",
+      "grammatical_question_mark_offsets": []
+    },
+    {
+      "id": "p112_A3",
+      "case_path": "cases/military/nov3_evening_report.md",
+      "section_heading": "## p112 A3",
+      "readable_german": "Fliegt Bukarest, voraussichtlichtlich 4 / 4? / 4 / 11. AOK 11.",
+      "grammatical_question_mark_offsets": []
+    },
+    {
+      "id": "p112_B",
+      "case_path": "cases/radio/telefunken_staff_inquiry.md",
+      "section_heading": "## p112 B",
+      "readable_german": "Telefunken Konstantinopel drahtet: Schicksal unseres Personals? Ist Rückehr zu erwarten und wann? Bredow.",
+      "grammatical_question_mark_offsets": [
+        62,
+        96
+      ]
+    },
+    {
+      "id": "p112_C",
+      "case_path": "cases/radio/constantza_station_shutdown.md",
+      "section_heading": "## p112 C",
+      "readable_german": "Nachrchef. Constantza seit heute ?400 außer Betrieb gesetzt. Milmiss.",
+      "grammatical_question_mark_offsets": []
+    },
+    {
+      "id": "p112_D",
+      "case_path": "cases/military/turkish_armistice_straits_notice.md",
+      "section_heading": "## p112 D",
+      "readable_german": "Infolge 31.10. abgeschlossenen Waffenstillstand Türkei, Dardanellen, Bosporus der Entente geöffnet. BVN BEIBVG 7OSPOLI ?.",
+      "grammatical_question_mark_offsets": []
+    }
+  ]
+}

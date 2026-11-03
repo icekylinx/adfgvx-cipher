@@ -4,12 +4,13 @@
 
 Read the October staffing, supply and purchasing exchanges with Tiflis, followed by the Polish representative appointment and later armistice instructions.
 
-**36 reviewed physical records across 10 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**38 reviewed physical records across 11 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
 | Case | Source records |
 |---|---|
+| [Horses for a cavalry brigade: Poti shipment and handover inquiry](poti_horse_delivery.md) | p59 A2, p59 A3 |
 | [October routing, weather and personnel requests](october_requests.md) | p62 A, p62 B, p63 A, p65 A |
 | [Oil stocks and production: the Nobel and Hagelin message](nobel_oil_inquiry.md) | p64 A1, p64 A2 |
 | [October staffing, manganese purchases and service traffic](october_staffing.md) | p66 A, p66 B, p66 C1, p67 A2, p67 B, p67 C |
@@ -25,6 +26,8 @@ Read the October staffing, supply and purchasing exchanges with Tiflis, followed
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p59 A2](poti_horse_delivery.md#p59-a2) | Poti shipment for cavalry brigade and request for instructions | Native220 slots;11 observed substitutions+3 dash fills; opaque ending retained | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; earlier partial A2 repository candidate retained |
+| [p59 A3](poti_horse_delivery.md#p59-a3) | Poti horse handover and urgent reply to an earlier radio message | Native230 slots;9 observed substitutions+23 dash fills;8 reference positions remain unknown | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; earlier partial A2 repository candidate retained |
 | [p62 A](october_requests.md#p62-a--sofia-leaves-the-ringbahnverkehr) | Sofia leaves the Ringbahnverkehr; clear acknowledgment annotations retained | 62/62 raw positions; exact source frame; no repair | icekylinx and GPT-6 Astra Pro (2026) |
 | [p62 B](october_requests.md#p62-b--date-groups-before-weather-observation-telegrams) | Date groups requested before weather-observation telegrams | Conditional two-deletion layout; 91/93 raw positions; two known substitutions and two erasure fills | icekylinx and GPT-6 Astra Pro (2026) |
 | [p63 A](october_requests.md#p63-a--a-partially-readable-inspector-request) | Partial inspector request with Kress agreement and Gemoll signature | 114/135 positions proposed; 21-character technical span unassigned; 12 substitutions and two fills | icekylinx and GPT-6 Astra Pro (2026) |

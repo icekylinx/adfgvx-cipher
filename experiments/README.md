@@ -13,6 +13,11 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [November 3 evening-report copies and November 4 notices](nov3_evening_and_nov4_radio/README.md) | Seven records; 635 modeled positions | Seventeen copy-supported erased coordinates; two copy conflicts, lower-cost FAHRZEUG alternative, and 161,025 C parameters / 155,400 distinct layouts retained. |
+| [Poti horse delivery](poti_horse_delivery/README.md) | Two native records; 225 positions | Opaque suffix and twelve source dashes remain; expensive contextual completion stays outside primary counts; A1 remains unread. |
+| [Dunst assignment cancellation](dunst_assignment/README.md) | Two records; 373 positions | A source-prefixed dash is separately excluded; observed-D deletion alternative and native grammatical anomalies remain explicit. |
+| [Mecklenburg inquiry and seaplane personnel](mecklenburg_and_seaplane_personnel/README.md) | Three native records; 533 positions | Legation's question and transfer to the second unit; damaged/faint source glyphs have unfilled sensitivity variants. |
+| [Turkish armistice shipping order](turkish_armistice_shipping_order/README.md) | Three native records; 459 positions | Intercepted terms and stopping material shipments; related BVG/KOSPOLI wording does not repair the separate p112 ending. |
 | [Hungary connection and radio supplies](hungary_connection_and_supplies/README.md) | Three native records; 319 fixed raw positions | Corrected source counts restore two unchanged messages; six source substitutions in the supply notice remain explicit. |
 | [Kress receipt and Nazareth front inquiry](september_receipt_and_front_inquiry/README.md) | Two records; 160 positions | Exact zero-edit front inquiry; damaged receipt glyphs and the missing-letter spelling remain explicit. |
 | [Withdrawal near Kronstadt and Hermannstadt](p175_c3_gap_followup/README.md) | One 111-position conditional record | Six tied single-block gaps; arbitrary-five loss lowers substitutions from four to three and still has six layouts. |

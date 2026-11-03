@@ -6,8 +6,8 @@ The [reading guide](reading-conventions.md) separates Raw output, Edited
 output, Readable German and Conditional interpretation. The
 [reviewed manifest](../data/reviews/reading_layer_manifest.json) lists every
 substantive case present in this presentation snapshot, with a classification
-and byte digest for every fenced or quoted display. It records **150 case
-pages, 682 fenced displays and 152 quoted displays**. These are display
+and byte digest for every fenced or quoted display. It records **159 case
+pages, 722 fenced displays and 169 quoted displays**. These are display
 counts, not counts of physical telegrams, newly recovered plaintexts or
 independently authenticated readings. The checker excludes **48 explicit
 compatibility redirects and eight navigation README pages**.
@@ -16,9 +16,9 @@ compatibility redirects and eight navigation README pages**.
 
 | Fenced display role | Count |
 |---|---:|
-| Raw output under its stated key and frame | 314 |
-| Edited output under its stated repairs | 185 |
-| Conditional interpretation | 6 |
+| Raw output under its stated key and frame | 331 |
+| Edited output under its stated repairs | 202 |
+| Conditional interpretation | 7 |
 | Readable German with linked variables | 1 |
 | Earlier attributed reading | 27 |
 | Recomputed prior reading | 11 |
@@ -26,9 +26,9 @@ compatibility redirects and eight navigation README pages**.
 | Re-encryption witness | 1 |
 | Search diagnostic | 1 |
 | Geometry-alternative list | 1 |
-| Reproduction commands | 84 |
+| Reproduction commands | 89 |
 
-The quoted displays comprise 147 Readable German passages, four separately
+The quoted displays comprise 164 Readable German passages, four separately
 labelled conditional interpretations and one English meaning. Their local
 qualifiers remain part of the manifest. A Readable German label does not
 cancel a stated conditional frame, editorial repair or historical
@@ -50,6 +50,7 @@ They are not exemptions for unlabelled plaintext.
 | Focused German display review | 12 cases, 42 fenced blocks | The prior fences, 92 headings and 349 inline-code occurrences; the Tiflis readable text separately matches 330 nonseparator labels |
 | External layer captions | 138 cases, 637 fenced blocks | Complete fenced bytes and every existing heading; conditional geometry and prior authorship stay explicit |
 | English spacing and remaining count units | 25 cases, 91 fenced blocks | Fences, headings, inline code, quoted display lines, URLs and the numeric-token sequence |
+| Focused readable-display corrections | 6 cases, 26 fenced blocks | Fences, 33 headings, 143 prior inline-code occurrences and 13 evidence digests; six selected fragment mappings and one explicitly attributed abbreviation interpretation |
 
 These passes overlap. Their counts must not be added to claim a larger
 source corpus. The full-case manifest also includes later source editions
@@ -62,6 +63,11 @@ linguistic distinctions, including abbreviation expansion, prose-only
 inserted letters, priced coordinate fills, linked unknown values and
 conditional historical identification. Every earlier reading retains its
 separate authorship and status.
+
+The later [focused semantic review](reading-conventions-semantic-review.md)
+corrects omitted unknown positions and unmarked display-only spelling
+changes. Its finite character mappings are recorded separately from the
+full-tree role inventory; it does not claim to validate every translation.
 
 ## Run the checks
 
@@ -81,6 +87,13 @@ directory. The first four commands compare actual stored before-records;
 the last command scans the current case tree independently of the manifest.
 It fails for a new unreviewed case, a missing or duplicated legend, changed
 display bytes/order, or a changed/missing reviewed caption or qualifier.
+
+Run the additional character-mapping and preservation check for the six
+focused cases with:
+
+```sh
+python data/reviews/verify_semantic_readings.py
+```
 
 For a new case or a deliberate evidence update, generate a current inventory
 without modifying any case or the reviewed manifest:

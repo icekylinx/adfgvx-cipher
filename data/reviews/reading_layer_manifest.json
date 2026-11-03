@@ -8,7 +8,8 @@
     "data/reviews/reading_conventions_safe_audit.json",
     "data/reviews/reading_conventions_manual_audit.json",
     "data/reviews/reading_conventions_layers_audit.json",
-    "data/reviews/reading_conventions_spacing_audit.json"
+    "data/reviews/reading_conventions_spacing_audit.json",
+    "data/reviews/reading_conventions_semantic_audit.json"
   ],
   "files": [
     {
@@ -367,6 +368,72 @@
       ]
     },
     {
+      "path": "cases/caucasus/poti_horse_delivery.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "f03840dcb75b0e5d632632f8e101775bdc38fed560a6b4deac82cdb3a2c4e805",
+      "review_basis": "Human review: two native frames with explicit dash fills, unresolved reference fields and a separately labelled costly full A2 hypothesis; uncounted first-part conflict retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "362756ffa72c059473def8b36fa78ad3bf0df3a514c0ceeb3f66a526be4a075e",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 220-coordinate frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "1d9eccde1aa3a0edfdd52ad496ac3726e188fa60732a46b098c2d89eeb58958a",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 11 observed-coordinate substitutions and three printed-dash fills:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 2,
+          "sha256": "7e617f240f1681f0fd272b3519cc5ae145a38128101bb8ea1430fbd134e79324",
+          "role": "conditional_interpretation",
+          "caption_required": true,
+          "caption": "**Conditional interpretation \u2014 costly full A2 hypothesis, excluded from the main reading counts:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 3,
+          "sha256": "f3ee8d7e0b4670e5d1d89ef753f140f950becb1101e1ea48689c471332bea6a5",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 230-coordinate frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 4,
+          "sha256": "b7a6c6056a7e6d953a0732c7b00afc4bb7bc5fa731ce59fda61c8cd6d82391ce",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 nine observed-coordinate substitutions and 23 printed-dash fills:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "50f873612dc4fdeeef79fac092cc131c278b22bd326b77d2fe62a5825873ecbf",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing of the conservative candidate, with its opaque ending retained:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "263bfb4e04523143674b1c8c018851eb75bde34a85bde44d68d08e4c37dea6f4",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation, with the unresolved reference fields kept literal:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
       "path": "cases/caucasus/representative_retention.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "f979ea9026688dc6c9fab6dca1ab268471aa2e932a47790dd3ebc78fb4fbcf90",
@@ -526,8 +593,8 @@
     {
       "path": "cases/context/p155.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "640272403693adfc98183c31d7ecf9d4c6d684b1273d99e49054fae318b49af4",
-      "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
+      "file_sha256_at_review": "90e99794017bce7b1da33b2cc9adae4ddab054921ea78f62dce279ef26122e05",
+      "review_basis": "Human review of conditional reconstructed reading and all four retained gap frames; local note explicitly identifies the repeated Asgard display as completion of raw A?GARD from another occurrence in the same message.",
       "fences": [
         {
           "index": 0,
@@ -1436,7 +1503,7 @@
     {
       "path": "cases/finance/p205_A.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "6151effd70a61aedfb805a682cfbf0aafd0778a82c05ecc20695e9b11d2b477e",
+      "file_sha256_at_review": "2ece6becfe7a55448d29bdbd7b551927e1f81be40b611d7ee1dd2bf05532ea85",
       "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -1459,13 +1526,14 @@
       "quotes": [
         {
           "index": 0,
-          "sha256": "5ef9547a38dbf816106039d21028791bde52c69cbcb7146bf873d9b9fde80393",
+          "sha256": "1476de2617744ecad3c50c0f1f6663cecbaa29ed704e06345c59e9a421038f06",
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
         }
-      ]
+      ],
+      "semantic_review": "data/reviews/reading_conventions_semantic_audit.json"
     },
     {
       "path": "cases/finance/ruble_rate_companions.md",
@@ -1527,7 +1595,7 @@
     {
       "path": "cases/finance/zitag_purchase_orders.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "8da252fadbd6897c7a983bc8224a356faa113fe0ebb81bd9998f0105d14d3bdd",
+      "file_sha256_at_review": "76113934c4f01d94d3726274d401050b65b6c24e331a3b90cbdf038cdc0bad11",
       "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -1614,13 +1682,14 @@
         },
         {
           "index": 1,
-          "sha256": "889e3cc89eabab36e90be79dc6ac1ce67378f35e3be5d89eda549ac0067bfef9",
+          "sha256": "3f9f2b1890599afa23b537f1259f9bce786c9f83a9e7029b268d008be342a18d",
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German \u2014 continuation excerpt; the preceding words are outside this display:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
         }
-      ]
+      ],
+      "semantic_review": "data/reviews/reading_conventions_semantic_audit.json"
     },
     {
       "path": "cases/military/armistice_and_leave_orders.md",
@@ -2025,7 +2094,7 @@
     {
       "path": "cases/military/dobrudscha_report.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "e7d069e31d19460c58fc61e262e87ce4c81174b9f9ad058b8be0b5c0d6c39fde",
+      "file_sha256_at_review": "e4692a56cd9e1a46944a7c77f23492ebb28d4c0c2bb1823b734658d217a64d9e",
       "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -2064,13 +2133,14 @@
       "quotes": [
         {
           "index": 0,
-          "sha256": "b66f28d01658aba4764cc1fda945ca530a94226534831e866b191c3f67401993",
+          "sha256": "dc36f7bc7a5da4f7878533a84bcd76768144ad1ec65c15cad47b63eba4dabb31",
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
         }
-      ]
+      ],
+      "semantic_review": "data/reviews/reading_conventions_semantic_audit.json"
     },
     {
       "path": "cases/military/formation_dissolution.md",
@@ -2980,6 +3050,120 @@
       "quotes": []
     },
     {
+      "path": "cases/military/nov3_evening_report.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "3e25b674d1632035515faa8654b634f6d1f355570af328517c06e85485e884c2",
+      "review_basis": "Human review: separate source witnesses and native frames, priced editorial words, literal number labels, repeated TLICH and unresolved positions retained; lower-cost FAHRZEUG alternative explicit.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "40a61b0e4135a4923916680b89c47b8caa97df7ee0c3f09a87e181e472b4f15c",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "c0b63b26b6aa9239cc17940a8ebf3e7ac731c658955670bd8f12a1e6e85413f1",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 priced editorial candidate under the same stated frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 2,
+          "sha256": "dbde3a3af800b8b22b2ad06930cbc5df0289ebcb77eebc2b49676560bc54021a",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 3,
+          "sha256": "c0b63b26b6aa9239cc17940a8ebf3e7ac731c658955670bd8f12a1e6e85413f1",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 priced editorial candidate under the same stated frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 4,
+          "sha256": "15bae02edbd7347b0530536dade428c887c9b5f91d7d34584c592b7918cbac9e",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 5,
+          "sha256": "e9907fecdcca9413c4c325ce966e05dc49a994a3e87d5dceebf28af5da02fec8",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 priced editorial candidate under the same stated frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 6,
+          "sha256": "a8384ebff26d830e40cbbc05a6c4262d23592170c242df8511bc720c50daebb1",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 7,
+          "sha256": "fe4f2216bc0ff964e7fedcfeabd27131557b32c79ff299153f9567e26ff06a73",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 priced editorial candidate under the same stated frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 8,
+          "sha256": "3020cedd77ed28e803a4dd8a75c257a30c7c418bd3c78c0c181bd03fd844159d",
+          "role": "reproduction_command",
+          "caption_required": true,
+          "caption": "The [source package](../../experiments/nov3_evening_and_nov4_radio/README.md),\n[literal inputs](../../experiments/nov3_evening_and_nov4_radio/inputs.json) and\n[coordinate certificate](../../experiments/nov3_evening_and_nov4_radio/certificates.json)\nretain source crops, exact domains, every operation and complete forward witnesses.\nThe published keys retain their Lasry\u2013Niebel\u2013Kopal\u2013Wacker attribution. Earlier\nOCR candidates are archived separately; no first historical decipherment is claimed.",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "8268f5c143d798344202d232212671998e0e95ab028acd1d3f43e9f7e16e7f09",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 based on the edited candidate above; the local qualifications remain in force:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "8268f5c143d798344202d232212671998e0e95ab028acd1d3f43e9f7e16e7f09",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 based on the edited candidate above; the local qualifications remain in force:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 2,
+          "sha256": "ab6a9472e0276c7880cab16ecdfebca44a37643e63b1f1ee75728f655f5e7469",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 based on the edited candidate above; the local qualifications remain in force:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 3,
+          "sha256": "10189d5c745e2277d4c275d95c66d939a75a7e590c7bc58ac9d304b96b10a35e",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 based on the edited candidate above; the local qualifications remain in force:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
       "path": "cases/military/nov3_withdrawal_and_night_report.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "c95e2902b2ae4608461318b4a79751a946fa9c3085f5bb2c3fc514123073c7c8",
@@ -3460,7 +3644,7 @@
     {
       "path": "cases/military/p201_p206_orders.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "a1fd14b536ab934f571769d7abb02e09bf040420b509e7dac745de7a12eb0dbe",
+      "file_sha256_at_review": "28c47830ffd47b70d53fad737ffe1ef3080cf7c37864023fe3cfee9eb455b190",
       "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -3499,13 +3683,14 @@
       "quotes": [
         {
           "index": 0,
-          "sha256": "612d919de4397b340422cb34324244f1042a8553fc1190380891c8b79b321ec1",
+          "sha256": "40c27294c8dd277dcba2f5050d0d4b526787b6aa3082d17563650315aec19d61",
           "role": "readable_german",
           "caption_required": true,
-          "caption": "**Readable German:**",
+          "caption": "**Readable German \u2014 body excerpt; the unresolved closing reference remains in the raw output below:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
         }
-      ]
+      ],
+      "semantic_review": "data/reviews/reading_conventions_semantic_audit.json"
     },
     {
       "path": "cases/military/p210_D.md",
@@ -3831,6 +4016,40 @@
       "followup_prose_review": "Later C3 link added; original source/edited displays, captions and three-record scope unchanged."
     },
     {
+      "path": "cases/military/seaplane_personnel_return.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "1201b7979ab2cf0b9db273d1d57147bdb8a5c97d2be00d75c9388030eb05eb64",
+      "review_basis": "Human review: native complete frame, three local repairs, no mask fill; written unit ordinals and literal administrative reference retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "10d2232a93d7525e2de55dc436c46a25817606fd9a0b91e9690cf4953206aa50",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 340-coordinate frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "5acfd827a26ea13bef904ab8a34863b3053865fa4f1525fa3fef723a869945be",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 three observed-coordinate substitutions, with no mask fills:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "4987d661020a72aa035c2ec22409bcb744859d2e985553fd4492c7e2fd460ead",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
       "path": "cases/military/transport_and_disarmament_orders.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "42eb9bb15a8dd5facb80908fdf3029fc75069b5b504b46f92f43d2b0263a812f",
@@ -4007,6 +4226,130 @@
         }
       ],
       "quotes": []
+    },
+    {
+      "path": "cases/military/turkish_armistice_shipping_order.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "ffb6d31dee41d798342c8ae8489773687d369fb2e348f8327b738ad9275a5c54",
+      "review_basis": "Human review: three native frames with eleven local substitutions and no fills; abbreviated distribution, numerical fields and separate faint-glyph variants retained. The p112 relation is explicitly contextual, not an asserted duplicate.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "a633f48c5aeab541ec0229dd88e90b47fee98f40e62e551ac57308ef19b46553",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 338-coordinate frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "21b1b29f28d5d7d76c34049c8e941859dff948f8cc9b6aa986acaf7bb91c82a2",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 six observed-coordinate substitutions, with no fills:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 2,
+          "sha256": "a1f33b4d304d4731ab71ae168b3630b12354b36664f4f40d26b5390e76112c33",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 344-coordinate frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 3,
+          "sha256": "5adff5061a91d5238782651649e137b4a111781bcf10675d66c66d0e72f2b757",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 two observed-coordinate substitutions, with no fills:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 4,
+          "sha256": "2ac1e8f5209104a2c3ffab2528135c88a394422ab55efc891d2dfafb73622e30",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 236-coordinate frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 5,
+          "sha256": "99e3821c01793f1cda50e55c3a7538bc3d9c9f10c0fd50f0fbcad13984847297",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 three observed-coordinate substitutions, with no fills:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "8e3b97b9e744e6610a04914d724b9489469548873aad9e093ed2c61cc91f67c3",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "8fe38ccb6757cdd52306f5f286eb2cb8233e602e5b4602cd6675183e734ac169",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 2,
+          "sha256": "1c480ba2a7236af5aa8007afbc084f1f552c19468e9aa452febef6c3b8f10145",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation of the abbreviated distribution:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/turkish_armistice_straits_notice.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "71dc18e3b8feccfb3676c1c1b7d93aa710295a94150da948f276b7ea416879b5",
+      "review_basis": "Human review: native frame, six local substitutions plus one source fill, no grammatical ending inserted; literal closing fields and final unknown retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "06c84da038c49e79990d96927bd715ef15dc481604148618dbb37890dcea26df",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "1c14b9f7474e1f6b32e03f9b36057aa8b810c279c978c73abdcb1dbb06a28aea",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 priced editorial candidate under the same stated frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 2,
+          "sha256": "3020cedd77ed28e803a4dd8a75c257a30c7c418bd3c78c0c181bd03fd844159d",
+          "role": "reproduction_command",
+          "caption_required": true,
+          "caption": "The [source package](../../experiments/nov3_evening_and_nov4_radio/README.md),\n[literal inputs](../../experiments/nov3_evening_and_nov4_radio/inputs.json) and\n[coordinate certificate](../../experiments/nov3_evening_and_nov4_radio/certificates.json)\nretain source crops, exact domains, every operation and complete forward witnesses.\nThe published keys retain their Lasry\u2013Niebel\u2013Kopal\u2013Wacker attribution. Earlier\nOCR candidates are archived separately; no first historical decipherment is claimed.",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "7235e8dd90e1a1704338a66fff1e6ad22fd3f4fc4fe814aaa7aa978673bf90ad",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 based on the edited candidate above; the local qualifications remain in force:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
     },
     {
       "path": "cases/military/turkish_mission_recall.md",
@@ -5306,7 +5649,7 @@
     {
       "path": "cases/p187b.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "6972219ae6bd149b9d0e70848222fb7c54c3972cf45cb8738e4b954bbdf9affb",
+      "file_sha256_at_review": "925d5c7e3da2289f702e74dec2bfd61fc1ba487932b5791e4f02bef277d469e7",
       "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -5353,13 +5696,14 @@
       "quotes": [
         {
           "index": 0,
-          "sha256": "123a79fd1a351ffbcce09e1dc08a2d390440f20f0d9a6d59020660d188bde95f",
+          "sha256": "44d51943a97b8cba020436f31c5950940ae91f6c8f9cd7257dfcdcd4915b0215",
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German \u2014 earlier word normalization explained by the separately costed swap:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
         }
-      ]
+      ],
+      "semantic_review": "data/reviews/reading_conventions_semantic_audit.json"
     },
     {
       "path": "cases/p189.md",
@@ -5636,6 +5980,72 @@
       "quotes": []
     },
     {
+      "path": "cases/people/dunst_assignment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "36cd1819c86842afa8b402128006f00d1f6c881c7ff41a2306333d86be36dfe7",
+      "review_basis": "Human review: prefixed-dash exclusion qualified in the first raw caption; same-frame edits, bracketed abbreviation/spelling expansions and literal dates retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "0eb62cf8592db946756c2f92a59cd10fa0e7e230756fa7c6a464dea7f2c6f4ae",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 282-coordinate frame, with the prefixed dash excluded.**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "f479601b5e5cdb04bd57726eb52f120f120b9a730a17c5b88bb2cec62c77c651",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 same frame, with three observed-coordinate word repairs.**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 2,
+          "sha256": "50da2bbb10a929fd01c7062d5fbbb4ed55372f2f0aa044a256853833859a5e6d",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 all 464 observed coordinates; unchanged key.**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 3,
+          "sha256": "70fe8452fb253aeab2b93bc76fa42a2d4e0041d182d011b0e6eeb1931b0ba947",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 one observed-coordinate word repair.**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 4,
+          "sha256": "b6d694d7e8b6662f2b2ae570109918740b8b3f1358ac9ee865d5cdb816277d14",
+          "role": "reproduction_command",
+          "caption_required": true,
+          "caption": "The November 1\u20133 key is prior Lasry-team work and retains its original\nprovenance. The [prior-evidence snapshot](../../experiments/dunst_assignment/prior_evidence.json)\nkeeps the earlier unreviewed 243/424-slot OCR frames. Both began with the\nsecond typed row and did not establish these bodies. The complete source\nedition and repair ledger are by **icekylinx and GPT-6 Astra Pro**; no universal\nfirst-decipherment or independent identification of Dunst is claimed.",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "d141f54e59afd7cb1e3a9cd3c9e818cc7cff92883859cd8a0096f5badbcf8ed7",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 first part, continuing into A2:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "5fa5ece394edd797d9d64e6fabda597b13b4268e453c709d0971f619e90e1a20",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 continuation of A1:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
       "path": "cases/people/glatz.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "14bbb427ec727343551a9171433abb222d1a8d5ed38277499b6c63155f33bea3",
@@ -5707,6 +6117,64 @@
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/mecklenburg_inquiry.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "94bf39a27a381f82d9c3da011548c92da30c712529ac3305da2d85485b5097e5",
+      "review_basis": "Human review: native frames, glyph/dash distinctions, separately priced repairs and explicit prose-only E expansion; faint-glyph alternatives remain conditional.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "4cea7606b4fd9ae9a4694220e43682214e31c0128864fed3f76d99898ef2e028",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 304-coordinate frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "f9ea8f04ca55db91272cd9b47d65fc66783bfea9b193bd618734b1cd50169600",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 three observed-coordinate substitutions, one printed-dash fill and one unreadable-glyph fill:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 2,
+          "sha256": "b6815f71362ba046925dc23d12bd15032a168307be4cbac25b51b43798c2c4d0",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native 422-coordinate frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 3,
+          "sha256": "8edd2d6d45cd16430612d86d40015d07585bd902f7d188fde65fa302f97ab6cb",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 five observed-coordinate substitutions and six printed-dash fills:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "b366be85a0416a1bf26ff289d746969e766de620e6def49e637016ee6e243c0f",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "eb2b753ef6dbe47add028632333af6fb494789789d2cce8b482852b19501d8c5",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 spacing and punctuation; one grammatical spelling expansion is bracketed:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
         }
       ]
@@ -6248,6 +6716,48 @@
         }
       ],
       "quotes": []
+    },
+    {
+      "path": "cases/radio/constantza_station_shutdown.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "c2663db4f101c16d50cf7dcbcc0c9b325c17d19a945bc257c2bf8eaf3283a5b2",
+      "review_basis": "Human review: raw caption and surrounding prose explicitly condition the 122-slot loss frame; eleven unprinted fills, one unknown time-like position and equally cheap arbitrary-loss alternatives retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "54a6f9acf72f60dfd1ebf9abddb6868f4d4cb3e3e163a3e26187717085ec8e88",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 conditional 122-slot loss frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "d739f27bbee363009703a554aec1fc920b8c8af922a17494672e106c4c8d9997",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 priced editorial candidate under the same stated frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 2,
+          "sha256": "3020cedd77ed28e803a4dd8a75c257a30c7c418bd3c78c0c181bd03fd844159d",
+          "role": "reproduction_command",
+          "caption_required": true,
+          "caption": "The [source package](../../experiments/nov3_evening_and_nov4_radio/README.md),\n[literal inputs](../../experiments/nov3_evening_and_nov4_radio/inputs.json) and\n[coordinate certificate](../../experiments/nov3_evening_and_nov4_radio/certificates.json)\nretain source crops, exact domains, every operation and complete forward witnesses.\nThe published keys retain their Lasry\u2013Niebel\u2013Kopal\u2013Wacker attribution. Earlier\nOCR candidates are archived separately; no first historical decipherment is claimed.",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "33978d9f7f768c40a6393e28fe2f67e8bf689c786ce28be68deace38f584be47",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 based on the edited candidate above; the local qualifications remain in force:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
     },
     {
       "path": "cases/radio/constanza_radio_connections.md",
@@ -7865,6 +8375,48 @@
       ]
     },
     {
+      "path": "cases/radio/telefunken_staff_inquiry.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "02c2897f197215c0d9c12fb2c3edef007f63a3bf83ff245e5ddb5f0e74c0613c",
+      "review_basis": "Human review: unchanged native frame, identical raw/edited displays, literal RUECKEHR retained as R\u00fcckehr, grammatical question marks explicitly separated from unknown positions.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "f9d70cf128aa59cfb8c34bf98923e27a6f2be40b8632dc77d74630e28402d8bd",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output \u2014 native source frame:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 1,
+          "sha256": "f9d70cf128aa59cfb8c34bf98923e27a6f2be40b8632dc77d74630e28402d8bd",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output \u2014 identical to raw output; no source changes:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        },
+        {
+          "index": 2,
+          "sha256": "3020cedd77ed28e803a4dd8a75c257a30c7c418bd3c78c0c181bd03fd844159d",
+          "role": "reproduction_command",
+          "caption_required": true,
+          "caption": "The [source package](../../experiments/nov3_evening_and_nov4_radio/README.md),\n[literal inputs](../../experiments/nov3_evening_and_nov4_radio/inputs.json) and\n[coordinate certificate](../../experiments/nov3_evening_and_nov4_radio/certificates.json)\nretain source crops, exact domains, every operation and complete forward witnesses.\nThe published keys retain their Lasry\u2013Niebel\u2013Kopal\u2013Wacker attribution. Earlier\nOCR candidates are archived separately; no first historical decipherment is claimed.",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "2a9d59bcbb4b4d876e1bcb6022c45886746f6ecdb02beff87253394933218d28",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German \u2014 based on the edited candidate above; the local qualifications remain in force:**",
+          "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
       "path": "cases/radio/telegram_priority.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "6e5c6b4459c6dc615fe37ae90bade09a0034d44c7e5a74a716d18c92fe0e77e5",
@@ -8098,7 +8650,7 @@
     {
       "path": "cases/supplementary/p89_A2.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "8ffcdaf388a6175903f74d23b3ea30f9ed911792b71d64d752317e7801df4090",
+      "file_sha256_at_review": "38b3097cef8916ff1f9a6f2ce9c7f4f36175ba118e76f3e105f52f2221ff7c67",
       "review_basis": "Human review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -8127,7 +8679,8 @@
           "caption": "**Readable German \u2014 earlier credited partial interpretation:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
         }
-      ]
+      ],
+      "semantic_review": "data/reviews/reading_conventions_semantic_audit.json"
     }
   ]
 }

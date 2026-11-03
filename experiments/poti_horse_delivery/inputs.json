@@ -1,0 +1,221 @@
+{
+  "schema": "adfgvx-poti-horse-delivery-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Sep19-21",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      12,
+      2,
+      7,
+      20,
+      10,
+      19,
+      1,
+      13,
+      9,
+      18,
+      3,
+      17,
+      21,
+      8,
+      14,
+      4,
+      6,
+      16,
+      11,
+      22,
+      5,
+      15
+    ],
+    "column_count": 22,
+    "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+    "square_rows": [
+      "D5613Q",
+      "9KBNO0",
+      "HY8EIS",
+      "JUTZFC",
+      "W7VPML",
+      "2ARG4X"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 236,
+        "pdf_page_1based": 239,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p59_A1.png",
+      "printed_page": 59,
+      "pdf_page_1based": 62,
+      "crop_pdf_points": [
+        85,
+        210,
+        538,
+        390
+      ],
+      "render_scale": 4,
+      "sha256": "f62654df8599fd230ece18072cbc25ee1cd9f3ea863d78f79fdbef5c8becdbd5"
+    },
+    {
+      "path": "sources/p59_A2.png",
+      "printed_page": 59,
+      "pdf_page_1based": 62,
+      "crop_pdf_points": [
+        100,
+        389,
+        535,
+        508
+      ],
+      "render_scale": 4,
+      "sha256": "6b2ba82875882c91a43f30c0756aba640a1132ac914bc4068a9e20f26b68cdf0"
+    },
+    {
+      "path": "sources/p59_A3.png",
+      "printed_page": 59,
+      "pdf_page_1based": 62,
+      "crop_pdf_points": [
+        100,
+        522,
+        538,
+        650
+      ],
+      "render_scale": 4,
+      "sha256": "a60506eb0dd29d904463fd5aa792b8ff49eddd78a9a2bea76e3c684f7070665b"
+    }
+  ],
+  "records": [
+    {
+      "id": "p59_A2",
+      "printed_page": 59,
+      "source_section": "A2",
+      "source_rows": [
+        "FAFFF FGXGF GGGGD AAGFA VFDVV FAFF- FDVXG FVGVX",
+        "AVDXD XFFDX VFXXX FDDDX DDDVD FFADV GVFFD GFFXG",
+        "XF-VF FXXV- GXXGG XXAXV XXXAD DXAGX VFXFX AADXA",
+        "VAFAG XFFFG XGFXD DFFDV ADFDG V-GGX XGGXG GGVX-",
+        "FGFVX VAAGV XVXVV AXDFF FXDFF FGAFV VFFDF GAAFA",
+        "FGXGG DXGXF DFXAD VG--X"
+      ],
+      "source_slots": 220,
+      "advertised_length": 220,
+      "expected_raw": "POTIXVERLADEBXDIEFUER7GBA8?BRIGXBE7THMMTXXDAABTEILUNGKNDERSHINBEO4DHGTXDRING?NDDRAHTEO?ERBRTVEXO0?NDWME??EL?XX",
+      "readable_candidate": "POTIXVERLADENXDIEFUER7XKAVXBRIGXBESTIMMTXXDAABTEILUNGANDERSHINBEORDERTXDRINGENDDRAHTEODERBRTVEXO0?NDWME??EL?XX"
+    },
+    {
+      "id": "p59_A3",
+      "printed_page": 59,
+      "source_section": "A3",
+      "source_rows": [
+        "FXFGX XGDAD VAGGG XVGAA GGXDF XGGDX DAVVA GDGGX",
+        "XXADV XVXGV FXFGG XDFXV XG--X DAXDA VDXGF GG-DX",
+        "DXAFV DFFGD VXX-F DXXFG GVAAX XFXDG FGDXD AFFFV",
+        "FGFDD VXXGV GDDAD VDGFV FXDAD XXGFA DA-XF GXG-D",
+        "FGXFD XFV-G FF--- ----- ----- XXXG- GXVFV DGAVV",
+        "VF-XF G---- ----- GFVXX FGGFF GGXGF"
+      ],
+      "source_slots": 230,
+      "advertised_length": 230,
+      "expected_raw": "D?ES?4?FER1E??X???I?EBERGE?E?WUGWE?XF?R?ERBALQIG?T?ANTWIRTA??UNSE?ZNFU??S1RZCH?79??7070V9?15X?XXXGEN?DOX?2XTBXP?47?",
+      "readable_candidate": "DIESEXPFERDEINXPOTIUEBERGEBENWURDENXFERNERBALDIGSTXANTWORTAUFUNSERENFUNKSPRUCH?79??7070V9?15X?XXXGENKDOX?2XTBXP?47?"
+    }
+  ],
+  "headers": {
+    "shared": [
+      "SSD, COS v ASO (07.50 a.m., September 22nd)",
+      "2250 (21.9) 3 TLE"
+    ],
+    "parts": {
+      "p59_A1": "1 TL RICHI-220",
+      "p59_A2": "2 TL RICHI-220",
+      "p59_A3": "3 TL RICHI-230"
+    }
+  },
+  "contextual_unread_records": [
+    {
+      "id": "p59_A1",
+      "source_rows": [
+        "-XXXX XDXGG FADDD XGDXG GAVVG GXXXX AX--D DDGVV",
+        "XXVXA GDFAD VDXDV VVFFG XXGXX DXXXD XGVDD AAVGG",
+        "GVVXG GG-AF -AD-D XXAVX XXXXA -XXXF AFGGA XGFFF",
+        "DDDDD DFDFD XXFXX XXDGD XDFXD VFDAX DAFGV VXXGF",
+        "VGGFF VFXAX VVVVF DD-DA FFAGF XXAAD XGVFX AFFDG",
+        "AFFDD AAGXX AAFVV VXXDG GXGFV"
+      ],
+      "source_slots": 225,
+      "advertised_length": 220,
+      "counted_in_summary": false,
+      "diagnostic_model": "Delete one consecutive block of five observed slots, in each of all221 possible positions, solely to inspect the declared220-coordinate frame. This is not an accepted historical deletion or a complete reading.",
+      "illustrative_deletion_starts": [
+        200,
+        201
+      ],
+      "limits": [
+        "The native225-slot stream is odd and cannot be paired under the standard cipher.",
+        "The literal source and header disagree by five slots; neither is silently corrected.",
+        "Even the illustrative frames retain numerous implausible symbols and an unresolved opening. Their appearance of DAM...FER, PFERDEN and POTI does not establish a unique frame or full message.",
+        "No candidate from this first part enters the catalog or plaintext-position counts."
+      ]
+    }
+  ],
+  "optional_contextual_extension": {
+    "record": "p59_A2",
+    "template": "POTIXVERLADENXDIEFUER7XKAVXBRIGXBESTIMMTXXDAABTEILUNGANDERSHINBEORDERTXDRINGENDDRAHTEODERBRIEFXOBUNDWEMDIESEXX",
+    "assumption": "Read the opaque BRTVE... suffix as BRIEF...OBUNDWEMDIESE, guided by German syntax and the following native third part. This adds substantial observed-coordinate changes and is not independently established.",
+    "counted_in_summary": false,
+    "limit": "The resulting DIESE at the end of A2 and DIESE at the start of A3 are both retained. No repeated word is deleted to manufacture a seamless reading."
+  },
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "c08b1594485bc26cb3d6b635699e3d5c5a5b6846093cf4dfdb8dc54d0d4d6bc4",
+    "key_credit": "Unchanged published Sep19–21 key with original provenance."
+  },
+  "limits": [
+    "Only A2 and A3 are counted as source editions. A1 is complete literal context, without an accepted body reading.",
+    "Main A2 retains its opaque suffix, rather than replacing it with the much more costly contextual hypothesis.",
+    "All eight unresolved A3 reference positions and their full domains remain visible; no historical numerical labels are supplied.",
+    "Raw fixed-position totals measure algebraic domains, not historically correct or linguistically readable characters.",
+    "Exact encryption checks certify the stated editing costs and compatibility, not a unique historical plaintext."
+  ]
+}

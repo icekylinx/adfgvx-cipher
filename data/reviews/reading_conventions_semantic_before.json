@@ -1,0 +1,342 @@
+{
+  "cases/finance/p205_A.md": {
+    "file_sha256": "6151effd70a61aedfb805a682cfbf0aafd0778a82c05ecc20695e9b11d2b477e",
+    "text": "# A request for thirty million kroner\n\n**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.\n\n[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source and verification](../../experiments/corpus_joint/README.md)\n\n**Record:** p205 A, four parts, intercepted on 17 November 1918 with an internal `1600 (16)` time/date. **Result:** the published Nov16–18 partial key fixes **481 of 486 plaintext positions** from all **972 printed coordinates**. The financial instructions are readable; five characters in the closing references remain unknown.\n\n## Most likely reading\n\n**Readable German:**\n\n> Zur Geldanforderung bei OHL: Sendung von dreißig Millionen Kronen angesichts starken Notenmangels nur in Teilbeträgen möglich. Wiener Bankverein, Wien, überweist heute telegraphisch an Oesterr.-Ungarische Bank, Kronstadt, zur Verfügung deutscher Etappenverwaltung zunächst fünf Millionen gemischter Stückelung. Drahtet, ob glatte Auszahlung erfolgte und ob dieser Betrag vorläufig genügt. Sonst anfordert weitere Summe bei General-Kriegskasse, Zweigstelle Berlin. K … BD Nr. 1… Strich 11 B…\n\n**English meaning:** Concerning the request to the Supreme Army Command for money: a shipment of thirty million kroner can only be made in installments because banknotes are in short supply. The Wiener Bankverein in Vienna is transferring an initial five million, in mixed denominations, to the Austro-Hungarian Bank at Kronstadt for the German rear-area administration. The recipient should telegraph whether payment went smoothly and whether the amount is sufficient for the time being; otherwise, further funds should be requested from the General War Treasury's Berlin branch.\n\nWord spacing, punctuation and capitalization are editorial. Three obvious-looking word repairs still require changes to valid printed coordinates: `Z2R → ZUR`, `ETAPPENVWRWALTUNG → ETAPPENVERWALTUNG`, and `BERL2N → BERLIN`. They are kept separate from the raw decipherment. No value is supplied for any of the five unknown closing-reference characters.\n\n## The four parts\n\n| Part | Printed coordinates | Fixed plaintext positions | Direct result and qualification |\n|---|---:|---:|---|\n| A1 | 236 | 118/118 | The thirty-million-kroner request and shortage of notes; begins with literal `Z2R`. |\n| A2 | 304 | 152/152 | Vienna bank, telegraphic transfer, Kronstadt and German administration; literal `ETAPPENVWRWALTUNG`. |\n| A3 | 234 | 117/117 | Initial five million in mixed denominations; asks about payment and sufficiency. No editorial change. |\n| A4 | 198 | 94/99 | Further requests to the General War Treasury's Berlin branch; literal `BERL2N` and five unknown reference characters. |\n\n### Direct decipherment\n\n**Raw output:**\n\n```text\nZ2RXGELDANFORDERUNGXBEIXOHLXSENDUNGXVONXDREISSIGXMILLIONENXKRONENXANGESICHTSXSTARKENXNOTENMANGELSXNURXINXTEILBETRAEGEN\nMOEGLICHXWIENERXBANKVEREINXWIENXUEBERWEISTXHEUTEXTELEGRAPHISCHXANXOESTERRXUNGARISCHEBANKXKRONSTADTXZURXVERFUEGUNGXDEUTSCHERXETAPPENVWRWALTUNGXZUNAECHSTX\nFUENFXMILLIONENXGEMISCHTERXSTUECKELUNGXDRAHTETXOBXGLATTEXAUSZAHLUNGXERFOLGTEXUNDXOBXDIESERXBETRAGXVORLAEUFIGXGEMUEGTX\nSONSTXANFORDERTXWEITEREXSUMMEXBEIXGENERALXKRIEGSKASSEXZWEIGSTELLEXBERL2NXKX?XBDXNRX1???STRICH11XB?X\n```\n\nThe proposed word corrections cost one transmitted-coordinate substitution each: A1 index 162 `V → F`; A2 index 77 `A → G`; A4 index 90 `D → A`. Indices restart at zero for each part. All other printed coordinates are retained. The [certificate](../../experiments/corpus_joint/p205_readings.json) records every character's domain and its source offsets, including the dependencies imposed by one common injective partial square.\n\n## Source assembly and credit\n\nThe four printed parts are reproduced in the [p205 A crop](../../experiments/corpus_joint/sources/p205_A.png). The OCR split A1 after its first eight groups and appended a nonexistent extra unknown character to A4. Joining the source's A1 lines and removing that OCR artifact restores the printed geometries of 236 and 198 coordinates; neither operation deletes a printed coordinate. A2's source group 16 is visibly `FXAFF`, replacing an OCR question mark but retaining the printed `A` that causes the `VWRWALTUNG` garble.\n\nThe historical source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*, printed p. 205, PDF p. 208 in the [complete scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). Its header is `NKJ v LP`, with `FUER UKS` and `O K M HERMANNSTADT`; these routing details do not change the supplied plaintext.\n\nThe period key retains the attribution in [data/keys.json](../../data/keys.json) to **George Lasry** and the historical/research work of **George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker**. Source assembly, review, exact coordinate audit and this edition are by **icekylinx and GPT-6 Astra Pro**. No first historical decipherment priority is claimed.\n\n## Reproduce\n\n```sh\npython3 experiments/corpus_joint/build_readings.py \\\n  experiments/corpus_joint/p205_inputs.json \\\n  experiments/corpus_joint/p205_readings.json --verify\npython3 experiments/corpus_joint/verify_p205.py\n```\n",
+    "headings": [
+      "# A request for thirty million kroner",
+      "## Most likely reading",
+      "## The four parts",
+      "### Direct decipherment",
+      "## Source assembly and credit",
+      "## Reproduce"
+    ],
+    "fences": [
+      {
+        "text": "```text\nZ2RXGELDANFORDERUNGXBEIXOHLXSENDUNGXVONXDREISSIGXMILLIONENXKRONENXANGESICHTSXSTARKENXNOTENMANGELSXNURXINXTEILBETRAEGEN\nMOEGLICHXWIENERXBANKVEREINXWIENXUEBERWEISTXHEUTEXTELEGRAPHISCHXANXOESTERRXUNGARISCHEBANKXKRONSTADTXZURXVERFUEGUNGXDEUTSCHERXETAPPENVWRWALTUNGXZUNAECHSTX\nFUENFXMILLIONENXGEMISCHTERXSTUECKELUNGXDRAHTETXOBXGLATTEXAUSZAHLUNGXERFOLGTEXUNDXOBXDIESERXBETRAGXVORLAEUFIGXGEMUEGTX\nSONSTXANFORDERTXWEITEREXSUMMEXBEIXGENERALXKRIEGSKASSEXZWEIGSTELLEXBERL2NXKX?XBDXNRX1???STRICH11XB?X\n```\n",
+        "sha256": "fe5b3a6820e894368270b529aa463ec45fd33f6b5a28b3e284270729975eb80d"
+      },
+      {
+        "text": "```sh\npython3 experiments/corpus_joint/build_readings.py \\\n  experiments/corpus_joint/p205_inputs.json \\\n  experiments/corpus_joint/p205_readings.json --verify\npython3 experiments/corpus_joint/verify_p205.py\n```\n",
+        "sha256": "290e07f84056a72d0c293a14bd691cc504bb5939c7d4dc847ba81f5d88fc6c4f"
+      }
+    ],
+    "inline_code": [
+      "?",
+      "X",
+      "1600 (16)",
+      "Z2R → ZUR",
+      "ETAPPENVWRWALTUNG → ETAPPENVERWALTUNG",
+      "BERL2N → BERLIN",
+      "Z2R",
+      "ETAPPENVWRWALTUNG",
+      "BERL2N",
+      "V → F",
+      "A → G",
+      "D → A",
+      "FXAFF",
+      "A",
+      "VWRWALTUNG",
+      "NKJ v LP",
+      "FUER UKS",
+      "O K M HERMANNSTADT"
+    ]
+  },
+  "cases/p187b.md": {
+    "file_sha256": "6972219ae6bd149b9d0e70848222fb7c54c3972cf45cb8738e4b954bbdf9affb",
+    "text": "# p187b — Teleprinter failure and written reporting\n\n**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.\n\n[Case index](README.md) · [ADFGVX Cipher](../README.md)\n\n**Status:** Earlier joint key recovery verified; a single adjacent-coordinate swap explains two prior editorial word corrections. The incomplete ending remains unresolved. **Key:** `CHI-Nov13`.\n\n**Earliest credited record:** [George Lasry, 2017-05-03, comment 50](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878059). **Current source and arithmetic review:** icekylinx and GPT-6 Astra Pro, 2 November 2026.\n\nNorbert proposed the shared-key attack in comment 49; George Lasry recovered the key in comment 50; Norbert refined the labels in comment 53.\n\n## Most likely reading\n\n**Readable German — earlier word normalization explained by the separately costed swap:**\n\n> Soweit Fernschreiber-Verbdg. [nicht arbeitet], Rest schriftlich. Nachchef [?] […]\n\n**Meaning:** Where the teleprinter connection is not working, provide the remainder in writing. The closing designation or reference beginning `NACHCHEF` remains incomplete.\n\n**Notes:** `Verbdg.` abbreviates “connection.” Norbert normalized the raw `NITHT ARBEICET` to `NICHT ARBEITET` in 2017. The new coordinate audit below explains both changes with one adjacent swap. The seven unresolved ending positions are retained in full; no digit assignments are inferred from their administrative appearance. This continues the communications instruction in [p187](p187.md).\n\n## Recomputed reading\n\nVariant `audited_CHI_direct`: No received-coordinate edits; only directly attested substitution cells are used.\n\n**Raw output — recomputed direct CHI reading; attested cells only:**\n\n```text\nSOWEITFERNSCHREIBERVERBDGNITHTARBEICETXRESTSCHRIFTLICHXNACHCHEF?X??????\n```\n\n## Conditional adjacent-swap repair\n\nThe printed 26th group is **`VDFAD`**. Swapping its last two coordinates gives\n**`VDFDA`** and restores both previously proposed words:\n\n![Original p187 A2 second part, with VDFAD in the bottom row](../sources/excerpts/childs_p187_A2_swap.png)\n\n**Edited output — conditional adjacent-coordinate swap; unresolved ending retained:**\n\n```text\nSOWEITFERNSCHREIBERVERBDGNICHTARBEITETXRESTSCHRIFTLICHXNACHCHEF?X??????\n```\n\nOnly received indices **128 and 129** change (`AD` → `DA`, zero-based).\nAll other **140 coordinates**, the coordinate counts, key and square remain\nunchanged. These map to plaintext position 27 (`T` → `C`) and 35 (`C` → `T`).\nThe reading still has **64/71 fixed positions**; this repair resolves two\nword garbles, not the unknown ending.\n\nThe [exhaustive adjacent-swap audit](../experiments/p187b_adjacent_swap/README.md)\nchecks all 141 such operations and finds exactly this one for the stated\npartial reading. The historical cause of the reversal is unknown. The raw\nsource remains unaltered, and Norbert retains credit for the normalized words.\n\n## Review\n\n- Norbert first proposed the shared-key attack in comment 49 on 2017-04-30; George Lasry recovered the key in comment 50 on 2017-05-03; Norbert refined symbol labels in comment 53 the same day.\n- The two received texts contain 354 coordinates, 177 plaintext slots. The initial combined publication has 173 letters and incorrectly describes 356 coordinates; four ending slots are not covered by that published string.\n- Fourteen square cells remain unassigned. In particular j/x labels were suggested to be digits, not proved to be 0/01.\n\n## Earlier published readings\n\n**Initial substitution labels — [George Lasry, 2017-05-03, comment 50](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878059).**\n\n**Earlier attributed reading:**\n\n```text\nSOWEITFERNSCHREIBERVERBDMNITHTARBEICETKRESTSCHRIFTLICHKNACHCHEFJKJX\n```\n\n**Refined partial substitution labels — [Norbert, 2017-05-03, comment 53](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878079).**\n\n**Earlier attributed reading:**\n\n```text\nSOWEITFERNSCHREIBERVERBDGNITHTARBEICETXRESTSCHRIFTLICHXNACHCHEF?X??\n```\n\n**Editorial normalization — [Norbert, 2017-05-03, comment 53](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-878079).**\n\n**Earlier attributed reading:**\n\n```text\nSOWEITFERNSCHREIBERVERBDGNICHTARBEITETXRESTSCHRIFTLICHXNACHCHEF?X??\n```\n\nPublished length 67; model length 71.\n\n## Verified variants\n\n| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |\n|---|---:|---|---|\n| `audited_CHI_direct` | 64 / 71 | — | Partial |\n\nSource strings, edit positions, plaintext domains and attribution are retained in [the prior-reading certificate](../data/prior_readings.json). Re-encryption checks the stated reconstruction, including any conjectural repairs.\n\nThe [p186 source and suffix audit](../experiments/source_followup/README.md#p186-the-ending-cannot-be-copied-unchanged) retains two questionable glyphs as unknown. All nine one-character deletions from its longer suffix still fail to match this suffix under injective square completion; its numeral `1` cannot simply be transferred here.\n",
+    "headings": [
+      "# p187b — Teleprinter failure and written reporting",
+      "## Most likely reading",
+      "## Recomputed reading",
+      "## Conditional adjacent-swap repair",
+      "## Review",
+      "## Earlier published readings",
+      "## Verified variants"
+    ],
+    "fences": [
+      {
+        "text": "```text\nSOWEITFERNSCHREIBERVERBDGNITHTARBEICETXRESTSCHRIFTLICHXNACHCHEF?X??????\n```\n",
+        "sha256": "37a7cafee215ba37c994fa94bae5487ba80977b0d056b71da28100d499e49bf2"
+      },
+      {
+        "text": "```text\nSOWEITFERNSCHREIBERVERBDGNICHTARBEITETXRESTSCHRIFTLICHXNACHCHEF?X??????\n```\n",
+        "sha256": "033e78d64c71cf35235f3163d611f3482bc6f873340f1c3eec0032bd92f9d42a"
+      },
+      {
+        "text": "```text\nSOWEITFERNSCHREIBERVERBDMNITHTARBEICETKRESTSCHRIFTLICHKNACHCHEFJKJX\n```\n",
+        "sha256": "2b22371e7db0020c7651dc0fa7fa2bde7add026b5c7d1a2c58fd8d02632ffa3e"
+      },
+      {
+        "text": "```text\nSOWEITFERNSCHREIBERVERBDGNITHTARBEICETXRESTSCHRIFTLICHXNACHCHEF?X??\n```\n",
+        "sha256": "b72aefc04ff303fcb336c5bd363f1b837494572acb6e4a2bcb69c4c86a5aa0e9"
+      },
+      {
+        "text": "```text\nSOWEITFERNSCHREIBERVERBDGNICHTARBEITETXRESTSCHRIFTLICHXNACHCHEF?X??\n```\n",
+        "sha256": "5305608544de0e1193d8c9b99e1752628b6285d7fe8c681650a3603b2d1bd93b"
+      }
+    ],
+    "inline_code": [
+      "?",
+      "X",
+      "CHI-Nov13",
+      "NACHCHEF",
+      "Verbdg.",
+      "NITHT ARBEICET",
+      "NICHT ARBEITET",
+      "audited_CHI_direct",
+      "VDFAD",
+      "VDFDA",
+      "AD",
+      "DA",
+      "T",
+      "C",
+      "C",
+      "T",
+      "audited_CHI_direct",
+      "1"
+    ]
+  },
+  "cases/finance/zitag_purchase_orders.md": {
+    "file_sha256": "8da252fadbd6897c7a983bc8224a356faa113fe0ebb81bd9998f0105d14d3bdd",
+    "text": "# ZITAG stop-orders and cancellation of procurement contracts\n\n**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.\n\n**Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,\nprinted pp102, 103 and 106, PDF pp105, 106 and 109. **Edition:** icekylinx\nand GPT-6 Astra Pro. The [experiment](../../experiments/zitag_purchase_orders/README.md)\ncontains the exact crops, literal coordinates, key provenance and repair\ncertificates.\n\nThree 180-coordinate messages are almost identical copies of a short\nstop-order. A separate two-part message on p103 deals with a request for\nrubles, permits loading already paid consignments, orders cancellation\nof other contracts and asks again for Westernhagen's prompt return.\nThe two orders have different scopes and are not merged into one text.\n\nAll five records use the unchanged published Nov1–3 square and ranks.\nThere are no geometry changes or newly assigned key cells.\n\n## p102 A\n\nThe source heading is 1 November 1918; the receipt header says November 2\nwithout a time. It addresses the Prussian War Ministry representative\nat Constantinople. All **180 coordinates** are observed. The raw reading is:\n\n**Raw output:**\n\n```text\nFUERXZITAGVOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSIVHERNXZITAG\n```\n\nThe common readable candidate replaces source coordinates **29 G→X**\nand **55 G→D**. Both replacements are observed in the other copies.\n\n## p103 D\n\nHeader: `OSM v LP (7.08 a.m., November 2nd); 2210 (1/11)`, with the same\nWar Ministry representative addressee. The source prints the different\nforms `VFFAX` and `FDGAG`; neither is silently changed in the transcript.\nIts raw **90-character** reading is:\n\n**Raw output:**\n\n```text\nFUERXZITAGXOENENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG\n```\n\nOnly **source index 162 G→F** is changed for the common candidate,\nrepairing `OENE` to `OHNE`. Both other copies witness that coordinate.\n\n## p106 B\n\nHeader: `NKJ v LP (8.11 p.m., November 2nd); 1/11 2210`, again with the\nsame addressee. The printed group `XGGGG` has five characters; the earlier\nOCR form `XXGGGG` was not an actual extra source coordinate. The raw body is:\n\n**Raw output:**\n\n```text\nFUERXZITAGVOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG\n```\n\nThe common candidate changes only **source index 29 G→X**, witnessed by\np103 D. The three literal copies differ at exactly three source positions:\n\n| Source index | p102 A | p103 D | p106 B | Candidate |\n|---:|---|---|---|---|\n| 29 | G | X | G | X |\n| 55 | G | D | D | D |\n| 162 | F | G | F | F |\n\nThe candidate is:\n\n**Edited output:**\n\n```text\nFUERXZITAGXOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG\n```\n\nWith editorial spacing:\n\n**Readable German:**\n\n> Für Zitag. Ohne Nummer. Nichts weiter kaufen und nichts weiter verladen. Alles möglichst sichern. Zitag.\n\nEvery candidate coordinate has an observed witness. This supports a\ncommon original but does not prove which printed version is closest to\nthe transmission. In particular, the `X` at index 29 is a minority\nreading selected for its ordinary wording, not by majority vote.\n\n## p103 B1\n\nThis separate message has header `FÜR COS v NKJ (0.43 a.m., November 3rd)`\nand `HPTM WESTGRNHAGEN ODER KARL MÜLLER DTSCH WIRTSCHAFTS ABTLG;\n1845 (1) 2 TLE`. B1 advertises and prints **274 coordinates**. Its last\ngroup is the observed four-letter `DXGV`; the five-slot OCR version\npreviously spoiled its frame.\n\nThe source-aligned raw reading is:\n\n**Raw output:**\n\n```text\nDEUTSCHKAUFDRAHTETNRX5XXBEXTAETIQEN4TEWEGRXINDEDENBESCHAFBUNG6MILLIONENRUBE1ERSUCHGXXERLEDIGTDURCHUNSERTELEGRXNRX3XDASSNUR5EREITSBEZAHLTE\n```\n\nThe explicit ordinary-word candidate is:\n\n**Edited output:**\n\n```text\nDEUTSCHKAUFDRAHTETNRX5XXBESTAETIGENXTELEGRXINDENENBESCHAFFUNG6MILLIONENRUBELERSUCHTXXERLEDIGTDURCHUNSERTELEGRXNRX3XDASSNURBEREITSBEZAHLTE\n```\n\nIt costs **10 observed-coordinate substitutions** and no fills. Its nine\nchanged plaintext positions are all listed in the certificate, including\nthe inconvenient raw digits within damaged words. `TELEGR` remains an\nabbreviation. No absent preposition, article or additional word is\ninserted to regularize the syntax.\n\nThe separate fields `NR X 5`, `6 MILLIONEN` and `NR X 3` are unchanged,\nwith complete observed pairs. They are retained as raw square labels;\nthe edition does not infer a new numerical map from a plausible amount.\n\n## p103 B2\n\nThe second part advertises and prints **254 slots**. The first group is\n`GG-VF`, source group `FCXGD` contains an invalid `C`, and a later group is\n`AVG-G`. The raw text is:\n\n**Raw output:**\n\n```text\nPARTIENVERLADENWERDENSOL?ENXSTORNIERETSAEMTLXA?DEREKONTRAKTE?EGENALLGEMEINERLAGEXERSUCHENWESTERNHAGENNOCHMALSSOFORTIGERUECKKEHR\n```\n\nThe candidate fills those three printed erasures and changes no observed\ncoordinate:\n\n**Edited output:**\n\n```text\nPARTIENVERLADENWERDENSOLLENXSTORNIERETSAEMTLXANDEREKONTRAKTEWEGENALLGEMEINERLAGEXERSUCHENWESTERNHAGENNOCHMALSSOFORTIGERUECKKEHR\n```\n\nContinuing B1 with editorial spacing:\n\n**Readable German — continuation excerpt; the preceding words are outside this display:**\n\n> … dass nur bereits bezahlte Partien verladen werden sollen. Stornieret sämtl. andere Kontrakte wegen allgemeiner Lage. Ersuchen Westernhagen nochmals sofortiger Rückkehr.\n\nThe received form `STORNIERET` and the telegraphic wording of the final\nrequest are preserved. `WESTERNHAGEN` is complete in the uncorrected\nplaintext. The heading's different `WESTGRNHAGEN` form is kept literally,\nand no particular person is identified from the name alone.\n\n## Scope and attribution\n\nThe short copies and B2 were already present as readable but unreviewed\nrepository screen candidates. B1 had a degraded candidate under the\nwrong OCR length. Their prior bodies are frozen in the inputs file.\nThe source edition adds precise transcription, frame correction,\ncross-copy evidence and reversible edits. A bounded check of the paper,\ndissertation chapter and cached 55-comment thread located no explicit\ndiscussion of these bodies; that does not establish first decipherment.\n\nTogether the five records contain **1,068 source slots**, **1,065 valid\ncoordinates** and **534 plaintext positions**. The raw models fix 531\npositions; the explicit candidates fix all 534. Total cost is 14 observed\ncoordinate substitutions plus three printed-erasure fills. These are\nedition coverage figures, not a count of newly solved cryptographic\nsymbols. Neither the stop-order nor the cancellation request proves\nthat the requested action was carried out.\n\n```bash\npython experiments/zitag_purchase_orders/verify.py --verify\npython experiments/zitag_purchase_orders/verify.py --verify --pdf /path/to/childs.pdf\n```\n",
+    "headings": [
+      "# ZITAG stop-orders and cancellation of procurement contracts",
+      "## p102 A",
+      "## p103 D",
+      "## p106 B",
+      "## p103 B1",
+      "## p103 B2",
+      "## Scope and attribution"
+    ],
+    "fences": [
+      {
+        "text": "```text\nFUERXZITAGVOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSIVHERNXZITAG\n```\n",
+        "sha256": "66b569606121a7034b0c61b64263d3a2716eba5ea350dd4e396385779533c404"
+      },
+      {
+        "text": "```text\nFUERXZITAGXOENENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG\n```\n",
+        "sha256": "4eb00b9130321517494881baf8a7c2d1f4e7b1c591507bffdada61177e1ac11d"
+      },
+      {
+        "text": "```text\nFUERXZITAGVOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG\n```\n",
+        "sha256": "ebcdbeedab55b9679243ed96762bc289e3f425a57b2932fc98b51be9791487dd"
+      },
+      {
+        "text": "```text\nFUERXZITAGXOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG\n```\n",
+        "sha256": "d8e19f1d6dc7f883f8384c1bd8ffc7e6c1c4bb9bba3b637ed99cde00ee62b53d"
+      },
+      {
+        "text": "```text\nDEUTSCHKAUFDRAHTETNRX5XXBEXTAETIQEN4TEWEGRXINDEDENBESCHAFBUNG6MILLIONENRUBE1ERSUCHGXXERLEDIGTDURCHUNSERTELEGRXNRX3XDASSNUR5EREITSBEZAHLTE\n```\n",
+        "sha256": "cddedaf2f5d3956c5f435d26f4ff95b380a43f5f7b635d464c239b44e4907a19"
+      },
+      {
+        "text": "```text\nDEUTSCHKAUFDRAHTETNRX5XXBESTAETIGENXTELEGRXINDENENBESCHAFFUNG6MILLIONENRUBELERSUCHTXXERLEDIGTDURCHUNSERTELEGRXNRX3XDASSNURBEREITSBEZAHLTE\n```\n",
+        "sha256": "bb3d6fb84905fe55360ef6d8411c037fbcd2334763e322fced286bb9f982de6d"
+      },
+      {
+        "text": "```text\nPARTIENVERLADENWERDENSOL?ENXSTORNIERETSAEMTLXA?DEREKONTRAKTE?EGENALLGEMEINERLAGEXERSUCHENWESTERNHAGENNOCHMALSSOFORTIGERUECKKEHR\n```\n",
+        "sha256": "cbc1de8b9675a379d7da273dbd84f7c53141435f4cedffa2b2ea6b2fb5a4f6c9"
+      },
+      {
+        "text": "```text\nPARTIENVERLADENWERDENSOLLENXSTORNIERETSAEMTLXANDEREKONTRAKTEWEGENALLGEMEINERLAGEXERSUCHENWESTERNHAGENNOCHMALSSOFORTIGERUECKKEHR\n```\n",
+        "sha256": "7e49f796c7f1c0f64fa57210c21a04280bb60e12d3ab2b5b12789aba3f7a2515"
+      },
+      {
+        "text": "```bash\npython experiments/zitag_purchase_orders/verify.py --verify\npython experiments/zitag_purchase_orders/verify.py --verify --pdf /path/to/childs.pdf\n```\n",
+        "sha256": "db567c2d3fe33bf44dd0ba8b9f3597dd8f58234b167eb07e7bd9fdc25abd5662"
+      }
+    ],
+    "inline_code": [
+      "?",
+      "X",
+      "OSM v LP (7.08 a.m., November 2nd); 2210 (1/11)",
+      "VFFAX",
+      "FDGAG",
+      "OENE",
+      "OHNE",
+      "NKJ v LP (8.11 p.m., November 2nd); 1/11 2210",
+      "XGGGG",
+      "XXGGGG",
+      "X",
+      "FÜR COS v NKJ (0.43 a.m., November 3rd)",
+      "DXGV",
+      "TELEGR",
+      "NR X 5",
+      "6 MILLIONEN",
+      "NR X 3",
+      "GG-VF",
+      "FCXGD",
+      "C",
+      "AVG-G",
+      "STORNIERET",
+      "WESTERNHAGEN",
+      "WESTGRNHAGEN"
+    ]
+  },
+  "cases/military/dobrudscha_report.md": {
+    "file_sha256": "e7d069e31d19460c58fc61e262e87ce4c81174b9f9ad058b8be0b5c0d6c39fde",
+    "text": "# Request for a position on a Dobrudscha report\n\n**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.\n\n**Source edition and verification: icekylinx and GPT-6 Astra Pro.**\n\nChilds p142 C asks for a response to an Entente report of renewed Romanian\noccupation of the Dobrudscha. The message is addressed to the literal\n`N.O. MACKENSEN` field and closes with `ABT FREMDE HEERE`. This edition\nrecovers the report's wording; it does not independently establish the\nmilitary event or expand the abbreviated addressee's office.\n\n## Source and reading\n\nThe primary source is J. Rives Childs, *General Solution of the ADFGVX Cipher\nSystem*, [printed p142, PDF p145](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).\nThe [C crop](../../experiments/radio_contacts_and_keys/sources/childs_p142_C.png)\nis under a November 6 heading:\n\n**Source transcription — clear header and/or literal source record:**\n\n```text\nC) NKJ v LP (09.00 p.m., November 6th)\nFUER UKS 1915 (6/11)\nRICHI-242\n```\n\nThe 242-slot source contains two printed dashes. The unchanged published\n`Nov4-6` key fixes 119 of 121 raw positions:\n\n**Raw output:**\n\n```text\n?NXNXOXMACKENSENXENTENTEMELDETX5011XERNEUTRUMAENISCHE?ESETZUNGDERXDOBRU2SCHAXSTELLUNGSNAHMEERBETENXABTXFREMDEHEERED17U560\n```\n\nOne known-coordinate substitution and two dash fills give:\n\n**Edited output:**\n\n```text\nANXNXOXMACKENSENXENTENTEMELDETX5011XERNEUTRUMAENISCHEBESETZUNGDERXDOBRUDSCHAXSTELLUNGSNAHMEERBETENXABTXFREMDEHEERED17U560\n```\n\nReadable core, with the reference retained literally:\n\n**Readable German:**\n\n> An N.O. Mackensen. Entente meldet `5011` erneut rumänische Besetzung\n> der Dobrudscha. Stellungnahme erbeten. Abt. Fremde Heere `D17U560`.\n\nThe numerical/reference labels **`5011`** and **`D17U560`** remain as read.\nThey are not normalized into dates or message numbers. The raw `2` within\n`DOBRU2SCHA` is retained in the raw reading and explicitly repaired locally\nto `D`; this does not reassign the square's digit `2`.\n\n| Source index, zero-based | Printed group / position, one-based | Change | Treatment |\n| ---: | --- | --- | --- |\n| 8 | 2 / 4 | `G` → `F` | Known-coordinate substitution: `2` → `D` in the place name |\n| 34 | 7 / 5 | printed dash → `V` | Source-erasure fill: `B` in `BESETZUNG` |\n| 84 | 17 / 5 | printed dash → `V` | Source-erasure fill: initial `A` in `AN` |\n\nThe source length, transposition and full published square are unchanged.\nThe [certificate](../../experiments/radio_contacts_and_keys/certificates.json)\nincludes every source-coordinate origin and the exact reconstructed witness.\n\n```sh\npython experiments/radio_contacts_and_keys/verify.py --verify\n```\n\nThe key is prior work by **George Lasry, Ingo Niebel, Nils Kopal and Arno\nWacker**, [DOI 10.1080/01611194.2016.1169461](https://doi.org/10.1080/01611194.2016.1169461),\nwith provenance in the [inputs](../../experiments/radio_contacts_and_keys/inputs.json).\nEarlier unreviewed OCR-derived candidates existed. The bounded paper review\ndoes not establish universal first-decipherment priority; exact arithmetic\ndoes not prove unique historical wording or independent truth of the report.\n",
+    "headings": [
+      "# Request for a position on a Dobrudscha report",
+      "## Source and reading"
+    ],
+    "fences": [
+      {
+        "text": "```text\nC) NKJ v LP (09.00 p.m., November 6th)\nFUER UKS 1915 (6/11)\nRICHI-242\n```\n",
+        "sha256": "77bdafa553ab4f171820ad5dfa259468ee9421974d3bf0bc13800d92ab5f9286"
+      },
+      {
+        "text": "```text\n?NXNXOXMACKENSENXENTENTEMELDETX5011XERNEUTRUMAENISCHE?ESETZUNGDERXDOBRU2SCHAXSTELLUNGSNAHMEERBETENXABTXFREMDEHEERED17U560\n```\n",
+        "sha256": "d2f2b15424938033e748e8f7eddd67065078619a30adca13c317879f115e99c8"
+      },
+      {
+        "text": "```text\nANXNXOXMACKENSENXENTENTEMELDETX5011XERNEUTRUMAENISCHEBESETZUNGDERXDOBRUDSCHAXSTELLUNGSNAHMEERBETENXABTXFREMDEHEERED17U560\n```\n",
+        "sha256": "edfbc1d339d673332b85f2dcfb3e4d0114507de410705e8af0b347cc98420b1c"
+      },
+      {
+        "text": "```sh\npython experiments/radio_contacts_and_keys/verify.py --verify\n```\n",
+        "sha256": "3e6fc59127766ebe4f00578612edeeea508ef16ceec620eaa658c49a259c94c3"
+      }
+    ],
+    "inline_code": [
+      "?",
+      "X",
+      "N.O. MACKENSEN",
+      "ABT FREMDE HEERE",
+      "Nov4-6",
+      "5011",
+      "D17U560",
+      "5011",
+      "D17U560",
+      "2",
+      "DOBRU2SCHA",
+      "D",
+      "2",
+      "G",
+      "F",
+      "2",
+      "D",
+      "V",
+      "B",
+      "BESETZUNG",
+      "V",
+      "A",
+      "AN"
+    ]
+  },
+  "cases/military/p201_p206_orders.md": {
+    "file_sha256": "a1fd14b536ab934f571769d7abb02e09bf040420b509e7dac745de7a12eb0dbe",
+    "text": "# p201 B / p206 A — reporting orders linked by a shared reference\n\n**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.\n\n[Case guide](../README.md) · [ADFGVX Cipher](../../README.md)\n\n**Status:** Two complete multipart messages are assembled from the source:\na two-part reporting order on p201 and a three-part request for receipt\nconfirmation on p206. The unchanged published `Nov16-18` partial key fixes\n**660 of 702 plaintext positions** from **1,404 source coordinate slots**.\nTheir matching number pattern and subject support a **conditional new digit\nassignment, VA = 5**. The published square remains unchanged.\n**Source assembly and analysis:** icekylinx and GPT-6 Astra Pro. Period-key\nrecovery retains [the catalogued attribution](../../data/keys.json).\n\n## Reporting order on p201\n\n**Readable German:**\n\n> Erreichte Ziele regelmaessig hierher melden, desgl. wo u. wann erste\n> Teile voraussichtlich die deutsche Grenze erreichen werden, ob mit\n> Bahn/Fussmarsch und welche Teile des sind. Empfang bestaetigen. OHL.\n\n**Meaning:** Report reached positions regularly, and say where and when the\nfirst units are expected to reach the German border, whether by rail or on\nfoot, and which units they are. Acknowledge receipt.\n\nThe source has the awkward `DESSIND`; this is retained in the German reading\nabove. The English translation conveys the sentence's apparent meaning\nwithout claiming that its spelling is recovered differently. `WERD?N` is\nshown as `werden` using one explicitly costed source-coordinate correction.\n\nThe full raw readings are:\n\n**Raw output — two separately identified source parts:**\n\n```text\np201 B1:\nERREICHTEZIELEREGELMAESSIGHIERHERMELDENDESGLXWOUXWANNERSTENTEILEVORAUSSICHTLICHDIEDEUTSCHEGRENZEERREICHEN\n\np201 B2:\nWERD?NOBMITBAHNFUSSMARSCHUNDWELCHETEILEDESSINDEMPFANGBESTAETIGENXOHLXNMX1XAX11??2XGEHXOPX\n```\n\nThe p201 [source crop](../../experiments/open_targets_continuation/sources/childs_p201_selected.png)\nshows a **16 November** heading and receipt, while the clear internal origin\nstamp says **`OHL OP 15/11`**:\n\n**Source transcription — clear header and/or literal source record:**\n\n```text\nNKJ, UKS, RAT v LP (3.49 p.m., November 16th)\n1205 (16) SSD OHL OP 15/11 OKM HERMANNSTADT 2 TLE (16)\n1 TL: RICHI-210\n2 TL: RICHI-178\n```\n\nAll 388 printed coordinates are valid. In part 2, `WERD?N` uses the unknown\ncell `GG` at its fifth letter; the established `E` is in `AG`. Source index\n**169: G→A** restores `WERDEN`. Assigning that unknown cell to `E` instead\nwould violate the square's existing injectivity. The raw footer `NMX` and\nthe reference's two unknown digits are not normalized.\n\n## The three-part confirmation request on p206\n\nThe later message asks OKM to confirm immediately whether seven earlier\norders arrived. It identifies the subject of each: the departure order,\nreporting intentions, destructions, refusal to surrender weapons,\nnegotiations with Romania, the armistice, and reporting reached positions.\nIt then demands immediate reports of the divisions' locations and\nacknowledgment of the present order.\n\nThe [p206 source](../../experiments/open_targets_continuation/sources/childs_p206_selected.png)\nhas an **18 November** heading and internal stamp but a **19 November** receipt:\n\n**Source transcription — clear header and/or literal source record:**\n\n```text\nZON v LP (06.28 a.m., November 19th)\n2100 (11/18) 3 TEILE\n1 TL: RICHI-368\n2 TL: RICHI-400\n3 TL: RICHI-248\n```\n\nThe first OCR block ended after 40 coordinates, before the printed `RICHI`\nlabel. Rejoining the two visually continuous source rows restores the\ncomplete 368-slot first part. The third part has exactly its stated 248\nslots; the earlier OCR's extra character is not part of the printed source.\nThese are transcription/layout corrections, not hypothetical historical\ninsertions or deletions.\n\n| Part | Source slots | Directly fixed plaintext | Separately proposed body repairs |\n| --- | ---: | ---: | --- |\n| A1 | 368 | 175/184 | Two erasure fills in `BETR` and `BEFEHL`. |\n| A2 | 400 | 179/200 | Six erasure fills in words/separators; one erased coordinate in a number remains unresolved. |\n| A3 | 248 | 115/124 | Four erasure fills; two known-coordinate substitutions for `DMR→DER` and `EXPFANG→EMPFANG`. |\n\nThe first part retains an overtyped, unclear coordinate as `?`; visible dashes\nremain erasures. The third part's repeated `BEFEHLSBEFEHLS` is retained rather\nthan silently shortened. Its final reference begins with a directly decoded\n`J`; this is not replaced with a guessed `1`.\n\n## The shared reference and conditional digit 5\n\nThe p201 order ends with the number `11??2`. The seventh p206 reference also\nhas `11??2`, followed by the subject `BEFEHL ERREICHTE ZIELE MELDEN`.\nTheir number is identical at the square-cell level:\n\n| Position in five-character reference | p201 B2 digraph | p206 A2 digraph | Published-key reading |\n| ---: | :---: | :---: | :---: |\n| 0 | VX | VX | 1 |\n| 1 | VX | VX | 1 |\n| 2 | FA | FA | ? |\n| 3 | VV | VV | ? |\n| 4 | DV | DV | 2 |\n\nThe unknown number positions are therefore shared variables, not four\nindependent guesses. The matching body subject further supports identifying\nthe seventh reference with the p201 order.\n\nThe referenced date on p206 is `1{VA}.11`. If the clear p201 origin stamp\n`OHL OP 15/11` is the date of that same order, **VA must contain 5**.\nThis assigns zero-based square cell **24**. It changes no source coordinate\nand is independent of the [p204 calendar inference](../radio/p204_A.md).\n\nThe link remains conditional on the identification of the order and the\ncorrect copying of its date and reference. An equal partly unknown number\nalone would not prove that two documents concern the same order; the matching\nsubject and explicit source date are why the inference is recorded here.\nNo unrestricted completion of the remaining square cells is claimed.\n\n## Reference list under the two explicit inferences\n\nThe following display applies **VA = 5** from the order link and **FD = 8**\nfrom p204's Monday date. Other unknown cells and erasures stay unknown:\n\n| Reference | Conditional number | Conditional date | Directly readable subject |\n| ---: | --- | --- | --- |\n| 1 | `11212` | `?.11` | `ABMARSCHBEFEHL` — departure order |\n| 2 | `1125?` | `?.11` | `BEFEHL ABSICHTEN ZU MELDEN` — report intentions |\n| 3 | `11?2?` | `8.11` | `ZERSTOERUNGEN` — destructions |\n| 4 | `11???` | `8.11` | `ABLEHNUNG DER WAFFENABGABE` — refusal to surrender weapons |\n| 5 | `11???` | `8.11` | `VERHANDLUNGEN MIT RUMAENIEN` — negotiations with Romania |\n| 6 | `11???` | `1?.11` | `WAFFENSTILLSTAND` — armistice |\n| 7 | `11??2` | `15.11` | `BEFEHL ERREICHTE ZIELE MELDEN` — report reached positions |\n\nThe date order in this list is not used as an additional constraint. The\nother serial numbers are not forced into an assumed numerical sequence.\n\nAcross p204 and the three p206 parts, the two assignments jointly add **seven\nfixed positions** under the stated assumptions. They also fix exactly one\nposition in the separately audited [p205 financial message](../finance/p205_A.md):\npart A4's plaintext index **86** becomes `5`, turning `NRX1???STRICH11` into\n`NRX1??5STRICH11`. The p205 source package and base reading remain unchanged.\nIts other unknown reference cells then share the remaining digit domain\n`034679`; they are not independently chosen.\n\n## Verify\n\nThe [input package](../../experiments/open_targets_continuation/inputs.json)\ncontains every source row and historical assumption. The\n[certificate](../../experiments/open_targets_continuation/certificates.json)\nchecks both number patterns cell by cell, all source-to-plaintext offsets,\neach editorial cost and every consequence of the conditional square.\n\n```sh\npython3 experiments/open_targets_continuation/verify.py --verify\n```\n\nThis is an edition and a qualified key inference by **icekylinx and GPT-6 Astra Pro**,\nusing the published period key. No first-decipherment priority is claimed for\nthese supplementary messages.\n",
+    "headings": [
+      "# p201 B / p206 A — reporting orders linked by a shared reference",
+      "## Reporting order on p201",
+      "## The three-part confirmation request on p206",
+      "## The shared reference and conditional digit 5",
+      "## Reference list under the two explicit inferences",
+      "## Verify"
+    ],
+    "fences": [
+      {
+        "text": "```text\np201 B1:\nERREICHTEZIELEREGELMAESSIGHIERHERMELDENDESGLXWOUXWANNERSTENTEILEVORAUSSICHTLICHDIEDEUTSCHEGRENZEERREICHEN\n\np201 B2:\nWERD?NOBMITBAHNFUSSMARSCHUNDWELCHETEILEDESSINDEMPFANGBESTAETIGENXOHLXNMX1XAX11??2XGEHXOPX\n```\n",
+        "sha256": "82a7c5aff8c8619c50a52ec5a5d017830ecd62531ab494b5eaf3651f422da601"
+      },
+      {
+        "text": "```text\nNKJ, UKS, RAT v LP (3.49 p.m., November 16th)\n1205 (16) SSD OHL OP 15/11 OKM HERMANNSTADT 2 TLE (16)\n1 TL: RICHI-210\n2 TL: RICHI-178\n```\n",
+        "sha256": "b46997b36d1813137310458b564ce82b0d6e0bbe1498e124f57e41013d47c0e1"
+      },
+      {
+        "text": "```text\nZON v LP (06.28 a.m., November 19th)\n2100 (11/18) 3 TEILE\n1 TL: RICHI-368\n2 TL: RICHI-400\n3 TL: RICHI-248\n```\n",
+        "sha256": "6b6716104566e0b54b4bd479e0b3c59db196d1a106c7ef1de0f6c567aba7fa9d"
+      },
+      {
+        "text": "```sh\npython3 experiments/open_targets_continuation/verify.py --verify\n```\n",
+        "sha256": "bf4fc6777891787cb3485935eac4a6d34931d9a2c174e760283cea597822baaf"
+      }
+    ],
+    "inline_code": [
+      "?",
+      "X",
+      "Nov16-18",
+      "DESSIND",
+      "WERD?N",
+      "werden",
+      "OHL OP 15/11",
+      "WERD?N",
+      "GG",
+      "E",
+      "AG",
+      "WERDEN",
+      "E",
+      "NMX",
+      "RICHI",
+      "BETR",
+      "BEFEHL",
+      "DMR→DER",
+      "EXPFANG→EMPFANG",
+      "?",
+      "BEFEHLSBEFEHLS",
+      "J",
+      "1",
+      "11??2",
+      "11??2",
+      "BEFEHL ERREICHTE ZIELE MELDEN",
+      "1{VA}.11",
+      "OHL OP 15/11",
+      "11212",
+      "?.11",
+      "ABMARSCHBEFEHL",
+      "1125?",
+      "?.11",
+      "BEFEHL ABSICHTEN ZU MELDEN",
+      "11?2?",
+      "8.11",
+      "ZERSTOERUNGEN",
+      "11???",
+      "8.11",
+      "ABLEHNUNG DER WAFFENABGABE",
+      "11???",
+      "8.11",
+      "VERHANDLUNGEN MIT RUMAENIEN",
+      "11???",
+      "1?.11",
+      "WAFFENSTILLSTAND",
+      "11??2",
+      "15.11",
+      "BEFEHL ERREICHTE ZIELE MELDEN",
+      "5",
+      "NRX1???STRICH11",
+      "NRX1??5STRICH11",
+      "034679"
+    ]
+  },
+  "cases/supplementary/p89_A2.md": {
+    "file_sha256": "8ffcdaf388a6175903f74d23b3ea30f9ed911792b71d64d752317e7801df4090",
+    "text": "# p89_A2 — supplementary source review\n\n**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.\n\n[Case index](../README.md) · [ADFGVX Cipher](../../README.md)\n\n**Original reading:** [Ayush Agarwal (@AyushAg1002), 2026-10-28](https://github.com/dbourdeau/cyphersolver/issues/181). **Current image and arithmetic review:** icekylinx and GPT-6 Astra Pro, 2 November 2026.\n\nThis record belongs to the wider Childs corpus and is outside the original 22-entry challenge.\n\nA continuation about port capacity and routing ships to Nikolayev in view of the railway situation; Captain Joel and the railway representative in Odessa are named.\n\n## Most likely reading\n\n**Readable German — earlier credited partial interpretation:**\n\n> […] aufnahmefaehig. Nikolajew auf Wunsch Ex. Kiew bestimmt. Hptm. Joel, V. O. FECH, Odessa: [welche Schiffe] etwa wegen Eisenbahnlage nach Nikolajew zugehen haben. […]\n\n**Meaning:** A continuation concerning port capacity and which ships should be directed to Nikolayev in view of the railway situation. Captain Joel and a reference to the railway organization in Odessa appear in the text.\n\n**Notes:** The initial clause is a continuation, not a self-contained sentence. `Hptm.` abbreviates captain; `Ex. Kiew` and `V. O. FECH` are retained without forcing a unique expansion. The bracketed phrase is editorial: three plaintext positions remain unresolved in the conservative source layer. Original reading: **Ayush Agarwal**; our contribution is the later source and arithmetic review.\n\n## Conservative source reading\n\n142 fixed positions in 145 plaintext positions. Uncertain source annotations remain explicit.\n\n**Raw output:**\n\n```text\nAUFNAHMEFAEHIGXNIKOLAJEWXAUFWUNSCHXEZXKIEWXBESTIMMTXHPTMXJOELXVXOXFECHXODESSAX?ELCHES?HI?FEETWAXWEGENXEISENBAHNLAGEXNACHXNIKOLAJEWXZUGEHENHABENXX\n```\n\n## Review\n\n- The original source separately labels this 290-coordinate part. It is not necessary to treat it as an arbitrary prefix of a 548-coordinate combined entry.\n- V--GG is represented as two erased coordinates under the five-coordinate group layout.\n- The published body has 145 plaintext positions, not 130 as one follow-up comment states.\n- The first glyph of group 15 is damaged. D is preferred visually, but an E-like appearance is plausible. The conservative source masks zero-based coordinate 70; the published D is a separate hypothesis.\n\n## Earlier published reading\n\n**Earlier attributed reading:**\n\n```text\nAUFNAHMEFAEHIGXNIKOLAJEWXAUFWUNSCHXEZXKIEWXBESTIMMTXHPTMXJOELXVXOXFECHXODESSAX?ELCHESCHI?FEETWAXWEGENXEISENBAHNLAGEXNACHXNIKOLAJEWXZUGEHENHABENXX\n```\n\nThe published reconstruction is reproduced exactly. Its source differences are listed below; reproducing it does not authenticate its conjectural repairs.\n\n| Source index (zero based) | Literal source | Published layer |\n|---:|---|---|\n| 70 | `?` | `D` |\n\n[Source image](../../sources/excerpts/childs_p89_supplementary.png) · [Full certificate and attribution](../../data/supplementary_readings.json).\n\nThe first publication of these particular body readings is credited as reported by the contributor. Earlier wartime or unpublished decipherment has not been excluded.\n",
+    "headings": [
+      "# p89_A2 — supplementary source review",
+      "## Most likely reading",
+      "## Conservative source reading",
+      "## Review",
+      "## Earlier published reading"
+    ],
+    "fences": [
+      {
+        "text": "```text\nAUFNAHMEFAEHIGXNIKOLAJEWXAUFWUNSCHXEZXKIEWXBESTIMMTXHPTMXJOELXVXOXFECHXODESSAX?ELCHES?HI?FEETWAXWEGENXEISENBAHNLAGEXNACHXNIKOLAJEWXZUGEHENHABENXX\n```\n",
+        "sha256": "5f8bb7cfa9471cb90f05d99e03608251133bb28ab39aa5e9ca3b2a551365a0e5"
+      },
+      {
+        "text": "```text\nAUFNAHMEFAEHIGXNIKOLAJEWXAUFWUNSCHXEZXKIEWXBESTIMMTXHPTMXJOELXVXOXFECHXODESSAX?ELCHESCHI?FEETWAXWEGENXEISENBAHNLAGEXNACHXNIKOLAJEWXZUGEHENHABENXX\n```\n",
+        "sha256": "bfbdde665aeabf279f0dc6f6853c4d74e3ef60d5ed93a619acc83012259c44ae"
+      }
+    ],
+    "inline_code": [
+      "?",
+      "X",
+      "Hptm.",
+      "Ex. Kiew",
+      "V. O. FECH",
+      "?",
+      "D"
+    ]
+  }
+}

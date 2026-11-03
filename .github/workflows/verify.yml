@@ -30,6 +30,7 @@ jobs:
           python experiments/post_push_review/verify.py --verify
           python data/reviews/verify_reading_conventions.py
           python data/reviews/verify_manual_readings.py
+          python data/reviews/verify_semantic_readings.py
           python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_layers_before.json --audit data/reviews/reading_conventions_layers_audit.json
           python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
           python data/reviews/check_reading_presentation.py
@@ -134,6 +135,12 @@ jobs:
           python experiments/nov3_medical_radio_withdrawal/independent_source_audit.py --verify
           python experiments/september_receipt_and_front_inquiry/verify.py --verify
           python experiments/hungary_connection_and_supplies/verify.py --verify
+          python experiments/poti_horse_delivery/verify.py --verify
+          python experiments/dunst_assignment/verify.py --verify
+          python experiments/mecklenburg_and_seaplane_personnel/verify.py --verify
+          python experiments/nov3_evening_and_nov4_radio/verify.py --verify
+          python experiments/nov3_evening_and_nov4_radio/independent_source_audit.py --verify
+          python experiments/turkish_armistice_shipping_order/verify.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |
           python experiments/p198_word_search/verify.py

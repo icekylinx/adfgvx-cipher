@@ -1,0 +1,1353 @@
+{
+  "schema": "adfgvx-nov3-evening-independent-audit-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "inputs_sha256": "cf3311207f5593cbce7a5728b797339cc94242b8aa24ce26561ca15a938e18b6",
+  "certificates_sha256": "bc77a5231c3fed3c6aa11ed364b800d0226780eea9fc15eef34e42b5cacb247c",
+  "source_images_reviewed": [
+    {
+      "path": "experiments/nov3_evening_and_nov4_radio/sources/p111_A1_detail.png",
+      "sha256": "841a85c176b8e7d6631f59f097a23ddc0a171c93ec196fc16beeac766d797982"
+    },
+    {
+      "path": "experiments/nov3_evening_and_nov4_radio/sources/p112_A_detail.png",
+      "sha256": "6ce8b7f03fa7e6fe645c61373dbc4b619aa09b298bcd7044b1315198eccab688"
+    },
+    {
+      "path": "experiments/nov3_evening_and_nov4_radio/sources/p112_C_detail.png",
+      "sha256": "e4662f8ce25291b3b6b1e94d12099e79f9a3ccba8b369a7d3598aed4d8ca7e08"
+    },
+    {
+      "path": "experiments/nov3_evening_and_nov4_radio/sources/p112_full.png",
+      "sha256": "58b924184781f1b7cfae3dc9a39e7d4d9f46af3efc6869a3762987073d5d50bb"
+    },
+    {
+      "path": "experiments/nov3_evening_and_nov4_radio/sources/p112_D_detail.png",
+      "sha256": "7818db32cee62526c3be33377453c4cfdea527730dd90fa529ec6d9cb6253ab0"
+    }
+  ],
+  "manual_source_rows": {
+    "p112_A1": [
+      "VAGDG VAVVA VDAVA VXAVF XAVFA XGAFV XVVGD GAAVA",
+      "DDDGG GGVGV AAXXV GAXAA AAAVV GXGVA DAAFG GVVDV",
+      "DGGGG XGCXV VXDAF DDGGA AFFVX DXADF DADXX FDGGA",
+      "XVVDD AXVFD ADFAG DAXAG VXDDD DFVGX GFDDV GXXGV",
+      "FAGDA AARVA DDAVD VDVDG DAGGD GAGGX XVGXX ADGAV",
+      "AX"
+    ],
+    "p112_A2": [
+      "GDDGG FADGD XDDGG AXVVG GGFFD ADFXF DDFXD XDAAG",
+      "DGDGV GXADX AXDFA XDXXG FVAGD GAXDV DVGAG VADVG",
+      "VGXGV XGGVD AVDGG DVFGV ADVGV FXADG VGXGX GAGVV",
+      "DGDAD GDFDA DVFVV GAXXV GAFXA GAXXX GGVDG -----",
+      "----- ----- ----- XXGVA XFAVF XXFAG GVFDF FXGVA",
+      "AVFVG DVGFD GXGVG VFF"
+    ],
+    "p112_A3": [
+      "XDDDX DGGFF XAVXD DGAGA DXGVA ADXGD VAXXA -----",
+      "FFDAD XADFX XXDFV FAGAX DDVVF FDDXV DXXVG XDFRD",
+      "AVDVV XGDXA FVAFX FVGSX DXFXD DDF"
+    ],
+    "p112_B": [
+      "AGXAD VXDVD GFFFG DAVAV FAADV AVGGA FAFDX DAXAA",
+      "AVXFX XAXFD GFFAF AAGGF AVVFV VXAXD XVVXA AXFFX",
+      "XFAXX GVAXV XXFGX XXADA AXXDD XAXGX XXFXV XFAVV",
+      "XDFAA AAXFF VFGVX AXFFF FAXAA FAVGX GXAFX XGFAV",
+      "GXDAF DFFXF XAXAD XVFVX XXFDF FVA"
+    ],
+    "p112_C": [
+      "FVAXX DVAX FXGVV VAAFV AGFF VXFDV VVXVX ADAFG",
+      "VDFVX XXGDX XGGXX XFADV VVXDG FFGVD FFADX AVAXA",
+      "XAFXF XVXGF AAAXD FGXAA XAFGX AXGVA XX"
+    ],
+    "p112_D": [
+      "AFXVX DFXVF VXDFA AXXXA FGVVF XGAAA XVDDX VXFGV",
+      "XVFXV XADDF XXDGA VG-AV FGFFA FGADG FAVVX XAAXA",
+      "-VAXX XXVAG AFDVA XDXAX FFXGA GDFXV VGAGV FVDXX",
+      "VAXFG FGDXF XFAFG AVGGA XXFFA XAFVF GVFAV FXAFA",
+      "XADXV AAXFA FGXVF DXADX AFDAA XAVGV FGXVX AVGDA",
+      "FGXGD AFAAV DAAAG FDGFA XFFXX AXAVX"
+    ],
+    "p111_A1": [
+      "VAGDG VAVVA VDAVA VXAVF XAVFA XGAFV XVVGD GAAVA",
+      "DDDGG GGVGV AAXXV GAXAA AAAVV GXGVA DAAFG GVVDV",
+      "DGGGG XGGXV ----- ----- ----- DXADF DADXX FDGGX",
+      "XVVDD AXVFD ADFAG DAXAG VXDDD DFVGX GFDDV GXXGV",
+      "FAGDA AAFVA DDAVD VDVDG DAGGD GAGGX XVGXX ADGGV",
+      "AX"
+    ]
+  },
+  "records": [
+    {
+      "id": "p111_A1",
+      "source_slots": 202,
+      "valid_source_coordinates": 187,
+      "model_slots": 202,
+      "inserted_coordinates": 0,
+      "raw": "OKMXOK?XABENDMEL?UNGXANSA?EXDONAUXR?HEALPXKO?P?ERREICH?R?UMSUED?I?HUJVINE?X?JVIDEK?2?9219IDUXG?KX5353",
+      "edited": "OKMXOKMXABENDMELDUNGXANSAVEXDONAUXRUHEALPXKORPSERREICHTRAUMSUEDLICHUJVIDEKXUJVIDEKX219219IDUXGXKX5353",
+      "raw_fixed_positions": 86,
+      "edited_fixed_positions": 101,
+      "cost": {
+        "known_coordinate_substitutions": 1,
+        "source_mask_fills": 15,
+        "missing_coordinate_fills": 0
+      },
+      "changes": {
+        "known_coordinate_substitutions": [
+          {
+            "model_index": 198,
+            "source_index": 198,
+            "before": "G",
+            "after": "A"
+          }
+        ],
+        "source_mask_fills": [
+          {
+            "model_index": 90,
+            "source_index": 90,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 91,
+            "source_index": 91,
+            "before": "?",
+            "after": "X"
+          },
+          {
+            "model_index": 92,
+            "source_index": 92,
+            "before": "?",
+            "after": "D"
+          },
+          {
+            "model_index": 93,
+            "source_index": 93,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 94,
+            "source_index": 94,
+            "before": "?",
+            "after": "F"
+          },
+          {
+            "model_index": 95,
+            "source_index": 95,
+            "before": "?",
+            "after": "D"
+          },
+          {
+            "model_index": 96,
+            "source_index": 96,
+            "before": "?",
+            "after": "D"
+          },
+          {
+            "model_index": 97,
+            "source_index": 97,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 98,
+            "source_index": 98,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 99,
+            "source_index": 99,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 100,
+            "source_index": 100,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 101,
+            "source_index": 101,
+            "before": "?",
+            "after": "F"
+          },
+          {
+            "model_index": 102,
+            "source_index": 102,
+            "before": "?",
+            "after": "F"
+          },
+          {
+            "model_index": 103,
+            "source_index": 103,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 104,
+            "source_index": 104,
+            "before": "?",
+            "after": "X"
+          }
+        ],
+        "missing_coordinate_fills": []
+      }
+    },
+    {
+      "id": "p112_A1",
+      "source_slots": 202,
+      "valid_source_coordinates": 200,
+      "model_slots": 202,
+      "inserted_coordinates": 0,
+      "raw": "OKMXOKMXABENDMELDU?GXANSAVEXDONOUXRUHEALPXKORPSERREICHTRAUMSUEDLICHUJVIDEKXUJVIDEKX219?19IDUXGXKX5353",
+      "edited": "OKMXOKMXABENDMELDUNGXANSAVEXDONAUXRUHEALPXKORPSERREICHTRAUMSUEDLICHUJVIDEKXUJVIDEKX219219IDUXGXKX5353",
+      "raw_fixed_positions": 99,
+      "edited_fixed_positions": 101,
+      "cost": {
+        "known_coordinate_substitutions": 1,
+        "source_mask_fills": 2,
+        "missing_coordinate_fills": 0
+      },
+      "changes": {
+        "known_coordinate_substitutions": [
+          {
+            "model_index": 119,
+            "source_index": 119,
+            "before": "A",
+            "after": "X"
+          }
+        ],
+        "source_mask_fills": [
+          {
+            "model_index": 87,
+            "source_index": 87,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 167,
+            "source_index": 167,
+            "before": "?",
+            "after": "F"
+          }
+        ],
+        "missing_coordinate_fills": []
+      }
+    },
+    {
+      "id": "p112_A2",
+      "source_slots": 218,
+      "valid_source_coordinates": 198,
+      "model_slots": 218,
+      "inserted_coordinates": 0,
+      "raw": "??ETENAX41??X11XMAD??HNACHNOR??STENANXX?UFTAUFKLA?RUNGXSTA?KENJAEVZE?GVERK?HR?SEMEN?RIA?ELLRA?XG?NXSTA?SXO?FZ",
+      "edited": "TRETENAX41??X11XMARSCHNACHNORDOSTENANXXLUFTAUFKLAERUNGXSTARKENFAHRZEUGVERKEHRXSEMENDRIABELGRADXGENXSTABSXOFFZ",
+      "raw_fixed_positions": 89,
+      "edited_fixed_positions": 107,
+      "cost": {
+        "known_coordinate_substitutions": 6,
+        "source_mask_fills": 18,
+        "missing_coordinate_fills": 0
+      },
+      "changes": {
+        "known_coordinate_substitutions": [
+          {
+            "model_index": 6,
+            "source_index": 6,
+            "before": "A",
+            "after": "V"
+          },
+          {
+            "model_index": 90,
+            "source_index": 90,
+            "before": "A",
+            "after": "F"
+          },
+          {
+            "model_index": 93,
+            "source_index": 93,
+            "before": "G",
+            "after": "D"
+          },
+          {
+            "model_index": 98,
+            "source_index": 98,
+            "before": "G",
+            "after": "A"
+          },
+          {
+            "model_index": 154,
+            "source_index": 154,
+            "before": "G",
+            "after": "F"
+          },
+          {
+            "model_index": 213,
+            "source_index": 213,
+            "before": "V",
+            "after": "A"
+          }
+        ],
+        "source_mask_fills": [
+          {
+            "model_index": 155,
+            "source_index": 155,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 156,
+            "source_index": 156,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 157,
+            "source_index": 157,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 158,
+            "source_index": 158,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 159,
+            "source_index": 159,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 161,
+            "source_index": 161,
+            "before": "?",
+            "after": "D"
+          },
+          {
+            "model_index": 162,
+            "source_index": 162,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 163,
+            "source_index": 163,
+            "before": "?",
+            "after": "F"
+          },
+          {
+            "model_index": 164,
+            "source_index": 164,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 165,
+            "source_index": 165,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 166,
+            "source_index": 166,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 167,
+            "source_index": 167,
+            "before": "?",
+            "after": "X"
+          },
+          {
+            "model_index": 168,
+            "source_index": 168,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 169,
+            "source_index": 169,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 170,
+            "source_index": 170,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 171,
+            "source_index": 171,
+            "before": "?",
+            "after": "X"
+          },
+          {
+            "model_index": 173,
+            "source_index": 173,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 174,
+            "source_index": 174,
+            "before": "?",
+            "after": "G"
+          }
+        ],
+        "missing_coordinate_fills": []
+      }
+    },
+    {
+      "id": "p112_A3",
+      "source_slots": 108,
+      "valid_source_coordinates": 101,
+      "model_slots": 108,
+      "inserted_coordinates": 0,
+      "raw": "F?IEGTXBUKA?ESTXVNRAU??ICHTLIC?TLICHX4X4?X4X11XAO?X11X",
+      "edited": "FLIEGTXBUKARESTXVORAUSSICHTLICHTLICHX4X4?X4X11XAOKX11X",
+      "raw_fixed_positions": 47,
+      "edited_fixed_positions": 53,
+      "cost": {
+        "known_coordinate_substitutions": 1,
+        "source_mask_fills": 6,
+        "missing_coordinate_fills": 0
+      },
+      "changes": {
+        "known_coordinate_substitutions": [
+          {
+            "model_index": 74,
+            "source_index": 74,
+            "before": "G",
+            "after": "A"
+          }
+        ],
+        "source_mask_fills": [
+          {
+            "model_index": 35,
+            "source_index": 35,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 36,
+            "source_index": 36,
+            "before": "?",
+            "after": "D"
+          },
+          {
+            "model_index": 37,
+            "source_index": 37,
+            "before": "?",
+            "after": "F"
+          },
+          {
+            "model_index": 39,
+            "source_index": 39,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 78,
+            "source_index": 78,
+            "before": "?",
+            "after": "F"
+          },
+          {
+            "model_index": 98,
+            "source_index": 98,
+            "before": "?",
+            "after": "D"
+          }
+        ],
+        "missing_coordinate_fills": []
+      }
+    },
+    {
+      "id": "p112_B",
+      "source_slots": 188,
+      "valid_source_coordinates": 188,
+      "model_slots": 188,
+      "inserted_coordinates": 0,
+      "raw": "TELEFUNKENXKONSTANTINOPELXDRAHTETSCHICKSALUNSERESPERSONALSXISTRUECKEHRZUERWARTENUNDWANNXBREDOW",
+      "edited": "TELEFUNKENXKONSTANTINOPELXDRAHTETSCHICKSALUNSERESPERSONALSXISTRUECKEHRZUERWARTENUNDWANNXBREDOW",
+      "raw_fixed_positions": 94,
+      "edited_fixed_positions": 94,
+      "cost": {
+        "known_coordinate_substitutions": 0,
+        "source_mask_fills": 0,
+        "missing_coordinate_fills": 0
+      },
+      "changes": {
+        "known_coordinate_substitutions": [],
+        "source_mask_fills": [],
+        "missing_coordinate_fills": []
+      }
+    },
+    {
+      "id": "p112_C",
+      "source_slots": 110,
+      "valid_source_coordinates": 110,
+      "model_slots": 122,
+      "inserted_coordinates": 12,
+      "raw": "NAC?RCWE?XCO?STA?TZA?EITH?UTE?400AUSS?RB?TRI?B?ESETZTX?ILMISS",
+      "edited": "NACHRCHEFXCONSTANTZASEITHEUTE?400AUSSERBETRIEBGESETZTXMILMISS",
+      "raw_fixed_positions": 49,
+      "edited_fixed_positions": 60,
+      "cost": {
+        "known_coordinate_substitutions": 1,
+        "source_mask_fills": 0,
+        "missing_coordinate_fills": 11
+      },
+      "changes": {
+        "known_coordinate_substitutions": [
+          {
+            "model_index": 28,
+            "source_index": 17,
+            "before": "F",
+            "after": "G"
+          }
+        ],
+        "source_mask_fills": [],
+        "missing_coordinate_fills": [
+          {
+            "model_index": 0,
+            "source_index": null,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 1,
+            "source_index": null,
+            "before": "?",
+            "after": "X"
+          },
+          {
+            "model_index": 2,
+            "source_index": null,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 4,
+            "source_index": null,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 5,
+            "source_index": null,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 6,
+            "source_index": null,
+            "before": "?",
+            "after": "F"
+          },
+          {
+            "model_index": 7,
+            "source_index": null,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 8,
+            "source_index": null,
+            "before": "?",
+            "after": "X"
+          },
+          {
+            "model_index": 9,
+            "source_index": null,
+            "before": "?",
+            "after": "F"
+          },
+          {
+            "model_index": 19,
+            "source_index": null,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 32,
+            "source_index": null,
+            "before": "?",
+            "after": "A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p112_D",
+      "source_slots": 230,
+      "valid_source_coordinates": 228,
+      "model_slots": 230,
+      "inserted_coordinates": 0,
+      "raw": "INFOLGE31X10XABGESCHLOSSENENWAFF?NSTILLSTANDXTUERAEIXDARDANE9LXNXBOS6ORFSXDERENTENTE4EOEFFNETXXBVNXBEIBVGX7OSPOLIX?",
+      "edited": "INFOLGE31X10XABGESCHLOSSENENWAFFENSTILLSTANDXTUERKEIXDARDANELLENXBOSPORUSXDERENTENTEGEOEFFNETXXBVNXBEIBVGX7OSPOLIX?",
+      "raw_fixed_positions": 113,
+      "edited_fixed_positions": 114,
+      "cost": {
+        "known_coordinate_substitutions": 6,
+        "source_mask_fills": 1,
+        "missing_coordinate_fills": 0
+      },
+      "changes": {
+        "known_coordinate_substitutions": [
+          {
+            "model_index": 59,
+            "source_index": 59,
+            "before": "V",
+            "after": "F"
+          },
+          {
+            "model_index": 89,
+            "source_index": 89,
+            "before": "G",
+            "after": "D"
+          },
+          {
+            "model_index": 129,
+            "source_index": 129,
+            "before": "F",
+            "after": "A"
+          },
+          {
+            "model_index": 210,
+            "source_index": 210,
+            "before": "D",
+            "after": "A"
+          },
+          {
+            "model_index": 211,
+            "source_index": 211,
+            "before": "A",
+            "after": "D"
+          },
+          {
+            "model_index": 226,
+            "source_index": 226,
+            "before": "X",
+            "after": "V"
+          }
+        ],
+        "source_mask_fills": [
+          {
+            "model_index": 57,
+            "source_index": 57,
+            "before": "?",
+            "after": "F"
+          }
+        ],
+        "missing_coordinate_fills": []
+      }
+    }
+  ],
+  "summary": {
+    "physical_records": 7,
+    "source_slots": 1258,
+    "valid_source_coordinates": 1212,
+    "analysis_frame_slots": 1270,
+    "raw_fixed_positions": 577,
+    "edited_fixed_positions": 630,
+    "known_coordinate_substitutions": 16,
+    "source_mask_fills": 42,
+    "missing_coordinate_fills": 11
+  },
+  "source_copy_check": {
+    "same_valid_coordinates": 183,
+    "complementary_erasure_positions": [
+      87,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      167
+    ],
+    "observed_conflicts": [
+      119,
+      198
+    ],
+    "all_four_minimum_common_streams": [
+      {
+        "conflict_choices": [
+          "X",
+          "G"
+        ],
+        "plaintext": "OKMXOKMXABENDMELDUNGXANSAVEXDONAUXRUHEALPXKORPSERREICHTRAUMSUEDLICHUJVINEKXUJVIDEKX219219IDUXGXKX5353",
+        "ciphertext": "VAGDGVAVVAVDAVAVXAVFXAVFAXGAFVXVVGDGAAVADDDGGGGVGVAAXXVGAXAAAAAVVGXGVADAAFGGVVDVDGGGGXGGXVVXDAFDDGGAAFFVXDXADFDADXXFDGGXXVVDDAXVFDADFAGDAXAGVXDDDDFVGXGFDDVGXXGVFAGDAAAFVADDAVDVDVDGDAGGDGAGGXXVGXXADGGVAX",
+        "observed_substitution_costs": [
+          0,
+          2
+        ]
+      },
+      {
+        "conflict_choices": [
+          "X",
+          "A"
+        ],
+        "plaintext": "OKMXOKMXABENDMELDUNGXANSAVEXDONAUXRUHEALPXKORPSERREICHTRAUMSUEDLICHUJVIDEKXUJVIDEKX219219IDUXGXKX5353",
+        "ciphertext": "VAGDGVAVVAVDAVAVXAVFXAVFAXGAFVXVVGDGAAVADDDGGGGVGVAAXXVGAXAAAAAVVGXGVADAAFGGVVDVDGGGGXGGXVVXDAFDDGGAAFFVXDXADFDADXXFDGGXXVVDDAXVFDADFAGDAXAGVXDDDDFVGXGFDDVGXXGVFAGDAAAFVADDAVDVDVDGDAGGDGAGGXXVGXXADGAVAX",
+        "observed_substitution_costs": [
+          1,
+          1
+        ]
+      },
+      {
+        "conflict_choices": [
+          "A",
+          "G"
+        ],
+        "plaintext": "OKMXOKMXABENDMELDUNGXANSAVEXDONOUXRUHEALPXKORPSERREICHTRAUMSUEDLICHUJVINEKXUJVIDEKX219219IDUXGXKX5353",
+        "ciphertext": "VAGDGVAVVAVDAVAVXAVFXAVFAXGAFVXVVGDGAAVADDDGGGGVGVAAXXVGAXAAAAAVVGXGVADAAFGGVVDVDGGGGXGGXVVXDAFDDGGAAFFVXDXADFDADXXFDGGAXVVDDAXVFDADFAGDAXAGVXDDDDFVGXGFDDVGXXGVFAGDAAAFVADDAVDVDVDGDAGGDGAGGXXVGXXADGGVAX",
+        "observed_substitution_costs": [
+          1,
+          1
+        ]
+      },
+      {
+        "conflict_choices": [
+          "A",
+          "A"
+        ],
+        "plaintext": "OKMXOKMXABENDMELDUNGXANSAVEXDONOUXRUHEALPXKORPSERREICHTRAUMSUEDLICHUJVIDEKXUJVIDEKX219219IDUXGXKX5353",
+        "ciphertext": "VAGDGVAVVAVDAVAVXAVFXAVFAXGAFVXVVGDGAAVADDDGGGGVGVAAXXVGAXAAAAAVVGXGVADAAFGGVVDVDGGGGXGGXVVXDAFDDGGAAFFVXDXADFDADXXFDGGAXVVDDAXVFDADFAGDAXAGVXDDDDFVGXGFDDVGXXGVFAGDAAAFVADDAVDVDVDGDAGGDGAGGXXVGXXADGAVAX",
+        "observed_substitution_costs": [
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  "A2_word_alternatives": [
+    {
+      "word": "FAHRZEUG",
+      "template": "TRETENAX41??X11XMARSCHNACHNORDOSTENANXXLUFTAUFKLAERUNGXSTARKENFAHRZEUGVERKEHRXSEMENDRIABELGRADXGENXSTABSXOFFZ",
+      "cost": {
+        "known_coordinate_substitutions": 6,
+        "source_mask_fills": 18,
+        "missing_coordinate_fills": 0
+      },
+      "changes": {
+        "known_coordinate_substitutions": [
+          {
+            "model_index": 6,
+            "source_index": 6,
+            "before": "A",
+            "after": "V"
+          },
+          {
+            "model_index": 90,
+            "source_index": 90,
+            "before": "A",
+            "after": "F"
+          },
+          {
+            "model_index": 93,
+            "source_index": 93,
+            "before": "G",
+            "after": "D"
+          },
+          {
+            "model_index": 98,
+            "source_index": 98,
+            "before": "G",
+            "after": "A"
+          },
+          {
+            "model_index": 154,
+            "source_index": 154,
+            "before": "G",
+            "after": "F"
+          },
+          {
+            "model_index": 213,
+            "source_index": 213,
+            "before": "V",
+            "after": "A"
+          }
+        ],
+        "source_mask_fills": [
+          {
+            "model_index": 155,
+            "source_index": 155,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 156,
+            "source_index": 156,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 157,
+            "source_index": 157,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 158,
+            "source_index": 158,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 159,
+            "source_index": 159,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 161,
+            "source_index": 161,
+            "before": "?",
+            "after": "D"
+          },
+          {
+            "model_index": 162,
+            "source_index": 162,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 163,
+            "source_index": 163,
+            "before": "?",
+            "after": "F"
+          },
+          {
+            "model_index": 164,
+            "source_index": 164,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 165,
+            "source_index": 165,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 166,
+            "source_index": 166,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 167,
+            "source_index": 167,
+            "before": "?",
+            "after": "X"
+          },
+          {
+            "model_index": 168,
+            "source_index": 168,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 169,
+            "source_index": 169,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 170,
+            "source_index": 170,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 171,
+            "source_index": 171,
+            "before": "?",
+            "after": "X"
+          },
+          {
+            "model_index": 173,
+            "source_index": 173,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 174,
+            "source_index": 174,
+            "before": "?",
+            "after": "G"
+          }
+        ],
+        "missing_coordinate_fills": []
+      }
+    },
+    {
+      "word": "FLUGZEUG",
+      "template": "TRETENAX41??X11XMARSCHNACHNORDOSTENANXXLUFTAUFKLAERUNGXSTARKENFLUGZEUGVERKEHRXSEMENDRIABELGRADXGENXSTABSXOFFZ",
+      "cost": {
+        "known_coordinate_substitutions": 10,
+        "source_mask_fills": 18,
+        "missing_coordinate_fills": 0
+      },
+      "changes": {
+        "known_coordinate_substitutions": [
+          {
+            "model_index": 6,
+            "source_index": 6,
+            "before": "A",
+            "after": "V"
+          },
+          {
+            "model_index": 17,
+            "source_index": 17,
+            "before": "V",
+            "after": "A"
+          },
+          {
+            "model_index": 90,
+            "source_index": 90,
+            "before": "A",
+            "after": "F"
+          },
+          {
+            "model_index": 93,
+            "source_index": 93,
+            "before": "G",
+            "after": "D"
+          },
+          {
+            "model_index": 98,
+            "source_index": 98,
+            "before": "G",
+            "after": "F"
+          },
+          {
+            "model_index": 109,
+            "source_index": 109,
+            "before": "G",
+            "after": "F"
+          },
+          {
+            "model_index": 120,
+            "source_index": 120,
+            "before": "D",
+            "after": "F"
+          },
+          {
+            "model_index": 143,
+            "source_index": 143,
+            "before": "X",
+            "after": "A"
+          },
+          {
+            "model_index": 154,
+            "source_index": 154,
+            "before": "G",
+            "after": "A"
+          },
+          {
+            "model_index": 213,
+            "source_index": 213,
+            "before": "V",
+            "after": "A"
+          }
+        ],
+        "source_mask_fills": [
+          {
+            "model_index": 155,
+            "source_index": 155,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 156,
+            "source_index": 156,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 157,
+            "source_index": 157,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 158,
+            "source_index": 158,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 159,
+            "source_index": 159,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 161,
+            "source_index": 161,
+            "before": "?",
+            "after": "D"
+          },
+          {
+            "model_index": 162,
+            "source_index": 162,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 163,
+            "source_index": 163,
+            "before": "?",
+            "after": "F"
+          },
+          {
+            "model_index": 164,
+            "source_index": 164,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 165,
+            "source_index": 165,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 166,
+            "source_index": 166,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 167,
+            "source_index": 167,
+            "before": "?",
+            "after": "X"
+          },
+          {
+            "model_index": 168,
+            "source_index": 168,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 169,
+            "source_index": 169,
+            "before": "?",
+            "after": "G"
+          },
+          {
+            "model_index": 170,
+            "source_index": 170,
+            "before": "?",
+            "after": "A"
+          },
+          {
+            "model_index": 171,
+            "source_index": 171,
+            "before": "?",
+            "after": "X"
+          },
+          {
+            "model_index": 173,
+            "source_index": 173,
+            "before": "?",
+            "after": "V"
+          },
+          {
+            "model_index": 174,
+            "source_index": 174,
+            "before": "?",
+            "after": "G"
+          }
+        ],
+        "missing_coordinate_fills": []
+      }
+    }
+  ],
+  "C_geometry": {
+    "target": "NACHRCHEFXCONSTANTZASEITHEUTE?400AUSSERBETRIEBGESETZTXMILMISS",
+    "source_slots": 110,
+    "target_slots": 122,
+    "bounded_parameter_layouts_evaluated": 161025,
+    "distinct_source_origin_layouts": 155400,
+    "parameter_layout_duplicate_count": 5625,
+    "cost_histogram": {
+      "1": 1,
+      "2": 6,
+      "3": 22,
+      "4": 57,
+      "5": 105,
+      "6": 200,
+      "7": 321,
+      "8": 436,
+      "9": 533,
+      "10": 526,
+      "11": 393,
+      "12": 365,
+      "13": 407,
+      "14": 525,
+      "15": 739,
+      "16": 1007,
+      "17": 1194,
+      "18": 1077,
+      "19": 866,
+      "20": 767,
+      "21": 756,
+      "22": 857,
+      "23": 1012,
+      "24": 1170,
+      "25": 1287,
+      "26": 1155,
+      "27": 1125,
+      "28": 939,
+      "29": 963,
+      "30": 1034,
+      "31": 1178,
+      "32": 1353,
+      "33": 1463,
+      "34": 1445,
+      "35": 1232,
+      "36": 1299,
+      "37": 1488,
+      "38": 1843,
+      "39": 2305,
+      "40": 2787,
+      "41": 2932,
+      "42": 2482,
+      "43": 2054,
+      "44": 1525,
+      "45": 1558,
+      "46": 1659,
+      "47": 1828,
+      "48": 1993,
+      "49": 2093,
+      "50": 2001,
+      "51": 1769,
+      "52": 1959,
+      "53": 2310,
+      "54": 2668,
+      "55": 2879,
+      "56": 2576,
+      "57": 2007,
+      "58": 2189,
+      "59": 2398,
+      "60": 2544,
+      "61": 2432,
+      "62": 2180,
+      "63": 2431,
+      "64": 2834,
+      "65": 3207,
+      "66": 3303,
+      "67": 2978,
+      "68": 2744,
+      "69": 2833,
+      "70": 2720,
+      "71": 2386,
+      "72": 2338,
+      "73": 2332,
+      "74": 2366,
+      "75": 2402,
+      "76": 2432,
+      "77": 2466,
+      "78": 2502,
+      "79": 2532,
+      "80": 2566,
+      "81": 2600,
+      "82": 2625,
+      "83": 2650,
+      "84": 2675,
+      "85": 2716,
+      "86": 2767,
+      "87": 2873,
+      "88": 2965,
+      "89": 2849,
+      "90": 2408,
+      "91": 1477,
+      "92": 513,
+      "93": 207,
+      "94": 54
+    },
+    "minimum_observed_substitutions": 1,
+    "all_bounded_minima": [
+      {
+        "parameters": [
+          9,
+          21,
+          0,
+          0
+        ],
+        "inserted_model_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          19,
+          32
+        ]
+      }
+    ],
+    "arbitrary_missing_coordinate_minimum": 1,
+    "arbitrary_missing_coordinate_optima": [
+      [
+        0,
+        1,
+        2,
+        4,
+        6,
+        9,
+        10,
+        11,
+        12,
+        14,
+        19,
+        32
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        32
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        19,
+        32
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        19,
+        32
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        19,
+        32
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        19,
+        32
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        19,
+        32
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        19,
+        32
+      ]
+    ],
+    "measured_dp": {
+      "states": 1443,
+      "keep_transitions": 1430,
+      "missing_transitions": 1332
+    },
+    "scope": "Retrospective fixed-template source alignment; no free-wording or historical-mechanism uniqueness."
+  },
+  "findings": [
+    "All seven source row transcriptions agree with independent visual reading.",
+    "The copies supply seventeen missing coordinate values but retain two observed conflicts; all four equal-combined-cost common streams survive.",
+    "FAHRZEUG uses six observed substitutions versus ten for FLUGZEUG, with eighteen equal source-mask fills and the same two unresolved date positions.",
+    "C contains110 observed coordinates and advertises122. DVAX and AGFF are visibly four-character groups; no printed marker establishes a missing ten-coordinate prefix.",
+    "The chosen C geometry retains all observed coordinates, adds12 model slots, fills11, and leaves the ?400 field unresolved.",
+    "A3 repeated TLICH and4X4?X4X11, A1 repeated219219/5353, and D closingBVNXBEIBVGX7OSPOLIX? remain literal."
+  ],
+  "limits": [
+    "Fixed-template alignment costs are retrospective compatibility results, not unique language or historical mechanism proofs.",
+    "Source copies are two physical witnesses; their exact transmission lineage is not proved by textual agreement alone."
+  ],
+  "verified": true
+}

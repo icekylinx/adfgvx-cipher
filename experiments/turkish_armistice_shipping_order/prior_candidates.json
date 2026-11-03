@@ -1,0 +1,596 @@
+{
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "earlier_repository_screens": [
+    {
+      "cache_name": "cross_key_plaintexts.json",
+      "sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+      "relevant_rows": [
+        {
+          "block": "p90_ocr_block4",
+          "key": "Nov1-3",
+          "score": -9.3478539577171,
+          "plaintext": "NNGAP8NGVYSDZ8Q3IECLY8M?UCP9QODVU5NILMUEGELF1ELGVEE6P5ED618FBJLBCKKCJBDI492?QQBSFEDJEEELNYBAR7OBQ8V3UCUMGNJN?JN5D25IBBS87H31WUUT0RSEI0RPOFC8VOJMWN05R",
+          "known_quadgrams": 134,
+          "ciphertext": "DXAGVGFXGXAGDDDDFDVDVGDXVAAXVVDGAAVAFXVFGGFGFFAGVXGVGGDFGFGAFDDXDFDFXV?VGFDXDVGGDAGXVGVXG?VFGFFAGAFGAAGFGAGAVFXF?GFVAAVGVVVFVGGDXVFXVGGADFVAGGADAFVVAADDGGDDFDGAFAAVDVGVAXGAFDDDFVVGVGDGVAXGGVDGXXGDGGDGFAGAFVXAGGDFAFAGFVGGGAGGVDVVAVVDAAGGDFAADFDVVVGXGAVVDAAAXVAAAXVDXAAXFVGVGGVDGDGGAAGGVAXAXADVVAAGADX",
+          "orphan": 1,
+          "edits": [],
+          "header": [
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p90_ocr_block4",
+          "key": "NSA-undated-CHI-example-18",
+          "score": -9.387215667696141,
+          "plaintext": "HD56DQY5AV2DSJEG1STE22UUK0AAA5UZ0LSI?PF7EJEQELAIHJ02X?UVLRSBU7AFA9UDQB19MU0ZAHQTS4E7UFAHBFQ4RW6A0HZS60KZN8SJEAK4?QEU7X9FXELEOJ56W1R85U9SLSXAJDF7CBQR5",
+          "known_quadgrams": 134,
+          "ciphertext": "DXAGVGFXGXAGDDDDFDVDVGDXVAAXVVDGAAVAFXVFGGFGFFAGVXGVGGDFGFGAFDDXDFDFXV?VGFDDVGGDAGXVGVXG?VFGFFAGAFGAAGFGAGAVFXF?GFVAAVGVVVFVGGDXVFXVGGADFVAGGADAFVVAADDGGDDFDGAFAAVDVGVAXGAFDDDFVVGVGDGVAXGGVDGXXGDGGDGFAGAFVXAGGDFAFAGFVGGGAGGVDVVAVVDAAGGDFAADFDVVVGXGAVVDAAAXVAAAXVDXAAXFVGVGGVDGDGGAAGGVAXAXADVVAAGADX",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 15,
+              "ocr_group": "?VGFDX",
+              "layout_hypothesis": "?VGFD",
+              "method": "right"
+            }
+          ],
+          "header": [
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p91_ocr_block2",
+          "key": "Nov1-3",
+          "score": -9.284293923602009,
+          "plaintext": "KZELRRNBPBMROEG0EFWOBNMI885VUVAEERNSTVQRP2SKT1JD64RHJNLDD2KOVNUOHM60KKNIOE882PEUMYS8WKA8V8Z8DN8FNXURZCBVRW7KD2ZBADD4EIDKE2MK0AEOAYLOUVVMVKKP8XU25M2AJ4FK",
+          "known_quadgrams": 149,
+          "ciphertext": "AFDGVGAAAGFDVXVVGGGVXFVGGAGVFFGDVVAAFAFXFVAAGVDADDGGDXVAVGGFXADDGFAGGAXDVDDAVAAVFVDVDVGGAGAGDAGFVAGGVDAVVDDGVGVXAFDDVVGADDAFAXVXXGGDAGDGFGGGDAXVGVDDXAGVVGDGGAXXVVDXVAVDGGDGVGDVGAGVXDGVGDXVGVDVGAGGFGAGDDDFVAVAVAXFFGFGDGVXDADAFDVXAXVVXGGFDXGGVVGDVXDFDXVGAFGFDGAGDFGGVDDAGGVDAGVGFADVAGAVAGDDDFGAVAADXFDDVGVG",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 24,
+              "ocr_group": "DVVGAAD",
+              "layout_hypothesis": "DVVGA",
+              "method": "right"
+            },
+            {
+              "group": 32,
+              "ocr_group": "GGAXXD",
+              "layout_hypothesis": "GGAXX",
+              "method": "right"
+            }
+          ],
+          "header": [
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p91_ocr_block2",
+          "key": "Nov10-12",
+          "score": -9.39042353630066,
+          "plaintext": "CIZ?PDCUXKGKNC1ZFQZO0JTF?CHS2S2XJJUZJ2VCRUUMUDQD?FJA34SAGSWCJJHUQ4OTP2IR2Z1TF?ELNAKI?FJZGGSGULJSCWMZDWTCA0DKKMM?CYISPOUWFL?2L?D2DMCXLCKDMOUCHM1DNT2?OCDL",
+          "known_quadgrams": 114,
+          "ciphertext": "AFDGVGAAAGFDVXVVGGGVXFVGGAGVFFGDVVAAFAFXFVAAGVDADDGGDXVAVGGFXADDGFAGGAXDVDDAVAAVFVDVDVGGAGAGDAGFVAGGVDAVVDDGVGVXAFDDVVGADDAFAXVXXGGDAGDGFGGGDAXVGVDDXAGVVGDGGAXXVVDXVAVDGGDGVGDVGAGVXDGVGDXVGVDVGAGGFGAGDDDFVAVAVAXFFGFGDGVXDADAFDVXAXVVXGGFDXGGVVGDVXDFDXVGAFGFDGAGDFGGVDDAGGVDAGVGFADVAGAVAGDDDFGAVAADXFDDVGVG",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 24,
+              "ocr_group": "DVVGAAD",
+              "layout_hypothesis": "DVVGA",
+              "method": "right"
+            },
+            {
+              "group": 32,
+              "ocr_group": "GGAXXD",
+              "layout_hypothesis": "GGAXX",
+              "method": "right"
+            }
+          ],
+          "header": [
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p91_ocr_block4",
+          "key": "Nov10-12",
+          "score": -8.729931977330422,
+          "plaintext": "N0REKYY1?KOVPOWAO?24IKZ?2AK?TRW?BI1BAEZ??T4J1IYWU?ZQKHTSTNOGROIASGEMA?O0W3K?IIQDX??DYT?NFFNHIWAJSB",
+          "known_quadgrams": 49,
+          "ciphertext": "AAXFXVDAXGDGVVDVDXVFDDVDADVDAAFDVDXDXDX?GDGDFDXGXVFVFXADDVXAXXADFGGDVFDFXDXADAXDXFXDFFAVVXAGAXVXXDFDVFXAADVGDDXDDAVDVDXDAVFVADDVXXDAGFFXDAVFAGVGDXFGVDGDGVVDAGGDDFDAAADAADXDVAVFXDFAXDVDVFAFFGVXG?GV",
+          "orphan": 0,
+          "edits": [],
+          "header": []
+        },
+        {
+          "block": "p91_ocr_block4",
+          "key": "Nov16-18",
+          "score": -9.112911975130121,
+          "plaintext": "O?AGGACLGN?AGFQ?U?EHAMU??XKNUQWPEICW2U?KHKVHR2YBK?R1LXHHRHNXR?H212PW?N?EKR1TZKO?S?Z?2VD??IZYJHFZHO",
+          "known_quadgrams": 47,
+          "ciphertext": "AAXFXVDAXGDGVVDVDXVFDDVDADVDAAFDVDXDXDX?GDGDFDXGXVFVFXADDVXAXXADFGGDVFDFXDXADAXDXFXDFFAVVXAGAXVXXDFDVFXAADVGDDXDDAVDVDXDAVFVADDVXXDAGFFXDAVFAGVGDXFGVDGDGVVDAGGDDFDAAADAADXDVAVFXDFAXDVDVFAFFGVXG?GV",
+          "orphan": 0,
+          "edits": [],
+          "header": []
+        }
+      ]
+    },
+    {
+      "cache_name": "cross_key_merged_plaintexts.json",
+      "sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+      "relevant_rows": [
+        {
+          "block": "p90_ocr_block1+p90_ocr_block2+p90_ocr_block3",
+          "key": "TRUPPENVERSCHIEBUNG-2026-reported",
+          "score": -9.30258858203888,
+          "plaintext": "LCAN?LT2CKVKYMJJELGC1R?HQJVSR6EHIKYX925GJFXNAHRKSJKDZAGV0AZVD9D9L0DFCQP0J0RQHRRD3OZF6ESCWSCOFQ1O?MWERFN9L0B0LQ1D?Z3NJXJQ0HCJPMDM3TNZDCHRBWIFPFI1UJVF3VB56BCHANKPO2FM69ZWXJD?HYM6UDLLJECTAOYIH9YHUSJYRZAC6XLTAVIACOKYPQ9DKRV",
+          "known_quadgrams": 196,
+          "ciphertext": "VVDVXDVAXXAAXXGFGVVDXGGVVDXAGGVAXDFDADGAXFXVDFDXDDDVDXDXXGDGDVGGVAFVVFXDDXGVGGFAVVXXDGFGDVAXDVDGDXVFGXDGDAADAGVDXDVVXAVVFGDAVVXVGFADGVFDGDADVVGDVDXAGVGAGVVFGVADGAADXDFFGXGXGFDXDGXGFDFGDVFXGGGDGFXFXGFDDAVADVAGFFDDGFXAFFXGGXVAGVVDDDGVVAXVXDDDXFAVXAGVXDXXGGGAVVDDGAGVGVXAFDXXGAGXVDGGADDGXDAGVAGFAGFAVGAFVXVGXFGVDVXDGFGDXAXDGDVDXGDXGFXGADXVFXDXAAXDVVGDDVGGGDVXVGDDDGVFDXGXDDDFAFFXXAFAFDGDVFXDVDAVDVDFADGDGDVXDXGGXDVXGDAAVFFXGGAGDFVGVGDXVXGFAG",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "(employed weaeen Bertie ona the Brack Sea Area)",
+            "let NOVEMBER, 1918.",
+            "(Continued)",
+            "4) OSM de LP = (01.18 p.m., November 1st)",
+            "SSD BVG KOSPOLI (1/11) 1400 5 TEILE",
+            "(Continued)",
+            "4) OSM de LP = (01.18 p.m., November 1st)",
+            "SSD BVG KOSPOLI (1/11) 1400 5 TEILE",
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p90_ocr_block1+p90_ocr_block2+p90_ocr_block3",
+          "key": "Nov7-9",
+          "score": -9.335476811012525,
+          "plaintext": "42KA4ZGI?MEXHT1OT0CEFOEPTSFXC?3L4S4?VS??KINAYZ7DTBXZEXZ3LYVLFYXCVZO2R2RLRNY0B2TSHHALMGG03KH4AF3A4Y1D1BYUDE1D?GILUMGJFZ9NGKDN8FTC09PL?S722S2VXDB0TEIYGDXRQKF2GSJEABB2T3V2HH0K03NXCR?FI203B2AA928WL07T177GYIFVG0F?WME?9IDM2?IY",
+          "known_quadgrams": 178,
+          "ciphertext": "VVDVXDVAXXAAXXGFGVVDXGGVVDXAGGVAXDFDADGAXFXVDFDXDDDVDXDXXGDGDVGGVAFVVFXDDXGVGGFAVVXXDGFGDVAXDVDGDXVFGXDGDAADAGVDXDVVXAVVFGDAVVXVGFADGVFDGDADVVGDVDXAGVGAGVVFGVADGAADXDFFGXGXGFDXDGXGFDFGDVFXGGGDGFXFXGFDDAVADVAGFFDDGFXAFFXGGXVAGVVDDDGVVAXVXDDDXFAVXAGVXDXXGGGAVVDDGAGVGVXAFDXXGAGXVDGGADDGXDAGVAGFAGFAVGAFVXVGXFGVDVXDGFGDXAXDGDVDXGDXGFXGADXVFXDXAAXDVVGDDVGGGDVXVGDDDGVFDXGXDDDFAFFXXAFAFDGDVFXDVDAVDVDFAD??GDGDVXDXGGXDVXGDAAVFFXGGAGDFVGVGDXVXGFAG",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 80,
+              "ocr_group": "FAD",
+              "layout_hypothesis": "FAD??",
+              "method": "right"
+            }
+          ],
+          "header": [
+            "(employed weaeen Bertie ona the Brack Sea Area)",
+            "let NOVEMBER, 1918.",
+            "(Continued)",
+            "4) OSM de LP = (01.18 p.m., November 1st)",
+            "SSD BVG KOSPOLI (1/11) 1400 5 TEILE",
+            "(Continued)",
+            "4) OSM de LP = (01.18 p.m., November 1st)",
+            "SSD BVG KOSPOLI (1/11) 1400 5 TEILE",
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p90_ocr_block2+p90_ocr_block3",
+          "key": "Nov7-9",
+          "score": -9.34296006964357,
+          "plaintext": "LLAD94GL1GKIOMQ?30NB4RJYSARIBLIU4AQN0TTKELE3ILY?PAKFOXSTSRI3EG3X?70OE?FCNB1BPKQ2POEEDLIH0V9ISG2XQC2N0JL?TR8A0EBBHVB?GLI0WNS2LEZZEFIVNII0V?D24CGE7E194EKSN?N2J?FUOD?ACZPBTWTZTKF?QBO40BE2V018RQYA23O1?M2",
+          "known_quadgrams": 149,
+          "ciphertext": "XFXVDFDXDDDVDXDXXGDGDVGGVAFVVFXDDXGVGGFAVVXXDGFGDVAXDVDGDXVFGXDGDAADAGVDXDVVXAVVFGDAVVXVGFADGVFDGDADVVGDVDXAGVGAGVVFGVADGAADXDFFGXGXGFDXDGXGFDFGDVFXGGGDGFXFXGFDDAVADVAGFFDDGFXAFFXGGXVAGVVDDDGVVAXVXDDDXFAVXAGVXDXXGGGAVVDDGAGVGVXAFDXXGAGXVDGGADDGXDAGVAGFAGFAVGAFVXVGXFGVDVXDGFGDXAXDGDVDXGDXGFXGADXVFXDXAAXDVVGDDVGGGDVXVGDDDGVFDXGXDDDFAFFXXAFAFDGDVFXDVDAVDVDFADGDGDVXDXGGXDVXGDAAVFFXGGAGDFVGVGDXVXGFAG",
+          "orphan": 0,
+          "edits": [],
+          "header": [
+            "(Continued)",
+            "4) OSM de LP = (01.18 p.m., November 1st)",
+            "SSD BVG KOSPOLI (1/11) 1400 5 TEILE",
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p90_ocr_block2+p90_ocr_block3",
+          "key": "Nov10-12",
+          "score": -9.390219677239656,
+          "plaintext": "GJ4I?CCYVF0R?YCV4LFRYAX?EZEQKPI2G0SVFI2KU3JZN0KBDYN????S2JYJADAGG3C?V?DONFZAZ?2K?KMXY?JKG1YI?WUEX2IZUSJKJUDEBDW??NIJ4M2F1HUHP1V?QUTDKIMGCMKFXNQJI?4?NJAKNPXWW?I?MN2YZNDIRIN?0AUQXJGVSMTDWBIUWEFLX?WJKUGW",
+          "known_quadgrams": 128,
+          "ciphertext": "XFXVDFDXDDDVDXDXXGDGDVGGVAFVVFXDDXGVGGFAVVXXDGFGDVAXDVDGDXVFGXDGDAADAGVDXDVVXAVVFGDAVVXVGFADGVFDGDADVVGDVDXAGVGAGVVFGVADGAADXDFFGXGXGFDXDGXGFDFGDVFXGGGDGFXFXGFDDAVADVAGFFDDGFXAFFXGGXVAGVVDDDGVVAXVXDDDXFAVXAGVXDXXGGGAVVDDGAGVGVXAFDXXGAGXVDGGADDGXDAGVAGFAGFAVGAFVXVGXFGVDVXDGFGDXAXDGDVDXGDXGFXGADXVFXDXAAXDVVGDDVGGGDVXVGDDDGVFDXGXDDDFAFFXXAFAFDGDVFXDVDAVDVDFAD??GDGDVXDXGGXDVXGDAAVFFXGGAGDFVGVGDXVXGFAG",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 72,
+              "ocr_group": "FAD",
+              "layout_hypothesis": "FAD??",
+              "method": "right"
+            }
+          ],
+          "header": [
+            "(Continued)",
+            "4) OSM de LP = (01.18 p.m., November 1st)",
+            "SSD BVG KOSPOLI (1/11) 1400 5 TEILE",
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p90_ocr_block2+p90_ocr_block3+p90_ocr_block4",
+          "key": "Nov10-12",
+          "score": -9.18936425603497,
+          "plaintext": "O02T1???UEJGGHUZEM?WJ??0K0AURJVWQZK4ZBYNKJJUIT??VHQYKJXSUSZQOSY??HIKV?QS?0M?W4UF?ON42JLIJJTRDQWHFPSGQMHS?XWVD?KGOSWENYOKQYDJMMS0?USCH?J?F?2JUTCJ?IFX?MWSL?G2DI4JLS1IJO0I?HJJWO2QFSESOSY?Q?DLLZOX??ADGIOHJIDA?HI1OGHUJOGZTXCXKCZHR?BDDDUWE0?CXFW?BDEUIGG??R1YM2RK?NO4PTDO?Y??1TQGM?4RL??M4PROTEFCL?IQPQ?JKF?HHO??ZGI4?MMB2APTATDAMTBJLAMW2?X4MCUQ?SGFK420KWMYV",
+          "known_quadgrams": 191,
+          "ciphertext": "XFXVDFDXDDDVDXDXXGDGDVGGVAFVVFXDDXGVGGFAVVXXDGFGDVAXDVDGDXVFGXDGDAADAGVDXDVVXAVVFGDAVVXVGFADGVFDGDADVVGDVDXAGVGAGVVFGVADGAADXDFFGXGXGFDXDGXGFDFGDVFXGGGDGFXFXGFDDAVADVAGFFDDGFXAFFXGGXVAGVVDDDGVVAXVXDDDXFAVXAGVXDXXGGGAVVDDGAGVGVXAFDXXGAGXVDGGADDGXDAGVAGFAGFAVGAFVXVGXFGVDVXDGFGDXAXDGDVDXGDXGFXGADXVFXDXAAXDVVGDDVGGGDVXVGDDDGVFDXGXDDDFAFFXXAFAFDGDVFXDVDAVDVDFAD??GDGDVXDXGGXDVXGDAAVFFXGGAGDFVGVGDXVXGFAGDXAGVGFXGXAGDDDDFDVDVGDXVAAXVVDGAAVAFXVFGGFGFFAGVXGVGGDFGFGAFDDXDFDFXV?VGFDDVGGDAGXVGVXG?VFGFFAGAFGAAGFGAGAVFXF?GFVAAVGVVVFVGGDXVFXVGGADFVAGGADAFVVAADDGGDDFDGAFAAVDVGVAXGAFDDDFVVGVGDGVAXGGVDGXXGDGGDGFAGAFVXAGGDFAFAGFVGGGAGGVDVVAVVDAAGGDFAADFDVVVGXGAVVDAAAXVAAAXVDXAAXFVGVGGVDGDGGAAGGVAXAXADVVAAGADX",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 72,
+              "ocr_group": "FAD",
+              "layout_hypothesis": "FAD??",
+              "method": "right"
+            },
+            {
+              "group": 95,
+              "ocr_group": "?VGFDX",
+              "layout_hypothesis": "?VGFD",
+              "method": "right"
+            }
+          ],
+          "header": [
+            "(Continued)",
+            "4) OSM de LP = (01.18 p.m., November 1st)",
+            "SSD BVG KOSPOLI (1/11) 1400 5 TEILE",
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE",
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p90_ocr_block2+p90_ocr_block3+p90_ocr_block4",
+          "key": "Nov7-9",
+          "score": -9.399994622024835,
+          "plaintext": "NEDIJ0E?D0RJC9GGIVWS7N?LMNLVUPQ9XJILHQNYN9LK4KERCTTVQCM??X0IIYLD2?VK23A4J?CYSDK1H?3BW4D?TUUGLI2?TS9UB3GY7QCI0ZKV0GRBN8S1?YGC?3V9IE39AKBYPLS4GKEMUKE020LVFB?0?R2KBKA9XJ?JRV4?BWN4OEM?KUGG?9DXV2U7IM28ZG9WNSSCFYNT?0?J00CZYGW?F?T4TTMAFZGIBUKKNKPYSMKPG1ZQJW3TRL0G?VPYN?8E?V4FZFC44VGGIG0KREXIBYEIKM0I7ZQESERRATJZI0KRUWMUSCEXTY9A2EGLFTISWKXZNIY3IWLSATVM?XLI",
+          "known_quadgrams": 255,
+          "ciphertext": "XFXVDFDXDDDVDXDXXGDGDVGGVAFVVFXDDXGVGGFAVVXXDGFGDVAXDVDGDXVFGXDGDAADAGVDXDVVXAVVFGDAVVXVGFADGVFDGDADVVGDVDXAGVGAGVVFGVADGAADXDFFGXGXGFDXDGXGFDFGDVFXGGGDGFXFXGFDDAVADVAGFFDDGFXAFFXGGXVAGVVDDDGVVAXVXDDDXFAVXAGVXDXXGGGAVVDDGAGVGVXAFDXXGAGXVDGGADDGXDAGVAGFAGFAVGAFVXVGXFGVDVXDGFGDXAXDGDVDXGDXGFXGADXVFXDXAAXDVVGDDVGGGDVXVGDDDGVFDXGXDDDFAFFXXAFAFDGDVFXDVDAVDVDFADGDGDVXDXGGXDVXGDAAVFFXGGAGDFVGVGDXVXGFAGDXAGVGFXGXAGDDDDFDVDVGDXVAAXVVDGAAVAFXVFGGFGFFAGVXGVGGDFGFGAFDDXDFDFXV?VGFDXDVGGDAGXVGVXG?VFGFFAGAFGAAGFGAGAVFXF?GFVAAVGVVVFVGGDXVFXVGGADFVAGGADAFVVAADDGGDDFDGAFAAVDVGVAXGAFDDDFVVGVGDGVAXGGVDGXXGDGGDGFAGAFVXAGGDFAFAGFVGGGAGGVDVVAVVDAAGGDFAADFDVVVGXGAVVDAAAXVAAAXVDXAAXFVGVGGVDGDGGAAGGVAXAXADVVAAGADX",
+          "orphan": 1,
+          "edits": [],
+          "header": [
+            "(Continued)",
+            "4) OSM de LP = (01.18 p.m., November 1st)",
+            "SSD BVG KOSPOLI (1/11) 1400 5 TEILE",
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE",
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p90_ocr_block3+p90_ocr_block4",
+          "key": "Nov1-3",
+          "score": -4.772384835194938,
+          "plaintext": "BVGXKOSPOLIXXNACHAUFGEFANG7NEMFUN?SPRUCHWAFFENSTILLSTANDTUERHEIMITENTE8TAABGESCHLOSZ?NXBEDINGUNGENDOPPELTUNKTFREIEDURCHFAHRTXDARDANELLENXUNDXBOSPORUSXINSCHWARZESMEERSTOP",
+          "known_quadgrams": 158,
+          "ciphertext": "GDGDVXDXGGXDVXGDAAVFFXGGAGDFVGVGDXVXGFAGDXAGVGFXGXAGDDDDFDVDVGDXVAAXVVDGAAVAFXVFGGFGFFAGVXGVGGDFGFGAFDDXDFDFXVVGFDXDVGGDAGXVGVXG?VFGFFAGAFGAAGFGAGAVFXF?GFVAAVGVVVFVGGDXVFXVGGADFVAGGADAFVVAADDGGDDFDGAFAAVDVGVAXGAFDDDFVVGVGDGVAXGGVDGXXGDGGDGFAGAFVXAGGDFAFAGFVGGGAGGVDVVAVVDAAGGDFAADFDVVVGXGAVVDAAAXVAAAXVDXAAXFVGVGGVDGDGGAAGGVAXAXADVVAAGADX",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 23,
+              "ocr_group": "?VGFDX",
+              "layout_hypothesis": "VGFDX",
+              "method": "left"
+            }
+          ],
+          "header": [
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE",
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p90_ocr_block3+p90_ocr_block4",
+          "key": "Aug8-9",
+          "score": -9.147886061668396,
+          "plaintext": "??BLOSZI?SAVGLBPIDPWGZ0MQS5?ORHAN??RV?ST2H?KAITV?W55J?SDPSI0O1SKIW?TJTAVO1LK2FAGODSH??WVFT?3T33JPS?I??UAWFX3?SGVGBSTPLZW?1S?TA??U?SQGJ2CO??GSAS?L??2?1UPWH5WV??BJDKDBB1OV",
+          "known_quadgrams": 80,
+          "ciphertext": "GDGDVXDXGGXDVXGDAAVFFXGGAGDFVGVGDXVXGFAGDXAGVGFXGXAGDDDDFDVDVGDXVAAXVVDGAAVAFXVFGGFGFFAGVXGVGGDFGFGAFDDXDFDFXVVGFDXDVGGDAGXVGVXG?VFGFFAGAFGAAGFGAGAVFXF?GFVAAVGVVVFVGGDXVFXVGGADFVAGGADAFVVAADDGGDDFDGAFAAVDVGVAXGAFDDDFVVGVGDGVAXGGVDGXXGDGGDGFAGAFVXAGGDFAFAGFVGGGAGGVDVVAVVDAAGGDFAADFDVVVGXGAVVDAAAXVAAAXVDXAAXFVGVGGVDGDGGAAGGVAXAXADVVAAGADX",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 23,
+              "ocr_group": "?VGFDX",
+              "layout_hypothesis": "VGFDX",
+              "method": "left"
+            }
+          ],
+          "header": [
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE",
+            "B) OSM v LP (12.52 pem., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01.55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p91_ocr_block1+p91_ocr_block2",
+          "key": "Nov1-3",
+          "score": -4.889681161508053,
+          "plaintext": "KE9NERLEIMATEVIALTRONSPORPEEFNSCHLXKOHLEXUNDXOELXMEHRNACHXTUERKEIXABSENDENXLEDIGLICHLEERDAMPFERFUERRAEUMUNGSZWECKEIMEINVERBEHMENMITM8TTELMEERDIVISIONNACHXKOSPOLIXSENDENSTOP",
+          "known_quadgrams": 169,
+          "ciphertext": "AXADAGVVDVGVGAGGXGVFVVAGAGVVADDXDGAVVDAVAFDGVGAAAGFDVXVVGGGVXFVGGAGVFFGDVVAAFAFXFVAAGVDADDGGDXVAVGGFXADDGFAGGAXDVDDAVAAVFVDVDVGGAGAGDAGFVAGGVDAVVDDGVGVXAFDDVVGADDAFAXVXXGGDAGDGFGGGDAXVGVDDXAGVVGDGGAXXVVDXVAVDGGDGVGDVGAGVXDGVGDXVGVDVGAGGFGAGDDDFVAVAVAXFFGFGDGVXDADAFDVXAXVVXGGFDXGGVVGDVXDFDXVGAFGFDGAGDFGGVDDAGGVDAGVGFADVAGAVAGDDDFGAVAADXFDDVGVG",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 32,
+              "ocr_group": "DVVGAAD",
+              "layout_hypothesis": "DVVGA",
+              "method": "right"
+            },
+            {
+              "group": 40,
+              "ocr_group": "GGAXXD",
+              "layout_hypothesis": "GGAXX",
+              "method": "right"
+            }
+          ],
+          "header": [
+            "(Continued)",
+            "4) OSM v LP (12.52 p.m., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE",
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p91_ocr_block1+p91_ocr_block2",
+          "key": "Aug8-9",
+          "score": -9.096265641125767,
+          "plaintext": "UOLPI?BO?WUNITTCLMZA?LUX?BMZTDHEZ2SHAWA3AHAVG5S?PZISVAS?HIA2?OL5NI?B???L11V3SUS?0H?PPW?H?ZBNI?IM?J?C023U1?QIVNQSVP?GZJ23?ATWVSGOTSMRR33BPOO?1TQ2?SQ1J1V5WILL3SU2SSL?8DVNAGZL",
+          "known_quadgrams": 88,
+          "ciphertext": "AXADAGVVDVGVGAGGXGVFVVAGAGVVADDXDGAVVDAVAFDGVGAAAGFDVXVVGGGVXFVGGAGVFFGDVVAAFAFXFVAAGVDADDGGDXVAVGGFXADDGFAGGAXDVDDAVAAVFVDVDVGGAGAGDAGFVAGGVDAVVDDGVGVXAFDDVVGADDAFAXVXXGGDAGDGFGGGDAXVGVDDXAGVVGDGGAXXVVDXVAVDGGDGVGDVGAGVXDGVGDXVGVDVGAGGFGAGDDDFVAVAVAXFFGFGDGVXDADAFDVXAXVVXGGFDXGGVVGDVXDFDXVGAFGFDGAGDFGGVDDAGGVDAGVGFADVAGAVAGDDDFGAVAADXFDDVGVG",
+          "orphan": 0,
+          "edits": [
+            {
+              "group": 32,
+              "ocr_group": "DVVGAAD",
+              "layout_hypothesis": "DVVGA",
+              "method": "right"
+            },
+            {
+              "group": 40,
+              "ocr_group": "GGAXXD",
+              "layout_hypothesis": "GGAXX",
+              "method": "right"
+            }
+          ],
+          "header": [
+            "(Continued)",
+            "4) OSM v LP (12.52 p.m., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE",
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p91_ocr_block1+p91_ocr_block2+p91_ocr_block3",
+          "key": "Nov16-18",
+          "score": -8.975877312408096,
+          "plaintext": "??GQUXVIMVY2NGHLHINVI?1BDQBGGAAS1V?EIB?WB1DOBDUL?M?CIYNL?P?VMSPGPSW2L??WDBGVPRL?MFLGSNPYLTDPR2ES?EDH?PR??PFD2VV2HAE?NBYP?BQM?KBD?WVE2D?PL2SOIGIESTY?J?L?EKEBD?HG??BVWN?ZST??L2NIY??2ZUHWAK?XEYU?",
+          "known_quadgrams": 87,
+          "ciphertext": "AXADAGVVDVGVGAGGXGVFVVAGAGVVADDXDGAVVDAVAFDGVGAAAGFDVXVVGGGVXFVGGAGVFFGDVVAAFAFXFVAAGVDADDGGDXVAVGGFXADDGFAGGAXDVDDAVAAVFVDVDVGGAGAGDAGFVAGGVDAVVDDGVGVXAFDVGAADDDAFAXVXXGGDAGDGFGGGDAXVGVDDXAGVVGDGAXXDVVDXVAVDGGDGVGDVGAGVXDGVGDXVGVDVGAGGFGAGDDDFVAVAVAXFFGFGDGVXDADAFDVXAXVVXGGFDXGGVVGDVXDFDXVGAFGFDGAGDFGGVDDAGGVDAGVGFADVAGAVAGDDDFGAVAADXFDD?VGVGDDFAGDDDGDVDDVAVDGVXDDDXFXGGXXDVGGDXFAAD",
+          "orphan": 1,
+          "edits": [
+            {
+              "group": 32,
+              "ocr_group": "DVVGAAD",
+              "layout_hypothesis": "VGAAD",
+              "method": "left"
+            },
+            {
+              "group": 40,
+              "ocr_group": "GGAXXD",
+              "layout_hypothesis": "GAXXD",
+              "method": "left"
+            },
+            {
+              "group": 69,
+              "ocr_group": "VGVG",
+              "layout_hypothesis": "?VGVG",
+              "method": "left"
+            }
+          ],
+          "header": [
+            "(Continued)",
+            "4) OSM v LP (12.52 p.m., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE",
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p91_ocr_block1+p91_ocr_block2+p91_ocr_block3",
+          "key": "Nov10-12",
+          "score": -9.153573049721142,
+          "plaintext": "WW1FLRETMIJMQDMYNFZWMWJ4LMIYP?3O1CCI4K0RYM?KIJULYCWSW2FHNYQ?1JIEQ4?3DIJFQVJ?UG32FFJLCHULGHQJTLDCEJGGMQ?JUR3?IIUTQUESOW?DKIMHKDKLMSJM3UWGJKTL?DIDI1DSAMOQM?W?Q?UZE4VPTDQWDG3AUTTEFCJ4OLATW0KK?KCL",
+          "known_quadgrams": 141,
+          "ciphertext": "AXADAGVVDVGVGAGGXGVFVVAGAGVVADDXDGAVVDAVAFDGVGAAAGFDVXVVGGGVXFVGGAGVFFGDVVAAFAFXFVAAGVDADDGGDXVAVGGFXADDGFAGGAXDVDDAVAAVFVDVDVGGAGAGDAGFVAGGVDAVVDDGVGVXAFDVGAADDDAFAXVXXGGDAGDGFGGGDAXVGVDDXAGVVGDGAXXDVVDXVAVDGGDGVGDVGAGVXDGVGDXVGVDVGAGGFGAGDDDFVAVAVAXFFGFGDGVXDADAFDVXAXVVXGGFDXGGVVGDVXDFDXVGAFGFDGAGDFGGVDDAGGVDAGVGFADVAGAVAGDDDFGAVAADXFDD?VGVGDDFAGDDDGDVDDVAVDGVXDDDXFXGGXXDVGGDXFAAD",
+          "orphan": 1,
+          "edits": [
+            {
+              "group": 32,
+              "ocr_group": "DVVGAAD",
+              "layout_hypothesis": "VGAAD",
+              "method": "left"
+            },
+            {
+              "group": 40,
+              "ocr_group": "GGAXXD",
+              "layout_hypothesis": "GAXXD",
+              "method": "left"
+            },
+            {
+              "group": 69,
+              "ocr_group": "VGVG",
+              "layout_hypothesis": "?VGVG",
+              "method": "left"
+            }
+          ],
+          "header": [
+            "(Continued)",
+            "4) OSM v LP (12.52 p.m., November 1st)",
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE",
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p91_ocr_block2+p91_ocr_block3",
+          "key": "Aug8-9",
+          "score": -9.132888014783564,
+          "plaintext": "VISCHOA5HTDB2UTNRN5DW?ADLPI??ZMHF?H?LX558QNSAMODQMP0Z?WL2NG?O82QTBS3KS3HSW3?0?D??3BG11???C1J?LZ?52S?3AILTNSAP80SNH?WPTVW3RN?AGPO?SPP?NCDPP8?AEP58GXWLOTVI5HZAS0SZS3PTS5?LLSHO",
+          "known_quadgrams": 97,
+          "ciphertext": "AFDGVGAAAGFDVXVVGGGVXFVGGAGVFFGDVVAAFAFXFVAAGVDADDGGDXVAVGGFXADDGFAGGAXDVDDAVAAVFVDVDVGGAGAGDAGFVAGGVDAVVDDGVGVXAFDDVVGAADDDAFAXVXXGGDAGDGFGGGDAXVGVDDXAGVVGDGGAXXDVVDXVAVDGGDGVGDVGAGVXDGVGDXVGVDVGAGGFGAGDDDFVAVAVAXFFGFGDGVXDADAFDVXAXVVXGGFDXGGVVGDVXDFDXVGAFGFDGAGDFGGVDDAGGVDAGVGFADVAGAVAGDDDFGAVAADXFDDVGVGDDFAGDDDGDVDDVAVDGVXDDDXFXGGXXDVGGDXFAAD",
+          "orphan": 1,
+          "edits": [],
+          "header": [
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p91_ocr_block2+p91_ocr_block3",
+          "key": "Nov7-9",
+          "score": -9.267774058037064,
+          "plaintext": "IXRP3PT9ALTE1BZ8V41SRGELRRTANTT2IQQO3QV3YX02WJW4BXVBT2?CJIFGG0Y4H0?VAGYJPEDUIUE?9RY3DY?VXW1OTPBTGK244EOTIKLCBLYGL9GLNCE224KXMRU2?K2?DL2ZBZQJ0IKUS30KR3ZM02II44YGURBX122UGG4GT",
+          "known_quadgrams": 147,
+          "ciphertext": "AFDGVGAAAGFDVXVVGGGVXFVGGAGVFFGDVVAAFAFXFVAAGVDADDGGDXVAVGGFXADDGFAGGAXDVDDAVAAVFVDVDVGGAGAGDAGFVAGGVDAVVDDGVGVXAFDDVVGAADDDAFAXVXXGGDAGDGFGGGDAXVGVDDXAGVVGDGGAXXDVVDXVAVDGGDGVGDVGAGVXDGVGDXVGVDVGAGGFGAGDDDFVAVAVAXFFGFGDGVXDADAFDVXAXVVXGGFDXGGVVGDVXDFDXVGAFGFDGAGDFGGVDDAGGVDAGVGFADVAGAVAGDDDFGAVAADXFDDVGVGDDFAGDDDGDVDDVAVDGVXDDDXFXGGXXDVGGDXFAAD",
+          "orphan": 1,
+          "edits": [],
+          "header": [
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p91_ocr_block2+p91_ocr_block3+p91_ocr_block4",
+          "key": "Nov10-12",
+          "score": -9.161327828121724,
+          "plaintext": "WSDS2XNAO?XU?NL34EUA?I?K?R?UF3?MWCKK3UJWM42UF?JD?WSAEFIU14IKBNTTI?T?YI0UEVEO4LWMABAQ4K?VXXRTSHEO?PWE2OIHQDV?DSNGAO2?O2?2JXSKIUAQIQCZGWLLFGFASNELISQ?S?WDVT?KAQXWJKDQEYFG1AUKKIX32PLWCSAHRIUPKI0LTEDU??0XFYF3SPOT?RUZRY2X3GJJED2EIWPH3LNZI2W?W??Z?GALA?QDELL?SI4OLDJDFWEQEPQWC?",
+          "known_quadgrams": 177,
+          "ciphertext": "AFDGVGAAAGFDVXVVGGGVXFVGGAGVFFGDVVAAFAFXFVAAGVDADDGGDXVAVGGFXADDGFAGGAXDVDDAVAAVFVDVDVGGAGAGDAGFVAGGVDAVVDDGVGVXAFDVGAADDDAFAXVXXGGDAGDGFGGGDAXVGVDDXAGVVGDGAXXDVVDXVAVDGGDGVGDVGAGVXDGVGDXVGVDVGAGGFGAGDDDFVAVAVAXFFGFGDGVXDADAFDVXAXVVXGGFDXGGVVGDVXDFDXVGAFGFDGAGDFGGVDDAGGVDAGVGFADVAGAVAGDDDFGAVAADXFDD?VGVGDDFAGDDDGDVDDVAVDGVXDDDXFXGGXXDVGGDXFAADAAXFXVDAXGDGVVDVDXVFDDVDADVDAAFDVDXDXDX?GDGDFDXGXVFVFXADDVXAXXADFGGDVFDFXDXADAXDXFXDFFAVVXAGAXVXXDFDVFXAADVGDDXDDAVDVDXDAVFVADDVXXDAGFFXDAVFAGVGDXFGVDGDGVVDAGGDDFDAAADAADXDVAVFXDFAXDVDVFAFFGVXG?GV",
+          "orphan": 1,
+          "edits": [
+            {
+              "group": 24,
+              "ocr_group": "DVVGAAD",
+              "layout_hypothesis": "VGAAD",
+              "method": "left"
+            },
+            {
+              "group": 32,
+              "ocr_group": "GGAXXD",
+              "layout_hypothesis": "GAXXD",
+              "method": "left"
+            },
+            {
+              "group": 61,
+              "ocr_group": "VGVG",
+              "layout_hypothesis": "?VGVG",
+              "method": "left"
+            }
+          ],
+          "header": [
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p91_ocr_block2+p91_ocr_block3+p91_ocr_block4",
+          "key": "Aug8-9",
+          "score": -9.38533958004367,
+          "plaintext": "ZWAPZ1HMZZ?MXQ2U85PTMTNHT8IZZ3CCSI?LS?J8BTTONMISBZUOZZ??JNJ283INIV?CSLHU1DP?8ON5A3OP?V8RJ?I?NNWLUP1??8OOSXB?L?VHUDIPLEH8RGCP3MH?T5PCE3WDRJTJVCITVM82U?0HVIL32?M3V?ONL?WFB1C2?OP?Z8ISGUAER?HZ5SD?PUNMT8ZGDCVSWFZR5P?WT3OU?1F1L5WD5ZMZEAPGJL5?PBXA5UJ?PJLBJHSOH?15II?HTL?ABJ??LS",
+          "known_quadgrams": 155,
+          "ciphertext": "AFDGVGAAAGFDVXVVGGGVXFVGGAGVFFGDVVAAFAFXFVAAGVDADDGGDXVAVGGFXADDGFAGGAXDVDDAVAAVFVDVDVGGAGAGDAGFVAGGVDAVVDDGVGVXAFDDVVGADDAFAXVXXGGDAGDGFGGGDAXVGVDDXAGVVGDGGAXXVVDXVAVDGGDGVGDVGAGVXDGVGDXVGVDVGAGGFGAGDDDFVAVAVAXFFGFGDGVXDADAFDVXAXVVXGGFDXGGVVGDVXDFDXVGAFGFDGAGDFGGVDDAGGVDAGVGFADVAGAVAGDDDFGAVAADXFDDVGVG?DDFAGDDDGDVDDVAVDGVXDDDXFXGGXXDVGGDXFAADAAXFXVDAXGDGVVDVDXVFDDVDADVDAAFDVDXDXDX?GDGDFDXGXVFVFXADDVXAXXADFGGDVFDFXDXADAXDXFXDFFAVVXAGAXVXXDFDVFXAADVGDDXDDAVDVDXDAVFVADDVXXDAGFFXDAVFAGVGDXFGVDGDGVVDAGGDDFDAAADAADXDVAVFXDFAXDVDVFAFFGVXG?GV",
+          "orphan": 1,
+          "edits": [
+            {
+              "group": 24,
+              "ocr_group": "DVVGAAD",
+              "layout_hypothesis": "DVVGA",
+              "method": "right"
+            },
+            {
+              "group": 32,
+              "ocr_group": "GGAXXD",
+              "layout_hypothesis": "GGAXX",
+              "method": "right"
+            },
+            {
+              "group": 61,
+              "ocr_group": "VGVG",
+              "layout_hypothesis": "VGVG?",
+              "method": "right"
+            }
+          ],
+          "header": [
+            "SSD SSD BVG KOSPOLI (1.11) 01,55 3 TEILE"
+          ]
+        },
+        {
+          "block": "p91_ocr_block3+p91_ocr_block4",
+          "key": "Nov1-3",
+          "score": -6.355024068155021,
+          "plaintext": "GLXSXMXSTXDTSCHXSGABXZUGLXFUERXSCHIFFSAU?QL7ICHXXETRASOXBVGXRUMXKOSPOLIXSXAXBERLINXXFECHXR?X2XGROSSXBXRMX5XBXFRX52758X",
+          "known_quadgrams": 107,
+          "ciphertext": "DDFAGDDDGDVDDVAVDGVXDDDXFXGGXXDVGGDXFAADAAXFXVDAXGDGVVDVDXVFDDVDADVDAAFDVDXDXDX?GDGDFDXGXVFVFXADDVXAXXADFGGDVFDFXDXADAXDXFXDFFAVVXAGAXVXXDFDVFXAADVGDDXDDAVDVDXDAVFVADDVXXDAGFFXDAVFAGVGDXFGVDGDGVVDAGGDDFDAAADAADXDVAVFXDFAXDVDVFAFFGVXG?GV",
+          "orphan": 0,
+          "edits": [],
+          "header": []
+        },
+        {
+          "block": "p91_ocr_block3+p91_ocr_block4",
+          "key": "NSA-undated-CHI-example-18",
+          "score": -9.24880892762514,
+          "plaintext": "2FBO?DCOPACUNSSHLO8Y1YOFQ7JQHITEF5HW8M8KMI2XZ13LGFOKG4LT72MJ1OAZW7O1AOOOO1HDURFDG4TCC155L43?KEA01418XNOFAML8JKJ0AUPOGH",
+          "known_quadgrams": 107,
+          "ciphertext": "DDFAGDDDGDVDDVAVDGVXDDDXFXGGXXDVGGDXFAADAAXFXVDAXGDGVVDVDXVFDDVDADVDAAFDVDXDXDX?GDGDFDXGXVFVFXADDVXAXXADFGGDVFDFXDXADAXDXFXDFFAVVXAGAXVXXDFDVFXAADVGDDXDDAVDVDXDAVFVADDVXXDAGFFXDAVFAGVGDXFGVDGDGVVDAGGDDFDAAADAADXDVAVFXDFAXDVDVFAFFGVXG?GV",
+          "orphan": 0,
+          "edits": [],
+          "header": []
+        }
+      ]
+    }
+  ],
+  "bounded_prior_body_checks": [
+    {
+      "kind": "Lasry et al. 2016 author-paper text",
+      "sha256": "e1fb17031286ee6244b0d36f31197cb5e497d2cbe6fa884e74fc12cab3a9918b",
+      "pattern": "Dardanell|Bospor|Bosphor|Leerdampf|empty ships|coal|Mittelmeerdivision",
+      "matches": [
+        {
+          "line_1based": 1181,
+          "text": "        UND KOHLEN VORRAETE UN-                  coal stocks, it is unfeasible.         VFVGG"
+        },
+        {
+          "line_1based": 1216,
+          "text": "of coal, wagons, and engines, an organized evacuation could not be planned. The situation"
+        }
+      ],
+      "assessment": "Coal matches are from the already published Mackensen withdrawal narrative. No explicit separate discussion of this three-part shipping order was identified by this bounded search."
+    },
+    {
+      "kind": "Lasry thesis text",
+      "sha256": "7d45f384650f95bac1e6310715a985c66f4ab5c31e3bcc70ca8f108a7e989117",
+      "pattern": "Dardanell|Bospor|Bosphor|Leerdampf|empty ships|coal|Mittelmeerdivision",
+      "matches": [
+        {
+          "line_1based": 5859,
+          "text": " 11      AUF       MUNITIONS         VERPFLE-       the ammunition, food, and the coal       GDVGA"
+        },
+        {
+          "line_1based": 5897,
+          "text": "of coal, wagons, and engines, an organized evacuation could not be planned. The situation"
+        }
+      ],
+      "assessment": "Coal matches are from the already published Mackensen withdrawal narrative. No explicit separate discussion of this three-part shipping order was identified by this bounded search."
+    },
+    {
+      "kind": "55-comment 2017 discussion snapshot",
+      "sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "pattern": "Dardanell|Bospor|Bosphor|Leerdampf|empty ships|coal|Mittelmeerdivision",
+      "matches": []
+    }
+  ],
+  "limit": "All three bodies were already present as unreviewed repository candidates. This source edition does not claim historical priority."
+}

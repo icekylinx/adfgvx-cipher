@@ -15,9 +15,9 @@ recovery retains [the catalogued attribution](../../data/keys.json).
 
 ## Reporting order on p201
 
-**Readable German:**
+**Readable German — body excerpt; the unresolved closing reference remains in the raw output below:**
 
-> Erreichte Ziele regelmaessig hierher melden, desgl. wo u. wann erste
+> Erreichte Ziele regelmaessig hierher melden, desgl. wo u. wann ersten
 > Teile voraussichtlich die deutsche Grenze erreichen werden, ob mit
 > Bahn/Fussmarsch und welche Teile des sind. Empfang bestaetigen. OHL.
 
@@ -25,8 +25,9 @@ recovery retains [the catalogued attribution](../../data/keys.json).
 first units are expected to reach the German border, whether by rail or on
 foot, and which units they are. Acknowledge receipt.
 
-The source has the awkward `DESSIND`; this is retained in the German reading
-above. The English translation conveys the sentence's apparent meaning
+The source has the awkward `ERSTEN` and `DESSIND`; both are retained in the
+German reading above. No final `N` is dropped to regularize the former.
+The English translation conveys the sentence's apparent meaning
 without claiming that its spelling is recovered differently. `WERD?N` is
 shown as `werden` using one explicitly costed source-coordinate correction.
 

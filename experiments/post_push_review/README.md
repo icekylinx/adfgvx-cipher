@@ -11,17 +11,17 @@ by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 399 other physical source records**, with all
-22 challenge entries preserved. It adds **204 physical records across 54 source
+This snapshot compares **195 → 416 other physical source records**, with all
+22 challenge entries preserved. It adds **221 physical records across 59 source
 packages** and keeps every earlier record. The separate interpretation and
 open-target method audits add no physical records.
 
-The new source packages account for **45,718 literal source slots** and
-**22,983 modeled plaintext positions**, of which **22,173 have fixed raw labels**
+The new source packages account for **50,157 literal source slots** and
+**25,208 modeled plaintext positions**, of which **24,295 have fixed raw labels**
 under their stated frames. These are coverage counts. They include repeated
 copies, previously identified bodies, conditional geometry and unresolved
 historical numeral meanings; they are not a count of first decipherments or
-universally correct original letters. All 428 observed-coordinate substitutions
+universally correct original letters. All 490 observed-coordinate substitutions
 are recorded locally, separately from source erasures and inserted values.
 The source-slot total includes separately recorded marginal annotations;
 those annotations are not automatically part of a typed analysis frame.
@@ -84,10 +84,15 @@ those annotations are not automatically part of a typed analysis frame.
 | [November 3 medical, radio and withdrawal source editions](../nov3_medical_radio_withdrawal/README.md) | 5 | 921 | 458 | 455 | 3 |
 | [September receipt and front-news inquiry](../september_receipt_and_front_inquiry/README.md) | 2 | 320 | 160 | 158 | 4 |
 | [p97: wireless routing, repetition and supplies](../hungary_connection_and_supplies/README.md) | 3 | 638 | 319 | 319 | 6 |
+| [Poti horse-delivery continuations](../poti_horse_delivery/README.md) | 2 | 450 | 225 | 188 | 20 |
+| [Major Dunst: cancellation of the Turkey assignment](../dunst_assignment/README.md) | 2 | 747 | 373 | 373 | 4 |
+| [Mecklenburg inquiry and Seeflugstation Ost personnel order](../mecklenburg_and_seaplane_personnel/README.md) | 3 | 1066 | 533 | 525 | 11 |
+| [November 3 evening-report copies and November 4 radio notices](../nov3_evening_and_nov4_radio/README.md) | 7 | 1258 | 635 | 577 | 16 |
+| [Turkish armistice report and shipping order](../turkish_armistice_shipping_order/README.md) | 3 | 918 | 459 | 459 | 11 |
 
 The [complete inventory](inventory.json) preserves every added identifier,
 package summary, case path and counting limit. The [inputs](inputs.json)
-pin both catalogues and 849 package/case artifacts. Earlier statuses, subjects
+pin both catalogues and 925 package/case artifacts. Earlier statuses, subjects
 and credits are unchanged; 164 old path fields follow the explicit topic-migration map.
 
 ## Additional interpretation and method audits
@@ -115,11 +120,15 @@ overlapping cases, and the spacing audit retains 91 blocks in 25 cases.
 The [complete presentation coverage](../../docs/reading-conventions-coverage.md)
 classifies every current substantive case and protects each display's bytes
 and local qualifier; new unreviewed pages fail its check. These overlapping
-presentation counts are never added to source-record totals.
+presentation counts are never added to source-record totals. A separate
+[semantic display review](../../docs/reading-conventions-semantic-review.md)
+retains exact unknown fields and exposes prose-only spellings in six cases.
+The p111/p112 package also checks every nonseparator label in seven complete
+readable passages, preserving all five unresolved positions.
 
 ## Independent source-image binding
 
-All **257 delivered source images** have normalized PDF-page, rectangle, scale,
+All **281 delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph

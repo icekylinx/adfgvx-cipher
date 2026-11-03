@@ -47,12 +47,17 @@ Readable core, with the reference retained literally:
 **Readable German:**
 
 > An N.O. Mackensen. Entente meldet `5011` erneut rumänische Besetzung
-> der Dobrudscha. Stellungnahme erbeten. Abt. Fremde Heere `D17U560`.
+> der Dobrudscha. Stellungsnahme [Stellungnahme] erbeten. Abt. Fremde Heere `D17U560`.
 
 The numerical/reference labels **`5011`** and **`D17U560`** remain as read.
 They are not normalized into dates or message numbers. The raw `2` within
 `DOBRU2SCHA` is retained in the raw reading and explicitly repaired locally
 to `D`; this does not reassign the square's digit `2`.
+
+Both machine layers retain `STELLUNGSNAHME`. The bracketed
+**[Stellungnahme]** is a prose-only spelling normalization: its omitted `S`
+is not an additional source-coordinate repair or a change to the edited
+output above.
 
 | Source index, zero-based | Printed group / position, one-based | Change | Treatment |
 | ---: | --- | --- | --- |

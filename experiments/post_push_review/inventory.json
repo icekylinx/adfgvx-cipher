@@ -1,7 +1,7 @@
 {
   "schema": "adfgvx-post-publication-review-v1",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "inputs_sha256": "45b85eea0f42d570d354852af2459fe905f028d6525642a236e61a65e548c24a",
+  "inputs_sha256": "f8470592d0ae120ed117082ee623bbd94c47789466cee8f84adf017f6badfc5d",
   "review_state": "in_progress",
   "initial_push_confirmed_utc": "2026-11-02T23:27:19Z",
   "minimum_followup_end_utc": "2026-11-03T01:27:19Z",
@@ -11,16 +11,17 @@
   "catalogue": {
     "challenge_entries": 22,
     "other_records_before": 195,
-    "other_records_after": 399,
-    "new_physical_records": 204,
+    "other_records_after": 416,
+    "new_physical_records": 221,
     "removed_records": [],
     "prior_metadata_changes_other_than_paths": [],
     "canonical_path_updates": 164
   },
-  "source_package_count": 54,
+  "source_package_count": 59,
   "new_case_pages": [
     "cases/caucasus/nobel_oil_inquiry.md",
     "cases/caucasus/p212_p218_crosscopy.md",
+    "cases/caucasus/poti_horse_delivery.md",
     "cases/caucasus/representative_retention.md",
     "cases/caucasus/tiflis_pioneer_detachment.md",
     "cases/finance/caucasus_hide_purchasing.md",
@@ -53,6 +54,7 @@
     "cases/military/military_intendant_remit.md",
     "cases/military/neuhof_demobilization.md",
     "cases/military/nov10_danube_field_report.md",
+    "cases/military/nov3_evening_report.md",
     "cases/military/nov3_withdrawal_and_night_report.md",
     "cases/military/orient_intelligence.md",
     "cases/military/p175_c3_withdrawal_followup.md",
@@ -60,11 +62,16 @@
     "cases/military/prague_route_and_situation.md",
     "cases/military/repatriation_orders.md",
     "cases/military/romanian_ultimatum_companions.md",
+    "cases/military/seaplane_personnel_return.md",
     "cases/military/transport_and_disarmament_orders.md",
     "cases/military/transylvania_situation_report.md",
+    "cases/military/turkish_armistice_shipping_order.md",
+    "cases/military/turkish_armistice_straits_notice.md",
     "cases/military/turkish_mission_recall.md",
     "cases/military/wallachia_withdrawal_preparations.md",
     "cases/naval/reval_steamer_notice.md",
+    "cases/people/dunst_assignment.md",
+    "cases/people/mecklenburg_inquiry.md",
     "cases/people/medical_company_inquiry.md",
     "cases/people/medical_return_to_unit.md",
     "cases/people/military_mission_recalls.md",
@@ -72,6 +79,7 @@
     "cases/people/spa_berlin_delegates.md",
     "cases/radio/apparatus_sale_request.md",
     "cases/radio/constantinople_address_parts.md",
+    "cases/radio/constantza_station_shutdown.md",
     "cases/radio/constanza_radio_connections.md",
     "cases/radio/damascus_aleppo_report.md",
     "cases/radio/document_destruction.md",
@@ -88,16 +96,17 @@
     "cases/radio/radio_contacts_and_keys.md",
     "cases/radio/right_rhine_equipment.md",
     "cases/radio/september_radio_procedure.md",
+    "cases/radio/telefunken_staff_inquiry.md",
     "cases/radio/telegram_priority.md"
   ],
-  "source_image_count": 257,
-  "pinned_artifact_count": 849,
+  "source_image_count": 281,
+  "pinned_artifact_count": 925,
   "coverage_totals": {
-    "physical_records": 204,
-    "source_slots": 45718,
-    "modeled_plaintext_positions": 22983,
-    "fixed_raw_label_positions_under_stated_geometry": 22173,
-    "known_coordinate_substitutions": 428
+    "physical_records": 221,
+    "source_slots": 50157,
+    "modeled_plaintext_positions": 25208,
+    "fixed_raw_label_positions_under_stated_geometry": 24295,
+    "known_coordinate_substitutions": 490
   },
   "source_packages": [
     {
@@ -1977,6 +1986,175 @@
         "source_length_changes": 0,
         "published_key_changes": 0
       }
+    },
+    {
+      "name": "poti_horse_delivery",
+      "record_ids": [
+        "p59_A2",
+        "p59_A3"
+      ],
+      "case_pages": [
+        "cases/caucasus/poti_horse_delivery.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 450,
+        "modeled_plaintext_positions": 225,
+        "fixed_raw_label_positions_under_stated_geometry": 188,
+        "known_coordinate_substitutions": 20
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 450,
+        "valid_source_coordinates": 412,
+        "modeled_coordinates": 450,
+        "plaintext_positions": 225,
+        "baseline_fixed_positions": 188,
+        "candidate_fixed_positions": 213,
+        "known_coordinate_substitutions": 20,
+        "source_or_model_erasure_fills": 26,
+        "unfilled_printed_erasure_coordinates": 12,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "dunst_assignment",
+      "record_ids": [
+        "p95_A1",
+        "p95_A2"
+      ],
+      "case_pages": [
+        "cases/people/dunst_assignment.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 747,
+        "modeled_plaintext_positions": 373,
+        "fixed_raw_label_positions_under_stated_geometry": 373,
+        "known_coordinate_substitutions": 4
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "literal_source_slots_including_prefixed_dash": 747,
+        "valid_source_coordinates": 746,
+        "working_frame_slots": 746,
+        "plaintext_positions": 373,
+        "raw_fixed_positions": 373,
+        "known_coordinate_substitutions": 4,
+        "source_erasure_fills": 0,
+        "excluded_observed_coordinates": 0,
+        "excluded_noncoordinate_source_marks": 1,
+        "added_coordinates": 0,
+        "published_key_changes": 0
+      }
+    },
+    {
+      "name": "mecklenburg_and_seaplane_personnel",
+      "record_ids": [
+        "p141_A1",
+        "p141_A2",
+        "p141_B"
+      ],
+      "case_pages": [
+        "cases/military/seaplane_personnel_return.md",
+        "cases/people/mecklenburg_inquiry.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 1066,
+        "modeled_plaintext_positions": 533,
+        "fixed_raw_label_positions_under_stated_geometry": 525,
+        "known_coordinate_substitutions": 11
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 1066,
+        "valid_source_coordinates": 1058,
+        "modeled_coordinates": 1066,
+        "plaintext_positions": 533,
+        "baseline_fixed_positions": 525,
+        "candidate_fixed_positions": 533,
+        "known_coordinate_substitutions": 11,
+        "source_or_model_erasure_fills": 8,
+        "printed_dash_fills": 7,
+        "unreadable_visible_glyph_fills": 1,
+        "unfilled_printed_erasure_coordinates": 0,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov3_evening_and_nov4_radio",
+      "record_ids": [
+        "p111_A1",
+        "p112_A1",
+        "p112_A2",
+        "p112_A3",
+        "p112_B",
+        "p112_C",
+        "p112_D"
+      ],
+      "case_pages": [
+        "cases/military/nov3_evening_report.md",
+        "cases/military/turkish_armistice_straits_notice.md",
+        "cases/radio/constantza_station_shutdown.md",
+        "cases/radio/telefunken_staff_inquiry.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 7,
+        "source_slots": 1258,
+        "modeled_plaintext_positions": 635,
+        "fixed_raw_label_positions_under_stated_geometry": 577,
+        "known_coordinate_substitutions": 16
+      },
+      "original_summary": {
+        "physical_records": 7,
+        "source_slots": 1258,
+        "valid_source_coordinates": 1212,
+        "analysis_frame_slots": 1270,
+        "plaintext_positions": 635,
+        "raw_fixed_positions": 577,
+        "edited_fixed_positions": 630,
+        "known_coordinate_substitutions": 16,
+        "source_mask_fills": 42,
+        "missing_coordinate_fills": 11,
+        "inserted_model_coordinates": 12,
+        "source_exclusions": 0,
+        "published_key_changes": 0
+      }
+    },
+    {
+      "name": "turkish_armistice_shipping_order",
+      "record_ids": [
+        "p90_B1",
+        "p91_A2",
+        "p91_A3"
+      ],
+      "case_pages": [
+        "cases/military/turkish_armistice_shipping_order.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 918,
+        "modeled_plaintext_positions": 459,
+        "fixed_raw_label_positions_under_stated_geometry": 459,
+        "known_coordinate_substitutions": 11
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 918,
+        "valid_source_coordinates": 918,
+        "modeled_coordinates": 918,
+        "plaintext_positions": 459,
+        "baseline_fixed_positions": 459,
+        "candidate_fixed_positions": 459,
+        "known_coordinate_substitutions": 11,
+        "source_or_model_erasure_fills": 0,
+        "unfilled_printed_erasure_coordinates": 0,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
     }
   ],
   "additional_packages": [
@@ -1987,6 +2165,8 @@
   ],
   "new_record_ids": [
     "p58_B",
+    "p59_A2",
+    "p59_A3",
     "p59_B",
     "p60_A1",
     "p60_A2",
@@ -2016,12 +2196,17 @@
     "p82_A4",
     "p83_B",
     "p86_A",
+    "p90_B1",
+    "p91_A2",
+    "p91_A3",
     "p92_B1",
     "p93_A2",
     "p93_A3",
     "p93_A4",
     "p94_A5",
     "p94_A6",
+    "p95_A1",
+    "p95_A2",
     "p97_A",
     "p97_B",
     "p97_C",
@@ -2040,6 +2225,13 @@
     "p110_A2",
     "p110_B",
     "p110_C",
+    "p111_A1",
+    "p112_A1",
+    "p112_A2",
+    "p112_A3",
+    "p112_B",
+    "p112_C",
+    "p112_D",
     "p113_A3",
     "p113_B9",
     "p114_A1",
@@ -2086,6 +2278,9 @@
     "p137_C",
     "p137_D",
     "p138_B",
+    "p141_A1",
+    "p141_A2",
+    "p141_B",
     "p142_A",
     "p142_B",
     "p142_C",

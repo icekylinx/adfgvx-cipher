@@ -1,0 +1,206 @@
+{
+  "schema": "adfgvx-reading-conventions-semantic-audit-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "review_date_utc": "2026-11-03",
+  "scope": "Focused corrections to six readable case displays or their local qualifications; no source recovery, key change, new repair, or whole-corpus translation certification.",
+  "before_snapshot_sha256": "e6b9d3aa4fc47c760af3d5710a536ef23d9576e1352642bd76b795aca2e4d765",
+  "protected_unchanged": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/messages.json": "1e4013252eb54065435ae1591abea729df8e40e482a6fe57165b512a9ba9c373",
+    "data/prior_readings.json": "40ea793ede1feb74a273b33e15eec2aa2fd301f9a7b633fe596253bf9e5e7624",
+    "data/supplementary_readings.json": "8f6d175b7d4c130d0d3a216d96300b5f1b66bbe0edee34060137da1d7956be51",
+    "experiments/p187b_adjacent_swap/result.json": "e6d923c4304427d7bd9c4b94db1cb4cc7a6fda964c50be23444eef41ec06defb",
+    "experiments/corpus_joint/p205_inputs.json": "542a54f149b3b60fcd9eb57b67adb92b148dd477a55a6ad1c8923facd0eb16b4",
+    "experiments/corpus_joint/p205_readings.json": "147394bd192f217549bd5106ff5c29fbd9250b0217849698ed230af0d267f82e",
+    "experiments/zitag_purchase_orders/inputs.json": "c2db945ecd421688e0c75cddfefe4ad64d62ac624055dbad950432fea18433f6",
+    "experiments/zitag_purchase_orders/certificates.json": "95bc2690771f0241613391b276864847b3c9a3b1df050405a50fcff8bb4da7e4",
+    "experiments/radio_contacts_and_keys/inputs.json": "87487f9517fb468dfaeb735e0921ec5b8bfd3d31e048fab5f9abbe7b6c484633",
+    "experiments/radio_contacts_and_keys/certificates.json": "53fd79ed742e4226c3cfdb6774ce1bbf70f42e81333d5cd63ee4696a6c96b7eb",
+    "experiments/open_targets_continuation/inputs.json": "3e725d540949ed1b654d15d5e9282e49acf6ba2029443fbead7e606ffed9a1d8",
+    "experiments/open_targets_continuation/certificates.json": "c1aad20e833840b5a134223bed09fa7fbee33f1efbbaab2cae0e06517bc11b6c"
+  },
+  "case_files_changed": 6,
+  "fenced_blocks_preserved": 26,
+  "prior_headings_preserved": 33,
+  "prior_inline_code_occurrences_preserved": 143,
+  "changes": [
+    {
+      "path": "cases/finance/p205_A.md",
+      "quote_index": 0,
+      "correction": "Retain GEMUEGT with a separately marked prose normalization; display the five unresolved closing positions explicitly.",
+      "required_notes": [
+        "**[genügt]** is a prose-only normalization, not a fourth coordinate repair.",
+        "one after `K`, three in `1???`, and one in `B?`."
+      ],
+      "display_before": "> Zur Geldanforderung bei OHL: Sendung von dreißig Millionen Kronen angesichts starken Notenmangels nur in Teilbeträgen möglich. Wiener Bankverein, Wien, überweist heute telegraphisch an Oesterr.-Ungarische Bank, Kronstadt, zur Verfügung deutscher Etappenverwaltung zunächst fünf Millionen gemischter Stückelung. Drahtet, ob glatte Auszahlung erfolgte und ob dieser Betrag vorläufig genügt. Sonst anfordert weitere Summe bei General-Kriegskasse, Zweigstelle Berlin. K … BD Nr. 1… Strich 11 B…\n",
+      "display_after": "> Zur Geldanforderung bei OHL: Sendung von dreißig Millionen Kronen angesichts starken Notenmangels nur in Teilbeträgen möglich. Wiener Bankverein, Wien, überweist heute telegraphisch an Oesterr.-Ungarische Bank, Kronstadt, zur Verfügung deutscher Etappenverwaltung zunächst fünf Millionen gemischter Stückelung. Drahtet, ob glatte Auszahlung erfolgte und ob dieser Betrag vorläufig gemügt [genügt]. Sonst anfordert weitere Summe bei General-Kriegskasse, Zweigstelle Berlin. K `?` BD Nr. `1???` Strich 11 `B?`.\n",
+      "file_sha256_before": "6151effd70a61aedfb805a682cfbf0aafd0778a82c05ecc20695e9b11d2b477e",
+      "file_sha256_after": "2ece6becfe7a55448d29bdbd7b551927e1f81be40b611d7ee1dd2bf05532ea85",
+      "machine_strings_and_prior_headings_unchanged": true
+    },
+    {
+      "path": "cases/p187b.md",
+      "quote_index": 0,
+      "correction": "Show the exact closing field with seven unresolved positions and its known X; preserve the earlier word interpretation and conditional swap.",
+      "required_notes": [
+        "The literal closing field `NACHCHEF?X??????` retains all seven unresolved",
+        "earlier normalization and the separately stated swap model below."
+      ],
+      "display_before": "> Soweit Fernschreiber-Verbdg. [nicht arbeitet], Rest schriftlich. Nachchef [?] […]\n",
+      "display_after": "> Soweit Fernschreiber-Verbdg. [nicht arbeitet], Rest schriftlich. `NACHCHEF?X??????`.\n",
+      "file_sha256_before": "6972219ae6bd149b9d0e70848222fb7c54c3972cf45cb8738e4b954bbdf9affb",
+      "file_sha256_after": "925d5c7e3da2289f702e74dec2bfd61fc1ba487932b5791e4f02bef277d469e7",
+      "machine_strings_and_prior_headings_unchanged": true
+    },
+    {
+      "path": "cases/finance/zitag_purchase_orders.md",
+      "quote_index": 1,
+      "correction": "Remove an extra display-only R by spacing the received SOFORTIGERUECKKEHR as sofortige Rückkehr.",
+      "required_notes": [
+        "The final `SOFORTIGERUECKKEHR` is spaced as **sofortige Rückkehr**. No extra",
+        "grammar. The leading ellipsis marks words before this continuation excerpt,"
+      ],
+      "display_before": "> … dass nur bereits bezahlte Partien verladen werden sollen. Stornieret sämtl. andere Kontrakte wegen allgemeiner Lage. Ersuchen Westernhagen nochmals sofortiger Rückkehr.\n",
+      "display_after": "> … dass nur bereits bezahlte Partien verladen werden sollen. Stornieret sämtl. andere Kontrakte wegen allgemeiner Lage. Ersuchen Westernhagen nochmals sofortige Rückkehr.\n",
+      "file_sha256_before": "8da252fadbd6897c7a983bc8224a356faa113fe0ebb81bd9998f0105d14d3bdd",
+      "file_sha256_after": "76113934c4f01d94d3726274d401050b65b6c24e331a3b90cbdf038cdc0bad11",
+      "machine_strings_and_prior_headings_unchanged": true
+    },
+    {
+      "path": "cases/military/dobrudscha_report.md",
+      "quote_index": 0,
+      "correction": "Retain STELLUNGSNAHME and identify the bracketed shorter spelling as a prose-only normalization.",
+      "required_notes": [
+        "Both machine layers retain `STELLUNGSNAHME`. The bracketed",
+        "**[Stellungnahme]** is a prose-only spelling normalization: its omitted `S`"
+      ],
+      "display_before": "> An N.O. Mackensen. Entente meldet `5011` erneut rumänische Besetzung\n> der Dobrudscha. Stellungnahme erbeten. Abt. Fremde Heere `D17U560`.\n",
+      "display_after": "> An N.O. Mackensen. Entente meldet `5011` erneut rumänische Besetzung\n> der Dobrudscha. Stellungsnahme [Stellungnahme] erbeten. Abt. Fremde Heere `D17U560`.\n",
+      "file_sha256_before": "e7d069e31d19460c58fc61e262e87ce4c81174b9f9ad058b8be0b5c0d6c39fde",
+      "file_sha256_after": "e4692a56cd9e1a46944a7c77f23492ebb28d4c0c2bb1823b734658d217a64d9e",
+      "machine_strings_and_prior_headings_unchanged": true
+    },
+    {
+      "path": "cases/military/p201_p206_orders.md",
+      "quote_index": 0,
+      "correction": "Restore literal ERSTEN in the display and label the body as an excerpt that omits the separately preserved reference.",
+      "required_notes": [
+        "**Readable German — body excerpt; the unresolved closing reference remains in the raw output below:**",
+        "German reading above. No final `N` is dropped to regularize the former."
+      ],
+      "display_before": "> Erreichte Ziele regelmaessig hierher melden, desgl. wo u. wann erste\n> Teile voraussichtlich die deutsche Grenze erreichen werden, ob mit\n> Bahn/Fussmarsch und welche Teile des sind. Empfang bestaetigen. OHL.\n",
+      "display_after": "> Erreichte Ziele regelmaessig hierher melden, desgl. wo u. wann ersten\n> Teile voraussichtlich die deutsche Grenze erreichen werden, ob mit\n> Bahn/Fussmarsch und welche Teile des sind. Empfang bestaetigen. OHL.\n",
+      "file_sha256_before": "a1fd14b536ab934f571769d7abb02e09bf040420b509e7dac745de7a12eb0dbe",
+      "file_sha256_after": "28c47830ffd47b70d53fad737ffe1ef3080cf7c37864023fe3cfee9eb455b190",
+      "machine_strings_and_prior_headings_unchanged": true
+    },
+    {
+      "path": "cases/supplementary/p89_A2.md",
+      "quote_index": 0,
+      "correction": "Preserve the earlier credited quote; explicitly distinguish its Ex. interpretation from literal EZ.",
+      "required_notes": [
+        "The literal abbreviation in both machine strings is `EZ`. The quoted",
+        "**Ex.** belongs to the earlier interpretation; it is not an exact spacing",
+        "of that abbreviation or a newly priced `Z→X` repair. No office title is"
+      ],
+      "display_before": "> […] aufnahmefaehig. Nikolajew auf Wunsch Ex. Kiew bestimmt. Hptm. Joel, V. O. FECH, Odessa: [welche Schiffe] etwa wegen Eisenbahnlage nach Nikolajew zugehen haben. […]\n",
+      "display_after": "> […] aufnahmefaehig. Nikolajew auf Wunsch Ex. Kiew bestimmt. Hptm. Joel, V. O. FECH, Odessa: [welche Schiffe] etwa wegen Eisenbahnlage nach Nikolajew zugehen haben. […]\n",
+      "file_sha256_before": "8ffcdaf388a6175903f74d23b3ea30f9ed911792b71d64d752317e7801df4090",
+      "file_sha256_after": "38b3097cef8916ff1f9a6f2ce9c7f4f36175ba118e76f3e105f52f2221ff7c67",
+      "machine_strings_and_prior_headings_unchanged": true
+    }
+  ],
+  "mappings": [
+    {
+      "path": "cases/finance/p205_A.md",
+      "fence_index": 0,
+      "source_character_offset_in_fence_body": 381,
+      "source_fragment": "GEMUEGT",
+      "display_fragment": "gemügt [genügt]",
+      "id": "p205_A3_literal_spelling",
+      "kind": "exact_display_mapping",
+      "remove_bracketed_alternative": true
+    },
+    {
+      "path": "cases/finance/p205_A.md",
+      "fence_index": 0,
+      "source_character_offset_in_fence_body": 463,
+      "source_fragment": "KX?XBDXNRX1???STRICH11XB?X",
+      "display_fragment": "K `?` BD Nr. `1???` Strich 11 `B?`.",
+      "id": "p205_A4_unknown_footer",
+      "kind": "exact_display_mapping",
+      "source_X_as_spacing": true,
+      "unknown_positions": 5
+    },
+    {
+      "path": "cases/p187b.md",
+      "fence_index": 1,
+      "source_character_offset_in_fence_body": 55,
+      "source_fragment": "NACHCHEF?X??????",
+      "display_fragment": "`NACHCHEF?X??????`",
+      "id": "p187b_unknown_footer",
+      "kind": "exact_display_mapping",
+      "unknown_positions": 7
+    },
+    {
+      "path": "cases/finance/zitag_purchase_orders.md",
+      "fence_index": 7,
+      "source_character_offset_in_fence_body": 109,
+      "source_fragment": "SOFORTIGERUECKKEHR",
+      "display_fragment": "sofortige Rückkehr",
+      "id": "p103_B2_final_word_spacing",
+      "kind": "exact_display_mapping"
+    },
+    {
+      "path": "cases/military/dobrudscha_report.md",
+      "fence_index": 2,
+      "source_character_offset_in_fence_body": 77,
+      "source_fragment": "STELLUNGSNAHME",
+      "display_fragment": "Stellungsnahme [Stellungnahme]",
+      "id": "p142_C_literal_spelling",
+      "kind": "exact_display_mapping",
+      "remove_bracketed_alternative": true
+    },
+    {
+      "path": "cases/military/p201_p206_orders.md",
+      "fence_index": 0,
+      "source_character_offset_in_fence_body": 58,
+      "source_fragment": "WANNERSTENTEILE",
+      "display_fragment": "wann ersten\n> Teile",
+      "id": "p201_B1_literal_ERSTEN",
+      "kind": "exact_display_mapping"
+    },
+    {
+      "path": "cases/supplementary/p89_A2.md",
+      "fence_index": 0,
+      "source_character_offset_in_fence_body": 35,
+      "source_fragment": "EZ",
+      "display_fragment": "Ex.",
+      "id": "p89_A2_prior_abbreviation_interpretation",
+      "kind": "attributed_interpretation",
+      "attributed_display_labels": "EX",
+      "qualification": "**Ex.** belongs to the earlier interpretation; it is not an exact spacing"
+    }
+  ],
+  "checked_nonissues": [
+    {
+      "path": "cases/finance/military_allowances.md",
+      "finding": "The p134 A4 display omits raw 0 under an already explicit 0→X candidate costing one observed-coordinate substitution. No correction is required."
+    },
+    {
+      "path": "cases/naval/p210_A.md",
+      "finding": "The displayed spelling changes are accounted for by four explicit coordinate substitutions."
+    },
+    {
+      "path": "cases/radio/p211_key_schedule.md",
+      "finding": "The displayed spelling changes are accounted for by three substitutions and one invalid-glyph fill."
+    }
+  ],
+  "limits": [
+    "Only the six exact fragment mappings and one explicitly attributed mismatch listed here are verified semantically at character level.",
+    "Bracketed spelling alternatives are prose-only normalizations and are excluded from the matching literal stream. They introduce no priced coordinate repair.",
+    "The prior p89 interpretation remains quoted as attributed; the check verifies that its mismatch with EZ is disclosed, not that Ex. is the correct historical expansion.",
+    "No plaintext source, key assignment, analysis frame, certificate, coordinate repair price, or earlier attributed machine string is changed.",
+    "The frozen evidence digests and before-snapshot checks separately detect any change to the protected files, machine blocks or existing headings."
+  ]
+}

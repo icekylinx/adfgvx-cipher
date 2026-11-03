@@ -4,7 +4,7 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**103 reviewed physical records across 37 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**105 reviewed physical records across 39 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -21,6 +21,8 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [Radio contact, operating times and an unavailable key](radio_contacts_and_keys.md) | p100 C, p137 D, p142 A, p150 A2 |
 | [November 3 radio transmission schedule: surviving second part](nov3_transmission_schedule.md) | p110 A2 |
 | [p111 B — Use radio for important messages](p111_B.md) | p111 B |
+| [Telefunken inquiry about returning personnel](telefunken_staff_inquiry.md) | p112 B |
+| [Conditional Constantza station-shutdown notice](constantza_station_shutdown.md) | p112 C |
 | [Additional listening times on the Ringbahn radio circuit](nov3_ringbahn_notice.md) | p117 B |
 | [Request for replies and radio priority](telegram_priority.md) | p128 A1, p128 A2 |
 | [Radio service: Eilvese repetition and a garbled Caucasus message](p132_radio_service.md) | p132 A, p132 B, p132 C |
@@ -76,6 +78,8 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p100 C](radio_contacts_and_keys.md#p100-c-direct-contact-while-the-wire-is-broken) | Ask when direct contact is possible; wire interrupted; raw BRSLAU/MEGLICH preserved | 79/79 fixed raw labels; 0 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p110 A2](nov3_transmission_schedule.md#p110-a2) | Surviving radio schedule and unchanged Ringbahn traffic | 140/140 fixed raw labels; 2 coordinate substitutions and 0 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key and earlier OCR candidates credited separately |
 | [p111 B](p111_B.md) | Use radio for important messages | 154/154 direct positions; no coordinate edits | icekylinx and GPT-6 Astra Pro (2026) |
+| [p112 B](telefunken_staff_inquiry.md#p112-b) | Telefunken inquiry about returning personnel | 94/94 raw fixed positions; 0 observed substitutions; native source length | icekylinx and GPT-6 Astra Pro (2026); published keys retain earlier authorship |
+| [p112 C](constantza_station_shutdown.md#p112-c) | Conditional Constantza radio-station closure | 49/61 raw fixed positions; 1 observed substitutions; conditional twelve-coordinate loss, eight arbitrary-loss minima | icekylinx and GPT-6 Astra Pro (2026); published keys retain earlier authorship |
 | [p117 B](nov3_ringbahn_notice.md#p117-b) | Additional listening times and a reception-quality notice | 128/128 fixed raw positions; 1 coordinate substitutions, 0 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier unreviewed OCR candidates credited separately |
 | [p128 A1](telegram_priority.md) | Missing replies to telegrams 569, 592, 598; requests brief plaintext instructions | 113/113 fixed raw labels; 1 known-coordinate substitutions and 0 source-erasure fills; ordinary complete source frame | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier OCR-derived candidates credited separately |
 | [p128 A2](telegram_priority.md) | Suggest explicit radio priority for these telegrams; literal Horstmann signature | 134/141 fixed raw labels; 5 known-coordinate substitutions and 7 source-erasure fills; ordinary complete source frame | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier OCR-derived candidates credited separately |
