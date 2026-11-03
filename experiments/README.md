@@ -13,6 +13,10 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [p198 A wheat-shipping query](p198_shipping_query/README.md) | Conditional 244-slot frame; 118/122 edited positions | All 2,700 source maps, both C/G glyph sensitivities and 432 global completions checked. |
+| [p152 A2 crossing fragment](p152_crossing_fragment/README.md) | Native 128-slot partial word proposal | Seven observed substitutions and two fills; name and footer preserved, optional place spellings separately priced. |
+| [p164 D receipt acknowledgement](p164_acknowledgment/README.md) | Native 58-position partial edition | Earlier complete raw output retained; ERHALTEN costs two observed substitutions. |
+| [p167 C1 mission address](p167_mission_address/README.md) | Native 66-position first part | Six observed substitutions and two fills; opaque fields and both linked digit assignments retained. |
 | [Danube and Arad source witnesses](danube_arad_witnesses/README.md) | Two new sources; eleven restored p159 coordinates | Reviewed; source-only pricing of 694,320 maps leaves eight origins with one completed stream. |
 | [Romanian ultimatum evening report](nov11_romanian_ultimatum_report/README.md) | 98-position body | Reviewed; two observed substitutions, all eight minimum source maps retained. |
 | [Third Ringbahn-key reception](nov13_ringbahn_retransmission/README.md) | p187 B1 fragment | Reviewed; 84 source-linked coordinates with original donor origins. |

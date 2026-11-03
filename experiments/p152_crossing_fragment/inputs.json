@@ -1,0 +1,166 @@
+{
+  "schema": "adfgvx-p152-crossing-fragment-inputs-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "cases/military/p152_crossing_fragment.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p152_A2",
+      "path": "sources/p152_A2.png",
+      "storage": "external_pdf_reference",
+      "pdf_page_1based": 155,
+      "crop_pdf_points": [
+        68,
+        174,
+        550,
+        314
+      ],
+      "render_scale": 4,
+      "width": 1928,
+      "height": 560,
+      "sha256": "a57aefae06ba82b099c9fe7492ada659afd814cd08f463112665eebd67b7cc6f",
+      "rgb_sha256": "134fe3b8c4de6045835a8ebf47503e2d45738b2e556bfe7dcb0f1e6f30f8711b"
+    }
+  ],
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "records": [
+    {
+      "id": "p152_A2",
+      "printed_page": 152,
+      "source_section": "A2",
+      "header_literal": "A) UKS v ZON (--- November 7th); 2 TL; RICHI-128",
+      "source_rows": [
+        "GEAFD AFFVX VVGAF AADVF DADVF FAVDX DAAXD GAVGF",
+        "DFDFD VXA-- DDGVA FXAFF DAFAV FVXGG XXDGF GGGXF",
+        "AAAXV AVGGA FFVGF DFDXV AVGFD DXFVA FAVFA FGFAG",
+        "VDVVD AFD"
+      ],
+      "source_slots": 128,
+      "advertised_length": 128,
+      "valid_source_coordinates": 125,
+      "expected_raw": "BIHVARC8IORO?AK1ILEPEVERG?NGVXERSU?HEXXAXO0QX17XROEDX1QXNRXV054X",
+      "edited_output": "BISVARC8IORO?AKEINEUEBERGANGSVERSUCHEXXAXO0QX17XROEDX1QXNRXV054X",
+      "readable_german": "Bis VARC8IORO?A keine Uebergangsversuche. A O0Q 17 ROED 1Q NR V054.",
+      "expected_substitutions": 7,
+      "expected_mask_fills": 2,
+      "source_variants": [
+        {
+          "id": "primary_opaque_name",
+          "prefix": "BISVARC8IORO?AKEINEUEBERGANGSVERSUCHE",
+          "edited_output": "BISVARC8IORO?AKEINEUEBERGANGSVERSUCHEXXAXO0QX17XROEDX1QXNRXV054X",
+          "expected_substitutions": 7,
+          "expected_mask_fills": 2
+        },
+        {
+          "id": "optional_VARCSIOROVA",
+          "prefix": "BISVARCSIOROVAKEINEUEBERGANGSVERSUCHE",
+          "edited_output": "BISVARCSIOROVAKEINEUEBERGANGSVERSUCHEXXAXO0QX17XROEDX1QXNRXV054X",
+          "expected_substitutions": 9,
+          "expected_mask_fills": 3
+        },
+        {
+          "id": "optional_attested_VERCSIOROVA",
+          "prefix": "BISVERCSIOROVAKEINEUEBERGANGSVERSUCHE",
+          "edited_output": "BISVERCSIOROVAKEINEUEBERGANGSVERSUCHEXXAXO0QX17XROEDX1QXNRXV054X",
+          "expected_substitutions": 11,
+          "expected_mask_fills": 3
+        }
+      ],
+      "protected_fields": [
+        "VARC8IORO?A",
+        "O0Q",
+        "17",
+        "ROED",
+        "1Q",
+        "NR",
+        "V054"
+      ]
+    }
+  ],
+  "attestation_sha256": "235897deb1ea31c0b7101f4261c4cf4a9a83837d3af01df60f39b6810ac8d253",
+  "indexing": "Machine source and plaintext indices are zero-based.",
+  "prior_credit": "Published Nov4–6 period key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker(2016), and Lasry2017 key list. Earlier reviewed p152 source and unchanged-key diagnostic outputs are retained as prior work. The present contribution is a priced conditional lexical edition and independently sourced place-name comparison.",
+  "limits": [
+    "The negative phrase belongs to the proposed seven-substitution word edition; it is not a native fixed statement.",
+    "The primary name preserves literal8 and the one unassigned printedE mask. The exact VARCSIOROVA spelling is not independently attested; the1896 primary source attests VERCSIOROVA.",
+    "All three editions retain the native128-slot frame and complete raw footer; no structural move, lost slot or numerical relabelling is used."
+  ]
+}

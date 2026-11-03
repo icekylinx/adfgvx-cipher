@@ -6415,6 +6415,72 @@
       ]
     },
     {
+      "path": "cases/military/p152_crossing_fragment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "4ea3150b9572d768e1b7f7615552939516164ddf2c8a89e8cfb5f859c6fc8c9e",
+      "review_basis": "Original PDF glyph and boundary audit; independent source-map/repair repricing and all full-square roundtrips checked. Partial readings, linked masks and conditional fields retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "4cf344a07660482773f034928e9ef97c1daa3ac137ba539a0ff3f75cb9b05a95",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 128 printed slots, including E and two dashes:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        },
+        {
+          "index": 1,
+          "sha256": "5c497e157523387cd24221fbb3e05c73755e277e04c44a7977416d96f97be087",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — unchanged Nov4–6 key, native order and length:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        },
+        {
+          "index": 2,
+          "sha256": "1a3add5ecbf0226e0d586435cc4b5eec98dbc8db15eb5506a49b28fe40c165d9",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — seven observed substitutions and two printed-mask fills; native frame and opaque name retained:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        },
+        {
+          "index": 3,
+          "sha256": "a6c0e6bc25cb8a0411e2c102ecf29af02dd7e106c568d9704737dafd16a1e739",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — optional VARCSIOROVA spelling; nine total observed substitutions and three total mask fills:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        },
+        {
+          "index": 4,
+          "sha256": "9e58107bd8434b99941dc2ec8da897c6fddd858e47fad2f9213f48aa3c9b20dd",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — optional attested VERCSIOROVA spelling; eleven total observed substitutions and three total mask fills:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        },
+        {
+          "index": 5,
+          "sha256": "13d8e263c9214a0119ee5c905e27475c42043abbc7fd9e7661e5311b80ee69c3",
+          "role": "reproduction_command",
+          "caption_required": true,
+          "caption": "## Reproduce",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "ddba0c29f497cb97aa42cf5f1860a30b6269de5a2bfffa32ebc10ae92b8e1353",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — conditional word edition; name and complete footer retained literally:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        }
+      ]
+    },
+    {
       "path": "cases/military/p163_A.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "167f488f4819393836d16ccc16b43866739ade763403c6dd5dca1a82f46627f9",
@@ -8360,6 +8426,48 @@
           "caption_required": true,
           "caption": "**Readable German:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/naval/p198_shipping_query.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "0e9d23beb072fff5bd12432571022336d99adc4daa12992c13049c290b1ff0d9",
+      "review_basis": "Original PDF glyph and boundary audit; independent source-map/repair repricing and all full-square roundtrips checked. Partial readings, linked masks and conditional fields retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "405a92800a5758e302ff3bd2e762077a9b0cc9f1154349f02e177f30d24d2a43",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — conditional 244-slot frame; every printed mask and inserted slot unassigned:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        },
+        {
+          "index": 1,
+          "sha256": "d56d59e12888594cd1dd3b73c173c859e32a28859d826be338aa5e675166e56e",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — same frame; five observed substitutions, six printed-mask fills and one inserted-slot fill:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        },
+        {
+          "index": 2,
+          "sha256": "ff134549cf729e83946d8c7d8e14f6a0926e2506def3ccb21c5c1c0bb09ae68d",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 247 glyph slots, including invalid letters and masks:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "1edeb891340a36ba0ef3d25e1d2104a9a5879b58a7164c1bd0482c1c2114ad21",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — conditional word edition; received spelling, names and quantity retained:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
         }
       ]
     },
@@ -14604,6 +14712,98 @@
           "caption_required": true,
           "caption": "**Readable German — both unresolved time-cell alternatives retained:**",
           "review_note": "Explicit visible layer caption, with its local qualifier retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/p164_acknowledgment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "a81ccda3c9c07fcc356f414a6dd924bd4559a0ff9c23b4c773d2539ec15186c8",
+      "review_basis": "Original PDF glyph and boundary audit; independent source-map/repair repricing and all full-square roundtrips checked. Partial readings, linked masks and conditional fields retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "33049b0497f6b307245589f7d16b72862f7cf115db3e0b02c438e6a42357c66d",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 116 native coordinates:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        },
+        {
+          "index": 1,
+          "sha256": "735fe9f9fd01af1cbead79913e5a7f6a359e2cf7e28863c17d68570965878ed3",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — unchanged Nov7–9 key, complete native frame:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        },
+        {
+          "index": 2,
+          "sha256": "50a22c03498ccf7575ede9df0a85b660db0f8c85bb5f82c86b0044402a9c2ca1",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — two observed-coordinate substitutions, zero fills or frame changes:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        },
+        {
+          "index": 3,
+          "sha256": "cbecdece1003988558c763fc23e243e1d89506862b1879cc4ec08c642e248b68",
+          "role": "reproduction_command",
+          "caption_required": true,
+          "caption": "## Reproduce",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "720cc6a1d2d14b8b35cd8c187772e6314b8c3b9fbbfdf7d1bd1f42a774de85a8",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — partial acknowledgement; opaque fields retained verbatim:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/p167_mission_address.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "a8cb6a67c1014526af9d8096ecf43cf647279032b0cc905928465142fc85c06a",
+      "review_basis": "Original PDF glyph and boundary audit; independent source-map/repair repricing and all full-square roundtrips checked. Partial readings, linked masks and conditional fields retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "d63fcfe7a8c78958b7c4b2131b85adf2875472467e1588425bab3e272176d60b",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — native 132-slot frame, unchanged Nov7–9 key; 61/66 fixed labels:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        },
+        {
+          "index": 1,
+          "sha256": "d6102389cc0aa8ce4c30a267785058a238c7ff384d688a73710f344ed141400b",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — same native frame; six observed substitutions and two printed-mask fills; 63/66 fixed labels:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        },
+        {
+          "index": 2,
+          "sha256": "8936c8d39532b175f4417d8052b43361eaf169fc888501fc8fe7c12e2602e32e",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 132 native slots; the dash and invalid Z are literal:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "fff7c4f1c070241383a0900058f6a2e24f04d505c52e020cbfd290a54edead43",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — primary word proposal; six observed-coordinate substitutions and two printed-mask fills; three unresolved positions retained:**",
+          "review_note": "Source, raw, priced proposal and readable content compared with the certificate; unknown fields and optional alternatives retained."
         }
       ]
     },

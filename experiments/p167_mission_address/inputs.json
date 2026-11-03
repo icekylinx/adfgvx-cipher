@@ -1,0 +1,217 @@
+{
+  "schema": "adfgvx-gap21-armistice-source-inputs-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "indexing": "All source, model and plaintext indices are zero-based.",
+  "case": "cases/radio/p167_mission_address.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p167_C1_reviewed.png",
+      "storage": "external_pdf_reference",
+      "pdf_page_1based": 170,
+      "crop_pdf_points": [
+        40,
+        520,
+        550,
+        625
+      ],
+      "render_scale": 4,
+      "width": 2040,
+      "height": 420,
+      "sha256": "7d6f50b36d7410d7f88828e782bf14ab570e095122a225b4032d24c899992eb1",
+      "rgb_sha256": "9d1421bc97d7b7bd862910030ea1ee06b90307fda00e5cbdd254b365b7626849"
+    }
+  ],
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "p167_C1",
+      "printed_page": 167,
+      "source_section": "C1",
+      "key_id": "Nov7-9",
+      "advertised_length": 132,
+      "source_slots": 132,
+      "source_rows": [
+        "AXVXX VFGDD GVVG- VVDVV DDDDX AGVGD DAAXG AVGDV",
+        "XFAVD AVDXV FVVVA GAAXA XGDDD GFGVG GVGDG DVVVD",
+        "FVDVD DDDDD ZVVGX FVVFF GVFXF XXGDV GVVXV VXVGV",
+        "DVXVF DXDDF AF"
+      ],
+      "expected_raw": "ANMILBMIFLIONXA?TLG0RMX10XRELAXXNACHUIC0TENC?EAXROEMX?XKRX130?1?XX",
+      "readable_candidate": "ANMILBMISSIONXABTLG0RMX10XRELAXXNACHRICHTENCHEFXROEMX?XKRX130?1?XX",
+      "readable_german": "An MILB Mission. Abtlg 0RM. 10. RELA. Nachrichtenchef. Roem ?. KR 130?1?.",
+      "optional_separator_candidate": "ANMILXMISSIONXABTLG0RMX10XRELAXXNACHRICHTENCHEFXROEMX?XKRX130?1?XX",
+      "protected_fields": [
+        "MILB",
+        "0RM",
+        "10",
+        "RELA",
+        "ROEM",
+        "KR",
+        "130"
+      ],
+      "unknown_fields": [
+        {
+          "plaintext_index": 53,
+          "pair": "XA",
+          "name": "alpha"
+        },
+        {
+          "plaintext_index": 61,
+          "pair": "VF",
+          "name": "beta"
+        },
+        {
+          "plaintext_index": 63,
+          "pair": "XA",
+          "name": "alpha"
+        }
+      ]
+    }
+  ],
+  "header": {
+    "printed_date": "9th NOVEMBER, 1918.",
+    "literal": "C) NKJ, YZ, WAU v LP (03.21 a.m., November 10th); AS MOM 2015 NKJ AS 15 MINS. (9/11) 2 TLE; 1 TL; RICHI-132",
+    "reading": "LP transmits to NKJ, YZ and WAU. MOM and the header service notation remain literal. Only the first part is identified here."
+  },
+  "prior_ocr": {
+    "path": "prior_ocr.json",
+    "sha256": "6db3d729f896c8aa5113b1566b37f2d9893491a967541ed84081f502796f95a1",
+    "origin": "experiments/p153_corpus/inputs.json",
+    "origin_sha256": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc"
+  },
+  "source_review": "Two independent inspections of the original PDF confirmed all 132 glyphs, the invalid Z in ZVVGX, the printed dash in GVVG-, final VXVGV, and literal header MOM.",
+  "prior_credit": {
+    "period_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016); George Lasry (2017 key list)",
+    "earlier_digital_evidence": "The unreviewed p167 OCR block is retained separately.",
+    "current_work": "icekylinx and GPT-6 Astra Pro: source transcription, partial service-address reading, exact word repairs and global unknown-cell account."
+  },
+  "limits": [
+    "The primary candidate retains MILB, 0RM and RELA without identifying an institution, unit or location.",
+    "The wording proposals MISSION, ABTLG and NACHRICHTENCHEF cost six observed-coordinate changes and two printed-mask fills; no source slot is inserted, excluded or reordered.",
+    "Reading the MILB B as separator X is a separately priced optional proposal, costing two further observed-coordinate substitutions.",
+    "The three remaining unknown positions use two globally coupled square cells. Their two completions are retained without choosing historical numerals.",
+    "The identified record is a service address and routing/signature fragment, not recovery of the unlocated second-part body."
+  ]
+}

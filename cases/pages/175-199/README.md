@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 150–174](../150-174/README.md) · [pp. 200–224 →](../200-224/README.md)
 
-**6 challenge entries · 102 other reviewed entries · 25 printed pages · 108 physical sources.**
+**6 challenge entries · 103 other reviewed entries · 25 printed pages · 109 physical sources.**
 
 Jump to page: [p175](#p175) · [p176](#p176) · [p177](#p177) · [p178](#p178) · [p179](#p179) · [p180](#p180) · [p181](#p181) · [p182](#p182) · [p183](#p183) · [p184](#p184) · [p185](#p185) · [p186](#p186) · [p187](#p187) · [p188](#p188) · [p189](#p189) · [p190](#p190) · [p191](#p191) · [p192](#p192) · [p193](#p193) · [p194](#p194) · [p195](#p195) · [p196](#p196) · [p197](#p197) · [p198](#p198) · [p199](#p199).
 
@@ -298,6 +298,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p198 A](../../naval/p198_shipping_query.md#p198-a) | Purchase price, freight and transport insurance for wheat delivered to Poti | Reviewed 247 native slots; conditional 244 frame excludes 4 and adds 1; raw 111/122; word edition 118/122 with 5 observed substitutions and 7 fills; all four minimum maps and linked quantity alternatives retained | icekylinx and GPT-6 Astra Pro (2026); published key and earlier OCR credited |
 | [p198 B](../../context/transport_197_198.md) | Repeated equipment transport to Darmstadt | Clearer near-parallel; editorial changes explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p198 C](../../context/transport.md#independent-transport-context) | Repeated lorry departure and Sunday stay | Direct partial reading; separate from challenge D | icekylinx and GPT-6 Astra Pro (2026) |
 | [p198 E](../../context/transport_197_198.md) | Repeated lorry, trailer and petrol-pump order | Literal duplicate-group deletion; partial reading | icekylinx and GPT-6 Astra Pro (2026) |

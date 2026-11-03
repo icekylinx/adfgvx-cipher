@@ -1,0 +1,246 @@
+{
+  "schema": "adfgvx-gap21-late-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "cases/naval/p198_shipping_query.md",
+  "indexing": "Machine indices are zero-based. Original-source boundaries precede that source slot.",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p198_A_reviewed.png",
+      "pdf_page_1based": 201,
+      "crop_pdf_points": [
+        65,
+        200,
+        550,
+        315
+      ],
+      "render_scale": 5,
+      "width": 2425,
+      "height": 575,
+      "sha256": "28e5daf91e1a7bfd4b6460f793f9c4d52c8510bfcb5c2a8374857bc24ea24a8b",
+      "rgb_sha256": "34fbcdd0312ee0ef585f78463e67348e846687957559b78c249674d17794134e",
+      "storage": "external_pdf_reference"
+    }
+  ],
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "p198_A",
+      "printed_page": 198,
+      "source_section": "A",
+      "advertised_length": 244,
+      "header": "A) IWE v KI (17.21 p.m., November15th); VON POT AN IWE SS18.06 WIR GEN TRA; RICHI-244; Very irregular spark",
+      "source_rows": [
+        "XADTAF AATAGV DAVUV GXDAG XDUDN DXUAX XXDDF DVGVD",
+        "XAXVX VGCXV XXXVG VXGVV XXXAD AGDXG AVVAA XXGDV",
+        "AXGGA VGGAA XGAX DFAGD FAADX DGGVG DXVVG VADAX",
+        "DVDDX GDG-- GVVVV XXDXV VVGVD VVVXD DVVDX GGFGV",
+        "GDAVG VADVG XDAXD GVVDV GVAVV DXDVD DCGGV XGXDA",
+        "GXFGD VAFVX DXDVV DDDGV AGGAX AXAFD VXXVG DDDAX",
+        "AXVDX X"
+      ],
+      "key_id": "Nov7-9",
+      "source_slots": 247,
+      "analysis_frame": {
+        "kind": "overfull_groups_short_group_and_surplus_ending",
+        "excluded_source_indices": [
+          4,
+          8,
+          245,
+          246
+        ],
+        "insert_unknown_before_original_source": 92,
+        "model_slots": 244
+      },
+      "edited_output": "DRAHTETKAUFPREISSCHIFFSFRACHTTRANSPORVERSICHERUNGFUERENDESEPTXMITDAMPFER??PASIAUNDIBALIAPOTIXGELIEFERTEX11??0KXPUDWEIZENXX",
+      "readable_german": "Drahtet Kaufpreis, Schiffsfracht, Transporversicherung fuer Ende Sept. mit Dampfer ??PASIA und IBALIA Poti gelieferte 11??0K Pud Weizen."
+    }
+  ],
+  "geometry_scope": {
+    "initial_groups": [
+      [
+        0,
+        6
+      ],
+      [
+        6,
+        12
+      ]
+    ],
+    "exclude_from_each_initial_group": 1,
+    "short_group_source_range": [
+      92,
+      96
+    ],
+    "insert_one_unknown_at_boundaries": [
+      92,
+      93,
+      94,
+      95,
+      96
+    ],
+    "ending_source_range": [
+      241,
+      247
+    ],
+    "excluded_ending_slots": 2,
+    "model_slots": 244,
+    "maps": 2700,
+    "scope": "One exclusion per overfull initial group, one unknown insertion at any boundary of the short XGAX group, and two exclusions from the final six printed coordinates."
+  },
+  "prior_ocr": {
+    "path": "prior_ocr.json",
+    "sha256": "4418c400cc7b4049daf3494413de41cda269e349b14e53974e2f03af1effb1f7",
+    "source_path": "experiments/p153_corpus/inputs.json",
+    "source_sha256": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc",
+    "source_record_id": "p198_ocr_block1"
+  },
+  "prior_credit": [
+    "Published period key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list).",
+    "Earlier repository OCR retained the source as an unverified block; its full snapshot is preserved here.",
+    "Source restoration, conditional frame and readable edition: icekylinx and GPT-6 Astra Pro."
+  ],
+  "limits": [
+    "Printed page and reception date remain 15 November; Nov7-9 is the identifier of the registered key that decrypts the body, not a corrected source date.",
+    "The source explicitly says Very irregular spark. Four source slots are excluded and one unknown slot is added; this is a conditional model, not a uniquely authenticated error mechanism.",
+    "TRANSPOR is the received spelling. No T is silently added to the encoded stream.",
+    "Steamer names remain ??PASIA and IBALIA. The first-name initial domain differs among tied frames. No vessel identity is asserted.",
+    "The quantity remains literal 11??0K. Its two unresolved positions obey one global 5/6 square completion and one retained source-mask coordinate."
+  ],
+  "glyph_review": {
+    "source_indices": [
+      49,
+      192
+    ],
+    "primary_readings": [
+      "C",
+      "C"
+    ],
+    "alternative_readings": [
+      "G",
+      "G"
+    ],
+    "basis": "Both glyphs are C-like without a clear G bar at high resolution. Preserve C as an invalid source glyph; independently retain all C/G combinations for sensitivity."
+  }
+}

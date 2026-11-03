@@ -275,6 +275,12 @@ jobs:
           python experiments/september_radio_instructions/verify.py --verify
           python experiments/siegfried_assignment_cancellation/verify.py --verify
           python experiments/staatsbank_accounting_cheques/verify.py --verify
+      - name: Verify source-gap reading editions
+        run: |
+          python experiments/p152_crossing_fragment/verify.py --verify
+          python experiments/p164_acknowledgment/verify.py --verify
+          python experiments/p167_mission_address/verify.py --verify
+          python experiments/p198_shipping_query/verify.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |
           python experiments/p198_word_search/verify.py

@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**244 reviewed entries across 93 case pages, representing 244 physical sources; 244 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**245 reviewed entries across 94 case pages, representing 245 physical sources; 245 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -48,6 +48,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [Wallachia withdrawal preparations: p150 B1–B5](wallachia_withdrawal_preparations.md) | p150 B1, p150 B2, p150 B3, p150 B4, p150 B5 |
 | [November 7 report fragments and a separate telegram acknowledgment](nov7_fragment_and_acknowledgment.md) | p151 A1, p151 A2, p151 B |
 | [Report of surrender to a Soldiers Council](soldiers_council_surrender.md) | p151 C |
+| [p152 A2 — Proposed report on crossing attempts](p152_crossing_fragment.md) | p152 A2 |
 | [November 7: Danube crossings and short message reports](nov7_danube_and_message_reports.md) | p152 B2, p152 C, p152 D, p153 A3, p153 B1 |
 | [An airfield and German troops: the surviving third part on p154](airfield_german_troop_fragment.md) | p154 B3 |
 | [Gomel route derailment and station-train forwarding](nov7_derailment_and_trains.md) | p155 D, p169 B |
@@ -208,6 +209,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p151 A2](nov7_fragment_and_acknowledgment.md#p151-a2) | Enemy movement toward FEHERTEMPLOM; unfinished army-march fragment | Native 186 coordinates; one substitution; only part 2 of source-labeled 5-part message | icekylinx and GPT-6 Astra Pro (2026); published partial Nov7–9 key; earlier candidates retained |
 | [p151 B](nov7_fragment_and_acknowledgment.md#p151-b) | Acknowledgment of telegram 11212; separate handwritten duplicate layer | 161 composite slots; 156 typed frame; 3 substitutions; five handwritten slots retained separately with conditional exclusion costs | icekylinx and GPT-6 Astra Pro (2026); published partial Nov7–9 key; earlier candidates retained |
 | [p151 C](soldiers_council_surrender.md#p151-c) | Gouvernement and nearby barracks reported surrendered to Soldiers Council | Native 154 coordinates; zero edits; location and ROU identity not inferred | icekylinx and GPT-6 Astra Pro (2026); published partial Nov7–9 key; earlier candidates retained |
+| [p152 A2](p152_crossing_fragment.md#p152-a2) | Conditional report on crossing attempts; place VARC8IORO?A and footer retained | Native 128 slots; raw 61/64; proposed BIS/KEINE/UEBERGANGSVERSUCHE needs 7 observed substitutions and 2 mask fills; name 8 and one unknown remain; optional place forms separately priced | icekylinx and GPT-6 Astra Pro (2026); earlier source review and published Nov4–6 key credited; primary historical name attestation separate |
 | [p152 B2](nov7_danube_and_message_reports.md#p152-b2) | Security force near Belgrad attacked after a crossing | Native 190-slot frame; 3 observed-coordinate substitutions and 4 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p152 C](nov7_danube_and_message_reports.md#p152-c) | Morning report: no special events | Native 108-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p152 D](nov7_danube_and_message_reports.md#p152-d) | Receipt of a FunkSpruch with literal numerical fields | Native 140-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |

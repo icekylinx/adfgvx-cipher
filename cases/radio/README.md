@@ -4,7 +4,7 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**201 reviewed entries across 85 case pages, representing 201 physical sources; 200 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**203 reviewed entries across 87 case pages, representing 203 physical sources; 202 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -64,7 +64,9 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [Berlin General Staff map-sheet request](map_sheet_request.md) | p162 B1 |
 | [Wire communications, return instructions and the Tiraspol continuation](nov9_wire_return_source_family.md) | p162 C1, p166 C1, p166 C2 |
 | [p164 B — Dismantling the station and marching to Temesvar](p164_B.md) | p164 B |
+| [p164 D — Partial receipt acknowledgement](p164_acknowledgment.md) | p164 D |
 | [p166 — a second witness of the newspaper-dispatch request](newspaper_dispatch_witnesses.md) | p166 B1, p166 B2 |
+| [p167 C1 — Mission and Nachrichtenchef service address](p167_mission_address.md) | p167 C1 |
 | [Station control and the Seifert service exchange](seifert.md) | p168 A, p168 B, p169 A, p172 A, p172 B, p174 B, p174 C, p174 D, p174 E |
 | [Newspaper sacks arriving via Orsova](newspaper_dispatch.md) | p171 B1, p171 B2 |
 | [Destroy written material and report by telephone](document_destruction.md) | p177 A |
@@ -213,10 +215,12 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p162 B1](map_sheet_request.md#p162-b1) | General Staff Berlin map-sheet request; coupled quantity and map-scale digits unresolved | Conditional 182-slot model; 89/91 edited fixed; 2 observed edits,3 source fills,1 missing fill; 0/1 gap tie and F/E sensitivity retained | icekylinx and GPT-6 Astra Pro (2026 source edition); Lasry/Niebel/Kopal/Wacker published partial key; prior OCR bodies and Norbert digit hypothesis retained |
 | [p162 C1](nov9_wire_return_source_family.md#p162-c1) | Wire communications and return instructions | Native117-coordinate fragment;312-frame raw0/156;195 observed prefix coordinates copied from p166; conditional156-label source-linked reading | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; prior OCR and p162 C2 edition retained |
 | [p164 B](p164_B.md) | Dismantle the station and resume calls after reaching Temesvar | 69/70 raw positions; two substitutions; 0500 is a separate digit inference | icekylinx and GPT-6 Astra Pro (2026) |
+| [p164 D](p164_acknowledgment.md#p164-d) | Partial receipt acknowledgement to O.H.L., with O.K.M. closing and opaque references | Reviewed partial acknowledgement; native 116 coordinates and 58/58 fixed labels; ERHALTEN requires two observed substitutions; all opaque references retained | icekylinx and GPT-6 Astra Pro (2026); earlier contextual raw reading and published period key credited |
 | [p166 B1](newspaper_dispatch_witnesses.md) | Berlin newspaper sacks received via Orsova; first-part common body fully source-pair supported | 100/100 fixed positions; 1 observed-coordinate substitutions and 1 mask fills; prior witness costs unchanged | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier source editions and unreviewed body leads retained |
 | [p166 B2](newspaper_dispatch_witnesses.md) | Damaged dispatch-order witness; two old letter proposals gain mixed-coordinate support | 92/93 fixed positions; 7 observed-coordinate substitutions and 49 mask fills; prior witness costs unchanged | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier source editions and unreviewed body leads retained |
 | [p166 C1](nov9_wire_return_source_family.md#p166-c1) | Wire communications and return instructions | Native311 coordinates; one source-supported missingX in advertised312 frame; raw155/156; five optional observed substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; prior OCR and p162 C2 edition retained |
 | [p166 C2](nov9_wire_return_source_family.md#p166-c2) | Tiraspol border-fire continuation | Native100 coordinates; raw50/50; one optional observed substitution supported by p162 C2 | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; prior OCR and p162 C2 edition retained |
+| [p167 C1](p167_mission_address.md#p167-c1) | Mission address and Nachrichtenchef routing/signature field | Native 132-slot first part; raw 61/66; partial word proposal 63/66 with six observed substitutions and two source-mask fills; MILB/0RM/RELA retained; three linked unknown positions | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
 | [p168 A](seifert.md) | Station under a soldiers' council; operation unchanged | 92/92 raw positions; spelling omission retained | Lasry, Niebel, Kopal and Wacker |
 | [p168 B](seifert.md) | Cologne soldiers' council plans to occupy a radio station | Two explicit coordinate repairs | Childs; Lasry, Niebel, Kopal and Wacker |
 | [p168 C](../p158.md#earlier-historical-reading-of-a-component) | Repeated Munich routing order 11338 | Parallel witness to the p 159 B component | Prior body: Childs (1918), Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro |
