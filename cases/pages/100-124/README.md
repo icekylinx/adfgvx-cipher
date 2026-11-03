@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 75–99](../075-099/README.md) · [pp. 125–149 →](../125-149/README.md)
 
-**3 challenge entries and 83 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**3 challenge entries and 85 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p100](#p100) · [p101](#p101) · [p102](#p102) · [p103](#p103) · [p104](#p104) · [p105](#p105) · [p106](#p106) · [p107](#p107) · [p108](#p108) · [p109](#p109) · [p110](#p110) · [p111](#p111) · [p112](#p112) · [p113](#p113) · [p114](#p114) · [p115](#p115) · [p116](#p116) · [p117](#p117) · [p118](#p118) · [p119](#p119) · [p120](#p120) · [p121](#p121) · [p122](#p122) · [p123](#p123) · [p124](#p124).
 
@@ -134,6 +134,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p109 B](../../p109.md) | Evening enemy-division report toward Belgrade | Near-parallel supporting p 109; word alternatives remain | icekylinx and GPT-6 Astra Pro (2026) |
+| [p109 C1](../../military/nov3_northeast_foot_march.md#p109-c1) | Two-part march notice and officer dispatch: a priced editorial reading | 105/105 native raw positions; 14 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
+| [p109 C2](../../military/nov3_northeast_foot_march.md#p109-c2) | General Staff officer to be dispatched by air; literal closing EINS4 and 7023 | 59/61 native raw positions; 2 coordinate substitutions + 2 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
 
 ## p110
 

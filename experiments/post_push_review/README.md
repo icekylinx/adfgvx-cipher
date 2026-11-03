@@ -11,18 +11,18 @@ by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 565 other physical source records**, with all
-22 challenge entries preserved. It adds **370 physical records across 112 source
+This snapshot compares **195 → 577 other physical source records**, with all
+22 challenge entries preserved. It adds **382 physical records across 119 source
 packages** and keeps every earlier record. Interpretation and open-target
 method audits add no physical records.
 
-The source packages account for **78,199 literal source slots** and
-**39,349 modeled plaintext positions**, of which
-**37,891 have fixed raw labels** under their stated frames.
+The source packages account for **80,180 literal source slots** and
+**40,339 modeled plaintext positions**, of which
+**38,837 have fixed raw labels** under their stated frames.
 These are coverage counts, including repeated copies, prior body readings,
 conditional frames and unresolved historical numerals. They are not a count
 of first decipherments or independently authenticated historical letters.
-All **748 observed-coordinate substitutions** remain separately priced.
+All **783 observed-coordinate substitutions** remain separately priced.
 Printed-mask fills, missing-slot fills, copied prefixes and source-layout
 exclusions keep their distinct units in each package. In particular, the
 copy-conditioned p157 A1 record contributes **0/95 fixed raw positions**;
@@ -144,6 +144,13 @@ its copied values are excluded from the fixed-raw total.
 | [Gokieloff return payment stop](../gokieloff_return_payment_stop/README.md) | 2 | 336 | 168 | 166 | 4 |
 | [An accommodation-area report with unresolved army and place labels](../jaeger_accommodation_area/README.md) | 1 | 230 | 115 | 110 | 1 |
 | [Short arrival, departure and car enquiries on November 12](../nov12_arrival_departure_and_car/README.md) | 4 | 220 | 110 | 103 | 1 |
+| [Radio relay and march notice](../radio_relay_and_march_notice/README.md) | 3 | 536 | 268 | 266 | 16 |
+| [An enquiry about an MMD command or representative](../mmd_command_whereabouts/README.md) | 1 | 126 | 63 | 59 | 1 |
+| [A repeated negotiation assessment and a departure-order reference](../nov18_negotiation_repetition/README.md) | 2 | 484 | 242 | 228 | 5 |
+| [Postponed departure, a supper query and a farewell](../nov14_15_departure_and_supper/README.md) | 3 | 368 | 184 | 181 | 7 |
+| [Southern hungary positions part2](../southern_hungary_positions_part2/README.md) | 1 | 300 | 150 | 129 | 0 |
+| [A parallel car enquiry with an explicit extra-coordinate model](../car_query_parallel_frame/README.md) | 1 | 37 | 18 | 18 | 1 |
+| [Nov6 embassy 8956 annotation](../nov6_embassy_8956_annotation/README.md) | 1 | 130 | 65 | 65 | 5 |
 
 ## Additional interpretation and method audits
 
@@ -177,11 +184,11 @@ retains exact unknown fields and exposes prose-only spellings in six cases. A fo
 The p111/p112 package also checks every nonseparator label in seven complete
 readable passages, preserving all five unresolved positions.
 
-The [live readable-label audit](../../data/reviews/live_readable_mappings_20261103.json) now checks 122 records in 68 case pages: 10,435 ordered nonseparator labels, 61 literal unresolved positions, and 3 explicitly declared display-only letters. It reads the actual Markdown quotations and their linked raw or edited streams, including protected internal separators and positional question marks. Its original reviewed mappings remain unchanged as further records are appended.
+The [live readable-label audit](../../data/reviews/live_readable_mappings_20261103.json) now checks 134 records in 76 case pages: 11,318 ordered nonseparator labels, 81 literal unresolved positions, and 3 explicitly declared display-only letters. It reads the actual Markdown quotations and their linked raw or edited streams, including protected internal separators and positional question marks. Its original reviewed mappings remain unchanged as further records are appended.
 
 ## Independent source-image binding
 
-All **451 distinct delivered source images** have normalized PDF-page, rectangle, scale,
+All **462 distinct delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph

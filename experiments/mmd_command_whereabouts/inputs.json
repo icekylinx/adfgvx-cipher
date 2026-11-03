@@ -1,0 +1,248 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "An enquiry about an MMD command or representative",
+  "case": "cases/naval/mmd_command_whereabouts.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p190_reviewed.png",
+      "pdf_page_1based": 193,
+      "crop_pdf_points": [
+        50,
+        430,
+        530,
+        515
+      ],
+      "render_scale": 3,
+      "sha256": "abcb1a66df05cef4a79b2f63048c77728f1e030c9de4aba9cbb8a616d49470f7",
+      "width": 1440,
+      "height": 255,
+      "channels": 3,
+      "rgb_sha256": "31774e7dfee5df9fab8d93a96dde647d72b8ed56f45ec781c2074bb8b3a90d87"
+    }
+  ],
+  "keys": {
+    "Nov13-15b": {
+      "id": "Nov13-15b",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "column_count": 16,
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "square_rows": [
+        "H??BMU",
+        "F15PX0",
+        "DJLR??",
+        "??S6VO",
+        "NKZ?AW",
+        "ITEGC?"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "234789QY",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 244,
+          "pdf_page_1based": 247,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "baseline_differences": [
+        {
+          "coordinate": "AD",
+          "baseline": "2",
+          "audited": "?"
+        },
+        {
+          "coordinate": "AF",
+          "baseline": "3",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FV",
+          "baseline": "4",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FX",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GA",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GD",
+          "baseline": "9",
+          "audited": "?"
+        },
+        {
+          "coordinate": "VG",
+          "baseline": "Q",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "Y",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 24,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "AD",
+            "proposed": "2"
+          },
+          {
+            "row_column": "AF",
+            "proposed": "3"
+          },
+          {
+            "row_column": "FV",
+            "proposed": "4"
+          },
+          {
+            "row_column": "FX",
+            "proposed": "7"
+          },
+          {
+            "row_column": "GA",
+            "proposed": "8"
+          },
+          {
+            "row_column": "GD",
+            "proposed": "9"
+          },
+          {
+            "row_column": "VG",
+            "proposed": "Q"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "Y"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p190_C",
+      "title": "Enquiry whether an MMD command or representative is present",
+      "key_id": "Nov13-15b",
+      "header_literal": "C) --- v --- (06.05 p.m., November 14th); FUER ASO RAT 13.41; RICHI-126",
+      "edited_output": "BEFINDETSICHDORTKOMMANDOXXMMDXXODERVERTRETERXADMIRALSTAB15?6?D?",
+      "readable_german": "Befindet sich dort Kommando MMD oder Vertreter. Admiralstab 15?6?D?.",
+      "meaning": "The message asks whether the command labeled MMD, or a representative, is present at the destination. It closes with Admiralstab and the unresolved reference 15?6?D?. The source does not expand MMD or identify the destination.",
+      "protected_fields": [
+        "MMD",
+        "15?6?D?"
+      ],
+      "notes": [
+        "The native source contains126 slots, including the final AAGFF G. The first-row fifth group has a Y-like or Y/V-uncertain third glyph, conservatively retained as FVYAG and masked at source 22.",
+        "The raw KOMM?NDO unknown comes from the fully observed VG square cell, not from the Y-like source glyph. Its domain is {2,3,4,7,8,9,Q,Y}; proposing A therefore costs an observed G→V substitution at source 112. No unknown key cell is silently assigned A.",
+        "The final reference has two fully observed unknown square cells GD and AD, and a final source-mask pair ?G. Their domains remain explicit; they are not forced into a numerical date or serial number.",
+        "The single source mask remains unresolved. The final character domain is {2,3,4,6,7,8,9,B,G,P,Q,R,Y}, while the earlier two unknown cells range over {2,3,4,7,8,9,Q,Y}.",
+        "The question is punctuated with a period in the exact reading so that ? continues to denote an unresolved plaintext position.",
+        "The three final unknown labels must be distinct globally: GD and AD are different square cells, and the masked pair ?G cannot become either. Its known-cell alternatives are B, P, R, 6 and G; an unused label can arise only through the separate VG cell. The listed marginal domains are not independent choices."
+      ],
+      "printed_page": 190,
+      "source_section": "C",
+      "source_rows": [
+        "AAVVV GFGDD XXGVG XFFDX FVYAG VDFXX DXXGD XXFDF",
+        "GVDFV XFAVV VGFVD XXGGF AADXA AFXVG AXAVG VDAGF",
+        "DVAFA DVFVF XDGAF GAVDA VGFAX VFDGF AAGAF VFDXA",
+        "AAGFF G"
+      ],
+      "source_slots": 126,
+      "advertised_length": 126,
+      "expected_raw": "BEFINDETSICHDORTKOMM?NDOXXMMDXXODERVERTRETERXADMIRALSTAB15?6?D?",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 1,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "2156f740222b8082b53d833ba07b9c7d489f1457fcb31efda0d28bb5e7acdcfc",
+    "ocr_snapshot.json": "18f1ec7758ce31aad499a40f11944d7a491c99e7605e0d05332c8ea042a3464d"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "schema": "adfgvx-southern-hungary-positions-part2-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "keys": [
+    {
+      "id": "Nov22-24",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        12,
+        16,
+        7,
+        14,
+        22,
+        11,
+        18,
+        1,
+        15,
+        8,
+        10,
+        20,
+        2,
+        13,
+        21,
+        3,
+        17,
+        19,
+        5,
+        9,
+        4
+      ],
+      "column_count": 22,
+      "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+      "square_rows": [
+        "QNZ72X",
+        "S4C0IJ",
+        "Y3RBEK",
+        "L9FD6G",
+        "MTHUVW",
+        "A5O8P1"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  ],
+  "records": [
+    {
+      "id": "p215_B2",
+      "printed_page": 215,
+      "source_section": "B2",
+      "key_id": "Nov22-24",
+      "source_rows": [
+        "AVFAG XXFAX DGFXX AVFVA DXFDG VFAXV DFDAG FGXVD",
+        "FAGFF XVXAF FFXVG FAVDF DFXDD DFDDV VVGAG VXFFG",
+        "XAFVV DGVXG GXDGF GFAFD GFXAG ADAAV GFDAF ADFVF",
+        "AVGVX VVGFG VXXVF FDAXD ----- ----- ----- -----",
+        "VVVAF -XFAF FXAFX AFGFA FAAXF AVDXA DXDVX GFADX",
+        "AAGVA FAFFV VVAVV GDVDA FAVAF AFGAD AXVDF DXFAX",
+        "GDVXA FVXXD VXDXA AVVXA DVFVV VAFDF VXXFA AFXVV",
+        "FXGAX VGVFA XXAXF ADAXA"
+      ],
+      "source_slots": 300,
+      "advertised_length": 300,
+      "expected_raw": "?YDIXDXRAUM?ZENTES?HOD?EZOEXVASAR?EY4XERREIC?TX?DIVXSTX?UX?ODMEZOE?VA?ARTEL4X?XK?38XOROS?UZ?X2RXDXR?UM?AG4BANHEG4?SXBATTRE4A?DIVXSTX6UX?EZOEKOVACS?AZA",
+      "readable_candidate": "?YDIXDXRAUMSZENTES?HODMEZOEXVASARHEY4XERREICHTX?DIVXSTX?UXHODMEZOEXVASARTEL4X?XK?38XOROSHUZ?X2RXDXRAUMNAG4BANHEG4ESXBATTRE4A?DIVXSTX6UXMEZOEKOVACSHAZA",
+      "readable_german": "?YDI D. Raum Szentes ? Hodmezoe Vasarhey4 erreicht. ? Div. St. ?U Hodmezoe Vasartel4. ? K?38. Oroshuz?. 2R D. Raum Nag4banheg4es. Battre4a ? Div. St. 6U Mezoekovacshaza.",
+      "case_path": "cases/military/nov22_divisional_positions_part2.md",
+      "title": "Divisional areas and staff locations: second part with explicit geographical alternatives",
+      "meaning": "The stream reports a reached area and then lists areas and divisional staff locations. The proposed fills make SZENTES, HODMEZOE, ERREICHT, RAUM and MEZOEKOVACSHAZA legible. The precise unit designations, the relationship between the listed places and the garbled labels remain uncertain. The separate geographical alternative below proposes place-name spellings at an additional observed-coordinate cost; it is not independent historical confirmation.",
+      "reading_note": "All 300 printed positions are retained. Four consecutive five-dash groups and the initial dash of -XFAF contribute 21 source masks. The primary reading uses 13 explicitly proposed mask fills and no change to an observed coordinate. Its eight unresolved plaintext positions and the known labels ?YDI D, ? K?38, 2R D, 6U, VASARHEY4, VASARTEL4, OROSHUZ?, NAG4BANHEG4ES and BATTRE4A are retained. In particular, the digit 4 is not silently read as Y. The source defines this as part 2 of 3; no missing first-part groups or third-part length are supplied. Date heading November 22 and reception November 23 remain separate evidence layers.",
+      "expected_costs": [
+        0,
+        13
+      ],
+      "geographical_alternative": {
+        "candidate": "?YDIXDXRAUMSZENTES?HODMEZOEXVASARHELYXERREICHTX?DIVXSTX?UXHODMEZOEXVASARHELYX?XK?38XOROSHAZAX2RXDXRAUMNAGYBANHEGYESXBATTONYA?DIVXSTX6UXMEZOEKOVACSHAZA",
+        "readable_german": "?YDI D. Raum Szentes ? Hodmezoe Vasarhely erreicht. ? Div. St. ?U Hodmezoe Vasarhely. ? K?38. Oroshaza. 2R D. Raum Nagybanhegyes. Battonya ? Div. St. 6U Mezoekovacshaza.",
+        "expected_costs": [
+          18,
+          14
+        ],
+        "increment_over_primary": {
+          "known_coordinate_substitutions": 18,
+          "source_mask_fills": 1
+        },
+        "evidence_level": "Linguistic/geographical hypothesis only; no parallel copy verifies this message. The distinct p217 A2 report supplies contextual use of OROSHAZA only.",
+        "kept_literal_fields": [
+          "?YDI D",
+          "? K?38",
+          "2R D",
+          "6U"
+        ],
+        "remaining_unknown_positions": 7
+      }
+    }
+  ],
+  "source_images": [
+    {
+      "path": "sources/p215_B2.png",
+      "printed_page": 215,
+      "pdf_page_1based": 218,
+      "crop_pdf_points": [
+        65,
+        330,
+        510,
+        600
+      ],
+      "render_scale": 3,
+      "sha256": "ee405b359456c0d2484ad5263cdb483b034654fbd18623bec0091c50caf5b201"
+    },
+    {
+      "path": "sources/p215_date_heading.png",
+      "printed_page": 215,
+      "pdf_page_1based": 218,
+      "crop_pdf_points": [
+        65,
+        145,
+        510,
+        185
+      ],
+      "render_scale": 3,
+      "sha256": "ca481e7d8b00c25457df5fb5d4ae72cbd2d6d1e73250089942d8d510ce7e1f6f"
+    }
+  ],
+  "headers": {
+    "p215_B2": [
+      "Page heading: 22nd NOVEMBER, 1918.",
+      "B) UKS v ZON (03.20 a.m., November 23rd)",
+      "0009 KR 3 TLE",
+      "2 TL RICHI-300; the first part separately says several groups are missing"
+    ]
+  },
+  "literal_glyph_notes": [
+    "All 300 printed positions are retained. Four consecutive five-dash groups and the initial dash of -XFAF contribute 21 source masks. The primary reading uses 13 explicitly proposed mask fills and no change to an observed coordinate. Its eight unresolved plaintext positions and the known labels ?YDI D, ? K?38, 2R D, 6U, VASARHEY4, VASARTEL4, OROSHUZ?, NAG4BANHEG4ES and BATTRE4A are retained. In particular, the digit 4 is not silently read as Y. The source defines this as part 2 of 3; no missing first-part groups or third-part length are supplied. Date heading November 22 and reception November 23 remain separate evidence layers."
+  ],
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "59399e180d4a7ca7c5810899dd6ff8a0175fdba45f67a3b72fbe2e307698cf42"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "limits": [
+    "All source frames are native; no coordinate is inserted or deleted.",
+    "Literal numerical labels, opaque names and footer fields are not silently normalized.",
+    "The cases distinguish reported events and conditional instructions from completed historical outcomes.",
+    "Thirteen primary source-mask values are proposed, not observed; the complete geography alternative requires 18 substitutions and 14 fills in total.",
+    "The partially garbled unit labels are retained, including the numerical label 6U. No missing neighbouring part is restored."
+  ],
+  "contextual_geographical_reference": {
+    "input_path": "experiments/operational_recovery/inputs.json",
+    "input_sha256": "32d9098d4c9f3451fce6b380754525d4cfb850f41afafa462d679fac8f12acfe",
+    "id": "p217_A2",
+    "source_image_path": "experiments/operational_recovery/sources/childs_p217_A.png",
+    "source_image_sha256": "255d8f9c904ffab2d05ebf79388097f962f01ab5dfea6e3eddd56e2cb1e33edc",
+    "word": "OROSHAZA",
+    "plaintext_start_index": 104,
+    "plaintext_end_index_exclusive": 112,
+    "scope": "Distinct later report: supports the geographical name only, without asserting the same unit, position or event; no old record counted again."
+  }
+}

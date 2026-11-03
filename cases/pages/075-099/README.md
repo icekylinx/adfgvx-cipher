@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 50–74](../050-074/README.md) · [pp. 100–124 →](../100-124/README.md)
 
-**0 challenge entries and 62 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**0 challenge entries and 63 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p75](#p75) · [p76](#p76) · [p77](#p77) · [p78](#p78) · [p79](#p79) · [p80](#p80) · [p81](#p81) · [p82](#p82) · [p83](#p83) · [p84](#p84) · [p85](#p85) · [p86](#p86) · [p87](#p87) · [p88](#p88) · [p89](#p89) · [p90](#p90) · [p91](#p91) · [p92](#p92) · [p93](#p93) · [p94](#p94) · [p95](#p95) · [p96](#p96) · [p97](#p97) · [p98](#p98) · [p99](#p99).
 
@@ -139,6 +139,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p88 A1](../../caucasus/caucasus_radio_transmitters.md#p88-a1) | Caucasus delegation and 800-watt transmitter transport to Berlin | Native 172 slots; 85/86 fixed; one invalid Q left unresolved; malformed verb and TRANSPORRT retained | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier unreviewed repository body candidates |
 | [p88 A2](../../caucasus/caucasus_radio_transmitters.md#p88-a2) | General von Kress and 1500-watt tube transmitter | Native 134 slots; 3 observed substitutions + 1 y-like glyph fill; all 16 annotation subsets retained separately | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier unreviewed repository body candidates |
+| [p88 B](../../radio/uks_direct_or_osm_relay.md#p88-b) | Expected heavier traffic: direct UKS connection or OSM relay | 102/102 native raw positions; 0 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
 | [p88 C1](../../military/black_sea_evacuation_routes.md#p88-c1) | Evacuation destinations: Siegfried to Konstanza and other traffic to Odessa | Native298 coordinates;one observed substitution | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; existing Ayush Agarwal p89_A2 companion retained separately |
 
 ## p89

@@ -1,0 +1,36 @@
+{
+  "schema": "adfgvx-earlier-native-witness-snapshot-v1",
+  "source_artifact": "experiments/nov12_arrival_departure_and_car/inputs.json",
+  "source_sha256": "f6e37c9fb91864ffeac2d1ab85d70d95ed5a0e8cca6245b7c574bddb8d5ed144",
+  "record": {
+    "id": "p183_E",
+    "title": "An enquiry about the car",
+    "key_id": "Nov10-12",
+    "header_literal": "E) CM v CZ (17.12 p.m., November 12th); 17.40; RIZI-36",
+    "readable_german": "Wo bleibt Auto. KRAMM.",
+    "meaning": "The message asks where the car is or why it has not arrived. The closing KRAMM is preserved without assigning a biography or a vehicle. The text is an enquiry, not proof that a car was sent.",
+    "notes": [
+      "The source supplies all 36 coordinates and decrypts directly, with no coordinate changes or mask fills.",
+      "The nearby D record is a similar but differently framed printed witness. It is not silently substituted for this complete E body.",
+      "The interrogative sentence is displayed with a period to reserve ? for unresolved plaintext positions."
+    ],
+    "protected_fields": [
+      "KRAMM"
+    ],
+    "printed_page": 183,
+    "source_section": "E",
+    "source_rows": [
+      "AAXXF AVDFA AADAG FVVAG DDAGV DDVFF VGDVG D"
+    ],
+    "source_slots": 36,
+    "advertised_length": 36,
+    "expected_raw": "WOBLEIBTAUTOXKRAMM",
+    "edited_output": "WOBLEIBTAUTOXKRAMM",
+    "source_variants": [],
+    "separator_label": "X",
+    "question_mark_punctuation_at_end": false,
+    "expected_substitutions": 0,
+    "expected_source_mask_fills": 0
+  },
+  "credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted. The arrival-enquiry and departure wording was already presented for p174 B/E in cases/radio/seifert.md. The new p183 witnesses add coordinate support and a separately priced comparison, not a new claim to that wording or extra message groups."
+}

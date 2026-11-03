@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 150–174](../150-174/README.md) · [pp. 200–224 →](../200-224/README.md)
 
-**6 challenge entries and 83 other reviewed source records across 24 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**6 challenge entries and 88 other reviewed source records across 24 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p175](#p175) · [p176](#p176) · [p177](#p177) · [p178](#p178) · [p179](#p179) · [p180](#p180) · [p181](#p181) · [p183](#p183) · [p184](#p184) · [p185](#p185) · [p186](#p186) · [p187](#p187) · [p188](#p188) · [p189](#p189) · [p190](#p190) · [p191](#p191) · [p192](#p192) · [p193](#p193) · [p194](#p194) · [p195](#p195) · [p196](#p196) · [p197](#p197) · [p198](#p198) · [p199](#p199).
 
@@ -103,6 +103,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p183 A](../../radio/nov12_arrival_departure_and_car.md#p183-a) | Arrival and an enquiry about the situation | Native 64-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p183 B](../../radio/nov12_arrival_departure_and_car.md#p183-b) | Request for notification when Seifert has arrived | Native 74-slot frame; 0 observed-coordinate substitutions and 8 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p183 C](../../radio/nov12_arrival_departure_and_car.md#p183-c) | A report that Seifert has departed | Native 46-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p183 D](../../radio/car_query_parallel_frame.md) | Parallel car enquiry with a priced extra-coordinate hypothesis | 37 observed slots versus printed 27; conditional 36-slot model excludes one observed X and changes one observed D to X; all 37 exclusion positions priced | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov10–12 key; native parallel E wording credited |
 | [p183 E](../../radio/nov12_arrival_departure_and_car.md#p183-e) | An enquiry about the car | Native 36-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p183 F](../../military/jaeger_accommodation_area.md#p183-f) | An accommodation-area report for a German Jaeger division | Native 230-slot frame; 1 observed-coordinate substitution and 2 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
@@ -190,6 +191,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p190 A](../../radio/nov14_radio_retransmissions.md) | Pilot representative of the Warsaw soldiers’ council arrives in Berlin | 117/118 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
 | [p190 B](../../radio/nov14_radio_retransmissions.md) | Request a backup station for NKJ; Sevastopol proposed | 82/88 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
+| [p190 C](../../naval/mmd_command_whereabouts.md#p190-c) | Enquiry whether an MMD command or representative is present | Native 126-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p190 D](../../radio/nov14_radio_retransmissions.md) | Ask whether NKJ relays Mackensen messages and how contact is maintained | 92/93 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
 | [p190 E](../../radio/nov14_radio_retransmissions.md) | Request a backup station for NKJ; Sevastopol proposed | 82/88 raw positions; cross-key comparison | icekylinx and GPT-6 Astra Pro (2026) |
 
@@ -221,6 +223,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p193 A](../../radio/nov14_radio_retransmissions.md) | Ask whether NKJ relays Mackensen messages and how contact is maintained | 94/94 candidate letters independently witnessed across the pair | icekylinx and GPT-6 Astra Pro (2026) |
 | [p193 B](../../radio/nov14_radio_retransmissions.md) | Interrupted pilot-arrival notice; exact suffix of p194 B | 85 missing coordinates and 85 raw letters restored by independent copy | icekylinx and GPT-6 Astra Pro (2026) |
+| [p193 C](../../radio/nov14_15_departure_and_supper.md#p193-c) | Departure postponed, with reassurance and readiness wording | Native 212-slot frame; 3 observed-coordinate substitutions and 2 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p193 D](../../radio/nov14_15_departure_and_supper.md#p193-d) | Proposed warm supper and a headcount enquiry | Native 82-slot frame; 4 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p193 E](../../context/transport.md#independent-transport-context) | Sprung cart for attachment; a car | Direct partial reading; one unknown cell | icekylinx and GPT-6 Astra Pro (2026) |
 
 ## p194
@@ -248,6 +252,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p196 A](../../radio/nov14_15_departure_and_supper.md#p196-a) | Short departure and farewell message with Kramm and Opitz labels | Native 74-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p196 B](../../context/transport.md#independent-transport-context) | Repeated arranged departure to Hanau | Near-parallel; time digit remains unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 
 ## p197

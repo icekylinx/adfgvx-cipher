@@ -1,0 +1,326 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Postponed departure, a supper query and a farewell",
+  "case": "cases/radio/nov14_15_departure_and_supper.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p193_reviewed.png",
+      "pdf_page_1based": 196,
+      "crop_pdf_points": [
+        35,
+        395,
+        525,
+        580
+      ],
+      "render_scale": 3,
+      "sha256": "22b7e07b9eef95244aaea4400e284195213dcae2c5638a05eb0eb8981e19b825",
+      "width": 1470,
+      "height": 555,
+      "channels": 3,
+      "rgb_sha256": "b8b77b4c95e54ad3de675cb2d950ddb29df11c02b398c19e4ce79b63a15ac249"
+    },
+    {
+      "path": "sources/p196_reviewed.png",
+      "pdf_page_1based": 199,
+      "crop_pdf_points": [
+        40,
+        160,
+        535,
+        285
+      ],
+      "render_scale": 3,
+      "sha256": "f730abbfb5b56572672f9906f11de92585accd1794f2d517f35fc3ba8c6aed2f",
+      "width": 1485,
+      "height": 375,
+      "channels": 3,
+      "rgb_sha256": "cec218e44d1bd3e87d77052e66b0fd539d38e058179fe7b7ae697972cb041989"
+    }
+  ],
+  "keys": {
+    "Nov13-15b": {
+      "id": "Nov13-15b",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "column_count": 16,
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "square_rows": [
+        "H??BMU",
+        "F15PX0",
+        "DJLR??",
+        "??S6VO",
+        "NKZ?AW",
+        "ITEGC?"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "234789QY",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 244,
+          "pdf_page_1based": 247,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "baseline_differences": [
+        {
+          "coordinate": "AD",
+          "baseline": "2",
+          "audited": "?"
+        },
+        {
+          "coordinate": "AF",
+          "baseline": "3",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FV",
+          "baseline": "4",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FX",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GA",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GD",
+          "baseline": "9",
+          "audited": "?"
+        },
+        {
+          "coordinate": "VG",
+          "baseline": "Q",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "Y",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 24,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "AD",
+            "proposed": "2"
+          },
+          {
+            "row_column": "AF",
+            "proposed": "3"
+          },
+          {
+            "row_column": "FV",
+            "proposed": "4"
+          },
+          {
+            "row_column": "FX",
+            "proposed": "7"
+          },
+          {
+            "row_column": "GA",
+            "proposed": "8"
+          },
+          {
+            "row_column": "GD",
+            "proposed": "9"
+          },
+          {
+            "row_column": "VG",
+            "proposed": "Q"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "Y"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p193_C",
+      "title": "Departure postponed, with reassurance and readiness wording",
+      "key_id": "Nov13-15b",
+      "advertised_length": 212,
+      "header_literal": "C) --- v CM (1.15 p.m., November 14th); RIZI-212",
+      "edited_output": "ABMARSCHVERSCHOBENKEINGRUNDZURBEUNRUHIGUNGABMERFOLGTSPAETERINVEREINBARTERWEISEDHFNBLEIBTBETRBEREITXSEIFERT",
+      "readable_german": "Abmarsch verschoben. Kein Grund zur Beunruhigung. Abm. erfolgt spaeter in vereinbarter Weise. DHFN bleibt BETR bereit. Seifert.",
+      "meaning": "The message reports that departure has been postponed, says there is no cause for alarm, and states that departure will occur later as agreed. The closing readiness phrase is retained as DHFN bleibt BETR bereit; the edition does not identify DHFN as a particular place or silently expand BETR.",
+      "notes": [
+        "The source prints 210 valid coordinates followed by two distinct dashes. Together these are 212 occupied slots, exactly matching the header. The older OCR omitted the two dashes; restoring their positions is a source-transcription correction, not insertion of hypothetical missing ciphertext.",
+        "6RUND → GRUND, SPA5TER → SPAETER and WCISE → WEISE require three observed-coordinate substitutions. The printed dashes at indices 210 and 211 are explicitly filled with F and G. They supply the R of BETR and the initial S of SEIFERT under the fixed frame.",
+        "ABM is retained as an abbreviation. DHFN and BETR are literal labels, without geographical identification or a hidden expansion in the readable stream.",
+        "The source reports a postponement and a future intention; it does not establish that the later departure occurred."
+      ],
+      "protected_fields": [
+        "DHFN"
+      ],
+      "printed_page": 193,
+      "source_section": "C",
+      "source_rows": [
+        "VFFFX GDAGA FGFAG GFXAF GFADF FXGGA XFVXX FAFDV",
+        "GXAAV GXXFD AXFAX VVVXF XXVVX XXGAV FXXDG FXXXX",
+        "VGDAG VGGAV GDVAA FXADD FXAXX XAFVF FVXFV XAXDF",
+        "AAGAF GVGFA FAVVF XXAXD FGAGA GFXXA AAGVV GXAXV",
+        "XGGGG VFDAG GAGFA AAGFF AXAFD DGVAX AVFAV FFGFV",
+        "GXVAA XXAXF - -"
+      ],
+      "source_slots": 212,
+      "expected_raw": "ABMARSCHVERSCHOBENKEIN6RUNDZURBEUNRUHIGUNGABMERFOLGTSPA5TERINVEREINBARTERWCISEDHFNBLEIBTBET?BEREITX?EIFERT",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 3,
+      "expected_source_mask_fills": 2
+    },
+    {
+      "id": "p193_D",
+      "title": "Proposed warm supper and a headcount enquiry",
+      "key_id": "Nov13-15b",
+      "advertised_length": 82,
+      "header_literal": "D) CZ v CM (1.10 p.m., November 14th); RIZI-82",
+      "edited_output": "WOLLENWARMESABENDBRXBEREITENXWIEVXKOEPFEX",
+      "readable_german": "Wollen warmes Abendbr. bereiten. Wiev. Koepfe.",
+      "meaning": "The proposed wording says the sender intends to prepare a warm evening meal and asks how many people there are. Abendbr. and Wiev. remain abbreviated in the quoted stream. The message does not record a supplied headcount or confirm that the meal was prepared.",
+      "notes": [
+        "All 82 source coordinates are printed and retained. The earlier OCR block had only 76 coordinates; the corrected native transcription contains the complete second row and final VG.",
+        "WOLLGN → WOLLEN, WALMES → WARMES, A?ENDBR → ABENDBR and the V following BEREITEN → separator X cost four observed-coordinate substitutions in total. No source glyph is erased or filled.",
+        "The raw question mark comes from an unassigned square cell even though its two source coordinates are known. The proposed B therefore requires an observed-coordinate change to a known B pair; it is not a free square completion or erasure fill.",
+        "ABENDBR and WIEV are retained literally. The natural evening-meal and headcount interpretation is attached to the explicitly repaired candidate, not presented as an unchanged raw sentence.",
+        "This is a separate source record five minutes before the neighbouring C reception. No response relationship or combined message is assumed."
+      ],
+      "printed_page": 193,
+      "source_section": "D",
+      "source_rows": [
+        "FFVAX VAFFF VXFXD VFFXG DGAAX DVAXV DFFGF DVVXX",
+        "XFXFX VAFFX GXFAA VVXVA GXXFG AAXVG DVGVG VFFGD",
+        "VG"
+      ],
+      "source_slots": 82,
+      "expected_raw": "WOLLGNWALMESA?ENDBRXBEREITENVWIEVXKOEPFEX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 4,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p196_A",
+      "title": "Short departure and farewell message with Kramm and Opitz labels",
+      "key_id": "Nov13-15b",
+      "advertised_length": 74,
+      "header_literal": "A) CZ v CM (15.22 p.m., November 15th); 16.15; RIZI-74",
+      "readable_german": "ABFAHR. Wiedersehen. Gruesse, Kramm. Opitz.",
+      "meaning": "The short unedited reading contains a departure-related opening, farewell, greetings and the names or signature labels Kramm and Opitz. It does not establish either person’s identity or assign their exact sender/addressee roles.",
+      "notes": [
+        "All 74 valid source coordinates decrypt directly to 37 fixed raw labels. No observed-coordinate substitution, source fill, missing slot or frame change is used.",
+        "The source gives ABFAHR without a final T. That shortened form is preserved in both raw and readable output; no letter is silently inserted to produce ABFAHRT.",
+        "The header retains its anomalous 15.22 p.m. expression and separate 16.15 line. They are not normalized into a reconstructed chronology.",
+        "KRAMM and OPITZ remain literal labels; neighbouring service traffic does not by itself identify their full names or this message’s exact historical itinerary."
+      ],
+      "protected_fields": [
+        "ABFAHR"
+      ],
+      "printed_page": 196,
+      "source_section": "A",
+      "source_rows": [
+        "VFGGD XAFVD XXAVX XGGAX VXDFG AAAAV DAVAG DDFDV",
+        "XGFXV VAFFX AFFVV VFFVG FAFGA GGVFV XXFX"
+      ],
+      "source_slots": 74,
+      "expected_raw": "ABFAHRXWIEDERSEHENXGRUESSEKRAMMXOPITZ",
+      "edited_output": "ABFAHRXWIEDERSEHENXGRUESSEKRAMMXOPITZ",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "6b1aed9c2264f69892d59e914bd6e90dcb945e061516b52e422fbf21818a9ff7",
+    "ocr_snapshot.json": "5f0ca2870bf75ad04b97bde4ec638248f4666356df93ac74d9cee07b0f252ab4"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

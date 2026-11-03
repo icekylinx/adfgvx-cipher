@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 175–199](../175-199/README.md) · [pp. 225–249 →](../225-249/README.md)
 
-**2 challenge entries and 104 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**2 challenge entries and 107 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p200](#p200) · [p201](#p201) · [p202](#p202) · [p203](#p203) · [p204](#p204) · [p205](#p205) · [p206](#p206) · [p207](#p207) · [p208](#p208) · [p209](#p209) · [p210](#p210) · [p211](#p211) · [p212](#p212) · [p213](#p213) · [p214](#p214) · [p215](#p215) · [p216](#p216) · [p217](#p217) · [p218](#p218) · [p219](#p219) · [p220](#p220) · [p221](#p221) · [p222](#p222) · [p223](#p223) · [p224](#p224).
 
@@ -88,6 +88,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p206 A1](../../military/p201_p206_orders.md) | Confirm receipt of earlier departure and reporting orders | 175/184 raw positions; complete source part reassembled | icekylinx and GPT-6 Astra Pro (2026) |
 | [p206 A2](../../military/p201_p206_orders.md) | References to disarmament, armistice and position-report orders | 179/200 raw positions; shared reference/date conditionally implies VA=5 | icekylinx and GPT-6 Astra Pro (2026) |
 | [p206 A3](../../military/p201_p206_orders.md) | Report division locations and acknowledge the present order | 115/124 raw positions; duplicated wording and unknown serial retained | icekylinx and GPT-6 Astra Pro (2026) |
+| [p206 B1](../../military/nov18_negotiation_repetition.md#p206-b1) | Requested repetition of an assessment that negotiation participation is pointless | Native 248-slot frame; 3 observed-coordinate substitutions and 5 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p206 B2](../../military/nov18_negotiation_repetition.md#p206-b2) | Cited messages settled by the order to depart issued locally | Native 236-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p207
 
@@ -184,6 +186,12 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p215](../../p215.md) | Apparent Entente troop-transport report | Prior partial; Kosch interpretation and conditional ?1?6 reference | Norbert (2017) |
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p215 B2](../../military/nov22_divisional_positions_part2.md#p215-b2) | Divisional areas and staff locations: second part with explicit geographical alternatives | 129/150 native raw positions; 0 coordinate substitutions + 13 source-mask fills; no frame change; optional geography: 18 substitutions + 14 fills total | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov22-24 key; prior OCR and body attribution retained |
 
 ## p216
 

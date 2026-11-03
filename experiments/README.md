@@ -13,6 +13,13 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Radio relay and march notice](radio_relay_and_march_notice/README.md) | 3 source records; 268 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
+| [An enquiry about an MMD command or representative](mmd_command_whereabouts/README.md) | 1 source records; 63 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
+| [A repeated negotiation assessment and a departure-order reference](nov18_negotiation_repetition/README.md) | 2 source records; 242 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
+| [Postponed departure, a supper query and a farewell](nov14_15_departure_and_supper/README.md) | 3 source records; 184 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
+| [Southern hungary positions part2](southern_hungary_positions_part2/README.md) | 1 source records; 150 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
+| [A parallel car enquiry with an explicit extra-coordinate model](car_query_parallel_frame/README.md) | 1 source records; 18 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
+| [Nov6 embassy 8956 annotation](nov6_embassy_8956_annotation/README.md) | 1 source records; 65 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
 | [Oct31 armistice and followup](oct31_armistice_and_followup/README.md) | 2 source records; 123 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
 | [Nov1 nov2 native dispatches](nov1_nov2_native_dispatches/README.md) | 4 source records; 365 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
 | [Gokieloff return payment stop](gokieloff_return_payment_stop/README.md) | 2 source records; 168 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |

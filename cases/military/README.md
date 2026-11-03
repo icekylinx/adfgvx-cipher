@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**222 reviewed physical records across 78 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**227 reviewed physical records across 81 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -25,6 +25,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [Railway message: Laz. Zug 42 from Chemnitz and Zug 34 to VERBETZ](chemnitz_verbetz_trains.md) | p107 B1, p107 B2 |
 | [p107_D — supplementary source review](../supplementary/p107_D.md) | p107 D |
 | [p109 — Evening report and the Sava crossing](../p109.md) | p109 B |
+| [Two-part march notice and officer dispatch: a priced editorial reading](nov3_northeast_foot_march.md) | p109 C1, p109 C2 |
 | [Kiew morning report and pioneer-park loading request](kiew_morning_and_pioneer_reports.md) | p110 B, p110 C |
 | [November 3 evening report and its first-part copy](nov3_evening_report.md) | p111 A1, p112 A1, p112 A2, p112 A3 |
 | [Turkish armistice and the Dardanelles–Bosporus notice](turkish_armistice_straits_notice.md) | p112 D |
@@ -73,11 +74,13 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p200 A — Siedlce garrisons reach Thorn](p200_A.md) | p200 A |
 | [p201 B / p206 A — reporting orders linked by a shared reference](p201_p206_orders.md) | p201 B1, p201 B2, p206 A1, p206 A2, p206 A3 |
 | [Military-intendant addresses and responsibilities](military_intendant_remit.md) | p202 B1, p202 B2, p202 B3, p202 B4 |
+| [A repeated negotiation assessment and a departure-order reference](nov18_negotiation_repetition.md) | p206 B1, p206 B2 |
 | [Equipment disposal, Alpenkorps return, and Finland evacuation orders](repatriation_orders.md) | p207 A1, p207 A2, p207 B, p207 C1, p207 C2, p208 A1, p208 A2 |
 | [Prague transport fragment, Ukrainian provisions priority and disarmament orders](transport_and_disarmament_orders.md) | p209 A1, p209 B1, p209 B2, p209 C1, p209 C2 |
 | [p210 D — request for the situation in Reval](p210_D.md) | p210 D |
 | [Oderberg transport fragment and a troop-situation query](prague_route_and_situation.md) | p211 A2, p211 B upper |
 | [Heated sick wagons, cooking equipment and hot tea](medical_return_transports.md) | p212 A1, p212 A5, p213 A6, p213 A7 |
+| [Divisional areas and staff locations: second part with explicit geographical alternatives](nov22_divisional_positions_part2.md) | p215 B2 |
 | [p217 A — Coal shortages, disarmament and transport through Czechoslovakia](p217_A.md) | p217 A1, p217 A2, p217 A3, p217 A4, p217 A5 |
 | [Reduced provisioning strength and a separate evening report](nov25_provisions_and_evening_report.md) | p219 D1, p220 A2, p220 B |
 | [Mackensen's appeal over disarmament and internment](mackensen_armistice_appeal.md) | p220 C1, p220 C2, p220 C3, p220 C4, p221 A5, p221 A6 |
@@ -128,6 +131,8 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p107 B2](chemnitz_verbetz_trains.md#p107-b2) | Laz Zug 34 to literal VERBETZ; unresolved command reference | Native 110 slots; 3 substitutions; printed dash remains unknown in ?BA AEK11 | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates and OCR limits retained |
 | [p107 D](../supplementary/p107_D.md) | Acknowledgment of operational telegrams | Earlier reading; parenthesized glyphs retained | Ayush Agarwal; review by D. Bourdeau (2026) |
 | [p109 B](../p109.md) | Evening enemy-division report toward Belgrade | Near-parallel supporting p 109; word alternatives remain | icekylinx and GPT-6 Astra Pro (2026) |
+| [p109 C1](nov3_northeast_foot_march.md#p109-c1) | Two-part march notice and officer dispatch: a priced editorial reading | 105/105 native raw positions; 14 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
+| [p109 C2](nov3_northeast_foot_march.md#p109-c2) | General Staff officer to be dispatched by air; literal closing EINS4 and 7023 | 59/61 native raw positions; 2 coordinate substitutions + 2 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
 | [p110 B](kiew_morning_and_pioneer_reports.md#p110-b) | Kiew morning report to Mackensen: nothing new; literal reference6915 | 73/75 fixed raw labels; 0 coordinate substitutions and 2 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key and earlier OCR candidates credited separately |
 | [p110 C](kiew_morning_and_pioneer_reports.md#p110-c) | Pioneer-park loading and wagon request; source-exact 398-coordinate frame | 199/199 fixed raw labels; 8 coordinate substitutions and 0 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key and earlier OCR candidates credited separately |
 | [p111 A1](nov3_evening_report.md#p111-a1) | Evening-report first-part witness | 86/101 raw fixed positions; 1 observed substitutions; native source length | icekylinx and GPT-6 Astra Pro (2026); published keys retain earlier authorship |
@@ -261,6 +266,8 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p206 A1](p201_p206_orders.md) | Confirm receipt of earlier departure and reporting orders | 175/184 raw positions; complete source part reassembled | icekylinx and GPT-6 Astra Pro (2026) |
 | [p206 A2](p201_p206_orders.md) | References to disarmament, armistice and position-report orders | 179/200 raw positions; shared reference/date conditionally implies VA=5 | icekylinx and GPT-6 Astra Pro (2026) |
 | [p206 A3](p201_p206_orders.md) | Report division locations and acknowledge the present order | 115/124 raw positions; duplicated wording and unknown serial retained | icekylinx and GPT-6 Astra Pro (2026) |
+| [p206 B1](nov18_negotiation_repetition.md#p206-b1) | Requested repetition of an assessment that negotiation participation is pointless | Native 248-slot frame; 3 observed-coordinate substitutions and 5 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p206 B2](nov18_negotiation_repetition.md#p206-b2) | Cited messages settled by the order to depart issued locally | Native 236-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p207 A1](repatriation_orders.md) | Equipment and horses unable to reach Germany: direct sale without stripping own troops | 146/159 raw labels; 7 substitutions; 12 source-dash fills | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR candidates credited separately |
 | [p207 A2](repatriation_orders.md) | Conditional addressee/reference continuation; literal final extra X retained | 221 source slots against 220; conditional 102/110 raw labels after excluding final X; no substitutions; numeral cells unassigned | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR candidates credited separately |
 | [p207 B](repatriation_orders.md) | Incomplete printed copy of the Alpenkorps return order ending, supplied by p208 A2 | 105/114 raw labels; 1 substitutions; 5 source-dash fills | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR candidates credited separately |
@@ -281,6 +288,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p213 A6](medical_return_transports.md#p213-a6) | Water points, forwarding and medical-department request | Five word repairs; 5T bridge and position before DEPARTEMENT unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p213 A7](medical_return_transports.md#p213-a7) | Arrange transport care from Constantinople; raw reference retained | One printed-glyph fill; raw NIKOLA9EW and footer untouched | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p214 B](mackensen_warsaw.md) | Forwarded quotation of the Warsaw query | 85/92 direct quote positions match p181 under a different key | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p215 B2](nov22_divisional_positions_part2.md#p215-b2) | Divisional areas and staff locations: second part with explicit geographical alternatives | 129/150 native raw positions; 0 coordinate substitutions + 13 source-mask fills; no frame change; optional geography: 18 substitutions + 14 fills total | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov22-24 key; prior OCR and body attribution retained |
 | [p217 A1](p217_A.md) | Scholtz divisions march into the assembly area | 114/114 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |
 | [p217 A2](p217_A.md) | Coal shortages stop transport; troop locations near Oroshaza | 120/120 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |
 | [p217 A3](p217_A.md) | Army headquarters at Szolnok; battalions apparently misdirected | 114/114 baseline positions; place and numerical fields unresolved | icekylinx and GPT-6 Astra Pro (2026) |

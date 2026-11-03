@@ -4,7 +4,7 @@
 
 Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and naval orders are collected here.
 
-**39 reviewed physical records across 14 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**40 reviewed physical records across 15 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -19,6 +19,7 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [Corcovado: sale terms, Turkish crew and a conditional office number](corcovado_sale_terms.md) | p165 A1, p165 A2, p165 A3, p165 A5, p173 A1, p173 A2 |
 | [German tonnage and proposed ship sales to Turkey](turkish_tonnage.md) | p177 B1, p177 B2, p177 B3 |
 | [p178 — The naval armistice order of 11 November](naval_armistice_order.md) | p178 part 1, p178 part 2, p178 part 3, p178 part 4, p178 part 5 |
+| [An enquiry about an MMD command or representative](mmd_command_whereabouts.md) | p190 C |
 | [Supply cargo at Nikolaev and the sale of Corcovado](black_sea_shipping.md) | p199 A1, p199 A2, p199 A3, p200 B1, p200 B2 |
 | [Naval reporting after dissolution of the Seekriegsleitung](p205_B.md) | p205 B1, p205 B2 |
 | [p210 A — Helsinki and return transport for the Ostsee Division](p210_A.md) | p210 A1, p210 A2 |
@@ -54,6 +55,7 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [p178 part 3](naval_armistice_order.md) | Assemble at bases; send enciphered notice to U-boats | Prior body; short AFGA group repaired; 137/140 raw | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |
 | [p178 part 4](naval_armistice_order.md) | Enemy attacks may continue; weapons only for self-defense | Prior body; 288 counted coordinates; ambiguous printed length retained | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |
 | [p178 part 5](naval_armistice_order.md) | Requested passage through neutral waters and receipt acknowledgments | Prior body; 158/161 raw; two distinct unresolved reference digits | Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro |
+| [p190 C](mmd_command_whereabouts.md#p190-c) | Enquiry whether an MMD command or representative is present | Native 126-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p199 A1](black_sea_shipping.md) | Feigenhaus 618: Herkules report of incoming steamers and a garbled cocoa cargo description | Prior body identification; One surplus coordinate in six-letter group; three broad tied fits retained; 145/146 raw | Lasry, Niebel, Kopal and Wacker (2016); source audit by icekylinx and GPT-6 Astra Pro (2026) |
 | [p199 A2](black_sea_shipping.md) | Goods remain aboard under military guard; coded supply terms retained | Prior body identification; 171/172 raw; two coordinate repairs yield a complete body | Lasry, Niebel, Kopal and Wacker (2016); source audit by icekylinx and GPT-6 Astra Pro (2026) |
 | [p199 A3](black_sea_shipping.md) | Concern over the recipient’s intentions; Reichsversorgung and Admiralstab ending | Prior body identification; Five tied single-loss models; shared 92-character ordinary body; footer remains conditional | Lasry, Niebel, Kopal and Wacker (2016); source audit by icekylinx and GPT-6 Astra Pro (2026) |

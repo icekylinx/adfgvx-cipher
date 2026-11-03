@@ -1,0 +1,245 @@
+{
+  "schema": "adfgvx-radio-relay-and-march-notice-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "keys": [
+    {
+      "id": "Nov1-3",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        3,
+        16,
+        4,
+        15,
+        7,
+        12,
+        18,
+        6,
+        17,
+        8,
+        19,
+        1,
+        13,
+        10,
+        2,
+        14,
+        11,
+        9,
+        5
+      ],
+      "column_count": 19,
+      "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "square_rows": [
+        "UILOF9",
+        "RCZVSX",
+        "02G7QT",
+        "D8WNB5",
+        "JMHEKP",
+        "Y41A36"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 239,
+          "pdf_page_1based": 242,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  ],
+  "records": [
+    {
+      "id": "p88_B",
+      "printed_page": 88,
+      "source_section": "B",
+      "key_id": "Nov1-3",
+      "source_rows": [
+        "AVGXG VDADV XDADA DGGVD AAFDF GDDGA XFAAD ADGDF",
+        "GGFFA DGAGG XDDAD ADGAA FADFV GVXVX VDVVV XDVGV",
+        "DVDXD GXDXV VVADV AVDFD GVGVA DXDGD XDAAV DDGVG",
+        "VFDGA GVGVG VGGFG AAGDV VAFXD ADVVA AGDXD GVADX",
+        "VDXAG VXFGA XDVVA GDGXD XGDGD GXVDD DDAAV VFVDA",
+        "XVGD"
+      ],
+      "source_slots": 204,
+      "advertised_length": 204,
+      "expected_raw": "FUERXUKSXGROESSERERXVERKEHRXZUXERWARTENXHABENXSIEXSICHEREXVERBINDUNGMITXUKSXODERXMUSSXOSMXVERMITTELNXX",
+      "readable_candidate": "FUERXUKSXGROESSERERXVERKEHRXZUXERWARTENXHABENXSIEXSICHEREXVERBINDUNGMITXUKSXODERXMUSSXOSMXVERMITTELNXX",
+      "readable_german": "Fuer UKS. Groesserer Verkehr zu erwarten. Haben Sie sichere Verbindung mit UKS, oder muss OSM vermitteln?",
+      "case_path": "cases/radio/uks_direct_or_osm_relay.md",
+      "title": "Expected heavier traffic: direct UKS connection or OSM relay",
+      "meaning": "Heavier traffic is expected. The sender asks whether a reliable direct connection to UKS exists or whether OSM must relay it. The question does not establish that either link is functioning.",
+      "reading_note": "All 204 coordinate positions and 102 plaintext labels are directly observed. The separate LP following the final XVGD is retained as a visible source footer outside the advertised 204-coordinate body; it is not deleted from an encrypted stream. The question mark ending the German quotation is editorial punctuation, not an unresolved plaintext position.",
+      "expected_costs": [
+        0,
+        0
+      ],
+      "editorial_terminal_question_mark": true
+    },
+    {
+      "id": "p109_C1",
+      "printed_page": 109,
+      "source_section": "C1",
+      "key_id": "Nov1-3",
+      "source_rows": [
+        "XXVFG GGAAX XAFAA AXDXD DDAFV GVFGA DDAGD XDGVG",
+        "DDXAD XAXDF ADDXG GXVGG VDDFX VGVVV FGAAD XVADG",
+        "FDAAF DVGVF AVDGD GXDGD FXGDA FGFVD GXGAG GGXXV",
+        "FXXVA VGDGV FDADD XXGGD DDGVA GAVAV XFVVD XXAAG",
+        "DAVFD ADXGA VXVVX DGVXV DAVVX AFDDG VGDGD GDDAD",
+        "VDVVA VAAGF"
+      ],
+      "source_slots": 210,
+      "advertised_length": 210,
+      "expected_raw": "IXPXMXZU1163EPB41NUERJEHSAUFAOLE8STRECKENSUEDUNGARVSUNTERBROCHEVXARMMETRITT4X11XFUSSM4RSCHNACHNORUOSTEC4N",
+      "readable_candidate": "IXPXMXZU1163EPB41NVERKEHRAUFALLENSTRECKENSUEDUNGARNSUNTERBROCHENXARMEETRITT4X11XFUSSMARSCHNACHNORDOSTENAN",
+      "readable_german": "I. P. M. ZU1163EPB41N. Verkehr auf allen Strecken Suedungarns unterbrochen. Armee tritt 4 / 11 Fussmarsch nach Nordosten an.",
+      "case_path": "cases/military/nov3_northeast_foot_march.md",
+      "title": "Two-part march notice and officer dispatch: a priced editorial reading",
+      "meaning": "The linguistic proposal says that traffic on all routes in southern Hungary is interrupted and that the army begins a foot march toward the northeast on the date label 4/11. The opening I P M ZU1163EPB41N remains opaque. This is an edited reading of the printed garbles, not a new independent witness to the intended words.",
+      "reading_note": "The native 210-coordinate frame fixes all 105 raw positions, but the body contains repeated garbles. The readable proposal costs 14 observed-coordinate substitutions; many are printed D changed to proposed G. The full ledger below preserves every one. The opening IXPXMXZU1163EPB41N is unchanged, including every letter and numeral. Word-internal raw 8 and 4 labels are changed only through priced source-coordinate substitutions; the date 4/11 is untouched. No source mask, frame change, key adjustment or independent parallel is used. Re-encryption proves the exact proposed transformation, not a unique historical reading.",
+      "expected_costs": [
+        14,
+        0
+      ]
+    },
+    {
+      "id": "p109_C2",
+      "printed_page": 109,
+      "source_section": "C2",
+      "key_id": "Nov1-3",
+      "source_rows": [
+        "GDGDG DDXFG VXFGA DFFFV VAADF FXDAA XXGAF GGAVG",
+        "VAADX FAAFF XGXVF DXDFD AXXDF DGGDD GAAVX VDAFA",
+        "VDV-- FGVXG DFGXD AFGVD XXGDV DGDDV GFGXG XXVVA",
+        "AG"
+      ],
+      "source_slots": 122,
+      "advertised_length": 122,
+      "expected_raw": "GENERAL?TABSOFFZX?MFLUGZEUGWIRDEN0SANRTXXAXOXKX11XEINSX4X7023",
+      "readable_candidate": "GENERALSTABSOFFZXIMFLUGZEUGWIRDENTSANDTXXAXOXKX11XEINSX4X7023",
+      "readable_german": "Generalstabsoffz. im Flugzeug wird entsandt. A. O. K. 11. Eins 4. 7023.",
+      "case_path": "cases/military/nov3_northeast_foot_march.md",
+      "title": "General Staff officer to be dispatched by air; literal closing EINS4 and 7023",
+      "meaning": "The second part says a General Staff officer will be dispatched by aircraft. The closing retains A O K 11, EINS4 and 7023 as transmitted labels. This announces a future dispatch and does not establish that the flight took place.",
+      "reading_note": "The two dashes in VDV-- remain two source slots. Filling them supplies the missing S of GENERALSTABSOFFZ and I of IM. Two observed-coordinate substitutions separately propose ENTSANDT for EN0SANRT. The raw 0 inside that word is changed through the explicit coordinate ledger; the footer 4 and 7023 are not relabeled or normalized to a presumed staff designation.",
+      "expected_costs": [
+        2,
+        2
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "path": "sources/p88_B.png",
+      "printed_page": 88,
+      "pdf_page_1based": 91,
+      "crop_pdf_points": [
+        90,
+        387,
+        530,
+        545
+      ],
+      "render_scale": 3,
+      "sha256": "632b65f5cd2f40441c62d46b2e3c40b02275d7f5ced897b9a275f5d7e4bee3eb"
+    },
+    {
+      "path": "sources/p109_C1.png",
+      "printed_page": 109,
+      "pdf_page_1based": 112,
+      "crop_pdf_points": [
+        65,
+        515,
+        515,
+        615
+      ],
+      "render_scale": 3,
+      "sha256": "e2bfc857890b623e42012ba9c38a161f059b84adbcdad56760e89bb83d41c5c9"
+    },
+    {
+      "path": "sources/p109_C2.png",
+      "printed_page": 109,
+      "pdf_page_1based": 112,
+      "crop_pdf_points": [
+        65,
+        615,
+        515,
+        660
+      ],
+      "render_scale": 3,
+      "sha256": "863e78237663512432fc2bf3ef781a30276928884fe30c0daadb5c7166adfa9c"
+    }
+  ],
+  "headers": {
+    "p88_B": [
+      "Page heading: 1st NOVEMBER, 1918.",
+      "B) OSM NKJ v LP (05.56 a.m., November 1st)",
+      "FUER NKJ (1/11) 2300",
+      "RIZI-204; separate LP after the final ciphertext group"
+    ],
+    "p109_C1": [
+      "Page heading: 3rd NOVEMBER, 1918.",
+      "C) UKS v ZON (0.55 a.m., November 3rd)",
+      "2135 2 TLE",
+      "1 TL RICHI-210"
+    ],
+    "p109_C2": [
+      "Same C header and page as p109 C1",
+      "2 TL RICHI-122"
+    ]
+  },
+  "literal_glyph_notes": [
+    "All 204 coordinate positions and 102 plaintext labels are directly observed. The separate LP following the final XVGD is retained as a visible source footer outside the advertised 204-coordinate body; it is not deleted from an encrypted stream. The question mark ending the German quotation is editorial punctuation, not an unresolved plaintext position.",
+    "The native 210-coordinate frame fixes all 105 raw positions, but the body contains repeated garbles. The readable proposal costs 14 observed-coordinate substitutions; many are printed D changed to proposed G. The full ledger below preserves every one. The opening IXPXMXZU1163EPB41N is unchanged, including every letter and numeral. Word-internal raw 8 and 4 labels are changed only through priced source-coordinate substitutions; the date 4/11 is untouched. No source mask, frame change, key adjustment or independent parallel is used. Re-encryption proves the exact proposed transformation, not a unique historical reading.",
+    "The two dashes in VDV-- remain two source slots. Filling them supplies the missing S of GENERALSTABSOFFZ and I of IM. Two observed-coordinate substitutions separately propose ENTSANDT for EN0SANRT. The raw 0 inside that word is changed through the explicit coordinate ledger; the footer 4 and 7023 are not relabeled or normalized to a presumed staff designation."
+  ],
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "fdc0b2f0a65b2ce000459adf34abfe96b7dd4d25352a904935968c21e4aa5a1c"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "limits": [
+    "All source frames are native; no coordinate is inserted or deleted.",
+    "Literal numerical labels, opaque names and footer fields are not silently normalized.",
+    "The cases distinguish reported events and conditional instructions from completed historical outcomes."
+  ]
+}

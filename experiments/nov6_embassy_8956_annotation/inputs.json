@@ -1,0 +1,163 @@
+{
+  "schema": "adfgvx-nov6-embassy-8956-annotation-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "keys": [
+    {
+      "id": "Nov4-6",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ],
+      "column_count": 17,
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "square_rows": [
+        "17WHFL",
+        "J5D2UP",
+        "EXKVZ9",
+        "O0Q3Y6",
+        "R8ABGI",
+        "TCMS4N"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 240,
+          "pdf_page_1based": 243,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [
+        "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+      ],
+      "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  ],
+  "records": [
+    {
+      "id": "p148_A1",
+      "printed_page": 148,
+      "source_section": "A1",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "AXXDA AADVA XFFAD DAGXF VFDXG XAXFF XGAFF AVGXD",
+        "XXXFX DDGFA XDVFF AFXXF VDDVA ADFDF FDVVV XFVXA",
+        "GAXDF FVXDV AFGAG FGVFG AXFXA DVVAF VVAAG XGXAV",
+        "GVXAX XDAXD"
+      ],
+      "source_slots": 130,
+      "advertised_length": 130,
+      "expected_raw": "DEUTSCHEBETSCHAFTXKONSTANTINOPEFXD4TERSC1RXAUSWAERTIGXRMX3XDX8956",
+      "readable_candidate": "DEUTSCHEBOTSCHAFTXKONSTANTINOPELXUNTERSCHRXAUSWAERTIGXRMX3XDX8956",
+      "readable_german": "Deutsche Botschaft, Konstantinopel. Unterschr. Auswaertig. RM. 3. D. 8956.",
+      "case_path": "cases/radio/nov6_embassy_reference_8956.md",
+      "title": "German embassy address and abbreviated signature label, reference RM3D8956",
+      "meaning": "The first part addresses the German embassy in Constantinople and includes the abbreviated signature label UNTERSCHR followed by AUSWAERTIG. The closing retains RM, 3, D and 8956. This address and signature fragment does not establish the content of the second part, which is outside this edition.",
+      "reading_note": "The source has 130 coordinate slots and all 65 raw plaintext positions are fixed. The earlier OCR input has only 120 positions because it omits two complete five-coordinate groups, VDDVA and FDVVV. The baseline transcribes the printed F at source index 70; a G annotation stands directly above it. Adopting that annotated correction is explicitly charged as one of the five substitutions, and its isolated effect is shown below. The other four substitutions are linguistic proposals; no extra coordinate, source-mask fill or key change is used. The raw word-internal digits in D4TERSC1R are changed only by the explicit coordinate ledger. RM3D8956 is retained exactly. UNTERSCHR is not expanded by adding IFT, and AUSWAERTIG is not expanded by adding AMT.",
+      "expected_costs": [
+        5,
+        0
+      ],
+      "source_annotation_branch": {
+        "source_index": 70,
+        "baseline_printed": "F",
+        "annotation": "G",
+        "expected_raw": "DEUTSCHEBOTSCHAFTXKONSTANTINOPEFXD4TERSC1RXAUSWAERTIGXRMX3XDX8956",
+        "expected_costs": [
+          1,
+          0
+        ],
+        "interpretation": "The above-line G is an explicit alternate source reading. It repairs BETSCHAFT to BOTSCHAFT; all other baseline garbles remain."
+      }
+    }
+  ],
+  "source_images": [
+    {
+      "path": "sources/p148_A1.png",
+      "printed_page": 148,
+      "pdf_page_1based": 151,
+      "crop_pdf_points": [
+        90,
+        142,
+        520,
+        294
+      ],
+      "render_scale": 3,
+      "sha256": "6e9c885505293bc8173ad2e0a9b02c9d455fdebb6054d5ab22ea5ff62a028909"
+    }
+  ],
+  "headers": {
+    "p148_A1": [
+      "Page heading: 6th NOVEMBER, 1918.",
+      "A) YZ v LP (08.31 a.m., November 7th)",
+      "FUER YZ 1645 (6/11) 2 TEILE",
+      "1 TL RICHI-130"
+    ]
+  },
+  "literal_glyph_notes": [
+    "The source has 130 coordinate slots and all 65 raw plaintext positions are fixed. The earlier OCR input has only 120 positions because it omits two complete five-coordinate groups, VDDVA and FDVVV. The baseline transcribes the printed F at source index 70; a G annotation stands directly above it. Adopting that annotated correction is explicitly charged as one of the five substitutions, and its isolated effect is shown below. The other four substitutions are linguistic proposals; no extra coordinate, source-mask fill or key change is used. The raw word-internal digits in D4TERSC1R are changed only by the explicit coordinate ledger. RM3D8956 is retained exactly. UNTERSCHR is not expanded by adding IFT, and AUSWAERTIG is not expanded by adding AMT."
+  ],
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "fd0fdba1cb82293cf217cb78a3277acf6582584cbafb9a0b2f3c80c9b4930f63"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "limits": [
+    "All source frames are native; no coordinate is inserted or deleted.",
+    "Literal numerical labels, opaque names and footer fields are not silently normalized.",
+    "The cases distinguish reported events and conditional instructions from completed historical outcomes."
+  ]
+}

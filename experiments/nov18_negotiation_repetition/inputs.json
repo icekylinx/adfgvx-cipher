@@ -1,0 +1,214 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "A repeated negotiation assessment and a departure-order reference",
+  "case": "cases/military/nov18_negotiation_repetition.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p206_reviewed.png",
+      "pdf_page_1based": 209,
+      "crop_pdf_points": [
+        55,
+        520,
+        520,
+        720
+      ],
+      "render_scale": 3,
+      "sha256": "ee8a9f258780edaa8c8888ad080a42a14f19d83dc4a9f396613b5dc4184fcfc3",
+      "width": 1395,
+      "height": 600,
+      "channels": 3,
+      "rgb_sha256": "3fc25f300c47727653260ef715225a22500a8988cb454a9adb524855a41616ed"
+    }
+  ],
+  "keys": {
+    "Nov16-18": {
+      "id": "Nov16-18",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        12,
+        1,
+        14,
+        8,
+        16,
+        13,
+        9,
+        19,
+        3,
+        15,
+        4,
+        10,
+        18,
+        6,
+        2,
+        11,
+        17,
+        5
+      ],
+      "column_count": 19,
+      "square": "WG?EITNHUB2R??FDZJS???PY?VQL?1OAXMKC",
+      "square_rows": [
+        "WG?EIT",
+        "NHUB2R",
+        "??FDZJ",
+        "S???PY",
+        "?VQL?1",
+        "OAXMKC"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "03456789",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 243,
+          "pdf_page_1based": 246,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "The historical appendix and Lasry also label this table December 7-9.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "WG+EITNHUB2R++FDZJS+++PY+VQL+1OAXMKC",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key",
+      "documented_reuse": "7-9 December, per Childs appendix page 243 and NSA summary pages 41-42."
+    }
+  },
+  "records": [
+    {
+      "id": "p206_B1",
+      "title": "Requested repetition of an assessment that negotiation participation is pointless",
+      "key_id": "Nov16-18",
+      "header_literal": "B) ZÖN v OKM (08.14 p.m., November 18th); 1600 (11/18); 4 TEILE; 1 TL RICHI-[2-like]48",
+      "advertised_length": 248,
+      "header_length_reading_qualified": true,
+      "edited_output": "ANXOKMXERBETENEWIEDERHOLUNGHIESIGERRMX1XAX112??XGEHXOPXVOM?X11XTEILNAHMEANVERHANDLUNGENGEMAESSDORTXRMX1?AX11222XOPXZWECKLOSX",
+      "readable_german": "An OKM. Erbetene Wiederholung hiesiger RM 1 A 112?? GEH OP vom ? 11. Teilnahme an Verhandlungen gemaess dort RM 1?A 11222 OP zwecklos.",
+      "meaning": "The first part gives the requested repetition of a locally issued reference and states that participation in negotiations, according to the cited message, is pointless. The exact reference numbers, date-like labels and scope of those negotiations remain unresolved; the statement does not establish whether negotiations occurred.",
+      "protected_fields": [
+        "112??",
+        "11222",
+        "1?A"
+      ],
+      "notes": [
+        "All 248 native source slots are retained, including the four dashes in A---- and two dashes in FVG--. Five dash values are supplied by the readable proposal and one reference-field dash stays unresolved.",
+        "The header length digit is 2-like but imperfectly printed. The header is therefore transcribed RICHI-[2-like]48; the 248-slot body is counted independently from the source and does not erase the glyph qualification.",
+        "WIEDERHODUNG to WIEDERHOLUNG, TEWLNAHME to TEILNAHME, and the incomplete VERHANDLUNGEN/GEMAESS/DORT wording have explicit costs: three observed substitutions and five dash fills in total.",
+        "The four-part heading is retained. This edition covers the two printed parts shown here and supplies no missing part 3 or 4.",
+        "The reference-field unknown at plaintext 103 is a printed dash under pair X?, with domain {A,C,K,M,O,X}; it cannot be a numeral, while X remains a possible separator label.",
+        "B1 plaintext 45 and B2 plaintext 22 share square cell VA. B1 plaintext 46 and B2 plaintext 59/69 share GG. B1 plaintext 58 is GF; B2 plaintext 40 is GD and 41 is AF. These five distinct fully observed unknown square cells must take distinct labels from {0,3,4,5,6,7,8,9}; repeated cells must agree."
+      ],
+      "printed_page": 206,
+      "source_section": "B1",
+      "source_rows": [
+        "DGDGX DGADA DFFGA DXAVG VAGXX AVAGA XXXAG XXDXG",
+        "AFDXG FXGAG DVDGA FXAVG DGXVX AVAXV FAADA VFXXG",
+        "AVVFX GDGXD XFXXD AXGXD XDAXA ADAAF XXXAX FDGXA",
+        "DXDVA DDGXV VDGDG GDADA AXAGD AGAXA GDXDA XFXGX",
+        "VXDVD DGXXA AAXGF AFXDA XVVXG DGVAX GVDXV XFADA",
+        "DDFDD AXVAX FDXGX A---- GAFAA DVXXD FGFXG XAFDV",
+        "FVG-- DVX"
+      ],
+      "source_slots": 248,
+      "expected_raw": "ANXOKMXERBETENEWIEDERHODUNGHIESIGERRMX1XAX112??XGEHXOPXVOM?X11XTEWLNAHMEANV?RHAN?LUN?BNGE?AESS?ORTXRMX1?AX11222XOPXZWECKLOSX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 3,
+      "expected_source_mask_fills": 5
+    },
+    {
+      "id": "p206_B2",
+      "title": "Cited messages settled by the order to depart issued locally",
+      "key_id": "Nov16-18",
+      "header_literal": "B) ZÖN v OKM (08.14 p.m., November 18th); 1600 (11/18); 4 TEILE; 2 TL RICHI-236",
+      "edited_output": "DORTIGEXNRXRMX1XAX1122?XOPXUNDRMX1XAX112??XOPXUNDRMX1UAX112?1XOPXVOMX?X11XDURCHDENHIERGEGEBENENABMARSCHBEFEHLERLEDIGTX",
+      "readable_german": "Dortige Nr. RM 1 A 1122? OP und RM 1 A 112?? OP und RM 1UA 112?1 OP vom ? 11 durch den hier gegebenen Abmarschbefehl erledigt.",
+      "meaning": "The second part states that the cited messages have been dealt with by the order to depart issued locally. It records the order and its effect on the correspondence, not proof that the troops completed their departure. The literal 1UA reference and all unresolved number-like fields remain unchanged.",
+      "protected_fields": [
+        "1122?",
+        "112??",
+        "1UA",
+        "112?1"
+      ],
+      "notes": [
+        "All 236 native coordinates are visible, with no source erasures. The earlier OCR contains only 196 coordinates; restoring the omitted visible row is a source transcription correction, not a 40-coordinate historical insertion.",
+        "The two word or separator proposals are HIWR to HIER and the M after the literal date-like 11 to separator X. Each costs one observed-coordinate substitution.",
+        "1UA is retained literally, despite the nearby repeated 1A reference pattern. No numerical field is repaired to match a presumed sequence.",
+        "The five remaining ? positions arise from fully observed unknown square cells. The shared-cell and distinct-cell constraints are given with part 1 and enforced by a single injective completion witness."
+      ],
+      "printed_page": 206,
+      "source_section": "B2",
+      "source_rows": [
+        "XFDGD GDGXD DFAFX FXFXF FVADA VVFVF VFVGD XADXA",
+        "XADAV AAADD XDXDX XFDAA GXDXD XDXGA ADGFX VAVAV",
+        "ADXXG ADXDX GXGFD GXGAX XAXFX XXGAD VFAFG FGFGX",
+        "DGXXD FDFDF VGAGD GGXXF XFXXX ADFVA GVGAG VGFDX",
+        "DXADV DVDVX XAGAD AXXXX XXXDG GGXXV XDXGG DAGDX",
+        "AVFVF VDDAD GFGXV XVXVX DDXVA FXFXF XFAGD G"
+      ],
+      "source_slots": 236,
+      "advertised_length": 236,
+      "expected_raw": "DORTIGEXNRXRMX1XAX1122?XOPXUNDRMX1XAX112??XOPXUNDRMX1UAX112?1XOPXVOMX?X11MDURCHDENHIWRGEGEBENENABMARSCHBEFEHLERLEDIGTX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 2,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "83f0ea39479138698b2e82fdf4dacbb9e9eaf4e8c86903dba3f43aa8860e4fdc",
+    "ocr_snapshot.json": "cdd9d6d91163a64b4554c35bab4a3c1aea6220df8d7d79c9423525b056c3f0ed"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

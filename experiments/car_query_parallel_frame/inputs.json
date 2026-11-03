@@ -1,0 +1,198 @@
+{
+  "schema": "adfgvx-parallel-car-query-frame-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "A parallel car enquiry with an explicit extra-coordinate model",
+  "case": "cases/radio/car_query_parallel_frame.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p183_D_E.png",
+      "pdf_page_1based": 186,
+      "crop_pdf_points": [
+        55,
+        415,
+        530,
+        570
+      ],
+      "render_scale": 3,
+      "sha256": "7dcabe7a3a8f4c293b1f5b6ede8f1ce3dbed4f2794a49bd2a2e86344bb1142d6",
+      "width": 1425,
+      "height": 465,
+      "channels": 3,
+      "rgb_sha256": "634689d8442a1db2a2105696bd97fc9a55a4695199b163bcdbfe2ecac432aa1f"
+    }
+  ],
+  "key": {
+    "id": "Nov10-12",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      9,
+      12,
+      7,
+      11,
+      3,
+      8,
+      16,
+      6,
+      14,
+      2,
+      10,
+      15,
+      5,
+      13,
+      1,
+      4
+    ],
+    "column_count": 16,
+    "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+    "square_rows": [
+      "4ARUT1",
+      "OIFSKN",
+      "3?BZPV",
+      "LD?JMX",
+      "CWHQ2E",
+      "?G0?Y?"
+    ],
+    "known_cell_count": 31,
+    "missing_plaintext_symbols": "56789",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 242,
+        "pdf_page_1based": 245,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "The historical appendix also labels this table December 1-3."
+    ],
+    "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+    "baseline_differences": [
+      {
+        "coordinate": "FD",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GF",
+        "baseline": "6",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "7",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XG",
+        "baseline": "8",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XX",
+        "baseline": "9",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+    "previously_published_completion": {
+      "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-02",
+      "comment": 26,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "FD",
+          "proposed": "5"
+        },
+        {
+          "row_column": "GF",
+          "proposed": "6"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "7"
+        },
+        {
+          "row_column": "XG",
+          "proposed": "8"
+        },
+        {
+          "row_column": "XX",
+          "proposed": "9"
+        }
+      ]
+    }
+  },
+  "record": {
+    "id": "p183_D",
+    "printed_page": 183,
+    "source_section": "D",
+    "header_literal": "D) CZ v CM (17.20 p.m., November 12th); 12.40; RIZI-27",
+    "advertised_length": 27,
+    "source_rows": [
+      "AAXDF AVDFA AADAG FVVAG DDAGV DDVFF VGDVG DX"
+    ],
+    "source_slots": 37,
+    "primary_model_excluded_source_index": 36,
+    "primary_model_length": 36,
+    "target": "WOBLEIBTAUTOXKRAMM",
+    "readable_german": "Wo bleibt Auto. KRAMM.",
+    "meaning": "The conditional parallel-copy reading asks where the car is or why it has not arrived. KRAMM remains a literal closing label. The wording is already directly readable from the separate native E witness; this package adds the source comparison for D, not a new message content or evidence that a car was dispatched."
+  },
+  "witness_record": "p183_E",
+  "prior_artifacts": {
+    "native_witness.json": "bef74fe5413c6519a025dc409425d19029a341b94deb50162ac23cd24d774ca6"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted. The arrival-enquiry and departure wording was already presented for p174 B/E in cases/radio/seifert.md. The new p183 witnesses add coordinate support and a separately priced comparison, not a new claim to that wording or extra message groups.",
+  "limits": [
+    "The printed header says 27, the native D body has 37 observed coordinates, and the comparison model has 36. All three are kept distinct.",
+    "One observed final X is excluded only in the conditional model. This is not an erasure fill or an established cancellation/padding mark.",
+    "The unchanged E body provides the complete target independently. All 37 possible one-coordinate exclusions in D are priced against that fixed target.",
+    "Previously catalogued native witness E is not counted again."
+  ]
+}

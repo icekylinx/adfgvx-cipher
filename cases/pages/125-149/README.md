@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 100–124](../100-124/README.md) · [pp. 150–174 →](../150-174/README.md)
 
-**2 challenge entries and 70 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**2 challenge entries and 71 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p125](#p125) · [p126](#p126) · [p127](#p127) · [p128](#p128) · [p129](#p129) · [p130](#p130) · [p131](#p131) · [p132](#p132) · [p133](#p133) · [p134](#p134) · [p135](#p135) · [p136](#p136) · [p137](#p137) · [p138](#p138) · [p139](#p139) · [p140](#p140) · [p141](#p141) · [p142](#p142) · [p143](#p143) · [p144](#p144) · [p145](#p145) · [p146](#p146) · [p147](#p147) · [p148](#p148) · [p149](#p149).
 
@@ -254,6 +254,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p148 A1](../../radio/nov6_embassy_reference_8956.md#p148-a1) | German embassy address and abbreviated signature label, reference RM3D8956 | 65/65 native raw positions; 5 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4-6 key; prior OCR and body attribution retained |
 | [p148 B1](../../radio/constantinople_address_parts.md) | Military Mission routing, Groener signature and officer receipt acknowledgement | 163/164 fixed positions; 2 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
 | [p148 C1](../../people/osthoff.md) | Osthoff's posting cancellation, clearer repeat | 120/121 raw positions; remaining letter supplied by p138 | icekylinx and GPT-6 Astra Pro (2026) |
 
