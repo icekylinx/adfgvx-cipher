@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 200–224](../200-224/README.md)
 
-**0 challenge entries and 28 other reviewed entries across 6 printed pages, representing 28 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
+**0 challenge entries and 29 other reviewed entries across 6 printed pages, representing 29 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
 
 Jump to page: [p225](#p225) · [p226](#p226) · [p227](#p227) · [p228](#p228) · [p229](#p229) · [p230](#p230).
 
@@ -48,6 +48,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p228 A](../../military/nov30_aviation_march_destination.md#p228-a) | Aviation staff and army aviation park march destinations | Native384; conditional374 after ten source exclusions; seven observed substitutions and four printed-mask fills; all ten tied contiguous placements and both whole-group minima retained | icekylinx and GPT-6 Astra Pro (2026); published key and earlier surveys credited |
 | [p228 B1](../../military/neuhof_demobilization.md) | Flak unit directed to demobilization at Neuhof south of Fulda | Source-exact 246-slot frame; 117/123 raw labels; five substitutions and five fills give 122/123; NICHIN and unresolved unit ?0 retained | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
 | [p228 B2](../../military/neuhof_demobilization.md) | Conditional opening about demobilization on the Hanau-Fulda line | Partial 33-character opening only; five substitutions and ten fills; final 99 positions have no coherent original-language reading | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
 | [p228 B3](../../military/neuhof_demobilization.md) | Field-army routing instruction directs the subject to Neuhof | Actual 186-slot frame versus printed RICHI-196?; 92/93 raw labels; one fill gives 93/93; literal DARMSADT retained | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |

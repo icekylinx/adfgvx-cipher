@@ -1,0 +1,179 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "A request to send money to BRASSO by another means",
+  "case": "cases/finance/brasso_money_alternative_route.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p185_reviewed.png",
+      "pdf_page_1based": 188,
+      "crop_pdf_points": [
+        35,
+        190,
+        540,
+        300
+      ],
+      "render_scale": 3,
+      "sha256": "d9452a21ed25970cf2329db61726a8ebc7690b8351562e6419fc319b34db3515",
+      "width": 1515,
+      "height": 330,
+      "channels": 3,
+      "rgb_sha256": "77dc4fc45d8a566b6c5fd34d400dd0178855b6c3171d397d719816cb54fcb884",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "keys": {
+    "Nov13-15a": {
+      "id": "Nov13-15a",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        13,
+        8,
+        6,
+        16,
+        7,
+        18,
+        1,
+        14,
+        9,
+        20,
+        10,
+        15,
+        17,
+        2,
+        3,
+        11,
+        5,
+        19,
+        4,
+        12
+      ],
+      "column_count": 20,
+      "square": "JZLH?R??S?T?MKDWU?V?B?P??FAO?GIX?CNE",
+      "square_rows": [
+        "JZLH?R",
+        "??S?T?",
+        "MKDWU?",
+        "V?B?P?",
+        "?FAO?G",
+        "IX?CNE"
+      ],
+      "known_cell_count": 24,
+      "missing_plaintext_symbols": "0123456789QY",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 244,
+          "pdf_page_1based": 247,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "JZLH+R++S+T+MKDWU+V+B+P++FAO+GIX+CNE",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  },
+  "records": [
+    {
+      "id": "p185_A2",
+      "title": "Requested money to be sent to BRASSO by another means",
+      "key_id": "Nov13-15a",
+      "header_literal": "A) NKJ v LP (03.08 a.m., November 13th); 2 TL RICHI-244",
+      "edited_output": "KXMXISTXERSUCHTXWORDENXINXVERBINDUNGXMITXAXAXGEFORDERTESXGELDXAUFXANDEREXWEISEXNACHXBRASSOXZUXSENDENXOHLXRMX?XCX??????XOPX",
+      "readable_german": "K M ist ersucht worden, in Verbindung mit A A gefordertes Geld auf andere Weise nach BRASSO zu senden. OHL RM? C?????? OP.",
+      "meaning": "The surviving second part states that K M has been asked, in conjunction with A A, to send the requested money to BRASSO by another means. The abbreviations and place label remain unexpanded. The message describes a request and does not establish that the money arrived or specify an amount or alternative route.",
+      "protected_fields": [
+        "BRASSO",
+        "??????"
+      ],
+      "notes": [
+        "All 244 native source slots are present, including the final FFDA omitted from the earlier 240-slot OCR. The complete source frame is preserved without an inserted historical tail.",
+        "The literal E in XEDAX at source 176 and the printed dash in D-VGV at source 216 are masked independently. Filling them with F and G gives the proposals GEFORDERTES and NACH. All 242 valid observed coordinates remain unchanged.",
+        "The printed 2 TL label is retained. This package supplies no missing first part, remittance amount, route or expansion of K M / A A.",
+        "The seven footer question marks arise from five fully observed unknown square cells. VV is shared by plaintext 108 and 112; FX is shared by 113 and 117; positions 114, 115 and 116 are VA, GG and GX respectively.",
+        "Those five cells must receive distinct labels from {0,1,2,3,4,5,6,7,8,9,Q,Y}, while repeated cells agree. The source does not select numerical values, and Q or Y are not ruled out merely because the fields look like references."
+      ],
+      "printed_page": 185,
+      "source_section": "A2",
+      "source_rows": [
+        "XAXFV DFFXX AFVGA DXDFF FVAXX VXFVV XXDFX FAFGD",
+        "AAXXV XXVXA AXVXF XDXVX XFXXV XXXXA VXXFX XFXAV",
+        "XAFAV DFXAD FFXFD DGVXD XXXXV XGDXV DXXVV DXXAX",
+        "AGDGX ADXVX FFDXX FFVXF XVGVD GFDXX XFFAV XXXGD",
+        "GAVFV VGDDF XFDDX XEDAX XXGDV VVFXD XGDGD DDFGX",
+        "XXVDV XFGAG DFDXF D-VGV XXXAG XFDFX VDAVV VDXDX",
+        "FFDA"
+      ],
+      "source_slots": 244,
+      "advertised_length": 244,
+      "expected_raw": "KXMXISTXERSUCHTXWORDENXINXVERBINDUNGXMITXAXAXGEFORDERTE?XGELDXAUFXANDEREXWEISEXNAC?XBRASSOXZUXSENDENXOHLXRMX?XCX??????XOPX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 2
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "dad0ae9484878c1fce945fe10ffd172ee82f43ede297dcec8382c4125c726a4d",
+    "ocr_snapshot.json": "655ddf0bbf183ba5007914b90925cdeb73397db0a024a7d85487590a611f0b47"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

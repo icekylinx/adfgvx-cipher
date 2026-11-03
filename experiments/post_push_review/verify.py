@@ -15,6 +15,8 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(ROOT))
 from adfgvx.catalog import physical_source_accounting
+from adfgvx.cipher import plaintext_domains
+from adfgvx.source_evidence import verify_source_evidence
 
 LINKED_FIXED_FIELD = 'source_linked_additional_fixed_label_positions'
 
@@ -30,12 +32,45 @@ def read(path):
 def verify_source_linked_raw_normalization(package, certificate):
     """Separate the reviewed added-coordinate gain from the fixed-raw total.
 
-    This narrowly handles the p158 E1 source-linked A. Existing copy-conditioned
-    packages retain their original normalization; absent new metadata means zero.
+    This handles the p158 E1 source-linked A and the origin-mapped p162/p166
+    family. Other earlier copy-conditioned packages retain their recorded
+    normalization; absent explicit reviewed metadata means zero.
     """
     counts = package['normalized_counts']
     reported_gain = counts.get(LINKED_FIXED_FIELD, 0)
     assert type(reported_gain) is int and reported_gain >= 0
+    if certificate.get('schema') == 'adfgvx-nov9-wire-return-source-family-certificate-v1':
+        inputs = read(ROOT / 'experiments' / package['name'] / 'inputs.json')
+        key = inputs['key']
+        sources = {r['id']: ''.join(''.join(r['source_rows']).split()) for r in inputs['records']}
+        before = {r['id']: r for r in certificate['primary_unfilled_records']}
+        after = {r['id']: r for r in certificate['source_linked_records']}
+        assert set(before) == set(after) == set(package['record_ids'])
+        raw_fixed = linked_fixed = 0
+        for rid, old in before.items():
+            new = after[rid]
+            assert old['model_to_source_indices'] == new['model_to_source_indices']
+            assert len(old['ciphertext']) == len(new['ciphertext'])
+            for i, source_index in enumerate(old['model_to_source_indices']):
+                if source_index is None:
+                    assert old['ciphertext'][i] == '?'
+                else:
+                    assert old['ciphertext'][i] == new['ciphertext'][i] == sources[rid][source_index]
+                origin = new['model_to_coordinate_origins'][i]
+                assert new['ciphertext'][i] == sources[origin['record_id']][origin['source_index']]
+            old_domains = plaintext_domains(old['ciphertext'], key['column_rank_order'], key['square'])
+            new_domains = plaintext_domains(new['ciphertext'], key['column_rank_order'], key['square'])
+            assert old_domains == [p['domain'] for p in old['positions']]
+            assert new_domains == [p['domain'] for p in new['positions']]
+            assert all(set(b) <= set(a) for a, b in zip(old_domains, new_domains))
+            raw_fixed += sum(len(d) == 1 for d in old_domains)
+            linked_fixed += sum(len(d) == 1 for d in new_domains)
+        assert raw_fixed == counts['fixed_raw_label_positions_under_stated_geometry'] == 205
+        assert linked_fixed - raw_fixed == reported_gain == 157
+        edits = certificate['deduplicated_cross_copy_substitutions'] + certificate['deduplicated_lexical_substitutions']
+        assert len({(r['record_id'], r['source_index']) for r in edits}) == len(edits) == 6
+        assert counts['known_coordinate_substitutions'] == 6
+        return reported_gain
     if certificate.get('schema') != 'adfgvx-source-linked-one-coordinate-parallel-certificate-v1':
         assert reported_gain == 0, (package['name'], 'Unreviewed source-linked fixed-position gain')
         return 0
@@ -127,10 +162,16 @@ def build(pdf=None):
                 'adfgvx-source-linked-one-coordinate-parallel-certificate-v1',
                 'adfgvx-conditional-two-duplicate-partial-certificate-v1'):
             certificate_ids = {certificate['record']['id']}
+        elif 'source_records' in certificate:
+            certificate_ids = set(certificate['source_records'])
+        elif 'source_record' in certificate or 'record_id' in certificate:
+            certificate_ids = {certificate.get('source_record', certificate.get('record_id'))}
         else:
             certificate_ids = {r['id'] for r in certificate['records']}
         assert set(package['record_ids']) == certificate_ids
-        assert package['original_summary'] == certificate.get('summary', certificate.get('totals'))
+        assert package['original_summary'] == certificate.get('summary', certificate.get('totals', certificate.get('normalized_counts')))
+        if certificate.get('schema') == 'adfgvx-odessa-courier-pretransposition-certificate-v1':
+            assert package['normalized_counts']['fixed_raw_label_positions_under_stated_geometry'] == certificate['summary']['unfilled_loss_model_fixed_positions']
         assert len(proposals) == package['normalized_counts']['physical_records']
         for row in proposals:
             assert row == after[row['id']]
@@ -153,6 +194,17 @@ def build(pdf=None):
         seen_images.add(image['path'])
         assert sha(ROOT / image['path']) == image['png_sha256']
         assert image['pdf_page_1based'] > 0 and image['scale'] > 0
+    external_references = inputs.get('external_source_references', [])
+    assert len({r['reference_id'] for r in external_references}) == len(external_references)
+    assert all(r['storage'] == 'external_pdf_reference' for r in external_references)
+    # Reference metadata is checked in the portable run; actual source pixels
+    # are checked only when the caller provides the authenticated original PDF.
+    source_reference_report = verify_source_evidence(
+        pdf, inputs['source_pdf'], external_references, ROOT)
+    assert source_reference_report['summary']['external_pdf_references'] == len(external_references)
+    assert source_reference_report['summary']['embedded_pngs_checked'] == 0
+    assert source_reference_report['summary']['crops_checked_against_pdf_pixels'] == (
+        len(external_references) if pdf else 0)
     if pdf:
         import fitz
         from PIL import Image
@@ -176,6 +228,12 @@ def build(pdf=None):
     if extended_until:
         extended_time = datetime.fromisoformat(extended_until.replace('Z', '+00:00'))
         assert extended_time >= minimum
+    continuation = inputs.get('current_continuation')
+    if continuation:
+        continuation_start = datetime.fromisoformat(continuation['started_utc'].replace('Z', '+00:00'))
+        continuation_end = datetime.fromisoformat(continuation['requested_until_utc'].replace('Z', '+00:00'))
+        assert int((continuation_end - continuation_start).total_seconds()) == continuation['requested_seconds']
+        assert continuation_end == extended_time
     finished = inputs['review_finished_utc']
     elapsed = None
     if finished is not None:
@@ -226,7 +284,11 @@ def build(pdf=None):
                           'removed_records': [], 'prior_metadata_changes_other_than_paths': [],
                           'canonical_path_updates': len(changed_paths)},
             'source_package_count': len(inputs['source_packages']), 'new_case_pages': cases,
-            'source_image_count': len(seen_images), 'pinned_artifact_count': len(inputs['artifact_sha256s']),
+            'source_image_count': len(seen_images),
+            'external_pdf_source_reference_count': len(external_references),
+            'external_source_pixels_require_original_pdf': True,
+            'current_continuation': continuation,
+            'pinned_artifact_count': len(inputs['artifact_sha256s']),
             'coverage_totals': totals, 'source_packages': inputs['source_packages'],
             'additional_packages': inputs['additional_packages'],
             'added_catalogue_entry_ids': sorted(added, key=sort_entry),
@@ -236,6 +298,7 @@ def build(pdf=None):
                 'Catalogue entries and physical sources are separate counts. Registered p132_B is a later edition of challenge p132 and adds no new physical source.',
                 'Package coverage retains every reviewed entry and its modeled positions, including that existing source. Coverage totals separately report unique reviewed sources and genuinely new physical sources.',
                 'Every unregistered duplicate printed-page/source-section location is rejected; similar bodies at different physical source locations are not merged.',
+                'The p162/p166 source family leaves all195 copied prefix coordinates and its one added X unassigned in the fixed-raw baseline. Its157 additional fixed labels are reported separately, and repeated donor-prefix edits are charged once at their observed source origins.',
                 'The fixed-raw total leaves the source-linked added coordinate of p158 E1 unassigned. Its one extra fixed position from the p170 B1 A is counted separately as source_linked_additional_fixed_label_positions. Existing copy-conditioned packages retain their original normalization; absent new metadata defaults to zero.']}
 
 

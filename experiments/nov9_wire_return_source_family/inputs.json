@@ -1,0 +1,304 @@
+{
+  "schema": "adfgvx-nov9-wire-return-source-family-inputs-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "project": "ADFGVX Cipher",
+  "case": "cases/radio/nov9_wire_return_source_family.md",
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "core_sha256": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/messages.json": "1e4013252eb54065435ae1591abea729df8e40e482a6fe57165b512a9ba9c373"
+  },
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "pdf_bytes": 156848258,
+    "reviewed_crops": [
+      {
+        "printed_page": 162,
+        "pdf_page_1based": 165,
+        "crop_pdf_points": [
+          60,
+          420,
+          530,
+          542
+        ],
+        "render_scale": 5,
+        "width": 2350,
+        "height": 610,
+        "channels": 3,
+        "rgb_sha256": "16e8ac3e4412722ec995a464bfee236750b6681e69fb12bf07f1534e5ca38c8e"
+      },
+      {
+        "printed_page": 166,
+        "pdf_page_1based": 169,
+        "crop_pdf_points": [
+          110,
+          555,
+          550,
+          712
+        ],
+        "render_scale": 5,
+        "width": 2200,
+        "height": 785,
+        "channels": 3,
+        "rgb_sha256": "47f4f7739390754185b645d2d5c4c99acb1360efff69927388a9a1d5c31680f8"
+      }
+    ],
+    "source_image_note": "Both full source pages and these enlarged crops were directly inspected. New image bytes are retained locally; this package publishes only reproducible PDF-page/crop/RGB evidence references."
+  },
+  "records": [
+    {
+      "id": "p162_C1",
+      "printed_page": 162,
+      "source_section": "C1",
+      "header_literal": [
+        "C) ==- v NKJ (09.45 a.m., November 9th)",
+        "(missed first part of this message)",
+        "RICHI--? 1 TL"
+      ],
+      "source_rows": [
+        "GGDFX VVVDV VVDVD VDXDG VVXXG GDDVV XXVGD VVGXD",
+        "XGVXD DDAXD GVGDF AGVDD VGXXV AVDGD GDGAX FDGGD",
+        "DDVXX VDVGD FFVDF AXAXD XGFFV VXAVA AFAXD AG"
+      ],
+      "advertised_length": null,
+      "literal_source": "GGDFXVVVDVVVDVDVDXDGVVXXGGDDVVXXVGDVVGXDXGVXDDDAXDGVGDFAGVDDVGXXVAVDGDGDGAXFDGGDDDVXXVDVGDFFVDFAXAXDXGFFVVXAVAAFAXDAG",
+      "primary_model": "195 unassigned prefix slots followed by all 117 printed coordinates, unchanged",
+      "source_linked_model": "Copy p166 C1 original coordinates 0:195 as prefix; no p162 source change",
+      "edited_output": "AKONACH18XMITTEILTOBDRAHTVERKEHRODESSAXODESSAMITDORTIGERHGRXMOEGLICHXSTOERUNGSPOSTENACKERMANNSOLLVONBRAILAZURRUECKKEHRANGEWIESENSEINXSTOERUNGSPOSTENTIRASPOL",
+      "readable_german": "Akonach 18 X mitteilt ob Drahtverkehr Odessa X Odessa mit dortiger Hgr X moeglich X Stoerungsposten Ackermann soll von Braila zur Rueckkehr angewiesen sein X Stoerungsposten Tiraspol.",
+      "source_slots": 117
+    },
+    {
+      "id": "p166_C1",
+      "printed_page": 166,
+      "source_section": "C1",
+      "header_literal": [
+        "C) UKS v NKJ (9.47 a.m., November 9th)",
+        "0920 (9) 2 TLE",
+        "1 TL RICHI-312"
+      ],
+      "source_rows": [
+        "FGXFD GDDDX XFAVA DFGAX GDVDD GAAXA XFGGD AAGXF",
+        "DXDDF GDVXV XXVXX FGDGV GGGVX VXGGD GXGGG XXAXA",
+        "XVXAA GDXGA DGDAV GAADG FFGXA DDXDX XDGDX DDAXF",
+        "DVDGD FVDDD GVFDV DDVDD DAXGV VDVAD XDDXV VXVDX",
+        "DXGVV GDDXV AXDFV XVDFV XDXVG GGDXD VXGXD GGDFX",
+        "VVVDV VVDVD VDXDG VVXXG GDDVV XVGD VVGXD XGVXD",
+        "DDAXD GVDFF AGVDD VGXXV AVDGD GDGAX FDGGD DDVXX",
+        "VDVGD FFVDF AXAXD XGFFV VXAVA AFAXD AG"
+      ],
+      "advertised_length": 312,
+      "literal_source": "FGXFDGDDDXXFAVADFGAXGDVDDGAAXAXFGGDAAGXFDXDDFGDVXVXXVXXFGDGVGGGVXVXGGDGXGGGXXAXAXVXAAGDXGADGDAVGAADGFFGXADDXDXXDGDXDDAXFDVDGDFVDDDGVFDVDDVDDDAXGVVDVADXDDXVVXVDXDXGVVGDDXVAXDFVXVDFVXDXVGGGDXDVXGXDGGDFXVVVDVVVDVDVDXDGVVXXGGDDVVXVGDVVGXDXGVXDDDAXDGVDFFAGVDDVGXXVAVDGDGDGAXFDGGDDDVXXVDVGDFFVDFAXAXDXGFFVVXAVAAFAXDAG",
+      "primary_model": "One unfilled coordinate before original source 225, with alias 226 preserved",
+      "source_linked_model": "Supply the missing X from p162 C1 source 30 (alias 31); retain both observed disagreements until the collated layer",
+      "edited_output": "AKONACH18XMITTEILTOBDRAHTVERKEHRODESSAXODESSAMITDORTIGERHGRXMOEGLICHXSTOERUNGSPOSTENACKERMANNSOLLVONBRAILAZURRUECKKEHRANGEWIESENSEINXSTOERUNGSPOSTENTIRASPOL",
+      "readable_german": "Akonach 18 X mitteilt ob Drahtverkehr Odessa X Odessa mit dortiger Hgr X moeglich X Stoerungsposten Ackermann soll von Braila zur Rueckkehr angewiesen sein X Stoerungsposten Tiraspol.",
+      "source_slots": 311
+    },
+    {
+      "id": "p166_C2",
+      "printed_page": 166,
+      "source_section": "C2",
+      "header_literal": [
+        "C) UKS v NKJ (9.47 a.m., November 9th)",
+        "0920 (9) 2 TLE",
+        "2 TL RICHI-100"
+      ],
+      "source_rows": [
+        "ADDXV DDDVD AAXVA DXGGA DDDFG GVDAX GGADF DGXDF",
+        "FVXXF VVDXF DVVGX VXVDD XVVDX XVDVF GGVVD XDADF",
+        "DGVGF AFGVD AXDXV DVAFA"
+      ],
+      "advertised_length": 100,
+      "literal_source": "ADDXVDDDVDAAXVADXGGADDDFGGVDAXGGADFDGXDFFVXXFVVDXFDVVGXVXVDDXVVDXXVDVFGGVVDXDADFDGVGFAFGVDAXDXVDVAFA",
+      "primary_model": "All 100 printed coordinates in order",
+      "source_linked_model": "No fill; p162 C2 source 84 V independently supports the optional one-coordinate correction",
+      "edited_output": "TIRASPOLERHIELTMXGXFEUERANDERGRENZEXAKONACH17ROEM4",
+      "readable_german": "Tiraspol erhielt M X G X Feuer an der Grenze X Akonach 17 Roem 4.",
+      "source_slots": 100
+    }
+  ],
+  "source_family": {
+    "p162_C1_prefix_coordinates": 195,
+    "p166_C1_gap_before_original_indices": [
+      225,
+      226
+    ],
+    "p166_C1_missing_fill_witness_indices": [
+      30,
+      31
+    ],
+    "p166_C1_cross_copy_substitutions": [
+      [
+        246,
+        "D",
+        "G",
+        52
+      ],
+      [
+        247,
+        "F",
+        "D",
+        53
+      ]
+    ],
+    "p166_C1_optional_lexical_substitutions": [
+      [
+        160,
+        "D",
+        "X"
+      ],
+      [
+        161,
+        "X",
+        "G"
+      ],
+      [
+        162,
+        "G",
+        "V"
+      ]
+    ],
+    "p166_C2_cross_copy_substitution": [
+      84,
+      "F",
+      "V",
+      84
+    ]
+  },
+  "prior_snapshot": {
+    "path": "prior_snapshot.json",
+    "sha256": "462619e1aa02de6761160c0bfa1b0211e7d213937d237d842352e1bcc99b1118",
+    "ocr_source_path": "experiments/p153_corpus/inputs.json",
+    "context_and_witness_path": "experiments/nov8_map_and_boundary/inputs.json",
+    "unchanged_case_path": "cases/military/tiraspol_border_report.md"
+  },
+  "prior_credit": "J. Rives Childs source; published period key by George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), with Lasry 2017 disclosure. Prior OCR and the accepted p162 C2 edition are preserved. Current source collation and explicitly priced edition: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is claimed.",
+  "limits": [
+    "The p162 C1 fragment by itself fixes zero labels in the source-linked 312 frame: 195 missing prefix coordinates remain unassigned in the primary baseline. Its complete reading is conditional on the independently observed p166 prefix.",
+    "The overlap has 114 independently agreeing coordinates, 2 observed disagreements and 1 absent p166 coordinate. Filling that coordinate from p162 creates a copied agreement, not a 115th independent agreement.",
+    "The missing-coordinate location has two aliases, original 225 and 226, both within the short XVGD group. They have different unfilled raw positions but the same filled XXVGD ciphertext.",
+    "Source-only alignment establishes the best match within the declared one-missing-coordinate frame. It does not rule out all other error histories or prove every transmitted glyph.",
+    "Three lexical substitutions are in the shared p166 prefix. They are counted once at their observed origins; p162 supplies no independent check of those prefix repairs.",
+    "Two p166 C1 substitutions are supported by coordinates in the p162 fragment; their other pair coordinates still come from p166. They are not complete plaintext pairs independently observed in p162.",
+    "The earlier p162 C2 edition is a supporting witness only and is not counted as a fourth new physical record.",
+    "The literal wording MITTEILT, labels AKONACH18 and AKONACH17ROEM4, and all separators remain unchanged. No person, unit, exact military function, border or historical event is identified beyond the source language."
+  ]
+}

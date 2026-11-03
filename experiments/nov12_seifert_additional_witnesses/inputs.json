@@ -1,0 +1,272 @@
+{
+  "schema": "adfgvx-cross-source-seifert-witnesses-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "November 12: additional arrival and return enquiry witnesses",
+  "case": "cases/radio/nov12_seifert_additional_witnesses.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p182_AC_reviewed.png",
+      "pdf_page_1based": 185,
+      "crop_pdf_points": [
+        64,
+        178,
+        535,
+        402
+      ],
+      "render_scale": 3,
+      "sha256": "b660d2418677c89de42d8f3522f18b2eafdd03ff470d3b4494b04f7d8e6e914c",
+      "width": 1413,
+      "height": 672,
+      "channels": 3,
+      "rgb_sha256": "5cc2fce00fb6a7a7233e1a3d5fcc399566546d85c5e52fbafd4ea9b0163f8ca6",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    },
+    {
+      "path": "../nov12_arrival_departure_and_car/sources/p174_parallel.png",
+      "pdf_page_1based": 177,
+      "crop_pdf_points": [
+        58,
+        422,
+        558,
+        730
+      ],
+      "render_scale": 3,
+      "sha256": "45e9268533cae9bcbbbe416c26328abf3c80a13e6f94b7710f2d38f6b352513a",
+      "width": 1500,
+      "height": 924,
+      "channels": 3,
+      "rgb_sha256": "c42f6152fad82ffec0aff7b2d220d625b44450ade93f9e71835edfc9528d67fb"
+    },
+    {
+      "path": "../nov12_arrival_departure_and_car/sources/p183_reviewed.png",
+      "pdf_page_1based": 186,
+      "crop_pdf_points": [
+        55,
+        183,
+        530,
+        557
+      ],
+      "render_scale": 3,
+      "sha256": "746b926a51e23ab090d1ed667fa9e57ea6125d64b2fd3c16b151a4fcd95801f2",
+      "width": 1425,
+      "height": 1122,
+      "channels": 3,
+      "rgb_sha256": "edbfd4dca542b59bffa642dbf35f5cddb2008dc30889593b75b29cbfc24eb748"
+    }
+  ],
+  "key": {
+    "id": "Nov10-12",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      9,
+      12,
+      7,
+      11,
+      3,
+      8,
+      16,
+      6,
+      14,
+      2,
+      10,
+      15,
+      5,
+      13,
+      1,
+      4
+    ],
+    "column_count": 16,
+    "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+    "square_rows": [
+      "4ARUT1",
+      "OIFSKN",
+      "3?BZPV",
+      "LD?JMX",
+      "CWHQ2E",
+      "?G0?Y?"
+    ],
+    "known_cell_count": 31,
+    "missing_plaintext_symbols": "56789",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 242,
+        "pdf_page_1based": 245,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "The historical appendix also labels this table December 1-3."
+    ],
+    "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+    "baseline_differences": [
+      {
+        "coordinate": "FD",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GF",
+        "baseline": "6",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "7",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XG",
+        "baseline": "8",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XX",
+        "baseline": "9",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+    "previously_published_completion": {
+      "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-02",
+      "comment": 26,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "FD",
+          "proposed": "5"
+        },
+        {
+          "row_column": "GF",
+          "proposed": "6"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "7"
+        },
+        {
+          "row_column": "XG",
+          "proposed": "8"
+        },
+        {
+          "row_column": "XX",
+          "proposed": "9"
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "p182_A",
+      "printed_page": 182,
+      "source_section": "A",
+      "literal_header": "A) CM v CZ (19.35 p.m., November 12th); 19.30; RIZI-74",
+      "source_rows": [
+        "VVFVG XAVTA AGXVA VVVVA DAVDV AXFFI XD-VD FDDXA",
+        "DDDDD --NTD DVDVD"
+      ],
+      "source_slots": 55,
+      "valid_source_coordinates": 48,
+      "advertised_length": 74,
+      "model_length": 74,
+      "primary_excluded_source_index": 48,
+      "primary_gap_after_shortened_slots": 5,
+      "added_unknown_coordinates": 20,
+      "target": "WENNSEIFERTEINGETROFFENBITTENACHRXTOF",
+      "readable_german": "Wenn Seifert eingetroffen, bitte NACHR. TOF.",
+      "witness_ids": [
+        "p174_B",
+        "p183_B"
+      ],
+      "scope": "The raw-source consensus supplies the full target. All one-slot exclusions and one contiguous twenty-slot gap positions are tested; all eleven minimum maps remain explicit."
+    },
+    {
+      "id": "p182_C",
+      "printed_page": 182,
+      "source_section": "C",
+      "literal_header": "C) CM v CZ (21.25 p.m., November 12th); 21.00; RIZI-56",
+      "source_rows": [
+        "VVVFF VDAFA XXVDA XXFAD DXGXV DDAAG DVFDV DXGFA",
+        "DAGVX DDAX"
+      ],
+      "source_slots": 49,
+      "valid_source_coordinates": 49,
+      "advertised_length": 56,
+      "model_length": 48,
+      "primary_excluded_source_index": 48,
+      "added_unknown_coordinates": 0,
+      "target": "WANNRUECKKUNFTSEIFERTXRE",
+      "readable_german": "Wann Rueckkunft Seifert. RE.",
+      "witness_ids": [
+        "p174_C"
+      ],
+      "scope": "The target is the complete independently observed raw p174 C body. All49 one-coordinate exclusions are priced; the terminalX minimum is unique only within this bounded model."
+    }
+  ],
+  "prior_artifacts": {
+    "parallel_witnesses.json": "ed12ebb9862fc7d6e746657c2e0a35bd52ec75f1bd9d8918af2b14bb14169155",
+    "ocr_snapshot.json": "e30854622e4be14d88f218a0f8190a07f9b50b97b6f7ad6bf1d7ae979b530b44"
+  },
+  "prior_credit": "The arrival enquiry and return enquiry were already read at p174 B/C in the Seifert service edition. p183 B already supplied complementary raw source support for the p174 B mask. Published period key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017). Additional p182 physical witnesses, source alignment and explicit costs: icekylinx and GPT-6 Astra Pro. No new-word or first-decipherment priority is asserted.",
+  "limits": [
+    "Native55/49-slot source transcriptions are retained in full, including the seven non-coordinate A glyphs and final C X.",
+    "The74-slot A model excludes one printed slot and inserts20, so the net nineteen-slot shortfall does not hide a structural operation.",
+    "A has eleven equal minima for observed substitutions: four exclude a masked glyph and fill six remaining printed masks; seven exclude an observed D and fill seven printed masks. Every branch adds and fills20 separately identified model slots.",
+    "The48-slot C model does not follow its printed56 header. One observed X exclusion and one F-to-V substitution are explicitly conditional on its independently observed p174C parallel.",
+    "The bounded frame comparisons use independent raw source coordinates rather than a German language score. They do not establish a unique physical error mechanism or a unique geometry outside the tested model classes.",
+    "No numerical label, abbreviated signature, personal identity or itinerary is inferred from shared vocabulary."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

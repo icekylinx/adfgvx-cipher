@@ -1,0 +1,348 @@
+{
+  "schema": "adfgvx-nov15-radio-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "November 15: Warsaw radio personnel and a repeated key notice",
+  "case": "cases/radio/nov15_radio_personnel_and_key_notice.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p197_reviewed.png",
+      "pdf_page_1based": 200,
+      "crop_pdf_points": [
+        65,
+        175,
+        525,
+        415
+      ],
+      "render_scale": 3,
+      "sha256": "3267fc99a61de90855cef32032fcb635222d5bd2e3b07efc13e238ded246b49d",
+      "width": 1380,
+      "height": 720,
+      "channels": 3,
+      "rgb_sha256": "590975bdafa284f4cc4c93d8adc04e634eb91dfda2bf6c1cfbb1e2b9616a83c7",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    },
+    {
+      "path": "sources/p189_reviewed.png",
+      "pdf_page_1based": 192,
+      "crop_pdf_points": [
+        35,
+        330,
+        543.16,
+        435
+      ],
+      "render_scale": 3,
+      "sha256": "2452184fa259186404dd6413d7db8a24e94ddc66bf0003ad18ba7e912611842d",
+      "width": 1525,
+      "height": 315,
+      "channels": 3,
+      "rgb_sha256": "6ce4fc38276c1bc08ff51c0b12729397dde3a72c7d211dc57a8d4d46d265023f",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "keys": {
+    "Nov13-15b": {
+      "id": "Nov13-15b",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "column_count": 16,
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "square_rows": [
+        "H??BMU",
+        "F15PX0",
+        "DJLR??",
+        "??S6VO",
+        "NKZ?AW",
+        "ITEGC?"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "234789QY",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 244,
+          "pdf_page_1based": 247,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "baseline_differences": [
+        {
+          "coordinate": "AD",
+          "baseline": "2",
+          "audited": "?"
+        },
+        {
+          "coordinate": "AF",
+          "baseline": "3",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FV",
+          "baseline": "4",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FX",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GA",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GD",
+          "baseline": "9",
+          "audited": "?"
+        },
+        {
+          "coordinate": "VG",
+          "baseline": "Q",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "Y",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 24,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "AD",
+            "proposed": "2"
+          },
+          {
+            "row_column": "AF",
+            "proposed": "3"
+          },
+          {
+            "row_column": "FV",
+            "proposed": "4"
+          },
+          {
+            "row_column": "FX",
+            "proposed": "7"
+          },
+          {
+            "row_column": "GA",
+            "proposed": "8"
+          },
+          {
+            "row_column": "GD",
+            "proposed": "9"
+          },
+          {
+            "row_column": "VG",
+            "proposed": "Q"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "Y"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p197_A1",
+      "title": "Warsaw radio-personnel order under a missing-group model",
+      "key_id": "Nov13-15b",
+      "printed_page": 197,
+      "source_section": "A1",
+      "header_literal": "A) WAU v LP (03.55 p.m., November 15th); 14.50 2 TLE; 1 TL RICHI-198",
+      "source_rows": [
+        "DDAFG FAVFG GAFVA DAXAA FAXVX VDAXG XXAAG VDDFV",
+        "XXGXV XVVXX AGGXA XGAAX VAVDA VFXAG DDFXF AVGVA",
+        "GXVVG FVGVF XXAVA XVGAG VXXAF FVGVF FDAVX VGGVF",
+        "AAGDA AGVFV VDVG- AVAVV GXGXF FXXGG XVVFX FVXXF",
+        "AFXFF GFVAX VVFFF FGGFF FXVAX AXVVX FDX"
+      ],
+      "source_slots": 193,
+      "advertised_length": 198,
+      "analysis_frame": {
+        "kind": "single_missing_group",
+        "source_boundary": 165,
+        "inserted_slots": 5,
+        "scope": "A conditional single five-coordinate gap, selected using a readable candidate. The source visibly has 193 slots against the printed 198, but does not mark the missing location."
+      },
+      "expected_raw": "FESTUNGSFUNKAXWARSCHAUXDASGESAMTE?MBEREIC?DESGOUV?RNEMENT?WARSCHA?VERFUEGBAREFUN?ERPERSONALISTNMCHX",
+      "edited_output": "FESTUNGSFUNKAXWARSCHAUXDASGESAMTEIMBEREICHDESGOUVERNEMENTSWARSCHAUVERFUEGBAREFUNKERPERSONALISTNACHX",
+      "expected_substitutions": 1,
+      "expected_source_mask_fills": 1,
+      "expected_inserted_slot_fills": 5,
+      "readable_german": "Festungsfunka Warschau. Das gesamte im Bereich des Gouvernements Warschau verfuegbare Funkerpersonal ist nach",
+      "meaning": "The conditional first-part reconstruction orders all available radio personnel in the Warsaw government area to depart for the destination named by the native continuation.",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "protected_fields": [],
+      "notes": [
+        "The raw output is conditional on a 198-slot frame with five unknown slots inserted at source boundary 165. It is not a native decode of the 193 printed slots.",
+        "The proposed complete stream changes observed A to V at source index 98, fills the printed dash at index 134 with D, and fills the five inserted slots with AAFFX. These costs are separate.",
+        "Against this exact 99-position candidate, all 194 possible insertion boundaries are checked. Boundary 165 is the unique minimum with one observed-coordinate substitution; this is a candidate-conditioned bound, not proof of unique historical text or damage.",
+        "The second part is directly read in its native frame and independently supplies the destination POSEN and the phrase IN MARSCH ZU SETZEN. It does not determine all missing first-part letters."
+      ]
+    },
+    {
+      "id": "p197_A2",
+      "title": "Warsaw radio personnel: native continuation naming Posen",
+      "key_id": "Nov13-15b",
+      "header_literal": "A) WAU v LP (03.55 p.m., November 15th); 14.50 2 TLE; 2 TL RICHI-144",
+      "readable_german": "Festungsfunka Posen in Marsch zu setzen. I Nach Funkleitung Heimat Nr ???6?5.",
+      "meaning": "The continuation names Festungsfunka Posen as the destination and says to set the personnel in motion. The transmitted I NACH and final numerical labels remain unexpanded.",
+      "protected_fields": [
+        "???6?5"
+      ],
+      "notes": [
+        "This complete native 144-slot part decodes with no coordinate change or source-mask fill. The final six-symbol reference ???6?5 remains coupled through the unchanged partial square.",
+        "The source prints VD AVD with an internal space; all five letters are retained. Word spacing and omission of separator X labels are display changes only.",
+        "The sequence INACH is not silently changed to NACH or I A."
+      ],
+      "printed_page": 197,
+      "source_section": "A2",
+      "source_rows": [
+        "FAAVF AAVVG GVFAA GAFVD VADAV DADGG VXVVA FDDGF",
+        "XVFXD AVXVD DAXGF XFFFV FAGXD AGXVX VDXAX GVXXX",
+        "VXVAF VAXDG VFXVF ADAGX VD AVD XVFAV AXVXA VFAAF",
+        "GDVFF VDDVA AVDVV GVVXX AXAF"
+      ],
+      "source_slots": 144,
+      "advertised_length": 144,
+      "expected_raw": "XFESTUNGSFUNKAXPOSENXINMARSCHZUSETZENXXINACHXFUNKLEITUNGHEIMATXNRX???6?5",
+      "edited_output": "XFESTUNGSFUNKAXPOSENXINMARSCHZUSETZENXXINACHXFUNKLEITUNGHEIMATXNRX???6?5",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p197_B",
+      "title": "A second physical witness of the December-key and IRRTUM notice",
+      "key_id": "Nov13-15b",
+      "header_literal": "B) NKJ v LP (04.24 p.m., November 15th); 10.00 (15/11); RIZI-124-",
+      "edited_output": "UNLOESBAREFUNKSPRUECHENACHDEZEMBERSCHLUESSELENTZIFFERNXXIRRTUM",
+      "readable_german": "Unloesbare Funksprueche nach Dezemberschluessel entziffern. Irrtum.",
+      "meaning": "A repeat source of the p189 C instruction to decipher otherwise unreadable telegrams using the December key. The separate final word Irrtum is retained without assigning it a procedural meaning.",
+      "notes": [
+        "All 124 native source slots are retained. The first two editorial words cost three observed-coordinate substitutions and no erasure fill.",
+        "The source differs from p189 C at one coordinate. That other raw copy supports only the B at plaintext index 6; the proposed R at 8 and F at 10 are shared editorial repairs and receive no new independent raw support from this duplicate.",
+        "The trailing dash in RIZI-124- belongs to the length label, not the body. The final printed XFXX was omitted by earlier OCR and is restored from the source image."
+      ],
+      "printed_page": 197,
+      "source_section": "B",
+      "source_rows": [
+        "XXVFV FFDVG VGFFV AGVAA XDAVF XXGXX VXAAF GDFGV",
+        "XXFVV AFAFA FFAGV DVAXV DFAXF GXDFF DFFFA AVXGG",
+        "VFFAA XVAVA XFAFF AVXDV AFXAG FAGFA AFAFG XGAXX",
+        "XFXX"
+      ],
+      "source_slots": 124,
+      "advertised_length": 124,
+      "expected_raw": "UNLOES?A?EHUNKSPRUECHENACHDEZEMBERSCHLUESSELENTZIFFERNXXIRRTUM",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 3,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "ocr_snapshot.json": "c6765164510a8c30cbf175834357ae8c99ab5c70070047f9f32eeb9157a306a8",
+    "prior_candidates.json": "a3b307abf12ba365f8b3778ef2409a55afc3047d7faba8e9609b499c7082097a"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "p197 A1 uses a conditional five-slot gap model; the source deficit alone does not locate the gap.",
+    "Gap optimality is conditioned on one declared candidate and the single-gap family; it is not a global or historical uniqueness theorem.",
+    "Other source records are native frames. Every observed-coordinate change, source-mask fill and inserted-slot fill is priced separately.",
+    "Published key cells remain unchanged and coupled globally; numerical labels retain their raw values.",
+    "Repeated damaged copies do not independently support editorial wording shared by both."
+  ],
+  "cross_copy_reference": {
+    "path": "../source_similarity_extension/source_inspection.json",
+    "sha256": "c3e171d86ced77955e00ac08b0b8e04ddb5cc40e14dbb6d4e360f3555d56ca79",
+    "id": "p189_C",
+    "relation": "Same 124-slot ciphertext except one source coordinate; source headers retain distinct reception times."
+  },
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Poti tobacco ready for loading: an inquiry with literal quantity 2400",
+  "case": "cases/naval/nov3_poti_tobacco_loading.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p113_reviewed.png",
+      "pdf_page_1based": 116,
+      "crop_pdf_points": [
+        52,
+        516,
+        545,
+        625
+      ],
+      "render_scale": 3,
+      "sha256": "18b918c09f40fd8d0bf8c11aa308b45feedc2ade7f745cb9771d5518de898896",
+      "width": 1479,
+      "height": 327,
+      "channels": 3,
+      "rgb_sha256": "c660bd8bc9bdc0cae812e677aca49e204981e0b0128c0578bbe9a946f6b03902",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "keys": {
+    "Nov1-3": {
+      "id": "Nov1-3",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        3,
+        16,
+        4,
+        15,
+        7,
+        12,
+        18,
+        6,
+        17,
+        8,
+        19,
+        1,
+        13,
+        10,
+        2,
+        14,
+        11,
+        9,
+        5
+      ],
+      "column_count": 19,
+      "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "square_rows": [
+        "UILOF9",
+        "RCZVSX",
+        "02G7QT",
+        "D8WNB5",
+        "JMHEKP",
+        "Y41A36"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 239,
+          "pdf_page_1based": 242,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  },
+  "records": [
+    {
+      "id": "p113_C",
+      "key_id": "Nov1-3",
+      "title": "Poti tobacco loading inquiry, with literal quantity 2400",
+      "header_literal": "C) POT v NKJ (8.42 a.m., November 4th); SS FÜR POT V OSM (3) 1430; RICHI-212; page heading 3rd NOVEMBER, 1918.",
+      "readable_german": "28/10. Schutzoffz. R. Schiffsausgl. Poti. K. A. sagt Poti 2400 Tons Tabak verladebereit. Wan Verladg moeglich. Schiffsausgl.",
+      "meaning": "Reports tobacco ready for loading at Poti and asks when loading is possible; the numerical field 2400 remains a literal square-label reading.",
+      "notes": [
+        "The native 212-slot source yields a complete 106-position raw stream.",
+        "The first SCHIFFZAUSGL is proposed as SCHIFFSAUSGL at one observed-coordinate substitution; the closing unedited SCHIFFSAUSGL is an exact internal word witness.",
+        "The raw R after SCHUTZOFFZ, transmitted WAN with one N, abbreviation VERLADG, labels K A and quantity 2400 are preserved.",
+        "Embedded 28X10, the page heading November 3 and intercept November 4 remain separate date layers.",
+        "The final-row ADVXD is visibly printed with X; earlier OCR used ADV?D. Source restoration of that observed X is not a historical mask fill."
+      ],
+      "edited_output": "28X10XSCHUTZOFFZRSCHIFFSAUSGLXPOTIXKXAXSAGTPOTI2400TONSTABAKVERLADEBEREITXWANVERLADGMOEGLICHXSCHIFFSAUSGLX",
+      "protected_fields": [
+        "2400"
+      ],
+      "printed_page": 113,
+      "source_section": "C",
+      "source_rows": [
+        "XDGDX GAFGV GDADV FVXXF XDFAV FDDGG GGVFG XAXDD",
+        "XVDGA XADAG FGVGA DAFAV FFFGV AAVDF AXXAV GVFAA",
+        "AFAXA GAFDV FDFXD XAXDD FVDAV GDFDA DAVVF XAXGF",
+        "VVFXA VAGFV DGAVD FAXAG AXGFA DDVDX FGGFD VDDDV",
+        "VFGVG FDDFF DXXVG GVFDF VDXFX VGADD XGAGF ADADF",
+        "ADVXD VGDDX DX"
+      ],
+      "source_slots": 212,
+      "advertised_length": 212,
+      "expected_raw": "28X10XSCHUTZOFFZRSCHIFFZAUSGLXPOTIXKXAXSAGTPOTI2400TONSTABAKVERLADEBEREITXWANVERLADGMOEGLICHXSCHIFFSAUSGLX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 1,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "1ee46b2c8fec7ee178dad1fd8ac7a1b6d67abbf6069e11189bc3dbda6f624709",
+    "ocr_snapshot.json": "9c7cf4f0d2656d2786d0ba984b18f108f0dda52338fc9da0f3f434ec9e8cad28"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

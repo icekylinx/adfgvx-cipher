@@ -1,0 +1,197 @@
+{
+  "schema": "adfgvx-nov27-shipping-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "November 27: Helsingfors shipping and a vehicle-sale instruction",
+  "case": "cases/naval/nov27_ships_and_vehicle_sale.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p223_reviewed.png",
+      "pdf_page_1based": 226,
+      "crop_pdf_points": [
+        65,
+        485,
+        525,
+        705
+      ],
+      "render_scale": 3,
+      "sha256": "b4293ae46654b758b5c1b736fee87ddab190c820583b4efe2f274c4c47b482f0",
+      "width": 1380,
+      "height": 660,
+      "channels": 3,
+      "rgb_sha256": "9cdebad33d3cc4fb89b6ad46cfccff16a1856be7980846b19a9415a45023df8c",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "keys": {
+    "Nov25-28": {
+      "id": "Nov25-28",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        21,
+        9,
+        6,
+        14,
+        10,
+        20,
+        1,
+        16,
+        18,
+        7,
+        15,
+        4,
+        11,
+        22,
+        5,
+        17,
+        23,
+        2,
+        12,
+        8,
+        19,
+        3,
+        13
+      ],
+      "column_count": 23,
+      "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+      "square_rows": [
+        "HQ05DK",
+        "ZAOYM6",
+        "BEIWTJ",
+        "7PSCFL",
+        "V94132",
+        "NGURX8"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  },
+  "records": [
+    {
+      "id": "p223_B",
+      "title": "Helsingfors reports preparations and secured ships",
+      "key_id": "Nov25-28",
+      "header_literal": "B) KOW v RVA (09.25 p.m., November 27th); 1835 (11/27) AN LP v FHR; RICHI-246",
+      "edited_output": "ZENTRALFUNKLEITUNGXXALLEXVORBEREITUNGENXGETROFFENXSCHIFFEXNACHXMITTEILUNGXREICHSMARINEAMTSXSICHERGESTELLTXXFUSTAHELSINGFORS",
+      "readable_german": "Zentralfunkleitung. Alle Vorbereitungen getroffen. Schiffe nach Mitteilung Reichsmarineamts sichergestellt. Fusta Helsingfors.",
+      "meaning": "A Helsingfors radio-station report says that preparations have been made and, according to the Reichsmarineamt, ships have been secured. It does not report a completed embarkation or voyage.",
+      "notes": [
+        "All 246 printed coordinates remain in their native order. The earlier OCR contains only 239 characters; its malformed groups and omitted final GVGVF D are machine-transcription defects, not evidence of source loss.",
+        "The reading proposal repairs ZENIRAL, ELLE, VORBEREIT0GGEN, GETRIFFEN, NACZ and HBLSINGFORS through explicitly priced coordinate substitutions. No key labels are reinterpreted.",
+        "The report can be read alongside earlier inquiries about Helsingfors transport, but no unprinted message reference is invented to prove that this is a particular reply."
+      ],
+      "printed_page": 223,
+      "source_section": "B",
+      "source_rows": [
+        "FVDDX GXFFV XFFDX VFGGV AXGVG DFFGX GDXAX GDGDD",
+        "GFGVX DFFFV GVGFD XDFAX DGVFG XGXFX VFGXV AGFFV",
+        "FAXDF AFDXV XXDFF FXFVD XDXGA VXGDF DAVFD FFXXD",
+        "FGGVA FFAGX AVXFD FGXDF VXDDF XGXFD AFVGV XDXFD",
+        "FXFXV DDXDG DVXGF FFFFF DFXFX AGAXA XVGAX FFFDG",
+        "VGAAF AFAGA FAXAD XFFGV GVFXG XXDFA FDDDF GXVFV",
+        "GVGVF D"
+      ],
+      "source_slots": 246,
+      "advertised_length": 246,
+      "expected_raw": "ZENIRALFUNKLEITUNGXXELLEXVORBEREIT0GGENXGETRIFFENXSCHIFFEXNACZXMITTEILUNGXREICHSMARINEAMTSXSICHERGESTELLTXXFUSTAHBLSINGFORS",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 7,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p223_C",
+      "title": "Sell trucks and surplus material: a surplus-group reconstruction",
+      "key_id": "Nov25-28",
+      "printed_page": 223,
+      "source_section": "C",
+      "header_literal": "C) COS v NKJ (------- November 28th); POT FUER COS GENERAL VON KRESS 1555 (11/27); RICHI-230?",
+      "source_rows": [
+        "FFDFG VXFFV XFVGF FXDXA DGFFD XGGFX VXVGF FFFAX",
+        "ADXXG DXVXV XGFFF VXXDD DXFDX XVDFF ADFXF FFXDX",
+        "DXX-- DDADF GDGGX DXDXA FFDXF FFAFV ADDFF GFDDX",
+        "FXGDF DAFGV FFDFD DAFFX GGFDX GDDVA AXDFV FAFVX",
+        "AGFFF GDXGX FDGDG DDVGV FDGFX DGAXV VGXFG FFFGX",
+        "DDGFF DFAGV DGDGD DDFDD GAFDG GDFDG XGGAV"
+      ],
+      "source_slots": 235,
+      "advertised_length": 230,
+      "advertised_length_qualifier": "The source prints a question mark after 230.",
+      "analysis_frame": {
+        "kind": "single_surplus_group",
+        "source_start": 220,
+        "excluded_slots": 5,
+        "scope": "Conditional exclusion of the printed GAFDG group before GDFDG. No cancellation mark is assumed."
+      },
+      "expected_raw": "AUFBEFEHLHEERESGRUPPEALLELASTAUTOSS?WIEALLESUE?ERFLUESSIGEMATERIALWEGENUNMOEGLICHKEITABTRANSPORTSVERKAUFENXXBXMXKXX",
+      "edited_output": "AUFBEFEHLHEERESGRUPPEALLELASTAUTOSSOWIEALLESUEBERFLUESSIGEMATERIALWEGENUNMOEGLICHKEITABTRANSPORTSVERKAUFENXXBXMXKXX",
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 2,
+      "readable_german": "Auf Befehl Heeresgruppe alle Lastautos sowie alles ueberfluessige Material wegen Unmoeglichkeit Abtransports verkaufen. B M K.",
+      "meaning": "Under the stated surplus-group model, the message orders trucks and surplus material sold because transport is impossible. The signature-like B M K is left unexpanded; the source header names General von Kress.",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "protected_fields": [],
+      "notes": [
+        "The native source has 235 slots, including two dashes, against the questioned 230 length. The retained analysis frame excludes five observed coordinates GAFDG at source indices 220–224. This is not claimed to be a source-visible cancellation or a free OCR correction.",
+        "For this exact 115-position candidate, all 231 five-slot exclusion windows are priced. Starts 220 and 221 are the only zero-substitution windows, and they yield the same retained coordinate stream. Both are preserved in the certificate.",
+        "Two printed dashes at source indices 83 and 84 are filled with D and A; every retained observed coordinate stays unchanged in the complete proposal.",
+        "The raw separator labels in BXMXKXX are only spaced as B M K in the readable text, with no office or personal-name expansion."
+      ]
+    }
+  ],
+  "prior_artifacts": {
+    "ocr_snapshot.json": "912e872830cea188f6addf859f6c241afe90bcda5c04c9664de43cefdc94d23b",
+    "prior_candidates.json": "cde6e34def0e67acbb90acafc233a60442c64766c46c4f7260190c2256c0deb0"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "p223 B is a native frame. p223 C conditionally excludes five observed source coordinates; those exclusions are fully priced.",
+    "The surplus-window optimum is conditioned on one candidate and one five-slot exclusion family, not a theorem about unique historical text or damage.",
+    "A grammatical proposal does not authenticate every historical fact reported by a telegram.",
+    "Published key cells and numerical labels are unchanged; no completion witness is claimed as historical."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

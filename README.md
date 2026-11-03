@@ -10,6 +10,8 @@ Readings, source criticism, and reproducible cryptanalysis of German radio traff
 
 A research edition of the **German radio cryptograms in Childs's 1918 collection**: the 22 Lasry–Schmeh challenge entries and a growing catalogue of other messages, with readable plaintexts, original source transcriptions, earlier credits and reproducible decryption evidence.
 
+The [whole-material census](docs/whole-material-coverage.md) identifies **679 actual ciphertext bodies** on the 175 log pages. The live coverage report separates catalogue inclusion, native frames, conditional frames and source-linked completion. The [twelve instructional examples](experiments/childs_instructional_examples/README.md) are fully reproduced in a separate count.
+
 [This extension in detail](docs/extension-review-2026-11-02.md) · [Exact before/after inventory](experiments/session_review/README.md)
 
 <!-- READING-CATALOG:START -->
@@ -30,29 +32,39 @@ These retain all original challenge identifiers. Page numbers alone do not ident
 | [pp. 175–199](cases/pages/175-199/README.md) | 6 | [p176a](cases/p176a.md), [p176b](cases/p176b.md), [p187](cases/p187.md), [p187b](cases/p187b.md), [p189](cases/p189.md), [p198](cases/p198.md) |
 | [pp. 200–224](cases/pages/200-224/README.md) | 2 | [p215](cases/p215.md), [p217](cases/p217.md) |
 
-### Other ciphertexts — 577 reviewed entries
+### Other ciphertexts — 631 reviewed entries
 
 Multipart messages and repeated transmissions have separate source records even when they share a case page. Direct readings, source-supported reconstructions and conjectural repairs keep their stated limits in the detailed page tables.
 
-The 599 catalogue entries represent 598 unique physical sources, including 576 beyond the challenge set. 1 later-edition entry shares an already catalogued source; [the exact overlap and counting rule](docs/catalogue-source-overlaps.md) preserve both editions and the earlier credit.
+The 653 catalogue entries represent 652 unique physical sources, including 630 beyond the challenge set. 1 later-edition entry shares an already catalogued source; [the exact overlap and counting rule](docs/catalogue-source-overlaps.md) preserve both editions and the earlier credit.
 
 | Printed source pages | Reviewed entries | Pages represented |
 |---|---:|---:|
-| [pp. 50–74](cases/pages/050-074/README.md) | 40 | 17 |
+| [pp. 50–74](cases/pages/050-074/README.md) | 44 | 18 |
 | [pp. 75–99](cases/pages/075-099/README.md) | 63 | 25 |
-| [pp. 100–124](cases/pages/100-124/README.md) | 85 | 25 |
-| [pp. 125–149](cases/pages/125-149/README.md) | 71 | 25 |
-| [pp. 150–174](cases/pages/150-174/README.md) | 95 | 25 |
-| [pp. 175–199](cases/pages/175-199/README.md) | 88 | 24 |
-| [pp. 200–224](cases/pages/200-224/README.md) | 107 | 25 |
-| [pp. 225–249](cases/pages/225-249/README.md) | 28 | 6 |
+| [pp. 100–124](cases/pages/100-124/README.md) | 91 | 25 |
+| [pp. 125–149](cases/pages/125-149/README.md) | 75 | 25 |
+| [pp. 150–174](cases/pages/150-174/README.md) | 117 | 25 |
+| [pp. 175–199](cases/pages/175-199/README.md) | 100 | 25 |
+| [pp. 200–224](cases/pages/200-224/README.md) | 112 | 25 |
+| [pp. 225–249](cases/pages/225-249/README.md) | 29 | 6 |
 
 The catalogue covers source-reviewed records with published reading evidence; the wider OCR search pool contains additional unreviewed ciphertext candidates. Earlier authors retain their credits. Current source review and new research use **icekylinx and GPT-6 Astra Pro**; a review credit does not assert first-decipherment priority.
 <!-- READING-CATALOG:END -->
 
 ## Selected results
 
+The [p109 duplicate-pair supplement](experiments/p109_optional_duplicate_pair/README.md) uses an independent received copy to price every minimum alignment and retain the SAVE/SAVA alternatives. Newly reviewed sources include the [first log page](cases/radio/september19_pigeons_and_command.md), [Romanian mobilization fragment](cases/military/nov11_romanian_mobilization_report.md), [Seifert inquiry witnesses](cases/radio/nov12_seifert_additional_witnesses.md), and [operations-map request](cases/radio/nov9_operations_map_sheets.md).
+
 The [p105 combined-source supplement](experiments/p105_optional_two_deletions/README.md) improves the ordinary-word fit with two explicit source exclusions and three observed-coordinate changes; all tied frames and numerical alternatives remain visible. A [p136 glyph recheck](experiments/p136_source_glyph_correction/README.md) restores raw `ZU DORT` without any additional historical repair.
+
+Further source editions recover the [Eilvese traffic schedule](cases/radio/nov3_eilvese_traffic_schedule.md),
+a [crown airlift request](cases/finance/nov9_crown_airlift_and_embassy.md),
+and an [independent cavalry-report witness](cases/military/nov8_serbian_cavalry_parallel.md).
+Their complete raw strings, conditional layouts, repair prices and unresolved
+labels remain beside the readable German. The [research status](docs/research-status.md)
+explains the gains and limits without treating repeated copies or address
+parts as new body decipherments.
 
 The [accounting-copy reconciliation](experiments/accounting_copy_reconciliation/README.md) restores two unresolved labels in p175 from an independently received p172 companion. Its conservative reading reaches 100/102 fixed positions with the original four observed-coordinate changes; the ending disagreement and shared word repairs remain explicit.
 

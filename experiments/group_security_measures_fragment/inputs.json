@@ -1,0 +1,259 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "A second-part instruction on security measures at own discretion",
+  "case": "cases/military/group_security_measures_fragment.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p184_reviewed.png",
+      "pdf_page_1based": 187,
+      "crop_pdf_points": [
+        55,
+        145,
+        540,
+        255
+      ],
+      "render_scale": 3,
+      "sha256": "51b1c813316be21c38e74775e13179f5c7cbbc6db9022a9e38db717917efbc07",
+      "width": 1455,
+      "height": 330,
+      "channels": 3,
+      "rgb_sha256": "b0bf7ab8205006eba13ed537540b18701a88077803692a7d5418e41b3d8463f9",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "keys": {
+    "Nov13-15b": {
+      "id": "Nov13-15b",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        4,
+        11,
+        5,
+        14,
+        9,
+        7,
+        16,
+        1,
+        12,
+        15,
+        6,
+        10,
+        3,
+        13,
+        8,
+        2
+      ],
+      "column_count": 16,
+      "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+      "square_rows": [
+        "H??BMU",
+        "F15PX0",
+        "DJLR??",
+        "??S6VO",
+        "NKZ?AW",
+        "ITEGC?"
+      ],
+      "known_cell_count": 28,
+      "missing_plaintext_symbols": "234789QY",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 11,
+          "author": "George Lasry",
+          "date": "2017-02-27"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 244,
+          "pdf_page_1based": 247,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+      ],
+      "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "baseline_differences": [
+        {
+          "coordinate": "AD",
+          "baseline": "2",
+          "audited": "?"
+        },
+        {
+          "coordinate": "AF",
+          "baseline": "3",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FV",
+          "baseline": "4",
+          "audited": "?"
+        },
+        {
+          "coordinate": "FX",
+          "baseline": "7",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GA",
+          "baseline": "8",
+          "audited": "?"
+        },
+        {
+          "coordinate": "GD",
+          "baseline": "9",
+          "audited": "?"
+        },
+        {
+          "coordinate": "VG",
+          "baseline": "Q",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XX",
+          "baseline": "Y",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-02",
+        "comment": 24,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "AD",
+            "proposed": "2"
+          },
+          {
+            "row_column": "AF",
+            "proposed": "3"
+          },
+          {
+            "row_column": "FV",
+            "proposed": "4"
+          },
+          {
+            "row_column": "FX",
+            "proposed": "7"
+          },
+          {
+            "row_column": "GA",
+            "proposed": "8"
+          },
+          {
+            "row_column": "GD",
+            "proposed": "9"
+          },
+          {
+            "row_column": "VG",
+            "proposed": "Q"
+          },
+          {
+            "row_column": "XX",
+            "proposed": "Y"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p184_A2",
+      "title": "Second-part instruction on measures for the security of a group",
+      "key_id": "Nov13-15b",
+      "header_literal": "Page heading 13th November 1918; A) 2 TL; RICHI-202",
+      "edited_output": "HIFUERUALLEFUERDIESICHERHEITDERGRUPPENOTIGENMASSREGLNNACHEIGENEMERMESSENZUTREFFENXOHLRM1ANR11???GEHOP",
+      "readable_german": "HIFUERU. Alle fuer die Sicherheit der Gruppe NOTIGEN MASSREGLN nach eigenem Ermessen zu treffen. OHL RM1A NR11??? GEH OP.",
+      "meaning": "The surviving second part calls for taking the necessary measures for the security of the group according to one’s own discretion. The opening HIFUERU remains unexplained, and the particular group and reference number are not identified. This is an instruction fragment, not evidence that the measures were carried out.",
+      "protected_fields": [
+        "HIFUERU",
+        "NOTIGEN",
+        "MASSREGLN",
+        "NR11???"
+      ],
+      "notes": [
+        "The printed second-part body has 202 valid source coordinates and matches its RICHI-202 header. High-resolution inspection confirms five glyphs in the last complete five-coordinate group FXVFA, followed by DG and a clear final G in DXGFG. No source erasure, insertion or deletion is introduced.",
+        "The first part is not supplied. HIFUERU remains a literal unexplained opening, rather than being shortened or rewritten into a familiar introductory word.",
+        "NOTIGEN and MASSREGLN are retained exactly; missing vowel letters in familiar spellings are not silently inserted.",
+        "The proposal repairs SIMHERHEIT, DE6 to DER, EIG?NEM, ERMASSEN and ZUTR?FFEN at six observed-coordinate substitutions. The 6 in DE6 is a known label and its change is paid for. The two question marks in EIG?NEM and ZUTR?FFEN come from the fully observed unassigned AF square cell; proposing E at each position is separately paid for by coordinate changes, not by changing the key.",
+        "The first and third unknowns in the final NR11??? field are the same fully observed GA square cell, at plaintext 93 and 95. The middle unknown is the distinct GD cell at 94. The two cells must receive different members of {2,3,4,7,8,9,Q,Y}; no assumption that the labels are digits is imposed."
+      ],
+      "printed_page": 184,
+      "source_section": "A2",
+      "source_rows": [
+        "XAADG AFGVG ADXVA GGDFV VAFDA AFXGG GVXXD AGAFX",
+        "AFXFA XVVVX XFXXA XXXFA DVXFX AXVVV VGDFG AFFAG",
+        "FGAVD XGAVF FXXGX AVXDG DXGXD XXXAX GFAGF AFAVA",
+        "AFAGA AFAAG AGAFF AVGXA AFXAV AGAFD DXGFG XFVFF",
+        "AVDAF FFXGF FGXVA FFXVA FVAFF FFDGA DXXDV FXVFA",
+        "DG"
+      ],
+      "source_slots": 202,
+      "advertised_length": 202,
+      "expected_raw": "HIFUERUALLEFUERDIESIMHERHEITDE6GRUPPENOTIGENMASSREGLNNACHEIG?NEMERMASSENZUTR?FFENXOHLRM1ANR11???GEHOP",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 6,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "19d8c0b5089d2dc6117bfae33f9de9df1762798951012176b7dfc60bac6d27c7",
+    "ocr_snapshot.json": "3414b887f9adaa13bbb254e96abeaff7ec70763cf45261346fd2cc18bdc2379b"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

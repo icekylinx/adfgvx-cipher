@@ -35,6 +35,18 @@ defensible.
 
 ## Latest continuation
 
+This continuation adds source editions for [Eilvese transmission times](../cases/radio/nov3_eilvese_traffic_schedule.md),
+[a thirty-million-crown airlift request](../cases/finance/nov9_crown_airlift_and_embassy.md),
+[a Poti tobacco-loading inquiry](../cases/naval/nov3_poti_tobacco_loading.md),
+and further radio, personnel and transport traffic. The new
+[p158 cavalry-report edition](../cases/military/nov8_serbian_cavalry_parallel.md)
+uses one coordinate supplied by the earlier p170 copy and separates three
+copy-supported corrections from two shared editorial repairs in a previously
+identified body. Seven
+[address parts](../cases/radio/nov7_8_embassy_address_parts.md) remain explicitly
+address-only editions, including an ambiguous two-or-three-part header.
+Their record counts are not counts of newly deciphered bodies.
+
 The page-number index now reaches the newly source-reviewed editions, while
 the exact cumulative counts remain in the linked inventory. New evidence
 includes the [missing second part of Mackensen’s report](../cases/military/mackensen_withdrawal_part2.md),
@@ -58,14 +70,22 @@ limits. Further native editions cover [Steiling's leave request](../cases/people
 [Odessa wagon sales](../cases/finance/odessa_wagon_sale.md), and
 [urgent shipping capacity](../cases/naval/urgent_shipping_space.md).
 
+The [Seifert arrival witnesses](../cases/radio/seifert.md) now supply a complete observed-pair witness for all 37 positions across the p174 and p183 copies. The separately transmitted departure text still needs a shared contextual correction; copying does not turn that correction into independent source evidence. A [complete native ZITAG stop-order copy](../cases/finance/zitag_purchase_orders.md) confirms the earlier body despite different frame lengths and separator placement.
+
+Earlier source additions include [two Bucharest power-source parts](../cases/radio/nov3_bucharest_power_source_query.md), preserving the stated motor and dynamo specifications as a request, and [alternative routing for money to Brasso](../cases/finance/brasso_money_alternative_route.md), retaining its seven unresolved footer positions. The [p193 F congratulation core](../cases/people/nov13_conditional_congratulation.md) is a conditional reading: one observed-coordinate exclusion and one word repair expose the shared core, while four exclusion origins and three distinct full streams prevent a unique historical-frame claim. Its unidentified labels and unassigned key cell remain unresolved.
+
 ## What the latest work establishes
 
 | Result | Evidence gained | What remains unresolved |
 |---|---|---|
+| [Optional p132 address spelling](../experiments/p132_optional_address/README.md) | Three independent raw witnesses attest KOSPOLI; changing the p132 field KOSJOII to that spelling costs exactly two additional observed substitutions. | These are wording attestations, not repeated copies of the request. The primary six-substitution reading, opaque name and footer remain unchanged; the optional candidate costs eight substitutions and one dash fill. |
 | [Optional p116 route fragment](../experiments/p116_optional_route_fragment/README.md) | Five target-conditioned word spans fix 75/111 positions under the existing jammed-tail model, compared with 38 directly fixed labels. | Zero observed substitutions, five source-mask fills and 32 lost-tail fills. The prior English translation guided selection; all 36 unknowns, including the army label and footer, remain unresolved. |
 | [Optional p63 technical word](../experiments/p63_optional_technical_reading/README.md) | MASCHINENTECHNISCHEN fits after a surplus raw W is excluded from pairing, with three additional observed substitutions. | The full 270-slot witness retains both printed D coordinates. Total 15 substitutions, two dash fills and two surplus interim coordinates; unique minimum only for the fixed retrospective target. The primary unresolved span remains unchanged. |
 | [Optional p137 staff vocabulary](../experiments/p137_optional_staff_vocabulary/README.md) | The economic/administrative-staff vocabulary fixes ten further positions under the existing interference-loss frame. | Adds three observed substitutions and ten missing-coordinate fills. Both F/V glyph alternatives and ten unknown positions remain explicit; independent words do not prove the complete clause. |
-| [Optional p132 address spelling](../experiments/p132_optional_address/README.md) | Three independent raw witnesses attest KOSPOLI; changing the p132 field KOSJOII to that spelling costs exactly two additional observed substitutions. | These are wording attestations, not repeated copies of the request. The primary six-substitution reading, opaque name and footer remain unchanged; the optional candidate costs eight substitutions and one dash fill. |
+| [Eilvese traffic schedule](../cases/radio/nov3_eilvese_traffic_schedule.md) | A complete 176-position conditional body follows an explicit ten-slot exclusion; three observed substitutions repair two ordinary words without coordinate fills. | Eight no-fill exclusion aliases yield the same stream. Further equal substitution minima retain masks and need fills. The source has no cancellation mark, and 3X13, wavelength labels and times remain literal. |
+| [Crown airlift and urgent address](../cases/finance/nov9_crown_airlift_and_embassy.md) | Four native source parts yield 311/312 raw fixed positions and describe a request for thirty million crowns and a separate urgent embassy address. | One substitution and one invalid-glyph fill remain explicit. The request does not prove a flight occurred; VORAT, 4A and 41942 remain as encoded. |
+| [Baku personnel inquiry](../cases/caucasus/baku_personnel_inquiry.md) | A repeated ten-coordinate block and a separate exclusion admit a conditional inquiry; all 538 declared source maps are compared. | Six minimum maps produce two distinct ciphertexts and different linked footer unknowns. Eleven valid-coordinate exclusions, ten substitutions and one invalid-glyph fill are separately priced. |
+| [Separate Serbian-cavalry witness](../cases/military/nov8_serbian_cavalry_parallel.md) | A complete p170 copy supplies one missing A in p158; all 236 one-coordinate alignments give four tied minima and the same filled stream. Three of five word substitutions have raw-copy support. | Two word substitutions remain shared editorial repairs. Reception dates differ, the VF cell remains globally 5/6, and source boundary 85 is not uniquely established. |
 | [Accounting-copy reconciliation](../experiments/accounting_copy_reconciliation/README.md) | The p172 companion fixes two additional labels in p175 without an additional observed-coordinate change: 100/102 fixed positions, four substitutions and ten mask fills. | Its two VF positions remain equal in {5, 6}; matching the final X costs an additional substitution. Two proposed word labels lack a complete raw-pair witness in either source. |
 | [Romanian pacification consultation](../cases/military/romanian_pacification_consultation.md) | Four source-labeled native parts give 377/378 fixed raw positions and a complete, explicitly repaired candidate concerning a proposed action and consultation. | Eleven substitutions and one dash fill remain editorial; ZIET and BUKARST need explicitly bracketed display-only letters. A truncated first part overlaps p151 but does not establish whole-message identity. |
 | [Berlin map-sheet request](../cases/radio/map_sheet_request.md) | All insertion boundaries are checked, with two tied source-origin maps and an exact readable-label mapping; source-glyph sensitivity is retained. | The conditional frame has two observed substitutions, three source fills and one missing-slot fill. Quantity and scale remain linked: 50 with 1:75000, or 60 with 1:76000; the edition does not choose between the global assignments. |

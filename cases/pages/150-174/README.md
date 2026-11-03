@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 125–149](../125-149/README.md) · [pp. 175–199 →](../175-199/README.md)
 
-**8 challenge entries and 95 other reviewed entries across 25 printed pages, representing 103 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
+**8 challenge entries and 117 other reviewed entries across 25 printed pages, representing 125 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
 
 Jump to page: [p150](#p150) · [p151](#p151) · [p152](#p152) · [p153](#p153) · [p154](#p154) · [p155](#p155) · [p156](#p156) · [p157](#p157) · [p158](#p158) · [p159](#p159) · [p160](#p160) · [p161](#p161) · [p162](#p162) · [p163](#p163) · [p164](#p164) · [p165](#p165) · [p166](#p166) · [p167](#p167) · [p168](#p168) · [p169](#p169) · [p170](#p170) · [p171](#p171) · [p172](#p172) · [p173](#p173) · [p174](#p174).
 
@@ -34,6 +34,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p151 B](../../military/nov7_fragment_and_acknowledgment.md#p151-b) | Acknowledgment of telegram 11212; separate handwritten duplicate layer | 161 composite slots; 156 typed frame; 3 substitutions; five handwritten slots retained separately with conditional exclusion costs | icekylinx and GPT-6 Astra Pro (2026); published partial Nov7–9 key; earlier candidates retained |
 | [p151 C](../../military/soldiers_council_surrender.md#p151-c) | Gouvernement and nearby barracks reported surrendered to Soldiers Council | Native 154 coordinates; zero edits; location and ROU identity not inferred | icekylinx and GPT-6 Astra Pro (2026); published partial Nov7–9 key; earlier candidates retained |
 | [p151 D2](../../radio/courier_munich.md) | Notify the courier destination and report arrival | 67/68 raw positions; one garble supplied by a repeat | icekylinx and GPT-6 Astra Pro (2026) |
+| [p151 E2](../../radio/nov9_operations_map_sheets.md) | Operations-map sheets for the Gleiwitz garrison | Native224-slot source; two observed substitutions and two printed-mask fills;110/112 labels fixed, coupled footer digits unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; earlier OCR retained |
 
 ## p152
 
@@ -47,6 +48,9 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p152 B2](../../military/nov7_danube_and_message_reports.md#p152-b2) | Security force near Belgrad attacked after a crossing | Native 190-slot frame; 3 observed-coordinate substitutions and 4 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p152 C](../../military/nov7_danube_and_message_reports.md#p152-c) | Morning report: no special events | Native 108-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p152 D](../../military/nov7_danube_and_message_reports.md#p152-d) | Receipt of a FunkSpruch with literal numerical fields | Native 140-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p152 E2](../../p152.md#raw-continuation-witnesses) | Parallel continuation of the silk instruction | Direct raw reading with residual garbles | icekylinx and GPT-6 Astra Pro (2026) |
 
 ## p153
@@ -62,6 +66,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p153 A3](../../military/nov7_danube_and_message_reports.md#p153-a3) | A prescribed line and a Temesvar headquarters field | Native 180-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p153 B1](../../military/nov7_danube_and_message_reports.md#p153-b1) | Danube crossing completed and busy crossing traffic | Native 160-slot frame; 5 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p153 D2](../../radio/courier_munich.md) | Notify the courier destination and report arrival | 67/68 raw positions; one garble supplied by a repeat | icekylinx and GPT-6 Astra Pro (2026) |
 | [p153 E1](../../radio/courier_munich.md) | Munich couriers carrying radio operating documents | Conditional first-part reconstruction; all tied damage models retained | icekylinx and GPT-6 Astra Pro (2026) |
 
@@ -92,7 +98,11 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p156 A1](../../radio/nov7_8_embassy_address_parts.md#p156-a1) | German embassy address with Bussche signature | Native 84-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p156 B1](../../radio/nov7_8_embassy_address_parts.md#p156-b1) | German embassy at Constantinople and Stumm signature | Native 80-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p156 C1](../../radio/constantinople_address_parts.md) | German charge d’affaires at Constantinople and raw BUSSCHS signature | 51/51 fixed positions; 0 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
+| [p156 D1](../../radio/nov7_8_embassy_address_parts.md#p156-d1) | Etappe address at Constantinople | Native 44-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p156 E1](../../radio/nov7_8_embassy_address_parts.md#p156-e1) | French-language German legation address at Constantinople | Native 78-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p157
 
@@ -120,7 +130,11 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p158 A1](../../radio/nov7_8_embassy_address_parts.md#p158-a1) | German embassy address and Stumm signature, first printed part | Native 100-slot frame; 4 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p158 A2](../../radio/nov7_8_embassy_address_parts.md#p158-a2) | Repeated embassy address with literal UPK3 prefix | Native 106-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p158 B1](../../radio/nov7_8_embassy_address_parts.md#p158-b1) | German embassy address with an explicit Stumm signature | Native 76-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p158 C2](../../radio/courier_munich.md) | Notify GRUKONACH and telegraph the couriers arrival | 67/68 unchanged; 602 only under the separate historical key inference | icekylinx and GPT-6 Astra Pro (2026) |
+| [p158 E1](../../military/nov8_serbian_cavalry_parallel.md) | Serbian cavalry and northward departure: another source witness | 235 native slots; one independently printed parallel A restores236; five observed substitutions, of which three have raw-copy support; cell VF remains5/6 | icekylinx and GPT-6 Astra Pro (2026); published key; prior p170 body edition credited |
 
 ## p159
 
@@ -128,6 +142,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p159 A](../../military/arad_provisions_partial.md) | Arad provisions and strength report: conditional partial recovery | 271 native slots; conditional 272-frame with 10 valid exclusions, 11 additions and 6 substitutions; 124/136 raw-fixed, 134/136 primary edited; quantity/reference family retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier OCR retained |
 | [p159 B](../../p158.md#component-readings) | Munich routing and army-key instruction | Reconstruction from repeated transmissions | Prior body: Childs (1918), Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p159 C](../../p158.md#component-readings) | Munich–Innsbruck routing and army-key instruction | Source-supported one-coordinate deletion | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p159 D](../../people/kremp.md) | Kremp recovered and requests a departure date | 98/98 positions, 196/196 coordinates unchanged | icekylinx and GPT-6 Astra Pro (2026) |
@@ -166,6 +181,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p162 A1](../../radio/courier_munich.md) | Repeated Munich courier departure notice | Companion to p153 E1; 118/134 positions supported across both models | icekylinx and GPT-6 Astra Pro (2026) |
 | [p162 B1](../../radio/map_sheet_request.md#p162-b1) | General Staff Berlin map-sheet request; coupled quantity and map-scale digits unresolved | Conditional 182-slot model; 89/91 edited fixed; 2 observed edits,3 source fills,1 missing fill; 0/1 gap tie and F/E sensitivity retained | icekylinx and GPT-6 Astra Pro (2026 source edition); Lasry/Niebel/Kopal/Wacker published partial key; prior OCR bodies and Norbert digit hypothesis retained |
+| [p162 C1](../../radio/nov9_wire_return_source_family.md#p162-c1) | Wire communications and return instructions | Native117-coordinate fragment;312-frame raw0/156;195 observed prefix coordinates copied from p166; conditional156-label source-linked reading | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; prior OCR and p162 C2 edition retained |
 | [p162 C2](../../military/tiraspol_border_report.md#p162-c2) | Tiraspol reports machine-gun fire at the border; first part unavailable | 50/50 edited fixed; one source-dash fill; 117-slot preceding context unread | icekylinx and GPT-6 Astra Pro (2026 source edition); Lasry/Niebel/Kopal/Wacker published partial key; prior OCR bodies and Norbert digit hypothesis retained |
 | [p162 D1](../../people/constantinople_embassy_signature.md#p162-d1) | German embassy Constantinople; signature Stumm, part1 only | 50/50 edited fixed; three source-C fills; second part not supplied | icekylinx and GPT-6 Astra Pro (2026 source edition); Lasry/Niebel/Kopal/Wacker published partial key; prior OCR bodies and Norbert digit hypothesis retained |
 
@@ -219,6 +235,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p166 A3](../../military/nov9_operational_reports.md) | March toward Nagybeskerek and Werschetz; order footer | Missing 20-coordinate prefix supplied by p167; 184 received slots preserved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p166 B1](../../radio/newspaper_dispatch_witnesses.md) | Berlin newspaper sacks received via Orsova; first-part common body fully source-pair supported | 100/100 fixed positions; 1 observed-coordinate substitutions and 1 mask fills; prior witness costs unchanged | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier source editions and unreviewed body leads retained |
 | [p166 B2](../../radio/newspaper_dispatch_witnesses.md) | Damaged dispatch-order witness; two old letter proposals gain mixed-coordinate support | 92/93 fixed positions; 7 observed-coordinate substitutions and 49 mask fills; prior witness costs unchanged | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier source editions and unreviewed body leads retained |
+| [p166 C1](../../radio/nov9_wire_return_source_family.md#p166-c1) | Wire communications and return instructions | Native311 coordinates; one source-supported missingX in advertised312 frame; raw155/156; five optional observed substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; prior OCR and p162 C2 edition retained |
+| [p166 C2](../../radio/nov9_wire_return_source_family.md#p166-c2) | Tiraspol border-fire continuation | Native100 coordinates; raw50/50; one optional observed substitution supported by p162 C2 | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; prior OCR and p162 C2 edition retained |
 
 ## p167
 
@@ -227,6 +245,10 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p167 A3](../../military/nov9_operational_reports.md) | Complete-frame repeat of the operational-report ending | Supplies p166 prefix; conservative combined template 97/102 fixed | icekylinx and GPT-6 Astra Pro (2026) |
+| [p167 B1](../../finance/nov9_crown_airlift_and_embassy.md#p167-b1) | Thirty million crowns requested for pay and purchases in Hungary | Native 190-slot frame; 1 observed-coordinate substitution and 1 source-mask fill; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p167 B2](../../finance/nov9_crown_airlift_and_embassy.md#p167-b2) | A giant aircraft to Brasso and a mix of banknote denominations | Native 192-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p167 B3](../../finance/nov9_crown_airlift_and_embassy.md#p167-b3) | A limited crown supply and a high exchange rate | Native 144-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p167 E1](../../finance/nov9_crown_airlift_and_embassy.md#p167-e1) | Urgent Constantinople embassy address signed Stumm | Native 98-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p168
 

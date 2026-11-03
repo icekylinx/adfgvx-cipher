@@ -1,0 +1,219 @@
+{
+  "schema": "adfgvx-nov9-operations-map-sheets-inputs-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "project": "ADFGVX Cipher",
+  "case": "cases/radio/nov9_operations_map_sheets.md",
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "core_sha256": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/messages.json": "1e4013252eb54065435ae1591abea729df8e40e482a6fe57165b512a9ba9c373"
+  },
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "pdf_bytes": 156848258,
+    "printed_page": 151,
+    "source_section": "E2",
+    "reviewed_pixels": {
+      "pdf_page_1based": 154,
+      "crop_pdf_points": [
+        65,
+        695,
+        495,
+        790
+      ],
+      "render_scale": 4,
+      "fresh_render_cache": true,
+      "width": 1720,
+      "height": 380,
+      "channels": 3,
+      "rgb_sha256": "e88dddc763c1d22bbf329ee673564568a8b22522995fd298c814eb4f7c9b2df8"
+    },
+    "source_image_note": "The complete source page and this crop were directly inspected. The crop is retained locally and reproduced from the pinned public source PDF; no new image asset is required in this text-only edition.",
+    "visual_findings": [
+      "The source body has 224 slots: 44 five-position groups and the four-letter final XDVV.",
+      "Group 16 is GGVVX, with five coordinates; earlier OCR GGVVXX added one unprinted X.",
+      "Group 21 is XGG--: the two printed dashes occupy source 103 and 104.",
+      "The header prints 2 TL and RICHI-224. No other part of this message is identified in this edition."
+    ]
+  },
+  "record": {
+    "id": "p151_E2",
+    "printed_page": 151,
+    "source_section": "E2",
+    "header_literal": "E) LP v NKJ (7.09 a.m., November 9th); 2 TL RICHI-224",
+    "advertised_length": 224,
+    "source_rows": [
+      "DVVAD VAXDA FFADD DGADF DFGFX XDDVX VDFXD VXVVD",
+      "DDDFD VDGXD XVXAG FVVAD XAGXD FXAXV DADXD GGVVX",
+      "DDDAG FGXGV GDDDD XXXXX XGG-- DVGDG VDVDD XGADD",
+      "XXGXG DDVFX XGVXA GFDDX DDGVX VDVXV DXDVG VVADD",
+      "GDVDD GGGVA GVGGV DGFGF XVFVD VVGXX FVGDG VDXDG",
+      "FGDVA GAVVA DXVXF GAXGF XDVV"
+    ],
+    "expected_raw": "OPERATIONSKA0TE1ZU100000SALZ?URGWIENLE?BERGBRESLAUJE40BLATTXWARSCHAU10BLATTANGARNISONKDOGLEIWVTZFSXAOK11X1D70??X",
+    "edited_output": "OPERATIONSKARTE1ZU100000SALZBURGWIENLEMBERGBRESLAUJE40BLATTXWARSCHAU10BLATTANGARNISONKDOGLEIWITZFSXAOK11X1D70??X",
+    "expected_substitutions": [
+      [
+        1,
+        "V",
+        "A"
+      ],
+      [
+        53,
+        "A",
+        "G"
+      ]
+    ],
+    "expected_mask_fills": [
+      [
+        103,
+        "X"
+      ],
+      [
+        104,
+        "F"
+      ]
+    ],
+    "readable_german": "Operationskarte 1 zu 100000 Salzburg Wien Lemberg Breslau je 40 Blatt X Warschau 10 Blatt an Garnisonkdo Gleiwitz FS X AOK 11 X 1D70?? X.",
+    "protected_fields": [
+      "1ZU100000",
+      "40BLATT",
+      "WARSCHAU10BLATT",
+      "FSXAOK11X1D70??X"
+    ]
+  },
+  "prior_ocr": {
+    "path": "ocr_snapshot.json",
+    "sha256": "82367fc9773658f2a01910877f6059192928f2cc79f0aa7c804101ccd0e88bb1",
+    "source_path": "experiments/p153_corpus/inputs.json",
+    "source_record_id": "p151_ocr_block6",
+    "expected_slots": 225,
+    "expected_odd_raw_paired_prefix": "H?EUAQIWNLK002ENZE1XRL0KSALZ?WLYWBEGLE?TDLG2RES2AUMD4HB0AUT0BLRECFAE10F2ABT0N1ARGIS8NGDSGLQKWIT7FOXJFK17XND900PD",
+    "difference": "OCR group16 GGVVXX has an extra X absent from the five-coordinate printed GGVVX. This is an OCR correction, not an exclusion of a received source coordinate."
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Source: J. Rives Childs. Earlier repository OCR remains preserved. Current source restoration and explicit editing: icekylinx and GPT-6 Astra Pro. No first-decipherment priority is asserted.",
+  "limits": [
+    "The source contains exactly its advertised 224 slots; no insertion, deletion, source reordering or changed key is used.",
+    "KARTE and GLEIWITZ each require one observed-coordinate substitution. SALZBURG and LEMBERG each supply one printed erasure. These are lexical choices, not unedited received text.",
+    "The trailing VF and XA cells are distinct unassigned cells whose globally injective labels are 5 and 6. Mixed or independent completions are not permitted.",
+    "The literal footer 1D70??, FS and AOK11 are not normalized or interpreted as a precise administrative number.",
+    "Only a second part is present. No missing first part, sending office or successful shipment is reconstructed."
+  ]
+}

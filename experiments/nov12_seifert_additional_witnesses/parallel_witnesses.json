@@ -1,0 +1,46 @@
+{
+  "origin_artifacts": [
+    {
+      "path": "experiments/p170_continuation/seifert_records.json",
+      "sha256_at_snapshot": "a4cd467275782bd7c8cc79f228ff5ec184ca4400a8a34d653907aa912161f859"
+    },
+    {
+      "path": "experiments/nov12_arrival_departure_and_car/inputs.json",
+      "sha256_at_snapshot": "f6e37c9fb91864ffeac2d1ab85d70d95ed5a0e8cca6245b7c574bddb8d5ed144"
+    }
+  ],
+  "records": [
+    {
+      "id": "p174_B",
+      "source_rows": [
+        "DVFVG DFXFD ADAAF XFFDX CVXXF XAVAA AGXVA VVVVA",
+        "DAVDV AXFFV XDXVD FDDXA DDDDD XXXDD VDVD"
+      ],
+      "analysis_ciphertext": "DVFVGDFXFDADAAFXFFDX?VXXFXAVAAAGXVAVVVVADAVDVAXFFVXDXVDFDDXADDDDDXXXDDVDVD",
+      "raw_plaintext": "WENNSEIFERTEINGETROFFE?BITTENACHRXTOF",
+      "header": "CM v CZ (07.20 p.m., November 12th); 19.30; RIZI-74",
+      "origin_path": "experiments/p170_continuation/seifert_records.json"
+    },
+    {
+      "id": "p174_C",
+      "source_rows": [
+        "VVVFF VDAVA XXVDA XXFAD DXGXV DDAAG DVFDV DXGFA",
+        "DAGVX DDA"
+      ],
+      "analysis_ciphertext": "VVVFFVDAVAXXVDAXXFADDXGXVDDAAGDVFDVDXGFADAGVXDDA",
+      "raw_plaintext": "WANNRUECKKUNFTSEIFERTXRE",
+      "header": "CM v CZ (08.11 p.m., November 12th); 21.00; RIZI-48",
+      "origin_path": "experiments/p170_continuation/seifert_records.json"
+    },
+    {
+      "id": "p183_B",
+      "source_rows": [
+        "DVFVZ DFXFD ADAAF XFFDX DVXXF XAVAA AZXVA VVVVA DAWDV AXFFV XDXVD FDDXA BBBBB XXXDD VDVD"
+      ],
+      "analysis_ciphertext": "DVFV?DFXFDADAAFXFFDXDVXXFXAVAAA?XVAVVVVADA?DVAXFFVXDXVDFDDXA?????XXXDDVDVD",
+      "raw_plaintext": "WENN??IFERTE?NGETROF?ENBITTE?ACHR?TO?",
+      "header": "B) CM v CZ (18.54 p.m., November 12th); 19.10; RIZI-74",
+      "origin_path": "experiments/nov12_arrival_departure_and_car/inputs.json"
+    }
+  ]
+}

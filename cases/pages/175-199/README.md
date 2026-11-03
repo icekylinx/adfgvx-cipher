@@ -4,9 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 150–174](../150-174/README.md) · [pp. 200–224 →](../200-224/README.md)
 
-**6 challenge entries and 88 other reviewed entries across 24 printed pages, representing 94 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
+**6 challenge entries and 100 other reviewed entries across 25 printed pages, representing 106 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
 
-Jump to page: [p175](#p175) · [p176](#p176) · [p177](#p177) · [p178](#p178) · [p179](#p179) · [p180](#p180) · [p181](#p181) · [p183](#p183) · [p184](#p184) · [p185](#p185) · [p186](#p186) · [p187](#p187) · [p188](#p188) · [p189](#p189) · [p190](#p190) · [p191](#p191) · [p192](#p192) · [p193](#p193) · [p194](#p194) · [p195](#p195) · [p196](#p196) · [p197](#p197) · [p198](#p198) · [p199](#p199).
+Jump to page: [p175](#p175) · [p176](#p176) · [p177](#p177) · [p178](#p178) · [p179](#p179) · [p180](#p180) · [p181](#p181) · [p182](#p182) · [p183](#p183) · [p184](#p184) · [p185](#p185) · [p186](#p186) · [p187](#p187) · [p188](#p188) · [p189](#p189) · [p190](#p190) · [p191](#p191) · [p192](#p192) · [p193](#p193) · [p194](#p194) · [p195](#p195) · [p196](#p196) · [p197](#p197) · [p198](#p198) · [p199](#p199).
 
 Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's reading qualifications and credit, with reviewed count-unit and spacing corrections in the displayed status. The linked case explains the evidence and its limits.
 
@@ -82,6 +82,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p180 A3](../../military/p180_A.md) | Enemy follows withdrawal near Giurgiu; Braila and Focsani evacuated | 77/78 raw positions; nine substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
+| [p180 B2](../../military/nov11_romanian_mobilization_report.md#p180-b2) | Romanian mobilization and a crossing report | 235 native slots; source-located conditional five-slot tail; 4 observed substitutions, 1 source-mask fill and 4 tail fills; four plaintext positions remain unresolved | icekylinx and GPT-6 Astra Pro (2026); published period key and prior native/tail trials retained |
 | [p180 C](../../radio/okm_radio_route.md#p180-c) | OKM communication route through literal AOK1? and FXT | Native 86-slot frame; 6 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p180 E](../../military/namur_cassel_armistice_requests.md#p180-e) | Bauman readiness and Cassel transport | Native 224-slot frame; 3 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 
@@ -93,6 +94,16 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p181 A](../../military/mackensen_warsaw.md) | Warsaw Soldiers Council asks about Mackensens advance | Prior query interpretation; later quote supplies one source erasure | Lasry, Niebel, Kopal and Wacker; source comparison: icekylinx and GPT-6 Astra Pro (2026) |
 | [p181 B](../../military/namur_cassel_armistice_requests.md#p181-b) | Repeated request for local armistice conditions | Native 234-slot frame; 3 observed-coordinate substitutions and 1 source-mask fill; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
+
+## p182
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p182 A](../../radio/nov12_seifert_additional_witnesses.md#p182-a) | Arrival notification enquiry; additional physical witness | Native55; conditional74-slot source-family alignment: one substitution, one masked-slot exclusion, six source fills and20 source-supported added fills; all11 minimum maps retained | icekylinx and GPT-6 Astra Pro (2026); existing p174/p183 body credit retained |
+| [p182 B](../../radio/return_time_and_vehicle_attempt.md#p182-b) | Expected return with the literal time-like label 0100 | Native 62-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p182 C](../../radio/nov12_seifert_additional_witnesses.md#p182-c) | Seifert return enquiry; additional physical witness | Native49 versus printed56; conditional48-slot model: one observedX exclusion and one F-to-V substitution supplied by rawp174C witness | icekylinx and GPT-6 Astra Pro (2026); existing p174/p183 body credit retained |
 
 ## p183
 
@@ -113,6 +124,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p184 A2](../../military/group_security_measures_fragment.md#p184-a2) | Second-part instruction on measures for the security of a group | Native 202-slot frame; 6 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p184 B1](../../military/hungary_transport_warning.md#p184-b1) | Mineral-oil department address | Direct source reading; received BUCKAREST retained | icekylinx and GPT-6 Astra Pro (2026); published Nov13–15a partial key; earlier unreviewed candidates distinguished |
 | [p184 B2](../../military/hungary_transport_warning.md#p184-b2) | Transports from Romania must not enter Hungary | Five missing coordinates restored with zero observed-coordinate changes | icekylinx and GPT-6 Astra Pro (2026); published Nov13–15a partial key; earlier unreviewed candidates distinguished |
 | [p184 B3](../../military/hungary_transport_warning.md#p184-b3) | Kriegsamt reference footer | Exact pair witness for C3; unknown reference labels retained | icekylinx and GPT-6 Astra Pro (2026); published Nov13–15a partial key; earlier unreviewed candidates distinguished |
@@ -126,6 +138,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p185 A2](../../finance/brasso_money_alternative_route.md#p185-a2) | Requested money to be sent to BRASSO by another means | Native 244-slot frame; 0 observed-coordinate substitutions and 2 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p185 B](../../caucasus/baku_personnel_inquiry.md#p185-b) | Inquiry about the fate of army personnel in Baku | Conditional 268-slot frame from 279 printed slots; 11 observed-coordinate exclusions, 10 substitutions and 1 source-mask fill; two reference-coupling alternatives retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p185 C](../../p189.md) | Vehicle provision impossible; await orders | Direct raw reading; source parallel for p 189 A | icekylinx and GPT-6 Astra Pro (2026) |
 | [p185 D](../../context/transport.md#p185-d-source-and-gap-model) | Movement via DHFN and readiness instruction | 91/99 positions under an unproved five-loss geometry | icekylinx and GPT-6 Astra Pro (2026) |
 
@@ -179,6 +193,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p189 B](../../radio/return_time_and_vehicle_attempt.md#p189-b) | A message about attempting to obtain a vehicle | Native 70-slot frame; 4 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p189 C](../../context/p189_C.md) | Instruction to use the December key; IRRTUM | 61/62 raw positions; two explicit substitutions | icekylinx and GPT-6 Astra Pro (2026) |
 | [p189 D](../../context/benzol_pump_query.md#p189-d) | Benzol-pump inquiry and request for a prompt answer | Conditional 102-slot frame from101 occupied positions; six observed substitutions, one source-mask fill and one inserted fill; equal gaps37/38 retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p189 E](../../context/transport.md#independent-transport-context) | Pump, cars and trailers | Direct partial reading; counts unresolved | icekylinx and GPT-6 Astra Pro (2026) |
@@ -226,6 +241,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p193 C](../../radio/nov14_15_departure_and_supper.md#p193-c) | Departure postponed, with reassurance and readiness wording | Native 212-slot frame; 3 observed-coordinate substitutions and 2 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p193 D](../../radio/nov14_15_departure_and_supper.md#p193-d) | Proposed warm supper and a headcount enquiry | Native 82-slot frame; 4 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p193 E](../../context/transport.md#independent-transport-context) | Sprung cart for attachment; a car | Direct partial reading; one unknown cell | icekylinx and GPT-6 Astra Pro (2026) |
+| [p193 F](../../people/nov13_conditional_congratulation.md) | Congratulation core under explicit one-coordinate exclusion; endpoints remain conditional | 75 observed slots; conditional 74-coordinate model, 1 terminal X exclusion + 1 substitution; 36/37 labels fixed; endpoint alternatives retained | icekylinx and GPT-6 Astra Pro (2026); unchanged published partial Nov13-15b key; prior OCR and discovery retained |
 
 ## p194
 
@@ -261,6 +277,9 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p197 A1](../../radio/nov15_radio_personnel_and_key_notice.md#p197-a1) | Warsaw radio-personnel order under a missing-group model | 193 printed slots; conditional 198-slot frame with a five-slot gap; 1 observed substitution, 1 source-mask fill and 5 inserted-slot fills | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p197 A2](../../radio/nov15_radio_personnel_and_key_notice.md#p197-a2) | Warsaw radio personnel: native continuation naming Posen | Native 144-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p197 B](../../radio/nov15_radio_personnel_and_key_notice.md#p197-b) | A second physical witness of the December-key and IRRTUM notice | Native 124-slot frame; 3 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p197 C](../../context/transport_197_198.md) | Transport of radio equipment to Darmstadt | Missing-group hypothesis checked against p 198 B | icekylinx and GPT-6 Astra Pro (2026) |
 | [p197 D](../../context/transport_197_198.md) | Lorry, trailer and petrol-pump instruction | Partial witness; readable reconstruction costed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p197 E](../../context/transport.md#independent-transport-context) | Lorry departure and men remaining until Sunday | Partial near-parallel; time and count unresolved | icekylinx and GPT-6 Astra Pro (2026) |

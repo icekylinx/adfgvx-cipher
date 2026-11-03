@@ -1,0 +1,442 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "November 7–8: embassy, legation and Etappe address parts",
+  "case": "cases/radio/nov7_8_embassy_address_parts.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p156_reviewed.png",
+      "pdf_page_1based": 159,
+      "crop_pdf_points": [
+        60,
+        200,
+        535,
+        602
+      ],
+      "render_scale": 3,
+      "sha256": "a0fb11ab4f191c6509557f35ceaf05348a1a77b1bf3514ea82e1462ff79a9e18",
+      "width": 1425,
+      "height": 1206,
+      "channels": 3,
+      "rgb_sha256": "9dc978dabc3c1f8f6d84830f38578bf7e76ef7c5cb374d7ab87daf0814474d57",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    },
+    {
+      "path": "sources/p158_reviewed.png",
+      "pdf_page_1based": 161,
+      "crop_pdf_points": [
+        65,
+        125,
+        540,
+        330
+      ],
+      "render_scale": 3,
+      "sha256": "e8735073c38eca16b1526cd0e2f87eafc3cb72b6baf804bf3848b7fb33fe236e",
+      "width": 1425,
+      "height": 615,
+      "channels": 3,
+      "rgb_sha256": "76c5a60b66450295bf31055c8e1c6e2d6046be501f3b65c775cd6d953b2c591e",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "keys": {
+    "Nov7-9": {
+      "id": "Nov7-9",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ],
+      "column_count": 20,
+      "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "square_rows": [
+        "PRMYUW",
+        "3LZGES",
+        "8C71QO",
+        "V29ITB",
+        "40?KXH",
+        "?AJNDF"
+      ],
+      "known_cell_count": 34,
+      "missing_plaintext_symbols": "56",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 241,
+          "pdf_page_1based": 244,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+      ],
+      "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "baseline_differences": [
+        {
+          "coordinate": "VF",
+          "baseline": "5",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XA",
+          "baseline": "6",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-01",
+        "comment": 20,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "VF",
+            "proposed": "5"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "6"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p156_A1",
+      "title": "German embassy address with Bussche signature",
+      "key_id": "Nov7-9",
+      "header_literal": "A) YZ v LP (6.11 a.m., November 8th); FUER YZ 2200 (7/11) [2/3] TLE; 1 TL RICHI-84",
+      "edited_output": "DEUTSCHEXBOTSCHAFTXKONSTANTIOPELXXBUSSCHEX",
+      "readable_german": "Deutsche Botschaft Konstantiopel. Bussche.",
+      "meaning": "An address to the German embassy and a Bussche signature. The transmitted place-name lacks the second N of Konstantinopel and is preserved as Konstantiopel.",
+      "notes": [
+        "The two proposed ordinary-word repairs change DERTSCHE to DEUTSCHE and KSNSTANTIOPEL to KONSTANTIOPEL. The missing N is not inserted into the plaintext or the source.",
+        "The overstruck second character in the third group of source row 2 is transcribed X in the primary VXXVX reading. A V alternative, VVXVX, is retained independently; the alternative changes the raw H in DERTSCHE to X and does not establish a different historical message.",
+        "The heading advertises a multipart message; its faint part-count digit admits 2/3 readings, retained explicitly. Only the first part is printed in this section. The Bussche signature is not expanded to a named historical person.",
+        "The bracketed [2/3] in the header is a transcription ambiguity, not a literal bracketed source field. Enlarged comparison with the same-page 1835 and 2TLE type remains inconclusive across reviewers. Both alternatives are retained; neither changes the advertised 84-coordinate body length or the cipher analysis."
+      ],
+      "printed_page": 156,
+      "source_section": "A1",
+      "source_rows": [
+        "ADDVD GGDFX XAXGA XVDVV XFDDD DGXDV DVXGV XGDVV",
+        "XDDXX VVXXV VXXVX XXDXV VGDVG FGVVV GXDDG VGVAV",
+        "VVFF"
+      ],
+      "source_slots": 84,
+      "advertised_length": 84,
+      "expected_raw": "DERTSCHEXBOTSCHAFTXKSNSTANTIOPELXXBUSSCHEX",
+      "source_variants": [
+        {
+          "name": "Overstruck source51 read as V rather than primary X",
+          "grouped": "ADDVD GGDFX XAXGA XVDVV XFDDD DGXDV DVXGV XGDVV\nXDDXX VVXXV VVXVX XXDXV VGDVG FGVVV GXDDG VGVAV\nVVFF",
+          "expected_substitutions": 3,
+          "expected_source_mask_fills": 0
+        }
+      ],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 2,
+      "expected_source_mask_fills": 0,
+      "header_transcription_variants": [
+        "A) YZ v LP (6.11 a.m., November 8th); FUER YZ 2200 (7/11) 2 TLE; 1 TL RICHI-84",
+        "A) YZ v LP (6.11 a.m., November 8th); FUER YZ 2200 (7/11) 3 TLE; 1 TL RICHI-84"
+      ]
+    },
+    {
+      "id": "p156_B1",
+      "title": "German embassy at Constantinople and Stumm signature",
+      "key_id": "Nov7-9",
+      "header_literal": "B) YZ v LP (5.52 a.m., November 8th); 1835 (7/11) 2TLE; 1 TL RICHI-80",
+      "readable_german": "Deutsche Botschaft Konstantinopel. Stumm.",
+      "meaning": "A directly readable embassy address and Stumm signature, with its advertised second part absent from this section.",
+      "notes": [
+        "All 80 source coordinates directly decrypt. The source time is 1835, not the earlier OCR 1838.",
+        "The first printed part is a complete address and signature field, not a recovered substantive telegram body."
+      ],
+      "printed_page": 156,
+      "source_section": "B1",
+      "source_rows": [
+        "AFXVD VFAFX GAXGV VVXGX XGDDD DGVDX GGVGX AXXAV",
+        "VDDVV VXDXV GFXDV VVXVV GVXDV GXFDX GVFXD VGFAV"
+      ],
+      "source_slots": 80,
+      "advertised_length": 80,
+      "expected_raw": "DEUTSCHEBOTSCHAFTKONSTANTINOPELXXSTUMMXX",
+      "edited_output": "DEUTSCHEBOTSCHAFTKONSTANTINOPELXXSTUMMXX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p156_D1",
+      "title": "Etappe address at Constantinople",
+      "key_id": "Nov7-9",
+      "header_literal": "D) YZ v LP (6.21 a.m., November 8th); FUER YZ 0127 2 TLE; 1 TL RICHI-44",
+      "edited_output": "ETAPPEXKONSTANTINOPELX",
+      "readable_german": "Etappe Konstantinopel.",
+      "meaning": "A short Etappe address at Constantinople. The missing continuation is not supplied.",
+      "notes": [
+        "The native final XDVA is visible below the first source row and restores the advertised 44-coordinate frame without inserting anything into the source.",
+        "One observed-coordinate substitution changes raw KHNSTANTINOPEL to KONSTANTINOPEL. ETAPPE remains the literal transmitted designation."
+      ],
+      "printed_page": 156,
+      "source_section": "D1",
+      "source_rows": [
+        "XXVFD GGVAG DDDGG VAGVX XADDV XDVGA VVVVA XGXVG",
+        "XDVA"
+      ],
+      "source_slots": 44,
+      "advertised_length": 44,
+      "expected_raw": "ETAPPEXKHNSTANTINOPELX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 1,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p156_E1",
+      "title": "French-language German legation address at Constantinople",
+      "key_id": "Nov7-9",
+      "header_literal": "E) YZ v LP (6.15 a.m., November 8th); FUER YZ 2330 (8/11) 2 TLE; 1 TL RICHI-78",
+      "readable_german": "Fuer Legation Allemande Konstantinopel.",
+      "meaning": "An address for the German legation at Constantinople; the transmitted designation Legation Allemande is French and is retained as printed in the decoded text.",
+      "notes": [
+        "All 78 source coordinates directly decrypt, including the final three-coordinate AGV.",
+        "The heading literally combines a 6.15 a.m. reception on November 8 with 2330 (8/11); the edition does not silently reconcile that chronology.",
+        "Only the first of two advertised parts is visible in this section."
+      ],
+      "printed_page": 156,
+      "source_section": "E1",
+      "source_rows": [
+        "DXDGD DDDDD FAVDD DVVGX GXXAF XGVXV FDDXD DFVVV",
+        "GVGXG GGVDG VVDGX VXVVA VVXGV XDDDX AGXXX AGV"
+      ],
+      "source_slots": 78,
+      "advertised_length": 78,
+      "expected_raw": "FUERXLEGATIONXALLEMANDEXKONSTANTINOPELX",
+      "edited_output": "FUERXLEGATIONXALLEMANDEXKONSTANTINOPELX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p158_A1",
+      "title": "German embassy address and Stumm signature, first printed part",
+      "key_id": "Nov7-9",
+      "header_literal": "A) YZ v LP (05.05 p.m., November 8th); 1331 (7/11) 2 TTLE; 1 TL RICHI-100",
+      "edited_output": "DEUTSCHEBOTSCHAFTKONSTANTINOPELXUNTERSCHRIFTSTUMMX",
+      "readable_german": "Deutsche Botschaft Konstantinopel. Unterschrift Stumm.",
+      "meaning": "An embassy address with an explicit Stumm signature label. Four raw letter errors are repaired at their full coordinate cost.",
+      "notes": [
+        "The source supplies 100 native coordinates; the earlier OCR lost one, so its odd-length output is not used as the physical frame.",
+        "The raw BOTSAHAFT, KONSTCNTINOPEL, DNTERSCHRIOT letter errors are not source-transcription changes: the literal source remains fixed and all proposed replacements are priced in the edited layer.",
+        "The two printed A parts both contain address/signature language. Their headings are retained without inventing a distinct substantive payload."
+      ],
+      "printed_page": 158,
+      "source_section": "A1",
+      "source_rows": [
+        "AXFXF DVFDA FXGDG XGVXV VXGGV XGDDA DDGVG DXGGD",
+        "VGXAA XXADF VDDVX VVXDD XVGDV XDVVX VXVVG GVXXG",
+        "VGXXF DXGVV FXDVV GFAFA"
+      ],
+      "source_slots": 100,
+      "advertised_length": 100,
+      "expected_raw": "DEUTSCHEBOTSAHAFTKONSTCNTINOPELXDNTERSCHRIOTSTUMMX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 4,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p158_A2",
+      "title": "Repeated embassy address with literal UPK3 prefix",
+      "key_id": "Nov7-9",
+      "header_literal": "2 TL RICHI-106; following control: LP",
+      "edited_output": "UPK3DEUTSCHEBOTSCHAFTKONSTANTINOPELXUNTERSCHRIFTSTUMM",
+      "readable_german": "UPK3. Deutsche Botschaft Konstantinopel. Unterschrift Stumm.",
+      "protected_fields": [
+        "UPK3"
+      ],
+      "meaning": "The second printed part repeats the embassy address and Stumm signature, preceded by the unresolved literal field UPK3. Its purpose is not inferred.",
+      "notes": [
+        "The first row repeats GDDGV in adjacent five-coordinate groups. Both are retained in the full native 106-slot frame; visible repetition is not a license to remove a group.",
+        "The raw DEWTSCHE and BOTSCHAAT are ordinary-word repair proposals with explicit coordinate costs. UPK3 is retained unchanged and is not expanded as a unit, station or reference.",
+        "The final D is part of the encrypted body; the following LP is a source control."
+      ],
+      "printed_page": 158,
+      "source_section": "A2",
+      "source_rows": [
+        "VGFAF AGVXX GDDGV GDDGV VAXGV XAVGX AAADV FDAXG",
+        "DDAAF XAXXD VVXGX XADFV XVGDV XDDVX VVXDD AVGXX",
+        "FDFXD VVXGG VVXVV GFXGD GDXGG D"
+      ],
+      "source_slots": 106,
+      "advertised_length": 106,
+      "expected_raw": "UPK3DEWTSCHEBOTSCHAATKONSTANTINOPELXUNTERSCHRIFTSTUMM",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 2,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p158_B1",
+      "title": "German embassy address with an explicit Stumm signature",
+      "key_id": "Nov7-9",
+      "header_literal": "B) YZ v LP (05.15 p.m., November 8th); FUER YZ 1325 (7/11) 2 TEILE; 1 TL RICHI-76; following control: LP",
+      "edited_output": "ANDEUTSCHEBOTSCHAFTUNTERSCHRIFTXSTUMMX",
+      "readable_german": "An deutsche Botschaft. Unterschrift Stumm.",
+      "meaning": "A separate embassy address and signature part; it does not itself name the embassy city.",
+      "notes": [
+        "The visible final G completes the native 76-coordinate frame; the following LP is excluded as source control.",
+        "The raw DN and BOTSCHAFV become AN and BOTSCHAFT through two explicitly priced observed-coordinate substitutions.",
+        "The second of two advertised parts is absent from this section. The adjacent Constantinople addresses do not license inserting that city into this record."
+      ],
+      "printed_page": 158,
+      "source_section": "B1",
+      "source_rows": [
+        "XGDDF XAVGV FAVVX VXDVX GXGXF GVAFD ADXVA XAGVV",
+        "VXVXG VXDXF VDXVG XVVDD AGDXD VVXDF DAXVG G"
+      ],
+      "source_slots": 76,
+      "advertised_length": 76,
+      "expected_raw": "DNDEUTSCHEBOTSCHAFVUNTERSCHRIFTXSTUMMX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 2,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "7c1811b041648bcc916ae91fde7e1ab72ab8988e47808c9d8deac2ce1c7d71cb",
+    "ocr_snapshot.json": "6db18421225c8f4861ff3a9b0b23c854678847b113009c6386194d4649787f42"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ],
+  "parallel_address_witness": {
+    "record_id": "p162_D1",
+    "inputs_path": "experiments/nov8_map_and_boundary/inputs.json",
+    "inputs_sha256": "632f945d5afd9b6f8d06e841a3ec1cf40d5484211e2b70266da6d8b27d838a23",
+    "source_image": {
+      "path": "experiments/nov8_map_and_boundary/sources/p162_D_detail.png",
+      "sha256": "54d4a046aa47b16b863aced56392ef6783c801ddc920bbbb95fdc1af45feacb4",
+      "pdf_page_1based": 165,
+      "crop_pdf_points": [
+        60,
+        555,
+        530,
+        634
+      ],
+      "render_scale": 5,
+      "width": 2350,
+      "height": 395,
+      "rgb_sha256": "df8e1d0d240a0338cf4603b376dcea2798b6ee342e1d3e57036ffc853539066a"
+    },
+    "comparisons": [
+      {
+        "record_id": "p158_A1",
+        "new_plaintext_start": 0,
+        "prior_plaintext_start": 0,
+        "compared_positions": 50,
+        "expected_known_agreements": 43,
+        "expected_known_disagreements": 4,
+        "expected_new_labels_at_prior_masks": 3,
+        "expected_prior_labels_supporting_new_edits": 4
+      },
+      {
+        "record_id": "p158_A2",
+        "new_plaintext_start": 4,
+        "prior_plaintext_start": 0,
+        "compared_positions": 49,
+        "expected_known_agreements": 44,
+        "expected_known_disagreements": 2,
+        "expected_new_labels_at_prior_masks": 3,
+        "expected_prior_labels_supporting_new_edits": 2
+      }
+    ],
+    "scope": "Compare the common address/signature formula only. Headers differ, p158 A2 has a literal UPK3 prefix, and none of this establishes identical missing bodies or a reception/copy mechanism. No additional physical record is counted."
+  },
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

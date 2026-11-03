@@ -1,0 +1,4816 @@
+{
+  "schema": "adfgvx-flying-unit-inquiry-certificate-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "input_sha256": "bf5ae586cd710ee01fc00926e168d7f447fa5510c64aa917699945c0193b620e",
+  "indexing": "All source, model and plaintext indices are zero-based. A source boundary is before the original source index of that number.",
+  "summary": {
+    "physical_records": 1,
+    "printed_source_slots": 183,
+    "valid_source_coordinates": 158,
+    "modeled_coordinates": 184,
+    "plaintext_positions": 92,
+    "baseline_fixed_positions": 67,
+    "candidate_fixed_positions": 83,
+    "known_coordinate_substitutions": 2,
+    "source_or_model_erasure_fills": 17,
+    "source_mask_fills": 16,
+    "inserted_slot_fills": 1,
+    "unfilled_source_mask_coordinates": 9,
+    "inserted_slots": 1,
+    "source_deletions": 0,
+    "source_reorderings": 0,
+    "published_key_changed": false
+  },
+  "records": [
+    {
+      "id": "p124_B",
+      "literal_source": "A-GXGFX-AAAFDXGXFVVAFAX-FXFFFAAG--FAVDXFAVFDAVXVXFAVAFGXXGUAVDXV-----XVAFXXDAVAFVXXXAF-G-AXFVVAVVVAXXG--XAFXADDFDVAVDVVXXVXFAVAAGDAADAV-AFFF--XVDA--XVDFAFXAAXXVXFVGAAXXVG-AV----AVVVGF",
+      "literal_printed_rows": [
+        "A-GXG FX-AA AFDXG XFVV AFAX- FXFFF AAG-- FAVDX",
+        "FAVFD AVXVX FAVAF GXXGU AVDXV ----- XVAFX XDAVA",
+        "FVXXX AF-G- AXFVV AVVVA XXG-- XAFXA DDFDV AVDVV",
+        "XXVXF AVAAG DAADA V-AFF F--XV DA--X VDFAF XAAXX",
+        "VXFVG AAXXV G-AV- ---AV VVGF"
+      ],
+      "source_slots": 183,
+      "valid_source_coordinates": 158,
+      "ciphertext": "A?GXGFX?AAAFDXGXF?VVAFAX?FXFFFAAG??FAVDXFAVFDAVXVXFAVAFGXXG?AVDXV?????XVAFXXDAVAFVXXXAF?G?AXFVVAVVVAXXG??XAFXADDFDVAVDVVXXVXFAVAAGDAADAV?AFFF??XVDA??XVDFAFXAAXXVXFVGAAXXVG?AV????AVVVGF",
+      "analysis_frame_slots": 184,
+      "model_to_source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        null,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182
+      ],
+      "raw": "??ERX?K??1?2??OP??ICHT?E??T?ENDLI??XXSOLLEN?LI?GERA??EI?UNG?N?B?LIEGENX?DERHIERRLEIBENXFRAGE",
+      "fixed_positions": 67,
+      "positions": [
+        {
+          "plaintext_index": 0,
+          "pair": "?V",
+          "model_indices": [
+            65,
+            98
+          ],
+          "source_indices": [
+            64,
+            97
+          ],
+          "domain": "4FGUYZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 1,
+          "pair": "D?",
+          "model_indices": [
+            76,
+            141
+          ],
+          "source_indices": [
+            75,
+            140
+          ],
+          "domain": "25DJPU",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 2,
+          "pair": "FA",
+          "model_indices": [
+            21,
+            109
+          ],
+          "source_indices": [
+            20,
+            108
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 3,
+          "pair": "VA",
+          "model_indices": [
+            163,
+            0
+          ],
+          "source_indices": [
+            162,
+            0
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 4,
+          "pair": "FD",
+          "model_indices": [
+            54,
+            130
+          ],
+          "source_indices": [
+            53,
+            129
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 5,
+          "pair": "G?",
+          "model_indices": [
+            32,
+            87
+          ],
+          "source_indices": [
+            31,
+            86
+          ],
+          "domain": "036OQY",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 6,
+          "pair": "FF",
+          "model_indices": [
+            152,
+            43
+          ],
+          "source_indices": [
+            151,
+            42
+          ],
+          "domain": "K",
+          "raw": "K"
+        },
+        {
+          "plaintext_index": 7,
+          "pair": "X?",
+          "model_indices": [
+            120,
+            174
+          ],
+          "source_indices": [
+            119,
+            173
+          ],
+          "domain": "4CMNST",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 8,
+          "pair": "F?",
+          "model_indices": [
+            11,
+            66
+          ],
+          "source_indices": [
+            11,
+            65
+          ],
+          "domain": "9EKVXZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 9,
+          "pair": "AA",
+          "model_indices": [
+            99,
+            77
+          ],
+          "source_indices": [
+            98,
+            76
+          ],
+          "domain": "1",
+          "raw": "1"
+        },
+        {
+          "plaintext_index": 10,
+          "pair": "?A",
+          "model_indices": [
+            142,
+            22
+          ],
+          "source_indices": [
+            141,
+            21
+          ],
+          "domain": "1EJORT",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 11,
+          "pair": "DG",
+          "model_indices": [
+            110,
+            164
+          ],
+          "source_indices": [
+            109,
+            163
+          ],
+          "domain": "2",
+          "raw": "2"
+        },
+        {
+          "plaintext_index": 12,
+          "pair": "?G",
+          "model_indices": [
+            1,
+            55
+          ],
+          "source_indices": [
+            1,
+            54
+          ],
+          "domain": "23BHSV",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 13,
+          "pair": "A?",
+          "model_indices": [
+            131,
+            33
+          ],
+          "source_indices": [
+            130,
+            32
+          ],
+          "domain": "17FHLW",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 14,
+          "pair": "GA",
+          "model_indices": [
+            88,
+            153
+          ],
+          "source_indices": [
+            87,
+            152
+          ],
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 15,
+          "pair": "DX",
+          "model_indices": [
+            44,
+            121
+          ],
+          "source_indices": [
+            43,
+            120
+          ],
+          "domain": "P",
+          "raw": "P"
+        },
+        {
+          "plaintext_index": 16,
+          "pair": "?D",
+          "model_indices": [
+            175,
+            12
+          ],
+          "source_indices": [
+            174,
+            12
+          ],
+          "domain": "0578CX",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 17,
+          "pair": "?X",
+          "model_indices": [
+            67,
+            100
+          ],
+          "source_indices": [
+            66,
+            99
+          ],
+          "domain": "69ILNP",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 18,
+          "pair": "VX",
+          "model_indices": [
+            78,
+            143
+          ],
+          "source_indices": [
+            77,
+            142
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 19,
+          "pair": "XD",
+          "model_indices": [
+            23,
+            111
+          ],
+          "source_indices": [
+            22,
+            110
+          ],
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 20,
+          "pair": "AG",
+          "model_indices": [
+            165,
+            2
+          ],
+          "source_indices": [
+            164,
+            2
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 21,
+          "pair": "XA",
+          "model_indices": [
+            56,
+            132
+          ],
+          "source_indices": [
+            55,
+            131
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 22,
+          "pair": "??",
+          "model_indices": [
+            34,
+            89
+          ],
+          "source_indices": [
+            33,
+            88
+          ],
+          "domain": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 23,
+          "pair": "FA",
+          "model_indices": [
+            154,
+            45
+          ],
+          "source_indices": [
+            153,
+            44
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 24,
+          "pair": "V?",
+          "model_indices": [
+            122,
+            176
+          ],
+          "source_indices": [
+            121,
+            175
+          ],
+          "domain": "8ABGIR",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 25,
+          "pair": "X?",
+          "model_indices": [
+            13,
+            68
+          ],
+          "source_indices": [
+            13,
+            67
+          ],
+          "domain": "4CMNST",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 26,
+          "pair": "XA",
+          "model_indices": [
+            101,
+            79
+          ],
+          "source_indices": [
+            100,
+            78
+          ],
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 27,
+          "pair": "V?",
+          "model_indices": [
+            144,
+            24
+          ],
+          "source_indices": [
+            143,
+            23
+          ],
+          "domain": "8ABGIR",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 28,
+          "pair": "FA",
+          "model_indices": [
+            112,
+            166
+          ],
+          "source_indices": [
+            111,
+            165
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 29,
+          "pair": "XX",
+          "model_indices": [
+            3,
+            57
+          ],
+          "source_indices": [
+            3,
+            56
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 30,
+          "pair": "DF",
+          "model_indices": [
+            133,
+            35
+          ],
+          "source_indices": [
+            132,
+            34
+          ],
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 31,
+          "pair": "AX",
+          "model_indices": [
+            90,
+            155
+          ],
+          "source_indices": [
+            89,
+            154
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 32,
+          "pair": "VX",
+          "model_indices": [
+            46,
+            123
+          ],
+          "source_indices": [
+            45,
+            122
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 33,
+          "pair": "?G",
+          "model_indices": [
+            177,
+            14
+          ],
+          "source_indices": [
+            176,
+            14
+          ],
+          "domain": "23BHSV",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 34,
+          "pair": "?G",
+          "model_indices": [
+            69,
+            102
+          ],
+          "source_indices": [
+            68,
+            101
+          ],
+          "domain": "23BHSV",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 35,
+          "pair": "FD",
+          "model_indices": [
+            80,
+            145
+          ],
+          "source_indices": [
+            79,
+            144
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 36,
+          "pair": "FD",
+          "model_indices": [
+            25,
+            113
+          ],
+          "source_indices": [
+            24,
+            112
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 37,
+          "pair": "XG",
+          "model_indices": [
+            167,
+            4
+          ],
+          "source_indices": [
+            166,
+            4
+          ],
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 38,
+          "pair": "GA",
+          "model_indices": [
+            58,
+            134
+          ],
+          "source_indices": [
+            57,
+            133
+          ],
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 39,
+          "pair": "AX",
+          "model_indices": [
+            36,
+            91
+          ],
+          "source_indices": [
+            35,
+            90
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 40,
+          "pair": "AX",
+          "model_indices": [
+            156,
+            47
+          ],
+          "source_indices": [
+            155,
+            46
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 41,
+          "pair": "FA",
+          "model_indices": [
+            124,
+            178
+          ],
+          "source_indices": [
+            123,
+            177
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 42,
+          "pair": "XX",
+          "model_indices": [
+            15,
+            70
+          ],
+          "source_indices": [
+            15,
+            69
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 43,
+          "pair": "?V",
+          "model_indices": [
+            103,
+            81
+          ],
+          "source_indices": [
+            102,
+            80
+          ],
+          "domain": "4FGUYZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 44,
+          "pair": "AX",
+          "model_indices": [
+            146,
+            26
+          ],
+          "source_indices": [
+            145,
+            25
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 45,
+          "pair": "VX",
+          "model_indices": [
+            114,
+            168
+          ],
+          "source_indices": [
+            113,
+            167
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 46,
+          "pair": "F?",
+          "model_indices": [
+            5,
+            59
+          ],
+          "source_indices": [
+            5,
+            58
+          ],
+          "domain": "9EKVXZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 47,
+          "pair": "VV",
+          "model_indices": [
+            135,
+            37
+          ],
+          "source_indices": [
+            134,
+            36
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 48,
+          "pair": "FA",
+          "model_indices": [
+            92,
+            157
+          ],
+          "source_indices": [
+            91,
+            156
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 49,
+          "pair": "VA",
+          "model_indices": [
+            48,
+            125
+          ],
+          "source_indices": [
+            47,
+            124
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 50,
+          "pair": "VF",
+          "model_indices": [
+            179,
+            16
+          ],
+          "source_indices": [
+            178,
+            16
+          ],
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 51,
+          "pair": "V?",
+          "model_indices": [
+            71,
+            104
+          ],
+          "source_indices": [
+            70,
+            103
+          ],
+          "domain": "8ABGIR",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 52,
+          "pair": "X?",
+          "model_indices": [
+            82,
+            147
+          ],
+          "source_indices": [
+            81,
+            146
+          ],
+          "domain": "4CMNST",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 53,
+          "pair": "FA",
+          "model_indices": [
+            27,
+            115
+          ],
+          "source_indices": [
+            26,
+            114
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 54,
+          "pair": "VX",
+          "model_indices": [
+            169,
+            6
+          ],
+          "source_indices": [
+            168,
+            6
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 55,
+          "pair": "A?",
+          "model_indices": [
+            60,
+            136
+          ],
+          "source_indices": [
+            59,
+            135
+          ],
+          "domain": "17FHLW",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 56,
+          "pair": "DV",
+          "model_indices": [
+            38,
+            93
+          ],
+          "source_indices": [
+            37,
+            92
+          ],
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 57,
+          "pair": "XX",
+          "model_indices": [
+            158,
+            49
+          ],
+          "source_indices": [
+            157,
+            48
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 58,
+          "pair": "VV",
+          "model_indices": [
+            126,
+            180
+          ],
+          "source_indices": [
+            125,
+            179
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 59,
+          "pair": "?A",
+          "model_indices": [
+            17,
+            72
+          ],
+          "source_indices": [
+            null,
+            71
+          ],
+          "domain": "1EJORT",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 60,
+          "pair": "XX",
+          "model_indices": [
+            105,
+            83
+          ],
+          "source_indices": [
+            104,
+            82
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 61,
+          "pair": "?F",
+          "model_indices": [
+            148,
+            28
+          ],
+          "source_indices": [
+            147,
+            27
+          ],
+          "domain": "ADKMQW",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 62,
+          "pair": "VG",
+          "model_indices": [
+            116,
+            170
+          ],
+          "source_indices": [
+            115,
+            169
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 63,
+          "pair": "?V",
+          "model_indices": [
+            7,
+            61
+          ],
+          "source_indices": [
+            7,
+            60
+          ],
+          "domain": "4FGUYZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 64,
+          "pair": "AX",
+          "model_indices": [
+            137,
+            39
+          ],
+          "source_indices": [
+            136,
+            38
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 65,
+          "pair": "VX",
+          "model_indices": [
+            94,
+            159
+          ],
+          "source_indices": [
+            93,
+            158
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 66,
+          "pair": "FA",
+          "model_indices": [
+            50,
+            127
+          ],
+          "source_indices": [
+            49,
+            126
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 67,
+          "pair": "VV",
+          "model_indices": [
+            181,
+            18
+          ],
+          "source_indices": [
+            180,
+            17
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 68,
+          "pair": "FA",
+          "model_indices": [
+            73,
+            106
+          ],
+          "source_indices": [
+            72,
+            105
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 69,
+          "pair": "XX",
+          "model_indices": [
+            84,
+            149
+          ],
+          "source_indices": [
+            83,
+            148
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 70,
+          "pair": "FD",
+          "model_indices": [
+            29,
+            117
+          ],
+          "source_indices": [
+            28,
+            116
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 71,
+          "pair": "?A",
+          "model_indices": [
+            171,
+            8
+          ],
+          "source_indices": [
+            170,
+            8
+          ],
+          "domain": "1EJORT",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 72,
+          "pair": "DF",
+          "model_indices": [
+            62,
+            138
+          ],
+          "source_indices": [
+            61,
+            137
+          ],
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 73,
+          "pair": "FA",
+          "model_indices": [
+            40,
+            95
+          ],
+          "source_indices": [
+            39,
+            94
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 74,
+          "pair": "VA",
+          "model_indices": [
+            160,
+            51
+          ],
+          "source_indices": [
+            159,
+            50
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 75,
+          "pair": "AG",
+          "model_indices": [
+            128,
+            182
+          ],
+          "source_indices": [
+            127,
+            181
+          ],
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 76,
+          "pair": "VX",
+          "model_indices": [
+            19,
+            74
+          ],
+          "source_indices": [
+            18,
+            73
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 77,
+          "pair": "FA",
+          "model_indices": [
+            107,
+            85
+          ],
+          "source_indices": [
+            106,
+            84
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 78,
+          "pair": "VA",
+          "model_indices": [
+            150,
+            30
+          ],
+          "source_indices": [
+            149,
+            29
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 79,
+          "pair": "VA",
+          "model_indices": [
+            118,
+            172
+          ],
+          "source_indices": [
+            117,
+            171
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 80,
+          "pair": "AX",
+          "model_indices": [
+            9,
+            63
+          ],
+          "source_indices": [
+            9,
+            62
+          ],
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 81,
+          "pair": "FA",
+          "model_indices": [
+            139,
+            41
+          ],
+          "source_indices": [
+            138,
+            40
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 82,
+          "pair": "VX",
+          "model_indices": [
+            96,
+            161
+          ],
+          "source_indices": [
+            95,
+            160
+          ],
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 83,
+          "pair": "VG",
+          "model_indices": [
+            52,
+            129
+          ],
+          "source_indices": [
+            51,
+            128
+          ],
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 84,
+          "pair": "FA",
+          "model_indices": [
+            183,
+            20
+          ],
+          "source_indices": [
+            182,
+            19
+          ],
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 85,
+          "pair": "XX",
+          "model_indices": [
+            75,
+            108
+          ],
+          "source_indices": [
+            74,
+            107
+          ],
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 86,
+          "pair": "FD",
+          "model_indices": [
+            86,
+            151
+          ],
+          "source_indices": [
+            85,
+            150
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 87,
+          "pair": "AV",
+          "model_indices": [
+            31,
+            119
+          ],
+          "source_indices": [
+            30,
+            118
+          ],
+          "domain": "F",
+          "raw": "F"
+        },
+        {
+          "plaintext_index": 88,
+          "pair": "VA",
+          "model_indices": [
+            173,
+            10
+          ],
+          "source_indices": [
+            172,
+            10
+          ],
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 89,
+          "pair": "VF",
+          "model_indices": [
+            64,
+            140
+          ],
+          "source_indices": [
+            63,
+            139
+          ],
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 90,
+          "pair": "VV",
+          "model_indices": [
+            42,
+            97
+          ],
+          "source_indices": [
+            41,
+            96
+          ],
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 91,
+          "pair": "FA",
+          "model_indices": [
+            162,
+            53
+          ],
+          "source_indices": [
+            161,
+            52
+          ],
+          "domain": "E",
+          "raw": "E"
+        }
+      ],
+      "readable_candidate": {
+        "template": "??ERX?K??1?2??OP?NICHTVERSTAENDLICHXXSOLLENFLIEGERABTEILUNGENABFLIEGENXODERHIERBLEIBENXFRAGE",
+        "ciphertext": "A?GXGFXAAAAFDXDXFFVVAFAXFFXFFFAAG?FFAVDXFAVFDAVXVXFAVAFGXXGAAVDXV??XGAXVAFXXDAVAFVXXXAF?GGAXFVVAVVVAXXGAGXAFXADDFDVAVDVVXXVXFAVAAGDAADAVXAFFF??XVDAAVXVDFAFXAAXXVXFVGAAXXVGGGV??AXAVVVGF",
+        "known_coordinate_substitutions": [
+          {
+            "model_index": 14,
+            "source_index": 14,
+            "printed": "G",
+            "from": "G",
+            "to": "D"
+          },
+          {
+            "model_index": 172,
+            "source_index": 171,
+            "printed": "A",
+            "from": "A",
+            "to": "G"
+          }
+        ],
+        "erased_coordinate_fills": [
+          {
+            "model_index": 7,
+            "source_index": 7,
+            "printed": "-",
+            "from": "?",
+            "to": "A"
+          },
+          {
+            "model_index": 17,
+            "source_index": null,
+            "printed": null,
+            "from": "?",
+            "to": "F"
+          },
+          {
+            "model_index": 24,
+            "source_index": 23,
+            "printed": "-",
+            "from": "?",
+            "to": "F"
+          },
+          {
+            "model_index": 34,
+            "source_index": 33,
+            "printed": "-",
+            "from": "?",
+            "to": "F"
+          },
+          {
+            "model_index": 59,
+            "source_index": 58,
+            "printed": "U",
+            "from": "?",
+            "to": "A"
+          },
+          {
+            "model_index": 67,
+            "source_index": 66,
+            "printed": "-",
+            "from": "?",
+            "to": "X"
+          },
+          {
+            "model_index": 68,
+            "source_index": 67,
+            "printed": "-",
+            "from": "?",
+            "to": "G"
+          },
+          {
+            "model_index": 69,
+            "source_index": 68,
+            "printed": "-",
+            "from": "?",
+            "to": "A"
+          },
+          {
+            "model_index": 89,
+            "source_index": 88,
+            "printed": "-",
+            "from": "?",
+            "to": "G"
+          },
+          {
+            "model_index": 103,
+            "source_index": 102,
+            "printed": "-",
+            "from": "?",
+            "to": "A"
+          },
+          {
+            "model_index": 104,
+            "source_index": 103,
+            "printed": "-",
+            "from": "?",
+            "to": "G"
+          },
+          {
+            "model_index": 136,
+            "source_index": 135,
+            "printed": "-",
+            "from": "?",
+            "to": "X"
+          },
+          {
+            "model_index": 147,
+            "source_index": 146,
+            "printed": "-",
+            "from": "?",
+            "to": "A"
+          },
+          {
+            "model_index": 148,
+            "source_index": 147,
+            "printed": "-",
+            "from": "?",
+            "to": "V"
+          },
+          {
+            "model_index": 171,
+            "source_index": 170,
+            "printed": "-",
+            "from": "?",
+            "to": "G"
+          },
+          {
+            "model_index": 176,
+            "source_index": 175,
+            "printed": "-",
+            "from": "?",
+            "to": "A"
+          },
+          {
+            "model_index": 177,
+            "source_index": 176,
+            "printed": "-",
+            "from": "?",
+            "to": "X"
+          }
+        ],
+        "full_plaintext_reencryption_verified": false,
+        "published_key_changed": false,
+        "raw": "??ERX?K??1?2??OP?NICHTVERSTAENDLICHXXSOLLENFLIEGERABTEILUNGENABFLIEGENXODERHIERBLEIBENXFRAGE",
+        "fixed_positions": 83,
+        "positions": [
+          {
+            "plaintext_index": 0,
+            "pair": "?V",
+            "model_indices": [
+              65,
+              98
+            ],
+            "source_indices": [
+              64,
+              97
+            ],
+            "domain": "4FGUYZ",
+            "raw": "?"
+          },
+          {
+            "plaintext_index": 1,
+            "pair": "D?",
+            "model_indices": [
+              76,
+              141
+            ],
+            "source_indices": [
+              75,
+              140
+            ],
+            "domain": "25DJPU",
+            "raw": "?"
+          },
+          {
+            "plaintext_index": 2,
+            "pair": "FA",
+            "model_indices": [
+              21,
+              109
+            ],
+            "source_indices": [
+              20,
+              108
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 3,
+            "pair": "VA",
+            "model_indices": [
+              163,
+              0
+            ],
+            "source_indices": [
+              162,
+              0
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 4,
+            "pair": "FD",
+            "model_indices": [
+              54,
+              130
+            ],
+            "source_indices": [
+              53,
+              129
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 5,
+            "pair": "G?",
+            "model_indices": [
+              32,
+              87
+            ],
+            "source_indices": [
+              31,
+              86
+            ],
+            "domain": "036OQY",
+            "raw": "?"
+          },
+          {
+            "plaintext_index": 6,
+            "pair": "FF",
+            "model_indices": [
+              152,
+              43
+            ],
+            "source_indices": [
+              151,
+              42
+            ],
+            "domain": "K",
+            "raw": "K"
+          },
+          {
+            "plaintext_index": 7,
+            "pair": "X?",
+            "model_indices": [
+              120,
+              174
+            ],
+            "source_indices": [
+              119,
+              173
+            ],
+            "domain": "4CMNST",
+            "raw": "?"
+          },
+          {
+            "plaintext_index": 8,
+            "pair": "F?",
+            "model_indices": [
+              11,
+              66
+            ],
+            "source_indices": [
+              11,
+              65
+            ],
+            "domain": "9EKVXZ",
+            "raw": "?"
+          },
+          {
+            "plaintext_index": 9,
+            "pair": "AA",
+            "model_indices": [
+              99,
+              77
+            ],
+            "source_indices": [
+              98,
+              76
+            ],
+            "domain": "1",
+            "raw": "1"
+          },
+          {
+            "plaintext_index": 10,
+            "pair": "?A",
+            "model_indices": [
+              142,
+              22
+            ],
+            "source_indices": [
+              141,
+              21
+            ],
+            "domain": "1EJORT",
+            "raw": "?"
+          },
+          {
+            "plaintext_index": 11,
+            "pair": "DG",
+            "model_indices": [
+              110,
+              164
+            ],
+            "source_indices": [
+              109,
+              163
+            ],
+            "domain": "2",
+            "raw": "2"
+          },
+          {
+            "plaintext_index": 12,
+            "pair": "?G",
+            "model_indices": [
+              1,
+              55
+            ],
+            "source_indices": [
+              1,
+              54
+            ],
+            "domain": "23BHSV",
+            "raw": "?"
+          },
+          {
+            "plaintext_index": 13,
+            "pair": "A?",
+            "model_indices": [
+              131,
+              33
+            ],
+            "source_indices": [
+              130,
+              32
+            ],
+            "domain": "17FHLW",
+            "raw": "?"
+          },
+          {
+            "plaintext_index": 14,
+            "pair": "GA",
+            "model_indices": [
+              88,
+              153
+            ],
+            "source_indices": [
+              87,
+              152
+            ],
+            "domain": "O",
+            "raw": "O"
+          },
+          {
+            "plaintext_index": 15,
+            "pair": "DX",
+            "model_indices": [
+              44,
+              121
+            ],
+            "source_indices": [
+              43,
+              120
+            ],
+            "domain": "P",
+            "raw": "P"
+          },
+          {
+            "plaintext_index": 16,
+            "pair": "?D",
+            "model_indices": [
+              175,
+              12
+            ],
+            "source_indices": [
+              174,
+              12
+            ],
+            "domain": "0578CX",
+            "raw": "?"
+          },
+          {
+            "plaintext_index": 17,
+            "pair": "XX",
+            "model_indices": [
+              67,
+              100
+            ],
+            "source_indices": [
+              66,
+              99
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 18,
+            "pair": "VX",
+            "model_indices": [
+              78,
+              143
+            ],
+            "source_indices": [
+              77,
+              142
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 19,
+            "pair": "XD",
+            "model_indices": [
+              23,
+              111
+            ],
+            "source_indices": [
+              22,
+              110
+            ],
+            "domain": "C",
+            "raw": "C"
+          },
+          {
+            "plaintext_index": 20,
+            "pair": "AG",
+            "model_indices": [
+              165,
+              2
+            ],
+            "source_indices": [
+              164,
+              2
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 21,
+            "pair": "XA",
+            "model_indices": [
+              56,
+              132
+            ],
+            "source_indices": [
+              55,
+              131
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 22,
+            "pair": "FG",
+            "model_indices": [
+              34,
+              89
+            ],
+            "source_indices": [
+              33,
+              88
+            ],
+            "domain": "V",
+            "raw": "V"
+          },
+          {
+            "plaintext_index": 23,
+            "pair": "FA",
+            "model_indices": [
+              154,
+              45
+            ],
+            "source_indices": [
+              153,
+              44
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 24,
+            "pair": "VA",
+            "model_indices": [
+              122,
+              176
+            ],
+            "source_indices": [
+              121,
+              175
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 25,
+            "pair": "XG",
+            "model_indices": [
+              13,
+              68
+            ],
+            "source_indices": [
+              13,
+              67
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 26,
+            "pair": "XA",
+            "model_indices": [
+              101,
+              79
+            ],
+            "source_indices": [
+              100,
+              78
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 27,
+            "pair": "VF",
+            "model_indices": [
+              144,
+              24
+            ],
+            "source_indices": [
+              143,
+              23
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 28,
+            "pair": "FA",
+            "model_indices": [
+              112,
+              166
+            ],
+            "source_indices": [
+              111,
+              165
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 29,
+            "pair": "XX",
+            "model_indices": [
+              3,
+              57
+            ],
+            "source_indices": [
+              3,
+              56
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 30,
+            "pair": "DF",
+            "model_indices": [
+              133,
+              35
+            ],
+            "source_indices": [
+              132,
+              34
+            ],
+            "domain": "D",
+            "raw": "D"
+          },
+          {
+            "plaintext_index": 31,
+            "pair": "AX",
+            "model_indices": [
+              90,
+              155
+            ],
+            "source_indices": [
+              89,
+              154
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 32,
+            "pair": "VX",
+            "model_indices": [
+              46,
+              123
+            ],
+            "source_indices": [
+              45,
+              122
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 33,
+            "pair": "XD",
+            "model_indices": [
+              177,
+              14
+            ],
+            "source_indices": [
+              176,
+              14
+            ],
+            "domain": "C",
+            "raw": "C"
+          },
+          {
+            "plaintext_index": 34,
+            "pair": "AG",
+            "model_indices": [
+              69,
+              102
+            ],
+            "source_indices": [
+              68,
+              101
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 35,
+            "pair": "FD",
+            "model_indices": [
+              80,
+              145
+            ],
+            "source_indices": [
+              79,
+              144
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 36,
+            "pair": "FD",
+            "model_indices": [
+              25,
+              113
+            ],
+            "source_indices": [
+              24,
+              112
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 37,
+            "pair": "XG",
+            "model_indices": [
+              167,
+              4
+            ],
+            "source_indices": [
+              166,
+              4
+            ],
+            "domain": "S",
+            "raw": "S"
+          },
+          {
+            "plaintext_index": 38,
+            "pair": "GA",
+            "model_indices": [
+              58,
+              134
+            ],
+            "source_indices": [
+              57,
+              133
+            ],
+            "domain": "O",
+            "raw": "O"
+          },
+          {
+            "plaintext_index": 39,
+            "pair": "AX",
+            "model_indices": [
+              36,
+              91
+            ],
+            "source_indices": [
+              35,
+              90
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 40,
+            "pair": "AX",
+            "model_indices": [
+              156,
+              47
+            ],
+            "source_indices": [
+              155,
+              46
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 41,
+            "pair": "FA",
+            "model_indices": [
+              124,
+              178
+            ],
+            "source_indices": [
+              123,
+              177
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 42,
+            "pair": "XX",
+            "model_indices": [
+              15,
+              70
+            ],
+            "source_indices": [
+              15,
+              69
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 43,
+            "pair": "AV",
+            "model_indices": [
+              103,
+              81
+            ],
+            "source_indices": [
+              102,
+              80
+            ],
+            "domain": "F",
+            "raw": "F"
+          },
+          {
+            "plaintext_index": 44,
+            "pair": "AX",
+            "model_indices": [
+              146,
+              26
+            ],
+            "source_indices": [
+              145,
+              25
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 45,
+            "pair": "VX",
+            "model_indices": [
+              114,
+              168
+            ],
+            "source_indices": [
+              113,
+              167
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 46,
+            "pair": "FA",
+            "model_indices": [
+              5,
+              59
+            ],
+            "source_indices": [
+              5,
+              58
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 47,
+            "pair": "VV",
+            "model_indices": [
+              135,
+              37
+            ],
+            "source_indices": [
+              134,
+              36
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 48,
+            "pair": "FA",
+            "model_indices": [
+              92,
+              157
+            ],
+            "source_indices": [
+              91,
+              156
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 49,
+            "pair": "VA",
+            "model_indices": [
+              48,
+              125
+            ],
+            "source_indices": [
+              47,
+              124
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 50,
+            "pair": "VF",
+            "model_indices": [
+              179,
+              16
+            ],
+            "source_indices": [
+              178,
+              16
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 51,
+            "pair": "VG",
+            "model_indices": [
+              71,
+              104
+            ],
+            "source_indices": [
+              70,
+              103
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 52,
+            "pair": "XA",
+            "model_indices": [
+              82,
+              147
+            ],
+            "source_indices": [
+              81,
+              146
+            ],
+            "domain": "T",
+            "raw": "T"
+          },
+          {
+            "plaintext_index": 53,
+            "pair": "FA",
+            "model_indices": [
+              27,
+              115
+            ],
+            "source_indices": [
+              26,
+              114
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 54,
+            "pair": "VX",
+            "model_indices": [
+              169,
+              6
+            ],
+            "source_indices": [
+              168,
+              6
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 55,
+            "pair": "AX",
+            "model_indices": [
+              60,
+              136
+            ],
+            "source_indices": [
+              59,
+              135
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 56,
+            "pair": "DV",
+            "model_indices": [
+              38,
+              93
+            ],
+            "source_indices": [
+              37,
+              92
+            ],
+            "domain": "U",
+            "raw": "U"
+          },
+          {
+            "plaintext_index": 57,
+            "pair": "XX",
+            "model_indices": [
+              158,
+              49
+            ],
+            "source_indices": [
+              157,
+              48
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 58,
+            "pair": "VV",
+            "model_indices": [
+              126,
+              180
+            ],
+            "source_indices": [
+              125,
+              179
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 59,
+            "pair": "FA",
+            "model_indices": [
+              17,
+              72
+            ],
+            "source_indices": [
+              null,
+              71
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 60,
+            "pair": "XX",
+            "model_indices": [
+              105,
+              83
+            ],
+            "source_indices": [
+              104,
+              82
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 61,
+            "pair": "VF",
+            "model_indices": [
+              148,
+              28
+            ],
+            "source_indices": [
+              147,
+              27
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 62,
+            "pair": "VG",
+            "model_indices": [
+              116,
+              170
+            ],
+            "source_indices": [
+              115,
+              169
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 63,
+            "pair": "AV",
+            "model_indices": [
+              7,
+              61
+            ],
+            "source_indices": [
+              7,
+              60
+            ],
+            "domain": "F",
+            "raw": "F"
+          },
+          {
+            "plaintext_index": 64,
+            "pair": "AX",
+            "model_indices": [
+              137,
+              39
+            ],
+            "source_indices": [
+              136,
+              38
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 65,
+            "pair": "VX",
+            "model_indices": [
+              94,
+              159
+            ],
+            "source_indices": [
+              93,
+              158
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 66,
+            "pair": "FA",
+            "model_indices": [
+              50,
+              127
+            ],
+            "source_indices": [
+              49,
+              126
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 67,
+            "pair": "VV",
+            "model_indices": [
+              181,
+              18
+            ],
+            "source_indices": [
+              180,
+              17
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 68,
+            "pair": "FA",
+            "model_indices": [
+              73,
+              106
+            ],
+            "source_indices": [
+              72,
+              105
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 69,
+            "pair": "XX",
+            "model_indices": [
+              84,
+              149
+            ],
+            "source_indices": [
+              83,
+              148
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 70,
+            "pair": "FD",
+            "model_indices": [
+              29,
+              117
+            ],
+            "source_indices": [
+              28,
+              116
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 71,
+            "pair": "GA",
+            "model_indices": [
+              171,
+              8
+            ],
+            "source_indices": [
+              170,
+              8
+            ],
+            "domain": "O",
+            "raw": "O"
+          },
+          {
+            "plaintext_index": 72,
+            "pair": "DF",
+            "model_indices": [
+              62,
+              138
+            ],
+            "source_indices": [
+              61,
+              137
+            ],
+            "domain": "D",
+            "raw": "D"
+          },
+          {
+            "plaintext_index": 73,
+            "pair": "FA",
+            "model_indices": [
+              40,
+              95
+            ],
+            "source_indices": [
+              39,
+              94
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 74,
+            "pair": "VA",
+            "model_indices": [
+              160,
+              51
+            ],
+            "source_indices": [
+              159,
+              50
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 75,
+            "pair": "AG",
+            "model_indices": [
+              128,
+              182
+            ],
+            "source_indices": [
+              127,
+              181
+            ],
+            "domain": "H",
+            "raw": "H"
+          },
+          {
+            "plaintext_index": 76,
+            "pair": "VX",
+            "model_indices": [
+              19,
+              74
+            ],
+            "source_indices": [
+              18,
+              73
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 77,
+            "pair": "FA",
+            "model_indices": [
+              107,
+              85
+            ],
+            "source_indices": [
+              106,
+              84
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 78,
+            "pair": "VA",
+            "model_indices": [
+              150,
+              30
+            ],
+            "source_indices": [
+              149,
+              29
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 79,
+            "pair": "VG",
+            "model_indices": [
+              118,
+              172
+            ],
+            "source_indices": [
+              117,
+              171
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 80,
+            "pair": "AX",
+            "model_indices": [
+              9,
+              63
+            ],
+            "source_indices": [
+              9,
+              62
+            ],
+            "domain": "L",
+            "raw": "L"
+          },
+          {
+            "plaintext_index": 81,
+            "pair": "FA",
+            "model_indices": [
+              139,
+              41
+            ],
+            "source_indices": [
+              138,
+              40
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 82,
+            "pair": "VX",
+            "model_indices": [
+              96,
+              161
+            ],
+            "source_indices": [
+              95,
+              160
+            ],
+            "domain": "I",
+            "raw": "I"
+          },
+          {
+            "plaintext_index": 83,
+            "pair": "VG",
+            "model_indices": [
+              52,
+              129
+            ],
+            "source_indices": [
+              51,
+              128
+            ],
+            "domain": "B",
+            "raw": "B"
+          },
+          {
+            "plaintext_index": 84,
+            "pair": "FA",
+            "model_indices": [
+              183,
+              20
+            ],
+            "source_indices": [
+              182,
+              19
+            ],
+            "domain": "E",
+            "raw": "E"
+          },
+          {
+            "plaintext_index": 85,
+            "pair": "XX",
+            "model_indices": [
+              75,
+              108
+            ],
+            "source_indices": [
+              74,
+              107
+            ],
+            "domain": "N",
+            "raw": "N"
+          },
+          {
+            "plaintext_index": 86,
+            "pair": "FD",
+            "model_indices": [
+              86,
+              151
+            ],
+            "source_indices": [
+              85,
+              150
+            ],
+            "domain": "X",
+            "raw": "X"
+          },
+          {
+            "plaintext_index": 87,
+            "pair": "AV",
+            "model_indices": [
+              31,
+              119
+            ],
+            "source_indices": [
+              30,
+              118
+            ],
+            "domain": "F",
+            "raw": "F"
+          },
+          {
+            "plaintext_index": 88,
+            "pair": "VA",
+            "model_indices": [
+              173,
+              10
+            ],
+            "source_indices": [
+              172,
+              10
+            ],
+            "domain": "R",
+            "raw": "R"
+          },
+          {
+            "plaintext_index": 89,
+            "pair": "VF",
+            "model_indices": [
+              64,
+              140
+            ],
+            "source_indices": [
+              63,
+              139
+            ],
+            "domain": "A",
+            "raw": "A"
+          },
+          {
+            "plaintext_index": 90,
+            "pair": "VV",
+            "model_indices": [
+              42,
+              97
+            ],
+            "source_indices": [
+              41,
+              96
+            ],
+            "domain": "G",
+            "raw": "G"
+          },
+          {
+            "plaintext_index": 91,
+            "pair": "FA",
+            "model_indices": [
+              162,
+              53
+            ],
+            "source_indices": [
+              161,
+              52
+            ],
+            "domain": "E",
+            "raw": "E"
+          }
+        ],
+        "global_completion_witness": {
+          "ciphertext": "AAGXGFXAAAAFDXDXFFVVAFAXFFXFFFAAGAFFAVDXFAVFDAVXVXFAVAFGXXGAAVDXVAAXGAXVAFXXDAVAFVXXXAFAGGAXFVVAVVVAXXGAGXAFXADDFDVAVDVVXXVXFAVAAGDAADAVXAFFFAAXVDAAVXVDFAFXAAXXVXFVGAAXXVGGGVAAAXAVVVGF",
+          "plaintext": "FJERXOKTE112H1OP7NICHTVERSTAENDLICHXXSOLLENFLIEGERABTEILUNGENABFLIEGENXODERHIERBLEIBENXFRAGE",
+          "roundtrip_verified": true,
+          "historical_completion_claim": false
+        }
+      },
+      "all_changed_plaintext_positions": [
+        {
+          "plaintext_index": 17,
+          "raw": "?",
+          "candidate": "N",
+          "source_indices": [
+            66,
+            99
+          ]
+        },
+        {
+          "plaintext_index": 22,
+          "raw": "?",
+          "candidate": "V",
+          "source_indices": [
+            33,
+            88
+          ]
+        },
+        {
+          "plaintext_index": 24,
+          "raw": "?",
+          "candidate": "R",
+          "source_indices": [
+            121,
+            175
+          ]
+        },
+        {
+          "plaintext_index": 25,
+          "raw": "?",
+          "candidate": "S",
+          "source_indices": [
+            13,
+            67
+          ]
+        },
+        {
+          "plaintext_index": 27,
+          "raw": "?",
+          "candidate": "A",
+          "source_indices": [
+            143,
+            23
+          ]
+        },
+        {
+          "plaintext_index": 33,
+          "raw": "?",
+          "candidate": "C",
+          "source_indices": [
+            176,
+            14
+          ]
+        },
+        {
+          "plaintext_index": 34,
+          "raw": "?",
+          "candidate": "H",
+          "source_indices": [
+            68,
+            101
+          ]
+        },
+        {
+          "plaintext_index": 43,
+          "raw": "?",
+          "candidate": "F",
+          "source_indices": [
+            102,
+            80
+          ]
+        },
+        {
+          "plaintext_index": 46,
+          "raw": "?",
+          "candidate": "E",
+          "source_indices": [
+            5,
+            58
+          ]
+        },
+        {
+          "plaintext_index": 51,
+          "raw": "?",
+          "candidate": "B",
+          "source_indices": [
+            70,
+            103
+          ]
+        },
+        {
+          "plaintext_index": 52,
+          "raw": "?",
+          "candidate": "T",
+          "source_indices": [
+            81,
+            146
+          ]
+        },
+        {
+          "plaintext_index": 55,
+          "raw": "?",
+          "candidate": "L",
+          "source_indices": [
+            59,
+            135
+          ]
+        },
+        {
+          "plaintext_index": 59,
+          "raw": "?",
+          "candidate": "E",
+          "source_indices": [
+            null,
+            71
+          ]
+        },
+        {
+          "plaintext_index": 61,
+          "raw": "?",
+          "candidate": "A",
+          "source_indices": [
+            147,
+            27
+          ]
+        },
+        {
+          "plaintext_index": 63,
+          "raw": "?",
+          "candidate": "F",
+          "source_indices": [
+            7,
+            60
+          ]
+        },
+        {
+          "plaintext_index": 71,
+          "raw": "?",
+          "candidate": "O",
+          "source_indices": [
+            170,
+            8
+          ]
+        },
+        {
+          "plaintext_index": 79,
+          "raw": "R",
+          "candidate": "B",
+          "source_indices": [
+            117,
+            171
+          ]
+        }
+      ],
+      "local_gap_comparison": {
+        "scope": "Exactly one gap within or at an edge of the visibly short XFVV group; the proposed body and unresolved opening template remain fixed. This is not a search over all historical plaintexts.",
+        "alternatives": [
+          {
+            "source_boundary": 15,
+            "inserted_model_index": 15,
+            "raw": "??ERX?K??1?2??OP??ICHT?E??T?ENDLI??XXSOLLE??LI?GERI??EI?UNGEN?B?LIEGENX?DERHIERRLEIBENXFRAGE",
+            "fixed_positions": 67,
+            "model_to_source_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              null,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177,
+              178,
+              179,
+              180,
+              181,
+              182
+            ],
+            "observed_coordinate_substitutions": [
+              {
+                "model_index": 14,
+                "source_index": 14,
+                "printed": "G",
+                "from": "G",
+                "to": "D"
+              },
+              {
+                "model_index": 16,
+                "source_index": 15,
+                "printed": "X",
+                "from": "X",
+                "to": "F"
+              },
+              {
+                "model_index": 172,
+                "source_index": 171,
+                "printed": "A",
+                "from": "A",
+                "to": "G"
+              }
+            ],
+            "source_mask_and_inserted_slot_fills": [
+              {
+                "model_index": 7,
+                "source_index": 7,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 15,
+                "source_index": null,
+                "printed": null,
+                "from": "?",
+                "to": "X"
+              },
+              {
+                "model_index": 24,
+                "source_index": 23,
+                "printed": "-",
+                "from": "?",
+                "to": "F"
+              },
+              {
+                "model_index": 34,
+                "source_index": 33,
+                "printed": "-",
+                "from": "?",
+                "to": "F"
+              },
+              {
+                "model_index": 59,
+                "source_index": 58,
+                "printed": "U",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 67,
+                "source_index": 66,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              },
+              {
+                "model_index": 68,
+                "source_index": 67,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 69,
+                "source_index": 68,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 89,
+                "source_index": 88,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 103,
+                "source_index": 102,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 104,
+                "source_index": 103,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 136,
+                "source_index": 135,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              },
+              {
+                "model_index": 147,
+                "source_index": 146,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 148,
+                "source_index": 147,
+                "printed": "-",
+                "from": "?",
+                "to": "V"
+              },
+              {
+                "model_index": 171,
+                "source_index": 170,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 176,
+                "source_index": 175,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 177,
+                "source_index": 176,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              }
+            ],
+            "candidate_ciphertext": "A?GXGFXAAAAFDXDXFFVVAFAXFFXFFFAAG?FFAVDXFAVFDAVXVXFAVAFGXXGAAVDXV??XGAXVAFXXDAVAFVXXXAF?GGAXFVVAVVVAXXGAGXAFXADDFDVAVDVVXXVXFAVAAGDAADAVXAFFF??XVDAAVXVDFAFXAAXXVXFVGAAXXVGGGV??AXAVVVGF",
+            "added_value": "X"
+          },
+          {
+            "source_boundary": 16,
+            "inserted_model_index": 16,
+            "raw": "??ERX?K??1?2??OP??ICHT?E??T?ENDLI??XXSOLLEN?LI?GER???EI?UNGEN?B?LIEGENX?DERHIERRLEIBENXFRAGE",
+            "fixed_positions": 67,
+            "model_to_source_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              null,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177,
+              178,
+              179,
+              180,
+              181,
+              182
+            ],
+            "observed_coordinate_substitutions": [
+              {
+                "model_index": 14,
+                "source_index": 14,
+                "printed": "G",
+                "from": "G",
+                "to": "D"
+              },
+              {
+                "model_index": 172,
+                "source_index": 171,
+                "printed": "A",
+                "from": "A",
+                "to": "G"
+              }
+            ],
+            "source_mask_and_inserted_slot_fills": [
+              {
+                "model_index": 7,
+                "source_index": 7,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 16,
+                "source_index": null,
+                "printed": null,
+                "from": "?",
+                "to": "F"
+              },
+              {
+                "model_index": 24,
+                "source_index": 23,
+                "printed": "-",
+                "from": "?",
+                "to": "F"
+              },
+              {
+                "model_index": 34,
+                "source_index": 33,
+                "printed": "-",
+                "from": "?",
+                "to": "F"
+              },
+              {
+                "model_index": 59,
+                "source_index": 58,
+                "printed": "U",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 67,
+                "source_index": 66,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              },
+              {
+                "model_index": 68,
+                "source_index": 67,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 69,
+                "source_index": 68,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 89,
+                "source_index": 88,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 103,
+                "source_index": 102,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 104,
+                "source_index": 103,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 136,
+                "source_index": 135,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              },
+              {
+                "model_index": 147,
+                "source_index": 146,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 148,
+                "source_index": 147,
+                "printed": "-",
+                "from": "?",
+                "to": "V"
+              },
+              {
+                "model_index": 171,
+                "source_index": 170,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 176,
+                "source_index": 175,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 177,
+                "source_index": 176,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              }
+            ],
+            "candidate_ciphertext": "A?GXGFXAAAAFDXDXFFVVAFAXFFXFFFAAG?FFAVDXFAVFDAVXVXFAVAFGXXGAAVDXV??XGAXVAFXXDAVAFVXXXAF?GGAXFVVAVVVAXXGAGXAFXADDFDVAVDVVXXVXFAVAAGDAADAVXAFFF??XVDAAVXVDFAFXAAXXVXFVGAAXXVGGGV??AXAVVVGF",
+            "added_value": "F"
+          },
+          {
+            "source_boundary": 17,
+            "inserted_model_index": 17,
+            "raw": "??ERX?K??1?2??OP??ICHT?E??T?ENDLI??XXSOLLEN?LI?GERA??EI?UNG?N?B?LIEGENX?DERHIERRLEIBENXFRAGE",
+            "fixed_positions": 67,
+            "model_to_source_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              null,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177,
+              178,
+              179,
+              180,
+              181,
+              182
+            ],
+            "observed_coordinate_substitutions": [
+              {
+                "model_index": 14,
+                "source_index": 14,
+                "printed": "G",
+                "from": "G",
+                "to": "D"
+              },
+              {
+                "model_index": 172,
+                "source_index": 171,
+                "printed": "A",
+                "from": "A",
+                "to": "G"
+              }
+            ],
+            "source_mask_and_inserted_slot_fills": [
+              {
+                "model_index": 7,
+                "source_index": 7,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 17,
+                "source_index": null,
+                "printed": null,
+                "from": "?",
+                "to": "F"
+              },
+              {
+                "model_index": 24,
+                "source_index": 23,
+                "printed": "-",
+                "from": "?",
+                "to": "F"
+              },
+              {
+                "model_index": 34,
+                "source_index": 33,
+                "printed": "-",
+                "from": "?",
+                "to": "F"
+              },
+              {
+                "model_index": 59,
+                "source_index": 58,
+                "printed": "U",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 67,
+                "source_index": 66,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              },
+              {
+                "model_index": 68,
+                "source_index": 67,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 69,
+                "source_index": 68,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 89,
+                "source_index": 88,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 103,
+                "source_index": 102,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 104,
+                "source_index": 103,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 136,
+                "source_index": 135,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              },
+              {
+                "model_index": 147,
+                "source_index": 146,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 148,
+                "source_index": 147,
+                "printed": "-",
+                "from": "?",
+                "to": "V"
+              },
+              {
+                "model_index": 171,
+                "source_index": 170,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 176,
+                "source_index": 175,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 177,
+                "source_index": 176,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              }
+            ],
+            "candidate_ciphertext": "A?GXGFXAAAAFDXDXFFVVAFAXFFXFFFAAG?FFAVDXFAVFDAVXVXFAVAFGXXGAAVDXV??XGAXVAFXXDAVAFVXXXAF?GGAXFVVAVVVAXXGAGXAFXADDFDVAVDVVXXVXFAVAAGDAADAVXAFFF??XVDAAVXVDFAFXAAXXVXFVGAAXXVGGGV??AXAVVVGF",
+            "added_value": "F"
+          },
+          {
+            "source_boundary": 18,
+            "inserted_model_index": 18,
+            "raw": "??ERX?K??1?2??OP??ICHT?E??T?ENDLI??XXSOLLEN?LI?GERA??EI?UNGRN?B?LIE?ENX?DERHIERRLEIBENXFRAGE",
+            "fixed_positions": 67,
+            "model_to_source_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              null,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177,
+              178,
+              179,
+              180,
+              181,
+              182
+            ],
+            "observed_coordinate_substitutions": [
+              {
+                "model_index": 14,
+                "source_index": 14,
+                "printed": "G",
+                "from": "G",
+                "to": "D"
+              },
+              {
+                "model_index": 17,
+                "source_index": 17,
+                "printed": "V",
+                "from": "V",
+                "to": "F"
+              },
+              {
+                "model_index": 172,
+                "source_index": 171,
+                "printed": "A",
+                "from": "A",
+                "to": "G"
+              }
+            ],
+            "source_mask_and_inserted_slot_fills": [
+              {
+                "model_index": 7,
+                "source_index": 7,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 18,
+                "source_index": null,
+                "printed": null,
+                "from": "?",
+                "to": "V"
+              },
+              {
+                "model_index": 24,
+                "source_index": 23,
+                "printed": "-",
+                "from": "?",
+                "to": "F"
+              },
+              {
+                "model_index": 34,
+                "source_index": 33,
+                "printed": "-",
+                "from": "?",
+                "to": "F"
+              },
+              {
+                "model_index": 59,
+                "source_index": 58,
+                "printed": "U",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 67,
+                "source_index": 66,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              },
+              {
+                "model_index": 68,
+                "source_index": 67,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 69,
+                "source_index": 68,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 89,
+                "source_index": 88,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 103,
+                "source_index": 102,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 104,
+                "source_index": 103,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 136,
+                "source_index": 135,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              },
+              {
+                "model_index": 147,
+                "source_index": 146,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 148,
+                "source_index": 147,
+                "printed": "-",
+                "from": "?",
+                "to": "V"
+              },
+              {
+                "model_index": 171,
+                "source_index": 170,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 176,
+                "source_index": 175,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 177,
+                "source_index": 176,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              }
+            ],
+            "candidate_ciphertext": "A?GXGFXAAAAFDXDXFFVVAFAXFFXFFFAAG?FFAVDXFAVFDAVXVXFAVAFGXXGAAVDXV??XGAXVAFXXDAVAFVXXXAF?GGAXFVVAVVVAXXGAGXAFXADDFDVAVDVVXXVXFAVAAGDAADAVXAFFF??XVDAAVXVDFAFXAAXXVXFVGAAXXVGGGV??AXAVVVGF",
+            "added_value": "V"
+          },
+          {
+            "source_boundary": 19,
+            "inserted_model_index": 19,
+            "raw": "??ERX?K??1?2??OP??ICHT?E??T?ENDLI??XXSOLLEN?LI?GERA??EI?UNGRN?B?LIEGENX?DERH?ERRLEIBENXFRAGE",
+            "fixed_positions": 67,
+            "model_to_source_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              null,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177,
+              178,
+              179,
+              180,
+              181,
+              182
+            ],
+            "observed_coordinate_substitutions": [
+              {
+                "model_index": 14,
+                "source_index": 14,
+                "printed": "G",
+                "from": "G",
+                "to": "D"
+              },
+              {
+                "model_index": 17,
+                "source_index": 17,
+                "printed": "V",
+                "from": "V",
+                "to": "F"
+              },
+              {
+                "model_index": 172,
+                "source_index": 171,
+                "printed": "A",
+                "from": "A",
+                "to": "G"
+              }
+            ],
+            "source_mask_and_inserted_slot_fills": [
+              {
+                "model_index": 7,
+                "source_index": 7,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 19,
+                "source_index": null,
+                "printed": null,
+                "from": "?",
+                "to": "V"
+              },
+              {
+                "model_index": 24,
+                "source_index": 23,
+                "printed": "-",
+                "from": "?",
+                "to": "F"
+              },
+              {
+                "model_index": 34,
+                "source_index": 33,
+                "printed": "-",
+                "from": "?",
+                "to": "F"
+              },
+              {
+                "model_index": 59,
+                "source_index": 58,
+                "printed": "U",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 67,
+                "source_index": 66,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              },
+              {
+                "model_index": 68,
+                "source_index": 67,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 69,
+                "source_index": 68,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 89,
+                "source_index": 88,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 103,
+                "source_index": 102,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 104,
+                "source_index": 103,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 136,
+                "source_index": 135,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              },
+              {
+                "model_index": 147,
+                "source_index": 146,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 148,
+                "source_index": 147,
+                "printed": "-",
+                "from": "?",
+                "to": "V"
+              },
+              {
+                "model_index": 171,
+                "source_index": 170,
+                "printed": "-",
+                "from": "?",
+                "to": "G"
+              },
+              {
+                "model_index": 176,
+                "source_index": 175,
+                "printed": "-",
+                "from": "?",
+                "to": "A"
+              },
+              {
+                "model_index": 177,
+                "source_index": 176,
+                "printed": "-",
+                "from": "?",
+                "to": "X"
+              }
+            ],
+            "candidate_ciphertext": "A?GXGFXAAAAFDXDXFFVVAFAXFFXFFFAAG?FFAVDXFAVFDAVXVXFAVAFGXXGAAVDXV??XGAXVAFXXDAVAFVXXXAF?GGAXFVVAVVVAXXGAGXAFXADDFDVAVDVVXXVXFAVAAGDAADAVXAFFF??XVDAAVXVDFAFXAAXXVXFVGAAXXVGGGV??AXAVVVGF",
+            "added_value": "V"
+          }
+        ],
+        "minimum_observed_substitutions": 2,
+        "all_minimum_source_boundaries": [
+          16,
+          17
+        ]
+      }
+    }
+  ],
+  "headers": [
+    "Page heading: 4th NOVEMBER, 1918.",
+    "B) UKH v ZON (4.41 a.m., November ---)",
+    "RICHI-184"
+  ],
+  "limits": [
+    "The source contains 183 slots and advertises 184; a missing coordinate is hypothesized inside or at the edge of the visibly four-slot XFVV group.",
+    "Boundaries 16 and 17 tie for the least observed-coordinate cost among the five possible insertions in that group. Both mappings and raw readings are retained. Boundary 17 is the display convention only.",
+    "The complete first 17 decoded positions remain unedited, including nine unresolved positions and numerical labels. No serial, addressee or office is supplied from grammar.",
+    "Ordinary words in the body are explicit lexical repairs. The certificate proves their exact compatibility and price, not unique historical wording.",
+    "The inquiry asks whether flying units should leave or remain; it does not establish that either action happened. The missing intercept day stays missing.",
+    "The published key is unchanged; no source slot is deleted or reordered. A complete re-encryption witness fills residual masks mechanically and is explicitly nonhistorical.",
+    "Earlier period-key recovery and repository work retain their credit. This is source restoration and editorial repair, not a first-decipherment claim."
+  ]
+}

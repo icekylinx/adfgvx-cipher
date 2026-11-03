@@ -1,0 +1,285 @@
+{
+  "schema": "adfgvx-nov13-congratulation-conditional-frame-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov13-15b",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      4,
+      11,
+      5,
+      14,
+      9,
+      7,
+      16,
+      1,
+      12,
+      15,
+      6,
+      10,
+      3,
+      13,
+      8,
+      2
+    ],
+    "column_count": 16,
+    "square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGC?",
+    "square_rows": [
+      "H??BMU",
+      "F15PX0",
+      "DJLR??",
+      "??S6VO",
+      "NKZ?AW",
+      "ITEGC?"
+    ],
+    "known_cell_count": 28,
+    "missing_plaintext_symbols": "234789QY",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 11,
+        "author": "George Lasry",
+        "date": "2017-02-27"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 244,
+        "pdf_page_1based": 247,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+    ],
+    "baseline_square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+    "baseline_differences": [
+      {
+        "coordinate": "AD",
+        "baseline": "2",
+        "audited": "?"
+      },
+      {
+        "coordinate": "AF",
+        "baseline": "3",
+        "audited": "?"
+      },
+      {
+        "coordinate": "FV",
+        "baseline": "4",
+        "audited": "?"
+      },
+      {
+        "coordinate": "FX",
+        "baseline": "7",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GA",
+        "baseline": "8",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GD",
+        "baseline": "9",
+        "audited": "?"
+      },
+      {
+        "coordinate": "VG",
+        "baseline": "Q",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XX",
+        "baseline": "Y",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-02",
+      "comment": 24,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852772",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "AD",
+          "proposed": "2"
+        },
+        {
+          "row_column": "AF",
+          "proposed": "3"
+        },
+        {
+          "row_column": "FV",
+          "proposed": "4"
+        },
+        {
+          "row_column": "FX",
+          "proposed": "7"
+        },
+        {
+          "row_column": "GA",
+          "proposed": "8"
+        },
+        {
+          "row_column": "GD",
+          "proposed": "9"
+        },
+        {
+          "row_column": "VG",
+          "proposed": "Q"
+        },
+        {
+          "row_column": "XX",
+          "proposed": "Y"
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "p193_F",
+      "printed_page": 193,
+      "source_section": "F",
+      "key_id": "Nov13-15b",
+      "source_rows": [
+        "VVAXV FAXVD FFDFV XXAXV AXDFF XVAVF DFXXA XVDXV",
+        "GGGGA DDFFA VXDAF VFFFD GAVVD FVXGD GVVDX"
+      ],
+      "source_slots": 75,
+      "advertised_length": 75,
+      "native_paired_raw": "JGXVER5EZNEAXRLHEMKNUIL?ICS0RK1AM1OCK",
+      "native_orphan": {
+        "coordinate": "A",
+        "interim_index": 74,
+        "source_index": 27
+      },
+      "conditional_excluded_source_index": 74,
+      "conditional_excluded_value": "X",
+      "conditional_raw": "JTNXKRXEK?XVERLIEHENXGLUECKWUN5CHXSXR",
+      "readable_candidate": "JTNXKRXEK?XVERLIEHENXGLUECKWUNSCHXSXR",
+      "readable_german": "JTN. KR. EK? verliehen. Glueckwunsch. S. R.",
+      "case_path": "cases/people/nov13_conditional_congratulation.md",
+      "expected_substitution": {
+        "source_index": 12,
+        "from": "D",
+        "to": "G"
+      },
+      "endpoint_alternative_exclusions": [
+        0,
+        1,
+        73,
+        74
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "path": "sources/p193_F.png",
+      "printed_page": 193,
+      "pdf_page_1based": 196,
+      "crop_pdf_points": [
+        35,
+        664,
+        515,
+        738
+      ],
+      "render_scale": 4,
+      "sha256": "d8ac2c9bc97a143dda2033ded84bf0140b09b25be57e05fdffe6878a43540acd",
+      "width": 1920,
+      "height": 296,
+      "channels": 3,
+      "rgb_sha256": "fba8b92de3b0da929649cc2828a9d30e0fee5fb70bbcec431e2d021c94eece54",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    },
+    {
+      "path": "sources/p193_date_heading.png",
+      "printed_page": 193,
+      "pdf_page_1based": 196,
+      "crop_pdf_points": [
+        40,
+        150,
+        515,
+        173
+      ],
+      "render_scale": 3,
+      "sha256": "dadc0da56203827dd62543721895d6f12e340b6a9c13aac9f6b00c2a3aac289a",
+      "width": 1425,
+      "height": 69,
+      "channels": 3,
+      "rgb_sha256": "c6598ca5bd673848332c91d265b0ff022145cab577424807b6ac2c89a14fc06f",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "headers": {
+    "p193_F": [
+      "Page heading: 14th NOVEMBER, 1918.",
+      "F) CM v CZ (1.24 a.m., November 13th)",
+      "2.10",
+      "RIZI-75"
+    ]
+  },
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "960a3c0c1ca628ee2b46e37ece20cce2e1dde44d4c988182a6baf48c1ffabfa2"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "limits": [
+    "The source and its header both contain 75 coordinates; no native even frame is claimed.",
+    "The displayed reading is conditional on excluding one observed terminal X before inverse transposition, plus one observed-coordinate substitution.",
+    "Other endpoint exclusions preserve the same congratulation core with different opaque endpoints. The historical error location is not proved unique.",
+    "All 75 received-source and 75 inverse-stage exclusions are priced against the 36 fixed labels of the stated primary candidate; its one unknown label is unconstrained in that comparison. This is a fixed-target sensitivity test, not a language-independent historical uniqueness proof.",
+    "The unknown EK? position comes from an unassigned published key cell, not a missing source glyph. Its domain is 234789QY; no award class or other digit interpretation is selected.",
+    "JTN, KR, EK? and S R are retained without rank, name, award or signatory identification.",
+    "A second, stricter price additionally requires the unknown label to occupy an unassigned square cell; inverse-stage minima are 37 for the unconstrained-label convention and 38 for the domain-enforced convention."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 100–124](../100-124/README.md) · [pp. 150–174 →](../150-174/README.md)
 
-**2 challenge entries and 71 other reviewed entries across 25 printed pages, representing 72 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
+**2 challenge entries and 75 other reviewed entries across 25 printed pages, representing 76 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
 
 Jump to page: [p125](#p125) · [p126](#p126) · [p127](#p127) · [p128](#p128) · [p129](#p129) · [p130](#p130) · [p131](#p131) · [p132](#p132) · [p133](#p133) · [p134](#p134) · [p135](#p135) · [p136](#p136) · [p137](#p137) · [p138](#p138) · [p139](#p139) · [p140](#p140) · [p141](#p141) · [p142](#p142) · [p143](#p143) · [p144](#p144) · [p145](#p145) · [p146](#p146) · [p147](#p147) · [p148](#p148) · [p149](#p149).
 
@@ -153,6 +153,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p138 A1](../../people/osthoff.md) | Osthoff's Turkey posting cancelled, first witness | Missing group supplied by p148; all 121 candidate positions witnessed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p138 A2](../../people/osthoff.md) | Osthoff reassigned to a railway replacement battalion | Shared source garbles; three proposed word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p138 B](../../radio/opposite_end_deciphering.md) | Instruction to decipher first half from front and second half from back; likely 1410(5) reference to p132 B | Conditional 104-slot frame inside 105 received slots; 51/52 raw fixed labels; two equally priced NKJ/NMJ variants; 2 substitutions, 1 invalid-glyph fill, 1 extra transmitted coordinate | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier OCR/insertion candidates distinguished |
+| [p138 C](../../radio/nov6_marine_service_notice.md#p138-c) | Marine service notice: O?MANIE unavailable, with addresses and labels retained | Conditional 286-slot frame excludes one ambiguous masked stroke and adds one final slot; 3 observed substitutions, 4 source-mask fills and 1 added-slot fill; 141/143 fixed edited positions | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p139
 
@@ -211,6 +212,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p144 A2](../../finance/nov6_silk_resale_continuation.md#p144-a2) | Local silk resale continuation corroborates the p136/p152 witnesses | 135/135 native raw positions; 1 coordinate substitution + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior continuation and OCR attribution retained |
+| [p144 B](../../military/nov6_boat_crossing_fragment.md#p144-b) | Troop crossing in boats and a no-further-events ending; opening and place unresolved | Native 192-slot frame; 5 observed-coordinate substitutions and 2 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p144 C1](../../military/nov6_horse_loading_reconnaissance.md#p144-c1) | Ferries and horse loading in aerial reconnaissance; place remains KIAD?VO | 61/71 native raw positions; 5 coordinate substitutions + 8 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior continuation and OCR attribution retained |
 
 ## p145
@@ -236,6 +238,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p146 A](../../radio/kiel_radio_control.md) | Repeat order placing radio stations under officer control | 51/56 raw positions after explicit five-coordinate deletion | Prior body: Childs and Lasry et al.; source edition: icekylinx and GPT-6 Astra Pro (2026) |
+| [p146 C1](../../radio/nov6_tiflis_ringbahn_instruction.md#p146-c1) | Keep November Ringbahn keys and use the November 10 key for December 1. | Conditional 176-slot frame from 174 printed slots; 0 observed substitutions, 0 source-mask fills and 2 added-slot fills; all tied alignments retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier Ringbahn editions retained |
+| [p146 C2](../../radio/nov6_tiflis_ringbahn_instruction.md#p146-c2) | Continue the schedule through December 21 using November 30, and request acknowledgment. | Conditional 192-slot frame from 191 printed slots; 1 observed substitutions, 6 source-mask fills and 1 added-slot fills; all tied alignments retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier Ringbahn editions retained |
 
 ## p147
 

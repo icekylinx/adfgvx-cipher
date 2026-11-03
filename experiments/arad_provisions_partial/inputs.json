@@ -1,0 +1,261 @@
+{
+  "schema": "adfgvx-conditional-two-duplicate-partial-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Arad provisions and strength report: conditional partial recovery",
+  "case": "cases/military/arad_provisions_partial.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p159_A_reviewed.png",
+      "pdf_page_1based": 162,
+      "crop_pdf_points": [
+        35,
+        215,
+        520,
+        353
+      ],
+      "render_scale": 4,
+      "sha256": "df44e121952ade59407fa8b3f3973c8829546794c40008dcee09913ec25f0a7e",
+      "width": 1940,
+      "height": 552,
+      "channels": 3,
+      "rgb_sha256": "26188d7c1ee4b09b083595f095571f60f675bb137ff8b51eee2beb6d341afc8a",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "record": {
+    "id": "p159_A",
+    "printed_page": 159,
+    "source_section": "A",
+    "header_literal": "A) UKS? v ZON (11.12 p.m., November 8th); AN LP 2000 KR; RICHI-272; following control: ZON",
+    "source_rows": [
+      "FDVDD FXAAX XGVDD XADVV XFVXD VDAGG VDAGG ADVDV",
+      "VADDA VDDGV DDGGX GVVGX GVXVG XDDVF VGXXA ADDVV",
+      "FFXDF FFXDF XDXXV DGAGF VDAXV VXDDG VXAAV GDDA",
+      "DVFDX GDGVG VGDDX VXVAG VDVDD DDGVG DXXVX GDDGX",
+      "DDGAA GVAVD VVGAA VGDVD VVDVG GGGDF XGDGD DDDVV",
+      "VFVGF VDGDD VXDAD XDADV GVVVV GDVDD DDVGG VVDGG",
+      "DVVVV VAFVA DXXXV VVVFA FFADV DAXVV FV"
+    ],
+    "source_slots": 271,
+    "advertised_length": 272,
+    "analysis_frame": {
+      "kind": "two_duplicate_groups_excluded_and_eleven_slots_added",
+      "primary_excluded_group_starts": [
+        25,
+        80
+      ],
+      "duplicate_group_alternatives": [
+        [
+          25,
+          30
+        ],
+        [
+          80,
+          85
+        ]
+      ],
+      "single_gap_before_source_index": 118,
+      "first_five_gap_stage_boundary": 15,
+      "second_five_gap_stage_boundary": 110,
+      "stage_definition": "First exclude the selected 5-coordinate instance of each repeated group. Insert one unknown slot before source 118. Both five-slot boundaries are then measured in this 262-slot intermediate stage before either five-slot gap is inserted.",
+      "primary_source_boundary_description": "A five-slot gap before source 15; one slot before source 118 in GDDA; a five-slot gap before source 119 at the end of that printed row.",
+      "initial_fill_claim": false
+    },
+    "expected_raw": "0NOHLXVERPOLEGUNG?OCH14TAGE?10TAGEXX??RPFLEGXEU?GENACHAR??XARADNEI?NGARXREGI?RUNGERWIR?ENXSTAEKE?0000MANNX30000TISREXAOK11XRMX1CX18?GLHX",
+    "edited_output": "ANOHLXVERPFLEGUNGNOCH14TAGEU10TAGEXXVERPFLEGXZUEGENACHARADXARADBEIUNGARXREGIERUNGERWIRKENXSTAEKE?0000MANNX30000TIEREXAOK11XRMX1CX18?GLHX",
+    "readable_german": "An OHL. Verpflegung noch 14 Tage U10 Tage. Verpfleg. Zuege nach Arad. Arad bei ungar. Regierung erwirken. STAEKE ?0000 Mann, 30000 Tiere. AOK11. RM. 1C. 18?GLH.",
+    "meaning": "A conditional provisions report addressed to OHL contains the literal duration labels 14 and 10, a proposal concerning provisions trains to Arad and the Hungarian government, and a field apparently concerning manpower and animals. The transmitted repetitions, abbreviated or damaged words and administrative labels remain; the first strength quantity and footer digit are unresolved.",
+    "expected_substitutions": 6,
+    "expected_inserted_slot_fills": 10,
+    "expected_inserted_slots_unfilled": 1,
+    "protected_fields": [
+      "14",
+      "10",
+      "30000",
+      "11",
+      "1C",
+      "18"
+    ],
+    "quantity_plaintext_index": 96,
+    "reference_plaintext_index": 131,
+    "notes": [
+      "The native 271-slot source retains both VDAGG copies at 25–34 and both FFXDF copies at 80–89. Excluding one instance of each is an explicitly conditional source model, not a transcription correction.",
+      "The primary model excludes 10 valid coordinates and adds 11 new slots. Ten are filled by the word proposal; one remains unknown. No added coordinate comes from an independent parallel witness.",
+      "The two five-slot gaps and the single short-group gap were explored with language heuristics. The subsequent exhaustive six-substitution minimum is conditioned on the stated partial text and constrained family; it does not independently prove that layout or historical wording.",
+      "The same-length wording retains U, the repeated ARAD, STAEKE and the footer 1C18?GLH. A missing R is not silently inserted into STAEKE. No numerical label is repaired to a preferred historical quantity.",
+      "Across tied layouts, 48 source mappings retain literal P0000, while 16 leave the leading symbol in ?0000 open. Their linked domain includes letters as well as digits and is preserved; the primary display chooses no specific count.",
+      "Source reception is 11.12 p.m., November 8. The literal question mark in UKS? belongs to the printed header, rather than the cipher plaintext mask notation."
+    ]
+  },
+  "search_family": {
+    "canonical_duplicate_starts": [
+      25,
+      80
+    ],
+    "one_coordinate_source_boundaries": [
+      115,
+      116,
+      117,
+      118,
+      119
+    ],
+    "stage_length": 262,
+    "ordered_five_gap_boundaries": [
+      0,
+      262
+    ],
+    "allow_coincident_five_gap_boundaries": true,
+    "canonical_evaluations": 173580,
+    "duplicate_instance_branches": 4,
+    "source_labeled_models": 694320,
+    "expected_minimum_substitutions": 6,
+    "expected_canonical_minimizing_maps": 16,
+    "expected_source_labeled_minimizing_maps": 64,
+    "expected_price_sha256": "8786c6d652486e782e6a5b5614fbbe7b89710345d2263d6ca131a23bf7601da1",
+    "hash_format": "For canonical exclusions, append UTF-8 lines one,a,b,cost\\n in ascending one-coordinate source boundary, first stage boundary and second stage boundary.",
+    "target_constraints": "All stated plaintext labels are fixed except the leading strength symbol at 96. The footer unknown at 131 remains the existing VF cell; its pair is constrained without selecting 5/6. Strength index 96 retains ?A, leaving its row coordinate unconstrained."
+  },
+  "prior_artifacts": {
+    "ocr_snapshot.json": "02daf0f7c6c3329530a9bdfe268dea3093db19b135d68e4b80c321eb26049d57",
+    "prior_candidates.json": "e9a1f649888f37b924f694fe18a11d0972fed876c2e51be6624d2b2e23aa3f97",
+    "exploration.json": "c0a5e7d56b7613faa2ead214ee1f68132a0c7157adf64d1847f19ac5d7c5d80a"
+  },
+  "prior_credit": "Published period key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and explicitly recomputed unchanged-key diagnostics are retained. Source review, conditional partial reading and source-map audit: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "This is a conditional partial recovery, with 10 excluded valid coordinates, 11 added slots and 6 substitutions. It is not a clean native decode or an independently witnessed full reconstruction.",
+    "The 173580 canonical gap comparisons optimize compatibility with one explicitly stated partial text; other wordings or error mechanisms are not excluded.",
+    "Both choices in each repeated group and all tied gap placements are retained. A selected display map is not a uniquely identified historical omission mechanism.",
+    "The first quantity can retain P0000 or a source-compatible leading symbol in {3,4,5,6,8,P,V}; neither a numeric interpretation nor a historical count is selected.",
+    "If the quantity leading symbol uses cell XA and is 5/6, the footer at VF must use the other digit. All global completions preserve that linkage."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

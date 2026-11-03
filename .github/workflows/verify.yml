@@ -20,6 +20,10 @@ jobs:
       - uses: actions/setup-python@v7.1.0
         with:
           python-version: ${{ matrix.python }}
+      - name: Install source-evidence verification dependencies
+        run: python -m pip install -r requirements-source-evidence.txt
+      - name: Verify source-evidence modes fail closed
+        run: python -m unittest discover -s tests -p test_source_evidence.py
       - name: Recompute core source and cipher certificates
         run: python -m adfgvx.verify
       - name: Check the challenge and wider-corpus reading tables
@@ -37,12 +41,14 @@ jobs:
           python data/reviews/verify_live_readable_mappings.py
           python experiments/p136_source_glyph_correction/verify.py --verify
           python experiments/p105_optional_two_deletions/verify.py --verify
+          python experiments/p132_optional_address/verify.py --verify
+          python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/p132_optional_address_readable_mapping_20261103.json
           python data/reviews/verify_catalog_source_overlaps.py
+          python data/reviews/verify_continuation_source_counts.py --verify
           python experiments/p63_optional_technical_reading/verify.py --verify
           python experiments/p137_optional_staff_vocabulary/verify.py --verify
           python experiments/p116_optional_route_fragment/verify.py --verify
-          python experiments/p132_optional_address/verify.py --verify
-          python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/p132_optional_address_readable_mapping_20261103.json
+          python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/live_readable_mappings_20261103_continuation.json
           python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/complete_displays_readable_mappings_20261103.json
           python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_complete_displays_before.json --audit data/reviews/reading_conventions_complete_displays_audit.json
           python data/reviews/verify_table_readable_mappings.py
@@ -189,6 +195,38 @@ jobs:
           python experiments/nov9_urgent_embassy_address/verify.py --verify
           python experiments/odd_fragment_diagnostics/verify.py --verify
           python experiments/nov8_radio_keys_and_reports/parallel_witnesses.py --verify
+          python experiments/poti_first_part_conditional/verify.py --verify
+          python experiments/odessa_courier_pretransposition/verify.py --verify
+          python experiments/nov30_aviation_march_destination/verify.py --verify
+          python experiments/nov9_wire_return_source_family/verify.py --verify
+          python experiments/september19_pigeons_and_command/verify.py --verify
+          python experiments/nov11_romanian_mobilization_report/verify.py --verify
+          python experiments/nov12_seifert_additional_witnesses/verify.py --verify
+          python experiments/nov9_operations_map_sheets/verify.py --verify
+          python experiments/p109_optional_duplicate_pair/verify.py --verify
+          python experiments/childs_instructional_examples/verify.py --verify
+          python data/reviews/verify_childs_material_coverage.py --verify
+          python experiments/arad_provisions_partial/verify.py --verify
+          python experiments/nov7_danube_and_message_reports/verify.py --verify
+          python experiments/nov2_nikolajew_acknowledgment/verify.py --verify
+          python experiments/nov6_boat_crossing_fragment/verify.py --verify
+          python experiments/nov6_tiflis_ringbahn_instruction/verify.py --verify
+          python experiments/nov3_poti_tobacco_loading/verify.py --verify
+          python experiments/nov4_flying_unit_inquiry/verify.py --verify
+          python experiments/nov6_marine_service_notice/verify.py --verify
+          python experiments/nov3_eilvese_traffic_schedule/verify.py --verify
+          python experiments/nov22_reverse_keys_and_date_correction/verify.py --verify
+          python experiments/nov15_radio_personnel_and_key_notice/verify.py --verify
+          python experiments/nov27_ships_and_vehicle_sale/verify.py --verify
+          python experiments/baku_personnel_inquiry/verify.py --verify
+          python experiments/nov9_crown_airlift_and_embassy/verify.py --verify
+          python experiments/nov7_8_embassy_address_parts/verify.py --verify
+          python experiments/nov8_serbian_cavalry_parallel/verify.py --verify
+          python experiments/return_time_and_vehicle_attempt/verify.py --verify
+          python experiments/group_security_measures_fragment/verify.py --verify
+          python experiments/brasso_money_alternative_route/verify.py --verify
+          python experiments/nov3_bucharest_power_source/verify.py --verify
+          python experiments/nov13_congratulation_conditional_frame/verify.py --verify
           python experiments/radio_relay_and_march_notice/verify.py --verify
           python experiments/mmd_command_whereabouts/verify.py --verify
           python experiments/nov18_negotiation_repetition/verify.py --verify

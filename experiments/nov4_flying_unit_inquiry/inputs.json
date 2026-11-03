@@ -1,0 +1,169 @@
+{
+  "schema": "adfgvx-flying-unit-inquiry-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "cases/military/nov4_flying_unit_inquiry.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p124_B_reviewed.png",
+      "printed_page": 124,
+      "pdf_page_1based": 127,
+      "crop_pdf_points": [
+        60,
+        596,
+        545,
+        735
+      ],
+      "render_scale": 3,
+      "sha256": "3e1a049b6e4882f46e9e6ed2246c4a387cfd3bb1530dca7d534252a770b90756",
+      "width": 1455,
+      "height": 417,
+      "rgb_sha256": "7fdf410a36f46845e70cdb6bb8e3c30027703903bfdc8a159c53ff0bf9eeedcc",
+      "channels": 3,
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "records": [
+    {
+      "id": "p124_B",
+      "printed_page": 124,
+      "source_section": "B",
+      "source_rows": [
+        "A-GXG FX-AA AFDXG XFVV AFAX- FXFFF AAG-- FAVDX",
+        "FAVFD AVXVX FAVAF GXXGU AVDXV ----- XVAFX XDAVA",
+        "FVXXX AF-G- AXFVV AVVVA XXG-- XAFXA DDFDV AVDVV",
+        "XXVXF AVAAG DAADA V-AFF F--XV DA--X VDFAF XAAXX",
+        "VXFVG AAXXV G-AV- ---AV VVGF"
+      ],
+      "source_slots": 183,
+      "advertised_length": 184,
+      "analysis_frame": {
+        "insert_unknown_at_source_boundary": 17,
+        "all_local_boundaries": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "tied_minimum_boundaries": [
+          16,
+          17
+        ],
+        "primary_choice_only": true
+      },
+      "expected_raw": "??ERX?K??1?2??OP??ICHT?E??T?ENDLI??XXSOLLEN?LI?GERA??EI?UNG?N?B?LIEGENX?DERHIERRLEIBENXFRAGE",
+      "readable_candidate": "??ERX?K??1?2??OP?NICHTVERSTAENDLICHXXSOLLENFLIEGERABTEILUNGENABFLIEGENXODERHIERBLEIBENXFRAGE",
+      "readable_german": "??ERX?K??1?2??OP?. Nicht verstaendlich. Sollen Fliegerabteilungen abfliegen oder hierbleiben. Frage.",
+      "protected_prefix": "??ERX?K??1?2??OP?"
+    }
+  ],
+  "headers": [
+    "Page heading: 4th NOVEMBER, 1918.",
+    "B) UKH v ZON (4.41 a.m., November ---)",
+    "RICHI-184"
+  ],
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "prior_artifacts": {
+    "ocr_snapshot.json": "cfbb37ab8102bb42b71a993393620ae1d7293ad3f5e6841419a7e8673ebaed94",
+    "prior_candidates.json": "3f893ebc7fe3f2d3bc371a62f4f36c60b5084eedfa3a82e78dd0bc4408519087"
+  },
+  "limits": [
+    "The source contains 183 slots and advertises 184; a missing coordinate is hypothesized inside or at the edge of the visibly four-slot XFVV group.",
+    "Boundaries 16 and 17 tie for the least observed-coordinate cost among the five possible insertions in that group. Both mappings and raw readings are retained. Boundary 17 is the display convention only.",
+    "The complete first 17 decoded positions remain unedited, including nine unresolved positions and numerical labels. No serial, addressee or office is supplied from grammar.",
+    "Ordinary words in the body are explicit lexical repairs. The certificate proves their exact compatibility and price, not unique historical wording.",
+    "The inquiry asks whether flying units should leave or remain; it does not establish that either action happened. The missing intercept day stays missing.",
+    "The published key is unchanged; no source slot is deleted or reordered. A complete re-encryption witness fills residual masks mechanically and is explicitly nonhistorical.",
+    "Earlier period-key recovery and repository work retain their credit. This is source restoration and editorial repair, not a first-decipherment claim."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

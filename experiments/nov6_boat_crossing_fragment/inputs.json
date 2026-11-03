@@ -1,0 +1,211 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Troop crossing in boats: a fragmentary November 6 report",
+  "case": "cases/military/nov6_boat_crossing_fragment.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p144_reviewed.png",
+      "pdf_page_1based": 147,
+      "crop_pdf_points": [
+        60,
+        406,
+        545,
+        546
+      ],
+      "render_scale": 3,
+      "sha256": "1de40fd720469cb6e9b35a9f33850570dbc571ff145e891ef4b0c7e66894d537",
+      "width": 1455,
+      "height": 420,
+      "channels": 3,
+      "rgb_sha256": "e7ebc07406dd36577c2f9d3644c4aad19a0d391ac8b09e3f4d00a0a071fd06db",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "keys": {
+    "Nov4-6": {
+      "id": "Nov4-6",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ],
+      "column_count": 17,
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "square_rows": [
+        "17WHFL",
+        "J5D2UP",
+        "EXKVZ9",
+        "O0Q3Y6",
+        "R8ABGI",
+        "TCMS4N"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 240,
+          "pdf_page_1based": 243,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [
+        "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+      ],
+      "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  },
+  "records": [
+    {
+      "id": "p144_B",
+      "key_id": "Nov4-6",
+      "title": "Troop crossing in boats and a no-further-events ending; opening and place unresolved",
+      "header_literal": "B) UKS v ZON (---- November 7th); RICHI-192; page heading 6th NOVEMBER, 1918",
+      "edited_output": "SOCSTDENVU4RONEE4HEXXLUHLEGKU?GXUEBERSETZENVONTRUPPENXINBOOTENBEIBRFIRBD9SONSTNICHTSWESENTLICHES",
+      "readable_german": "SOCSTDENVU4RONEE4HE. LUHLEGKU?G. Uebersetzen von Truppen in Booten bei BRFIRBD9. Sonst nichts Wesentliches.",
+      "meaning": "The ordinary-word proposal describes troops crossing in boats and ends with nothing further of significance. The preceding 19-label field, the LUHLEGKU?G token and the place-like BRFIRBD9 remain uninterpreted; no particular river, town, formation or successful crossing is independently established.",
+      "protected_fields": [
+        "SOCSTDENVU4RONEE4HE",
+        "LUHLEGKU?G",
+        "BRFIRBD9"
+      ],
+      "notes": [
+        "The proposal repairs only five ordinary-word labels and fills two source-mask coordinates; the exact coordinate cost is listed in the certificate. No source position or key cell is changed without pricing.",
+        "The opening, the apparent reconnaissance token and the place-like string remain exactly as decoded. Their appearance in the readable display does not turn them into accepted German words.",
+        "The date heading and November 7 intercept header are both retained. The adjacent p144 C1 aerial report is a separate physical record; thematic proximity does not join their plaintexts.",
+        "The literal 4 and 9 labels in the opaque fields are retained. They are not relabeled as letters, separators or historical numbers to make an assumed geographical interpretation fit."
+      ],
+      "printed_page": 144,
+      "source_section": "B",
+      "source_rows": [
+        "GGD-G XXFFX XFVFA XXDVX FAXVF FVAFX VXFGD XDVXA",
+        "VXXGA AFGDV DAVAX XXAAX FAXAF -FXGA AVDFA VGFFG",
+        "VFVFG VAVAX AFFVF ADGVG XXGDG VGFAF XXAFD VDDAX",
+        "DVGVA XAAVF XGAXG XAXXV AVXVX AAAXA FAGXX AXGXF",
+        "AADFV GGGAV XAFVX XVGDX XXXXF ADAAX -D"
+      ],
+      "source_slots": 192,
+      "advertised_length": 192,
+      "expected_raw": "SOCSTDENVU4RONEE4HEXXLUHLEGKU?GXUEBERSETZECVONTRUPPEIXINBOOJENBEIBRFIRBD9SONSTNI?HTS?ESENELICWES",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 5,
+      "expected_source_mask_fills": 2
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "37cf408ebfe3e673734a1421d298a5bdbf53b31caeef14c2e75245f9bfb69f26",
+    "ocr_snapshot.json": "7ac01f00a2fd07cd42a539fc369fb1df6a83b4101b1056d5dd805f903f010eb3"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ],
+  "optional_opening_proposal": {
+    "record": "p144_B",
+    "primary_prefix": "SOCSTDENVU4RONEE4HE",
+    "proposed_prefix": "SONSTDONAUFRONTRUHE",
+    "template": "SONSTDONAUFRONTRUHEXXLUHLEGKU?GXUEBERSETZENVONTRUPPENXINBOOTENBEIBRFIRBD9SONSTNICHTSWESENTLICHES",
+    "readable_german": "Sonst Donaufront Ruhe. LUHLEGKU?G. Uebersetzen von Truppen in Booten bei BRFIRBD9. Sonst nichts Wesentliches.",
+    "additional_observed_coordinate_substitutions": 8,
+    "additional_source_mask_fills": 0,
+    "included_in_primary_totals": false,
+    "assumption": "The garbled nineteen-position opening is the ordinary-language phrase SONST DONAUFRONT RUHE. No independent copy is claimed to witness it.",
+    "limits": [
+      "This replaces seven raw output labels through eight additional changes to observed source coordinates.",
+      "The literal square is unchanged; the two 4 labels in the proposed prefix are repaired through source changes only within this optional hypothesis.",
+      "LUHLEGKU?G and BRFIRBD9 remain unresolved and unchanged. No town, formation, crossing location or action outcome is identified."
+    ]
+  },
+  "independent_formula_support": {
+    "input_path": "experiments/early_radio_and_leave_records/inputs.json",
+    "input_sha256": "c870f0edb34a902618b4fdf92c7450de9c7fee9d3dfdd522aa5fd65d79fc42e7",
+    "record": {
+      "id": "p127_A3",
+      "printed_page": 127,
+      "source_section": "A3",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "----- ----- FAXAF FFAXX VDXAA VXXDX AXAXX FGFVX",
+        "DGFAV XAFFA DDFGF FVAVD FFAVV ADXFG DFXDX DADDF",
+        "AAAFV XVGFG AAXXG VDXDD FFVXG XGVDV AAAXV FGAAX",
+        "XVAGX VADGX FAAVV DFDAX XXAXD XFVFV FAFAV GXXFD",
+        "FVVAV DXAFF DVDFX FGFGX AFFVA VVADD VAXFA AAXXX"
+      ],
+      "source_slots": 200,
+      "advertised_length": 200,
+      "expected_raw": "211?IVDXMARS?HIERCBI?9X11XINR?UMUMTIT?LCXAXHXQ?X5X11XN?GQBECSER?KXXLUFT?UFKLAERU?ZNICHTSWESENTLICHES",
+      "readable_candidate": "211?IVDXMARSCHIERTBIS9X11XINRAUMUMTITELCXAXHXQ?X5X11XN?GQBECSER?KXXLUFTAUFKLAERUNGNICHTSWESENTLICHES",
+      "readable_german": "211?IVD marschiert bis 9 / 11 in Raum um TITELC. A. H. Q? 5 / 11 N?GQBECSER?K. Luftaufklaerung nichts Wesentliches.",
+      "case_path": "cases/military/nov4_march_air_reconnaissance.md",
+      "title": "March report and aerial reconnaissance with unresolved unit and place",
+      "meaning": "The proposal reports a march by the unresolved unit label 211?IVD into the area around literal TITELC by 9/ 11. An A H Q? / 5/ 11 /N?GQBECSER?K clause follows. The aerial reconnaissance clause reports nothing substantial. No place, unit or missing interception day is silently supplied.",
+      "reading_note": "The two five-dash groups occupy ten explicit source slots. The proposal fills six of them and changes two observed coordinates. Four plaintext positions remain unknown: one in the unit, one in Q?, and two in N?GQBECSER?K. TITELC remains literal, including its final C. The source omits the interception day; the plaintext date-like labels do not supply it.",
+      "expected_costs": [
+        2,
+        6
+      ]
+    },
+    "text": "NICHTSWESENTLICHES",
+    "scope": "An independently fixed raw occurrence of the same routine phrase. It supports the proposed wording as an attested formula, not an identical-message or common-event claim. It does not support the optional nineteen-position opening."
+  },
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

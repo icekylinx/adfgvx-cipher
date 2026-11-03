@@ -11,12 +11,12 @@ Each case opens with the most useful readable text or the present limits of reco
 
 | Topic | Reviewed entries | Additional physical sources | Case pages |
 |---|---:|---:|---:|
-| [Caucasus administration and procurement](caucasus/README.md) | 43 | 43 | 15 |
-| [Ships, cargo and naval orders](naval/README.md) | 40 | 40 | 15 |
-| [Armies, withdrawal and supplies](military/README.md) | 227 | 227 | 81 |
-| [Radio service, keys and message routing](radio/README.md) | 169 | 168 | 70 |
-| [Money, banking and purchases](finance/README.md) | 45 | 45 | 20 |
-| [People, appointments and civilian affairs](people/README.md) | 53 | 53 | 30 |
+| [Caucasus administration and procurement](caucasus/README.md) | 45 | 45 | 17 |
+| [Ships, cargo and naval orders](naval/README.md) | 43 | 43 | 17 |
+| [Armies, withdrawal and supplies](military/README.md) | 239 | 239 | 89 |
+| [Radio service, keys and message routing](radio/README.md) | 200 | 199 | 84 |
+| [Money, banking and purchases](finance/README.md) | 50 | 50 | 22 |
+| [People, appointments and civilian affairs](people/README.md) | 54 | 54 | 31 |
 
 These topic guides cover every other reviewed catalogue entry. Additional physical sources exclude registered later editions of challenge sources. The page-number index below also retains all 22 original challenge entries.
 <!-- TOPIC-NAVIGATION:END -->
@@ -52,22 +52,22 @@ These retain all original challenge identifiers. Page numbers alone do not ident
 | [pp. 175–199](pages/175-199/README.md) | 6 | [p176a](p176a.md), [p176b](p176b.md), [p187](p187.md), [p187b](p187b.md), [p189](p189.md), [p198](p198.md) |
 | [pp. 200–224](pages/200-224/README.md) | 2 | [p215](p215.md), [p217](p217.md) |
 
-### Other ciphertexts — 577 reviewed entries
+### Other ciphertexts — 631 reviewed entries
 
 Multipart messages and repeated transmissions have separate source records even when they share a case page. Direct readings, source-supported reconstructions and conjectural repairs keep their stated limits in the detailed page tables.
 
-The 599 catalogue entries represent 598 unique physical sources, including 576 beyond the challenge set. 1 later-edition entry shares an already catalogued source; [the exact overlap and counting rule](../docs/catalogue-source-overlaps.md) preserve both editions and the earlier credit.
+The 653 catalogue entries represent 652 unique physical sources, including 630 beyond the challenge set. 1 later-edition entry shares an already catalogued source; [the exact overlap and counting rule](../docs/catalogue-source-overlaps.md) preserve both editions and the earlier credit.
 
 | Printed source pages | Reviewed entries | Pages represented |
 |---|---:|---:|
-| [pp. 50–74](pages/050-074/README.md) | 40 | 17 |
+| [pp. 50–74](pages/050-074/README.md) | 44 | 18 |
 | [pp. 75–99](pages/075-099/README.md) | 63 | 25 |
-| [pp. 100–124](pages/100-124/README.md) | 85 | 25 |
-| [pp. 125–149](pages/125-149/README.md) | 71 | 25 |
-| [pp. 150–174](pages/150-174/README.md) | 95 | 25 |
-| [pp. 175–199](pages/175-199/README.md) | 88 | 24 |
-| [pp. 200–224](pages/200-224/README.md) | 107 | 25 |
-| [pp. 225–249](pages/225-249/README.md) | 28 | 6 |
+| [pp. 100–124](pages/100-124/README.md) | 91 | 25 |
+| [pp. 125–149](pages/125-149/README.md) | 75 | 25 |
+| [pp. 150–174](pages/150-174/README.md) | 117 | 25 |
+| [pp. 175–199](pages/175-199/README.md) | 100 | 25 |
+| [pp. 200–224](pages/200-224/README.md) | 112 | 25 |
+| [pp. 225–249](pages/225-249/README.md) | 29 | 6 |
 
 The catalogue covers source-reviewed records with published reading evidence; the wider OCR search pool contains additional unreviewed ciphertext candidates. Earlier authors retain their credits. Current source review and new research use **icekylinx and GPT-6 Astra Pro**; a review credit does not assert first-decipherment priority.
 <!-- READING-CATALOG:END -->

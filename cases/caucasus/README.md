@@ -4,12 +4,13 @@
 
 Read the October staffing, supply and purchasing exchanges with Tiflis, followed by the Polish representative appointment and later armistice instructions.
 
-**43 reviewed entries across 15 case pages, representing 43 physical sources; 43 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**45 reviewed entries across 17 case pages, representing 45 physical sources; 45 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
 | Case | Reviewed entries |
 |---|---|
+| [Poti horse transport: a conditional first-part edition](poti_first_part_conditional.md) | p59 A1 |
 | [Horses for a cavalry brigade: Poti shipment and handover inquiry](poti_horse_delivery.md) | p59 A2, p59 A3 |
 | [October routing, weather and personnel requests](october_requests.md) | p62 A, p62 B, p63 A, p65 A |
 | [Oil stocks and production: the Nobel and Hagelin message](nobel_oil_inquiry.md) | p64 A1, p64 A2 |
@@ -22,6 +23,7 @@ Read the October staffing, supply and purchasing exchanges with Tiflis, followed
 | [Caucasus ammunition: a request for loading instructions](caucasus_ammunition_loading.md) | p102 C |
 | [p152 — Silk purchases and transport from the Caucasus](../p152.md) | p136 B1, p136 B2, p152 E2 |
 | [The Caucasus K.M. representative is to remain](representative_retention.md) | p142 B |
+| [Baku personnel inquiry: a duplicated-block reconstruction](baku_personnel_inquiry.md) | p185 B |
 | [A Polish representative in Tiflis — p199 preamble and p192 parts 2 and 3](tiflis_appointment.md) | p192 part 2, p192 part 3, p199 unlettered part 1 |
 | [A truncated copy of the Tiflis armistice notice](p212_p218_crosscopy.md) | p212 A2 |
 | [p218 A - Kress, Tiflis and the armistice withdrawal condition](p218_A.md) | p218 A1, p218 A2, p218 A3 |
@@ -30,6 +32,7 @@ Read the October staffing, supply and purchasing exchanges with Tiflis, followed
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p59 A1](poti_first_part_conditional.md) | Poti horse transport: conditional first-part reading | Conditional225-to220 frame; all21 minimum five-exclusion maps;103/110 raw-fixed and105/110 after five substitutions/two fills; names and opening unresolved | icekylinx and GPT-6 Astra Pro (2026); unchanged published Sep19–21 key; earlier source edition retained |
 | [p59 A2](poti_horse_delivery.md#p59-a2) | Poti shipment for cavalry brigade and request for instructions | Native220 slots;11 observed substitutions+3 dash fills; opaque ending retained | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; earlier partial A2 repository candidate retained |
 | [p59 A3](poti_horse_delivery.md#p59-a3) | Poti horse handover and urgent reply to an earlier radio message | Native230 slots;9 observed substitutions+23 dash fills;8 reference positions remain unknown | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; earlier partial A2 repository candidate retained |
 | [p62 A](october_requests.md#p62-a--sofia-leaves-the-ringbahnverkehr) | Sofia leaves the Ringbahnverkehr; clear acknowledgment annotations retained | 62/62 raw positions; exact source frame; no repair | icekylinx and GPT-6 Astra Pro (2026) |
@@ -66,6 +69,7 @@ Read the October staffing, supply and purchasing exchanges with Tiflis, followed
 | [p136 B2](../p152.md#raw-continuation-witnesses) | Resell goods whose transport is not assured | Continuation; one coordinate supplied by a parallel | icekylinx and GPT-6 Astra Pro (2026) |
 | [p142 B](representative_retention.md) | Caucasus BEV K.M. representative at Tiflis is to remain; reference fields retained | 143/143 fixed raw labels; 3 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p152 E2](../p152.md#raw-continuation-witnesses) | Parallel continuation of the silk instruction | Direct raw reading with residual garbles | icekylinx and GPT-6 Astra Pro (2026) |
+| [p185 B](baku_personnel_inquiry.md#p185-b) | Inquiry about the fate of army personnel in Baku | Conditional 268-slot frame from 279 printed slots; 11 observed-coordinate exclusions, 10 substitutions and 1 source-mask fill; two reference-coupling alternatives retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p192 part 2](tiflis_appointment.md) | Appointment of a Polish representative for the Caucasus | 115/115 raw positions; ordinary word and country spelling separately costed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p192 part 3](tiflis_appointment.md) | Appointment instructions sent through a courier; conditional TYDELSKI identification | Unique five-coordinate gap; 114/116 after word repairs; conditional FX=Y | icekylinx and GPT-6 Astra Pro (2026) |
 | [p199 unlettered part 1](tiflis_appointment.md) | Forwarding a Polish appointment telegram through von Kress to Waclaw v. Ostrowski in Tiflis | 131-position source preamble; uniquely placed floating group; two reference cells unresolved; cross-page association explicit | icekylinx and GPT-6 Astra Pro (2026) |

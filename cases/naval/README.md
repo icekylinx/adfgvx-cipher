@@ -4,7 +4,7 @@
 
 Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and naval orders are collected here.
 
-**40 reviewed entries across 15 case pages, representing 40 physical sources; 40 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**43 reviewed entries across 17 case pages, representing 43 physical sources; 43 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -13,6 +13,7 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [Gerlach oil-release inquiry: the overprinted parallel](gerlach_oil_release_query.md) | p83 A |
 | [p84 A/B — Release of oil and Black Sea shipping safety](p84_AB.md) | p84 A, p84 B |
 | [p89_A2 — supplementary source review](../supplementary/p89_A2.md) | p89 A2 |
+| [Tobacco ready for loading at Poti: a November 3 inquiry](nov3_poti_tobacco_loading.md) | p113 C |
 | [p120 / p123 - Three-part instruction to Feigenhaus](p120_p123.md) | p120 B1, p122 D suffix, p123 A2, p123 A3 |
 | [Constantinople: instruction to attempt a motorboat sale](motorboat_sale_attempt.md) | p147 A |
 | [p155: the Kress-route shipping message](../context/p155.md) | p155 A1, p155 A2 |
@@ -25,6 +26,7 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [p210 A — Helsinki and return transport for the Ostsee Division](p210_A.md) | p210 A1, p210 A2 |
 | [Reval: expected steamers and further transport capacity](reval_steamer_notice.md) | p213 A1, p213 A2, p213 A3 |
 | [Urgent shipping capacity and probable reliance on sea transport](urgent_shipping_space.md) | p218 B2, p218 B3 |
+| [November 27: Helsingfors shipping and a vehicle-sale instruction](nov27_ships_and_vehicle_sale.md) | p223 B, p223 C |
 
 ## Reviewed source records
 
@@ -34,6 +36,7 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [p84 A](p84_AB.md) | Ask whether Izzet Pasha's order to release oil succeeded | 122/122 raw positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
 | [p84 B](p84_AB.md) | Request daily Black Sea shipping-safety reports for the Caucasus command | 101/101 raw positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
 | [p89 A2](../supplementary/p89_A2.md) | Shipping and railway routing to Nikolayev | Earlier reading; one source glyph uncertain | Ayush Agarwal; review by D. Bourdeau (2026) |
+| [p113 C](nov3_poti_tobacco_loading.md#p113-c) | Poti tobacco loading inquiry, with literal quantity 2400 | Native 212-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p120 B1](p120_p123.md) | Instruction to Feigenhaus; contact with Herkules | 197/197 raw positions; one word repair | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p122 D suffix](p120_p123.md) | Repeat of the Feigenhaus instruction, part 1 | Exact 164-coordinate suffix; not a separate complete message | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p123 A2](p120_p123.md) | Responsibility for further Notschreie declined | 97/116 raw positions; explicit conditional completion | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
@@ -70,6 +73,8 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 | [p213 A3](reval_steamer_notice.md#p213-a3) | Assurance of support and Kriegsdepartement closing | One word repair and one fill; two reference erasures remain | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p218 B2](urgent_shipping_space.md#p218-b2) | Urgent shipping space for personnel and horses | Native 188-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p218 B3](urgent_shipping_space.md#p218-b3) | Probable reliance on sea transport; literal command references | Native 200-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p223 B](nov27_ships_and_vehicle_sale.md#p223-b) | Helsingfors reports preparations and secured ships | Native 246-slot frame; 7 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p223 C](nov27_ships_and_vehicle_sale.md#p223-c) | Sell trucks and surplus material: a surplus-group reconstruction | 235 printed slots; conditional 230-slot frame excluding 5 observed coordinates; 0 substitutions and 2 source-mask fills; two equivalent exclusion starts retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## Related challenge entries
 

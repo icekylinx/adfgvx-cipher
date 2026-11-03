@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 175–199](../175-199/README.md) · [pp. 225–249 →](../225-249/README.md)
 
-**2 challenge entries and 107 other reviewed entries across 25 printed pages, representing 109 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
+**2 challenge entries and 112 other reviewed entries across 25 printed pages, representing 114 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
 
 Jump to page: [p200](#p200) · [p201](#p201) · [p202](#p202) · [p203](#p203) · [p204](#p204) · [p205](#p205) · [p206](#p206) · [p207](#p207) · [p208](#p208) · [p209](#p209) · [p210](#p210) · [p211](#p211) · [p212](#p212) · [p213](#p213) · [p214](#p214) · [p215](#p215) · [p216](#p216) · [p217](#p217) · [p218](#p218) · [p219](#p219) · [p220](#p220) · [p221](#p221) · [p222](#p222) · [p223](#p223) · [p224](#p224).
 
@@ -30,6 +30,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p201 A2](../../finance/odessa_wagon_sale.md#p201-a2) | Wagon Magdeburg sale request with opaque DAMM LADWIG phrase | Native 236-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p201 B1](../../military/p201_p206_orders.md) | Report positions reached and expected border crossings | 105/105 unchanged; clear source origin date 15 November | icekylinx and GPT-6 Astra Pro (2026) |
 | [p201 B2](../../military/p201_p206_orders.md) | Specify units and travel mode; acknowledge receipt | 86/89 raw positions; shared order reference with p206 | icekylinx and GPT-6 Astra Pro (2026) |
+| [p201 C](../../radio/odessa_courier_pretransposition.md#p201-c) | Courier Elsner, arrival via Wilna and an enquiry about further couriers | Native324 received slots; conditional326-coordinate fractionation under fixed324-slot transposition; two pretransposition fills and four observed substitutions; three coupled reference labels remain unresolved; overstrike sensitivity retained | icekylinx and GPT-6 Astra Pro (2026); published key and earlier native address witness credited |
 
 ## p202
 
@@ -177,7 +178,9 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p214 A1](../../radio/nov22_reverse_keys_and_date_correction.md#p214-a1) | Keep the keys and use them backwards in December | Native 180-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p214 B](../../military/mackensen_warsaw.md) | Forwarded quotation of the Warsaw query | 85/92 direct quote positions match p181 under a different key | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p214 C](../../radio/nov22_reverse_keys_and_date_correction.md#p214-c) | A short Aufbau date correction with literal numerical labels | Native 88-slot frame; 0 observed-coordinate substitutions and 1 source-mask fill; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p215
 
@@ -291,6 +294,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p223 A1](../../finance/lei_note_exchange.md) | Information requested on stamped lei-note amounts, denominations and stamping procedure | 169/171 raw-label positions; 171/171 ordinary-word candidate; monetary labels remain unassigned | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier OCR corpus and unreviewed A2 retrieval candidate; published key credited separately |
 | [p223 A2](../../finance/lei_note_exchange.md) | Austro-Hungarian bank redemption proposal with raw J1Y/JYY exchange-rate labels | 124/124 raw-label positions; 124/124 ordinary-word candidate; monetary labels remain unassigned | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier OCR corpus and unreviewed A2 retrieval candidate; published key credited separately |
 | [p223 A3](../../finance/lei_note_exchange.md) | Stamped-note redemption and German-bank raw 70/38 rate labels; negotiations pending | 201/205 raw-label positions; 205/205 ordinary-word candidate; monetary labels remain unassigned | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier OCR corpus and unreviewed A2 retrieval candidate; published key credited separately |
+| [p223 B](../../naval/nov27_ships_and_vehicle_sale.md#p223-b) | Helsingfors reports preparations and secured ships | Native 246-slot frame; 7 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p223 C](../../naval/nov27_ships_and_vehicle_sale.md#p223-c) | Sell trucks and surplus material: a surplus-group reconstruction | 235 printed slots; conditional 230-slot frame excluding 5 observed coordinates; 0 substitutions and 2 source-mask fills; two equivalent exclusion starts retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p224
 

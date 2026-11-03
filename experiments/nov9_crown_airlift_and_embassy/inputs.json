@@ -1,0 +1,312 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "November 9: a crown airlift request and an urgent embassy address",
+  "case": "cases/finance/nov9_crown_airlift_and_embassy.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p167_B_reviewed.png",
+      "pdf_page_1based": 170,
+      "crop_pdf_points": [
+        65,
+        315,
+        525,
+        515
+      ],
+      "render_scale": 3,
+      "sha256": "0e06ef4b698481b9ef0389cc69c4da5fc345b1e3bb87308e909f51555c9fa4cf",
+      "width": 1380,
+      "height": 600,
+      "channels": 3,
+      "rgb_sha256": "52e5e8793c48e5d3aa5eca4072ed3fe2bd0821b25cfcde4097d04ab2f87f3f0b",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    },
+    {
+      "path": "sources/p167_E_reviewed.png",
+      "pdf_page_1based": 170,
+      "crop_pdf_points": [
+        65,
+        705,
+        525,
+        775
+      ],
+      "render_scale": 3,
+      "sha256": "91fda651acc9fddb0649a6742fd81ec5b12ae72dbcc543f94b284912c0992d31",
+      "width": 1380,
+      "height": 210,
+      "channels": 3,
+      "rgb_sha256": "6e74b1afe7a2ee646abf8b826fa0e8bd459393473fc881196b7a7ffc81e12524",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "keys": {
+    "Nov7-9": {
+      "id": "Nov7-9",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ],
+      "column_count": 20,
+      "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "square_rows": [
+        "PRMYUW",
+        "3LZGES",
+        "8C71QO",
+        "V29ITB",
+        "40?KXH",
+        "?AJNDF"
+      ],
+      "known_cell_count": 34,
+      "missing_plaintext_symbols": "56",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 241,
+          "pdf_page_1based": 244,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+      ],
+      "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "baseline_differences": [
+        {
+          "coordinate": "VF",
+          "baseline": "5",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XA",
+          "baseline": "6",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-01",
+        "comment": 20,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "VF",
+            "proposed": "5"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "6"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p167_B1",
+      "title": "Thirty million crowns requested for pay and purchases in Hungary",
+      "key_id": "Nov7-9",
+      "header_literal": "B) LP v NKJ (07.21 p.m., November 9th; 1810 VON UKS 3 TLE; 1 TL RICHI-190",
+      "edited_output": "OHLXOKMXBITTETFUERLOEHNUNGUNDANKAUFINUNGARNUMSCHLEUNIGESENDUNGVONDREISSIGMILLIONENKRONENMITTELS",
+      "readable_german": "OHL. OKM bittet fuer Loehnung und Ankauf in Ungarn um schleunige Sendung von dreissig Millionen Kronen mittels",
+      "meaning": "The message requests thirty million crowns for pay and purchases in Hungary. The means of transport and destination follow in the second source part.",
+      "notes": [
+        "The raw SCHREUNIGE becomes SCHLEUNIGE through one observed-coordinate substitution. The invalid C in DGVXC is retained as a source slot and filled only in the edited reading.",
+        "The amount is spelled out as DREISSIG MILLIONEN, so thirty million is a direct word reading; no digit permutation is needed to obtain it.",
+        "The full 190-slot source frame is native. Earlier OCR lost several letter forms; the printed coordinate count itself needs no insertion, exclusion or reordering."
+      ],
+      "printed_page": 167,
+      "source_section": "B1",
+      "source_rows": [
+        "DDXXX GGDVD VAXAV XDGXV ADGDD XDXGX DGVVX GGVVV",
+        "VVGXF DDFGD XXAXD DGVGV VAXDG XGFXX XADXG FDADA",
+        "XFDAD DXDVG DVGXF DVGDG GAGGV XVVGD VGXVV FV VGD",
+        "VDDVX XGXFV GGXXX VXGDG GGGVV GAAAD FAADV DGVXC",
+        "VGGGV GGXXV DGGFX DDADX GGDXX AXGFA"
+      ],
+      "source_slots": 190,
+      "advertised_length": 190,
+      "expected_raw": "OHLXOKMXBITTETFUERLOEHNUNGUNDANKAUFINUNGARNUMSCHREUNIGESE?DUNGVONDREISSIGMILLIONENKRONENMITTELS",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 1,
+      "expected_source_mask_fills": 1
+    },
+    {
+      "id": "p167_B2",
+      "title": "A giant aircraft to Brasso and a mix of banknote denominations",
+      "key_id": "Nov7-9",
+      "header_literal": "2 TL RICHI-192",
+      "readable_german": "Riesenflugzeug nach Brasso, deutsche Etappen Verwaltung. Angemessene Verteilung in grossen und kleinen Noten",
+      "meaning": "The continuation specifies giant-aircraft transport to Brasso and the German Etappenverwaltung, and asks for an appropriate distribution between large and small banknotes.",
+      "notes": [
+        "All 192 printed coordinates directly decode with no repair. The final visible DX was omitted by earlier OCR and is restored to the transcript, not inserted into the source.",
+        "The internal space in printed DG DGX does not add or remove a coordinate; all five letters belong to the group.",
+        "The recipient designation is preserved as the transmitted DEUTSCHE ETAPPEN VERWALTUNG without changing its case endings."
+      ],
+      "printed_page": 167,
+      "source_section": "B2",
+      "source_rows": [
+        "DADDA XGGXF DVGDA DG DGX XDADA GADXG DDVGV VVVXG",
+        "XVXGV GVVAD XVGVX XXXGD DDDXD DAXDX XXXDA DVDXF",
+        "AAGDD FDVXX GGXDX GVVXV DGAGG XDFDX AVGGG GXDVA",
+        "VVVXV VGVDD VDGGV GVXVV DVGVG DDFGA DDXXG DXVVV",
+        "XGXGG DVADF VDDGD AFVDD ADDAG DXXDD DX"
+      ],
+      "source_slots": 192,
+      "advertised_length": 192,
+      "expected_raw": "RIESENFLUGZEUGNACHBRASSODEUTSCHEETAPPENXVERWALTUNGXANGEMESSENEVERTEILUNGINGROSSENUNDKLEINENNOTEN",
+      "edited_output": "RIESENFLUGZEUGNACHBRASSODEUTSCHEETAPPENXVERWALTUNGXANGEMESSENEVERTEILUNGINGROSSENUNDKLEINENNOTEN",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p167_B3",
+      "title": "A limited crown supply and a high exchange rate",
+      "key_id": "Nov7-9",
+      "header_literal": "3 TL RICHI-144; following source control: NKJ DD",
+      "readable_german": "erbeten. Kronen Vorat hier beschraenkt und hoch im Kurse. OK Mackensen 4A Nr 41942.",
+      "meaning": "The final part finishes the request and reports that crown stocks are limited and their exchange rate high. The literal 4A and 41942 labels are retained without authenticating a historical reference number.",
+      "protected_fields": [
+        "4A",
+        "41942"
+      ],
+      "notes": [
+        "The 144-slot body ends at VDXF. The following NKJ DD is a separately printed transmission control, not part of the encrypted body; the earlier OCR incorrectly appended DD.",
+        "The decoded spelling VORAT has one R and is preserved as Vorat. Inserting a second R in the readable display would change the letter stream.",
+        "This is a request and contemporaneous report, not evidence that thirty million crowns were actually delivered."
+      ],
+      "printed_page": 167,
+      "source_section": "B3",
+      "source_rows": [
+        "GXDXG VVVAF XDDVD GDAAF AGVDX VXFVV DGFFD DAVXF",
+        "VDVAF GDVFX GGXGG VXXXF DXAVV VDXXV GGXGV GGGAV",
+        "DXDDV VAGXX GDGVV GXVGD GDXGV XXGDD DAVAA XVDDV",
+        "XVAVA VVVDD VGAFV DGVXV VDXF"
+      ],
+      "source_slots": 144,
+      "advertised_length": 144,
+      "expected_raw": "ERBETENXXKRONENVORATHIERBESCHRAENKTUNDHOCHIMKURSEXXOKMACKENSEN4ANRX41942",
+      "edited_output": "ERBETENXXKRONENVORATHIERBESCHRAENKTUNDHOCHIMKURSEXXOKMACKENSEN4ANRX41942",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p167_E1",
+      "title": "Urgent Constantinople embassy address signed Stumm",
+      "key_id": "Nov7-9",
+      "header_literal": "E) XYZ v LP (06.43 a.m., November 10th; 0022 (9/11) 2 TEILE; 1 TL RICHI-98",
+      "edited_output": "DEUTSCHEBOTSCHAFTCONSTANTINOPELDRINGENDXGEZXSTUMM",
+      "readable_german": "Deutsche Botschaft Constantinopel. Dringend. Gez. Stumm.",
+      "meaning": "A separately received address and urgency line names the German embassy at Constantinople and the signature Stumm. Its second advertised part is not printed here.",
+      "notes": [
+        "An enlarged source crop resolves the third glyph of XGGVX as G, including its visible internal bar. All 98 source coordinates directly decode without a fill.",
+        "CONSTANTINOPEL starts with C in this decoded stream and is not silently normalized to the K spelling of another record.",
+        "The source advertises two parts but supplies only this first part. A substantive telegram body is not reconstructed from its address alone."
+      ],
+      "printed_page": 167,
+      "source_section": "E1",
+      "source_rows": [
+        "AFXAD DFFXA FXGDG XGVVV XGGVX GDDDD DGXDD XGXDV",
+        "GXDAX XAVFV DDDFV VXDGX VGVVX DVGXV XVVVG VXGVV",
+        "DXGFD XGGVF XDVGF AXA"
+      ],
+      "source_slots": 98,
+      "advertised_length": 98,
+      "expected_raw": "DEUTSCHEBOTSCHAFTCONSTANTINOPELDRINGENDXGEZXSTUMM",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "5f3e1f03a7c05fb5d4cb02ca893b093fd56d79c8d148250d0996254a7faf2393",
+    "ocr_snapshot.json": "7474c139facfd9836ed6a8cd23bc1513bc16fb507b62ef7d5a933c99c4120e16"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

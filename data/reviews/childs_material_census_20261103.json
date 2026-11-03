@@ -1,0 +1,7350 @@
+{
+  "schema": "adfgvx-childs-whole-material-census-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "review_date_utc": "2026-11-03",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs; volume also includes Alan G. Konheim Appendix A",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "pdf_bytes": 156848258,
+    "pdf_page_count": 248
+  },
+  "counting_rules": {
+    "historical_log_printed_pages": [
+      56,
+      230
+    ],
+    "historical_log_page_count": 175,
+    "actual_printed_ciphertext_bodies": 679,
+    "body_definition": "An actual separately printed ciphertext body or surviving ciphertext fragment. Advertised but absent parts are not invented. Distinct received copies and separately printed parts remain distinct physical sources.",
+    "stub_exception": "The two literal AAA items at p58 A1/A2 are retained as ambiguous short stubs, outside the 679-body denominator. Their role is not assumed to be an ordinary ciphertext body.",
+    "other_material": "Cleartext-only entries, header-only entries, explicit missing-part notes, instructional examples, key tables and theory are separate material categories. The other_printed_records lists document material exceptions and are not a census of every header or in-line annotation.",
+    "scope_limit": "Boundary review is not a full new glyph transcription, proof of key assignment, whole-message assembly, or complete plaintext recovery."
+  },
+  "baseline_snapshot": {
+    "as_of_utc": "2026-11-03T08:04:46Z",
+    "reviewed_catalogue_entries": 640,
+    "unique_catalogued_physical_sources": 639,
+    "challenge_entries": 22,
+    "other_entries": 618,
+    "additional_physical_sources_beyond_challenges": 617,
+    "uncatalogued_ciphertext_bodies": 40,
+    "note": "A fixed starting snapshot, kept separate from all live coverage computations. Public and local working trees can contain different sets of reviewed editions.",
+    "entries": [
+      {
+        "id": "p73",
+        "group": "challenge",
+        "printed_page": 73,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p100",
+        "group": "challenge",
+        "printed_page": 100,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p105",
+        "group": "challenge",
+        "printed_page": 105,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p109",
+        "group": "challenge",
+        "printed_page": 109,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p132",
+        "group": "challenge",
+        "printed_page": 132,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p146",
+        "group": "challenge",
+        "printed_page": 146,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p152",
+        "group": "challenge",
+        "printed_page": 152,
+        "source_section": "E1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p153a",
+        "group": "challenge",
+        "printed_page": 153,
+        "source_section": "C5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p153b",
+        "group": "challenge",
+        "printed_page": 153,
+        "source_section": "C6",
+        "source_reviewed": true
+      },
+      {
+        "id": "p158",
+        "group": "challenge",
+        "printed_page": 158,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p164a",
+        "group": "challenge",
+        "printed_page": 164,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p164b",
+        "group": "challenge",
+        "printed_page": 164,
+        "source_section": "A5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p170",
+        "group": "challenge",
+        "printed_page": 170,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p171",
+        "group": "challenge",
+        "printed_page": 171,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p176a",
+        "group": "challenge",
+        "printed_page": 176,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p176b",
+        "group": "challenge",
+        "printed_page": 176,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p187",
+        "group": "challenge",
+        "printed_page": 187,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p187b",
+        "group": "challenge",
+        "printed_page": 187,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p189",
+        "group": "challenge",
+        "printed_page": 189,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p198",
+        "group": "challenge",
+        "printed_page": 198,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p215",
+        "group": "challenge",
+        "printed_page": 215,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p217",
+        "group": "challenge",
+        "printed_page": 217,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p77_B",
+        "group": "other",
+        "printed_page": 77,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p85_B",
+        "group": "other",
+        "printed_page": 85,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p89_A2",
+        "group": "other",
+        "printed_page": 89,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p96_B",
+        "group": "other",
+        "printed_page": 96,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p107_D",
+        "group": "other",
+        "printed_page": 107,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p109_B",
+        "group": "other",
+        "printed_page": 109,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p111_B",
+        "group": "other",
+        "printed_page": 111,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p120_B1",
+        "group": "other",
+        "printed_page": 120,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p122_D_suffix",
+        "group": "other",
+        "printed_page": 122,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p123_A2",
+        "group": "other",
+        "printed_page": 123,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p123_A3",
+        "group": "other",
+        "printed_page": 123,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p131_B",
+        "group": "other",
+        "printed_page": 131,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p134_B",
+        "group": "other",
+        "printed_page": 134,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p136_B1",
+        "group": "other",
+        "printed_page": 136,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p136_B2",
+        "group": "other",
+        "printed_page": 136,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p138_A1",
+        "group": "other",
+        "printed_page": 138,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p138_A2",
+        "group": "other",
+        "printed_page": 138,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p140_B",
+        "group": "other",
+        "printed_page": 140,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p148_C1",
+        "group": "other",
+        "printed_page": 148,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p149_A2",
+        "group": "other",
+        "printed_page": 149,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p149_B",
+        "group": "other",
+        "printed_page": 149,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p149_C",
+        "group": "other",
+        "printed_page": 149,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p151_D2",
+        "group": "other",
+        "printed_page": 151,
+        "source_section": "D2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p152_E2",
+        "group": "other",
+        "printed_page": 152,
+        "source_section": "E2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p153_D2",
+        "group": "other",
+        "printed_page": 153,
+        "source_section": "D2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p153_E1",
+        "group": "other",
+        "printed_page": 153,
+        "source_section": "E1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p155_A1",
+        "group": "other",
+        "printed_page": 155,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p155_A2",
+        "group": "other",
+        "printed_page": 155,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p158_C2",
+        "group": "other",
+        "printed_page": 158,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p159_B",
+        "group": "other",
+        "printed_page": 159,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p159_C",
+        "group": "other",
+        "printed_page": 159,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p159_D",
+        "group": "other",
+        "printed_page": 159,
+        "source_section": "Unlettered fourth item; local label D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p162_A1",
+        "group": "other",
+        "printed_page": 162,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p164_A4",
+        "group": "other",
+        "printed_page": 164,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p166_A1",
+        "group": "other",
+        "printed_page": 166,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p166_A2",
+        "group": "other",
+        "printed_page": 166,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p166_A3",
+        "group": "other",
+        "printed_page": 166,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p167_A3",
+        "group": "other",
+        "printed_page": 167,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p168_A",
+        "group": "other",
+        "printed_page": 168,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p168_B",
+        "group": "other",
+        "printed_page": 168,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p168_C",
+        "group": "other",
+        "printed_page": 168,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p168_D",
+        "group": "other",
+        "printed_page": 168,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p169_A",
+        "group": "other",
+        "printed_page": 169,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p170_B1",
+        "group": "other",
+        "printed_page": 170,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p170_B2",
+        "group": "other",
+        "printed_page": 170,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p172_A",
+        "group": "other",
+        "printed_page": 172,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p172_B",
+        "group": "other",
+        "printed_page": 172,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p174_B",
+        "group": "other",
+        "printed_page": 174,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p174_C",
+        "group": "other",
+        "printed_page": 174,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p174_D",
+        "group": "other",
+        "printed_page": 174,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p174_E",
+        "group": "other",
+        "printed_page": 174,
+        "source_section": "E",
+        "source_reviewed": true
+      },
+      {
+        "id": "p181_A",
+        "group": "other",
+        "printed_page": 181,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p185_C",
+        "group": "other",
+        "printed_page": 185,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p185_D",
+        "group": "other",
+        "printed_page": 185,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p186_A1",
+        "group": "other",
+        "printed_page": 186,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p186_A2",
+        "group": "other",
+        "printed_page": 186,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p187_C",
+        "group": "other",
+        "printed_page": 187,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p189_C",
+        "group": "other",
+        "printed_page": 189,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p189_E",
+        "group": "other",
+        "printed_page": 189,
+        "source_section": "E",
+        "source_reviewed": true
+      },
+      {
+        "id": "p193_E",
+        "group": "other",
+        "printed_page": 193,
+        "source_section": "E",
+        "source_reviewed": true
+      },
+      {
+        "id": "p194_A",
+        "group": "other",
+        "printed_page": 194,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p196_B",
+        "group": "other",
+        "printed_page": 196,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p197_C",
+        "group": "other",
+        "printed_page": 197,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p197_D",
+        "group": "other",
+        "printed_page": 197,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p197_E",
+        "group": "other",
+        "printed_page": 197,
+        "source_section": "E",
+        "source_reviewed": true
+      },
+      {
+        "id": "p198_B",
+        "group": "other",
+        "printed_page": 198,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p198_C",
+        "group": "other",
+        "printed_page": 198,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p198_E",
+        "group": "other",
+        "printed_page": 198,
+        "source_section": "E",
+        "source_reviewed": true
+      },
+      {
+        "id": "p201_B1",
+        "group": "other",
+        "printed_page": 201,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p201_B2",
+        "group": "other",
+        "printed_page": 201,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p204_A",
+        "group": "other",
+        "printed_page": 204,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p205_A1",
+        "group": "other",
+        "printed_page": 205,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p205_A2",
+        "group": "other",
+        "printed_page": 205,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p205_A3",
+        "group": "other",
+        "printed_page": 205,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p205_A4",
+        "group": "other",
+        "printed_page": 205,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p205_B1",
+        "group": "other",
+        "printed_page": 205,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p205_B2",
+        "group": "other",
+        "printed_page": 205,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p206_A1",
+        "group": "other",
+        "printed_page": 206,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p206_A2",
+        "group": "other",
+        "printed_page": 206,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p206_A3",
+        "group": "other",
+        "printed_page": 206,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p211_B_lower1",
+        "group": "other",
+        "printed_page": 211,
+        "source_section": "Lower B, part 1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p211_B_lower2",
+        "group": "other",
+        "printed_page": 211,
+        "source_section": "Lower B, part 2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p211_B_lower3",
+        "group": "other",
+        "printed_page": 211,
+        "source_section": "Lower B, part 3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p214_B",
+        "group": "other",
+        "printed_page": 214,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p218_A1",
+        "group": "other",
+        "printed_page": 218,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p218_A2",
+        "group": "other",
+        "printed_page": 218,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p218_A3",
+        "group": "other",
+        "printed_page": 218,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p92_A",
+        "group": "other",
+        "printed_page": 92,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p203_C",
+        "group": "other",
+        "printed_page": 203,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p210_A1",
+        "group": "other",
+        "printed_page": 210,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p210_A2",
+        "group": "other",
+        "printed_page": 210,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p210_B",
+        "group": "other",
+        "printed_page": 210,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p210_C",
+        "group": "other",
+        "printed_page": 210,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p210_D",
+        "group": "other",
+        "printed_page": 210,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p84_A",
+        "group": "other",
+        "printed_page": 84,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p84_B",
+        "group": "other",
+        "printed_page": 84,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p140_A1",
+        "group": "other",
+        "printed_page": 140,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p140_A2",
+        "group": "other",
+        "printed_page": 140,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p140_A3",
+        "group": "other",
+        "printed_page": 140,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p140_A4",
+        "group": "other",
+        "printed_page": 140,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p146_A",
+        "group": "other",
+        "printed_page": 146,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p226_B2",
+        "group": "other",
+        "printed_page": 226,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p226_C1",
+        "group": "other",
+        "printed_page": 226,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p226_C2",
+        "group": "other",
+        "printed_page": 226,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p226_C3",
+        "group": "other",
+        "printed_page": 226,
+        "source_section": "C3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p227_A4",
+        "group": "other",
+        "printed_page": 227,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p225_A",
+        "group": "other",
+        "printed_page": 225,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p227_B",
+        "group": "other",
+        "printed_page": 227,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p228_C1",
+        "group": "other",
+        "printed_page": 228,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p228_C2",
+        "group": "other",
+        "printed_page": 228,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p163_A13",
+        "group": "other",
+        "printed_page": 163,
+        "source_section": "A13",
+        "source_reviewed": true
+      },
+      {
+        "id": "p163_A14",
+        "group": "other",
+        "printed_page": 163,
+        "source_section": "A14",
+        "source_reviewed": true
+      },
+      {
+        "id": "p163_A15",
+        "group": "other",
+        "printed_page": 163,
+        "source_section": "A15",
+        "source_reviewed": true
+      },
+      {
+        "id": "p163_A17",
+        "group": "other",
+        "printed_page": 163,
+        "source_section": "A17",
+        "source_reviewed": true
+      },
+      {
+        "id": "p163_A18",
+        "group": "other",
+        "printed_page": 163,
+        "source_section": "A18",
+        "source_reviewed": true
+      },
+      {
+        "id": "p164_B",
+        "group": "other",
+        "printed_page": 164,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p69_B1",
+        "group": "other",
+        "printed_page": 69,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p69_B2",
+        "group": "other",
+        "printed_page": 69,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p70_A1",
+        "group": "other",
+        "printed_page": 70,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p70_A2",
+        "group": "other",
+        "printed_page": 70,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p72_A1",
+        "group": "other",
+        "printed_page": 72,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p72_A2",
+        "group": "other",
+        "printed_page": 72,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p72_A3",
+        "group": "other",
+        "printed_page": 72,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p72_B",
+        "group": "other",
+        "printed_page": 72,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p71_A1",
+        "group": "other",
+        "printed_page": 71,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p180_A3",
+        "group": "other",
+        "printed_page": 180,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p217_A1",
+        "group": "other",
+        "printed_page": 217,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p217_A2",
+        "group": "other",
+        "printed_page": 217,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p217_A3",
+        "group": "other",
+        "printed_page": 217,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p217_A4",
+        "group": "other",
+        "printed_page": 217,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p217_A5",
+        "group": "other",
+        "printed_page": 217,
+        "source_section": "A5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p230_A3",
+        "group": "other",
+        "printed_page": 230,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p230_A4",
+        "group": "other",
+        "printed_page": 230,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p190_A",
+        "group": "other",
+        "printed_page": 190,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p190_B",
+        "group": "other",
+        "printed_page": 190,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p190_D",
+        "group": "other",
+        "printed_page": 190,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p190_E",
+        "group": "other",
+        "printed_page": 190,
+        "source_section": "E",
+        "source_reviewed": true
+      },
+      {
+        "id": "p193_A",
+        "group": "other",
+        "printed_page": 193,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p193_B",
+        "group": "other",
+        "printed_page": 193,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p194_B",
+        "group": "other",
+        "printed_page": 194,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p187_D1",
+        "group": "other",
+        "printed_page": 187,
+        "source_section": "D1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p69_A",
+        "group": "other",
+        "printed_page": 69,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p68_A1",
+        "group": "other",
+        "printed_page": 68,
+        "source_section": "A part 1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p68_A2",
+        "group": "other",
+        "printed_page": 68,
+        "source_section": "A part 2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p192_2",
+        "group": "other",
+        "printed_page": 192,
+        "source_section": "Unheaded 2 TL",
+        "source_reviewed": true
+      },
+      {
+        "id": "p192_3",
+        "group": "other",
+        "printed_page": 192,
+        "source_section": "Unheaded 3 TL",
+        "source_reviewed": true
+      },
+      {
+        "id": "p192_A",
+        "group": "other",
+        "printed_page": 192,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p192_B",
+        "group": "other",
+        "printed_page": 192,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p194_C",
+        "group": "other",
+        "printed_page": 194,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p194_E",
+        "group": "other",
+        "printed_page": 194,
+        "source_section": "E",
+        "source_reviewed": true
+      },
+      {
+        "id": "p178_A1",
+        "group": "other",
+        "printed_page": 178,
+        "source_section": "Five-part naval order, 1 TL",
+        "source_reviewed": true
+      },
+      {
+        "id": "p178_A2",
+        "group": "other",
+        "printed_page": 178,
+        "source_section": "Five-part naval order, 2 TL (printed B)",
+        "source_reviewed": true
+      },
+      {
+        "id": "p178_A3",
+        "group": "other",
+        "printed_page": 178,
+        "source_section": "Five-part naval order, 3 TL",
+        "source_reviewed": true
+      },
+      {
+        "id": "p178_A4",
+        "group": "other",
+        "printed_page": 178,
+        "source_section": "Five-part naval order, 4 TL",
+        "source_reviewed": true
+      },
+      {
+        "id": "p178_A5",
+        "group": "other",
+        "printed_page": 178,
+        "source_section": "Five-part naval order, 5 TL",
+        "source_reviewed": true
+      },
+      {
+        "id": "p199_B1",
+        "group": "other",
+        "printed_page": 199,
+        "source_section": "Unlettered 1 TL, following A)",
+        "source_reviewed": true
+      },
+      {
+        "id": "p199_A1",
+        "group": "other",
+        "printed_page": 199,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p199_A2",
+        "group": "other",
+        "printed_page": 199,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p199_A3",
+        "group": "other",
+        "printed_page": 199,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p200_B1",
+        "group": "other",
+        "printed_page": 200,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p200_B2",
+        "group": "other",
+        "printed_page": 200,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p200_A",
+        "group": "other",
+        "printed_page": 200,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p66_A",
+        "group": "other",
+        "printed_page": 66,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p66_B",
+        "group": "other",
+        "printed_page": 66,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p66_C1",
+        "group": "other",
+        "printed_page": 66,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p67_A2",
+        "group": "other",
+        "printed_page": 67,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p67_B",
+        "group": "other",
+        "printed_page": 67,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p67_C",
+        "group": "other",
+        "printed_page": 67,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p165_A1",
+        "group": "other",
+        "printed_page": 165,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p165_A2",
+        "group": "other",
+        "printed_page": 165,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p165_A3",
+        "group": "other",
+        "printed_page": 165,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p165_A5",
+        "group": "other",
+        "printed_page": 165,
+        "source_section": "A5 (printed 5 TL)",
+        "source_reviewed": true
+      },
+      {
+        "id": "p173_A1",
+        "group": "other",
+        "printed_page": 173,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p173_A2",
+        "group": "other",
+        "printed_page": 173,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p191_A1",
+        "group": "other",
+        "printed_page": 191,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p191_A2",
+        "group": "other",
+        "printed_page": 191,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p177_B1",
+        "group": "other",
+        "printed_page": 177,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p177_B2",
+        "group": "other",
+        "printed_page": 177,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p177_B3",
+        "group": "other",
+        "printed_page": 177,
+        "source_section": "B3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p62_A",
+        "group": "other",
+        "printed_page": 62,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p62_B",
+        "group": "other",
+        "printed_page": 62,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p63_A",
+        "group": "other",
+        "printed_page": 63,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p65_A",
+        "group": "other",
+        "printed_page": 65,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p221_B1",
+        "group": "other",
+        "printed_page": 221,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p221_B2",
+        "group": "other",
+        "printed_page": 221,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p221_B3",
+        "group": "other",
+        "printed_page": 221,
+        "source_section": "B3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p221_B4",
+        "group": "other",
+        "printed_page": 221,
+        "source_section": "B4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p224_C1",
+        "group": "other",
+        "printed_page": 224,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p224_C2",
+        "group": "other",
+        "printed_page": 224,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p223_A1",
+        "group": "other",
+        "printed_page": 223,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p223_A2",
+        "group": "other",
+        "printed_page": 223,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p223_A3",
+        "group": "other",
+        "printed_page": 223,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p219_A1",
+        "group": "other",
+        "printed_page": 219,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p219_A2",
+        "group": "other",
+        "printed_page": 219,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p219_B",
+        "group": "other",
+        "printed_page": 219,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p174_A1",
+        "group": "other",
+        "printed_page": 174,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p174_A2",
+        "group": "other",
+        "printed_page": 174,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p174_A3",
+        "group": "other",
+        "printed_page": 174,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p102_A",
+        "group": "other",
+        "printed_page": 102,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p103_D",
+        "group": "other",
+        "printed_page": 103,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p106_B",
+        "group": "other",
+        "printed_page": 106,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p103_B1",
+        "group": "other",
+        "printed_page": 103,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p103_B2",
+        "group": "other",
+        "printed_page": 103,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p129_B1",
+        "group": "other",
+        "printed_page": 129,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p133_A2",
+        "group": "other",
+        "printed_page": 133,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p133_A3",
+        "group": "other",
+        "printed_page": 133,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p134_A4",
+        "group": "other",
+        "printed_page": 134,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p92_B1",
+        "group": "other",
+        "printed_page": 92,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p93_A2",
+        "group": "other",
+        "printed_page": 93,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p93_A3",
+        "group": "other",
+        "printed_page": 93,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p93_A4",
+        "group": "other",
+        "printed_page": 93,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p94_A5",
+        "group": "other",
+        "printed_page": 94,
+        "source_section": "A5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p94_A6",
+        "group": "other",
+        "printed_page": 94,
+        "source_section": "A6",
+        "source_reviewed": true
+      },
+      {
+        "id": "p222_A1",
+        "group": "other",
+        "printed_page": 222,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p222_A2",
+        "group": "other",
+        "printed_page": 222,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p202_B1",
+        "group": "other",
+        "printed_page": 202,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p202_B2",
+        "group": "other",
+        "printed_page": 202,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p202_B3",
+        "group": "other",
+        "printed_page": 202,
+        "source_section": "B3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p202_B4",
+        "group": "other",
+        "printed_page": 202,
+        "source_section": "B4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p228_B1",
+        "group": "other",
+        "printed_page": 228,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p228_B2",
+        "group": "other",
+        "printed_page": 228,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p228_B3",
+        "group": "other",
+        "printed_page": 228,
+        "source_section": "B3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p130_A1",
+        "group": "other",
+        "printed_page": 130,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p130_A2",
+        "group": "other",
+        "printed_page": 130,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p131_A3",
+        "group": "other",
+        "printed_page": 131,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p131_A4",
+        "group": "other",
+        "printed_page": 131,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p184_B1",
+        "group": "other",
+        "printed_page": 184,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p184_B2",
+        "group": "other",
+        "printed_page": 184,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p184_B3",
+        "group": "other",
+        "printed_page": 184,
+        "source_section": "B3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p184_C1",
+        "group": "other",
+        "printed_page": 184,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p184_C2",
+        "group": "other",
+        "printed_page": 184,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p184_C3",
+        "group": "other",
+        "printed_page": 184,
+        "source_section": "C3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p60_A1",
+        "group": "other",
+        "printed_page": 60,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p60_A2",
+        "group": "other",
+        "printed_page": 60,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p60_B",
+        "group": "other",
+        "printed_page": 60,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p229_A1",
+        "group": "other",
+        "printed_page": 229,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p229_A2",
+        "group": "other",
+        "printed_page": 229,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p229_A3",
+        "group": "other",
+        "printed_page": 229,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p229_B1",
+        "group": "other",
+        "printed_page": 229,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p229_B2",
+        "group": "other",
+        "printed_page": 229,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p229_C",
+        "group": "other",
+        "printed_page": 229,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p125_A1",
+        "group": "other",
+        "printed_page": 125,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p125_A2",
+        "group": "other",
+        "printed_page": 125,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p125_A3",
+        "group": "other",
+        "printed_page": 125,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p125_A4",
+        "group": "other",
+        "printed_page": 125,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p126_A5",
+        "group": "other",
+        "printed_page": 126,
+        "source_section": "A5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p126_A6",
+        "group": "other",
+        "printed_page": 126,
+        "source_section": "A6",
+        "source_reviewed": true
+      },
+      {
+        "id": "p126_B",
+        "group": "other",
+        "printed_page": 126,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p80_A",
+        "group": "other",
+        "printed_page": 80,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p81_A",
+        "group": "other",
+        "printed_page": 81,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p81_B",
+        "group": "other",
+        "printed_page": 81,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p81_C",
+        "group": "other",
+        "printed_page": 81,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p80_B1",
+        "group": "other",
+        "printed_page": 80,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p80_B2",
+        "group": "other",
+        "printed_page": 80,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p82_A1",
+        "group": "other",
+        "printed_page": 82,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p82_A2",
+        "group": "other",
+        "printed_page": 82,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p82_A3",
+        "group": "other",
+        "printed_page": 82,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p82_A4",
+        "group": "other",
+        "printed_page": 82,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p220_C1",
+        "group": "other",
+        "printed_page": 220,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p220_C2",
+        "group": "other",
+        "printed_page": 220,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p220_C3",
+        "group": "other",
+        "printed_page": 220,
+        "source_section": "C3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p220_C4",
+        "group": "other",
+        "printed_page": 220,
+        "source_section": "C4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p221_A5",
+        "group": "other",
+        "printed_page": 221,
+        "source_section": "A5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p221_A6",
+        "group": "other",
+        "printed_page": 221,
+        "source_section": "A6",
+        "source_reviewed": true
+      },
+      {
+        "id": "p171_B1",
+        "group": "other",
+        "printed_page": 171,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p171_B2",
+        "group": "other",
+        "printed_page": 171,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p171_A2",
+        "group": "other",
+        "printed_page": 171,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p171_A3",
+        "group": "other",
+        "printed_page": 171,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p171_C",
+        "group": "other",
+        "printed_page": 171,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p172_E",
+        "group": "other",
+        "printed_page": 172,
+        "source_section": "E",
+        "source_reviewed": true
+      },
+      {
+        "id": "p212_A1",
+        "group": "other",
+        "printed_page": 212,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p212_A3",
+        "group": "other",
+        "printed_page": 212,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p212_A5",
+        "group": "other",
+        "printed_page": 212,
+        "source_section": "A5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p213_A6",
+        "group": "other",
+        "printed_page": 213,
+        "source_section": "A6",
+        "source_reviewed": true
+      },
+      {
+        "id": "p213_A7",
+        "group": "other",
+        "printed_page": 213,
+        "source_section": "A7",
+        "source_reviewed": true
+      },
+      {
+        "id": "p213_A1",
+        "group": "other",
+        "printed_page": 213,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p213_A2",
+        "group": "other",
+        "printed_page": 213,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p213_A3",
+        "group": "other",
+        "printed_page": 213,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p114_A1",
+        "group": "other",
+        "printed_page": 114,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p113_A3",
+        "group": "other",
+        "printed_page": 113,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p114_A4",
+        "group": "other",
+        "printed_page": 114,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p115_A5",
+        "group": "other",
+        "printed_page": 115,
+        "source_section": "A5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p115_A6",
+        "group": "other",
+        "printed_page": 115,
+        "source_section": "A6",
+        "source_reviewed": true
+      },
+      {
+        "id": "p115_A7",
+        "group": "other",
+        "printed_page": 115,
+        "source_section": "A7",
+        "source_reviewed": true
+      },
+      {
+        "id": "p115_A8",
+        "group": "other",
+        "printed_page": 115,
+        "source_section": "A8",
+        "source_reviewed": true
+      },
+      {
+        "id": "p113_B9",
+        "group": "other",
+        "printed_page": 113,
+        "source_section": "B9",
+        "source_reviewed": true
+      },
+      {
+        "id": "p116_A10",
+        "group": "other",
+        "printed_page": 116,
+        "source_section": "A10",
+        "source_reviewed": true
+      },
+      {
+        "id": "p116_A11",
+        "group": "other",
+        "printed_page": 116,
+        "source_section": "A11",
+        "source_reviewed": true
+      },
+      {
+        "id": "p116_A12",
+        "group": "other",
+        "printed_page": 116,
+        "source_section": "A12",
+        "source_reviewed": true
+      },
+      {
+        "id": "p116_A13",
+        "group": "other",
+        "printed_page": 116,
+        "source_section": "A13",
+        "source_reviewed": true
+      },
+      {
+        "id": "p132_A",
+        "group": "other",
+        "printed_page": 132,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p132_B",
+        "group": "other",
+        "printed_page": 132,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p132_C",
+        "group": "other",
+        "printed_page": 132,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p177_A",
+        "group": "other",
+        "printed_page": 177,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p212_A2",
+        "group": "other",
+        "printed_page": 212,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p179_A",
+        "group": "other",
+        "printed_page": 179,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p179_B",
+        "group": "other",
+        "printed_page": 179,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p179_C",
+        "group": "other",
+        "printed_page": 179,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p179_D1",
+        "group": "other",
+        "printed_page": 179,
+        "source_section": "D1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p179_D2",
+        "group": "other",
+        "printed_page": 179,
+        "source_section": "D2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p128_A1",
+        "group": "other",
+        "printed_page": 128,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p128_A2",
+        "group": "other",
+        "printed_page": 128,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p83_B",
+        "group": "other",
+        "printed_page": 83,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p98_A1",
+        "group": "other",
+        "printed_page": 98,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p98_A2",
+        "group": "other",
+        "printed_page": 98,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p98_B",
+        "group": "other",
+        "printed_page": 98,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p216_B1",
+        "group": "other",
+        "printed_page": 216,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p216_B2",
+        "group": "other",
+        "printed_page": 216,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p150_B1",
+        "group": "other",
+        "printed_page": 150,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p150_B2",
+        "group": "other",
+        "printed_page": 150,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p150_B3",
+        "group": "other",
+        "printed_page": 150,
+        "source_section": "B3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p150_B4",
+        "group": "other",
+        "printed_page": 150,
+        "source_section": "B4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p150_B5",
+        "group": "other",
+        "printed_page": 150,
+        "source_section": "B5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p157_B1",
+        "group": "other",
+        "printed_page": 157,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p157_B2",
+        "group": "other",
+        "printed_page": 157,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p100_B",
+        "group": "other",
+        "printed_page": 100,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p100_C",
+        "group": "other",
+        "printed_page": 100,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p137_D",
+        "group": "other",
+        "printed_page": 137,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p142_A",
+        "group": "other",
+        "printed_page": 142,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p142_B",
+        "group": "other",
+        "printed_page": 142,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p142_C",
+        "group": "other",
+        "printed_page": 142,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p150_A2",
+        "group": "other",
+        "printed_page": 150,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p216_A1",
+        "group": "other",
+        "printed_page": 216,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p216_A2",
+        "group": "other",
+        "printed_page": 216,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p216_A3",
+        "group": "other",
+        "printed_page": 216,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p216_A4",
+        "group": "other",
+        "printed_page": 216,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p161_C1",
+        "group": "other",
+        "printed_page": 161,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p161_C2",
+        "group": "other",
+        "printed_page": 161,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p161_D1",
+        "group": "other",
+        "printed_page": 161,
+        "source_section": "D1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p161_D2",
+        "group": "other",
+        "printed_page": 161,
+        "source_section": "D2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p147_C1",
+        "group": "other",
+        "printed_page": 147,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p148_B1",
+        "group": "other",
+        "printed_page": 148,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p156_C1",
+        "group": "other",
+        "printed_page": 156,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p138_B",
+        "group": "other",
+        "printed_page": 138,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p137_B4",
+        "group": "other",
+        "printed_page": 137,
+        "source_section": "B4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p137_C",
+        "group": "other",
+        "printed_page": 137,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p195_A2",
+        "group": "other",
+        "printed_page": 195,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p79_A1",
+        "group": "other",
+        "printed_page": 79,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p79_A2",
+        "group": "other",
+        "printed_page": 79,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p166_B1",
+        "group": "other",
+        "printed_page": 166,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p166_B2",
+        "group": "other",
+        "printed_page": 166,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p86_A",
+        "group": "other",
+        "printed_page": 86,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p104_C1",
+        "group": "other",
+        "printed_page": 104,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p104_C2",
+        "group": "other",
+        "printed_page": 104,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p128_B1",
+        "group": "other",
+        "printed_page": 128,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p129_A7",
+        "group": "other",
+        "printed_page": 129,
+        "source_section": "A7",
+        "source_reviewed": true
+      },
+      {
+        "id": "p129_A8",
+        "group": "other",
+        "printed_page": 129,
+        "source_section": "A8",
+        "source_reviewed": true
+      },
+      {
+        "id": "p137_A4",
+        "group": "other",
+        "printed_page": 137,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p137_A5",
+        "group": "other",
+        "printed_page": 137,
+        "source_section": "A5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p188_A",
+        "group": "other",
+        "printed_page": 188,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p188_B2",
+        "group": "other",
+        "printed_page": 188,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p188_C1",
+        "group": "other",
+        "printed_page": 188,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p209_A1",
+        "group": "other",
+        "printed_page": 209,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p209_B1",
+        "group": "other",
+        "printed_page": 209,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p209_B2",
+        "group": "other",
+        "printed_page": 209,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p209_C1",
+        "group": "other",
+        "printed_page": 209,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p209_C2",
+        "group": "other",
+        "printed_page": 209,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p207_A1",
+        "group": "other",
+        "printed_page": 207,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p207_A2",
+        "group": "other",
+        "printed_page": 207,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p207_B",
+        "group": "other",
+        "printed_page": 207,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p207_C1",
+        "group": "other",
+        "printed_page": 207,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p207_C2",
+        "group": "other",
+        "printed_page": 207,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p208_A1",
+        "group": "other",
+        "printed_page": 208,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p208_A2",
+        "group": "other",
+        "printed_page": 208,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p175_A1",
+        "group": "other",
+        "printed_page": 175,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p175_A2",
+        "group": "other",
+        "printed_page": 175,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p176_B2",
+        "group": "other",
+        "printed_page": 176,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p176_B3",
+        "group": "other",
+        "printed_page": 176,
+        "source_section": "B3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p211_A2",
+        "group": "other",
+        "printed_page": 211,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p211_B_upper",
+        "group": "other",
+        "printed_page": 211,
+        "source_section": "B upper",
+        "source_reviewed": true
+      },
+      {
+        "id": "p175_C1",
+        "group": "other",
+        "printed_page": 175,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p175_C2",
+        "group": "other",
+        "printed_page": 175,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p176_A5",
+        "group": "other",
+        "printed_page": 176,
+        "source_section": "A5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p110_A2",
+        "group": "other",
+        "printed_page": 110,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p110_B",
+        "group": "other",
+        "printed_page": 110,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p110_C",
+        "group": "other",
+        "printed_page": 110,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p175_C3",
+        "group": "other",
+        "printed_page": 175,
+        "source_section": "C3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p175_B2",
+        "group": "other",
+        "printed_page": 175,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p64_A1",
+        "group": "other",
+        "printed_page": 64,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p64_A2",
+        "group": "other",
+        "printed_page": 64,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p64_B",
+        "group": "other",
+        "printed_page": 64,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p74_A",
+        "group": "other",
+        "printed_page": 74,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p74_B",
+        "group": "other",
+        "printed_page": 74,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p74_C1",
+        "group": "other",
+        "printed_page": 74,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p74_C2",
+        "group": "other",
+        "printed_page": 74,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p75_A3",
+        "group": "other",
+        "printed_page": 75,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p75_B1",
+        "group": "other",
+        "printed_page": 75,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p75_B2",
+        "group": "other",
+        "printed_page": 75,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p76_A3",
+        "group": "other",
+        "printed_page": 76,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p117_A",
+        "group": "other",
+        "printed_page": 117,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p117_B",
+        "group": "other",
+        "printed_page": 117,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p117_C3",
+        "group": "other",
+        "printed_page": 117,
+        "source_section": "C3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p117_C4",
+        "group": "other",
+        "printed_page": 117,
+        "source_section": "C4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p117_D",
+        "group": "other",
+        "printed_page": 117,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p58_B",
+        "group": "other",
+        "printed_page": 58,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p59_B",
+        "group": "other",
+        "printed_page": 59,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p97_A",
+        "group": "other",
+        "printed_page": 97,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p97_B",
+        "group": "other",
+        "printed_page": 97,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p97_C",
+        "group": "other",
+        "printed_page": 97,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p59_A2",
+        "group": "other",
+        "printed_page": 59,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p59_A3",
+        "group": "other",
+        "printed_page": 59,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p95_A1",
+        "group": "other",
+        "printed_page": 95,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p95_A2",
+        "group": "other",
+        "printed_page": 95,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p141_A1",
+        "group": "other",
+        "printed_page": 141,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p141_A2",
+        "group": "other",
+        "printed_page": 141,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p141_B",
+        "group": "other",
+        "printed_page": 141,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p111_A1",
+        "group": "other",
+        "printed_page": 111,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p112_A1",
+        "group": "other",
+        "printed_page": 112,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p112_A2",
+        "group": "other",
+        "printed_page": 112,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p112_A3",
+        "group": "other",
+        "printed_page": 112,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p112_B",
+        "group": "other",
+        "printed_page": 112,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p112_C",
+        "group": "other",
+        "printed_page": 112,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p112_D",
+        "group": "other",
+        "printed_page": 112,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p90_B1",
+        "group": "other",
+        "printed_page": 90,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p91_A2",
+        "group": "other",
+        "printed_page": 91,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p91_A3",
+        "group": "other",
+        "printed_page": 91,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p77_A",
+        "group": "other",
+        "printed_page": 77,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p78_A1",
+        "group": "other",
+        "printed_page": 78,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p78_A2",
+        "group": "other",
+        "printed_page": 78,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p88_A1",
+        "group": "other",
+        "printed_page": 88,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p88_A2",
+        "group": "other",
+        "printed_page": 88,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p88_C1",
+        "group": "other",
+        "printed_page": 88,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p89_A3",
+        "group": "other",
+        "printed_page": 89,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p89_A4",
+        "group": "other",
+        "printed_page": 89,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p90_A5",
+        "group": "other",
+        "printed_page": 90,
+        "source_section": "A5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p99_A",
+        "group": "other",
+        "printed_page": 99,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p99_B1",
+        "group": "other",
+        "printed_page": 99,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p99_C1",
+        "group": "other",
+        "printed_page": 99,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p99_C2",
+        "group": "other",
+        "printed_page": 99,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p99_D",
+        "group": "other",
+        "printed_page": 99,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p160_A2",
+        "group": "other",
+        "printed_page": 160,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p160_B1",
+        "group": "other",
+        "printed_page": 160,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p160_B2",
+        "group": "other",
+        "printed_page": 160,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p160_C1",
+        "group": "other",
+        "printed_page": 160,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p160_C2",
+        "group": "other",
+        "printed_page": 160,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p160_D1",
+        "group": "other",
+        "printed_page": 160,
+        "source_section": "D1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p161_A2",
+        "group": "other",
+        "printed_page": 161,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p108_A",
+        "group": "other",
+        "printed_page": 108,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p108_B1",
+        "group": "other",
+        "printed_page": 108,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p108_B2",
+        "group": "other",
+        "printed_page": 108,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p107_B1",
+        "group": "other",
+        "printed_page": 107,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p107_B2",
+        "group": "other",
+        "printed_page": 107,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p107_C",
+        "group": "other",
+        "printed_page": 107,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p100_D1",
+        "group": "other",
+        "printed_page": 100,
+        "source_section": "D1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p101_A2",
+        "group": "other",
+        "printed_page": 101,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p101_B2",
+        "group": "other",
+        "printed_page": 101,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p101_C1",
+        "group": "other",
+        "printed_page": 101,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p101_D2",
+        "group": "other",
+        "printed_page": 101,
+        "source_section": "D2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p102_B1",
+        "group": "other",
+        "printed_page": 102,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p102_B2",
+        "group": "other",
+        "printed_page": 102,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p102_B3",
+        "group": "other",
+        "printed_page": 102,
+        "source_section": "B3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p102_C",
+        "group": "other",
+        "printed_page": 102,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p102_D",
+        "group": "other",
+        "printed_page": 102,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p124_A1",
+        "group": "other",
+        "printed_page": 124,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p124_A2",
+        "group": "other",
+        "printed_page": 124,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p124_A3",
+        "group": "other",
+        "printed_page": 124,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p139_A1",
+        "group": "other",
+        "printed_page": 139,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p139_A2",
+        "group": "other",
+        "printed_page": 139,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p139_A3",
+        "group": "other",
+        "printed_page": 139,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p162_B1",
+        "group": "other",
+        "printed_page": 162,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p162_C2",
+        "group": "other",
+        "printed_page": 162,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p162_D1",
+        "group": "other",
+        "printed_page": 162,
+        "source_section": "D1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p151_A1",
+        "group": "other",
+        "printed_page": 151,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p151_A2",
+        "group": "other",
+        "printed_page": 151,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p151_B",
+        "group": "other",
+        "printed_page": 151,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p151_C",
+        "group": "other",
+        "printed_page": 151,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p161_B1",
+        "group": "other",
+        "printed_page": 161,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p157_A2",
+        "group": "other",
+        "printed_page": 157,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p157_A3",
+        "group": "other",
+        "printed_page": 157,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p157_A4",
+        "group": "other",
+        "printed_page": 157,
+        "source_section": "A4",
+        "source_reviewed": true
+      },
+      {
+        "id": "p157_A5",
+        "group": "other",
+        "printed_page": 157,
+        "source_section": "A5",
+        "source_reviewed": true
+      },
+      {
+        "id": "p121_A1",
+        "group": "other",
+        "printed_page": 121,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p121_A2",
+        "group": "other",
+        "printed_page": 121,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p121_B1",
+        "group": "other",
+        "printed_page": 121,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p122_A2",
+        "group": "other",
+        "printed_page": 122,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p122_C",
+        "group": "other",
+        "printed_page": 122,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p104_A3",
+        "group": "other",
+        "printed_page": 104,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p104_B",
+        "group": "other",
+        "printed_page": 104,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p104_D",
+        "group": "other",
+        "printed_page": 104,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p104_E3",
+        "group": "other",
+        "printed_page": 104,
+        "source_section": "E3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p105_C1",
+        "group": "other",
+        "printed_page": 105,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p106_A2",
+        "group": "other",
+        "printed_page": 106,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p106_A3",
+        "group": "other",
+        "printed_page": 106,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p230_B",
+        "group": "other",
+        "printed_page": 230,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p230_C",
+        "group": "other",
+        "printed_page": 230,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p230_D",
+        "group": "other",
+        "printed_page": 230,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p230_E",
+        "group": "other",
+        "printed_page": 230,
+        "source_section": "E",
+        "source_reviewed": true
+      },
+      {
+        "id": "p224_A1",
+        "group": "other",
+        "printed_page": 224,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p224_A2",
+        "group": "other",
+        "printed_page": 224,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p224_B",
+        "group": "other",
+        "printed_page": 224,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p202_A1",
+        "group": "other",
+        "printed_page": 202,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p202_A2",
+        "group": "other",
+        "printed_page": 202,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p203_A2",
+        "group": "other",
+        "printed_page": 203,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p203_B",
+        "group": "other",
+        "printed_page": 203,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p204_B",
+        "group": "other",
+        "printed_page": 204,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p204_C1",
+        "group": "other",
+        "printed_page": 204,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p204_D",
+        "group": "other",
+        "printed_page": 204,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p145_B1",
+        "group": "other",
+        "printed_page": 145,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p145_B2",
+        "group": "other",
+        "printed_page": 145,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p145_B3",
+        "group": "other",
+        "printed_page": 145,
+        "source_section": "B3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p204_C2",
+        "group": "other",
+        "printed_page": 204,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p157_A1",
+        "group": "other",
+        "printed_page": 157,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p186_B2",
+        "group": "other",
+        "printed_page": 186,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p186_C1",
+        "group": "other",
+        "printed_page": 186,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p118_A2",
+        "group": "other",
+        "printed_page": 118,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p172_C1",
+        "group": "other",
+        "printed_page": 172,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p172_C3",
+        "group": "other",
+        "printed_page": 172,
+        "source_section": "C3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p180_E",
+        "group": "other",
+        "printed_page": 180,
+        "source_section": "E",
+        "source_reviewed": true
+      },
+      {
+        "id": "p181_B",
+        "group": "other",
+        "printed_page": 181,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p120_A",
+        "group": "other",
+        "printed_page": 120,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p120_C",
+        "group": "other",
+        "printed_page": 120,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p147_A",
+        "group": "other",
+        "printed_page": 147,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p123_B",
+        "group": "other",
+        "printed_page": 123,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p155_D",
+        "group": "other",
+        "printed_page": 155,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p169_B",
+        "group": "other",
+        "printed_page": 169,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p155_C1",
+        "group": "other",
+        "printed_page": 155,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p155_C2",
+        "group": "other",
+        "printed_page": 155,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p186_B1",
+        "group": "other",
+        "printed_page": 186,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p122_B",
+        "group": "other",
+        "printed_page": 122,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p155_B",
+        "group": "other",
+        "printed_page": 155,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p57_A1",
+        "group": "other",
+        "printed_page": 57,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p57_A2",
+        "group": "other",
+        "printed_page": 57,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p57_A3",
+        "group": "other",
+        "printed_page": 57,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p61_A",
+        "group": "other",
+        "printed_page": 61,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p135_A",
+        "group": "other",
+        "printed_page": 135,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p172_D1",
+        "group": "other",
+        "printed_page": 172,
+        "source_section": "D1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p172_D2",
+        "group": "other",
+        "printed_page": 172,
+        "source_section": "D2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p144_A2",
+        "group": "other",
+        "printed_page": 144,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p144_C1",
+        "group": "other",
+        "printed_page": 144,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p87_A1",
+        "group": "other",
+        "printed_page": 87,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p119_A",
+        "group": "other",
+        "printed_page": 119,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p127_A3",
+        "group": "other",
+        "printed_page": 127,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p127_B1",
+        "group": "other",
+        "printed_page": 127,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p201_A1",
+        "group": "other",
+        "printed_page": 201,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p201_A2",
+        "group": "other",
+        "printed_page": 201,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p218_B2",
+        "group": "other",
+        "printed_page": 218,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p218_B3",
+        "group": "other",
+        "printed_page": 218,
+        "source_section": "B3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p189_D",
+        "group": "other",
+        "printed_page": 189,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p154_B3",
+        "group": "other",
+        "printed_page": 154,
+        "source_section": "B3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p180_C",
+        "group": "other",
+        "printed_page": 180,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p83_A",
+        "group": "other",
+        "printed_page": 83,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p85_A1",
+        "group": "other",
+        "printed_page": 85,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p143_A",
+        "group": "other",
+        "printed_page": 143,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p147_B1",
+        "group": "other",
+        "printed_page": 147,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p147_D1",
+        "group": "other",
+        "printed_page": 147,
+        "source_section": "D1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p225_B1",
+        "group": "other",
+        "printed_page": 225,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p225_B2",
+        "group": "other",
+        "printed_page": 225,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p219_D1",
+        "group": "other",
+        "printed_page": 219,
+        "source_section": "D1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p220_A2",
+        "group": "other",
+        "printed_page": 220,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p220_B",
+        "group": "other",
+        "printed_page": 220,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p227_D",
+        "group": "other",
+        "printed_page": 227,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p226_A2",
+        "group": "other",
+        "printed_page": 226,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p86_B2",
+        "group": "other",
+        "printed_page": 86,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p86_C1",
+        "group": "other",
+        "printed_page": 86,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p96_A",
+        "group": "other",
+        "printed_page": 96,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p103_A",
+        "group": "other",
+        "printed_page": 103,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p103_C",
+        "group": "other",
+        "printed_page": 103,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p107_A",
+        "group": "other",
+        "printed_page": 107,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p136_A1",
+        "group": "other",
+        "printed_page": 136,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p136_A2",
+        "group": "other",
+        "printed_page": 136,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p183_F",
+        "group": "other",
+        "printed_page": 183,
+        "source_section": "F",
+        "source_reviewed": true
+      },
+      {
+        "id": "p183_A",
+        "group": "other",
+        "printed_page": 183,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p183_B",
+        "group": "other",
+        "printed_page": 183,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p183_C",
+        "group": "other",
+        "printed_page": 183,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p183_E",
+        "group": "other",
+        "printed_page": 183,
+        "source_section": "E",
+        "source_reviewed": true
+      },
+      {
+        "id": "p88_B",
+        "group": "other",
+        "printed_page": 88,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p109_C1",
+        "group": "other",
+        "printed_page": 109,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p109_C2",
+        "group": "other",
+        "printed_page": 109,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p190_C",
+        "group": "other",
+        "printed_page": 190,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p206_B1",
+        "group": "other",
+        "printed_page": 206,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p206_B2",
+        "group": "other",
+        "printed_page": 206,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p193_C",
+        "group": "other",
+        "printed_page": 193,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p193_D",
+        "group": "other",
+        "printed_page": 193,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p196_A",
+        "group": "other",
+        "printed_page": 196,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p215_B2",
+        "group": "other",
+        "printed_page": 215,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p183_D",
+        "group": "other",
+        "printed_page": 183,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p148_A1",
+        "group": "other",
+        "printed_page": 148,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p182_B",
+        "group": "other",
+        "printed_page": 182,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p189_B",
+        "group": "other",
+        "printed_page": 189,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p184_A2",
+        "group": "other",
+        "printed_page": 184,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p185_A2",
+        "group": "other",
+        "printed_page": 185,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p109_A2",
+        "group": "other",
+        "printed_page": 109,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p109_A3",
+        "group": "other",
+        "printed_page": 109,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p193_F",
+        "group": "other",
+        "printed_page": 193,
+        "source_section": "F",
+        "source_reviewed": true
+      },
+      {
+        "id": "p105_A",
+        "group": "other",
+        "printed_page": 105,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p144_B",
+        "group": "other",
+        "printed_page": 144,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p146_C1",
+        "group": "other",
+        "printed_page": 146,
+        "source_section": "C1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p146_C2",
+        "group": "other",
+        "printed_page": 146,
+        "source_section": "C2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p113_C",
+        "group": "other",
+        "printed_page": 113,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p124_B",
+        "group": "other",
+        "printed_page": 124,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p138_C",
+        "group": "other",
+        "printed_page": 138,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p113_D1",
+        "group": "other",
+        "printed_page": 113,
+        "source_section": "D1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p214_A1",
+        "group": "other",
+        "printed_page": 214,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p214_C",
+        "group": "other",
+        "printed_page": 214,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p197_A1",
+        "group": "other",
+        "printed_page": 197,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p197_A2",
+        "group": "other",
+        "printed_page": 197,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p197_B",
+        "group": "other",
+        "printed_page": 197,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p223_B",
+        "group": "other",
+        "printed_page": 223,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p223_C",
+        "group": "other",
+        "printed_page": 223,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p185_B",
+        "group": "other",
+        "printed_page": 185,
+        "source_section": "B",
+        "source_reviewed": true
+      },
+      {
+        "id": "p167_B1",
+        "group": "other",
+        "printed_page": 167,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p167_B2",
+        "group": "other",
+        "printed_page": 167,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p167_B3",
+        "group": "other",
+        "printed_page": 167,
+        "source_section": "B3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p167_E1",
+        "group": "other",
+        "printed_page": 167,
+        "source_section": "E1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p156_A1",
+        "group": "other",
+        "printed_page": 156,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p156_B1",
+        "group": "other",
+        "printed_page": 156,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p156_D1",
+        "group": "other",
+        "printed_page": 156,
+        "source_section": "D1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p156_E1",
+        "group": "other",
+        "printed_page": 156,
+        "source_section": "E1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p158_A1",
+        "group": "other",
+        "printed_page": 158,
+        "source_section": "A1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p158_A2",
+        "group": "other",
+        "printed_page": 158,
+        "source_section": "A2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p158_B1",
+        "group": "other",
+        "printed_page": 158,
+        "source_section": "B1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p158_E1",
+        "group": "other",
+        "printed_page": 158,
+        "source_section": "E1",
+        "source_reviewed": true
+      },
+      {
+        "id": "p159_A",
+        "group": "other",
+        "printed_page": 159,
+        "source_section": "A",
+        "source_reviewed": true
+      },
+      {
+        "id": "p152_B2",
+        "group": "other",
+        "printed_page": 152,
+        "source_section": "B2",
+        "source_reviewed": true
+      },
+      {
+        "id": "p152_C",
+        "group": "other",
+        "printed_page": 152,
+        "source_section": "C",
+        "source_reviewed": true
+      },
+      {
+        "id": "p152_D",
+        "group": "other",
+        "printed_page": 152,
+        "source_section": "D",
+        "source_reviewed": true
+      },
+      {
+        "id": "p153_A3",
+        "group": "other",
+        "printed_page": 153,
+        "source_section": "A3",
+        "source_reviewed": true
+      },
+      {
+        "id": "p153_B1",
+        "group": "other",
+        "printed_page": 153,
+        "source_section": "B1",
+        "source_reviewed": true
+      }
+    ]
+  },
+  "log_pages": [
+    {
+      "printed_page": 56,
+      "pdf_page_1based": 59,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": [
+        "A advertises2TLE but prints one unnumbered body; no absent A2 is counted. B prints both B1 and B2."
+      ]
+    },
+    {
+      "printed_page": 57,
+      "pdf_page_1based": 60,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 58,
+      "pdf_page_1based": 61,
+      "ciphertext_body_sections": [
+        "B"
+      ],
+      "other_printed_records": [
+        {
+          "section": "A1",
+          "kind": "short_stub",
+          "literal_body": "AAA",
+          "advertised_length": 196
+        },
+        {
+          "section": "A2",
+          "kind": "short_stub",
+          "literal_body": "AAA",
+          "advertised_length": 212
+        },
+        {
+          "section": "A3",
+          "kind": "cleartext_annotation_without_ciphertext_body",
+          "literal_body": "VOM 10/9 VON COS BEREITS VE VE",
+          "advertised_length": 182
+        }
+      ],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": [
+        "The three advertised A parts do not contain their advertised-length ciphertext bodies. AAA is retained as a printed stub without asserting its role."
+      ]
+    },
+    {
+      "printed_page": 59,
+      "pdf_page_1based": 62,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 60,
+      "pdf_page_1based": 63,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 61,
+      "pdf_page_1based": 64,
+      "ciphertext_body_sections": [
+        "A"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 62,
+      "pdf_page_1based": 65,
+      "ciphertext_body_sections": [
+        "A",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 63,
+      "pdf_page_1based": 66,
+      "ciphertext_body_sections": [
+        "A"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 64,
+      "pdf_page_1based": 67,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 65,
+      "pdf_page_1based": 68,
+      "ciphertext_body_sections": [
+        "A"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 66,
+      "pdf_page_1based": 69,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 67,
+      "pdf_page_1based": 70,
+      "ciphertext_body_sections": [
+        "A2",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 68,
+      "pdf_page_1based": 71,
+      "ciphertext_body_sections": [
+        "A part 1",
+        "A part 2"
+      ],
+      "printed_section_equivalences": {
+        "A part 1": "A1",
+        "A part 2": "A2"
+      },
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; preserves existing catalogue source-section names.",
+      "notes": [
+        "Two numbered bodies; parenthetical coordinates and repeated CHI/RICHI label do not add a third source body."
+      ]
+    },
+    {
+      "printed_page": 69,
+      "pdf_page_1based": 72,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 70,
+      "pdf_page_1based": 73,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 71,
+      "pdf_page_1based": 74,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 72,
+      "pdf_page_1based": 75,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 73,
+      "pdf_page_1based": 76,
+      "ciphertext_body_sections": [
+        "A"
+      ],
+      "other_printed_records": [],
+      "reviewer": "early_source_recovery",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 74,
+      "pdf_page_1based": 77,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C1",
+        "C2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 75,
+      "pdf_page_1based": 78,
+      "ciphertext_body_sections": [
+        "A3",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 76,
+      "pdf_page_1based": 79,
+      "ciphertext_body_sections": [
+        "A3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 77,
+      "pdf_page_1based": 80,
+      "ciphertext_body_sections": [
+        "A",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 78,
+      "pdf_page_1based": 81,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 79,
+      "pdf_page_1based": 82,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 80,
+      "pdf_page_1based": 83,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 81,
+      "pdf_page_1based": 84,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 82,
+      "pdf_page_1based": 85,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 83,
+      "pdf_page_1based": 86,
+      "ciphertext_body_sections": [
+        "A",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [],
+      "printed_section_equivalences": {
+        "B": "B2"
+      }
+    },
+    {
+      "printed_page": 84,
+      "pdf_page_1based": 87,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [
+        "C is a separate partially printed body with a balance-loss note; advertised length does not imply surviving source slots."
+      ]
+    },
+    {
+      "printed_page": 85,
+      "pdf_page_1based": 88,
+      "ciphertext_body_sections": [
+        "A1",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 86,
+      "pdf_page_1based": 89,
+      "ciphertext_body_sections": [
+        "A",
+        "B2",
+        "C1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 87,
+      "pdf_page_1based": 90,
+      "ciphertext_body_sections": [
+        "A1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 88,
+      "pdf_page_1based": 91,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B",
+        "C1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 89,
+      "pdf_page_1based": 92,
+      "ciphertext_body_sections": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 90,
+      "pdf_page_1based": 93,
+      "ciphertext_body_sections": [
+        "A5",
+        "B1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 91,
+      "pdf_page_1based": 94,
+      "ciphertext_body_sections": [
+        "A2",
+        "A3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 92,
+      "pdf_page_1based": 95,
+      "ciphertext_body_sections": [
+        "A",
+        "B1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 93,
+      "pdf_page_1based": 96,
+      "ciphertext_body_sections": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 94,
+      "pdf_page_1based": 97,
+      "ciphertext_body_sections": [
+        "A5",
+        "A6"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 95,
+      "pdf_page_1based": 98,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 96,
+      "pdf_page_1based": 99,
+      "ciphertext_body_sections": [
+        "A",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 97,
+      "pdf_page_1based": 100,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 98,
+      "pdf_page_1based": 101,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [],
+      "printed_section_equivalences": {
+        "B": "B2"
+      }
+    },
+    {
+      "printed_page": 99,
+      "pdf_page_1based": 102,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "C1",
+        "C2",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 100,
+      "pdf_page_1based": 103,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C",
+        "D1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 101,
+      "pdf_page_1based": 104,
+      "ciphertext_body_sections": [
+        "A2",
+        "B2",
+        "C1",
+        "D2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 102,
+      "pdf_page_1based": 105,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2",
+        "B3",
+        "C",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 103,
+      "pdf_page_1based": 106,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2",
+        "C",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 104,
+      "pdf_page_1based": 107,
+      "ciphertext_body_sections": [
+        "A3",
+        "B",
+        "C1",
+        "C2",
+        "D",
+        "E3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 105,
+      "pdf_page_1based": 108,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 106,
+      "pdf_page_1based": 109,
+      "ciphertext_body_sections": [
+        "A2",
+        "A3",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 107,
+      "pdf_page_1based": 110,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2",
+        "C",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 108,
+      "pdf_page_1based": 111,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 109,
+      "pdf_page_1based": 112,
+      "ciphertext_body_sections": [
+        "A2",
+        "A3",
+        "B",
+        "C1",
+        "C2",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [
+        "Independently confirmed by early_source_recovery from the complete source page in the 2026-11-03 continuation; no additional body or standalone stub was found."
+      ]
+    },
+    {
+      "printed_page": 110,
+      "pdf_page_1based": 113,
+      "ciphertext_body_sections": [
+        "A2",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 111,
+      "pdf_page_1based": 114,
+      "ciphertext_body_sections": [
+        "A1",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 112,
+      "pdf_page_1based": 115,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "B",
+        "C",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 113,
+      "pdf_page_1based": 116,
+      "ciphertext_body_sections": [
+        "A3",
+        "B9",
+        "C",
+        "D1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 114,
+      "pdf_page_1based": 117,
+      "ciphertext_body_sections": [
+        "A1",
+        "A4"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [
+        "The source explicitly marks parts2and3missing; they are not counted as printed bodies."
+      ]
+    },
+    {
+      "printed_page": 115,
+      "pdf_page_1based": 118,
+      "ciphertext_body_sections": [
+        "A5",
+        "A6",
+        "A7",
+        "A8"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [
+        "The source explicitly marks part9missing; it is not counted as a printed body on this page."
+      ]
+    },
+    {
+      "printed_page": 116,
+      "pdf_page_1based": 119,
+      "ciphertext_body_sections": [
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 117,
+      "pdf_page_1based": 120,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C3",
+        "C4",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 118,
+      "pdf_page_1based": 121,
+      "ciphertext_body_sections": [
+        "A2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 119,
+      "pdf_page_1based": 122,
+      "ciphertext_body_sections": [
+        "A"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 120,
+      "pdf_page_1based": 123,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 121,
+      "pdf_page_1based": 124,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 122,
+      "pdf_page_1based": 125,
+      "ciphertext_body_sections": [
+        "A2",
+        "B",
+        "C",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [],
+      "printed_section_equivalences": {
+        "D": "D1"
+      }
+    },
+    {
+      "printed_page": 123,
+      "pdf_page_1based": 126,
+      "ciphertext_body_sections": [
+        "A2",
+        "A3",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 124,
+      "pdf_page_1based": 127,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 125,
+      "pdf_page_1based": 128,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 126,
+      "pdf_page_1based": 129,
+      "ciphertext_body_sections": [
+        "A5",
+        "A6",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 127,
+      "pdf_page_1based": 130,
+      "ciphertext_body_sections": [
+        "A3",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 128,
+      "pdf_page_1based": 131,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 129,
+      "pdf_page_1based": 132,
+      "ciphertext_body_sections": [
+        "A7",
+        "A8",
+        "B1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 130,
+      "pdf_page_1based": 133,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 131,
+      "pdf_page_1based": 134,
+      "ciphertext_body_sections": [
+        "A3",
+        "A4",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 132,
+      "pdf_page_1based": 135,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [
+        "Challengep132 and supplementalp132_B are two editions of this one physicalB body."
+      ]
+    },
+    {
+      "printed_page": 133,
+      "pdf_page_1based": 136,
+      "ciphertext_body_sections": [
+        "A2",
+        "A3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 134,
+      "pdf_page_1based": 137,
+      "ciphertext_body_sections": [
+        "A4",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 135,
+      "pdf_page_1based": 138,
+      "ciphertext_body_sections": [
+        "A"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 136,
+      "pdf_page_1based": 139,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 137,
+      "pdf_page_1based": 140,
+      "ciphertext_body_sections": [
+        "A4",
+        "A5",
+        "A6",
+        "B",
+        "B4",
+        "C",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [
+        "Fullpage inspected. A6 has a surviving interference-damaged body. B has a separate unnumbered RIZI138 body preceding its printed4TL/RICHI212 body B4; no part3 number is invented."
+      ]
+    },
+    {
+      "printed_page": 138,
+      "pdf_page_1based": 141,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 139,
+      "pdf_page_1based": 142,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 140,
+      "pdf_page_1based": 143,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 141,
+      "pdf_page_1based": 144,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 142,
+      "pdf_page_1based": 145,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 143,
+      "pdf_page_1based": 146,
+      "ciphertext_body_sections": [
+        "A"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 144,
+      "pdf_page_1based": 147,
+      "ciphertext_body_sections": [
+        "A2",
+        "B",
+        "C1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 145,
+      "pdf_page_1based": 148,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [
+        "A has a printed surviving ciphertext body after the note missedfirstpart; no unprinted firstpart is counted.",
+        "Independently confirmed by early_source_recovery from the complete source page in the 2026-11-03 continuation; no additional body or standalone stub was found."
+      ]
+    },
+    {
+      "printed_page": 146,
+      "pdf_page_1based": 149,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C1",
+        "C2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [],
+      "printed_section_equivalences": {
+        "A": "A1"
+      }
+    },
+    {
+      "printed_page": 147,
+      "pdf_page_1based": 150,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "C1",
+        "D1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 148,
+      "pdf_page_1based": 151,
+      "ciphertext_body_sections": [
+        "A1",
+        "B1",
+        "C1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 149,
+      "pdf_page_1based": 152,
+      "ciphertext_body_sections": [
+        "A2",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 150,
+      "pdf_page_1based": 153,
+      "ciphertext_body_sections": [
+        "A2",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 151,
+      "pdf_page_1based": 154,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B",
+        "C",
+        "D2",
+        "E2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [
+        "Independently confirmed by early_source_recovery from the complete source page in the 2026-11-03 continuation; no additional body or standalone stub was found."
+      ]
+    },
+    {
+      "printed_page": 152,
+      "pdf_page_1based": 155,
+      "ciphertext_body_sections": [
+        "A2",
+        "B2",
+        "C",
+        "D",
+        "E1",
+        "E2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 153,
+      "pdf_page_1based": 156,
+      "ciphertext_body_sections": [
+        "A3",
+        "B1",
+        "C5",
+        "C6",
+        "D2",
+        "E1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 154,
+      "pdf_page_1based": 157,
+      "ciphertext_body_sections": [
+        "A2",
+        "B3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [
+        "Independently confirmed from full-page pixels by early_source_recovery on 2026-11-03. The p163 A16 locator is positional shorthand, not a recovered printed part number."
+      ]
+    },
+    {
+      "printed_page": 155,
+      "pdf_page_1based": 158,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B",
+        "C1",
+        "C2",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 156,
+      "pdf_page_1based": 159,
+      "ciphertext_body_sections": [
+        "A1",
+        "B1",
+        "C1",
+        "D1",
+        "E1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 157,
+      "pdf_page_1based": 160,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 158,
+      "pdf_page_1based": 161,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B1",
+        "C2",
+        "D",
+        "E1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 159,
+      "pdf_page_1based": 162,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C",
+        "Unlettered fourth item; local label D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; preserves existing unlettered-source locator.",
+      "notes": [
+        "The fourth body is unlettered in the source; the catalogue localD label is not presented as a printedD."
+      ]
+    },
+    {
+      "printed_page": 160,
+      "pdf_page_1based": 163,
+      "ciphertext_body_sections": [
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2",
+        "D1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 161,
+      "pdf_page_1based": 164,
+      "ciphertext_body_sections": [
+        "A2",
+        "B1",
+        "C1",
+        "C2",
+        "D1",
+        "D2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": []
+    },
+    {
+      "printed_page": 162,
+      "pdf_page_1based": 165,
+      "ciphertext_body_sections": [
+        "A1",
+        "B1",
+        "C1",
+        "C2",
+        "D1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [
+        "Independently confirmed from full-page pixels by early_source_recovery on 2026-11-03. The p163 A16 locator is positional shorthand, not a recovered printed part number."
+      ]
+    },
+    {
+      "printed_page": 163,
+      "pdf_page_1based": 166,
+      "ciphertext_body_sections": [
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct PDF-derived full-height source-boundary inspection; headers and printed bodies only.",
+      "notes": [
+        "A16 is a local sequential label for the jammed printed body between15TL and17TL. No printed16TL label or numeric length is asserted.",
+        "Independently confirmed from full-page pixels by early_source_recovery on 2026-11-03. The p163 A16 locator is positional shorthand, not a recovered printed part number."
+      ]
+    },
+    {
+      "printed_page": 164,
+      "pdf_page_1based": 167,
+      "ciphertext_body_sections": [
+        "A3",
+        "A4",
+        "A5",
+        "B",
+        "C1",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 165,
+      "pdf_page_1based": 168,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "A5 (printed 5 TL)"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": [
+        "The header advertises four parts, while the actual body numbers are 1 TL, 2 TL, 3 TL and 5 TL. Preserve the printed 5 TL; there are four actual bodies."
+      ]
+    },
+    {
+      "printed_page": 166,
+      "pdf_page_1based": 169,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 167,
+      "pdf_page_1based": 170,
+      "ciphertext_body_sections": [
+        "A3",
+        "B1",
+        "B2",
+        "B3",
+        "C1",
+        "D",
+        "E1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 168,
+      "pdf_page_1based": 171,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 169,
+      "pdf_page_1based": 172,
+      "ciphertext_body_sections": [
+        "A",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 170,
+      "pdf_page_1based": 173,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "early_source_recovery",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 171,
+      "pdf_page_1based": 174,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 172,
+      "pdf_page_1based": 175,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C1",
+        "C3",
+        "D1",
+        "D2",
+        "E"
+      ],
+      "other_printed_records": [
+        {
+          "source_section": "C2",
+          "kind": "explicit_missing_part",
+          "literal_note": "2 TL (Missing)"
+        }
+      ],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 173,
+      "pdf_page_1based": 176,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 174,
+      "pdf_page_1based": 177,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 175,
+      "pdf_page_1based": 178,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B2",
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 176,
+      "pdf_page_1based": 179,
+      "ciphertext_body_sections": [
+        "A4",
+        "A5",
+        "A6",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": [
+        "A6 is an actual surviving two-row ciphertext fragment followed by dashes; its advertised 160 is not a count of visible coordinates. Full page inspected."
+      ]
+    },
+    {
+      "printed_page": 177,
+      "pdf_page_1based": 180,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 178,
+      "pdf_page_1based": 181,
+      "ciphertext_body_sections": [
+        "Five-part naval order, 1 TL",
+        "Five-part naval order, 2 TL (printed B)",
+        "Five-part naval order, 3 TL",
+        "Five-part naval order, 4 TL",
+        "Five-part naval order, 5 TL"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": [
+        "The five actual naval-order bodies carry 1 TL to 5 TL; the second is also lettered B. Existing descriptive catalogue locators are retained verbatim."
+      ]
+    },
+    {
+      "printed_page": 179,
+      "pdf_page_1based": 182,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C",
+        "D1",
+        "D2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 180,
+      "pdf_page_1based": 183,
+      "ciphertext_body_sections": [
+        "A3",
+        "B2",
+        "C",
+        "D1",
+        "E"
+      ],
+      "other_printed_records": [],
+      "reviewer": "late_source_recovery",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": [
+        "Only A3,B2,C,D1,E are printed; no absent A1/A2,B1 orD2 bodies are counted."
+      ]
+    },
+    {
+      "printed_page": 181,
+      "pdf_page_1based": 184,
+      "ciphertext_body_sections": [
+        "A",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 182,
+      "pdf_page_1based": 185,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 183,
+      "pdf_page_1based": 186,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "other_printed_records": [
+        {
+          "source_section": "G",
+          "kind": "header_only",
+          "literal_header": "G) CM v CZ (01.25, November 12th); 02.10",
+          "note": "Full page inspected; no ciphertext body is printed below this header on p183."
+        }
+      ],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "ciphertext_body_sections": [
+        "A2",
+        "B1",
+        "B2",
+        "B3",
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 185,
+      "pdf_page_1based": 188,
+      "ciphertext_body_sections": [
+        "A2",
+        "B",
+        "C",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 186,
+      "pdf_page_1based": 189,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": []
+    },
+    {
+      "printed_page": 187,
+      "pdf_page_1based": 190,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B1",
+        "C",
+        "D1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip; full page inspected when fragment/header extent required confirmation.",
+      "notes": [
+        "B1 is a surviving ciphertext fragment with a jamming note; it is an actual body despite missing text."
+      ]
+    },
+    {
+      "printed_page": 188,
+      "pdf_page_1based": 191,
+      "ciphertext_body_sections": [
+        "A",
+        "B2",
+        "C1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 189,
+      "pdf_page_1based": 192,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 190,
+      "pdf_page_1based": 193,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 191,
+      "pdf_page_1based": 194,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 192,
+      "pdf_page_1based": 195,
+      "ciphertext_body_sections": [
+        "Unheaded 2 TL",
+        "Unheaded 3 TL",
+        "A",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": [
+        "Two actual unheaded bodies marked 2 TL and 3 TL precede lettered A and B; retain the catalogue locators without asserting whole-message identity."
+      ]
+    },
+    {
+      "printed_page": 193,
+      "pdf_page_1based": 196,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 194,
+      "pdf_page_1based": 197,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C",
+        "D1",
+        "E"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": [
+        "D1 is a short surviving ciphertext body under 1 TL RICHI-214; a second body is not printed on this page."
+      ]
+    },
+    {
+      "printed_page": 195,
+      "pdf_page_1based": 198,
+      "ciphertext_body_sections": [
+        "A2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 196,
+      "pdf_page_1based": 199,
+      "ciphertext_body_sections": [
+        "A",
+        "B"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 197,
+      "pdf_page_1based": 200,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 198,
+      "pdf_page_1based": 201,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "other_printed_records": [],
+      "reviewer": "late_source_recovery",
+      "review_basis": "Direct PDF-derived source boundary inspection; headers and printed bodies, not advertised but absent parts.",
+      "notes": []
+    },
+    {
+      "printed_page": 199,
+      "pdf_page_1based": 202,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "Unlettered 1 TL, following A)"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": [
+        "The final actual body is unlettered and marked 1 TL; retain its existing descriptive catalogue locator."
+      ]
+    },
+    {
+      "printed_page": 200,
+      "pdf_page_1based": 203,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 201,
+      "pdf_page_1based": 204,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 202,
+      "pdf_page_1based": 205,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 203,
+      "pdf_page_1based": 206,
+      "ciphertext_body_sections": [
+        "A2",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 204,
+      "pdf_page_1based": 207,
+      "ciphertext_body_sections": [
+        "A",
+        "B",
+        "C1",
+        "C2",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 205,
+      "pdf_page_1based": 208,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 206,
+      "pdf_page_1based": 209,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": [
+        "B advertises four parts, but only B1 and B2 bodies are printed on this page."
+      ]
+    },
+    {
+      "printed_page": 207,
+      "pdf_page_1based": 210,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B",
+        "C1",
+        "C2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": [
+        "B advertises two parts but prints one unnumbered body on this page; preserve source locator B without inventing a second printed body."
+      ]
+    },
+    {
+      "printed_page": 208,
+      "pdf_page_1based": 211,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 209,
+      "pdf_page_1based": 212,
+      "ciphertext_body_sections": [
+        "A1",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": [
+        "A advertises two parts but only A1 is printed on this page."
+      ]
+    },
+    {
+      "printed_page": 210,
+      "pdf_page_1based": 213,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B",
+        "C",
+        "D"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 211,
+      "pdf_page_1based": 214,
+      "ciphertext_body_sections": [
+        "A2",
+        "B upper",
+        "Lower B, part 1",
+        "Lower B, part 2",
+        "Lower B, part 3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": [
+        "Two distinct headings are both printed B; the upper B and three lower B parts remain separate actual bodies under existing descriptive catalogue locators."
+      ]
+    },
+    {
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": [
+        "A4 is an actual surviving ciphertext body marked 4 TL (Missed start); its missing beginning does not make it an absent part."
+      ]
+    },
+    {
+      "printed_page": 213,
+      "pdf_page_1based": 216,
+      "ciphertext_body_sections": [
+        "A6",
+        "A7",
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": [
+        "The leading 6 TL and 7 TL bodies precede a new A header with three parts; existing catalogue labels distinguish A6/A7 from A1/A2/A3."
+      ]
+    },
+    {
+      "printed_page": 214,
+      "pdf_page_1based": 217,
+      "ciphertext_body_sections": [
+        "A1",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": [
+        "A advertises two parts but only its 1 TL body is printed on this page."
+      ]
+    },
+    {
+      "printed_page": 215,
+      "pdf_page_1based": 218,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2",
+        "B3",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 217,
+      "pdf_page_1based": 220,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "B1",
+        "B2",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": [
+        "B1 follows a missed-beginning note but has a surviving body, followed by B2; both count as actual printed bodies."
+      ]
+    },
+    {
+      "printed_page": 218,
+      "pdf_page_1based": 221,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "B2",
+        "B3"
+      ],
+      "other_printed_records": [
+        {
+          "source_section": "B1",
+          "kind": "explicit_missing_part",
+          "literal_note": "(1 TL missing)"
+        }
+      ],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 219,
+      "pdf_page_1based": 222,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B",
+        "C",
+        "D1"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 220,
+      "pdf_page_1based": 223,
+      "ciphertext_body_sections": [
+        "A2",
+        "B",
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 221,
+      "pdf_page_1based": 224,
+      "ciphertext_body_sections": [
+        "A5",
+        "A6",
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 222,
+      "pdf_page_1based": 225,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 223,
+      "pdf_page_1based": 226,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "B",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 224,
+      "pdf_page_1based": 227,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "B",
+        "C1",
+        "C2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": [
+        "C2 is a ciphertext body followed by cleartext words; those annotations do not create a further ciphertext body."
+      ]
+    },
+    {
+      "printed_page": 225,
+      "pdf_page_1based": 228,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 226,
+      "pdf_page_1based": 229,
+      "ciphertext_body_sections": [
+        "A2",
+        "B2",
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "other_printed_records": [
+        {
+          "source_section": "A1",
+          "kind": "explicit_missing_part",
+          "literal_note": "(1st TL Missing)"
+        },
+        {
+          "source_section": "B1",
+          "kind": "explicit_missing_part",
+          "literal_note": "(1st TL Missing)"
+        }
+      ],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 227,
+      "pdf_page_1based": 230,
+      "ciphertext_body_sections": [
+        "A4",
+        "B",
+        "D"
+      ],
+      "other_printed_records": [
+        {
+          "source_section": "C",
+          "kind": "cleartext_only",
+          "note": "A lettered transmission with German cleartext is printed, but no ciphertext body. It is retained in the non-ciphertext material register."
+        }
+      ],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 228,
+      "pdf_page_1based": 231,
+      "ciphertext_body_sections": [
+        "A",
+        "B1",
+        "B2",
+        "B3",
+        "C1",
+        "C2"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 229,
+      "pdf_page_1based": 232,
+      "ciphertext_body_sections": [
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "C"
+      ],
+      "other_printed_records": [],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    },
+    {
+      "printed_page": 230,
+      "pdf_page_1based": 233,
+      "ciphertext_body_sections": [
+        "A3",
+        "A4",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "other_printed_records": [
+        {
+          "source_section": "A1",
+          "kind": "explicit_missing_part",
+          "literal_note": "1st and 2d TL missing"
+        },
+        {
+          "source_section": "A2",
+          "kind": "explicit_missing_part",
+          "literal_note": "1st and 2d TL missing"
+        }
+      ],
+      "reviewer": "presentation_audit",
+      "review_basis": "Direct visual inspection of full-height source-page left-margin strip.",
+      "notes": []
+    }
+  ],
+  "nonlog_material_units": [
+    {
+      "id": "childs_technical_paper",
+      "printed_pages": [
+        1,
+        22
+      ],
+      "pdf_pages_1based": [
+        6,
+        25
+      ],
+      "kind": "technical_paper",
+      "notes": [
+        "The scan contains printed pages 1, 3, and 5–22; blank printed leaves 2 and 4 are not separate PDF pages.",
+        "Figures in pp.6–12 reuse instructional cryptograms and are not new intercepted transmissions."
+      ]
+    },
+    {
+      "id": "childs_gevirge_numeric_example",
+      "printed_pages": [
+        13,
+        18
+      ],
+      "pdf_pages_1based": [
+        16,
+        21
+      ],
+      "kind": "numeric_didactic_example",
+      "notes": [
+        "The technical paper’s internal Appendix I translates a five-by-five numeric transposition example; it is not part of the historical intercept log."
+      ]
+    },
+    {
+      "id": "childs_instructional_I_XII",
+      "printed_pages": [
+        19,
+        22
+      ],
+      "pdf_pages_1based": [
+        22,
+        25
+      ],
+      "kind": "instructional_ciphertext_collection",
+      "distinct_numbered_items": 12,
+      "labels": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII",
+        "VIII",
+        "IX",
+        "X",
+        "XI",
+        "XII"
+      ],
+      "key_id": "Worked-example-VIKINGSCROWNHOTEL",
+      "edition_path": "experiments/childs_instructional_examples",
+      "notes": [
+        "Twelve numbered ciphertexts used in the technical explanation; the key is printed on pp.11–12.",
+        "These are separately counted teaching examples, not additional historical traffic or claims of new decipherment."
+      ]
+    },
+    {
+      "id": "konheim_appendix_A",
+      "printed_pages": [
+        23,
+        54
+      ],
+      "pdf_pages_1based": [
+        26,
+        57
+      ],
+      "kind": "theory_and_didactic_examples",
+      "notes": [
+        "A separate paper by Alan G. Konheim; its examples use a 5×5 alphabet with numerical coordinates.",
+        "Example 1 is introduced on p24; the complete short THE ISSUE OF PERFORMANCE illustration is on pp25–26.",
+        "Example 2 introduces an alternative substitution table on p33; later continued examples include explicitly excerpted long ciphertexts on pp36 and 41 and numerical/statistical tables.",
+        "Repeated example labels, tables and truncated excerpts are not treated as additional historical intercepted messages. No full reproduction of the paper’s mathematical results is claimed."
+      ]
+    },
+    {
+      "id": "appendix_B_title",
+      "printed_pages": [
+        55,
+        55
+      ],
+      "pdf_pages_1based": [
+        58,
+        58
+      ],
+      "kind": "section_title",
+      "notes": [
+        "The intercepted ciphertext bodies begin on printed p56."
+      ]
+    },
+    {
+      "id": "appendix_C_title",
+      "printed_pages": [
+        231,
+        231
+      ],
+      "pdf_pages_1based": [
+        234,
+        234
+      ],
+      "kind": "section_title",
+      "notes": []
+    },
+    {
+      "id": "appendix_C_keys",
+      "printed_pages": [
+        232,
+        244
+      ],
+      "pdf_pages_1based": [
+        235,
+        247
+      ],
+      "kind": "historical_key_tables",
+      "distinct_printed_key_tables": 15,
+      "registered_keys": [
+        {
+          "printed_page": 232,
+          "key_id": "Aug8-9"
+        },
+        {
+          "printed_page": 233,
+          "key_id": "Jul22"
+        },
+        {
+          "printed_page": 234,
+          "key_id": "Jul18"
+        },
+        {
+          "printed_page": 234,
+          "key_id": "Aug20"
+        },
+        {
+          "printed_page": 235,
+          "key_id": "Aug3"
+        },
+        {
+          "printed_page": 236,
+          "key_id": "Sep19-21"
+        },
+        {
+          "printed_page": 237,
+          "key_id": "Oct4-6"
+        },
+        {
+          "printed_page": 238,
+          "key_id": "Oct28-31"
+        },
+        {
+          "printed_page": 239,
+          "key_id": "Nov1-3"
+        },
+        {
+          "printed_page": 240,
+          "key_id": "Nov4-6"
+        },
+        {
+          "printed_page": 241,
+          "key_id": "Nov7-9"
+        },
+        {
+          "printed_page": 242,
+          "key_id": "Nov10-12"
+        },
+        {
+          "printed_page": 243,
+          "key_id": "Nov16-18"
+        },
+        {
+          "printed_page": 244,
+          "key_id": "Nov13-15a"
+        },
+        {
+          "printed_page": 244,
+          "key_id": "Nov13-15b"
+        }
+      ],
+      "notes": [
+        "These fifteen printed key tables are represented in data/keys.json; several substitution cells remain unknown.",
+        "The count is of printed tables, not complete recovered keys or additional ciphertext bodies."
+      ]
+    },
+    {
+      "id": "publisher_matter",
+      "pdf_pages_1based": [
+        1,
+        5,
+        248
+      ],
+      "kind": "front_and_back_matter",
+      "notes": [
+        "Cover, title/imprint, publisher introduction, volume contents and final publisher list are outside ciphertext counts."
+      ]
+    }
+  ],
+  "additional_review_packages": [
+    "september19_pigeons_and_command",
+    "nov11_romanian_mobilization_report",
+    "nov12_seifert_additional_witnesses",
+    "nov9_operations_map_sheets"
+  ],
+  "artifact_leads": {
+    "p59_A1": [
+      "experiments/poti_horse_delivery/inputs.json"
+    ],
+    "p71_A2": [
+      "experiments/october_caucasus/inputs.json"
+    ],
+    "p212_A4": [
+      "experiments/p212_p218_crosscopy/inputs.json",
+      "experiments/medical_return_transports/inputs.json"
+    ],
+    "p176_A6": [
+      "experiments/romanian_ultimatum_companions/inputs.json"
+    ],
+    "p56_A": [
+      "experiments/september19_pigeons_and_command/inputs.json"
+    ],
+    "p56_B2": [
+      "experiments/september19_pigeons_and_command/inputs.json"
+    ],
+    "p56_B1": [
+      "experiments/september19_pigeons_and_command/inputs.json"
+    ],
+    "p180_B2": [
+      "experiments/nov11_romanian_mobilization_report/inputs.json"
+    ],
+    "p137_A6": [
+      "experiments/transylvania_situation_report/inputs.json"
+    ],
+    "p162_C1": [
+      "experiments/odd_fragment_diagnostics/inputs.json"
+    ],
+    "p182_A": [
+      "experiments/nov12_seifert_additional_witnesses/inputs.json"
+    ],
+    "p182_C": [
+      "experiments/nov12_seifert_additional_witnesses/inputs.json"
+    ]
+  },
+  "limits": [
+    "The OCR retrieval pool contains 788 blocks from printed pp57–230, not 788 physical messages. It can split, merge, omit and misread source bodies.",
+    "A source-reviewed or fully fixed algebraic label stream may still contain garbles, uncertain numbers, conditional geometry or word repairs. Neither is a count of fully understood historical messages.",
+    "Current coverage must be computed from the live catalogue and current evidence; the fixed baseline must not substitute for it."
+  ]
+}

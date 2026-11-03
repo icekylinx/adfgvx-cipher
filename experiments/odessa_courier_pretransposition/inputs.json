@@ -1,0 +1,282 @@
+{
+  "schema": "adfgvx-odessa-courier-pretransposition-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Odessa courier report: a conditional loss before transposition",
+  "case": "cases/radio/odessa_courier_pretransposition.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "reviewed_source_crops": [
+    {
+      "id": "p201_C_reviewed",
+      "pdf_page_1based": 204,
+      "crop_pdf_points": [
+        43,
+        574,
+        540,
+        716
+      ],
+      "render_scale": 4,
+      "width": 1988,
+      "height": 568,
+      "channels": 3,
+      "rgb_sha256": "ee4898eaec285a2070f8ca4ea8154b4b954ff73c215e44b6e665ac11763a3305",
+      "reviewed_local_image_sha256": "59c16b7cdac875745a73bbce9e252147f84eb5d7fa0936918bf2c450132ed443",
+      "asset_policy": "Reviewed local source crop; no new PNG distributed. Optional --pdf reproduces and verifies all RGB pixels."
+    },
+    {
+      "id": "p201_C_overstrike",
+      "pdf_page_1based": 204,
+      "crop_pdf_points": [
+        214,
+        617,
+        264,
+        646
+      ],
+      "render_scale": 8,
+      "width": 400,
+      "height": 232,
+      "channels": 3,
+      "rgb_sha256": "607ab473e2cbe0f1abb090eda970226d43433ac16119b7db9e7168d893da2193",
+      "reviewed_local_image_sha256": "1bf02c2b08d0200c40be732386d3899f1e7047e323f873cca6e24203c79a4100",
+      "asset_policy": "Reviewed local source crop; no new PNG distributed. Optional --pdf reproduces and verifies all RGB pixels."
+    }
+  ],
+  "key": {
+    "id": "Nov16-18",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      12,
+      1,
+      14,
+      8,
+      16,
+      13,
+      9,
+      19,
+      3,
+      15,
+      4,
+      10,
+      18,
+      6,
+      2,
+      11,
+      17,
+      5
+    ],
+    "column_count": 19,
+    "square": "WG?EITNHUB2R??FDZJS???PY?VQL?1OAXMKC",
+    "square_rows": [
+      "WG?EIT",
+      "NHUB2R",
+      "??FDZJ",
+      "S???PY",
+      "?VQL?1",
+      "OAXMKC"
+    ],
+    "known_cell_count": 28,
+    "missing_plaintext_symbols": "03456789",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 11,
+        "author": "George Lasry",
+        "date": "2017-02-27"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 243,
+        "pdf_page_1based": 246,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "The historical appendix and Lasry also label this table December 7-9.",
+      "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+    ],
+    "baseline_square": "WG+EITNHUB2R++FDZJS+++PY+VQL+1OAXMKC",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key",
+    "documented_reuse": "7-9 December, per Childs appendix page 243 and NSA summary pages 41-42."
+  },
+  "record": {
+    "id": "p201_C",
+    "printed_page": 201,
+    "source_section": "C",
+    "literal_header": "C) NKJ (RAT) v LP (4.15 p.m., November 16th); FUER RAT 1720 (16) SSS BERLIN 15/11 (16); RICHI-324",
+    "source_rows": [
+      "AGXGA XDDXG ADDFD GDGAX XDAGA FFGDV XGAXA VAFAD",
+      "VXGXX XAXFD GXXDV GAGFA XDVFX DXXDD GGDVD AAAXG",
+      "XGDFX ADFDD XAFDD DGFVV VVFGD ADFVA GVDDA AAGDF",
+      "DDVGV GXGVX DXFXX XXXVA DAADD GDADF AAAXD GADDG",
+      "DFXXX DFFXF VDGAV AAAGD GFXXF XXFGA AGXAG AAAXD",
+      "VXGAA AADXG GDXVG XGXAX GVGVA AGDAA ADXDA DXDXX",
+      "GGXAG AADDD FFGDA VFXAA GDDAG AAGGX FVFAX FAGAV",
+      "DXXFD FFXAD DXXFX DXFVD DAFDF FXGGX XDGAX AAXAX",
+      "GXVG"
+    ],
+    "source_slots": 324,
+    "advertised_length": 324,
+    "primary_visible_glyphs": "GXXDV at source50–54; the two X-like glyphs are overstruck.",
+    "overstrike_source_indices": [
+      51,
+      52
+    ],
+    "conservative_analysis_group": "G??DV",
+    "source_glyph_note": "Both X skeletons are visible and support the primary GXXDV reading. No ink order or unambiguous reading is asserted. The conservative G??DV alternative is retained without letting plaintext select the glyphs.",
+    "received_transposition_length": 324,
+    "reconstructed_fractionated_length": 326,
+    "primary_missing_fractionated_positions": [
+      36,
+      74
+    ],
+    "equivalent_missing_fractionated_positions": [
+      [
+        36,
+        74
+      ],
+      [
+        37,
+        74
+      ]
+    ],
+    "missing_values": [
+      "X",
+      "A"
+    ],
+    "expected_loss_frame_filled_raw": "DEUTSCHENBEVOLLMAECHTIGTENXODESSAXKURIERELSNERHEUTBBEBERWILNAHIEREINGETROFFENSOLLENKURIERENACHDORTNOCHABFAHR?NXVERBINDXOFFZXOXROEMX2XDERXOXHXLCBERLINXZT?NRX1?111?X",
+    "edited_output": "DEUTSCHENBEVOLLMAECHTIGTENXODESSAXKURIERELSNERHEUTEUEBERWILNAHIEREINGETROFFENSOLLENKURIERENACHDORTNOCHABFAHRENXVERBINDXOFFZXOXROEMX2XDERXOXHXLXBERLINXZT?NRX1?111?X",
+    "readable_german": "Deutschen Bevollmaechtigten Odessa. Kurier Elsner heute ueber Wilna hier eingetroffen. Sollen Kuriere nach dort noch abfahren. Verbind. Offz. O Roem 2 der O. H. L. Berlin. ZT? Nr. 1?111?.",
+    "expected_received_substitutions": [
+      [
+        210,
+        "G",
+        "F"
+      ],
+      [
+        227,
+        "D",
+        "A"
+      ],
+      [
+        267,
+        "G",
+        "A"
+      ],
+      [
+        287,
+        "X",
+        "F"
+      ]
+    ]
+  },
+  "geometry_prefix_spans": [
+    {
+      "text": "DEUTSCHEN",
+      "start": 0
+    },
+    {
+      "text": "BEVOLLMAECHTIGTEN",
+      "start": 9
+    },
+    {
+      "text": "ODESSA",
+      "start": 27
+    },
+    {
+      "text": "KURIER",
+      "start": 34
+    },
+    {
+      "text": "ELSNER",
+      "start": 40
+    }
+  ],
+  "geometry_scopes": [
+    {
+      "id": "all_prefix",
+      "span_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "without_odessa",
+      "span_indices": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "address_only",
+      "span_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "without_courier",
+      "span_indices": [
+        0,
+        1,
+        2,
+        4
+      ]
+    }
+  ],
+  "prior_artifacts": {
+    "address_witness.json": "92f722da1026c0f0e84212041f3d537e1e268706c9c3365230b3975cbae7ac96",
+    "ocr_snapshot.json": "9061e7a321759e9d84793dea5dde602d4e8dfac89e9219a4ecef69adbafdee2e",
+    "source_transcription_audit.json": "e223ea478bee30ab7fc7b61059b73d4e27b452116ec51720e88fb6b9004c0562"
+  },
+  "prior_credit": "Published Nov16–18 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), George Lasry (2017). Earlier repository OCR and the p201 A1 native address reading retain their attribution. Source review, conditional pretransposition-loss model and explicit repairs: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All324 received ciphertext slots remain in printed order. The 324-slot column permutation is applied before adding two missing fractionation coordinates; the receiving ciphertext is never reinterpreted under a326-slot transposition.",
+    "The hypothetical forward process fractionates163 labels to326 coordinates, removes two specified coordinates, then transposes the remaining324. Exact reproduction does not establish that this historical mechanism occurred.",
+    "The prefix vocabulary and offsets were selected retrospectively. All52,975 two-loss placements and all tied optima are retained in each stated scope; neither a global key search nor unique wording is claimed.",
+    "Four observed-coordinate word repairs are separate from two added fractionation fills. No received source slot is excluded, filled or inserted in the primary visible-X branch.",
+    "The two overstruck X-like glyphs retain a conservative two-mask alternative. Completing those masks asX in that branch would cost two additional glyph-mask fills; it is not free source evidence.",
+    "The reference ending ZT?NRX1?111?X and literal ROEM2 remain unresolved/literal. The eight unknown square labels are globally injective; no historical date or reference number is selected."
+  ]
+}

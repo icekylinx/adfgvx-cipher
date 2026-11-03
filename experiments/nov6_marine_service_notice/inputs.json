@@ -1,0 +1,197 @@
+{
+  "schema": "adfgvx-marine-service-notice-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "cases/radio/nov6_marine_service_notice.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "records": [
+    {
+      "id": "p138_C",
+      "printed_page": 138,
+      "source_section": "C",
+      "source_rows": [
+        "FXGFG VDFAF XFFAA VXXWF XXGXX DGVFA XXXFA",
+        "XVADF GFFDC FXXAX VVXFV DFFXA FAXXA DFAVD",
+        "XXXVV AFDXV VXVXW AFDFF DDVAD DDAVF VXGVV",
+        "VXFGX WVXXV AXXFX GVVDA DFXVA VFFGA OXGDA",
+        "AAVAV AOGFX AAGAA GAFAX XXVFX VXVDA VGFXD",
+        "DFGAV FAAGX AVVAF VDXAF AFFFF FAADA VAXFX",
+        "AFXGV XAXVA FADFF |VAADA AXAAF GFXFF AGDFV",
+        "AFGVD AGXFX XDVXF AFGDD VXXXV VVGVX AAVDX",
+        "FVAAA"
+      ],
+      "source_slots": 286,
+      "advertised_length": 286,
+      "ambiguous_source_mark": {
+        "source_index": 225,
+        "transcription_token": "|",
+        "meaning": "Conservative token for a narrow vertical/slanted stroke immediately before VAADA; not an identification of a printed pipe character or a cipher coordinate.",
+        "source_image": "sources/p138_stroke_detail.png"
+      },
+      "native_expected_raw": "SEEM??OGSLEATUMG?ROSSESCFZYU9XADM6RAL2ER9GNXXUAC1CSE?XCDEYTSCBKXM8RLNEV1RTEZ?NWWEEGE2G8U6PE79IE?XXO?MKNREDUSYZFANF1NZALLESTRLPENB1NAC1RLCWTNGE6",
+      "analysis_frame": {
+        "exclude_source_indices": [
+          225
+        ],
+        "insert_unknown_at_source_boundary": 286,
+        "scope": "The ambiguous stroke is treated as an extra noncoordinate mark and one missing coordinate is hypothesized at the end. This is an explicit conditional frame, not a native reading."
+      },
+      "expected_raw": "SEEK??EGSLEITUNG?ROSSESXHZYUXXADMIRALBERLINXXPACHCHEFXXDEUTSCHEXMARINEVERTRX?NDHEERESGRUPPEXKIE?XXO?MANIEAUSGEFALL1NXALLESTRLLENBENACHR?CHTIGEN",
+      "readable_candidate": "SEEKRIEGSLEITUNGGROSSESXHZYUXXADMIRALBERLINXXNACHCHEFXXDEUTSCHEXMARINEVERTRXUNDHEERESGRUPPEXKIE?XXO?MANIEAUSGEFALLENXALLESTELLENBENACHRICHTIGEN",
+      "readable_german": "Seekriegsleitung. Grosses HZYU. Admiral Berlin. Nachchef. Deutsche Marinevertr und Heeresgruppe KIE?. O?MANIE ausgefallen. Alle Stellen benachrichtigen.",
+      "protected_fields": [
+        "HZYU",
+        "KIE?",
+        "O?MANIE"
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "path": "sources/p138_C_reviewed.png",
+      "printed_page": 138,
+      "pdf_page_1based": 141,
+      "crop_pdf_points": [
+        65,
+        548,
+        545,
+        756
+      ],
+      "render_scale": 3,
+      "sha256": "435a8c5a4fcff3659874bb12f6e4fc9cd4fd1263aa5361b75c5b72c25224136c",
+      "width": 1440,
+      "height": 624,
+      "rgb_sha256": "b6e9f34f568c8b30c85c2867ce8f5c5efe0d9b875072359308a7aed4cc2a236b",
+      "channels": 3,
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    },
+    {
+      "path": "sources/p138_stroke_detail.png",
+      "printed_page": 138,
+      "pdf_page_1based": 141,
+      "crop_pdf_points": [
+        285,
+        665,
+        335,
+        693
+      ],
+      "render_scale": 6,
+      "sha256": "d07b04fe7042832a918dca1559ecdd41f0720249172edd53ff26f9116c42a79d",
+      "width": 300,
+      "height": 168,
+      "rgb_sha256": "c4abeea2b3dfa6925c67bff5b5e5d79a12daa008bc4c51d08db20df418f5cf12",
+      "channels": 3,
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "headers": [
+    "Page heading: 6th November 1918.",
+    "C) UKS RAT v NKJ (10.32 p.m., November 6th, 1918.)",
+    "10.15 6/11 VON ASO KR",
+    "RICHI-286",
+    "Cleartext ending: B M K - UKS RAT v NKJ UM"
+  ],
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "prior_artifacts": {
+    "ocr_snapshot.json": "5e2bc73295248185193f3d336bf0fc7286aa9cd6e425333e22da6637818ef50d",
+    "prior_candidates.json": "32c7d7b2abef7d37f0058f67d16d5e5d98016211bba6e264475321575bb0eb97"
+  },
+  "limits": [
+    "The transcription counts the ambiguous narrow stroke before VAADA as one masked source slot, giving 286 slots and matching the advertisement. Its native decode is preserved in full.",
+    "The readable proposal explicitly excludes that one masked mark and adds one coordinate slot at the end. The source does not show a cancellation or a blank establishing either operation.",
+    "With that mark excluded and the stated partial candidate fixed, every single-gap alignment is priced; a lowest price establishes compatibility only within that family, not historical uniqueness.",
+    "The ordinary-word proposal uses three observed substitutions, four source-mask fills and one added-slot fill. Two unresolved plaintext positions remain.",
+    "HZYU, KIE? and O?MANIE stay literal; the edition does not identify them from historical geography, expand all abbreviations or invent a reason for the reported failure.",
+    "The published Nov4–6 key and all retained source order remain unchanged. One excluded masked mark is counted separately from observed substitutions and supplied coordinates.",
+    "Earlier key recovery and repository work retain credit. This is a conditional source restoration, not a first decipherment."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

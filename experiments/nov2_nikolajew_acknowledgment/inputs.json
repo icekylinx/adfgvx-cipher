@@ -1,0 +1,167 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Receipt request through Nikolajew: the other p105 telegram",
+  "case": "cases/radio/nov2_nikolajew_acknowledgment.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p105_reviewed.png",
+      "pdf_page_1based": 108,
+      "crop_pdf_points": [
+        70,
+        220,
+        540,
+        426
+      ],
+      "render_scale": 3,
+      "sha256": "a3cf1950bcfee2d1c80f0a6cbc22a6989192460e28eab0ea55f814c9c9eed3b3",
+      "width": 1410,
+      "height": 618,
+      "channels": 3,
+      "rgb_sha256": "27648e73c51dd2be5b556af4215f053b297727141d225979996454f57e03b495",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "keys": {
+    "Nov1-3": {
+      "id": "Nov1-3",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        3,
+        16,
+        4,
+        15,
+        7,
+        12,
+        18,
+        6,
+        17,
+        8,
+        19,
+        1,
+        13,
+        10,
+        2,
+        14,
+        11,
+        9,
+        5
+      ],
+      "column_count": 19,
+      "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "square_rows": [
+        "UILOF9",
+        "RCZVSX",
+        "02G7QT",
+        "D8WNB5",
+        "JMHEKP",
+        "Y41A36"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 239,
+          "pdf_page_1based": 242,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  },
+  "records": [
+    {
+      "id": "p105_A",
+      "key_id": "Nov1-3",
+      "title": "Mackensen receipt request through Nikolajew, with literal reference fields",
+      "header_literal": "A) FUER UKS v LP (5.10 p.m., November 2nd); 1530 (2/11); RICHI-300",
+      "readable_german": "An Oberkdo. Mackensen. Empfangsbestaetigung von RM. 1. A. A1118 GEH. OP. und RM. 1. A. 111M7 GEH. OP. ueber Nikolajew durch F. T. erbeten. OHL. RM. 1. A. No. 104716 GEW. OP.",
+      "meaning": "The message requests radio confirmation through Nikolajew that Mackensen command received the two referenced communications. The raw reference strings A1118 and 111M7, and the final GEW designation, are preserved.",
+      "protected_fields": [
+        "A1118",
+        "111M7",
+        "104716",
+        "GEW"
+      ],
+      "notes": [
+        "This physical record is section A; the original p105 challenge concerns the different 290-slot section B and retains its identifier and earlier attribution.",
+        "All 300 source slots are retained in the printed order. The earlier 308-slot OCR block included seven characters from the next header and expanded printed DXXXX to six characters; correcting the machine transcription is not an alteration of the historical ciphertext.",
+        "The primary readable display changes spacing and punctuation only. A1118, 111M7 and GEW are not silently converted to more familiar references.",
+        "A separately priced interpretation compares the two references with independent p105 C1 and p106 A2; agreement of subject matter supports a reference-identification hypothesis, not an assertion that the telegrams are identical copies."
+      ],
+      "printed_page": 105,
+      "source_section": "A",
+      "source_rows": [
+        "GVVVG XXDGV FVXDA AVGGX DFVFF VVXGF FXXGG VADGA",
+        "DFDFD GDXGX DVGXD GXXGX VFGXA GDFVF AGVAG XAGXG",
+        "DDFXX GDFDV DVDXG DDVGF FFAXG AADFA FVVXX GDFVD",
+        "AGDGV FDAVF FAXXX GDGFX XFAGG FGXGX XGGDG XDVGV",
+        "FDDFD XVGVV DXXXX GDFDF DFVDA ADGVD GXGGG AXDGX",
+        "FVXXG VDGAX XXDFV AAGDG GVXVG XXGFA GGGAG FGDGG",
+        "ADDGX DXDXV XDGDV XDGVA VXAAV AXFAG VVDXV XXXVA",
+        "GXDGV VAGAX DDFAA DFDFX"
+      ],
+      "source_slots": 300,
+      "advertised_length": 300,
+      "expected_raw": "ANXOBERKDOXMACKENSENXEMPFANGSBESTAETIGUNGXVONXRMX1XAXA1118XGEHXOPXUNDXRMX1XAX111M7XGEHXOPXUEBERXNIKOLAJEWXDURCHXFTXERBETENXOHLXRMX1XAXNOX104716XGEWXOP",
+      "edited_output": "ANXOBERKDOXMACKENSENXEMPFANGSBESTAETIGUNGXVONXRMX1XAXA1118XGEHXOPXUNDXRMX1XAX111M7XGEHXOPXUEBERXNIKOLAJEWXDURCHXFTXERBETENXOHLXRMX1XAXNOX104716XGEWXOP",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "93b8d7c5ced7f83f42b2e3cf0d66722ac3ee8d4b8f835c64ba008e616f9ec57b",
+    "ocr_snapshot.json": "24aebbf3f381e9c6ea61f45fd00a77127dd4de25f5a04cfa3a26528eba9a95df"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

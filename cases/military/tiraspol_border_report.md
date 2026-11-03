@@ -6,7 +6,7 @@ Source edition and verification: **icekylinx and GPT-6 Astra Pro**.
 
 ## p162 C2
 
-Childs printed p162 (PDF p165), C, has an unknown sending identifier,
+Childs printed p162 (PDF p165), C, has an unknown recipient identifier,
 `v NKJ`, and receipt `09.45 a.m., November 9th`. The page explicitly says
 `missed first part of this message`. A separate 117-coordinate C1 fragment
 remains unread and is excluded from the three new accepted records in
@@ -51,3 +51,5 @@ and prior candidate status are retained in the
 [certificates](../../experiments/nov8_map_and_boundary/certificates.json)
 and [reproduction guide](../../experiments/nov8_map_and_boundary/README.md).
 No first historical decipherment priority is claimed.
+
+A later [p162/p166 source-family collation](../radio/nov9_wire_return_source_family.md) conditionally restores the p162 C1 prefix from the independently observed p166 copy and supplies a received-coordinate witness for this C2 dash fill. The original raw, edited and readable displays above remain unchanged.

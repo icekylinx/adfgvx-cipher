@@ -1,0 +1,54 @@
+{
+  "origin_path": "experiments/odessa_wagon_sale/inputs.json",
+  "sha256_at_snapshot": "6a9e8e135c214725d890512860a3b8bf8e9d5b88671f1a50380ff3a31aeedbac",
+  "record": {
+    "id": "p201_A1",
+    "title": "Consulate and export-company address for a wagon-sale instruction",
+    "key_id": "Nov16-18",
+    "header_literal": "A) NKJ FUER RAT (6.50 a.m., November 16th); 0700 (16) 2 TLE; 1 TL RICHI-254",
+    "readable_german": "Deutsches Generalkonsulat Odessa. Nr. ?? AUSSENUKRA. An DEUTSCHEEN Bevollmaechtigten Odessa. Fuer Ausfuhrgesellschaft. Abt. RM ? Ihr Telegramm",
+    "meaning": "The first part gives the German consulate at Odessa, an unresolved numbered reference, the Odessa representative and an export company as address or routing information. It then begins a reference to a previous telegram. The spelling DEUTSCHEEN and AUSSENUKRA are retained without silently normalizing them.",
+    "notes": [
+      "All 254 coordinates are present in the printed source and decode without repair. The earlier OCR split the first row from the rest; the complete native body is now used.",
+      "DEUTSCHEEN is retained with both E letters. AUSSENUKRA, ABT and RM remain unexpanded, and RM is not treated as a currency amount.",
+      "The three question marks are different unresolved square cells FD, GF and GD. They cannot be assigned independently or given the same label under an injective completion. No reference number is inferred."
+    ],
+    "printed_page": 201,
+    "source_section": "A1",
+    "source_rows": [
+      "AGDDG ADGFX GXADG XGXXD GAFDD XGAXX XAADA AFGAX",
+      "XVAFF GAADD AXGAA GDXGX AADFF DAVAF DXVXF DDXAF",
+      "DGADD ADXGA FGXDA VFGGD XADAF DGXDD DGDGA AGGDX",
+      "DGFDX AVDXF XFVGA GFXDX GDXXG AGAAX FDGAA DGADX",
+      "AGXAA GADGF VDDGG DFXAF AXGXA XVXXD XFDXX VXFGX",
+      "AFAGD AAGDG DGXDX ADAXD AGDFA DXDDX GGVXG AFDXD",
+      "GGXAX DFVXG AVGA"
+    ],
+    "source_slots": 254,
+    "advertised_length": 254,
+    "expected_raw": "DEUTSCHESGENERALKONSULATODESSAXNRX??XAUSSENUKRAANDEUTSCHEENBEVOLLMAECHTIGTENODESSAXFUERAUSFUHRGESELLSCHAFTXABTXRMX?IHRTELEGRAMM",
+    "edited_output": "DEUTSCHESGENERALKONSULATODESSAXNRX??XAUSSENUKRAANDEUTSCHEENBEVOLLMAECHTIGTENODESSAXFUERAUSFUHRGESELLSCHAFTXABTXRMX?IHRTELEGRAMM",
+    "source_variants": [],
+    "separator_label": "X",
+    "question_mark_punctuation_at_end": false,
+    "expected_substitutions": 0,
+    "expected_source_mask_fills": 0
+  },
+  "source_image": {
+    "path": "../odessa_wagon_sale/sources/p201_reviewed.png",
+    "pdf_page_1based": 204,
+    "crop_pdf_points": [
+      40,
+      177,
+      515,
+      380
+    ],
+    "render_scale": 3,
+    "sha256": "82c439c027bae7496a5f0d40eb01c30afb8e7b596bb5a22cd0baf7007fff66b1",
+    "width": 1425,
+    "height": 609,
+    "channels": 3,
+    "rgb_sha256": "7fe38ec5a5df55ca01138523df1ed2328bf8bd67d7ae9e5ab6031827379ad102"
+  },
+  "scope": "Independent native BEVOLLMAECHTIGTEN and ODESSA vocabulary/address witness; not an identical message or source of the courier-report body."
+}

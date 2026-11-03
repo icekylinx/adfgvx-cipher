@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 75–99](../075-099/README.md) · [pp. 125–149 →](../125-149/README.md)
 
-**3 challenge entries and 85 other reviewed entries across 25 printed pages, representing 88 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
+**3 challenge entries and 91 other reviewed entries across 25 printed pages, representing 94 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
 
 Jump to page: [p100](#p100) · [p101](#p101) · [p102](#p102) · [p103](#p103) · [p104](#p104) · [p105](#p105) · [p106](#p106) · [p107](#p107) · [p108](#p108) · [p109](#p109) · [p110](#p110) · [p111](#p111) · [p112](#p112) · [p113](#p113) · [p114](#p114) · [p115](#p115) · [p116](#p116) · [p117](#p117) · [p118](#p118) · [p119](#p119) · [p120](#p120) · [p121](#p121) · [p122](#p122) · [p123](#p123) · [p124](#p124).
 
@@ -87,6 +87,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p105 A](../../radio/nov2_nikolajew_acknowledgment.md#p105-a) | Mackensen receipt request through Nikolajew, with literal reference fields | Native 300-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p105 C1](../../radio/nov2_telegram_acknowledgments.md#p105-c1) | First of three acknowledgment instructions addressed to Mackensen | 119/119 raw positions under stated frame; 0 substitutions; 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; earlier repository candidates retained |
 
 ## p106
@@ -133,6 +134,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p109 A2](../../radio/nov3_bucharest_power_source_query.md#p109-a2) | Bucharest dispatch enquiry and power-source specifications | 81/81 native raw positions; 4 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
+| [p109 A3](../../radio/nov3_bucharest_power_source_query.md#p109-a3) | Direct query for a motor about 50PS, 220V direct-current dynamo and 25kW rating | 114/114 native raw positions; 0 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
 | [p109 B](../../p109.md) | Evening enemy-division report toward Belgrade | Near-parallel supporting p 109; word alternatives remain | icekylinx and GPT-6 Astra Pro (2026) |
 | [p109 C1](../../military/nov3_northeast_foot_march.md#p109-c1) | Two-part march notice and officer dispatch: a priced editorial reading | 105/105 native raw positions; 14 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
 | [p109 C2](../../military/nov3_northeast_foot_march.md#p109-c2) | General Staff officer to be dispatched by air; literal closing EINS4 and 7023 | 59/61 native raw positions; 2 coordinate substitutions + 2 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
@@ -177,6 +180,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p113 A3](../../military/mackensen_withdrawal_report.md#p113-a3) | Forces south of the Danube | Prior identified report; source edition with explicit local repair costs | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
 | [p113 B9](../../military/mackensen_withdrawal_report.md#p113-b9) | The separately received ninth part | Unchanged-source reading; separately received ninth part reassembled | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p113 C](../../naval/nov3_poti_tobacco_loading.md#p113-c) | Poti tobacco loading inquiry, with literal quantity 2400 | Native 212-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p113 D1](../../radio/nov3_eilvese_traffic_schedule.md#p113-d1) | Eilvese/OUI transmission modes and provisional traffic times, with literal labels | 362 printed slots; conditional 352-slot frame excludes 7 observed coordinates and 3 masks; 176/176 fixed raw; 3 word-repair substitutions, no fills; all minimum frame alternatives retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p114
 
@@ -287,6 +292,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p124 A1](../../military/hungarian_armistice_instructions.md#p124-a1) | Reported Hungarian armistice negotiations and requested German departure | Native 352 coordinates; 3 substitutions; KOOVES and final 0 retained | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier A1 body and A2/A3 OCR artifacts retained |
 | [p124 A2](../../military/hungarian_armistice_instructions.md#p124-a2) | Two staff officers for negotiations; instructions requested | Native 266 coordinates; 3 substitutions; source spelling GENERLSTABSOFFIZIERE retained | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier A1 body and A2/A3 OCR artifacts retained |
 | [p124 A3](../../military/hungarian_armistice_instructions.md#p124-a3) | Command and reference 11222 for the three-part negotiation message | Native 48 coordinates; zero edits; source-defined A2/A3 split restored | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier A1 body and A2/A3 OCR artifacts retained |
+| [p124 B](../../military/nov4_flying_unit_inquiry.md#p124-b) | Inquiry whether flying units should depart or remain; opening reference unresolved | Conditional 184-slot frame from 183 printed slots; 2 observed substitutions, 16 source-mask fills and 1 added-slot fill; 83/92 fixed edited positions; both local gap minima retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 [Return to all source pages](../README.md).
 

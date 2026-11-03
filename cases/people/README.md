@@ -4,7 +4,7 @@
 
 Appointments, staff transfers, travel permissions, personnel inquiries and civilian affairs are collected here.
 
-**53 reviewed entries across 30 case pages, representing 53 physical sources; 53 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**54 reviewed entries across 31 case pages, representing 54 physical sources; 54 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -36,6 +36,7 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [Constantinople embassy address and Stumm signature](constantinople_embassy_signature.md) | p162 D1 |
 | [The Namur order: two witnesses for Staedt and Weiher](namur_order_witnesses.md) | p171 C, p172 E |
 | [Delegates directed through Spa toward Berlin](spa_berlin_delegates.md) | p175 A1, p175 A2 |
+| [Congratulation core under a conditional one-coordinate exclusion](nov13_conditional_congratulation.md) | p193 F |
 | [p203 C / p210 C — inquiries about Richter in Aleppo](richter_aleppo.md) | p203 C, p210 C |
 | [p210 B — Consul Burkhardt's oil-company assignment](p210_B.md) | p210 B |
 | [German civilians in Constantinople: an enquiry and a diplomatic appeal](constantinople_civilians.md) | p221 B1, p221 B2, p221 B3, p221 B4 |
@@ -89,6 +90,7 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [p172 E](namur_order_witnesses.md) | Namur order for Staedt to contact HPT V. Weiher; complementary source witness | 242 received slots plus 10 modeled missing prefix coordinates; five substitutions and ten witnessed prefix fills; same 126-position body as p171 C | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. key and earlier unreviewed C candidate retained; neighboring published body attribution distinguished |
 | [p175 A1](spa_berlin_delegates.md#p175-a1) | Delegates directed through Spa: Namur and von Weiher address | Prior Lasry body; native frame and four coordinate repairs | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; Lasry et al. 2016 §6.4 prior body and interpretation |
 | [p175 A2](spa_berlin_delegates.md#p175-a2) | Berlin onward journey and an unresolved departure-time digit | Prior Lasry body; one coordinate repair; time domain 56789 retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; Lasry et al. 2016 §6.4 prior body and interpretation |
+| [p193 F](nov13_conditional_congratulation.md) | Congratulation core under explicit one-coordinate exclusion; endpoints remain conditional | 75 observed slots; conditional 74-coordinate model, 1 terminal X exclusion + 1 substitution; 36/37 labels fixed; endpoint alternatives retained | icekylinx and GPT-6 Astra Pro (2026); unchanged published partial Nov13-15b key; prior OCR and discovery retained |
 | [p203 C](richter_aleppo.md) | Inquiry about Richter at the Aleppo radio park | 93/96 raw positions; postal digits remain coupled and unknown | icekylinx and GPT-6 Astra Pro (2026) |
 | [p210 B](p210_B.md) | End of Consul Burkhardt's oil-company assignment | 158/158 raw positions; five word repairs; date labels literal | icekylinx and GPT-6 Astra Pro (2026) |
 | [p210 C](richter_aleppo.md) | Fuller inquiry about NCO Kurt Richter in Aleppo | 201/204 raw positions; six substitutions and three fills | icekylinx and GPT-6 Astra Pro (2026) |

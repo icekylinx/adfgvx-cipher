@@ -2,35 +2,39 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-**State: in progress.** The initial remote publication was confirmed at
-2026-11-02 23:27:19 UTC. The original two-hour follow-up and subsequent
-extensions are preserved in the inputs. This further requested two-hour
-continuation began at **2026-11-03 05:58:04 UTC**, running through at least
-**07:58:04 UTC (15:58:04 UTC+8)**. No completed duration is claimed by this checkpoint.
+**State: in progress.** The current requested 3-hour continuation began at **2026-11-03T08:04:46Z** and runs through at least **2026-11-03T11:04:46Z**. No completed duration is claimed by this checkpoint. Earlier follow-up periods remain preserved separately in the inputs. Completion describes the reviewed research snapshot; public publication is verified separately.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 577 other reviewed catalogue entries**, with all
-22 challenge entries preserved. It adds **382 catalogue entries across 119 source
-packages**, representing **381 newly catalogued physical sources** and one later
+This snapshot compares **195 → 631 other reviewed catalogue entries**, with all
+22 challenge entries preserved. It adds **436 catalogue entries across 148 source
+packages**, representing **435 newly catalogued physical sources** and one later
 edition of an existing source. Across the challenge and other tables together,
-there are **598 unique physical sources**; **576** are additional to
+there are **652 unique physical sources**; **630** are additional to
 the challenge set. [p132_B is a later edition of challenge p132](../../docs/catalogue-source-overlaps.md),
 with Thomas and Norbert's original reading credit retained. It adds a reviewed
 entry but no new physical source. Interpretation and open-target method audits
 also add no physical sources.
 
-The source packages account for **80,180 literal source slots** and
-**40,339 modeled plaintext positions**, of which
-**38,837 have fixed raw labels** under their stated frames.
+The source packages account for **89,654 literal source slots** and
+**45,171 modeled plaintext positions**, of which
+**43,349 have fixed raw labels** under their stated frames.
 These are coverage counts, including repeated copies, prior body readings,
 conditional frames, the later p132 edition and unresolved historical numerals.
 They are not a count of first decipherments or independently authenticated
-historical letters. All **783 observed-coordinate substitutions** remain separately priced.
+historical letters. All **902 observed-coordinate substitutions** remain separately priced.
 Printed-mask fills, missing-slot fills, copied prefixes and source-layout
 exclusions keep their distinct units in each package. In particular, the
 copy-conditioned p157 A1 record contributes **0/95 fixed raw positions**;
 its copied values are excluded from the fixed-raw total.
+
+The p158 E1 parallel contributes **116 fixed raw positions** with the added
+slot unassigned. Its independently witnessed A supplies **one additional
+fixed position**, recorded separately as source-linked completion; the
+package's displayed 117-position baseline remains unchanged. This one
+position is excluded from the cumulative fixed-raw total.
+
+The p162/p166 wire-report family contributes **205 directly fixed raw labels** across its three new source bodies. Its **157 additional source-linked fixed labels** are separate: 156 depend on the copied p166 prefix and one on an independently witnessed missing X. The six changed observed coordinates are charged once at their original source locations, including the three donor-prefix word repairs. These linked completions are excluded from the cumulative fixed-raw total.
 
 ## Source packages
 
@@ -155,6 +159,35 @@ its copied values are excluded from the fixed-raw total.
 | [Southern hungary positions part2](../southern_hungary_positions_part2/README.md) | 1 | 300 | 150 | 129 | 0 |
 | [A parallel car enquiry with an explicit extra-coordinate model](../car_query_parallel_frame/README.md) | 1 | 37 | 18 | 18 | 1 |
 | [Nov6 embassy 8956 annotation](../nov6_embassy_8956_annotation/README.md) | 1 | 130 | 65 | 65 | 5 |
+| [An expected return and an attempt to obtain a vehicle](../return_time_and_vehicle_attempt/README.md) | 2 | 132 | 66 | 66 | 4 |
+| [A second-part instruction on security measures at own discretion](../group_security_measures_fragment/README.md) | 1 | 202 | 101 | 96 | 6 |
+| [A request to send money to BRASSO by another means](../brasso_money_alternative_route/README.md) | 1 | 244 | 122 | 113 | 0 |
+| [Nov3 bucharest power source](../nov3_bucharest_power_source/README.md) | 2 | 390 | 195 | 195 | 4 |
+| [Conditional November 13 congratulation](../nov13_congratulation_conditional_frame/README.md) | 1 | 75 | 37 | 36 | 1 |
+| [Receipt request through Nikolajew: the other p105 telegram](../nov2_nikolajew_acknowledgment/README.md) | 1 | 300 | 150 | 150 | 0 |
+| [Troop crossing in boats: a fragmentary November 6 report](../nov6_boat_crossing_fragment/README.md) | 1 | 192 | 96 | 93 | 5 |
+| [Ringbahn instruction to the Caucasus delegation in Tiflis](../nov6_tiflis_ringbahn_instruction/README.md) | 2 | 365 | 184 | 175 | 1 |
+| [Poti tobacco loading inquiry](../nov3_poti_tobacco_loading/README.md) | 1 | 212 | 106 | 106 | 1 |
+| [Flying-unit departure or retention inquiry](../nov4_flying_unit_inquiry/README.md) | 1 | 183 | 92 | 67 | 2 |
+| [Conditional November 6 marine-service notice](../nov6_marine_service_notice/README.md) | 1 | 286 | 143 | 136 | 3 |
+| [Eilvese/OUI traffic schedule](../nov3_eilvese_traffic_schedule/README.md) | 1 | 362 | 176 | 176 | 3 |
+| [November 22: reverse key use and an Aufbau date correction](../nov22_reverse_keys_and_date_correction/README.md) | 2 | 268 | 134 | 133 | 0 |
+| [November 15: Warsaw radio personnel and a repeated key notice](../nov15_radio_personnel_and_key_notice/README.md) | 3 | 461 | 233 | 221 | 4 |
+| [November 27: Helsingfors shipping and a vehicle-sale instruction](../nov27_ships_and_vehicle_sale/README.md) | 2 | 481 | 238 | 236 | 7 |
+| [Baku personnel inquiry: a duplicated-block source reconstruction](../baku_personnel_inquiry/README.md) | 1 | 279 | 134 | 125 | 10 |
+| [November 9: a crown airlift request and an urgent embassy address](../nov9_crown_airlift_and_embassy/README.md) | 4 | 624 | 312 | 311 | 1 |
+| [November 7–8: embassy, legation and Etappe address parts](../nov7_8_embassy_address_parts/README.md) | 7 | 568 | 284 | 284 | 11 |
+| [November 8: a separate Serbian-cavalry report witness](../nov8_serbian_cavalry_parallel/README.md) | 1 | 235 | 118 | 116 | 5 |
+| [Arad provisions and strength report: conditional partial recovery](../arad_provisions_partial/README.md) | 1 | 271 | 136 | 124 | 6 |
+| [November 7: Danube crossings and short message reports](../nov7_danube_and_message_reports/README.md) | 5 | 778 | 389 | 384 | 14 |
+| [September 19: pigeons and Army Group East command arrangements](../september19_pigeons_and_command/README.md) | 3 | 542 | 271 | 268 | 1 |
+| [November 11: Romanian mobilization and a crossing report](../nov11_romanian_mobilization_report/README.md) | 1 | 235 | 120 | 110 | 4 |
+| [November 12: additional arrival and return enquiry witnesses](../nov12_seifert_additional_witnesses/README.md) | 2 | 104 | 61 | 35 | 2 |
+| [Native restoration of the p151 E2 operations-map fragment](../nov9_operations_map_sheets/README.md) | 1 | 224 | 112 | 108 | 2 |
+| [Poti first part: all minimum five-exclusion frames](../poti_first_part_conditional/README.md) | 1 | 225 | 110 | 103 | 5 |
+| [Odessa courier report: a conditional loss before transposition](../odessa_courier_pretransposition/README.md) | 1 | 324 | 163 | 157 | 4 |
+| [November 30: aviation march destinations](../nov30_aviation_march_destination/README.md) | 1 | 384 | 187 | 183 | 7 |
+| [November 9 wire-return source family](../nov9_wire_return_source_family/README.md) | 3 | 528 | 362 | 205 | 6 |
 
 ## Additional interpretation and method audits
 
@@ -170,6 +203,8 @@ its copied values are excluded from the fixed-raw total.
 - [Optional route vocabulary in the jammed p116 A13](../p116_optional_route_fragment/README.md)
 - [An optional two-deletion reading of p105 B](../p105_optional_two_deletions/README.md)
 - [A source glyph restores ZU DORT in the Gokieloff record](../p136_source_glyph_correction/README.md)
+- [A literal duplicate-pair alternative for p109 D](../p109_optional_duplicate_pair/README.md)
+- [Childs: all twelve numbered instructional examples](../childs_instructional_examples/README.md)
 
 These packages retain their own calibration limits and conditional assumptions.
 A source-compatible witness or an exact language optimum does not by itself
@@ -195,7 +230,7 @@ retains exact unknown fields and exposes prose-only spellings in six cases. A fo
 The p111/p112 package also checks every nonseparator label in seven complete
 readable passages, preserving all five unresolved positions.
 
-The [live readable-label audit](../../data/reviews/live_readable_mappings_20261103.json) checks 134 records in 76 case pages: 11,318 ordered nonseparator labels, 81 literal unresolved positions, and 3 explicitly declared display-only letters. It reads the actual Markdown quotations and their linked raw or edited streams, including protected internal separators and positional question marks. The [coverage guide](../../docs/reading-conventions-coverage.md) separately identifies later supplementary, table and continuation mappings without adding overlapping scopes together.
+The [live readable-label audit](../../data/reviews/live_readable_mappings_20261103.json) checks 141 records in 81 case pages: 11,801 ordered nonseparator labels, 92 literal unresolved positions, and 3 explicitly declared display-only letters. It reads the actual Markdown quotations and their linked raw or edited streams, including protected internal separators and positional question marks. The [coverage guide](../../docs/reading-conventions-coverage.md) separately identifies later supplementary, table and continuation mappings without adding overlapping scopes together.
 
 ## Independent source-image binding
 
@@ -224,7 +259,11 @@ beside their packages and run in CI.
 The review uses preserved start/end catalogues, so a later live catalogue
 can grow without rewriting its historical count. The earlier
 [87-to-195 review](../session_review/README.md) remains separate and unchanged.
-The completion timestamp must satisfy the original follow-up and the later 07:58:04 UTC deadline.
+The completion timestamp must satisfy the current requested continuation deadline.
 
 For readable messages, use the [case guide](../../cases/README.md); for the
 reorganized layout, use the [repository map](../../docs/repository-map.md).
+
+### External source-PDF references
+
+The current text edition carries **40 source-crop references** without distributing their PNG image bytes. The page, rectangle, scale, dimensions and RGB hash identify the evidence. A portable run checks the text and arithmetic and explicitly leaves source pixels unchecked. Supplying the original authenticated PDF additionally renders and checks every reference. Existing embedded images retain their strict PNG and source-pixel checks. See [source evidence modes](../../docs/source-evidence-modes.md).

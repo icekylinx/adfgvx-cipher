@@ -4,11 +4,21 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [pp. 75–99 →](../075-099/README.md)
 
-**1 challenge entry and 40 other reviewed entries across 18 printed pages, representing 41 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
+**1 challenge entry and 44 other reviewed entries across 19 printed pages, representing 45 unique physical sources.** Entry counts retain later editions of a shared source; they do not count first decipherments.
 
-Jump to page: [p57](#p57) · [p58](#p58) · [p59](#p59) · [p60](#p60) · [p61](#p61) · [p62](#p62) · [p63](#p63) · [p64](#p64) · [p65](#p65) · [p66](#p66) · [p67](#p67) · [p68](#p68) · [p69](#p69) · [p70](#p70) · [p71](#p71) · [p72](#p72) · [p73](#p73) · [p74](#p74).
+Jump to page: [p56](#p56) · [p57](#p57) · [p58](#p58) · [p59](#p59) · [p60](#p60) · [p61](#p61) · [p62](#p62) · [p63](#p63) · [p64](#p64) · [p65](#p65) · [p66](#p66) · [p67](#p67) · [p68](#p68) · [p69](#p69) · [p70](#p70) · [p71](#p71) · [p72](#p72) · [p73](#p73) · [p74](#p74).
 
 Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's reading qualifications and credit, with reviewed count-unit and spacing corrections in the displayed status. The linked case explains the evidence and its limits.
+
+## p56
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p56 A](../../radio/september19_pigeons_and_command.md#p56-a) | Pigeon-transfer instructions with literal destination and reference fields | Native 222-slot frame; 0 observed-coordinate substitutions and 2 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p56 B1](../../radio/september19_pigeons_and_command.md#p56-b1) | Army Group East to receive its own German AKONACH | Native 168-slot frame; 1 observed-coordinate substitution and 1 source-mask fill; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p56 B2](../../radio/september19_pigeons_and_command.md#p56-b2) | Reorganization of the subordination relationship of Funk A151 | Native 152-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p57
 
@@ -34,6 +44,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p59 A1](../../caucasus/poti_first_part_conditional.md) | Poti horse transport: conditional first-part reading | Conditional225-to220 frame; all21 minimum five-exclusion maps;103/110 raw-fixed and105/110 after five substitutions/two fills; names and opening unresolved | icekylinx and GPT-6 Astra Pro (2026); unchanged published Sep19–21 key; earlier source edition retained |
 | [p59 A2](../../caucasus/poti_horse_delivery.md#p59-a2) | Poti shipment for cavalry brigade and request for instructions | Native220 slots;11 observed substitutions+3 dash fills; opaque ending retained | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; earlier partial A2 repository candidate retained |
 | [p59 A3](../../caucasus/poti_horse_delivery.md#p59-a3) | Poti horse handover and urgent reply to an earlier radio message | Native230 slots;9 observed substitutions+23 dash fills;8 reference positions remain unknown | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; earlier partial A2 repository candidate retained |
 | [p59 B](../../radio/nazareth_front_inquiry.md#p59-b) | Nazareth evaluation office asked for news from the fighting front | Native 172 slots; complete raw reading without any coordinate edit | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; earlier unreviewed repository body candidate |

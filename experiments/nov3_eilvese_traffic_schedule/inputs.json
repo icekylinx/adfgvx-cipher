@@ -1,0 +1,199 @@
+{
+  "schema": "adfgvx-eilvese-traffic-schedule-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "cases/radio/nov3_eilvese_traffic_schedule.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov1-3",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      3,
+      16,
+      4,
+      15,
+      7,
+      12,
+      18,
+      6,
+      17,
+      8,
+      19,
+      1,
+      13,
+      10,
+      2,
+      14,
+      11,
+      9,
+      5
+    ],
+    "column_count": 19,
+    "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+    "square_rows": [
+      "UILOF9",
+      "RCZVSX",
+      "02G7QT",
+      "D8WNB5",
+      "JMHEKP",
+      "Y41A36"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 239,
+        "pdf_page_1based": 242,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p113_D1_reviewed.png",
+      "printed_page": 113,
+      "pdf_page_1based": 116,
+      "crop_pdf_points": [
+        45,
+        625,
+        555,
+        810
+      ],
+      "render_scale": 3,
+      "sha256": "7aa1e42662faf939a24057924a80f32263c6b3e59543497fcfcbb27778586d88",
+      "width": 1530,
+      "height": 555,
+      "rgb_sha256": "286d14a9440109d4bfe7fd6b08af5396024d268d9d9773cf80661e63ca426c55",
+      "channels": 3,
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    },
+    {
+      "path": "sources/p113_D1_repetition_detail.png",
+      "printed_page": 113,
+      "pdf_page_1based": 116,
+      "crop_pdf_points": [
+        280,
+        712,
+        438,
+        739
+      ],
+      "render_scale": 6,
+      "sha256": "ef4bac4e2e42c59a5de1ab2a4966112745182b571432d7660922736460931f3e",
+      "width": 948,
+      "height": 162,
+      "rgb_sha256": "f75284c1e4fe64079b680e0bd0aedd71807d9f34f2d7dd748260bca56286fec4",
+      "channels": 3,
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "records": [
+    {
+      "id": "p113_D1",
+      "printed_page": 113,
+      "source_section": "D1",
+      "source_rows": [
+        "VGVDG AAXGF GDGDG XDFDG XXAXD GAGDG FVDAF VVAGX",
+        "FGAAF XVGVG GXFDF ADDGV GADDD GAVXV VXXXA GDGXG",
+        "AFDGX VGGFX XVGVX VGVXV GFXFV AFDAG AAXXG GVVGA",
+        "DGVDX FVXXF GGFFG VXAFD XVFAD FVXXG XDGXV GFGGF",
+        "VGGFD VDGVX DXFAV FAGVD DG--- FAGVD DGFVG AXFAF",
+        "FAGVG AAVGV AXDFD VDAAG VDGAA AAXAV FAVAD VVDFG",
+        "AXAGA XXFDA XFFAV GXGFV ADXVD FAADD XXGDF VVFGA",
+        "FDGGV DXGAV GFGFA XXGAG DADAG AVGXF VGGXG ADFDA",
+        "FXGXD DVDDX DADVX DDDGX DFAFD GXXGD FVVXD GVDGA",
+        "AV"
+      ],
+      "source_slots": 362,
+      "advertised_length": 352,
+      "native_expected_raw": "5DDVOQH855BS4KMW9LP08MP5BF6ENJA2P9S070OXIVGAU1O028PQVI8987C8X5RKBG57QU7H3RDPJFRS1EC57E3PBOFG8WNP1Q1IA?WLNBBCC2R?EZDJARQN?JK65TI83R2VX240D9VD9OM9N9LNYWJE2ODX6I3MPJOH1ARTS7XVC0OAM2UPM",
+      "analysis_frame": {
+        "exclude_half_open_source_ranges": [
+          [
+            175,
+            185
+          ]
+        ],
+        "scope": "Conditional exclusion of one repeated FAGVD plus the adjacent DG--- group, leaving one FAGVD. The source marks no cancellation; the 362/352 length discrepancy and exact repeat motivate the bounded comparison."
+      },
+      "expected_raw": "EILVESEXOUIXSENDETABX3X13X12XNACHTSXUNGEDAENPFTANSIEMITWELLE9500XOUIEMPFAENGTSIEWELLEX4250XTOENENDXXVORLAUFIGEVERKEHRSZEITENXXOUIXSENDET12NACHTSBIX0100X0330BIS0345X0530BIS0600X",
+      "readable_candidate": "EILVESEXOUIXSENDETABX3X13X12XNACHTSXUNGEDAEMPFTANSIEMITWELLE9500XOUIEMPFAENGTSIEWELLEX4250XTOENENDXXVORLAUFIGEVERKEHRSZEITENXXOUIXSENDET12NACHTSBIS0100X0330BIS0345X0530BIS0600X",
+      "readable_german": "Eilvese. OUI sendet ab 3X13, 12 nachts, ungedaempft an Sie mit Welle 9500. OUI empfaengt Sie Welle 4250, toenend. Vorlaufige Verkehrszeiten: OUI sendet 12 nachts bis 0100, 0330 bis 0345, 0530 bis 0600.",
+      "protected_fields": [
+        "3X13",
+        "9500",
+        "4250",
+        "0100",
+        "0330",
+        "0345",
+        "0530",
+        "0600"
+      ]
+    }
+  ],
+  "headers": [
+    "Page heading: 3rd NOVEMBER, 1918.",
+    "D) NKJ (UKS) v LP (3 p.m., November 3rd)",
+    "0605 (3/11) 2 TLE",
+    "1 TL RIZI-352"
+  ],
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "prior_artifacts": {
+    "ocr_snapshot.json": "34a02c046ede276de245b4459f97cf5dbf70001616be64b1e02349932855ab59",
+    "prior_candidates.json": "f38a411eadac4bf2351c5c07b02d42163b130b5208a39d430d7a2c64d9a65bd8"
+  },
+  "limits": [
+    "The 362-slot literal source and advertised 352-slot length remain separate. The full native decode is preserved.",
+    "The primary model excludes ten printed slots: seven accepted coordinates and three dashes. The source shows a repetition but no cancellation; the exclusion is a conditional hypothesis.",
+    "All 353 contiguous ten-slot exclusions and all 2556 pairs of complete five-slot groups are priced against a fixed full edited candidate. The complete minimum sets are retained, including alternatives that require additional source-mask fills.",
+    "Eight contiguous deletion starts (175 through 182) yield the same complete no-fill raw stream. Two whole-group choices also yield that same stream. No unique historical deletion site is inferred.",
+    "The ordinary-word proposal changes UNGEDAENPFT to UNGEDAEMPFT and BIX to BIS at three observed-coordinate substitutions. VORLAUFIGE and all numerical labels remain literal.",
+    "3X13 is not normalized into a date. Wavelength and time labels are literal outputs under the published square; the edition does not independently authenticate their historical numerical assignments or attach unstated units or time zones.",
+    "The header announces two parts but only this first part is recovered here. A different nearby telegram is not silently supplied as its continuation.",
+    "Published period-key recovery and earlier repository work retain their credit. This is a conditional source restoration, not a first decipherment."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

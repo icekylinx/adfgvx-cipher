@@ -1,0 +1,237 @@
+{
+  "schema": "adfgvx-poti-first-part-conditional-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "cases/caucasus/poti_first_part_conditional.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "../poti_horse_delivery/sources/p59_A1.png",
+      "printed_page": 59,
+      "pdf_page_1based": 62,
+      "crop_pdf_points": [
+        85,
+        210,
+        538,
+        390
+      ],
+      "render_scale": 4,
+      "sha256": "f62654df8599fd230ece18072cbc25ee1cd9f3ea863d78f79fdbef5c8becdbd5",
+      "width": 1812,
+      "height": 720,
+      "channels": 3,
+      "rgb_sha256": "f7e4cbb70825217b8b5566d9f145a9ea4b4d76d31a552d29cb2d18221ff62572"
+    }
+  ],
+  "key": {
+    "id": "Sep19-21",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      12,
+      2,
+      7,
+      20,
+      10,
+      19,
+      1,
+      13,
+      9,
+      18,
+      3,
+      17,
+      21,
+      8,
+      14,
+      4,
+      6,
+      16,
+      11,
+      22,
+      5,
+      15
+    ],
+    "column_count": 22,
+    "square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+    "square_rows": [
+      "D5613Q",
+      "9KBNO0",
+      "HY8EIS",
+      "JUTZFC",
+      "W7VPML",
+      "2ARG4X"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 236,
+        "pdf_page_1based": 239,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "D5613Q9KBNO0HY8EISJUTZFCW7VPML2ARG4X",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "prior_source_edition": {
+    "path": "experiments/poti_horse_delivery/inputs.json",
+    "sha256": "652bc19b993385e3b64d401dbf4cea545f9ffc6ea6225ac43a884dccf60afec2",
+    "record_id": "p59_A1",
+    "role": "Previously preserved but uncounted source; its entire old edition remains unchanged."
+  },
+  "record": {
+    "id": "p59_A1",
+    "printed_page": 59,
+    "source_section": "A1",
+    "header_literal": "SSD, COS v ASO (07.50 a.m., September 22nd); 2250 (21.9) 3 TLE; 1 TL RICHI-220",
+    "source_rows": [
+      "-XXXX XDXGG FADDD XGDXG GAVVG GXXXX AX--D DDGVV",
+      "XXVXA GDFAD VDXDV VVFFG XXGXX DXXXD XGVDD AAVGG",
+      "GVVXG GG-AF -AD-D XXAVX XXXXA -XXXF AFGGA XGFFF",
+      "DDDDD DFDFD XXFXX XXDGD XDFXD VFDAX DAFGV VXXGF",
+      "VGGFF VFXAX VVVVF DD-DA FFAGF XXAAD XGVFX AFFDG",
+      "AFFDD AAGXX AAFVV VXXDG GXGFV"
+    ],
+    "source_slots": 225,
+    "advertised_length": 220,
+    "conditional_excluded_source_indices": [
+      200,
+      201,
+      202,
+      203,
+      204
+    ],
+    "expected_raw": "6X??FFQ274XHG6AM11X9XAUF9AMPF?RXVUR?A4VA?NAX5XBATTAAM15X9XAUFDAM?FZRXBURDALXBYRDA?XINSGYSAWT52PFERDENAUHXPOTI0",
+    "edited_output": "6X??FFQ274XHG6AM11X9XAUFDAMPFERXVUR?A4VA?NAX5XBATTAAM15X9XAUFDAMPFERXBURDALXBYRDA?XINSGESAMT52PFERDENACHXPOTI0",
+    "readable_german": "6 X ??FFQ274 X HG6 am 11 X 9 X auf Dampfer X VUR?A4VA?NA X 5 X BATT A am 15 X 9 X auf Dampfer X BURDAL X BYRDA? X insgesamt 52 Pferde nach X POTI0.",
+    "ordinary_word_anchors": [
+      [
+        21,
+        "AUFDAMPFER"
+      ],
+      [
+        58,
+        "AUFDAMPFER"
+      ],
+      [
+        83,
+        "INSGESAMT"
+      ],
+      [
+        94,
+        "PFERDE"
+      ],
+      [
+        100,
+        "NACH"
+      ],
+      [
+        105,
+        "POTI"
+      ]
+    ],
+    "protected_fields": [
+      "??FFQ274",
+      "HG6",
+      "VUR?A4VA?NA",
+      "BATTA",
+      "BURDAL",
+      "BYRDA?",
+      "52",
+      "POTI0"
+    ]
+  },
+  "bounded_search": {
+    "source_length": 225,
+    "model_length": 220,
+    "exactly_five_source_exclusions": true,
+    "cost_order": [
+      "observed_coordinate_substitutions",
+      "printed_mask_fills"
+    ],
+    "all_other_template_positions_unconstrained": true,
+    "expected_minimum_cost": [
+      5,
+      2
+    ],
+    "expected_minimizing_source_maps": 21,
+    "expected_distinct_raw_streams": 8,
+    "holdouts": {
+      "two_steamer_clauses": {
+        "anchor_indices": [
+          0,
+          1
+        ],
+        "minimum_cost": [
+          2,
+          2
+        ],
+        "minimum_paths": 812
+      },
+      "transport_footer": {
+        "anchor_indices": [
+          2,
+          3,
+          5
+        ],
+        "minimum_cost": [
+          1,
+          0
+        ],
+        "minimum_paths": 359630
+      },
+      "without_NACH": {
+        "anchor_indices": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "minimum_cost": [
+          4,
+          2
+        ],
+        "minimum_paths": 1146
+      }
+    }
+  },
+  "limits": [
+    "The225 printed slots and RICHI220 remain in disagreement. Excluding five coordinates is a declared conditional frame, not a verified historical deletion.",
+    "All21 minimum source maps and their eight raw streams are retained. The raw prefix labels and the first date-like field differ across them; no unique prefix, date or vessel identity is asserted.",
+    "The word stencils constrain only ordinary transport words. Proper names, numerical fields and the opaque opening are not used to choose the frame.",
+    "The fixed-position count is algebraic under the declared frame and includes garbles; it is not a historical accuracy rate.",
+    "The native odd225-coordinate diagnostic and its unpaired coordinate remain preserved. No source coordinate is silently dropped."
+  ],
+  "credit": "Childs source p59 and the published Sep19–21 key; earlier source transcription and A2/A3 edition retained. Joint frame pricing, constrained partial edition and complete alternative accounting: icekylinx and GPT-6 Astra Pro. No first-decipherment claim."
+}

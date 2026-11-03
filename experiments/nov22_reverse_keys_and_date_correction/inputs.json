@@ -1,0 +1,190 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "November 22: reverse key use and an Aufbau date correction",
+  "case": "cases/radio/nov22_reverse_keys_and_date_correction.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p214_reviewed.png",
+      "pdf_page_1based": 217,
+      "crop_pdf_points": [
+        70,
+        165,
+        520,
+        555
+      ],
+      "render_scale": 3,
+      "sha256": "228f6105748134e8614c2fa61bdf8e1f9c3b9bf15516afe45897a753224a8878",
+      "width": 1350,
+      "height": 1170,
+      "channels": 3,
+      "rgb_sha256": "66baeb1d7aed8369ab4830b2fe0941644179ba7276459840509a8ad1672218ba",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "keys": {
+    "Nov22-24": {
+      "id": "Nov22-24",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        12,
+        16,
+        7,
+        14,
+        22,
+        11,
+        18,
+        1,
+        15,
+        8,
+        10,
+        20,
+        2,
+        13,
+        21,
+        3,
+        17,
+        19,
+        5,
+        9,
+        4
+      ],
+      "column_count": 22,
+      "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+      "square_rows": [
+        "QNZ72X",
+        "S4C0IJ",
+        "Y3RBEK",
+        "L9FD6G",
+        "MTHUVW",
+        "A5O8P1"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  },
+  "records": [
+    {
+      "id": "p214_A1",
+      "title": "Keep the keys and use them backwards in December",
+      "key_id": "Nov22-24",
+      "header_literal": "22nd NOVEMBER, 1918. A) ZOEN v BSL (04.25 a.m., November 23d); 1600 (11/22) 2 TLE; 1 TL RIZI-180",
+      "readable_german": "Bis auf weiteres saemtliches Schluessel ab JJ aufbewahren. Fuer Dezember dann rueckwaerts verwenden.",
+      "meaning": "The first part instructs the recipient to retain the keys from the literal label JJ and then use them backwards for December. It does not identify a full daily schedule or establish that the instruction was followed.",
+      "protected_fields": [
+        "JJ"
+      ],
+      "notes": [
+        "The native decoded wording SAEMTLICHES SCHLUESSEL is preserved without grammatical correction. The final printed AAVXA restores five coordinates omitted by the earlier OCR, while the visibly five-slot VVXAF replaces the six-character OCR group VVVXAF; these are transcription corrections, not alterations of the source.",
+        "The source advertises two parts but only the first is printed in this section. The date in the page heading and internal header is November 22; interception is November 23. JJ remains a pair of literal square labels, not an authenticated day number.",
+        "RUECKWAERTS is a direct raw reading. Which material is to be reversed, and the actual date-by-date use, cannot be established from this part alone."
+      ],
+      "printed_page": 214,
+      "source_section": "A1",
+      "source_rows": [
+        "VXDDF FVFXA AXDGF XDGFV GFVAV FAGVA VVDVA",
+        "FGGAG FFVFF FAFAV VVAXG DDXGF VDFVF FFDDF",
+        "FXFFF VFXVA VFXDD FVAFV GFFVV FDFDF VVXAF",
+        "FFDDD XXFAD GAFXF VGVDF FGVGA VAVAV GFFXD",
+        "AAAGF FFVVD DGVGX GVVGA AFDVV DGAXV XVAAA",
+        "AAVXA"
+      ],
+      "source_slots": 180,
+      "advertised_length": 180,
+      "expected_raw": "BISAUFWEITERESSAEMTLICHESSCHLUESSELABJJXAUFBEWAHRENXFUERDEZEMBERDANNXRUECKWAERTSVERWENDENX",
+      "edited_output": "BISAUFWEITERESSAEMTLICHESSCHLUESSELABJJXAUFBEWAHRENXFUERDEZEMBERDANNXRUECKWAERTSVERWENDENX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p214_C",
+      "title": "A short Aufbau date correction with literal numerical labels",
+      "key_id": "Nov22-24",
+      "header_literal": "C) BSL v ZOEN (06.09 p.m., November 22d); RIZI-88",
+      "edited_output": "AUFBAUNICHTJ8XODERJ7XSONDERNJ7XODERJ3XNOVXXX",
+      "readable_german": "Aufbau nicht J8 oder J7, sondern J7 oder J3 Nov.",
+      "meaning": "The message corrects date-like alternatives associated with Aufbau. The transmitted repetition of J7 on both sides is preserved; none of the labels is converted to a calendar day.",
+      "protected_fields": [
+        "J8",
+        "J7",
+        "J3"
+      ],
+      "notes": [
+        "The Y-like invalid initial glyph in YXAFF is transcribed as Y and conservatively masked. Supplying V at source index 60 gives the U in AUFBAU. It is one source-mask fill, with no observed-coordinate substitution.",
+        "The printed interception date is November 22d; the earlier OCR date November 23d is corrected against the image.",
+        "No relation to another Aufbau order, unit, station installation or missing second part is asserted solely from adjacency."
+      ],
+      "printed_page": 214,
+      "source_section": "C",
+      "source_rows": [
+        "XGFAD FXFDA AADAG XFXFX XDXFG GDFVF AAVDG",
+        "AGVDD FXFFA XFVDD AVGAG DAGFX YXAFF GXXGF",
+        "VDVAX AAFDX VXGVF XGX"
+      ],
+      "source_slots": 88,
+      "advertised_length": 88,
+      "expected_raw": "A?FBAUNICHTJ8XODERJ7XSONDERNJ7XODERJ3XNOVXXX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 0,
+      "expected_source_mask_fills": 1
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "f1fcf71eacab12235e9786d7bebe8435125d5151107c58e83710a9a584cac295",
+    "ocr_snapshot.json": "8989ca670de8028062bea47979766dee1395250522243fbc86ca22d155ab8d02"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

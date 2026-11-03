@@ -1,0 +1,276 @@
+{
+  "schema": "adfgvx-tiflis-ringbahn-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "November 6 Ringbahn instruction to the Caucasus delegation in Tiflis",
+  "case": "cases/radio/nov6_tiflis_ringbahn_instruction.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "path": "sources/p146_C_reviewed.png",
+      "printed_page": 146,
+      "pdf_page_1based": 149,
+      "crop_pdf_points": [
+        75,
+        440,
+        540,
+        725
+      ],
+      "render_scale": 3,
+      "sha256": "4ffe7d1e388629c4a7674f1524098165a95a5986bce56d2f7cc04c368d4e9d20",
+      "width": 1395,
+      "height": 855,
+      "rgb_sha256": "d8b992a79c3ce6a3d04aa53fbfaa6e506124d2c1bf0ec3631ff3a884ef56ace6",
+      "channels": 3,
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "records": [
+    {
+      "id": "p146_C1",
+      "printed_page": 146,
+      "source_section": "C1",
+      "source_rows": [
+        "VXVAG DGVGX XGAAX AFXXV XGAXX GVAFG FVGXA FAFAX",
+        "GGVGF XXAAA VVFFG XVXGX FVXXX XAAF XXVAA XVDFV",
+        "FAAFF GFAXA VAFAG DXXXX FAGGX FXXDA AXAFD XAFAF",
+        "GDFVA GVAXA FAFXV XFGVX AAFVF FAAXG XGVAF AVADD",
+        "AXXFA AXXAV DFFVD"
+      ],
+      "source_slots": 174,
+      "advertised_length": 176,
+      "analysis_frame": {
+        "insert_unknown_at_source_boundaries": [
+          66,
+          173
+        ],
+        "primary_choice_only": false
+      },
+      "expected_raw": "RINGBAHNNOVEMBERSCHLUESSELNICHTVERNICHTENX?CHLUESSELERSTERDEZEMBERWIEZEHNTE?NOVEMBERUSWX",
+      "readable_candidate": "RINGBAHNNOVEMBERSCHLUESSELNICHTVERNICHTENXSCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWX",
+      "readable_german": "Ringbahn-Novemberschluessel nicht vernichten. Schluessel erster Dezember wie zehnter November usw.",
+      "meaning": "Keep November Ringbahn keys and use the November 10 key for December 1.",
+      "protected_fields": [],
+      "expected_observed_substitutions": 0,
+      "expected_source_mask_fills": 0,
+      "expected_inserted_slot_fills": 2
+    },
+    {
+      "id": "p146_C2",
+      "printed_page": 146,
+      "source_section": "C2",
+      "source_rows": [
+        "AXFVX FXXVA VDGVA VAXXA DDXFV AXAXA XXADX VF--",
+        "VF--X VVAVA FXXFX DVXFX VAAAF GVVFX GVAFG VGADV",
+        "VFAXX FGDAF DXVVD GVFFX FVGFA FXXDW VVGAG VAAGF",
+        "FXXXV XVXAF AVAVX VXFAF VXVVD XGXAA VGGAF VVAFD",
+        "XFFXG XAVAA FFDFV -DGVD XXXFF AVVVD XD"
+      ],
+      "source_slots": 191,
+      "advertised_length": 192,
+      "analysis_frame": {
+        "insert_unknown_at_source_boundaries": [
+          37
+        ],
+        "primary_choice_only": true
+      },
+      "expected_raw": "BISEINUNDZWANZIGSTERDEZEMBERWI?DREISSIG?TERNO?E?BERXEMPFANGS?ESTAETIGUNGX?A8HRICH?ENCHEF4B47857X",
+      "readable_candidate": "BISEINUNDZWANZIGSTERDEZEMBERWIEDREISSIGSTERNOVEMBERXEMPFANGSBESTAETIGUNGXNACHRICHTENCHEF4B47857X",
+      "readable_german": "Bis einundzwanzigster Dezember wie dreissigster November. Empfangsbestaetigung. Nachrichtenchef 4B47857.",
+      "meaning": "Continue the schedule through December 21 using November 30, and request acknowledgment.",
+      "protected_fields": [
+        "4B47857"
+      ],
+      "expected_observed_substitutions": 1,
+      "expected_source_mask_fills": 6,
+      "expected_inserted_slot_fills": 1
+    }
+  ],
+  "headers": [
+    "Page heading: 6th NOVEMBER, 1918.",
+    "C) COS v LP (06.46 a.m., November 7th)",
+    "FUER COS 2040 (6/11) AN NACHRICHTENKOMMDR KAUKASUS DELEGATION TIFLIS 2 TLE",
+    "1 TL RICHI-176",
+    "2 TL RICHI-192",
+    "Cleartext ending after part 2: NKJ v LP UM"
+  ],
+  "prior_artifacts": {
+    "ocr_snapshot.json": "9cd49a13e42660881facb687496bf6e897e20c958cf48918271529fc27eca0d8",
+    "prior_candidates.json": "b40d45719e2767024a02a864a97eaea3cba2111460365b660d5cd320043e18f5"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "supporting_sources": [
+    {
+      "input_path": "experiments/nov6_ringbahn_key_witnesses/inputs.json",
+      "input_sha256": "fba3fac11f80aa03893a3b397bbe9c6e07129b1006ce6fb671b0df3618d65611",
+      "records": [
+        {
+          "id": "p145_B3",
+          "printed_page": 145,
+          "source_section": "B3",
+          "source_rows": [
+            "FXGVF FAVXA FGDGV FVXXX VAVFA VXXXF DXXDX XXVFV",
+            "AFFFD ADAGF AFVVG VXFFX XXDAV AVAFD AFVGX AXAFA",
+            "XFAAF GAXXF GVDFD AFAXA XVDXV ADGVD XVAFV VFXDD",
+            "GVVVD FDGGD VVAD"
+          ],
+          "source_slots": 134,
+          "advertised_length": 134,
+          "expected_raw": "WIEDREISSIGSTERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNKCHRCHEFX4XBX47857X",
+          "readable_candidate": "WIEDREISSIGSTERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNACHRCHEFX4XBX47857X",
+          "readable_german": "wie dreissigster November. Empfangsbestaetigung. Nachrchef 4 B47857."
+        }
+      ]
+    },
+    {
+      "input_path": "experiments/open_targets_continuation/inputs.json",
+      "input_sha256": "3e725d540949ed1b654d15d5e9282e49acf6ba2029443fbead7e606ffed9a1d8",
+      "records": [
+        {
+          "id": "p211_B_lower2",
+          "printed_page": 211,
+          "pdf_page_1based": 214,
+          "section": "Lower duplicate-labelled B, part 2 of 3",
+          "heading": "19th NOVEMBER, 1918.",
+          "header": "POT v NKJ (09.48 a.m., November 22d); FUER POT COS VON LP SS DD 2230 3 TLE; 2 TL; RICHI-184",
+          "declared_coordinate_length": 184,
+          "key_id": "Nov4-6",
+          "ocr_blocks": [
+            "p211_ocr_block4"
+          ],
+          "source_image": "sources/childs_p211_selected.png",
+          "source_rows": [
+            "GFDFV FAAXX FVVXA VAFAX FXVXA FXXVD XFVFA AXAFG",
+            "FAFXA VXGXF XFVAX DAAFV FFDGV XAFGV AFAVX FVFVG",
+            "DFVAX VFXVX XFAAV VFAXV AXAAA VXFAD XGAAF XXVVA",
+            "FVFAF XVGVA ADGVA FGVFX GXAAF FVADX VVXFD GVGXX",
+            "AAVAA XXFAG GXVXF DAFAX GFFD"
+          ],
+          "expected_raw": "NICHTINKRAFTXDAFUERSCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWANZIGSTERDEZEMBER",
+          "editorial_patches": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "supporting_spans": [
+    {
+      "new_record": "p146_C1",
+      "old_record": "p211_B_lower2",
+      "text": "SCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSW"
+    },
+    {
+      "new_record": "p146_C2",
+      "old_record": "p211_B_lower2",
+      "text": "BISEINUNDZWANZIGSTERDEZEMBER"
+    },
+    {
+      "new_record": "p146_C2",
+      "old_record": "p145_B3",
+      "text": "WIEDREISSIGSTERNOVEMBER"
+    },
+    {
+      "new_record": "p146_C2",
+      "old_record": "p145_B3",
+      "text": "EMPFANGSBESTAETIGUNG"
+    }
+  ],
+  "limits": [
+    "The complete proposed text is conditional on three added coordinate slots. No observed source slot is deleted or reordered, and the published key is unchanged.",
+    "Part 1 has one visibly four-symbol XAAF group, but the second gap has no directly visible location; its position is a cipher reconstruction conditional on the fixed complete candidate.",
+    "Part 2 has three equally low-cost insertion boundaries, 37, 38 and 39, inside or immediately after the short VF-- group. Boundary 37 is a display convention, not a uniquely recovered physical gap.",
+    "The gap searches are exhaustive only for the stated fixed text and deletion-only alignment families. They do not establish unique historical plaintext or the stage of loss.",
+    "The p145 and p211 sources independently support exact schedule and acknowledgment spans. They are differently worded dispatches and do not support identifying every letter or reference by copy equivalence.",
+    "The expanded word NACHRICHTENCHEF is an explicit local lexical repair, while the reference 4B47857 remains unchanged. No historical digit reassignment is claimed.",
+    "The telegram reports a key schedule; actual use by all stations is not inferred. Date, header and source records remain separate.",
+    "Earlier key recovery and published readings retain credit. This source restoration is not a first-decipherment claim."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

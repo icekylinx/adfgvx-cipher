@@ -6,8 +6,8 @@ The [reading guide](reading-conventions.md) separates Raw output, Edited
 output, Readable German and Conditional interpretation. The
 [reviewed manifest](../data/reviews/reading_layer_manifest.json) lists every
 substantive case present in this presentation snapshot, with a classification
-and byte digest for every fenced or quoted display. It records **249 case
-pages, 1065 fenced displays and 332 quoted displays**. These are display
+and byte digest for every fenced or quoted display. It records **278 case
+pages, 1241 fenced displays and 387 quoted displays**. These are display
 counts, not counts of physical telegrams, newly recovered plaintexts or
 independently authenticated readings. The checker excludes **48 explicit
 compatibility redirects and eight navigation README pages**.
@@ -16,19 +16,19 @@ compatibility redirects and eight navigation README pages**.
 
 | Fenced display role | Count |
 |---|---:|
-| Raw output under its stated key and frame | 501 |
-| Edited output under its stated repairs | 346 |
-| Conditional interpretation | 9 |
+| Raw output under its stated key and frame | 574 |
+| Edited output under its stated repairs | 396 |
+| Conditional interpretation | 14 |
 | Readable German with linked variables | 1 |
 | Earlier attributed reading | 27 |
 | Recomputed prior reading | 11 |
-| Literal source transcription | 72 |
+| Literal source transcription | 105 |
 | Re-encryption witness | 1 |
 | Search diagnostic | 1 |
 | Geometry-alternative list | 1 |
-| Reproduction commands | 95 |
+| Reproduction commands | 110 |
 
-The quoted displays comprise 327 Readable German passages, four separately
+The quoted displays comprise 382 Readable German passages, four separately
 labelled conditional interpretations and one English meaning. Their local
 qualifiers remain part of the manifest. A Readable German label does not
 cancel a stated conditional frame, editorial repair or historical
@@ -129,6 +129,20 @@ any decoded position or repair. The before/after audit protects 19 fenced
 blocks, 15 headings, 74 prior inline-code occurrences and eight evidence files.
 The earlier excerpting and punctuation rendering were already disclosed.
 
+The [current continuation mappings](reading-conventions-continuation.md)
+add 35 complete readable quotations from 16 new case pages. Their 2,761
+ordered nonseparator labels preserve 26 displayed unknown positions,
+internal X labels in two opaque fields and the separately priced optional
+p144 B opening. These 35 displayed readings describe 34 physical records;
+an alternative reading is not an additional source record.
+
+The [independent continuation count audit](continuation-source-count-audit.md)
+reconstructs every native and modeled slot across the same 16 packages.
+It keeps observed coordinates, masks, exclusions, added slots, source-linked
+completion and editorial fills separate. Its 2,837 fixed raw positions leave
+all added slots unassigned; the one independently copied A raises the
+displayed baseline to 2,838 and remains a separate source-linked contribution.
+
 The [optional p132 address supplement](../experiments/p132_optional_address/README.md)
 adds a complete 118-label quotation in its own experiment README. A separate
 live mapping protects the unchanged name and footer, while its source/cipher
@@ -155,11 +169,12 @@ python data/reviews/verify_reading_conventions.py --snapshot data/reviews/readin
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
 python data/reviews/check_reading_presentation.py
 python data/reviews/verify_catalog_source_overlaps.py
+python data/reviews/verify_continuation_source_counts.py --verify
+python experiments/p132_optional_address/verify.py --verify
+python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/p132_optional_address_readable_mapping_20261103.json
 python experiments/p63_optional_technical_reading/verify.py --verify
 python experiments/p137_optional_staff_vocabulary/verify.py --verify
 python experiments/p116_optional_route_fragment/verify.py --verify
-python experiments/p132_optional_address/verify.py --verify
-python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/p132_optional_address_readable_mapping_20261103.json
 python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/complete_displays_readable_mappings_20261103.json
 python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_complete_displays_before.json --audit data/reviews/reading_conventions_complete_displays_audit.json
 python data/reviews/verify_table_readable_mappings.py

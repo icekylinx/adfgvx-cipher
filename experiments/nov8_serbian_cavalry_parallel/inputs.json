@@ -1,0 +1,240 @@
+{
+  "schema": "adfgvx-source-linked-one-coordinate-parallel-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "November 8: a separate Serbian-cavalry report witness",
+  "case": "cases/military/nov8_serbian_cavalry_parallel.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p158_E_reviewed.png",
+      "pdf_page_1based": 161,
+      "crop_pdf_points": [
+        65,
+        603,
+        535,
+        723
+      ],
+      "render_scale": 3,
+      "sha256": "09fc66188db9fe488fed1a31d268667e944bf86e8075d76641c43b0fd284e8f5",
+      "width": 1410,
+      "height": 360,
+      "channels": 3,
+      "rgb_sha256": "d0d29873a63ed568e06c0832ce383ef8abd613e30b70bf88fe2b7c144b3960e0",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "record": {
+    "id": "p158_E1",
+    "printed_page": 158,
+    "source_section": "E1",
+    "header_literal": "E) UKS v ZON (11.44 p.m., November 8th); 1915 (8/11) 2 TLE; 1 TL RICHI-236; following control: ZON UM; page footer: (continued)",
+    "source_rows": [
+      "DDDAD AVFAF XDXVA XDDGV AXXDD GGDAX VFVFD AGAVG",
+      "AVDVV GVGVV DXVVX GXVXX DXDXD DAXXF DXVDA XFFDV",
+      "XVAAA XDGV GXXXA DVGGG DXFVA GXVDV VFDFG VVXVX",
+      "DXVFG DVDGV DGDVV DVDVG XDDVV DVGDF VGGGF DDVVG",
+      "VDVGX DG VDD XXDXV DXVXD DXVDG VXVDV VGAGV XXVDV",
+      "GGVXG VDGVG FXVVX GGXAA XVXXD AXDAA AAGVD G"
+    ],
+    "source_slots": 235,
+    "advertised_length": 236,
+    "analysis_frame": {
+      "kind": "one_parallel_coordinate_added",
+      "source_boundary": 85,
+      "inserted_coordinates": "A",
+      "parallel_record": "p170_B1",
+      "parallel_coordinate_index": 85,
+      "scope": "The independently printed A at the start of p170 B1 row3 group2 restores the short p158 XDGV group to AXDGV. Three other coordinate disagreements remain untouched in the raw frame."
+    },
+    "expected_raw": "ANENMELDUNGXSERBXKAVALLERITPETERWADE2NUNDFEHERTEMPLOMEINGSRUECKTXXABMARSCH217XIXDXUND?XRXDNACHNOYDENOHNEFEINBELUEHRUNG",
+    "edited_output": "ANENMELDUNGXSERBXKAVALLERIEPETERWADEINUNDFEHERTEMPLOMEINGERUECKTXXABMARSCH217XIXDXUND?XRXDNACHNORDENOHNEFEINBERUEHRUNG",
+    "expected_substitutions": 5,
+    "readable_german": "ANENMELDUNG. Serb. Kavallerie Peterwadein und Fehertemplom eingerueckt. Abmarsch 217 I D und ? R D nach Norden ohne Feinberuehrung.",
+    "meaning": "The report describes Serbian cavalry entering the places transmitted as Peterwadein and Fehertemplom, followed by a northward departure of 217 I D and ? R D. The final phrase appears to mean without enemy contact, but its literal FEINBERUEHRUNG lacks the D of FEIND; that letter is not inserted in the cipher frame. ANENMELDUNG remains unexpanded.",
+    "protected_fields": [
+      "217"
+    ],
+    "notes": [
+      "The235 current-source coordinates remain in order. One observed A from the independent p170 witness is added; it is not claimed to be visible on p158.",
+      "All236 single-coordinate alignments against the p170 source are enumerated without a language target. Four equivalent boundaries82–85 minimize disagreements at3; they yield the same filled236-coordinate stream but different source maps. Boundary85 respects the visible four-coordinate XDGV group.",
+      "The three source disagreements independently support KAVALLERIT→KAVALLERIE, PETERWADE2N→PETERWADEIN and NOYDEN→NORDEN. The shared EINGSRUECKT→EINGERUECKT and FEINBELUEHRUNG→FEINBERUEHRUNG proposals remain editorial.",
+      "The exact spellings PETERWADEIN and FEINBERUEHRUNG remain without prose insertions in the readable layer. The already reviewed parallel case discusses Peterwa[r]dein and Fein[d]beruehrung separately.",
+      "The source advertises two parts but only part1 is included in this edition. The next page begins a separately headed telegram; adjacency does not identify it as the absent part2."
+    ],
+    "optional_prior_headline_candidate": {
+      "plaintext": "ABENMELDUNGXSERBXKAVALLERIEPETERWADEINUNDFEHERTEMPLOMEINGERUECKTXXABMARSCH217XIXDXUND?XRXDNACHNORDENOHNEFEINBERUEHRUNG",
+      "expected_substitutions": 7,
+      "scope": "The earlier p170 source edition proposes ABENMELDUNG. Applying it here costs two further observed-coordinate substitutions. The missing D of ABEND remains a prose-only insertion, not a recovered coordinate."
+    }
+  },
+  "parallel_reference": {
+    "record_id": "p170_B1",
+    "path": "experiments/p170_continuation/military_records.json",
+    "sha256": "4ba83b73047780d645be6d5af27e630c4eb8c9a32aafbd699daf7670237330a9",
+    "source_image": {
+      "path": "sources/excerpts/childs_p170_B_military.png",
+      "sha256": "e00e3265e9c8991875a7997175bb79f2429fda43e9f6a02048f0d0da16380ff7",
+      "printed_page": 170,
+      "pdf_page_1based": 173,
+      "clip_points": [
+        55,
+        260,
+        550,
+        450
+      ],
+      "scale": 3,
+      "crop_pdf_points": [
+        55,
+        260,
+        550,
+        450
+      ],
+      "render_scale": 3,
+      "width": 1485,
+      "height": 570,
+      "channels": 3,
+      "rgb_sha256": "d64d0251016d6f0f998ebd3c111e7a5632a6484e59b971aa89b81fb1f2a74181"
+    },
+    "claim": "The new physical witness repeats the earlier source-edited report with a one-coordinate deficit and three coordinate disagreements. The same station pair and1915 time are printed, but reception dates differ by one day. A specific copy/reception mechanism is not inferred."
+  },
+  "prior_artifacts": {
+    "ocr_snapshot.json": "1cae92595effe1b9617a9a0a76ba0fe5ecd6a02af8570420a5a4deded7a645b2",
+    "prior_candidates.json": "011933bc7469c8114315b6c8368af25047433b73e28907a5b31b50e58d2972e5"
+  },
+  "prior_credit": "The operational body, p166/p167/p170 relationships and earlier word proposals are credited to the existing p170_continuation source edition by icekylinx and GPT-6 Astra Pro. Published period key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). The present contribution is p158 E1 source review and the complete source-to-source insertion audit. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "The source-derived gap comparison is exhaustive only within a one-coordinate insertion family, with the published key fixed.",
+    "Repeated report text and matching time/station fields do not prove a particular historical copying or reception mechanism.",
+    "One unresolved reserve-division label remains globally bound to cell VF, with alternatives5/6; no new historical identification or square completion is asserted.",
+    "The exact readable stream retains ANENMELDUNG, PETERWADEIN and FEINBERUEHRUNG. Fully normalized words would require additional explicitly marked prose letters."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

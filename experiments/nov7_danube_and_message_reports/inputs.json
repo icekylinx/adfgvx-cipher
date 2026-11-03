@@ -1,0 +1,439 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "November 7: Danube crossings and short message reports",
+  "case": "cases/military/nov7_danube_and_message_reports.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p152_reviewed.png",
+      "pdf_page_1based": 155,
+      "crop_pdf_points": [
+        60,
+        275,
+        540,
+        550
+      ],
+      "render_scale": 3,
+      "sha256": "0d9983b0bf630669a0e4ebcfb1dfafc858a0a755a831c92c04e79a22beec27df",
+      "width": 1440,
+      "height": 825,
+      "channels": 3,
+      "rgb_sha256": "a4b382e0ed964d5069099fbe4a40ef1700e18e3804995192da928c40d8cd22d5",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    },
+    {
+      "path": "sources/p153_reviewed.png",
+      "pdf_page_1based": 156,
+      "crop_pdf_points": [
+        65,
+        258,
+        525,
+        438
+      ],
+      "render_scale": 3,
+      "sha256": "6eaefe8d6cdf40a3e9203a8409fc674dbce64cddd8f06a5cd50d66beecfd348c",
+      "width": 1380,
+      "height": 540,
+      "channels": 3,
+      "rgb_sha256": "4723165d68bca43061a41d9f430705c4016479cbc4cc773b3bd03c56c34d7ee5",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+    }
+  ],
+  "keys": {
+    "Nov4-6": {
+      "id": "Nov4-6",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ],
+      "column_count": 17,
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "square_rows": [
+        "17WHFL",
+        "J5D2UP",
+        "EXKVZ9",
+        "O0Q3Y6",
+        "R8ABGI",
+        "TCMS4N"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 240,
+          "pdf_page_1based": 243,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [
+        "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+      ],
+      "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    },
+    "Nov7-9": {
+      "id": "Nov7-9",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        12,
+        7,
+        15,
+        1,
+        11,
+        16,
+        5,
+        8,
+        14,
+        3,
+        18,
+        9,
+        13,
+        2,
+        17,
+        20,
+        10,
+        19,
+        4
+      ],
+      "column_count": 20,
+      "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "square_rows": [
+        "PRMYUW",
+        "3LZGES",
+        "8C71QO",
+        "V29ITB",
+        "40?KXH",
+        "?AJNDF"
+      ],
+      "known_cell_count": 34,
+      "missing_plaintext_symbols": "56",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 241,
+          "pdf_page_1based": 244,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        },
+        {
+          "type": "author_dissertation",
+          "author": "George Lasry",
+          "year": 2018,
+          "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+          "table": "6.2",
+          "printed_page": 99,
+          "pdf_page_1based": 120,
+          "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+        }
+      ],
+      "notes": [
+        "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+        "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+      ],
+      "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "baseline_differences": [
+        {
+          "coordinate": "VF",
+          "baseline": "5",
+          "audited": "?"
+        },
+        {
+          "coordinate": "XA",
+          "baseline": "6",
+          "audited": "?"
+        }
+      ],
+      "category": "published_period_or_CHI_key",
+      "previously_published_completion": {
+        "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+        "author": "Norbert (2017 comment author)",
+        "date": "2017-03-01",
+        "comment": 20,
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+        "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+        "extra_cells": [
+          {
+            "row_column": "VF",
+            "proposed": "5"
+          },
+          {
+            "row_column": "XA",
+            "proposed": "6"
+          }
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "p152_B2",
+      "title": "Security force near Belgrad attacked after a crossing",
+      "key_id": "Nov4-6",
+      "header_literal": "B) UKS v ZON (--- November 7th); 2 TL RICHI-190",
+      "edited_output": "ERREICHT9XHXEB?QXTITELXXSICHERUNG219IXDXNOORDLXBELGRADDURCHDORTUEBERGEGANGENESERBENANGEGRIFFENX",
+      "readable_german": "erreicht 9 H. EB?Q. TITEL. Sicherung 219 I. D. noordl. Belgrad durch dort uebergegangene Serben angegriffen.",
+      "meaning": "The surviving second part reports an attack on a security force labelled 219 I D near Belgrad by Serbs who had crossed there. The literal NOORDL suggests north of the city but retains its extra O. The opening fragment, EB?Q field and exact role of TITEL remain limited by the absent preceding part.",
+      "protected_fields": [
+        "9",
+        "219"
+      ],
+      "notes": [
+        "The 190-slot native frame contains five source dashes: source 2,21 and 90–92. Four are filled by the proposal; source 91 remains unresolved and gives the internal character of EB?Q with exact domain {4,F,G,U,Y,Z}. No specific name, station or unit is inferred for that field.",
+        "DUECH→DURCH, SERVEN→SERBEN and ANZEGRIFFE?→ANGEGRIFFEN require three observed-coordinate substitutions in total. Four source-mask fills separately supply C, E, a separator and the final N.",
+        "NOORDL is preserved exactly, including its double O. The preceding part is not supplied from another report, and 219 remains the literal key-derived label."
+      ],
+      "printed_page": 152,
+      "source_section": "B2",
+      "source_rows": [
+        "AF-VD FFDFF AFDVG GVDAF X-VGX GVFDA VAVXG FVFGF",
+        "AVAAG GDVXA DFAVV VAAAD DDVXG VFXXX AAVFV AFXVD",
+        "VDFAV AFGFD ---XD FAVVX VAFAX AVAGV XVFAF AFXAF",
+        "XVVVX FXVGX AAXFF XVXDF VVFXF XAAXA XDFVA FAAVF",
+        "XXAXG FXAFD FAFXD AVAVA FGDAV GVXXA"
+      ],
+      "source_slots": 190,
+      "advertised_length": 190,
+      "expected_raw": "ERREI?HT9XHXEB?QXTIT?L?XSICHERUNG219IXDXNOORDLXBELGRADDUECHDORTUEBERGEGANGENESERVENANZEGRIFFE?X",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 3,
+      "expected_source_mask_fills": 4,
+      "unresolved_field": {
+        "plaintext_index": 14,
+        "source_index": 91,
+        "domain": "4FGUYZ",
+        "display": "EB?Q"
+      }
+    },
+    {
+      "id": "p152_C",
+      "title": "Morning report: no special events",
+      "key_id": "Nov7-9",
+      "header_literal": "C) --- v ZON (--- November 7th); 1235; RICHI----",
+      "advertised_length": null,
+      "advertised_length_text": "----",
+      "edited_output": "OXKXMXMORGENMELDUNGX7X11XKEINEBESXEREIGNISSEXAXOXKX11X",
+      "readable_german": "O. K. M. Morgenmeldung 7.11. Keine bes. Ereignisse. A. O. K. 11.",
+      "meaning": "A short morning report states that there are no special events. The internal 7.11 and AOK11 labels are retained as transmitted.",
+      "protected_fields": [
+        "7",
+        "11"
+      ],
+      "notes": [
+        "The source prints a dash-only length field, not 108. The body itself has 108 native coordinates. The earlier OCR appended five mask slots after the final XDV; these are absent from the body in the image and are not treated as received coordinates.",
+        "One substitution changes UORGENMELDUNG to MORGENMELDUNG. A second replaces the raw Q between BES and EREIGNISSE with the X separator; the abbreviation BES is not expanded by inserting extra plaintext letters."
+      ],
+      "printed_page": 152,
+      "source_section": "C",
+      "source_rows": [
+        "VAFDD FFXGG FVXVA XGVVG GVVGV VVFDF GGVVX VDDFA",
+        "DVDVA ADDVD GGGVG FGXXG XVFXG VVVVV VFDVV VVGVV",
+        "XGVDF FDVXG GGXVV GDDDV DXVAD XDV"
+      ],
+      "source_slots": 108,
+      "expected_raw": "OXKXMXUORGENMELDUNGX7X11XKEINEBESQEREIGNISSEXAXOXKX11X",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 2,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p152_D",
+      "title": "Receipt of a FunkSpruch with literal numerical fields",
+      "key_id": "Nov4-6",
+      "header_literal": "D) UKS v ZON (--- November --); 1850 1010; RICHI-140",
+      "edited_output": "FUERXOXKXMXFUNKSPRUCHXEINSA11205BM4X1189X35XVORMXEINGETROFFENXAXOXKX11",
+      "readable_german": "Fuer O. K. M. Funkspruch EINSA11205BM4 1189 35 vorm. eingetroffen. A. O. K. 11.",
+      "meaning": "The message reports that a FunkSpruch has arrived, addressed for OKM and ending with the proposed AOK11 signature. Its compact reference and time-like numerical fields are retained without reconstructing an exact calendar date or clock time.",
+      "protected_fields": [
+        "EINSA11205BM4",
+        "1189",
+        "35",
+        "11"
+      ],
+      "notes": [
+        "The source header leaves the reception day blank and separately prints 1850 1010. Neither that line nor the decoded 1189 35 field is silently converted to a date/time.",
+        "The raw O K C M becomes O K M by changing C to the X separator. The raw A O W11 becomes A O K11 by changing W to K. These are two explicit observed-coordinate substitutions; the arrival wording itself is native."
+      ],
+      "printed_page": 152,
+      "source_section": "D",
+      "source_rows": [
+        "ADGDA VAFXX XFDXF DFDXA AGFDG XFDFF GADXX VDFVA",
+        "FVFGV AVDAD VGXDX AADFD FFDVX AAFAD XFAFV XAVVF",
+        "XXAAA DAAGA VFGXG GAAFD XDGDX AGVFV ADFVF AFFVD",
+        "FDADV VAAAA XFFDX XGVVF"
+      ],
+      "source_slots": 140,
+      "advertised_length": 140,
+      "expected_raw": "FUERXOXKCMXFUNKSPRUCHXEINSA11205BM4X1189X35XVORMXEINGETROFFENXAXOXWX11",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 2,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p153_A3",
+      "title": "A prescribed line and a Temesvar headquarters field",
+      "key_id": "Nov7-9",
+      "header_literal": "A) UKS v ZÖN (10.55 p.m., November 7th); 2010; 3 TL RICHI-180",
+      "edited_output": "INBEFOHLENELINIEXNAGYBECSKEREKXVERSECZXANXDIE10X11XERREICHTXXAXHXQX9X11XTEMESVARXXAXOXKX11",
+      "readable_german": "in befohlene Linie NAGYBECSKEREK VERSECZ an, die 10.11 erreicht. A. H. Q. 9.11 TEMESVAR. A. O. K. 11.",
+      "meaning": "This third-part fragment refers to a prescribed line through the transmitted place labels NAGYBECSKEREK and VERSECZ, an internal 10.11 label, and an AHQ field with 9.11 and TEMESVAR. The missing preceding text does not establish a complete movement order or prove that a move occurred.",
+      "protected_fields": [
+        "10",
+        "11",
+        "9"
+      ],
+      "notes": [
+        "The native body has 180 coordinates. Earlier OCR attached an extra mask to the five-coordinate VGVGV group, producing 181; it is removed from the OCR comparison rather than excluded from the physical source.",
+        "Two ordinary-word/place-spelling proposals change NAYYBECSKEREK to NAGYBECSKEREK and VERSSCZ to VERSECZ. The forms VERSECZ and TEMESVAR remain unexpanded; no modern-place identification is required for the reading.",
+        "The printed reception is November 7, while the body retains 9.11 and 10.11. The edition does not rewrite the header to fit those internal labels.",
+        "The header visibly places two short marks above the O in the sender label; the transcription preserves this as ZÖN without identifying a different station."
+      ],
+      "printed_page": 153,
+      "source_section": "A3",
+      "source_rows": [
+        "GGDDX AVGXD XADVV GGVFD VDFGF DVGGG DGVGD GVGDD",
+        "GDXVV GDAVX VVFVX DGGVD XVVXG DDDDV AFVVD FVFVD",
+        "VVDVV GVVDG XGVVV DVVDG VGVGV VGVXV VDDDV XGXGX",
+        "XVVVF XGDXA VVDVV DXFAG AVDVD GDFVX FAVXV GXGGV",
+        "VVXAV XFVFA FDXDV FGVXF"
+      ],
+      "source_slots": 180,
+      "advertised_length": 180,
+      "expected_raw": "INBEFOHLENELINIEXNAYYBECSKEREKXVERSSCZXANXDIE10X11XERREICHTXXAXHXQX9X11XTEMESVARXXAXOXKX11",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 2,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p153_B1",
+      "title": "Danube crossing completed and busy crossing traffic",
+      "key_id": "Nov7-9",
+      "header_literal": "B) UKS v ZÖN (9.42 p.m., November 7th); 2010 3 TLE; 1 TL RICHI-160",
+      "edited_output": "ANXOXKXMXXDONAUUEBERGANG21BXIXDXBEENDETXBELGRADXSEMUMXLEBHAFTERUEBERSETZVERKEHRX",
+      "readable_german": "An O. K. M. Donauuebergang 21B I. D. beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.",
+      "meaning": "The first part reports completion of a Danube crossing by a formation transmitted as 21B I D and busy crossing traffic at the labels Belgrad and SEMUM. The unit label is not changed to a plausible number, and SEMUM is not identified with a modern or alternative place-name.",
+      "protected_fields": [
+        "21B"
+      ],
+      "notes": [
+        "The native body is 160 coordinates. Earlier OCR turned the first-row VDGVV into a six-slot masked group, producing 161; the image restores the actual five-coordinate group without a source insertion or deletion.",
+        "DONAUU3BERGANG→DONAUUEBERGANG, BEENDUT→BEENDET, BELGR4D→BELGRAD and UEBSRSETZVERKEHR→UEBERSETZVERKEHR together cost five observed-coordinate substitutions. The raw digits in the damaged words remain visible in the raw layer.",
+        "21B and SEMUM remain literal. The first- and third-part records share 2010 and the same station pair but have different reception times; this edition does not supply a missing second part or claim a complete assembled message.",
+        "The header visibly places two short marks above the O in the sender label; the transcription preserves this as ZÖN without identifying a different station."
+      ],
+      "printed_page": 153,
+      "source_section": "B1",
+      "source_rows": [
+        "VXXGD AAGAG VAVVA VVAFX VDGVV DVVVX VVXDG VGVVV",
+        "XXDXG AGGXF XVDAD DVAGD ADDAV DGXXG DDVVG VXDXD",
+        "VGGXD FDADV GVXFV VVAXV VXXVV VDVDD VDGXD VVVVF",
+        "FXDDD VADFX VVVXD XGVGG AVXGV AVVDX DVVDG GDXDA"
+      ],
+      "source_slots": 160,
+      "advertised_length": 160,
+      "expected_raw": "ANXOXKXMXXDONAUU3BERGANG21BXIXDXBEENDUTXBELGR4DXSEMUMXLEBHAFTERUEBSRSETZVERKEHRX",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 5,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "033d039da1fb6795334151fd101242c782c7d21f291ebb6f0fa1e136507a6b7b",
+    "ocr_snapshot.json": "4a7ba2c909f2a8b06a16b50bf284d522111eb501e33530e9ecb5fb5eff34784b"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ],
+  "source_evidence_delivery": {
+    "mode": "external_pdf_reference",
+    "distributed_new_image_bytes": false,
+    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+  }
+}

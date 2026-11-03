@@ -1,0 +1,35 @@
+{
+  "schema": "adfgvx-source-transcription-correction-v1",
+  "record_id": "p201_C",
+  "status": "Pre-integration draft source transcription corrected by independent visual audit; not a historical ciphertext repair.",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "initial_literal_source": "AGXGAXDDXGADDFDDDGAXXDAGAFFGDVXGAXAVAFADVXGXXXAXFDGXXDVGAGFAXDVFXDXXDDGGDVDAAAXGXGDFXADFDDXAFDDDGFVVVVFGDADFVAGVDDAAAGDFDDVGVGXGVXDXFXXXXXVADAADDGDADFAAAXDGADDGDFXXXDFFXFVDGAVAAAGDGFXXFXXFGAAGXAGAAAXDVXGAAAADXGGDXVGXGXAXGVGVAAGDAAADXDADXDXXGGXAGAADDDFFGDAVFXAAGDDAGAAGGXFVFAXFAGAVDXXFDFFXADDXXFXDXFVDDAFDFFXGGXXDGAXAAXAXGXVG",
+  "corrected_literal_source": "AGXGAXDDXGADDFDGDGAXXDAGAFFGDVXGAXAVAFADVXGXXXAXFDGXXDVGAGFAXDVFXDXXDDGGDVDAAAXGXGDFXADFDDXAFDDDGFVVVVFGDADFVAGVDDAAAGDFDDVGVGXGVXDXFXXXXXVADAADDGDADFAAAXDGADDGDFXXXDFFXFVDGAVAAAGDGFXXFXXFGAAGXAGAAAXDVXGAAAADXGGDXVGXGXAXGVGVAAGDAAADXDADXDXXGGXAGAADDDFFGDAVFXAAGDDAGAAGGXFVFAXFAGAVDXXFDFFXADDXXFXDXFVDDAFDFFXGGXXDGAXAAXAXGXVG",
+  "changes": [
+    {
+      "source_index": 15,
+      "initial_transcription": "D",
+      "source_reading": "G",
+      "printed_group": "GDGAX",
+      "reason": "The original PDF clearly shows G as the first character of row1 group4; an independent enlarged crop confirms its open bowl and cross-stroke."
+    }
+  ],
+  "prior_draft_sha256": {
+    "experiments/odessa_courier_pretransposition/inputs.json": "c79557e46a4ed8520b5b12ce09b3aa9b99c351bae1847fc1e73a84de63bf34d7",
+    "experiments/odessa_courier_pretransposition/verify.py": "dbe6a7466078268bbc221b1d3790a55aebe44cc7d202c82e6afc23b12445d0b1",
+    "experiments/odessa_courier_pretransposition/certificates.json": "0365ded4b383a75b93c8af6b3d6a34bd4e79f71e7df4a196078c0ff514dda299",
+    "experiments/odessa_courier_pretransposition/README.md": "abec6f54e59859621038926d936b7b1fdedced62dac0218de850be85ace827ac",
+    "cases/radio/odessa_courier_pretransposition.md": "2930c180f14d3df915aee53e70e3de51d50a0e95503f0d60c1fab463ba42cb19"
+  },
+  "source_review_locator": {
+    "pdf_page_1based": 204,
+    "crop_pdf_points": [
+      265,
+      608,
+      329,
+      630
+    ],
+    "render_scale": 10
+  },
+  "effect": "The BERLIN reading is already present in native and loss-frame raw output. Remove source15 D\u2192G from historical substitutions, reducing that count from5 to4. Candidate plaintext and all fractionation-loss positions are unchanged."
+}
