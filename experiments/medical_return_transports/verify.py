@@ -191,7 +191,21 @@ def build(pdf=None):
         score=sum(rank_model['weights'].get(g,rank_model['floor']) for g in grams)/len(grams) if grams else -99
         ranked.append({'hypothesis':gap,'score':score,'known_quadgrams':len(grams),
                        'known_plaintext':len(raw)-raw.count('?'),'plaintext':raw})
-    ranked.sort(key=lambda r:-r['score']);assert ranked==prior_ranking['ranked_rows']
+    # Python 3.12 changed float summation. Preserve the original exploratory
+    # ordering, but compare every independently regenerated row by identity;
+    # only its floating score allows a 1e-12 absolute rounding difference.
+    # The plaintext, counts, model hash and complete hypothesis set are exact.
+    import math
+    by_hypothesis = {row['hypothesis']: row for row in ranked}
+    saved_rows = prior_ranking['ranked_rows']
+    assert len(by_hypothesis) == len(ranked) == len(saved_rows)
+    assert set(by_hypothesis) == {row['hypothesis'] for row in saved_rows}
+    for saved in saved_rows:
+        recomputed = by_hypothesis[saved['hypothesis']]
+        assert {k: v for k, v in saved.items() if k != 'score'} == {
+            k: v for k, v in recomputed.items() if k != 'score'}
+        assert math.isclose(saved['score'], recomputed['score'], rel_tol=0, abs_tol=1e-12)
+    assert all(a['score'] + 1e-12 >= b['score'] for a, b in zip(saved_rows, saved_rows[1:]))
 
     # Preserve source-reviewed fragments without promoting them to readings.
     open_frames=[]

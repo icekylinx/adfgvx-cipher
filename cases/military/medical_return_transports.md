@@ -4,7 +4,7 @@
 
 The readable medical passages concern preparations for transports coming through from Turkey. They recommend a sick wagon fitted with stoves, cooking equipment and continuously available hot tea. The final paragraph asks for action as far as possible from Constantinople because the received place `NIKOLA9EW` may lack sufficient capacity. The text records recommendations and a forwarding request, not proof that the equipment or supplies were provided.
 
-The source has a nominal seven-part frame. Parts 2 and 4 remain unread and are excluded from the restored-reading count. An unnumbered oil-cartel query between them is [edited separately](../finance/oil_cartel_dispatch_query.md). The complete seven-part text is not reconstructed.
+The source has a nominal seven-part frame. Parts 2 and 4 were retained as unassigned context in this medical package and are excluded from its restored-reading count. A subsequent [cross-copy audit](../caucasus/p212_p218_crosscopy.md) identifies the printed part 2 as a truncated copy of a separate Caucasus/Russia withdrawal message on p218; it is not joined to the medical body. Part 4 remains unread. An unnumbered oil-cartel query between them is [edited separately](../finance/oil_cartel_dispatch_query.md). The complete seven-part medical text is not reconstructed.
 
 ## p212 A1
 
@@ -76,4 +76,4 @@ Reading: meet the preceding recommendations as far as possible from Constantinop
 
 ## Attribution and retained gaps
 
-The sick-wagon and final medical passages already had recognizable unreviewed repository candidates. This edition records the exact source and all local repairs; it makes no first historical decipherment claim. The two unread frames and all four tied first-part geometries are preserved outside or alongside the counted readings as explicitly marked evidence. No baseline square or later-period relabeling is applied.
+The sick-wagon and final medical passages already had recognizable unreviewed repository candidates. This edition records the exact source and all local repairs; it makes no first historical decipherment claim. The two initially unassigned frames and all four tied first-part geometries remain preserved in this package's frozen evidence; the later part-2 identification has its own certificate and counting scope. No baseline square or later-period relabeling is applied to the medical readings.

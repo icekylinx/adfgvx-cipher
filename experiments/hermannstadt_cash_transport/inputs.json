@@ -1,0 +1,260 @@
+{
+  "schema": "adfgvx-hermannstadt-cash-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov22-24",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      16,
+      7,
+      14,
+      22,
+      11,
+      18,
+      1,
+      15,
+      8,
+      10,
+      20,
+      2,
+      13,
+      21,
+      3,
+      17,
+      19,
+      5,
+      9,
+      4
+    ],
+    "column_count": 22,
+    "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "square_rows": [
+      "QNZ72X",
+      "S4C0IJ",
+      "Y3RBEK",
+      "L9FD6G",
+      "MTHUVW",
+      "A5O8P1"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p216_heading",
+      "path": "sources/p216_heading.png",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "crop_pdf_points": [
+        50,
+        147,
+        520,
+        208
+      ],
+      "render_scale": 4,
+      "sha256": "040534121918e537bba34a3ea688ee33dbf85feaad7e64c8abe0cba082ee11b1"
+    },
+    {
+      "id": "p216_B1",
+      "path": "sources/p216_B1.png",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "crop_pdf_points": [
+        50,
+        537,
+        524,
+        655
+      ],
+      "render_scale": 4,
+      "sha256": "43c357fd827ff8925984dab1845f137e81fa5bbbd0df51a51d7eaf75e0edd1f6"
+    },
+    {
+      "id": "p216_B2",
+      "path": "sources/p216_B2.png",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "crop_pdf_points": [
+        64,
+        655,
+        524,
+        729
+      ],
+      "render_scale": 4,
+      "sha256": "c942562d22986259bf03607ccc11546bfe93eafc27110f4b50d717f065852db9"
+    },
+    {
+      "id": "p216_B1_short_group",
+      "path": "sources/p216_B1_short_group.png",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "crop_pdf_points": [
+        232.5,
+        609.0,
+        275.5,
+        624.5
+      ],
+      "render_scale": 8,
+      "sha256": "6fb69b1b512eaa34f384482d8729455f33f83d711ded0a215f23cea1d1974c1d"
+    }
+  ],
+  "records": [
+    {
+      "id": "p216_B1",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "source_section": "B1",
+      "message_part": 1,
+      "message_total_parts": 2,
+      "source_image_id": "p216_B1",
+      "key_id": "Nov22-24",
+      "page_heading": "24th NOVEMBER, 1918.",
+      "receipt_header": "LP v NKJ (01.30 a.m., November 26th)",
+      "origin_header": "VON UKS 1715 (24/11) 2 TLE; AN K M BERLIN",
+      "source_rows": [
+        "DFVGG GVGAA VVADF XVXGD VVFFD FXVFF XGVXX AFDAA",
+        "FGDFF GVAVF FVVDG AXVVF AAXFX GFGFV FAVXF AFGFF",
+        "AAXFG XVGVD GFGXV AAAV GFGDD VVXVA GVFDG VFVFA",
+        "GGDVF XDAXA VDXGG GXDXG AA-VD AAAXV DGVFV VAAFF",
+        "XDDFG AAVXV FFVFF GFFGA FGFFG FAGDV AGXAG VDVFF",
+        "FF"
+      ],
+      "source_slots": 201,
+      "advertised_length": 202,
+      "model": {
+        "kind": "one_inserted_coordinate",
+        "primary_gap": 99,
+        "equal_minimum_gaps": [
+          98,
+          99
+        ],
+        "short_group_source_span": [
+          95,
+          99
+        ],
+        "advertised_length": 202,
+        "selection": "Conditional minimum known-coordinate repair cost for the explicit ordinary-word candidate; both tied source mappings are retained."
+      },
+      "expected_raw": "FALLSFLUGZEUGDOEBERITZN2IHTGESTART2TXGELDUMGE?ENDUNTERBEMONDERERBEWSCHUNGMITXVXZ?GUEBERXSZOLNOKXARADX",
+      "readable_candidate": "FALLSFLUGZEUGDOEBERITZNICHTGESTARTETXGELDUMGEHENDUNTERBESONDERERBEWACHUNGMITXVXZUGUEBERXSZOLNOKXARADX",
+      "notes": [
+        "The four-letter group AAAV and 201 literal slots are preserved. Inserting V before or after its final V gives the same repaired ciphertext but different ownership maps. The geometry is conditional on the explicit candidate, not an independent plaintext witness.",
+        "The printed dash at source 141 is retained in raw transcription; the candidate fills it V. Five observed coordinates change for NICHT, GESTARTET, BESONDERER and BEWACHUNG."
+      ]
+    },
+    {
+      "id": "p216_B2",
+      "printed_page": 216,
+      "pdf_page_1based": 219,
+      "source_section": "B2",
+      "message_part": 2,
+      "message_total_parts": 2,
+      "source_image_id": "p216_B2",
+      "key_id": "Nov22-24",
+      "page_heading": "24th NOVEMBER, 1918.",
+      "receipt_header": "LP v NKJ (01.30 a.m., November 26th)",
+      "origin_header": "VON UKS 1715 (24/11) 2 TLE; AN K M BERLIN",
+      "source_rows": [
+        "XAVVV GAAXD VGFVD VXXVA GFDFF AGDDF VFGAA AVDAF",
+        "FAVVF XFVGF FVXGA ADVDA AGXDF FVXAG AAXDX VXDGA",
+        "VVVFF XVFGX FDFFX FDXGX DXVAD AGAGA FVFDA VGFVG",
+        "AADDD XADXG FAVDV VFAFD XGVAX FXAVF AVVVV XXXFA",
+        "VFAFA FVXDA DFAAD FDAXV AFADD DVFG-"
+      ],
+      "source_slots": 190,
+      "advertised_length": 190,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "HERMANNSTADTXSENDENXANKUNFTAUFDEN8STATIONENOKM9EWEILSMITTEILENXKROGEHENHIERZUENDEXOKMXYAYY?18XX",
+      "readable_candidate": "HERMANNSTADTXSENDENXANKUNFTAUFDEN8STATIONENOKM9EWEILSMITTEILENXKROGEHENHIERZUENDEXOKMXYAYY?18XX",
+      "notes": [
+        "The raw 8 before STATIONEN and 9 in 9EWEILS are not changed. Both coordinates giving raw 9 are clearly present; a separate optional interpretation can test J without modifying this source edition.",
+        "KRO remains a literal abbreviation; no currency denomination or amount is supplied. The final printed dash stays unresolved."
+      ]
+    }
+  ],
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "No explicit DOEBERITZ, DÖBERITZ, HERMANNSTADT or GELDUMGEHEND body was located in the bounded text check. This absence is not proof of priority."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "No explicit DOEBERITZ, DÖBERITZ, HERMANNSTADT or GELDUMGEHEND body was located in the bounded text check. This absence is not proof of priority."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit DOEBERITZ, DÖBERITZ, HERMANNSTADT or GELDUMGEHEND body was located in the cached 55-comment snapshot. JEWEILS occurs only in unrelated discussion of station abbreviations."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p216_ocr_block5",
+        "p216_ocr_block6"
+      ],
+      "frozen_prior_candidate_records": [
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p216_ocr_block6",
+          "key": "Nov22-24",
+          "score": -5.066183056150164,
+          "plaintext": "HERMANNSTADTXSENDENXANKUNFTAUFD?N8STATIONENOKM9EWEILSMITTEILENXKROGEHENHIERZUENDEXOKMXYAYY?18XX",
+          "ciphertext_length": 190
+        }
+      ],
+      "interpretation": "Part 2 was already readable in an unreviewed repository screen. Part 1 is newly assembled from the exact source, including the short group and omitted final line. No historical first-decipherment claim is made."
+    }
+  }
+}

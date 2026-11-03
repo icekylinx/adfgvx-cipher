@@ -1,0 +1,328 @@
+{
+  "schema": "adfgvx-p212-p218-crosscopy-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov25-28",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      21,
+      9,
+      6,
+      14,
+      10,
+      20,
+      1,
+      16,
+      18,
+      7,
+      15,
+      4,
+      11,
+      22,
+      5,
+      17,
+      23,
+      2,
+      12,
+      8,
+      19,
+      3,
+      13
+    ],
+    "column_count": 23,
+    "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "square_rows": [
+      "HQ05DK",
+      "ZAOYM6",
+      "BEIWTJ",
+      "7PSCFL",
+      "V94132",
+      "NGURX8"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p212_header",
+      "path": "sources/p212_header.png",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "crop_pdf_points": [
+        65,
+        161,
+        520,
+        223
+      ],
+      "render_scale": 4,
+      "sha256": "2eedfdcbc0556f78b1f5541c1ed9968f3181cc7addbfdbfd4ffe097ed5ec0a61"
+    },
+    {
+      "id": "p212_A2",
+      "path": "sources/p212_A2.png",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "crop_pdf_points": [
+        85,
+        348,
+        520,
+        405
+      ],
+      "render_scale": 4,
+      "sha256": "d07841fa069a2d26e5141ade683e4c3ec44fbd87ea730eb94546cf18b9433698"
+    },
+    {
+      "id": "p212_A4",
+      "path": "sources/p212_A4.png",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "crop_pdf_points": [
+        85,
+        500,
+        520,
+        577
+      ],
+      "render_scale": 4,
+      "sha256": "2ec11095a88c6b65b5907d32a91bb595db6e6793fa94528456891ab518a468e2"
+    },
+    {
+      "id": "p218_header",
+      "path": "sources/p218_header.png",
+      "printed_page": 218,
+      "pdf_page_1based": 221,
+      "crop_pdf_points": [
+        60,
+        145,
+        535,
+        205
+      ],
+      "render_scale": 4,
+      "sha256": "b992b68f9e855332ea6838cf722cfd2a329461d832561f7be55db15dca6adbae"
+    },
+    {
+      "id": "p218_A2",
+      "path": "sources/p218_A2.png",
+      "printed_page": 218,
+      "pdf_page_1based": 221,
+      "crop_pdf_points": [
+        60,
+        302,
+        535,
+        404
+      ],
+      "render_scale": 4,
+      "sha256": "112a3bcca1ce28d75437904ad41d158ff02ac4e3d8aa0bd26f07cef7b58e95d7"
+    }
+  ],
+  "dependencies": {
+    "experiments/medical_return_transports/inputs.json": "a9fede5ad239134891857ccd9596e5ae466c359bb56daa967c17ac7f47aaff95",
+    "experiments/medical_return_transports/certificates.json": "27e3e754eef635e8654b8d7898de3525a834874a399543dd9a573cab8e4f3375",
+    "experiments/corpus_readings/selected_sources.json": "9ff215d501e5b1613777c67eddfcead7e2c1458dae8ad0b3ffe7dd06696acc02",
+    "experiments/corpus_readings/certificates.json": "005667bfa74c5b300c7f7527faa48a7480d649479910e685d209adb15df65be6",
+    "experiments/p153_corpus/inputs.json": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc"
+  },
+  "records": [
+    {
+      "id": "p212_A2",
+      "printed_page": 212,
+      "pdf_page_1based": 215,
+      "source_section": "A2",
+      "source_image_id": "p212_A2",
+      "source_rows": [
+        "VAADD AFGAV FVXVG DDDXD FGXDD GXVAV FAGDF DAGXD",
+        "GXXAX DFXXF FFFFA FDFAX DFDXD FAAVX FFXFF XFXXF",
+        "GXFAG FXDAG GXFXD XGGVF VDVGG ADFAA VFDFA FFGDF",
+        "DGFXA FXFFG FAGDG AAXXD XGXDX FXDFA AVFDX XFDFA"
+      ],
+      "source_slots": 160,
+      "advertised_length": 284,
+      "printed_date_context": "22 November 1918, under nominal seven-part header XYZ v LP (03.54 p.m.)",
+      "key_id": "Nov25-28",
+      "model": {
+        "kind": "missing_tail",
+        "gap_before_source_index": 160,
+        "missing_coordinates": 124,
+        "qualification": "The frame and borrowed tail are conditional on a same-intended-ciphertext-copy relationship with p218 A2. They do not correct the printed date."
+      },
+      "expected_raw": "?????????K??E????U??L?N?????????N??A????S??A?D?????????R??7????R??R?E?????????U??D????N??E?L?????????G??I????E??U?E?????????R??K????N??A?H????",
+      "readable_candidate": "DIEVORDEMKRIEGZURUSZLANDGEHOERTENXHABENXSOBALDDIEALLIIERTENUNTERBERUECKSICHTIGUNGDERINNERENLAGEDIESERGEBIETEDENAUGENBLICKFUERGEKOMMENERACHTENX",
+      "notes": [
+        "The 160 observed source coordinates are not padded by a medical-text guess. A separate 284-coordinate printed witness supplies the tail.",
+        "The shared prefix has 157 exact glyph agreements, two conflicting valid coordinates, and one valid p212 coordinate where p218 prints a dash.",
+        "RUSZLAND is retained as received. Only the remaining JNNEREN word is locally repaired in the final candidate.",
+        "No published key or historical date is changed."
+      ]
+    }
+  ],
+  "contextual_witness_records": [
+    {
+      "id": "p218_A2",
+      "already_catalogued": true,
+      "counted_as_new": false,
+      "source_record_snapshot": {
+        "id": "p218_A2",
+        "printed_page": 218,
+        "pdf_page_1based": 221,
+        "section": "A, part 2 of 3",
+        "heading": "25th NOVEMBER, 1918.",
+        "header": "NKJ v LP (02.10 p.m., November 25th); FUER COS 0950 (11/25) 3 TLE; 2 TL; RICHI-284",
+        "declared_coordinate_length": 284,
+        "key_id": "Nov25-28",
+        "ocr_blocks": [
+          "p218_ocr_block2"
+        ],
+        "source_rows": [
+          "VAADD AFGAV FVXVG DDDXD FGXDD GXVAV FAGDF DAGXD",
+          "GXXAX DGXXF FFFFA FDFAX DFDXD FA-VX FFXFF XFXXF",
+          "GXFAG FXDAG GXFXD XGGVF VDVXG ADFAA VFDFA FFGDF",
+          "DGFXA FXFFG FAGDG AAXXD XGXDX FXDFA AVFDX XFDFA",
+          "FXDFF XXFDF ADDXG FVGDA AFVAD AXAXD FFFVF FDVDD",
+          "VFFFF XDDFX DFDAG VGXFD GVXDX XFFXA FDXGD DDFDX",
+          "FXDFX DAAFA AADGD DAXDF VGGDF FVFFX VFDAF AFDXG",
+          "XDFG"
+        ],
+        "crop_pdf_points": [
+          60,
+          302,
+          535,
+          404
+        ],
+        "render_scale": 3,
+        "source_image": "sources/excerpts/other_p218_A2.png",
+        "expected_raw": "DIEVORDEMKRIEGZURUSZLANDGEHOERTENXHABENXSOBALDDIEALLIIERTENUNTERBERUEC?SICHTIGUNGDERJNNERENLAGEDIESERGEBIETEDPNAUGENBLICKFUERGEKOMMENERACHTENX",
+        "editorial_same_length": "DIEVORDEMKRIEGZURUSSLANDGEHOERTENXHABENXSOBALDDIEALLIIERTENUNTERBERUECKSICHTIGUNGDERINNERENLAGEDIESERGEBIETEDENAUGENBLICKFUERGEKOMMENERACHTENX",
+        "editorial_notes": [
+          "Every printed valid coordinate remains literal in the source layer. The separate candidate corrects the recorded garbles and fills one printed dash. No geometry change or key reassignment is used.",
+          "The wording is a paraphrase of Article XII; no verbatim identity with the legal text is assumed."
+        ]
+      },
+      "literal_source": "VAADDAFGAVFVXVGDDDXDFGXDDGXVAVFAGDFDAGXDGXXAXDGXXFFFFFAFDFAXDFDXDFA-VXFFXFFXFXXFGXFAGFXDAGGXFXDXGGVFVDVXGADFAAVFDFAFFGDFDGFXAFXFFGFAGDGAAXXDXGXDXFXDFAAVFDXXFDFAFXDFFXXFDFADDXGFVGDAAFVADAXAXDFFFVFFDVDDVFFFFXDDFXDFDAGVGXFDGVXDXXFFXAFDXGDDDFDXFXDFXDAAFAAADGDDAXDFVGGDFFVFFXVFDAFAFDXGXDFG",
+      "expected_raw": "DIEVORDEMKRIEGZURUSZLANDGEHOERTENXHABENXSOBALDDIEALLIIERTENUNTERBERUEC?SICHTIGUNGDERJNNERENLAGEDIESERGEBIETEDPNAUGENBLICKFUERGEKOMMENERACHTENX",
+      "source_image_id": "p218_A2",
+      "printed_date_context": "25 November 1918; NKJ v LP (02.10 p.m.); FUER COS 0950 (11/25), three parts; page also states intercepted by British stations."
+    }
+  ],
+  "contextual_unread_records": [
+    {
+      "id": "p212_A4",
+      "source_record_snapshot": {
+        "id": "p212_A4",
+        "printed_page": 212,
+        "pdf_page_1based": 215,
+        "source_section": "A4",
+        "printed_part_number": 4,
+        "source_image_id": "p212_A4",
+        "key_id": "Nov22-24",
+        "page_heading": "22nd NOVEMBER, 1918.",
+        "source_group_header": "XYZ v LP (03.54 p.m., November 22nd); ----- 7 TLE",
+        "source_rows": [
+          "DVAAA XAXGF FAVXA AAVAG GVXFA FVVDD FXVDG AFAXX",
+          "FFADF AAFDX VDAGD ADADV FFAFF GXVDX DAGAD VVXFF",
+          "FFFVA DGFAD VXDXD FVGGV AXAVA FDAVG VVFXF VDAXF",
+          "DVFVF AAGAD VXDVX AAFVF AVXGA VFAGV VAFFD VVFFV",
+          "XVXVF FFVVD VXDVV DFAAA VDXFA FGAGD FAVAD AG"
+        ],
+        "source_slots": 197,
+        "advertised_length": null,
+        "notes": [
+          "The source says 4 TL (Missed start), gives no readable advertised length and prints 197 coordinates. No plaintext reconstruction is asserted or proposed for the reading catalog."
+        ],
+        "source_reviewed": true,
+        "readable_claim": false,
+        "proposed_for_reading_catalog": false
+      },
+      "source_rows": [
+        "DVAAA XAXGF FAVXA AAVAG GVXFA FVVDD FXVDG AFAXX",
+        "FFADF AAFDX VDAGD ADADV FFAFF GXVDX DAGAD VVXFF",
+        "FFFVA DGFAD VXDXD FVGGV AXAVA FDAVG VVFXF VDAXF",
+        "DVFVF AAGAD VXDVX AAFVF AVXGA VFAGV VAFFD VVFFV",
+        "XVXVF FFVVD VXDVV DFAAA VDXFA FGAGD FAVAD AG"
+      ],
+      "source_image_id": "p212_A4",
+      "counted_as_new": false,
+      "reading_asserted": false
+    }
+  ],
+  "copy_assumption": {
+    "evidence": "157 identical observed coordinates in a 160-coordinate aligned prefix; matching 284 advertised lengths; the p218 full witness under the stated key yields coherent German.",
+    "not_proven": "Whether the p212 block was historically transmitted on 22 November, misdated, or misplaced during compilation. The complete nominal medical message is not reconstructed.",
+    "preserved_disagreements": [
+      {
+        "source_index": 46,
+        "p212": "F",
+        "p218": "G"
+      },
+      {
+        "source_index": 67,
+        "p212": "A",
+        "p218": "-"
+      },
+      {
+        "source_index": 103,
+        "p212": "G",
+        "p218": "X"
+      }
+    ]
+  },
+  "corpus_search": {
+    "source_path": "experiments/p153_corpus/inputs.json",
+    "source_sha256": "ead2f60da941dc9190f21b6160b14f4ad8d2d2159b6809bf142d8d787107b1bc",
+    "window": 10,
+    "normalization": "Join OCR groups in each block; only all-ADFGVX windows are indexed. Do not bridge separate OCR blocks.",
+    "queries": [
+      {
+        "record": "p212_A2",
+        "excluded_ocr_blocks": [
+          "p212_ocr_block3",
+          "p212_ocr_block4"
+        ]
+      },
+      {
+        "record": "p212_A4",
+        "excluded_ocr_blocks": [
+          "p212_ocr_block6"
+        ]
+      }
+    ],
+    "limit": "A failure to share an exact ten-coordinate window does not exclude a differently enciphered copy, heavy OCR/source corruption or an unmodelled frame."
+  },
+  "prior_attribution": {
+    "earlier_full_body": "p218 A2 already appears in experiments/corpus_readings and the reading catalog. Its existing attribution and prior repairs remain unchanged.",
+    "contribution": "A newly recognized truncated physical copy, complementary source witnesses for earlier repairs, and conditional recovery of a missing tail from the already edited full witness. No new unique historical message or first decipherment is claimed."
+  }
+}

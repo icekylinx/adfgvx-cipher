@@ -9,17 +9,17 @@ claimed by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 278 other physical source records**, with all
-22 challenge entries preserved. It adds **83 physical records across 20 source
+This snapshot compares **195 → 308 other physical source records**, with all
+22 challenge entries preserved. It adds **113 physical records across 28 source
 packages** and keeps every earlier record. The separate interpretation and
 open-target method audits add no physical records.
 
-The new source packages account for **19,886 printed coordinate slots** and
-**9,966 modeled plaintext positions**, of which **9,730 have fixed raw labels**
+The new source packages account for **26,745 printed coordinate slots** and
+**13,487 modeled plaintext positions**, of which **12,990 have fixed raw labels**
 under their stated frames. These are coverage counts. They include repeated
 copies, previously identified bodies, conditional geometry and unresolved
 historical numeral meanings; they are not a count of first decipherments or
-universally correct original letters. All 163 observed-coordinate substitutions
+universally correct original letters. All 229 observed-coordinate substitutions
 are recorded locally, separately from source erasures and inserted values.
 
 ## Source packages
@@ -46,10 +46,18 @@ are recorded locally, separately from source erasures and inserted values.
 | [Reconciling the Namur personnel-order witnesses](../namur_order_witnesses/README.md) | 2 | 494 | 252 | 237 | 11 |
 | [Medical arrangements for transports returning from Turkey](../medical_return_transports/README.md) | 5 | 1437 | 721 | 712 | 24 |
 | [Reval: steamers for troops, provisions and raw materials](../reval_steamer_notice/README.md) | 3 | 570 | 285 | 281 | 4 |
+| [Mackensen withdrawal report: source edition and ninth-part assembly](../mackensen_withdrawal_report/README.md) | 12 | 2838 | 1451 | 1334 | 25 |
+| [November radio service and document destruction](../november_radio_service/README.md) | 4 | 781 | 390 | 386 | 11 |
+| [p212 A2 / p218 A2: a truncated copy across conflicting page dates](../p212_p218_crosscopy/README.md) | 1 | 160 | 142 | 30 | 1 |
+| [Source editions of the p179 November instructions](../november_armistice_orders/README.md) | 5 | 1063 | 529 | 511 | 11 |
+| [Radio-telegram priority: p128 A1 and A2](../radio_telegram_priority/README.md) | 2 | 508 | 254 | 247 | 6 |
+| [Formation dissolution: Childs p83 B](../formation_dissolution/README.md) | 1 | 336 | 168 | 168 | 0 |
+| [Odessa / Nikolaiev shipping instruction: Childs p98](../black_sea_disembarkation/README.md) | 3 | 782 | 391 | 391 | 7 |
+| [Cash transport through Szolnok, Arad and Hermannstadt](../hermannstadt_cash_transport/README.md) | 2 | 391 | 196 | 193 | 5 |
 
 The [complete inventory](inventory.json) preserves every added identifier,
 package summary, case path and counting limit. The [inputs](inputs.json)
-pin both catalogues and 325 package/case artifacts. Earlier statuses, subjects
+pin both catalogues and 420 package/case artifacts. Earlier statuses, subjects
 and credits are unchanged; 164 old path fields follow the explicit topic-migration map.
 
 ## Additional interpretation and method audits
@@ -63,7 +71,7 @@ establish a historical plaintext or new key.
 
 ## Independent source-image binding
 
-All **103 delivered source images** have normalized PDF-page, rectangle, scale,
+All **136 delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph

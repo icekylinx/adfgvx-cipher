@@ -58,3 +58,5 @@ python experiments/medical_return_transports/verify.py --verify --pdf /path/to/a
 ```
 
 The standard check uses the standard library, the repository cipher module and the already frozen repository quadgram weights. It independently builds every inverse-transposition index/domain, exhausts the exact gap-cost screen, replays all tied repairs and the exploratory ranking, checks untouched labels, and compares the frozen certificate. The PDF option additionally needs PyMuPDF and Pillow and reproduces the crops pixel for pixel after checking the PDF hash.
+
+The preserved exploratory ranking is verified by hypothesis identity, exact raw text and counts, and the frozen model hash. Score recomputation allows an absolute difference of at most `1e-12` to accommodate float-summation differences between Python versions; the original ranking and all source/geometry conclusions are unchanged.

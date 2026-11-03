@@ -1,0 +1,22 @@
+{
+  "schema": "adfgvx-odd-OCR-retrieval-provenance-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "original_driver_sha256": "9f7c9cd76616ec6f6f722de826273aa42131154b0de8ac496fc5f6399c115b58",
+  "original_results_sha256": "97120c7021064ef9159578e3e11ddf94380a0147d5a989405e7930b6e9a48b44",
+  "selected_inputs_sha256": "b69b98c10d7e99444c0e5443fdca81a38971f3dc4b0e9eca3d218864322cbe75",
+  "original_source_sha256": "408ca9c5f60b94c73f88351755fde9ac6e916d2ee5fe3cf99c228fd653ef00ab",
+  "key_and_model_snapshot": "experiments/p198_pretransposition_loss/inputs.json",
+  "key_and_model_snapshot_sha256": "35796722e68c3d96f550b585578e2f320e68d0324a3b1346ee5ded030adb1e28",
+  "engine_source": "experiments/p198_pretransposition_loss/interim_dp.cpp",
+  "engine_source_sha256": "e99403f4401c9703dbeb8798b86751e12f90c087a1eaf079b130c830b151cf1c",
+  "engine_binary_sha256": "74a06a50085884025774bb455e9444b3c8d3e44c6a5c11f5c8a96dc9bf2ff4c5",
+  "scope": "216 unverified odd OCR blocks, each using the existing best and runner-up key from the earlier screen, two unchanged models, one interim-coordinate insertion. 864 completed jobs. This is retrieval, not a claim that any block has a historical one-coordinate loss.",
+  "manual_followup": {
+    "p132_B": "Genuine 155-slot source. A conditional extra-V model gives cleaner TELEGR wording than the insertion-only retrieval candidate; four equivalent positions remain.",
+    "p177_A": "Manual source has 186 slots matching RIZI-186; the odd 185-slot OCR frame was a transcription error.",
+    "p126_A5": "The already-reviewed conditional source diagnostic was retrieved again; this is reuse, not fresh validation."
+  }
+}

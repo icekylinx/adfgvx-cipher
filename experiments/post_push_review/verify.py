@@ -81,6 +81,8 @@ def build(pdf=None):
         assert pdf.stat().st_size == inputs['source_pdf']['bytes']
         doc = fitz.open(pdf)
         for item in inputs['source_images']:
+            if item.get('fresh_render_cache'):
+                fitz.TOOLS.store_shrink(100)
             scale = item['scale']
             pix = doc[item['pdf_page_1based'] - 1].get_pixmap(
                 matrix=fitz.Matrix(scale, scale), clip=fitz.Rect(*item['clip_pdf_points']))

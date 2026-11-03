@@ -1,0 +1,155 @@
+{
+  "schema": "adfgvx-black-sea-disembarkation-input-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "author": "J. Rives Childs",
+    "title": "General Solution of the ADFGVX Cipher System",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 98,
+    "pdf_page_1based": 101,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p98_A1.png",
+      "pdf_page_1based": 101,
+      "crop_rectangle_pdf_points": [
+        65,
+        150,
+        543,
+        353
+      ],
+      "render_scale": 3.4,
+      "sha256": "1963aa1caf67e54d12a0f7813f206b414467c11305729626baa681b5c2eb3c82"
+    },
+    {
+      "path": "sources/p98_A2.png",
+      "pdf_page_1based": 101,
+      "crop_rectangle_pdf_points": [
+        65,
+        359,
+        541,
+        514
+      ],
+      "render_scale": 3.4,
+      "sha256": "47cbe875e4388ab76fff129b16ae57d311df4e0f45792f9b7ed21069b52f7384"
+    },
+    {
+      "path": "sources/p98_B.png",
+      "pdf_page_1based": 101,
+      "crop_rectangle_pdf_points": [
+        65,
+        527,
+        541,
+        722
+      ],
+      "render_scale": 3.4,
+      "sha256": "5f19b400750509303222b586e542a87a7cdb99a14aaceda34f132f4caebadf1a"
+    }
+  ],
+  "key": {
+    "id": "Nov1-3",
+    "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+    "column_rank_order": [
+      3,
+      16,
+      4,
+      15,
+      7,
+      12,
+      18,
+      6,
+      17,
+      8,
+      19,
+      1,
+      13,
+      10,
+      2,
+      14,
+      11,
+      9,
+      5
+    ]
+  },
+  "prior_credit": {
+    "published_key": "Lasry, Niebel, Kopal and Wacker, Cryptologia; original author-paper DOI10.1080/01611194.2016.1169461.",
+    "previous_work": "Earlier unreviewed OCR-derived p83 B or p98 A1 body candidates, including frozen p73 retrieval copies, are explicitly retained. Source review and exact repair accounting are the present contribution; newly readable p98 A2/B do not establish universal priority.",
+    "prior_candidates_sha256": "790bd619828bd0a970d827dd32cf59e38a8d999b1cdb283308a37d6d2431c36f"
+  },
+  "records": [
+    {
+      "id": "p98_A1",
+      "header_lines": [
+        "A) OSM v LP (-------, November 1st)",
+        "BVG KOSPOLI (1/11) 0400 2 TEILE",
+        "1 TL",
+        "RICHI-252"
+      ],
+      "source_rows": [
+        "ADGAA ADGDX DDGVV XGDDG DVXAF DAXAD DXAFF GGGDG",
+        "VDDVA AVAVV GVVAD VAVDV DFGGV VGFDX XGDVV FGAXV",
+        "DXDXX AFXVX VVAXX ADVGX AGADG AVDGX GGDXV GAADD",
+        "GDXGG DGAXD GDGVX DGGFF DAVGA ADFXG GDFVG XGXDA",
+        "VGDVA VGGGG VGGDF XAVAD VDGAV GDAFA XGVDF ADFDV",
+        "FVDFG DAXDG DDGDA FGGVD GDGGG AVFGA VVAXV GDGAD",
+        "GFFGG AGAFA AV"
+      ],
+      "advertised_length": 252,
+      "literal_source_slots": 252,
+      "expected_raw": "FECHXROEMX2XGROSSXBFRX52751XISTDAHINABZUAENDERNXDYSSAUCHSIEGFRIEDTZUPPENNICHTMEHRI5KONSTANZAXSONDERNINODESSAAUSZUSCHIFFENSINDX",
+      "editorial_template": "FECHXROEMX2XGROSSXBFRX52751XISTDAHINABZUAENDERNXDASSAUCHSIEGFRIEDTRUPPENNICHTMEHRINKONSTANZAXSONDERNINODESSAAUSZUSCHIFFENSINDX"
+    },
+    {
+      "id": "p98_A2",
+      "header_lines": [
+        "Same A header",
+        "2 TL",
+        "RICHI-264",
+        "Followed by unenciphered NF OSM v LP"
+      ],
+      "source_rows": [
+        "DVDVF DVFAG XVXFF FVGGG AGGXA XDXGF XVVDD GFGFD",
+        "FAVGV DAFGF GXDFD XVVDG DGVFF GDXDG AXAXV GVGAA",
+        "AVFVG VFDGD XAFDX AXGVF AGDDD VGDVV GGDGG GVAAD",
+        "DGDVF VDDDX DVXDX DVDVA VGXVV DFVFD AXDGD AVGXD",
+        "DDADG FVGDG AVAXD ADDGG FDFAG GFAXG VFXDG GGVGA",
+        "FDFXX DAGAV GDVVF GXGFV FDXAA VAGAG AAVGD GGGFD",
+        "VAGGV XAADD DDAVA VVADG DGDD"
+      ],
+      "advertised_length": 264,
+      "literal_source_slots": 264,
+      "expected_raw": "DEMNACHGEHENNUMEHRSAEMTLICHESCHIFFEVONKOSPOLINACHODESSABEZWXNIKILJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXF7CHXROEMX2XGROSSXBXFRX52787XX",
+      "editorial_template": "DEMNACHGEHENNUMEHRSAEMTLICHESCHIFFEVONKOSPOLINACHODESSABEZWXNIKILJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXFECHXROEMX2XGROSSXBXFRX52787XX"
+    },
+    {
+      "id": "p98_B",
+      "header_lines": [
+        "B) OSM v LP (9.37 a.m., November 2nd)",
+        "BVG KOSPOLI (1.11) 0400",
+        "2 TL",
+        "RICHI-266"
+      ],
+      "source_rows": [
+        "DVVDF DVDVG DVVGF FVGGG AXDAD DGGGF XVVDD AADDG",
+        "DVVGV DAFGG FGFDF AVVDG DGVDF VVDAX GAXAX VGDDD",
+        "ADGFV GVFDG DFGXD FDXGV FAGDD VGAAA VFGDG GGVGA",
+        "XGVFX DFFDD DXGFA GXVXF VAVGX VXGGX AXDXD GDAVG",
+        "XDFXX DAGVG DGAVA ADGDG DDFDF AGGFV XDXDV DGGGV",
+        "GAFGX GFVFD AVGDV VFVFF GDXDX AAVAG AGVXA ADDGG",
+        "FDVAG XAFDX AXDDA VAVVG AAVGD G"
+      ],
+      "advertised_length": 266,
+      "literal_source_slots": 266,
+      "expected_raw": "DEMNACHGEHENNUMEGRSAEMTLFCHESCHIFFVVONKOSPOLINACHODESSABEZWXNIKOLAJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXFECHXROEMX2XGROSSXBXFRX52787XX",
+      "editorial_template": "DEMNACHGEHENNUMEHRSAEMTLICHESCHIFFEVONKOSPOLINACHODESSABEZWXNIKOLAJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXFECHXROEMX2XGROSSXBXFRX52787XX"
+    }
+  ],
+  "limits": [
+    "A2 and B are132/133-position near-repeated second parts with their own264/266-coordinate frames. No common-length model, coordinate insertion or deletion is applied.",
+    "NUMEHR remains in both second parts; the raw place spellings NIKILJEW and NIKOLAJEW remain distinct. Neither spelling is silently repaired.",
+    "FECH, ROEM, GROSS, BVG and the reference digits remain literal source labels; no codebook meaning or numerical key correction is asserted.",
+    "Four A2/B letter repairs are supported by directly observed matching plaintext pairs in the other witness, separately from the three A1 ordinary-word repairs.",
+    "Earlier A2/B OCR candidates omitted the first source row and were unreadable. Retranscribing the complete printed bodies is not counted as insertion into the source."
+  ]
+}

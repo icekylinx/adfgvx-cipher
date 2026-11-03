@@ -1,0 +1,72 @@
+# p98 — disembarkation at Odessa and a repeated shipping instruction
+
+**Status:** Three complete source transcriptions and readable editions. The two versions of part2 retain their separate lengths and place spellings. No missing-coordinate model is imposed.
+
+Source edition and exact repair accounting: **icekylinx and GPT-6 Astra Pro**. Published **Nov1–3** square and ranks: Lasry, Niebel, Kopal and Wacker, unchanged. An earlier unreviewed candidate already identified the body of A1, including its appearance in the frozen p73 retrieval corpus. A2 and B were unreadable in the earlier OCR screen, which omitted their first source rows. Those candidates are preserved in [the prior-work record](../../experiments/black_sea_disembarkation/prior_candidates.json); the new full source transcriptions do not establish universal first-decipherment priority.
+
+## Source records
+
+All three records occur on Childs printed page98 / PDF page101. A is headed `OSM v LP (-------, November 1st)`, `BVG KOSPOLI (1/11) 0400 2 TEILE`. Its first and second parts carry `RICHI-252` and `RICHI-264`. B is headed `OSM v LP (9.37 a.m., November 2nd)`, `BVG KOSPOLI (1.11) 0400`, `2 TL`, `RICHI-266`.
+
+| Record | Literal coordinates | Fixed plaintext positions | Proposed coordinate substitutions |
+|---|---:|---:|---:|
+| A1 |252|126|3|
+| A2 |264|132|1|
+| B, repeated part2 |266|133|3|
+| **Total physical records** |**782**|**391**|**7**|
+
+The source has no erased slots. Source transcription restores the full printed rows omitted by OCR; it does not insert coordinates into the historical ciphertext. The391-position total includes both versions of the second part and is not a count of391 distinct message characters.
+
+## p98 A1
+
+Literal decryption:
+
+```text
+FECHXROEMX2XGROSSXBFRX52751XISTDAHINABZUAENDERNXDYSSAUCHSIEGFRIEDTZUPPENNICHTMEHRI5KONSTANZAXSONDERNINODESSAAUSZUSCHIFFENSINDX
+```
+
+Edition, with three coordinate substitutions:
+
+```text
+FECHXROEMX2XGROSSXBFRX52751XISTDAHINABZUAENDERNXDASSAUCHSIEGFRIEDTRUPPENNICHTMEHRINKONSTANZAXSONDERNINODESSAAUSZUSCHIFFENSINDX
+```
+
+The cited instruction is to be amended so that the Siegfried troops, too, are to disembark at Odessa instead of Constanza. The three local proposals are `DYSS→DASS`, `TZUPPEN→TRUPPEN`, and `I5→IN`. Each changes one observed ciphertext coordinate. The last is a source repair in this word, not a reassignment of the key's digit5.
+
+`FECH`, `ROEM`, `GROSS`, `B`, `FR` and the reference digits remain literal source labels. Their codebook or procedural meanings are not supplied.
+
+## p98 A2
+
+Literal decryption:
+
+```text
+DEMNACHGEHENNUMEHRSAEMTLICHESCHIFFEVONKOSPOLINACHODESSABEZWXNIKILJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXF7CHXROEMX2XGROSSXBXFRX52787XX
+```
+
+The edition changes only `F7CH→FECH`, for one observed-coordinate substitution. The corresponding `E` is directly present in B. The text says that all ships from `KOSPOLI` are consequently to go to Odessa or the place written `NIKILJEW`, distributed according to the referenced instructions.
+
+The source form `NUMEHR` is retained, and `NIKILJEW` is not silently replaced by the longer spelling in B.
+
+## p98 B — second witness of part2
+
+Literal decryption:
+
+```text
+DEMNACHGEHENNUMEGRSAEMTLFCHESCHIFFVVONKOSPOLINACHODESSABEZWXNIKOLAJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXFECHXROEMX2XGROSSXBXFRX52787XX
+```
+
+Edition:
+
+```text
+DEMNACHGEHENNUMEHRSAEMTLICHESCHIFFEVONKOSPOLINACHODESSABEZWXNIKOLAJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXFECHXROEMX2XGROSSXBXFRX52787XX
+```
+
+The three proposed letters in `NUMEHR`, `SAEMTLICHES` and `SCHIFFE` are each directly observed in A2. The raw `NIKOLAJEW` spelling is retained in B and supports identifying the destination as Nikolaiev in the reading of this witness. It does not prove which spelling appeared in an earlier original transmission.
+
+## Witness checks and limits
+
+The certificate identifies all four A2/B cross-supported letters by plaintext index and by the two original source-coordinate indices in both copies. The proposed target pair equals an entirely observed pair in the other copy. The three A1 repairs are separately identified as ordinary-word proposals without this second-copy evidence.
+
+The published key and column ranks remain unchanged. There are **no fills, coordinate additions, deletions, reorders or new numeral assignments**. A2 and B retain their264/266-coordinate frames; no forced common message, restored extra `N`, or added letter in the shorter place spelling is claimed.
+
+Complete source rows, raw and edited round trips, repair ledgers and retained numerical labels are in [the certificate](../../experiments/black_sea_disembarkation/certificates.json). [The experiment README](../../experiments/black_sea_disembarkation/README.md) documents reproduction and PDF crop authentication.

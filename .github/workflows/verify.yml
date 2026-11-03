@@ -89,6 +89,15 @@ jobs:
           python experiments/namur_order_witnesses/verify.py --verify
           python experiments/medical_return_transports/verify.py --verify
           python experiments/reval_steamer_notice/verify.py --verify
+          python experiments/mackensen_withdrawal_report/verify.py --verify
+          python experiments/november_radio_service/verify.py --verify
+          python experiments/p212_p218_crosscopy/verify.py --verify
+          python experiments/november_armistice_orders/verify.py --verify
+          python experiments/radio_telegram_priority/verify.py --verify
+          python experiments/formation_dissolution/verify.py --verify
+          python experiments/black_sea_disembarkation/verify.py --verify
+          python experiments/hermannstadt_cash_transport/verify.py --verify
+          python experiments/november_radio_service/geometry_audit.py --verify
           python experiments/nov25_letter_constraint/verify.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |

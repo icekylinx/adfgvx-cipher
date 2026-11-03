@@ -4,7 +4,7 @@
 
 Follow requests for funds, currency exchange and purchasing decisions. Individual editions keep raw amount labels and proposed numerical interpretations separate.
 
-**28 reviewed physical records across 9 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**30 reviewed physical records across 10 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -17,6 +17,7 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [Crown airlift to Kronstadt and Hermannstadt](crown_airlift.md) | p174 A1, p174 A2, p174 A3 |
 | [A request for thirty million kroner](p205_A.md) | p205 A1, p205 A2, p205 A3, p205 A4 |
 | [Oil cartel at Tiflis: details of shipments from Poti](oil_cartel_dispatch_query.md) | p212 A3 |
+| [Cash transport to Hermannstadt](hermannstadt_cash_transport.md) | p216 B1, p216 B2 |
 | [Crown-cash requests for Arad and a report of banknote shortage](crown_cash_requests.md) | p219 A1, p219 A2, p219 B |
 | [Redemption of stamped and unstamped lei notes](lei_note_exchange.md) | p223 A1, p223 A2, p223 A3 |
 
@@ -46,6 +47,8 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 | [p205 A3](p205_A.md) | Initial five million in mixed denominations; confirm sufficiency | 117/117 raw positions; unchanged source | icekylinx and GPT-6 Astra Pro (2026) |
 | [p205 A4](p205_A.md) | Further requests to the General War Treasury; reference digits | 94/99 raw positions; reference digits unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p212 A3](oil_cartel_dispatch_query.md#p212-a3) | Oil cartel query about consignments shipped from Poti | Five ordinary-word coordinate repairs; association with medical report unasserted | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
+| [p216 B1](hermannstadt_cash_transport.md#p216-b1) | Conditional cash dispatch via Szolnok and Arad | Two tied single-coordinate gaps; five observed-coordinate word repairs | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed part-2 reading distinguished |
+| [p216 B2](hermannstadt_cash_transport.md#p216-b2) | Hermannstadt destination and arrival notifications | Direct source reading; raw 9EWEILS, 8 and reference labels retained | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed part-2 reading distinguished |
 | [p219 A1](crown_cash_requests.md) | Crown funds for Arad following agreement with the German military mission at Budapest | 167/167 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
 | [p219 A2](crown_cash_requests.md) | Inquiry whether an advance can be drawn from the field war cash office | 115/115 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
 | [p219 B](crown_cash_requests.md) | Crown remittances partly sent; severe banknote shortage reported | 177/177 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |

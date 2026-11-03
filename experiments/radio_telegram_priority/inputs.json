@@ -1,0 +1,301 @@
+{
+  "schema": "adfgvx-radio-telegram-priority-input-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "source": {
+    "title": "J. Rives Childs, General Solution of the ADFGVX Cipher System, collected intercepts",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "images": [
+      {
+        "path": "sources/childs_p128_full.png",
+        "printed_page": 128,
+        "pdf_page_1based": 131,
+        "clip_points": [
+          0.0,
+          0.0,
+          578.1599731445312,
+          824.4000244140625
+        ],
+        "scale": 1.8,
+        "sha256": "f79ea55a0a19a9ad00455b1d674dc82eaf78561b950a5e515308df2f5dad08fc",
+        "pixel_sha256": "68c098b9f45ba815a69c19fe0dacaf18e9bf65a971f7bbc81bd4f8ccae83a85c",
+        "width": 1041,
+        "height": 1484
+      },
+      {
+        "path": "sources/childs_p128_A1.png",
+        "printed_page": 128,
+        "pdf_page_1based": 131,
+        "clip_points": [
+          94,
+          171,
+          510,
+          334
+        ],
+        "scale": 4,
+        "sha256": "712eec6577f98e9e8ce01783fbcc268c27fe416a674546d8b1f75ac8602b642b",
+        "pixel_sha256": "15a1d446b0cf684025cb4b1945ea0fa73198ee996204efa5548d6f5c9cd95ad3",
+        "width": 1664,
+        "height": 652
+      },
+      {
+        "path": "sources/childs_p128_A2.png",
+        "printed_page": 128,
+        "pdf_page_1based": 131,
+        "clip_points": [
+          105,
+          340,
+          510,
+          500
+        ],
+        "scale": 4,
+        "sha256": "4dc8903d565c592b610af4016d18811e62039ce26a742ec63f9785d663d9b9d0",
+        "pixel_sha256": "bc9b303abfb04cbc4d32bc771fda257edc2aff40172a47f1809da31ffe1c5168",
+        "width": 1620,
+        "height": 640
+      }
+    ]
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "prior_credit": {
+    "published_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker",
+    "doi": "10.1080/01611194.2016.1169461",
+    "body_scope": "Earlier unreviewed OCR-derived candidates existed. No explicit p128 A body example was located in the bounded author-paper review; no universal first-decipherment claim is made."
+  },
+  "reading_policy": [
+    "Both source frames match their advertised even lengths. The older 281-slot A2 OCR extraction is not evidence of a historical coordinate loss.",
+    "All A1 numerical references remain literal. A2 raw numerals 9 and 7 inside damaged ordinary words are explicitly repaired by local coordinate substitutions, not square reassignment.",
+    "AUSDRUEKLICH and WERDN are retained in the literal proposal. HORSTMANN is retained without assigning a historical identity."
+  ],
+  "records": [
+    {
+      "id": "p128_A1",
+      "printed_page": 128,
+      "pdf_page_1based": 131,
+      "source_section": "A1",
+      "literal_header": [
+        "5th NOVEMBER, 1918.",
+        "A) LP v NKJ (7.01 p.m., November 5th)",
+        "1130 (5) 2 TLE",
+        "1 TL RICHI-226"
+      ],
+      "key_id": "Nov4-6",
+      "rows": [
+        "FVAAA DXFXF FFAVX FFVDV DVVXA FXGXX XFDGF VFXXD",
+        "FXDAF XDAVX VXVAX XXVFX VAFGV AVAVF ADDAX AFFVV",
+        "XDDDF FGAAV XFADV XFAFD XXAFV FXAVD VAFDX VFXVG",
+        "FVVVV XXVGG AVAXG FFXAF VAAAA XAXXA AVDVX XVDAX",
+        "FAAGX GFVXX AAAVV FXVXG XAAVV DFVXF AVXFX FDXFF",
+        "AAFAF AXGVV AXFAX DVADD XADVX A"
+      ],
+      "literal_source": "FVAAADXFXFFFAVXFFVDVDVVXAFXGXXXFDGFVFXXDFXDAFXDAVXVXVAXXXVFXVAFGVAVAVFADDAXAFFVVXDDDFFGAAVXFADVXFAFDXXAFVFXAVDVAFDXVFXVGFVVVVXXVGGAVAXGFFXAFVAAAAXAXXAAVDVXXVDAXFAAGXGFVXXAAAVVFXVXGXAAVVDFVXFAVXFXFDXFFAAFAFAXGVVAXFAXDVADDXADVXA",
+      "analysis_source": "FVAAADXFXFFFAVXFFVDVDVVXAFXGXXXFDGFVFXXDFXDAFXDAVXVXVAXXXVFXVAFGVAVAVFADDAXAFFVVXDDDFFGAAVXFADVXFAFDXXAFVFXAVDVAFDXVFXVGFVVVVXXVGGAVAXGFFXAFVAAAAXAXXAAVDVXXVDAXFAAGXGFVXXAAAVVFXVXGXAAVVDFVXFAVXFXFDXFFAAFAFAXGVVAXFAXDVADDXADVXA",
+      "advertised_length": 226,
+      "expected_raw": "AUSWAERTIGBERLINNUMMER597XANTWORTAUFTELEGRAMME569X592UND598BISHERNICHTEINGETROFFENXZURZEWEISUNGINKLARTEXTERBETENX",
+      "editorial_text": "AUSWAERTIGBERLINNUMMER597XANTWORTAUFTELEGRAMME569X592UND598BISHERNICHTEINGETROFFENXKURZEWEISUNGINKLARTEXTERBETENX",
+      "expected_source_changes": [
+        [
+          156,
+          "V",
+          "F"
+        ]
+      ],
+      "expected_cost": {
+        "known_coordinate_substitutions": 1,
+        "source_erasure_fills": 0
+      },
+      "explicit_numeral_spelling_repairs": [],
+      "preserved_literal_fields": [
+        "597",
+        "569",
+        "592",
+        "598"
+      ]
+    },
+    {
+      "id": "p128_A2",
+      "printed_page": 128,
+      "pdf_page_1based": 131,
+      "source_section": "A2",
+      "literal_header": [
+        "5th NOVEMBER, 1918.",
+        "A) LP v NKJ (7.01 p.m., November 5th)",
+        "1130 (5) 2 TLE",
+        "2 TL RICHI-282"
+      ],
+      "key_id": "Nov4-6",
+      "rows": [
+        "XAGXD XVVAF AVGXV FXXXG ADAFX D-VAF AFGAA XFVAF",
+        "ADAAX XAVFV XAVF- AVXFX XAXFV GVDAD XFFFX DGFA-",
+        "AVVXX GAGVF VAVXF FDDXV GFAFV FAVVX AVAFA XXAFX",
+        "AGAGX VXFX- GAXFA FVFXF AAFXV AFVGF XFXFA AFFVG",
+        "--VGV AGAXD XVAVF VGADV AXFVF VVFDX AFFVA AGAAX",
+        "XADDF AAAXX XAXVA XXFAV -FXGX FDVGV ADFVV XAXXX",
+        "XXDVF FAXAF XXVXX VAFGF XAFFX XAXXF VXFXV VFVXF",
+        "FX"
+      ],
+      "literal_source": "XAGXDXVVAFAVGXVFXXXGADAFXD-VAFAFGAAXFVAFADAAXXAVFVXAVF-AVXFXXAXFVGVDADXFFFXDGFA-AVVXXGAGVFVAVXFFDDXVGFAFVFAVVXAVAFAXXAFXAGAGXVXFX-GAXFAFVFXFAAFXVAFVGFXFXFAAFFVG--VGVAGAXDXVAVFVGADVAXFVFVVFDXAFFVAAGAAXXADDFAAAXXXAXVAXXFAV-FXGXFDVGVADFVVXAXXXXXDVFFAXAFXXVXXVAFGFXAFFXXAXXFVXFXVVFVXFFX",
+      "analysis_source": "XAGXDXVVAFAVGXVFXXXGADAFXD?VAFAFGAAXFVAFADAAXXAVFVXAVF?AVXFXXAXFVGVDADXFFFXDGFA?AVVXXGAGVFVAVXFFDDXVGFAFVFAVVXAVAFAXXAFXAGAGXVXFX?GAXFAFVFXFAAFXVAFVGFXFXFAAFFVG??VGVAGAXDXVAVFVGADVAXFVFVVFDXAFFVAAGAAXXADDFAAAXXXAXVAXXFAV?FXGXFDVGVADFVVXAXXXXXDVFFAXAFXXVXXVAFGFXAFFXXAXXFVXFXVVFVXFFX",
+      "advertised_length": 282,
+      "expected_raw": "ANH9IMGRSTELLTFDNKENSTATIONAUSDRUEK?IC7?NZUHEISENXTELEGRAMMEVORALLENANDERENZUGEBENXD?SCHEINBAR?ILITAER?SCHETELE?RAMME?EVORZUGTWERDNXHORSTMANN",
+      "editorial_text": "ANHEIMGESTELLTFUNKENSTATIONAUSDRUEKLICHANZUWEISENXTELEGRAMMEVORALLENANDERENZUGEBENXDASCHEINBARMILITAERISCHETELEGRAMMEBEVORZUGTWERDNXHORSTMANN",
+      "expected_source_changes": [
+        [
+          0,
+          "X",
+          "A"
+        ],
+        [
+          26,
+          "?",
+          "F"
+        ],
+        [
+          54,
+          "?",
+          "V"
+        ],
+        [
+          79,
+          "?",
+          "V"
+        ],
+        [
+          121,
+          "G",
+          "F"
+        ],
+        [
+          129,
+          "?",
+          "V"
+        ],
+        [
+          160,
+          "?",
+          "X"
+        ],
+        [
+          161,
+          "?",
+          "X"
+        ],
+        [
+          183,
+          "V",
+          "F"
+        ],
+        [
+          184,
+          "F",
+          "V"
+        ],
+        [
+          203,
+          "D",
+          "G"
+        ],
+        [
+          220,
+          "?",
+          "X"
+        ]
+      ],
+      "expected_cost": {
+        "known_coordinate_substitutions": 5,
+        "source_erasure_fills": 7
+      },
+      "explicit_numeral_spelling_repairs": [
+        {
+          "plaintext_index": 3,
+          "before": "9",
+          "after": "E"
+        },
+        {
+          "plaintext_index": 38,
+          "before": "7",
+          "after": "H"
+        }
+      ],
+      "preserved_literal_fields": [
+        "AUSDRUEK",
+        "WERDN",
+        "HORSTMANN"
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 
 Read the October staffing, supply and purchasing exchanges with Tiflis, followed by the Polish representative appointment and later armistice instructions.
 
-**32 reviewed physical records across 7 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**33 reviewed physical records across 8 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -16,6 +16,7 @@ Read the October staffing, supply and purchasing exchanges with Tiflis, followed
 | [A pioneer detachment may remain in Tiflis](tiflis_pioneer_detachment.md) | p81 B |
 | [p152 — Silk purchases and transport from the Caucasus](../p152.md) | p136 B1, p136 B2, p152 E2 |
 | [A Polish representative in Tiflis — p199 preamble and p192 parts 2 and 3](tiflis_appointment.md) | p192 part 2, p192 part 3, p199 unlettered part 1 |
+| [A truncated copy of the Tiflis armistice notice](p212_p218_crosscopy.md) | p212 A2 |
 | [p218 A - Kress, Tiflis and the armistice withdrawal condition](p218_A.md) | p218 A1, p218 A2, p218 A3 |
 
 ## Reviewed source records
@@ -51,6 +52,7 @@ Read the October staffing, supply and purchasing exchanges with Tiflis, followed
 | [p192 part 2](tiflis_appointment.md) | Appointment of a Polish representative for the Caucasus | 115/115 raw positions; ordinary word and country spelling separately costed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p192 part 3](tiflis_appointment.md) | Appointment instructions sent through a courier; conditional TYDELSKI identification | Unique five-coordinate gap; 114/116 after word repairs; conditional FX=Y | icekylinx and GPT-6 Astra Pro (2026) |
 | [p199 unlettered part 1](tiflis_appointment.md) | Forwarding a Polish appointment telegram through von Kress to Waclaw v. Ostrowski in Tiflis | 131-position source preamble; uniquely placed floating group; two reference cells unresolved; cross-page association explicit | icekylinx and GPT-6 Astra Pro (2026) |
+| [p212 A2](p212_p218_crosscopy.md#p212-a2) | Truncated cross-copy of the Tiflis armistice-withdrawal notice | Conditional tail from prior p218 A2; three complementary source differences; date conflict retained | icekylinx and GPT-6 Astra Pro (2026); earlier full p218 source edition credited; no new unique historical body claim |
 | [p218 A1](p218_A.md) | Kress/Tiflis notice: armistice Article XII | 140/141 raw positions; article-number repair explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p218 A2](p218_A.md) | Allied judgment governs withdrawal from former Russian territory | 141/142 raw positions; four substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p218 A3](p218_A.md) | No Allied demand yet to withdraw the Tiflis guard | 138/139 raw positions; two substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |

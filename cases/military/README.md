@@ -4,20 +4,24 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**93 reviewed physical records across 26 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**113 reviewed physical records across 30 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
 | Case | Source records |
 |---|---|
+| [p83 B — dissolution of formations and return of personnel](formation_dissolution.md) | p83 B |
 | [Orient intelligence: expected landings and fighting on the Tigris](orient_intelligence.md) | p92 B1, p93 A2, p93 A3, p93 A4, p94 A5, p94 A6 |
+| [p98 — disembarkation at Odessa and a repeated shipping instruction](black_sea_disembarkation.md) | p98 A1, p98 A2, p98 B |
 | [p107_D — supplementary source review](../supplementary/p107_D.md) | p107 D |
 | [p109 — Evening report and the Sava crossing](../p109.md) | p109 B |
+| [Mackensen's November 3 withdrawal report and its separately received ninth part](mackensen_withdrawal_report.md) | p113 A3, p113 B9, p114 A1, p114 A4, p115 A5, p115 A6, p115 A7, p115 A8, p116 A10, p116 A11, p116 A12, p116 A13 |
 | [Armistice transit and withdrawal planning](armistice_transit_planning.md) | p125 A1, p125 A2, p125 A3, p125 A4, p126 A5, p126 A6, p126 B |
 | [Recall of contract-bound military-mission members from Turkey](turkish_mission_recall.md) | p130 A1, p130 A2, p131 A3, p131 A4 |
 | [p163 A — Withdrawal instructions and headquarters movements](p163_A.md) | p163 A13, p163 A14, p163 A15, p163 A17, p163 A18 |
 | [p164 A4 — cavalry report](../context/p164_A4.md) | p164 A4 |
 | [November 9 operational reports: Serbian cavalry and the retreat north](nov9_operational_reports.md) | p166 A1, p166 A2, p166 A3, p167 A3, p170 B1, p170 B2 |
+| [Citadel surrender, local armistice terms and home leave](armistice_and_leave_orders.md) | p179 B, p179 C, p179 D1, p179 D2 |
 | [p180 A — Enemy following the withdrawal near Giurgiu](p180_A.md) | p180 A3 |
 | [The Warsaw query and its later quotation — p181 A / p214 B](mackensen_warsaw.md) | p181 A, p214 B |
 | [Transports from Romania: warning against entry into Hungary](hungary_transport_warning.md) | p184 B1, p184 B2, p184 B3, p184 C1, p184 C2, p184 C3 |
@@ -41,14 +45,30 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p83 B](formation_dissolution.md) | Dissolution of unnamed formations and return of remaining personnel to home replacement units | Direct complete168-position source reading; zero source repairs; printed second part only | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates distinguished |
 | [p92 B1](orient_intelligence.md#p92-b1) | Correction to an earlier Orient intelligence note | Source-checked six-part report; exact ordinary-word edits separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
 | [p93 A2](orient_intelligence.md#p93-a2) | Presentation notes and expected landing at Alexandretta | Direct unchanged-source reading; printed part boundary restored | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
 | [p93 A3](orient_intelligence.md#p93-a3) | Reported convoy and ship observations near Alexandretta | Direct unchanged-source reading; printed part boundary restored | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
 | [p93 A4](orient_intelligence.md#p93-a4) | Assessment of possible imminent landing attempts | Direct unchanged-source reading; printed part boundary restored | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
 | [p94 A5](orient_intelligence.md#p94-a5) | Alexandretta assessment and English report from the Tigris | Source-checked six-part report; exact ordinary-word edits separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
 | [p94 A6](orient_intelligence.md#p94-a6) | Reported fighting and alleged British cavalry action | Direct complete reading; report qualifications retained | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
+| [p98 A1](black_sea_disembarkation.md) | Siegfried troops to disembark at Odessa instead of Constanza | Complete126-position source edition;3 ordinary-word coordinate repairs | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates distinguished |
+| [p98 A2](black_sea_disembarkation.md) | Shipping from KOSPOLI to Odessa or raw NIKILJEW | Complete132-position source edition;1 coordinate repair witnessed by B; shorter place spelling retained | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates distinguished |
+| [p98 B](black_sea_disembarkation.md) | Repeated shipping instruction with raw NIKOLAJEW | Complete133-position repeated source edition;3 coordinate repairs witnessed by A2; original length retained | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates distinguished |
 | [p107 D](../supplementary/p107_D.md) | Acknowledgment of operational telegrams | Earlier reading; parenthesized glyphs retained | Ayush Agarwal; review by D. Bourdeau (2026) |
 | [p109 B](../p109.md) | Evening enemy-division report toward Belgrade | Near-parallel supporting p 109; word alternatives remain | icekylinx and GPT-6 Astra Pro (2026) |
+| [p113 A3](mackensen_withdrawal_report.md#p113-a3) | Forces south of the Danube | Prior identified report; source edition with explicit local repair costs | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p113 B9](mackensen_withdrawal_report.md#p113-b9) | The separately received ninth part | Unchanged-source reading; separately received ninth part reassembled | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p114 A1](mackensen_withdrawal_report.md#p114-a1) | Assessment of the situation | Prior identified report; source edition with explicit local repair costs | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p114 A4](mackensen_withdrawal_report.md#p114-a4) | Possible Serbian advance | Prior identified report; source edition with explicit local repair costs | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p115 A5](mackensen_withdrawal_report.md#p115-a5) | Crossing into southern Hungary | Prior identified report; source edition with explicit local repair costs | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p115 A6](mackensen_withdrawal_report.md#p115-a6) | French offensive toward Bucharest | Prior identified report; source edition with explicit local repair costs | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p115 A7](mackensen_withdrawal_report.md#p115-a7) | Romanian movement through the passes | Prior identified report; source edition with explicit local repair costs | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p115 A8](mackensen_withdrawal_report.md#p115-a8) | Threatened rear communications | Prior identified report; source edition with explicit local repair costs | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p116 A10](mackensen_withdrawal_report.md#p116-a10) | Occupation and supply constraints | Prior identified report; source edition with explicit local repair costs | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p116 A11](mackensen_withdrawal_report.md#p116-a11) | Ammunition, food and coal | Conditional one-coordinate-loss source edition; all geometry alternatives retained | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p116 A12](mackensen_withdrawal_report.md#p116-a12) | Proposed immediate withdrawal | Conditional one-coordinate-loss source edition; all geometry alternatives retained | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p116 A13](mackensen_withdrawal_report.md#p116-a13) | Jammed final part, left partial | Raw partial only; 38 of111 positions, 62 tail coordinates remain unknown | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
 | [p125 A1](armistice_transit_planning.md) | Armistice terms learned from Hungarian newspapers | 122/122 fixed positions in the exact source frame; 0 coordinate substitutions, 0 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier unreviewed OCR candidates credited separately |
 | [p125 A2](armistice_transit_planning.md) | Fifteen-day transit right and intended disposition of the 11th Army | 119/119 fixed positions in the exact source frame; 1 coordinate substitutions, 0 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier unreviewed OCR candidates credited separately |
 | [p125 A3](armistice_transit_planning.md) | Wallachia evacuation and right-flank withdrawal between Theiss and mountains | 100/100 fixed positions in the exact source frame; 1 coordinate substitutions, 0 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier unreviewed OCR candidates credited separately |
@@ -72,6 +92,10 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p167 A3](nov9_operational_reports.md) | Complete-frame repeat of the operational-report ending | Supplies p166 prefix; conservative combined template 97/102 fixed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p170 B1](nov9_operational_reports.md) | Parallel cavalry and northward-march report | Different from open p170 A; repairs and prose expansions explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p170 B2](nov9_operational_reports.md) | Alpenkorps at Ujverbasz and the 9 November march | 117/119 raw positions; place fill and historical numeral separated | icekylinx and GPT-6 Astra Pro (2026) |
+| [p179 B](armistice_and_leave_orders.md) | Citadel resistance to cease; surrender terms to be set there | Exact 158-coordinate source; one word substitution ; 76/79 labels and unresolved reference retained | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished |
+| [p179 C](armistice_and_leave_orders.md) | Mackensen and 11th Army request the local armistice conditions | Exact 232-coordinate source; three coordinate substitutions repair two words ; 116/116 labels | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished |
+| [p179 D1](armistice_and_leave_orders.md) | Home transport difficulties postpone Landsturm discharge; raw year 1560U61 retained | Exact 190-coordinate source; zero source repairs ; 91/95 labels; November 12/Nov13-15b mismatch retained | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished |
+| [p179 D2](armistice_and_leave_orders.md) | Urgent home leave suspended until further notice | Exact 212-coordinate source; zero source repairs ; 100/106 labels; reference cells unresolved | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished |
 | [p180 A3](p180_A.md) | Enemy follows withdrawal near Giurgiu; Braila and Focsani evacuated | 77/78 raw positions; nine substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p181 A](mackensen_warsaw.md) | Warsaw Soldiers Council asks about Mackensens advance | Prior query interpretation; later quote supplies one source erasure | Lasry, Niebel, Kopal and Wacker; source comparison: icekylinx and GPT-6 Astra Pro (2026) |
 | [p184 B1](hungary_transport_warning.md#p184-b1) | Mineral-oil department address | Direct source reading; received BUCKAREST retained | icekylinx and GPT-6 Astra Pro (2026); published Nov13–15a partial key; earlier unreviewed candidates distinguished |
