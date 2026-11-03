@@ -198,8 +198,8 @@ def render_overview(groups, rows):
         records = rows[group['id']]
         families = len({r['path'].split('#')[0] for r in records})
         lines.append(f"| [{group['title']}]({group['id']}/README.md) | {len(records)} | {families} |")
-    lines.extend(['', 'These topic guides cover every record in the second table below. '
-                  'The challenge table retains all 22 original entries.', END])
+    lines.extend(['', 'These topic guides cover every other reviewed source record. '
+                  'The page-number index below also retains all 22 original challenge entries.', END])
     return '\n'.join(lines)
 
 

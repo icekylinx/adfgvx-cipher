@@ -4,14 +4,22 @@ For consistent plaintext layers, unknown symbols, source-slot counts and repair 
 
 Start with the [case guide](../cases/README.md) to read the messages. Its six
 topic guides collect related subjects and then show each physical source
-record with its reading status and credit. The complete challenge and other
-record tables remain available in both the case guide and the
-[main README](../README.md). The main README keeps the 22 challenge entries
-visible and places the other-record table in an expandable section whose
-summary shows its record count; the case guide keeps both tables expanded.
+record with its reading status and credit. The [main README](../README.md)
+and case guide keep compact, separate challenge and other-record summaries
+by printed page range. The [complete page index](../cases/pages/README.md)
+links to every represented manuscript page; each range has short, separate
+challenge and other-record tables under its individual page headings.
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. Topic placement is an editorial
 reading aid; each case retains its own keys, source relationships and limits.
+
+## Read by source page
+
+The [page index](../cases/pages/README.md) groups the printed Childs collection
+into 25-page ranges. Each record appears once, under its printed source page.
+Page numbers differ from PDF viewer page counters; section and part labels
+remain necessary to distinguish messages on the same page. Detailed tables
+preserve every status, credit and case link from the live catalogue.
 
 ## Read by subject
 
@@ -40,6 +48,7 @@ its topic folder. Each complete body has one canonical location.
 | Location | Purpose |
 |---|---|
 | [cases/](../cases/README.md) | Readable German, English meaning, qualifications, original credits and evidence links |
+| [cases/pages/](../cases/pages/README.md) | Complete source-page index, grouped into 25-page ranges and individual printed pages |
 | [data/reading_catalog.json](../data/reading_catalog.json) | Authoritative record identifiers, subjects, statuses, credits and current case paths |
 | [data/reading_groups.json](../data/reading_groups.json) | Topic directories, shared case membership and related challenge links |
 | [data/case_path_aliases.json](../data/case_path_aliases.json) | Earlier and current case paths, preserved section anchors and original Markdown digests |
@@ -77,8 +86,11 @@ python -m adfgvx.navigation --check
 python -m adfgvx.verify
 ```
 
-The catalogue command generates the two complete tables from one data source.
-The navigation command generates the topic indexes and compatibility pages. Its
+The catalogue command generates the compact homepage and case-guide tables,
+complete page index and page-range tables from one data source. Its check
+verifies that every record appears exactly once in the page grouping and
+that all generated case and section links resolve. The navigation command
+generates the topic indexes and compatibility pages. Its
 check verifies complete topic coverage, current status/credit rendering, alias
 destinations, retained section anchors, and local reading links, including
 links to evidence files. These checks use Python's standard library.

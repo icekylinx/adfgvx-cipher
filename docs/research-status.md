@@ -6,7 +6,7 @@
 
 The edition retains 22 challenge entries. The current total of other
 source-reviewed records and every individual status are in the
-[two reading tables](../cases/README.md); the
+[page-number reading index](../cases/pages/README.md); the
 [post-publication inventory](../experiments/post_push_review/README.md)
 records the latest source-edition additions. **p73, p170 A and p198 D remain
 wholly open.** Other entries range from complete prior readings to partial
