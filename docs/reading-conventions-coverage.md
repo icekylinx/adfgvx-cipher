@@ -176,8 +176,8 @@ python data/reviews/verify_reading_conventions.py --snapshot data/reviews/readin
 
 All scripts use the standard library and derive the repository location from
 their own files. They can be invoked by absolute path from another working
-directory. The first four commands compare actual stored before-records;
-the last command scans the current case tree independently of the manifest.
+directory. The preservation commands compare actual stored before-records;
+`check_reading_presentation.py` scans the current case tree independently of the manifest.
 It fails for a new unreviewed case, a missing or duplicated legend, changed
 display bytes/order, or a changed/missing reviewed caption or qualifier.
 

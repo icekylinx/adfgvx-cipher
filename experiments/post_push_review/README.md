@@ -2,11 +2,13 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-**State: in progress.** The initial remote publication was confirmed at
-2026-11-02 23:27:19 UTC. The original two-hour follow-up and subsequent
-extensions are preserved in the inputs. This further requested two-hour
-continuation began at **2026-11-03 05:58:04 UTC**, running through at least
-**07:58:04 UTC (15:58:04 UTC+8)**. No completed duration is claimed by this checkpoint.
+**State: completed.** This review closed at **2026-11-03T07:58:05Z**. The further
+requested two-hour continuation began at **2026-11-03 05:58:04 UTC**
+and continued through the **07:58:04 UTC (15:58:04 UTC+8)** deadline.
+The initial remote publication at 2026-11-02 23:27:19 UTC and earlier
+extensions remain recorded separately. Completion describes the reviewed
+local research snapshot; it does not assert that every artifact has been
+published remotely.
 
 ## Current preserved inventory
 
@@ -163,6 +165,11 @@ its copied values are excluded from the fixed-raw total.
 - [Optional Nov22–24 interpretation: GD may stand for J](../nov22_nikolajew_constraint/README.md)
 - [Literal-coordinate retrieval after publication](../post_push_copy_retrieval/README.md)
 - [Bounded diagnostics of three unaccepted odd-length fragments](../odd_fragment_diagnostics/README.md)
+- [Accounting copies: two recovered labels and a retained ending disagreement](../accounting_copy_reconciliation/README.md)
+- [Optional address spelling in p132 A](../p132_optional_address/README.md)
+- [An optional technical reading for the p63 inspector request](../p63_optional_technical_reading/README.md)
+- [Optional staff vocabulary in the interference-damaged p137 A5](../p137_optional_staff_vocabulary/README.md)
+- [Optional route vocabulary in the jammed p116 A13](../p116_optional_route_fragment/README.md)
 
 These packages retain their own calibration limits and conditional assumptions.
 A source-compatible witness or an exact language optimum does not by itself

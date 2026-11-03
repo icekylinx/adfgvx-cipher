@@ -1,13 +1,13 @@
 {
   "schema": "adfgvx-post-publication-review-v2",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "inputs_sha256": "30ae880e4eddca00d2481539e519aa823925ee9d08e3d6fbf64c08b68938c46d",
-  "review_state": "in_progress",
+  "inputs_sha256": "c2bc4162c6b10b8404c055d7ebdeba19658438da39851712eefecaa640a1d910",
+  "review_state": "completed",
   "initial_push_confirmed_utc": "2026-11-02T23:27:19Z",
   "minimum_followup_end_utc": "2026-11-03T01:27:19Z",
   "extended_work_until_utc": "2026-11-03T07:58:04Z",
-  "review_finished_utc": null,
-  "completed_elapsed_seconds_after_push": null,
+  "review_finished_utc": "2026-11-03T07:58:05Z",
+  "completed_elapsed_seconds_after_push": 30646,
   "catalogue": {
     "challenge_entries": 22,
     "other_reviewed_entries_before": 195,
@@ -210,6 +210,7 @@
     "modeled_plaintext_positions": 40339,
     "fixed_raw_label_positions_under_stated_geometry": 38837,
     "known_coordinate_substitutions": 783,
+    "source_linked_additional_fixed_label_positions": 0,
     "reviewed_record_entries": 382,
     "unique_reviewed_physical_sources": 382,
     "new_physical_sources": 381,
@@ -5056,6 +5057,7 @@
     "The earlier 87-to-195 review retains its own immutable snapshots. This review starts at195.",
     "Catalogue entries and physical sources are separate counts. Registered p132_B is a later edition of challenge p132 and adds no new physical source.",
     "Package coverage retains every reviewed entry and its modeled positions, including that existing source. Coverage totals separately report unique reviewed sources and genuinely new physical sources.",
-    "Every unregistered duplicate printed-page/source-section location is rejected; similar bodies at different physical source locations are not merged."
+    "Every unregistered duplicate printed-page/source-section location is rejected; similar bodies at different physical source locations are not merged.",
+    "The fixed-raw total leaves the source-linked added coordinate of p158 E1 unassigned. Its one extra fixed position from the p170 B1 A is counted separately as source_linked_additional_fixed_label_positions. Existing copy-conditioned packages retain their original normalization; absent new metadata defaults to zero."
   ]
 }

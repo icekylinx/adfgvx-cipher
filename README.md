@@ -54,7 +54,7 @@ The catalogue covers source-reviewed records with published reading evidence; th
 
 The [accounting-copy reconciliation](experiments/accounting_copy_reconciliation/README.md) restores two unresolved labels in p175 from an independently received p172 companion. Its conservative reading reaches 100/102 fixed positions with the original four observed-coordinate changes; the ending disagreement and shared word repairs remain explicit.
 
-Latest source additions include a [third silk-resale continuation](cases/finance/nov6_silk_resale_continuation.md), a [Sevastopol food-dispatch list](cases/caucasus/sevastopol_supply_dispatch.md), and a [two-part request to stop further provisions](cases/military/nov25_provisions_and_evening_report.md). Their original quantities, reference labels and message boundaries remain explicit.
+Other reviewed sources include a [third silk-resale continuation](cases/finance/nov6_silk_resale_continuation.md), a [Sevastopol food-dispatch list](cases/caucasus/sevastopol_supply_dispatch.md), and a [two-part request to stop further provisions](cases/military/nov25_provisions_and_evening_report.md). Their original quantities, reference labels and message boundaries remain explicit.
 
 Other recent recoveries include the [second part of Mackensen’s withdrawal report](cases/military/mackensen_withdrawal_part2.md), [independent Ringbahn instruction copies](cases/radio/nov6_ringbahn_key_witnesses.md), and the [Siegfried cancellation order](cases/people/siegfried_assignment_cancellation.md). Each keeps its raw output, explicit reconstruction costs and earlier credits.
 

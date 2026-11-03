@@ -73,6 +73,15 @@ retains the sum of those package record counts; separate fields report
 continue to describe the reviewed package scope. Their sum does not claim
 that every position comes from a newly encountered source.
 
+A package can also distinguish fixed labels in its unfilled source frame
+from labels completed by an independently received copy. The cumulative
+`fixed_raw_label_positions_under_stated_geometry` uses the unfilled count
+for the reviewed one-coordinate parallel. Its
+`source_linked_additional_fixed_label_positions` reports the extra fixed
+position separately, with zero as the default for packages without that
+explicit field. The underlying package's source-linked baseline and all
+its certificate bytes remain unchanged.
+
 The original start/end catalogue rows and all earlier metadata preservation
 checks remain in force. The new relation corrects source-count claims;
 it does not weaken preservation checks or change the cryptographic results.
