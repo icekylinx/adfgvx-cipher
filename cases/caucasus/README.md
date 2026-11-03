@@ -4,7 +4,7 @@
 
 Read the October staffing, supply and purchasing exchanges with Tiflis, followed by the Polish representative appointment and later armistice instructions.
 
-**31 reviewed physical records across 6 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**32 reviewed physical records across 7 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -13,6 +13,7 @@ Read the October staffing, supply and purchasing exchanges with Tiflis, followed
 | [October routing, weather and personnel requests](october_requests.md) | p62 A, p62 B, p63 A, p65 A |
 | [October staffing, manganese purchases and service traffic](october_staffing.md) | p66 A, p66 B, p66 C1, p67 A2, p67 B, p67 C |
 | [October Caucasus traffic — Kress, Westernhagen and a shipment for Poti](october_caucasus.md) | p68 A1, p68 A2, p69 A, p69 B1, p69 B2, p70 A1, p70 A2, p71 A1, p72 A1, p72 A2, p72 A3, p72 B |
+| [A pioneer detachment may remain in Tiflis](tiflis_pioneer_detachment.md) | p81 B |
 | [p152 — Silk purchases and transport from the Caucasus](../p152.md) | p136 B1, p136 B2, p152 E2 |
 | [A Polish representative in Tiflis — p199 preamble and p192 parts 2 and 3](tiflis_appointment.md) | p192 part 2, p192 part 3, p199 unlettered part 1 |
 | [p218 A - Kress, Tiflis and the armistice withdrawal condition](p218_A.md) | p218 A1, p218 A2, p218 A3 |
@@ -43,6 +44,7 @@ Read the October staffing, supply and purchasing exchanges with Tiflis, followed
 | [p72 A2](october_caucasus.md#p72-a--reinforcements-administrative-personnel-and-money-for-kress) | Administrative personnel except garrison officials | Two 25-slot near-duplicate alternatives; 108/113 positions common | icekylinx and GPT-6 Astra Pro (2026) |
 | [p72 A3](october_caucasus.md#p72-a--reinforcements-administrative-personnel-and-money-for-kress) | Personnel will be supplied; necessary funds secured | 60/62 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p72 B](october_caucasus.md#p72-b--radio-timings-and-reception) | Radio timings and reception at Poti | 136/137 raw positions; proposed time and wavelength repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
+| [p81 B](tiflis_pioneer_detachment.md#p81-b) | Groener permits a pioneer detachment to remain in Tiflis | Direct source reading; all reference labels retained | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
 | [p136 B1](../p152.md#raw-p136-b1-parallel-plaintext) | Silk purchases in the Caucasus; first part | Full raw reading; supports the p 152 fragment | icekylinx and GPT-6 Astra Pro (2026) |
 | [p136 B2](../p152.md#raw-continuation-witnesses) | Resell goods whose transport is not assured | Continuation; one coordinate supplied by a parallel | icekylinx and GPT-6 Astra Pro (2026) |
 | [p152 E2](../p152.md#raw-continuation-witnesses) | Parallel continuation of the silk instruction | Direct raw reading with residual garbles | icekylinx and GPT-6 Astra Pro (2026) |

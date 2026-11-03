@@ -1,0 +1,311 @@
+{
+  "schema": "adfgvx-mackensen-armistice-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "pdf_bytes": 156848258,
+    "heading": "25th NOVEMBER, 1918.",
+    "common_header": "NKJ v UKS (05.24 p.m., November25th);1620 (11/25) KR MIM6TLE; FUR LP",
+    "source_time_note": "The scan reads1620. The prior author paper summarizes this as16:30; the edition preserves the source without resolving the discrepancy."
+  },
+  "key": {
+    "id": "Nov25-28",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      21,
+      9,
+      6,
+      14,
+      10,
+      20,
+      1,
+      16,
+      18,
+      7,
+      15,
+      4,
+      11,
+      22,
+      5,
+      17,
+      23,
+      2,
+      12,
+      8,
+      19,
+      3,
+      13
+    ],
+    "column_count": 23,
+    "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "square_rows": [
+      "HQ05DK",
+      "ZAOYM6",
+      "BEIWTJ",
+      "7PSCFL",
+      "V94132",
+      "NGURX8"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "printed_page": 220,
+      "pdf_page_1based": 223,
+      "path": "sources/p220_C.png",
+      "crop_pdf_points": [
+        90,
+        370,
+        535,
+        710
+      ],
+      "render_scale": 4,
+      "sha256": "8be3bbb179b79ce9cf06235e76ffc98dc81f004a52ed90c0287af8e55419b8ac"
+    },
+    {
+      "printed_page": 221,
+      "pdf_page_1based": 224,
+      "path": "sources/p221_A.png",
+      "crop_pdf_points": [
+        75,
+        130,
+        535,
+        320
+      ],
+      "render_scale": 4,
+      "sha256": "dd030610d57ecc41ebf95520cd8d6f68ad80ee358f1d5d2f3e3602fa2921c473"
+    }
+  ],
+  "prior_credit": {
+    "body_identification": "Childs; summarized by George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016).",
+    "period_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016); published period key retained unchanged.",
+    "paper_title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+    "paper_url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+    "paper_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+    "locator": "Author manuscript p21, paragraph beginning On November25,1918; cites Childs p221 A.",
+    "present_contribution": "Complete source-checked German edition, restoration of observed final groups omitted by OCR, conditional short-part reconstruction, exact repairs and preserved numerical/reference labels. No first-decipherment claim."
+  },
+  "records": [
+    {
+      "id": "p220_C1",
+      "printed_page": 220,
+      "pdf_page_1based": 223,
+      "source_section": "C1",
+      "advertised_length": 222,
+      "source_rows": [
+        "DXXDF DAGFF VFVFX ADCAV XDFDX GFVVF DFFGA GAFAD",
+        "XAFFA DGAAF FVXFF FGADX VDDXF GDXVF ADVDG FDFDX",
+        "FVGGG XXGXG AFDXV GDXDF VGVXV ADXAF VAAXF FVGXF",
+        "GAFFF AGFAD XDFXX XGXFF VXVXD FGVGV XVDVX XXADX",
+        "GVXFG FXXFA XDDAX DFVDD FVAXA AFDFA FFXDA GGFFF",
+        "DGFVX DAXDD FVXDV XDAGF AF"
+      ],
+      "frame_model": {
+        "kind": "identity"
+      },
+      "expected_raw": "OHLOPXXKMXXVOLKSREGXBERLI7XXGENXBERTHELOTHATMITGETEILJKDASSGENXFOCHANWENDUNGDERWESTWAFFEN?TILLSTANDSBEDINGUNGEN",
+      "editorial_plaintext": "OHLOPXXKMXXVOLKSREGXBERLINXXGENXBERTHELOTHATMITGETEILTXDASSGENXFOCHANWENDUNGDERWESTWAFFENSTILLSTANDSBEDINGUNGEN",
+      "expected_known_substitutions": 4,
+      "prior_ocr_block_id": "p220_ocr_block4",
+      "notes": [
+        "One printed C in ADCAV is outside the coordinate alphabet and remains a source erasure. Other earlier OCR erasures are visibly present coordinates.",
+        "Raw7 and J within ordinary words are repaired only by explicit coordinate changes; no numeral relabelling is applied."
+      ]
+    },
+    {
+      "id": "p220_C2",
+      "printed_page": 220,
+      "pdf_page_1based": 223,
+      "source_section": "C2",
+      "advertised_length": 264,
+      "source_rows": [
+        "XDGGX AGGFV FFFXF XFAGG DFFAX VXGXV DFGAD GAGDD",
+        "GAAXD FVFAX DFFFV FXFDA AAFXX AXFVD DGVXF XGFGX",
+        "GDAXD FVGAG GVGVX AXFAA DDFFF FVFDX VAFAV XFXVX",
+        "VAVDA XGGXA FXFDF DGFAF FXADD GVFFX DFVXD DDXAA",
+        "FFAVF GXGXF FDGAX DAXVF DFDXV GVXAG DDVXV AVFDF",
+        "DDFXD XAAFA DXDXV FVADF AFFAA FVDVX GDFDX FGFXF",
+        "FDFFA XGDVF FFAGV XFFDX VFGG"
+      ],
+      "frame_model": {
+        "kind": "identity"
+      },
+      "expected_raw": "FUERDEUTSCHESUEDOSTFRONTABLEHNTUNDENTWAFFNUNGUNDINTERNIERUNGHGRMAPKENSENFORDERTXOKMWIRDIMPFANGDERNOTEBISZUMEINTREFFENDERENTSCHEIDUNG",
+      "editorial_plaintext": "FUERDEUTSCHESUEDOSTFRONTABLEHNTUNDENTWAFFNUNGUNDINTERNIERUNGHGRMACKENSENFORDERTXOKMWIRDEMPFANGDERNOTEBISZUMEINTREFFENDERENTSCHEIDUNG",
+      "expected_known_substitutions": 2,
+      "prior_ocr_block_id": "p220_ocr_block5",
+      "notes": [
+        "The first glyph of final first-row GAGDD has the visible G bar; the source is transcribed as G.",
+        "The reception wording continues in C3; it says merely acknowledge receipt pending the decision."
+      ]
+    },
+    {
+      "id": "p220_C3",
+      "printed_page": 220,
+      "pdf_page_1based": 223,
+      "source_section": "C3",
+      "advertised_length": 206,
+      "source_rows": [
+        "XDDVX GXDAD FDXDX VGDFF XXAFD FFDDX XDXDX AFDFD",
+        "XFXDA AAXDG VGFFX FXDAF DXDXX XGAVF AFFAA FDGGG",
+        "GGAGV GFDVX ADFDG GFGAG FGGXD XGGGD XFXDG VAFVD",
+        "XDXFD FVGDX DFGXV GFGFA AFVFF DFGXV FVGFG XXVXD",
+        "FFDGV DAFAX XFFXX XDFGD GXDFV XFFVF XFVXA FXXVD",
+        "DDADF D"
+      ],
+      "frame_model": {
+        "kind": "identity"
+      },
+      "expected_raw": "OHLXLEDIGLICHBESTAETIGENXSOLLJEALLGEMXLAGEERFUELLUNGFRANZXFORDERUNGVERLANGEBXMUESSTEERREICHTWERDENKDASU",
+      "editorial_plaintext": "OHLXLEDIGLICHBESTAETIGENXSOLLTEALLGEMXLAGEERFUELLUNGFRANZXFORDERUNGVERLANGENXMUESSTEERREICHTWERDENXDASS",
+      "expected_known_substitutions": 5,
+      "prior_ocr_block_id": "p220_ocr_block6",
+      "notes": [
+        "The complete final DDADF D (six coordinates) is present in the source but omitted by the earlier200-slot OCR stream.",
+        "SOLLJE is repaired to SOLLTE, not expanded into SOLL DIE."
+      ]
+    },
+    {
+      "id": "p220_C4",
+      "printed_page": 220,
+      "pdf_page_1based": 223,
+      "source_section": "C4",
+      "advertised_length": 244,
+      "source_rows": [
+        "FGAAV GDFAA FFXGD VFGXF XDXDF GDVXD DVXVF AXFGD",
+        "XAXDX GXVFD ADXFF VXFGD FFXDF VFFXF XFXGA XAGDF",
+        "DFVDD XAFFF FFVGD FGGDA DADXF GGAXD FDVFG DXXGA",
+        "FFFGF FAAVX VXDGA XFAXF FVVGX DFDGF ADXAF DFAAG",
+        "AAFAX DXAXF ADGGA ADXAX DAFVD FXADF GXAFX XDGDF",
+        "VVGGX VXAXA XXFVX AXAXX AAFVX FXGXA XGDVX DGVFV",
+        "XGGG"
+      ],
+      "frame_model": {
+        "kind": "identity"
+      },
+      "expected_raw": "ENTWAFFNUNGDURCHINGARNXNICHTDURCHENTENTEERFOLTUXDVONWNTERNI9RUNGXDIEAUCHAUIVERPFLEGUNGSGRUENDENHOECHSTENSINUNGARNMOEGLICHX",
+      "editorial_plaintext": "ENTWAFFNUNGDURCHUNGARNXNICHTDURCHENTENTEERFOLTUNDVONINTERNIERUNGXDIEAUCHAUSVERPFLEGUNGSGRUENDENHOECHSTENSINUNGARNMOEGLICHX",
+      "expected_known_substitutions": 5,
+      "prior_ocr_block_id": "p220_ocr_block7",
+      "notes": [
+        "The final XGGG group (four coordinates) is present in the source but omitted by the earlier240-slot OCR stream.",
+        "ERFOLT is retained without an inserted G. The candidate changes UXD to UND with its exact coordinate cost.",
+        "Raw9 inside WNTERNI9RUNG is retained in the raw layer and separately repaired to E; it is an inconvenient example for the independent VD=J hypothesis."
+      ]
+    },
+    {
+      "id": "p221_A5",
+      "printed_page": 221,
+      "pdf_page_1based": 224,
+      "source_section": "A5",
+      "advertised_length": 232,
+      "source_rows": [
+        "DFDFD XVFAD FFFGV FDXAF AXGGX FDXVX XVXAX GGFFF",
+        "FVXGF VGDGD DFDDA FAFF- -XGDD DGFFX DDDXF FFXFD",
+        "DGDXV FAFFA AAGXG DDXAF AXFFD DGXAX FDVFF ADXGA",
+        "VAFGA DXFXG FXFXD AVDDF DVFFX DXDXG XDAAA GXFFD",
+        "GDGFA XAXDF FDAXV FFFDX GFXAF AXVXA FDVFD DAGAG",
+        "VFFAF ADXAX VGFXX G-DFD XD"
+      ],
+      "frame_model": {
+        "kind": "two_five_coordinate_gaps",
+        "source_gap_indices": [
+          0,
+          0
+        ]
+      },
+      "expected_raw": "ABS?AN0GE?OMME?WIRDKINTERN?ERUNGWUERD?NACH5EMSOEB?NKAR?ATHTN?NTERGROESST?NANSTRENGU?GENUEBERSCH?ITTENUNDAB?U?NSPORTE",
+      "editorial_plaintext": "ABSTANDGENOMMENWIRDXINTERNIERUNGWUERDENACHDEMSOEBENKARPATHENUNTERGROESSTENANSTRENGUNGENUEBERSCHRITTENUNDABTRANSPORTE",
+      "expected_known_substitutions": 6,
+      "prior_ocr_block_id": "p221_ocr_block1",
+      "notes": [
+        "The source advertises232 but actually prints222 slots, including three dashes; this shortfall is real, not an OCR deletion.",
+        "The representative inserts two missing groups of five at the beginning. Every223 contiguous-gap and24976 ordered two-group placement is compared.",
+        "The full retrospective candidate uniquely minimizes ordinary-coordinate changes at the prefix; masking its opening, INTERNIERUNG and KARPATHEN leaves five tied two-group fits.",
+        "No independent duplicate or original German plaintext verifies the proposed missing prefix."
+      ]
+    },
+    {
+      "id": "p221_A6",
+      "printed_page": 221,
+      "pdf_page_1based": 224,
+      "source_section": "A6",
+      "advertised_length": 194,
+      "source_rows": [
+        "XDFAX XFGFV XDXAX XXVGD XGXVD XFFFV XVXFA GXFFF",
+        "FFFFF AFAVF DGVDF AAFFD XDADG VFDXF FAXDD XXVDG",
+        "DVXDD FDXDG AGAFX FAFDA ADGGF DFXDF DVGVG ADXGF",
+        "XVGAX DDGFF FFDAX FGFFD XDFFF FDDDX XVFFX VXVDX",
+        "ADVAA GGGXF AAXXD FVFDX AGVXV GFVDD XAGD"
+      ],
+      "frame_model": {
+        "kind": "identity"
+      },
+      "expected_raw": "EINGELEITETZUMASSENF8UC0TMITUNSAEGLICHEMELENDUNDZUOFFENERAUFLEHNUNGFUEHRENXFELDMXMACKENSENJAJJ6J4",
+      "editorial_plaintext": "EINGELEITETZUMASSENFLUCHTMITUNSAEGLICHEMELENDUNDZUOFFENERAUFLEHNUNGFUEHRENXFELDMXMACKENSENJAJJ6J4",
+      "expected_known_substitutions": 2,
+      "prior_ocr_block_id": "p221_ocr_block2",
+      "notes": [
+        "The original source frame is194 coordinates. F8UC0T is repaired to FLUCHT with two explicit coordinate changes.",
+        "The closing JAJJ6J4 is preserved without a proposed historical reference value."
+      ]
+    }
+  ],
+  "gap_audit": {
+    "record_id": "p221_A5",
+    "mechanism": "Ten missing transmitted coordinates, modeled as either one contiguous gap or two ordered five-coordinate gaps; alternatives outside these declared models are not excluded.",
+    "template_status": "Retrospective editorial candidate, not an independently supplied crib.",
+    "masked_spans": [
+      {
+        "text": "ABSTANDGENOMMENWIRD",
+        "start": 0,
+        "end": 19
+      },
+      {
+        "text": "INTERNIERUNG",
+        "start": 20,
+        "end": 32
+      },
+      {
+        "text": "KARPATHEN",
+        "start": 51,
+        "end": 60
+      }
+    ],
+    "candidate_scores_sha256": "2d6aea8e7000fbe1851e4265dc410b0b479bede3b68057d5c0e3b1d05393d9b4",
+    "two_group_costs_sha256": "6ac629e0101528bbe1d29d2b9449bf56dd17142a3aeec5bbe9575d17754571d5"
+  },
+  "prior_candidates_sha256": "c636e504dec1b5cad2624ceb06cd1bcb0f994245f375a7662e2128d05d407ed1"
+}

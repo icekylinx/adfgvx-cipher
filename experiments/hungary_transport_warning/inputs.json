@@ -1,0 +1,542 @@
+{
+  "schema": "adfgvx-hungary-transport-warning-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov13-15a",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      13,
+      8,
+      6,
+      16,
+      7,
+      18,
+      1,
+      14,
+      9,
+      20,
+      10,
+      15,
+      17,
+      2,
+      3,
+      11,
+      5,
+      19,
+      4,
+      12
+    ],
+    "column_count": 20,
+    "square": "JZLH?R??S?T?MKDWU?V?B?P??FAO?GIX?CNE",
+    "square_rows": [
+      "JZLH?R",
+      "??S?T?",
+      "MKDWU?",
+      "V?B?P?",
+      "?FAO?G",
+      "IX?CNE"
+    ],
+    "known_cell_count": 24,
+    "missing_plaintext_symbols": "0123456789QY",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 11,
+        "author": "George Lasry",
+        "date": "2017-02-27"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 244,
+        "pdf_page_1based": 247,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+    ],
+    "baseline_square": "JZLH+R++S+T+MKDWU+V+B+P++FAO+GIX+CNE",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p184_heading",
+      "path": "sources/p184_heading.png",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "crop_pdf_points": [
+        70,
+        145,
+        530,
+        164
+      ],
+      "render_scale": 4,
+      "sha256": "124850e454e35d8300840330bcd1ab285a85f8b59d338dafea355dab0dcc571d"
+    },
+    {
+      "id": "p184_B1",
+      "path": "sources/p184_B1.png",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "crop_pdf_points": [
+        70,
+        258,
+        530,
+        349
+      ],
+      "render_scale": 4,
+      "sha256": "d13a2b7ab5086c9835cb7f012eb3a8d098a343e2cafdcaa359b9b3201cc11ba4"
+    },
+    {
+      "id": "p184_B2",
+      "path": "sources/p184_B2.png",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "crop_pdf_points": [
+        85,
+        358,
+        530,
+        433
+      ],
+      "render_scale": 4,
+      "sha256": "e8d19a348bca9be3bdafdaf0df86f03de915c87fccf1f34031b51530e91b2171"
+    },
+    {
+      "id": "p184_B3",
+      "path": "sources/p184_B3.png",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "crop_pdf_points": [
+        85,
+        445,
+        530,
+        486
+      ],
+      "render_scale": 4,
+      "sha256": "1bc010fad483072d2a6e421e5f55337d41f17ec56506756b40bf1ff5ff2ae947"
+    },
+    {
+      "id": "p184_C1",
+      "path": "sources/p184_C1.png",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "crop_pdf_points": [
+        70,
+        495,
+        530,
+        588
+      ],
+      "render_scale": 4,
+      "sha256": "379d5f981e56a43cc67c7d6ebf2c2bf02213eab310a7e94686974b41f340ee05"
+    },
+    {
+      "id": "p184_C2",
+      "path": "sources/p184_C2.png",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "crop_pdf_points": [
+        85,
+        597,
+        530,
+        666
+      ],
+      "render_scale": 4,
+      "sha256": "af9c7bd4c58892bf1574a6a7f78757093d8bd512edec6dc5d5ac88d6ff804f14"
+    },
+    {
+      "id": "p184_C3",
+      "path": "sources/p184_C3.png",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "crop_pdf_points": [
+        85,
+        677,
+        530,
+        724
+      ],
+      "render_scale": 4,
+      "sha256": "3e732537ae2d31d73b661f8b17abcb135380433d49c23dec902393c76b9ba668"
+    },
+    {
+      "id": "p184_C3_faint",
+      "path": "sources/p184_C3_faint.png",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "crop_pdf_points": [
+        430,
+        674,
+        525,
+        714
+      ],
+      "render_scale": 8,
+      "sha256": "ba6f1cdfa11ce90a7badfd498bd4d789f10fb8a7a8d8a97399204ce62918429c"
+    }
+  ],
+  "records": [
+    {
+      "id": "p184_B1",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "source_section": "B1",
+      "message_part": 1,
+      "message_total_parts": 3,
+      "source_image_id": "p184_B1",
+      "key_id": "Nov13-15a",
+      "page_heading": "13th NOVEMBER, 1918.",
+      "common_receipt_header": "NKJ v LP (02.51 a.m., November 13th)",
+      "common_origin_header": "FUER UKS DRINGEND 13.40 (13/11) 3 TLE",
+      "header": "B) NKJ v LP (02.51 a.m., November 13th); FUER UKS DRINGEND 13.40 (13/11) 3 TLE; 1 TL RICHI-146",
+      "source_rows": [
+        "VFXVX GFXAG FXAFF VXDVA AFFDV VXDVX ADAFX XVXXX",
+        "AXXXX DAFVG XFAXF FXXVG VXVXD XXXXD XXFDF AFFFX",
+        "ADVFG VFVFX DGXVD GFXFA FVXDD VXXDV FVGDF DDAFF",
+        "DAXVD VFGAF FDGGX VFVXF GVDVV G"
+      ],
+      "source_slots": 146,
+      "advertised_length": 146,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "ANXOBERKOMMANDOXMACKENSENXWIRTSCHAFTSSTABXMINERALOELABTEILUNGXBUCKARESTXX",
+      "readable_candidate": "ANXOBERKOMMANDOXMACKENSENXWIRTSCHAFTSSTABXMINERALOELABTEILUNGXBUCKARESTXX",
+      "notes": [
+        "No partial-square cell or numerical label is assigned.",
+        "BUCKAREST is retained as received; it is not normalized to Bucharest or Bukarest."
+      ]
+    },
+    {
+      "id": "p184_B2",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "source_section": "B2",
+      "message_part": 2,
+      "message_total_parts": 3,
+      "source_image_id": "p184_B2",
+      "key_id": "Nov13-15a",
+      "page_heading": "13th NOVEMBER, 1918.",
+      "common_receipt_header": "NKJ v LP (02.51 a.m., November 13th)",
+      "common_origin_header": "FUER UKS DRINGEND 13.40 (13/11) 3 TLE",
+      "header": "B) NKJ v LP (02.51 a.m., November 13th); FUER UKS DRINGEND 13.40 (13/11) 3 TLE; 2 TL RICHI-192",
+      "source_rows": [
+        "XXXXA XXAAF GVAVX FVVXA FXXXV XAXXX DVADV VXXVV",
+        "XAGXX XDXXG XVVXV XDXXX XVDVD XFAXD FDXXA XXXXA",
+        "XGAXX AXXDV XXAGV AFVFX XXVFF FFFDD XXXAV XAXDV",
+        "VVGGX AXXFV XVDXD DFGDX AAVVF XVAAV FXFXF FDAFG",
+        "XFDFD DXVVF GXVDX GVFDD GXVVX FD"
+      ],
+      "source_slots": 187,
+      "advertised_length": 192,
+      "model": {
+        "kind": "single_missing_group",
+        "gap_before_source_index": 35,
+        "missing_coordinates": 5
+      },
+      "expected_raw": "TRANSPOR?EXVONXRUM?ENIENXNIC?TXNACHXUNGARNXHEREINLASSENXDAXSIEXINXUNGARNXRESTLO?XVERLOREN?SINDXX",
+      "readable_candidate": "TRANSPORTEXVONXRUMAENIENXNICHTXNACHXUNGARNXHEREINLASSENXDAXSIEXINXUNGARNXRESTLOSXVERLORENXSINDXX",
+      "notes": [
+        "No partial-square cell or numerical label is assigned.",
+        "The source advertises 192 coordinates but prints 187, with no printed erasure marker at the inferred gap.",
+        "The model inserts five unknown coordinates before source index35. All 188 possible single contiguous five-coordinate-gap placements are scored against 92 directly witnessed C2 plaintext positions. Gap 35 alone has zero observed-coordinate mismatches.",
+        "The missing group DXDVA restores five ordinary letters without changing any observed coordinate. The uniqueness claim is restricted to this gap model and the recorded alignment."
+      ]
+    },
+    {
+      "id": "p184_B3",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "source_section": "B3",
+      "message_part": 3,
+      "message_total_parts": 3,
+      "source_image_id": "p184_B3",
+      "key_id": "Nov13-15a",
+      "page_heading": "13th NOVEMBER, 1918.",
+      "common_receipt_header": "NKJ v LP (02.51 a.m., November 13th)",
+      "common_origin_header": "FUER UKS DRINGEND 13.40 (13/11) 3 TLE",
+      "header": "B) NKJ v LP (02.51 a.m., November 13th); FUER UKS DRINGEND 13.40 (13/11) 3 TLE; 3 TL RICHI-110",
+      "source_rows": [
+        "XFXVA XFDVD VFVVV GXVGD VDGVD XAVDF XXXXA AXADX",
+        "FDXVV XXXVX DVAVV AAVVD DVDVF FADXA XXAAF GDFVG",
+        "AVXGV DAGVX VDVAX XXGGV GVFDX DGDVD"
+      ],
+      "source_slots": 110,
+      "advertised_length": 110,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "KRIEGSAMTXROEMX?X???STRICH????XKRAX???STRICH????XANCHXX",
+      "readable_candidate": "KRIEGSAMTXROEMX?X???STRICH????XKRAX???STRICH????XANCHXX",
+      "notes": [
+        "No partial-square cell or numerical label is assigned.",
+        "All 54 coordinate pairs of C3 match the first 54 plaintext positions here, including 15 unknown reference positions. This record has one additional terminal X.",
+        "The header is retained literally:02.51 a.m. receipt and13.40 origin on the same printed date. Their chronological inconsistency is not repaired."
+      ]
+    },
+    {
+      "id": "p184_C1",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "source_section": "C1",
+      "message_part": 1,
+      "message_total_parts": 3,
+      "source_image_id": "p184_C1",
+      "key_id": "Nov13-15a",
+      "page_heading": "13th NOVEMBER, 1918.",
+      "common_receipt_header": "ZO'N v NKJ (02.15 a.m., November 13th)",
+      "common_origin_header": "SS von LP FUER UKS 13.40 3 TLE (13/11)",
+      "header": "C) ZO'N v NKJ (02.15 a.m., November 13th); SS von LP FUER UKS 13.40 3 TLE (13/11); 1 TL RICHI-136",
+      "source_rows": [
+        "VFXDX XAXAX VFVVF FDVVV XFXXX VGVXD GAXXV XVXDF",
+        "XXXVX XVFAF GAFVG VFDAA XXXXD VFDDD VFGXD AVGDF",
+        "FVFDA FGFGF DVXAX XDAFF VFVFX FAVAA FADAX DDVVD",
+        "VXFGX FFFDF GGFXF X"
+      ],
+      "source_slots": 136,
+      "advertised_length": 136,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "ANXOBERKOMMANDOXMKENSENXWIRTSCHAFTSSTABXMINERALOLABTEILUNGXBUMARESTX",
+      "readable_candidate": "ANXOBERKOMMANDOXMKENSENXWIRTSCHAFTSSTABXMINERALOLABTEILUNGXBUMARESTX",
+      "notes": [
+        "No partial-square cell or numerical label is assigned.",
+        "MKENSEN, MINERALOL and BUMAREST are retained as received; no omitted AC/OE or place spelling is silently inserted.",
+        "The address is shorter than B1 and is not treated as an exact plaintext duplicate."
+      ]
+    },
+    {
+      "id": "p184_C2",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "source_section": "C2",
+      "message_part": 2,
+      "message_total_parts": 3,
+      "source_image_id": "p184_C2",
+      "key_id": "Nov13-15a",
+      "page_heading": "13th NOVEMBER, 1918.",
+      "common_receipt_header": "ZO'N v NKJ (02.15 a.m., November 13th)",
+      "common_origin_header": "SS von LP FUER UKS 13.40 3 TLE (13/11)",
+      "header": "C) ZO'N v NKJ (02.15 a.m., November 13th); SS von LP FUER UKS 13.40 3 TLE (13/11); 2 TL RICHI-190",
+      "source_rows": [
+        "XXXXA DXXAF GVAVX DDFXA FXXXF FDXXX DVXXV VXDVA",
+        "VXVXA XAGXX XVXAG XVVXV XDXXX XVDVD XFFFF VDXXA",
+        "XXXAA XDAXX DXXXV XAGVX FVVXX XVFVD XGDDX XXAAD",
+        "VDDVV VGGFD DXFVX VDXVV XGXAA VVFAX AAVFX FAXXD",
+        "AFGXF DFXVX VVFGX AFVFV FDDGX XAXFD"
+      ],
+      "source_slots": 190,
+      "advertised_length": 190,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "TRANSTORTEXVONXRUMAENIENXNICHTXNACHXUNGARNXHE?REINLASSENXDAXSIEXINXUNGARNXRESTLOSVERLORENXTINDX",
+      "readable_candidate": "TRANSPORTEXVONXRUMAENIENXNICHTXNACHXUNGARNXHE?REINLASSENXDAXSIEXINXUNGARNXRESTLOSVERLORENXSINDX",
+      "notes": [
+        "No partial-square cell or numerical label is assigned.",
+        "TRANSTORTE and TIND become TRANSPORTE and SIND with two observed-coordinate substitutions, each witnessed by unchanged B2 plaintext positions excluded from the gap-selection mask.",
+        "The extra position in HE?REIN has received pair DX and domain 0123456789QY. It remains unresolved, not filled as an ordinary word.",
+        "The absent separator between RESTLOS and VERLOREN and the single terminal X are retained."
+      ]
+    },
+    {
+      "id": "p184_C3",
+      "printed_page": 184,
+      "pdf_page_1based": 187,
+      "source_section": "C3",
+      "message_part": 3,
+      "message_total_parts": 3,
+      "source_image_id": "p184_C3",
+      "key_id": "Nov13-15a",
+      "page_heading": "13th NOVEMBER, 1918.",
+      "common_receipt_header": "ZO'N v NKJ (02.15 a.m., November 13th)",
+      "common_origin_header": "SS von LP FUER UKS 13.40 3 TLE (13/11)",
+      "header": "C) ZO'N v NKJ (02.15 a.m., November 13th); SS von LP FUER UKS 13.40 3 TLE (13/11); 3 TL RICHI-108",
+      "source_rows": [
+        "XFXVA XFDVD VFVVV GXVGD VDGVD XAVDF XXXXA AXADX",
+        "FDXVV XXXVD VAVVA AVVDD VDVFF ADXAX XAAFG DFVGA",
+        "VXGVD AGVXV DVAXX XGGVG VFDXD GDV"
+      ],
+      "source_slots": 108,
+      "advertised_length": 108,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "KRIEGSAMTXROEMX?X???STRICH????XKRAX???STRICH????XANCHX",
+      "readable_candidate": "KRIEGSAMTXROEMX?X???STRICH????XKRAX???STRICH????XANCHX",
+      "notes": [
+        "No partial-square cell or numerical label is assigned.",
+        "Faint source groups AXADX and DFVGA were visually checked in the dedicated 8x crop; the literal transcription is retained.",
+        "All 15 unknown reference positions remain unknown despite exact coordinate-pair agreement with B3."
+      ]
+    }
+  ],
+  "cross_copy_alignment": {
+    "left_record": "p184_B2",
+    "right_record": "p184_C2",
+    "matching_ranges_left_start_right_start_length": [
+      [
+        0,
+        0,
+        5
+      ],
+      [
+        6,
+        6,
+        39
+      ],
+      [
+        45,
+        46,
+        35
+      ],
+      [
+        81,
+        81,
+        9
+      ],
+      [
+        91,
+        91,
+        4
+      ]
+    ],
+    "excluded_left_positions": [
+      5,
+      80,
+      90,
+      95
+    ],
+    "unused_right_positions": [
+      5,
+      45,
+      90
+    ],
+    "left_length": 96,
+    "right_length": 95,
+    "geometry_selection": "Use only 92 equal-position witnesses from uncorrected C2. Preserve both substitutions and all insertion/separator/ending differences outside this mask.",
+    "matching_headers": "Both source groups state from LP for UKS, 13.40 (13/11), three parts. Receipt headers differ.",
+    "chronology_limit": "Both printed a.m. receipts precede 13.40 on the same date; no date or time correction is inferred."
+  },
+  "footer_pair_witness": {
+    "left_record": "p184_B3",
+    "right_record": "p184_C3",
+    "matching_plaintext_positions": 54,
+    "left_extra_terminal_plaintext": "X",
+    "assumption": "Fixed published transposition ranks; no unknown square labels need be assigned."
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "No explicit discussion of this mineral-oil transport warning was located in the bounded text check. General Mackensen and Hungary references are not treated as body priority evidence."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "No explicit discussion of this mineral-oil transport warning was located in the bounded text check. General Mackensen and Hungary references are not treated as body priority evidence."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit MINERALOEL/MINERALÖL/RESTLOS/HEREINLASSEN body was located in the cached 55-comment snapshot."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p184_ocr_block2",
+        "p184_ocr_block3",
+        "p184_ocr_block4",
+        "p184_ocr_block5",
+        "p184_ocr_block6",
+        "p184_ocr_block7",
+        "p184_ocr_block8"
+      ],
+      "frozen_prior_candidate_records": [
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p184_ocr_block2",
+          "key": "Nov13-15a",
+          "score": -4.618649276820096,
+          "plaintext": "ANXOBERKOMMANDOXMACKENSENXWIRTSCHAFTSSTABXMINE?ALOELABTEILUNGXBUCKARESTXX",
+          "ciphertext_length": 146
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p184_ocr_block4",
+          "key": "Nov13-15a",
+          "score": -4.921751757462819,
+          "plaintext": "KRIEGSAMTXROEMX?X???STRICH????XKRAX???STRICH????XANCHXX",
+          "ciphertext_length": 111
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p184_ocr_block7",
+          "key": "Nov13-15a",
+          "score": -4.091057314759209,
+          "plaintext": "TRANSTORTEXVONXRUMAENIENXNICHTXNACHXUNGARNXHE?REINLASSENXDAXSIEXINXUNGARNXRESTLOSVERLORENX?INDX",
+          "ciphertext_length": 190
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p184_ocr_block5+p184_ocr_block6",
+          "key": "Nov13-15a",
+          "score": -4.814244904884926,
+          "plaintext": "ANXOBERKOMMANDOXMKENSENXWIRTSCHAFTSSTABXMINERALOLABTEILUNGXBUMARESTX",
+          "ciphertext_length": 136
+        }
+      ],
+      "interpretation": "The address, C2 warning and footer were already recognizable in unreviewed OCR screens. B2 had a five-coordinate length deficit. This edition corrects literal transcription, supplies an independently witnessed missing-group model and certificates, and does not claim first historical decipherment."
+    }
+  }
+}

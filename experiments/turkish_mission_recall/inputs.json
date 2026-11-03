@@ -1,0 +1,397 @@
+{
+  "schema": "adfgvx-turkish-mission-recall-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p130_A1",
+      "path": "sources/p130_A1.png",
+      "printed_page": 130,
+      "pdf_page_1based": 133,
+      "crop_pdf_points": [
+        75,
+        178,
+        555,
+        463
+      ],
+      "render_scale": 4,
+      "sha256": "6ab42b89627bba66624b29dddfafb5febeead4a1a16ec412c60e080a1687798d"
+    },
+    {
+      "id": "p130_A2",
+      "path": "sources/p130_A2.png",
+      "printed_page": 130,
+      "pdf_page_1based": 133,
+      "crop_pdf_points": [
+        90,
+        476,
+        555,
+        677
+      ],
+      "render_scale": 4,
+      "sha256": "53c9f452852de9e6fadd7f8663fbb72a5d7419cdd63fba6ee746c975982e8e68"
+    },
+    {
+      "id": "p131_A3",
+      "path": "sources/p131_A3.png",
+      "printed_page": 131,
+      "pdf_page_1based": 134,
+      "crop_pdf_points": [
+        55,
+        231,
+        530,
+        529
+      ],
+      "render_scale": 4,
+      "sha256": "0eb0e4301a8d74c2b53ec133a30043fa84d36326b42ed9b67acb023609a9fa73"
+    },
+    {
+      "id": "p131_A4",
+      "path": "sources/p131_A4.png",
+      "printed_page": 131,
+      "pdf_page_1based": 134,
+      "crop_pdf_points": [
+        70,
+        539,
+        530,
+        650
+      ],
+      "render_scale": 4,
+      "sha256": "55d33c647d843af4bb2f9ec152750b885ce9d359057b28eb97c0986abb004fde"
+    }
+  ],
+  "records": [
+    {
+      "id": "p130_A1",
+      "printed_page": 130,
+      "pdf_page_1based": 133,
+      "source_section": "A1",
+      "message_part": 1,
+      "message_total_parts": 4,
+      "source_image_id": "p130_A1",
+      "key_id": "Nov4-6",
+      "page_heading": "5th NOVEMBER, 1918.",
+      "common_receipt_header": "OSM v OUI (8.25 p.m., November 5th)",
+      "common_origin_header": "#12 2015 4 TEILE",
+      "header": "A) OSM v OUI (8.25 p.m., November 5th); #12 2015 4 TEILE; 1 TL RICHI-394",
+      "source_rows": [
+        "XVFFV VGVVF GXXVA XGXXF AXFXA GFFAG AXXVA XXVXX",
+        "AFAFF XAGXA VAVXF GFXAX FFXXX DVAXV AXVVA VGAFV",
+        "GAAFV AGFXV GVAFX VDFVV XAAFA AAGXF XFVFA XXXDG",
+        "FFVGA FDXXD GXDVA VAVXF XADDF AXXXF DAFXF GDAFA",
+        "DGVXX XXGVA VDAVA ADXVV FXFAF AFXAD DDAVG XAFGV",
+        "AVGDA DFVVF VXDGX FFXFD VXFAA AFAAG VVXXF AAAXX",
+        "VAVAV XXAVX VXAAV XVFXA GAFGF XVAFX XAVAA AVAVA",
+        "GXFXD AAAXA ADXFF DAVXA XXXXG FXFFX GXGAV XFXXA",
+        "AXAFA FXVVA FDFAA XGXVV XAFXF VVXVV VXXFX XAFFX",
+        "VFVXX XVGXX DAGXX GVFFA VAVAV FXXVF VGFX"
+      ],
+      "source_slots": 394,
+      "advertised_length": 394,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "MILITAERMISZIONKONSTANTINOPELXZURM2NR46873XSEMAJDERKAISERUKOENIGHABENBEFOHLENXSAEMTLICHEVERTRAGLICHVERPFLICHTETENMITGLIEDERDERMILMISZIONEINSCHLISZLICHDERJENIGENWELCHENDERVERTRAGBEREITSGEKUENDIGTIST",
+      "readable_candidate": "MILITAERMISZIONKONSTANTINOPELXZURM2NR46873XSEMAJDERKAISERUKOENIGHABENBEFOHLENXSAEMTLICHEVERTRAGLICHVERPFLICHTETENMITGLIEDERDERMILMISZIONEINSCHLISZLICHDERJENIGENWELCHENDERVERTRAGBEREITSGEKUENDIGTIST",
+      "notes": [
+        "Every printed coordinate is observed and the source length matches the advertised length. No source insertion or deletion is used.",
+        "The complete second group VGVVF was omitted in earlier OCR. The source VVXVV is five letters, not six.",
+        "The raw197-position body is retained without repair, including MILITAERMISZION, MILMISZION and EINSCHLISZLICH.",
+        "All reference labels in ZURM2NR46873 are preserved."
+      ]
+    },
+    {
+      "id": "p130_A2",
+      "printed_page": 130,
+      "pdf_page_1based": 133,
+      "source_section": "A2",
+      "message_part": 2,
+      "message_total_parts": 4,
+      "source_image_id": "p130_A2",
+      "key_id": "Nov4-6",
+      "page_heading": "5th NOVEMBER, 1918.",
+      "common_receipt_header": "OSM v OUI (8.25 p.m., November 5th)",
+      "common_origin_header": "#12 2015 4 TEILE",
+      "header": "A) OSM v OUI (8.25 p.m., November 5th); #12 2015 4 TEILE; 2 TL RICHI-330",
+      "source_rows": [
+        "FXXXA AGFAV FFAFG DAFDA GAVVX VXFXD VDVXA FVDVA",
+        "XFFFX FFAFA XVXFD FDAXF FFAXX GFVVA VGVAF AVFFX",
+        "XFVFA XXVFD VXDAF AFXFG VXVAX FXAAA XFVAF AVVAF",
+        "AFAGA XFAVA GVVDV FVVDX FGGXA DAFXF AXVVV XXAVX",
+        "XXXAX FGXAX XFVGF VXGAF GXAVA FVXVX ADVAA DAFAF",
+        "XVVVA FXDXX VAVXD AXAFF FGFFF AAFAF VAVAD FXFVF",
+        "XXVAV XXAFA FFAVA DXVAV GXFVA VAVAX AFVFA XDFDD",
+        "XGVAX FAGFA FDVVA VGXGF AXGXF XXFGX XVXGV AXAAG",
+        "VAAGA XFXFA"
+      ],
+      "source_slots": 330,
+      "advertised_length": 330,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "WERDENAUFGRUNDMESIRTIKELS10DESMITGENERALDERKAVLIMANVONSANDERSABESCHLOSZENENVERTRAGSMITDEMTAGEDERVEROEFFENTLICHUNGDESWAFFENSTILLSTANDESDERTUERKEIZUMHEEREZURUCKBERUFEN",
+      "readable_candidate": "WERDENAUFGRUNDDESARTIKELS10DESMITGENERALDERKAVLIMANVONSANDERSABESCHLOSZENENVERTRAGSMITDEMTAGEDERVEROEFFENTLICHUNGDESWAFFENSTILLSTANDESDERTUERKEIZUMHEEREZURUCKBERUFEN",
+      "notes": [
+        "Every printed coordinate is observed and the source length matches the advertised length. No source insertion or deletion is used.",
+        "The candidate repairs MESIRTIKELS to DESARTIKELS with two observed-coordinate substitutions.",
+        "ABESCHLOSZENEN and ZURUCKBERUFEN are preserved as received; no unseen G or E is inserted.",
+        "The article label10 and LIMANVONSANDERS are unchanged. The edition reports the cited contract provision, not independent authentication of that contract."
+      ]
+    },
+    {
+      "id": "p131_A3",
+      "printed_page": 131,
+      "pdf_page_1based": 134,
+      "source_section": "A3",
+      "message_part": 3,
+      "message_total_parts": 4,
+      "source_image_id": "p131_A3",
+      "key_id": "Nov4-6",
+      "page_heading": "5th NOVEMBER, 1918.",
+      "common_receipt_header": "OSM v OUI (8.25 p.m., November 5th)",
+      "common_origin_header": "#12 2015 4 TEILE",
+      "header": "A) OSM v OUI (8.25 p.m., November 5th); #12 2015 4 TEILE; 3 TL RICHI-396",
+      "source_rows": [
+        "FXGVA VXXFX FXXFA XFDFV FXVXF VXXXD AFGXA XAFXV",
+        "FXAXA XFXVV FAFAV FXFVD AAFGX XXAFX AGXAX ADAFF",
+        "AGVXV GVGVG VAVFV VFXFX VGVAV DXXVX FAFGV FVXFG",
+        "VXDGF XDAFA XDXVV XFGDD GXVFX XVAAV AXXFA DVDGV",
+        "XFAVV AAXFX FFXFG GFAVD AFFFF XAXFA XAAVD AXVGX",
+        "XXAXF XXAVA FFXFA FFAGX AAGVA DFVFX XDAFA GFFVD",
+        "AVXFX AVAVX AGXXX XVVAD ADAVX VXXAA ADFVV VADFA",
+        "XFVFX FFXFV VXAVX AFVAX AXFXV XVXXG FADAV AXVXF",
+        "AAVAF XXXAF XDGXF AXFAX XXXAA FAVFV XAXAF FXXXA",
+        "VXAGF GXVFX DGDXV VXVVV FAAXX GVFXX AVVVX G"
+      ],
+      "source_slots": 396,
+      "advertised_length": 396,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "DIEMILMISZIONVERANLASZTZUGEGEBENENENZEITPUNKTDIEHEIMSENDUNGUWEISTDIEHEIMKEHRENDENANIHRENAUFENTHALTSORTSOGLEICHNACHEINTREFFENINDEUTSCHLANDDEMMILIGRHYUBEZWDENKRIEGSMINISTERIENDERBUNDESSTAATENZUDRAHTEN",
+      "readable_candidate": "DIEMILMISZIONVERANLASZTZUGEGEBENENENZEITPUNKTDIEHEIMSENDUNGUWEISTDIEHEIMKEHRENDENANIHRENAUFENTHALTSORTSOGLEICHNACHEINTREFFENINDEUTSCHLANDDEMMILIGRHYUBEZWDENKRIEGSMINISTERIENDERBUNDESSTAATENZUDRAHTEN",
+      "notes": [
+        "Every printed coordinate is observed and the source length matches the advertised length. No source insertion or deletion is used.",
+        "Earlier OCR combined this396-coordinate part and the following170-coordinate part; the printed boundary is explicit.",
+        "The source retains the apparent duplication ZUGEGEBENENEN and the unresolved received office field MILIGRHYU.",
+        "No guessed expansion to MILIKABT or another abbreviation is used. The raw field and all its coordinate pairs remain visible."
+      ]
+    },
+    {
+      "id": "p131_A4",
+      "printed_page": 131,
+      "pdf_page_1based": 134,
+      "source_section": "A4",
+      "message_part": 4,
+      "message_total_parts": 4,
+      "source_image_id": "p131_A4",
+      "key_id": "Nov4-6",
+      "page_heading": "5th NOVEMBER, 1918.",
+      "common_receipt_header": "OSM v OUI (8.25 p.m., November 5th)",
+      "common_origin_header": "#12 2015 4 TEILE",
+      "header": "A) OSM v OUI (8.25 p.m., November 5th); #12 2015 4 TEILE; 4 TL RICHI-170",
+      "source_rows": [
+        "VVDAA AFVVA XDXAF DVAVD XXVFG GAAXG FAXFA AAGAF",
+        "AVXAG AXXAA XGAVX VVFVG AGAAV AAFXF FXVDA XFAXA",
+        "AXAAG AXVGA XVGFA XGFAV ADXDA FVFGX FFVXX XXXXX",
+        "AFGVD FXVAV AXAAG VAVAX VXVXX GVXVX FFXVF AXFAD",
+        "AXVFA XAFFF"
+      ],
+      "source_slots": 170,
+      "advertised_length": 170,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "LETZTERESINDBENACHRICHTIGTXWUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX",
+      "readable_candidate": "LETZTERESINDBENACHRICHTIGTXAUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX",
+      "notes": [
+        "Every printed coordinate is observed and the source length matches the advertised length. No source insertion or deletion is used.",
+        "The candidate repairs WUF to AUF with one observed-coordinate substitution.",
+        "The entire58-character closing then matches the fully observed raw closing of already-catalogued p149 A2. That earlier witness is contextual evidence, not a new record or proof the whole messages are retransmissions.",
+        "FRHRMARSCHALL is a received signature; no independent personal identity is assigned."
+      ]
+    }
+  ],
+  "cross_page_assembly": {
+    "basis": "Matching receipt and origin headers, four numbered parts and printed continuation.",
+    "record_order": [
+      "p130_A1",
+      "p130_A2",
+      "p131_A3",
+      "p131_A4"
+    ],
+    "shared_receipt": "OSM v OUI (8.25 p.m., November 5th)",
+    "shared_origin": "#12 2015 4 TEILE"
+  },
+  "already_reviewed_closing_witness": {
+    "record": "p149_A2",
+    "already_catalogued": true,
+    "counted_as_new_record": false,
+    "source_inputs_path": "experiments/corpus_attack/source_pairs.json",
+    "source_inputs_sha256": "a825bead697c662ecfdf93e839291957b9fd6b90203be08fa73ce1257eec70fc",
+    "source_record_snapshot": {
+      "id": "p149_A2",
+      "printed_page": 149,
+      "pdf_page_1based": 152,
+      "ocr_block_id": "p149_ocr_block1",
+      "source_crop": "sources/childs_p149_A2.png",
+      "crop_pdf_points": [
+        60,
+        245,
+        530,
+        405
+      ],
+      "render_scale": 3,
+      "header": "A) YZ v LP (08.49 a.m., November 7th). FUER YZ 0015 (6/11) 2 TEILE. 2 TL RICHI-236.",
+      "raw_grouped": "GFFVG FVVDF XVAVV AXAVX FAXGF AVVAV XAAGV FAXFA\nDAFAG DXAXX GVXVX GFAVV FVFAX AFFFF AXFFA GFAAA\nGAFDX VGVGV DAXFA XAFGX AXAFF GGAAX GXAXX VXXAG\nAXXAA FXAFV FFVGV AVAXA DGVAA AAAAF VVAFD VAFAX\nAFDVA VDAXA AVVAA GAXVG AAXGX FVFDA FVFGX VAFXD\nGVXXX XXXXX VFGXF AVXVV FVGAF XFAXA VAAFX F",
+      "transcription_notes": [
+        "Groups 37 and 44 have clearly printed AAXGX and AVXVV; the OCR had an erasure and omitted a coordinate, respectively.",
+        "Group 25 is AXXAA, differing from p138's AXVAA."
+      ]
+    },
+    "source_crop_path": "experiments/corpus_attack/sources/childs_p149_A2.png",
+    "source_crop_sha256": "e900e38a18202d85594b82d4aa3e9860d39c6714b7e2f70e7ebe009bab7e55ce",
+    "literal_source": "GFFVGFVVDFXVAVVAXAVXFAXGFAVVAVXAAGVFAXFADAFAGDXAXXGVXVXGFAVVFVFAXAFFFFAXFFAGFAAAGAFDXVGVGVDAXFAXAFGXAXAFFGGAAXGXAXXVXXAGAXXAAFXAFVFFVGVAVAXADGVAAAAAAFVVAFDVAFAXAFDVAVDAXAAVVAAGAXVGAAXGXFVFDAFVFGXVAFXDGVXXXXXXXXVFGXFAVXVVFVGAFXFAXAVAAFXF",
+    "expected_raw": "DERSELBEISTUEM1XERSBKTLEISENBAHNREGM1SZUUEBERWEISENAKOFOLGTXAUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX",
+    "shared_closing": "AUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX",
+    "interpretation": "The identical unedited closing witnesses the one-letter WUF→AUF repair. The surrounding message concerns Osthoff and is not assumed identical to this recall order."
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "No explicit discussion of this Turkish-mission contract/recall body was located in the bounded text check. General military-mission references are not treated as a priority claim."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "No explicit discussion of this Turkish-mission contract/recall body was located in the bounded text check. General military-mission references are not treated as a priority claim."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit Liman-contract recall body was located in the cached55-comment snapshot (LIMAN, KABINETT, MARSCHALL, VERTRAG)."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p130_ocr_block1",
+        "p130_ocr_block2",
+        "p130_ocr_block3",
+        "p131_ocr_block1",
+        "p131_ocr_block2"
+      ],
+      "frozen_prior_candidate_records": [
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p130_ocr_block2+p130_ocr_block3",
+          "key": "Nov4-6",
+          "score": -4.280306376988375,
+          "plaintext": "WERDENAUFGRUNDMESIRTIKELS10DESMITGENERALDERKAVLIMANVONSANDERSABESCHLOSZENENVERTRAGSMITDEMTAGEDERVEROEFFENTLICHUNGDESWAFFENSTILLSTANDESDERTU?RKEIZUMHEEREZURUCKBERUFEN",
+          "ciphertext_length": 330
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p131_ocr_block1+p131_ocr_block2",
+          "key": "Nov4-6",
+          "score": -9.296091653180845,
+          "plaintext": "TVMW1I4GNT1WNHFA1MQ9BKRPNTMLKIR1XR4Z1OZ8S6K4SNA7?5I4JN9N47NITOMMPIYMLRNA6GLB46TLSL1IRW9JMKXMIML19TJ?4RX1ENGELINFMIXHSAKZHWTFA1WTFHIMDI1494IW9AG4ARNWDNSLKLYIQZKLOH?BFIV94MTMADHIAK1LBKN6VLFFSI4EUXCVFH4THRRL?BIWN9CIET1FR6HYGPJGLWUZADTAN41TN1RJRLPEA6WEFOJEEFWNAKOT4UA6PNYZ7L892A9HONJWTN9",
+          "ciphertext_length": 566
+        }
+      ],
+      "interpretation": "Part2 was already readable in unreviewed screens. Part1 had a defective OCR length and parts3/4 were merged. The edition corrects source transcription and boundaries and retains unresolved received wording; it is not a first historical decipherment claim."
+    }
+  }
+}

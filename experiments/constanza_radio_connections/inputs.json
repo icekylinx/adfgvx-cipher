@@ -1,0 +1,545 @@
+{
+  "schema": "adfgvx-constanza-radio-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Oct28-31",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      15,
+      12,
+      16,
+      5,
+      7,
+      14,
+      4,
+      13,
+      8,
+      11,
+      1,
+      17,
+      2,
+      10,
+      3,
+      18,
+      9
+    ],
+    "column_count": 18,
+    "square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+    "square_rows": [
+      "HI20SX",
+      "RUWQY8",
+      "EK7O61",
+      "9CBJAP",
+      "453FDZ",
+      "TGLMVN"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 238,
+        "pdf_page_1based": 241,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p80_heading",
+      "path": "sources/p80_heading.png",
+      "printed_page": 80,
+      "pdf_page_1based": 83,
+      "crop_pdf_points": [
+        225,
+        151,
+        355,
+        172
+      ],
+      "render_scale": 4,
+      "sha256": "645c8e178d37bbbcce37b062967ee6c601cbbae969c10a5535d29baf8a5d5bc4"
+    },
+    {
+      "id": "p82_heading",
+      "path": "sources/p82_heading.png",
+      "printed_page": 82,
+      "pdf_page_1based": 85,
+      "crop_pdf_points": [
+        230,
+        161,
+        355,
+        187
+      ],
+      "render_scale": 4,
+      "sha256": "cdd53721cbdb365fb5c00452d0cc8af20f67ada4e1248e00d7c2ee39b0230ea2"
+    },
+    {
+      "id": "p80_B1",
+      "path": "sources/p80_B1.png",
+      "printed_page": 80,
+      "pdf_page_1based": 83,
+      "crop_pdf_points": [
+        85,
+        390,
+        510,
+        566
+      ],
+      "render_scale": 4,
+      "sha256": "94177ddbd2ad971fd2eaaae84592c1cce68360bf6f417f4a78188d28aa36763c"
+    },
+    {
+      "id": "p80_B2",
+      "path": "sources/p80_B2.png",
+      "printed_page": 80,
+      "pdf_page_1based": 83,
+      "crop_pdf_points": [
+        100,
+        576,
+        510,
+        713
+      ],
+      "render_scale": 4,
+      "sha256": "2d07288ffc36fd362f17156530c5f1564cc0abc27a78f3bef3b36e24f39841de"
+    },
+    {
+      "id": "p82_A1",
+      "path": "sources/p82_A1.png",
+      "printed_page": 82,
+      "pdf_page_1based": 85,
+      "crop_pdf_points": [
+        90,
+        190,
+        510,
+        369
+      ],
+      "render_scale": 4,
+      "sha256": "fdb5c8f5ce8e4792d58dd68066ab272ec05b69e843c42f168ba1179924785928"
+    },
+    {
+      "id": "p82_A2",
+      "path": "sources/p82_A2.png",
+      "printed_page": 82,
+      "pdf_page_1based": 85,
+      "crop_pdf_points": [
+        105,
+        381,
+        510,
+        519
+      ],
+      "render_scale": 4,
+      "sha256": "3f05f84838305e27974044e0a1390f9e69963d3e7137d6c493f3506a29cbc810"
+    },
+    {
+      "id": "p82_A3",
+      "path": "sources/p82_A3.png",
+      "printed_page": 82,
+      "pdf_page_1based": 85,
+      "crop_pdf_points": [
+        105,
+        529,
+        510,
+        648
+      ],
+      "render_scale": 4,
+      "sha256": "479e351f7359c6565c54627d7eb7964cc384784120a454100208bdb64fdb3358"
+    },
+    {
+      "id": "p82_A4",
+      "path": "sources/p82_A4.png",
+      "printed_page": 82,
+      "pdf_page_1based": 85,
+      "crop_pdf_points": [
+        105,
+        658,
+        510,
+        715
+      ],
+      "render_scale": 4,
+      "sha256": "d88f5fc1d009b926345e38c575e0f8afc29c3e19b6fb554c3eddde18800af2db"
+    }
+  ],
+  "records": [
+    {
+      "id": "p80_B1",
+      "printed_page": 80,
+      "pdf_page_1based": 83,
+      "source_section": "B1",
+      "message_part": 1,
+      "message_total_parts": 4,
+      "source_image_id": "p80_B1",
+      "key_id": "Oct28-31",
+      "page_heading": "30th OCTOBER, 1918.",
+      "receipt_header": "LP v NKJ (6.20 p.m., October 30th)",
+      "common_origin_header": "0730 (30) 4 TEILE",
+      "source_rows": [
+        "AXXAF AXGAA XXAVV DXDGX AXDVX DFAAX DXGAX DGVAD",
+        "DGAXA FGAXX XAADA GFDAX DXVDA XGXXX XVAXA XAAAX",
+        "XAXVA XXGDF DAXAX XGDXX GAVDF XGFAV DFXXX XAAGF",
+        "XGXXF VAAXX GFGDF XXDVF AFDDD AFGXV XVFFG FVXVF",
+        "GXFDX FFGVX GFAXA GVDAD AVFFA FFAGF XXDXV XAXVF",
+        "FXVDX ADXGV AFADA VGAFA VXFDA DXAXX GDVDF AADAX",
+        "XA"
+      ],
+      "source_slots": 242,
+      "advertised_length": 242,
+      "model": {
+        "kind": "literal_observed_length",
+        "coordinates": 242
+      },
+      "expected_raw": "MARINEABTLGXCONSTANZAFUNKTUNTERNRX13558X13558X1XROEMX1VOM29X10XXAUFDORTXTELEGRXNRX351BRUCHSTRX18VOM25X10XXALLETELEGRXNAPH",
+      "readable_candidate": "MARINEABTLGXCONSTANZAFUNKTUNTERNRX13558X13558X1XROEMX1VOM29X10XXAUFDORTXTELEGRXNRX351BRUCHSTRX18VOM25X10XXALLETELEGRXNACH",
+      "notes": [
+        "All source coordinates are observed. No erasure, insertion, deletion or key change is used.",
+        "The source advertises and prints 242 coordinates. It differs from p82 A1 only at source index 94: X versus D. The p82 raw witness supplies the one-coordinate NAPH→NACH repair.",
+        "Every reference/date label remains as received, including the repeated 13558 and ROEMX1."
+      ]
+    },
+    {
+      "id": "p80_B2",
+      "printed_page": 80,
+      "pdf_page_1based": 83,
+      "source_section": "B2",
+      "message_part": 2,
+      "message_total_parts": 4,
+      "source_image_id": "p80_B2",
+      "key_id": "Oct28-31",
+      "page_heading": "30th OCTOBER, 1918.",
+      "receipt_header": "LP v NKJ (6.20 p.m., October 30th)",
+      "common_origin_header": "0730 (30) 4 TEILE",
+      "source_rows": [
+        "FAAAD XAVAG DDVDV XXFAV VDAVV XAAAV FAADA FXAAG",
+        "VGDGX ADVFA DDVFV GAAFD XFDXV VAFFV VGDVF GVGAX",
+        "XXAAV DADAD ADVGD AAVAX DVXAA VAXAF DXAAA FAGVA",
+        "DVDXF ADFFG XXVDX XGXFF FGGFG FXFDG XDAXV FADFG",
+        "AFAXA VAXDA ADDAF XXGAX GFXXX GGFAD AXAGV VAVAF",
+        "VVXXA AAADA VADDA FXAXA DGXXG AGAAX GAXDF XXFDX",
+        "AFGXA GAX"
+      ],
+      "source_slots": 248,
+      "advertised_length": 248,
+      "model": {
+        "kind": "literal_observed_length",
+        "coordinates": 248
+      },
+      "expected_raw": "FR9MDLAENDISCHENSTATIONENWERDENUEBERDEUTSCHELEITGXPACHBUKARESTODERBRAILAABGESETZTXXDIEMARINEFUNKSTATXISTUNMITTELBARANHIESIGE",
+      "readable_candidate": "FREMDLAENDISCHENSTATIONENWERDENUEBERDEUTSCHELEITGXNACHBUKARESTODERBRAILAABGESETZTXXDIEMARINEFUNKSTATXISTUNMITTELBARANHIESIGE",
+      "notes": [
+        "All source coordinates are observed. No erasure, insertion, deletion or key change is used.",
+        "The typed source has G at source index 55 with a supralinear F annotation above it. The literal baseline retains G; a separate source-annotation variant applies F. The author and date of the annotation are unknown.",
+        "The F annotation independently agrees with printed p82 A2 and changes FR9MD to FREMD. Both sources retain PACH; its NACH candidate is a separate ordinary-word correction."
+      ]
+    },
+    {
+      "id": "p82_A1",
+      "printed_page": 82,
+      "pdf_page_1based": 85,
+      "source_section": "A1",
+      "message_part": 1,
+      "message_total_parts": 4,
+      "source_image_id": "p82_A1",
+      "key_id": "Oct28-31",
+      "page_heading": "30th OCTOBER, 1918. (Continued)",
+      "receipt_header": "LP v NKJ (6.10 p.m., October 30th)",
+      "common_origin_header": "0730 (30) 4 TEILE",
+      "source_rows": [
+        "AXXAF AXGAA XXAVV DXDGX AXDVX DFAAX DXGAX DGVAD",
+        "DGAXA FGAXX XAADA GFDAX DXVDA XGXXX XVAXA XAAAX",
+        "XAXVA XXGDF DAXAD XGDXX GAVDF XGFAV DFXXX XAAGF",
+        "XGXXF VAAXX GFGDF XXDVF AFDDD AFGXV XVFFG FVXVF",
+        "GXFDX FFGVX GFAXA GVDAD AVFFA FFAGF XXDXV XAXVF",
+        "FXVDX ADXGV AFADA VGAFA VXFDA DXAXX GDVDF AADAX",
+        "XA"
+      ],
+      "source_slots": 242,
+      "advertised_length": 342,
+      "model": {
+        "kind": "literal_observed_length",
+        "coordinates": 242
+      },
+      "expected_raw": "MARINEABTLGXCONSTANZAFUNKTUNTERNRX13558X13558X1XROEMX1VOM29X10XXAUFDORTXTELEGRXNRX351BRUCHSTRX18VOM25X10XXALLETELEGRXNACH",
+      "readable_candidate": "MARINEABTLGXCONSTANZAFUNKTUNTERNRX13558X13558X1XROEMX1VOM29X10XXAUFDORTXTELEGRXNRX351BRUCHSTRX18VOM25X10XXALLETELEGRXNACH",
+      "notes": [
+        "All source coordinates are observed. No erasure, insertion, deletion or key change is used.",
+        "The printed length label is RICHI-342, but only 242 coordinates are printed. The model decrypts the observed 242 without adding 100 hypothetical coordinates.",
+        "The independent p80 B1 advertises 242 and agrees at 241 of 242 coordinates; the apparent length-label error is distinct from the literal ciphertext model."
+      ]
+    },
+    {
+      "id": "p82_A2",
+      "printed_page": 82,
+      "pdf_page_1based": 85,
+      "source_section": "A2",
+      "message_part": 2,
+      "message_total_parts": 4,
+      "source_image_id": "p82_A2",
+      "key_id": "Oct28-31",
+      "page_heading": "30th OCTOBER, 1918. (Continued)",
+      "receipt_header": "LP v NKJ (6.10 p.m., October 30th)",
+      "common_origin_header": "0730 (30) 4 TEILE",
+      "source_rows": [
+        "FAAAD XAVAG DDVDV XXFAV VDAVV XAAAV FAADA FXAAG",
+        "VGDGX ADVFA DDVFV FAAFD XFDXV VAFFV VGDVF GVGAX",
+        "XXAAV DADAD ADVGD AAVAX DVXAA VAXAF DXAAA FAGVA",
+        "DVDXF ADFFG XXVDX XGXFF FGGFG FXFDG XDAXV FADFG",
+        "AFAXA VAXDA ADDAF XXGAX GFXXX GGFAD AXAGV VAVAF",
+        "VVXXA AAADA VADDA FXAXA DGXXG AGAAX GAXDF XXFDX",
+        "AFGXA GAX"
+      ],
+      "source_slots": 248,
+      "advertised_length": 248,
+      "model": {
+        "kind": "literal_observed_length",
+        "coordinates": 248
+      },
+      "expected_raw": "FREMDLAENDISCHENSTATIONENWERDENUEBERDEUTSCHELEITGXPACHBUKARESTODERBRAILAABGESETZTXXDIEMARINEFUNKSTATXISTUNMITTELBARANHIESIGE",
+      "readable_candidate": "FREMDLAENDISCHENSTATIONENWERDENUEBERDEUTSCHELEITGXNACHBUKARESTODERBRAILAABGESETZTXXDIEMARINEFUNKSTATXISTUNMITTELBARANHIESIGE",
+      "notes": [
+        "All source coordinates are observed. No erasure, insertion, deletion or key change is used.",
+        "This typed source has F where p80 B2 has typed G plus supralinear F. Its FREMD reading is direct.",
+        "The shared PACH→NACH candidate requires one observed-coordinate substitution in each copy, not agreement with an error-free copy."
+      ]
+    },
+    {
+      "id": "p82_A3",
+      "printed_page": 82,
+      "pdf_page_1based": 85,
+      "source_section": "A3",
+      "message_part": 3,
+      "message_total_parts": 4,
+      "source_image_id": "p82_A3",
+      "key_id": "Oct28-31",
+      "page_heading": "30th OCTOBER, 1918. (Continued)",
+      "receipt_header": "LP v NKJ (6.10 p.m., October 30th)",
+      "common_origin_header": "0730 (30) 4 TEILE",
+      "source_rows": [
+        "VXAGA DGAAA VXADV DGVVV XVAAX AAVXV DGAAX FVAVA",
+        "AFAGX FDXAX AGGFF ADXAA GGXAG XAXAA DAVVX FDAAV",
+        "DAADA AAFFA FDADG VGAAD AAVAG DXFXG XAAVF DXADX",
+        "DXFDF XXAGX DXXGA DAXGX XXFDF XXFGA XXGXA FVXAG",
+        "FXGXA DVVFX AXVFA DVADX DVVDD FVAFD VAXGA VXVFX",
+        "VXXDX FFGDX"
+      ],
+      "source_slots": 210,
+      "advertised_length": 210,
+      "model": {
+        "kind": "literal_observed_length",
+        "coordinates": 210
+      },
+      "expected_raw": "HAUPTVERMITTLGXUNDAUSSERDEMANVERMITTLGXDERMARXABTLGANG9SCHLOSSENUEBERDIESIEEBENFALLSMITDERHAUPTVERMITTLGX",
+      "readable_candidate": "HAUPTVERMITTLGXUNDAUSSERDEMANVERMITTLGXDERMARXABTLGANGESCHLOSSENUEBERDIESIEEBENFALLSMITDERHAUPTVERMITTLGX",
+      "notes": [
+        "All source coordinates are observed. No erasure, insertion, deletion or key change is used.",
+        "ANG9SCHLOSSEN→ANGESCHLOSSEN is a one-coordinate ordinary-word candidate. The original 9 is retained in the label inventory and is not reassigned globally.",
+        "The earlier merged OCR candidate already contained most of this body."
+      ]
+    },
+    {
+      "id": "p82_A4",
+      "printed_page": 82,
+      "pdf_page_1based": 85,
+      "source_section": "A4",
+      "message_part": 4,
+      "message_total_parts": 4,
+      "source_image_id": "p82_A4",
+      "key_id": "Oct28-31",
+      "page_heading": "30th OCTOBER, 1918. (Continued)",
+      "receipt_header": "LP v NKJ (6.10 p.m., October 30th)",
+      "common_origin_header": "0730 (30) 4 TEILE",
+      "source_rows": [
+        "AVAAA ADDXA AAAVV FDXVD FAXAX VAGGA XXDFA DFAGV",
+        "AVDDA XVXFV VAXFG XFADF AAXFX DGFXF XXDXF XDXGX",
+        "XAXFA VAXAX DADAD AAAVX AAAXA XDDXF DFGXG XFF"
+      ],
+      "source_slots": 118,
+      "advertised_length": 118,
+      "model": {
+        "kind": "literal_observed_length",
+        "coordinates": 118
+      },
+      "expected_raw": "UNDDARUEBERHINAUSMITALLENSPRECHSTELLENINVERKEHRTRETENKANNXX",
+      "readable_candidate": "UNDDARUEBERHINAUSMITALLENSPRECHSTELLENINVERKEHRTRETENKANNXX",
+      "notes": [
+        "All source coordinates are observed. No erasure, insertion, deletion or key change is used.",
+        "All 59 plaintext positions are directly readable without repair."
+      ]
+    }
+  ],
+  "source_annotation": {
+    "record": "p80_B2",
+    "source_index": 55,
+    "typed": "G",
+    "supralinear": "F",
+    "source_image": "p80_B2",
+    "author_or_date": null,
+    "independent_typed_witness": {
+      "record": "p82_A2",
+      "source_index": 55,
+      "coordinate": "F"
+    }
+  },
+  "assembly": {
+    "complete_message": [
+      "p82_A1",
+      "p82_A2",
+      "p82_A3",
+      "p82_A4"
+    ],
+    "earlier_duplicate_parts": [
+      "p80_B1",
+      "p80_B2"
+    ],
+    "shared_origin_header": "0730 (30) 4 TEILE",
+    "basis": "Explicit numbered parts and shared origin header; first two parts also match at all but one source coordinate each. Receipts 6.20 and 6.10 p.m. differ and are retained.",
+    "whole_messages_assumed_identical": false
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "The text discusses Constanza and other communications messages, but no explicit 13558/Braila/switchboard body was located in the bounded check. The general discussion is not specific-body attribution."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "The text discusses Constanza and other communications messages, but no explicit 13558/Braila/switchboard body was located in the bounded check. The general discussion is not specific-body attribution."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "Comment 28 lists callsigns including Constanza; no explicit 13558/BRAILA/HAUPTVERMITTL/SPRECHSTELLEN body was found in the cached 55-comment snapshot. Callsign identity is not used in the decryption."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p80_ocr_block2",
+        "p82_ocr_block1",
+        "p82_ocr_block2",
+        "p82_ocr_block3",
+        "p82_ocr_block4",
+        "p82_ocr_block5"
+      ],
+      "frozen_prior_candidate_records": [
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p82_ocr_block2",
+          "key": "Oct28-31",
+          "score": -9.390185164933158,
+          "plaintext": "K4XNSKX5NO71EM0O49PPUHRR?N25Z8Q38?H9TJY?T4NIHPHX1SONXH6NEJX4SFG2MPN31HKPTLVNIXXXHIX33T?HXVBXLYI18QRFZZT1RHHORQ6TRT46G20KPNKHGGRWPNXR826XHEO0M8XU4U57I3HJV6HNO6513XE8FCIHV91X46BB1HYBKJ914KNC?EYLPHZXLSHSEKUDQXACHUV4CC8IKDT78RLZT",
+          "ciphertext_length": 450
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p82_ocr_block4",
+          "key": "Oct28-31",
+          "score": -9.153059354195229,
+          "plaintext": "7UHNLHPTNEKHHXWHTTIL5ROHF0U6VR5ZMMJNREH4TP3NKIBS6HL?R18IRVAGTMBCV0X7NGNUDTILGEZ9LAPX5",
+          "ciphertext_length": 171
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p82_ocr_block5",
+          "key": "Oct28-31",
+          "score": -3.8698760054328223,
+          "plaintext": "UNDD?RUEBERHINAUSMITALLEN?PRECHSTELLENINVERKEHRTRETENK?NNXX",
+          "ciphertext_length": 118
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p82_ocr_block1+p82_ocr_block2",
+          "key": "Oct28-31",
+          "score": -9.32298764022621,
+          "plaintext": "LHZNZ?40BWXWSU14WT3K7HXXXGVORMXYH5HP0TV1XWXZ27KN0RHOICQUMCX1?PHWT23YM?YI83HI3HGUN2ZPRBHM49KX?Z8PS8XJOMRSZHFNNEAGI9INQ5ZG1ZYINKTFT0HAQ1VZBKUGGHXG68418XZD77ZS1FUH4R912JVFQ8TKJLTH1RHI3FTV2HXZEMBB54814P4H7WIUNT?7G9NTDHHH9TQMS1TXBNN7BO5IXHEHNTR7R4TY0",
+          "ciphertext_length": 490
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p82_ocr_block1+p82_ocr_block2+p82_ocr_block3",
+          "key": "Oct28-31",
+          "score": -9.184945842768126,
+          "plaintext": "CXIJXEN4GTX9K0ZUXH34?BS11I8NRTKEHMXZZHAT22TDRORL19E1?BEILR58UE4PRECHMMX4OS3NYES043R2QFRE8GN5HIRNCXZZCMNLZ?1H1RLZE40NSJ2POSS?STMX1H86?H074CY7K9P5RX8KKZ?4GGT6B95MPDEUNXGJ4R?1FTON8N9Y9N8244XTPFXDT81PXXV07SNCH82A425MDR4TE012CPC16STYNVIHSDTHU8KL0RI218X7T284?QHXET5ZS?TKR9",
+          "ciphertext_length": 532
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p82_ocr_block2+p82_ocr_block3+p82_ocr_block4",
+          "key": "Oct28-31",
+          "score": -9.21465441543762,
+          "plaintext": "HTSZT5TP0QTAVH09NUNSK37TNT4HHT?C8N4HN0VQ?HTQYTIYB2?1?T98TS?QYN8U24X?REJ54ZTVAXNNDY0S7S1N1868?FTNO7RXR3X3TC6E2HE3L929DU6EISIG9HHLGXATT11TI470JPPRVNW2U7TO3IHNJAGILIEUHV2T1ONHPR10NFU9IGMQSCGBHHNALFPXNTRBFHT6P83TIINXIOI?2BOH8RTVM3XXJZXA3VHXRARMGE4BTIK9X22GUJDEDP8UVRXBI5ZFKU5GHR4Z3CNQ8KVGSEH7D1I244V7EMMD2IXI0CTTL9HELNWEK6BG?ZSLIRWLS?1",
+          "ciphertext_length": 662
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p82_ocr_block3+p82_ocr_block4",
+          "key": "Oct28-31",
+          "score": -4.6476589343985735,
+          "plaintext": "HAUPTVERMITTLGXUNDAUSSERDEMANVERMITTLGXDERMARXABTLGANG9SCHLOSSENUEBERDIESIEEBENFALLSMITDERHAUPTV?RMITTLGX",
+          "ciphertext_length": 210
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_merged_plaintexts.json",
+          "source_sha256": "dff68db8d013268533aa511affbc79e4d9023e64b1f89b42b2468eb7e26d3f80",
+          "block": "p82_ocr_block3+p82_ocr_block4+p82_ocr_block5",
+          "key": "Oct28-31",
+          "score": -9.276321300088544,
+          "plaintext": "EL02RDVLX8NZBMZ6SXS549XRXR28MTIIQDDMBL6NXEH4HD8WTX5TENALIRF0XL8H1XOEETHQX140URRMNWCU8T4SZE08XEZS87WXLI0QNSI63X8?19?8PH524XII4TCXIXND0XJW?242GHRLTX1RGF4M1EX1U3?NQONR",
+          "ciphertext_length": 329
+        }
+      ],
+      "interpretation": "Parts 3/4 were substantially readable in earlier unreviewed screens. Parts 1/2 were merged and boundary-corrupted; this source edition recovers their separate 245-position text and records the duplicate witnesses. This is not a first historical decipherment claim."
+    }
+  }
+}

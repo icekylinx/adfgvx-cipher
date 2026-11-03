@@ -1,0 +1,277 @@
+{
+  "schema": "adfgvx-nov25-letter-constraint-input-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "key": {
+    "id": "Nov25-28",
+    "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+    "column_rank_order": [
+      21,
+      9,
+      6,
+      14,
+      10,
+      20,
+      1,
+      16,
+      18,
+      7,
+      15,
+      4,
+      11,
+      22,
+      5,
+      17,
+      23,
+      2,
+      12,
+      8,
+      19,
+      3,
+      13
+    ]
+  },
+  "sources": [
+    {
+      "package": "corpus_readings",
+      "input": "experiments/corpus_readings/selected_sources.json",
+      "certificate": "experiments/corpus_readings/certificates.json",
+      "adapter": "corpus_readings",
+      "record_ids": [
+        "p218_A1",
+        "p218_A2",
+        "p218_A3"
+      ]
+    },
+    {
+      "package": "crown_cash_requests",
+      "input": "experiments/crown_cash_requests/inputs.json",
+      "certificate": "experiments/crown_cash_requests/certificates.json",
+      "adapter": "source_editions",
+      "record_ids": [
+        "p219_A1",
+        "p219_A2",
+        "p219_B"
+      ]
+    },
+    {
+      "package": "constantinople_civilians",
+      "input": "experiments/constantinople_civilians/inputs.json",
+      "certificate": "experiments/constantinople_civilians/certificates.json",
+      "adapter": "source_editions",
+      "record_ids": [
+        "p221_B1",
+        "p221_B2",
+        "p221_B3",
+        "p221_B4"
+      ]
+    },
+    {
+      "package": "liman_troop_reports",
+      "input": "experiments/liman_troop_reports/inputs.json",
+      "certificate": "experiments/liman_troop_reports/certificates.json",
+      "adapter": "liman",
+      "record_ids": [
+        "p222_A1",
+        "p222_A2"
+      ]
+    },
+    {
+      "package": "lei_note_exchange",
+      "input": "experiments/lei_note_exchange/inputs.json",
+      "certificate": "experiments/lei_note_exchange/certificates.json",
+      "adapter": "source_editions",
+      "record_ids": [
+        "p223_A1",
+        "p223_A2",
+        "p223_A3"
+      ]
+    },
+    {
+      "package": "breslau_staff_transfer",
+      "input": "experiments/breslau_staff_transfer/inputs.json",
+      "certificate": "experiments/breslau_staff_transfer/certificates.json",
+      "adapter": "source_editions",
+      "record_ids": [
+        "p224_C1",
+        "p224_C2"
+      ]
+    },
+    {
+      "package": "mackensen_armistice_appeal",
+      "input": "experiments/mackensen_armistice_appeal/inputs.json",
+      "certificate": "experiments/mackensen_armistice_appeal/certificates.json",
+      "adapter": "mackensen_appeal",
+      "record_ids": [
+        "p220_C1",
+        "p220_C2",
+        "p220_C3",
+        "p220_C4",
+        "p221_A5",
+        "p221_A6"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "experiments/corpus_readings/selected_sources.json",
+      "sha256": "9ff215d501e5b1613777c67eddfcead7e2c1458dae8ad0b3ffe7dd06696acc02"
+    },
+    {
+      "path": "experiments/corpus_readings/certificates.json",
+      "sha256": "005667bfa74c5b300c7f7527faa48a7480d649479910e685d209adb15df65be6"
+    },
+    {
+      "path": "experiments/crown_cash_requests/inputs.json",
+      "sha256": "abc80eb8810cc13762b4a86905ff5b6c29d132ae2cb2210f6bb151a6fcc547f0"
+    },
+    {
+      "path": "experiments/crown_cash_requests/certificates.json",
+      "sha256": "e142da89e3093f94ff2d486774ba6480cc2d4bad3fe5d33ebf36ca33c3d31788"
+    },
+    {
+      "path": "experiments/constantinople_civilians/inputs.json",
+      "sha256": "5f3d887f8eae109ae923f474014111a9cfbe1f30a16dac498af518e36802d2ca"
+    },
+    {
+      "path": "experiments/constantinople_civilians/certificates.json",
+      "sha256": "1d97510e7914d972f3a26709d7af140d0607c23bbeb352bb02b7859653ffd02c"
+    },
+    {
+      "path": "experiments/liman_troop_reports/inputs.json",
+      "sha256": "5b78158c9f0915086d9f8059613223dcc11e479b44dfa1da011e7be0c23f0f2b"
+    },
+    {
+      "path": "experiments/liman_troop_reports/certificates.json",
+      "sha256": "f1198dd707980bfc500bf67cca8f1683fc06acda75615495c669a416da388746"
+    },
+    {
+      "path": "experiments/lei_note_exchange/inputs.json",
+      "sha256": "1955f5701a1b04cd679b729f9415e3047c3037bb1629a89c344b15fcab6d997d"
+    },
+    {
+      "path": "experiments/lei_note_exchange/certificates.json",
+      "sha256": "a19b8f145e97871ce3eac111ce8e9f20213e3d54324980cc21bf169ec68e8245"
+    },
+    {
+      "path": "experiments/breslau_staff_transfer/inputs.json",
+      "sha256": "389413bce4620b9a917fe011185b50ee9c1f34c22aaefcff038d3669fd02d0e6"
+    },
+    {
+      "path": "experiments/breslau_staff_transfer/certificates.json",
+      "sha256": "255fffa9e5dda84c519fcf312360a4665c1a4c6341b98bc3de3397cabcb7e7a7"
+    },
+    {
+      "path": "experiments/mackensen_armistice_appeal/inputs.json",
+      "sha256": "917ef5a72f4933ed8e6da93522ea9acd657a69937cf68803612d9268bea206bc"
+    },
+    {
+      "path": "experiments/mackensen_armistice_appeal/certificates.json",
+      "sha256": "ff00ec430dd04f40537b2603fbf2392ee91b9cb774504848ec7aa4751f8e6a86"
+    }
+  ],
+  "coverage_snapshot": {
+    "frozen_at_utc": "2026-11-02T23:50:09.984867+00:00",
+    "catalog_sha256_at_selection": "b7338f48bf32f9ac46a0fc804db02a0d3c876196965239c071e8f0a5bf921e16",
+    "catalog_other_records_at_selection": 222,
+    "selected_record_ids": [
+      "p218_A1",
+      "p218_A2",
+      "p218_A3",
+      "p219_A1",
+      "p219_A2",
+      "p219_B",
+      "p220_C1",
+      "p220_C2",
+      "p220_C3",
+      "p220_C4",
+      "p221_A5",
+      "p221_A6",
+      "p221_B1",
+      "p221_B2",
+      "p221_B3",
+      "p221_B4",
+      "p222_A1",
+      "p222_A2",
+      "p223_A1",
+      "p223_A2",
+      "p223_A3",
+      "p224_C1",
+      "p224_C2"
+    ],
+    "selected_already_catalogued_at_freeze": [
+      "p218_A1",
+      "p218_A2",
+      "p218_A3",
+      "p219_A1",
+      "p219_A2",
+      "p219_B",
+      "p221_B1",
+      "p221_B2",
+      "p221_B3",
+      "p221_B4",
+      "p222_A1",
+      "p222_A2",
+      "p223_A1",
+      "p223_A2",
+      "p223_A3",
+      "p224_C1",
+      "p224_C2"
+    ],
+    "source_reviewed_pending_catalog_at_freeze": [
+      "p220_C1",
+      "p220_C2",
+      "p220_C3",
+      "p220_C4",
+      "p221_A5",
+      "p221_A6"
+    ],
+    "selection": "All source-reviewed Nov25-28 records represented by the seven declared edition packages at this snapshot, including the completed p220 C/p221 A appeal. This is not coverage of all surviving same-period traffic or future editions.",
+    "key_package_discovery": "rg -l Nov25-28 over experiments/*/*inputs.json and *sources.json; discard synthetic search controls, retain source-reviewed catalog records."
+  },
+  "hypothesis": {
+    "cleared_baseline_labels": "0123456789JQY",
+    "assignment": {
+      "raw_label": "9",
+      "coordinate_pair": "VD",
+      "conditional_letter": "J"
+    },
+    "lexical_anchors": [
+      {
+        "record_id": "p222_A1",
+        "word_start": 34,
+        "plaintext_index": 34,
+        "raw_word": "9EDE",
+        "interpreted_word": "JEDE",
+        "basis": "Lexical interpretation of an unchanged observed VD pair; not an independent historical identification."
+      },
+      {
+        "record_id": "p224_C1",
+        "word_start": 7,
+        "plaintext_index": 9,
+        "raw_word": "MA9OR",
+        "interpreted_word": "MAJOR",
+        "basis": "Lexical interpretation of an unchanged observed VD pair; not an independent historical identification."
+      }
+    ],
+    "old_raw_J_policy": "Its FX cell is released and remains in the 12-cell bijection; it is not assigned 9."
+  },
+  "prior_credit": "The Nov25-28 key is from Lasry, Niebel, Kopal and Wacker. All body transcriptions, prior contributions and source edits retain the attribution and uncertainty recorded in the seven original packages. This package adds only a bounded conditional interpretation and complete propagation inventory. The added p220/p221 appeal retains the prior body interpretation published by Childs and summarized by Lasry et al.; its source edition is not new body-discovery evidence.",
+  "limits": [
+    "The two lexical anchors were selected to propose the assignment and are not independent held-out controls.",
+    "Four inconvenient raw9 occurrences are retained; their E/E/E/S source-coordinate repairs predate this hypothesis. No universal error-free substitution claim is made.",
+    "The 23 ordinary-letter anchors and the 13 released labels are assumptions of this layer. Earlier rank/geometry choices and every prior source repair remain conditional exactly as in their source packages.",
+    "No original digit meanings, money values, dates, unit numbers, Q or Y assignment are inferred. In particular rawJ is not silently reassigned to 9.",
+    "Pointwise domains share one global 36-cell bijection. The 12 unassigned cells cannot be independently selected at each plaintext occurrence.",
+    "Each supplied full-square/erasure witness is arbitrary and demonstrates consistency only; it is not a proposed original reading.",
+    "Coverage is the frozen 23-record source-reviewed snapshot, not all surviving Nov25-28 traffic or future editions.",
+    "This overlay adds zero source-coordinate edits, zero missing coordinates and no change to data/keys.json or source packages."
+  ],
+  "expected_counts": {
+    "raw9_occurrences": 6,
+    "lexical_anchors": 2,
+    "reviewed_records": 23
+  }
+}

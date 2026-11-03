@@ -27,6 +27,7 @@ jobs:
           python -m adfgvx.catalog --check
           python -m adfgvx.navigation --check
           python experiments/session_review/verify.py --verify
+          python experiments/post_push_review/verify.py --verify
       - name: Verify wider-corpus source readings
         run: |
           python experiments/corpus_readings/verify.py --verify
@@ -74,6 +75,16 @@ jobs:
           python experiments/liman_troop_reports/verify.py --verify
           python experiments/military_intendant_remit/verify.py --verify
           python experiments/neuhof_demobilization/verify.py --verify
+          python experiments/turkish_mission_recall/verify.py --verify
+          python experiments/hungary_transport_warning/verify.py --verify
+          python experiments/september_radio_procedure/verify.py --verify
+          python experiments/late_transport_dispatches/verify.py --verify
+          python experiments/armistice_transit_planning/verify.py --verify
+          python experiments/armistice_transit_planning/geometry_audit.py --verify
+          python experiments/deutzitag_dispatch_inquiries/verify.py --verify
+          python experiments/constanza_radio_connections/verify.py --verify
+          python experiments/mackensen_armistice_appeal/verify.py --verify
+          python experiments/nov25_letter_constraint/verify.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |
           python experiments/p198_word_search/verify.py

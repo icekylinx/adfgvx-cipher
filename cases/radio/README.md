@@ -4,13 +4,15 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**57 reviewed physical records across 18 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**66 reviewed physical records across 20 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
 | Case | Source records |
 |---|---|
+| [September radio listening and acknowledgment procedure](september_radio_procedure.md) | p60 A1, p60 A2, p60 B |
 | [Radio instructions: p77 B and p134 B](../context/radio_instructions.md) | p77 B, p134 B |
+| [Constanza naval radio: telegram routing and exchange connections](constanza_radio_connections.md) | p80 B1, p80 B2, p82 A1, p82 A2, p82 A3, p82 A4 |
 | [p85 B — Telephone censorship through Budapest](p85_B.md) | p85 B |
 | [p111 B — Use radio for important messages](p111_B.md) | p111 B |
 | [Kiel radio-control order — p140 A and p146 A](kiel_radio_control.md) | p140 A1, p140 A2, p140 A3, p140 A4, p146 A |
@@ -33,7 +35,16 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p60 A1](september_radio_procedure.md) | Daily listening times referenced by repeated numerical fields | 86/88 raw positions; two erasure fills supply the final Ns; 22552255, 14X14X9 and RIZI286 retained literally | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
+| [p60 A2](september_radio_procedure.md) | Calls at the beginning of every listening period, even without traffic | 77/77 raw positions; exact reading with no repair or fill; repeated NKJ signature retained | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
+| [p60 B](september_radio_procedure.md) | Continuous radiograms during reception of the Nauen press; acknowledgment afterward | 112/113 raw positions; three coordinate substitutions and two conservative erasure fills; possible F glyph variant kept separate | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
 | [p77 B](../context/radio_instructions.md#p77-b--call-sign-instruction-for-konia) | Konia radio call sign and wavelengths | Direct reading; one word normalized | icekylinx and GPT-6 Astra Pro (2026) |
+| [p80 B1](constanza_radio_connections.md#p80-b1) | Constanza naval department reference and telegram-routing introduction | One coordinate repair witnessed by p82 A1 | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates and source annotation distinguished |
+| [p80 B2](constanza_radio_connections.md#p80-b2) | German-line routing to Bucharest or Braila and naval-station connection | Visible source annotation plus separately priced common-word repair | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates and source annotation distinguished |
+| [p82 A1](constanza_radio_connections.md#p82-a1) | Constanza naval department reference and telegram-routing introduction | Direct 242-coordinate reading; printed 342 length label retained as discrepancy | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates and source annotation distinguished |
+| [p82 A2](constanza_radio_connections.md#p82-a2) | German-line routing to Bucharest or Braila and naval-station connection | One ordinary-word repair; repeated PACH error explicit | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates and source annotation distinguished |
+| [p82 A3](constanza_radio_connections.md#p82-a3) | Main and naval-department telephone exchange connections | One ordinary-word repair; raw 9 retained in source inventory | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates and source annotation distinguished |
+| [p82 A4](constanza_radio_connections.md#p82-a4) | Communication through the exchanges with all telephone points | Direct source reading without repair | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates and source annotation distinguished |
 | [p85 B](p85_B.md) | Telephone censorship through Budapest | 99/99 raw positions; two word repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p111 B](p111_B.md) | Use radio for important messages | 154/154 direct positions; no coordinate edits | icekylinx and GPT-6 Astra Pro (2026) |
 | [p134 B](../context/radio_instructions.md#p134-b--repeat-a-fourth-period-telegram-in-the-fifth) | Repeat a fourth-period telegram in the fifth | 50/51 raw positions; wording partly editorial | icekylinx and GPT-6 Astra Pro (2026) |

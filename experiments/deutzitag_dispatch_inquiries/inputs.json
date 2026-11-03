@@ -1,0 +1,398 @@
+{
+  "schema": "adfgvx-deutzitag-dispatch-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Oct28-31",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      15,
+      12,
+      16,
+      5,
+      7,
+      14,
+      4,
+      13,
+      8,
+      11,
+      1,
+      17,
+      2,
+      10,
+      3,
+      18,
+      9
+    ],
+    "column_count": 18,
+    "square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+    "square_rows": [
+      "HI20SX",
+      "RUWQY8",
+      "EK7O61",
+      "9CBJAP",
+      "453FDZ",
+      "TGLMVN"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 238,
+        "pdf_page_1based": 241,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source_images": [
+    {
+      "id": "p80_heading",
+      "path": "sources/p80_heading.png",
+      "printed_page": 80,
+      "pdf_page_1based": 83,
+      "crop_pdf_points": [
+        225,
+        151,
+        355,
+        172
+      ],
+      "render_scale": 4,
+      "sha256": "645c8e178d37bbbcce37b062967ee6c601cbbae969c10a5535d29baf8a5d5bc4"
+    },
+    {
+      "id": "p80_A",
+      "path": "sources/p80_A.png",
+      "printed_page": 80,
+      "pdf_page_1based": 83,
+      "crop_pdf_points": [
+        85,
+        180,
+        510,
+        380
+      ],
+      "render_scale": 4,
+      "sha256": "c32c3c93feacf77d99420b25f26cc36a2a647a6703075d4baed8d33eb4af8d34"
+    },
+    {
+      "id": "p81_heading",
+      "path": "sources/p81_heading.png",
+      "printed_page": 81,
+      "pdf_page_1based": 84,
+      "crop_pdf_points": [
+        220,
+        195,
+        365,
+        224
+      ],
+      "render_scale": 4,
+      "sha256": "e0463b033c05613d69a6e7becad077a48ee6bbef5e5202bad5dbaeba752d03be"
+    },
+    {
+      "id": "p81_A",
+      "path": "sources/p81_A.png",
+      "printed_page": 81,
+      "pdf_page_1based": 84,
+      "crop_pdf_points": [
+        80,
+        224,
+        505,
+        442
+      ],
+      "render_scale": 4,
+      "sha256": "cf3ccf47339b77c8221631b416354f168999cab414771e3ee591bb2d01874a92"
+    },
+    {
+      "id": "p81_A_overprint",
+      "path": "sources/p81_A_overprint.png",
+      "printed_page": 81,
+      "pdf_page_1based": 84,
+      "crop_pdf_points": [
+        240,
+        341,
+        301,
+        366
+      ],
+      "render_scale": 10,
+      "sha256": "3b71363657bc5853dc7e3f53af9eab525e8068e9e7498200b130e93e71b74896"
+    },
+    {
+      "id": "p81_B",
+      "path": "sources/p81_B.png",
+      "printed_page": 81,
+      "pdf_page_1based": 84,
+      "crop_pdf_points": [
+        80,
+        454,
+        505,
+        591
+      ],
+      "render_scale": 4,
+      "sha256": "1bbff3b52d74f18e904324e65a88df1b88b6cee46bc48d3a3d07f395bc3b0c57"
+    },
+    {
+      "id": "p81_C",
+      "path": "sources/p81_C.png",
+      "printed_page": 81,
+      "pdf_page_1based": 84,
+      "crop_pdf_points": [
+        80,
+        599,
+        505,
+        796
+      ],
+      "render_scale": 4,
+      "sha256": "df57c409dd9047e170bf6b8f909e1df77bda000bdd32935195bec992aba80f54"
+    }
+  ],
+  "records": [
+    {
+      "id": "p80_A",
+      "printed_page": 80,
+      "pdf_page_1based": 83,
+      "source_section": "A",
+      "source_image_id": "p80_A",
+      "key_id": "Oct28-31",
+      "page_heading": "30th OCTOBER, 1918.",
+      "receipt_header": "COS v LP (6.36 a.m., October 31st)",
+      "origin_header": "SS BERLIN 30/10 FUER KAUKASUS DELEGATION WIRTSCHAFTSABTEILUNG 1900",
+      "source_rows": [
+        "AAXFA VDXFD DAGAA AAFAA DAVDA XAADX GXAAA XFFAX",
+        "VAAVD AAGVG DXXVG AAVDA GXDXG XFXXV VDXGV VXGFX",
+        "VFDAF FADFA GVXDA XFAXX GVFXV VADAV AAADG FXDXA",
+        "DFDAV AVFGA FFADA AFXFD FXXDA XVDXA AFDXG XADXX",
+        "XDXFX XDFFA AFXGA DDFGV AXXDF GDXXD FXXAG ADAFV",
+        "AFXXX AFFFA GFVVV AXGAF AAADA AXVAG ADVGV VDAAA",
+        "VVXDX FGXFA FVGFX FDAVG FDGDV XFFDD XXXX"
+      ],
+      "source_slots": 274,
+      "advertised_length": 274,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "DRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG",
+      "readable_candidate": "DRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG",
+      "notes": [
+        "Every source coordinate is observed; no insertion, deletion or square change is used.",
+        "This 274-coordinate ciphertext is byte-identical to the other short inquiry; both independent crops and literal rows are preserved."
+      ]
+    },
+    {
+      "id": "p81_A",
+      "printed_page": 81,
+      "pdf_page_1based": 84,
+      "source_section": "A",
+      "source_image_id": "p81_A",
+      "key_id": "Oct28-31",
+      "page_heading": "30th OCTOBER, 1918. (Continued)",
+      "receipt_header": "NKJ v LP (6.45 a.m., October 31st)",
+      "origin_header": "FUER COS SS BERLIN 30/10 B V K M KAUKASUS 1172",
+      "source_rows": [
+        "VAXVV VAXGA FAAAD AAXVV AAAGA DVGVV DAAAV VXDDD",
+        "FVXDA XFAXX GVFXV VADGA GXAAA XFFAX VAAVD FFVFX",
+        "FGXFA FVGFX FDAVV AADXD FGDXX DFXXA GADAA VDAAF",
+        "AADAV DAXAA DXXXX XFDAV AVFGA FFADA AFDXA AGVGD",
+        "XXVGA AVDAD AXGXD XGXFX XVVDX GVADG VXGFX VFDAF",
+        "FADFA GDDAX FDXGX ADXXX DXFXX AXGAG FDGDV XFFDD",
+        "XXXXD AFXGX FDFXX DAXVD XAAGX ADADA VAAAD GFXDX",
+        "ADDFX XAAXF AVDXF DDAGA AGFFD FFAAF XGADD FGVAX",
+        "XGGAF VAFXX XAFFF AGF"
+      ],
+      "source_slots": 338,
+      "advertised_length": 338,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "FUERXSAULXWEINREICHXDOPPELPUNKTXDRAHTETJBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG",
+      "readable_candidate": "FUERXSAULXWEINREICHXDOPPELPUNKTXDRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG",
+      "notes": [
+        "Every source coordinate is observed; no insertion, deletion or square change is used.",
+        "The 32-character received addressee is FUERXSAULXWEINREICHXDOPPELPUNKTX. No independent personal identification is asserted.",
+        "The source group AXGXD has an overprinted second glyph, read visually as X; a dedicated enlargement is retained.",
+        "Source index 248 G→F repairs JB to OB. The entire 137-character remainder then matches both independently printed short inquiries. The raw J and exact local repair remain explicit; this is not a global J relabeling."
+      ]
+    },
+    {
+      "id": "p81_B",
+      "printed_page": 81,
+      "pdf_page_1based": 84,
+      "source_section": "B",
+      "source_image_id": "p81_B",
+      "key_id": "Oct28-31",
+      "page_heading": "30th OCTOBER, 1918. (Continued)",
+      "receipt_header": "NKJ v LP (3.53 p.m., October 30th)",
+      "origin_header": "FUER COS SS DD GR HQ OP 1400 (30/10); FUER GENERAL VON KRESS, TIFLIS",
+      "source_rows": [
+        "XXXFA AFAXD AAXXA VXFVA FXDVD XAXAG FXFXA GVAXA",
+        "AXAAX XDFAD XAAGX VFGGD FAVAA GVGXX VFVAX XGFFV",
+        "DAAVV AGFDF XADFA XAGAX DFXFA DVXXX DXXGX XFGVA",
+        "AFDXD VGXGF DA"
+      ],
+      "source_slots": 132,
+      "advertised_length": 132,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "ZUXNRX4452XPIONXABTXKANNINTIFLISBELASZENWERDENXGROENERXBX103830XO9",
+      "readable_candidate": "ZUXNRX4452XPIONXABTXKANNINTIFLISBELASZENWERDENXGROENERXBX103830XO9",
+      "notes": [
+        "Every source coordinate is observed; no insertion, deletion or square change is used.",
+        "This is a separate military order, not a part or retransmission of the commercial inquiries.",
+        "The complete raw reference labels 4452 and BX103830XO9 remain unchanged. O9 is not silently expanded to OP.",
+        "BELASZEN is retained in the source orthography."
+      ]
+    },
+    {
+      "id": "p81_C",
+      "printed_page": 81,
+      "pdf_page_1based": 84,
+      "source_section": "C",
+      "source_image_id": "p81_C",
+      "key_id": "Oct28-31",
+      "page_heading": "30th OCTOBER, 1918. (Continued)",
+      "receipt_header": "NKJ v LP (6.36 a.m., October 31st)",
+      "origin_header": "FUER COS SS BERLIN 30/10 1900; FUER KAUKASUS DELEGATION WIRTSCHAFTSABTEILUNG",
+      "source_rows": [
+        "AAXFA VDXFD DAGAA AAFAA DAVDA XAADX GXAAA XFFAX",
+        "VAAVD AAGVG DXXVG AAVDA GXDXG XFXXV VDXGV VXGFX",
+        "VFDAF FADFA GVXDA XFAXX GVFXV VADAV AAADG FXDXA",
+        "DFDAV AVFGA FFADA AFXFD FXXDA XVDXA AFDXG XADXX",
+        "XDXFX XDFFA AFXGA DDFGV AXXDF GDXXD FXXAG ADAFV",
+        "AFXXX AFFFA GFVVV AXGAF AAADA AXVAG ADVGV VDAAA",
+        "VVXDX FGXFA FVGFX FDAVG FDGDV XFFDD XXXX"
+      ],
+      "source_slots": 274,
+      "advertised_length": 274,
+      "model": {
+        "kind": "identity"
+      },
+      "expected_raw": "DRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG",
+      "readable_candidate": "DRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG",
+      "notes": [
+        "Every source coordinate is observed; no insertion, deletion or square change is used.",
+        "This 274-coordinate ciphertext is byte-identical to the other short inquiry; both independent crops and literal rows are preserved."
+      ]
+    }
+  ],
+  "repeated_body": {
+    "short_records": [
+      "p80_A",
+      "p81_C"
+    ],
+    "long_record": "p81_A",
+    "long_prefix_length": 32,
+    "common_body_length": 137,
+    "limits": "The two short ciphertexts are identical. The longer source has an added addressee and one observed coordinate disagreement; only the candidate suffix is identical. The source does not answer whether any shipment actually occurred."
+  },
+  "prior_attribution_check": {
+    "scope": "Bounded check of explicit body discussion, not a claim that no earlier researcher ever read these messages.",
+    "paper": {
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "result": "No explicit DEUTZITAG/WEINREICH dispatch inquiry or reference 4452 pioneer-detachment body was located in the bounded text check. This absence is not a priority proof."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "No explicit DEUTZITAG/WEINREICH dispatch inquiry or reference 4452 pioneer-detachment body was located in the bounded text check. This absence is not a priority proof."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "cached_comment_count": 55,
+      "parsed_snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "No explicit DEUTZITAG, WEINREICH, 4452, ABTRANSPORT or PIONIER body was located in the cached 55-comment snapshot."
+    },
+    "earlier_repository_candidates": {
+      "source_corpus": "experiments/p153_corpus/inputs.json",
+      "source_blocks": [
+        "p80_ocr_block1",
+        "p81_ocr_block1",
+        "p81_ocr_block2",
+        "p81_ocr_block3"
+      ],
+      "frozen_prior_candidate_records": [
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p80_ocr_block1",
+          "key": "Oct28-31",
+          "score": -4.401619368524694,
+          "plaintext": "DRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG",
+          "ciphertext_length": 274
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p81_ocr_block1",
+          "key": "Oct28-31",
+          "score": -4.2283153258837185,
+          "plaintext": "FUER?S?U?XWE?NREICHXDOPP??PUN?TXDRAHTET?BVON?URENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXX?EUTZI?AG",
+          "ciphertext_length": 338
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p81_ocr_block2",
+          "key": "Oct28-31",
+          "score": -5.3280707658347435,
+          "plaintext": "ZUXNRX4452XPIONXABTXKANNINTIFLISBELASZENWERDENXGROENERXBX10?830XO9",
+          "ciphertext_length": 132
+        },
+        {
+          "source_path_at_screen": "/tmp/cross_key_plaintexts.json",
+          "source_sha256": "2cf74a98e7d8a0054c6075e681903abeffb85f8bb45972e4d8397d811cd92b8e",
+          "block": "p81_ocr_block3",
+          "key": "Oct28-31",
+          "score": -4.285628842456,
+          "plaintext": "DRAH?ET?BVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGE?WERDENUNDWIEWEITERTRANSPORTGE?AC?TISTXX?EUTZITAG",
+          "ciphertext_length": 274
+        }
+      ],
+      "interpretation": "All four bodies were recognizable in earlier unreviewed OCR-derived screens. This edition adds literal source checking, exact equality witnesses and a separately priced one-coordinate repair, not first historical decipherment."
+    }
+  }
+}

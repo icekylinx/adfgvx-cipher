@@ -1,0 +1,655 @@
+{
+  "schema": "adfgvx-post-publication-review-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "inputs_sha256": "de7c9ea988c64814b230c63b3d0ecc8b573aea027f8aad5d4bd4a92fb61d6126",
+  "review_state": "in_progress",
+  "initial_push_confirmed_utc": "2026-11-02T23:27:19Z",
+  "minimum_followup_end_utc": "2026-11-03T01:27:19Z",
+  "review_finished_utc": null,
+  "completed_elapsed_seconds_after_push": null,
+  "catalogue": {
+    "challenge_entries": 22,
+    "other_records_before": 195,
+    "other_records_after": 264,
+    "new_physical_records": 69,
+    "removed_records": [],
+    "prior_metadata_changes_other_than_paths": [],
+    "canonical_path_updates": 164
+  },
+  "source_package_count": 15,
+  "new_case_pages": [
+    "cases/caucasus/tiflis_pioneer_detachment.md",
+    "cases/finance/crown_airlift.md",
+    "cases/finance/deutzitag_dispatch_inquiries.md",
+    "cases/finance/military_allowances.md",
+    "cases/finance/zitag_purchase_orders.md",
+    "cases/military/armistice_transit_planning.md",
+    "cases/military/hungary_transport_warning.md",
+    "cases/military/late_transport_dispatches.md",
+    "cases/military/liman_troop_reports.md",
+    "cases/military/mackensen_armistice_appeal.md",
+    "cases/military/military_intendant_remit.md",
+    "cases/military/neuhof_demobilization.md",
+    "cases/military/orient_intelligence.md",
+    "cases/military/turkish_mission_recall.md",
+    "cases/radio/constanza_radio_connections.md",
+    "cases/radio/september_radio_procedure.md"
+  ],
+  "source_image_count": 84,
+  "pinned_artifact_count": 187,
+  "coverage_totals": {
+    "physical_records": 69,
+    "source_slots": 16586,
+    "modeled_plaintext_positions": 8313,
+    "fixed_raw_label_positions_under_stated_geometry": 8114,
+    "known_coordinate_substitutions": 112
+  },
+  "source_packages": [
+    {
+      "name": "crown_airlift",
+      "record_ids": [
+        "p174_A1",
+        "p174_A2",
+        "p174_A3"
+      ],
+      "case_pages": [
+        "cases/finance/crown_airlift.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 371,
+        "modeled_plaintext_positions": 195,
+        "fixed_raw_label_positions_under_stated_geometry": 175,
+        "known_coordinate_substitutions": 1
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 371,
+        "valid_source_coordinates": 370,
+        "modeled_coordinates": 390,
+        "plaintext_positions": 195,
+        "baseline_fixed_positions": 175,
+        "candidate_fixed_positions": 188,
+        "known_coordinate_substitutions": 1,
+        "printed_erasure_fills": 1,
+        "missing_tail_fills": 12,
+        "unfilled_missing_tail_coordinates": 7,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "zitag_purchase_orders",
+      "record_ids": [
+        "p102_A",
+        "p103_D",
+        "p106_B",
+        "p103_B1",
+        "p103_B2"
+      ],
+      "case_pages": [
+        "cases/finance/zitag_purchase_orders.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 5,
+        "source_slots": 1068,
+        "modeled_plaintext_positions": 534,
+        "fixed_raw_label_positions_under_stated_geometry": 531,
+        "known_coordinate_substitutions": 14
+      },
+      "original_summary": {
+        "physical_records": 5,
+        "printed_source_slots": 1068,
+        "valid_source_coordinates": 1065,
+        "modeled_coordinates": 1068,
+        "plaintext_positions": 534,
+        "baseline_fixed_positions": 531,
+        "candidate_fixed_positions": 534,
+        "known_coordinate_substitutions": 14,
+        "printed_erasure_fills": 3,
+        "source_deletions": 0,
+        "missing_coordinate_insertions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "military_allowances",
+      "record_ids": [
+        "p129_B1",
+        "p133_A2",
+        "p133_A3",
+        "p134_A4"
+      ],
+      "case_pages": [
+        "cases/finance/military_allowances.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 1760,
+        "modeled_plaintext_positions": 880,
+        "fixed_raw_label_positions_under_stated_geometry": 877,
+        "known_coordinate_substitutions": 10
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 1760,
+        "valid_source_coordinates": 1757,
+        "modeled_coordinates": 1760,
+        "plaintext_positions": 880,
+        "baseline_fixed_positions": 877,
+        "candidate_fixed_positions": 880,
+        "known_coordinate_substitutions": 10,
+        "printed_erasure_fills": 3,
+        "source_deletions": 0,
+        "missing_coordinate_insertions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "orient_intelligence",
+      "record_ids": [
+        "p92_B1",
+        "p93_A2",
+        "p93_A3",
+        "p93_A4",
+        "p94_A5",
+        "p94_A6"
+      ],
+      "case_pages": [
+        "cases/military/orient_intelligence.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 6,
+        "source_slots": 2020,
+        "modeled_plaintext_positions": 1010,
+        "fixed_raw_label_positions_under_stated_geometry": 1009,
+        "known_coordinate_substitutions": 4
+      },
+      "original_summary": {
+        "physical_records": 6,
+        "printed_source_slots": 2020,
+        "valid_source_coordinates": 2019,
+        "modeled_coordinates": 2020,
+        "plaintext_positions": 1010,
+        "baseline_fixed_positions": 1009,
+        "candidate_fixed_positions": 1010,
+        "known_coordinate_substitutions": 4,
+        "printed_erasure_fills": 1,
+        "source_deletions": 0,
+        "missing_coordinate_insertions": 0,
+        "published_key_changed": false,
+        "p93_separated_direct_plaintext_positions": 487
+      }
+    },
+    {
+      "name": "liman_troop_reports",
+      "record_ids": [
+        "p222_A1",
+        "p222_A2"
+      ],
+      "case_pages": [
+        "cases/military/liman_troop_reports.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 414,
+        "modeled_plaintext_positions": 207,
+        "fixed_raw_label_positions_under_stated_geometry": 207,
+        "known_coordinate_substitutions": 1
+      },
+      "original_summary": {
+        "source_records": 2,
+        "source_slots": 414,
+        "raw_fixed_label_positions": 207,
+        "plaintext_positions": 207,
+        "known_coordinate_substitutions": 1,
+        "source_erasures": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "reordered_blocks": 0,
+        "published_square_changes": 0
+      }
+    },
+    {
+      "name": "military_intendant_remit",
+      "record_ids": [
+        "p202_B1",
+        "p202_B2",
+        "p202_B3",
+        "p202_B4"
+      ],
+      "case_pages": [
+        "cases/military/military_intendant_remit.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 877,
+        "modeled_plaintext_positions": 441,
+        "fixed_raw_label_positions_under_stated_geometry": 421,
+        "known_coordinate_substitutions": 10
+      },
+      "original_summary": {
+        "physical_source_parts": 4,
+        "received_slots": 877,
+        "known_received_coordinates": 872,
+        "masked_received_slots": 5,
+        "working_frame_coordinates": 882,
+        "plaintext_positions_in_working_frames": 441,
+        "raw_fixed_positions_in_working_frames": 421,
+        "edition_fixed_positions_in_working_frames": 432,
+        "known_coordinate_substitutions": 10,
+        "masked_source_fills": 5,
+        "inserted_coordinate_slots": 5,
+        "inserted_coordinate_fills": 3,
+        "remaining_unknown_inserted_coordinates": 2,
+        "deletions": 0,
+        "reordered_blocks": 0,
+        "published_square_changes": 0
+      }
+    },
+    {
+      "name": "neuhof_demobilization",
+      "record_ids": [
+        "p228_B1",
+        "p228_B2",
+        "p228_B3"
+      ],
+      "case_pages": [
+        "cases/military/neuhof_demobilization.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 696,
+        "modeled_plaintext_positions": 348,
+        "fixed_raw_label_positions_under_stated_geometry": 298,
+        "known_coordinate_substitutions": 10
+      },
+      "original_summary": {
+        "physical_source_parts": 3,
+        "counted_source_slots": 696,
+        "known_received_coordinates": 646,
+        "printed_dash_slots": 50,
+        "plaintext_positions": 348,
+        "raw_fixed_label_positions": 298,
+        "edition_fixed_label_positions": 314,
+        "known_coordinate_substitutions": 10,
+        "erasure_fills": 16,
+        "middle_part_claimed_opening_positions": 33,
+        "middle_part_positions_without_coherent_original_reading": 99,
+        "insertions": 0,
+        "deletions": 0,
+        "reordered_blocks": 0,
+        "published_square_changes": 0
+      }
+    },
+    {
+      "name": "turkish_mission_recall",
+      "record_ids": [
+        "p130_A1",
+        "p130_A2",
+        "p131_A3",
+        "p131_A4"
+      ],
+      "case_pages": [
+        "cases/military/turkish_mission_recall.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 1290,
+        "modeled_plaintext_positions": 645,
+        "fixed_raw_label_positions_under_stated_geometry": 645,
+        "known_coordinate_substitutions": 3
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 1290,
+        "valid_source_coordinates": 1290,
+        "modeled_coordinates": 1290,
+        "plaintext_positions": 645,
+        "baseline_fixed_positions": 645,
+        "candidate_fixed_positions": 645,
+        "known_coordinate_substitutions": 3,
+        "printed_erasure_fills": 0,
+        "source_deletions": 0,
+        "missing_coordinate_insertions": 0,
+        "published_key_changed": false,
+        "unresolved_received_office_field_positions": 9,
+        "earlier_contextual_records_counted_as_new": 0
+      }
+    },
+    {
+      "name": "hungary_transport_warning",
+      "record_ids": [
+        "p184_B1",
+        "p184_B2",
+        "p184_B3",
+        "p184_C1",
+        "p184_C2",
+        "p184_C3"
+      ],
+      "case_pages": [
+        "cases/military/hungary_transport_warning.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 6,
+        "source_slots": 877,
+        "modeled_plaintext_positions": 441,
+        "fixed_raw_label_positions_under_stated_geometry": 405,
+        "known_coordinate_substitutions": 2
+      },
+      "original_summary": {
+        "physical_records": 6,
+        "printed_source_slots": 877,
+        "valid_source_coordinates": 877,
+        "modeled_coordinates": 882,
+        "plaintext_positions": 441,
+        "baseline_fixed_positions": 405,
+        "candidate_fixed_positions": 410,
+        "known_coordinate_substitutions": 2,
+        "printed_erasure_fills": 0,
+        "missing_coordinate_fills": 5,
+        "source_deletions": 0,
+        "remaining_unresolved_positions": 31,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "september_radio_procedure",
+      "record_ids": [
+        "p60_A1",
+        "p60_A2",
+        "p60_B"
+      ],
+      "case_pages": [
+        "cases/radio/september_radio_procedure.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 556,
+        "modeled_plaintext_positions": 278,
+        "fixed_raw_label_positions_under_stated_geometry": 275,
+        "known_coordinate_substitutions": 3
+      },
+      "original_summary": {
+        "source_slots": 556,
+        "valid_received_coordinates": 552,
+        "plaintext_positions": 278,
+        "raw_fixed_positions": 275,
+        "proposed_positions_directly_supported": 272,
+        "records": 3,
+        "known_coordinate_substitutions": 3,
+        "erasure_fills": 4,
+        "insertions": 0,
+        "deletions": 0,
+        "reordered_blocks": 0,
+        "published_square_changes": 0
+      }
+    },
+    {
+      "name": "late_transport_dispatches",
+      "record_ids": [
+        "p229_A1",
+        "p229_A2",
+        "p229_A3",
+        "p229_B1",
+        "p229_B2",
+        "p229_C"
+      ],
+      "case_pages": [
+        "cases/military/late_transport_dispatches.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 6,
+        "source_slots": 1442,
+        "modeled_plaintext_positions": 721,
+        "fixed_raw_label_positions_under_stated_geometry": 677,
+        "known_coordinate_substitutions": 14
+      },
+      "original_summary": {
+        "physical_source_parts": 6,
+        "counted_source_slots": 1442,
+        "known_received_coordinates": 1398,
+        "printed_dash_slots": 43,
+        "invalid_source_glyphs": 1,
+        "plaintext_positions": 721,
+        "raw_fixed_label_positions": 677,
+        "edition_fixed_label_positions": 716,
+        "known_coordinate_substitutions": 14,
+        "erasure_fills": 39,
+        "remaining_uncertain_plaintext_positions": 5,
+        "physical_telegrams": 3,
+        "insertions": 0,
+        "deletions": 0,
+        "block_moves": 0,
+        "published_key_changes": 0,
+        "numeral_assignments": 0
+      }
+    },
+    {
+      "name": "armistice_transit_planning",
+      "record_ids": [
+        "p125_A1",
+        "p125_A2",
+        "p125_A3",
+        "p125_A4",
+        "p126_A5",
+        "p126_A6",
+        "p126_B"
+      ],
+      "case_pages": [
+        "cases/military/armistice_transit_planning.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 7,
+        "source_slots": 1537,
+        "modeled_plaintext_positions": 769,
+        "fixed_raw_label_positions_under_stated_geometry": 764,
+        "known_coordinate_substitutions": 10
+      },
+      "original_summary": {
+        "source_records": 7,
+        "source_slots": 1537,
+        "valid_received_coordinates": 1533,
+        "exact_frame_records": 6,
+        "exact_frame_positions": 635,
+        "exact_frame_raw_fixed_positions": 633,
+        "conditional_records": 1,
+        "conditional_positions": 134,
+        "conditional_raw_fixed_positions": 131,
+        "known_coordinate_substitutions": 10,
+        "source_erasure_fills": 4,
+        "conditional_interim_insertions": 1,
+        "transmitted_coordinate_insertions_or_deletions": 0,
+        "reordered_source_blocks": 0,
+        "published_square_changes": 0
+      }
+    },
+    {
+      "name": "deutzitag_dispatch_inquiries",
+      "record_ids": [
+        "p80_A",
+        "p81_A",
+        "p81_B",
+        "p81_C"
+      ],
+      "case_pages": [
+        "cases/caucasus/tiflis_pioneer_detachment.md",
+        "cases/finance/deutzitag_dispatch_inquiries.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 1018,
+        "modeled_plaintext_positions": 509,
+        "fixed_raw_label_positions_under_stated_geometry": 509,
+        "known_coordinate_substitutions": 1
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 1018,
+        "valid_source_coordinates": 1018,
+        "modeled_coordinates": 1018,
+        "plaintext_positions": 509,
+        "baseline_fixed_positions": 509,
+        "candidate_fixed_positions": 509,
+        "known_coordinate_substitutions": 1,
+        "printed_erasure_fills": 0,
+        "missing_coordinate_fills": 0,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "constanza_radio_connections",
+      "record_ids": [
+        "p80_B1",
+        "p80_B2",
+        "p82_A1",
+        "p82_A2",
+        "p82_A3",
+        "p82_A4"
+      ],
+      "case_pages": [
+        "cases/radio/constanza_radio_connections.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 6,
+        "source_slots": 1308,
+        "modeled_plaintext_positions": 654,
+        "fixed_raw_label_positions_under_stated_geometry": 654,
+        "known_coordinate_substitutions": 5
+      },
+      "original_summary": {
+        "physical_records": 6,
+        "printed_source_slots": 1308,
+        "valid_source_coordinates": 1308,
+        "modeled_coordinates": 1308,
+        "plaintext_positions": 654,
+        "baseline_fixed_positions": 654,
+        "candidate_fixed_positions": 654,
+        "known_coordinate_substitutions": 5,
+        "source_annotation_supported_substitutions": 1,
+        "printed_erasure_fills": 0,
+        "missing_coordinate_fills": 0,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "mackensen_armistice_appeal",
+      "record_ids": [
+        "p220_C1",
+        "p220_C2",
+        "p220_C3",
+        "p220_C4",
+        "p221_A5",
+        "p221_A6"
+      ],
+      "case_pages": [
+        "cases/military/mackensen_armistice_appeal.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 6,
+        "source_slots": 1352,
+        "modeled_plaintext_positions": 681,
+        "fixed_raw_label_positions_under_stated_geometry": 667,
+        "known_coordinate_substitutions": 24
+      },
+      "original_summary": {
+        "physical_records": 6,
+        "source_slots": 1352,
+        "valid_source_coordinates": 1348,
+        "modeled_coordinates": 1362,
+        "plaintext_positions": 681,
+        "baseline_fixed_positions": 667,
+        "candidate_fixed_positions": 681,
+        "known_coordinate_substitutions": 24,
+        "printed_erasure_fills": 4,
+        "inserted_coordinate_fills": 10,
+        "source_deletions": 0,
+        "published_key_changed": false,
+        "p221_A5_common_raw_positions_across_masked_minima": 100
+      }
+    }
+  ],
+  "additional_packages": [
+    "nov25_letter_constraint"
+  ],
+  "new_record_ids": [
+    "p60_A1",
+    "p60_A2",
+    "p60_B",
+    "p80_A",
+    "p80_B1",
+    "p80_B2",
+    "p81_A",
+    "p81_B",
+    "p81_C",
+    "p82_A1",
+    "p82_A2",
+    "p82_A3",
+    "p82_A4",
+    "p92_B1",
+    "p93_A2",
+    "p93_A3",
+    "p93_A4",
+    "p94_A5",
+    "p94_A6",
+    "p102_A",
+    "p103_B1",
+    "p103_B2",
+    "p103_D",
+    "p106_B",
+    "p125_A1",
+    "p125_A2",
+    "p125_A3",
+    "p125_A4",
+    "p126_A5",
+    "p126_A6",
+    "p126_B",
+    "p129_B1",
+    "p130_A1",
+    "p130_A2",
+    "p131_A3",
+    "p131_A4",
+    "p133_A2",
+    "p133_A3",
+    "p134_A4",
+    "p174_A1",
+    "p174_A2",
+    "p174_A3",
+    "p184_B1",
+    "p184_B2",
+    "p184_B3",
+    "p184_C1",
+    "p184_C2",
+    "p184_C3",
+    "p202_B1",
+    "p202_B2",
+    "p202_B3",
+    "p202_B4",
+    "p220_C1",
+    "p220_C2",
+    "p220_C3",
+    "p220_C4",
+    "p221_A5",
+    "p221_A6",
+    "p222_A1",
+    "p222_A2",
+    "p228_B1",
+    "p228_B2",
+    "p228_B3",
+    "p229_A1",
+    "p229_A2",
+    "p229_A3",
+    "p229_B1",
+    "p229_B2",
+    "p229_C"
+  ],
+  "counting_limits": [
+    "Physical records, repeated copies and numbered source parts are counted separately; they are not all first decipherments.",
+    "A fixed raw label may be a garble or a numerical label of unknown historical meaning. Coverage counts do not certify every word.",
+    "Conditional geometry is retained in package summaries; summing modeled positions does not remove its assumptions.",
+    "Pixel identity binds a delivered crop to the pinned PDF. It does not itself prove every manual glyph judgment.",
+    "The earlier 87-to-195 review retains its own immutable snapshots. This review starts at195."
+  ]
+}

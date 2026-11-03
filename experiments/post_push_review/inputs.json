@@ -1,0 +1,2092 @@
+{
+  "schema": "adfgvx-post-publication-review-input-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "initial_push_confirmed_utc": "2026-11-02T23:27:19Z",
+  "minimum_required_followup_seconds": 7200,
+  "minimum_followup_end_utc": "2026-11-03T01:27:19Z",
+  "review_finished_utc": null,
+  "initial_public_head": "c4c2562f41dd4624f7202962db68ef9e746f50f2",
+  "start_catalog_sha256": "50784e7b1a7a51a8e4224a088cdaec21a6c6f25285d869b5049110a667630e75",
+  "final_catalog_sha256": "8cac9e32b1b30362e32a671c975848d80ca1a5161ca9549ddd31b404629eb25d",
+  "source_pdf": {
+    "sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "bytes": 156848258,
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+  },
+  "unchanged_core_files": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/messages.json": "1e4013252eb54065435ae1591abea729df8e40e482a6fe57165b512a9ba9c373"
+  },
+  "source_packages": [
+    {
+      "name": "crown_airlift",
+      "record_ids": [
+        "p174_A1",
+        "p174_A2",
+        "p174_A3"
+      ],
+      "case_pages": [
+        "cases/finance/crown_airlift.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 371,
+        "modeled_plaintext_positions": 195,
+        "fixed_raw_label_positions_under_stated_geometry": 175,
+        "known_coordinate_substitutions": 1
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 371,
+        "valid_source_coordinates": 370,
+        "modeled_coordinates": 390,
+        "plaintext_positions": 195,
+        "baseline_fixed_positions": 175,
+        "candidate_fixed_positions": 188,
+        "known_coordinate_substitutions": 1,
+        "printed_erasure_fills": 1,
+        "missing_tail_fills": 12,
+        "unfilled_missing_tail_coordinates": 7,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "zitag_purchase_orders",
+      "record_ids": [
+        "p102_A",
+        "p103_D",
+        "p106_B",
+        "p103_B1",
+        "p103_B2"
+      ],
+      "case_pages": [
+        "cases/finance/zitag_purchase_orders.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 5,
+        "source_slots": 1068,
+        "modeled_plaintext_positions": 534,
+        "fixed_raw_label_positions_under_stated_geometry": 531,
+        "known_coordinate_substitutions": 14
+      },
+      "original_summary": {
+        "physical_records": 5,
+        "printed_source_slots": 1068,
+        "valid_source_coordinates": 1065,
+        "modeled_coordinates": 1068,
+        "plaintext_positions": 534,
+        "baseline_fixed_positions": 531,
+        "candidate_fixed_positions": 534,
+        "known_coordinate_substitutions": 14,
+        "printed_erasure_fills": 3,
+        "source_deletions": 0,
+        "missing_coordinate_insertions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "military_allowances",
+      "record_ids": [
+        "p129_B1",
+        "p133_A2",
+        "p133_A3",
+        "p134_A4"
+      ],
+      "case_pages": [
+        "cases/finance/military_allowances.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 1760,
+        "modeled_plaintext_positions": 880,
+        "fixed_raw_label_positions_under_stated_geometry": 877,
+        "known_coordinate_substitutions": 10
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 1760,
+        "valid_source_coordinates": 1757,
+        "modeled_coordinates": 1760,
+        "plaintext_positions": 880,
+        "baseline_fixed_positions": 877,
+        "candidate_fixed_positions": 880,
+        "known_coordinate_substitutions": 10,
+        "printed_erasure_fills": 3,
+        "source_deletions": 0,
+        "missing_coordinate_insertions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "orient_intelligence",
+      "record_ids": [
+        "p92_B1",
+        "p93_A2",
+        "p93_A3",
+        "p93_A4",
+        "p94_A5",
+        "p94_A6"
+      ],
+      "case_pages": [
+        "cases/military/orient_intelligence.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 6,
+        "source_slots": 2020,
+        "modeled_plaintext_positions": 1010,
+        "fixed_raw_label_positions_under_stated_geometry": 1009,
+        "known_coordinate_substitutions": 4
+      },
+      "original_summary": {
+        "physical_records": 6,
+        "printed_source_slots": 2020,
+        "valid_source_coordinates": 2019,
+        "modeled_coordinates": 2020,
+        "plaintext_positions": 1010,
+        "baseline_fixed_positions": 1009,
+        "candidate_fixed_positions": 1010,
+        "known_coordinate_substitutions": 4,
+        "printed_erasure_fills": 1,
+        "source_deletions": 0,
+        "missing_coordinate_insertions": 0,
+        "published_key_changed": false,
+        "p93_separated_direct_plaintext_positions": 487
+      }
+    },
+    {
+      "name": "liman_troop_reports",
+      "record_ids": [
+        "p222_A1",
+        "p222_A2"
+      ],
+      "case_pages": [
+        "cases/military/liman_troop_reports.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 414,
+        "modeled_plaintext_positions": 207,
+        "fixed_raw_label_positions_under_stated_geometry": 207,
+        "known_coordinate_substitutions": 1
+      },
+      "original_summary": {
+        "source_records": 2,
+        "source_slots": 414,
+        "raw_fixed_label_positions": 207,
+        "plaintext_positions": 207,
+        "known_coordinate_substitutions": 1,
+        "source_erasures": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "reordered_blocks": 0,
+        "published_square_changes": 0
+      }
+    },
+    {
+      "name": "military_intendant_remit",
+      "record_ids": [
+        "p202_B1",
+        "p202_B2",
+        "p202_B3",
+        "p202_B4"
+      ],
+      "case_pages": [
+        "cases/military/military_intendant_remit.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 877,
+        "modeled_plaintext_positions": 441,
+        "fixed_raw_label_positions_under_stated_geometry": 421,
+        "known_coordinate_substitutions": 10
+      },
+      "original_summary": {
+        "physical_source_parts": 4,
+        "received_slots": 877,
+        "known_received_coordinates": 872,
+        "masked_received_slots": 5,
+        "working_frame_coordinates": 882,
+        "plaintext_positions_in_working_frames": 441,
+        "raw_fixed_positions_in_working_frames": 421,
+        "edition_fixed_positions_in_working_frames": 432,
+        "known_coordinate_substitutions": 10,
+        "masked_source_fills": 5,
+        "inserted_coordinate_slots": 5,
+        "inserted_coordinate_fills": 3,
+        "remaining_unknown_inserted_coordinates": 2,
+        "deletions": 0,
+        "reordered_blocks": 0,
+        "published_square_changes": 0
+      }
+    },
+    {
+      "name": "neuhof_demobilization",
+      "record_ids": [
+        "p228_B1",
+        "p228_B2",
+        "p228_B3"
+      ],
+      "case_pages": [
+        "cases/military/neuhof_demobilization.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 696,
+        "modeled_plaintext_positions": 348,
+        "fixed_raw_label_positions_under_stated_geometry": 298,
+        "known_coordinate_substitutions": 10
+      },
+      "original_summary": {
+        "physical_source_parts": 3,
+        "counted_source_slots": 696,
+        "known_received_coordinates": 646,
+        "printed_dash_slots": 50,
+        "plaintext_positions": 348,
+        "raw_fixed_label_positions": 298,
+        "edition_fixed_label_positions": 314,
+        "known_coordinate_substitutions": 10,
+        "erasure_fills": 16,
+        "middle_part_claimed_opening_positions": 33,
+        "middle_part_positions_without_coherent_original_reading": 99,
+        "insertions": 0,
+        "deletions": 0,
+        "reordered_blocks": 0,
+        "published_square_changes": 0
+      }
+    },
+    {
+      "name": "turkish_mission_recall",
+      "record_ids": [
+        "p130_A1",
+        "p130_A2",
+        "p131_A3",
+        "p131_A4"
+      ],
+      "case_pages": [
+        "cases/military/turkish_mission_recall.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 1290,
+        "modeled_plaintext_positions": 645,
+        "fixed_raw_label_positions_under_stated_geometry": 645,
+        "known_coordinate_substitutions": 3
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 1290,
+        "valid_source_coordinates": 1290,
+        "modeled_coordinates": 1290,
+        "plaintext_positions": 645,
+        "baseline_fixed_positions": 645,
+        "candidate_fixed_positions": 645,
+        "known_coordinate_substitutions": 3,
+        "printed_erasure_fills": 0,
+        "source_deletions": 0,
+        "missing_coordinate_insertions": 0,
+        "published_key_changed": false,
+        "unresolved_received_office_field_positions": 9,
+        "earlier_contextual_records_counted_as_new": 0
+      }
+    },
+    {
+      "name": "hungary_transport_warning",
+      "record_ids": [
+        "p184_B1",
+        "p184_B2",
+        "p184_B3",
+        "p184_C1",
+        "p184_C2",
+        "p184_C3"
+      ],
+      "case_pages": [
+        "cases/military/hungary_transport_warning.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 6,
+        "source_slots": 877,
+        "modeled_plaintext_positions": 441,
+        "fixed_raw_label_positions_under_stated_geometry": 405,
+        "known_coordinate_substitutions": 2
+      },
+      "original_summary": {
+        "physical_records": 6,
+        "printed_source_slots": 877,
+        "valid_source_coordinates": 877,
+        "modeled_coordinates": 882,
+        "plaintext_positions": 441,
+        "baseline_fixed_positions": 405,
+        "candidate_fixed_positions": 410,
+        "known_coordinate_substitutions": 2,
+        "printed_erasure_fills": 0,
+        "missing_coordinate_fills": 5,
+        "source_deletions": 0,
+        "remaining_unresolved_positions": 31,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "september_radio_procedure",
+      "record_ids": [
+        "p60_A1",
+        "p60_A2",
+        "p60_B"
+      ],
+      "case_pages": [
+        "cases/radio/september_radio_procedure.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 556,
+        "modeled_plaintext_positions": 278,
+        "fixed_raw_label_positions_under_stated_geometry": 275,
+        "known_coordinate_substitutions": 3
+      },
+      "original_summary": {
+        "source_slots": 556,
+        "valid_received_coordinates": 552,
+        "plaintext_positions": 278,
+        "raw_fixed_positions": 275,
+        "proposed_positions_directly_supported": 272,
+        "records": 3,
+        "known_coordinate_substitutions": 3,
+        "erasure_fills": 4,
+        "insertions": 0,
+        "deletions": 0,
+        "reordered_blocks": 0,
+        "published_square_changes": 0
+      }
+    },
+    {
+      "name": "late_transport_dispatches",
+      "record_ids": [
+        "p229_A1",
+        "p229_A2",
+        "p229_A3",
+        "p229_B1",
+        "p229_B2",
+        "p229_C"
+      ],
+      "case_pages": [
+        "cases/military/late_transport_dispatches.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 6,
+        "source_slots": 1442,
+        "modeled_plaintext_positions": 721,
+        "fixed_raw_label_positions_under_stated_geometry": 677,
+        "known_coordinate_substitutions": 14
+      },
+      "original_summary": {
+        "physical_source_parts": 6,
+        "counted_source_slots": 1442,
+        "known_received_coordinates": 1398,
+        "printed_dash_slots": 43,
+        "invalid_source_glyphs": 1,
+        "plaintext_positions": 721,
+        "raw_fixed_label_positions": 677,
+        "edition_fixed_label_positions": 716,
+        "known_coordinate_substitutions": 14,
+        "erasure_fills": 39,
+        "remaining_uncertain_plaintext_positions": 5,
+        "physical_telegrams": 3,
+        "insertions": 0,
+        "deletions": 0,
+        "block_moves": 0,
+        "published_key_changes": 0,
+        "numeral_assignments": 0
+      }
+    },
+    {
+      "name": "armistice_transit_planning",
+      "record_ids": [
+        "p125_A1",
+        "p125_A2",
+        "p125_A3",
+        "p125_A4",
+        "p126_A5",
+        "p126_A6",
+        "p126_B"
+      ],
+      "case_pages": [
+        "cases/military/armistice_transit_planning.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 7,
+        "source_slots": 1537,
+        "modeled_plaintext_positions": 769,
+        "fixed_raw_label_positions_under_stated_geometry": 764,
+        "known_coordinate_substitutions": 10
+      },
+      "original_summary": {
+        "source_records": 7,
+        "source_slots": 1537,
+        "valid_received_coordinates": 1533,
+        "exact_frame_records": 6,
+        "exact_frame_positions": 635,
+        "exact_frame_raw_fixed_positions": 633,
+        "conditional_records": 1,
+        "conditional_positions": 134,
+        "conditional_raw_fixed_positions": 131,
+        "known_coordinate_substitutions": 10,
+        "source_erasure_fills": 4,
+        "conditional_interim_insertions": 1,
+        "transmitted_coordinate_insertions_or_deletions": 0,
+        "reordered_source_blocks": 0,
+        "published_square_changes": 0
+      }
+    },
+    {
+      "name": "deutzitag_dispatch_inquiries",
+      "record_ids": [
+        "p80_A",
+        "p81_A",
+        "p81_B",
+        "p81_C"
+      ],
+      "case_pages": [
+        "cases/caucasus/tiflis_pioneer_detachment.md",
+        "cases/finance/deutzitag_dispatch_inquiries.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 4,
+        "source_slots": 1018,
+        "modeled_plaintext_positions": 509,
+        "fixed_raw_label_positions_under_stated_geometry": 509,
+        "known_coordinate_substitutions": 1
+      },
+      "original_summary": {
+        "physical_records": 4,
+        "printed_source_slots": 1018,
+        "valid_source_coordinates": 1018,
+        "modeled_coordinates": 1018,
+        "plaintext_positions": 509,
+        "baseline_fixed_positions": 509,
+        "candidate_fixed_positions": 509,
+        "known_coordinate_substitutions": 1,
+        "printed_erasure_fills": 0,
+        "missing_coordinate_fills": 0,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "constanza_radio_connections",
+      "record_ids": [
+        "p80_B1",
+        "p80_B2",
+        "p82_A1",
+        "p82_A2",
+        "p82_A3",
+        "p82_A4"
+      ],
+      "case_pages": [
+        "cases/radio/constanza_radio_connections.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 6,
+        "source_slots": 1308,
+        "modeled_plaintext_positions": 654,
+        "fixed_raw_label_positions_under_stated_geometry": 654,
+        "known_coordinate_substitutions": 5
+      },
+      "original_summary": {
+        "physical_records": 6,
+        "printed_source_slots": 1308,
+        "valid_source_coordinates": 1308,
+        "modeled_coordinates": 1308,
+        "plaintext_positions": 654,
+        "baseline_fixed_positions": 654,
+        "candidate_fixed_positions": 654,
+        "known_coordinate_substitutions": 5,
+        "source_annotation_supported_substitutions": 1,
+        "printed_erasure_fills": 0,
+        "missing_coordinate_fills": 0,
+        "source_deletions": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "mackensen_armistice_appeal",
+      "record_ids": [
+        "p220_C1",
+        "p220_C2",
+        "p220_C3",
+        "p220_C4",
+        "p221_A5",
+        "p221_A6"
+      ],
+      "case_pages": [
+        "cases/military/mackensen_armistice_appeal.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 6,
+        "source_slots": 1352,
+        "modeled_plaintext_positions": 681,
+        "fixed_raw_label_positions_under_stated_geometry": 667,
+        "known_coordinate_substitutions": 24
+      },
+      "original_summary": {
+        "physical_records": 6,
+        "source_slots": 1352,
+        "valid_source_coordinates": 1348,
+        "modeled_coordinates": 1362,
+        "plaintext_positions": 681,
+        "baseline_fixed_positions": 667,
+        "candidate_fixed_positions": 681,
+        "known_coordinate_substitutions": 24,
+        "printed_erasure_fills": 4,
+        "inserted_coordinate_fills": 10,
+        "source_deletions": 0,
+        "published_key_changed": false,
+        "p221_A5_common_raw_positions_across_masked_minima": 100
+      }
+    }
+  ],
+  "additional_packages": [
+    "nov25_letter_constraint"
+  ],
+  "artifact_sha256s": {
+    "experiments/crown_airlift/README.md": "09e242c2345f1d5832ddd5114af276426d4aeae6fde765d98f064db4d966da0b",
+    "experiments/crown_airlift/catalog_proposal.json": "9db0d992486b8825b1b391495af22af4533b7d6e5c0830ede2756f83ce1a8ead",
+    "experiments/crown_airlift/certificates.json": "1b66ff2808922653c51f8878f32175ec4a529de41ae821fbfc548c79b59917f0",
+    "experiments/crown_airlift/inputs.json": "751ea56e18b55379b06b946a2cd7fb0101ba9087063a1e4440dc84d8c4ca90e0",
+    "experiments/crown_airlift/sources/p174_A1.png": "41af2f6f3beb2220dbcf262bb1c33cc326c4e3ff5ddbcf7a1bbb184a9d8e157e",
+    "experiments/crown_airlift/sources/p174_A2.png": "48970e7b8bf170703b8951d4e741db766da8b06ffede4cab2dd6e3b677524fc6",
+    "experiments/crown_airlift/sources/p174_A3.png": "8e7228e84c52aca11133d7f55c4028cb8fc8bf337b82b36f140adb534fe36775",
+    "experiments/crown_airlift/verify.py": "3ff2c1019a40b21597034910b1c182185cbf9df0030573389616c5dad4c164a3",
+    "experiments/zitag_purchase_orders/README.md": "c16f4495c85ab41bbc7b3aefd86d3f6a520d57f8a00899abdd7cab4b0d11031c",
+    "experiments/zitag_purchase_orders/catalog_proposal.json": "25f1f1ad3261431f56af06be8fbb9facd132c8f9f6de0ffe0425459d190eee72",
+    "experiments/zitag_purchase_orders/certificates.json": "95bc2690771f0241613391b276864847b3c9a3b1df050405a50fcff8bb4da7e4",
+    "experiments/zitag_purchase_orders/inputs.json": "c2db945ecd421688e0c75cddfefe4ad64d62ac624055dbad950432fea18433f6",
+    "experiments/zitag_purchase_orders/sources/p102_A.png": "4a3d6a8144acaaf93881fc5160119496172e4687d9518f5bb72e3433bda676a6",
+    "experiments/zitag_purchase_orders/sources/p103_B1.png": "b2675b9e0eaa5aae405ee2fd7601a1702016606a44fe38473a78e1bb814dc25b",
+    "experiments/zitag_purchase_orders/sources/p103_B2.png": "07aa204c6444d71540f8cf8e4d0d3a9268ffc1826af3c8aeed9552b986ccaee4",
+    "experiments/zitag_purchase_orders/sources/p103_D.png": "be0f5f972c52aa2c9ee590dec881efedf8ca0c78980161a3446e96ac3ffa9c54",
+    "experiments/zitag_purchase_orders/sources/p103_heading.png": "159dcd41878b893b58a3d9b6ba5f523d346705ef06da09d87116a0d25be7828f",
+    "experiments/zitag_purchase_orders/sources/p106_B.png": "dbafad53b41addfabc2c9f4ff7a1f370cdf6c5cd04bc2934fe15c5b630cc241e",
+    "experiments/zitag_purchase_orders/verify.py": "f9ac2e6dd65fe890a6394627c0f08d3a1fafd89ca5ea49805580bc434cf3290a",
+    "experiments/military_allowances/README.md": "e824db1f3f78505824494f6d086288486f6927077f3e0532c941608b02581208",
+    "experiments/military_allowances/catalog_proposal.json": "1b75fb2b9537750e01a0446f9e13c22f6789a78c9ae59ba9ca21977120b6702d",
+    "experiments/military_allowances/certificates.json": "8a9d2696334b9201d07ab9b0455e1a38f718daa855d7c200b93edd5d8c33d691",
+    "experiments/military_allowances/inputs.json": "68a6823141a5474f8a9399618612281c238d49df7c050052dd3545c58b4a47e1",
+    "experiments/military_allowances/sources/p129_B1.png": "17daa36f90a93279592b94b2e676fcb73a96149558e1bb08a584d5e918457be6",
+    "experiments/military_allowances/sources/p129_heading.png": "22830fc37cbaa0b306add8551bc3d4669e0c7cf33d0c8db21b1d538bdb75e5c7",
+    "experiments/military_allowances/sources/p133_A2.png": "b1706b9f10bd65ab1f96370d4c1e68f7876facde2d8506d09f0b3c05779a1692",
+    "experiments/military_allowances/sources/p133_A3.png": "bc067becc92c2d2dcece9ae2922e14d61f4196fec1dd890944fae282a1e1e5ee",
+    "experiments/military_allowances/sources/p134_A4.png": "06961ecabc622045539c97edd0240314e18357c2a65457f03f5a010f1abea4fb",
+    "experiments/military_allowances/verify.py": "943301afbf381c125bad86cb4c77c09178e6218d838ce36917495142410a0a93",
+    "experiments/orient_intelligence/README.md": "2e8ea6f4c473d096e0f7c702b5bbdc73ac09bc265fe4111cd5cf57b77446b943",
+    "experiments/orient_intelligence/catalog_proposal.json": "9b335f805adad47aa12bb08bfc0c2d86031726f75ee2a4adf4474fc1e62a1496",
+    "experiments/orient_intelligence/certificates.json": "4f4495347aea0874621ceec89a64b39c4a0b27d95223f1538e3701eaa4399d33",
+    "experiments/orient_intelligence/inputs.json": "ec486c4fccf2a3ff34435cb731ace9d978103121bb838fb762ebf1be43cd0bdb",
+    "experiments/orient_intelligence/sources/p92_B1.png": "118ec9a7fb5a53858f0bb60203854fe2530992c3f8864c29c506d45e3d661c37",
+    "experiments/orient_intelligence/sources/p92_heading.png": "fa7152b3314075f4bbefd123b9287b098e9d795ef04a3c132670ed08b8e30ba8",
+    "experiments/orient_intelligence/sources/p93_A2.png": "8f0623cce42d344db04939b6a0320eb57699f345060e13c35d776aa4758f35d5",
+    "experiments/orient_intelligence/sources/p93_A3.png": "2e6459340503f6481fa1d84ff2fda62ce81e35c107af2ac4f8c19738ccee069f",
+    "experiments/orient_intelligence/sources/p93_A4.png": "5c44ea7b47291db31ce8153fe7bb314a1c2380b567a2c4584d950bc358d28fcd",
+    "experiments/orient_intelligence/sources/p93_heading.png": "4fcedd88ef9afcb26dc47a93ab19a8d0bbb519c93adfee26571bec9f05035499",
+    "experiments/orient_intelligence/sources/p94_A5.png": "e11d0e546cd9816a0b83f44ac3135067c70f557811f5b930fbe87cc13bd98fc3",
+    "experiments/orient_intelligence/sources/p94_A6.png": "0ae2ae69af916ea73325d5ac12bae32345e2a2df1eb4ffc40d8dbc63ddca247e",
+    "experiments/orient_intelligence/verify.py": "ee9ac8e449666798719c87b7d9388974dc8531dfc2a66747b7295b34e48ee578",
+    "experiments/liman_troop_reports/README.md": "62eff6cb10e1bba02ff49acd861e1c88af3aaf1a04141aa950ea0ceb165b7a1c",
+    "experiments/liman_troop_reports/catalog_proposal.json": "918906b54395184616adf762be8b34c243780ce3eeed3ea8cd3292d92102ee40",
+    "experiments/liman_troop_reports/certificates.json": "f1198dd707980bfc500bf67cca8f1683fc06acda75615495c669a416da388746",
+    "experiments/liman_troop_reports/inputs.json": "5b78158c9f0915086d9f8059613223dcc11e479b44dfa1da011e7be0c23f0f2b",
+    "experiments/liman_troop_reports/sources/childs_p222_A.png": "b8dcecd88167f84b7cac917ec8e3d8c4052d5f125e45f0679e9a0ddff53dbd0f",
+    "experiments/liman_troop_reports/verify.py": "9758914730267cf417118d674875675d3ad49bba32d72c162505a0723641fc25",
+    "experiments/military_intendant_remit/README.md": "be95a8419513547d4923f75424e2c431ef97ef3edcd2a0da79559fa362b99ad8",
+    "experiments/military_intendant_remit/candidate_scores.json": "e015393a86b8d8fc53d5748e521dea05aeeb570d77ae3e6739a85ab9dc4a8663",
+    "experiments/military_intendant_remit/catalog_proposal.json": "2078df8cb66782d1e85278a8f74fdbfc6f3af8e1984adc3222d425fd5d8b3510",
+    "experiments/military_intendant_remit/certificates.json": "c2095a01f77d2b0c4cb2f21128c23c107c946d49ec480e8655f265e564509aa4",
+    "experiments/military_intendant_remit/gap_audit.json": "249c4fb7df067a7f2af6b2f244a96ccc0bebd253304e18a2e20d1243c63a9685",
+    "experiments/military_intendant_remit/inputs.json": "328ddab22d0a9cf7aa268fb9ea4702ff1186792337c48f59b5c2b25e5b84276a",
+    "experiments/military_intendant_remit/sources/p202_B.png": "0c6be0c1d91a0b17feca2872b7e276e7d34a186daae4fec4df5ebdb0ff0c4850",
+    "experiments/military_intendant_remit/sources/p202_B1.png": "a58101b09eae4422430ffffc1e45110cf403dd0fc3a8c1cd40596d9f54fb604c",
+    "experiments/military_intendant_remit/sources/p202_B23.png": "e192291a3074cb6335f360230695303e93486d9575b93b8c3fe965b4c281217e",
+    "experiments/military_intendant_remit/sources/p202_B2_ink.png": "b026f5143e117c7310a30b7a1911b30edf00a00f2b2770502d74fcc40f4e9ee3",
+    "experiments/military_intendant_remit/sources/p202_B4.png": "eee07f52cf872a77d5474ef7ca97c7e75edd05eae631b2d146a4037c31cfbe1b",
+    "experiments/military_intendant_remit/sources/p202_B4_faded.png": "a4009414b5bebdefd657bafdca60bbc29be5e3aa4c2dce3d7e44a57dbcf01df7",
+    "experiments/military_intendant_remit/sources/p202_heading.png": "b0af11af60a02bceb1fd94852a4ec2438746eb8b6328cea6f97101c545914b84",
+    "experiments/military_intendant_remit/verify.py": "36c945b54bc1e2f7ab924da43cd0a0f5e673fa1f3f0da04cd278d59480eb989e",
+    "experiments/neuhof_demobilization/README.md": "aafe6a076a7050556e33278081be9e43d7929689869ae22b45b36e2638af528f",
+    "experiments/neuhof_demobilization/catalog_proposal.json": "e4831525e8eae1d1a1345c773f02df39ebf523fc3b04fa42ef99bdd30d377243",
+    "experiments/neuhof_demobilization/certificates.json": "40ab453efe79b7069d79654372988a7164dc4843197bdb611f4dca69cb859cd3",
+    "experiments/neuhof_demobilization/inputs.json": "7c08eda80c16f8ba6c02ae84c2f570caac8ac58de6e2616c3b4054d228464046",
+    "experiments/neuhof_demobilization/sources/p228_B.png": "b0d3ffa27ee252994fb885e84fdb3bcad5da931bce6f4a90bcef04d2d3187bb7",
+    "experiments/neuhof_demobilization/sources/p228_B1.png": "0d41021142cf4a838957f7ee098a3fad1a845921681d888d8c014673db0801d2",
+    "experiments/neuhof_demobilization/sources/p228_B2.png": "f033a2433fe787d2a859c6a7a92b74f839a7b3fb86a8a620aa7e2443f025897f",
+    "experiments/neuhof_demobilization/sources/p228_B3.png": "471580602b2fd40eff362b837ab97566c9b8986eddce01a6d535bbb5c38e00b7",
+    "experiments/neuhof_demobilization/sources/p228_heading.png": "93d4f0940079350e5f53d7e13d105769325a24d54b13e9af20ed93309522cad4",
+    "experiments/neuhof_demobilization/verify.py": "3ae0a6782009f0a3ea43e8df75d2058dfe437a348f4432adfbee25672b10316d",
+    "experiments/turkish_mission_recall/README.md": "d4cc5de4bc2ac586a5bb4b44d313c2d76cee45c897c07a46991e46e9ff5d42a7",
+    "experiments/turkish_mission_recall/catalog_proposal.json": "11ab86ec345c9d4035222836b5c23b32d2a684f4febef239f86b672ad9a7e34c",
+    "experiments/turkish_mission_recall/certificates.json": "d3e0f04c07bbcf2a859a0473c97851d026d8198631053123fd1a3a68d420d5ca",
+    "experiments/turkish_mission_recall/inputs.json": "11ef993ec73f7f94418d75dc55cef1a805811818282257201b3114320ba526e6",
+    "experiments/turkish_mission_recall/sources/p130_A1.png": "6ab42b89627bba66624b29dddfafb5febeead4a1a16ec412c60e080a1687798d",
+    "experiments/turkish_mission_recall/sources/p130_A2.png": "53c9f452852de9e6fadd7f8663fbb72a5d7419cdd63fba6ee746c975982e8e68",
+    "experiments/turkish_mission_recall/sources/p131_A3.png": "0eb0e4301a8d74c2b53ec133a30043fa84d36326b42ed9b67acb023609a9fa73",
+    "experiments/turkish_mission_recall/sources/p131_A4.png": "55d33c647d843af4bb2f9ec152750b885ce9d359057b28eb97c0986abb004fde",
+    "experiments/turkish_mission_recall/verify.py": "fa351335cbd7954768a43f04d24255b66c907397dfb9188cef45921d7a3561cc",
+    "experiments/hungary_transport_warning/README.md": "c8013ee4f53dd0e1eb600c848003548fac7263fc704a83bfedd1d925b6d76f85",
+    "experiments/hungary_transport_warning/catalog_proposal.json": "bf2977ad839e4d6622f187216798fb33b752e6f3109d44820b06648c17e5e8fc",
+    "experiments/hungary_transport_warning/certificates.json": "3d7aee104a576c7f748b49491a03f7bcaa9bf69821555d7b75bf0ba8ee706903",
+    "experiments/hungary_transport_warning/inputs.json": "81942943d21f020ac2f03ed14ac92870bddd27f4eb7f4c0e9da27df83df25ea3",
+    "experiments/hungary_transport_warning/sources/p184_B1.png": "d13a2b7ab5086c9835cb7f012eb3a8d098a343e2cafdcaa359b9b3201cc11ba4",
+    "experiments/hungary_transport_warning/sources/p184_B2.png": "e8d19a348bca9be3bdafdaf0df86f03de915c87fccf1f34031b51530e91b2171",
+    "experiments/hungary_transport_warning/sources/p184_B3.png": "1bc010fad483072d2a6e421e5f55337d41f17ec56506756b40bf1ff5ff2ae947",
+    "experiments/hungary_transport_warning/sources/p184_C1.png": "379d5f981e56a43cc67c7d6ebf2c2bf02213eab310a7e94686974b41f340ee05",
+    "experiments/hungary_transport_warning/sources/p184_C2.png": "af9c7bd4c58892bf1574a6a7f78757093d8bd512edec6dc5d5ac88d6ff804f14",
+    "experiments/hungary_transport_warning/sources/p184_C3.png": "3e732537ae2d31d73b661f8b17abcb135380433d49c23dec902393c76b9ba668",
+    "experiments/hungary_transport_warning/sources/p184_C3_faint.png": "ba6f1cdfa11ce90a7badfd498bd4d789f10fb8a7a8d8a97399204ce62918429c",
+    "experiments/hungary_transport_warning/sources/p184_heading.png": "124850e454e35d8300840330bcd1ab285a85f8b59d338dafea355dab0dcc571d",
+    "experiments/hungary_transport_warning/verify.py": "4bac588445dbf0342cef61f0de1a69ddffc05a7cd18cda45bdd1be87887c6dfd",
+    "experiments/september_radio_procedure/README.md": "a6348144da5065d4e2050635abdc5a6b4d3a52668ee4ee3a8ee2824f333d8f90",
+    "experiments/september_radio_procedure/catalog_proposal.json": "4eb2a82562a41fdde41b5e65b9659e70150e80c018e7fbd99f1636286a7efa9a",
+    "experiments/september_radio_procedure/certificates.json": "9cd38b7b60442746b985a2502c5b2ca5b21650adc9619192fe2580f611aa4f8d",
+    "experiments/september_radio_procedure/inputs.json": "f67af851a4eae1f08e2bda9d5f949cf0e2f52470d5e172fd7ff52a055f9b4842",
+    "experiments/september_radio_procedure/sources/childs_p60_A1.png": "3b649bf624cf5493f6ac99fb42d5ebe35dfdca7523c78055a0c7e3a69a0cb8f3",
+    "experiments/september_radio_procedure/sources/childs_p60_A1_L.png": "962a3660e957ac91971a5a4777879cb3177e1e3b76976191f8cfa50942b2e331",
+    "experiments/september_radio_procedure/sources/childs_p60_A1_T.png": "5f1373bd242094a3b2f0a7320702a878578e513ac2a7a7a740436eac682fde1f",
+    "experiments/september_radio_procedure/sources/childs_p60_A2.png": "e568309efdf3b0804998d19619036e12939d7bbfbff4ca86cdce85307d8859c5",
+    "experiments/september_radio_procedure/sources/childs_p60_B.png": "1110142ecc944c5a2bce3dec52a9df277fc5981d4d545defa9e21ae35553f37c",
+    "experiments/september_radio_procedure/sources/childs_p60_B_uncertain.png": "b755dc0797a744d0118c4de28e306e378fb20261cc2e5a24bfdf8eaa78ea4492",
+    "experiments/september_radio_procedure/sources/childs_p60_full.png": "62cc4b71ec6f96ea868cf0f873a7c3c9bb1577ec3be274107cab3f82f3287872",
+    "experiments/september_radio_procedure/verify.py": "923cbf439165cc20faa43d2dfe778d3174df3bb79abb2be1dd49331e88929d36",
+    "experiments/late_transport_dispatches/README.md": "1b94fae4c448c3f1302839fcbdc66e8ca306e31df9df2638a84e394b30ed7f6e",
+    "experiments/late_transport_dispatches/catalog_proposal.json": "b8c6f5f96a78fd79eda1763d8eab95aa568fab1aed653c1e6c05c3da7bcc61ee",
+    "experiments/late_transport_dispatches/certificates.json": "48807b89a416b853efb04ffde9610bf590b833bb09477cb9133073808106ff98",
+    "experiments/late_transport_dispatches/inputs.json": "762575b9433be908837188f95e43853ed00c57020f6ffe2ffc6e063904d4cbc2",
+    "experiments/late_transport_dispatches/prior_candidates.json": "37a32dfc45c128d89fd6421bf9799cdb989868aff35dd9f2016a4a21180978b6",
+    "experiments/late_transport_dispatches/sources/p229_A.png": "2d1141013e26ecc11f49ad28b12375532c0d03e45729f8b03b2e56c89bf811de",
+    "experiments/late_transport_dispatches/sources/p229_B.png": "2e1d41449a12ff574b8777c845379060b766e5cd909f6f199bebdccefd55f8ca",
+    "experiments/late_transport_dispatches/sources/p229_C.png": "48374f9108d85760fc3fc88c8d8cc02581c3f939b4f5db22c35edca106a85c6e",
+    "experiments/late_transport_dispatches/sources/p229_C_glyph.png": "a7b0912c58d588b24ed7e4340462f2c149b01c6b7ce15d634fdbb54371597645",
+    "experiments/late_transport_dispatches/verify.py": "13be9c0293d9f454ba1516d1e4a9fb1d77cb6f6b41991a044c89eb85915c3d33",
+    "experiments/armistice_transit_planning/README.md": "faeda0f6a305b32db783cc83486433408eb46b38058eb2bf434157f08553f07e",
+    "experiments/armistice_transit_planning/catalog_proposal.json": "7f33b97f0269c30ac9e0a9b2189e7324b831118b22001e5f65b11491be32fe30",
+    "experiments/armistice_transit_planning/certificates.json": "eb2d5a9bdd8932ceadeb29eec560254efa6546acf1318c8e83b78c0cee03ee6b",
+    "experiments/armistice_transit_planning/geometry_audit.json": "61059f5910d9516ecddda7d6bf190770b5cb7aa35a7f98b86f752f60a281efce",
+    "experiments/armistice_transit_planning/geometry_audit.py": "1b4c21d34d4ac84b18237b6b6c5bd8163cbac144cc03bc621c1fa94bc297c924",
+    "experiments/armistice_transit_planning/inputs.json": "7bd83098cf0ba407e2d0c0e41f8446feb63f6842689828a7d368d2e06016f99c",
+    "experiments/armistice_transit_planning/sources/childs_p125_A1.png": "76857daee7c547ca04f35080f229c07a415cc4ba86fa64d13ac7d5d7be44626b",
+    "experiments/armistice_transit_planning/sources/childs_p125_A2.png": "a327929b8cad49464b9a983bca8e3648e2f3cab98796bd4654e94e2906a39c57",
+    "experiments/armistice_transit_planning/sources/childs_p125_A3.png": "917b8ada55dd30367546fae3c048c83388d27a980c76171e584edc8fb47fca68",
+    "experiments/armistice_transit_planning/sources/childs_p125_A4.png": "0fb59a1884e00d9306fa0be38ac42ee03a35fbbcb6b6895ac61aa186c1c2ff76",
+    "experiments/armistice_transit_planning/sources/childs_p125_full.png": "dd77cd76bfd17ce60a8ae2b5cae41f3837c62e00d37b5ce76624a3e4272b9a6f",
+    "experiments/armistice_transit_planning/sources/childs_p126_A5.png": "b1c363fd087c7e179fd50b59a9cebda353ef56e3b92d3c0e62d50854ad31cb1b",
+    "experiments/armistice_transit_planning/sources/childs_p126_A6.png": "d58a34482c88c990a5c9cc28f0e5f8bc4834b6c402f6ab0788a27f79da5bde42",
+    "experiments/armistice_transit_planning/sources/childs_p126_B.png": "4a5a7cb4d1ac99919fabf705bd8d81e66b1f72eaa78148c472ae03f78377f260",
+    "experiments/armistice_transit_planning/sources/childs_p126_full.png": "16ba6a8fab332b1ce241fb7a317468abdc6ced0a594f4ea3b88368cb210f8e7d",
+    "experiments/armistice_transit_planning/verify.py": "23266fdae52e0b48bcacd2970d92d820957a754980976a0d62dba0a9a9d1e502",
+    "experiments/deutzitag_dispatch_inquiries/README.md": "88b02745a511029356c16f25270a7dd9f75819a573ca0b8b88da54fb3b763849",
+    "experiments/deutzitag_dispatch_inquiries/catalog_proposal.json": "56f486e8d7e766b02abe6346ba93a5b78f49e757377e7526f671857ee0321d7f",
+    "experiments/deutzitag_dispatch_inquiries/certificates.json": "a39f040dd59f1207bd8f21d6dd62f4a2dc2736d7709950503279cad4255f6eea",
+    "experiments/deutzitag_dispatch_inquiries/inputs.json": "400d52ccd09cb6a22dcd8259130df276a8b0da84e456694651b95b2c1be73a5d",
+    "experiments/deutzitag_dispatch_inquiries/sources/p80_A.png": "c32c3c93feacf77d99420b25f26cc36a2a647a6703075d4baed8d33eb4af8d34",
+    "experiments/deutzitag_dispatch_inquiries/sources/p80_heading.png": "645c8e178d37bbbcce37b062967ee6c601cbbae969c10a5535d29baf8a5d5bc4",
+    "experiments/deutzitag_dispatch_inquiries/sources/p81_A.png": "cf3ccf47339b77c8221631b416354f168999cab414771e3ee591bb2d01874a92",
+    "experiments/deutzitag_dispatch_inquiries/sources/p81_A_overprint.png": "3b71363657bc5853dc7e3f53af9eab525e8068e9e7498200b130e93e71b74896",
+    "experiments/deutzitag_dispatch_inquiries/sources/p81_B.png": "1bbff3b52d74f18e904324e65a88df1b88b6cee46bc48d3a3d07f395bc3b0c57",
+    "experiments/deutzitag_dispatch_inquiries/sources/p81_C.png": "df57c409dd9047e170bf6b8f909e1df77bda000bdd32935195bec992aba80f54",
+    "experiments/deutzitag_dispatch_inquiries/sources/p81_heading.png": "e0463b033c05613d69a6e7becad077a48ee6bbef5e5202bad5dbaeba752d03be",
+    "experiments/deutzitag_dispatch_inquiries/verify.py": "e300bf27514a67d00d1d8e87a18d41d30e342ff2e56745a5c3c23b29dbac2e85",
+    "experiments/constanza_radio_connections/README.md": "c77431627dfd0335a17a81694079c954d571bf32e3c2eab1536a831b7181634e",
+    "experiments/constanza_radio_connections/catalog_proposal.json": "816c7e8a7f20f4ab8fc350ed0606a8ba9585f05a3ed0524f3b632bd5a9ab4e4b",
+    "experiments/constanza_radio_connections/certificates.json": "e84aecc97953113212936e81f3b13fed3db9723001ab3cf81fa024d7b8fc4278",
+    "experiments/constanza_radio_connections/inputs.json": "c32add75c314a9aae02f2aeaf3978ef4c77c1546b401f22204b8784008095667",
+    "experiments/constanza_radio_connections/sources/p80_B1.png": "94177ddbd2ad971fd2eaaae84592c1cce68360bf6f417f4a78188d28aa36763c",
+    "experiments/constanza_radio_connections/sources/p80_B2.png": "2d07288ffc36fd362f17156530c5f1564cc0abc27a78f3bef3b36e24f39841de",
+    "experiments/constanza_radio_connections/sources/p80_heading.png": "645c8e178d37bbbcce37b062967ee6c601cbbae969c10a5535d29baf8a5d5bc4",
+    "experiments/constanza_radio_connections/sources/p82_A1.png": "fdb5c8f5ce8e4792d58dd68066ab272ec05b69e843c42f168ba1179924785928",
+    "experiments/constanza_radio_connections/sources/p82_A2.png": "3f05f84838305e27974044e0a1390f9e69963d3e7137d6c493f3506a29cbc810",
+    "experiments/constanza_radio_connections/sources/p82_A3.png": "479e351f7359c6565c54627d7eb7964cc384784120a454100208bdb64fdb3358",
+    "experiments/constanza_radio_connections/sources/p82_A4.png": "d88f5fc1d009b926345e38c575e0f8afc29c3e19b6fb554c3eddde18800af2db",
+    "experiments/constanza_radio_connections/sources/p82_heading.png": "cdd53721cbdb365fb5c00452d0cc8af20f67ada4e1248e00d7c2ee39b0230ea2",
+    "experiments/constanza_radio_connections/verify.py": "4c69305dfe9957a0341c7334cae9f50b685d930080047a8c7a8e4bc7a6802539",
+    "experiments/mackensen_armistice_appeal/README.md": "ce455f0f38df53741dea6401297d8b112f35f1aac0f46813fa16aa0bfdcbd278",
+    "experiments/mackensen_armistice_appeal/candidate_scores.json": "2d6aea8e7000fbe1851e4265dc410b0b479bede3b68057d5c0e3b1d05393d9b4",
+    "experiments/mackensen_armistice_appeal/catalog_proposal.json": "f2a20bb0ea810be02abb45db9bf80cfd8a51875ab5e5ec507028fea122d1029b",
+    "experiments/mackensen_armistice_appeal/certificates.json": "ff00ec430dd04f40537b2603fbf2392ee91b9cb774504848ec7aa4751f8e6a86",
+    "experiments/mackensen_armistice_appeal/inputs.json": "917ef5a72f4933ed8e6da93522ea9acd657a69937cf68803612d9268bea206bc",
+    "experiments/mackensen_armistice_appeal/prior_candidates.json": "c636e504dec1b5cad2624ceb06cd1bcb0f994245f375a7662e2128d05d407ed1",
+    "experiments/mackensen_armistice_appeal/sources/p220_C.png": "8be3bbb179b79ce9cf06235e76ffc98dc81f004a52ed90c0287af8e55419b8ac",
+    "experiments/mackensen_armistice_appeal/sources/p221_A.png": "dd030610d57ecc41ebf95520cd8d6f68ad80ee358f1d5d2f3e3602fa2921c473",
+    "experiments/mackensen_armistice_appeal/two_group_costs.tsv": "6ac629e0101528bbe1d29d2b9449bf56dd17142a3aeec5bbe9575d17754571d5",
+    "experiments/mackensen_armistice_appeal/verify.py": "3db4bb67b5c98267fbe72a6d873431f9c94bc009f5b876ab433d77c76cc9c633",
+    "experiments/nov25_letter_constraint/README.md": "8e1aa1cf031ba53689225360364b474eeb5d99f7092b359e662fdd86986d49fd",
+    "experiments/nov25_letter_constraint/certificates.json": "0df1738a5ee501554b6a529c9889de758e3303ecccb90c3c502c0edfc051a189",
+    "experiments/nov25_letter_constraint/inputs.json": "0d862877f6c5fc2b023f33893274e0959258621aee9d007c5e8f3b2edc32ef83",
+    "experiments/nov25_letter_constraint/verify.py": "9c2b41706ed8bcb123a530f894ecce5e9d7b6457ea6f6876d3d24e2ca5a71d86",
+    "cases/finance/crown_airlift.md": "be4377807380b1353bdb5ee6e114a2848707cb101fe02b339044d4e1c580a333",
+    "cases/finance/zitag_purchase_orders.md": "abb18c64f60d2925f51b7f92b1ad6d66ec3afdc77169d561ff81c4fb3d8fc32b",
+    "cases/finance/military_allowances.md": "7ef06a2a25e44f3dc15107781aaa08b4c06c8cd446465f9099a8045f46589e2c",
+    "cases/military/orient_intelligence.md": "9d7ee0be949e0661ffda2f8996a8b648637cbcbabb9daab4d5028f683c26c2e3",
+    "cases/military/liman_troop_reports.md": "3b84e33c7e4b715e091f93579fbc7c83f6d3bcbcc1f12bba12117f20b964ee52",
+    "cases/military/military_intendant_remit.md": "b67688e374a61386759c41b17078edbf8f79240d142b7dfeda2c3735e2ce804e",
+    "cases/military/neuhof_demobilization.md": "a72a1a66333d3c4821ff2219adb40f81d1707410386f477601a2deaa5ce17bb2",
+    "cases/military/turkish_mission_recall.md": "05c61b9d49d310ba51ee126bf0ee9c5c98c71bedf2c48f38a2fc1517dd292a9c",
+    "cases/military/hungary_transport_warning.md": "23bb36642032e189a735d296fc30772cca9d293034594821830ae6c660131fd7",
+    "cases/radio/september_radio_procedure.md": "f5be0a9cb57a717439ee6df58bca65fdc63a939454dc43f514f9adc77063c791",
+    "cases/military/late_transport_dispatches.md": "829d67a662b15802fc441418c8323c84a5b96dd68870694b94b0cb01189341ab",
+    "cases/military/armistice_transit_planning.md": "6621307cc8e1f5d5435a6c6dc97c5cf3bc742a25098eae541e04a3bbf2f2c26b",
+    "cases/caucasus/tiflis_pioneer_detachment.md": "c4343d33a955ad9a2d8c11e4bbe4360a00380168b8f7598941bac4f48619a380",
+    "cases/finance/deutzitag_dispatch_inquiries.md": "0c908d612d320a54b4d8e21c1e64f7b48c4a5e221f8e4224c6861bba4d1d914d",
+    "cases/radio/constanza_radio_connections.md": "096040613e22e1a066a4863110ab539a6233b311cbc29aedebaf096c1c7792fb",
+    "cases/military/mackensen_armistice_appeal.md": "03afddad0631c28a47e660cc04f5078bc75e8896e4196169ceb0f2818098e70d"
+  },
+  "source_images": [
+    {
+      "package": "crown_airlift",
+      "path": "experiments/crown_airlift/sources/p174_A1.png",
+      "pdf_page_1based": 177,
+      "clip_pdf_points": [
+        65,
+        150,
+        540,
+        270
+      ],
+      "scale": 4,
+      "png_sha256": "41af2f6f3beb2220dbcf262bb1c33cc326c4e3ff5ddbcf7a1bbb184a9d8e157e",
+      "width": 1900,
+      "height": 480,
+      "rgb_pixel_sha256": "3d01940e50d7e90571e99f89331ebdde5b01996ff3dc79159d0ff53c69b9dbe6"
+    },
+    {
+      "package": "crown_airlift",
+      "path": "experiments/crown_airlift/sources/p174_A2.png",
+      "pdf_page_1based": 177,
+      "clip_pdf_points": [
+        85,
+        277,
+        540,
+        337
+      ],
+      "scale": 4,
+      "png_sha256": "48970e7b8bf170703b8951d4e741db766da8b06ffede4cab2dd6e3b677524fc6",
+      "width": 1820,
+      "height": 240,
+      "rgb_pixel_sha256": "d571787cedf19f29e30547d524b4720da8d49cdff07c41c9f6d4d71de7159ad3"
+    },
+    {
+      "package": "crown_airlift",
+      "path": "experiments/crown_airlift/sources/p174_A3.png",
+      "pdf_page_1based": 177,
+      "clip_pdf_points": [
+        85,
+        345,
+        540,
+        390
+      ],
+      "scale": 4,
+      "png_sha256": "8e7228e84c52aca11133d7f55c4028cb8fc8bf337b82b36f140adb534fe36775",
+      "width": 1820,
+      "height": 180,
+      "rgb_pixel_sha256": "07a774ba40600eb6e84888f2e593049cbeeefdb3f35819d1d7e7be6046bd6c91"
+    },
+    {
+      "package": "zitag_purchase_orders",
+      "path": "experiments/zitag_purchase_orders/sources/p102_A.png",
+      "pdf_page_1based": 105,
+      "clip_pdf_points": [
+        75,
+        150,
+        505,
+        265
+      ],
+      "scale": 4,
+      "png_sha256": "4a3d6a8144acaaf93881fc5160119496172e4687d9518f5bb72e3433bda676a6",
+      "width": 1720,
+      "height": 460,
+      "rgb_pixel_sha256": "f296ecbb41208a2d465cac3706e0a35209bfc02146e9abf0665ea4f046f33a45"
+    },
+    {
+      "package": "zitag_purchase_orders",
+      "path": "experiments/zitag_purchase_orders/sources/p103_D.png",
+      "pdf_page_1based": 106,
+      "clip_pdf_points": [
+        45,
+        685,
+        515,
+        795
+      ],
+      "scale": 4,
+      "png_sha256": "be0f5f972c52aa2c9ee590dec881efedf8ca0c78980161a3446e96ac3ffa9c54",
+      "width": 1880,
+      "height": 440,
+      "rgb_pixel_sha256": "a2a578c73c7147e837ac577d39af70de8f74bfa4f376a26558462f6f36dcae0e"
+    },
+    {
+      "package": "zitag_purchase_orders",
+      "path": "experiments/zitag_purchase_orders/sources/p106_B.png",
+      "pdf_page_1based": 109,
+      "clip_pdf_points": [
+        65,
+        497,
+        535,
+        695
+      ],
+      "scale": 4,
+      "png_sha256": "dbafad53b41addfabc2c9f4ff7a1f370cdf6c5cd04bc2934fe15c5b630cc241e",
+      "width": 1880,
+      "height": 792,
+      "rgb_pixel_sha256": "d855fc23af7325ce0604263fa30a7a7e0a9124620d45055b8e34220f21afebc7"
+    },
+    {
+      "package": "zitag_purchase_orders",
+      "path": "experiments/zitag_purchase_orders/sources/p103_B1.png",
+      "pdf_page_1based": 106,
+      "clip_pdf_points": [
+        45,
+        350,
+        515,
+        480
+      ],
+      "scale": 4,
+      "png_sha256": "b2675b9e0eaa5aae405ee2fd7601a1702016606a44fe38473a78e1bb814dc25b",
+      "width": 1880,
+      "height": 520,
+      "rgb_pixel_sha256": "d2da9f8d90d862b2261be3401c009add3e93fd2275ec586d28605d55636bccd2"
+    },
+    {
+      "package": "zitag_purchase_orders",
+      "path": "experiments/zitag_purchase_orders/sources/p103_B2.png",
+      "pdf_page_1based": 106,
+      "clip_pdf_points": [
+        60,
+        480,
+        515,
+        570
+      ],
+      "scale": 4,
+      "png_sha256": "07aa204c6444d71540f8cf8e4d0d3a9268ffc1826af3c8aeed9552b986ccaee4",
+      "width": 1820,
+      "height": 360,
+      "rgb_pixel_sha256": "d238795806afc097044fd8f82d5f2cfed48b66d3f9d5c643f74238c4584fde06"
+    },
+    {
+      "package": "zitag_purchase_orders",
+      "path": "experiments/zitag_purchase_orders/sources/p103_heading.png",
+      "pdf_page_1based": 106,
+      "clip_pdf_points": [
+        80,
+        229,
+        500,
+        248
+      ],
+      "scale": 4,
+      "png_sha256": "159dcd41878b893b58a3d9b6ba5f523d346705ef06da09d87116a0d25be7828f",
+      "width": 1680,
+      "height": 76,
+      "rgb_pixel_sha256": "540135f49820a2739fa9dc13759fae691d1b1e1870d7944dec3a47f0205c5280"
+    },
+    {
+      "package": "military_allowances",
+      "path": "experiments/military_allowances/sources/p129_B1.png",
+      "pdf_page_1based": 132,
+      "clip_pdf_points": [
+        75,
+        528,
+        505,
+        786
+      ],
+      "scale": 4,
+      "png_sha256": "17daa36f90a93279592b94b2e676fcb73a96149558e1bb08a584d5e918457be6",
+      "width": 1720,
+      "height": 1032,
+      "rgb_pixel_sha256": "6e8ec459e7193856d49001ca35d4fb1a7b36dd5643f5e59466378f1f4aafe92e"
+    },
+    {
+      "package": "military_allowances",
+      "path": "experiments/military_allowances/sources/p129_heading.png",
+      "pdf_page_1based": 132,
+      "clip_pdf_points": [
+        75,
+        223,
+        505,
+        248
+      ],
+      "scale": 4,
+      "png_sha256": "22830fc37cbaa0b306add8551bc3d4669e0c7cf33d0c8db21b1d538bdb75e5c7",
+      "width": 1720,
+      "height": 100,
+      "rgb_pixel_sha256": "e7457a87c5cb5f57616bf5d73e49de03da8f77e7002942b4a1a96d7b6b937143"
+    },
+    {
+      "package": "military_allowances",
+      "path": "experiments/military_allowances/sources/p133_A2.png",
+      "pdf_page_1based": 136,
+      "clip_pdf_points": [
+        75,
+        205,
+        505,
+        502
+      ],
+      "scale": 4,
+      "png_sha256": "b1706b9f10bd65ab1f96370d4c1e68f7876facde2d8506d09f0b3c05779a1692",
+      "width": 1720,
+      "height": 1188,
+      "rgb_pixel_sha256": "e8ceedba3c430771730faee781e23475b1ea6ba08248000c10dbaf59cad8b303"
+    },
+    {
+      "package": "military_allowances",
+      "path": "experiments/military_allowances/sources/p133_A3.png",
+      "pdf_page_1based": 136,
+      "clip_pdf_points": [
+        75,
+        513,
+        505,
+        782
+      ],
+      "scale": 4,
+      "png_sha256": "bc067becc92c2d2dcece9ae2922e14d61f4196fec1dd890944fae282a1e1e5ee",
+      "width": 1720,
+      "height": 1076,
+      "rgb_pixel_sha256": "c35a87fbd21b64ca49859e81919cc8da60a4423d653e1b08138171a8227f8fe8"
+    },
+    {
+      "package": "military_allowances",
+      "path": "experiments/military_allowances/sources/p134_A4.png",
+      "pdf_page_1based": 137,
+      "clip_pdf_points": [
+        55,
+        166,
+        535,
+        490
+      ],
+      "scale": 4,
+      "png_sha256": "06961ecabc622045539c97edd0240314e18357c2a65457f03f5a010f1abea4fb",
+      "width": 1920,
+      "height": 1296,
+      "rgb_pixel_sha256": "baf9cc0992c3ea4fdc90d09fda5a292e01e1aab4b04c9f503e17332acf46ceb4"
+    },
+    {
+      "package": "orient_intelligence",
+      "path": "experiments/orient_intelligence/sources/p92_heading.png",
+      "pdf_page_1based": 95,
+      "clip_pdf_points": [
+        55,
+        145,
+        535,
+        162
+      ],
+      "scale": 4,
+      "png_sha256": "fa7152b3314075f4bbefd123b9287b098e9d795ef04a3c132670ed08b8e30ba8",
+      "width": 1920,
+      "height": 68,
+      "rgb_pixel_sha256": "a140cdb34f0577ab8b53da2e29c9b1d807a0168e588e0ad6ab81ce266a86be37"
+    },
+    {
+      "package": "orient_intelligence",
+      "path": "experiments/orient_intelligence/sources/p92_B1.png",
+      "pdf_page_1based": 95,
+      "clip_pdf_points": [
+        55,
+        470,
+        535,
+        745
+      ],
+      "scale": 4,
+      "png_sha256": "118ec9a7fb5a53858f0bb60203854fe2530992c3f8864c29c506d45e3d661c37",
+      "width": 1920,
+      "height": 1100,
+      "rgb_pixel_sha256": "665fcf004b8cef01fe2676eb249b716a20cb14d594df00cd2eaa4228ff4164bd"
+    },
+    {
+      "package": "orient_intelligence",
+      "path": "experiments/orient_intelligence/sources/p93_heading.png",
+      "pdf_page_1based": 96,
+      "clip_pdf_points": [
+        75,
+        190,
+        520,
+        215
+      ],
+      "scale": 4,
+      "png_sha256": "4fcedd88ef9afcb26dc47a93ab19a8d0bbb519c93adfee26571bec9f05035499",
+      "width": 1780,
+      "height": 100,
+      "rgb_pixel_sha256": "e217522bc70a188d13e8da774201ada975a91bce05e3790946aa37223fa31bf1"
+    },
+    {
+      "package": "orient_intelligence",
+      "path": "experiments/orient_intelligence/sources/p93_A2.png",
+      "pdf_page_1based": 96,
+      "clip_pdf_points": [
+        75,
+        215,
+        520,
+        417
+      ],
+      "scale": 4,
+      "png_sha256": "8f0623cce42d344db04939b6a0320eb57699f345060e13c35d776aa4758f35d5",
+      "width": 1780,
+      "height": 808,
+      "rgb_pixel_sha256": "fe83871f77c0132b70a40a2fe8f31c6cab9f8aa5dbe6c6675f22956c2e65344c"
+    },
+    {
+      "package": "orient_intelligence",
+      "path": "experiments/orient_intelligence/sources/p93_A3.png",
+      "pdf_page_1based": 96,
+      "clip_pdf_points": [
+        90,
+        426,
+        520,
+        621
+      ],
+      "scale": 4,
+      "png_sha256": "2e6459340503f6481fa1d84ff2fda62ce81e35c107af2ac4f8c19738ccee069f",
+      "width": 1720,
+      "height": 780,
+      "rgb_pixel_sha256": "1e5b6e22de9ab9511a0134bdaa36b88c4683c682609059aaf6cb162a4d4c7885"
+    },
+    {
+      "package": "orient_intelligence",
+      "path": "experiments/orient_intelligence/sources/p93_A4.png",
+      "pdf_page_1based": 96,
+      "clip_pdf_points": [
+        90,
+        630,
+        520,
+        797
+      ],
+      "scale": 4,
+      "png_sha256": "5c44ea7b47291db31ce8153fe7bb314a1c2380b567a2c4584d950bc358d28fcd",
+      "width": 1720,
+      "height": 668,
+      "rgb_pixel_sha256": "4afc90385e7136c3aebbc5b3ad025b549d572153aa8fc12cea7908a6f80438cb"
+    },
+    {
+      "package": "orient_intelligence",
+      "path": "experiments/orient_intelligence/sources/p94_A5.png",
+      "pdf_page_1based": 97,
+      "clip_pdf_points": [
+        50,
+        157,
+        525,
+        472
+      ],
+      "scale": 4,
+      "png_sha256": "e11d0e546cd9816a0b83f44ac3135067c70f557811f5b930fbe87cc13bd98fc3",
+      "width": 1900,
+      "height": 1260,
+      "rgb_pixel_sha256": "d9367254313f60ce599a6f162f858bd326324f35617523179b964770cbeedd8b"
+    },
+    {
+      "package": "orient_intelligence",
+      "path": "experiments/orient_intelligence/sources/p94_A6.png",
+      "pdf_page_1based": 97,
+      "clip_pdf_points": [
+        60,
+        480,
+        525,
+        681
+      ],
+      "scale": 4,
+      "png_sha256": "0ae2ae69af916ea73325d5ac12bae32345e2a2df1eb4ffc40d8dbc63ddca247e",
+      "width": 1860,
+      "height": 804,
+      "rgb_pixel_sha256": "cf8a1d9c05382c6c3d5b7a143c1cd88896eb782c2210cfa23a5b55c79d4347e4"
+    },
+    {
+      "package": "liman_troop_reports",
+      "path": "experiments/liman_troop_reports/sources/childs_p222_A.png",
+      "pdf_page_1based": 225,
+      "clip_pdf_points": [
+        62,
+        205,
+        535,
+        402
+      ],
+      "scale": 3.1,
+      "png_sha256": "b8dcecd88167f84b7cac917ec8e3d8c4052d5f125e45f0679e9a0ddff53dbd0f",
+      "width": 1467,
+      "height": 612,
+      "rgb_pixel_sha256": "673eeb7fd8b17e649cd08cae731e6559da7618c41eed005efa97cbcda0fafec0"
+    },
+    {
+      "package": "military_intendant_remit",
+      "path": "experiments/military_intendant_remit/sources/p202_B.png",
+      "pdf_page_1based": 205,
+      "clip_pdf_points": [
+        55,
+        350,
+        550,
+        708
+      ],
+      "scale": 2.6,
+      "png_sha256": "0c6be0c1d91a0b17feca2872b7e276e7d34a186daae4fec4df5ebdb0ff0c4850",
+      "width": 1287,
+      "height": 931,
+      "rgb_pixel_sha256": "a3f32a0c4ea64cd606096322f81b64695aa936aa84d01370d749edc1e936d4c1"
+    },
+    {
+      "package": "military_intendant_remit",
+      "path": "experiments/military_intendant_remit/sources/p202_B1.png",
+      "pdf_page_1based": 205,
+      "clip_pdf_points": [
+        75,
+        350,
+        545,
+        470
+      ],
+      "scale": 3.5,
+      "png_sha256": "a58101b09eae4422430ffffc1e45110cf403dd0fc3a8c1cd40596d9f54fb604c",
+      "width": 1646,
+      "height": 420,
+      "rgb_pixel_sha256": "6fa013a739c0beae87107b469593d3a525f630a478b18af0fe7db56dfbf706db"
+    },
+    {
+      "package": "military_intendant_remit",
+      "path": "experiments/military_intendant_remit/sources/p202_B23.png",
+      "pdf_page_1based": 205,
+      "clip_pdf_points": [
+        75,
+        470,
+        545,
+        620
+      ],
+      "scale": 3.5,
+      "png_sha256": "e192291a3074cb6335f360230695303e93486d9575b93b8c3fe965b4c281217e",
+      "width": 1646,
+      "height": 525,
+      "rgb_pixel_sha256": "eb73e08f10b71ff4ecd4f8eac46c7bdadf8ee450017adb68d2264dc088c98715"
+    },
+    {
+      "package": "military_intendant_remit",
+      "path": "experiments/military_intendant_remit/sources/p202_B4.png",
+      "pdf_page_1based": 205,
+      "clip_pdf_points": [
+        75,
+        620,
+        545,
+        707
+      ],
+      "scale": 4,
+      "png_sha256": "eee07f52cf872a77d5474ef7ca97c7e75edd05eae631b2d146a4037c31cfbe1b",
+      "width": 1880,
+      "height": 348,
+      "rgb_pixel_sha256": "3d674ed19ff9c70a99bd3bffef9cb79571a5c9e323f3a33bbd094353011e5630"
+    },
+    {
+      "package": "military_intendant_remit",
+      "path": "experiments/military_intendant_remit/sources/p202_B2_ink.png",
+      "pdf_page_1based": 205,
+      "clip_pdf_points": [
+        200,
+        519,
+        248,
+        539
+      ],
+      "scale": 10,
+      "png_sha256": "b026f5143e117c7310a30b7a1911b30edf00a00f2b2770502d74fcc40f4e9ee3",
+      "width": 480,
+      "height": 200,
+      "rgb_pixel_sha256": "b5a55d6a2da8b34947c60e3e4c92cd292c16b03b5be4f3ec40433bc2cc87c111"
+    },
+    {
+      "package": "military_intendant_remit",
+      "path": "experiments/military_intendant_remit/sources/p202_B4_faded.png",
+      "pdf_page_1based": 205,
+      "clip_pdf_points": [
+        270,
+        625,
+        390,
+        670
+      ],
+      "scale": 7,
+      "png_sha256": "a4009414b5bebdefd657bafdca60bbc29be5e3aa4c2dce3d7e44a57dbcf01df7",
+      "width": 840,
+      "height": 315,
+      "rgb_pixel_sha256": "eec85527408aa1fa355222c694a17c084160368502b2593683ca0400c3742a4a"
+    },
+    {
+      "package": "military_intendant_remit",
+      "path": "experiments/military_intendant_remit/sources/p202_heading.png",
+      "pdf_page_1based": 205,
+      "clip_pdf_points": [
+        55,
+        37,
+        550,
+        205
+      ],
+      "scale": 2.2,
+      "png_sha256": "b0af11af60a02bceb1fd94852a4ec2438746eb8b6328cea6f97101c545914b84",
+      "width": 1089,
+      "height": 370,
+      "rgb_pixel_sha256": "3f26dedc8ec59d65fabca27b404e46ba9c8aa093499e539ac109d38854d2386b"
+    },
+    {
+      "package": "neuhof_demobilization",
+      "path": "experiments/neuhof_demobilization/sources/p228_B.png",
+      "pdf_page_1based": 231,
+      "clip_pdf_points": [
+        80,
+        305,
+        545,
+        553
+      ],
+      "scale": 3,
+      "png_sha256": "b0d3ffa27ee252994fb885e84fdb3bcad5da931bce6f4a90bcef04d2d3187bb7",
+      "width": 1395,
+      "height": 744,
+      "rgb_pixel_sha256": "b8bfd908f629882a415471bf7a6ecfd82a64e547d92eed4bf208b5a346ae56a1"
+    },
+    {
+      "package": "neuhof_demobilization",
+      "path": "experiments/neuhof_demobilization/sources/p228_B1.png",
+      "pdf_page_1based": 231,
+      "clip_pdf_points": [
+        82,
+        310,
+        540,
+        410
+      ],
+      "scale": 4,
+      "png_sha256": "0d41021142cf4a838957f7ee098a3fad1a845921681d888d8c014673db0801d2",
+      "width": 1832,
+      "height": 400,
+      "rgb_pixel_sha256": "75707140d49282c10868969bd99158a2f551f102378d3b3e94baf4f5b598883e"
+    },
+    {
+      "package": "neuhof_demobilization",
+      "path": "experiments/neuhof_demobilization/sources/p228_B2.png",
+      "pdf_page_1based": 231,
+      "clip_pdf_points": [
+        90,
+        410,
+        540,
+        487
+      ],
+      "scale": 4,
+      "png_sha256": "f033a2433fe787d2a859c6a7a92b74f839a7b3fb86a8a620aa7e2443f025897f",
+      "width": 1800,
+      "height": 308,
+      "rgb_pixel_sha256": "f0a262d8f9c5239f59c869dca5ebe1889c2dfc1a8a42e8c18465fb12b074d23d"
+    },
+    {
+      "package": "neuhof_demobilization",
+      "path": "experiments/neuhof_demobilization/sources/p228_B3.png",
+      "pdf_page_1based": 231,
+      "clip_pdf_points": [
+        90,
+        487,
+        540,
+        553
+      ],
+      "scale": 4,
+      "png_sha256": "471580602b2fd40eff362b837ab97566c9b8986eddce01a6d535bbb5c38e00b7",
+      "width": 1800,
+      "height": 264,
+      "rgb_pixel_sha256": "d6eec7a91b5b9d824952cf49460c803dddb8ab97fc15ccc95bf4062008f2c857"
+    },
+    {
+      "package": "neuhof_demobilization",
+      "path": "experiments/neuhof_demobilization/sources/p228_heading.png",
+      "pdf_page_1based": 231,
+      "clip_pdf_points": [
+        85,
+        55,
+        530,
+        165
+      ],
+      "scale": 2.5,
+      "png_sha256": "93d4f0940079350e5f53d7e13d105769325a24d54b13e9af20ed93309522cad4",
+      "width": 1113,
+      "height": 276,
+      "rgb_pixel_sha256": "5f9739bf22b2da1e3925aa67f3675e23a6d423d779b1218e8f43612544723708"
+    },
+    {
+      "package": "turkish_mission_recall",
+      "path": "experiments/turkish_mission_recall/sources/p130_A1.png",
+      "pdf_page_1based": 133,
+      "clip_pdf_points": [
+        75,
+        178,
+        555,
+        463
+      ],
+      "scale": 4,
+      "png_sha256": "6ab42b89627bba66624b29dddfafb5febeead4a1a16ec412c60e080a1687798d",
+      "width": 1920,
+      "height": 1140,
+      "rgb_pixel_sha256": "f4187094487c12c9f5ac7af1082f4218f6f1a17a2f239469ad5760e880200b00"
+    },
+    {
+      "package": "turkish_mission_recall",
+      "path": "experiments/turkish_mission_recall/sources/p130_A2.png",
+      "pdf_page_1based": 133,
+      "clip_pdf_points": [
+        90,
+        476,
+        555,
+        677
+      ],
+      "scale": 4,
+      "png_sha256": "53c9f452852de9e6fadd7f8663fbb72a5d7419cdd63fba6ee746c975982e8e68",
+      "width": 1860,
+      "height": 804,
+      "rgb_pixel_sha256": "b30c03282cef98155ab93a34a180b1555269a9605878b2b1d2ec0300d0b76618"
+    },
+    {
+      "package": "turkish_mission_recall",
+      "path": "experiments/turkish_mission_recall/sources/p131_A3.png",
+      "pdf_page_1based": 134,
+      "clip_pdf_points": [
+        55,
+        231,
+        530,
+        529
+      ],
+      "scale": 4,
+      "png_sha256": "0eb0e4301a8d74c2b53ec133a30043fa84d36326b42ed9b67acb023609a9fa73",
+      "width": 1900,
+      "height": 1192,
+      "rgb_pixel_sha256": "6186ab1d6c8daf7efc7549e785680b48cb273cfaed152b9a74ea89f8a3c32423"
+    },
+    {
+      "package": "turkish_mission_recall",
+      "path": "experiments/turkish_mission_recall/sources/p131_A4.png",
+      "pdf_page_1based": 134,
+      "clip_pdf_points": [
+        70,
+        539,
+        530,
+        650
+      ],
+      "scale": 4,
+      "png_sha256": "55d33c647d843af4bb2f9ec152750b885ce9d359057b28eb97c0986abb004fde",
+      "width": 1840,
+      "height": 444,
+      "rgb_pixel_sha256": "82384fc12ba44aac798129eb29c130508f6511c0bf97bc204e0b491cb3a96632"
+    },
+    {
+      "package": "hungary_transport_warning",
+      "path": "experiments/hungary_transport_warning/sources/p184_heading.png",
+      "pdf_page_1based": 187,
+      "clip_pdf_points": [
+        70,
+        145,
+        530,
+        164
+      ],
+      "scale": 4,
+      "png_sha256": "124850e454e35d8300840330bcd1ab285a85f8b59d338dafea355dab0dcc571d",
+      "width": 1840,
+      "height": 76,
+      "rgb_pixel_sha256": "eff549ad98b2135988096dcda63a33814bbf800ffe6ae98a697d76710be9a84f"
+    },
+    {
+      "package": "hungary_transport_warning",
+      "path": "experiments/hungary_transport_warning/sources/p184_B1.png",
+      "pdf_page_1based": 187,
+      "clip_pdf_points": [
+        70,
+        258,
+        530,
+        349
+      ],
+      "scale": 4,
+      "png_sha256": "d13a2b7ab5086c9835cb7f012eb3a8d098a343e2cafdcaa359b9b3201cc11ba4",
+      "width": 1840,
+      "height": 364,
+      "rgb_pixel_sha256": "54d60717abad6eb389d6119ff2f3c53ed35d924046a649636deff4ce8369acf7"
+    },
+    {
+      "package": "hungary_transport_warning",
+      "path": "experiments/hungary_transport_warning/sources/p184_B2.png",
+      "pdf_page_1based": 187,
+      "clip_pdf_points": [
+        85,
+        358,
+        530,
+        433
+      ],
+      "scale": 4,
+      "png_sha256": "e8d19a348bca9be3bdafdaf0df86f03de915c87fccf1f34031b51530e91b2171",
+      "width": 1780,
+      "height": 300,
+      "rgb_pixel_sha256": "9b9ba6090574344cf429184fc8aee06a96d00fa01c640e6d7a0b9f96cbf4cf04"
+    },
+    {
+      "package": "hungary_transport_warning",
+      "path": "experiments/hungary_transport_warning/sources/p184_B3.png",
+      "pdf_page_1based": 187,
+      "clip_pdf_points": [
+        85,
+        445,
+        530,
+        486
+      ],
+      "scale": 4,
+      "png_sha256": "1bc010fad483072d2a6e421e5f55337d41f17ec56506756b40bf1ff5ff2ae947",
+      "width": 1780,
+      "height": 164,
+      "rgb_pixel_sha256": "853e9619b087367c6bae202fffb98afcff329706b6be6b124cb83b4fbd66b16a"
+    },
+    {
+      "package": "hungary_transport_warning",
+      "path": "experiments/hungary_transport_warning/sources/p184_C1.png",
+      "pdf_page_1based": 187,
+      "clip_pdf_points": [
+        70,
+        495,
+        530,
+        588
+      ],
+      "scale": 4,
+      "png_sha256": "379d5f981e56a43cc67c7d6ebf2c2bf02213eab310a7e94686974b41f340ee05",
+      "width": 1840,
+      "height": 372,
+      "rgb_pixel_sha256": "8dc22c4a39f9f9e338a5f53a2ea752b61e2be6d34fb5c8c20e3a46ff6b799ade"
+    },
+    {
+      "package": "hungary_transport_warning",
+      "path": "experiments/hungary_transport_warning/sources/p184_C2.png",
+      "pdf_page_1based": 187,
+      "clip_pdf_points": [
+        85,
+        597,
+        530,
+        666
+      ],
+      "scale": 4,
+      "png_sha256": "af9c7bd4c58892bf1574a6a7f78757093d8bd512edec6dc5d5ac88d6ff804f14",
+      "width": 1780,
+      "height": 276,
+      "rgb_pixel_sha256": "64d391c2566a18a7da0bbfa176cf7caee48886664e9062fe3eb44ee9f175e340"
+    },
+    {
+      "package": "hungary_transport_warning",
+      "path": "experiments/hungary_transport_warning/sources/p184_C3.png",
+      "pdf_page_1based": 187,
+      "clip_pdf_points": [
+        85,
+        677,
+        530,
+        724
+      ],
+      "scale": 4,
+      "png_sha256": "3e732537ae2d31d73b661f8b17abcb135380433d49c23dec902393c76b9ba668",
+      "width": 1780,
+      "height": 188,
+      "rgb_pixel_sha256": "ba1bbf3227208bb12e6069d489a5c54db2eca7b183ff6acbf07b4eb8b0932848"
+    },
+    {
+      "package": "hungary_transport_warning",
+      "path": "experiments/hungary_transport_warning/sources/p184_C3_faint.png",
+      "pdf_page_1based": 187,
+      "clip_pdf_points": [
+        430,
+        674,
+        525,
+        714
+      ],
+      "scale": 8,
+      "png_sha256": "ba6f1cdfa11ce90a7badfd498bd4d789f10fb8a7a8d8a97399204ce62918429c",
+      "width": 760,
+      "height": 320,
+      "rgb_pixel_sha256": "d14bb120064a18685866aa5dc6b4e8b54ade47d0da84e82f7112f41771970eec"
+    },
+    {
+      "package": "september_radio_procedure",
+      "path": "experiments/september_radio_procedure/sources/childs_p60_full.png",
+      "pdf_page_1based": 63,
+      "clip_pdf_points": [
+        0,
+        0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 1.8,
+      "png_sha256": "62cc4b71ec6f96ea868cf0f873a7c3c9bb1577ec3be274107cab3f82f3287872",
+      "width": 1041,
+      "height": 1484,
+      "rgb_pixel_sha256": "e3c32f0e21a9910b7170e31a558cc4c79aaa3d540883df617f41a64cb9898d2a"
+    },
+    {
+      "package": "september_radio_procedure",
+      "path": "experiments/september_radio_procedure/sources/childs_p60_A1.png",
+      "pdf_page_1based": 63,
+      "clip_pdf_points": [
+        60,
+        172,
+        555,
+        350
+      ],
+      "scale": 3,
+      "png_sha256": "3b649bf624cf5493f6ac99fb42d5ebe35dfdca7523c78055a0c7e3a69a0cb8f3",
+      "width": 1485,
+      "height": 534,
+      "rgb_pixel_sha256": "1e04ed75b155e8a06dbeae455d547f8105c1798488371bb6ab231fbacb012a85"
+    },
+    {
+      "package": "september_radio_procedure",
+      "path": "experiments/september_radio_procedure/sources/childs_p60_A2.png",
+      "pdf_page_1based": 63,
+      "clip_pdf_points": [
+        75,
+        350,
+        555,
+        450
+      ],
+      "scale": 3,
+      "png_sha256": "e568309efdf3b0804998d19619036e12939d7bbfbff4ca86cdce85307d8859c5",
+      "width": 1440,
+      "height": 300,
+      "rgb_pixel_sha256": "3b975fbb39d75f7f0dce238b7ea8ae3e602049b21e18ff90ae209f84e2f0e793"
+    },
+    {
+      "package": "september_radio_procedure",
+      "path": "experiments/september_radio_procedure/sources/childs_p60_B.png",
+      "pdf_page_1based": 63,
+      "clip_pdf_points": [
+        60,
+        450,
+        555,
+        685
+      ],
+      "scale": 3,
+      "png_sha256": "1110142ecc944c5a2bce3dec52a9df277fc5981d4d545defa9e21ae35553f37c",
+      "width": 1485,
+      "height": 705,
+      "rgb_pixel_sha256": "ae446b31eb3e1597ff9367c5474aa88e25cead64c606b7e1d511979f5fab0625"
+    },
+    {
+      "package": "september_radio_procedure",
+      "path": "experiments/september_radio_procedure/sources/childs_p60_A1_T.png",
+      "pdf_page_1based": 63,
+      "clip_pdf_points": [
+        450,
+        232,
+        554,
+        255
+      ],
+      "scale": 6,
+      "png_sha256": "5f1373bd242094a3b2f0a7320702a878578e513ac2a7a7a740436eac682fde1f",
+      "width": 624,
+      "height": 138,
+      "rgb_pixel_sha256": "87bc01d3a5c1f0751c37891f5f77e7d18d6b7d140cd5328e42197b5402212bc5"
+    },
+    {
+      "package": "september_radio_procedure",
+      "path": "experiments/september_radio_procedure/sources/childs_p60_A1_L.png",
+      "pdf_page_1based": 63,
+      "clip_pdf_points": [
+        488,
+        254,
+        554,
+        278
+      ],
+      "scale": 6,
+      "png_sha256": "962a3660e957ac91971a5a4777879cb3177e1e3b76976191f8cfa50942b2e331",
+      "width": 396,
+      "height": 144,
+      "rgb_pixel_sha256": "c759184b10ef4bc7c627dac2f6e7e6988b06462c1aabd81ba7a45bc668f50d9a"
+    },
+    {
+      "package": "september_radio_procedure",
+      "path": "experiments/september_radio_procedure/sources/childs_p60_B_uncertain.png",
+      "pdf_page_1based": 63,
+      "clip_pdf_points": [
+        435,
+        526,
+        503,
+        552
+      ],
+      "scale": 6,
+      "png_sha256": "b755dc0797a744d0118c4de28e306e378fb20261cc2e5a24bfdf8eaa78ea4492",
+      "width": 408,
+      "height": 156,
+      "rgb_pixel_sha256": "885082d0e63bcd74fe6b6aeef4d8c66732e18ebb76eee17569c3e4a815e526d6"
+    },
+    {
+      "package": "late_transport_dispatches",
+      "path": "experiments/late_transport_dispatches/sources/p229_A.png",
+      "pdf_page_1based": 232,
+      "clip_pdf_points": [
+        65,
+        132,
+        485,
+        365
+      ],
+      "scale": 3,
+      "png_sha256": "2d1141013e26ecc11f49ad28b12375532c0d03e45729f8b03b2e56c89bf811de",
+      "width": 1260,
+      "height": 699,
+      "rgb_pixel_sha256": "eef20e6c1e8d075f67848cf16aeb2b1c5b83451f8d931ddca1cca8b40351e710"
+    },
+    {
+      "package": "late_transport_dispatches",
+      "path": "experiments/late_transport_dispatches/sources/p229_B.png",
+      "pdf_page_1based": 232,
+      "clip_pdf_points": [
+        65,
+        377,
+        485,
+        567
+      ],
+      "scale": 3,
+      "png_sha256": "2e1d41449a12ff574b8777c845379060b766e5cd909f6f199bebdccefd55f8ca",
+      "width": 1260,
+      "height": 570,
+      "rgb_pixel_sha256": "a031664e42e3d840da0c9fa53be5e6eabd1e7997184a122dc6e56228f1658cad"
+    },
+    {
+      "package": "late_transport_dispatches",
+      "path": "experiments/late_transport_dispatches/sources/p229_C.png",
+      "pdf_page_1based": 232,
+      "clip_pdf_points": [
+        65,
+        575,
+        485,
+        700
+      ],
+      "scale": 3,
+      "png_sha256": "48374f9108d85760fc3fc88c8d8cc02581c3f939b4f5db22c35edca106a85c6e",
+      "width": 1260,
+      "height": 375,
+      "rgb_pixel_sha256": "204588107abf131b537851172bc7fceb1fb145b557d554fa745207f9c374ecc5"
+    },
+    {
+      "package": "late_transport_dispatches",
+      "path": "experiments/late_transport_dispatches/sources/p229_C_glyph.png",
+      "pdf_page_1based": 232,
+      "clip_pdf_points": [
+        382,
+        631,
+        450,
+        653
+      ],
+      "scale": 10,
+      "png_sha256": "a7b0912c58d588b24ed7e4340462f2c149b01c6b7ce15d634fdbb54371597645",
+      "width": 680,
+      "height": 220,
+      "rgb_pixel_sha256": "a6ff3cdfdc3260ca678eb6615acc6fbf811ff7ff19722999a1ea9639890e0774"
+    },
+    {
+      "package": "armistice_transit_planning",
+      "path": "experiments/armistice_transit_planning/sources/childs_p125_full.png",
+      "pdf_page_1based": 128,
+      "clip_pdf_points": [
+        0,
+        0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 1.8,
+      "png_sha256": "dd77cd76bfd17ce60a8ae2b5cae41f3837c62e00d37b5ce76624a3e4272b9a6f",
+      "width": 1041,
+      "height": 1484,
+      "rgb_pixel_sha256": "4e4597fb5c280052612ef20b047d20c4a78bc8691fa356582092fb195ab36687"
+    },
+    {
+      "package": "armistice_transit_planning",
+      "path": "experiments/armistice_transit_planning/sources/childs_p126_full.png",
+      "pdf_page_1based": 129,
+      "clip_pdf_points": [
+        0,
+        0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "scale": 1.8,
+      "png_sha256": "16ba6a8fab332b1ce241fb7a317468abdc6ced0a594f4ea3b88368cb210f8e7d",
+      "width": 1041,
+      "height": 1484,
+      "rgb_pixel_sha256": "c9fba174795c48dd34aa56d0965722065fc9eee47f289788930c98c1ceeab26b"
+    },
+    {
+      "package": "armistice_transit_planning",
+      "path": "experiments/armistice_transit_planning/sources/childs_p125_A1.png",
+      "pdf_page_1based": 128,
+      "clip_pdf_points": [
+        85,
+        215,
+        520,
+        408
+      ],
+      "scale": 3.5,
+      "png_sha256": "76857daee7c547ca04f35080f229c07a415cc4ba86fa64d13ac7d5d7be44626b",
+      "width": 1523,
+      "height": 676,
+      "rgb_pixel_sha256": "29900cc32bb2e9c846a7ab26f436085293d97a828158c33511b85b9fab4fedd8"
+    },
+    {
+      "package": "armistice_transit_planning",
+      "path": "experiments/armistice_transit_planning/sources/childs_p125_A2.png",
+      "pdf_page_1based": 128,
+      "clip_pdf_points": [
+        95,
+        415,
+        510,
+        540
+      ],
+      "scale": 3.5,
+      "png_sha256": "a327929b8cad49464b9a983bca8e3648e2f3cab98796bd4654e94e2906a39c57",
+      "width": 1453,
+      "height": 438,
+      "rgb_pixel_sha256": "9f52d1ad9921208ba0211c77cf65b0061d1c99709dfb61273d54d438ab7e9e76"
+    },
+    {
+      "package": "armistice_transit_planning",
+      "path": "experiments/armistice_transit_planning/sources/childs_p125_A3.png",
+      "pdf_page_1based": 128,
+      "clip_pdf_points": [
+        95,
+        544,
+        510,
+        647
+      ],
+      "scale": 3.5,
+      "png_sha256": "917b8ada55dd30367546fae3c048c83388d27a980c76171e584edc8fb47fca68",
+      "width": 1453,
+      "height": 361,
+      "rgb_pixel_sha256": "fadb69039800577703665909b86ae5c24d843ccfebc641c036bc139dc4c5a97d"
+    },
+    {
+      "package": "armistice_transit_planning",
+      "path": "experiments/armistice_transit_planning/sources/childs_p125_A4.png",
+      "pdf_page_1based": 128,
+      "clip_pdf_points": [
+        95,
+        652,
+        510,
+        774
+      ],
+      "scale": 3.5,
+      "png_sha256": "0fb59a1884e00d9306fa0be38ac42ee03a35fbbcb6b6895ac61aa186c1c2ff76",
+      "width": 1453,
+      "height": 427,
+      "rgb_pixel_sha256": "97fdad04199308f702cd3e9e568a55fb5d32ddfa810019b48c5438c71fc52507"
+    },
+    {
+      "package": "armistice_transit_planning",
+      "path": "experiments/armistice_transit_planning/sources/childs_p126_A5.png",
+      "pdf_page_1based": 129,
+      "clip_pdf_points": [
+        65,
+        172,
+        530,
+        400
+      ],
+      "scale": 3.5,
+      "png_sha256": "b1c363fd087c7e179fd50b59a9cebda353ef56e3b92d3c0e62d50854ad31cb1b",
+      "width": 1628,
+      "height": 798,
+      "rgb_pixel_sha256": "94713f2f9040ac7adab28e33c858b0e683daffdd866261a198886004db1ad01d"
+    },
+    {
+      "package": "armistice_transit_planning",
+      "path": "experiments/armistice_transit_planning/sources/childs_p126_A6.png",
+      "pdf_page_1based": 129,
+      "clip_pdf_points": [
+        75,
+        408,
+        525,
+        566
+      ],
+      "scale": 3.5,
+      "png_sha256": "d58a34482c88c990a5c9cc28f0e5f8bc4834b6c402f6ab0788a27f79da5bde42",
+      "width": 1576,
+      "height": 553,
+      "rgb_pixel_sha256": "5f3cd52fd74310aa5d0671ffe969281c38542dc2cad497465b909ab47283d191"
+    },
+    {
+      "package": "armistice_transit_planning",
+      "path": "experiments/armistice_transit_planning/sources/childs_p126_B.png",
+      "pdf_page_1based": 129,
+      "clip_pdf_points": [
+        65,
+        580,
+        525,
+        710
+      ],
+      "scale": 3.5,
+      "png_sha256": "4a5a7cb4d1ac99919fabf705bd8d81e66b1f72eaa78148c472ae03f78377f260",
+      "width": 1611,
+      "height": 455,
+      "rgb_pixel_sha256": "1287d5afb7841880190f9936c2eb9bf782181507b867befb09de04a09b857d5e"
+    },
+    {
+      "package": "deutzitag_dispatch_inquiries",
+      "path": "experiments/deutzitag_dispatch_inquiries/sources/p80_heading.png",
+      "pdf_page_1based": 83,
+      "clip_pdf_points": [
+        225,
+        151,
+        355,
+        172
+      ],
+      "scale": 4,
+      "png_sha256": "645c8e178d37bbbcce37b062967ee6c601cbbae969c10a5535d29baf8a5d5bc4",
+      "width": 520,
+      "height": 84,
+      "rgb_pixel_sha256": "57ca2d53deee628b1c6e8d42ee79ee3b3cc3a0b6fe646ae5c20972f838c5ad0e"
+    },
+    {
+      "package": "deutzitag_dispatch_inquiries",
+      "path": "experiments/deutzitag_dispatch_inquiries/sources/p80_A.png",
+      "pdf_page_1based": 83,
+      "clip_pdf_points": [
+        85,
+        180,
+        510,
+        380
+      ],
+      "scale": 4,
+      "png_sha256": "c32c3c93feacf77d99420b25f26cc36a2a647a6703075d4baed8d33eb4af8d34",
+      "width": 1700,
+      "height": 800,
+      "rgb_pixel_sha256": "9aab8d311b0995ddadf141219cbd49888b157fd4321887880bfaebd037461d44"
+    },
+    {
+      "package": "deutzitag_dispatch_inquiries",
+      "path": "experiments/deutzitag_dispatch_inquiries/sources/p81_heading.png",
+      "pdf_page_1based": 84,
+      "clip_pdf_points": [
+        220,
+        195,
+        365,
+        224
+      ],
+      "scale": 4,
+      "png_sha256": "e0463b033c05613d69a6e7becad077a48ee6bbef5e5202bad5dbaeba752d03be",
+      "width": 580,
+      "height": 116,
+      "rgb_pixel_sha256": "15682252b2946447a72331e553e5bc82411ff23a178721b6d63deef408ba45cb"
+    },
+    {
+      "package": "deutzitag_dispatch_inquiries",
+      "path": "experiments/deutzitag_dispatch_inquiries/sources/p81_A.png",
+      "pdf_page_1based": 84,
+      "clip_pdf_points": [
+        80,
+        224,
+        505,
+        442
+      ],
+      "scale": 4,
+      "png_sha256": "cf3ccf47339b77c8221631b416354f168999cab414771e3ee591bb2d01874a92",
+      "width": 1700,
+      "height": 872,
+      "rgb_pixel_sha256": "caed72967616c63af8ec7e4c6c1811b6246912cd7194fda77e7ae8b44fff46c3"
+    },
+    {
+      "package": "deutzitag_dispatch_inquiries",
+      "path": "experiments/deutzitag_dispatch_inquiries/sources/p81_A_overprint.png",
+      "pdf_page_1based": 84,
+      "clip_pdf_points": [
+        240,
+        341,
+        301,
+        366
+      ],
+      "scale": 10,
+      "png_sha256": "3b71363657bc5853dc7e3f53af9eab525e8068e9e7498200b130e93e71b74896",
+      "width": 610,
+      "height": 250,
+      "rgb_pixel_sha256": "d1c509e6bcf2ae45018c3d1a48ac7611ea204e8c2aae6b930dbd25ef29028619"
+    },
+    {
+      "package": "deutzitag_dispatch_inquiries",
+      "path": "experiments/deutzitag_dispatch_inquiries/sources/p81_B.png",
+      "pdf_page_1based": 84,
+      "clip_pdf_points": [
+        80,
+        454,
+        505,
+        591
+      ],
+      "scale": 4,
+      "png_sha256": "1bbff3b52d74f18e904324e65a88df1b88b6cee46bc48d3a3d07f395bc3b0c57",
+      "width": 1700,
+      "height": 548,
+      "rgb_pixel_sha256": "db8af9c9503e0974236c97601e355a2d561d8d3b7dd809613ada875c088fb56f"
+    },
+    {
+      "package": "deutzitag_dispatch_inquiries",
+      "path": "experiments/deutzitag_dispatch_inquiries/sources/p81_C.png",
+      "pdf_page_1based": 84,
+      "clip_pdf_points": [
+        80,
+        599,
+        505,
+        796
+      ],
+      "scale": 4,
+      "png_sha256": "df57c409dd9047e170bf6b8f909e1df77bda000bdd32935195bec992aba80f54",
+      "width": 1700,
+      "height": 788,
+      "rgb_pixel_sha256": "dabb5d5541a35f5b184236027120edd122d4c844e6863cf610d036730faf3f45"
+    },
+    {
+      "package": "constanza_radio_connections",
+      "path": "experiments/constanza_radio_connections/sources/p80_heading.png",
+      "pdf_page_1based": 83,
+      "clip_pdf_points": [
+        225,
+        151,
+        355,
+        172
+      ],
+      "scale": 4,
+      "png_sha256": "645c8e178d37bbbcce37b062967ee6c601cbbae969c10a5535d29baf8a5d5bc4",
+      "width": 520,
+      "height": 84,
+      "rgb_pixel_sha256": "57ca2d53deee628b1c6e8d42ee79ee3b3cc3a0b6fe646ae5c20972f838c5ad0e"
+    },
+    {
+      "package": "constanza_radio_connections",
+      "path": "experiments/constanza_radio_connections/sources/p82_heading.png",
+      "pdf_page_1based": 85,
+      "clip_pdf_points": [
+        230,
+        161,
+        355,
+        187
+      ],
+      "scale": 4,
+      "png_sha256": "cdd53721cbdb365fb5c00452d0cc8af20f67ada4e1248e00d7c2ee39b0230ea2",
+      "width": 500,
+      "height": 104,
+      "rgb_pixel_sha256": "bf5278ae3e5674d7f5ff73484526f16eadd2953bbd89f78a1a1a64981e63c0ce"
+    },
+    {
+      "package": "constanza_radio_connections",
+      "path": "experiments/constanza_radio_connections/sources/p80_B1.png",
+      "pdf_page_1based": 83,
+      "clip_pdf_points": [
+        85,
+        390,
+        510,
+        566
+      ],
+      "scale": 4,
+      "png_sha256": "94177ddbd2ad971fd2eaaae84592c1cce68360bf6f417f4a78188d28aa36763c",
+      "width": 1700,
+      "height": 704,
+      "rgb_pixel_sha256": "c9b8d913cd1905a01b8dbbbe36171069f40c750a492896ea61751d4db1fd3621"
+    },
+    {
+      "package": "constanza_radio_connections",
+      "path": "experiments/constanza_radio_connections/sources/p80_B2.png",
+      "pdf_page_1based": 83,
+      "clip_pdf_points": [
+        100,
+        576,
+        510,
+        713
+      ],
+      "scale": 4,
+      "png_sha256": "2d07288ffc36fd362f17156530c5f1564cc0abc27a78f3bef3b36e24f39841de",
+      "width": 1640,
+      "height": 548,
+      "rgb_pixel_sha256": "5e2f65aed57d223540a1e7d2b5da8625784e111ff211d535a08f4f80046bc036"
+    },
+    {
+      "package": "constanza_radio_connections",
+      "path": "experiments/constanza_radio_connections/sources/p82_A1.png",
+      "pdf_page_1based": 85,
+      "clip_pdf_points": [
+        90,
+        190,
+        510,
+        369
+      ],
+      "scale": 4,
+      "png_sha256": "fdb5c8f5ce8e4792d58dd68066ab272ec05b69e843c42f168ba1179924785928",
+      "width": 1680,
+      "height": 716,
+      "rgb_pixel_sha256": "973d845608fd0a610d1ce912f4c283b4caf4ce67a772055695df88d6a3d8d19b"
+    },
+    {
+      "package": "constanza_radio_connections",
+      "path": "experiments/constanza_radio_connections/sources/p82_A2.png",
+      "pdf_page_1based": 85,
+      "clip_pdf_points": [
+        105,
+        381,
+        510,
+        519
+      ],
+      "scale": 4,
+      "png_sha256": "3f05f84838305e27974044e0a1390f9e69963d3e7137d6c493f3506a29cbc810",
+      "width": 1620,
+      "height": 552,
+      "rgb_pixel_sha256": "7b75ed73036ea6c8003ea9ce63b5b6f12bc038b1119832016b08985a90a500d8"
+    },
+    {
+      "package": "constanza_radio_connections",
+      "path": "experiments/constanza_radio_connections/sources/p82_A3.png",
+      "pdf_page_1based": 85,
+      "clip_pdf_points": [
+        105,
+        529,
+        510,
+        648
+      ],
+      "scale": 4,
+      "png_sha256": "479e351f7359c6565c54627d7eb7964cc384784120a454100208bdb64fdb3358",
+      "width": 1620,
+      "height": 476,
+      "rgb_pixel_sha256": "8b8f5eb686df30f7c54268d114701a21649b7356ddcc6bf97531954074357bed"
+    },
+    {
+      "package": "constanza_radio_connections",
+      "path": "experiments/constanza_radio_connections/sources/p82_A4.png",
+      "pdf_page_1based": 85,
+      "clip_pdf_points": [
+        105,
+        658,
+        510,
+        715
+      ],
+      "scale": 4,
+      "png_sha256": "d88f5fc1d009b926345e38c575e0f8afc29c3e19b6fb554c3eddde18800af2db",
+      "width": 1620,
+      "height": 228,
+      "rgb_pixel_sha256": "e314feada3a07a3aa26d0d831600cf85cb6f6fe4afd57b3d426637e1ad8dd2bd"
+    },
+    {
+      "package": "mackensen_armistice_appeal",
+      "path": "experiments/mackensen_armistice_appeal/sources/p220_C.png",
+      "pdf_page_1based": 223,
+      "clip_pdf_points": [
+        90,
+        370,
+        535,
+        710
+      ],
+      "scale": 4,
+      "png_sha256": "8be3bbb179b79ce9cf06235e76ffc98dc81f004a52ed90c0287af8e55419b8ac",
+      "width": 1780,
+      "height": 1360,
+      "rgb_pixel_sha256": "c6f7edd5b168fd2bd4120a56fd13a7a9a450843fb5e585768a95e0e4e0c142b5"
+    },
+    {
+      "package": "mackensen_armistice_appeal",
+      "path": "experiments/mackensen_armistice_appeal/sources/p221_A.png",
+      "pdf_page_1based": 224,
+      "clip_pdf_points": [
+        75,
+        130,
+        535,
+        320
+      ],
+      "scale": 4,
+      "png_sha256": "dd030610d57ecc41ebf95520cd8d6f68ad80ee358f1d5d2f3e3602fa2921c473",
+      "width": 1840,
+      "height": 760,
+      "rgb_pixel_sha256": "748987f7c8b6e6e11846c17db94d3a5b7dd816d3a774e49019c346c76329507f"
+    }
+  ],
+  "counting_limits": [
+    "Physical records, repeated copies and numbered source parts are counted separately; they are not all first decipherments.",
+    "A fixed raw label may be a garble or a numerical label of unknown historical meaning. Coverage counts do not certify every word.",
+    "Conditional geometry is retained in package summaries; summing modeled positions does not remove its assumptions.",
+    "Pixel identity binds a delivered crop to the pinned PDF. It does not itself prove every manual glyph judgment.",
+    "The earlier 87-to-195 review retains its own immutable snapshots. This review starts at195."
+  ]
+}

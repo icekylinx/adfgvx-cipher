@@ -1,0 +1,374 @@
+{
+  "schema": "adfgvx-late-transport-dispatches-input-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "printed_page": 229,
+    "pdf_page_1based": 232,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "page_heading_literal": "30th NOVEMBER, 1918.",
+    "callsign_convention": "The two small marks over printed ZON are preserved in the source crops; metadata uses ZON as the searchable callsign transcription."
+  },
+  "source_images": [
+    {
+      "id": "p229_A",
+      "path": "sources/p229_A.png",
+      "pdf_page_1based": 232,
+      "crop_rectangle_pdf_points": [
+        65,
+        132,
+        485,
+        365
+      ],
+      "render_scale": 3,
+      "sha256": "2d1141013e26ecc11f49ad28b12375532c0d03e45729f8b03b2e56c89bf811de"
+    },
+    {
+      "id": "p229_B",
+      "path": "sources/p229_B.png",
+      "pdf_page_1based": 232,
+      "crop_rectangle_pdf_points": [
+        65,
+        377,
+        485,
+        567
+      ],
+      "render_scale": 3,
+      "sha256": "2e1d41449a12ff574b8777c845379060b766e5cd909f6f199bebdccefd55f8ca"
+    },
+    {
+      "id": "p229_C",
+      "path": "sources/p229_C.png",
+      "pdf_page_1based": 232,
+      "crop_rectangle_pdf_points": [
+        65,
+        575,
+        485,
+        700
+      ],
+      "render_scale": 3,
+      "sha256": "48374f9108d85760fc3fc88c8d8cc02581c3f939b4f5db22c35edca106a85c6e"
+    },
+    {
+      "id": "p229_C_glyph",
+      "path": "sources/p229_C_glyph.png",
+      "pdf_page_1based": 232,
+      "crop_rectangle_pdf_points": [
+        382,
+        631,
+        450,
+        653
+      ],
+      "render_scale": 10,
+      "sha256": "a7b0912c58d588b24ed7e4340462f2c149b01c6b7ce15d634fdbb54371597645"
+    }
+  ],
+  "key": {
+    "id": "Nov28-Dec1",
+    "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+    "column_rank_order": [
+      9,
+      3,
+      14,
+      10,
+      2,
+      8,
+      15,
+      4,
+      16,
+      11,
+      5,
+      13,
+      6,
+      12,
+      1,
+      7
+    ]
+  },
+  "records": [
+    {
+      "id": "p229_A1",
+      "source_section": "A1",
+      "source_image_id": "p229_A",
+      "header_literal": "A) HP v ZON (04.59 p.m., December 1st); 1930 (30/11) FUR OKM 3 TEILE",
+      "source_rows": [
+        "GAAGF DFXXX VVGVV AAFDF FVFFF AAVDF XFDVA VFFFX",
+        "XAFGV XVDVV FGGFD FAXAA XAVVV VFVVF FVGVF XDVXV",
+        "AVGFV GXXFV DDDAV VGVFA XXVVV FADGD XXDVF GFVXV",
+        "DGVVG AVGAG XXGFG GXVDA VFXFX DFGXD DFDFX XGAAF",
+        "XAVDG FGFXG AFFXF GDFAA GAVDF XAGAF GGAAF VDFVA",
+        "FGAXV XGVFA XFFVF AAGFV VFGFF AAF"
+      ],
+      "source_slots": 228,
+      "advertised_length": 228,
+      "model": "Use every received coordinate slot in order; mask printed dashes and the literal noncoordinate Q only. No inserted/deleted/moved coordinate.",
+      "expected_raw": "ABENDMELDGYVY26YXXYY8YRYDYISTM3TANFANGBISTISZAFOELDVARAUFGERUECKTYUNTERBRINGUNGSRAUMDERJX5YUYJX0YIYDYUNVERAENDERTY",
+      "editorial_recipe": {
+        "text": "ABENDMELDGYVY26YXXYY8YRYDYISTMITANFANGBISTISZAFOELDVARAUFGERUECKTYUNTERBRINGUNGSRAUMDERJX5YUYJX0YIYDYUNVERAENDERTY",
+        "pair_overrides": []
+      },
+      "protected_fields": [
+        {
+          "raw_text": "26YXX",
+          "plaintext_start": 13,
+          "plaintext_end_exclusive": 18
+        },
+        {
+          "raw_text": "8YRYD",
+          "plaintext_start": 20,
+          "plaintext_end_exclusive": 25
+        },
+        {
+          "raw_text": "JX5YUYJX0YIYDY",
+          "plaintext_start": 87,
+          "plaintext_end_exclusive": 101
+        }
+      ],
+      "notes": [
+        "M3T is repaired to MIT by one observed-coordinate substitution. Date-like and unit fields remain baseline labels; neither 26,8,JX5 nor JX0 is assigned a historical numeral.",
+        "The initial stages of this body were already readable in the unreviewed cross-key screen."
+      ]
+    },
+    {
+      "id": "p229_A2",
+      "source_section": "A2",
+      "source_image_id": "p229_A",
+      "header_literal": "A) HP v ZON (04.59 p.m., December 1st); 1930 (30/11) FUR OKM 3 TEILE",
+      "source_rows": [
+        "GXVVV FVFAF FAFVF VVXDX VG-VV XVFFA VDGXG XFAFG",
+        "DAGAF XDFDF GAXVD XFAGF AFGDG VXFAV VAXVA FFFDG",
+        "XGGXV DGDDD DXAFG FXGXG GVXFA VAXAX VFAGX VFXAD",
+        "VADVV DGVDG GAXFG DFDDD GDAXA GGVVF DVGXF GVAFV",
+        "VXXDF AVDGX FFFVG VVAVF VVVXD VFFFG GV"
+      ],
+      "source_slots": 192,
+      "advertised_length": 192,
+      "model": "Use every received coordinate slot in order; mask printed dashes and the literal noncoordinate Q only. No inserted/deleted/moved coordinate.",
+      "expected_raw": "SEITJ5YXXYABENDSSINDALLETRANSPORTEAUFSTRECKEARADSWOLNOKAUFWEISUNGDERUNGYZYTYLYANGE?ALTENWORDENYY",
+      "editorial_recipe": {
+        "text": "SEITJ5YXXYABENDSSINDALLETRANSPORTEAUFSTRECKEARADSZOLNOKAUFWEISUNGDERUNGYZYTYLYANGEHALTENWORDENYY",
+        "pair_overrides": []
+      },
+      "protected_fields": [
+        {
+          "raw_text": "J5YXX",
+          "plaintext_start": 4,
+          "plaintext_end_exclusive": 9
+        },
+        {
+          "raw_text": "UNGYZYTYL",
+          "plaintext_start": 68,
+          "plaintext_end_exclusive": 77
+        }
+      ],
+      "notes": [
+        "ARADSWOLNOK is proposed as ARADSZOLNOK with one observed-coordinate substitution; the printed dash supplies H in ANGEHALTEN.",
+        "UNG Z T L remains an unexpanded abbreviation."
+      ]
+    },
+    {
+      "id": "p229_A3",
+      "source_section": "A3",
+      "source_image_id": "p229_A",
+      "header_literal": "A) HP v ZON (04.59 p.m., December 1st); 1930 (30/11) FUR OKM 3 TEILE",
+      "source_rows": [
+        "DXGFX XXAAG AVGXG AFDXF AGFAV ADAVG AXXVA GAADA",
+        "FGDXV VFGDV FGVXA VVAVV VFGFA AGAFF AAGGX XXAFG",
+        "VGFGV DXXFV XVFVF FVAGV DVGGG VFVDX DAFFG GFDFX",
+        "DFDGD DFVFG XXAAV GGAGF VDXFF FFFFX GDVAD VDVVV",
+        "VGFDA FXGVF DVVFA V"
+      ],
+      "source_slots": 176,
+      "advertised_length": 176,
+      "model": "Use every received coordinate slot in order; mask printed dashes and the literal noncoordinate Q only. No inserted/deleted/moved coordinate.",
+      "expected_raw": "DIEFUERHEUTEBEABSICHTIGTENVERLADUNGENHABENDAHERBISHERNICNTSTATTGEFUNDJNYYAYOYKYXXYXYAYYY",
+      "editorial_recipe": {
+        "text": "DIEFUERHEUTEBEABSICHTIGTENVERLADUNGENHABENDAHERBISHERNICHTSTATTGEFUNDENYYAYOYKYXXYXYAYYY",
+        "pair_overrides": []
+      },
+      "protected_fields": [
+        {
+          "raw_text": "AYOYKYXXYXYAYYY",
+          "plaintext_start": 73,
+          "plaintext_end_exclusive": 88
+        }
+      ],
+      "notes": [
+        "NICNT and GEFUNDJN are separately repaired to NICHT and GEFUNDEN. The army and footer labels remain literal."
+      ]
+    },
+    {
+      "id": "p229_B1",
+      "source_section": "B1",
+      "source_image_id": "p229_B",
+      "header_literal": "B) ZON v BSL (01.50 a.m., December 1st); NR 153 1900 (30/11) 2 TLE",
+      "source_rows": [
+        "XDGGV DGGXG VFFFV FXVVA FVVVA FXVVV AFVDF GXDGG",
+        "FAVAF FGDFF XFDAA DDFDG V-GFX DVAVV XXGGG VXGFV",
+        "FGGVD FDDVD VXXVG XVFVD DDFG- GFXXF DVVFA GDDGG",
+        "GFFFF FFAAA GGAVX DXDFG XGFVV GFFGF DGDDG FFVXF",
+        "GFFVG AVXAF GGGGF FAFDA ADAAD VVDAD A-VAX FFGFD",
+        "XADDA FFXAA XGDVF VFDDG VFGFF FVFXG GFVFG GXVVV",
+        "VVAAF VGVVD XGXVF FADXA VGFXX FXV"
+      ],
+      "source_slots": 268,
+      "advertised_length": 268,
+      "model": "Use every received coordinate slot in order; mask printed dashes and the literal noncoordinate Q only. No inserted/deleted/moved coordinate.",
+      "expected_raw": "AOKXXYOKMHATBEIOH40KRAFTWAGENKOLONNENBE?NTRAGTOHLDRAHTETMIRRMX?X63282ESWIRDGEBETENMITXXARME?UNMITTELBARINVERBINDUNGZUTRETENOBVONDIESER",
+      "editorial_recipe": {
+        "text": "AOKXXYOKMHATBEIOHL0KRAFTWAGENKOLONNENBEANTRAGTOHLDRAHTETMIRRMX?X63282ESWIRDGEBETENMITXXARMEEUNMITTELBARINVERBINDUNGZUTRETENOBVONDIESER",
+        "pair_overrides": []
+      },
+      "protected_fields": [
+        {
+          "raw_text": "AOKXXY",
+          "plaintext_start": 0,
+          "plaintext_end_exclusive": 6
+        },
+        {
+          "raw_text": "RMX?X63282",
+          "plaintext_start": 59,
+          "plaintext_end_exclusive": 69
+        },
+        {
+          "raw_text": "XXARME",
+          "plaintext_start": 85,
+          "plaintext_end_exclusive": 91
+        },
+        {
+          "raw_text": "0",
+          "plaintext_start": 18,
+          "plaintext_end_exclusive": 19
+        }
+      ],
+      "notes": [
+        "The OH40 field is separated as the proposed OHL followed by the unchanged raw quantity label0. It does not establish a request for 40 columns.",
+        "The reference RMX?X63282 and XX army labels remain unchanged; the damaged reference coordinate is not filled.",
+        "Source group 40 is visibly FFGFD: the earlier OCR-derived erasure at source 195 is recovered from the image, without inserting a coordinate."
+      ]
+    },
+    {
+      "id": "p229_B2",
+      "source_section": "B2",
+      "source_image_id": "p229_B",
+      "header_literal": "B) ZON v BSL (01.50 a.m., December 1st); NR 153 1900 (30/11) 2 TLE",
+      "source_rows": [
+        "GVFDV DFAVF FVXDV XVVVF VXVVF XAVFV VGAAX AGGFX",
+        "FADGD DXGDG FAFVV FXDAF GFXVX XFAXX FVVFV VFXFX",
+        "VXGXX FXGFX FAGFD GGAGV GAVG- DGGGA AFGDV AFGDG",
+        "AGFGF VXXVG GGXGV VFD-- GFGAG FDFVA GAXAF DXDAA",
+        "GFDGG VGGFA XVVAD FGFGA VAAGX XADAG XVFDA AGAAG",
+        "GDVAF FVFGF VGXXV XGDVV FVX-- FX-VV FXAXX VVFXF",
+        "GAFFA FVG"
+      ],
+      "source_slots": 248,
+      "advertised_length": 248,
+      "model": "Use every received coordinate slot in order; mask printed dashes and the literal noncoordinate Q only. No inserted/deleted/moved coordinate.",
+      "expected_raw": "NHCHWEITEREAKKSABGE0EBENW1RDENKHENNENYTELRAMMSCHLUS?UMMITTE?LUNGWIRDGEBETENWIEVIELK?NN1NABGEGEB?NWERDENKOENNENYH?MRMXCX0?40Y",
+      "editorial_recipe": {
+        "text": "NOCHWEITEREAKKSABGEGEBENWERDENKOENNENYTELRAMMSCHLUSSUMMITTEILUNGWIRDGEBETENWIEVIELKONNENABGEGEBENWERDENKOENNENYOKMRMXCX0?40Y",
+        "pair_overrides": []
+      },
+      "protected_fields": [
+        {
+          "raw_text": "AKKS",
+          "plaintext_start": 11,
+          "plaintext_end_exclusive": 15
+        },
+        {
+          "raw_text": "TELRAMM",
+          "plaintext_start": 38,
+          "plaintext_end_exclusive": 45
+        },
+        {
+          "raw_text": "RMXCX0?40Y",
+          "plaintext_start": 114,
+          "plaintext_end_exclusive": 124
+        }
+      ],
+      "notes": [
+        "AKKS remains unexpanded. TELRAMM is retained literally, without silently adding EG to make TELEGRAMM.",
+        "The separately repaired six-character KONNEN is retained without inserting E to make KOENNEN; the same telegram also has the longer KOENNEN spelling.",
+        "The final damaged reference 0?40 remains unresolved. The proposed closing OKM is an explicit one-substitution/one-fill office-label repair, supported contextually by the unchanged OKM in B1.",
+        "Source group 33 is visibly GFDGG: the old OCR erasure at source 161 is read F directly from the source."
+      ]
+    },
+    {
+      "id": "p229_C",
+      "source_section": "C",
+      "source_image_id": "p229_C",
+      "header_literal": "C) ZON v BSL (01.15 a.m., December 1st); NO 151 2100 (11/30)",
+      "source_rows": [
+        "AGVXV FVVFV FVDVX FXGGG DXFGX XVFVG XDVVV GAFFX",
+        "ADXV- DGDFV GFDFG FAGVG FDGGA XGFFG DAVGF GAVAV",
+        "XDXGF VGVVG FVXGX GVFXF FDAAX VAFVF VVFVG VGVFV",
+        "VDFXF --AVA FVFGA VAAGV GGXVA VGVVD VFFAQ AADFG",
+        "DGGVX XDXVG DVAX- VVGVV AXGXG DDGFF VVADG XGVVA",
+        "VVDAD DXAGF GGDAA FFDXA GFFVD XXXAF XVGVA FVAVA",
+        "VADA- VXXVA DX--- ----- ----- ----- ----- -----",
+        "FXXXV VVDGG VAXGF AXVFD GAVFV DAXAG VAADX VVVGG",
+        "XVVFX XDXAA"
+      ],
+      "source_slots": 330,
+      "advertised_length": 330,
+      "model": "Use every received coordinate slot in order; mask printed dashes and the literal noncoordinate Q only. No inserted/deleted/moved coordinate.",
+      "expected_raw": "K?FLXXYYW?BLEIBTF?IEGER???LY24Y?A?SCHZIEL?STC?0IO?ADA?IER?IGE?ERP?RKE?RIC?TET?IR??BIT?ENA??HK?VER?ETZ?EFLIEGE?VERBAEN?EBESTIM?UNGSGEM?ESSAUFF??LLENYK?FLMACKY?3X4OPYY",
+      "editorial_recipe": {
+        "text": "KOFLXXYYWOBLEIBTFLIEGERABTLY24YMARSCHZIELISTCRAIOVADAHIEREIGENERPARKERRICHTETWIRD?BITTENACHHK?VERSETZTEFLIEGERVERBAENDEBESTIMMUNGSGEMAESSAUFFUELLENYKOFLMACKY?3X4OPYY",
+        "pair_overrides": []
+      },
+      "protected_fields": [
+        {
+          "raw_text": "24",
+          "plaintext_start": 28,
+          "plaintext_end_exclusive": 30
+        },
+        {
+          "raw_text": "HK?",
+          "plaintext_start": 91,
+          "plaintext_end_exclusive": 94
+        },
+        {
+          "raw_text": "?3X4OPYY",
+          "plaintext_start": 157,
+          "plaintext_end_exclusive": 165
+        },
+        {
+          "raw_text": "?",
+          "plaintext_start": 81,
+          "plaintext_end_exclusive": 82
+        }
+      ],
+      "notes": [
+        "The received 330 slots include 33 printed dashes and one Q-shaped glyph transcribed Q and conservatively masked at source 154. All slots are retained; there is no insertion or deletion relative to the printed source.",
+        "FLIEGERABTL, MARSCHZIEL and the ordinary body are conditional editorial fills, with the exact observed-coordinate costs recorded separately. CRAIOVA is a proposed place reading.",
+        "The phrase DAHIEREIGENERPARKERRICHTETWIRD is proposed. The boundary after WIRD remains unknown rather than choosing X orY.",
+        "The destination remains literal HK? with unknown final cell domain BCKMSW; it is not silently corrected to OKM. The unit 24 and closing ?3X4OPYY retain their raw labels.",
+        "The previous unreviewed OCR candidate stream contained 323 slots, seven fewer than the source, and did not produce this coherent Nov28-key body. Restoring omitted printed slots is source retranscription, not a seven-coordinate repair of the actual source."
+      ]
+    }
+  ],
+  "prior_credit": {
+    "published_period_key": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), DOI10.1080/01611194.2016.1169461; algorithmic numeral/rare-letter meanings remain separately uncertain.",
+    "prior_body_candidates": "A1-A3/B1-B2 were already represented by unreviewed cross-key OCR candidates; A2/A3/B1/B2 are also in the frozen p73 retrieval corpus. These earlier computations are retained, not claimed as new first decryptions.",
+    "new_contribution": "Visual source transcription, exact header/slot corrections, source-priced ordinary-word editions and the coherent Nov28-key p229 C aviation message recovered from its 330 actual slots.",
+    "prior_candidate_path": "prior_candidates.json",
+    "prior_candidate_sha256": "37a32dfc45c128d89fd6421bf9799cdb989868aff35dd9f2016a4a21180978b6",
+    "bounded_published_body_check": {
+      "author_paper_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "author_paper_url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+      "searched_terms": [
+        "229",
+        "Kraftwagen",
+        "Szolnok",
+        "Tisza",
+        "Arad",
+        "transport"
+      ],
+      "scope": "The explicit page-reference search and nearby historical sections6.3-6.5 did not identify these p229 bodies. supplementary_readings and the current catalog had no p229 entries. This bounded check is not a universal first-decipherment claim."
+    }
+  },
+  "interpretation_policy": "No optional Nov28 numeral or separator map is applied. Raw labels are preserved, except for the individually priced ordinary-word coordinate repairs. No amount, unit number or unresolved destination is inferred from plausibility."
+}
