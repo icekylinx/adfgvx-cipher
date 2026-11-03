@@ -4,11 +4,11 @@
 
 Appointments, staff transfers, travel permissions, personnel inquiries and civilian affairs are collected here.
 
-**53 reviewed physical records across 30 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**53 reviewed entries across 30 case pages, representing 53 physical sources; 53 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
-| Case | Source records |
+| Case | Reviewed entries |
 |---|---|
 | [p92 A — Dutch courier Vreede's passage to Constantinople](p92_A.md) | p92 A |
 | [Major Dunst — cancellation of the Turkey and military-mission assignment](dunst_assignment.md) | p95 A1, p95 A2 |

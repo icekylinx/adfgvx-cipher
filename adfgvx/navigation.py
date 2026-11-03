@@ -13,7 +13,7 @@ from pathlib import Path
 import re
 from urllib.parse import unquote, urlsplit
 
-from .catalog import ROOT, load_catalog, relative_link, table
+from .catalog import ROOT, load_catalog, physical_source_accounting, relative_link, table
 
 START = '<!-- TOPIC-NAVIGATION:START -->'
 END = '<!-- TOPIC-NAVIGATION:END -->'
@@ -158,6 +158,10 @@ def render_alias_index(aliases):
 
 def render_topic(group, rows, catalogue):
     destination = ROOT / group['directory'] / 'README.md'
+    accounting = physical_source_accounting(catalogue)
+    locations = accounting['locations']
+    represented_sources = {locations[row['id']] for row in rows}
+    challenge_sources = {locations[row['id']] for row in catalogue['challenge']}
     families = {}
     for row in rows:
         families.setdefault(row['path'].split('#')[0], []).append(row)
@@ -166,9 +170,11 @@ def render_topic(group, rows, catalogue):
         '[All readings](../README.md) · [Repository map](../../docs/repository-map.md) · '
         '[Evidence and methods](../../docs/methods.md)', '',
         group['summary'], '',
-        f'**{len(rows)} reviewed physical records across {len(families)} case pages.** '
+        f'**{len(rows)} reviewed entries across {len(families)} case pages, representing '
+        f'{len(represented_sources)} physical sources; {len(represented_sources - challenge_sources)} '
+        'are additional to the original challenge set.** '
         'Multipart segments and repeated transmissions retain their separate source identifiers.', '',
-        '## Case pages', '', '| Case | Source records |', '|---|---|',
+        '## Case pages', '', '| Case | Reviewed entries |', '|---|---|',
     ]
     for path, family in families.items():
         title = page_title(ROOT / path).replace('|', '\\|')
@@ -180,7 +186,7 @@ def render_topic(group, rows, catalogue):
         related = [r for r in catalogue['challenge'] if r['id'] in related_ids]
         lines.extend(['## Related challenge entries', '',
                       'These retain their original challenge identifiers and statuses; '
-                      'they are separate from the record count above.', '',
+                      'same-source later editions are explicitly linked in the table above.', '',
                       table(related, destination), ''])
     lines.extend([
         'Topics are reading aids. Each family page preserves its own keys, source',
@@ -192,14 +198,20 @@ def render_topic(group, rows, catalogue):
     return '\n'.join(lines)
 
 
-def render_overview(groups, rows):
+def render_overview(groups, rows, catalogue=None):
+    catalogue = load_catalog() if catalogue is None else catalogue
+    accounting = physical_source_accounting(catalogue)
+    locations = accounting['locations']
+    challenge_sources = {locations[row['id']] for row in catalogue['challenge']}
     lines = [START, '## Browse by topic', '',
-             '| Topic | Reviewed source records | Case pages |', '|---|---:|---:|']
+             '| Topic | Reviewed entries | Additional physical sources | Case pages |', '|---|---:|---:|---:|']
     for group in groups:
         records = rows[group['id']]
         families = len({r['path'].split('#')[0] for r in records})
-        lines.append(f"| [{group['title']}]({group['id']}/README.md) | {len(records)} | {families} |")
-    lines.extend(['', 'These topic guides cover every other reviewed source record. '
+        additional = len({locations[row['id']] for row in records} - challenge_sources)
+        lines.append(f"| [{group['title']}]({group['id']}/README.md) | {len(records)} | {additional} | {families} |")
+    lines.extend(['', 'These topic guides cover every other reviewed catalogue entry. '
+                  'Additional physical sources exclude registered later editions of challenge sources. '
                   'The page-number index below also retains all 22 original challenge entries.', END])
     return '\n'.join(lines)
 
@@ -249,7 +261,7 @@ def main():
     assert current.count(START) == current.count(END) == 1
     before, rest = current.split(START)
     _, after = rest.split(END)
-    generated[guide] = before + render_overview(groups, rows) + after
+    generated[guide] = before + render_overview(groups, rows, catalogue) + after
     for path, expected in generated.items():
         if args.check:
             assert path.read_text() == expected, f'Regenerate navigation: {path.relative_to(ROOT)}'
@@ -261,7 +273,9 @@ def main():
               for r in catalogue[group]}
     checked = check_links(paths)
     family_count = len({r['path'].split('#')[0] for r in catalogue['other']})
-    print(f'Navigation: {len(groups)} topics, {len(catalogue["other"])} reviewed records, '
+    accounting = physical_source_accounting(catalogue)
+    print(f'Navigation: {len(groups)} topics, {len(catalogue["other"])} reviewed entries, '
+          f'{accounting["additional_physical_sources"]} physical sources beyond the challenge set, '
           f'{family_count} case pages, {len(aliases)} legacy aliases; '
           f'{checked} local links and their Markdown sections checked.')
 

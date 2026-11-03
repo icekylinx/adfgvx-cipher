@@ -136,6 +136,14 @@ verifier checks the two additional address substitutions and three raw
 wording attestations. The primary case's headings, fences and quotations
 remain byte-preserved.
 
+The optional [p63 technical-word](../experiments/p63_optional_technical_reading/README.md),
+[p137 staff-vocabulary](../experiments/p137_optional_staff_vocabulary/README.md)
+and [p116 route-fragment](../experiments/p116_optional_route_fragment/README.md)
+supplements each bind their complete readable quotation to a separately
+priced candidate. Their verifiers preserve the primary case headings,
+fences and quotations, retain the stated geometry and every unresolved
+label, and re-encrypt full source witnesses. They add no physical source.
+
 ## Run the checks
 
 From the repository root:
@@ -146,6 +154,10 @@ python data/reviews/verify_manual_readings.py
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_layers_before.json --audit data/reviews/reading_conventions_layers_audit.json
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
 python data/reviews/check_reading_presentation.py
+python data/reviews/verify_catalog_source_overlaps.py
+python experiments/p63_optional_technical_reading/verify.py --verify
+python experiments/p137_optional_staff_vocabulary/verify.py --verify
+python experiments/p116_optional_route_fragment/verify.py --verify
 python experiments/p132_optional_address/verify.py --verify
 python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/p132_optional_address_readable_mapping_20261103.json
 python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/complete_displays_readable_mappings_20261103.json

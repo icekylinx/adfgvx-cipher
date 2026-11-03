@@ -4,11 +4,11 @@
 
 Follow requests for funds, currency exchange and purchasing decisions. Individual editions keep raw amount labels and proposed numerical interpretations separate.
 
-**45 reviewed physical records across 20 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**45 reviewed entries across 20 case pages, representing 45 physical sources; 45 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
-| Case | Source records |
+| Case | Reviewed entries |
 |---|---|
 | [Receipt addressed to General von Kress in Tiflis](kress_money_receipt.md) | p58 B |
 | [Caucasus hide purchasing — Meierkort, the contract and the Kiew instruction](caucasus_hide_purchasing.md) | p75 B1, p75 B2, p76 A3 |
@@ -83,7 +83,7 @@ Follow requests for funds, currency exchange and purchasing decisions. Individua
 
 ## Related challenge entries
 
-These retain their original challenge identifiers and statuses; they are separate from the record count above.
+These retain their original challenge identifiers and statuses; same-source later editions are explicitly linked in the table above.
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|

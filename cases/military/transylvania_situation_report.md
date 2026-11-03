@@ -64,6 +64,15 @@ ANSCHLIESSENDMUESSEN?ORB?GNN?MILITAERISCHERSO?RG?N?ENPERSONALDERW?R?SSH?FT??UNQ?
 
 Printed 215 / advertised 252 means 37 missing coordinates in addition to four printed dashes. All 38 allocations between the two explicit INTERFERENCE locations are retained. The 0/37 model is the unique zero-observed-error fit for the explicit 20-character prefix ANSCHLIESSENDMUESSEN; this remains conditional on that crib. Four compatible word spans fill 21 erased coordinates without changing any observed coordinate. Twenty plaintext positions and the awkward observed middle wording remain unresolved. This is a partial reading, not a completed sentence.
 
+A [separate staff-vocabulary proposal](../../experiments/p137_optional_staff_vocabulary/README.md)
+reads `WIRTSCHAFTS?UNDVERWALTUNGSSTAEBE` under the same conditional 0/37 frame.
+It adds three observed-coordinate substitutions and ten missing-coordinate
+fills; the alternative reading of one overtyped source glyph is retained
+separately. Ten plaintext positions remain unresolved, including the literal
+`?B6?` field. The primary partial edition above and its zero-substitution
+price remain unchanged. Independent witnesses attest the two staff compounds,
+not this complete clause or its historical execution.
+
 ## p129 A7
 
 Request concerning the unknown general political situation and a possible armistice.

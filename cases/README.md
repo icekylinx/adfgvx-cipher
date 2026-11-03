@@ -9,16 +9,16 @@ Each case opens with the most useful readable text or the present limits of reco
 <!-- TOPIC-NAVIGATION:START -->
 ## Browse by topic
 
-| Topic | Reviewed source records | Case pages |
-|---|---:|---:|
-| [Caucasus administration and procurement](caucasus/README.md) | 43 | 15 |
-| [Ships, cargo and naval orders](naval/README.md) | 40 | 15 |
-| [Armies, withdrawal and supplies](military/README.md) | 227 | 81 |
-| [Radio service, keys and message routing](radio/README.md) | 169 | 70 |
-| [Money, banking and purchases](finance/README.md) | 45 | 20 |
-| [People, appointments and civilian affairs](people/README.md) | 53 | 30 |
+| Topic | Reviewed entries | Additional physical sources | Case pages |
+|---|---:|---:|---:|
+| [Caucasus administration and procurement](caucasus/README.md) | 43 | 43 | 15 |
+| [Ships, cargo and naval orders](naval/README.md) | 40 | 40 | 15 |
+| [Armies, withdrawal and supplies](military/README.md) | 227 | 227 | 81 |
+| [Radio service, keys and message routing](radio/README.md) | 169 | 168 | 70 |
+| [Money, banking and purchases](finance/README.md) | 45 | 45 | 20 |
+| [People, appointments and civilian affairs](people/README.md) | 53 | 53 | 30 |
 
-These topic guides cover every other reviewed source record. The page-number index below also retains all 22 original challenge entries.
+These topic guides cover every other reviewed catalogue entry. Additional physical sources exclude registered later editions of challenge sources. The page-number index below also retains all 22 original challenge entries.
 <!-- TOPIC-NAVIGATION:END -->
 
 ## How to read a case
@@ -52,11 +52,13 @@ These retain all original challenge identifiers. Page numbers alone do not ident
 | [pp. 175–199](pages/175-199/README.md) | 6 | [p176a](p176a.md), [p176b](p176b.md), [p187](p187.md), [p187b](p187b.md), [p189](p189.md), [p198](p198.md) |
 | [pp. 200–224](pages/200-224/README.md) | 2 | [p215](p215.md), [p217](p217.md) |
 
-### Other ciphertexts — 577 reviewed records
+### Other ciphertexts — 577 reviewed entries
 
 Multipart messages and repeated transmissions have separate source records even when they share a case page. Direct readings, source-supported reconstructions and conjectural repairs keep their stated limits in the detailed page tables.
 
-| Printed source pages | Reviewed records | Pages represented |
+The 599 catalogue entries represent 598 unique physical sources, including 576 beyond the challenge set. 1 later-edition entry shares an already catalogued source; [the exact overlap and counting rule](../docs/catalogue-source-overlaps.md) preserve both editions and the earlier credit.
+
+| Printed source pages | Reviewed entries | Pages represented |
 |---|---:|---:|
 | [pp. 50–74](pages/050-074/README.md) | 40 | 17 |
 | [pp. 75–99](pages/075-099/README.md) | 63 | 25 |

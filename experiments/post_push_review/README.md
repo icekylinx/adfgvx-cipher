@@ -3,27 +3,30 @@
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
 **State: in progress.** The initial remote publication was confirmed at
-2026-11-02 23:27:19 UTC. The requested additional two-hour work period
-runs until at least 2026-11-03 01:27:19 UTC. The user subsequently extended
-work to **2026-11-03 05:30:00 UTC (13:30 UTC+8)** and requested consistent
-presentation of every reading and notation. A further requested two-hour
-continuation began at **05:58:04 UTC on 3 November**, running through at least
-**07:58:04 UTC (15:58 UTC+8)**. No completed duration is claimed by this checkpoint.
+2026-11-02 23:27:19 UTC. The original two-hour follow-up and subsequent
+extensions are preserved in the inputs. This further requested two-hour
+continuation began at **2026-11-03 05:58:04 UTC**, running through at least
+**07:58:04 UTC (15:58:04 UTC+8)**. No completed duration is claimed by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 577 other physical source records**, with all
-22 challenge entries preserved. It adds **382 physical records across 119 source
-packages** and keeps every earlier record. Interpretation and open-target
-method audits add no physical records.
+This snapshot compares **195 → 577 other reviewed catalogue entries**, with all
+22 challenge entries preserved. It adds **382 catalogue entries across 119 source
+packages**, representing **381 newly catalogued physical sources** and one later
+edition of an existing source. Across the challenge and other tables together,
+there are **598 unique physical sources**; **576** are additional to
+the challenge set. [p132_B is a later edition of challenge p132](../../docs/catalogue-source-overlaps.md),
+with Thomas and Norbert's original reading credit retained. It adds a reviewed
+entry but no new physical source. Interpretation and open-target method audits
+also add no physical sources.
 
 The source packages account for **80,180 literal source slots** and
 **40,339 modeled plaintext positions**, of which
 **38,837 have fixed raw labels** under their stated frames.
 These are coverage counts, including repeated copies, prior body readings,
-conditional frames and unresolved historical numerals. They are not a count
-of first decipherments or independently authenticated historical letters.
-All **783 observed-coordinate substitutions** remain separately priced.
+conditional frames, the later p132 edition and unresolved historical numerals.
+They are not a count of first decipherments or independently authenticated
+historical letters. All **783 observed-coordinate substitutions** remain separately priced.
 Printed-mask fills, missing-slot fills, copied prefixes and source-layout
 exclusions keep their distinct units in each package. In particular, the
 copy-conditioned p157 A1 record contributes **0/95 fixed raw positions**;
@@ -31,7 +34,7 @@ its copied values are excluded from the fixed-raw total.
 
 ## Source packages
 
-| Package | Physical records | Source slots | Modeled positions | Fixed raw labels | Observed substitutions |
+| Package | Reviewed source entries | Source slots | Modeled positions | Fixed raw labels | Observed substitutions |
 |---|---:|---:|---:|---:|---:|
 | [Crown airlift and an interrupted banknote instruction](../crown_airlift/README.md) | 3 | 371 | 195 | 175 | 1 |
 | [Repeated ZITAG stop-order and contract cancellation](../zitag_purchase_orders/README.md) | 5 | 1068 | 534 | 531 | 14 |
@@ -185,7 +188,7 @@ retains exact unknown fields and exposes prose-only spellings in six cases. A fo
 The p111/p112 package also checks every nonseparator label in seven complete
 readable passages, preserving all five unresolved positions.
 
-The [live readable-label audit](../../data/reviews/live_readable_mappings_20261103.json) now checks 134 records in 76 case pages: 11,318 ordered nonseparator labels, 81 literal unresolved positions, and 3 explicitly declared display-only letters. It reads the actual Markdown quotations and their linked raw or edited streams, including protected internal separators and positional question marks. Its original reviewed mappings remain unchanged as further records are appended.
+The [live readable-label audit](../../data/reviews/live_readable_mappings_20261103.json) checks 134 records in 76 case pages: 11,318 ordered nonseparator labels, 81 literal unresolved positions, and 3 explicitly declared display-only letters. It reads the actual Markdown quotations and their linked raw or edited streams, including protected internal separators and positional question marks. The [coverage guide](../../docs/reading-conventions-coverage.md) separately identifies later supplementary, table and continuation mappings without adding overlapping scopes together.
 
 ## Independent source-image binding
 
@@ -214,7 +217,7 @@ beside their packages and run in CI.
 The review uses preserved start/end catalogues, so a later live catalogue
 can grow without rewriting its historical count. The earlier
 [87-to-195 review](../session_review/README.md) remains separate and unchanged.
-The completion timestamp, once recorded, must satisfy both the two-hour minimum and the later 05:30 UTC deadline.
+The completion timestamp must satisfy the original follow-up and the later 07:58:04 UTC deadline.
 
 For readable messages, use the [case guide](../../cases/README.md); for the
 reorganized layout, use the [repository map](../../docs/repository-map.md).

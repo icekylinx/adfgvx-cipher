@@ -1,0 +1,358 @@
+{
+  "schema": "adfgvx-p116-optional-route-fragment-inputs-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "status": "Optional target-conditioned lexical spans only; primary p116 A13 stays raw-only.",
+  "live_input_path": "experiments/mackensen_withdrawal_report/inputs.json",
+  "record_snapshot": {
+    "id": "p116_A13",
+    "printed_page": 116,
+    "message_part": 13,
+    "page_heading": "3rd NOVEMBER, 1918.",
+    "header_literal": "A) LP v NKJ (7.06 p.m., November 4th); NKJ AN LP VON UKS AN OHL 2000 (3) 13 TLE",
+    "advertised_length": 222,
+    "source_rows": [
+      "GVVFG -GFGD XDVGV GDGDG GVXFX VAXFA DGXDF VFGAA",
+      "FFGGG DADAA GVFAG F-FFX GAGAG DVDXA --VDA G----",
+      "VDGDA GVVXD V-FVA GAGDD GGGVF AVDXA XG-AV GDGGA",
+      "DGVGV XXDDD VVDAV D-DDG DDFDG GXDXX XGVFD -----"
+    ],
+    "frame_model": {
+      "kind": "explicit_jammed_tail",
+      "source_gap_index": 160,
+      "added_coordinates": 62
+    },
+    "expected_raw": "??????DERX?????MEED??M???CHDU?????GARN??F???R?CH??????A?Z??????N?EI?????T??N??????R?ET?????XK????M???A?1G?????X",
+    "editorial_plaintext": "??????DERX?????MEED??M???CHDU?????GARN??F???R?CH??????A?Z??????N?EI?????T??N??????R?ET?????XK????M???A?1G?????X",
+    "edition_scope": "partial raw only; no conjectural tail completion"
+  },
+  "key_snapshot": {
+    "id": "Nov1-3",
+    "column_rank_order": [
+      3,
+      16,
+      4,
+      15,
+      7,
+      12,
+      18,
+      6,
+      17,
+      8,
+      19,
+      1,
+      13,
+      10,
+      2,
+      14,
+      11,
+      9,
+      5
+    ],
+    "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36"
+  },
+  "source": {
+    "author": "J. Rives Childs",
+    "title": "General Solution of the ADFGVX Cipher System",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "printed_pages": [
+      116
+    ],
+    "image": {
+      "path": "experiments/mackensen_withdrawal_report/sources/p116.png",
+      "printed_page": 116,
+      "pdf_page_1based": 119,
+      "crop_pdf_points": [
+        0.0,
+        0.0,
+        578.1599731445312,
+        824.4000244140625
+      ],
+      "render_scale": 2.4,
+      "sha256": "2f4bea482cccb5628c6ea63e1234f993e1d0897dafff6e5d0a73a602d0ea77f8"
+    }
+  },
+  "proposal": {
+    "new_word_spans": [
+      {
+        "start": 0,
+        "text": "TEILEN"
+      },
+      {
+        "start": 13,
+        "text": "ARMEE"
+      },
+      {
+        "start": 18,
+        "text": "DENMARSCHDURCHUNGARN"
+      },
+      {
+        "start": 38,
+        "text": "AUFOBERSCHLESIEN"
+      },
+      {
+        "start": 54,
+        "text": "ANZUTRETEN"
+      }
+    ],
+    "editorial_text": "TEILENDERX???ARMEEDENMARSCHDURCHUNGARNAUFOBERSCHLESIENANZUTRETEN?EI?????T??N??????R?ET?????XK????M???A?1G?????X",
+    "expected_fixed_positions": 75,
+    "expected_observed_substitutions": 0,
+    "expected_printed_mask_fills": [
+      [
+        5,
+        "G"
+      ],
+      [
+        70,
+        "A"
+      ],
+      [
+        76,
+        "D"
+      ],
+      [
+        155,
+        "V"
+      ],
+      [
+        156,
+        "G"
+      ]
+    ],
+    "expected_lost_tail_fills": [
+      [
+        162,
+        "G"
+      ],
+      [
+        164,
+        "G"
+      ],
+      [
+        165,
+        "D"
+      ],
+      [
+        166,
+        "A"
+      ],
+      [
+        167,
+        "V"
+      ],
+      [
+        168,
+        "X"
+      ],
+      [
+        174,
+        "X"
+      ],
+      [
+        176,
+        "G"
+      ],
+      [
+        177,
+        "D"
+      ],
+      [
+        178,
+        "G"
+      ],
+      [
+        179,
+        "A"
+      ],
+      [
+        180,
+        "A"
+      ],
+      [
+        186,
+        "V"
+      ],
+      [
+        187,
+        "G"
+      ],
+      [
+        188,
+        "D"
+      ],
+      [
+        189,
+        "A"
+      ],
+      [
+        190,
+        "G"
+      ],
+      [
+        191,
+        "D"
+      ],
+      [
+        192,
+        "F"
+      ],
+      [
+        198,
+        "A"
+      ],
+      [
+        200,
+        "X"
+      ],
+      [
+        201,
+        "F"
+      ],
+      [
+        202,
+        "A"
+      ],
+      [
+        203,
+        "V"
+      ],
+      [
+        204,
+        "V"
+      ],
+      [
+        210,
+        "G"
+      ],
+      [
+        211,
+        "A"
+      ],
+      [
+        212,
+        "D"
+      ],
+      [
+        213,
+        "G"
+      ],
+      [
+        214,
+        "V"
+      ],
+      [
+        215,
+        "G"
+      ],
+      [
+        216,
+        "V"
+      ]
+    ],
+    "preserved_unknown_positions": [
+      10,
+      11,
+      12,
+      64,
+      67,
+      68,
+      69,
+      70,
+      71,
+      73,
+      74,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      83,
+      86,
+      87,
+      88,
+      89,
+      90,
+      93,
+      94,
+      95,
+      96,
+      98,
+      99,
+      100,
+      102,
+      105,
+      106,
+      107,
+      108,
+      109
+    ]
+  },
+  "primary_case": {
+    "path": "cases/military/mackensen_withdrawal_report.md",
+    "headings": [
+      "# Mackensen's November 3 withdrawal report and its separately received ninth part",
+      "## Why part 9 belongs here",
+      "## Read the surviving parts",
+      "### p114 A1",
+      "### p113 A3",
+      "### p114 A4",
+      "### p115 A5",
+      "### p115 A6",
+      "### p115 A7",
+      "### p115 A8",
+      "### p113 B9",
+      "### p116 A10",
+      "### p116 A11",
+      "### p116 A12",
+      "### p116 A13",
+      "## The two short frames require different qualifications",
+      "## Coverage and exact repair accounting",
+      "## Sources and reproduction"
+    ],
+    "fence_sha256": [
+      "43084c52dd6454faedc1cd1b673fd469595e762430789d2527dcb44870530562",
+      "b86badd966730b47be1ffacfff4b06191aae2969437102d905f6e2a8ecf12281"
+    ],
+    "quote_sha256": [
+      "889a86ca219117b84b6c9c335ea0c99478c45529386c193805c9ba3b2ce5cd76",
+      "b157503e88dbb62bbd8494d0a65699e9f32a0b5699bcfe22bf5672257337cc98",
+      "4fa5bcd356c18e681860f74e3e6ae2e664611b268b4679980e9f52f2e58f875d",
+      "1cf9afef5e3cf67d05f3002d4ce667b5bf88bc23ae82c72e33ec4d3e5ad23f28",
+      "d5ee3b16e92b6ff6698480d84bf674cca05d0cc89fdbe4ae623f88c42023aea5",
+      "72ae5dc9512038777b63300ff274ae6ead9079d4b94498790b7e710a20c6437e",
+      "24f0e7e1fb97797e4f651a14353b60bd64b7391711caa4a58a4a474f10a78825",
+      "3defdaac927cfebadade386d66bb1db96fc82cc0db2c4051a548f9037ea506eb",
+      "fb4d15a626db830c8baf9a478fb56aa48dd97bb4d048849b12d32e13d8f16825",
+      "11dc472b18bb9a28ba8ea126364affaf8d54c67c304241702f25705ba76fe5c6",
+      "a5affbb60f83ec3fda40440c360ccdb95d4444bc2eeddbef3d01b81ee3ec18e8"
+    ]
+  },
+  "translation_selection_aid": {
+    "url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+    "paper_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+    "locator": "Lasry, Niebel, Kopal and Wacker (2016), Table 3, row 13, PDF page index 20 (one-based page 21), printed paper page 20.",
+    "directly_reviewed": "2026-11-03",
+    "observation": "The reconstructed-German column does not supply a German part 13 text. It reports missing symbols; the English column gives a partial historical translation attributed to Childs. The route topic was used to select the five German lexical candidates.",
+    "not_independent_cipher_witness": true,
+    "not_a_full_German_plaintext_source": true,
+    "army_label_and_footer_not_imported": true
+  },
+  "prior_credit": {
+    "body": "Childs historical decipherment; Lasry, Niebel, Kopal and Wacker (2016), Table 3, published most of the reconstructed report.",
+    "paper_url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+    "paper_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+    "scope": "Table 3 marks part9 missing and provides a translation for the badly jammed last part. The current edition joins the separately received p113 B9 and audits the actual source lengths and costs. This is not a claim to have first deciphered the report or the part9 OCR body."
+  },
+  "limits": [
+    "The 160 printed slots and their 16 dashes stay intact. The existing model appends 62 unknown coordinates because the source explicitly marks the balance jammed and advertises 222. No new geometry assumption is introduced.",
+    "All five candidate words or phrases were selected retrospectively after reading the known report and its historical translation. Zero observed contradiction is compatibility under a fixed key and length, not independent proof of intended German wording.",
+    "Each of the 37 proposed letters completes one six-label domain with one surviving observed coordinate. The other coordinate is supplied conditionally, not claimed to have been recovered from the page pixels.",
+    "Unique placement of each chosen word among its possible starts does not establish uniqueness among alternative words, spelling choices, keys or loss histories. All 503 fixed-word placement costs are retained.",
+    "The three-label army field at positions 10 through 12 remains ???. No army number is inferred from the English translation. Position 103 remains the directly decoded numeral 1.",
+    "The 36 unknown plaintext positions and all their coordinate domains remain unresolved. No approval wording, signature, separator or other footer content is supplied.",
+    "The primary raw-only p116 A13 edition, all earlier case displays and the published Nov1-3 key remain unchanged. This is not a newly recovered physical record or a claim to first decipher the historically known report.",
+    "Arbitrary complete roundtrip witnesses in the certificate only verify the cipher mapping and are explicitly not historical plaintext."
+  ]
+}

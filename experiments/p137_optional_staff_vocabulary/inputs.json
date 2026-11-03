@@ -1,0 +1,606 @@
+{
+  "schema": "adfgvx-p137-optional-staff-vocabulary-inputs-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "status": "Optional vocabulary completion under the existing conditional interference geometry; original primary remains unchanged.",
+  "live_input_path": "experiments/transylvania_situation_report/inputs.json",
+  "record_snapshot": {
+    "id": "p137_A5",
+    "printed_page": 137,
+    "pdf_page_1based": 140,
+    "source_section": "A5",
+    "message_part": 5,
+    "message_total_parts": 8,
+    "source_image_id": "p137_A5",
+    "key_id": "Nov4-6",
+    "page_heading": "6th NOVEMBER, 1918.",
+    "receipt_header": "LP v NKJ (08.14 November 5th)",
+    "origin_header": "18.40 8 TLE VON UKS 18.40",
+    "source_rows": [
+      "DDGXX VAVFF VVGAF XGVAV VVADX FAVXX AXXVA",
+      "DFAFX AXGVA FVXXV XFXAX XVAXX FGVGX AVGFA",
+      "XFFDA FGFXA VAAAX GFGFV GXVVA FFXVX AFVAX",
+      "GFXFG XXXXD GFAFX DAADD GVAAG FAVXF XGXFX",
+      "AAGXA VGFFG XXXAA XFGFX VFXAF AFXFX XAFFV",
+      "XVAGX AVGVA AVVGG {INTERFERENCE_1} AGAXF",
+      "AXAGX DGGVF AXAVV V---- {INTERFERENCE_2}"
+    ],
+    "source_slots": 215,
+    "advertised_length": 252,
+    "model": {
+      "kind": "two_interference_runs",
+      "literal_boundaries": [
+        190,
+        215
+      ],
+      "missing_coordinates_total": 37,
+      "all_first_run_lengths": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "primary_run_lengths": [
+        0,
+        37
+      ],
+      "conditional_selection_crib": {
+        "plaintext_start": 0,
+        "text": "ANSCHLIESSENDMUESSEN",
+        "rule": "Unique allocation requiring zero observed-coordinate changes for this explicit 20-character lexical crib. This is conditional on the crib and error-free matching there."
+      },
+      "selection_limit": "Zero missing coordinates at the first INTERFERENCE marker is an additional modeling hypothesis, not a literal statement that reception was clear there. All 38 allocations remain available."
+    },
+    "expected_raw": "ANS?HLI?SSE?DMUE?SEN?ORB?GNN?MI?I?AER?SC??RSO?RG?N?ENP?RS??ALD?RW?R?SSH?FT??UNQ?ER?K?TUN?SS??EBE?B6?N?VEM?ER??GES?HO?E?WER?EN?",
+    "readable_candidate": "ANSCHLIESSENDMUESSEN?ORB?GNN?MILITAERISCHERSO?RG?N?ENPERSONALDERW?R?SSH?FT??UNQ?ER?K?TUN?SS??EBE?B6?NOVEMBERABGESCHOBENWERDEN?",
+    "word_completion_spans": [
+      {
+        "start": 0,
+        "text": "ANSCHLIESSENDMUESSEN"
+      },
+      {
+        "start": 29,
+        "text": "MILITAERISCHER"
+      },
+      {
+        "start": 53,
+        "text": "PERSONALDER"
+      },
+      {
+        "start": 100,
+        "text": "NOVEMBERABGESCHOBENWERDEN"
+      }
+    ],
+    "notes": [
+      "The two explicit INTERFERENCE annotations are not OCR defects and do not specify lengths. Four printed dashes already occupy source slots and are not included in the 37 missing-coordinate total.",
+      "Only four compatible word spans are completed. No observed coordinate is changed; 20 plaintext positions remain unresolved and all awkward observed letters remain. No complete polished sentence or date is imposed."
+    ]
+  },
+  "key_snapshot": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "image": {
+      "id": "p137_A5",
+      "path": "experiments/transylvania_situation_report/sources/p137_A5.png",
+      "printed_page": 137,
+      "pdf_page_1based": 140,
+      "crop_pdf_points": [
+        85,
+        338,
+        470,
+        432
+      ],
+      "render_scale": 5,
+      "sha256": "7e5e6b101f58f9bf27063fb1b023c6584bae779e23cb87292458f8c812edcc8a"
+    }
+  },
+  "proposal": {
+    "start": 64,
+    "end_exclusive": 96,
+    "new_word_spans": [
+      {
+        "start": 64,
+        "text": "WIRTSCHAFTS"
+      },
+      {
+        "start": 76,
+        "text": "UND"
+      },
+      {
+        "start": 79,
+        "text": "VERWALTUNGSSTAEBE"
+      }
+    ],
+    "editorial_text": "ANSCHLIESSENDMUESSEN?ORB?GNN?MILITAERISCHERSO?RG?N?ENPERSONALDERWIRTSCHAFTS?UNDVERWALTUNGSSTAEBE?B6?NOVEMBERABGESCHOBENWERDEN?",
+    "expected_observed_changes": [
+      [
+        68,
+        "F",
+        "V"
+      ],
+      [
+        201,
+        "G",
+        "D"
+      ],
+      [
+        202,
+        "G",
+        "D"
+      ]
+    ],
+    "expected_additional_missing_coordinate_fills": [
+      [
+        215,
+        "X"
+      ],
+      [
+        216,
+        "X"
+      ],
+      [
+        217,
+        "F"
+      ],
+      [
+        218,
+        "X"
+      ],
+      [
+        231,
+        "V"
+      ],
+      [
+        232,
+        "G"
+      ],
+      [
+        233,
+        "V"
+      ],
+      [
+        245,
+        "X"
+      ],
+      [
+        247,
+        "A"
+      ],
+      [
+        248,
+        "F"
+      ]
+    ],
+    "expected_total_observed_substitutions": 3,
+    "expected_total_printed_mask_fills": 3,
+    "expected_total_missing_coordinate_fills": 28,
+    "expected_fixed_positions": 116,
+    "preserved_unknown_positions": [
+      20,
+      24,
+      28,
+      45,
+      48,
+      50,
+      75,
+      96,
+      99,
+      125
+    ],
+    "preserved_numeral_field": "?B6?"
+  },
+  "visual_alternative": {
+    "source_index": 68,
+    "original_transcript": "F",
+    "alternative": "V",
+    "original_group": "AVGFA",
+    "alternative_group": "AVGVA",
+    "status": "Unadopted F/V visual alternative for a dark overtyped glyph; original transcript remains F.",
+    "effect": "V removes the one required observed-coordinate change in the proposed administrative-staff word; the two clear G-to-D repairs and all mask fills remain."
+  },
+  "independent_witnesses": [
+    {
+      "id": "p184_B1",
+      "live_input_path": "experiments/hungary_transport_warning/inputs.json",
+      "record_snapshot": {
+        "id": "p184_B1",
+        "printed_page": 184,
+        "pdf_page_1based": 187,
+        "source_section": "B1",
+        "message_part": 1,
+        "message_total_parts": 3,
+        "source_image_id": "p184_B1",
+        "key_id": "Nov13-15a",
+        "page_heading": "13th NOVEMBER, 1918.",
+        "common_receipt_header": "NKJ v LP (02.51 a.m., November 13th)",
+        "common_origin_header": "FUER UKS DRINGEND 13.40 (13/11) 3 TLE",
+        "header": "B) NKJ v LP (02.51 a.m., November 13th); FUER UKS DRINGEND 13.40 (13/11) 3 TLE; 1 TL RICHI-146",
+        "source_rows": [
+          "VFXVX GFXAG FXAFF VXDVA AFFDV VXDVX ADAFX XVXXX",
+          "AXXXX DAFVG XFAXF FXXVG VXVXD XXXXD XXFDF AFFFX",
+          "ADVFG VFVFX DGXVD GFXFA FVXDD VXXDV FVGDF DDAFF",
+          "DAXVD VFGAF FDGGX VFVXF GVDVV G"
+        ],
+        "source_slots": 146,
+        "advertised_length": 146,
+        "model": {
+          "kind": "identity"
+        },
+        "expected_raw": "ANXOBERKOMMANDOXMACKENSENXWIRTSCHAFTSSTABXMINERALOELABTEILUNGXBUCKARESTXX",
+        "readable_candidate": "ANXOBERKOMMANDOXMACKENSENXWIRTSCHAFTSSTABXMINERALOELABTEILUNGXBUCKARESTXX",
+        "notes": [
+          "No partial-square cell or numerical label is assigned.",
+          "BUCKAREST is retained as received; it is not normalized to Bucharest or Bukarest."
+        ]
+      },
+      "key_snapshot": {
+        "id": "Nov13-15a",
+        "coordinate_order": "ADFGVX",
+        "column_rank_order": [
+          13,
+          8,
+          6,
+          16,
+          7,
+          18,
+          1,
+          14,
+          9,
+          20,
+          10,
+          15,
+          17,
+          2,
+          3,
+          11,
+          5,
+          19,
+          4,
+          12
+        ],
+        "column_count": 20,
+        "square": "JZLH?R??S?T?MKDWU?V?B?P??FAO?GIX?CNE",
+        "square_rows": [
+          "JZLH?R",
+          "??S?T?",
+          "MKDWU?",
+          "V?B?P?",
+          "?FAO?G",
+          "IX?CNE"
+        ],
+        "known_cell_count": 24,
+        "missing_plaintext_symbols": "0123456789QY",
+        "provenance": [
+          {
+            "type": "published_solver_key",
+            "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+            "comment": 11,
+            "author": "George Lasry",
+            "date": "2017-02-27"
+          },
+          {
+            "type": "historical_book_scan",
+            "title": "General Solution of the ADFGVX Cipher System",
+            "author": "J. Rives Childs",
+            "printed_page": 244,
+            "pdf_page_1based": 247,
+            "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+          },
+          {
+            "type": "author_uploaded_research_paper",
+            "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+            "authors": [
+              "George Lasry",
+              "Ingo Niebel",
+              "Nils Kopal",
+              "Arno Wacker"
+            ],
+            "doi": "10.1080/01611194.2016.1169461",
+            "table": 2,
+            "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+            "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+          },
+          {
+            "type": "author_dissertation",
+            "author": "George Lasry",
+            "year": 2018,
+            "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+            "table": "6.2",
+            "printed_page": 99,
+            "pdf_page_1based": 120,
+            "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+          }
+        ],
+        "notes": [
+          "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+          "Use the explicit six rows in comment 11. Typography changed repeated hyphens to en/em dashes in comment 4; expanding those dashes heuristically can shift known cells."
+        ],
+        "baseline_square": "JZLH+R++S+T+MKDWU+V+B+P++FAO+GIX+CNE",
+        "baseline_differences": [],
+        "category": "published_period_or_CHI_key"
+      },
+      "image": {
+        "id": "p184_B1",
+        "path": "experiments/hungary_transport_warning/sources/p184_B1.png",
+        "printed_page": 184,
+        "pdf_page_1based": 187,
+        "crop_pdf_points": [
+          70,
+          258,
+          530,
+          349
+        ],
+        "render_scale": 4,
+        "sha256": "d13a2b7ab5086c9835cb7f012eb3a8d098a343e2cafdcaa359b9b3201cc11ba4"
+      }
+    },
+    {
+      "id": "p122_B",
+      "live_input_path": "experiments/schorlemer_demobilization_inquiry/inputs.json",
+      "record_snapshot": {
+        "id": "p122_B",
+        "title": "Trade Minister asks whether von Schorlemer can join demobilization work",
+        "key_id": "Nov4-6",
+        "header_literal": "B) NKJ v LP (08.40 p.m., November 4th); FUER UKS 1400 (4). OBERLEUTNANT VON SCHORLEMER OBERKOMMANDO M VERWALTUNGSSTAB; RICHI-252",
+        "edited_output": "ERBITTERUECKANTWORTDURCHFUNKSPRUCHOBSIEZURBESCHAEFTIGUNGIMHANDELSMINISTERIUMXDEMOBILMACHUNGSGRUPPEXABKOEMMLICHXHANDELSMINISTER",
+        "readable_german": "Erbitte Rueckantwort durch Funkspruch, ob Sie zur Beschaeftigung im Handelsministerium, Demobilmachungsgruppe, abkoemmlich. Handelsminister.",
+        "meaning": "The Trade Minister asks for a radio reply on whether the addressee can be released for work in the ministry demobilization group. The clear header names First Lieutenant von Schorlemer at the Oberkommando M administrative staff.",
+        "notes": [
+          "The source contains 33 printed dashes, including six complete masked groups. They are part of the native 252-slot frame. Their supplied values are editorial source-mask fills, not recovered visible coordinates.",
+          "The five observed-coordinate substitutions are separately priced. They repair word-level corruptions; there is no source insertion or change of key.",
+          "The clear address is an independent source witness for the surname in the later p155 B response. The two bodies were enciphered under different published period keys."
+        ],
+        "printed_page": 122,
+        "source_section": "B",
+        "source_rows": [
+          "XVVDX AXAAG VFFDG DADGV AVXFF VFFFV DDFXG DFXAA",
+          "XXFVX XXAFF VGVGV DVAFA AGXVA FVVAG VDXAX FVXFG",
+          "VXVAX AAFXF VXVGG VFVDV AGDVV AXXVA VXXFX XFGXA",
+          "XDDVF XXVV- VXAAA FAXAF XXXDF DAAXG FFXGX VFAXG",
+          "DGXXV VAD-- ----- ----- ----- ----- ----- -----",
+          "DGFDD AVXFA AVDAX FDXXF XXVVF DGVDX AFFDX XXXAG",
+          "VAAXG XFXVF GX"
+        ],
+        "source_slots": 252,
+        "advertised_length": 252,
+        "expected_raw": "E?BI?TERUE?KA?TFOT?DU?CHFUN?SP?UCHO?SI?ZU?BE?CH?E?TI?UN?IM?ANDEL?M?NISTE?GU?XDEMO?I?MACHU??S?RPPPE?A?KOESM?IC?XHAND?L?MINIS?ER",
+        "source_variants": [],
+        "separator_label": "X",
+        "question_mark_punctuation_at_end": false,
+        "expected_substitutions": 5,
+        "expected_source_mask_fills": 33
+      },
+      "key_snapshot": {
+        "id": "Nov4-6",
+        "coordinate_order": "ADFGVX",
+        "column_rank_order": [
+          7,
+          10,
+          8,
+          14,
+          3,
+          11,
+          16,
+          1,
+          6,
+          13,
+          4,
+          9,
+          15,
+          5,
+          12,
+          17,
+          2
+        ],
+        "column_count": 17,
+        "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "square_rows": [
+          "17WHFL",
+          "J5D2UP",
+          "EXKVZ9",
+          "O0Q3Y6",
+          "R8ABGI",
+          "TCMS4N"
+        ],
+        "known_cell_count": 36,
+        "missing_plaintext_symbols": "",
+        "provenance": [
+          {
+            "type": "published_solver_key",
+            "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+            "comment": 4,
+            "author": "George Lasry",
+            "date": "2017-02-24"
+          },
+          {
+            "type": "historical_book_scan",
+            "title": "General Solution of the ADFGVX Cipher System",
+            "author": "J. Rives Childs",
+            "printed_page": 240,
+            "pdf_page_1based": 243,
+            "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+          },
+          {
+            "type": "author_uploaded_research_paper",
+            "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+            "authors": [
+              "George Lasry",
+              "Ingo Niebel",
+              "Nils Kopal",
+              "Arno Wacker"
+            ],
+            "doi": "10.1080/01611194.2016.1169461",
+            "table": 2,
+            "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+            "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+          }
+        ],
+        "notes": [
+          "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+        ],
+        "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+        "baseline_differences": [],
+        "category": "published_period_or_CHI_key"
+      },
+      "image": {
+        "path": "experiments/schorlemer_demobilization_inquiry/sources/p122_reviewed.png",
+        "pdf_page_1based": 125,
+        "crop_pdf_points": [
+          95,
+          288,
+          530,
+          475
+        ],
+        "render_scale": 3,
+        "sha256": "56198a62e49d36def433505578ed43be99d16f81cecf57fa5d5bc802335f308d",
+        "width": 1305,
+        "height": 561,
+        "channels": 3,
+        "rgb_sha256": "3f5697f3c5f69c211388bc6a649b731395a69de12232c0d78545c5b3d7fb83d4"
+      }
+    }
+  ],
+  "primary_case": {
+    "path": "cases/military/transylvania_situation_report.md",
+    "headings": [
+      "# Surviving Transylvania situation report",
+      "## Missing and unread material",
+      "## p128 B1",
+      "## p137 A4",
+      "## p137 A5",
+      "## p129 A7",
+      "## p129 A8",
+      "## Evidence and totals"
+    ],
+    "fence_sha256": [
+      "dcb1c72ea2da242e129206ee7dc6a70bc45fb0d72331f7db7be6bb27138b236b",
+      "528ffcb3c60d5c34693db38a0e29dd927b21daa9a167955d1110eb8115ee8247",
+      "b994b8eaec3f3adaf0e65b4dc5357e77fe275b5aaac669e3cb84968e55b841cf",
+      "c5618d51d043e5d308054c50bafc1f16dbe28c7df8e62255551010c1c59eabb7",
+      "a8613c55536b46e1f095becf736f35055b5d2e02e715a3bdbf3ffc0398794990",
+      "595f88fd36ff1dcce92e9b0974e653feb1d14fc2f18074cfddfcd12626702ca8",
+      "3fb5059f2798413b51a39ca6bdd59fc8bc3bbe7896447a045955203662794a34",
+      "f3a198c55482f96c95b15b3a72d6792db9a0ed87df4b73a86649bb17cb86661b",
+      "b988b32f7ea4d7198d52b87ddc35d0025860c4d3b5cbf51d2f8605b05746464b",
+      "d90df666cc0bb89797b2aad1bb3761b36a4bc918aed2d528d9096dd959e1f0f7"
+    ],
+    "quote_sha256": []
+  },
+  "limits": [
+    "The original source model allocates zero of 37 missing coordinates to the first INTERFERENCE annotation and 37 to the last. This remains conditional on the existing lexical prefix; all 38 allocations remain available.",
+    "The primary zero-substitution partial edition is unchanged. The optional proposal adds three observed substitutions and ten missing-coordinate fills only within the declared staff-vocabulary spans.",
+    "The ten remaining unknown labels, including the literal ?B6? field, are preserved. No full governing condition, complete date, or actual personnel movement is supplied.",
+    "The independent p184 raw WIRTSCHAFTSSTAB and p122 clear VERWALTUNGSSTAB attest related vocabulary, not this exact clause, the plural inflection, an identical copy, or the identity of affected personnel.",
+    "The ambiguous source68 F/V alternative is not adopted to lower the primary cost. Both source variants and their separate effects are retained.",
+    "Partial-output completion witnesses are mathematical examples only; they do not recover the ten unasserted labels.",
+    "No new physical record, new key, or first historical decipherment is claimed."
+  ]
+}

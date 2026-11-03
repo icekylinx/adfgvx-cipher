@@ -9,9 +9,12 @@ from pathlib import Path
 import argparse
 import hashlib
 import json
+import sys
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
+sys.path.insert(0, str(ROOT))
+from adfgvx.catalog import physical_source_accounting
 
 
 def sha(path):
@@ -28,6 +31,8 @@ def build(pdf=None):
     assert sha(HERE / 'start_reading_catalog.json') == inputs['start_catalog_sha256']
     assert sha(HERE / 'final_reading_catalog.json') == inputs['final_catalog_sha256']
     assert start['challenge'] == end['challenge'] and len(end['challenge']) == 22
+    start_sources = physical_source_accounting(start)
+    end_sources = physical_source_accounting(end)
     before = {r['id']: r for r in start['other']}
     after = {r['id']: r for r in end['other']}
     assert len(before) == len(start['other']) == 195
@@ -72,7 +77,10 @@ def build(pdf=None):
                 'fixed_raw_label_positions_under_stated_geometry': summary['baseline_fixed_positions'],
                 'known_coordinate_substitutions': summary['known_coordinate_substitutions'],
             }
-        elif certificate.get('schema') == 'adfgvx-nov9-urgent-embassy-address-certificates-v1':
+        elif certificate.get('schema') in (
+                'adfgvx-nov9-urgent-embassy-address-certificates-v1',
+                'adfgvx-source-linked-one-coordinate-parallel-certificate-v1',
+                'adfgvx-conditional-two-duplicate-partial-certificate-v1'):
             certificate_ids = {certificate['record']['id']}
         else:
             certificate_ids = {r['id'] for r in certificate['records']}
@@ -135,24 +143,52 @@ def build(pdf=None):
               for name in ('physical_records', 'source_slots', 'modeled_plaintext_positions',
                            'fixed_raw_label_positions_under_stated_geometry', 'known_coordinate_substitutions')}
     assert totals['physical_records'] == len(added)
+    before_sources = set(start_sources['canonical_source_ids'].values())
+    after_sources = set(end_sources['canonical_source_ids'].values())
+    assert before_sources <= after_sources
+    new_sources = after_sources - before_sources
+    reviewed_sources = {end_sources['canonical_source_ids'][ident] for ident in represented}
+    existing_source_editions = {ident for ident in added
+                               if end_sources['canonical_source_ids'][ident] in before_sources}
+    assert new_sources <= reviewed_sources
+    # Package coverage includes the later edition of p132. It is useful reviewed
+    # evidence, but its source was already present among the original challenges.
+    totals['reviewed_record_entries'] = totals.pop('physical_records')
+    totals['unique_reviewed_physical_sources'] = len(reviewed_sources)
+    totals['new_physical_sources'] = len(new_sources)
+    totals['previously_catalogued_physical_sources'] = len(reviewed_sources & before_sources)
+    sort_entry = lambda ident: (after[ident]['printed_page'], after[ident]['source_section'], ident)
     cases = sorted({path for p in inputs['source_packages'] for path in p['case_pages']})
-    return {'schema': 'adfgvx-post-publication-review-v1', 'authors': inputs['authors'],
+    return {'schema': 'adfgvx-post-publication-review-v2', 'authors': inputs['authors'],
             'inputs_sha256': sha(HERE / 'inputs.json'),
             'review_state': 'completed' if finished else 'in_progress',
             'initial_push_confirmed_utc': inputs['initial_push_confirmed_utc'],
             'minimum_followup_end_utc': inputs['minimum_followup_end_utc'],
             'extended_work_until_utc': extended_until,
             'review_finished_utc': finished, 'completed_elapsed_seconds_after_push': elapsed,
-            'catalogue': {'challenge_entries': 22, 'other_records_before': 195,
-                          'other_records_after': len(after), 'new_physical_records': len(added),
+            'catalogue': {'challenge_entries': 22, 'other_reviewed_entries_before': 195,
+                          'other_reviewed_entries_after': len(after),
+                          'added_catalogue_entries': len(added),
+                          'unique_physical_sources_before': start_sources['unique_physical_sources'],
+                          'unique_physical_sources_after': end_sources['unique_physical_sources'],
+                          'additional_physical_sources_before': start_sources['additional_physical_sources'],
+                          'additional_physical_sources_after': end_sources['additional_physical_sources'],
+                          'new_physical_records': len(new_sources),
+                          'added_editions_of_existing_sources': len(existing_source_editions),
+                          'registered_source_overlaps': end_sources['registered_overlaps'],
                           'removed_records': [], 'prior_metadata_changes_other_than_paths': [],
                           'canonical_path_updates': len(changed_paths)},
             'source_package_count': len(inputs['source_packages']), 'new_case_pages': cases,
             'source_image_count': len(seen_images), 'pinned_artifact_count': len(inputs['artifact_sha256s']),
             'coverage_totals': totals, 'source_packages': inputs['source_packages'],
             'additional_packages': inputs['additional_packages'],
-            'new_record_ids': sorted(added, key=lambda ident: (after[ident]['printed_page'], after[ident]['source_section'])),
-            'counting_limits': inputs['counting_limits']}
+            'added_catalogue_entry_ids': sorted(added, key=sort_entry),
+            'new_physical_source_ids': sorted(new_sources, key=sort_entry),
+            'later_edition_ids_for_existing_sources': sorted(existing_source_editions, key=sort_entry),
+            'counting_limits': inputs['counting_limits'] + [
+                'Catalogue entries and physical sources are separate counts. Registered p132_B is a later edition of challenge p132 and adds no new physical source.',
+                'Package coverage retains every reviewed entry and its modeled positions, including that existing source. Coverage totals separately report unique reviewed sources and genuinely new physical sources.',
+                'Every unregistered duplicate printed-page/source-section location is rejected; similar bodies at different physical source locations are not merged.']}
 
 
 def main():

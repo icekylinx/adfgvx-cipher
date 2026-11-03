@@ -1,0 +1,41 @@
+{
+  "schema": "adfgvx-catalog-source-overlaps-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "review_date_utc": "2026-11-03",
+  "scope": "Explicitly reviewed multiple catalogue editions of one physical source. Similar bodies or repeated transmissions with different source locations are not merged.",
+  "records": [
+    {
+      "canonical_id": "p132",
+      "edition_id": "p132_B",
+      "printed_page": 132,
+      "source_section": "B",
+      "source_slots": 155,
+      "literal_source_sha256": "66115bd2941724f227aa9b34651f977127c0bf27bc4b2aee3dd876f804ce79a1",
+      "canonical_case_path": "cases/p132.md",
+      "canonical_credit": "Thomas (fragment) and Norbert (body), 2017",
+      "canonical_evidence": {
+        "path": "data/messages.json",
+        "records_key": "messages",
+        "record_id": "p132",
+        "literal_fields": ["transcript", "raw_source_compact"],
+        "printed_page_fields": ["source", "printed_page"],
+        "source_section_fields": ["source", "section"]
+      },
+      "edition_evidence": {
+        "path": "experiments/november_radio_service/inputs.json",
+        "records_key": "records",
+        "record_id": "p132_B",
+        "literal_fields": ["literal_source"],
+        "printed_page_fields": ["printed_page"],
+        "source_section_fields": ["source_section"]
+      },
+      "finding": "The complete literal ciphertext, source location, header and published key agree. p132_B is a later source/model edition of challenge p132, not another reception or physical source.",
+      "counting_rule": "Keep both catalogue entries and their original IDs and credits visible. Count their shared source once in physical-source totals; p132_B adds one reviewed edition entry and zero physical sources beyond the challenge set."
+    }
+  ],
+  "limits": [
+    "This register contains one exact same-source overlap. It does not merge records merely because their ciphertext or plaintext resembles another transmission.",
+    "Every duplicate printed-page/source-section location must be registered and supported by identical literal source bytes. An unregistered alias, including a p153_C5 entry for challenge p153a, is rejected.",
+    "The frozen catalogue rows and source proposals remain unchanged. The register supplies a separately verified identity relation and display annotation."
+  ]
+}

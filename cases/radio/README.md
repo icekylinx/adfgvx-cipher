@@ -4,11 +4,11 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**169 reviewed physical records across 70 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**169 reviewed entries across 70 case pages, representing 169 physical sources; 168 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
-| Case | Source records |
+| Case | Reviewed entries |
 |---|---|
 | [September: direct radio routing to Tiflis](september_tiflis_radio_routing.md) | p57 A1, p57 A2, p57 A3 |
 | [Nazareth evaluation office: request for news from the front](nazareth_front_inquiry.md) | p59 B |
@@ -141,7 +141,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p128 A1](telegram_priority.md) | Missing replies to telegrams 569, 592, 598; requests brief plaintext instructions | 113/113 fixed raw labels; 1 known-coordinate substitutions and 0 source-erasure fills; ordinary complete source frame | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier OCR-derived candidates credited separately |
 | [p128 A2](telegram_priority.md) | Suggest explicit radio priority for these telegrams; literal Horstmann signature | 134/141 fixed raw labels; 5 known-coordinate substitutions and 7 source-erasure fills; ordinary complete source frame | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier OCR-derived candidates credited separately |
 | [p132 A](p132_radio_service.md) | Partial officer-register request; addressee and general-name fields remain unresolved | 120/121 fixed labels in the exact source frame; 6 substitutions and 1 source-erasure fills; names remain partial | icekylinx and GPT-6 Astra Pro (2026); prior published keys and earlier OCR-derived candidates credited separately |
-| [p132 B](p132_radio_service.md) | Eilvese repetition order: fourth period in fifth, preceded by five minutes of VVV | 75/77 fixed labels under a conditional extra-interim-V model; four equivalent positions; 3 substitutions and 2 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published keys and earlier OCR-derived candidates credited separately |
+| [p132 B](p132_radio_service.md) | Eilvese repetition order: fourth period in fifth, preceded by five minutes of VVV | 75/77 fixed labels under a conditional extra-interim-V model; four equivalent positions; 3 substitutions and 2 source-erasure fills; later edition of [p132](../p132.md) | icekylinx and GPT-6 Astra Pro (2026); prior published keys and earlier OCR-derived candidates credited separately; original reading: [Thomas (fragment) and Norbert (body), 2017](../p132.md) |
 | [p132 C](p132_radio_service.md) | Request repetition of a garbled Caucasus message; raw OSKACHI reference retained | 99/99 fixed labels in the exact source frame; 0 substitutions and 0 source-erasure fills | icekylinx and GPT-6 Astra Pro (2026); prior published keys and earlier OCR-derived candidates credited separately |
 | [p134 B](../context/radio_instructions.md#p134-b--repeat-a-fourth-period-telegram-in-the-fifth) | Repeat a fourth-period telegram in the fifth | 50/51 raw positions; wording partly editorial | icekylinx and GPT-6 Astra Pro (2026) |
 | [p137 D](radio_contacts_and_keys.md#p137-d-the-oskachi-key-is-no-longer-here) | Tell POT the OSKACHI key is no longer locally available | 51/51 fixed raw labels; 1 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
@@ -257,7 +257,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 
 ## Related challenge entries
 
-These retain their original challenge identifiers and statuses; they are separate from the record count above.
+These retain their original challenge identifiers and statuses; same-source later editions are explicitly linked in the table above.
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|

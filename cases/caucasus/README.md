@@ -4,11 +4,11 @@
 
 Read the October staffing, supply and purchasing exchanges with Tiflis, followed by the Polish representative appointment and later armistice instructions.
 
-**43 reviewed physical records across 15 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**43 reviewed entries across 15 case pages, representing 43 physical sources; 43 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
-| Case | Source records |
+| Case | Reviewed entries |
 |---|---|
 | [Horses for a cavalry brigade: Poti shipment and handover inquiry](poti_horse_delivery.md) | p59 A2, p59 A3 |
 | [October routing, weather and personnel requests](october_requests.md) | p62 A, p62 B, p63 A, p65 A |
@@ -76,7 +76,7 @@ Read the October staffing, supply and purchasing exchanges with Tiflis, followed
 
 ## Related challenge entries
 
-These retain their original challenge identifiers and statuses; they are separate from the record count above.
+These retain their original challenge identifiers and statuses; same-source later editions are explicitly linked in the table above.
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|

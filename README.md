@@ -30,11 +30,13 @@ These retain all original challenge identifiers. Page numbers alone do not ident
 | [pp. 175–199](cases/pages/175-199/README.md) | 6 | [p176a](cases/p176a.md), [p176b](cases/p176b.md), [p187](cases/p187.md), [p187b](cases/p187b.md), [p189](cases/p189.md), [p198](cases/p198.md) |
 | [pp. 200–224](cases/pages/200-224/README.md) | 2 | [p215](cases/p215.md), [p217](cases/p217.md) |
 
-### Other ciphertexts — 577 reviewed records
+### Other ciphertexts — 577 reviewed entries
 
 Multipart messages and repeated transmissions have separate source records even when they share a case page. Direct readings, source-supported reconstructions and conjectural repairs keep their stated limits in the detailed page tables.
 
-| Printed source pages | Reviewed records | Pages represented |
+The 599 catalogue entries represent 598 unique physical sources, including 576 beyond the challenge set. 1 later-edition entry shares an already catalogued source; [the exact overlap and counting rule](docs/catalogue-source-overlaps.md) preserve both editions and the earlier credit.
+
+| Printed source pages | Reviewed entries | Pages represented |
 |---|---:|---:|
 | [pp. 50–74](cases/pages/050-074/README.md) | 40 | 17 |
 | [pp. 75–99](cases/pages/075-099/README.md) | 63 | 25 |

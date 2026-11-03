@@ -63,6 +63,8 @@ partial source edition, not a securely identified personnel record.
 
 ## B: repeat the fourth-period telegram in the fifth
 
+This is the same 155-slot physical source as [challenge p132](../p132.md), whose page preserves Thomas's 2017 fragment and Norbert's fuller sender-error reading and VORHER proposal. This section is a later source/model edition of that record. The two catalogue entries retain their own identifiers and count as one physical source.
+
 The [B source](../../experiments/november_radio_service/sources/childs_p132_B.png)
 is marked with explicit urgency:
 

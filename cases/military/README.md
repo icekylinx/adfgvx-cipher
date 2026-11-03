@@ -4,11 +4,11 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**227 reviewed physical records across 81 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**227 reviewed entries across 81 case pages, representing 227 physical sources; 227 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
-| Case | Source records |
+| Case | Reviewed entries |
 |---|---|
 | [p79 — medical formations lost in Palestine and their dissolution](palestine_medical_dissolution.md) | p79 A1, p79 A2 |
 | [p83 B — dissolution of formations and return of personnel](formation_dissolution.md) | p83 B |
@@ -326,7 +326,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 
 ## Related challenge entries
 
-These retain their original challenge identifiers and statuses; they are separate from the record count above.
+These retain their original challenge identifiers and statuses; same-source later editions are explicitly linked in the table above.
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|

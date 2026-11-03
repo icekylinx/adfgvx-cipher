@@ -4,11 +4,11 @@
 
 Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and naval orders are collected here.
 
-**40 reviewed physical records across 15 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**40 reviewed entries across 15 case pages, representing 40 physical sources; 40 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
-| Case | Source records |
+| Case | Reviewed entries |
 |---|---|
 | [Gerlach oil-release inquiry: the overprinted parallel](gerlach_oil_release_query.md) | p83 A |
 | [p84 A/B — Release of oil and Black Sea shipping safety](p84_AB.md) | p84 A, p84 B |
@@ -73,7 +73,7 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 
 ## Related challenge entries
 
-These retain their original challenge identifiers and statuses; they are separate from the record count above.
+These retain their original challenge identifiers and statuses; same-source later editions are explicitly linked in the table above.
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|

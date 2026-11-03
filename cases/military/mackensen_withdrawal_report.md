@@ -171,6 +171,15 @@ Three observed-coordinate substitutions, six source-mask fills and one modeled m
 
 The source prints 160 slots against RICHI-222 and explicitly says “Balance jammed.” The stated tail-loss model appends 62 unknown coordinates. Only 38 of 111 plaintext positions are fixed, and **no source mask, lost coordinate or word is filled**. The existing historical translation is not converted into invented cipher evidence.
 
+A [separately priced optional route fragment](../../experiments/p116_optional_route_fragment/README.md)
+tests five word spans under this same tail-loss model. It fixes 75 of 111
+positions through five printed-mask fills and 32 lost-tail fills, without
+changing any observed coordinate. Each of the 37 selected letters retains
+one observed half-pair. The historical English translation guided the word
+choices; it is not an independent German coordinate witness. The army label,
+approval clause and footer remain unresolved, and the raw-only edition above
+is unchanged.
+
 ## The two short frames require different qualifications
 
 Part 11 actually prints 219 slots, although its header says 220. An independent

@@ -182,6 +182,14 @@ first initial or expand the reference.
 
 Source: [p63 A](../../experiments/october_requests/sources/childs_p63_A.png).
 
+A [separately priced technical-word proposal](../../experiments/p63_optional_technical_reading/README.md)
+reads `MASCHINENTECHNISCHEN` after treating one raw W as a surplus interim
+pair. It keeps both printed D coordinates in the full transmitted witness
+and adds three observed substitutions to the existing twelve. The optional
+model therefore costs 15 substitutions, two dash fills and two surplus
+interim coordinates. Its unique minimum is conditional on a retrospective
+word template; the primary 21-position unresolved span above remains unchanged.
+
 ## Attribution and limits
 
 These source editions use an earlier published period key. The adjacent p64
