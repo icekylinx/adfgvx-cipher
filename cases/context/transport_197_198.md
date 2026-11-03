@@ -1,5 +1,7 @@
 # Equipment and lorry orders — p197/p198 parallels
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [Case index](../README.md) · [Earlier transport traffic](transport.md) · [ADFGVX Cipher](../../README.md)
 
 **Source linkage, reconstruction and review: icekylinx and GPT-6 Astra Pro.**

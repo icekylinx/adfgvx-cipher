@@ -1,5 +1,7 @@
 # Kremp's request for a departure date — p131, p149 and p159
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [Case guide](../README.md) · [ADFGVX Cipher](../../README.md)
 
 **Status:** The unlettered final message on p159 is completely readable under

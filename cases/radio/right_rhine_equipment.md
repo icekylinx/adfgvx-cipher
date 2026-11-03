@@ -1,5 +1,7 @@
 # Equipment transfer east of the Rhine, with radio service maintained
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source recovery and edition: icekylinx and GPT-6 Astra Pro.**
 
 This order directs equipment identified by the unexpanded label **`U.S.`**
@@ -54,7 +56,7 @@ coordinates. The two ordinary-word question marks in the raw reading are
 also partial-key outcomes; their editorial repairs change observed
 coordinates, rather than filling the key with new letters.
 
-| Literal source slots | Working coordinates | Raw fixed labels | Edition fixed labels | Observed coordinates excluded | Known-coordinate substitutions | Erasure fills |
+| Literal source slots | Analysis-frame slots | Raw fixed labels | Edition fixed labels | Observed coordinates excluded | Known-coordinate substitutions | Erasure fills |
 |---:|---:|---:|---:|---:|---:|---:|
 | 271 | 266 | 128 / 133 | 130 / 133 | 5 | 7 | 0 |
 

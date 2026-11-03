@@ -1,0 +1,1895 @@
+{
+  "schema": "adfgvx-reading-conventions-safe-pass-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "created_utc": "2026-11-03T01:05:55.362013+00:00",
+  "applied": true,
+  "scope": "Frozen135-file real-case inventory, excluding explicit collaborators and files awaiting integration. All existing section headings and complete fenced blocks are byte-identical.",
+  "inventory_real_cases": 135,
+  "touched_files": 121,
+  "fenced_blocks_checked": 575,
+  "excluded": [
+    {
+      "path": "cases/caucasus/october_caucasus.md",
+      "reason": "p73 manual ownership"
+    },
+    {
+      "path": "cases/caucasus/october_staffing.md",
+      "reason": "p73 manual ownership"
+    },
+    {
+      "path": "cases/caucasus/p218_A.md",
+      "reason": "p73 manual ownership"
+    },
+    {
+      "path": "cases/caucasus/tiflis_appointment.md",
+      "reason": "p73 manual ownership"
+    },
+    {
+      "path": "cases/military/nov10_danube_field_report.md",
+      "reason": "await root integration checkpoint"
+    },
+    {
+      "path": "cases/military/nov9_operational_reports.md",
+      "reason": "p73 manual ownership"
+    },
+    {
+      "path": "cases/naval/p205_B.md",
+      "reason": "p73 manual ownership"
+    },
+    {
+      "path": "cases/p153a.md",
+      "reason": "p73 manual ownership"
+    },
+    {
+      "path": "cases/p153b.md",
+      "reason": "p73 manual ownership"
+    },
+    {
+      "path": "cases/p176b.md",
+      "reason": "p73 manual ownership"
+    },
+    {
+      "path": "cases/people/glatz.md",
+      "reason": "p73 manual ownership"
+    },
+    {
+      "path": "cases/people/spa_berlin_delegates.md",
+      "reason": "await root integration checkpoint"
+    },
+    {
+      "path": "cases/radio/nov14_radio_retransmissions.md",
+      "reason": "p73 manual ownership"
+    },
+    {
+      "path": "cases/radio/p164_B.md",
+      "reason": "p73 manual ownership"
+    }
+  ],
+  "protected_unchanged": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/messages.json": "1e4013252eb54065435ae1591abea729df8e40e482a6fe57165b512a9ba9c373",
+    "experiments/armistice_provisions_requests/inputs.json": "3de43efa50c917c7a84e5497d237c23641f38546aab8d0b84cdd72f00b1a1930",
+    "experiments/armistice_provisions_requests/certificates.json": "f9d2555efb33d9536f4bb531f0de95854f986d0732d404e8ff400f293396aaa3",
+    "experiments/transport_and_disarmament_orders/inputs.json": "db35066130bf6e0c7900bbaf5164d9acdb8f9cdbccb3a8aeeaca8fc7b54fc23e",
+    "experiments/transport_and_disarmament_orders/certificates.json": "8f2db3ead12331027ad0c2cc4a3a3ea6b36e93082bbba9377bfc8053b47fe2e6"
+  },
+  "files": [
+    {
+      "path": "cases/caucasus/october_requests.md",
+      "before_sha256": "351eba74001966186d67a73c072b287e347e5d58412c49473b3e659c13ef29a7",
+      "after_sha256": "357ef5a212d4ad852a888e3b549ce9b2f6fd4769259413cd8a96e0bbafff2cac",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/caucasus/p212_p218_crosscopy.md",
+      "before_sha256": "782ac916896ee39544e0c0af36acd18aa86f0d8cde6e58c86f30ea62b5927345",
+      "after_sha256": "d02b00da3e9d7a6dfeb34f0afa40859637d801d005993afef5a4ed3ead451161",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/caucasus/representative_retention.md",
+      "before_sha256": "bf60fe2c7a7adb55878e49982d1cadb0877481983cec83f5a97464a9f766eec7",
+      "after_sha256": "9dec73fe53a814ced96b705ab32427abae86d73b6dbe877471b5681bc6a9b2d7",
+      "fenced_blocks": 5,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/caucasus/tiflis_pioneer_detachment.md",
+      "before_sha256": "c4343d33a955ad9a2d8c11e4bbe4360a00380168b8f7598941bac4f48619a380",
+      "after_sha256": "8caffc208ad67be0d646887431e1bad825ba6f9cf447903b20e2787ba03a403b",
+      "fenced_blocks": 1,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/context/p155.md",
+      "before_sha256": "814ec0f318e8e52c48eb88ddb9376e9053fee0a3872e68359a308c3fc4edc3d9",
+      "after_sha256": "43608cf1a2710d077a231a75318c84e66e7488d48716834923806217fa8a5cf6",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/context/p164_A4.md",
+      "before_sha256": "f649d180a8bbaa8696796c7fac1b1defd9a018c5b418a901c6f287b0475410fd",
+      "after_sha256": "cb7721b3f14612923b9d23b49b15a747125b9914fa182d20bdc603f679ecb10f",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/context/p186.md",
+      "before_sha256": "f1568ce9582813655db333a46ae7ee4a8453b13751addc02718ca7d0b829b0d7",
+      "after_sha256": "caab70f99a917d0f083799eb0f55473f7b1966952686e10e272791937b8ac34f",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/context/p189_C.md",
+      "before_sha256": "5c5814c41b2cc5caabae74fc5dad0cbb45b8ac45a842f558a8f430e168aeb690",
+      "after_sha256": "64412a94d50af8c60be0add0eaf915a79c75a18cd61684fdc1af54993f6d221e",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/context/radio_instructions.md",
+      "before_sha256": "9704c900e923c1aa2648e0cb034765798300985bc89ab8d9783b674e065fb4aa",
+      "after_sha256": "3cc6bfadc64ae700a660b7710d950879abcaefe2e612bba0159e3135dbc415f2",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/context/transport.md",
+      "before_sha256": "1f9ad33a25032813ba0eb2fa3f346d4db9d85a3a5287784de081a547f276f5f6",
+      "after_sha256": "996c918323a638a6be085299276412100733826c415a27ead5807c73ebf3f4e5",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/context/transport_197_198.md",
+      "before_sha256": "56e7051ab6e8158b0c549dbe013af7b132f97b9ddd5a829f6e103f384a151c9f",
+      "after_sha256": "832d90e296f509dead15e81b5591ac8210853075a1bcb7d3b5e9ae51678a559c",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/finance/crown_airlift.md",
+      "before_sha256": "fb150c4debaf6d71c688a679f9fae8bd29629a72f2a640db96b85d02c662da37",
+      "after_sha256": "a6ab5653a08c4c62866065265fa9156012113cdeaed1cedc1fc18813ec8d5d42",
+      "fenced_blocks": 6,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/finance/crown_banknote_completion.md",
+      "before_sha256": "4e6cc8e09c7c2c71c0f71b21a7f579bbb85b365ee4aa5555445947d5140acc06",
+      "after_sha256": "a1d0258677af1a94103309925043149270bd34d894b736c1303c5f4ddf2c848e",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/finance/crown_cash_requests.md",
+      "before_sha256": "4ede3ffd3bee942cf154bc8ca3ed8264824659b34af397c527af868a44592006",
+      "after_sha256": "e5ac05a31e990adbc09b0e3a5674e0292e5d78dda9be87a93ecbe8745385401f",
+      "fenced_blocks": 7,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/finance/deutzitag_dispatch_inquiries.md",
+      "before_sha256": "0c908d612d320a54b4d8e21c1e64f7b48c4a5e221f8e4224c6861bba4d1d914d",
+      "after_sha256": "dd0963600c1e840b98d93ce334f74fa2b7c83102cff20bcf958fa353056d5a8e",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/finance/hermannstadt_cash_transport.md",
+      "before_sha256": "46ac488e28ee1fa21779b5492d2704b3c50a8b3263b6188fe7e357efa99088e9",
+      "after_sha256": "2d9048549809fe31ea13924e7adbffc7d0b7aee6478ae15453bcfeaeaa5127a5",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/finance/lei_note_exchange.md",
+      "before_sha256": "3490852c64b43f5715c57c912bab5b012d7f31c6e1bddfaa403766d478d35c13",
+      "after_sha256": "1303a47d6e6c86a96384aa6da983c42ea6a5f6c8997dacfc08d79b2e76ab14b9",
+      "fenced_blocks": 7,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/finance/military_allowances.md",
+      "before_sha256": "7ef06a2a25e44f3dc15107781aaa08b4c06c8cd446465f9099a8045f46589e2c",
+      "after_sha256": "7cfb07fe3953aded97c042aacacc77b0de767377f689a97de7989575949af966",
+      "fenced_blocks": 7,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/finance/oil_cartel_dispatch_query.md",
+      "before_sha256": "3ea2e49646fdb58d2622cd806ca4137184830b14702888a79943c88d230fd8b1",
+      "after_sha256": "eb366b06875587da8e8f3c7ea3a661ec148653538031afa746e276134223c5e5",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/finance/p205_A.md",
+      "before_sha256": "6b92118a9cbfcf24c647608fb70cd362a4da96e466da68755ef6d14408676b49",
+      "after_sha256": "24e08ae83915a8d713b46afa2e90551616a685d842416575a219469cf66803b0",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/finance/ruble_rate_companions.md",
+      "before_sha256": "9910d7657e99f18bbe32bbd7dfae15a63f71ef79b28fd43a1be90d80be34c14d",
+      "after_sha256": "50f5fb6f25fbe353a95592ce7007cbaa0d01e441613b77d62ede5888fa4b8af8",
+      "fenced_blocks": 6,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Part | Literal source slots | Working coordinates | Raw fixed labels | Edition fixed labels | Known-coordinate substitutions | Printed fills | Added-coordinate fills |",
+          "after": "| Part | Literal source slots | Analysis-frame slots | Raw fixed labels | Edition fixed labels | Known-coordinate substitutions | Printed fills | Added-coordinate fills |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/finance/zitag_purchase_orders.md",
+      "before_sha256": "abb18c64f60d2925f51b7f92b1ad6d66ec3afdc77169d561ff81c4fb3d8fc32b",
+      "after_sha256": "815d37ae0e124ccffa08951e8825799db881c81899d3389452da14890abe1ce2",
+      "fenced_blocks": 9,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/armistice_and_leave_orders.md",
+      "before_sha256": "e3f6771dae162ec0efd58c2213c09aa24d29af9fb017dcd31ebcdc69deae7f2d",
+      "after_sha256": "c024d5334d8c18cd15142aa609fbacc39fba637012c6fa52af6d877b5028a365",
+      "fenced_blocks": 8,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/armistice_clause_witnesses.md",
+      "before_sha256": "c1e947b4220ca7226275f12f5a0d17a9f665daa43003272850dcaf7f39f2ac92",
+      "after_sha256": "d8ec50b013451d88f3ea8ee5c0f728cf700ad8a1df3c1ca62181f5ba601ad7a1",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/armistice_provisions_requests.md",
+      "before_sha256": "72d1bba2aa217ab9527d6c1b88938ef5e6cf7633d0df24d1f42eb41f4c025870",
+      "after_sha256": "3a94cc5f2b8706f91c290785c373cd66242910792ff55085d5457ba70a1ef6d2",
+      "fenced_blocks": 6,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "verified_mask_count_unit",
+          "before": "Visible slots \u2192 working coordinates",
+          "after": "Source slots \u2192 analysis-frame slots"
+        },
+        {
+          "kind": "verified_mask_count_unit",
+          "before": "669 visible slots, 668 working coordinates",
+          "after": "669 source slots, 668 analysis-frame slots"
+        },
+        {
+          "kind": "verified_mask_count_unit",
+          "before": "444 native coordinates, 222 positions",
+          "after": "444 source slots, including one noncoordinate E glyph, and 222 positions"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/armistice_transit_planning.md",
+      "before_sha256": "03d748f2a6329f8231a0948ee35e8a483fcfebd488a1aa6f29b6b9d00944bef0",
+      "after_sha256": "17227c58e6ce0c23b144952e6a2d983cdc351b9055561dd7693d21acf8984843",
+      "fenced_blocks": 13,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/black_sea_disembarkation.md",
+      "before_sha256": "85e21cbe32a23c8c0d73245b13fab6138c08476f06ca237a6688952930a9e90e",
+      "after_sha256": "be7369d6707b3a4f85f27a48acb1807c0e57a7a5b2ba1649417f11d1dfa2fe2a",
+      "fenced_blocks": 5,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/budapest_wire_break.md",
+      "before_sha256": "65369e41c005a8631e1630363cccfe9cd510b98f6f2ae09ebd80cf6e10b5d878",
+      "after_sha256": "4d647206b7609d2cb8a461847970be045731e3ef8805b73ecaa104166ec87f8e",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/dobrudscha_report.md",
+      "before_sha256": "2036d4080181ec70e36773fafbcd75d188cb36d97796ec554ab0b402d3682c9c",
+      "after_sha256": "effc095fd299682879401ed7a5f61b3c976a6d8341d0d17d62a8ec0409487a69",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/formation_dissolution.md",
+      "before_sha256": "510b9b118e2bd5d948cc465ba7be6f331f97a2b3956d3336fa4b1162bd99644d",
+      "after_sha256": "f358fa2c188be89f14718cd22e75afcbb2c2b0a04c70d5e5f4bb2dd0cd80720d",
+      "fenced_blocks": 1,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/hungary_transport_warning.md",
+      "before_sha256": "23bb36642032e189a735d296fc30772cca9d293034594821830ae6c660131fd7",
+      "after_sha256": "1b81216bcf2018ce9b9269bd4ac0d3ed81f08f444fd461ef0291246f65da459b",
+      "fenced_blocks": 8,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/late_transport_dispatches.md",
+      "before_sha256": "829d67a662b15802fc441418c8323c84a5b96dd68870694b94b0cb01189341ab",
+      "after_sha256": "da98de1a1b89ee91f75a7a8cd23f5adeb8f24cc24ec8972ad78d303173bb1520",
+      "fenced_blocks": 8,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/liman_troop_reports.md",
+      "before_sha256": "3b84e33c7e4b715e091f93579fbc7c83f6d3bcbcc1f12bba12117f20b964ee52",
+      "after_sha256": "03337b3692ba5e4c252d57e82cf86911514a586c0724b3dc70f15c9ef5ef48df",
+      "fenced_blocks": 5,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/mackensen_armistice_appeal.md",
+      "before_sha256": "03afddad0631c28a47e660cc04f5078bc75e8896e4196169ceb0f2818098e70d",
+      "after_sha256": "cb5099aef377a4eaaa6a1993327015eec4985b0aca2892e82f85a01a2af4e21f",
+      "fenced_blocks": 13,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/mackensen_internment.md",
+      "before_sha256": "4ba91a5a7b3a1ad6ab6253d5d600f9fe090f2a0150e8f42355c2385e800f1eaf",
+      "after_sha256": "b222ad41938b47c8ad64f9435dce5b4d5d88460659b810e1935181e4af64da1f",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/mackensen_warsaw.md",
+      "before_sha256": "7b71e599df66ec7c4044f13e488379cfffcf99e36f48d2d47f6a02c402ec7adb",
+      "after_sha256": "bf779412c01b87c062944361e8c423c62bcdff94c7aacf78ecb773c89314d9a6",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/mackensen_withdrawal_report.md",
+      "before_sha256": "dc574e377578d9cab99b8314239931078026375dcf80acf0a217b3fcdb69035b",
+      "after_sha256": "fdfb15d2ffb6e0fb826ce53d89366937905679c0bb2948a4b4a5ba78b0661568",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/medical_return_transports.md",
+      "before_sha256": "a16b2c81bb935b611debf212037db2a86bc6086f39264123da2288aacb07549f",
+      "after_sha256": "c298eeccc32211698a3c03f776a3454884c4261d2a5044fc838fc8542c797b24",
+      "fenced_blocks": 8,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/mg08_inventory.md",
+      "before_sha256": "109d7d870a45f83399f291c7ab12359c3a7735b645f531166c61c6f233bac1ee",
+      "after_sha256": "ee105a09cbe78107f84e1e6f7f683aaa1d6bc8634c07185c7c3082131140666f",
+      "fenced_blocks": 5,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/military_intendant_remit.md",
+      "before_sha256": "b67688e374a61386759c41b17078edbf8f79240d142b7dfeda2c3735e2ce804e",
+      "after_sha256": "461d93ef86b1af6d458b4447b6a362ffccd0cf18ee3f885776b2f5dc09f46e29",
+      "fenced_blocks": 10,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/neuhof_demobilization.md",
+      "before_sha256": "a72a1a66333d3c4821ff2219adb40f81d1707410386f477601a2deaa5ce17bb2",
+      "after_sha256": "9cea0d3abe09c90e3328e18bf1c3143bd14755897959c4a21007e614a60a666f",
+      "fenced_blocks": 8,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/orient_intelligence.md",
+      "before_sha256": "9d7ee0be949e0661ffda2f8996a8b648637cbcbabb9daab4d5028f683c26c2e3",
+      "after_sha256": "7edca5c1c87d9035297036965a0c2503bd18be8f50b821d5ae6faae7ff50a6fb",
+      "fenced_blocks": 9,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p163_A.md",
+      "before_sha256": "16fff30e9c392c3e2fc40becfcc9fa8abda55d2044f8983918f4f3e1f85067f1",
+      "after_sha256": "d43e854fb39452dafa2556c5acbfc9771f75a0575a8f1933f9d9e85866defbb8",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p180_A.md",
+      "before_sha256": "b3f1648a303286f09f83dcd5ba5a092b3bd2bd9c98f1e6ca5253f5d308a070c7",
+      "after_sha256": "a269c893eaafced5ee9ddc9e03f0c866515e5a054fa19d9a649db999aae5d7f8",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p191_A.md",
+      "before_sha256": "99acc71205cf6641386e55bdd3c8258483f83f0f5a44e42e3a59756ddb984d49",
+      "after_sha256": "1d2a08732244a86c9bff60e41605a24c8892c51c7d10983e46a5eeec210e399c",
+      "fenced_blocks": 5,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p200_A.md",
+      "before_sha256": "abb1016db53e28b8515e0faabc2365f977e9938818dcfffb1eaaf4858959f7db",
+      "after_sha256": "4292e72030a79d378775cf7e842c1a4e7a4facf5a509ed94528a48b0ebd3d3df",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p201_p206_orders.md",
+      "before_sha256": "735fe0ab42929574f1b399179c0b83477c259993da9c8551a15531bf7a0009d5",
+      "after_sha256": "f54b2bffadf447f7e845ce402429f2f03bc3efc639b98698030cb7bea468b2a0",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p210_D.md",
+      "before_sha256": "c545a355beed5cf4fa08ed73d9d66f0b06db16ecf7cd6156c40576f195ceba51",
+      "after_sha256": "c3e4f1e7cd4c1123aec0bcb1fdcdd0a3c361cb140c571838dbcd5644a7693380",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p217_A.md",
+      "before_sha256": "d028aeefcdea724d36e1e91b5a090ed652e9188ff540cc154fc3ab409a2fd015",
+      "after_sha256": "65617075daddb977e8d9a73c47ba979054ee2c25f42f82d71a1fe1d750d2e12d",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p230_A.md",
+      "before_sha256": "dd4a5705864e3b096aa1d8e227910bbe20aa375a2e908515b61fd988f594bc63",
+      "after_sha256": "8cabe754e38f8e69050d5250dc808364737c9b3be03d56e48dcf5d01edf64344",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/palestine_medical_dissolution.md",
+      "before_sha256": "f621b84a12595a9d1bd3c0fbe577165b2dae706774b09721b48468cc807f1965",
+      "after_sha256": "fa15559a4074d13877d7dbf8e4b2bbb8aa974d8b2921baa9f7ee608cbe5c1d50",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/prague_route_and_situation.md",
+      "before_sha256": "bfc47474f1623bd8f37ac2a4e68987616f54cff22b84ccd3e50170de7d703928",
+      "after_sha256": "b38566362bb34de71425b16831837293d77d946c1e9b8a51643b6caf36bc2f97",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/repatriation_orders.md",
+      "before_sha256": "691abeb222e752a1dab2c9badf2b9a61cf58daf5f149fbd50812775f2fc6d534",
+      "after_sha256": "e7f1128069ddf7c2b87a11456fd502a67880cd8f579f45c6bad166e686e9bbff",
+      "fenced_blocks": 7,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/transport_and_disarmament_orders.md",
+      "before_sha256": "9e8f0765123ff1ec7373905480964a259d3e052b57bc2e1d286e83b937783a1a",
+      "after_sha256": "d6a2caede310b210f6667897e551687bfa25925704d66aa4e7bb204ac0f2afaf",
+      "fenced_blocks": 10,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "verified_mask_count_unit",
+          "before": "| Record | Native coordinates |",
+          "after": "| Record | Source slots |"
+        },
+        {
+          "kind": "verified_mask_count_explanation",
+          "before": "| **Total** | **1,188** | **586/594 \u2192 594/594** | **15** | **8** |",
+          "after": "| **Total** | **1,188** | **586/594 \u2192 594/594** | **15** | **8** |\n\nThe 1,188 source slots comprise 1,180 valid ADFGVX coordinates and eight printed dashes."
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/transylvania_situation_report.md",
+      "before_sha256": "89d6093421a7413f74f2c866d3e496b0ad1b3e46dadb50db1f2066fb068d04a9",
+      "after_sha256": "cdbd8c8dec7f1fd930bdc15786051ac12f64ffe01c6145134d767fa3f8f0a322",
+      "fenced_blocks": 10,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/turkish_mission_recall.md",
+      "before_sha256": "05c61b9d49d310ba51ee126bf0ee9c5c98c71bedf2c48f38a2fc1517dd292a9c",
+      "after_sha256": "c6ff01321a9ac630a6f94cb69857056c43b1bf1af3203fd93a5ba6fcbfdbf083",
+      "fenced_blocks": 7,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/wallachia_withdrawal_preparations.md",
+      "before_sha256": "278ea0a71133a17e90c1a8507916d6444b21c493dba32c37a6a865fbd2b7f538",
+      "after_sha256": "dfa4009b6d998c8b8d8689586f400d76a3c21f961891642e5ea9a3bbc0b5a258",
+      "fenced_blocks": 10,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/naval/black_sea_shipping.md",
+      "before_sha256": "2508da42810037622f179bc776c7e67763e413a04ca7fdb80810056006d6001c",
+      "after_sha256": "60fc9873c2a061b7286ef18eeb7967093d3ba3d9668f67745cd853f81e6d1ef2",
+      "fenced_blocks": 10,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/naval/corcovado_sale_terms.md",
+      "before_sha256": "0aeb3e915b2217ad4aa2b9f52d79387f10b4aed10b1e11ce31b5db77ab420778",
+      "after_sha256": "c7c91d5367d3b3aec0564506b68220ca0ee3d27a3dd6d02424c4c995768ed401",
+      "fenced_blocks": 13,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/naval/naval_armistice_order.md",
+      "before_sha256": "4b6a176e020aeaf6848f14083f7902583b45e8979ba178bb79a24173ab6f5ad1",
+      "after_sha256": "18b61a5bb4973639c6b89691cd74f95a1a4b88945f3ef0c86545a14024c1b872",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/naval/p120_p123.md",
+      "before_sha256": "1704e00c481908d255e0f1697099c2962d5bc5c9815d1835eaa8e06a446f1590",
+      "after_sha256": "5b28be0752cd97cb9ad09d7262ed331ab49c94ca6374d9aa9b664b5b5c6ca876",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/naval/p210_A.md",
+      "before_sha256": "0871db9b4ffeea28a1d3c3c50539d2e662fd8699b89afa920fd591b0cac1f675",
+      "after_sha256": "c891ae1e21e13cf0da084895fc2475edbabe3d3b88a942d5643550238b10c5f4",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/naval/p84_AB.md",
+      "before_sha256": "c02706ef32b8a03cec104a086cb2b6fe409ceeff3c40d7ea61d11f1b479a2f9e",
+      "after_sha256": "555c52b7ae0468365d43e8d4f9bc34db0ce8305033622e01181b3be4a6a4552d",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/naval/reval_steamer_notice.md",
+      "before_sha256": "dcb4d6601a21a2b137bef3dedd1c898ed60d51c18652e10bc271b3b13b4199e3",
+      "after_sha256": "4d7e433c66a426b61718d063c731d9ea51bb0226d3c6fd11377da068c5486df1",
+      "fenced_blocks": 5,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/naval/turkish_tonnage.md",
+      "before_sha256": "7e32e79ec585e524b6d81a2a9131ca16aedebf08dc512aef734f36cc065cc348",
+      "after_sha256": "6612a392bf8227dcbbf39d9afe941c699a4beef491100119ec9fb7615f76da6f",
+      "fenced_blocks": 7,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p100.md",
+      "before_sha256": "c9b517fdfb9f67177f244891c0021f0d4f3c63ac751fbbc45d0e09925f51298a",
+      "after_sha256": "65971ebf34b14641e4e6846882e799277dcc79f8258e9b2f6286fb09c8ad64ae",
+      "fenced_blocks": 1,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p105.md",
+      "before_sha256": "2f65ad2eab903781ff343c05cdc7ef9dc0fa4811a06f07ca2d0a08a306ce3e18",
+      "after_sha256": "7f90c3b475c7dc2005366ab043a9fb905b6dfd95e8770773a41eda15f60404bb",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p109.md",
+      "before_sha256": "848c9a88e9e14b3958de4582441600061a1fd61b77e1f172aca92c45ed0eb5cb",
+      "after_sha256": "9c5515236b71d2ee429569a2291420926e018b366efddb51eec39769c00a343c",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p132.md",
+      "before_sha256": "0d8aa864480473352a80fe92c11f0daf7ef90b2bea103291ba687885da6a7824",
+      "after_sha256": "01cce09f649c628fd21da398909a62c5f8f71eb7ff862d72064e5fe2282624d8",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p146.md",
+      "before_sha256": "86f335000f46a57edf5d90f85a7b2152a57ab3dd036418893ff906c29c75c973",
+      "after_sha256": "a2f6e7ed49effc77fa74790c07db028e70cab87531de93f80a146428c063aa03",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p152.md",
+      "before_sha256": "a1d31af41669dcfefda9b1bd06acae91806defd0e5482614d96ddd207cf49d01",
+      "after_sha256": "0e25ca333230636e7ea2267d1583bed94ce761ded314971d1368e4d7d5629383",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p158.md",
+      "before_sha256": "6f43436806490a86d9ffa1344d67d6206344f9871fd1464245b4a35b7d24d9c5",
+      "after_sha256": "9078127233dcff3c61ffb508b62742dc13d5b4812b7c1d8c1afe22f7115e76a0",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p164a.md",
+      "before_sha256": "0085cadc07a08f13c80471b3af07c8a051c6460a115a9a226adcf40d57efc5aa",
+      "after_sha256": "193547a9c8631fe819a85a15c30add3c168c9679cdcdf9b286c9797136a06c1d",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p164b.md",
+      "before_sha256": "8b5a8f1354a86d17867a458fbd7e71ebbfe8e3bedd90ea47b009047ed75f05f7",
+      "after_sha256": "6759948e37cf6c96d9c608283729ce2fbd912b1d92b35b587c4cddfdffe5ba63",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p170.md",
+      "before_sha256": "1c13587e3ce3ad27d1403481a21e24b97be2a42131f7951362e8b0650cc4e7d9",
+      "after_sha256": "45ea9ab47e709720a7e0e0f36684eebe4dd23098ca4b0f2e1e23daaf8fa02432",
+      "fenced_blocks": 1,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p171.md",
+      "before_sha256": "c52e7952ba712b77321dd96f362805e9388e2b19b16e61ca5b111fb76ab43863",
+      "after_sha256": "597bfa1f49c84c55e377db4d2f6f24cd799ff4c5eba28fc5e326803f23a0acdc",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p176a.md",
+      "before_sha256": "eb083f4741edafb0d2e05ff032b6a561d52b79a177c3de0382700e268af3ac81",
+      "after_sha256": "8e66755ff8603bab3933247bccabd392ba99505de2c7b4b0859bad2604cec77c",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p187.md",
+      "before_sha256": "ce887bd7fef5878e64890f4c79c55e949ab7bb48a7adc2bb205039ec37216d68",
+      "after_sha256": "8c65feb84cfbea5c166ad5b27a4b9b71b92075da51ced2892e1098c365e6daae",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p187b.md",
+      "before_sha256": "1c13be1122eecaf47afd4bfc62113243fd4f737bd590637f5b9a32107d174ead",
+      "after_sha256": "068530067cde7330aecf4eb934fe60f290bfadadb6b69e98077e17df937b6d93",
+      "fenced_blocks": 5,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p189.md",
+      "before_sha256": "5de079064fd13bf21bb826c9aad67a12e64fcfddcc4bda37631f0b9f62e05609",
+      "after_sha256": "35df6efd769b33908c03a72a556da3cba6ac326f5b9482167ec2794b6cf2d765",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p198.md",
+      "before_sha256": "4655f2f0c67cbd854537a0d1e0f1ecea537fb2c7586d880ba341a57acae985b0",
+      "after_sha256": "81b99d5e158bc4aba46af0428028927a3ed69dba4298a0fe1b1f59ea1fde243c",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p215.md",
+      "before_sha256": "397369aac6d9ddfc77386a6a9f29236a8e98001b24e874ce37289cb37393816e",
+      "after_sha256": "d39ad1fdaed1d258ef0d3e480d93f328bb7467e19f353bc10a72983d77ab453f",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p217.md",
+      "before_sha256": "13454bd218c3b79240c8253392efe20b32eecb9b8500c1978245c24d51651dfb",
+      "after_sha256": "a77fdf478a82e7a0e7ec392b12a96b68bab8647120184b9d776d8d9cfdc51587",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Variant | Fixed / total letters | Unpaired suffix | Ordinary re-encryption |",
+          "after": "| Variant | Fixed / total positions | Unpaired suffix | Ordinary re-encryption |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/p73.md",
+      "before_sha256": "c1cff13ef6d46739a4713462d76c5e50b983771533dc39780e71286e787ae32d",
+      "after_sha256": "13f75109e8ec080e8a5dcb5fe44bdbb04c80da433ba307e4dd014e653bf8ebf2",
+      "fenced_blocks": 1,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/breslau_staff_transfer.md",
+      "before_sha256": "accc5e231995b03b74f700217283946353ce84a5bd2fb6e88527f7431f29da86",
+      "after_sha256": "774ac75244275fe89aceb0fcbc5af89259f4075f7243ccc9448c25aafa048666",
+      "fenced_blocks": 5,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/constantinople_civilians.md",
+      "before_sha256": "b83b07de712ae920b4967ab937edc1d2004d2c646f4b9b530d7ef4acb43df7b0",
+      "after_sha256": "93889249885c4b7264885943d34666527308b26ea55cef246f2f089c88b3e58e",
+      "fenced_blocks": 9,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/kremp.md",
+      "before_sha256": "29b0a29261dd35a45cb17b2ce33ccc7ac92855d449f3470713bae194f0a3ed96",
+      "after_sha256": "7a64139b9cb84d8f8a53915d5eafbad9fc31db925b6025ad29e173973963c7c2",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/medical_return_to_unit.md",
+      "before_sha256": "059df3f31b338ee6c8d5c3308ccf1eb29693e0f9c63cd2b77bb112a1b75a7768",
+      "after_sha256": "5304ef2b0c54e807e8d09130aff621f39d8dd11ec93eca09015cfb21eadc999b",
+      "fenced_blocks": 6,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/military_mission_recalls.md",
+      "before_sha256": "f0440eea18a78858db766cadc1197ec76c0dc9eb8ecf979f6103bdedcb043407",
+      "after_sha256": "8d6d768116f9df9b4d3519acbda59be5916f849ab8841a8ee76945e45071d2f9",
+      "fenced_blocks": 6,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/namur_order_witnesses.md",
+      "before_sha256": "2cd884634bd2cea8029bd245dd2496c90fcaf7544f83bc94a0289ea1ce6d5d29",
+      "after_sha256": "08d4f1b45560c13c4a087f5efde796b2ec0ab2988eb33c2abc843547106c8c55",
+      "fenced_blocks": 5,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Witness | Literal source slots | Working coordinates | Raw fixed labels | Edition labels | Known-coordinate substitutions | Printed fills | Modeled-prefix fills |",
+          "after": "| Witness | Literal source slots | Analysis-frame slots | Raw fixed labels | Edition labels | Known-coordinate substitutions | Printed fills | Modeled-prefix fills |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/osthoff.md",
+      "before_sha256": "c90aee2281dc91329b5b1cfab99ff782af76f7c8c32b3f8449c7906207cd23dd",
+      "after_sha256": "213bc50ba0765d9480a765dde9766cc8cdd4f2d28438b18e0f70ccd1d9d0753e",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/p210_B.md",
+      "before_sha256": "cc010ca1325836381cc3967cbe9cca0d3389868fd37094d9d771947503ca71aa",
+      "after_sha256": "b446a1fea10f6ce8b3cc63ccef9c7634b863fc30905c3f3cea42a6a1eb0eb73a",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/p92_A.md",
+      "before_sha256": "e9a4ab63da724866e7a817da03c2af197fee9cf8191f1b060e5a0e75f4b59dec",
+      "after_sha256": "90b7c42ad988e53323c2039ad163aba6f8ad7718d8ac17229116e5c7e6bdc68c",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/p96_B.md",
+      "before_sha256": "0e61a9973a4718e0bab3d0d63bd65910f346a84d4fe07402b74353fe3d2c78cb",
+      "after_sha256": "4b259199cf1182996c1fe6788c310e1b4df50618a2c065246476cc398a73f55f",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/people/richter_aleppo.md",
+      "before_sha256": "41df39b9dfa3e4eda723d19ddd9509f4e9016978ec8d81151b3202cc4aed404f",
+      "after_sha256": "37604c623bd7bef57f07dcb81bd7dace9a428a970b0aa6541431b4b8a9ec9db2",
+      "fenced_blocks": 5,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/apparatus_sale_request.md",
+      "before_sha256": "ba223084bdc5bee58a72293d841b8d6ac7bce7c3c2ef251a316af60256285e8c",
+      "after_sha256": "77a07967105169c561d9b2a8ca38bcccfbcfb3ce38f1169bf42df8fcdef0cb1e",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/constantinople_address_parts.md",
+      "before_sha256": "4c4062efff297e43f35cfde2af4e04ca2325267d3e2f4f7fe2a01371a3c2923b",
+      "after_sha256": "7ca5fe2a3956c1b73e5816846d443035c6f6dbac6d2ee0d67f1601e47f12a108",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/constanza_radio_connections.md",
+      "before_sha256": "096040613e22e1a066a4863110ab539a6233b311cbc29aedebaf096c1c7792fb",
+      "after_sha256": "037c18544d195a8a33ca27ed76c2e3deb0cc0eaa53bb325543a940951cd2f7d3",
+      "fenced_blocks": 8,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/courier_munich.md",
+      "before_sha256": "67a69d98876f540047fa0e4c5a20a30d32609350fbc270ada61bd795925572b0",
+      "after_sha256": "0dde4e45e898feffed86e2e345b5bdff5700235fcf705b344af02db1a4079c83",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/document_destruction.md",
+      "before_sha256": "6651db425418a07b32615e0e4ce7c05b5ee5a28ae2d8690c57c166fbfbb7f1fe",
+      "after_sha256": "96623b8b6ba8c702a40b0f7fadaaa1257fdaad444f5bb69e33eac066b941bba5",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/hermannstadt_radio_report.md",
+      "before_sha256": "baa7fd63e3609daef3ad8003077ca0d00717e3b55209e6455dbc346da3abc49f",
+      "after_sha256": "06dfb43839cde381b11eb874d7f7ca73e4830c560a6b022a4d6a39ae9ebbba36",
+      "fenced_blocks": 8,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/kiel_radio_control.md",
+      "before_sha256": "782a18bfea393456c6a22694760cc365b12cc688e221789003099b37550a6d5f",
+      "after_sha256": "283403ad94c609282f2776a39ad8272b33f6af61450a85a0c63720e28b3f3f41",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/late_november_cipher_instructions.md",
+      "before_sha256": "1641e0b27b6f6404b4dd8e13e69ec36f8a6410c9f68d916dd4be30fa8876e8ea",
+      "after_sha256": "8e7013482ae9f0934ce9cce3e5ca754e719f4eaecc44f9b63aeee30d6adca74c",
+      "fenced_blocks": 5,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/newspaper_dispatch.md",
+      "before_sha256": "28da7061e4d71c3d8d00649f68d61f39eba1a8932711b3a73cd85c7c1b2874c0",
+      "after_sha256": "2b47c091b008ba8e3c632c9dfeb2b1d34661461957fd4e95cc783b91d3678a9e",
+      "fenced_blocks": 6,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/newspaper_dispatch_witnesses.md",
+      "before_sha256": "e16f29015497297c2af75bc9ff5ab03161e6b91e75e6aa5d3cb8a8f7caeff34f",
+      "after_sha256": "84a175beee0232962056f9cfd8d3aed8f7babf49005f69546d1c81a7c7a3286b",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/opposite_end_deciphering.md",
+      "before_sha256": "a7c03e0869ebc2702c92c6f2a17ceed64fb3230201eea217cacf2d0ae0683c35",
+      "after_sha256": "b586eb2f2a6d389e2805e16745dd513ea9368117bcc402216c2886a30b58d808",
+      "fenced_blocks": 8,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/p111_B.md",
+      "before_sha256": "53548d672c5c943b0604fdc1f8ece0d717a248b367a6afe5317282a816a825b3",
+      "after_sha256": "3b987896028032da574b27f177324caa9143065f2a7d1e77ce0f685c27cb6110",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/p132_radio_service.md",
+      "before_sha256": "da86a2241c533259f146db5d5511b55dee46f456929a19a74ce13ad4ada2733c",
+      "after_sha256": "16dcfbe66a94a0afc88a6db95fc4580940fa7bdb1324531fb84b33323d74d36e",
+      "fenced_blocks": 10,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/p187_D.md",
+      "before_sha256": "bc9b37d4ef9d1d4f7656a92549bbf0386a0724a0e3c8f7cf74f29e09456d764f",
+      "after_sha256": "be2010a6b5fd5208447726f75a18521d14ef1e97324b06de6864251cb0f0f88b",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/p204_A.md",
+      "before_sha256": "1d7de93fe0da0906ea90867511035eddd71b120a1bb93feae36079f312243686",
+      "after_sha256": "94842d47672eb0778546cd5f5dc3a9980d58e76b2542a823ed60b9eab82f54c9",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/p211_key_schedule.md",
+      "before_sha256": "b2cac3d367822370b738d3e2596655ef1ab088b667f4e4d41e4b7c795f3fdfb1",
+      "after_sha256": "67e1ac5ea6cf5b345f4ec532993d2a971b0a926281278cc81cc9f0b916c17b18",
+      "fenced_blocks": 5,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/p85_B.md",
+      "before_sha256": "b1ccd17a1658864414d607633410b678837d09ab508f22eeeda33590fa24ee4a",
+      "after_sha256": "3e04689360860b1d350d102eb929aeb1f897ebe0379955d971f2dfcef55ec5dc",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/radio_contacts_and_keys.md",
+      "before_sha256": "8a05d4256c690d2381f856d3c95c67518e24961f1df752e4d73b6c6206626704",
+      "after_sha256": "2b4f0d2eade1eaf997543a5f3298e855365aab8652a6bb7fc418b46401674e38",
+      "fenced_blocks": 11,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/right_rhine_equipment.md",
+      "before_sha256": "d5bab2a1c8a00e805482c6bcf1ebc8a8124fe180e13adaa00cb70ff4c1b971c9",
+      "after_sha256": "922765abde7664f97ea56347d9d3e25cad3cb4eec196e33b6985b170ace88e60",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "| Literal source slots | Working coordinates | Raw fixed labels | Edition fixed labels | Observed coordinates excluded | Known-coordinate substitutions | Erasure fills |",
+          "after": "| Literal source slots | Analysis-frame slots | Raw fixed labels | Edition fixed labels | Observed coordinates excluded | Known-coordinate substitutions | Erasure fills |"
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/seifert.md",
+      "before_sha256": "eec1233c0ba08846d01893923feee196bc4e96ac86aca2f93040f7d86f34b8b3",
+      "after_sha256": "2edbd758f64da90accfb39d23a35cdaa7e8a8297e9e81d45432b9e92a215d2a8",
+      "fenced_blocks": 11,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/september_radio_procedure.md",
+      "before_sha256": "f5be0a9cb57a717439ee6df58bca65fdc63a939454dc43f514f9adc77063c791",
+      "after_sha256": "5ae1b5a47e2a8d739cb4848a48bd6171b355473b063e804790af7b8294c2fde9",
+      "fenced_blocks": 7,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/telegram_priority.md",
+      "before_sha256": "f41d5302837cd80d1354c71c99e61b4423da877a1c9869fd64d69a9ee1de6572",
+      "after_sha256": "c8c65751150efcf1df814ecaae8fdee38737b02ecca032f716aa5f9dcb2f2b5a",
+      "fenced_blocks": 6,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/warsaw_service_messages.md",
+      "before_sha256": "10846920378365f93ed348b181ab07805da0b85a204ed92083846e50ce0cae97",
+      "after_sha256": "bdc1e92c1ceec6f37f5100f0ca2263f1e9142665d5f598d370308236b819bc4f",
+      "fenced_blocks": 8,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/supplementary/p107_D.md",
+      "before_sha256": "f3148a7c4420b66942b213d2c3f4c7b7ca558d58f29ed6e48f71f1d2b412ada2",
+      "after_sha256": "2190b2b3934cacc39580af02238a59391e6c8a3e855d65659ffa5c07c8338aa3",
+      "fenced_blocks": 3,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "86 fixed letters in 88 plaintext positions. Uncertain source annotations remain explicit.",
+          "after": "86 fixed positions in 88 plaintext positions. Uncertain source annotations remain explicit."
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/supplementary/p187_C.md",
+      "before_sha256": "2cf67e6e9b57f50eecfcc7c9596a648784e6f502156abaf6fb29173f67040bce",
+      "after_sha256": "b9ad68c404e9ddaec5952be3d7bad151ff727755bf1786fd824c697effc4dce0",
+      "fenced_blocks": 4,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "65 fixed letters in 67 plaintext positions. Uncertain source annotations remain explicit.",
+          "after": "65 fixed positions in 67 plaintext positions. Uncertain source annotations remain explicit."
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    },
+    {
+      "path": "cases/supplementary/p89_A2.md",
+      "before_sha256": "3b989963c453166218c4986da9a67cd242972d4297abcb8d3eb0fbd8310ca791",
+      "after_sha256": "d12b2d8c542e33f390e7b5908e3feb5bfc3bdf81f780d568bcb625849e03548a",
+      "fenced_blocks": 2,
+      "fenced_blocks_identical": true,
+      "section_headings_identical": true,
+      "changes": [
+        {
+          "kind": "count_unit",
+          "before": "142 fixed letters in 145 plaintext positions. Uncertain source annotations remain explicit.",
+          "after": "142 fixed positions in 145 plaintext positions. Uncertain source annotations remain explicit."
+        },
+        {
+          "kind": "reading_legend",
+          "text": "**Reading layers:** [Raw output \u00b7 Edited output \u00b7 Readable German \u00b7 Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal."
+        }
+      ]
+    }
+  ],
+  "before_snapshot_path": "data/reviews/reading_conventions_safe_before.json",
+  "before_snapshot_sha256": "39cbbd421f2a372454030693a0206b0561436d39449ad9c09d42d163d4c9ae7e",
+  "scope_note": "This first pass adds the shared legend and24 verified count-unit clarifications. It does not classify or rewrite all existing reading paragraphs. The twelve independently owned manual cases and two cases awaiting integration are excluded."
+}

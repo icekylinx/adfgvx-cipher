@@ -1,5 +1,7 @@
 # Meal allowances, communal provisioning and a refused supplement
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 printed p129 B1, p133 A2–A3 and p134 A4; PDF pp132, 136 and 137.
 **Edition:** icekylinx and GPT-6 Astra Pro.

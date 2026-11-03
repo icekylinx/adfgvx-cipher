@@ -1,5 +1,7 @@
 # November 14 cross-key notices: an arriving pilot and a backup radio station
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md)
 
 **Source edition and cross-key comparison: icekylinx and GPT-6 Astra Pro.**
@@ -18,6 +20,8 @@ The p190 B and p190 E messages read, with the separately certified repairs:
 
 > Welche Station kann NKJ bei Betriebsstoerung vertreten? Vielleicht
 > [Sewastopol]. Dring[end] Bescheid an LP.
+
+**Display notes:** `[Sewastopol]` marks a coordinate-priced word proposal; `Dring[end]` expands the literal abbreviation and supplies prose letters only. Neither bracket form by itself asserts direct source support.
 
 **Meaning:** Which station can replace NKJ during an interruption of service?
 Perhaps Sevastopol; send an urgent reply to LP. The full city spelling
@@ -60,6 +64,8 @@ The p190 D and p193 A notices have the following source-supported reading:
 > Vermittelt NKJ Funksprueche fuer Mackensen? Habt ihr Verbindung, und wie?
 > Dring[end] Bescheid an FUGROSTA. LP.
 
+**Display notes:** `Dring[end]` is the same prose-only abbreviation expansion here. The two witnesses retain their distinct `FUR` and `FUER` spellings in the exact outputs below.
+
 **Meaning:** Is NKJ relaying radio messages for Mackensen? Do you have
 contact, and how? Send an urgent reply to FUGROSTA; signed LP. `FUGROSTA`
 is retained as transmitted. The transmitted abbreviation is `DRING`.
@@ -101,6 +107,8 @@ The p190 A and p194 B notices say, with their certified ordinary-word repairs:
 > Zitadelle [Warschau], fuer Soldatenrat. Flieger / Flugzeugfuehrer
 > FR?E, Bevollmaechtigter [des] Soldatenrats, in Berlin wohlbehalten
 > eingetroffen. Auswaertiges Amt.
+
+**Display notes:** This is a composite readable presentation, not a third recovered source. `[Warschau]` is present in the fuller p194 B witness; `[des]` is supplied grammar absent from both exact wordings. The slash in `Flieger / Flugzeugfuehrer` displays the two witnesses' different words. `FR?E` retains one unresolved name position and is not a proposed surname.
 
 **Meaning:** To the citadel's soldiers' council: the pilot FR?E, a council
 representative, has arrived safely in Berlin. The fuller p194 B wording

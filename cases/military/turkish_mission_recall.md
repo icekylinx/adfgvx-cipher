@@ -1,5 +1,7 @@
 # Recall of contract-bound military-mission members from Turkey
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 printed p130 A1–A2 and p131 A3–A4, PDF pp133–134.
 **Edition:** icekylinx and GPT-6 Astra Pro.

@@ -1,5 +1,7 @@
 # Ruble prices and payments above par: companions to p171 A1
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Companion source editions: icekylinx and GPT-6 Astra Pro.**
 
 The second and third parts of the telegram whose first part was read by
@@ -108,7 +110,7 @@ The duplicated **`PARI X PARI`** is also preserved, without deduplication.
 
 ## Exact accounting
 
-| Part | Literal source slots | Working coordinates | Raw fixed labels | Edition fixed labels | Known-coordinate substitutions | Printed fills | Added-coordinate fills |
+| Part | Literal source slots | Analysis-frame slots | Raw fixed labels | Edition fixed labels | Known-coordinate substitutions | Printed fills | Added-coordinate fills |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | A2 | 261 | 252 | 122 / 126 | 126 / 126 | 6 | 3 | 1 |
 | A3 | 152 | 152 | 74 / 76 | 76 / 76 | 0 | 2 | 0 |

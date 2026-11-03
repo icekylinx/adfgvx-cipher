@@ -1,5 +1,7 @@
 # An enquiry about Glatz's whereabouts
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source audit](../../experiments/corpus_attack/SOURCE_FAMILIES.md)
 
 **Records:** p140 B and p149 C. **Result:** 167 of 168 proposed letters have complete coordinate-pair support in a printed witness under the published Nov4–6 key. One damaged glyph needs an explicit reading to complete `KONSTANTINOPEL`.
@@ -7,6 +9,8 @@
 ## Most likely reading
 
 > Militär-Mission Konstantinopel. Drahtnachricht über Verbleib Reg. Bmstr. Glatz vom Straßenbau-Sonderkommando 1 erbeteten [wohl: erbeten]. Milverkehr, röm. II A 100166 Ko, durch Admiralstab, Kz. 95537.
+
+**Display notes:** The bracketed `[wohl: erbeten]` is a proposed ordinary-German normalization of the literal `ERBETETEN`. It is a gloss, not a deletion in either exact output. Abbreviation expansions in the meaning below remain interpretations; the following notes distinguish the uncertain institutional terms.
 
 **English meaning:** To the Military Mission in Constantinople. A telegram is requested reporting the whereabouts of Government Master Builder Glatz of Road Construction Special Detachment 1. The closing contains routing and reference information, including transmission through the Admiral Staff and reference 95537.
 

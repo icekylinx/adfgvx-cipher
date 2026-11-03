@@ -1,5 +1,7 @@
 # Bridges and the wire connection through Budapest
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 Childs p100 B reports that bridges have been blown up and attributes an

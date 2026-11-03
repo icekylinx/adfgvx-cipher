@@ -1,5 +1,7 @@
 # p178 — The naval armistice order of 11 November
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source and certificate](../../experiments/naval_armistice_order/README.md)
 
 **Prior reading and interpretation:** George Lasry, Ingo Niebel, Nils Kopal

@@ -1,5 +1,7 @@
 # The Namur order: two witnesses for Staedt and Weiher
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source reconciliation and edition: icekylinx and GPT-6 Astra Pro.**
 
 Two closely related transmissions instruct **Hauptmann Staedt in Namur**
@@ -108,7 +110,7 @@ their ordered digest. The complete conflict table and selected choice bits
 make every alternative reproducible. The readable body is an editorial
 choice within that set, with `INSP1IN` left unrepaired.
 
-| Witness | Literal source slots | Working coordinates | Raw fixed labels | Edition labels | Known-coordinate substitutions | Printed fills | Modeled-prefix fills |
+| Witness | Literal source slots | Analysis-frame slots | Raw fixed labels | Edition labels | Known-coordinate substitutions | Printed fills | Modeled-prefix fills |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | p171 C | 252 | 252 | 122 / 126 | 126 / 126 | 6 | 4 | 0 |
 | p172 E | 242 | 252 | 115 / 126 | 126 / 126 | 5 | 0 | 10 |

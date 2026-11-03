@@ -1,5 +1,7 @@
 # Siegfried and Osthoff: later military-mission recall messages
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Status:** Four newly source-reviewed physical parts on Childs p161. The Osthoff body was already identified from p138/p148/p149; this edition adds a later differently keyed witness and directly supports three previously editorial letters.
 
 Source edition and verification: **icekylinx and GPT-6 Astra Pro**. Published period keys: Lasry, Niebel, Kopal and Wacker, unchanged. Earlier unreviewed p161 second-part readings and the existing [Osthoff source-family edition](osthoff.md) retain their prior credit. No existing p138/p148/p149 record is counted again.

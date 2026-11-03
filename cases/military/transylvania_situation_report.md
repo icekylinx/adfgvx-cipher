@@ -1,5 +1,7 @@
 # Surviving Transylvania situation report
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
 This is a proposed cross-page assembly of an eight-part message marked 1840 / 18.40, 8 TLE, LP v NKJ. Parts 1, 7 and 8 survive on pp128–129; p137 supplies part 4, a partial reading of interference-damaged part 5, and an unread fragment of part 6. Parts 2 and 3 remain unlocated. All uses of the Nov4–6 key retain its published square and ranks.

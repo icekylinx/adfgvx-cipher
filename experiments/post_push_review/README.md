@@ -4,22 +4,24 @@ Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
 **State: in progress.** The initial remote publication was confirmed at
 2026-11-02 23:27:19 UTC. The requested additional two-hour work period
-runs until at least 2026-11-03 01:27:19 UTC. No completed duration is
-claimed by this checkpoint.
+runs until at least 2026-11-03 01:27:19 UTC. The user subsequently extended
+work to **2026-11-03 03:30:00 UTC (11:30 UTC+8)** and requested consistent
+presentation of every reading and notation. No completed duration is claimed
+by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 349 other physical source records**, with all
-22 challenge entries preserved. It adds **154 physical records across 40 source
+This snapshot compares **195 → 376 other physical source records**, with all
+22 challenge entries preserved. It adds **181 physical records across 47 source
 packages** and keeps every earlier record. The separate interpretation and
 open-target method audits add no physical records.
 
-The new source packages account for **35,004 printed coordinate slots** and
-**17,637 modeled plaintext positions**, of which **16,964 have fixed raw labels**
+The new source packages account for **40,930 printed source slots** and
+**20,599 modeled plaintext positions**, of which **19,848 have fixed raw labels**
 under their stated frames. These are coverage counts. They include repeated
 copies, previously identified bodies, conditional geometry and unresolved
 historical numeral meanings; they are not a count of first decipherments or
-universally correct original letters. All 302 observed-coordinate substitutions
+universally correct original letters. All 386 observed-coordinate substitutions
 are recorded locally, separately from source erasures and inserted values.
 
 ## Source packages
@@ -66,10 +68,17 @@ are recorded locally, separately from source erasures and inserted values.
 | [Second source witnesses of the newspaper-dispatch request](../newspaper_dispatch_witnesses/README.md) | 2 | 386 | 193 | 143 | 8 |
 | [Inventory and medical-return source records](../inventory_and_medical_return/README.md) | 3 | 665 | 333 | 332 | 6 |
 | [Surviving parts of an eight-part Transylvania situation report](../transylvania_situation_report/README.md) | 5 | 1057 | 550 | 499 | 6 |
+| [Childs p188: conditional armistice request and native provisions fragments](../armistice_provisions_requests/README.md) | 3 | 669 | 334 | 319 | 29 |
+| [Native p209 transport and disarmament traffic](../transport_and_disarmament_orders/README.md) | 5 | 1188 | 594 | 586 | 15 |
+| [Source editions: equipment disposal and troop return on pp207–208](../repatriation_orders/README.md) | 7 | 1589 | 794 | 753 | 11 |
+| [Delegation travel and Danube field reports, 10–11 November](../nov10_delegates_and_field_report/README.md) | 4 | 820 | 410 | 408 | 10 |
+| [Upper p211: Oderberg fragment and troop-situation query](../prague_route_and_situation/README.md) | 2 | 244 | 122 | 122 | 3 |
+| [Romanian ultimatum and Danube crossing: companions of p176a](../romanian_ultimatum_companions/README.md) | 3 | 588 | 294 | 284 | 6 |
+| [November 3 radio, morning and pioneer reports](../nov3_radio_and_pioneer/README.md) | 3 | 828 | 414 | 412 | 10 |
 
 The [complete inventory](inventory.json) preserves every added identifier,
 package summary, case path and counting limit. The [inputs](inputs.json)
-pin both catalogues and 570 package/case artifacts. Earlier statuses, subjects
+pin both catalogues and 752 package/case artifacts. Earlier statuses, subjects
 and credits are unchanged; 164 old path fields follow the explicit topic-migration map.
 
 ## Additional interpretation and method audits
@@ -83,9 +92,20 @@ These packages retain their own calibration limits and conditional assumptions.
 A source-compatible witness or an exact language optimum does not by itself
 establish a historical plaintext or new key.
 
+## Consistent reading presentation
+
+The [reading conventions](../../docs/reading-conventions.md) define four
+separate layers and precise source, frame and plaintext units. The first
+mechanical pass preserves all 575 fenced blocks in 121 case pages; the
+[manual review](../../docs/reading-conventions-manual-review.md) preserves
+42 earlier blocks, 92 headings and 349 inline-code occurrences across 12
+additional pages while clarifying their editorial symbols. The exact Tiflis
+readable mapping retains 330 nonseparator labels. Both preservation checks
+run in CI; none of these display changes adds a source record.
+
 ## Independent source-image binding
 
-All **187 delivered source images** have normalized PDF-page, rectangle, scale,
+All **228 delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph
@@ -108,7 +128,7 @@ beside their packages and run in CI.
 The review uses preserved start/end catalogues, so a later live catalogue
 can grow without rewriting its historical count. The earlier
 [87-to-195 review](../session_review/README.md) remains separate and unchanged.
-The completion timestamp, once recorded, must satisfy the two-hour minimum.
+The completion timestamp, once recorded, must satisfy both the two-hour minimum and the later 03:30 UTC deadline.
 
 For readable messages, use the [case guide](../../cases/README.md); for the
 reorganized layout, use the [repository map](../../docs/repository-map.md).

@@ -1,5 +1,7 @@
 # Repository map
 
+For consistent plaintext layers, unknown symbols, source-slot counts and repair prices, see [Reading conventions](reading-conventions.md).
+
 Start with the [case guide](../cases/README.md) to read the messages. Its six
 topic guides collect related subjects and then show each physical source
 record with its reading status and credit. The complete challenge and other

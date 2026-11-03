@@ -1,5 +1,7 @@
 # Citadel surrender, local armistice terms and home leave
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source editions: icekylinx and GPT-6 Astra Pro.**
 
 Four physical parts on Childs p179 concern surrender terms, a request for

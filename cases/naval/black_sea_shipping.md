@@ -1,5 +1,7 @@
 # Supply cargo at Nikolaev and the sale of Corcovado
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
 **Prior identification of the p199 A body: George Lasry, Ingo Niebel, Nils

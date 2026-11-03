@@ -1,0 +1,448 @@
+{
+  "schema": "adfgvx-nov3-radio-and-pioneer-input-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "source": {
+    "title": "J. Rives Childs, General Solution of the ADFGVX Cipher System, collected intercepts",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "images": [
+      {
+        "path": "sources/p110_full.png",
+        "printed_page": 110,
+        "pdf_page_1based": 113,
+        "clip_points": [
+          0.0,
+          0.0,
+          578.1599731445312,
+          824.4000244140625
+        ],
+        "scale": 2.5,
+        "fresh_render_cache": true,
+        "sha256": "84369e140767e7e98e4f7c99eefbd2331d1522e2440ee4463be152f9f0b48672",
+        "pixel_sha256": "d22c41ff78eaae9e9e19a47ff99ebe4b5b3c47d6c7bace7bd3e1048ab759b702",
+        "width": 1446,
+        "height": 2061
+      },
+      {
+        "path": "sources/p110_A_detail.png",
+        "printed_page": 110,
+        "pdf_page_1based": 113,
+        "clip_points": [
+          150,
+          186,
+          460,
+          300
+        ],
+        "scale": 5,
+        "fresh_render_cache": true,
+        "sha256": "6634276fc2975b01ab365b7e5b782393e64382b2182cc8b8610b25541fd0fba2",
+        "pixel_sha256": "4eca2668f1835258d5a1074e77b9b19988233d0eb9fe3805d2f8c5a458a5643e",
+        "width": 1550,
+        "height": 570
+      },
+      {
+        "path": "sources/p110_BC_detail.png",
+        "printed_page": 110,
+        "pdf_page_1based": 113,
+        "clip_points": [
+          70,
+          340,
+          510,
+          720
+        ],
+        "scale": 4,
+        "fresh_render_cache": true,
+        "sha256": "fdc115fd5b404bdf4a9f3e3854ece59c75b91a5e51fd53dde4f6c52f50498c80",
+        "pixel_sha256": "32c090b405b30e5363a33798a8141a679c43cb3e297efa7b2842b01b78dc09fd",
+        "width": 1760,
+        "height": 1520
+      },
+      {
+        "path": "sources/p110_B_C62_C67.png",
+        "sha256": "43651c975cacacec5d0fc4a5343c7c7f830dd82a4151662602c6a577e1ee6392",
+        "pdf_page_1based": 113,
+        "clip_points": [
+          320,
+          411,
+          414,
+          433
+        ],
+        "scale": 12,
+        "printed_page": 110,
+        "fresh_render_cache": true,
+        "pixel_sha256": "89540250f46c27ae5d31466704fd18f7c01d3cf55a8f4fa7d64930040153dda9",
+        "width": 1128,
+        "height": 264
+      },
+      {
+        "path": "sources/p110_B_C104.png",
+        "sha256": "425a4a50ea9e6bde4f62dbde0cf94b257927aa5de73c3840c505ed628aa2c6d2",
+        "pdf_page_1based": 113,
+        "clip_points": [
+          320,
+          431,
+          380,
+          453
+        ],
+        "scale": 12,
+        "printed_page": 110,
+        "fresh_render_cache": true,
+        "pixel_sha256": "9d3d88f2884e700049ba64cf8fbd8526f24833721edbc4bb6173bed889c9013d",
+        "width": 720,
+        "height": 264
+      },
+      {
+        "path": "sources/p110_B_G_controls.png",
+        "sha256": "ec81786d025bd24887f045b9caf2543afc08e5f7d9a53fa61f8128a7863d28c9",
+        "pdf_page_1based": 113,
+        "clip_points": [
+          320,
+          391,
+          414,
+          412
+        ],
+        "scale": 12,
+        "printed_page": 110,
+        "fresh_render_cache": true,
+        "pixel_sha256": "44cf8374cd56e15cca41d17fe1b5c8baf0548973bb6d51a9d0e70679efb90c94",
+        "width": 1128,
+        "height": 252
+      },
+      {
+        "path": "sources/p110_C_reference.png",
+        "sha256": "fcc7beb798888edd3332a3fa3e803cb0d5729dc3d99960536dba89d2f1738501",
+        "pdf_page_1based": 113,
+        "clip_points": [
+          75,
+          390,
+          150,
+          412
+        ],
+        "scale": 12,
+        "printed_page": 110,
+        "fresh_render_cache": true,
+        "pixel_sha256": "b24d737a579a85d0eb644980d193c639dca28ac24c35c0336e11f9345a631f00",
+        "width": 900,
+        "height": 264
+      }
+    ]
+  },
+  "keys": [
+    {
+      "id": "Nov1-3",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        3,
+        16,
+        4,
+        15,
+        7,
+        12,
+        18,
+        6,
+        17,
+        8,
+        19,
+        1,
+        13,
+        10,
+        2,
+        14,
+        11,
+        9,
+        5
+      ],
+      "column_count": 19,
+      "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "square_rows": [
+        "UILOF9",
+        "RCZVSX",
+        "02G7QT",
+        "D8WNB5",
+        "JMHEKP",
+        "Y41A36"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 239,
+          "pdf_page_1based": 242,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  ],
+  "prior_credit": {
+    "published_key": {
+      "published_keys": "George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker",
+      "doi": "10.1080/01611194.2016.1169461",
+      "body_scope": "Earlier unreviewed OCR-derived candidates existed. A bounded author-paper search found no explicit body examples for these seven records. No universal first-decipherment claim is made. The separate p100 challenge remains credited to Armin (2017 comment 13)."
+    },
+    "earlier_machine_candidates": "prior_candidates.json",
+    "scope": "The schedule and short morning report were already partly coherent in the earlier unreviewed OCR screen. The pioneer report had a spurious399-slot OCR frame. This edition makes no first historical decipherment claim."
+  },
+  "reading_policy": [
+    "The raw layer preserves source errors, unknown fields, X symbols and numerical labels. Numerical values are not newly inferred.",
+    "Only listed equal-length spelling repairs and two printed-glyph fills enter the edited layer. The reference6915 is directly decoded from observed coordinates.",
+    "Any displayed complete witness proves the stated source/edit arithmetic; it does not independently authenticate the historical words or numbers.",
+    "The radio schedule is a second part with no identified first part; all anomalous clock strings and VERKER remain literal.",
+    "The pioneer report retains BEI26X10 and DES; no absent letters, grammar or historical date is silently supplied."
+  ],
+  "records": [
+    {
+      "id": "p110_A2",
+      "printed_page": 110,
+      "pdf_page_1based": 113,
+      "source_section": "A2",
+      "header_transcription": [
+        "3rd NOVEMBER, 1918. (Continued)",
+        "A) OSM v LP (3.52 p.m., November 3rd)",
+        "1605 (3/11) 2 TLE",
+        "2 TL RIZI-280"
+      ],
+      "key_id": "Nov1-3",
+      "rows": [
+        "DGDFG DAAXF DGVDX XVFXV ADAXD FFDDX AXVDA FAAAF",
+        "AVGGF AXDVD DXDAF AGGAF VGGFV FVFXF GVFAG XFVGD",
+        "DXDAD GDFFX XVDAF VFVXX DADVX XXGAV FDFVA AFXDD",
+        "AAXXV GXDVX GVVGF DAFVF XFVFG AXFDF XFVDA AXXVX",
+        "DAXDF XFAFA AVDGV DDXXA GVGXD ADGVV DFAAD GXDFF",
+        "GDGAD ADXDD FXXVG DDGGD FFFAV FAGDF DFFGG GXDDV",
+        "VXXXV GADAV FFGDD AXADD FXVGV ADFVG DFAGA ADVXD"
+      ],
+      "literal_source": "DGDFGDAAXFDGVDXXVFXVADAXDFFDDXAXVDAFAAAFAVGGFAXDVDDXDAFAGGAFVGGFVFVFXFGVFAGXFVGDDXDADGDFFXXVDAFVFVXXDADVXXXGAVFDFVAAFXDDAAXXVGXDVXGVVGFDAFVFXFVFGAXFDFXFVDAAXXVXDAXDFXFAFAAVDGVDDXXAGVGXDADGVVDFAADGXDFFGDGADADXDDFXXVGDDGGDFFFAVFAGDFDFFGGGXDDVVXXXVGADAVFFGDDAXADDFXVGVADFVGDFAGAADVXD",
+      "analysis_source": "DGDFGDAAXFDGVDXXVFXVADAXDFFDDXAXVDAFAAAFAVGGFAXDVDDXDAFAGGAFVGGFVFVFXFGVFAGXFVGDDXDADGDFFXXVDAFVFVXXDADVXXXGAVFDFVAAFXDDAAXXVGXDVXGVVGFDAFVFXFVFGAXFDFXFVDAAXXVXDAXDFXFAFAAVDGVDDXXAGVGXDADGVVDFAADGXDFFGDGADADXDDFXXVGDDGGDFFFAVFAGDFDFFGGGXDDVVXXXVGADAVFFGDDAXADDFXVGVADFVGDFAGAADVXD",
+      "advertised_length": 280,
+      "expected_raw": "1000BIS1200X1545BIS1645X2100BIS2230XXOSMXSENDET0200BIS0330X0430BCS0530X0900BIS0X45X1900BIS0025X2230BIS2300XXRINGBAHNVERKERAENDERTSICHNICHPXX",
+      "editorial_text": "1000BIS1200X1545BIS1645X2100BIS2230XXOSMXSENDET0200BIS0330X0430BIS0530X0900BIS0X45X1900BIS0025X2230BIS2300XXRINGBAHNVERKERAENDERTSICHNICHTXX",
+      "expected_source_changes": [
+        [
+          21,
+          "D",
+          "A"
+        ],
+        [
+          249,
+          "V",
+          "F"
+        ]
+      ],
+      "expected_cost": {
+        "known_coordinate_substitutions": 2,
+        "source_erasure_fills": 0
+      },
+      "explicit_numeral_spelling_repairs": [],
+      "preserved_literal_fields": [
+        "1000BIS1200",
+        "1545BIS1645",
+        "2100BIS2230",
+        "0200BIS0330",
+        "0530",
+        "0900BIS0X45",
+        "1900BIS0025",
+        "2230BIS2300",
+        "VERKER"
+      ],
+      "source_notes": [
+        "The page contains only the source-marked second part. A matching first part is not identified here.",
+        "GDFFX is clear in the enlarged crop; the fourth letter is F. Raw time labels and VERKER remain literal; no clock normalization or missing HR insertion."
+      ]
+    },
+    {
+      "id": "p110_B",
+      "printed_page": 110,
+      "pdf_page_1based": 113,
+      "source_section": "B",
+      "header_transcription": [
+        "B) NKJ v LP (5.03 p.m., November 3rd)",
+        "FUER UKS 1035 (3/11)",
+        "RICHI-150"
+      ],
+      "key_id": "Nov1-3",
+      "rows": [
+        "GVAXX DGDVG GXGFD FAGVX DAAGD VGGGG VXGFD DAVXX",
+        "DGDDD XXVGV XAVGX DDFXF VAGGF FGCVF DAADV FDXVA",
+        "FFVXX DVGDX DDFAD DAFDA VXVDC XGDXG XVGDG DGXGD",
+        "GDXVD DVXAX VXDFD GVVDX DXXXG FFFAX"
+      ],
+      "literal_source": "GVAXXDGDVGGXGFDFAGVXDAAGDVGGGGVXGFDDAVXXDGDDDXXVGVXAVGXDDFXFVAGGFFGCVFDAADVFDXVAFFVXXDVGDXDDFADDAFDAVXVDCXGDXGXVGDGDGXGDGDXVDDVXAXVXDFDGVVDXDXXXGFFFAX",
+      "analysis_source": "GVAXXDGDVGGXGFDFAGVXDAAGDVGGGGVXGFDDAVXXDGDDDXXVGVXAVGXDDFXFVAGGFFG?VFDAADVFDXVAFFVXXDVGDXDDFADDAFDAVXVD?XGDXGXVGDGDGXGDGDXVDDVXAXVXDFDGVVDXDXXXGFFFAX",
+      "advertised_length": 150,
+      "expected_raw": "OXKXMACKENSENXXMORGENMELDU?GXVX3X11X18XNICHTSN?UESXXHRGXKIEWXROMX1AX6915X18",
+      "editorial_text": "OXKXMACKENSENXXMORGENMELDUNGXVX3X11X18XNICHTSNEUESXXHRGXKIEWXROMX1AX6915X18",
+      "expected_source_changes": [
+        [
+          67,
+          "?",
+          "G"
+        ],
+        [
+          104,
+          "?",
+          "G"
+        ]
+      ],
+      "expected_cost": {
+        "known_coordinate_substitutions": 0,
+        "source_erasure_fills": 2
+      },
+      "explicit_numeral_spelling_repairs": [],
+      "preserved_literal_fields": [
+        "3X11X18",
+        "KIEW",
+        "ROMX1AX6915X18"
+      ],
+      "source_notes": [
+        "Two C-shaped noncoordinate glyphs, at source67 and104, are preserved in the literal transcript and masked in arithmetic. Independent high-resolution review identifies source62 as G in VAGGF; its reference digit5 is observed under the published square.",
+        "Only MORGENMELDUNG and NICHTSNEUES are completed. The final raw reference6915 is preserved without numerical reinterpretation."
+      ]
+    },
+    {
+      "id": "p110_C",
+      "printed_page": 110,
+      "pdf_page_1based": 113,
+      "source_section": "C",
+      "header_transcription": [
+        "C) NKJ v LP (5.09 p.m., November 3rd)",
+        "FUER UKS 0520 (3/11)",
+        "RICHI-398"
+      ],
+      "key_id": "Nov1-3",
+      "rows": [
+        "VAGDF XVFGG AGFVG DGGXD XXGVG DAAXD GAAFF AGFDG",
+        "XXXVV GDXXG FXDXV GGVFG FAVGG DADXV FAGVG DGFVV",
+        "DAXDD AVVDV VFDGF DAADV AGXAG ADDFG XVXAX DGDGG",
+        "GGDAG GVVGD DVXGG AXGFD GADAX VGDGX GVFAX XGVVF",
+        "AXVAF GDVGA VXVDX GVXFF AGDVV GDVXV DAXDX XXVVA",
+        "GAGAA VXVXG ADXDV AXVVF DFFXG VGXGX AAXDD AXGGD",
+        "DXAVG FDVDA VFDAX FGDDF AGGXG GVDGD XDGDG DGVVD",
+        "AGDVF AFGXA VXFGA AVVAD FDVGV AFFVA VFVXG AGGXV",
+        "GFADA VGGGD XVFDV GDAXA GXGVF VADVD AAGVG VVVAV",
+        "VGDVD AFGVG VXGGD DADFG GAXXD VGDVX XXGAA DGV"
+      ],
+      "literal_source": "VAGDFXVFGGAGFVGDGGXDXXGVGDAAXDGAAFFAGFDGXXXVVGDXXGFXDXVGGVFGFAVGGDADXVFAGVGDGFVVDAXDDAVVDVVFDGFDAADVAGXAGADDFGXVXAXDGDGGGGDAGGVVGDDVXGGAXGFDGADAXVGDGXGVFAXXGVVFAXVAFGDVGAVXVDXGVXFFAGDVVGDVXVDAXDXXXVVAGAGAAVXVXGADXDVAXVVFDFFXGVGXGXAAXDDAXGGDDXAVGFDVDAVFDAXFGDDFAGGXGGVDGDXDGDGDGVVDAGDVFAFGXAVXFGAAVVADFDVGVAFFVAVFVXGAGGXVGFADAVGGGDXVFDVGDAXAGXGVFVADVDAAGVGVVVAVVGDVDAFGVGVXGGDDADFGGAXXDVGDVXXXGAADGV",
+      "analysis_source": "VAGDFXVFGGAGFVGDGGXDXXGVGDAAXDGAAFFAGFDGXXXVVGDXXGFXDXVGGVFGFAVGGDADXVFAGVGDGFVVDAXDDAVVDVVFDGFDAADVAGXAGADDFGXVXAXDGDGGGGDAGGVVGDDVXGGAXGFDGADAXVGDGXGVFAXXGVVFAXVAFGDVGAVXVDXGVXFFAGDVVGDVXVDAXDXXXVVAGAGAAVXVXGADXDVAXVVFDFFXGVGXGXAAXDDAXGGDDXAVGFDVDAVFDAXFGDDFAGGXGGVDGDXDGDGDGVVDAGDVFAFGXAVXFGAAVVADFDVGVAFFVAVFVXGAGGXVGFADAVGGGDXVFDVGDAXAGXGVFVADVDAAGVGVVVAVVGDVDAFGVGVXGGDDADFGGAXXDVGDVXXXGAADGV",
+      "advertised_length": 398,
+      "expected_raw": "ANDENSTABSOFFIZIERDERPIONIEREDESXAXOXKXSCHOLTVXXPIONPARKKAMPX13XFIEGTBEI26X10INXPETREXVERLADEBEREITERBITTEPARKNUM2ERDES1AGGONGESTELLUNGVERANLASSETDASONSTJINFORTKOMMENUNMOEGLICHXXBAYXPIONXPARKXKOMPX13",
+      "editorial_text": "ANDENSTABSOFFIZIERDERPIONIEREDESXAXOXKXSCHOLTZXXPIONPARKKOMPX13XLIEGTBEI26X10INXPETREXVERLADEBEREITERBITTEPARKNUMMERDESWAGGONGESTELLUNGVERANLASSENDASONSTEINFORTKOMMENUNMOEGLICHXXBAYXPIONXPARKXKOMPX13",
+      "expected_source_changes": [
+        [
+          48,
+          "X",
+          "A"
+        ],
+        [
+          178,
+          "F",
+          "V"
+        ],
+        [
+          245,
+          "F",
+          "G"
+        ],
+        [
+          276,
+          "G",
+          "F"
+        ],
+        [
+          278,
+          "V",
+          "F"
+        ],
+        [
+          309,
+          "A",
+          "G"
+        ],
+        [
+          371,
+          "X",
+          "G"
+        ],
+        [
+          389,
+          "X",
+          "G"
+        ]
+      ],
+      "expected_cost": {
+        "known_coordinate_substitutions": 8,
+        "source_erasure_fills": 0
+      },
+      "explicit_numeral_spelling_repairs": [
+        {
+          "plaintext_index": 113,
+          "before": "2",
+          "after": "M"
+        },
+        {
+          "plaintext_index": 119,
+          "before": "1",
+          "after": "W"
+        }
+      ],
+      "preserved_literal_fields": [
+        "13",
+        "BEI26X10",
+        "PETRE",
+        "ERBITTEPARK",
+        "DES",
+        "BAYXPIONXPARKXKOMPX13"
+      ],
+      "source_notes": [
+        "The native source has398 coordinates. The earlier399-slot OCR inserted a spurious V at boundary277 and falsely masked positions159/194. Correct source transcription is not charged as an original-message deletion or fill.",
+        "BEI26X10, PETRE, ERBITTEPARKNUMMERDES and all unit/reference labels remain literal. No historical day, place identity or normalized grammatical construction is asserted."
+      ]
+    }
+  ],
+  "expected_totals": {
+    "source_records": 3,
+    "source_slots": 828,
+    "valid_received_coordinates": 826,
+    "plaintext_positions": 414,
+    "raw_fixed_positions": 412,
+    "known_coordinate_substitutions": 10,
+    "source_erasure_fills": 2,
+    "coordinate_insertions_or_removals": 0,
+    "published_square_changes": 0,
+    "edited_fixed_positions": 414
+  },
+  "independent_glyph_review": {
+    "path": "source_glyph_audit.json",
+    "sha256": "2a9362a6885c832e46761cafa79db7df9663e04e2b85a27de482ddebe8674e84"
+  }
+}

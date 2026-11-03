@@ -1,5 +1,7 @@
 # September radio listening and acknowledgment procedure
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 Three source records on Childs printed p60 give a readable two-part instruction

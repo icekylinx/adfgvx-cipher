@@ -1,5 +1,7 @@
 # Corcovado: sale terms, Turkish crew and a conditional office number
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
 Six source records recover a detailed November 9, 1918 proposal for selling

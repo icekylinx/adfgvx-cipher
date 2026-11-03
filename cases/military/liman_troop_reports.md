@@ -1,5 +1,7 @@
 # Reports requested from General von Liman
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 This two-part telegram requests regular information about troops near

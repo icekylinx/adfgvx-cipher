@@ -1,5 +1,7 @@
 # p84 A/B — Release of oil and Black Sea shipping safety
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Coordinate certificate](../../experiments/corpus_recovery/certificates.json)
 
 **Two complete, unchanged-source readings.** The published October 28–31 key

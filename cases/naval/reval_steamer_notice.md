@@ -1,5 +1,7 @@
 # Reval: expected steamers and further transport capacity
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p213 A1–A3 (PDF p216), **23 November 1918**; published `Nov22-24` key, unchanged. [Inputs](../../experiments/reval_steamer_notice/inputs.json), [exact certificates](../../experiments/reval_steamer_notice/certificates.json), [method](../../experiments/reval_steamer_notice/README.md).
 
 The header reads `KOW v LP (06.20 p.m., November 23rd); FUER RVA 20.00 (23/11) 3 TLE`. Its stated receipt precedes the origin time on the same printed date; the discrepancy is preserved. These parts belong to the lower, 23 November section, separately from the 22 November medical continuation above them.

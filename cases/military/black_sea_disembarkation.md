@@ -1,5 +1,7 @@
 # p98 — disembarkation at Odessa and a repeated shipping instruction
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Status:** Three complete source transcriptions and readable editions. The two versions of part2 retain their separate lengths and place spellings. No missing-coordinate model is imposed.
 
 Source edition and exact repair accounting: **icekylinx and GPT-6 Astra Pro**. Published **Nov1–3** square and ranks: Lasry, Niebel, Kopal and Wacker, unchanged. An earlier unreviewed candidate already identified the body of A1, including its appearance in the frozen p73 retrieval corpus. A2 and B were unreadable in the earlier OCR screen, which omitted their first source rows. Those candidates are preserved in [the prior-work record](../../experiments/black_sea_disembarkation/prior_candidates.json); the new full source transcriptions do not establish universal first-decipherment priority.

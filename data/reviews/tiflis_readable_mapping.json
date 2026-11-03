@@ -1,0 +1,30 @@
+{
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "case": "cases/caucasus/tiflis_appointment.md",
+  "source_certificate_sha256": "08c8cfece0c835a3e0858b51876cf1c20bc3571e9d37a711ab54709c5315a1db",
+  "ordered_fields": [
+    "records[p199_B1].editorial_candidates[ordinary_word_repairs].template",
+    "records[p192_2].editorial_candidates[ordinary_word].template",
+    "records[p192_3].ordinary_word_repair.template"
+  ],
+  "displayed_german_block": "> An General von Kress, Tiflis. Nr. `?1?`. Bitte Weiterleitung folgenden Telegramms des Ministerium des Aeusseren in Warschau an Herrn Waclaw v. Ostrowski, Tiflis: Sie sind zum Vertrauensmann der polnischen Regierung fuer die Republiken Grusien, Armenien und Aserbejnzan mit Sitz in Tiflis ernannt. Ernennung und Instruktion bereits durch `T?DE?SKI` an Sie abgesandt. Ministerium des Aeussern. Bussche.",
+  "normalized_shown": "ANGENERALVONKRESSTIFLISNR?1?BITTEWEITERLEITUNGFOLGENDENTELEGRAMMSDESMINISTERIUMDESAEUSSERENINWARSCHAUANHERRNWACLAWVOSTROWSKITIFLISSIESINDZUMVERTRAUENSMANNDERPOLNISCHENREGIERUNGFUERDIEREPUBLIKENGRUSIENARMENIENUNDASERBEJNZANMITSITZINTIFLISERNANNTERNENNUNGUNDINSTRUKTIONBEREITSDURCHT?DE?SKIANSIEABGESANDTMINISTERIUMDESAEUSSERNBUSSCHE",
+  "expected_selected_exact_text_without_separator_X_and_spelled_colon": "ANGENERALVONKRESSTIFLISNR?1?BITTEWEITERLEITUNGFOLGENDENTELEGRAMMSDESMINISTERIUMDESAEUSSERENINWARSCHAUANHERRNWACLAWVOSTROWSKITIFLISSIESINDZUMVERTRAUENSMANNDERPOLNISCHENREGIERUNGFUERDIEREPUBLIKENGRUSIENARMENIENUNDASERBEJNZANMITSITZINTIFLISERNANNTERNENNUNGUNDINSTRUKTIONBEREITSDURCHT?DE?SKIANSIEABGESANDTMINISTERIUMDESAEUSSERNBUSSCHE",
+  "same_label_sequence": true,
+  "operations": [
+    "Word spacing, capitalization and punctuation.",
+    "Separator X display omission in these three identified strings; no nonseparator X occurs in them.",
+    "Transmitted DOPPELPUNKT rendered as colon."
+  ],
+  "unknown_fields_preserved": [
+    "?1?",
+    "T?DE?SKI"
+  ],
+  "historical_name_completion_used": false,
+  "schema": "adfgvx-tiflis-readable-mapping-v1",
+  "source_certificate_path": "experiments/tiflis_appointment/certificates.json",
+  "readable_block_marker": "**Readable German — the base edited text, with the courier name still unresolved:**"
+}

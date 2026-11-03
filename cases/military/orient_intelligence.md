@@ -1,5 +1,7 @@
 # Orient intelligence: expected landings and fighting on the Tigris
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 printed p92 B1, p93 A2–A4 and p94 A5–A6; PDF pp95–97.
 **Edition:** icekylinx and GPT-6 Astra Pro.

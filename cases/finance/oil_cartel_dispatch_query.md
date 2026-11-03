@@ -1,5 +1,7 @@
 # Oil cartel at Tiflis: details of shipments from Poti
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p212, 22 November 1918; published `Nov22-24` key, unchanged. [Source crop](../../experiments/medical_return_transports/sources/p212_A3.png), [inputs](../../experiments/medical_return_transports/inputs.json), [exact certificate](../../experiments/medical_return_transports/certificates.json).
 
 This query asks the oil cartel at Tiflis to report when, where, to which address and by which ship their consignments were loaded from Poti. It does not provide the requested answers.

@@ -1,5 +1,7 @@
 # Radio contact, operating times and an unavailable key
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 These four independent records describe a broken wire connection, timed

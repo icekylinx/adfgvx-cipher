@@ -1,5 +1,7 @@
 # October routing, weather and personnel requests
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [All cases](../README.md) · [ADFGVX Cipher](../../README.md)
 
 **Status:** Four source-reviewed records under the previously published

@@ -1,5 +1,7 @@
 # A staff officer's assignment to Breslau
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
 A two-part personnel order assigns a staff officer to special employment

@@ -1,5 +1,7 @@
 # German tonnage and proposed ship sales to Turkey
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
 A three-part Marineamt instruction says that selling German ships to

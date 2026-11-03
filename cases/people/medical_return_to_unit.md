@@ -1,5 +1,7 @@
 # Return to a replacement unit on medical grounds
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 The two p104 C parts report being sent to a replacement unit for specialist

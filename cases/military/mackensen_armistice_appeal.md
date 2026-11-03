@@ -1,5 +1,7 @@
 # Mackensen's appeal over disarmament and internment
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Prior body identification:** Childs; summarized by George Lasry, Ingo
 Niebel, Nils Kopal and Arno Wacker (2016). **Source edition and exact repair
 audit:** icekylinx and GPT-6 Astra Pro.

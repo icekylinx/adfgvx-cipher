@@ -1,5 +1,7 @@
 # p79 — medical formations lost in Palestine and their dissolution
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Status:** A complete two-part source edition. The second part is identical in all336 observed coordinates to the previously reviewed p83 B. Its immediately preceding first part supplies the medical-formation antecedent that was missing from the p83-only edition.
 
 Source edition and comparison: **icekylinx and GPT-6 Astra Pro**. The unchanged **Oct28–31** key is credited to Lasry, Niebel, Kopal and Wacker. The existing [p83 dissolution reading](formation_dissolution.md) and earlier unreviewed p79 A1 candidate retain prior credit; no existing physical record is added again.

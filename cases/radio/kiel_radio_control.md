@@ -1,5 +1,7 @@
 # Kiel radio-control order — p140 A and p146 A
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Prior interpretation: J. Rives Childs; George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker. Source comparison and exact repair audit: icekylinx and GPT-6 Astra Pro.**
 
 The four-part order instructs radio stations to come under an officer's immediate control, prevent the reception and distribution of messages from Kiel, and confiscate and destroy texts already received. Its historical interpretation and the p146 repeat were already described in [section 6.4 of Lasry et al.](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf), printed p. 23. The present edition adds literal source transcriptions, independently checked coordinate arithmetic, and an explicit repair of the repeated first part.

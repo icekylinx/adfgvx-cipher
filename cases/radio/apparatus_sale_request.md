@@ -1,5 +1,7 @@
 # Sale of communication apparatus: p157 B1–B2
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Status:** Two readable source parts, with one final source-erased symbol still unresolved.
 
 Source edition and repair accounting: **icekylinx and GPT-6 Astra Pro**. Published **Nov7–9** square and ranks: Lasry, Niebel, Kopal and Wacker, unchanged. Earlier unreviewed OCR-derived candidates already identified much of this apparatus-sale message. They, and their frozen p73 retrieval uses where present, are explicitly preserved; the present work provides the source edition and full repair ledger rather than a universal first-decipherment claim.

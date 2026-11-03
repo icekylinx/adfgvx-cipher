@@ -105,12 +105,18 @@ def build(pdf=None):
     start_time = datetime.fromisoformat(inputs['initial_push_confirmed_utc'].replace('Z', '+00:00'))
     minimum = datetime.fromisoformat(inputs['minimum_followup_end_utc'].replace('Z', '+00:00'))
     assert int((minimum - start_time).total_seconds()) == inputs['minimum_required_followup_seconds'] == 7200
+    extended_until = inputs.get('extended_work_until_utc')
+    if extended_until:
+        extended_time = datetime.fromisoformat(extended_until.replace('Z', '+00:00'))
+        assert extended_time >= minimum
     finished = inputs['review_finished_utc']
     elapsed = None
     if finished is not None:
         finish_time = datetime.fromisoformat(finished.replace('Z', '+00:00'))
         elapsed = int((finish_time - start_time).total_seconds())
         assert elapsed >= inputs['minimum_required_followup_seconds']
+        if extended_until:
+            assert finish_time >= extended_time
     totals = {name: sum(p['normalized_counts'][name] for p in inputs['source_packages'])
               for name in ('physical_records', 'source_slots', 'modeled_plaintext_positions',
                            'fixed_raw_label_positions_under_stated_geometry', 'known_coordinate_substitutions')}
@@ -121,6 +127,7 @@ def build(pdf=None):
             'review_state': 'completed' if finished else 'in_progress',
             'initial_push_confirmed_utc': inputs['initial_push_confirmed_utc'],
             'minimum_followup_end_utc': inputs['minimum_followup_end_utc'],
+            'extended_work_until_utc': extended_until,
             'review_finished_utc': finished, 'completed_elapsed_seconds_after_push': elapsed,
             'catalogue': {'challenge_entries': 22, 'other_records_before': 195,
                           'other_records_after': len(after), 'new_physical_records': len(added),

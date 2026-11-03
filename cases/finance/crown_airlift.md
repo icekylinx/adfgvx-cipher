@@ -1,5 +1,7 @@
 # Crown airlift to Kronstadt and Hermannstadt
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 printed p174, PDF p177, A1–A3. **Edition:** icekylinx and GPT-6 Astra Pro.
 The source is a three-part message dated 10 November 1918, with header

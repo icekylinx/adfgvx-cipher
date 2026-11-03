@@ -1,5 +1,7 @@
 # p166 — a second witness of the newspaper-dispatch request
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Status:** Two newly source-reviewed physical parts, compared with the already published p171 B1/B2 edition. The first part is fully supported by observed coordinate pairs across the copies. In the second, three letter choices remain editorial and one numeral cell remains unassigned.
 
 Source edition and comparison: **icekylinx and GPT-6 Astra Pro**. The unchanged **Nov7–9** key is credited to Lasry, Niebel, Kopal and Wacker. The earlier [newspaper-dispatch edition](newspaper_dispatch.md), its underlying unreviewed body candidates and its repair accounting remain prior work. The p171 records are not added again or altered.

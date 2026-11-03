@@ -1,0 +1,404 @@
+{
+  "schema": "adfgvx-nov10-companions-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov10-12",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      9,
+      12,
+      7,
+      11,
+      3,
+      8,
+      16,
+      6,
+      14,
+      2,
+      10,
+      15,
+      5,
+      13,
+      1,
+      4
+    ],
+    "column_count": 16,
+    "square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+    "square_rows": [
+      "4ARUT1",
+      "OIFSKN",
+      "3?BZPV",
+      "LD?JMX",
+      "CWHQ2E",
+      "?G0?Y?"
+    ],
+    "known_cell_count": 31,
+    "missing_plaintext_symbols": "56789",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 242,
+        "pdf_page_1based": 245,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "The historical appendix also labels this table December 1-3."
+    ],
+    "baseline_square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+    "baseline_differences": [
+      {
+        "coordinate": "FD",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "GF",
+        "baseline": "6",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "7",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XG",
+        "baseline": "8",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XX",
+        "baseline": "9",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "documented_reuse": "1-3 December, per Childs appendix page 242 and NSA summary pages 41-42.",
+    "previously_published_completion": {
+      "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-02",
+      "comment": 26,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-853025",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "FD",
+          "proposed": "5"
+        },
+        {
+          "row_column": "GF",
+          "proposed": "6"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "7"
+        },
+        {
+          "row_column": "XG",
+          "proposed": "8"
+        },
+        {
+          "row_column": "XX",
+          "proposed": "9"
+        }
+      ]
+    }
+  },
+  "source_images": [
+    {
+      "id": "p175_A1",
+      "path": "sources/p175_A1.png",
+      "printed_page": 175,
+      "pdf_page_1based": 178,
+      "crop_pdf_points": [
+        40,
+        188,
+        520,
+        286
+      ],
+      "render_scale": 4,
+      "sha256": "699b45e8472df6020df663d913cc2c046b170c759f90cad4d629b42429ad5a0c"
+    },
+    {
+      "id": "p175_A2",
+      "path": "sources/p175_A2.png",
+      "printed_page": 175,
+      "pdf_page_1based": 178,
+      "crop_pdf_points": [
+        65,
+        286,
+        520,
+        330
+      ],
+      "render_scale": 4,
+      "sha256": "4f6937d0281930b8e8f9dc31cc374515aecd250f36837396301bdd2033a8fe08"
+    },
+    {
+      "id": "p176_B_header",
+      "path": "sources/p176_B_header.png",
+      "printed_page": 176,
+      "pdf_page_1based": 179,
+      "crop_pdf_points": [
+        55,
+        410,
+        525,
+        456
+      ],
+      "render_scale": 8,
+      "sha256": "8cb26dcba4925d5ea46483a1972c25fac3ba52877cb4429148cb712c1ebc01e4"
+    },
+    {
+      "id": "p176_B2",
+      "path": "sources/p176_B2.png",
+      "printed_page": 176,
+      "pdf_page_1based": 179,
+      "crop_pdf_points": [
+        65,
+        528,
+        520,
+        622
+      ],
+      "render_scale": 4,
+      "sha256": "41a61d9baab10266d942e283977e88e0519e3f69c3f2d20f2ebf7ab8898126e3"
+    },
+    {
+      "id": "p176_B3",
+      "path": "sources/p176_B3.png",
+      "printed_page": 176,
+      "pdf_page_1based": 179,
+      "crop_pdf_points": [
+        65,
+        621,
+        520,
+        714
+      ],
+      "render_scale": 4,
+      "sha256": "b889cebc3b25525b65c20f0f920147fdf5c3faee02af2eb50da92778f8e45259"
+    },
+    {
+      "id": "p176_B3_group",
+      "path": "sources/p176_B3_group.png",
+      "printed_page": 176,
+      "pdf_page_1based": 179,
+      "crop_pdf_points": [
+        430,
+        652,
+        477,
+        671
+      ],
+      "render_scale": 8,
+      "sha256": "4278a7d79f5fce7bfb5125ba2fa82186e29daace645d5bf87d0ba239e0624317"
+    }
+  ],
+  "records": [
+    {
+      "id": "p175_A1",
+      "printed_page": 175,
+      "source_section": "A1",
+      "source_rows": [
+        "DGAAF GAVXD FGXXV AVFVF VDAVA AGVVV DVGVD VXXGG",
+        "XXDXD AVXAA FDGAG DAADD VDGDV DXADV DDFDA GAVGX",
+        "VGDGV VVXFX DXVXX XVDDX VGVFA DDAGG GVGVG GFAVV",
+        "VDDAF DXDXD AAFXX DXXXF VAGDD XGFXF XXGVG XGVAV",
+        "AVVAA AVAVD XFVXX DGGFX GAADF DGDDA AD"
+      ],
+      "source_slots": 192,
+      "advertised_length": 192,
+      "expected_raw": "HPTMXMANNITAED1XNAMUTXZUGLEICHFUERHPTMXVXWEIHERXEXIX2XXABGEORDNETEMITZUGODETAUTOSONACHSPALEITENX",
+      "readable_candidate": "HPTMXMANNSTAEDTXNAMURXZUGLEICHFUERHPTMXVXWEIHERXEXIX2XXABGEORDNETEMITZUGODERAUTOSONACHSPALEITENX",
+      "geometry": "Native printed frame, with no insertion, deletion or reordering."
+    },
+    {
+      "id": "p175_A2",
+      "printed_page": 175,
+      "source_section": "A2",
+      "source_rows": [
+        "ADDAA ADFXX AADDV GGGFV XDXDF DAGAD GGDFX FXXAA",
+        "VAFVA GFFVX VFGVA DGVGV AAGGV DFADD DADXD XXAVD",
+        "VAXXA VVVAF DXFFX XFDAF AXGG"
+      ],
+      "source_slots": 104,
+      "advertised_length": 104,
+      "expected_raw": "DASSWEITERFAHRTNACHBERLINAM11X11X?X03XNACWMXOHLRM4BX",
+      "readable_candidate": "DASSWEITERFAHRTNACHBERLINAM11X11X?X03XNACHMXOHLRM4BX",
+      "geometry": "Native printed frame, with no insertion, deletion or reordering."
+    },
+    {
+      "id": "p176_B2",
+      "printed_page": 176,
+      "source_section": "B2",
+      "source_rows": [
+        "GGFVV DVDGD GDAGV FXFXG FFXGX XDDDD XVDDV AADVA",
+        "DAGVD VVVAG XFXFX AAXXV VXVDD FDDVV VGVGD DAXVF",
+        "XGXFD XDVXD VXFVG VDAVF AVAAA VDAFF AXXVF AXGXG",
+        "VFGXX DFXDD VGGDG DDAVD DADAG DVAXA DDAVA GGXAX",
+        "GDXXV XGDDA XVDFV DAGXD AXAXG DXDXX AXFGD XXXDX",
+        "XXVDA GAGAD DVDVD DXAXD VFDXX XGDVX DVXFA XVGDD",
+        "FGAXV XDFAA DA"
+      ],
+      "source_slots": 252,
+      "advertised_length": 252,
+      "expected_raw": "FEHERTEMPLOMXFOLGENFRANZOSENXXBESATZUNSHEERXFEINDVORFUEHLTEGEGENNEUESTELLUNGENDONAUKNIEXSAMVITXNACHAGENTENSTARKMITENGLAEN?ERNX",
+      "readable_candidate": "FEHERTEMPLOMXFOLGENFRANZOSENXXBESATZUNSHEERXFEINDVORFUEHLTEGEGENNEUESTELLUNGENDONAUKNIEXSAMVITXNACHAGENTENSTARKMITENGLAENDERNX",
+      "geometry": "Native printed frame, with no insertion, deletion or reordering."
+    },
+    {
+      "id": "p176_B3",
+      "printed_page": 176,
+      "source_section": "B3",
+      "source_rows": [
+        "VAVDD GDDDV DAVVF AGVAG XXVVA XXXXX DAGXA FDAAA",
+        "ADGAA FAVDG VXXDV DXFXG XGDXA GVVDX DAVDD VDAVA",
+        "DDDDD AXDDX GGGDF XXXFA GXADG FVAVA AVVAV DGVVF",
+        "FGGFG VXVGF XVXGX XGAGG VGDAA VFVVD VDVAV AVFAV",
+        "DDAAF DGFGD DXXGF FXDGF XFFAX XFVFX XXXGF FAFXA",
+        "XFDXX DAFXV XXDGX FXXAG VDGDF GVADV VGDDG DAGDX",
+        "VXFGX GXFFF GAFVA DVDXG DFFAD GVVAG FD"
+      ],
+      "source_slots": 272,
+      "advertised_length": 272,
+      "expected_raw": "MAROKANERNBELEG1XXSISTOWXZUGVERKEHRXXBEIXRUS2UKXSETZTENFRANZOSENRUMAENISCHUFERUEBERXXRESERVENBRACHTENSNENOERDLNCHXSLOBOZIEXZUMSTEHENXOKM",
+      "readable_candidate": "MAROKANERNBELEGTXXSISTOWXZUGVERKEHRXXBEIXRUSTUKXSETZTENFRANZOSENRUMAENISCHUFERUEBERXXRESERVENBRACHTENSIENOERDLICHXSLOBOZIEXZUMSTEHENXOKM",
+      "geometry": "Native printed frame, with no insertion, deletion or reordering."
+    }
+  ],
+  "message_headers": [
+    {
+      "id": "p175_A",
+      "verbatim": [
+        "A) ZM v SY (10.57 p.m., November 10th)",
+        "VE (10) 2 TLE"
+      ],
+      "parts": [
+        "p175_A1",
+        "p175_A2"
+      ],
+      "note": "The two source-labeled parts belong to one message. No exact same-plaintext relation with p171 C / p172 E is asserted."
+    },
+    {
+      "id": "p176_B",
+      "verbatim": [
+        "B) LP v ZÖN (3.38 a.m., November 11th)",
+        "2305 (10) 3 TLE"
+      ],
+      "parts": [
+        "p176_B1_existing_p176b",
+        "p176_B2",
+        "p176_B3"
+      ],
+      "note": "Origin/header date 10 and receiving date 11 are preserved. B1 is the existing p176b challenge and is excluded from all new-record totals."
+    }
+  ],
+  "rejected_scratch_transcription": {
+    "record": "p176_B3",
+    "printed_group": "VDVAV",
+    "source_start": 150,
+    "incorrect_scratch_group": "VDDVAV",
+    "evidence": "sources/p176_B3_group.png",
+    "disposition": "The enlarged scan shows five coordinates. The extra D was a temporary manual-transcription error, not a historical source character. No source deletion, 273-slot source model or deletion-fit result is retained as evidence."
+  },
+  "context_records_excluded_from_new_counts": [
+    {
+      "id": "p176b",
+      "path": "cases/p176b.md",
+      "credit": "Prinz and GPT-6 Astra, 2026-09-19; https://www.prinzai.com/p/another-wwi-german-radio-cipher-falls",
+      "relation": "Source-labeled B1 of the same three-part message. Its prior missing 20-coordinate reconstruction and three unknown unit digits remain separate and unchanged. B2/B3 do not determine that block or those digits."
+    },
+    {
+      "ids": [
+        "p171_C",
+        "p172_E"
+      ],
+      "path": "experiments/namur_order_witnesses/certificates.json",
+      "relation": "Different instruction with related raw name/place strings. The earlier HPTMANNSTAEDT string permits a different title/name segmentation from new HPTMXMANNSTAEDT. No same-person identity, exact-copy relation or change to its 2048 alternatives is inferred."
+    }
+  ],
+  "prior_attribution_check": {
+    "scope": "Bounded explicit-reference and body check; no first historical decipherment claim.",
+    "paper": {
+      "authors": [
+        "George Lasry",
+        "Ingo Niebel",
+        "Nils Kopal",
+        "Arno Wacker"
+      ],
+      "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+      "year": 2016,
+      "doi": "10.1080/01611194.2016.1169461",
+      "url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
+      "author_pdf_sha256": "aa8490564b49431ad3dadf935fde15a2be12f5f90775df36d695c70dd586935f",
+      "section": "6.4",
+      "author_pdf_page_1based": 24,
+      "explicit_prior_p175_body": "Discusses p175 A at 22:57 together with p172 C, von Weiher and delegation travel through Spa to Berlin. That body and historical interpretation have prior credit.",
+      "schedule_limit": "The narrative gives Berlin arrival at 15:00 on 11 November. This edition retains raw ?X03 NACHM with FD in56789 and does not import the narrative time, regiment identity or asserted sequence after signing."
+    },
+    "dissertation": {
+      "author": "George Lasry",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "result": "Repeats the p172 C / p175 A discussion. No separate explicit p176 B2/B3 body was found by the bounded name/token search."
+    },
+    "comments": {
+      "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+      "count": 55,
+      "snapshot_sha256": "622dbf3988addf725c73cfe5a183780da8329d3cea2de3997d67298707236fb9",
+      "result": "The p176 missing 10-coordinate discussion concerns a separate A-family breakthrough message. No explicit B2/B3 body was located in this bounded check."
+    },
+    "earlier_repository_candidates": {
+      "path": "prior_candidates.json",
+      "sha256": "bf3eaccd550ef6323cbb8578c9bb6b9cf20b1110bf0ff775f643e421341eeb46",
+      "new_contribution": "Source-exact transcripts, complete position/domain and coordinate repair ledgers, native-frame verification and explicit uncertainty. The four bodies already had unreviewed corpus-screen candidates; p175 additionally has explicit prior published discussion."
+    }
+  },
+  "literal_limits": [
+    "p175 A1 retains EXIX2 and HPTMXMANNSTAEDT without new military or biographical identification.",
+    "p175 A2 retains 11X11, ?X03 and OHLRM4B. The unknown is a square-cell domain, not an erased source coordinate.",
+    "p176 B2 retains BESATZUNSHEER, FEINDVORFUEHLTE and SAMVIT exactly; no extra G, word movement or place normalization is inserted.",
+    "p176 B3 retains MAROKANERN, SISTOW, RUSTUK, RUMAENISCHUFER and SLOBOZIE. Its assertions are a contemporary report, not independent verification of troop movements.",
+    "Shared geography with the Nov9 and Nov3 military reports is not evidence of identical plaintext."
+  ]
+}

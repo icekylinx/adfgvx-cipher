@@ -1,5 +1,7 @@
 # ZITAG stop-orders and cancellation of procurement contracts
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 printed pp102, 103 and 106, PDF pp105, 106 and 109. **Edition:** icekylinx
 and GPT-6 Astra Pro. The [experiment](../../experiments/zitag_purchase_orders/README.md)

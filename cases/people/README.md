@@ -4,7 +4,7 @@
 
 Appointments, staff transfers, travel permissions, personnel inquiries and civilian affairs are collected here.
 
-**28 reviewed physical records across 12 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**30 reviewed physical records across 13 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -18,6 +18,7 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [An enquiry about Glatz's whereabouts](glatz.md) | p140 B, p149 C |
 | [Siegfried and Osthoff: later military-mission recall messages](military_mission_recalls.md) | p161 C1, p161 C2, p161 D1, p161 D2 |
 | [The Namur order: two witnesses for Staedt and Weiher](namur_order_witnesses.md) | p171 C, p172 E |
+| [Delegates directed through Spa toward Berlin](spa_berlin_delegates.md) | p175 A1, p175 A2 |
 | [p203 C / p210 C — inquiries about Richter in Aleppo](richter_aleppo.md) | p203 C, p210 C |
 | [p210 B — Consul Burkhardt's oil-company assignment](p210_B.md) | p210 B |
 | [German civilians in Constantinople: an enquiry and a diplomatic appeal](constantinople_civilians.md) | p221 B1, p221 B2, p221 B3, p221 B4 |
@@ -46,6 +47,8 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [p161 D2](military_mission_recalls.md) | Osthoff railway battalion reassignment and cabinet-order closing | 95/95 fixed positions; 0 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
 | [p171 C](namur_order_witnesses.md) | Namur order for Staedt to contact HPT V. Weiher; complementary source witness | 252 received slots; six substitutions and four printed fills reconcile the 126-position body with p172 E; INSP1IN retained | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. key and earlier unreviewed C candidate retained; neighboring published body attribution distinguished |
 | [p172 E](namur_order_witnesses.md) | Namur order for Staedt to contact HPT V. Weiher; complementary source witness | 242 received slots plus 10 modeled missing prefix coordinates; five substitutions and ten witnessed prefix fills; same 126-position body as p171 C | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. key and earlier unreviewed C candidate retained; neighboring published body attribution distinguished |
+| [p175 A1](spa_berlin_delegates.md#p175-a1) | Delegates directed through Spa: Namur and von Weiher address | Prior Lasry body; native frame and four coordinate repairs | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; Lasry et al. 2016 §6.4 prior body and interpretation |
+| [p175 A2](spa_berlin_delegates.md#p175-a2) | Berlin onward journey and an unresolved departure-time digit | Prior Lasry body; one coordinate repair; time domain 56789 retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; Lasry et al. 2016 §6.4 prior body and interpretation |
 | [p203 C](richter_aleppo.md) | Inquiry about Richter at the Aleppo radio park | 93/96 raw positions; postal digits remain coupled and unknown | icekylinx and GPT-6 Astra Pro (2026) |
 | [p210 B](p210_B.md) | End of Consul Burkhardt's oil-company assignment | 158/158 raw positions; five word repairs; date labels literal | icekylinx and GPT-6 Astra Pro (2026) |
 | [p210 C](richter_aleppo.md) | Fuller inquiry about NCO Kurt Richter in Aleppo | 201/204 raw positions; six substitutions and three fills | icekylinx and GPT-6 Astra Pro (2026) |

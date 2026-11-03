@@ -1,5 +1,7 @@
 # November 9 operational reports: Serbian cavalry and the retreat north
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [ADFGVX Cipher](../../README.md) · [All cases](../README.md) · [Source certificate](../../experiments/p170_continuation/military_records.json)
 
 **A missing 20-coordinate prefix is recovered from another intercept.** The three-part report on p166 and a differently framed two-part report on p170 describe Serbian cavalry, the northward march of German formations, and transport preparations for the Alpenkorps. A p167 copy restores the beginning missing from p166 part 3. The clearer parallel also preserves the order footer.
@@ -8,7 +10,15 @@ Source recovery, transcription and editorial work: **icekylinx and GPT-6 Astra P
 
 ## Read the reports
 
-The following German readings normalize punctuation and expand abbreviations. Square brackets mark supplied letters or uncertain readings. The exact raw text and every ciphertext edit follow below.
+The following German readings use the recorded edited witnesses and supply readable spacing and punctuation. Square brackets have the specific functions in the table below. The exact raw text and every ciphertext edit follow unchanged.
+
+| Display form | Editorial category | What remains separate |
+|---|---|---|
+| `Serb[ische]` | Abbreviation expansion | The extra prose letters are not encoded positions. |
+| `[in]` | Supplied grammar | The exact streams do not acquire a new word. |
+| `Aben[d]meldung`, `Peterwa[r]dein`, `Fein[d]berührung`, `Lin[i]e` | Prose-only spelling normalization | The same-length edited witnesses still retain their missing letters. |
+| `U[j]verbasz` | Priced source-erasure fill | J is a candidate coordinate fill, not an abbreviation expansion. |
+| `[5. oder 6.]` | Linked key-cell alternatives | Every occurrence uses the same unresolved cell; the choices are not independent. |
 
 ### p166 A, with its p167 A continuation
 

@@ -1,5 +1,7 @@
 # p83 B — dissolution of formations and return of personnel
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Status:** Complete direct source reading, with no coordinate repairs. This is the printed second part of a message; the formations named in its missing antecedent are not identified here.
 
 Source edition and reproducible verification: **icekylinx and GPT-6 Astra Pro**. The unchanged **Oct28–31** period key is credited to Lasry, Niebel, Kopal and Wacker. An earlier unreviewed OCR-derived reading already contained this body and was included in the frozen p73 retrieval corpus; this edition resolves its three OCR erasures from the visible printed coordinates. It does not claim first decipherment.

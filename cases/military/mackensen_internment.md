@@ -1,5 +1,7 @@
 # Internment letter to Mackensen's soldiers' council — p226 C / p227 A
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Prior reading: J. Rives Childs; George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker. Source edition and exact repair audit: icekylinx and GPT-6 Astra Pro.**
 
 The four-part letter says that efforts to avoid internment have failed, asks the soldiers to maintain order, and expresses the hope of their return to Germany. This body is already published in [Lasry et al., Table 4](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf), printed p. 22, and in [Lasry's dissertation, Table 6.4](https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf), p. 108. The new work here explains a two-location source defect in part 3 and makes the source costs and unresolved wording inspectable.

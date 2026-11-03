@@ -1,5 +1,7 @@
 # A pioneer detachment may remain in Tiflis
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p81 B (PDF p84), 30 October 1918; published `Oct28-31` key, unchanged. [Source crop](../../experiments/deutzitag_dispatch_inquiries/sources/p81_B.png), [inputs](../../experiments/deutzitag_dispatch_inquiries/inputs.json), [exact certificate](../../experiments/deutzitag_dispatch_inquiries/certificates.json).
 
 The clear header addresses General von Kress in Tiflis: `NKJ v LP (3.53 p.m., October 30th); FUER COS SS DD GR HQ OP 1400 (30/10); FUER GENERAL VON KRESS, TIFLIS`. This is a separate military message, unrelated to the commercial inquiries around it on the page.

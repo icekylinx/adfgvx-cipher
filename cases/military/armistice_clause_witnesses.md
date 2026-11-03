@@ -1,5 +1,7 @@
 # Two additional witnesses to the armistice-planning traffic
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source comparison and edition: icekylinx and GPT-6 Astra Pro.**
 
 Printed p137 preserves two fragments already represented in the

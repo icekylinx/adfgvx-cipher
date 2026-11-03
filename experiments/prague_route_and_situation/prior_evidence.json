@@ -1,0 +1,37 @@
+{
+  "original_screen_sha256": "408ca9c5f60b94c73f88351755fde9ac6e916d2ee5fe3cf99c228fd653ef00ab",
+  "source_path_at_review": "/tmp/corpus-harvest-screen-initial.json",
+  "rows": [
+    {
+      "block_id": "p211_ocr_block1",
+      "printed_page": 211,
+      "headers_ocr": [
+        "20th NOVEMBER, 1918.",
+        "A) .--= vi =-- (-------- November 21st)",
+        "2317 (11/20)"
+      ],
+      "ciphertext": "FFXFVVFFFXFAGFGVFVXGFXVGAXFXFXFGGFVFAGGGDXXGFDFDVXFFFFVXDXDGFDADFVXFGGDGDDGDVADFDDDVFFXXDFDXVFVFGVDXGDDGGFDDVXVFAXDDFDFDFFVDXXDFXDFDXDDDXDXAFGDXFFXGXAGXDAFDDDDVFDGGGGXVFFXDADXF",
+      "source_slots": 176,
+      "best": {
+        "key": "Nov19-21",
+        "score": -5.136873194750618,
+        "known_quad_mean": -5.136873194750618,
+        "known_quad_windows": 85,
+        "plaintext": "ODERBERGKEINESCHWIERIGKEITENINDENWEGLEGENWIRDXXEMPFANGSBESTAETIGUNGXXOHLXRMJAJJ9JJOPXGEH",
+        "known_positions": 88,
+        "positions": 88,
+        "unpaired_coordinate": null
+      },
+      "runner_up": {
+        "key": "Nov25-28",
+        "score": -9.156297860426061,
+        "known_quad_mean": -9.156297860426061,
+        "known_quad_windows": 85,
+        "known_positions": 88,
+        "positions": 88,
+        "unpaired_coordinate": null
+      }
+    }
+  ],
+  "credit": "The earlier OCR screen already recovered the complete upper-A2 body. The new contribution is manual source review, exact provenance and a distinct catalog record, not first decipherment. No parsed upper-B record was present in that bounded screen."
+}

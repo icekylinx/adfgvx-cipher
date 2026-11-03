@@ -1,5 +1,7 @@
 # Radio instructions: p77 B and p134 B
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md)
 
 **Status:** Two source-checked contextual records, outside the 22-target challenge. The established period keys are credited to the earlier corpus researchers. Source transcription, comparison, and verification: **icekylinx and GPT-6 Astra Pro**. No first decipherment priority is claimed for these wider-corpus messages.

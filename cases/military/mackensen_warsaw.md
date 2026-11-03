@@ -1,5 +1,7 @@
 # The Warsaw query and its later quotation — p181 A / p214 B
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [Case guide](../README.md) · [ADFGVX Cipher](../../README.md)
 
 **Status:** A 92-character query on p181 is quoted inside a later message on

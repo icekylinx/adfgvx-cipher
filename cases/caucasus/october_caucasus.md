@@ -1,10 +1,14 @@
 # October Caucasus traffic — Kress, Westernhagen and a shipment for Poti
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [All readings](../README.md) · [ADFGVX Cipher](../../README.md) · [Source and verification](../../experiments/october_caucasus/README.md)
 
 **Source edition and repair analysis:** icekylinx and GPT-6 Astra Pro. **Earlier key:** the published October 4–6 square and 22-column transposition, credited to Childs and George Lasry / Lasry, Niebel, Kopal and Wacker in the [key catalogue](../../data/keys.json).
 
 Twelve source records cover seven exchanges about the Caucasus: personnel and money for Kress's delegation, price instructions to Westernhagen, electrical equipment sent to Tiflis, a cargo leaving Braila for Poti, radio timings, a liaison officer and equipment procurement. The p68 procurement pair has a **provisional, heavily repaired first part and an opening-only second part**; it is not a direct recovery of the complete exchange. Another interrupted continuation is retained separately without an accepted reading. The German readings below use explicit editorial repairs. Every received coordinate, surviving garble, ambiguous layout and repair cost is retained in the [certificate](../../experiments/october_caucasus/certificates.json). This is a new reproducible edition in this repository, without a first-historical-decipherment claim.
+
+**Display notes:** The German readings use the stated edited witnesses. Square brackets identify a supplied spelling, a proposed value or an explicitly described unresolved passage; the nearby record notes give the category. Uninterpreted literal fields are shown in code, not promoted to names or quantities. A bracketed whole value does not mean that all its characters are unknown.
 
 ## p72 A — Reinforcements, administrative personnel and money for Kress
 
@@ -12,7 +16,7 @@ Twelve source records cover seven exchanges about the Caucasus: personnel and mo
 
 ### Most likely readable German
 
-> Zu Tel. 30.9. [NATEKS] Nr. 8557. 1. Verstärkung der Deleg. von O.H.L. ohne Beteiligung [… K.M.] angeordnet. 2. Mit Bericht vom 8.[?], [4A] Nr. 553 angeford. Verw.-Pers. wird mit Ausnahme der Garnison-Verw.-Beamten — vergl. Tel. 26.[?], [unresolved reference] — zur Verfügung gestellt werden. 3. Notwendiges Geld ist sichergestellt.
+> Zu Tel. 30.9. `NATEKS` Nr. 8557. 1. Verstärkung der Deleg. von O.H.L. ohne Beteiligung [… K.M.] angeordnet. 2. Mit Bericht vom 8.[?], `4A` Nr. 553 angeford. Verw.-Pers. wird mit Ausnahme der Garnison-Verw.-Beamten — vergl. Tel. 26.[?], [unresolved reference] — zur Verfügung gestellt werden. 3. Notwendiges Geld ist sichergestellt.
 
 **Meaning:** Reinforcement of the delegation has been ordered by Supreme Army Command, without the participation of an office whose abbreviation is damaged. Requested administrative personnel will be made available, except for garrison-administration officials. Necessary money has been secured.
 
@@ -36,7 +40,7 @@ The raw core is already recognizable as `VERSTAER1UNGDERDELEGXVONOXHXLXOHNEBETEI
 
 ### Most likely readable German
 
-> An Westernhagen. Bestätigen Telegr. 28.9. Euer früheres Telegr. nicht erhalten. Da von euch ohne Bericht und Kenntnis dortiger Marktlage gelassen, können Preisgrenzen nicht aufgeben. Mdl. Rücksprache sofort erforderlich. Bitten Rückkehr beschleunigen. Drahten Gleiches über ASTO Constanza. Bestätigt Empfang. Deutkauf.
+> An Westernhagen. Bestätigen Telegr. 28.9. Euer früheres Telegr. nicht erhalten. Da von euch ohne Bericht und Kenntnis dortiger Marktlage gelassen, können Preisgrenzen nicht aufgeben. Mdl. Rücksprache sofort erforderlich. Bitten Rück[k]ehr beschleunigen. Drahten Gleiches über ASTO Constanza. Bestätigt Empfang. Deutkauf.
 
 **Meaning:** A telegram of 28 September is acknowledged, but an earlier one was not received. Without the requested report or knowledge of local market conditions, the sender cannot give price limits. An immediate personal discussion is needed; Westernhagen is asked to hasten his return. The same instruction is being telegraphed via `ASTO Constanza`, and receipt is to be acknowledged.
 
@@ -55,7 +59,7 @@ Removing one copy of each repeated A1 group gives four source-index aliases and 
 
 ### Most likely readable German
 
-> Nach Tiflis abgegangen 28.9., mit 2 Begleiter: 2 Stück 16-kW-Maschinensätze und 1 20-kW-Umformer.
+> Nach Tiflis abgegangen 28.9., mit 2 Begleiter: 2 Stück 16-kW-Maschinensätze und 1 [20]-kW-Umformer.
 
 **Meaning:** Two machine sets rated at 16 kW and one converter, provisionally read as rated at 20 kW, were dispatched to Tiflis on 28 September with two accompanying people. The directly decoded telegraphic form is `BEGLEITER`; no grammatical final `N` is inserted into the cipher edition.
 
@@ -71,7 +75,7 @@ Part A2 advertises **192 coordinates** but stops after **85**, followed by the p
 
 ### Most likely readable German
 
-> Ab Braila 4.10. mit D. Violetta: 10 000 Eierhandgranaten, 3 Wagen Masch.-Gew., [04WLI] russ. Gew., 9 Wag. Mun., [94TS6] Lebensmittel, 16 Faß Benzin, 2 Kisten Kuriergepäck, 10 Wag. Mun. für Mun.-Dep. Poti und mehrere Wag. für dort. Truppen.
+> Ab Braila [4.10.] mit D. Violetta: [10 000] Eierhandgranaten, 3 Wagen Masch.-Gew., `04WLI` russ. Gew., 9 Wag. Mun., `94TS6` Lebensmittel, 16 Faß Benzin, 2 Kisten Kuriergepäck, 10 Wag. Mun. für Mun.-Dep. Poti und mehrere Wag. für dort. Truppen.
 
 **Meaning:** A cargo sent from Braila aboard the vessel *Violetta* includes hand grenades, machine guns, Russian rifles, ammunition, food, petrol and courier luggage. Poti's ammunition depot and troops there are named as destinations. Two damaged quantity fields are unresolved. The proposed **10 000** hand grenades is also conditional: the common raw reading is `100?0`, and the fourth digit depends on the declared alignment and an erased-coordinate fill. It is not an independently established exact quantity.
 
@@ -96,7 +100,7 @@ It replaces the short printed `XFFF` by `GDFFF`: either insert `G` before the pr
 
 ### Most likely readable German
 
-> Zu dort Nr. 479: 20.00, 20.30 für OSM ungeeignet. Sind Sie mit RICHI [M98], 30.9., mitgeteilten Zeiten einverstanden? Wie ist dort Empfang OSM, Welle 2800 und 3500? Schlee.
+> Zu dort Nr. 479: 20.00, 20.30 für OSM ungeeignet. Sind Sie mit RICHI `M98`, 30.9., mitgeteilten Zeiten einverstanden? Wie ist dort Empfang OSM, Welle 2800 und 3500? Schlee.
 
 **Meaning:** The proposed times are unsuitable for OSM. The recipient is asked whether the previously notified times are acceptable and how OSM is received at two wavelengths.
 
@@ -108,9 +112,9 @@ The unchanged 274-coordinate geometry fixes **136/137 raw positions**. The displ
 
 ### Most likely readable German
 
-> Mit Einverständnis O.H.L. wird Rittm. [Tellner?], [Tellner?], als Verbdgs.-Offz. der Heeresgr. nach Tiflis entsandt. Heergr. Kjew.
+> Mit Einverständnis O.H.L. wird Rittm. [Tellner], [Tellner], als Verbdgs.-Offz. der Heeresgr. nach Tiflis entsandt. Heergr. Kjew.
 
-**Meaning:** With Supreme Army Command's approval, a cavalry captain is being sent to Tiflis as the army group's liaison officer. The signature names Army Group Kiev; the cipher's literal spelling is `KJEW`. The damaged surname is repeated and is provisionally read as **Tellner**, without assigning a forename or identifying a person outside the telegram.
+**Meaning:** With Supreme Army Command's approval, a cavalry captain is being sent to Tiflis as the army group's liaison officer. The signature names Army Group Kiev; the cipher's literal spelling is `KJEW`. The two bracketed names are an editorial name reconstruction, not one-position question marks. The damaged surname is repeated and is provisionally read as **Tellner**, without assigning a forename or identifying a person outside the telegram.
 
 The actual body has **220 coordinates**, matching the header. Three parenthesized `X` values are retained as recorded source coordinates, including the final printed run `FDX(X)-X(X)VGX`. Parentheses remain visible in the literal row edition. Removing those annotated letters or treating the ten-slot run as one five-letter group would change the frame.
 
@@ -130,7 +134,7 @@ The published October 4–6 key gives a recognizable Kress/Tiflis address and eq
 
 ### Provisional first-part reading
 
-> General v. Kress, Tiflis. Zu T-Spruch Nr. [?159; damaged reference]. Betr. Entsendung 2 Offz. nach Tiflis zum Ankauf von Ausrüstungsstücken …
+> General v. Kress, Tiflis. Zu T-Spruch Nr. [?159; damaged reference]. Betr. Entsendung 2 Offz. nach Tiflis zum Ankauf von Ausrüstungsstücken [continued in part 2]
 
 **Meaning under the proposed repairs:** The message concerns sending two officers to Tiflis to purchase equipment. Its reference number and date cannot be completed responsibly from this edition.
 
@@ -146,9 +150,9 @@ The displayed ordinary wording needs **24 known-coordinate substitutions and 17 
 
 Part 2 has exactly **186 slots**, with **41 coordinate erasures** and **56/93 fixed raw positions**. Its beginning `??DARTILLER??T7QITJO?` supports the provisional continuation:
 
-> … und Artilleriemunition …
+> [continued from part 1] und Artilleriemunition [remaining text unresolved]
 
-The template asserts only `UNDARTILLERIEMUNITION`, requiring **four known-coordinate substitutions and five erasure fills**. The remaining **72 plaintext positions are unasserted**. The certificate retains their raw domains, and its arbitrary coordinate fillers for a complete arithmetic roundtrip are not promoted to a further sentence, quantity, date or signature.
+The bracketed continuation and unresolved-text notices are display descriptions, not recovered German words or a new gap-length hypothesis. The template asserts only `UNDARTILLERIEMUNITION`, requiring **four known-coordinate substitutions and five erasure fills**. The remaining **72 plaintext positions are unasserted**. The certificate retains their raw domains, and its arbitrary coordinate fillers for a complete arithmetic roundtrip are not promoted to a further sentence, quantity, date or signature.
 
 ## Relation to the open p73 challenge
 

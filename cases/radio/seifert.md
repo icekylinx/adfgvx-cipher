@@ -1,5 +1,7 @@
 # Station control and the Seifert service exchange
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [ADFGVX Cipher](../../README.md) · [All cases](../README.md) · [Source certificate](../../experiments/p170_continuation/seifert_records.json)
 
 **Nine source records, seven message groups.** The November 7–9 and November 10–12 published keys recover a sequence of radio-station reports and short service messages. Two pairs are repeated transmissions. These records are outside the original 22-entry challenge; the open p170 challenge is section **A**, not any of these neighboring records.

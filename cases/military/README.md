@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**130 reviewed physical records across 37 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**154 reviewed physical records across 44 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -18,6 +18,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [Bridges and the wire connection through Budapest](budapest_wire_break.md) | p100 B |
 | [p107_D — supplementary source review](../supplementary/p107_D.md) | p107 D |
 | [p109 — Evening report and the Sava crossing](../p109.md) | p109 B |
+| [Kiew morning report and pioneer-park loading request](kiew_morning_and_pioneer_reports.md) | p110 B, p110 C |
 | [Mackensen's November 3 withdrawal report and its separately received ninth part](mackensen_withdrawal_report.md) | p113 A3, p113 B9, p114 A1, p114 A4, p115 A5, p115 A6, p115 A7, p115 A8, p116 A10, p116 A11, p116 A12, p116 A13 |
 | [Armistice transit and withdrawal planning](armistice_transit_planning.md) | p125 A1, p125 A2, p125 A3, p125 A4, p126 A5, p126 A6, p126 B |
 | [Surviving Transylvania situation report](transylvania_situation_report.md) | p128 B1, p129 A7, p129 A8, p137 A4, p137 A5 |
@@ -28,17 +29,23 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p163 A — Withdrawal instructions and headquarters movements](p163_A.md) | p163 A13, p163 A14, p163 A15, p163 A17, p163 A18 |
 | [p164 A4 — cavalry report](../context/p164_A4.md) | p164 A4 |
 | [November 9 operational reports: Serbian cavalry and the retreat north](nov9_operational_reports.md) | p166 A1, p166 A2, p166 A3, p167 A3, p170 B1, p170 B2 |
+| [Romanian ultimatum and the crossing near Rustschuk](romanian_ultimatum_companions.md) | p175 C1, p175 C2, p176 A5 |
+| [The Danube field report: two companion parts, 10–11 November](nov10_danube_field_report.md) | p176 B2, p176 B3 |
 | [Citadel surrender, local armistice terms and home leave](armistice_and_leave_orders.md) | p179 B, p179 C, p179 D1, p179 D2 |
 | [p180 A — Enemy following the withdrawal near Giurgiu](p180_A.md) | p180 A3 |
 | [The Warsaw query and its later quotation — p181 A / p214 B](mackensen_warsaw.md) | p181 A, p214 B |
 | [Transports from Romania: warning against entry into Hungary](hungary_transport_warning.md) | p184 B1, p184 B2, p184 B3, p184 C1, p184 C2, p184 C3 |
 | [p189 — Vehicle request and orders to wait](../p189.md) | p185 C |
 | [Transport traffic — p185/p189 and parallel messages](../context/transport.md) | p185 D, p189 E, p193 E, p194 A, p196 B, p197 E, p198 C |
+| [Armistice conditions and urgent provisions requests on Childs p188](armistice_provisions_requests.md) | p188 A, p188 B2, p188 C1 |
 | [p191 A — Boots and clothing for Oderberg](p191_A.md) | p191 A1, p191 A2 |
 | [p200 A — Siedlce garrisons reach Thorn](p200_A.md) | p200 A |
 | [p201 B / p206 A — reporting orders linked by a shared reference](p201_p206_orders.md) | p201 B1, p201 B2, p206 A1, p206 A2, p206 A3 |
 | [Military-intendant addresses and responsibilities](military_intendant_remit.md) | p202 B1, p202 B2, p202 B3, p202 B4 |
+| [Equipment disposal, Alpenkorps return, and Finland evacuation orders](repatriation_orders.md) | p207 A1, p207 A2, p207 B, p207 C1, p207 C2, p208 A1, p208 A2 |
+| [Prague transport fragment, Ukrainian provisions priority and disarmament orders](transport_and_disarmament_orders.md) | p209 A1, p209 B1, p209 B2, p209 C1, p209 C2 |
 | [p210 D — request for the situation in Reval](p210_D.md) | p210 D |
+| [Oderberg transport fragment and a troop-situation query](prague_route_and_situation.md) | p211 A2, p211 B upper |
 | [Heated sick wagons, cooking equipment and hot tea](medical_return_transports.md) | p212 A1, p212 A5, p213 A6, p213 A7 |
 | [p217 A — Coal shortages, disarmament and transport through Czechoslovakia](p217_A.md) | p217 A1, p217 A2, p217 A3, p217 A4, p217 A5 |
 | [Mackensen's appeal over disarmament and internment](mackensen_armistice_appeal.md) | p220 C1, p220 C2, p220 C3, p220 C4, p221 A5, p221 A6 |
@@ -68,6 +75,8 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p100 B](budapest_wire_break.md) | Bridges and wire lines through Budapest; report attributes interruption to Hungarian National Council | 97/97 fixed raw labels; 2 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p107 D](../supplementary/p107_D.md) | Acknowledgment of operational telegrams | Earlier reading; parenthesized glyphs retained | Ayush Agarwal; review by D. Bourdeau (2026) |
 | [p109 B](../p109.md) | Evening enemy-division report toward Belgrade | Near-parallel supporting p 109; word alternatives remain | icekylinx and GPT-6 Astra Pro (2026) |
+| [p110 B](kiew_morning_and_pioneer_reports.md#p110-b) | Kiew morning report to Mackensen: nothing new; literal reference6915 | 73/75 fixed raw labels; 0 coordinate substitutions and 2 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key and earlier OCR candidates credited separately |
+| [p110 C](kiew_morning_and_pioneer_reports.md#p110-c) | Pioneer-park loading and wagon request; source-exact 398-coordinate frame | 199/199 fixed raw labels; 8 coordinate substitutions and 0 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key and earlier OCR candidates credited separately |
 | [p113 A3](mackensen_withdrawal_report.md#p113-a3) | Forces south of the Danube | Prior identified report; source edition with explicit local repair costs | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
 | [p113 B9](mackensen_withdrawal_report.md#p113-b9) | The separately received ninth part | Unchanged-source reading; separately received ninth part reassembled | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
 | [p114 A1](mackensen_withdrawal_report.md#p114-a1) | Assessment of the situation | Prior identified report; source edition with explicit local repair costs | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
@@ -116,6 +125,11 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p167 A3](nov9_operational_reports.md) | Complete-frame repeat of the operational-report ending | Supplies p166 prefix; conservative combined template 97/102 fixed | icekylinx and GPT-6 Astra Pro (2026) |
 | [p170 B1](nov9_operational_reports.md) | Parallel cavalry and northward-march report | Different from open p170 A; repairs and prose expansions explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p170 B2](nov9_operational_reports.md) | Alpenkorps at Ujverbasz and the 9 November march | 117/119 raw positions; place fill and historical numeral separated | icekylinx and GPT-6 Astra Pro (2026) |
+| [p175 C1](romanian_ultimatum_companions.md#p175-c1) | Romanian-government ultimatum to evacuate territory | Native frame; two coordinate substitutions and three printed-dash fills | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed candidate distinguished; existing p176a Norbert/Max credit retained |
+| [p175 C2](romanian_ultimatum_companions.md#p175-c2) | Lay down arms or evacuate; reported Danube crossing near Rustschuk | One coordinate substitution; repeated unknown time cell retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed candidate distinguished; existing p176a Norbert/Max credit retained |
+| [p176 A5](romanian_ultimatum_companions.md#p176-a5) | Messages and material first to Hermannstadt; provisioning fragment | Three coordinate substitutions and four dash fills; final unknown retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed candidate distinguished; existing p176a Norbert/Max credit retained |
+| [p176 B2](nov10_danube_field_report.md#p176-b2) | French forces near the Danube: source-labeled second report part | Native frame; one observed-coordinate repair; odd spellings retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed repository body candidate; existing p176b part1 credit retained |
+| [p176 B3](nov10_danube_field_report.md#p176-b3) | Crossing near RUSTUK and reserves north of SLOBOZIE | Native frame; four observed-coordinate repairs; no source deletion | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed repository body candidate; existing p176b part1 credit retained |
 | [p179 B](armistice_and_leave_orders.md) | Citadel resistance to cease; surrender terms to be set there | Exact 158-coordinate source; one word substitution ; 76/79 labels and unresolved reference retained | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished |
 | [p179 C](armistice_and_leave_orders.md) | Mackensen and 11th Army request the local armistice conditions | Exact 232-coordinate source; three coordinate substitutions repair two words ; 116/116 labels | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished |
 | [p179 D1](armistice_and_leave_orders.md) | Home transport difficulties postpone Landsturm discharge; raw year 1560U61 retained | Exact 190-coordinate source; zero source repairs ; 91/95 labels; November 12/Nov13-15b mismatch retained | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished |
@@ -130,6 +144,9 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p184 C3](hungary_transport_warning.md#p184-c3) | Repeated Kriegsamt reference footer | All 54 coordinate pairs match B3; unknown reference labels retained | icekylinx and GPT-6 Astra Pro (2026); published Nov13–15a partial key; earlier unreviewed candidates distinguished |
 | [p185 C](../p189.md) | Vehicle provision impossible; await orders | Direct raw reading; source parallel for p 189 A | icekylinx and GPT-6 Astra Pro (2026) |
 | [p185 D](../context/transport.md#p185-d-source-and-gap-model) | Movement via DHFN and readiness instruction | 91/99 positions under an unproved five-loss geometry | icekylinx and GPT-6 Astra Pro (2026) |
+| [p188 A](armistice_provisions_requests.md) | Conditional armistice-conditions request to OHL | Conditional 224-coordinate frame from225 visible slots;105/112 raw→112/112 edited;15 observed substitutions+6 fills; one K/X-like mark excluded,0–1 observed-coordinate deletion; not uniquely solved | icekylinx and GPT-6 Astra Pro (2026); published partial key credited to Lasry et al.; preexisting unreviewed machine body candidates retained |
+| [p188 B2](armistice_provisions_requests.md) | Urgent provisions need and five-day limit | Native176 coordinates;84/88 raw→88/88 edited;10 observed substitutions,0 fills; jammed-to-end note retained | icekylinx and GPT-6 Astra Pro (2026); published partial key credited to Lasry et al.; preexisting unreviewed machine body candidates retained |
+| [p188 C1](armistice_provisions_requests.md) | Provision trains with flour and oats to Szolnok | Native268 coordinates;130/134 raw and edited;4 observed substitutions,0 fills; interval,quantity and headquarters field unresolved | icekylinx and GPT-6 Astra Pro (2026); published partial key credited to Lasry et al.; preexisting unreviewed machine body candidates retained |
 | [p189 E](../context/transport.md#independent-transport-context) | Pump, cars and trailers | Direct partial reading; counts unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p191 A1](p191_A.md) | Boots requested for Oderberg | 104/107 proposed positions; corps and quantity symbols unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p191 A2](p191_A.md) | Heavy clothing on call; wire/radio reply requested | Conditional full-group relocation; 92/93 proposed positions; connective unassigned | icekylinx and GPT-6 Astra Pro (2026) |
@@ -148,7 +165,21 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p206 A1](p201_p206_orders.md) | Confirm receipt of earlier departure and reporting orders | 175/184 raw positions; complete source part reassembled | icekylinx and GPT-6 Astra Pro (2026) |
 | [p206 A2](p201_p206_orders.md) | References to disarmament, armistice and position-report orders | 179/200 raw positions; shared reference/date conditionally implies VA=5 | icekylinx and GPT-6 Astra Pro (2026) |
 | [p206 A3](p201_p206_orders.md) | Report division locations and acknowledge the present order | 115/124 raw positions; duplicated wording and unknown serial retained | icekylinx and GPT-6 Astra Pro (2026) |
+| [p207 A1](repatriation_orders.md) | Equipment and horses unable to reach Germany: direct sale without stripping own troops | 146/159 raw labels; 7 substitutions; 12 source-dash fills | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR candidates credited separately |
+| [p207 A2](repatriation_orders.md) | Conditional addressee/reference continuation; literal final extra X retained | 221 source slots against 220; conditional 102/110 raw labels after excluding final X; no substitutions; numeral cells unassigned | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR candidates credited separately |
+| [p207 B](repatriation_orders.md) | Incomplete printed copy of the Alpenkorps return order ending, supplied by p208 A2 | 105/114 raw labels; 1 substitutions; 5 source-dash fills | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR candidates credited separately |
+| [p207 C1](repatriation_orders.md) | German general in Finland: cited reports assess situation differently | 101/104 raw labels; 1 substitutions; 0 source-dash fills | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR candidates credited separately |
+| [p207 C2](repatriation_orders.md) | Early transport away considered necessary; literal doubled A and numerical reference retained | 67/70 raw labels; 2 substitutions; 0 source-dash fills | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR candidates credited separately |
+| [p208 A1](repatriation_orders.md) | Alpenkorps: Prussian formations to Silesia, subject to conditions | 123/123 raw labels; 0 substitutions; 0 source-dash fills | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR candidates credited separately |
+| [p208 A2](repatriation_orders.md) | Bavarian formations to Bavaria; acknowledge receipt; complete printed copy of p207 B | 109/114 raw labels; 0 substitutions; 0 source-dash fills | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR candidates credited separately |
+| [p209 A1](transport_and_disarmament_orders.md) | Incomplete Prague statement on Mackensen transport via Teschen | Native224 coordinates;104/112 raw→112/112 edited;0 observed substitutions and8 printed-dash fills; baseline reference labels retained; first part only, continuation absent | icekylinx and GPT-6 Astra Pro (2026); published key credited to Lasry et al.; earlier unreviewed OCR body candidates retained |
+| [p209 B1](transport_and_disarmament_orders.md) | Kiew Army Group: dispatch of Ukrainian provisions | Native310 coordinates;155/155 raw→155/155 edited;4 observed substitutions and0 printed-dash fills; baseline reference labels retained | icekylinx and GPT-6 Astra Pro (2026); published key credited to Lasry et al.; earlier unreviewed OCR body candidates retained |
+| [p209 B2](transport_and_disarmament_orders.md) | Provisions transport prioritized over raw materials | Native230 coordinates;115/115 raw→115/115 edited;3 observed substitutions and0 printed-dash fills; baseline reference labels retained | icekylinx and GPT-6 Astra Pro (2026); published key credited to Lasry et al.; earlier unreviewed OCR body candidates retained |
+| [p209 C1](transport_and_disarmament_orders.md) | Warsaw units handing weapons to the Poles | Native242 coordinates;121/121 raw→121/121 edited;4 observed substitutions and0 printed-dash fills; baseline reference labels retained | icekylinx and GPT-6 Astra Pro (2026); published key credited to Lasry et al.; earlier unreviewed OCR body candidates retained |
+| [p209 C2](transport_and_disarmament_orders.md) | OHL instruction against disarmament without fighting | Native182 coordinates;91/91 raw→91/91 edited;4 observed substitutions and0 printed-dash fills; baseline reference labels retained | icekylinx and GPT-6 Astra Pro (2026); published key credited to Lasry et al.; earlier unreviewed OCR body candidates retained |
 | [p210 D](p210_D.md) | Request for a report on the situation in Reval | 58/58 raw positions; one explicit word repair | icekylinx and GPT-6 Astra Pro (2026) |
+| [p211 A2](prague_route_and_situation.md) | Oderberg transport-clause ending; first part explicitly missing; possible p209 companion unproved | 88/88 native raw labels; no repairs; missing first part and date mismatch retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier upper-A2 OCR reading credited separately |
+| [p211 B upper](prague_route_and_situation.md) | Short query about situation and conduct of troops | 34/34 native raw labels; 3 explicit word repairs; no geometry changes | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier upper-A2 OCR reading credited separately |
 | [p212 A1](medical_return_transports.md#p212-a1) | Conditional introduction to medical advice for transports from Turkey | Conditional first-part reading; four tied missing-group placements explicitly retained | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p212 A5](medical_return_transports.md#p212-a5) | Heated sick wagon, cooking equipment and hot tea | Five coordinate repairs and one printed-glyph fill; instruction label unchanged | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p213 A6](medical_return_transports.md#p213-a6) | Water points, forwarding and medical-department request | Five word repairs; 5T bridge and position before DEPARTEMENT unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |

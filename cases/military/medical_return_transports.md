@@ -1,5 +1,7 @@
 # Heated sick wagons, cooking equipment and hot tea
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs pp212–213, 22 November 1918; published `Nov22-24` key, unchanged. [Inputs](../../experiments/medical_return_transports/inputs.json), [exact certificates](../../experiments/medical_return_transports/certificates.json), [method and limits](../../experiments/medical_return_transports/README.md).
 
 The readable medical passages concern preparations for transports coming through from Turkey. They recommend a sick wagon fitted with stoves, cooking equipment and continuously available hot tea. The final paragraph asks for action as far as possible from Constantinople because the received place `NIKOLA9EW` may lack sufficient capacity. The text records recommendations and a forwarding request, not proof that the equipment or supplies were provided.

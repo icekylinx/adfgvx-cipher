@@ -1,5 +1,7 @@
 # Request for a position on a Dobrudscha report
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 Childs p142 C asks for a response to an Entente report of renewed Romanian

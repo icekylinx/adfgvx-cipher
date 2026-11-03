@@ -1,5 +1,7 @@
 # p201 B / p206 A — reporting orders linked by a shared reference
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [Case guide](../README.md) · [ADFGVX Cipher](../../README.md)
 
 **Status:** Two complete multipart messages are assembled from the source:

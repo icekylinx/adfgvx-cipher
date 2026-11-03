@@ -1,5 +1,7 @@
 # Osthoff's posting to Turkey is cancelled
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source audit](../../experiments/corpus_attack/SOURCE_FAMILIES.md)
 
 **Records:** p138 A1–A2 and p148 C1 / p149 A2. **Result:** a two-part message reconstructed from four printed witnesses under the published Nov4–6 key. The first part has complete coordinate-pair support for all 121 letters. The second has support for 115 of 118 letters; three proposed emendations remain explicit.

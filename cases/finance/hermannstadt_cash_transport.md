@@ -1,5 +1,7 @@
 # Cash transport to Hermannstadt
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
 Childs p216 B is a two-part message addressed to K M Berlin. Its origin is printed as 1715 on 24 November 1918; the receiving header is 01.30 a.m. on 26 November. The edition retains both dates and uses the published Nov22–24 key unchanged.

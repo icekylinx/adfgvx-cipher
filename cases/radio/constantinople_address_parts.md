@@ -1,5 +1,7 @@
 # Constantinople addresses, signatures and receipt instructions
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Status:** Three visible first parts, containing addresses, signatures and receipt instructions. Their headings announce two or three parts, but no missing continuation payload is claimed recovered here.
 
 Source edition and verification: **icekylinx and GPT-6 Astra Pro**. The published Nov4–6 and Nov7–9 keys are credited to Lasry, Niebel, Kopal and Wacker and remain unchanged. Earlier unreviewed p147 C/p156 C address-and-signature readings are retained in the prior-work record; those fragments are not presented as newly discovered full message bodies.

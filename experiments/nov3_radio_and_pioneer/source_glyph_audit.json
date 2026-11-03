@@ -1,0 +1,105 @@
+{
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+  "read_only": true,
+  "judgments": [
+    {
+      "source_index": 62,
+      "printed_group_1based": 13,
+      "group_position_1based": 3,
+      "root_initial_literal": "C",
+      "independent_reading": "G",
+      "proposed_group": "VAGGF",
+      "reason": "The third glyph has an inward G bar; compare the adjacent fourth glyph, other row-one G controls, and the open C in RICHI."
+    },
+    {
+      "source_index": 67,
+      "printed_group_1based": 14,
+      "group_position_1based": 3,
+      "root_initial_literal": "C",
+      "independent_reading": "C-shaped; retaining an analysis mask is defensible",
+      "proposed_group": "FGCVF",
+      "reason": "No sufficiently clear G crossbar identified in this read-only review; avoid using word completion as source evidence."
+    },
+    {
+      "source_index": 104,
+      "printed_group_1based": 21,
+      "group_position_1based": 5,
+      "root_initial_literal": "C",
+      "independent_reading": "C-shaped; retaining an analysis mask is defensible",
+      "proposed_group": "VXVDC",
+      "reason": "Open C-shaped glyph at end of group; a G word repair remains separately priced."
+    }
+  ],
+  "raw_before": "OXKXMACKENSENXXMORGENMELDU?GXVX3X11X18XNICHTSN?UESXXHRGXKIEWXROMX1AX691?X18",
+  "raw_after_observed_G62": "OXKXMACKENSENXXMORGENMELDU?GXVX3X11X18XNICHTSN?UESXXHRGXKIEWXROMX1AX6915X18",
+  "changed_plaintext_positions": [
+    {
+      "position": 71,
+      "before": "?",
+      "after": "5",
+      "before_domain": "569PTX",
+      "after_domain": "5",
+      "coordinate_origins": [
+        62,
+        149
+      ]
+    }
+  ],
+  "crops": [
+    {
+      "path": "sources/p110_B_C62_C67.png",
+      "sha256": "43651c975cacacec5d0fc4a5343c7c7f830dd82a4151662602c6a577e1ee6392",
+      "pdf_page_1based": 113,
+      "clip_points": [
+        320,
+        411,
+        414,
+        433
+      ],
+      "scale": 12
+    },
+    {
+      "path": "sources/p110_B_C104.png",
+      "sha256": "425a4a50ea9e6bde4f62dbde0cf94b257927aa5de73c3840c505ed628aa2c6d2",
+      "pdf_page_1based": 113,
+      "clip_points": [
+        320,
+        431,
+        380,
+        453
+      ],
+      "scale": 12
+    },
+    {
+      "path": "sources/p110_B_G_controls.png",
+      "sha256": "ec81786d025bd24887f045b9caf2543afc08e5f7d9a53fa61f8128a7863d28c9",
+      "pdf_page_1based": 113,
+      "clip_points": [
+        320,
+        391,
+        414,
+        412
+      ],
+      "scale": 12
+    },
+    {
+      "path": "sources/p110_C_reference.png",
+      "sha256": "fcc7beb798888edd3332a3fa3e803cb0d5729dc3d99960536dba89d2f1738501",
+      "pdf_page_1based": 113,
+      "clip_points": [
+        75,
+        390,
+        150,
+        412
+      ],
+      "scale": 12
+    }
+  ],
+  "limits": "Glyph readings are independent visual judgments for parent review. No frozen source input or certificate was edited; language plausibility was not used to choose G at source62.",
+  "reviewed_initial_inputs_sha256": "3f6b16b14174862a2396482e3af604d398d2e43a6e07f15ca8d92ff38da327b0",
+  "accepted_resolution": "Source62 is G and contributes the directly observed reference5. Sources67/104 remain masked C-shaped glyphs; their word completions are priced separately."
+}

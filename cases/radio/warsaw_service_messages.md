@@ -1,5 +1,7 @@
 # Warsaw control markers and radio forwarding instructions
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **ADFGVX Cipher — icekylinx and GPT-6 Astra Pro**
 
 Four previously uncatalogued messages can be read with the published

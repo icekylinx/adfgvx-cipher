@@ -1,5 +1,7 @@
 # Transport traffic — p185/p189 and parallel messages
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md)
 
 **Status: source-preserving partial reading under a plausible, unproved gap geometry.** This supplementary **p185 D** intercept is outside the 22-message challenge. Its header reads `CM v CZ (20.15 p.m., November 13th), 21.00, RIZI-198`, but the body contains 193 slots: 192 valid ADFGVX coordinates and one literal `Y`. The raw `Y` is retained in the source layer and treated as one unknown coordinate in analysis.

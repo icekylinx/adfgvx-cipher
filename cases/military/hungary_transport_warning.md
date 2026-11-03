@@ -1,5 +1,7 @@
 # Transports from Romania: warning against entry into Hungary
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs printed p184 (PDF p187), 13 November 1918; published `Nov13-15a` key, unchanged. [Inputs](../../experiments/hungary_transport_warning/inputs.json), [exact certificates](../../experiments/hungary_transport_warning/certificates.json), [method and limits](../../experiments/hungary_transport_warning/README.md).
 
 Two three-part transmissions address the Mackensen command's mineral-oil department and warn that transports from Romania should not be allowed into Hungary because they would be lost there. This is what the message says; the edition supplies no independent evidence that this outcome happened.

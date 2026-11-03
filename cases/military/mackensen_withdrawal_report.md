@@ -1,5 +1,7 @@
 # Mackensen's November 3 withdrawal report and its separately received ninth part
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and assembly audit: icekylinx and GPT-6 Astra Pro.**
 
 This thirteen-part report assesses threats to the occupation army's rear

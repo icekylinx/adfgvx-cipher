@@ -1,5 +1,7 @@
 # Munich couriers carrying radio operating documents
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source and certificate](../../experiments/courier_recovery/README.md)
 
 **Records:** the repeated first part p153 E1 / p162 A1 and second parts

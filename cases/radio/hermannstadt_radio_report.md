@@ -1,5 +1,7 @@
 # Hermannstadt radio station and armistice instructions
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
 Childs p216 A is explicitly a four-part report. Its origin is 2245 on 24 November 1918; the receiving header is 06.38 p.m. on 25 November. The published Nov22–24 key is unchanged.

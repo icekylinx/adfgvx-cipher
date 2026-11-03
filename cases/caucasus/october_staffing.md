@@ -1,5 +1,7 @@
 # October staffing, manganese purchases and service traffic
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [All cases](../README.md) · [ADFGVX Cipher](../../README.md)
 
 **Status:** Six source-reviewed records under the previously published
@@ -34,6 +36,8 @@ October 6. The page heading is October 5, and the shared origin field is
 > Als Ersatz ist bereits Oberstlt. Karl von Grundherr, röm.I, des 4.
 > Chev.-Regts dorthin beordert. Bayr. Kriegsministerium Nr 249774P.
 
+**Display notes:** Abbreviations remain abbreviated. The displayed `röm.I` renders the literal name discriminator `ROEM1`; it is a formatting interpretation, not an additional unit number or a new personal identification.
+
 The order directs the named colonel to the 4th Bavarian Cavalry Brigade and
 requests the departure date. The second part says that the named lieutenant
 colonel has already been ordered there as the replacement. Both brigade and
@@ -63,6 +67,8 @@ Header: `COS v NKJ (10.32 p.m., October 5th); NR48 1916(5); RICHI-224`.
 
 > An BV.K.M.KA Tiflis. Weitere Käufe Manganerze bis auf Weiteres
 > unterlassen. Rittm.[F]ischer, Comm[i]ssar des Kriegsministeriums.
+
+**Display notes:** `[F]` in the surname and `[i]` in `Comm[i]ssar` are proposed fills of two printed erasures. They are not abbreviation expansions. The former remains a name proposal; the latter is an ordinary-word completion. Their different evidential force is retained below.
 
 The instruction to stop further manganese-ore purchases is directly fixed;
 it requires no known-coordinate substitution. The address abbreviation

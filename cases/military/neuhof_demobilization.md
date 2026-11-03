@@ -1,5 +1,7 @@
 # Demobilization at Neuhof, south of Fulda
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
 The opening of this three-part telegram directs a Flak unit, whose number

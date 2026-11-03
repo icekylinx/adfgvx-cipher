@@ -1,5 +1,7 @@
 # The Caucasus K.M. representative is to remain
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 This p142 B telegram replies to an earlier message and says the `BEV K.M.`

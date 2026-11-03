@@ -1,5 +1,7 @@
 # Late-November cipher and routing instructions — p225–228
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source reading and verification: icekylinx and GPT-6 Astra Pro. Published period keys: George Lasry and collaborators.**
 
 Five ciphertext records and one cleartext notice describe missing December key tables, proposed sharing of keys, a fragment of a numerical-code instruction, and direct routing to an army station. All ciphertext below is read with the unchanged published **Nov28–Dec1** key. These messages give evidence about specific communications arrangements; they do not assign a key to an unresolved challenge.

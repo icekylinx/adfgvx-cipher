@@ -1,5 +1,7 @@
 # The interrupted banknote instruction: a complete later witness
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Source comparison and edition: icekylinx and GPT-6 Astra Pro.**
 
 The [earlier crown-airlift source edition](crown_airlift.md) preserved p174 A3

@@ -4,7 +4,7 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**91 reviewed physical records across 31 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**92 reviewed physical records across 32 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -15,6 +15,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [Constanza naval radio: telegram routing and exchange connections](constanza_radio_connections.md) | p80 B1, p80 B2, p82 A1, p82 A2, p82 A3, p82 A4 |
 | [p85 B — Telephone censorship through Budapest](p85_B.md) | p85 B |
 | [Radio contact, operating times and an unavailable key](radio_contacts_and_keys.md) | p100 C, p137 D, p142 A, p150 A2 |
+| [November 3 radio transmission schedule: surviving second part](nov3_transmission_schedule.md) | p110 A2 |
 | [p111 B — Use radio for important messages](p111_B.md) | p111 B |
 | [Request for replies and radio priority](telegram_priority.md) | p128 A1, p128 A2 |
 | [Radio service: Eilvese repetition and a garbled Caucasus message](p132_radio_service.md) | p132 A, p132 B, p132 C |
@@ -58,6 +59,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p82 A4](constanza_radio_connections.md#p82-a4) | Communication through the exchanges with all telephone points | Direct source reading without repair | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates and source annotation distinguished |
 | [p85 B](p85_B.md) | Telephone censorship through Budapest | 99/99 raw positions; two word repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p100 C](radio_contacts_and_keys.md#p100-c-direct-contact-while-the-wire-is-broken) | Ask when direct contact is possible; wire interrupted; raw BRSLAU/MEGLICH preserved | 79/79 fixed raw labels; 0 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
+| [p110 A2](nov3_transmission_schedule.md#p110-a2) | Surviving radio schedule and unchanged Ringbahn traffic | 140/140 fixed raw labels; 2 coordinate substitutions and 0 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key and earlier OCR candidates credited separately |
 | [p111 B](p111_B.md) | Use radio for important messages | 154/154 direct positions; no coordinate edits | icekylinx and GPT-6 Astra Pro (2026) |
 | [p128 A1](telegram_priority.md) | Missing replies to telegrams 569, 592, 598; requests brief plaintext instructions | 113/113 fixed raw labels; 1 known-coordinate substitutions and 0 source-erasure fills; ordinary complete source frame | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier OCR-derived candidates credited separately |
 | [p128 A2](telegram_priority.md) | Suggest explicit radio priority for these telegrams; literal Horstmann signature | 134/141 fixed raw labels; 5 known-coordinate substitutions and 7 source-erasure fills; ordinary complete source frame | icekylinx and GPT-6 Astra Pro (2026); prior published key and earlier OCR-derived candidates credited separately |

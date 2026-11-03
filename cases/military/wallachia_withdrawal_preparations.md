@@ -1,5 +1,7 @@
 # Wallachia withdrawal preparations: p150 B1–B5
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 **Status:** Five readable parts in their unchanged native source frames. The edition resolves ordinary text while leaving one wholly erased date symbol open.
 
 Source edition and exact verification: **icekylinx and GPT-6 Astra Pro**. The unchanged **Nov4–6** period key is credited to Lasry, Niebel, Kopal and Wacker. Earlier unreviewed candidates already exposed the first and final parts; their texts and any appearances in the frozen p73 retrieval corpus are retained in the package. The newly complete source edition does not claim first decipherment of every included sentence.

@@ -1,5 +1,7 @@
 # p203 C / p210 C — inquiries about Richter in Aleppo
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source certificate](../../experiments/corpus_recovery/certificates.json)
 
 **Records:** two related personnel inquiries, on 18 and 20 November 1918,

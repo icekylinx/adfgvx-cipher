@@ -13,6 +13,13 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [Armistice conditions and provisions requests](armistice_provisions_requests/README.md) | Three records;334 positions | Extra mark in A costs zero or one observed exclusion separately;29 substitutions and6 mask fills remain explicit. |
+| [Transport priorities and disarmament orders](transport_and_disarmament_orders/README.md) | Five native frames;594 positions | Actual source rows omitted by OCR are restored; incomplete Prague first part and abnormal reference labels remain literal. |
+| [Alpenkorps and other return orders](repatriation_orders/README.md) | Seven records;794 modeled positions | A complete unchanged-source copy supports an earlier damaged ending; one221-slot frame needs a conditional extra-X exclusion. |
+| [Delegates and Danube field-report companions](nov10_delegates_and_field_report/README.md) | Four records;410 positions | Prior Lasry delegate-body credit and the existing p176b challenge remain separate; time digit has five possibilities. |
+| [Prague-route continuation and situation inquiry](prague_route_and_situation/README.md) | Two native frames;122 positions | Possible p209 continuation is not a proved same telegram; conflicting dates and missing-first-part notice preserved. |
+| [Romanian ultimatum companions](romanian_ultimatum_companions/README.md) | Three records;294 positions | Existing p176a keeps its credit; two unread fragments remain outside counts; C3 header corrected to222 from a rejected232 reading. |
+| [November3 radio, Kiew and pioneer reports](nov3_radio_and_pioneer/README.md) | Three native frames;414 positions | Source-exact398-slot pioneer frame and independent G/C glyph review; ten substitutions and two mask fills, no frame change. |
 | [Wallachia withdrawal preparations](wallachia_withdrawal_preparations/README.md) | Five parts; 506 modeled positions and 39 source-mask fills | One reference position remains unknown; all nine observed-coordinate changes are explicit. |
 | [Sale of radio and telephone apparatus](apparatus_sale_request/README.md) | Two parts; 221 positions | Six observed substitutions and 18 source fills; the final domain remains DEQTUX. |
 | [Radio contacts, key availability and service orders](radio_contacts_and_keys/README.md) | Seven exact source frames, 645 positions | No new key identity is inferred from a key name or an administrative statement. |

@@ -1,5 +1,7 @@
 # A Polish representative in Tiflis — p199 preamble and p192 parts 2 and 3
 
+**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+
 [Case index](../README.md) · [November 14 retransmissions](../radio/nov14_radio_retransmissions.md)
 
 **Source edition, missing-group recovery and historical comparison: icekylinx and GPT-6 Astra Pro.**
@@ -19,6 +21,14 @@ page/header dates are not silently reconciled.
 
 ## Readable meaning
 
+**Readable German — the base edited text, with the courier name still unresolved:**
+
+> An General von Kress, Tiflis. Nr. `?1?`. Bitte Weiterleitung folgenden Telegramms des Ministerium des Aeusseren in Warschau an Herrn Waclaw v. Ostrowski, Tiflis: Sie sind zum Vertrauensmann der polnischen Regierung fuer die Republiken Grusien, Armenien und Aserbejnzan mit Sitz in Tiflis ernannt. Ernennung und Instruktion bereits durch `T?DE?SKI` an Sie abgesandt. Ministerium des Aeussern. Bussche.
+
+**Display notes:** This combines the separately identified parts under the cross-page association discussed below. It supplies word spacing, capitalization and punctuation; the colon renders the transmitted word `DOPPELPUNKT`. The spellings `ASERBEJNZAN`, `AEUSSERN` and the missing genitive S in `DESMINISTERIUM` remain unnormalized in the base text. The reference and both name positions remain unknown.
+
+**English meaning with a conditional historical-name interpretation:**
+
 > To General von Kress, Tiflis: Please forward the following telegram from
 > the Ministry of Foreign Affairs in Warsaw to Mr. Waclaw v. Ostrowski,
 > Tiflis: You have been appointed the Polish government's trusted
@@ -26,7 +36,7 @@ page/header dates are not silently reconciled.
 > with your seat in Tiflis. The appointment and instructions have already
 > been sent to you through [Tydelski]. Ministry of Foreign Affairs. Bussche.
 
-The bracketed surname uses the historical identification described below.
+The bracketed surname `[Tydelski]` is a historical identification, not an abbreviation expansion or a direct rendering of the unresolved base name. It uses the historical identification described below.
 The opening uses the newly sourced p199 preamble and its explicit cross-page
 association. Its source header is dated November 15, 1918, while p192 is
 headed November 14. Neither is established as the appointment telegram's
