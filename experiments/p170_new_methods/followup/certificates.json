@@ -1,0 +1,68 @@
+{
+  "schema": "adfgvx-p170-column-family-followup-certificate-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "input_sha256": "e3450dc7ef62f313395ae6e2594d8cad2ea78789cbc94d88a418ff4353f0a472",
+  "controls_sha256": "d13e44c78b00942161cc099160e95192934c4b2538f06f80f5a61857f44b0e99",
+  "code_sha256": {
+    "column_donor_match.cpp": "68127d616f57638befacf6f7983e417b5414c38226a505912b503d024db0f15e",
+    "column_domain_match.cpp": "dbe48d912ea375f27ad4dc6daff6745b2444837433f259cd6cb4aa7314223e21",
+    "extract.py": "538073714d5df12a1b1040f1b613597f86c262ef60d0fb7201a0efad81cf1041",
+    "verify.py": "0259b5e42652061d12606e0d4a430f0a0adb4c888d63c326509b0791c04989c7"
+  },
+  "summary": {
+    "p170_observed_coordinates": 106,
+    "complete_donor_strings": 293,
+    "partial_source_domain_families": 104,
+    "target_square_hypotheses": 11,
+    "widths_per_donor_square": 13,
+    "complete_projects_per_budget": 41899,
+    "complete_error_budgets": [
+      0,
+      1,
+      2
+    ],
+    "partial_projects": 14872,
+    "partial_minimum_direct_support": 90,
+    "historical_matches": 0,
+    "complete_tiny_bruteforce_comparisons": 36,
+    "partial_tiny_bruteforce_cases": 8,
+    "joint_original_source_and_target_control_verified": true,
+    "false_independent_half_combination_rejected": true,
+    "accepted_p170_plaintexts": 0
+  },
+  "search_summaries": {
+    "complete_donors": {
+      "0": {
+        "projects": 41899,
+        "histogram_pass": 13806,
+        "dfs_nodes": 47924,
+        "hits": 0
+      },
+      "1": {
+        "projects": 41899,
+        "histogram_pass": 15158,
+        "dfs_nodes": 375312,
+        "hits": 0
+      },
+      "2": {
+        "projects": 41899,
+        "histogram_pass": 16471,
+        "dfs_nodes": 765117,
+        "hits": 0
+      }
+    },
+    "partial_donors": {
+      "projects": 14872,
+      "histogram_pass": 6877,
+      "dfs_nodes": 30122,
+      "hits": 0
+    }
+  },
+  "limits": [
+    "Every target observation is retained as one contiguous fragment of a whole-column permutation; no column is reused.",
+    "Complete templates are source-derived raw or editorial strings, not all independently authenticated historical wording. Any hit would require source-level review.",
+    "Partial donors use native source order and length, complete registered source squares, and exact coupled plaintext domains recomputed from original coordinates.",
+    "The partial branch requires at least90 of106 target coordinates on donor positions already fixed by complete original donor pairs. Other half-coordinate domains remain coupled and are never replaced by independent row/column choices.",
+    "Only these frozen donor families, square assignments, widths and mismatch budgets are tested. No p170 plaintext is accepted."
+  ]
+}

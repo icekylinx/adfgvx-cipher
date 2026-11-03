@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 125–149](../125-149/README.md) · [pp. 175–199 →](../175-199/README.md)
 
-**8 challenge entries · 122 other reviewed entries · 25 printed pages · 130 physical sources.**
+**8 challenge entries · 123 other reviewed entries · 25 printed pages · 131 physical sources.**
 
 Jump to page: [p150](#p150) · [p151](#p151) · [p152](#p152) · [p153](#p153) · [p154](#p154) · [p155](#p155) · [p156](#p156) · [p157](#p157) · [p158](#p158) · [p159](#p159) · [p160](#p160) · [p161](#p161) · [p162](#p162) · [p163](#p163) · [p164](#p164) · [p165](#p165) · [p166](#p166) · [p167](#p167) · [p168](#p168) · [p169](#p169) · [p170](#p170) · [p171](#p171) · [p172](#p172) · [p173](#p173) · [p174](#p174).
 
@@ -252,6 +252,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 | [p167 B2](../../finance/nov9_crown_airlift_and_embassy.md#p167-b2) | A giant aircraft to Brasso and a mix of banknote denominations | Native 192-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p167 B3](../../finance/nov9_crown_airlift_and_embassy.md#p167-b3) | A limited crown supply and a high exchange rate | Native 144-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p167 C1](../../radio/p167_mission_address.md#p167-c1) | Mission address and Nachrichtenchef routing/signature field | Native 132-slot first part; raw 61/66; partial word proposal 63/66 with six observed substitutions and two source-mask fills; MILB/0RM/RELA retained; three linked unknown positions | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
+| [p167 D](../../people/p167_captain_dispatch_fragment.md#p167-d) | Captain and replacement-detachment dispatch fragment | Conditional 190-slot frame: 84/95 raw positions; 45-position word proposal gives 89/95 fixed labels with 10 observed substitutions, 2 source-mask fills and 2 added-slot fills; six tied maps; name, title and destination unread | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
 | [p167 E1](../../finance/nov9_crown_airlift_and_embassy.md#p167-e1) | Urgent Constantinople embassy address signed Stumm | Native 98-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p168

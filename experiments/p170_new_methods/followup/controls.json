@@ -1,0 +1,671 @@
+{
+  "complete_exact": {
+    "matches": [
+      {
+        "donor": "positive",
+        "key": "Nov7-9-56",
+        "width": 20,
+        "full_length": 128,
+        "observed_offset": 4,
+        "cost": 0,
+        "used_columns": [
+          5,
+          2,
+          8,
+          7,
+          11,
+          15,
+          17,
+          9,
+          3,
+          19,
+          0,
+          18,
+          12,
+          10,
+          1,
+          4,
+          6
+        ],
+        "full_column_order": [
+          5,
+          2,
+          8,
+          7,
+          11,
+          15,
+          17,
+          9,
+          3,
+          19,
+          0,
+          18,
+          12,
+          10,
+          1,
+          4,
+          6,
+          13,
+          14,
+          16
+        ],
+        "ranks": [
+          11,
+          15,
+          2,
+          9,
+          16,
+          1,
+          17,
+          4,
+          3,
+          8,
+          14,
+          5,
+          13,
+          18,
+          19,
+          6,
+          20,
+          7,
+          12,
+          10
+        ],
+        "mismatch_source_indices": []
+      }
+    ],
+    "engine_summary": "projects 1 histogram_pass 1 dfs_nodes 19 hits 1",
+    "all106_observations_verified_by_independent_reencryption": true,
+    "true_full_plaintext_retained": true,
+    "unobserved_columns_allow_nonunique_ranks_and_offset": true
+  },
+  "complete_damaged": {
+    "changed_source_indices": [
+      19,
+      87
+    ],
+    "results": [
+      {
+        "budget": 0,
+        "matches": [],
+        "engine_summary": "projects 1 histogram_pass 1 dfs_nodes 11 hits 0"
+      },
+      {
+        "budget": 1,
+        "matches": [],
+        "engine_summary": "projects 1 histogram_pass 1 dfs_nodes 59 hits 0"
+      },
+      {
+        "budget": 2,
+        "matches": [
+          {
+            "donor": "positive",
+            "key": "Nov7-9-56",
+            "width": 20,
+            "full_length": 128,
+            "observed_offset": 4,
+            "cost": 2,
+            "used_columns": [
+              5,
+              2,
+              8,
+              7,
+              11,
+              15,
+              17,
+              9,
+              3,
+              19,
+              0,
+              18,
+              12,
+              10,
+              1,
+              4,
+              6
+            ],
+            "full_column_order": [
+              5,
+              2,
+              8,
+              7,
+              11,
+              15,
+              17,
+              9,
+              3,
+              19,
+              0,
+              18,
+              12,
+              10,
+              1,
+              4,
+              6,
+              13,
+              14,
+              16
+            ],
+            "ranks": [
+              11,
+              15,
+              2,
+              9,
+              16,
+              1,
+              17,
+              4,
+              3,
+              8,
+              14,
+              5,
+              13,
+              18,
+              19,
+              6,
+              20,
+              7,
+              12,
+              10
+            ],
+            "mismatch_source_indices": [
+              19,
+              87
+            ]
+          }
+        ],
+        "engine_summary": "projects 1 histogram_pass 1 dfs_nodes 39 hits 1"
+      }
+    ],
+    "independent_reencryption_passed": true
+  },
+  "complete_tiny": {
+    "cases": [
+      {
+        "plaintext": "HUTNYZ",
+        "source": "GDAVAF",
+        "independent_bruteforce_minimum": 0,
+        "results": [
+          {
+            "budget": 0,
+            "found": true
+          },
+          {
+            "budget": 1,
+            "found": true
+          },
+          {
+            "budget": 2,
+            "found": true
+          }
+        ]
+      },
+      {
+        "plaintext": "QBTPKO",
+        "source": "FXAVGV",
+        "independent_bruteforce_minimum": 1,
+        "results": [
+          {
+            "budget": 0,
+            "found": false
+          },
+          {
+            "budget": 1,
+            "found": true
+          },
+          {
+            "budget": 2,
+            "found": true
+          }
+        ]
+      },
+      {
+        "plaintext": "UCEEUN",
+        "source": "VDFDDV",
+        "independent_bruteforce_minimum": 2,
+        "results": [
+          {
+            "budget": 0,
+            "found": false
+          },
+          {
+            "budget": 1,
+            "found": false
+          },
+          {
+            "budget": 2,
+            "found": true
+          }
+        ]
+      },
+      {
+        "plaintext": "SULEJV",
+        "source": "XAAGVD",
+        "independent_bruteforce_minimum": 3,
+        "results": [
+          {
+            "budget": 0,
+            "found": false
+          },
+          {
+            "budget": 1,
+            "found": false
+          },
+          {
+            "budget": 2,
+            "found": false
+          }
+        ]
+      },
+      {
+        "plaintext": "HHEXRQ",
+        "source": "VXVDXD",
+        "independent_bruteforce_minimum": 0,
+        "results": [
+          {
+            "budget": 0,
+            "found": true
+          },
+          {
+            "budget": 1,
+            "found": true
+          },
+          {
+            "budget": 2,
+            "found": true
+          }
+        ]
+      },
+      {
+        "plaintext": "AGPMYS",
+        "source": "AXXDAF",
+        "independent_bruteforce_minimum": 1,
+        "results": [
+          {
+            "budget": 0,
+            "found": false
+          },
+          {
+            "budget": 1,
+            "found": true
+          },
+          {
+            "budget": 2,
+            "found": true
+          }
+        ]
+      },
+      {
+        "plaintext": "OAPVKS",
+        "source": "XGXAVA",
+        "independent_bruteforce_minimum": 2,
+        "results": [
+          {
+            "budget": 0,
+            "found": false
+          },
+          {
+            "budget": 1,
+            "found": false
+          },
+          {
+            "budget": 2,
+            "found": true
+          }
+        ]
+      },
+      {
+        "plaintext": "KJINBA",
+        "source": "XVXFXV",
+        "independent_bruteforce_minimum": 3,
+        "results": [
+          {
+            "budget": 0,
+            "found": false
+          },
+          {
+            "budget": 1,
+            "found": false
+          },
+          {
+            "budget": 2,
+            "found": false
+          }
+        ]
+      },
+      {
+        "plaintext": "WAAFEJ",
+        "source": "XXXADX",
+        "independent_bruteforce_minimum": 0,
+        "results": [
+          {
+            "budget": 0,
+            "found": true
+          },
+          {
+            "budget": 1,
+            "found": true
+          },
+          {
+            "budget": 2,
+            "found": true
+          }
+        ]
+      },
+      {
+        "plaintext": "BUQHFY",
+        "source": "XAXFXA",
+        "independent_bruteforce_minimum": 1,
+        "results": [
+          {
+            "budget": 0,
+            "found": false
+          },
+          {
+            "budget": 1,
+            "found": true
+          },
+          {
+            "budget": 2,
+            "found": true
+          }
+        ]
+      },
+      {
+        "plaintext": "XKIOUV",
+        "source": "GVFVVG",
+        "independent_bruteforce_minimum": 2,
+        "results": [
+          {
+            "budget": 0,
+            "found": false
+          },
+          {
+            "budget": 1,
+            "found": false
+          },
+          {
+            "budget": 2,
+            "found": true
+          }
+        ]
+      },
+      {
+        "plaintext": "HKIMXX",
+        "source": "VVVDXD",
+        "independent_bruteforce_minimum": 3,
+        "results": [
+          {
+            "budget": 0,
+            "found": false
+          },
+          {
+            "budget": 1,
+            "found": false
+          },
+          {
+            "budget": 2,
+            "found": false
+          }
+        ]
+      }
+    ],
+    "assertions_passed": true,
+    "scope": "12 unrelated six-character sources; all3! ranks/all7 offsets independently enumerated at budgets0,1,2."
+  },
+  "partial_positive": {
+    "source_frame": "DDA?GFAXAGGFVF?AVGFADF?FVDDDDFV?DVFFFDVFADVDFFGFFGGVXVAFVXDDAVGGVAFXAXGDXAGAGAADXGDGAXGXFDADAXXGVGAXFDGGXAFXGXXAGXAADXVDXXDVDFVF",
+    "target_source": "DXGDDGAXDDDFXVDDVDVGVVVGFXVGVVDGVXVGXVXGVVXGXVXVXGDDVVDDGDVGGVVXVGDFFGFGGDAGDVXDADDXGXXXGXVGGGXDDGXXADGGDV",
+    "true_plaintext": "BEIDEGLEICHSTROMMASCHINENSINDINREIHEZUSCHALTENXBITTEBESTAETIGENX",
+    "matches": [
+      {
+        "donor": "positive",
+        "key": "Nov7-9-56",
+        "width": 20,
+        "full_length": 128,
+        "observed_offset": 4,
+        "directly_fixed_coordinate_support": 99,
+        "coordinates_relying_on_partial_donor_domains": 7,
+        "used_columns": [
+          5,
+          2,
+          8,
+          7,
+          11,
+          15,
+          17,
+          9,
+          3,
+          19,
+          0,
+          18,
+          12,
+          10,
+          1,
+          4,
+          6
+        ],
+        "full_column_order": [
+          5,
+          2,
+          8,
+          7,
+          11,
+          15,
+          17,
+          9,
+          3,
+          19,
+          0,
+          18,
+          12,
+          10,
+          1,
+          4,
+          6,
+          13,
+          14,
+          16
+        ],
+        "ranks": [
+          11,
+          15,
+          2,
+          9,
+          16,
+          1,
+          17,
+          4,
+          3,
+          8,
+          14,
+          5,
+          13,
+          18,
+          19,
+          6,
+          20,
+          7,
+          12,
+          10
+        ],
+        "remaining_plaintext_domains": [
+          2,
+          16,
+          256,
+          8,
+          16,
+          64,
+          2048,
+          16,
+          256,
+          4,
+          128,
+          262144,
+          524288,
+          131072,
+          16384,
+          4096,
+          4096,
+          1,
+          262144,
+          4,
+          128,
+          256,
+          8192,
+          16,
+          8192,
+          262144,
+          256,
+          8192,
+          1572872,
+          256,
+          8192,
+          131072,
+          16,
+          256,
+          128,
+          16,
+          33554432,
+          1048576,
+          262144,
+          4,
+          128,
+          1,
+          2048,
+          524288,
+          16,
+          8192,
+          8388608,
+          2,
+          256,
+          524288,
+          524288,
+          16,
+          2,
+          16,
+          262144,
+          524288,
+          1,
+          16,
+          524288,
+          256,
+          64,
+          16,
+          8192,
+          8388608
+        ],
+        "joint_witness_plaintext": "BEIDEGLEICHSTROMMASCHINENSINDINREIHEZUSCHALTENXBITTEBESTAETIGENX"
+      }
+    ],
+    "engine_summary": "projects 1 histogram_pass 1 dfs_nodes 19 hits 1",
+    "both_original_source_and_target_reencryption_passed": true,
+    "planted_full_plaintext_compatible": true,
+    "source_key_id": "Oct4-6"
+  },
+  "partial_coupling": {
+    "coupling": {
+      "original_source_key": "Oct4-6",
+      "original_source_pair": "A?",
+      "allowed_plaintext": "YN87PJ",
+      "target_key": "Nov7-9-56",
+      "positive_pair": "AG",
+      "rejected_false_marginal_pair": "FG",
+      "coupled_domain_check_passed": true
+    },
+    "tiny_bruteforce_cases": [
+      {
+        "source_frame": "?AGV?D",
+        "domains": [
+          "69AHMT",
+          "23EHYZ",
+          "U"
+        ],
+        "target_source": "XAVG",
+        "independent_bruteforce_exists": false,
+        "found": false
+      },
+      {
+        "source_frame": "G?XDD?",
+        "domains": [
+          "U",
+          "3CIRUW",
+          "ABGIJL"
+        ],
+        "target_source": "VFAD",
+        "independent_bruteforce_exists": false,
+        "found": false
+      },
+      {
+        "source_frame": "XF??VV",
+        "domains": [
+          "ABGIJL",
+          "M",
+          "69AHMT"
+        ],
+        "target_source": "AFDF",
+        "independent_bruteforce_exists": true,
+        "found": true
+      },
+      {
+        "source_frame": "?GXF?G",
+        "domains": [
+          "1EKLOS",
+          "57DSTU",
+          "B"
+        ],
+        "target_source": "XVAX",
+        "independent_bruteforce_exists": false,
+        "found": false
+      },
+      {
+        "source_frame": "F?XVV?",
+        "domains": [
+          "M",
+          "69AHMT",
+          "ABGIJL"
+        ],
+        "target_source": "FGVX",
+        "independent_bruteforce_exists": false,
+        "found": false
+      },
+      {
+        "source_frame": "XF??DG",
+        "domains": [
+          "ABGIJL",
+          "R",
+          "0BDFXZ"
+        ],
+        "target_source": "DDXD",
+        "independent_bruteforce_exists": false,
+        "found": false
+      },
+      {
+        "source_frame": "?VFV?D",
+        "domains": [
+          "69AHMT",
+          "49CFKP",
+          "R"
+        ],
+        "target_source": "XAVD",
+        "independent_bruteforce_exists": true,
+        "found": true
+      },
+      {
+        "source_frame": "A?DAD?",
+        "domains": [
+          "Y",
+          "3CIRUW",
+          "6NOQWX"
+        ],
+        "target_source": "GDGX",
+        "independent_bruteforce_exists": false,
+        "found": false
+      }
+    ],
+    "all_passed": true
+  },
+  "synthetic_full_plaintext": "BEIDEGLEICHSTROMMASCHINENSINDINREIHEZUSCHALTENXBITTEBESTAETIGENX",
+  "synthetic_target_observations": "DXGDDGAXDDDFXVDDVDVGVVVGFXVGVVDGVXVGXVXGVVXGXVXVXGDDVVDDGDVGGVVXVGDFFGFGGDAGDVXDADDXGXXXGXVGGGXDDGXXADGGDV",
+  "synthetic_target_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF"
+}

@@ -198,6 +198,12 @@ No group-move candidate is accepted. The exhaustive statement applies only
 to this finite move set and the fixed recorded keys, not to arbitrary source
 damage, column orders or new square completions.
 
+The [column-family followup](followup/README.md) tests known source-derived
+donor bodies while allowing arbitrary column order and missing outer columns.
+Its coupled-domain branch preserves partial donors' original half-coordinates.
+Exact and damaged source controls pass; no p170 donor match is found within
+the frozen bounds.
+
 ## Verify or replay
 
 The default verifier needs only the Python standard library and this

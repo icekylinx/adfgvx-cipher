@@ -289,6 +289,7 @@ jobs:
           python experiments/p176_verpflegs_joint_completion/verify.py --verify
           python experiments/p176a_source_retention_bound/verify.py --verify
           python experiments/p215_hungarian_y/verify.py --verify
+          python experiments/p167_captain_dispatch_fragment/verify.py --verify
           python data/reviews/verify_source_gap_audit.py --verify
       - name: Verify new word, radio and open-target witnesses
         run: |
@@ -298,6 +299,7 @@ jobs:
           python experiments/radio_domain_model/verify.py
           python experiments/radio_domain_model/digit_symmetry/verify.py
           python experiments/p170_new_methods/verify.py
+          python experiments/p170_new_methods/followup/verify.py --verify
           python experiments/p73_new_methods/verify.py --skip-assignment
           python experiments/p73_new_methods/followup_20261103/verify.py
       - name: Independently verify all reported source-retrieval assignments

@@ -18,7 +18,7 @@ This audit covers the 21 physical bodies outside the readable catalogue at `f3ba
 | p163_A16 | 121 | 121 | 0 | Not printed | No accepted edition |
 | p164_D | 116 | 116 | 0 | 116 | [Partial/conditional edition](../cases/radio/p164_acknowledgment.md#p164-d) |
 | p167_C1 | 132 | 130 | 2 | 132 | [Partial/conditional edition](../cases/radio/p167_mission_address.md#p167-c1) |
-| p167_D | 187 | 183 | 4 | 190 | No accepted edition |
+| p167_D | 187 | 183 | 4 | 190 | [Partial/conditional edition](../cases/people/p167_captain_dispatch_fragment.md#p167-d) |
 | p176_A6 | 160 | 74 | 86 | 160 | [Partial/conditional edition](../cases/military/p176_coal_train_fragment.md#p176-a6) |
 | p194_D1 | 45 | 45 | 0 | 214 | No accepted edition |
 | p198_A | 247 | 237 | 10 | 244 | [Partial/conditional edition](../cases/naval/p198_shipping_query.md#p198-a) |

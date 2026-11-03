@@ -16,7 +16,7 @@ Each case opens with the most useful readable text or the present limits of reco
 | [Armies, withdrawal and supplies](military/README.md) | 248 | 248 | 97 |
 | [Radio service, keys and message routing](radio/README.md) | 205 | 204 | 89 |
 | [Money, banking and purchases](finance/README.md) | 50 | 50 | 22 |
-| [People, appointments and civilian affairs](people/README.md) | 54 | 54 | 31 |
+| [People, appointments and civilian affairs](people/README.md) | 55 | 55 | 32 |
 
 These topic guides cover every other reviewed catalogue entry. Additional physical sources exclude registered later editions of challenge sources. The page-number index below also retains all 22 original challenge entries.
 <!-- TOPIC-NAVIGATION:END -->
@@ -52,11 +52,11 @@ Original challenge identifiers are retained; p198 denotes section D.
 | [pp. 175–199](pages/175-199/README.md) | 6 | [p176a](p176a.md), [p176b](p176b.md), [p187](p187.md), [p187b](p187b.md), [p189](p189.md), [p198](p198.md) |
 | [pp. 200–224](pages/200-224/README.md) | 2 | [p215](p215.md), [p217](p217.md) |
 
-### Other ciphertexts — 646 reviewed entries
+### Other ciphertexts — 647 reviewed entries
 
 Numbered parts and received copies are listed individually, with their reviewed reading status.
 
-**668 catalogue entries · 667 physical sources · 645 beyond the challenges.** The [source register](../docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
+**669 catalogue entries · 668 physical sources · 646 beyond the challenges.** The [source register](../docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
 
 | Printed source pages | Reviewed entries | Pages represented |
 |---|---:|---:|
@@ -64,7 +64,7 @@ Numbered parts and received copies are listed individually, with their reviewed 
 | [pp. 75–99](pages/075-099/README.md) | 63 | 25 |
 | [pp. 100–124](pages/100-124/README.md) | 91 | 25 |
 | [pp. 125–149](pages/125-149/README.md) | 76 | 25 |
-| [pp. 150–174](pages/150-174/README.md) | 122 | 25 |
+| [pp. 150–174](pages/150-174/README.md) | 123 | 25 |
 | [pp. 175–199](pages/175-199/README.md) | 104 | 25 |
 | [pp. 200–224](pages/200-224/README.md) | 116 | 25 |
 | [pp. 225–249](pages/225-249/README.md) | 29 | 6 |

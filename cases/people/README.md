@@ -4,7 +4,7 @@
 
 Appointments, staff transfers, travel permissions, personnel inquiries and civilian affairs are collected here.
 
-**54 reviewed entries across 31 case pages, representing 54 physical sources; 54 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**55 reviewed entries across 32 case pages, representing 55 physical sources; 55 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -34,6 +34,7 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [Urgent embassy address: Constantinopel, signed Stumm](constantinople_urgent_address.md) | p161 B1 |
 | [Siegfried and Osthoff: later military-mission recall messages](military_mission_recalls.md) | p161 C1, p161 C2, p161 D1, p161 D2 |
 | [Constantinople embassy address and Stumm signature](constantinople_embassy_signature.md) | p162 D1 |
+| [p167 D — Captain and replacement-detachment dispatch fragment](p167_captain_dispatch_fragment.md) | p167 D |
 | [The Namur order: two witnesses for Staedt and Weiher](namur_order_witnesses.md) | p171 C, p172 E |
 | [Delegates directed through Spa toward Berlin](spa_berlin_delegates.md) | p175 A1, p175 A2 |
 | [Congratulation core under a conditional one-coordinate exclusion](nov13_conditional_congratulation.md) | p193 F |
@@ -86,6 +87,7 @@ Appointments, staff transfers, travel permissions, personnel inquiries and civil
 | [p161 D1](military_mission_recalls.md) | Osthoff posting and mission assignment cancelled | 127/127 fixed positions; 2 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
 | [p161 D2](military_mission_recalls.md) | Osthoff railway battalion reassignment and cabinet-order closing | 95/95 fixed positions; 0 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
 | [p162 D1](constantinople_embassy_signature.md#p162-d1) | German embassy Constantinople; signature Stumm, part1 only | 50/50 edited fixed; three source-C fills; second part not supplied | icekylinx and GPT-6 Astra Pro (2026 source edition); Lasry/Niebel/Kopal/Wacker published partial key; prior OCR bodies and Norbert digit hypothesis retained |
+| [p167 D](p167_captain_dispatch_fragment.md#p167-d) | Captain and replacement-detachment dispatch fragment | Conditional 190-slot frame: 84/95 raw positions; 45-position word proposal gives 89/95 fixed labels with 10 observed substitutions, 2 source-mask fills and 2 added-slot fills; six tied maps; name, title and destination unread | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
 | [p171 C](namur_order_witnesses.md) | Namur order for Staedt to contact HPT V. Weiher; complementary source witness | 252 received slots; six substitutions and four printed fills reconcile the 126-position body with p172 E; INSP1IN retained | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. key and earlier unreviewed C candidate retained; neighboring published body attribution distinguished |
 | [p172 E](namur_order_witnesses.md) | Namur order for Staedt to contact HPT V. Weiher; complementary source witness | 242 received slots plus 10 modeled missing prefix coordinates; five substitutions and ten witnessed prefix fills; same 126-position body as p171 C | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. key and earlier unreviewed C candidate retained; neighboring published body attribution distinguished |
 | [p175 A1](spa_berlin_delegates.md#p175-a1) | Delegates directed through Spa: Namur and von Weiher address | Prior Lasry body; native frame and four coordinate repairs | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; Lasry et al. 2016 §6.4 prior body and interpretation |
