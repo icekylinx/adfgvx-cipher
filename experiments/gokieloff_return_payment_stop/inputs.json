@@ -93,20 +93,20 @@
         "AAAVG VAFAD AXAVX VFVFA FAXAV ADXDD VAFFF AXAXX",
         "VDFXA GAAXX DAAXQ FAXFV GAAXF FAGFV VVXAX XFXGX",
         "FXDXV FAGDA AVDXF FXVVD DVFVF XXVXX VXVAX AGAAF",
-        "FFXGX DVVXV XAVVX XVXVA XAFFX AXFXV GDADG VXFAV",
+        "FFXGX DVVXV XAVVX XVXVA XAFFF AXFXV GDADG VXFAV",
         "DAAVG AVDGF AVFAF XFAVF FDVGA XFVVF GDFAG XXXXV",
         "XADAA XFFVD VDAVD GGDFF XAGVG FFFFF FVVAV FXFVV",
         "AGAX"
       ],
       "source_slots": 244,
       "advertised_length": 244,
-      "expected_raw": "ZUPORTPAT487LEOXGOKIELOFFXGOKIELOFFX9STWEGENKRAIKHEITVOMMILXGOUVXCZENNTOCHAUMITDDRCHREISESCHEINNAC?GEORGIENZURUECKGESANDTE",
-      "readable_candidate": "ZUPORTPAT487LEOXGOKIELOFFXGOKIELOFFXISTWEGENKRANKHEITVOMMILXGOUVXCZENNTOCHAUMITDURCHREISESCHEINNACHGEORGIENZURUECKGESANDTX",
-      "readable_german": "ZUPORTPAT487LEO. Gokieloff, Gokieloff, ist wegen Krankheit vom Mil. Gouv. CZENNTOCHAU mit Durchreiseschein nach Georgien zurueckgesandt.",
+      "expected_raw": "ZUDORTPAT487LEOXGOKIELOFFXGOKIELOFFX9STWEGENKRAIKHEITVOMMILXGOUVXCZENNTOCHAUMITDDRCHREISESCHEINNAC?GEORGIENZURUECKGESANDTE",
+      "readable_candidate": "ZUDORTPAT487LEOXGOKIELOFFXGOKIELOFFXISTWEGENKRANKHEITVOMMILXGOUVXCZENNTOCHAUMITDURCHREISESCHEINNACHGEORGIENZURUECKGESANDTX",
+      "readable_german": "Zu dort PAT487 Leo. Gokieloff, Gokieloff, ist wegen Krankheit vom Mil. Gouv. CZENNTOCHAU mit Durchreiseschein nach Georgien zurueckgesandt.",
       "case_path": "cases/people/gokieloff_return_payment_stop.md",
       "title": "Gokieloff sent back to Georgia; instruction not to transmit money",
-      "meaning": "The proposed body says the person written Gokieloff was sent back to Georgia because of illness, with a transit permit from the military governor at the literal place CZENNTOCHAU. Both occurrences of the surname are already directly read. The opening ZUPORTPAT487LEO is retained as an opaque label, and the place spelling is not normalized or mapped to a modern location.",
-      "reading_note": "The source prints DAAXQ, with a genuine noncoordinate Q at 54. One source-mask fill completes NACH. A separate enlargement resolves XFVVF with a final F, not the initial low-resolution T reading, so it is not counted as an erasure. Four observed-coordinate substitutions separately repair 9ST, KRAIKHEIT and DDRCH, and propose separator X for the final E after GESANDT. 487 and the literal opening and place fields are unchanged.",
+      "meaning": "The proposed body says the person written Gokieloff was sent back to Georgia because of illness, with a transit permit from the military governor at the literal place CZENNTOCHAU. Both occurrences of the surname are already directly read. The corrected opening reads Zu dort PAT487 Leo; PAT487 remains an opaque reference, and the place spelling is not normalized or mapped to a modern location.",
+      "reading_note": "The source prints DAAXQ, with a genuine noncoordinate Q at 54. One source-mask fill completes NACH. A separate enlargement resolves XFVVF with a final F, not the initial low-resolution T reading, so it is not counted as an erasure. Four observed-coordinate substitutions separately repair 9ST, KRAIKHEIT and DDRCH, and propose separator X for the final E after GESANDT. 487 and the literal opening and place fields are unchanged. A source recheck on 3 November 2026 corrects the earlier transcription XAFFX to visibly printed XAFFF at row4/group5/source144. This restores raw ZUDORT at plaintext2 without a historical coordinate substitution. The exact previous edition and a one-glyph audit are preserved in experiments/p136_source_glyph_correction; the original four proposed substitutions and one mask fill remain unchanged.",
       "expected_costs": [
         4,
         1
@@ -218,7 +218,7 @@
     ]
   },
   "literal_glyph_notes": [
-    "The source prints DAAXQ, with a genuine noncoordinate Q at 54. One source-mask fill completes NACH. A separate enlargement resolves XFVVF with a final F, not the initial low-resolution T reading, so it is not counted as an erasure. Four observed-coordinate substitutions separately repair 9ST, KRAIKHEIT and DDRCH, and propose separator X for the final E after GESANDT. 487 and the literal opening and place fields are unchanged.",
+    "The source prints DAAXQ, with a genuine noncoordinate Q at 54. One source-mask fill completes NACH. A separate enlargement resolves XFVVF with a final F, not the initial low-resolution T reading, so it is not counted as an erasure. Four observed-coordinate substitutions separately repair 9ST, KRAIKHEIT and DDRCH, and propose separator X for the final E after GESANDT. 487 and the literal opening and place fields are unchanged. A source recheck on 3 November 2026 corrects the earlier transcription XAFFX to visibly printed XAFFF at row4/group5/source144. This restores raw ZUDORT at plaintext2 without a historical coordinate substitution. The exact previous edition and a one-glyph audit are preserved in experiments/p136_source_glyph_correction; the original four proposed substitutions and one mask fill remain unchanged.",
     "The printed GAGEV contains a clear out-of-alphabet E at source 43. One counted mask fill supplies E in GELD. The result uses the native 92-coordinate frame and no observed-coordinate substitution."
   ],
   "prior_attribution_check": {
@@ -233,5 +233,20 @@
     "All source frames are native; no coordinate is inserted or deleted.",
     "Literal numerical labels, opaque names and footer fields are not silently normalized.",
     "The cases distinguish reported events and conditional instructions from completed historical outcomes."
+  ],
+  "source_transcription_corrections": [
+    {
+      "record": "p136_A1",
+      "source_index": 144,
+      "old_transcription": "X",
+      "corrected_visible_glyph": "F",
+      "group_before": "XAFFX",
+      "group_after": "XAFFF",
+      "plaintext_index": 2,
+      "label_before": "P",
+      "label_after": "D",
+      "historical_substitution_cost": 0,
+      "audit": "experiments/p136_source_glyph_correction/README.md"
+    }
   ]
 }

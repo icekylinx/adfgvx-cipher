@@ -2,13 +2,11 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-**State: completed.** This review closed at **2026-11-03T07:58:05Z**. The further
-requested two-hour continuation began at **2026-11-03 05:58:04 UTC**
-and continued through the **07:58:04 UTC (15:58:04 UTC+8)** deadline.
-The initial remote publication at 2026-11-02 23:27:19 UTC and earlier
-extensions remain recorded separately. Completion describes the reviewed
-local research snapshot; it does not assert that every artifact has been
-published remotely.
+**State: in progress.** The initial remote publication was confirmed at
+2026-11-02 23:27:19 UTC. The original two-hour follow-up and subsequent
+extensions are preserved in the inputs. This further requested two-hour
+continuation began at **2026-11-03 05:58:04 UTC**, running through at least
+**07:58:04 UTC (15:58:04 UTC+8)**. No completed duration is claimed by this checkpoint.
 
 ## Current preserved inventory
 
@@ -170,6 +168,8 @@ its copied values are excluded from the fixed-raw total.
 - [An optional technical reading for the p63 inspector request](../p63_optional_technical_reading/README.md)
 - [Optional staff vocabulary in the interference-damaged p137 A5](../p137_optional_staff_vocabulary/README.md)
 - [Optional route vocabulary in the jammed p116 A13](../p116_optional_route_fragment/README.md)
+- [An optional two-deletion reading of p105 B](../p105_optional_two_deletions/README.md)
+- [A source glyph restores ZU DORT in the Gokieloff record](../p136_source_glyph_correction/README.md)
 
 These packages retain their own calibration limits and conditional assumptions.
 A source-compatible witness or an exact language optimum does not by itself

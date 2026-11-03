@@ -1,0 +1,46 @@
+{
+  "schema": "adfgvx-one-source-glyph-correction-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "record": "p136_A1",
+  "case_path": "cases/people/gokieloff_return_payment_stop.md",
+  "original_inputs": "experiments/gokieloff_return_payment_stop/inputs.json",
+  "original_certificates": "experiments/gokieloff_return_payment_stop/certificates.json",
+  "prior_artifacts": [
+    {
+      "path": "experiments/gokieloff_return_payment_stop/inputs.json",
+      "snapshot": "before/inputs.json",
+      "sha256": "f21fe87c1c30c58a1671e38aed02b9d5971e75362736ab4d31d0f3b867c4ced0"
+    },
+    {
+      "path": "experiments/gokieloff_return_payment_stop/certificates.json",
+      "snapshot": "before/certificates.json",
+      "sha256": "334c25181f92345b230e4ec30f15a53aedca17b526b373b90402b5bf96fa1518"
+    },
+    {
+      "path": "cases/people/gokieloff_return_payment_stop.md",
+      "snapshot": "before/gokieloff_return_payment_stop.md",
+      "sha256": "1626b8219067285093100c187cfaff0d6767073d0ee5baf210559370fd6b0207"
+    }
+  ],
+  "source_index": 144,
+  "old_glyph": "X",
+  "corrected_glyph": "F",
+  "plaintext_index": 2,
+  "old_plaintext_label": "P",
+  "corrected_plaintext_label": "D",
+  "source_group_before": "XAFFX",
+  "source_group_after": "XAFFF",
+  "printed_page": 136,
+  "pdf_page_1based": 139,
+  "source_crop_path": "experiments/gokieloff_return_payment_stop/sources/p136_A1.png",
+  "source_crop_sha256": "68e00534026810a03285b9b25e90f52174c048b4b97ecc7878f55bf54a27dcc7",
+  "independent_review": "Two separate inspections of the pinned PDF and enlarged row agree on F: a vertical stem and two horizontal bars are visible. The nearby X forms have different strokes. The decoded word did not replace the source evidence.",
+  "live_mapping_updates": [
+    {
+      "id": "p136_A1",
+      "before_stream_sha256": "b74824d97dcf87cb4bfa53f26a1b82b12f865b20de10f0ed292b8465e9a388e8",
+      "after_stream_sha256": "15aae529493a7397de8da795635cbcb5df7fc7550398a04dbc8f9619bed7cef7"
+    }
+  ],
+  "counting": "No new physical source, no new fixed-position count, no extra historical substitution or mask fill; the interpretation of one directly determined label is corrected."
+}

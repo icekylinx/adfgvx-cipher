@@ -1,0 +1,36 @@
+{
+  "schema": "adfgvx-one-source-glyph-correction-certificate-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "input_sha256": "95c2372def83312ada9cdc901c63381dc29d6340232314998b946298408e3d68",
+  "prior_snapshot_hashes_verified": true,
+  "source_changes": [
+    {
+      "source_index": 144,
+      "before": "X",
+      "after": "F"
+    }
+  ],
+  "raw_label_changes": [
+    {
+      "plaintext_index": 2,
+      "before": "P",
+      "after": "D"
+    }
+  ],
+  "old_raw": "ZUPORTPAT487LEOXGOKIELOFFXGOKIELOFFX9STWEGENKRAIKHEITVOMMILXGOUVXCZENNTOCHAUMITDDRCHREISESCHEINNAC?GEORGIENZURUECKGESANDTE",
+  "corrected_raw": "ZUDORTPAT487LEOXGOKIELOFFXGOKIELOFFX9STWEGENKRAIKHEITVOMMILXGOUVXCZENNTOCHAUMITDDRCHREISESCHEINNAC?GEORGIENZURUECKGESANDTE",
+  "old_candidate": "ZUPORTPAT487LEOXGOKIELOFFXGOKIELOFFXISTWEGENKRANKHEITVOMMILXGOUVXCZENNTOCHAUMITDURCHREISESCHEINNACHGEORGIENZURUECKGESANDTX",
+  "corrected_candidate": "ZUDORTPAT487LEOXGOKIELOFFXGOKIELOFFXISTWEGENKRANKHEITVOMMILXGOUVXCZENNTOCHAUMITDURCHREISESCHEINNACHGEORGIENZURUECKGESANDTX",
+  "unchanged_repair_counts": {
+    "observed_coordinate_substitutions": 4,
+    "source_mask_fills": 1
+  },
+  "unchanged_companion_record": "p136_A2",
+  "physical_sources_added": 0,
+  "fixed_raw_positions_added": 0,
+  "extra_historical_repair_cost": 0,
+  "original_core_files": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/messages.json": "1e4013252eb54065435ae1591abea729df8e40e482a6fe57165b512a9ba9c373"
+  }
+}

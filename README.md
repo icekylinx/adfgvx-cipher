@@ -52,6 +52,8 @@ The catalogue covers source-reviewed records with published reading evidence; th
 
 ## Selected results
 
+The [p105 combined-source supplement](experiments/p105_optional_two_deletions/README.md) improves the ordinary-word fit with two explicit source exclusions and three observed-coordinate changes; all tied frames and numerical alternatives remain visible. A [p136 glyph recheck](experiments/p136_source_glyph_correction/README.md) restores raw `ZU DORT` without any additional historical repair.
+
 The [accounting-copy reconciliation](experiments/accounting_copy_reconciliation/README.md) restores two unresolved labels in p175 from an independently received p172 companion. Its conservative reading reaches 100/102 fixed positions with the original four observed-coordinate changes; the ending disagreement and shared word repairs remain explicit.
 
 Other reviewed sources include a [third silk-resale continuation](cases/finance/nov6_silk_resale_continuation.md), a [Sevastopol food-dispatch list](cases/caucasus/sevastopol_supply_dispatch.md), and a [two-part request to stop further provisions](cases/military/nov25_provisions_and_evening_report.md). Their original quantities, reference labels and message boundaries remain explicit.

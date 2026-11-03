@@ -4,9 +4,9 @@
   "initial_push_confirmed_utc": "2026-11-02T23:27:19Z",
   "minimum_required_followup_seconds": 7200,
   "minimum_followup_end_utc": "2026-11-03T01:27:19Z",
-  "extended_work_until_utc": "2026-11-03T07:58:04Z",
-  "extended_deadline_interpretation": "The user requested a further two-hour continuation on 3 November 2026; this work period began at 05:58:04 UTC and remains in progress.",
-  "review_finished_utc": "2026-11-03T07:58:05Z",
+  "extended_work_until_utc": "2026-11-03T11:04:46Z",
+  "extended_deadline_interpretation": "The owner requested three more hours starting 2026-11-03T08:04:46Z, targeting the complete Childs material and combining source evidence to improve the original 22 challenges. This continuation is in progress.",
+  "review_finished_utc": null,
   "initial_public_head": "c4c2562f41dd4624f7202962db68ef9e746f50f2",
   "start_catalog_sha256": "50784e7b1a7a51a8e4224a088cdaec21a6c6f25285d869b5049110a667630e75",
   "final_catalog_sha256": "df65f8af5cf9a7a6df4a118c56208930789423c6cf0935d3c2500a39da62b712",
@@ -4079,7 +4079,9 @@
     "p132_optional_address",
     "p63_optional_technical_reading",
     "p137_optional_staff_vocabulary",
-    "p116_optional_route_fragment"
+    "p116_optional_route_fragment",
+    "p105_optional_two_deletions",
+    "p136_source_glyph_correction"
   ],
   "artifact_sha256s": {
     "experiments/crown_airlift/README.md": "09e242c2345f1d5832ddd5114af276426d4aeae6fde765d98f064db4d966da0b",
@@ -5227,8 +5229,8 @@
     "experiments/nov1_nov2_native_dispatches/verify.py": "d8472762ac2c3b73e43000fadc5c0ad069eb054ffa4d48f60c5b3fbfa7421bd4",
     "experiments/gokieloff_return_payment_stop/README.md": "b86508642413f036de78412ccf4c137e68dd9ba06f967db3a20c2119eb699a33",
     "experiments/gokieloff_return_payment_stop/catalog_proposal.json": "a2a04a59f45e2bc5ff1658fe97fc80c84c8efa933209ed62a6a57a077bf25d77",
-    "experiments/gokieloff_return_payment_stop/certificates.json": "334c25181f92345b230e4ec30f15a53aedca17b526b373b90402b5bf96fa1518",
-    "experiments/gokieloff_return_payment_stop/inputs.json": "f21fe87c1c30c58a1671e38aed02b9d5971e75362736ab4d31d0f3b867c4ced0",
+    "experiments/gokieloff_return_payment_stop/certificates.json": "b0776ad7447c96967a5c474d98eaf7a600fc75991639c1fc22a73deabe6fdd1f",
+    "experiments/gokieloff_return_payment_stop/inputs.json": "c71de1daf68b51b27a233085ff8666d108518bb580c4a69cbf6ce5ae40ccd393",
     "experiments/gokieloff_return_payment_stop/prior_candidates.json": "7b25b803c84dfad26d235a4533bffd7392f1328f14637bd610e9d561a03a2abc",
     "experiments/gokieloff_return_payment_stop/sources/p136_A1.png": "68e00534026810a03285b9b25e90f52174c048b4b97ecc7878f55bf54a27dcc7",
     "experiments/gokieloff_return_payment_stop/sources/p136_A1_F.png": "c7ad2b66556039e292706f501b17ddb843ce992fe85620a8205f636fc2247247",
@@ -5585,7 +5587,7 @@
     "cases/people/catholic_division_chaplain_substitute.md": "293304e63e3228054145daa5c424270fbccb9b06abf22a0cb0865bf764ffc507",
     "cases/radio/bucharest_transmitter_consent.md": "7f473d2842339c60029a5276751600eba5ecca3b4cc96a77020c08bafccaf1c7",
     "cases/radio/ringbahn_0345_calls.md": "5bdbb83a095f981483d5e88a9c2dd2cac435637da47312f7ffe5576fa7edc282",
-    "cases/people/gokieloff_return_payment_stop.md": "1626b8219067285093100c187cfaff0d6767073d0ee5baf210559370fd6b0207",
+    "cases/people/gokieloff_return_payment_stop.md": "1d0a683b1e3245d25c7ad7bd90661a116b54ff6e23127c652fb84525b8a3c026",
     "cases/military/jaeger_accommodation_area.md": "2893d5f2b787625a45e260e79bd90f7cb20d90b94bcb26a7d2c61bfb152647cb",
     "cases/radio/nov12_arrival_departure_and_car.md": "0eb07e37fe957880335f4f7f7f13c211863dafc6b5e7640ff7d807960de7f081",
     "cases/military/nov3_northeast_foot_march.md": "0cc10280fbf1579c4c7250bf022fc9c18bcc4ff38919602f4c2530fbe372f53c",
@@ -5597,7 +5599,7 @@
     "cases/radio/car_query_parallel_frame.md": "e80ea659b341b9e644f1af61b639c0b5522a351b15385fbe5408a4035b62ad8f",
     "cases/radio/nov6_embassy_reference_8956.md": "58e7cecddd66aa70e40ecde186f67784815bee1f7238140ad17bc3ba8445c09b",
     "data/reviews/caption_cleanup_20261103.json": "dd67043a85033f64a9ab5bcc45c59dc105772e4da333e5562ceb68c1d7683316",
-    "data/reviews/live_readable_mappings_20261103.json": "bef14818ca4331d9049a878a8390988d9bac5718223db50e60b2ad928647b9bc",
+    "data/reviews/live_readable_mappings_20261103.json": "ebec30e564c2658b05fe686ca8a1f53c103d88b01c620d0a52de96b480665e2d",
     "data/reviews/verify_live_readable_mappings.py": "824fa8a80825d82e34a3099409f6309dfe16ed990cd3811e9597124c42958908",
     "data/reviews/reading_conventions_followup_before.json": "634136e43b27bac376ab2128e48188bed1dbae13786eb47927990d91f6cadc15",
     "data/reviews/reading_conventions_followup_audit.json": "d74d02a71ef4b9adcc67d33e3efe78f81535290d7fc487f5895b1888b45c370f",
@@ -5617,7 +5619,7 @@
     "data/reviews/reading_conventions_spacing_before.json": "b7461cff0cafb151383501d7be773ad43de1940e32fa6cc9b6c286338136ef06",
     "data/reviews/reading_conventions_support_audit.json": "358504a577f64ff1d31460a2d5b593efff3e765e38eb1183406c7bfb0ca08110",
     "data/reviews/check_reading_presentation.py": "8025ad223025038b63a20b8ceace0c1cdb0395e2cbd81465cbec7c8de9e65d93",
-    "data/reviews/reading_layer_manifest.json": "d3d479fbb7262cdeefe261ba66aa2426e33e6c7078d98512e990349a6d6edce9",
+    "data/reviews/reading_layer_manifest.json": "2b70a01f3fe3df705c0ce5da5f613cd47348457db81cd7564ec3bcebbdccd7b7",
     "docs/reading-conventions-coverage.md": "99e1f16c5f5bbb50ae4181e0ba0595fee3f8af8bf2f4803a9fe5ff5be1566f4b",
     "data/reviews/reading_conventions_semantic_before.json": "e6b9d3aa4fc47c760af3d5710a536ef23d9576e1352642bd76b795aca2e4d765",
     "data/reviews/reading_conventions_semantic_audit.json": "5db9a6222c904dccc1ffe3aeef59a6bd36a74cc9278ab00bf03181cfd11549dc",
@@ -5652,7 +5654,7 @@
     "cases/naval/p84_AB.md": "631d095e79067a881a28f0fcf1e79fa96579ab01b5f642f9d34811ba82b8a978",
     "cases/naval/turkish_tonnage.md": "b498a944be891855696c17be3da07c62181c972e2af99ea4cfa4f3c50ba64b15",
     "cases/p100.md": "e7db8d580a56211ab92ce95a417fc1698302c2cc3efd2a1cc3adacf4127db2c6",
-    "cases/p105.md": "c7f5de8813a1dba8c00d3db832cbe5642f6463fc9f409f10e253a7432c8dbaf8",
+    "cases/p105.md": "58c54825e5fe71312cc5d4d09e93a565e81b20ac48803d3aee3ebbbc2f22109e",
     "cases/p109.md": "ac51b020be29aac39e7657e4f3d8fe8c88b23d3873f7e1db323f7cad7454e4ee",
     "cases/p132.md": "d14cfb041a89ebdd5ebfc631d3dfa29f778fdfb429a0a80c15a383bea6b73c1b",
     "cases/p146.md": "86f0ca75b2996a38b1729473060f259eb6b85a747847e37fb71e896a106ae5c9",
@@ -5753,7 +5755,18 @@
     "docs/catalogue-source-overlaps.md": "1e8074b473f8e196ef2877506848ca466a6c26e82f3200b0e57252e3de4bacec",
     "experiments/p63_optional_technical_reading/README.md": "05510ca0e24cf9ec3a47101f91652710c7151da6642ffcbfeef511d2bc90d134",
     "experiments/p116_optional_route_fragment/inputs.json": "178a1b90401500f3871e127e1344b12efc5ca6d00b5a8546dd9df59e090c4b99",
-    "experiments/p116_optional_route_fragment/verify.py": "2c534f8bbf51cc22e69f3523c6493d0ca1462cb5cd88931c0f9224b2fe8a051f"
+    "experiments/p116_optional_route_fragment/verify.py": "2c534f8bbf51cc22e69f3523c6493d0ca1462cb5cd88931c0f9224b2fe8a051f",
+    "experiments/p136_source_glyph_correction/certificates.json": "d061b4a054cc23ed97b0b27b26ffb3c6f78f6e3c7507c1f896a4846d78c0089d",
+    "experiments/p136_source_glyph_correction/before/certificates.json": "334c25181f92345b230e4ec30f15a53aedca17b526b373b90402b5bf96fa1518",
+    "experiments/p105_optional_two_deletions/inputs.json": "9385ac1dd1736d69dfd5e56cd3eb7ea296adc0de18eeb7b0318d72629c7d5a4a",
+    "experiments/p105_optional_two_deletions/README.md": "10308fbd7bab30cd50869e75f9113caae7eba91bafe917dde29b4f45c810436e",
+    "experiments/p105_optional_two_deletions/verify.py": "83904c1577bfa9c03efd7e6c69aace58ddf995a80cca97b193841bee8f468cea",
+    "experiments/p105_optional_two_deletions/certificates.json": "962e923a5b56fd5834ca8cf3601056725cb3cd055aa23723393575f801ab4680",
+    "experiments/p136_source_glyph_correction/before/inputs.json": "f21fe87c1c30c58a1671e38aed02b9d5971e75362736ab4d31d0f3b867c4ced0",
+    "experiments/p136_source_glyph_correction/README.md": "fb1ba82c17af9901c1d74ed34d7a3067f401dd22e966bc7236e000ffdc6e81a8",
+    "experiments/p136_source_glyph_correction/before/gokieloff_return_payment_stop.md": "1626b8219067285093100c187cfaff0d6767073d0ee5baf210559370fd6b0207",
+    "experiments/p136_source_glyph_correction/verify.py": "b5854cb950383f896e167c8fd9d667aae0cf80af5319695cd2899fb7cec1bca0",
+    "experiments/p136_source_glyph_correction/inputs.json": "95c2372def83312ada9cdc901c63381dc29d6340232314998b946298408e3d68"
   },
   "source_images": [
     {
@@ -13688,7 +13701,8 @@
     "cases/p132.md",
     "cases/caucasus/october_requests.md",
     "cases/military/transylvania_situation_report.md",
-    "cases/military/mackensen_withdrawal_report.md"
+    "cases/military/mackensen_withdrawal_report.md",
+    "cases/p105.md"
   ],
   "counting_limits": [
     "Catalogue entries and unique physical sources have separate totals. Repeated receptions and numbered parts at distinct source locations remain separate; later editions of the same registered source count once. None of these counts establishes first decipherment.",
@@ -13697,5 +13711,12 @@
     "Pixel identity binds a delivered crop to the pinned PDF. It does not itself prove every manual glyph judgment.",
     "The source-image inventory includes two unaccepted-fragment diagnostic crops; those images add no accepted source records or plaintext positions.",
     "The earlier 87-to-195 review retains its own immutable snapshots. This review starts at195."
+  ],
+  "completed_continuations": [
+    {
+      "started_utc": "2026-11-03T05:58:04Z",
+      "requested_until_utc": "2026-11-03T07:58:04Z",
+      "finished_utc": "2026-11-03T07:58:05Z"
+    }
   ]
 }

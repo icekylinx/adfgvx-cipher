@@ -15,22 +15,24 @@
 **Raw output:**
 
 ```text
-ZUPORTPAT487LEOXGOKIELOFFXGOKIELOFFX9STWEGENKRAIKHEITVOMMILXGOUVXCZENNTOCHAUMITDDRCHREISESCHEINNAC?GEORGIENZURUECKGESANDTE
+ZUDORTPAT487LEOXGOKIELOFFXGOKIELOFFX9STWEGENKRAIKHEITVOMMILXGOUVXCZENNTOCHAUMITDDRCHREISESCHEINNAC?GEORGIENZURUECKGESANDTE
 ```
 
 **Edited output — counted proposal:**
 
 ```text
-ZUPORTPAT487LEOXGOKIELOFFXGOKIELOFFXISTWEGENKRANKHEITVOMMILXGOUVXCZENNTOCHAUMITDURCHREISESCHEINNACHGEORGIENZURUECKGESANDTX
+ZUDORTPAT487LEOXGOKIELOFFXGOKIELOFFXISTWEGENKRANKHEITVOMMILXGOUVXCZENNTOCHAUMITDURCHREISESCHEINNACHGEORGIENZURUECKGESANDTX
 ```
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
-> ZUPORTPAT487LEO. Gokieloff, Gokieloff, ist wegen Krankheit vom Mil. Gouv. CZENNTOCHAU mit Durchreiseschein nach Georgien zurueckgesandt.
+> Zu dort PAT487 Leo. Gokieloff, Gokieloff, ist wegen Krankheit vom Mil. Gouv. CZENNTOCHAU mit Durchreiseschein nach Georgien zurueckgesandt.
 
-**Meaning:** The proposed body says the person written Gokieloff was sent back to Georgia because of illness, with a transit permit from the military governor at the literal place CZENNTOCHAU. Both occurrences of the surname are already directly read. The opening ZUPORTPAT487LEO is retained as an opaque label, and the place spelling is not normalized or mapped to a modern location.
+**Meaning:** The proposed body says the person written Gokieloff was sent back to Georgia because of illness, with a transit permit from the military governor at the literal place CZENNTOCHAU. Both occurrences of the surname are already directly read. The corrected opening reads Zu dort PAT487 Leo; PAT487 remains an opaque reference, and the place spelling is not normalized or mapped to a modern location.
 
 **Conditional interpretation and source details:** The source prints DAAXQ, with a genuine noncoordinate Q at 54. One source-mask fill completes NACH. A separate enlargement resolves XFVVF with a final F, not the initial low-resolution T reading, so it is not counted as an erasure. Four observed-coordinate substitutions separately repair 9ST, KRAIKHEIT and DDRCH, and propose separator X for the final E after GESANDT. 487 and the literal opening and place fields are unchanged.
+
+**Source transcription correction:** The original image reads `XAFFF` at row4/group5, not the earlier `XAFFX` transcription. Correcting source index144 changes raw `ZUPORT` to `ZUDORT` at plaintext position2. This is a correction to the repository transcription, with zero additional historical substitution cost. [Exact previous edition and audit](../../experiments/p136_source_glyph_correction/README.md).
 
 ### Explicit source changes
 

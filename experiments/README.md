@@ -13,6 +13,8 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [p105 combined-source two-exclusion model](p105_optional_two_deletions/README.md) | Original challenge p105; no new source | Two exclusions and three substitutions; all tied frames and holdouts retained. |
+| [p136 visible-glyph correction](p136_source_glyph_correction/README.md) | Existing source; no new record | One transcription correction, exact before/after snapshots and zero extra historical repair cost. |
 | [Optional p116 route fragment](p116_optional_route_fragment/README.md) | Existing record; 37 explicitly conditional half-pair completions | Five source-mask fills and 32 lost-tail fills preserve every observed coordinate; the primary raw-only edition remains unchanged. |
 | [Optional p63 technical word](p63_optional_technical_reading/README.md) | Existing record; three further substitutions and a separately stated surplus-interim model | Complete witness retains the 270 printed coordinates; the primary 21-position unresolved span is unchanged. |
 | [Optional p137 staff vocabulary](p137_optional_staff_vocabulary/README.md) | Existing record; three further substitutions and ten missing-coordinate fills | Retains the conditional interference frame, both source-glyph alternatives and all ten remaining unknowns. |

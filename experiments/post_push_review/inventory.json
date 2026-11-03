@@ -1,13 +1,13 @@
 {
   "schema": "adfgvx-post-publication-review-v2",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "inputs_sha256": "c2bc4162c6b10b8404c055d7ebdeba19658438da39851712eefecaa640a1d910",
-  "review_state": "completed",
+  "inputs_sha256": "f8516cb2382f57c3e13cee40b03e4184f69f12bfebbd626045ba7dba75ed1a87",
+  "review_state": "in_progress",
   "initial_push_confirmed_utc": "2026-11-02T23:27:19Z",
   "minimum_followup_end_utc": "2026-11-03T01:27:19Z",
-  "extended_work_until_utc": "2026-11-03T07:58:04Z",
-  "review_finished_utc": "2026-11-03T07:58:05Z",
-  "completed_elapsed_seconds_after_push": 30646,
+  "extended_work_until_utc": "2026-11-03T11:04:46Z",
+  "review_finished_utc": null,
+  "completed_elapsed_seconds_after_push": null,
   "catalogue": {
     "challenge_entries": 22,
     "other_reviewed_entries_before": 195,
@@ -204,7 +204,7 @@
     "cases/radio/warsaw_station_missing_row.md"
   ],
   "source_image_count": 462,
-  "pinned_artifact_count": 1672,
+  "pinned_artifact_count": 1683,
   "coverage_totals": {
     "source_slots": 80180,
     "modeled_plaintext_positions": 40339,
@@ -4276,7 +4276,9 @@
     "p132_optional_address",
     "p63_optional_technical_reading",
     "p137_optional_staff_vocabulary",
-    "p116_optional_route_fragment"
+    "p116_optional_route_fragment",
+    "p105_optional_two_deletions",
+    "p136_source_glyph_correction"
   ],
   "added_catalogue_entry_ids": [
     "p57_A1",

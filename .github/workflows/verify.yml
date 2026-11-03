@@ -35,6 +35,8 @@ jobs:
           python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
           python data/reviews/check_reading_presentation.py
           python data/reviews/verify_live_readable_mappings.py
+          python experiments/p136_source_glyph_correction/verify.py --verify
+          python experiments/p105_optional_two_deletions/verify.py --verify
           python data/reviews/verify_catalog_source_overlaps.py
           python experiments/p63_optional_technical_reading/verify.py --verify
           python experiments/p137_optional_staff_vocabulary/verify.py --verify

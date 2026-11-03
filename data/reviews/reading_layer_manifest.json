@@ -7502,7 +7502,7 @@
     {
       "path": "cases/p105.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "c7f5de8813a1dba8c00d3db832cbe5642f6463fc9f409f10e253a7432c8dbaf8",
+      "file_sha256_at_review": "58c54825e5fe71312cc5d4d09e93a565e81b20ac48803d3aee3ebbbc2f22109e",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -8733,12 +8733,12 @@
     {
       "path": "cases/people/gokieloff_return_payment_stop.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "1626b8219067285093100c187cfaff0d6767073d0ee5baf210559370fd6b0207",
-      "review_basis": "Independent source-image, column-permutation, repair-price and readable-label review completed for the source package. Conditional source/frame choices and numerical fields remain explicit.",
+      "file_sha256_at_review": "1d0a683b1e3245d25c7ad7bd90661a116b54ff6e23127c652fb84525b8a3c026",
+      "review_basis": "Independent source-image recheck corrects one transcription glyph; the exact prior edition and complete before/after proof are preserved in experiments/p136_source_glyph_correction.",
       "fences": [
         {
           "index": 0,
-          "sha256": "40360df14188c1d1c943d6efb96894296da45ba5a799c0e006fe4ac94c21db53",
+          "sha256": "8d3ca3019ed3912839f15eca8f903c3746e360f16879696f3d6f8f2e36a8b70e",
           "role": "raw_output",
           "caption_required": true,
           "caption": "**Raw output:**",
@@ -8746,7 +8746,7 @@
         },
         {
           "index": 1,
-          "sha256": "40576b428f9d70d112dd267751e0bcb0660cc0850fe5e69bfdf6281e24dd87d9",
+          "sha256": "645327395ad0d9963f4c2fe93e2ae804e5d8b05a89aa0ec73cb2e52cd9fe0321",
           "role": "edited_output",
           "caption_required": true,
           "caption": "**Edited output — counted proposal:**",
@@ -8772,7 +8772,7 @@
       "quotes": [
         {
           "index": 0,
-          "sha256": "0f9adc8f0432a5c6306b0412e979fc66dd531b445bf8bd2216c61a4ddb7031af",
+          "sha256": "62c9adbf20e6f46b05f8e57ebac5752edc028c1615b3fd7381a6a5ace8ef242e",
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German — the same candidate labels with spacing and punctuation:**",
@@ -8786,7 +8786,8 @@
           "caption": "**Readable German — the same candidate labels with spacing and punctuation:**",
           "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
         }
-      ]
+      ],
+      "source_correction_audit": "experiments/p136_source_glyph_correction/inputs.json"
     },
     {
       "path": "cases/people/kremp.md",

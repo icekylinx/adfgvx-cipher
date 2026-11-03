@@ -1,5 +1,22 @@
 # Research status
 
+## Current combined-source refinements
+
+The [p105 two-exclusion supplement](../experiments/p105_optional_two_deletions/README.md)
+uses independent ordinary-word witnesses and source-preserving alignment. Its
+288-slot frame retains 144 paired labels with two explicitly priced D exclusions
+and three observed-coordinate substitutions. All 12 full-word minima and 55
+prefix-only minima remain available; the dates, reference B2 and competing
+separator values retain their geometry-dependent limits. This is an optional
+improved source model, not a declaration of unique historical text.
+
+A separate [p136 source-glyph correction](../experiments/p136_source_glyph_correction/README.md)
+replaces the earlier miscopied XAFFX with visibly printed XAFFF. The current
+Gokieloff edition therefore begins ZUDORT rather than ZUPORT. This changes one
+raw label at zero additional historical repair cost. The complete prior source,
+certificate and case are retained, and p136 A2 is unchanged.
+
+
 [ADFGVX Cipher](../README.md) · [Case guide](../cases/README.md) · [Methods](methods.md) · [Experiments](../experiments/README.md)
 
 **icekylinx and GPT-6 Astra Pro · 3 November 2026**
