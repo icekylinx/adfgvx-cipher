@@ -73,7 +73,7 @@ VONPOEST7ENYIYTRENCSENUEBERPUHOINSILEININDERNACHTAMJ0YEINGETROFFENYJEDEUNTERSTUE
 
 - The native 212-coordinate second part has no source erasures or length changes. The sole word proposal 1EDE to JEDE costs two observed-coordinate substitutions.
 - POEST7EN retains its numeral-like 7, and SILEIN retains the source-length spelling. Neither is silently converted into a presumed historical place name.
-- J0, I and RGTJX remain literal. The body date-like label is not chosen from the November29 interception header or the separate 11/28 originating line.
+- J0, I and RGTJX remain literal. The body date-like label is not chosen from the November 29 interception header or the separate 11/28 originating line.
 
 ## Evidence, credit and reproduction
 

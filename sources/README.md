@@ -27,7 +27,7 @@ The Aegean volume's 2000 edition date is supported by Lasry's bibliography; the 
 
 ## Header direction
 
-`X v Y` means **recipient X, sender Y**. The explicit routes and adjacent headers on [printed p. 9 of the 1935 report](excerpts/nsa_header_convention_p9.png) establish the convention: `NKJ v LP` accompanies a message from LP through NKJ, and `OSM v COS` accompanies a message from COS to OSM. Thus `CM v CZ` is CZ to CM; `-- v CM` has an unknown recipient and a known sender CM. A relay call sign need not identify the ultimate author or addressee.
+`X v Y` means **radio recipient X, radio sender Y**. The explicit routes and adjacent headers on [printed p. 9 of the 1935 report](excerpts/nsa_header_convention_p9.png) establish the convention: `NKJ v LP` accompanies a message from LP through NKJ, and `OSM v COS` accompanies a message from COS to OSM. Thus `CM v CZ` is CZ to CM; `-- v CM` has an unknown recipient and a known sender CM. A relay call sign need not identify the ultimate author or addressee.
 
 ## Historical and technical context
 

@@ -10,7 +10,7 @@ The [reading edition](../../cases/military/hungary_transport_warning.md) gives a
 
 ## What is and is not identical
 
-Both source headers say from LP for UKS, origin `13.40 (13/11)`, three parts. B is received as `NKJ v LP (02.51 a.m., November 13th)` and C as `ZO'N v NKJ (02.15 a.m., November 13th)`. These morning receipts precede the stated origin time on the same printed date. We preserve that inconsistency and do not repair the date or time.
+Both source records retain LP as the origin and UKS as the onward destination, with origin time `13.40 (13/11)` and three parts. Their intercepted radio hops differ: B has `NKJ v LP (02.51 a.m., November 13th)`, meaning LP to NKJ, while C has `ZO'N v NKJ (02.15 a.m., November 13th)`, meaning NKJ to ZO'N. The shared origin is distinct from the immediate radio sender. These morning receipts precede the stated origin time on the same printed date. We preserve that inconsistency and do not repair the date or time.
 
 The address parts differ in length and received spelling. B1 has `MACKENSEN`, `MINERALOEL` and `BUCKAREST`; C1 has `MKENSEN`, `MINERALOL` and `BUMAREST`. These differences are not silently normalized.
 

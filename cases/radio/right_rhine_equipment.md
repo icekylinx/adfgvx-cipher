@@ -55,14 +55,18 @@ A readable expansion, with abbreviation completions in brackets, is:
 **Readable German — after the cancelled-group exclusion and priced word repairs:**
 
 > Dort befind[liche] U.S.-Geräte zur nächsten rechtsrhein[ischen]
-> Ers[atz]abtl[g.] schaffen. Funkstellenbetrieb muss aufrechterhalten
-> bleiben. Nachrichtenchef [reference unresolved].
+> Ers[atz]abtlg. schaffen. Funkstellenbetrieb muss aufrechterhalten
+> bleiben. Nachrichtenchef `4B4??3?`.
 
 The three question marks in the closing `4B4??3?` are retained. They arise
 from unassigned cells in the published partial square, not missing source
 coordinates. The two ordinary-word question marks in the raw reading are
 also partial-key outcomes; their editorial repairs change observed
 coordinates, rather than filling the key with new letters.
+
+The abbreviation `ABTLG` already includes its final G. The readable display
+therefore retains that letter outside editorial brackets and preserves the
+entire closing reference, including its fixed labels and three unknowns.
 
 | Literal source slots | Analysis-frame slots | Raw fixed labels | Edition fixed labels | Observed coordinates excluded | Known-coordinate substitutions | Erasure fills |
 |---:|---:|---:|---:|---:|---:|---:|

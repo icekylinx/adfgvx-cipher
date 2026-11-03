@@ -93,7 +93,7 @@ ZWEITENSNACHXBRAILAXGEHTNICHTSXDORTHINUNTERWEGSBEFINDLICHEDAMPFERABDREHENXXDRITT
 The first **127 plaintext positions** are the editorial restoration.
 Every supplied letter fits its raw missing-coordinate domain except
 the L→W repair in `UNTERWEGS`. The exact observed operation is
-**source243 A→G**; the actual printed dash at **source242** is filled
+**source 243 A→G**; the actual printed dash at **source 242** is filled
 with A. Another **69 fills** apply only to the source-declared missing
 100 coordinates. This distinction is retained throughout the certificate.
 

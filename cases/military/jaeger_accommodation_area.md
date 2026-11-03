@@ -43,8 +43,8 @@ ANXAOKX1?XZUXDORTX11140XOPXUNTERBRINGUNGSRAUMXDTXJAEGERXDIVX13?11XMARCHEXSUEDLXH
 - The native body has all 230 printed slots, including two printed dashes in XF--F. No source coordinate is inserted, excluded or reordered.
 - The single observed-coordinate proposal JAEGE1 to JAEGER is priced. The two dash fills propose MARC?E to MARCHE and SUEDL?HUY to SUEDLXHUY. These supply readable words and a separator without changing the key.
 - VIERSWT and SOHEIT remain literal source spellings. A possible familiar place name is not used to repair them for free.
-- The unknown at plaintext index8 in the opening AOK1? and at62 in 13?11 comes from the same fully observed GF square cell. Those two occurrences must take the same digit from {5,6,7,8,9}.
-- The final AOK1? unknown at plaintext index109 is a different fully observed XG square cell and must take a different member of {5,6,7,8,9}. No choice is made merely to make the two AOK labels agree.
+- The unknown at plaintext index 8 in the opening AOK1? and at 62 in 13?11 comes from the same fully observed GF square cell. Those two occurrences must take the same digit from {5,6,7,8,9}.
+- The final AOK1? unknown at plaintext index 109 is a different fully observed XG square cell and must take a different member of {5,6,7,8,9}. No choice is made merely to make the two AOK labels agree.
 - The header retains the literal 14.05 p.m. and 12.10. Neither is used to resolve the date-like or reference labels inside the body.
 
 ## Evidence, credit and reproduction

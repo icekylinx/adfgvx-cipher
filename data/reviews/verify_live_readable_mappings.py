@@ -48,6 +48,11 @@ def normalized(quote, allowed_brackets, question_punctuation=()):
         assert context.endswith('?') and context.count('?') == 1
         assert quote.count(context) == 1, ('question-punctuation context changed', context)
         quote = quote.replace(context, context[:-1])
+    # Inline code is often used to distinguish literal unresolved fields from
+    # editorial punctuation. Remove only balanced single-backtick delimiters;
+    # their contents remain subject to the same exact ordered-label equality.
+    quote = re.sub(r'(?<!`)`([^`\n]+)`(?!`)', lambda match: match[1], quote)
+    assert '`' not in quote, 'unreviewed or unbalanced code-span delimiters'
     value = re.sub(r'\[[^\[\]]*\]', '', quote).upper()
     for old, new in (('Ä', 'AE'), ('Ö', 'OE'), ('Ü', 'UE'), ('ẞ', 'SS')):
         value = value.replace(old, new)
@@ -86,7 +91,8 @@ def verify(manifest):
         assert len(labels) == row['mapped_positions'] and labels.count('?') == row['unresolved_positions']
         total += len(labels)
         unknowns += labels.count('?')
-        inserted += sum(len(s) - 2 for s in row['display_only_insertions'])
+        inserted += sum(char.isalpha() for s in row['display_only_insertions']
+                        for char in s[1:-1])
     summary = {'records': len(seen), 'case_pages': len({r['case_path'] for r in manifest['records']}),
                'mapped_nonseparator_positions': total, 'unresolved_positions': unknowns,
                'display_only_inserted_letters': inserted}

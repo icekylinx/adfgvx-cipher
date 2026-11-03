@@ -35,6 +35,9 @@ jobs:
           python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
           python data/reviews/check_reading_presentation.py
           python data/reviews/verify_live_readable_mappings.py
+          python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/legacy_live_readable_mappings_20261103.json
+          python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_detail_before.json --audit data/reviews/reading_conventions_detail_audit.json
+          python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_detail_prose_before.json --audit data/reviews/reading_conventions_detail_prose_audit.json
       - name: Verify wider-corpus source readings
         run: |
           python experiments/corpus_readings/verify.py --verify

@@ -14,7 +14,7 @@ The first source page itself says that parts 2–6 are missing. That statement i
 | p129 A | 7–8 | 5 November, continued | 7.01 p.m., 5 November | `1840 8 TLE` |
 | p137 A | 4–6 | **6 November** | **08.14, 5 November**, no a.m./p.m. qualifier | `18.40 8 TLE VON UKS 18.40` |
 
-All three name `LP v NKJ`. The report's sender is consistent with the raw `OXKXM` signature/content and p137's explicit UKS field. This is evidence for the proposed association, not a solution to the anomalous timing. In particular, p137's 08.14 receipt is not silently changed to a later date or evening time. Its separate 6 November page heading also remains intact.
+All three name `LP v NKJ`, giving the intercepted radio route NKJ to LP. The raw `OXKXM` signature/content and p137's explicit UKS origin field are separate origin clues; they do not replace NKJ as the immediate radio sender. This is evidence for the proposed association, not a solution to the anomalous timing. In particular, p137's 08.14 receipt is not silently changed to a later date or evening time. Its separate 6 November page heading also remains intact.
 
 ## Part 1: military situation after the collapse in Transylvania
 

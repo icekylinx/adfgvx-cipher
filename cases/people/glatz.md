@@ -10,9 +10,12 @@
 
 **Readable German:**
 
-> Militär-Mission Konstantinopel. Drahtnachricht über Verbleib Reg. Bmstr. Glatz vom Straßenbau-Sonderkommando 1 erbeteten [wohl: erbeten]. Milverkehr, röm. II A 100166 Ko, durch Admiralstab, Kz. 95537.
+> Militär-Mission Konstantinopel. Drahtnachricht über Verbleib Reg. Bmstr. Glatz vom Straßenbau-Sonderkommando 1 erbeteten [wohl: erbeten]. Milverkehr, röm. 2 A 100166 Ko, durch Admiralstab, Kz. 95537.
 
 **Display notes:** The bracketed `[wohl: erbeten]` is a proposed ordinary-German normalization of the literal `ERBETETEN`. It is a gloss, not a deletion in either exact output. Abbreviation expansions in the meaning below remain interpretations; the following notes distinguish the uncertain institutional terms.
+
+The literal numeral label after `ROEM` remains `2` in the readable version;
+it is not replaced by a Roman-numeral rendering.
 
 **English meaning:** To the Military Mission in Constantinople. A telegram is requested reporting the whereabouts of Government Master Builder Glatz of Road Construction Special Detachment 1. The closing contains routing and reference information, including transmission through the Admiral Staff and reference 95537.
 

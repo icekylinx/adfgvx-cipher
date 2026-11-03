@@ -82,9 +82,9 @@ shows the first glyph, and the
 [faint group ending](../../experiments/mecklenburg_and_seaplane_personnel/sources/p141_A2_faint_end.png)
 shows the second. Their masked alternatives remain in the certificate:
 
-- Masking A1 source161 changes the initial **B** of `BXMXK` to domain
+- Masking A1 source 161 changes the initial **B** of `BXMXK` to domain
   **8ABGIR**. The variant leaves that code character unresolved.
-- Masking A2 source279 changes the **E** of the first `ABGESANDT` to
+- Masking A2 source 279 changes the **E** of the first `ABGESANDT` to
   domain **9EKVXZ**. That variant also leaves its position unresolved.
 
 Each alternative retains all six exact re-encryption witnesses. No newly

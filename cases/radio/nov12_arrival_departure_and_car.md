@@ -65,11 +65,11 @@ WENNSEIFERTEINGETROFFENBITTENACHRXTOF
 
 **Editorial limits.**
 
-- The native body contains 74 occupied slots, including literal Z at source indices4 and31, W at42, and five B glyphs at60–64. These eight invalid coordinate glyphs remain in the transcription and become eight separately priced analysis-mask fills.
+- The native body contains 74 occupied slots, including literal Z at source indices 4 and 31, W at 42, and five B glyphs at 60–64. These eight invalid coordinate glyphs remain in the transcription and become eight separately priced analysis-mask fills.
 - The proposal changes no observed ADFGVX coordinate. The five B-shaped slots are filled with D coordinates; this is an explicit source-mask completion, not a silent claim that five clearly printed Ds were present.
 - The source ending CZ UM is transmission control after the 74-slot ciphertext and is excluded from the body on that printed framing.
 - NACHR and TOF remain abbreviated or literal; no sender biography is supplied.
-- The earlier p174 B witness supplies all eight invalid-glyph values here, while this source supplies D at p174 source20, supporting its previously unresolved N in EINGETROFFEN. Under conservative masks all74 source coordinates and all37 target pairs have an observed witness, with zero observed-coordinate conflicts.
+- The earlier p174 B witness supplies all eight invalid-glyph values here, while this source supplies D at p174 source 20, supporting its previously unresolved N in EINGETROFFEN. Under conservative masks all 74 source coordinates and all 37 target pairs have an observed witness, with zero observed-coordinate conflicts.
 - If the earlier C/G-like glyph is instead treated as an observed G, the complete-word proposal costs one observed substitution in that alternative. The new D witness does not change the appearance of the old glyph.
 
 ## p183 C
@@ -99,7 +99,7 @@ SEIFERTABGEFAHRENXRENTE
 - All 46 printed coordinates are retained, including the final six FFVDD V omitted from the earlier OCR body. The following CZ is outside the ciphertext.
 - The source produces SQIFERT directly. The proposal SEIFERT changes one observed coordinate; the neighboring arrival enquiry supports the name but does not make this change free.
 - The full 46-slot ciphertext is preserved; no historical prefix or suffix is invented.
-- Compared with existing p174 E, this source supports E at plaintext4 through observed source2 X instead of G. Both witnesses still have Q at plaintext1, so SEIFERT requires one additional word correction in each witness there. The combined edited cost is3 substitutions versus1 unavoidable observed-source conflict; the extra2 are contextual name repairs.
+- Compared with existing p174 E, this source supports E at plaintext 4 through observed source 2 X instead of G. Both witnesses still have Q at plaintext 1, so SEIFERT requires one additional word correction in each witness there. The combined edited cost is 3 substitutions versus 1 unavoidable observed-source conflict; the extra 2 are contextual name repairs.
 
 ## p183 E
 
@@ -132,11 +132,11 @@ The [earlier p174 B/E edition](seifert.md) already presents the arrival-enquiry 
 | p174 B / p183 B arrival enquiry | 37 / 37 | 0 | 0 | 9 |
 | p174 E / p183 C departure report | 22 / 23 | 1 | 3 | 0 |
 
-In the first pair, p174 B supplies every one of the eight invalid-glyph values in p183 B. Conversely, p183 B supplies an observed **D at source20**, which gives **N at plaintext22** in `EINGETROFFEN`, formerly unresolved in the conservative p174 transcription. Every complete target pair occurs in at least one witness. This is positive source evidence for that letter, beyond a plausible German completion. It does not make the nine individual printed masks disappear from the two diplomatic transcriptions.
+In the first pair, p174 B supplies every one of the eight invalid-glyph values in p183 B. Conversely, p183 B supplies an observed **D at source 20**, which gives **N at plaintext 22** in `EINGETROFFEN`, formerly unresolved in the conservative p174 transcription. Every complete target pair occurs in at least one witness. This is positive source evidence for that letter, beyond a plausible German completion. It does not make the nine individual printed masks disappear from the two diplomatic transcriptions.
 
 The old p174 glyph remains C-like or a defective G. Under its explicitly retained G reading, selecting the D supplied by p183 costs one observed-coordinate substitution in that branch. The source comparison does not claim to change what the older glyph looks like.
 
-In the departure pair, p183 C supports the second E of SEIFERT through **source2 X**, where p174 E has G. The first E still corresponds to the same **source28 G** in both witnesses and therefore needs one contextual G→X proposal in each. Thus the complete name costs three substitutions jointly, two more than the unavoidable single observed-source conflict. The joint source support does not turn this shared spelling repair into a direct reading.
+In the departure pair, p183 C supports the second E of SEIFERT through **source 2 X**, where p174 E has G. The first E still corresponds to the same **source 28 G** in both witnesses and therefore needs one contextual G→X proposal in each. Thus the complete name costs three substitutions jointly, two more than the unavoidable single observed-source conflict. The joint source support does not turn this shared spelling repair into a direct reading.
 
 The literal interception and originating times differ between the parallel records and remain in their headers. These are additional physical witnesses, not four newly discovered message contents or a claim of first historical decipherment.
 

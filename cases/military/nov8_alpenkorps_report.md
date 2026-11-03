@@ -42,16 +42,16 @@ missing physical first part of this particular p160 transmission.
 
 Under the explicitly stated 238-slot p160 exclusion frame, its alignment
 with p170 B2 has **230 known-coordinate agreements, six known disagreements
-and two complementary masks**. P160 frame25 (literal source27) supplies X
+and two complementary masks**. P160 frame 25 (literal source 27) supplies X
 where p170 has a mask, supporting the latter's proposed J in `UJVERBASZ`.
-P170 frame183 supplies D where p160 source185 is a dash, supporting the
+P170 frame 183 supplies D where p160 source 185 is a dash, supporting the
 p160 fill in `BEREITGESTELLT`. These are conditional cross-witness supports;
 all six disagreements remain recorded.
 
 **Conditional interpretation:** substituting the parallel's `RD` and
 `WERSCHETZ` for the primary `RE` and `WERGCHEEZ` costs **three additional
-observed-coordinate substitutions** at p160 source18 D→X, source48 G→X
-and source192 D→G. Its total is seven observed substitutions, one printed-mask
+observed-coordinate substitutions** at p160 source 18 D→X, source 48 G→X
+and source 192 D→G. Its total is seven observed substitutions, one printed-mask
 fill and two observed exclusions. This separately priced interpretation is
 not substituted into the primary edited or readable stream above.
 

@@ -140,7 +140,7 @@ one observed-coordinate substitution. The printed dash supplies the `M` in
 |---:|---|---|---|
 | 101 | `F` | `V` | Position 85: `3` → `D` |
 
-There are **1 printed-dash fills**, listed individually with their original row, group, source index and plaintext effect in the certificate. The total is **1 observed-coordinate substitutions and 1 printed-dash fills**. No key cell or rank changes.
+There is **1 printed-dash fill**, listed with its original row, group, source index and plaintext effect in the certificate. The total is **1 observed-coordinate substitution and 1 printed-dash fill**. No key cell or rank changes.
 
 The source prints the following **cleartext signature**, outside the
 ciphertext frame:

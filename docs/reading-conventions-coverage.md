@@ -75,6 +75,26 @@ corrects omitted unknown positions and unmarked display-only spelling
 changes. Its finite character mappings are recorded separately from the
 full-tree role inventory; it does not claim to validate every translation.
 
+## Later label and routing review
+
+The [legacy live-display mappings](../data/reviews/legacy_live_readable_mappings_20261103.json)
+bind 37 older passages on 22 case pages to **3,736 ordered labels**, including
+**38 unresolved positions**. They separately account for 109 explicitly
+bracketed editorial letters. Literal X inside a word or reference is kept
+at its reviewed position; it is not removed as generic punctuation.
+Balanced inline-code delimiters may mark a literal field, but every label
+inside the delimiters remains checked.
+
+Two [documented display corrections](../data/reviews/reading_conventions_detail_audit.json)
+restore the Rhine equipment message's `4B4??3?` reference and already encoded
+final G in `ABTLG`, and preserve Glatz's literal numeral `2` instead of an
+unencoded Roman-II rendering. The original source and decoded streams remain
+byte-identical. A [separate prose review](../data/reviews/reading_conventions_detail_prose_audit.json)
+clarifies spacing, count grammar, and immediate radio hops versus originating
+stations while preserving 61 fenced blocks, 24 quotations and all 1,362
+numeric tokens in its 13-file scope. These are overlapping presentation
+checks, not additional source records or new historical numeral assignments.
+
 ## Run the checks
 
 From the repository root:
@@ -85,6 +105,9 @@ python data/reviews/verify_manual_readings.py
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_layers_before.json --audit data/reviews/reading_conventions_layers_audit.json
 python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
 python data/reviews/check_reading_presentation.py
+python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/legacy_live_readable_mappings_20261103.json
+python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_detail_before.json --audit data/reviews/reading_conventions_detail_audit.json
+python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_detail_prose_before.json --audit data/reviews/reading_conventions_detail_prose_audit.json
 ```
 
 All scripts use the standard library and derive the repository location from

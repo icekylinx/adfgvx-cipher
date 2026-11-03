@@ -51,7 +51,7 @@ does not print a wavelength unit, so this edition does not add one.
 |---:|---|---|---|
 | 85 | `A` | `G` | Position 5: `I` → `C` |
 
-The total is **1 observed-coordinate substitutions and 0 printed-dash fills**. No key cell or rank changes.
+The total is **1 observed-coordinate substitution and 0 printed-dash fills**. No key cell or rank changes.
 
 ## p74 B
 
