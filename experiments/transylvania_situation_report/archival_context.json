@@ -1,0 +1,87 @@
+{
+  "schema": "adfgvx.transylvania-archival-context.v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "review_date": "2026-11-04",
+  "source": "US National Archives and Records Administration, Record Group 242, German Foreign Office records received from St Antony’s College, T136 reel 39.",
+  "locator": {
+    "catalogue_url": "https://catalog.archives.gov/id/470294866",
+    "catalogue_title": "Number 39 (1 of 2)",
+    "series_naid": 12000225,
+    "item_naid": 470294866,
+    "public_metadata_url": "https://catalog.archives.gov/proxy/v3/records/search?naId=470294866&limit=1",
+    "original_object_url_template": "https://catalog.archives.gov/medialz/dc-metro/rg-242/12000225/T136-039/T136-039-{frame:04d}.jpg",
+    "archival_file": "S.A. / Deutschland Nr. 130, Band 7; Die Beziehungen Deutschlands zu Rumaenien",
+    "frame_indexing": "Four-digit frame number in the official object filename, not a printed folio or PDF page."
+  },
+  "finding_aid": {
+    "catalogue_url": "https://catalog.archives.gov/id/287372336",
+    "microfilm": "T322 reel 1",
+    "image_filename": "T322-01-0049.jpg",
+    "object_url": "https://catalog.archives.gov/medialz/dc-metro/rg-242/12004230/T322/T322-01/T322-01-0049.jpg",
+    "object_id": "287372385",
+    "source_bytes": 4321153,
+    "source_sha256": "f360ad419277158f46ade2259e535890efb33d014c587a5121d638d3d8d9b714",
+    "visually_checked_entry": "Printed column 98: Deutschland 130, volume 7, 1 November 1918–10 August 1919, PS, SA Reel 39."
+  },
+  "documents": [
+    {
+      "id": "Groener-11212",
+      "identity": "Telegram copy, General Groener to the Foreign Office through von Hintze; Great Headquarters, 4 November 1918; arrival 5:30 p.m.; signed I.A. Groener; Ia Nr. 11212 Geh.Op.",
+      "objects": [
+        {
+          "frame": 410,
+          "object_id": "470295276",
+          "source_bytes": 3267563,
+          "source_sha256": "e5f242e139f1106ad2e84852fb53c85efa686b13cdb69b69564c42af9f13004d"
+        },
+        {
+          "frame": 411,
+          "object_id": "470295277",
+          "source_bytes": 2559915,
+          "source_sha256": "5f7ade7f360f096fd747640389bc0a72a63dece5b01111efc92047860e882228"
+        }
+      ],
+      "page_relationship": "One document across consecutive frames 410 and 411; the final line of 410 continues at the top of 411.",
+      "relevance": "Discusses the danger to the Romanian occupation army, movement through Hungary or Galicia, and extending the 14-day evacuation term to four weeks.",
+      "limit": "Its reference 11212 differs from the eight-part source’s unchanged 11226O6. It is not identified as that report or used to supply its missing text."
+    },
+    {
+      "id": "Lersner-2733",
+      "identity": "Telegram copy, legation councillor to the Foreign Office; Great Headquarters, 4 November 1918, 9:10 p.m.; arrival 9:55 p.m.; Nr. 2733; signed Lersner.",
+      "objects": [
+        {
+          "frame": 415,
+          "object_id": "470295281",
+          "source_bytes": 4598776,
+          "source_sha256": "6ac49451b19d086f80707bdbffd870297cbdd3e18b9c05fbc7a1b1b3a266d6e2"
+        }
+      ],
+      "page_relationship": "Right-hand page only. The left-hand page closes a different Horstmann document.",
+      "relevance": "Says Groener reported Mackensen ordered to return to Germany, using Hungarian railways if possible and otherwise marching through Hungary.",
+      "limit": "Related withdrawal context; no claim that it copies any part of the intercepted eight-part report."
+    },
+    {
+      "id": "Horstmann-579",
+      "identity": "Deciphered telegram, Bukarest via Koenigswusterhausen, 5 November 1918, 9:20 p.m.; arrival 6 November, 12:40 a.m.; Nr. 579; signed Horstmann.",
+      "objects": [
+        {
+          "frame": 424,
+          "object_id": "470295290",
+          "source_bytes": 6616355,
+          "source_sha256": "50289cf244260e4b7df0075cc1744a225c2dbc49ebad86f71453ee78eaacd105"
+        }
+      ],
+      "page_relationship": "Right-hand page; ends with Horstmann’s signature. The next frame is not assumed to continue it.",
+      "relevance": "Reports a decision to occupy Kronstadt, Hermannstadt and Transylvanian railways to preserve connections and secure possible withdrawal. This independently corroborates the setting of the accepted fourth-part proposal.",
+      "limit": "Not a verbatim copy of that fourth part and supplies no source-certified letters for part 6."
+    }
+  ],
+  "limits": [
+    "Original images and the finding-aid entry were visually inspected. Hashes identify downloaded official JPEG bytes; no new image files are distributed.",
+    "The three documents authenticate historical context and archival locations, not the proposed cross-page assembly, its conflicting receipt dates, or an exact shared wording.",
+    "No new A6 reading or restoration count is claimed. The primary input and cryptographic certificate remain unchanged."
+  ]
+}
