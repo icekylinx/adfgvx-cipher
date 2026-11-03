@@ -1,0 +1,282 @@
+{
+  "schema": "adfgvx-oct30-oil-and-supply-records-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "keys": [
+    {
+      "id": "Oct28-31",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        6,
+        15,
+        12,
+        16,
+        5,
+        7,
+        14,
+        4,
+        13,
+        8,
+        11,
+        1,
+        17,
+        2,
+        10,
+        3,
+        18,
+        9
+      ],
+      "column_count": 18,
+      "square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+      "square_rows": [
+        "HI20SX",
+        "RUWQY8",
+        "EK7O61",
+        "9CBJAP",
+        "453FDZ",
+        "TGLMVN"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 238,
+          "pdf_page_1based": 241,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  ],
+  "records": [
+    {
+      "id": "p83_A",
+      "printed_page": 83,
+      "source_section": "A",
+      "key_id": "Oct28-31",
+      "source_rows": [
+        "AADAV AAFVV VVGAA XVVAG DAVAF AGAXX DDADX GGAGA",
+        "AAVAA VGAAA GAXGX FGFDF DGAAF XFVFF XVGGF AFFAX",
+        "XVXAV ADAAF DDGXX ADFDX GAGAD DGXXF FADAD FAXAA",
+        "FAFDV AGAFX AXFXF FXAAG DDXGA AGADD VGVVG FGDDX",
+        "AAXDX GGVFF AXXVA AAFAA XDVVX FFVDA VAAAX VVAAD",
+        "DVDGA AGXXX FAVAA AXXXF VGAFF XXGDG DGGFA AXXFA",
+        "XAXF"
+      ],
+      "source_slots": 244,
+      "advertised_length": 244,
+      "expected_raw": "DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREIGABEDEROELEERFOLGGEHABTHATXXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRX0ROEMX1XX",
+      "readable_candidate": "DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREIGABEDEROELEERFOLGGEHABTHATXXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRX0ROEMX1XX",
+      "readable_german": "Drahtet, ob erneuter Befehl Izzet Pascha, Izzet Pascha, zur Freigabe der Oele Erfolg gehabt hat. Kriegsamt, Kriegsrohstoffabtlg. Nr. 0, roem. 1.",
+      "case_path": "cases/naval/gerlach_oil_release_query.md",
+      "title": "Gerlach oil-release inquiry: the overprinted parallel",
+      "meaning": "Telegraph whether Izzet Pasha's renewed order to release the oil has been successful. The text asks for a result; it does not establish that the oil was released. The clear routing is for Hauptm. Gerlach at Batum, with the Prussian War Ministry designation. Both occurrences of Izzet Pascha and the unexplained footer 0 ROEM 1 remain literal.",
+      "reading_note": "Five positions carry visible overprinting: source 99, 136, 146, 176 and 177. Their declared surviving glyph readings are X, X, G, A and F. With these readings the 244-coordinate stream is identical to the independently reviewed p84 A source, and all 122 plaintext positions decode without a cryptographic edit. The certificate also retains a conservative five-mask sensitivity branch: 117/122 raw positions, then five explicitly counted fills supplied by the independent p84 witness. The zero-edit result is tied to the stated visual transcription; it does not describe the overprints as pristine. The clear p83 header gives 1830 (30), where the corresponding p84 time is partly illegible.",
+      "expected_costs": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "p85_A1",
+      "printed_page": 85,
+      "source_section": "A1",
+      "key_id": "Oct28-31",
+      "source_rows": [
+        "DAGFD AXXDG ADAAD VAVFX VFGXD DADFD DDDAV XDAAV",
+        "DDADX AGAAF GAVVF VDFGG GDGAA GFXXD DFXFF XAFAF",
+        "GAXAG XAGAX ADGAD GFADD AAAXD GXDVA FGGFD VVFXF",
+        "XVDFX GDGGD GAFFV GDDXA AAAVA VAGDF AFDFF FFXFF",
+        "XDVFG FFFFF AADAX FFAFA GXAVF AVFAF DVXAD AFAXG",
+        "AXVXG VADAV XAFAX FFGAX GXVVA VFAAF XVVXX VXDGA",
+        "VFAAA DDVAV VXVGA GXAAA GXVAA AXAGX XFGFX XXAXX",
+        "GDGAF XXVFA DGVAD X"
+      ],
+      "source_slots": 296,
+      "advertised_length": 296,
+      "expected_raw": "NACHSCHUBSTELLESEWASTOPOLSANDTE27X10X18ANKAUKASUSDELEGXFOLGXMENGENABX16400KGZUCKER16300KGHARTFUTTER24200KGKARTOFFELN4900KGHIRSE8700KGFRISCHESGEMUESE",
+      "readable_candidate": "NACHSCHUBSTELLESEWASTOPOLSANDTE27X10X18ANKAUKASUSDELEGXFOLGXMENGENABX16400KGZUCKER16300KGHARTFUTTER24200KGKARTOFFELN4900KGHIRSE8700KGFRISCHESGEMUESE",
+      "readable_german": "Nachschubstelle Sewastopol sandte 27 / 10 / 18 an Kaukasusdeleg. folg. Mengen ab: 16400 kg Zucker, 16300 kg Hartfutter, 24200 kg Kartoffeln, 4900 kg Hirse, 8700 kg frisches Gemuese.",
+      "case_path": "cases/caucasus/sevastopol_supply_dispatch.md",
+      "title": "Food dispatch from Sevastopol to the Caucasus delegation",
+      "meaning": "The supply office at Sevastopol reports sending the listed quantities to the Caucasus delegation on the date written 27/10/18. The surviving first part names sugar, hard feed, potatoes, millet and fresh vegetables. This is a dispatch report, not proof of arrival. No total cargo beyond this surviving part is asserted.",
+      "reading_note": "The enlarged source reads GDGAA: source index 61 is a visible D with a closed curved right stroke. An initial low-resolution C transcription is resolved by the larger crop and is not a historical ciphertext repair. All 296 coordinates and all 148 plaintext positions are directly observed and decode without changes. Every numeral is determined by the unchanged published key. The 27/10/18 body date, 30 October page heading and 1 November reception header remain separate. This is explicitly part 1 of two; no second-part linkage is assumed.",
+      "expected_costs": [
+        0,
+        0
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "path": "sources/p83_A.png",
+      "printed_page": 83,
+      "pdf_page_1based": 86,
+      "crop_pdf_points": [
+        42,
+        275,
+        520,
+        540
+      ],
+      "render_scale": 3,
+      "sha256": "67af0b4831827241effaece8e324d30be6a88d63cd96fcd5caf24a270e11c191"
+    },
+    {
+      "path": "sources/p83_A_overprints.png",
+      "printed_page": 83,
+      "pdf_page_1based": 86,
+      "crop_pdf_points": [
+        278,
+        416,
+        420,
+        480
+      ],
+      "render_scale": 8,
+      "sha256": "215096eefc0352acd59392e2b02bf4cb2ca65cefb11fb3b5475cf8c9bf968ce8"
+    },
+    {
+      "path": "sources/p85_A1.png",
+      "printed_page": 85,
+      "pdf_page_1based": 88,
+      "crop_pdf_points": [
+        42,
+        232,
+        520,
+        493
+      ],
+      "render_scale": 3,
+      "sha256": "51e24923a1159711e53bced22d67c31ec3a4095811f207809364c33742a5f1f9"
+    },
+    {
+      "path": "sources/p85_A1_GDGAA.png",
+      "printed_page": 85,
+      "pdf_page_1based": 88,
+      "crop_pdf_points": [
+        326,
+        339,
+        372,
+        356
+      ],
+      "render_scale": 8,
+      "sha256": "53946e759eb96c5c73ea63bb6f7229dd0422b64938c8c02b38f5814c0133de11"
+    },
+    {
+      "path": "sources/p84_A_witness.png",
+      "printed_page": 84,
+      "pdf_page_1based": 87,
+      "crop_pdf_points": [
+        50,
+        155,
+        545,
+        380
+      ],
+      "render_scale": 3,
+      "sha256": "a63bd059d89665c96cf1623b772043c3cd59a866479415eebbddc03ade74e1b2"
+    }
+  ],
+  "headers": {
+    "p83_A": [
+      "Page heading: 30th OCTOBER, 1918.",
+      "A) POT v NKJ (4.17 a.m., November 1st)",
+      "FUER BEAUFTRAGT PREUSS K M HAUPTM GERLACH BATUM",
+      "1830 (30)",
+      "RICHI-244"
+    ],
+    "p85_A1": [
+      "Page heading: 30th OCTOBER, 1918.",
+      "A) FUER POT v NKJ (4.20 a.m., November 1st)",
+      "KAUKASUS DELEG POTI 1530 (30) 2 TLE",
+      "1 TL RICHI-296"
+    ]
+  },
+  "literal_glyph_notes": [
+    "Five positions carry visible overprinting: source 99, 136, 146, 176 and 177. Their declared surviving glyph readings are X, X, G, A and F. With these readings the 244-coordinate stream is identical to the independently reviewed p84 A source, and all 122 plaintext positions decode without a cryptographic edit. The certificate also retains a conservative five-mask sensitivity branch: 117/122 raw positions, then five explicitly counted fills supplied by the independent p84 witness. The zero-edit result is tied to the stated visual transcription; it does not describe the overprints as pristine. The clear p83 header gives 1830 (30), where the corresponding p84 time is partly illegible.",
+    "The enlarged source reads GDGAA: source index 61 is a visible D with a closed curved right stroke. An initial low-resolution C transcription is resolved by the larger crop and is not a historical ciphertext repair. All 296 coordinates and all 148 plaintext positions are directly observed and decode without changes. Every numeral is determined by the unchanged published key. The 27/10/18 body date, 30 October page heading and 1 November reception header remain separate. This is explicitly part 1 of two; no second-part linkage is assumed."
+  ],
+  "p83_parallel": {
+    "path": "experiments/corpus_recovery/inputs.json",
+    "sha256": "c063b3ac697740b0278b1ae673611d257cbe7bb2031d318f2ad9681336ae06b4",
+    "record": {
+      "id": "p84_A",
+      "printed_page": 84,
+      "pdf_page_1based": 87,
+      "key_id": "Oct28-31",
+      "header": "FUER POT v NKJ (4.17 a.m., November 1st); FUER BEAUFTRAGT PREUSS K M HAUPTM GERLACH BATUM; partly illegible time ending 30 (30); RICHI-244",
+      "advertised_length": 244,
+      "source_rows": [
+        "AADAV AAFVV VVGAA XVVAG DAVAF AGAXX DDADX GGAGA",
+        "AAVAA VGAAA GAXGX FGFDF DGAAF XFVFF XVGGF AFFAX",
+        "XVXAV ADAAF DDGXX ADFDX GAGAD DGXXF FADAD FAXAA",
+        "FAFDV AGAFX AXFXF FXAAG DDXGA AGADD VGVVG FGDDX",
+        "AAXDX GGVFF AXXVA AAFAA XDVVX FFVDA VAAAX VVAAD",
+        "DVDGA AGXXX FAVAA AXXXF VGAFF XXGDG DGGFA AXXFA",
+        "XAXF"
+      ],
+      "source_image": "sources/p84_A.png",
+      "ocr_block_id": null,
+      "notes": [
+        "The page heading is 30 October 1918; the reception header explicitly says November 1. Both date layers are preserved.",
+        "All source coordinates were visually checked against the full page. No insertion, deletion, substitution or square change.",
+        "The repeated IZZETPASCHA and the footer0ROEM1 remain literal."
+      ],
+      "expected_raw": "DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREIGABEDEROELEERFOLGGEHABTHATXXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRX0ROEMX1XX",
+      "candidate_plaintext": "DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREIGABEDEROELEERFOLGGEHABTHATXXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRX0ROEMX1XX",
+      "editorial_reason": "Word spacing and punctuation only; the exact plaintext and all coordinates are unchanged."
+    },
+    "overprint_sensitivity_indices": [
+      99,
+      136,
+      146,
+      176,
+      177
+    ]
+  },
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "93165a2c3e2613c606266a4c87bdb5a8e3970d00bb4136c3baeddee4322d7332"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "limits": [
+    "Only p83 A and p85 A1 are new physical records; the older p84 witness is not counted again.",
+    "The p83 direct result depends on declared readings of five visible overprints; the conservative masked sensitivity branch is separately retained.",
+    "No source length, published key or numerical label is changed.",
+    "A question about oil-release success and a report of food dispatch do not prove successful release or delivery."
+  ]
+}

@@ -113,6 +113,15 @@ one slot, source index **16**, with `V` supplies the `G` in `DREISSIGSTER` and
 preserves every one of the 133 valid coordinates. The three reconstructed
 parts then re-encrypt exactly to the explicitly stated repaired witnesses.
 
+The [p145 three-part witness](nov6_ringbahn_key_witnesses.md) now supplies
+independent raw support for all four proposed p211 word repairs:
+`RINGBAHN`, `SCHLUESSEL`, `DEZEMBER` and the `G` in `DREISSIGSTER`.
+Conversely, p211's unedited second part supports p145's declared one-slot
+restoration and three substitutions; the resulting ciphertexts match
+exactly. The copies retain their differing headings, reception dates and
+literal reference fields. The additional witness strengthens the
+transmitted wording, without establishing compliance with the key schedule.
+
 ## Verify
 
 The [source inputs](../../experiments/open_targets_continuation/inputs.json)

@@ -11,18 +11,18 @@ by this checkpoint.
 
 ## Current preserved inventory
 
-This snapshot compares **195 → 540 other physical source records**, with all
-22 challenge entries preserved. It adds **345 physical records across 101 source
+This snapshot compares **195 → 552 other physical source records**, with all
+22 challenge entries preserved. It adds **357 physical records across 107 source
 packages** and keeps every earlier record. Interpretation and open-target
 method audits add no physical records.
 
-The source packages account for **73,895 literal source slots** and
-**37,197 modeled plaintext positions**, of which
-**35,773 have fixed raw labels** under their stated frames.
+The source packages account for **76,437 literal source slots** and
+**38,468 modeled plaintext positions**, of which
+**37,024 have fixed raw labels** under their stated frames.
 These are coverage counts, including repeated copies, prior body readings,
 conditional frames and unresolved historical numerals. They are not a count
 of first decipherments or independently authenticated historical letters.
-All **710 observed-coordinate substitutions** remain separately priced.
+All **738 observed-coordinate substitutions** remain separately priced.
 Printed-mask fills, missing-slot fills, copied prefixes and source-layout
 exclusions keep their distinct units in each package. In particular, the
 copy-conditioned p157 A1 record contributes **0/95 fixed raw positions**;
@@ -133,6 +133,12 @@ its copied values are excluded from the fixed-raw total.
 | [Benzol-pump inquiry with an explicit missing-coordinate model](../benzol_pump_query/README.md) | 1 | 101 | 51 | 47 | 6 |
 | [An airfield and German troops: the surviving third part on p154](../airfield_german_troop_fragment/README.md) | 1 | 172 | 86 | 83 | 2 |
 | [OKM availability through an incompletely identified radio route](../okm_radio_route/README.md) | 1 | 86 | 43 | 42 | 6 |
+| [October 30 oil and supply records](../oct30_oil_and_supply_records/README.md) | 2 | 540 | 270 | 270 | 0 |
+| [November 6 evening and embassy records](../nov6_evening_and_embassy_records/README.md) | 3 | 448 | 224 | 213 | 7 |
+| [A regimental journey report with unresolved route and unit labels](../regimental_journey_report/README.md) | 2 | 466 | 233 | 228 | 10 |
+| [Reduced provisioning strength and a separate evening report](../nov25_provisions_and_evening_report/README.md) | 3 | 630 | 315 | 315 | 6 |
+| [An instruction to avoid fighting, with further orders to follow](../avoid_fighting_instruction/README.md) | 1 | 272 | 136 | 136 | 4 |
+| [A radio-traffic transfer in a surviving second part](../radio_traffic_transfer_fragment/README.md) | 1 | 186 | 93 | 89 | 1 |
 
 ## Additional interpretation and method audits
 
@@ -166,11 +172,11 @@ retains exact unknown fields and exposes prose-only spellings in six cases. A fo
 The p111/p112 package also checks every nonseparator label in seven complete
 readable passages, preserving all five unresolved positions.
 
-The [live readable-label audit](../../data/reviews/live_readable_mappings_20261103.json) now checks 97 records in 50 case pages: 8,440 ordered nonseparator labels, 50 literal unresolved positions, and 3 explicitly declared display-only letters. It reads the actual Markdown quotations and their linked raw or edited streams, including protected internal separators and positional question marks. Its original reviewed mappings remain unchanged as further records are appended.
+The [live readable-label audit](../../data/reviews/live_readable_mappings_20261103.json) now checks 109 records in 59 case pages: 9,631 ordered nonseparator labels, 58 literal unresolved positions, and 3 explicitly declared display-only letters. It reads the actual Markdown quotations and their linked raw or edited streams, including protected internal separators and positional question marks. Its original reviewed mappings remain unchanged as further records are appended.
 
 ## Independent source-image binding
 
-All **422 distinct delivered source images** have normalized PDF-page, rectangle, scale,
+All **436 distinct delivered source images** have normalized PDF-page, rectangle, scale,
 file-hash, RGB-hash and dimension metadata. The optional PDF verification
 regenerates each crop from the pinned original and compares every RGB pixel.
 This authenticates the crop location; it does not automate manual glyph

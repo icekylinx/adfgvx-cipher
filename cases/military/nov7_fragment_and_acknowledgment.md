@@ -53,6 +53,16 @@ ciphertexts and plaintexts**. Requiring the lexical crib
 That uniqueness is conditional on both the one-loss model and the crib;
 it is not an unconditional historical solution.
 
+The later [p151/p157 copy comparison](armistice_departure_copy.md) supports
+a separately priced A1 variant. Under the common-copy alignment, an
+observed p157 coordinate supports p151 source index 142 `A` → `F`, giving
+`STURZFSS` in place of `STUR3FSS`. The fuller `STURZDES` interpretation
+still needs two additional p151 coordinate changes without observed p157
+support. The truncated p157 source fixes **0/95 positions by itself** in
+the declared frame; its copied prefix, competing alignments and conflicting
+source choices remain explicit in the separate edition. The original
+layers above retain their stated zero-observed-substitution candidate.
+
 ## p151 A2
 
 The same source crop gives **186 valid coordinates** for

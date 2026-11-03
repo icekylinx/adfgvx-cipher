@@ -4,12 +4,13 @@
 
 Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and naval orders are collected here.
 
-**38 reviewed physical records across 13 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**39 reviewed physical records across 14 case pages.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
 | Case | Source records |
 |---|---|
+| [Gerlach oil-release inquiry: the overprinted parallel](gerlach_oil_release_query.md) | p83 A |
 | [p84 A/B — Release of oil and Black Sea shipping safety](p84_AB.md) | p84 A, p84 B |
 | [p89_A2 — supplementary source review](../supplementary/p89_A2.md) | p89 A2 |
 | [p120 / p123 - Three-part instruction to Feigenhaus](p120_p123.md) | p120 B1, p122 D suffix, p123 A2, p123 A3 |
@@ -28,6 +29,7 @@ Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and na
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p83 A](gerlach_oil_release_query.md#p83-a) | Gerlach oil-release inquiry: the overprinted parallel | 122/122 native raw positions under declared overprint readings; five-mask sensitivity retained; no edits | icekylinx and GPT-6 Astra Pro (2026); unchanged published Oct28–31 key; prior p84 and OCR evidence retained |
 | [p84 A](p84_AB.md) | Ask whether Izzet Pasha's order to release oil succeeded | 122/122 raw positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
 | [p84 B](p84_AB.md) | Request daily Black Sea shipping-safety reports for the Caucasus command | 101/101 raw positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
 | [p89 A2](../supplementary/p89_A2.md) | Shipping and railway routing to Nikolayev | Earlier reading; one source glyph uncertain | Ayush Agarwal; review by D. Bourdeau (2026) |

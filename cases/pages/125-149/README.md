@@ -4,9 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 100–124](../100-124/README.md) · [pp. 150–174 →](../150-174/README.md)
 
-**2 challenge entries and 65 other reviewed source records across 24 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**2 challenge entries and 68 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
-Jump to page: [p125](#p125) · [p126](#p126) · [p127](#p127) · [p128](#p128) · [p129](#p129) · [p130](#p130) · [p131](#p131) · [p132](#p132) · [p133](#p133) · [p134](#p134) · [p135](#p135) · [p136](#p136) · [p137](#p137) · [p138](#p138) · [p139](#p139) · [p140](#p140) · [p141](#p141) · [p142](#p142) · [p144](#p144) · [p145](#p145) · [p146](#p146) · [p147](#p147) · [p148](#p148) · [p149](#p149).
+Jump to page: [p125](#p125) · [p126](#p126) · [p127](#p127) · [p128](#p128) · [p129](#p129) · [p130](#p130) · [p131](#p131) · [p132](#p132) · [p133](#p133) · [p134](#p134) · [p135](#p135) · [p136](#p136) · [p137](#p137) · [p138](#p138) · [p139](#p139) · [p140](#p140) · [p141](#p141) · [p142](#p142) · [p143](#p143) · [p144](#p144) · [p145](#p145) · [p146](#p146) · [p147](#p147) · [p148](#p148) · [p149](#p149).
 
 Source pages without a reviewed catalogue record are omitted. Each row preserves the catalogue's exact status and credit; the linked case explains the reading and its qualifications.
 
@@ -194,6 +194,14 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p142 B](../../caucasus/representative_retention.md) | Caucasus BEV K.M. representative at Tiflis is to remain; reference fields retained | 143/143 fixed raw labels; 3 coordinate substitutions and 0 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 | [p142 C](../../military/dobrudscha_report.md) | Request position on Entente report of renewed Romanian occupation of Dobrudscha | 119/121 fixed raw labels; 1 coordinate substitutions and 2 printed-dash fills; ordinary complete frame | icekylinx and GPT-6 Astra Pro (2026); published period keys and earlier OCR-derived candidates credited separately |
 
+## p143
+
+### Other reviewed source records
+
+| Ciphertext | Most likely content | Reading status | Reading or review credit |
+|---|---|---|---|
+| [p143 A](../../military/nov6_evening_danube_report.md#p143-a) | Evening Danube report with unresolved unit and place labels | 84/94 native raw positions; 3 coordinate substitutions + 4 source-mask fills; native frame; optional names separately priced | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior OCR attribution retained |
+
 ## p144
 
 ### Other reviewed source records
@@ -234,7 +242,9 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p147 A](../../naval/motorboat_sale_attempt.md#p147-a) | Try to sell the motorboat designated ROEM Q5 | 127/127 raw positions; 2 substitutions and 0 source-mask fills | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed body candidates retained |
+| [p147 B1](../../radio/nov6_embassy_foreign_signature.md#p147-b1) | German Embassy address and Auswaertig signature label | 60/60 native raw positions; 1 coordinate substitution + 0 source-mask fills; native frame | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior OCR attribution retained |
 | [p147 C1](../../radio/constantinople_address_parts.md) | German Embassy at Pera and Stumm signature | 48/48 fixed positions; 0 observed-coordinate substitutions and 0 fills; native source frame retained | icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained |
+| [p147 D1](../../radio/nov6_embassy_dolci_address.md#p147-d1) | Pera embassy address for Monsignore Dolci, reference 1882 | 69/70 native raw positions; 3 coordinate substitutions + 1 source-mask fill; native frame | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior OCR attribution retained |
 
 ## p148
 

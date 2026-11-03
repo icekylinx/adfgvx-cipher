@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 50–74](../050-074/README.md) · [pp. 100–124 →](../100-124/README.md)
 
-**0 challenge entries and 57 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**0 challenge entries and 59 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p75](#p75) · [p76](#p76) · [p77](#p77) · [p78](#p78) · [p79](#p79) · [p80](#p80) · [p81](#p81) · [p82](#p82) · [p83](#p83) · [p84](#p84) · [p85](#p85) · [p86](#p86) · [p87](#p87) · [p88](#p88) · [p89](#p89) · [p90](#p90) · [p91](#p91) · [p92](#p92) · [p93](#p93) · [p94](#p94) · [p95](#p95) · [p96](#p96) · [p97](#p97) · [p98](#p98) · [p99](#p99).
 
@@ -92,6 +92,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p83 A](../../naval/gerlach_oil_release_query.md#p83-a) | Gerlach oil-release inquiry: the overprinted parallel | 122/122 native raw positions under declared overprint readings; five-mask sensitivity retained; no edits | icekylinx and GPT-6 Astra Pro (2026); unchanged published Oct28–31 key; prior p84 and OCR evidence retained |
 | [p83 B](../../military/formation_dissolution.md) | Dissolution of unnamed formations and return of remaining personnel to home replacement units | Direct complete168-position source reading; zero source repairs; printed second part only | icekylinx and GPT-6 Astra Pro (2026); published period key credited to Lasry et al.; earlier unreviewed body candidates distinguished |
 
 ## p84
@@ -109,6 +110,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p85 A1](../../caucasus/sevastopol_supply_dispatch.md#p85-a1) | Food dispatch from Sevastopol to the Caucasus delegation | 148/148 native raw positions; enlarged GDGAA confirms D; zero edits or fills; native frame | icekylinx and GPT-6 Astra Pro (2026); unchanged published Oct28–31 key; prior p84 and OCR evidence retained |
 | [p85 B](../../radio/p85_B.md) | Telephone censorship through Budapest | 99/99 raw positions; two word repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
 
 ## p86

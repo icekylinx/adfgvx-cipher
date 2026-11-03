@@ -41,6 +41,12 @@ DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREIGABEDEROELEERFOLGGEHABTHATX
 All **122/122** positions follow directly from the stated source and key.
 The displayed prose adds spacing and punctuation only.
 
+The [p83 A source edition](gerlach_oil_release_query.md) preserves the same
+244-coordinate body. Its clearer internal heading reads `1830 (30)`; the
+partly illegible p84 time remains transcribed as such. The p83 edition also
+retains a conservative five-overprint mask branch, for which the clear p84
+coordinates supply the five fills.
+
 ## B: Request daily reports on Black Sea shipping
 
 **Readable German:**

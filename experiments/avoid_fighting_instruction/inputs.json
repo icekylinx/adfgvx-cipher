@@ -1,0 +1,147 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "An instruction to avoid fighting, with further orders to follow",
+  "case": "cases/military/avoid_fighting_instruction.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p227_reviewed.png",
+      "pdf_page_1based": 230,
+      "crop_pdf_points": [
+        48,
+        535,
+        525,
+        674
+      ],
+      "render_scale": 3,
+      "sha256": "7895de0cee908d4a315b13beff5c191dd35427c357dfa905fff1dbc57f3d9d47",
+      "width": 1431,
+      "height": 417,
+      "channels": 3,
+      "rgb_sha256": "6b57b2c3d87b6f62f7b7ca1a32c85e8c5124b52a52ae359bf87f3d8e21ef6374"
+    }
+  ],
+  "keys": {
+    "Nov28-Dec1": {
+      "id": "Nov28-Dec1",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        9,
+        3,
+        14,
+        10,
+        2,
+        8,
+        15,
+        4,
+        16,
+        11,
+        5,
+        13,
+        6,
+        12,
+        1,
+        7
+      ],
+      "column_count": 16,
+      "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "square_rows": [
+        "782GPY",
+        "5OQHF9",
+        "1UDNI3",
+        "64TLVX",
+        "EAR0JZ",
+        "BKMCSW"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  },
+  "records": [
+    {
+      "id": "p227_D",
+      "title": "An order to avoid fighting, with further instructions to follow",
+      "key_id": "Nov28-Dec1",
+      "header_literal": "D) UKS v BSL (09.29 a.m., November 28th); KR 0912 (11/28); RICHI-272",
+      "edited_output": "OKMYAUFBEFEHLDERREICHSLEITGYISTJEDERKAMPFZUVERMEIDENYEINGEHENAUFFRANZYFORDERUNGENNOTWENDIGYWEITEREBEFEHLEFOLGENYYOHLXAXX280GEHYOPJANGYYY",
+      "readable_german": "OKM. Auf Befehl der REICHSLEITG ist jeder Kampf zu vermeiden. Eingehen auf FRANZ Forderungen notwendig. Weitere Befehle folgen. OHLXAXX280GEH. OPJANG.",
+      "meaning": "The message instructs OKM, on the order of the authority labeled REICHSLEITG, to avoid any fighting, says compliance with demands labeled FRANZ is necessary, and promises further orders. FRANZ is read as an abbreviation for French in this context; the source does not spell that word out. The message records an instruction, not proof that fighting stopped or that the demands were fulfilled.",
+      "protected_fields": [
+        "REICHSLEITG",
+        "FRANZ",
+        "OHLXAXX280GEH",
+        "OPJANG"
+      ],
+      "notes": [
+        "All 272 printed coordinates are present and legible, with no source erasures. The source photograph includes a complete group absent from the earlier OCR; restoring that visible group is a transcription correction, not an inserted historical coordinate.",
+        "The high-resolution source reads FFFVD, including the third F with its middle bar. It is not treated as an invented missing coordinate or a T-shaped source mask.",
+        "The wording proposals 1EDER to JEDER and ZT to ZU cost four observed-coordinate substitutions in total. REICHSLEITG and FRANZ remain abbreviated.",
+        "Y is the separator in this period key. The closing OHLXAXX280GEH and OPJANG are preserved literally; 280 is not turned into a calendar date or a reference number with an inferred format."
+      ],
+      "printed_page": 227,
+      "source_section": "D",
+      "source_rows": [
+        "XVVFA VFDDV FVGAG DAXVF AVGVD VVDAX DDVVD AFVAV",
+        "VGVFG VFAXF VXGGX FVGAG FFXAG GGGFF XXVVV VAFVF",
+        "VVVDA DVGGX XFFDA FGDFG AAAFA AVAGV DAFAG XXDXF",
+        "AVGAF AGDAD XADGG DDVVF VDFAD VFFVV AAADV AFFXF",
+        "AFFGG AVDDV DGGVD AXGXD XAVGX AGVAG FFFVD VGGFG",
+        "GXXXD FVVDF ADXGA VAADG XXDVG FVFVV FFAVD DAVAD",
+        "XAVGF VFVGX VGGAF VGDFX VAFVF XVDAG VA"
+      ],
+      "source_slots": 272,
+      "advertised_length": 272,
+      "expected_raw": "OKMYAUFBEFEHLDERREICHSLEITGYIST1EDERKAMPFZTVERMEIDENYEINGEHENAUFFRANZYFORDERUNGENNOTWENDIGYWEITEREBEFEHLEFOLGENYYOHLXAXX280GEHYOPJANGYYY",
+      "source_variants": [],
+      "separator_label": "Y",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 4,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "99ef74906d39f4a38342f0464f3f8ae52ee844ec1dc75e25e43c36221cffe8fb",
+    "ocr_snapshot.json": "8cb69745462cb7bdc0d98e3576ffa5dfeaeb045023bcffe1ca29de1fdc652d6b"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

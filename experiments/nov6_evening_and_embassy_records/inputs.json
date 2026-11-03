@@ -1,0 +1,268 @@
+{
+  "schema": "adfgvx-nov6-evening-and-embassy-records-input-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "keys": [
+    {
+      "id": "Nov4-6",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        7,
+        10,
+        8,
+        14,
+        3,
+        11,
+        16,
+        1,
+        6,
+        13,
+        4,
+        9,
+        15,
+        5,
+        12,
+        17,
+        2
+      ],
+      "column_count": 17,
+      "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "square_rows": [
+        "17WHFL",
+        "J5D2UP",
+        "EXKVZ9",
+        "O0Q3Y6",
+        "R8ABGI",
+        "TCMS4N"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "historical_book_scan",
+          "title": "General Solution of the ADFGVX Cipher System",
+          "author": "J. Rives Childs",
+          "printed_page": 240,
+          "pdf_page_1based": 243,
+          "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [
+        "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+      ],
+      "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  ],
+  "records": [
+    {
+      "id": "p143_A",
+      "printed_page": 143,
+      "source_section": "A",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "AXVVA DDDXX AFXFA DGDAF AFFGX VAGVX ----- -----",
+        "VVFVF FXXXF XVAXF FXFAX FDVVX FADDA VVAFV DXFDF",
+        "DXDAA AVGFA XFXAF DFGVX VVFXA DAGAX XAFXG FVXVF",
+        "VVXAD XFDXG VFFDD DDGFF DVFGV VVFFF DXVAD FFAGA",
+        "FVAFF DVAVA FXFFX FDFAX GDDFF XFA"
+      ],
+      "source_slots": 188,
+      "advertised_length": 188,
+      "expected_raw": "FUERX?KMXABEN?MELDUNGX?LPENZOR?SNORDWES?LXUJVID?KX217IXD?IMDONAUUEBERG?NGBEIXS?ANKAMENX?JVIDEK",
+      "readable_candidate": "FUERX?KMXABENDMELDUNGX?LPENZOR?SNORDWESTLXUJVID?KX217IXBEIMDONAUUEBERGANGBEIXS?ANKAMENX?JVIDEK",
+      "readable_german": "Fuer ?KM. Abendmeldung. ?LPENZOR?S nordwestl. UJVID?K. 217I beim Donauuebergang bei S?ANKAMEN, ?JVIDEK.",
+      "case_path": "cases/military/nov6_evening_danube_report.md",
+      "title": "Evening Danube report with unresolved unit and place labels",
+      "meaning": "The proposed ordinary-word reading is an evening report: the label ?LPENZOR?S is northwest of UJVID?K, and the literal unit-like field 217I is at a Danube crossing near the place sequence S?ANKAMEN / ?JVIDEK. These opaque labels and the six unknown positions remain visible. The punctuation is editorial and does not establish a particular route or exact formation.",
+      "reading_note": "Ten printed dashes remain ten coordinate slots. The primary proposal repairs only ABENDMELDUNG, NORDWESTL, BEIM and DONAUUEBERGANG through three observed-coordinate substitutions and four mask fills. It leaves the command, formation and geographical fields unresolved. In particular, 217I is not silently expanded or changed to a numbered division. The separate name proposal below costs one additional observed-coordinate substitution and five additional fills.",
+      "expected_costs": [
+        3,
+        4
+      ],
+      "optional_name_candidate": {
+        "plaintext": "FUERX?KMXABENDMELDUNGXALPENKORPSNORDWESTLXUJVIDEKX217IXBEIMDONAUUEBERGANGBEIXSLANKAMENXUJVIDEK",
+        "readable_german": "Fuer ?KM. Abendmeldung. Alpenkorps nordwestl. Ujvidek. 217I beim Donauuebergang bei Slankamen, Ujvidek.",
+        "total_costs": [
+          4,
+          9
+        ],
+        "added_costs_after_primary": [
+          1,
+          5
+        ],
+        "limit": "A lexical and internal-repeat proposal only. The two Ujvidek forms are mutually compatible with the raw UJVID?K and ?JVIDEK, but these names are not supplied by an independent copy of this message. ?KM and the literal 217I remain unresolved/unexpanded."
+      }
+    },
+    {
+      "id": "p147_B1",
+      "printed_page": 147,
+      "source_section": "B1",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "AXFXX AAAFV XXVFD GFADA VXGXA FAXGA GFAVX DAGXX",
+        "VVVGA FFDXD XAXXF GAAXX DAFAF FVXDA GFGDV VVFXG",
+        "XAXFV VXAGA XAXVA XDVFX DXXVD VFAFX XXFDV AVGDV"
+      ],
+      "source_slots": 120,
+      "advertised_length": 120,
+      "expected_raw": "ANDEUTSCHEBOTSCHAFTXKONSTANTINOPEIXXUNTERSCHRIFTXAUSWAERTIGX",
+      "readable_candidate": "ANDEUTSCHEBOTSCHAFTXKONSTANTINOPELXXUNTERSCHRIFTXAUSWAERTIGX",
+      "readable_german": "An deutsche Botschaft Konstantinopel. Unterschrift Auswaertig.",
+      "case_path": "cases/radio/nov6_embassy_foreign_signature.md",
+      "title": "German Embassy address and Auswaertig signature label",
+      "meaning": "The first of two announced parts gives an address to the German Embassy in Constantinople and an Unterschrift field reading Auswaertig. The proposal repairs the final city-name letter only. The next part and any substantive message body are not supplied here.",
+      "reading_note": "The native stream reads KONSTANTINOPEI. Changing source 116 V→A proposes KONSTANTINOPEL at a cost of one observed-coordinate substitution. All other words and the complete 120-slot frame remain unchanged. Auswaertig is not expanded by adding Amt.",
+      "expected_costs": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "p147_D1",
+      "printed_page": 147,
+      "source_section": "D1",
+      "key_id": "Nov4-6",
+      "source_rows": [
+        "AXADX DAXVA FAGXA VDAFD GAXXX GFDVA VDGAX DVXGX",
+        "XDVGX FFADG FDVAF GXFAD AXADA XDVDA XAAXF GDAAV",
+        "DVFVX AVAFX FFVVV XDXAG AFFGG AFAAX VFFVV FAFXJ",
+        "VXXGX GVDXD XGAXA FXVDD"
+      ],
+      "source_slots": 140,
+      "advertised_length": 140,
+      "expected_raw": "DEUTSCHEBO1SCHAFTXPERAXNRX1882X?UERMONSIGNOREXDOLCIXUNTERSCHRIVTXSTUMM",
+      "readable_candidate": "DEUTSCHEBOTSCHAFTXPERAXNRX1882XFUERMONSIGNOREXDOLCIXUNTERSCHRIFTXSTUMM",
+      "readable_german": "Deutsche Botschaft Pera. Nr. 1882. Fuer Monsignore Dolci. Unterschrift Stumm.",
+      "case_path": "cases/radio/nov6_embassy_dolci_address.md",
+      "title": "Pera embassy address for Monsignore Dolci, reference 1882",
+      "meaning": "The surviving first part gives the German Embassy at Pera, reference 1882, for the person named Monsignore Dolci, with a Stumm signature field. Neither name is identified beyond the literal text. The reading does not supply a second part or infer its substantive instructions.",
+      "reading_note": "The final glyph of the printed group FAFXJ at source 119 is J-like and outside the coordinate alphabet; that one position is masked. Filling it with V supplies the missing F in FUER. Three observed-coordinate substitutions separately repair BO1SCHAFT and UNTERSCHRIVT. The raw 1 inside BO1SCHAFT is not a numerical label silently relabeled: its change to T is paid for through actual source-coordinate substitutions. Reference1882 is untouched. The clear header time has an uncertain interior mark and is not normalized.",
+      "expected_costs": [
+        3,
+        1
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "path": "sources/p143_A.png",
+      "printed_page": 143,
+      "pdf_page_1based": 146,
+      "crop_pdf_points": [
+        43,
+        270,
+        520,
+        394
+      ],
+      "render_scale": 3,
+      "sha256": "8a9451b652472dc607e2fafa6b793a4bbacdfceb37ecba8521df8410be91c8a8"
+    },
+    {
+      "path": "sources/p147_B1.png",
+      "printed_page": 147,
+      "pdf_page_1based": 150,
+      "crop_pdf_points": [
+        50,
+        420,
+        525,
+        535
+      ],
+      "render_scale": 3,
+      "sha256": "e4a955b95a0961025258eb61a9bf98cc62820acf5894b1855b50c3ddf10d3600"
+    },
+    {
+      "path": "sources/p147_D1.png",
+      "printed_page": 147,
+      "pdf_page_1based": 150,
+      "crop_pdf_points": [
+        50,
+        661,
+        530,
+        798
+      ],
+      "render_scale": 3,
+      "sha256": "cdce12275f20692541be647781abacde33d228d737a4f94bc0840c826539024e"
+    },
+    {
+      "path": "sources/p147_D1_J.png",
+      "printed_page": 147,
+      "pdf_page_1based": 150,
+      "crop_pdf_points": [
+        470,
+        758,
+        518,
+        776
+      ],
+      "render_scale": 8,
+      "sha256": "d8596378fe18c70933be94989975fb1111b89a31a3230cb053ca2ba9fafe9e53"
+    }
+  ],
+  "headers": {
+    "p143_A": [
+      "Page heading: 6th NOVEMBER, 1918.",
+      "A) UKS v ZON (8.45 p.m., November 6th)",
+      "RICHI-188"
+    ],
+    "p147_B1": [
+      "Page heading: 6th NOVEMBER, 1918.",
+      "B) YZ v LP (08.13 a.m., November 7th)",
+      "FUER YZ 1440 (6/11) 2 TEILE",
+      "1 TL RICHI-120"
+    ],
+    "p147_D1": [
+      "Page heading: 6th NOVEMBER, 1918.",
+      "D) YZ v LP (08.26 a.m., November 7th)",
+      "FUER YZ 1[unclear]43 (6/11) 2 TEILE",
+      "1 TL RICHI-140"
+    ]
+  },
+  "literal_glyph_notes": [
+    "Ten printed dashes remain ten coordinate slots. The primary proposal repairs only ABENDMELDUNG, NORDWESTL, BEIM and DONAUUEBERGANG through three observed-coordinate substitutions and four mask fills. It leaves the command, formation and geographical fields unresolved. In particular, 217I is not silently expanded or changed to a numbered division. The separate name proposal below costs one additional observed-coordinate substitution and five additional fills.",
+    "The native stream reads KONSTANTINOPEI. Changing source 116 V→A proposes KONSTANTINOPEL at a cost of one observed-coordinate substitution. All other words and the complete 120-slot frame remain unchanged. Auswaertig is not expanded by adding Amt.",
+    "The final glyph of the printed group FAFXJ at source 119 is J-like and outside the coordinate alphabet; that one position is masked. Filling it with V supplies the missing F in FUER. Three observed-coordinate substitutions separately repair BO1SCHAFT and UNTERSCHRIVT. The raw 1 inside BO1SCHAFT is not a numerical label silently relabeled: its change to T is paid for through actual source-coordinate substitutions. Reference1882 is untouched. The clear header time has an uncertain interior mark and is not normalized."
+  ],
+  "prior_attribution_check": {
+    "path": "prior_candidates.json",
+    "sha256": "1c6bc8bd5244c6579125da458987ebf58a7dfd213dc9fd7731fbfd866fac61ce"
+  },
+  "verification_helper": {
+    "path": "experiments/premium_payment_stop/verify.py",
+    "sha256": "64fd30cb42f71c0e138560a9dc16e39007d0141c45e8e3c3fb62b84b3afb0f22"
+  },
+  "limits": [
+    "The p143 primary proposal keeps six unresolved plaintext positions. Its extra name proposal is separate and fully priced.",
+    "p147 B1 and D1 are the indicated first parts only; the two body continuations are not asserted.",
+    "No source length, published key or numerical label is changed without explicit source-coordinate accounting.",
+    "The three records have 6 November headings; the p147 interception headers say 7 November. These date layers are not merged."
+  ]
+}

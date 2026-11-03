@@ -13,6 +13,12 @@ The joint width-18 search produced a **new substantial partial reading of p153a/
 
 | Experiment | Scope | Calibration and limit |
 |---|---|---|
+| [October 30 oil and supply records](oct30_oil_and_supply_records/README.md) | 2 source records; 270 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
+| [November 6 evening and embassy records](nov6_evening_and_embassy_records/README.md) | 3 source records; 224 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
+| [A regimental journey report with unresolved route and unit labels](regimental_journey_report/README.md) | 2 source records; 233 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
+| [Reduced provisioning strength and a separate evening report](nov25_provisions_and_evening_report/README.md) | 3 source records; 315 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
+| [An instruction to avoid fighting, with further orders to follow](avoid_fighting_instruction/README.md) | 1 source records; 136 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
+| [A radio-traffic transfer in a surviving second part](radio_traffic_transfer_fragment/README.md) | 1 source records; 93 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
 | [November 6 resale and aerial reconnaissance](nov6_resale_and_air_reconnaissance/README.md) | 2 source records; 206 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
 | [Early radio and leave records](early_radio_and_leave_records/README.md) | 4 source records; 406 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |
 | [Odessa consular routing and a Magdeburg wagon-sale instruction](odessa_wagon_sale/README.md) | 2 source records; 245 modeled positions | Source-bound reading, explicit repairs and uncertainty; see the package for native, conditional or copy-based frame limits. |

@@ -11,10 +11,10 @@ Each case opens with the most useful readable text or the present limits of reco
 
 | Topic | Reviewed source records | Case pages |
 |---|---:|---:|
-| [Caucasus administration and procurement](caucasus/README.md) | 41 | 13 |
-| [Ships, cargo and naval orders](naval/README.md) | 38 | 13 |
-| [Armies, withdrawal and supplies](military/README.md) | 213 | 72 |
-| [Radio service, keys and message routing](radio/README.md) | 154 | 60 |
+| [Caucasus administration and procurement](caucasus/README.md) | 42 | 14 |
+| [Ships, cargo and naval orders](naval/README.md) | 39 | 14 |
+| [Armies, withdrawal and supplies](military/README.md) | 220 | 76 |
+| [Radio service, keys and message routing](radio/README.md) | 157 | 63 |
 | [Money, banking and purchases](finance/README.md) | 44 | 19 |
 | [People, appointments and civilian affairs](people/README.md) | 50 | 28 |
 
@@ -52,20 +52,20 @@ These retain all original challenge identifiers. Page numbers alone do not ident
 | [pp. 175–199](pages/175-199/README.md) | 6 | [p176a](p176a.md), [p176b](p176b.md), [p187](p187.md), [p187b](p187b.md), [p189](p189.md), [p198](p198.md) |
 | [pp. 200–224](pages/200-224/README.md) | 2 | [p215](p215.md), [p217](p217.md) |
 
-### Other ciphertexts — 540 reviewed records
+### Other ciphertexts — 552 reviewed records
 
 Multipart messages and repeated transmissions have separate source records even when they share a case page. Direct readings, source-supported reconstructions and conjectural repairs keep their stated limits in the detailed page tables.
 
 | Printed source pages | Reviewed records | Pages represented |
 |---|---:|---:|
 | [pp. 50–74](pages/050-074/README.md) | 40 | 17 |
-| [pp. 75–99](pages/075-099/README.md) | 57 | 25 |
+| [pp. 75–99](pages/075-099/README.md) | 59 | 25 |
 | [pp. 100–124](pages/100-124/README.md) | 80 | 25 |
-| [pp. 125–149](pages/125-149/README.md) | 65 | 24 |
+| [pp. 125–149](pages/125-149/README.md) | 68 | 25 |
 | [pp. 150–174](pages/150-174/README.md) | 95 | 25 |
 | [pp. 175–199](pages/175-199/README.md) | 78 | 23 |
-| [pp. 200–224](pages/200-224/README.md) | 101 | 24 |
-| [pp. 225–249](pages/225-249/README.md) | 24 | 6 |
+| [pp. 200–224](pages/200-224/README.md) | 104 | 24 |
+| [pp. 225–249](pages/225-249/README.md) | 28 | 6 |
 
 The catalogue covers source-reviewed records with published reading evidence; the wider OCR search pool contains additional unreviewed ciphertext candidates. Earlier authors retain their credits. Current source review and new research use **icekylinx and GPT-6 Astra Pro**; a review credit does not assert first-decipherment priority.
 <!-- READING-CATALOG:END -->

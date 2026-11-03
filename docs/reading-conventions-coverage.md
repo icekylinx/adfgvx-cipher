@@ -6,8 +6,8 @@ The [reading guide](reading-conventions.md) separates Raw output, Edited
 output, Readable German and Conditional interpretation. The
 [reviewed manifest](../data/reviews/reading_layer_manifest.json) lists every
 substantive case present in this presentation snapshot, with a classification
-and byte digest for every fenced or quoted display. It records **223 case
-pages, 987 fenced displays and 293 quoted displays**. These are display
+and byte digest for every fenced or quoted display. It records **232 case
+pages, 1013 fenced displays and 306 quoted displays**. These are display
 counts, not counts of physical telegrams, newly recovered plaintexts or
 independently authenticated readings. The checker excludes **48 explicit
 compatibility redirects and eight navigation README pages**.
@@ -16,8 +16,8 @@ compatibility redirects and eight navigation README pages**.
 
 | Fenced display role | Count |
 |---|---:|
-| Raw output under its stated key and frame | 462 |
-| Edited output under its stated repairs | 309 |
+| Raw output under its stated key and frame | 475 |
+| Edited output under its stated repairs | 322 |
 | Conditional interpretation | 9 |
 | Readable German with linked variables | 1 |
 | Earlier attributed reading | 27 |
@@ -28,7 +28,7 @@ compatibility redirects and eight navigation README pages**.
 | Geometry-alternative list | 1 |
 | Reproduction commands | 94 |
 
-The quoted displays comprise 288 Readable German passages, four separately
+The quoted displays comprise 301 Readable German passages, four separately
 labelled conditional interpretations and one English meaning. Their local
 qualifiers remain part of the manifest. A Readable German label does not
 cancel a stated conditional frame, editorial repair or historical

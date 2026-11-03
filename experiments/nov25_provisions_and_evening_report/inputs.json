@@ -1,0 +1,245 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "Reduced provisioning strength and a separate evening report",
+  "case": "cases/military/nov25_provisions_and_evening_report.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p219_reviewed.png",
+      "pdf_page_1based": 222,
+      "crop_pdf_points": [
+        65,
+        595,
+        525,
+        715
+      ],
+      "render_scale": 3,
+      "sha256": "b3cfbfd2a8252adf128da477ff1159496e5cd4b0afedbaa2321a709a9b902d83",
+      "width": 1380,
+      "height": 360,
+      "channels": 3,
+      "rgb_sha256": "9b37c5e8fe32233b8258761fb7e866758709d7c8cbe4ee90bb28ad1c64aff3c2"
+    },
+    {
+      "path": "sources/p220_reviewed.png",
+      "pdf_page_1based": 223,
+      "crop_pdf_points": [
+        80,
+        155,
+        520,
+        375
+      ],
+      "render_scale": 3,
+      "sha256": "502279db99f62fcb284222f1c6c7b1b4362c70f81e2391ffa4b4100c90db6b00",
+      "width": 1320,
+      "height": 660,
+      "channels": 3,
+      "rgb_sha256": "8d8689df26ac6d30c7830698cdd8ebae591342b27952c6bc5ec7b52210cd9516"
+    }
+  ],
+  "keys": {
+    "Nov25-28": {
+      "id": "Nov25-28",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        21,
+        9,
+        6,
+        14,
+        10,
+        20,
+        1,
+        16,
+        18,
+        7,
+        15,
+        4,
+        11,
+        22,
+        5,
+        17,
+        23,
+        2,
+        12,
+        8,
+        19,
+        3,
+        13
+      ],
+      "column_count": 23,
+      "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+      "square_rows": [
+        "HQ05DK",
+        "ZAOYM6",
+        "BEIWTJ",
+        "7PSCFL",
+        "V94132",
+        "NGURX8"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  },
+  "records": [
+    {
+      "id": "p219_D1",
+      "title": "First part: reduced provisioning strength and no further provisions",
+      "key_id": "Nov25-28",
+      "advertised_length": 166,
+      "header_literal": "D) UKS v ZÖN (10.11 p.m., November 25th); 1849 2 TLE; 1 TL RICHI-166",
+      "edited_output": "INFOLGEVERRINGERTERXVERPFLEGUNGSSTAERKEFUERJJXARMEEKEINEVERPFLEGUNGMEHRERFORDERLICH",
+      "readable_german": "Infolge verringerter Verpflegungsstaerke fuer JJ. Armee keine Verpflegung mehr erforderlich.",
+      "meaning": "The message states that reduced provisioning strength makes further provisions unnecessary for the army designated by the literal JJ label. It does not identify that army by converting J to a decimal digit.",
+      "notes": [
+        "All 166 observed coordinates are present, including the final printed VGGXA F omitted by the earlier 160-coordinate OCR block. Restoring those visible coordinates is a transcription correction, not a hypothetical lost-prefix or missing-slot fill.",
+        "The word proposals VERPFLEGNNG → VERPFLEGUNG, FEHR → MEHR and ERFOGDERLICH → ERFORDERLICH have explicit observed-coordinate costs. All raw garbles remain displayed.",
+        "JJ is retained literally. The edition supplies no army identity, headcount, or numerical key reassignment.",
+        "The printed continued marker, identical UKS/ZÖN routing, 10.11 p.m. interception, 1849 internal reference and 2 TLE count associate this first part with p220 A2. The source changes its section label from D to A across the page break."
+      ],
+      "protected_fields": [
+        "JJ"
+      ],
+      "printed_page": 219,
+      "source_section": "D1",
+      "source_rows": [
+        "DDFXF VXDVF FAXDG XVXAF XDFFX XXFVG XDFAA XAGDX",
+        "GXGXF DGDFV GFFFD GGFXD FDXAG GDGGD DFAFD XFFDX",
+        "XAGXF DXFGD VFDFA XVXGG GAXVX VADDF XDFDG GAXDX",
+        "FXVGG XDFXG XDFXV VGVFX AVGDF FGDDD AFDXA FDXDF",
+        "VGGXA F"
+      ],
+      "source_slots": 166,
+      "expected_raw": "INFOLGEVERRINGERTERXVERPFLEGUNGSSTAERKEFUERJJXARMEEKEINEVERPFLEGNNGFEHRERFOGDERLICH",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 3,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p220_A2",
+      "title": "Second part: stop further provisions and notify Dresden",
+      "key_id": "Nov25-28",
+      "advertised_length": 244,
+      "header_literal": "A) UKS v ZÖN (10.11 p.m., November 25th); 1849 2 TLE; 2 TL RICHI-244",
+      "edited_output": "BITTENACHSCHUBANVERPFLEGUNGSOFORTGANZEINSTELLENXGLEICHESTELEGRAMMGEHTANGENERALINTENDANTUNDPROVIANTDEPOTDRESDENXXVIERAXU203",
+      "readable_german": "Bitte Nachschub an Verpflegung sofort ganz einstellen. Gleiches Telegramm geht an Generalintendant und Proviantdepot Dresden. VIERA. U203.",
+      "meaning": "The continuation requests an immediate, complete halt to further provisions and states that the same telegram goes to the Generalintendant and the provisions depot at Dresden. It records a request and notification, without proving that deliveries actually stopped. The closing labels VIERA and U203 remain unexpanded.",
+      "notes": [
+        "The complete native 244-coordinate body matches its header. Two earlier OCR blocks split this one physical source part; neither block alone gives its full geometry.",
+        "SOFOR3 → SOFORT and GENENALINTENDANT → GENERALINTENDANT are separately priced ordinary-word proposals, with no global reinterpretation of the 3 label.",
+        "VIERA and U203 remain literal closing fields. They are not silently converted to an office, a personal name, a number or an expanded date.",
+        "The source explicitly marks this as part 2 and repeats the p219 D header. Its association with that first part is supported by printed metadata as well as the continued marker, not solely by similar meaning."
+      ],
+      "protected_fields": [
+        "VIERA",
+        "U203"
+      ],
+      "printed_page": 220,
+      "source_section": "A2",
+      "source_rows": [
+        "FDXDG DFVDF XAGGG DFXAD VGFDF VFAXV FAFFG FDDFV",
+        "XFGGD VAVDF FVFFX AXXXD VGDDV FXDDA XAFXF GVGFA",
+        "FGFFA XDXAG DFFXG FAXAX DXAFD XDDGF GVXVA AVGVV",
+        "XGDFV DAADD DFVFG ADFFF DVFAX AFDXA DAFDF AFDAV",
+        "XDFXX DDDAF GGFFA XDXDX FAGFF GXDXV VGXXX FAXDF",
+        "FVDAF DXDAF GVFAX DXDDV DVXDX VFGDA XVXVA DXDFD",
+        "GAGV"
+      ],
+      "source_slots": 244,
+      "expected_raw": "BITTENACHSCHUBANVERPFLEGUNGSOFOR3GANZEINSTELLENXGLEICHESTELEGRAMMGEHTANGENENALINTENDANTUNDPROVIANTDEPOTDRESDENXXVIERAXU203",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 2,
+      "expected_source_mask_fills": 0
+    },
+    {
+      "id": "p220_B",
+      "title": "Separate evening report with unresolved unit and place labels",
+      "key_id": "Nov25-28",
+      "advertised_length": 220,
+      "header_literal": "B) UKS v ZÖN (09.54 p.m., November 25th); HATTE MR 20[4-like]7; RICHI-220",
+      "edited_output": "ABENDMELDUNG13XJJ22ALPEXKX16X1ZUIGEXESHABENMITANFAENGENERREICHT1J0IDXTISHAFOELDVARXPRDXNAGQMAGOCS81J8XKONDOROS",
+      "readable_german": "Abendmeldung 13. JJ22 ALPE. K. 16. 1 ZUIGE. Es haben mit Anfaengen erreicht: 1J0ID, TISHAFOELDVAR. PRD, NAGQMAGOCS81J8. KONDOROS.",
+      "meaning": "The recoverable clause in this separate evening report states that leading elements had reached the following listed entries. The unit, time-like and place labels are preserved literally; this edition does not identify the units or normalize the garbled place spellings.",
+      "notes": [
+        "All 220 observed coordinates remain in their native order. The sole primary word proposal HABE7 → HABEN is priced as an observed-coordinate change, not as a free reading of a numeral.",
+        "13, JJ22ALPE, K, 16, 1ZUIGE, 1J0ID, TISHAFOELDVAR, PRD, NAGQMAGOCS81J8 and KONDOROS keep their exact labels. Word spacing in the opening is editorial and does not establish its syntax or reference values.",
+        "No unit number or geographical correction is supplied. In particular, TISHAFOELDVAR and NAGQMAGOCS are not silently respelled from familiar place names.",
+        "The HATTE MR heading contains a 4-like glyph rendered as [4-like] in the metadata. This is a header transcription qualification and does not add a source-ciphertext erasure or a decoded position.",
+        "B has its own source label and reception time. It is not counted as a third part of the two-part provisioning message above."
+      ],
+      "protected_fields": [
+        "JJ22",
+        "1J0ID",
+        "TISHAFOELDVAR",
+        "PRD",
+        "NAGQMAGOCS81J8",
+        "KONDOROS"
+      ],
+      "printed_page": 220,
+      "source_section": "B",
+      "source_rows": [
+        "XVVFD GADGF VGFDA FXXXA FDFGX ADXVV VFAVV XXGGX",
+        "DDFXF AFFGA VXDFG XAVFX DDFDA FDFGF FDAVA VDVVX",
+        "DFVXD XFVXD GFGVD VFXVA XGDVV FXXFV FFADX XDFVX",
+        "VDVDA VXFAF FXDAD XXDXV GVXFA FGADA AXGXX DAGDA",
+        "DDXAX DAFAD GGGXD XFXVV DADXV GVGFG FDDDX DDGFD",
+        "DFDVG FDFFX GADXA XFGDX"
+      ],
+      "source_slots": 220,
+      "expected_raw": "ABENDMELDUNG13XJJ22ALPEXKX16X1ZUIGEXESHABE7MITANFAENGENERREICHT1J0IDXTISHAFOELDVARXPRDXNAGQMAGOCS81J8XKONDOROS",
+      "source_variants": [],
+      "separator_label": "X",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 1,
+      "expected_source_mask_fills": 0
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "2d60e7563fd573ffddb55de7cfa9e3b06706ebc70861365c6e854bfd9ab9ae69",
+    "ocr_snapshot.json": "2a3b90fe97638477fe46e4cf7010ddaed2ff435cba8e5cb40625718419e3e644"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

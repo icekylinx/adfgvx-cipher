@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 175–199](../175-199/README.md) · [pp. 225–249 →](../225-249/README.md)
 
-**2 challenge entries and 101 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**2 challenge entries and 104 other reviewed source records across 25 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p200](#p200) · [p201](#p201) · [p202](#p202) · [p203](#p203) · [p204](#p204) · [p205](#p205) · [p206](#p206) · [p207](#p207) · [p208](#p208) · [p209](#p209) · [p210](#p210) · [p211](#p211) · [p212](#p212) · [p213](#p213) · [p214](#p214) · [p215](#p215) · [p216](#p216) · [p217](#p217) · [p218](#p218) · [p219](#p219) · [p220](#p220) · [p221](#p221) · [p222](#p222) · [p223](#p223) · [p224](#p224).
 
@@ -237,6 +237,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | [p219 A1](../../finance/crown_cash_requests.md) | Crown funds for Arad following agreement with the German military mission at Budapest | 167/167 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
 | [p219 A2](../../finance/crown_cash_requests.md) | Inquiry whether an advance can be drawn from the field war cash office | 115/115 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
 | [p219 B](../../finance/crown_cash_requests.md) | Crown remittances partly sent; severe banknote shortage reported | 177/177 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
+| [p219 D1](../../military/nov25_provisions_and_evening_report.md#p219-d1) | First part: reduced provisioning strength and no further provisions | Native 166-slot frame; 3 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p220
 
@@ -244,6 +245,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p220 A2](../../military/nov25_provisions_and_evening_report.md#p220-a2) | Second part: stop further provisions and notify Dresden | Native 244-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p220 B](../../military/nov25_provisions_and_evening_report.md#p220-b) | Separate evening report with unresolved unit and place labels | Native 220-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p220 C1](../../military/mackensen_armistice_appeal.md#p220-c1-berthelots-notification) | Berthelot notification of Foch's armistice position | Prior identified body; source-exact German edition with separately costed word repairs | Childs; Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro (2026) |
 | [p220 C2](../../military/mackensen_armistice_appeal.md#p220-c2-southeastern-front-and-pending-decision) | Southeastern front disarmament and internment demand | Prior identified body; source-exact German edition with separately costed word repairs | Childs; Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro (2026) |
 | [p220 C3](../../military/mackensen_armistice_appeal.md#p220-c3-limited-acknowledgment-and-conditional-proposal) | Limited acknowledgment pending OHL's decision | Prior identified body; source-exact German edition with separately costed word repairs | Childs; Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro (2026) |

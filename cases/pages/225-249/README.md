@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 200–224](../200-224/README.md)
 
-**0 challenge entries and 24 other reviewed source records across 6 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
+**0 challenge entries and 28 other reviewed source records across 6 printed pages.** The counts include multipart segments and repeated copies; they do not count first decipherments.
 
 Jump to page: [p225](#p225) · [p226](#p226) · [p227](#p227) · [p228](#p228) · [p229](#p229) · [p230](#p230).
 
@@ -17,6 +17,8 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p225 A](../../radio/late_november_cipher_instructions.md) | November key material retained because December tables are absent | 110/116 raw positions | icekylinx and GPT-6 Astra Pro (2026) |
+| [p225 B1](../../military/regimental_journey_report.md#p225-b1) | Regimental transport fields and minor interruptions, first part | Native 254-slot frame; 8 observed-coordinate substitutions and 4 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p225 B2](../../military/regimental_journey_report.md#p225-b2) | Journey via literal route labels and arrival with assistance | Native 212-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p226
 
@@ -24,6 +26,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p226 A2](../../radio/radio_traffic_transfer_fragment.md#p226-a2) | Second-part report of a radio-traffic transfer | Native 186-slot frame; 1 observed-coordinate substitution and 3 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p226 B2](../../radio/late_november_cipher_instructions.md) | Numerical sequences read backward; missing first part | 104/104 raw positions; separately costed word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p226 C1](../../military/mackensen_internment.md) | Mackensen internment: Entente demands and withdrawal assurances | 172/172 raw positions; separately costed word repairs | Prior body: Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro (2026) |
 | [p226 C2](../../military/mackensen_internment.md) | Internment explained as a response to continued marching orders | 162/162 raw positions; separately costed word repairs | Prior body: Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro (2026) |
@@ -37,6 +40,7 @@ Source pages without a reviewed catalogue record are omitted. Each row preserves
 |---|---|---|---|
 | [p227 A4](../../military/mackensen_internment.md) | Preserve calm and order during Mackensen internment | 196/196 raw positions; separately costed word repairs | Prior body: Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro (2026) |
 | [p227 B](../../radio/late_november_cipher_instructions.md) | Send telegrams for the army and subordinate formations directly | 76/76 raw positions; separately costed word repairs | icekylinx and GPT-6 Astra Pro (2026) |
+| [p227 D](../../military/avoid_fighting_instruction.md#p227-d) | An order to avoid fighting, with further instructions to follow | Native 272-slot frame; 4 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p228
 

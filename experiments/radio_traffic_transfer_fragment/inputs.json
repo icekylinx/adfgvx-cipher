@@ -1,0 +1,147 @@
+{
+  "schema": "adfgvx-native-source-edition-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "title": "A radio-traffic transfer in a surviving second part",
+  "case": "cases/radio/radio_traffic_transfer_fragment.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p226_reviewed.png",
+      "pdf_page_1based": 229,
+      "crop_pdf_points": [
+        75,
+        150,
+        525,
+        252
+      ],
+      "render_scale": 3,
+      "sha256": "2fdcb010d835a0a30e1f4241cb788928c6424b9edf5a1afe9c5537e4454c041c",
+      "width": 1350,
+      "height": 306,
+      "channels": 3,
+      "rgb_sha256": "7efa91045a39783e2edc310e069675b900409079efdb39295bf51260485ca2b5"
+    }
+  ],
+  "keys": {
+    "Nov28-Dec1": {
+      "id": "Nov28-Dec1",
+      "coordinate_order": "ADFGVX",
+      "column_rank_order": [
+        9,
+        3,
+        14,
+        10,
+        2,
+        8,
+        15,
+        4,
+        16,
+        11,
+        5,
+        13,
+        6,
+        12,
+        1,
+        7
+      ],
+      "column_count": 16,
+      "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "square_rows": [
+        "782GPY",
+        "5OQHF9",
+        "1UDNI3",
+        "64TLVX",
+        "EAR0JZ",
+        "BKMCSW"
+      ],
+      "known_cell_count": 36,
+      "missing_plaintext_symbols": "",
+      "provenance": [
+        {
+          "type": "published_solver_key",
+          "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+          "comment": 4,
+          "author": "George Lasry",
+          "date": "2017-02-24"
+        },
+        {
+          "type": "author_uploaded_research_paper",
+          "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+          "authors": [
+            "George Lasry",
+            "Ingo Niebel",
+            "Nils Kopal",
+            "Arno Wacker"
+          ],
+          "doi": "10.1080/01611194.2016.1169461",
+          "table": 2,
+          "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+          "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+        }
+      ],
+      "notes": [],
+      "baseline_square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "baseline_differences": [],
+      "category": "published_period_or_CHI_key"
+    }
+  },
+  "records": [
+    {
+      "id": "p226_A2",
+      "title": "Second-part report of a radio-traffic transfer",
+      "key_id": "Nov28-Dec1",
+      "header_literal": "A) BSL v UKS (10.27 p.m., November 30th); 1700 (11/29); (1st Tl Missing); 2 TL RICHI-186",
+      "edited_output": "?DEZGROSSW0RDEINYYDNZWUEBERNIMMTVERKEHRFUEROKMSCHWEREX9RUFZYNATANADOLFURSULAYINGROSSVARDEINYY",
+      "readable_german": "?DEZ GROSSW0RDEIN. DNZW uebernimmt Verkehr fuer OKM SCHWEREX9 RUFZ: Natan Adolf Ursula in GROSSVARDEIN.",
+      "meaning": "The surviving second part states that DNZW takes over communications traffic for OKM, followed by the literal field SCHWEREX9 and RUFZ, then the proposed spoken-name sequence Natan Adolf Ursula and a place-like label. RUFZ may abbreviate Rufzeichen, or call sign. The missing first part and the exact identity of DNZW, the station and the location are not reconstructed.",
+      "protected_fields": [
+        "?DEZ",
+        "GROSSW0RDEIN",
+        "DNZW",
+        "SCHWEREX9"
+      ],
+      "notes": [
+        "The source explicitly says the first part is missing. This is an edition of the complete native 186-slot second part, not a reconstruction of the missing first part.",
+        "Four printed dashes remain occupied source positions. Three are filled in the proposals UR?UL? to URSULA and GRO?SVARDEIN to GROSSVARDEIN. The initial ? is retained with domain {1, 3, D, I, N, U}.",
+        "The only observed-coordinate word change is VERKAHR to VERKEHR. Natan Adolf Ursula is an explicit source-mask completion proposal, not an independently identified person or station.",
+        "GROSSW0RDEIN keeps the numeral 0 and W in the first place-like field; GROSSVARDEIN keeps V in the second. Neither field is silently normalized to a modern or historical place name.",
+        "The initial ?DEZ is not assigned a particular December date. The interception header and separate 11/29 originating line do not select that character.",
+        "Y is the separator label. X and 9 inside SCHWEREX9 remain literal; DNZW and RUFZ are not expanded in the exact readable quotation."
+      ],
+      "printed_page": 226,
+      "source_section": "A2",
+      "source_rows": [
+        "XFVGD XVVVA FVVFV VVVVF G-F-V XAVDG DG-FA XFGGD",
+        "DFXDD VXVVX XDXGV DFVDF FXVXD GFFVV GAFVG FDFGF",
+        "AGFFF FAXFG VGFXA XGFDF FXVVF XXAAA XVDDD VGFXV",
+        "DDAGG XVXDV DFFVX FDGFF AXFGF XDVVD FXAVV VXDVF",
+        "DFVVF FXDVA D-XAA FVFVX VFGAG A"
+      ],
+      "source_slots": 186,
+      "advertised_length": 186,
+      "expected_raw": "?DEZGROSSW0RDEINYYDNZWUEBERNIMMTVERKAHRFUEROKMSCHWEREX9RUFZYNATANADOLFUR?UL?YINGRO?SVARDEINYY",
+      "source_variants": [],
+      "separator_label": "Y",
+      "question_mark_punctuation_at_end": false,
+      "expected_substitutions": 1,
+      "expected_source_mask_fills": 3
+    }
+  ],
+  "prior_artifacts": {
+    "prior_candidates.json": "4be00284b2516baa47de446be3d8dc3d22def9fa839be2941f1e1f8afcc93028",
+    "ocr_snapshot.json": "1acd50a10a1638dafb2c6d3abeed8d648685973bd46d64f23c7b7ead55d4b6f1"
+  },
+  "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
+  "limits": [
+    "All native source slots remain in printed order; no insertion, deletion or reordering.",
+    "Unknown square cells remain globally coupled and injective. Roundtrip completion witnesses are explicitly nonhistorical.",
+    "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
+  ]
+}

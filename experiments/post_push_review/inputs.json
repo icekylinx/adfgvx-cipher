@@ -9,7 +9,7 @@
   "review_finished_utc": null,
   "initial_public_head": "c4c2562f41dd4624f7202962db68ef9e746f50f2",
   "start_catalog_sha256": "50784e7b1a7a51a8e4224a088cdaec21a6c6f25285d869b5049110a667630e75",
-  "final_catalog_sha256": "cf8fecee6306554e5fd7394bb2bdda25a99331dc220b23c765d2f79f019f0189",
+  "final_catalog_sha256": "741f210f76c044abec9cb971a2e3203f62f9d6aa82d11201ffb70de856fc1dba",
   "source_pdf": {
     "sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
     "bytes": 156848258,
@@ -3487,6 +3487,199 @@
         "source_reorderings": 0,
         "published_key_changed": false
       }
+    },
+    {
+      "name": "oct30_oil_and_supply_records",
+      "record_ids": [
+        "p83_A",
+        "p85_A1"
+      ],
+      "case_pages": [
+        "cases/caucasus/sevastopol_supply_dispatch.md",
+        "cases/naval/gerlach_oil_release_query.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 540,
+        "modeled_plaintext_positions": 270,
+        "fixed_raw_label_positions_under_stated_geometry": 270,
+        "known_coordinate_substitutions": 0
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 540,
+        "valid_source_coordinates": 540,
+        "modeled_coordinates": 540,
+        "plaintext_positions": 270,
+        "baseline_fixed_positions": 270,
+        "candidate_fixed_positions": 270,
+        "known_coordinate_substitutions": 0,
+        "source_mask_fills": 0,
+        "unfilled_source_mask_coordinates": 0,
+        "frame_changes": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov6_evening_and_embassy_records",
+      "record_ids": [
+        "p143_A",
+        "p147_B1",
+        "p147_D1"
+      ],
+      "case_pages": [
+        "cases/military/nov6_evening_danube_report.md",
+        "cases/radio/nov6_embassy_dolci_address.md",
+        "cases/radio/nov6_embassy_foreign_signature.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 448,
+        "modeled_plaintext_positions": 224,
+        "fixed_raw_label_positions_under_stated_geometry": 213,
+        "known_coordinate_substitutions": 7
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 448,
+        "valid_source_coordinates": 437,
+        "modeled_coordinates": 448,
+        "plaintext_positions": 224,
+        "baseline_fixed_positions": 213,
+        "candidate_fixed_positions": 218,
+        "known_coordinate_substitutions": 7,
+        "source_mask_fills": 5,
+        "unfilled_source_mask_coordinates": 6,
+        "frame_changes": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "regimental_journey_report",
+      "record_ids": [
+        "p225_B1",
+        "p225_B2"
+      ],
+      "case_pages": [
+        "cases/military/regimental_journey_report.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 2,
+        "source_slots": 466,
+        "modeled_plaintext_positions": 233,
+        "fixed_raw_label_positions_under_stated_geometry": 228,
+        "known_coordinate_substitutions": 10
+      },
+      "original_summary": {
+        "physical_records": 2,
+        "printed_source_slots": 466,
+        "valid_source_coordinates": 461,
+        "modeled_coordinates": 466,
+        "plaintext_positions": 233,
+        "baseline_fixed_positions": 228,
+        "candidate_fixed_positions": 232,
+        "known_coordinate_substitutions": 10,
+        "source_or_model_erasure_fills": 4,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "nov25_provisions_and_evening_report",
+      "record_ids": [
+        "p219_D1",
+        "p220_A2",
+        "p220_B"
+      ],
+      "case_pages": [
+        "cases/military/nov25_provisions_and_evening_report.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 3,
+        "source_slots": 630,
+        "modeled_plaintext_positions": 315,
+        "fixed_raw_label_positions_under_stated_geometry": 315,
+        "known_coordinate_substitutions": 6
+      },
+      "original_summary": {
+        "physical_records": 3,
+        "printed_source_slots": 630,
+        "valid_source_coordinates": 630,
+        "modeled_coordinates": 630,
+        "plaintext_positions": 315,
+        "baseline_fixed_positions": 315,
+        "candidate_fixed_positions": 315,
+        "known_coordinate_substitutions": 6,
+        "source_or_model_erasure_fills": 0,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "avoid_fighting_instruction",
+      "record_ids": [
+        "p227_D"
+      ],
+      "case_pages": [
+        "cases/military/avoid_fighting_instruction.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 272,
+        "modeled_plaintext_positions": 136,
+        "fixed_raw_label_positions_under_stated_geometry": 136,
+        "known_coordinate_substitutions": 4
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 272,
+        "valid_source_coordinates": 272,
+        "modeled_coordinates": 272,
+        "plaintext_positions": 136,
+        "baseline_fixed_positions": 136,
+        "candidate_fixed_positions": 136,
+        "known_coordinate_substitutions": 4,
+        "source_or_model_erasure_fills": 0,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
+    },
+    {
+      "name": "radio_traffic_transfer_fragment",
+      "record_ids": [
+        "p226_A2"
+      ],
+      "case_pages": [
+        "cases/radio/radio_traffic_transfer_fragment.md"
+      ],
+      "normalized_counts": {
+        "physical_records": 1,
+        "source_slots": 186,
+        "modeled_plaintext_positions": 93,
+        "fixed_raw_label_positions_under_stated_geometry": 89,
+        "known_coordinate_substitutions": 1
+      },
+      "original_summary": {
+        "physical_records": 1,
+        "printed_source_slots": 186,
+        "valid_source_coordinates": 182,
+        "modeled_coordinates": 186,
+        "plaintext_positions": 93,
+        "baseline_fixed_positions": 89,
+        "candidate_fixed_positions": 92,
+        "known_coordinate_substitutions": 1,
+        "source_or_model_erasure_fills": 3,
+        "source_deletions": 0,
+        "inserted_slots": 0,
+        "source_reorderings": 0,
+        "published_key_changed": false
+      }
     }
   ],
   "additional_packages": [
@@ -4567,6 +4760,60 @@
     "experiments/okm_radio_route/prior_candidates.json": "450812ef79dba17693c2899874a3a423dd0857f4eea2b71b82cc96a6a9c4017b",
     "experiments/okm_radio_route/sources/p180_reviewed.png": "14b7cae357d367d379b0bb51ea53788d406315f4b48d4fe0e15fa1bacc24fd35",
     "experiments/okm_radio_route/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
+    "experiments/oct30_oil_and_supply_records/README.md": "eae3f8fef17c6a586cd64930b5e3f473c29e0e9ebdb4503110504ad21364bda3",
+    "experiments/oct30_oil_and_supply_records/catalog_proposal.json": "2cadbc2c645c4a76883ec52ac22c2fefb5cbef0cde8a4713adac691bd6a1e6b1",
+    "experiments/oct30_oil_and_supply_records/certificates.json": "085791f8911cb38ba235123ef2bd8dc18e444eadc72056a8d08b749dde21375d",
+    "experiments/oct30_oil_and_supply_records/inputs.json": "6e98c7ba879871b439e513f352a3024930cf7b08c7706d475874852a6ee35fc6",
+    "experiments/oct30_oil_and_supply_records/prior_candidates.json": "93165a2c3e2613c606266a4c87bdb5a8e3970d00bb4136c3baeddee4322d7332",
+    "experiments/oct30_oil_and_supply_records/sources/p83_A.png": "67af0b4831827241effaece8e324d30be6a88d63cd96fcd5caf24a270e11c191",
+    "experiments/oct30_oil_and_supply_records/sources/p83_A_overprints.png": "215096eefc0352acd59392e2b02bf4cb2ca65cefb11fb3b5475cf8c9bf968ce8",
+    "experiments/oct30_oil_and_supply_records/sources/p84_A_witness.png": "a63bd059d89665c96cf1623b772043c3cd59a866479415eebbddc03ade74e1b2",
+    "experiments/oct30_oil_and_supply_records/sources/p85_A1.png": "51e24923a1159711e53bced22d67c31ec3a4095811f207809364c33742a5f1f9",
+    "experiments/oct30_oil_and_supply_records/sources/p85_A1_GDGAA.png": "53946e759eb96c5c73ea63bb6f7229dd0422b64938c8c02b38f5814c0133de11",
+    "experiments/oct30_oil_and_supply_records/verify.py": "1426b5ea77d18775b92ebdd705c007c90cf7b4d1573e6c831b453e638a667cbd",
+    "experiments/nov6_evening_and_embassy_records/README.md": "842251db9c11a262251c783507abfa3e7e5e9917c2dda80975acfe07fbc64adc",
+    "experiments/nov6_evening_and_embassy_records/catalog_proposal.json": "9f8cde059347ef9a857b088ec7cae36a20df86a0260619cb7c782821791c4a5f",
+    "experiments/nov6_evening_and_embassy_records/certificates.json": "ef238b49ed5d657be0cd1fe95754e6ac38bb0d70216c4db8ad002b28f358aaad",
+    "experiments/nov6_evening_and_embassy_records/inputs.json": "2b7264d35ebdc8bad2b27d46cb1faaf00fa8407e60cdd6886f3b298f8b20b8b1",
+    "experiments/nov6_evening_and_embassy_records/prior_candidates.json": "1c6bc8bd5244c6579125da458987ebf58a7dfd213dc9fd7731fbfd866fac61ce",
+    "experiments/nov6_evening_and_embassy_records/sources/p143_A.png": "8a9451b652472dc607e2fafa6b793a4bbacdfceb37ecba8521df8410be91c8a8",
+    "experiments/nov6_evening_and_embassy_records/sources/p147_B1.png": "e4a955b95a0961025258eb61a9bf98cc62820acf5894b1855b50c3ddf10d3600",
+    "experiments/nov6_evening_and_embassy_records/sources/p147_D1.png": "cdce12275f20692541be647781abacde33d228d737a4f94bc0840c826539024e",
+    "experiments/nov6_evening_and_embassy_records/sources/p147_D1_J.png": "d8596378fe18c70933be94989975fb1111b89a31a3230cb053ca2ba9fafe9e53",
+    "experiments/nov6_evening_and_embassy_records/verify.py": "1e1d154cd981d95be8e203e3a7b76e5d982afee5741f658ce789e2980dc8d46c",
+    "experiments/regimental_journey_report/README.md": "1e0813ad20b461a4ba4c7bbcdfb56f1f6d409f875903d51c1b07b59ce3471a04",
+    "experiments/regimental_journey_report/catalog_proposal.json": "3e48de22322c717784c8878c4e72cc46cd841b1afb704887d1aace390333a180",
+    "experiments/regimental_journey_report/certificates.json": "62d3ba4de5bb20498195e3bc15fc360a2528f66347b0314cc976429e83670f88",
+    "experiments/regimental_journey_report/inputs.json": "f890e0505479a0289000c0201816bc59b67c2eef99a3de1c176ca7bcb5264a7f",
+    "experiments/regimental_journey_report/ocr_snapshot.json": "4448214ab979c2c2f9e432ee5718270802230c3770a8088245771d1790575866",
+    "experiments/regimental_journey_report/prior_candidates.json": "ff02c69003b9480c3b8448daae36efc85bf6cd6d7ba444c6ad662e3f43a0ec85",
+    "experiments/regimental_journey_report/sources/p225_reviewed.png": "3ee922ada42f301137a42f1229826203c2b28348a746c61617ecd7e6971ea033",
+    "experiments/regimental_journey_report/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
+    "experiments/nov25_provisions_and_evening_report/README.md": "2ed7902bd64bb531f9c4a891f4c186bb9551674ca6c05d694e908013b9f6b1fc",
+    "experiments/nov25_provisions_and_evening_report/catalog_proposal.json": "7ddf2f609042b3e326fc5592ce68f53b481bd14e0dbe5a975ffc3d9859a8d557",
+    "experiments/nov25_provisions_and_evening_report/certificates.json": "c3161fbb398ce0c64031dd5a33b43e0bee32fc9da30a664bb2a976afd66ca0de",
+    "experiments/nov25_provisions_and_evening_report/inputs.json": "75e81aa68766efd08f5a5eff96a9f8d9b3a2c9fb3598db474bb066380ba13232",
+    "experiments/nov25_provisions_and_evening_report/ocr_snapshot.json": "2a3b90fe97638477fe46e4cf7010ddaed2ff435cba8e5cb40625718419e3e644",
+    "experiments/nov25_provisions_and_evening_report/prior_candidates.json": "2d60e7563fd573ffddb55de7cfa9e3b06706ebc70861365c6e854bfd9ab9ae69",
+    "experiments/nov25_provisions_and_evening_report/sources/p219_reviewed.png": "b3cfbfd2a8252adf128da477ff1159496e5cd4b0afedbaa2321a709a9b902d83",
+    "experiments/nov25_provisions_and_evening_report/sources/p220_reviewed.png": "502279db99f62fcb284222f1c6c7b1b4362c70f81e2391ffa4b4100c90db6b00",
+    "experiments/nov25_provisions_and_evening_report/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
+    "experiments/avoid_fighting_instruction/README.md": "262ffa0d25f5b102c2a9338a6dc6bd73efbe11345d79069b1438a310603650ac",
+    "experiments/avoid_fighting_instruction/catalog_proposal.json": "5f0959ca6dbc4fcb06bfa83f0fce5f4a0132dc7b51fb2b2d4c0d5f15b17e4e8f",
+    "experiments/avoid_fighting_instruction/certificates.json": "3d44aff3d22536fc15a3219796cc754fc9bb6dd0ba0200f6d8c5cbfa4b97d8e3",
+    "experiments/avoid_fighting_instruction/inputs.json": "3e898c7880e862b17871d7341f4efc135e364344b843bf213bd413636b03beae",
+    "experiments/avoid_fighting_instruction/ocr_snapshot.json": "8cb69745462cb7bdc0d98e3576ffa5dfeaeb045023bcffe1ca29de1fdc652d6b",
+    "experiments/avoid_fighting_instruction/prior_candidates.json": "99ef74906d39f4a38342f0464f3f8ae52ee844ec1dc75e25e43c36221cffe8fb",
+    "experiments/avoid_fighting_instruction/sources/p227_reviewed.png": "7895de0cee908d4a315b13beff5c191dd35427c357dfa905fff1dbc57f3d9d47",
+    "experiments/avoid_fighting_instruction/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
+    "experiments/radio_traffic_transfer_fragment/README.md": "aaf648bd9a8905bd9232a21c3896f00c915dea1458114caa35c128b2cb6aa2dc",
+    "experiments/radio_traffic_transfer_fragment/catalog_proposal.json": "321688c78f2db3df0f9f05fbc82b688cf281b8460c7c1cedde02500a43e9dacb",
+    "experiments/radio_traffic_transfer_fragment/certificates.json": "dc8d2a452c311cc4d60830708a865f5367375aa68e83b4d19178c2088dbc8cfd",
+    "experiments/radio_traffic_transfer_fragment/inputs.json": "8fddaf17b09eab1c1bd3d055f57061b0519cf1a9db33891ad991741d38874064",
+    "experiments/radio_traffic_transfer_fragment/ocr_snapshot.json": "1acd50a10a1638dafb2c6d3abeed8d648685973bd46d64f23c7b7ead55d4b6f1",
+    "experiments/radio_traffic_transfer_fragment/prior_candidates.json": "4be00284b2516baa47de446be3d8dc3d22def9fa839be2941f1e1f8afcc93028",
+    "experiments/radio_traffic_transfer_fragment/sources/p226_reviewed.png": "2fdcb010d835a0a30e1f4241cb788928c6424b9edf5a1afe9c5537e4454c041c",
+    "experiments/radio_traffic_transfer_fragment/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
     "experiments/nov25_letter_constraint/README.md": "8e1aa1cf031ba53689225360364b474eeb5d99f7092b359e662fdd86986d49fd",
     "experiments/nov25_letter_constraint/certificates.json": "0df1738a5ee501554b6a529c9889de758e3303ecccb90c3c502c0edfc051a189",
     "experiments/nov25_letter_constraint/inputs.json": "0d862877f6c5fc2b023f33893274e0959258621aee9d007c5e8f3b2edc32ef83",
@@ -4786,7 +5033,7 @@
     "cases/military/tiraspol_border_report.md": "5b842bbe411dbca2a2b8cb8e523bf5d984c0e71560d45798525019dc03291583",
     "cases/people/constantinople_embassy_signature.md": "88708c2001f85bd11e0e6629eea9db6a7afee1784716f1d85f7b2662ee60c13c",
     "cases/radio/map_sheet_request.md": "03d48c54feca1d8f6a31ec9aaab8b86e43d672fdf0e489bfa616f951181f5c08",
-    "cases/military/nov7_fragment_and_acknowledgment.md": "8909717aaffdd98786aaac5f34cff909dab059aec7b3cbfb7b46cfd11f7d7aee",
+    "cases/military/nov7_fragment_and_acknowledgment.md": "c4d9dd1382cd27032eb628a51a81ee6ec5f9757129dc7502738afdbcf42ff2b2",
     "cases/military/soldiers_council_surrender.md": "55ff8fcc1c62388f7597821ed70b93cd9ea646a75dfe397b3db881f049378e50",
     "cases/people/constantinople_urgent_address.md": "e775551ceccc7da180ab0748dd1c86666b1b7e8dbbead39ed27ecf8e2593689e",
     "cases/military/romanian_pacification_consultation.md": "89d6d8a4788b1b9c6fa23d41bad334e1af629be0cc94af2abc848e0e5c1ddf51",
@@ -4827,8 +5074,17 @@
     "cases/context/benzol_pump_query.md": "e4b87b0be61eba8fd0ff9a95eb6c5de22a4e43c8ddee058d38601dcebcf7cf60",
     "cases/military/airfield_german_troop_fragment.md": "8ee7548e4b3473879614f61e924236b49be22824e947dd2198168c2b24acd444",
     "cases/radio/okm_radio_route.md": "9c6568116270485d5537b2296ceb8767ce455bed4c0fbd61fa4e40035f50b01f",
+    "cases/caucasus/sevastopol_supply_dispatch.md": "ce8bc99f5e44729c5fd8e3aec53e2a338ac7ad7217c30a4c994a09bcb12c5ff8",
+    "cases/naval/gerlach_oil_release_query.md": "469e1bf593b7813ac0d2b9854a884a18018f3fddc2adb3440ce0e8f484e08c67",
+    "cases/military/nov6_evening_danube_report.md": "e107961c2b42e48209b77fd3e442f367498b22ece0a7e92e3aeae19cdd5f467b",
+    "cases/radio/nov6_embassy_dolci_address.md": "2b9479f21b89b6c4404dac39e1ac7b5d9d880a789b187e37089899df459a4021",
+    "cases/radio/nov6_embassy_foreign_signature.md": "486dc2b004fe0709641d6ab17669f5a4351396f3b35b6e3e6415bf57abd05c45",
+    "cases/military/regimental_journey_report.md": "a5244c5f4c190b62639f4be36ccf81229508963657a613980750cf91ef1d6a89",
+    "cases/military/nov25_provisions_and_evening_report.md": "04892280e2f759a1115e4fe5fee68f8b7fac7ebb79a05fa2e385c7e4863607b5",
+    "cases/military/avoid_fighting_instruction.md": "5f7b8bfe94917b58932e87ac3fe2ccc792a0c7c0013d3a134d7dc77775837d1b",
+    "cases/radio/radio_traffic_transfer_fragment.md": "4f57ad2d063af5034b77f14f4ebbb4a3593cad8bf1f35cd37a67b33d24507abf",
     "data/reviews/caption_cleanup_20261103.json": "dd67043a85033f64a9ab5bcc45c59dc105772e4da333e5562ceb68c1d7683316",
-    "data/reviews/live_readable_mappings_20261103.json": "874c6238282e8da96b2495e86365d59537731e93f723366a949e770d7584ed34",
+    "data/reviews/live_readable_mappings_20261103.json": "fde8c25353b29b6702b6ebf2ccc2ee60bcedfacc8e2573c3b8e203c8d40331bb",
     "data/reviews/verify_live_readable_mappings.py": "10ca3017ed764f37a802bc6aa4abc19a9978eb8a5e5d8247f1b49e715c620f5f",
     "data/reviews/reading_conventions_followup_before.json": "634136e43b27bac376ab2128e48188bed1dbae13786eb47927990d91f6cadc15",
     "data/reviews/reading_conventions_followup_audit.json": "d74d02a71ef4b9adcc67d33e3efe78f81535290d7fc487f5895b1888b45c370f",
@@ -4848,8 +5104,8 @@
     "data/reviews/reading_conventions_spacing_before.json": "b7461cff0cafb151383501d7be773ad43de1940e32fa6cc9b6c286338136ef06",
     "data/reviews/reading_conventions_support_audit.json": "358504a577f64ff1d31460a2d5b593efff3e765e38eb1183406c7bfb0ca08110",
     "data/reviews/check_reading_presentation.py": "8025ad223025038b63a20b8ceace0c1cdb0395e2cbd81465cbec7c8de9e65d93",
-    "data/reviews/reading_layer_manifest.json": "8de0bcff087a8fd66748264b3217efc844a9941524f543a8e1b93d3e203cfe27",
-    "docs/reading-conventions-coverage.md": "a7d6beaa56d805e7a6874f0f985d1a1263edcaf5f8d780d6b41dc1ecbc3fd6ae",
+    "data/reviews/reading_layer_manifest.json": "a42dc7c244cf74c95fb5f4780d81208203da48b0f3fed561b97aa54afa5a0434",
+    "docs/reading-conventions-coverage.md": "3e37674d4555251543e4b12e5d7728faf34ccd3eda8e639e1dd4d1e850e0b7dc",
     "data/reviews/reading_conventions_semantic_before.json": "e6b9d3aa4fc47c760af3d5710a536ef23d9576e1352642bd76b795aca2e4d765",
     "data/reviews/reading_conventions_semantic_audit.json": "5db9a6222c904dccc1ffe3aeef59a6bd36a74cc9278ab00bf03181cfd11549dc",
     "data/reviews/verify_semantic_readings.py": "722c68f8841059607647ace7d5aef01ea27ce26f8451ecce0c5bd03bf95bb395",
@@ -4880,7 +5136,7 @@
     "cases/naval/naval_armistice_order.md": "8e0a87217f084872ff8bc22990b44a25afcb302711984b4b77b44ed52bafa2eb",
     "cases/naval/p120_p123.md": "fdc7c02156e4f46dd350014c63ae2765f7ce9d3e2e5b3944920ef287644937b6",
     "cases/naval/p210_A.md": "615aa89593e116a3a1084be07f3fab2159a93666e9ca22f506087e6ffeea7072",
-    "cases/naval/p84_AB.md": "c95261c242a98c4f6d4984d330f8659c0af8eb61a4b9d1886c042a354b6d6e35",
+    "cases/naval/p84_AB.md": "631d095e79067a881a28f0fcf1e79fa96579ab01b5f642f9d34811ba82b8a978",
     "cases/naval/turkish_tonnage.md": "b498a944be891855696c17be3da07c62181c972e2af99ea4cfa4f3c50ba64b15",
     "cases/p100.md": "e7db8d580a56211ab92ce95a417fc1698302c2cc3efd2a1cc3adacf4127db2c6",
     "cases/p105.md": "43a0bfcd0270f1ea524cf3807956d092fb3c5796fb70b1bdd55d8b96f8dd928d",
@@ -4915,7 +5171,7 @@
     "cases/radio/p111_B.md": "09eae889a6eaddb62ae7feac4b4c50000f02536a6ffcb72ac51fe1c5421ceb64",
     "cases/radio/p187_D.md": "9d3e9fc8c10d237dec0371398da9412fdd66a5195184667300bd72b3c5c46f58",
     "cases/radio/p204_A.md": "03ca25faa0c53b13536d9678e51988c8457b0af96d6d1019fd69e4c6f5dfbd07",
-    "cases/radio/p211_key_schedule.md": "3febf5a3caff304b01320d0ab3fc4dba6cff0c4735eaa0de50d5bc2efed45b20",
+    "cases/radio/p211_key_schedule.md": "1d5b49258961df1f264da0a45da26352d5e9ec829de6302d48ee073328f7af9d",
     "cases/radio/p85_B.md": "a0a15cb86ec0e5909ae40551f7886163e94d1bb753e68288468cdef3d7035e9e",
     "cases/radio/seifert.md": "6b9bcf2bbcdde78c457d63bf742f7478c8d3cbb99a475dc281df2cb2cc02121c",
     "cases/radio/warsaw_service_messages.md": "6dd202c7b1fd05369c6d9a5475958070fb2f87236e17737322421b975b4e2ed6",
@@ -12120,6 +12376,244 @@
       "width": 1335,
       "height": 255,
       "rgb_pixel_sha256": "9da46270bc70efd8c9ff8947fc9092eb073c079b8f959e970a1abb365460fd64",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "oct30_oil_and_supply_records",
+      "path": "experiments/oct30_oil_and_supply_records/sources/p83_A.png",
+      "pdf_page_1based": 86,
+      "clip_pdf_points": [
+        42,
+        275,
+        520,
+        540
+      ],
+      "scale": 3,
+      "png_sha256": "67af0b4831827241effaece8e324d30be6a88d63cd96fcd5caf24a270e11c191",
+      "width": 1434,
+      "height": 795,
+      "rgb_pixel_sha256": "177b5bf0ceeb21c88451497f5d17843cdd0fbddade2b377c471e03c412fcb03c",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "oct30_oil_and_supply_records",
+      "path": "experiments/oct30_oil_and_supply_records/sources/p83_A_overprints.png",
+      "pdf_page_1based": 86,
+      "clip_pdf_points": [
+        278,
+        416,
+        420,
+        480
+      ],
+      "scale": 8,
+      "png_sha256": "215096eefc0352acd59392e2b02bf4cb2ca65cefb11fb3b5475cf8c9bf968ce8",
+      "width": 1136,
+      "height": 512,
+      "rgb_pixel_sha256": "b8bb05b6b643bd37f4e45b36e3846832466085944bc15ea33a2995965b1e6fa2",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "oct30_oil_and_supply_records",
+      "path": "experiments/oct30_oil_and_supply_records/sources/p85_A1.png",
+      "pdf_page_1based": 88,
+      "clip_pdf_points": [
+        42,
+        232,
+        520,
+        493
+      ],
+      "scale": 3,
+      "png_sha256": "51e24923a1159711e53bced22d67c31ec3a4095811f207809364c33742a5f1f9",
+      "width": 1434,
+      "height": 783,
+      "rgb_pixel_sha256": "5df4fa2780c0e77af58dd05ebc4368c6546639aaa8e28c2f5ba512d70112c2d9",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "oct30_oil_and_supply_records",
+      "path": "experiments/oct30_oil_and_supply_records/sources/p85_A1_GDGAA.png",
+      "pdf_page_1based": 88,
+      "clip_pdf_points": [
+        326,
+        339,
+        372,
+        356
+      ],
+      "scale": 8,
+      "png_sha256": "53946e759eb96c5c73ea63bb6f7229dd0422b64938c8c02b38f5814c0133de11",
+      "width": 368,
+      "height": 136,
+      "rgb_pixel_sha256": "7221b45b5b8f22a8f473e7be4ec44b9bd4b68c99fa5a08a0dc5f184a344683af",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "oct30_oil_and_supply_records",
+      "path": "experiments/oct30_oil_and_supply_records/sources/p84_A_witness.png",
+      "pdf_page_1based": 87,
+      "clip_pdf_points": [
+        50,
+        155,
+        545,
+        380
+      ],
+      "scale": 3,
+      "png_sha256": "a63bd059d89665c96cf1623b772043c3cd59a866479415eebbddc03ade74e1b2",
+      "width": 1485,
+      "height": 675,
+      "rgb_pixel_sha256": "6361c7ecf2ebcc6787e30685db27a3cf7e3e5b987fd0c1a3c4052a59bd4ece5f",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov6_evening_and_embassy_records",
+      "path": "experiments/nov6_evening_and_embassy_records/sources/p143_A.png",
+      "pdf_page_1based": 146,
+      "clip_pdf_points": [
+        43,
+        270,
+        520,
+        394
+      ],
+      "scale": 3,
+      "png_sha256": "8a9451b652472dc607e2fafa6b793a4bbacdfceb37ecba8521df8410be91c8a8",
+      "width": 1431,
+      "height": 372,
+      "rgb_pixel_sha256": "72a2c740c1f17eb4b98b08d4b14c687658e4a9f6f482bb42c5be428d25f048cb",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov6_evening_and_embassy_records",
+      "path": "experiments/nov6_evening_and_embassy_records/sources/p147_B1.png",
+      "pdf_page_1based": 150,
+      "clip_pdf_points": [
+        50,
+        420,
+        525,
+        535
+      ],
+      "scale": 3,
+      "png_sha256": "e4a955b95a0961025258eb61a9bf98cc62820acf5894b1855b50c3ddf10d3600",
+      "width": 1425,
+      "height": 345,
+      "rgb_pixel_sha256": "53dd37ddcf21041fc8c7a7a405b3b8a0bf266203218b11fc7ea786daa2c8c6be",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov6_evening_and_embassy_records",
+      "path": "experiments/nov6_evening_and_embassy_records/sources/p147_D1.png",
+      "pdf_page_1based": 150,
+      "clip_pdf_points": [
+        50,
+        661,
+        530,
+        798
+      ],
+      "scale": 3,
+      "png_sha256": "cdce12275f20692541be647781abacde33d228d737a4f94bc0840c826539024e",
+      "width": 1440,
+      "height": 411,
+      "rgb_pixel_sha256": "cc48c4b96dad27e7952bc1c9c678e0a3f2663c75e7db26d71fb33aa55912e145",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov6_evening_and_embassy_records",
+      "path": "experiments/nov6_evening_and_embassy_records/sources/p147_D1_J.png",
+      "pdf_page_1based": 150,
+      "clip_pdf_points": [
+        470,
+        758,
+        518,
+        776
+      ],
+      "scale": 8,
+      "png_sha256": "d8596378fe18c70933be94989975fb1111b89a31a3230cb053ca2ba9fafe9e53",
+      "width": 384,
+      "height": 144,
+      "rgb_pixel_sha256": "d67fadc20841ac949d4cd1862a95c32a35d71fb08ab73880315cc183ada3b1e3",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "regimental_journey_report",
+      "path": "experiments/regimental_journey_report/sources/p225_reviewed.png",
+      "pdf_page_1based": 228,
+      "clip_pdf_points": [
+        55,
+        300,
+        535,
+        515
+      ],
+      "scale": 3,
+      "png_sha256": "3ee922ada42f301137a42f1229826203c2b28348a746c61617ecd7e6971ea033",
+      "width": 1440,
+      "height": 645,
+      "rgb_pixel_sha256": "158788c6af67adc0095ecba397ebc0c272db8d1736c3995003df4cca5db584f6",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov25_provisions_and_evening_report",
+      "path": "experiments/nov25_provisions_and_evening_report/sources/p219_reviewed.png",
+      "pdf_page_1based": 222,
+      "clip_pdf_points": [
+        65,
+        595,
+        525,
+        715
+      ],
+      "scale": 3,
+      "png_sha256": "b3cfbfd2a8252adf128da477ff1159496e5cd4b0afedbaa2321a709a9b902d83",
+      "width": 1380,
+      "height": 360,
+      "rgb_pixel_sha256": "9b37c5e8fe32233b8258761fb7e866758709d7c8cbe4ee90bb28ad1c64aff3c2",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "nov25_provisions_and_evening_report",
+      "path": "experiments/nov25_provisions_and_evening_report/sources/p220_reviewed.png",
+      "pdf_page_1based": 223,
+      "clip_pdf_points": [
+        80,
+        155,
+        520,
+        375
+      ],
+      "scale": 3,
+      "png_sha256": "502279db99f62fcb284222f1c6c7b1b4362c70f81e2391ffa4b4100c90db6b00",
+      "width": 1320,
+      "height": 660,
+      "rgb_pixel_sha256": "8d8689df26ac6d30c7830698cdd8ebae591342b27952c6bc5ec7b52210cd9516",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "avoid_fighting_instruction",
+      "path": "experiments/avoid_fighting_instruction/sources/p227_reviewed.png",
+      "pdf_page_1based": 230,
+      "clip_pdf_points": [
+        48,
+        535,
+        525,
+        674
+      ],
+      "scale": 3,
+      "png_sha256": "7895de0cee908d4a315b13beff5c191dd35427c357dfa905fff1dbc57f3d9d47",
+      "width": 1431,
+      "height": 417,
+      "rgb_pixel_sha256": "6b57b2c3d87b6f62f7b7ca1a32c85e8c5124b52a52ae359bf87f3d8e21ef6374",
+      "fresh_render_cache": false
+    },
+    {
+      "package": "radio_traffic_transfer_fragment",
+      "path": "experiments/radio_traffic_transfer_fragment/sources/p226_reviewed.png",
+      "pdf_page_1based": 229,
+      "clip_pdf_points": [
+        75,
+        150,
+        525,
+        252
+      ],
+      "scale": 3,
+      "png_sha256": "2fdcb010d835a0a30e1f4241cb788928c6424b9edf5a1afe9c5537e4454c041c",
+      "width": 1350,
+      "height": 306,
+      "rgb_pixel_sha256": "7efa91045a39783e2edc310e069675b900409079efdb39295bf51260485ca2b5",
       "fresh_render_cache": false
     }
   ],
