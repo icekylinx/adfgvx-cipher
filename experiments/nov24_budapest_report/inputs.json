@@ -1,0 +1,165 @@
+{
+  "schema": "adfgvx-nov24-budapest-report-inputs-v1",
+  "project": "ADFGVX Cipher",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "cases/military/nov24_budapest_report.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "sources/p217_B_reviewed.png",
+      "pdf_page_1based": 220,
+      "crop_pdf_points": [
+        75,
+        484,
+        545,
+        646
+      ],
+      "render_scale": 4,
+      "width": 1880,
+      "height": 648,
+      "sha256": "cc91664bf7d97d0e66bc7be3c931e5976e78c4d12572d6257f6f0f1df291dcd7",
+      "rgb_sha256": "62b4ef2791c29c04927547cf25fde3acb5125e061f87316dc9518cc7ad519426",
+      "storage": "external_pdf_reference",
+      "path_role": "Reference to the reviewed local crop; source pixels are verified from the authenticated original PDF with --pdf."
+    }
+  ],
+  "header": {
+    "printed_page": 217,
+    "pdf_page_1based": 220,
+    "printed_date": "24th NOVEMBER, 1918.",
+    "literal": "B) UKS v ZON (07.15 p.m., November 24th) (missed beginning) 2 TLE",
+    "parts": [
+      {
+        "part": 1,
+        "label": "RICHI-204"
+      },
+      {
+        "part": 2,
+        "label": "RICHI-176"
+      }
+    ]
+  },
+  "key": {
+    "id": "Nov22-24",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      16,
+      7,
+      14,
+      22,
+      11,
+      18,
+      1,
+      15,
+      8,
+      10,
+      20,
+      2,
+      13,
+      21,
+      3,
+      17,
+      19,
+      5,
+      9,
+      4
+    ],
+    "column_count": 22,
+    "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "square_rows": [
+      "QNZ72X",
+      "S4C0IJ",
+      "Y3RBEK",
+      "L9FD6G",
+      "MTHUVW",
+      "A5O8P1"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "records": [
+    {
+      "id": "p217_B2",
+      "source_section": "B2",
+      "source_rows": [
+        "ADFFV DFXDD XDGFG XVFFV DDGFV GGAFV VXAAA AFGAX",
+        "XFDVF FFFAF FDFFG ADVAV GVFXF GGDGF XAVFX FGFFF",
+        "FDFGF DFAFF XGVVF VDXVX FFVFG FAGGA FVDFA VAFVA",
+        "GFAAF FVDGF VGFVG AVVVX VAGXD XGDVF XAAVA VVFFF",
+        "VAAAF VGAFV XXGDV D"
+      ],
+      "source_slots": 176,
+      "advertised_length": 176,
+      "key_id": "Nov22-24",
+      "expected_raw": "OLFENINIUSERREICHTARADJZXEYXXMELDUNGGEHTAUSSERDEMDURCHFERNSCHREIBERUEBERBUDAPESTXAOKYYXX",
+      "readable_span": {
+        "start": 29,
+        "end": 80,
+        "german": "Meldung geht ausserdem durch Fernschreiber ueber Budapest."
+      },
+      "protected_fields": [
+        "OLFENINIUS",
+        "ARADJZ",
+        "EY",
+        "AOKYY"
+      ]
+    }
+  ],
+  "unaccepted_first_part": {
+    "id": "p217_B1",
+    "source_rows": [
+      "GFFFG ----- -FFAD ----- ----- XAGFF AXGXX FFADA",
+      "-XFXF FXXXF FXXXF GAVGG DDFDA VXFXV VGFFA VFDXG",
+      "VGXAF VFGD- AXAAF FDFXA FAAVA AVAA- GGXVG VAFAD",
+      "FXVGA GGXGA GXFFG FDXVF G-FDA AAAXG AVDXX FAFDX",
+      "VVVVA XGGXG AFFDA DFFAG AAXAF AVGAV VFXGV V-XXG",
+      "FAXF"
+    ],
+    "source_slots": 204,
+    "expected_raw_native": "YBENDM?L?F7ALPXKO?P?AHP??EREZU?9RABGEROFL?QSY0XIDUQV??1ENDE?TN2?KDANFA???R?CWAZAX?Y?XAXG?NGB?K?0ZCOBAZ",
+    "status": "Source transcription checked. No repaired frame or readable reconstruction accepted."
+  },
+  "prior_candidates": {
+    "path": "prior_candidates.json",
+    "sha256": "3c499f8ad0cb2d10418e3617aacb217c737d2071af6779f549bf62b68a6513f8",
+    "source_path": "experiments/nov22_nikolajew_constraint/inputs.json",
+    "source_sha256": "e68e4b67fa0de74ba3d5ec39a1d0900f13e2b227b4ee22fc40b4810845af11ba",
+    "selection": "The retained standalone p217_ocr_block7 candidate, under Nov22-24; unreviewed OCR output, not a source edition."
+  },
+  "prior_credit": "Published Nov22-24 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR output already recognized the teleprinter sentence. Source review, exact raw reconstruction and source edition: icekylinx and GPT-6 Astra Pro."
+}

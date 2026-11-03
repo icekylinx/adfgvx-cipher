@@ -13,7 +13,7 @@ Each case opens with the most useful readable text or the present limits of reco
 |---|---:|---:|---:|
 | [Caucasus administration and procurement](caucasus/README.md) | 45 | 45 | 17 |
 | [Ships, cargo and naval orders](naval/README.md) | 43 | 43 | 17 |
-| [Armies, withdrawal and supplies](military/README.md) | 239 | 239 | 89 |
+| [Armies, withdrawal and supplies](military/README.md) | 240 | 240 | 90 |
 | [Radio service, keys and message routing](radio/README.md) | 200 | 199 | 84 |
 | [Money, banking and purchases](finance/README.md) | 50 | 50 | 22 |
 | [People, appointments and civilian affairs](people/README.md) | 54 | 54 | 31 |
@@ -52,11 +52,11 @@ Original challenge identifiers are retained; p198 denotes section D.
 | [pp. 175–199](pages/175-199/README.md) | 6 | [p176a](p176a.md), [p176b](p176b.md), [p187](p187.md), [p187b](p187b.md), [p189](p189.md), [p198](p198.md) |
 | [pp. 200–224](pages/200-224/README.md) | 2 | [p215](p215.md), [p217](p217.md) |
 
-### Other ciphertexts — 631 reviewed entries
+### Other ciphertexts — 632 reviewed entries
 
 Numbered parts and received copies are listed individually, with their reviewed reading status.
 
-**653 catalogue entries · 652 physical sources · 630 beyond the challenges.** The [source register](../docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
+**654 catalogue entries · 653 physical sources · 631 beyond the challenges.** The [source register](../docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
 
 | Printed source pages | Reviewed entries | Pages represented |
 |---|---:|---:|
@@ -66,7 +66,7 @@ Numbered parts and received copies are listed individually, with their reviewed 
 | [pp. 125–149](pages/125-149/README.md) | 75 | 25 |
 | [pp. 150–174](pages/150-174/README.md) | 117 | 25 |
 | [pp. 175–199](pages/175-199/README.md) | 100 | 25 |
-| [pp. 200–224](pages/200-224/README.md) | 112 | 25 |
+| [pp. 200–224](pages/200-224/README.md) | 113 | 25 |
 | [pp. 225–249](pages/225-249/README.md) | 29 | 6 |
 
 Source review and current research: **icekylinx and GPT-6 Astra Pro**. Each detailed entry credits its earlier readings and keys.

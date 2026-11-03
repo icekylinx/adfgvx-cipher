@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 175–199](../175-199/README.md) · [pp. 225–249 →](../225-249/README.md)
 
-**2 challenge entries · 112 other reviewed entries · 25 printed pages · 114 physical sources.**
+**2 challenge entries · 113 other reviewed entries · 25 printed pages · 115 physical sources.**
 
 Jump to page: [p200](#p200) · [p201](#p201) · [p202](#p202) · [p203](#p203) · [p204](#p204) · [p205](#p205) · [p206](#p206) · [p207](#p207) · [p208](#p208) · [p209](#p209) · [p210](#p210) · [p211](#p211) · [p212](#p212) · [p213](#p213) · [p214](#p214) · [p215](#p215) · [p216](#p216) · [p217](#p217) · [p218](#p218) · [p219](#p219) · [p220](#p220) · [p221](#p221) · [p222](#p222) · [p223](#p223) · [p224](#p224).
 
@@ -226,6 +226,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 | [p217 A3](../../military/p217_A.md) | Army headquarters at Szolnok; battalions apparently misdirected | 114/114 baseline positions; place and numerical fields unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p217 A4](../../military/p217_A.md) | Czechs demand disarmament before troop transit | 98/98 raw positions; two word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p217 A5](../../military/p217_A.md) | Massow in Budapest asked to clarify transit and disarmament | 61/61 raw positions; two word repairs; reference unresolved | icekylinx and GPT-6 Astra Pro (2026) |
+| [p217 B2](../../military/nov24_budapest_report.md#p217-b2) | Additional report transmission by teleprinter via Budapest | Reviewed native 176-coordinate frame; 88 fixed raw labels; intact 51-label teleprinter sentence; zero coordinate edits or fills; prefix retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
 
 ## p218
 

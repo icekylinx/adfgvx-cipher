@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**239 reviewed entries across 89 case pages, representing 239 physical sources; 239 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**240 reviewed entries across 90 case pages, representing 240 physical sources; 240 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -89,6 +89,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [Heated sick wagons, cooking equipment and hot tea](medical_return_transports.md) | p212 A1, p212 A5, p213 A6, p213 A7 |
 | [Divisional areas and staff locations: second part with explicit geographical alternatives](nov22_divisional_positions_part2.md) | p215 B2 |
 | [p217 A — Coal shortages, disarmament and transport through Czechoslovakia](p217_A.md) | p217 A1, p217 A2, p217 A3, p217 A4, p217 A5 |
+| [p217 B2 — Report sent by teleprinter via Budapest](nov24_budapest_report.md) | p217 B2 |
 | [Reduced provisioning strength and a separate evening report](nov25_provisions_and_evening_report.md) | p219 D1, p220 A2, p220 B |
 | [Mackensen's appeal over disarmament and internment](mackensen_armistice_appeal.md) | p220 C1, p220 C2, p220 C3, p220 C4, p221 A5, p221 A6 |
 | [Reports requested from General von Liman](liman_troop_reports.md) | p222 A1, p222 A2 |
@@ -313,6 +314,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p217 A3](p217_A.md) | Army headquarters at Szolnok; battalions apparently misdirected | 114/114 baseline positions; place and numerical fields unresolved | icekylinx and GPT-6 Astra Pro (2026) |
 | [p217 A4](p217_A.md) | Czechs demand disarmament before troop transit | 98/98 raw positions; two word repairs | icekylinx and GPT-6 Astra Pro (2026) |
 | [p217 A5](p217_A.md) | Massow in Budapest asked to clarify transit and disarmament | 61/61 raw positions; two word repairs; reference unresolved | icekylinx and GPT-6 Astra Pro (2026) |
+| [p217 B2](nov24_budapest_report.md#p217-b2) | Additional report transmission by teleprinter via Budapest | Reviewed native 176-coordinate frame; 88 fixed raw labels; intact 51-label teleprinter sentence; zero coordinate edits or fills; prefix retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
 | [p219 D1](nov25_provisions_and_evening_report.md#p219-d1) | First part: reduced provisioning strength and no further provisions | Native 166-slot frame; 3 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p220 A2](nov25_provisions_and_evening_report.md#p220-a2) | Second part: stop further provisions and notify Dresden | Native 244-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p220 B](nov25_provisions_and_evening_report.md#p220-b) | Separate evening report with unresolved unit and place labels | Native 220-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |

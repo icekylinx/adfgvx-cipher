@@ -4759,6 +4759,40 @@
       ]
     },
     {
+      "path": "cases/military/nov24_budapest_report.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "570190fc0abd35db3472d91ab13d9f3acd7c23acc2afe40ee9d0c4284f503ac5",
+      "review_basis": "Original scan,176 observed coordinates, unchanged key,88 fixed labels, exact re-encryption and actual51-label Markdown quotation reviewed.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "254c976770e3a7b784850b8baa34eeec00b5b1f91df88a4ada3a028de9892488",
+          "caption": "**Raw output — complete native stream, unchanged Nov22–24 key:**",
+          "role": "raw_output",
+          "caption_required": true,
+          "review_note": "Actual source and raw display match the source certificate."
+        },
+        {
+          "index": 1,
+          "sha256": "ad803f8059364a086c088721042164c6f10da0ac2a0ce68753b057a6d53cbbaa",
+          "caption": "**Source transcription — all 176 printed coordinates:**",
+          "role": "source_transcription",
+          "caption_required": true,
+          "review_note": "Actual source and raw display match the source certificate."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "fba53ff304afdc4425f04f279a716ce0c110df9dc778cce50c2b9edb01aa6d81",
+          "caption": "**Readable German — exact 51-label span at zero-based plaintext positions 29–79:**",
+          "role": "readable_german",
+          "caption_required": true,
+          "review_note": "Exact native 51-label span[29,80); no repair or expansion."
+        }
+      ]
+    },
+    {
       "path": "cases/military/nov25_provisions_and_evening_report.md",
       "review_status": "reviewed",
       "file_sha256_at_review": "04892280e2f759a1115e4fe5fee68f8b7fac7ebb79a05fa2e385c7e4863607b5",

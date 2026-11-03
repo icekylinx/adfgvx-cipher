@@ -26,6 +26,7 @@ The cases contain the full readings and exact repair accounts. These recent exam
 
 | Edition | Result |
 |---|---|
+| [p217 B2 Budapest teleprinter report](../cases/military/nov24_budapest_report.md) | All 176 native coordinates yield 88 fixed raw labels; the 51-label report-transmission sentence needs zero edits or fills. |
 | [p136 Gokieloff glyph correction](../experiments/p136_source_glyph_correction/README.md) | The printed `XAFFF` corrects the earlier transcription `XAFFX`, restoring raw `ZU DORT` with zero additional historical repair cost. |
 | [p105 combined-source supplement](../experiments/p105_optional_two_deletions/README.md) | A 288-slot proposal yields 144 paired labels with two source exclusions and three observed-coordinate substitutions. All 12 full-word minima and 55 prefix minima are retained. |
 | [p109 duplicate-pair supplement](../experiments/p109_optional_duplicate_pair/README.md) | An independent received copy constrains minimum alignments and preserves the `SAVE`/`SAVA` alternatives with their exact costs. |
