@@ -43,7 +43,7 @@ def run():
     records, totals, native_totals = [], Counter(), Counter()
     for rec in inputs["records"]:
         literal = "".join("".join(rec["source_rows"]).split())
-        assert set(literal) <= set("ADFGVX-BEK")
+        assert set(literal) <= set("ADFGVX-BEK?")
         assert len(literal) == rec["literal_source_slots"]
         excluded = rec["excluded_source_mark_indices"]
         assert len(excluded) == len(set(excluded))
@@ -55,7 +55,14 @@ def run():
             assert excluded == [80] and literal[80] == "K"
             assert literal[75:81] == "DDFXXK"
             assert literal[165] == "B"
-            assert working_literal.count("-") == 5 and cipher.count("?") == 6
+            assert literal[116:121] == "AV?XF"
+            assert rec["damaged_glyph"]["source_index"] == 118
+            assert rec["damaged_glyph"]["literal_placeholder"] == literal[118] == "?"
+            assert rec["damaged_glyph"]["conditional_coordinate_interpretation"] == "X"
+            assert rec["damaged_glyph"]["independent_coordinate_witness_established"] is False
+            prior = json.loads((HERE / "prior_candidates.json").read_text())
+            assert "GDGAGAV?XF" in prior["cross_key_candidates"][0]["ciphertext"]
+            assert working_literal.count("-") == 5 and cipher.count("?") == 7
         else:
             assert not excluded
         if rec["id"] == "p188_C1":
@@ -94,7 +101,8 @@ def run():
         cost = {"physical_source_parts": 1, "literal_source_slots": len(literal),
                 "working_coordinates": len(cipher), "working_source_masked_slots": cipher.count("?"),
                 "printed_erasure_slots": working_literal.count("-"),
-                "working_noncoordinate_source_masks": sum(c not in "ADFGVX-" for c in working_literal),
+                "working_noncoordinate_source_masks": sum(c not in "ADFGVX-?" for c in working_literal),
+                "damaged_glyph_source_masks": working_literal.count("?"),
                 "plaintext_positions": raw["plaintext_positions"],
                 "raw_fixed_positions": raw["fixed_positions"],
                 "edition_fixed_positions": edition["reading"]["fixed_positions"],
@@ -116,11 +124,46 @@ def run():
                         "remaining_positions": [p for p in positions if p["edited_symbol"] == "?"],
                         "all_raw_digit_J_Q_Y_occurrences": [p for p in positions
                             if p["raw_symbol"].isdigit() or p["raw_symbol"] in "JQY"]})
+        if rec["id"] == "p188_A":
+            assert positions[42]["working_coordinate_indices"] == [117, 89]
+            assert positions[42]["source_coordinate_indices"] == [118, 90]
+            assert positions[42]["raw_pair"] == "?V"
+            assert positions[42]["raw_domain"] == "234789ACMQVXY"
+            assert positions[42]["edited_pair"] == "DV"
+            assert positions[42]["edited_symbol"] == "X"
+            assert [c for c in edition["erasure_fills"] if c["source_coordinate_index"] == 118] == [{
+                "plaintext_position_0based": 42, "observed": "?", "proposed": "D",
+                "working_coordinate_index": 117, "source_coordinate_index": 118}]
+            # Preserve the former X reading as an explicit assumption, not an
+            # additional physical witness or an observed coordinate in the totals.
+            assumed_literal = working_literal[:117] + "X" + working_literal[118:]
+            assumed_cipher = cipher[:117] + "X" + cipher[118:]
+            assumed_raw = reading(assumed_cipher, ranks, square)
+            assumed_edition = repair(assumed_cipher, assumed_literal,
+                {"text": rec["editorial_template"], "pair_overrides": rec["pair_overrides"]},
+                ranks, square, assumed_raw)
+            assert assumed_raw["plaintext"] == raw["plaintext"][:42] + "C" + raw["plaintext"][43:]
+            assert assumed_raw["fixed_positions"] == 105
+            assert len(assumed_edition["known_coordinate_substitutions"]) == 15
+            assert len(assumed_edition["erasure_fills"]) == 6
+            assert assumed_edition["ciphertext"] == edition["ciphertext"]
+            records[-1]["damaged_glyph"] = rec["damaged_glyph"]
+            records[-1]["conditional_X_sensitivity"] = {
+                "status": "Assumption only; excluded from the source and repair totals.",
+                "source_coordinate_index": 118, "working_coordinate_index": 117,
+                "assumed_coordinate": "X", "plaintext_position": 42,
+                "raw_pair": "XV", "raw_symbol": "C",
+                "raw_plaintext": assumed_raw["plaintext"],
+                "raw_fixed_positions": assumed_raw["fixed_positions"],
+                "known_coordinate_substitutions": len(assumed_edition["known_coordinate_substitutions"]),
+                "source_mask_fills": len(assumed_edition["erasure_fills"]),
+                "edited_ciphertext_unchanged": True,
+                "source118_edit": {"observed_if_assumed": "X", "proposed": "D"}}
     assert [r["source_slots"] for r in records] == [225, 176, 268]
-    assert [r["raw"]["fixed_positions"] for r in records] == [105, 84, 130]
+    assert [r["raw"]["fixed_positions"] for r in records] == [104, 84, 130]
     assert [r["edition"]["reading"]["fixed_positions"] for r in records] == [112, 88, 130]
-    assert [len(r["edition"]["known_coordinate_substitutions"]) for r in records] == [15, 10, 4]
-    assert [len(r["edition"]["erasure_fills"]) for r in records] == [6, 0, 0]
+    assert [len(r["edition"]["known_coordinate_substitutions"]) for r in records] == [14, 10, 4]
+    assert [len(r["edition"]["erasure_fills"]) for r in records] == [7, 0, 0]
     assert "AVK1P" in records[0]["raw"]["plaintext"]
     assert "AOK1P" in records[0]["edition"]["reading"]["plaintext"]
     assert records[0]["edition"]["reading"]["plaintext"].endswith("AXOXKX11XXX")
@@ -139,7 +182,7 @@ def run():
             "index_convention": "All indices are zero-based. Helper raw/edition source_position_pairs_0based fields index the working frame. The positions ledger and frame_to_source_indices separately identify the original visible source slots.",
             "limits": inputs["limits"] + [
                 "No global geometry or repair-optimum search was performed. If the extra mark is X, deletion within its identical-X run can share a resulting stream; the exclusion's precise historical identity is not proved.",
-                "A's six fills comprise five printed dashes and one B-shaped noncoordinate glyph; these are distinct from the excluded extra K/X-like mark.",
+                "A's seven fills comprise five printed dashes, one B-shaped noncoordinate glyph and one damaged glyph at source118; these are distinct from the excluded extra K/X-like mark.",
                 "Global witnesses and exact re-encryption demonstrate consistency, not unique wording, the original complete square, or authentic numerical labels.",
                 "Unassigned square cells share a global bijection. Per-position domains do not authorize independently choosing each occurrence.",
             ]}

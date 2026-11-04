@@ -4,7 +4,7 @@
     "icekylinx",
     "GPT-6 Astra Pro"
   ],
-  "inputs_sha256": "6d974ed50051a5d8b214074679641bb4dbdc6dabfe7bd682944d67ff99b52b39",
+  "inputs_sha256": "2ba67aee9dc30af400f19fa21b54369b21daf0df3cf5e6517d6ed00f9c447076",
   "summary": {
     "physical_records": 5,
     "source_slots": 643,
@@ -12,9 +12,9 @@
     "model_slots": 644,
     "plaintext_positions": 322,
     "raw_fixed_positions": 279,
-    "edited_fixed_positions": 319,
+    "edited_fixed_positions": 322,
     "known_coordinate_substitutions": 3,
-    "source_mask_fills": 40,
+    "source_mask_fills": 43,
     "missing_coordinate_fills": 1,
     "source_coordinate_exclusions": 0,
     "inserted_model_coordinates": 1
@@ -2037,8 +2037,8 @@
         }
       ],
       "edited": {
-        "plaintext": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENXWI??E?RINGBAHNZEITENXAKONACHELF",
-        "ciphertext": "XXVGDFDGFVXFGVVGVV-GXVDADF-FVAADDXXADVGFEVGGVDGVGAXAAVAAGGAAAVDFGFGDGVFDVDFGGAVDGAGDGVGVGGXVGAFGFGGADAVDGVGDGDVVGFFDXDGXADVDGFGFFVGADD",
+        "plaintext": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENZWISCENRINGBAHNZEITENXAKONACHELF",
+        "ciphertext": "XXVGDFDGFVFFGVVGVVDGXVDADFDFVAADDXXADVGFGVGGVDGVGAXAAVAAGGAAAVDFGFGDGVFDVDFGGAVDGAGDGVGVGGXVGAFGFGGADAVDGVGDGDVVGFFDXDGXADVDGFGFFVGADD",
         "positions": [
           {
             "plaintext_index": 0,
@@ -2532,9 +2532,9 @@
           },
           {
             "plaintext_index": 35,
-            "pair": "DX",
-            "domain": "X",
-            "label": "X",
+            "pair": "DF",
+            "domain": "Z",
+            "label": "Z",
             "model_coordinate_indices": [
               67,
               10
@@ -2574,9 +2574,9 @@
           },
           {
             "plaintext_index": 38,
-            "pair": "-V",
-            "domain": "FSQBK3",
-            "label": "?",
+            "pair": "DV",
+            "domain": "S",
+            "label": "S",
             "model_coordinate_indices": [
               18,
               110
@@ -2588,9 +2588,9 @@
           },
           {
             "plaintext_index": 39,
-            "pair": "-D",
-            "domain": "IC28M4",
-            "label": "?",
+            "pair": "DD",
+            "domain": "C",
+            "label": "C",
             "model_coordinate_indices": [
               26,
               103
@@ -2616,9 +2616,9 @@
           },
           {
             "plaintext_index": 41,
-            "pair": "GE",
-            "domain": "D8WNB5",
-            "label": "?",
+            "pair": "GG",
+            "domain": "N",
+            "label": "N",
             "model_coordinate_indices": [
               124,
               40
@@ -3044,7 +3044,7 @@
             "model_index": 10,
             "source_index": 10,
             "before": "-",
-            "after": "X",
+            "after": "F",
             "kind": "source_mask_fill",
             "source_location": {
               "row_1based": 1,
@@ -3137,6 +3137,18 @@
             }
           },
           {
+            "model_index": 18,
+            "source_index": 18,
+            "before": "-",
+            "after": "D",
+            "kind": "source_mask_fill",
+            "source_location": {
+              "row_1based": 1,
+              "group_in_row_1based": 4,
+              "character_in_group_1based": 4
+            }
+          },
+          {
             "model_index": 19,
             "source_index": 19,
             "before": "-",
@@ -3221,6 +3233,18 @@
             }
           },
           {
+            "model_index": 26,
+            "source_index": 26,
+            "before": "-",
+            "after": "D",
+            "kind": "source_mask_fill",
+            "source_location": {
+              "row_1based": 1,
+              "group_in_row_1based": 6,
+              "character_in_group_1based": 2
+            }
+          },
+          {
             "model_index": 38,
             "source_index": 38,
             "before": "E",
@@ -3230,6 +3254,18 @@
               "row_1based": 1,
               "group_in_row_1based": 8,
               "character_in_group_1based": 4
+            }
+          },
+          {
+            "model_index": 40,
+            "source_index": 40,
+            "before": "E",
+            "after": "G",
+            "kind": "source_mask_fill",
+            "source_location": {
+              "row_1based": 2,
+              "group_in_row_1based": 1,
+              "character_in_group_1based": 1
             }
           },
           {
@@ -3243,25 +3279,1250 @@
         ],
         "costs": {
           "known_coordinate_substitution": 0,
-          "source_mask_fill": 21,
+          "source_mask_fill": 24,
           "missing_coordinate_fill": 1
         },
-        "arbitrary_complete_plaintext_witness": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENXWIFIEDRINGBAHNZEITENXAKONACHELF",
-        "arbitrary_witness_ciphertext": "XXVGDFDGFVXFGVVGVVAGXVDADFAFVAADDXXADVGFAVGGVDGVGAXAAVAAGGAAAVDFGFGDGVFDVDFGGAVDGAGDGVGVGGXVGAFGFGGADAVDGVGDGDVVGFFDXDGXADVDGFGFFVGADD",
+        "arbitrary_complete_plaintext_witness": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENZWISCENRINGBAHNZEITENXAKONACHELF",
+        "arbitrary_witness_ciphertext": "XXVGDFDGFVFFGVVGVVDGXVDADFDFVAADDXXADVGFGVGGVDGVGAXAAVAAGGAAAVDFGFGDGVFDVDFGGAVDGAGDGVGVGGXVGAFGFGGADAVDGVGDGDVVGFFDXDGXADVDGFGFFVGADD",
         "witness_limit": "The arbitrary completion verifies partial-stream consistency; unknown labels are not accepted as plaintext."
       },
-      "edited_fixed_positions": 64,
+      "edited_fixed_positions": 67,
       "literal_numeral_fields_after_explicit_repairs": [],
-      "readable_german": "Erbitten Vorschlag fuer Verkehrszeiten. WI??E? Ringbahnzeiten. Akonach Elf.",
+      "readable_german": "Erbitten Vorschlag fuer Verkehrszeiten zwisc[h]en Ringbahnzeiten. Akonach Elf.",
       "readable_mapping": {
-        "normalized_display": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENWI??E?RINGBAHNZEITENAKONACHELF",
-        "retained_non_X_labels": 65,
-        "unknown_positions": [
-          37,
-          38,
-          40
+        "normalized_display": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENZWISCENRINGBAHNZEITENAKONACHELF",
+        "retained_non_X_labels": 66,
+        "unknown_positions": [],
+        "display_only_expansions": [
+          {
+            "display": "zwisc[h]en",
+            "literal": "ZWISCEN",
+            "plaintext_start": 35,
+            "supplied_display_letters": "H",
+            "reason": "Explicit prose spelling completion only. The cipher candidate retains the seven labels ZWISCEN and contains no extra H at this position."
+          }
         ],
-        "method": "Uppercase and retain A-Z, digits and question marks; the result must equal every non-X label in the cited stream."
+        "method": "Remove only the explicitly declared bracketed display letters, then uppercase and retain A-Z, digits and question marks. The result must equal every non-X label in the cited stream."
+      },
+      "earlier_partial_edition": {
+        "inputs_sha256": "6d974ed50051a5d8b214074679641bb4dbdc6dabfe7bd682944d67ff99b52b39",
+        "disposition": "Earlier primary partial reading, retained with its original 0 substitutions, 21 source-mask fills and 1 missing-coordinate fill. The new conditional phrase revises one earlier mask completion and fills the other three masks; it does not add a source observation.",
+        "readable_german": "Erbitten Vorschlag fuer Verkehrszeiten. WI??E? Ringbahnzeiten. Akonach Elf.",
+        "normalized_display": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENWI??E?RINGBAHNZEITENAKONACHELF",
+        "edited": {
+          "plaintext": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENXWI??E?RINGBAHNZEITENXAKONACHELF",
+          "ciphertext": "XXVGDFDGFVXFGVVGVV-GXVDADF-FVAADDXXADVGFEVGGVDGVGAXAAVAAGGAAAVDFGFGDGVFDVDFGGAVDGAGDGVGVGGXVGAFGFGGADAVDGVGDGDVVGFFDXDGXADVDGFGFFVGADD",
+          "positions": [
+            {
+              "plaintext_index": 0,
+              "pair": "VG",
+              "domain": "E",
+              "label": "E",
+              "model_coordinate_indices": [
+                14,
+                106
+              ],
+              "source_coordinate_indices": [
+                14,
+                106
+              ]
+            },
+            {
+              "plaintext_index": 1,
+              "pair": "DA",
+              "domain": "R",
+              "label": "R",
+              "model_coordinate_indices": [
+                22,
+                99
+              ],
+              "source_coordinate_indices": [
+                22,
+                99
+              ]
+            },
+            {
+              "plaintext_index": 2,
+              "pair": "GV",
+              "domain": "B",
+              "label": "B",
+              "model_coordinate_indices": [
+                43,
+                78
+              ],
+              "source_coordinate_indices": [
+                43,
+                78
+              ]
+            },
+            {
+              "plaintext_index": 3,
+              "pair": "AD",
+              "domain": "I",
+              "label": "I",
+              "model_coordinate_indices": [
+                120,
+                36
+              ],
+              "source_coordinate_indices": [
+                120,
+                36
+              ]
+            },
+            {
+              "plaintext_index": 4,
+              "pair": "FX",
+              "domain": "T",
+              "label": "T",
+              "model_coordinate_indices": [
+                113,
+                50
+              ],
+              "source_coordinate_indices": [
+                113,
+                50
+              ]
+            },
+            {
+              "plaintext_index": 5,
+              "pair": "FX",
+              "domain": "T",
+              "label": "T",
+              "model_coordinate_indices": [
+                127,
+                0
+              ],
+              "source_coordinate_indices": [
+                127,
+                0
+              ]
+            },
+            {
+              "plaintext_index": 6,
+              "pair": "VG",
+              "domain": "E",
+              "label": "E",
+              "model_coordinate_indices": [
+                85,
+                64
+              ],
+              "source_coordinate_indices": [
+                85,
+                64
+              ]
+            },
+            {
+              "plaintext_index": 7,
+              "pair": "GG",
+              "domain": "N",
+              "label": "N",
+              "model_coordinate_indices": [
+                7,
+                92
+              ],
+              "source_coordinate_indices": [
+                7,
+                92
+              ]
+            },
+            {
+              "plaintext_index": 8,
+              "pair": "DG",
+              "domain": "V",
+              "label": "V",
+              "model_coordinate_indices": [
+                71,
+                57
+              ],
+              "source_coordinate_indices": [
+                71,
+                57
+              ]
+            },
+            {
+              "plaintext_index": 9,
+              "pair": "AG",
+              "domain": "O",
+              "label": "O",
+              "model_coordinate_indices": [
+                29,
+                15
+              ],
+              "source_coordinate_indices": [
+                29,
+                15
+              ]
+            },
+            {
+              "plaintext_index": 10,
+              "pair": "DA",
+              "domain": "R",
+              "label": "R",
+              "model_coordinate_indices": [
+                107,
+                23
+              ],
+              "source_coordinate_indices": [
+                107,
+                23
+              ]
+            },
+            {
+              "plaintext_index": 11,
+              "pair": "DV",
+              "domain": "S",
+              "label": "S",
+              "model_coordinate_indices": [
+                100,
+                44
+              ],
+              "source_coordinate_indices": [
+                100,
+                44
+              ]
+            },
+            {
+              "plaintext_index": 12,
+              "pair": "DD",
+              "domain": "C",
+              "label": "C",
+              "model_coordinate_indices": [
+                79,
+                121
+              ],
+              "source_coordinate_indices": [
+                79,
+                121
+              ]
+            },
+            {
+              "plaintext_index": 13,
+              "pair": "VF",
+              "domain": "H",
+              "label": "H",
+              "model_coordinate_indices": [
+                37,
+                114
+              ],
+              "source_coordinate_indices": [
+                37,
+                114
+              ]
+            },
+            {
+              "plaintext_index": 14,
+              "pair": "AF",
+              "domain": "L",
+              "label": "L",
+              "model_coordinate_indices": [
+                51,
+                128
+              ],
+              "source_coordinate_indices": [
+                51,
+                128
+              ]
+            },
+            {
+              "plaintext_index": 15,
+              "pair": "XG",
+              "domain": "A",
+              "label": "A",
+              "model_coordinate_indices": [
+                1,
+                86
+              ],
+              "source_coordinate_indices": [
+                1,
+                86
+              ]
+            },
+            {
+              "plaintext_index": 16,
+              "pair": "FF",
+              "domain": "G",
+              "label": "G",
+              "model_coordinate_indices": [
+                65,
+                8
+              ],
+              "source_coordinate_indices": [
+                65,
+                8
+              ]
+            },
+            {
+              "plaintext_index": 17,
+              "pair": "AV",
+              "domain": "F",
+              "label": "F",
+              "model_coordinate_indices": [
+                93,
+                72
+              ],
+              "source_coordinate_indices": [
+                93,
+                72
+              ]
+            },
+            {
+              "plaintext_index": 18,
+              "pair": "AA",
+              "domain": "U",
+              "label": "U",
+              "model_coordinate_indices": [
+                58,
+                30
+              ],
+              "source_coordinate_indices": [
+                58,
+                30
+              ]
+            },
+            {
+              "plaintext_index": 19,
+              "pair": "VG",
+              "domain": "E",
+              "label": "E",
+              "model_coordinate_indices": [
+                16,
+                108
+              ],
+              "source_coordinate_indices": [
+                16,
+                108
+              ]
+            },
+            {
+              "plaintext_index": 20,
+              "pair": "DA",
+              "domain": "R",
+              "label": "R",
+              "model_coordinate_indices": [
+                24,
+                101
+              ],
+              "source_coordinate_indices": [
+                24,
+                101
+              ]
+            },
+            {
+              "plaintext_index": 21,
+              "pair": "DG",
+              "domain": "V",
+              "label": "V",
+              "model_coordinate_indices": [
+                45,
+                80
+              ],
+              "source_coordinate_indices": [
+                45,
+                80
+              ]
+            },
+            {
+              "plaintext_index": 22,
+              "pair": "VG",
+              "domain": "E",
+              "label": "E",
+              "model_coordinate_indices": [
+                122,
+                38
+              ],
+              "source_coordinate_indices": [
+                122,
+                38
+              ]
+            },
+            {
+              "plaintext_index": 23,
+              "pair": "DA",
+              "domain": "R",
+              "label": "R",
+              "model_coordinate_indices": [
+                115,
+                52
+              ],
+              "source_coordinate_indices": [
+                115,
+                52
+              ]
+            },
+            {
+              "plaintext_index": 24,
+              "pair": "VV",
+              "domain": "K",
+              "label": "K",
+              "model_coordinate_indices": [
+                129,
+                2
+              ],
+              "source_coordinate_indices": [
+                129,
+                2
+              ]
+            },
+            {
+              "plaintext_index": 25,
+              "pair": "VG",
+              "domain": "E",
+              "label": "E",
+              "model_coordinate_indices": [
+                87,
+                66
+              ],
+              "source_coordinate_indices": [
+                87,
+                66
+              ]
+            },
+            {
+              "plaintext_index": 26,
+              "pair": "VF",
+              "domain": "H",
+              "label": "H",
+              "model_coordinate_indices": [
+                9,
+                94
+              ],
+              "source_coordinate_indices": [
+                9,
+                94
+              ]
+            },
+            {
+              "plaintext_index": 27,
+              "pair": "DA",
+              "domain": "R",
+              "label": "R",
+              "model_coordinate_indices": [
+                73,
+                59
+              ],
+              "source_coordinate_indices": [
+                73,
+                59
+              ]
+            },
+            {
+              "plaintext_index": 28,
+              "pair": "DV",
+              "domain": "S",
+              "label": "S",
+              "model_coordinate_indices": [
+                31,
+                17
+              ],
+              "source_coordinate_indices": [
+                31,
+                17
+              ]
+            },
+            {
+              "plaintext_index": 29,
+              "pair": "DF",
+              "domain": "Z",
+              "label": "Z",
+              "model_coordinate_indices": [
+                109,
+                25
+              ],
+              "source_coordinate_indices": [
+                109,
+                25
+              ]
+            },
+            {
+              "plaintext_index": 30,
+              "pair": "VG",
+              "domain": "E",
+              "label": "E",
+              "model_coordinate_indices": [
+                102,
+                46
+              ],
+              "source_coordinate_indices": [
+                102,
+                46
+              ]
+            },
+            {
+              "plaintext_index": 31,
+              "pair": "AD",
+              "domain": "I",
+              "label": "I",
+              "model_coordinate_indices": [
+                81,
+                123
+              ],
+              "source_coordinate_indices": [
+                81,
+                123
+              ]
+            },
+            {
+              "plaintext_index": 32,
+              "pair": "FX",
+              "domain": "T",
+              "label": "T",
+              "model_coordinate_indices": [
+                39,
+                116
+              ],
+              "source_coordinate_indices": [
+                39,
+                116
+              ]
+            },
+            {
+              "plaintext_index": 33,
+              "pair": "VG",
+              "domain": "E",
+              "label": "E",
+              "model_coordinate_indices": [
+                53,
+                130
+              ],
+              "source_coordinate_indices": [
+                53,
+                130
+              ]
+            },
+            {
+              "plaintext_index": 34,
+              "pair": "GG",
+              "domain": "N",
+              "label": "N",
+              "model_coordinate_indices": [
+                3,
+                88
+              ],
+              "source_coordinate_indices": [
+                3,
+                88
+              ]
+            },
+            {
+              "plaintext_index": 35,
+              "pair": "DX",
+              "domain": "X",
+              "label": "X",
+              "model_coordinate_indices": [
+                67,
+                10
+              ],
+              "source_coordinate_indices": [
+                67,
+                10
+              ]
+            },
+            {
+              "plaintext_index": 36,
+              "pair": "GF",
+              "domain": "W",
+              "label": "W",
+              "model_coordinate_indices": [
+                95,
+                74
+              ],
+              "source_coordinate_indices": [
+                95,
+                74
+              ]
+            },
+            {
+              "plaintext_index": 37,
+              "pair": "AD",
+              "domain": "I",
+              "label": "I",
+              "model_coordinate_indices": [
+                60,
+                32
+              ],
+              "source_coordinate_indices": [
+                60,
+                32
+              ]
+            },
+            {
+              "plaintext_index": 38,
+              "pair": "-V",
+              "domain": "FSQBK3",
+              "label": "?",
+              "model_coordinate_indices": [
+                18,
+                110
+              ],
+              "source_coordinate_indices": [
+                18,
+                110
+              ]
+            },
+            {
+              "plaintext_index": 39,
+              "pair": "-D",
+              "domain": "IC28M4",
+              "label": "?",
+              "model_coordinate_indices": [
+                26,
+                103
+              ],
+              "source_coordinate_indices": [
+                26,
+                103
+              ]
+            },
+            {
+              "plaintext_index": 40,
+              "pair": "VG",
+              "domain": "E",
+              "label": "E",
+              "model_coordinate_indices": [
+                47,
+                82
+              ],
+              "source_coordinate_indices": [
+                47,
+                82
+              ]
+            },
+            {
+              "plaintext_index": 41,
+              "pair": "GE",
+              "domain": "D8WNB5",
+              "label": "?",
+              "model_coordinate_indices": [
+                124,
+                40
+              ],
+              "source_coordinate_indices": [
+                124,
+                40
+              ]
+            },
+            {
+              "plaintext_index": 42,
+              "pair": "DA",
+              "domain": "R",
+              "label": "R",
+              "model_coordinate_indices": [
+                117,
+                54
+              ],
+              "source_coordinate_indices": [
+                117,
+                54
+              ]
+            },
+            {
+              "plaintext_index": 43,
+              "pair": "AD",
+              "domain": "I",
+              "label": "I",
+              "model_coordinate_indices": [
+                131,
+                4
+              ],
+              "source_coordinate_indices": [
+                131,
+                4
+              ]
+            },
+            {
+              "plaintext_index": 44,
+              "pair": "GG",
+              "domain": "N",
+              "label": "N",
+              "model_coordinate_indices": [
+                89,
+                68
+              ],
+              "source_coordinate_indices": [
+                89,
+                68
+              ]
+            },
+            {
+              "plaintext_index": 45,
+              "pair": "FF",
+              "domain": "G",
+              "label": "G",
+              "model_coordinate_indices": [
+                11,
+                96
+              ],
+              "source_coordinate_indices": [
+                11,
+                96
+              ]
+            },
+            {
+              "plaintext_index": 46,
+              "pair": "GV",
+              "domain": "B",
+              "label": "B",
+              "model_coordinate_indices": [
+                75,
+                61
+              ],
+              "source_coordinate_indices": [
+                75,
+                61
+              ]
+            },
+            {
+              "plaintext_index": 47,
+              "pair": "XG",
+              "domain": "A",
+              "label": "A",
+              "model_coordinate_indices": [
+                33,
+                19
+              ],
+              "source_coordinate_indices": [
+                33,
+                19
+              ]
+            },
+            {
+              "plaintext_index": 48,
+              "pair": "VF",
+              "domain": "H",
+              "label": "H",
+              "model_coordinate_indices": [
+                111,
+                27
+              ],
+              "source_coordinate_indices": [
+                111,
+                27
+              ]
+            },
+            {
+              "plaintext_index": 49,
+              "pair": "GG",
+              "domain": "N",
+              "label": "N",
+              "model_coordinate_indices": [
+                104,
+                48
+              ],
+              "source_coordinate_indices": [
+                104,
+                48
+              ]
+            },
+            {
+              "plaintext_index": 50,
+              "pair": "DF",
+              "domain": "Z",
+              "label": "Z",
+              "model_coordinate_indices": [
+                83,
+                125
+              ],
+              "source_coordinate_indices": [
+                83,
+                125
+              ]
+            },
+            {
+              "plaintext_index": 51,
+              "pair": "VG",
+              "domain": "E",
+              "label": "E",
+              "model_coordinate_indices": [
+                41,
+                118
+              ],
+              "source_coordinate_indices": [
+                41,
+                118
+              ]
+            },
+            {
+              "plaintext_index": 52,
+              "pair": "AD",
+              "domain": "I",
+              "label": "I",
+              "model_coordinate_indices": [
+                55,
+                132
+              ],
+              "source_coordinate_indices": [
+                55,
+                132
+              ]
+            },
+            {
+              "plaintext_index": 53,
+              "pair": "FX",
+              "domain": "T",
+              "label": "T",
+              "model_coordinate_indices": [
+                5,
+                90
+              ],
+              "source_coordinate_indices": [
+                5,
+                90
+              ]
+            },
+            {
+              "plaintext_index": 54,
+              "pair": "VG",
+              "domain": "E",
+              "label": "E",
+              "model_coordinate_indices": [
+                69,
+                12
+              ],
+              "source_coordinate_indices": [
+                69,
+                12
+              ]
+            },
+            {
+              "plaintext_index": 55,
+              "pair": "GG",
+              "domain": "N",
+              "label": "N",
+              "model_coordinate_indices": [
+                97,
+                76
+              ],
+              "source_coordinate_indices": [
+                97,
+                76
+              ]
+            },
+            {
+              "plaintext_index": 56,
+              "pair": "DX",
+              "domain": "X",
+              "label": "X",
+              "model_coordinate_indices": [
+                62,
+                34
+              ],
+              "source_coordinate_indices": [
+                62,
+                34
+              ]
+            },
+            {
+              "plaintext_index": 57,
+              "pair": "XG",
+              "domain": "A",
+              "label": "A",
+              "model_coordinate_indices": [
+                20,
+                112
+              ],
+              "source_coordinate_indices": [
+                20,
+                112
+              ]
+            },
+            {
+              "plaintext_index": 58,
+              "pair": "VV",
+              "domain": "K",
+              "label": "K",
+              "model_coordinate_indices": [
+                28,
+                105
+              ],
+              "source_coordinate_indices": [
+                28,
+                105
+              ]
+            },
+            {
+              "plaintext_index": 59,
+              "pair": "AG",
+              "domain": "O",
+              "label": "O",
+              "model_coordinate_indices": [
+                49,
+                84
+              ],
+              "source_coordinate_indices": [
+                49,
+                84
+              ]
+            },
+            {
+              "plaintext_index": 60,
+              "pair": "GG",
+              "domain": "N",
+              "label": "N",
+              "model_coordinate_indices": [
+                126,
+                42
+              ],
+              "source_coordinate_indices": [
+                126,
+                42
+              ]
+            },
+            {
+              "plaintext_index": 61,
+              "pair": "XG",
+              "domain": "A",
+              "label": "A",
+              "model_coordinate_indices": [
+                119,
+                56
+              ],
+              "source_coordinate_indices": [
+                119,
+                56
+              ]
+            },
+            {
+              "plaintext_index": 62,
+              "pair": "DD",
+              "domain": "C",
+              "label": "C",
+              "model_coordinate_indices": [
+                133,
+                6
+              ],
+              "source_coordinate_indices": [
+                null,
+                6
+              ]
+            },
+            {
+              "plaintext_index": 63,
+              "pair": "VF",
+              "domain": "H",
+              "label": "H",
+              "model_coordinate_indices": [
+                91,
+                70
+              ],
+              "source_coordinate_indices": [
+                91,
+                70
+              ]
+            },
+            {
+              "plaintext_index": 64,
+              "pair": "VG",
+              "domain": "E",
+              "label": "E",
+              "model_coordinate_indices": [
+                13,
+                98
+              ],
+              "source_coordinate_indices": [
+                13,
+                98
+              ]
+            },
+            {
+              "plaintext_index": 65,
+              "pair": "AF",
+              "domain": "L",
+              "label": "L",
+              "model_coordinate_indices": [
+                77,
+                63
+              ],
+              "source_coordinate_indices": [
+                77,
+                63
+              ]
+            },
+            {
+              "plaintext_index": 66,
+              "pair": "AV",
+              "domain": "F",
+              "label": "F",
+              "model_coordinate_indices": [
+                35,
+                21
+              ],
+              "source_coordinate_indices": [
+                35,
+                21
+              ]
+            }
+          ],
+          "changes": [
+            {
+              "model_index": 5,
+              "source_index": 5,
+              "before": "-",
+              "after": "F",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 2,
+                "character_in_group_1based": 1
+              }
+            },
+            {
+              "model_index": 6,
+              "source_index": 6,
+              "before": "-",
+              "after": "D",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 2,
+                "character_in_group_1based": 2
+              }
+            },
+            {
+              "model_index": 7,
+              "source_index": 7,
+              "before": "-",
+              "after": "G",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 2,
+                "character_in_group_1based": 3
+              }
+            },
+            {
+              "model_index": 8,
+              "source_index": 8,
+              "before": "-",
+              "after": "F",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 2,
+                "character_in_group_1based": 4
+              }
+            },
+            {
+              "model_index": 9,
+              "source_index": 9,
+              "before": "-",
+              "after": "V",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 2,
+                "character_in_group_1based": 5
+              }
+            },
+            {
+              "model_index": 10,
+              "source_index": 10,
+              "before": "-",
+              "after": "X",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 3,
+                "character_in_group_1based": 1
+              }
+            },
+            {
+              "model_index": 11,
+              "source_index": 11,
+              "before": "-",
+              "after": "F",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 3,
+                "character_in_group_1based": 2
+              }
+            },
+            {
+              "model_index": 12,
+              "source_index": 12,
+              "before": "-",
+              "after": "G",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 3,
+                "character_in_group_1based": 3
+              }
+            },
+            {
+              "model_index": 13,
+              "source_index": 13,
+              "before": "-",
+              "after": "V",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 3,
+                "character_in_group_1based": 4
+              }
+            },
+            {
+              "model_index": 14,
+              "source_index": 14,
+              "before": "-",
+              "after": "V",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 3,
+                "character_in_group_1based": 5
+              }
+            },
+            {
+              "model_index": 15,
+              "source_index": 15,
+              "before": "-",
+              "after": "G",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 4,
+                "character_in_group_1based": 1
+              }
+            },
+            {
+              "model_index": 16,
+              "source_index": 16,
+              "before": "-",
+              "after": "V",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 4,
+                "character_in_group_1based": 2
+              }
+            },
+            {
+              "model_index": 17,
+              "source_index": 17,
+              "before": "-",
+              "after": "V",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 4,
+                "character_in_group_1based": 3
+              }
+            },
+            {
+              "model_index": 19,
+              "source_index": 19,
+              "before": "-",
+              "after": "G",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 4,
+                "character_in_group_1based": 5
+              }
+            },
+            {
+              "model_index": 20,
+              "source_index": 20,
+              "before": "-",
+              "after": "X",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 5,
+                "character_in_group_1based": 1
+              }
+            },
+            {
+              "model_index": 21,
+              "source_index": 21,
+              "before": "-",
+              "after": "V",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 5,
+                "character_in_group_1based": 2
+              }
+            },
+            {
+              "model_index": 22,
+              "source_index": 22,
+              "before": "-",
+              "after": "D",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 5,
+                "character_in_group_1based": 3
+              }
+            },
+            {
+              "model_index": 23,
+              "source_index": 23,
+              "before": "-",
+              "after": "A",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 5,
+                "character_in_group_1based": 4
+              }
+            },
+            {
+              "model_index": 24,
+              "source_index": 24,
+              "before": "-",
+              "after": "D",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 5,
+                "character_in_group_1based": 5
+              }
+            },
+            {
+              "model_index": 25,
+              "source_index": 25,
+              "before": "-",
+              "after": "F",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 6,
+                "character_in_group_1based": 1
+              }
+            },
+            {
+              "model_index": 38,
+              "source_index": 38,
+              "before": "E",
+              "after": "G",
+              "kind": "source_mask_fill",
+              "source_location": {
+                "row_1based": 1,
+                "group_in_row_1based": 8,
+                "character_in_group_1based": 4
+              }
+            },
+            {
+              "model_index": 133,
+              "source_index": null,
+              "before": "?",
+              "after": "D",
+              "kind": "missing_coordinate_fill",
+              "source_location": null
+            }
+          ],
+          "costs": {
+            "known_coordinate_substitution": 0,
+            "source_mask_fill": 21,
+            "missing_coordinate_fill": 1
+          },
+          "arbitrary_complete_plaintext_witness": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENXWIFIEDRINGBAHNZEITENXAKONACHELF",
+          "arbitrary_witness_ciphertext": "XXVGDFDGFVXFGVVGVVAGXVDADFAFVAADDXXADVGFAVGGVDGVGAXAAVAAGGAAAVDFGFGDGVFDVDFGGAVDGAGDGVGVGGXVGAFGFGGADAVDGVGDGDVVGFFDXDGXADVDGFGFFVGADD",
+          "witness_limit": "The arbitrary completion verifies partial-stream consistency; unknown labels are not accepted as plaintext."
+        }
       },
       "optional_WIEDER_candidate": {
         "plaintext": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENXWIEDERRINGBAHNZEITENXAKONACHELF",
@@ -4547,7 +5808,209 @@
         },
         "arbitrary_complete_plaintext_witness": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENXWIEDERRINGBAHNZEITENXAKONACHELF",
         "arbitrary_witness_ciphertext": "XXVGDFDGFVXFGVVGVVVGXVDADFGFVAADDXXADVGFAVGGVDGVGAXAAVAAGGAAAVDFGFGDGVFDVDFGGAVDGAGDGVGVGGXVGAFGFGGADAVAGVGDGDGVGFFDXDGXADVDDFGFFVGADD",
-        "witness_limit": "The arbitrary completion verifies partial-stream consistency; unknown labels are not accepted as plaintext."
+        "witness_limit": "The arbitrary completion verifies partial-stream consistency; unknown labels are not accepted as plaintext.",
+        "disposition": "The earlier WIEDER alternative is retained as a more costly hypothesis: 3 observed substitutions, 24 source-mask fills and 1 missing-coordinate fill. It is not counted in the primary totals and has no independent phrase witness."
+      },
+      "conditional_between_phrase": {
+        "plaintext_span_half_open": [
+          35,
+          42
+        ],
+        "raw_span": "?WI??E?",
+        "earlier_span": "XWI??E?",
+        "current_literal_span": "ZWISCEN",
+        "positions": [
+          {
+            "plaintext_index": 35,
+            "raw": {
+              "plaintext_index": 35,
+              "pair": "D-",
+              "domain": "RCZVSX",
+              "label": "?",
+              "model_coordinate_indices": [
+                67,
+                10
+              ],
+              "source_coordinate_indices": [
+                67,
+                10
+              ]
+            },
+            "earlier_label": "X",
+            "current_label": "Z",
+            "completed_pair": "DF"
+          },
+          {
+            "plaintext_index": 36,
+            "raw": {
+              "plaintext_index": 36,
+              "pair": "GF",
+              "domain": "W",
+              "label": "W",
+              "model_coordinate_indices": [
+                95,
+                74
+              ],
+              "source_coordinate_indices": [
+                95,
+                74
+              ]
+            },
+            "earlier_label": "W",
+            "current_label": "W",
+            "completed_pair": "GF"
+          },
+          {
+            "plaintext_index": 37,
+            "raw": {
+              "plaintext_index": 37,
+              "pair": "AD",
+              "domain": "I",
+              "label": "I",
+              "model_coordinate_indices": [
+                60,
+                32
+              ],
+              "source_coordinate_indices": [
+                60,
+                32
+              ]
+            },
+            "earlier_label": "I",
+            "current_label": "I",
+            "completed_pair": "AD"
+          },
+          {
+            "plaintext_index": 38,
+            "raw": {
+              "plaintext_index": 38,
+              "pair": "-V",
+              "domain": "FSQBK3",
+              "label": "?",
+              "model_coordinate_indices": [
+                18,
+                110
+              ],
+              "source_coordinate_indices": [
+                18,
+                110
+              ]
+            },
+            "earlier_label": "?",
+            "current_label": "S",
+            "completed_pair": "DV"
+          },
+          {
+            "plaintext_index": 39,
+            "raw": {
+              "plaintext_index": 39,
+              "pair": "-D",
+              "domain": "IC28M4",
+              "label": "?",
+              "model_coordinate_indices": [
+                26,
+                103
+              ],
+              "source_coordinate_indices": [
+                26,
+                103
+              ]
+            },
+            "earlier_label": "?",
+            "current_label": "C",
+            "completed_pair": "DD"
+          },
+          {
+            "plaintext_index": 40,
+            "raw": {
+              "plaintext_index": 40,
+              "pair": "VG",
+              "domain": "E",
+              "label": "E",
+              "model_coordinate_indices": [
+                47,
+                82
+              ],
+              "source_coordinate_indices": [
+                47,
+                82
+              ]
+            },
+            "earlier_label": "E",
+            "current_label": "E",
+            "completed_pair": "VG"
+          },
+          {
+            "plaintext_index": 41,
+            "raw": {
+              "plaintext_index": 41,
+              "pair": "GE",
+              "domain": "D8WNB5",
+              "label": "?",
+              "model_coordinate_indices": [
+                124,
+                40
+              ],
+              "source_coordinate_indices": [
+                124,
+                40
+              ]
+            },
+            "earlier_label": "?",
+            "current_label": "N",
+            "completed_pair": "GG"
+          }
+        ],
+        "mask_completion_changes_from_earlier_edition": [
+          {
+            "source_index": 10,
+            "printed": "-",
+            "earlier_completion": "X",
+            "current_completion": "F",
+            "source_location": {
+              "row_1based": 1,
+              "group_in_row_1based": 3,
+              "character_in_group_1based": 1
+            }
+          },
+          {
+            "source_index": 18,
+            "printed": "-",
+            "earlier_completion": "-",
+            "current_completion": "D",
+            "source_location": {
+              "row_1based": 1,
+              "group_in_row_1based": 4,
+              "character_in_group_1based": 4
+            }
+          },
+          {
+            "source_index": 26,
+            "printed": "-",
+            "earlier_completion": "-",
+            "current_completion": "D",
+            "source_location": {
+              "row_1based": 1,
+              "group_in_row_1based": 6,
+              "character_in_group_1based": 2
+            }
+          },
+          {
+            "source_index": 40,
+            "printed": "E",
+            "earlier_completion": "E",
+            "current_completion": "G",
+            "source_location": {
+              "row_1based": 2,
+              "group_in_row_1based": 1,
+              "character_in_group_1based": 1
+            }
+          }
+        ],
+        "compatible_local_completions_before_language_choice": 1296,
+        "all_valid_source_coordinates_retained_unchanged": 109,
+        "note": "Under the declared 134-slot frame, raw plaintext 35:42 is ?WI??E?. The earlier X at position 35 was an editorial separator supplied through source dash 10, not an observed plaintext label. Choosing ZWISCEN retains all 109 observed coordinates: dash 10 is filled F instead of the earlier X; newly completed masks 18,26,40 are D,D,G. The word is a contextual zero-substitution fill candidate, not a unique recovery or a new observation. Display-only [h] is excluded from the encrypted labels.",
+        "limits": "The earlier X separator was a mask completion, not an observation. ZWISCEN is one contextual completion of four half-observed positions. The bracketed display h is not encrypted; no independently matching phrase or unique historical wording is asserted."
       },
       "fixed_template_geometry": {
         "completed_configurations": 134,
@@ -4559,499 +6022,499 @@
         "all_layout_costs": [
           {
             "insertion_boundary": 0,
-            "observed_mismatch_count": 88
+            "observed_mismatch_count": 92
           },
           {
             "insertion_boundary": 1,
-            "observed_mismatch_count": 88
+            "observed_mismatch_count": 92
           },
           {
             "insertion_boundary": 2,
-            "observed_mismatch_count": 87
+            "observed_mismatch_count": 91
           },
           {
             "insertion_boundary": 3,
-            "observed_mismatch_count": 86
+            "observed_mismatch_count": 90
           },
           {
             "insertion_boundary": 4,
-            "observed_mismatch_count": 85
+            "observed_mismatch_count": 89
           },
           {
             "insertion_boundary": 5,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 6,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 7,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 8,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 9,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 10,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 11,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 12,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 13,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 14,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 15,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 16,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 17,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 18,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 19,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 20,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 21,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 22,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 23,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 24,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 25,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 26,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 27,
-            "observed_mismatch_count": 84
+            "observed_mismatch_count": 88
           },
           {
             "insertion_boundary": 28,
-            "observed_mismatch_count": 83
+            "observed_mismatch_count": 87
           },
           {
             "insertion_boundary": 29,
-            "observed_mismatch_count": 82
+            "observed_mismatch_count": 86
           },
           {
             "insertion_boundary": 30,
-            "observed_mismatch_count": 82
+            "observed_mismatch_count": 86
           },
           {
             "insertion_boundary": 31,
-            "observed_mismatch_count": 81
+            "observed_mismatch_count": 85
           },
           {
             "insertion_boundary": 32,
-            "observed_mismatch_count": 81
+            "observed_mismatch_count": 85
           },
           {
             "insertion_boundary": 33,
-            "observed_mismatch_count": 80
+            "observed_mismatch_count": 84
           },
           {
             "insertion_boundary": 34,
-            "observed_mismatch_count": 80
+            "observed_mismatch_count": 84
           },
           {
             "insertion_boundary": 35,
-            "observed_mismatch_count": 79
+            "observed_mismatch_count": 83
           },
           {
             "insertion_boundary": 36,
-            "observed_mismatch_count": 78
+            "observed_mismatch_count": 82
           },
           {
             "insertion_boundary": 37,
-            "observed_mismatch_count": 77
+            "observed_mismatch_count": 81
           },
           {
             "insertion_boundary": 38,
-            "observed_mismatch_count": 76
+            "observed_mismatch_count": 80
           },
           {
             "insertion_boundary": 39,
-            "observed_mismatch_count": 76
+            "observed_mismatch_count": 80
           },
           {
             "insertion_boundary": 40,
-            "observed_mismatch_count": 76
+            "observed_mismatch_count": 79
           },
           {
             "insertion_boundary": 41,
-            "observed_mismatch_count": 76
+            "observed_mismatch_count": 79
           },
           {
             "insertion_boundary": 42,
-            "observed_mismatch_count": 75
+            "observed_mismatch_count": 78
           },
           {
             "insertion_boundary": 43,
-            "observed_mismatch_count": 75
+            "observed_mismatch_count": 78
           },
           {
             "insertion_boundary": 44,
-            "observed_mismatch_count": 74
+            "observed_mismatch_count": 77
           },
           {
             "insertion_boundary": 45,
-            "observed_mismatch_count": 73
+            "observed_mismatch_count": 76
           },
           {
             "insertion_boundary": 46,
-            "observed_mismatch_count": 72
+            "observed_mismatch_count": 75
           },
           {
             "insertion_boundary": 47,
-            "observed_mismatch_count": 71
+            "observed_mismatch_count": 74
           },
           {
             "insertion_boundary": 48,
-            "observed_mismatch_count": 70
+            "observed_mismatch_count": 73
           },
           {
             "insertion_boundary": 49,
-            "observed_mismatch_count": 69
+            "observed_mismatch_count": 72
           },
           {
             "insertion_boundary": 50,
-            "observed_mismatch_count": 68
+            "observed_mismatch_count": 71
           },
           {
             "insertion_boundary": 51,
-            "observed_mismatch_count": 67
+            "observed_mismatch_count": 70
           },
           {
             "insertion_boundary": 52,
-            "observed_mismatch_count": 67
+            "observed_mismatch_count": 70
           },
           {
             "insertion_boundary": 53,
-            "observed_mismatch_count": 66
+            "observed_mismatch_count": 69
           },
           {
             "insertion_boundary": 54,
-            "observed_mismatch_count": 65
+            "observed_mismatch_count": 68
           },
           {
             "insertion_boundary": 55,
-            "observed_mismatch_count": 65
+            "observed_mismatch_count": 68
           },
           {
             "insertion_boundary": 56,
-            "observed_mismatch_count": 64
+            "observed_mismatch_count": 67
           },
           {
             "insertion_boundary": 57,
-            "observed_mismatch_count": 64
+            "observed_mismatch_count": 67
           },
           {
             "insertion_boundary": 58,
-            "observed_mismatch_count": 63
+            "observed_mismatch_count": 66
           },
           {
             "insertion_boundary": 59,
-            "observed_mismatch_count": 63
+            "observed_mismatch_count": 66
           },
           {
             "insertion_boundary": 60,
-            "observed_mismatch_count": 63
+            "observed_mismatch_count": 66
           },
           {
             "insertion_boundary": 61,
-            "observed_mismatch_count": 62
+            "observed_mismatch_count": 65
           },
           {
             "insertion_boundary": 62,
-            "observed_mismatch_count": 61
+            "observed_mismatch_count": 64
           },
           {
             "insertion_boundary": 63,
-            "observed_mismatch_count": 60
+            "observed_mismatch_count": 63
           },
           {
             "insertion_boundary": 64,
-            "observed_mismatch_count": 59
+            "observed_mismatch_count": 62
           },
           {
             "insertion_boundary": 65,
-            "observed_mismatch_count": 58
+            "observed_mismatch_count": 61
           },
           {
             "insertion_boundary": 66,
-            "observed_mismatch_count": 57
+            "observed_mismatch_count": 60
           },
           {
             "insertion_boundary": 67,
-            "observed_mismatch_count": 56
+            "observed_mismatch_count": 59
           },
           {
             "insertion_boundary": 68,
-            "observed_mismatch_count": 55
+            "observed_mismatch_count": 58
           },
           {
             "insertion_boundary": 69,
-            "observed_mismatch_count": 54
+            "observed_mismatch_count": 57
           },
           {
             "insertion_boundary": 70,
-            "observed_mismatch_count": 53
+            "observed_mismatch_count": 56
           },
           {
             "insertion_boundary": 71,
-            "observed_mismatch_count": 52
+            "observed_mismatch_count": 55
           },
           {
             "insertion_boundary": 72,
-            "observed_mismatch_count": 51
+            "observed_mismatch_count": 54
           },
           {
             "insertion_boundary": 73,
-            "observed_mismatch_count": 50
+            "observed_mismatch_count": 53
           },
           {
             "insertion_boundary": 74,
-            "observed_mismatch_count": 49
+            "observed_mismatch_count": 52
           },
           {
             "insertion_boundary": 75,
-            "observed_mismatch_count": 48
+            "observed_mismatch_count": 51
           },
           {
             "insertion_boundary": 76,
-            "observed_mismatch_count": 48
+            "observed_mismatch_count": 51
           },
           {
             "insertion_boundary": 77,
-            "observed_mismatch_count": 47
+            "observed_mismatch_count": 50
           },
           {
             "insertion_boundary": 78,
-            "observed_mismatch_count": 46
+            "observed_mismatch_count": 49
           },
           {
             "insertion_boundary": 79,
-            "observed_mismatch_count": 45
+            "observed_mismatch_count": 48
           },
           {
             "insertion_boundary": 80,
-            "observed_mismatch_count": 44
+            "observed_mismatch_count": 47
           },
           {
             "insertion_boundary": 81,
-            "observed_mismatch_count": 43
+            "observed_mismatch_count": 46
           },
           {
             "insertion_boundary": 82,
-            "observed_mismatch_count": 42
+            "observed_mismatch_count": 45
           },
           {
             "insertion_boundary": 83,
-            "observed_mismatch_count": 41
+            "observed_mismatch_count": 44
           },
           {
             "insertion_boundary": 84,
-            "observed_mismatch_count": 40
+            "observed_mismatch_count": 43
           },
           {
             "insertion_boundary": 85,
-            "observed_mismatch_count": 39
+            "observed_mismatch_count": 42
           },
           {
             "insertion_boundary": 86,
-            "observed_mismatch_count": 38
+            "observed_mismatch_count": 41
           },
           {
             "insertion_boundary": 87,
-            "observed_mismatch_count": 37
+            "observed_mismatch_count": 40
           },
           {
             "insertion_boundary": 88,
-            "observed_mismatch_count": 36
+            "observed_mismatch_count": 39
           },
           {
             "insertion_boundary": 89,
-            "observed_mismatch_count": 36
+            "observed_mismatch_count": 39
           },
           {
             "insertion_boundary": 90,
-            "observed_mismatch_count": 35
+            "observed_mismatch_count": 38
           },
           {
             "insertion_boundary": 91,
-            "observed_mismatch_count": 34
+            "observed_mismatch_count": 37
           },
           {
             "insertion_boundary": 92,
-            "observed_mismatch_count": 33
+            "observed_mismatch_count": 36
           },
           {
             "insertion_boundary": 93,
-            "observed_mismatch_count": 32
+            "observed_mismatch_count": 35
           },
           {
             "insertion_boundary": 94,
-            "observed_mismatch_count": 31
+            "observed_mismatch_count": 34
           },
           {
             "insertion_boundary": 95,
-            "observed_mismatch_count": 30
+            "observed_mismatch_count": 33
           },
           {
             "insertion_boundary": 96,
-            "observed_mismatch_count": 29
+            "observed_mismatch_count": 32
           },
           {
             "insertion_boundary": 97,
-            "observed_mismatch_count": 28
+            "observed_mismatch_count": 31
           },
           {
             "insertion_boundary": 98,
-            "observed_mismatch_count": 28
+            "observed_mismatch_count": 31
           },
           {
             "insertion_boundary": 99,
-            "observed_mismatch_count": 27
+            "observed_mismatch_count": 30
           },
           {
             "insertion_boundary": 100,
-            "observed_mismatch_count": 26
+            "observed_mismatch_count": 29
           },
           {
             "insertion_boundary": 101,
-            "observed_mismatch_count": 25
+            "observed_mismatch_count": 28
           },
           {
             "insertion_boundary": 102,
-            "observed_mismatch_count": 24
+            "observed_mismatch_count": 27
           },
           {
             "insertion_boundary": 103,
-            "observed_mismatch_count": 24
+            "observed_mismatch_count": 26
           },
           {
             "insertion_boundary": 104,
-            "observed_mismatch_count": 23
+            "observed_mismatch_count": 25
           },
           {
             "insertion_boundary": 105,
-            "observed_mismatch_count": 22
+            "observed_mismatch_count": 24
           },
           {
             "insertion_boundary": 106,
-            "observed_mismatch_count": 21
+            "observed_mismatch_count": 23
           },
           {
             "insertion_boundary": 107,
-            "observed_mismatch_count": 20
+            "observed_mismatch_count": 22
           },
           {
             "insertion_boundary": 108,
-            "observed_mismatch_count": 19
+            "observed_mismatch_count": 21
           },
           {
             "insertion_boundary": 109,
-            "observed_mismatch_count": 18
+            "observed_mismatch_count": 20
           },
           {
             "insertion_boundary": 110,
-            "observed_mismatch_count": 18
+            "observed_mismatch_count": 19
           },
           {
             "insertion_boundary": 111,
-            "observed_mismatch_count": 18
+            "observed_mismatch_count": 19
           },
           {
             "insertion_boundary": 112,
-            "observed_mismatch_count": 17
+            "observed_mismatch_count": 18
           },
           {
             "insertion_boundary": 113,
-            "observed_mismatch_count": 16
+            "observed_mismatch_count": 17
           },
           {
             "insertion_boundary": 114,
-            "observed_mismatch_count": 16
+            "observed_mismatch_count": 17
           },
           {
             "insertion_boundary": 115,
-            "observed_mismatch_count": 15
+            "observed_mismatch_count": 16
           },
           {
             "insertion_boundary": 116,
-            "observed_mismatch_count": 14
+            "observed_mismatch_count": 15
           },
           {
             "insertion_boundary": 117,
-            "observed_mismatch_count": 13
+            "observed_mismatch_count": 14
           },
           {
             "insertion_boundary": 118,
-            "observed_mismatch_count": 12
+            "observed_mismatch_count": 13
           },
           {
             "insertion_boundary": 119,
-            "observed_mismatch_count": 11
+            "observed_mismatch_count": 12
           },
           {
             "insertion_boundary": 120,
-            "observed_mismatch_count": 10
+            "observed_mismatch_count": 11
           },
           {
             "insertion_boundary": 121,
-            "observed_mismatch_count": 9
+            "observed_mismatch_count": 10
           },
           {
             "insertion_boundary": 122,
-            "observed_mismatch_count": 8
+            "observed_mismatch_count": 9
           },
           {
             "insertion_boundary": 123,
-            "observed_mismatch_count": 7
+            "observed_mismatch_count": 8
           },
           {
             "insertion_boundary": 124,
@@ -5236,10 +6699,10 @@
             "raw_plaintext": "??BITTE?V??SCHLA?FU??V?RKE?R??EITEN?WI??E?RIN?B?HNZE???NX?KONA?H?L?",
             "costs": {
               "known_coordinate_substitution": 0,
-              "source_mask_fill": 21,
+              "source_mask_fill": 24,
               "missing_coordinate_fill": 1
             },
-            "ciphertext": "XXVGDFDGFVXFGVVGVV-GXVDADF-FVAADDXXADVGFEVGGVDGVGAXAAVAAGGAAAVDFGFGDGVFDVDFGGAVDGAGDGVGVGGXVGAFGFGGADAVDGVGDGDVVGFFDXDGXADVDGFGFFVGADD",
+            "ciphertext": "XXVGDFDGFVFFGVVGVVDGXVDADFDFVAADDXXADVGFGVGGVDGVGAXAAVAAGGAAAVDFGFGDGVFDVDFGGAVDGAGDGVGVGGXVGAFGFGGADAVDGVGDGDVVGFFDXDGXADVDGFGFFVGADD",
             "changes": [
               {
                 "model_index": 5,
@@ -5305,7 +6768,7 @@
                 "model_index": 10,
                 "source_index": 10,
                 "before": "-",
-                "after": "X",
+                "after": "F",
                 "kind": "source_mask_fill",
                 "source_location": {
                   "row_1based": 1,
@@ -5398,6 +6861,18 @@
                 }
               },
               {
+                "model_index": 18,
+                "source_index": 18,
+                "before": "-",
+                "after": "D",
+                "kind": "source_mask_fill",
+                "source_location": {
+                  "row_1based": 1,
+                  "group_in_row_1based": 4,
+                  "character_in_group_1based": 4
+                }
+              },
+              {
                 "model_index": 19,
                 "source_index": 19,
                 "before": "-",
@@ -5482,6 +6957,18 @@
                 }
               },
               {
+                "model_index": 26,
+                "source_index": 26,
+                "before": "-",
+                "after": "D",
+                "kind": "source_mask_fill",
+                "source_location": {
+                  "row_1based": 1,
+                  "group_in_row_1based": 6,
+                  "character_in_group_1based": 2
+                }
+              },
+              {
                 "model_index": 38,
                 "source_index": 38,
                 "before": "E",
@@ -5491,6 +6978,18 @@
                   "row_1based": 1,
                   "group_in_row_1based": 8,
                   "character_in_group_1based": 4
+                }
+              },
+              {
+                "model_index": 40,
+                "source_index": 40,
+                "before": "E",
+                "after": "G",
+                "kind": "source_mask_fill",
+                "source_location": {
+                  "row_1based": 2,
+                  "group_in_row_1based": 1,
+                  "character_in_group_1based": 1
                 }
               },
               {
@@ -5644,10 +7143,10 @@
             "raw_plaintext": "??BITTE?V??SCHLA?FU??V?RKE?R??EITEN?WI??E?RIN?B?HNZEI??NX?KONA?H?L?",
             "costs": {
               "known_coordinate_substitution": 0,
-              "source_mask_fill": 21,
+              "source_mask_fill": 24,
               "missing_coordinate_fill": 1
             },
-            "ciphertext": "XXVGDFDGFVXFGVVGVV-GXVDADF-FVAADDXXADVGFEVGGVDGVGAXAAVAAGGAAAVDFGFGDGVFDVDFGGAVDGAGDGVGVGGXVGAFGFGGADAVDGVGDGDVVGFFDXDGXADVDGFGFFVGADD",
+            "ciphertext": "XXVGDFDGFVFFGVVGVVDGXVDADFDFVAADDXXADVGFGVGGVDGVGAXAAVAAGGAAAVDFGFGDGVFDVDFGGAVDGAGDGVGVGGXVGAFGFGGADAVDGVGDGDVVGFFDXDGXADVDGFGFFVGADD",
             "changes": [
               {
                 "model_index": 5,
@@ -5713,7 +7212,7 @@
                 "model_index": 10,
                 "source_index": 10,
                 "before": "-",
-                "after": "X",
+                "after": "F",
                 "kind": "source_mask_fill",
                 "source_location": {
                   "row_1based": 1,
@@ -5806,6 +7305,18 @@
                 }
               },
               {
+                "model_index": 18,
+                "source_index": 18,
+                "before": "-",
+                "after": "D",
+                "kind": "source_mask_fill",
+                "source_location": {
+                  "row_1based": 1,
+                  "group_in_row_1based": 4,
+                  "character_in_group_1based": 4
+                }
+              },
+              {
                 "model_index": 19,
                 "source_index": 19,
                 "before": "-",
@@ -5890,6 +7401,18 @@
                 }
               },
               {
+                "model_index": 26,
+                "source_index": 26,
+                "before": "-",
+                "after": "D",
+                "kind": "source_mask_fill",
+                "source_location": {
+                  "row_1based": 1,
+                  "group_in_row_1based": 6,
+                  "character_in_group_1based": 2
+                }
+              },
+              {
                 "model_index": 38,
                 "source_index": 38,
                 "before": "E",
@@ -5899,6 +7422,18 @@
                   "row_1based": 1,
                   "group_in_row_1based": 8,
                   "character_in_group_1based": 4
+                }
+              },
+              {
+                "model_index": 40,
+                "source_index": 40,
+                "before": "E",
+                "after": "G",
+                "kind": "source_mask_fill",
+                "source_location": {
+                  "row_1based": 2,
+                  "group_in_row_1based": 1,
+                  "character_in_group_1based": 1
                 }
               },
               {
@@ -9740,7 +11275,8 @@
         "normalized_display": "FUEROHLABENDMELDGSAVEISTVON30IDMITHAUPTTEILENVONGK39GANZUEBERSCHRITTEN",
         "retained_non_X_labels": 70,
         "unknown_positions": [],
-        "method": "Uppercase and retain A-Z, digits and question marks; the result must equal every non-X label in the cited stream."
+        "display_only_expansions": [],
+        "method": "Remove only the explicitly declared bracketed display letters, then uppercase and retain A-Z, digits and question marks. The result must equal every non-X label in the cited stream."
       }
     },
     {
@@ -12978,7 +14514,8 @@
         "normalized_display": "OHLOPDIENSTPOSTFUERAOKELFNACHGARNISONKOMMANDOGLEIWITZOS",
         "retained_non_X_labels": 55,
         "unknown_positions": [],
-        "method": "Uppercase and retain A-Z, digits and question marks; the result must equal every non-X label in the cited stream."
+        "display_only_expansions": [],
+        "method": "Remove only the explicitly declared bracketed display letters, then uppercase and retain A-Z, digits and question marks. The result must equal every non-X label in the cited stream."
       }
     },
     {
@@ -15326,7 +16863,8 @@
         "normalized_display": "DORTABHOLUNGDURCHFLUGZEUGAOKELFRMLDNR7011",
         "retained_non_X_labels": 41,
         "unknown_positions": [],
-        "method": "Uppercase and retain A-Z, digits and question marks; the result must equal every non-X label in the cited stream."
+        "display_only_expansions": [],
+        "method": "Remove only the explicitly declared bracketed display letters, then uppercase and retain A-Z, digits and question marks. The result must equal every non-X label in the cited stream."
       }
     },
     {
@@ -17570,7 +19108,8 @@
         "normalized_display": "ANOHLEINSANR11127GAHOPERHALTENEOK11",
         "retained_non_X_labels": 35,
         "unknown_positions": [],
-        "method": "Uppercase and retain A-Z, digits and question marks; the result must equal every non-X label in the cited stream."
+        "display_only_expansions": [],
+        "method": "Remove only the explicitly declared bracketed display letters, then uppercase and retain A-Z, digits and question marks. The result must equal every non-X label in the cited stream."
       }
     }
   ],
@@ -17596,7 +19135,7 @@
   "limits": [
     "The p99 A source really has 133 slots and advertises 133. A 134-slot frame with one inserted coordinate is an explicit conditional model, not a corrected source transcription.",
     "p99 A retains all 133 source slots, including 22 printed dashes and two E glyphs. Two equally minimum fixed-template insertions at 132/133 produce the same edited stream; appending is the displayed convention.",
-    "The primary A template keeps three unknown labels in WI??E? and changes no observed coordinate. WIEDER is an optional three-substitution hypothesis, not independently established by the neighboring Ringbahn notices.",
+    "The conditional A template reads literal ZWISCEN at zero observed substitutions, after 24 printed-mask fills and 1 missing-coordinate fill. The display-only bracketed h is not encrypted. The earlier partial template and three-substitution WIEDER hypothesis remain separately costed; neighboring Ringbahn notices do not independently establish this whole phrase.",
     "C1 supplies 14 source masks and changes the observed three-letter group AAA to DGV. Those are explicit proposed edits. The group is not silently treated as a dash or an omission.",
     "Unknown fills are editorial constraints, not a proof of uniqueness or a recovered historical plaintext.",
     "Unit numbers 30/39, references 11127/7011, source dates, and odd literal closings remain unchanged. No unit identity or troop movement is inferred beyond the decoded words.",

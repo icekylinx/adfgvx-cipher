@@ -88,6 +88,26 @@ def source_locations(rows):
     return result
 
 
+def readable_labels(record, template):
+    """Remove only explicitly declared bracketed display letters."""
+    display = record['readable_german']
+    expansions = record.get('readable_expansions', [])
+    for item in expansions:
+        fragment = item['display']
+        supplied = ''.join(re.findall(r'\[([A-Za-z]+)\]', fragment)).upper()
+        literal = re.sub(r'\[[A-Za-z]+\]', '', fragment).upper()
+        assert supplied == item['supplied_display_letters']
+        assert literal == item['literal']
+        start = item['plaintext_start']
+        assert template[start:start + len(literal)] == literal
+        assert display.count(fragment) == 1
+        display = display.replace(fragment, literal)
+    assert '[' not in display and ']' not in display
+    normalized = ''.join(re.findall('[A-Z0-9?]', display.upper()))
+    assert normalized == template.replace('X', '')
+    return normalized, expansions
+
+
 def apply_template(source, key, template, origin_map, locations):
     constraints = encrypt_constraints(template, key)
     assert len(constraints) == len(source)
@@ -202,8 +222,7 @@ def build(pdf=None, quad=None):
         loc = source_locations(r['rows'])
         edited = apply_template(model, key, r['editorial_template'], mapping, loc)
         assert [[c['model_index'], c['before'], c['after']] for c in edited['changes']] == r['expected_changes']
-        normalized = ''.join(re.findall('[A-Z0-9?]', r['readable_german'].upper()))
-        assert normalized == edited['plaintext'].replace('X', '')
+        normalized, expansions = readable_labels(r, edited['plaintext'])
         case = HERE.parents[1] / r['case_path']
         quotes = [line[2:].replace('`', '') for line in case.read_text().splitlines() if line.startswith('> ')]
         assert quotes.count(r['readable_german']) == 1, (r['id'], 'Exact readable display missing or duplicated')
@@ -221,11 +240,63 @@ def build(pdf=None, quad=None):
                'readable_mapping': {'normalized_display': normalized,
                                     'retained_non_X_labels': len(normalized),
                                     'unknown_positions': [i for i, c in enumerate(normalized) if c == '?'],
-                                    'method': 'Uppercase and retain A-Z, digits and question marks; the result must equal every non-X label in the cited stream.'}}
+                                    'display_only_expansions': expansions,
+                                    'method': 'Remove only the explicitly declared bracketed display letters, then uppercase and retain A-Z, digits and question marks. The result must equal every non-X label in the cited stream.'}}
         if r['id'] == 'p99_A':
+            assert len(edited['plaintext']) == 67 and '?' not in edited['plaintext']
+            assert r['retained_unknowns'] == []
+            assert expansions == [{'display': 'zwisc[h]en', 'literal': 'ZWISCEN',
+                                   'plaintext_start': 35, 'supplied_display_letters': 'H',
+                                   'reason': 'Explicit prose spelling completion only. The cipher candidate retains the seven labels ZWISCEN and contains no extra H at this position.'}]
+            prior = r['earlier_partial_edition']
+            earlier = apply_template(model, key, prior['editorial_template'], mapping, loc)
+            assert [[c['model_index'], c['before'], c['after']] for c in earlier['changes']] == prior['expected_changes']
+            assert earlier['costs'] == {'known_coordinate_substitution': 0, 'source_mask_fill': 21, 'missing_coordinate_fill': 1}
+            assert [i for i, c in enumerate(earlier['plaintext']) if c == '?'] == prior['retained_unknowns'] == [38, 39, 41]
+            prior_normalized, prior_expansions = readable_labels(prior, earlier['plaintext'])
+            assert not prior_expansions
+            rec['earlier_partial_edition'] = {'inputs_sha256': prior['inputs_sha256'],
+                                            'disposition': prior['disposition'],
+                                            'readable_german': prior['readable_german'],
+                                            'normalized_display': prior_normalized,
+                                            'edited': earlier}
             rec['optional_WIEDER_candidate'] = apply_template(model, key, r['full_optional_candidate'], mapping, loc)
-            assert edited['costs'] == {'known_coordinate_substitution': 0, 'source_mask_fill': 21, 'missing_coordinate_fill': 1}
+            rec['optional_WIEDER_candidate']['disposition'] = r['full_optional_candidate_disposition']
+            assert edited['costs'] == {'known_coordinate_substitution': 0, 'source_mask_fill': 24, 'missing_coordinate_fill': 1}
             assert rec['optional_WIEDER_candidate']['costs'] == {'known_coordinate_substitution': 3, 'source_mask_fill': 24, 'missing_coordinate_fill': 1}
+            assert raw[35:42] == '?WI??E?'
+            assert earlier['plaintext'][35:42] == 'XWI??E?'
+            assert edited['plaintext'][35:42] == 'ZWISCEN'
+            assert all(literal[i] not in CO or literal[i] == edited['ciphertext'][i]
+                       for i in range(len(literal)))
+            revised = []
+            for i, (before, after) in enumerate(zip(earlier['ciphertext'], edited['ciphertext'])):
+                if before != after:
+                    assert mapping[i] is not None and literal[mapping[i]] not in CO
+                    revised.append({'source_index': mapping[i], 'printed': literal[mapping[i]],
+                                    'earlier_completion': before, 'current_completion': after,
+                                    'source_location': loc[mapping[i]]})
+            assert [(x['source_index'], x['earlier_completion'], x['current_completion']) for x in revised] == [
+                (10, 'X', 'F'), (18, '-', 'D'), (26, '-', 'D'), (40, 'E', 'G')]
+            local_positions = []
+            local_completions = 1
+            for i in range(35, 42):
+                raw_position = raw_positions[i]
+                local_completions *= len(raw_position['domain'])
+                local_positions.append({'plaintext_index': i, 'raw': raw_position,
+                                        'earlier_label': earlier['plaintext'][i],
+                                        'current_label': edited['plaintext'][i],
+                                        'completed_pair': edited['positions'][i]['pair']})
+            assert local_completions == 1296
+            rec['conditional_between_phrase'] = {
+                'plaintext_span_half_open': [35, 42], 'raw_span': raw[35:42],
+                'earlier_span': earlier['plaintext'][35:42],
+                'current_literal_span': edited['plaintext'][35:42],
+                'positions': local_positions, 'mask_completion_changes_from_earlier_edition': revised,
+                'compatible_local_completions_before_language_choice': local_completions,
+                'all_valid_source_coordinates_retained_unchanged': sum(c in CO for c in literal),
+                'note': r['conditional_phrase_note'],
+                'limits': 'The earlier X separator was a mask completion, not an observation. ZWISCEN is one contextual completion of four half-observed positions. The bracketed display h is not encrypted; no independently matching phrase or unique historical wording is asserted.'}
             constraints = encrypt_constraints(r['editorial_template'], key)
             layouts = []
             for i in range(len(literal) + 1):

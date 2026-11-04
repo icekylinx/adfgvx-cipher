@@ -378,7 +378,7 @@
       },
       "expected_literal_raw_paired_prefix": "??DYD5W?7??OJZ13?8D??MS0QW?J??IB?FB?2I??DZ388?0??SN?U??7P?78QD?3?8",
       "expected_raw": "??BITTE?V??SCHLA?FU??V?RKE?R??EITEN?WI??E?RIN?B?HNZEI??NX?KONA?H?L?",
-      "editorial_template": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENXWI??E?RINGBAHNZEITENXAKONACHELF",
+      "editorial_template": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENZWISCENRINGBAHNZEITENXAKONACHELF",
       "expected_changes": [
         [
           5,
@@ -408,7 +408,7 @@
         [
           10,
           "-",
-          "X"
+          "F"
         ],
         [
           11,
@@ -446,6 +446,11 @@
           "V"
         ],
         [
+          18,
+          "-",
+          "D"
+        ],
+        [
           19,
           "-",
           "G"
@@ -481,7 +486,17 @@
           "F"
         ],
         [
+          26,
+          "-",
+          "D"
+        ],
+        [
           38,
+          "E",
+          "G"
+        ],
+        [
+          40,
           "E",
           "G"
         ],
@@ -491,15 +506,145 @@
           "D"
         ]
       ],
-      "readable_german": "Erbitten Vorschlag fuer Verkehrszeiten. WI??E? Ringbahnzeiten. Akonach Elf.",
+      "readable_german": "Erbitten Vorschlag fuer Verkehrszeiten zwisc[h]en Ringbahnzeiten. Akonach Elf.",
       "source_image": "sources/p99_A.png",
       "full_optional_candidate": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENXWIEDERRINGBAHNZEITENXAKONACHELF",
-      "retained_unknowns": [
-        38,
-        39,
-        41
+      "retained_unknowns": [],
+      "case_path": "cases/radio/nov1_contact_and_mail.md",
+      "earlier_partial_edition": {
+        "editorial_template": "ERBITTENVORSCHLAGFUERVERKEHRSZEITENXWI??E?RINGBAHNZEITENXAKONACHELF",
+        "expected_changes": [
+          [
+            5,
+            "-",
+            "F"
+          ],
+          [
+            6,
+            "-",
+            "D"
+          ],
+          [
+            7,
+            "-",
+            "G"
+          ],
+          [
+            8,
+            "-",
+            "F"
+          ],
+          [
+            9,
+            "-",
+            "V"
+          ],
+          [
+            10,
+            "-",
+            "X"
+          ],
+          [
+            11,
+            "-",
+            "F"
+          ],
+          [
+            12,
+            "-",
+            "G"
+          ],
+          [
+            13,
+            "-",
+            "V"
+          ],
+          [
+            14,
+            "-",
+            "V"
+          ],
+          [
+            15,
+            "-",
+            "G"
+          ],
+          [
+            16,
+            "-",
+            "V"
+          ],
+          [
+            17,
+            "-",
+            "V"
+          ],
+          [
+            19,
+            "-",
+            "G"
+          ],
+          [
+            20,
+            "-",
+            "X"
+          ],
+          [
+            21,
+            "-",
+            "V"
+          ],
+          [
+            22,
+            "-",
+            "D"
+          ],
+          [
+            23,
+            "-",
+            "A"
+          ],
+          [
+            24,
+            "-",
+            "D"
+          ],
+          [
+            25,
+            "-",
+            "F"
+          ],
+          [
+            38,
+            "E",
+            "G"
+          ],
+          [
+            133,
+            "?",
+            "D"
+          ]
+        ],
+        "readable_german": "Erbitten Vorschlag fuer Verkehrszeiten. WI??E? Ringbahnzeiten. Akonach Elf.",
+        "retained_unknowns": [
+          38,
+          39,
+          41
+        ],
+        "inputs_sha256": "6d974ed50051a5d8b214074679641bb4dbdc6dabfe7bd682944d67ff99b52b39",
+        "disposition": "Earlier primary partial reading, retained with its original 0 substitutions, 21 source-mask fills and 1 missing-coordinate fill. The new conditional phrase revises one earlier mask completion and fills the other three masks; it does not add a source observation."
+      },
+      "readable_expansions": [
+        {
+          "display": "zwisc[h]en",
+          "literal": "ZWISCEN",
+          "plaintext_start": 35,
+          "supplied_display_letters": "H",
+          "reason": "Explicit prose spelling completion only. The cipher candidate retains the seven labels ZWISCEN and contains no extra H at this position."
+        }
       ],
-      "case_path": "cases/radio/nov1_contact_and_mail.md"
+      "conditional_phrase_note": "Under the declared 134-slot frame, raw plaintext 35:42 is ?WI??E?. The earlier X at position 35 was an editorial separator supplied through source dash 10, not an observed plaintext label. Choosing ZWISCEN retains all 109 observed coordinates: dash 10 is filled F instead of the earlier X; newly completed masks 18,26,40 are D,D,G. The word is a contextual zero-substitution fill candidate, not a unique recovery or a new observation. Display-only [h] is excluded from the encrypted labels.",
+      "full_optional_candidate_disposition": "The earlier WIEDER alternative is retained as a more costly hypothesis: 3 observed substitutions, 24 source-mask fills and 1 missing-coordinate fill. It is not counted in the primary totals and has no independent phrase witness."
     },
     {
       "id": "p99_B1",
@@ -1268,7 +1413,7 @@
   "limits": [
     "The p99 A source really has 133 slots and advertises 133. A 134-slot frame with one inserted coordinate is an explicit conditional model, not a corrected source transcription.",
     "p99 A retains all 133 source slots, including 22 printed dashes and two E glyphs. Two equally minimum fixed-template insertions at 132/133 produce the same edited stream; appending is the displayed convention.",
-    "The primary A template keeps three unknown labels in WI??E? and changes no observed coordinate. WIEDER is an optional three-substitution hypothesis, not independently established by the neighboring Ringbahn notices.",
+    "The conditional A template reads literal ZWISCEN at zero observed substitutions, after 24 printed-mask fills and 1 missing-coordinate fill. The display-only bracketed h is not encrypted. The earlier partial template and three-substitution WIEDER hypothesis remain separately costed; neighboring Ringbahn notices do not independently establish this whole phrase.",
     "C1 supplies 14 source masks and changes the observed three-letter group AAA to DGV. Those are explicit proposed edits. The group is not silently treated as a dash or an omission.",
     "Unknown fills are editorial constraints, not a proof of uniqueness or a recovered historical plaintext.",
     "Unit numbers 30/39, references 11127/7011, source dates, and odd literal closings remain unchanged. No unit identity or troop movement is inferred beyond the decoded words.",

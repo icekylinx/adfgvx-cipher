@@ -3,8 +3,8 @@
 Prepared by **icekylinx and GPT-6 Astra Pro**. These four physical records
 appear on Childs printed p99, under the November 1 heading. They use the
 published `Nov1-3` square and column ranks. The accompanying
-[Sava-crossing report](../military/sava_crossing_evening_report.md) is a · [Reading conventions](../../docs/reading-conventions.md)
-separate message on the same page.
+[Sava-crossing report](../military/sava_crossing_evening_report.md) is a
+separate message on the same page. [Reading conventions](../../docs/reading-conventions.md).
 
 The [full page](../../experiments/nov1_contact_mail_and_sava/sources/p99_full.png),
 [literal source rows](../../experiments/nov1_contact_mail_and_sava/inputs.json)
@@ -39,53 +39,96 @@ remain in the certificate.
 ??BITTE?V??SCHLA?FU??V?RKE?R??EITEN?WI??E?RIN?B?HNZEI??NX?KONA?H?L?
 ```
 
-**Edited output — same conditional frame; no observed-coordinate substitutions**
+**Edited output — same conditional frame; 24 printed-mask fills and one missing-coordinate fill, with no observed-coordinate substitutions**
+
+```text
+ERBITTENVORSCHLAGFUERVERKEHRSZEITENZWISCENRINGBAHNZEITENXAKONACHELF
+```
+
+</details>
+
+The conditional candidate has **67/67 fixed positions** after filling all
+24 printed masks—22 dashes and both `E` glyphs—and the one missing model
+coordinate. All **109 valid received coordinates remain unchanged**. The
+raw count remains **43/67** under the same conditional frame; the extra
+completed letters are editorial choices, not newly observed source text.
+
+**Readable German — conditional candidate; the bracketed h is a display-only spelling completion**
+
+> Erbitten Vorschlag fuer Verkehrszeiten zwisc[h]en Ringbahnzeiten. Akonach Elf.
+
+This proposes a request for communication times **between the Ringbahn
+periods**. The encrypted candidate contains the seven literal labels
+**`ZWISCEN`**, with no `H` in that word. The bracketed letter explains the
+German interpretation and adds no plaintext position or ciphertext coordinate.
+`AKONACHELF` remains unexpanded. The
+[November 3 notice](nov3_ringbahn_notice.md) and
+[radio schedule](../../experiments/nov3_radio_and_pioneer/inputs.json)
+independently contain the literal term `RINGBAHN`; this supports reading it
+as a radio-service term here. They do not independently establish the whole
+new phrase or the location of the proposed loss.
+
+### The earlier X was a supplied separator
+
+The raw seven-position span is **`?WI??E?`**, at plaintext positions 35–41.
+The earlier partial edition supplied its first unknown as `X`, displaying
+`XWI??E?`. That `X` came from filling **source dash 10**; it was not an
+observed plaintext separator. Changing that completion from coordinate `X`
+to `F` gives plaintext `Z`. Filling the other three masks gives `S`, `C`
+and `N`. Each of these four letters retains an observed half-coordinate:
+
+| Plaintext position | Source pair, zero-based indices | Raw pair and domain | Conditional completion |
+|---:|---|---|---|
+| 35 | 67=`D`, 10=printed dash | `D?`: `RCZVSX` | 10→`F`; `DF` gives `Z` |
+| 38 | 18=printed dash, 110=`V` | `?V`: `FSQBK3` | 18→`D`; `DV` gives `S` |
+| 39 | 26=printed dash, 103=`D` | `?D`: `IC28M4` | 26→`D`; `DD` gives `C` |
+| 41 | 124=`G`, 40=printed `E` | `G?`: `D8WNB5` | 40→`G`; `GG` gives `N` |
+
+The intervening `W`, `I` and `E` are fixed by complete observed pairs.
+The four half-observed positions permit **1,296 local completions** before
+language is considered. `ZWISCEN` is therefore a contextual, zero-substitution
+candidate, not a uniqueness result. The full fill ledger and both
+source-origin maps are retained in the certificate.
+
+<details>
+<summary>Earlier partial edition and the more costly WIEDER alternative</summary>
+
+**Edited output — earlier partial edition, with 64/67 fixed positions after 21 printed-mask fills and one missing-coordinate fill; no observed substitutions:**
 
 ```text
 ERBITTENVORSCHLAGFUERVERKEHRSZEITENXWI??E?RINGBAHNZEITENXAKONACHELF
 ```
 
-</details>
+The current proposal revises the assumed separator fill and supplies the
+three masks this earlier edition left open. The earlier template, readable
+display and complete ledger are preserved separately in the certificate.
 
-The edited layer has **64/67 fixed positions**. It fills 21 source masks
-(20 dashes and the `E` at source 38) and the one missing coordinate. The
-`E` at source 40 and dashes at 18 and 26 remain unresolved. It changes no
-observed coordinate. The three question marks in `WI??E?` are three distinct
-unknown positions, not punctuation.
-
-**Readable German — from the conditional edited layer**
-
-> Erbitten Vorschlag fuer Verkehrszeiten. `WI??E?` Ringbahnzeiten. Akonach Elf.
-
-The readable content requests a proposal for communication times, then
-contains an unresolved phrase before *Ringbahnzeiten*. `AKONACHELF` is
-retained without expanding or identifying its abbreviated office. The
-[November 3 notice](nov3_ringbahn_notice.md) and
-[radio schedule](../../experiments/nov3_radio_and_pioneer/inputs.json)
-independently contain the literal term `RINGBAHN`; this supports reading it
-as a radio-service term here. It does not determine the missing phrase or
-the location of the proposed loss.
-
-**Conditional interpretation — an additional word repair, outside the primary edition**
+**Conditional interpretation — earlier WIEDER proposal, outside the primary counts:**
 
 ```text
 ERBITTENVORSCHLAGFUERVERKEHRSZEITENXWIEDERRINGBAHNZEITENXAKONACHELF
 ```
 
 `WIEDER` would make the phrase “Wieder Ringbahnzeiten.” It requires three
-additional observed-coordinate substitutions, at source 103 `D`→`A`,
+observed-coordinate substitutions, at source 103 `D`→`A`,
 110 `V`→`G`, and 124 `G`→`D`, plus three additional source-mask fills.
-Its total cost is **3 substitutions, 24 source-mask fills and 1 missing-coordinate
-fill**. This plausible word is not established by the neighboring notices;
-the primary edition keeps `WI??E?`.
+The additional fills are measured against the earlier partial edition. Its
+total cost remains **3 substitutions, 24 source-mask fills and 1 missing-coordinate
+fill**. The current `ZWISCEN` proposal gives a coherent interpretation at
+zero observed substitutions. The older alternative and its original cost
+remain reproducible; neither whole phrase has an independent copy here.
 
-A separate fixed-template comparison evaluated every one of the 134 possible
-transmitted-coordinate insertion boundaries. **132 and 133 are equally
-minimum at zero observed substitutions** and produce the same edited stream.
-They have different source-origin maps. Appending is the displayed convention,
-not a uniquely established historical loss position. The template was assembled
-after the initial diagnostic, so this is a consistency check, not a blind
-recovery or an independently calibrated language-model result.
+</details>
+
+The complete current template was compared with every one of the **134**
+possible transmitted-coordinate insertion boundaries. **132 and 133 are
+equally minimum at zero observed substitutions**. Both supply coordinate
+`D` and produce the same completed ciphertext, with different source-origin
+maps and independent fill ledgers. Before the fills, boundary 132 fixes
+42/67 raw positions and the displayed boundary 133 fixes 43/67. Appending remains the displayed convention,
+not a uniquely established historical loss position. The template was chosen
+after inspection, so this is a consistency check rather than a blind recovery
+or an independently calibrated language-model result.
 
 ## p99 C1: service mail routed through Gleiwitz
 
@@ -200,6 +243,7 @@ The separate [p100 challenge](../p100.md) keeps Armin's earlier body credit.
 The [experiment README](../../experiments/nov1_contact_mail_and_sava/README.md)
 gives the standard-library verifier, optional source-pixel verification,
 exact model-binding check and the distinction between the primary edition
-and the optional `WIEDER` hypothesis. Every readable passage is checked
-character by character against all non-`X` labels in its cited stream,
-including the three retained unknowns in A.
+and the retained earlier `WIEDER` hypothesis. Every readable passage is checked
+character by character against all non-`X` labels in its cited stream.
+For A, the verifier removes only the explicitly declared bracketed `h`
+before that comparison and checks the literal seven-label `ZWISCEN` span.

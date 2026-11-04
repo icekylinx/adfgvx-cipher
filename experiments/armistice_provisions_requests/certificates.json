@@ -6,19 +6,20 @@
     "prior_candidates_sha256": "bc5ebb1259eaf891dd4a57e3bae66fca9c700759b808f96510ad87f8757b197e",
     "scope": "Earlier unreviewed p188 body candidates retained, including any frozen p73 retrieval copies. This source edition is not a universal first-decipherment claim."
   },
-  "inputs_sha256": "3de43efa50c917c7a84e5497d237c23641f38546aab8d0b84cdd72f00b1a1930",
+  "inputs_sha256": "73f62372e13c964f705487601f7923c50cb77ee5212a6b70017f0a05ca2d1399",
   "summary": {
     "physical_source_parts": 3,
     "literal_source_slots": 669,
     "working_coordinates": 668,
-    "working_source_masked_slots": 7,
+    "working_source_masked_slots": 8,
     "printed_erasure_slots": 5,
     "working_noncoordinate_source_masks": 2,
+    "damaged_glyph_source_masks": 1,
     "plaintext_positions": 334,
-    "raw_fixed_positions": 319,
+    "raw_fixed_positions": 318,
     "edition_fixed_positions": 330,
-    "known_coordinate_substitutions": 29,
-    "source_mask_fills": 6,
+    "known_coordinate_substitutions": 28,
+    "source_mask_fills": 7,
     "remaining_source_masked_slots": 1,
     "visible_marks_excluded": 1,
     "known_coordinate_exclusion_cost_lower_bound": 0,
@@ -35,6 +36,7 @@
     "working_source_masked_slots": 1,
     "printed_erasure_slots": 0,
     "working_noncoordinate_source_masks": 1,
+    "damaged_glyph_source_masks": 0,
     "plaintext_positions": 222,
     "raw_fixed_positions": 214,
     "edition_fixed_positions": 218,
@@ -47,10 +49,10 @@
     {
       "id": "p188_A",
       "key_id": "Nov13-15b",
-      "source_literal": "-AGAGAAFAADAVDGDDAGFDAAAGGXVDGXXFDGFVGXDDDVVDXFXVVVAVGVD--DVAGGVXXXGXVDVXXXDDFXXKXAVDXXFVAVDAXGAVFVGVXXAXXXDXXFGDGAGAVXXFAFVXVDVV--FAFFFFAXVVVVDFFFAVAXGFVVFFAVFVFAXXBVDDVVAFGAFAAFFGVVAVGAXFFAGFFFDDFAGDAFFGGAGVVDAVFXXVXGVVVAAD",
+      "source_literal": "-AGAGAAFAADAVDGDDAGFDAAAGGXVDGXXFDGFVGXDDDVVDXFXVVVAVGVD--DVAGGVXXXGXVDVXXXDDFXXKXAVDXXFVAVDAXGAVFVGVXXAXXXDXXFGDGAGAV?XFAFVXVDVV--FAFFFFAXVVVVDFFFAVAXGFVVFFAVFVFAXXBVDDVVAFGAFAAFFGVVAVGAXFFAGFFFDDFAGDAFFGGAGVVDAVFXXVXGVVVAAD",
       "source_slots": 225,
-      "analysis_frame_literal": "-AGAGAAFAADAVDGDDAGFDAAAGGXVDGXXFDGFVGXDDDVVDXFXVVVAVGVD--DVAGGVXXXGXVDVXXXDDFXXXAVDXXFVAVDAXGAVFVGVXXAXXXDXXFGDGAGAVXXFAFVXVDVV--FAFFFFAXVVVVDFFFAVAXGFVVFFAVFVFAXXBVDDVVAFGAFAAFFGVVAVGAXFFAGFFFDDFAGDAFFGGAGVVDAVFXXVXGVVVAAD",
-      "analysis_frame": "?AGAGAAFAADAVDGDDAGFDAAAGGXVDGXXFDGFVGXDDDVVDXFXVVVAVGVD??DVAGGVXXXGXVDVXXXDDFXXXAVDXXFVAVDAXGAVFVGVXXAXXXDXXFGDGAGAVXXFAFVXVDVV??FAFFFFAXVVVVDFFFAVAXGFVVFFAVFVFAXX?VDDVVAFGAFAAFFGVVAVGAXFFAGFFFDDFAGDAFFGGAGVVDAVFXXVXGVVVAAD",
+      "analysis_frame_literal": "-AGAGAAFAADAVDGDDAGFDAAAGGXVDGXXFDGFVGXDDDVVDXFXVVVAVGVD--DVAGGVXXXGXVDVXXXDDFXXXAVDXXFVAVDAXGAVFVGVXXAXXXDXXFGDGAGAV?XFAFVXVDVV--FAFFFFAXVVVVDFFFAVAXGFVVFFAVFVFAXXBVDDVVAFGAFAAFFGVVAVGAXFFAGFFFDDFAGDAFFGGAGVVDAVFXXVXGVVVAAD",
+      "analysis_frame": "?AGAGAAFAADAVDGDDAGFDAAAGGXVDGXXFDGFVGXDDDVVDXFXVVVAVGVD??DVAGGVXXXGXVDVXXXDDFXXXAVDXXFVAVDAXGAVFVGVXXAXXXDXXFGDGAGAV?XFAFVXVDVV??FAFFFFAXVVVVDFFFAVAXGFVVFFAVFVFAXX?VDDVVAFGAFAAFFGVVAVGAXFFAGFFFDDFAGDAFFGGAGVVDAVFXXVXGVVVAAD",
       "frame_to_source_indices": [
         0,
         1,
@@ -294,20 +296,21 @@
         "physical_source_parts": 1,
         "literal_source_slots": 225,
         "working_coordinates": 224,
-        "working_source_masked_slots": 6,
+        "working_source_masked_slots": 7,
         "printed_erasure_slots": 5,
         "working_noncoordinate_source_masks": 1,
+        "damaged_glyph_source_masks": 1,
         "plaintext_positions": 112,
-        "raw_fixed_positions": 105,
+        "raw_fixed_positions": 104,
         "edition_fixed_positions": 112,
-        "known_coordinate_substitutions": 15,
-        "source_mask_fills": 6,
+        "known_coordinate_substitutions": 14,
+        "source_mask_fills": 7,
         "remaining_source_masked_slots": 0,
         "visible_marks_excluded": 1
       },
       "raw": {
-        "plaintext": "A?O?LXX6A?UNDAVK1PSRB?ITENMIK?EILUNGDERBESCNZFFENSTIL5STANDSBLDINGUNGENFUERNIESI?ENK?IEGSSCHAUPRATZMXAXOXKX11XXX",
-        "fixed_positions": 105,
+        "plaintext": "A?O?LXX6A?UNDAVK1PSRB?ITENMIK?EILUNGDERBES?NZFFENSTIL5STANDSBLDINGUNGENFUERNIESI?ENK?IEGSSCHAUPRATZMXAXOXKX11XXX",
+        "fixed_positions": 104,
         "plaintext_positions": 112,
         "domains": [
           "A",
@@ -352,7 +355,7 @@
           "B",
           "E",
           "S",
-          "C",
+          "234789ACMQVXY",
           "N",
           "Z",
           "F",
@@ -875,8 +878,8 @@
         ],
         "global_witness_not_original_reading": {
           "square": "H23BMUF15PX0DJLR4789S6VONKZQAWITEGCY",
-          "ciphertext": "AAGAGAAFAADAVDGDDAGFDAAAGGXVDGXXFDGFVGXDDDVVDXFXVVVAVGVDAADVAGGVXXXGXVDVXXXDDFXXXAVDXXFVAVDAXGAVFVGVXXAXXXDXXFGDGAGAVXXFAFVXVDVVAAFAFFFFAXVVVVDFFFAVAXGFVVFFAVFVFAXXAVDDVVAFGAFAAFFGVVAVGAXFFAGFFFDDFAGDAFFGGAGVVDAVFXXVXGVVVAAD",
-          "plaintext": "AHOHLXX6AMUNDAVK1PSRBIITENMIKIEILUNGDERBESCNZFFENSTIL5STANDSBLDINGUNGENFUERNIESIQENKBIEGSSCHAUPRATZMXAXOXKX11XXX",
+          "ciphertext": "AAGAGAAFAADAVDGDDAGFDAAAGGXVDGXXFDGFVGXDDDVVDXFXVVVAVGVDAADVAGGVXXXGXVDVXXXDDFXXXAVDXXFVAVDAXGAVFVGVXXAXXXDXXFGDGAGAVAXFAFVXVDVVAAFAFFFFAXVVVVDFFFAVAXGFVVFFAVFVFAXXAVDDVVAFGAFAAFFGVVAVGAXFFAGFFFDDFAGDAFFGGAGVVDAVFXXVXGVVVAAD",
+          "plaintext": "AHOHLXX6AMUNDAVK1PSRBIITENMIKIEILUNGDERBESMNZFFENSTIL5STANDSBLDINGUNGENFUERNIESIQENKBIEGSSCHAUPRATZMXAXOXKX11XXX",
           "is_proposed_reading": false
         }
       },
@@ -1508,13 +1511,6 @@
             "source_coordinate_index": 115
           },
           {
-            "plaintext_position_0based": 42,
-            "observed": "X",
-            "proposed": "D",
-            "working_coordinate_index": 117,
-            "source_coordinate_index": 118
-          },
-          {
             "plaintext_position_0based": 8,
             "observed": "V",
             "proposed": "D",
@@ -1585,6 +1581,13 @@
             "proposed": "A",
             "working_coordinate_index": 57,
             "source_coordinate_index": 57
+          },
+          {
+            "plaintext_position_0based": 42,
+            "observed": "?",
+            "proposed": "D",
+            "working_coordinate_index": 117,
+            "source_coordinate_index": 118
           },
           {
             "plaintext_position_0based": 21,
@@ -2378,11 +2381,11 @@
             118,
             90
           ],
-          "source_glyphs": "XV",
-          "raw_pair": "XV",
+          "source_glyphs": "?V",
+          "raw_pair": "?V",
           "edited_pair": "DV",
-          "raw_symbol": "C",
-          "raw_domain": "C",
+          "raw_symbol": "?",
+          "raw_domain": "234789ACMQVXY",
           "edited_symbol": "X",
           "edited_domain": "X"
         },
@@ -3721,7 +3724,43 @@
           "edited_symbol": "1",
           "edited_domain": "1"
         }
-      ]
+      ],
+      "damaged_glyph": {
+        "source_index": 118,
+        "literal_placeholder": "?",
+        "source_row_1based": 3,
+        "source_group_1based": 8,
+        "group_literal": "AV?XF",
+        "source_image": "sources/p188_A_damaged_glyph.png",
+        "note": "The third glyph of AV?XF has vertical/overlapping strokes and is not a certain X. The complete row and the original embedded JPEG pixels both retain this uncertainty. No literal M or other noncoordinate reading is asserted.",
+        "prior_candidate_reference": [
+          "prior_candidates.json",
+          "cross_key_candidates",
+          0,
+          "ciphertext"
+        ],
+        "prior_candidate_observation": "The frozen earlier OCR stream also records AV?XF. It is the same physical witness, not independent support.",
+        "conditional_coordinate_interpretation": "X",
+        "independent_coordinate_witness_established": false
+      },
+      "conditional_X_sensitivity": {
+        "status": "Assumption only; excluded from the source and repair totals.",
+        "source_coordinate_index": 118,
+        "working_coordinate_index": 117,
+        "assumed_coordinate": "X",
+        "plaintext_position": 42,
+        "raw_pair": "XV",
+        "raw_symbol": "C",
+        "raw_plaintext": "A?O?LXX6A?UNDAVK1PSRB?ITENMIK?EILUNGDERBESCNZFFENSTIL5STANDSBLDINGUNGENFUERNIESI?ENK?IEGSSCHAUPRATZMXAXOXKX11XXX",
+        "raw_fixed_positions": 105,
+        "known_coordinate_substitutions": 15,
+        "source_mask_fills": 6,
+        "edited_ciphertext_unchanged": true,
+        "source118_edit": {
+          "observed_if_assumed": "X",
+          "proposed": "D"
+        }
+      }
     },
     {
       "id": "p188_B2",
@@ -3917,6 +3956,7 @@
         "working_source_masked_slots": 0,
         "printed_erasure_slots": 0,
         "working_noncoordinate_source_masks": 0,
+        "damaged_glyph_source_masks": 0,
         "plaintext_positions": 88,
         "raw_fixed_positions": 84,
         "edition_fixed_positions": 88,
@@ -6897,6 +6937,7 @@
         "working_source_masked_slots": 1,
         "printed_erasure_slots": 0,
         "working_noncoordinate_source_masks": 1,
+        "damaged_glyph_source_masks": 0,
         "plaintext_positions": 134,
         "raw_fixed_positions": 130,
         "edition_fixed_positions": 130,
@@ -10899,7 +10940,8 @@
   ],
   "index_convention": "All indices are zero-based. Helper raw/edition source_position_pairs_0based fields index the working frame. The positions ledger and frame_to_source_indices separately identify the original visible source slots.",
   "limits": [
-    "A is a conditional edited reading, not a uniquely solved cryptogram. Its extra visible mark, exclusion interpretation,15 substitutions and6 fills are separate components of the price.",
+    "A is a conditional edited reading, not a uniquely solved cryptogram. Its extra visible mark, exclusion interpretation,14 observed substitutions and7 source-mask fills are separate components of the price.",
+    "A source118 is a damaged glyph, represented by ? in AV?XF. Its former X interpretation is retained only as a sensitivity branch (105 raw fixed positions,15 observed substitutions,6 fills); the conservative ledger has104 raw fixed positions,14 substitutions,7 fills. This reclassifies uncertainty and does not recover a letter or reduce the total number of proposed coordinate changes.",
     "A's edited body retains the original unit suffix1P as AOK1P (raw AVK1P), while its footer reads AOK11. The p179 thematic parallel is not used to silently normalize the body unit field.",
     "B2 and C1 have matching printed20.05(13/11) references, complementary part numbers and compatible provisions content. They are likely companions; no unique source-history or exact original assembly is proved.",
     "B2 retains its jammed-to-end note even though the counted176 slots equal its label. No unprinted tail is restored.",
@@ -10907,7 +10949,7 @@
     "C1 keeps the unknown dispatch interval, portion quantity and headquarters label; EFXGF remains a literal noncoordinate E mask. No numerical or Q-cell assignment is inferred.",
     "All printed dates and times remain independent source labels, including20.00 p.m. and the03.32/03.45 p.m. intercepts. No chronology is corrected by plausibility.",
     "No global geometry or repair-optimum search was performed. If the extra mark is X, deletion within its identical-X run can share a resulting stream; the exclusion's precise historical identity is not proved.",
-    "A's six fills comprise five printed dashes and one B-shaped noncoordinate glyph; these are distinct from the excluded extra K/X-like mark.",
+    "A's seven fills comprise five printed dashes, one B-shaped noncoordinate glyph and one damaged glyph at source118; these are distinct from the excluded extra K/X-like mark.",
     "Global witnesses and exact re-encryption demonstrate consistency, not unique wording, the original complete square, or authentic numerical labels.",
     "Unassigned square cells share a global bijection. Per-position domains do not authorize independently choosing each occurrence."
   ]

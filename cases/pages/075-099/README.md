@@ -193,7 +193,7 @@ Each row links to the current case and evidence. [State definitions](../../../do
 
 | Source | State | Subject |
 |---|---|---|
-| [p99 A](../../radio/nov1_contact_and_mail.md#p99-a-requested-contact-times-and-a-damaged-ringbahn-phrase) | CONDITIONAL | Contact-time proposal and a partial Ringbahn phrase under explicit one-coordinate-loss geometry |
+| [p99 A](../../radio/nov1_contact_and_mail.md#p99-a-requested-contact-times-and-a-damaged-ringbahn-phrase) | CONDITIONAL | Contact-time proposal between Ringbahn periods under explicit one-coordinate-loss geometry |
 | [p99 B1](../../military/sava_crossing_evening_report.md#p99-b1) | READING | Evening report: Sava crossed by 30 I.D. main elements and G.K. 39 |
 | [p99 C1](../../radio/nov1_contact_and_mail.md#p99-c1-service-mail-routed-through-gleiwitz) | READING | Service mail for A.O.K. Elf directed to the Gleiwitz garrison command |
 | [p99 C2](../../radio/nov1_contact_and_mail.md#p99-c2-collection-by-aircraft) | READING | Collection of service mail by aircraft; literal reference 7011 |

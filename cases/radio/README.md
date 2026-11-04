@@ -71,7 +71,7 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p97 A](hungary_connection_and_supplies.md#p97-a) | READING | Immediate repetition of the indicated CHI telegram and literal reference fields |
 | [p97 B](hungary_connection_and_supplies.md#p97-b) | READING | Connection through Hungary disrupted; telegrams sent by wireless until further notice |
 | [p97 C](hungary_connection_and_supplies.md#p97-c) | READING | Reference to tubes and oil, with further information on a second point |
-| [p99 A](nov1_contact_and_mail.md#p99-a-requested-contact-times-and-a-damaged-ringbahn-phrase) | CONDITIONAL | Contact-time proposal and a partial Ringbahn phrase under explicit one-coordinate-loss geometry |
+| [p99 A](nov1_contact_and_mail.md#p99-a-requested-contact-times-and-a-damaged-ringbahn-phrase) | CONDITIONAL | Contact-time proposal between Ringbahn periods under explicit one-coordinate-loss geometry |
 | [p99 C1](nov1_contact_and_mail.md#p99-c1-service-mail-routed-through-gleiwitz) | READING | Service mail for A.O.K. Elf directed to the Gleiwitz garrison command |
 | [p99 C2](nov1_contact_and_mail.md#p99-c2-collection-by-aircraft) | READING | Collection of service mail by aircraft; literal reference 7011 |
 | [p99 D](nov1_contact_and_mail.md#p99-d-acknowledgment-of-an-ohl-message) | READING | Receipt acknowledgment to O.H.L.; literal reference 11127 and E.O.K. 11 |

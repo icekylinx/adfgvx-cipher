@@ -70,6 +70,18 @@
       ],
       "render_scale": 10,
       "sha256": "35d65fb32c1a4b0ea38973b8a9ea610467142d4f17440f79a74dd1140224d6ae"
+    },
+    {
+      "path": "sources/p188_A_damaged_glyph.png",
+      "pdf_page_1based": 191,
+      "crop_rectangle_pdf_points": [
+        475,
+        272,
+        517,
+        295
+      ],
+      "render_scale": 16,
+      "sha256": "560f4591e59984ec2b589b35288694b373bbdba99102ec7400bdec5dc41bf876"
     }
   ],
   "key": {
@@ -110,7 +122,7 @@
       "source_rows": [
         "-AGAG AAFAA DAVDG DDAGF DAAAG GXVDG XXFDG FVGXD",
         "DDVVD XFXVV VAVGV D--DV AGGVX XXGXV DVXXX DDFXXK",
-        "XAVDX XFVAV DAXGA VFVGV XXAXX XDXXF GDGAG AVXXF",
+        "XAVDX XFVAV DAXGA VFVGV XXAXX XDXXF GDGAG AV?XF",
         "AFVXV DVV-- FAFFF FAXVV VVDFF FAVAX GFVVF FAVFV",
         "FAXXB VDDVV AFGAF AAFFG VVAVG AXFFA GFFFD DFAGD",
         "AFFGG AGVVD AVFXX VXGVV VAAD"
@@ -120,7 +132,7 @@
       "excluded_source_mark_indices": [
         80
       ],
-      "expected_raw": "A?O?LXX6A?UNDAVK1PSRB?ITENMIK?EILUNGDERBESCNZFFENSTIL5STANDSBLDINGUNGENFUERNIESI?ENK?IEGSSCHAUPRATZMXAXOXKX11XXX",
+      "expected_raw": "A?O?LXX6A?UNDAVK1PSRB?ITENMIK?EILUNGDERBES?NZFFENSTIL5STANDSBLDINGUNGENFUERNIESI?ENK?IEGSSCHAUPRATZMXAXOXKX11XXX",
       "editorial_template": "ANOHLXXOKMUNDAOK1PERBITTENMITTEILUNGDERBESXWAFFENSTILLSTANDSBEDINGUNGENFUERHIESIGENKRIEGSSCHAUPLATZXXAXOXKX11XXX",
       "pair_overrides": [],
       "geometry_status": "Conditional exclusion of one extra visible overtyped mark, recorded K-shaped; if it is read as a valid X coordinate, the exclusion additionally costs one observed-coordinate deletion. No unique historical geometry is established.",
@@ -138,6 +150,24 @@
         "source_index": 165,
         "literal": "B",
         "note": "B-shaped printed glyph is outside ADFGVX and remains a source mask in the raw frame."
+      },
+      "damaged_glyph": {
+        "source_index": 118,
+        "literal_placeholder": "?",
+        "source_row_1based": 3,
+        "source_group_1based": 8,
+        "group_literal": "AV?XF",
+        "source_image": "sources/p188_A_damaged_glyph.png",
+        "note": "The third glyph of AV?XF has vertical/overlapping strokes and is not a certain X. The complete row and the original embedded JPEG pixels both retain this uncertainty. No literal M or other noncoordinate reading is asserted.",
+        "prior_candidate_reference": [
+          "prior_candidates.json",
+          "cross_key_candidates",
+          0,
+          "ciphertext"
+        ],
+        "prior_candidate_observation": "The frozen earlier OCR stream also records AV?XF. It is the same physical witness, not independent support.",
+        "conditional_coordinate_interpretation": "X",
+        "independent_coordinate_witness_established": false
       }
     },
     {
@@ -194,7 +224,8 @@
     }
   ],
   "limits": [
-    "A is a conditional edited reading, not a uniquely solved cryptogram. Its extra visible mark, exclusion interpretation,15 substitutions and6 fills are separate components of the price.",
+    "A is a conditional edited reading, not a uniquely solved cryptogram. Its extra visible mark, exclusion interpretation,14 observed substitutions and7 source-mask fills are separate components of the price.",
+    "A source118 is a damaged glyph, represented by ? in AV?XF. Its former X interpretation is retained only as a sensitivity branch (105 raw fixed positions,15 observed substitutions,6 fills); the conservative ledger has104 raw fixed positions,14 substitutions,7 fills. This reclassifies uncertainty and does not recover a letter or reduce the total number of proposed coordinate changes.",
     "A's edited body retains the original unit suffix1P as AOK1P (raw AVK1P), while its footer reads AOK11. The p179 thematic parallel is not used to silently normalize the body unit field.",
     "B2 and C1 have matching printed20.05(13/11) references, complementary part numbers and compatible provisions content. They are likely companions; no unique source-history or exact original assembly is proved.",
     "B2 retains its jammed-to-end note even though the counted176 slots equal its label. No unprinted tail is restored.",
