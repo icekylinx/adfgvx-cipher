@@ -1,0 +1,169 @@
+{
+  "schema": "adfgvx-p163-rearguard-inputs-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "target": "p163_A15",
+  "baseline_inputs": {
+    "path": "experiments/withdrawal_recovery/inputs.json",
+    "sha256": "07a7dfcb2f28918c4c9dad2303d42cdf074f0698fa9f1abb190e0a2200d9d334"
+  },
+  "baseline_certificates": {
+    "path": "experiments/withdrawal_recovery/certificates.json",
+    "sha256": "d14806081bc0b2183653238f024d05ac745b35904fa4dd084922602bc96454de"
+  },
+  "source_image": {
+    "path": "experiments/withdrawal_recovery/sources/childs_p163_A15_A16.png",
+    "sha256": "045d518e3a39a586d5f50bcb4b20e0462120f8f326d732110d42bd596c92f942"
+  },
+  "geometry": "The native 234 printed slots, including 81 printed erasures, are unchanged. No coordinate is inserted, excluded, or reordered.",
+  "proposal": {
+    "start_plaintext_position_0based": 91,
+    "text": "X7XAUSDER3XNACHHUTSTELLUNG",
+    "readable_german": "7. Aus der 3. Nachhutstellung …",
+    "interpretation": "Item 7 begins: From the third rearguard position … The action continuing in the jammed next part is not recovered.",
+    "status": "Explicitly priced editorial continuation, not a unique cipher-only solution."
+  },
+  "glyph_review": {
+    "source_position_0based": 140,
+    "literal": "X",
+    "proposed": "V",
+    "location": "Fourth source row, fifth group XDDFV, first character.",
+    "finding": "The printed glyph is clearly X. The proposal changes a known source coordinate; it is not a transcription correction."
+  },
+  "comparison_proposals": [
+    {
+      "id": "heading",
+      "start": 91,
+      "text": "X7X",
+      "role": "Compatible heading markers around unchanged raw7; zero observed-coordinate changes."
+    },
+    {
+      "id": "zero_change_words",
+      "start": 94,
+      "text": "AUSDER3XNACHHUT",
+      "role": "A compatible word-and-number span; no observed-coordinate changes."
+    },
+    {
+      "id": "word_ending",
+      "start": 109,
+      "text": "STELLUNG",
+      "role": "The original short lexical lead; all of the extension's observed repair cost lies here."
+    },
+    {
+      "id": "rearguard_word",
+      "start": 102,
+      "text": "NACHHUTSTELLUNG",
+      "role": "Attested military compound; same one-coordinate repair as STELLUNG."
+    },
+    {
+      "id": "restoration_word",
+      "start": 102,
+      "text": "NACHHERSTELLUNG",
+      "role": "Earlier exploratory alternative. It requires two additional observed changes and is not selected."
+    },
+    {
+      "id": "after_only_three",
+      "start": 91,
+      "text": "X7XAUSNUR3XNACHHUTSTELLUNG",
+      "role": "Equal-cost compatibility rival. It replaces DER by NUR in erased halves; the next part would be needed to assess the resulting grammar and any plural continuation. Not adopted."
+    },
+    {
+      "id": "name_string",
+      "start": 91,
+      "text": "X7XAUSDER3XNACHHUTHBELLING",
+      "role": "Equal-cost coordinate witness associated with the lexical BELLING rival, not an identified name or a proposed coherent sentence."
+    }
+  ],
+  "native_word_witness": {
+    "record": "p176_B2",
+    "inputs": {
+      "path": "experiments/nov10_delegates_and_field_report/inputs.json",
+      "sha256": "515e91551aaf4d9927b4955a6228a29fe1c9184bd1c1788206d608f08788e98a"
+    },
+    "certificates": {
+      "path": "experiments/nov10_delegates_and_field_report/certificates.json",
+      "sha256": "132076490b17800206b85cab44c25db5962c036dae8ea580de849ad6674cdb67"
+    },
+    "word": "STELLUNG",
+    "start_plaintext_position_0based": 68,
+    "raw_context": "FEINDVORFUEHLTEGEGENNEUESTELLUNGENDONAUKNIE",
+    "scope": "All eight letters occur in an unchanged raw stream under the different November 10–12 key. This witnesses the letter sequence in military vocabulary, not the full p163 phrase."
+  },
+  "historical_word_witness": {
+    "url": "https://projekt-gutenberg.org/authors/hans-von-seeckt/books/aus-meinem-leben-1866-1917/chapter/7/",
+    "work": "Hans von Seeckt, Aus meinem Leben. 1866–1917",
+    "chapter": "Gorlice",
+    "publication_year": 1938,
+    "publisher": "v. Hase & Koehler",
+    "document_description": "A reproduced situation assessment by Seeckt to Falkenhayn, AOK 11 chief of staff, Ia no. 6480, dated 26 August 1915.",
+    "document_date": "1915-08-26",
+    "retrieved_date": "2026-11-04",
+    "short_quotation": "eine feindliche Nachhutstellung",
+    "attested_cipher_spelling": "NACHHUTSTELLUNG",
+    "retrieval_form": "Public text retrieved through web search/open. No original scan or downloadable HTML hash is asserted.",
+    "scope": "Historical attestation of the compound only. This 1915 report is not a parallel copy of the November 1918 order and does not attest its third position or full clause."
+  },
+  "limits": [
+    "Every one of the 18 new plaintext positions has one original observed half-coordinate. No newly supplied letter is wholly unobserved.",
+    "The existing prefix includes a wholly unobserved letter at plaintext position 18; it is inherited from the earlier conditional edition, not added by this supplement.",
+    "The numeral labels 7 and 3 in the tail are fully observed and unchanged. Their heading and ordinal punctuation is editorial.",
+    "The baseline square still leaves 5 and 6 unassigned to VF and XA. The full part has 116/117 singletons after the proposal; both global digit assignments are retained.",
+    "A source-compatible roundtrip proves consistency after declared repairs, not uniqueness or historical execution.",
+    "The unnumbered jammed p163 fragment remains unresolved and receives no inferred beginning or message length."
+  ],
+  "linked_opening": {
+    "record": "p163_A13",
+    "native_slots": 268,
+    "advertised_length": 278,
+    "source_image": {
+      "path": "experiments/withdrawal_recovery/sources/childs_p163_A13.png",
+      "sha256": "9195f93080ca4ba3a11dbb2daadcd0360004f655bf34cdc10dd3c41b3468455c"
+    },
+    "variants": [
+      {
+        "id": "repeated_word",
+        "start": 5,
+        "text": "NACHHUTSTELLUNG",
+        "role": "Least expansive linked word reading. Raw ALS3Q is left unchanged."
+      },
+      {
+        "id": "separator",
+        "start": 0,
+        "text": "ALS3XNACHHUTSTELLUNG",
+        "role": "Also proposes the separator X; retains raw ALS."
+      },
+      {
+        "id": "aus_context",
+        "start": 0,
+        "text": "AUS3XNACHHUTSTELLUNG",
+        "role": "Further grammatical proposal, separately changing raw L to U. The preceding part is unavailable, so this is not forced."
+      }
+    ],
+    "geometry_limit": "All variants retain the native268-slot frame. No ten-coordinate insertion is made to satisfy the printed278 header."
+  },
+  "joint_repeat_model": {
+    "word": "NACHHUTSTELLUNG",
+    "aligned_spans": [
+      {
+        "record": "p163_A13",
+        "start": 5
+      },
+      {
+        "record": "p163_A15",
+        "start": 102
+      }
+    ],
+    "assumption": "The two15-position spans contain exactly the same plaintext word; this is an explicit within-order repeat hypothesis.",
+    "objective": "Minimize total observed-coordinate substitutions across both original source spans; printed erasures have no mismatch cost.",
+    "square_scope": "Enumerate both global injective assignments of5 and6 to the two unassigned period-square cells. No other key change is allowed."
+  },
+  "preceding_page_review": {
+    "printed_page": 162,
+    "pdf_page_1based": 165,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "observation": "The preceding page contains separate A–D short-message sections, ending XYZ v LP /1330(8/13)/2 TEILE/1 TL. It does not contain part12 of this withdrawal order.",
+    "consequence": "The preceding syntax remains unavailable and cannot resolve ALS versus AUS."
+  }
+}

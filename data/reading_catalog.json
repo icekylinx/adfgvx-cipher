@@ -1808,14 +1808,16 @@
       "label": "p163 A13",
       "printed_page": 163,
       "source_section": "A13",
-      "subject": "Keep Crajova and Bucharest occupied until final evacuation",
-      "status": "126/134 raw positions; ten substitutions and six fills; opening unresolved",
+      "subject": "Evacuation instructions and a repeated rearguard-position word",
+      "status": "126/134 raw; repeated-word layer 134/134 fixed at thirteen substitutions and eight fills, retaining ALS3Q; separator and AUS layers separately priced",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/military/p163_A.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/withdrawal_recovery/inputs.json",
-        "experiments/withdrawal_recovery/certificates.json"
+        "experiments/withdrawal_recovery/certificates.json",
+        "experiments/p163_rearguard_continuation/inputs.json",
+        "experiments/p163_rearguard_continuation/certificates.json"
       ]
     },
     {
@@ -1838,14 +1840,16 @@
       "label": "p163 A15",
       "printed_page": 163,
       "source_section": "A15",
-      "subject": "Conditional garrison transfer to corps headquarters and Scholtz",
-      "status": "36/117 raw positions; 91-position prefix needs two substitutions and 63 fills",
+      "subject": "Bucharest garrison transfer and third rearguard-position continuation",
+      "status": "36/117 raw; conditional 116/117 at three substitutions and 81 mask fills; shared 5/6 digit and DER/NUR alternative retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/military/p163_A.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/withdrawal_recovery/inputs.json",
-        "experiments/withdrawal_recovery/certificates.json"
+        "experiments/withdrawal_recovery/certificates.json",
+        "experiments/p163_rearguard_continuation/inputs.json",
+        "experiments/p163_rearguard_continuation/certificates.json"
       ]
     },
     {
@@ -9848,14 +9852,16 @@
       "label": "p176 A6",
       "printed_page": 176,
       "source_section": "A6",
-      "subject": "Conditional coal-train continuation via Klausenburg; unread routing field and tail retained",
-      "status": "Native 160 slots (74 observed, 86 printed masks); raw 14/80; context-conditioned partial word proposal 48/80 with zero observed substitutions and 44 mask fills; 32 unknown positions retained; no route completion or full-body claim",
+      "subject": "Conditional coal-train continuation via Klausenburg with a repeated-place hypothesis",
+      "status": "Native 160 slots (74 observed, 86 printed masks); raw 14/80; optional repeated-place proposal 59/80 with zero observed substitutions and 59 mask fills; 21 unknown positions and equal-price Blankenburg rival retained; four new letters wholly unobserved",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); prior A5 context and published period key credited",
       "path": "cases/military/p176_coal_train_fragment.md#p176-a6",
       "source_reviewed": true,
       "evidence": [
         "experiments/p176_coal_train_fragment/inputs.json",
-        "experiments/p176_coal_train_fragment/certificates.json"
+        "experiments/p176_coal_train_fragment/certificates.json",
+        "experiments/p176_repeated_place/inputs.json",
+        "experiments/p176_repeated_place/certificates.json"
       ]
     },
     {

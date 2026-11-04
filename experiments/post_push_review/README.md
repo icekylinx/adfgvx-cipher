@@ -4,6 +4,39 @@ Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
 **Reviewed source inventory.** Work-period metadata and earlier snapshots are retained in `inputs.json`.
 
+## Reviewed artifact refresh on 4 November 2026
+
+Later source supplements changed five case-page prose sections and two generated
+presentation artifacts. The [exact refresh audit](artifact_refresh_20261104.json)
+records all seven before/after byte hashes, reversible changed-text spans,
+unified diffs, review reasons and separately hashed source-package evidence.
+The [original inputs](artifact_refresh_20261104_before_inputs.json) and
+[original inventory](artifact_refresh_20261104_before_inventory.json) are
+preserved byte-for-byte. Their catalogue snapshots, coverage counts, source
+packages and timing metadata remain unchanged.
+
+The refresh changes only those seven expected artifact hashes and adds four
+review-evidence artifacts to the pin map. It does not exempt any original path
+from hashing. All original fenced displays and headings in the five changed
+case pages are unchanged. The reading-layer manifest retains every earlier
+role, display and review-basis record; its updates are case-file hashes and the
+separately reviewed p84 page. The coverage dashboard changes only its live
+catalogue digest.
+
+The standard inventory verifier remains byte-identical. Run the additional
+check with:
+
+```sh
+python experiments/post_push_review/verify_artifact_refresh.py
+```
+
+This check reconstructs each original pinned artifact from the reviewed current
+text and exact inverse spans, verifies its original digest, checks the complete
+old-to-new pin map, and proves that the preserved inventory changed only its
+input digest and artifact count. It requires no historical checkout or network
+access. New reading claims and their repair prices remain in the linked source
+packages; this artifact review adds no source or raw plaintext count.
+
 ## Current preserved inventory
 
 This snapshot compares **195 → 631 other reviewed catalogue entries**, with all

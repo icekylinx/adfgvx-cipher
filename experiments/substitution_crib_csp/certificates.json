@@ -1,0 +1,871 @@
+{
+  "schema_version": 1,
+  "credit": "icekylinx and GPT-6 Astra Pro",
+  "inputs_sha256": "334b11b5448a031063f900c1b167934a1fa78107417441f13a08bc054e40aa03",
+  "solver_sha256": "51787b4e5d1813dd73885ddd8fc42c1adb0d663902c087055a9bd6265ff8dd46",
+  "verifier_sha256": "81b2b5614134cf927a8dd83dbb43e753037611914f92b8aaa35c2dd2d66d01ac",
+  "source_dependencies_verified": [
+    {
+      "path": "experiments/p153_crib/historical_input.txt",
+      "sha256": "91d0fb2698efe4095411a42b6672ab081f045453f85edb4e8bc7a3de2eef4a5c"
+    },
+    {
+      "path": "experiments/p153_crib/verification.json",
+      "sha256": "bf107db4bb38557654ec394b078b4fdac8df765c587e2cf7dcdbabcf6c8dbe6a"
+    },
+    {
+      "path": "experiments/p153_odd_widths/enumerate_components.c",
+      "sha256": "7913d3e715df908fcbbb7e993e9809c0fe8e89b5eed5da5810515c87d95adf17"
+    },
+    {
+      "path": "experiments/p153_even_widths/enumerate_even.c",
+      "sha256": "734370188df5594b61b4b4f52db892cd594584a894787898e90ca28e3df17221"
+    },
+    {
+      "path": "experiments/p170_new_methods/followup/column_donor_match.cpp",
+      "sha256": "68127d616f57638befacf6f7983e417b5414c38226a505912b503d024db0f15e"
+    },
+    {
+      "path": "experiments/p73_new_methods/src/substitution_agreement.cpp",
+      "sha256": "307322796849c07bc38035cd4a82e18f535158711ca3e2f7a9b259d81918f102"
+    }
+  ],
+  "tiny_exhaustive_oracles": 9,
+  "fresh_hidden_key_controls": 10,
+  "historical_consistency_fixtures": 1,
+  "historical_fixture_bound_to_pinned_fields": true,
+  "incomplete_project_reporting_checked": true,
+  "malformed_inputs_rejected": 6,
+  "results": [
+    {
+      "id": "tiny0",
+      "kind": "tiny_oracle",
+      "complete": true,
+      "source_slots": 12,
+      "source_masks": 0,
+      "supplied_plaintext_positions": 6,
+      "width": 3,
+      "maximum_observed_substitutions": 0,
+      "returned_witnesses": 1,
+      "distinct_rank_orders": 1,
+      "all_returned_witnesses_reencrypted": true,
+      "independent_exhaustive_rank_set_agrees": true
+    },
+    {
+      "id": "tiny1",
+      "kind": "tiny_oracle",
+      "complete": true,
+      "source_slots": 12,
+      "source_masks": 0,
+      "supplied_plaintext_positions": 6,
+      "width": 4,
+      "maximum_observed_substitutions": 1,
+      "returned_witnesses": 0,
+      "distinct_rank_orders": 0,
+      "all_returned_witnesses_reencrypted": true,
+      "independent_exhaustive_rank_set_agrees": true
+    },
+    {
+      "id": "tiny2",
+      "kind": "tiny_oracle",
+      "complete": true,
+      "source_slots": 12,
+      "source_masks": 0,
+      "supplied_plaintext_positions": 6,
+      "width": 4,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 16,
+      "distinct_rank_orders": 4,
+      "all_returned_witnesses_reencrypted": true,
+      "independent_exhaustive_rank_set_agrees": true
+    },
+    {
+      "id": "tiny3",
+      "kind": "tiny_oracle",
+      "complete": true,
+      "source_slots": 12,
+      "source_masks": 2,
+      "supplied_plaintext_positions": 6,
+      "width": 5,
+      "maximum_observed_substitutions": 1,
+      "returned_witnesses": 0,
+      "distinct_rank_orders": 0,
+      "all_returned_witnesses_reencrypted": true,
+      "independent_exhaustive_rank_set_agrees": true
+    },
+    {
+      "id": "tiny4",
+      "kind": "tiny_oracle",
+      "complete": true,
+      "source_slots": 12,
+      "source_masks": 1,
+      "supplied_plaintext_positions": 6,
+      "width": 3,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 174,
+      "distinct_rank_orders": 6,
+      "all_returned_witnesses_reencrypted": true,
+      "independent_exhaustive_rank_set_agrees": true
+    },
+    {
+      "id": "tiny5",
+      "kind": "tiny_oracle",
+      "complete": true,
+      "source_slots": 12,
+      "source_masks": 0,
+      "supplied_plaintext_positions": 5,
+      "width": 5,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 91,
+      "distinct_rank_orders": 31,
+      "all_returned_witnesses_reencrypted": true,
+      "independent_exhaustive_rank_set_agrees": true
+    },
+    {
+      "id": "tiny6",
+      "kind": "tiny_oracle",
+      "complete": true,
+      "source_slots": 14,
+      "source_masks": 2,
+      "supplied_plaintext_positions": 7,
+      "width": 4,
+      "maximum_observed_substitutions": 1,
+      "returned_witnesses": 8,
+      "distinct_rank_orders": 4,
+      "all_returned_witnesses_reencrypted": true,
+      "independent_exhaustive_rank_set_agrees": true
+    },
+    {
+      "id": "tiny7",
+      "kind": "tiny_oracle",
+      "complete": true,
+      "source_slots": 14,
+      "source_masks": 2,
+      "supplied_plaintext_positions": 6,
+      "width": 5,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 681,
+      "distinct_rank_orders": 54,
+      "all_returned_witnesses_reencrypted": true,
+      "independent_exhaustive_rank_set_agrees": true
+    },
+    {
+      "id": "tiny8",
+      "kind": "tiny_oracle",
+      "complete": true,
+      "source_slots": 16,
+      "source_masks": 0,
+      "supplied_plaintext_positions": 8,
+      "width": 4,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 4,
+      "distinct_rank_orders": 4,
+      "all_returned_witnesses_reencrypted": true,
+      "independent_exhaustive_rank_set_agrees": true
+    },
+    {
+      "id": "positive0",
+      "kind": "hidden_key",
+      "complete": true,
+      "source_slots": 106,
+      "source_masks": 0,
+      "supplied_plaintext_positions": 53,
+      "width": 16,
+      "maximum_observed_substitutions": 1,
+      "returned_witnesses": 2,
+      "distinct_rank_orders": 2,
+      "all_returned_witnesses_reencrypted": true,
+      "hidden_true_rank_retrieved": true,
+      "planted_square_satisfies_returned_component_bindings": true,
+      "witness": {
+        "kind": "solution",
+        "crib_id": "positive0",
+        "width": 16,
+        "ranks": [
+          14,
+          5,
+          12,
+          9,
+          4,
+          2,
+          8,
+          16,
+          13,
+          10,
+          6,
+          1,
+          7,
+          11,
+          15,
+          3
+        ],
+        "square": "937CXM8Q25E6KT1Y0ZBIVSURP4ONFWDLJHGA",
+        "partial_square": "??7?XM8?2??6KT?Y??B???U??4??FW????G?",
+        "plaintext": "W26GGB6K7264GTTB888X4BTTUUG4667BXFGWMKG7TGUT2YU2B7BUX",
+        "filled_source": "ADAXAGXXAVVVAAADAFFDDDXXGGXFAVVDAGFGDFFDFFAXGXVAVVFGFFAVVVFVVDXXFVXDDFVVDDDGVXAXXVDADAVADGAFGFGFGADVDVDXDV",
+        "ignored_source_indices": [
+          81
+        ],
+        "actual_observed_substitutions": 1,
+        "edits": [
+          [
+            81,
+            "G",
+            "V"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "positive1",
+      "kind": "hidden_key",
+      "complete": true,
+      "source_slots": 106,
+      "source_masks": 0,
+      "supplied_plaintext_positions": 53,
+      "width": 17,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 1,
+      "distinct_rank_orders": 1,
+      "all_returned_witnesses_reencrypted": true,
+      "hidden_true_rank_retrieved": true,
+      "planted_square_satisfies_returned_component_bindings": true,
+      "witness": {
+        "kind": "solution",
+        "crib_id": "positive1",
+        "width": 17,
+        "ranks": [
+          13,
+          4,
+          12,
+          1,
+          10,
+          2,
+          17,
+          14,
+          16,
+          3,
+          8,
+          5,
+          9,
+          15,
+          11,
+          7,
+          6
+        ],
+        "square": "F8N76V5MG2RILB0AYX4O3T1SDPUJWZK9HECQ",
+        "partial_square": "??N??V????RIL??A??4?3?1???U?WZ?9???Q",
+        "plaintext": "UAWRVWUNVIAVLLQQNVWWQNQN43N1QNQQQAZ94AZ4WLVVUQZUW3UZN",
+        "filled_source": "GFVGDVFVAVXAXXFFXXVFDXAXAXVXXXAVAFGGAFFAAFAVVAXXGFVXAXVVVGVVGFAXGXFFFXVFXXAVXAFVXVVFXAGVFXFXVGAAAFVXDXXXFX",
+        "ignored_source_indices": [
+          73,
+          77
+        ],
+        "actual_observed_substitutions": 2,
+        "edits": [
+          [
+            73,
+            "G",
+            "X"
+          ],
+          [
+            77,
+            "X",
+            "A"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "positive2",
+      "kind": "hidden_key",
+      "complete": true,
+      "source_slots": 106,
+      "source_masks": 0,
+      "supplied_plaintext_positions": 50,
+      "width": 18,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 2,
+      "distinct_rank_orders": 2,
+      "all_returned_witnesses_reencrypted": true,
+      "hidden_true_rank_retrieved": true,
+      "planted_square_satisfies_returned_component_bindings": true,
+      "witness": {
+        "kind": "solution",
+        "crib_id": "positive2",
+        "width": 18,
+        "ranks": [
+          18,
+          6,
+          14,
+          5,
+          1,
+          8,
+          12,
+          7,
+          4,
+          3,
+          17,
+          10,
+          13,
+          16,
+          11,
+          9,
+          15,
+          2
+        ],
+        "square": "986F27T431K5JRU0ZXWALSBVQDPOYNMIHGEC",
+        "partial_square": "?8?F?7????K5?RU0????L??V?D?OY???????",
+        "plaintext": "OLDOLOK8KO800O575FR8RROOYR8ORL05YOU7R0OLKDY787DLLVRDU",
+        "filled_source": "VFFGVGVGDXDFGGXVXGVVDDGFDDDGDGGDGDXGGDGFFDGDFGFDXDFXFGXGVDDADFFAFVFFFGGDAVVVVGAAFFVDAAAAVXVGVDVDVVVFVVFVFA",
+        "ignored_source_indices": [
+          50,
+          104
+        ],
+        "actual_observed_substitutions": 2,
+        "edits": [
+          [
+            50,
+            "G",
+            "F"
+          ],
+          [
+            104,
+            "A",
+            "F"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "positive3",
+      "kind": "hidden_key",
+      "complete": true,
+      "source_slots": 178,
+      "source_masks": 2,
+      "supplied_plaintext_positions": 89,
+      "width": 16,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 2,
+      "distinct_rank_orders": 2,
+      "all_returned_witnesses_reencrypted": true,
+      "hidden_true_rank_retrieved": true,
+      "planted_square_satisfies_returned_component_bindings": true,
+      "witness": {
+        "kind": "solution",
+        "crib_id": "positive3",
+        "width": 16,
+        "ranks": [
+          7,
+          10,
+          3,
+          15,
+          9,
+          1,
+          14,
+          2,
+          8,
+          13,
+          5,
+          11,
+          6,
+          16,
+          4,
+          12
+        ],
+        "square": "P9VHMXO6AE85K3FC0GYSZWU412R7QDINLJTB",
+        "partial_square": "P??H?XO?AE8??3??????Z??412?7?D????T?",
+        "plaintext": "8H7X28283TH7AZO8H77O1312DAZ82O218ZDXDZA8O78X888H3THX18EEA1XO2ET3873387OD4DXT2X7D3O27A478P",
+        "filled_source": "GGGFXVGXDXDXGAVXXXADVGAXVDGVXVVVDDDVVDADFVVDDGFDGDDDVAGVDVVDDDXDVVDFAVDDFDDGFAVDVVVDVVDVDVAVGVDAAFAVVDGXVADFVXDAVFDAFVVGGXXVVDAVGGDXXVDFADXVADVDFAVDDAAADFXVGVGFFGVAGXADAADFVGVAGG",
+        "ignored_source_indices": [
+          83,
+          154
+        ],
+        "actual_observed_substitutions": 2,
+        "edits": [
+          [
+            83,
+            "F",
+            "D"
+          ],
+          [
+            154,
+            "A",
+            "X"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "positive4",
+      "kind": "hidden_key",
+      "complete": true,
+      "source_slots": 178,
+      "source_masks": 2,
+      "supplied_plaintext_positions": 89,
+      "width": 17,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 1,
+      "distinct_rank_orders": 1,
+      "all_returned_witnesses_reencrypted": true,
+      "hidden_true_rank_retrieved": true,
+      "planted_square_satisfies_returned_component_bindings": true,
+      "witness": {
+        "kind": "solution",
+        "crib_id": "positive4",
+        "width": 17,
+        "ranks": [
+          14,
+          15,
+          7,
+          5,
+          4,
+          13,
+          3,
+          6,
+          16,
+          10,
+          17,
+          2,
+          1,
+          11,
+          9,
+          8,
+          12
+        ],
+        "square": "G1BY6E542Z7XHJQK0DVR3UMSPION9LFC8WTA",
+        "partial_square": "?1B?6????Z7XHJQ?????3UMS?I??9???8WT?",
+        "plaintext": "BU68JXJHJ3J3MHU11IX7ZWJS6MMQBIHMW6JJHBWW3IS6T8IM1JU639QMSMQIJ3UMM6U1IMI6XQQQZH6I83M6HBMQH",
+        "filled_source": "FGGVGDGVFVXGDGGAXAFGXFDFAFFGADFADDFFVVFVVFGFXFDXFGVAVFGGVFVFGVXAGFDVFVGDGAGAAVADGFAFFFDAGVDFGFVDFGFGGVGXGDAXXFFVGFAFDGVGGVDDAVGVAAXVGDVFADVVFXADVGAFGDGDAVFDFFFVXDXDGVDFDAFAXVGVFF",
+        "ignored_source_indices": [
+          10,
+          16
+        ],
+        "actual_observed_substitutions": 2,
+        "edits": [
+          [
+            10,
+            "A",
+            "X"
+          ],
+          [
+            16,
+            "A",
+            "X"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "positive5",
+      "kind": "hidden_key",
+      "complete": true,
+      "source_slots": 178,
+      "source_masks": 2,
+      "supplied_plaintext_positions": 84,
+      "width": 18,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 2,
+      "distinct_rank_orders": 2,
+      "all_returned_witnesses_reencrypted": true,
+      "hidden_true_rank_retrieved": true,
+      "planted_square_satisfies_returned_component_bindings": true,
+      "witness": {
+        "kind": "solution",
+        "crib_id": "positive5",
+        "width": 18,
+        "ranks": [
+          3,
+          17,
+          16,
+          12,
+          14,
+          2,
+          13,
+          18,
+          9,
+          15,
+          11,
+          1,
+          6,
+          4,
+          8,
+          10,
+          7,
+          5
+        ],
+        "square": "KC8O6Y5JXQRF3D04ZP1MW7VU2S9INGHEABLT",
+        "partial_square": "?C????5JX???3D?4??1M?7??2?9I?G????LT",
+        "plaintext": "3X3XJ37CXC7JCMG2X7XC9MTD4G92CJMMD9XX9C5D9J9TJL939JXD42MDC5C13DX4MC57T55J1ILM7299DM33CIDDL",
+        "filled_source": "AXDDDFAXADADFDAADDVAFADVVXGFGGGAGFFDAAFDFGFFDAFDDGVFVVFFDVFDGVDDVDDFADVDXFFDVXDGXGVDAGGVDFXFXGDAFVFVFFDDGXVFFGDDDFDDGADAGGFVDDGAFDVDDFAAXFDDXDFDDGGGDGAAAVFGVFADFAFVDGADFDDDDFAADD",
+        "ignored_source_indices": [
+          81,
+          106
+        ],
+        "actual_observed_substitutions": 2,
+        "edits": [
+          [
+            81,
+            "F",
+            "G"
+          ],
+          [
+            106,
+            "F",
+            "V"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "positive6",
+      "kind": "hidden_key",
+      "complete": true,
+      "source_slots": 178,
+      "source_masks": 2,
+      "supplied_plaintext_positions": 89,
+      "width": 20,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 2,
+      "distinct_rank_orders": 2,
+      "all_returned_witnesses_reencrypted": true,
+      "hidden_true_rank_retrieved": true,
+      "planted_square_satisfies_returned_component_bindings": true,
+      "witness": {
+        "kind": "solution",
+        "crib_id": "positive6",
+        "width": 20,
+        "ranks": [
+          12,
+          10,
+          4,
+          5,
+          16,
+          18,
+          8,
+          19,
+          11,
+          9,
+          13,
+          20,
+          17,
+          14,
+          15,
+          1,
+          2,
+          7,
+          3,
+          6
+        ],
+        "square": "4R695K3BJZXLMI1N8WTGQUPOCHYFEV2S0DA7",
+        "partial_square": "???9?K?B???LMI1N8??G?U????Y??V2S0??7",
+        "plaintext": "BBK7M2GUUY2LMY8UILKG7ULUN0KYIUYILKLLGS77YVYSLSLGLGYB287M9K1B7MBKGS9VNYVB0IBLL272Y7978YK9I",
+        "filled_source": "GXFDDXXAGGAFXDFFXFVGGXGDVXDDGFVDFDXDXGDXDADXFDGXDDFAGXDXXFGXDXVGAXFAFXAVGXXXDDVDAXFFFXXFFFFDDXGDFDXXVVVXVVXGXDXFXDVDDXDXGGXXGDVXGAVXAAFDDVXDXAGFAGDAADAXAXXFADFGXFGXDVXDXAGFXDADXF",
+        "ignored_source_indices": [
+          65,
+          119
+        ],
+        "actual_observed_substitutions": 2,
+        "edits": [
+          [
+            65,
+            "G",
+            "X"
+          ],
+          [
+            119,
+            "D",
+            "X"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "positive7",
+      "kind": "hidden_key",
+      "complete": true,
+      "source_slots": 178,
+      "source_masks": 2,
+      "supplied_plaintext_positions": 89,
+      "width": 21,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 1,
+      "distinct_rank_orders": 1,
+      "all_returned_witnesses_reencrypted": true,
+      "hidden_true_rank_retrieved": true,
+      "planted_square_satisfies_returned_component_bindings": true,
+      "witness": {
+        "kind": "solution",
+        "crib_id": "positive7",
+        "width": 21,
+        "ranks": [
+          2,
+          8,
+          7,
+          14,
+          17,
+          21,
+          19,
+          20,
+          3,
+          18,
+          5,
+          1,
+          16,
+          9,
+          4,
+          11,
+          13,
+          15,
+          12,
+          10,
+          6
+        ],
+        "square": "98HNQ7IUE31KAYXWVO60TSZMGDPJRCFBL245",
+        "partial_square": "9?HNQ??UE??K??????60??ZM?D?JR???L245",
+        "plaintext": "2U022E4JR2HR0LN06MHQL6R9NLDHLHNNKDKH4LE59RLNLNREH0EDEEENKNH6KENNHN226LZRRH5D2HRQL526LNR64",
+        "filled_source": "FGDXFAAAXFGGXFAFXXGXFVXXFXVXXFGAGFDDVVDGGVAFAVDGAADVVXAFAXAGVADFDGXFVGFDFGFXGXGVDAVGGAFXDDVXXVAAVFVGVFAXDXVXDGVVGDFVGVAFAFDVXXAAFAFXVGDADXFADVGGFXVAGVVXFAXAGXGGGAGAGDGAADXADFAGXV",
+        "ignored_source_indices": [
+          3,
+          148
+        ],
+        "actual_observed_substitutions": 2,
+        "edits": [
+          [
+            3,
+            "D",
+            "X"
+          ],
+          [
+            148,
+            "D",
+            "G"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "positive8",
+      "kind": "hidden_key",
+      "complete": true,
+      "source_slots": 178,
+      "source_masks": 2,
+      "supplied_plaintext_positions": 89,
+      "width": 22,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 2,
+      "distinct_rank_orders": 2,
+      "all_returned_witnesses_reencrypted": true,
+      "hidden_true_rank_retrieved": true,
+      "planted_square_satisfies_returned_component_bindings": true,
+      "witness": {
+        "kind": "solution",
+        "crib_id": "positive8",
+        "width": 22,
+        "ranks": [
+          22,
+          18,
+          4,
+          10,
+          11,
+          13,
+          3,
+          14,
+          12,
+          15,
+          9,
+          8,
+          6,
+          1,
+          17,
+          5,
+          7,
+          21,
+          19,
+          20,
+          16,
+          2
+        ],
+        "square": "987VUL215AF60ZQ3SYBHOCXWNT4RIPKMJGED",
+        "partial_square": "??7VUL215?F?0Z??S???OC?W??4?I??MJ???",
+        "plaintext": "5VJLWVVLOZ2SLC14W44JZWJ7IJ4OFWC7LLIOMJSOCI1ZI41CCOLZ4IV024L1I44OIZV5I5CF4VV5WZFCU4ZLZ4CLL",
+        "filled_source": "GFVFXFFXAXXDGDXXADXXGADAAAAVVDDDXFXGDFGDAVDGAVVAGXGVVGAVGXFVFVVDAGGFGVDFGXFVFAFVXGVGDVVGGVVXGDGVFGVFDFVGXDFDGXFVXFFFGDGFDGAFAFGAAVGGFVAFFVFXVAGDXFFADVVDGDDFDVVFGFFGVFFGFDFXAVFAFA",
+        "ignored_source_indices": [
+          126,
+          160
+        ],
+        "actual_observed_substitutions": 2,
+        "edits": [
+          [
+            126,
+            "X",
+            "G"
+          ],
+          [
+            160,
+            "D",
+            "G"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "positive9",
+      "kind": "hidden_key",
+      "complete": true,
+      "source_slots": 178,
+      "source_masks": 2,
+      "supplied_plaintext_positions": 89,
+      "width": 23,
+      "maximum_observed_substitutions": 2,
+      "returned_witnesses": 1,
+      "distinct_rank_orders": 1,
+      "all_returned_witnesses_reencrypted": true,
+      "hidden_true_rank_retrieved": true,
+      "planted_square_satisfies_returned_component_bindings": true,
+      "witness": {
+        "kind": "solution",
+        "crib_id": "positive9",
+        "width": 23,
+        "ranks": [
+          6,
+          2,
+          12,
+          3,
+          18,
+          13,
+          11,
+          22,
+          5,
+          7,
+          1,
+          10,
+          21,
+          15,
+          9,
+          19,
+          20,
+          8,
+          14,
+          16,
+          23,
+          17,
+          4
+        ],
+        "square": "96J873TN52BAFZYSXWO0V1EUQIRPC4KGMLHD",
+        "partial_square": "?6J???TN??B??Z?S??O0?1EUQ??P?4KG????",
+        "plaintext": "00ZBJ06JOKPTSJTOOKZ64P0UNZU1QQS6EK1K6PNU6NBSKJ1UGJS4JKKOTPS6UZJ16PZPJBESGPENJPP6JPTZBQ0ZQ",
+        "filled_source": "GAVXVFGADFXXGFVVDADAXAVDDDGFVFAAAGDFDVVGAGGGGDFFGGGGAGVAVDFAFGADFDXDADDXAAXGVGDAGGAXXDGGDAGGGGDDDVDGGFXXGGGDVDFADFADFAVVXAVGGGAAAADFFFDXDFAFAGDAVFVGDAVXGVAAAVDAGDDVGXDFFDDVGXADGA",
+        "ignored_source_indices": [
+          10,
+          147
+        ],
+        "actual_observed_substitutions": 2,
+        "edits": [
+          [
+            10,
+            "F",
+            "X"
+          ],
+          [
+            147,
+            "V",
+            "G"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "p153_known_crib",
+      "kind": "historical_consistency",
+      "complete": true,
+      "source_slots": 132,
+      "source_masks": 0,
+      "supplied_plaintext_positions": 60,
+      "width": 18,
+      "maximum_observed_substitutions": 0,
+      "returned_witnesses": 2,
+      "distinct_rank_orders": 2,
+      "all_returned_witnesses_reencrypted": true,
+      "witnesses": [
+        {
+          "kind": "solution",
+          "crib_id": "p153_known_crib",
+          "width": 18,
+          "ranks": [
+            16,
+            7,
+            13,
+            4,
+            15,
+            8,
+            17,
+            3,
+            1,
+            12,
+            14,
+            2,
+            5,
+            9,
+            10,
+            18,
+            11,
+            6
+          ],
+          "square": "9T8UGI7654321WO0CMBYXSZKPNDHQVEAJFLR",
+          "partial_square": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR",
+          "plaintext": "ANORDNUNGENVOM1TENYYTENNR3P3BEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+          "filled_source": "VFVAXFXDADADVGXFAVGDVDDDADXGAAAXVGVFVDADDXADADVVAVGFXDAGDDDGDXGGGVVXDXFVVAVVVFAXFXDXAFAVVGGXAVXVFVXVFGFVAXGAAVXXGDXXFVXFXGGVADAVAFDG",
+          "ignored_source_indices": [],
+          "actual_observed_substitutions": 0,
+          "edits": []
+        },
+        {
+          "kind": "solution",
+          "crib_id": "p153_known_crib",
+          "width": 18,
+          "ranks": [
+            7,
+            16,
+            4,
+            13,
+            8,
+            15,
+            3,
+            17,
+            12,
+            1,
+            2,
+            14,
+            9,
+            5,
+            18,
+            10,
+            6,
+            11
+          ],
+          "square": "987B6ET5W4NA32O1D0UYXSHFGQCZPLIKMJVR",
+          "partial_square": "???B?ET?W?NA??O?D?U??SH?G?CZ?LI?M?VR",
+          "plaintext": "ANORDNUNGENVOM7TEN44TENNRQ6QBEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+          "filled_source": "VFVAXFXDADADVGXFAVGDVDDDADXGAAAXVGVFVDADDXADADVVAVGFXDAGDDDGDXGGGVVXDXFVVAVVVFAXFXDXAFAVVGGXAVXVFVXVFGFVAXGAAVXXGDXXFVXFXGGVADAVAFDG",
+          "ignored_source_indices": [],
+          "actual_observed_substitutions": 0,
+          "edits": []
+        }
+      ],
+      "second_part_prefix_observed_edits": [
+        [
+          3,
+          "A",
+          "X"
+        ],
+        [
+          4,
+          "A",
+          "X"
+        ]
+      ],
+      "historical_scope": "Post-discovery consistency of the supplied sixty-letter p153 crib; no new decipherment or digit recovery."
+    }
+  ]
+}

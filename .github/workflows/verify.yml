@@ -34,6 +34,7 @@ jobs:
           python -m adfgvx.navigation --check
           python experiments/session_review/verify.py --verify
           python experiments/post_push_review/verify.py --verify
+          python experiments/post_push_review/verify_artifact_refresh.py
           python data/reviews/verify_reading_conventions.py
           python data/reviews/verify_manual_readings.py
           python data/reviews/verify_semantic_readings.py
@@ -55,6 +56,8 @@ jobs:
           python experiments/p68_procurement_continuation/verify.py --verify
           python experiments/p84_mother_illness_fragment/verify.py --verify
           python experiments/p163_headquarters_map_context/verify.py --verify
+          python experiments/p163_rearguard_continuation/verify.py --verify
+          python experiments/p176_repeated_place/verify.py --verify
           python experiments/p116_optional_route_fragment/verify.py --verify
           python experiments/p116_optional_route_fragment/verify_approval.py --verify
           python experiments/p116_optional_route_fragment/verify_footer.py --verify
@@ -73,6 +76,8 @@ jobs:
           python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_detail_prose_before.json --audit data/reviews/reading_conventions_detail_prose_audit.json
       - name: Verify Budapest teleprinter source edition
         run: python experiments/nov24_budapest_report/verify.py --verify
+      - name: Verify unknown-key crib search with source substitutions
+        run: python experiments/substitution_crib_csp/verify.py --verify
       - name: Verify newly restored source families
         run: |
           python experiments/danube_arad_witnesses/verify.py --verify

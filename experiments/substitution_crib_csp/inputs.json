@@ -1,0 +1,1271 @@
+{
+  "schema_version": 1,
+  "credit": "icekylinx and GPT-6 Astra Pro",
+  "control_seed": 20261104033217073,
+  "prototype_solver_sha256_before_controls": "d5c69645f01752fbf5d3bbf4f1e40afe20f344804b9667ff5a805b5b64a79d0f",
+  "scope": "Exact conditional existence search for a supplied partial or full plaintext crib, arbitrary bijective square, all column permutations at a declared width, fixed source masks and at most E observed-coordinate substitutions. No blind decipherment or historical plaintext novelty claim.",
+  "source_dependencies": [
+    {
+      "path": "experiments/p153_crib/historical_input.txt",
+      "sha256": "91d0fb2698efe4095411a42b6672ab081f045453f85edb4e8bc7a3de2eef4a5c"
+    },
+    {
+      "path": "experiments/p153_crib/verification.json",
+      "sha256": "bf107db4bb38557654ec394b078b4fdac8df765c587e2cf7dcdbabcf6c8dbe6a"
+    },
+    {
+      "path": "experiments/p153_odd_widths/enumerate_components.c",
+      "sha256": "7913d3e715df908fcbbb7e993e9809c0fe8e89b5eed5da5810515c87d95adf17"
+    },
+    {
+      "path": "experiments/p153_even_widths/enumerate_even.c",
+      "sha256": "734370188df5594b61b4b4f52db892cd594584a894787898e90ca28e3df17221"
+    },
+    {
+      "path": "experiments/p170_new_methods/followup/column_donor_match.cpp",
+      "sha256": "68127d616f57638befacf6f7983e417b5414c38226a505912b503d024db0f15e"
+    },
+    {
+      "path": "experiments/p73_new_methods/src/substitution_agreement.cpp",
+      "sha256": "307322796849c07bc38035cd4a82e18f535158711ca3e2f7a9b259d81918f102"
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "tiny0",
+      "kind": "tiny_oracle",
+      "crib": "ABACA9",
+      "source": "VFXFFXFVAVFD",
+      "width": 3,
+      "maximum_observed_substitutions": 0,
+      "expected_ranks": [
+        [
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "tiny1",
+      "kind": "tiny_oracle",
+      "crib": "ABBACA",
+      "source": "XXXXVFDDDDGG",
+      "width": 4,
+      "maximum_observed_substitutions": 1,
+      "expected_ranks": []
+    },
+    {
+      "id": "tiny2",
+      "kind": "tiny_oracle",
+      "crib": "A1BA1C",
+      "source": "GGVAVDFFADAV",
+      "width": 4,
+      "maximum_observed_substitutions": 2,
+      "expected_ranks": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          1,
+          4,
+          3
+        ],
+        [
+          2,
+          3,
+          4,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "tiny3",
+      "kind": "tiny_oracle",
+      "crib": "ABABAB",
+      "source": "G??DDDADFDDG",
+      "width": 5,
+      "maximum_observed_substitutions": 1,
+      "expected_ranks": []
+    },
+    {
+      "id": "tiny4",
+      "kind": "tiny_oracle",
+      "crib": "ABCADE",
+      "source": "AXADXAGDGF?X",
+      "width": 3,
+      "maximum_observed_substitutions": 2,
+      "expected_ranks": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "tiny5",
+      "kind": "tiny_oracle",
+      "crib": "A?ACA9",
+      "source": "AGGXGXDGDGAV",
+      "width": 5,
+      "maximum_observed_substitutions": 2,
+      "expected_ranks": [
+        [
+          1,
+          4,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          4,
+          3,
+          2,
+          5
+        ],
+        [
+          1,
+          4,
+          3,
+          5,
+          2
+        ],
+        [
+          1,
+          4,
+          5,
+          3,
+          2
+        ],
+        [
+          1,
+          5,
+          3,
+          2,
+          4
+        ],
+        [
+          1,
+          5,
+          3,
+          4,
+          2
+        ],
+        [
+          1,
+          5,
+          4,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          5,
+          1,
+          4
+        ],
+        [
+          2,
+          3,
+          5,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        [
+          3,
+          5,
+          1,
+          4,
+          2
+        ],
+        [
+          3,
+          5,
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          5,
+          4,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          5,
+          2,
+          3
+        ],
+        [
+          4,
+          2,
+          5,
+          1,
+          3
+        ],
+        [
+          4,
+          3,
+          5,
+          1,
+          2
+        ],
+        [
+          4,
+          5,
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          5,
+          2,
+          3,
+          1
+        ],
+        [
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          5,
+          3,
+          2,
+          1
+        ],
+        [
+          5,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          5,
+          1,
+          3,
+          2,
+          4
+        ],
+        [
+          5,
+          1,
+          4,
+          2,
+          3
+        ],
+        [
+          5,
+          2,
+          3,
+          1,
+          4
+        ],
+        [
+          5,
+          3,
+          2,
+          1,
+          4
+        ],
+        [
+          5,
+          3,
+          4,
+          1,
+          2
+        ],
+        [
+          5,
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          5,
+          4,
+          3,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "tiny6",
+      "kind": "tiny_oracle",
+      "crib": "ABBCACD",
+      "source": "GX?AXAXFAFVXD?",
+      "width": 4,
+      "maximum_observed_substitutions": 1,
+      "expected_ranks": [
+        [
+          1,
+          2,
+          4,
+          3
+        ],
+        [
+          2,
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "tiny7",
+      "kind": "tiny_oracle",
+      "crib": "ABC?ABD",
+      "source": "FVVDGVDFGA?G?F",
+      "width": 5,
+      "maximum_observed_substitutions": 2,
+      "expected_ranks": [
+        [
+          1,
+          2,
+          3,
+          5,
+          4
+        ],
+        [
+          1,
+          2,
+          5,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          2,
+          5,
+          4
+        ],
+        [
+          1,
+          4,
+          2,
+          5,
+          3
+        ],
+        [
+          1,
+          4,
+          3,
+          5,
+          2
+        ],
+        [
+          1,
+          4,
+          5,
+          3,
+          2
+        ],
+        [
+          1,
+          5,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          5,
+          3,
+          4,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          1,
+          3,
+          5,
+          4
+        ],
+        [
+          2,
+          1,
+          4,
+          5,
+          3
+        ],
+        [
+          2,
+          3,
+          1,
+          5,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          1
+        ],
+        [
+          2,
+          3,
+          5,
+          4,
+          1
+        ],
+        [
+          2,
+          4,
+          1,
+          5,
+          3
+        ],
+        [
+          2,
+          4,
+          3,
+          5,
+          1
+        ],
+        [
+          2,
+          4,
+          5,
+          3,
+          1
+        ],
+        [
+          2,
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          3,
+          1,
+          2,
+          5,
+          4
+        ],
+        [
+          3,
+          1,
+          5,
+          2,
+          4
+        ],
+        [
+          3,
+          2,
+          1,
+          5,
+          4
+        ],
+        [
+          3,
+          2,
+          4,
+          5,
+          1
+        ],
+        [
+          3,
+          2,
+          5,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          5,
+          4,
+          1
+        ],
+        [
+          3,
+          4,
+          1,
+          5,
+          2
+        ],
+        [
+          3,
+          4,
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        [
+          3,
+          5,
+          1,
+          4,
+          2
+        ],
+        [
+          3,
+          5,
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          5,
+          4,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          2,
+          5,
+          3
+        ],
+        [
+          4,
+          1,
+          3,
+          5,
+          2
+        ],
+        [
+          4,
+          1,
+          5,
+          2,
+          3
+        ],
+        [
+          4,
+          1,
+          5,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          1,
+          5,
+          3
+        ],
+        [
+          4,
+          2,
+          3,
+          5,
+          1
+        ],
+        [
+          4,
+          2,
+          5,
+          3,
+          1
+        ],
+        [
+          4,
+          3,
+          1,
+          5,
+          2
+        ],
+        [
+          4,
+          3,
+          2,
+          5,
+          1
+        ],
+        [
+          4,
+          3,
+          5,
+          1,
+          2
+        ],
+        [
+          4,
+          3,
+          5,
+          2,
+          1
+        ],
+        [
+          4,
+          5,
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          1,
+          3,
+          2
+        ],
+        [
+          4,
+          5,
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          3,
+          2,
+          4
+        ],
+        [
+          5,
+          1,
+          4,
+          2,
+          3
+        ],
+        [
+          5,
+          2,
+          1,
+          3,
+          4
+        ],
+        [
+          5,
+          2,
+          3,
+          4,
+          1
+        ],
+        [
+          5,
+          3,
+          1,
+          2,
+          4
+        ],
+        [
+          5,
+          4,
+          1,
+          2,
+          3
+        ],
+        [
+          5,
+          4,
+          1,
+          3,
+          2
+        ],
+        [
+          5,
+          4,
+          3,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "tiny8",
+      "kind": "tiny_oracle",
+      "crib": "ABCAB0AB",
+      "source": "VFAVAAVAAAXAFVFA",
+      "width": 4,
+      "maximum_observed_substitutions": 2,
+      "expected_ranks": [
+        [
+          1,
+          2,
+          4,
+          3
+        ],
+        [
+          1,
+          3,
+          4,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          4
+        ],
+        [
+          3,
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "positive0",
+      "kind": "hidden_key",
+      "crib": "W26GGB6K7264GTTB888X4BTTUUG4667BXFGWMKG7TGUT2YU2B7BUX",
+      "source": "ADAXAGXXAVVVAAADAFFDDDXXGGXFAVVDAGFGDFFDFFAXGXVAVVFGFFAVVVFVVDXXFVXDDFVVDDDGVXAXXGDADAVADGAFGFGFGADVDVDXDV",
+      "width": 16,
+      "maximum_observed_substitutions": 1,
+      "plaintext": "W26GGB6K7264GTTB888X4BTTUUG4667BXFGWMKG7TGUT2YU2B7BUX",
+      "true_square": "Q97SXM8025O6KTHYV3B1CEUAN4DPFWRIJLGZ",
+      "true_ranks": [
+        14,
+        5,
+        12,
+        9,
+        4,
+        2,
+        8,
+        16,
+        13,
+        10,
+        6,
+        1,
+        7,
+        11,
+        15,
+        3
+      ],
+      "planted_substitutions": [
+        81
+      ],
+      "declared_masks": []
+    },
+    {
+      "id": "positive1",
+      "kind": "hidden_key",
+      "crib": "UAWRVWUNVIAVLLQQNVWWQNQN43N1QNQQQAZ94AZ4WLVVUQZUW3UZN",
+      "source": "GFVGDVFVAVXAXXFFXXVFDXAXAXVXXXAVAFGGAFFAAFAVVAXXGFVXAXVVVGVVGFAXGXFFFXVFXGAVXXFVXVVFXAGVFXFXVGAAAFVXDXXXFX",
+      "width": 17,
+      "maximum_observed_substitutions": 2,
+      "plaintext": "UAWRVWUNVIAVLLQQNVWWQNQN43N1QNQQQAZ94AZ4WLVVUQZUW3UZN",
+      "true_square": "HTNBSV7O0FRILX5ACG4J3216MDUPWZK98EYQ",
+      "true_ranks": [
+        13,
+        4,
+        12,
+        1,
+        10,
+        2,
+        17,
+        14,
+        16,
+        3,
+        8,
+        5,
+        9,
+        15,
+        11,
+        7,
+        6
+      ],
+      "planted_substitutions": [
+        73,
+        77
+      ],
+      "declared_masks": []
+    },
+    {
+      "id": "positive2",
+      "kind": "hidden_key",
+      "crib": "OLDOLOK8K?800O?75FR8RROOYR8OR?05YOU7R0OLKDY787DLLVRDU",
+      "source": "VFFGVGVGDXDFGGXVXGVVDDGFDDDGDGGDGDXGGDGFFDGDFGFDXDGXFGXGVDDADFFAFVFFFGGDAVVVVGAAFFVDAAAAVXVGVDVDVVVFVVFVAA",
+      "width": 18,
+      "maximum_observed_substitutions": 2,
+      "plaintext": "OLDOLOK8KO800O575FR8RROOYR8ORL05YOU7R0OLKDY787DLLVRDU",
+      "true_square": "B8XFZ7PG92K5NRU0QMT6LEIVJDSOY4W31AHC",
+      "true_ranks": [
+        18,
+        6,
+        14,
+        5,
+        1,
+        8,
+        12,
+        7,
+        4,
+        3,
+        17,
+        10,
+        13,
+        16,
+        11,
+        9,
+        15,
+        2
+      ],
+      "planted_substitutions": [
+        50,
+        104
+      ],
+      "declared_masks": []
+    },
+    {
+      "id": "positive3",
+      "kind": "hidden_key",
+      "crib": "8H7X28283TH7AZO8H77O1312DAZ82O218ZDXDZA8O78X888H3THX18EEA1XO2ET3873387OD4DXT2X7D3O27A478P",
+      "source": "G??FXVGXDXDXGAVXXXADVGAXVDGVXVVVDDDVVDADFVVDDGFDGDDDVAGVDVVDDDXDVVDFAVDDFDDGFAVDVVVFVVDVDVAVGVDAAFAVVDGXVADFVXDAVFDAFVVGGXXVVDAVGGDXXVDFADXVADVDFAVDDAAADFAVGVGFFGVAGXADAADFVGVAGG",
+      "width": 16,
+      "maximum_observed_substitutions": 2,
+      "plaintext": "8H7X28283TH7AZO8H77O1312DAZ82O218ZDXDZA8O78X888H3THX18EEA1XO2ET3873387OD4DXT2X7D3O27A478P",
+      "true_square": "PSWHKXOGAE8J93QNUYICZL6412R70D5BFMTV",
+      "true_ranks": [
+        7,
+        10,
+        3,
+        15,
+        9,
+        1,
+        14,
+        2,
+        8,
+        13,
+        5,
+        11,
+        6,
+        16,
+        4,
+        12
+      ],
+      "planted_substitutions": [
+        154,
+        83
+      ],
+      "declared_masks": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "positive4",
+      "kind": "hidden_key",
+      "crib": "BU68JXJHJ3J3MHU11IX7ZWJS6MMQBIHMW6JJHBWW3IS6T8IM1JU639QMSMQIJ3UMM6U1IMI6XQQQZH6I83M6HBMQH",
+      "source": "F??VGDGVFVAGDGGAAAFGXFDFAFFGADFADDFFVVFVVFGFXFDXFGVAVFGGVFVFGVXAGFDVFVGDGAGAAVADGFAFFFDAGVDFGFVDFGFGGVGXGDAXXFFVGFAFDGVGGVDDAVGVAAXVGDVFADVVFXADVGAFGDGDAVFDFFFVXDXDGVDFDAFAXVGVFF",
+      "width": 17,
+      "maximum_observed_substitutions": 2,
+      "plaintext": "BU68JXJHJ3J3MHU11IX7ZWJS6MMQBIHMW6JJHBWW3IS6T8IM1JU639QMSMQIJ3UMM6U1IMI6XQQQZH6I83M6HBMQH",
+      "true_square": "N1BD64AOFZ7XHJQK2L053UMSVIPR9GYC8WTE",
+      "true_ranks": [
+        14,
+        15,
+        7,
+        5,
+        4,
+        13,
+        3,
+        6,
+        16,
+        10,
+        17,
+        2,
+        1,
+        11,
+        9,
+        8,
+        12
+      ],
+      "planted_substitutions": [
+        10,
+        16
+      ],
+      "declared_masks": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "positive5",
+      "kind": "hidden_key",
+      "crib": "3X3X?37CX?7?CMG2X7XC9MTD4G92CJMMD9XX9C5D9J9TJL939JXD42MDC5C13DX4?C57T55J1ILM7299DM33CIDD?",
+      "source": "A??DDFAXADADFDAADDVAFADVVXGFGGGAGFFDAAFDFGFFDAFDDGVFVVFFDVFDGVDDVDDFADVDXFFDVXDGXFVDAGGVDFXFXGDAFVFVFFDDGXFFFGDDDFDDGADAGGFVDDGAFDVDDFAAXFDDXDFDDGGGDGAAAVFGVFADFAFVDGADFDDDDFAADD",
+      "width": 18,
+      "maximum_observed_substitutions": 2,
+      "plaintext": "3X3XJ37CXC7JCMG2X7XC9MTD4G92CJMMD9XX9C5D9J9TJL939JXD42MDC5C13DX4MC57T55J1ILM7299DM33CIDDL",
+      "true_square": "KC06BU5JXWEP3DV4NZ1MH7YO289ISGAFQRLT",
+      "true_ranks": [
+        3,
+        17,
+        16,
+        12,
+        14,
+        2,
+        13,
+        18,
+        9,
+        15,
+        11,
+        1,
+        6,
+        4,
+        8,
+        10,
+        7,
+        5
+      ],
+      "planted_substitutions": [
+        106,
+        81
+      ],
+      "declared_masks": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "positive6",
+      "kind": "hidden_key",
+      "crib": "BBK7M2GUUY2LMY8UILKG7ULUN0KYIUYILKLLGS77YVYSLSLGLGYB287M9K1B7MBKGS9VNYVB0IBLL272Y7978YK9I",
+      "source": "G??DDXXAGGAFXDFFXFVGGXGDVXDDGFVDFDXDXGDXDADXFDGXDDFAGXDXXFGXDXVGAGFAFXAVGXXXDDVDAXFFFXXFFFFDDXGDFDXXVVVXVVXGXDXFXDVDDXDDGGXXGDVXGAVXAAFDDVXDXAGFAGDAADAXAXXFADFGXFGXDVXDXAGFXDADXF",
+      "width": 20,
+      "maximum_observed_substitutions": 2,
+      "plaintext": "BBK7M2GUUY2LMY8UILKG7ULUN0KYIUYILKLLGS77YVYSLSLGLGYB287M9K1B7MBKGS9VNYVB0IBLL272Y7978YK9I",
+      "true_square": "JWZ9AKXBR4ELMI1N8FDGCUTQ6OYPHV2S0537",
+      "true_ranks": [
+        12,
+        10,
+        4,
+        5,
+        16,
+        18,
+        8,
+        19,
+        11,
+        9,
+        13,
+        20,
+        17,
+        14,
+        15,
+        1,
+        2,
+        7,
+        3,
+        6
+      ],
+      "planted_substitutions": [
+        65,
+        119
+      ],
+      "declared_masks": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "positive7",
+      "kind": "hidden_key",
+      "crib": "2U022E4JR2HR0LN06MHQL6R9NLDHLHNNKDKH4LE59RLNLNREH0EDEEENKNH6KENNHN226LZRRH5D2HRQL526LNR64",
+      "source": "F??DFAAAXFGGXFAFXXGXFVXXFXVXXFGAGFDDVVDGGVAFAVDGAADVVXAFAXAGVADFDGXFVGFDFGFXGXGVDAVGGAFXDDVXXVAAVFVGVFAXDXVXDGVVGDFVGVAFAFDVXXAAFAFXVGDADXFADVGGFXVADVVXFAXAGXGGGAGAGDGAADXADFAGXV",
+      "width": 21,
+      "maximum_observed_substitutions": 2,
+      "plaintext": "2U022E4JR2HR0LN06MHQL6R9NLDHLHNNKDKH4LE59RLNLNREH0EDEEENKNH6KENNHN226LZRRH5D2HRQL526LNR64",
+      "true_square": "9CHNQX3UEVYKO17BI860SAZMGDWJRPFTL245",
+      "true_ranks": [
+        2,
+        8,
+        7,
+        14,
+        17,
+        21,
+        19,
+        20,
+        3,
+        18,
+        5,
+        1,
+        16,
+        9,
+        4,
+        11,
+        13,
+        15,
+        12,
+        10,
+        6
+      ],
+      "planted_substitutions": [
+        148,
+        3
+      ],
+      "declared_masks": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "positive8",
+      "kind": "hidden_key",
+      "crib": "5VJLWVVLOZ2SLC14W44JZWJ7IJ4OFWC7LLIOMJSOCI1ZI41CCOLZ4IV024L1I44OIZV5I5CF4VV5WZFCU4ZLZ4CLL",
+      "source": "G??FXFFXAXXDGDXXADXXGADAAAAVVDDDXFXGDFGDAVDGAVVAGXGVVGAVGXFVFVVDAGGFGVDFGXFVFAFVXGVGDVVGGVVXGDGVFGVFDFVGXDFDGXFVXFFFGDGFDGAFAFXAAVGGFVAFFVFXVAGDXFFADVVDGDDFDVVFDFFGVFFGFDFXAVFAFA",
+      "width": 22,
+      "maximum_observed_substitutions": 2,
+      "plaintext": "5VJLWVVLOZ2SLC14W44JZWJ7IJ4OFWC7LLIOMJSOCI1ZI41CCOLZ4IV024L1I44OIZV5I5CF4VV5WZFCU4ZLZ4CLL",
+      "true_square": "9X7VUL215KFG0ZE3STQPOCBWYD4AIN6MJH8R",
+      "true_ranks": [
+        22,
+        18,
+        4,
+        10,
+        11,
+        13,
+        3,
+        14,
+        12,
+        15,
+        9,
+        8,
+        6,
+        1,
+        17,
+        5,
+        7,
+        21,
+        19,
+        20,
+        16,
+        2
+      ],
+      "planted_substitutions": [
+        126,
+        160
+      ],
+      "declared_masks": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "positive9",
+      "kind": "hidden_key",
+      "crib": "00ZBJ06JOKPTSJTOOKZ64P0UNZU1QQS6EK1K6PNU6NBSKJ1UGJS4JKKOTPS6UZJ16PZPJBESGPENJPP6JPTZBQ0ZQ",
+      "source": "G??XVFGADFFXGFVVDADAXAVDDDGFVFAAAGDFDVVGAGGGGDFFGGGGAGVAVDFAFGADFDXDADDXAAXGVGDAGGAXXDGGDAGGGGDDDVDGGFXXGGGDVDFADFADFAVVXAVGGGAAAADFFFDXDFAFAGDAVFVVDAVXGVAAAVDAGDDVGXDFFDDVGXADGA",
+      "width": 23,
+      "maximum_observed_substitutions": 2,
+      "plaintext": "00ZBJ06JOKPTSJTOOKZ64P0UNZU1QQS6EK1K6PNU6NBSKJ1UGJS4JKKOTPS6UZJ16PZPJBESGPENJPP6JPTZBQ0ZQ",
+      "true_square": "R6JWF3TN8LBDYZ5SVIO0A1EUQHXPC4KG29M7",
+      "true_ranks": [
+        6,
+        2,
+        12,
+        3,
+        18,
+        13,
+        11,
+        22,
+        5,
+        7,
+        1,
+        10,
+        21,
+        15,
+        9,
+        19,
+        20,
+        8,
+        14,
+        16,
+        23,
+        17,
+        4
+      ],
+      "planted_substitutions": [
+        147,
+        10
+      ],
+      "declared_masks": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "p153_known_crib",
+      "kind": "historical_consistency",
+      "crib": "ANORDNUNGENVOM?TEN??TENNR???BEZIEHENLASSENSOWEITNOCHNICHTGESCHEHEN",
+      "source": "VFVAXFXDADADVGXFAVGDVDDDADXGAAAXVGVFVDADDXADADVVAVGFXDAGDDDGDXGGGVVXDXFVVAVVVFAXFXDXAFAVVGGXAVXVFVXVFGFVAXGAAVXXGDXXFVXFXGGVADAVAFDG",
+      "width": 18,
+      "maximum_observed_substitutions": 0,
+      "expected_ranks": [
+        [
+          7,
+          16,
+          4,
+          13,
+          8,
+          15,
+          3,
+          17,
+          12,
+          1,
+          2,
+          14,
+          9,
+          5,
+          18,
+          10,
+          6,
+          11
+        ],
+        [
+          16,
+          7,
+          13,
+          4,
+          15,
+          8,
+          17,
+          3,
+          1,
+          12,
+          14,
+          2,
+          5,
+          9,
+          10,
+          18,
+          11,
+          6
+        ]
+      ],
+      "expected_partial_squares": {
+        "7,16,4,13,8,15,3,17,12,1,2,14,9,5,18,10,6,11": "???B?ET?W?NA??O?D?U??SH?G?CZ?LI?M?VR",
+        "16,7,13,4,15,8,17,3,1,12,14,2,5,9,10,18,11,6": "?T?UGI???????WO?CMB??SZ??NDH?VEA??LR"
+      },
+      "second_crib": "MUNITIONSBESTANDDERNACHHUTARTILLERIEMELDEN",
+      "second_source": "AXVAA???????????????DDAFFVAXAGGADAFDXAXXXVDGDXVXFFGXFAVVAADAGXXXAXDDGVAVAXVAXAAVVXVAVGXAXXFGXXFAAAFXVADFDXVF",
+      "expected_second_edits": [
+        [
+          3,
+          "A",
+          "X"
+        ],
+        [
+          4,
+          "A",
+          "X"
+        ]
+      ]
+    }
+  ]
+}

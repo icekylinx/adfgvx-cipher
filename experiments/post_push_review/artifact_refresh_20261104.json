@@ -1,0 +1,365 @@
+{
+  "schema": "adfgvx-reviewed-artifact-refresh-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "review_date_utc": "2026-11-04",
+  "scope": "Preserve the previous source-inventory snapshot and explicitly review only the listed later presentation changes. The inventory's coverage counts and source package evidence are not refreshed.",
+  "offset_unit": "zero-based Unicode code points; UTF-8 byte hashes",
+  "preserved_inputs_sha256": "27566b4b1f20156c28023fd3acaa0a722a46bf16d0e1c215178a63ee29790dcc",
+  "preserved_inventory_sha256": "9e2fb66bbb69f46684d0427a2a8a1f2226751af2735fb14506e0d67707e945ef",
+  "preserved_base_commit": "39281239b759cdb97fa7148eadb0ad81edd1908a",
+  "reviewed_after_base_commit": "5eb1026261c6228029ebe3e9b610d265e6d83618",
+  "artifacts": [
+    {
+      "path": "cases/military/transylvania_situation_report.md",
+      "kind": "case_prose",
+      "before_sha256": "79222a91888ab23db4d1ad62535ab12437be579d6a030ae3b4f5ff382ea2b61b",
+      "after_sha256": "309cd26ab1dd7eb66169cb37fb8bc8b110d8e498db3d4cafde5f26e0d6e3ab70",
+      "before_commit": "39281239b759cdb97fa7148eadb0ad81edd1908a",
+      "review_reason": "Adds the separately priced p137 governing-clause supplement, preserving every earlier raw/edited display and the unresolved separator/final position.",
+      "changes": [
+        {
+          "kind": "insert",
+          "before_start": 4495,
+          "before_end": 4495,
+          "after_start": 4495,
+          "after_end": 5016,
+          "before_text": "",
+          "after_text": "The [new governing-clause supplement](../../experiments/p137_governing_clause/README.md)\nextends the optional reading to **124/126 positions**: `VORBEGINN\nMILITAERISCHER BEWEGUNGEN` and `AB6XNOVEMBER`. Relative to the staff layer,\nit adds four observed substitutions, one printed-mask fill and seven\nmissing-coordinate fills. The separate `AB6X` proposal needs only two fills\nand preserves the observed 6. The staff separator and final position remain\nunread; the governing clause is a priced contextual reconstruction.\n\n"
+        }
+      ],
+      "unified_diff": "--- a/cases/military/transylvania_situation_report.md\n+++ b/cases/military/transylvania_situation_report.md\n@@ -73,6 +73,14 @@\n price remain unchanged. Independent witnesses attest the two staff compounds,\n not this complete clause or its historical execution.\n \n+The [new governing-clause supplement](../../experiments/p137_governing_clause/README.md)\n+extends the optional reading to **124/126 positions**: `VORBEGINN\n+MILITAERISCHER BEWEGUNGEN` and `AB6XNOVEMBER`. Relative to the staff layer,\n+it adds four observed substitutions, one printed-mask fill and seven\n+missing-coordinate fills. The separate `AB6X` proposal needs only two fills\n+and preserves the observed 6. The staff separator and final position remain\n+unread; the governing clause is a priced contextual reconstruction.\n+\n ## p129 A7\n \n Request concerning the unknown general political situation and a possible armistice.\n",
+      "review_evidence": [
+        {
+          "path": "experiments/p137_governing_clause/inputs.json",
+          "sha256": "2983e898d20a4e8825e664ebe85b1252dc39e65fa39214dd92cd0c88a41338c6"
+        },
+        {
+          "path": "experiments/p137_governing_clause/certificates.json",
+          "sha256": "60dbd912ca0b538efb6ff6110c551c4fad5fb626ff7c281d200a71fbb6f2a06b"
+        }
+      ]
+    },
+    {
+      "path": "cases/military/black_sea_evacuation_routes.md",
+      "kind": "case_prose",
+      "before_sha256": "e4366f34cbab096f6b485a867a4f920b396c26f2f79e3c2565911167f24068ac",
+      "after_sha256": "8c0ad53a16c97f22855cad40e5880aa613c6f263d078a9e30768d4777b9ed031",
+      "before_commit": "39281239b759cdb97fa7148eadb0ad81edd1908a",
+      "review_reason": "Adds the source-supported p89 guard-battalion extension and labels the unchanged earlier quantities as baseline counts. The original ciphertext displays and Ayush Agarwal credit remain unchanged.",
+      "changes": [
+        {
+          "kind": "insert",
+          "before_start": 5152,
+          "before_end": 5152,
+          "after_start": 5152,
+          "after_end": 6150,
+          "before_text": "",
+          "after_text": "A [later guard-battalion extension](../../experiments/p89_guard_battalion_extension/README.md)\nproposes `ERSXBATLX2XGARDEREGT`, supported by an independently observed word\nspan in p104 D. It matches all **27 observed recipient halves**, adds twelve\npositions at thirteen lost-coordinate fills, and changes no observation.\nA separately scoped `BERLIN` completion adds three more half-supported\npositions. The combined conditional layer reaches **166/179**, with the same\none observed substitution and one printed-dash fill as above, plus **85**\nconditional lost-coordinate fills in total. Thirteen plaintext positions and\nfifteen coordinate masks remain unresolved. The T in `BATL` is wholly absent;\nthe numeral 2 is half-supported. The preceding word boundary and the other\nunclear tail fields remain open. The exact new layer, all five donor frames,\nsource checks and retrieval controls are retained in that extension; the\noriginal prefix edition and its prices below remain a separate baseline.\n\n"
+        },
+        {
+          "kind": "replace",
+          "before_start": 8014,
+          "before_end": 8080,
+          "after_start": 9012,
+          "after_end": 9089,
+          "before_text": "Their main candidates use **eight observed substitutions**, **one\n",
+          "after_text": "The original baseline candidates use **eight observed substitutions**, **one\n"
+        },
+        {
+          "kind": "replace",
+          "before_start": 8205,
+          "before_end": 8271,
+          "after_start": 9214,
+          "after_end": 9302,
+          "before_text": "In A3, **31 missing coordinates** remain unfilled. They occupy 25\n",
+          "after_text": "In the original A3 baseline, **31 missing coordinates** remain unfilled. They occupy 25\n"
+        }
+      ],
+      "unified_diff": "--- a/cases/military/black_sea_evacuation_routes.md\n+++ b/cases/military/black_sea_evacuation_routes.md\n@@ -104,6 +104,20 @@\n part's clearer wording. The candidate is a constrained editorial reading,\n not an independently witnessed complete plaintext.\n \n+A [later guard-battalion extension](../../experiments/p89_guard_battalion_extension/README.md)\n+proposes `ERSXBATLX2XGARDEREGT`, supported by an independently observed word\n+span in p104 D. It matches all **27 observed recipient halves**, adds twelve\n+positions at thirteen lost-coordinate fills, and changes no observation.\n+A separately scoped `BERLIN` completion adds three more half-supported\n+positions. The combined conditional layer reaches **166/179**, with the same\n+one observed substitution and one printed-dash fill as above, plus **85**\n+conditional lost-coordinate fills in total. Thirteen plaintext positions and\n+fifteen coordinate masks remain unresolved. The T in `BATL` is wholly absent;\n+the numeral 2 is half-supported. The preceding word boundary and the other\n+unclear tail fields remain open. The exact new layer, all five donor frames,\n+source checks and retrieval controls are retained in that extension; the\n+original prefix edition and its prices below remain a separate baseline.\n+\n ## p89 A4\n \n The [fourth-part crop](../../experiments/black_sea_evacuation_routes/sources/p89_A4.png)\n@@ -172,11 +186,11 @@\n \n The four new editions comprise **1,314 visible source slots**, **1,313\n valid observed coordinates** and **707 modeled plaintext positions**.\n-Their main candidates use **eight observed substitutions**, **one\n+The original baseline candidates use **eight observed substitutions**, **one\n printed-dash fill** and **69 fills of explicitly lost coordinates**.\n The existing Ayush part2 remains outside those totals.\n \n-In A3, **31 missing coordinates** remain unfilled. They occupy 25\n+In the original A3 baseline, **31 missing coordinates** remain unfilled. They occupy 25\n plaintext positions with one erased coordinate and three positions with\n two. The complete square and transposition therefore permit exactly\n **6^31 = 1,326,443,518,324,400,147,398,656** different complete plaintexts\n",
+      "review_evidence": [
+        {
+          "path": "experiments/p89_guard_battalion_extension/inputs.json",
+          "sha256": "2322d4c95b885bde8bde6d8af3d15eba937bde4abb093116f6740932ac9df5cb"
+        },
+        {
+          "path": "experiments/p89_guard_battalion_extension/certificates.json",
+          "sha256": "eb7c70c94173be18500633a5140c9479d8491a171f69eadba5a0ed60fe8bfc38"
+        }
+      ]
+    },
+    {
+      "path": "data/reviews/reading_layer_manifest.json",
+      "kind": "reading_layer_manifest",
+      "before_sha256": "d35e2fe2a35d8a3182f2dcb5a2b9828619b0c784dde6bbf3ed57aa4ab1e200d6",
+      "after_sha256": "8b12434b307af99bb247b236b6a89e9f2f860f0c02b0e5cd057d3f0306faecb5",
+      "before_commit": "39281239b759cdb97fa7148eadb0ad81edd1908a",
+      "review_reason": "Refreshes reviewed case-file hashes, including the separately priced p176 repeated-place proposal, and registers the p84 illness page. Existing role classifications, fenced displays, quote hashes and qualifiers remain unchanged.",
+      "changes": [
+        {
+          "kind": "replace",
+          "before_start": 100,
+          "before_end": 135,
+          "after_start": 100,
+          "after_end": 135,
+          "before_text": "  \"review_date_utc\": \"2026-11-03\",\n",
+          "after_text": "  \"review_date_utc\": \"2026-11-04\",\n"
+        },
+        {
+          "kind": "replace",
+          "before_start": 14747,
+          "before_end": 14846,
+          "after_start": 14747,
+          "after_end": 14846,
+          "before_text": "      \"file_sha256_at_review\": \"581d43ed8370336a1f1cbca1f10a9866a5cb9e06ce4e80c37113741cc225d54f\",\n",
+          "after_text": "      \"file_sha256_at_review\": \"b5cb34746be5445108eab07128e8459ac6a1af323a90b5abfe3c252c981e0ae5\",\n"
+        },
+        {
+          "kind": "replace",
+          "before_start": 154889,
+          "before_end": 154988,
+          "after_start": 154889,
+          "after_end": 154988,
+          "before_text": "      \"file_sha256_at_review\": \"e4366f34cbab096f6b485a867a4f920b396c26f2f79e3c2565911167f24068ac\",\n",
+          "after_text": "      \"file_sha256_at_review\": \"8c0ad53a16c97f22855cad40e5880aa613c6f263d078a9e30768d4777b9ed031\",\n"
+        },
+        {
+          "kind": "replace",
+          "before_start": 338202,
+          "before_end": 338301,
+          "after_start": 338202,
+          "after_end": 338301,
+          "before_text": "      \"file_sha256_at_review\": \"167f488f4819393836d16ccc16b43866739ade763403c6dd5dca1a82f46627f9\",\n",
+          "after_text": "      \"file_sha256_at_review\": \"6bf53373d7ad5e35d75e3ca704d089338a9242a9a42667ee982bd32852186dc8\",\n"
+        },
+        {
+          "kind": "replace",
+          "before_start": 343291,
+          "before_end": 343390,
+          "after_start": 343291,
+          "after_end": 343390,
+          "before_text": "      \"file_sha256_at_review\": \"279b675e428e2e0597f6fa88dad1b57962bf8646139f4156b25f30c40a4c35e3\",\n",
+          "after_text": "      \"file_sha256_at_review\": \"8c93bd0ecb63149d3ab3bbc9c0fa22787f59e05fb7e97901356c7394a567a25a\",\n"
+        },
+        {
+          "kind": "replace",
+          "before_start": 403781,
+          "before_end": 403880,
+          "after_start": 403781,
+          "after_end": 403880,
+          "before_text": "      \"file_sha256_at_review\": \"79222a91888ab23db4d1ad62535ab12437be579d6a030ae3b4f5ff382ea2b61b\",\n",
+          "after_text": "      \"file_sha256_at_review\": \"309cd26ab1dd7eb66169cb37fb8bc8b110d8e498db3d4cafde5f26e0d6e3ab70\",\n"
+        },
+        {
+          "kind": "replace",
+          "before_start": 482171,
+          "before_end": 482270,
+          "after_start": 482171,
+          "after_end": 482270,
+          "before_text": "      \"file_sha256_at_review\": \"55d3cd4e151191ad3ceef8ca674ce5bbde18f45ea8f6bcc5bd1e64623fccbc71\",\n",
+          "after_text": "      \"file_sha256_at_review\": \"1bde4222e804df9c4962bf89179f567e4faee318b885d15155f72a4f3654f888\",\n"
+        },
+        {
+          "kind": "insert",
+          "before_start": 884248,
+          "before_end": 884248,
+          "after_start": 884248,
+          "after_end": 887480,
+          "before_text": "",
+          "after_text": "    },\n    {\n      \"path\": \"cases/radio/p84_mother_illness_extension.md\",\n      \"review_status\": \"reviewed\",\n      \"file_sha256_at_review\": \"681aa7d7dd0e5b21713996673daa332c50af9f016001d96ddb33c3215ad58eb7\",\n      \"review_basis\": \"Independent source/frame and coordinate-price audit; both equal-price lexical alternatives reviewed. Quotations are explicitly conditional excerpts, not complete mapped displays.\",\n      \"fences\": [\n        {\n          \"index\": 0,\n          \"sha256\": \"3f70e22c6570e4964631f3cae575ca6263c70b2b4e62025a553b04e60f1d6b79\",\n          \"role\": \"source_transcription\",\n          \"caption_required\": true,\n          \"caption\": \"**Source transcription — all 118 printed slots; seven dash masks and the short FDFG group retained:**\",\n          \"review_note\": \"Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together.\"\n        },\n        {\n          \"index\": 1,\n          \"sha256\": \"2e5fccecbc5228b136bf9837a22353185191d7a8b556c30aae436a8f55981eab\",\n          \"role\": \"raw_output\",\n          \"caption_required\": true,\n          \"caption\": \"**Raw output — common to all five frames; 14/122 fixed positions; no fills or observed substitutions:**\",\n          \"review_note\": \"Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together.\"\n        },\n        {\n          \"index\": 2,\n          \"sha256\": \"b001db4ae8c91b00f6c13ef2a72298f555f54778222938a5b1657897cc45d1fb\",\n          \"role\": \"edited_output\",\n          \"caption_required\": true,\n          \"caption\": \"**Edited output — conditional MUTTER proposal in frame 78; 0 observed substitutions, 5 printed-mask fills and 42 added-slot fills; 52/122 fixed positions:**\",\n          \"review_note\": \"Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together.\"\n        },\n        {\n          \"index\": 3,\n          \"sha256\": \"5deea7cc5c589bd918693fc115d628dde01075056aa8af34a5c6d6d080b910c5\",\n          \"role\": \"edited_output\",\n          \"caption_required\": true,\n          \"caption\": \"**Edited output — equally compatible MITTEL counterexample; the same 0 substitutions, 5 printed-mask fills and 42 added-slot fills:**\",\n          \"review_note\": \"Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together.\"\n        }\n      ],\n      \"quotes\": [\n        {\n          \"index\": 0,\n          \"sha256\": \"23eeaa9e5d1771e93132789503c07765bb283c302ef6647ead9d4de22089f30d\",\n          \"role\": \"readable_german\",\n          \"caption_required\": true,\n          \"caption\": \"**Readable German — conditional lexical proposal; the surrounding passages remain unresolved:**\",\n          \"review_note\": \"Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together.\"\n        },\n        {\n          \"index\": 1,\n          \"sha256\": \"57fa6be8ac398be686d371cc0119d786a62865d87f81de556cafbb56d0b2531f\",\n          \"role\": \"readable_german\",\n          \"caption_required\": true,\n          \"caption\": \"**Readable German — an equally compatible lexical counterexample:**\",\n          \"review_note\": \"Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together.\"\n        }\n      ]\n"
+        }
+      ],
+      "unified_diff": "--- a/data/reviews/reading_layer_manifest.json\n+++ b/data/reviews/reading_layer_manifest.json\n@@ -1,7 +1,7 @@\n {\n   \"schema\": \"adfgvx-reading-layer-manifest-v1\",\n   \"prepared_by\": \"icekylinx and GPT-6 Astra Pro\",\n-  \"review_date_utc\": \"2026-11-03\",\n+  \"review_date_utc\": \"2026-11-04\",\n   \"scope\": \"Reviewed case pages present at this snapshot. The checker independently scans every current substantive case and rejects uncovered new pages or displays. README navigation and explicit compatibility redirects are excluded.\",\n   \"semantic_limit\": \"Role labels are explicitly reviewed editorial classifications, not inferred cryptographic facts. Raw outputs can depend on the explicitly stated key/frame assumptions. Earlier attributed and recomputed readings retain prior authorship.\",\n   \"preservation_records\": [\n@@ -272,7 +272,7 @@\n     {\n       \"path\": \"cases/caucasus/october_caucasus.md\",\n       \"review_status\": \"reviewed\",\n-      \"file_sha256_at_review\": \"581d43ed8370336a1f1cbca1f10a9866a5cb9e06ce4e80c37113741cc225d54f\",\n+      \"file_sha256_at_review\": \"b5cb34746be5445108eab07128e8459ac6a1af323a90b5abfe3c252c981e0ae5\",\n       \"review_basis\": \"Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.\",\n       \"fences\": [\n         {\n@@ -2993,7 +2993,7 @@\n     {\n       \"path\": \"cases/military/black_sea_evacuation_routes.md\",\n       \"review_status\": \"reviewed\",\n-      \"file_sha256_at_review\": \"e4366f34cbab096f6b485a867a4f920b396c26f2f79e3c2565911167f24068ac\",\n+      \"file_sha256_at_review\": \"8c0ad53a16c97f22855cad40e5880aa613c6f263d078a9e30768d4777b9ed031\",\n       \"review_basis\": \"Explicit review of four new source parts, existing attributed A2 context, conditional100-coordinate loss and exact28-unknown suffix. A5 EZ remains literal; final plaintext service instruction is source transcription outside cipher counts. Caption cleanup on 2026-11-03 preserves all literal displays; reversible before/after text and hashes are recorded in caption_cleanup_20261103.json.\",\n       \"fences\": [\n         {\n@@ -6483,7 +6483,7 @@\n     {\n       \"path\": \"cases/military/p163_A.md\",\n       \"review_status\": \"reviewed\",\n-      \"file_sha256_at_review\": \"167f488f4819393836d16ccc16b43866739ade763403c6dd5dca1a82f46627f9\",\n+      \"file_sha256_at_review\": \"6bf53373d7ad5e35d75e3ca704d089338a9242a9a42667ee982bd32852186dc8\",\n       \"review_basis\": \"Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.\",\n       \"fences\": [\n         {\n@@ -6575,7 +6575,7 @@\n     {\n       \"path\": \"cases/military/p176_coal_train_fragment.md\",\n       \"review_status\": \"reviewed\",\n-      \"file_sha256_at_review\": \"279b675e428e2e0597f6fa88dad1b57962bf8646139f4156b25f30c40a4c35e3\",\n+      \"file_sha256_at_review\": \"8c93bd0ecb63149d3ab3bbc9c0fa22787f59e05fb7e97901356c7394a567a25a\",\n       \"review_basis\": \"Original-source and prior-context review; independent 44-mask repair repricing and 120 full source-retaining roundtrips per N/X alternative. Context-conditioned words remain separate from raw routing/tail.\",\n       \"fences\": [\n         {\n@@ -7739,7 +7739,7 @@\n     {\n       \"path\": \"cases/military/transylvania_situation_report.md\",\n       \"review_status\": \"reviewed\",\n-      \"file_sha256_at_review\": \"79222a91888ab23db4d1ad62535ab12437be579d6a030ae3b4f5ff382ea2b61b\",\n+      \"file_sha256_at_review\": \"309cd26ab1dd7eb66169cb37fb8bc8b110d8e498db3d4cafde5f26e0d6e3ab70\",\n       \"review_basis\": \"Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.\",\n       \"fences\": [\n         {\n@@ -9320,7 +9320,7 @@\n     {\n       \"path\": \"cases/p164a.md\",\n       \"review_status\": \"reviewed\",\n-      \"file_sha256_at_review\": \"55d3cd4e151191ad3ceef8ca674ce5bbde18f45ea8f6bcc5bd1e64623fccbc71\",\n+      \"file_sha256_at_review\": \"1bde4222e804df9c4962bf89179f567e4faee318b885d15155f72a4f3654f888\",\n       \"review_basis\": \"Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.\",\n       \"fences\": [\n         {\n@@ -16932,6 +16932,64 @@\n           \"review_note\": \"Exact source/raw/conditional word displays and local qualifiers reviewed; sparse vocabulary quotation is explicitly a fragment.\"\n         }\n       ]\n+    },\n+    {\n+      \"path\": \"cases/radio/p84_mother_illness_extension.md\",\n+      \"review_status\": \"reviewed\",\n+      \"file_sha256_at_review\": \"681aa7d7dd0e5b21713996673daa332c50af9f016001d96ddb33c3215ad58eb7\",\n+      \"review_basis\": \"Independent source/frame and coordinate-price audit; both equal-price lexical alternatives reviewed. Quotations are explicitly conditional excerpts, not complete mapped displays.\",\n+      \"fences\": [\n+        {\n+          \"index\": 0,\n+          \"sha256\": \"3f70e22c6570e4964631f3cae575ca6263c70b2b4e62025a553b04e60f1d6b79\",\n+          \"role\": \"source_transcription\",\n+          \"caption_required\": true,\n+          \"caption\": \"**Source transcription — all 118 printed slots; seven dash masks and the short FDFG group retained:**\",\n+          \"review_note\": \"Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together.\"\n+        },\n+        {\n+          \"index\": 1,\n+          \"sha256\": \"2e5fccecbc5228b136bf9837a22353185191d7a8b556c30aae436a8f55981eab\",\n+          \"role\": \"raw_output\",\n+          \"caption_required\": true,\n+          \"caption\": \"**Raw output — common to all five frames; 14/122 fixed positions; no fills or observed substitutions:**\",\n+          \"review_note\": \"Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together.\"\n+        },\n+        {\n+          \"index\": 2,\n+          \"sha256\": \"b001db4ae8c91b00f6c13ef2a72298f555f54778222938a5b1657897cc45d1fb\",\n+          \"role\": \"edited_output\",\n+          \"caption_required\": true,\n+          \"caption\": \"**Edited output — conditional MUTTER proposal in frame 78; 0 observed substitutions, 5 printed-mask fills and 42 added-slot fills; 52/122 fixed positions:**\",\n+          \"review_note\": \"Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together.\"\n+        },\n+        {\n+          \"index\": 3,\n+          \"sha256\": \"5deea7cc5c589bd918693fc115d628dde01075056aa8af34a5c6d6d080b910c5\",\n+          \"role\": \"edited_output\",\n+          \"caption_required\": true,\n+          \"caption\": \"**Edited output — equally compatible MITTEL counterexample; the same 0 substitutions, 5 printed-mask fills and 42 added-slot fills:**\",\n+          \"review_note\": \"Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together.\"\n+        }\n+      ],\n+      \"quotes\": [\n+        {\n+          \"index\": 0,\n+          \"sha256\": \"23eeaa9e5d1771e93132789503c07765bb283c302ef6647ead9d4de22089f30d\",\n+          \"role\": \"readable_german\",\n+          \"caption_required\": true,\n+          \"caption\": \"**Readable German — conditional lexical proposal; the surrounding passages remain unresolved:**\",\n+          \"review_note\": \"Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together.\"\n+        },\n+        {\n+          \"index\": 1,\n+          \"sha256\": \"57fa6be8ac398be686d371cc0119d786a62865d87f81de556cafbb56d0b2531f\",\n+          \"role\": \"readable_german\",\n+          \"caption_required\": true,\n+          \"caption\": \"**Readable German — an equally compatible lexical counterexample:**\",\n+          \"review_note\": \"Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together.\"\n+        }\n+      ]\n     }\n   ]\n }\n",
+      "review_evidence": [
+        {
+          "path": "experiments/p84_mother_illness_fragment/inputs.json",
+          "sha256": "ac99c093c68c8fec81e731c199a530d15f3c9fc0f68950045aa6701d386dd675"
+        },
+        {
+          "path": "experiments/p84_mother_illness_fragment/certificates.json",
+          "sha256": "b79f3bd61806b890ea30fcf5e40eaab6f07c462df89db19d3db1b36f5455f058"
+        },
+        {
+          "path": "data/reviews/check_reading_presentation.py",
+          "sha256": "8025ad223025038b63a20b8ceace0c1cdb0395e2cbd81465cbec7c8de9e65d93"
+        },
+        {
+          "path": "experiments/p176_repeated_place/inputs.json",
+          "sha256": "f6f156372362cd869bf6664f30f391451861d5af895aa1f8cb2d29dd6e516d57"
+        },
+        {
+          "path": "experiments/p176_repeated_place/certificates.json",
+          "sha256": "177393a02b8f8c386d60e42560f451f4340fa41434431de0a75c8c6e2b5d656f"
+        }
+      ],
+      "manifest_review": {
+        "changed_existing_case_hashes": [
+          "cases/caucasus/october_caucasus.md",
+          "cases/military/black_sea_evacuation_routes.md",
+          "cases/military/p163_A.md",
+          "cases/military/p176_coal_train_fragment.md",
+          "cases/military/transylvania_situation_report.md",
+          "cases/p164a.md"
+        ],
+        "added_case_paths": [
+          "cases/radio/p84_mother_illness_extension.md"
+        ]
+      }
+    },
+    {
+      "path": "docs/whole-material-coverage.md",
+      "kind": "coverage_dashboard",
+      "before_sha256": "8d2bb2496aae068b34a0636de730d72b4d5bc56b8f2026d4cd71079440690ef9",
+      "after_sha256": "80f57916119855e78f582a5c7db8d985fb732fe5c60590bab2dafb8e11042493",
+      "before_commit": "39281239b759cdb97fa7148eadb0ad81edd1908a",
+      "review_reason": "Refreshes only the live catalogue digest after the reviewed reading extensions. All existing coverage figures and census/source references remain byte-identical.",
+      "changes": [
+        {
+          "kind": "replace",
+          "before_start": 5935,
+          "before_end": 6030,
+          "after_start": 5935,
+          "after_end": 6030,
+          "before_text": "Current catalogue SHA-256: `5cae2349e29f2b70455d44b3683b47e9343e3abfb97c50a0c794e057925c3947`.\n",
+          "after_text": "Current catalogue SHA-256: `0f19e06dd8621d90b6c33ac6ef93c897c6c1586ba6ab6b89a799df8427de9ffe`.\n"
+        }
+      ],
+      "unified_diff": "--- a/docs/whole-material-coverage.md\n+++ b/docs/whole-material-coverage.md\n@@ -73,7 +73,7 @@\n \n `--verify` is read-only. `--write-report` explicitly refreshes this dashboard from the live tree. The optional PDF check pins the original file bytes and page count; the source-boundary inspection itself is a recorded manual review, not an automated glyph-recognition claim.\n \n-Current catalogue SHA-256: `5cae2349e29f2b70455d44b3683b47e9343e3abfb97c50a0c794e057925c3947`.\n+Current catalogue SHA-256: `0f19e06dd8621d90b6c33ac6ef93c897c6c1586ba6ab6b89a799df8427de9ffe`.\n Census SHA-256: `2edad8ccbe1e589ae5e1b0497dd4d594d197f3ec5a5c1178e499d47f8a37ef87`.\n \n Source: J. Rives Childs, *General Solution of the ADFGVX Cipher System*, [complete scanned volume](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). See the [machine-readable census](../data/reviews/childs_material_census_20261103.json) for page-level review bases and material exceptions.\n",
+      "review_evidence": [
+        {
+          "path": "data/reviews/verify_childs_material_coverage.py",
+          "sha256": "650b7219e5923eb906d91ee850921a6879ca3f9fea6a4d7f16e048195c0a7755"
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p163_A.md",
+      "kind": "case_prose",
+      "before_sha256": "167f488f4819393836d16ccc16b43866739ade763403c6dd5dca1a82f46627f9",
+      "after_sha256": "6bf53373d7ad5e35d75e3ca704d089338a9242a9a42667ee982bd32852186dc8",
+      "before_commit": "39281239b759cdb97fa7148eadb0ad81edd1908a",
+      "review_reason": "Adds separately scoped headquarters-map context and a priced rearguard-word continuation. The old raw/edited blocks and headings remain intact; the repeat assumption,96 tied strings,ALS/AUS,DER/NUR and coupled5/6 digit remain explicit.",
+      "changes": [
+        {
+          "kind": "replace",
+          "before_start": 2642,
+          "before_end": 2711,
+          "after_start": 2642,
+          "after_end": 4290,
+          "before_text": "uncompleted. Spacing and punctuation in the quotation are editorial.\n",
+          "after_text": "uncompleted in that earlier prefix edition. Spacing and punctuation in the\nquotation are editorial.\n\nA [linked rearguard-position supplement](../../experiments/p163_rearguard_continuation/README.md)\nnow proposes the complete part-15 tail `X7XAUSDER3XNACHHUTSTELLUNG`, giving\n“7. Aus der 3. Nachhutstellung …” without supplying the action in the missing\ncontinuation. It retains 33 of the tail's 34 observed coordinates and costs\n**one further observed substitution and 18 mask fills**. The complete proposed\npart has **116/117 fixed positions**, up from the earlier layer's 98, at totals\nof **three substitutions and 81 fills**. Its sole unresolved square digit\nremains the coupled `5`/`6` choice. Every newly supplied tail letter has an\nobserved half; the inherited prefix's wholly absent letter remains identified.\n\nPart 13 independently supports the same `NACHHUTSTELLUNG` sequence at its\nopening. The word-only extension adds **three substitutions and two fills**,\nretaining raw `ALS3Q`; the separator and the contextual `AUS` preposition\ncost one and two more substitutions respectively. The two remaining mask\npositions become assigned under each word proposal. Requiring the two spans\nto repeat one string leaves **96 joint minimum strings** at four observed\nsubstitutions across their word spans. The military term is a contextual\nselection among these, supported by independent historical vocabulary.\n`ALS` versus `AUS`, and part 15's equal-price `DER` versus `NUR`, remain explicit\nalternatives. The supplementary certificate and exact German displays retain\neach layer; the original readings below remain the separately priced baseline.\n"
+        },
+        {
+          "kind": "insert",
+          "before_start": 4052,
+          "before_end": 4052,
+          "after_start": 5631,
+          "after_end": 6214,
+          "before_text": "",
+          "after_text": "\nAn [independent AOK 11 map](../../experiments/p163_headquarters_map_context/README.md),\nCAMO / TsAMO 500-12519-274, places O.K. Scholtz at Calimanesti during the\n13–18 November withdrawal interval. This supports the existing one-coordinate\n`CA2IMANESTI` → `CALIMANESTI` repair in part 17. It adds no plaintext positions\nor repairs and gives no individual date for that headquarters symbol. The\nmap's separate O.K. Mackensen symbol at Hermannstadt is not evidence that\nScholtz had already reached that town. Both original map details and their\npixel provenance accompany the review.\n"
+        }
+      ],
+      "unified_diff": "--- a/cases/military/p163_A.md\n+++ b/cases/military/p163_A.md\n@@ -44,7 +44,30 @@\n **two substitutions of known coordinates and 63 erasure fills**. Its coherent\n wording and the part-14 continuation support the reconstruction; those fills\n are not claimed to be uniquely forced. The final 26 positions remain\n-uncompleted. Spacing and punctuation in the quotation are editorial.\n+uncompleted in that earlier prefix edition. Spacing and punctuation in the\n+quotation are editorial.\n+\n+A [linked rearguard-position supplement](../../experiments/p163_rearguard_continuation/README.md)\n+now proposes the complete part-15 tail `X7XAUSDER3XNACHHUTSTELLUNG`, giving\n+“7. Aus der 3. Nachhutstellung …” without supplying the action in the missing\n+continuation. It retains 33 of the tail's 34 observed coordinates and costs\n+**one further observed substitution and 18 mask fills**. The complete proposed\n+part has **116/117 fixed positions**, up from the earlier layer's 98, at totals\n+of **three substitutions and 81 fills**. Its sole unresolved square digit\n+remains the coupled `5`/`6` choice. Every newly supplied tail letter has an\n+observed half; the inherited prefix's wholly absent letter remains identified.\n+\n+Part 13 independently supports the same `NACHHUTSTELLUNG` sequence at its\n+opening. The word-only extension adds **three substitutions and two fills**,\n+retaining raw `ALS3Q`; the separator and the contextual `AUS` preposition\n+cost one and two more substitutions respectively. The two remaining mask\n+positions become assigned under each word proposal. Requiring the two spans\n+to repeat one string leaves **96 joint minimum strings** at four observed\n+substitutions across their word spans. The military term is a contextual\n+selection among these, supported by independent historical vocabulary.\n+`ALS` versus `AUS`, and part 15's equal-price `DER` versus `NUR`, remain explicit\n+alternatives. The supplementary certificate and exact German displays retain\n+each layer; the original readings below remain the separately priced baseline.\n \n ### Parts 17–18: Danube boats and headquarters\n \n@@ -69,6 +92,15 @@\n known-coordinate substitution and an erasure fill. It is not a cipher-only\n digit recovery. The original closing reference is garbled; `Ia 11313 op. geh.`\n is also part of the explicitly repaired edition.\n+\n+An [independent AOK 11 map](../../experiments/p163_headquarters_map_context/README.md),\n+CAMO / TsAMO 500-12519-274, places O.K. Scholtz at Calimanesti during the\n+13–18 November withdrawal interval. This supports the existing one-coordinate\n+`CA2IMANESTI` → `CALIMANESTI` repair in part 17. It adds no plaintext positions\n+or repairs and gives no individual date for that headquarters symbol. The\n+map's separate O.K. Mackensen symbol at Hermannstadt is not evidence that\n+Scholtz had already reached that town. Both original map details and their\n+pixel provenance accompany the review.\n \n ## Source and exact repair account\n \n",
+      "review_evidence": [
+        {
+          "path": "experiments/p163_headquarters_map_context/context.json",
+          "sha256": "3489c5e14a0f67cd8b83303081d2dde1df1e64b5f748551059f4427c50eeed64"
+        },
+        {
+          "path": "experiments/p163_headquarters_map_context/verify.py",
+          "sha256": "5a020e43bc84f34e97542066c14cc082bce682d98c87d132aa2f1d00534b36c2"
+        },
+        {
+          "path": "experiments/p163_rearguard_continuation/inputs.json",
+          "sha256": "3db65dd07a53cb87f97cbdaa32c87266e08f1e876edf89b3194cdc702dbb1a32"
+        },
+        {
+          "path": "experiments/p163_rearguard_continuation/certificates.json",
+          "sha256": "cadb169a51f843331af6de3b3c3f7a1145bca7fd34a7013a9e7cd96441ca86b9"
+        }
+      ]
+    },
+    {
+      "path": "cases/p164a.md",
+      "kind": "case_prose",
+      "before_sha256": "55d3cd4e151191ad3ceef8ca674ce5bbde18f45ea8f6bcc5bd1e64623fccbc71",
+      "after_sha256": "1bde4222e804df9c4962bf89179f567e4faee318b885d15155f72a4f3654f888",
+      "before_commit": "39281239b759cdb97fa7148eadb0ad81edd1908a",
+      "review_reason": "Adds the native-witness BESATZUNGSHEER revision in a separate paragraph, while preserving Norbert's prior reading and all original displays.",
+      "changes": [
+        {
+          "kind": "insert",
+          "before_start": 793,
+          "before_end": 793,
+          "after_start": 793,
+          "after_end": 1425,
+          "before_text": "",
+          "after_text": "\n**New source-supported word:** `BESATZUNGSHEER` (occupation army) fits all\n18 observed coordinate halves at positions 18–31, with ten mask fills and\nzero observed substitutions. Native p66 and p115 messages independently\nattest the word under different keys. This replaces the earlier\n`BEFRIEDNISXE??` conjecture in a separately certified revision. Combined\nwith Norbert's date proposal and the other earlier clauses, it gives\n**104/121 positions with four observed substitutions**, compared with\n101/121 and five before. [New word, source witnesses and complete revised\nstream](../experiments/p164_occupation_fragment/README.md).\n"
+        }
+      ],
+      "unified_diff": "--- a/cases/p164a.md\n+++ b/cases/p164a.md\n@@ -7,6 +7,16 @@\n **Status:** Earlier partial reading verified as a conjectural completion; source alone fixes 42 of 121 positions. **Key:** `Nov7-9`.\n \n **Earliest credited record:** [Norbert, 2017-03-14, comment 42](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-859165). **Current source and arithmetic review:** icekylinx and GPT-6 Astra Pro, 2 November 2026.\n+\n+**New source-supported word:** `BESATZUNGSHEER` (occupation army) fits all\n+18 observed coordinate halves at positions 18–31, with ten mask fills and\n+zero observed substitutions. Native p66 and p115 messages independently\n+attest the word under different keys. This replaces the earlier\n+`BEFRIEDNISXE??` conjecture in a separately certified revision. Combined\n+with Norbert's date proposal and the other earlier clauses, it gives\n+**104/121 positions with four observed substitutions**, compared with\n+101/121 and five before. [New word, source witnesses and complete revised\n+stream](../experiments/p164_occupation_fragment/README.md).\n \n ## Most likely partial reading\n \n",
+      "review_evidence": [
+        {
+          "path": "experiments/p164_occupation_fragment/inputs.json",
+          "sha256": "57a434620008b6e7508534ba7391ef735be6d304dc4025a58cebd7339ed51358"
+        },
+        {
+          "path": "experiments/p164_occupation_fragment/certificates.json",
+          "sha256": "ff44b8fae17a1541283a990f98b9cd322c39d0679223957082fb659762094364"
+        }
+      ]
+    },
+    {
+      "path": "cases/caucasus/october_caucasus.md",
+      "kind": "case_prose",
+      "before_sha256": "581d43ed8370336a1f1cbca1f10a9866a5cb9e06ce4e80c37113741cc225d54f",
+      "after_sha256": "b5cb34746be5445108eab07128e8459ac6a1af323a90b5abfe3c252c981e0ae5",
+      "before_commit": "39281239b759cdb97fa7148eadb0ad81edd1908a",
+      "review_reason": "Adds the separately costed p68 A2 continuation and changes opening-only wording to distinguish the extended layer. The historical cipher strings, original prices and conditional verb alternatives remain separate.",
+      "changes": [
+        {
+          "kind": "replace",
+          "before_start": 714,
+          "before_end": 1562,
+          "after_start": 714,
+          "after_end": 1567,
+          "before_text": "Twelve source records cover seven exchanges about the Caucasus: personnel and money for Kress's delegation, price instructions to Westernhagen, electrical equipment sent to Tiflis, a cargo leaving Braila for Poti, radio timings, a liaison officer and equipment procurement. The p68 procurement pair has a **provisional, heavily repaired first part and an opening-only second part**; it is not a direct recovery of the complete exchange. Another interrupted continuation is retained separately without an accepted reading. The German readings below use explicit editorial repairs. Every received coordinate, surviving garble, ambiguous layout and repair cost is retained in the [certificate](../../experiments/october_caucasus/certificates.json). This is a new reproducible edition in this repository, without a first-historical-decipherment claim.\n",
+          "after_text": "Twelve source records cover seven exchanges about the Caucasus: personnel and money for Kress's delegation, price instructions to Westernhagen, electrical equipment sent to Tiflis, a cargo leaving Braila for Poti, radio timings, a liaison officer and equipment procurement. The p68 procurement pair has a **provisional, heavily repaired first part and a partially extended second part**; it is not a direct recovery of the complete exchange. Another interrupted continuation is retained separately without an accepted reading. The German readings below use explicit editorial repairs. Every received coordinate, surviving garble, ambiguous layout and repair cost is retained in the [certificate](../../experiments/october_caucasus/certificates.json). This is a new reproducible edition in this repository, without a first-historical-decipherment claim.\n"
+        },
+        {
+          "kind": "replace",
+          "before_start": 16873,
+          "before_end": 17380,
+          "after_start": 16878,
+          "after_end": 18177,
+          "before_text": "The bracketed continuation and unresolved-text notices are display descriptions, not recovered German words or a new gap-length hypothesis. The template asserts only `UNDARTILLERIEMUNITION`, requiring **four known-coordinate substitutions and five erasure fills**. The remaining **72 plaintext positions are unasserted**. The certificate retains their raw domains, and its arbitrary coordinate fillers for a complete arithmetic roundtrip are not promoted to a further sentence, quantity, date or signature.\n",
+          "after_text": "The bracketed continuation and unresolved-text notices are display descriptions, not recovered German words or a new gap-length hypothesis. The earlier template asserts only `UNDARTILLERIEMUNITION`, requiring **four known-coordinate substitutions and five erasure fills**. The remaining **72 plaintext positions are unasserted**. The certificate retains their raw domains, and its arbitrary coordinate fillers for a complete arithmetic roundtrip are not promoted to a further sentence, quantity, date or signature.\n\nA [separately priced continuation](../../experiments/p68_procurement_continuation/README.md)\nnow proposes `DONREGIERUNG`, `DORTEINGE?ANGEN`, `HGRUKIEW` and `ROSTOW`.\nRetaining the other raw letters, the earlier opening fixes **61/93 positions**;\nthe common extension reaches **76/93**, with **one additional observed\nsubstitution and 15 printed-mask fills**. All fifteen newly assigned positions\nretain an observed half-coordinate. The wholly missing internal verb letter\nadmits both `EINGEGANGEN` and `EINGELANGEN` at the same two-fill price, giving\n77/93 only under either optional completion. `F??`, the fields `?0` and `1??8`,\nand the intervening damaged text remain literal. Native messages attest three\nindividual words; no complete independent copy of this clause is claimed.\n"
+        }
+      ],
+      "unified_diff": "--- a/cases/caucasus/october_caucasus.md\n+++ b/cases/caucasus/october_caucasus.md\n@@ -6,7 +6,7 @@\n \n **Source edition and repair analysis:** icekylinx and GPT-6 Astra Pro. **Earlier key:** the published October 4–6 square and 22-column transposition, credited to Childs and George Lasry / Lasry, Niebel, Kopal and Wacker in the [key catalogue](../../data/keys.json).\n \n-Twelve source records cover seven exchanges about the Caucasus: personnel and money for Kress's delegation, price instructions to Westernhagen, electrical equipment sent to Tiflis, a cargo leaving Braila for Poti, radio timings, a liaison officer and equipment procurement. The p68 procurement pair has a **provisional, heavily repaired first part and an opening-only second part**; it is not a direct recovery of the complete exchange. Another interrupted continuation is retained separately without an accepted reading. The German readings below use explicit editorial repairs. Every received coordinate, surviving garble, ambiguous layout and repair cost is retained in the [certificate](../../experiments/october_caucasus/certificates.json). This is a new reproducible edition in this repository, without a first-historical-decipherment claim.\n+Twelve source records cover seven exchanges about the Caucasus: personnel and money for Kress's delegation, price instructions to Westernhagen, electrical equipment sent to Tiflis, a cargo leaving Braila for Poti, radio timings, a liaison officer and equipment procurement. The p68 procurement pair has a **provisional, heavily repaired first part and a partially extended second part**; it is not a direct recovery of the complete exchange. Another interrupted continuation is retained separately without an accepted reading. The German readings below use explicit editorial repairs. Every received coordinate, surviving garble, ambiguous layout and repair cost is retained in the [certificate](../../experiments/october_caucasus/certificates.json). This is a new reproducible edition in this repository, without a first-historical-decipherment claim.\n \n **Display notes:** The German readings use the stated edited witnesses. Square brackets identify a supplied spelling, a proposed value or an explicitly described unresolved passage; the nearby record notes give the category. Uninterpreted literal fields are shown in code, not promoted to names or quantities. A bracketed whole value does not mean that all its characters are unknown.\n \n@@ -174,7 +174,18 @@\n \n > [continued from part 1] und Artilleriemunition [remaining text unresolved]\n \n-The bracketed continuation and unresolved-text notices are display descriptions, not recovered German words or a new gap-length hypothesis. The template asserts only `UNDARTILLERIEMUNITION`, requiring **four known-coordinate substitutions and five erasure fills**. The remaining **72 plaintext positions are unasserted**. The certificate retains their raw domains, and its arbitrary coordinate fillers for a complete arithmetic roundtrip are not promoted to a further sentence, quantity, date or signature.\n+The bracketed continuation and unresolved-text notices are display descriptions, not recovered German words or a new gap-length hypothesis. The earlier template asserts only `UNDARTILLERIEMUNITION`, requiring **four known-coordinate substitutions and five erasure fills**. The remaining **72 plaintext positions are unasserted**. The certificate retains their raw domains, and its arbitrary coordinate fillers for a complete arithmetic roundtrip are not promoted to a further sentence, quantity, date or signature.\n+\n+A [separately priced continuation](../../experiments/p68_procurement_continuation/README.md)\n+now proposes `DONREGIERUNG`, `DORTEINGE?ANGEN`, `HGRUKIEW` and `ROSTOW`.\n+Retaining the other raw letters, the earlier opening fixes **61/93 positions**;\n+the common extension reaches **76/93**, with **one additional observed\n+substitution and 15 printed-mask fills**. All fifteen newly assigned positions\n+retain an observed half-coordinate. The wholly missing internal verb letter\n+admits both `EINGEGANGEN` and `EINGELANGEN` at the same two-fill price, giving\n+77/93 only under either optional completion. `F??`, the fields `?0` and `1??8`,\n+and the intervening damaged text remain literal. Native messages attest three\n+individual words; no complete independent copy of this clause is claimed.\n \n ## Relation to the open p73 challenge\n \n",
+      "review_evidence": [
+        {
+          "path": "experiments/p68_procurement_continuation/inputs.json",
+          "sha256": "179dffd3cf29a1c36034ca3f4a1648803eda0ec658835faa8bd88c3d0152f1e7"
+        },
+        {
+          "path": "experiments/p68_procurement_continuation/certificates.json",
+          "sha256": "18b7092d6e10ee1fa98cb637b506ba36c55dc8222d290eab56340658e82699b3"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "reviewed_artifact_updates": 7,
+    "case_pages_with_all_original_fences_and_headings_preserved": 5,
+    "original_pinned_artifacts": 1931,
+    "current_pinned_artifacts": 1935,
+    "added_review_evidence_artifacts": 4,
+    "original_inventory_counts_and_source_packages_unchanged": true
+  },
+  "limits": [
+    "This is an exact presentation-artifact review, not a fresh cryptanalytic solution or an increase in the preserved inventory's historical coverage counts.",
+    "Every changed original file can be reconstructed byte-for-byte by reversing the recorded spans in the hash-pinned current file. Its result must match the original preserved pin.",
+    "Unlisted artifact pins remain unchanged; no path is exempt from live hashing.",
+    "New reading claims remain governed by the linked source packages and their separately checked alternatives and repair ledgers."
+  ]
+}

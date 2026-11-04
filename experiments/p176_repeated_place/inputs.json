@@ -1,0 +1,63 @@
+{
+  "schema": "adfgvx-p176-repeated-place-inputs-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "indexing": "All plaintext and source positions are zero-based; span ends are exclusive.",
+  "baseline_inputs": {
+    "path": "experiments/p176_coal_train_fragment/inputs.json",
+    "sha256": "a21eeed3f8eec6997aa8807aa8b608ab6900efa540f28ac23870a449c927159e"
+  },
+  "baseline_certificate": {
+    "path": "experiments/p176_coal_train_fragment/certificates.json",
+    "sha256": "a8b78fe134639850a527bebd2e1f790cda8cd978a11a9d058396960d8f4c52ec"
+  },
+  "companion_inputs": {
+    "path": "experiments/romanian_ultimatum_companions/inputs.json",
+    "sha256": "c3e55a15bd2ecf988289e5bf17658e6d473f6d40cd15381a40fe434170d6c6e6"
+  },
+  "existing_source_image": {
+    "path": "experiments/romanian_ultimatum_companions/sources/p176_A6.png",
+    "sha256": "3e2e8ed17cb5e60c4a3fb8a63d19b3dbb7afc15dd89c8ac066cdf5eb769cce41"
+  },
+  "record_id": "p176_A6",
+  "proposed_span": {
+    "start": 28,
+    "stop": 41,
+    "text": "XKLAUSENBURGX"
+  },
+  "word_only_span": {
+    "start": 29,
+    "stop": 40,
+    "text": "KLAUSENBURG"
+  },
+  "equal_price_nonrepetition": {
+    "start": 28,
+    "stop": 41,
+    "text": "XBLANKENBURGX"
+  },
+  "paired_native_word_spans": [
+    [
+      17,
+      28
+    ],
+    [
+      29,
+      40
+    ]
+  ],
+  "native_repetition_context": {
+    "record_id": "p175_C1",
+    "text": "24X24",
+    "claim": "A literal repeated number in the same six-part message; limited style context, not proof that a place was repeated in A6."
+  },
+  "limits": [
+    "The source and its native 160-slot frame remain unchanged: 74 observed coordinates and 86 printed dashes.",
+    "This supplement is conditional on the earlier coal-train and Klausenburg reading. It does not prove historical uniqueness or an actual repeated destination.",
+    "The new full span costs 15 printed-mask fills and no observed substitution. Positions 29, 32, 37 and 40 are wholly unobserved in the source.",
+    "Under a separate repeated-word assumption, the two native word spans force only L, A, N, R and G. Six letter positions remain multiple-valued; the candidate is not a forced decipherment.",
+    "XBLANKENBURGX fits the new span at exactly the same price without repeating the earlier proposed place. Other compatible strings remain.",
+    "The five unassigned square cells stay globally distinct over digits 5 through 9. No digit assignment is inferred.",
+    "The earlier N/X choice at plaintext 11 remains unresolved at equal price.",
+    "The final 24 positions retain the exact prior partial output; no number, signature, office or date is supplied.",
+    "All round-trip witness-only fills are arbitrary compatibility devices and are excluded from the published partial candidate."
+  ]
+}

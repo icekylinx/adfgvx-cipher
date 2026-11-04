@@ -193,9 +193,9 @@ Page numbers refer to the printed Childs volume. Each row links to the complete 
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
-| [p163 A13](../../military/p163_A.md) | Keep Crajova and Bucharest occupied until final evacuation | 126/134 raw positions; ten substitutions and six fills; opening unresolved | icekylinx and GPT-6 Astra Pro (2026) |
+| [p163 A13](../../military/p163_A.md) | Evacuation instructions and a repeated rearguard-position word | 126/134 raw; repeated-word layer 134/134 fixed at thirteen substitutions and eight fills, retaining ALS3Q; separator and AUS layers separately priced | icekylinx and GPT-6 Astra Pro (2026) |
 | [p163 A14](../../military/p163_A.md) | Final evacuation in one move; retain the Bucharest garrison | 121/122 raw positions; five substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
-| [p163 A15](../../military/p163_A.md) | Conditional garrison transfer to corps headquarters and Scholtz | 36/117 raw positions; 91-position prefix needs two substitutions and 63 fills | icekylinx and GPT-6 Astra Pro (2026) |
+| [p163 A15](../../military/p163_A.md) | Bucharest garrison transfer and third rearguard-position continuation | 36/117 raw; conditional 116/117 at three substitutions and 81 mask fills; shared 5/6 digit and DER/NUR alternative retained | icekylinx and GPT-6 Astra Pro (2026) |
 | [p163 A17](../../military/p163_A.md) | Danube vessels and Scholtz headquarters movement to Calimanesti | 125/132 raw positions; sixteen substitutions and six fills | icekylinx and GPT-6 Astra Pro (2026) |
 | [p163 A18](../../military/p163_A.md) | Headquarters moves to Hermannstadt, Kronstadt and Sinaia | 131/155 raw positions; twenty-one substitutions and 24 fills | icekylinx and GPT-6 Astra Pro (2026) |
 

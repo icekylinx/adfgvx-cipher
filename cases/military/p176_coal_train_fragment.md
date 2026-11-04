@@ -9,6 +9,22 @@ partial proposal**, supported by the preceding fifth part and compatible
 with every observed sixth-part coordinate. The routing field and later tail
 remain unread. No complete historical message or unique wording is claimed.
 
+A [conditional repeated-place supplement](../../experiments/p176_repeated_place/README.md)
+proposes `XKLAUSENBURGX` in the first omitted field. It adds **eleven fixed
+positions**, reaching **59/80**, with **zero observed substitutions and
+fifteen additional printed-mask fills**. All 74 observed coordinates remain
+unchanged. The two copies are both partly supplied: repeating the earlier
+proposed place is a separate hypothesis, not an independently received
+complete-word witness.
+
+The native spans force only five shared letters after assuming repetition;
+each of the 120 injective square completions still admits **46,656** common
+strings. `XBLANKENBURGX` fits the second span at the same price. Four newly
+assigned positions have neither coordinate observed. The supplement retains
+these limits, the inherited `N`/`X` alternative, and the entirely uncompleted
+last 24 positions. The displays below preserve the separately priced earlier
+edition; the supplement contains its full conditional stream and exact ledger.
+
 ## p176 A6
 
 **Readable German — proposed spans at positions 0–27 and 41–55; both omissions remain unread in this excerpt:**

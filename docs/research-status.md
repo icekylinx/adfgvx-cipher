@@ -12,6 +12,24 @@ The [whole-material census](whole-material-coverage.md) registers **679 cipherte
 
 ## Current source refinements
 
+The [p176 repeated-place supplement](../experiments/p176_repeated_place/README.md)
+adds a conditional second `KLAUSENBURG` to the coal-train fragment, raising
+48/80 to **59/80 assigned positions** without changing an observed coordinate.
+Its fifteen extra mask fills include four wholly unobserved letters; both
+word copies remain proposals. The equal-price `BLANKENBURG` rival and
+46,656 common strings per complete square make the repetition assumption
+explicit. The final 24 positions remain untouched.
+
+The [p163 rearguard-position extension](../experiments/p163_rearguard_continuation/README.md)
+links `NACHHUTSTELLUNG` in two independently received parts of the same order.
+Part 15 gains an entire proposed 26-position tail at one observed substitution
+and eighteen mask fills, reaching **116/117 fixed positions** while retaining
+the unknown corps digit. Part 13 gains the repeated word at three substitutions
+and two fills. Together they add twenty proposed positions; all have observed
+half-coordinate support. Ninety-six equal-price shared strings and separate
+preposition alternatives remain explicit, and the intervening jammed part
+still has no accepted reading.
+
 The [p89 A3 destination fragment](../experiments/p89_guard_battalion_extension/README.md)
 now admits `ERSXBATLX2XGARDEREGT`, independently observed in p104 D and
 compatible with all 27 surviving recipient halves. Together with a separately
@@ -105,6 +123,13 @@ The [p212 A4 medical fragment](../cases/military/p212_medical_fragment.md) now s
 | [p153 unresolved fields](../experiments/p153_extension/README.md) | The recovered square couples date, serial and part-6 footer cells. | An independently established field or companion part that fixes one shared cell across both fragments. |
 
 ## Method results guiding the next attacks
+
+The new [substitution-aware crib solver](../experiments/substitution_crib_csp/README.md)
+jointly searches an unknown column order and an arbitrary bijective square,
+while pricing a declared number of source-coordinate errors. Nine exhaustive
+small oracles, ten fresh hidden-key controls, and an explicitly post-discovery
+p153 replay check its witnesses and completeness boundaries. It is a reusable
+consistency tool; no new original-challenge solution is attributed to it.
 
 Prioritize native repeated transmissions, source-supported loss geometry and linked square constraints. Exact searches resolve their declared scopes: the [p198 category frontier](../experiments/p198_category_frontier/README.md), for example, covers all 40,320 partial-key completions but leaves substantial word and digit ambiguity.
 
