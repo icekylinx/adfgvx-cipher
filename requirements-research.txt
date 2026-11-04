@@ -1,6 +1,0 @@
-# Source-image verification and the vectorized classical-cipher diagnostics.
--r requirements-source-evidence.txt
-# NumPy 2.2.6 supports Python 3.10–3.13:
-# https://numpy.org/doc/stable/release/2.2.6-notes.html
-numpy==2.2.6; python_version < '3.11'
-numpy==2.3.5; python_version >= '3.11'

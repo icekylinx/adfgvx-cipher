@@ -279,14 +279,9 @@ python experiments/p73_new_methods/verify.py --skip-assignment
 This keeps source witnesses, controls, final counters, prior-run records,
 retrieval inputs and overlap counts checked, while explicitly reporting zero
 independently recomputed assignment optima. The full default check additionally
-needs NumPy and SciPy. The tested versions are pinned in
-[requirements-assignment.txt](requirements-assignment.txt): NumPy 2.3.5 and
-SciPy 1.17.0. Both require Python 3.11 or later and provide CPython 3.13 wheels
-in their official [NumPy](https://pypi.org/project/numpy/2.3.5/) and
-[SciPy](https://pypi.org/project/scipy/1.17.0/) release files. A CI matrix can
-run the standard-library mode on both Python 3.10 and 3.13, then run the full
-assignment check on 3.13. Only `--recompute-retrieval` additionally requires
-a C++17 compiler.
+needs NumPy and SciPy, pinned in the root [REQUIREMENTS.txt](../../REQUIREMENTS.txt).
+CI runs the standard-library mode on Python 3.10 and 3.13 and the full
+assignment check on 3.13. `--recompute-retrieval` also needs a C++17 compiler.
 
 Measured local timings and the exact checked snapshot are recorded in
 [ci_runtime_observation.json](results/ci_runtime_observation.json). These

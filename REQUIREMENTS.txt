@@ -1,0 +1,7 @@
+# Source-image checks and numerical research tools.
+Pillow==12.3.0
+PyMuPDF==1.26.6
+numpy==2.2.6; python_version < '3.11'
+numpy==2.3.5; python_version >= '3.11'
+# The independent assignment check runs on Python 3.11 or later.
+scipy==1.17.0; python_version >= '3.11'

@@ -152,7 +152,7 @@ The certificate also retains the other twenty rank hypotheses: across all
 ## Reproduce and inspect the original source
 
 ```sh
-python -m pip install -r requirements-research.txt
+python -m pip install -r REQUIREMENTS.txt
 python experiments/open_target_contact_diagnosis/verify.py --verify
 ```
 
