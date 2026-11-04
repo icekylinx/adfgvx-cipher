@@ -35,16 +35,16 @@ Original challenge identifiers are retained; p198 denotes section D.
 | [pp. 176–198](cases/pages/175-199/README.md) | 6 | [p176a](cases/p176a.md), [p176b](cases/p176b.md), [p187](cases/p187.md), [p187b](cases/p187b.md), [p189](cases/p189.md), [p198](cases/p198.md) |
 | [pp. 215–217](cases/pages/200-224/README.md) | 2 | [p215](cases/p215.md), [p217](cases/p217.md) |
 
-### Other ciphertexts — 651 reviewed entries
+### Other ciphertexts — 652 reviewed entries
 
 Numbered parts and separately received copies have their own entries.
 
-**673 catalogue entries from 672 source bodies.** The [source register](docs/catalogue-source-overlaps.md) identifies 1 additional edition of an already listed source.
+**674 catalogue entries from 673 source bodies.** The [source register](docs/catalogue-source-overlaps.md) identifies 1 additional edition of an already listed source.
 
 | Printed source pages | Reviewed entries |
 |---|---:|
 | [pp. 56–74](cases/pages/050-074/README.md) | 45 |
-| [pp. 75–99](cases/pages/075-099/README.md) | 63 |
+| [pp. 75–99](cases/pages/075-099/README.md) | 64 |
 | [pp. 100–124](cases/pages/100-124/README.md) | 91 |
 | [pp. 125–149](cases/pages/125-149/README.md) | 76 |
 | [pp. 150–174](cases/pages/150-174/README.md) | 124 |

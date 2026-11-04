@@ -1,0 +1,172 @@
+{
+  "schema": "adfgvx-p84-field-post-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "case": "cases/radio/p84_field_post_fragment.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p84_C",
+      "storage": "external_pdf_reference",
+      "pdf_page_1based": 87,
+      "crop_pdf_points": [
+        60,
+        580,
+        535,
+        715
+      ],
+      "render_scale": 4,
+      "width": 1900,
+      "height": 540,
+      "rgb_sha256": "1e4d7ab74a411c748361c13a87a5afff7b9b8a48d7bee8ed5b70a636cf2f154e",
+      "fresh_render_cache": true
+    }
+  ],
+  "key": {
+    "id": "Oct28-31",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      15,
+      12,
+      16,
+      5,
+      7,
+      14,
+      4,
+      13,
+      8,
+      11,
+      1,
+      17,
+      2,
+      10,
+      3,
+      18,
+      9
+    ],
+    "column_count": 18,
+    "square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+    "square_rows": [
+      "HI20SX",
+      "RUWQY8",
+      "EK7O61",
+      "9CBJAP",
+      "453FDZ",
+      "TGLMVN"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 238,
+        "pdf_page_1based": 241,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "HI20SXRUWQY8EK7O619CBJAP453FDZTGLMVN",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "dependencies": {
+    "experiments/p215_breslau_dispatch/verify.py": "477236403fac1456db3b726b4fe3d13c0f3a33a690750139062ac6bb4be03989"
+  },
+  "records": [
+    {
+      "id": "p84_C",
+      "printed_page": 84,
+      "pdf_page_1based": 87,
+      "header_transcription": "C) FUER COS (4.30 a.m., November 1st) | 1810 (30) | RICHI-244",
+      "source_rows": [
+        "AFDAX AXGFD GXAVV AXDVG DAADV VXAGX GDVAA AXGGX",
+        "AAAXA FXDDG DXXGX DFDVF FAXXX FXGGA AXGFG FDFG",
+        "DADDA AVAFV XGXAD AAAAX DVXAF XAXXG FA--- ----"
+      ],
+      "literal_sha256": "788355b3d0dd7dff801e1b114de6d4bd9429b79c116c8edefd8ba5e724941145",
+      "advertised_length": 244,
+      "source_slots": 118,
+      "observed_coordinates": 111,
+      "printed_masks": 7,
+      "frame": {
+        "total_slots": 244,
+        "short_group_source_range": [
+          75,
+          79
+        ],
+        "short_group_literal": "FDFG",
+        "possible_insert_before_source_indices": [
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "primary_insert_before_source": 76,
+        "inserted_short_group_slots": 1,
+        "inserted_tail_slots": 125,
+        "excluded_source_indices": []
+      },
+      "expected_raw": "??9????????G????????U????????E????????R????????D????????E????????7????????S????????N????????M????????N????????E????????G??",
+      "word_proposal": "??9????????G????????U????????E????????R????????DEUTSCHEFELDPOST??7????????S????????N????????M????????N????????E????????G??",
+      "word_fragments": [
+        {
+          "start": 47,
+          "word": "DEUTSCHEFELDPOST"
+        }
+      ],
+      "expected_word_prices": {
+        "fixed_positions": 28,
+        "observed_substitutions": 0,
+        "printed_mask_fills": 2,
+        "inserted_slot_fills": 15
+      },
+      "wholly_unobserved_word_positions": [
+        {
+          "position": 53,
+          "letter": "H"
+        },
+        {
+          "position": 55,
+          "letter": "F"
+        },
+        {
+          "position": 62,
+          "letter": "T"
+        }
+      ]
+    }
+  ]
+}

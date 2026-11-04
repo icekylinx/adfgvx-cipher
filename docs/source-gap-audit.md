@@ -8,7 +8,7 @@ This audit covers the 21 physical bodies outside the readable catalogue at `f3ba
 |---|---:|---:|---:|---:|---|
 | p70_B1 | 206 | 199 | 7 | 206 | No accepted edition |
 | p71_A2 | 85 | 85 | 0 | 192 | [Partial/conditional edition](../cases/radio/p71_dc_machines_fragment.md#p71-a2) |
-| p84_C | 118 | 111 | 7 | 244 | No accepted edition |
+| p84_C | 118 | 111 | 7 | 244 | [Partial/conditional edition](../cases/radio/p84_field_post_fragment.md) |
 | p127_B2 | 152 | 104 | 48 | 152 | No accepted edition |
 | p137_A6 | 74 | 71 | 3 | Not printed | No accepted edition |
 | p137_B | 135 | 133 | 2 | 138 | [Partial/conditional edition](../cases/radio/p137_station_staff_query.md#p137-b) |

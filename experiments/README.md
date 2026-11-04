@@ -10,6 +10,7 @@ Our experiments recovered the shared p153 key, reconstructed damaged transmissio
 
 | Result | Evidence |
 |---|---|
+| **German field-post fragment** — p84 C gains a 28/122-position conditional word layer at zero observed substitutions; five source frames and three wholly missing word letters remain explicit | [Source, corpus phrase search and calibrated replay](p84_field_post_fragment/README.md) |
 | **Withdrawal approval request** — p116 A13 rises from 75 to 90/111 conditional positions with zero observed substitutions; 13 new letters retain a half-coordinate and two are wholly missing | [Route and approval layers](p116_optional_route_fragment/APPROVAL.md) |
 | **Cross-key withdrawal parallel** — 59 letters in p117 C3 support two existing p124 A1 repairs | [Independent observed-source witness](hungarian_armistice_instructions/withdrawal_parallel.json) |
 | **Demobilization continuation** — p228 B2 reaches 121/132 positions, or optionally 123/132 using two reference-field fills from part 1 | [Mask relocation and cross-part reference](p228_demobilization_fragment/README.md) |

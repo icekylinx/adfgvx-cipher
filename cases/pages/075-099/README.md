@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 56–74](../050-074/README.md) · [pp. 100–124 →](../100-124/README.md)
 
-**0 challenge entries · 63 other reviewed entries · 25 printed pages · 63 physical sources.**
+**0 challenge entries · 64 other reviewed entries · 25 printed pages · 64 physical sources.**
 
 Jump to page: [p75](#p75) · [p76](#p76) · [p77](#p77) · [p78](#p78) · [p79](#p79) · [p80](#p80) · [p81](#p81) · [p82](#p82) · [p83](#p83) · [p84](#p84) · [p85](#p85) · [p86](#p86) · [p87](#p87) · [p88](#p88) · [p89](#p89) · [p90](#p90) · [p91](#p91) · [p92](#p92) · [p93](#p93) · [p94](#p94) · [p95](#p95) · [p96](#p96) · [p97](#p97) · [p98](#p98) · [p99](#p99).
 
@@ -103,6 +103,7 @@ Page numbers refer to the printed Childs volume. Each row links to the complete 
 |---|---|---|---|
 | [p84 A](../../naval/p84_AB.md) | Ask whether Izzet Pasha's order to release oil succeeded | 122/122 raw positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
 | [p84 B](../../naval/p84_AB.md) | Request daily Black Sea shipping-safety reports for the Caucasus command | 101/101 raw positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
+| [p84 C](../../radio/p84_field_post_fragment.md) | German field-post fragment in an interrupted reception | Conditional 244-slot frame with five short-group loss alternatives; raw 14/122, word 28/122; zero observed substitutions, 2 printed-mask and 15 lost-tail fills; three word letters wholly absent; most of message unread | icekylinx and GPT-6 Astra Pro (2026); source Childs and published Oct28–31 key credited separately |
 
 ## p85
 

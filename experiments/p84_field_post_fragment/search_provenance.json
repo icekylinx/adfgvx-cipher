@@ -1,0 +1,145 @@
+{
+  "schema": "adfgvx-p84-field-post-discovery-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "source_sha256": "788355b3d0dd7dff801e1b114de6d4bd9429b79c116c8edefd8ba5e724941145",
+  "key_registry_sha256": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+  "donor_manifest_sha256": "3706ccca5397a22512487a81d2255ff8ca67c9f31beb36618717c9bcca9287b5",
+  "length_diagnostic": {
+    "models": 12617,
+    "registered_complete_keys": 11,
+    "even_total_lengths": [
+      118,
+      500
+    ],
+    "frame_options": "No short-group insertion or one unknown before source75..79; trailing jammed balance fills remaining advertised/diagnostic slots.",
+    "highest_score": {
+      "key": "Oct28-31",
+      "total_slots": 244,
+      "insert_before_source": 76,
+      "score": -1.6810980742728268
+    },
+    "controls": [
+      {
+        "key": "Oct28-31",
+        "control": 0,
+        "truth_length": 244,
+        "truth_insert": 77,
+        "truth_rank": 2,
+        "best_fixed": 14,
+        "best_correct_fixed": 14
+      },
+      {
+        "key": "Oct28-31",
+        "control": 1,
+        "truth_length": 202,
+        "truth_insert": -1,
+        "truth_rank": 2,
+        "best_fixed": 22,
+        "best_correct_fixed": 22
+      },
+      {
+        "key": "Nov1-3",
+        "control": 0,
+        "truth_length": 244,
+        "truth_insert": 77,
+        "truth_rank": 5,
+        "best_fixed": 10,
+        "best_correct_fixed": 10
+      },
+      {
+        "key": "Nov1-3",
+        "control": 1,
+        "truth_length": 202,
+        "truth_insert": -1,
+        "truth_rank": 1,
+        "best_fixed": 18,
+        "best_correct_fixed": 18
+      }
+    ],
+    "model": "Existing frozen 50/50 book/radio probability mixture rebuilt by p212_medical_fragment/replay_search.py; score is log quad-domain mass divided by observed-coordinate occurrences in the four-character windows."
+  },
+  "phrase_retrieval": {
+    "raw_donor_streams": 331,
+    "minimum_length": 12,
+    "minimum_observed_coordinate_support": 12,
+    "frames": 5,
+    "scope": "Every target/donor substring alignment; donor unknowns break matching. A candidate must agree with all observed target half-coordinates without substitutions.",
+    "unique_qualifying_donor_text": "XDEUTSCLEFELDPOST",
+    "target_span": [
+      46,
+      63
+    ],
+    "donor_id": "p210_C",
+    "donor_span": [
+      66,
+      83
+    ],
+    "observed_target_coordinates": 15,
+    "fully_observed_target_letters": 2,
+    "wholly_unobserved_target_letters": 4,
+    "lexical_proposal": "DEUTSCHEFELDPOST",
+    "lexical_span": [
+      47,
+      63
+    ],
+    "donor_typo": "The raw donor L at relative7 is not transferred. The target H position53 has no observed half-coordinate and remains a lexical completion."
+  },
+  "shuffle_calibration": {
+    "seed": 2026110484001,
+    "count": 100,
+    "observed_histogram_preserved": true,
+    "source_mask_shape_preserved": true,
+    "scope": "Each shuffled source maximizes over all five 244-slot frames and every substring alignment in all331 raw donor streams.",
+    "historical_support": 15,
+    "maximum_shuffled_support": 11,
+    "shuffles_reaching_historical": 0,
+    "limits": "Conditional on the already selected244-slot/Oct28\u201331 family. Earlier key/length selection and other prior research are not accounted for; this is exploratory calibration, not a corrected significance test."
+  },
+  "fresh_phrase_controls": [
+    {
+      "control": 0,
+      "phrase": "VERBINDUNGMITXUKSX",
+      "plaintext_start": 47,
+      "planted_insert": 76,
+      "maximum_observed_support": 16,
+      "matched_length": 19,
+      "retrieved_phrase_at_planted_position": true,
+      "best_match": {
+        "target_start": 46,
+        "target_stop": 65,
+        "donor_concat_start": 22497,
+        "text": "XVERBINDUNGMITXUKSX"
+      },
+      "best_match_letters_correct": 18,
+      "scope": "The planted18-letter phrase is retrieved at its correct target position. Its maximal compatible extension contains one or three incorrect surrounding letters and is not a validated plaintext recovery.",
+      "phrase_length": 18
+    },
+    {
+      "control": 1,
+      "phrase": "DIESTELLUNGENEINTE",
+      "plaintext_start": 47,
+      "planted_insert": 78,
+      "maximum_observed_support": 17,
+      "matched_length": 21,
+      "retrieved_phrase_at_planted_position": true,
+      "best_match": {
+        "target_start": 44,
+        "target_stop": 65,
+        "donor_concat_start": 9031,
+        "text": "NINDIESTELLUNGENEINTE"
+      },
+      "best_match_letters_correct": 18,
+      "scope": "The planted18-letter phrase is retrieved at its correct target position. Its maximal compatible extension contains one or three incorrect surrounding letters and is not a validated plaintext recovery.",
+      "phrase_length": 18
+    }
+  ],
+  "limits": [
+    "The corpus hit supplies vocabulary, not an authenticated duplicate of the telegram. No donor coordinate is transferred.",
+    "All five short-group locations remain. The words have the same price under each; the missing coordinate location is not uniquely identified.",
+    "Source observations remain unchanged. H,F,T in the phrase are wholly absent and supplied by the lexical hypothesis."
+  ],
+  "replay_sha256": "b9fcf5c920d0d86fbdfb9de810e791d1f78fe1e0cca2ec18bb30dc3fd077d1c9"
+}

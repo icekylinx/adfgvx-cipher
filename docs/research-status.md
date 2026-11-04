@@ -12,6 +12,15 @@ The [whole-material census](whole-material-coverage.md) registers **679 cipherte
 
 ## Current source refinements
 
+The [p84 C field-post fragment](../cases/radio/p84_field_post_fragment.md)
+adds a conditional reading to another former source gap. The advertised
+244-slot frame and a missing coordinate in the printed four-character group
+give **14/122 raw positions**; `DEUTSCHE FELDPOST` raises this to **28/122**
+with no observed substitutions. All five loss positions are retained. Three
+letters of the proposed phrase are wholly missing, and most of the telegram
+remains unread. **Fifteen of the original 21 source gaps now have reviewed
+editions; six still have none.**
+
 The [jammed ending of Mackensen's withdrawal report](../experiments/p116_optional_route_fragment/APPROVAL.md)
 now has a **90/111-position conditional route-and-approval reading**. The
 additional `EINVERSTAENDNIS?ERBETEN` proposal changes no observed coordinate;

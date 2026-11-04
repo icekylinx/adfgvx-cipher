@@ -16890,6 +16890,48 @@
           "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
         }
       ]
+    },
+    {
+      "path": "cases/radio/p84_field_post_fragment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "d961e07aa4d433b340cca9ec3b18014232889187809893f34d7f0a0436bbf25a",
+      "review_basis": "Independent source-PDF, five source maps, all610 domains, word prices and full re-encryption review; three wholly missing word letters and conditional retrieval evidence explicit.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "3f70e22c6570e4964631f3cae575ca6263c70b2b4e62025a553b04e60f1d6b79",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 118 printed slots, including seven dash masks and the four-character FDFG group:**",
+          "review_note": "Exact source/raw/conditional word displays and local qualifiers reviewed; sparse vocabulary quotation is explicitly a fragment."
+        },
+        {
+          "index": 1,
+          "sha256": "2e5fccecbc5228b136bf9837a22353185191d7a8b556c30aae436a8f55981eab",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — common to all five 244-slot frames; 14/122 fixed positions; no coordinate substitutions or fills:**",
+          "review_note": "Exact source/raw/conditional word displays and local qualifiers reviewed; sparse vocabulary quotation is explicitly a fragment."
+        },
+        {
+          "index": 2,
+          "sha256": "7126b422e626eecff7ab9b7946729dbefd67cb2f2a0e0ba4b3f598a08c8b0eec",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — DEUTSCHEFELDPOST at zero-based positions 47–62; zero observed substitutions, two printed-mask fills and 15 added-tail fills; 28/122 fixed positions:**",
+          "review_note": "Exact source/raw/conditional word displays and local qualifiers reviewed; sparse vocabulary quotation is explicitly a fragment."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "3ffef9983efca29c386029cb662599892c58fcaf3d4c6aaaddc0f21ca6eb2b0d",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — the conditional word fragment; all surrounding passages remain unresolved:**",
+          "review_note": "Exact source/raw/conditional word displays and local qualifiers reviewed; sparse vocabulary quotation is explicitly a fragment."
+        }
+      ]
     }
   ]
 }
