@@ -12,6 +12,18 @@ The [whole-material census](whole-material-coverage.md) registers **679 cipherte
 
 ## Current source refinements
 
+The [p137 sixth-part fragment](../cases/military/p137_publicity_fragment.md)
+now has a narrow **25-letter conditional proposal**: `DER OEFFENTLICHKEIT`
+and `BLEIBEN`, separated by fourteen unresolved positions. The proposed
+254-slot frame retains all 71 valid received coordinates and all three
+printed dashes; the words retain 15 observed halves and supply 35 missing
+halves, including ten wholly absent letters. Raw recovery remains **0/127**,
+with **102 positions still unassigned** in the edited layer. Equivalent
+256/258-slot frames and contrary `NICHT`/`IMMER`/`LANGE` and
+`VERBORGEN`/`VERGOENNT` alternatives prevent a recovered semantic claim.
+Matched full-family controls support investigation, while a fresh positive
+control recovers only 54/127 true letters despite ranking its true frame first.
+
 The [jammed p163 continuation](../cases/military/p163_infrastructure_clause.md)
 now has a **59-position conditional infrastructure clause**, proposing further
 orders about destruction of railways, roads and telephone lines when joined to
@@ -84,8 +96,8 @@ assign **52/122**, up from 28, with no observed substitutions in three of the
 five retained frames. The primary price is five printed-mask and 42 added-slot
 fills. `MUTTER SCHWER KRANK` and `MITTELSCHWER KRANK` are equally compatible;
 six new letters are wholly absent. No independent cipher copy of the new
-clause is known. With the new p163 conditional clause, **sixteen of the
-original 21 source gaps now have reviewed editions; five still have none.**
+clause is known. With the new p163 and p137 conditional fragments, **seventeen of the
+original 21 source gaps now have reviewed editions; four still have none.**
 
 The [jammed ending of Mackensen's withdrawal report](../experiments/p116_optional_route_fragment/APPROVAL.md)
 now has a **90/111-position conditional route-and-approval reading**. The

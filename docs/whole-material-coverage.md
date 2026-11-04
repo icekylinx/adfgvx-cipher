@@ -12,25 +12,25 @@ Every log page has a recorded boundary review. That review checks where bodies b
 
 | Measure | Current tree | Starting snapshot, 2026-11-03 08:04:46 UTC |
 |---|---:|---:|
-| Reviewed catalogue edition entries | 675 | 640 |
-| Distinct catalogued physical bodies | 674 | 639 |
+| Reviewed catalogue edition entries | 676 | 640 |
+| Distinct catalogued physical bodies | 675 | 639 |
 | Original challenge entries | 22 | 22 |
-| Other catalogue entries | 653 | 618 |
-| Additional physical bodies beyond challenges | 652 | 617 |
-| Bodies outside the current catalogue | 5 | 40 |
+| Other catalogue entries | 654 | 618 |
+| Additional physical bodies beyond challenges | 653 | 617 |
+| Bodies outside the current catalogue | 4 | 40 |
 
-Current catalogue metadata records source review for **674 distinct bodies**. This is the existing source-review evidence status, not a number of solved messages. The registered p132 / p132_B overlap is one physical body with two edition entries. The current counts come from the files in this checkout; the fixed baseline is never substituted for them.
+Current catalogue metadata records source review for **675 distinct bodies**. This is the existing source-review evidence status, not a number of solved messages. The registered p132 / p132_B overlap is one physical body with two edition entries. The current counts come from the files in this checkout; the fixed baseline is never substituted for them.
 
 There are **0 uncatalogued bodies** with an explicitly registered local review package in this checkout. They remain outside the catalogue count until integration. Publication status and local research status are distinct.
 
 ## Quantitative evidence coverage
 
-The bounded structured adapters independently recompute primary source/model accounting for **558 of the 679 bodies**. The other **121 bodies remain unquantified by this dashboard**; that includes unsupported legacy certificate shapes and genuinely missing editions. It does not mean that all of them lack prior decipherment work.
+The bounded structured adapters independently recompute primary source/model accounting for **559 of the 679 bodies**. The other **120 bodies remain unquantified by this dashboard**; that includes unsupported legacy certificate shapes and genuinely missing editions. It does not mean that all of them lack prior decipherment work.
 
 | Verified primary frame class | Physical bodies | Native slots | Model positions | Fixed raw labels, all unobserved coordinates unassigned | Extra fixed labels from supplied unobserved coordinates |
 |---|---:|---:|---:|---:|---:|
 | Native order and length | 471 | 100274 | 50137 | 48886 | 0 |
-| Modified frame; its stated assumptions still apply | 87 | 18529 | 9901 | 8205 | 1 |
+| Modified frame; its stated assumptions still apply | 88 | 18603 | 10028 | 8205 | 1 |
 
 These position totals cover only the quantified subset. **They are not a whole-corpus plaintext-completion percentage.** A fully fixed raw stream can retain garbles or uninterpreted numbers. The checker separates native source slots, conditional model additions/exclusions, and coordinates supplied from another witness; it does not combine alternative models or optional prose into a primary total.
 
@@ -42,7 +42,6 @@ The per-body JSON output includes exact evidence paths and explicit reasons when
 |---:|---|---|
 | 70 | B1 | No structured edition registered here |
 | 127 | B2 | No structured edition registered here |
-| 137 | A6 | A6: `experiments/transylvania_situation_report/inputs.json` (lead; coverage not inferred) |
 | 145 | A | No structured edition registered here |
 | 194 | D1 | No structured edition registered here |
 
@@ -72,7 +71,7 @@ python data/reviews/verify_childs_material_coverage.py --write-report
 
 `--verify` is read-only. `--write-report` explicitly refreshes this dashboard from the live tree. The optional PDF check pins the original file bytes and page count; the source-boundary inspection itself is a recorded manual review, not an automated glyph-recognition claim.
 
-Current catalogue SHA-256: `26eeb26c1a024dfd3144b604ef6a65c56e1ea1aa52f97bd61944f6d5e0b6f513`.
+Current catalogue SHA-256: `ac384ffb6808bbfe56980e3c037196250ec62da8960efa6a226998bc0bf83d72`.
 Census SHA-256: `2edad8ccbe1e589ae5e1b0497dd4d594d197f3ec5a5c1178e499d47f8a37ef87`.
 
 Source: J. Rives Childs, *General Solution of the ADFGVX Cipher System*, [complete scanned volume](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). See the [machine-readable census](../data/reviews/childs_material_census_20261103.json) for page-level review bases and material exceptions.

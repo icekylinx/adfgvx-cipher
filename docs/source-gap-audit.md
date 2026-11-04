@@ -10,7 +10,7 @@ This audit covers the 21 physical bodies outside the readable catalogue at `f3ba
 | p71_A2 | 85 | 85 | 0 | 192 | [Partial/conditional edition](../cases/radio/p71_dc_machines_fragment.md#p71-a2) |
 | p84_C | 118 | 111 | 7 | 244 | [Partial/conditional edition](../cases/radio/p84_mother_illness_extension.md) |
 | p127_B2 | 152 | 104 | 48 | 152 | No accepted edition |
-| p137_A6 | 74 | 71 | 3 | Not printed | No accepted edition |
+| p137_A6 | 74 | 71 | 3 | Not printed | [Partial/conditional edition](../cases/military/p137_publicity_fragment.md#p137-a6) |
 | p137_B | 135 | 133 | 2 | 138 | [Partial/conditional edition](../cases/radio/p137_station_staff_query.md#p137-b) |
 | p145_A | 192 | 187 | 5 | Not printed | No accepted edition |
 | p152_A2 | 128 | 125 | 3 | 128 | [Partial/conditional edition](../cases/military/p152_crossing_fragment.md#p152-a2) |

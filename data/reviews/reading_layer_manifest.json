@@ -7739,7 +7739,7 @@
     {
       "path": "cases/military/transylvania_situation_report.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "309cd26ab1dd7eb66169cb37fb8bc8b110d8e498db3d4cafde5f26e0d6e3ab70",
+      "file_sha256_at_review": "4c783b43f7a9ebdc99a49ba8232da3d3e72e09a993c0c737914ccad390e46584",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -17038,6 +17038,56 @@
           "caption_required": true,
           "caption": "**Readable German — conditional clause in the 286-slot model; the first omission remains unread:**",
           "review_note": "Conditional source clause only; inherited A17 wording and its repair remain separate."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p137_publicity_fragment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "d146573fc4b670be17f53de62a0d75ee81de63f3fcd9d71bee8204e72a134977",
+      "review_basis": "Independent source-owner and forward-encryption audit; 74 native slots / 71 valid observations unchanged; conditional 25-label proposal with 15 received halves, 35 added-slot fills and ten wholly absent letters; fourteen semantic positions remain unread; exact three-frame source-projection tie and adverse complete-phrase alternatives retained.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "8dfb3b1d4ea34bdff808fd4536123d6adff10f0c4846bafaad3521f78b964717",
+          "role": "raw_output",
+          "caption_required": true,
+          "review_note": "Conditional raw frame, narrow edited proposal and complete received source reviewed separately; no language score is treated as fixed plaintext.",
+          "caption": "**Raw output — conditional 254-slot frame with 180 added leading unknown coordinates; published Nov4–6 key; 0/127 fixed plaintext positions:**"
+        },
+        {
+          "index": 1,
+          "sha256": "e77ceace8ba993b8a764156a0f5fae93d8768c920410194b1959ccb8996de072",
+          "role": "edited_output",
+          "caption_required": true,
+          "review_note": "Conditional raw frame, narrow edited proposal and complete received source reviewed separately; no language score is treated as fixed plaintext.",
+          "caption": "**Edited output — 25 proposed letters at positions 13–30 and 45–51; zero observed substitutions, zero printed-mask fills and 35 added-slot fills:**"
+        },
+        {
+          "index": 2,
+          "sha256": "71fa6708a90fb66a1ee6fd756b2e9b91dce54f0a9c605343a4c408386f20672c",
+          "role": "source_transcription",
+          "caption_required": true,
+          "review_note": "Conditional raw frame, narrow edited proposal and complete received source reviewed separately; no language score is treated as fixed plaintext.",
+          "caption": "**Source transcription — all 74 printed slots, preserving the three dashes:**"
+        },
+        {
+          "index": 3,
+          "sha256": "695d424b6aa562d349f63cd0c03ec79949c79e038598c54c1b23c14b8ba62609",
+          "role": "reproduction_command",
+          "caption_required": false,
+          "review_note": "Conditional raw frame, narrow edited proposal and complete received source reviewed separately; no language score is treated as fixed plaintext.",
+          "caption": "**Verification command — independent source and candidate checks:**"
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "d3e7bd198c8523c2ba8136efd4431c707ceca42f86e65ed00ab890cf1d27aeb6",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — conditional word fragments only; the intervening fourteen positions remain unresolved:**",
+          "review_note": "Only the three proposed words are displayed; polarity and intervening verb remain explicitly unresolved."
         }
       ]
     }

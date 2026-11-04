@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**253 reviewed entries across 103 case pages, representing 253 physical sources; 253 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**254 reviewed entries across 104 case pages, representing 254 physical sources; 254 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -38,6 +38,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [March report and aerial reconnaissance with unresolved unit and place](nov4_march_air_reconnaissance.md) | p127 A3 |
 | [Surviving Transylvania situation report](transylvania_situation_report.md) | p128 B1, p129 A7, p129 A8, p137 A4, p137 A5 |
 | [Recall of contract-bound military-mission members from Turkey](turkish_mission_recall.md) | p130 A1, p130 A2, p131 A3, p131 A4 |
+| [p137 A6 — Conditional publicity fragment in an interference-damaged report](p137_publicity_fragment.md) | p137 A6 |
 | [Two additional witnesses to the armistice-planning traffic](armistice_clause_witnesses.md) | p137 B4, p137 C |
 | [Sevastopol routing amendment with twelve opaque code groups](sevastopol_coded_routing.md) | p139 A1, p139 A2, p139 A3 |
 | [Return Seeflugstation Ost personnel to the second detachment](seaplane_personnel_return.md) | p141 B |
@@ -199,6 +200,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p131 A4](turkish_mission_recall.md#p131-a4) | Notification and Military Cabinet closing | One ordinary-word repair independently witnessed by prior p149 A2 closing | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates and earlier closing distinguished |
 | [p137 A4](transylvania_situation_report.md#p137-a4) | Security measures at Kronstadt/Hermannstadt and intended material transport | Four tied one-plus-five gap models; three primary coordinate repairs and A/X alternative | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed readings and Lasry et al. different report distinguished |
 | [p137 A5](transylvania_situation_report.md#p137-a5) | Personnel-removal passage; optional military-movement clause | Conditional primary 106/126 positions; optional governing clause 124/126 with seven observed substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed readings and Lasry et al. different report distinguished |
+| [p137 A6](p137_publicity_fragment.md#p137-a6) | Conditional publicity word fragments with unresolved polarity and verb | 74 source slots / 71 unchanged valid coordinates; conditional 254-slot frame, raw 0/127; 25 proposed letters with 35 added-slot fills; ten letters wholly absent, 102 unknown positions, equivalent 256/258 frames and semantic rivals retained | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key and prior source editions credited |
 | [p137 B4](armistice_clause_witnesses.md#p137-b4) | Independent copy of Entente railway and occupation clause | Source-copy edition; observed repairs and earlier-source support separated | icekylinx and GPT-6 Astra Pro (2026); prior period keys and earlier editions credited |
 | [p137 C](armistice_clause_witnesses.md#p137-c) | Repeated receipt with two shared corrupt words | Source-copy edition; observed repairs and earlier-source support separated | icekylinx and GPT-6 Astra Pro (2026); prior period keys and earlier editions credited |
 | [p139 A1](sevastopol_coded_routing.md#p139-a1) | Sevastopol routing amendment opening; SL4475 and FECH53083 references | Native 200 coordinates; one visible X restored from OCR; zero source edits | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier repository candidates and OCR limits retained |

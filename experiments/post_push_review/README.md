@@ -20,12 +20,21 @@ review-evidence artifacts to the pin map. It does not exempt any original path
 from hashing. All original fenced displays and headings in the five changed
 case pages are unchanged. The reading-layer manifest retains every earlier
 role, display and review-basis record; its updates are case-file hashes and the
-separately reviewed p84 and p163 A16 pages. The live coverage dashboard adds
-one conditional physical-source edition, p163 A16: 121 received coordinates
-in a 286-slot frame with 165 hypothesized leading losses, 0 fixed raw labels
-and a separately counted 59-label candidate. The verifier reverses this one
-source contribution and the catalogue digest to recover the originally
-pinned dashboard byte-for-byte. Its 679-body census denominator is unchanged.
+separately reviewed p84, p163 A16 and p137 A6 pages. The live coverage dashboard
+adds two conditional physical-source editions, with their supplied labels
+kept outside the raw totals:
+
+| Source | Native slots | Inferred leading losses | Model positions | Fixed raw labels | Proposed labels | Added-slot fills |
+|---|---:|---:|---:|---:|---:|---:|
+| p163 A16 | 121 valid coordinates | 165 | 143 | 0 | 59 | 65 |
+| p137 A6 | 74 slots: 71 valid, 3 printed dashes | 180 | 127 | 0 | 25 | 35 |
+
+Both proposals change zero received coordinates. The A6 primary leaves all
+fourteen positions containing the incompatible polarity and verb alternatives
+unassigned; the three printed dashes also remain unfilled. The verifier reverses
+exactly these two source contributions and the catalogue digest to recover the
+originally pinned dashboard byte-for-byte. Its 679-body census denominator is
+unchanged.
 
 The standard inventory verifier remains byte-identical. Run the additional
 check with:
@@ -40,8 +49,9 @@ old-to-new pin map, and proves that the preserved inventory changed only its
 input digest and artifact count. It requires no historical checkout or network
 access. New reading claims and their repair prices remain in the linked source
 packages. The preserved inventory adds no source or raw plaintext count;
-the independently recomputed live dashboard adds the one conditional A16
-source edition and keeps its supplied labels outside the raw total.
+the independently recomputed live dashboard adds exactly the A16 and A6
+conditional source editions and keeps their supplied labels outside the raw
+total.
 
 ## Current preserved inventory
 

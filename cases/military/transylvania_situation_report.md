@@ -4,13 +4,13 @@
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
-This is a proposed cross-page assembly of an eight-part message marked 1840 / 18.40, 8 TLE, LP v NKJ. Parts 1, 7 and 8 survive on pp128–129; p137 supplies part 4, a partial reading of interference-damaged part 5, and an unread fragment of part 6. Parts 2 and 3 remain unlocated. All uses of the Nov4–6 key retain its published square and ranks.
+This is a proposed cross-page assembly of an eight-part message marked 1840 / 18.40, 8 TLE, LP v NKJ. Parts 1, 7 and 8 survive on pp128–129; p137 supplies part 4 and conditional partial readings of interference-damaged parts 5 and 6. Parts 2 and 3 remain unlocated. All uses of the Nov4–6 key retain its published square and ranks.
 
 The headings conflict: pp128–129 say 5 November with different evening receipt times; p137 has a 6 November page heading and 08.14 on 5 November in its receipt line, alongside the 18.40 origin. Matching headers, part numbers and content support the association but do not resolve those dates or prove an exact transmission history.
 
 ## Missing and unread material
 
-The p128 copy explicitly states that parts 2–6 are missing. The separate p137 page supplies independent surviving material for 4–6. It does not restore parts 2/3, and part 6 has no stated length or asserted readable body. No absent wording is supplied.
+The p128 copy explicitly states that parts 2–6 are missing. The separate p137 page supplies independent surviving material for 4–6. It does not restore parts 2/3, and part 6 has no stated length. A [separate conditional A6 edition](p137_publicity_fragment.md) proposes 25 letters in a 254-slot frame, preserving 102 unknown positions and the equally compatible 256/258-slot alternatives. Its polarity and intervening verb remain unread.
 
 ## p128 B1
 
@@ -119,7 +119,7 @@ Three coordinate substitutions repair two words and the separator before EMPFANG
 
 ## Evidence and totals
 
-The five readable physical sources provide 550 modeled plaintext positions: 499 fixed under their declared raw geometries and 530 after the stated candidates. Costs are six observed-coordinate substitutions, seven fills of printed dashes/invalid glyphs, and 24 missing-coordinate fills. The unread 74-slot part 6 is excluded from these totals and from the catalog proposal.
+The five readable physical sources provide 550 modeled plaintext positions: 499 fixed under their declared raw geometries and 530 after the stated candidates. Costs are six observed-coordinate substitutions, seven fills of printed dashes/invalid glyphs, and 24 missing-coordinate fills. The 74-slot part 6 now has its own [25-letter conditional catalogue entry](p137_publicity_fragment.md); it remains excluded from these five-source totals. That separate model has zero raw fixed positions and does not establish the missing sentence.
 
 The earlier corpus screen already recognized parts 1/7/8. Lasry et al. describe a different thirteen-part report of 3 November in their Table 3; this edition makes no first historical decipherment claim. A complete 788-block exact-window search found only one short 12-coordinate incidental lead and no missing part 2/3.
 

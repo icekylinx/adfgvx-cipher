@@ -1,0 +1,292 @@
+{
+  "schema": "adfgvx-p137-publicity-fragment-inputs-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "indexing": "All source, modeled-coordinate and plaintext indices are zero-based; span ends are exclusive.",
+  "case": "cases/military/p137_publicity_fragment.md",
+  "baseline_inputs": {
+    "path": "experiments/transylvania_situation_report/inputs.json",
+    "sha256": "acea90d19f08c19d5e2eb093bbb33ea85502f585ccd3ce62e5c27e83fe53dcda"
+  },
+  "baseline_certificate": {
+    "path": "experiments/transylvania_situation_report/certificates.json",
+    "sha256": "1336136747317f75f2455f4854eeb4b10bb8783a71039a35d3b00d9a6ff069b9"
+  },
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p137_A6_source",
+      "path": "sources/p137_a6.png",
+      "printed_page": 137,
+      "pdf_page_1based": 140,
+      "crop_pdf_points": [
+        55,
+        430,
+        506,
+        478
+      ],
+      "render_scale": 4,
+      "storage": "embedded_png",
+      "width": 1804,
+      "height": 192,
+      "sha256": "9b73a0f132ba4c211bf6b38fbdc2d5c400e8c0df6b48d0ff4c2263317c7f69d9",
+      "rgb_sha256": "a4f65bbee3d45cd3157dbf183defd66e2e1c8de8bc4ffb95ade599c93c147e9b"
+    }
+  ],
+  "key": {
+    "id": "Nov4-6",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      7,
+      10,
+      8,
+      14,
+      3,
+      11,
+      16,
+      1,
+      6,
+      13,
+      4,
+      9,
+      15,
+      5,
+      12,
+      17,
+      2
+    ],
+    "column_count": 17,
+    "square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "square_rows": [
+      "17WHFL",
+      "J5D2UP",
+      "EXKVZ9",
+      "O0Q3Y6",
+      "R8ABGI",
+      "TCMS4N"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 240,
+        "pdf_page_1based": 243,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [
+      "The historical transposition line appears to omit rank 11. The complete 17-column order is explicitly published by Lasry and verified by successful decryptions."
+    ],
+    "baseline_square": "17WHFLJ5D2UPEXKVZ9O0Q3Y6R8ABGITCMS4N",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "records": [
+    {
+      "id": "p137_A6",
+      "printed_page": 137,
+      "pdf_page_1based": 140,
+      "source_section": "A6",
+      "message_part": 6,
+      "message_total_parts": 8,
+      "source_image_id": "p137_A6_source",
+      "source_rows": [
+        "DXXAF FVAAG FAVDA VVFAX VAXVV",
+        "---FV AAXGX VGGAV GXDGF XFAFG DAAGX FXVFA",
+        "GXXAF FVXGA XGVX"
+      ],
+      "source_annotation": "The literal leading (interference) annotation is metadata, not a coordinate slot.",
+      "source_heading": "6TL; RICHI is printed without a value.",
+      "advertised_length": null,
+      "literal_source_slots": 74,
+      "valid_source_coordinates": 71,
+      "printed_mask_indices": [
+        25,
+        26,
+        27
+      ],
+      "model": {
+        "kind": "unknown_leading_interference",
+        "modeled_coordinates": 254,
+        "leading_unknown_coordinates": 180,
+        "full_length_established": false
+      },
+      "expected_raw": "???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+      "readable_candidate": "?????????????DEROEFFENTLICHKEIT??????????????BLEIBEN???????????????????????????????????????????????????????????????????????????",
+      "proposed_spans": [
+        {
+          "start": 13,
+          "stop": 31,
+          "text": "DEROEFFENTLICHKEIT"
+        },
+        {
+          "start": 45,
+          "stop": 52,
+          "text": "BLEIBEN"
+        }
+      ]
+    }
+  ],
+  "equivalent_model_lengths": [
+    254,
+    256,
+    258
+  ],
+  "unresolved_semantic_spans": [
+    {
+      "start": 31,
+      "stop": 36,
+      "equal_price_examples": [
+        "NICHT",
+        "IMMER",
+        "LANGE"
+      ]
+    },
+    {
+      "start": 36,
+      "stop": 45,
+      "equal_price_examples": [
+        "VERBORGEN",
+        "VERGOENNT"
+      ]
+    }
+  ],
+  "full_clause_alternatives": [
+    {
+      "id": "nicht_verborgen",
+      "start": 13,
+      "text": "DEROEFFENTLICHKEITNICHTVERBORGENBLEIBEN"
+    },
+    {
+      "id": "nicht_vergoennt",
+      "start": 13,
+      "text": "DEROEFFENTLICHKEITNICHTVERGOENNTBLEIBEN"
+    },
+    {
+      "id": "immer_verborgen",
+      "start": 13,
+      "text": "DEROEFFENTLICHKEITIMMERVERBORGENBLEIBEN"
+    },
+    {
+      "id": "immer_vergoennt",
+      "start": 13,
+      "text": "DEROEFFENTLICHKEITIMMERVERGOENNTBLEIBEN"
+    },
+    {
+      "id": "lange_verborgen",
+      "start": 13,
+      "text": "DEROEFFENTLICHKEITLANGEVERBORGENBLEIBEN"
+    },
+    {
+      "id": "lange_vergoennt",
+      "start": 13,
+      "text": "DEROEFFENTLICHKEITLANGEVERGOENNTBLEIBEN"
+    }
+  ],
+  "article_alternatives": [
+    "DER",
+    "DEN",
+    "DEM",
+    "DIE"
+  ],
+  "optional_von": {
+    "start": 124,
+    "text": "VON",
+    "included_in_primary": false
+  },
+  "geometry_audit": {
+    "minimum": 74,
+    "maximum": 1000,
+    "step": 2,
+    "all_offsets": true,
+    "pattern": "DEROEFFENTLICHKEIT??????????????BLEIBEN",
+    "minimum_observed_halves": 15
+  },
+  "following_part_context": {
+    "record_id": "p129_A7",
+    "native_prefix": "ALLGEMEINERHIERNICHTBEKANNTERPOLITISCHERLAGE",
+    "association": {
+      "proposed_message": "1840 eight-part report to OHL / OP, including a military and political situation discussion",
+      "surviving_readable_parts": [
+        1,
+        4,
+        5,
+        7,
+        8
+      ],
+      "surviving_unread_fragment": [
+        6
+      ],
+      "not_located_parts": [
+        2,
+        3
+      ],
+      "shared_header_evidence": [
+        "All three page headers name LP v NKJ and an 1840 / 18.40 eight-part message.",
+        "p137 adds VON UKS 18.40 and supplies parts 4,5,6; p128 explicitly lacks parts 2\u20136; p129 supplies parts 7,8.",
+        "The published Nov4\u20136 ranks/square produce coherent related situation/withdrawal wording in separately modeled parts."
+      ],
+      "conflicts": [
+        "p128 and p129 print different receipt times, 19.25 and 19.01, for the apparent same message.",
+        "p137 has a 6 November page heading but a 5 November 08.14 receipt line, without an a.m./p.m. qualifier, while the repeated origin time is 18.40. No clock/date reconciliation is asserted."
+      ],
+      "status": "Proposed cross-page association supported by matching source fields and semantics; it is not an exact duplicated-plaintext witness or proof of original transmission dates."
+    },
+    "limit": "The fully observed prefix does not establish the cross-page association or supply an A6 coordinate. The separately priced VON is excluded from the primary."
+  },
+  "native_vocabulary_witness": {
+    "inputs": {
+      "path": "experiments/withdrawal_recovery/inputs.json",
+      "sha256": "07a7dfcb2f28918c4c9dad2303d42cdf074f0698fa9f1abb190e0a2200d9d334"
+    },
+    "record_id": "p163_A14",
+    "start": 0,
+    "text": "BLEIBEN",
+    "limit": "An independent native word, not a duplicate phrase or evidence for the missing A6 geometry."
+  },
+  "discovery_metadata": {
+    "path": "experiments/p137_publicity_fragment/discovery.json",
+    "sha256": "9d4ea1a8a73c6091ae188cbe50bd85596a56939f75e3a654328987131c89c21b"
+  },
+  "arithmetic_dependency": {
+    "path": "experiments/p163_infrastructure_clause/verify.py",
+    "sha256": "d4758071214b3b1b4937b053ae06e054bfea3adcafbe9340bd4c4c97ce977b7b"
+  },
+  "limits": [
+    "The primary 25 positions are language-guided and not forced or common to every possible wording. All 14 intervening positions remain unknown.",
+    "Ten proposed letters have neither half observed. Every other proposed letter has exactly one observed half.",
+    "No source total length is printed. Three fully source-equivalent frames remain explicit.",
+    "Other articles, noun boundaries, verbs and endings can fit; the listed alternatives are not exhaustive.",
+    "No independent native copy of OEFFENTLICHKEIT or the full clause has been found in the searched corpus.",
+    "All original coordinates and all three printed masks are retained unchanged. Added leading slots are counted separately from native slots."
+  ]
+}
