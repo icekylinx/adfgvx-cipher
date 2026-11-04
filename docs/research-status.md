@@ -12,6 +12,21 @@ The [whole-material census](whole-material-coverage.md) registers **679 cipherte
 
 ## Current source refinements
 
+The original [p164a challenge](../cases/p164a.md) now has a new
+**BESATZUNGSHEER** reading. Its 14 letters agree with all 18 observed
+coordinate halves; ten mask fills complete the word with no observed
+substitution. Two native messages under other keys attest the word.
+Together with the earlier date and route proposals, the revised conditional
+layer reaches **104/121 positions with four substitutions**, improving
+the earlier 101-position, five-substitution proposal. The [certificate](../experiments/p164_occupation_fragment/README.md)
+retains the raw word layer and each combined layer separately.
+
+The [p137 A5 personnel-removal passage](../experiments/p137_governing_clause/README.md)
+now has an optional **124/126-position** reading, proposing personnel removal before
+military movements and an `AB6XNOVEMBER` marker. The extension adds four
+observed substitutions and eight fills to the staff proposal. Both remaining
+positions stay explicit; the governing clause remains contextual.
+
 The [p84 C field-post fragment](../cases/radio/p84_field_post_fragment.md)
 adds a conditional reading to another former source gap. The advertised
 244-slot frame and a missing coordinate in the printed four-character group

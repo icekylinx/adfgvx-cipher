@@ -10,6 +10,8 @@ Our experiments recovered the shared p153 key, reconstructed damaged transmissio
 
 | Result | Evidence |
 |---|---|
+| **Original p164a occupation-army fragment** — BESATZUNGSHEER matches 18 observed halves at zero substitutions; revised prior clauses give 104/121 positions with four substitutions | [Cross-key native witnesses and exact word layers](p164_occupation_fragment/README.md) |
+| **Personnel-removal governing clause** — p137 A5 reaches an optional 124/126 positions, retaining two unknowns and all repair prices | [Date marker and military-movement proposal](p137_governing_clause/README.md) |
 | **German field-post fragment** — p84 C gains a 28/122-position conditional word layer at zero observed substitutions; five source frames and three wholly missing word letters remain explicit | [Source, corpus phrase search and calibrated replay](p84_field_post_fragment/README.md) |
 | **Withdrawal report ending** — p116 A13 has a 90/111 route-and-approval proposal; optional shared footer format and historical closing extend it to 97 and 101/111, with zero observed substitutions | [Route and approval](p116_optional_route_fragment/APPROVAL.md), [separate footer layers](p116_optional_route_fragment/FOOTER.md) |
 | **Cross-key withdrawal parallel** — 59 letters in p117 C3 support two existing p124 A1 repairs | [Independent observed-source witness](hungarian_armistice_instructions/withdrawal_parallel.json) |

@@ -205,7 +205,7 @@ Page numbers refer to the printed Childs volume. Each row links to the complete 
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
-| [p164a](../../p164a.md) | Temesvar / MIRCO contextual fragments | Prior partial; constraint audit | Norbert (2017) |
+| [p164a](../../p164a.md) | Occupation army, Temesvar and MIRCO fragments | New BESATZUNGSHEER word; revised conditional 104/121 positions | Norbert (2017); new word and source review by icekylinx and GPT-6 Astra Pro (2026) |
 | [p164b](../../p164b.md) | Height 828 and an uneventful situation report | Prior partial; constraint audit | Norbert (2017) |
 
 ### Other reviewed source records

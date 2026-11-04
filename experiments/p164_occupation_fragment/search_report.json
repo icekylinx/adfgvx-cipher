@@ -1,0 +1,98 @@
+{
+  "seed": 202611040238164,
+  "donor_count": 488,
+  "donor_characters": 52034,
+  "historical": {
+    "observed_support": 18,
+    "length": 15,
+    "hits": [
+      [
+        18,
+        "BESATZUNGSHEERE"
+      ],
+      [
+        18,
+        "BESATZUNGSHEERZ"
+      ]
+    ]
+  },
+  "planted": [
+    {
+      "word": "VERBINDUNGEN",
+      "offset": 18,
+      "source": "G?G?FAAGGXFFDDDGD?DXVXFXDAAFXFXGVVXFFVGFVXXF????XX?GA??FG????????????????????????????????????????????????????????????????????VGDXVD????DDDXDGFAFDVFFGDVAFVXXGAGVVXDAAFGDXGXGXGVGGGDDD?DDXDGFDVAVAAVDGDAGAFXGDFGDVVXVXDXFDVGDXGXXVFD?VXFGDDFFFGDXXG",
+      "plaintext": "9S9SGGZEO9K1NSER9LVERBINDUNGEN2IRGWQ22E92DQV2FD31DF1YOPQ8ICF21RE6FJ38HY1B5Z2DJB75LTYNHOHZ3VAA5L5FNANZA1PBAGCN0CW7W1Q4JBFX",
+      "result": {
+        "observed_support": 16,
+        "length": 12,
+        "hits": [
+          [
+            18,
+            "VERBINDUNGEN"
+          ]
+        ]
+      }
+    },
+    {
+      "word": "MITTELMEERDIVISION",
+      "offset": 18,
+      "source": "D?D?DXDDXGADVAADX?XVVAAGGADXXFXAAFVVFGGVXFDF????GG?GX??AD????????????????????????????????????????????????????????????????????VAFAXF????VAXVGGXVXVXFXVAVAGDFXVDFXFXXXDXXAGAFDVGAGFDAVA?GFDGFXXVXGVGGADGVAFGFGDDFGVGVVDVDAFDGGGFVVDVD?DXFAXAXGGXAXXV",
+      "plaintext": "5MLIZ97K795LN1WYBPMITTELMEERDIVISIONPGRQB4EOHDUDJHTI6NWQV325YZZARAYJTLG034SURKN5O3FAFR75W3TD9238BYATOPRH15TRNZE0L260A25FB",
+      "result": {
+        "observed_support": 23,
+        "length": 18,
+        "hits": [
+          [
+            18,
+            "MITTELMEERDIVISION"
+          ]
+        ]
+      }
+    },
+    {
+      "word": "KONSTANTINOPEL",
+      "offset": 18,
+      "source": "V?G?XFDXVAADGVXDV?DXXFAVAFGXXXDAGDFXDXADGAXA????AD?DX??DF????????????????????????????????????????????????????????????????????XGAAXA????GVFDGDDDGVDAVGGXFFAXDAGXVGDXVFDFXVDDXXDFGXDADF?FVXVAGGAVXAXVXGVDVFDFAAVFGVAFGAADAFAFFAAAAVXG?FGXVFXFDXXGADV",
+      "plaintext": "5008BMPTAC9HI0Q1EHKONSTANTINOPEL30R6GEJR77FWBJW08YR11IUN5TLPIS32Z39ZNHRA6R0P4AN6R3H592WJ2I0RPFH3R8RKYMRMU73PECE7Z606NX5IR",
+      "result": {
+        "observed_support": 18,
+        "length": 15,
+        "hits": [
+          [
+            18,
+            "KONSTANTINOPELA"
+          ],
+          [
+            18,
+            "KONSTANTINOPELU"
+          ],
+          [
+            18,
+            "KONSTANTINOPELX"
+          ]
+        ]
+      }
+    },
+    {
+      "word": "EREIGNISSE",
+      "offset": 18,
+      "source": "X?D?FDFGFAGFXVDVV?VGVFDVDVDFFFVDFGGAXDVXAFDV????AF?GX??GX????????????????????????????????????????????????????????????????????FVVDAA????VXAVDADXXGGFDXXVAXFDGXAVAGFGFDFVGGVGXGFGAXFAAA?DDXADFXXGDAVFVVGGGXFVXDADAXAVAVGFAVXGAFAFGDGF?AFVDXDVXVADXFX",
+      "plaintext": "2G63QLZJHB4S5Z84AXEREIGNISSEFQW73Y98FKEW8K7S1QUK08D8E8M84GA9CWQJ2XHHXLPM2N7GM9WT2V8BQ7AXL1B8PEGVGONMO42WITBLCWKSO5UW64N1G",
+      "result": {
+        "observed_support": 0,
+        "length": 0,
+        "hits": []
+      }
+    }
+  ],
+  "source_sha256": "80c3d70a21900c52152872f8a69b911c91652375914b553baf8e41280b4dbc89",
+  "null_summary": {
+    "count": 500,
+    "minimum_matched_length": 12,
+    "hits_at_minimum_length": 0,
+    "maximum_observed_support": 0,
+    "result_sha256": "5250bb20c81d03cc5499e28109329fe883340a3ea2bbf52bd5956bb1339ad199"
+  },
+  "scope": "Native raw strings retrieved from488 unique inputs; target source and its own prior readings excluded. Conditional frames among donors remain possible; the accepted two word witnesses were separately checked as native observed pairs.",
+  "controls_note": "Three planted words of at least12 characters are retrieved at the correct offset. The ten-character EREIGNISSE control is intentionally below the12-character search threshold and produces no hit."
+}

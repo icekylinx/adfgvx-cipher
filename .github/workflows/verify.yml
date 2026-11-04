@@ -49,6 +49,8 @@ jobs:
           python data/reviews/verify_continuation_source_counts.py --verify
           python experiments/p63_optional_technical_reading/verify.py --verify
           python experiments/p137_optional_staff_vocabulary/verify.py --verify
+          python experiments/p137_governing_clause/verify.py --verify
+          python experiments/p164_occupation_fragment/verify.py --verify
           python experiments/p116_optional_route_fragment/verify.py --verify
           python experiments/p116_optional_route_fragment/verify_approval.py --verify
           python experiments/p116_optional_route_fragment/verify_footer.py --verify

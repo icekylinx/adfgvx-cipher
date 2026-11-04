@@ -87,10 +87,14 @@
     {
       "id": "p164a",
       "label": "p164a",
-      "subject": "Temesvar / MIRCO contextual fragments",
-      "status": "Prior partial; constraint audit",
-      "credit": "Norbert (2017)",
-      "path": "cases/p164a.md"
+      "subject": "Occupation army, Temesvar and MIRCO fragments",
+      "status": "New BESATZUNGSHEER word; revised conditional 104/121 positions",
+      "credit": "Norbert (2017); new word and source review by icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/p164a.md",
+      "evidence": [
+        "experiments/p164_occupation_fragment/inputs.json",
+        "experiments/p164_occupation_fragment/certificates.json"
+      ]
     },
     {
       "id": "p164b",
@@ -5389,14 +5393,16 @@
       "label": "p137 A5",
       "printed_page": 137,
       "source_section": "A5",
-      "subject": "Interference-damaged personnel removal passage; four partial word completions",
-      "status": "All 38 interference allocations retained; conditional 0/37 partial reading, no observed-coordinate changes",
+      "subject": "Personnel-removal passage; optional military-movement clause",
+      "status": "Conditional primary 106/126 positions; optional governing clause 124/126 with seven observed substitutions",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed readings and Lasry et al. different report distinguished",
       "path": "cases/military/transylvania_situation_report.md#p137-a5",
       "source_reviewed": true,
       "evidence": [
         "experiments/transylvania_situation_report/inputs.json",
-        "experiments/transylvania_situation_report/certificates.json"
+        "experiments/transylvania_situation_report/certificates.json",
+        "experiments/p137_governing_clause/inputs.json",
+        "experiments/p137_governing_clause/certificates.json"
       ]
     },
     {

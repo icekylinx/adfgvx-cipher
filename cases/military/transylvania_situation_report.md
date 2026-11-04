@@ -73,6 +73,14 @@ separately. Ten plaintext positions remain unresolved, including the literal
 price remain unchanged. Independent witnesses attest the two staff compounds,
 not this complete clause or its historical execution.
 
+The [new governing-clause supplement](../../experiments/p137_governing_clause/README.md)
+extends the optional reading to **124/126 positions**: `VORBEGINN
+MILITAERISCHER BEWEGUNGEN` and `AB6XNOVEMBER`. Relative to the staff layer,
+it adds four observed substitutions, one printed-mask fill and seven
+missing-coordinate fills. The separate `AB6X` proposal needs only two fills
+and preserves the observed 6. The staff separator and final position remain
+unread; the governing clause is a priced contextual reconstruction.
+
 ## p129 A7
 
 Request concerning the unknown general political situation and a possible armistice.

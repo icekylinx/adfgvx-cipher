@@ -1,0 +1,86 @@
+{
+  "schema": "adfgvx-p164-occupation-fragment-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "source_certificate": "data/certificates/p164.json",
+  "dependencies": {
+    "data/certificates/p164.json": "df950ae39d00275f96872cb856c055ee44f6b7abfc8271734c7955916ce4603e",
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1"
+  },
+  "source_pdf": {
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_image": {
+    "path": "sources/p164_A3.png",
+    "printed_page": 164,
+    "pdf_page_1based": 167,
+    "crop_pdf_points": [
+      15,
+      170,
+      570,
+      274
+    ],
+    "scale": 3,
+    "size": [
+      1665,
+      312
+    ],
+    "rgb_sha256": "4e907386c2137e03ede684fc77d8a12435a5b0d9a42c1968eadf640cf4fec25b",
+    "png_sha256": "4789f77da75e7ad3d30d33ebf378724a221264c2069d03dc3851a59e07ee967e"
+  },
+  "word": {
+    "plaintext_start": 18,
+    "text": "BESATZUNGSHEER"
+  },
+  "date_and_place_template": "???X9X11XTEMESVARX",
+  "donors": [
+    {
+      "input_path": "experiments/mackensen_withdrawal_report/inputs.json",
+      "input_sha256": "22b536116b9b68add5e01542aaad148136b75ed2b29f7da45c63085b77fd5915",
+      "record_id": "p115_A8",
+      "rows_field": "source_rows",
+      "key_id": "Nov1-3",
+      "plaintext_start": 71,
+      "text": "BESATZUNGSHEER"
+    },
+    {
+      "input_path": "experiments/october_staffing/inputs.json",
+      "input_sha256": "62045bdbfa36917d6d9601b1314098907a663e5cbebe8e62727c3b762a6586ba",
+      "record_id": "p66_B",
+      "rows_field": "rows",
+      "key_id": "Oct4-6",
+      "plaintext_start": 109,
+      "text": "BESATZUNGSHEER"
+    },
+    {
+      "input_path": "experiments/nov7_danube_and_message_reports/inputs.json",
+      "input_sha256": "ed1e7faeeabd2ad5426b53c5ef63034c57a861d52d5e87675135038bcd98b158",
+      "record_id": "p153_A3",
+      "rows_field": "source_rows",
+      "key_id": "Nov7-9",
+      "plaintext_start": 65,
+      "text": "QX9X11XTEMESVARX"
+    }
+  ],
+  "expected_outputs": {
+    "word_only": "???X?X?1?T???E?A?XBESATZUNGSHEER???V?P?T??FN?X?N?M??1??R???D??V??X?I?C??A1?W?S?E??NF?U?D????G??E?D???????O?G???????S?T???",
+    "date_and_word": "???X9X11XTEMESVARXBESATZUNGSHEER???V?P?T??FN?X?N?M??1??R???D??V??X?I?C??A1?W?S?E??NF?U?D????G??E?D???????O?G???????S?T???",
+    "combined_with_prior_routes": "???X9X11XTEMESVARXBESATZUNGSHEER???V?P?T??FN?XUNDM??1??R??XDIEVONXMIRCONACHWESTENUNDSUEDENWEGXLEIDERWEGEVOMGEGNERBESETZTX"
+  },
+  "limits": [
+    "The 242-slot source-layout interpretation is inherited from the p 164 certificate, including its explicit expansion of the short erasure groups; it is not a new literal count of printed dashes.",
+    "BESATZUNGSHEER is a new word proposal. Both native donor words match the recipient coordinate domains, but no retransmission identity or unique historical wording is inferred.",
+    "The date/place layer retains Norbert comment 47 priority. The independently observed p 153 Q/date/place suffix supports that proposal and does not identify the first three positions.",
+    "The full combined layer inherits the other conjectural clauses from Norbert comment 42, including its unresolved grammar and MIRCO label. It is not an independently recovered complete body.",
+    "The wholly unobserved position 32 is not filled from either donor continuation. Position 33 retains the globally coupled 5/6 square ambiguity; no digit is selected.",
+    "Roundtrip witnesses fill residual erasures with A solely to check arithmetic. Their arbitrary plaintexts are not historical readings."
+  ],
+  "search_artifacts": {
+    "donor_manifest.json": "82130b99097610d5eb600fc8c4a9b3178bc26e68755f7c6f030fdb4734461df9",
+    "search_report.json": "2b85d6c379bcf3963c722e2fe04f3a39c5300aef48f4b9eb7eafbfdc9339a9d2",
+    "replay_search.py": "46af27f916ff06da676205b08e70d8ba4b2c0e75cf15dadb56f957ddeea9f11a"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "adfgvx-p137-governing-clause-inputs-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "source_input": "experiments/transylvania_situation_report/inputs.json",
+  "staff_input": "experiments/p137_optional_staff_vocabulary/inputs.json",
+  "dependencies": {
+    "experiments/transylvania_situation_report/inputs.json": "acea90d19f08c19d5e2eb093bbb33ea85502f585ccd3ce62e5c27e83fe53dcda",
+    "experiments/p137_optional_staff_vocabulary/inputs.json": "0630f44d4da2883c1dfcb4e8ec98b8e76db6d0771699b2ac2aa409eafe8334dd",
+    "experiments/transylvania_situation_report/sources/p137_A5.png": "7e5e6b101f58f9bf27063fb1b023c6584bae779e23cb87292458f8c812edcc8a"
+  },
+  "date_marker": [
+    {
+      "start": 96,
+      "text": "AB6X"
+    }
+  ],
+  "governing_clause": [
+    {
+      "start": 20,
+      "text": "VORBEGINN"
+    },
+    {
+      "start": 43,
+      "text": "BEWEGUNGEN"
+    }
+  ],
+  "compared_nouns": [
+    "BEWEGUNGEN",
+    "STOERUNGEN",
+    "VORGAENGEN",
+    "HANDLUNGEN",
+    "EINGRIFFEN",
+    "MASSNAHMEN"
+  ],
+  "expected_final_text": "ANSCHLIESSENDMUESSENVORBEGINNMILITAERISCHERBEWEGUNGENPERSONALDERWIRTSCHAFTS?UNDVERWALTUNGSSTAEBEAB6XNOVEMBERABGESCHOBENWERDEN?",
+  "limits": [
+    "The original 0/37 interference-loss allocation remains conditional on the earlier prefix crib; all 38 allocations are retained.",
+    "AB6X is a two-fill word/date-marker proposal. The observed numerical label 6 and the source key are unchanged.",
+    "VORBEGINN and BEWEGUNGEN are explicitly priced editorial proposals inferred from the surviving wording and the staff-removal context, not an independently received duplicate.",
+    "The declared six-noun comparison is not an exhaustive dictionary search or uniqueness claim.",
+    "The two positions 75 and 125 remain unresolved. Every newly fixed label has one observed half-coordinate; no wholly absent plaintext position is silently filled.",
+    "The source68 F/V alternative retains its earlier separate status; primary prices continue to use F.",
+    "No new physical body or new key is claimed. Mathematical roundtrip completions are not proposed historical readings."
+  ]
+}
