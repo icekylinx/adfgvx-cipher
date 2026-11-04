@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 125–149](../125-149/README.md) · [pp. 175–199 →](../175-199/README.md)
 
-**8 challenge entries · 123 other reviewed entries · 25 printed pages · 131 physical sources.**
+**8 challenge entries · 124 other reviewed entries · 25 printed pages · 132 physical sources.**
 
 Jump to page: [p150](#p150) · [p151](#p151) · [p152](#p152) · [p153](#p153) · [p154](#p154) · [p155](#p155) · [p156](#p156) · [p157](#p157) · [p158](#p158) · [p159](#p159) · [p160](#p160) · [p161](#p161) · [p162](#p162) · [p163](#p163) · [p164](#p164) · [p165](#p165) · [p166](#p166) · [p167](#p167) · [p168](#p168) · [p169](#p169) · [p170](#p170) · [p171](#p171) · [p172](#p172) · [p173](#p173) · [p174](#p174).
 
@@ -78,6 +78,7 @@ Page numbers refer to the printed Childs volume. Each row links to the complete 
 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
+| [p154 A2](../../military/p154_weisskirchen_fragment.md) | Weisskirchen halt and security fragment | Conditional 162-slot frame: raw 36/81; word 56/81; 1 observed exclusion, 2 substitutions and 20 inserted-slot fills; opening unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key and Childs source credited |
 | [p154 B3](../../military/airfield_german_troop_fragment.md#p154-b3) | Third-part airfield and German troop report | Native 172-slot frame; 2 observed-coordinate substitutions and 3 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 
 ## p155
@@ -263,7 +264,7 @@ Page numbers refer to the printed Childs volume. Each row links to the complete 
 |---|---|---|---|
 | [p168 A](../../radio/seifert.md) | Station under a soldiers' council; operation unchanged | 92/92 raw positions; spelling omission retained | Lasry, Niebel, Kopal and Wacker |
 | [p168 B](../../radio/seifert.md) | Cologne soldiers' council plans to occupy a radio station | Two explicit coordinate repairs | Childs; Lasry, Niebel, Kopal and Wacker |
-| [p168 C](../../p158.md#earlier-historical-reading-of-a-component) | Repeated Munich routing order 11338 | Parallel witness to the p 159 B component | Prior body: Childs (1918), Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p168 C](../../radio/p168_munich_routing_witness.md) | Munich routing order 11338: full retransmission and KDO support | Reviewed conditional six/four-group frame: raw 139/140; one V from p159 gives 140/140; 12 ownership aliases; garbled words retained | Prior body: Childs (1918), Lasry et al. (2016); full source-frame review and KDO evidence: icekylinx and GPT-6 Astra Pro |
 | [p168 D](../../p158.md#component-readings) | Repeated Munich–Innsbruck routing instruction | Parallel witness to the p 159 C component | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p168 E](../../military/danube_arad_witnesses.md#p168-e) | Arad provisions copy: native 80000 MANN and source-linked restoration of eleven p159 coordinates | Printed 271 / conditional 272 frame; raw 132/136; three original-source-supported coordinates give 135/136; edited layer 4 observed substitutions; literal strength 80000 and shared 5/6 footer retained | icekylinx and GPT-6 Astra Pro (2026); earlier p159 source edition and published key credited |
 

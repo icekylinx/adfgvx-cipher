@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**251 reviewed entries across 100 case pages, representing 251 physical sources; 251 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**252 reviewed entries across 102 case pages, representing 252 physical sources; 252 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -50,6 +50,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [Report of surrender to a Soldiers Council](soldiers_council_surrender.md) | p151 C |
 | [p152 A2 — Proposed report on crossing attempts](p152_crossing_fragment.md) | p152 A2 |
 | [November 7: Danube crossings and short message reports](nov7_danube_and_message_reports.md) | p152 B2, p152 C, p152 D, p153 A3, p153 B1 |
+| [p154 A2 — Weisskirchen halt and security fragment](p154_weisskirchen_fragment.md) | p154 A2 |
 | [An airfield and German troops: the surviving third part on p154](airfield_german_troop_fragment.md) | p154 B3 |
 | [Gomel route derailment and station-train forwarding](nov7_derailment_and_trains.md) | p155 D, p169 B |
 | [Armistice-departure report: the p151/p157 copy relation](armistice_departure_copy.md) | p157 A1 |
@@ -107,7 +108,8 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [Internment letter to Mackensen's soldiers' council — p226 C / p227 A](mackensen_internment.md) | p226 C1, p226 C2, p226 C3, p227 A4 |
 | [An instruction to avoid fighting, with further orders to follow](avoid_fighting_instruction.md) | p227 D |
 | [November 30: aviation march destinations](nov30_aviation_march_destination.md) | p228 A |
-| [Demobilization at Neuhof, south of Fulda](neuhof_demobilization.md) | p228 B1, p228 B2, p228 B3 |
+| [Demobilization at Neuhof, south of Fulda](neuhof_demobilization.md) | p228 B1, p228 B3 |
+| [p228 B2 — Demobilization district and formations](p228_demobilization_fragment.md) | p228 B2 |
 | [Rail stoppage, motor columns and aviation replenishment](late_transport_dispatches.md) | p229 A1, p229 A2, p229 A3, p229 B1, p229 B2, p229 C |
 | [p230 A — Divisions around Hermannstadt and an OKM headquarters move](p230_A.md) | p230 A3, p230 A4 |
 
@@ -221,6 +223,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p152 D](nov7_danube_and_message_reports.md#p152-d) | Receipt of a FunkSpruch with literal numerical fields | Native 140-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p153 A3](nov7_danube_and_message_reports.md#p153-a3) | A prescribed line and a Temesvar headquarters field | Native 180-slot frame; 2 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p153 B1](nov7_danube_and_message_reports.md#p153-b1) | Danube crossing completed and busy crossing traffic | Native 160-slot frame; 5 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
+| [p154 A2](p154_weisskirchen_fragment.md) | Weisskirchen halt and security fragment | Conditional 162-slot frame: raw 36/81; word 56/81; 1 observed exclusion, 2 substitutions and 20 inserted-slot fills; opening unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key and Childs source credited |
 | [p154 B3](airfield_german_troop_fragment.md#p154-b3) | Third-part airfield and German troop report | Native 172-slot frame; 2 observed-coordinate substitutions and 3 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p155 D](nov7_derailment_and_trains.md#p155-d) | Morning report: derailed freight train and both tracks blocked | Native 316-slot frame; 3 observed-coordinate substitutions and 5 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
 | [p157 A1](armistice_departure_copy.md#p157-a1) | Copy-conditioned armistice-departure report fragment | 0/95 fixed raw positions; 83 visible slots; conditional 190-slot copy reconstruction: 5 substitutions, 5 printed-mask fills, 107 absent-coordinate fills; opaque closing retained | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; explicit p151 copy and gap assumptions |
@@ -356,7 +359,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p227 D](avoid_fighting_instruction.md#p227-d) | An order to avoid fighting, with further instructions to follow | Native 272-slot frame; 4 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
 | [p228 A](nov30_aviation_march_destination.md#p228-a) | Aviation staff and army aviation park march destinations | Native384; conditional374 after ten source exclusions; seven observed substitutions and four printed-mask fills; all ten tied contiguous placements and both whole-group minima retained | icekylinx and GPT-6 Astra Pro (2026); published key and earlier surveys credited |
 | [p228 B1](neuhof_demobilization.md) | Flak unit directed to demobilization at Neuhof south of Fulda | Source-exact 246-slot frame; 117/123 raw labels; five substitutions and five fills give 122/123; NICHIN and unresolved unit ?0 retained | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
-| [p228 B2](neuhof_demobilization.md) | Conditional opening about demobilization on the Hanau-Fulda line | Partial 33-character opening only; five substitutions and ten fills; final 99 positions have no coherent original-language reading | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
+| [p228 B2](p228_demobilization_fragment.md) | Neuhof demobilization continuation: deputy-command district and formations | Conditional source-preserving five-mask relocation; raw 90/132; word 121/132 with 5 observed substitutions and 32 printed-mask fills; 95 proposed word positions, 11 unresolved; earlier 33-position opening retained | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
 | [p228 B3](neuhof_demobilization.md) | Field-army routing instruction directs the subject to Neuhof | Actual 186-slot frame versus printed RICHI-196?; 92/93 raw labels; one fill gives 93/93; literal DARMSADT retained | icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately |
 | [p229 A1](late_transport_dispatches.md) | Evening report on Tiszafoldvar advance and unchanged accommodation areas | Source-exact 228 slots; 114 labels; MIT restored by one coordinate; unit/date labels retained | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period key and earlier unreviewed OCR-derived A/B candidates retained in the package |
 | [p229 A2](late_transport_dispatches.md) | Rail traffic on the proposed Arad-Szolnok line halted by Hungarian instruction | Source-exact 192 slots; 95/96 raw labels; one substitution and one fill; Szolnok is a proposed place repair | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period key and earlier unreviewed OCR-derived A/B candidates retained in the package |

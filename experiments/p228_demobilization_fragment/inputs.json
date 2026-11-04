@@ -1,0 +1,126 @@
+{
+  "schema": "adfgvx-p228-demobilization-fragment-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "case": "cases/military/p228_demobilization_fragment.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p228_B2",
+      "storage": "external_pdf_reference",
+      "pdf_page_1based": 231,
+      "crop_pdf_points": [
+        90,
+        410,
+        540,
+        487
+      ],
+      "render_scale": 4,
+      "width": 1800,
+      "height": 308,
+      "rgb_sha256": "f0a262d8f9c5239f59c869dca5ebe1889c2dfc1a8a42e8c18465fb12b074d23d",
+      "fresh_render_cache": true
+    }
+  ],
+  "key": {
+    "id": "Nov28-Dec1",
+    "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+    "column_rank_order": [
+      9,
+      3,
+      14,
+      10,
+      2,
+      8,
+      15,
+      4,
+      16,
+      11,
+      5,
+      13,
+      6,
+      12,
+      1,
+      7
+    ]
+  },
+  "dependencies": {
+    "experiments/neuhof_demobilization/inputs.json": "7c08eda80c16f8ba6c02ae84c2f570caac8ac58de6e2616c3b4054d228464046",
+    "experiments/p215_breslau_dispatch/verify.py": "477236403fac1456db3b726b4fe3d13c0f3a33a690750139062ac6bb4be03989"
+  },
+  "records": [
+    {
+      "id": "p228_B2",
+      "printed_page": 228,
+      "source_section": "B2",
+      "advertised_length": 264,
+      "header_transcription": "B) ZON v BSL (01.33 a.m., December 1st); NO 152 1512 3 TLE",
+      "source_rows": [
+        "XFXDD VAVXV AXDVX FXVVA FGXVV VGFVG VDVDA GVFDF",
+        "AGAVX XAGDD FGFAA GAXXV ADDFG FGVFX VVGGG FDGAV",
+        "XGVXD DXXFA AXFGV XDVGD DAGGV FAAAX FDAGV VDDGV",
+        "GVGGA FFDGA -AVVG FGVFG DVXAG XFXGG GFGFG ADXFV",
+        "DDVFV G-DAF GXFXX GGVFV FVGVD -GDXG FF--- -----",
+        "----- ----- ----- ----- DFGFF VAAVX XGFFD FGFFV",
+        "XAVAA FVDXX FF--- ----- ----"
+      ],
+      "literal_sha256": "2f73019fea789bbf37812c5e7def4b404229961bcb8b2f82c1b0993cd16fe85a",
+      "frame": {
+        "move_source_mask_range": [
+          195,
+          200
+        ],
+        "insert_at_shortened_boundary": 246
+      },
+      "expected_raw": "A?ST??CKEHAN??FULDAD??OBILGED??HTDIB??CHANLG??UJDESE??Y2680Y??GEHY0Y??MBEREI??DESSTE???YYKDO???MX4AK???OBILM???ENDEN???CKF?????I4NE?",
+      "word_spans": [
+        {
+          "start": 0,
+          "text": "ANSTRECKEHANAUFULDADEMOBILGEMACHT"
+        },
+        {
+          "start": 33,
+          "text": "DIENACHANLG"
+        },
+        {
+          "start": 48,
+          "text": "DESERL"
+        },
+        {
+          "start": 69,
+          "text": "IMBEREICHDESSTELLV"
+        },
+        {
+          "start": 100,
+          "text": "DEMOBILMACHENDEN"
+        },
+        {
+          "start": 121,
+          "text": "FORMATIONEN"
+        }
+      ],
+      "expected_word": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLG??UJDESERLY2680Y??GEHY0Y?IMBEREICHDESSTELLVYYKDO???MX4AKDEMOBILMACHENDEN???CKFORMATIONEN",
+      "expected_word_prices": {
+        "fixed_positions": 121,
+        "observed_substitutions": 5,
+        "printed_mask_fills": 32,
+        "inserted_slot_fills": 0
+      }
+    }
+  ],
+  "limits": [
+    "The primary frame preserves all264 source slots and221 observations in their original relative order.",
+    "The new words remain conditional on this frame and their explicit repairs.",
+    "The three letters preceding CKFORMATIONEN remain unknown; no RUECK or FLACK reconstruction is adopted.",
+    "All digits, date-like fields, and abbreviated unit identifiers remain literal.",
+    "The one wholly unobserved proposed letter is R at plaintext4, within the previously proposed opening."
+  ]
+}

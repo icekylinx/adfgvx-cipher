@@ -1,0 +1,206 @@
+{
+  "schema": "adfgvx-p168-munich-witness-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "case": "cases/radio/p168_munich_routing_witness.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p168_C",
+      "storage": "external_pdf_reference",
+      "pdf_page_1based": 171,
+      "crop_pdf_points": [
+        65,
+        360,
+        530,
+        478
+      ],
+      "render_scale": 4,
+      "width": 1860,
+      "height": 472,
+      "rgb_sha256": "b350fbd622b754855f45f0fd5467a8cc0957a8ed8211cea5785c7884af400f76",
+      "fresh_render_cache": true
+    }
+  ],
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "data/certificates/p158.json": "f371fb30efd174e10e6dfb16196af4bc01565ddb5f49fce3d5ff5915cea6d3f9",
+    "experiments/romanian_pacification_consultation/verify.py": "28887bee741195174b2fd50cf8b1365139d6648a6d612694e6ab963e5fb9604d"
+  },
+  "records": [
+    {
+      "id": "p168_C",
+      "printed_page": 168,
+      "source_section": "C",
+      "advertised_length": 280,
+      "header_transcription": "C) RVV v N4 (9.03 p.m., November 9th); 1803 VON SY ZU CHI 156 U 69; RICHI-280",
+      "source_rows": [
+        "GDDFV DXFDD AVVFG XXVDD XVADD VVFGV VDDVV DVAXV",
+        "XVGVV GVXDD XVVVG VVVGV DDGDX VAVGG AAAXG AVFAD",
+        "VDADDD VAXVD VVDDD GADAX FAXXF GFFXF XDVVD DXDGD",
+        "DAXVA VDXVV XDVDV DXDGD XGVFV VGGVD FVVAV DFDAD",
+        "VDFXV XDAXG VXVVD DDAGX DVDGD DDGDX DXXXD VVVG",
+        "VGVXV VVVFA DDXVD XGXDX AVFDX VGVXV VVVVG VVXDV",
+        "VXADX VXDDV GXAVV GDVAA DGDVF VXFVX GFAXD DGDFA"
+      ],
+      "literal_sha256": "e466b98cc43bbd1fdef4e4d89651fe588b254c168656e8560dc0eca32a40106d",
+      "source_slots": 280,
+      "observed_source_coordinates": 280,
+      "long_group_source_range": [
+        80,
+        86
+      ],
+      "short_group_source_range": [
+        196,
+        200
+      ],
+      "primary_frame": {
+        "exclude_source_index": 83,
+        "insert_unknown_at_shortened_boundary": 195
+      },
+      "equivalent_exclusion_indices": [
+        83,
+        84,
+        85
+      ],
+      "equivalent_insert_boundaries": [
+        195,
+        196,
+        197,
+        198
+      ]
+    }
+  ],
+  "limits": [
+    "The six-coordinate VDADDD and four-coordinate VVVG are literal source observations, not silently normalized five-letter groups.",
+    "The frame excludes one printed D and adds one unobserved coordinate; it is a conditional copying-error model, not an improved OCR reading.",
+    "Three repeated-D exclusions and four V-insertion positions give twelve ownership descriptions of the same V-completed ciphertext. The unfilled raw streams differ.",
+    "In the one-V parallel-supplied layer, the V comes from original p159 B under the inherited component correspondence; every retained p168 observation stays unchanged.",
+    "The new KDO evidence is an observed p168 coordinate, not a guessed letter or a new square assignment. Other garbled words and numeric labels are retained.",
+    "This is a new full-source certificate for an already catalogued retransmission, not a new physical message or first decipherment of order11338.",
+    "Separate two-witness and three-witness joint layers change five or six retained p168 observations respectively; each has an original printed donor. The sixth uses p158 D source7, because p159 B source7 is invalid R."
+  ],
+  "prior_credit": "Childs wartime reading of order11338; Lasry, Niebel, Kopal and Wacker (2016) section6.4; p158 composite review and current source-frame recovery: icekylinx and GPT-6 Astra Pro."
+}

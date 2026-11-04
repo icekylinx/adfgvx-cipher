@@ -4,7 +4,7 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**205 reviewed entries across 89 case pages, representing 205 physical sources; 204 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**205 reviewed entries across 90 case pages, representing 205 physical sources; 204 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -60,7 +60,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [Request to repeat an unreadable eighth part](nov7_eighth_part_repetition.md) | p155 C1, p155 C2 |
 | [November 7–8: embassy, legation and Etappe address parts](nov7_8_embassy_address_parts.md) | p156 A1, p156 B1, p156 D1, p156 E1, p158 A1, p158 A2, p158 B1 |
 | [Sale of communication apparatus: p157 B1–B2](apparatus_sale_request.md) | p157 B1, p157 B2 |
-| [p158 — Composite routing and key instructions](../p158.md) | p159 B, p159 C, p168 C, p168 D |
+| [p158 — Composite routing and key instructions](../p158.md) | p159 B, p159 C, p168 D |
 | [Radio apparatus sale and estimated value](radio_equipment_sale_prices.md) | p160 B1, p160 B2 |
 | [November Ringbahn keys and postponed December change](ringbahn_key_reuse.md) | p160 C1, p160 C2 |
 | [Berlin General Staff map-sheet request](map_sheet_request.md) | p162 B1 |
@@ -70,6 +70,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p166 — a second witness of the newspaper-dispatch request](newspaper_dispatch_witnesses.md) | p166 B1, p166 B2 |
 | [p167 C1 — Mission and Nachrichtenchef service address](p167_mission_address.md) | p167 C1 |
 | [Station control and the Seifert service exchange](seifert.md) | p168 A, p168 B, p169 A, p172 A, p172 B, p174 B, p174 C, p174 D, p174 E |
+| [p168 C — Full Munich routing witness for order 11338](p168_munich_routing_witness.md) | p168 C |
 | [Newspaper sacks arriving via Orsova](newspaper_dispatch.md) | p171 B1, p171 B2 |
 | [Destroy written material and report by telephone](document_destruction.md) | p177 A |
 | [Equipment transfer east of the Rhine, with radio service maintained](right_rhine_equipment.md) | p179 A |
@@ -227,7 +228,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p167 C1](p167_mission_address.md#p167-c1) | Mission address and Nachrichtenchef routing/signature field | Native 132-slot first part; raw 61/66; partial word proposal 63/66 with six observed substitutions and two source-mask fills; MILB/0RM/RELA retained; three linked unknown positions | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
 | [p168 A](seifert.md) | Station under a soldiers' council; operation unchanged | 92/92 raw positions; spelling omission retained | Lasry, Niebel, Kopal and Wacker |
 | [p168 B](seifert.md) | Cologne soldiers' council plans to occupy a radio station | Two explicit coordinate repairs | Childs; Lasry, Niebel, Kopal and Wacker |
-| [p168 C](../p158.md#earlier-historical-reading-of-a-component) | Repeated Munich routing order 11338 | Parallel witness to the p 159 B component | Prior body: Childs (1918), Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p168 C](p168_munich_routing_witness.md) | Munich routing order 11338: full retransmission and KDO support | Reviewed conditional six/four-group frame: raw 139/140; one V from p159 gives 140/140; 12 ownership aliases; garbled words retained | Prior body: Childs (1918), Lasry et al. (2016); full source-frame review and KDO evidence: icekylinx and GPT-6 Astra Pro |
 | [p168 D](../p158.md#component-readings) | Repeated Munich–Innsbruck routing instruction | Parallel witness to the p 159 C component | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p169 A](seifert.md) | Repeated station-control report | Conditional one-coordinate deletion; clearer p168 witness | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
 | [p171 B1](newspaper_dispatch.md) | Berlin newspaper sacks received via Orsova; request to Breslau postal directorate | Exact 200-slot frame; 98/100 raw labels; one substitution and two fills give 100/100 | icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period key and earlier unreviewed OCR candidates retained; distinct from Norbert's p171 A1 challenge |

@@ -10,9 +10,13 @@ Our experiments recovered the shared p153 key, reconstructed damaged transmissio
 
 | Result | Evidence |
 |---|---|
+| **Demobilization continuation** — p228 B2 reaches 121/132 fixed positions; 22 newly filled tail positions each retain one observed half-coordinate | [Mask relocation and exact word prices](p228_demobilization_fragment/README.md) |
+| **Weisskirchen halt and security fragment** — p154 A2 rises from 36/81 raw to 56/81 with two substitutions and 20 added-slot fills, after one explicit observed-coordinate exclusion | [Source frame and independent review](p154_weisskirchen_fragment/README.md) |
+| **Full Munich routing witness** — p168 C fixes 139/140 raw positions; a p159 coordinate fills the last slot and p168 independently supports GEN KDO | [Joint source certificate](p168_munich_routing_witness/README.md) |
+| **Breslau horseshoe and nail dispatch** — p215 A has 176/196 raw positions and a 192/196 primary word proposal; alternatives retain the numerical uncertainty | [Dispatch and frame alternatives](p215_breslau_dispatch/README.md) |
+| **Divisional positions and railway departure** — p215 B3 has 88/117 raw positions and a 109/117 word proposal, with inherited global J/Y evidence | [Positions and Ruttka–Teschen fragment](p215_third_positions_fragment/README.md) |
 | **Hospital and transport fragment** — 129/151 primary positions; optional extension 148/151 at 102 missing-half fills; zero observed-coordinate changes in a conditional 302-slot frame | [p212 A4: all 197 observations retained](p212_medical_fragment/README.md) |
 | **Captain-dispatch fragment** — 45 proposed positions mention a chief, a replacement detachment and dispatch; six tied source maps and all 432 primary completions retained | [p167 D: exact partial-word repair account](p167_captain_dispatch_fragment/README.md) |
-| **p215 B3 exact copy check** — shared-square propagation closes 62 raw-domain windows and their widened label scope; 89 independent small controls | [Portable checker and explicit limits](p215_raw_donor_bitset/README.md) |
 | **Original p215 closing field** — shared Hungarian Y and the earlier J/numeral hypotheses reduce 90 possibilities to 56, with complete globally consistent witnesses | [Shared-cell propagation across 26 bodies](p215_hungarian_y/README.md) |
 | **Station-staff query** — 68/69 positions; all five minimum source maps independently reproduced | [p137 B: 481,032 models](p137_station_staff_query/README.md) |
 | **Provision-train completion** — 84/84 positions with one extra mask fill supported by the next part | [A5/A6 joint reading](p176_verpflegs_joint_completion/README.md) |

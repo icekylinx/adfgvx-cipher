@@ -4587,7 +4587,7 @@
     {
       "path": "cases/military/neuhof_demobilization.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "1f74d29eff4cca8b737ecc8b087169dca85ee1f3e1c911ebfc361a1977d1a45f",
+      "file_sha256_at_review": "58fc453e6c22ef5b93f3f67c8e00fdeaee6e68e61adbf29964310cce670039b5",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -9270,7 +9270,7 @@
     {
       "path": "cases/p158.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "6660177b5d2df1a64b3b3a5046141d268896eecb040f2ef555d9bb2a7e2d62bc",
+      "file_sha256_at_review": "0405b56c0398dff60f8813fc96ff2098f143a076e71f54927c612a504b2b701e",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate. Caption cleanup on 2026-11-03 preserves all literal displays; reversible before/after text and hashes are recorded in caption_cleanup_20261103.json.",
       "fences": [
         {
@@ -16737,6 +16737,156 @@
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German — excerpt from that optional edited layer; surrounding fields are omitted:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p154_weisskirchen_fragment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "2efbd11d8e651b35609dce24b00ae3d2eb6c3e647259637db9b2ac68e2eb31ac",
+      "review_basis": "Independent source-image, coordinate-map, exact word-price and full re-encryption review; conditional frames, source-linked repairs and remaining unknowns are explicit.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "d6e094a92946e4993b0383ebfe2f3bb577bc571e1b36df26c2c54ff1dfc38df4",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 118 observed coordinates, including the six-character group VDFDVD:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 1,
+          "sha256": "8718fe06865bc3ea1d2f53bec3db9760a7ed3d4e06ffe59e22347aebe798f96d",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — conditional 162-slot frame and unchanged key; 36/81 fixed positions; one excluded observation, no coordinate substitutions or fills:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 2,
+          "sha256": "bf9dc727b7cc72b39b34ebacb32fe2fddc6dcb1615c0f32e0b8c0182af953082",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — the same frame; 2 observed-coordinate substitutions and 20 inserted-slot fills; 56/81 fixed positions:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "a8b991fd9f00ce4fbc781b10a949723d562f268763ddb429b1332c6979c935ce",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — excerpts from the explicitly repaired word layer; absent passages remain omitted:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p228_demobilization_fragment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "48cf6a8cf0b8a96ddf6242fc3cf1886bb471ca307b05897e8845d70ddb573e40",
+      "review_basis": "Independent source-image, coordinate-map, exact word-price and full re-encryption review; conditional frames, source-linked repairs and remaining unknowns are explicit.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "87be004e474d9e9e9216fe23ce07a3f67526ecb44f3e097a44e73c651d4c28b0",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — unchanged 264-slot body:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 1,
+          "sha256": "12215d01cee07377894784d2d3e182c8861ce2c99bd9d2d002600587d01c362c",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — mask relocation, unchanged published key; 90/132 fixed positions; no observed substitutions or fills:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 2,
+          "sha256": "8d9e4dca477ade4541f66cec2589774f095a538e248882605dd4d42af1443d75",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — same frame; five observed substitutions and 32 printed-mask fills; 121/132 fixed positions:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 3,
+          "sha256": "8af2ad1e498c9f6506f93eae911a81f12142d78fff1e973e4a4cc55e6e463ebc",
+          "role": "reproduction_command",
+          "caption_required": true,
+          "caption": "**Reproduction command — verifies the unchanged source, frame, prices and complete witnesses:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "5b4bdbba9b4eaf48949f3a71109322be998e8eabef3acc8d427bf25522162f22",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — selected word spans from the edited layer; ellipses omit fields shown in full below; abbreviations are retained:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/p168_munich_routing_witness.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "eee9e51b9c7038e929793b676b51934269a06833d97d6463c34c9fb72f11b668",
+      "review_basis": "Independent source-image, coordinate-map, exact word-price and full re-encryption review; conditional frames, source-linked repairs and remaining unknowns are explicit.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "cad5b6dd127e3c68d948f53af6f315645a559f7caedaf39ebc2ba6affac54384",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 280 observed coordinates, with irregular groups retained:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 1,
+          "sha256": "75b1ed0e688061c3dc758d993ff20aeb540f9654f94d7fe9cd417029ff1c373d",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — primary frame, unchanged Nov7–9 key; 139/140 positions fixed, no coordinate substitutions or fills:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 2,
+          "sha256": "9691651b0225b748edd8e83e18fd138e264d11df49cfd13e9179399c5a77e720",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — one inserted-slot V supplied by p159 B, no changes to retained p168 coordinates; 140/140 positions fixed:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 3,
+          "sha256": "158da7c63c010bcbb5ed03b1eae7cf59633f7b1cee8952df69efec0d61933928",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — earlier p159 B supported-V component plus the single X→G substitution at source169; all other inherited repairs and garbles retained:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 4,
+          "sha256": "e610f5d7771d9aae236addc85fd0e5061387b32884b9c50759561cc9031e9e66",
+          "role": "reproduction_command",
+          "caption_required": true,
+          "caption": "**Reproduction command — verifies both source-linked streams and all frame alternatives:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "a5f0a2b89c1a4e6d51deb5b565fb8dc3b3de13b050f008bc673b0904fa5c040c",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — literal word excerpts from that source-linked stream; omitted passages are outside the quotation:**",
           "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
         }
       ]

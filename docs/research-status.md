@@ -1,6 +1,6 @@
 # Research status
 
-**icekylinx and GPT-6 Astra Pro · 3 November 2026**
+**icekylinx and GPT-6 Astra Pro · 4 November 2026**
 
 [Read the messages](../cases/README.md) · [Page index](../cases/pages/README.md) · [Methods](methods.md) · [Experiments](../experiments/README.md) · [Source images](../sources/reviewed-crops.md)
 
@@ -11,6 +11,12 @@
 The [whole-material census](whole-material-coverage.md) registers **679 ciphertext bodies on 175 printed log pages** and distinguishes current catalogue coverage from unresolved source gaps. The [page index](../cases/pages/README.md) is the complete live reading catalogue. The [twelve instructional examples](../experiments/childs_instructional_examples/README.md) are reproduced separately, and the [21-source audit](source-gap-audit.md) preserves the latest transcriptions, boundary judgments and PDF pixel recipes. Earlier decipherments and keys retain their case-specific credits.
 
 ## Current source refinements
+
+The [p154 A2 fragment](../cases/military/p154_weisskirchen_fragment.md) now has a reviewed reading of “Weisskirchen angehalten” and “Sicherungen an den”: 36/81 raw positions and 56/81 in the priced word layer. The [p228 B2 continuation](../cases/military/p228_demobilization_fragment.md) extends a 33-position opening into a 121/132-position word stream concerning demobilization and a command district. Its 22 newly filled tail positions each have an observed half-coordinate. Both editions retain their exact source-frame assumptions and repair costs.
+
+The [full p168 C retransmission](../cases/radio/p168_munich_routing_witness.md) now has a 139/140 raw certificate. An independently observed V from p159 fills the remaining slot; the p168 pair VG also supports GEN KDO in the earlier p159 component. This strengthens the original p158 source comparison without counting another physical body.
+
+The [p215 A dispatch](../cases/military/p215_breslau_dispatch.md) identifies horseshoes and nails sent from Breslau via Oderberg; its primary word layer fixes 192/196 positions. The [p215 B3 fragment](../cases/military/p215_third_positions_fragment.md) adds conditional Gyula–Sikló–Kisjenő positions and a Ruttka–Teschen departure, with 109/117 word-layer positions. Quantities and remaining identifiers stay unresolved.
 
 **The original p215 challenge now has a tighter shared-key constraint.** The [Hungarian Y inference](../experiments/p215_hungarian_y/README.md), combined with the earlier J and numeral hypotheses, narrows its closing field from 90 to **56 globally consistent values**. All candidates have complete shared-square witnesses across 26 physical bodies. The 42 all-numerical candidates remain, and the opening is still unresolved.
 

@@ -146,3 +146,7 @@ check; no universal first-decipherment claim is made.
 ```sh
 python experiments/neuhof_demobilization/verify.py --verify
 ```
+
+**Later B2 reconstruction.**
+
+The [reconstructed B2 continuation](p228_demobilization_fragment.md) moves five printed mask slots and extends the word proposal to 121/132 positions. It recovers wording about the command district and demobilizing formations, while retaining eleven unknown positions. Its exact source map and repair ledger accompany the later edition; the native-frame displays above remain available.

@@ -14,7 +14,7 @@ This audit covers the 21 physical bodies outside the readable catalogue at `f3ba
 | p137_B | 135 | 133 | 2 | 138 | [Partial/conditional edition](../cases/radio/p137_station_staff_query.md#p137-b) |
 | p145_A | 192 | 187 | 5 | Not printed | No accepted edition |
 | p152_A2 | 128 | 125 | 3 | 128 | [Partial/conditional edition](../cases/military/p152_crossing_fragment.md#p152-a2) |
-| p154_A2 | 118 | 118 | 0 | 162 | No accepted edition |
+| p154_A2 | 118 | 118 | 0 | 162 | [Partial/conditional edition](../cases/military/p154_weisskirchen_fragment.md) |
 | p163_A16 | 121 | 121 | 0 | Not printed | No accepted edition |
 | p164_D | 116 | 116 | 0 | 116 | [Partial/conditional edition](../cases/radio/p164_acknowledgment.md#p164-d) |
 | p167_C1 | 132 | 130 | 2 | 132 | [Partial/conditional edition](../cases/radio/p167_mission_address.md#p167-c1) |

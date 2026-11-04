@@ -1,0 +1,266 @@
+{
+  "schema": "adfgvx-p154-weisskirchen-search-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "source_id": "p154_A2",
+  "literal_source_sha256": "3089482c09529264d13319c41121e599518eeaf59c365bcf7cb29003ee7ba852",
+  "key_id": "Nov4-6",
+  "coordinate_order": "ADFGVX",
+  "plaintext_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+  "probability_sha256": "819fb5dde31d6a2d89cdf53dc2e96c8455e10ce350aadd83cd23d5c2f49f4a6c",
+  "joint49_sha256": "22eb0973f38693bd2e2db1ebd4e80957394be014df55c59fa3fc6dfecde2a69e",
+  "pinned_repository_files": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/reviews/source_gap_audit_20261103.json": "a2e244c956d9ca39083c39072d67bbb65785abdd67066ccdc08a2eae417da3f2",
+    "experiments/p212_medical_fragment/replay_search.py": "e0248077835c477048a5c36100f8214a3406f1aba57afd6c4e35ebdb51ae9c7a",
+    "experiments/p212_medical_fragment/search_provenance.json": "6b0489c8ae30982e1a2af40255885fabf591c506dac0538f275f6f12af62e8ad"
+  },
+  "model_recipe_dependency": "experiments/p212_medical_fragment/search_provenance.json",
+  "score": "Sum of joint49 masked-coordinate quadgram log masses in float32; no arbitrary filler plaintext participates in frame ranking.",
+  "primary_scope": {
+    "excluded_source_candidates": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "single_added_loss": 45,
+    "shortened_stream_boundaries": 118,
+    "models": 708,
+    "best": [
+      {
+        "excluded_source": 28,
+        "gap_before_shortened_boundary": 0,
+        "raw": "21??X??B?I?A??B??AR??X??R?G?R??U??ED??W??S?K?R??E??NG??A??E?X?T??HE?UN??N?ND?N?U?",
+        "fixed": 36,
+        "score": -701.0652780532837
+      }
+    ]
+  },
+  "controls": [
+    {
+      "id": 0,
+      "plaintext": "DERBAHNHOFKOMMANDANTMELDETDIEANKUNFTDERLETZTENZUEGEXDIEBRUECKEWIRDWEITERBEWACHTXW",
+      "source": "AFVFFFVVVXVFDAVAAVFDVDFVXFXADDFXGGVXFXFADAFAFDVXDFXAAGAFFXXAAFAXFVXVFFVFXAXADGVGAFXVAFFFAXXFDFFADFAVAXAFXFFVDGDAXAFAFF",
+      "true_excluded_source": 28,
+      "true_gap_at": 0,
+      "true_rank": 5,
+      "best": [
+        {
+          "excluded_source": 29,
+          "gap_before_shortened_boundary": 1,
+          "raw": "DE?RA??H?F?O??A??AN??E??E?D?E??K??FT??R??T?T?N??E??XD??B??E?K?W??D??IT??B?WA?H?X?",
+          "fixed": 36,
+          "score": -666.8000192642212
+        },
+        {
+          "excluded_source": 28,
+          "gap_before_shortened_boundary": 1,
+          "raw": "DE?RA??H?F?O??A??AN??E??E?D?E??K??FT??R??T?T?N??E??XD??B??E?K?W??D??IT??B?WA?H?X?",
+          "fixed": 36,
+          "score": -666.8000192642212
+        }
+      ],
+      "all_best_fixed_correct": false
+    },
+    {
+      "id": 1,
+      "plaintext": "ALLEVERBANDPLAETZESINDGERAEUMTXDIEVERWUNDETENWERDENNOCHHEUTEABENDWEITERBEFOERDERT",
+      "source": "FAFXDADAAXFAVFFFFAXAXAAXXAFADGFFFAFVDXDAAVFXAFGFXVADXDXXAADFAVVAVXFAXAFGVFFVVGDAXDGDAXAVAFVAFFDFDFGFXXFAFAAVAGFAFAXAVA",
+      "true_excluded_source": 28,
+      "true_gap_at": 0,
+      "true_rank": 1,
+      "best": [
+        {
+          "excluded_source": 28,
+          "gap_before_shortened_boundary": 0,
+          "raw": "AL??V??B?N?P??E??ES??D??R?E?M??D??VE??U??E?E?W??D??NO??H??T?A?E??WE?TE??E?OE?D?R?",
+          "fixed": 36,
+          "score": -644.9382109642029
+        }
+      ],
+      "all_best_fixed_correct": true
+    },
+    {
+      "id": 2,
+      "plaintext": "DIEFERNSPRECHVERBINDUNGMITDEMHAUPTQUARTIERISTWIEDERHERGESTELLTXDRINGENDEMELDUNGEN",
+      "source": "VAVAAVVDAXDGXAVAAVDFADAVAVADDVVGVFVADXDGVAFVXDFXGAAXAXFXFAAFFFXAVXVAFXDAFXVAFAVFXFXFVXAXXVXAXVFFXXAADDFVFVDFAGVXXAVAVF",
+      "true_excluded_source": 28,
+      "true_gap_at": 35,
+      "true_rank": 1,
+      "best": [
+        {
+          "excluded_source": 28,
+          "gap_before_shortened_boundary": 35,
+          "raw": "??EF???S??EC?V??B??DU???I??EM?AU?T??AR?I?R??TW?ED?R??RG???E??TX??I?G??DE???D??GE?",
+          "fixed": 36,
+          "score": -620.8251304626465
+        },
+        {
+          "excluded_source": 27,
+          "gap_before_shortened_boundary": 35,
+          "raw": "??EF???S??EC?V??B??DU???I??EM?AU?T??AR?I?R??TW?ED?R??RG???E??TX??I?G??DE???D??GE?",
+          "fixed": 36,
+          "score": -620.8251304626465
+        }
+      ],
+      "all_best_fixed_correct": true
+    }
+  ],
+  "frequency_preserving_null": {
+    "seed": 202611041542,
+    "replicates": 40,
+    "ge_historical": 0,
+    "maximum": -799.4630818367004,
+    "scores": [
+      -799.4630818367004,
+      -814.7375721931458,
+      -848.4396715164185,
+      -830.9676661491394,
+      -813.489254951477,
+      -840.3455195426941,
+      -827.7735438346863,
+      -846.8296451568604,
+      -845.8537340164185,
+      -853.5798487663269,
+      -859.4137334823608,
+      -822.2045831680298,
+      -815.0213408470154,
+      -826.5698189735413,
+      -842.2852988243103,
+      -830.9222054481506,
+      -839.8778381347656,
+      -805.6941776275635,
+      -838.663323879242,
+      -835.4801645278931,
+      -858.8529982566833,
+      -840.8505401611328,
+      -834.0527081489563,
+      -852.7533836364746,
+      -829.1987195014954,
+      -839.5579781532288,
+      -802.6688265800476,
+      -844.1538109779358,
+      -826.7611536979675,
+      -814.6780686378479,
+      -855.5874185562134,
+      -820.2220587730408,
+      -803.9167127609253,
+      -816.249550819397,
+      -811.661196231842,
+      -832.3934230804443,
+      -841.2652788162231,
+      -829.8551254272461,
+      -852.9385209083557,
+      -838.6856074333191
+    ]
+  },
+  "length_diagnostic": {
+    "even_total_min": 118,
+    "even_total_max": 300,
+    "excluded_source_candidates": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "models": 552,
+    "best": {
+      "index": 0,
+      "score": -701.0652780532837,
+      "fixed": 36,
+      "raw": "21??X??B?I?A??B??AR??X??R?G?R??U??ED??W??S?K?R??E??NG??A??E?X?T??HE?UN??N?ND?N?U?",
+      "length": 162,
+      "prefix": 45,
+      "excluded_source": 28
+    },
+    "all_six_162_models_above_other_lengths": true,
+    "best_other_length": {
+      "index": 0,
+      "score": -738.1590332984924,
+      "fixed": 37,
+      "raw": "21??C??B?I?A??B??AR??7??R?G?R??U??ED??D??S?X?R??E??NG??M?ME?X?T??HT?UN??P?MD?N?U",
+      "length": 160,
+      "prefix": 43,
+      "excluded_source": 27
+    }
+  },
+  "prefix_plus_second_gap_diagnostic": {
+    "models": 32568,
+    "prefix_sizes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "shortened_stream_boundaries": 118,
+    "best": {
+      "index": 1,
+      "score": -699.2081532478333,
+      "fixed": 36,
+      "raw": "21??X??B?I?A??B??AR??X??R?G?R??U??ED??W??S?K?R??E??NG??A??E?X?T??H??UN??N?NDEN?U?",
+      "excluded_source": 28,
+      "prefix": 18,
+      "second_gap_before_shortened_boundary": 1,
+      "second_gap_size": 27
+    },
+    "qualification": "Repeated descriptions with a gap at boundary0 denote the same45-slot prefix. Count is model descriptions, not unique wires. The small score improvement did not resolve the earlier garbles; no second-gap edition is adopted."
+  },
+  "limits": [
+    "The null is an exploratory40-shuffle calibration for the declared708-model extra-glyph+single-loss family, not a multiple-family adjusted significance claim.",
+    "All observations except the one expressly excluded glyph remain unchanged; controls do not prove historical missing-slot locations.",
+    "Language completions are diagnostic; only separately priced words can be proposed.",
+    "The unchanged Nov4–6 key was supported by the already-reviewed p154 B3 on the same page; the date printed in the header is preserved.",
+    "The leading45-slot loss is conditional; source punctuation or a single score maximum does not locate a missing prefix historically.",
+    "The6possible excluded characters are observations, not erasures; no deletion is relabelled as an OCR correction.",
+    "The phrase price comparisons are separately word-conditioned; they do not select a unique unrestricted plaintext or frame."
+  ]
+}

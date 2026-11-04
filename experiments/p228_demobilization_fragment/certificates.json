@@ -1,0 +1,2999 @@
+{
+  "schema": "adfgvx-p228-demobilization-fragment-certificate-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "input_sha256": "a9f989a288c2708bbf184821e08d0cb2d3adc95da0bfbd31e20acb25f5f80caa",
+  "indexing": "Zero based; ranges half open.",
+  "summary": {
+    "physical_sources": 1,
+    "literal_source_slots": 264,
+    "observed_source_coordinates": 221,
+    "printed_masks": 43,
+    "frame_slots": 264,
+    "plaintext_positions": 132,
+    "relocated_printed_mask_slots": 5,
+    "inserted_slots": 0,
+    "excluded_source_slots": 0,
+    "raw_observed_substitutions": 0,
+    "observed_coordinate_order_preserved": true,
+    "raw_fixed_positions": 90,
+    "word_fixed_positions": 121,
+    "proposed_word_positions": 95,
+    "word_observed_substitutions": 5,
+    "word_printed_mask_fills": 32,
+    "wholly_unobserved_word_completions": [
+      4
+    ],
+    "new_fixed_tail_word_positions": 22,
+    "unresolved_word_positions": [
+      44,
+      45,
+      60,
+      61,
+      68,
+      92,
+      93,
+      94,
+      116,
+      117,
+      118
+    ]
+  },
+  "records": [
+    {
+      "id": "p228_B2",
+      "literal_source": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGA-AVVGFGVFGDVXAGXFXGGGFGFGADXFVDDVFVG-DAFGXFXXGGVFVFVGVD-GDXGFF----------------------------DFGFFVAAVXXGFFDFGFFVXAVAAFVDXXFF------------",
+      "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGA?AVVGFGVFGDVXAGXFXGGGFGFGADXFVDDVFVG?DAFGXFXXGGVFVFVGVD?GDXGFF???????????????????????DFGFFVAAVXXGFFDFGFFVXAVAAFVDXXF?????F????????????",
+      "model_to_source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        195,
+        196,
+        197,
+        198,
+        199,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263
+      ],
+      "raw": "A?ST??CKEHAN??FULDAD??OBILGED??HTDIB??CHANLG??UJDESE??Y2680Y??GEHY0Y??MBEREI??DESSTE???YYKDO???MX4AK???OBILM???ENDEN???CKF?????I4NE?",
+      "fixed_positions": 90,
+      "positions": [
+        {
+          "plaintext_index": 0,
+          "model_indices": [
+            132,
+            33
+          ],
+          "source_indices": [
+            132,
+            33
+          ],
+          "pair": "VD",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 1,
+          "model_indices": [
+            214,
+            149
+          ],
+          "source_indices": [
+            219,
+            149
+          ],
+          "pair": "?G",
+          "domain": "0CGHLN",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 2,
+          "model_indices": [
+            16,
+            115
+          ],
+          "source_indices": [
+            16,
+            115
+          ],
+          "pair": "XV",
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 3,
+          "model_indices": [
+            231,
+            50
+          ],
+          "source_indices": [
+            236,
+            50
+          ],
+          "pair": "GF",
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 4,
+          "model_indices": [
+            248,
+            166
+          ],
+          "source_indices": [
+            197,
+            166
+          ],
+          "pair": "??",
+          "domain": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 5,
+          "model_indices": [
+            67,
+            198
+          ],
+          "source_indices": [
+            67,
+            203
+          ],
+          "pair": "V?",
+          "domain": "0AEJRZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 6,
+          "model_indices": [
+            83,
+            182
+          ],
+          "source_indices": [
+            83,
+            182
+          ],
+          "pair": "XG",
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 7,
+          "model_indices": [
+            0,
+            99
+          ],
+          "source_indices": [
+            0,
+            99
+          ],
+          "pair": "XD",
+          "domain": "K",
+          "raw": "K"
+        },
+        {
+          "plaintext_index": 8,
+          "model_indices": [
+            133,
+            34
+          ],
+          "source_indices": [
+            133,
+            34
+          ],
+          "pair": "VA",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 9,
+          "model_indices": [
+            215,
+            150
+          ],
+          "source_indices": [
+            220,
+            150
+          ],
+          "pair": "DG",
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 10,
+          "model_indices": [
+            17,
+            116
+          ],
+          "source_indices": [
+            17,
+            116
+          ],
+          "pair": "VD",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 11,
+          "model_indices": [
+            232,
+            51
+          ],
+          "source_indices": [
+            237,
+            51
+          ],
+          "pair": "FG",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 12,
+          "model_indices": [
+            249,
+            167
+          ],
+          "source_indices": [
+            198,
+            167
+          ],
+          "pair": "?D",
+          "domain": "48AKOU",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 13,
+          "model_indices": [
+            68,
+            199
+          ],
+          "source_indices": [
+            68,
+            204
+          ],
+          "pair": "F?",
+          "domain": "13DINU",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 14,
+          "model_indices": [
+            84,
+            183
+          ],
+          "source_indices": [
+            84,
+            183
+          ],
+          "pair": "DV",
+          "domain": "F",
+          "raw": "F"
+        },
+        {
+          "plaintext_index": 15,
+          "model_indices": [
+            1,
+            100
+          ],
+          "source_indices": [
+            1,
+            100
+          ],
+          "pair": "FD",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 16,
+          "model_indices": [
+            134,
+            35
+          ],
+          "source_indices": [
+            134,
+            35
+          ],
+          "pair": "GG",
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 17,
+          "model_indices": [
+            216,
+            151
+          ],
+          "source_indices": [
+            221,
+            151
+          ],
+          "pair": "FF",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 18,
+          "model_indices": [
+            18,
+            117
+          ],
+          "source_indices": [
+            18,
+            117
+          ],
+          "pair": "VD",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 19,
+          "model_indices": [
+            233,
+            52
+          ],
+          "source_indices": [
+            238,
+            52
+          ],
+          "pair": "FF",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 20,
+          "model_indices": [
+            250,
+            168
+          ],
+          "source_indices": [
+            199,
+            168
+          ],
+          "pair": "?A",
+          "domain": "1567BE",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 21,
+          "model_indices": [
+            69,
+            200
+          ],
+          "source_indices": [
+            69,
+            205
+          ],
+          "pair": "X?",
+          "domain": "BCKMSW",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 22,
+          "model_indices": [
+            85,
+            184
+          ],
+          "source_indices": [
+            85,
+            184
+          ],
+          "pair": "DD",
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 23,
+          "model_indices": [
+            2,
+            101
+          ],
+          "source_indices": [
+            2,
+            101
+          ],
+          "pair": "XA",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 24,
+          "model_indices": [
+            135,
+            36
+          ],
+          "source_indices": [
+            135,
+            36
+          ],
+          "pair": "FV",
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 25,
+          "model_indices": [
+            217,
+            152
+          ],
+          "source_indices": [
+            222,
+            152
+          ],
+          "pair": "GG",
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 26,
+          "model_indices": [
+            19,
+            118
+          ],
+          "source_indices": [
+            19,
+            118
+          ],
+          "pair": "AG",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 27,
+          "model_indices": [
+            234,
+            53
+          ],
+          "source_indices": [
+            239,
+            53
+          ],
+          "pair": "VA",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 28,
+          "model_indices": [
+            251,
+            169
+          ],
+          "source_indices": [
+            251,
+            169
+          ],
+          "pair": "FF",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 29,
+          "model_indices": [
+            70,
+            201
+          ],
+          "source_indices": [
+            70,
+            206
+          ],
+          "pair": "V?",
+          "domain": "0AEJRZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 30,
+          "model_indices": [
+            86,
+            185
+          ],
+          "source_indices": [
+            86,
+            185
+          ],
+          "pair": "X?",
+          "domain": "BCKMSW",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 31,
+          "model_indices": [
+            3,
+            102
+          ],
+          "source_indices": [
+            3,
+            102
+          ],
+          "pair": "DG",
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 32,
+          "model_indices": [
+            136,
+            37
+          ],
+          "source_indices": [
+            136,
+            37
+          ],
+          "pair": "GF",
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 33,
+          "model_indices": [
+            218,
+            153
+          ],
+          "source_indices": [
+            223,
+            153
+          ],
+          "pair": "FF",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 34,
+          "model_indices": [
+            20,
+            119
+          ],
+          "source_indices": [
+            20,
+            119
+          ],
+          "pair": "FV",
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 35,
+          "model_indices": [
+            235,
+            54
+          ],
+          "source_indices": [
+            240,
+            54
+          ],
+          "pair": "XA",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 36,
+          "model_indices": [
+            252,
+            170
+          ],
+          "source_indices": [
+            252,
+            170
+          ],
+          "pair": "?G",
+          "domain": "0CGHLN",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 37,
+          "model_indices": [
+            71,
+            202
+          ],
+          "source_indices": [
+            71,
+            207
+          ],
+          "pair": "V?",
+          "domain": "0AEJRZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 38,
+          "model_indices": [
+            87,
+            186
+          ],
+          "source_indices": [
+            87,
+            186
+          ],
+          "pair": "XG",
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 39,
+          "model_indices": [
+            4,
+            103
+          ],
+          "source_indices": [
+            4,
+            103
+          ],
+          "pair": "DG",
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 40,
+          "model_indices": [
+            137,
+            38
+          ],
+          "source_indices": [
+            137,
+            38
+          ],
+          "pair": "VD",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 41,
+          "model_indices": [
+            219,
+            154
+          ],
+          "source_indices": [
+            224,
+            154
+          ],
+          "pair": "FG",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 42,
+          "model_indices": [
+            21,
+            120
+          ],
+          "source_indices": [
+            21,
+            120
+          ],
+          "pair": "GG",
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 43,
+          "model_indices": [
+            236,
+            55
+          ],
+          "source_indices": [
+            241,
+            55
+          ],
+          "pair": "AG",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 44,
+          "model_indices": [
+            253,
+            171
+          ],
+          "source_indices": [
+            253,
+            171
+          ],
+          "pair": "?X",
+          "domain": "39WXYZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 45,
+          "model_indices": [
+            72,
+            203
+          ],
+          "source_indices": [
+            72,
+            208
+          ],
+          "pair": "G?",
+          "domain": "46LTVX",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 46,
+          "model_indices": [
+            88,
+            187
+          ],
+          "source_indices": [
+            88,
+            187
+          ],
+          "pair": "FD",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 47,
+          "model_indices": [
+            5,
+            104
+          ],
+          "source_indices": [
+            5,
+            104
+          ],
+          "pair": "VV",
+          "domain": "J",
+          "raw": "J"
+        },
+        {
+          "plaintext_index": 48,
+          "model_indices": [
+            138,
+            39
+          ],
+          "source_indices": [
+            138,
+            39
+          ],
+          "pair": "FF",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 49,
+          "model_indices": [
+            220,
+            155
+          ],
+          "source_indices": [
+            225,
+            155
+          ],
+          "pair": "VA",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 50,
+          "model_indices": [
+            22,
+            121
+          ],
+          "source_indices": [
+            22,
+            121
+          ],
+          "pair": "XV",
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 51,
+          "model_indices": [
+            237,
+            56
+          ],
+          "source_indices": [
+            242,
+            56
+          ],
+          "pair": "VA",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 52,
+          "model_indices": [
+            254,
+            172
+          ],
+          "source_indices": [
+            254,
+            172
+          ],
+          "pair": "?F",
+          "domain": "2DMQRT",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 53,
+          "model_indices": [
+            73,
+            204
+          ],
+          "source_indices": [
+            73,
+            209
+          ],
+          "pair": "G?",
+          "domain": "46LTVX",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 54,
+          "model_indices": [
+            89,
+            188
+          ],
+          "source_indices": [
+            89,
+            188
+          ],
+          "pair": "AX",
+          "domain": "Y",
+          "raw": "Y"
+        },
+        {
+          "plaintext_index": 55,
+          "model_indices": [
+            6,
+            105
+          ],
+          "source_indices": [
+            6,
+            105
+          ],
+          "pair": "AF",
+          "domain": "2",
+          "raw": "2"
+        },
+        {
+          "plaintext_index": 56,
+          "model_indices": [
+            139,
+            40
+          ],
+          "source_indices": [
+            139,
+            40
+          ],
+          "pair": "GA",
+          "domain": "6",
+          "raw": "6"
+        },
+        {
+          "plaintext_index": 57,
+          "model_indices": [
+            221,
+            156
+          ],
+          "source_indices": [
+            226,
+            156
+          ],
+          "pair": "AD",
+          "domain": "8",
+          "raw": "8"
+        },
+        {
+          "plaintext_index": 58,
+          "model_indices": [
+            23,
+            122
+          ],
+          "source_indices": [
+            23,
+            122
+          ],
+          "pair": "VG",
+          "domain": "0",
+          "raw": "0"
+        },
+        {
+          "plaintext_index": 59,
+          "model_indices": [
+            238,
+            57
+          ],
+          "source_indices": [
+            243,
+            57
+          ],
+          "pair": "AX",
+          "domain": "Y",
+          "raw": "Y"
+        },
+        {
+          "plaintext_index": 60,
+          "model_indices": [
+            255,
+            173
+          ],
+          "source_indices": [
+            255,
+            173
+          ],
+          "pair": "?X",
+          "domain": "39WXYZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 61,
+          "model_indices": [
+            74,
+            205
+          ],
+          "source_indices": [
+            74,
+            210
+          ],
+          "pair": "G?",
+          "domain": "46LTVX",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 62,
+          "model_indices": [
+            90,
+            189
+          ],
+          "source_indices": [
+            90,
+            189
+          ],
+          "pair": "AG",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 63,
+          "model_indices": [
+            7,
+            106
+          ],
+          "source_indices": [
+            7,
+            106
+          ],
+          "pair": "VA",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 64,
+          "model_indices": [
+            140,
+            41
+          ],
+          "source_indices": [
+            140,
+            41
+          ],
+          "pair": "DG",
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 65,
+          "model_indices": [
+            222,
+            157
+          ],
+          "source_indices": [
+            227,
+            157
+          ],
+          "pair": "AX",
+          "domain": "Y",
+          "raw": "Y"
+        },
+        {
+          "plaintext_index": 66,
+          "model_indices": [
+            24,
+            123
+          ],
+          "source_indices": [
+            24,
+            123
+          ],
+          "pair": "VG",
+          "domain": "0",
+          "raw": "0"
+        },
+        {
+          "plaintext_index": 67,
+          "model_indices": [
+            239,
+            58
+          ],
+          "source_indices": [
+            244,
+            58
+          ],
+          "pair": "AX",
+          "domain": "Y",
+          "raw": "Y"
+        },
+        {
+          "plaintext_index": 68,
+          "model_indices": [
+            256,
+            174
+          ],
+          "source_indices": [
+            256,
+            174
+          ],
+          "pair": "?X",
+          "domain": "39WXYZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 69,
+          "model_indices": [
+            75,
+            206
+          ],
+          "source_indices": [
+            75,
+            211
+          ],
+          "pair": "F?",
+          "domain": "13DINU",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 70,
+          "model_indices": [
+            91,
+            190
+          ],
+          "source_indices": [
+            91,
+            190
+          ],
+          "pair": "XF",
+          "domain": "M",
+          "raw": "M"
+        },
+        {
+          "plaintext_index": 71,
+          "model_indices": [
+            8,
+            107
+          ],
+          "source_indices": [
+            8,
+            107
+          ],
+          "pair": "XA",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 72,
+          "model_indices": [
+            141,
+            42
+          ],
+          "source_indices": [
+            141,
+            42
+          ],
+          "pair": "VA",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 73,
+          "model_indices": [
+            223,
+            158
+          ],
+          "source_indices": [
+            228,
+            158
+          ],
+          "pair": "VF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 74,
+          "model_indices": [
+            25,
+            124
+          ],
+          "source_indices": [
+            25,
+            124
+          ],
+          "pair": "VA",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 75,
+          "model_indices": [
+            240,
+            59
+          ],
+          "source_indices": [
+            245,
+            59
+          ],
+          "pair": "FV",
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 76,
+          "model_indices": [
+            257,
+            175
+          ],
+          "source_indices": [
+            257,
+            175
+          ],
+          "pair": "?G",
+          "domain": "0CGHLN",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 77,
+          "model_indices": [
+            76,
+            207
+          ],
+          "source_indices": [
+            76,
+            212
+          ],
+          "pair": "D?",
+          "domain": "59FHOQ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 78,
+          "model_indices": [
+            92,
+            191
+          ],
+          "source_indices": [
+            92,
+            191
+          ],
+          "pair": "FF",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 79,
+          "model_indices": [
+            9,
+            108
+          ],
+          "source_indices": [
+            9,
+            108
+          ],
+          "pair": "VA",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 80,
+          "model_indices": [
+            142,
+            43
+          ],
+          "source_indices": [
+            142,
+            43
+          ],
+          "pair": "XV",
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 81,
+          "model_indices": [
+            224,
+            159
+          ],
+          "source_indices": [
+            229,
+            159
+          ],
+          "pair": "XV",
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 82,
+          "model_indices": [
+            26,
+            125
+          ],
+          "source_indices": [
+            26,
+            125
+          ],
+          "pair": "GF",
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 83,
+          "model_indices": [
+            241,
+            60
+          ],
+          "source_indices": [
+            246,
+            60
+          ],
+          "pair": "VA",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 84,
+          "model_indices": [
+            258,
+            176
+          ],
+          "source_indices": [
+            258,
+            176
+          ],
+          "pair": "?G",
+          "domain": "0CGHLN",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 85,
+          "model_indices": [
+            77,
+            208
+          ],
+          "source_indices": [
+            77,
+            213
+          ],
+          "pair": "G?",
+          "domain": "46LTVX",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 86,
+          "model_indices": [
+            93,
+            192
+          ],
+          "source_indices": [
+            93,
+            192
+          ],
+          "pair": "G?",
+          "domain": "46LTVX",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 87,
+          "model_indices": [
+            10,
+            109
+          ],
+          "source_indices": [
+            10,
+            109
+          ],
+          "pair": "AX",
+          "domain": "Y",
+          "raw": "Y"
+        },
+        {
+          "plaintext_index": 88,
+          "model_indices": [
+            143,
+            44
+          ],
+          "source_indices": [
+            143,
+            44
+          ],
+          "pair": "AX",
+          "domain": "Y",
+          "raw": "Y"
+        },
+        {
+          "plaintext_index": 89,
+          "model_indices": [
+            225,
+            160
+          ],
+          "source_indices": [
+            230,
+            160
+          ],
+          "pair": "XD",
+          "domain": "K",
+          "raw": "K"
+        },
+        {
+          "plaintext_index": 90,
+          "model_indices": [
+            27,
+            126
+          ],
+          "source_indices": [
+            27,
+            126
+          ],
+          "pair": "FF",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 91,
+          "model_indices": [
+            242,
+            61
+          ],
+          "source_indices": [
+            247,
+            61
+          ],
+          "pair": "DD",
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 92,
+          "model_indices": [
+            259,
+            177
+          ],
+          "source_indices": [
+            259,
+            177
+          ],
+          "pair": "?V",
+          "domain": "FIJPSV",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 93,
+          "model_indices": [
+            78,
+            209
+          ],
+          "source_indices": [
+            78,
+            214
+          ],
+          "pair": "A?",
+          "domain": "278GPY",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 94,
+          "model_indices": [
+            94,
+            193
+          ],
+          "source_indices": [
+            94,
+            193
+          ],
+          "pair": "V?",
+          "domain": "0AEJRZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 95,
+          "model_indices": [
+            11,
+            110
+          ],
+          "source_indices": [
+            11,
+            110
+          ],
+          "pair": "XF",
+          "domain": "M",
+          "raw": "M"
+        },
+        {
+          "plaintext_index": 96,
+          "model_indices": [
+            144,
+            45
+          ],
+          "source_indices": [
+            144,
+            45
+          ],
+          "pair": "GX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 97,
+          "model_indices": [
+            226,
+            161
+          ],
+          "source_indices": [
+            231,
+            161
+          ],
+          "pair": "GD",
+          "domain": "4",
+          "raw": "4"
+        },
+        {
+          "plaintext_index": 98,
+          "model_indices": [
+            28,
+            127
+          ],
+          "source_indices": [
+            28,
+            127
+          ],
+          "pair": "VD",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 99,
+          "model_indices": [
+            243,
+            62
+          ],
+          "source_indices": [
+            248,
+            62
+          ],
+          "pair": "XD",
+          "domain": "K",
+          "raw": "K"
+        },
+        {
+          "plaintext_index": 100,
+          "model_indices": [
+            260,
+            178
+          ],
+          "source_indices": [
+            260,
+            178
+          ],
+          "pair": "?F",
+          "domain": "2DMQRT",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 101,
+          "model_indices": [
+            79,
+            210
+          ],
+          "source_indices": [
+            79,
+            215
+          ],
+          "pair": "V?",
+          "domain": "0AEJRZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 102,
+          "model_indices": [
+            95,
+            194
+          ],
+          "source_indices": [
+            95,
+            194
+          ],
+          "pair": "X?",
+          "domain": "BCKMSW",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 103,
+          "model_indices": [
+            12,
+            111
+          ],
+          "source_indices": [
+            12,
+            111
+          ],
+          "pair": "DD",
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 104,
+          "model_indices": [
+            145,
+            46
+          ],
+          "source_indices": [
+            145,
+            46
+          ],
+          "pair": "XA",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 105,
+          "model_indices": [
+            227,
+            162
+          ],
+          "source_indices": [
+            232,
+            162
+          ],
+          "pair": "FV",
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 106,
+          "model_indices": [
+            29,
+            128
+          ],
+          "source_indices": [
+            29,
+            128
+          ],
+          "pair": "GG",
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 107,
+          "model_indices": [
+            244,
+            63
+          ],
+          "source_indices": [
+            249,
+            63
+          ],
+          "pair": "XF",
+          "domain": "M",
+          "raw": "M"
+        },
+        {
+          "plaintext_index": 108,
+          "model_indices": [
+            261,
+            179
+          ],
+          "source_indices": [
+            261,
+            179
+          ],
+          "pair": "?V",
+          "domain": "FIJPSV",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 109,
+          "model_indices": [
+            80,
+            211
+          ],
+          "source_indices": [
+            80,
+            216
+          ],
+          "pair": "X?",
+          "domain": "BCKMSW",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 110,
+          "model_indices": [
+            96,
+            195
+          ],
+          "source_indices": [
+            96,
+            200
+          ],
+          "pair": "D?",
+          "domain": "59FHOQ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 111,
+          "model_indices": [
+            13,
+            112
+          ],
+          "source_indices": [
+            13,
+            112
+          ],
+          "pair": "VA",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 112,
+          "model_indices": [
+            146,
+            47
+          ],
+          "source_indices": [
+            146,
+            47
+          ],
+          "pair": "FG",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 113,
+          "model_indices": [
+            228,
+            163
+          ],
+          "source_indices": [
+            233,
+            163
+          ],
+          "pair": "FF",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 114,
+          "model_indices": [
+            30,
+            129
+          ],
+          "source_indices": [
+            30,
+            129
+          ],
+          "pair": "VA",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 115,
+          "model_indices": [
+            245,
+            64
+          ],
+          "source_indices": [
+            250,
+            64
+          ],
+          "pair": "FG",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 116,
+          "model_indices": [
+            262,
+            180
+          ],
+          "source_indices": [
+            262,
+            180
+          ],
+          "pair": "?F",
+          "domain": "2DMQRT",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 117,
+          "model_indices": [
+            81,
+            212
+          ],
+          "source_indices": [
+            81,
+            217
+          ],
+          "pair": "G?",
+          "domain": "46LTVX",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 118,
+          "model_indices": [
+            97,
+            196
+          ],
+          "source_indices": [
+            97,
+            201
+          ],
+          "pair": "V?",
+          "domain": "0AEJRZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 119,
+          "model_indices": [
+            14,
+            113
+          ],
+          "source_indices": [
+            14,
+            113
+          ],
+          "pair": "XG",
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 120,
+          "model_indices": [
+            147,
+            48
+          ],
+          "source_indices": [
+            147,
+            48
+          ],
+          "pair": "XD",
+          "domain": "K",
+          "raw": "K"
+        },
+        {
+          "plaintext_index": 121,
+          "model_indices": [
+            229,
+            164
+          ],
+          "source_indices": [
+            234,
+            164
+          ],
+          "pair": "DV",
+          "domain": "F",
+          "raw": "F"
+        },
+        {
+          "plaintext_index": 122,
+          "model_indices": [
+            31,
+            130
+          ],
+          "source_indices": [
+            31,
+            130
+          ],
+          "pair": "D?",
+          "domain": "59FHOQ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 123,
+          "model_indices": [
+            246,
+            65
+          ],
+          "source_indices": [
+            195,
+            65
+          ],
+          "pair": "?F",
+          "domain": "2DMQRT",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 124,
+          "model_indices": [
+            263,
+            181
+          ],
+          "source_indices": [
+            263,
+            181
+          ],
+          "pair": "?V",
+          "domain": "FIJPSV",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 125,
+          "model_indices": [
+            82,
+            213
+          ],
+          "source_indices": [
+            82,
+            218
+          ],
+          "pair": "V?",
+          "domain": "0AEJRZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 126,
+          "model_indices": [
+            98,
+            197
+          ],
+          "source_indices": [
+            98,
+            202
+          ],
+          "pair": "G?",
+          "domain": "46LTVX",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 127,
+          "model_indices": [
+            15,
+            114
+          ],
+          "source_indices": [
+            15,
+            114
+          ],
+          "pair": "FV",
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 128,
+          "model_indices": [
+            148,
+            49
+          ],
+          "source_indices": [
+            148,
+            49
+          ],
+          "pair": "GD",
+          "domain": "4",
+          "raw": "4"
+        },
+        {
+          "plaintext_index": 129,
+          "model_indices": [
+            230,
+            165
+          ],
+          "source_indices": [
+            235,
+            165
+          ],
+          "pair": "FG",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 130,
+          "model_indices": [
+            32,
+            131
+          ],
+          "source_indices": [
+            32,
+            131
+          ],
+          "pair": "VA",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 131,
+          "model_indices": [
+            247,
+            66
+          ],
+          "source_indices": [
+            196,
+            66
+          ],
+          "pair": "?G",
+          "domain": "0CGHLN",
+          "raw": "?"
+        }
+      ],
+      "readable_candidate": {
+        "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGADAVVGFGVFGDVXAGXFXDGGFGFGADXFVDDVFVGFDAFGXFXXGGVFDFFGVDGGDXGFFV?FG?FADFDD?G?VGG?AG?DFDFGFFVAAVXXGFFDFGFFVVAVAAFVDXXFVFVVVXF?V??XG?FV?X",
+        "raw": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLG??UJDESERLY2680Y??GEHY0Y?IMBEREICHDESSTELLVYYKDO???MX4AKDEMOBILMACHENDEN???CKFORMATIONEN",
+        "fixed_positions": 121,
+        "observed_coordinate_substitutions": [
+          {
+            "model_index": 148,
+            "source_index": 148,
+            "before": "G",
+            "after": "D",
+            "literal_source_glyph": "G"
+          },
+          {
+            "model_index": 179,
+            "source_index": 179,
+            "before": "V",
+            "after": "D",
+            "literal_source_glyph": "V"
+          },
+          {
+            "model_index": 181,
+            "source_index": 181,
+            "before": "V",
+            "after": "F",
+            "literal_source_glyph": "V"
+          },
+          {
+            "model_index": 235,
+            "source_index": 240,
+            "before": "X",
+            "after": "V",
+            "literal_source_glyph": "X"
+          },
+          {
+            "model_index": 251,
+            "source_index": 251,
+            "before": "F",
+            "after": "X",
+            "literal_source_glyph": "F"
+          }
+        ],
+        "printed_mask_fills": [
+          {
+            "model_index": 130,
+            "source_index": 130,
+            "before": "?",
+            "after": "D",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 166,
+            "source_index": 166,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 185,
+            "source_index": 185,
+            "before": "?",
+            "after": "G",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 192,
+            "source_index": 192,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 194,
+            "source_index": 194,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 195,
+            "source_index": 200,
+            "before": "?",
+            "after": "G",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 197,
+            "source_index": 202,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 198,
+            "source_index": 203,
+            "before": "?",
+            "after": "A",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 199,
+            "source_index": 204,
+            "before": "?",
+            "after": "D",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 200,
+            "source_index": 205,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 201,
+            "source_index": 206,
+            "before": "?",
+            "after": "D",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 202,
+            "source_index": 207,
+            "before": "?",
+            "after": "D",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 204,
+            "source_index": 209,
+            "before": "?",
+            "after": "G",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 206,
+            "source_index": 211,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 207,
+            "source_index": 212,
+            "before": "?",
+            "after": "G",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 208,
+            "source_index": 213,
+            "before": "?",
+            "after": "G",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 210,
+            "source_index": 215,
+            "before": "?",
+            "after": "A",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 211,
+            "source_index": 216,
+            "before": "?",
+            "after": "G",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 213,
+            "source_index": 218,
+            "before": "?",
+            "after": "D",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 214,
+            "source_index": 219,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 246,
+            "source_index": 195,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 247,
+            "source_index": 196,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 248,
+            "source_index": 197,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 249,
+            "source_index": 198,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 250,
+            "source_index": 199,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 252,
+            "source_index": 252,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 254,
+            "source_index": 254,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 257,
+            "source_index": 257,
+            "before": "?",
+            "after": "X",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 258,
+            "source_index": 258,
+            "before": "?",
+            "after": "G",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 260,
+            "source_index": 260,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 261,
+            "source_index": 261,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 263,
+            "source_index": 263,
+            "before": "?",
+            "after": "X",
+            "literal_source_glyph": "-"
+          }
+        ],
+        "inserted_slot_fills": [],
+        "full_roundtrip_witness": {
+          "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGADAVVGFGVFGDVXAGXFXDGGFGFGADXFVDDVFVGFDAFGXFXXGGVFDFFGVDGGDXGFFVAFGAFADFDDAGAVGGAAGADFDFGFFVAAVXXGFFDFGFFVVAVAAFVDXXFVFVVVXFAVAAXGAFVAX",
+          "plaintext": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLGY6UJDESERLY2680YY6GEHY0YYIMBEREICHDESSTELLVYYKDOP7EMX4AKDEMOBILMACHENDEN26ECKFORMATIONEN",
+          "unknown_coordinate_choice": "A solely for a complete roundtrip witness",
+          "historical_fill_claim": false
+        }
+      },
+      "word_span_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "new_word_positions": [
+        1,
+        4,
+        5,
+        12,
+        13,
+        20,
+        21,
+        29,
+        30,
+        36,
+        37,
+        52,
+        53,
+        69,
+        76,
+        77,
+        84,
+        85,
+        86,
+        100,
+        101,
+        102,
+        108,
+        109,
+        110,
+        122,
+        123,
+        124,
+        125,
+        126,
+        131
+      ],
+      "new_tail_word_positions": [
+        36,
+        37,
+        52,
+        53,
+        69,
+        76,
+        77,
+        84,
+        85,
+        86,
+        100,
+        101,
+        102,
+        108,
+        109,
+        110,
+        122,
+        123,
+        124,
+        125,
+        126,
+        131
+      ],
+      "wholly_unobserved_word_completions": [
+        4
+      ],
+      "equivalent_mask_ownerships": [
+        {
+          "moved_source_range": [
+            192,
+            197
+          ],
+          "mapping_sha256": "d9b126c8a27655ced866bfaa8cc39ff96bbf9d7708ab5240b53620e7d00a0df3"
+        },
+        {
+          "moved_source_range": [
+            193,
+            198
+          ],
+          "mapping_sha256": "2c7aa00a7d5c1df388d1702ad9c4706c75760218da581d416390ed5195eb6722"
+        },
+        {
+          "moved_source_range": [
+            194,
+            199
+          ],
+          "mapping_sha256": "1b12a73c0c21e8ad19b81d873b2d97ed49f2390df9519a82311a1f0d649b36e2"
+        },
+        {
+          "moved_source_range": [
+            195,
+            200
+          ],
+          "mapping_sha256": "bae50389023034b6bb2fa9d1d86a4075a4497d84654886a1ac410ab70cee2d2a"
+        },
+        {
+          "moved_source_range": [
+            196,
+            201
+          ],
+          "mapping_sha256": "5868f2b75ccb687a1462868f3916d9edf36171fe7e2ea0d76248077c77065c8f"
+        },
+        {
+          "moved_source_range": [
+            197,
+            202
+          ],
+          "mapping_sha256": "c4691ee6787b5226f31a8171cbf55ea6d1258642470e089e40c1c8af47cf2838"
+        },
+        {
+          "moved_source_range": [
+            198,
+            203
+          ],
+          "mapping_sha256": "35da4a9de7611325a41e8d1045d6c891066fff4c5fa975f1eeca9e644f431d3b"
+        },
+        {
+          "moved_source_range": [
+            199,
+            204
+          ],
+          "mapping_sha256": "8d7c0e1cd2819830b121b1b271b4d7799249b894244af05f498f99903168d5ec"
+        },
+        {
+          "moved_source_range": [
+            200,
+            205
+          ],
+          "mapping_sha256": "dd4cfa9e2e05e89600e805ba91e6cb137acbc8cd56f65ad077dcd37e3039ecb0"
+        },
+        {
+          "moved_source_range": [
+            201,
+            206
+          ],
+          "mapping_sha256": "a9d341423a54de12b125c935fe5c41e937f67f6ec2ad3695614c6368de258a01"
+        },
+        {
+          "moved_source_range": [
+            202,
+            207
+          ],
+          "mapping_sha256": "66803b8fa8791f720be0d0d59d7b1de53265d1228bcfdebd10dd56649cc631b1"
+        },
+        {
+          "moved_source_range": [
+            203,
+            208
+          ],
+          "mapping_sha256": "f2b84b8a5f580b661f49a2d1d7d63bdb70f276180a0ce29a0f684975bd771855"
+        },
+        {
+          "moved_source_range": [
+            204,
+            209
+          ],
+          "mapping_sha256": "3906c7bdb790f5662f92e0ae774ea3c8e842b5b04f5bac9e117e501be9d48824"
+        },
+        {
+          "moved_source_range": [
+            205,
+            210
+          ],
+          "mapping_sha256": "da41202f21dc4acb032353b9e20b92aba5087958554c279164c6bb0a55a8d1bf"
+        },
+        {
+          "moved_source_range": [
+            206,
+            211
+          ],
+          "mapping_sha256": "6277a47c423f24472745925c35dbb31a05fcdd66db89abb97b6ca4919427b99c"
+        },
+        {
+          "moved_source_range": [
+            207,
+            212
+          ],
+          "mapping_sha256": "50ad5c439d0a6191a3be9a0d47088de31b3f06e20f89d3b07c471b2685398608"
+        },
+        {
+          "moved_source_range": [
+            208,
+            213
+          ],
+          "mapping_sha256": "2992ad03a54f00035745d235416ec53c2faabd7614fb82ae285d20cfbcc13c4f"
+        },
+        {
+          "moved_source_range": [
+            209,
+            214
+          ],
+          "mapping_sha256": "993c726f79b717bb0cde96a52216e662b5efb776c230f300deb76320b872ed5d"
+        },
+        {
+          "moved_source_range": [
+            210,
+            215
+          ],
+          "mapping_sha256": "02d0bf51ee50ffb11299a72505b435bd7995bba5d465a7c21a628659c8701bec"
+        },
+        {
+          "moved_source_range": [
+            211,
+            216
+          ],
+          "mapping_sha256": "fc5c456a6f417680279cfe01e261dfb2e0e6e1fb726f8291432863a56b538de9"
+        },
+        {
+          "moved_source_range": [
+            212,
+            217
+          ],
+          "mapping_sha256": "ac4df585832c071064dff4602e0519c9f8d61b757a71cad569cfc0350677d840"
+        },
+        {
+          "moved_source_range": [
+            213,
+            218
+          ],
+          "mapping_sha256": "cbcd1f32c0085898f2be50ea3c92263aa09a4490fa94f7a83a3987155490c9a5"
+        },
+        {
+          "moved_source_range": [
+            214,
+            219
+          ],
+          "mapping_sha256": "1cbbb199bd3b44c518ed03060d5a828d158125cd342da48e06141c04f75bfc46"
+        },
+        {
+          "moved_source_range": [
+            215,
+            220
+          ],
+          "mapping_sha256": "20a7c2437dbdafa6d475a3bf7c04e74abbc7663ce683cc784b436bc8e2c2e0fd"
+        }
+      ],
+      "full_roundtrip_witness": {
+        "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGAAAVVGFGVFGDVXAGXFXGGGFGFGADXFVDDVFVGADAFGXFXXGGVFVFVGVDAGDXGFFAAAAAAAAAAAAAAAAAAAAAAADFGFFVAAVXXGFFDFGFFVXAVAAFVDXXFAAAAAFAAAAAAAAAAAA",
+        "plaintext": "AGST7ECKEHAN81FULDAD7BOBILGEDEBHTDIBGECHANLGY6UJDESE26Y2680YY6GEHY0YY1MBEREIG5DESSTEG66YYKDOP7EMX4AK2EBOBILMPB5ENDEN26ECKF52PE6I4NEG",
+        "unknown_coordinate_choice": "A solely for a complete roundtrip witness",
+        "historical_fill_claim": false
+      }
+    }
+  ],
+  "previous_native_edition": {
+    "raw": "A?ST??CKE?ANK?FUL?AD1?OBI?G5D??HT?I1??CHA?LL??UJD5S1??Y26U03??GEHX0Z??MBEDES??DESIT7???YYADA???MX8A8???OBPL2???ENREN???CKS?R???I4CEH",
+    "fixed_positions": 89,
+    "readable_candidate": {
+      "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGA?AVVGFGVFGDVXAGXFXGGGFGFGADXFVDDVFVGFDAFGXFXXGGVFVFVGVDGGDXGFF??????ADFD????????????FDFG??DFGFFVAAVXXGFFVFGFFVXAVAAFVDVVVX????????????",
+      "raw": "ANSTRECKEHANAUFULDADEMOBILGEMACHT?I1??CHA?LL??UJD5S1??Y26U03??GEHX0Z??MBEDES??DESIT7???YYADA???MX8A8???OBPL2???ENREN???CKS?R???I4CEH",
+      "fixed_positions": 99,
+      "observed_coordinate_substitutions": [
+        {
+          "model_index": 234,
+          "source_index": 234,
+          "before": "D",
+          "after": "V",
+          "literal_source_glyph": "D"
+        },
+        {
+          "model_index": 248,
+          "source_index": 248,
+          "before": "X",
+          "after": "V",
+          "literal_source_glyph": "X"
+        },
+        {
+          "model_index": 249,
+          "source_index": 249,
+          "before": "X",
+          "after": "V",
+          "literal_source_glyph": "X"
+        },
+        {
+          "model_index": 250,
+          "source_index": 250,
+          "before": "F",
+          "after": "V",
+          "literal_source_glyph": "F"
+        },
+        {
+          "model_index": 251,
+          "source_index": 251,
+          "before": "F",
+          "after": "X",
+          "literal_source_glyph": "F"
+        }
+      ],
+      "printed_mask_fills": [
+        {
+          "model_index": 166,
+          "source_index": 166,
+          "before": "?",
+          "after": "F",
+          "literal_source_glyph": "-"
+        },
+        {
+          "model_index": 185,
+          "source_index": 185,
+          "before": "?",
+          "after": "G",
+          "literal_source_glyph": "-"
+        },
+        {
+          "model_index": 198,
+          "source_index": 198,
+          "before": "?",
+          "after": "A",
+          "literal_source_glyph": "-"
+        },
+        {
+          "model_index": 199,
+          "source_index": 199,
+          "before": "?",
+          "after": "D",
+          "literal_source_glyph": "-"
+        },
+        {
+          "model_index": 200,
+          "source_index": 200,
+          "before": "?",
+          "after": "F",
+          "literal_source_glyph": "-"
+        },
+        {
+          "model_index": 201,
+          "source_index": 201,
+          "before": "?",
+          "after": "D",
+          "literal_source_glyph": "-"
+        },
+        {
+          "model_index": 214,
+          "source_index": 214,
+          "before": "?",
+          "after": "F",
+          "literal_source_glyph": "-"
+        },
+        {
+          "model_index": 215,
+          "source_index": 215,
+          "before": "?",
+          "after": "D",
+          "literal_source_glyph": "-"
+        },
+        {
+          "model_index": 216,
+          "source_index": 216,
+          "before": "?",
+          "after": "F",
+          "literal_source_glyph": "-"
+        },
+        {
+          "model_index": 217,
+          "source_index": 217,
+          "before": "?",
+          "after": "G",
+          "literal_source_glyph": "-"
+        }
+      ],
+      "inserted_slot_fills": [],
+      "full_roundtrip_witness": {
+        "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGAAAVVGFGVFGDVXAGXFXGGGFGFGADXFVDDVFVGFDAFGXFXXGGVFVFVGVDGGDXGFFAAAAAAADFDAAAAAAAAAAAAFDFGAADFGFFVAAVXXGFFVFGFFVXAVAAFVDVVVXAAAAAAAAAAAA",
+        "plaintext": "ANSTRECKEHANAUFULDADEMOBILGEMACHT2I1GECHAGLLY6UJD5S126Y26U03Y6GEHX0ZY1MBEDESG5DESIT7G66YYADAP7EMX8A82EBOBPL2PB5ENREN26ECKS5RPE6I4CEH",
+        "unknown_coordinate_choice": "A solely for a complete roundtrip witness",
+        "historical_fill_claim": false
+      }
+    },
+    "claimed_word_span": [
+      0,
+      33
+    ]
+  },
+  "opening_only_in_relocated_frame": {
+    "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGA?AVVGFGVFGDVXAGXFXGGGFGFGADXFVDDVFVGFDAFGXFXXGGVFVFVGVDGGDXGFF??????ADFD????????????FDFGFFVAAVXXGFFDFGFFVXAVAAFVDXXF??VVVX????????????",
+    "raw": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIB??CHANLG??UJDESE??Y2680Y??GEHY0Y??MBEREI??DESSTE???YYKDO???MX4AK???OBILM???ENDEN???CKF?????I4NE?",
+    "fixed_positions": 99,
+    "observed_coordinate_substitutions": [
+      {
+        "model_index": 251,
+        "source_index": 251,
+        "before": "F",
+        "after": "X",
+        "literal_source_glyph": "F"
+      }
+    ],
+    "printed_mask_fills": [
+      {
+        "model_index": 166,
+        "source_index": 166,
+        "before": "?",
+        "after": "F",
+        "literal_source_glyph": "-"
+      },
+      {
+        "model_index": 185,
+        "source_index": 185,
+        "before": "?",
+        "after": "G",
+        "literal_source_glyph": "-"
+      },
+      {
+        "model_index": 198,
+        "source_index": 203,
+        "before": "?",
+        "after": "A",
+        "literal_source_glyph": "-"
+      },
+      {
+        "model_index": 199,
+        "source_index": 204,
+        "before": "?",
+        "after": "D",
+        "literal_source_glyph": "-"
+      },
+      {
+        "model_index": 200,
+        "source_index": 205,
+        "before": "?",
+        "after": "F",
+        "literal_source_glyph": "-"
+      },
+      {
+        "model_index": 201,
+        "source_index": 206,
+        "before": "?",
+        "after": "D",
+        "literal_source_glyph": "-"
+      },
+      {
+        "model_index": 214,
+        "source_index": 219,
+        "before": "?",
+        "after": "F",
+        "literal_source_glyph": "-"
+      },
+      {
+        "model_index": 248,
+        "source_index": 197,
+        "before": "?",
+        "after": "V",
+        "literal_source_glyph": "-"
+      },
+      {
+        "model_index": 249,
+        "source_index": 198,
+        "before": "?",
+        "after": "V",
+        "literal_source_glyph": "-"
+      },
+      {
+        "model_index": 250,
+        "source_index": 199,
+        "before": "?",
+        "after": "V",
+        "literal_source_glyph": "-"
+      }
+    ],
+    "inserted_slot_fills": [],
+    "full_roundtrip_witness": {
+      "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGAAAVVGFGVFGDVXAGXFXGGGFGFGADXFVDDVFVGFDAFGXFXXGGVFVFVGVDGGDXGFFAAAAAAADFDAAAAAAAAAAAAFDFGFFVAAVXXGFFDFGFFVXAVAAFVDXXFAAVVVXAAAAAAAAAAAA",
+      "plaintext": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIBGECHANLGY6UJDESE26Y2680YY6GEHY0YY1MBEREIG5DESSTEG66YYKDOP7EMX4AK2EBOBILMPB5ENDEN26ECKF52PE6I4NEG",
+      "unknown_coordinate_choice": "A solely for a complete roundtrip witness",
+      "historical_fill_claim": false
+    }
+  }
+}

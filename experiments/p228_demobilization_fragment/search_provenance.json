@@ -1,0 +1,364 @@
+{
+  "schema": "adfgvx-p228-demobilization-search-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "pinned_repository_files": {
+    "experiments/p212_medical_fragment/replay_search.py": "e0248077835c477048a5c36100f8214a3406f1aba57afd6c4e35ebdb51ae9c7a",
+    "experiments/p212_medical_fragment/search_provenance.json": "6b0489c8ae30982e1a2af40255885fabf591c506dac0538f275f6f12af62e8ad",
+    "experiments/neuhof_demobilization/inputs.json": "7c08eda80c16f8ba6c02ae84c2f570caac8ac58de6e2616c3b4054d228464046"
+  },
+  "mixture_sha256": "819fb5dde31d6a2d89cdf53dc2e96c8455e10ce350aadd83cd23d5c2f49f4a6c",
+  "joint49_sha256": "e839ef2aa8182d15a81fd2bf2c20c842dc9ab5fd8721c450e7b7ba2993dc1148",
+  "score_projection": "Exchange X and Y in the scoring model only; a bijection. All reported raw labels and source keys remain unchanged.",
+  "scope": "Each nonempty contiguous all-mask sub-block of the native source, moved to every boundary after removal. Operation descriptions include identity and ownership aliases.",
+  "historical": {
+    "evaluations": 124628,
+    "best_score": -1364.2834692001343,
+    "winner_raw": "A?ST??CKEHAN??FULDAD??OBILGED??HTDIB??CHANLG??UJDESE??Y2680Y??GEHY0Y??MBEREI??DESSTE???YYKDO???MX4AK???OBILM???ENDEN???CKF?????I4NE?",
+    "winner_operations": [
+      [
+        192,
+        5,
+        246
+      ],
+      [
+        193,
+        5,
+        246
+      ],
+      [
+        194,
+        5,
+        246
+      ],
+      [
+        195,
+        5,
+        246
+      ],
+      [
+        196,
+        5,
+        246
+      ],
+      [
+        197,
+        5,
+        246
+      ],
+      [
+        198,
+        5,
+        246
+      ],
+      [
+        199,
+        5,
+        246
+      ],
+      [
+        200,
+        5,
+        246
+      ],
+      [
+        201,
+        5,
+        246
+      ],
+      [
+        202,
+        5,
+        246
+      ],
+      [
+        203,
+        5,
+        246
+      ],
+      [
+        204,
+        5,
+        246
+      ],
+      [
+        205,
+        5,
+        246
+      ],
+      [
+        206,
+        5,
+        246
+      ],
+      [
+        207,
+        5,
+        246
+      ],
+      [
+        208,
+        5,
+        246
+      ],
+      [
+        209,
+        5,
+        246
+      ],
+      [
+        210,
+        5,
+        246
+      ],
+      [
+        211,
+        5,
+        246
+      ],
+      [
+        212,
+        5,
+        246
+      ],
+      [
+        213,
+        5,
+        246
+      ],
+      [
+        214,
+        5,
+        246
+      ],
+      [
+        215,
+        5,
+        246
+      ]
+    ]
+  },
+  "controls": [
+    {
+      "id": "control0",
+      "plaintext": "DERBAHNHOFMELDETDASSEINWEITERERTRANSPORTMITKRANKENMORGENEINTRIFFTYDIEVERPFLEGUNGISTVORZUBEREITENUNDDEMSTABDEREMPFANGSOFORTZUMELDENYY",
+      "source": "DGXGGXFDVAFFGADFVXXGFGXFFGGVFFFVAFDFAFFAAFVVADDVFAAAVAVDDFVAVAFAGDXDFFVDVAFGFVGXVDVFVFVVFVDVFVVXXDGGFXFFDGVFGDGFVDFFFVFGFFGFGFFFFG?XFDFVVXVVGAFXFVDVVAVDVDVGVXVVAGADFG?GAFVFFFAGDVAFVFGAG?FGAVAG????????????????????????????DVFVFFFADXVFXVGFXVXVXXDGFVGVFVAV????????????",
+      "planted_operation": [
+        195,
+        5,
+        246
+      ],
+      "planted_raw": "D?RB??NHOFME??ETDASS??NWEITER??TRANS??RTMITK??NKENMO??ENEINT??FFTYDI??ERPFLE??NGISTV???UBERE???NUNDD???TABDE???PFANG???ORT?????DENY?",
+      "planted_score": -1152.568413734436,
+      "result": {
+        "best_score": -1152.568413734436,
+        "winner_raw": "D?RB??NHOFME??ETDASS??NWEITER??TRANS??RTMITK??NKENMO??ENEINT??FFTYDI??ERPFLE??NGISTV???UBERE???NUNDD???TABDE???PFANG???ORT?????DENY?",
+        "winner_operations": [
+          [
+            192,
+            5,
+            246
+          ],
+          [
+            193,
+            5,
+            246
+          ],
+          [
+            194,
+            5,
+            246
+          ],
+          [
+            195,
+            5,
+            246
+          ],
+          [
+            196,
+            5,
+            246
+          ],
+          [
+            197,
+            5,
+            246
+          ],
+          [
+            198,
+            5,
+            246
+          ],
+          [
+            199,
+            5,
+            246
+          ],
+          [
+            200,
+            5,
+            246
+          ],
+          [
+            201,
+            5,
+            246
+          ],
+          [
+            202,
+            5,
+            246
+          ],
+          [
+            203,
+            5,
+            246
+          ],
+          [
+            204,
+            5,
+            246
+          ],
+          [
+            205,
+            5,
+            246
+          ],
+          [
+            206,
+            5,
+            246
+          ],
+          [
+            207,
+            5,
+            246
+          ],
+          [
+            208,
+            5,
+            246
+          ],
+          [
+            209,
+            5,
+            246
+          ],
+          [
+            210,
+            5,
+            246
+          ],
+          [
+            211,
+            5,
+            246
+          ],
+          [
+            212,
+            5,
+            246
+          ],
+          [
+            213,
+            5,
+            246
+          ],
+          [
+            214,
+            5,
+            246
+          ],
+          [
+            215,
+            5,
+            246
+          ]
+        ],
+        "fixed_correct": 90
+      }
+    },
+    {
+      "id": "control1",
+      "plaintext": "DIEZURUECKKEHRENDENMANNSCHAFTENSINDAMBAHNHOFZUSAMMELNYDERVORSTEHERHATDIEANKUNFTDERZUEGEZUUEBERWACHENUNDTAEGLICHBERICHTZUERSTATTENYYY",
+      "source": "VFXXDVVDVFVVGXFVVXFVFDVDDXVVVAFXAFGFGVGFFADADGDAAGXAFVDVGFDDDAGGGFXVVFVXFAGFDAVFXGGFVFFVXFVFGVXFDVGAGVVGDAGAFXDFADAADGDFDADGDXAAGV?XFXFXFFXVVVVFVDAGGGFVFGFDGAFFXDGDFF?GVFGAADVGDDAGGDVFA?FAXFGX????????????????????????????FDVVVAVVXDVDGVVFFXFGXGAFDVGXVFXG????????????",
+      "planted_operation": [
+        255,
+        5,
+        140
+      ],
+      "planted_raw": "D?EZU?UEC?KEH?END?NMA?NSC?AFT?NSI?DAM?AHN?OF??SAM?ELN?DER?ORS?EH??HAT??E??KU??TD??ZU??EZ?UEB??WA?HEN??DTAEGL??HBERIC??ZUER?T???ENYYY",
+      "planted_score": -1150.8850002288818,
+      "result": {
+        "best_score": -1146.1240468025208,
+        "winner_raw": "D?EZU?UEC?KEH?END?NMA?NSC?AFT?NSI?DAM?AHN?OF??SAM?ELN?DER?ORS?EHE?HAT??E??KU??TD??ZU??EZ?UEB??WA?HEN??DT?EGL??HBERIC??ZUER?T???ENYYY",
+        "winner_operations": [
+          [
+            252,
+            5,
+            141
+          ],
+          [
+            253,
+            5,
+            141
+          ],
+          [
+            254,
+            5,
+            141
+          ],
+          [
+            255,
+            5,
+            141
+          ],
+          [
+            256,
+            5,
+            141
+          ],
+          [
+            257,
+            5,
+            141
+          ],
+          [
+            258,
+            5,
+            141
+          ],
+          [
+            259,
+            5,
+            141
+          ]
+        ],
+        "fixed_correct": 89
+      }
+    }
+  ],
+  "additional_discovery_diagnostics": {
+    "group_move": 2756,
+    "group_swap": 2756,
+    "single_even_loss_2_through_12": 1590,
+    "extra_even_mask_runs_2_through_12": 168,
+    "observation_order_changing_group_move_best": {
+      "operation": [
+        44,
+        52
+      ],
+      "score": -1360.917239665985,
+      "raw": "A?ST??CKE?AN??FUL?AD??OBI?GE???HT?IB??CHA?LG??UJDESE??Y2680Y??GEHY0Y??MBEREI??DESSTE???YYKDOF??MX4AKD??OBILMV??ENDEND??CKF?DI??I4NE?"
+    },
+    "qualification": "Separate diagnostic families; the selected primary is the best mask-only source-order-preserving model, not the highest score across families."
+  },
+  "limits": [
+    "A score ranks declared source frames; it does not authenticate the historical layout or force the proposed words.",
+    "24 printed-mask ownership descriptions have one identical primary ciphertext.",
+    "Control0 recovers the planted masked plaintext; control1 recovers89/89 correct fixed letters under a different better-scoring mask destination, so geometry is not unique.",
+    "No numeral assignment or unsupported prefix before CKFORMATIONEN is inferred."
+  ]
+}

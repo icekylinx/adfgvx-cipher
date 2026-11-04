@@ -776,13 +776,14 @@
       "label": "p168 C",
       "printed_page": 168,
       "source_section": "C",
-      "subject": "Repeated Munich routing order 11338",
-      "status": "Parallel witness to the p 159 B component",
-      "credit": "Prior body: Childs (1918), Lasry et al. (2016); source edition: icekylinx and GPT-6 Astra Pro",
-      "path": "cases/p158.md#earlier-historical-reading-of-a-component",
+      "subject": "Munich routing order 11338: full retransmission and KDO support",
+      "status": "Reviewed conditional six/four-group frame: raw 139/140; one V from p159 gives 140/140; 12 ownership aliases; garbled words retained",
+      "credit": "Prior body: Childs (1918), Lasry et al. (2016); full source-frame review and KDO evidence: icekylinx and GPT-6 Astra Pro",
+      "path": "cases/radio/p168_munich_routing_witness.md",
       "source_reviewed": true,
       "evidence": [
-        "data/certificates/p158.json"
+        "experiments/p168_munich_routing_witness/inputs.json",
+        "experiments/p168_munich_routing_witness/certificates.json"
       ]
     },
     {
@@ -3461,14 +3462,14 @@
       "label": "p228 B2",
       "printed_page": 228,
       "source_section": "B2",
-      "subject": "Conditional opening about demobilization on the Hanau-Fulda line",
-      "status": "Partial 33-character opening only; five substitutions and ten fills; final 99 positions have no coherent original-language reading",
+      "subject": "Neuhof demobilization continuation: deputy-command district and formations",
+      "status": "Conditional source-preserving five-mask relocation; raw 90/132; word 121/132 with 5 observed substitutions and 32 printed-mask fills; 95 proposed word positions, 11 unresolved; earlier 33-position opening retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately",
-      "path": "cases/military/neuhof_demobilization.md",
+      "path": "cases/military/p228_demobilization_fragment.md",
       "source_reviewed": true,
       "evidence": [
-        "experiments/neuhof_demobilization/inputs.json",
-        "experiments/neuhof_demobilization/certificates.json"
+        "experiments/p228_demobilization_fragment/inputs.json",
+        "experiments/p228_demobilization_fragment/certificates.json"
       ]
     },
     {
@@ -9916,6 +9917,21 @@
       "evidence": [
         "experiments/p215_third_positions_fragment/inputs.json",
         "experiments/p215_third_positions_fragment/certificates.json"
+      ]
+    },
+    {
+      "id": "p154_A2",
+      "label": "p154 A2",
+      "printed_page": 154,
+      "source_section": "A2",
+      "subject": "Weisskirchen halt and security fragment",
+      "status": "Conditional 162-slot frame: raw 36/81; word 56/81; 1 observed exclusion, 2 substitutions and 20 inserted-slot fills; opening unresolved",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key and Childs source credited",
+      "path": "cases/military/p154_weisskirchen_fragment.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/p154_weisskirchen_fragment/inputs.json",
+        "experiments/p154_weisskirchen_fragment/certificates.json"
       ]
     }
   ]
