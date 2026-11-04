@@ -14,7 +14,7 @@
 | [Prinz, 17 September 2026](https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio) | p217 keyword and reading. |
 | [Prinz, 19 September 2026](https://www.prinzai.com/p/another-wwi-german-radio-cipher-falls) | p176b partial reading; Christian Horvat's 21 September comment corrects p217. |
 
-The included excerpts reproduce the historical US government source pages needed to inspect specific claims. The complete book and modern editorial material are not redistributed. Original German, French, and ciphertext are quoted as research data; repository discussion is in English.
+The included excerpts preserve original intercept pages and the contemporary material needed to inspect specific historical claims. Each source retains its institutional provenance. The complete Childs book and modern editorial material are not redistributed. Original German, French, and ciphertext are quoted as research data; repository discussion is in English.
 
 ## p152 terminology
 
@@ -43,6 +43,7 @@ replace a missing ciphertext witness or assign an unknown key cell.
 | [Australian War Memorial, Allied-fleet memorandum of 24 November 1918](https://transcribe.awm.gov.au/transcription/item/rcdig0000179-4) | Independent Black Sea departure-order context for p217. It does not verify p215's reported troops or explain its nationalities. |
 | [Kress, *Meine Mission im Kaukasus*, 2001 edition](https://de.scribd.com/document/46043064/General-Der-Artillerie-a-D-Friedrich-Freiherr-Kress-von-Kressenstein-MEINE-MISSION-IM-KAUKASUS) | A retrospective memoir accompanying a 1943 covering letter. The bounded late-period inspection finds no matching p73 radiogram; an apparent calendar-date match belongs to the editor's 1917 discussion. |
 | [Lepsius, *Deutschland und Armenien 1914–1918*, 1919](https://www.gutenberg.org/files/58144/58144-h/58144-h.htm) | Documents 439–444 were checked. Document 442 is Kress's outgoing 30 October report, not the sought incoming p73 message. |
+| [Central-Volksblatt, 14 November 1918, front page](https://www.werl.de/fileadmin/user_upload/Stadtarchiv/Titelseiten_aus_dem_Central-Volksblatt/14._November_1918.pdf) | A WTB dispatch dated 12 November reports six evacuation trains daily for each of AOK 11 and Mackensen's army. Original article and issue date were visually checked; the report establishes an announced allocation, not completed train movements. [Crops and provenance](../data/reviews/mackensen_railway_press.json). |
 
 Exact page/image locators, inspected scopes and limitations are retained in
 [the registry](registry.json) and the linked case and review records. The

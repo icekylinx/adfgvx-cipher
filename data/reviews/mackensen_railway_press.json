@@ -1,0 +1,81 @@
+{
+  "schema": "adfgvx-contemporary-press-context-v1",
+  "project": "ADFGVX Cipher",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "review_date": "2026-11-04",
+  "source": {
+    "id": "central_volksblatt_19181114",
+    "title": "Central-Volksblatt",
+    "issue": 265,
+    "year_of_publication": 63,
+    "publication_place": "Arnsberg and Werl",
+    "publication_date": "1918-11-14",
+    "dispatch_date": "1918-11-12",
+    "dispatch_dateline": "Berlin",
+    "agency_as_printed": "WTB",
+    "institution": "Stadtarchiv Werl",
+    "url": "https://www.werl.de/fileadmin/user_upload/Stadtarchiv/Titelseiten_aus_dem_Central-Volksblatt/14._November_1918.pdf",
+    "locator": "Front page, lower right column, Die Armee Mackensen.",
+    "pdf_bytes": 3210868,
+    "pdf_sha256": "52c6cefc77c051bb1b51218b7e2f2fd1283e4d1d30b7bb40b5f24c83af57b5fa"
+  },
+  "crops": [
+    {
+      "path": "sources/excerpts/central_volksblatt_19181114_mackensen.png",
+      "pdf_page_1based": 1,
+      "crop_pdf_points": [
+        592,
+        1106,
+        865,
+        1161
+      ],
+      "render_scale": 4,
+      "width": 1092,
+      "height": 220,
+      "sha256": "5bdecef9f3396138fbbfbff154e925b015bb601f9c78266d101452c06e4ee69f",
+      "rgb_sha256": "0f154440ffa08f4de4b48bc79d13a893284846bd8825c1f498207b800b279b98"
+    },
+    {
+      "path": "sources/excerpts/central_volksblatt_19181114_date.png",
+      "pdf_page_1based": 1,
+      "crop_pdf_points": [
+        38,
+        203,
+        866,
+        252
+      ],
+      "render_scale": 2,
+      "width": 1656,
+      "height": 98,
+      "sha256": "aa12738e73bc28853f75c05ee3d27675185811fb121f1e45f42b5f5c320f4133",
+      "rgb_sha256": "ebbd3f65510594a06242e3cc00c4c26713ae5cab4d528f55847d761fa4932319"
+    }
+  ],
+  "visual_checks": [
+    {
+      "observation": "Masthead/date strip",
+      "finding": "The original gives no. 265, Arnsberg and Werl, Thursday 14 November 1918, and 63rd year."
+    },
+    {
+      "observation": "Article, Die Armee Mackensen",
+      "finding": "The original agency label is WTB; the dateline is Berlin, 12 November. The report attributes its information to the German liaison officer in Budapest."
+    },
+    {
+      "observation": "Quantifier and recipients",
+      "short_source_phrase": "der 11. Armee und der Armee Mackensen je 6 Züge täglich",
+      "finding": "The six daily trains are stated for each of the two named armies."
+    }
+  ],
+  "summary": "The newspaper reports that the Hungarian government had made six trains per day available to each of the Eleventh Army and Mackensen army for evacuation.",
+  "historical_connection": "Independent contemporary press context for the provisioning and passage problems discussed in an-army-trying-to-get-home.md.",
+  "limits": [
+    "The report is a public agency dispatch, not an inspected train schedule or execution log.",
+    "The dispatch date, 12 November, differs from the newspaper date, 14 November, and precedes the Belgrade convention of 13 November.",
+    "No exact correspondence chain with the Arad supply request is established.",
+    "No ciphertext coordinate, plaintext letter, train capacity or completed journey is inferred."
+  ],
+  "pixel_verification_method": "adfgvx.source_evidence.verify_source_evidence(pdf, record[\"source\"], record[\"crops\"], repository_root)"
+}

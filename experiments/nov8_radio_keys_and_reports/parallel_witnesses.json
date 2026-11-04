@@ -1,15 +1,15 @@
 {
-  "schema": "adfgvx-nov8-parallel-witness-comparison-v1",
+  "schema": "adfgvx-nov8-parallel-witness-comparison-v2",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "scope": "Bounded comparisons of already declared source frames and edited candidates; no new source transcription, baseline-key assignment or replacement of either edition.",
+  "scope": "Exhaustive source-only two-exclusion alignment of p160 A2 with p170 B2, followed by bounded comparisons of declared frames and edited candidates; no source glyph or baseline-key assignment is changed.",
   "source_files": {
     "experiments/nov8_radio_keys_and_reports/inputs.json": {
-      "sha256": "c5b21cd9fbbcd5beb248f89193fc118b02bf0f9db20ca20e7c9aca4b34c0cddf",
-      "size_bytes": 25206
+      "sha256": "52f9f0aecb9710f9b46b89f6115a98991699e6139af37efbe40b0eac9d1012d8",
+      "size_bytes": 25515
     },
     "experiments/nov8_radio_keys_and_reports/certificates.json": {
-      "sha256": "145f8d9af6cd114e2b2d5b5c918b886c9654070583f1c8d08d59712f91d37b71",
-      "size_bytes": 149266
+      "sha256": "c0ec609995c16a271185ead00127bce29e052f49276bac8c4251b1e401bda840",
+      "size_bytes": 149353
     },
     "experiments/p170_continuation/military_records.json": {
       "sha256": "4ba83b73047780d645be6d5af27e630c4eb8c9a32aafbd699daf7670237330a9",
@@ -116,33 +116,355 @@
       19,
       4
     ],
+    "source_only_exclusion_alignment": {
+      "method": "All unordered pairs of excluded p160 source positions; retained observed coordinates are compared with the untouched native p170 source, with either-source masks unscored.",
+      "plaintext_or_language_used_to_select_maps": false,
+      "completed_exclusion_sets": 28680,
+      "observed_disagreement_histogram": {
+        "5": 2,
+        "6": 7,
+        "7": 12,
+        "8": 18,
+        "9": 23,
+        "10": 26,
+        "11": 30,
+        "12": 35,
+        "13": 36,
+        "14": 38,
+        "15": 45,
+        "16": 53,
+        "17": 60,
+        "18": 64,
+        "19": 72,
+        "20": 92,
+        "21": 103,
+        "22": 94,
+        "23": 82,
+        "24": 73,
+        "25": 83,
+        "26": 92,
+        "27": 87,
+        "28": 72,
+        "29": 65,
+        "30": 64,
+        "31": 66,
+        "32": 72,
+        "33": 71,
+        "34": 78,
+        "35": 75,
+        "36": 69,
+        "37": 73,
+        "38": 77,
+        "39": 70,
+        "40": 71,
+        "41": 70,
+        "42": 70,
+        "43": 68,
+        "44": 67,
+        "45": 69,
+        "46": 70,
+        "47": 69,
+        "48": 70,
+        "49": 71,
+        "50": 72,
+        "51": 73,
+        "52": 75,
+        "53": 77,
+        "54": 79,
+        "55": 80,
+        "56": 82,
+        "57": 82,
+        "58": 86,
+        "59": 90,
+        "60": 96,
+        "61": 92,
+        "62": 98,
+        "63": 100,
+        "64": 103,
+        "65": 91,
+        "66": 93,
+        "67": 96,
+        "68": 98,
+        "69": 98,
+        "70": 98,
+        "71": 102,
+        "72": 107,
+        "73": 115,
+        "74": 117,
+        "75": 121,
+        "76": 126,
+        "77": 129,
+        "78": 126,
+        "79": 126,
+        "80": 131,
+        "81": 135,
+        "82": 145,
+        "83": 131,
+        "84": 130,
+        "85": 132,
+        "86": 133,
+        "87": 118,
+        "88": 122,
+        "89": 125,
+        "90": 126,
+        "91": 126,
+        "92": 126,
+        "93": 135,
+        "94": 134,
+        "95": 149,
+        "96": 150,
+        "97": 145,
+        "98": 149,
+        "99": 154,
+        "100": 150,
+        "101": 154,
+        "102": 162,
+        "103": 161,
+        "104": 181,
+        "105": 186,
+        "106": 224,
+        "107": 233,
+        "108": 233,
+        "109": 241,
+        "110": 223,
+        "111": 205,
+        "112": 219,
+        "113": 228,
+        "114": 233,
+        "115": 227,
+        "116": 234,
+        "117": 246,
+        "118": 213,
+        "119": 221,
+        "120": 227,
+        "121": 214,
+        "122": 197,
+        "123": 210,
+        "124": 206,
+        "125": 219,
+        "126": 244,
+        "127": 240,
+        "128": 254,
+        "129": 273,
+        "130": 247,
+        "131": 260,
+        "132": 254,
+        "133": 231,
+        "134": 236,
+        "135": 234,
+        "136": 228,
+        "137": 242,
+        "138": 293,
+        "139": 306,
+        "140": 341,
+        "141": 363,
+        "142": 348,
+        "143": 351,
+        "144": 347,
+        "145": 307,
+        "146": 300,
+        "147": 276,
+        "148": 264,
+        "149": 246,
+        "150": 248,
+        "151": 266,
+        "152": 242,
+        "153": 238,
+        "154": 232,
+        "155": 228,
+        "156": 230,
+        "157": 228,
+        "158": 216,
+        "159": 220,
+        "160": 226,
+        "161": 232,
+        "162": 238,
+        "163": 265,
+        "164": 244,
+        "165": 255,
+        "166": 257,
+        "167": 262,
+        "168": 278,
+        "169": 319,
+        "170": 317,
+        "171": 307,
+        "172": 336,
+        "173": 306,
+        "174": 307,
+        "175": 300,
+        "176": 302,
+        "177": 255,
+        "178": 242,
+        "179": 171,
+        "180": 133,
+        "181": 99,
+        "182": 70,
+        "183": 38,
+        "184": 22,
+        "185": 8,
+        "186": 7,
+        "187": 4,
+        "188": 2
+      },
+      "minimum_observed_disagreements": 5,
+      "all_minimum_maps": [
+        {
+          "excluded_source_indices_0based": [
+            18,
+            26
+          ],
+          "excluded_observed_coordinates": 2,
+          "excluded_source_masks": 0,
+          "alignment_counts": {
+            "agreement": 231,
+            "disagreement": 5,
+            "mask": 2
+          },
+          "frame": "AADDGVXDADADADGGDGXFXGDAVXAADGVGVDVXXXDDDFXVGXGVVFAGDVVXGVVXAXXDGVDAXVFDGDXGVAGXGDVXAAFDFVXFXVDFGXGGVAVGAAFADVVDGVGDVDVADFXVVGFDVDVDXDXVVVVFGGDXADVVVDVGGXXGVVXVGFGDDGFDDXGGVVVDGVXDXDA?GADDXDDGVXXVDVGGXVDGFFDXFVFXGVXDGAADFDVGDDAAGDDFVFDDAG",
+          "raw_plaintext": "ALPENKOYPSW2RDUJVERBASZZUMABTRFNSPORTBEREIT?ESTELLTXX219X217XUNU?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+          "unresolved_raw_domains": [
+            {
+              "plaintext_index_0based": 43,
+              "domain": "1GIKNY"
+            },
+            {
+              "plaintext_index_0based": 64,
+              "domain": "56"
+            }
+          ],
+          "complementary_masks": [
+            {
+              "frame_index_0based": 25,
+              "p160_source_index_0based": 27,
+              "p160": "X",
+              "p170": "?"
+            },
+            {
+              "frame_index_0based": 183,
+              "p160_source_index_0based": 185,
+              "p160": "?",
+              "p170": "D"
+            }
+          ],
+          "plaintext_67_coordinate_evidence": {
+            "coordinates": "XV",
+            "p160_source_indices_0based": [
+              19,
+              199
+            ],
+            "raw_label": "D"
+          }
+        },
+        {
+          "excluded_source_indices_0based": [
+            18,
+            27
+          ],
+          "excluded_observed_coordinates": 2,
+          "excluded_source_masks": 0,
+          "alignment_counts": {
+            "agreement": 231,
+            "disagreement": 5,
+            "mask": 2
+          },
+          "frame": "AADDGVXDADADADGGDGXFXGDAVDAADGVGVDVXXXDDDFXVGXGVVFAGDVVXGVVXAXXDGVDAXVFDGDXGVAGXGDVXAAFDFVXFXVDFGXGGVAVGAAFADVVDGVGDVDVADFXVVGFDVDVDXDXVVVVFGGDXADVVVDVGGXXGVVXVGFGDDGFDDXGGVVVDGVXDXDA?GADDXDDGVXXVDVGGXVDGFFDXFVFXGVXDGAADFDVGDDAAGDDFVFDDAG",
+          "raw_plaintext": "ALPENKOYPSW2RDUZVERBASZZUMABTRFNSPORTBEREIT?ESTELLTXX219X217XUNU?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+          "unresolved_raw_domains": [
+            {
+              "plaintext_index_0based": 43,
+              "domain": "1GIKNY"
+            },
+            {
+              "plaintext_index_0based": 64,
+              "domain": "56"
+            }
+          ],
+          "complementary_masks": [
+            {
+              "frame_index_0based": 25,
+              "p160_source_index_0based": 26,
+              "p160": "D",
+              "p170": "?"
+            },
+            {
+              "frame_index_0based": 183,
+              "p160_source_index_0based": 185,
+              "p160": "?",
+              "p170": "D"
+            }
+          ],
+          "plaintext_67_coordinate_evidence": {
+            "coordinates": "XV",
+            "p160_source_indices_0based": [
+              19,
+              199
+            ],
+            "raw_label": "D"
+          }
+        }
+      ],
+      "minimum_map_count": 2,
+      "next_distinct_disagreement_cost": 6,
+      "next_cost_map_count": 7,
+      "previous_selected_frame": {
+        "excluded_source_indices_0based": [
+          19,
+          26
+        ],
+        "observed_disagreements": 6,
+        "raw_plaintext": "ALPENKOYPSW2RDUJVERBASZZUMABTRFNSPORTBEREIT?ESTELLTXX219X217XUNU?XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT"
+      },
+      "all_minimum_unresolved_domains": [
+        {
+          "plaintext_index_0based": 15,
+          "domain": "JZ"
+        },
+        {
+          "plaintext_index_0based": 43,
+          "domain": "1GIKNY"
+        },
+        {
+          "plaintext_index_0based": 64,
+          "domain": "56"
+        }
+      ],
+      "all_minimum_common_fixed_plaintext_positions": 116,
+      "new_native_label": {
+        "plaintext_index_0based": 67,
+        "previous": "E",
+        "current": "D",
+        "retained_observed_source_indices_0based": [
+          19,
+          199
+        ],
+        "observed_substitutions_needed": 0
+      },
+      "remaining_geometry_choice": "Excluding source26 retains X at frame25 (J at plaintext15); excluding source27 retains D (Z). The p170 counterpart is a mask, so source alignment does not choose UJVERBASZ over UZVERBASZ.",
+      "limits": [
+        "This is exhaustive only for two exclusions from the 240-slot p160 source aligned with the native 238-slot p170 source. Other error models are not excluded.",
+        "The source dates differ, and minimum cross-witness disagreement does not establish the historical identity or correctness of every coordinate.",
+        "Five observed disagreements remain; matching edited wording still requires separately recorded substitutions."
+      ]
+    },
     "p160_frame": {
       "literal_slots": 240,
       "excluded_observed_source_indices_0based": [
-        19,
+        18,
         26
       ],
       "model_slots": 238,
-      "sha256": "920c2e5bc1afed04606ed2323452bbfbe8974080c7be4a5b5182fbc67a0775fe"
+      "sha256": "26eef4994543a2a8be71e0dd3e9fb001f9f73ef16fd45b092f491c59821e6ebf"
     },
     "p170_frame": {
       "native_slots": 238,
       "sha256": "56bada99189c733ff9e9df463905d9034f11a44682930233a3a79e104e5eacc8"
     },
     "alignment_counts": {
-      "agreement": 230,
-      "disagreement": 6,
+      "agreement": 231,
+      "disagreement": 5,
       "mask": 2
     },
     "disagreeing_coordinates": [
-      {
-        "frame_index_0based": 18,
-        "p160_source_index_0based": 18,
-        "p170_source_index_0based": 18,
-        "p160": "D",
-        "p170": "X",
-        "kind": "disagreement"
-      },
       {
         "frame_index_0based": 46,
         "p160_source_index_0based": 48,
@@ -203,10 +525,10 @@
       }
     ],
     "mask_interpretation": [
-      "The observed p160 source27 X supports p170 source25 X, selecting J at plaintext15 in UJVERBASZ, conditional on the p160 exclusion frame and the parallel relationship.",
+      "The selected p160 map retains source27 X, giving J at plaintext15 in UJVERBASZ. The equally good source-only map [18,27] retains source26 D and gives Z; the p170 mask does not independently select J.",
       "The observed p170 source183 D supports p160 source185 D, selecting G at plaintext43 in BEREITGESTELLT under the same conditional alignment."
     ],
-    "p160_raw": "ALPENKOYPSW2RDUJVERBASZZUMABTRFNSPORTBEREIT?ESTELLTXX219X217XUNU?XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+    "p160_raw": "ALPENKOYPSW2RDUJVERBASZZUMABTRFNSPORTBEREIT?ESTELLTXX219X217XUNU?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
     "p170_raw": "ALPENKORPSWIRDU?VERBASZZUMABTRFNSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT",
     "raw_plaintext_differences": [
       {
@@ -235,11 +557,6 @@
         "second": "D"
       },
       {
-        "position_0based": 67,
-        "first": "E",
-        "second": "D"
-      },
-      {
         "position_0based": 109,
         "first": "G",
         "second": "S"
@@ -250,14 +567,9 @@
         "second": "T"
       }
     ],
-    "p160_edited": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+    "p160_edited": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
     "p170_edited": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT",
     "edited_plaintext_differences": [
-      {
-        "position_0based": 67,
-        "first": "E",
-        "second": "D"
-      },
       {
         "position_0based": 109,
         "first": "G",
@@ -270,17 +582,10 @@
       }
     ],
     "optional_copy_supported_interpretation": {
-      "status": "Separate optional layer; main p160 RE and WERGCHEEZ remain unchanged.",
+      "status": "Separate optional layer; the primary RD is now native under both minimum source-alignment maps. WERGCHEEZ remains literal in the primary edition.",
       "plaintext": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT",
       "ciphertext": "AADDGVXDADADADGGDGXFXGDAVXAADGVGVDVXXXDDDFXVGXXVVFAGDVVXGVVXAXXDGVDAXVFDGDXGVAGXGDVXAAFDFVXFXVDFGXGGVAVGAAFADVVDGVGDVDVADFXVVGFDVDVDXDDVVVVFGGDXADVVVDVGGXXGVVXVGFGDDGFDGXGGVVVDGVXDXDADGXDDXDGDVXXVDVGGXVDGFFDXFVFXGVXDGAADFDVGDDAAGDDFVFDDAG",
       "additional_observed_substitutions_beyond_main": [
-        {
-          "frame_index_0based": 18,
-          "p160_source_index_0based": 18,
-          "p160_literal_coordinate": "D",
-          "main_edition_coordinate": "D",
-          "optional_coordinate": "X"
-        },
         {
           "frame_index_0based": 46,
           "p160_source_index_0based": 48,
@@ -297,7 +602,7 @@
         }
       ],
       "total_cost_against_p160_literal_source": {
-        "known_coordinate_substitutions": 7,
+        "known_coordinate_substitutions": 6,
         "source_mask_fills": 1,
         "excluded_observed_coordinates": 2,
         "excluded_source_masks": 0
@@ -313,7 +618,9 @@
           "XA": "5",
           "plaintext": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND6XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT"
         }
-      ]
+      ],
+      "previous_frame_total_observed_substitutions": 7,
+      "reduction_from_retaining_literal_source19_X": 1
     },
     "same_key_context_reference": {
       "path": "experiments/p170_continuation/military_context.json",
@@ -325,8 +632,8 @@
     },
     "limits": [
       "The November8 and November9 headers differ; this is closely parallel traffic, not a certified identical transmission.",
-      "The 230/6/2 alignment presupposes p160's declared two-coordinate exclusion model. No deletion geometry is inferred solely from this count.",
-      "Six observed disagreements are retained; a parallel witness does not authorize overwriting its conflicting source coordinates."
+      "Both source-only minimum maps have 231 agreements, five disagreements and two masks. The primary [18,26] map chooses one of the two tied maps; the J/Z distinction remains conditional.",
+      "Five observed disagreements are retained; a parallel witness does not authorize overwriting its conflicting source coordinates."
     ]
   },
   "p166_p167_related_context": {
@@ -339,7 +646,7 @@
     "p166_second_part_edited": "ABMARSCH217XIXDXUND?XRXDXNACHNORDENOHNEFEINDBERUEHRUNGXALPENKORPSWIRDUMVERBASZXFRAGEZEICHENXZUMABTRANSPORT",
     "p166_p167_third_part_edited": "BEREITGESTELLTX219XX217XUND?XRXDXSETZEN9X11XMARSCHINLINENAGYBESKEREKXWERSCHETZFORTXOXKXMX1AXNO11319OPX",
     "body_comparison": {
-      "first_literal_text": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+      "first_literal_text": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
       "second_literal_text": "ALPENKORPSWIRDUMVERBASZXFRAGEZEICHENXZUMABTRANSPORTBEREITGESTELLTX219XX217XUND?XRXDXSETZEN9X11XMARSCHINLINENAGYBESKEREKXWERSCHETZFORT",
       "comparison_form": "X removed for this textual comparison only; all other labels retained",
       "first_comparison_positions": 110,
@@ -370,19 +677,6 @@
           ],
           "first": "",
           "second": "FRAGEZEICHEN"
-        },
-        {
-          "operation": "replace",
-          "first_range_0based": [
-            62,
-            63
-          ],
-          "second_range_0based": [
-            74,
-            75
-          ],
-          "first": "E",
-          "second": "D"
         },
         {
           "operation": "delete",
@@ -428,7 +722,7 @@
     },
     "notable_differences": [
       "UJVERBASZ versus UMVERBASZXFRAGEZEICHEN",
-      "RE versus RXD",
+      "RD versus RXD",
       "LINIE versus LINE",
       "WERGCHEEZ versus WERSCHETZ",
       "The p166/p167 version retains the separate O.K.M.1a No11319op footer."
@@ -774,7 +1068,7 @@
       "url": "https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf",
       "specific_prior_message": "p181 A is discussed in section6.4; no first-decipherment priority is claimed for any supplementary message."
     },
-    "new_contribution": "A second source-witness comparison, explicit disagreements, complementary masks and separately priced optional interpretation. No first historical decipherment or new period-key claim.",
+    "new_contribution": "A source-only exhaustive alignment that retains the native RD with one fewer cross-witness disagreement, its explicit J/Z frame ambiguity, complementary masks and separately priced optional interpretation. No first historical decipherment or new period-key claim.",
     "counting": "The new p160/p161 physical records remain seven distinct additions; old p166/p167/p170/p211 records are not counted again."
   },
   "navigation": [

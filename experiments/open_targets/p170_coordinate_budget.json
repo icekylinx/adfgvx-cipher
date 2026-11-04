@@ -1,0 +1,248 @@
+{
+  "schema": "adfgvx-p170-coordinate-budget-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "catalog_id": "p170",
+    "section": "A",
+    "printed_page": 170,
+    "pdf_page_1based": 173,
+    "header": "--- v --- (11.24 p.m., November 9th); RICHI [handwritten 106]",
+    "literal_grouped": "AAGVG VVDAG GAGAV AGGAA VAXGV AAAXF AAXAF AGVGV VVVVG DADAF GDVGV GVGAD XAGAA GXGGA GVFVG XGXAG GGAFA XGFXX AGXVG VFDVX VDFGX V",
+    "literal_compact": "AAGVGVVDAGGAGAVAGGAAVAXGVAAAXFAAXAFAGVGVVVVVGDADAFGDVGVGVGADXAGAAGXGGAGVFVGXGXAGGGAFAXGFXXAGXVGVFDVXVDFGXV",
+    "literal_sha256": "2cdf18dd71917e53d68f1271f1c297a28a40c65dda2285d05eeb726f9b1ae753",
+    "coordinate_counts": {
+      "A": 27,
+      "D": 7,
+      "F": 8,
+      "G": 29,
+      "V": 22,
+      "X": 13
+    },
+    "received_coordinates": 106,
+    "uncertain_slots": 0,
+    "transmitted_numeric_length": null,
+    "handwritten_count": 106
+  },
+  "conditional_scope": "Exactly these 106 received coordinates as a complete 53-character ADFGVX body, with no substitutions and the specified square. Every width, rank order, independent column direction, pair reversal and unassigned digit completion preserves the count constraint.",
+  "proof": "A character contributes one D in row D, one in column D, and two at DD. Any coordinate permutation preserves their total of seven. Omitting nonnegative digit contributions gives the ordinary-letter inequalities.",
+  "keys": [
+    {
+      "key_id": "Nov7-9",
+      "partial_square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+      "partial_square_sha256": "869b1b72c9737135040849f48ef78b637fae47bffe7ff985417a32babef1bf5a",
+      "ordinary_letter_D_coefficients": {
+        "A": 1,
+        "C": 1,
+        "E": 1,
+        "G": 1,
+        "L": 2,
+        "R": 1,
+        "S": 1,
+        "Z": 1
+      },
+      "known_digit_D_coefficients": {
+        "0": 1,
+        "2": 1,
+        "3": 1
+      },
+      "unassigned_D_cells": [],
+      "ordinary_letter_D_budget": 7,
+      "validation": {
+        "unassigned_symbols": "56",
+        "complete_squares_checked": 2,
+        "single_character_coordinate_checks": 72,
+        "ordinary_rank_controls": 6,
+        "independent_column_direction_controls": 6,
+        "fresh_alphanumeric_control_length": 53,
+        "fresh_alphanumeric_control_sha256": "8c2393c3dc6f964783ab5ad9b9584046fbdce5b0091ec3ba3a0693d078d3197b",
+        "control_trace_sha256": "8a994f5a7ea9de295481238464d6b02042a3bf555426beed34b7b7ad331c6e2d"
+      }
+    },
+    {
+      "key_id": "Nov10-12",
+      "partial_square": "4ARUT1OIFSKN3?BZPVLD?JMXCWHQ2E?G0?Y?",
+      "partial_square_sha256": "266ca0b0875e6c315a149780ab472e5c028f6ac5c7315b04dc0bd4bc721909cd",
+      "ordinary_letter_D_coefficients": {
+        "A": 1,
+        "D": 1,
+        "F": 1,
+        "G": 1,
+        "I": 2,
+        "K": 1,
+        "N": 1,
+        "O": 1,
+        "S": 1,
+        "W": 1
+      },
+      "known_digit_D_coefficients": {},
+      "unassigned_D_cells": [
+        "FD"
+      ],
+      "ordinary_letter_D_budget": 7,
+      "validation": {
+        "unassigned_symbols": "56789",
+        "complete_squares_checked": 120,
+        "single_character_coordinate_checks": 4320,
+        "ordinary_rank_controls": 360,
+        "independent_column_direction_controls": 360,
+        "fresh_alphanumeric_control_length": 53,
+        "fresh_alphanumeric_control_sha256": "8c2393c3dc6f964783ab5ad9b9584046fbdce5b0091ec3ba3a0693d078d3197b",
+        "control_trace_sha256": "6d343ca960434f2bdfffc3120aabc4f912086f370b44ccfea6d373aa8eef9c7f"
+      }
+    }
+  ],
+  "operational_references": [
+    {
+      "id": "p155_A1",
+      "key_id": "Nov7-9",
+      "certificate": "data/certificates/p155.json",
+      "source_literal_sha256": "1556964a70230b0e883a937511f4751a430150a34b25445a2796253b68bf0783",
+      "analysis_frame_sha256": "eb2bfa0c9f9f32107fbfa09ea3ef9a2a7ac80acd05b1a7b3e405f76b24f2040a",
+      "known_coordinate_substitutions": 0,
+      "raw_plaintext": "DAMPFERASGARDEINTRIFFTPOTIPOTIIO?AUSSICHTLICHINNAECHSTENTAGENUMDORTBEFINDLBCHETRUPPEN",
+      "raw_plaintext_sha256": "aca7fa064bbff2927cda898613a0dc7413dcb47e7b7c749d5d0dc514a1d581a7",
+      "window_length": 53,
+      "windows": 33,
+      "minimum_known_letter_D_cost": 17,
+      "maximum_known_letter_D_cost": 23,
+      "window_cost_sha256": "335a82667a6ef72cd034904a19bfa7dd5c2a14615f4cae456bcf2b53eb9b595f",
+      "unresolved_character_policy": "Zero contribution; no editorial restoration."
+    },
+    {
+      "id": "p179_B",
+      "key_id": "Nov10-12",
+      "certificate": "experiments/november_armistice_orders/certificates.json",
+      "source_literal_sha256": "0e73af6c6670ebcab0064c09c5413494fd16a011b5fed04c0bb728c1c1e17827",
+      "analysis_frame_sha256": "0e73af6c6670ebcab0064c09c5413494fd16a011b5fed04c0bb728c1c1e17827",
+      "known_coordinate_substitutions": 0,
+      "raw_plaintext": "ZITADELLEXWIDERSTANDAUFGEBENUEBERGABEBEDINGUNGENGORTFESTSETZENXKMX2??3X1?GXANCH",
+      "raw_plaintext_sha256": "52d79cf5a9551a0bbbfc9d8ccdb48d949db71a084b72962baad854ca50595faa",
+      "window_length": 53,
+      "windows": 27,
+      "minimum_known_letter_D_cost": 21,
+      "maximum_known_letter_D_cost": 29,
+      "window_cost_sha256": "cd78347c9341bf57cb030244a7e8e5ba5e0cb31b217ca5b76fb09017bfc6debd",
+      "unresolved_character_policy": "Zero contribution; no editorial restoration."
+    }
+  ],
+  "heldout_sources": [
+    {
+      "id": 71877,
+      "title": "Meine Erinnerungen aus Ostafrika",
+      "author": "Paul Emil von Lettow-Vorbeck",
+      "url": "https://www.gutenberg.org/cache/epub/71877/pg71877.txt",
+      "catalog_url": "https://www.gutenberg.org/ebooks/71877",
+      "sha256": "7f638ecc0316c26fe47bff852f2525300c7f6d95b9111fdaffa1a13aa2292525",
+      "bytes": 761454
+    },
+    {
+      "id": 52118,
+      "title": "Der Wanderer zwischen beiden Welten",
+      "author": "Walter Flex",
+      "url": "https://www.gutenberg.org/cache/epub/52118/pg52118.txt",
+      "catalog_url": "https://www.gutenberg.org/ebooks/52118",
+      "sha256": "1d6fb07727e5f45472004079acdfdb0837bf28d579c6bbfb22954b9fb337d60d",
+      "bytes": 172457
+    }
+  ],
+  "reference_method": "All 53-character sliding windows, stride one, separately within each pinned book and each plain or sentence_x normalization from p73_histogram.py. Only known ordinary-letter D costs are counted. No windows cross books; overlapping or differently normalized windows are not independent evidence.",
+  "interpretation": "A necessary check for proposed readings and a reason to lower the priority of a complete ordinary-German body under these two squares. No key is excluded; no truncation, plaintext or digit assignment is established. Another square, truncation, unusual vocabulary, extensive numerals, code traffic or another language remains possible. Book comparisons are descriptive, not p-values.",
+  "reference_results": [
+    {
+      "key_id": "Nov7-9",
+      "book_id": 71877,
+      "convention": "plain",
+      "normalized_characters": 607557,
+      "normalized_sha256": "73765a8733abb420cfb7df6a6124b8dd550552bf2e31d8aabd4da2f03ea17fe7",
+      "window_length": 53,
+      "window_stride": 1,
+      "windows": 607505,
+      "minimum_ordinary_letter_D_cost": 12,
+      "windows_at_most_seven": 0
+    },
+    {
+      "key_id": "Nov10-12",
+      "book_id": 71877,
+      "convention": "plain",
+      "normalized_characters": 607557,
+      "normalized_sha256": "73765a8733abb420cfb7df6a6124b8dd550552bf2e31d8aabd4da2f03ea17fe7",
+      "window_length": 53,
+      "window_stride": 1,
+      "windows": 607505,
+      "minimum_ordinary_letter_D_cost": 10,
+      "windows_at_most_seven": 0
+    },
+    {
+      "key_id": "Nov7-9",
+      "book_id": 71877,
+      "convention": "sentence_x",
+      "normalized_characters": 623294,
+      "normalized_sha256": "419b858eb18a3e5d62bd519690b853f368d11dcd2c2c5f90a8e73a7b530ac48b",
+      "window_length": 53,
+      "window_stride": 1,
+      "windows": 623242,
+      "minimum_ordinary_letter_D_cost": 10,
+      "windows_at_most_seven": 0
+    },
+    {
+      "key_id": "Nov10-12",
+      "book_id": 71877,
+      "convention": "sentence_x",
+      "normalized_characters": 623294,
+      "normalized_sha256": "419b858eb18a3e5d62bd519690b853f368d11dcd2c2c5f90a8e73a7b530ac48b",
+      "window_length": 53,
+      "window_stride": 1,
+      "windows": 623242,
+      "minimum_ordinary_letter_D_cost": 9,
+      "windows_at_most_seven": 0
+    },
+    {
+      "key_id": "Nov7-9",
+      "book_id": 52118,
+      "convention": "plain",
+      "normalized_characters": 120032,
+      "normalized_sha256": "a9390dca84ef19d66e225680cdd17ceab75a8001a3ee66fd11ddf4a5dda7f1c4",
+      "window_length": 53,
+      "window_stride": 1,
+      "windows": 119980,
+      "minimum_ordinary_letter_D_cost": 15,
+      "windows_at_most_seven": 0
+    },
+    {
+      "key_id": "Nov10-12",
+      "book_id": 52118,
+      "convention": "plain",
+      "normalized_characters": 120032,
+      "normalized_sha256": "a9390dca84ef19d66e225680cdd17ceab75a8001a3ee66fd11ddf4a5dda7f1c4",
+      "window_length": 53,
+      "window_stride": 1,
+      "windows": 119980,
+      "minimum_ordinary_letter_D_cost": 13,
+      "windows_at_most_seven": 0
+    },
+    {
+      "key_id": "Nov7-9",
+      "book_id": 52118,
+      "convention": "sentence_x",
+      "normalized_characters": 123612,
+      "normalized_sha256": "2ae8c75d6b4066feb5da90ec7d6a5679deb48458c31f062c23a72ad257520d53",
+      "window_length": 53,
+      "window_stride": 1,
+      "windows": 123560,
+      "minimum_ordinary_letter_D_cost": 15,
+      "windows_at_most_seven": 0
+    },
+    {
+      "key_id": "Nov10-12",
+      "book_id": 52118,
+      "convention": "sentence_x",
+      "normalized_characters": 123612,
+      "normalized_sha256": "2ae8c75d6b4066feb5da90ec7d6a5679deb48458c31f062c23a72ad257520d53",
+      "window_length": 53,
+      "window_stride": 1,
+      "windows": 123560,
+      "minimum_ordinary_letter_D_cost": 12,
+      "windows_at_most_seven": 0
+    }
+  ]
+}

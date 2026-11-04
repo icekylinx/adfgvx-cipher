@@ -10,7 +10,7 @@ Source: Childs, printed pp.160–161 (PDF pp.163–164). [Source images and inpu
 
 Header: `A) UKS v ZON (11.44 p.m., November 8th); 1915 (8/11) 2 TLE; 2 TL; RICHI-238`.
 
-Literal 240 versus advertised 238. The two six-character groups occupy source 15–20 and 26–31; the primary conditional frame excludes 19 and 26. The first part of this physical p160 transmission is not identified. ZON is a separate cleartext footer. WERGCHEEZ and NAGYBESKEREK stay literal.
+Literal 240 versus advertised 238. The two six-character groups occupy source 15–20 and 26–31; the primary conditional frame excludes 18 and 26. This is one of the two best alignments with the independently transcribed p170 B2 source. Both retain the observed coordinates that give `RD`; they differ between `UJVERBASZ` and `UZVERBASZ`, which the parallel's mask cannot resolve. The displayed reading retains the former branch. The first part of this physical p160 transmission is not identified. ZON is a separate cleartext footer. WERGCHEEZ and NAGYBESKEREK stay literal.
 
 The source has **240 slots** (239 valid coordinates). The conditional model has 238 slots / 119 plaintext positions: 117 fixed raw, 118 fixed after the stated edits.
 
@@ -22,20 +22,20 @@ The source has **240 slots** (239 valid coordinates). The conditional model has 
 **Raw output** — under the explicitly conditional exclusion frame:
 
 ```text
-ALPENKOYPSW2RDUJVERBASZZUMABTRFNSPORTBEREIT?ESTELLTXX219X217XUNU?XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT
+ALPENKOYPSW2RDUJVERBASZZUMABTRFNSPORTBEREIT?ESTELLTXX219X217XUNU?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT
 ```
 
 **Edited output** — changes and source offsets are enumerated in the certificate:
 
 ```text
-ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT
+ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT
 ```
 
 </details>
 
 **Readable German** — spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:
 
-> Alpenkorps wird Ujverbasz zum Abtransport bereitgestellt. 219, 217 und ? Re. setzen 9.11 Marsch in Linie Nagybeskerek, Wergcheez fort.
+> Alpenkorps wird Ujverbasz zum Abtransport bereitgestellt. 219, 217 und ? Rd. setzen 9.11 Marsch in Linie Nagybeskerek, Wergcheez fort.
 
 ## Parallel traffic and an additional interpretation
 
@@ -45,24 +45,43 @@ source headers differ: this p160 transmission is received on November 8,
 while p170 B is received on November 9. The parallel does not identify the
 missing physical first part of this particular p160 transmission.
 
-Under the explicitly stated 238-slot p160 exclusion frame, its alignment
-with p170 B2 has **230 known-coordinate agreements, six known disagreements
-and two complementary masks**. P160 frame 25 (literal source 27) supplies X
-where p170 has a mask, supporting the latter's proposed J in `UJVERBASZ`.
-P170 frame 183 supplies D where p160 source 185 is a dash, supporting the
-p160 fill in `BEREITGESTELLT`. These are conditional cross-witness supports;
-all six disagreements remain recorded.
+The source-only audit compares **all 28,680 two-coordinate exclusion maps**
+with the untouched 238-slot p170 B2 source. It uses no proposed German text,
+word score or completed square to choose the maps. Exactly two maps attain
+the minimum of five observed disagreements:
 
-**Conditional interpretation:** substituting the parallel's `RD` and
-`WERSCHETZ` for the primary `RE` and `WERGCHEEZ` costs **three additional
-observed-coordinate substitutions** at p160 source 18 D→X, source 48 G→X
-and source 192 D→G. Its total is seven observed substitutions, one printed-mask
-fill and two observed exclusions. This separately priced interpretation is
-not substituted into the primary edited or readable stream above.
+| Excluded p160 source positions | Known agreements / disagreements / masks | Native name-like token | Native abbreviation |
+|---|---:|---|---|
+| 18, 26 | 231 / 5 / 2 | `UJVERBASZ` | `RD` |
+| 18, 27 | 231 / 5 / 2 | `UZVERBASZ` | `RD` |
+
+The previous frame excluded 19 and 26 and had six disagreements. Both new
+minimum maps instead exclude source 18 `D`, retaining source 19 `X`.
+Together with source 199 `V`, that observed coordinate gives square cell
+`XV` = `D` at plaintext position 67. **`RD` therefore needs no coordinate
+substitution under either minimum map.** This sharpens the frame without
+increasing the fixed-position count: each map fixes 117 of 119 raw positions,
+and 116 positions have the same fixed label across both maps.
+
+The second exclusion remains conditional. Retaining source 27 `X` gives
+`J`; retaining source 26 `D` gives `Z`. P170 frame 25 is a mask, so the
+source comparison cannot independently select `UJVERBASZ`. By contrast,
+p170 frame 183 supplies `D` where p160 source 185 is a dash under both
+maps, supporting the fill in `BEREITGESTELLT`. All five observed disagreements
+remain recorded.
+
+**Conditional interpretation:** substituting the parallel's `WERSCHETZ`
+for the primary `WERGCHEEZ` costs **two additional observed-coordinate
+substitutions**, at p160 source 48 G→X and source 192 D→G. Its total is
+**six observed substitutions**, one printed-mask fill and two observed
+exclusions: one fewer substitution than under the previous frame. This
+separately priced interpretation is not substituted into the primary edited
+or readable stream above. The shared `ABTRFNSPORT` raw spelling still needs
+its stated editorial correction; agreement between copies does not correct it.
 
 The [parallel certificate](../../experiments/nov8_radio_keys_and_reports/parallel_witnesses.json)
-retains every source and plaintext difference, prior record identity and both
-complete 5/6 key witnesses. The earlier operational case's historical unit
+retains every source and plaintext difference, both minimum source-alignment
+maps, prior record identity and both complete 5/6 key witnesses. The earlier operational case's historical unit
 identification remains a separate context layer; no unknown digit is filled
 in this source edition. No previously cataloged parallel is counted again.
 

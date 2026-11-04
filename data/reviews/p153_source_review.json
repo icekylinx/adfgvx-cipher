@@ -171,5 +171,15 @@
     ],
     "evidence": "The primary report describes daily changes of call names from March 1918 and deliberate lateral traffic intended to obscure formation boundaries. Printed page 23 was visually checked.",
     "limit": "This provides a general reason to require date-specific evidence before identifying CGH or FKR with a unit. It does not identify either call sign or establish the geographic origin of p153."
+  },
+  "full_page_header_followup": {
+    "review": "experiments/p153_headers/review.json",
+    "printed_pages_inclusive": [
+      56,
+      230
+    ],
+    "full_pages_ocr": 175,
+    "result": "The independently re-OCRed full intercept log retrieves the known p153 FKR/CGH header and 2250 field, but no additional matching part. Source-image inspection excludes the retrieved near-call-sign artifacts.",
+    "limit": "Complete OCR page coverage does not prove that a badly recognized or differently headed companion is absent."
   }
 }

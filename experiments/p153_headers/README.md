@@ -1,7 +1,7 @@
-# p153: bounded full-page header follow-up
+# p153: full-log header follow-up
 
 **No additional early part or retransmission was found.** This follow-up
-independently OCRs all 31 complete printed pages 140–170 of the Childs
+independently OCRs all **175 complete printed log pages, 56–230**, of the Childs
 collection. It searches the whole page rather than only the header context
 retained beside extracted ciphertext blocks. It adds a documented coverage
 check; it does not recover plaintext or prove that parts 1–4 are absent from
@@ -16,15 +16,19 @@ and [p153_corpus](../p153_corpus/README.md).
 Every complete three-character alphanumeric OCR token was compared with
 `FKR` and `CGH`, allowing at most one substitution. The clear field `2250`
 was also searched exactly. Only p153 produced the actual target call signs
-and clear field. Two approximate matches were visually excluded.
+and clear field. The full pass retrieves **46 token-matching lines** and one
+`2250` line. Eighteen matches are the word `FUR`, three are `FOR`, and eighteen
+are the analyst's `(chh)` initials. The remaining near-matches were checked
+against the original images.
 
 | Printed page | OCR lead or review | Finding from the original image |
 |---:|---|---|
+| 56, 122, 163, 225 | `CEH`, `CUH`, `COH`, `C7H` | Artifacts in the spaced `RICHI` report title. |
 | 152 | Immediate preceding page | UKS/ZON and NKJ/LP traffic; no CGH/FKR continuation identified. |
 | 153 | `FKR`, `CGH`, `2250` | Confirms the known parts 5 and 6, dated 8 November 1918. |
-| 154 | `CHH` | Analyst initials at the top of the page; the traffic uses UKS/ZON. |
-| 163 | `COH` | OCR artifact in the spaced `RICHI` title; the traffic header is `--- v UKS`. |
-| 223 | Earlier corpus's `FHR` near-match | Separate visual check confirms `AN LP v FHR`, with `KOW v RVA` and 27 November. The letter is H, not K. |
+| 154 and 17 later pages | `CHH` | Every retrieved header was visually checked; these are analyst initials. Exact pages are in the review record. |
+| 209 | `FIR` | OCR artifact in the American Expeditionary Forces letterhead. |
+| 223 | `FHR` | The image confirms `AN LP v FHR`, with `KOW v RVA` and 27 November. The letter is H, not K. |
 
 The p153 control also shows the limits of OCR: this pass recognizes both call
 signs but reads the date as `3th` and the first advertised length as `133`.
@@ -36,7 +40,10 @@ OCR hash, the exact matching lines, visual verdicts and all scope limits. Full
 page images and full OCR remain research intermediates and are not included
 in the repository. The primary source is the
 [public Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view);
-printed page `n` is PDF page `n+3` in this range.
+printed page `n` is PDF page `n+3` in this range. This complete log pass
+supersedes the earlier 31-page check of printed pages 140–170; it does not
+establish that differently headed or badly misrecognized companion parts are
+absent.
 
 ## Reproduce
 

@@ -308,11 +308,11 @@
       "analysis_source": "AADDGVXDADADADGGDGDXFXGDAVDXAADGVGVDVXXXDDDFXVGXGVVFAGDVVXGVVXAXXDGVDAXVFDGDXGVAGXGDVXAAFDFVXFXVDFGXGGVAVGAAFADVVDGVGDVDVADFXVVGFDVDVDXDXVVVVFGGDXADVVVDVGGXXGVVXVGFGDDGFDDXGGVVVDGVXDXDA?GADDXDDGVXXVDVGGXVDGFFDXFVFXGVXDGAADFDVGDDAAGDDFVFDDAG",
       "advertised_length": 238,
       "excluded_source_indices": [
-        19,
+        18,
         26
       ],
-      "expected_raw": "ALPENKOYPSW2RDUJVERBASZZUMABTRFNSPORTBEREIT?ESTELLTXX219X217XUNU?XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
-      "editorial_text": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+      "expected_raw": "ALPENKOYPSW2RDUJVERBASZZUMABTRFNSPORTBEREIT?ESTELLTXX219X217XUNU?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+      "editorial_text": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
       "expected_source_changes": [
         [
           136,
@@ -353,7 +353,7 @@
           "edited": "I"
         }
       ],
-      "notes": "Literal240 versus advertised238. The two six-character groups occupy source15..20 and26..31; the primary conditional frame excludes19 and26. The first part is not identified. ZON is a separate cleartext footer. WERGCHEEZ and NAGYBESKEREK stay literal."
+      "notes": "Literal 240 versus advertised 238. The six-character groups occupy source 15–20 and 26–31. The primary conditional frame excludes 18 and 26: one of two source-only minima against the native p170 B2 witness. Both minima retain source19 X and decode RD without substitution; the alternative [18,27] gives UZVERBASZ instead of UJVERBASZ. The first part is not identified. ZON is a separate cleartext footer. WERGCHEEZ and NAGYBESKEREK stay literal."
     },
     {
       "id": "p160_B1",
@@ -654,7 +654,7 @@
     "Seven physical source parts, not seven independent first decipherments. Published period-key authorship and earlier OCR candidate work are retained.",
     "The Nov7-9 published square has two missing cells, jointly assigned5/6 in compatibility witnesses; neither completion is selected historically and no published key is changed.",
     "Observed substitutions, printed-mask fills, observed exclusions and excluded masks are distinct costs. No new coordinates are inserted.",
-    "Exclusion enumeration prices a supplied plaintext template. It does not search all plaintexts or establish a unique historical error mechanism.",
+    "The main exclusion enumeration prices a supplied plaintext template. The separate source-only parallel audit compares all two-exclusion maps with untouched p170 B2, retaining two tied minima; neither audit establishes a unique historical error mechanism.",
     "The Ringbahn body describes key-use instructions, not the recovery of an additional secret square or permutation.",
     "Geographic spellings, abbreviations, literal numeral labels and the unfilled B2 source mask remain visible; first-part context of A2 is still missing."
   ]

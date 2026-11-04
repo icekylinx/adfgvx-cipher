@@ -24,6 +24,16 @@ An intercepted [Hungarian armistice exchange](../../cases/military/hungarian_arm
 
 A separate [Transylvania situation report](../../cases/military/transylvania_situation_report.md) begins with the phrase **“VOELLIGE DEROUTE IN SIEBENBUERGEN”**—complete rout in Transylvania—and links the military position to Hungary's armistice. Later surviving parts discuss security measures, the removal of material, and political circumstances not fully known at the reporting end. Two parts are still unlocated and the headers do not agree neatly. Even without forcing them into a single hour-by-hour narrative, the surviving text shows military planning being overtaken by political decisions and incomplete information.
 
+## Six trains a day—for each army
+
+The practical importance of Hungarian cooperation also appears in a contemporary public report. Under the heading **“Die Armee Mackensen,”** the *Central-Volksblatt* of 14 November carries a WTB dispatch from Berlin dated 12 November. Citing the German liaison officer in Budapest, it reports that the Hungarian government had made **six trains daily available to each of the Eleventh Army and Mackensen's army** for their removal. The crucial word is **je**: the six trains are stated for each army. [Original front page, Stadtarchiv Werl](https://www.werl.de/fileadmin/user_upload/Stadtarchiv/Titelseiten_aus_dem_Central-Volksblatt/14._November_1918.pdf).
+
+![The contemporary report of six daily trains for each army](../../sources/excerpts/central_volksblatt_19181114_mackensen.png)
+
+*Central-Volksblatt, no. 265, 63rd year, Arnsberg and Werl, 14 November 1918, front page, lower right column. The dispatch is dated 12 November; the newspaper appeared two days later. [Source record, date strip and exact crop provenance](../../data/reviews/mackensen_railway_press.json).*
+
+Read beside the Arad provisioning request and the negotiations over passage, this report supplies a concrete measure of the transport capacity said to have been promised. The tasks were connected: food and fodder had to be available at the route's staging points, while another government controlled the trains needed to leave. The newspaper records an announced allocation. It does not establish that six trains ran each day, how much they carried, or whether they were the supply trains requested for Arad. Its 12 November dispatch also precedes the Belgrade convention of 13 November, so it should not be described as that convention's implementation.
+
 ## Headquarters on the move
 
 ![Detail of AOK 11 map no. 9, showing O.K. Mackensen at Nagyszeben (Hermannstadt) and O.K. Scholtz at Calimanesti](../../experiments/p163_headquarters_map_context/sources/tsamo274_headquarters.png)
@@ -56,6 +66,6 @@ This letter, too, belongs to the previously published historical core. Read besi
 
 ### Evidence and contribution
 
-The major new contribution in this dossier is the **two-copy restoration of the Arad report**, including its source-observed 80,000 figure. Other contributions are connected source editions, recovered part boundaries, local frame repairs and the independently documented map comparison. The Romanian ultimatum and the damaged fifth part of the Mackensen appeal remain explicitly reconstructed readings. Their linked case pages preserve the alternatives and exact costs. Childs and Lasry, Niebel, Kopal and Wacker retain credit for the previously published withdrawal, appeal and internment narratives; the [review of prior work](README.md#what-this-edition-contributes) defines our claims.
+The major new contribution in this dossier is the **two-copy restoration of the Arad report**, including its source-observed 80,000 figure. Other contributions are connected source editions, recovered part boundaries, local frame repairs and the independently documented map and press comparisons. The newspaper adds contemporary transport context; it supplies no ciphertext or additional deciphered letters. The Romanian ultimatum and the damaged fifth part of the Mackensen appeal remain explicitly reconstructed readings. Their linked case pages preserve the alternatives and exact costs. Childs and Lasry, Niebel, Kopal and Wacker retain credit for the previously published withdrawal, appeal and internment narratives; the [review of prior work](README.md#what-this-edition-contributes) defines our claims.
 
 **Research and historical synthesis: icekylinx and GPT-6 Astra Pro, 4 November 2026.**

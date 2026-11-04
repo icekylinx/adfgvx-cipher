@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro (2026)**
 
-This package continues the investigation of **p73, p170, and p198 section D**. It contributes a transposition-independent constraint for p73, calibrated new search coverage, explicit failed controls, and reproducible source-preserving candidates. **None of these three target bodies is deciphered by this package.** A language model's highest-scoring string is not presented as their most likely plaintext.
+This package continues the investigation of **p73, p170, and p198 section D**. It contributes transposition-independent constraints for p73 and p170, calibrated new search coverage, explicit failed controls, and reproducible source-preserving candidates. **None of these three target bodies is deciphered by this package.** A language model's highest-scoring string is not presented as their most likely plaintext.
 
 The source investigation also found useful near-parallel traffic on pp. 197–198. Those results have their own [transport follow-up](../transport_followup/README.md) and [certificate](../../data/certificates/p197_p198_transport.json). The readable neighboring sections B and E do not solve the target section D.
 
@@ -17,6 +17,22 @@ Two held-out German war books put p73 beyond every reference window under both r
 This evidence lowers the priority of Nov7–9 reuse under the tested ordinary-German prose assumptions. It does not identify a replacement key or exclude names, digits, code groups, a different language, or additional source damage. See the [full coordinate-count report](P73_HISTOGRAM.md), including source URLs, assumptions, and descriptive reference fractions.
 
 ![p73 known coordinate counts and held-out reference means](p73_coordinate_profile.svg)
+
+### p170: seven D coordinates constrain every complete-body reading
+
+The source's seven Ds impose exact weighted ordinary-letter count bounds under
+the adjacent Nov7–9 and Nov10–12 squares, if all 106 received coordinates form
+one complete 53-character body. These bounds are independent of width, rank,
+column direction and unresolved digit assignments. No 53-character window in
+either pinned German reference book meets them under joined or sentence-X
+normalization; two unrestored operational references also exceed them.
+
+The [case explanation](../../cases/p170.md#coordinate-count-constraint-for-a-complete-body)
+gives the equations and limits. The compact [evidence record](p170_coordinate_budget.json)
+is reproduced by `python experiments/open_targets/p170_coordinate_budget.py`;
+add `--cache /path/to/heldout-books` to recompute all reference windows.
+This is a necessary check on future candidates, not a key exclusion or proof
+of truncation.
 
 ### p198 D: a concrete neighboring-group hypothesis was tested
 

@@ -58,6 +58,14 @@ rejects duplicate physical locations instead of allowing an overlap exception.
 | [p145 A](../cases/open/p145_A.md) | What remains identifiable in the incomplete transmission without imposing a long guessed message? |
 | [p194 D1](../cases/open/p194_D1.md) | Can the short reception be connected to an independently received overlap? |
 
+For [p170 A](../cases/p170.md#coordinate-count-constraint-for-a-complete-body),
+the seven received D coordinates now give exact ordinary-letter count bounds
+under the Nov7–9 and Nov10–12 squares, independent of every column order and
+direction. Neither pinned German reference book contains a 53-character window
+meeting either bound under the two tested normalizations. This reduces the
+priority of those complete-body models; it does not exclude the squares or
+prove that the source is truncated.
+
 The [all-seven contact diagnosis](../experiments/open_target_contact_diagnosis/README.md)
 compares every tested key/frame family with matched shuffled sources. Six
 nearby known-message controls recover their correct rank order; the open
@@ -79,6 +87,7 @@ bodies, and they are not advertised as complete solutions.
 
 | Source | Present result and remaining limit |
 |---|---|
+| [p160 Alpenkorps report](../cases/military/nov8_alpenkorps_report.md) | All 28,680 two-exclusion maps against the native p170 copy leave two minimum frames. Both directly read **RD**, removing one extra substitution from the extended interpretation; the **UJVERBASZ / UZVERBASZ** choice remains unresolved by the source. |
 | [p164a](../cases/p164a.md) | **BESATZUNGSHEER** matches all 18 received halves at zero substitutions; the combined conditional layer reaches 104/121 positions. |
 | [p163, parts 13 and 15](../cases/military/p163_A.md) | Repeated **NACHHUTSTELLUNG** supports a 116/117-position part-15 proposal; the corps digit remains coupled and unresolved. |
 | [p163 jammed continuation](../cases/military/p163_infrastructure_clause.md) | A 59-position infrastructure clause fits all 121 received coordinates; the inferred frame and six wholly absent letters remain conditional. |

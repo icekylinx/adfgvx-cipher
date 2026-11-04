@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify bounded parallel-witness comparisons without changing either edition.
+"""Verify source-only frame alignment and bounded parallel-witness comparisons.
 
 Prepared by icekylinx and GPT-6 Astra Pro. The default is verification;
 --write explicitly regenerates parallel_witnesses.json. Standard library only.
@@ -7,6 +7,7 @@ Prepared by icekylinx and GPT-6 Astra Pro. The default is verification;
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import difflib
 import hashlib
 import itertools
@@ -88,6 +89,89 @@ def text_comparison(first, second):
             "limit": "SequenceMatcher diagnostics are not an optimal alignment certificate or a claim that the two transmissions are identical."}
 
 
+def source_exclusion_alignment(source, parallel, ranks, square):
+    """Score every two-exclusion map using untouched coordinates only.
+
+    The key is used only to describe the minimum maps after their source-only
+    selection. No proposed plaintext or language score enters the comparison.
+    """
+    assert len(source) == 240 and len(parallel) == 238
+    histogram, minimum, winners = Counter(), None, []
+    for excluded in itertools.combinations(range(len(source)), 2):
+        first, second = excluded
+        frame = source[:first] + source[first + 1:second] + source[second + 1:]
+        cost = sum(a in COORDINATES and b in COORDINATES and a != b
+                   for a, b in zip(frame, parallel))
+        histogram[cost] += 1
+        if minimum is None or cost < minimum:
+            minimum, winners = cost, []
+        if cost == minimum:
+            winners.append(excluded)
+    assert sum(histogram.values()) == 28680
+    assert minimum == 5 and winners == [(18, 26), (18, 27)]
+    witnesses, raw_domains = [], []
+    for excluded in winners:
+        origins = [i for i in range(len(source)) if i not in excluded]
+        frame = ''.join(source[i] for i in origins)
+        decoded = inverse(frame, ranks, square)
+        raw_domains.append(decoded['domains'])
+        masks = [{'frame_index_0based': i, 'p160_source_index_0based': origins[i],
+                  'p160': a, 'p170': b}
+                 for i, (a, b) in enumerate(zip(frame, parallel)) if '?' in (a, b)]
+        witnesses.append({
+            'excluded_source_indices_0based': list(excluded),
+            'excluded_observed_coordinates': sum(source[i] in COORDINATES for i in excluded),
+            'excluded_source_masks': sum(source[i] not in COORDINATES for i in excluded),
+            'alignment_counts': {'agreement': 238 - minimum - len(masks),
+                                 'disagreement': minimum, 'mask': len(masks)},
+            'frame': frame, 'raw_plaintext': decoded['plaintext'],
+            'unresolved_raw_domains': [{'plaintext_index_0based': i, 'domain': domain}
+                                      for i, domain in enumerate(decoded['domains']) if len(domain) > 1],
+            'complementary_masks': masks,
+            'plaintext_67_coordinate_evidence': {
+                'coordinates': decoded['interim'][134:136],
+                'p160_source_indices_0based': [origins[i] for i in decoded['interim_source_indices'][134:136]],
+                'raw_label': decoded['plaintext'][67],
+            },
+        })
+    assert all(w['plaintext_67_coordinate_evidence'] == {
+        'coordinates': 'XV', 'p160_source_indices_0based': [19, 199], 'raw_label': 'D'}
+        for w in witnesses)
+    union = [''.join(sorted(set().union(*(set(domains[i]) for domains in raw_domains))))
+             for i in range(119)]
+    assert union[15] == 'JZ'
+    assert sum(len(d) == 1 for d in union) == 116
+    previous_origins = [i for i in range(len(source)) if i not in (19, 26)]
+    previous = ''.join(source[i] for i in previous_origins)
+    previous_disagreements = sum(a in COORDINATES and b in COORDINATES and a != b
+                                 for a, b in zip(previous, parallel))
+    assert previous_disagreements == 6
+    return {
+        'method': 'All unordered pairs of excluded p160 source positions; retained observed coordinates are compared with the untouched native p170 source, with either-source masks unscored.',
+        'plaintext_or_language_used_to_select_maps': False,
+        'completed_exclusion_sets': sum(histogram.values()),
+        'observed_disagreement_histogram': {str(k): v for k, v in sorted(histogram.items())},
+        'minimum_observed_disagreements': minimum,
+        'all_minimum_maps': witnesses,
+        'minimum_map_count': len(witnesses),
+        'next_distinct_disagreement_cost': min(k for k in histogram if k > minimum),
+        'next_cost_map_count': histogram[minimum + 1],
+        'previous_selected_frame': {'excluded_source_indices_0based': [19, 26],
+                                    'observed_disagreements': previous_disagreements,
+                                    'raw_plaintext': inverse(previous, ranks, square)['plaintext']},
+        'all_minimum_unresolved_domains': [{'plaintext_index_0based': i, 'domain': domain}
+                                          for i, domain in enumerate(union) if len(domain) > 1],
+        'all_minimum_common_fixed_plaintext_positions': sum(len(d) == 1 for d in union),
+        'new_native_label': {'plaintext_index_0based': 67, 'previous': 'E', 'current': 'D',
+                            'retained_observed_source_indices_0based': [19, 199],
+                            'observed_substitutions_needed': 0},
+        'remaining_geometry_choice': 'Excluding source26 retains X at frame25 (J at plaintext15); excluding source27 retains D (Z). The p170 counterpart is a mask, so source alignment does not choose UJVERBASZ over UZVERBASZ.',
+        'limits': ['This is exhaustive only for two exclusions from the 240-slot p160 source aligned with the native 238-slot p170 source. Other error models are not excluded.',
+                   'The source dates differ, and minimum cross-witness disagreement does not establish the historical identity or correctness of every coordinate.',
+                   'Five observed disagreements remain; matching edited wording still requires separately recorded substitutions.'],
+    }
+
+
 def build():
     bound_files = {}
 
@@ -136,7 +220,7 @@ def build():
     key = new["key"]
     ranks, square = key["column_rank_order"], key["square"]
     assert second["column_rank_order"] == ranks and second["partial_square"] == square
-    assert first["excluded_source_indices"] == [19, 26]
+    assert first["excluded_source_indices"] == [18, 26]
     source = "".join("".join(first["rows"]).split())
     assert source == first["literal_source"]
     analysis = "".join(c if c in COORDINATES else "?" for c in source)
@@ -148,6 +232,7 @@ def build():
     second_frame = "".join(c if c in COORDINATES else "?" for c in old_literal)
     assert second_frame == second["analysis_ciphertext"]
     assert len(first_frame) == len(second_frame) == 238
+    source_alignment = source_exclusion_alignment(analysis, second_frame, ranks, square)
     first_raw = inverse(first_frame, ranks, square)
     second_raw = inverse(second_frame, ranks, square)
     assert first_raw["plaintext"] == first["expected_raw"]
@@ -159,8 +244,8 @@ def build():
                         "p170_source_index_0based": i, "p160": a, "p170": b, "kind": kind})
     counts = {kind: sum(row["kind"] == kind for row in aligned)
               for kind in ("agreement", "disagreement", "mask")}
-    assert counts == {"agreement": 230, "disagreement": 6, "mask": 2}
-    assert [row["frame_index_0based"] for row in aligned if row["kind"] == "disagreement"] == [18, 46, 168, 185, 190, 191]
+    assert counts == {"agreement": 231, "disagreement": 5, "mask": 2}
+    assert [row["frame_index_0based"] for row in aligned if row["kind"] == "disagreement"] == [46, 168, 185, 190, 191]
     assert [(row["frame_index_0based"], row["p160_source_index_0based"], row["p160"], row["p170"])
             for row in aligned if row["kind"] == "mask"] == [(25, 27, "X", "?"), (183, 185, "?", "D")]
 
@@ -169,7 +254,6 @@ def build():
     current_witness = new_certificates["p160_A2"]["reencrypted_analysis_witness"]
     assert inverse(current_witness, ranks, square)["plaintext"] == first["editorial_text"]
     assert differences(first["editorial_text"], old_edited) == [
-        {"position_0based": 67, "first": "E", "second": "D"},
         {"position_0based": 109, "first": "G", "second": "S"},
         {"position_0based": 113, "first": "E", "second": "T"},
     ]
@@ -185,14 +269,20 @@ def build():
                                   "p160_literal_coordinate": analysis[new_origins[index]],
                                   "main_edition_coordinate": before,
                                   "optional_coordinate": after})
-    assert len(extra_changes) == 3
+    assert len(extra_changes) == 2
     optional_cost = {
         "known_coordinate_substitutions": sum(a != "?" and a != b for a, b in zip(first_frame, optional_witness)),
         "source_mask_fills": sum(a == "?" and b != "?" for a, b in zip(first_frame, optional_witness)),
         "excluded_observed_coordinates": 2, "excluded_source_masks": 0,
     }
-    assert optional_cost == {"known_coordinate_substitutions": 7, "source_mask_fills": 1,
+    assert optional_cost == {"known_coordinate_substitutions": 6, "source_mask_fills": 1,
                              "excluded_observed_coordinates": 2, "excluded_source_masks": 0}
+    previous_frame = ''.join(c for i, c in enumerate(analysis) if i not in (19, 26))
+    previous_optional = ''.join(a if b == '?' else b for a, b in zip(previous_frame, stencil))
+    previous_optional_substitutions = sum(a in COORDINATES and a != b
+                                          for a, b in zip(previous_frame, previous_optional))
+    assert previous_optional_substitutions == 7
+    assert inverse(previous_optional, ranks, square)['plaintext'] == old_edited
     compatibility = []
     missing_cells = [i for i, value in enumerate(square) if value == "?"]
     assert missing_cells == [26, 30]
@@ -239,22 +329,23 @@ def build():
                        "p211_joined_plaintext_start_0based": previous_radio.index(previous)})
 
     return {
-        "schema": "adfgvx-nov8-parallel-witness-comparison-v1",
+        "schema": "adfgvx-nov8-parallel-witness-comparison-v2",
         "authors": "icekylinx and GPT-6 Astra Pro",
-        "scope": "Bounded comparisons of already declared source frames and edited candidates; no new source transcription, baseline-key assignment or replacement of either edition.",
+        "scope": "Exhaustive source-only two-exclusion alignment of p160 A2 with p170 B2, followed by bounded comparisons of declared frames and edited candidates; no source glyph or baseline-key assignment is changed.",
         "source_files": bound_files,
         "source_images": images,
         "p160_A2_p170_B2": {
             "p160_header": first["header_literal"], "p170_header": second["source"]["header_transcription"],
             "key_id": key["id"], "square": square, "column_rank_order": ranks,
-            "p160_frame": {"literal_slots": len(source), "excluded_observed_source_indices_0based": [19, 26],
+            "source_only_exclusion_alignment": source_alignment,
+            "p160_frame": {"literal_slots": len(source), "excluded_observed_source_indices_0based": [18, 26],
                            "model_slots": len(first_frame), "sha256": digest(first_frame.encode())},
             "p170_frame": {"native_slots": len(second_frame), "sha256": digest(second_frame.encode())},
             "alignment_counts": counts,
             "disagreeing_coordinates": [row for row in aligned if row["kind"] == "disagreement"],
             "complementary_masks": [row for row in aligned if row["kind"] == "mask"],
             "mask_interpretation": [
-                "The observed p160 source27 X supports p170 source25 X, selecting J at plaintext15 in UJVERBASZ, conditional on the p160 exclusion frame and the parallel relationship.",
+                "The selected p160 map retains source27 X, giving J at plaintext15 in UJVERBASZ. The equally good source-only map [18,27] retains source26 D and gives Z; the p170 mask does not independently select J.",
                 "The observed p170 source183 D supports p160 source185 D, selecting G at plaintext43 in BEREITGESTELLT under the same conditional alignment.",
             ],
             "p160_raw": first_raw["plaintext"], "p170_raw": second_raw["plaintext"],
@@ -262,11 +353,13 @@ def build():
             "p160_edited": first["editorial_text"], "p170_edited": old_edited,
             "edited_plaintext_differences": differences(first["editorial_text"], old_edited),
             "optional_copy_supported_interpretation": {
-                "status": "Separate optional layer; main p160 RE and WERGCHEEZ remain unchanged.",
+                "status": "Separate optional layer; the primary RD is now native under both minimum source-alignment maps. WERGCHEEZ remains literal in the primary edition.",
                 "plaintext": old_edited, "ciphertext": optional_witness,
                 "additional_observed_substitutions_beyond_main": extra_changes,
                 "total_cost_against_p160_literal_source": optional_cost,
                 "global_square_compatibility_witnesses": compatibility,
+                "previous_frame_total_observed_substitutions": previous_optional_substitutions,
+                "reduction_from_retaining_literal_source19_X": previous_optional_substitutions - optional_cost['known_coordinate_substitutions'],
             },
             "same_key_context_reference": {
                 "path": old_context_path, "p160_plaintext_index_0based": 64, "coordinate_cell": "VF",
@@ -275,8 +368,8 @@ def build():
             },
             "limits": [
                 "The November8 and November9 headers differ; this is closely parallel traffic, not a certified identical transmission.",
-                "The 230/6/2 alignment presupposes p160's declared two-coordinate exclusion model. No deletion geometry is inferred solely from this count.",
-                "Six observed disagreements are retained; a parallel witness does not authorize overwriting its conflicting source coordinates.",
+                "Both source-only minimum maps have 231 agreements, five disagreements and two masks. The primary [18,26] map chooses one of the two tied maps; the J/Z distinction remains conditional.",
+                "Five observed disagreements are retained; a parallel witness does not authorize overwriting its conflicting source coordinates.",
             ],
         },
         "p166_p167_related_context": {
@@ -285,7 +378,7 @@ def build():
             "p166_second_part_edited": p166_second,
             "p166_p167_third_part_edited": p166_third,
             "body_comparison": text_comparison(first["editorial_text"], p166_parallel),
-            "notable_differences": ["UJVERBASZ versus UMVERBASZXFRAGEZEICHEN", "RE versus RXD",
+            "notable_differences": ["UJVERBASZ versus UMVERBASZXFRAGEZEICHEN", "RD versus RXD",
                                     "LINIE versus LINE", "WERGCHEEZ versus WERSCHETZ",
                                     "The p166/p167 version retains the separate O.K.M.1a No11319op footer."],
             "related_first_part": {"id": "p170_B1", "header": old_records["p170_B1"]["source"]["header_transcription"],
@@ -315,7 +408,7 @@ def build():
             "old_radio_credit": radio["authors"],
             "published_key_provenance": {identity: keys[identity]["provenance"] for identity in ("Nov7-9", "Nov4-6")},
             "old_radio_prior_publication_statement": radio["prior_publication"],
-            "new_contribution": "A second source-witness comparison, explicit disagreements, complementary masks and separately priced optional interpretation. No first historical decipherment or new period-key claim.",
+            "new_contribution": "A source-only exhaustive alignment that retains the native RD with one fewer cross-witness disagreement, its explicit J/Z frame ambiguity, complementary masks and separately priced optional interpretation. No first historical decipherment or new period-key claim.",
             "counting": "The new p160/p161 physical records remain seven distinct additions; old p166/p167/p170/p211 records are not counted again.",
         },
         "navigation": ["cases/military/nov8_alpenkorps_report.md", "cases/military/nov9_operational_reports.md",
@@ -344,7 +437,9 @@ def main():
                       "bound_source_files": len(report["source_files"]),
                       "bound_source_images": len(report["source_images"]),
                       "alignment_counts": report["p160_A2_p170_B2"]["alignment_counts"],
-                      "additional_copy_interpretation_substitutions": 3,
+                      "source_only_exclusion_maps": report["p160_A2_p170_B2"]["source_only_exclusion_alignment"]["completed_exclusion_sets"],
+                      "source_only_minimum_maps": report["p160_A2_p170_B2"]["source_only_exclusion_alignment"]["minimum_map_count"],
+                      "additional_copy_interpretation_substitutions": 2,
                       "cross_key_coordinate_comparisons": 0,
                       "old_records_recounted": 0}, indent=2))
 

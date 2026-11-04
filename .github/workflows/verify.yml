@@ -370,7 +370,9 @@ jobs:
           python experiments/contextual_key_constraints/verify.py --verify
           python experiments/contextual_key_constraints/verify_independent.py --verify
       - name: Verify completed open-target inputs and bounds
-        run: python experiments/open_targets/verify_light.py
+        run: |
+          python experiments/open_targets/verify_light.py
+          python experiments/open_targets/p170_coordinate_budget.py
       - name: Recompute exhaustive p153 crib constraints
         if: matrix.python == '3.13'
         run: |

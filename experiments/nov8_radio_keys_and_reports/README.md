@@ -34,14 +34,15 @@ the B2 source 83 glyph remains unresolved.
 The A2 source really contains 240 slots despite its printed 238 length.
 Its first row has two six-character groups, `GDGDXF` and `DXAADG`,
 at source 15–20 and 26–31. The selected conditional frame excludes
-source 19 (`X`) and 26 (`D`). The verifier prices **all 28,680 unordered
+source 18 (`D`) and 26 (`D`). The verifier prices **all 28,680 unordered
 pairs of excluded source positions**, including masks, against the
 same 119-position edited template. This choice is the sole minimum at
 four observed substitutions; its two observed exclusions are additional
 operations. The complete 36 source-local combinations and the full
 substitution-cost histogram are retained. The competing local 26→27
-choice changes the native name-like token `UJVERBASZ` to `UZVERBASZ`;
-it is not silently normalized at no cost.
+choice changes the native name-like token `UJVERBASZ` to `UZVERBASZ`.
+The source-only comparison below retains both maps as equal minima; the
+supplied edited template, which chooses `UJVERBASZ`, selects one of them.
 
 C1 has 309 source slots against printed 308. The six-character group
 `FAGVGD` occupies source 280–285. Excluding its source 281 `A` gives
@@ -105,9 +106,24 @@ independent digit assignments between messages.
 
 The [parallel audit](parallel_witnesses.json) binds seven source/key files
 and eleven source-image digests. It checks p160 A2 against the earlier p170 B2
-source, including 230 agreements, six disagreements and two complementary
-masks. The optional `RD`/`WERSCHETZ` reading costs three extra observed
-substitutions; the primary reading remains unchanged. Related p166/p167
+source. All **28,680 two-exclusion maps** are independently priced against
+the untouched p170 coordinates, without a plaintext template or language
+score. Exactly `[18,26]` and `[18,27]` minimize observed disagreements;
+both give **231 agreements, five disagreements and two complementary masks**.
+Both retain literal source19 `X` and source199 `V`, reading `D` at plaintext67
+in `RD` without substitution. The previous `[19,26]` frame gave `RE` and
+six disagreements. This source constraint improves the primary frame.
+
+The two best maps give `UJVERBASZ` and `UZVERBASZ`. Their p170 counterpart
+is masked, so neither the source alignment nor the copy establishes `J`;
+the displayed `UJVERBASZ` branch remains conditional. Each map fixes 117 raw
+positions, with 116 common fixed labels across both. The p160 printed dash
+in `BEREITGESTELLT` is filled from the same p170 coordinate under either map.
+The optional `WERSCHETZ` reading costs two extra observed substitutions,
+six total instead of seven under the old frame. The five remaining source
+disagreements and the shared `ABTRFNSPORT` error stay explicit. The independent
+audit checks the source-only minimum and both paths using a separate dynamic
+program, in addition to its fixed-template enumerations. Related p166/p167
 context and the earlier p211 key-use edition retain their identities and
 credits. Since p211 uses a different published key, that branch compares
 plaintext wording only, with no cross-key coordinate match or digit fill.

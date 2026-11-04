@@ -155,6 +155,91 @@ def geometry(record):
             'template_question_marks_are_wildcards': True}
 
 
+def source_alignment_audit():
+    """Independently find all minimum maps using an exact deletion DP."""
+    root = HERE.parents[1]
+    parallel_path = HERE / 'parallel_witnesses.json'
+    military_path = root / 'experiments/p170_continuation/military_records.json'
+    parallel = read(parallel_path)
+    certified = parallel['p160_A2_p170_B2']['source_only_exclusion_alignment']
+    military = read(military_path)
+    second = next(r for r in military['records'] if r['id'] == 'p170_B2')
+    source = ''.join(c if c in CO else '?' for c in ''.join(ROWS['p160_A2'].split()))
+    target_literal = ''.join(''.join(second['raw_source_rows']).split())
+    assert target_literal == second['raw_source_compact']
+    target = ''.join(c if c in CO else '?' for c in target_literal)
+    assert target == second['analysis_ciphertext']
+    assert (len(source), len(target)) == (240, 238)
+    assert parallel['source_files']['experiments/p170_continuation/military_records.json']['sha256'] == sha(military_path)
+
+    # State (i, d): i source positions consumed, exactly d exclusions used;
+    # target index i-d is therefore determined. Only optimum predecessors
+    # are retained; traceback enumerates every equally good deletion map.
+    costs = {(0, 0): 0}
+    parents = {}
+    for i in range(len(source)):
+        for d in range(3):
+            state = (i, d)
+            if state not in costs:
+                continue
+            j = i - d
+            successors = []
+            if j < len(target):
+                penalty = int(source[i] in CO and target[j] in CO and source[i] != target[j])
+                successors.append(((i + 1, d), penalty, None))
+            if d < 2:
+                successors.append(((i + 1, d + 1), 0, i))
+            for nxt, penalty, excluded in successors:
+                proposed = costs[state] + penalty
+                if nxt not in costs or proposed < costs[nxt]:
+                    costs[nxt] = proposed
+                    parents[nxt] = [(state, excluded)]
+                elif proposed == costs[nxt]:
+                    parents[nxt].append((state, excluded))
+
+    def traceback(state):
+        if state == (0, 0):
+            return [()]
+        return [previous + (() if excluded is None else (excluded,))
+                for parent, excluded in parents[state] for previous in traceback(parent)]
+
+    winners = sorted(traceback((len(source), 2)))
+    assert costs[(len(source), 2)] == certified['minimum_observed_disagreements'] == 5
+    assert winners == [(18, 26), (18, 27)]
+    assert [list(x) for x in winners] == [w['excluded_source_indices_0based'] for w in certified['all_minimum_maps']]
+    assert len(winners) == certified['minimum_map_count']
+    decoded_maps = []
+    for excluded, witness in zip(winners, certified['all_minimum_maps']):
+        origins = [i for i in range(len(source)) if i not in excluded]
+        frame = ''.join(source[i] for i in origins)
+        assert frame == witness['frame']
+        decoded = inspect(frame)
+        decoded_maps.append(decoded)
+        assert decoded['plaintext'] == witness['raw_plaintext']
+        assert [{'plaintext_index_0based': i, 'domain': domain}
+                for i, domain in enumerate(decoded['domains']) if len(domain) > 1] == witness['unresolved_raw_domains']
+        assert decoded['interim'][134:136] == 'XV'
+        assert [origins[i] for i in decoded['interim_source_indices'][134:136]] == [19, 199]
+    domain_union = [''.join(sorted({c for decoded in decoded_maps for c in decoded['domains'][i]}))
+                    for i in range(119)]
+    assert domain_union[15] == 'JZ'
+    assert [{'plaintext_index_0based': i, 'domain': domain}
+            for i, domain in enumerate(domain_union) if len(domain) > 1] == certified['all_minimum_unresolved_domains']
+    assert sum(len(domain) == 1 for domain in domain_union) == certified['all_minimum_common_fixed_plaintext_positions'] == 116
+    return {
+        'method': 'Exact dynamic program over source prefix and number of exclusions, with all optimum predecessor paths retained; no plaintext or language score.',
+        'parallel_report_sha256': sha(parallel_path), 'p170_source_record_sha256': sha(military_path),
+        'source_id': 'p160_A2', 'target_id': 'p170_B2',
+        'reachable_dynamic_program_states': len(costs),
+        'minimum_observed_disagreements': costs[(len(source), 2)],
+        'all_minimum_exclusion_maps': [list(x) for x in winners],
+        'source_only_rd_coordinate_indices': [19, 199],
+        'source_only_rd_coordinate_pair': 'XV',
+        'source_only_name_position_15_domain': 'JZ',
+        'limit': 'This confirms the separate exhaustive source-only minimum and both maps. It does not select the J branch or establish the cause of the surplus glyphs.',
+    }
+
+
 def build():
     inp, cert = read(HERE / 'inputs.json'), read(HERE / 'certificates.json')
     assert cert['inputs_sha256'] == sha(HERE / 'inputs.json')
@@ -238,6 +323,7 @@ def build():
                              'No source-glyph discrepancy was found. p159 A remains outside this seven-record count.']},
             'summary': summary, 'records': records,
             'fixed_template_exclusion_audits': geometries,
+            'source_only_parallel_alignment': source_alignment_audit(),
             'global_coupled_completion_count': len(corpus_witnesses), 'global_coupled_completions': corpus_witnesses,
             'limits': ['The observed-coordinate exclusions are separate from substitutions and source-mask fills.',
                        'The full exclusion scans use supplied templates with wildcard question marks; minima do not prove historical plaintext or geometry.',

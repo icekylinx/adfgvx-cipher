@@ -134,8 +134,8 @@
       "id": "p170",
       "label": "p170",
       "subject": "Short intercept; original length uncertain",
-      "status": "Open",
-      "credit": "—",
+      "status": "Open; exact complete-body coordinate bounds under two adjacent squares",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit and conditional bounds",
       "path": "cases/p170.md",
       "state": "OPEN"
     },
@@ -7120,13 +7120,15 @@
       "printed_page": 160,
       "source_section": "A2",
       "subject": "Alpenkorps departure and march report",
-      "status": "117/119 fixed raw positions; 4 observed substitutions, 1 printed-mask fill; conditional 2-observed-coordinate exclusion frame",
-      "credit": "icekylinx and GPT-6 Astra Pro (2026 source edition); published period-key authors and earlier OCR candidate readings credited separately",
+      "status": "117/119 raw in the selected frame; 116 common fixed labels across two source-only minima; 4 substitutions, 1 printed-mask fill and 2 observed exclusions",
+      "credit": "icekylinx and GPT-6 Astra Pro (2026 source edition and source-only frame audit); published period-key authors and earlier OCR candidate readings credited separately",
       "path": "cases/military/nov8_alpenkorps_report.md#p160-a2",
       "source_reviewed": true,
       "evidence": [
         "experiments/nov8_radio_keys_and_reports/inputs.json",
-        "experiments/nov8_radio_keys_and_reports/certificates.json"
+        "experiments/nov8_radio_keys_and_reports/certificates.json",
+        "experiments/nov8_radio_keys_and_reports/parallel_witnesses.json",
+        "experiments/nov8_radio_keys_and_reports/independent_source_audit.json"
       ],
       "state": "CONDITIONAL"
     },
