@@ -10,7 +10,9 @@ Our experiments recovered the shared p153 key, reconstructed damaged transmissio
 
 | Result | Evidence |
 |---|---|
-| **Demobilization continuation** — p228 B2 reaches 121/132 fixed positions; 22 newly filled tail positions each retain one observed half-coordinate | [Mask relocation and exact word prices](p228_demobilization_fragment/README.md) |
+| **Withdrawal approval request** — p116 A13 rises from 75 to 90/111 conditional positions with zero observed substitutions; 13 new letters retain a half-coordinate and two are wholly missing | [Route and approval layers](p116_optional_route_fragment/APPROVAL.md) |
+| **Cross-key withdrawal parallel** — 59 letters in p117 C3 support two existing p124 A1 repairs | [Independent observed-source witness](hungarian_armistice_instructions/withdrawal_parallel.json) |
+| **Demobilization continuation** — p228 B2 reaches 121/132 positions, or optionally 123/132 using two reference-field fills from part 1 | [Mask relocation and cross-part reference](p228_demobilization_fragment/README.md) |
 | **Weisskirchen halt and security fragment** — p154 A2 rises from 36/81 raw to 56/81 with two substitutions and 20 added-slot fills, after one explicit observed-coordinate exclusion | [Source frame and independent review](p154_weisskirchen_fragment/README.md) |
 | **Full Munich routing witness** — p168 C fixes 139/140 raw positions; a p159 coordinate fills the last slot and p168 independently supports GEN KDO | [Joint source certificate](p168_munich_routing_witness/README.md) |
 | **Breslau horseshoe and nail dispatch** — p215 A has 176/196 raw positions and a 192/196 primary word proposal; alternatives retain the numerical uncertainty | [Dispatch and frame alternatives](p215_breslau_dispatch/README.md) |

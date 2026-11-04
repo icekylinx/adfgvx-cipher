@@ -18,7 +18,7 @@ A V observed in p159 B supplies the added coordinate in each alias. All twelve
 then produce the same 140-position source-linked text. Garbled words and digit
 labels remain literal. The square's unassigned 5/6 cells are not assigned.
 
-The fully observed p168 pairVG supplies K in `GEN KDO`. Applying its G to p159
+The fully observed p168 pair VG supplies K in `GEN KDO`. Applying its G to p159
 source 169 is an explicit X→G substitution that changes only the H of its earlier
 `GEN HDO` reading. It does not silently normalize the rest of that message.
 

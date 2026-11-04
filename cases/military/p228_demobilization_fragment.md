@@ -121,6 +121,21 @@ crop have matching authenticated pixels; no new source image is duplicated.
 python experiments/p228_demobilization_fragment/verify.py --verify
 ```
 
+**Optional repeated-reference witness.**
+
+The first part has the fully observed reference fragment `P680YX4GEH`;
+B2 has `2680Y??GEH`. If these denote the same order-reference field,
+B1 supplies the two missing labels `X4` at B2 positions 60–61. The
+[separate certificate](../../experiments/p228_demobilization_fragment/reference_witness.json)
+records the original donor pairs `GX` and `GD`, fills source255 with `G`
+and source210 with `D`, and verifies both parts under the same unchanged key.
+This optional layer reaches **123/132 fixed positions**, with **34 printed-mask
+fills and the same five observed substitutions**. The primary layer stays at
+121/132. The observed `P` versus `2` disagreement is retained; neither label
+receives a numerical interpretation. These are separate parts with a proposed
+shared reference, not duplicate receptions. Reproduce with
+`python experiments/p228_demobilization_fragment/verify_reference.py --verify`.
+
 Historical ciphertext: **J. Rives Childs**. Published period key:
 **George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker**. The earlier Neuhof
 source edition and its attribution are preserved. Mask-frame recovery,

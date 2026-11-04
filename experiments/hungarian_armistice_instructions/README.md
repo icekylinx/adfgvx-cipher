@@ -81,3 +81,14 @@ python experiments/hungarian_armistice_instructions/verify.py --verify --pdf /pa
 The verifier checks the PDF's frozen byte count and SHA-256 before
 regenerating all three crops and comparing their pixels. Scratch caches
 are not runtime dependencies.
+
+**Cross-key withdrawal phrase.** The unchanged p117 C3 source under Nov1–3
+independently supports two existing p124 A1 word repairs under Nov4–6.
+Their 59-letter tail agrees at 57 raw positions; p117 supplies U and H for
+`UNGARISCHEN` and `SUEDSLAVISCHEN`. The original `WERDEN`/`SOLLEN`
+difference and different headers remain explicit. The separate
+`FDER`→`FUER` repair gains no new support from this comparison.
+[The paired-source certificate](withdrawal_parallel.json) adds source
+evidence, with no new fixed-position or physical-message count.
+Run `python experiments/hungarian_armistice_instructions/verify_parallel.py --verify`;
+adding `--pdf /path/to/childs.pdf` checks both original crop pixels.

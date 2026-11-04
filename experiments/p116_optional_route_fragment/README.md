@@ -66,8 +66,8 @@ TEILENDERX???ARMEEDENMARSCHDURCHUNGARNAUFOBERSCHLESIENANZUTRETEN?EI?????T??N????
 The initial noun fragment continues the preceding part. Under this proposal,
 the surviving passage concerns a proposed march through Hungary toward
 Upper Silesia. It does not establish that the march occurred. The army label,
-the following damaged clause and the footer remain unresolved; no signature
-or approval formula is supplied.
+the following damaged clause and the footer remain unresolved in this route
+layer; no signature or approval formula is supplied here.
 
 The five printed-dash fills are source indices **5→G, 70→A, 76→D, 155→V and
 156→G**. The 32 additional fills fall in the already modeled unprinted run.
@@ -84,7 +84,7 @@ supplies a partial historical translation attributed to Childs. That topic
 guided selection of the route vocabulary tested here. It is **not an
 independent coordinate witness or a full German plaintext source**.
 
-The translation's army designation and approval statement are not imported.
+This route layer does not import the translation's army designation or approval statement.
 The surviving three-position field before `ARMEE` is left as `???`:
 
 | Plaintext index | Surviving pair | Literal label domain |
@@ -108,6 +108,10 @@ existing frame. It does not compare every possible German alternative, and
 it is not a blind test: the words were chosen after the historical translation
 and raw domains were read. An exact low-cost fit cannot independently
 authenticate missing letters, original spelling or the historical event.
+
+**Further reading.** The [approval-request extension](APPROVAL.md) adds 15
+conditional letters to this route layer, reaching 90/111 positions with no
+observed-coordinate changes; two of those letters are wholly missing.
 
 ## Reproduce and preserve the primary edition
 

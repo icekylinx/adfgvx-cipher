@@ -93,7 +93,25 @@ squares, shifted indices and unreported edits. It proves arithmetic consistency
 with that reconstruction. The historical plausibility of the reconstruction
 still depends on the source and its alternatives.
 
-## Two useful exact searches
+## Recover text from source geometry and independent copies
+
+Local group lengths and repeated receptions can reveal a useful repair even
+when a message's total coordinate count appears correct. The new editions
+apply three different source models:
+
+| Source | Structural hypothesis | Result and word-repair cost |
+| --- | --- | --- |
+| [p154 A2](../experiments/p154_weisskirchen_fragment/README.md) | Exclude one observed D from a six-character group and prepend 45 unknown slots, matching the advertised 162. | 36/81 raw positions; the Weisskirchen and security phrases give 56/81 with two substitutions and 20 inserted-slot fills. |
+| [p228 B2](../experiments/p228_demobilization_fragment/README.md) | Relocate five printed masks while retaining every source slot and the order of all observed coordinates. | 90/132 raw positions; the demobilization proposal gives 121/132 with five substitutions and 32 printed-mask fills. |
+| [p168 C](../experiments/p168_munich_routing_witness/README.md) | Exclude one repeated D and insert one unknown in the separate short group; compare against original p159 observations. | 139/140 raw positions; a V observed in p159 fills the last slot without changing the 279 retained p168 coordinates. |
+
+Each certificate separates the structural hypothesis from later word repairs.
+For p168, the matching score uses only original p159 observations: previously
+inferred coordinates cannot become independent evidence. Its optional joint
+reading records every donor coordinate, including the p158 V that supports
+`KABEL`; the remaining `DOWPELT` is kept literal.
+
+## Exact searches for damaged texts
 
 ### Compare disagreeing witnesses at a declared edit cost
 
@@ -102,19 +120,13 @@ witnesses have 42 disagreeing known coordinates. At their minimum combined
 coordinate cost, the choices already permit `2^42` full plaintexts under the
 fixed complete key. Agreement alone cannot select a single message.
 
-The decoder uses dynamic programming. For a four-gram objective, a prefix only
-needs its last three characters and accumulated edit cost to determine every
-possible future score increment. For a six-gram objective, it keeps five.
-Keeping the best prefixes at each such state therefore gives an exact ranking
-under the stated objective and budget, without a beam or a plaintext crib.
-
-The report retains 280 candidates across two objectives, full/body-only scopes
-and seven budgets. All 28 first-ranked strings share a 47-character interval
-about a march toward Belgrade and no further events. **Thirty-three of those
-positions were already unique at minimum source cost; fourteen are selected by
-the models.** The distinction prevents model agreement from being counted as
-new source evidence. `SAVE` and `SAVA` have equal combined coordinate cost, so
-the readable case retains both river-name spellings.
+Dynamic programming keeps the best prefix for each relevant state: its edit
+cost and the last three characters for a four-gram score, or five for a
+six-gram score. This gives an exact ranking under the chosen objective and
+budget. All 28 recorded leaders share a 47-character interval about a march
+toward Belgrade. Of those positions, **33 are unique at minimum source cost
+and 14 are model-selected**. The equal-cost `SAVE` / `SAVA` river-name
+alternatives remain in the readable edition.
 
 ### Locate scattered missing coordinates
 
@@ -130,70 +142,43 @@ would cover only 166 placements. The scattered-loss hypothesis is substantially
 broader, while still assuming no substitution, extra symbol or changed key.
 
 For a fixed 16-column transposition, distribute the five losses among its
-columns first. There are only
+columns first. There are
 
 \[
 \binom{16+5-1}{5}=15,504
 \]
 
-such allocations. Each allocation determines how to partition the received
-stream into shortened columns. A dynamic program can then restore the
-coordinates in plaintext order while remembering how many losses each column
-has used and the short suffix needed by its scoring rule.
+such allocations. Each determines a partition into shortened columns.
+Dynamic programming restores coordinates in plaintext order, retaining each
+column's loss count and the suffix needed by the scoring rule.
 
-The [exact marginal experiment](../experiments/p198_exact_sparse/README.md)
-uses this decomposition to cover every mask. Its four-gram score averages over
-each uncertain character domain separately in each window. The recorded runs
-need at most 243 active states per layer. Each domain-log value is rounded once
-to float32 and summed exactly as an integer multiple of `2^-24`; the global
-guarantee applies to **that quantized table**, with rounding bounds reported
-separately. This is an exact optimum for each frozen complete key, not a search over all
-possible keys or a proof that the damage hypothesis is correct.
+| Decoder | Exact scope for each fixed complete key |
+| --- | --- |
+| [Marginal four-gram decoder](../experiments/p198_exact_sparse/README.md) | Every five-loss mask, scored by averaging each uncertain domain separately in each window. The optimum uses the frozen float32 table, summed exactly in units of `2^-24`; the package reports rounding bounds. |
+| [Joint loss-and-fill decoder](../experiments/p198_joint_exact/README.md) | `1,115,034,284 × 6^5 = 8,670,506,592,384` witnesses, with each inserted coordinate shared consistently across overlapping windows. Exact merging retains at most `7^5 = 16,807` active states per layer in the recorded runs. |
 
-The control is as useful as the speedup: one planted message with its **true
-key supplied** still receives an incorrect optimal loss mask. The objective
-prefers a wrong letter in the closing word. A complete search exposes this
-scoring failure; a larger budget for the same objective cannot remove it.
-The experiment records the planted text, winning mask, score margin and
-rounding bound so that the failure can be reproduced.
-
-The [joint decoder](../experiments/p198_joint_exact/README.md) goes further:
-it chooses one concrete value for every inserted coordinate and uses that value
-consistently in all overlapping windows. Its space has
-`1,115,034,284 × 6^5 = 8,670,506,592,384` loss-and-fill witnesses per fixed key.
-Witnesses can be aliases of the same plaintext. Exact merging keeps at most
-`7^5 = 16,807` active states per layer in the recorded 16-column runs.
-
-This removes the separate-window marginalization issue, but both true-key
-controls still have wrong four-gram optima: four letters differ in one and two
-in the other. Each wrong winner reproduces its synthetic received ciphertext
-exactly. The independent [joint review](../data/reviews/p198_joint_exact_independent.json)
-checks full re-encryption, exact model scores, all small exhaustive controls,
-allocation counts and canonical tie handling. Exact computation and a correct
-language preference are distinct requirements.
+Both methods expose a scoring limitation: even with the true key supplied,
+some planted controls have incorrect optimal readings. The joint controls
+differ from truth in four and two letters, while still reproducing their
+received ciphertexts exactly. The [independent review](../data/reviews/p198_joint_exact_independent.json)
+checks these outcomes, full re-encryption, exact scores and exhaustive small
+controls. Search completeness establishes the optimum for the stated model;
+it does not make that optimum the historical text.
 
 ## What a completed search can justify
 
-A positive control uses a known text and key with declared damage. Recovering
-it demonstrates that the implementation can handle that particular regime.
-A failed control reduces what can be concluded from an unsuccessful historical
-run. The [p153 recovered-square follow-up](../experiments/p153_anchored_followup/README.md),
-for example, preserves its failed matched control and does not exclude square
-reuse.
+A positive control tests a known text and key with declared damage. Failed
+matched controls limit the conclusions of an unsuccessful historical search.
+Each package records its inputs, completed scope and control outcomes.
 
-An exhaustive result is always scoped to its inputs and assumptions. The
+The
 [p153 width checks](../experiments/p153_even_widths/README.md), together with the
 [odd-width solver](../experiments/p153_odd_widths/README.md), cover every integer
 width from 14 through 26 **for the declared sixty-letter crib and input model**.
-They do not establish a universal exclusion of other messages or corruption
-models. A completed enumeration of column lengths likewise does not imply that
-every column permutation or substitution square was searched.
-
-Source retrieval has a similar boundary. The [OCR similarity search](../experiments/source_similarity/README.md)
-compares all 788 extracted blocks and recovers established parallels as
-controls. Inspection of its best open-case hits finds no new parallel. That
-finding applies to the retrieved corpus and checked candidates; OCR omissions
-and unavailable sources remain possible.
+Only width 18 fits that crib. Other corruption models and unsearched keys
+remain separate questions. Source retrieval likewise covers the recorded
+corpus and inspected candidates; the [experiment guide](../experiments/README.md)
+links those completed searches.
 
 ## Reproduce at the appropriate level
 

@@ -3463,13 +3463,14 @@
       "printed_page": 228,
       "source_section": "B2",
       "subject": "Neuhof demobilization continuation: deputy-command district and formations",
-      "status": "Conditional source-preserving five-mask relocation; raw 90/132; word 121/132 with 5 observed substitutions and 32 printed-mask fills; 95 proposed word positions, 11 unresolved; earlier 33-position opening retained",
+      "status": "Conditional source-preserving five-mask relocation; raw 90/132; word 121/132 with 5 observed substitutions and 32 printed-mask fills; 95 proposed word positions, 11 unresolved; earlier 33-position opening retained; optional B1 reference-field reuse adds two mask fills for 123/132",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); prior published period key and unreviewed OCR-derived candidates credited separately",
       "path": "cases/military/p228_demobilization_fragment.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/p228_demobilization_fragment/inputs.json",
-        "experiments/p228_demobilization_fragment/certificates.json"
+        "experiments/p228_demobilization_fragment/certificates.json",
+        "experiments/p228_demobilization_fragment/reference_witness.json"
       ]
     },
     {
@@ -4498,14 +4499,16 @@
       "label": "p116 A13",
       "printed_page": 116,
       "source_section": "A13",
-      "subject": "Jammed final part, left partial",
-      "status": "Raw partial only; 38 of111 positions, 62 tail coordinates remain unknown",
+      "subject": "Jammed withdrawal ending: route and approval request",
+      "status": "Raw 38/111 under the 222-slot tail-loss frame; conditional route and approval layer 90/111 with zero observed substitutions, 11 printed-mask and 43 lost-tail fills; two newly proposed letters wholly missing; optional extra S gives 91/111",
       "credit": "Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/military/mackensen_withdrawal_report.md#p116-a13",
       "source_reviewed": true,
       "evidence": [
         "experiments/mackensen_withdrawal_report/inputs.json",
-        "experiments/mackensen_withdrawal_report/certificates.json"
+        "experiments/mackensen_withdrawal_report/certificates.json",
+        "experiments/p116_optional_route_fragment/inputs.json",
+        "experiments/p116_optional_route_fragment/approval_extension.json"
       ]
     },
     {

@@ -1,0 +1,154 @@
+{
+  "schema": "adfgvx-p228-repeated-reference-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "experiments/p228_demobilization_fragment/inputs.json": "a9f989a288c2708bbf184821e08d0cb2d3adc95da0bfbd31e20acb25f5f80caa",
+    "experiments/p228_demobilization_fragment/certificates.json": "6ac763abd0d51b8852ecb5d0ecd367099825dba6314c4899a876e9e45af7d5fc",
+    "experiments/neuhof_demobilization/inputs.json": "7c08eda80c16f8ba6c02ae84c2f570caac8ac58de6e2616c3b4054d228464046",
+    "experiments/neuhof_demobilization/sources/p228_B1.png": "0d41021142cf4a838957f7ee098a3fad1a845921681d888d8c014673db0801d2"
+  },
+  "indexing": "Zero based; ranges half open.",
+  "hypothesis": "The X4GEH suffix in B1 and the ??GEH suffix in B2 refer to the same order-reference field.",
+  "donor": {
+    "id": "p228_B1",
+    "literal_source": "VVFGADXGGVFGFDFXVGGDGFGVAFXFFFVGDXFGDFVDDFDVGXGXFXDXGFFAXGVFAAAAGAAGGDVXFVVDDAGGGFGGDFFFFFDDXVGDXVVGGFFFVVDDAXAGGGGDGVFGGDDVFGVAV-AVFFVXFAGDFXVAGXDDGGFDXV-XGXGDXXAFGGFADFXVDXXGDVVVGFGDVXXXXXXXXAXX-F-GDXAAVFAVXFFVDAXFGVGAAAVGX--VFVVGGVVVAAVGVGGVFF",
+    "raw": "0OKXXYYZUMERLYVJXYXXZX4NRP680YX4GEHYAY3YANLGYXLF?YNRYX4SPALTE9FLAKABTEILUNG?0WIRDNI?L3NDARMJT?DTSONDERNINYNEU?OFYSUEDHFUL?A",
+    "field_span": [
+      25,
+      35
+    ],
+    "field": "P680YX4GEH",
+    "original_observations_only": true
+  },
+  "target": {
+    "id": "p228_B2",
+    "primary_field_span": [
+      55,
+      65
+    ],
+    "primary_field": "2680Y??GEH",
+    "optional_field": "2680YX4GEH",
+    "optional_raw": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLG??UJDESERLY2680YX4GEHY0Y?IMBEREICHDESSTELLVYYKDO???MX4AKDEMOBILMACHENDEN???CKFORMATIONEN",
+    "optional_ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGADAVVGFGVFGDVXAGXFXDGGFGFGADXFVDDVFVGFDAFGXFXXGGVFDFFGVDGGDXGFFV?FG?FADFDD?GDVGG?AG?DFDFGFFVAAVXXGFFDFGFFVVAVAAFVDXXFVFVVVXF?VG?XG?FV?X",
+    "fixed_positions": 123,
+    "observed_substitutions": 5,
+    "printed_mask_fills": 34,
+    "added_observed_substitutions": 0,
+    "added_printed_mask_fills": 2,
+    "inserted_slot_fills": 0,
+    "unresolved_positions": [
+      44,
+      45,
+      68,
+      92,
+      93,
+      94,
+      116,
+      117,
+      118
+    ]
+  },
+  "transfers": [
+    {
+      "donor_plaintext_index": 30,
+      "target_plaintext_index": 60,
+      "donor_source_indices": [
+        80,
+        173
+      ],
+      "donor_pair": "GX",
+      "target_source_indices": [
+        255,
+        173
+      ],
+      "target_pair_before": "?X",
+      "label": "X",
+      "fills": [
+        {
+          "half": 0,
+          "donor_source_index": 80,
+          "target_model_index": 255,
+          "target_source_index": 255,
+          "original_target": "-",
+          "value": "G"
+        }
+      ]
+    },
+    {
+      "donor_plaintext_index": 31,
+      "target_plaintext_index": 61,
+      "donor_source_indices": [
+        3,
+        95
+      ],
+      "donor_pair": "GD",
+      "target_source_indices": [
+        74,
+        210
+      ],
+      "target_pair_before": "G?",
+      "label": "4",
+      "fills": [
+        {
+          "half": 1,
+          "donor_source_index": 95,
+          "target_model_index": 205,
+          "target_source_index": 210,
+          "original_target": "-",
+          "value": "D"
+        }
+      ]
+    }
+  ],
+  "observed_disagreement": {
+    "donor_plaintext_index": 25,
+    "donor_label": "P",
+    "target_plaintext_index": 55,
+    "target_label": "2",
+    "edited": false
+  },
+  "common_key": {
+    "id": "Nov28-Dec1",
+    "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+    "column_rank_order": [
+      9,
+      3,
+      14,
+      10,
+      2,
+      8,
+      15,
+      4,
+      16,
+      11,
+      5,
+      13,
+      6,
+      12,
+      1,
+      7
+    ]
+  },
+  "complete_witnesses": [
+    {
+      "id": "p228_B1",
+      "ciphertext": "VVFGADXGGVFGFDFXVGGDGFGVAFXFFFVGDXFGDFVDDFDVGXGXFXDXGFFAXGVFAAAAGAAGGDVXFVVDDAGGGFGGDFFFFFDDXVGDXVVGGFFFVVDDAXAGGGGDGVFGGDDVFGVAVAAVFFVXFAGDFXVAGXDDGGFDXVAXGXGDXXAFGGFADFXVDXXGDVVVGFGDVXXXXXXXXAXXAFAGDXAAVFAVXFFVDAXFGVGAAAVGXAAVFVVGGVVVAAVGVGGVFF",
+      "plaintext": "0OKXXYYZUMERLYVJXYXXZX4NRP680YX4GEHYAY3YANLGYXLF2YNRYX4SPALTE9FLAKABTEILUNGY0WIRDNIGL3NDARMJTEDTSONDERNINYNEU5OFYSUEDHFUL1A"
+    },
+    {
+      "id": "p228_B2",
+      "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGADAVVGFGVFGDVXAGXFXDGGFGFGADXFVDDVFVGFDAFGXFXXGGVFDFFGVDGGDXGFFVAFGAFADFDDAGDVGGAAGADFDFGFFVAAVXXGFFDFGFFVVAVAAFVDXXFVFVVVXFAVGAXGAFVAX",
+      "plaintext": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLGY6UJDESERLY2680YX4GEHY0YYIMBEREICHDESSTELLVYYKDOP7EMX4AKDEMOBILMACHENDEN26ECKFORMATIONEN"
+    }
+  ],
+  "limits": [
+    "Field reuse is a contextual hypothesis; these are separate parts, not duplicate telegrams.",
+    "The P/2 discrepancy is retained. No numeral, unit, date, enclosure or command-field interpretation is added.",
+    "Both donors are complete original observed pairs; no earlier word repair or inferred source slot supplies them.",
+    "The primary 121-position word edition and its frame remain unchanged.",
+    "Residual A fills in complete witnesses verify arithmetic only and are not historical readings."
+  ]
+}

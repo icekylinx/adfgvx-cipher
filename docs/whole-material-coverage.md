@@ -74,7 +74,7 @@ python data/reviews/verify_childs_material_coverage.py --write-report
 
 `--verify` is read-only. `--write-report` explicitly refreshes this dashboard from the live tree. The optional PDF check pins the original file bytes and page count; the source-boundary inspection itself is a recorded manual review, not an automated glyph-recognition claim.
 
-Current catalogue SHA-256: `f18362879a9304be5259b279bdcc959002b6ffbf5d8ee19e7532d7109d1176b2`.
+Current catalogue SHA-256: `4a149b6b03c3a6cf6542fc794936000aedbce08301fff7f862dcad8ea9ad09c0`.
 Census SHA-256: `2edad8ccbe1e589ae5e1b0497dd4d594d197f3ec5a5c1178e499d47f8a37ef87`.
 
 Source: J. Rives Childs, *General Solution of the ADFGVX Cipher System*, [complete scanned volume](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). See the [machine-readable census](../data/reviews/childs_material_census_20261103.json) for page-level review bases and material exceptions.

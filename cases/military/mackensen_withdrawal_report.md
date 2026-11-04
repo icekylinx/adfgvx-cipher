@@ -177,8 +177,16 @@ positions through five printed-mask fills and 32 lost-tail fills, without
 changing any observed coordinate. Each of the 37 selected letters retains
 one observed half-pair. The historical English translation guided the word
 choices; it is not an independent German coordinate witness. The army label,
-approval clause and footer remain unresolved, and the raw-only edition above
-is unchanged.
+approval clause and footer are unfilled in that layer, and the raw-only edition
+above is unchanged.
+
+**Approval-request extension.** A further [conditional word layer](../../experiments/p116_optional_route_fragment/APPROVAL.md)
+adds `EINVERSTAENDNIS?ERBETEN`, raising the reading to **90/111 positions**
+with zero observed-coordinate changes, 11 printed-mask fills and 43 lost-tail
+fills in total. Of the 15 newly fixed letters, 13 have an observed half-pair;
+V at 68 and N at 87 are wholly missing and supplied by the word proposal.
+Position 80 stays unresolved. An optional additional S gives 91/111 for one
+more lost-tail fill; the army label and footer remain open.
 
 ## The two short frames require different qualifications
 

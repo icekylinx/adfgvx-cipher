@@ -41,6 +41,17 @@ KOOVES into an independently identified person's name. The message
 reports negotiations and says German troops are to leave; it does not
 show that the departure occurred.
 
+
+**Cross-key phrase witness.** The unchanged [p117 C3 reading](nov3_withdrawal_and_night_report.md#p117-c3)
+supplies the 59-letter phrase from `SOBALD` through `VERLASSEN` under the
+separate Nov1–3 key. It independently supports A1's `UNGARISCHEN` and
+`SUEDSLAVISCHEN` repairs: source **306 X→V** and **80 G→A** respectively.
+The [paired-source certificate](../../experiments/hungarian_armistice_instructions/withdrawal_parallel.json)
+records all 59 positions and the original coordinate pairs. The verb remains
+`SOLLEN` here and `WERDEN` in p117; the headers also differ. This is a
+parallel phrase, with no extra recovered position or physical message.
+The separate `FDER`→`FUER` repair remains a word proposal.
+
 ## p124 A2
 
 The [second-part crop](../../experiments/hungarian_armistice_instructions/sources/p124_A2.png)

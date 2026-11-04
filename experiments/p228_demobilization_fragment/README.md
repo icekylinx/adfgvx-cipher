@@ -66,3 +66,12 @@ correction is made.
 - [Exact inputs](inputs.json)
 - [Per-position certificates](certificates.json)
 - [Earlier three-part source edition](../neuhof_demobilization/README.md)
+
+**Optional repeated-reference witness.** B1's original observed `X4GEH`
+supplies the two missing labels in B2's `??GEH`, conditional on a shared
+order reference. The [separate certificate](reference_witness.json) reaches
+123/132 positions with two additional mask fills and no additional observed
+substitution. It retains the neighboring `P680` / `2680` disagreement and
+does not interpret the numbers. Both donor pairs are original observations.
+Run `python experiments/p228_demobilization_fragment/verify_reference.py --verify`
+to check the coordinate transfers and full witnesses under one unchanged square.

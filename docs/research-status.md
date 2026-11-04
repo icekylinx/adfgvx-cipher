@@ -12,6 +12,19 @@ The [whole-material census](whole-material-coverage.md) registers **679 cipherte
 
 ## Current source refinements
 
+The [jammed ending of Mackensen's withdrawal report](../experiments/p116_optional_route_fragment/APPROVAL.md)
+now has a **90/111-position conditional route-and-approval reading**. The
+additional `EINVERSTAENDNIS?ERBETEN` proposal changes no observed coordinate;
+13 of its 15 new letters retain an observed half-pair, while two are wholly
+missing. The intervening unknown, army label and closing fields remain open.
+
+Two independent source comparisons strengthen existing readings. A
+[59-letter withdrawal parallel](../experiments/hungarian_armistice_instructions/withdrawal_parallel.json)
+under a different key supports two p124 A1 repairs. In p228 B2, a
+[conditional reuse of the preceding part's reference field](../experiments/p228_demobilization_fragment/reference_witness.json)
+adds two mask fills, giving an optional **123/132 positions**. The differing
+`P680` / `2680` labels are retained.
+
 The [p154 A2 fragment](../cases/military/p154_weisskirchen_fragment.md) now has a reviewed reading of “Weisskirchen angehalten” and “Sicherungen an den”: 36/81 raw positions and 56/81 in the priced word layer. The [p228 B2 continuation](../cases/military/p228_demobilization_fragment.md) extends a 33-position opening into a 121/132-position word stream concerning demobilization and a command district. Its 22 newly filled tail positions each have an observed half-coordinate. Both editions retain their exact source-frame assumptions and repair costs.
 
 The [full p168 C retransmission](../cases/radio/p168_munich_routing_witness.md) now has a 139/140 raw certificate. An independently observed V from p159 fills the remaining slot; the p168 pair VG also supports GEN KDO in the earlier p159 component. This strengthens the original p158 source comparison without counting another physical body.

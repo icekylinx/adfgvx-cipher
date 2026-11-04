@@ -44,7 +44,7 @@ The replay rebuilds the coordinate 49 probability model and checks:
 
 | Scope | Model descriptions | Result |
 |---|---:|---|
-| One surplus glyph within VDFDVD; one 45-slot loss | 708 | source 28 exclusion and45-slot prefix rank first |
+| One surplus glyph within VDFDVD; one 45-slot loss | 708 | source 28 exclusion and 45-slot prefix rank first |
 | Prefix only; even total 118–300; six possible exclusions | 552 | all six 162-slot models outrank every other length |
 | Prefix plus another loss interval, 45 unknowns total | 32,568 | score improves 1.86; no further word edition adopted |
 

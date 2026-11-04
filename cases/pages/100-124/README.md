@@ -212,7 +212,7 @@ Page numbers refer to the printed Childs volume. Each row links to the complete 
 | [p116 A10](../../military/mackensen_withdrawal_report.md#p116-a10) | Occupation and supply constraints | Prior identified report; source edition with explicit local repair costs | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
 | [p116 A11](../../military/mackensen_withdrawal_report.md#p116-a11) | Ammunition, food and coal | Conditional one-coordinate-loss source edition; all geometry alternatives retained | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
 | [p116 A12](../../military/mackensen_withdrawal_report.md#p116-a12) | Proposed immediate withdrawal | Conditional one-coordinate-loss source edition; all geometry alternatives retained | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
-| [p116 A13](../../military/mackensen_withdrawal_report.md#p116-a13) | Jammed final part, left partial | Raw partial only; 38 of111 positions, 62 tail coordinates remain unknown | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
+| [p116 A13](../../military/mackensen_withdrawal_report.md#p116-a13) | Jammed withdrawal ending: route and approval request | Raw 38/111 under the 222-slot tail-loss frame; conditional route and approval layer 90/111 with zero observed substitutions, 11 printed-mask and 43 lost-tail fills; two newly proposed letters wholly missing; optional extra S gives 91/111 | Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026) |
 
 ## p117
 

@@ -50,6 +50,7 @@ jobs:
           python experiments/p63_optional_technical_reading/verify.py --verify
           python experiments/p137_optional_staff_vocabulary/verify.py --verify
           python experiments/p116_optional_route_fragment/verify.py --verify
+          python experiments/p116_optional_route_fragment/verify_approval.py --verify
           python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/live_readable_mappings_20261103_continuation.json
           python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/complete_displays_readable_mappings_20261103.json
           python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_complete_displays_before.json --audit data/reviews/reading_conventions_complete_displays_audit.json
@@ -200,6 +201,7 @@ jobs:
           python experiments/nov1_mackensen_and_orient_reports/verify.py --verify
           python experiments/nov1_ammunition_and_leave/verify.py --verify
           python experiments/hungarian_armistice_instructions/verify.py --verify
+          python experiments/hungarian_armistice_instructions/verify_parallel.py --verify
           python experiments/sevastopol_coded_routing/verify.py --verify
           python experiments/nov8_map_and_boundary/verify.py --verify
           python experiments/nov7_fragments_and_council/verify.py --verify
@@ -288,6 +290,7 @@ jobs:
           python experiments/p154_weisskirchen_fragment/verify.py --verify
           python experiments/p168_munich_routing_witness/verify.py --verify
           python experiments/p228_demobilization_fragment/verify.py --verify
+          python experiments/p228_demobilization_fragment/verify_reference.py --verify
           python experiments/p219_kiev_unrest/verify.py --verify
           python experiments/p71_dc_machines_fragment/verify.py --verify
           python experiments/p176_coal_train_fragment/verify.py --verify
