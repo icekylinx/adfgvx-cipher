@@ -1,0 +1,107 @@
+{
+  "schema": "adfgvx-nov25-breslau-extension-input-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "prior_certificate": {
+    "path": "experiments/nov25_treaty_digits/certificates.json",
+    "sha256": "c6f18f4345755b220a3d95133d7a67e0487f8aba34b63d237f1286d0eaec9fd7"
+  },
+  "assignment": {
+    "pair": "GA",
+    "value": "6",
+    "record_id": "p224_C2",
+    "plaintext_index": 14,
+    "original_label": "7",
+    "condition": "The recipient described as Generalkommando ... A.K. Breslau is the VI Army Corps command attested in the contemporary local decree."
+  },
+  "historical_source": {
+    "title": "Der Gebirgsbote",
+    "issue": 129,
+    "year_volume": 70,
+    "publication_date": "1918-11-13",
+    "printed_page": 1,
+    "decree_date": "1918-11-11",
+    "place": "Breslau",
+    "identified_body": "Deputy general command of VI Army Corps, jointly with the Breslau soldiers council",
+    "signatures": [
+      "Freiherr von Egloffstein",
+      "Voigt",
+      "Berg"
+    ],
+    "url": "https://bibliotekacyfrowa.pl/Content/60534/PDF/directory.pdf",
+    "pdf_sha256": "a8f188191c3c7866e7c1ae32f139c67a800763b839c26f4fddab47e899cf8ee2",
+    "pdf_bytes": 1920027,
+    "crops": [
+      {
+        "path": "experiments/nov25_treaty_digits/sources/gebirgsbote_1918_129_title.png",
+        "pdf_page_1based": 1,
+        "clip_points": [
+          14,
+          30,
+          397,
+          125
+        ],
+        "scale": 3,
+        "sha256": "dc41d409b404fbec3b941d1dace973232f88abef6d2f74a14d598918a19c2b91"
+      },
+      {
+        "path": "experiments/nov25_treaty_digits/sources/breslau_vi_corps_nov11.png",
+        "pdf_page_1based": 1,
+        "clip_points": [
+          14,
+          226,
+          146,
+          501
+        ],
+        "scale": 3,
+        "sha256": "599ffd2eb59ccd7157dd865d0c270348ec40492852f9aa560fd76f7fb11a0ba1"
+      }
+    ],
+    "catalogue_note": "The scan masthead reads 70. Jahrgang; the institutional title record displayed Jg.69."
+  },
+  "expected": {
+    "reviewed_records": 23,
+    "observed_raw_occurrences": 4,
+    "retained_edition_occurrences": 3,
+    "inconvenient_raw_occurrences": 1,
+    "additional_coordinate_changes": 0,
+    "remaining_square_completions": 362880
+  },
+  "case_fields": [
+    {
+      "case_path": "cases/people/breslau_staff_transfer.md",
+      "record_id": "p224_C2",
+      "range": [
+        14,
+        27
+      ],
+      "conditional": "6XAXKXBRESLAU"
+    },
+    {
+      "case_path": "cases/finance/lei_note_exchange.md",
+      "record_id": "p223_A3",
+      "range": [
+        64,
+        66
+      ],
+      "conditional": "6?"
+    },
+    {
+      "case_path": "cases/finance/lei_note_exchange.md",
+      "record_id": "p223_A3",
+      "range": [
+        189,
+        199
+      ],
+      "conditional": "1??6X11X1?"
+    }
+  ],
+  "limits": [
+    "Unit identification remains conditional; the 1918 decree establishes the local command but does not reproduce the intercepted personnel order.",
+    "The raw BERLI7 occurrence becomes BERLI6; the pre-existing source repair to BERLIN remains separately priced.",
+    "The mark amount is only 6?; its units digit and the other mark amount remain unresolved.",
+    "No source coordinate, baseline key, previous edition or treaty-digit certificate is changed."
+  ]
+}

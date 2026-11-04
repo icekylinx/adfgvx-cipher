@@ -6,10 +6,10 @@
 
 The opening of this three-part telegram directs a Flak unit, whose number
 remains unresolved, toward demobilization at **Neuhof, south of Fulda**.
-The middle part supports a conditional opening identifying the Hanau-Fulda
-line. The final part explicitly repeats that the relevant field-army
-items are to be sent to Neuhof. Most of the badly damaged middle part
-still has no proposed coherent original-language reading.
+The middle part now supports a conditional continuation naming the Hanau–Fulda
+line, enclosures 1 and 2, and formations undergoing demobilization within a
+deputy command's district. The final part explicitly directs the relevant
+field-army items to Neuhof.
 
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 [printed p228, PDF p231](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
@@ -29,8 +29,9 @@ NO 152 1512 3 TLE
 </details>
 
 All three parts use the unchanged published `Nov28-Dec1` square and ranks.
-Raw `Y` separators, numeral labels and rare letters remain as recorded.
-No optional late-key relabelling is applied.
+The source edition retains raw `Y` separators, numeral labels and rare
+letters. The separate shared interpretation below supplies part of B1's
+numerical fields.
 
 ## B1: the destination instruction
 
@@ -69,9 +70,31 @@ would normally contain `NICHT IN`, but no `T` is inserted into the fixed
 source frame. The Flak unit field remains `?0`. Its number, the order
 number, date-like fields and column-reference label remain uninterpreted.
 
+The [joint calendar and unit interpretation](../../experiments/late_november_calendar_and_units/README.md)
+adds `GA=0` and `VG=7`, fixing three more numeral positions without additional
+source changes:
+
+| Field | Published-key labels | Joint interpretation |
+|---|---|---|
+| Order reference | `P680` | **P067** |
+| Flak unit field | `?0` | **?7** |
+
+This interpreted layer fixes **120/123 positions**. The leading unit character
+remains an erasure, and two other fields retain the shared `4/5` ambiguity.
 The body continues into the middle part with the demobilization wording.
 
-## B2: a limited opening, followed by an unread remainder
+## B2: the demobilization continuation
+
+The [current B2 edition](p228_demobilization_fragment.md) reaches **125/132
+positions** through a conditional relocation of five printed mask slots,
+word proposals and two shared-reference transfers from B1. It preserves all
+221 observed coordinates in their original relative order. Five observed
+substitutions and 36 mask fills support the combined reading; seven positions,
+including the command field and the prefix before `CKFORMATIONEN`, remain
+unresolved.
+
+<details>
+<summary>Earlier native-frame opening</summary>
 
 The second part advertises `RICHI-264` and has **264 slots**, including
 **43 printed dashes**. Its direct label reading is:
@@ -109,6 +132,8 @@ confined to these 33 plaintext positions.
 The remaining **99 positions** retain their source-derived labels and
 domains for later work. No original wording is proposed for that remainder,
 and the label count below does not turn it into a recovered body.
+
+</details>
 
 ## B3: routing to Neuhof
 
@@ -148,7 +173,7 @@ middle portion, so the edition does not invent a specific unit or equipment
 category. The city string remains `DARMSADT`, without an added `T`.
 The office label `CMTRUPPENDEP` and its numerical reference remain literal.
 
-## Exact source accounting
+## Source accounting for the native-frame edition
 
 | Part | Actual slots | Printed dashes | Raw fixed labels | Edition fixed labels | Known-coordinate changes | Erasure fills |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -181,7 +206,3 @@ check; no universal first-decipherment claim is made.
 ```sh
 python experiments/neuhof_demobilization/verify.py --verify
 ```
-
-**Later B2 reconstruction.**
-
-The [reconstructed B2 continuation](p228_demobilization_fragment.md) moves five printed mask slots and extends the word proposal to 121/132 positions. It recovers wording about the command district and demobilizing formations, while retaining eleven unknown positions. Its exact source map and repair ledger accompany the later edition; the native-frame displays above remain available.

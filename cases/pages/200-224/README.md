@@ -20,7 +20,7 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 
 | Source | State | Subject |
 |---|---|---|
-| [p201 A1](../../finance/odessa_wagon_sale.md#p201-a1) | PARTIAL | Consulate and export-company address for a wagon-sale instruction |
+| [p201 A1](../../finance/odessa_wagon_sale.md#p201-a1) | CONDITIONAL | Consulate and export-company address for a wagon-sale instruction |
 | [p201 A2](../../finance/odessa_wagon_sale.md#p201-a2) | READING | Wagon Magdeburg sale request with opaque DAMM LADWIG phrase |
 | [p201 B1](../../military/p201_p206_orders.md) | READING | Report positions reached and expected border crossings |
 | [p201 B2](../../military/p201_p206_orders.md) | PARTIAL | Specify units and travel mode; acknowledge receipt |
@@ -35,7 +35,7 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 | [p202 B1](../../military/military_intendant_remit.md) | CONDITIONAL | New Berlin Generalintendant address and responsibility for organization, personnel and administration |
 | [p202 B2](../../military/military_intendant_remit.md) | READING | Berlin office responsibilities for administrative supplies, cash, allowances and levies |
 | [p202 B3](../../military/military_intendant_remit.md) | READING | Generalintendant at GRHQU responsible for supply transport and delivery |
-| [p202 B4](../../military/military_intendant_remit.md) | PARTIAL | Clothing, equipment, meat provision, sutlery and wartime services |
+| [p202 B4](../../military/military_intendant_remit.md) | CONDITIONAL | Clothing, equipment, meat provision, sutlery and wartime services |
 
 ## p203
 
@@ -53,7 +53,7 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 | [p204 B](../../radio/nov16_18_command_inquiries.md#p204-b) | PARTIAL | Where is the Warsaw general government now? |
 | [p204 C1](../../radio/nov16_18_command_inquiries.md#p204-c1) | PARTIAL | Lomza and Czenstochau radio equipment whereabouts |
 | [p204 C2](../../radio/warsaw_station_missing_row.md) | CONDITIONAL | Conditional lost-row reading: radio handover and WAU personnel transfer |
-| [p204 D](../../radio/nov16_18_command_inquiries.md#p204-d) | PARTIAL | Numbered reply with PSO BSL and WAU signature |
+| [p204 D](../../radio/nov16_18_command_inquiries.md#p204-d) | CONDITIONAL | Numbered reply with PSO BSL and WAU signature |
 
 ## p205
 
@@ -73,8 +73,8 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 | [p206 A1](../../military/p201_p206_orders.md) | PARTIAL | Confirm receipt of earlier departure and reporting orders |
 | [p206 A2](../../military/p201_p206_orders.md) | CONDITIONAL | References to disarmament, armistice and position-report orders |
 | [p206 A3](../../military/p201_p206_orders.md) | PARTIAL | Report division locations and acknowledge the present order |
-| [p206 B1](../../military/nov18_negotiation_repetition.md#p206-b1) | PARTIAL | Requested repetition of an assessment that negotiation participation is pointless |
-| [p206 B2](../../military/nov18_negotiation_repetition.md#p206-b2) | PARTIAL | Cited messages settled by the order to depart issued locally |
+| [p206 B1](../../military/nov18_negotiation_repetition.md#p206-b1) | CONDITIONAL | Requested repetition of an assessment that negotiation participation is pointless |
+| [p206 B2](../../military/nov18_negotiation_repetition.md#p206-b2) | CONDITIONAL | Cited messages settled by the order to depart issued locally |
 
 ## p207
 
@@ -83,7 +83,7 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 | [p207 A1](../../military/repatriation_orders.md) | PARTIAL | Equipment and horses unable to reach Germany: direct sale without stripping own troops |
 | [p207 A2](../../military/repatriation_orders.md) | CONDITIONAL | Conditional addressee/reference continuation; literal final extra X retained |
 | [p207 B](../../military/repatriation_orders.md) | PARTIAL | Incomplete printed copy of the Alpenkorps return order ending, supplied by p208 A2 |
-| [p207 C1](../../military/repatriation_orders.md) | PARTIAL | German general in Finland: cited reports assess situation differently |
+| [p207 C1](../../military/repatriation_orders.md) | CONDITIONAL | German general in Finland: cited reports assess situation differently |
 | [p207 C2](../../military/repatriation_orders.md) | PARTIAL | Early transport away considered necessary; literal doubled A and numerical reference retained |
 
 ## p208
@@ -189,7 +189,7 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 
 | Source | State | Subject |
 |---|---|---|
-| [p218 A1](../../caucasus/p218_A.md) | PARTIAL | Kress/Tiflis notice: armistice Article XII |
+| [p218 A1](../../caucasus/p218_A.md) | CONDITIONAL | Kress/Tiflis notice: armistice Article XII |
 | [p218 A2](../../caucasus/p218_A.md) | PARTIAL | Allied judgment governs withdrawal from former Russian territory |
 | [p218 A3](../../caucasus/p218_A.md) | PARTIAL | No Allied demand yet to withdraw the Tiflis guard |
 | [p218 B2](../../naval/urgent_shipping_space.md#p218-b2) | READING | Urgent shipping space for personnel and horses |
@@ -252,6 +252,6 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 | [p224 A2](../../radio/nov27_receiving_instructions.md#p224-a2) | READING | Only secure link home and preferred reception wavelength |
 | [p224 B](../../radio/nov27_receiving_instructions.md#p224-b) | READING | Brief report of no special events |
 | [p224 C1](../../people/breslau_staff_transfer.md) | READING | Staff officer raw STRZEMIECZNQ transferred from acting corps chief-of-staff duties |
-| [p224 C2](../../people/breslau_staff_transfer.md) | READING | Special employment with Breslau command; separate historical VI Corps context |
+| [p224 C2](../../people/breslau_staff_transfer.md) | CONDITIONAL | Special employment with Breslau command; separate historical VI Corps context |
 
 [Return to all source pages](../README.md).

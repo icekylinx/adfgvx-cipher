@@ -65,6 +65,53 @@ def complete_witness(cipher, key, template=None):
     return witnesses
 
 
+def complete_date_army(spec, base, key, mapping, source, raw, earlier):
+    """Price the date and army interpretation separately from the word layer."""
+    completed = repair(spec['edited_output'], base, key, mapping, source)
+    assert completed['raw'] == spec['edited_output']
+    assert completed['fixed_positions'] == len(completed['raw']) == 124
+    assert len(completed['known_coordinate_substitutions']) == spec['expected_substitutions'] == 5
+    assert len(completed['erased_coordinate_fills']) == spec['expected_source_mask_fills'] == 5
+    changed = [i for i, (a, b) in enumerate(zip(earlier['raw'], completed['raw'])) if a != b]
+    assert changed == spec['changed_plaintext_positions'] == [20, 24, 33]
+    additional = []
+    for index, (before, after) in enumerate(zip(earlier['ciphertext'], completed['ciphertext'])):
+        if before != after:
+            origin = mapping[index]
+            additional.append({'source_index': origin, 'printed': source[origin],
+                               'from_word_layer': before, 'to': after,
+                               'kind': 'observed_substitution' if source[origin] in C else 'source_mask_fill'})
+    assert [(e['source_index'], e['to']) for e in additional] == [(52, 'G'), (139, 'G'), (164, 'A')]
+    assert raw['raw'][:6] == 'AOKX11'
+    army = [raw['positions'][i] for i in spec['native_army_witness_positions']]
+    assert ''.join(p['raw'] for p in army) == '11'
+    assert all(source[i] in C for p in army for i in p['source_indices'])
+    donor_spec = spec['date_format_witness']
+    donor_data = load(ROOT / donor_spec['input_path'])
+    donor = next(r for r in donor_data['records'] if r['id'] == donor_spec['record_id'])
+    donor_source = literal(donor)
+    assert hashlib.sha256(donor_source.encode()).hexdigest() == donor_spec['literal_source_sha256']
+    donor_key = donor_data['keys'][donor['key_id']]
+    assert donor_key == key
+    donor_raw = inspect(''.join(c if c in C else '?' for c in donor_source), key, list(range(len(donor_source))))
+    assert donor_raw['raw'] == donor['expected_raw']
+    start = donor_spec['plaintext_start']
+    date_pairs = donor_raw['positions'][start:start + len(donor_spec['text'])]
+    assert ''.join(p['raw'] for p in date_pairs) == donor_spec['text']
+    assert all(donor_source[i] in C for p in date_pairs for i in p['source_indices'])
+    assert fold(spec['readable_german']) == fold(completed['raw'])
+    completed['global_completion_witnesses'] = complete_witness(completed['ciphertext'], key, completed['raw'])
+    return {'assumptions': spec['assumptions'], 'readable_german': spec['readable_german'],
+            'completed_reading': {k: v for k, v in completed.items() if k != 'positions'},
+            'changed_plaintext_pairs': [{'native': raw['positions'][i],
+                                         'completed_pair': completed['positions'][i]['pair'],
+                                         'proposed': completed['raw'][i]} for i in changed],
+            'additional_source_changes': additional,
+            'native_army_witness': army,
+            'date_format_witness': {**donor_spec, 'native_pairs': date_pairs},
+            'limits': spec['limits']}
+
+
 def check_case(data, results, p159):
     from data.reviews.check_reading_presentation import expected_legend
     path = ROOT / data['case']
@@ -79,8 +126,13 @@ def check_case(data, results, p159):
         if 'source_linked' in result:
             expected.append(result['source_linked']['raw'])
         expected.append(result['readable_candidate']['raw'])
+        quotes = [record['readable_german']]
+        if 'date_army_completion' in result:
+            completion = result['date_army_completion']
+            expected.append(completion['completed_reading']['raw'])
+            quotes.insert(0, completion['readable_german'])
         assert bodies == expected, record['id']
-        assert re.findall(r'^> (.*)$', section, re.M) == [record['readable_german']]
+        assert re.findall(r'^> (.*)$', section, re.M) == quotes
         assert fold(record['readable_german']) == fold(result['readable_candidate']['raw'])
     section = text.split('## Arad cross-copy restoration\n', 1)[1].split('\n## ', 1)[0]
     assert re.findall(r'```text\n(.*?)\n```', section, re.S) == [p159['source_linked']['raw']]
@@ -281,6 +333,8 @@ def build(pdf=None):
                                   'proposed':raw['raw'][ti],'p164_native_pair':raw['positions'][ti]})
             result['p153_word_repairs_supported_by_native_pairs'] = supported
             result['source_glyph_correction'] = data['source_glyph_correction']
+            result['date_army_completion'] = complete_date_army(
+                r['date_army_completion'], base, key, mapping, lit, raw, candidate)
         if r['id'] == 'p168_E':
             borrowed = [{'model_index':52,'origin':{'record_id':'p159_A','source_index':52}},
                         {'model_index':202,'origin':{'record_id':'p159_A','source_index':201}},
@@ -363,6 +417,12 @@ def build(pdf=None):
     fills=[event for r in out for event in r['readable_candidate']['erased_coordinate_fills']]
     assert sum(e['source_index'] is None for e in fills)==summary['inserted_slot_fills']
     assert sum(e['source_index'] is not None for e in fills)==summary['source_mask_fills']
+    dated = byid['p164_C1']['date_army_completion']['completed_reading']
+    summary['p164_date_army_completion'] = {
+        'fixed_positions': dated['fixed_positions'],
+        'additional_fixed_positions': dated['fixed_positions'] - byid['p164_C1']['readable_candidate']['fixed_positions'],
+        'observed_substitutions': len(dated['known_coordinate_substitutions']),
+        'source_mask_fills': len(dated['erased_coordinate_fills'])}
     return {'schema':'adfgvx-nov8-remaining-source-certificate-v1','authors':data['authors'],
             'input_sha256':sha(HERE/'inputs.json'),'indexing':data['indexing'],
             'summary':summary,'records':out,'p159_source_collation':p159,'source_only_crosscopy_family':source_family,'joint_footer_witnesses':joint,

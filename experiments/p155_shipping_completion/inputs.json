@@ -1,0 +1,72 @@
+{
+  "schema": "adfgvx-p155-shipping-completion-input-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "base_certificate": "data/certificates/p155.json",
+  "base_certificate_sha256": "16f9607910475b7a0e31e07946a48cfdc025f9a663d0eb85ef41a8f78512cb72",
+  "case": "cases/context/p155.md",
+  "records": [
+    {
+      "id": "p155_A1",
+      "proposal": "DAMPFERASGARDEINTRIFFTPOTIPOTIVORAUSSICHTLICHINNAECHSTENTAGENUMDORTBEFINDLICHETRUPPEN",
+      "source_slots": 170,
+      "preferred_gap_boundaries": [
+        null
+      ],
+      "expected_substitutions": 2,
+      "expected_source_mask_fills": 1,
+      "expected_inserted_slot_fills": 0
+    },
+    {
+      "id": "p155_A2",
+      "proposal": "ABZUHOLENXASGARDXASGARDXTRESIVOLUSXTRESIVOLUSX7X11XHIEREINGELAUFENXEMPFANGBESTAETIGENXXBQZXKX",
+      "source_slots": 185,
+      "preferred_gap_boundaries": [
+        183,
+        184
+      ],
+      "expected_substitutions": 3,
+      "expected_source_mask_fills": 2,
+      "expected_inserted_slot_fills": 1
+    }
+  ],
+  "readable_german": "Dampfer Asgard eintrifft Poti Poti voraussichtlich in nächsten Tagen, um dort befindliche Truppen abzuholen. Asgard Asgard, Tresivolus Tresivolus, 7.11. hier eingelaufen. Empfang bestätigen. BQZ K.",
+  "donors": [
+    {
+      "record": "p182_B",
+      "inputs": "experiments/return_time_and_vehicle_attempt/inputs.json",
+      "key_id": "Nov10-12",
+      "source_sha256": "ca790691e9f8654a293d40c93d88fa57021a4c0e3e9789be4898007d69f4bf9a",
+      "word": "VORAUSSICHTLICH",
+      "relationship": "Independent observed vocabulary; not a repeated copy of the p155 shipping telegram."
+    },
+    {
+      "record": "p222_A2",
+      "inputs": "experiments/liman_troop_reports/inputs.json",
+      "key_id": "Nov25-28",
+      "source_sha256": "b3a9c2d814b4fff1aa03d2e4ec7ad0db2445613cf812d039ef3f43dad9c11960",
+      "word": "BEFINDLICHE",
+      "relationship": "Independent observed vocabulary; not a repeated copy of the p155 shipping telegram."
+    },
+    {
+      "record": "p129_A8",
+      "inputs": "experiments/transylvania_situation_report/inputs.json",
+      "key_id": "Nov4-6",
+      "source_sha256": "51f431b30d45fd0a711192141172d03990f8b241eb4bbb5eb73ea9f3389d524f",
+      "word": "EMPFANGBESTAETIGEN",
+      "relationship": "Independent observed vocabulary; not a repeated copy of the p155 shipping telegram."
+    }
+  ],
+  "same_message_name_witness": {
+    "word": "ASGARD",
+    "donor": "p155_A1",
+    "target": "p155_A2",
+    "relationship": "A1 has ASGARD from complete observed pairs. A2 repeats the name once completely and once as A?GARD in both minimum-cost frames."
+  },
+  "prior_reading": "The existing case already proposed these words in a bracketed readable reconstruction. This supplement supplies the exact repaired streams, per-coordinate costs and observed vocabulary support; it does not claim a newly identified shipping event.",
+  "limits": [
+    "A1 retains its native 170-slot frame. A2 remains conditional on one missing coordinate in the advertised 186-slot frame; the two minimum-cost gap boundaries 183 and 184 yield the same completed plaintext and ciphertext.",
+    "The gap comparison prices this fixed body at all 186 positions. Earlier retained raw variants at 183, 185, 184 and 0 remain in the base certificate; their prior language ranking is not a uniqueness proof.",
+    "The ship spelling TRESIVOLUS, repeated names, 7X11 and closing BQZXK are unchanged. No missing port, station identity or key digit is supplied.",
+    "The documented diary context remains separate from the coordinate repairs."
+  ]
+}

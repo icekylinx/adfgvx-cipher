@@ -63,9 +63,11 @@ The received `RUSZLAND` spelling is retained. This is a continuation: “… die
 
 Relative to p212's actual source, the candidate uses one observed-coordinate substitution and 124 missing-coordinate fills. Of those fills, 123 are literal p218 values; one is the explicitly separate ordinary-word correction. Thirty plaintext positions use two p212 coordinates, 100 use one coordinate from each copy, and 12 use only borrowed coordinates.
 
-## Still-unread neighboring fragment
+## The neighboring medical fragment
 
-p212 A4 remains unread. A bounded comparison of its 197 source coordinates against all 788 frozen OCR blocks found no nonself exact ten-coordinate window. The comparison does not span OCR block boundaries and cannot exclude a re-encrypted or more heavily corrupted copy. This negative control and its literal source are retained in the certificate, outside the restored-reading count.
+p212 A4 now has a separate [conditional medical edition](../military/p212_medical_fragment.md): its primary reading fills 129/151 positions, and an optional transport-doctor reading reaches 148/151. Both depend on a proposed 302-coordinate frame; three positions in the opening remain unresolved.
+
+The earlier copy search found no nonself exact ten-coordinate window among 788 frozen OCR blocks. That result is retained in this package's certificate. It concerns repeated source coordinates, not the later recovery within the proposed frame; the search did not span OCR block boundaries.
 
 ## Attribution and scope
 

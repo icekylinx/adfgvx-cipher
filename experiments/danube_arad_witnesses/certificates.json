@@ -1,7 +1,7 @@
 {
   "schema": "adfgvx-nov8-remaining-source-certificate-v1",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "input_sha256": "6cebbc74a32b44c2f8fbc832c7efb05d38c06da3913aedec928d3b4478601387",
+  "input_sha256": "01ae3936594b28515baded3549346e299ead07bcd1f4517732c867d70cdc74e8",
   "indexing": "Machine source,model and plaintext indices are zero-based.",
   "summary": {
     "physical_records": 2,
@@ -16,7 +16,13 @@
     "inserted_slot_fills": 1,
     "inserted_slots": 1,
     "source_exclusions": 0,
-    "additional_p159_source_linked_positions": 11
+    "additional_p159_source_linked_positions": 11,
+    "p164_date_army_completion": {
+      "fixed_positions": 124,
+      "additional_fixed_positions": 2,
+      "observed_substitutions": 5,
+      "source_mask_fills": 5
+    }
   },
   "records": [
     {
@@ -5705,6 +5711,333 @@
         "plaintext_index": 110,
         "old_raw": "S",
         "new_raw": "E"
+      },
+      "date_army_completion": {
+        "assumptions": [
+          "The three fields 8XC1X1? encode a day.month.year date in the 1918 collection: 8.11.18.",
+          "The ?1 ARMEE field names the Eleventh Army already addressed as AOK11 at the start of the same message."
+        ],
+        "readable_german": "AOK11. Abendmeldung 8.11.18. Lage der 11 Armee am 7.11 abends. Donauuebergang 219 I D beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.",
+        "completed_reading": {
+          "template": "AOKX11ABENDMELDUNG8X11X18XLAGEDER11XARMEEAM7X11XABENDSXDONAUUEBERGANG219XIXDXBEENDETXBELGRADXSEMUMLEBHAFTERUEBERSETZVERKEHRX",
+          "ciphertext": "VDVAAXGVDVXDAGDXAVXXGDAADFAVVFXDXGADDGVVVXVDVDVXGVDGGFXVGVXXVVXXFXDDAFXXGDDFAFDXXDGXXVAVFXFFVVAVVDGGXXDXFFXVDAAGVAGFDDGVGDVDGVVDFVXVVVDXDDVGVVVVGGDXVVDGDDGXDVVVDAGVAGVVDVVVVVXFGVDGVFVVXDXVDFFFDDGGDXDVXGDDVGGXDFVVGVVVGVGVXFVFXVDDGAGDADGVDFDAXXDDDDDA",
+          "known_coordinate_substitutions": [
+            {
+              "model_index": 3,
+              "source_index": 3,
+              "printed": "V",
+              "from": "V",
+              "to": "A"
+            },
+            {
+              "model_index": 39,
+              "source_index": 39,
+              "printed": "X",
+              "from": "X",
+              "to": "V"
+            },
+            {
+              "model_index": 65,
+              "source_index": 65,
+              "printed": "G",
+              "from": "G",
+              "to": "X"
+            },
+            {
+              "model_index": 132,
+              "source_index": 132,
+              "printed": "F",
+              "from": "F",
+              "to": "V"
+            },
+            {
+              "model_index": 139,
+              "source_index": 139,
+              "printed": "D",
+              "from": "D",
+              "to": "G"
+            }
+          ],
+          "erased_coordinate_fills": [
+            {
+              "model_index": 1,
+              "source_index": 1,
+              "printed": "-",
+              "from": "?",
+              "to": "D"
+            },
+            {
+              "model_index": 42,
+              "source_index": 42,
+              "printed": "-",
+              "from": "?",
+              "to": "V"
+            },
+            {
+              "model_index": 52,
+              "source_index": 52,
+              "printed": "C",
+              "from": "?",
+              "to": "G"
+            },
+            {
+              "model_index": 135,
+              "source_index": 135,
+              "printed": "-",
+              "from": "?",
+              "to": "X"
+            },
+            {
+              "model_index": 164,
+              "source_index": 164,
+              "printed": "-",
+              "from": "?",
+              "to": "A"
+            }
+          ],
+          "full_plaintext_reencryption_verified": true,
+          "published_key_changed": false,
+          "raw": "AOKX11ABENDMELDUNG8X11X18XLAGEDER11XARMEEAM7X11XABENDSXDONAUUEBERGANG219XIXDXBEENDETXBELGRADXSEMUMLEBHAFTERUEBERSETZVERKEHRX",
+          "fixed_positions": 124,
+          "global_completion_witnesses": [
+            {
+              "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+              "ciphertext": "VDVAAXGVDVXDAGDXAVXXGDAADFAVVFXDXGADDGVVVXVDVDVXGVDGGFXVGVXXVVXXFXDDAFXXGDDFAFDXXDGXXVAVFXFFVVAVVDGGXXDXFFXVDAAGVAGFDDGVGDVDGVVDFVXVVVDXDDVGVVVVGGDXVVDGDDGXDVVVDAGVAGVVDVVVVVXFGVDGVFVVXDXVDFFFDDGGDXDVXGDDVGGXDFVVGVVVGVGVXFVFXVDDGAGDADGVDFDAXXDDDDDA",
+              "plaintext": "AOKX11ABENDMELDUNG8X11X18XLAGEDER11XARMEEAM7X11XABENDSXDONAUUEBERGANG219XIXDXBEENDETXBELGRADXSEMUMLEBHAFTERUEBERSETZVERKEHRX",
+              "reencryption_exact": true,
+              "historical_completion_claim": false
+            },
+            {
+              "square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+              "ciphertext": "VDVAAXGVDVXDAGDXAVXXGDAADFAVVFXDXGADDGVVVXVDVDVXGVDGGFXVGVXXVVXXFXDDAFXXGDDFAFDXXDGXXVAVFXFFVVAVVDGGXXDXFFXVDAAGVAGFDDGVGDVDGVVDFVXVVVDXDDVGVVVVGGDXVVDGDDGXDVVVDAGVAGVVDVVVVVXFGVDGVFVVXDXVDFFFDDGGDXDVXGDDVGGXDFVVGVVVGVGVXFVFXVDDGAGDADGVDFDAXXDDDDDA",
+              "plaintext": "AOKX11ABENDMELDUNG8X11X18XLAGEDER11XARMEEAM7X11XABENDSXDONAUUEBERGANG219XIXDXBEENDETXBELGRADXSEMUMLEBHAFTERUEBERSETZVERKEHRX",
+              "reencryption_exact": true,
+              "historical_completion_claim": false
+            }
+          ]
+        },
+        "changed_plaintext_pairs": [
+          {
+            "native": {
+              "plaintext_index": 20,
+              "pair": "FD",
+              "model_indices": [
+                64,
+                139
+              ],
+              "source_indices": [
+                64,
+                139
+              ],
+              "domain": "C",
+              "raw": "C"
+            },
+            "completed_pair": "FG",
+            "proposed": "1"
+          },
+          {
+            "native": {
+              "plaintext_index": 24,
+              "pair": "F?",
+              "model_indices": [
+                90,
+                164
+              ],
+              "source_indices": [
+                90,
+                164
+              ],
+              "domain": "178COQ",
+              "raw": "?"
+            },
+            "completed_pair": "FA",
+            "proposed": "8"
+          },
+          {
+            "native": {
+              "plaintext_index": 33,
+              "pair": "F?",
+              "model_indices": [
+                190,
+                52
+              ],
+              "source_indices": [
+                190,
+                52
+              ],
+              "domain": "178COQ",
+              "raw": "?"
+            },
+            "completed_pair": "FG",
+            "proposed": "1"
+          }
+        ],
+        "additional_source_changes": [
+          {
+            "source_index": 52,
+            "printed": "C",
+            "from_word_layer": "?",
+            "to": "G",
+            "kind": "source_mask_fill"
+          },
+          {
+            "source_index": 139,
+            "printed": "D",
+            "from_word_layer": "D",
+            "to": "G",
+            "kind": "observed_substitution"
+          },
+          {
+            "source_index": 164,
+            "printed": "-",
+            "from_word_layer": "?",
+            "to": "A",
+            "kind": "source_mask_fill"
+          }
+        ],
+        "native_army_witness": [
+          {
+            "plaintext_index": 4,
+            "pair": "FG",
+            "model_indices": [
+              88,
+              162
+            ],
+            "source_indices": [
+              88,
+              162
+            ],
+            "domain": "1",
+            "raw": "1"
+          },
+          {
+            "plaintext_index": 5,
+            "pair": "FG",
+            "model_indices": [
+              25,
+              212
+            ],
+            "source_indices": [
+              25,
+              212
+            ],
+            "domain": "1",
+            "raw": "1"
+          }
+        ],
+        "date_format_witness": {
+          "input_path": "experiments/nov7_derailment_and_trains/inputs.json",
+          "record_id": "p155_D",
+          "literal_source_sha256": "f899e03ffb9d42c035dabe7fcb8572847bf7bef049a0278eaa00e3fed9407db5",
+          "plaintext_start": 30,
+          "text": "7X11X18",
+          "case": "cases/military/nov7_derailment_and_trains.md#p155-d",
+          "role": "Native day.month.year format in another November 7 report; it does not independently supply the target report date.",
+          "native_pairs": [
+            {
+              "plaintext_index": 30,
+              "pair": "FF",
+              "model_indices": [
+                82,
+                177
+              ],
+              "source_indices": [
+                82,
+                177
+              ],
+              "domain": "7",
+              "raw": "7"
+            },
+            {
+              "plaintext_index": 31,
+              "pair": "VV",
+              "model_indices": [
+                98,
+                225
+              ],
+              "source_indices": [
+                98,
+                225
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 32,
+              "pair": "FG",
+              "model_indices": [
+                3,
+                161
+              ],
+              "source_indices": [
+                3,
+                161
+              ],
+              "domain": "1",
+              "raw": "1"
+            },
+            {
+              "plaintext_index": 33,
+              "pair": "FG",
+              "model_indices": [
+                241,
+                66
+              ],
+              "source_indices": [
+                241,
+                66
+              ],
+              "domain": "1",
+              "raw": "1"
+            },
+            {
+              "plaintext_index": 34,
+              "pair": "VV",
+              "model_indices": [
+                114,
+                209
+              ],
+              "source_indices": [
+                114,
+                209
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 35,
+              "pair": "FG",
+              "model_indices": [
+                35,
+                273
+              ],
+              "source_indices": [
+                35,
+                273
+              ],
+              "domain": "1",
+              "raw": "1"
+            },
+            {
+              "plaintext_index": 36,
+              "pair": "FA",
+              "model_indices": [
+                130,
+                193
+              ],
+              "source_indices": [
+                130,
+                193
+              ],
+              "domain": "8",
+              "raw": "8"
+            }
+          ]
+        },
+        "limits": [
+          "Conditional completion of the date and army reference; the native and earlier word layers remain unchanged.",
+          "No new key cell is assigned. SEMUM remains literal."
+        ]
       }
     },
     {
@@ -22706,6 +23039,6 @@
   "limits": [
     "The p168E272-slot frame inserts one coordinate in the visibly shortDDGX group; the p159DDGGX witness suppliesG and leaves two equal-G source-origin aliases.",
     "All eight source-only minimizing p159 maps within the full earlier finite edit family produce one linked ciphertext. All borrowed values have directly observed original-source origins; no source-linked value is donated back.",
-    "Literal14TAGE X10TAGE,STAEKE,80000,30000,219 versus21B,all reference fields and the globally coupled5/6 footer are retained."
+    "Literal 14TAGE X10TAGE, STAEKE, 80000, 30000 and the globally coupled 5/6 footer are retained. The native 219 versus 21B difference remains in the source layers; the p164 date and army completion is separate."
   ]
 }

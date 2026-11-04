@@ -7,8 +7,23 @@
 Childs p219 contains a two-part request about an advance for Arad,
 following an arrangement with the German military mission at Budapest,
 and a separate message reporting partial crown remittances and a severe
-shortage of banknotes. This edition preserves all monetary, army and
-reference labels exactly under the published square.
+shortage of banknotes. The baseline edition preserves the published labels;
+a later treaty-based interpretation identifies both army addresses as 11.
+
+### The 11th-Army addresses
+
+The [Article XII interpretation](../../experiments/nov25_treaty_digits/README.md)
+assigns the received pair `FX` to 1 throughout the Nov25–28 traffic. It
+gives the following addresses without changing a source coordinate:
+
+| Part | Conditional received field |
+| --- | --- |
+| A1 | `ETXINTENDX11FIALA` |
+| B | `FELDINTENDXAXOXKX11` |
+
+The monetary amounts remain unassigned. The complete propagation and the
+unchanged word-repair costs are recorded in the
+[joint certificate](../../experiments/nov25_treaty_digits/certificates.json).
 
 The primary source is J. Rives Childs, *General Solution of the ADFGVX
 Cipher System*, [printed p219, PDF p222](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).

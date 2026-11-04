@@ -131,12 +131,18 @@ def model_certificate(record, model, key, proposal=None):
 def all_two_deletion_fits(record, key):
     """Exhaust the stated source-layout family against a fixed editorial text."""
     source = record['analysis_source']
-    expected = encrypt(record['editorial_template'], key['column_rank_order'], key['square'])
+    template = record['editorial_template']
+    expected = list(encrypt(template.replace('?', 'A'), key['column_rank_order'], key['square']))
+    offsets = inverse_offsets(len(expected), key['column_rank_order'])
+    for position, character in enumerate(template):
+        if character == '?':
+            expected[offsets[2 * position]] = expected[offsets[2 * position + 1]] = '?'
+    expected = ''.join(expected)
     assert len(source) == 188 and len(expected) == 186
     best, minima, count = len(expected) + 1, [], 0
     for a, b in itertools.combinations(range(len(source)), 2):
         candidate = source[:a] + source[a + 1:b] + source[b + 1:]
-        cost = sum(x != '?' and x != y for x, y in zip(candidate, expected))
+        cost = sum(x != '?' and y != '?' and x != y for x, y in zip(candidate, expected))
         count += 1
         if cost < best:
             best, minima = cost, [[a, b]]
@@ -146,7 +152,7 @@ def all_two_deletion_fits(record, key):
     return {'layouts_tested': count, 'minimum_known_substitutions': best,
             'all_minimum_deletion_indices': minima,
             'scope': 'Exactly two arbitrary source-slot deletions, fixed Oct4-6 key, '
-                     'fixed full editorial template; invalid E/R are erasures. '
+                     'fixed partial editorial template; its reference unknown is unasserted and invalid E/R are erasures. '
                      'This conditional fit does not prove historical deletions.'}
 
 
@@ -186,9 +192,30 @@ def rebuild(inputs, pdf=None):
                   'all_model_common_template': ''.join(d if len(d) == 1 else '?' for d in union),
                   'all_model_common_fixed_positions': sum(len(d) == 1 for d in union)}
         if record['id'] == 'p62_B':
-            assert literal[7] == 'E' and literal[84] == 'R'
+            assert literal[5:10] == 'FVFEF' and literal[84] == 'R'
             assert source[79:81] == 'FF' and source[-1] == 'X'
             assert len({m['layout_ciphertext'] for m in models}) == 1
+            assert models[0]['raw_plaintext'][79] == 'L' and union[90] == '018MRV'
+            assert record['editorial_template'].endswith('FEWEWA?10')
+            assert models[0]['cost'] == {'deleted_slots': 2, 'known_substitutions': 2, 'erasure_fills': 1}
+            assert models[0]['erasure_fills'][0]['source_index'] == 84
+            case = (ROOT / 'cases/caucasus/october_requests.md').read_text()
+            section = case.split('## p62 B —', 1)[1].split('\n## ', 1)[0]
+            quote = ''.join(line[2:] for line in section.splitlines() if line.startswith('> ')).upper()
+            labels = ''.join(c for c in quote if c in ALPHABET + '?')
+            assert labels == record['editorial_template'].replace('X', '')
+            assert '```text\n' + models[0]['raw_plaintext'] + '\n```' in section
+            completions = []
+            for character in union[90]:
+                proposal = record['editorial_template'].replace('FEWEWA?10', 'FEWEWA' + character + '10')
+                complete = model_certificate(record, record['layout_models'][0], key, proposal)
+                fill = next(e for e in complete['erasure_fills'] if e['source_index'] == 8)
+                assert complete['cost'] == {'deleted_slots': 2, 'known_substitutions': 2, 'erasure_fills': 2}
+                completions.append({'reference': proposal[-9:], 'source_index': 8, 'coordinate_fill': fill['after'],
+                                    'additional_mask_fills': 1, 'exact_roundtrip_verified': True})
+            assert record['transcription_review']['previous_editorial_template'].endswith('FEWEWA110')
+            result['transcription_review'] = record['transcription_review']
+            result['reference_completions'] = completions
             result['conditional_two_deletion_fit'] = all_two_deletion_fits(record, key)
         if record['id'] == 'p63_A':
             assert len(' '.join(record['rows']).split()) == 54 and len(source) == 270

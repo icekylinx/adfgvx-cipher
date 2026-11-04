@@ -2,18 +2,18 @@
   "schema": "adfgvx-native-source-edition-certificate-v1",
   "project": "ADFGVX Cipher",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "input_sha256": "192e5312d7acd7bb0576fec55c2a14a06ef569eef1607126dffccfd65cfd52c2",
+  "input_sha256": "2e469cfbcf4debdd94864c76418d660a0ed0a238add569b51b2bd02a7191c90b",
   "indexing": "All machine indices are zero-based.",
   "summary": {
     "physical_records": 3,
     "printed_source_slots": 542,
-    "valid_source_coordinates": 539,
+    "valid_source_coordinates": 540,
     "modeled_coordinates": 542,
     "plaintext_positions": 271,
-    "baseline_fixed_positions": 268,
+    "baseline_fixed_positions": 269,
     "candidate_fixed_positions": 271,
     "known_coordinate_substitutions": 1,
-    "source_or_model_erasure_fills": 3,
+    "source_or_model_erasure_fills": 2,
     "source_deletions": 0,
     "inserted_slots": 0,
     "source_reorderings": 0,
@@ -22,9 +22,9 @@
   "records": [
     {
       "id": "p56_A",
-      "literal_source": "DXFFXXGVDVDDFAAGAFFGXGXVXGFGFGAAGFVGGGGFVGDDGFGFFFDXVFDAFDDXVDAFGAAGFAGAVGGGGFXAFXGAVFGXFXXDDFFXDFXXXXAXXFGGVGAXGXAFAFDXFXGFFGDDFAGVXFXFDFFFXXGGGXGXGVAXAVXGAXGGXDXFFDFXDVXADFFXADDGDVVVXVFXGFXFDAFGADFGAWTDFDFXDFFFXVDDVDDAXF",
+      "literal_source": "DXFFXXGVDVDDFAAGAFFGXGXVXGFGFGAAGFVGGGGFVGDDGFGFFFDXVFDAFDDXVDAFGAAGFAGAVGGGGFXAFXGAVFGXFXXDDFFXDFXXXXAXXFGGVGAXGXAFAFDXFXGFFGDDFAGVXFXFDFFFXXGGGXGXGVAXAVXGAXGGXDXFFDFXDVXADFFXADDGDVVVXVFXGFXFDAFGADFGAWFDFDFXDFFFXVDDVDDAXF",
       "source_slots": 222,
-      "valid_source_coordinates": 220,
+      "valid_source_coordinates": 221,
       "model_to_source_indices": [
         0,
         1,
@@ -249,8 +249,8 @@
         220,
         221
       ],
-      "raw": "AKONAC?22XZUDORTROEM3NR8S86VERSANDZIELANINACHDRAHTENDIE150AUSGESUCHTETAUBENUEBERWEISENWIRDXNACHRXCHE?RM4D84760X",
-      "fixed_positions": 109,
+      "raw": "AKONACH22XZUDORTROEM3NR8S86VERSANDZIELANINACHDRAHTENDIE150AUSGESUCHTETAUBENUEBERWEISENWIRDXNACHRXCHE?RM4D84760X",
+      "fixed_positions": 110,
       "positions": [
         {
           "plaintext_index": 0,
@@ -338,7 +338,7 @@
         },
         {
           "plaintext_index": 6,
-          "pair": "?A",
+          "pair": "FA",
           "model_indices": [
             202,
             71
@@ -347,8 +347,8 @@
             202,
             71
           ],
-          "domain": "29DHJW",
-          "raw": "?"
+          "domain": "H",
+          "raw": "H"
         },
         {
           "plaintext_index": 7,
@@ -1818,13 +1818,6 @@
             "printed": "W",
             "from": "?",
             "to": "V"
-          },
-          {
-            "model_index": 202,
-            "source_index": 202,
-            "printed": "T",
-            "from": "?",
-            "to": "F"
           }
         ],
         "full_plaintext_reencryption_verified": true,
@@ -3398,7 +3391,26 @@
       "readable_german": "AKONACH 22. Zu dort ROEM3 Nr. 8S86: Versandziel ANI nachdrahten. Die 150 ausgesuchte Tauben ueberweisen WIRD. Nachr. Chef RM4D84760.",
       "readable_nonseparator_label_mapping_verified": true,
       "source_variants": [],
-      "unresolved_source_field_family": []
+      "unresolved_source_field_family": [],
+      "transcription_review": {
+        "date": "2026-11-04",
+        "source_index": 202,
+        "previous_transcription": "T",
+        "reviewed_transcription": "F",
+        "source_group": "AWFDF",
+        "plaintext_index": 6,
+        "previous_plaintext": "?",
+        "reviewed_plaintext": "H",
+        "reviewed_image": "sources/p56_reviewed.png",
+        "reviewed_crop_pixel_box": [
+          307,
+          568,
+          576,
+          635
+        ],
+        "classification": "correction of our transcription; no source-coordinate substitution",
+        "authors": "icekylinx and GPT-6 Astra Pro"
+      }
     },
     {
       "id": "p56_B1",

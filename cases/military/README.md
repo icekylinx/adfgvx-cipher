@@ -110,7 +110,7 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p126 A5](armistice_transit_planning.md) | CONDITIONAL | Conditional pretransposition-loss reading of the armistice report and march decision |
 | [p126 A6](armistice_transit_planning.md) | PARTIAL | Urgent request for the actual armistice agreement |
 | [p126 B](armistice_transit_planning.md) | READING | Separate receipt notification retaining literal OHL/OKM reference labels |
-| [p127 A3](nov4_march_air_reconnaissance.md#p127-a3) | PARTIAL | March report and aerial reconnaissance with unresolved unit and place |
+| [p127 A3](nov4_march_air_reconnaissance.md#p127-a3) | CONDITIONAL | March and aerial reconnaissance report |
 | [p128 B1](transylvania_situation_report.md#p128-b1) | READING | Military situation after the collapse in Transylvania and Hungary’s armistice |
 | [p129 A7](transylvania_situation_report.md#p129-a7) | READING | Request concerning the unknown general political situation and a possible armistice |
 | [p129 A8](transylvania_situation_report.md#p129-a8) | READING | Request for acknowledgment; raw secret reference retained |
@@ -145,7 +145,7 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p152 C](nov7_danube_and_message_reports.md#p152-c) | READING | Morning report: no special events |
 | [p152 D](nov7_danube_and_message_reports.md#p152-d) | READING | Receipt of a FunkSpruch with literal numerical fields |
 | [p153 A3](nov7_danube_and_message_reports.md#p153-a3) | READING | A prescribed line and a Temesvar headquarters field |
-| [p153 B1](nov7_danube_and_message_reports.md#p153-b1) | READING | Danube crossing completed and busy crossing traffic |
+| [p153 B1](nov7_danube_and_message_reports.md#p153-b1) | CONDITIONAL | Danube crossing completed and busy crossing traffic |
 | [p154 A2](p154_weisskirchen_fragment.md) | CONDITIONAL | Weisskirchen halt and security fragment |
 | [p154 B3](airfield_german_troop_fragment.md#p154-b3) | READING | Third-part airfield and German troop report |
 | [p155 D](nov7_derailment_and_trains.md#p155-d) | PARTIAL | Morning report: derailed freight train and both tracks blocked |
@@ -165,7 +165,7 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p163 A17](p163_A.md) | PARTIAL | Danube vessels and Scholtz headquarters movement to Calimanesti |
 | [p163 A18](p163_A.md) | PARTIAL | Headquarters moves to Hermannstadt, Kronstadt and Sinaia |
 | [p164 A4](../context/p164_A4.md) | PARTIAL | Dismounted cavalry west of an unidentified MIRCO |
-| [p164 C1](danube_arad_witnesses.md#p164-c1) | PARTIAL | AOK11 evening report: Danube crossing and Belgrade–SEMUM traffic |
+| [p164 C1](danube_arad_witnesses.md#p164-c1) | CONDITIONAL | AOK11 evening report: Danube crossing and Belgrade–SEMUM traffic |
 | [p166 A1](nov9_operational_reports.md) | READING | Serbian cavalry in Peterwardein and Fehertemplom |
 | [p166 A2](nov9_operational_reports.md) | PARTIAL | Northward movement and Alpenkorps transport preparations |
 | [p166 A3](nov9_operational_reports.md) | CONDITIONAL | March toward Nagybeskerek and Werschetz; order footer |
@@ -224,16 +224,16 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p202 B1](military_intendant_remit.md) | CONDITIONAL | New Berlin Generalintendant address and responsibility for organization, personnel and administration |
 | [p202 B2](military_intendant_remit.md) | READING | Berlin office responsibilities for administrative supplies, cash, allowances and levies |
 | [p202 B3](military_intendant_remit.md) | READING | Generalintendant at GRHQU responsible for supply transport and delivery |
-| [p202 B4](military_intendant_remit.md) | PARTIAL | Clothing, equipment, meat provision, sutlery and wartime services |
+| [p202 B4](military_intendant_remit.md) | CONDITIONAL | Clothing, equipment, meat provision, sutlery and wartime services |
 | [p206 A1](p201_p206_orders.md) | PARTIAL | Confirm receipt of earlier departure and reporting orders |
 | [p206 A2](p201_p206_orders.md) | CONDITIONAL | References to disarmament, armistice and position-report orders |
 | [p206 A3](p201_p206_orders.md) | PARTIAL | Report division locations and acknowledge the present order |
-| [p206 B1](nov18_negotiation_repetition.md#p206-b1) | PARTIAL | Requested repetition of an assessment that negotiation participation is pointless |
-| [p206 B2](nov18_negotiation_repetition.md#p206-b2) | PARTIAL | Cited messages settled by the order to depart issued locally |
+| [p206 B1](nov18_negotiation_repetition.md#p206-b1) | CONDITIONAL | Requested repetition of an assessment that negotiation participation is pointless |
+| [p206 B2](nov18_negotiation_repetition.md#p206-b2) | CONDITIONAL | Cited messages settled by the order to depart issued locally |
 | [p207 A1](repatriation_orders.md) | PARTIAL | Equipment and horses unable to reach Germany: direct sale without stripping own troops |
 | [p207 A2](repatriation_orders.md) | CONDITIONAL | Conditional addressee/reference continuation; literal final extra X retained |
 | [p207 B](repatriation_orders.md) | PARTIAL | Incomplete printed copy of the Alpenkorps return order ending, supplied by p208 A2 |
-| [p207 C1](repatriation_orders.md) | PARTIAL | German general in Finland: cited reports assess situation differently |
+| [p207 C1](repatriation_orders.md) | CONDITIONAL | German general in Finland: cited reports assess situation differently |
 | [p207 C2](repatriation_orders.md) | PARTIAL | Early transport away considered necessary; literal doubled A and numerical reference retained |
 | [p208 A1](repatriation_orders.md) | READING | Alpenkorps: Prussian formations to Silesia, subject to conditions |
 | [p208 A2](repatriation_orders.md) | PARTIAL | Bavarian formations to Bavaria; acknowledge receipt; complete printed copy of p207 B |
@@ -275,22 +275,22 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p222 A1](liman_troop_reports.md) | READING | General von Liman asked for regular troop transport, strength and condition reports |
 | [p222 A2](liman_troop_reports.md) | READING | Special requirements and acknowledgment requested in the Liman troop report |
 | [p225 B1](regimental_journey_report.md#p225-b1) | PARTIAL | Regimental transport fields and minor interruptions, first part |
-| [p225 B2](regimental_journey_report.md#p225-b2) | READING | Journey via literal route labels and arrival with assistance |
+| [p225 B2](regimental_journey_report.md#p225-b2) | CONDITIONAL | Journey via literal route labels and arrival with assistance |
 | [p226 C1](mackensen_internment.md) | READING | Mackensen internment: Entente demands and withdrawal assurances |
 | [p226 C2](mackensen_internment.md) | READING | Internment explained as a response to continued marching orders |
 | [p226 C3](mackensen_internment.md) | CONDITIONAL | Promise of decent internment conditions and eventual return |
 | [p227 A4](mackensen_internment.md) | READING | Preserve calm and order during Mackensen internment |
-| [p227 D](avoid_fighting_instruction.md#p227-d) | READING | An order to avoid fighting, with further instructions to follow |
+| [p227 D](avoid_fighting_instruction.md#p227-d) | CONDITIONAL | An order to avoid fighting, with further instructions to follow |
 | [p228 A](nov30_aviation_march_destination.md#p228-a) | CONDITIONAL | Aviation staff and army aviation park march destinations |
-| [p228 B1](neuhof_demobilization.md) | PARTIAL | Flak unit directed to demobilization at Neuhof south of Fulda |
+| [p228 B1](neuhof_demobilization.md) | CONDITIONAL | Flak unit directed to demobilization at Neuhof south of Fulda |
 | [p228 B2](p228_demobilization_fragment.md) | CONDITIONAL | Neuhof demobilization continuation: deputy-command district and formations |
 | [p228 B3](neuhof_demobilization.md) | READING | Field-army routing instruction directs the subject to Neuhof |
-| [p229 A1](late_transport_dispatches.md) | READING | Evening report on Tiszafoldvar advance and unchanged accommodation areas |
+| [p229 A1](late_transport_dispatches.md) | CONDITIONAL | Evening report on Tiszafoldvar advance and unchanged accommodation areas |
 | [p229 A2](late_transport_dispatches.md) | PARTIAL | Rail traffic on the proposed Arad-Szolnok line halted by Hungarian instruction |
 | [p229 A3](late_transport_dispatches.md) | READING | Planned loadings have not yet taken place after the transport halt |
-| [p229 B1](late_transport_dispatches.md) | PARTIAL | OHL requests direct inquiry to the army about releasing motor columns |
-| [p229 B2](late_transport_dispatches.md) | PARTIAL | Continuation asking how many further columns can be made available |
-| [p229 C](late_transport_dispatches.md) | PARTIAL | Aviation detachment query, proposed Craiova park and replenishment instruction |
+| [p229 B1](late_transport_dispatches.md) | CONDITIONAL | OHL requests direct inquiry to the army about releasing motor columns |
+| [p229 B2](late_transport_dispatches.md) | CONDITIONAL | Continuation asking how many further columns can be made available |
+| [p229 C](late_transport_dispatches.md) | CONDITIONAL | Aviation detachment query, proposed Craiova park and replenishment instruction |
 | [p230 A3](p230_A.md) | CONDITIONAL | Division locations near Hermannstadt and Muehlbach |
 | [p230 A4](p230_A.md) | CONDITIONAL | Forces near Kronstadt and Fogaras; OKM headquarters moves |
 

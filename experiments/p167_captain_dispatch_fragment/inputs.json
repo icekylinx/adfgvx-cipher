@@ -274,5 +274,43 @@
     "Exactly three slots are added under the advertised190-slot hypothesis. No printed slot is excluded, moved or copied, and the Nov7–9 key remains unchanged.",
     "The two unassigned square cells remain globally opposite digits5 and6. Their repeated occurrences are coupled across all modeled positions.",
     "All six minimum-substitution source maps are retained. The displayed primary uses four supplied unknown-coordinate values rather than five, but this does not establish its historical origin map."
-  ]
+  ],
+  "optional_name_proposal": {
+    "plaintext_start": 5,
+    "plaintext_stop": 15,
+    "raw": "LIMMER2ANG",
+    "proposal": "ZIMMERMANN",
+    "readable_german": "Hptm. Zimmermann […] Chef wird […] Ersatzabtlg abbefoerdert. Nachchef […]",
+    "additional_observed_substitutions": [
+      [
+        57,
+        "G",
+        "A"
+      ],
+      [
+        66,
+        "D",
+        "X"
+      ],
+      [
+        132,
+        "D",
+        "F"
+      ],
+      [
+        160,
+        "D",
+        "F"
+      ]
+    ],
+    "donor": {
+      "record": "p121_B1",
+      "inputs": "experiments/nov4_repetition_and_connections/inputs.json",
+      "key_id": "Nov4-6",
+      "source_sha256": "57026d7164de31a1f8da2c7f4cd6f6fd09368913de7ae6f8ccf0bfdfbf493bf8",
+      "observed_phrase": "HPTMXZIMMERMANN",
+      "case": "cases/radio/nov4_repetition_and_connections.md"
+    },
+    "scope": "The ten-letter surname proposal has the same cost in every retained frame. The earlier telegram supplies the name with the same rank; it does not prove that both references concern the same individual. No first name, full title, destination or footer is supplied."
+  }
 }

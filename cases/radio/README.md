@@ -66,7 +66,7 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p82 A4](constanza_radio_connections.md#p82-a4) | READING | Communication through the exchanges with all telephone points |
 | [p84 C](p84_mother_illness_extension.md) | CONDITIONAL | Field post, illness and a conditional request to come |
 | [p85 B](p85_B.md) | READING | Telephone censorship through Budapest |
-| [p87 A1](transmitter_dispatch_220_volts.md#p87-a1) | PARTIAL | Transmitter dispatch and a 220-volt converter motor |
+| [p87 A1](transmitter_dispatch_220_volts.md#p87-a1) | READING | Transmitter dispatch and a 220-volt converter motor |
 | [p88 B](uks_direct_or_osm_relay.md#p88-b) | READING | Expected heavier traffic: direct UKS connection or OSM relay |
 | [p97 A](hungary_connection_and_supplies.md#p97-a) | READING | Immediate repetition of the indicated CHI telegram and literal reference fields |
 | [p97 B](hungary_connection_and_supplies.md#p97-b) | READING | Connection through Hungary disrupted; telegrams sent by wireless until further notice |
@@ -108,7 +108,7 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p137 B](p137_station_staff_query.md#p137-b) | CONDITIONAL | Query whether the station is still staffed by its former personnel |
 | [p137 D](radio_contacts_and_keys.md#p137-d-the-oskachi-key-is-no-longer-here) | READING | Tell POT the OSKACHI key is no longer locally available |
 | [p138 B](opposite_end_deciphering.md) | CONDITIONAL | Instruction to decipher first half from front and second half from back; likely 1410(5) reference to p132 B |
-| [p138 C](nov6_marine_service_notice.md#p138-c) | CONDITIONAL | Marine service notice: O?MANIE unavailable, with addresses and labels retained |
+| [p138 C](nov6_marine_service_notice.md#completed-reading) | CONDITIONAL | Marine-service notice: Heeresgruppe Kiew and Osmanie unavailable |
 | [p140 A1](kiel_radio_control.md) | READING | Take immediate officer control of all radio stations |
 | [p140 A2](kiel_radio_control.md) | PARTIAL | Prevent reception and distribution of Kiel messages |
 | [p140 A3](kiel_radio_control.md) | PARTIAL | Confiscate and destroy Kiel texts already received |
@@ -127,11 +127,11 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p148 B1](constantinople_address_parts.md) | PARTIAL | Military Mission routing, Groener signature and officer receipt acknowledgement |
 | [p150 A2](radio_contacts_and_keys.md#p150-a2-receiving-station-in-the-embassy) | PARTIAL | Embassy receiving station listens; encipher addresses and call every period; second part only |
 | [p151 D2](courier_munich.md) | READING | Notify the courier destination and report arrival |
-| [p151 E2](nov9_operations_map_sheets.md) | PARTIAL | Operations-map sheets for the Gleiwitz garrison |
+| [p151 E2](nov9_operations_map_sheets.md) | CONDITIONAL | Operations-map sheets for the Gleiwitz garrison |
 | [p153 D2](courier_munich.md) | READING | Notify the courier destination and report arrival |
 | [p153 E1](courier_munich.md) | CONDITIONAL | Munich couriers carrying radio operating documents |
 | [p155 C1](nov7_eighth_part_repetition.md#p155-c1) | CONDITIONAL | Cannot decipher eighth part addressed to Sektion Politik Berlin |
-| [p155 C2](nov7_eighth_part_repetition.md#p155-c2) | PARTIAL | Request checking and retransmission of the eighth part |
+| [p155 C2](nov7_eighth_part_repetition.md#p155-c2) | CONDITIONAL | Request checking and retransmission of the eighth part |
 | [p156 A1](nov7_8_embassy_address_parts.md#p156-a1) | READING | German embassy address with Bussche signature |
 | [p156 B1](nov7_8_embassy_address_parts.md#p156-b1) | READING | German embassy at Constantinople and Stumm signature |
 | [p156 C1](constantinople_address_parts.md) | READING | German charge d’affaires at Constantinople and raw BUSSCHS signature |
@@ -145,10 +145,10 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p158 C2](courier_munich.md) | PARTIAL | Notify GRUKONACH and telegraph the couriers arrival |
 | [p159 B](../p158.md#component-readings) | CONDITIONAL | Munich routing and army-key instruction |
 | [p159 C](../p158.md#component-readings) | CONDITIONAL | Munich–Innsbruck routing and army-key instruction |
-| [p160 B1](radio_equipment_sale_prices.md#p160-b1) | PARTIAL | Radio apparatus sale and estimated value |
+| [p160 B1](radio_equipment_sale_prices.md#p160-b1) | CONDITIONAL | Radio apparatus sale and estimated value |
 | [p160 B2](radio_equipment_sale_prices.md#p160-b2) | PARTIAL | Radio apparatus sale and estimated value |
 | [p160 C1](ringbahn_key_reuse.md#p160-c1) | CONDITIONAL | November Ringbahn keys and postponed December change |
-| [p160 C2](ringbahn_key_reuse.md#p160-c2) | PARTIAL | November Ringbahn keys and postponed December change |
+| [p160 C2](ringbahn_key_reuse.md#p160-c2) | CONDITIONAL | November Ringbahn keys and postponed December change |
 | [p162 A1](courier_munich.md) | PARTIAL | Repeated Munich courier departure notice |
 | [p162 B1](map_sheet_request.md#p162-b1) | CONDITIONAL | General Staff Berlin map-sheet request; coupled quantity and map-scale digits unresolved |
 | [p162 C1](nov9_wire_return_source_family.md#p162-c1) | CONDITIONAL | Wire communications and return instructions |
@@ -220,7 +220,7 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p204 B](nov16_18_command_inquiries.md#p204-b) | PARTIAL | Where is the Warsaw general government now? |
 | [p204 C1](nov16_18_command_inquiries.md#p204-c1) | PARTIAL | Lomza and Czenstochau radio equipment whereabouts |
 | [p204 C2](warsaw_station_missing_row.md) | CONDITIONAL | Conditional lost-row reading: radio handover and WAU personnel transfer |
-| [p204 D](nov16_18_command_inquiries.md#p204-d) | PARTIAL | Numbered reply with PSO BSL and WAU signature |
+| [p204 D](nov16_18_command_inquiries.md#p204-d) | CONDITIONAL | Numbered reply with PSO BSL and WAU signature |
 | [p211 B lower1](p211_key_schedule.md) | READING | Retain the November Ringbahn key |
 | [p211 B lower2](p211_key_schedule.md) | READING | Use November keys for December traffic |
 | [p211 B lower3](p211_key_schedule.md) | PARTIAL | Schedule endpoint and receipt acknowledgment |
@@ -233,15 +233,15 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p224 A1](nov27_receiving_instructions.md#p224-a1) | READING | Use especially good radio listeners and send clearly |
 | [p224 A2](nov27_receiving_instructions.md#p224-a2) | READING | Only secure link home and preferred reception wavelength |
 | [p224 B](nov27_receiving_instructions.md#p224-b) | READING | Brief report of no special events |
-| [p225 A](late_november_cipher_instructions.md) | PARTIAL | November key material retained because December tables are absent |
-| [p226 A2](radio_traffic_transfer_fragment.md#p226-a2) | PARTIAL | Second-part report of a radio-traffic transfer |
+| [p225 A](late_november_cipher_instructions.md) | READING | November key material retained because December tables are absent |
+| [p226 A2](radio_traffic_transfer_fragment.md#p226-a2) | CONDITIONAL | Second-part report of a radio-traffic transfer |
 | [p226 B2](late_november_cipher_instructions.md) | READING | Numerical sequences read backward; missing first part |
 | [p227 B](late_november_cipher_instructions.md) | READING | Send telegrams for the army and subordinate formations directly |
 | [p228 C1](late_november_cipher_instructions.md) | READING | December key agreement involving UKS, ZOEN and BSL |
 | [p228 C2](late_november_cipher_instructions.md) | READING | Use the same key in BSL–UKS traffic; UKS agrees |
 | [p230 B](nov30_radio_personnel.md#p230-b) | READING | Inspection and War Ministry notified |
-| [p230 C](nov30_radio_personnel.md#p230-c) | READING | Station dismantling notice with a printed variant |
-| [p230 D](nov30_radio_personnel.md#p230-d) | READING | Tiflis radio and construction personnel inquiry |
+| [p230 C](nov30_radio_personnel.md#p230-c) | CONDITIONAL | Station dismantling notice with a printed variant |
+| [p230 D](nov30_radio_personnel.md#p230-d) | CONDITIONAL | Tiflis radio and construction personnel inquiry |
 | [p230 E](nov30_radio_personnel.md#p230-e) | READING | Request for timely internment notification |
 
 </details>

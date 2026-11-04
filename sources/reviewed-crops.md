@@ -50,7 +50,7 @@ All 40 crops from the 3 November source editions are available below. Each is bo
 ## Verify
 
 ```sh
-python -m pip install -r requirements-source-evidence.txt
+python -m pip install -r REQUIREMENTS.txt
 python data/reviews/verify_source_image_publication.py
 python data/reviews/verify_source_image_publication.py --pdf /path/to/childs.pdf
 ```

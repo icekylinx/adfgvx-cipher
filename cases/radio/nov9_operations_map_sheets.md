@@ -4,6 +4,10 @@
 
 **Source restoration and edition: icekylinx and GPT-6 Astra Pro.**
 
+## Conditional digit reading
+
+The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) supplies the closing **AOK 11, 1d 7065**, completing the two remaining labels at no additional source edit or fill. The opposite square gives 7056. The map scale, sheet names and quantities are already read independently of this choice.
+
 ## p151 E2
 
 This surviving second part lists operations-map sheets at the directly
@@ -11,8 +15,8 @@ read scale **1 zu 100000**, with named sheet areas and quantities, followed
 by a Gleiwitz garrison-office address. The complete printed body has
 **224 slots** and decrypts under the unchanged published **Nov7–9** key.
 Two explicitly priced word substitutions and two printed-erasure fills
-produce 110 fixed labels out of 112. The final two labels remain globally
-coupled unknown digits; no reference number is selected.
+produce 110 fixed labels out of 112. The conservative layer retains the final two labels as globally
+coupled unknown digits; the optional reference reading is given above.
 
 The [Childs source, printed p151, section E](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
 prints `LP v NKJ`, `7.09 a.m., November 9th`, `2 TL` and `RICHI-224`.

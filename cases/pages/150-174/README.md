@@ -28,7 +28,7 @@ This range contains 133 sources, including 1 OPEN. [Reading states](../../../doc
 | [p151 B](../../military/nov7_fragment_and_acknowledgment.md#p151-b) | CONDITIONAL | Acknowledgment of telegram 11212; separate handwritten duplicate layer |
 | [p151 C](../../military/soldiers_council_surrender.md#p151-c) | READING | Gouvernement and nearby barracks reported surrendered to Soldiers Council |
 | [p151 D2](../../radio/courier_munich.md) | READING | Notify the courier destination and report arrival |
-| [p151 E2](../../radio/nov9_operations_map_sheets.md) | PARTIAL | Operations-map sheets for the Gleiwitz garrison |
+| [p151 E2](../../radio/nov9_operations_map_sheets.md) | CONDITIONAL | Operations-map sheets for the Gleiwitz garrison |
 
 ## p152
 
@@ -46,7 +46,7 @@ This range contains 133 sources, including 1 OPEN. [Reading states](../../../doc
 | Source | State | Subject |
 |---|---|---|
 | [p153 A3](../../military/nov7_danube_and_message_reports.md#p153-a3) | READING | A prescribed line and a Temesvar headquarters field |
-| [p153 B1](../../military/nov7_danube_and_message_reports.md#p153-b1) | READING | Danube crossing completed and busy crossing traffic |
+| [p153 B1](../../military/nov7_danube_and_message_reports.md#p153-b1) | CONDITIONAL | Danube crossing completed and busy crossing traffic |
 | [p153a](../../p153a.md) | PARTIAL | Earlier orders; action still to be completed |
 | [p153b](../../p153b.md) | CONDITIONAL | Rearguard artillery ammunition report |
 | [p153 D2](../../radio/courier_munich.md) | READING | Notify the courier destination and report arrival |
@@ -63,11 +63,11 @@ This range contains 133 sources, including 1 OPEN. [Reading states](../../../doc
 
 | Source | State | Subject |
 |---|---|---|
-| [p155 A1](../../context/p155.md) | PARTIAL | Asgard arrival at Poti and troop pickup |
-| [p155 A2](../../context/p155.md) | CONDITIONAL | Asgard/Tresivolus shipping continuation |
+| [p155 A1](../../context/p155.md#completed-reading) | CONDITIONAL | Asgard arrival at Poti and troop pickup |
+| [p155 A2](../../context/p155.md#completed-reading) | CONDITIONAL | Asgard/Tresivolus shipping continuation |
 | [p155 B](../../people/schorlemer_demobilization_inquiry.md#p155-b) | READING | Von Schorlemer cannot currently be released from the administrative staff |
 | [p155 C1](../../radio/nov7_eighth_part_repetition.md#p155-c1) | CONDITIONAL | Cannot decipher eighth part addressed to Sektion Politik Berlin |
-| [p155 C2](../../radio/nov7_eighth_part_repetition.md#p155-c2) | PARTIAL | Request checking and retransmission of the eighth part |
+| [p155 C2](../../radio/nov7_eighth_part_repetition.md#p155-c2) | CONDITIONAL | Request checking and retransmission of the eighth part |
 | [p155 D](../../military/nov7_derailment_and_trains.md#p155-d) | PARTIAL | Morning report: derailed freight train and both tracks blocked |
 
 ## p156
@@ -117,11 +117,11 @@ This range contains 133 sources, including 1 OPEN. [Reading states](../../../doc
 | Source | State | Subject |
 |---|---|---|
 | [p160 A2](../../military/nov8_alpenkorps_report.md#p160-a2) | CONDITIONAL | Alpenkorps departure and march report |
-| [p160 B1](../../radio/radio_equipment_sale_prices.md#p160-b1) | PARTIAL | Radio apparatus sale and estimated value |
+| [p160 B1](../../radio/radio_equipment_sale_prices.md#p160-b1) | CONDITIONAL | Radio apparatus sale and estimated value |
 | [p160 B2](../../radio/radio_equipment_sale_prices.md#p160-b2) | PARTIAL | Radio apparatus sale and estimated value |
 | [p160 C1](../../radio/ringbahn_key_reuse.md#p160-c1) | CONDITIONAL | November Ringbahn keys and postponed December change |
-| [p160 C2](../../radio/ringbahn_key_reuse.md#p160-c2) | PARTIAL | November Ringbahn keys and postponed December change |
-| [p160 D1](../../people/awaloff_return_request.md#p160-d1) | PARTIAL | Request for Awaloff to come to Berlin |
+| [p160 C2](../../radio/ringbahn_key_reuse.md#p160-c2) | CONDITIONAL | November Ringbahn keys and postponed December change |
+| [p160 D1](../../people/awaloff_return_request.md#p160-d1) | CONDITIONAL | Request for Awaloff to come to Berlin |
 
 ## p161
 
@@ -129,7 +129,7 @@ This range contains 133 sources, including 1 OPEN. [Reading states](../../../doc
 |---|---|---|
 | [p161 A2](../../people/awaloff_return_request.md#p161-a2) | PARTIAL | Request for Awaloff to come to Berlin |
 | [p161 B1](../../people/constantinople_urgent_address.md#p161-b1) | READING | Urgent Constantinople embassy address; Gez. Stumm, part1 only |
-| [p161 C1](../../people/military_mission_recalls.md) | PARTIAL | Siegfried posting cancellation, first part |
+| [p161 C1](../../people/military_mission_recalls.md) | CONDITIONAL | Siegfried posting cancellation, first part |
 | [p161 C2](../../people/military_mission_recalls.md) | READING | Siegfried mission assignment cancelled and cabinet-order closing |
 | [p161 D1](../../people/military_mission_recalls.md) | READING | Osthoff posting and mission assignment cancelled |
 | [p161 D2](../../people/military_mission_recalls.md) | READING | Osthoff railway battalion reassignment and cabinet-order closing |
@@ -163,7 +163,7 @@ This range contains 133 sources, including 1 OPEN. [Reading states](../../../doc
 | [p164 A4](../../context/p164_A4.md) | PARTIAL | Dismounted cavalry west of an unidentified MIRCO |
 | [p164b](../../p164b.md) | PARTIAL | Height 828 and an uneventful situation report |
 | [p164 B](../../radio/p164_B.md) | PARTIAL | Dismantle the station and resume calls after reaching Temesvar |
-| [p164 C1](../../military/danube_arad_witnesses.md#p164-c1) | PARTIAL | AOK11 evening report: Danube crossing and Belgrade–SEMUM traffic |
+| [p164 C1](../../military/danube_arad_witnesses.md#p164-c1) | CONDITIONAL | AOK11 evening report: Danube crossing and Belgrade–SEMUM traffic |
 | [p164 D](../../radio/p164_acknowledgment.md#p164-d) | PARTIAL | Partial receipt acknowledgement to O.H.L., with O.K.M. closing and opaque references |
 
 ## p165
@@ -196,7 +196,7 @@ This range contains 133 sources, including 1 OPEN. [Reading states](../../../doc
 | [p167 B2](../../finance/nov9_crown_airlift_and_embassy.md#p167-b2) | READING | A giant aircraft to Brasso and a mix of banknote denominations |
 | [p167 B3](../../finance/nov9_crown_airlift_and_embassy.md#p167-b3) | READING | A limited crown supply and a high exchange rate |
 | [p167 C1](../../radio/p167_mission_address.md#p167-c1) | PARTIAL | Mission address and Nachrichtenchef routing/signature field |
-| [p167 D](../../people/p167_captain_dispatch_fragment.md#p167-d) | CONDITIONAL | Captain and replacement-detachment dispatch fragment |
+| [p167 D](../../people/p167_captain_dispatch_fragment.md#conditional-name-proposal) | CONDITIONAL | Captain and replacement-detachment dispatch fragment |
 | [p167 E1](../../finance/nov9_crown_airlift_and_embassy.md#p167-e1) | READING | Urgent Constantinople embassy address signed Stumm |
 
 ## p168
@@ -244,7 +244,7 @@ This range contains 133 sources, including 1 OPEN. [Reading states](../../../doc
 | [p172 C1](../../military/namur_cassel_armistice_requests.md#p172-c1) | READING | Namur arrival report naming Major Kroeger, first part |
 | [p172 C3](../../military/namur_cassel_armistice_requests.md#p172-c3) | READING | Mannstaedt requests a reply, third part |
 | [p172 D1](../../finance/staatsbank_accounting_cheques.md#p172-d1) | CONDITIONAL | State-bank accounting inquiry, first part with one missing coordinate |
-| [p172 D2](../../finance/staatsbank_accounting_cheques.md#p172-d2) | PARTIAL | Treasury payment period and arrival of dispatched cheques |
+| [p172 D2](../../finance/staatsbank_accounting_cheques.md#p172-d2) | CONDITIONAL | Treasury payment period and arrival of dispatched cheques |
 | [p172 E](../../people/namur_order_witnesses.md) | CONDITIONAL | Namur order for Staedt to contact HPT V. Weiher; complementary source witness |
 
 ## p173

@@ -10,19 +10,25 @@ fixes **121/132 positions**, comprising **95 proposed word positions** and
 26 retained labels in other fields. Its five observed-coordinate substitutions
 and 32 printed-mask fills are individually recorded.
 
+Two shared-reference steps now extend that proposal to **125/132 positions**:
+the first part supplies the order suffix and the first enclosure number.
+Together with the later numeral interpretation, the latter passage reads
+**Anlg. 1 u. 2**. Both steps use complete original donor pairs and add four
+mask fills, with no additional observed-coordinate substitution.
+
 The earlier edition proposed only the first 33 positions. This continuation
 adds the phrases `DIE NACH ANLG`, `DES ERL`, `IM BEREICH DES STELLV`,
-`DEMOBILMACHENDEN` and the suffix `FORMATIONEN`. References, abbreviations,
-the intervening command designation and the prefix `???CK` remain literal.
+`DEMOBILMACHENDEN` and the suffix `FORMATIONEN`. The intervening command
+designation and the prefix `???CK` remain unresolved.
 
 ## Readable fragments
 
-**Readable German — selected word spans from the edited layer; ellipses omit fields shown in full below; abbreviations are retained:**
+**Conditional interpretation — readable German after the shared-reference and enclosure transfers, with the declared numeral interpretation; ellipses omit fields shown below:**
 
-> An Strecke Hanau–Fulda demobil gemacht. Die nach Anlg […] des Erl […] im Bereich des stellv […] demobilmachenden ???CKformationen […]
+> An Strecke Hanau–Fulda demobil gemacht. Die nach Anlg. 1 u. 2 des Erl. […] im Bereich des stellv. […] demobilmachenden ???CKformationen […]
 
 The wording concerns formations undergoing demobilization within a deputy
-command's district and refers to an enclosure and an order. The incomplete
+command's district and refers to two enclosures and an order. The incomplete
 compound ending in `FORMATIONEN` does not identify a specific formation type.
 The [third part](neuhof_demobilization.md#b3-routing-to-neuhof) continues with
 `DESFELDHEERES` and directs the relevant items toward Neuhof. The new fragment
@@ -129,7 +135,7 @@ crop have matching authenticated pixels; no new source image is duplicated.
 python experiments/p228_demobilization_fragment/verify.py --verify
 ```
 
-**Optional repeated-reference witness.**
+## Shared reference and enclosure witnesses
 
 The first part has the fully observed reference fragment `P680YX4GEH`;
 B2 has `2680Y??GEH`. If these denote the same order-reference field,
@@ -143,6 +149,31 @@ fills and the same five observed substitutions**. The primary layer stays at
 receives a numerical interpretation. These are separate parts with a proposed
 shared reference, not duplicate receptions. Reproduce with
 `python experiments/p228_demobilization_fragment/verify_reference.py --verify`.
+
+The first part also has the fully observed `ANLGYX`. Its two final pairs,
+`AX` and `GX`, fit B2's `ANLG??UJ` at positions 44–45. Transferring them fills
+source253 with `A` and source208 with `X`, producing `ANLGYXUJ`. This
+**enclosure extension fixes 125/132 positions**, with five observed
+substitutions and 36 mask fills in total. Positions 68, 92–94 and 116–118
+remain unresolved.
+
+Under the [shared calendar and unit interpretation](../../experiments/late_november_calendar_and_units/README.md),
+the enclosure field reads `ANLGX1U2`, and B2's order reference reads
+`3067X18GEH`. B1 has `P067X18GEH`; that initial P/3 disagreement remains.
+
+<details>
+<summary>Combined conditional reading</summary>
+
+**Edited output — mask relocation, five observed substitutions, 36 printed-mask fills and the shared numeral interpretation:**
+
+```text
+ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLGX1U2DESERLX3067X18GEHX7X?IMBEREICHDESSTELLVXXKDO???M18AKDEMOBILMACHENDEN???CKFORMATIONEN
+```
+
+The verifier checks both original donor pairs, every added fill, the displayed
+word spans and complete witnesses under both remaining square assignments.
+
+</details>
 
 Historical ciphertext: **J. Rives Childs**. Published period key:
 **George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker**. The earlier Neuhof

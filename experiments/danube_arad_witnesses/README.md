@@ -4,11 +4,13 @@
 
 [Read the source editions](../../cases/military/danube_arad_witnesses.md) · [Exact certificate](certificates.json) · [Original Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
 
+Reviewed source crops: [p164 C1](sources/p164_C1.png) · [p168 E](sources/p168_E.png).
+
 The newly reviewed **p168 E Arad copy** supplies all **11 original coordinates** missing from the earlier p159 primary reconstruction. The p159 source-linked raw output rises **124 → 135 of 136 positions**, with every retained received coordinate unchanged. The new witness's own complete observed pairs fix **80000 MANN**. Its native duration separator is **X**, replacing the earlier optional U proposal in the improved collation.
 
 A separate **p164 C1 glyph correction** restores raw UEBER and provides independently observed support for the p153 Danube report. The p153 witness supplies two p164 mask values in return.
 
-| New source edition | Printed / model slots | Fixed raw / linked / edited positions | Observed substitutions in the edited layer | Fills |
+| Source edition | Printed / model slots | Fixed raw / linked / word-layer positions | Observed substitutions in the word layer | Fills |
 |---|---:|---:|---:|---|
 | p164 C1 | 248 / 248 | 119 / 121 / 122 of 124 | 4 | 3 printed masks, including 2 parallel-passage-supported values |
 | p168 E | 271 / 272 | 132 / 135 / 135 of 136 | 4 | 2 printed masks and 1 added coordinate, all supplied by p159 observations |
@@ -37,7 +39,27 @@ The certificate retains the complete price histogram, a digest over every canoni
 
 The source prints **GDXVV**, not the earlier GDXXV, in p164 C1's fourth row. The correction at source index 148 restores E at plaintext index 110, with zero historical-coordinate repair cost.
 
-Native p164 pairs support three word-letter proposals in p153: U3BER → UEBER, BELGR4D → BELGRAD and UEBSR → UEBER. The p153 native pairs in turn supply U in p164's DONA? and S in UEBER?ETZ. Their differing formation labels **219** and **21B** remain unchanged. The two complete telegrams are not merged.
+Native p164 pairs support three word-letter proposals in p153: U3BER → UEBER, BELGR4D → BELGRAD and UEBSR → UEBER. The p153 native pairs in turn supply U in p164's DONA? and S in UEBER?ETZ. The native formation labels remain **219** and **21B**; the matching p164 unit also supports a separately priced [219 proposal for p153](../nov7_danube_and_message_reports/README.md#the-219th-infantry-division-proposal).
+
+## Danube date and army completion
+
+A further conditional layer completes **p164 C1 to 124/124 positions**.
+It reads `8XC1X1?` as **8.11.18** and `?1 ARMEE` as **11 ARMEE**. The
+first interpretation follows the day.month.year form directly observed in
+the [p155 D morning report](../../cases/military/nov7_derailment_and_trains.md#p155-d);
+the second repeats the native `AOK11` at the start of p164 itself.
+
+Compared with the earlier word layer, this costs **one additional observed
+substitution** (source 139 `D` → `G`) and **two mask fills** (source 52 `C` →
+`G`, source 164 dash → `A`). The complete proposal therefore has **five
+substitutions and five source-mask fills**. The three changed plaintext
+positions are 20, 24 and 33; two were previously unknown.
+
+The certificate records this under `records[0].date_army_completion`, with
+the native `AOK11` pairs, the independently decoded p155 date-format
+witness, all source changes and exact re-encryption under both unused 5/6
+assignments. The date and army identification remain stated assumptions;
+the earlier source and word layers retain their original counts.
 
 ## Reproduce
 

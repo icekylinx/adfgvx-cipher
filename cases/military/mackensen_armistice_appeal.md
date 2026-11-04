@@ -15,6 +15,12 @@ internment. Its fifth part is a conditional reconstruction of a genuinely
 short source frame. The closing warns of mass flight, misery and open
 resistance.
 
+The [conditional Article XII numeral interpretation](../../experiments/nov25_treaty_digits/README.md)
+clarifies four positions in the closing reference: raw `JAJJ6J4` becomes
+`1A11?1?`. It adds no source change. The earlier repairs of raw
+`MITGETEILJ` and `SOLLJE` remain necessary; those received `J` labels would
+otherwise become 1 under the same assignment.
+
 The source is [Childs's collection](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view),
 printed **p220 C1–C4 and p221 A5–A6**, PDF pages 223–224. The repeated header
 links the six parts:

@@ -1,0 +1,176 @@
+{
+  "schema": "adfgvx-nov25-treaty-digits-input-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": [
+    {
+      "path": "experiments/nov25_letter_constraint/inputs.json",
+      "sha256": "0d862877f6c5fc2b023f33893274e0959258621aee9d007c5e8f3b2edc32ef83"
+    },
+    {
+      "path": "experiments/nov25_letter_constraint/verify.py",
+      "sha256": "9c2b41706ed8bcb123a530f894ecce5e9d7b6457ea6f6876d3d24e2ca5a71d86"
+    },
+    {
+      "path": "experiments/nov25_letter_constraint/certificates.json",
+      "sha256": "0df1738a5ee501554b6a529c9889de758e3303ecccb90c3c502c0edfc051a189"
+    }
+  ],
+  "hypothesis": {
+    "prior": "VD=J and the 23 retained ordinary-letter anchors of nov25_letter_constraint",
+    "assignments": {
+      "FX": "1",
+      "VG": "2"
+    },
+    "anchor": {
+      "record_id": "p218_A1",
+      "plaintext_indices": [
+        47,
+        48
+      ],
+      "baseline_labels": "J1",
+      "interpreted_digits": "12",
+      "reason": "The withdrawal condition paraphrases Article XII of the armistice. Both numeral pairs are fully observed.",
+      "source_urls": [
+        "https://germanhistorydocs.org/de/die-weimarer-republik-1918-1933/waffenstillstandsbedingungen-11-november-1918",
+        "https://history.state.gov/historicaldocuments/frus1919Parisv02/d1"
+      ],
+      "article_number": 12,
+      "comparison": "Return from pre-war Russian territory at the moment the Allies judge appropriate in view of its internal situation."
+    },
+    "rollback_prior_repairs_at_plaintext_indices": [
+      47,
+      48
+    ]
+  },
+  "expected": {
+    "source_records": 23,
+    "plaintext_positions": 3176,
+    "raw_anchor_pair_occurrences": 38,
+    "retained_numeric_occurrences": 35,
+    "inconvenient_raw_occurrences": 3,
+    "removed_observed_coordinate_substitutions": 3,
+    "remaining_square_completions": 3628800
+  },
+  "live_reading": {
+    "case_path": "cases/caucasus/p218_A.md",
+    "caption": "**Readable German \u2014 conditional treaty numeral interpretation:**",
+    "record_ids": [
+      "p218_A1",
+      "p218_A2",
+      "p218_A3"
+    ]
+  },
+  "case_fields": [
+    {
+      "case_path": "cases/caucasus/p218_A.md",
+      "record_id": "p218_A1",
+      "range": [
+        43,
+        49
+      ],
+      "conditional": "ROEM12"
+    },
+    {
+      "case_path": "cases/caucasus/p218_A.md",
+      "record_id": "p218_A1",
+      "range": [
+        32,
+        35
+      ],
+      "conditional": "2??"
+    },
+    {
+      "case_path": "cases/finance/crown_cash_requests.md",
+      "record_id": "p219_A1",
+      "range": [
+        0,
+        17
+      ],
+      "conditional": "ETXINTENDX11FIALA"
+    },
+    {
+      "case_path": "cases/finance/crown_cash_requests.md",
+      "record_id": "p219_B",
+      "range": [
+        0,
+        19
+      ],
+      "conditional": "FELDINTENDXAXOXKX11"
+    },
+    {
+      "case_path": "cases/military/mackensen_armistice_appeal.md",
+      "record_id": "p221_A6",
+      "range": [
+        90,
+        97
+      ],
+      "conditional": "1A11?1?"
+    },
+    {
+      "case_path": "cases/military/liman_troop_reports.md",
+      "record_id": "p222_A2",
+      "range": [
+        74,
+        100
+      ],
+      "conditional": "OHLXROEMX1AX11??2XGEHXOPXX"
+    },
+    {
+      "case_path": "cases/finance/lei_note_exchange.md",
+      "record_id": "p223_A2",
+      "range": [
+        83,
+        86
+      ],
+      "conditional": "12?"
+    },
+    {
+      "case_path": "cases/finance/lei_note_exchange.md",
+      "record_id": "p223_A2",
+      "range": [
+        96,
+        99
+      ],
+      "conditional": "1??"
+    },
+    {
+      "case_path": "cases/finance/lei_note_exchange.md",
+      "record_id": "p223_A3",
+      "range": [
+        158,
+        170
+      ],
+      "conditional": "2???X11X1?B?"
+    },
+    {
+      "case_path": "cases/finance/lei_note_exchange.md",
+      "record_id": "p223_A3",
+      "range": [
+        189,
+        199
+      ],
+      "conditional": "1???X11X1?"
+    },
+    {
+      "case_path": "cases/people/breslau_staff_transfer.md",
+      "record_id": "p224_C1",
+      "range": [
+        0,
+        5
+      ],
+      "conditional": "AOK11"
+    }
+  ],
+  "limits": [
+    "The treaty match is a conditional historical identification; published keys and source-edition files remain unchanged.",
+    "All prior geometry and ordinary-word repairs are inherited. Only the three earlier coordinate substitutions at the two article-number positions are rolled back.",
+    "The complete 23-record prior snapshot is propagated, including all raw inconvenient occurrences.",
+    "Remaining cells share a single global bijection; question marks cannot be assigned independently.",
+    "Unchanged raw JNNEREN, MITGETEILJ and SOLLJE become 1NNEREN, MITGETEIL1 and SOLL1E. Their previously costed word repairs remain.",
+    "The 11th-Army addresses are consistency checks, not additional independent assignments.",
+    "A fixed square does not repair source erasures; arbitrary round-trip witnesses are not proposed historical plaintexts."
+  ]
+}

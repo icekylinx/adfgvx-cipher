@@ -6,6 +6,10 @@
 
 Source edition and verification: **icekylinx and GPT-6 Astra Pro**. Published period keys: Lasry, Niebel, Kopal and Wacker, unchanged. Earlier unreviewed p161 second-part readings and the existing [Osthoff source-family edition](osthoff.md) retain their prior credit. No existing p138/p148/p149 record is counted again.
 
+## Conditional digit reading
+
+An earlier Siegfried cancellation, [p135 A](siegfried_assignment_cancellation.md), directly supplies **45610** under the Nov4–6 key. If both orders cite the same reference, p161 C1’s observed XA/VF pairs fix **XA=5, VF=6**, so its reference reads **ZU2NR45610**. The two orders differ in wording and reception; [the complete comparison](../../experiments/nov7_9_joint_digits/README.md) retains the alternative 46510 and the separate erased date digit.
+
 ## Meaning and exact scope
 
 C is an order cancelling Oberleutnant Siegfried's posting to Turkey and assignment to the Military Mission. D concerns Captain of the Reserve Osthoff: his Turkey posting and mission assignment are cancelled, and he is to be transferred to the replacement battalion of a railway regiment. The cabinet order will follow; the closing is from the Chief of the Military Cabinet, Frhr. Marschall.
@@ -105,7 +109,7 @@ The later wording is abbreviated and includes an additional raw `1` after `REGMT
 
 ## Remaining uncertainty
 
-C1's edited date-like field remains `2X?1`: its erased position 19 has domain **1GIKNY**. The two question marks in `ZU2NR4??10` are different: they arise from the observed XA and VF cells of the published partial square, at plaintext positions 58 and 59. Their joint assignments are **56 or 65**, not independent choices that could both be 5 or both be 6. No optional historical digit interpretation is applied here.
+C1's edited date-like field remains `2X?1`: its erased position 19 has domain **1GIKNY**. The two question marks in `ZU2NR4??10` are different: they arise from the observed XA and VF cells of the published partial square, at plaintext positions 58 and 59. Their joint assignments are **56 or 65**, not independent choices that could both be 5 or both be 6. The conservative streams retain both assignments; the optional cross-period interpretation is given above.
 
 C1 has four known-coordinate changes and four printed-erasure fills. The local `0→U` proposal before `DESZEN` alone costs two observed-coordinate substitutions; it is not a global reassignment of the digit0 key label. D1 has two word repairs, `KOMMRNDO→KOMMANDO` and `END→UND`. C2 and D2 are entirely unchanged source readings.
 

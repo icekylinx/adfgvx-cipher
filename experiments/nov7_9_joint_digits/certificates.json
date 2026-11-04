@@ -1,0 +1,507 @@
+{
+  "schema": "adfgvx-nov7-9-joint-digit-certificate-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "reference": {
+    "donor": [
+      {
+        "excluded_interim_index": 230,
+        "observed_reference": [
+          {
+            "position": 42,
+            "pair": "XV",
+            "source_indices": [
+              28,
+              146
+            ],
+            "domain": "4"
+          },
+          {
+            "position": 43,
+            "pair": "DD",
+            "source_indices": [
+              217,
+              170
+            ],
+            "domain": "5"
+          },
+          {
+            "position": 44,
+            "pair": "GX",
+            "source_indices": [
+              312,
+              52
+            ],
+            "domain": "6"
+          },
+          {
+            "position": 45,
+            "pair": "AA",
+            "source_indices": [
+              241,
+              359
+            ],
+            "domain": "1"
+          },
+          {
+            "position": 46,
+            "pair": "GD",
+            "source_indices": [
+              5,
+              122
+            ],
+            "domain": "0"
+          }
+        ]
+      },
+      {
+        "excluded_interim_index": 231,
+        "observed_reference": [
+          {
+            "position": 42,
+            "pair": "XV",
+            "source_indices": [
+              28,
+              146
+            ],
+            "domain": "4"
+          },
+          {
+            "position": 43,
+            "pair": "DD",
+            "source_indices": [
+              217,
+              170
+            ],
+            "domain": "5"
+          },
+          {
+            "position": 44,
+            "pair": "GX",
+            "source_indices": [
+              312,
+              52
+            ],
+            "domain": "6"
+          },
+          {
+            "position": 45,
+            "pair": "AA",
+            "source_indices": [
+              241,
+              359
+            ],
+            "domain": "1"
+          },
+          {
+            "position": 46,
+            "pair": "GD",
+            "source_indices": [
+              5,
+              122
+            ],
+            "domain": "0"
+          }
+        ]
+      }
+    ],
+    "target_observed_reference": [
+      {
+        "position": 57,
+        "pair": "VA",
+        "source_indices": [
+          15,
+          169
+        ],
+        "domain": "4"
+      },
+      {
+        "position": 58,
+        "pair": "XA",
+        "source_indices": [
+          199,
+          97
+        ],
+        "domain": "56"
+      },
+      {
+        "position": 59,
+        "pair": "VF",
+        "source_indices": [
+          189,
+          35
+        ],
+        "domain": "56"
+      },
+      {
+        "position": 60,
+        "pair": "FG",
+        "source_indices": [
+          56,
+          118
+        ],
+        "domain": "1"
+      },
+      {
+        "position": 61,
+        "pair": "VD",
+        "source_indices": [
+          67,
+          149
+        ],
+        "domain": "0"
+      }
+    ],
+    "selected": "45610",
+    "alternative": "46510",
+    "assumption": "The two orders concerning Oberleutnant Siegfried and cancellation of his Turkey/Military-Mission assignment cite the same underlying reference. The earlier longer text and later abbreviated two-part text remain separate receptions."
+  },
+  "assignment": {
+    "VF": "6",
+    "XA": "5"
+  },
+  "selected_square": "PRMYUW3LZGES8C71QOV29ITB406KXH5AJNDF",
+  "alternative_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+  "records": [
+    {
+      "id": "p162_B1",
+      "previous_plaintext": "STELLVERTRXGENERALSTABBERLINXZUSENDUNGVONJE?0BLAETTERNKARTE1ZU7?000XB1B2B3C1C2C3D1D2D3E2E3X",
+      "selected_plaintext": "STELLVERTRXGENERALSTABBERLINXZUSENDUNGVONJE50BLAETTERNKARTE1ZU75000XB1B2B3C1C2C3D1D2D3E2E3X",
+      "alternative_plaintext": "STELLVERTRXGENERALSTABBERLINXZUSENDUNGVONJE60BLAETTERNKARTE1ZU76000XB1B2B3C1C2C3D1D2D3E2E3X",
+      "positions": 91,
+      "fixed_before": 89,
+      "fixed_after": 91,
+      "gained_positions": [
+        {
+          "position": 43,
+          "pair": "XA",
+          "source_indices": [
+            140,
+            39
+          ],
+          "domain": "56",
+          "selected": "5",
+          "alternative": "6",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 63,
+          "pair": "XA",
+          "source_indices": [
+            142,
+            41
+          ],
+          "domain": "56",
+          "selected": "5",
+          "alternative": "6",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "new_coordinate_changes": 0,
+      "new_source_mask_fills": 0
+    },
+    {
+      "id": "p160_B1",
+      "previous_plaintext": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21?00FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+      "selected_plaintext": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21600FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+      "alternative_plaintext": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21500FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+      "positions": 141,
+      "fixed_before": 140,
+      "fixed_after": 141,
+      "gained_positions": [
+        {
+          "position": 60,
+          "pair": "VF",
+          "source_indices": [
+            76,
+            161
+          ],
+          "domain": "56",
+          "selected": "6",
+          "alternative": "5",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "new_coordinate_changes": 0,
+      "new_source_mask_fills": 0
+    },
+    {
+      "id": "p160_C2",
+      "previous_plaintext": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B498?9X",
+      "selected_plaintext": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49859X",
+      "alternative_plaintext": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49869X",
+      "positions": 72,
+      "fixed_before": 71,
+      "fixed_after": 72,
+      "gained_positions": [
+        {
+          "position": 69,
+          "pair": "XA",
+          "source_indices": [
+            136,
+            27
+          ],
+          "domain": "56",
+          "selected": "5",
+          "alternative": "6",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "new_coordinate_changes": 0,
+      "new_source_mask_fills": 0
+    },
+    {
+      "id": "p160_D1",
+      "previous_plaintext": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR?41XAUFTELEGRAMMNRX?8?XTSCHENKE",
+      "selected_plaintext": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR641XAUFTELEGRAMMNRX585XTSCHENKE",
+      "alternative_plaintext": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR541XAUFTELEGRAMMNRX686XTSCHENKE",
+      "positions": 70,
+      "fixed_before": 67,
+      "fixed_after": 70,
+      "gained_positions": [
+        {
+          "position": 39,
+          "pair": "VF",
+          "source_indices": [
+            129,
+            24
+          ],
+          "domain": "56",
+          "selected": "6",
+          "alternative": "5",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 58,
+          "pair": "XA",
+          "source_indices": [
+            138,
+            68
+          ],
+          "domain": "56",
+          "selected": "5",
+          "alternative": "6",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 60,
+          "pair": "XA",
+          "source_indices": [
+            41,
+            83
+          ],
+          "domain": "56",
+          "selected": "5",
+          "alternative": "6",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "new_coordinate_changes": 0,
+      "new_source_mask_fills": 0
+    },
+    {
+      "id": "p155_C1",
+      "previous_plaintext": "DAACHTERTEILDESAL?CHISX2?X10XXLEITSTELLE707POTNRX1002ANSEKTIONPOLITIKBERLINNICHTZUENTZIFFERNX",
+      "selected_plaintext": "DAACHTERTEILDESAL?CHISX25X10XXLEITSTELLE707POTNRX1002ANSEKTIONPOLITIKBERLINNICHTZUENTZIFFERNX",
+      "alternative_plaintext": "DAACHTERTEILDESAL?CHISX26X10XXLEITSTELLE707POTNRX1002ANSEKTIONPOLITIKBERLINNICHTZUENTZIFFERNX",
+      "positions": 93,
+      "fixed_before": 91,
+      "fixed_after": 92,
+      "gained_positions": [
+        {
+          "position": 24,
+          "pair": "XA",
+          "source_indices": [
+            69,
+            125
+          ],
+          "domain": "56",
+          "selected": "5",
+          "alternative": "6",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "new_coordinate_changes": 0,
+      "new_source_mask_fills": 0
+    },
+    {
+      "id": "p155_C2",
+      "previous_plaintext": "PRUEFUNGUNDWIEDERHOLUNG8XTEILESERBETENXNACHRICHTENCHEFRMX?NRX1?3303X",
+      "selected_plaintext": "PRUEFUNGUNDWIEDERHOLUNG8XTEILESERBETENXNACHRICHTENCHEFRMX5NRX153303X",
+      "alternative_plaintext": "PRUEFUNGUNDWIEDERHOLUNG8XTEILESERBETENXNACHRICHTENCHEFRMX6NRX163303X",
+      "positions": 68,
+      "fixed_before": 66,
+      "fixed_after": 68,
+      "gained_positions": [
+        {
+          "position": 57,
+          "pair": "XA",
+          "source_indices": [
+            12,
+            115
+          ],
+          "domain": "56",
+          "selected": "5",
+          "alternative": "6",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 62,
+          "pair": "XA",
+          "source_indices": [
+            6,
+            74
+          ],
+          "domain": "56",
+          "selected": "5",
+          "alternative": "6",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "new_coordinate_changes": 0,
+      "new_source_mask_fills": 0
+    },
+    {
+      "id": "p172_D2",
+      "previous_plaintext": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM?XGESANDTECHEKSXHAUPTWECHSELAMT89240911X",
+      "selected_plaintext": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM6XGESANDTECHEKSXHAUPTWECHSELAMT89240911X",
+      "alternative_plaintext": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM5XGESANDTECHEKSXHAUPTWECHSELAMT89240911X",
+      "positions": 102,
+      "fixed_before": 101,
+      "fixed_after": 102,
+      "gained_positions": [
+        {
+          "position": 62,
+          "pair": "VF",
+          "source_indices": [
+            6,
+            108
+          ],
+          "domain": "56",
+          "selected": "6",
+          "alternative": "5",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "new_coordinate_changes": 0,
+      "new_source_mask_fills": 0
+    },
+    {
+      "id": "p151_E2",
+      "previous_plaintext": "OPERATIONSKARTE1ZU100000SALZBURGWIENLEMBERGBRESLAUJE40BLATTXWARSCHAU10BLATTANGARNISONKDOGLEIWITZFSXAOK11X1D70??X",
+      "selected_plaintext": "OPERATIONSKARTE1ZU100000SALZBURGWIENLEMBERGBRESLAUJE40BLATTXWARSCHAU10BLATTANGARNISONKDOGLEIWITZFSXAOK11X1D7065X",
+      "alternative_plaintext": "OPERATIONSKARTE1ZU100000SALZBURGWIENLEMBERGBRESLAUJE40BLATTXWARSCHAU10BLATTANGARNISONKDOGLEIWITZFSXAOK11X1D7056X",
+      "positions": 112,
+      "fixed_before": 110,
+      "fixed_after": 112,
+      "gained_positions": [
+        {
+          "position": 109,
+          "pair": "VF",
+          "source_indices": [
+            212,
+            43
+          ],
+          "domain": "56",
+          "selected": "6",
+          "alternative": "5",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 110,
+          "pair": "XA",
+          "source_indices": [
+            66,
+            134
+          ],
+          "domain": "56",
+          "selected": "5",
+          "alternative": "6",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "new_coordinate_changes": 0,
+      "new_source_mask_fills": 0
+    },
+    {
+      "id": "p161_C1",
+      "previous_plaintext": "SSDOPPELGRXHQXMKX2X?1XMILITAERMISZIONKONSTANTINOPELXZU2NR4??10XKOMDOOBERLTSSIEGFRIEDNACHTUERKEIUDESZEN",
+      "selected_plaintext": "SSDOPPELGRXHQXMKX2X?1XMILITAERMISZIONKONSTANTINOPELXZU2NR45610XKOMDOOBERLTSSIEGFRIEDNACHTUERKEIUDESZEN",
+      "alternative_plaintext": "SSDOPPELGRXHQXMKX2X?1XMILITAERMISZIONKONSTANTINOPELXZU2NR46510XKOMDOOBERLTSSIEGFRIEDNACHTUERKEIUDESZEN",
+      "positions": 102,
+      "fixed_before": 99,
+      "fixed_after": 101,
+      "gained_positions": [
+        {
+          "position": 58,
+          "pair": "XA",
+          "source_indices": [
+            199,
+            97
+          ],
+          "domain": "56",
+          "selected": "5",
+          "alternative": "6",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 59,
+          "pair": "VF",
+          "source_indices": [
+            189,
+            35
+          ],
+          "domain": "56",
+          "selected": "6",
+          "alternative": "5",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "new_coordinate_changes": 0,
+      "new_source_mask_fills": 0
+    },
+    {
+      "id": "p175_B2",
+      "previous_plaintext": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM?XGESANDTECHEKSXHAUPTWECHSELAMT89240911?",
+      "selected_plaintext": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM6XGESANDTECHEKSXHAUPTWECHSELAMT892409116",
+      "alternative_plaintext": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM5XGESANDTECHEKSXHAUPTWECHSELAMT892409115",
+      "positions": 102,
+      "fixed_before": 100,
+      "fixed_after": 102,
+      "gained_positions": [
+        {
+          "position": 62,
+          "pair": "VF",
+          "source_indices": [
+            6,
+            108
+          ],
+          "domain": "56",
+          "selected": "6",
+          "alternative": "5",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 101,
+          "pair": "VF",
+          "source_indices": [
+            71,
+            153
+          ],
+          "domain": "56",
+          "selected": "6",
+          "alternative": "5",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "new_coordinate_changes": 0,
+      "new_source_mask_fills": 0
+    }
+  ],
+  "new_conditional_digit_positions": 17,
+  "additional_coordinate_changes": 0,
+  "additional_source_mask_fills": 0,
+  "published_partial_key_changed": false
+}

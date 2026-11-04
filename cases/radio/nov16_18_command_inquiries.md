@@ -212,6 +212,11 @@ GE?NACH2O2LEICHTEINLOMZAUNDCZENSTOCHAUXVERBLEIBUNBEKANNTXVERMUTLMITIHRENGOUVSABE
 
 **Meaning:** A short numbered reply answers no to item 1 and gives the literal call-sign-like pair PSO BSL for item 2. The inquiry number, date and expansion of PSO remain unresolved.
 
+With the [existing shared-order assignment VA=5](../../experiments/nov16_18_reference_completion/README.md),
+the date-like field becomes **15X**. The record then fixes **40/42** positions;
+the inquiry number stays `2??F`. This is a consequence of the p201/p206
+order-date comparison, with no additional source edit.
+
 <details>
 <summary>Raw decoded text</summary>
 
@@ -226,7 +231,7 @@ ZU2??FVOM1?XX1XNEINXX2XPSOXBSLXXFUSTAWAUXX
 **Unresolved details and editorial limits.**
 
 - The source visibly prints VAXAX and the final AXGF, both omitted from the earlier OCR candidate. The native count is 84.
-- The transmitted fragment 1?XX is shown as 1?X before the sentence separator; no value is supplied for its unresolved cell.
+- The baseline quotation keeps `1?X` before the sentence separator; the shared-order layer gives `15X`.
 
 ## Evidence and credit
 

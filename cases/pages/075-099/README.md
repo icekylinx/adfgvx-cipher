@@ -102,7 +102,7 @@ This range contains 64 sources, including 0 OPEN. [Reading states](../../../docs
 
 | Source | State | Subject |
 |---|---|---|
-| [p87 A1](../../radio/transmitter_dispatch_220_volts.md#p87-a1) | PARTIAL | Transmitter dispatch and a 220-volt converter motor |
+| [p87 A1](../../radio/transmitter_dispatch_220_volts.md#p87-a1) | READING | Transmitter dispatch and a 220-volt converter motor |
 
 ## p88
 

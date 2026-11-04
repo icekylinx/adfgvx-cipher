@@ -1,0 +1,121 @@
+{
+  "schema": "adfgvx-late-november-joint-completion-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/corpus_extension/inputs.json": "886396d76a224f59dc16d7cf57b73654f45f1a200b93d20216b5f7e68953f11e",
+    "experiments/regimental_journey_report/inputs.json": "f890e0505479a0289000c0201816bc59b67c2eef99a3de1c176ca7bcb5264a7f",
+    "experiments/avoid_fighting_instruction/inputs.json": "3e898c7880e862b17871d7341f4efc135e364344b843bf213bd413636b03beae",
+    "experiments/operational_recovery/inputs.json": "32d9098d4c9f3451fce6b380754525d4cfb850f41afafa462d679fac8f12acfe",
+    "experiments/late_key_interpretation/certificate.json": "bf0c51b57b2a17a780f8ac21b46f30d778b7c09a55b3dd492dda40460528e930",
+    "experiments/corpus_extension/sources/p225_A.png": "b808fdab77366a0888c1ec134c9cc93c9d252a7d1b9c700ec7bf5b7ab11c63c9",
+    "experiments/regimental_journey_report/sources/p225_reviewed.png": "3ee922ada42f301137a42f1229826203c2b28348a746c61617ecd7e6971ea033",
+    "experiments/avoid_fighting_instruction/sources/p227_reviewed.png": "7895de0cee908d4a315b13beff5c191dd35427c357dfa905fff1dbc57f3d9d47"
+  },
+  "key_id": "Nov28-Dec1",
+  "service_completion": {
+    "id": "p225_A",
+    "inputs": "experiments/corpus_extension/inputs.json",
+    "fills": [
+      {
+        "plaintext_index": 5,
+        "symbol": "O",
+        "word": "STATION"
+      },
+      {
+        "plaintext_index": 38,
+        "symbol": "A",
+        "word": "DA"
+      },
+      {
+        "plaintext_index": 66,
+        "symbol": "E",
+        "word": "EINGEGANGEN"
+      },
+      {
+        "plaintext_index": 74,
+        "symbol": "T",
+        "word": "TELEGD"
+      },
+      {
+        "plaintext_index": 77,
+        "symbol": "E",
+        "word": "TELEGD"
+      },
+      {
+        "plaintext_index": 110,
+        "symbol": "S",
+        "word": "SCHLUESSELN"
+      }
+    ],
+    "word_replacements": [
+      {
+        "old": "NICGT",
+        "new": "NICHT"
+      },
+      {
+        "old": "TELEGD",
+        "new": "TELEGR"
+      }
+    ],
+    "source_masks": {
+      "printed_dashes": 5,
+      "invalid_R": 1
+    },
+    "expected_filled": "STATIONUKSCHIFFRABERSTENDEZMITNSLNOVYDADEZTAFELNNOCHNICGTEINGEGANGENYBITTETELEGDANUNSEBENFALLSMITNSLNOVSCHLUESSELNYY",
+    "expected_word": "STATIONUKSCHIFFRABERSTENDEZMITNSLNOVYDADEZTAFELNNOCHNICHTEINGEGANGENYBITTETELEGRANUNSEBENFALLSMITNSLNOVSCHLUESSELNYY",
+    "case_path": "cases/radio/late_november_cipher_instructions.md",
+    "readable_german": "Station UKS chiffr. ab ersten Dez. mit NSL Nov., da Dez.-Tafeln noch nicht eingegangen. Bitte Telegr. an uns ebenfalls mit NSL Nov. schluesseln.",
+    "separator": "Y"
+  },
+  "shared_J": {
+    "baseline_label": "1",
+    "coordinate_pair": "FA",
+    "proposed_symbol": "J",
+    "prior_layer": "lexical_q",
+    "prior_square": "Y63GPX9OQHF??UDNI??8TLV1EAR?2ZBKMCSW",
+    "prior_unused_symbols": "0457J",
+    "new_square": "Y63GPX9OQHF?JUDNI??8TLV1EAR?2ZBKMCSW",
+    "remaining_symbols": "0457",
+    "witnesses": [
+      {
+        "id": "p225_B2",
+        "inputs": "experiments/regimental_journey_report/inputs.json",
+        "plaintext_index": 67,
+        "native_word": "1EDE",
+        "proposed_word": "JEDE",
+        "word_start": 67,
+        "remaining_word_repairs": [],
+        "case_path": "cases/military/regimental_journey_report.md",
+        "readable_german": "Von POESTYEN I TRENCSEN ueber PUHO in SILEIN in der Nacht am 2? eingetroffen. Jede Unterstuetzung gefunden. R I RGT21.",
+        "separator": "X"
+      },
+      {
+        "id": "p227_D",
+        "inputs": "experiments/avoid_fighting_instruction/inputs.json",
+        "plaintext_index": 31,
+        "native_word": "1EDER",
+        "proposed_word": "JEDER",
+        "word_start": 31,
+        "remaining_word_repairs": [
+          {
+            "old": "ZTVERMEIDEN",
+            "new": "ZUVERMEIDEN"
+          }
+        ],
+        "case_path": "cases/military/avoid_fighting_instruction.md",
+        "readable_german": "OKM. Auf Befehl der REICHSLEITG ist jeder Kampf zu vermeiden. Eingehen auf FRANZ Forderungen notwendig. Weitere Befehle folgen. OHL1A1136?GEH. OP2ANG.",
+        "separator": "X"
+      }
+    ]
+  },
+  "limits": [
+    "The six p225 A fills are lexical proposals in its original 232-slot frame; all 226 valid coordinates are retained.",
+    "FA=J is a shared lexical interpretation of two complete observed pairs. It does not replace the published square.",
+    "The full interpreted square retains the prior historical, separator, Y and Q assumptions, including the queried 89th-Division evidence.",
+    "NSL and all unit/date/reference fields retain their labels or remaining domains."
+  ]
+}

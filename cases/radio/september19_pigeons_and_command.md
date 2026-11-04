@@ -16,7 +16,7 @@ The unchanged published Sep19-21 key is used throughout. The page heading is Sep
 
 | Record | Native slots | Fixed raw labels | Observed substitutions | Source-mask fills |
 | --- | ---: | ---: | ---: | ---: |
-| [p56_A](#p56-a) | 222 | 109 / 111 | 0 | 2 |
+| [p56_A](#p56-a) | 222 | 110 / 111 | 0 | 1 |
 | [p56_B1](#p56-b1) | 168 | 83 / 84 | 1 | 1 |
 | [p56_B2](#p56-b2) | 152 | 76 / 76 | 0 | 0 |
 
@@ -35,16 +35,16 @@ VGDDG FGFFF DXVFD AFDDX VDAFG AAGFA GAVGG GGFXA
 FXGAV FGXFX XDDFF XDFXX XXAXX FGGVG AXGXA FAFDX
 FXGFF GDDFA GVXFX FDFFF XXGGG XGXGV AXAVX GAXGG
 XDXFF DFXDV XADFF XADDG DVVVX VFXGF XFDAF GADFG
-AWTDF DFXDF FFXVD DVDDA XF
+AWFDF DFXDF FFXVD DVDDA XF
 ```
 
 **Raw output — native frame and unchanged key:**
 
 ```text
-AKONAC?22XZUDORTROEM3NR8S86VERSANDZIELANINACHDRAHTENDIE150AUSGESUCHTETAUBENUEBERWEISENWIRDXNACHRXCHE?RM4D84760X
+AKONACH22XZUDORTROEM3NR8S86VERSANDZIELANINACHDRAHTENDIE150AUSGESUCHTETAUBENUEBERWEISENWIRDXNACHRXCHE?RM4D84760X
 ```
 
-**Edited output — 0 observed substitutions and 2 source-mask fills:**
+**Edited output — 0 observed substitutions and 1 source-mask fill:**
 
 ```text
 AKONACH22XZUDORTROEM3NR8S86VERSANDZIELANINACHDRAHTENDIE150AUSGESUCHTETAUBENUEBERWEISENWIRDXNACHRXCHEFRM4D84760X
@@ -60,7 +60,7 @@ AKONACH22XZUDORTROEM3NR8S86VERSANDZIELANINACHDRAHTENDIE150AUSGESUCHTETAUBENUEBER
 
 ### Evidence limits
 
-- The printed invalid symbols W and T in AWTDF are retained literally and masked independently for decoding. Their proposed V and F values complete AKONACH and CHEF at two source-mask fills, with no observed-coordinate substitution.
+- The final row begins AWFDF. The earlier transcription AWTDF misread the third glyph: the source has the stem and middle crossbar of F. Correcting source coordinate 202 to F makes the opening AKONACH a native reading. The visible W at coordinate 201 remains invalid; filling it with V completes CHEF at one source-mask fill.
 - ROEM3, 8S86, ANI, 150, WIRD and RM4D84760 remain exactly as decoded; their presence does not prove a historical numeral or repair the awkward pigeon-transfer syntax.
 - The header advertises 2 TLE but only one section-A ciphertext body is printed on this page. No absent second body is invented or counted.
 

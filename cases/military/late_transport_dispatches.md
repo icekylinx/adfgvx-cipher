@@ -10,8 +10,9 @@ columns, and an aviation unit's destination and replenishment. Their six
 physical parts provide **721 plaintext positions** under the unchanged
 published Nov28–Dec1 key. The separate editorial readings require **14
 observed-coordinate substitutions and 39 erasure fills**, leaving five
-plaintext positions unresolved. Historical digit assignments remain outside
-this source edition.
+plaintext positions unresolved. The shared calendar and unit interpretation
+now supplies **30 November**, formations **219/217**, and **seven motor columns**
+in the passages below.
 
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 [printed p229, PDF p232](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view),
@@ -29,6 +30,29 @@ has the header `HP v ZON; 1930 (30/11) FUR OKM 3 TEILE` and exact part lengths
 unreviewed OCR-derived computation. The present work verifies every source
 slot and records the limited word repairs explicitly.
 
+**Conditional interpretation — readable German with the shared calendar and unit assignments:**
+
+> Abendmeldg. v. 30.11. 6. R. D. ist mit Anfang bis Tiszafoeldvar aufgerueckt.
+> Unterbringungsraum der 219. u. 217. I. D. unveraendert. Seit 29.11. abends
+> sind alle Transporte auf Strecke Arad, Szolnok auf Weisung der ung. Z. T. L.
+> angehalten worden. Die fuer heute beabsichtigten Verladungen haben daher
+> bisher nicht stattgefunden. A. O. K. 11. 1. A.
+
+The 6th Reserve Division's leading element has reached Tiszafoeldvar;
+the accommodation areas of the 219th and 217th divisions are unchanged.
+Railway transports on the Arad–Szolnok route have been stopped since the
+evening of 29 November, preventing the planned loadings.
+
+The [joint interpretation](../../experiments/late_november_calendar_and_units/README.md)
+uses the valid November date `3?/11` to fix **GA=0** and the independently
+documented 217th Division and 7th Bavarian cavalry brigade to support **VG=7**.
+Part A1 reaches **114/114 interpreted positions** with its existing one-coordinate
+word repair. Barkóczy-Klopsch's account also places the transport-stop decision
+on 29 November; it corroborates the earlier assignment of the final digit in
+`29/11`. The abbreviation `Z T L` remains unexpanded.
+
+### Earlier source edition
+
 Part A1, after the one-coordinate `M3T→MIT` repair:
 
 <details>
@@ -42,10 +66,8 @@ ABENDMELDGYVY26YXXYY8YRYDYISTMITANFANGBISTISZAFOELDVARAUFGERUECKTYUNTERBRINGUNGS
 
 </details>
 
-This is an evening report. It says that the leading element has advanced to
-`TISZAFOELDVAR` and that the accommodation area of the subsequently named
-formations is unchanged. The literal `26`, `8`, `JX5` and `JX0` remain
-published-key labels, not certified dates or unit numbers.
+The literal `26`, `8`, `JX5` and `JX0` in this earlier display are
+published-key labels. Their conditional numerical interpretation appears above.
 
 Part A2, with one substitution proposing `SWOLNOK→SZOLNOK` and the printed
 dash filled to give `ANGEHALTEN`:
@@ -61,9 +83,7 @@ SEITJ5YXXYABENDSSINDALLETRANSPORTEAUFSTRECKEARADSZOLNOKAUFWEISUNGDERUNGYZYTYLYAN
 
 </details>
 
-All transports on the proposed **Arad–Szolnok** route have been stopped on
-the instruction of the Hungarian `Z T L`. The latter abbreviation remains
-unexpanded. The evening date-like field `J5YXX` is not numerically interpreted.
+The unchanged-key display retains the date-like field `J5YXX`.
 
 Part A3, with two substitutions restoring `NICHT` and `GEFUNDEN`:
 
@@ -102,9 +122,9 @@ AOKXXYOKMHATBEIOHL0KRAFTWAGENKOLONNENBEANTRAGTOHLDRAHTETMIRRMX?X63282ESWIRDGEBET
 
 OKM has requested motor columns from OHL. OHL asks the sender to contact
 the army directly to establish whether further columns can be made available.
-The raw quantity is the single label **`0`** after the repaired `OHL`; the
-source does **not** establish a request for “40 columns.” The army labels
-`XX` and the damaged reference `RMX?X63282` remain unassigned.
+The shared interpretation reads the requested quantity as **seven** and the
+army as the **11th Army**. The source edition above retains the baseline
+labels `0`, `XX` and the damaged reference `RMX?X63282`.
 
 B2 continues the question, after six substitutions and five erasure fills:
 
@@ -126,12 +146,42 @@ The edition does not silently add letters to make `TELEGRAMM` or a second
 its context is supported by the unchanged `OKM` in B1. The final numerical
 reference remains `0?40` in baseline labels.
 
+The same two new square assignments supply four numeral positions across
+B1 and B2. They add no source edits:
+
+| Field | Published-key labels | Joint interpretation |
+|---|---|---|
+| B1: requested motor columns | `0` | **7** |
+| B1: OHL reference | `RMX?X63282` | `RM1?10?363` |
+| B2: closing reference | `0?40` | **7?87** |
+
+B1 has **132/134** and B2 **123/124** positions fixed in this interpretation;
+their remaining reference characters stay unresolved.
+
 Visual retranscription also resolves two earlier OCR erasures without changing
 the source: B1 source index 195 is the first `F` of `FFGFD`, and B2 index 161
 is the `F` of `GFDGG`. These source readings are distinct from editorial
 coordinate substitutions.
 
-## C: an aviation unit and a park at the proposed Craiova destination
+## C: an aviation unit and a park at Craiova
+
+**Readable German — conditional shared-square interpretation, with one additional separator fill:**
+
+> Kofl 11. Wo bleibt Fliegerabtl. 38. Marschziel ist Craiova, da hier eigener Park errichtet wird. Bitte nach HK? versetzte Fliegerverbaende bestimmungsgemaess auffuellen. Kofl Mack. ??18OP.
+
+The message asks for the flight detachment's whereabouts, sets **Craiova**
+as its march destination, and requests that the transferred aviation units
+be brought up to their prescribed strength. The shared late-November square
+reads the existing unit labels as **Kofl 11** and **Fliegerabtl. 38**.
+The boundary `WIRD?BITTE` admits separator `X`: filling one printed mask,
+source position 277, with `A` gives the pair `AX`. The revised edition has
+**3 observed-coordinate substitutions and 32 mask fills**; its conditional
+interpretation fixes **162/165** plaintext positions.
+
+`HK?` remains incomplete. The closing `??18OP` contains a source erasure
+followed by the still-interchangeable **4/5** square cell. The
+[additional-traffic certificate](../../experiments/late_november_calendar_and_units/traffic_certificate.json)
+checks the quote and both surviving squares.
 
 The [aviation source](../../experiments/late_transport_dispatches/sources/p229_C.png)
 has `ZON v BSL; NO 151 2100 (11/30)` and `RICHI-330`. Its **330 actual slots**
@@ -170,27 +220,28 @@ KOFLXXYYWOBLEIBTFLIEGERABTLY24YMARSCHZIELISTCRAIOVADAHIEREIGENERPARKERRICHTETWIR
 
 </details>
 
-The proposed body asks where the flight detachment is, gives **Craiova** as
-its march destination because a park of its own is being established there,
-and asks for transferred aviation formations to be brought up to their
-prescribed strength. `FLIEGERABTL` and the damaged ordinary words are
-editorial restorations, with their costs recorded; the exact place reading
-and wording are not independently witnessed by a second telegram.
+`FLIEGERABTL` and the damaged ordinary words are editorial restorations;
+the complete repair ledger is retained. No second reception independently
+supplies the restored wording.
 
-Three positions remain unresolved:
+The earlier published-key edition leaves three source positions unresolved:
 
 | Position | Context | Baseline-key domain | Treatment |
 |---:|---|---|---|
-| 81 | `WIRD?BITTE` | `39WXYZ` | Boundary left unknown; no choice between possible separator labels |
+| 81 | `WIRD?BITTE` | `39WXYZ` | The new conditional edition fills the separator; the earlier stream is retained above |
 | 93 | `NACHHK?VERSETZTE` | `BCKMSW` | Destination left as `HK?`; no silent repair to `OKM` |
 | 157 | `MACKY?3X4OPYY` | `278GPY` | Closing reference remains incomplete |
 
-The unit label **`24`**, the army label `XX`, the reference fields and raw `Y`
-separators are preserved. Applying an already proposed late-key numerical
-interpretation would be a separate hypothesis, not new historical evidence
-from this message.
+The baseline unit label `24`, army label `XX` and raw `Y` separators remain
+in the recorded stream. Their interpretation in the opening quote follows
+the [shared date and unit analysis](../../experiments/late_november_calendar_and_units/README.md);
+this telegram supplies no independent identification of the detachment.
 
 ## Source accounting and reproducibility
+
+The table records the earlier published-key editions; the additional C
+separator raises that edition to **163/165** labels and **32** mask fills.
+The shared interpretation above has a further unresolved 4/5 cell.
 
 | Part | Slots | Printed dashes / invalid glyphs | Raw fixed labels | Edition fixed labels | Known-coordinate changes | Erasure fills |
 |---|---:|---:|---:|---:|---:|---:|

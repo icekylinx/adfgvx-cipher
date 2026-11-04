@@ -21,6 +21,11 @@ The published `Nov16-18` key is unchanged. [Original OCR records](../../experime
 
 **Source transcription — header:** `A) NKJ FUER RAT (6.50 a.m., November 16th); 0700 (16) 2 TLE; 1 TL RICHI-254`
 
+Under the [existing November date constraint](../../experiments/nov16_18_reference_completion/README.md),
+the opening reference becomes **Nr. 8?**, raising the conditional reading
+to **125/127** positions. The other reference cells remain distinct and
+unassigned; no source coordinate changes.
+
 <details>
 <summary>Raw decoded text</summary>
 
@@ -42,7 +47,7 @@ DEUTSCHESGENERALKONSULATODESSAXNRX??XAUSSENUKRAANDEUTSCHEENBEVOLLMAECHTIGTENODES
 
 - All 254 coordinates are present in the printed source and decode without repair. The earlier OCR split the first row from the rest; the complete native body is now used.
 - DEUTSCHEEN is retained with both E letters. AUSSENUKRA, ABT and RM remain unexpanded, and RM is not treated as a currency amount.
-- The three question marks are different unresolved square cells FD, GF and GD. They cannot be assigned independently or given the same label under an injective completion. No reference number is inferred.
+- The baseline question marks use three different cells, FD, GF and GD. The conditional layer fixes FD=8; GF and GD retain distinct values from `034679`.
 
 ## p201 A2
 

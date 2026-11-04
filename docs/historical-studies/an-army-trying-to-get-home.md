@@ -14,7 +14,7 @@ The request concerns supply trains to Arad and action through the Hungarian gove
 
 This source comparison establishes the reported scale of the provisioning problem. It also identifies Arad as a requested staging point and the Hungarian government as an authority whose cooperation had to be obtained. The telegram is a request for provision; the surviving copies contain no account of its fulfilment.
 
-Related traffic describes a completed Danube crossing and busy crossing activity near the places written `BELGRAD` and `SEMUM`. The [parallel Danube passages](../../cases/military/danube_arad_witnesses.md#p164-c1) preserve damaged formation labels but establish the crossing report and its operational vocabulary. Movement across the river and supply farther along the route thus appear as connected administrative problems.
+Related traffic describes a completed Danube crossing and busy crossing activity near the places written `BELGRAD` and `SEMUM`. The [parallel Danube passages](../../cases/military/danube_arad_witnesses.md#p164-c1) identify the 219th Infantry Division in one reception and support that unit reading in the other. Movement across the river and supply farther along the route appear as connected administrative problems.
 
 ## Transit under the armistices
 
@@ -58,6 +58,8 @@ Our German source edition clarifies a consequential passage across a part bounda
 
 A letter originating on 29 November and intercepted on 2 December addresses the soldiers' council of Mackensen's army. The executive council of the workers' and soldiers' councils of Greater Berlin says that attempts to avoid internment have failed and urges calm and order. Its reconstructed third part promises efforts to secure tolerable conditions and an eventual return in health after peace. [The p226–227 letter](../../cases/military/mackensen_internment.md).
 
+The Berlin council's published records preserve a typescript counterpart, dated 28 November and dispatched on the 29th, signed by Molkenbuhr and Richard Müller. It independently supports the two surname repairs in the radio text. Differences in the opening noun, armistice terminology and closing wording establish that the two witnesses preserve distinct versions. [Document 96 and the source comparison](../../experiments/mackensen_archival_comparison/README.md).
+
 The correspondence therefore traces a narrowing range of choices. Early-November requests concern the means of proceeding through a transit point; the later exchanges concern the conditions under which the army might be detained. The restored Arad figure gives the provisioning problem a firmer scale, while the reconstructed acknowledgments and part boundaries make the subsequent negotiations more precise.
 
-Childs and Lasry, Niebel, Kopal and Wacker published the principal withdrawal, appeal and internment narratives. This study adds our Arad witness recovery, connected German editions, and comparisons with the contemporary railway report and operational map. [Research and attribution](README.md#what-this-edition-contributes).
+Childs and Lasry, Niebel, Kopal and Wacker published the principal withdrawal, appeal and internment narratives. This study adds our Arad witness recovery, connected German editions, and comparisons with the railway report, operational map and Berlin council record. [Research and attribution](README.md#what-this-edition-contributes).

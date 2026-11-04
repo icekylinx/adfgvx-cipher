@@ -10,6 +10,10 @@ Childs p155 C is a two-part request to check and repeat an earlier eighth part t
 
 **Source transcription — header:** `C) NKJ v LP (6.42 a.m., November 8th); FUER COS 2240 (7/11), 2 TLE; 1 TL RICHI-186; 2 TL RICHI-136`.
 
+## Conditional digit reading
+
+The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) reads **25.10** in part 1 and **RM 5 Nr. 153303** in part 2. The opposite square gives 26.10 and RM 6 Nr. 163303. The first part’s `AL?CHIS` field remains unresolved, and the retained source-frame alternatives are unchanged.
+
 ## p155 C1
 
 **Conditional frame.** The literal source has 187 slots, including the six-slot group `VGVXAA`, three noncoordinate glyphs (`H`, `S`, `H`), and no printed dash. The advertised length is 186. The displayed example excludes the observed `G` at source index 61, then masks the three invalid glyphs. Excluding an observed coordinate is a separate frame operation; it is not a zero-cost OCR correction. Other exclusions are retained below.

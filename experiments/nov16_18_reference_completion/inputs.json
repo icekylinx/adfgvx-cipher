@@ -1,0 +1,182 @@
+{
+  "schema": "adfgvx-nov16-18-reference-completion-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/late_november_joint_completion/verify.py": "7a56f75689f4cc174c3d371b6a5e3c44520087aba34a3e599cd6c0c70a707cc1",
+    "experiments/military_intendant_remit/certificates.json": "c2095a01f77d2b0c4cb2f21128c23c107c946d49ec480e8655f265e564509aa4",
+    "experiments/military_intendant_remit/inputs.json": "328ddab22d0a9cf7aa268fb9ea4702ff1186792337c48f59b5c2b25e5b84276a",
+    "experiments/nov16_18_command_inquiries/certificates.json": "95ba2ac30ddcd6ff4c3101037719475b7753d11ad8a899f425a42ea6637e765f",
+    "experiments/nov16_18_command_inquiries/inputs.json": "46104d9f20b1b6d5d3975326a156e39c9729d5bde2d53f2a3953669183fb33c8",
+    "experiments/nov18_negotiation_repetition/certificates.json": "6362c164eb9a70157961321c00c03d15e9ce29feeb72749d559273aab9dcee72",
+    "experiments/nov18_negotiation_repetition/inputs.json": "0e71f7fa8d1e381af7b184c96fa5d58c2c33cb468a05ee75e4d971b207d2ce0f",
+    "experiments/odessa_wagon_sale/certificates.json": "99dcce9be7bfe7a401f4f65201f001a7728a9577befd007fb4a66a0be5b2379f",
+    "experiments/odessa_wagon_sale/inputs.json": "6a9e8e135c214725d890512860a3b8bf8e9d5b88671f1a50380ff3a31aeedbac",
+    "experiments/open_targets_continuation/certificates.json": "c1aad20e833840b5a134223bed09fa7fbee33f1efbbaab2cae0e06517bc11b6c",
+    "experiments/open_targets_continuation/inputs.json": "3e725d540949ed1b654d15d5e9282e49acf6ba2029443fbead7e606ffed9a1d8",
+    "experiments/repatriation_orders/certificates.json": "fadac38fd7deab9f4751f43d78abc875f73b3d37435b3848fd62f3b23a54eb18",
+    "experiments/repatriation_orders/inputs.json": "0ba3e8423fe05dbcb82ef5aaf3789f80ac7f7149a7c527f8846dcd86a0d2fc66"
+  },
+  "records": [
+    {
+      "id": "p201_A1",
+      "inputs": "experiments/odessa_wagon_sale/inputs.json",
+      "certificate": "experiments/odessa_wagon_sale/certificates.json",
+      "format": "native",
+      "new_numerals": 1,
+      "expected_interpretation": "DEUTSCHESGENERALKONSULATODESSAXNRX8?XAUSSENUKRAANDEUTSCHEENBEVOLLMAECHTIGTENODESSAXFUERAUSFUHRGESELLSCHAFTXABTXRMX?IHRTELEGRAMM",
+      "observed_substitutions": 0,
+      "mask_fills": 0
+    },
+    {
+      "id": "p202_B4",
+      "inputs": "experiments/military_intendant_remit/inputs.json",
+      "certificate": "experiments/military_intendant_remit/certificates.json",
+      "format": "remit",
+      "new_numerals": 3,
+      "expected_interpretation": "BEKLEIDUNGXUXAUSRUESTUNGFLEISCHVERSORGUNGMARKETENDEREIWESENKRIEGSLEISTUNGENXGENERALINTENDANTXRMX?XAX5?5?XAX11X18",
+      "observed_substitutions": 1,
+      "mask_fills": 3
+    },
+    {
+      "id": "p204_D",
+      "inputs": "experiments/nov16_18_command_inquiries/inputs.json",
+      "certificate": "experiments/nov16_18_command_inquiries/certificates.json",
+      "format": "native",
+      "new_numerals": 1,
+      "expected_interpretation": "ZU2??FVOM15XX1XNEINXX2XPSOXBSLXXFUSTAWAUXX",
+      "observed_substitutions": 0,
+      "mask_fills": 0
+    },
+    {
+      "id": "p206_B1",
+      "inputs": "experiments/nov18_negotiation_repetition/inputs.json",
+      "certificate": "experiments/nov18_negotiation_repetition/certificates.json",
+      "format": "native",
+      "new_numerals": 1,
+      "additional_mask_fill": {
+        "plaintext_index": 103,
+        "source_index": 219,
+        "to": "F"
+      },
+      "expected_interpretation": "ANXOKMXERBETENEWIEDERHOLUNGHIESIGERRMX1XAX1125?XGEHXOPXVOM?X11XTEILNAHMEANVERHANDLUNGENGEMAESSDORTXRMX1XAX11222XOPXZWECKLOSX",
+      "observed_substitutions": 3,
+      "mask_fills": 6
+    },
+    {
+      "id": "p206_B2",
+      "inputs": "experiments/nov18_negotiation_repetition/inputs.json",
+      "certificate": "experiments/nov18_negotiation_repetition/certificates.json",
+      "format": "native",
+      "new_numerals": 1,
+      "expected_interpretation": "DORTIGEXNRXRMX1XAX11225XOPXUNDRMX1XAX112??XOPXUNDRMX1UAX112?1XOPXVOMX?X11XDURCHDENHIERGEGEBENENABMARSCHBEFEHLERLEDIGTX",
+      "observed_substitutions": 2,
+      "mask_fills": 0
+    },
+    {
+      "id": "p207_A2",
+      "inputs": "experiments/repatriation_orders/inputs.json",
+      "certificate": "experiments/repatriation_orders/certificates.json",
+      "format": "repatriation",
+      "new_numerals": 5,
+      "expected_interpretation": "GLEICHESERGEHTANXETRAXSUEDOSTXFECHXGRXHXQUXUNDKRIWEISOKMXNRX5?18X11X18XANCHXKMXALLGMXKRDPXNRX25??X18XGEHXANCHX",
+      "observed_substitutions": 0,
+      "mask_fills": 0
+    },
+    {
+      "id": "p207_C1",
+      "inputs": "experiments/repatriation_orders/inputs.json",
+      "certificate": "experiments/repatriation_orders/certificates.json",
+      "format": "repatriation",
+      "new_numerals": 1,
+      "expected_interpretation": "ANDEUTSCHENGENERALINFINNLANDXXDORTIGEXNRXBXCX212XUNDXRMX1AXNRX?8?XBEURTEILENLAGEVERSCHIEDENXOHLXNIMMTANX",
+      "observed_substitutions": 1,
+      "mask_fills": 0
+    }
+  ],
+  "separator_donors": [
+    {
+      "record": "p206_B1",
+      "start": 38
+    },
+    {
+      "record": "p206_B2",
+      "start": 14
+    },
+    {
+      "record": "p206_B2",
+      "start": 33
+    }
+  ],
+  "readable_quotes": [
+    {
+      "record": "p206_B1",
+      "case": "cases/military/nov18_negotiation_repetition.md",
+      "german": "An OKM. Erbetene Wiederholung hiesiger RM 1 A 1125? GEH OP vom ? 11. Teilnahme an Verhandlungen gemaess dort RM 1 A 11222 OP zwecklos."
+    },
+    {
+      "record": "p206_B2",
+      "case": "cases/military/nov18_negotiation_repetition.md",
+      "german": "Dortige Nr. RM 1 A 11225 OP und RM 1 A 112?? OP und RM 1UA 112?1 OP vom ? 11 durch den hier gegebenen Abmarschbefehl erledigt."
+    }
+  ],
+  "case_fields": [
+    {
+      "record": "p201_A1",
+      "case": "cases/finance/odessa_wagon_sale.md",
+      "field": "NRX8?",
+      "start": 31,
+      "end": 36,
+      "text": "the opening reference becomes **Nr. 8?**"
+    },
+    {
+      "record": "p202_B4",
+      "case": "cases/military/military_intendant_remit.md",
+      "field": "RMX?XAX5?5?XAX11X18",
+      "start": 93,
+      "end": 112,
+      "text": "`RM ? A 5?5? A 11 18`"
+    },
+    {
+      "record": "p204_D",
+      "case": "cases/radio/nov16_18_command_inquiries.md",
+      "field": "VOM15XX",
+      "start": 6,
+      "end": 13,
+      "text": "the date-like field becomes **15X**"
+    },
+    {
+      "record": "p207_A2",
+      "case": "cases/military/repatriation_orders.md",
+      "field": "NRX5?18X11X18",
+      "start": 57,
+      "end": 70,
+      "text": "`Nr. 5?18 / 11 / 18`"
+    },
+    {
+      "record": "p207_A2",
+      "case": "cases/military/repatriation_orders.md",
+      "field": "NRX25??X18",
+      "start": 90,
+      "end": 100,
+      "text": "`Nr. 25?? / 18`"
+    },
+    {
+      "record": "p207_C1",
+      "case": "cases/military/repatriation_orders.md",
+      "field": "NRX?8?",
+      "start": 59,
+      "end": 65,
+      "text": "the first message’s three-digit reference becomes **?8?**"
+    }
+  ],
+  "limits": [
+    "FD=8 retains the existing November-Monday calendar assumption; VA=5 retains the existing p201/p206 order-identification and date assumption.",
+    "The p206 B1 separator is a local reference-prefix completion supported by three fully observed 1XA occurrences, not a second reception of the damaged reference.",
+    "The p207 A2 final-X exclusion and every earlier word repair remain unchanged.",
+    "The remaining six digits share one injective square; repeated cells keep the same value. No remaining serial or date is selected."
+  ]
+}

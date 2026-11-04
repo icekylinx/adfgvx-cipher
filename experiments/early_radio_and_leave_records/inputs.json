@@ -255,7 +255,7 @@
       "source_section": "A1",
       "key_id": "Nov1-3",
       "source_rows": [
-        "DVGVD DGAFX GXFDG VAXXG AFAVA FVAGG VVDDF EGAGF",
+        "DVGVD DGAFX GXFDG VAXXG AFAVA FVAGG VVDDF DGAGF",
         "ADAGV AGXAD AGAGV VGFAG FGDGF FAVDG DVVGF GGDFG",
         "XFGVA AXGVA GXGVG GVGXG FAFAV GFGVV DVFFD GXAGD",
         "VVAAV GGAAD GDGGF VGVDX FXVVG AGAGG DGDVV XDDAG",
@@ -263,17 +263,35 @@
       ],
       "source_slots": 166,
       "advertised_length": 166,
-      "expected_raw": "AKONACH18?ROEHRENSENDERANTAFUNKABGEGANGENXHIER10KWQOFSENDERUMFORMERMOTORFUER220VOLT",
-      "readable_candidate": "AKONACH18?ROEHRENSENDERANTAFUNKABGEGANGENXHIER10KWQOFSENDERUMFORMERMOTORFUER220VOLT",
-      "readable_german": "Akonach 18? Roehrensender an TAFUNK abgegangen. Hier 10 kW QOF-Sender Umformermotor fuer 220 Volt.",
+      "expected_raw": "AKONACH18XROEHRENSENDERANTAFUNKABGEGANGENXHIER10KWQOFSENDERUMFORMERMOTORFUER220VOLT",
+      "readable_candidate": "AKONACH18XROEHRENSENDERANTAFUNKABGEGANGENXHIER10KWQOFSENDERUMFORMERMOTORFUER220VOLT",
+      "readable_german": "Akonach 18. Roehrensender an TAFUNK abgegangen. Hier 10 kW QOF-Sender Umformermotor fuer 220 Volt.",
       "case_path": "cases/radio/transmitter_dispatch_220_volts.md",
       "title": "Transmitter dispatch and a 220-volt converter motor",
-      "meaning": "A tube transmitter is reported dispatched to the designation TAFUNK. The remaining text lists a 10 kW QOF transmitter and a converter motor for 220 volts. QOF and TAFUNK are kept as literal technical or routing labels; the incomplete opening label 18? remains unresolved.",
-      "reading_note": "The clear printed E in EGAGF is outside the coordinate alphabet. Its single slot is retained as a source mask; it is not replaced to complete the opening label 18?. The 10 kW, 220 Volt, QOF and TAFUNK labels are preserved. The published Nov1–3 key decrypts this physical source, while the 31 October heading and 2 November reception date remain separate facts. No historical rekeying sequence is inferred.",
+      "meaning": "A tube transmitter has been dispatched to TAFUNK. The remaining text lists a 10 kW QOF transmitter and a converter motor for 220 volts. AKONACH 18, QOF and TAFUNK retain their transmitted forms.",
+      "reading_note": "The final group in the first ciphertext row is DGAGF. Its first glyph has a closed right-hand curve and no middle bar: D, not the E recorded in the earlier transcription. Source coordinate 35 therefore supplies plaintext separator X at position 9. All 166 source coordinates are readable, and the complete 83-position text re-encrypts exactly under the published Nov1–3 key. The 31 October heading and 2 November reception date are separate source dates.",
       "expected_costs": [
         0,
         0
-      ]
+      ],
+      "transcription_review": {
+        "date": "2026-11-04",
+        "source_index": 35,
+        "previous_transcription": "E",
+        "source_reading": "D",
+        "source_group": "DGAGF",
+        "plaintext_index": 9,
+        "previous_plaintext": "?",
+        "plaintext": "X",
+        "reviewed_image": "sources/p87_A1.png",
+        "crop_pixel_box": [
+          1190,
+          150,
+          1395,
+          222
+        ],
+        "classification": "correction of our transcription; no source-coordinate substitution"
+      }
     },
     {
       "id": "p119_A",
@@ -319,16 +337,80 @@
       "source_slots": 200,
       "advertised_length": 200,
       "expected_raw": "211?IVDXMARS?HIERCBI?9X11XINR?UMUMTIT?LCXAXHXQ?X5X11XN?GQBECSER?KXXLUFT?UFKLAERU?ZNICHTSWESENTLICHES",
-      "readable_candidate": "211?IVDXMARSCHIERTBIS9X11XINRAUMUMTITELCXAXHXQ?X5X11XN?GQBECSER?KXXLUFTAUFKLAERUNGNICHTSWESENTLICHES",
-      "readable_german": "211?IVD marschiert bis 9 / 11 in Raum um TITELC. A. H. Q? 5 / 11 N?GQBECSER?K. Luftaufklaerung nichts Wesentliches.",
+      "readable_candidate": "211?IVDXMARSCHIERTBIS9X11XINRAUMUMTITELCXAXHXQ?X5X11XNAGQBECSEREKXXLUFTAUFKLAERUNGNICHTSWESENTLICHES",
+      "readable_german": "211?IVD marschiert bis 9 / 11 in Raum um TITELC. A. H. Q? 5 / 11 NAGQBECSEREK. Luftaufklaerung nichts Wesentliches.",
       "case_path": "cases/military/nov4_march_air_reconnaissance.md",
-      "title": "March report and aerial reconnaissance with unresolved unit and place",
-      "meaning": "The proposal reports a march by the unresolved unit label 211?IVD into the area around literal TITELC by 9/ 11. An A H Q? / 5/ 11 /N?GQBECSER?K clause follows. The aerial reconnaissance clause reports nothing substantial. No place, unit or missing interception day is silently supplied.",
-      "reading_note": "The two five-dash groups occupy ten explicit source slots. The proposal fills six of them and changes two observed coordinates. Four plaintext positions remain unknown: one in the unit, one in Q?, and two in N?GQBECSER?K. TITELC remains literal, including its final C. The source omits the interception day; the plaintext date-like labels do not supply it.",
+      "title": "March and aerial reconnaissance report",
+      "meaning": "The report places the unresolved unit 211?IVD in the area of TITELC by 9 / 11. An A. H. Q? field gives 5 / 11 and the conditionally completed NAGQBECSEREK. The final clause reports no substantial aerial-reconnaissance findings.",
+      "reading_note": "Two additional mask fills complete the place field as NAGQBECSEREK, supported by the native NAGQBE prefix and EREK ending in p120 C. Both sources name ZON as sender and give an origin day of 4. Their CS/SC difference and literal Q remain. The proposal has 98/100 fixed positions at two observed substitutions and eight mask fills; 211?IVD and Q? remain unresolved.",
       "expected_costs": [
         2,
-        6
-      ]
+        8
+      ],
+      "place_completion": {
+        "authors": "icekylinx and GPT-6 Astra Pro",
+        "review_date": "2026-11-04",
+        "previous_candidate": "211?IVDXMARSCHIERTBIS9X11XINRAUMUMTITELCXAXHXQ?X5X11XN?GQBECSER?KXXLUFTAUFKLAERUNGNICHTSWESENTLICHES",
+        "previous_fixed_positions": 96,
+        "donor_input_path": "experiments/nov4_radio_and_departure_queries/inputs.json",
+        "donor_input_sha256": "6a265c1536fec1be04daf61fced700f2de82072568f5c2d06288a46ee8432d35",
+        "donor_record_id": "p120_C",
+        "donor_case": "cases/radio/nov4_eilvese_and_setup.md#p120-c",
+        "donor_native_place": "NAGQBESCEREK",
+        "target_place": "NAGQBECSEREK",
+        "matching_spans": [
+          {
+            "text": "NAGQBE",
+            "donor_plaintext_start": 16,
+            "target_plaintext_start": 53
+          },
+          {
+            "text": "EREK",
+            "donor_plaintext_start": 24,
+            "target_plaintext_start": 61
+          }
+        ],
+        "new_letters": [
+          {
+            "plaintext_index": 54,
+            "before": "?",
+            "after": "A",
+            "domain": "8ABGIR",
+            "pair_before": "V?",
+            "pair_after": "VF",
+            "source_indices": [
+              183,
+              6
+            ],
+            "filled_source_index": 6,
+            "coordinate": "F"
+          },
+          {
+            "plaintext_index": 63,
+            "before": "?",
+            "after": "E",
+            "domain": "1EJORT",
+            "pair_before": "?A",
+            "pair_after": "FA",
+            "source_indices": [
+              7,
+              65
+            ],
+            "filled_source_index": 7,
+            "coordinate": "F"
+          }
+        ],
+        "new_observed_substitutions": 0,
+        "new_source_mask_fills": 2,
+        "source_context": {
+          "target_origin": "2000 (4)",
+          "donor_origin": "2332 (4)",
+          "common_sender": "ZON",
+          "target_receipt": "UKH v ZON (4.30 a.m., November---)",
+          "donor_receipt": "UKS v ZON (2.10 a.m., November 5th)"
+        },
+        "interpretation": "The place fields are treated as related spellings for this conditional proposal. Their shared prefix and ending support the missing A and E. The differing observed CS/SC sequence and Q remain as transmitted; no identical-message or historical spelling claim is made."
+      }
     },
     {
       "id": "p127_B1",
@@ -383,7 +465,7 @@
     ]
   },
   "literal_glyph_notes": [
-    "The clear printed E in EGAGF is outside the coordinate alphabet. Its single slot is retained as a source mask; it is not replaced to complete the opening label 18?. The 10 kW, 220 Volt, QOF and TAFUNK labels are preserved. The published Nov1–3 key decrypts this physical source, while the 31 October heading and 2 November reception date remain separate facts. No historical rekeying sequence is inferred.",
+    "The final group in the first ciphertext row is DGAGF. Its first glyph has a closed right-hand curve and no middle bar: D, not the E recorded in the earlier transcription. Source coordinate 35 therefore supplies plaintext separator X at position 9. All 166 source coordinates are readable, and the complete 83-position text re-encrypts exactly under the published Nov1–3 key. The 31 October heading and 2 November reception date are separate source dates.",
     "All 286 received positions are observed ADFGVX coordinates and the complete 143-position plaintext re-encrypts exactly with no change. A high-resolution crop confirms the G in FVGVA; an initial low-resolution ambiguity is not treated as a source erasure.",
     "The two five-dash groups occupy ten explicit source slots. The proposal fills six of them and changes two observed coordinates. Four plaintext positions remain unknown: one in the unit, one in Q?, and two in N?GQBECSER?K. TITELC remains literal, including its final C. The source omits the interception day; the plaintext date-like labels do not supply it.",
     "The first source group is AXVFF; ALTES is already present in the complete raw reading. The later group VFFGF contains a clear F, not an out-of-alphabet T; neither visual correction is a historical ciphertext edit. The proposal changes one observed coordinate and fills three printed masks. The fourth mask leaves OS? unresolved. NICT is retained without adding H. Only the first of two announced parts is included."

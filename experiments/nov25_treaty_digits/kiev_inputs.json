@@ -1,0 +1,64 @@
+{
+  "schema": "adfgvx-nov25-kiev-joint-input-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": [
+    {
+      "path": "experiments/p219_kiev_unrest/inputs.json",
+      "sha256": "71cf2fcdbe5dcbfa51ad39828fc7ef15bc6d20dea86805a144803a3318af8e52"
+    },
+    {
+      "path": "experiments/p219_kiev_unrest/verify.py",
+      "sha256": "2aac6f87c8ec487f9e7239845b0655b7690b22d228c9d677c05e587a653c770c"
+    },
+    {
+      "path": "experiments/p219_kiev_unrest/certificates.json",
+      "sha256": "a2292ce75dd1a886bd9ff08fba263fdd4ed238d3c4cdad0ed69a15167d41c4e6"
+    },
+    {
+      "path": "experiments/nov25_treaty_digits/breslau_certificate.json",
+      "sha256": "5122e814c83ca23826c67499c7e642bddbe548d09d7463e0faf789181032f3f1"
+    }
+  ],
+  "case_path": "cases/military/p219_kiev_unrest.md",
+  "shared_square_certificate": "experiments/nov25_treaty_digits/breslau_certificate.json",
+  "source_package": "experiments/p219_kiev_unrest",
+  "name_proposal": {
+    "raw_baseline": "PEDF9?RA",
+    "conditional_raw": "PEDFJ?RA",
+    "proposed": "PETLJURA",
+    "range": [
+      57,
+      65
+    ],
+    "shared_letter_position": 61,
+    "shared_pair": "VD",
+    "source_indices": [
+      181,
+      212
+    ]
+  },
+  "expected": {
+    "physical_records": 1,
+    "source_observations": 284,
+    "modeled_coordinates": 294,
+    "excluded_observed_coordinates": 15,
+    "added_unknown_slots": 25,
+    "declared_geometry_maps": 81,
+    "minimum_observed_substitutions": 2,
+    "minimum_maps": 4,
+    "distinct_edited_streams": 2,
+    "inserted_fills": 18,
+    "prior_name_substitutions": 4,
+    "removed_observed_substitutions": 2
+  },
+  "limits": [
+    "PETLJURA remains a spelling proposal; the same-key J interpretation does not identify the person from an independent historical source.",
+    "All four minimum source models and both opaque-field outcomes are retained.",
+    "The source is additional to the previous 23-record interpretation snapshot; it is not included in their35+3 numeral counts.",
+    "Other name proposals and unassigned numerical or signature fields remain separate.",
+    "No baseline square or original source-edition file is altered."
+  ]
+}

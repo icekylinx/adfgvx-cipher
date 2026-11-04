@@ -66,6 +66,11 @@ def build(pdf=None):
         else:assert r['id']=='p152_C'and r['advertised_length_text']=='----'
         key=keys[r['key_id']];mapping=list(range(len(base)))
         raw=inspect(base,key,mapping);assert raw['raw']==r['expected_raw']
+        if r['id']=='p56_A':
+            review=r['transcription_review']
+            assert literal[review['source_index']]=='F' and literal[201]=='W'
+            assert raw['raw'][review['plaintext_index']]=='H' and raw['fixed_positions']==110
+            assert review['source_index'] in raw['positions'][review['plaintext_index']]['source_indices']
         candidate=repair(r['edited_output'],base,key,mapping,literal)
         assert candidate['raw']==r['edited_output']
         assert len(candidate['known_coordinate_substitutions'])==r['expected_substitutions']
@@ -99,7 +104,7 @@ def build(pdf=None):
                 assert all(a=='?'or a==b for a,b in zip(candidate['raw'],value))
                 unresolved_family.append({'source_index':91,'coordinate':coordinate,'field':value[12:16],'plaintext':value,'ciphertext':full,'exact_reencryption':True,'historical_selection_claim':False})
             assert ''.join(sorted(x['field'][2]for x in unresolved_family))==field['domain']
-        out.append({'id':r['id'],'literal_source':literal,'source_slots':len(literal),'valid_source_coordinates':sum(c in C for c in literal),'model_to_source_indices':mapping,**raw,'readable_candidate':candidate,'readable_german':r['readable_german'],'readable_nonseparator_label_mapping_verified':True,'source_variants':variants,'unresolved_source_field_family':unresolved_family})
+        out.append({'id':r['id'],'literal_source':literal,'source_slots':len(literal),'valid_source_coordinates':sum(c in C for c in literal),'model_to_source_indices':mapping,**raw,'readable_candidate':candidate,'readable_german':r['readable_german'],'readable_nonseparator_label_mapping_verified':True,'source_variants':variants,'unresolved_source_field_family':unresolved_family,**({'transcription_review':r['transcription_review']} if 'transcription_review' in r else {})})
     summary={'physical_records':len(out),'printed_source_slots':sum(r['source_slots']for r in out),'valid_source_coordinates':sum(r['valid_source_coordinates']for r in out),'modeled_coordinates':sum(r['source_slots']for r in out),'plaintext_positions':sum(len(r['raw'])for r in out),'baseline_fixed_positions':sum(r['fixed_positions']for r in out),'candidate_fixed_positions':sum(r['readable_candidate']['fixed_positions']for r in out),'known_coordinate_substitutions':sum(len(r['readable_candidate']['known_coordinate_substitutions'])for r in out),'source_or_model_erasure_fills':sum(len(r['readable_candidate']['erased_coordinate_fills'])for r in out),'source_deletions':0,'inserted_slots':0,'source_reorderings':0,'published_key_changed':False}
     return {'schema':'adfgvx-native-source-edition-certificate-v1','project':data['project'],'authors':data['authors'],'input_sha256':sha(HERE/'inputs.json'),'indexing':'All machine indices are zero-based.','summary':summary,'records':out,'prior_credit':data['prior_credit'],'limits':data['limits']}
 

@@ -15,7 +15,7 @@
     {
       "id": "p164_C1",
       "path": "sources/p164_C1.png",
-      "storage": "external_pdf_reference",
+      "storage": "embedded_png",
       "pdf_page_1based": 167,
       "crop_pdf_points": [
         65,
@@ -27,12 +27,13 @@
       "width": 1940,
       "height": 500,
       "sha256": "6e4bf545d138d8db9228d4fa8c2f58df12275ece35d88341cef05cb4f368374c",
-      "rgb_sha256": "b2dd0bad2ffa4476fc42450f0f2d8ae9c560a6e4c40248b53607eda1b0d115ea"
+      "rgb_sha256": "b2dd0bad2ffa4476fc42450f0f2d8ae9c560a6e4c40248b53607eda1b0d115ea",
+      "path_role": "Reviewed crop bound to the pinned source PDF by its PNG and RGB hashes."
     },
     {
       "id": "p168_E",
       "path": "sources/p168_E.png",
-      "storage": "external_pdf_reference",
+      "storage": "embedded_png",
       "pdf_page_1based": 171,
       "crop_pdf_points": [
         73,
@@ -44,7 +45,8 @@
       "width": 1920,
       "height": 532,
       "sha256": "af6625e0f085674c4a26f20dbaccf2596dff5add924b1b4d93fcc1919ab14732",
-      "rgb_sha256": "8fb8ac4b7557ae2d07888753882712e61cdbd57b95c2050472c2a9797345ee9e"
+      "rgb_sha256": "8fb8ac4b7557ae2d07888753882712e61cdbd57b95c2050472c2a9797345ee9e",
+      "path_role": "Reviewed crop bound to the pinned source PDF by its PNG and RGB hashes."
     }
   ],
   "key": {
@@ -187,7 +189,39 @@
       "edited_output": "AOKX11ABENDMELDUNG8XC1X1?XLAGEDER?1XARMEEAM7X11XABENDSXDONAUUEBERGANG219XIXDXBEENDETXBELGRADXSEMUMLEBHAFTERUEBERSETZVERKEHRX",
       "readable_german": "AOK11. Abendmeldung 8. C1 1?. Lage der ?1 Armee am 7 11 abends. Donauuebergang 219 I D beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.",
       "expected_substitutions": 4,
-      "expected_erasure_fills": 3
+      "expected_erasure_fills": 3,
+      "date_army_completion": {
+        "edited_output": "AOKX11ABENDMELDUNG8X11X18XLAGEDER11XARMEEAM7X11XABENDSXDONAUUEBERGANG219XIXDXBEENDETXBELGRADXSEMUMLEBHAFTERUEBERSETZVERKEHRX",
+        "readable_german": "AOK11. Abendmeldung 8.11.18. Lage der 11 Armee am 7.11 abends. Donauuebergang 219 I D beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.",
+        "expected_substitutions": 5,
+        "expected_source_mask_fills": 5,
+        "assumptions": [
+          "The three fields 8XC1X1? encode a day.month.year date in the 1918 collection: 8.11.18.",
+          "The ?1 ARMEE field names the Eleventh Army already addressed as AOK11 at the start of the same message."
+        ],
+        "changed_plaintext_positions": [
+          20,
+          24,
+          33
+        ],
+        "native_army_witness_positions": [
+          4,
+          5
+        ],
+        "date_format_witness": {
+          "input_path": "experiments/nov7_derailment_and_trains/inputs.json",
+          "record_id": "p155_D",
+          "literal_source_sha256": "f899e03ffb9d42c035dabe7fcb8572847bf7bef049a0278eaa00e3fed9407db5",
+          "plaintext_start": 30,
+          "text": "7X11X18",
+          "case": "cases/military/nov7_derailment_and_trains.md#p155-d",
+          "role": "Native day.month.year format in another November 7 report; it does not independently supply the target report date."
+        },
+        "limits": [
+          "Conditional completion of the date and army reference; the native and earlier word layers remain unchanged.",
+          "No new key cell is assigned. SEMUM remains literal."
+        ]
+      }
     },
     {
       "id": "p168_E",
@@ -240,7 +274,7 @@
   "limits": [
     "The p168E272-slot frame inserts one coordinate in the visibly shortDDGX group; the p159DDGGX witness suppliesG and leaves two equal-G source-origin aliases.",
     "All eight source-only minimizing p159 maps within the full earlier finite edit family produce one linked ciphertext. All borrowed values have directly observed original-source origins; no source-linked value is donated back.",
-    "Literal14TAGE X10TAGE,STAEKE,80000,30000,219 versus21B,all reference fields and the globally coupled5/6 footer are retained."
+    "Literal 14TAGE X10TAGE, STAEKE, 80000, 30000 and the globally coupled 5/6 footer are retained. The native 219 versus 21B difference remains in the source layers; the p164 date and army completion is separate."
   ],
   "source_only_family": {
     "reference": "p168_E unfilled primary272-slot frame, all three unobserved coordinates unassigned",
@@ -263,5 +297,10 @@
     ],
     "expected_price_sha256": "a46e3534617710c1a71f98d1785187efb3f7593ba9003c59fac43b33eb6e19eb",
     "objective": "Count mismatches only at originally observed coordinate pairs. No plaintext template."
+  },
+  "source_evidence_delivery": {
+    "mode": "embedded_png",
+    "default_verification": "Source transcription, cryptographic arithmetic and embedded PNG file/RGB hashes are checked.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and reproduce the declared crop pixels."
   }
 }

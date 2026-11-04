@@ -8,7 +8,7 @@ Five ciphertext records and one cleartext notice describe missing December key t
 
 | Record | Received slots | Fixed raw positions, including garbles | Content |
 |---|---:|---:|---|
-| p225 A | 232 | 110/116 | UKS to use a November key from 1 December because December tables have not arrived |
+| p225 A | 232 | 110/116; completed 116/116 | UKS to use a November key from 1 December because December tables have not arrived |
 | p226 B2 | 208 | 104/104 | Surviving continuation about reading numerical sequences backwards |
 | p227 B | 152 | 76/76 | Send messages for the army and subordinate formations directly to ZOEN |
 | p228 C1 | 176 | 88/88 | Agreement involving UKS, ZOEN and BSL about the December key |
@@ -17,22 +17,58 @@ Five ciphertext records and one cleartext notice describe missing December key t
 
 ## November key reused because December tables are missing
 
-p225 A is headed `BSL v UKS (09.24 p.m., November 28th)`, `2200 (28/11)`, `RIZI-232`. Its raw text is:
+**Readable German — six compatible fills and two word repairs:**
+
+> Station UKS chiffr. ab ersten Dez. mit NSL Nov., da Dez.-Tafeln noch nicht
+> eingegangen. Bitte Telegr. an uns ebenfalls mit NSL Nov. schluesseln.
+
+UKS reports that December tables have not arrived and requests reciprocal
+use of the material labelled `NSL NOV` from 1 December. The two occurrences
+of `NSL` are retained. The abbreviation does not identify a particular
+November day's key.
+
+The notice is headed `BSL v UKS (09.24 p.m., November 28th)`,
+`2200 (28/11)`, `RIZI-232`. Its native frame has **232 slots**, including
+five printed dashes and the invalid `R` in `DFGVR`. Six compatible word fills
+complete **116/116 positions** while retaining all **226 valid coordinates**.
+Reading `NICGT` as `NICHT` and `TELEGD` as `TELEGR` costs two additional
+observed-coordinate substitutions. The quotation uses that edited layer,
+with editorial spacing and punctuation.
 
 <details>
-<summary>Raw decoded text</summary>
+<summary>Original decryption and completed text</summary>
 
-**Raw output:**
+**Raw output — unchanged published key; 110/116 fixed positions:**
 
 ```text
 STATI?NUKSCHIFFRABERSTENDEZMITNSLNOVYD?DEZTAFELNNOCHNICGTEINGEGANG?NYBITTE?EL?GDANUNSEBENFALLSMITNSLNOVSCHLUES?ELNYY
 ```
 
+**Edited output — six source-mask fills; zero observed-coordinate substitutions:**
+
+```text
+STATIONUKSCHIFFRABERSTENDEZMITNSLNOVYDADEZTAFELNNOCHNICGTEINGEGANGENYBITTETELEGDANUNSEBENFALLSMITNSLNOVSCHLUESSELNYY
+```
+
+**Edited output — the same six fills and two observed-coordinate substitutions:**
+
+```text
+STATIONUKSCHIFFRABERSTENDEZMITNSLNOVYDADEZTAFELNNOCHNICHTEINGEGANGENYBITTETELEGRANUNSEBENFALLSMITNSLNOVSCHLUESSELNYY
+```
+
+| Treatment | Source indices and values |
+|---|---|
+| Printed dashes filled | 68→V, 110→F, 164→D, 173→V, 174→D |
+| Invalid glyph filled | 109: R→A |
+| Observed coordinates changed | 6: A→D; 9: F→V |
+
+Indices are zero based. Each completed letter retains one observed half-pair.
+The unenciphered annotation after the body remains separate.
+
 </details>
 
-The readable content is an instruction that station UKS should encipher from 1 December using the November material, because the December tables have not yet arrived. It requests reciprocal use of that material. The raw string **`NSL` occurs twice** and is preserved: interpreting it as another call sign or replacing it with `BSL` would be an additional assumption.
-
-The literal invalid `R` in `DFGVR` and all five printed dashes remain source slots. The unenciphered annotation following the 232-slot message is not appended to its cipher stream. [Source image](../../experiments/corpus_extension/sources/p225_A.png).
+[Source image](../../experiments/corpus_extension/sources/p225_A.png) ·
+[Completion and exact re-encryption](../../experiments/late_november_joint_completion/README.md)
 
 ## An explicit agreement to use the same key
 

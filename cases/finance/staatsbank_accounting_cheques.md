@@ -6,6 +6,10 @@
 
 The two-part message addresses Staatsbank Berlin, asks for an accounting amount connected to the Generalkriegskasse, and requests notice of arrival of dispatched cheques. It contains no recovered payment amount. The first part needs one explicitly modeled missing coordinate; the second part uses its complete native frame.
 
+## Conditional digit reading
+
+The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) reads **am 6. gesandte Cheks** in part 2. The opposite square gives am 5.; the selected date is conditional on the cross-period reference relation and adds no source repair.
+
 ## Source and frame
 
 [Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p172 excerpt](../../experiments/staatsbank_accounting_cheques/sources/p172_reviewed.png) · [Inputs](../../experiments/staatsbank_accounting_cheques/inputs.json) · [All coordinate and insertion certificates](../../experiments/staatsbank_accounting_cheques/certificates.json)

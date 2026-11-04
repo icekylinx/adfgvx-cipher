@@ -184,6 +184,9 @@ def rebuild(inp, pdf=None):
         assert hashlib.sha256(pix.samples).hexdigest() == img["pixel_sha256"]
     case = inp["primary_case"]
     text = (ROOT / case["path"]).read_text()
+    heading = "\n## " + case["section"] + "\n"
+    assert text.count(heading) == 1
+    text = text[text.index(heading) + 1:].split("\n## ", 1)[0]
     fences, quotes = displays(text)
     assert [line for line in text.splitlines() if re.match(r"^#{1,6} ", line)] == case["headings"]
     assert [x["sha256"] for x in fences] == case["fence_sha256"]

@@ -73,7 +73,7 @@ The Polish appointment, Poti traffic and later armistice material bring diplomat
 | [p192 part 3](tiflis_appointment.md) | CONDITIONAL | Appointment instructions sent through a courier; conditional TYDELSKI identification |
 | [p199 unlettered part 1](tiflis_appointment.md) | CONDITIONAL | Forwarding a Polish appointment telegram through von Kress to Waclaw v. Ostrowski in Tiflis |
 | [p212 A2](p212_p218_crosscopy.md#p212-a2) | CONDITIONAL | Truncated cross-copy of the Tiflis armistice-withdrawal notice |
-| [p218 A1](p218_A.md) | PARTIAL | Kress/Tiflis notice: armistice Article XII |
+| [p218 A1](p218_A.md) | CONDITIONAL | Kress/Tiflis notice: armistice Article XII |
 | [p218 A2](p218_A.md) | PARTIAL | Allied judgment governs withdrawal from former Russian territory |
 | [p218 A3](p218_A.md) | PARTIAL | No Allied demand yet to withdraw the Tiflis guard |
 

@@ -73,6 +73,16 @@ jobs:
       - name: Verify newly restored source families
         run: |
           python experiments/nov6_danube_completion/verify.py
+          python experiments/late_november_joint_completion/verify.py --verify
+          python experiments/late_november_calendar_and_units/verify.py --verify
+          python experiments/late_november_calendar_and_units/verify_traffic.py --verify
+          python experiments/nov25_treaty_digits/verify.py --verify
+          python experiments/nov25_treaty_digits/verify_breslau.py --verify
+          python experiments/nov25_treaty_digits/verify_kiev.py --verify
+          python experiments/mackensen_archival_comparison/verify.py --verify
+          python experiments/p155_shipping_completion/verify.py --verify
+          python experiments/nov7_9_joint_digits/verify.py --verify
+          python experiments/nov16_18_reference_completion/verify.py --verify
           python experiments/danube_arad_witnesses/verify.py --verify
           python experiments/nov13_ringbahn_retransmission/verify.py --verify
           python experiments/nov24_train_report/verify.py --verify

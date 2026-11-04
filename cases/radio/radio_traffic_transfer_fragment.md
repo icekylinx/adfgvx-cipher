@@ -20,6 +20,27 @@ The published `Nov28-Dec1` key is unchanged. [Original OCR records](../../experi
 
 **Source transcription — header:** `A) BSL v UKS (10.27 p.m., November 30th); 1700 (11/29); (1st Tl Missing); 2 TL RICHI-186`
 
+### A date and station field that must be read together
+
+The [shared late-November interpretation](../../experiments/late_november_calendar_and_units/README.md)
+leaves only **4/5** interchangeable. The opening `?DEZ` has the pair `F?`;
+if it denotes a December day, either surviving square requires the missing
+coordinate at source position 23 to be `X`. This adds **one mask fill** to
+the earlier edition, giving **1 observed substitution and 4 fills**, while
+leaving the day unresolved. The adjacent `SCHWERE1?` field uses the other
+4/5 cell. A separate station notice on [p230 C](nov30_radio_personnel.md#p230-c)
+uses that same cell for its hour.
+
+| Opening date, if calendrical | `SCHWERE` field | p230 C hour |
+|---|---|---|
+| **4 December** | **15** | **5** |
+| **5 December** | **14** | **4** |
+
+Both assignments survive. The November transmission and interception
+dates do not choose between them. The first place field becomes
+`GROSSW7RDEIN`, still damaged; the second remains `GROSSVARDEIN`.
+[Exact coordinate and branch check](../../experiments/late_november_calendar_and_units/traffic_certificate.json).
+
 <details>
 <summary>Source and cipher evidence</summary>
 
@@ -46,10 +67,10 @@ The published `Nov28-Dec1` key is unchanged. [Original OCR records](../../experi
 **Editorial limits.**
 
 - The source explicitly says the first part is missing. This is an edition of the complete native 186-slot second part, not a reconstruction of the missing first part.
-- Four printed dashes remain occupied source positions. Three are filled in the proposals UR?UL? to URSULA and GRO?SVARDEIN to GROSSVARDEIN. The initial ? is retained with domain {1, 3, D, I, N, U}.
+- Four printed dashes remain occupied source positions. The earlier edition fills three in UR?UL? and GRO?SVARDEIN. The optional date interpretation above fills the fourth; its value remains 4/5 under the shared square.
 - The only observed-coordinate word change is VERKAHR to VERKEHR. Natan Adolf Ursula is an explicit source-mask completion proposal, not an independently identified person or station.
 - GROSSW0RDEIN keeps the numeral 0 and W in the first place-like field; GROSSVARDEIN keeps V in the second. Neither field is silently normalized to a modern or historical place name.
-- The initial ?DEZ is not assigned a particular December date. The interception header and separate 11/29 originating line do not select that character.
+- Without the calendar interpretation, the opening shared-square domain is `{4, 5, D, I, J, N, U}`.
 - Y is the separator label. X and 9 inside SCHWEREX9 remain literal; DNZW and RUFZ are not expanded in the exact readable quotation.
 
 ## Evidence, credit and reproduction

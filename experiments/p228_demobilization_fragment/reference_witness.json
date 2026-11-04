@@ -8,7 +8,8 @@
     "experiments/p228_demobilization_fragment/inputs.json": "a9f989a288c2708bbf184821e08d0cb2d3adc95da0bfbd31e20acb25f5f80caa",
     "experiments/p228_demobilization_fragment/certificates.json": "6ac763abd0d51b8852ecb5d0ecd367099825dba6314c4899a876e9e45af7d5fc",
     "experiments/neuhof_demobilization/inputs.json": "7c08eda80c16f8ba6c02ae84c2f570caac8ac58de6e2616c3b4054d228464046",
-    "experiments/neuhof_demobilization/sources/p228_B1.png": "0d41021142cf4a838957f7ee098a3fad1a845921681d888d8c014673db0801d2"
+    "experiments/neuhof_demobilization/sources/p228_B1.png": "0d41021142cf4a838957f7ee098a3fad1a845921681d888d8c014673db0801d2",
+    "experiments/late_november_calendar_and_units/inputs.json": "dedac55058a5189db17fbd1a515e7b6047967a49a7a7c29676fb9886d65f64dc"
   },
   "indexing": "Zero based; ranges half open.",
   "hypothesis": "The X4GEH suffix in B1 and the ??GEH suffix in B2 refer to the same order-reference field.",
@@ -144,9 +145,119 @@
       "plaintext": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLGY6UJDESERLY2680YX4GEHY0YYIMBEREICHDESSTELLVYYKDOP7EMX4AKDEMOBILMACHENDEN26ECKFORMATIONEN"
     }
   ],
+  "enclosure_extension": {
+    "hypothesis": "The enclosure 1 named after ANLG in B1 also begins the paired enclosure field before U2 in B2.",
+    "donor_field": "ANLGYX",
+    "target_field_before": "ANLG??UJ",
+    "target_field_after": "ANLGYXUJ",
+    "interpreted_field": "ANLGX1U2",
+    "transfers": [
+      {
+        "donor_plaintext_index": 44,
+        "target_plaintext_index": 44,
+        "donor_source_indices": [
+          236,
+          160
+        ],
+        "donor_pair": "AX",
+        "target_source_indices": [
+          253,
+          171
+        ],
+        "target_pair_before": "?X",
+        "label": "Y",
+        "fills": [
+          {
+            "donor_source_index": 236,
+            "target_model_index": 253,
+            "target_source_index": 253,
+            "original_target": "-",
+            "value": "A"
+          }
+        ]
+      },
+      {
+        "donor_plaintext_index": 45,
+        "target_plaintext_index": 45,
+        "donor_source_indices": [
+          67,
+          190
+        ],
+        "donor_pair": "GX",
+        "target_source_indices": [
+          72,
+          208
+        ],
+        "target_pair_before": "G?",
+        "label": "X",
+        "fills": [
+          {
+            "donor_source_index": 190,
+            "target_model_index": 203,
+            "target_source_index": 208,
+            "original_target": "-",
+            "value": "X"
+          }
+        ]
+      }
+    ],
+    "raw": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLGYXUJDESERLY2680YX4GEHY0Y?IMBEREICHDESSTELLVYYKDO???MX4AKDEMOBILMACHENDEN???CKFORMATIONEN",
+    "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGADAVVGFGVFGDVXAGXFXDGGFGFGADXFVDDVFVGFDAFGXFXXGGVFDFFGVDGGDXGFFV?FG?FADFDDXGDVGG?AG?DFDFGFFVAAVXXGFFDFGFFVVAVAAFVDXXFVFVVVXFAVG?XG?FV?X",
+    "fixed_positions": 125,
+    "observed_substitutions": 5,
+    "printed_mask_fills": 36,
+    "added_observed_substitutions": 0,
+    "added_printed_mask_fills": 2,
+    "unresolved_positions": [
+      68,
+      92,
+      93,
+      94,
+      116,
+      117,
+      118
+    ],
+    "full_baseline_witness": {
+      "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGADAVVGFGVFGDVXAGXFXDGGFGFGADXFVDDVFVGFDAFGXFXXGGVFDFFGVDGGDXGFFVAFGAFADFDDXGDVGGAAGADFDFGFFVAAVXXGFFDFGFFVVAVAAFVDXXFVFVVVXFAVGAXGAFVAX",
+      "plaintext": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLGYXUJDESERLY2680YX4GEHY0YYIMBEREICHDESSTELLVYYKDOP7EMX4AKDEMOBILMACHENDEN26ECKFORMATIONEN"
+    },
+    "interpreted_square": "Y63GPX9OQHF?JUDNI?08TLV1EAR72ZBKMCSW",
+    "interpreted": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLGX1U2DESERLX3067X18GEHX7X?IMBEREICHDESSTELLVXXKDO???M18AKDEMOBILMACHENDEN???CKFORMATIONEN",
+    "full_interpreted_witnesses": [
+      {
+        "square": "Y63GPX9OQHF4JUDNI508TLV1EAR72ZBKMCSW",
+        "plaintext": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLGX1U2DESERLX3067X18GEHX7XXIMBEREICHDESSTELLVXXKDOPYEM18AKDEMOBILMACHENDEN30ECKFORMATIONEN",
+        "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGADAVVGFGVFGDVXAGXFXDGGFGFGADXFVDDVFVGFDAFGXFXXGGVFDFFGVDGGDXGFFVAFGAFADFDDXGDVGGAAGADFDFGFFVAAVXXGFFDFGFFVVAVAAFVDXXFVFVVVXFAVGAXGAFVAX",
+        "source_mask_values_are_arbitrary": true
+      },
+      {
+        "square": "Y63GPX9OQHF5JUDNI408TLV1EAR72ZBKMCSW",
+        "plaintext": "ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLGX1U2DESERLX3067X18GEHX7XXIMBEREICHDESSTELLVXXKDOPYEM18AKDEMOBILMACHENDEN30ECKFORMATIONEN",
+        "ciphertext": "XFXDDVAVXVAXDVXFXVVAFGXVVVGFVGVDVDAGVFDFAGAVXXAGDDFGFAAGAXXVADDFGFGVFXVVGGGFDGAVXGVXDDXXFAAXFGVXDVGDDAGGVFAAAXFDAGVVDDGVGVGGAFFDGADAVVGFGVFGDVXAGXFXDGGFGFGADXFVDDVFVGFDAFGXFXXGGVFDFFGVDGGDXGFFVAFGAFADFDDXGDVGGAAGADFDFGFFVAAVXXGFFDFGFFVVAVAAFVDXXFVFVVVXFAVGAXGAFVAX",
+        "source_mask_values_are_arbitrary": true
+      }
+    ],
+    "readable_quote": "An Strecke Hanau\u2013Fulda demobil gemacht. Die nach Anlg. 1 u. 2 des Erl. [\u2026] im Bereich des stellv. [\u2026] demobilmachenden ???CKformationen [\u2026]",
+    "readable_selected_spans": [
+      [
+        0,
+        54
+      ],
+      [
+        69,
+        87
+      ],
+      [
+        100,
+        132
+      ]
+    ],
+    "readable_mapping_verified": true
+  },
   "limits": [
     "Field reuse is a contextual hypothesis; these are separate parts, not duplicate telegrams.",
-    "The P/2 discrepancy is retained. No numeral, unit, date, enclosure or command-field interpretation is added.",
+    "The original suffix-only layer keeps the P/2 discrepancy and its 123-position reading.",
+    "The separate enclosure layer adds two compatible donor-pair fills, followed by the already declared optional numeral interpretation. P/3 remains discrepant in that interpretation.",
     "Both donors are complete original observed pairs; no earlier word repair or inferred source slot supplies them.",
     "The primary 121-position word edition and its frame remain unchanged.",
     "Residual A fills in complete witnesses verify arithmetic only and are not historical readings."

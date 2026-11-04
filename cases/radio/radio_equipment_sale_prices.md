@@ -2,9 +2,13 @@
 
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
-The two source parts concern permission to sell apparatus and a value estimate of 80 to 90 percent. The readable edition retains abbreviations, 380L, 170M and the incomplete 21?00 field. It does not supply a currency, price separator or missing digit.
+The two source parts concern permission to sell apparatus and an estimated value of 80 to 90 percent. The conditional reading below supplies the first part’s 21600 field; the abbreviations, 380L and 170M remain literal.
 
 Source: Childs, printed pp.160–161 (PDF pp.163–164). [Source images and inputs](../../experiments/nov8_radio_keys_and_reports/inputs.json), [certificates](../../experiments/nov8_radio_keys_and_reports/certificates.json), [method and limitations](../../experiments/nov8_radio_keys_and_reports/README.md). All indices below are zero-based.
+
+## Conditional digit reading
+
+The [cross-period reference comparison](../../experiments/nov7_9_joint_digits/README.md) supports **21600** for the first part’s `21?00` field. This conditional digit interpretation adds no source edit and supplies no currency or punctuation; the opposite square gives 21500.
 
 ## p160 B1
 

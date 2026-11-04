@@ -4,7 +4,7 @@
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
-This two-part native report describes a journey and assistance received after minor interruptions. The route, date-like and unit labels remain in their exact source form. The five printed dashes in part 1 are explicit source erasures: four are supplied by priced wording proposals and one remains unresolved. The Nov28–Dec1 square uses Y as the separator; X inside the displayed labels stays literal.
+This two-part report follows a regimental journey after minor interruptions and records the assistance received. A shared reading with p227 supplies the J of JEDE from its original coordinate pair, reducing part 2’s word-repair cost from two substitutions to zero. The further shared unit interpretation fixes the arrival day as **27**; parts of the route and unit descriptions remain unresolved.
 
 ## Source and scope
 
@@ -15,7 +15,7 @@ The published `Nov28-Dec1` key is unchanged. [Original OCR records](../../experi
 | Record | Source slots | Fixed raw positions | Observed substitutions | Source-mask fills |
 | --- | ---: | ---: | ---: | ---: |
 | [p225 B1](#p225-b1) | 254 | 122 / 127 | 8 | 4 |
-| [p225 B2](#p225-b2) | 212 | 106 / 106 | 2 | 0 |
+| [p225 B2](#p225-b2) | 212 | 106 / 106 | 2; **0 with shared J** | 0 |
 
 ## p225 B1
 
@@ -56,6 +56,32 @@ ARMEE?KDOXXYYREGIMENSSTABMIT2BAONJXUNDPEISENBAHNBAUCOMPYNACHFOLGENDJTRANSPYLANDW
 
 **Source transcription — header:** `B) ZON v UKS (01.17 a.m., November 29th); 1130 (11/28) (VON BSL); 2 TL RICHI-212`
 
+**Conditional interpretation — the shared Nov28–Dec1 letter and numeral layer:**
+
+> Von POESTYEN I TRENCSEN ueber PUHO in SILEIN in der Nacht am 2?
+> eingetroffen. Jede Unterstuetzung gefunden. R I RGT21.
+
+At plaintext position 67, source positions 194 and 48 carry the complete pair
+`FA`. The same original pair begins `JEDER` in [p227 D](avoid_fighting_instruction.md).
+Assigning `FA=J` reads both ordinary words without altering their ciphertexts.
+The J-only extension fixes **105/106 positions** in the interpreted second
+part, leaving the arrival date `2?`. `POESTYEN` and `RGT21` follow the earlier
+Y and numeral interpretation, while the spelling `SILEIN` and intervening `I`
+labels remain literal. The full interpretation inherits the prior period-key
+assumptions. [Joint evidence and 24 square witnesses](../../experiments/late_november_joint_completion/README.md).
+
+The later [calendar and unit comparison](../../experiments/late_november_calendar_and_units/README.md)
+assigns `VG=7` through the independently documented 217th Division and 7th
+Bavarian cavalry brigade. Its unchanged occurrence here completes the date:
+
+| Field | After the shared J | After the unit interpretation |
+|---|---|---|
+| Arrival day | `2?` | **27** |
+
+All **106/106 interpreted positions** are then fixed, with all 212 received
+coordinates retained. This supports arrival during the night of the 27th;
+it adds no inference about the route's remaining spelling problems.
+
 <details>
 <summary>Source and cipher evidence</summary>
 
@@ -65,7 +91,7 @@ ARMEE?KDOXXYYREGIMENSSTABMIT2BAONJXUNDPEISENBAHNBAUCOMPYNACHFOLGENDJTRANSPYLANDW
 VONPOEST7ENYIYTRENCSENUEBERPUHOINSILEININDERNACHTAMJ0YEINGETROFFENY1EDEUNTERSTUETZUNGGEFUNDENYYRYIYRGTJXYY
 ```
 
-**Edited output — 2 observed-coordinate substitutions and 0 source-mask fills; no insertion, deletion or reordering:**
+**Edited output — earlier unchanged-key wording; 2 observed-coordinate substitutions:**
 
 ```text
 VONPOEST7ENYIYTRENCSENUEBERPUHOINSILEININDERNACHTAMJ0YEINGETROFFENYJEDEUNTERSTUETZUNGGEFUNDENYYRYIYRGTJXYY
@@ -81,7 +107,7 @@ VONPOEST7ENYIYTRENCSENUEBERPUHOINSILEININDERNACHTAMJ0YEINGETROFFENYJEDEUNTERSTUE
 
 **Editorial limits.**
 
-- The native 212-coordinate second part has no source erasures or length changes. The sole word proposal 1EDE to JEDE costs two observed-coordinate substitutions.
+- The native 212-coordinate second part has no source erasures or length changes. Under the published square, 1EDE to JEDE costs two substitutions. The shared FA=J interpretation removes both changes and retains all 212 observed coordinates.
 - POEST7EN retains its numeral-like 7, and SILEIN retains the source-length spelling. Neither is silently converted into a presumed historical place name.
 - J0, I and RGTJX remain literal. The body date-like label is not chosen from the November 29 interception header or the separate 11/28 originating line.
 
@@ -91,4 +117,4 @@ Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (20
 
 The certificates independently reconstruct column positions and domains, compare them with the cipher implementation, replay every priced change, and check all readable nonseparator labels. Partial readings have one consistent injective square/source-mask completion witness that re-encrypts exactly; those witness choices are not historical identifications. Source images are bound to the original PDF by page, rectangle, scale, file digest and pixel digest.
 
-Reproduce with `python experiments/regimental_journey_report/verify.py --verify`. Add `--pdf /path/to/adfgvx-childs.pdf` to check the original PDF and exact source-crop pixels.
+Reproduce the source edition with `python experiments/regimental_journey_report/verify.py --verify` and the joint extension with `python experiments/late_november_joint_completion/verify.py --verify`. The source verifier accepts `--pdf /path/to/adfgvx-childs.pdf` for the original PDF and exact crop pixels.

@@ -6,6 +6,10 @@ The first part addresses a political department with Oberkdo Mackensen; the matc
 
 Source: Childs, printed pp.160–161 (PDF pp.163–164). [Source images and inputs](../../experiments/nov8_radio_keys_and_reports/inputs.json), [certificates](../../experiments/nov8_radio_keys_and_reports/certificates.json), [method and limitations](../../experiments/nov8_radio_keys_and_reports/README.md). All indices below are zero-based.
 
+## Conditional digit reading
+
+The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) reads the first part’s references as **Nr. 641** and **Telegramm Nr. 585**. The opposite assignment gives 541 and 686. These are conditional reference readings with no additional coordinate changes.
+
 ## p160 D1
 
 Header: `D) NKJ v LP (06.37 a.m., November 9th); FUER UKS (8/11) 2 TLE; 1 TL; RICHI-140; continued`.

@@ -6,21 +6,32 @@ These reports received on 9 November concern a Danube crossing and provisions at
 
 ## p164 C1
 
+**Readable German — conditional date and army completion:**
+
+> AOK11. Abendmeldung 8.11.18. Lage der 11 Armee am 7.11 abends. Donauuebergang 219 I D beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.
+
+This first part of a five-part report describes the Eleventh Army's evening situation on 7 November: the 219th Infantry Division has completed its Danube crossing, with busy crossing traffic at `BELGRAD` and `SEMUM`. The proposed report date is 8 November 1918; interception followed early on 9 November. `SEMUM` retains the transmitted spelling.
+
+The completion reads `8XC1X1?` as a day.month.year date and identifies `?1 ARMEE` with the `AOK11` already named at the start. The nearby [p155 report](nov7_derailment_and_trains.md#p155-d) uses the fully observed date form `7X11X18`. These two contextual assumptions complete **124/124 positions** at a total cost of **five observed substitutions and five source-mask fills**.
+
+| Field | Additional source changes, zero-based | Basis |
+| --- | --- | --- |
+| `8XC1X1?` → `8X11X18` | 139 `D` → `G`; 164 dash → `A` | Day.month.year interpretation within the 1918 sequence |
+| `?1 ARMEE` → `11 ARMEE` | 52 invalid `C` → `G` | The same message opens with native `AOK11` |
+
+Literal header: `C) ZON v UKS (1.57 a.m., November 9th); 2101 5 TLE; 1 TL RICHI-248`. [Source crop](../../experiments/danube_arad_witnesses/sources/p164_C1.png).
+
+<details>
+<summary>p164 source, earlier word layer and exact conditional completion</summary>
+
+The direct source supplies 119 of 124 raw labels. Two mask values from the
+parallel p153 passage raise this to 121 before lexical repair. The earlier
+word proposal costs four observed substitutions and three printed-mask fills,
+leaving the date and army fields unresolved:
+
 **Readable German — complete edited stream, preserving the unresolved fields and literal labels:**
 
 > AOK11. Abendmeldung 8. C1 1?. Lage der ?1 Armee am 7 11 abends. Donauuebergang 219 I D beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.
-
-The first part of this five-part report describes the evening situation on 7 November: a completed Danube crossing and busy crossing traffic at `BELGRAD` and `SEMUM`. The formation and reference labels `C1`, `1?`, `?1` and `219` remain unexpanded.
-
-Literal header: `C) ZON v UKS (1.57 a.m., November 9th); 2101 5 TLE; 1 TL RICHI-248`.
-
-The direct source supplies 119 of 124 raw labels. Two mask values from the
-parallel p153 passage raise this to 121 before lexical repair. The complete
-word proposal costs four observed substitutions and three printed-mask fills,
-leaving two fields unresolved.
-
-<details>
-<summary>p164 source, unchanged streams and exact edited proposal</summary>
 
 **Source transcription — literal printed rows:**
 
@@ -56,11 +67,23 @@ The source’s fourth-row group is GDXVV, correcting earlier OCR/edition GDXXV.
 Its printed V at source 148 restores the E in UEBER, with zero historical
 coordinate-repair cost. p153 directly supplies U in DONAU and S in SETZ;
 p164 in turn supports the E/A/E repairs in p153’s U3BER, BELGR4D and UEBSR.
-The passages have different formation labels, 219 and 21B, and are compared locally.
+The native unit labels are 219 and 21B. The corresponding p164 pair now
+supports a separately priced [219 proposal for p153](nov7_danube_and_message_reports.md#p153-b1).
 
 LAGE DER and BEENDET are word repairs. ABENDMELDUNG uses one lexical mask
 fill beyond the two independent-passage fills. Every price is measured from
 the unfilled native source.
+
+**Conditional interpretation — date and army completed; 5 observed substitutions and 5 source-mask fills:**
+
+```text
+AOKX11ABENDMELDUNG8X11X18XLAGEDER11XARMEEAM7X11XABENDSXDONAUUEBERGANG219XIXDXBEENDETXBELGRADXSEMUMLEBHAFTERUEBERSETZVERKEHRX
+```
+
+The two newly supplied digits use printed masks. The month correction changes
+an observed `D`; all three source appearances remain unchanged in the
+transcription. Both completions of the unused 5/6 square cells reproduce this
+same full reading and ciphertext.
 
 </details>
 
@@ -72,7 +95,7 @@ the unfilled native source.
 
 The report requests provision trains to Arad and action through the Hungarian government. Both strength figures come directly from observed ciphertext pairs. The relationship between “14 Tage” and “10 Tage” remains unclear; the transmitted `STAEKE`, repeated Arad and closing labels are retained.
 
-Literal header: `E) UKS v ZON (11.05 p.m., November 9th);AN LP 2000 KR; RICHI-272`.
+Literal header: `E) UKS v ZON (11.05 p.m., November 9th);AN LP 2000 KR; RICHI-272`. [Source crop](../../experiments/danube_arad_witnesses/sources/p168_E.png).
 
 The source prints 271 slots. In the conditional 272-slot frame, the short
 group DDGX lacks one G present in p159’s DDGGX. Either insertion boundary

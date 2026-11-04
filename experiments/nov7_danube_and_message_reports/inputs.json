@@ -27,8 +27,8 @@
       "height": 825,
       "channels": 3,
       "rgb_sha256": "a4b382e0ed964d5069099fbe4a40ef1700e18e3804995192da928c40d8cd22d5",
-      "storage": "external_pdf_reference",
-      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+      "storage": "embedded_png",
+      "path_role": "Reviewed crop bound to the pinned source PDF by its PNG and RGB hashes."
     },
     {
       "path": "sources/p153_reviewed.png",
@@ -45,8 +45,8 @@
       "height": 540,
       "channels": 3,
       "rgb_sha256": "4723165d68bca43061a41d9f430705c4016479cbc4cc773b3bd03c56c34d7ee5",
-      "storage": "external_pdf_reference",
-      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+      "storage": "embedded_png",
+      "path_role": "Reviewed crop bound to the pinned source PDF by its PNG and RGB hashes."
     }
   ],
   "keys": {
@@ -392,14 +392,14 @@
       "header_literal": "B) UKS v ZÖN (9.42 p.m., November 7th); 2010 3 TLE; 1 TL RICHI-160",
       "edited_output": "ANXOXKXMXXDONAUUEBERGANG21BXIXDXBEENDETXBELGRADXSEMUMXLEBHAFTERUEBERSETZVERKEHRX",
       "readable_german": "An O. K. M. Donauuebergang 21B I. D. beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.",
-      "meaning": "The first part reports completion of a Danube crossing by a formation transmitted as 21B I D and busy crossing traffic at the labels Belgrad and SEMUM. The unit label is not changed to a plausible number, and SEMUM is not identified with a modern or alternative place-name.",
+      "meaning": "The first part reports completion of a Danube crossing and busy crossing traffic at Belgrad and SEMUM. The earlier word layer retains native 21B I D; the separate unit proposal uses the matching p164 passage.",
       "protected_fields": [
         "21B"
       ],
       "notes": [
         "The native body is 160 coordinates. Earlier OCR turned the first-row VDGVV into a six-slot masked group, producing 161; the image restores the actual five-coordinate group without a source insertion or deletion.",
         "DONAUU3BERGANG→DONAUUEBERGANG, BEENDUT→BEENDET, BELGR4D→BELGRAD and UEBSRSETZVERKEHR→UEBERSETZVERKEHR together cost five observed-coordinate substitutions. The raw digits in the damaged words remain visible in the raw layer.",
-        "21B and SEMUM remain literal. The first- and third-part records share 2010 and the same station pair but have different reception times; this edition does not supply a missing second part or claim a complete assembled message.",
+        "21B and SEMUM remain literal in the earlier word layer. The first and third parts have distinct reception headers; their shared 2010 field does not supply the absent second part.",
         "The header visibly places two short marks above the O in the sender label; the transcription preserves this as ZÖN without identifying a different station."
       ],
       "printed_page": 153,
@@ -417,7 +417,30 @@
       "separator_label": "X",
       "question_mark_punctuation_at_end": false,
       "expected_substitutions": 5,
-      "expected_source_mask_fills": 0
+      "expected_source_mask_fills": 0,
+      "unit_proposal": {
+        "edited_output": "ANXOXKXMXXDONAUUEBERGANG219XIXDXBEENDETXBELGRADXSEMUMXLEBHAFTERUEBERSETZVERKEHRX",
+        "readable_german": "An O. K. M. Donauuebergang 219 I. D. beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.",
+        "expected_substitutions": 6,
+        "donor": {
+          "input_path": "experiments/danube_arad_witnesses/inputs.json",
+          "record_id": "p164_C1",
+          "literal_source_sha256": "4744c5b32c2fd7dc67dbc0699b6c0d67bbe89d71aa850da7aa60154b466a310d",
+          "plaintext_unit_start": 69,
+          "case": "cases/military/danube_arad_witnesses.md#p164-c1"
+        },
+        "target_plaintext_unit_start": 24,
+        "aligned_passage_start": {
+          "target": 10,
+          "donor": 55
+        },
+        "assumption": "The matching Danube crossing passages preserve the same unit reference, although the messages have different headings and openings.",
+        "limits": [
+          "The observed p153 unit remains 21B in the native and earlier word layers.",
+          "The 219 proposal costs one additional observed-coordinate substitution, not a key reassignment or a source transcription correction.",
+          "SEMUM remains literal; no missing message part is supplied."
+        ]
+      }
     }
   ],
   "prior_artifacts": {
@@ -431,9 +454,8 @@
     "Observed-coordinate substitutions and source-mask fills are priced separately. A source-compatible word proposal is not proof of unique historical wording."
   ],
   "source_evidence_delivery": {
-    "mode": "external_pdf_reference",
-    "distributed_new_image_bytes": false,
-    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
-    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+    "mode": "embedded_png",
+    "default_verification": "Source transcription, cryptographic arithmetic and embedded PNG file/RGB hashes are checked.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and reproduce the declared crop pixels."
   }
 }

@@ -3,8 +3,16 @@
 **icekylinx and GPT-6 Astra Pro.** The source-retaining proposal restores
 `HPTMX`, `CHEFWIRD` and `ERSATZABTLGABBEFOERDERTXNACHCHEF`, while keeping
 every other output position raw. These 45 proposed positions yield a
-readable fragment about dispatch and a replacement detachment. Name, title,
-destination and footer remain unresolved.
+readable fragment about dispatch and a replacement detachment. The full
+title, destination and footer remain unresolved.
+
+A separate name proposal reads **ZIMMERMANN** for raw `LIMMER2ANG`. It adds
+four observed-coordinate substitutions and no fills, bringing the
+interpreted spans to 55 positions. All 125 frame prices retain the same six
+minima at 14 substitutions. The earlier p121 B1 directly reads
+`HPTMXZIMMERMANN` under a different key; its 15 complete observed pairs are
+recorded in the extended certificate. This supports a name reading without
+establishing a common personal identity.
 
 [Read the fragment](../../cases/people/p167_captain_dispatch_fragment.md)
 · [Inputs](inputs.json) · [Certificate](certificates.json).
@@ -29,7 +37,8 @@ python experiments/p167_captain_dispatch_fragment/verify.py --verify --pdf /path
 ```
 
 The verifier independently constructs the word stencil by physical columns,
-reprices all 125 maps, checks unchanged raw intervals and all global
+reprices all 125 maps for each proposal, verifies the p121 name witness,
+checks unchanged raw intervals and all global
 completions, and verifies the actual Markdown source, raw, edited and German
 displays. The optional PDF check verifies the original source and external
 crop pixels; no new image file is packaged.

@@ -24,6 +24,54 @@ def folded(s,separator):
     s=s.upper().replace('Ä','AE').replace('Ö','OE').replace('Ü','UE').replace('ẞ','SS')
     return ''.join(c for c in s if c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?').replace(separator,'')
 
+def unit_proposal(spec,base,key,mapping,literal,raw,earlier):
+    """Bind the optional 219 reading to the native parallel passage."""
+    donor_spec=spec['donor'];data=json.loads((ROOT/donor_spec['input_path']).read_text())
+    donor=next(r for r in data['records']if r['id']==donor_spec['record_id'])
+    source=''.join(''.join(donor['source_rows']).split())
+    assert hashlib.sha256(source.encode()).hexdigest()==donor_spec['literal_source_sha256']
+    assert data['key']==key
+    donor_raw=inspect(''.join(c if c in C else '?'for c in source),key,list(range(len(source))))
+    assert donor_raw['raw']==donor['expected_raw']
+    starts=spec['aligned_passage_start']
+    target_passage=[p for p in raw['positions'][starts['target']:]if p['raw']!='X']
+    donor_passage=[p for p in donor_raw['positions'][starts['donor']:]if p['raw']!='X']
+    assert len(target_passage)==len(donor_passage)==63
+    alignment=[{'target':a,'donor':b}for a,b in zip(target_passage,donor_passage)]
+    assert sum(p['target']['raw']==p['donor']['raw']for p in alignment)==56
+    target_start=spec['target_plaintext_unit_start'];donor_start=donor_spec['plaintext_unit_start']
+    target_unit=raw['positions'][target_start:target_start+3]
+    donor_unit=donor_raw['positions'][donor_start:donor_start+3]
+    assert ''.join(p['raw']for p in target_unit)=='21B'
+    assert ''.join(p['raw']for p in donor_unit)=='219'
+    assert all(source[i]in C for p in donor_unit for i in p['source_indices'])
+    proposed=earlier['raw'][:target_start]+''.join(p['raw']for p in donor_unit)+earlier['raw'][target_start+3:]
+    assert proposed==spec['edited_output']
+    candidate=repair(proposed,base,key,mapping,literal)
+    assert candidate['fixed_positions']==len(candidate['raw'])==80
+    assert len(candidate['known_coordinate_substitutions'])==spec['expected_substitutions']==6
+    assert not candidate['erased_coordinate_fills']
+    extra=[{'source_index':i,'printed':a,'to':b}for i,(a,b)in enumerate(zip(earlier['ciphertext'],candidate['ciphertext']))if a!=b]
+    assert extra==[{'source_index':98,'printed':'X','to':'F'}]
+    assert encrypt(candidate['raw'],key['column_rank_order'],key['square'])==candidate['ciphertext']
+    assert decrypt(candidate['ciphertext'],key['column_rank_order'],key['square'])==candidate['raw']
+    assert folded(spec['readable_german'],'X')==folded(candidate['raw'],'X')
+    return {'assumption':spec['assumption'],'donor':{**donor_spec,'header':donor['header_literal']},
+            'target_unit_native_pairs':target_unit,'donor_unit_native_pairs':donor_unit,
+            'native_passage_alignment':{
+                'start_positions':starts,'nonseparator_positions':63,'identical_native_labels':56,
+                'target_text':''.join(p['raw']for p in target_passage),
+                'donor_text':''.join(p['raw']for p in donor_passage),
+                'differences':[{'target_plaintext_index':p['target']['plaintext_index'],
+                                'donor_plaintext_index':p['donor']['plaintext_index'],
+                                'target_raw':p['target']['raw'],'donor_raw':p['donor']['raw'],
+                                'target_pair':p['target']['pair'],'donor_pair':p['donor']['pair']}
+                               for p in alignment if p['target']['raw']!=p['donor']['raw']]},
+            'additional_observed_substitution':extra[0],
+            'completed_reading':{k:v for k,v in candidate.items()if k!='positions'},
+            'readable_german':spec['readable_german'],
+            'reencryption_exact_without_assigning_unknown_key_cells':True,'limits':spec['limits']}
+
 def check_case(data):
     """Bind the evidence displays to their own live case sections."""
     case=ROOT/data['case'];text=case.read_text()
@@ -35,11 +83,13 @@ def check_case(data):
         section=text.split(heading,1)[1].split('\n## ',1)[0]
         assert f"Literal header: `{r['header_literal']}`." in section,r['id']
         fences=re.findall(r'```text\n(.*?)\n```',section,re.S)
-        assert fences==['\n'.join(r['source_rows']),r['expected_raw'],r['edited_output']],r['id']
-        assert re.findall(r'^> (.+)$',section,re.M)==[r['readable_german']],r['id']
-    assert 'length field is dash-only' in text
-    assert '108-slot count is measured from the body, not advertised by its header' in text
-    assert 'two page-153 records are the printed third and first parts under separate reception headers' in text
+        expected=['\n'.join(r['source_rows']),r['expected_raw'],r['edited_output']]
+        quotes=[r['readable_german']]
+        if 'unit_proposal'in r:
+            expected.append(r['unit_proposal']['edited_output'])
+            quotes.insert(0,r['unit_proposal']['readable_german'])
+        assert fences==expected,r['id']
+        assert re.findall(r'^> (.+)$',section,re.M)==quotes,r['id']
 
 from adfgvx.source_evidence import verify_source_evidence
 
@@ -94,6 +144,8 @@ def build(pdf=None):
                 unresolved_family.append({'source_index':91,'coordinate':coordinate,'field':value[12:16],'plaintext':value,'ciphertext':full,'exact_reencryption':True,'historical_selection_claim':False})
             assert ''.join(sorted(x['field'][2]for x in unresolved_family))==field['domain']
         out.append({'id':r['id'],'literal_source':literal,'source_slots':len(literal),'valid_source_coordinates':sum(c in C for c in literal),'model_to_source_indices':mapping,**raw,'readable_candidate':candidate,'readable_german':r['readable_german'],'readable_nonseparator_label_mapping_verified':True,'source_variants':variants,'unresolved_source_field_family':unresolved_family})
+        if 'unit_proposal'in r:
+            out[-1]['unit_proposal']=unit_proposal(r['unit_proposal'],base,key,mapping,literal,raw,candidate)
     summary={'physical_records':len(out),'printed_source_slots':sum(r['source_slots']for r in out),'valid_source_coordinates':sum(r['valid_source_coordinates']for r in out),'modeled_coordinates':sum(r['source_slots']for r in out),'plaintext_positions':sum(len(r['raw'])for r in out),'baseline_fixed_positions':sum(r['fixed_positions']for r in out),'candidate_fixed_positions':sum(r['readable_candidate']['fixed_positions']for r in out),'known_coordinate_substitutions':sum(len(r['readable_candidate']['known_coordinate_substitutions'])for r in out),'source_or_model_erasure_fills':sum(len(r['readable_candidate']['erased_coordinate_fills'])for r in out),'source_deletions':0,'inserted_slots':0,'source_reorderings':0,'published_key_changed':False}
     return {'schema':'adfgvx-native-source-edition-certificate-v1','project':data['project'],'authors':data['authors'],'input_sha256':sha(HERE/'inputs.json'),'indexing':'All machine indices are zero-based.','summary':summary,'records':out,'prior_credit':data['prior_credit'],'limits':data['limits']}
 

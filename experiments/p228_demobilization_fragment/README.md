@@ -75,3 +75,11 @@ substitution. It retains the neighboring `P680` / `2680` disagreement and
 does not interpret the numbers. Both donor pairs are original observations.
 Run `python experiments/p228_demobilization_fragment/verify_reference.py --verify`
 to check the coordinate transfers and full witnesses under one unchanged square.
+
+**Enclosure extension.** B1's fully observed `ANLGYX` also supplies the two
+missing labels of B2's `ANLG??UJ`. The same verifier now preserves a separate
+**125/132-position** layer: two further mask fills, with the same five observed
+substitutions. Under the shared late-period numeral interpretation, this
+reads **Anlg. 1 u. 2**. The original source pairs `AX` and `GX` support both
+fills; the combined layer has 36 mask fills. It retains the order-reference
+disagreement `P067` / `3067` and the seven remaining unknown positions.

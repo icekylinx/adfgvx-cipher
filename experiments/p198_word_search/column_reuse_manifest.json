@@ -18,10 +18,10 @@
   "coordinate_deletions": 5,
   "maximum_observed_substitutions": 2,
   "fixed_plaintext_window_length": 85,
-  "source_donor_bodies": 291,
+  "source_donor_bodies": 290,
   "donor_snapshot": {
     "path": "column_reuse_donors.json",
-    "sha256": "1f0fe5632e814fd8f936e8ac213f97ef8920dcc3d9f1f8e75128ce8d070abdac",
+    "sha256": "74227767323140a3d96a77ea37b1bf628c536bff5b6d8a7974b9a523c2a7257c",
     "origin_note": "Curated reviewed-edition input bodies, including separately conditional editorial fields; origins are recorded per body. No diagnostic/control plaintext is added to this snapshot.",
     "eligibility": "Whole donor strings must contain only A-Z and 0-9. A body with any unresolved label is excluded; remaining donor IDs are preserved.",
     "source_review_exclusions": [
@@ -68,6 +68,29 @@
           }
         ],
         "current_raw_sha256": "6ffda1079bb005ab6adfae0b3111219a8202b5af47356f9f07f1e2751d44324c"
+      },
+      {
+        "former_donor_id": 131,
+        "origins": [
+          [
+            "experiments/october_requests/inputs.json",
+            [
+              "records",
+              1,
+              "editorial_template"
+            ]
+          ]
+        ],
+        "reason": "The source-reviewed p62_B editorial template preserves an unresolved reference-number label. It is no longer eligible as a whole fully specified donor; its known portions are not silently promoted into a complete body.",
+        "changed_labels": [
+          {
+            "plaintext_index": 90,
+            "old_label": "1",
+            "current_label": "?"
+          }
+        ],
+        "current_raw_sha256": "afa73401007edb5be2a1d6e4a38c7e2cd838c7fa5c587bf572cbcbe696ac4c4f",
+        "previous_complete_text_sha256": "8bc5055811d9db229c272def49ad3729651401088ad32b2086f3c301be5fd9f9"
       }
     ]
   },
@@ -283,7 +306,7 @@
     "Donor raw/template fields are retrieval candidates with their existing editorial qualifications. No target reading is accepted."
   ],
   "source_donor_result": {
-    "unique_source_donor_windows": 8515,
+    "unique_source_donor_windows": 8506,
     "histogram_candidates_by_minimum_coordinate_deficit": {
       "0": 0,
       "1": 11,

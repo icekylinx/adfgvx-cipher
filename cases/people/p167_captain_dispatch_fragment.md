@@ -3,11 +3,52 @@
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Partial word proposal and source review: icekylinx and GPT-6 Astra Pro.**
-The source supports a partial personnel-dispatch reading: `HPTM`, the title
-ending `CHEF`, `WIRD`, and `ERSATZABTLG ABBEFOERDERT`, followed by `NACHCHEF`.
-The name-like field, full title, destination and footer remain literal.
-These proposed words occupy **45 of 95 positions**; a complete message is
-not recovered.
+The fragment concerns a captain's dispatch to a replacement detachment.
+The established word layer reads `HPTM`, the title ending `CHEF`, `WIRD`,
+and `ERSATZABTLG ABBEFOERDERT`, followed by `NACHCHEF`. An additional name
+proposal reads **Zimmermann**, supported by another telegram that names a
+captain in the radio service. The full title, destination and footer remain
+unread.
+
+## Conditional name proposal
+
+**Readable German — optional Zimmermann reading; unread fields remain omitted:**
+
+> Hptm. Zimmermann […] Chef wird […] Ersatzabtlg abbefoerdert. Nachchef […]
+
+The raw ten-letter field `LIMMER2ANG` can be read as **ZIMMERMANN** at four
+additional observed-coordinate substitutions. A separate radio-service
+telegram, [p121 B1](../radio/nov4_repetition_and_connections.md#p121-b1),
+directly reads `HPTM ZIMMERMANN` while asking about the Bucharest–Constanza
+connection. Its complete observed pairs support the proposed name and
+rank; they do not establish that both messages concern the same officer.
+
+The new name layer extends the interpreted spans from 45 to 55 positions.
+It retains all six unknown positions, the opaque `KODESEL` and title fields,
+and the uncompleted destination and footer. The omitted intervals are
+15–30, 39–53 and 86–94; no given name or biographical identity is supplied.
+
+<details>
+<summary>Name proposal and exact source cost</summary>
+
+**Edited output — optional ZIMMERMANN proposal; 14 observed substitutions, 2 source-mask fills and 2 added-slot fills; 89/95 fixed labels:**
+
+```text
+HPTMXZIMMERMANNKODESELXFESDEILOCHEFWIRDN0?HRA2T11?RK?RERSATZABTLGABBEFOERDERTXNACHCHEFT1B?7?17?
+```
+
+| Original source index | Additional observed change | Name repair |
+| ---: | --- | --- |
+| 160 | `D`→`F` | Initial `L`→`Z` |
+| 57, 132 | `G`→`A`, `D`→`F` | `2`→`M` |
+| 66 | `D`→`X` | Final `G`→`N` |
+
+The four changes have the same positions and cost in all six retained
+frames. Repricing all 125 permitted short-group layouts with the added name
+span leaves the same six minima, now at 14 substitutions. The new name
+does not favor a particular missing-coordinate placement.
+
+</details>
 
 ## p167 D
 

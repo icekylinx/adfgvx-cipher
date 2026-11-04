@@ -1,0 +1,97 @@
+{
+  "schema": "adfgvx-late-november-additional-traffic-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/late_november_calendar_and_units/certificates.json": "41d9a4f7018bc3aa0ad20f7222a893653eb2d4de8be89042707bc324b6df280d",
+    "experiments/late_november_calendar_and_units/inputs.json": "dedac55058a5189db17fbd1a515e7b6047967a49a7a7c29676fb9886d65f64dc",
+    "experiments/late_november_joint_completion/verify.py": "7a56f75689f4cc174c3d371b6a5e3c44520087aba34a3e599cd6c0c70a707cc1",
+    "experiments/late_transport_dispatches/certificates.json": "48807b89a416b853efb04ffde9610bf590b833bb09477cb9133073808106ff98",
+    "experiments/late_transport_dispatches/inputs.json": "762575b9433be908837188f95e43853ed00c57020f6ffe2ffc6e063904d4cbc2",
+    "experiments/nov30_radio_personnel/certificates.json": "27425844ee56b30dcb01e4923ebfeb494ef94a8f0a7be0d637dfa6c8c57c6b2a",
+    "experiments/nov30_radio_personnel/inputs.json": "8efea800953e8880870bf77dacba4de2ac9a14cd6a3dd5b4664575b1e0d36dd9",
+    "experiments/radio_traffic_transfer_fragment/certificates.json": "dc8d2a452c311cc4d60830708a865f5367375aa68e83b4d19178c2088dbc8cfd",
+    "experiments/radio_traffic_transfer_fragment/inputs.json": "8fddaf17b09eab1c1bd3d055f57061b0519cf1a9db33891ad991741d38874064"
+  },
+  "records": [
+    {
+      "id": "p229_C",
+      "inputs": "experiments/late_transport_dispatches/inputs.json",
+      "certificate": "experiments/late_transport_dispatches/certificates.json",
+      "literal_field": "source_literal",
+      "edition_field": "edition",
+      "observed_substitutions": 3,
+      "source_mask_fills": 32,
+      "additional_mask_fill": {
+        "plaintext_index": 81,
+        "source_index": 277,
+        "to": "A",
+        "assumption": "A sentence separator between WIRD and BITTE."
+      },
+      "expected_interpretation": "KOFL11XXWOBLEIBTFLIEGERABTLX38XMARSCHZIELISTCRAIOVADAHIEREIGENERPARKERRICHTETWIRDXBITTENACHHK?VERSETZTEFLIEGERVERBAENDEBESTIMMUNGSGEMAESSAUFFUELLENXKOFLMACKX??18OPXX"
+    },
+    {
+      "id": "p226_A2",
+      "inputs": "experiments/radio_traffic_transfer_fragment/inputs.json",
+      "certificate": "experiments/radio_traffic_transfer_fragment/certificates.json",
+      "literal_field": "literal_source",
+      "edition_field": "readable_candidate",
+      "observed_substitutions": 1,
+      "source_mask_fills": 4,
+      "additional_mask_fill": {
+        "plaintext_index": 0,
+        "source_index": 23,
+        "to": "X",
+        "assumption": "The single character before DEZ is a December day number."
+      },
+      "expected_interpretation": "?DEZGROSSW7RDEINXXDNZWUEBERNIMMTVERKEHRFUEROKMSCHWERE1?RUFZXNATANADOLFURSULAXINGROSSVARDEINXX"
+    },
+    {
+      "id": "p230_C",
+      "inputs": "experiments/nov30_radio_personnel/inputs.json",
+      "certificate": "experiments/nov30_radio_personnel/certificates.json",
+      "literal_field": "literal_source",
+      "edition_field": "readable_candidate",
+      "observed_substitutions": 0,
+      "source_mask_fills": 0,
+      "expected_interpretation": "STATIONBAUT7Z12XFRUEH?XUHRABXXBURKARDXX"
+    },
+    {
+      "id": "p230_D",
+      "inputs": "experiments/nov30_radio_personnel/inputs.json",
+      "certificate": "experiments/nov30_radio_personnel/certificates.json",
+      "literal_field": "literal_source",
+      "edition_field": "readable_candidate",
+      "observed_substitutions": 0,
+      "source_mask_fills": 0,
+      "expected_interpretation": "ZENTRALFUNKLEITGERBITTENNACHRICHTUEBERVERBLEIBFUNKERUNDBAUPERSONALDERFUNKENSTATIONTIFLISX98179"
+    }
+  ],
+  "readable_quote": {
+    "case": "cases/military/late_transport_dispatches.md",
+    "german": "Kofl 11. Wo bleibt Fliegerabtl. 38. Marschziel ist Craiova, da hier eigener Park errichtet wird. Bitte nach HK? versetzte Fliegerverbaende bestimmungsgemaess auffuellen. Kofl Mack. ??18OP."
+  },
+  "displayed_fields": [
+    {
+      "case": "cases/radio/radio_traffic_transfer_fragment.md",
+      "text": "| **4 December** | **15** | **5** |"
+    },
+    {
+      "case": "cases/radio/radio_traffic_transfer_fragment.md",
+      "text": "| **5 December** | **14** | **4** |"
+    },
+    {
+      "case": "cases/radio/nov30_radio_personnel.md",
+      "text": "The closing reference reads **98179**"
+    }
+  ],
+  "limits": [
+    "Both complete square assignments survive. The optional December date reading fills one coordinate without choosing 4 or 5.",
+    "The p229 C boundary is an editorial source-mask completion; HK? and both closing reference uncertainties remain.",
+    "The interpreted 98179 is a numeric reference, with no independently established documentary referent.",
+    "Existing source repairs and both printed p230 C variants are retained. No published key is overwritten."
+  ]
+}

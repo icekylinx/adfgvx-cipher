@@ -7,6 +7,14 @@ group alternatives and the marked jamming loss reveals a Kiev report.
 The selected frame fixes **122/147 raw positions**. Seventeen inserted-slot
 fills give **139/147 with zero observed-coordinate substitutions**.
 
+The later [shared-square reading](../../experiments/nov25_treaty_digits/README.md#the-kiev-report-outside-the-original-snapshot)
+reduces the optional `PETLJURA` spelling from four to **two observed-coordinate changes**.
+The received name becomes `PEDFJ?RA` under the independently proposed
+`VD=J` assignment. Reading its remaining damaged letters as `PETLJURA`
+keeps the same 18 inserted-slot fills and all four minimum source models.
+The two preserved source coordinates are V at index 181 and D at 212;
+the remaining substitutions are V→X at 10 and A→F at 155.
+
 ## p219 C
 
 **Readable German — three excerpts from the zero-substitution lexical completion; intervening clause and footer omitted:**
@@ -63,7 +71,11 @@ The same-length proposals `PETLJURA`, `ODESSA` and `MARKOWSKY` have separate
 prices. They do not replace the primary raw names or establish historical
 identities from an external document.
 
-| Proposal | Observed substitutions | Total added-slot fills | Fixed positions |
+The following table records the earlier prices under the unchanged
+published labels. The joint `J` interpretation above has its own
+[certificate](../../experiments/nov25_treaty_digits/kiev_certificate.json).
+
+| Proposal | Baseline observed substitutions | Total added-slot fills | Fixed positions |
 |---|---:|---:|---:|
 | Primary lexical completion | 0 | 17 | 139/147 |
 | `PEDF9?RA → PETLJURA` | 4 | 18 | 140/147 |

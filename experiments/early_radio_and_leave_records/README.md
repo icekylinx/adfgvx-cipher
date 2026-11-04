@@ -1,8 +1,8 @@
 # Early radio and leave records
 
-Four source-reviewed native records: p87 A1, p119 A, p127 A3 and p127 B1. Their 812 source slots yield 406 plaintext positions: 391 fixed in raw output and 400 after three observed-coordinate substitutions and nine source-mask fills. Six positions remain unresolved. All source lengths, published keys and numeral labels are retained.
+Four source-reviewed native records: p87 A1, p119 A, p127 A3 and p127 B1. Their 812 source slots yield 406 plaintext positions: 392 fixed in raw output and 403 after three observed-coordinate substitutions and eleven source-mask fills. Three positions remain unresolved. All source lengths, published keys and numeral labels are retained.
 
-p119 A is a complete 143-position direct reading with no edits. The other records preserve an unresolved opening label, unit and place labels, and the literal NICT defect.
+p87 A1 and p119 A are complete direct readings, of 83 and 143 positions. Review of p87 A1 identifies the first-row final group as `DGAGF`; correcting our earlier `EGAGF` transcription restores the separator after `AKONACH18`. The p127 A3 proposal reaches 98/100 positions: the related ZON setup notice at p120 C supports two missing letters in `NAGQBECSEREK`. Its unit and `Q?` fields remain unresolved. The p127 B1 text retains its literal `NICT` defect and final `OS?` field.
 
 Run from repository root:
 

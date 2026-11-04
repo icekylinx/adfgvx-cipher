@@ -1,40 +1,38 @@
-# Transmitter dispatch and a 220-volt converter motor
+# Tube transmitter dispatched to TAFUNK
 
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p87 A1
 
-**Status:** 82/83 native raw positions fixed; 0 observed-coordinate substitutions and 0 source-mask fills in the proposal. No frame change. Key: Nov1-3.
+**Readable German — spacing and punctuation:**
 
-**Source and dates:** Page heading: 31st OCTOBER, 1918; A) UKS v OSM (2.02 a.m., November 2nd); SSD AUF 1330 (31/10) 3 TLE; 1 TL RICHI-166.
+> Akonach 18. Roehrensender an TAFUNK abgegangen. Hier 10 kW QOF-Sender Umformermotor fuer 220 Volt.
+
+A tube transmitter has been dispatched to TAFUNK. The continuation lists a 10 kW QOF transmitter and a converter motor for 220 volts. `AKONACH 18`, `TAFUNK` and `QOF` retain their transmitted forms. This is the first of the three announced parts.
+
+**Reading:** all 83 plaintext positions are fixed by the 166 observed source coordinates. The text re-encrypts exactly under the published Nov1–3 key, with no substitutions, fills or change of frame.
+
+**Source:** printed p87, heading *31st OCTOBER, 1918*. Receipt: `UKS v OSM (2.02 a.m., November 2nd)`; dispatch: `SSD AUF 1330 (31/10) 3 TLE`; part label: `1 TL RICHI-166`.
 
 ![Source p87 A1](../../experiments/early_radio_and_leave_records/sources/p87_A1.png)
 
 <details>
-<summary>Raw decoded text</summary>
+<summary>Transcription correction and exact text</summary>
 
-**Raw output:**
+Review of the first row's final group gives `DGAGF`. The first glyph has a closed right-hand curve and no middle bar. The earlier repository transcription read `EGAGF`, treated the out-of-alphabet `E` as a mask, and consequently displayed `AKONACH18?`. Reading source coordinate 35 as `D` fixes plaintext position 9 as separator `X`. This corrects the transcription of the visible letter; it does not alter the historical ciphertext.
+
+**Raw output — complete native reading:**
 
 ```text
-AKONACH18?ROEHRENSENDERANTAFUNKABGEGANGENXHIER10KWQOFSENDERUMFORMERMOTORFUER220VOLT
+AKONACH18XROEHRENSENDERANTAFUNKABGEGANGENXHIER10KWQOFSENDERUMFORMERMOTORFUER220VOLT
 ```
+
+All indices are zero-based. The 31 October page and dispatch dates and the 2 November reception date remain as printed.
 
 </details>
 
-**Readable German — the same candidate labels with spacing and punctuation:**
+### Evidence and attribution
 
-> Akonach 18? Roehrensender an TAFUNK abgegangen. Hier 10 kW QOF-Sender Umformermotor fuer 220 Volt.
+The [input and review record](../../experiments/early_radio_and_leave_records/inputs.json) binds the transcription to the original PDF crop and records the earlier `E` reading. The [certificate](../../experiments/early_radio_and_leave_records/certificates.json) gives the coordinate-to-plaintext mapping; the [verifier](../../experiments/early_radio_and_leave_records/verify.py) reproduces all 83 positions and the full re-encryption.
 
-**Meaning:** A tube transmitter is reported dispatched to the designation TAFUNK. The remaining text lists a 10 kW QOF transmitter and a converter motor for 220 volts. QOF and TAFUNK are kept as literal technical or routing labels; the incomplete opening label 18? remains unresolved.
-
-**Conditional interpretation and source details:** The clear printed E in EGAGF is outside the coordinate alphabet. Its single slot is retained as a source mask; it is not replaced to complete the opening label 18?. The 10 kW, 220 Volt, QOF and TAFUNK labels are preserved. The published Nov1–3 key decrypts this physical source, while the 31 October heading and 2 November reception date remain separate facts. No historical rekeying sequence is inferred.
-
-### Explicit source changes
-
-No observed-coordinate substitution or source-mask fill is used.
-
-### Reproducibility and attribution
-
-The [input](../../experiments/early_radio_and_leave_records/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/early_radio_and_leave_records/certificates.json) records each raw paired-coordinate domain and every proposed source change. The [verifier](../../experiments/early_radio_and_leave_records/verify.py) checks the live German quotation against the same candidate labels, preserving every digit and unknown position.
-
-This source edition is by icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection. The published reconstruction and unchanged key provenance credit Lasry, Niebel, Kopal and Wacker, with Lasry's published period-key list. Earlier repository OCR input is frozen in the [attribution record](../../experiments/early_radio_and_leave_records/prior_candidates.json).
+Source edition and 4 November 2026 glyph review: **icekylinx and GPT-6 Astra Pro**. Childs supplies the historical collection. The unchanged published key is credited to Lasry, Niebel, Kopal and Wacker, with Lasry's published period-key list. Earlier exploratory OCR input remains in the [attribution record](../../experiments/early_radio_and_leave_records/prior_candidates.json).

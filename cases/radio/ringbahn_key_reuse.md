@@ -6,6 +6,10 @@ The edited first part says to retain the November Ringbahn key and postpone the 
 
 Source: Childs, printed pp.160–161 (PDF pp.163–164). [Source images and inputs](../../experiments/nov8_radio_keys_and_reports/inputs.json), [certificates](../../experiments/nov8_radio_keys_and_reports/certificates.json), [method and limitations](../../experiments/nov8_radio_keys_and_reports/README.md). All indices below are zero-based.
 
+## Conditional digit reading
+
+The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) gives **Nach Chef 4 B 49859** in part 2, at no additional source edit or fill. The opposite square gives 49869; the date schedule itself is unchanged.
+
 ## p160 C1
 
 Header: `C) NKJ v LP (03.23 a.m., November 9th); FUER RAT 2000 (8/11) 2 TLE; 1 TL; RICHI-308`.

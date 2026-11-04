@@ -2,7 +2,7 @@
   "schema": "adfgvx-native-source-edition-certificate-v1",
   "project": "ADFGVX Cipher",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "input_sha256": "ed1e7faeeabd2ad5426b53c5ef63034c57a861d52d5e87675135038bcd98b158",
+  "input_sha256": "6386a64220ade15bfb9b25155142958256b31dee6d217861cd0b73b70b99c1c2",
   "indexing": "All machine indices are zero-based.",
   "summary": {
     "physical_records": 5,
@@ -12050,7 +12050,239 @@
       "readable_german": "An O. K. M. Donauuebergang 21B I. D. beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.",
       "readable_nonseparator_label_mapping_verified": true,
       "source_variants": [],
-      "unresolved_source_field_family": []
+      "unresolved_source_field_family": [],
+      "unit_proposal": {
+        "assumption": "The matching Danube crossing passages preserve the same unit reference, although the messages have different headings and openings.",
+        "donor": {
+          "input_path": "experiments/danube_arad_witnesses/inputs.json",
+          "record_id": "p164_C1",
+          "literal_source_sha256": "4744c5b32c2fd7dc67dbc0699b6c0d67bbe89d71aa850da7aa60154b466a310d",
+          "plaintext_unit_start": 69,
+          "case": "cases/military/danube_arad_witnesses.md#p164-c1",
+          "header": "C) ZON v UKS (1.57 a.m., November 9th); 2101 5 TLE; 1 TL RICHI-248"
+        },
+        "target_unit_native_pairs": [
+          {
+            "plaintext_index": 24,
+            "pair": "GD",
+            "model_indices": [
+              58,
+              106
+            ],
+            "source_indices": [
+              58,
+              106
+            ],
+            "domain": "2",
+            "raw": "2"
+          },
+          {
+            "plaintext_index": 25,
+            "pair": "FG",
+            "model_indices": [
+              18,
+              138
+            ],
+            "source_indices": [
+              18,
+              138
+            ],
+            "domain": "1",
+            "raw": "1"
+          },
+          {
+            "plaintext_index": 26,
+            "pair": "GX",
+            "model_indices": [
+              66,
+              98
+            ],
+            "source_indices": [
+              66,
+              98
+            ],
+            "domain": "B",
+            "raw": "B"
+          }
+        ],
+        "donor_unit_native_pairs": [
+          {
+            "plaintext_index": 69,
+            "pair": "GD",
+            "model_indices": [
+              230,
+              43
+            ],
+            "source_indices": [
+              230,
+              43
+            ],
+            "domain": "2",
+            "raw": "2"
+          },
+          {
+            "plaintext_index": 70,
+            "pair": "FG",
+            "model_indices": [
+              69,
+              144
+            ],
+            "source_indices": [
+              69,
+              144
+            ],
+            "domain": "1",
+            "raw": "1"
+          },
+          {
+            "plaintext_index": 71,
+            "pair": "GF",
+            "model_indices": [
+              82,
+              181
+            ],
+            "source_indices": [
+              82,
+              181
+            ],
+            "domain": "9",
+            "raw": "9"
+          }
+        ],
+        "native_passage_alignment": {
+          "start_positions": {
+            "target": 10,
+            "donor": 55
+          },
+          "nonseparator_positions": 63,
+          "identical_native_labels": 56,
+          "target_text": "DONAUU3BERGANG21BIDBEENDUTBELGR4DSEMUMLEBHAFTERUEBSRSETZVERKEHR",
+          "donor_text": "DONA?UEBERGANG219IDBEENDZTBELGRADSEMUMLEBHAFTERUEBER?ETZVERKEHR",
+          "differences": [
+            {
+              "target_plaintext_index": 14,
+              "donor_plaintext_index": 59,
+              "target_raw": "U",
+              "donor_raw": "?",
+              "target_pair": "AV",
+              "donor_pair": "A?"
+            },
+            {
+              "target_plaintext_index": 16,
+              "donor_plaintext_index": 61,
+              "target_raw": "3",
+              "donor_raw": "E",
+              "target_pair": "DA",
+              "donor_pair": "DV"
+            },
+            {
+              "target_plaintext_index": 26,
+              "donor_plaintext_index": 71,
+              "target_raw": "B",
+              "donor_raw": "9",
+              "target_pair": "GX",
+              "donor_pair": "GF"
+            },
+            {
+              "target_plaintext_index": 37,
+              "donor_plaintext_index": 82,
+              "target_raw": "U",
+              "donor_raw": "Z",
+              "target_pair": "AV",
+              "donor_pair": "DF"
+            },
+            {
+              "target_plaintext_index": 45,
+              "donor_plaintext_index": 90,
+              "target_raw": "4",
+              "donor_raw": "A",
+              "target_pair": "VA",
+              "donor_pair": "XD"
+            },
+            {
+              "target_plaintext_index": 66,
+              "donor_plaintext_index": 110,
+              "target_raw": "S",
+              "donor_raw": "E",
+              "target_pair": "DX",
+              "donor_pair": "DV"
+            },
+            {
+              "target_plaintext_index": 68,
+              "donor_plaintext_index": 112,
+              "target_raw": "S",
+              "donor_raw": "?",
+              "target_pair": "DX",
+              "donor_pair": "D?"
+            }
+          ]
+        },
+        "additional_observed_substitution": {
+          "source_index": 98,
+          "printed": "X",
+          "to": "F"
+        },
+        "completed_reading": {
+          "template": "ANXOXKXMXXDONAUUEBERGANG219XIXDXBEENDETXBELGRADXSEMUMXLEBHAFTERUEBERSETZVERKEHRX",
+          "ciphertext": "VXXGDAAGAGVDVVAVVAFXXDGVVDVVVXVVXDGVGVVVXXDXGAGGXFXVDADDVAGDADDAVDGXXGDDVVGVXDXDVGGXDFDADVGVXFVVVVFVVXVVVVDVDDVDGXDVVVVFFXDDDVADFXVVVXDXGVGGDVXGVAVVDXDVVDGGDXDA",
+          "known_coordinate_substitutions": [
+            {
+              "model_index": 11,
+              "source_index": 11,
+              "printed": "A",
+              "from": "A",
+              "to": "D"
+            },
+            {
+              "model_index": 20,
+              "source_index": 20,
+              "printed": "V",
+              "from": "V",
+              "to": "X"
+            },
+            {
+              "model_index": 97,
+              "source_index": 97,
+              "printed": "A",
+              "from": "A",
+              "to": "V"
+            },
+            {
+              "model_index": 98,
+              "source_index": 98,
+              "printed": "X",
+              "from": "X",
+              "to": "F"
+            },
+            {
+              "model_index": 102,
+              "source_index": 102,
+              "printed": "X",
+              "from": "X",
+              "to": "V"
+            },
+            {
+              "model_index": 140,
+              "source_index": 140,
+              "printed": "A",
+              "from": "A",
+              "to": "D"
+            }
+          ],
+          "erased_coordinate_fills": [],
+          "full_plaintext_reencryption_verified": true,
+          "published_key_changed": false,
+          "raw": "ANXOXKXMXXDONAUUEBERGANG219XIXDXBEENDETXBELGRADXSEMUMXLEBHAFTERUEBERSETZVERKEHRX",
+          "fixed_positions": 80
+        },
+        "readable_german": "An O. K. M. Donauuebergang 219 I. D. beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.",
+        "reencryption_exact_without_assigning_unknown_key_cells": true,
+        "limits": [
+          "The observed p153 unit remains 21B in the native and earlier word layers.",
+          "The 219 proposal costs one additional observed-coordinate substitution, not a key reassignment or a source transcription correction.",
+          "SEMUM remains literal; no missing message part is supplied."
+        ]
+      }
     }
   ],
   "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",

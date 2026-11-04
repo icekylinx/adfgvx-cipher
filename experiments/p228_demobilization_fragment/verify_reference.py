@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Check the optional B1-to-B2 repeated-reference witness, without numeral relabelling."""
+"""Check the B1-to-B2 reference and enclosure transfers and their separate numeral layer."""
 from pathlib import Path
 import argparse
 import hashlib
 import importlib.util
 import json
+import re
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
@@ -107,6 +108,72 @@ def build(pdf=None):
     donor_full = donor.replace('-', 'A')
     donor_full_plaintext = decode(donor_full, square, ranks)
     assert encrypt(donor_full_plaintext, square, ranks) == donor_full
+
+    # The earlier part names enclosure 1 after ANLG.  The same two original
+    # pairs fit the missing separator and enclosure number before U2 in B2.
+    assert donor_raw[40:46] == 'ANLGYX'
+    assert optional_raw[40:48] == 'ANLG??UJ'
+    enclosure_wire = list(wire)
+    enclosure_transfers = []
+    for donor_position, target_position in [(44, 44), (45, 45)]:
+        donor_sources = donor_inverse[2*donor_position:2*donor_position+2]
+        donor_pair = ''.join(donor[i] for i in donor_sources)
+        target_models = target_inverse[2*target_position:2*target_position+2]
+        target_sources = [owners[i] for i in target_models]
+        target_pair = ''.join(enclosure_wire[i] for i in target_models)
+        assert all(c in C for c in donor_pair) and target_pair.count('?') == 1
+        fills = []
+        for di, mi, si in zip(donor_sources, target_models, target_sources):
+            if enclosure_wire[mi] == '?':
+                assert record['literal_source'][si] == '-'
+                enclosure_wire[mi] = donor[di]
+                fills.append(dict(donor_source_index=di, target_model_index=mi,
+                                  target_source_index=si, original_target='-', value=donor[di]))
+            else:
+                assert enclosure_wire[mi] == donor[di]
+        assert len(fills) == 1
+        assert donor_raw[donor_position] in record['positions'][target_position]['domain']
+        enclosure_transfers.append(dict(donor_plaintext_index=donor_position,
+                                       target_plaintext_index=target_position,
+                                       donor_source_indices=donor_sources, donor_pair=donor_pair,
+                                       target_source_indices=target_sources,
+                                       target_pair_before=target_pair,
+                                       label=donor_raw[donor_position], fills=fills))
+    enclosure_wire = ''.join(enclosure_wire)
+    enclosure_raw = decode(enclosure_wire, square, ranks)
+    assert enclosure_raw[40:48] == 'ANLGYXUJ'
+    assert 132 - enclosure_raw.count('?') == 125
+    assert all(a == b for i, (a, b) in enumerate(zip(optional_raw, enclosure_raw)) if i not in (44, 45))
+    assert sum(a != b for a, b in zip(wire, enclosure_wire)) == 2
+    enclosure_full = enclosure_wire.replace('?', 'A')
+    enclosure_plaintext = decode(enclosure_full, square, ranks)
+    assert encrypt(enclosure_plaintext, square, ranks) == enclosure_full
+
+    interpretation_path = ROOT / 'experiments/late_november_calendar_and_units/inputs.json'
+    interpreted_square = load(interpretation_path)['unit_square']
+    interpreted = decode(enclosure_wire, interpreted_square, ranks)
+    assert interpreted[40:48] == 'ANLGX1U2'
+    assert interpreted[55:65] == '3067X18GEH'
+    assert 132 - interpreted.count('?') == 125
+    interpreted_witnesses = []
+    for remaining in ['45', '54']:
+        values = iter(remaining)
+        full_square = ''.join(next(values) if c == '?' else c for c in interpreted_square)
+        assert len(set(full_square)) == 36
+        plaintext = decode(enclosure_full, full_square, ranks)
+        assert encrypt(plaintext, full_square, ranks) == enclosure_full
+        assert all(a == '?' or a == b for a, b in zip(interpreted, plaintext))
+        interpreted_witnesses.append(dict(square=full_square, plaintext=plaintext,
+                                          ciphertext=enclosure_full,
+                                          source_mask_values_are_arbitrary=True))
+    case = (ROOT / data['case']).read_text()
+    quotes = [' '.join(line[2:] for line in m[0].splitlines())
+              for m in re.finditer(r'(?:^>[^\n]*(?:\n|$))+', case, re.M)]
+    selected_spans = [[0, 54], [69, 87], [100, 132]]
+    displayed = re.sub('[^A-Z0-9?]', '', quotes[0].upper())
+    expected = ''.join(interpreted[a:b] for a, b in selected_spans).replace('X', '')
+    assert displayed == expected
+    assert interpreted in re.findall(r'```text\n(.*?)\n```', case, re.S)
     donor_image = next(x for x in previous['source_images'] if x['id'] == 'p228_B1')
     image_path = previous_path.parent / donor_image['path']
     assert sha(image_path) == donor_image['sha256']
@@ -124,7 +191,8 @@ def build(pdf=None):
             assert image.tobytes() == pixmap.samples
     return dict(schema='adfgvx-p228-repeated-reference-v1', authors=data['authors'],
                 dependencies={str(p.relative_to(ROOT)): sha(p) for p in
-                              [HERE/'inputs.json', HERE/'certificates.json', previous_path, image_path]},
+                              [HERE/'inputs.json', HERE/'certificates.json', previous_path, image_path,
+                               interpretation_path]},
                 indexing='Zero based; ranges half open.',
                 hypothesis='The X4GEH suffix in B1 and the ??GEH suffix in B2 refer to the same order-reference field.',
                 donor=dict(id='p228_B1', literal_source=donor, raw=donor_raw,
@@ -142,8 +210,22 @@ def build(pdf=None):
                 common_key=key,
                 complete_witnesses=[dict(id='p228_B1', ciphertext=donor_full, plaintext=donor_full_plaintext),
                                     dict(id='p228_B2', ciphertext=full_wire, plaintext=full_plaintext)],
+                enclosure_extension=dict(
+                    hypothesis='The enclosure 1 named after ANLG in B1 also begins the paired enclosure field before U2 in B2.',
+                    donor_field='ANLGYX', target_field_before='ANLG??UJ',
+                    target_field_after='ANLGYXUJ', interpreted_field='ANLGX1U2',
+                    transfers=enclosure_transfers, raw=enclosure_raw, ciphertext=enclosure_wire,
+                    fixed_positions=125, observed_substitutions=5, printed_mask_fills=36,
+                    added_observed_substitutions=0, added_printed_mask_fills=2,
+                    unresolved_positions=[i for i, c in enumerate(enclosure_raw) if c == '?'],
+                    full_baseline_witness=dict(ciphertext=enclosure_full, plaintext=enclosure_plaintext),
+                    interpreted_square=interpreted_square, interpreted=interpreted,
+                    full_interpreted_witnesses=interpreted_witnesses,
+                    readable_quote=quotes[0], readable_selected_spans=selected_spans,
+                    readable_mapping_verified=True),
                 limits=['Field reuse is a contextual hypothesis; these are separate parts, not duplicate telegrams.',
-                        'The P/2 discrepancy is retained. No numeral, unit, date, enclosure or command-field interpretation is added.',
+                        'The original suffix-only layer keeps the P/2 discrepancy and its 123-position reading.',
+                        'The separate enclosure layer adds two compatible donor-pair fills, followed by the already declared optional numeral interpretation. P/3 remains discrepant in that interpretation.',
                         'Both donors are complete original observed pairs; no earlier word repair or inferred source slot supplies them.',
                         'The primary 121-position word edition and its frame remain unchanged.',
                         'Residual A fills in complete witnesses verify arithmetic only and are not historical readings.'])
@@ -160,7 +242,8 @@ def main():
         assert load(path) == result, 'Reference witness differs; inspect before regeneration'
     else:
         path.write_text(json.dumps(result, indent=2) + '\n')
-    print(json.dumps(dict(verified=True, optional_fixed_positions=123, added_printed_mask_fills=2,
+    print(json.dumps(dict(verified=True, suffix_fixed_positions=123, enclosure_fixed_positions=125,
+                         enclosure_added_printed_mask_fills=2,
                          added_observed_substitutions=0, donor_observations_checked=True,
                          donor_and_target_pdf_pixels_checked=args.pdf is not None)))
 

@@ -74,6 +74,57 @@ def global_witnesses(candidate, key, literal, mapping):
             'distinct_compatible_plaintexts': len(texts), 'witnesses': out}
 
 
+def name_proposal(data, literal, models, primary):
+    proposal, key = data['optional_name_proposal'], data['key']
+    spans = data['records'][0]['proposed_spans'] + [{
+        'start': proposal['plaintext_start'], 'stop': proposal['plaintext_stop'],
+        'text': proposal['proposal']}]
+    stencil = word_stencil(spans, key)
+    prices = [{'source_insertion_boundaries': m['source_insertion_boundaries'],
+               'observed_substitutions': sum(src is not None and literal[src] in C and target in C and literal[src] != target
+                                             for src, target in zip(m['model_to_source_indices'], stencil))}
+              for m in models]
+    minimum = min(p['observed_substitutions'] for p in prices)
+    minima = [p['source_insertion_boundaries'] for p in prices if p['observed_substitutions'] == minimum]
+    assert minimum == 14 and minima == data['geometry_scope']['all_six_observed_price_minima']
+    variants = []
+    for model in models:
+        if model['source_insertion_boundaries'] not in minima:
+            continue
+        base = model['readable_candidate']
+        start, stop = proposal['plaintext_start'], proposal['plaintext_stop']
+        assert base['raw'][start:stop] == proposal['raw']
+        text = base['raw'][:start] + proposal['proposal'] + base['raw'][stop:]
+        extra = repair(text, base['ciphertext'], key, model['model_to_source_indices'], literal)
+        assert [[e['source_index'], e['from'], e['to']] for e in extra['known_coordinate_substitutions']] == proposal['additional_observed_substitutions']
+        assert not extra['erased_coordinate_fills']
+        variants.append({'source_insertion_boundaries': model['source_insertion_boundaries'],
+                         'additional_observed_substitutions': extra['known_coordinate_substitutions'],
+                         'additional_source_or_added_fills': 0})
+        if model is primary:
+            completed = repair(text, model['ciphertext'], key, model['model_to_source_indices'], literal)
+    donor_spec = proposal['donor']
+    donor_data = load(ROOT / donor_spec['inputs'])
+    donor = next(r for r in donor_data['records'] if r['id'] == donor_spec['record'])
+    donor_literal = ''.join(''.join(donor['source_rows']).split())
+    assert hashlib.sha256(donor_literal.encode()).hexdigest() == donor_spec['source_sha256']
+    donor_key = next(k for k in load(ROOT / 'data/keys.json')['keys'] if k['id'] == donor_spec['key_id'])
+    donor_raw = inspect(donor_literal, donor_key, list(range(len(donor_literal))))
+    assert donor_raw['raw'] == donor['expected_raw']
+    start = donor_raw['raw'].index(donor_spec['observed_phrase'])
+    positions = donor_raw['positions'][start:start + len(donor_spec['observed_phrase'])]
+    assert all(len(p['domain']) == 1 and set(p['pair']) <= set(C) for p in positions)
+    display = re.sub('[^A-Z0-9?]', '', proposal['readable_german'].replace('[…]', '').upper())
+    displayed_spans = sorted(spans, key=lambda s: s['start'])
+    assert display == ''.join(s['text'] for s in displayed_spans).replace('X', '')
+    return {'proposal': proposal['proposal'], 'primary_completed_word_layer': completed,
+            'readable_german': proposal['readable_german'], 'additional_proposed_span_positions': 10,
+            'total_proposed_span_positions': 55, 'all_model_prices': prices,
+            'minimum_substitution_maps': minima, 'tied_variants': variants,
+            'donor': {**donor_spec, 'plaintext_start': start, 'positions': positions},
+            'scope': proposal['scope']}
+
+
 def build(pdf=None):
     d = load(HERE / 'inputs.json')
     key = d['key']
@@ -140,16 +191,19 @@ def build(pdf=None):
     for m in tied:
         m['global_completions'] = global_witnesses(m['readable_candidate'], key, lit, m['model_to_source_indices'])
     assert [m['global_completions']['full_square_and_coordinate_witnesses'] for m in tied] == [72, 72, 432, 432, 72, 72]
+    optional_name = name_proposal(d, lit, models, primary)
     folded = re.sub('[^A-Z0-9?]', '', r['readable_german'].replace('[…]', '').upper())
     assert folded == ''.join(span['text'] for span in r['proposed_spans']).replace('X', '')
     case = ROOT / d['case']
     text = case.read_text()
     assert text.count(expected_legend(case)) == 1
     fences, quotes = displays(text)
-    assert [f['role_from_caption'] for f in fences] == ['raw_output', 'edited_output', 'source_transcription']
-    assert len(quotes) == 1 and quotes[0]['role_from_caption'] == 'readable_german'
-    assert re.findall(r'```text\n(.*?)\n```', text, re.S) == [primary['raw'], candidate['raw'], '\n'.join(r['source_rows'])]
-    assert re.findall(r'^> (.*)$', text, re.M) == [r['readable_german']]
+    assert all(f['role_from_caption'] in {'raw_output', 'edited_output', 'source_transcription'} for f in fences)
+    actual_streams = re.findall(r'```text\n(.*?)\n```', text, re.S)
+    for required in [primary['raw'], candidate['raw'], '\n'.join(r['source_rows']), optional_name['primary_completed_word_layer']['raw']]:
+        assert required in actual_streams
+    actual_quotes = re.findall(r'^> (.*)$', text, re.M)
+    assert r['readable_german'] in actual_quotes and optional_name['readable_german'] in actual_quotes
     return {'schema': 'adfgvx-p167-captain-dispatch-fragment-certificate-v1',
             'authors': d['authors'], 'input_sha256': sha(HERE / 'inputs.json'), 'indexing': d['indexing'],
             'summary': {'physical_records': 1, 'printed_source_slots': 187,
@@ -168,7 +222,8 @@ def build(pdf=None):
                 'model_to_source_indices': primary['model_to_source_indices'],
                 'raw': primary['raw'], 'fixed_positions': primary['fixed_positions'],
                 'positions': primary['positions'], 'readable_candidate': candidate,
-                'readable_german': r['readable_german'], 'global_completions': completions}],
+                'readable_german': r['readable_german'], 'global_completions': completions,
+                'optional_name_proposal': optional_name}],
             'geometry_enumeration': {'all_model_prices': [{k: m[k] for k in ['source_insertion_boundaries', 'observed_substitutions', 'source_mask_fills', 'added_slot_fills']} for m in models], 'all_six_minimum_maps': tied},
             'header': d['header'], 'prior_credit': d['prior_credit'], 'limits': d['limits']}, evidence
 

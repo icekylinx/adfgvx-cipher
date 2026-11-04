@@ -14,7 +14,7 @@ This range contains 111 sources, including 2 OPEN. [Reading states](../../../doc
 |---|---|---|
 | [p175 A1](../../people/spa_berlin_delegates.md#p175-a1) | READING | Delegates directed through Spa: Namur and von Weiher address |
 | [p175 A2](../../people/spa_berlin_delegates.md#p175-a2) | PARTIAL | Berlin onward journey and an unresolved departure-time digit |
-| [p175 B2](../../finance/hauptwechselamt_accounting.md#p175-b2) | PARTIAL | Payments through October and cheque arrival acknowledgements |
+| [p175 B2](../../finance/hauptwechselamt_accounting.md#p175-b2) | CONDITIONAL | Payments through October and cheque arrival acknowledgements |
 | [p175 C1](../../military/romanian_ultimatum_companions.md#p175-c1) | READING | Romanian-government ultimatum to evacuate territory |
 | [p175 C2](../../military/romanian_ultimatum_companions.md#p175-c2) | PARTIAL | Lay down arms or evacuate; reported Danube crossing near Rustschuk |
 | [p175 C3](../../military/p175_c3_withdrawal_followup.md) | CONDITIONAL | Conditional withdrawal report via Kronstadt and Hermannstadt |

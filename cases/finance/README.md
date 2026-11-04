@@ -67,14 +67,14 @@ Allowances and exchange rates show the continuing administrative demands behind 
 | [p171 A2](ruble_rate_companions.md) | CONDITIONAL | Reported ruble prices in Kiev and Warsaw; companion to Norbert's A1 |
 | [p171 A3](ruble_rate_companions.md) | READING | Waller recommends paying above par for Bons if necessary |
 | [p172 D1](staatsbank_accounting_cheques.md#p172-d1) | CONDITIONAL | State-bank accounting inquiry, first part with one missing coordinate |
-| [p172 D2](staatsbank_accounting_cheques.md#p172-d2) | PARTIAL | Treasury payment period and arrival of dispatched cheques |
+| [p172 D2](staatsbank_accounting_cheques.md#p172-d2) | CONDITIONAL | Treasury payment period and arrival of dispatched cheques |
 | [p174 A1](crown_airlift.md#p174-a1) | READING | Urgent daily crown airlift request |
 | [p174 A2](crown_airlift.md#p174-a2) | READING | One million crowns alternately to Kronstadt and Hermannstadt |
 | [p174 A3](crown_airlift.md#p174-a3) | CONDITIONAL | Small-denomination banknotes in an interrupted airlift request |
-| [p175 B2](hauptwechselamt_accounting.md#p175-b2) | PARTIAL | Payments through October and cheque arrival acknowledgements |
+| [p175 B2](hauptwechselamt_accounting.md#p175-b2) | CONDITIONAL | Payments through October and cheque arrival acknowledgements |
 | [p185 A2](brasso_money_alternative_route.md#p185-a2) | PARTIAL | Requested money to be sent to BRASSO by another means |
 | [p195 A2](crown_banknote_completion.md) | READING | Full witness to the interrupted small-banknote instruction |
-| [p201 A1](odessa_wagon_sale.md#p201-a1) | PARTIAL | Consulate and export-company address for a wagon-sale instruction |
+| [p201 A1](odessa_wagon_sale.md#p201-a1) | CONDITIONAL | Consulate and export-company address for a wagon-sale instruction |
 | [p201 A2](odessa_wagon_sale.md#p201-a2) | READING | Wagon Magdeburg sale request with opaque DAMM LADWIG phrase |
 | [p205 A1](p205_A.md) | READING | Thirty-million-kroner request; shortage of banknotes |
 | [p205 A2](p205_A.md) | READING | Vienna bank transfer to Kronstadt for German administration |

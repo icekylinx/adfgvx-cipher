@@ -97,49 +97,48 @@ Source: [p65 A](../../experiments/october_requests/sources/childs_p65_A.png).
 
 ## p62 B — Date groups before weather-observation telegrams
 
-Header: `COS v NKJ (03.40 a.m., October 6th); 1540 (5); RICHI-186`.
-The heading is October 5, 1918. The body actually contains **188 literal
-slots**, including `E` in `FVEFF` and `R` in the six-character group `FGAFRG`.
-Those invalid glyphs are retained as erasures.
-
-The following reading is **conditional on a declared two-deletion layout**:
-
-**Readable German:**
+**Readable German — conditional two-deletion frame; reference field unresolved:**
 
 > Frontwetterwarte. Bitte Obs. Telegr. stets Datumgruppen voranzustellen,
-> sonst Meldg. wertlos. FEWEWA110.
+> sonst Meldg. wertlos. FEWEWA?10.
 
-It asks for date groups to precede observation telegrams, warning that the
-reports are otherwise worthless. The literal signature/reference token
-`FEWEWA110` is preserved without expanding it into an independently identified
-unit.
+The instruction asks for date groups to precede observation telegrams,
+warning that the reports are otherwise worthless. The closing label
+`FEWEWA?10` retains one unknown character.
 
-The two source layouts delete either index 79 or 80—one of the adjacent
-`FF` across `FFDGF FGAFRG`—and index 187, the final `X`. Both produce the
-same 186-slot stream and this raw inverse:
+The source is headed `COS v NKJ (03.40 a.m., October 6th); 1540 (5);
+RICHI-186`, beneath the October 5 page heading. It contains **188 slots**.
+The reading retains the two established conditional layouts: delete either
+index 79 or 80, one of the adjacent `FF` across `FFDGF FGAFRG`, and the
+final `X` at 187. Both give the same 186-coordinate frame.
+
+### Corrected glyph position and reference uncertainty
+
+The second source group reads **`FVFEF`**, correcting the earlier
+transcription `FVEFF`. The printed `E` is at source index **8**, not 7.
+Consequently the `L` in `WERTLOS` is directly observed, while the first
+character of the closing `?10` is not. The source's `R` in the six-character
+`FGAFRG` group remains a separate mask.
+
+The reference unknown has pair `?F` and domain **`018MRV`**. A decimal-only
+interpretation still permits **`010`, `110` or `810`**. The previously
+printed `FEWEWA110` is one compatible completion; the current edition
+leaves the field open. It fixes **92/93 proposed positions**, with two
+observed-coordinate substitutions and one mask fill. The conditional raw
+frame fixes **91/93**.
 
 <details>
-<summary>Raw decoded text</summary>
+<summary>Raw reading, source changes and layout comparison</summary>
 
 **Raw output — conditional deletion of source 79 or 80, and final source 187:**
 
 ```text
-FRONTWETTERWARTEXLITTEOBSXTELEGRXSTETKDATUMGRUPPENVORANZUSTELLENSONSTME?DGXWERT?OSXXFEWEWA110
+FRONTWETTERWARTEXLITTEOBSXTELEGRXSTETKDATUMGRUPPENVORANZUSTELLENSONSTME?DGXWERTLOSXXFEWEWA?10
 ```
 
-</details>
-
-`LITTE→BITTE` costs the received-coordinate change at source index 45,
-`F→G`. `STETK→STETS` costs index 157, `V→G`. Both remaining character
-domains are `ABGIJL`; filling the two invalid source glyphs with coordinate
-`F` gives the proposed `L` in `MELDG` and `WERTLOS`.
-
-The verifier checks all **17,578** ways to delete two of the 188 slots
-against this fixed editorial text and published key. These two equivalent
-layouts are the only ones attaining the minimum of two known-coordinate
-substitutions. The source itself does not mark either deletion, so the
-conditional model remains part of the reading. Deleting `E` and `R` instead
-does not produce this message.
+`LITTE→BITTE` changes source 45 from `F` to `G`; `STETK→STETS` changes
+157 from `V` to `G`. Filling the `R` mask at 84 with coordinate `F` supplies
+the `L` in `MELDG`. The `E` mask at 8 stays unfilled.
 
 | Operation | Original source index | Printed location |
 | --- | ---: | --- |
@@ -147,11 +146,21 @@ does not produce this message.
 | Delete final `X` | 187 | Group 38 / 2 |
 | `F→G` for `BITTE` | 45 | Group 10 / 1 |
 | `V→G` for `STETS` | 157 | Group 32 / 2 |
-| Fill literal `E` as coordinate `F` | 7 | Group 2 / 3 |
 | Fill literal `R` as coordinate `F` | 84 | Group 17 / 5 |
+| Retain literal `E` as an unfilled mask | 8 | Group 2 / 4 |
 
-The printed-group positions above follow the actual six-character group;
-they are not computed by dividing source indices into uniform groups of five.
+The verifier checks all **17,578** ways to delete two source slots against
+this partial template and the published key. The two layouts above remain
+the only minima at two observed substitutions. The source marks neither
+deletion. The comparison leaves the reference character unasserted; it
+also preserves all six source-compatible completions and their exact
+additional one-mask-fill cost.
+
+Printed locations follow the actual six-character group rather than
+uniform groups of five. The [input review](../../experiments/october_requests/inputs.json)
+retains the earlier transcription and reference proposal.
+
+</details>
 
 Source: [p62 B](../../experiments/october_requests/sources/childs_p62_B.png).
 

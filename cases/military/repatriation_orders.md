@@ -8,7 +8,7 @@ Prepared by **icekylinx and GPT-6 Astra Pro**. The published Nov16–18 key and 
 
 ## Evidence and costs
 
-The page headings both say **18 November 1918**. All counts below use the manually transcribed printed rows. A fixed label means a letter or numeral fixed by the conservative published square. Its eight unfilled cells still have the domain `03456789`; no numeral assignment has been added.
+The page headings both say **18 November 1918**. All counts below use the manually transcribed printed rows and the conservative published square. The separate shared date and order interpretation described below fixes six further positions across A2 and C1.
 
 | Printed record | Source slots | Raw fixed labels in the working frame | Editorial fixed labels | Explicit cost |
 |---|---:|---:|---:|---|
@@ -90,6 +90,12 @@ GLEICHESERGEHTANXETRAXSUEDOSTXFECHXGRXHXQUXUNDKRIWEISOKMXNRX??1?X11X1?XANCHXKMXA
 
 The opening says that the same instruction goes to the listed addressees. `ETRA SUEDOST`, `FECH`, `KRIWEISOKM`, `KRDP`, the `ANCH` tokens and all partly known references remain literal. In particular, `FECH` has not been silently reordered into a more familiar word.
 
+The [existing FD=8 and VA=5 constraints](../../experiments/nov16_18_reference_completion/README.md)
+give `Nr. 5?18 / 11 / 18` and `Nr. 25?? / 18` in the closing references.
+They fix **five further positions**, reaching **107/110** under the same
+conditional 220-slot frame. No coordinate is changed or filled; the final
+printed X remains the sole frame exclusion.
+
 The verifier prices all **221 possible single-coordinate exclusions** against this retrospective known-letter template, allowing the marked numeral positions to remain in any of the eight unfilled square cells. Excluding index 220 is the sole zero-substitution placement in that bounded comparison. That is conditional template evidence, not proof that the final X was historical padding or that all other damage mechanisms are impossible. The unmodified 221-slot reading and its unpaired coordinate are preserved alongside the conditional reading.
 
 ## Finland: p207 C1–C2
@@ -123,6 +129,11 @@ BALDIGERABTRAANSPORTFUERNOETIGGEHALTENWIRDXOHLXRMX1AXNOX11?1?XGEHXOPXX
 </details>
 
 The German general in Finland is told that two cited reports assess the situation differently. OHL assumes that early removal or transport of the force is considered necessary. The body contains the literal doubled A in `ABTRAANSPORT`; it has not been deleted. The references `B.C.212`, `RM.1A`, `11?1?`, and the other partly known number remain unexpanded.
+
+Under the same `FD=8` layer, the first message’s three-digit reference becomes **?8?**.
+That part reaches **102/104** positions with its earlier one-coordinate
+word repair. The two outer digits and the second part's reference remain
+unresolved.
 
 The raw beginning of part 2 is `BALDIGLRABTRAAN?PORT`. The unknown label inside the word has the numeral domain `03456789` under the published square. Producing S requires the stated observed-coordinate substitution into the existing S cell. It is a word repair, **not** a newly inferred square assignment. The two unresolved numeral labels later in the reference remain unknown.
 

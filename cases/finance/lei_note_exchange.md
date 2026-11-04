@@ -9,7 +9,26 @@ notes, proposes arrangements with Austrian and Hungarian banks, and
 reports that negotiations over redemption are still in progress. Its
 exchange-rate and reference fields are complete received pairs, but their
 published-square labels are preserved: this edition establishes no new
-numerical key assignments.
+numerical key assignments. A later joint interpretation narrows several
+of these fields:
+
+| Field | Conditional interpretation |
+| --- | --- |
+| A2, crown amount | `12?` |
+| A2, lei amount | `1??` |
+| A3, army-administration reference | `2???X11X1?B?` |
+| A3, general war-department reference | `1???X11X1?` |
+
+These values follow from the [Article XII numeral assignments](../../experiments/nov25_treaty_digits/README.md),
+without an additional source repair. All three question marks in the
+two A2 amounts represent the **same square cell**. The mark amounts
+remain unresolved; no complete exchange rate has been identified.
+
+A separate [VI Army Corps identification at Breslau](../people/breslau_staff_transfer.md#the-vi-army-corps-command-in-november-1918)
+adds the conditional assignment `GA=6`. Under that additional assumption,
+the first German-bank mark amount is `6?`, and the last departmental
+reference is `1??6X11X1?`. The units digit and the second mark amount
+remain unassigned.
 
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher
 System*, [printed p223 A, PDF p226](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).

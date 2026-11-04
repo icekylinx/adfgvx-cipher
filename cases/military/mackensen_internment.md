@@ -4,13 +4,13 @@
 
 **Prior reading: J. Rives Childs; George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker. Source edition and exact repair audit: icekylinx and GPT-6 Astra Pro.**
 
-The four-part letter says that efforts to avoid internment have failed, asks the soldiers to maintain order, and expresses the hope of their return to Germany. This body is already published in [Lasry et al., Table 4](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf), printed p. 22, and in [Lasry's dissertation, Table 6.4](https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf), p. 108. The new work here explains a two-location source defect in part 3 and makes the source costs and unresolved wording inspectable.
+The four-part letter says that efforts to avoid internment have failed, asks the soldiers to maintain order, and expresses the hope of their return to Germany. This body is already published in [Lasry et al., Table 4](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf), printed p. 22, and in [Lasry's dissertation, Table 6.4](https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf), p. 108. The source edition explains a two-location defect in part 3. An independent Berlin copy now supports the signature repairs and exposes differences between the transmitted and archival wording.
 
 ## Meaning
 
 Addressed to the soldiers' council of the Mackensen army, the letter reports that the Entente insists on internment. It says that maintaining the marching order would be treated as a breach of the armistice, giving the Entente grounds to enter Germany. The sender promises to seek tolerable internment conditions and a safe return home after peace is concluded, then urges calm and order to avoid internal disintegration.
 
-The closing names the executive council of the workers' and soldiers' councils of Greater Berlin. The raw signatures are `SOLKENBUHR` and `MNELLER`; the prior reading gives Müller. `MOLKENBUHR` is separately costed as a plausible surname repair, with no first name assigned.
+The closing names the executive council of the workers' and soldiers' councils of Greater Berlin. The raw signatures are `SOLKENBUHR` and `MNELLER`. The archival counterpart signs Molkenbuhr and Richard Müller, supporting the two surname repairs described below.
 
 The source is headed `ZON v BSL` (the O has two marks), `04.20 a.m., December 2nd`, with origin field `NR 132 2200 (11/29) 4 TLE`. Parts 1–3 appear on printed p226 and part 4 on p227. These are different date fields, not an interchangeable date of composition. All four parts use the unchanged published **Nov28–Dec1** key.
 
@@ -20,6 +20,32 @@ The source is headed `ZON v BSL` (the O has two marks), `04.20 a.m., December 2n
 | p226 C2 | 324 | 162/162 | 11 known-coordinate substitutions |
 | p226 C3 | 338 | 168/169 under the explicit group-restoration model | 4 substitutions and 1 supplied coordinate |
 | p227 A4 | 392 | 196/196 | 12 substitutions; 13 if `MOLKENBUHR` is also proposed |
+
+## An independent Berlin copy
+
+Document 96 in Engel, Holtz and Materna, eds., *Groß-Berliner Arbeiter- und
+Soldatenräte in der Revolution 1918/19* (Akademie Verlag, 1993), pp. 461–462,
+preserves a typescript carbon copy of the same letter. Its 28 November
+dateline and the editor's 29 November dispatch date distinguish composition
+from transmission; Childs records `2200 (11/29)` in the originating line.
+[Published source and comparison](../../experiments/mackensen_archival_comparison/README.md).
+
+The independent signatures support the existing cipher-side proposals:
+
+| Raw surname | Signature in the Berlin copy | Required source-coordinate change |
+|---|---|---|
+| `SOLKENBUHR` | Molkenbuhr | 71: V→F |
+| `MNELLER` | Richard Müller | 269: G→D |
+
+Indices are zero based. Each surname needs one substitution. The complete
+fourth-part edition with both names still costs **13 substitutions**; the
+new evidence strengthens those earlier repairs. Richard belongs to the
+archival attribution, while the ciphertext supplies only the surname.
+
+The copy also has *Faktoren* where the received first part yields
+`SMUTIONEN`, and a longer armistice term in part 2. These are distinct
+textual witnesses. The comparison uses the published transcription;
+the archival original has not been inspected.
 
 ## Part 3: restoring two malformed groups
 
@@ -55,7 +81,7 @@ The source-length spelling `FRIEDENSCHLUSS` is retained in the exact candidate; 
 
 The directly decrypted token after `INBEDRACHTKOQMENDEN` is **`SMUTIONEN`**, occupying nine positions. The prior publication prints **`SITUATIONEN`**, which has eleven. That normalization therefore requires two extra plaintext positions and is not an unchanged or same-length decryption.
 
-The present certificate prices two same-length alternatives. `STATIONEN` adds two coordinate substitutions to the six otherwise proposed in part 1; `INSTANZEN` raises that total to seventeen. The lower-cost word is not adopted as certain solely from this comparison. The conservative editorial candidate retains the damaged token, and the English interpretation refers only to the relevant bodies or offices.
+The present certificate prices two same-length alternatives. `STATIONEN` adds two coordinate substitutions to the six otherwise proposed in part 1; `INSTANZEN` raises that total to seventeen. The archival counterpart has `FAKTOREN`, eight letters. That wording explains the reference to the bodies concerned but does not fit the nine received positions. The conservative cipher edition therefore retains `SMUTIONEN`; `STATIONEN` remains a separately priced alternative, and the earlier `SITUATIONEN` normalization remains attributed to its publication.
 
 ## Literal source and reproducibility
 
@@ -63,6 +89,7 @@ The complete raw strings, source-index maps and every proposed edit are in [inpu
 
 ```sh
 python experiments/corpus_extension/verify.py --verify
+python experiments/mackensen_archival_comparison/verify.py --verify
 ```
 
 Raw `X`, `Y`, `J` and digits remain labels from the published square. Ordinary spelling proposals and source layout repairs do not change that square.

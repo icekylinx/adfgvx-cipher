@@ -1,0 +1,57 @@
+{
+  "schema": "adfgvx-mackensen-archival-comparison-certificate-v1",
+  "input_sha256": "a0ed8caba7cd9ede8ddb33cb352cdba83710e18050f5d0ca9b391c5722219d70",
+  "source_slots": 392,
+  "baseline_plaintext": "HALTETRUHEUNDORDNUNGDAMITNICHTDURCHINNEREAUFLOESUU0IHRALLEVER4ORENGEHTYWIRHOFFENEUCHRLLERECHLBRLDGESUN1INDEMNEUENDEUTSCHLAUDWIEDERZ1SEHEN7VOLLZUGSRATDERAYUNDSYRABTEGROSSBERLINYSOLKENBUHRYMNELLERYY",
+  "signatures": [
+    {
+      "raw": "SOLKENBUHR",
+      "supported_surname": "MOLKENBUHR",
+      "plaintext_start": 176,
+      "documentary_signature": "Molkenbuhr",
+      "changed_plaintext_index": 176,
+      "source_indices": [
+        218,
+        71
+      ],
+      "raw_pair": "XV",
+      "coordinate_change": {
+        "source_index": 71,
+        "from": "V",
+        "to": "F"
+      }
+    },
+    {
+      "raw": "MNELLER",
+      "supported_surname": "MUELLER",
+      "plaintext_start": 187,
+      "documentary_signature": "Richard Müller",
+      "changed_plaintext_index": 188,
+      "source_indices": [
+        391,
+        269
+      ],
+      "raw_pair": "FG",
+      "coordinate_change": {
+        "source_index": 269,
+        "from": "G",
+        "to": "D"
+      }
+    }
+  ],
+  "signature_only_ciphertext": "FFFFVXGVXFVGFVDFVFVVXAFGGFFFDFVGADXXVVVFVGVFGVGAAGGGFFADGAVAFFGGGAGGDDVFGAFGGGVVVAADGGVFDFADDGAFDFXGDVGFDVGGDGXFVXFVGFXVFFVVVXFVVVDAVGVFFXVDVVADFXGDFVDFVGFXGAGVAGFADFFVXDGGDGVGDGVGGGGAAADXVFDFAGXXDDFGVVFGVFVVFFFGVFAVVXXDVDADGGDDAGFDAGFFDFAVXAADFFAFFGGGGFGVFGDGFXVGFFGGADFFFFAADDXAGFADGAGXAXDGAGFDDFGDFDFVGAGAVVAGFVFVGAVVFFXVFVFVFVAFFVVAXAXXDVVGFAXFDFVVDDDXXFFFDVFVVXXAVFFDFGDVDDVGFFGXXGGFAGVF",
+  "signature_only_plaintext": "HALTETRUHEUNDORDNUNGDAMITNICHTDURCHINNEREAUFLOESUU0IHRALLEVER4ORENGEHTYWIRHOFFENEUCHRLLERECHLBRLDGESUN1INDEMNEUENDEUTSCHLAUDWIEDERZ1SEHEN7VOLLZUGSRATDERAYUNDSYRABTEGROSSBERLINYMOLKENBUHRYMUELLERYY",
+  "signature_coordinate_changes": 2,
+  "existing_full_edition_costs": {
+    "readable": 12,
+    "molkenbuhr_proposal": 13
+  },
+  "noun_lengths": {
+    "raw": 9,
+    "earlier_publication": 11,
+    "archival_counterpart": 8
+  },
+  "new_cipher_positions_claimed": 0,
+  "new_result": "Independent documentary support for earlier surname proposals; explicit version comparison.",
+  "case_signature_table_verified": true
+}

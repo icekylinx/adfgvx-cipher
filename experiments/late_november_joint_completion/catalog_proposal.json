@@ -1,0 +1,56 @@
+[
+  {
+    "id": "p225_A",
+    "label": "p225 A",
+    "printed_page": 225,
+    "source_section": "A",
+    "subject": "November key material retained because December tables are absent",
+    "status": "116/116 positions after 6 compatible source-mask fills; 2 separately priced word repairs; native 232-slot frame",
+    "credit": "icekylinx and GPT-6 Astra Pro (2026)",
+    "path": "cases/radio/late_november_cipher_instructions.md",
+    "source_reviewed": true,
+    "evidence": [
+      "experiments/corpus_extension/inputs.json",
+      "experiments/corpus_extension/certificates.json",
+      "experiments/late_november_joint_completion/inputs.json",
+      "experiments/late_november_joint_completion/certificates.json"
+    ],
+    "state": "READING"
+  },
+  {
+    "id": "p225_B2",
+    "label": "p225 B2",
+    "printed_page": 225,
+    "source_section": "B2",
+    "subject": "Journey via literal route labels and arrival with assistance",
+    "status": "Native 212-slot frame; shared FA=J removes both word repairs; 105/106 positions under the conditional period interpretation",
+    "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained",
+    "path": "cases/military/regimental_journey_report.md#p225-b2",
+    "source_reviewed": true,
+    "evidence": [
+      "experiments/regimental_journey_report/inputs.json",
+      "experiments/regimental_journey_report/certificates.json",
+      "experiments/late_november_joint_completion/inputs.json",
+      "experiments/late_november_joint_completion/certificates.json"
+    ],
+    "state": "CONDITIONAL"
+  },
+  {
+    "id": "p227_D",
+    "label": "p227 D",
+    "printed_page": 227,
+    "source_section": "D",
+    "subject": "An order to avoid fighting, with further instructions to follow",
+    "status": "Native 272-slot frame; shared FA=J reduces word repairs from 4 to 2; 135/136 positions under the conditional period interpretation",
+    "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained",
+    "path": "cases/military/avoid_fighting_instruction.md#p227-d",
+    "source_reviewed": true,
+    "evidence": [
+      "experiments/avoid_fighting_instruction/inputs.json",
+      "experiments/avoid_fighting_instruction/certificates.json",
+      "experiments/late_november_joint_completion/inputs.json",
+      "experiments/late_november_joint_completion/certificates.json"
+    ],
+    "state": "CONDITIONAL"
+  }
+]

@@ -15,6 +15,10 @@ notices for cheques and `HAUPTWECHSELAMT`. Its missing first part is not
 reconstructed, and no completed payment amount or transaction outcome
 is inferred.
 
+## Conditional digit reading
+
+The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) reads **am 6. gesandte Cheks** and the literal closing **892409116**, without additional coordinate changes or fills. The opposite assignment gives am 5. and 892409115. The final label is preserved as transmitted, rather than normalized to a date or matched to another reception’s separator.
+
 ## p175 B2
 
 <details>

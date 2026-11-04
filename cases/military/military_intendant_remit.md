@@ -198,6 +198,12 @@ The list continues with clothing and equipment, meat provision,
 The literal `UX` abbreviation is retained. The signature says
 `GENERALINTENDANT`; six positions in its reference remain unresolved.
 
+The [shared November date and order constraints](../../experiments/nov16_18_reference_completion/README.md)
+fix three of those positions, giving `RM ? A 5?5? A 11 18` and
+**109/112** conditional positions. Both fives use the same observed `VA`
+pair; the final eight uses `FD`. This adds no source repair and does not
+complete the reference number.
+
 ## Exact costs and limits
 
 | Part | Received slots | Working frame | Raw fixed positions | Edition fixed positions | Known-coordinate changes | Masked-slot fills | Added-slot fills |

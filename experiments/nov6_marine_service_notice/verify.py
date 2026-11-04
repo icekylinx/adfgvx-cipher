@@ -6,6 +6,7 @@ The native frame and the separately priced exclusion/insertion remain distinct.
 """
 from __future__ import annotations
 import argparse
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -19,6 +20,81 @@ from experiments.premium_payment_stop.verify import C, inspect, masked_encryptio
 
 
 from adfgvx.source_evidence import verify_source_evidence
+
+def native_witnesses(specs):
+    keys = {k['id']: k for k in json.loads((ROOT / 'data/keys.json').read_text())['keys']}
+    donors = []
+    for spec in specs:
+        records = json.loads((ROOT / spec['inputs']).read_text())['records']
+        rec = next(r for r in records if r['id'] == spec['record'])
+        donor_source = ''.join(rec[spec['source_field']].split())
+        assert hashlib.sha256(donor_source.encode()).hexdigest() == spec['source_sha256']
+        donor_cipher = ''.join(c if c in C else '?' for c in donor_source)
+        reading = inspect(donor_cipher, keys[spec['key_id']], list(range(len(donor_cipher))))
+        expected = rec
+        for part in spec['raw_field'].split('.'):
+            expected = expected[part]
+        assert reading['raw'] == expected and spec['context'] in expected
+        start = expected.index(spec['word'])
+        positions = reading['positions'][start:start + len(spec['word'])]
+        assert all(len(p['domain']) == 1 and set(p['pair']) <= set(C) for p in positions)
+        donors.append({**spec, 'plaintext_start': start, 'positions': positions})
+    return donors
+
+
+def complete_labels(source, literal, candidate, key, mapping, raw):
+    data = json.loads((HERE / 'label_completion.json').read_text())
+    assert hashlib.sha256(literal.encode()).hexdigest() == data['source_sha256']
+    completed = repair(data['proposal'], candidate['ciphertext'], key, mapping, literal)
+    assert not completed['known_coordinate_substitutions']
+    assert [(e['source_index'], e['to']) for e in completed['erased_coordinate_fills']] == [(44, 'F'), (146, 'X')]
+    assert completed['fixed_positions'] == 143
+    fields = []
+    for field in data['fields']:
+        i, source_index = field['plaintext_index'], field['source_index']
+        assert candidate['raw'][i] == field['before'] == '?'
+        assert completed['raw'][i] == field['proposed']
+        assert literal[source_index] == field['printed']
+        assert raw['positions'][i]['domain'] == field['native_domain']
+        assert field['proposed'] in field['native_domain']
+        fields.append({**field, 'pair_before': raw['positions'][i]['pair'],
+                       'source_indices': raw['positions'][i]['source_indices'],
+                       'pair_after': completed['positions'][i]['pair']})
+    donors = native_witnesses(data['donors'])
+    full = repair(data['proposal'], source, key, mapping, literal)
+    assert len(full['known_coordinate_substitutions']) == 3
+    assert sum(e['source_index'] is not None for e in full['erased_coordinate_fills']) == 6
+    assert sum(e['source_index'] is None for e in full['erased_coordinate_fills']) == 1
+    address_spec = data['optional_headquarters_address']
+    assert address_spec['proposal'] == data['proposal'].replace(address_spec['before'], address_spec['after'])
+    extra = repair(address_spec['proposal'], full['ciphertext'], key, mapping, literal)
+    assert [[e['source_index'], e['from'], e['to']] for e in extra['known_coordinate_substitutions']] == address_spec['expected_additional_substitutions']
+    assert not extra['erased_coordinate_fills']
+    address = repair(address_spec['proposal'], source, key, mapping, literal)
+    assert address['fixed_positions'] == full['fixed_positions'] == 143
+    assert len(address['known_coordinate_substitutions']) == 5
+    assert address['erased_coordinate_fills'] == full['erased_coordinate_fills']
+    case = (ROOT / 'cases/radio/nov6_marine_service_notice.md').read_text()
+    assert address_spec['case_summary'] in case
+    optional = {
+        'before': address_spec['before'], 'after': address_spec['after'],
+        'readable_fragment': address_spec['readable_fragment'],
+        'plaintext': address['raw'], 'ciphertext': address['ciphertext'],
+        'additional_substitutions': extra['known_coordinate_substitutions'],
+        'additional_source_mask_fills': 0, 'additional_fixed_positions': 0,
+        'total_observed_substitutions': 5, 'total_source_mask_fills': 6, 'total_added_slot_fills': 1,
+        'changed_positions': [
+            {'plaintext_index': i, 'before': full['positions'][i], 'after': address['positions'][i]}
+            for i in range(143) if full['raw'][i] != address['raw'][i]],
+        'native_donors': native_witnesses(address_spec['donors']),
+        'full_plaintext_reencryption_verified': address['full_plaintext_reencryption_verified'],
+        'limits': address_spec['limits']}
+    return {'input_sha256': sha(HERE / 'label_completion.json'),
+            'readable_german': data['readable_german'], 'fields': fields, 'donors': donors,
+            'additional_observed_substitutions': 0, 'additional_source_mask_fills': 2,
+            'complete_conditional_reading': full, 'optional_headquarters_address': optional,
+            'limits': data['limits']}
+
 
 def build(pdf=None):
     data = json.loads((HERE / 'inputs.json').read_text())
@@ -112,6 +188,14 @@ def build(pdf=None):
             'corresponding_original_source_boundaries': [286],
         },
     }
+    completion = complete_labels(cipher, literal, candidate, key, mapping, raw)
+    assert completion['complete_conditional_reading']['raw'] in fences
+    assert '> ' + completion['readable_german'] in case
+    complete_display = re.sub('[^A-Z0-9?]', '', completion['readable_german'].upper()).replace('X', '')
+    assert complete_display == completion['complete_conditional_reading']['raw'].replace('X', '')
+    record['label_completion'] = completion
+    summary['completed_conditional_fixed_positions'] = completion['complete_conditional_reading']['fixed_positions']
+    summary['completion_additional_source_mask_fills'] = completion['additional_source_mask_fills']
     return {'schema': 'adfgvx-marine-service-notice-certificate-v1', 'project': data['project'], 'authors': data['authors'],
             'input_sha256': sha(HERE / 'inputs.json'),
             'indexing': 'All indices are zero-based. The literal source includes the declared narrow-stroke token. Retained-source boundaries refer to the 285-slot stream after its explicit exclusion; original-source boundaries refer to the full 286-slot transcription.',

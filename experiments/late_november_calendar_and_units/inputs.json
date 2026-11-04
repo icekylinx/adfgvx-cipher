@@ -1,0 +1,287 @@
+{
+  "schema": "adfgvx-late-november-calendar-and-units-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "key_id": "Nov28-Dec1",
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/avoid_fighting_instruction/inputs.json": "3e898c7880e862b17871d7341f4efc135e364344b843bf213bd413636b03beae",
+    "experiments/late_november_joint_completion/certificates.json": "91bd37e4b24921f69a7abf882c63144c2eda41ca88c644b59b62eff9b9f673db",
+    "experiments/late_november_joint_completion/inputs.json": "e13d98f4c0b6fc191ff9e42c52fc211b47dbefc571a5fd1821e3bd5f9d83fce2",
+    "experiments/late_november_joint_completion/verify.py": "7a56f75689f4cc174c3d371b6a5e3c44520087aba34a3e599cd6c0c70a707cc1",
+    "experiments/late_transport_dispatches/certificates.json": "48807b89a416b853efb04ffde9610bf590b833bb09477cb9133073808106ff98",
+    "experiments/late_transport_dispatches/inputs.json": "762575b9433be908837188f95e43853ed00c57020f6ffe2ffc6e063904d4cbc2",
+    "experiments/late_transport_dispatches/sources/p229_A.png": "2d1141013e26ecc11f49ad28b12375532c0d03e45729f8b03b2e56c89bf811de",
+    "experiments/neuhof_demobilization/certificates.json": "40ab453efe79b7069d79654372988a7164dc4843197bdb611f4dca69cb859cd3",
+    "experiments/neuhof_demobilization/inputs.json": "7c08eda80c16f8ba6c02ae84c2f570caac8ac58de6e2616c3b4054d228464046",
+    "experiments/operational_recovery/certificates.json": "ea2f6e677c4f5795699d5462165ca7f0eb0e956c31c071f3be619a409c19c2fc",
+    "experiments/operational_recovery/inputs.json": "32d9098d4c9f3451fce6b380754525d4cfb850f41afafa462d679fac8f12acfe",
+    "experiments/operational_recovery/sources/childs_p230_A.png": "f82fafa74726399970a62fac5e8565739ef243b660973557c8da290358378834",
+    "experiments/regimental_journey_report/inputs.json": "f890e0505479a0289000c0201816bc59b67c2eef99a3de1c176ca7bcb5264a7f"
+  },
+  "prior_square": "Y63GPX9OQHF?JUDNI??8TLV1EAR?2ZBKMCSW",
+  "calendar_square": "Y63GPX9OQHF?JUDNI?08TLV1EAR?2ZBKMCSW",
+  "unit_square": "Y63GPX9OQHF?JUDNI?08TLV1EAR72ZBKMCSW",
+  "calendar_evidence": {
+    "record": "p229_A1",
+    "header": "1930 (30/11) FUR OKM 3 TEILE",
+    "baseline_body_field": "26YXX",
+    "prior_interpreted_field": "3?X11",
+    "assumption": "The opening field after ABENDMELDG V is a valid November date.",
+    "pair": "GA",
+    "plaintext_index": 14,
+    "source_indices": [
+      72,
+      158
+    ]
+  },
+  "historical_source": {
+    "author": "Béla Barkóczy-Klopsch",
+    "title": "Mackensen vezértábornagy hadseregének átvonulása Magyarországon az összeomlás után",
+    "publisher": "Budapest: Stephaneum",
+    "year": 1923,
+    "series": "A Kis Akadémia könyvtára, XLIII",
+    "url": "https://real-eod.mtak.hu/8911/1/MTA_AKisAkademiaKonyvtara_043.pdf",
+    "pdf_sha256": "6c0a67ac0cff61094fe7d051351e6260efe8fadd37f6b15fb0bd8de3946ce2ff",
+    "pdf_bytes": 23157448,
+    "copy_note": "The institutional scan includes a later three-page introduction. Cited pages are in the main 1923 text; printed p11/p22/p28 correspond to PDF p15/p26/p32.",
+    "access": "Original page images visually checked; downloaded institutional scan. The MTDA digital reset was used to locate passages and then checked against the scan.",
+    "source_character": "A retrospective military study citing official Hungarian military archives and demobilization records on main-text p3; not a contemporary counterpart of these telegrams.",
+    "evidence": [
+      {
+        "printed_page": 11,
+        "claim": "The order of battle lists the 7th Bavarian cavalry brigade and the 89th Infantry Division."
+      },
+      {
+        "printed_page": 22,
+        "claim": "The account dates a Hungarian cabinet decision to stop German transport to 29 November 1918."
+      },
+      {
+        "printed_page": 28,
+        "claim": "In the 16 December situation, the 11th Army railway transports around Szolnok contain the 217th, 219th and 6th Reserve divisions.",
+        "boundary": "Later than the telegram; used for formation identity, not proof of the 30 November locations."
+      }
+    ],
+    "crops": [
+      {
+        "path": "sources/barkoczy_p11.png",
+        "printed_page": 11,
+        "pdf_page_1based": 15,
+        "clip_pdf_points": [
+          18,
+          145,
+          335,
+          333
+        ],
+        "scale": 2,
+        "sha256": "f821d02cdae5cb7f68480c732374ba897d6907d5a3491520a96d153e4fc42595",
+        "pixel_sha256": "ceeee9f7727661b1ff276ce61a8cda4cd8b22076d08221a91f19c2adec075935",
+        "width": 634,
+        "height": 376
+      },
+      {
+        "path": "sources/barkoczy_p22.png",
+        "printed_page": 22,
+        "pdf_page_1based": 26,
+        "clip_pdf_points": [
+          25,
+          135,
+          340,
+          222
+        ],
+        "scale": 2,
+        "sha256": "074a882cfc22846bccbe24551c6501078d5eb2eb5714ac38cd61058cd2438926",
+        "pixel_sha256": "81f79be1049b2529df20d7bef2b34378e8549b3d1cef7560210302f38486cee1",
+        "width": 630,
+        "height": 174
+      },
+      {
+        "path": "sources/barkoczy_p28.png",
+        "printed_page": 28,
+        "pdf_page_1based": 32,
+        "clip_pdf_points": [
+          24,
+          279,
+          346,
+          455
+        ],
+        "scale": 2,
+        "sha256": "0bdfc57631306cccdee69be5c227d2103db95b4158aa46623861b83356ef5699",
+        "pixel_sha256": "173ff01d61a4e2873042da3cfed2ddd43889c92f88bba3cd0ac8dd66b1aa5bf6",
+        "width": 644,
+        "height": 352
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "p225_B2",
+      "inputs": "experiments/regimental_journey_report/inputs.json",
+      "certificate": "experiments/late_november_joint_completion/certificates.json",
+      "edition": "shared_J",
+      "earlier_substitutions": 0,
+      "earlier_fills": 0,
+      "new_fixed_positions": 1
+    },
+    {
+      "id": "p227_D",
+      "inputs": "experiments/avoid_fighting_instruction/inputs.json",
+      "certificate": "experiments/late_november_joint_completion/certificates.json",
+      "edition": "shared_J",
+      "earlier_substitutions": 2,
+      "earlier_fills": 0,
+      "new_fixed_positions": 1
+    },
+    {
+      "id": "p229_A1",
+      "inputs": "experiments/late_transport_dispatches/inputs.json",
+      "certificate": "experiments/late_transport_dispatches/certificates.json",
+      "edition": "edition",
+      "earlier_substitutions": 1,
+      "earlier_fills": 0,
+      "new_fixed_positions": 2
+    },
+    {
+      "id": "p229_A2",
+      "inputs": "experiments/late_transport_dispatches/inputs.json",
+      "certificate": "experiments/late_transport_dispatches/certificates.json",
+      "edition": "edition",
+      "earlier_substitutions": 1,
+      "earlier_fills": 1,
+      "new_fixed_positions": 0
+    },
+    {
+      "id": "p229_A3",
+      "inputs": "experiments/late_transport_dispatches/inputs.json",
+      "certificate": "experiments/late_transport_dispatches/certificates.json",
+      "edition": "edition",
+      "earlier_substitutions": 2,
+      "earlier_fills": 0,
+      "new_fixed_positions": 0
+    },
+    {
+      "id": "p229_B1",
+      "inputs": "experiments/late_transport_dispatches/inputs.json",
+      "certificate": "experiments/late_transport_dispatches/certificates.json",
+      "edition": "edition",
+      "earlier_substitutions": 1,
+      "earlier_fills": 2,
+      "new_fixed_positions": 2
+    },
+    {
+      "id": "p229_B2",
+      "inputs": "experiments/late_transport_dispatches/inputs.json",
+      "certificate": "experiments/late_transport_dispatches/certificates.json",
+      "edition": "edition",
+      "earlier_substitutions": 6,
+      "earlier_fills": 5,
+      "new_fixed_positions": 2
+    },
+    {
+      "id": "p230_A3",
+      "inputs": "experiments/operational_recovery/inputs.json",
+      "certificate": "experiments/operational_recovery/certificates.json",
+      "edition": "edition",
+      "earlier_substitutions": 7,
+      "earlier_fills": 0,
+      "new_fixed_positions": 0
+    },
+    {
+      "id": "p230_A4",
+      "inputs": "experiments/operational_recovery/inputs.json",
+      "certificate": "experiments/operational_recovery/certificates.json",
+      "edition": "edition",
+      "earlier_substitutions": 1,
+      "earlier_fills": 0,
+      "new_fixed_positions": 2
+    },
+    {
+      "id": "p228_B1",
+      "inputs": "experiments/neuhof_demobilization/inputs.json",
+      "certificate": "experiments/neuhof_demobilization/certificates.json",
+      "edition": "edition",
+      "earlier_substitutions": 5,
+      "earlier_fills": 5,
+      "new_fixed_positions": 3
+    }
+  ],
+  "readable_quotes": [
+    {
+      "case": "cases/military/late_transport_dispatches.md",
+      "records": [
+        "p229_A1",
+        "p229_A2",
+        "p229_A3"
+      ],
+      "german": "Abendmeldg. v. 30.11. 6. R. D. ist mit Anfang bis Tiszafoeldvar aufgerueckt. Unterbringungsraum der 219. u. 217. I. D. unveraendert. Seit 29.11. abends sind alle Transporte auf Strecke Arad, Szolnok auf Weisung der ung. Z. T. L. angehalten worden. Die fuer heute beabsichtigten Verladungen haben daher bisher nicht stattgefunden. A. O. K. 11. 1. A."
+    },
+    {
+      "case": "cases/military/p230_A.md",
+      "records": [
+        "p230_A3",
+        "p230_A4"
+      ],
+      "german": "226. I. D. nordwestl. Hermannstadt. 16. Ldw. Div. um Muehlbach. 218. Div. im Raume Hatszeg, Livazeny. Drittens. Gen. Kdo. 63 Kronstadt. 89 und 3L3 Div. um Kronstadt. 7 bayr. Kav. Brig. um Fogaras versammelt. OKM verlegt Hauptquart. nach Muehlbach. OKM1ANRZ11U30OP."
+    }
+  ],
+  "case_fields": [
+    {
+      "id": "p225_B2",
+      "case": "cases/military/regimental_journey_report.md",
+      "start": 51,
+      "end": 53,
+      "field": "27",
+      "text": "| Arrival day | `2?` | **27** |"
+    },
+    {
+      "id": "p227_D",
+      "case": "cases/military/avoid_fighting_instruction.md",
+      "start": 118,
+      "end": 123,
+      "field": "11367",
+      "text": "| OHL reference | `1136?` | **11367** |"
+    },
+    {
+      "id": "p229_B1",
+      "case": "cases/military/late_transport_dispatches.md",
+      "start": 18,
+      "end": 19,
+      "field": "7",
+      "text": "| B1: requested motor columns | `0` | **7** |"
+    },
+    {
+      "id": "p229_B2",
+      "case": "cases/military/late_transport_dispatches.md",
+      "start": 119,
+      "end": 123,
+      "field": "7?87",
+      "text": "| B2: closing reference | `0?40` | **7?87** |"
+    },
+    {
+      "id": "p228_B1",
+      "case": "cases/military/neuhof_demobilization.md",
+      "start": 25,
+      "end": 29,
+      "field": "P067",
+      "text": "| Order reference | `P680` | **P067** |"
+    },
+    {
+      "id": "p228_B1",
+      "case": "cases/military/neuhof_demobilization.md",
+      "start": 75,
+      "end": 77,
+      "field": "?7",
+      "text": "| Flak unit field | `?0` | **?7** |"
+    }
+  ],
+  "limits": [
+    "Both assignments extend the existing historical numeral, separator, lexical Y/Q and shared FA=J interpretation; the published period key is unchanged.",
+    "GA=0 assumes the opening field is a valid November date. The printed originating header independently gives 30/11.",
+    "VG=7 is a contextual formation identification, jointly compatible with the two native telegram fields; no contemporaneous complete key is supplied.",
+    "The account also supports the existing 5-to-9 interpretation through its 89th Division and 29 November transport decision; neither is counted as a newly assigned cell.",
+    "All 13 newly fixed numeral positions use complete originally observed coordinate pairs. Earlier word repairs and source-mask fills remain separately counted.",
+    "DX and FX still permute 4 and 5 globally. Existing garbles including 3L3, source erasures and unresolved references remain."
+  ]
+}

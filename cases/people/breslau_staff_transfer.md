@@ -10,6 +10,12 @@ directly, and requests notification to another corps command. Its name,
 rank and formation fields contain raw published-square labels whose
 historical interpretation is kept separate from the ordinary-word reading.
 
+The later [Article XII numeral interpretation](../../experiments/nov25_treaty_digits/README.md)
+reads the addressee as `AOK11`, using the two received `FX` pairs without
+source changes. Together with the earlier `VD=J` letter interpretation,
+the opening addresses the 11th Army command and identifies the officer's
+rank as Major. His surname and corps numbers remain unresolved.
+
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher
 System*, printed p224 C, PDF p227. The header reads
 `UKS v BSL (00.13 a.m., November 28th)`, followed by the undated origin
@@ -128,25 +134,30 @@ numeral and `J/Q/Y` positions as well: **16 physical source occurrences**,
 with **14** remaining in the ordinary-word candidates. The two removed
 occurrences are the separately repaired `0ER` and `GESCHAEFT9`.
 
-### Breslau's VI Army Corps command: older primary context
+<a id="breslaus-vi-army-corps-command-older-primary-context"></a>
 
-The project had already located a decree of the **VI Army Corps deputy
-general command**, dated **Breslau, July 6, 1917**, in *Waldenburger
-Wochenblatt*, no. 165, **July 18, 1917**, PDF p8. Its title and decree crops
-were independently inspected for this edition. The decree is signed by
-von Heinemann, Generalleutnant. The
-[primary scan](https://jbc.jelenia-gora.pl/Content/51388/52552_waldenburger_wochenblatt_1917-165.pdf)
-and [preserved context](../../experiments/boots_request/breslau_context/source.json)
-establish a contemporary VI Army Corps deputy-command association with
-Breslau.
+### The VI Army Corps command in November 1918
 
-If the p224 recipient is that institutional command, and its received
-pair is correctly copied under the period key, the raw `7` at `GA` would
-denote `6`. This remains a conditional location-based inference. The
-primary decree is **sixteen months earlier**, not a 1918 decree, and the
-p224 abbreviation does not itself include `stellvertretend`. The decree
-neither proves continuity to the intercept date nor identifies its officer.
-This source edition applies no global key assignment from that evidence.
+*Der Gebirgsbote*, no. 129, **13 November 1918**, p1, publishes joint
+orders of the Breslau soldiers council and the deputy general command
+of **VI Army Corps**, dated Breslau, **11 November 1918**. The
+[original scan](https://bibliotekacyfrowa.pl/Content/60534/PDF/directory.pdf),
+[masthead](../../experiments/nov25_treaty_digits/sources/gebirgsbote_1918_129_title.png)
+and [decree crop](../../experiments/nov25_treaty_digits/sources/breslau_vi_corps_nov11.png)
+place that command in Breslau during the month of the intercept. The
+command signs through Freiherr von Egloffstein; Voigt and Berg sign for
+the soldiers council.
+
+Identifying the telegram's Breslau recipient with this command gives
+`6XAXKXBRESLAU` from the received pairs. The
+[optional `GA=6` layer](../../experiments/nov25_treaty_digits/breslau_certificate.json)
+propagates that identification through the same 23-record set without
+source changes. It also gives `6?` for the first German-bank mark amount
+in the [lei-redemption proposal](../finance/lei_note_exchange.md).
+
+The earlier [July 1917 decree](../../experiments/boots_request/breslau_context/source.json)
+provided the initial institutional lead. The November source supplies the
+closer dated witness; neither decree identifies the officer named in p224.
 
 ### Surname spelling: an OCR lead without identity confirmation
 

@@ -9,6 +9,12 @@ Constantinople and Haidarpascha: their return transport, strength, condition
 and special requirements. It also requests acknowledgment. Almost the whole
 ordinary-language body is readable directly from the received coordinates.
 
+The later [Article XII numeral interpretation](../../experiments/nov25_treaty_digits/README.md)
+reads the closing field as `OHLXROEMX1AX11??2XGEHXOPXX`, with four newly
+interpreted numeral positions and no added source change. The two middle
+digits of the reference remain unassigned. The ordinary-word `JEDE`
+reading has its own earlier [letter constraint](../../experiments/nov25_letter_constraint/README.md).
+
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 [printed p222, PDF p225](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
 The [preserved source image](../../experiments/liman_troop_reports/sources/childs_p222_A.png)

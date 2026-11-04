@@ -41,8 +41,8 @@ Ship-sale terms reveal who could authorize a sale, how payment was to work and w
 | [p123 A2](p120_p123.md) | CONDITIONAL | Responsibility for further Notschreie declined |
 | [p123 A3](p120_p123.md) | CONDITIONAL | Follow instructions; report plans after political change |
 | [p147 A](motorboat_sale_attempt.md#p147-a) | READING | Try to sell the motorboat designated ROEM Q5 |
-| [p155 A1](../context/p155.md) | PARTIAL | Asgard arrival at Poti and troop pickup |
-| [p155 A2](../context/p155.md) | CONDITIONAL | Asgard/Tresivolus shipping continuation |
+| [p155 A1](../context/p155.md#completed-reading) | CONDITIONAL | Asgard arrival at Poti and troop pickup |
+| [p155 A2](../context/p155.md#completed-reading) | CONDITIONAL | Asgard/Tresivolus shipping continuation |
 | [p165 A1](corcovado_sale_terms.md) | READING | Proposed Corcovado sale for Hamburg-Amerika Line; directly observed 10 million hull price |
 | [p165 A2](corcovado_sale_terms.md) | READING | Corcovado inventory valuation, as-is condition, exclusions and seizure risk |
 | [p165 A3](corcovado_sale_terms.md) | READING | Seizure risk, seven-month interest deadline and right of recovery for nonpayment |

@@ -5,6 +5,10 @@
 Source edition and verification: **icekylinx and GPT-6 Astra Pro**.
 The published Nov7–9 period key retains its original attribution.
 
+## Conditional digit reading
+
+Under the [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md), this requests **50 copies of each listed sheet at 1:75,000**. The alternative square gives 60 copies at 1:76,000. The reference comparison selects the first reading conditionally, with no additional source edit or fill.
+
 ## p162 B1
 
 Childs printed p162 (PDF p165) has header `UKS v ZON`, reception

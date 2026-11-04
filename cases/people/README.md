@@ -63,15 +63,15 @@ Appointments and transfers continue beside the withdrawal. Read them as evidence
 | [p149 C](glatz.md) | READING | Enquiry about Glatz's whereabouts |
 | [p155 B](schorlemer_demobilization_inquiry.md#p155-b) | READING | Von Schorlemer cannot currently be released from the administrative staff |
 | [p159 D](kremp.md) | READING | Kremp recovered and requests a departure date |
-| [p160 D1](awaloff_return_request.md#p160-d1) | PARTIAL | Request for Awaloff to come to Berlin |
+| [p160 D1](awaloff_return_request.md#p160-d1) | CONDITIONAL | Request for Awaloff to come to Berlin |
 | [p161 A2](awaloff_return_request.md#p161-a2) | PARTIAL | Request for Awaloff to come to Berlin |
 | [p161 B1](constantinople_urgent_address.md#p161-b1) | READING | Urgent Constantinople embassy address; Gez. Stumm, part1 only |
-| [p161 C1](military_mission_recalls.md) | PARTIAL | Siegfried posting cancellation, first part |
+| [p161 C1](military_mission_recalls.md) | CONDITIONAL | Siegfried posting cancellation, first part |
 | [p161 C2](military_mission_recalls.md) | READING | Siegfried mission assignment cancelled and cabinet-order closing |
 | [p161 D1](military_mission_recalls.md) | READING | Osthoff posting and mission assignment cancelled |
 | [p161 D2](military_mission_recalls.md) | READING | Osthoff railway battalion reassignment and cabinet-order closing |
 | [p162 D1](constantinople_embassy_signature.md#p162-d1) | READING | German embassy Constantinople; signature Stumm, part1 only |
-| [p167 D](p167_captain_dispatch_fragment.md#p167-d) | CONDITIONAL | Captain and replacement-detachment dispatch fragment |
+| [p167 D](p167_captain_dispatch_fragment.md#conditional-name-proposal) | CONDITIONAL | Captain and replacement-detachment dispatch fragment |
 | [p171 C](namur_order_witnesses.md) | READING | Namur order for Staedt to contact HPT V. Weiher; complementary source witness |
 | [p172 E](namur_order_witnesses.md) | CONDITIONAL | Namur order for Staedt to contact HPT V. Weiher; complementary source witness |
 | [p175 A1](spa_berlin_delegates.md#p175-a1) | READING | Delegates directed through Spa: Namur and von Weiher address |
@@ -85,6 +85,6 @@ Appointments and transfers continue beside the withdrawal. Read them as evidence
 | [p221 B3](constantinople_civilians.md) | READING | Troop-transport enquiry and request to allow German civilians to remain in Turkey |
 | [p221 B4](constantinople_civilians.md) | CONDITIONAL | Appeal referred to Allies and Supreme War Council; civilian transit through Ukraine impossible |
 | [p224 C1](breslau_staff_transfer.md) | READING | Staff officer raw STRZEMIECZNQ transferred from acting corps chief-of-staff duties |
-| [p224 C2](breslau_staff_transfer.md) | READING | Special employment with Breslau command; separate historical VI Corps context |
+| [p224 C2](breslau_staff_transfer.md) | CONDITIONAL | Special employment with Breslau command; separate historical VI Corps context |
 
 </details>

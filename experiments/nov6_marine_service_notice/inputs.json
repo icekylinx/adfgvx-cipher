@@ -141,8 +141,8 @@
       "height": 624,
       "rgb_sha256": "b6e9f34f568c8b30c85c2867ce8f5c5efe0d9b875072359308a7aed4cc2a236b",
       "channels": 3,
-      "storage": "external_pdf_reference",
-      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+      "storage": "embedded_png",
+      "path_role": "Reviewed crop bound to the pinned source PDF by its PNG and RGB hashes."
     },
     {
       "path": "sources/p138_stroke_detail.png",
@@ -160,8 +160,8 @@
       "height": 168,
       "rgb_sha256": "c4abeea2b3dfa6925c67bff5b5e5d79a12daa008bc4c51d08db20df418f5cf12",
       "channels": 3,
-      "storage": "external_pdf_reference",
-      "path_role": "Reference to the reviewed local crop; no PNG file is distributed by this text-only source edition."
+      "storage": "embedded_png",
+      "path_role": "Reviewed crop bound to the pinned source PDF by its PNG and RGB hashes."
     }
   ],
   "headers": [
@@ -189,9 +189,8 @@
     "Earlier key recovery and repository work retain credit. This is a conditional source restoration, not a first decipherment."
   ],
   "source_evidence_delivery": {
-    "mode": "external_pdf_reference",
-    "distributed_new_image_bytes": false,
-    "default_verification": "Source transcription, cryptographic arithmetic and evidence metadata are checked. Source pixels are unchecked without --pdf.",
-    "original_pdf_verification": "With --pdf, verify the complete PDF byte count/SHA-256 and actual rendered crop RGB hashes and dimensions. No missing local PNG is treated as verified."
+    "mode": "embedded_png",
+    "default_verification": "Source transcription, cryptographic arithmetic, local PNG bytes and RGB hashes are checked. Comparison with source-PDF pixels requires --pdf.",
+    "original_pdf_verification": "With --pdf, verify the complete PDF byte count and SHA-256, then compare both rendered crops with their recorded RGB hashes and embedded PNG pixels."
   }
 }

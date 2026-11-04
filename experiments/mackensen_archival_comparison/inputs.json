@@ -1,0 +1,72 @@
+{
+  "schema": "adfgvx-mackensen-archival-comparison-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/corpus_extension/inputs.json": "886396d76a224f59dc16d7cf57b73654f45f1a200b93d20216b5f7e68953f11e",
+    "experiments/corpus_extension/certificates.json": "dc852929f04f8662cd7893d0d0faa0480fc40ae2253a34a7de43f5c33512376c",
+    "experiments/corpus_extension/sources/p227_A4.png": "7aeaa21c4addeab59b068de930a886cd8e564e83d4749af7e9c2864130eff4d6"
+  },
+  "case": "cases/military/mackensen_internment.md",
+  "documentary_source": {
+    "editors": [
+      "Gerhard Engel",
+      "Bärbel Holtz",
+      "Ingo Materna"
+    ],
+    "title": "Groß-Berliner Arbeiter- und Soldatenräte in der Revolution 1918/19: Dokumente der Vollversammlungen und des Vollzugsrates. Vom Ausbruch der Revolution bis zum 1. Reichsrätekongreß",
+    "publisher": "Akademie Verlag",
+    "copyright_year": 1993,
+    "electronic_reprint_year": 2014,
+    "doi": "10.1515/9783050068831.400",
+    "document_number": 96,
+    "printed_pages": [
+      461,
+      462
+    ],
+    "document_dateline": "Berlin, den 28.11.18",
+    "dispatch_date_from_editorial_note": "1918-11-29",
+    "record_type": "Typescript carbon copy",
+    "archive_reference_in_accessed_OCR": "B AP, St 11H, Bl. 220",
+    "shelfmark_glyphs_checked_against_page_image": false,
+    "accessed": "2026-11-04",
+    "transcription_url": "https://dokumen.pub/gro-berliner-arbeiter-und-soldatenrte-in-der-revolution-1918-19-dokumente-der-vollversammlungen-und-des-vollzugsrates-vom-ausbruch-der-revolution-bis-zum-1-reichsrtekongre-reprint-2014nbsped-9783050068831-9783050022475.html",
+    "review_scope": "Published indexed transcription and publisher metadata; archival original and printed page images not inspected.",
+    "short_comparison_excerpts": [
+      "Faktoren",
+      "Waffenstillstandsvertrages",
+      "Molkenbuhr Richard Müller"
+    ]
+  },
+  "signatures": [
+    {
+      "raw": "SOLKENBUHR",
+      "supported_surname": "MOLKENBUHR",
+      "plaintext_start": 176,
+      "documentary_signature": "Molkenbuhr"
+    },
+    {
+      "raw": "MNELLER",
+      "supported_surname": "MUELLER",
+      "plaintext_start": 187,
+      "documentary_signature": "Richard Müller"
+    }
+  ],
+  "noun_variants": {
+    "raw": "SMUTIONEN",
+    "earlier_publication": "SITUATIONEN",
+    "archival_counterpart": "FAKTOREN"
+  },
+  "case_table_rows": [
+    "| `SOLKENBUHR` | Molkenbuhr | 71: V→F |",
+    "| `MNELLER` | Richard Müller | 269: G→D |"
+  ],
+  "limits": [
+    "These surname proposals already existed; no new cipher position is claimed.",
+    "Richard is supplied by the documentary counterpart, not by ciphertext.",
+    "The distinct noun lengths and other wording differences prevent treating the archival version as a literal source repair."
+  ]
+}

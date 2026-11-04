@@ -1,0 +1,753 @@
+{
+  "schema": "adfgvx-late-november-joint-certificate-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "input_sha256": "e13d98f4c0b6fc191ff9e42c52fc211b47dbefc571a5fd1821e3bd5f9d83fce2",
+  "indexing": "Zero-based source and plaintext positions.",
+  "service_completion": {
+    "id": "p225_A",
+    "literal": "FVFXFFAVGFVFXVVXVVDGXFVGFVXGAVDDFGAGFGFDGFGGFGFFVDGGGAGGGDXDDGGFVFVX-VXDXFDVFVGXAFAXXGXDFGVFGGDFFAVVADGAXDFGVR-DDVGXXXVFGVFGFGVFGXGFVAAGXDAGAGVGGGVVVVXVGGXGVGGAGVAG-GGGVGAFV--VFFFAVAAAAVDVGXXVFVDVAVFDFDFGDVXGVDFFVFGGFAFFXFADFAAGXGFV",
+    "raw": "STATI?NUKSCHIFFRABERSTENDEZMITNSLNOVYD?DEZTAFELNNOCHNICGTEINGEGANG?NYBITTE?EL?GDANUNSEBENFALLSMITNSLNOVSCHLUES?ELNYY",
+    "raw_fixed": 110,
+    "positions": 116,
+    "fill_support": [
+      {
+        "plaintext_index": 5,
+        "symbol": "O",
+        "word": "STATION",
+        "source_indices": [
+          59,
+          174
+        ],
+        "pair": "D?",
+        "domain": "59FHOQ"
+      },
+      {
+        "plaintext_index": 38,
+        "symbol": "A",
+        "word": "DA",
+        "source_indices": [
+          77,
+          164
+        ],
+        "pair": "V?",
+        "domain": "0AEJRZ"
+      },
+      {
+        "plaintext_index": 66,
+        "symbol": "E",
+        "word": "EINGEGANGEN",
+        "source_indices": [
+          22,
+          109
+        ],
+        "pair": "V?",
+        "domain": "0AEJRZ"
+      },
+      {
+        "plaintext_index": 74,
+        "symbol": "T",
+        "word": "TELEGD",
+        "source_indices": [
+          23,
+          110
+        ],
+        "pair": "G?",
+        "domain": "46LTVX"
+      },
+      {
+        "plaintext_index": 77,
+        "symbol": "E",
+        "word": "TELEGD",
+        "source_indices": [
+          68,
+          183
+        ],
+        "pair": "?A",
+        "domain": "1567BE"
+      },
+      {
+        "plaintext_index": 110,
+        "symbol": "S",
+        "word": "SCHLUESSELN",
+        "source_indices": [
+          86,
+          173
+        ],
+        "pair": "X?",
+        "domain": "BCKMSW"
+      }
+    ],
+    "filled_plaintext": "STATIONUKSCHIFFRABERSTENDEZMITNSLNOVYDADEZTAFELNNOCHNICGTEINGEGANGENYBITTETELEGDANUNSEBENFALLSMITNSLNOVSCHLUESSELNYY",
+    "source_mask_fills": [
+      {
+        "source_index": 68,
+        "literal": "-",
+        "to": "V"
+      },
+      {
+        "source_index": 109,
+        "literal": "R",
+        "to": "A"
+      },
+      {
+        "source_index": 110,
+        "literal": "-",
+        "to": "F"
+      },
+      {
+        "source_index": 164,
+        "literal": "-",
+        "to": "D"
+      },
+      {
+        "source_index": 173,
+        "literal": "-",
+        "to": "V"
+      },
+      {
+        "source_index": 174,
+        "literal": "-",
+        "to": "D"
+      }
+    ],
+    "filled_ciphertext": "FVFXFFAVGFVFXVVXVVDGXFVGFVXGAVDDFGAGFGFDGFGGFGFFVDGGGAGGGDXDDGGFVFVXVVXDXFDVFVGXAFAXXGXDFGVFGGDFFAVVADGAXDFGVAFDDVGXXXVFGVFGFGVFGXGFVAAGXDAGAGVGGGVVVVXVGGXGVGGAGVAGDGGGVGAFVVDVFFFAVAAAAVDVGXXVFVDVAVFDFDFGDVXGVDFFVFGGFAFFXFADFAAGXGFV",
+    "filled_fixed": 116,
+    "filled_observed_substitutions": [],
+    "word_plaintext": "STATIONUKSCHIFFRABERSTENDEZMITNSLNOVYDADEZTAFELNNOCHNICHTEINGEGANGENYBITTETELEGRANUNSEBENFALLSMITNSLNOVSCHLUESSELNYY",
+    "word_observed_substitutions": [
+      {
+        "source_index": 6,
+        "from": "A",
+        "to": "D"
+      },
+      {
+        "source_index": 9,
+        "from": "F",
+        "to": "V"
+      }
+    ],
+    "word_ciphertext": "FVFXFFDVGVVFXVVXVVDGXFVGFVXGAVDDFGAGFGFDGFGGFGFFVDGGGAGGGDXDDGGFVFVXVVXDXFDVFVGXAFAXXGXDFGVFGGDFFAVVADGAXDFGVAFDDVGXXXVFGVFGFGVFGXGFVAAGXDAGAGVGGGVVVVXVGGXGVGGAGVAGDGGGVGAFVVDVFFFAVAAAAVDVGXXVFVDVAVFDFDFGDVXGVDFFVFGGFAFFXFADFAAGXGFV",
+    "word_fixed": 116,
+    "readable_german": "Station UKS chiffr. ab ersten Dez. mit NSL Nov., da Dez.-Tafeln noch nicht eingegangen. Bitte Telegr. an uns ebenfalls mit NSL Nov. schluesseln.",
+    "published_key_changed": false
+  },
+  "shared_J": {
+    "prior_square": "Y63GPX9OQHF??UDNI??8TLV1EAR?2ZBKMCSW",
+    "square": "Y63GPX9OQHF?JUDNI??8TLV1EAR?2ZBKMCSW",
+    "remaining_symbols": "0457",
+    "prior_global_assignments": 120,
+    "global_assignments": 24,
+    "records": [
+      {
+        "id": "p225_B2",
+        "source_slots": 212,
+        "literal": "GVVFFDFDFVDVGFFXVFVXVAVFFAVAAAGGFGAGFDXXVXVVGFVFAFGAFVAFDFVADFGAAGXGFDFXVDVFVAVFFAVVGVVDAVFXGGGFVAFAXADFXGAVXFFGFVFGFAADAGAVFDGGFXGVXDVADAGGFAVGGGVFDDGGAVADAXVAXGGVDXDFFGXFDVFVXFVAFGVFFAAAXAGVVGFVFVVDFVFVFVVVXAFA",
+        "baseline": "VONPOEST7ENYIYTRENCSENUEBERPUHOINSILEININDERNACHTAMJ0YEINGETROFFENY1EDEUNTERSTUETZUNGGEFUNDENYYRYIYRGTJXYY",
+        "prior_interpreted": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM2?XEINGETROFFENX?EDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+        "new_interpreted": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM2?XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+        "word_interpreted": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM2?XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+        "fixed_before_J": 104,
+        "fixed_after_J": 105,
+        "original_pair_support": {
+          "plaintext_index": 67,
+          "source_indices": [
+            194,
+            48
+          ],
+          "pair": "FA",
+          "domain": "J"
+        },
+        "baseline_J_repairs": [
+          {
+            "source_index": 48,
+            "from": "A",
+            "to": "V"
+          },
+          {
+            "source_index": 194,
+            "from": "F",
+            "to": "V"
+          }
+        ],
+        "baseline_all_word_repairs": [
+          {
+            "source_index": 48,
+            "from": "A",
+            "to": "V"
+          },
+          {
+            "source_index": 194,
+            "from": "F",
+            "to": "V"
+          }
+        ],
+        "new_word_repairs": [],
+        "new_ciphertext": "GVVFFDFDFVDVGFFXVFVXVAVFFAVAAAGGFGAGFDXXVXVVGFVFAFGAFVAFDFVADFGAAGXGFDFXVDVFVAVFFAVVGVVDAVFXGGGFVAFAXADFXGAVXFFGFVFGFAADAGAVFDGGFXGVXDVADAGGFAVGGGVFDDGGAVADAXVAXGGVDXDFFGXFDVFVXFVAFGVFFAAAXAGVVGFVFVVDFVFVFVVVXAFA",
+        "global_witness_count": 24,
+        "global_witnesses": [
+          {
+            "remaining_assignment": {
+              "DX": "0",
+              "FX": "4",
+              "GA": "5",
+              "VG": "7"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM27XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM27XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "0",
+              "FX": "4",
+              "GA": "7",
+              "VG": "5"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM25XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM25XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "0",
+              "FX": "5",
+              "GA": "4",
+              "VG": "7"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM27XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM27XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "0",
+              "FX": "5",
+              "GA": "7",
+              "VG": "4"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM24XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM24XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "0",
+              "FX": "7",
+              "GA": "4",
+              "VG": "5"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM25XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM25XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "0",
+              "FX": "7",
+              "GA": "5",
+              "VG": "4"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM24XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM24XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "4",
+              "FX": "0",
+              "GA": "5",
+              "VG": "7"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM27XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM27XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "4",
+              "FX": "0",
+              "GA": "7",
+              "VG": "5"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM25XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM25XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "4",
+              "FX": "5",
+              "GA": "0",
+              "VG": "7"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM27XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM27XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "4",
+              "FX": "5",
+              "GA": "7",
+              "VG": "0"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM20XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM20XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "4",
+              "FX": "7",
+              "GA": "0",
+              "VG": "5"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM25XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM25XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "4",
+              "FX": "7",
+              "GA": "5",
+              "VG": "0"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM20XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM20XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "5",
+              "FX": "0",
+              "GA": "4",
+              "VG": "7"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM27XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM27XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "5",
+              "FX": "0",
+              "GA": "7",
+              "VG": "4"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM24XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM24XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "5",
+              "FX": "4",
+              "GA": "0",
+              "VG": "7"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM27XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM27XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "5",
+              "FX": "4",
+              "GA": "7",
+              "VG": "0"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM20XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM20XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "5",
+              "FX": "7",
+              "GA": "0",
+              "VG": "4"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM24XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM24XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "5",
+              "FX": "7",
+              "GA": "4",
+              "VG": "0"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM20XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM20XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "7",
+              "FX": "0",
+              "GA": "4",
+              "VG": "5"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM25XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM25XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "7",
+              "FX": "0",
+              "GA": "5",
+              "VG": "4"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM24XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM24XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "7",
+              "FX": "4",
+              "GA": "0",
+              "VG": "5"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM25XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM25XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "7",
+              "FX": "4",
+              "GA": "5",
+              "VG": "0"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM20XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM20XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "7",
+              "FX": "5",
+              "GA": "0",
+              "VG": "4"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM24XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM24XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "7",
+              "FX": "5",
+              "GA": "4",
+              "VG": "0"
+            },
+            "native_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM20XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX",
+            "edited_plaintext": "VONPOESTYENXIXTRENCSENUEBERPUHOINSILEININDERNACHTAM20XEINGETROFFENXJEDEUNTERSTUETZUNGGEFUNDENXXRXIXRGT21XX"
+          }
+        ],
+        "readable_german": "Von POESTYEN I TRENCSEN ueber PUHO in SILEIN in der Nacht am 2? eingetroffen. Jede Unterstuetzung gefunden. R I RGT21."
+      },
+      {
+        "id": "p227_D",
+        "source_slots": 272,
+        "literal": "XVVFAVFDDVFVGAGDAXVFAVGVDVVDAXDDVVDAFVAVVGVFGVFAXFVXGGXFVGAGFFXAGGGGFFXXVVVVAFVFVVVDADVGGXXFFDAFGDFGAAAFAAVAGVDAFAGXXDXFAVGAFAGDADXADGGDDVVFVDFADVFFVVAAADVAFFXFAFFGGAVDDVDGGVDAXGXDXAVGXAGVAGFFFVDVGGFGGXXXDFVVDFADXGAVAADGXXDVGFVFVVFFAVDDAVADXAVGFVFVGXVGGAFVGDFXVAFVFXVDAGVA",
+        "baseline": "OKMYAUFBEFEHLDERREICHSLEITGYIST1EDERKAMPFZTVERMEIDENYEINGEHENAUFFRANZYFORDERUNGENNOTWENDIGYWEITEREBEFEHLEFOLGENYYOHLXAXX280GEHYOPJANGYYY",
+        "prior_interpreted": "OKMXAUFBEFEHLDERREICHSLEITGXIST?EDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A1136?GEHXOP2ANGXXX",
+        "new_interpreted": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A1136?GEHXOP2ANGXXX",
+        "word_interpreted": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A1136?GEHXOP2ANGXXX",
+        "fixed_before_J": 134,
+        "fixed_after_J": 135,
+        "original_pair_support": {
+          "plaintext_index": 31,
+          "source_indices": [
+            3,
+            105
+          ],
+          "pair": "FA",
+          "domain": "J"
+        },
+        "baseline_J_repairs": [
+          {
+            "source_index": 3,
+            "from": "F",
+            "to": "V"
+          },
+          {
+            "source_index": 105,
+            "from": "A",
+            "to": "V"
+          }
+        ],
+        "baseline_all_word_repairs": [
+          {
+            "source_index": 3,
+            "from": "F",
+            "to": "V"
+          },
+          {
+            "source_index": 22,
+            "from": "G",
+            "to": "F"
+          },
+          {
+            "source_index": 105,
+            "from": "A",
+            "to": "V"
+          },
+          {
+            "source_index": 124,
+            "from": "F",
+            "to": "D"
+          }
+        ],
+        "new_word_repairs": [
+          {
+            "source_index": 22,
+            "from": "G",
+            "to": "F"
+          },
+          {
+            "source_index": 124,
+            "from": "F",
+            "to": "D"
+          }
+        ],
+        "new_ciphertext": "XVVFAVFDDVFVGAGDAXVFAVFVDVVDAXDDVVDAFVAVVGVFGVFAXFVXGGXFVGAGFFXAGGGGFFXXVVVVAFVFVVVDADVGGXXFFDAFGDFGAAAFAAVAGVDAFAGXXDXFAVGADAGDADXADGGDDVVFVDFADVFFVVAAADVAFFXFAFFGGAVDDVDGGVDAXGXDXAVGXAGVAGFFFVDVGGFGGXXXDFVVDFADXGAVAADGXXDVGFVFVVFFAVDDAVADXAVGFVFVGXVGGAFVGDFXVAFVFXVDAGVA",
+        "global_witness_count": 24,
+        "global_witnesses": [
+          {
+            "remaining_assignment": {
+              "DX": "0",
+              "FX": "4",
+              "GA": "5",
+              "VG": "7"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11367GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11367GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "0",
+              "FX": "4",
+              "GA": "7",
+              "VG": "5"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11365GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11365GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "0",
+              "FX": "5",
+              "GA": "4",
+              "VG": "7"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11367GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11367GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "0",
+              "FX": "5",
+              "GA": "7",
+              "VG": "4"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11364GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11364GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "0",
+              "FX": "7",
+              "GA": "4",
+              "VG": "5"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11365GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11365GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "0",
+              "FX": "7",
+              "GA": "5",
+              "VG": "4"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11364GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11364GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "4",
+              "FX": "0",
+              "GA": "5",
+              "VG": "7"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11367GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11367GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "4",
+              "FX": "0",
+              "GA": "7",
+              "VG": "5"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11365GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11365GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "4",
+              "FX": "5",
+              "GA": "0",
+              "VG": "7"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11367GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11367GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "4",
+              "FX": "5",
+              "GA": "7",
+              "VG": "0"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11360GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11360GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "4",
+              "FX": "7",
+              "GA": "0",
+              "VG": "5"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11365GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11365GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "4",
+              "FX": "7",
+              "GA": "5",
+              "VG": "0"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11360GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11360GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "5",
+              "FX": "0",
+              "GA": "4",
+              "VG": "7"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11367GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11367GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "5",
+              "FX": "0",
+              "GA": "7",
+              "VG": "4"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11364GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11364GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "5",
+              "FX": "4",
+              "GA": "0",
+              "VG": "7"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11367GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11367GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "5",
+              "FX": "4",
+              "GA": "7",
+              "VG": "0"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11360GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11360GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "5",
+              "FX": "7",
+              "GA": "0",
+              "VG": "4"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11364GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11364GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "5",
+              "FX": "7",
+              "GA": "4",
+              "VG": "0"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11360GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11360GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "7",
+              "FX": "0",
+              "GA": "4",
+              "VG": "5"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11365GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11365GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "7",
+              "FX": "0",
+              "GA": "5",
+              "VG": "4"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11364GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11364GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "7",
+              "FX": "4",
+              "GA": "0",
+              "VG": "5"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11365GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11365GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "7",
+              "FX": "4",
+              "GA": "5",
+              "VG": "0"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11360GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11360GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "7",
+              "FX": "5",
+              "GA": "0",
+              "VG": "4"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11364GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11364GEHXOP2ANGXXX"
+          },
+          {
+            "remaining_assignment": {
+              "DX": "7",
+              "FX": "5",
+              "GA": "4",
+              "VG": "0"
+            },
+            "native_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZTVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11360GEHXOP2ANGXXX",
+            "edited_plaintext": "OKMXAUFBEFEHLDERREICHSLEITGXISTJEDERKAMPFZUVERMEIDENXEINGEHENAUFFRANZXFORDERUNGENNOTWENDIGXWEITEREBEFEHLEFOLGENXXOHL1A11360GEHXOP2ANGXXX"
+          }
+        ],
+        "readable_german": "OKM. Auf Befehl der REICHSLEITG ist jeder Kampf zu vermeiden. Eingehen auf FRANZ Forderungen notwendig. Weitere Befehle folgen. OHL1A1136?GEH. OP2ANG."
+      }
+    ]
+  },
+  "limits": [
+    "The six p225 A fills are lexical proposals in its original 232-slot frame; all 226 valid coordinates are retained.",
+    "FA=J is a shared lexical interpretation of two complete observed pairs. It does not replace the published square.",
+    "The full interpreted square retains the prior historical, separator, Y and Q assumptions, including the queried 89th-Division evidence.",
+    "NSL and all unit/date/reference fields retain their labels or remaining domains."
+  ]
+}

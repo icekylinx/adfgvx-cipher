@@ -2,7 +2,7 @@
   "schema": "adfgvx-marine-service-notice-certificate-v1",
   "project": "ADFGVX Cipher",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "input_sha256": "d4db1193502a5eb6adf78592003fecd66f82090835cd7c4e66490b8e19134d48",
+  "input_sha256": "081bdad2dc3f0642c4b5b1e0717b62ba1b4ab9641b26dbf2a12385092aa13b49",
   "indexing": "All indices are zero-based. The literal source includes the declared narrow-stroke token. Retained-source boundaries refer to the 285-slot stream after its explicit exclusion; original-source boundaries refer to the full 286-slot transcription.",
   "summary": {
     "physical_records": 1,
@@ -22,7 +22,9 @@
     "excluded_source_mask_coordinates": 1,
     "unfilled_retained_source_mask_coordinates": 2,
     "source_reorderings": 0,
-    "published_key_changed": false
+    "published_key_changed": false,
+    "completed_conditional_fixed_positions": 143,
+    "completion_additional_source_mask_fills": 2
   },
   "records": [
     {
@@ -7106,6 +7108,2568 @@
         ],
         "corresponding_original_source_boundaries": [
           286
+        ]
+      },
+      "label_completion": {
+        "input_sha256": "91ea489c153772eecd88a9b89337887f6ecd2a4bfc2ef88f16bea72b57031418",
+        "readable_german": "Seekriegsleitung. Grosses HZYU. Admiral Berlin. Nachchef. Deutsche Marinevertr und Heeresgruppe Kiew. Osmanie ausgefallen. Alle Stellen benachrichtigen.",
+        "fields": [
+          {
+            "plaintext_index": 95,
+            "before": "?",
+            "proposed": "W",
+            "word": "KIEW",
+            "source_index": 44,
+            "printed": "C",
+            "coordinate": "F",
+            "native_domain": "17FHLW",
+            "donor": "p110_B",
+            "pair_before": "A?",
+            "source_indices": [
+              231,
+              44
+            ],
+            "pair_after": "AF"
+          },
+          {
+            "plaintext_index": 99,
+            "before": "?",
+            "proposed": "S",
+            "word": "OSMANIE",
+            "source_index": 146,
+            "printed": "O",
+            "coordinate": "X",
+            "native_domain": "23BHSV",
+            "donor": "p77_B",
+            "pair_before": "?G",
+            "source_indices": [
+              146,
+              248
+            ],
+            "pair_after": "XG"
+          }
+        ],
+        "donors": [
+          {
+            "record": "p110_B",
+            "inputs": "experiments/nov3_radio_and_pioneer/inputs.json",
+            "source_field": "literal_source",
+            "raw_field": "expected_raw",
+            "key_id": "Nov1-3",
+            "source_sha256": "1cc4551e9c37ed13022295ad197aff9d54e7f31a9f63f597ff3a3d15c80707c0",
+            "word": "KIEW",
+            "context": "HRGXKIEW",
+            "case": "cases/military/kiew_morning_and_pioneer_reports.md#p110-b",
+            "relationship": "A separate morning report has the observed closing HRG KIEW. It supports the army-group name, not an identical copy of p138 C.",
+            "plaintext_start": 56,
+            "positions": [
+              {
+                "plaintext_index": 56,
+                "pair": "VV",
+                "model_indices": [
+                  68,
+                  37
+                ],
+                "source_indices": [
+                  68,
+                  37
+                ],
+                "domain": "K",
+                "raw": "K"
+              },
+              {
+                "plaintext_index": 57,
+                "pair": "AD",
+                "model_indices": [
+                  22,
+                  124
+                ],
+                "source_indices": [
+                  22,
+                  124
+                ],
+                "domain": "I",
+                "raw": "I"
+              },
+              {
+                "plaintext_index": 58,
+                "pair": "VG",
+                "model_indices": [
+                  30,
+                  116
+                ],
+                "source_indices": [
+                  30,
+                  116
+                ],
+                "domain": "E",
+                "raw": "E"
+              },
+              {
+                "plaintext_index": 59,
+                "pair": "GF",
+                "model_indices": [
+                  53,
+                  92
+                ],
+                "source_indices": [
+                  53,
+                  92
+                ],
+                "domain": "W",
+                "raw": "W"
+              }
+            ]
+          },
+          {
+            "record": "p77_B",
+            "inputs": "experiments/source_followup/source_context.json",
+            "source_field": "raw_source_grouped",
+            "raw_field": "arithmetic.raw_plaintext",
+            "key_id": "Oct28-31",
+            "source_sha256": "e4409711ee5181a373a5868e8b560fdec79f161a6e97e7075bdae9106f47a004",
+            "word": "OSMANIE",
+            "context": "FUNKERABTLGXOSMANIE",
+            "case": "cases/context/radio_instructions.md#p77-b--call-sign-instruction-for-konia",
+            "relationship": "The October call-sign instruction directly names Funkerabtlg Osmanie. It supplies an independent station-name spelling under a different key.",
+            "plaintext_start": 51,
+            "positions": [
+              {
+                "plaintext_index": 51,
+                "pair": "FG",
+                "model_indices": [
+                  317,
+                  24
+                ],
+                "source_indices": [
+                  317,
+                  24
+                ],
+                "domain": "O",
+                "raw": "O"
+              },
+              {
+                "plaintext_index": 52,
+                "pair": "AV",
+                "model_indices": [
+                  180,
+                  43
+                ],
+                "source_indices": [
+                  180,
+                  43
+                ],
+                "domain": "S",
+                "raw": "S"
+              },
+              {
+                "plaintext_index": 53,
+                "pair": "XG",
+                "model_indices": [
+                  336,
+                  161
+                ],
+                "source_indices": [
+                  336,
+                  161
+                ],
+                "domain": "M",
+                "raw": "M"
+              },
+              {
+                "plaintext_index": 54,
+                "pair": "GV",
+                "model_indices": [
+                  103,
+                  278
+                ],
+                "source_indices": [
+                  103,
+                  278
+                ],
+                "domain": "A",
+                "raw": "A"
+              },
+              {
+                "plaintext_index": 55,
+                "pair": "XX",
+                "model_indices": [
+                  219,
+                  298
+                ],
+                "source_indices": [
+                  219,
+                  298
+                ],
+                "domain": "N",
+                "raw": "N"
+              },
+              {
+                "plaintext_index": 56,
+                "pair": "AD",
+                "model_indices": [
+                  83,
+                  123
+                ],
+                "source_indices": [
+                  83,
+                  123
+                ],
+                "domain": "I",
+                "raw": "I"
+              },
+              {
+                "plaintext_index": 57,
+                "pair": "FA",
+                "model_indices": [
+                  258,
+                  63
+                ],
+                "source_indices": [
+                  258,
+                  63
+                ],
+                "domain": "E",
+                "raw": "E"
+              }
+            ]
+          }
+        ],
+        "additional_observed_substitutions": 0,
+        "additional_source_mask_fills": 2,
+        "complete_conditional_reading": {
+          "template": "SEEKRIEGSLEITUNGGROSSESXHZYUXXADMIRALBERLINXXNACHCHEFXXDEUTSCHEXMARINEVERTRXUNDHEERESGRUPPEXKIEWXXOSMANIEAUSGEFALLENXALLESTELLENBENACHRICHTIGEN",
+          "ciphertext": "FXGFGVDFAFXFFFAVXXVFXXGXXDGVFAXXXFAXVADFGFFDFFXXAXVVXFVDFFXAFAXXADFAVDXXXVVAFDXVVXVXVAFDFFDDVADDDAFFVXGVVVXFGXVVXXVAXXFXGVVDADFXVAVFFGAXXGDAAAVAVAXGFXAAGAAGAFAXXXVFXVXVDAVGFXXDFGAVFAAGXAVVAFVDXAFAFFFFFAADAVAXFXAFXGVXAXVAFADFFVAADAAXAAFGFXFFAGDFVAFGVDAGXFXXDVXFAFGDDVXXXVVVGVXAAVDXFVAAAV",
+          "known_coordinate_substitutions": [
+            {
+              "model_index": 13,
+              "source_index": 13,
+              "printed": "A",
+              "from": "A",
+              "to": "F"
+            },
+            {
+              "model_index": 98,
+              "source_index": 98,
+              "printed": "V",
+              "from": "V",
+              "to": "F"
+            },
+            {
+              "model_index": 174,
+              "source_index": 174,
+              "printed": "D",
+              "from": "D",
+              "to": "X"
+            }
+          ],
+          "erased_coordinate_fills": [
+            {
+              "model_index": 18,
+              "source_index": 18,
+              "printed": "W",
+              "from": "?",
+              "to": "V"
+            },
+            {
+              "model_index": 44,
+              "source_index": 44,
+              "printed": "C",
+              "from": "?",
+              "to": "F"
+            },
+            {
+              "model_index": 84,
+              "source_index": 84,
+              "printed": "W",
+              "from": "?",
+              "to": "V"
+            },
+            {
+              "model_index": 110,
+              "source_index": 110,
+              "printed": "W",
+              "from": "?",
+              "to": "V"
+            },
+            {
+              "model_index": 135,
+              "source_index": 135,
+              "printed": "O",
+              "from": "?",
+              "to": "X"
+            },
+            {
+              "model_index": 146,
+              "source_index": 146,
+              "printed": "O",
+              "from": "?",
+              "to": "X"
+            },
+            {
+              "model_index": 285,
+              "source_index": null,
+              "printed": null,
+              "from": "?",
+              "to": "V"
+            }
+          ],
+          "full_plaintext_reencryption_verified": true,
+          "published_key_changed": false,
+          "raw": "SEEKRIEGSLEITUNGGROSSESXHZYUXXADMIRALBERLINXXNACHCHEFXXDEUTSCHEXMARINEVERTRXUNDHEERESGRUPPEXKIEWXXOSMANIEAUSGEFALLENXALLESTELLENBENACHRICHTIGEN",
+          "fixed_positions": 143,
+          "positions": [
+            {
+              "plaintext_index": 0,
+              "pair": "XG",
+              "model_indices": [
+                101,
+                152
+              ],
+              "source_indices": [
+                101,
+                152
+              ],
+              "domain": "S",
+              "raw": "S"
+            },
+            {
+              "plaintext_index": 1,
+              "pair": "FA",
+              "model_indices": [
+                118,
+                219
+              ],
+              "source_indices": [
+                118,
+                219
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 2,
+              "pair": "FA",
+              "model_indices": [
+                33,
+                169
+              ],
+              "source_indices": [
+                33,
+                169
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 3,
+              "pair": "FF",
+              "model_indices": [
+                253,
+                0
+              ],
+              "source_indices": [
+                254,
+                0
+              ],
+              "domain": "K",
+              "raw": "K"
+            },
+            {
+              "plaintext_index": 4,
+              "pair": "VA",
+              "model_indices": [
+                84,
+                202
+              ],
+              "source_indices": [
+                84,
+                202
+              ],
+              "domain": "R",
+              "raw": "R"
+            },
+            {
+              "plaintext_index": 5,
+              "pair": "VX",
+              "model_indices": [
+                50,
+                135
+              ],
+              "source_indices": [
+                50,
+                135
+              ],
+              "domain": "I",
+              "raw": "I"
+            },
+            {
+              "plaintext_index": 6,
+              "pair": "FA",
+              "model_indices": [
+                236,
+                67
+              ],
+              "source_indices": [
+                237,
+                67
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 7,
+              "pair": "VV",
+              "model_indices": [
+                186,
+                270
+              ],
+              "source_indices": [
+                186,
+                271
+              ],
+              "domain": "G",
+              "raw": "G"
+            },
+            {
+              "plaintext_index": 8,
+              "pair": "XG",
+              "model_indices": [
+                17,
+                102
+              ],
+              "source_indices": [
+                17,
+                102
+              ],
+              "domain": "S",
+              "raw": "S"
+            },
+            {
+              "plaintext_index": 9,
+              "pair": "AX",
+              "model_indices": [
+                153,
+                119
+              ],
+              "source_indices": [
+                153,
+                119
+              ],
+              "domain": "L",
+              "raw": "L"
+            },
+            {
+              "plaintext_index": 10,
+              "pair": "FA",
+              "model_indices": [
+                220,
+                34
+              ],
+              "source_indices": [
+                220,
+                34
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 11,
+              "pair": "VX",
+              "model_indices": [
+                170,
+                254
+              ],
+              "source_indices": [
+                170,
+                255
+              ],
+              "domain": "I",
+              "raw": "I"
+            },
+            {
+              "plaintext_index": 12,
+              "pair": "XA",
+              "model_indices": [
+                1,
+                85
+              ],
+              "source_indices": [
+                1,
+                85
+              ],
+              "domain": "T",
+              "raw": "T"
+            },
+            {
+              "plaintext_index": 13,
+              "pair": "DV",
+              "model_indices": [
+                203,
+                51
+              ],
+              "source_indices": [
+                203,
+                51
+              ],
+              "domain": "U",
+              "raw": "U"
+            },
+            {
+              "plaintext_index": 14,
+              "pair": "XX",
+              "model_indices": [
+                136,
+                237
+              ],
+              "source_indices": [
+                136,
+                238
+              ],
+              "domain": "N",
+              "raw": "N"
+            },
+            {
+              "plaintext_index": 15,
+              "pair": "VV",
+              "model_indices": [
+                68,
+                187
+              ],
+              "source_indices": [
+                68,
+                187
+              ],
+              "domain": "G",
+              "raw": "G"
+            },
+            {
+              "plaintext_index": 16,
+              "pair": "VV",
+              "model_indices": [
+                271,
+                18
+              ],
+              "source_indices": [
+                272,
+                18
+              ],
+              "domain": "G",
+              "raw": "G"
+            },
+            {
+              "plaintext_index": 17,
+              "pair": "VA",
+              "model_indices": [
+                103,
+                154
+              ],
+              "source_indices": [
+                103,
+                154
+              ],
+              "domain": "R",
+              "raw": "R"
+            },
+            {
+              "plaintext_index": 18,
+              "pair": "GA",
+              "model_indices": [
+                120,
+                221
+              ],
+              "source_indices": [
+                120,
+                221
+              ],
+              "domain": "O",
+              "raw": "O"
+            },
+            {
+              "plaintext_index": 19,
+              "pair": "XG",
+              "model_indices": [
+                35,
+                171
+              ],
+              "source_indices": [
+                35,
+                171
+              ],
+              "domain": "S",
+              "raw": "S"
+            },
+            {
+              "plaintext_index": 20,
+              "pair": "XG",
+              "model_indices": [
+                255,
+                2
+              ],
+              "source_indices": [
+                256,
+                2
+              ],
+              "domain": "S",
+              "raw": "S"
+            },
+            {
+              "plaintext_index": 21,
+              "pair": "FA",
+              "model_indices": [
+                86,
+                204
+              ],
+              "source_indices": [
+                86,
+                204
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 22,
+              "pair": "XG",
+              "model_indices": [
+                52,
+                137
+              ],
+              "source_indices": [
+                52,
+                137
+              ],
+              "domain": "S",
+              "raw": "S"
+            },
+            {
+              "plaintext_index": 23,
+              "pair": "FD",
+              "model_indices": [
+                238,
+                69
+              ],
+              "source_indices": [
+                239,
+                69
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 24,
+              "pair": "AG",
+              "model_indices": [
+                188,
+                272
+              ],
+              "source_indices": [
+                188,
+                273
+              ],
+              "domain": "H",
+              "raw": "H"
+            },
+            {
+              "plaintext_index": 25,
+              "pair": "FV",
+              "model_indices": [
+                19,
+                104
+              ],
+              "source_indices": [
+                19,
+                104
+              ],
+              "domain": "Z",
+              "raw": "Z"
+            },
+            {
+              "plaintext_index": 26,
+              "pair": "GV",
+              "model_indices": [
+                155,
+                121
+              ],
+              "source_indices": [
+                155,
+                121
+              ],
+              "domain": "Y",
+              "raw": "Y"
+            },
+            {
+              "plaintext_index": 27,
+              "pair": "DV",
+              "model_indices": [
+                222,
+                36
+              ],
+              "source_indices": [
+                222,
+                36
+              ],
+              "domain": "U",
+              "raw": "U"
+            },
+            {
+              "plaintext_index": 28,
+              "pair": "FD",
+              "model_indices": [
+                172,
+                256
+              ],
+              "source_indices": [
+                172,
+                257
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 29,
+              "pair": "FD",
+              "model_indices": [
+                3,
+                87
+              ],
+              "source_indices": [
+                3,
+                87
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 30,
+              "pair": "VF",
+              "model_indices": [
+                205,
+                53
+              ],
+              "source_indices": [
+                205,
+                53
+              ],
+              "domain": "A",
+              "raw": "A"
+            },
+            {
+              "plaintext_index": 31,
+              "pair": "DF",
+              "model_indices": [
+                138,
+                239
+              ],
+              "source_indices": [
+                138,
+                240
+              ],
+              "domain": "D",
+              "raw": "D"
+            },
+            {
+              "plaintext_index": 32,
+              "pair": "XF",
+              "model_indices": [
+                70,
+                189
+              ],
+              "source_indices": [
+                70,
+                189
+              ],
+              "domain": "M",
+              "raw": "M"
+            },
+            {
+              "plaintext_index": 33,
+              "pair": "VX",
+              "model_indices": [
+                273,
+                20
+              ],
+              "source_indices": [
+                274,
+                20
+              ],
+              "domain": "I",
+              "raw": "I"
+            },
+            {
+              "plaintext_index": 34,
+              "pair": "VA",
+              "model_indices": [
+                105,
+                156
+              ],
+              "source_indices": [
+                105,
+                156
+              ],
+              "domain": "R",
+              "raw": "R"
+            },
+            {
+              "plaintext_index": 35,
+              "pair": "VF",
+              "model_indices": [
+                122,
+                223
+              ],
+              "source_indices": [
+                122,
+                223
+              ],
+              "domain": "A",
+              "raw": "A"
+            },
+            {
+              "plaintext_index": 36,
+              "pair": "AX",
+              "model_indices": [
+                37,
+                173
+              ],
+              "source_indices": [
+                37,
+                173
+              ],
+              "domain": "L",
+              "raw": "L"
+            },
+            {
+              "plaintext_index": 37,
+              "pair": "VG",
+              "model_indices": [
+                257,
+                4
+              ],
+              "source_indices": [
+                258,
+                4
+              ],
+              "domain": "B",
+              "raw": "B"
+            },
+            {
+              "plaintext_index": 38,
+              "pair": "FA",
+              "model_indices": [
+                88,
+                206
+              ],
+              "source_indices": [
+                88,
+                206
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 39,
+              "pair": "VA",
+              "model_indices": [
+                54,
+                139
+              ],
+              "source_indices": [
+                54,
+                139
+              ],
+              "domain": "R",
+              "raw": "R"
+            },
+            {
+              "plaintext_index": 40,
+              "pair": "AX",
+              "model_indices": [
+                240,
+                71
+              ],
+              "source_indices": [
+                241,
+                71
+              ],
+              "domain": "L",
+              "raw": "L"
+            },
+            {
+              "plaintext_index": 41,
+              "pair": "VX",
+              "model_indices": [
+                190,
+                274
+              ],
+              "source_indices": [
+                190,
+                275
+              ],
+              "domain": "I",
+              "raw": "I"
+            },
+            {
+              "plaintext_index": 42,
+              "pair": "XX",
+              "model_indices": [
+                21,
+                106
+              ],
+              "source_indices": [
+                21,
+                106
+              ],
+              "domain": "N",
+              "raw": "N"
+            },
+            {
+              "plaintext_index": 43,
+              "pair": "FD",
+              "model_indices": [
+                157,
+                123
+              ],
+              "source_indices": [
+                157,
+                123
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 44,
+              "pair": "FD",
+              "model_indices": [
+                224,
+                38
+              ],
+              "source_indices": [
+                224,
+                38
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 45,
+              "pair": "XX",
+              "model_indices": [
+                174,
+                258
+              ],
+              "source_indices": [
+                174,
+                259
+              ],
+              "domain": "N",
+              "raw": "N"
+            },
+            {
+              "plaintext_index": 46,
+              "pair": "VF",
+              "model_indices": [
+                5,
+                89
+              ],
+              "source_indices": [
+                5,
+                89
+              ],
+              "domain": "A",
+              "raw": "A"
+            },
+            {
+              "plaintext_index": 47,
+              "pair": "XD",
+              "model_indices": [
+                207,
+                55
+              ],
+              "source_indices": [
+                207,
+                55
+              ],
+              "domain": "C",
+              "raw": "C"
+            },
+            {
+              "plaintext_index": 48,
+              "pair": "AG",
+              "model_indices": [
+                140,
+                241
+              ],
+              "source_indices": [
+                140,
+                242
+              ],
+              "domain": "H",
+              "raw": "H"
+            },
+            {
+              "plaintext_index": 49,
+              "pair": "XD",
+              "model_indices": [
+                72,
+                191
+              ],
+              "source_indices": [
+                72,
+                191
+              ],
+              "domain": "C",
+              "raw": "C"
+            },
+            {
+              "plaintext_index": 50,
+              "pair": "AG",
+              "model_indices": [
+                275,
+                22
+              ],
+              "source_indices": [
+                276,
+                22
+              ],
+              "domain": "H",
+              "raw": "H"
+            },
+            {
+              "plaintext_index": 51,
+              "pair": "FA",
+              "model_indices": [
+                107,
+                158
+              ],
+              "source_indices": [
+                107,
+                158
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 52,
+              "pair": "AV",
+              "model_indices": [
+                124,
+                225
+              ],
+              "source_indices": [
+                124,
+                226
+              ],
+              "domain": "F",
+              "raw": "F"
+            },
+            {
+              "plaintext_index": 53,
+              "pair": "FD",
+              "model_indices": [
+                39,
+                175
+              ],
+              "source_indices": [
+                39,
+                175
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 54,
+              "pair": "FD",
+              "model_indices": [
+                259,
+                6
+              ],
+              "source_indices": [
+                260,
+                6
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 55,
+              "pair": "DF",
+              "model_indices": [
+                90,
+                208
+              ],
+              "source_indices": [
+                90,
+                208
+              ],
+              "domain": "D",
+              "raw": "D"
+            },
+            {
+              "plaintext_index": 56,
+              "pair": "FA",
+              "model_indices": [
+                56,
+                141
+              ],
+              "source_indices": [
+                56,
+                141
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 57,
+              "pair": "DV",
+              "model_indices": [
+                242,
+                73
+              ],
+              "source_indices": [
+                243,
+                73
+              ],
+              "domain": "U",
+              "raw": "U"
+            },
+            {
+              "plaintext_index": 58,
+              "pair": "XA",
+              "model_indices": [
+                192,
+                276
+              ],
+              "source_indices": [
+                192,
+                277
+              ],
+              "domain": "T",
+              "raw": "T"
+            },
+            {
+              "plaintext_index": 59,
+              "pair": "XG",
+              "model_indices": [
+                23,
+                108
+              ],
+              "source_indices": [
+                23,
+                108
+              ],
+              "domain": "S",
+              "raw": "S"
+            },
+            {
+              "plaintext_index": 60,
+              "pair": "XD",
+              "model_indices": [
+                159,
+                125
+              ],
+              "source_indices": [
+                159,
+                125
+              ],
+              "domain": "C",
+              "raw": "C"
+            },
+            {
+              "plaintext_index": 61,
+              "pair": "AG",
+              "model_indices": [
+                226,
+                40
+              ],
+              "source_indices": [
+                227,
+                40
+              ],
+              "domain": "H",
+              "raw": "H"
+            },
+            {
+              "plaintext_index": 62,
+              "pair": "FA",
+              "model_indices": [
+                176,
+                260
+              ],
+              "source_indices": [
+                176,
+                261
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 63,
+              "pair": "FD",
+              "model_indices": [
+                7,
+                91
+              ],
+              "source_indices": [
+                7,
+                91
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 64,
+              "pair": "XF",
+              "model_indices": [
+                209,
+                57
+              ],
+              "source_indices": [
+                209,
+                57
+              ],
+              "domain": "M",
+              "raw": "M"
+            },
+            {
+              "plaintext_index": 65,
+              "pair": "VF",
+              "model_indices": [
+                142,
+                243
+              ],
+              "source_indices": [
+                142,
+                244
+              ],
+              "domain": "A",
+              "raw": "A"
+            },
+            {
+              "plaintext_index": 66,
+              "pair": "VA",
+              "model_indices": [
+                74,
+                193
+              ],
+              "source_indices": [
+                74,
+                193
+              ],
+              "domain": "R",
+              "raw": "R"
+            },
+            {
+              "plaintext_index": 67,
+              "pair": "VX",
+              "model_indices": [
+                277,
+                24
+              ],
+              "source_indices": [
+                278,
+                24
+              ],
+              "domain": "I",
+              "raw": "I"
+            },
+            {
+              "plaintext_index": 68,
+              "pair": "XX",
+              "model_indices": [
+                109,
+                160
+              ],
+              "source_indices": [
+                109,
+                160
+              ],
+              "domain": "N",
+              "raw": "N"
+            },
+            {
+              "plaintext_index": 69,
+              "pair": "FA",
+              "model_indices": [
+                126,
+                227
+              ],
+              "source_indices": [
+                126,
+                228
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 70,
+              "pair": "FG",
+              "model_indices": [
+                41,
+                177
+              ],
+              "source_indices": [
+                41,
+                177
+              ],
+              "domain": "V",
+              "raw": "V"
+            },
+            {
+              "plaintext_index": 71,
+              "pair": "FA",
+              "model_indices": [
+                261,
+                8
+              ],
+              "source_indices": [
+                262,
+                8
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 72,
+              "pair": "VA",
+              "model_indices": [
+                92,
+                210
+              ],
+              "source_indices": [
+                92,
+                210
+              ],
+              "domain": "R",
+              "raw": "R"
+            },
+            {
+              "plaintext_index": 73,
+              "pair": "XA",
+              "model_indices": [
+                58,
+                143
+              ],
+              "source_indices": [
+                58,
+                143
+              ],
+              "domain": "T",
+              "raw": "T"
+            },
+            {
+              "plaintext_index": 74,
+              "pair": "VA",
+              "model_indices": [
+                244,
+                75
+              ],
+              "source_indices": [
+                245,
+                75
+              ],
+              "domain": "R",
+              "raw": "R"
+            },
+            {
+              "plaintext_index": 75,
+              "pair": "FD",
+              "model_indices": [
+                194,
+                278
+              ],
+              "source_indices": [
+                194,
+                279
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 76,
+              "pair": "DV",
+              "model_indices": [
+                25,
+                110
+              ],
+              "source_indices": [
+                25,
+                110
+              ],
+              "domain": "U",
+              "raw": "U"
+            },
+            {
+              "plaintext_index": 77,
+              "pair": "XX",
+              "model_indices": [
+                161,
+                127
+              ],
+              "source_indices": [
+                161,
+                127
+              ],
+              "domain": "N",
+              "raw": "N"
+            },
+            {
+              "plaintext_index": 78,
+              "pair": "DF",
+              "model_indices": [
+                228,
+                42
+              ],
+              "source_indices": [
+                229,
+                42
+              ],
+              "domain": "D",
+              "raw": "D"
+            },
+            {
+              "plaintext_index": 79,
+              "pair": "AG",
+              "model_indices": [
+                178,
+                262
+              ],
+              "source_indices": [
+                178,
+                263
+              ],
+              "domain": "H",
+              "raw": "H"
+            },
+            {
+              "plaintext_index": 80,
+              "pair": "FA",
+              "model_indices": [
+                9,
+                93
+              ],
+              "source_indices": [
+                9,
+                93
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 81,
+              "pair": "FA",
+              "model_indices": [
+                211,
+                59
+              ],
+              "source_indices": [
+                211,
+                59
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 82,
+              "pair": "VA",
+              "model_indices": [
+                144,
+                245
+              ],
+              "source_indices": [
+                144,
+                246
+              ],
+              "domain": "R",
+              "raw": "R"
+            },
+            {
+              "plaintext_index": 83,
+              "pair": "FA",
+              "model_indices": [
+                76,
+                195
+              ],
+              "source_indices": [
+                76,
+                195
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 84,
+              "pair": "XG",
+              "model_indices": [
+                279,
+                26
+              ],
+              "source_indices": [
+                280,
+                26
+              ],
+              "domain": "S",
+              "raw": "S"
+            },
+            {
+              "plaintext_index": 85,
+              "pair": "VV",
+              "model_indices": [
+                111,
+                162
+              ],
+              "source_indices": [
+                111,
+                162
+              ],
+              "domain": "G",
+              "raw": "G"
+            },
+            {
+              "plaintext_index": 86,
+              "pair": "VA",
+              "model_indices": [
+                128,
+                229
+              ],
+              "source_indices": [
+                128,
+                230
+              ],
+              "domain": "R",
+              "raw": "R"
+            },
+            {
+              "plaintext_index": 87,
+              "pair": "DV",
+              "model_indices": [
+                43,
+                179
+              ],
+              "source_indices": [
+                43,
+                179
+              ],
+              "domain": "U",
+              "raw": "U"
+            },
+            {
+              "plaintext_index": 88,
+              "pair": "DX",
+              "model_indices": [
+                263,
+                10
+              ],
+              "source_indices": [
+                264,
+                10
+              ],
+              "domain": "P",
+              "raw": "P"
+            },
+            {
+              "plaintext_index": 89,
+              "pair": "DX",
+              "model_indices": [
+                94,
+                212
+              ],
+              "source_indices": [
+                94,
+                212
+              ],
+              "domain": "P",
+              "raw": "P"
+            },
+            {
+              "plaintext_index": 90,
+              "pair": "FA",
+              "model_indices": [
+                60,
+                145
+              ],
+              "source_indices": [
+                60,
+                145
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 91,
+              "pair": "FD",
+              "model_indices": [
+                246,
+                77
+              ],
+              "source_indices": [
+                247,
+                77
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 92,
+              "pair": "FF",
+              "model_indices": [
+                196,
+                280
+              ],
+              "source_indices": [
+                196,
+                281
+              ],
+              "domain": "K",
+              "raw": "K"
+            },
+            {
+              "plaintext_index": 93,
+              "pair": "VX",
+              "model_indices": [
+                27,
+                112
+              ],
+              "source_indices": [
+                27,
+                112
+              ],
+              "domain": "I",
+              "raw": "I"
+            },
+            {
+              "plaintext_index": 94,
+              "pair": "FA",
+              "model_indices": [
+                163,
+                129
+              ],
+              "source_indices": [
+                163,
+                129
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 95,
+              "pair": "AF",
+              "model_indices": [
+                230,
+                44
+              ],
+              "source_indices": [
+                231,
+                44
+              ],
+              "domain": "W",
+              "raw": "W"
+            },
+            {
+              "plaintext_index": 96,
+              "pair": "FD",
+              "model_indices": [
+                180,
+                264
+              ],
+              "source_indices": [
+                180,
+                265
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 97,
+              "pair": "FD",
+              "model_indices": [
+                11,
+                95
+              ],
+              "source_indices": [
+                11,
+                95
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 98,
+              "pair": "GA",
+              "model_indices": [
+                213,
+                61
+              ],
+              "source_indices": [
+                213,
+                61
+              ],
+              "domain": "O",
+              "raw": "O"
+            },
+            {
+              "plaintext_index": 99,
+              "pair": "XG",
+              "model_indices": [
+                146,
+                247
+              ],
+              "source_indices": [
+                146,
+                248
+              ],
+              "domain": "S",
+              "raw": "S"
+            },
+            {
+              "plaintext_index": 100,
+              "pair": "XF",
+              "model_indices": [
+                78,
+                197
+              ],
+              "source_indices": [
+                78,
+                197
+              ],
+              "domain": "M",
+              "raw": "M"
+            },
+            {
+              "plaintext_index": 101,
+              "pair": "VF",
+              "model_indices": [
+                281,
+                28
+              ],
+              "source_indices": [
+                282,
+                28
+              ],
+              "domain": "A",
+              "raw": "A"
+            },
+            {
+              "plaintext_index": 102,
+              "pair": "XX",
+              "model_indices": [
+                113,
+                164
+              ],
+              "source_indices": [
+                113,
+                164
+              ],
+              "domain": "N",
+              "raw": "N"
+            },
+            {
+              "plaintext_index": 103,
+              "pair": "VX",
+              "model_indices": [
+                130,
+                231
+              ],
+              "source_indices": [
+                130,
+                232
+              ],
+              "domain": "I",
+              "raw": "I"
+            },
+            {
+              "plaintext_index": 104,
+              "pair": "FA",
+              "model_indices": [
+                45,
+                181
+              ],
+              "source_indices": [
+                45,
+                181
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 105,
+              "pair": "VF",
+              "model_indices": [
+                265,
+                12
+              ],
+              "source_indices": [
+                266,
+                12
+              ],
+              "domain": "A",
+              "raw": "A"
+            },
+            {
+              "plaintext_index": 106,
+              "pair": "DV",
+              "model_indices": [
+                96,
+                214
+              ],
+              "source_indices": [
+                96,
+                214
+              ],
+              "domain": "U",
+              "raw": "U"
+            },
+            {
+              "plaintext_index": 107,
+              "pair": "XG",
+              "model_indices": [
+                62,
+                147
+              ],
+              "source_indices": [
+                62,
+                147
+              ],
+              "domain": "S",
+              "raw": "S"
+            },
+            {
+              "plaintext_index": 108,
+              "pair": "VV",
+              "model_indices": [
+                248,
+                79
+              ],
+              "source_indices": [
+                249,
+                79
+              ],
+              "domain": "G",
+              "raw": "G"
+            },
+            {
+              "plaintext_index": 109,
+              "pair": "FA",
+              "model_indices": [
+                198,
+                282
+              ],
+              "source_indices": [
+                198,
+                283
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 110,
+              "pair": "AV",
+              "model_indices": [
+                29,
+                114
+              ],
+              "source_indices": [
+                29,
+                114
+              ],
+              "domain": "F",
+              "raw": "F"
+            },
+            {
+              "plaintext_index": 111,
+              "pair": "VF",
+              "model_indices": [
+                165,
+                131
+              ],
+              "source_indices": [
+                165,
+                131
+              ],
+              "domain": "A",
+              "raw": "A"
+            },
+            {
+              "plaintext_index": 112,
+              "pair": "AX",
+              "model_indices": [
+                232,
+                46
+              ],
+              "source_indices": [
+                233,
+                46
+              ],
+              "domain": "L",
+              "raw": "L"
+            },
+            {
+              "plaintext_index": 113,
+              "pair": "AX",
+              "model_indices": [
+                182,
+                266
+              ],
+              "source_indices": [
+                182,
+                267
+              ],
+              "domain": "L",
+              "raw": "L"
+            },
+            {
+              "plaintext_index": 114,
+              "pair": "FA",
+              "model_indices": [
+                13,
+                97
+              ],
+              "source_indices": [
+                13,
+                97
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 115,
+              "pair": "XX",
+              "model_indices": [
+                215,
+                63
+              ],
+              "source_indices": [
+                215,
+                63
+              ],
+              "domain": "N",
+              "raw": "N"
+            },
+            {
+              "plaintext_index": 116,
+              "pair": "FD",
+              "model_indices": [
+                148,
+                249
+              ],
+              "source_indices": [
+                148,
+                250
+              ],
+              "domain": "X",
+              "raw": "X"
+            },
+            {
+              "plaintext_index": 117,
+              "pair": "VF",
+              "model_indices": [
+                80,
+                199
+              ],
+              "source_indices": [
+                80,
+                199
+              ],
+              "domain": "A",
+              "raw": "A"
+            },
+            {
+              "plaintext_index": 118,
+              "pair": "AX",
+              "model_indices": [
+                283,
+                30
+              ],
+              "source_indices": [
+                284,
+                30
+              ],
+              "domain": "L",
+              "raw": "L"
+            },
+            {
+              "plaintext_index": 119,
+              "pair": "AX",
+              "model_indices": [
+                115,
+                166
+              ],
+              "source_indices": [
+                115,
+                166
+              ],
+              "domain": "L",
+              "raw": "L"
+            },
+            {
+              "plaintext_index": 120,
+              "pair": "FA",
+              "model_indices": [
+                132,
+                233
+              ],
+              "source_indices": [
+                132,
+                234
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 121,
+              "pair": "XG",
+              "model_indices": [
+                47,
+                183
+              ],
+              "source_indices": [
+                47,
+                183
+              ],
+              "domain": "S",
+              "raw": "S"
+            },
+            {
+              "plaintext_index": 122,
+              "pair": "XA",
+              "model_indices": [
+                267,
+                14
+              ],
+              "source_indices": [
+                268,
+                14
+              ],
+              "domain": "T",
+              "raw": "T"
+            },
+            {
+              "plaintext_index": 123,
+              "pair": "FA",
+              "model_indices": [
+                98,
+                216
+              ],
+              "source_indices": [
+                98,
+                216
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 124,
+              "pair": "AX",
+              "model_indices": [
+                64,
+                149
+              ],
+              "source_indices": [
+                64,
+                149
+              ],
+              "domain": "L",
+              "raw": "L"
+            },
+            {
+              "plaintext_index": 125,
+              "pair": "AX",
+              "model_indices": [
+                250,
+                81
+              ],
+              "source_indices": [
+                251,
+                81
+              ],
+              "domain": "L",
+              "raw": "L"
+            },
+            {
+              "plaintext_index": 126,
+              "pair": "FA",
+              "model_indices": [
+                200,
+                284
+              ],
+              "source_indices": [
+                200,
+                285
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 127,
+              "pair": "XX",
+              "model_indices": [
+                31,
+                116
+              ],
+              "source_indices": [
+                31,
+                116
+              ],
+              "domain": "N",
+              "raw": "N"
+            },
+            {
+              "plaintext_index": 128,
+              "pair": "VG",
+              "model_indices": [
+                167,
+                133
+              ],
+              "source_indices": [
+                167,
+                133
+              ],
+              "domain": "B",
+              "raw": "B"
+            },
+            {
+              "plaintext_index": 129,
+              "pair": "FA",
+              "model_indices": [
+                234,
+                48
+              ],
+              "source_indices": [
+                235,
+                48
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 130,
+              "pair": "XX",
+              "model_indices": [
+                184,
+                268
+              ],
+              "source_indices": [
+                184,
+                269
+              ],
+              "domain": "N",
+              "raw": "N"
+            },
+            {
+              "plaintext_index": 131,
+              "pair": "VF",
+              "model_indices": [
+                15,
+                99
+              ],
+              "source_indices": [
+                15,
+                99
+              ],
+              "domain": "A",
+              "raw": "A"
+            },
+            {
+              "plaintext_index": 132,
+              "pair": "XD",
+              "model_indices": [
+                217,
+                65
+              ],
+              "source_indices": [
+                217,
+                65
+              ],
+              "domain": "C",
+              "raw": "C"
+            },
+            {
+              "plaintext_index": 133,
+              "pair": "AG",
+              "model_indices": [
+                150,
+                251
+              ],
+              "source_indices": [
+                150,
+                252
+              ],
+              "domain": "H",
+              "raw": "H"
+            },
+            {
+              "plaintext_index": 134,
+              "pair": "VA",
+              "model_indices": [
+                82,
+                201
+              ],
+              "source_indices": [
+                82,
+                201
+              ],
+              "domain": "R",
+              "raw": "R"
+            },
+            {
+              "plaintext_index": 135,
+              "pair": "VX",
+              "model_indices": [
+                285,
+                32
+              ],
+              "source_indices": [
+                null,
+                32
+              ],
+              "domain": "I",
+              "raw": "I"
+            },
+            {
+              "plaintext_index": 136,
+              "pair": "XD",
+              "model_indices": [
+                117,
+                168
+              ],
+              "source_indices": [
+                117,
+                168
+              ],
+              "domain": "C",
+              "raw": "C"
+            },
+            {
+              "plaintext_index": 137,
+              "pair": "AG",
+              "model_indices": [
+                134,
+                235
+              ],
+              "source_indices": [
+                134,
+                236
+              ],
+              "domain": "H",
+              "raw": "H"
+            },
+            {
+              "plaintext_index": 138,
+              "pair": "XA",
+              "model_indices": [
+                49,
+                185
+              ],
+              "source_indices": [
+                49,
+                185
+              ],
+              "domain": "T",
+              "raw": "T"
+            },
+            {
+              "plaintext_index": 139,
+              "pair": "VX",
+              "model_indices": [
+                269,
+                16
+              ],
+              "source_indices": [
+                270,
+                16
+              ],
+              "domain": "I",
+              "raw": "I"
+            },
+            {
+              "plaintext_index": 140,
+              "pair": "VV",
+              "model_indices": [
+                100,
+                218
+              ],
+              "source_indices": [
+                100,
+                218
+              ],
+              "domain": "G",
+              "raw": "G"
+            },
+            {
+              "plaintext_index": 141,
+              "pair": "FA",
+              "model_indices": [
+                66,
+                151
+              ],
+              "source_indices": [
+                66,
+                151
+              ],
+              "domain": "E",
+              "raw": "E"
+            },
+            {
+              "plaintext_index": 142,
+              "pair": "XX",
+              "model_indices": [
+                252,
+                83
+              ],
+              "source_indices": [
+                253,
+                83
+              ],
+              "domain": "N",
+              "raw": "N"
+            }
+          ]
+        },
+        "optional_headquarters_address": {
+          "before": "GROSSESXHZYUXX",
+          "after": "GROSSESXHXQUXX",
+          "readable_fragment": "Grosses H. Qu.",
+          "plaintext": "SEEKRIEGSLEITUNGGROSSESXHXQUXXADMIRALBERLINXXNACHCHEFXXDEUTSCHEXMARINEVERTRXUNDHEERESGRUPPEXKIEWXXOSMANIEAUSGEFALLENXALLESTELLENBENACHRICHTIGEN",
+          "ciphertext": "FXGFGVDFAFXFFFAVXXVFXXGXXDGVFAXXXFAXVADFGFFDFFXXAXVVXFVDFFXAFAXXADFAVDXXXVVAFDXVVXVXVAFDFFDDVADDDAFFVXGVDVXFGXVVXXVAXXFXGFVDADFXVAVFFGAXXGDAAAVAVAXGFXAAGAAGAFAXXXVFXVXVDAVGFXXDFGAVFAAGXAVVAFVDXAFAFFFFFAADAVAXFXAFXGVXAXVAFADFFVAADAAXAAFGFXFFAGDFVAFGVDAGXFXXDVXFAFGDDVXXXVVVGVXAAVDXFVAAAV",
+          "additional_substitutions": [
+            {
+              "model_index": 104,
+              "source_index": 104,
+              "printed": "V",
+              "from": "V",
+              "to": "D"
+            },
+            {
+              "model_index": 121,
+              "source_index": 121,
+              "printed": "V",
+              "from": "V",
+              "to": "F"
+            }
+          ],
+          "additional_source_mask_fills": 0,
+          "additional_fixed_positions": 0,
+          "total_observed_substitutions": 5,
+          "total_source_mask_fills": 6,
+          "total_added_slot_fills": 1,
+          "changed_positions": [
+            {
+              "plaintext_index": 25,
+              "before": {
+                "plaintext_index": 25,
+                "pair": "FV",
+                "model_indices": [
+                  19,
+                  104
+                ],
+                "source_indices": [
+                  19,
+                  104
+                ],
+                "domain": "Z",
+                "raw": "Z"
+              },
+              "after": {
+                "plaintext_index": 25,
+                "pair": "FD",
+                "model_indices": [
+                  19,
+                  104
+                ],
+                "source_indices": [
+                  19,
+                  104
+                ],
+                "domain": "X",
+                "raw": "X"
+              }
+            },
+            {
+              "plaintext_index": 26,
+              "before": {
+                "plaintext_index": 26,
+                "pair": "GV",
+                "model_indices": [
+                  155,
+                  121
+                ],
+                "source_indices": [
+                  155,
+                  121
+                ],
+                "domain": "Y",
+                "raw": "Y"
+              },
+              "after": {
+                "plaintext_index": 26,
+                "pair": "GF",
+                "model_indices": [
+                  155,
+                  121
+                ],
+                "source_indices": [
+                  155,
+                  121
+                ],
+                "domain": "Q",
+                "raw": "Q"
+              }
+            }
+          ],
+          "native_donors": [
+            {
+              "record": "p102_B1",
+              "inputs": "experiments/nov1_mackensen_and_orient_reports/inputs.json",
+              "source_field": "literal_source",
+              "raw_field": "expected_raw",
+              "key_id": "Nov1-3",
+              "source_sha256": "e533f39162de9e4c7e6459b46596745025c5b62770b7a019d749fdacf6e36083",
+              "word": "HXQU",
+              "context": "GDXHXQU",
+              "case": "cases/military/orient_south_slav_reports.md#p102-b1",
+              "relationship": "Independent raw abbreviation witness under a different period key, not a repeated copy of p138 C.",
+              "plaintext_start": 16,
+              "positions": [
+                {
+                  "plaintext_index": 16,
+                  "pair": "VF",
+                  "model_indices": [
+                    99,
+                    12
+                  ],
+                  "source_indices": [
+                    99,
+                    12
+                  ],
+                  "domain": "H",
+                  "raw": "H"
+                },
+                {
+                  "plaintext_index": 17,
+                  "pair": "DX",
+                  "model_indices": [
+                    143,
+                    110
+                  ],
+                  "source_indices": [
+                    143,
+                    110
+                  ],
+                  "domain": "X",
+                  "raw": "X"
+                },
+                {
+                  "plaintext_index": 18,
+                  "pair": "FV",
+                  "model_indices": [
+                    88,
+                    45
+                  ],
+                  "source_indices": [
+                    88,
+                    45
+                  ],
+                  "domain": "Q",
+                  "raw": "Q"
+                },
+                {
+                  "plaintext_index": 19,
+                  "pair": "AA",
+                  "model_indices": [
+                    24,
+                    166
+                  ],
+                  "source_indices": [
+                    24,
+                    166
+                  ],
+                  "domain": "U",
+                  "raw": "U"
+                }
+              ]
+            },
+            {
+              "record": "p86_A",
+              "inputs": "experiments/inventory_and_medical_return/inputs.json",
+              "source_field": "literal_source",
+              "raw_field": "expected_unmodified_raw",
+              "key_id": "Oct28-31",
+              "source_sha256": "fc7c4f92139698ef4421ac78f402dddb84ebef5c6b13f490720e7a62d7a9010c",
+              "word": "HXQU",
+              "context": "GRXHXQU",
+              "case": "cases/military/mg08_inventory.md",
+              "relationship": "Independent raw abbreviation witness under a different period key, not a repeated copy of p138 C.",
+              "plaintext_start": 128,
+              "positions": [
+                {
+                  "plaintext_index": 128,
+                  "pair": "AA",
+                  "model_indices": [
+                    79,
+                    113
+                  ],
+                  "source_indices": [
+                    79,
+                    113
+                  ],
+                  "domain": "H",
+                  "raw": "H"
+                },
+                {
+                  "plaintext_index": 129,
+                  "pair": "AX",
+                  "model_indices": [
+                    229,
+                    62
+                  ],
+                  "source_indices": [
+                    229,
+                    62
+                  ],
+                  "domain": "X",
+                  "raw": "X"
+                },
+                {
+                  "plaintext_index": 130,
+                  "pair": "DG",
+                  "model_indices": [
+                    212,
+                    130
+                  ],
+                  "source_indices": [
+                    212,
+                    130
+                  ],
+                  "domain": "Q",
+                  "raw": "Q"
+                },
+                {
+                  "plaintext_index": 131,
+                  "pair": "DD",
+                  "model_indices": [
+                    179,
+                    14
+                  ],
+                  "source_indices": [
+                    179,
+                    14
+                  ],
+                  "domain": "U",
+                  "raw": "U"
+                }
+              ]
+            }
+          ],
+          "full_plaintext_reencryption_verified": true,
+          "limits": [
+            "The two original V coordinates are retained as observations. The address requires two additional substitutions; it is not a newly identified OCR correction.",
+            "All 143 labels were already fixed in the name-completed conditional layer. This proposal interprets an opaque address without increasing the fixed-position count.",
+            "The donor telegrams establish abbreviation usage, not a duplicate reception or a unique plaintext for this notice. The lower-cost HZYU reading remains recorded."
+          ]
+        },
+        "limits": [
+          "The two letters are contextual choices within their native six-symbol domains. Neither mask has become a cipher-only singleton.",
+          "The original 286-slot transcription, stroke exclusion, final-slot insertion and three ordinary-word substitutions are unchanged.",
+          "HZYU remains literal in this name-completed layer; the separately priced headquarters-address proposal requires two further substitutions. The telegram reports Osmanie unavailable without stating a cause or proving that the notification was sent.",
+          "The two earlier telegrams are name witnesses, not retransmissions of this notice. No new physical source is added."
         ]
       }
     }

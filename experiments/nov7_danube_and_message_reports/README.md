@@ -23,16 +23,36 @@ The readings concern a security force attacked after a crossing near
 Belgrad, a morning report of no special events, receipt of a message, a
 prescribed line and headquarters field, and Danube crossing traffic.
 Literal `219`, `21B`, `SEMUM`, `NOORDL`, `EINSA11205BM4`, `1189`, `35`, and
-internal `9.11`/`10.11` labels remain. The page-153 reception headers retain
+internal `9.11`/`10.11` labels remain in the earlier word layer. The page-153 reception headers retain
 November 7 and the visible marked `ZÖN` spelling. No missing multipart
 context, exact reference/time parsing, unit identity or modern place-name
-is supplied.
+is supplied by that layer.
 
 `p152_C` has a dash-only printed length field, not an advertised 108.
 Its 108-slot count comes from the body. Earlier OCR appended five mask
 slots; those remain visible in the frozen prior artifact, not in the
 physical-source transcription. Page-153 OCR also added one mask to each
 of the two native bodies; source review restores 180 and 160 slots.
+
+## The 219th Infantry Division proposal
+
+The parallel **p164 C1** passage supports reading p153 B1's `21B I D` as
+**219 I D**. From DONAU to VERKEHR, both native passages contain 63
+nonseparator labels; 56 agree, and the remaining seven include two p164
+erasures and the differing unit character. At that position, p164 supplies
+an observed `GF` pair for **9**, against p153's observed `GX` for **B**.
+
+The proposal makes one additional substitution: p153 source **98**, `X` →
+`F`. Its full text therefore costs **six observed substitutions and no
+fills**, with all 80 labels fixed. This adds a supported unit reading;
+it does not increase the number of fixed positions. The native and earlier
+word layers still display `21B`.
+
+The certificate's `records[4].unit_proposal` contains the full native
+alignment, the donor's source hash and coordinate origins, the separate
+repair ledger and exact re-encryption. The inference is that the two
+crossing passages preserve the same unit reference. Their different
+headings and openings remain separate, and `SEMUM` is unchanged.
 
 ## Files
 

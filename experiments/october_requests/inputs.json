@@ -181,7 +181,7 @@
       "header": "B) COS v NKJ (03.40 a.m., October 6th); 1540 (5); RICHI-186",
       "advertised_field": 186,
       "rows": [
-        "FDFFA FVEFF ADXDD AADVG VDDFV VGDFF DGADD",
+        "FDFFA FVFEF ADXDD AADVG VDDFV VGDFF DGADD",
         "VFVFF FFFGF FFVXF GGVDF VFFXG FVDVV FDDAV",
         "GVAVV FFDGF FGAFRG VVXDD AGFAG FFXGD DVDDG",
         "FADFD FXXGG GGGXD GDGVG FDFDF GAVGG XFAXX",
@@ -190,13 +190,13 @@
       ],
       "pdf_page_1based": 65,
       "page_heading": "5th OCTOBER, 1918",
-      "literal_source": "FDFFAFVEFFADXDDAADVGVDDFVVGDFFDGADDVFVFFFFFGFFFVXFGGVDFVFFXGFVDVVFDDAVGVAVVFFDGFFGAFRGVVXDDAGFAGFFXGDDVDDGFADFDFXXGGGGGXDGDGVGFDFDFGAVGGXFAXXXFXGDDDAGDXXDGAGVAAAGFGXAGDAXVGGXGFDDADFGXAFFFX",
-      "analysis_source": "FDFFAFV?FFADXDDAADVGVDDFVVGDFFDGADDVFVFFFFFGFFFVXFGGVDFVFFXGFVDVVFDDAVGVAVVFFDGFFGAF?GVVXDDAGFAGFFXGDDVDDGFADFDFXXGGGGGXDGDGVGFDFDFGAVGGXFAXXXFXGDDDAGDXXDGAGVAAAGFGXAGDAXVGGXGFDDADFGXAFFFX",
-      "literal_frame_raw": "FRONHWEATE1WARTSXL3ATZOBSX9ELS5RQSTETESA6RMJRUPPEXVEWAOZUSTEJLLNSONSTMSLD4ZWERT?O1?XDOW2WA11DD",
+      "literal_source": "FDFFAFVFEFADXDDAADVGVDDFVVGDFFDGADDVFVFFFFFGFFFVXFGGVDFVFFXGFVDVVFDDAVGVAVVFFDGFFGAFRGVVXDDAGFAGFFXGDDVDDGFADFDFXXGGGGGXDGDGVGFDFDFGAVGGXFAXXXFXGDDDAGDXXDGAGVAAAGFGXAGDAXVGGXGFDDADFGXAFFFX",
+      "analysis_source": "FDFFAFVF?FADXDDAADVGVDDFVVGDFFDGADDVFVFFFFFGFFFVXFGGVDFVFFXGFVDVVFDDAVGVAVVFFDGFFGAF?GVVXDDAGFAGFFXGDDVDDGFADFDFXXGGGGGXDGDGVGFDFDFGAVGGXFAXXXFXGDDDAGDXXDGAGVAAAGFGXAGDAXVGGXGFDDADFGXAFFFX",
+      "literal_frame_raw": "FRONHWEATE1WARTSXL3ATZOBSX9ELS5RQSTETESA6RMJRUPPEXVEWAOZUSTEJLLNSONSTMSLD4ZWERTLO1?XDOW2WA?1DD",
       "key_id": "Oct4-6",
       "source_crop": "sources/childs_p62_B.png",
-      "editorial_template": "FRONTWETTERWARTEXBITTEOBSXTELEGRXSTETSDATUMGRUPPENVORANZUSTELLENSONSTMELDGXWERTLOSXXFEWEWA110",
-      "editorial_note": "Conditional on two unmarked source deletions. The source has 188 literal slots, including E and R, against the advertised 186. The two minimum layouts delete one of adjacent F coordinates and the final X, retain E and R as erasures, and require two known-coordinate substitutions plus two erasure fills. FEWEWA110 remains literal.",
+      "editorial_template": "FRONTWETTERWARTEXBITTEOBSXTELEGRXSTETSDATUMGRUPPENVORANZUSTELLENSONSTMELDGXWERTLOSXXFEWEWA?10",
+      "editorial_note": "Conditional on two unmarked source deletions. The source has 188 slots, including E in FVFEF and R in FGAFRG, against advertised 186. The two minimum layouts delete one of adjacent F coordinates and the final X. Two observed substitutions and one R-mask fill give the ordinary wording; the E mask leaves FEWEWA?10 unresolved.",
       "layout_models": [
         {
           "id": "delete_79_and_187",
@@ -227,7 +227,41 @@
           "insertions": []
         }
       ],
-      "reading_status": "conditional_source_layout_reading"
+      "reading_status": "conditional_source_layout_reading",
+      "transcription_review": {
+        "review_date": "2026-11-04",
+        "prepared_by": "icekylinx and GPT-6 Astra Pro",
+        "previous_group": "FVEFF",
+        "reviewed_group": "FVFEF",
+        "group_1based": 2,
+        "corrected_source_indices": [
+          7,
+          8
+        ],
+        "source_crop": "sources/childs_p62_B.png",
+        "reviewed_crop_pixel_box": [
+          570,
+          325,
+          925,
+          590
+        ],
+        "new_native_letter": {
+          "plaintext_index": 79,
+          "from": "?",
+          "to": "L",
+          "word": "WERTLOS"
+        },
+        "newly_exposed_unknown": {
+          "plaintext_index": 90,
+          "from": "1",
+          "to": "?",
+          "pair": "?F",
+          "domain": "018MRV",
+          "reference": "FEWEWA?10"
+        },
+        "previous_editorial_template": "FRONTWETTERWARTEXBITTEOBSXTELEGRXSTETSDATUMGRUPPENVORANZUSTELLENSONSTMELDGXWERTLOSXXFEWEWA110",
+        "scope": "Correct the position of the printed E. No historical source character is changed; the former 110 reference is retained only as one compatible completion."
+      }
     },
     {
       "id": "p63_A",

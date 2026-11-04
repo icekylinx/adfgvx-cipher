@@ -29,7 +29,7 @@ This range contains 80 sources, including 2 OPEN. [Reading states](../../../docs
 
 | Source | State | Subject |
 |---|---|---|
-| [p127 A3](../../military/nov4_march_air_reconnaissance.md#p127-a3) | PARTIAL | March report and aerial reconnaissance with unresolved unit and place |
+| [p127 A3](../../military/nov4_march_air_reconnaissance.md#p127-a3) | CONDITIONAL | March and aerial reconnaissance report |
 | [p127 B1](../../radio/nov4_personnel_transmission_notice.md#p127-b1) | PARTIAL | Existing personnel and agreed radio transmissions |
 | [p127 B2](../../open/p127_B2.md) | OPEN | Heavily erased second part from NKJ |
 
@@ -120,7 +120,7 @@ This range contains 80 sources, including 2 OPEN. [Reading states](../../../docs
 | [p138 A1](../../people/osthoff.md) | READING | Osthoff's Turkey posting cancelled, first witness |
 | [p138 A2](../../people/osthoff.md) | PARTIAL | Osthoff reassigned to a railway replacement battalion |
 | [p138 B](../../radio/opposite_end_deciphering.md) | CONDITIONAL | Instruction to decipher first half from front and second half from back; likely 1410(5) reference to p132 B |
-| [p138 C](../../radio/nov6_marine_service_notice.md#p138-c) | CONDITIONAL | Marine service notice: O?MANIE unavailable, with addresses and labels retained |
+| [p138 C](../../radio/nov6_marine_service_notice.md#completed-reading) | CONDITIONAL | Marine-service notice: Heeresgruppe Kiew and Osmanie unavailable |
 
 ## p139
 

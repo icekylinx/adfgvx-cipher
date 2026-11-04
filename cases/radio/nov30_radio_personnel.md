@@ -55,6 +55,13 @@ INSPEKTIONUNDKRIEGSMINISTERIUMVERSTAENDIGTYYANTWORTSTEHTNOCHAUSYPAPP
 
 **Meaning:** A station announces when it will dismantle. The printed key labels do not establish the historical day or hour; Burkard is the literal signature.
 
+The [shared late-November square](../../experiments/late_november_calendar_and_units/README.md)
+narrows the hour to **4 or 5**. Its `DX` pair is also the final digit of
+`SCHWERE1?` on [p226 A2](radio_traffic_transfer_fragment.md#a-date-and-station-field-that-must-be-read-together).
+The earlier date-like field becomes `7Z12`, still garbled. Both printed
+first-group variants remain in the
+[additional-traffic certificate](../../experiments/late_november_calendar_and_units/traffic_certificate.json).
+
 <details>
 <summary>Source and cipher evidence</summary>
 
@@ -87,6 +94,13 @@ STATIONBAUT0ZXJZFRUEH9YUHRABYYBURKARDYY
 > Zentralfunkleitg erbitten Nachricht ueber Verbleib Funker und Baupersonal der Funkenstation Tiflis. 54X05.
 
 **Meaning:** The central radio command asks where the radio operators and construction personnel of the Tiflis station have gone. The final 54X05 remains a literal reference.
+
+The closing reference reads **98179** under the
+[shared late-November square](../../experiments/late_november_calendar_and_units/README.md).
+All five coordinate pairs are fully observed. The fourth digit uses the
+newly supported `VG=7` assignment, at source positions 187 and 128; this
+extends the earlier seven-record comparison by one numeral position.
+No source repair is added. The number's documentary referent is unknown.
 
 <details>
 <summary>Raw decoded text</summary>

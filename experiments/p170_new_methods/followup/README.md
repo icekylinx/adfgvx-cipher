@@ -26,7 +26,7 @@ assignment; no unknown key cell is assigned independently by position.
 | Donors | Square hypotheses | Widths | Error budget | Projects |
 |---|---:|---:|---:|---:|
 | 291 complete source-derived strings | 11 | 12–24 | 0, then 1, then 2 observed substitutions | 41,613 per budget |
-| 106 native partial source-domain families | 11 | 12–24 | 0, with the 90/106 support threshold | 15,158 |
+| 105 native partial source-domain families | 11 | 12–24 | 0, with the 90/106 support threshold | 15,015 |
 
 The square hypotheses are nine complete recorded period squares and both
 consistent global 5/6 assignments of the November 7–9 square. Complete donor
@@ -46,24 +46,34 @@ from that pool and represented as native partial-domain IDs **104** and
 **105**, respectively. The ambiguous labels remain coupled to their
 observed coordinate halves; neither old label is silently restored.
 
-All other complete donors keep their original IDs, text and source origins,
-and the earlier 104 partial families are unchanged. The original extraction
-snapshot is adjusted only for these two newly partial records. Target
+That first refresh is retained in `source_glyph_refresh` as history. Three
+later corrections are recorded separately in `resumed_source_review`:
+
+- The p62 B editorial reference remains `?10`; former complete donor **131**
+  is excluded. Its edited template is not promoted to a native partial source.
+- The p87 A1 glyph at source index 35 is **D**, producing native `X` at
+  plaintext index 9. The same previously selected source now has **83/83**
+  fixed labels, so partial family **87** becomes complete donor **293**.
+- The p56 A glyph at source index 202 is **F**, improving partial family
+  **101** from **109/111** to **110/111** fixed native labels. Its remaining
+  invalid coordinate and exact domains are retained.
+
+All other donor IDs, texts and origins remain unchanged. Vacated IDs are not
+reused. These adjustments preserve the original source-family scope; target
 observations, square hypotheses, width bounds, error budgets, the 90/106
-support threshold, search engines and controls are unchanged. The previous
-scope and statistics are retained in `source_glyph_refresh` as history.
+support threshold, search engines and controls are unchanged.
 
 Full replay of the refreshed pools gives:
 
 | Branch | Projects | Histogram passes | DFS nodes | Hits |
 |---|---:|---:|---:|---:|
-| Complete, budget 0 | 41,613 | 13,572 | 47,373 | 0 |
-| Complete, budget 1 | 41,613 | 14,911 | 369,625 | 0 |
-| Complete, budget 2 | 41,613 | 16,224 | 753,929 | 0 |
-| Partial, support at least 90/106 | 15,158 | 7,124 | 30,748 | 0 |
+| Complete, budget 0 | 41,613 | 13,572 | 47,446 | 0 |
+| Complete, budget 1 | 41,613 | 14,911 | 369,694 | 0 |
+| Complete, budget 2 | 41,613 | 16,224 | 753,976 | 0 |
+| Partial, support at least 90/106 | 15,015 | 7,098 | 30,606 | 0 |
 
-The changed counts follow from moving two raw records between donor
-families. They do not add observed evidence or produce a p170 reading.
+The changed counts follow from the explicit source corrections and donor
+classification above. They do not produce a p170 reading.
 
 These are finite donor-family checks, not an exclusion of other plaintexts,
 keys, widths, damage or missing-length models. The original 106 count is

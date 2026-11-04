@@ -1,18 +1,18 @@
 {
   "schema": "adfgvx-p170-column-family-followup-certificate-v1",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "input_sha256": "664501ac9ad8489e65149a83313a89bed9fe59da20ff67a8c517695f0eac5b97",
+  "input_sha256": "cdc6f763344b5460efa47eb38a076b5cb43be8478d08b1b2950f9b69ef51978a",
   "controls_sha256": "d13e44c78b00942161cc099160e95192934c4b2538f06f80f5a61857f44b0e99",
   "code_sha256": {
     "column_donor_match.cpp": "68127d616f57638befacf6f7983e417b5414c38226a505912b503d024db0f15e",
     "column_domain_match.cpp": "dbe48d912ea375f27ad4dc6daff6745b2444837433f259cd6cb4aa7314223e21",
     "extract.py": "538073714d5df12a1b1040f1b613597f86c262ef60d0fb7201a0efad81cf1041",
-    "verify.py": "9dd2ecea89d41b65e4e947236b9cb4ea557a260159dafff2451fd8ef4c4cc645"
+    "verify.py": "57a6f3d924dc0b7a5d28da96ef63c2a5d59fc0a6255b5d167b7ba7ed2d1c1616"
   },
   "summary": {
     "p170_observed_coordinates": 106,
     "complete_donor_strings": 291,
-    "partial_source_domain_families": 106,
+    "partial_source_domain_families": 105,
     "target_square_hypotheses": 11,
     "widths_per_donor_square": 13,
     "complete_projects_per_budget": 41613,
@@ -21,7 +21,7 @@
       1,
       2
     ],
-    "partial_projects": 15158,
+    "partial_projects": 15015,
     "partial_minimum_direct_support": 90,
     "historical_matches": 0,
     "complete_tiny_bruteforce_comparisons": 36,
@@ -35,26 +35,26 @@
       "0": {
         "projects": 41613,
         "histogram_pass": 13572,
-        "dfs_nodes": 47373,
+        "dfs_nodes": 47446,
         "hits": 0
       },
       "1": {
         "projects": 41613,
         "histogram_pass": 14911,
-        "dfs_nodes": 369625,
+        "dfs_nodes": 369694,
         "hits": 0
       },
       "2": {
         "projects": 41613,
         "histogram_pass": 16224,
-        "dfs_nodes": 753929,
+        "dfs_nodes": 753976,
         "hits": 0
       }
     },
     "partial_donors": {
-      "projects": 15158,
-      "histogram_pass": 7124,
-      "dfs_nodes": 30748,
+      "projects": 15015,
+      "histogram_pass": 7098,
+      "dfs_nodes": 30606,
       "hits": 0
     }
   },
@@ -111,7 +111,107 @@
         "hits": 0
       }
     },
-    "preserved_scope": "All other complete donors retain their original IDs, strings and origins; all previous partial donors are unchanged. The historical target, square hypotheses, widths, budgets and controls are unchanged."
+    "preserved_scope": "At the first damaged-glyph refresh all other donor IDs, strings and origins were preserved. Later source changes are separately recorded in resumed_source_review. The historical target, square hypotheses, widths, budgets and controls are unchanged."
+  },
+  "resumed_source_review": {
+    "previous_complete_donor_count": 291,
+    "previous_partial_donor_count": 106,
+    "previous_search_summaries": {
+      "complete_donors": {
+        "0": {
+          "projects": 41613,
+          "histogram_pass": 13572,
+          "dfs_nodes": 47373,
+          "hits": 0
+        },
+        "1": {
+          "projects": 41613,
+          "histogram_pass": 14911,
+          "dfs_nodes": 369625,
+          "hits": 0
+        },
+        "2": {
+          "projects": 41613,
+          "histogram_pass": 16224,
+          "dfs_nodes": 753929,
+          "hits": 0
+        }
+      },
+      "partial_donors": {
+        "projects": 15158,
+        "histogram_pass": 7124,
+        "dfs_nodes": 30748,
+        "hits": 0
+      }
+    },
+    "complete_exclusions": [
+      {
+        "former_donor_id": 131,
+        "origins": [
+          [
+            "experiments/october_requests/inputs.json",
+            [
+              "records",
+              1,
+              "editorial_template"
+            ]
+          ]
+        ],
+        "reason": "The source-reviewed p62_B editorial template preserves an unresolved reference-number label. It is no longer eligible as a whole fully specified donor; its known portions are not silently promoted into a complete body.",
+        "changed_labels": [
+          {
+            "plaintext_index": 90,
+            "old_label": "1",
+            "current_label": "?"
+          }
+        ],
+        "current_raw_sha256": "afa73401007edb5be2a1d6e4a38c7e2cd838c7fa5c587bf572cbcbe696ac4c4f",
+        "previous_complete_text_sha256": "8bc5055811d9db229c272def49ad3729651401088ad32b2086f3c301be5fd9f9"
+      }
+    ],
+    "partial_to_complete": [
+      {
+        "former_partial_donor_id": 87,
+        "new_complete_donor_id": 293,
+        "record_id": "p87_A1",
+        "source_index": 35,
+        "previous_source_glyph": "E",
+        "current_source_glyph": "D",
+        "plaintext_index": 9,
+        "previous_raw_label": "?",
+        "current_raw_label": "X",
+        "previous_native_sha256": "32161ea3ce9bb30bb62d48c863c3c2cf1b6813065cb1c68b73c44b0ca55d228c",
+        "current_native_sha256": "f62e0473381003774122700c355ca69cccdf554d985c73079b43c3e993ab487b",
+        "complete_text_sha256": "d97ee3c6d73e8f5f7cdf49ad74e420ae314c498860fe5a11ffcb844b4b7b5ea0",
+        "previous_raw_fixed_positions": 82,
+        "current_raw_fixed_positions": 83,
+        "source_slots": 166,
+        "previous_origins": [
+          {
+            "record_id": "p87_A1",
+            "certificate": "experiments/early_radio_and_leave_records/certificates.json",
+            "inputs": "experiments/early_radio_and_leave_records/inputs.json",
+            "case": "cases/radio/transmitter_dispatch_220_volts.md#p87-a1",
+            "native_source_sha256": "32161ea3ce9bb30bb62d48c863c3c2cf1b6813065cb1c68b73c44b0ca55d228c",
+            "quantify_native_contract_passed": true
+          }
+        ]
+      }
+    ],
+    "partial_source_updates": [
+      {
+        "partial_donor_id": 101,
+        "record_id": "p56_A",
+        "source_index": 202,
+        "previous_source_glyph": "T",
+        "current_source_glyph": "F",
+        "previous_native_sha256": "8d515e68caa429c01c2d3131cf10a232dca9d33185c00d0345c6f5f9b9b0cded",
+        "current_native_sha256": "afcc0c68bdbc640121352fb3dc26b3a8943e78056a3eaf9e824e29ebd78447d0",
+        "previous_raw_fixed_positions": 109,
+        "current_raw_fixed_positions": 110
+      }
+    ],
+    "preserved_scope": "Only the three explicitly source-reviewed donor records change. Original complete and partial IDs are preserved, including the vacated partial ID87. Donor293 is the same originally tested p87_A1 source after it becomes entirely directly readable. The p62_B conditional editorial template is excluded rather than treated as a native partial source. Target observations, square hypotheses, widths, error budgets, support thresholds and all controls remain unchanged."
   },
   "limits": [
     "Every target observation is retained as one contiguous fragment of a whole-column permutation; no column is reused.",

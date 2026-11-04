@@ -107,9 +107,11 @@ def build(pdf=None, replay=False):
             assert key['registered_key_id'] == 'Nov7-9'
             assert set(differences) == {'26', '30'} and set(differences.values()) == set('56')
     full, partial = data['complete_donors'], data['partial_donors']
-    assert len(full) == 291 and len(partial) == 106
-    assert {d['id'] for d in full} == set(range(293)) - {146, 284}
-    assert [d['id'] for d in partial] == list(range(106))
+    assert len(full) == 291 and len(partial) == 105
+    assert {d['id'] for d in full} == set(range(294)) - {131, 146, 284}
+    assert [d['id'] for d in partial] == [i for i in range(106) if i != 87]
+    full_by_id = {d['id']: d for d in full}
+    partial_by_id = {d['id']: d for d in partial}
     assert len({r['text'] for r in full}) == len(full)
     for donor in full:
         text = donor['text']
@@ -141,6 +143,7 @@ def build(pdf=None, replay=False):
             assert counts['fixed_raw_labels_with_all_unobserved_coordinates_unassigned'] == donor['raw_fixed_positions']
             assert counts['excluded_source_slots'] == counts['added_model_slots'] == 0
         partial_domains.append(domains)
+    domains_by_id = {d['id']: ds for d, ds in zip(partial, partial_domains)}
     refresh = data['source_glyph_refresh']
     assert refresh['previous_complete_donor_count'] == 293
     assert refresh['previous_partial_donor_count'] == 104
@@ -153,7 +156,7 @@ def build(pdf=None, replay=False):
                 change['record_id'], change['source_index'], change['plaintext_index'],
                 change['previous_raw_label']) == expected
         assert change['current_raw_label'] == '?'
-        donor = partial[new_id]
+        donor = partial_by_id[new_id]
         assert len(donor['origins']) == 1 and donor['origins'][0]['record_id'] == rid
         source_record = record(read(donor['origins'][0]['inputs']), rid)
         previous = source_record['ambiguous_glyph']['previous_definite_raw']
@@ -162,7 +165,66 @@ def build(pdf=None, replay=False):
         assert [(i, a, b) for i, (a, b) in enumerate(zip(previous, current)) if a != b] == [
             (plaintext_index, old_label, '?')]
         assert donor['source_literal'][source_index] == '?'
-        assert ''.join(d if len(d) == 1 else '?' for d in partial_domains[new_id]) == current
+        assert ''.join(d if len(d) == 1 else '?' for d in domains_by_id[new_id]) == current
+    resumed = data['resumed_source_review']
+    assert resumed['previous_complete_donor_count'] == 291
+    assert resumed['previous_partial_donor_count'] == 106
+    assert len(resumed['complete_exclusions']) == 1
+    exclusion = resumed['complete_exclusions'][0]
+    assert exclusion['former_donor_id'] == 131 and 131 not in full_by_id
+    assert exclusion['changed_labels'] == [
+        {'plaintext_index': 90, 'old_label': '1', 'current_label': '?'}]
+    assert len(exclusion['origins']) == 1
+    origin, path = exclusion['origins'][0]
+    current = read(origin)
+    for part in path:
+        current = current[part]
+    assert current[90] == '?' and current.count('?') == 1
+    assert hashlib.sha256(current.encode()).hexdigest() == exclusion['current_raw_sha256']
+    previous = current[:90] + '1' + current[91:]
+    assert hashlib.sha256(previous.encode()).hexdigest() == exclusion['previous_complete_text_sha256']
+    assert len(resumed['partial_to_complete']) == 1
+    migration = resumed['partial_to_complete'][0]
+    assert (migration['former_partial_donor_id'], migration['new_complete_donor_id'],
+            migration['record_id']) == (87, 293, 'p87_A1')
+    assert 87 not in partial_by_id and len(migration['previous_origins']) == 1
+    origin = migration['previous_origins'][0]
+    source_record = record(read(origin['inputs']), 'p87_A1')
+    native = literal(source_record)
+    assert (migration['source_index'], migration['previous_source_glyph'],
+            migration['current_source_glyph']) == (35, 'E', 'D')
+    assert native[35] == 'D' and len(native) == migration['source_slots'] == 166
+    previous = native[:35] + 'E' + native[36:]
+    assert hashlib.sha256(previous.encode()).hexdigest() == migration['previous_native_sha256']
+    assert hashlib.sha256(native.encode()).hexdigest() == migration['current_native_sha256']
+    source_key = registry['Nov1-3']
+    old_domains = plaintext_domains(previous.replace('E', '?'), source_key['column_rank_order'], source_key['square'])
+    domains = plaintext_domains(native, source_key['column_rank_order'], source_key['square'])
+    assert sum(len(d) == 1 for d in old_domains) == migration['previous_raw_fixed_positions'] == 82
+    assert sum(len(d) == 1 for d in domains) == migration['current_raw_fixed_positions'] == 83
+    assert len(domains[9]) == 1 and domains[9] == 'X'
+    text = ''.join(domains)
+    assert text == source_record['expected_raw'] == full_by_id[293]['text']
+    assert hashlib.sha256(text.encode()).hexdigest() == migration['complete_text_sha256']
+    counts = quantify(origin['certificate'], 'p87_A1')
+    assert counts['frame_kind'] == 'native_order_and_length'
+    assert counts['fixed_raw_labels_with_all_unobserved_coordinates_unassigned'] == 83
+    assert counts['excluded_source_slots'] == counts['added_model_slots'] == 0
+    assert len(resumed['partial_source_updates']) == 1
+    update = resumed['partial_source_updates'][0]
+    assert (update['partial_donor_id'], update['record_id'], update['source_index'],
+            update['previous_source_glyph'], update['current_source_glyph']) == (101, 'p56_A', 202, 'T', 'F')
+    donor = partial_by_id[101]
+    native = donor['source_literal']
+    assert native[202] == 'F'
+    previous = native[:202] + 'T' + native[203:]
+    assert hashlib.sha256(previous.encode()).hexdigest() == update['previous_native_sha256']
+    assert hashlib.sha256(native.encode()).hexdigest() == update['current_native_sha256']
+    source_key = registry[donor['source_key_id']]
+    old_domains = plaintext_domains(''.join(c if c in C else '?' for c in previous),
+                                   source_key['column_rank_order'], source_key['square'])
+    assert sum(len(d) == 1 for d in old_domains) == update['previous_raw_fixed_positions'] == 109
+    assert donor['raw_fixed_positions'] == update['current_raw_fixed_positions'] == 110
     extraction = data['partial_extraction_scope']
     assert extraction['partial_donor_domain_families'] == len(partial)
     assert extraction['source_origins'] == sum(len(d['origins']) for d in partial)
@@ -175,7 +237,7 @@ def build(pdf=None, replay=False):
         assert result['projects'] == 291 * 11 * 13 == 41613
         assert result['hits'] == 0 and 0 <= result['histogram_pass'] <= result['projects']
     result = data['search_summaries']['partial_donors']
-    assert result['projects'] == 106 * 11 * 13 == 15158 and result['hits'] == 0
+    assert result['projects'] == 105 * 11 * 13 == 15015 and result['hits'] == 0
     text = controls['synthetic_full_plaintext']
     observed = controls['synthetic_target_observations']
     square = controls['synthetic_target_square']
@@ -249,9 +311,9 @@ def build(pdf=None, replay=False):
                    'code_sha256': {p: sha(HERE / p) for p in
                                    ['column_donor_match.cpp', 'column_domain_match.cpp', 'extract.py', 'verify.py']},
                    'summary': {'p170_observed_coordinates': 106, 'complete_donor_strings': 291,
-                               'partial_source_domain_families': 106, 'target_square_hypotheses': 11,
+                               'partial_source_domain_families': 105, 'target_square_hypotheses': 11,
                                'widths_per_donor_square': 13, 'complete_projects_per_budget': 41613,
-                               'complete_error_budgets': [0, 1, 2], 'partial_projects': 15158,
+                               'complete_error_budgets': [0, 1, 2], 'partial_projects': 15015,
                                'partial_minimum_direct_support': 90, 'historical_matches': 0,
                                'complete_tiny_bruteforce_comparisons': 36,
                                'partial_tiny_bruteforce_cases': 8,
@@ -260,6 +322,7 @@ def build(pdf=None, replay=False):
                                'accepted_p170_plaintexts': 0},
                    'search_summaries': data['search_summaries'],
                    'source_glyph_refresh': refresh,
+                   'resumed_source_review': resumed,
                    'limits': data['scope_limits']}
     return certificate, evidence, replay_report
 

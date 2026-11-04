@@ -1,0 +1,261 @@
+{
+  "schema": "adfgvx-nov7-9-joint-digit-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "assignment": {
+    "VF": "6",
+    "XA": "5"
+  },
+  "alternative_assignment": {
+    "VF": "5",
+    "XA": "6"
+  },
+  "reference_comparison": {
+    "number": "45610",
+    "assumption": "The two orders concerning Oberleutnant Siegfried and cancellation of his Turkey/Military-Mission assignment cite the same underlying reference. The earlier longer text and later abbreviated two-part text remain separate receptions.",
+    "donor": {
+      "inputs": "experiments/siegfried_assignment_cancellation/inputs.json",
+      "record_id": "p135_A",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "b9375022a5959f64e892334feb427a9afbcd8f447f774d0057aa74b59692bf37",
+      "key_id": "Nov4-6",
+      "reference_start": 42,
+      "excluded_interim_indices": [
+        230,
+        231
+      ]
+    },
+    "target": {
+      "inputs": "experiments/military_mission_recalls/inputs.json",
+      "record_id": "p161_C1",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "d5b7f8cb9c50917713134946019b75f9c505e167ba8420ba90fcb857bc516802",
+      "reference_start": 57
+    }
+  },
+  "records": [
+    {
+      "id": "p162_B1",
+      "inputs": "experiments/nov8_map_and_boundary/inputs.json",
+      "record_id": "p162_B1",
+      "input_root": [],
+      "rows_field": "rows",
+      "source_sha256": "ac5b62da6e37b1b359b5f00dd39c72c1b2229881f7b68ec6e413ec183a376845",
+      "certificate": "experiments/nov8_map_and_boundary/certificates.json",
+      "certificate_record_id": "p162_B1",
+      "cipher_path": [
+        "repaired_working_ciphertext"
+      ],
+      "previous_plaintext": "STELLVERTRXGENERALSTABBERLINXZUSENDUNGVONJE?0BLAETTERNKARTE1ZU7?000XB1B2B3C1C2C3D1D2D3E2E3X",
+      "selected_plaintext": "STELLVERTRXGENERALSTABBERLINXZUSENDUNGVONJE50BLAETTERNKARTE1ZU75000XB1B2B3C1C2C3D1D2D3E2E3X",
+      "new_digit_positions": 2,
+      "case_path": "cases/radio/map_sheet_request.md",
+      "insert_before_source": 1,
+      "conditional_note": "Under the [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md), this requests **50 copies of each listed sheet at 1:75,000**. The alternative square gives 60 copies at 1:76,000. The reference comparison selects the first reading conditionally, with no additional source edit or fill."
+    },
+    {
+      "id": "p160_B1",
+      "inputs": "experiments/nov8_radio_keys_and_reports/inputs.json",
+      "record_id": "p160_B1",
+      "input_root": [],
+      "rows_field": "rows",
+      "source_sha256": "0f6e0a7a2d97b403bfaf8feb6349779a3a978ad495d060e951e5ae6de715dae7",
+      "certificate": "experiments/nov8_radio_keys_and_reports/certificates.json",
+      "certificate_record_id": "p160_B1",
+      "cipher_path": [
+        "edited_reading",
+        "interim"
+      ],
+      "previous_plaintext": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21?00FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+      "selected_plaintext": "AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21600FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX",
+      "new_digit_positions": 1,
+      "case_path": "cases/radio/radio_equipment_sale_prices.md",
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "cipher_is_interim": true,
+      "conditional_note": "The [cross-period reference comparison](../../experiments/nov7_9_joint_digits/README.md) supports **21600** for the first part’s `21?00` field. This conditional digit interpretation adds no source edit and supplies no currency or punctuation; the opposite square gives 21500."
+    },
+    {
+      "id": "p160_C2",
+      "inputs": "experiments/nov8_radio_keys_and_reports/inputs.json",
+      "record_id": "p160_C2",
+      "input_root": [],
+      "rows_field": "rows",
+      "source_sha256": "78d76bcc8136a3b3b705c6c57a773fcf79d5b605055912816f3dac758c006fa8",
+      "certificate": "experiments/nov8_radio_keys_and_reports/certificates.json",
+      "certificate_record_id": "p160_C2",
+      "cipher_path": [
+        "edited_reading",
+        "interim"
+      ],
+      "previous_plaintext": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B498?9X",
+      "selected_plaintext": "NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B49859X",
+      "new_digit_positions": 1,
+      "case_path": "cases/radio/ringbahn_key_reuse.md",
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "cipher_is_interim": true,
+      "conditional_note": "The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) gives **Nach Chef 4 B 49859** in part 2, at no additional source edit or fill. The opposite square gives 49869; the date schedule itself is unchanged."
+    },
+    {
+      "id": "p160_D1",
+      "inputs": "experiments/nov8_radio_keys_and_reports/inputs.json",
+      "record_id": "p160_D1",
+      "input_root": [],
+      "rows_field": "rows",
+      "source_sha256": "15b2d44b112aef007ef251c76c34e5b066ca4e2efc8d04b73b10fb9fb88ff2e9",
+      "certificate": "experiments/nov8_radio_keys_and_reports/certificates.json",
+      "certificate_record_id": "p160_D1",
+      "cipher_path": [
+        "edited_reading",
+        "interim"
+      ],
+      "previous_plaintext": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR?41XAUFTELEGRAMMNRX?8?XTSCHENKE",
+      "selected_plaintext": "POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR641XAUFTELEGRAMMNRX585XTSCHENKE",
+      "new_digit_positions": 3,
+      "case_path": "cases/people/awaloff_return_request.md",
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "cipher_is_interim": true,
+      "conditional_note": "The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) reads the first part’s references as **Nr. 641** and **Telegramm Nr. 585**. The opposite assignment gives 541 and 686. These are conditional reference readings with no additional coordinate changes."
+    },
+    {
+      "id": "p155_C1",
+      "inputs": "experiments/nov7_eighth_part_repetition/inputs.json",
+      "record_id": "p155_C1",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "1ca775f1484bef06fe380b689d5473f404d41f198b6a9212bdf999c4722b13d7",
+      "certificate": "experiments/nov7_eighth_part_repetition/certificates.json",
+      "certificate_record_id": "p155_C1",
+      "cipher_path": [
+        "readable_candidate",
+        "ciphertext"
+      ],
+      "previous_plaintext": "DAACHTERTEILDESAL?CHISX2?X10XXLEITSTELLE707POTNRX1002ANSEKTIONPOLITIKBERLINNICHTZUENTZIFFERNX",
+      "selected_plaintext": "DAACHTERTEILDESAL?CHISX25X10XXLEITSTELLE707POTNRX1002ANSEKTIONPOLITIKBERLINNICHTZUENTZIFFERNX",
+      "new_digit_positions": 1,
+      "case_path": "cases/radio/nov7_eighth_part_repetition.md",
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "conditional_note": "The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) reads **25.10** in part 1 and **RM 5 Nr. 153303** in part 2. The opposite square gives 26.10 and RM 6 Nr. 163303. The first part’s `AL?CHIS` field remains unresolved, and the retained source-frame alternatives are unchanged."
+    },
+    {
+      "id": "p155_C2",
+      "inputs": "experiments/nov7_eighth_part_repetition/inputs.json",
+      "record_id": "p155_C2",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "7fe55e92ed7b43f5033878faf319700021c410608a2760d4b4e2852e19ae5377",
+      "certificate": "experiments/nov7_eighth_part_repetition/certificates.json",
+      "certificate_record_id": "p155_C2",
+      "cipher_path": [
+        "readable_candidate",
+        "ciphertext"
+      ],
+      "previous_plaintext": "PRUEFUNGUNDWIEDERHOLUNG8XTEILESERBETENXNACHRICHTENCHEFRMX?NRX1?3303X",
+      "selected_plaintext": "PRUEFUNGUNDWIEDERHOLUNG8XTEILESERBETENXNACHRICHTENCHEFRMX5NRX153303X",
+      "new_digit_positions": 2,
+      "case_path": "cases/radio/nov7_eighth_part_repetition.md",
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "conditional_note": "The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) reads **25.10** in part 1 and **RM 5 Nr. 153303** in part 2. The opposite square gives 26.10 and RM 6 Nr. 163303. The first part’s `AL?CHIS` field remains unresolved, and the retained source-frame alternatives are unchanged."
+    },
+    {
+      "id": "p172_D2",
+      "inputs": "experiments/staatsbank_accounting_cheques/inputs.json",
+      "record_id": "p172_D2",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "109496a43d29ac3bb7f038a7830f6c753a51c61e467091779e9b44ba4e442e12",
+      "certificate": "experiments/staatsbank_accounting_cheques/certificates.json",
+      "certificate_record_id": "p172_D2",
+      "cipher_path": [
+        "readable_candidate",
+        "ciphertext"
+      ],
+      "previous_plaintext": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM?XGESANDTECHEKSXHAUPTWECHSELAMT89240911X",
+      "selected_plaintext": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM6XGESANDTECHEKSXHAUPTWECHSELAMT89240911X",
+      "new_digit_positions": 1,
+      "case_path": "cases/finance/staatsbank_accounting_cheques.md",
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "conditional_note": "The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) reads **am 6. gesandte Cheks** in part 2. The opposite square gives am 5.; the selected date is conditional on the cross-period reference relation and adds no source repair."
+    },
+    {
+      "id": "p151_E2",
+      "inputs": "experiments/nov9_operations_map_sheets/inputs.json",
+      "record_id": null,
+      "input_root": [
+        "record"
+      ],
+      "rows_field": "source_rows",
+      "source_sha256": "5f5630dfb6568afac11b2054cf5ffa558764c64be3293a3b5adda8620b8f2878",
+      "certificate": "experiments/nov9_operations_map_sheets/certificates.json",
+      "certificate_record_id": null,
+      "cipher_path": [
+        "optional_edition",
+        "ciphertext"
+      ],
+      "previous_plaintext": "OPERATIONSKARTE1ZU100000SALZBURGWIENLEMBERGBRESLAUJE40BLATTXWARSCHAU10BLATTANGARNISONKDOGLEIWITZFSXAOK11X1D70??X",
+      "selected_plaintext": "OPERATIONSKARTE1ZU100000SALZBURGWIENLEMBERGBRESLAUJE40BLATTXWARSCHAU10BLATTANGARNISONKDOGLEIWITZFSXAOK11X1D7065X",
+      "new_digit_positions": 2,
+      "case_path": "cases/radio/nov9_operations_map_sheets.md",
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "conditional_note": "The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) supplies the closing **AOK 11, 1d 7065**, completing the two remaining labels at no additional source edit or fill. The opposite square gives 7056. The map scale, sheet names and quantities are already read independently of this choice."
+    },
+    {
+      "id": "p161_C1",
+      "inputs": "experiments/military_mission_recalls/inputs.json",
+      "record_id": "p161_C1",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "d5b7f8cb9c50917713134946019b75f9c505e167ba8420ba90fcb857bc516802",
+      "certificate": "experiments/military_mission_recalls/certificates.json",
+      "certificate_record_id": "p161_C1",
+      "cipher_path": [
+        "edition",
+        "ciphertext"
+      ],
+      "previous_plaintext": "SSDOPPELGRXHQXMKX2X?1XMILITAERMISZIONKONSTANTINOPELXZU2NR4??10XKOMDOOBERLTSSIEGFRIEDNACHTUERKEIUDESZEN",
+      "selected_plaintext": "SSDOPPELGRXHQXMKX2X?1XMILITAERMISZIONKONSTANTINOPELXZU2NR45610XKOMDOOBERLTSSIEGFRIEDNACHTUERKEIUDESZEN",
+      "new_digit_positions": 2,
+      "case_path": "cases/people/military_mission_recalls.md",
+      "mapping_path": [
+        "frame_to_source_indices"
+      ],
+      "conditional_note": "An earlier Siegfried cancellation, [p135 A](siegfried_assignment_cancellation.md), directly supplies **45610** under the Nov4–6 key. If both orders cite the same reference, p161 C1’s observed XA/VF pairs fix **XA=5, VF=6**, so its reference reads **ZU2NR45610**. The two orders differ in wording and reception; [the complete comparison](../../experiments/nov7_9_joint_digits/README.md) retains the alternative 46510 and the separate erased date digit."
+    },
+    {
+      "id": "p175_B2",
+      "inputs": "experiments/hauptwechselamt_accounting/inputs.json",
+      "record_id": "p175_B2",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "354dfaffc061e3f2385fdd2fc48f4f5e45789dc653590458fc2706072aed2bcc",
+      "certificate": "experiments/accounting_copy_reconciliation/certificates.json",
+      "certificate_record_id": null,
+      "cipher_path": [
+        "conservative_p175_candidate",
+        "ciphertext"
+      ],
+      "previous_plaintext": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM?XGESANDTECHEKSXHAUPTWECHSELAMT89240911?",
+      "selected_plaintext": "VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM6XGESANDTECHEKSXHAUPTWECHSELAMT892409116",
+      "new_digit_positions": 2,
+      "case_path": "cases/finance/hauptwechselamt_accounting.md",
+      "conditional_note": "The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) reads **am 6. gesandte Cheks** and the literal closing **892409116**, without additional coordinate changes or fills. The opposite assignment gives am 5. and 892409115. The final label is preserved as transmitted, rather than normalized to a date or matched to another reception’s separator."
+    }
+  ]
+}

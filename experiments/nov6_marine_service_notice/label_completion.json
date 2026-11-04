@@ -1,0 +1,114 @@
+{
+  "schema": "adfgvx-marine-service-label-completion-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "record": "p138_C",
+  "source_sha256": "25343174d7f4bc32f846110ddbde4130490454637df930f30c001e812dbd67f3",
+  "proposal": "SEEKRIEGSLEITUNGGROSSESXHZYUXXADMIRALBERLINXXNACHCHEFXXDEUTSCHEXMARINEVERTRXUNDHEERESGRUPPEXKIEWXXOSMANIEAUSGEFALLENXALLESTELLENBENACHRICHTIGEN",
+  "readable_german": "Seekriegsleitung. Grosses HZYU. Admiral Berlin. Nachchef. Deutsche Marinevertr und Heeresgruppe Kiew. Osmanie ausgefallen. Alle Stellen benachrichtigen.",
+  "fields": [
+    {
+      "plaintext_index": 95,
+      "before": "?",
+      "proposed": "W",
+      "word": "KIEW",
+      "source_index": 44,
+      "printed": "C",
+      "coordinate": "F",
+      "native_domain": "17FHLW",
+      "donor": "p110_B"
+    },
+    {
+      "plaintext_index": 99,
+      "before": "?",
+      "proposed": "S",
+      "word": "OSMANIE",
+      "source_index": 146,
+      "printed": "O",
+      "coordinate": "X",
+      "native_domain": "23BHSV",
+      "donor": "p77_B"
+    }
+  ],
+  "donors": [
+    {
+      "record": "p110_B",
+      "inputs": "experiments/nov3_radio_and_pioneer/inputs.json",
+      "source_field": "literal_source",
+      "raw_field": "expected_raw",
+      "key_id": "Nov1-3",
+      "source_sha256": "1cc4551e9c37ed13022295ad197aff9d54e7f31a9f63f597ff3a3d15c80707c0",
+      "word": "KIEW",
+      "context": "HRGXKIEW",
+      "case": "cases/military/kiew_morning_and_pioneer_reports.md#p110-b",
+      "relationship": "A separate morning report has the observed closing HRG KIEW. It supports the army-group name, not an identical copy of p138 C."
+    },
+    {
+      "record": "p77_B",
+      "inputs": "experiments/source_followup/source_context.json",
+      "source_field": "raw_source_grouped",
+      "raw_field": "arithmetic.raw_plaintext",
+      "key_id": "Oct28-31",
+      "source_sha256": "e4409711ee5181a373a5868e8b560fdec79f161a6e97e7075bdae9106f47a004",
+      "word": "OSMANIE",
+      "context": "FUNKERABTLGXOSMANIE",
+      "case": "cases/context/radio_instructions.md#p77-b--call-sign-instruction-for-konia",
+      "relationship": "The October call-sign instruction directly names Funkerabtlg Osmanie. It supplies an independent station-name spelling under a different key."
+    }
+  ],
+  "limits": [
+    "The two letters are contextual choices within their native six-symbol domains. Neither mask has become a cipher-only singleton.",
+    "The original 286-slot transcription, stroke exclusion, final-slot insertion and three ordinary-word substitutions are unchanged.",
+    "HZYU remains literal in this name-completed layer; the separately priced headquarters-address proposal requires two further substitutions. The telegram reports Osmanie unavailable without stating a cause or proving that the notification was sent.",
+    "The two earlier telegrams are name witnesses, not retransmissions of this notice. No new physical source is added."
+  ],
+  "optional_headquarters_address": {
+    "before": "GROSSESXHZYUXX",
+    "after": "GROSSESXHXQUXX",
+    "proposal": "SEEKRIEGSLEITUNGGROSSESXHXQUXXADMIRALBERLINXXNACHCHEFXXDEUTSCHEXMARINEVERTRXUNDHEERESGRUPPEXKIEWXXOSMANIEAUSGEFALLENXALLESTELLENBENACHRICHTIGEN",
+    "readable_fragment": "Grosses H. Qu.",
+    "case_summary": "The address may read **Grosses H. Qu.** (Grosses Hauptquartier). Independent raw telegrams use `HXQU`; applying that abbreviation here changes `GROSSESXHZYUXX` to `GROSSESXHXQUXX`.",
+    "donors": [
+      {
+        "record": "p102_B1",
+        "inputs": "experiments/nov1_mackensen_and_orient_reports/inputs.json",
+        "source_field": "literal_source",
+        "raw_field": "expected_raw",
+        "key_id": "Nov1-3",
+        "source_sha256": "e533f39162de9e4c7e6459b46596745025c5b62770b7a019d749fdacf6e36083",
+        "word": "HXQU",
+        "context": "GDXHXQU",
+        "case": "cases/military/orient_south_slav_reports.md#p102-b1",
+        "relationship": "Independent raw abbreviation witness under a different period key, not a repeated copy of p138 C."
+      },
+      {
+        "record": "p86_A",
+        "inputs": "experiments/inventory_and_medical_return/inputs.json",
+        "source_field": "literal_source",
+        "raw_field": "expected_unmodified_raw",
+        "key_id": "Oct28-31",
+        "source_sha256": "fc7c4f92139698ef4421ac78f402dddb84ebef5c6b13f490720e7a62d7a9010c",
+        "word": "HXQU",
+        "context": "GRXHXQU",
+        "case": "cases/military/mg08_inventory.md",
+        "relationship": "Independent raw abbreviation witness under a different period key, not a repeated copy of p138 C."
+      }
+    ],
+    "expected_additional_substitutions": [
+      [
+        104,
+        "V",
+        "D"
+      ],
+      [
+        121,
+        "V",
+        "F"
+      ]
+    ],
+    "limits": [
+      "The two original V coordinates are retained as observations. The address requires two additional substitutions; it is not a newly identified OCR correction.",
+      "All 143 labels were already fixed in the name-completed conditional layer. This proposal interprets an opaque address without increasing the fixed-position count.",
+      "The donor telegrams establish abbreviation usage, not a duplicate reception or a unique plaintext for this notice. The lower-cost HZYU reading remains recorded."
+    ]
+  }
+}
